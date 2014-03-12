@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hamusic"
+        "phrase": "hamusic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "ABCIndex",
           "package": "hamusic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "ABCIndex",
           "package": "hamusic",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "ABCKey",
           "package": "hamusic",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "ABCKey",
           "package": "hamusic",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "ABCL",
           "package": "hamusic",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "ABCL",
           "package": "hamusic",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "ABCMetaData",
           "package": "hamusic",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "ABCMetaData",
           "package": "hamusic",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "ABCMeter",
           "package": "hamusic",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "ABCMeter",
           "package": "hamusic",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "ABCMusic",
           "package": "hamusic",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "ABCMusic",
           "package": "hamusic",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "ABCMusicData",
           "package": "hamusic",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "ABCMusicData",
           "package": "hamusic",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "ABCNote",
           "package": "hamusic",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "ABCNote",
           "package": "hamusic",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "ABCTitle",
           "package": "hamusic",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "ABCTitle",
           "package": "hamusic",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "Accident",
           "package": "hamusic",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "Accident",
           "package": "hamusic",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "Accidental",
           "package": "hamusic",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "Accidental",
           "package": "hamusic",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "Dotted",
           "package": "hamusic",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "Dotted",
           "package": "hamusic",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "Duration",
           "package": "hamusic",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "Duration",
           "package": "hamusic",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "Octave",
           "package": "hamusic",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "Octave",
           "package": "hamusic",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.ABC",
           "name": "Pitch",
           "package": "hamusic",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.ABC",
           "name": "Pitch",
           "package": "hamusic",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "A",
           "package": "hamusic",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "A",
           "package": "hamusic",
@@ -353,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "Annot",
           "package": "hamusic",
@@ -361,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "Annot",
           "package": "hamusic",
@@ -374,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "AnnotationAbsolute",
           "package": "hamusic",
@@ -382,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "AnnotationAbsolute",
           "package": "hamusic",
@@ -395,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "AnnotationNode",
           "package": "hamusic",
@@ -403,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "AnnotationNode",
           "package": "hamusic",
@@ -416,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "AnnotationRelative",
           "package": "hamusic",
@@ -424,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "AnnotationRelative",
           "package": "hamusic",
@@ -438,6 +478,7 @@
       "document": {
         "description": {
           "description": "Definition of annotation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "MultiAnnotationNode",
           "package": "hamusic",
@@ -447,6 +488,7 @@
         "index": {
           "description": "Definition of annotation",
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "MultiAnnotationNode",
           "package": "hamusic",
@@ -461,6 +503,7 @@
       "document": {
         "description": {
           "description": "absolute transformation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "absolute",
           "package": "hamusic",
@@ -471,6 +514,7 @@
         "index": {
           "description": "absolute transformation using above layers",
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "absolute",
           "normalized": "Motive AnnotationRelative-\u003eMotive AnnotationAbsolute",
@@ -486,6 +530,7 @@
       "document": {
         "description": {
           "description": "duration computation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "duration",
           "package": "hamusic",
@@ -496,6 +541,7 @@
         "index": {
           "description": "duration computation using above layers",
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "duration",
           "normalized": "Motive MultiAnnotationNode-\u003e[Number]",
@@ -511,6 +557,7 @@
       "document": {
         "description": {
           "description": "relative transformation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "relative",
           "package": "hamusic",
@@ -521,6 +568,7 @@
         "index": {
           "description": "relative transformation using above layers",
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "relative",
           "normalized": "Motive AnnotationAbsolute-\u003eMotive AnnotationRelative",
@@ -536,6 +584,7 @@
       "document": {
         "description": {
           "description": "reverse using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "reverse",
           "package": "hamusic",
@@ -546,6 +595,7 @@
         "index": {
           "description": "reverse using above layers",
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "reverse",
           "normalized": "Motive MultiAnnotationNode-\u003eMotive MultiAnnotationNode",
@@ -561,6 +611,7 @@
       "document": {
         "description": {
           "description": "sefault settings\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "settings",
           "package": "hamusic",
@@ -571,6 +622,7 @@
         "index": {
           "description": "sefault settings",
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "settings",
           "package": "hamusic",
@@ -584,6 +636,7 @@
       "document": {
         "description": {
           "description": "tempo transformation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "tempo",
           "package": "hamusic",
@@ -594,6 +647,7 @@
         "index": {
           "description": "tempo transformation using above layers",
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "tempo",
           "normalized": "Number-\u003eMotive AnnotationAbsolute-\u003eMotive AnnotationAbsolute",
@@ -609,6 +663,7 @@
       "document": {
         "description": {
           "description": "Transpose using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "transpose",
           "package": "hamusic",
@@ -619,6 +674,7 @@
         "index": {
           "description": "Transpose using above layers",
           "hierarchy": "Music Analysis Abstract Annotation",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Annotation",
           "name": "transpose",
           "normalized": "Number-\u003eMotive AnnotationAbsolute-\u003eMotive AnnotationAbsolute",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "MultiInstrumentAbsolute",
           "package": "hamusic",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Instruments",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "MultiInstrumentAbsolute",
           "package": "hamusic",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "MultiInstrumentNode",
           "package": "hamusic",
@@ -662,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Instruments",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "MultiInstrumentNode",
           "package": "hamusic",
@@ -675,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "MultiInstrumentRelative",
           "package": "hamusic",
@@ -683,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Instruments",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "MultiInstrumentRelative",
           "package": "hamusic",
@@ -697,6 +759,7 @@
       "document": {
         "description": {
           "description": "absolute transformation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "absolute",
           "package": "hamusic",
@@ -707,6 +770,7 @@
         "index": {
           "description": "absolute transformation using above layers",
           "hierarchy": "Music Analysis Abstract Instruments",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "absolute",
           "normalized": "Motive MultiInstrumentRelative-\u003eMotive MultiInstrumentAbsolute",
@@ -722,6 +786,7 @@
       "document": {
         "description": {
           "description": "duration computation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "duration",
           "package": "hamusic",
@@ -732,6 +797,7 @@
         "index": {
           "description": "duration computation using above layers",
           "hierarchy": "Music Analysis Abstract Instruments",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "duration",
           "normalized": "Motive MultiInstrumentNode-\u003e[Number]",
@@ -747,6 +813,7 @@
       "document": {
         "description": {
           "description": "relative transformation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "relative",
           "package": "hamusic",
@@ -757,6 +824,7 @@
         "index": {
           "description": "relative transformation using above layers",
           "hierarchy": "Music Analysis Abstract Instruments",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "relative",
           "normalized": "Motive MultiInstrumentAbsolute-\u003eMotive MultiInstrumentRelative",
@@ -772,6 +840,7 @@
       "document": {
         "description": {
           "description": "reverse using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "reverse",
           "package": "hamusic",
@@ -782,6 +851,7 @@
         "index": {
           "description": "reverse using above layers",
           "hierarchy": "Music Analysis Abstract Instruments",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "reverse",
           "normalized": "Motive MultiInstrumentNode-\u003eMotive MultiInstrumentNode",
@@ -797,6 +867,7 @@
       "document": {
         "description": {
           "description": "default settings\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "settings",
           "package": "hamusic",
@@ -807,6 +878,7 @@
         "index": {
           "description": "default settings",
           "hierarchy": "Music Analysis Abstract Instruments",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "settings",
           "package": "hamusic",
@@ -820,6 +892,7 @@
       "document": {
         "description": {
           "description": "tempo transformation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "tempo",
           "package": "hamusic",
@@ -830,6 +903,7 @@
         "index": {
           "description": "tempo transformation using above layers",
           "hierarchy": "Music Analysis Abstract Instruments",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "tempo",
           "normalized": "Number-\u003eMotive MultiInstrumentAbsolute-\u003eMotive MultiInstrumentAbsolute",
@@ -845,6 +919,7 @@
       "document": {
         "description": {
           "description": "Transpose using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "transpose",
           "package": "hamusic",
@@ -855,6 +930,7 @@
         "index": {
           "description": "Transpose using above layers",
           "hierarchy": "Music Analysis Abstract Instruments",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Instruments",
           "name": "transpose",
           "normalized": "Number-\u003eMotive MultiInstrumentAbsolute-\u003eMotive MultiInstrumentAbsolute",
@@ -870,6 +946,7 @@
       "document": {
         "description": {
           "description": "Accident is defined as number \u003cem\u003eprovisional\u003c/em\u003e. \n  It doesn't support natural (only supports flats and sharps)\n To supports sharps, flats and natural, it will be \u003ctt\u003eMaybe Number\u003c/tt\u003e\n This number is number of half-tones.\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "Accident",
           "package": "hamusic",
@@ -879,6 +956,7 @@
         "index": {
           "description": "Accident is defined as number provisional It doesn support natural only supports flats and sharps To supports sharps flats and natural it will be Maybe Number This number is number of half-tones",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "Accident",
           "package": "hamusic",
@@ -892,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "AccidentClass",
           "package": "hamusic",
@@ -900,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "AccidentClass",
           "package": "hamusic",
@@ -913,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "MelodicAbsolute",
           "package": "hamusic",
@@ -921,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "MelodicAbsolute",
           "package": "hamusic",
@@ -934,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "MelodicClass",
           "package": "hamusic",
@@ -942,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "MelodicClass",
           "package": "hamusic",
@@ -956,6 +1040,7 @@
       "document": {
         "description": {
           "description": "MelodicNode with PitchClass\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "MelodicClassNode",
           "package": "hamusic",
@@ -965,6 +1050,7 @@
         "index": {
           "description": "MelodicNode with PitchClass",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "MelodicClassNode",
           "package": "hamusic",
@@ -978,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "MelodicNode",
           "package": "hamusic",
@@ -986,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "MelodicNode",
           "package": "hamusic",
@@ -999,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "MelodicRelative",
           "package": "hamusic",
@@ -1007,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "MelodicRelative",
           "package": "hamusic",
@@ -1021,6 +1111,7 @@
       "document": {
         "description": {
           "description": "Melodic node \n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "Pitch",
           "package": "hamusic",
@@ -1030,6 +1121,7 @@
         "index": {
           "description": "Melodic node",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "Pitch",
           "package": "hamusic",
@@ -1043,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "PitchClass",
           "package": "hamusic",
@@ -1051,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "PitchClass",
           "package": "hamusic",
@@ -1065,6 +1159,7 @@
       "document": {
         "description": {
           "description": "Transforms Char into 7-Number  notation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "absPitch",
           "package": "hamusic",
@@ -1075,6 +1170,7 @@
         "index": {
           "description": "Transforms Char into Number notation",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "absPitch",
           "normalized": "(PitchClass,Accident)-\u003e(Number,Accident)",
@@ -1091,6 +1187,7 @@
       "document": {
         "description": {
           "description": "absolute PF\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "absolute",
           "package": "hamusic",
@@ -1101,6 +1198,7 @@
         "index": {
           "description": "absolute PF",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "absolute",
           "normalized": "Motive MelodicRelative-\u003eMotive MelodicAbsolute",
@@ -1116,6 +1214,7 @@
       "document": {
         "description": {
           "description": "transforms 12-level into 7-level notation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "f12to7",
           "package": "hamusic",
@@ -1126,6 +1225,7 @@
         "index": {
           "description": "transforms level into level notation",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "f12to7",
           "normalized": "(Number,Accident)-\u003e(Number,Accident)",
@@ -1141,6 +1241,7 @@
       "document": {
         "description": {
           "description": "transforms 7 level to 12-level notation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "f7to12",
           "package": "hamusic",
@@ -1151,6 +1252,7 @@
         "index": {
           "description": "transforms level to level notation",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "f7to12",
           "normalized": "(Number,Accident)-\u003e(Number,Accident)",
@@ -1166,6 +1268,7 @@
       "document": {
         "description": {
           "description": "Convert 12-absolute into 7-absolute notation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "from12",
           "package": "hamusic",
@@ -1176,6 +1279,7 @@
         "index": {
           "description": "Convert absolute into absolute notation",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "from12",
           "normalized": "Motive MelodicAbsolute-\u003eMotive MelodicAbsolute",
@@ -1191,6 +1295,7 @@
       "document": {
         "description": {
           "description": "get 7-Absolute music from alpha notation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "fromAlpha",
           "package": "hamusic",
@@ -1201,6 +1306,7 @@
         "index": {
           "description": "get Absolute music from alpha notation",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "fromAlpha",
           "normalized": "Motive MelodicClassNode-\u003eMotive MelodicAbsolute",
@@ -1217,6 +1323,7 @@
       "document": {
         "description": {
           "description": "default non-rest\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "mkNoRest",
           "package": "hamusic",
@@ -1227,6 +1334,7 @@
         "index": {
           "description": "default non-rest",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "mkNoRest",
           "package": "hamusic",
@@ -1241,6 +1349,7 @@
       "document": {
         "description": {
           "description": "Default rest\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "mkRest",
           "package": "hamusic",
@@ -1251,6 +1360,7 @@
         "index": {
           "description": "Default rest",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "mkRest",
           "package": "hamusic",
@@ -1265,6 +1375,7 @@
       "document": {
         "description": {
           "description": "Transforms 7-number into Char notation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "pitch",
           "package": "hamusic",
@@ -1275,6 +1386,7 @@
         "index": {
           "description": "Transforms number into Char notation",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "pitch",
           "normalized": "(Number,Accident)-\u003e(IntegerNumber,(PitchClass,Accident))",
@@ -1290,6 +1402,7 @@
       "document": {
         "description": {
           "description": "Transforms 7-number into Char notation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "pitch'",
           "package": "hamusic",
@@ -1300,6 +1413,7 @@
         "index": {
           "description": "Transforms number into Char notation",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "pitch'",
           "normalized": "(Number,Accident)-\u003e(PitchClass,Accident)",
@@ -1315,6 +1429,7 @@
       "document": {
         "description": {
           "description": "relative melodic.\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "relative",
           "package": "hamusic",
@@ -1325,6 +1440,7 @@
         "index": {
           "description": "relative melodic",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "relative",
           "normalized": "Motive MelodicAbsolute-\u003eMotive MelodicRelative",
@@ -1340,6 +1456,7 @@
       "document": {
         "description": {
           "description": "rest combinator\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "rest",
           "package": "hamusic",
@@ -1350,6 +1467,7 @@
         "index": {
           "description": "rest combinator",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "rest",
           "normalized": "a-\u003e((Delta,Accident)-\u003ea)-\u003eMelodicNode-\u003ea",
@@ -1365,6 +1483,7 @@
       "document": {
         "description": {
           "description": "Reverse\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "reverse",
           "package": "hamusic",
@@ -1375,6 +1494,7 @@
         "index": {
           "description": "Reverse",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "reverse",
           "normalized": "Motive MelodicNode-\u003eMotive MelodicNode",
@@ -1390,6 +1510,7 @@
       "document": {
         "description": {
           "description": "default settings\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "settings",
           "package": "hamusic",
@@ -1400,6 +1521,7 @@
         "index": {
           "description": "default settings",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "settings",
           "package": "hamusic",
@@ -1413,6 +1535,7 @@
       "document": {
         "description": {
           "description": "symmetric melodic\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "symmetric",
           "package": "hamusic",
@@ -1423,6 +1546,7 @@
         "index": {
           "description": "symmetric melodic",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "symmetric",
           "normalized": "Number-\u003eMotive MelodicAbsolute-\u003eMotive MelodicAbsolute",
@@ -1438,6 +1562,7 @@
       "document": {
         "description": {
           "description": "Convert 7-absolute into 12-absolute notation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "to12",
           "package": "hamusic",
@@ -1448,6 +1573,7 @@
         "index": {
           "description": "Convert absolute into absolute notation",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "to12",
           "normalized": "Motive MelodicAbsolute-\u003eMotive MelodicAbsolute",
@@ -1463,6 +1589,7 @@
       "document": {
         "description": {
           "description": "Convert to alpha notation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "toAlpha",
           "package": "hamusic",
@@ -1473,6 +1600,7 @@
         "index": {
           "description": "Convert to alpha notation",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "toAlpha",
           "normalized": "Motive MelodicAbsolute-\u003eMotive(Maybe(IntegerNumber,(PitchClass,Accident)))",
@@ -1489,6 +1617,7 @@
       "document": {
         "description": {
           "description": "Convert to alpha notation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "toAlpha'",
           "package": "hamusic",
@@ -1499,6 +1628,7 @@
         "index": {
           "description": "Convert to alpha notation",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "toAlpha'",
           "normalized": "Motive MelodicNode-\u003eMotive MelodicClassNode",
@@ -1515,6 +1645,7 @@
       "document": {
         "description": {
           "description": "Transposes over 7 absolute level\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "transpose",
           "package": "hamusic",
@@ -1525,6 +1656,7 @@
         "index": {
           "description": "Transposes over absolute level",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "transpose",
           "normalized": "Number-\u003eMotive MelodicAbsolute-\u003eMotive MelodicAbsolute",
@@ -1540,6 +1672,7 @@
       "document": {
         "description": {
           "description": "Transpose to 12 level \n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "transpose12",
           "package": "hamusic",
@@ -1550,6 +1683,7 @@
         "index": {
           "description": "Transpose to level",
           "hierarchy": "Music Analysis Abstract Melodic",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Melodic",
           "name": "transpose12",
           "normalized": "Number-\u003eMelodicAbsolute-\u003eMelodicAbsolute",
@@ -1564,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "Motive",
           "package": "hamusic",
@@ -1572,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Motive",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "Motive",
           "package": "hamusic",
@@ -1586,6 +1722,7 @@
       "document": {
         "description": {
           "description": "General cata \n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "cataMotive",
           "package": "hamusic",
@@ -1596,6 +1733,7 @@
         "index": {
           "description": "General cata",
           "hierarchy": "Music Analysis Abstract Motive",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "cataMotive",
           "normalized": "a-\u003e(Settings-\u003e(b,a)-\u003ea)-\u003eMotive b-\u003e(Settings,a)",
@@ -1612,6 +1750,7 @@
       "document": {
         "description": {
           "description": "get Internal Motive representation \n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "fromMotive",
           "package": "hamusic",
@@ -1622,6 +1761,7 @@
         "index": {
           "description": "get Internal Motive representation",
           "hierarchy": "Music Analysis Abstract Motive",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "fromMotive",
           "normalized": "Motive a-\u003e(Settings,[a])",
@@ -1638,6 +1778,7 @@
       "document": {
         "description": {
           "description": "join List of Motive into Motive of List\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "joinMotiveList",
           "package": "hamusic",
@@ -1648,6 +1789,7 @@
         "index": {
           "description": "join List of Motive into Motive of List",
           "hierarchy": "Music Analysis Abstract Motive",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "joinMotiveList",
           "normalized": "[Motive a]-\u003eMotive[a]",
@@ -1664,6 +1806,7 @@
       "document": {
         "description": {
           "description": "join Pair of Motive into Motive of Pair\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "joinMotivePair",
           "package": "hamusic",
@@ -1674,6 +1817,7 @@
         "index": {
           "description": "join Pair of Motive into Motive of Pair",
           "hierarchy": "Music Analysis Abstract Motive",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "joinMotivePair",
           "normalized": "(Motive a,Motive b)-\u003eMotive(a,b)",
@@ -1690,6 +1834,7 @@
       "document": {
         "description": {
           "description": "General map \n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "mapMotive",
           "package": "hamusic",
@@ -1700,6 +1845,7 @@
         "index": {
           "description": "General map",
           "hierarchy": "Music Analysis Abstract Motive",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "mapMotive",
           "normalized": "(Settings-\u003ea-\u003eb)-\u003eMotive a-\u003eMotive b",
@@ -1715,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "meta",
           "package": "hamusic",
@@ -1724,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Motive",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "meta",
           "normalized": "(Settings-\u003eSettings)-\u003eMotive a-\u003eMotive a",
@@ -1739,6 +1887,7 @@
       "document": {
         "description": {
           "description": "make new motive\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "mkMotive",
           "package": "hamusic",
@@ -1749,6 +1898,7 @@
         "index": {
           "description": "make new motive",
           "hierarchy": "Music Analysis Abstract Motive",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "mkMotive",
           "normalized": "Settings-\u003e[a]-\u003eMotive a",
@@ -1765,6 +1915,7 @@
       "document": {
         "description": {
           "description": "split Motive of List into List of Motive\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "splitMotiveList",
           "package": "hamusic",
@@ -1775,6 +1926,7 @@
         "index": {
           "description": "split Motive of List into List of Motive",
           "hierarchy": "Music Analysis Abstract Motive",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "splitMotiveList",
           "normalized": "Motive[a]-\u003e[Motive a]",
@@ -1791,6 +1943,7 @@
       "document": {
         "description": {
           "description": "Split Motive of Pair into Pair of Motive\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "splitMotivePair",
           "package": "hamusic",
@@ -1801,6 +1954,7 @@
         "index": {
           "description": "Split Motive of Pair into Pair of Motive",
           "hierarchy": "Music Analysis Abstract Motive",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "splitMotivePair",
           "normalized": "Motive(a,b)-\u003e(Motive a,Motive b)",
@@ -1817,6 +1971,7 @@
       "document": {
         "description": {
           "description": "get Motive from internal representation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "toMotive",
           "package": "hamusic",
@@ -1827,6 +1982,7 @@
         "index": {
           "description": "get Motive from internal representation",
           "hierarchy": "Music Analysis Abstract Motive",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Motive",
           "name": "toMotive",
           "normalized": "(Settings,[a])-\u003eMotive a",
@@ -1843,6 +1999,7 @@
       "document": {
         "description": {
           "description": "Info\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "NotationInfo",
           "package": "hamusic",
@@ -1852,6 +2009,7 @@
         "index": {
           "description": "Info",
           "hierarchy": "Music Analysis Abstract Notations",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "NotationInfo",
           "package": "hamusic",
@@ -1866,6 +2024,7 @@
       "document": {
         "description": {
           "description": "New Notation Node\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "NotationNode",
           "package": "hamusic",
@@ -1875,6 +2034,7 @@
         "index": {
           "description": "New Notation Node",
           "hierarchy": "Music Analysis Abstract Notations",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "NotationNode",
           "package": "hamusic",
@@ -1889,6 +2049,7 @@
       "document": {
         "description": {
           "description": "New Notation Position\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "NotationPosition",
           "package": "hamusic",
@@ -1898,6 +2059,7 @@
         "index": {
           "description": "New Notation Position",
           "hierarchy": "Music Analysis Abstract Notations",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "NotationPosition",
           "package": "hamusic",
@@ -1912,6 +2074,7 @@
       "document": {
         "description": {
           "description": "Position\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "Position",
           "package": "hamusic",
@@ -1921,6 +2084,7 @@
         "index": {
           "description": "Position",
           "hierarchy": "Music Analysis Abstract Notations",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "Position",
           "package": "hamusic",
@@ -1935,6 +2099,7 @@
       "document": {
         "description": {
           "description": "absolute transformation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "absolute",
           "package": "hamusic",
@@ -1945,6 +2110,7 @@
         "index": {
           "description": "absolute transformation using above layers",
           "hierarchy": "Music Analysis Abstract Notations",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "absolute",
           "normalized": "Motive(VoiceZipRelative,NotationNode)-\u003eMotive(VoiceZipAbsolute,NotationNode)",
@@ -1959,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "addNotation",
           "package": "hamusic",
@@ -1968,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Notations",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "addNotation",
           "normalized": "NotationPosition-\u003eNotationInfo-\u003eNotationNode-\u003eNotationNode",
@@ -1984,6 +2152,7 @@
       "document": {
         "description": {
           "description": "duration computation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "duration",
           "package": "hamusic",
@@ -1994,6 +2163,7 @@
         "index": {
           "description": "duration computation using above layers",
           "hierarchy": "Music Analysis Abstract Notations",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "duration",
           "normalized": "Motive(VoiceZipNode,NotationNode)-\u003eNumber",
@@ -2009,6 +2179,7 @@
       "document": {
         "description": {
           "description": "relative transformation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "relative",
           "package": "hamusic",
@@ -2019,6 +2190,7 @@
         "index": {
           "description": "relative transformation using above layers",
           "hierarchy": "Music Analysis Abstract Notations",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "relative",
           "normalized": "Motive(VoiceZipAbsolute,NotationNode)-\u003eMotive(VoiceZipRelative,NotationNode)",
@@ -2034,6 +2206,7 @@
       "document": {
         "description": {
           "description": "reverse using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "reverse",
           "package": "hamusic",
@@ -2044,6 +2217,7 @@
         "index": {
           "description": "reverse using above layers",
           "hierarchy": "Music Analysis Abstract Notations",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "reverse",
           "normalized": "Motive(VoiceZipNode,NotationNode)-\u003eMotive(VoiceZipNode,NotationNode)",
@@ -2059,6 +2233,7 @@
       "document": {
         "description": {
           "description": "sefault settings\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "settings",
           "package": "hamusic",
@@ -2069,6 +2244,7 @@
         "index": {
           "description": "sefault settings",
           "hierarchy": "Music Analysis Abstract Notations",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "settings",
           "package": "hamusic",
@@ -2082,6 +2258,7 @@
       "document": {
         "description": {
           "description": "tempo transformation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "tempo",
           "package": "hamusic",
@@ -2092,6 +2269,7 @@
         "index": {
           "description": "tempo transformation using above layers",
           "hierarchy": "Music Analysis Abstract Notations",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "tempo",
           "normalized": "Number-\u003eMotive(VoiceZipAbsolute,NotationNode)-\u003eMotive(VoiceZipAbsolute,NotationNode)",
@@ -2107,6 +2285,7 @@
       "document": {
         "description": {
           "description": "transpose using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "transpose",
           "package": "hamusic",
@@ -2117,6 +2296,7 @@
         "index": {
           "description": "transpose using above layers",
           "hierarchy": "Music Analysis Abstract Notations",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Notations",
           "name": "transpose",
           "normalized": "Number-\u003eMotive(VoiceZipAbsolute,NotationNode)-\u003eMotive(VoiceZipAbsolute,NotationNode)",
@@ -2132,6 +2312,7 @@
       "document": {
         "description": {
           "description": "Dots is defined by number.\n Only Integers and positive numbers are allowed.\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "Dots",
           "package": "hamusic",
@@ -2141,6 +2322,7 @@
         "index": {
           "description": "Dots is defined by number Only Integers and positive numbers are allowed",
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "Dots",
           "package": "hamusic",
@@ -2154,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "Duration",
           "package": "hamusic",
@@ -2162,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "Duration",
           "package": "hamusic",
@@ -2175,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "DurationClass",
           "package": "hamusic",
@@ -2183,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "DurationClass",
           "package": "hamusic",
@@ -2196,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "RhythmAbsolute",
           "package": "hamusic",
@@ -2204,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "RhythmAbsolute",
           "package": "hamusic",
@@ -2218,6 +2406,7 @@
       "document": {
         "description": {
           "description": "Rhythm node\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "RhythmNode",
           "package": "hamusic",
@@ -2227,6 +2416,7 @@
         "index": {
           "description": "Rhythm node",
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "RhythmNode",
           "package": "hamusic",
@@ -2240,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "RhythmRelative",
           "package": "hamusic",
@@ -2248,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "RhythmRelative",
           "package": "hamusic",
@@ -2262,6 +2454,7 @@
       "document": {
         "description": {
           "description": "Absolute PF\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "absolute",
           "package": "hamusic",
@@ -2272,6 +2465,7 @@
         "index": {
           "description": "Absolute PF",
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "absolute",
           "normalized": "Motive RhythmRelative-\u003eMotive RhythmAbsolute",
@@ -2287,6 +2481,7 @@
       "document": {
         "description": {
           "description": "computes compass duration\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "compass",
           "package": "hamusic",
@@ -2297,6 +2492,7 @@
         "index": {
           "description": "computes compass duration",
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "compass",
           "normalized": "(Number,Number)-\u003eNumber",
@@ -2312,6 +2508,7 @@
       "document": {
         "description": {
           "description": "computes duration\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "duration",
           "package": "hamusic",
@@ -2322,6 +2519,7 @@
         "index": {
           "description": "computes duration",
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "duration",
           "normalized": "Motive RhythmNode-\u003eNumber",
@@ -2337,6 +2535,7 @@
       "document": {
         "description": {
           "description": "computes duration \u003cem\u003ePW\u003c/em\u003e\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "durationNode",
           "package": "hamusic",
@@ -2347,6 +2546,7 @@
         "index": {
           "description": "computes duration PW",
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "durationNode",
           "normalized": "RhythmNode-\u003eNumber",
@@ -2362,6 +2562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "durationNumber",
           "package": "hamusic",
@@ -2371,6 +2572,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "durationNumber",
           "normalized": "DurationClass-\u003eDuration",
@@ -2386,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "durationTotalNumber",
           "package": "hamusic",
@@ -2395,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "durationTotalNumber",
           "normalized": "(DurationClass,Dots)-\u003eDuration",
@@ -2410,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "getDuration",
           "package": "hamusic",
@@ -2419,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "getDuration",
           "normalized": "(DurationClass,Dots)-\u003eDuration",
@@ -2434,6 +2640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "getDurationClass",
           "package": "hamusic",
@@ -2443,6 +2650,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "getDurationClass",
           "normalized": "(Duration,Dots)-\u003eDurationClass",
@@ -2458,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "getDuration_aux1",
           "package": "hamusic",
@@ -2467,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "getDuration_aux1",
           "normalized": "DurationClass-\u003eDuration",
@@ -2483,6 +2693,7 @@
       "document": {
         "description": {
           "description": "Computes relative Rhythm\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "relative",
           "package": "hamusic",
@@ -2493,6 +2704,7 @@
         "index": {
           "description": "Computes relative Rhythm",
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "relative",
           "normalized": "Motive RhythmAbsolute-\u003eMotive RhythmRelative",
@@ -2508,6 +2720,7 @@
       "document": {
         "description": {
           "description": "reverse\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "reverse",
           "package": "hamusic",
@@ -2518,6 +2731,7 @@
         "index": {
           "description": "reverse",
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "reverse",
           "normalized": "Motive RhythmNode-\u003eMotive RhythmNode",
@@ -2533,6 +2747,7 @@
       "document": {
         "description": {
           "description": "sefault settings\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "settings",
           "package": "hamusic",
@@ -2543,6 +2758,7 @@
         "index": {
           "description": "sefault settings",
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "settings",
           "package": "hamusic",
@@ -2556,6 +2772,7 @@
       "document": {
         "description": {
           "description": "symmetric trsnformation\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "symmetric",
           "package": "hamusic",
@@ -2566,6 +2783,7 @@
         "index": {
           "description": "symmetric trsnformation",
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "symmetric",
           "normalized": "RatioNumber-\u003eMotive RhythmAbsolute-\u003eMotive RhythmAbsolute",
@@ -2581,6 +2799,7 @@
       "document": {
         "description": {
           "description": "changes duration\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "tempo",
           "package": "hamusic",
@@ -2591,6 +2810,7 @@
         "index": {
           "description": "changes duration",
           "hierarchy": "Music Analysis Abstract Rhythm",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Rhythm",
           "name": "tempo",
           "normalized": "RatioNumber-\u003eMotive RhythmAbsolute-\u003eMotive RhythmAbsolute",
@@ -2606,6 +2826,7 @@
       "document": {
         "description": {
           "description": "Definition of Settings to make general configurations\n It is possible grow\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "Settings",
           "package": "hamusic",
@@ -2615,6 +2836,7 @@
         "index": {
           "description": "Definition of Settings to make general configurations It is possible grow",
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "Settings",
           "package": "hamusic",
@@ -2629,6 +2851,7 @@
       "document": {
         "description": {
           "description": "Change Number\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "changeNumber",
           "package": "hamusic",
@@ -2639,6 +2862,7 @@
         "index": {
           "description": "Change Number",
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "changeNumber",
           "normalized": "Text-\u003eNumber-\u003eSettings-\u003eSettings",
@@ -2654,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "changeSettings",
           "package": "hamusic",
@@ -2663,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "changeSettings",
           "normalized": "Text-\u003e(Bool-\u003e(Bool,Either Text Number))-\u003eSettings-\u003eSettings",
@@ -2678,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "changeSettings'",
           "package": "hamusic",
@@ -2687,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "changeSettings'",
           "normalized": "Text-\u003e(Bool,Either Text Number)-\u003eSettings-\u003eSettings",
@@ -2703,6 +2931,7 @@
       "document": {
         "description": {
           "description": "Change Text\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "changeText",
           "package": "hamusic",
@@ -2713,6 +2942,7 @@
         "index": {
           "description": "Change Text",
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "changeText",
           "normalized": "Text-\u003eText-\u003eSettings-\u003eSettings",
@@ -2729,6 +2959,7 @@
       "document": {
         "description": {
           "description": "empty configurations\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "empty",
           "package": "hamusic",
@@ -2739,6 +2970,7 @@
         "index": {
           "description": "empty configurations",
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "empty",
           "package": "hamusic",
@@ -2752,6 +2984,7 @@
       "document": {
         "description": {
           "description": "fromList\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "fromList",
           "package": "hamusic",
@@ -2762,6 +2995,7 @@
         "index": {
           "description": "fromList",
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "fromList",
           "normalized": "[(Text,(Bool,Either Text Number))]-\u003eSettings",
@@ -2778,6 +3012,7 @@
       "document": {
         "description": {
           "description": "get Number value from Configurations\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "getNumber",
           "package": "hamusic",
@@ -2788,6 +3023,7 @@
         "index": {
           "description": "get Number value from Configurations",
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "getNumber",
           "normalized": "Text-\u003eSettings-\u003eMaybe Number",
@@ -2804,6 +3040,7 @@
       "document": {
         "description": {
           "description": "Get value from configuration\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "getSettings",
           "package": "hamusic",
@@ -2814,6 +3051,7 @@
         "index": {
           "description": "Get value from configuration",
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "getSettings",
           "normalized": "Text-\u003eSettings-\u003eMaybe(Either Text Number)",
@@ -2830,6 +3068,7 @@
       "document": {
         "description": {
           "description": "get Text value from Configurations\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "getText",
           "package": "hamusic",
@@ -2840,6 +3079,7 @@
         "index": {
           "description": "get Text value from Configurations",
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "getText",
           "normalized": "Text-\u003eSettings-\u003eMaybe Text",
@@ -2855,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "number",
           "package": "hamusic",
@@ -2864,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "number",
           "normalized": "Number-\u003eBool-\u003e(Bool,Either Text Number)",
@@ -2879,6 +3121,7 @@
       "document": {
         "description": {
           "description": "wrapper to settings\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "number'",
           "package": "hamusic",
@@ -2889,6 +3132,7 @@
         "index": {
           "description": "wrapper to settings",
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "number'",
           "normalized": "Number-\u003e(Bool,Either Text Number)",
@@ -2903,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "priority",
           "package": "hamusic",
@@ -2912,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "priority",
           "package": "hamusic",
@@ -2924,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "text",
           "package": "hamusic",
@@ -2933,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "text",
           "normalized": "Text-\u003eBool-\u003e(Bool,Either Text Number)",
@@ -2948,6 +3196,7 @@
       "document": {
         "description": {
           "description": "wrapper to settings\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "text'",
           "package": "hamusic",
@@ -2958,6 +3207,7 @@
         "index": {
           "description": "wrapper to settings",
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "text'",
           "normalized": "Text-\u003e(Bool,Either Text Number)",
@@ -2973,6 +3223,7 @@
       "document": {
         "description": {
           "description": "Union \n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "union",
           "package": "hamusic",
@@ -2983,6 +3234,7 @@
         "index": {
           "description": "Union",
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "union",
           "normalized": "Settings-\u003eSettings-\u003eSettings",
@@ -2997,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "union1",
           "package": "hamusic",
@@ -3006,6 +3259,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Settings",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Settings",
           "name": "union1",
           "normalized": "Settings-\u003eSettings-\u003eSettings",
@@ -3020,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "MultiVoiceAbsolute",
           "package": "hamusic",
@@ -3028,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Voices",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "MultiVoiceAbsolute",
           "package": "hamusic",
@@ -3041,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "MultiVoiceNode",
           "package": "hamusic",
@@ -3049,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Voices",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "MultiVoiceNode",
           "package": "hamusic",
@@ -3062,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "MultiVoiceRelative",
           "package": "hamusic",
@@ -3070,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Voices",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "MultiVoiceRelative",
           "package": "hamusic",
@@ -3084,6 +3344,7 @@
       "document": {
         "description": {
           "description": "absolute transformation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "absolute",
           "package": "hamusic",
@@ -3094,6 +3355,7 @@
         "index": {
           "description": "absolute transformation using above layers",
           "hierarchy": "Music Analysis Abstract Voices",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "absolute",
           "normalized": "Motive MultiVoiceRelative-\u003eMotive MultiVoiceAbsolute",
@@ -3109,6 +3371,7 @@
       "document": {
         "description": {
           "description": "duration computation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "duration",
           "package": "hamusic",
@@ -3119,6 +3382,7 @@
         "index": {
           "description": "duration computation using above layers",
           "hierarchy": "Music Analysis Abstract Voices",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "duration",
           "normalized": "Motive MultiVoiceNode-\u003eNumber",
@@ -3133,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "joinVoices",
           "package": "hamusic",
@@ -3142,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Voices",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "joinVoices",
           "normalized": "IntegerNumber-\u003e(a,NotationNode)-\u003e((a,IntegerNumber),NotationNode)",
@@ -3158,6 +3424,7 @@
       "document": {
         "description": {
           "description": "relative transformation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "relative",
           "package": "hamusic",
@@ -3168,6 +3435,7 @@
         "index": {
           "description": "relative transformation using above layers",
           "hierarchy": "Music Analysis Abstract Voices",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "relative",
           "normalized": "Motive MultiVoiceAbsolute-\u003eMotive MultiVoiceRelative",
@@ -3183,6 +3451,7 @@
       "document": {
         "description": {
           "description": "reverse using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "reverse",
           "package": "hamusic",
@@ -3193,6 +3462,7 @@
         "index": {
           "description": "reverse using above layers",
           "hierarchy": "Music Analysis Abstract Voices",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "reverse",
           "normalized": "Motive MultiVoiceNode-\u003eMotive MultiVoiceNode",
@@ -3208,6 +3478,7 @@
       "document": {
         "description": {
           "description": "default settings\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "settings",
           "package": "hamusic",
@@ -3218,6 +3489,7 @@
         "index": {
           "description": "default settings",
           "hierarchy": "Music Analysis Abstract Voices",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "settings",
           "package": "hamusic",
@@ -3230,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "splitVoices",
           "package": "hamusic",
@@ -3239,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Voices",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "splitVoices",
           "normalized": "((a,IntegerNumber),NotationNode)-\u003e(IntegerNumber,(a,NotationNode))",
@@ -3255,6 +3529,7 @@
       "document": {
         "description": {
           "description": "tempo transformation using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "tempo",
           "package": "hamusic",
@@ -3265,6 +3540,7 @@
         "index": {
           "description": "tempo transformation using above layers",
           "hierarchy": "Music Analysis Abstract Voices",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "tempo",
           "normalized": "Number-\u003eMotive MultiVoiceAbsolute-\u003eMotive MultiVoiceAbsolute",
@@ -3280,6 +3556,7 @@
       "document": {
         "description": {
           "description": "Transpose using above layers\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "transpose",
           "package": "hamusic",
@@ -3290,6 +3567,7 @@
         "index": {
           "description": "Transpose using above layers",
           "hierarchy": "Music Analysis Abstract Voices",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Voices",
           "name": "transpose",
           "normalized": "Number-\u003eMotive MultiVoiceAbsolute-\u003eMotive MultiVoiceAbsolute",
@@ -3304,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "VoiceZipAbsolute",
           "package": "hamusic",
@@ -3312,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Zip",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "VoiceZipAbsolute",
           "package": "hamusic",
@@ -3326,6 +3606,7 @@
       "document": {
         "description": {
           "description": "VoiceZipNode definition\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "VoiceZipNode",
           "package": "hamusic",
@@ -3335,6 +3616,7 @@
         "index": {
           "description": "VoiceZipNode definition",
           "hierarchy": "Music Analysis Abstract Zip",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "VoiceZipNode",
           "package": "hamusic",
@@ -3348,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "VoiceZipRelative",
           "package": "hamusic",
@@ -3356,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract Zip",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "VoiceZipRelative",
           "package": "hamusic",
@@ -3370,6 +3654,7 @@
       "document": {
         "description": {
           "description": "absolute\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "absolute",
           "package": "hamusic",
@@ -3380,6 +3665,7 @@
         "index": {
           "description": "absolute",
           "hierarchy": "Music Analysis Abstract Zip",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "absolute",
           "normalized": "Motive VoiceZipRelative-\u003eMotive VoiceZipAbsolute",
@@ -3395,6 +3681,7 @@
       "document": {
         "description": {
           "description": "computes duration\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "duration",
           "package": "hamusic",
@@ -3405,6 +3692,7 @@
         "index": {
           "description": "computes duration",
           "hierarchy": "Music Analysis Abstract Zip",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "duration",
           "normalized": "Motive VoiceZipNode-\u003eNumber",
@@ -3420,6 +3708,7 @@
       "document": {
         "description": {
           "description": "relative\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "relative",
           "package": "hamusic",
@@ -3430,6 +3719,7 @@
         "index": {
           "description": "relative",
           "hierarchy": "Music Analysis Abstract Zip",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "relative",
           "normalized": "Motive VoiceZipAbsolute-\u003eMotive VoiceZipRelative",
@@ -3445,6 +3735,7 @@
       "document": {
         "description": {
           "description": "reverse\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "reverse",
           "package": "hamusic",
@@ -3455,6 +3746,7 @@
         "index": {
           "description": "reverse",
           "hierarchy": "Music Analysis Abstract Zip",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "reverse",
           "normalized": "Motive VoiceZipNode-\u003eMotive VoiceZipNode",
@@ -3470,6 +3762,7 @@
       "document": {
         "description": {
           "description": "default settings\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "settings",
           "package": "hamusic",
@@ -3480,6 +3773,7 @@
         "index": {
           "description": "default settings",
           "hierarchy": "Music Analysis Abstract Zip",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "settings",
           "package": "hamusic",
@@ -3493,6 +3787,7 @@
       "document": {
         "description": {
           "description": "changes duration\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "tempo",
           "package": "hamusic",
@@ -3503,6 +3798,7 @@
         "index": {
           "description": "changes duration",
           "hierarchy": "Music Analysis Abstract Zip",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "tempo",
           "normalized": "Number-\u003eMotive VoiceZipAbsolute-\u003eMotive VoiceZipAbsolute",
@@ -3518,6 +3814,7 @@
       "document": {
         "description": {
           "description": "transposes\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "transpose",
           "package": "hamusic",
@@ -3528,6 +3825,7 @@
         "index": {
           "description": "transposes",
           "hierarchy": "Music Analysis Abstract Zip",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract.Zip",
           "name": "transpose",
           "normalized": "Number-\u003eMotive VoiceZipAbsolute-\u003eMotive VoiceZipAbsolute",
@@ -3543,11 +3841,13 @@
       "document": {
         "description": {
           "description": "This module implements common types\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "source": "http://hackage.haskell.org/package/hamusic/docs/Music-Analysis-Abstract.html",
           "type": "unknown"
         },
         "index": {
           "description": "This module implements common types",
+          "indexed": "2014-03-11T18:27:43",
           "type": "unknown"
         },
         "uri": "http://hackage.haskell.org/package/hamusic/docs/Music-Analysis-Abstract.html"
@@ -3557,6 +3857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Accident",
           "package": "hamusic",
@@ -3566,6 +3867,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Accident",
           "normalized": "Accident-\u003eAccident",
@@ -3581,6 +3883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Duration",
           "package": "hamusic",
@@ -3590,6 +3893,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Duration",
           "normalized": "RhythmAbsolute-\u003e(Duration,Dotted)",
@@ -3605,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Meta",
           "package": "hamusic",
@@ -3614,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Meta",
           "normalized": "Motive(MelodicClass,RhythmAbsolute)-\u003eABCMetaData",
@@ -3629,6 +3935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Music",
           "package": "hamusic",
@@ -3638,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Music",
           "normalized": "Motive(MelodicClass,RhythmAbsolute)-\u003eABCMusic",
@@ -3653,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Note",
           "package": "hamusic",
@@ -3662,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Note",
           "normalized": "(MelodicClass,RhythmAbsolute)-\u003eABCNote",
@@ -3677,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Note'",
           "package": "hamusic",
@@ -3686,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Note'",
           "normalized": "MelodicClass-\u003eMaybe(Pitch,Accident)",
@@ -3701,6 +4013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Notes",
           "package": "hamusic",
@@ -3710,6 +4023,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Notes",
           "normalized": "Motive(MelodicClass,RhythmAbsolute)-\u003e[ABCMusicData]",
@@ -3725,6 +4039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Pitch",
           "package": "hamusic",
@@ -3734,6 +4049,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract2ABC",
           "name": "mk_Pitch",
           "normalized": "PitchClass-\u003ePitch",
@@ -3749,6 +4065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract2Lilypond",
           "name": "output",
           "package": "hamusic",
@@ -3758,6 +4075,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract2Lilypond",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract2Lilypond",
           "name": "output",
           "normalized": "VoiceZipNode-\u003eString",
@@ -3772,6 +4090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract2Lilypond",
           "name": "outputAccidents",
           "package": "hamusic",
@@ -3781,6 +4100,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract2Lilypond",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract2Lilypond",
           "name": "outputAccidents",
           "normalized": "Accident-\u003eString",
@@ -3796,6 +4116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Abstract2Lilypond",
           "name": "outputDots",
           "package": "hamusic",
@@ -3805,6 +4126,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Abstract2Lilypond",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Abstract2Lilypond",
           "name": "outputDots",
           "normalized": "IntegerNumber-\u003eString",
@@ -3821,6 +4143,7 @@
       "document": {
         "description": {
           "description": "Delta type is a number\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Base",
           "name": "Delta",
           "package": "hamusic",
@@ -3830,6 +4153,7 @@
         "index": {
           "description": "Delta type is number",
           "hierarchy": "Music Analysis Base",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Base",
           "name": "Delta",
           "package": "hamusic",
@@ -3844,6 +4168,7 @@
       "document": {
         "description": {
           "description": "Integer Number definition\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Base",
           "name": "IntegerNumber",
           "package": "hamusic",
@@ -3853,6 +4178,7 @@
         "index": {
           "description": "Integer Number definition",
           "hierarchy": "Music Analysis Base",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Base",
           "name": "IntegerNumber",
           "package": "hamusic",
@@ -3867,6 +4193,7 @@
       "document": {
         "description": {
           "description": "Number is Double \n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Base",
           "name": "Number",
           "package": "hamusic",
@@ -3876,6 +4203,7 @@
         "index": {
           "description": "Number is Double",
           "hierarchy": "Music Analysis Base",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Base",
           "name": "Number",
           "package": "hamusic",
@@ -3890,6 +4218,7 @@
       "document": {
         "description": {
           "description": "Ratio Number definition\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Base",
           "name": "RatioNumber",
           "package": "hamusic",
@@ -3899,6 +4228,7 @@
         "index": {
           "description": "Ratio Number definition",
           "hierarchy": "Music Analysis Base",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Base",
           "name": "RatioNumber",
           "package": "hamusic",
@@ -3913,6 +4243,7 @@
       "document": {
         "description": {
           "description": "Text is String\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Base",
           "name": "Text",
           "package": "hamusic",
@@ -3922,6 +4253,7 @@
         "index": {
           "description": "Text is String",
           "hierarchy": "Music Analysis Base",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Base",
           "name": "Text",
           "package": "hamusic",
@@ -3935,6 +4267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Base",
           "name": "Invariant",
           "package": "hamusic",
@@ -3943,6 +4276,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Base",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Base",
           "name": "Invariant",
           "package": "hamusic",
@@ -3956,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Base",
           "name": "invariant",
           "package": "hamusic",
@@ -3965,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Base",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Base",
           "name": "invariant",
           "normalized": "a-\u003eBool",
@@ -3980,6 +4316,7 @@
       "document": {
         "description": {
           "description": "wrapper to get Integer Number\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Base",
           "name": "toInteger",
           "package": "hamusic",
@@ -3990,6 +4327,7 @@
         "index": {
           "description": "wrapper to get Integer Number",
           "hierarchy": "Music Analysis Base",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Base",
           "name": "toInteger",
           "normalized": "Number-\u003eIntegerNumber",
@@ -4006,6 +4344,7 @@
       "document": {
         "description": {
           "description": "wrapper to get Ratio Number\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Base",
           "name": "toRatio",
           "package": "hamusic",
@@ -4016,6 +4355,7 @@
         "index": {
           "description": "wrapper to get Ratio Number",
           "hierarchy": "Music Analysis Base",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Base",
           "name": "toRatio",
           "normalized": "IntegerNumber-\u003eRatioNumber",
@@ -4032,6 +4372,7 @@
       "document": {
         "description": {
           "description": "like \u003ctt\u003eunzip\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Base",
           "name": "unzipMaybe",
           "package": "hamusic",
@@ -4042,6 +4383,7 @@
         "index": {
           "description": "like unzip",
           "hierarchy": "Music Analysis Base",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Base",
           "name": "unzipMaybe",
           "normalized": "[Maybe(a,b)]-\u003e([Maybe a],[Maybe b])",
@@ -4058,6 +4400,7 @@
       "document": {
         "description": {
           "description": "like \u003ctt\u003ezip\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Base",
           "name": "zipMaybe",
           "package": "hamusic",
@@ -4068,6 +4411,7 @@
         "index": {
           "description": "like zip",
           "hierarchy": "Music Analysis Base",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Base",
           "name": "zipMaybe",
           "normalized": "([Maybe a],[Maybe b])-\u003e[Maybe(a,b)]",
@@ -4083,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Chord",
           "name": "Mode",
           "package": "hamusic",
@@ -4091,6 +4436,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Chord",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Chord",
           "name": "Mode",
           "package": "hamusic",
@@ -4105,11 +4451,13 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis module implements lite interface to Haskore\n\u003c/p\u003e\u003cp\u003eBugs: \n  - Chords\n  - more than one Divisions(changes duration)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "source": "http://hackage.haskell.org/package/hamusic/docs/Music-Analysis-Haskore.html",
           "type": "unknown"
         },
         "index": {
           "description": "This module implements lite interface to Haskore Bugs Chords more than one Divisions changes duration",
+          "indexed": "2014-03-11T18:27:43",
           "type": "unknown"
         },
         "uri": "http://hackage.haskell.org/package/hamusic/docs/Music-Analysis-Haskore.html"
@@ -4119,6 +4467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Interface",
           "name": "Interface",
           "package": "hamusic",
@@ -4127,6 +4476,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Interface",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Interface",
           "name": "Interface",
           "package": "hamusic",
@@ -4140,6 +4490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Interface",
           "name": "Measure",
           "package": "hamusic",
@@ -4148,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Interface",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Interface",
           "name": "Measure",
           "package": "hamusic",
@@ -4162,6 +4514,7 @@
       "document": {
         "description": {
           "description": "destroy measures\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Interface",
           "name": "catMeasures",
           "package": "hamusic",
@@ -4172,6 +4525,7 @@
         "index": {
           "description": "destroy measures",
           "hierarchy": "Music Analysis Interface",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Interface",
           "name": "catMeasures",
           "normalized": "Motive[a]-\u003eMotive a",
@@ -4188,6 +4542,7 @@
       "document": {
         "description": {
           "description": "reads interface\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Interface",
           "name": "input",
           "package": "hamusic",
@@ -4198,6 +4553,7 @@
         "index": {
           "description": "reads interface",
           "hierarchy": "Music Analysis Interface",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Interface",
           "name": "input",
           "normalized": "String-\u003ea",
@@ -4213,6 +4569,7 @@
       "document": {
         "description": {
           "description": "computes node's duration\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Interface",
           "name": "nodeDuration",
           "package": "hamusic",
@@ -4223,6 +4580,7 @@
         "index": {
           "description": "computes node duration",
           "hierarchy": "Music Analysis Interface",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Interface",
           "name": "nodeDuration",
           "normalized": "a-\u003eNumber",
@@ -4239,6 +4597,7 @@
       "document": {
         "description": {
           "description": "prints interface\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Interface",
           "name": "output",
           "package": "hamusic",
@@ -4249,6 +4608,7 @@
         "index": {
           "description": "prints interface",
           "hierarchy": "Music Analysis Interface",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Interface",
           "name": "output",
           "normalized": "a-\u003eString",
@@ -4264,6 +4624,7 @@
       "document": {
         "description": {
           "description": "build measures\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Interface",
           "name": "uncatMeasures",
           "package": "hamusic",
@@ -4274,6 +4635,7 @@
         "index": {
           "description": "build measures",
           "hierarchy": "Music Analysis Interface",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Interface",
           "name": "uncatMeasures",
           "normalized": "Motive a-\u003eMotive[a]",
@@ -4290,11 +4652,13 @@
       "document": {
         "description": {
           "description": "Implements interface to Lilypond\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "source": "http://hackage.haskell.org/package/hamusic/docs/Music-Analysis-Lilypond.html",
           "type": "unknown"
         },
         "index": {
           "description": "Implements interface to Lilypond",
+          "indexed": "2014-03-11T18:27:43",
           "type": "unknown"
         },
         "uri": "http://hackage.haskell.org/package/hamusic/docs/Music-Analysis-Lilypond.html"
@@ -4304,6 +4668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_measure",
           "package": "hamusic",
@@ -4313,6 +4678,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_measure",
           "normalized": "MusicXMLDoc-\u003eInt",
@@ -4327,6 +4693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_music_data",
           "package": "hamusic",
@@ -4336,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_music_data",
           "normalized": "MusicXMLDoc-\u003eInt",
@@ -4350,6 +4718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_note",
           "package": "hamusic",
@@ -4359,6 +4728,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_note",
           "normalized": "MusicXMLDoc-\u003eInt",
@@ -4373,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_note_cue",
           "package": "hamusic",
@@ -4382,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_note_cue",
           "normalized": "MusicXMLDoc-\u003eInt",
@@ -4396,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_note_grace",
           "package": "hamusic",
@@ -4405,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_note_grace",
           "normalized": "MusicXMLDoc-\u003eInt",
@@ -4419,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_note_normal",
           "package": "hamusic",
@@ -4428,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_note_normal",
           "normalized": "MusicXMLDoc-\u003eInt",
@@ -4442,6 +4818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_part",
           "package": "hamusic",
@@ -4451,6 +4828,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "count_part",
           "normalized": "MusicXMLDoc-\u003eInt",
@@ -4465,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterCueNote",
           "package": "hamusic",
@@ -4474,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterCueNote",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -4489,6 +4869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterGraceNote",
           "package": "hamusic",
@@ -4498,6 +4879,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterGraceNote",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -4513,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNormalNote",
           "package": "hamusic",
@@ -4522,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNormalNote",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -4537,6 +4921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNotCueNote",
           "package": "hamusic",
@@ -4546,6 +4931,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNotCueNote",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -4561,6 +4947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNotGraceNote",
           "package": "hamusic",
@@ -4570,6 +4957,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNotGraceNote",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -4585,6 +4973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNotNormalNote",
           "package": "hamusic",
@@ -4594,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNotNormalNote",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -4609,6 +4999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNotNote",
           "package": "hamusic",
@@ -4618,6 +5009,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNotNote",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -4633,6 +5025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNote",
           "package": "hamusic",
@@ -4642,6 +5035,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNote",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -4657,6 +5051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNote'",
           "package": "hamusic",
@@ -4666,6 +5061,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "filterNote'",
           "normalized": "(Note-\u003eBool)-\u003eMusic_Data-\u003eMusic_Data",
@@ -4681,6 +5077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "isCueNote",
           "package": "hamusic",
@@ -4690,6 +5087,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "isCueNote",
           "normalized": "Note-\u003eBool",
@@ -4705,6 +5103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "isGraceNote",
           "package": "hamusic",
@@ -4714,6 +5113,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "isGraceNote",
           "normalized": "Note-\u003eBool",
@@ -4729,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "isNormalNote",
           "package": "hamusic",
@@ -4738,6 +5139,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "isNormalNote",
           "normalized": "Note-\u003eBool",
@@ -4753,6 +5155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "isNote",
           "package": "hamusic",
@@ -4762,6 +5165,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "isNote",
           "normalized": "Music_Data_-\u003eBool",
@@ -4777,6 +5181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "mapMusicXML",
           "package": "hamusic",
@@ -4786,6 +5191,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Functions",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Functions",
           "name": "mapMusicXML",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eMusicXMLDoc-\u003eMusicXMLDoc",
@@ -4801,6 +5207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Accidental",
           "package": "hamusic",
@@ -4809,6 +5216,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Accidental",
           "package": "hamusic",
@@ -4822,6 +5230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Accidental_",
           "package": "hamusic",
@@ -4830,6 +5239,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Accidental_",
           "package": "hamusic",
@@ -4843,6 +5253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Alter",
           "package": "hamusic",
@@ -4851,6 +5262,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Alter",
           "package": "hamusic",
@@ -4864,6 +5276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Dot",
           "package": "hamusic",
@@ -4872,6 +5285,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Dot",
           "package": "hamusic",
@@ -4885,6 +5299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Full_Note",
           "package": "hamusic",
@@ -4893,6 +5308,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Full_Note",
           "package": "hamusic",
@@ -4906,6 +5322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -4914,6 +5331,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -4927,6 +5345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Music_Data",
           "package": "hamusic",
@@ -4935,6 +5354,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Music_Data",
           "package": "hamusic",
@@ -4948,6 +5368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Note",
           "package": "hamusic",
@@ -4956,6 +5377,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Note",
           "package": "hamusic",
@@ -4969,6 +5391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Note_",
           "package": "hamusic",
@@ -4977,6 +5400,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Note_",
           "package": "hamusic",
@@ -4990,6 +5414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Octave",
           "package": "hamusic",
@@ -4998,6 +5423,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Octave",
           "package": "hamusic",
@@ -5011,6 +5437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Pitch",
           "package": "hamusic",
@@ -5019,6 +5446,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Pitch",
           "package": "hamusic",
@@ -5032,6 +5460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Rest",
           "package": "hamusic",
@@ -5040,6 +5469,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Rest",
           "package": "hamusic",
@@ -5053,6 +5483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -5061,6 +5492,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -5074,6 +5506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Step",
           "package": "hamusic",
@@ -5082,6 +5515,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Step",
           "package": "hamusic",
@@ -5095,6 +5529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Type",
           "package": "hamusic",
@@ -5103,6 +5538,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Type",
           "package": "hamusic",
@@ -5116,6 +5552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Type_",
           "package": "hamusic",
@@ -5124,6 +5561,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1",
           "name": "Type_",
           "package": "hamusic",
@@ -5137,6 +5575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Accidental",
           "package": "hamusic",
@@ -5145,6 +5584,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Accidental",
           "package": "hamusic",
@@ -5158,6 +5598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Accidental_",
           "package": "hamusic",
@@ -5166,6 +5607,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Accidental_",
           "package": "hamusic",
@@ -5179,6 +5621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Alter",
           "package": "hamusic",
@@ -5187,6 +5630,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Alter",
           "package": "hamusic",
@@ -5200,6 +5644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Dot",
           "package": "hamusic",
@@ -5208,6 +5653,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Dot",
           "package": "hamusic",
@@ -5221,6 +5667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Full_Note",
           "package": "hamusic",
@@ -5229,6 +5676,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Full_Note",
           "package": "hamusic",
@@ -5242,6 +5690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -5250,6 +5699,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -5263,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Music_Data",
           "package": "hamusic",
@@ -5271,6 +5722,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Music_Data",
           "package": "hamusic",
@@ -5284,6 +5736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Note",
           "package": "hamusic",
@@ -5292,6 +5745,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Note",
           "package": "hamusic",
@@ -5305,6 +5759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Note_",
           "package": "hamusic",
@@ -5313,6 +5768,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Note_",
           "package": "hamusic",
@@ -5326,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Pitch",
           "package": "hamusic",
@@ -5334,6 +5791,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Pitch",
           "package": "hamusic",
@@ -5347,6 +5805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Rest",
           "package": "hamusic",
@@ -5355,6 +5814,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Rest",
           "package": "hamusic",
@@ -5368,6 +5828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -5376,6 +5837,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -5389,6 +5851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Type",
           "package": "hamusic",
@@ -5397,6 +5860,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Type",
           "package": "hamusic",
@@ -5410,6 +5874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Type_",
           "package": "hamusic",
@@ -5418,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level1Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level1Num",
           "name": "Type_",
           "package": "hamusic",
@@ -5431,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Accidental",
           "package": "hamusic",
@@ -5439,6 +5906,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Accidental",
           "package": "hamusic",
@@ -5452,6 +5920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Attributes",
           "package": "hamusic",
@@ -5460,6 +5929,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Attributes",
           "package": "hamusic",
@@ -5474,6 +5944,7 @@
       "document": {
         "description": {
           "description": "MusicXML Schema specify \u003ca\u003exs:string\u003c/a\u003e\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Beat_Type",
           "package": "hamusic",
@@ -5483,6 +5954,7 @@
         "index": {
           "description": "MusicXML Schema specify xs string",
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Beat_Type",
           "package": "hamusic",
@@ -5497,6 +5969,7 @@
       "document": {
         "description": {
           "description": "MusicXML Schema specify \u003ca\u003exs:string\u003c/a\u003e\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Beats",
           "package": "hamusic",
@@ -5506,6 +5979,7 @@
         "index": {
           "description": "MusicXML Schema specify xs string",
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Beats",
           "package": "hamusic",
@@ -5519,6 +5993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Clef",
           "package": "hamusic",
@@ -5527,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Clef",
           "package": "hamusic",
@@ -5540,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Clef_Octave_Change",
           "package": "hamusic",
@@ -5548,6 +6025,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Clef_Octave_Change",
           "package": "hamusic",
@@ -5561,6 +6039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Divisions",
           "package": "hamusic",
@@ -5569,6 +6048,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Divisions",
           "package": "hamusic",
@@ -5582,6 +6062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Dot",
           "package": "hamusic",
@@ -5590,6 +6071,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Dot",
           "package": "hamusic",
@@ -5603,6 +6085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Duration",
           "package": "hamusic",
@@ -5611,6 +6094,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Duration",
           "package": "hamusic",
@@ -5624,6 +6108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Fifths",
           "package": "hamusic",
@@ -5632,6 +6117,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Fifths",
           "package": "hamusic",
@@ -5645,6 +6131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Full_Note",
           "package": "hamusic",
@@ -5653,6 +6140,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Full_Note",
           "package": "hamusic",
@@ -5666,6 +6154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -5674,6 +6163,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -5687,6 +6177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Key",
           "package": "hamusic",
@@ -5695,6 +6186,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Key",
           "package": "hamusic",
@@ -5708,6 +6200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Key_",
           "package": "hamusic",
@@ -5716,6 +6209,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Key_",
           "package": "hamusic",
@@ -5729,6 +6223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Key_Alter",
           "package": "hamusic",
@@ -5737,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Key_Alter",
           "package": "hamusic",
@@ -5750,6 +6246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Key_Octave",
           "package": "hamusic",
@@ -5758,6 +6255,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Key_Octave",
           "package": "hamusic",
@@ -5771,6 +6269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Key_Step",
           "package": "hamusic",
@@ -5779,6 +6278,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Key_Step",
           "package": "hamusic",
@@ -5792,6 +6292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Line",
           "package": "hamusic",
@@ -5800,6 +6301,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Line",
           "package": "hamusic",
@@ -5813,6 +6315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Measure",
           "package": "hamusic",
@@ -5821,6 +6324,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Measure",
           "package": "hamusic",
@@ -5834,6 +6338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Mode",
           "package": "hamusic",
@@ -5842,6 +6347,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Mode",
           "package": "hamusic",
@@ -5855,6 +6361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Music_Data",
           "package": "hamusic",
@@ -5863,6 +6370,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Music_Data",
           "package": "hamusic",
@@ -5876,6 +6384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Note",
           "package": "hamusic",
@@ -5884,6 +6393,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Note",
           "package": "hamusic",
@@ -5897,6 +6407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Note_",
           "package": "hamusic",
@@ -5905,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Note_",
           "package": "hamusic",
@@ -5918,6 +6430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Pitch",
           "package": "hamusic",
@@ -5926,6 +6439,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Pitch",
           "package": "hamusic",
@@ -5939,6 +6453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -5947,6 +6462,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -5960,6 +6476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Sign",
           "package": "hamusic",
@@ -5968,6 +6485,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Sign",
           "package": "hamusic",
@@ -5981,6 +6499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Time",
           "package": "hamusic",
@@ -5989,6 +6508,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Time",
           "package": "hamusic",
@@ -6002,6 +6522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Time_B",
           "package": "hamusic",
@@ -6010,6 +6531,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Time_B",
           "package": "hamusic",
@@ -6023,6 +6545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Type",
           "package": "hamusic",
@@ -6031,6 +6554,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "Type",
           "package": "hamusic",
@@ -6044,6 +6568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Accidental",
           "package": "hamusic",
@@ -6053,6 +6578,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Accidental",
           "normalized": "Accidental-\u003eAccidental",
@@ -6068,6 +6594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Dot",
           "package": "hamusic",
@@ -6077,6 +6604,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Dot",
           "normalized": "Dot-\u003eDot",
@@ -6092,6 +6620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Full_Note",
           "package": "hamusic",
@@ -6101,6 +6630,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Full_Note",
           "normalized": "Full_Note-\u003eFull_Note",
@@ -6116,6 +6646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Full_Note_",
           "package": "hamusic",
@@ -6125,6 +6656,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Full_Note_",
           "normalized": "Full_Note_-\u003eFull_Note_",
@@ -6140,6 +6672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Music_Data",
           "package": "hamusic",
@@ -6149,6 +6682,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Music_Data",
           "normalized": "Music_Data-\u003eMaybe Music_Data",
@@ -6164,6 +6698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Note",
           "package": "hamusic",
@@ -6173,6 +6708,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Note",
           "normalized": "Note-\u003eNote",
@@ -6188,6 +6724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Note_",
           "package": "hamusic",
@@ -6197,6 +6734,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Note_",
           "normalized": "Note_-\u003eNote_",
@@ -6212,6 +6750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Pitch",
           "package": "hamusic",
@@ -6221,6 +6760,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Pitch",
           "normalized": "Pitch-\u003ePitch",
@@ -6236,6 +6776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Score_Partwise",
           "package": "hamusic",
@@ -6245,6 +6786,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -6260,6 +6802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Type",
           "package": "hamusic",
@@ -6269,6 +6812,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "abst_Type",
           "normalized": "Type-\u003eType",
@@ -6284,6 +6828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Accidental",
           "package": "hamusic",
@@ -6293,6 +6838,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Accidental",
           "normalized": "Accidental-\u003e(Accidental,Accidental)",
@@ -6308,6 +6854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Dot",
           "package": "hamusic",
@@ -6317,6 +6864,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Dot",
           "normalized": "Dot-\u003e(Dot,Dot)",
@@ -6332,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Full_Note",
           "package": "hamusic",
@@ -6341,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Full_Note",
           "normalized": "Full_Note-\u003e(Full_Note,Full_Note)",
@@ -6356,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Full_Note_",
           "package": "hamusic",
@@ -6365,6 +6916,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Full_Note_",
           "normalized": "Full_Note_-\u003e(Full_Note_,Full_Note_)",
@@ -6380,6 +6932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Measure",
           "package": "hamusic",
@@ -6389,6 +6942,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Measure",
           "normalized": "Measure-\u003e((),[Maybe Music_Data])",
@@ -6404,6 +6958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Music_Data",
           "package": "hamusic",
@@ -6413,6 +6968,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Music_Data",
           "normalized": "Music_Data-\u003e(Music_Data,Maybe Music_Data)",
@@ -6428,6 +6984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Note",
           "package": "hamusic",
@@ -6437,6 +6994,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Note",
           "normalized": "Note-\u003e(Note,Note)",
@@ -6452,6 +7010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Note_",
           "package": "hamusic",
@@ -6461,6 +7020,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Note_",
           "normalized": "Note_-\u003e(Duration,Full_Note_)",
@@ -6476,6 +7036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Pitch",
           "package": "hamusic",
@@ -6485,6 +7046,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Pitch",
           "normalized": "Pitch-\u003e(Pitch,Pitch)",
@@ -6500,6 +7062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Type",
           "package": "hamusic",
@@ -6509,6 +7072,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2",
           "name": "split_Type",
           "normalized": "Type-\u003e(Type,Type)",
@@ -6524,6 +7088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Accidental",
           "package": "hamusic",
@@ -6532,6 +7097,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Accidental",
           "package": "hamusic",
@@ -6545,6 +7111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Attributes",
           "package": "hamusic",
@@ -6553,6 +7120,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Attributes",
           "package": "hamusic",
@@ -6567,6 +7135,7 @@
       "document": {
         "description": {
           "description": "MusicXML Schema specify \u003ca\u003exs:string\u003c/a\u003e\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Beat_Type",
           "package": "hamusic",
@@ -6576,6 +7145,7 @@
         "index": {
           "description": "MusicXML Schema specify xs string",
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Beat_Type",
           "package": "hamusic",
@@ -6590,6 +7160,7 @@
       "document": {
         "description": {
           "description": "MusicXML Schema specify \u003ca\u003exs:string\u003c/a\u003e\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Beats",
           "package": "hamusic",
@@ -6599,6 +7170,7 @@
         "index": {
           "description": "MusicXML Schema specify xs string",
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Beats",
           "package": "hamusic",
@@ -6612,6 +7184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Clef",
           "package": "hamusic",
@@ -6620,6 +7193,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Clef",
           "package": "hamusic",
@@ -6633,6 +7207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Clef_Octave_Change",
           "package": "hamusic",
@@ -6641,6 +7216,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Clef_Octave_Change",
           "package": "hamusic",
@@ -6654,6 +7230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Divisions",
           "package": "hamusic",
@@ -6662,6 +7239,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Divisions",
           "package": "hamusic",
@@ -6675,6 +7253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Dot",
           "package": "hamusic",
@@ -6683,6 +7262,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Dot",
           "package": "hamusic",
@@ -6696,6 +7276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Duration",
           "package": "hamusic",
@@ -6704,6 +7285,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Duration",
           "package": "hamusic",
@@ -6717,6 +7299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Fifths",
           "package": "hamusic",
@@ -6725,6 +7308,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Fifths",
           "package": "hamusic",
@@ -6738,6 +7322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Full_Note",
           "package": "hamusic",
@@ -6746,6 +7331,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Full_Note",
           "package": "hamusic",
@@ -6759,6 +7345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -6767,6 +7354,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -6780,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Key",
           "package": "hamusic",
@@ -6788,6 +7377,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Key",
           "package": "hamusic",
@@ -6801,6 +7391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Key_",
           "package": "hamusic",
@@ -6809,6 +7400,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Key_",
           "package": "hamusic",
@@ -6822,6 +7414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Line",
           "package": "hamusic",
@@ -6830,6 +7423,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Line",
           "package": "hamusic",
@@ -6843,6 +7437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Measure",
           "package": "hamusic",
@@ -6851,6 +7446,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Measure",
           "package": "hamusic",
@@ -6864,6 +7460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Mode",
           "package": "hamusic",
@@ -6872,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Mode",
           "package": "hamusic",
@@ -6885,6 +7483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Music_Data",
           "package": "hamusic",
@@ -6893,6 +7492,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Music_Data",
           "package": "hamusic",
@@ -6906,6 +7506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Note",
           "package": "hamusic",
@@ -6914,6 +7515,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Note",
           "package": "hamusic",
@@ -6927,6 +7529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Note_",
           "package": "hamusic",
@@ -6935,6 +7538,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Note_",
           "package": "hamusic",
@@ -6948,6 +7552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Pitch",
           "package": "hamusic",
@@ -6956,6 +7561,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Pitch",
           "package": "hamusic",
@@ -6969,6 +7575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -6977,6 +7584,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -6990,6 +7598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Sign",
           "package": "hamusic",
@@ -6998,6 +7607,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Sign",
           "package": "hamusic",
@@ -7011,6 +7621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Time",
           "package": "hamusic",
@@ -7019,6 +7630,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Time",
           "package": "hamusic",
@@ -7032,6 +7644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Time_B",
           "package": "hamusic",
@@ -7040,6 +7653,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Time_B",
           "package": "hamusic",
@@ -7053,6 +7667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Type",
           "package": "hamusic",
@@ -7061,6 +7676,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "Type",
           "package": "hamusic",
@@ -7074,6 +7690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Accidental",
           "package": "hamusic",
@@ -7083,6 +7700,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Accidental",
           "normalized": "Accidental-\u003eAccidental",
@@ -7098,6 +7716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Dot",
           "package": "hamusic",
@@ -7107,6 +7726,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Dot",
           "normalized": "Dot-\u003eDot",
@@ -7122,6 +7742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Full_Note",
           "package": "hamusic",
@@ -7131,6 +7752,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Full_Note",
           "normalized": "Full_Note-\u003eFull_Note",
@@ -7146,6 +7768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Full_Note_",
           "package": "hamusic",
@@ -7155,6 +7778,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Full_Note_",
           "normalized": "Full_Note_-\u003eFull_Note_",
@@ -7170,6 +7794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Music_Data",
           "package": "hamusic",
@@ -7179,6 +7804,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Music_Data",
           "normalized": "Music_Data-\u003eMaybe Music_Data",
@@ -7194,6 +7820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Note",
           "package": "hamusic",
@@ -7203,6 +7830,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Note",
           "normalized": "Note-\u003eNote",
@@ -7218,6 +7846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Note_",
           "package": "hamusic",
@@ -7227,6 +7856,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Note_",
           "normalized": "Note_-\u003eNote_",
@@ -7242,6 +7872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Pitch",
           "package": "hamusic",
@@ -7251,6 +7882,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Pitch",
           "normalized": "Pitch-\u003ePitch",
@@ -7266,6 +7898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Score_Partwise",
           "package": "hamusic",
@@ -7275,6 +7908,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -7290,6 +7924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Type",
           "package": "hamusic",
@@ -7299,6 +7934,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "abst_Type",
           "normalized": "Type-\u003eType",
@@ -7314,6 +7950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Accidental",
           "package": "hamusic",
@@ -7323,6 +7960,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Accidental",
           "normalized": "Accidental-\u003e(Accidental,Accidental)",
@@ -7338,6 +7976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Dot",
           "package": "hamusic",
@@ -7347,6 +7986,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Dot",
           "normalized": "Dot-\u003e(Dot,Dot)",
@@ -7362,6 +8002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Full_Note",
           "package": "hamusic",
@@ -7371,6 +8012,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Full_Note",
           "normalized": "Full_Note-\u003e(Full_Note,Full_Note)",
@@ -7386,6 +8028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Full_Note_",
           "package": "hamusic",
@@ -7395,6 +8038,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Full_Note_",
           "normalized": "Full_Note_-\u003e(Full_Note_,Full_Note_)",
@@ -7410,6 +8054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Measure",
           "package": "hamusic",
@@ -7419,6 +8064,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Measure",
           "normalized": "Measure-\u003e((),[Maybe Music_Data])",
@@ -7434,6 +8080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Music_Data",
           "package": "hamusic",
@@ -7443,6 +8090,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Music_Data",
           "normalized": "Music_Data-\u003e(Music_Data,Maybe Music_Data)",
@@ -7458,6 +8106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Note",
           "package": "hamusic",
@@ -7467,6 +8116,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Note",
           "normalized": "Note-\u003e(Note,Note)",
@@ -7482,6 +8132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Note_",
           "package": "hamusic",
@@ -7491,6 +8142,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Note_",
           "normalized": "Note_-\u003e(Duration,Full_Note_)",
@@ -7506,6 +8158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Pitch",
           "package": "hamusic",
@@ -7515,6 +8168,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Pitch",
           "normalized": "Pitch-\u003e(Pitch,Pitch)",
@@ -7530,6 +8184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Type",
           "package": "hamusic",
@@ -7539,6 +8194,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level2Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level2Num",
           "name": "split_Type",
           "normalized": "Type-\u003e(Type,Type)",
@@ -7554,6 +8210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Accidental",
           "package": "hamusic",
@@ -7562,6 +8219,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Accidental",
           "package": "hamusic",
@@ -7575,6 +8233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Attributes",
           "package": "hamusic",
@@ -7583,6 +8242,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Attributes",
           "package": "hamusic",
@@ -7596,6 +8256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Barline",
           "package": "hamusic",
@@ -7604,6 +8265,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Barline",
           "package": "hamusic",
@@ -7618,6 +8280,7 @@
       "document": {
         "description": {
           "description": "MusicXML Schema specify \u003ca\u003exs:string\u003c/a\u003e\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Beat_Type",
           "package": "hamusic",
@@ -7627,6 +8290,7 @@
         "index": {
           "description": "MusicXML Schema specify xs string",
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Beat_Type",
           "package": "hamusic",
@@ -7641,6 +8305,7 @@
       "document": {
         "description": {
           "description": "MusicXML Schema specify \u003ca\u003exs:string\u003c/a\u003e\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Beats",
           "package": "hamusic",
@@ -7650,6 +8315,7 @@
         "index": {
           "description": "MusicXML Schema specify xs string",
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Beats",
           "package": "hamusic",
@@ -7663,6 +8329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Clef",
           "package": "hamusic",
@@ -7671,6 +8338,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Clef",
           "package": "hamusic",
@@ -7684,6 +8352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Directive",
           "package": "hamusic",
@@ -7692,6 +8361,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Directive",
           "package": "hamusic",
@@ -7705,6 +8375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Divisions",
           "package": "hamusic",
@@ -7713,6 +8384,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Divisions",
           "package": "hamusic",
@@ -7726,6 +8398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Dot",
           "package": "hamusic",
@@ -7734,6 +8407,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Dot",
           "package": "hamusic",
@@ -7747,6 +8421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Duration",
           "package": "hamusic",
@@ -7755,6 +8430,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Duration",
           "package": "hamusic",
@@ -7768,6 +8444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Editorial",
           "package": "hamusic",
@@ -7776,6 +8453,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Editorial",
           "package": "hamusic",
@@ -7789,6 +8467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Editorial_Voice",
           "package": "hamusic",
@@ -7797,6 +8476,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Editorial_Voice",
           "package": "hamusic",
@@ -7810,6 +8490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Full_Note",
           "package": "hamusic",
@@ -7818,6 +8499,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Full_Note",
           "package": "hamusic",
@@ -7831,6 +8513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -7839,6 +8522,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -7852,6 +8536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Instrument",
           "package": "hamusic",
@@ -7860,6 +8545,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Instrument",
           "package": "hamusic",
@@ -7873,6 +8559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Instruments",
           "package": "hamusic",
@@ -7881,6 +8568,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Instruments",
           "package": "hamusic",
@@ -7894,6 +8582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Key",
           "package": "hamusic",
@@ -7902,6 +8591,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Key",
           "package": "hamusic",
@@ -7915,6 +8605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Key_",
           "package": "hamusic",
@@ -7923,6 +8614,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Key_",
           "package": "hamusic",
@@ -7936,6 +8628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Measure",
           "package": "hamusic",
@@ -7944,6 +8637,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Measure",
           "package": "hamusic",
@@ -7957,6 +8651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Measure_Style",
           "package": "hamusic",
@@ -7965,6 +8660,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Measure_Style",
           "package": "hamusic",
@@ -7978,6 +8674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Music_Data",
           "package": "hamusic",
@@ -7986,6 +8683,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Music_Data",
           "package": "hamusic",
@@ -7999,6 +8697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Note",
           "package": "hamusic",
@@ -8007,6 +8706,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Note",
           "package": "hamusic",
@@ -8020,6 +8720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Note_",
           "package": "hamusic",
@@ -8028,6 +8729,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Note_",
           "package": "hamusic",
@@ -8041,6 +8743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Part",
           "package": "hamusic",
@@ -8049,6 +8752,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Part",
           "package": "hamusic",
@@ -8062,6 +8766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Part_Symbol",
           "package": "hamusic",
@@ -8070,6 +8775,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Part_Symbol",
           "package": "hamusic",
@@ -8083,6 +8789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Rest",
           "package": "hamusic",
@@ -8091,6 +8798,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Rest",
           "package": "hamusic",
@@ -8104,6 +8812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -8112,6 +8821,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -8126,6 +8836,7 @@
       "document": {
         "description": {
           "description": "positive number\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Staff",
           "package": "hamusic",
@@ -8135,6 +8846,7 @@
         "index": {
           "description": "positive number",
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Staff",
           "package": "hamusic",
@@ -8148,6 +8860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Staff_Details",
           "package": "hamusic",
@@ -8156,6 +8869,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Staff_Details",
           "package": "hamusic",
@@ -8169,6 +8883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Staves",
           "package": "hamusic",
@@ -8177,6 +8892,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Staves",
           "package": "hamusic",
@@ -8190,6 +8906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Time",
           "package": "hamusic",
@@ -8198,6 +8915,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Time",
           "package": "hamusic",
@@ -8211,6 +8929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Time_B",
           "package": "hamusic",
@@ -8219,6 +8938,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Time_B",
           "package": "hamusic",
@@ -8232,6 +8952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Transpose",
           "package": "hamusic",
@@ -8240,6 +8961,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Transpose",
           "package": "hamusic",
@@ -8253,6 +8975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Type",
           "package": "hamusic",
@@ -8261,6 +8984,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "Type",
           "package": "hamusic",
@@ -8274,6 +8998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Accidental",
           "package": "hamusic",
@@ -8283,6 +9008,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Accidental",
           "normalized": "Accidental-\u003eAccidental",
@@ -8298,6 +9024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Attributes",
           "package": "hamusic",
@@ -8307,6 +9034,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Attributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -8322,6 +9050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Clef",
           "package": "hamusic",
@@ -8331,6 +9060,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Clef",
           "normalized": "Clef-\u003eClef",
@@ -8346,6 +9076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Divisions",
           "package": "hamusic",
@@ -8355,6 +9086,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Divisions",
           "normalized": "Divisions-\u003eDivisions",
@@ -8370,6 +9102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Dot",
           "package": "hamusic",
@@ -8379,6 +9112,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Dot",
           "normalized": "Dot-\u003eDot",
@@ -8394,6 +9128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Duration",
           "package": "hamusic",
@@ -8403,6 +9138,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Duration",
           "normalized": "Duration-\u003eDuration",
@@ -8418,6 +9154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Full_Note",
           "package": "hamusic",
@@ -8427,6 +9164,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Full_Note",
           "normalized": "Full_Note-\u003eFull_Note",
@@ -8442,6 +9180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Full_Note_",
           "package": "hamusic",
@@ -8451,6 +9190,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Full_Note_",
           "normalized": "Full_Note_-\u003eFull_Note_",
@@ -8466,6 +9206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Key",
           "package": "hamusic",
@@ -8475,6 +9216,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Key",
           "normalized": "Key-\u003eKey",
@@ -8490,6 +9232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Key_",
           "package": "hamusic",
@@ -8499,6 +9242,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Key_",
           "normalized": "Key_-\u003eKey_",
@@ -8514,6 +9258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Measure",
           "package": "hamusic",
@@ -8523,6 +9268,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Measure",
           "normalized": "Measure-\u003eMeasure",
@@ -8538,6 +9284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Music_Data",
           "package": "hamusic",
@@ -8547,6 +9294,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Music_Data",
           "normalized": "Music_Data-\u003eMaybe Music_Data",
@@ -8562,6 +9310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Note",
           "package": "hamusic",
@@ -8571,6 +9320,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Note",
           "normalized": "Note-\u003eNote",
@@ -8586,6 +9336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Note_",
           "package": "hamusic",
@@ -8595,6 +9346,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Note_",
           "normalized": "Note_-\u003eNote_",
@@ -8610,6 +9362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Score_Partwise",
           "package": "hamusic",
@@ -8619,6 +9372,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -8634,6 +9388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Time",
           "package": "hamusic",
@@ -8643,6 +9398,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Time",
           "normalized": "Time-\u003eTime",
@@ -8658,6 +9414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Type",
           "package": "hamusic",
@@ -8667,6 +9424,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "abst_Type",
           "normalized": "Type-\u003eType",
@@ -8682,6 +9440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "map_Measure",
           "package": "hamusic",
@@ -8691,6 +9450,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "map_Measure",
           "normalized": "(Music_Data-\u003ea)-\u003eMeasure-\u003e[a]",
@@ -8706,6 +9466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "map_Music_Data",
           "package": "hamusic",
@@ -8715,6 +9476,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "map_Music_Data",
           "normalized": "(Music_Data-\u003ea)-\u003eMusic_Data-\u003ea",
@@ -8730,6 +9492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "map_Part",
           "package": "hamusic",
@@ -8739,6 +9502,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "map_Part",
           "normalized": "(Music_Data-\u003ea)-\u003ePart-\u003e[[a]]",
@@ -8754,6 +9518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "map_Score_Partwise",
           "package": "hamusic",
@@ -8763,6 +9528,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "map_Score_Partwise",
           "normalized": "(Music_Data-\u003ea)-\u003eScore_Partwise-\u003e(Document_Attributes,(Score_Header,[[[a]]]))",
@@ -8778,6 +9544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Attributes",
           "package": "hamusic",
@@ -8787,6 +9554,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Attributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -8802,6 +9570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Clef",
           "package": "hamusic",
@@ -8811,6 +9580,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Clef",
           "normalized": "Clef-\u003eClef",
@@ -8826,6 +9596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Full_Note",
           "package": "hamusic",
@@ -8835,6 +9606,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Full_Note",
           "normalized": "Full_Note-\u003eFull_Note",
@@ -8850,6 +9622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Key",
           "package": "hamusic",
@@ -8859,6 +9632,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Key",
           "normalized": "Key-\u003eKey",
@@ -8874,6 +9648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Mode",
           "package": "hamusic",
@@ -8883,6 +9658,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Mode",
           "normalized": "Mode-\u003eMode",
@@ -8898,6 +9674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Music_Data",
           "package": "hamusic",
@@ -8907,6 +9684,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Music_Data",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -8922,6 +9700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Note",
           "package": "hamusic",
@@ -8931,6 +9710,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Note",
           "normalized": "Note-\u003eNote",
@@ -8946,6 +9726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Time",
           "package": "hamusic",
@@ -8955,6 +9736,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3",
           "name": "toNum_Time",
           "normalized": "Time-\u003eTime",
@@ -8970,6 +9752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Accidental",
           "package": "hamusic",
@@ -8978,6 +9761,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Accidental",
           "package": "hamusic",
@@ -8991,6 +9775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Attributes",
           "package": "hamusic",
@@ -8999,6 +9784,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Attributes",
           "package": "hamusic",
@@ -9012,6 +9798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Barline",
           "package": "hamusic",
@@ -9020,6 +9807,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Barline",
           "package": "hamusic",
@@ -9034,6 +9822,7 @@
       "document": {
         "description": {
           "description": "MusicXML Schema specify \u003ca\u003exs:string\u003c/a\u003e\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Beat_Type",
           "package": "hamusic",
@@ -9043,6 +9832,7 @@
         "index": {
           "description": "MusicXML Schema specify xs string",
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Beat_Type",
           "package": "hamusic",
@@ -9057,6 +9847,7 @@
       "document": {
         "description": {
           "description": "MusicXML Schema specify \u003ca\u003exs:string\u003c/a\u003e\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Beats",
           "package": "hamusic",
@@ -9066,6 +9857,7 @@
         "index": {
           "description": "MusicXML Schema specify xs string",
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Beats",
           "package": "hamusic",
@@ -9079,6 +9871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Clef",
           "package": "hamusic",
@@ -9087,6 +9880,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Clef",
           "package": "hamusic",
@@ -9100,6 +9894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Directive",
           "package": "hamusic",
@@ -9108,6 +9903,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Directive",
           "package": "hamusic",
@@ -9121,6 +9917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Divisions",
           "package": "hamusic",
@@ -9129,6 +9926,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Divisions",
           "package": "hamusic",
@@ -9142,6 +9940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Dot",
           "package": "hamusic",
@@ -9150,6 +9949,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Dot",
           "package": "hamusic",
@@ -9163,6 +9963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Duration",
           "package": "hamusic",
@@ -9171,6 +9972,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Duration",
           "package": "hamusic",
@@ -9184,6 +9986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Editorial",
           "package": "hamusic",
@@ -9192,6 +9995,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Editorial",
           "package": "hamusic",
@@ -9205,6 +10009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Editorial_Voice",
           "package": "hamusic",
@@ -9213,6 +10018,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Editorial_Voice",
           "package": "hamusic",
@@ -9226,6 +10032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Full_Note",
           "package": "hamusic",
@@ -9234,6 +10041,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Full_Note",
           "package": "hamusic",
@@ -9247,6 +10055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -9255,6 +10064,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -9268,6 +10078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Instrument",
           "package": "hamusic",
@@ -9276,6 +10087,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Instrument",
           "package": "hamusic",
@@ -9289,6 +10101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Instruments",
           "package": "hamusic",
@@ -9297,6 +10110,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Instruments",
           "package": "hamusic",
@@ -9310,6 +10124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Key",
           "package": "hamusic",
@@ -9318,6 +10133,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Key",
           "package": "hamusic",
@@ -9331,6 +10147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Key_",
           "package": "hamusic",
@@ -9339,6 +10156,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Key_",
           "package": "hamusic",
@@ -9352,6 +10170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Measure",
           "package": "hamusic",
@@ -9360,6 +10179,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Measure",
           "package": "hamusic",
@@ -9373,6 +10193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Measure_Style",
           "package": "hamusic",
@@ -9381,6 +10202,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Measure_Style",
           "package": "hamusic",
@@ -9394,6 +10216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Music_Data",
           "package": "hamusic",
@@ -9402,6 +10225,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Music_Data",
           "package": "hamusic",
@@ -9415,6 +10239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Note",
           "package": "hamusic",
@@ -9423,6 +10248,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Note",
           "package": "hamusic",
@@ -9436,6 +10262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Note_",
           "package": "hamusic",
@@ -9444,6 +10271,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Note_",
           "package": "hamusic",
@@ -9457,6 +10285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Part",
           "package": "hamusic",
@@ -9465,6 +10294,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Part",
           "package": "hamusic",
@@ -9478,6 +10308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Part_Symbol",
           "package": "hamusic",
@@ -9486,6 +10317,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Part_Symbol",
           "package": "hamusic",
@@ -9499,6 +10331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Rest",
           "package": "hamusic",
@@ -9507,6 +10340,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Rest",
           "package": "hamusic",
@@ -9520,6 +10354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -9528,6 +10363,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -9542,6 +10378,7 @@
       "document": {
         "description": {
           "description": "positive number\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Staff",
           "package": "hamusic",
@@ -9551,6 +10388,7 @@
         "index": {
           "description": "positive number",
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Staff",
           "package": "hamusic",
@@ -9564,6 +10402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Staff_Details",
           "package": "hamusic",
@@ -9572,6 +10411,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Staff_Details",
           "package": "hamusic",
@@ -9585,6 +10425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Staves",
           "package": "hamusic",
@@ -9593,6 +10434,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Staves",
           "package": "hamusic",
@@ -9606,6 +10448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Time",
           "package": "hamusic",
@@ -9614,6 +10457,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Time",
           "package": "hamusic",
@@ -9627,6 +10471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Time_B",
           "package": "hamusic",
@@ -9635,6 +10480,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Time_B",
           "package": "hamusic",
@@ -9648,6 +10494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Transpose",
           "package": "hamusic",
@@ -9656,6 +10503,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Transpose",
           "package": "hamusic",
@@ -9669,6 +10517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Type",
           "package": "hamusic",
@@ -9677,6 +10526,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "Type",
           "package": "hamusic",
@@ -9690,6 +10540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Accidental",
           "package": "hamusic",
@@ -9699,6 +10550,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Accidental",
           "normalized": "Accidental-\u003eAccidental",
@@ -9714,6 +10566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Attributes",
           "package": "hamusic",
@@ -9723,6 +10576,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Attributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -9738,6 +10592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Clef",
           "package": "hamusic",
@@ -9747,6 +10602,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Clef",
           "normalized": "Clef-\u003eClef",
@@ -9762,6 +10618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Divisions",
           "package": "hamusic",
@@ -9771,6 +10628,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Divisions",
           "normalized": "Divisions-\u003eDivisions",
@@ -9786,6 +10644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Dot",
           "package": "hamusic",
@@ -9795,6 +10654,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Dot",
           "normalized": "Dot-\u003eDot",
@@ -9810,6 +10670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Duration",
           "package": "hamusic",
@@ -9819,6 +10680,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Duration",
           "normalized": "Duration-\u003eDuration",
@@ -9834,6 +10696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Full_Note",
           "package": "hamusic",
@@ -9843,6 +10706,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Full_Note",
           "normalized": "Full_Note-\u003eFull_Note",
@@ -9858,6 +10722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Full_Note_",
           "package": "hamusic",
@@ -9867,6 +10732,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Full_Note_",
           "normalized": "Full_Note_-\u003eFull_Note_",
@@ -9882,6 +10748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Key",
           "package": "hamusic",
@@ -9891,6 +10758,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Key",
           "normalized": "Key-\u003eKey",
@@ -9906,6 +10774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Key_",
           "package": "hamusic",
@@ -9915,6 +10784,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Key_",
           "normalized": "Key_-\u003eKey_",
@@ -9930,6 +10800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Measure",
           "package": "hamusic",
@@ -9939,6 +10810,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Measure",
           "normalized": "Measure-\u003eMeasure",
@@ -9954,6 +10826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Music_Data",
           "package": "hamusic",
@@ -9963,6 +10836,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Music_Data",
           "normalized": "Music_Data-\u003eMaybe Music_Data",
@@ -9978,6 +10852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Note",
           "package": "hamusic",
@@ -9987,6 +10862,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Note",
           "normalized": "Note-\u003eNote",
@@ -10002,6 +10878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Note_",
           "package": "hamusic",
@@ -10011,6 +10888,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Note_",
           "normalized": "Note_-\u003eNote_",
@@ -10026,6 +10904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Score_Partwise",
           "package": "hamusic",
@@ -10035,6 +10914,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -10050,6 +10930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Time",
           "package": "hamusic",
@@ -10059,6 +10940,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Time",
           "normalized": "Time-\u003eTime",
@@ -10074,6 +10956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Type",
           "package": "hamusic",
@@ -10083,6 +10966,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "abst_Type",
           "normalized": "Type-\u003eType",
@@ -10098,6 +10982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "map_Measure",
           "package": "hamusic",
@@ -10107,6 +10992,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "map_Measure",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eMeasure-\u003eMeasure",
@@ -10122,6 +11008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "map_Music_Data",
           "package": "hamusic",
@@ -10131,6 +11018,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "map_Music_Data",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eMusic_Data-\u003eMusic_Data",
@@ -10146,6 +11034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "map_Part",
           "package": "hamusic",
@@ -10155,6 +11044,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "map_Part",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003ePart-\u003ePart",
@@ -10170,6 +11060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "map_Score_Partwise",
           "package": "hamusic",
@@ -10179,6 +11070,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level3Num",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level3Num",
           "name": "map_Score_Partwise",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eScore_Partwise-\u003eScore_Partwise",
@@ -10194,6 +11086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Accidental",
           "package": "hamusic",
@@ -10202,6 +11095,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Accidental",
           "package": "hamusic",
@@ -10215,6 +11109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Attributes",
           "package": "hamusic",
@@ -10223,6 +11118,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Attributes",
           "package": "hamusic",
@@ -10236,6 +11132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Beam",
           "package": "hamusic",
@@ -10244,6 +11141,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Beam",
           "package": "hamusic",
@@ -10257,6 +11155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Clef",
           "package": "hamusic",
@@ -10265,6 +11164,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Clef",
           "package": "hamusic",
@@ -10278,6 +11178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Cue",
           "package": "hamusic",
@@ -10286,6 +11187,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Cue",
           "package": "hamusic",
@@ -10299,6 +11201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Directive",
           "package": "hamusic",
@@ -10307,6 +11210,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Directive",
           "package": "hamusic",
@@ -10320,6 +11224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Divisions",
           "package": "hamusic",
@@ -10328,6 +11233,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Divisions",
           "package": "hamusic",
@@ -10341,6 +11247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Dot",
           "package": "hamusic",
@@ -10349,6 +11256,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Dot",
           "package": "hamusic",
@@ -10362,6 +11270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Duration",
           "package": "hamusic",
@@ -10370,6 +11279,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Duration",
           "package": "hamusic",
@@ -10383,6 +11293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Editorial",
           "package": "hamusic",
@@ -10391,6 +11302,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Editorial",
           "package": "hamusic",
@@ -10404,6 +11316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Editorial_Voice",
           "package": "hamusic",
@@ -10412,6 +11325,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Editorial_Voice",
           "package": "hamusic",
@@ -10425,6 +11339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Full_Note",
           "package": "hamusic",
@@ -10433,6 +11348,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Full_Note",
           "package": "hamusic",
@@ -10446,6 +11362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -10454,6 +11371,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -10467,6 +11385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Grace",
           "package": "hamusic",
@@ -10475,6 +11394,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Grace",
           "package": "hamusic",
@@ -10488,6 +11408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Instrument",
           "package": "hamusic",
@@ -10496,6 +11417,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Instrument",
           "package": "hamusic",
@@ -10509,6 +11431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Instruments",
           "package": "hamusic",
@@ -10517,6 +11440,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Instruments",
           "package": "hamusic",
@@ -10530,6 +11454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Key",
           "package": "hamusic",
@@ -10538,6 +11463,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Key",
           "package": "hamusic",
@@ -10551,6 +11477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Key_",
           "package": "hamusic",
@@ -10559,6 +11486,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Key_",
           "package": "hamusic",
@@ -10572,6 +11500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Lyric",
           "package": "hamusic",
@@ -10580,6 +11509,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Lyric",
           "package": "hamusic",
@@ -10593,6 +11523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Measure",
           "package": "hamusic",
@@ -10601,6 +11532,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Measure",
           "package": "hamusic",
@@ -10614,6 +11546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Measure_Style",
           "package": "hamusic",
@@ -10622,6 +11555,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Measure_Style",
           "package": "hamusic",
@@ -10635,6 +11569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Music_Data",
           "package": "hamusic",
@@ -10643,6 +11578,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Music_Data",
           "package": "hamusic",
@@ -10656,6 +11592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Notations",
           "package": "hamusic",
@@ -10664,6 +11601,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Notations",
           "package": "hamusic",
@@ -10677,6 +11615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Note",
           "package": "hamusic",
@@ -10685,6 +11624,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Note",
           "package": "hamusic",
@@ -10698,6 +11638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Note_",
           "package": "hamusic",
@@ -10706,6 +11647,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Note_",
           "package": "hamusic",
@@ -10719,6 +11661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Notehead",
           "package": "hamusic",
@@ -10727,6 +11670,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Notehead",
           "package": "hamusic",
@@ -10740,6 +11684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Part",
           "package": "hamusic",
@@ -10748,6 +11693,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Part",
           "package": "hamusic",
@@ -10761,6 +11707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Part_Symbol",
           "package": "hamusic",
@@ -10769,6 +11716,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Part_Symbol",
           "package": "hamusic",
@@ -10782,6 +11730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Rest",
           "package": "hamusic",
@@ -10790,6 +11739,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Rest",
           "package": "hamusic",
@@ -10803,6 +11753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -10811,6 +11762,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -10825,6 +11777,7 @@
       "document": {
         "description": {
           "description": "positive number\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Staff",
           "package": "hamusic",
@@ -10834,6 +11787,7 @@
         "index": {
           "description": "positive number",
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Staff",
           "package": "hamusic",
@@ -10847,6 +11801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Staff_Details",
           "package": "hamusic",
@@ -10855,6 +11810,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Staff_Details",
           "package": "hamusic",
@@ -10868,6 +11824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Staves",
           "package": "hamusic",
@@ -10876,6 +11833,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Staves",
           "package": "hamusic",
@@ -10889,6 +11847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Stem",
           "package": "hamusic",
@@ -10897,6 +11856,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Stem",
           "package": "hamusic",
@@ -10910,6 +11870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Tie",
           "package": "hamusic",
@@ -10918,6 +11879,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Tie",
           "package": "hamusic",
@@ -10931,6 +11893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Time",
           "package": "hamusic",
@@ -10939,6 +11902,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Time",
           "package": "hamusic",
@@ -10952,6 +11916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Time_Modification",
           "package": "hamusic",
@@ -10960,6 +11925,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Time_Modification",
           "package": "hamusic",
@@ -10973,6 +11939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Transpose",
           "package": "hamusic",
@@ -10981,6 +11948,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Transpose",
           "package": "hamusic",
@@ -10994,6 +11962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Type",
           "package": "hamusic",
@@ -11002,6 +11971,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Type",
           "package": "hamusic",
@@ -11015,6 +11985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Unpitched",
           "package": "hamusic",
@@ -11023,6 +11994,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "Unpitched",
           "package": "hamusic",
@@ -11036,6 +12008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Accidental",
           "package": "hamusic",
@@ -11045,6 +12018,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Accidental",
           "normalized": "Accidental-\u003eAccidental",
@@ -11060,6 +12034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Attributes",
           "package": "hamusic",
@@ -11069,6 +12044,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Attributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -11084,6 +12060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Clef",
           "package": "hamusic",
@@ -11093,6 +12070,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Clef",
           "normalized": "Clef-\u003eClef",
@@ -11108,6 +12086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Directive",
           "package": "hamusic",
@@ -11117,6 +12096,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Directive",
           "normalized": "Directive-\u003eDirective",
@@ -11132,6 +12112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Divisions",
           "package": "hamusic",
@@ -11141,6 +12122,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Divisions",
           "normalized": "Divisions-\u003eDivisions",
@@ -11156,6 +12138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Dot",
           "package": "hamusic",
@@ -11165,6 +12148,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Dot",
           "normalized": "Dot-\u003eDot",
@@ -11180,6 +12164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Duration",
           "package": "hamusic",
@@ -11189,6 +12174,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Duration",
           "normalized": "Duration-\u003eDuration",
@@ -11204,6 +12190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Editorial",
           "package": "hamusic",
@@ -11213,6 +12200,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Editorial",
           "normalized": "Editorial-\u003eEditorial",
@@ -11228,6 +12216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Editorial_Voice",
           "package": "hamusic",
@@ -11237,6 +12226,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Editorial_Voice",
           "normalized": "Editorial_Voice-\u003eEditorial_Voice",
@@ -11252,6 +12242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Full_Note",
           "package": "hamusic",
@@ -11261,6 +12252,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Full_Note",
           "normalized": "Full_Note-\u003eMaybe Full_Note",
@@ -11276,6 +12268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Full_Note_",
           "package": "hamusic",
@@ -11285,6 +12278,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Full_Note_",
           "normalized": "Full_Note_-\u003eMaybe Full_Note_",
@@ -11300,6 +12294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Instrument",
           "package": "hamusic",
@@ -11309,6 +12304,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Instrument",
           "normalized": "Instrument-\u003eInstrument",
@@ -11324,6 +12320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Instruments",
           "package": "hamusic",
@@ -11333,6 +12330,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Instruments",
           "normalized": "Instruments-\u003eInstruments",
@@ -11348,6 +12346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Key",
           "package": "hamusic",
@@ -11357,6 +12356,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Key",
           "normalized": "Key-\u003eKey",
@@ -11372,6 +12372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Key_",
           "package": "hamusic",
@@ -11381,6 +12382,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Key_",
           "normalized": "Key_-\u003eKey_",
@@ -11396,6 +12398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Measure",
           "package": "hamusic",
@@ -11405,6 +12408,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Measure",
           "normalized": "Measure-\u003eMeasure",
@@ -11420,6 +12424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Measure_Style",
           "package": "hamusic",
@@ -11429,6 +12434,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Measure_Style",
           "normalized": "Measure_Style-\u003eMeasure_Style",
@@ -11444,6 +12450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Music_Data",
           "package": "hamusic",
@@ -11453,6 +12460,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Music_Data",
           "normalized": "Music_Data-\u003eMaybe Music_Data",
@@ -11468,6 +12476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Note",
           "package": "hamusic",
@@ -11477,6 +12486,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Note",
           "normalized": "Note-\u003eMaybe Note",
@@ -11492,6 +12502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Note_",
           "package": "hamusic",
@@ -11501,6 +12512,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Note_",
           "normalized": "Note_-\u003eMaybe Note_",
@@ -11516,6 +12528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Part",
           "package": "hamusic",
@@ -11525,6 +12538,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Part",
           "normalized": "Part-\u003ePart",
@@ -11540,6 +12554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Part_Symbol",
           "package": "hamusic",
@@ -11549,6 +12564,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Part_Symbol",
           "normalized": "Part_Symbol-\u003ePart_Symbol",
@@ -11564,6 +12580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Score_Partwise",
           "package": "hamusic",
@@ -11573,6 +12590,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -11588,6 +12606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Staff",
           "package": "hamusic",
@@ -11597,6 +12616,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Staff",
           "normalized": "Staff-\u003eStaff",
@@ -11612,6 +12632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Staff_Details",
           "package": "hamusic",
@@ -11621,6 +12642,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Staff_Details",
           "normalized": "Staff_Details-\u003eStaff_Details",
@@ -11636,6 +12658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Staves",
           "package": "hamusic",
@@ -11645,6 +12668,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Staves",
           "normalized": "Staves-\u003eStaves",
@@ -11660,6 +12684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Time",
           "package": "hamusic",
@@ -11669,6 +12694,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Time",
           "normalized": "Time-\u003eTime",
@@ -11684,6 +12710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Transpose",
           "package": "hamusic",
@@ -11693,6 +12720,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Transpose",
           "normalized": "Transpose-\u003eTranspose",
@@ -11708,6 +12736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Type",
           "package": "hamusic",
@@ -11717,6 +12746,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "abst_Type",
           "normalized": "Type-\u003eType",
@@ -11732,6 +12762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "map_Measure",
           "package": "hamusic",
@@ -11741,6 +12772,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "map_Measure",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eMeasure-\u003eMeasure",
@@ -11756,6 +12788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "map_Music_Data",
           "package": "hamusic",
@@ -11765,6 +12798,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "map_Music_Data",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eMusic_Data-\u003eMusic_Data",
@@ -11780,6 +12814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "map_Part",
           "package": "hamusic",
@@ -11789,6 +12824,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "map_Part",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003ePart-\u003ePart",
@@ -11804,6 +12840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "map_Score_Partwise",
           "package": "hamusic",
@@ -11813,6 +12850,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "map_Score_Partwise",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eScore_Partwise-\u003eScore_Partwise",
@@ -11828,6 +12866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Accidental",
           "package": "hamusic",
@@ -11837,6 +12876,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Accidental",
           "normalized": "Accidental-\u003eAccidental",
@@ -11852,6 +12892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Attributes",
           "package": "hamusic",
@@ -11861,6 +12902,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Attributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -11876,6 +12918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Clef",
           "package": "hamusic",
@@ -11885,6 +12928,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Clef",
           "normalized": "Clef-\u003eClef",
@@ -11900,6 +12944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Directive",
           "package": "hamusic",
@@ -11909,6 +12954,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Directive",
           "normalized": "Directive-\u003eDirective",
@@ -11924,6 +12970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Divisions",
           "package": "hamusic",
@@ -11933,6 +12980,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Divisions",
           "normalized": "Divisions-\u003eDivisions",
@@ -11948,6 +12996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Dot",
           "package": "hamusic",
@@ -11957,6 +13006,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Dot",
           "normalized": "Dot-\u003eDot",
@@ -11972,6 +13022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Duration",
           "package": "hamusic",
@@ -11981,6 +13032,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Duration",
           "normalized": "Duration-\u003eDuration",
@@ -11996,6 +13048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Editorial",
           "package": "hamusic",
@@ -12005,6 +13058,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Editorial",
           "normalized": "Editorial-\u003eEditorial",
@@ -12020,6 +13074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Editorial_Voice",
           "package": "hamusic",
@@ -12029,6 +13084,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Editorial_Voice",
           "normalized": "Editorial_Voice-\u003eEditorial_Voice",
@@ -12044,6 +13100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Full_Note",
           "package": "hamusic",
@@ -12053,6 +13110,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Full_Note",
           "normalized": "Full_Note-\u003eFull_Note",
@@ -12068,6 +13126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Full_Note_",
           "package": "hamusic",
@@ -12077,6 +13136,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Full_Note_",
           "normalized": "Full_Note_-\u003eFull_Note_",
@@ -12092,6 +13152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Instrument",
           "package": "hamusic",
@@ -12101,6 +13162,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Instrument",
           "normalized": "Instrument-\u003eInstrument",
@@ -12116,6 +13178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Instruments",
           "package": "hamusic",
@@ -12125,6 +13188,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Instruments",
           "normalized": "Instruments-\u003eInstruments",
@@ -12140,6 +13204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Key",
           "package": "hamusic",
@@ -12149,6 +13214,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Key",
           "normalized": "Key-\u003eKey",
@@ -12164,6 +13230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Key_",
           "package": "hamusic",
@@ -12173,6 +13240,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Key_",
           "normalized": "Key_-\u003eKey_",
@@ -12188,6 +13256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Measure",
           "package": "hamusic",
@@ -12197,6 +13266,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Measure",
           "normalized": "Measure-\u003eMeasure",
@@ -12212,6 +13282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Measure_Style",
           "package": "hamusic",
@@ -12221,6 +13292,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Measure_Style",
           "normalized": "Measure_Style-\u003eMeasure_Style",
@@ -12236,6 +13308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Music_Data",
           "package": "hamusic",
@@ -12245,6 +13318,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Music_Data",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -12260,6 +13334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Note",
           "package": "hamusic",
@@ -12269,6 +13344,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Note",
           "normalized": "Note-\u003eNote",
@@ -12284,6 +13360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Note_",
           "package": "hamusic",
@@ -12293,6 +13370,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Note_",
           "normalized": "Note_-\u003eNote_",
@@ -12308,6 +13386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Part",
           "package": "hamusic",
@@ -12317,6 +13396,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Part",
           "normalized": "Part-\u003ePart",
@@ -12332,6 +13412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Part_Symbol",
           "package": "hamusic",
@@ -12341,6 +13422,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Part_Symbol",
           "normalized": "Part_Symbol-\u003ePart_Symbol",
@@ -12356,6 +13438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Score_Partwise",
           "package": "hamusic",
@@ -12365,6 +13448,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -12380,6 +13464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Staff",
           "package": "hamusic",
@@ -12389,6 +13474,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Staff",
           "normalized": "Staff-\u003eStaff",
@@ -12404,6 +13490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Staff_Details",
           "package": "hamusic",
@@ -12413,6 +13500,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Staff_Details",
           "normalized": "Staff_Details-\u003eStaff_Details",
@@ -12428,6 +13516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Staves",
           "package": "hamusic",
@@ -12437,6 +13526,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Staves",
           "normalized": "Staves-\u003eStaves",
@@ -12452,6 +13542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Time",
           "package": "hamusic",
@@ -12461,6 +13552,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Time",
           "normalized": "Time-\u003eTime",
@@ -12476,6 +13568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Transpose",
           "package": "hamusic",
@@ -12485,6 +13578,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Transpose",
           "normalized": "Transpose-\u003eTranspose",
@@ -12500,6 +13594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Type",
           "package": "hamusic",
@@ -12509,6 +13604,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level4",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level4",
           "name": "rep_Type",
           "normalized": "Type-\u003eType",
@@ -12524,6 +13620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Accidental",
           "package": "hamusic",
@@ -12532,6 +13629,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Accidental",
           "package": "hamusic",
@@ -12545,6 +13643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Attributes",
           "package": "hamusic",
@@ -12553,6 +13652,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Attributes",
           "package": "hamusic",
@@ -12566,6 +13666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Beam",
           "package": "hamusic",
@@ -12574,6 +13675,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Beam",
           "package": "hamusic",
@@ -12587,6 +13689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Clef",
           "package": "hamusic",
@@ -12595,6 +13698,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Clef",
           "package": "hamusic",
@@ -12608,6 +13712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Cue",
           "package": "hamusic",
@@ -12616,6 +13721,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Cue",
           "package": "hamusic",
@@ -12629,6 +13735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Directive",
           "package": "hamusic",
@@ -12637,6 +13744,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Directive",
           "package": "hamusic",
@@ -12650,6 +13758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Divisions",
           "package": "hamusic",
@@ -12658,6 +13767,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Divisions",
           "package": "hamusic",
@@ -12671,6 +13781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Dot",
           "package": "hamusic",
@@ -12679,6 +13790,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Dot",
           "package": "hamusic",
@@ -12692,6 +13804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Duration",
           "package": "hamusic",
@@ -12700,6 +13813,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Duration",
           "package": "hamusic",
@@ -12713,6 +13827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Editorial",
           "package": "hamusic",
@@ -12721,6 +13836,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Editorial",
           "package": "hamusic",
@@ -12734,6 +13850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Editorial_Voice",
           "package": "hamusic",
@@ -12742,6 +13859,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Editorial_Voice",
           "package": "hamusic",
@@ -12755,6 +13873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Full_Note",
           "package": "hamusic",
@@ -12763,6 +13882,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Full_Note",
           "package": "hamusic",
@@ -12776,6 +13896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -12784,6 +13905,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Full_Note_",
           "package": "hamusic",
@@ -12797,6 +13919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Grace",
           "package": "hamusic",
@@ -12805,6 +13928,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Grace",
           "package": "hamusic",
@@ -12818,6 +13942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Instrument",
           "package": "hamusic",
@@ -12826,6 +13951,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Instrument",
           "package": "hamusic",
@@ -12839,6 +13965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Instruments",
           "package": "hamusic",
@@ -12847,6 +13974,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Instruments",
           "package": "hamusic",
@@ -12860,6 +13988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Key",
           "package": "hamusic",
@@ -12868,6 +13997,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Key",
           "package": "hamusic",
@@ -12881,6 +14011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Key_",
           "package": "hamusic",
@@ -12889,6 +14020,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Key_",
           "package": "hamusic",
@@ -12902,6 +14034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Key_Octave",
           "package": "hamusic",
@@ -12910,6 +14043,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Key_Octave",
           "package": "hamusic",
@@ -12923,6 +14057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Lyric",
           "package": "hamusic",
@@ -12931,6 +14066,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Lyric",
           "package": "hamusic",
@@ -12944,6 +14080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Measure",
           "package": "hamusic",
@@ -12952,6 +14089,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Measure",
           "package": "hamusic",
@@ -12965,6 +14103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Measure_Style",
           "package": "hamusic",
@@ -12973,6 +14112,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Measure_Style",
           "package": "hamusic",
@@ -12986,6 +14126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Music_Data",
           "package": "hamusic",
@@ -12994,6 +14135,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Music_Data",
           "package": "hamusic",
@@ -13007,6 +14149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Notations",
           "package": "hamusic",
@@ -13015,6 +14158,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Notations",
           "package": "hamusic",
@@ -13028,6 +14172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Note",
           "package": "hamusic",
@@ -13036,6 +14181,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Note",
           "package": "hamusic",
@@ -13049,6 +14195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Note_",
           "package": "hamusic",
@@ -13057,6 +14204,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Note_",
           "package": "hamusic",
@@ -13070,6 +14218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Notehead",
           "package": "hamusic",
@@ -13078,6 +14227,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Notehead",
           "package": "hamusic",
@@ -13091,6 +14241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Part",
           "package": "hamusic",
@@ -13099,6 +14250,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Part",
           "package": "hamusic",
@@ -13112,6 +14264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Part_Symbol",
           "package": "hamusic",
@@ -13120,6 +14273,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Part_Symbol",
           "package": "hamusic",
@@ -13133,6 +14287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -13141,6 +14296,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -13155,6 +14311,7 @@
       "document": {
         "description": {
           "description": "positive number\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Staff",
           "package": "hamusic",
@@ -13164,6 +14321,7 @@
         "index": {
           "description": "positive number",
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Staff",
           "package": "hamusic",
@@ -13177,6 +14335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Staff_Details",
           "package": "hamusic",
@@ -13185,6 +14344,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Staff_Details",
           "package": "hamusic",
@@ -13198,6 +14358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Staves",
           "package": "hamusic",
@@ -13206,6 +14367,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Staves",
           "package": "hamusic",
@@ -13219,6 +14381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Stem",
           "package": "hamusic",
@@ -13227,6 +14390,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Stem",
           "package": "hamusic",
@@ -13240,6 +14404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Tie",
           "package": "hamusic",
@@ -13248,6 +14413,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Tie",
           "package": "hamusic",
@@ -13261,6 +14427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Time",
           "package": "hamusic",
@@ -13269,6 +14436,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Time",
           "package": "hamusic",
@@ -13282,6 +14450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Time_Modification",
           "package": "hamusic",
@@ -13290,6 +14459,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Time_Modification",
           "package": "hamusic",
@@ -13303,6 +14473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Transpose",
           "package": "hamusic",
@@ -13311,6 +14482,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Transpose",
           "package": "hamusic",
@@ -13324,6 +14496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Type",
           "package": "hamusic",
@@ -13332,6 +14505,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "Type",
           "package": "hamusic",
@@ -13345,6 +14519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Accidental",
           "package": "hamusic",
@@ -13354,6 +14529,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Accidental",
           "normalized": "Accidental-\u003eAccidental",
@@ -13369,6 +14545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Attributes",
           "package": "hamusic",
@@ -13378,6 +14555,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Attributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -13393,6 +14571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Beam",
           "package": "hamusic",
@@ -13402,6 +14581,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Beam",
           "normalized": "Beam-\u003eBeam",
@@ -13417,6 +14597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Clef",
           "package": "hamusic",
@@ -13426,6 +14607,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Clef",
           "normalized": "Clef-\u003eClef",
@@ -13441,6 +14623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Cue",
           "package": "hamusic",
@@ -13450,6 +14633,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Cue",
           "normalized": "Cue-\u003eCue",
@@ -13465,6 +14649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Directive",
           "package": "hamusic",
@@ -13474,6 +14659,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Directive",
           "normalized": "Directive-\u003eDirective",
@@ -13489,6 +14675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Divisions",
           "package": "hamusic",
@@ -13498,6 +14685,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Divisions",
           "normalized": "Divisions-\u003eDivisions",
@@ -13513,6 +14701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Dot",
           "package": "hamusic",
@@ -13522,6 +14711,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Dot",
           "normalized": "Dot-\u003eDot",
@@ -13537,6 +14727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Duration",
           "package": "hamusic",
@@ -13546,6 +14737,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Duration",
           "normalized": "Duration-\u003eDuration",
@@ -13561,6 +14753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Editorial",
           "package": "hamusic",
@@ -13570,6 +14763,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Editorial",
           "normalized": "Editorial-\u003eEditorial",
@@ -13585,6 +14779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Editorial_Voice",
           "package": "hamusic",
@@ -13594,6 +14789,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Editorial_Voice",
           "normalized": "Editorial_Voice-\u003eEditorial_Voice",
@@ -13609,6 +14805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Full_Note",
           "package": "hamusic",
@@ -13618,6 +14815,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Full_Note",
           "normalized": "Full_Note-\u003eFull_Note",
@@ -13633,6 +14831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Full_Note_",
           "package": "hamusic",
@@ -13642,6 +14841,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Full_Note_",
           "normalized": "Full_Note_-\u003eFull_Note_",
@@ -13657,6 +14857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Grace",
           "package": "hamusic",
@@ -13666,6 +14867,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Grace",
           "normalized": "Grace-\u003eGrace",
@@ -13681,6 +14883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Instrument",
           "package": "hamusic",
@@ -13690,6 +14893,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Instrument",
           "normalized": "Instrument-\u003eInstrument",
@@ -13705,6 +14909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Instruments",
           "package": "hamusic",
@@ -13714,6 +14919,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Instruments",
           "normalized": "Instruments-\u003eInstruments",
@@ -13729,6 +14935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Key",
           "package": "hamusic",
@@ -13738,6 +14945,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Key",
           "normalized": "Key-\u003eKey",
@@ -13753,6 +14961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Key_",
           "package": "hamusic",
@@ -13762,6 +14971,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Key_",
           "normalized": "Key_-\u003eKey_",
@@ -13777,6 +14987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Key_Octave",
           "package": "hamusic",
@@ -13786,6 +14997,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Key_Octave",
           "normalized": "Key_Octave-\u003eKey_Octave",
@@ -13801,6 +15013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Lyric",
           "package": "hamusic",
@@ -13810,6 +15023,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Lyric",
           "normalized": "Lyric-\u003eLyric",
@@ -13825,6 +15039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Measure",
           "package": "hamusic",
@@ -13834,6 +15049,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Measure",
           "normalized": "Measure-\u003eMeasure",
@@ -13849,6 +15065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Measure_Style",
           "package": "hamusic",
@@ -13858,6 +15075,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Measure_Style",
           "normalized": "Measure_Style-\u003eMeasure_Style",
@@ -13873,6 +15091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Music_Data",
           "package": "hamusic",
@@ -13882,6 +15101,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Music_Data",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -13897,6 +15117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Notations",
           "package": "hamusic",
@@ -13906,6 +15127,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Notations",
           "normalized": "Notations-\u003eNotations",
@@ -13921,6 +15143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Note",
           "package": "hamusic",
@@ -13930,6 +15153,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Note",
           "normalized": "Note-\u003eNote",
@@ -13945,6 +15169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Note_",
           "package": "hamusic",
@@ -13954,6 +15179,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Note_",
           "normalized": "Note_-\u003eNote_",
@@ -13969,6 +15195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Notehead",
           "package": "hamusic",
@@ -13978,6 +15205,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Notehead",
           "normalized": "Notehead-\u003eNotehead",
@@ -13993,6 +15221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Part",
           "package": "hamusic",
@@ -14002,6 +15231,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Part",
           "normalized": "Part-\u003ePart",
@@ -14017,6 +15247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Part_Symbol",
           "package": "hamusic",
@@ -14026,6 +15257,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Part_Symbol",
           "normalized": "Part_Symbol-\u003ePart_Symbol",
@@ -14041,6 +15273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Score_Partwise",
           "package": "hamusic",
@@ -14050,6 +15283,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -14065,6 +15299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Staff",
           "package": "hamusic",
@@ -14074,6 +15309,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Staff",
           "normalized": "Staff-\u003eStaff",
@@ -14089,6 +15325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Staff_Details",
           "package": "hamusic",
@@ -14098,6 +15335,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Staff_Details",
           "normalized": "Staff_Details-\u003eStaff_Details",
@@ -14113,6 +15351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Staves",
           "package": "hamusic",
@@ -14122,6 +15361,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Staves",
           "normalized": "Staves-\u003eStaves",
@@ -14137,6 +15377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Stem",
           "package": "hamusic",
@@ -14146,6 +15387,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Stem",
           "normalized": "Stem-\u003eStem",
@@ -14161,6 +15403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Tie",
           "package": "hamusic",
@@ -14170,6 +15413,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Tie",
           "normalized": "Tie-\u003eTie",
@@ -14185,6 +15429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Time",
           "package": "hamusic",
@@ -14194,6 +15439,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Time",
           "normalized": "Time-\u003eTime",
@@ -14209,6 +15455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Time_Modification",
           "package": "hamusic",
@@ -14218,6 +15465,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Time_Modification",
           "normalized": "Time_Modification-\u003eTime_Modification",
@@ -14233,6 +15481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Transpose",
           "package": "hamusic",
@@ -14242,6 +15491,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Transpose",
           "normalized": "Transpose-\u003eTranspose",
@@ -14257,6 +15507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Type",
           "package": "hamusic",
@@ -14266,6 +15517,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "abst_Type",
           "normalized": "Type-\u003eType",
@@ -14281,6 +15533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "empty_Level_Display",
           "package": "hamusic",
@@ -14290,6 +15543,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "empty_Level_Display",
           "package": "hamusic",
@@ -14303,6 +15557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "empty_Print_Style",
           "package": "hamusic",
@@ -14312,6 +15567,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "empty_Print_Style",
           "package": "hamusic",
@@ -14325,6 +15581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "empty_Printout",
           "package": "hamusic",
@@ -14334,6 +15591,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "empty_Printout",
           "package": "hamusic",
@@ -14347,6 +15605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "map_Measure",
           "package": "hamusic",
@@ -14356,6 +15615,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "map_Measure",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eMeasure-\u003eMeasure",
@@ -14371,6 +15631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "map_Music_Data",
           "package": "hamusic",
@@ -14380,6 +15641,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "map_Music_Data",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eMusic_Data-\u003eMusic_Data",
@@ -14395,6 +15657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "map_Part",
           "package": "hamusic",
@@ -14404,6 +15667,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "map_Part",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003ePart-\u003ePart",
@@ -14419,6 +15683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "map_Score_Partwise",
           "package": "hamusic",
@@ -14428,6 +15693,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "map_Score_Partwise",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eScore_Partwise-\u003eScore_Partwise",
@@ -14443,6 +15709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Accidental",
           "package": "hamusic",
@@ -14452,6 +15719,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Accidental",
           "normalized": "Accidental-\u003eAccidental",
@@ -14467,6 +15735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Attributes",
           "package": "hamusic",
@@ -14476,6 +15745,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Attributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -14491,6 +15761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Beam",
           "package": "hamusic",
@@ -14500,6 +15771,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Beam",
           "normalized": "Beam-\u003eBeam",
@@ -14515,6 +15787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Clef",
           "package": "hamusic",
@@ -14524,6 +15797,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Clef",
           "normalized": "Clef-\u003eClef",
@@ -14539,6 +15813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Cue",
           "package": "hamusic",
@@ -14548,6 +15823,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Cue",
           "normalized": "Cue-\u003eCue",
@@ -14563,6 +15839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Directive",
           "package": "hamusic",
@@ -14572,6 +15849,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Directive",
           "normalized": "Directive-\u003eDirective",
@@ -14587,6 +15865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Divisions",
           "package": "hamusic",
@@ -14596,6 +15875,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Divisions",
           "normalized": "Divisions-\u003eDivisions",
@@ -14611,6 +15891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Dot",
           "package": "hamusic",
@@ -14620,6 +15901,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Dot",
           "normalized": "Dot-\u003eDot",
@@ -14635,6 +15917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Duration",
           "package": "hamusic",
@@ -14644,6 +15927,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Duration",
           "normalized": "Duration-\u003eDuration",
@@ -14659,6 +15943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Editorial",
           "package": "hamusic",
@@ -14668,6 +15953,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Editorial",
           "normalized": "Editorial-\u003eEditorial",
@@ -14683,6 +15969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Editorial_Voice",
           "package": "hamusic",
@@ -14692,6 +15979,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Editorial_Voice",
           "normalized": "Editorial_Voice-\u003eEditorial_Voice",
@@ -14707,6 +15995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Full_Note",
           "package": "hamusic",
@@ -14716,6 +16005,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Full_Note",
           "normalized": "Full_Note-\u003eFull_Note",
@@ -14731,6 +16021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Full_Note_",
           "package": "hamusic",
@@ -14740,6 +16031,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Full_Note_",
           "normalized": "Full_Note_-\u003eFull_Note_",
@@ -14755,6 +16047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Grace",
           "package": "hamusic",
@@ -14764,6 +16057,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Grace",
           "normalized": "Grace-\u003eGrace",
@@ -14779,6 +16073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Instrument",
           "package": "hamusic",
@@ -14788,6 +16083,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Instrument",
           "normalized": "Instrument-\u003eInstrument",
@@ -14803,6 +16099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Instruments",
           "package": "hamusic",
@@ -14812,6 +16109,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Instruments",
           "normalized": "Instruments-\u003eInstruments",
@@ -14827,6 +16125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Key",
           "package": "hamusic",
@@ -14836,6 +16135,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Key",
           "normalized": "Key-\u003eKey",
@@ -14851,6 +16151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Key_",
           "package": "hamusic",
@@ -14860,6 +16161,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Key_",
           "normalized": "Key_-\u003eKey_",
@@ -14875,6 +16177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Key_Octave",
           "package": "hamusic",
@@ -14884,6 +16187,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Key_Octave",
           "normalized": "Key_Octave-\u003eKey_Octave",
@@ -14899,6 +16203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Lyric",
           "package": "hamusic",
@@ -14908,6 +16213,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Lyric",
           "normalized": "Lyric-\u003eLyric",
@@ -14923,6 +16229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Measure",
           "package": "hamusic",
@@ -14932,6 +16239,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Measure",
           "normalized": "Measure-\u003eMeasure",
@@ -14947,6 +16255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Measure_Style",
           "package": "hamusic",
@@ -14956,6 +16265,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Measure_Style",
           "normalized": "Measure_Style-\u003eMeasure_Style",
@@ -14971,6 +16281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Music_Data",
           "package": "hamusic",
@@ -14980,6 +16291,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Music_Data",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -14995,6 +16307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Notations",
           "package": "hamusic",
@@ -15004,6 +16317,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Notations",
           "normalized": "Notations-\u003eNotations",
@@ -15019,6 +16333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Note",
           "package": "hamusic",
@@ -15028,6 +16343,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Note",
           "normalized": "Note-\u003eNote",
@@ -15043,6 +16359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Note_",
           "package": "hamusic",
@@ -15052,6 +16369,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Note_",
           "normalized": "Note_-\u003eNote_",
@@ -15067,6 +16385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Notehead",
           "package": "hamusic",
@@ -15076,6 +16395,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Notehead",
           "normalized": "Notehead-\u003eNotehead",
@@ -15091,6 +16411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Part",
           "package": "hamusic",
@@ -15100,6 +16421,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Part",
           "normalized": "Part-\u003ePart",
@@ -15115,6 +16437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Part_Symbol",
           "package": "hamusic",
@@ -15124,6 +16447,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Part_Symbol",
           "normalized": "Part_Symbol-\u003ePart_Symbol",
@@ -15139,6 +16463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Score_Partwise",
           "package": "hamusic",
@@ -15148,6 +16473,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -15163,6 +16489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Staff",
           "package": "hamusic",
@@ -15172,6 +16499,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Staff",
           "normalized": "Staff-\u003eStaff",
@@ -15187,6 +16515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Staff_Details",
           "package": "hamusic",
@@ -15196,6 +16525,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Staff_Details",
           "normalized": "Staff_Details-\u003eStaff_Details",
@@ -15211,6 +16541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Staves",
           "package": "hamusic",
@@ -15220,6 +16551,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Staves",
           "normalized": "Staves-\u003eStaves",
@@ -15235,6 +16567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Stem",
           "package": "hamusic",
@@ -15244,6 +16577,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Stem",
           "normalized": "Stem-\u003eStem",
@@ -15259,6 +16593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Tie",
           "package": "hamusic",
@@ -15268,6 +16603,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Tie",
           "normalized": "Tie-\u003eTie",
@@ -15283,6 +16619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Time",
           "package": "hamusic",
@@ -15292,6 +16629,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Time",
           "normalized": "Time-\u003eTime",
@@ -15307,6 +16645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Time_Modification",
           "package": "hamusic",
@@ -15316,6 +16655,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Time_Modification",
           "normalized": "Time_Modification-\u003eTime_Modification",
@@ -15331,6 +16671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Transpose",
           "package": "hamusic",
@@ -15340,6 +16681,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Transpose",
           "normalized": "Transpose-\u003eTranspose",
@@ -15355,6 +16697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Type",
           "package": "hamusic",
@@ -15364,6 +16707,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level5",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level5",
           "name": "rep_Type",
           "normalized": "Type-\u003eType",
@@ -15379,6 +16723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Annotation",
           "package": "hamusic",
@@ -15387,6 +16732,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Annotation",
           "package": "hamusic",
@@ -15400,6 +16746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Attributes",
           "package": "hamusic",
@@ -15408,6 +16755,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Attributes",
           "package": "hamusic",
@@ -15421,6 +16769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Measure",
           "package": "hamusic",
@@ -15429,6 +16778,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Measure",
           "package": "hamusic",
@@ -15442,6 +16792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Music_Data",
           "package": "hamusic",
@@ -15450,6 +16801,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Music_Data",
           "package": "hamusic",
@@ -15463,6 +16815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Note",
           "package": "hamusic",
@@ -15471,6 +16824,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Note",
           "package": "hamusic",
@@ -15484,6 +16838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Part",
           "package": "hamusic",
@@ -15492,6 +16847,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Part",
           "package": "hamusic",
@@ -15505,6 +16861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -15513,6 +16870,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "Score_Partwise",
           "package": "hamusic",
@@ -15526,6 +16884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Annotation",
           "package": "hamusic",
@@ -15535,6 +16894,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Annotation",
           "normalized": "Annotation-\u003eGrouping",
@@ -15550,6 +16910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Attributes",
           "package": "hamusic",
@@ -15559,6 +16920,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Attributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -15574,6 +16936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Measure",
           "package": "hamusic",
@@ -15583,6 +16946,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Measure",
           "normalized": "Measure-\u003eMeasure",
@@ -15598,6 +16962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Music_Data",
           "package": "hamusic",
@@ -15607,6 +16972,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Music_Data",
           "normalized": "Music_Data-\u003eMaybe Music_Data",
@@ -15622,6 +16988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Note",
           "package": "hamusic",
@@ -15631,6 +16998,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Note",
           "normalized": "Note-\u003eNote",
@@ -15646,6 +17014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Part",
           "package": "hamusic",
@@ -15655,6 +17024,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Part",
           "normalized": "Part-\u003ePart",
@@ -15670,6 +17040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_SSS",
           "package": "hamusic",
@@ -15679,6 +17050,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_SSS",
           "normalized": "Maybe Start_Stop-\u003eStart_Stop_Single",
@@ -15694,6 +17066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Score_Partwise",
           "package": "hamusic",
@@ -15703,6 +17076,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "abst_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -15718,6 +17092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "map_Measure",
           "package": "hamusic",
@@ -15727,6 +17102,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "map_Measure",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eMeasure-\u003eMeasure",
@@ -15742,6 +17118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "map_Music_Data",
           "package": "hamusic",
@@ -15751,6 +17128,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "map_Music_Data",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eMusic_Data-\u003eMusic_Data",
@@ -15766,6 +17144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "map_Part",
           "package": "hamusic",
@@ -15775,6 +17154,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "map_Part",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003ePart-\u003ePart",
@@ -15790,6 +17170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "map_Score_Partwise",
           "package": "hamusic",
@@ -15799,6 +17180,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "map_Score_Partwise",
           "normalized": "(Music_Data-\u003eMusic_Data)-\u003eScore_Partwise-\u003eScore_Partwise",
@@ -15814,6 +17196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Annotation",
           "package": "hamusic",
@@ -15823,6 +17206,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Annotation",
           "normalized": "Grouping-\u003eEither Annotation Grouping",
@@ -15838,6 +17222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Attributes",
           "package": "hamusic",
@@ -15847,6 +17232,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Attributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -15862,6 +17248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Measure",
           "package": "hamusic",
@@ -15871,6 +17258,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Measure",
           "normalized": "Measure-\u003eMeasure",
@@ -15886,6 +17274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Music_Data",
           "package": "hamusic",
@@ -15895,6 +17284,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Music_Data",
           "normalized": "Music_Data-\u003eMusic_Data",
@@ -15910,6 +17300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Note",
           "package": "hamusic",
@@ -15919,6 +17310,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Note",
           "normalized": "Note-\u003eNote",
@@ -15934,6 +17326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Part",
           "package": "hamusic",
@@ -15943,6 +17336,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Part",
           "normalized": "Part-\u003ePart",
@@ -15958,6 +17352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_SSS",
           "package": "hamusic",
@@ -15967,6 +17362,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_SSS",
           "normalized": "Start_Stop_Single-\u003eMaybe Start_Stop",
@@ -15982,6 +17378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Score_Partwise",
           "package": "hamusic",
@@ -15991,6 +17388,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML Level6",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML.Level6",
           "name": "rep_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -16006,6 +17404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Accidental",
           "package": "hamusic",
@@ -16015,6 +17414,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Accidental",
           "normalized": "Accidental-\u003eMaybe Accidental",
@@ -16030,6 +17430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Accidental_",
           "package": "hamusic",
@@ -16039,6 +17440,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Accidental_",
           "normalized": "PCDATA-\u003eMaybe Accidental_",
@@ -16054,6 +17456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Alter",
           "package": "hamusic",
@@ -16063,6 +17466,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Alter",
           "normalized": "Alter-\u003eMaybe Alter",
@@ -16078,6 +17482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Attributes",
           "package": "hamusic",
@@ -16087,6 +17492,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Attributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -16102,6 +17508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Beam",
           "package": "hamusic",
@@ -16111,6 +17518,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Beam",
           "normalized": "Beam-\u003eBeam",
@@ -16126,6 +17534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Beat_Type",
           "package": "hamusic",
@@ -16135,6 +17544,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Beat_Type",
           "normalized": "Beat_Type-\u003eBeat_Type",
@@ -16150,6 +17560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Beats",
           "package": "hamusic",
@@ -16159,6 +17570,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Beats",
           "normalized": "Beats-\u003eBeats",
@@ -16174,6 +17586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Clef",
           "package": "hamusic",
@@ -16183,6 +17596,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Clef",
           "normalized": "Clef-\u003eClef",
@@ -16198,6 +17612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Clef_Octave_Change",
           "package": "hamusic",
@@ -16207,6 +17622,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Clef_Octave_Change",
           "normalized": "Clef_Octave_Change-\u003eClef_Octave_Change",
@@ -16222,6 +17638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Cue",
           "package": "hamusic",
@@ -16231,6 +17648,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Cue",
           "normalized": "Cue-\u003eCue",
@@ -16246,6 +17664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Directive",
           "package": "hamusic",
@@ -16255,6 +17674,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Directive",
           "normalized": "Directive-\u003eDirective",
@@ -16270,6 +17690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Divisions",
           "package": "hamusic",
@@ -16279,6 +17700,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Divisions",
           "normalized": "Divisions-\u003eDivisions",
@@ -16294,6 +17716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Dot",
           "package": "hamusic",
@@ -16303,6 +17726,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Dot",
           "normalized": "Dot-\u003eDot",
@@ -16318,6 +17742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Duration",
           "package": "hamusic",
@@ -16327,6 +17752,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Duration",
           "normalized": "Duration-\u003eDuration",
@@ -16342,6 +17768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Editorial",
           "package": "hamusic",
@@ -16351,6 +17778,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Editorial",
           "normalized": "Editorial-\u003eEditorial",
@@ -16366,6 +17794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Editorial_Voice",
           "package": "hamusic",
@@ -16375,6 +17804,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Editorial_Voice",
           "normalized": "Editorial_Voice-\u003eEditorial_Voice",
@@ -16390,6 +17820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Fifths",
           "package": "hamusic",
@@ -16399,6 +17830,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Fifths",
           "normalized": "Fifths-\u003eFifths",
@@ -16414,6 +17846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Full_Note",
           "package": "hamusic",
@@ -16423,6 +17856,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Full_Note",
           "normalized": "Full_Note-\u003eFull_Note",
@@ -16438,6 +17872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Full_Note_",
           "package": "hamusic",
@@ -16447,6 +17882,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Full_Note_",
           "normalized": "Full_Note_-\u003eFull_Note_",
@@ -16462,6 +17898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Grace",
           "package": "hamusic",
@@ -16471,6 +17908,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Grace",
           "normalized": "Grace-\u003eGrace",
@@ -16486,6 +17924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Instrument",
           "package": "hamusic",
@@ -16495,6 +17934,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Instrument",
           "normalized": "Instrument-\u003eInstrument",
@@ -16510,6 +17950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Instruments",
           "package": "hamusic",
@@ -16519,6 +17960,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Instruments",
           "normalized": "Instruments-\u003eInstruments",
@@ -16534,6 +17976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Key",
           "package": "hamusic",
@@ -16543,6 +17986,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Key",
           "normalized": "Key-\u003eKey",
@@ -16558,6 +18002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Key_",
           "package": "hamusic",
@@ -16567,6 +18012,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Key_",
           "normalized": "Key_-\u003eKey_",
@@ -16582,6 +18028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Key_Alter",
           "package": "hamusic",
@@ -16591,6 +18038,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Key_Alter",
           "normalized": "Key_Alter-\u003eKey_Alter",
@@ -16606,6 +18054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Key_Octave",
           "package": "hamusic",
@@ -16615,6 +18064,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Key_Octave",
           "normalized": "Key_Octave-\u003eKey_Octave",
@@ -16630,6 +18080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Key_Step",
           "package": "hamusic",
@@ -16639,6 +18090,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Key_Step",
           "normalized": "Key_Step-\u003eKey_Step",
@@ -16654,6 +18106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Line",
           "package": "hamusic",
@@ -16663,6 +18116,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Line",
           "normalized": "Line-\u003eLine",
@@ -16678,6 +18132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Lyric",
           "package": "hamusic",
@@ -16687,6 +18142,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Lyric",
           "normalized": "Lyric-\u003eLyric",
@@ -16702,6 +18158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Measure",
           "package": "hamusic",
@@ -16711,6 +18168,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Measure",
           "normalized": "Measure-\u003eMeasure",
@@ -16726,6 +18184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Measure_Style",
           "package": "hamusic",
@@ -16735,6 +18194,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Measure_Style",
           "normalized": "Measure_Style-\u003eMeasure_Style",
@@ -16750,6 +18210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Mode",
           "package": "hamusic",
@@ -16759,6 +18220,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Mode",
           "normalized": "Mode-\u003eMaybe Mode",
@@ -16774,6 +18236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Music_Data",
           "package": "hamusic",
@@ -16783,6 +18246,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Music_Data",
           "normalized": "Music_Data_-\u003eMusic_Data",
@@ -16798,6 +18262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Notations",
           "package": "hamusic",
@@ -16807,6 +18272,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Notations",
           "normalized": "Notations-\u003eNotations",
@@ -16822,6 +18288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Note",
           "package": "hamusic",
@@ -16831,6 +18298,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Note",
           "normalized": "Note-\u003eNote",
@@ -16846,6 +18314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Note_",
           "package": "hamusic",
@@ -16855,6 +18324,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Note_",
           "normalized": "Note_-\u003eNote_",
@@ -16870,6 +18340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Notehead",
           "package": "hamusic",
@@ -16879,6 +18350,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Notehead",
           "normalized": "Notehead-\u003eNotehead",
@@ -16894,6 +18366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Octave",
           "package": "hamusic",
@@ -16903,6 +18376,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Octave",
           "normalized": "Octave-\u003eOctave",
@@ -16918,6 +18392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Part",
           "package": "hamusic",
@@ -16927,6 +18402,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Part",
           "normalized": "Part-\u003ePart",
@@ -16942,6 +18418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Part_Symbol",
           "package": "hamusic",
@@ -16951,6 +18428,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Part_Symbol",
           "normalized": "Part_Symbol-\u003ePart_Symbol",
@@ -16966,6 +18444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Pitch",
           "package": "hamusic",
@@ -16975,6 +18454,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Pitch",
           "normalized": "Pitch-\u003ePitch",
@@ -16990,6 +18470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Rest",
           "package": "hamusic",
@@ -16999,6 +18480,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Rest",
           "normalized": "Rest-\u003eRest",
@@ -17014,6 +18496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Score_Partwise",
           "package": "hamusic",
@@ -17023,6 +18506,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -17038,6 +18522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Sign",
           "package": "hamusic",
@@ -17047,6 +18532,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Sign",
           "normalized": "Sign-\u003eMaybe Sign",
@@ -17062,6 +18548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Staff",
           "package": "hamusic",
@@ -17071,6 +18558,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Staff",
           "normalized": "Staff-\u003eStaff",
@@ -17086,6 +18574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Staff_Details",
           "package": "hamusic",
@@ -17095,6 +18584,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Staff_Details",
           "normalized": "Staff_Details-\u003eStaff_Details",
@@ -17110,6 +18600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Staves",
           "package": "hamusic",
@@ -17119,6 +18610,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Staves",
           "normalized": "Staves-\u003eStaves",
@@ -17134,6 +18626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Stem",
           "package": "hamusic",
@@ -17143,6 +18636,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Stem",
           "normalized": "Stem-\u003eStem",
@@ -17158,6 +18652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Step",
           "package": "hamusic",
@@ -17167,6 +18662,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Step",
           "normalized": "Step-\u003eMaybe Step",
@@ -17182,6 +18678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Tie",
           "package": "hamusic",
@@ -17191,6 +18688,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Tie",
           "normalized": "Tie-\u003eTie",
@@ -17206,6 +18704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Time",
           "package": "hamusic",
@@ -17215,6 +18714,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Time",
           "normalized": "Time-\u003eTime",
@@ -17230,6 +18730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Time_B",
           "package": "hamusic",
@@ -17239,6 +18740,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Time_B",
           "normalized": "Time_B-\u003eTime_B",
@@ -17254,6 +18756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Time_Modification",
           "package": "hamusic",
@@ -17263,6 +18766,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Time_Modification",
           "normalized": "Time_Modification-\u003eTime_Modification",
@@ -17278,6 +18782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Transpose",
           "package": "hamusic",
@@ -17287,6 +18792,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Transpose",
           "normalized": "Transpose-\u003eTranspose",
@@ -17302,6 +18808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Type",
           "package": "hamusic",
@@ -17311,6 +18818,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Type",
           "normalized": "Type-\u003eMaybe Type",
@@ -17326,6 +18834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Type_",
           "package": "hamusic",
@@ -17335,6 +18844,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Type_",
           "normalized": "PCDATA-\u003eMaybe Type_",
@@ -17350,6 +18860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Unpitched",
           "package": "hamusic",
@@ -17359,6 +18870,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "abst_Unpitched",
           "normalized": "Unpitched-\u003eUnpitched",
@@ -17375,6 +18887,7 @@
       "document": {
         "description": {
           "description": "sort of Music_Data\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "arrange",
           "package": "hamusic",
@@ -17385,6 +18898,7 @@
         "index": {
           "description": "sort of Music Data",
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "arrange",
           "normalized": "Music_Data-\u003e[[((IntegerNumber,Integer),Music_Data_)]]",
@@ -17400,6 +18914,7 @@
       "document": {
         "description": {
           "description": "generic sort of Music_Data\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "arrangeBy",
           "package": "hamusic",
@@ -17410,6 +18925,7 @@
         "index": {
           "description": "generic sort of Music Data",
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "arrangeBy",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[[((b,Integer),a)]]",
@@ -17425,6 +18941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "coread_IntegerNumber",
           "package": "hamusic",
@@ -17434,6 +18951,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "coread_IntegerNumber",
           "normalized": "String-\u003eEither IntegerNumber String",
@@ -17449,6 +18967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "coread_Number",
           "package": "hamusic",
@@ -17458,6 +18977,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "coread_Number",
           "normalized": "String-\u003eEither Number String",
@@ -17473,6 +18993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Attributes",
           "package": "hamusic",
@@ -17482,6 +19003,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Attributes",
           "normalized": "Attributes-\u003eMaybe Divisions",
@@ -17497,6 +19019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Backup",
           "package": "hamusic",
@@ -17506,6 +19029,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Backup",
           "normalized": "Backup-\u003eIntegerNumber-\u003eIntegerNumber",
@@ -17521,6 +19045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Divisions",
           "package": "hamusic",
@@ -17530,6 +19055,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Divisions",
           "normalized": "Maybe a-\u003eMaybe a",
@@ -17545,6 +19071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Duration",
           "package": "hamusic",
@@ -17554,6 +19081,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Duration",
           "normalized": "String-\u003eIntegerNumber",
@@ -17569,6 +19097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Forward",
           "package": "hamusic",
@@ -17578,6 +19107,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Forward",
           "normalized": "Forward-\u003eIntegerNumber-\u003eIntegerNumber",
@@ -17593,6 +19123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Music_Data_",
           "package": "hamusic",
@@ -17602,6 +19133,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Music_Data_",
           "normalized": "Music_Data_-\u003e(Divisions,IntegerNumber)-\u003e(Divisions,IntegerNumber)",
@@ -17617,6 +19149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Note",
           "package": "hamusic",
@@ -17626,6 +19159,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Note",
           "normalized": "Note-\u003eIntegerNumber-\u003eIntegerNumber",
@@ -17641,6 +19175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Note_",
           "package": "hamusic",
@@ -17650,6 +19185,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "dur_Note_",
           "normalized": "Note_-\u003eIntegerNumber-\u003eIntegerNumber",
@@ -17666,6 +19202,7 @@
       "document": {
         "description": {
           "description": "get offset from music_data elements\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "getOffSet",
           "package": "hamusic",
@@ -17676,6 +19213,7 @@
         "index": {
           "description": "get offset from music data elements",
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "getOffSet",
           "normalized": "Music_Data_-\u003eIntegerNumber",
@@ -17691,6 +19229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "map_Measure'",
           "package": "hamusic",
@@ -17700,6 +19239,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "map_Measure'",
           "normalized": "(Music_Data_-\u003eMusic_Data_)-\u003eMeasure-\u003eMeasure",
@@ -17715,6 +19255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "map_Music_Data'",
           "package": "hamusic",
@@ -17724,6 +19265,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "map_Music_Data'",
           "normalized": "(Music_Data_-\u003eMusic_Data_)-\u003eMusic_Data_-\u003eMusic_Data_",
@@ -17739,6 +19281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "map_Part'",
           "package": "hamusic",
@@ -17748,6 +19291,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "map_Part'",
           "normalized": "(Music_Data_-\u003eMusic_Data_)-\u003ePart-\u003ePart",
@@ -17763,6 +19307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "map_Score_Partwise'",
           "package": "hamusic",
@@ -17772,6 +19317,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "map_Score_Partwise'",
           "normalized": "(Music_Data_-\u003eMusic_Data_)-\u003eScore_Partwise-\u003eScore_Partwise",
@@ -17787,6 +19333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "read_IntegerNumber",
           "package": "hamusic",
@@ -17796,6 +19343,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "read_IntegerNumber",
           "normalized": "String-\u003eMaybe IntegerNumber",
@@ -17811,6 +19359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "read_Number",
           "package": "hamusic",
@@ -17820,6 +19369,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "read_Number",
           "normalized": "String-\u003eMaybe Number",
@@ -17835,6 +19385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Accidental",
           "package": "hamusic",
@@ -17844,6 +19395,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Accidental",
           "normalized": "Accidental-\u003eAccidental",
@@ -17859,6 +19411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Accidental_",
           "package": "hamusic",
@@ -17868,6 +19421,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Accidental_",
           "normalized": "Accidental_-\u003ePCDATA",
@@ -17883,6 +19437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Alter",
           "package": "hamusic",
@@ -17892,6 +19447,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Alter",
           "normalized": "Alter-\u003eAlter",
@@ -17907,6 +19463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Attributes",
           "package": "hamusic",
@@ -17916,6 +19473,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Attributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -17931,6 +19489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Beam",
           "package": "hamusic",
@@ -17940,6 +19499,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Beam",
           "normalized": "Beam-\u003eBeam",
@@ -17955,6 +19515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Beat_Type",
           "package": "hamusic",
@@ -17964,6 +19525,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Beat_Type",
           "normalized": "Beat_Type-\u003eBeat_Type",
@@ -17979,6 +19541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Beats",
           "package": "hamusic",
@@ -17988,6 +19551,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Beats",
           "normalized": "Beats-\u003eBeats",
@@ -18003,6 +19567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Clef",
           "package": "hamusic",
@@ -18012,6 +19577,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Clef",
           "normalized": "Clef-\u003eClef",
@@ -18027,6 +19593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Clef_Octave_Change",
           "package": "hamusic",
@@ -18036,6 +19603,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Clef_Octave_Change",
           "normalized": "Clef_Octave_Change-\u003eClef_Octave_Change",
@@ -18051,6 +19619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Cue",
           "package": "hamusic",
@@ -18060,6 +19629,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Cue",
           "normalized": "Cue-\u003eCue",
@@ -18075,6 +19645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Directive",
           "package": "hamusic",
@@ -18084,6 +19655,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Directive",
           "normalized": "Directive-\u003eDirective",
@@ -18099,6 +19671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Divisions",
           "package": "hamusic",
@@ -18108,6 +19681,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Divisions",
           "normalized": "Divisions-\u003eDivisions",
@@ -18123,6 +19697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Dot",
           "package": "hamusic",
@@ -18132,6 +19707,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Dot",
           "normalized": "Dot-\u003eDot",
@@ -18147,6 +19723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Duration",
           "package": "hamusic",
@@ -18156,6 +19733,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Duration",
           "normalized": "Duration-\u003eDuration",
@@ -18171,6 +19749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Editorial",
           "package": "hamusic",
@@ -18180,6 +19759,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Editorial",
           "normalized": "Editorial-\u003eEditorial",
@@ -18195,6 +19775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Editorial_Voice",
           "package": "hamusic",
@@ -18204,6 +19785,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Editorial_Voice",
           "normalized": "Editorial_Voice-\u003eEditorial_Voice",
@@ -18219,6 +19801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Fifths",
           "package": "hamusic",
@@ -18228,6 +19811,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Fifths",
           "normalized": "Fifths-\u003eFifths",
@@ -18243,6 +19827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Full_Note",
           "package": "hamusic",
@@ -18252,6 +19837,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Full_Note",
           "normalized": "Full_Note-\u003eFull_Note",
@@ -18267,6 +19853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Full_Note_",
           "package": "hamusic",
@@ -18276,6 +19863,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Full_Note_",
           "normalized": "Full_Note_-\u003eFull_Note_",
@@ -18291,6 +19879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Grace",
           "package": "hamusic",
@@ -18300,6 +19889,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Grace",
           "normalized": "Grace-\u003eGrace",
@@ -18315,6 +19905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Instrument",
           "package": "hamusic",
@@ -18324,6 +19915,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Instrument",
           "normalized": "Instrument-\u003eInstrument",
@@ -18339,6 +19931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Instruments",
           "package": "hamusic",
@@ -18348,6 +19941,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Instruments",
           "normalized": "Instruments-\u003eInstruments",
@@ -18363,6 +19957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Key",
           "package": "hamusic",
@@ -18372,6 +19967,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Key",
           "normalized": "Key-\u003eKey",
@@ -18387,6 +19983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Key_",
           "package": "hamusic",
@@ -18396,6 +19993,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Key_",
           "normalized": "Key_-\u003eKey_",
@@ -18411,6 +20009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Key_Alter",
           "package": "hamusic",
@@ -18420,6 +20019,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Key_Alter",
           "normalized": "Key_Alter-\u003eKey_Alter",
@@ -18435,6 +20035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Key_Octave",
           "package": "hamusic",
@@ -18444,6 +20045,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Key_Octave",
           "normalized": "Key_Octave-\u003eKey_Octave",
@@ -18459,6 +20061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Key_Step",
           "package": "hamusic",
@@ -18468,6 +20071,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Key_Step",
           "normalized": "Key_Step-\u003eKey_Step",
@@ -18483,6 +20087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Line",
           "package": "hamusic",
@@ -18492,6 +20097,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Line",
           "normalized": "Line-\u003eLine",
@@ -18507,6 +20113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Lyric",
           "package": "hamusic",
@@ -18516,6 +20123,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Lyric",
           "normalized": "Lyric-\u003eLyric",
@@ -18531,6 +20139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Measure",
           "package": "hamusic",
@@ -18540,6 +20149,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Measure",
           "normalized": "Measure-\u003eMeasure",
@@ -18555,6 +20165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Measure_Style",
           "package": "hamusic",
@@ -18564,6 +20175,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Measure_Style",
           "normalized": "Measure_Style-\u003eMeasure_Style",
@@ -18579,6 +20191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Mode",
           "package": "hamusic",
@@ -18588,6 +20201,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Mode",
           "normalized": "Mode-\u003eMode",
@@ -18603,6 +20217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Music_Data",
           "package": "hamusic",
@@ -18612,6 +20227,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Music_Data",
           "normalized": "Music_Data-\u003eMusic_Data_",
@@ -18627,6 +20243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Notations",
           "package": "hamusic",
@@ -18636,6 +20253,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Notations",
           "normalized": "Notations-\u003eNotations",
@@ -18651,6 +20269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Note",
           "package": "hamusic",
@@ -18660,6 +20279,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Note",
           "normalized": "Note-\u003eNote",
@@ -18675,6 +20295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Note_",
           "package": "hamusic",
@@ -18684,6 +20305,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Note_",
           "normalized": "Note_-\u003eNote_",
@@ -18699,6 +20321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Notehead",
           "package": "hamusic",
@@ -18708,6 +20331,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Notehead",
           "normalized": "Notehead-\u003eNotehead",
@@ -18723,6 +20347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Octave",
           "package": "hamusic",
@@ -18732,6 +20357,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Octave",
           "normalized": "Octave-\u003eOctave",
@@ -18747,6 +20373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Part",
           "package": "hamusic",
@@ -18756,6 +20383,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Part",
           "normalized": "Part-\u003ePart",
@@ -18771,6 +20399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Part_Symbol",
           "package": "hamusic",
@@ -18780,6 +20409,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Part_Symbol",
           "normalized": "Part_Symbol-\u003ePart_Symbol",
@@ -18795,6 +20425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Pitch",
           "package": "hamusic",
@@ -18804,6 +20435,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Pitch",
           "normalized": "Pitch-\u003ePitch",
@@ -18819,6 +20451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Rest",
           "package": "hamusic",
@@ -18828,6 +20461,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Rest",
           "normalized": "Rest-\u003eRest",
@@ -18843,6 +20477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Score_Partwise",
           "package": "hamusic",
@@ -18852,6 +20487,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -18867,6 +20503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Sign",
           "package": "hamusic",
@@ -18876,6 +20513,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Sign",
           "normalized": "Sign-\u003eSign",
@@ -18891,6 +20529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Staff",
           "package": "hamusic",
@@ -18900,6 +20539,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Staff",
           "normalized": "Staff-\u003eStaff",
@@ -18915,6 +20555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Staff_Details",
           "package": "hamusic",
@@ -18924,6 +20565,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Staff_Details",
           "normalized": "Staff_Details-\u003eStaff_Details",
@@ -18939,6 +20581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Staves",
           "package": "hamusic",
@@ -18948,6 +20591,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Staves",
           "normalized": "Staves-\u003eStaves",
@@ -18963,6 +20607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Stem",
           "package": "hamusic",
@@ -18972,6 +20617,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Stem",
           "normalized": "Stem-\u003eStem",
@@ -18987,6 +20633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Step",
           "package": "hamusic",
@@ -18996,6 +20643,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Step",
           "normalized": "Step-\u003eStep",
@@ -19011,6 +20659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Tie",
           "package": "hamusic",
@@ -19020,6 +20669,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Tie",
           "normalized": "Tie-\u003eTie",
@@ -19035,6 +20685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Time",
           "package": "hamusic",
@@ -19044,6 +20695,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Time",
           "normalized": "Time-\u003eTime",
@@ -19059,6 +20711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Time_B",
           "package": "hamusic",
@@ -19068,6 +20721,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Time_B",
           "normalized": "Time_B-\u003eTime_B",
@@ -19083,6 +20737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Time_Modification",
           "package": "hamusic",
@@ -19092,6 +20747,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Time_Modification",
           "normalized": "Time_Modification-\u003eTime_Modification",
@@ -19107,6 +20763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Transpose",
           "package": "hamusic",
@@ -19116,6 +20773,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Transpose",
           "normalized": "Transpose-\u003eTranspose",
@@ -19131,6 +20789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Type",
           "package": "hamusic",
@@ -19140,6 +20799,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Type",
           "normalized": "Type-\u003eType",
@@ -19155,6 +20815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Type_",
           "package": "hamusic",
@@ -19164,6 +20825,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Type_",
           "normalized": "Type_-\u003ePCDATA",
@@ -19179,6 +20841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Unpitched",
           "package": "hamusic",
@@ -19188,6 +20851,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "rep_Unpitched",
           "normalized": "Unpitched-\u003eUnpitched",
@@ -19203,6 +20867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "toPartwise",
           "package": "hamusic",
@@ -19212,6 +20877,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "toPartwise",
           "normalized": "Score_Timewise-\u003eScore_Partwise",
@@ -19227,6 +20893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "toTimewise",
           "package": "hamusic",
@@ -19236,6 +20903,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "toTimewise",
           "normalized": "Score_Partwise-\u003eScore_Timewise",
@@ -19251,6 +20919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML",
           "name": "transpose",
           "package": "hamusic",
@@ -19260,6 +20929,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML",
           "name": "transpose",
           "normalized": "[(a,[(b,c)])]-\u003e[(b,[(a,c)])]",
@@ -19274,6 +20944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Divisions",
           "package": "hamusic",
@@ -19283,6 +20954,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Divisions",
           "normalized": "Attributes-\u003eMaybe Int",
@@ -19298,6 +20970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Divisions_MusicData",
           "package": "hamusic",
@@ -19307,6 +20980,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Divisions_MusicData",
           "normalized": "[Music_Data]-\u003eMaybe Int",
@@ -19322,6 +20996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Key",
           "package": "hamusic",
@@ -19331,6 +21006,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Key",
           "normalized": "Attributes-\u003eABCKey",
@@ -19346,6 +21022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_KeyN",
           "package": "hamusic",
@@ -19355,6 +21032,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_KeyN",
           "normalized": "Int-\u003eString",
@@ -19370,6 +21048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Key_1b",
           "package": "hamusic",
@@ -19379,6 +21058,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Key_1b",
           "normalized": "Mode-\u003eString",
@@ -19394,6 +21074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Key_MusicData",
           "package": "hamusic",
@@ -19403,6 +21084,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Key_MusicData",
           "normalized": "[Music_Data]-\u003eABCKey",
@@ -19418,6 +21100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Key_adjust",
           "package": "hamusic",
@@ -19427,6 +21110,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Key_adjust",
           "normalized": "Mode-\u003eInt",
@@ -19442,6 +21126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Meter",
           "package": "hamusic",
@@ -19451,6 +21136,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Meter",
           "normalized": "Attributes-\u003eABCMeter",
@@ -19466,6 +21152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Meter_MusicData",
           "package": "hamusic",
@@ -19475,6 +21162,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "get_Meter_MusicData",
           "normalized": "[Music_Data]-\u003eABCMeter",
@@ -19490,6 +21178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Accident",
           "package": "hamusic",
@@ -19499,6 +21188,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Accident",
           "normalized": "Maybe Alter-\u003eMaybe Accidental-\u003eAccident",
@@ -19514,6 +21204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Dotted",
           "package": "hamusic",
@@ -19523,6 +21214,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Dotted",
           "normalized": "[Dot]-\u003eDotted",
@@ -19538,6 +21230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Duration",
           "package": "hamusic",
@@ -19547,6 +21240,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Duration",
           "normalized": "Int-\u003eDuration-\u003eMaybe Type-\u003e[Dot]-\u003eDuration",
@@ -19562,6 +21256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_MetaData",
           "package": "hamusic",
@@ -19571,6 +21266,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_MetaData",
           "normalized": "Score_Partwise-\u003eABCMetaData",
@@ -19586,6 +21282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Meter",
           "package": "hamusic",
@@ -19595,6 +21292,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Meter",
           "normalized": "Time-\u003eABCMeter",
@@ -19610,6 +21308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Music",
           "package": "hamusic",
@@ -19619,6 +21318,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Music",
           "normalized": "Score_Partwise-\u003eABCMusic",
@@ -19634,6 +21334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_MusicData",
           "package": "hamusic",
@@ -19643,6 +21344,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_MusicData",
           "normalized": "Int-\u003e[Music_Data]-\u003e[ABCMusicData]",
@@ -19658,6 +21360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_MusicDatas",
           "package": "hamusic",
@@ -19667,6 +21370,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_MusicDatas",
           "normalized": "Int-\u003e[[Music_Data]]-\u003e[ABCMusicData]",
@@ -19682,6 +21386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Note",
           "package": "hamusic",
@@ -19691,6 +21396,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Note",
           "normalized": "Int-\u003eNote-\u003eABCNote",
@@ -19706,6 +21412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Octave",
           "package": "hamusic",
@@ -19715,6 +21422,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Octave",
           "normalized": "Octave-\u003eOctave",
@@ -19730,6 +21438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Pitch",
           "package": "hamusic",
@@ -19739,6 +21448,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Pitch",
           "normalized": "Step-\u003ePitch",
@@ -19754,6 +21464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Title",
           "package": "hamusic",
@@ -19763,6 +21474,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2ABC",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2ABC",
           "name": "mk_Title",
           "normalized": "Score_Partwise-\u003eABCTitle",
@@ -19778,6 +21490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Abstract",
           "name": "mk_MelodicNode",
           "package": "hamusic",
@@ -19787,6 +21500,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Abstract",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Abstract",
           "name": "mk_MelodicNode",
           "normalized": "Full_Note-\u003eMaybe Accidental-\u003eMelodicClass",
@@ -19802,6 +21516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Abstract",
           "name": "mk_Music",
           "package": "hamusic",
@@ -19811,6 +21526,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Abstract",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Abstract",
           "name": "mk_Music",
           "normalized": "Score_Partwise-\u003eMotive(MelodicClass,RhythmAbsolute)",
@@ -19826,6 +21542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Abstract",
           "name": "mk_MusicData",
           "package": "hamusic",
@@ -19835,6 +21552,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Abstract",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Abstract",
           "name": "mk_MusicData",
           "normalized": "[Music_Data]-\u003e[(MelodicClass,RhythmAbsolute)]",
@@ -19850,6 +21568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Abstract",
           "name": "mk_Note",
           "package": "hamusic",
@@ -19859,6 +21578,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Abstract",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Abstract",
           "name": "mk_Note",
           "normalized": "Note-\u003e(MelodicClass,RhythmAbsolute)",
@@ -19874,6 +21594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Abstract",
           "name": "mk_Pitch",
           "package": "hamusic",
@@ -19883,6 +21604,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Abstract",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Abstract",
           "name": "mk_Pitch",
           "normalized": "Step-\u003ePitchClass",
@@ -19898,6 +21620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Abstract",
           "name": "mk_RhythmNode",
           "package": "hamusic",
@@ -19907,6 +21630,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Abstract",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Abstract",
           "name": "mk_RhythmNode",
           "normalized": "Duration-\u003eMaybe Type-\u003e[Dot]-\u003eRhythmAbsolute",
@@ -19922,6 +21646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "ControlID",
           "package": "hamusic",
@@ -19930,6 +21655,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "ControlID",
           "package": "hamusic",
@@ -19943,6 +21669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Alter",
           "package": "hamusic",
@@ -19952,6 +21679,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Alter",
           "normalized": "Alter-\u003eMaybe Alter",
@@ -19967,6 +21695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Duration",
           "package": "hamusic",
@@ -19976,6 +21705,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Duration",
           "normalized": "Duration-\u003eDuration",
@@ -19991,6 +21721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Full_Note",
           "package": "hamusic",
@@ -20000,6 +21731,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Full_Note",
           "normalized": "Full_Note-\u003eMaybe T",
@@ -20015,6 +21747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Full_Note_",
           "package": "hamusic",
@@ -20024,6 +21757,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Full_Note_",
           "normalized": "Full_Note_-\u003eMaybe T",
@@ -20039,6 +21773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Note",
           "package": "hamusic",
@@ -20048,6 +21783,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Note",
           "normalized": "Note-\u003eT T",
@@ -20063,6 +21799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Note'",
           "package": "hamusic",
@@ -20072,6 +21809,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Note'",
           "normalized": "Note-\u003eT Note",
@@ -20087,6 +21825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Note_",
           "package": "hamusic",
@@ -20096,6 +21835,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Note_",
           "normalized": "Note_-\u003e(Maybe T,Maybe Duration)",
@@ -20111,6 +21851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Octave",
           "package": "hamusic",
@@ -20120,6 +21861,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Octave",
           "normalized": "Octave-\u003eOctave",
@@ -20135,6 +21877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Pitch",
           "package": "hamusic",
@@ -20144,6 +21887,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Pitch",
           "normalized": "Pitch-\u003e(Octave,Class)",
@@ -20159,6 +21903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Step",
           "package": "hamusic",
@@ -20168,6 +21913,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "abst_Step",
           "normalized": "Step-\u003eMaybe Step",
@@ -20183,6 +21929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "cmp_Instrument",
           "package": "hamusic",
@@ -20192,6 +21939,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "cmp_Instrument",
           "normalized": "Note-\u003eNote-\u003eOrdering",
@@ -20207,6 +21955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "cmp_Staff",
           "package": "hamusic",
@@ -20216,6 +21965,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "cmp_Staff",
           "normalized": "Note-\u003eNote-\u003eOrdering",
@@ -20231,6 +21981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "cmp_Voice",
           "package": "hamusic",
@@ -20240,6 +21991,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "cmp_Voice",
           "normalized": "Note-\u003eNote-\u003eOrdering",
@@ -20255,6 +22007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "from_Measure",
           "package": "hamusic",
@@ -20264,6 +22017,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "from_Measure",
           "normalized": "Measure-\u003eMeasure",
@@ -20279,6 +22033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "from_Music_Data",
           "package": "hamusic",
@@ -20288,6 +22043,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "from_Music_Data",
           "normalized": "Music_Data_-\u003eMusic_Data_",
@@ -20303,6 +22059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "from_Note",
           "package": "hamusic",
@@ -20312,6 +22069,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "from_Note",
           "normalized": "Note-\u003eNote",
@@ -20327,6 +22085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "from_Part",
           "package": "hamusic",
@@ -20336,6 +22095,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "from_Part",
           "normalized": "Part-\u003ePart",
@@ -20351,6 +22111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "from_Score_Partwise",
           "package": "hamusic",
@@ -20360,6 +22121,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "from_Score_Partwise",
           "normalized": "Score_Partwise-\u003eScore_Partwise",
@@ -20375,6 +22137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "get_Instrument",
           "package": "hamusic",
@@ -20384,6 +22147,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "get_Instrument",
           "normalized": "Note-\u003eMaybe Instrument",
@@ -20399,6 +22163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "get_Staff",
           "package": "hamusic",
@@ -20408,6 +22173,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "get_Staff",
           "normalized": "Note-\u003eMaybe Staff",
@@ -20423,6 +22189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "get_Voice",
           "package": "hamusic",
@@ -20432,6 +22199,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "get_Voice",
           "normalized": "Note-\u003eMaybe Voice",
@@ -20447,6 +22215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Instrument",
           "package": "hamusic",
@@ -20456,6 +22225,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Instrument",
           "normalized": "Note-\u003eNote-\u003eBool",
@@ -20471,6 +22241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Measure",
           "package": "hamusic",
@@ -20480,6 +22251,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Measure",
           "normalized": "Measure-\u003e[[[[Note]]]]",
@@ -20495,6 +22267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Measure'",
           "package": "hamusic",
@@ -20504,6 +22277,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Measure'",
           "normalized": "Measure-\u003e[(Maybe Instrument,[(Maybe Staff,[(Maybe Voice,[Note])])])]",
@@ -20519,6 +22293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Music_Data_",
           "package": "hamusic",
@@ -20528,6 +22303,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Music_Data_",
           "normalized": "(Note-\u003eNote-\u003eBool)-\u003eMusic_Data_-\u003eMusic_Data_-\u003eBool",
@@ -20543,6 +22319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Part",
           "package": "hamusic",
@@ -20552,6 +22329,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Part",
           "normalized": "Part-\u003e[[[[Note]]]]",
@@ -20567,6 +22345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Staff",
           "package": "hamusic",
@@ -20576,6 +22355,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Staff",
           "normalized": "Note-\u003eNote-\u003eBool",
@@ -20591,6 +22371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Voice",
           "package": "hamusic",
@@ -20600,6 +22381,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "group_Voice",
           "normalized": "Note-\u003eNote-\u003eBool",
@@ -20615,6 +22397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "headM",
           "package": "hamusic",
@@ -20624,6 +22407,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "headM",
           "normalized": "[a b]-\u003ea b",
@@ -20638,6 +22422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "measure2haskore",
           "package": "hamusic",
@@ -20647,6 +22432,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "measure2haskore",
           "normalized": "Measure-\u003eT Note",
@@ -20661,6 +22447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "part2haskore",
           "package": "hamusic",
@@ -20670,6 +22457,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "part2haskore",
           "normalized": "Part-\u003eT Note",
@@ -20684,6 +22472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "partwise2haskore",
           "package": "hamusic",
@@ -20693,6 +22482,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "partwise2haskore",
           "normalized": "Score_Partwise-\u003eT Note",
@@ -20707,6 +22497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "playGeneric",
           "package": "hamusic",
@@ -20716,6 +22507,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "playGeneric",
           "normalized": "FilePath-\u003eIO ExitCode",
@@ -20731,6 +22523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "playMidi",
           "package": "hamusic",
@@ -20740,6 +22533,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "playMidi",
           "normalized": "FilePath-\u003eT-\u003eIO ExitCode",
@@ -20755,6 +22549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "saveMidi",
           "package": "hamusic",
@@ -20764,6 +22559,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "saveMidi",
           "normalized": "FilePath-\u003eT-\u003eIO()",
@@ -20779,6 +22575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toClass",
           "package": "hamusic",
@@ -20788,6 +22585,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toClass",
           "normalized": "Step-\u003eMaybe Alter-\u003eClass",
@@ -20803,6 +22601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toDur",
           "package": "hamusic",
@@ -20812,6 +22611,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toDur",
           "normalized": "Duration-\u003eDur",
@@ -20827,6 +22627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toMedium",
           "package": "hamusic",
@@ -20836,6 +22637,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toMedium",
           "normalized": "[[[[a]]]]-\u003eT b a",
@@ -20851,6 +22653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toMedium'",
           "package": "hamusic",
@@ -20860,6 +22663,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toMedium'",
           "normalized": "[(Maybe Instrument,[(Maybe Staff,[(Maybe Voice,[Note])])])]-\u003eT ControlID Note",
@@ -20875,6 +22679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toMedium_",
           "package": "hamusic",
@@ -20884,6 +22689,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toMedium_",
           "normalized": "[[[[T a b]]]]-\u003eT a b",
@@ -20899,6 +22705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toMidi",
           "package": "hamusic",
@@ -20908,6 +22715,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toMidi",
           "normalized": "MusicXMLDoc-\u003eT",
@@ -20923,6 +22731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toNote",
           "package": "hamusic",
@@ -20932,6 +22741,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis MusicXML2Haskore",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.MusicXML2Haskore",
           "name": "toNote",
           "normalized": "[Music_Data_]-\u003e[Note]",
@@ -20948,6 +22758,7 @@
       "document": {
         "description": {
           "description": "the 0-adic split \n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "!",
           "package": "hamusic",
@@ -20958,6 +22769,7 @@
         "index": {
           "description": "the adic split",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "!",
           "normalized": "a-\u003e()",
@@ -20973,6 +22785,7 @@
       "document": {
         "description": {
           "description": "sum\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "-|-",
           "package": "hamusic",
@@ -20983,6 +22796,7 @@
         "index": {
           "description": "sum",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "-|-",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eEither a c-\u003eEither b d",
@@ -20998,6 +22812,7 @@
       "document": {
         "description": {
           "description": "product\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "\u003e\u003c",
           "package": "hamusic",
@@ -21008,6 +22823,7 @@
         "index": {
           "description": "product",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "\u003e\u003c",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003e(a,c)-\u003e(b,d)",
@@ -21023,6 +22839,7 @@
       "document": {
         "description": {
           "description": "anamorphism\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "anaL",
           "package": "hamusic",
@@ -21033,6 +22850,7 @@
         "index": {
           "description": "anamorphism",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "anaL",
           "normalized": "(a-\u003eMaybe(b,a))-\u003ea-\u003e[b]",
@@ -21048,6 +22866,7 @@
       "document": {
         "description": {
           "description": "anamorphism\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "anaL1",
           "package": "hamusic",
@@ -21058,6 +22877,7 @@
         "index": {
           "description": "anamorphism",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "anaL1",
           "normalized": "(a-\u003eMaybe(Either b(b,a)))-\u003ea-\u003e[b]",
@@ -21073,6 +22893,7 @@
       "document": {
         "description": {
           "description": "ap\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "ap",
           "package": "hamusic",
@@ -21083,6 +22904,7 @@
         "index": {
           "description": "ap",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "ap",
           "normalized": "(a-\u003eb,a)-\u003eb",
@@ -21098,6 +22920,7 @@
       "document": {
         "description": {
           "description": "assoc left\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "assocl",
           "package": "hamusic",
@@ -21108,6 +22931,7 @@
         "index": {
           "description": "assoc left",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "assocl",
           "normalized": "(a,(b,c))-\u003e((a,b),c)",
@@ -21123,6 +22947,7 @@
       "document": {
         "description": {
           "description": "assoc right\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "assocr",
           "package": "hamusic",
@@ -21133,6 +22958,7 @@
         "index": {
           "description": "assoc right",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "assocr",
           "normalized": "((a,b),c)-\u003e(a,(b,c))",
@@ -21148,6 +22974,7 @@
       "document": {
         "description": {
           "description": "catamorphism\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "cataL",
           "package": "hamusic",
@@ -21158,6 +22985,7 @@
         "index": {
           "description": "catamorphism",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "cataL",
           "normalized": "(Maybe(a,b)-\u003eb)-\u003e[a]-\u003eb",
@@ -21173,6 +23001,7 @@
       "document": {
         "description": {
           "description": "catamorphism\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "cataL1",
           "package": "hamusic",
@@ -21183,6 +23012,7 @@
         "index": {
           "description": "catamorphism",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "cataL1",
           "normalized": "(Maybe(Either a(a,b))-\u003eb)-\u003e[a]-\u003eb",
@@ -21198,6 +23028,7 @@
       "document": {
         "description": {
           "description": "coassoc right\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "coassocr",
           "package": "hamusic",
@@ -21208,6 +23039,7 @@
         "index": {
           "description": "coassoc right",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "coassocr",
           "normalized": "Either(Either a b)c-\u003eEither a(Either b c)",
@@ -21223,6 +23055,7 @@
       "document": {
         "description": {
           "description": "concat\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "concatL",
           "package": "hamusic",
@@ -21233,6 +23066,7 @@
         "index": {
           "description": "concat",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "concatL",
           "normalized": "[[a]]-\u003e[a]",
@@ -21248,6 +23082,7 @@
       "document": {
         "description": {
           "description": "McCarthy's conditional:\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "cond",
           "package": "hamusic",
@@ -21258,6 +23093,7 @@
         "index": {
           "description": "McCarthy conditional",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "cond",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003ea-\u003eb",
@@ -21273,6 +23109,7 @@
       "document": {
         "description": {
           "description": "coswap\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "coswap",
           "package": "hamusic",
@@ -21283,6 +23120,7 @@
         "index": {
           "description": "coswap",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "coswap",
           "normalized": "Either a b-\u003eEither b a",
@@ -21298,6 +23136,7 @@
       "document": {
         "description": {
           "description": "dist right\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "distr",
           "package": "hamusic",
@@ -21308,6 +23147,7 @@
         "index": {
           "description": "dist right",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "distr",
           "normalized": "(a,Either b c)-\u003eEither(a,b)(a,c)",
@@ -21323,6 +23163,7 @@
       "document": {
         "description": {
           "description": "Binding to either2maybe\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "e2m",
           "package": "hamusic",
@@ -21333,6 +23174,7 @@
         "index": {
           "description": "Binding to either2maybe",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "e2m",
           "normalized": "Either()a-\u003eMaybe a",
@@ -21348,6 +23190,7 @@
       "document": {
         "description": {
           "description": "either 2 maybe\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "either2maybe",
           "package": "hamusic",
@@ -21358,6 +23201,7 @@
         "index": {
           "description": "either maybe",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "either2maybe",
           "normalized": "Either()a-\u003eMaybe a",
@@ -21373,6 +23217,7 @@
       "document": {
         "description": {
           "description": "expn\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "expn",
           "package": "hamusic",
@@ -21383,6 +23228,7 @@
         "index": {
           "description": "expn",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "expn",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003eb",
@@ -21398,6 +23244,7 @@
       "document": {
         "description": {
           "description": "flat left\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "flatl",
           "package": "hamusic",
@@ -21408,6 +23255,7 @@
         "index": {
           "description": "flat left",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "flatl",
           "normalized": "((a,b),c)-\u003e(a,b,c)",
@@ -21423,6 +23271,7 @@
       "document": {
         "description": {
           "description": "flat right\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "flatr",
           "package": "hamusic",
@@ -21433,6 +23282,7 @@
         "index": {
           "description": "flat right",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "flatr",
           "normalized": "(a,(b,c))-\u003e(a,b,c)",
@@ -21448,6 +23298,7 @@
       "document": {
         "description": {
           "description": "guard\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "grd",
           "package": "hamusic",
@@ -21458,6 +23309,7 @@
         "index": {
           "description": "guard",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "grd",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eEither a a",
@@ -21473,6 +23325,7 @@
       "document": {
         "description": {
           "description": "hylomorphism\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "hyloL",
           "package": "hamusic",
@@ -21483,6 +23336,7 @@
         "index": {
           "description": "hylomorphism",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "hyloL",
           "normalized": "(Maybe(a,b)-\u003eb)-\u003e(c-\u003eMaybe(a,c))-\u003ec-\u003eb",
@@ -21498,6 +23352,7 @@
       "document": {
         "description": {
           "description": "hylomorphism\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "hyloL1",
           "package": "hamusic",
@@ -21508,6 +23363,7 @@
         "index": {
           "description": "hylomorphism",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "hyloL1",
           "normalized": "(Maybe(Either a(b,c))-\u003ec)-\u003e(d-\u003eMaybe(Either a(b,d)))-\u003ed-\u003ec",
@@ -21523,6 +23379,7 @@
       "document": {
         "description": {
           "description": "Left\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "i1",
           "package": "hamusic",
@@ -21533,6 +23390,7 @@
         "index": {
           "description": "Left",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "i1",
           "normalized": "a-\u003eEither a b",
@@ -21548,6 +23406,7 @@
       "document": {
         "description": {
           "description": "Right\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "i2",
           "package": "hamusic",
@@ -21558,6 +23417,7 @@
         "index": {
           "description": "Right",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "i2",
           "normalized": "a-\u003eEither b a",
@@ -21573,6 +23433,7 @@
       "document": {
         "description": {
           "description": "in\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "inL",
           "package": "hamusic",
@@ -21583,6 +23444,7 @@
         "index": {
           "description": "in",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "inL",
           "normalized": "Maybe(a,[a])-\u003e[a]",
@@ -21598,6 +23460,7 @@
       "document": {
         "description": {
           "description": "in\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "inL1",
           "package": "hamusic",
@@ -21608,6 +23471,7 @@
         "index": {
           "description": "in",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "inL1",
           "normalized": "Maybe(Either a(a,[a]))-\u003e[a]",
@@ -21623,6 +23487,7 @@
       "document": {
         "description": {
           "description": "Binding to maybe2either\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "m2e",
           "package": "hamusic",
@@ -21633,6 +23498,7 @@
         "index": {
           "description": "Binding to maybe2either",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "m2e",
           "normalized": "Maybe a-\u003eEither()a",
@@ -21648,6 +23514,7 @@
       "document": {
         "description": {
           "description": "mapping\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "mapL",
           "package": "hamusic",
@@ -21658,6 +23525,7 @@
         "index": {
           "description": "mapping",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "mapL",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -21673,6 +23541,7 @@
       "document": {
         "description": {
           "description": "maybe 2 Either\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "maybe2either",
           "package": "hamusic",
@@ -21683,6 +23552,7 @@
         "index": {
           "description": "maybe Either",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "maybe2either",
           "normalized": "Maybe a-\u003eEither()a",
@@ -21698,6 +23568,7 @@
       "document": {
         "description": {
           "description": "out\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "outL",
           "package": "hamusic",
@@ -21708,6 +23579,7 @@
         "index": {
           "description": "out",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "outL",
           "normalized": "[a]-\u003eMaybe(a,[a])",
@@ -21723,6 +23595,7 @@
       "document": {
         "description": {
           "description": "out\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "outL1",
           "package": "hamusic",
@@ -21733,6 +23606,7 @@
         "index": {
           "description": "out",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "outL1",
           "normalized": "[a]-\u003eMaybe(Either a(a,[a]))",
@@ -21748,6 +23622,7 @@
       "document": {
         "description": {
           "description": "fst\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "p1",
           "package": "hamusic",
@@ -21758,6 +23633,7 @@
         "index": {
           "description": "fst",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "p1",
           "normalized": "(a,b)-\u003ea",
@@ -21773,6 +23649,7 @@
       "document": {
         "description": {
           "description": "snd\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "p2",
           "package": "hamusic",
@@ -21783,6 +23660,7 @@
         "index": {
           "description": "snd",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "p2",
           "normalized": "(a,b)-\u003eb",
@@ -21798,6 +23676,7 @@
       "document": {
         "description": {
           "description": "pair with nil\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "pwnil",
           "package": "hamusic",
@@ -21808,6 +23687,7 @@
         "index": {
           "description": "pair with nil",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "pwnil",
           "normalized": "a-\u003e(a,())",
@@ -21823,6 +23703,7 @@
       "document": {
         "description": {
           "description": "reverse\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "reverseL",
           "package": "hamusic",
@@ -21833,6 +23714,7 @@
         "index": {
           "description": "reverse",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "reverseL",
           "normalized": "[a]-\u003e[a]",
@@ -21848,6 +23730,7 @@
       "document": {
         "description": {
           "description": "split\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "split",
           "package": "hamusic",
@@ -21858,6 +23741,7 @@
         "index": {
           "description": "split",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "split",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec)-\u003ea-\u003e(b,c)",
@@ -21873,6 +23757,7 @@
       "document": {
         "description": {
           "description": "swap\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "swap",
           "package": "hamusic",
@@ -21883,6 +23768,7 @@
         "index": {
           "description": "swap",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "swap",
           "normalized": "(a,b)-\u003e(b,a)",
@@ -21898,6 +23784,7 @@
       "document": {
         "description": {
           "description": "undist right\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "undistr",
           "package": "hamusic",
@@ -21908,6 +23795,7 @@
         "index": {
           "description": "undist right",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "undistr",
           "normalized": "Either(a,b)(a,c)-\u003e(a,Either b c)",
@@ -21923,6 +23811,7 @@
       "document": {
         "description": {
           "description": "unflat left\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "unflatl",
           "package": "hamusic",
@@ -21933,6 +23822,7 @@
         "index": {
           "description": "unflat left",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "unflatl",
           "normalized": "(a,b,c)-\u003e((a,b),c)",
@@ -21948,6 +23838,7 @@
       "document": {
         "description": {
           "description": "unflat right\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.PF",
           "name": "unflatr",
           "package": "hamusic",
@@ -21958,6 +23849,7 @@
         "index": {
           "description": "unflat right",
           "hierarchy": "Music Analysis PF",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.PF",
           "name": "unflatr",
           "normalized": "(a,b,c)-\u003e(a,(b,c))",
@@ -21972,6 +23864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "fromError",
           "package": "hamusic",
@@ -21981,6 +23874,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "fromError",
           "normalized": "Result a-\u003eString",
@@ -21996,6 +23890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "onlyPartwise",
           "package": "hamusic",
@@ -22005,6 +23900,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "onlyPartwise",
           "normalized": "(Score_Partwise-\u003eScore_Partwise)-\u003eMusicXMLDoc-\u003eMusicXMLDoc",
@@ -22020,6 +23916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procAction",
           "package": "hamusic",
@@ -22029,6 +23926,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procAction",
           "normalized": "Action-\u003eIO()",
@@ -22044,6 +23942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procAction_",
           "package": "hamusic",
@@ -22053,6 +23952,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procAction_",
           "normalized": "[OneOf Filter Reification Stat Parttime Timepart Haskore Midi]-\u003eMusicXMLDoc-\u003eEither(Either MusicXMLDoc String)(Either T())",
@@ -22068,6 +23968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procCount",
           "package": "hamusic",
@@ -22077,6 +23978,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procCount",
           "normalized": "Count-\u003eMusicXMLDoc-\u003e(String,Int)",
@@ -22092,6 +23994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procFilter",
           "package": "hamusic",
@@ -22101,6 +24004,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procFilter",
           "normalized": "Filter-\u003eMusicXMLDoc-\u003eMusicXMLDoc",
@@ -22116,6 +24020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procHaskore",
           "package": "hamusic",
@@ -22125,6 +24030,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procHaskore",
           "normalized": "a-\u003eMusicXMLDoc-\u003eString",
@@ -22140,6 +24046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procMidi",
           "package": "hamusic",
@@ -22149,6 +24056,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procMidi",
           "normalized": "Midi-\u003eMusicXMLDoc-\u003eEither T()",
@@ -22164,6 +24072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procOutput",
           "package": "hamusic",
@@ -22173,6 +24082,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procOutput",
           "normalized": "Maybe FilePath-\u003eEither(Either MusicXMLDoc String)(Either T())-\u003eIO()",
@@ -22188,6 +24098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procParttime",
           "package": "hamusic",
@@ -22197,6 +24108,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procParttime",
           "normalized": "a-\u003eMusicXMLDoc-\u003eMusicXMLDoc",
@@ -22212,6 +24124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procReification",
           "package": "hamusic",
@@ -22221,6 +24134,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procReification",
           "normalized": "Reification-\u003eScore_Partwise-\u003eScore_Partwise",
@@ -22236,6 +24150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procScript",
           "package": "hamusic",
@@ -22245,6 +24160,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procScript",
           "normalized": "Script-\u003eIO()",
@@ -22260,6 +24176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procStat",
           "package": "hamusic",
@@ -22269,6 +24186,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procStat",
           "normalized": "Stat-\u003eMusicXMLDoc-\u003eString",
@@ -22284,6 +24202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procTimepart",
           "package": "hamusic",
@@ -22293,6 +24212,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procTimepart",
           "normalized": "a-\u003eMusicXMLDoc-\u003eMusicXMLDoc",
@@ -22308,6 +24228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Music.Analysis.Script",
           "name": "procWarn",
           "package": "hamusic",
@@ -22317,6 +24238,7 @@
         },
         "index": {
           "hierarchy": "Music Analysis Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Music.Analysis.Script",
           "name": "procWarn",
           "normalized": "Maybe Action_warnings-\u003eBool",
@@ -22333,11 +24255,13 @@
       "document": {
         "description": {
           "description": "main module\n",
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "source": "http://hackage.haskell.org/package/hamusic/docs/Music-Analysis.html",
           "type": "unknown"
         },
         "index": {
           "description": "main module",
+          "indexed": "2014-03-11T18:27:43",
           "type": "unknown"
         },
         "uri": "http://hackage.haskell.org/package/hamusic/docs/Music-Analysis.html"
@@ -22347,6 +24271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Action",
           "package": "hamusic",
@@ -22355,6 +24280,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Action",
           "package": "hamusic",
@@ -22368,6 +24294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Action_Attrs",
           "package": "hamusic",
@@ -22376,6 +24303,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Action_Attrs",
           "package": "hamusic",
@@ -22389,6 +24317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Action_warnings",
           "package": "hamusic",
@@ -22397,6 +24326,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Action_warnings",
           "package": "hamusic",
@@ -22410,6 +24340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Count",
           "package": "hamusic",
@@ -22418,6 +24349,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Count",
           "package": "hamusic",
@@ -22431,6 +24363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Count_select",
           "package": "hamusic",
@@ -22439,6 +24372,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Count_select",
           "package": "hamusic",
@@ -22452,6 +24386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Filter",
           "package": "hamusic",
@@ -22460,6 +24395,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Filter",
           "package": "hamusic",
@@ -22473,6 +24409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Filter_mode",
           "package": "hamusic",
@@ -22481,6 +24418,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Filter_mode",
           "package": "hamusic",
@@ -22494,6 +24432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Filter_select",
           "package": "hamusic",
@@ -22502,6 +24441,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Filter_select",
           "package": "hamusic",
@@ -22515,6 +24455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Haskore",
           "package": "hamusic",
@@ -22523,6 +24464,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Haskore",
           "package": "hamusic",
@@ -22536,6 +24478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Midi",
           "package": "hamusic",
@@ -22544,6 +24487,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Midi",
           "package": "hamusic",
@@ -22557,6 +24501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Midi_play",
           "package": "hamusic",
@@ -22565,6 +24510,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Midi_play",
           "package": "hamusic",
@@ -22578,6 +24524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Parttime",
           "package": "hamusic",
@@ -22586,6 +24533,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Parttime",
           "package": "hamusic",
@@ -22599,6 +24547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Reification",
           "package": "hamusic",
@@ -22607,6 +24556,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Reification",
           "package": "hamusic",
@@ -22620,6 +24570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Reification_value",
           "package": "hamusic",
@@ -22628,6 +24579,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Reification_value",
           "package": "hamusic",
@@ -22641,6 +24593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Script",
           "package": "hamusic",
@@ -22649,6 +24602,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Script",
           "package": "hamusic",
@@ -22662,6 +24616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Script_Attrs",
           "package": "hamusic",
@@ -22670,6 +24625,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Script_Attrs",
           "package": "hamusic",
@@ -22683,6 +24639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Stat",
           "package": "hamusic",
@@ -22691,6 +24648,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Stat",
           "package": "hamusic",
@@ -22704,6 +24662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Stat_Attrs",
           "package": "hamusic",
@@ -22712,6 +24671,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Stat_Attrs",
           "package": "hamusic",
@@ -22725,6 +24685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Stat_verbose",
           "package": "hamusic",
@@ -22733,6 +24694,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Stat_verbose",
           "package": "hamusic",
@@ -22746,6 +24708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:43 UTC 2014",
           "module": "Script",
           "name": "Timepart",
           "package": "hamusic",
@@ -22754,6 +24717,7 @@
         },
         "index": {
           "hierarchy": "Script",
+          "indexed": "2014-03-11T18:27:43",
           "module": "Script",
           "name": "Timepart",
           "package": "hamusic",

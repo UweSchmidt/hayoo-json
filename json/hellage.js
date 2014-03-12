@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hellage"
+        "phrase": "hellage",
+        "type": "phrase"
       },
       "type": "context"
     }

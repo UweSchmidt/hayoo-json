@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "djinn"
+        "phrase": "djinn",
+        "type": "phrase"
       },
       "type": "context"
     }

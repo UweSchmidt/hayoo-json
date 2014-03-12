@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cci"
+        "phrase": "cci",
+        "type": "phrase"
       },
       "type": "context"
     }

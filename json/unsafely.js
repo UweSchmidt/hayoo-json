@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unsafely"
+        "phrase": "unsafely",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReally unsafe module to provide internal interface.\n This module should be imported if you wish to allow the unsafe computation globally.\n\u003c/p\u003e\u003cp\u003eBut be careful: the unsafety contaminates entire the program once you write\n the instance for \u003ccode\u003eReallyUnsafe\u003c/code\u003e somewhere.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:11 UTC 2014",
           "module": "Data.Constraint.Unsafely.Really",
           "name": "Really",
           "package": "unsafely",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Really unsafe module to provide internal interface This module should be imported if you wish to allow the unsafe computation globally But be careful the unsafety contaminates entire the program once you write the instance for ReallyUnsafe somewhere",
           "hierarchy": "Data Constraint Unsafely Really",
+          "indexed": "2014-03-11T20:31:11",
           "module": "Data.Constraint.Unsafely.Really",
           "name": "Really",
           "package": "unsafely",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe trick type-class to prevent providing global instances for \u003ccode\u003eUnsafely\u003c/code\u003e.\n This class is not exported in \u003ca\u003eData.Constraint.Unsafely\u003c/a\u003e, so if you want to\n permit unsafe operations globally, you should import this module directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:11 UTC 2014",
           "module": "Data.Constraint.Unsafely.Really",
           "name": "ReallyUnsafely",
           "package": "unsafely",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The trick type-class to prevent providing global instances for Unsafely This class is not exported in Data.Constraint.Unsafely so if you want to permit unsafe operations globally you should import this module directly",
           "hierarchy": "Data Constraint Unsafely Really",
+          "indexed": "2014-03-11T20:31:11",
           "module": "Data.Constraint.Unsafely.Really",
           "name": "ReallyUnsafely",
           "package": "unsafely",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe constraint for the instances which might be \u003cem\u003eunsafe\u003c/em\u003e in some sence.\n \u003ccode\u003et\u003c/code\u003e in \u003ccode\u003eUnsafely t\u003c/code\u003e is the dummy tag for some series of \u003cem\u003eunsafe\u003c/em\u003e operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:11 UTC 2014",
           "module": "Data.Constraint.Unsafely.Really",
           "name": "Unsafely",
           "package": "unsafely",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The constraint for the instances which might be unsafe in some sence in Unsafely is the dummy tag for some series of unsafe operations",
           "hierarchy": "Data Constraint Unsafely Really",
+          "indexed": "2014-03-11T20:31:11",
           "module": "Data.Constraint.Unsafely.Really",
           "name": "Unsafely",
           "package": "unsafely",
@@ -113,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:11 UTC 2014",
           "module": "Data.Constraint.Unsafely",
           "name": "Unsafely",
           "package": "unsafely",
@@ -121,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint Unsafely",
+          "indexed": "2014-03-11T20:31:11",
           "module": "Data.Constraint.Unsafely",
           "name": "Unsafely",
           "package": "unsafely",
@@ -135,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe constraint for the instances which might be \u003cem\u003eunsafe\u003c/em\u003e in some sence.\n \u003ccode\u003et\u003c/code\u003e in \u003ccode\u003eUnsafely t\u003c/code\u003e is the dummy tag for some series of \u003cem\u003eunsafe\u003c/em\u003e operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:11 UTC 2014",
           "module": "Data.Constraint.Unsafely",
           "name": "Unsafely",
           "package": "unsafely",
@@ -144,6 +153,7 @@
         "index": {
           "description": "The constraint for the instances which might be unsafe in some sence in Unsafely is the dummy tag for some series of unsafe operations",
           "hierarchy": "Data Constraint Unsafely",
+          "indexed": "2014-03-11T20:31:11",
           "module": "Data.Constraint.Unsafely",
           "name": "Unsafely",
           "package": "unsafely",

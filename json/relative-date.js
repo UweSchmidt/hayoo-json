@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "relative-date"
+        "phrase": "relative-date",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "Parser",
           "package": "relative-date",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "Parser",
           "package": "relative-date",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "Format",
           "package": "relative-date",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "Format",
           "package": "relative-date",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "US",
           "package": "relative-date",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "US",
           "package": "relative-date",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "World",
           "package": "relative-date",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "World",
           "package": "relative-date",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "date",
           "package": "relative-date",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "date",
           "package": "relative-date",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "duration",
           "package": "relative-date",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "duration",
           "package": "relative-date",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "expr",
           "package": "relative-date",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "expr",
           "normalized": "Parser[DateTime]",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "exprs",
           "package": "relative-date",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "exprs",
           "normalized": "Parser[DateTime]",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "limExpr",
           "package": "relative-date",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "limExpr",
           "normalized": "Parser[DateTime]",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "month",
           "package": "relative-date",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "month",
           "package": "relative-date",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "parseDate",
           "package": "relative-date",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "parseDate",
           "normalized": "ParsecT String()(Reader(Format,DateTime))DateTime",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "repetition",
           "package": "relative-date",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "repetition",
           "normalized": "DateTime-\u003eParser[DateTime]",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "time",
           "package": "relative-date",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "time",
           "package": "relative-date",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.DateTime.Parser",
           "name": "weekday",
           "package": "relative-date",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime Parser",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.DateTime.Parser",
           "name": "weekday",
           "package": "relative-date",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "Duration",
           "package": "relative-date",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "Duration",
           "package": "relative-date",
@@ -348,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed as values for \u003ccode\u003e\u003ca\u003etoDuration\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "Days",
           "package": "relative-date",
@@ -357,6 +388,7 @@
         "index": {
           "description": "Used as values for toDuration",
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "Days",
           "package": "relative-date",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "Duration",
           "package": "relative-date",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "Duration",
           "package": "relative-date",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "Day",
           "package": "relative-date",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "Day",
           "package": "relative-date",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "Month",
           "package": "relative-date",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "Month",
           "package": "relative-date",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "Week",
           "package": "relative-date",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "Week",
           "package": "relative-date",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "Year",
           "package": "relative-date",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "Year",
           "package": "relative-date",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "addDays",
           "package": "relative-date",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "addDays",
           "normalized": "Integer-\u003eDateTime-\u003eDateTime",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "addMonths",
           "package": "relative-date",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "addMonths",
           "normalized": "Integer-\u003eDateTime-\u003eDateTime",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "addWeeks",
           "package": "relative-date",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "addWeeks",
           "normalized": "Integer-\u003eDateTime-\u003eDateTime",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "addYears",
           "package": "relative-date",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "addYears",
           "normalized": "Integer-\u003eDateTime-\u003eDateTime",
@@ -576,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a list of DateTimes given a start date, an interval duration, and an end duration from the start date\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "assemble",
           "package": "relative-date",
@@ -586,6 +637,7 @@
         "index": {
           "description": "Creates list of DateTimes given start date an interval duration and an end duration from the start date",
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "assemble",
           "normalized": "DateTime-\u003eDuration-\u003eMaybe Duration-\u003e[DateTime]",
@@ -601,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrements a DateTime to be on the weekday (0-6) given\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "fixTime",
           "package": "relative-date",
@@ -611,6 +664,7 @@
         "index": {
           "description": "Increments DateTime to be on the weekday given",
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "fixTime",
           "normalized": "DateTime-\u003eInt-\u003eDateTime",
@@ -627,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a duration for the number of periods of days specified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "toDuration",
           "package": "relative-date",
@@ -637,6 +692,7 @@
         "index": {
           "description": "Creates duration for the number of periods of days specified",
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "toDuration",
           "normalized": "Integer-\u003eDays-\u003eDuration",
@@ -653,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven year, month and day, gives the (0 based) day of the week\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:35 UTC 2014",
           "module": "Data.Duration",
           "name": "zellerCongruence",
           "package": "relative-date",
@@ -663,6 +720,7 @@
         "index": {
           "description": "Given year month and day gives the based day of the week",
           "hierarchy": "Data Duration",
+          "indexed": "2014-03-11T19:52:35",
           "module": "Data.Duration",
           "name": "zellerCongruence",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003eInteger",

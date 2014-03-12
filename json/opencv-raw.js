@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "opencv-raw"
+        "phrase": "opencv-raw",
+        "type": "phrase"
       },
       "type": "context"
     }

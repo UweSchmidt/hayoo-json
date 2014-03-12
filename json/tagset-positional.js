@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tagset-positional"
+        "phrase": "tagset-positional",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "Positional",
           "package": "tagset-positional",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "Positional",
           "package": "tagset-positional",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "Attr",
           "package": "tagset-positional",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Attribute name",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "Attr",
           "package": "tagset-positional",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "AttrVal",
           "package": "tagset-positional",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Attribute name",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "AttrVal",
           "package": "tagset-positional",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the attribute optional?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "Optional",
           "package": "tagset-positional",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Is the attribute optional",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "Optional",
           "package": "tagset-positional",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePart of speech.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "POS",
           "package": "tagset-positional",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Part of speech",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "POS",
           "package": "tagset-positional",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe morphosyntactic tag consists of the POS value and corresponding\n attribute values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "Tag",
           "package": "tagset-positional",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The morphosyntactic tag consists of the POS value and corresponding attribute values",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "Tag",
           "package": "tagset-positional",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tagset consists of a domain for each attribute name and of a\n parsing rule for each part of speech.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "Tagset",
           "package": "tagset-positional",
@@ -164,6 +177,7 @@
         "index": {
           "description": "The tagset consists of domain for each attribute name and of parsing rule for each part of speech",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "Tagset",
           "package": "tagset-positional",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "Tag",
           "package": "tagset-positional",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "Tag",
           "package": "tagset-positional",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "Tagset",
           "package": "tagset-positional",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "Tagset",
           "package": "tagset-positional",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "atts",
           "package": "tagset-positional",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "atts",
           "package": "tagset-positional",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of potential values for the given attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "domain",
           "package": "tagset-positional",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Set of potential values for the given attribute",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "domain",
           "normalized": "Tagset-\u003eAttr-\u003eSet AttrVal",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "domains",
           "package": "tagset-positional",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "domains",
           "package": "tagset-positional",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand optional attributes of the tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "expand",
           "package": "tagset-positional",
@@ -299,6 +324,7 @@
         "index": {
           "description": "Expand optional attributes of the tag",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "expand",
           "normalized": "Tagset-\u003eTag-\u003e[Tag]",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the tag given the corresponding tagset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "parseTag",
           "package": "tagset-positional",
@@ -324,6 +351,7 @@
         "index": {
           "description": "Parse the tag given the corresponding tagset",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "parseTag",
           "normalized": "Tagset-\u003eText-\u003eTag",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the textual representation of the tagset.  The first argument\n should be the name of the source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "parseTagset",
           "package": "tagset-positional",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Parse the textual representation of the tagset The first argument should be the name of the source",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "parseTagset",
           "normalized": "String-\u003eString-\u003eTagset",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "pos",
           "package": "tagset-positional",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "pos",
           "package": "tagset-positional",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing rule for the given POS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "rule",
           "package": "tagset-positional",
@@ -397,6 +430,7 @@
         "index": {
           "description": "Parsing rule for the given POS",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "rule",
           "normalized": "Tagset-\u003ePOS-\u003e[(Attr,Optional)]",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "rules",
           "package": "tagset-positional",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "rules",
           "normalized": "Map POS[(Attr,Optional)]",
@@ -435,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the tag given the corresponding tagset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "showTag",
           "package": "tagset-positional",
@@ -445,6 +482,7 @@
         "index": {
           "description": "Print the tag given the corresponding tagset",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "showTag",
           "normalized": "Tagset-\u003eTag-\u003eText",
@@ -461,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasure of similarity between two tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:44 UTC 2014",
           "module": "Data.Tagset.Positional",
           "name": "tagSim",
           "package": "tagset-positional",
@@ -471,6 +510,7 @@
         "index": {
           "description": "Measure of similarity between two tags",
           "hierarchy": "Data Tagset Positional",
+          "indexed": "2014-03-11T20:16:44",
           "module": "Data.Tagset.Positional",
           "name": "tagSim",
           "normalized": "Tag-\u003eTag-\u003eInt",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "copilot-sbv"
+        "phrase": "copilot-sbv",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Code",
           "name": "Code",
           "package": "copilot-sbv",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Code",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Code",
           "name": "Code",
           "package": "copilot-sbv",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Code",
           "name": "fireTriggers",
           "package": "copilot-sbv",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Code",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Code",
           "name": "fireTriggers",
           "normalized": "MetaTable-\u003eSpec-\u003e[SBVFunc]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Code",
           "name": "getExtArrs",
           "package": "copilot-sbv",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Code",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Code",
           "name": "getExtArrs",
           "normalized": "MetaTable-\u003e[SBVFunc]",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Code",
           "name": "getExtFuns",
           "package": "copilot-sbv",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Code",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Code",
           "name": "getExtFuns",
           "normalized": "MetaTable-\u003e[SBVFunc]",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Code",
           "name": "updateObservers",
           "package": "copilot-sbv",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Code",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Code",
           "name": "updateObservers",
           "normalized": "MetaTable-\u003eSpec-\u003e[SBVFunc]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Code",
           "name": "updateStates",
           "package": "copilot-sbv",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Code",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Code",
           "name": "updateStates",
           "normalized": "MetaTable-\u003eSpec-\u003e[SBVFunc]",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "Common",
           "package": "copilot-sbv",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "Common",
           "package": "copilot-sbv",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkArgIdx",
           "package": "copilot-sbv",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkArgIdx",
           "normalized": "[a]-\u003e[(Int,a)]",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkExtArrFn",
           "package": "copilot-sbv",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkExtArrFn",
           "normalized": "String-\u003eString",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkExtFunArgFn",
           "package": "copilot-sbv",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkExtFunArgFn",
           "normalized": "Int-\u003eString-\u003eMaybe Tag-\u003eString",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkExtTmpTag",
           "package": "copilot-sbv",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkExtTmpTag",
           "normalized": "String-\u003eMaybe Tag-\u003eString",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkExtTmpVar",
           "package": "copilot-sbv",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkExtTmpVar",
           "normalized": "String-\u003eString",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkObserverFn",
           "package": "copilot-sbv",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkObserverFn",
           "normalized": "String-\u003eString",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkQueuePtrVar",
           "package": "copilot-sbv",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkQueuePtrVar",
           "normalized": "Id-\u003eString",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkQueueVar",
           "package": "copilot-sbv",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkQueueVar",
           "normalized": "Id-\u003eString",
@@ -372,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkTmpStVar",
           "package": "copilot-sbv",
@@ -381,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkTmpStVar",
           "normalized": "Id-\u003eString",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkTriggerArgFn",
           "package": "copilot-sbv",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkTriggerArgFn",
           "normalized": "Int-\u003eString-\u003eString",
@@ -420,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkTriggerGuardFn",
           "package": "copilot-sbv",
@@ -429,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkTriggerGuardFn",
           "normalized": "String-\u003eString",
@@ -444,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkUpdateStFn",
           "package": "copilot-sbv",
@@ -453,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "mkUpdateStFn",
           "normalized": "Id-\u003eString",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Common",
           "name": "tagExtract",
           "package": "copilot-sbv",
@@ -477,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Common",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Common",
           "name": "tagExtract",
           "normalized": "Maybe Tag-\u003eTag",
@@ -492,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "Copilot2SBV",
           "package": "copilot-sbv",
@@ -500,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "Copilot2SBV",
           "package": "copilot-sbv",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "Ext",
           "package": "copilot-sbv",
@@ -521,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "Ext",
           "package": "copilot-sbv",
@@ -534,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "ExtInput",
           "package": "copilot-sbv",
@@ -542,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "ExtInput",
           "package": "copilot-sbv",
@@ -555,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "ExtQue",
           "package": "copilot-sbv",
@@ -563,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "ExtQue",
           "package": "copilot-sbv",
@@ -576,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "Inputs",
           "package": "copilot-sbv",
@@ -584,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "Inputs",
           "package": "copilot-sbv",
@@ -597,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "QueInput",
           "package": "copilot-sbv",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "QueInput",
           "package": "copilot-sbv",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "QueueIn",
           "package": "copilot-sbv",
@@ -626,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "QueueIn",
           "package": "copilot-sbv",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "ExtInput",
           "package": "copilot-sbv",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "ExtInput",
           "package": "copilot-sbv",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "Inputs",
           "package": "copilot-sbv",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "Inputs",
           "package": "copilot-sbv",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "QueInput",
           "package": "copilot-sbv",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "QueInput",
           "package": "copilot-sbv",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "QueueIn",
           "package": "copilot-sbv",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "QueueIn",
           "package": "copilot-sbv",
@@ -727,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "arrInput",
           "package": "copilot-sbv",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "arrInput",
           "package": "copilot-sbv",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "arrType",
           "package": "copilot-sbv",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "arrType",
           "package": "copilot-sbv",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "c2sExpr",
           "package": "copilot-sbv",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "c2sExpr",
           "normalized": "Inputs-\u003eExpr a-\u003eSBV a",
@@ -795,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "extArrs",
           "package": "copilot-sbv",
@@ -804,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "extArrs",
           "normalized": "[Ext]",
@@ -819,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "extFuns",
           "package": "copilot-sbv",
@@ -828,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "extFuns",
           "normalized": "[Ext]",
@@ -843,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "extInput",
           "package": "copilot-sbv",
@@ -852,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "extInput",
           "package": "copilot-sbv",
@@ -865,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "extQues",
           "package": "copilot-sbv",
@@ -874,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "extQues",
           "normalized": "[ExtQue]",
@@ -889,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "extType",
           "package": "copilot-sbv",
@@ -898,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "extType",
           "package": "copilot-sbv",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "extVars",
           "package": "copilot-sbv",
@@ -920,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "extVars",
           "normalized": "[Ext]",
@@ -935,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "quePtr",
           "package": "copilot-sbv",
@@ -944,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "quePtr",
           "package": "copilot-sbv",
@@ -957,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "queue",
           "package": "copilot-sbv",
@@ -966,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Copilot2SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Copilot2SBV",
           "name": "queue",
           "normalized": "[SBV a]",
@@ -981,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGenerates the code around the SBV functions to hold the state-updates,\n external variables, etc.  Note: this just creates calls to SBV-generated\n functions, it does not create them!  (Use the names from Common.hs to ensure\n agreement on names.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Driver",
           "name": "Driver",
           "package": "copilot-sbv",
@@ -990,6 +1075,7 @@
         "index": {
           "description": "Generates the code around the SBV functions to hold the state-updates external variables etc Note this just creates calls to SBV-generated functions it does not create them Use the names from Common.hs to ensure agreement on names",
           "hierarchy": "Copilot Compile SBV Driver",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Driver",
           "name": "Driver",
           "package": "copilot-sbv",
@@ -1003,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Driver",
           "name": "driver",
           "package": "copilot-sbv",
@@ -1012,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Driver",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Driver",
           "name": "driver",
           "normalized": "Params-\u003eMetaTable-\u003eSpec-\u003eString-\u003eString-\u003eIO()",
@@ -1026,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Driver",
           "name": "driverName",
           "package": "copilot-sbv",
@@ -1035,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Driver",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Driver",
           "name": "driverName",
           "normalized": "Params-\u003eString",
@@ -1050,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Makefile",
           "name": "Makefile",
           "package": "copilot-sbv",
@@ -1058,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Makefile",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Makefile",
           "name": "Makefile",
           "package": "copilot-sbv",
@@ -1071,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Makefile",
           "name": "makefile",
           "package": "copilot-sbv",
@@ -1080,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Makefile",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Makefile",
           "name": "makefile",
           "normalized": "Params-\u003eString-\u003eString-\u003eIO()",
@@ -1094,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Makefile",
           "name": "makefileName",
           "package": "copilot-sbv",
@@ -1103,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Makefile",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Makefile",
           "name": "makefileName",
           "normalized": "Params-\u003eString",
@@ -1118,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "MetaTable",
           "package": "copilot-sbv",
@@ -1126,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "MetaTable",
           "package": "copilot-sbv",
@@ -1139,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "Arg",
           "package": "copilot-sbv",
@@ -1147,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "Arg",
           "package": "copilot-sbv",
@@ -1160,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ExternArrInfoMap",
           "package": "copilot-sbv",
@@ -1168,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ExternArrInfoMap",
           "package": "copilot-sbv",
@@ -1181,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ExternFunInfoMap",
           "package": "copilot-sbv",
@@ -1189,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ExternFunInfoMap",
           "package": "copilot-sbv",
@@ -1202,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ExternVarInfoMap",
           "package": "copilot-sbv",
@@ -1210,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ExternVarInfoMap",
           "package": "copilot-sbv",
@@ -1223,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "MetaTable",
           "package": "copilot-sbv",
@@ -1231,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "MetaTable",
           "package": "copilot-sbv",
@@ -1244,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ObserverInfo",
           "package": "copilot-sbv",
@@ -1252,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ObserverInfo",
           "package": "copilot-sbv",
@@ -1265,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ObserverInfoMap",
           "package": "copilot-sbv",
@@ -1273,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ObserverInfoMap",
           "package": "copilot-sbv",
@@ -1286,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "StreamInfoMap",
           "package": "copilot-sbv",
@@ -1294,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "StreamInfoMap",
           "package": "copilot-sbv",
@@ -1307,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "TriggerInfo",
           "package": "copilot-sbv",
@@ -1315,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "TriggerInfo",
           "package": "copilot-sbv",
@@ -1328,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "TriggerInfoMap",
           "package": "copilot-sbv",
@@ -1336,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "TriggerInfoMap",
           "package": "copilot-sbv",
@@ -1349,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "Extern",
           "package": "copilot-sbv",
@@ -1358,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "Extern",
           "package": "copilot-sbv",
@@ -1371,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ExternArr",
           "package": "copilot-sbv",
@@ -1380,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ExternArr",
           "package": "copilot-sbv",
@@ -1393,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ExternFun",
           "package": "copilot-sbv",
@@ -1402,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ExternFun",
           "package": "copilot-sbv",
@@ -1415,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "MetaTable",
           "package": "copilot-sbv",
@@ -1424,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "MetaTable",
           "package": "copilot-sbv",
@@ -1437,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ObserverInfo",
           "package": "copilot-sbv",
@@ -1446,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "ObserverInfo",
           "package": "copilot-sbv",
@@ -1459,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "Queue",
           "package": "copilot-sbv",
@@ -1468,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "Queue",
           "package": "copilot-sbv",
@@ -1481,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "TriggerInfo",
           "package": "copilot-sbv",
@@ -1490,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "TriggerInfo",
           "package": "copilot-sbv",
@@ -1503,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "allocMetaTable",
           "package": "copilot-sbv",
@@ -1512,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "allocMetaTable",
           "normalized": "Spec-\u003eMetaTable",
@@ -1527,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "c2Args",
           "package": "copilot-sbv",
@@ -1536,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "c2Args",
           "normalized": "Expr a-\u003e[Arg]",
@@ -1551,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "collectArgs",
           "package": "copilot-sbv",
@@ -1560,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "collectArgs",
           "normalized": "Expr a-\u003e[String]",
@@ -1575,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "externArrInfoMap",
           "package": "copilot-sbv",
@@ -1584,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "externArrInfoMap",
           "package": "copilot-sbv",
@@ -1597,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "externFunInfoMap",
           "package": "copilot-sbv",
@@ -1606,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "externFunInfoMap",
           "package": "copilot-sbv",
@@ -1619,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "externVarInfoMap",
           "package": "copilot-sbv",
@@ -1628,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "externVarInfoMap",
           "package": "copilot-sbv",
@@ -1641,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "guardArgs",
           "package": "copilot-sbv",
@@ -1650,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "guardArgs",
           "normalized": "[String]",
@@ -1665,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "observerArgs",
           "package": "copilot-sbv",
@@ -1674,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "observerArgs",
           "normalized": "[String]",
@@ -1689,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "observerInfoMap",
           "package": "copilot-sbv",
@@ -1698,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "observerInfoMap",
           "package": "copilot-sbv",
@@ -1711,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "streamInfoMap",
           "package": "copilot-sbv",
@@ -1720,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "streamInfoMap",
           "package": "copilot-sbv",
@@ -1733,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "triggerArgArgs",
           "package": "copilot-sbv",
@@ -1742,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "triggerArgArgs",
           "normalized": "[[String]]",
@@ -1757,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "triggerInfoMap",
           "package": "copilot-sbv",
@@ -1766,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV MetaTable",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.MetaTable",
           "name": "triggerInfoMap",
           "package": "copilot-sbv",
@@ -1779,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Params",
           "name": "Params",
           "package": "copilot-sbv",
@@ -1787,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Params",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Params",
           "name": "Params",
           "package": "copilot-sbv",
@@ -1800,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Params",
           "name": "Params",
           "package": "copilot-sbv",
@@ -1808,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Params",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Params",
           "name": "Params",
           "package": "copilot-sbv",
@@ -1821,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Params",
           "name": "Params",
           "package": "copilot-sbv",
@@ -1830,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Params",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Params",
           "name": "Params",
           "package": "copilot-sbv",
@@ -1843,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Params",
           "name": "defaultParams",
           "package": "copilot-sbv",
@@ -1852,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Params",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Params",
           "name": "defaultParams",
           "package": "copilot-sbv",
@@ -1865,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Params",
           "name": "prefix",
           "package": "copilot-sbv",
@@ -1874,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Params",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Params",
           "name": "prefix",
           "package": "copilot-sbv",
@@ -1886,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Params",
           "name": "withPrefix",
           "package": "copilot-sbv",
@@ -1895,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Params",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Params",
           "name": "withPrefix",
           "normalized": "Maybe String-\u003eString-\u003eString",
@@ -1911,6 +2079,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements queues holding stream values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Queue",
           "name": "Queue",
           "package": "copilot-sbv",
@@ -1920,6 +2089,7 @@
         "index": {
           "description": "Implements queues holding stream values",
           "hierarchy": "Copilot Compile SBV Queue",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Queue",
           "name": "Queue",
           "package": "copilot-sbv",
@@ -1933,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Queue",
           "name": "Queue",
           "package": "copilot-sbv",
@@ -1941,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Queue",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Queue",
           "name": "Queue",
           "package": "copilot-sbv",
@@ -1954,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Queue",
           "name": "QueueSize",
           "package": "copilot-sbv",
@@ -1962,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Queue",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Queue",
           "name": "QueueSize",
           "package": "copilot-sbv",
@@ -1975,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Queue",
           "name": "Queue",
           "package": "copilot-sbv",
@@ -1984,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Queue",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Queue",
           "name": "Queue",
           "package": "copilot-sbv",
@@ -1997,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Queue",
           "name": "lookahead",
           "package": "copilot-sbv",
@@ -2006,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Queue",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Queue",
           "name": "lookahead",
           "normalized": "DropIdx-\u003e[SBV a]-\u003eSBV QueueSize-\u003eSBV a",
@@ -2020,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Queue",
           "name": "queue",
           "package": "copilot-sbv",
@@ -2029,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Queue",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Queue",
           "name": "queue",
           "normalized": "[a]",
@@ -2043,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "Witness",
           "package": "copilot-sbv",
@@ -2051,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "Witness",
           "package": "copilot-sbv",
@@ -2064,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "BVDivisibleInst",
           "package": "copilot-sbv",
@@ -2072,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "BVDivisibleInst",
           "package": "copilot-sbv",
@@ -2085,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "BitsInst",
           "package": "copilot-sbv",
@@ -2093,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "BitsInst",
           "package": "copilot-sbv",
@@ -2106,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "CastInst",
           "package": "copilot-sbv",
@@ -2114,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "CastInst",
           "package": "copilot-sbv",
@@ -2127,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "EqInst",
           "package": "copilot-sbv",
@@ -2135,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "EqInst",
           "package": "copilot-sbv",
@@ -2148,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "HasSignAndSizeInst",
           "package": "copilot-sbv",
@@ -2156,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "HasSignAndSizeInst",
           "package": "copilot-sbv",
@@ -2169,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "MergeableInst",
           "package": "copilot-sbv",
@@ -2177,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "MergeableInst",
           "package": "copilot-sbv",
@@ -2190,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "NumInst",
           "package": "copilot-sbv",
@@ -2198,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "NumInst",
           "package": "copilot-sbv",
@@ -2211,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "OrdInst",
           "package": "copilot-sbv",
@@ -2219,6 +2416,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "OrdInst",
           "package": "copilot-sbv",
@@ -2232,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "SymWordInst",
           "package": "copilot-sbv",
@@ -2240,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "SymWordInst",
           "package": "copilot-sbv",
@@ -2253,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "BVDivisibleInst",
           "package": "copilot-sbv",
@@ -2262,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "BVDivisibleInst",
           "package": "copilot-sbv",
@@ -2275,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "BitsInst",
           "package": "copilot-sbv",
@@ -2284,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "BitsInst",
           "package": "copilot-sbv",
@@ -2297,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "CastInst",
           "package": "copilot-sbv",
@@ -2306,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "CastInst",
           "package": "copilot-sbv",
@@ -2319,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "EqInst",
           "package": "copilot-sbv",
@@ -2328,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "EqInst",
           "package": "copilot-sbv",
@@ -2341,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "HasSignAndSizeInst",
           "package": "copilot-sbv",
@@ -2350,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "HasSignAndSizeInst",
           "package": "copilot-sbv",
@@ -2363,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "MergeableInst",
           "package": "copilot-sbv",
@@ -2372,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "MergeableInst",
           "package": "copilot-sbv",
@@ -2385,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "NumInst",
           "package": "copilot-sbv",
@@ -2394,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "NumInst",
           "package": "copilot-sbv",
@@ -2407,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "OrdInst",
           "package": "copilot-sbv",
@@ -2416,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "OrdInst",
           "package": "copilot-sbv",
@@ -2429,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "SymWordInst",
           "package": "copilot-sbv",
@@ -2438,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "SymWordInst",
           "package": "copilot-sbv",
@@ -2451,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "bitsInst",
           "package": "copilot-sbv",
@@ -2460,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "bitsInst",
           "normalized": "Type a-\u003eBitsInst a",
@@ -2475,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "castInst",
           "package": "copilot-sbv",
@@ -2484,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "castInst",
           "normalized": "Type a-\u003eType b-\u003eCastInst a b",
@@ -2499,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "divInst",
           "package": "copilot-sbv",
@@ -2508,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "divInst",
           "normalized": "Type a-\u003eBVDivisibleInst a",
@@ -2523,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "eqInst",
           "package": "copilot-sbv",
@@ -2532,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "eqInst",
           "normalized": "Type a-\u003eEqInst a",
@@ -2547,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "hasSignAndSizeInst",
           "package": "copilot-sbv",
@@ -2556,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "hasSignAndSizeInst",
           "normalized": "Type a-\u003eHasSignAndSizeInst a",
@@ -2571,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "mergeableInst",
           "package": "copilot-sbv",
@@ -2580,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "mergeableInst",
           "normalized": "Type a-\u003eMergeableInst a",
@@ -2595,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "numInst",
           "package": "copilot-sbv",
@@ -2604,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "numInst",
           "normalized": "Type a-\u003eNumInst a",
@@ -2619,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "ordInst",
           "package": "copilot-sbv",
@@ -2628,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "ordInst",
           "normalized": "Type a-\u003eOrdInst a",
@@ -2643,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "sbvCast",
           "package": "copilot-sbv",
@@ -2652,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "sbvCast",
           "normalized": "SBV a-\u003eSBV b",
@@ -2667,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "symWordInst",
           "package": "copilot-sbv",
@@ -2676,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV Witness",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV.Witness",
           "name": "symWordInst",
           "normalized": "Type a-\u003eSymWordInst a",
@@ -2691,6 +2929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV",
           "name": "SBV",
           "package": "copilot-sbv",
@@ -2699,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV",
           "name": "SBV",
           "package": "copilot-sbv",
@@ -2712,6 +2952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV",
           "name": "compile",
           "package": "copilot-sbv",
@@ -2721,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV",
           "name": "compile",
           "normalized": "Params-\u003eSpec-\u003eIO()",
@@ -2736,6 +2978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esbvs are optional additional SBVCodeGens to generate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV",
           "name": "compileWithSBV",
           "package": "copilot-sbv",
@@ -2746,6 +2989,7 @@
         "index": {
           "description": "sbvs are optional additional SBVCodeGens to generate",
           "hierarchy": "Copilot Compile SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV",
           "name": "compileWithSBV",
           "normalized": "Params-\u003e[(String,SBVCodeGen())]-\u003eSpec-\u003eIO()",
@@ -2761,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:17 UTC 2014",
           "module": "Copilot.Compile.SBV",
           "name": "sbvDirName",
           "package": "copilot-sbv",
@@ -2770,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile SBV",
+          "indexed": "2014-03-11T17:41:17",
           "module": "Copilot.Compile.SBV",
           "name": "sbvDirName",
           "package": "copilot-sbv",

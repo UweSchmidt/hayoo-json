@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Conscript"
+        "phrase": "Conscript",
+        "type": "phrase"
       },
       "type": "context"
     }

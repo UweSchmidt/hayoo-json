@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "secrm"
+        "phrase": "secrm",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tsp-viz"
+        "phrase": "tsp-viz",
+        "type": "phrase"
       },
       "type": "context"
     }

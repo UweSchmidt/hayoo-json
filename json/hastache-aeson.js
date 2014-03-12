@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hastache-aeson"
+        "phrase": "hastache-aeson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:12 UTC 2014",
           "module": "Text.Hastache.Aeson",
           "name": "Aeson",
           "package": "hastache-aeson",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Hastache Aeson",
+          "indexed": "2014-03-11T18:34:12",
           "module": "Text.Hastache.Aeson",
           "name": "Aeson",
           "package": "hastache-aeson",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:12 UTC 2014",
           "module": "Text.Hastache.Aeson",
           "name": "jsonValueContext",
           "package": "hastache-aeson",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Hastache Aeson",
+          "indexed": "2014-03-11T18:34:12",
           "module": "Text.Hastache.Aeson",
           "name": "jsonValueContext",
           "normalized": "Value-\u003eMuContext a",

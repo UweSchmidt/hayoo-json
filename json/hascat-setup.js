@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hascat-setup"
+        "phrase": "hascat-setup",
+        "type": "phrase"
       },
       "type": "context"
     }

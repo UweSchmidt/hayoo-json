@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "parsimony"
+        "phrase": "parsimony",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommonly used character parsers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "Char",
           "package": "parsimony",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Commonly used character parsers",
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "Char",
           "package": "parsimony",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "alphaNum",
           "package": "parsimony",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "alphaNum",
           "package": "parsimony",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "anyChar",
           "package": "parsimony",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "anyChar",
           "package": "parsimony",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "char",
           "package": "parsimony",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "char",
           "normalized": "Char-\u003eParser a()",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "digit",
           "package": "parsimony",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "digit",
           "package": "parsimony",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "hexDigit",
           "package": "parsimony",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "hexDigit",
           "package": "parsimony",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "letter",
           "package": "parsimony",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "letter",
           "package": "parsimony",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "lower",
           "package": "parsimony",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "lower",
           "package": "parsimony",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "newline",
           "package": "parsimony",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "newline",
           "normalized": "Parser a()",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "noneOf",
           "package": "parsimony",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "noneOf",
           "normalized": "[Char]-\u003eParser a Char",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "octDigit",
           "package": "parsimony",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "octDigit",
           "package": "parsimony",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "oneOf",
           "package": "parsimony",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "oneOf",
           "normalized": "[Char]-\u003eParser a Char",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "satisfy",
           "package": "parsimony",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "satisfy",
           "normalized": "(Char-\u003eBool)-\u003eParser a Char",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "space",
           "package": "parsimony",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "space",
           "package": "parsimony",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "spaces",
           "package": "parsimony",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "spaces",
           "normalized": "Parser a()",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "string",
           "package": "parsimony",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "string",
           "normalized": "String-\u003eParser a()",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "tab",
           "package": "parsimony",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "tab",
           "normalized": "Parser a()",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Char",
           "name": "upper",
           "package": "parsimony",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Char",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Char",
           "name": "upper",
           "package": "parsimony",
@@ -421,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse errors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "Error",
           "package": "parsimony",
@@ -430,6 +467,7 @@
         "index": {
           "description": "Parse errors",
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "Error",
           "package": "parsimony",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "Message",
           "package": "parsimony",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "Message",
           "package": "parsimony",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "ParseError",
           "package": "parsimony",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "ParseError",
           "package": "parsimony",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "Expect",
           "package": "parsimony",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "Expect",
           "package": "parsimony",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "Message",
           "package": "parsimony",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "Message",
           "package": "parsimony",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "SysUnExpect",
           "package": "parsimony",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "SysUnExpect",
           "package": "parsimony",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "UnExpect",
           "package": "parsimony",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "UnExpect",
           "package": "parsimony",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "addErrorMessage",
           "package": "parsimony",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "addErrorMessage",
           "normalized": "Message-\u003eParseError-\u003eParseError",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "errorIsUnknown",
           "package": "parsimony",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "errorIsUnknown",
           "normalized": "ParseError-\u003eBool",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "errorMessages",
           "package": "parsimony",
@@ -630,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "errorMessages",
           "normalized": "ParseError-\u003e[Message]",
@@ -670,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "mergeError",
           "package": "parsimony",
@@ -679,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "mergeError",
           "normalized": "ParseError-\u003eParseError-\u003eParseError",
@@ -694,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "messageCompare",
           "package": "parsimony",
@@ -703,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "messageCompare",
           "normalized": "Message-\u003eMessage-\u003eOrdering",
@@ -718,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "messageEq",
           "package": "parsimony",
@@ -727,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "messageEq",
           "normalized": "Message-\u003eMessage-\u003eBool",
@@ -742,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "messageString",
           "package": "parsimony",
@@ -751,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "messageString",
           "normalized": "Message-\u003eString",
@@ -766,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "newErrorMessage",
           "package": "parsimony",
@@ -775,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "newErrorMessage",
           "normalized": "Message-\u003eSourcePos-\u003eParseError",
@@ -790,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "newErrorUnknown",
           "package": "parsimony",
@@ -799,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "newErrorUnknown",
           "normalized": "SourcePos-\u003eParseError",
@@ -814,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "setErrorMessage",
           "package": "parsimony",
@@ -823,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "setErrorMessage",
           "normalized": "Message-\u003eParseError-\u003eParseError",
@@ -838,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "setErrorPos",
           "package": "parsimony",
@@ -847,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "setErrorPos",
           "normalized": "SourcePos-\u003eParseError-\u003eParseError",
@@ -863,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage independent show function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Error",
           "name": "showErrorMessages",
           "package": "parsimony",
@@ -873,6 +946,7 @@
         "index": {
           "description": "Language independent show function",
           "hierarchy": "Parsimony Error",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Error",
           "name": "showErrorMessages",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eString-\u003e[Message]-\u003eString",
@@ -889,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for parsing content from files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.IO",
           "name": "IO",
           "package": "parsimony",
@@ -898,6 +973,7 @@
         "index": {
           "description": "Utilities for parsing content from files",
           "hierarchy": "Parsimony IO",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.IO",
           "name": "IO",
           "package": "parsimony",
@@ -912,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a binary file in one go.\n This functions loads the whole file in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.IO",
           "name": "parseBinaryFile",
           "package": "parsimony",
@@ -922,6 +999,7 @@
         "index": {
           "description": "Parse binary file in one go This functions loads the whole file in memory",
           "hierarchy": "Parsimony IO",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.IO",
           "name": "parseBinaryFile",
           "normalized": "FilePath-\u003eParser ByteString a-\u003eIO(Either ParseError a)",
@@ -938,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a text file in one go.\n This functions loads the whole file in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.IO",
           "name": "parseFile",
           "package": "parsimony",
@@ -948,6 +1027,7 @@
         "index": {
           "description": "Parse text file in one go This functions loads the whole file in memory",
           "hierarchy": "Parsimony IO",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.IO",
           "name": "parseFile",
           "normalized": "FilePath-\u003eParser Text a-\u003eIO(Either ParseError a)",
@@ -964,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a text file in chunks.\n This functions loads the file in chunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.IO",
           "name": "parseLargeBinaryFile",
           "package": "parsimony",
@@ -974,6 +1055,7 @@
         "index": {
           "description": "Parse text file in chunks This functions loads the file in chunks",
           "hierarchy": "Parsimony IO",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.IO",
           "name": "parseLargeBinaryFile",
           "normalized": "FilePath-\u003eParser ByteString a-\u003eIO(Either ParseError a)",
@@ -990,6 +1072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a text file in chunks.\n This functions loads the file in chunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.IO",
           "name": "parseLargeFile",
           "package": "parsimony",
@@ -1000,6 +1083,7 @@
         "index": {
           "description": "Parse text file in chunks This functions loads the file in chunks",
           "hierarchy": "Parsimony IO",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.IO",
           "name": "parseLargeFile",
           "normalized": "FilePath-\u003eParser Text a-\u003eIO(Either ParseError a)",
@@ -1016,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a binary file in one go, using user state.\n This functions loads the whole file in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.IO",
           "name": "uparseBinaryFile",
           "package": "parsimony",
@@ -1026,6 +1111,7 @@
         "index": {
           "description": "Parse binary file in one go using user state This functions loads the whole file in memory",
           "hierarchy": "Parsimony IO",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.IO",
           "name": "uparseBinaryFile",
           "normalized": "FilePath-\u003eParserU a ByteString b-\u003ea-\u003eIO(Either ParseError b)",
@@ -1042,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a text file in one go, using user state.\n This functions loads the whole file in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.IO",
           "name": "uparseFile",
           "package": "parsimony",
@@ -1052,6 +1139,7 @@
         "index": {
           "description": "Parse text file in one go using user state This functions loads the whole file in memory",
           "hierarchy": "Parsimony IO",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.IO",
           "name": "uparseFile",
           "normalized": "FilePath-\u003eParserU a Text b-\u003ea-\u003eIO(Either ParseError b)",
@@ -1068,6 +1156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a text file in chunks, using user state.\n This functions loads the file in chunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.IO",
           "name": "uparseLargeBinaryFile",
           "package": "parsimony",
@@ -1078,6 +1167,7 @@
         "index": {
           "description": "Parse text file in chunks using user state This functions loads the file in chunks",
           "hierarchy": "Parsimony IO",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.IO",
           "name": "uparseLargeBinaryFile",
           "normalized": "FilePath-\u003eParserU a ByteString b-\u003ea-\u003eIO(Either ParseError b)",
@@ -1094,6 +1184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a text file in chunks, using user state.\n This functions loads the file in chunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.IO",
           "name": "uparseLargeFile",
           "package": "parsimony",
@@ -1104,6 +1195,7 @@
         "index": {
           "description": "Parse text file in chunks using user state This functions loads the file in chunks",
           "hierarchy": "Parsimony IO",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.IO",
           "name": "uparseLargeFile",
           "normalized": "FilePath-\u003eParserU a Text b-\u003ea-\u003eIO(Either ParseError b)",
@@ -1120,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTextual source positions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "Pos",
           "package": "parsimony",
@@ -1129,6 +1222,7 @@
         "index": {
           "description": "Textual source positions",
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "Pos",
           "package": "parsimony",
@@ -1142,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "Column",
           "package": "parsimony",
@@ -1150,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "Column",
           "package": "parsimony",
@@ -1163,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "Line",
           "package": "parsimony",
@@ -1171,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "Line",
           "package": "parsimony",
@@ -1184,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "SourceName",
           "package": "parsimony",
@@ -1192,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "SourceName",
           "package": "parsimony",
@@ -1205,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "SourcePos",
           "package": "parsimony",
@@ -1213,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "SourcePos",
           "package": "parsimony",
@@ -1226,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "incSourceColumn",
           "package": "parsimony",
@@ -1235,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "incSourceColumn",
           "normalized": "SourcePos-\u003eColumn-\u003eSourcePos",
@@ -1250,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "incSourceLine",
           "package": "parsimony",
@@ -1259,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "incSourceLine",
           "normalized": "SourcePos-\u003eLine-\u003eSourcePos",
@@ -1274,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "initialPos",
           "package": "parsimony",
@@ -1283,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "initialPos",
           "normalized": "SourceName-\u003eSourcePos",
@@ -1298,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "newPos",
           "package": "parsimony",
@@ -1307,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "newPos",
           "normalized": "SourceName-\u003eLine-\u003eColumn-\u003eSourcePos",
@@ -1322,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "setSourceColumn",
           "package": "parsimony",
@@ -1331,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "setSourceColumn",
           "normalized": "SourcePos-\u003eColumn-\u003eSourcePos",
@@ -1346,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "setSourceLine",
           "package": "parsimony",
@@ -1355,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "setSourceLine",
           "normalized": "SourcePos-\u003eLine-\u003eSourcePos",
@@ -1370,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "setSourceName",
           "package": "parsimony",
@@ -1379,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "setSourceName",
           "normalized": "SourcePos-\u003eSourceName-\u003eSourcePos",
@@ -1394,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "sourceColumn",
           "package": "parsimony",
@@ -1403,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "sourceColumn",
           "normalized": "SourcePos-\u003eColumn",
@@ -1418,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "sourceLine",
           "package": "parsimony",
@@ -1427,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "sourceLine",
           "normalized": "SourcePos-\u003eLine",
@@ -1442,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "sourceName",
           "package": "parsimony",
@@ -1451,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "sourceName",
           "normalized": "SourcePos-\u003eSourceName",
@@ -1466,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "updatePosChar",
           "package": "parsimony",
@@ -1475,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "updatePosChar",
           "normalized": "SourcePos-\u003eChar-\u003eSourcePos",
@@ -1490,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Pos",
           "name": "updatePosString",
           "package": "parsimony",
@@ -1499,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Pos",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Pos",
           "name": "updatePosString",
           "normalized": "SourcePos-\u003eString-\u003eSourcePos",
@@ -1515,6 +1641,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generic way to extract tokens from a stream.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Stream",
           "name": "Stream",
           "package": "parsimony",
@@ -1524,6 +1651,7 @@
         "index": {
           "description": "generic way to extract tokens from stream",
           "hierarchy": "Parsimony Stream",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Stream",
           "name": "Stream",
           "package": "parsimony",
@@ -1538,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStreams of tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Stream",
           "name": "Stream",
           "package": "parsimony",
@@ -1547,6 +1676,7 @@
         "index": {
           "description": "Streams of tokens",
           "hierarchy": "Parsimony Stream",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Stream",
           "name": "Stream",
           "package": "parsimony",
@@ -1561,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class describing useful token operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Stream",
           "name": "Token",
           "package": "parsimony",
@@ -1570,6 +1701,7 @@
         "index": {
           "description": "class describing useful token operations",
           "hierarchy": "Parsimony Stream",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Stream",
           "name": "Token",
           "package": "parsimony",
@@ -1583,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Stream",
           "name": "getToken",
           "package": "parsimony",
@@ -1592,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Parsimony Stream",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Stream",
           "name": "getToken",
           "package": "parsimony",
@@ -1606,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to display tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Stream",
           "name": "showToken",
           "package": "parsimony",
@@ -1616,6 +1751,7 @@
         "index": {
           "description": "How to display tokens",
           "hierarchy": "Parsimony Stream",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Stream",
           "name": "showToken",
           "normalized": "a-\u003eString",
@@ -1632,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow tokens affect file positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.Stream",
           "name": "updatePos",
           "package": "parsimony",
@@ -1642,6 +1779,7 @@
         "index": {
           "description": "How tokens affect file positions",
           "hierarchy": "Parsimony Stream",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.Stream",
           "name": "updatePos",
           "normalized": "a-\u003eSourcePos-\u003eSourcePos",
@@ -1658,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for parsers with custom state.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.UserState",
           "name": "UserState",
           "package": "parsimony",
@@ -1667,6 +1806,7 @@
         "index": {
           "description": "Support for parsers with custom state",
           "hierarchy": "Parsimony UserState",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.UserState",
           "name": "UserState",
           "package": "parsimony",
@@ -1681,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of parsers with a user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.UserState",
           "name": "ParserU",
           "package": "parsimony",
@@ -1690,6 +1831,7 @@
         "index": {
           "description": "The type of parsers with user state",
           "hierarchy": "Parsimony UserState",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.UserState",
           "name": "ParserU",
           "package": "parsimony",
@@ -1704,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn input stream annotated with some user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.UserState",
           "name": "UserState",
           "package": "parsimony",
@@ -1713,6 +1856,7 @@
         "index": {
           "description": "An input stream annotated with some user state",
           "hierarchy": "Parsimony UserState",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.UserState",
           "name": "UserState",
           "package": "parsimony",
@@ -1726,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.UserState",
           "name": "UserState",
           "package": "parsimony",
@@ -1735,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Parsimony UserState",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.UserState",
           "name": "UserState",
           "package": "parsimony",
@@ -1749,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.UserState",
           "name": "getUserState",
           "package": "parsimony",
@@ -1759,6 +1906,7 @@
         "index": {
           "description": "Get the user state",
           "hierarchy": "Parsimony UserState",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.UserState",
           "name": "getUserState",
           "package": "parsimony",
@@ -1773,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a parser without user space into ine that supports\n user state manipulation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.UserState",
           "name": "lifted",
           "package": "parsimony",
@@ -1783,6 +1932,7 @@
         "index": {
           "description": "Turn parser without user space into ine that supports user state manipulation",
           "hierarchy": "Parsimony UserState",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.UserState",
           "name": "lifted",
           "normalized": "Parser a b-\u003eParserU c a b",
@@ -1797,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.UserState",
           "name": "parserStream",
           "package": "parsimony",
@@ -1806,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Parsimony UserState",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.UserState",
           "name": "parserStream",
           "package": "parsimony",
@@ -1820,6 +1972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.UserState",
           "name": "setUserState",
           "package": "parsimony",
@@ -1830,6 +1983,7 @@
         "index": {
           "description": "Set the user state",
           "hierarchy": "Parsimony UserState",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.UserState",
           "name": "setUserState",
           "normalized": "a-\u003eParserU a b()",
@@ -1845,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.UserState",
           "name": "uparse",
           "package": "parsimony",
@@ -1854,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Parsimony UserState",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.UserState",
           "name": "uparse",
           "normalized": "ParserU a b c-\u003ea-\u003eb-\u003eEither ParseError c",
@@ -1868,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.UserState",
           "name": "uparseSource",
           "package": "parsimony",
@@ -1877,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Parsimony UserState",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.UserState",
           "name": "uparseSource",
           "normalized": "ParserU a b c-\u003ea-\u003eSourceName-\u003eb-\u003eEither ParseError c",
@@ -1893,6 +2051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.UserState",
           "name": "updateUserState",
           "package": "parsimony",
@@ -1903,6 +2062,7 @@
         "index": {
           "description": "Update the user state",
           "hierarchy": "Parsimony UserState",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.UserState",
           "name": "updateUserState",
           "normalized": "(a-\u003ea)-\u003eParserU a b()",
@@ -1918,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony.UserState",
           "name": "userState",
           "package": "parsimony",
@@ -1927,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Parsimony UserState",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony.UserState",
           "name": "userState",
           "package": "parsimony",
@@ -1941,6 +2103,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe basics of the Parsimony library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "Parsimony",
           "package": "parsimony",
@@ -1950,6 +2113,7 @@
         "index": {
           "description": "The basics of the Parsimony library",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "Parsimony",
           "package": "parsimony",
@@ -1963,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "Column",
           "package": "parsimony",
@@ -1971,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "Column",
           "package": "parsimony",
@@ -1984,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "Line",
           "package": "parsimony",
@@ -1992,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "Line",
           "package": "parsimony",
@@ -2005,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "ParseError",
           "package": "parsimony",
@@ -2013,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "ParseError",
           "package": "parsimony",
@@ -2027,6 +2197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser constructing values of type \u003ccode\u003ea\u003c/code\u003e, with an input\n buffer of type \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "Parser",
           "package": "parsimony",
@@ -2036,6 +2207,7 @@
         "index": {
           "description": "parser constructing values of type with an input buffer of type",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "Parser",
           "package": "parsimony",
@@ -2049,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "PrimParser",
           "package": "parsimony",
@@ -2057,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "PrimParser",
           "package": "parsimony",
@@ -2070,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "Reply",
           "package": "parsimony",
@@ -2078,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "Reply",
           "package": "parsimony",
@@ -2091,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "SourceName",
           "package": "parsimony",
@@ -2099,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "SourceName",
           "package": "parsimony",
@@ -2112,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "SourcePos",
           "package": "parsimony",
@@ -2120,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "SourcePos",
           "package": "parsimony",
@@ -2134,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parser state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "State",
           "package": "parsimony",
@@ -2143,6 +2324,7 @@
         "index": {
           "description": "The parser state",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "State",
           "package": "parsimony",
@@ -2157,6 +2339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence actions, discarding the value of the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "(*\u003e)",
           "package": "parsimony",
@@ -2166,6 +2349,7 @@
         "index": {
           "description": "Sequence actions discarding the value of the first argument",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "(*\u003e) *\u003e",
           "normalized": "a b c d b-\u003ed e-\u003ed e",
@@ -2181,6 +2365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative binary operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "(\u003c|\u003e)",
           "package": "parsimony",
@@ -2190,6 +2375,7 @@
         "index": {
           "description": "An associative binary operation",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "a b c d-\u003ec d-\u003ec d",
@@ -2205,6 +2391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all locations in the input with the same value.\n The default definition is \u003ccode\u003e\u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, but this may be\n overridden with a more efficient version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "(\u003c$)",
           "package": "parsimony",
@@ -2214,6 +2401,7 @@
         "index": {
           "description": "Replace all locations in the input with the same value The default definition is fmap const but this may be overridden with more efficient version",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "(\u003c$) \u003c$",
           "normalized": "a b c b-\u003ed e-\u003ed b",
@@ -2229,6 +2417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "(\u003c$\u003e)",
           "package": "parsimony",
@@ -2238,6 +2427,7 @@
         "index": {
           "description": "An infix synonym for fmap",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -2253,6 +2443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence actions, discarding the value of the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "(\u003c*)",
           "package": "parsimony",
@@ -2262,6 +2453,7 @@
         "index": {
           "description": "Sequence actions discarding the value of the second argument",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "(\u003c*) \u003c*",
           "normalized": "a b c d b-\u003ed e-\u003ed b",
@@ -2277,6 +2469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequential application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "(\u003c*\u003e)",
           "package": "parsimony",
@@ -2286,6 +2479,7 @@
         "index": {
           "description": "Sequential application",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a b c d(b-\u003ee)-\u003ed b-\u003ed e",
@@ -2301,6 +2495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the name to be used if the given parser fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "(\u003c?\u003e)",
           "package": "parsimony",
@@ -2311,6 +2506,7 @@
         "index": {
           "description": "Specify the name to be used if the given parser fails",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "(\u003c?\u003e) \u003c?\u003e",
           "normalized": "Parser a b-\u003eString-\u003eParser a b",
@@ -2325,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "Error",
           "package": "parsimony",
@@ -2334,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "Error",
           "package": "parsimony",
@@ -2347,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "Ok",
           "package": "parsimony",
@@ -2356,6 +2555,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "Ok",
           "package": "parsimony",
@@ -2369,6 +2569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "State",
           "package": "parsimony",
@@ -2378,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "State",
           "package": "parsimony",
@@ -2392,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches any token.  Fails if there are no more tokens left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "anyToken",
           "package": "parsimony",
@@ -2402,6 +2605,7 @@
         "index": {
           "description": "Matches any token Fails if there are no more tokens left",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "anyToken",
           "package": "parsimony",
@@ -2415,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "between",
           "package": "parsimony",
@@ -2424,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "between",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a d-\u003eParser a d",
@@ -2439,6 +2645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe resulting parser behaves like one of the parsers in the list.\n The chosen parser is the first one that (i) consumes some input,\n or (ii) succeeds with a result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "choice",
           "package": "parsimony",
@@ -2449,6 +2656,7 @@
         "index": {
           "description": "The resulting parser behaves like one of the parsers in the list The chosen parser is the first one that consumes some input or ii succeeds with result",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "choice",
           "normalized": "[Parser a b]-\u003eParser a b",
@@ -2463,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "count",
           "package": "parsimony",
@@ -2472,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "count",
           "normalized": "Int-\u003eParser a b-\u003eParser a[b]",
@@ -2487,6 +2697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity of \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "empty",
           "package": "parsimony",
@@ -2496,6 +2707,7 @@
         "index": {
           "description": "The identity of",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "empty",
           "package": "parsimony",
@@ -2508,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "endBy",
           "package": "parsimony",
@@ -2517,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "endBy",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -2532,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "endBy1",
           "package": "parsimony",
@@ -2541,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "endBy1",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -2557,6 +2773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches the end of the input (i.e., when there are no more tokens\n to extract).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "eof",
           "package": "parsimony",
@@ -2567,6 +2784,7 @@
         "index": {
           "description": "Matches the end of the input i.e when there are no more tokens to extract",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "eof",
           "normalized": "Parser a()",
@@ -2582,6 +2800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a parser repeatedly, combining the results with the\n given functions.  This function is similar to the strict \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e.\n We stop when an application of the parser fails without consuming any\n input.  If the parser fails after it has consumed some input, then\n the repeated parser will also fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "foldMany",
           "package": "parsimony",
@@ -2592,6 +2811,7 @@
         "index": {
           "description": "Apply parser repeatedly combining the results with the given functions This function is similar to the strict foldl We stop when an application of the parser fails without consuming any input If the parser fails after it has consumed some input then the repeated parser will also fail",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "foldMany",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eParser c b-\u003eParser c a",
@@ -2607,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "getInput",
           "package": "parsimony",
@@ -2616,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "getInput",
           "package": "parsimony",
@@ -2629,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "getPosition",
           "package": "parsimony",
@@ -2638,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "getPosition",
           "package": "parsimony",
@@ -2652,6 +2876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe resulting parser behaves like the input parser,\n except that in case of failure we use the given expectation\n messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "labels",
           "package": "parsimony",
@@ -2662,6 +2887,7 @@
         "index": {
           "description": "The resulting parser behaves like the input parser except that in case of failure we use the given expectation messages",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "labels",
           "normalized": "Parser a b-\u003e[String]-\u003eParser a b",
@@ -2677,6 +2903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies the given parser without consuming any input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "lookAhead",
           "package": "parsimony",
@@ -2687,6 +2914,7 @@
         "index": {
           "description": "Applies the given parser without consuming any input",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "lookAhead",
           "normalized": "Parser a b-\u003eParser a b",
@@ -2703,6 +2931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a parser repeatedly, and collect the results in a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "many",
           "package": "parsimony",
@@ -2713,6 +2942,7 @@
         "index": {
           "description": "Apply parser repeatedly and collect the results in list",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "many",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -2728,6 +2958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a parser repeatedly, and collect the results in a list.\n The resulting list is guaranteed to be at leats of length one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "many1",
           "package": "parsimony",
@@ -2738,6 +2969,7 @@
         "index": {
           "description": "Apply parser repeatedly and collect the results in list The resulting list is guaranteed to be at leats of length one",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "many1",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -2753,6 +2985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a list of values recognized by the given parser.\n The sequence of values should be terminated by a pattern recognized\n by the terminator patser.\n The terminator is tried before the value pattern, so if there\n is overlap between the two, the terminator is recognized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "manyTill",
           "package": "parsimony",
@@ -2763,6 +2996,7 @@
         "index": {
           "description": "Parse list of values recognized by the given parser The sequence of values should be terminated by pattern recognized by the terminator patser The terminator is tried before the value pattern so if there is overlap between the two the terminator is recognized",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "manyTill",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -2779,6 +3013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the input stream of a parser.\n This is useful for extending the input stream with extra information.\n The first function splits the extended state into a state\n suitable for use by the given parser and some additional information.\n The second function combines the extra infomration of the original\n state with the new partial state, to compute a new extended state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "mapState",
           "package": "parsimony",
@@ -2789,6 +3024,7 @@
         "index": {
           "description": "Change the input stream of parser This is useful for extending the input stream with extra information The first function splits the extended state into state suitable for use by the given parser and some additional information The second function combines the extra infomration of the original state with the new partial state to compute new extended state",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "mapState",
           "normalized": "(State a-\u003e(State b,c))-\u003e(State b-\u003ec-\u003eState a)-\u003eParser b d-\u003eParser a d",
@@ -2805,6 +3041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces a parser that succeeds if it can extract the list of values\n specified by the list.\n The function argument specifies how to show the expectations in\n error messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "match",
           "package": "parsimony",
@@ -2815,6 +3052,7 @@
         "index": {
           "description": "Produces parser that succeeds if it can extract the list of values specified by the list The function argument specifies how to show the expectations in error messages",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "match",
           "normalized": "(a-\u003eString)-\u003e[a]-\u003eParser b a-\u003eParser b()",
@@ -2830,6 +3068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds if the given parser fails.\n Uses the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance of the result type in error messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "notFollowedBy",
           "package": "parsimony",
@@ -2840,6 +3079,7 @@
         "index": {
           "description": "Succeeds if the given parser fails Uses the Show instance of the result type in error messages",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "notFollowedBy",
           "normalized": "Parser a b-\u003eParser a()",
@@ -2856,6 +3096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds if the given parser fails.  The function is used\n to display the result in error messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "notFollowedBy'",
           "package": "parsimony",
@@ -2866,6 +3107,7 @@
         "index": {
           "description": "Succeeds if the given parser fails The function is used to display the result in error messages",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "notFollowedBy'",
           "normalized": "(a-\u003eString)-\u003eParser b a-\u003eParser b()",
@@ -2882,6 +3124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBehaves like the parameter parser, unless it fails without consuming\n any input.  In that case we succeed with the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "option",
           "package": "parsimony",
@@ -2892,6 +3135,7 @@
         "index": {
           "description": "Behaves like the parameter parser unless it fails without consuming any input In that case we succeed with the given value",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "option",
           "normalized": "a-\u003eParser b a-\u003eParser b a",
@@ -2907,6 +3151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne or none.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "optional",
           "package": "parsimony",
@@ -2916,6 +3161,7 @@
         "index": {
           "description": "One or none",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "optional",
           "normalized": "a b-\u003ea(Maybe b)",
@@ -2931,6 +3177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a parser to the given input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "parse",
           "package": "parsimony",
@@ -2940,6 +3187,7 @@
         "index": {
           "description": "Apply parser to the given input",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "parse",
           "normalized": "Parser a b-\u003ea-\u003eEither ParseError b",
@@ -2955,6 +3203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail with the given parser error without consuming any input.\n The error is applied to the current source position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "parseError",
           "package": "parsimony",
@@ -2965,6 +3214,7 @@
         "index": {
           "description": "Fail with the given parser error without consuming any input The error is applied to the current source position",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "parseError",
           "normalized": "(SourcePos-\u003eParseError)-\u003eParser a b",
@@ -2981,6 +3231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a parser to the given named input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "parseSource",
           "package": "parsimony",
@@ -2990,6 +3241,7 @@
         "index": {
           "description": "Apply parser to the given named input",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "parseSource",
           "normalized": "Parser a b-\u003eSourceName-\u003ea-\u003eEither ParseError b",
@@ -3006,6 +3258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a primitive parser.\n Consumes input on success.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "primParser",
           "package": "parsimony",
@@ -3016,6 +3269,7 @@
         "index": {
           "description": "Define primitive parser Consumes input on success",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "primParser",
           "normalized": "PrimParser a b-\u003eParser a b",
@@ -3032,6 +3286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "pure",
           "package": "parsimony",
@@ -3041,6 +3296,7 @@
         "index": {
           "description": "Lift value",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "pure",
           "normalized": "a b c-\u003ed c",
@@ -3056,6 +3312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a parser into a \u003ccode\u003e\u003ca\u003ePrimParser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "runParser",
           "package": "parsimony",
@@ -3066,6 +3323,7 @@
         "index": {
           "description": "Convert parser into PrimParser",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "runParser",
           "normalized": "Parser a b-\u003ePrimParser a b",
@@ -3081,6 +3339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "sepBy",
           "package": "parsimony",
@@ -3090,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "sepBy",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -3105,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "sepBy1",
           "package": "parsimony",
@@ -3114,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "sepBy1",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -3129,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "sepEndBy",
           "package": "parsimony",
@@ -3138,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "sepEndBy",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -3153,6 +3417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "sepEndBy1",
           "package": "parsimony",
@@ -3162,6 +3427,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "sepEndBy1",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -3177,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "setInput",
           "package": "parsimony",
@@ -3186,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "setInput",
           "normalized": "a-\u003eParser a()",
@@ -3201,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "setPosition",
           "package": "parsimony",
@@ -3210,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "setPosition",
           "normalized": "SourcePos-\u003eParser a()",
@@ -3225,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "setState",
           "package": "parsimony",
@@ -3234,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "setState",
           "normalized": "State a-\u003eParser a()",
@@ -3249,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "skip",
           "package": "parsimony",
@@ -3258,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "skip",
           "normalized": "Parser a b-\u003eParser a()",
@@ -3273,6 +3547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a parser repeatedly, ignoring the results.\n We stop when an application of the parser fails without consuming any\n input.  If the parser fails after it has consumed some input, then\n the repeated parser will also fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "skipMany",
           "package": "parsimony",
@@ -3283,6 +3558,7 @@
         "index": {
           "description": "Apply parser repeatedly ignoring the results We stop when an application of the parser fails without consuming any input If the parser fails after it has consumed some input then the repeated parser will also fail",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "skipMany",
           "normalized": "Parser a b-\u003eParser a()",
@@ -3299,6 +3575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip at leats one occurance of input recognized by the parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "skipMany1",
           "package": "parsimony",
@@ -3309,6 +3586,7 @@
         "index": {
           "description": "Skip at leats one occurance of input recognized by the parser",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "skipMany1",
           "normalized": "Parser a b-\u003eParser a()",
@@ -3325,6 +3603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToken source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "stateInput",
           "package": "parsimony",
@@ -3335,6 +3614,7 @@
         "index": {
           "description": "Token source",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "stateInput",
           "package": "parsimony",
@@ -3349,6 +3629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "statePos",
           "package": "parsimony",
@@ -3359,6 +3640,7 @@
         "index": {
           "description": "Current position",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "statePos",
           "package": "parsimony",
@@ -3373,6 +3655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow a parser to back-track.  The resulting parser behaves like\n the input parser unless it fails.  In that case,  we backtrack\n without consuming any input.  Because we may have to back-track,\n we keep a hold of the parser input so over-use of this function\n may result in memory leaks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "try",
           "package": "parsimony",
@@ -3383,6 +3666,7 @@
         "index": {
           "description": "Allow parser to back-track The resulting parser behaves like the input parser unless it fails In that case we backtrack without consuming any input Because we may have to back-track we keep hold of the parser input so over-use of this function may result in memory leaks",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "try",
           "normalized": "Parser a b-\u003eParser a b",
@@ -3397,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "unexpected",
           "package": "parsimony",
@@ -3406,6 +3691,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "unexpected",
           "normalized": "String-\u003eParser a b",
@@ -3420,6 +3706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "updateInput",
           "package": "parsimony",
@@ -3429,6 +3716,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "updateInput",
           "normalized": "(a-\u003ea)-\u003eParser a()",
@@ -3444,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "updatePosition",
           "package": "parsimony",
@@ -3453,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "updatePosition",
           "normalized": "(SourcePos-\u003eSourcePos)-\u003eParser a()",
@@ -3469,6 +3759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the current parser state.\n Returns the old state.\n Does not consume input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:30 UTC 2014",
           "module": "Parsimony",
           "name": "updateState",
           "package": "parsimony",
@@ -3479,6 +3770,7 @@
         "index": {
           "description": "Modify the current parser state Returns the old state Does not consume input",
           "hierarchy": "Parsimony",
+          "indexed": "2014-03-11T19:35:30",
           "module": "Parsimony",
           "name": "updateState",
           "normalized": "(State a-\u003eState a)-\u003eParser a()",

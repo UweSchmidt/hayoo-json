@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-coffee"
+        "phrase": "snaplet-coffee",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "Utils",
           "package": "snaplet-coffee",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Coffee Utils",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "Utils",
           "package": "snaplet-coffee",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe CoffeeScript Snaplet Configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "CoffeeScript",
           "package": "snaplet-coffee",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The CoffeeScript Snaplet Configuration",
           "hierarchy": "Snap Snaplet Coffee Utils",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "CoffeeScript",
           "package": "snaplet-coffee",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple data structure for CompileMode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "CompileMode",
           "package": "snaplet-coffee",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Simple data structure for CompileMode",
           "hierarchy": "Snap Snaplet Coffee Utils",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "CompileMode",
           "package": "snaplet-coffee",
@@ -108,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "Development",
           "package": "snaplet-coffee",
@@ -117,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Coffee Utils",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "Development",
           "package": "snaplet-coffee",
@@ -130,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "Production",
           "package": "snaplet-coffee",
@@ -139,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Coffee Utils",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "Production",
           "package": "snaplet-coffee",
@@ -153,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all the .coffee files in the source directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "allCoffeeFiles",
           "package": "snaplet-coffee",
@@ -163,6 +174,7 @@
         "index": {
           "description": "Gets all the coffee files in the source directory",
           "hierarchy": "Snap Snaplet Coffee Utils",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "allCoffeeFiles",
           "normalized": "CoffeeScript-\u003eIO[FilePath]",
@@ -224,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to create directories if they don't exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "createDirUnlessExists",
           "package": "snaplet-coffee",
@@ -234,6 +247,7 @@
         "index": {
           "description": "Function to create directories if they don exist",
           "hierarchy": "Snap Snaplet Coffee Utils",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "createDirUnlessExists",
           "normalized": "FilePath-\u003eIO()",
@@ -250,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestination directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "destDir",
           "package": "snaplet-coffee",
@@ -260,6 +275,7 @@
         "index": {
           "description": "Destination directory",
           "hierarchy": "Snap Snaplet Coffee Utils",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "destDir",
           "normalized": "CoffeeScript-\u003eFilePath",
@@ -299,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the CompileMode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "getCompilerMode",
           "package": "snaplet-coffee",
@@ -309,6 +326,7 @@
         "index": {
           "description": "Gets the CompileMode",
           "hierarchy": "Snap Snaplet Coffee Utils",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "getCompilerMode",
           "normalized": "Maybe String-\u003eCompileMode",
@@ -325,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the destination directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "getDestDir",
           "package": "snaplet-coffee",
@@ -335,6 +354,7 @@
         "index": {
           "description": "Gets the destination directory",
           "hierarchy": "Snap Snaplet Coffee Utils",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "getDestDir",
           "normalized": "Maybe String-\u003eCoffeeScript-\u003eFilePath",
@@ -351,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts path\u003cem\u003eto\u003c/em\u003efile.js to file.coffee\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "requestedCoffeeFile",
           "package": "snaplet-coffee",
@@ -361,6 +382,7 @@
         "index": {
           "description": "Converts path to file.js to file.coffee",
           "hierarchy": "Snap Snaplet Coffee Utils",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "requestedCoffeeFile",
           "normalized": "String-\u003eFilePath",
@@ -400,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "srcDir",
           "package": "snaplet-coffee",
@@ -410,6 +433,7 @@
         "index": {
           "description": "Source directory",
           "hierarchy": "Snap Snaplet Coffee Utils",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee.Utils",
           "name": "srcDir",
           "normalized": "CoffeeScript-\u003eFilePath",
@@ -425,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee",
           "name": "Coffee",
           "package": "snaplet-coffee",
@@ -433,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Coffee",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee",
           "name": "Coffee",
           "package": "snaplet-coffee",
@@ -447,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe CoffeeScript Snaplet Configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee",
           "name": "CoffeeScript",
           "package": "snaplet-coffee",
@@ -456,6 +483,7 @@
         "index": {
           "description": "The CoffeeScript Snaplet Configuration",
           "hierarchy": "Snap Snaplet Coffee",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee",
           "name": "CoffeeScript",
           "package": "snaplet-coffee",
@@ -470,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServes the compiled CoffeeScript files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee",
           "name": "coffeeServe",
           "package": "snaplet-coffee",
@@ -480,6 +509,7 @@
         "index": {
           "description": "Serves the compiled CoffeeScript files",
           "hierarchy": "Snap Snaplet Coffee",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee",
           "name": "coffeeServe",
           "normalized": "Handler a CoffeeScript()",
@@ -496,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSnaplet-Coffee initializer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:34 UTC 2014",
           "module": "Snap.Snaplet.Coffee",
           "name": "initCoffee",
           "package": "snaplet-coffee",
@@ -506,6 +537,7 @@
         "index": {
           "description": "Snaplet-Coffee initializer",
           "hierarchy": "Snap Snaplet Coffee",
+          "indexed": "2014-03-11T20:05:34",
           "module": "Snap.Snaplet.Coffee",
           "name": "initCoffee",
           "package": "snaplet-coffee",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bencode"
+        "phrase": "bencode",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Lexer",
           "name": "Lexer",
           "package": "bencode",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Lexer",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Lexer",
           "name": "Lexer",
           "package": "bencode",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Lexer",
           "name": "Token",
           "package": "bencode",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Lexer",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Lexer",
           "name": "Token",
           "package": "bencode",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Lexer",
           "name": "TDict",
           "package": "bencode",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Lexer",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Lexer",
           "name": "TDict",
           "package": "bencode",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Lexer",
           "name": "TEnd",
           "package": "bencode",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Lexer",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Lexer",
           "name": "TEnd",
           "package": "bencode",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Lexer",
           "name": "TInt",
           "package": "bencode",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Lexer",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Lexer",
           "name": "TInt",
           "package": "bencode",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Lexer",
           "name": "TList",
           "package": "bencode",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Lexer",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Lexer",
           "name": "TList",
           "package": "bencode",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Lexer",
           "name": "TNumber",
           "package": "bencode",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Lexer",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Lexer",
           "name": "TNumber",
           "package": "bencode",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Lexer",
           "name": "TString",
           "package": "bencode",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Lexer",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Lexer",
           "name": "TString",
           "package": "bencode",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Lexer",
           "name": "lexer",
           "package": "bencode",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Lexer",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Lexer",
           "name": "lexer",
           "normalized": "ByteString-\u003e[Token]",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA parsec style parser for BEncoded data\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Parser",
           "name": "Parser",
           "package": "bencode",
@@ -225,6 +244,7 @@
         "index": {
           "description": "parsec style parser for BEncoded data",
           "hierarchy": "Data BEncode Parser",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Parser",
           "name": "Parser",
           "package": "bencode",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Parser",
           "name": "BParser",
           "package": "bencode",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Parser",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Parser",
           "name": "BParser",
           "package": "bencode",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Parser",
           "name": "(\u003c|\u003e)",
           "package": "bencode",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Parser",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Parser",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "BParser a-\u003eBParser a-\u003eBParser a",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Parser",
           "name": "bbytestring",
           "package": "bencode",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Parser",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Parser",
           "name": "bbytestring",
           "normalized": "BParser BEncode-\u003eBParser ByteString",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Parser",
           "name": "bint",
           "package": "bencode",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Parser",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Parser",
           "name": "bint",
           "normalized": "BParser BEncode-\u003eBParser Integer",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Parser",
           "name": "bstring",
           "package": "bencode",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Parser",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Parser",
           "name": "bstring",
           "normalized": "BParser BEncode-\u003eBParser String",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Parser",
           "name": "dict",
           "package": "bencode",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Parser",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Parser",
           "name": "dict",
           "normalized": "String-\u003eBParser BEncode",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Parser",
           "name": "list",
           "package": "bencode",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Parser",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Parser",
           "name": "list",
           "normalized": "String-\u003eBParser a-\u003eBParser[a]",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Parser",
           "name": "optional",
           "package": "bencode",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Parser",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Parser",
           "name": "optional",
           "normalized": "BParser a-\u003eBParser(Maybe a)",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Parser",
           "name": "runParser",
           "package": "bencode",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Parser",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Parser",
           "name": "runParser",
           "normalized": "BParser a-\u003eBEncode-\u003eEither String a",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Parser",
           "name": "setInput",
           "package": "bencode",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Parser",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Parser",
           "name": "setInput",
           "normalized": "BEncode-\u003eBParser()",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode.Parser",
           "name": "token",
           "package": "bencode",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode Parser",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode.Parser",
           "name": "token",
           "package": "bencode",
@@ -490,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a BEncode data type is well as functions for converting this\n data type to and from a String.\n\u003c/p\u003e\u003cp\u003eAlso supplies a number of properties which the module must satisfy.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode",
           "name": "BEncode",
           "package": "bencode",
@@ -499,6 +542,7 @@
         "index": {
           "description": "Provides BEncode data type is well as functions for converting this data type to and from String Also supplies number of properties which the module must satisfy",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode",
           "name": "BEncode",
           "package": "bencode",
@@ -513,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe B-coding defines an abstract syntax tree given as a simple\n     data type here\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode",
           "name": "BEncode",
           "package": "bencode",
@@ -522,6 +567,7 @@
         "index": {
           "description": "The B-coding defines an abstract syntax tree given as simple data type here",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode",
           "name": "BEncode",
           "package": "bencode",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode",
           "name": "BDict",
           "package": "bencode",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode",
           "name": "BDict",
           "package": "bencode",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode",
           "name": "BInt",
           "package": "bencode",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode",
           "name": "BInt",
           "package": "bencode",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode",
           "name": "BList",
           "package": "bencode",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode",
           "name": "BList",
           "normalized": "BList[BEncode]",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode",
           "name": "BString",
           "package": "bencode",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode",
           "name": "BString",
           "package": "bencode",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode",
           "name": "bPack",
           "package": "bencode",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode",
           "name": "bPack",
           "normalized": "BEncode-\u003eByteString",
@@ -650,6 +706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebRead is a conversion routine. It assumes a B-coded string as input\n     and attempts a parse of it into a BEncode data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode",
           "name": "bRead",
           "package": "bencode",
@@ -660,6 +717,7 @@
         "index": {
           "description": "bRead is conversion routine It assumes B-coded string as input and attempts parse of it into BEncode data type",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode",
           "name": "bRead",
           "normalized": "ByteString-\u003eMaybe BEncode",
@@ -676,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a BEncode structure to a B-coded string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:47 UTC 2014",
           "module": "Data.BEncode",
           "name": "bShow",
           "package": "bencode",
@@ -686,6 +745,7 @@
         "index": {
           "description": "Render BEncode structure to B-coded string",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:47",
           "module": "Data.BEncode",
           "name": "bShow",
           "normalized": "BEncode-\u003eShowS",

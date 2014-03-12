@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Stomp"
+        "phrase": "Stomp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA client library for Stomp serevers implementing stomp 1.1 specification. See http:\u003cem/\u003estomp.github.com/stomp-specification-1.1.html\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eExample\u003c/em\u003e:\n\u003c/p\u003e\u003cpre\u003eimport Network.Stomp\nimport qualified Data.ByteString.Lazy.Char8 as B\n\nmain = do\n  -- connect to a stomp broker\n  con \u003c- connect \"stomp://guest:guest@127.0.0.1:61613\" vers headers\n  putStrLn $ \"Accepted versions: \" ++ show (versions con)\n  \n  -- start consumer and subscribe to the queue\n  startConsumer con callback\n  subscribe con \"/queue/test\" \"0\" []\n\n  -- send the messages to the queue\n  send con \"/queue/test\" [] (B.pack \"message1\")\n  send con \"/queue/test\" [] (B.pack \"message2\")\n\n  -- wait\n  getLine\n  \n  -- unsubscribe and disconnect\n  unsubscribe con \"0\" []\n  disconnect con []\n  where \n    vers = [(1,0),(1,1)]\n    headers = []\n\ncallback :: Frame -\u003e IO ()\ncallback (Frame (SC MESSAGE) hs body) = do\n      putStrLn $ \"received message: \" ++ (B.unpack body) \n      putStrLn $ \"headers: \" ++ show hs\ncallback f = putStrLn $ \"received frame: \" ++ show f\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "Stomp",
           "package": "Stomp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "client library for Stomp serevers implementing stomp specification See http stomp.github.com stomp-specification-1.1.html Example import Network.Stomp import qualified Data.ByteString.Lazy.Char8 as main do connect to stomp broker con connect stomp guest guest@127.0.0.1 vers headers putStrLn Accepted versions show versions con start consumer and subscribe to the queue startConsumer con callback subscribe con queue test send the messages to the queue send con queue test B.pack message1 send con queue test B.pack message2 wait getLine unsubscribe and disconnect unsubscribe con disconnect con where vers headers callback Frame IO callback Frame SC MESSAGE hs body do putStrLn received message B.unpack body putStrLn headers show hs callback putStrLn received frame show",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "Stomp",
           "package": "Stomp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClient frame commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "ClientCommand",
           "package": "Stomp",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Client frame commands",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "ClientCommand",
           "package": "Stomp",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStomp frame commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "Command",
           "package": "Stomp",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Stomp frame commands",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "Command",
           "package": "Stomp",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA record used to communicate with Stomp brokers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "Connection",
           "package": "Stomp",
@@ -97,6 +104,7 @@
         "index": {
           "description": "record used to communicate with Stomp brokers",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "Connection",
           "package": "Stomp",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "Destination",
           "package": "Stomp",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "Destination",
           "package": "Stomp",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStomp frame record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "Frame",
           "package": "Stomp",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Stomp frame record",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "Frame",
           "package": "Stomp",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "Host",
           "package": "Stomp",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "Host",
           "package": "Stomp",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "MessageId",
           "package": "Stomp",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "MessageId",
           "package": "Stomp",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBroker frame commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "ServerCommand",
           "package": "Stomp",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Broker frame commands",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "ServerCommand",
           "package": "Stomp",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "StompException",
           "package": "Stomp",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "StompException",
           "package": "Stomp",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "StompUri",
           "package": "Stomp",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "StompUri",
           "package": "Stomp",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "Subscription",
           "package": "Stomp",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "Subscription",
           "package": "Stomp",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "Transaction",
           "package": "Stomp",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "Transaction",
           "package": "Stomp",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "Version",
           "package": "Stomp",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "Version",
           "package": "Stomp",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "ABORT",
           "package": "Stomp",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "ABORT",
           "package": "Stomp",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "ACK",
           "package": "Stomp",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "ACK",
           "package": "Stomp",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "BEGIN",
           "package": "Stomp",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "BEGIN",
           "package": "Stomp",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "BrokerError",
           "package": "Stomp",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "BrokerError",
           "package": "Stomp",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "CC",
           "package": "Stomp",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "CC",
           "package": "Stomp",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "COMMIT",
           "package": "Stomp",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "COMMIT",
           "package": "Stomp",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "CONNECT",
           "package": "Stomp",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "CONNECT",
           "package": "Stomp",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "CONNECTED",
           "package": "Stomp",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "CONNECTED",
           "package": "Stomp",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "ConnectionError",
           "package": "Stomp",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "ConnectionError",
           "package": "Stomp",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "DISCONNECT",
           "package": "Stomp",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "DISCONNECT",
           "package": "Stomp",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "ERROR",
           "package": "Stomp",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "ERROR",
           "package": "Stomp",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "Frame",
           "package": "Stomp",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "Frame",
           "package": "Stomp",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "InvalidFrame",
           "package": "Stomp",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "InvalidFrame",
           "package": "Stomp",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "InvalidUri",
           "package": "Stomp",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "InvalidUri",
           "package": "Stomp",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "MESSAGE",
           "package": "Stomp",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "MESSAGE",
           "package": "Stomp",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "NACK",
           "package": "Stomp",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "NACK",
           "package": "Stomp",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "RECEIPT",
           "package": "Stomp",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "RECEIPT",
           "package": "Stomp",
@@ -698,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "SC",
           "package": "Stomp",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "SC",
           "package": "Stomp",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "SEND",
           "package": "Stomp",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "SEND",
           "package": "Stomp",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "STOMP",
           "package": "Stomp",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "STOMP",
           "package": "Stomp",
@@ -764,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "SUBSCRIBE",
           "package": "Stomp",
@@ -773,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "SUBSCRIBE",
           "package": "Stomp",
@@ -786,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "StompIOError",
           "package": "Stomp",
@@ -795,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "StompIOError",
           "package": "Stomp",
@@ -808,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "UNSUBSCRIBE",
           "package": "Stomp",
@@ -817,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "UNSUBSCRIBE",
           "package": "Stomp",
@@ -831,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erollback a transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "abort",
           "package": "Stomp",
@@ -841,6 +916,7 @@
         "index": {
           "description": "rollback transaction",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "abort",
           "normalized": "Connection-\u003eTransaction-\u003e[Header]-\u003eIO()",
@@ -856,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eacknowledge the consumption of a message from a subscription\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "ack",
           "package": "Stomp",
@@ -866,6 +943,7 @@
         "index": {
           "description": "acknowledge the consumption of message from subscription",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "ack",
           "normalized": "Connection-\u003eSubscription-\u003eMessageId-\u003e[Header]-\u003eIO()",
@@ -881,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend a single newline byte to the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "beat",
           "package": "Stomp",
@@ -891,6 +970,7 @@
         "index": {
           "description": "send single newline byte to the server",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "beat",
           "normalized": "Connection-\u003eIO()",
@@ -906,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart a transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "begin",
           "package": "Stomp",
@@ -916,6 +997,7 @@
         "index": {
           "description": "start transaction",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "begin",
           "normalized": "Connection-\u003eTransaction-\u003e[Header]-\u003eIO()",
@@ -930,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "body",
           "package": "Stomp",
@@ -939,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "body",
           "package": "Stomp",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "command",
           "package": "Stomp",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "command",
           "package": "Stomp",
@@ -973,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecommit a transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "commit",
           "package": "Stomp",
@@ -983,6 +1070,7 @@
         "index": {
           "description": "commit transaction",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "commit",
           "normalized": "Connection-\u003eTransaction-\u003e[Header]-\u003eIO()",
@@ -998,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnect to the stomp (1.0, 1.1) broker using uri   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "connect",
           "package": "Stomp",
@@ -1008,6 +1097,7 @@
         "index": {
           "description": "connect to the stomp broker using uri",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "connect",
           "normalized": "StompUri-\u003e[Version]-\u003e[Header]-\u003eIO Connection",
@@ -1023,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnect to the stomp (1.0, 1.1) broker using hostname and port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "connect'",
           "package": "Stomp",
@@ -1033,6 +1124,7 @@
         "index": {
           "description": "connect to the stomp broker using hostname and port",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "connect'",
           "normalized": "Host-\u003ePortNumber-\u003e[Version]-\u003e[Header]-\u003eIO Connection",
@@ -1048,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecloses stomp connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "disconnect",
           "package": "Stomp",
@@ -1058,6 +1151,7 @@
         "index": {
           "description": "closes stomp connection",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "disconnect",
           "normalized": "Connection-\u003e[Header]-\u003eIO()",
@@ -1072,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "headers",
           "package": "Stomp",
@@ -1081,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "headers",
           "normalized": "[Header]",
@@ -1096,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elast frame received time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "lastRecv",
           "package": "Stomp",
@@ -1106,6 +1203,7 @@
         "index": {
           "description": "last frame received time",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "lastRecv",
           "normalized": "Connection-\u003eMVar UTCTime",
@@ -1122,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elast frame sent time \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "lastSend",
           "package": "Stomp",
@@ -1132,6 +1231,7 @@
         "index": {
           "description": "last frame sent time",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "lastSend",
           "normalized": "Connection-\u003eMVar UTCTime",
@@ -1148,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eacknowledge the rejection of a message from a subscription\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "nack",
           "package": "Stomp",
@@ -1158,6 +1259,7 @@
         "index": {
           "description": "acknowledge the rejection of message from subscription",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "nack",
           "normalized": "Connection-\u003eSubscription-\u003eMessageId-\u003e[Header]-\u003eIO()",
@@ -1173,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereceives incoming frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "receiveFrame",
           "package": "Stomp",
@@ -1183,6 +1286,7 @@
         "index": {
           "description": "receives incoming frame",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "receiveFrame",
           "normalized": "Connection-\u003eIO Frame",
@@ -1199,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereceive heaertbeat timeout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "recvTimeout",
           "package": "Stomp",
@@ -1209,6 +1314,7 @@
         "index": {
           "description": "receive heaertbeat timeout",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "recvTimeout",
           "normalized": "Connection-\u003eInt",
@@ -1225,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend message to the destination.\n | The header 'content-length' is automatically set by this module. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "send",
           "package": "Stomp",
@@ -1235,6 +1342,7 @@
         "index": {
           "description": "send message to the destination The header content-length is automatically set by this module",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "send",
           "normalized": "Connection-\u003eDestination-\u003e[Header]-\u003eByteString-\u003eIO()",
@@ -1250,6 +1358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend group of messages to the destination.\n | The header 'content-length' is automatically set by this module. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "send'",
           "package": "Stomp",
@@ -1260,6 +1369,7 @@
         "index": {
           "description": "send group of messages to the destination The header content-length is automatically set by this module",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "send'",
           "normalized": "Connection-\u003e[(Destination,[Header],ByteString)]-\u003eIO()",
@@ -1275,6 +1385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend heartbeat timeout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "sendTimeout",
           "package": "Stomp",
@@ -1285,6 +1396,7 @@
         "index": {
           "description": "send heartbeat timeout",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "sendTimeout",
           "normalized": "Connection-\u003eInt",
@@ -1301,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estomp server info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "server",
           "package": "Stomp",
@@ -1311,6 +1424,7 @@
         "index": {
           "description": "stomp server info",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "server",
           "normalized": "Connection-\u003eString",
@@ -1326,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esession identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "session",
           "package": "Stomp",
@@ -1336,6 +1451,7 @@
         "index": {
           "description": "session identifier",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "session",
           "normalized": "Connection-\u003eString",
@@ -1351,6 +1467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset exception handler callback to process the exception in the consumer/heartbeats threads \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "setExcpHandler",
           "package": "Stomp",
@@ -1361,6 +1478,7 @@
         "index": {
           "description": "set exception handler callback to process the exception in the consumer heartbeats threads",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "setExcpHandler",
           "normalized": "Connection-\u003e(StompException-\u003eIO())-\u003eIO()",
@@ -1377,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate consume frames thread\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "startConsumer",
           "package": "Stomp",
@@ -1387,6 +1506,7 @@
         "index": {
           "description": "create consume frames thread",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "startConsumer",
           "normalized": "Connection-\u003e(Frame-\u003eIO())-\u003eIO()",
@@ -1403,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efork receive heartbeat thread\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "startRecvBeat",
           "package": "Stomp",
@@ -1413,6 +1534,7 @@
         "index": {
           "description": "fork receive heartbeat thread",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "startRecvBeat",
           "normalized": "Connection-\u003eIO()",
@@ -1429,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efork send heartbeat thread\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "startSendBeat",
           "package": "Stomp",
@@ -1439,6 +1562,7 @@
         "index": {
           "description": "fork send heartbeat thread",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "startSendBeat",
           "normalized": "Connection-\u003eIO()",
@@ -1455,6 +1579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnect to the stomp 1.1 broker using uri\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "stomp",
           "package": "Stomp",
@@ -1465,6 +1590,7 @@
         "index": {
           "description": "connect to the stomp broker using uri",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "stomp",
           "normalized": "StompUri-\u003e[Header]-\u003eIO Connection",
@@ -1480,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnect to the stomp 1.1 broker using hostname and port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "stomp'",
           "package": "Stomp",
@@ -1490,6 +1617,7 @@
         "index": {
           "description": "connect to the stomp broker using hostname and port",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "stomp'",
           "normalized": "Host-\u003ePortNumber-\u003e[Header]-\u003eIO Connection",
@@ -1505,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubscribe to the destination to receive stomp frames\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "subscribe",
           "package": "Stomp",
@@ -1515,6 +1644,7 @@
         "index": {
           "description": "subscribe to the destination to receive stomp frames",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "subscribe",
           "normalized": "Connection-\u003eDestination-\u003eSubscription-\u003e[Header]-\u003eIO()",
@@ -1530,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunsubscribe from destination given the subscription id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "unsubscribe",
           "package": "Stomp",
@@ -1540,6 +1671,7 @@
         "index": {
           "description": "unsubscribe from destination given the subscription id",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "unsubscribe",
           "normalized": "Connection-\u003eSubscription-\u003e[Header]-\u003eIO()",
@@ -1555,6 +1687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaccepted stomp versions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:22 UTC 2014",
           "module": "Network.Stomp",
           "name": "versions",
           "package": "Stomp",
@@ -1565,6 +1698,7 @@
         "index": {
           "description": "accepted stomp versions",
           "hierarchy": "Network Stomp",
+          "indexed": "2014-03-11T17:01:22",
           "module": "Network.Stomp",
           "name": "versions",
           "normalized": "Connection-\u003e[Version]",

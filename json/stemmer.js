@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stemmer"
+        "phrase": "stemmer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell bindings for the Snowball stemming library.\n This module contains all the low-level functions and are more or less direct\n translations of the foreign function calls.  The \u003ccode\u003e\u003ca\u003estem\u003c/a\u003e\u003c/code\u003e function expects\n strings to use UTF-8 encoding.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:41 UTC 2014",
           "module": "NLP.Stemmer.C",
           "name": "C",
           "package": "stemmer",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Haskell bindings for the Snowball stemming library This module contains all the low-level functions and are more or less direct translations of the foreign function calls The stem function expects strings to use UTF-8 encoding",
           "hierarchy": "NLP Stemmer C",
+          "indexed": "2014-03-11T20:10:41",
           "module": "NLP.Stemmer.C",
           "name": "C",
           "package": "stemmer",
@@ -41,6 +43,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable algorithms.  For English, \u003ccode\u003e\u003ca\u003eEnglish\u003c/a\u003e\u003c/code\u003e is recommended over \u003ccode\u003e\u003ca\u003ePorter\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:41 UTC 2014",
           "module": "NLP.Stemmer.C",
           "name": "Stemmer",
           "package": "stemmer",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Available algorithms For English English is recommended over Porter",
           "hierarchy": "NLP Stemmer C",
+          "indexed": "2014-03-11T20:10:41",
           "module": "NLP.Stemmer.C",
           "name": "Stemmer",
           "package": "stemmer",
@@ -432,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStem a word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:41 UTC 2014",
           "module": "NLP.Stemmer.C",
           "name": "stem",
           "package": "stemmer",
@@ -442,6 +447,7 @@
         "index": {
           "description": "Stem word",
           "hierarchy": "NLP Stemmer C",
+          "indexed": "2014-03-11T20:10:41",
           "module": "NLP.Stemmer.C",
           "name": "stem",
           "normalized": "Stemmer-\u003eString-\u003eIO String",
@@ -457,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell bindings for the Snowball stemming library\n A \u003ccode\u003epure\u003c/code\u003e stemming interface. Strings should use UTF-8 encoding. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:41 UTC 2014",
           "module": "NLP.Stemmer",
           "name": "Stemmer",
           "package": "stemmer",
@@ -466,6 +473,7 @@
         "index": {
           "description": "Haskell bindings for the Snowball stemming library pure stemming interface Strings should use UTF-8 encoding",
           "hierarchy": "NLP Stemmer",
+          "indexed": "2014-03-11T20:10:41",
           "module": "NLP.Stemmer",
           "name": "Stemmer",
           "package": "stemmer",
@@ -480,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable algorithms.  For English, \u003ccode\u003e\u003ca\u003eEnglish\u003c/a\u003e\u003c/code\u003e is recommended over \u003ccode\u003e\u003ca\u003ePorter\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:41 UTC 2014",
           "module": "NLP.Stemmer",
           "name": "Stemmer",
           "package": "stemmer",
@@ -489,6 +498,7 @@
         "index": {
           "description": "Available algorithms For English English is recommended over Porter",
           "hierarchy": "NLP Stemmer",
+          "indexed": "2014-03-11T20:10:41",
           "module": "NLP.Stemmer",
           "name": "Stemmer",
           "package": "stemmer",
@@ -503,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStem a word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:41 UTC 2014",
           "module": "NLP.Stemmer",
           "name": "stem",
           "package": "stemmer",
@@ -513,6 +524,7 @@
         "index": {
           "description": "Stem word",
           "hierarchy": "NLP Stemmer",
+          "indexed": "2014-03-11T20:10:41",
           "module": "NLP.Stemmer",
           "name": "stem",
           "normalized": "Stemmer-\u003eString-\u003eString",

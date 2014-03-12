@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hslogger4j"
+        "phrase": "hslogger4j",
+        "type": "phrase"
       },
       "type": "context"
     }

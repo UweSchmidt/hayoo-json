@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "packed-dawg"
+        "phrase": "packed-dawg",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFully minimized and bit-packed directed acyclic word graphs. \n\u003c/p\u003e\u003cp\u003eThis implementation mainly focuses on compactness (\u003c500 Kb space for ~150000 word dictionaries) rather than genericity or dynamic usage. There are no insertion or deletion operations.\n\u003c/p\u003e\u003cp\u003eA DAWG node is stored in four bytes, using 22 bits for indexing and 8 bits for data storage. This implies that\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The number of nodes shouldn't exceed 2^22, or 4194304.\n\u003c/li\u003e\u003cli\u003e Input characters should be mapped to the 0-255 range.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "Packed",
           "package": "packed-dawg",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Fully minimized and bit-packed directed acyclic word graphs This implementation mainly focuses on compactness Kb space for word dictionaries rather than genericity or dynamic usage There are no insertion or deletion operations DAWG node is stored in four bytes using bits for indexing and bits for data storage This implies that The number of nodes shouldn exceed or Input characters should be mapped to the range",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "Packed",
           "package": "packed-dawg",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type points to a prefix in the DAWG. When a node is the root node\n it represents the whole DAWG. When it is non-root, it can be used to access the suffixes\n of the prefix pointed to by the node. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "Node",
           "package": "packed-dawg",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This data type points to prefix in the DAWG When node is the root node it represents the whole DAWG When it is non-root it can be used to access the suffixes of the prefix pointed to by the node",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "Node",
           "package": "packed-dawg",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe underlying container of the DAWG data. Modifying it will most likely result in an invalid DAWG.\n\u003c/p\u003e\u003cp\u003eEach \u003ca\u003eWord32\u003c/a\u003e represents a node. The format of a node is the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 22 bits: the index of the first child.\n\u003c/li\u003e\u003cli\u003e 8 bits: character data.\n\u003c/li\u003e\u003cli\u003e 1 bit: end-of-word flag.\n\u003c/li\u003e\u003cli\u003e 1 bit: end-of-childlist flag.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe children of a node are laid out next to each other, so they can be iterated over by starting from the first child\nand incrementing the index until a node with the end-of-childlist flag is found. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "NodeVector",
           "package": "packed-dawg",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The underlying container of the DAWG data Modifying it will most likely result in an invalid DAWG Each Word32 represents node The format of node is the following bits the index of the first child bits character data bit end-of-word flag bit end-of-childlist flag The children of node are laid out next to each other so they can be iterated over by starting from the first child and incrementing the index until node with the end-of-childlist flag is found",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "NodeVector",
           "package": "packed-dawg",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the character char of a node. The root nodes have the null character as char. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "char",
           "package": "packed-dawg",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Get the character char of node The root nodes have the null character as char",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "char",
           "normalized": "Node-\u003eChar",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the index of a node's first child node. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "childIndex",
           "package": "packed-dawg",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Get the index of node first child node",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "childIndex",
           "normalized": "Node-\u003eWord",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a list of the direct children of a node. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "children",
           "package": "packed-dawg",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Generate list of the direct children of node",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "children",
           "normalized": "Node-\u003e[Node]",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether a node is the last in a list of children nodes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "endOfList",
           "package": "packed-dawg",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Indicates whether node is the last in list of children nodes",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "endOfList",
           "normalized": "Node-\u003eBool",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether a prefix pointed to by the node is a valid word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "endOfWord",
           "package": "packed-dawg",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Indicates whether prefix pointed to by the node is valid word",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "endOfWord",
           "normalized": "Node-\u003eBool",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows for faster DAWG generation than \u003ca\u003efromList\u003c/a\u003e. The ordering assumption is unchecked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "fromAscList",
           "package": "packed-dawg",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Allows for faster DAWG generation than fromList The ordering assumption is unchecked",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "fromAscList",
           "normalized": "[String]-\u003eNode",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a DAWG previously serialized with \u003ca\u003etoFile\u003c/a\u003e from a file. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "fromFile",
           "package": "packed-dawg",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Read DAWG previously serialized with toFile from file",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "fromFile",
           "normalized": "FilePath-\u003eIO Node",
@@ -267,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "fromList",
           "package": "packed-dawg",
@@ -276,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "fromList",
           "normalized": "[String]-\u003eNode",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a node from some member of a \u003ca\u003eNodeVector\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "getNodeAt",
           "package": "packed-dawg",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Create node from some member of NodeVector",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "getNodeAt",
           "normalized": "NodeVector-\u003eWord-\u003eNode",
@@ -318,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003elookupPrefix = lookupPrefixBy (==)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "lookupPrefix",
           "package": "packed-dawg",
@@ -328,6 +353,7 @@
         "index": {
           "description": "lookupPrefix lookupPrefixBy",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "lookupPrefix",
           "normalized": "String-\u003eNode-\u003eMaybe Node",
@@ -344,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a prefix by memberwise applying a comparison function. It is useful for\n setting case sensitivity, e.g. \u003ccode\u003einsensitiveLookup = lookupPrefixBy (comparing toLower)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "lookupPrefixBy",
           "package": "packed-dawg",
@@ -354,6 +381,7 @@
         "index": {
           "description": "Lookup prefix by memberwise applying comparison function It is useful for setting case sensitivity e.g insensitiveLookup lookupPrefixBy comparing toLower",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "lookupPrefixBy",
           "normalized": "(Char-\u003eChar-\u003eOrdering)-\u003eString-\u003eNode-\u003eMaybe Node",
@@ -370,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003emember = memberBy (==)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "member",
           "package": "packed-dawg",
@@ -380,6 +409,7 @@
         "index": {
           "description": "member memberBy",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "member",
           "normalized": "String-\u003eNode-\u003eBool",
@@ -395,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest for membership with a memberwise comparison function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "memberBy",
           "package": "packed-dawg",
@@ -405,6 +436,7 @@
         "index": {
           "description": "Test for membership with memberwise comparison function",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "memberBy",
           "normalized": "(Char-\u003eChar-\u003eOrdering)-\u003eString-\u003eNode-\u003eBool",
@@ -421,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the underlying vector from a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "nodeVector",
           "package": "packed-dawg",
@@ -431,6 +464,7 @@
         "index": {
           "description": "Get the underlying vector from node",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "nodeVector",
           "normalized": "Node-\u003eNodeVector",
@@ -447,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a bit-packed Word32. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "pack",
           "package": "packed-dawg",
@@ -457,6 +492,7 @@
         "index": {
           "description": "Create bit-packed Word32",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "pack",
           "normalized": "Char-\u003eBool-\u003eBool-\u003eInt-\u003eWord",
@@ -472,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the root node from a node. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "root",
           "package": "packed-dawg",
@@ -482,6 +519,7 @@
         "index": {
           "description": "Get the root node from node",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "root",
           "normalized": "Node-\u003eNode",
@@ -497,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a DAWG. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "toFile",
           "package": "packed-dawg",
@@ -507,6 +546,7 @@
         "index": {
           "description": "Serialize DAWG",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "toFile",
           "normalized": "FilePath-\u003eNode-\u003eIO()",
@@ -523,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of all suffixes that end on a valid word ending. \n When used on the root node this function enlists the original words. The resulting list is unsorted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "toList",
           "package": "packed-dawg",
@@ -533,6 +574,7 @@
         "index": {
           "description": "Get the list of all suffixes that end on valid word ending When used on the root node this function enlists the original words The resulting list is unsorted",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "toList",
           "normalized": "Node-\u003e[String]",
@@ -549,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a node from a \u003ca\u003eWord32\u003c/a\u003e and a \u003ca\u003eNodeVector\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:26 UTC 2014",
           "module": "Data.DAWG.Packed",
           "name": "unpack",
           "package": "packed-dawg",
@@ -559,6 +602,7 @@
         "index": {
           "description": "Create node from Word32 and NodeVector",
           "hierarchy": "Data DAWG Packed",
+          "indexed": "2014-03-11T19:33:26",
           "module": "Data.DAWG.Packed",
           "name": "unpack",
           "normalized": "Word-\u003eNodeVector-\u003eNode",

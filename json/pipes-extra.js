@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pipes-extra"
+        "phrase": "pipes-extra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Binary",
           "name": "Binary",
           "package": "pipes-extra",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Binary",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Binary",
           "name": "Binary",
           "package": "pipes-extra",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield individual bytes of the chunked input stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Binary",
           "name": "bytes",
           "package": "pipes-extra",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Yield individual bytes of the chunked input stream",
           "hierarchy": "Control Pipe Binary",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Binary",
           "name": "bytes",
           "package": "pipes-extra",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop bytes as long as the given predicate holds, then act as an identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Binary",
           "name": "dropWhile",
           "package": "pipes-extra",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Drop bytes as long as the given predicate holds then act as an identity",
           "hierarchy": "Control Pipe Binary",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Binary",
           "name": "dropWhile",
           "normalized": "(Word-\u003eBool)-\u003ePipe ByteString ByteString a b",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead data from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Binary",
           "name": "fileReader",
           "package": "pipes-extra",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Read data from file",
           "hierarchy": "Control Pipe Binary",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Binary",
           "name": "fileReader",
           "normalized": "FilePath-\u003ePipe()ByteString a()",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite data to a file.\n\u003c/p\u003e\u003cp\u003eThe file is only opened if some data arrives into the pipe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Binary",
           "name": "fileWriter",
           "package": "pipes-extra",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Write data to file The file is only opened if some data arrives into the pipe",
           "hierarchy": "Control Pipe Binary",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Binary",
           "name": "fileWriter",
           "normalized": "FilePath-\u003ePipe ByteString Void a b",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead data from an open handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Binary",
           "name": "handleReader",
           "package": "pipes-extra",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Read data from an open handle",
           "hierarchy": "Control Pipe Binary",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Binary",
           "name": "handleReader",
           "normalized": "Handle-\u003ePipe()ByteString a()",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite data to a handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Binary",
           "name": "handleWriter",
           "package": "pipes-extra",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Write data to handle",
           "hierarchy": "Control Pipe Binary",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Binary",
           "name": "handleWriter",
           "normalized": "Handle-\u003ePipe ByteString Void a b",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit the chunked input stream into lines, and yield them individually.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Binary",
           "name": "lines",
           "package": "pipes-extra",
@@ -203,6 +218,7 @@
         "index": {
           "description": "Split the chunked input stream into lines and yield them individually",
           "hierarchy": "Control Pipe Binary",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Binary",
           "name": "lines",
           "package": "pipes-extra",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAct as an identity for the first \u003ccode\u003en\u003c/code\u003e bytes, then terminate returning the\n unconsumed portion of the last chunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Binary",
           "name": "take",
           "package": "pipes-extra",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Act as an identity for the first bytes then terminate returning the unconsumed portion of the last chunk",
           "hierarchy": "Control Pipe Binary",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Binary",
           "name": "take",
           "normalized": "Int-\u003ePipe ByteString ByteString a ByteString",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAct as an identity as long as the given predicate holds, then terminate\n returning the unconsumed portion of the last chunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Binary",
           "name": "takeWhile",
           "package": "pipes-extra",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Act as an identity as long as the given predicate holds then terminate returning the unconsumed portion of the last chunk",
           "hierarchy": "Control Pipe Binary",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Binary",
           "name": "takeWhile",
           "normalized": "(Word-\u003eBool)-\u003ePipe ByteString ByteString a ByteString",
@@ -266,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Coroutine",
           "name": "Coroutine",
           "package": "pipes-extra",
@@ -274,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Coroutine",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Coroutine",
           "name": "Coroutine",
           "package": "pipes-extra",
@@ -287,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Coroutine",
           "name": "Coroutine",
           "package": "pipes-extra",
@@ -295,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Coroutine",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Coroutine",
           "name": "Coroutine",
           "package": "pipes-extra",
@@ -308,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Coroutine",
           "name": "coroutine",
           "package": "pipes-extra",
@@ -317,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Coroutine",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Coroutine",
           "name": "coroutine",
           "normalized": "Pipe a b c d-\u003eCoroutine a b c d",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Coroutine",
           "name": "resume",
           "package": "pipes-extra",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Coroutine",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Coroutine",
           "name": "resume",
           "normalized": "Coroutine a b c d-\u003ePipe a b c d",
@@ -354,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Coroutine",
           "name": "step",
           "package": "pipes-extra",
@@ -363,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Coroutine",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Coroutine",
           "name": "step",
           "normalized": "Coroutine a b c d-\u003ePipe a e c(Either d(b,Coroutine a b c d))",
@@ -377,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Coroutine",
           "name": "suspend",
           "package": "pipes-extra",
@@ -386,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Coroutine",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Coroutine",
           "name": "suspend",
           "normalized": "Pipe a b c d-\u003ePipe a e c(Either d(b,Coroutine a b c d))",
@@ -400,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Coroutine",
           "name": "terminate",
           "package": "pipes-extra",
@@ -409,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Coroutine",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Coroutine",
           "name": "terminate",
           "normalized": "Coroutine a b c d-\u003ePipe a b c()",
@@ -424,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains an alternative pipe implementation, \u003ccode\u003e\u003ca\u003ePutbackPipe\u003c/a\u003e\u003c/code\u003e,\n providing an additional primitive \u003ccode\u003e\u003ca\u003eputback\u003c/a\u003e\u003c/code\u003e, which allows data to be\n inserted into the input stream of the current pipe.\n\u003c/p\u003e\u003cp\u003ePutbackPipes can be used to implement pipes with left-over data, and can be\n composed vertically (using the Monad instance), but not horizontally.\n\u003c/p\u003e\u003cp\u003eTo make use of a PutbackPipe within a \u003ccode\u003ePipeline\u003c/code\u003e, you need to convert it to\n a regular \u003ccode\u003e\u003ca\u003ePipe\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003erunPutback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.PutbackPipe",
           "name": "PutbackPipe",
           "package": "pipes-extra",
@@ -433,6 +468,7 @@
         "index": {
           "description": "This module contains an alternative pipe implementation PutbackPipe providing an additional primitive putback which allows data to be inserted into the input stream of the current pipe PutbackPipes can be used to implement pipes with left-over data and can be composed vertically using the Monad instance but not horizontally To make use of PutbackPipe within Pipeline you need to convert it to regular Pipe using runPutback",
           "hierarchy": "Control Pipe PutbackPipe",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.PutbackPipe",
           "name": "PutbackPipe",
           "package": "pipes-extra",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ePutbackPipe\u003c/a\u003e\u003c/code\u003e data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.PutbackPipe",
           "name": "PutbackPipe",
           "package": "pipes-extra",
@@ -456,6 +493,7 @@
         "index": {
           "description": "The PutbackPipe data type",
           "hierarchy": "Control Pipe PutbackPipe",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.PutbackPipe",
           "name": "PutbackPipe",
           "package": "pipes-extra",
@@ -469,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.PutbackPipe",
           "name": "PutbackPipe",
           "package": "pipes-extra",
@@ -478,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe PutbackPipe",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.PutbackPipe",
           "name": "PutbackPipe",
           "package": "pipes-extra",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eawait\u003c/a\u003e\u003c/code\u003e for regular pipes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.PutbackPipe",
           "name": "await",
           "package": "pipes-extra",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Same as await for regular pipes",
           "hierarchy": "Control Pipe PutbackPipe",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.PutbackPipe",
           "name": "await",
           "package": "pipes-extra",
@@ -515,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003ePutbackPipe\u003c/a\u003e\u003c/code\u003e from a regular pipe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.PutbackPipe",
           "name": "fromPipe",
           "package": "pipes-extra",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Create PutbackPipe from regular pipe",
           "hierarchy": "Control Pipe PutbackPipe",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.PutbackPipe",
           "name": "fromPipe",
           "normalized": "Pipe a b c d-\u003ePutbackPipe a b c d",
@@ -541,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut back an element into the input stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.PutbackPipe",
           "name": "putback",
           "package": "pipes-extra",
@@ -551,6 +596,7 @@
         "index": {
           "description": "Put back an element into the input stream",
           "hierarchy": "Control Pipe PutbackPipe",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.PutbackPipe",
           "name": "putback",
           "normalized": "a-\u003ePutbackPipe a b c()",
@@ -566,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003ePutbackPipe\u003c/a\u003e\u003c/code\u003e to a regular pipe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.PutbackPipe",
           "name": "runPutback",
           "package": "pipes-extra",
@@ -576,6 +623,7 @@
         "index": {
           "description": "Convert PutbackPipe to regular pipe",
           "hierarchy": "Control Pipe PutbackPipe",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.PutbackPipe",
           "name": "runPutback",
           "normalized": "PutbackPipe a b c d-\u003ePipe a b c d",
@@ -592,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003etryAwait\u003c/a\u003e\u003c/code\u003e for regular pipes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.PutbackPipe",
           "name": "tryAwait",
           "package": "pipes-extra",
@@ -602,6 +651,7 @@
         "index": {
           "description": "Same as tryAwait for regular pipes",
           "hierarchy": "Control Pipe PutbackPipe",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.PutbackPipe",
           "name": "tryAwait",
           "package": "pipes-extra",
@@ -615,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.PutbackPipe",
           "name": "unPutback",
           "package": "pipes-extra",
@@ -624,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe PutbackPipe",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.PutbackPipe",
           "name": "unPutback",
           "package": "pipes-extra",
@@ -638,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eyield\u003c/a\u003e\u003c/code\u003e for regular pipes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.PutbackPipe",
           "name": "yield",
           "package": "pipes-extra",
@@ -648,6 +701,7 @@
         "index": {
           "description": "Same as yield for regular pipes",
           "hierarchy": "Control Pipe PutbackPipe",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.PutbackPipe",
           "name": "yield",
           "normalized": "a-\u003ePutbackPipe b a c()",
@@ -663,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etee\u003c/a\u003e\u003c/code\u003e combinators act like \u003ccode\u003e\u003ca\u003eidP\u003c/a\u003e\u003c/code\u003e, but also send a copy of the input to the\n supplied \u003ccode\u003e\u003ca\u003eConsumer\u003c/a\u003e\u003c/code\u003e (e.g. a file). This is typically done for the purpose of\n logging a pipeline, showing progress, etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Tee",
           "name": "Tee",
           "package": "pipes-extra",
@@ -672,6 +727,7 @@
         "index": {
           "description": "The tee combinators act like idP but also send copy of the input to the supplied Consumer e.g file This is typically done for the purpose of logging pipeline showing progress etc",
           "hierarchy": "Control Pipe Tee",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Tee",
           "name": "Tee",
           "package": "pipes-extra",
@@ -686,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActs like \u003ccode\u003e\u003ca\u003eidP\u003c/a\u003e\u003c/code\u003e, but also passes a copy to the supplied consumer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Tee",
           "name": "tee",
           "package": "pipes-extra",
@@ -695,6 +752,7 @@
         "index": {
           "description": "Acts like idP but also passes copy to the supplied consumer",
           "hierarchy": "Control Pipe Tee",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Tee",
           "name": "tee",
           "normalized": "Pipe a Void b c-\u003ePipe a a b c",
@@ -710,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActs like \u003ccode\u003e\u003ca\u003eidP\u003c/a\u003e\u003c/code\u003e, but also writes a copy to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Tee",
           "name": "teeFile",
           "package": "pipes-extra",
@@ -719,6 +778,7 @@
         "index": {
           "description": "Acts like idP but also writes copy to file",
           "hierarchy": "Control Pipe Tee",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Tee",
           "name": "teeFile",
           "normalized": "(a-\u003eByteString)-\u003eFilePath-\u003ePipe a a b()",
@@ -735,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActs like, \u003ccode\u003e\u003ca\u003eidP\u003c/a\u003e\u003c/code\u003e, but also writes a copy to the specified log file.\n\u003c/p\u003e\u003cp\u003eThis function is equivalent to \u003ccode\u003eteeFile id\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Tee",
           "name": "teeFileBS",
           "package": "pipes-extra",
@@ -744,6 +805,7 @@
         "index": {
           "description": "Acts like idP but also writes copy to the specified log file This function is equivalent to teeFile id",
           "hierarchy": "Control Pipe Tee",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Tee",
           "name": "teeFileBS",
           "normalized": "FilePath-\u003ePipe ByteString ByteString a()",
@@ -759,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Zip",
           "name": "Zip",
           "package": "pipes-extra",
@@ -767,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Zip",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Zip",
           "name": "Zip",
           "package": "pipes-extra",
@@ -780,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Zip",
           "name": "ProducerControl",
           "package": "pipes-extra",
@@ -788,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Zip",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Zip",
           "name": "ProducerControl",
           "package": "pipes-extra",
@@ -801,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Zip",
           "name": "ZipControl",
           "package": "pipes-extra",
@@ -809,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Zip",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Zip",
           "name": "ZipControl",
           "package": "pipes-extra",
@@ -822,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Zip",
           "name": "Done",
           "package": "pipes-extra",
@@ -831,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Zip",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Zip",
           "name": "Done",
           "package": "pipes-extra",
@@ -844,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Zip",
           "name": "Error",
           "package": "pipes-extra",
@@ -853,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Zip",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Zip",
           "name": "Error",
           "package": "pipes-extra",
@@ -866,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Zip",
           "name": "LeftZ",
           "package": "pipes-extra",
@@ -875,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Zip",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Zip",
           "name": "LeftZ",
           "package": "pipes-extra",
@@ -888,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Zip",
           "name": "RightZ",
           "package": "pipes-extra",
@@ -897,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Zip",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Zip",
           "name": "RightZ",
           "package": "pipes-extra",
@@ -910,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Zip",
           "name": "controllable",
           "package": "pipes-extra",
@@ -919,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Zip",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Zip",
           "name": "controllable",
           "normalized": "Producer a b c-\u003ePipe(Either()(ProducerControl c))a b c",
@@ -933,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Zip",
           "name": "controllable_",
           "package": "pipes-extra",
@@ -942,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Zip",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Zip",
           "name": "controllable_",
           "normalized": "Producer a b c-\u003eProducer a b c",
@@ -956,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Zip",
           "name": "zip",
           "package": "pipes-extra",
@@ -965,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Zip",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Zip",
           "name": "zip",
           "normalized": "Producer a b c-\u003eProducer d b c-\u003ePipe(Either()(ZipControl c))(Either a d)b c",
@@ -979,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:14 UTC 2014",
           "module": "Control.Pipe.Zip",
           "name": "zip_",
           "package": "pipes-extra",
@@ -988,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Control Pipe Zip",
+          "indexed": "2014-03-11T19:39:14",
           "module": "Control.Pipe.Zip",
           "name": "zip_",
           "normalized": "Producer a b c-\u003eProducer d b c-\u003eProducer(Either a d)b c",

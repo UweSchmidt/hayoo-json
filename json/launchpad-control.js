@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "launchpad-control"
+        "phrase": "launchpad-control",
+        "type": "phrase"
       },
       "type": "context"
     }

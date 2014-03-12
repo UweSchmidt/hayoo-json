@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs2bf"
+        "phrase": "hs2bf",
+        "type": "phrase"
       },
       "type": "context"
     }

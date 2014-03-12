@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gameclock"
+        "phrase": "gameclock",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pwstore-cli"
+        "phrase": "pwstore-cli",
+        "type": "phrase"
       },
       "type": "context"
     }

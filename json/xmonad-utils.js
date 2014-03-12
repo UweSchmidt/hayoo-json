@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xmonad-utils"
+        "phrase": "xmonad-utils",
+        "type": "phrase"
       },
       "type": "context"
     }

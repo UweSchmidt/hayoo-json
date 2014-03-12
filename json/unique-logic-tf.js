@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unique-logic-tf"
+        "phrase": "unique-logic-tf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eWarning: This module is intended for documentation purposes. Do not import it!\n\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Expression",
           "name": "Expression",
           "package": "unique-logic-tf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Warning This module is intended for documentation purposes Do not import it",
           "hierarchy": "UniqueLogic ST TF Example Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Expression",
           "name": "Expression",
           "package": "unique-logic-tf",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Expression",
           "name": "example",
           "package": "unique-logic-tf",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Expression",
           "name": "example",
           "normalized": "(Maybe Double,Maybe Double)",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eWarning: This module is intended for documentation purposes. Do not import it!\n\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "Label",
           "package": "unique-logic-tf",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Warning This module is intended for documentation purposes Do not import it",
           "hierarchy": "UniqueLogic ST TF Example Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "Label",
           "package": "unique-logic-tf",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "Assign",
           "package": "unique-logic-tf",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "Assign",
           "package": "unique-logic-tf",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "Assigns",
           "package": "unique-logic-tf",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "Assigns",
           "package": "unique-logic-tf",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "Variable",
           "package": "unique-logic-tf",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "Variable",
           "package": "unique-logic-tf",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "Assign",
           "package": "unique-logic-tf",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "Assign",
           "package": "unique-logic-tf",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "constant",
           "package": "unique-logic-tf",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "constant",
           "normalized": "Rational-\u003eT Assigns a(Variable a)",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "expression",
           "package": "unique-logic-tf",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "expression",
           "normalized": "((Maybe T,Maybe T),Assigns)",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "globalVariable",
           "package": "unique-logic-tf",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "globalVariable",
           "normalized": "Name-\u003eST a(Variable a)",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e x=1\n y=2\n z=3\n\u003c/pre\u003e\u003cpre\u003e x+y=3\n y*z=6\n z=3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "rule",
           "package": "unique-logic-tf",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Label",
           "name": "rule",
           "normalized": "((Maybe T,Maybe T,Maybe T),Assigns)",
@@ -267,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eWarning: This module is intended for documentation purposes. Do not import it!\n\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Rule",
           "name": "Rule",
           "package": "unique-logic-tf",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Warning This module is intended for documentation purposes Do not import it",
           "hierarchy": "UniqueLogic ST TF Example Rule",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Rule",
           "name": "Rule",
           "package": "unique-logic-tf",
@@ -290,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e x=1\n y=2\n z=3\n w=3\n\u003c/pre\u003e\u003cpre\u003e x+y=3\n y*z=6\n z=3\n y^w=8\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Rule",
           "name": "example",
           "package": "unique-logic-tf",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Rule",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Rule",
           "name": "example",
           "normalized": "(Maybe Double,Maybe Double,Maybe Double,Maybe Double)",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is intended for documentation purposes. Do not import it!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Term",
           "package": "unique-logic-tf",
@@ -323,6 +350,7 @@
         "index": {
           "description": "This module is intended for documentation purposes Do not import it",
           "hierarchy": "UniqueLogic ST TF Example Term",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Term",
           "package": "unique-logic-tf",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Name",
           "package": "unique-logic-tf",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Term",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Name",
           "package": "unique-logic-tf",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "T",
           "package": "unique-logic-tf",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Term",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "T",
           "package": "unique-logic-tf",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Abs",
           "package": "unique-logic-tf",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Term",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Abs",
           "package": "unique-logic-tf",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Add",
           "package": "unique-logic-tf",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Term",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Add",
           "package": "unique-logic-tf",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Const",
           "package": "unique-logic-tf",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Term",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Const",
           "package": "unique-logic-tf",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Div",
           "package": "unique-logic-tf",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Term",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Div",
           "package": "unique-logic-tf",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Max",
           "package": "unique-logic-tf",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Term",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Max",
           "package": "unique-logic-tf",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Mul",
           "package": "unique-logic-tf",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Term",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Mul",
           "package": "unique-logic-tf",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Signum",
           "package": "unique-logic-tf",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Term",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Signum",
           "package": "unique-logic-tf",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Sub",
           "package": "unique-logic-tf",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Term",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Sub",
           "package": "unique-logic-tf",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Var",
           "package": "unique-logic-tf",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Term",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Term",
           "name": "Var",
           "package": "unique-logic-tf",
@@ -576,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eWarning: This module is intended for documentation purposes. Do not import it!\n\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Verify",
           "package": "unique-logic-tf",
@@ -585,6 +636,7 @@
         "index": {
           "description": "Warning This module is intended for documentation purposes Do not import it",
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Verify",
           "package": "unique-logic-tf",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Assign",
           "package": "unique-logic-tf",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Assign",
           "package": "unique-logic-tf",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Assigns",
           "package": "unique-logic-tf",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Assigns",
           "package": "unique-logic-tf",
@@ -640,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Exception",
           "package": "unique-logic-tf",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Exception",
           "package": "unique-logic-tf",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "ToTrackedNumber",
           "package": "unique-logic-tf",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "ToTrackedNumber",
           "package": "unique-logic-tf",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Track",
           "package": "unique-logic-tf",
@@ -690,6 +751,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Track",
           "package": "unique-logic-tf",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "TrackedNumber",
           "package": "unique-logic-tf",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "TrackedNumber",
           "package": "unique-logic-tf",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Variable",
           "package": "unique-logic-tf",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Variable",
           "package": "unique-logic-tf",
@@ -745,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Assign",
           "package": "unique-logic-tf",
@@ -754,6 +821,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Assign",
           "package": "unique-logic-tf",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Exception",
           "package": "unique-logic-tf",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Exception",
           "package": "unique-logic-tf",
@@ -789,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Track",
           "package": "unique-logic-tf",
@@ -798,6 +869,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "Track",
           "package": "unique-logic-tf",
@@ -811,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "TrackedNumber",
           "package": "unique-logic-tf",
@@ -820,6 +893,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "TrackedNumber",
           "package": "unique-logic-tf",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "example",
           "package": "unique-logic-tf",
@@ -842,6 +917,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "example",
           "normalized": "(Exceptional Exception(Maybe(TrackedNumber Rational),Maybe(TrackedNumber Rational)),Assigns)",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "globalVariable",
           "package": "unique-logic-tf",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "globalVariable",
           "normalized": "Name-\u003eST a(Variable a)",
@@ -880,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "inconsistency",
           "package": "unique-logic-tf",
@@ -889,6 +968,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "inconsistency",
           "normalized": "Maybe Name-\u003eTrackedNumber Rational-\u003eTrackedNumber Rational-\u003eWrap Track a()",
@@ -903,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "logUpdate",
           "package": "unique-logic-tf",
@@ -912,6 +993,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "logUpdate",
           "normalized": "Name-\u003eMaybeT(ST a)(TrackedNumber b)-\u003eMaybeT(Wrap Track(ST a))(TrackedNumber b)",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "match",
           "package": "unique-logic-tf",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "match",
           "normalized": "TrackedNumber a-\u003eTrackedNumber a-\u003eBool",
@@ -950,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "runTrack",
           "package": "unique-logic-tf",
@@ -959,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "runTrack",
           "package": "unique-logic-tf",
@@ -972,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "tn1",
           "package": "unique-logic-tf",
@@ -981,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "tn1",
           "normalized": "(T-\u003eT)-\u003e(a-\u003eb)-\u003eTrackedNumber a-\u003eTrackedNumber b",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "tn2",
           "package": "unique-logic-tf",
@@ -1004,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "tn2",
           "normalized": "(T-\u003eT-\u003eT)-\u003e(a-\u003eb-\u003ec)-\u003eTrackedNumber a-\u003eTrackedNumber b-\u003eTrackedNumber c",
@@ -1018,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "toTrackedNumber",
           "package": "unique-logic-tf",
@@ -1027,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Example Verify",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Example.Verify",
           "name": "toTrackedNumber",
           "normalized": "a-\u003eTrackedNumber Rational",
@@ -1042,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "Expression",
           "package": "unique-logic-tf",
@@ -1050,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "Expression",
           "package": "unique-logic-tf",
@@ -1063,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "Apply",
           "package": "unique-logic-tf",
@@ -1071,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "Apply",
           "package": "unique-logic-tf",
@@ -1085,6 +1181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression is defined by a set of equations\nand the variable at the top-level.\nThe value of the expression equals the value of the top variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "T",
           "package": "unique-logic-tf",
@@ -1094,6 +1191,7 @@
         "index": {
           "description": "An expression is defined by set of equations and the variable at the top-level The value of the expression equals the value of the top variable",
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "T",
           "package": "unique-logic-tf",
@@ -1106,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "(=!=)",
           "package": "unique-logic-tf",
@@ -1115,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "(=!=) =!=",
           "normalized": "T a b c-\u003eT a b c-\u003eT a b c",
@@ -1129,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "(=:=)",
           "package": "unique-logic-tf",
@@ -1138,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "(=:=) =:=",
           "normalized": "T a b c-\u003eT a b c-\u003eT a b()",
@@ -1153,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function allows to generalize \u003ccode\u003e\u003ca\u003efromRule2\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efromRule3\u003c/a\u003e\u003c/code\u003e to more arguments\nusing \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e combinators.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e fromRule3 rule x y\n    = runApply $ liftA2 rule (arg x) (arg y)\n    = runApply $ pure rule \u003c*\u003e arg x \u003c*\u003e arg y\n\u003c/pre\u003e\u003cp\u003eBuilding rules with \u003ccode\u003e\u003ca\u003earg\u003c/a\u003e\u003c/code\u003e provides more granularity\nthan using auxiliary \u003ccode\u003e\u003ca\u003epair\u003c/a\u003e\u003c/code\u003e rules!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "arg",
           "package": "unique-logic-tf",
@@ -1163,6 +1266,7 @@
         "index": {
           "description": "This function allows to generalize fromRule2 and fromRule3 to more arguments using Applicative combinators Example fromRule3 rule runApply liftA2 rule arg arg runApply pure rule arg arg Building rules with arg provides more granularity than using auxiliary pair rules",
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "arg",
           "normalized": "T a b c-\u003eApply a b(Variable a b c)",
@@ -1178,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a constant expression of a simple numeric value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "constant",
           "package": "unique-logic-tf",
@@ -1188,6 +1293,7 @@
         "index": {
           "description": "Make constant expression of simple numeric value",
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "constant",
           "normalized": "a-\u003eT b c a",
@@ -1202,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "fromRule1",
           "package": "unique-logic-tf",
@@ -1211,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "fromRule1",
           "normalized": "(Variable a b c-\u003eT a b())-\u003eT a b c",
@@ -1226,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "fromRule2",
           "package": "unique-logic-tf",
@@ -1235,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "fromRule2",
           "normalized": "(Variable a b c-\u003eVariable a b d-\u003eT a b())-\u003eT a b c-\u003eT a b d",
@@ -1250,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "fromRule3",
           "package": "unique-logic-tf",
@@ -1259,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "fromRule3",
           "normalized": "(Variable a b c-\u003eVariable a b d-\u003eVariable a b e-\u003eT a b())-\u003eT a b c-\u003eT a b d-\u003eT a b e",
@@ -1274,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "fromVariable",
           "package": "unique-logic-tf",
@@ -1283,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "fromVariable",
           "normalized": "Variable a b c-\u003eT a b c",
@@ -1299,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe are not able to implement a full Ord instance\nincluding Eq superclass and comparisons,\nbut we need to compute maxima.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "max",
           "package": "unique-logic-tf",
@@ -1309,6 +1424,7 @@
         "index": {
           "description": "We are not able to implement full Ord instance including Eq superclass and comparisons but we need to compute maxima",
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "max",
           "normalized": "T a b c-\u003eT a b c-\u003eT a b c",
@@ -1323,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "maximum",
           "package": "unique-logic-tf",
@@ -1332,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "maximum",
           "normalized": "[T a b c]-\u003eT a b c",
@@ -1347,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct or decompose a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "pair",
           "package": "unique-logic-tf",
@@ -1357,6 +1476,7 @@
         "index": {
           "description": "Construct or decompose pair",
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "pair",
           "normalized": "T a b c-\u003eT a b d-\u003eT a b(c,d)",
@@ -1371,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "runApply",
           "package": "unique-logic-tf",
@@ -1380,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "runApply",
           "normalized": "Apply a b(Variable a b c-\u003eT a b())-\u003eT a b c",
@@ -1395,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "sqr",
           "package": "unique-logic-tf",
@@ -1404,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "sqr",
           "normalized": "T a b c-\u003eT a b c",
@@ -1418,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "sqrt",
           "package": "unique-logic-tf",
@@ -1427,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Expression",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Expression",
           "name": "sqrt",
           "normalized": "T a b c-\u003eT a b c",
@@ -1441,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "MonadTrans",
           "package": "unique-logic-tf",
@@ -1449,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF MonadTrans",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "MonadTrans",
           "package": "unique-logic-tf",
@@ -1463,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide the methods that make a transformed monad a monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "C",
           "package": "unique-logic-tf",
@@ -1472,6 +1601,7 @@
         "index": {
           "description": "Provide the methods that make transformed monad monad",
           "hierarchy": "UniqueLogic ST TF MonadTrans",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "C",
           "package": "unique-logic-tf",
@@ -1485,6 +1615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a regular monad for generic monad transformer and monad.\nThe \u003ccode\u003e\u003ca\u003eConst\u003c/a\u003e\u003c/code\u003e type allows us to force the kind (m :: * -\u003e *)\nwithout using ExplicitKindSignatures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "Wrap",
           "package": "unique-logic-tf",
@@ -1494,6 +1625,7 @@
         "index": {
           "description": "Build regular monad for generic monad transformer and monad The Const type allows us to force the kind without using ExplicitKindSignatures",
           "hierarchy": "UniqueLogic ST TF MonadTrans",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "Wrap",
           "package": "unique-logic-tf",
@@ -1507,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "Wrap",
           "package": "unique-logic-tf",
@@ -1516,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF MonadTrans",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "Wrap",
           "package": "unique-logic-tf",
@@ -1529,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "bind",
           "package": "unique-logic-tf",
@@ -1538,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF MonadTrans",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "bind",
           "normalized": "a b c-\u003e(c-\u003ea b d)-\u003ea b d",
@@ -1552,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "lift",
           "package": "unique-logic-tf",
@@ -1561,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF MonadTrans",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "lift",
           "normalized": "a b-\u003eWrap c a b",
@@ -1575,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "point",
           "package": "unique-logic-tf",
@@ -1584,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF MonadTrans",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "point",
           "normalized": "a-\u003eb c a",
@@ -1598,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "unwrap",
           "package": "unique-logic-tf",
@@ -1607,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF MonadTrans",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "unwrap",
           "normalized": "Wrap a b c-\u003ea b c",
@@ -1621,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "wrap",
           "package": "unique-logic-tf",
@@ -1630,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF MonadTrans",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.MonadTrans",
           "name": "wrap",
           "normalized": "a b c-\u003eWrap a b c",
@@ -1644,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "Rule",
           "package": "unique-logic-tf",
@@ -1652,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Rule",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "Rule",
           "package": "unique-logic-tf",
@@ -1666,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eadd x y z\u003c/code\u003e means \u003ccode\u003ex+y=z\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "add",
           "package": "unique-logic-tf",
@@ -1676,6 +1823,7 @@
         "index": {
           "description": "add means",
           "hierarchy": "UniqueLogic ST TF Rule",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "add",
           "normalized": "Variable a b c-\u003eVariable a b c-\u003eVariable a b c-\u003eT a b()",
@@ -1690,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "equ",
           "package": "unique-logic-tf",
@@ -1699,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Rule",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "equ",
           "normalized": "Variable a b c-\u003eVariable a b c-\u003eT a b()",
@@ -1713,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "generic2",
           "package": "unique-logic-tf",
@@ -1722,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Rule",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "generic2",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eVariable c d b-\u003eVariable c d a-\u003eT c d()",
@@ -1736,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "generic3",
           "package": "unique-logic-tf",
@@ -1745,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF Rule",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "generic3",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(b-\u003ec-\u003ea)-\u003e(c-\u003ea-\u003eb)-\u003eVariable d e c-\u003eVariable d e a-\u003eVariable d e b-\u003eT d e()",
@@ -1760,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emax x y z\u003c/code\u003e means \u003ccode\u003emax x y = z\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "max",
           "package": "unique-logic-tf",
@@ -1770,6 +1925,7 @@
         "index": {
           "description": "max means max",
           "hierarchy": "UniqueLogic ST TF Rule",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "max",
           "normalized": "Variable a b c-\u003eVariable a b c-\u003eVariable a b c-\u003eT a b()",
@@ -1785,6 +1941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emul x y z\u003c/code\u003e means \u003ccode\u003ex*y=z\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "mul",
           "package": "unique-logic-tf",
@@ -1795,6 +1952,7 @@
         "index": {
           "description": "mul means",
           "hierarchy": "UniqueLogic ST TF Rule",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "mul",
           "normalized": "Variable a b c-\u003eVariable a b c-\u003eVariable a b c-\u003eT a b()",
@@ -1810,6 +1968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou might be tempted to use the \u003ccode\u003e\u003ca\u003epair\u003c/a\u003e\u003c/code\u003e rule to collect parameters\nfor rules with more than three arguments.\nThis is generally not a good idea since this way you lose granularity.\nFor building rules with more than three arguments,\nplease build according assignments with \u003ccode\u003e\u003ca\u003earg\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erunApply\u003c/a\u003e\u003c/code\u003e\nand bundle these assignments to rules.\nThis is the way, \u003ccode\u003e\u003ca\u003egeneric2\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egeneric3\u003c/a\u003e\u003c/code\u003e work.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "pair",
           "package": "unique-logic-tf",
@@ -1820,6 +1979,7 @@
         "index": {
           "description": "You might be tempted to use the pair rule to collect parameters for rules with more than three arguments This is generally not good idea since this way you lose granularity For building rules with more than three arguments please build according assignments with arg and runApply and bundle these assignments to rules This is the way generic2 and generic3 work",
           "hierarchy": "UniqueLogic ST TF Rule",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "pair",
           "normalized": "Variable a b c-\u003eVariable a b d-\u003eVariable a b(c,d)-\u003eT a b()",
@@ -1835,6 +1995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epow x y z\u003c/code\u003e means \u003ccode\u003ex**y=z\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "pow",
           "package": "unique-logic-tf",
@@ -1845,6 +2006,7 @@
         "index": {
           "description": "pow means",
           "hierarchy": "UniqueLogic ST TF Rule",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "pow",
           "normalized": "Variable a b c-\u003eVariable a b c-\u003eVariable a b c-\u003eT a b()",
@@ -1860,6 +2022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esquare x y\u003c/code\u003e means \u003ccode\u003ex^2=y\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "square",
           "package": "unique-logic-tf",
@@ -1870,6 +2033,7 @@
         "index": {
           "description": "square means",
           "hierarchy": "UniqueLogic ST TF Rule",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.Rule",
           "name": "square",
           "normalized": "Variable a b c-\u003eVariable a b c-\u003eT a b()",
@@ -1884,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Label",
           "name": "Label",
           "package": "unique-logic-tf",
@@ -1892,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Label",
           "name": "Label",
           "package": "unique-logic-tf",
@@ -1905,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Label",
           "name": "Apply",
           "package": "unique-logic-tf",
@@ -1913,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Label",
           "name": "Apply",
           "package": "unique-logic-tf",
@@ -1926,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Label",
           "name": "T",
           "package": "unique-logic-tf",
@@ -1934,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Label",
           "name": "T",
           "package": "unique-logic-tf",
@@ -1946,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Label",
           "name": "Variable",
           "package": "unique-logic-tf",
@@ -1954,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Label",
           "name": "Variable",
           "package": "unique-logic-tf",
@@ -2065,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Label",
           "name": "globalVariable",
           "package": "unique-logic-tf",
@@ -2074,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Label",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Label",
           "name": "globalVariable",
           "normalized": "(a-\u003eWriter b a)-\u003eST c(Variable b c a)",
@@ -2185,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "Simple",
           "package": "unique-logic-tf",
@@ -2193,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Simple",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "Simple",
           "package": "unique-logic-tf",
@@ -2206,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "Apply",
           "package": "unique-logic-tf",
@@ -2214,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Simple",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "Apply",
           "package": "unique-logic-tf",
@@ -2227,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "T",
           "package": "unique-logic-tf",
@@ -2235,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Simple",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "T",
           "package": "unique-logic-tf",
@@ -2247,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "Variable",
           "package": "unique-logic-tf",
@@ -2255,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Simple",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "Variable",
           "package": "unique-logic-tf",
@@ -2268,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "constant",
           "package": "unique-logic-tf",
@@ -2277,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Simple",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "constant",
           "normalized": "a-\u003eT b(Variable b a)",
@@ -2291,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "globalVariable",
           "package": "unique-logic-tf",
@@ -2300,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Simple",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "globalVariable",
           "package": "unique-logic-tf",
@@ -2313,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "localVariable",
           "package": "unique-logic-tf",
@@ -2322,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Simple",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "localVariable",
           "package": "unique-logic-tf",
@@ -2335,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "query",
           "package": "unique-logic-tf",
@@ -2344,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Simple",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "query",
           "normalized": "Variable a b-\u003eST a(Maybe b)",
@@ -2358,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "solve",
           "package": "unique-logic-tf",
@@ -2367,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System Simple",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System.Simple",
           "name": "solve",
           "normalized": "T a b-\u003eST a b",
@@ -2381,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "System",
           "package": "unique-logic-tf",
@@ -2389,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "System",
           "package": "unique-logic-tf",
@@ -2402,6 +2596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "Apply",
           "package": "unique-logic-tf",
@@ -2410,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "Apply",
           "package": "unique-logic-tf",
@@ -2423,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "C",
           "package": "unique-logic-tf",
@@ -2431,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "C",
           "package": "unique-logic-tf",
@@ -2443,6 +2641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "Fragile",
           "package": "unique-logic-tf",
@@ -2451,6 +2650,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "Fragile",
           "package": "unique-logic-tf",
@@ -2464,6 +2664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "T",
           "package": "unique-logic-tf",
@@ -2472,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "T",
           "package": "unique-logic-tf",
@@ -2484,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "Value",
           "package": "unique-logic-tf",
@@ -2492,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "Value",
           "package": "unique-logic-tf",
@@ -2505,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "Variable",
           "package": "unique-logic-tf",
@@ -2513,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "Variable",
           "package": "unique-logic-tf",
@@ -2526,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "break",
           "package": "unique-logic-tf",
@@ -2535,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "break",
           "package": "unique-logic-tf",
@@ -2547,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "globalVariable",
           "package": "unique-logic-tf",
@@ -2556,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "globalVariable",
           "normalized": "SimpleUpdater a b c-\u003eST b(Variable a b c)",
@@ -2571,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "runApplyMaybe",
           "package": "unique-logic-tf",
@@ -2580,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "runApplyMaybe",
           "normalized": "Apply a b(Maybe c)-\u003eVariable a b c-\u003eT a b()",
@@ -2595,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "simpleUpdate",
           "package": "unique-logic-tf",
@@ -2604,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "simpleUpdate",
           "package": "unique-logic-tf",
@@ -2617,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "solveBreadthFirst",
           "package": "unique-logic-tf",
@@ -2626,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "solveBreadthFirst",
           "normalized": "T a b c-\u003ea(ST b)c",
@@ -2641,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "solveDepthFirst",
           "package": "unique-logic-tf",
@@ -2650,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "solveDepthFirst",
           "normalized": "T a b c-\u003ea(ST b)c",
@@ -2665,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "update",
           "package": "unique-logic-tf",
@@ -2674,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "update",
           "package": "unique-logic-tf",
@@ -2686,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "updateAndCheck",
           "package": "unique-logic-tf",
@@ -2695,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "updateAndCheck",
           "normalized": "(a-\u003ea-\u003eWrap b(ST c)())-\u003eUpdater b c a",
@@ -2710,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "updateIfNew",
           "package": "unique-logic-tf",
@@ -2719,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "updateIfNew",
           "package": "unique-logic-tf",
@@ -2732,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:13 UTC 2014",
           "module": "UniqueLogic.ST.TF.System",
           "name": "valueConstraint",
           "package": "unique-logic-tf",
@@ -2741,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST TF System",
+          "indexed": "2014-03-11T20:30:13",
           "module": "UniqueLogic.ST.TF.System",
           "name": "valueConstraint",
           "normalized": "STRef a(Updates b a)-\u003eSTRef a(Maybe c)-\u003eValueConstraint b c",

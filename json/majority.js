@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "majority"
+        "phrase": "majority",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:47 UTC 2014",
           "module": "Algorithms.Majority",
           "name": "Majority",
           "package": "majority",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Algorithms Majority",
+          "indexed": "2014-03-11T19:13:47",
           "module": "Algorithms.Majority",
           "name": "Majority",
           "package": "majority",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(length xs)\u003c/em\u003e, Determines if there in a list of votes \u003cem\u003exs\u003c/em\u003e is a candidate\n that has more than half of the votes, and if so, returns that canditate.\n\u003c/p\u003e\u003cp\u003eE.g. applying \u003ccode\u003emajority\u003c/code\u003e on the string \u003ccode\u003e\"AAACCBBCCCBCC\"\u003c/code\u003e yields\n \u003ccode\u003eJust 'C'\u003c/code\u003e, since \u003ccode\u003e'C'\u003c/code\u003e has 7 out of 13 votes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:47 UTC 2014",
           "module": "Algorithms.Majority",
           "name": "majority",
           "package": "majority",
@@ -50,6 +53,7 @@
         "index": {
           "description": "length xs Determines if there in list of votes xs is candidate that has more than half of the votes and if so returns that canditate E.g applying majority on the string AAACCBBCCCBCC yields Just since has out of votes",
           "hierarchy": "Algorithms Majority",
+          "indexed": "2014-03-11T19:13:47",
           "module": "Algorithms.Majority",
           "name": "majority",
           "normalized": "[a]-\u003eMaybe a",

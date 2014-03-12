@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SimpleAES"
+        "phrase": "SimpleAES",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pure interface to AES\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "SimpleAES",
           "package": "SimpleAES",
@@ -28,6 +29,7 @@
         "index": {
           "description": "pure interface to AES",
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "SimpleAES",
           "package": "SimpleAES",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "Direction",
           "package": "SimpleAES",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "Direction",
           "package": "SimpleAES",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "IV",
           "package": "SimpleAES",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "IV",
           "package": "SimpleAES",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "Key",
           "package": "SimpleAES",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "Key",
           "package": "SimpleAES",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "Mode",
           "package": "SimpleAES",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "Mode",
           "package": "SimpleAES",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "CBC",
           "package": "SimpleAES",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "CBC",
           "package": "SimpleAES",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "Decrypt",
           "package": "SimpleAES",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "Decrypt",
           "package": "SimpleAES",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "ECB",
           "package": "SimpleAES",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "ECB",
           "package": "SimpleAES",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "Encrypt",
           "package": "SimpleAES",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "Encrypt",
           "package": "SimpleAES",
@@ -214,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncryption/decryption for lazy bytestrings. The input string is zero-padded to\n   a multiple of 16. It is your obligation to separate encode the length of the string.\n\u003c/p\u003e\u003cp\u003eProperties:\n     x == y =\u003e crypt mode key iv dir x == crypt mode key iv dir y\n     take (length x) (crypt mode key iv Decrypt (crypt mode key iv Encrypt x)) == x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "crypt",
           "package": "SimpleAES",
@@ -223,6 +242,7 @@
         "index": {
           "description": "Encryption decryption for lazy bytestrings The input string is zero-padded to multiple of It is your obligation to separate encode the length of the string Properties crypt mode key iv dir crypt mode key iv dir take length crypt mode key iv Decrypt crypt mode key iv Encrypt",
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "crypt",
           "normalized": "Mode-\u003eKey-\u003eIV-\u003eDirection-\u003eByteString-\u003eByteString",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "decryptMsg",
           "package": "SimpleAES",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "decryptMsg",
           "normalized": "Mode-\u003eKey-\u003eByteString-\u003eByteString",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "decryptMsg'",
           "package": "SimpleAES",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "decryptMsg'",
           "normalized": "Mode-\u003eKey-\u003eByteString-\u003eEither String ByteString",
@@ -286,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncrypt a bytestring using a random seed (IV). Since the\n   seed is random, this function is tainted by IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "encryptMsg",
           "package": "SimpleAES",
@@ -296,6 +321,7 @@
         "index": {
           "description": "Encrypt bytestring using random seed IV Since the seed is random this function is tainted by IO",
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "encryptMsg",
           "normalized": "Mode-\u003eKey-\u003eByteString-\u003eIO ByteString",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncrypt a ByteString using a given seed (IV).\n   The resulting ByteString contains both the seed and the original\n   length of the input (before padding).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "encryptMsg'",
           "package": "SimpleAES",
@@ -322,6 +349,7 @@
         "index": {
           "description": "Encrypt ByteString using given seed IV The resulting ByteString contains both the seed and the original length of the input before padding",
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "encryptMsg'",
           "normalized": "Mode-\u003eKey-\u003eIV-\u003eByteString-\u003eByteString",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "newIV",
           "package": "SimpleAES",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "newIV",
           "package": "SimpleAES",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:40 UTC 2014",
           "module": "Codec.Crypto.SimpleAES",
           "name": "randomKey",
           "package": "SimpleAES",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Codec Crypto SimpleAES",
+          "indexed": "2014-03-11T17:00:40",
           "module": "Codec.Crypto.SimpleAES",
           "name": "randomKey",
           "package": "SimpleAES",

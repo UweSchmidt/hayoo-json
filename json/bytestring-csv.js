@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bytestring-csv"
+        "phrase": "bytestring-csv",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:41 UTC 2014",
           "module": "Text.CSV.ByteString.Lex",
           "name": "Lex",
           "package": "bytestring-csv",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text CSV ByteString Lex",
+          "indexed": "2014-03-11T17:26:41",
           "module": "Text.CSV.ByteString.Lex",
           "name": "Lex",
           "package": "bytestring-csv",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:41 UTC 2014",
           "module": "Text.CSV.ByteString.Lex",
           "name": "CSVToken",
           "package": "bytestring-csv",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text CSV ByteString Lex",
+          "indexed": "2014-03-11T17:26:41",
           "module": "Text.CSV.ByteString.Lex",
           "name": "CSVToken",
           "package": "bytestring-csv",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:41 UTC 2014",
           "module": "Text.CSV.ByteString.Lex",
           "name": "Comma",
           "package": "bytestring-csv",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text CSV ByteString Lex",
+          "indexed": "2014-03-11T17:26:41",
           "module": "Text.CSV.ByteString.Lex",
           "name": "Comma",
           "package": "bytestring-csv",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:41 UTC 2014",
           "module": "Text.CSV.ByteString.Lex",
           "name": "Item",
           "package": "bytestring-csv",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text CSV ByteString Lex",
+          "indexed": "2014-03-11T17:26:41",
           "module": "Text.CSV.ByteString.Lex",
           "name": "Item",
           "package": "bytestring-csv",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:41 UTC 2014",
           "module": "Text.CSV.ByteString.Lex",
           "name": "Newline",
           "package": "bytestring-csv",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Text CSV ByteString Lex",
+          "indexed": "2014-03-11T17:26:41",
           "module": "Text.CSV.ByteString.Lex",
           "name": "Newline",
           "package": "bytestring-csv",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently lex CSV data from a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:41 UTC 2014",
           "module": "Text.CSV.ByteString.Lex",
           "name": "lexCSV",
           "package": "bytestring-csv",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Efficiently lex CSV data from bytestring",
           "hierarchy": "Text CSV ByteString Lex",
+          "indexed": "2014-03-11T17:26:41",
           "module": "Text.CSV.ByteString.Lex",
           "name": "lexCSV",
           "normalized": "ByteString-\u003e[CSVToken]",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:41 UTC 2014",
           "module": "Text.CSV.ByteString",
           "name": "ByteString",
           "package": "bytestring-csv",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Text CSV ByteString",
+          "indexed": "2014-03-11T17:26:41",
           "module": "Text.CSV.ByteString",
           "name": "ByteString",
           "package": "bytestring-csv",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CSV file is a series of records. According to the RFC, the\n records all have to have the same length. As an extension, I allow\n variable length records. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:41 UTC 2014",
           "module": "Text.CSV.ByteString",
           "name": "CSV",
           "package": "bytestring-csv",
@@ -183,6 +198,7 @@
         "index": {
           "description": "CSV file is series of records According to the RFC the records all have to have the same length As an extension allow variable length records",
           "hierarchy": "Text CSV ByteString",
+          "indexed": "2014-03-11T17:26:41",
           "module": "Text.CSV.ByteString",
           "name": "CSV",
           "package": "bytestring-csv",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA field is a strict ByteString.\n Within the header and each record, there may be one or more\n ields, separated by commas.  Each line should contain the same number\n of fields throughout the file.  Spaces are considered part of a field\n and should not be ignored.  The last field in the record must not be\n followed by a comma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:41 UTC 2014",
           "module": "Text.CSV.ByteString",
           "name": "Field",
           "package": "bytestring-csv",
@@ -206,6 +223,7 @@
         "index": {
           "description": "field is strict ByteString Within the header and each record there may be one or more ields separated by commas Each line should contain the same number of fields throughout the file Spaces are considered part of field and should not be ignored The last field in the record must not be followed by comma",
           "hierarchy": "Text CSV ByteString",
+          "indexed": "2014-03-11T17:26:41",
           "module": "Text.CSV.ByteString",
           "name": "Field",
           "package": "bytestring-csv",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA record is a series of fields\n Each record is located on a separate line, delimited by a line break (CRLF).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:41 UTC 2014",
           "module": "Text.CSV.ByteString",
           "name": "Record",
           "package": "bytestring-csv",
@@ -229,6 +248,7 @@
         "index": {
           "description": "record is series of fields Each record is located on separate line delimited by line break CRLF",
           "hierarchy": "Text CSV ByteString",
+          "indexed": "2014-03-11T17:26:41",
           "module": "Text.CSV.ByteString",
           "name": "Record",
           "package": "bytestring-csv",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a ByteString into a CSV form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:41 UTC 2014",
           "module": "Text.CSV.ByteString",
           "name": "parseCSV",
           "package": "bytestring-csv",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Parse ByteString into CSV form",
           "hierarchy": "Text CSV ByteString",
+          "indexed": "2014-03-11T17:26:41",
           "module": "Text.CSV.ByteString",
           "name": "parseCSV",
           "normalized": "ByteString-\u003eMaybe CSV",

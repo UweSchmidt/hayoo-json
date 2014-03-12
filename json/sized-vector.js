@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sized-vector"
+        "phrase": "sized-vector",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSize-parameterized vector types and functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "Sized",
           "package": "sized-vector",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Size-parameterized vector types and functions",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "Sized",
           "package": "sized-vector",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym for \u003ccode\u003eOrdinal\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "Index",
           "package": "sized-vector",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type synonym for Ordinal",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "Index",
           "package": "sized-vector",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixed-length list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "Vector",
           "package": "sized-vector",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Fixed-length list",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "Vector",
           "package": "sized-vector",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList index (subscript) operator, starting from \u003ccode\u003esZero\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "(!!)",
           "package": "sized-vector",
@@ -98,6 +105,7 @@
         "index": {
           "description": "List index subscript operator starting from sZero",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "(!!) !!",
           "normalized": "Vector a(S b)-\u003eSNat c-\u003ea",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003e!!\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "(%!!)",
           "package": "sized-vector",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Index version of",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "(%!!) %!!",
           "normalized": "Vector a b-\u003eIndex b-\u003ea",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": ":-",
           "package": "sized-vector",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": ":-",
           "normalized": "a-\u003eVector a b-\u003eVector a(S b)",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "Nil",
           "package": "sized-vector",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "Nil",
           "package": "sized-vector",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplied to a predicate and a list, \u003ccode\u003e\u003ca\u003eall\u003c/a\u003e\u003c/code\u003e determines if all element of the vector satisfies the predicate. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "all",
           "package": "sized-vector",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Applied to predicate and list all determines if all element of the vector satisfies the predicate",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eVector a b-\u003eBool",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eand\u003c/a\u003e\u003c/code\u003e returns the conjunction of a Boolean vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "and",
           "package": "sized-vector",
@@ -218,6 +235,7 @@
         "index": {
           "description": "and returns the conjunction of Boolean vector",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "and",
           "normalized": "Vector Bool a-\u003eBool",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplied to a predicate and a list, \u003ccode\u003e\u003ca\u003eany\u003c/a\u003e\u003c/code\u003e determines if any element of the vector satisfies the predicate. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "any",
           "package": "sized-vector",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Applied to predicate and list any determines if any element of the vector satisfies the predicate",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eVector a b-\u003eBool",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend two \u003ccode\u003eVector\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "append",
           "package": "sized-vector",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Append two Vector",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "append",
           "normalized": "Vector a b-\u003eVector a c-\u003eVector a(b c)",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e concatenates all vectors in th vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "concat",
           "package": "sized-vector",
@@ -293,6 +316,7 @@
         "index": {
           "description": "The function concat concatenates all vectors in th vector",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "concat",
           "normalized": "Vector(Vector a b)c-\u003eVector a(c*b)",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en xs\u003c/code\u003e returns the suffix of \u003ccode\u003exs\u003c/code\u003e after the first \u003ccode\u003en\u003c/code\u003e elements,\n with \u003ccode\u003en\u003c/code\u003e less than or equal to the length of \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "drop",
           "package": "sized-vector",
@@ -318,6 +343,7 @@
         "index": {
           "description": "drop xs returns the suffix of xs after the first elements with less than or equal to the length of xs",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "drop",
           "normalized": "SNat a-\u003eVector b c-\u003eVector b(c a)",
@@ -332,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "elem",
           "package": "sized-vector",
@@ -341,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "elem",
           "normalized": "a-\u003eVector a b-\u003eBool",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eelemIndex\u003c/a\u003e\u003c/code\u003e function returns the index (as \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e) of the first element in the given list\n which is equal (by \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e) to the query element, or Nothing if there is no such element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "elemIndex",
           "package": "sized-vector",
@@ -366,6 +395,7 @@
         "index": {
           "description": "The elemIndex function returns the index as Int of the first element in the given list which is equal by to the query element or Nothing if there is no such element",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "elemIndex",
           "normalized": "a-\u003eVector a b-\u003eMaybe Int",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eelemIndices\u003c/a\u003e\u003c/code\u003e function extends \u003ccode\u003e\u003ca\u003eelemIndex\u003c/a\u003e\u003c/code\u003e, by returning the indices of all elements equal to the query element,\n in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "elemIndices",
           "package": "sized-vector",
@@ -392,6 +423,7 @@
         "index": {
           "description": "The elemIndices function extends elemIndex by returning the indices of all elements equal to the query element in ascending order",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "elemIndices",
           "normalized": "a-\u003eVector a b-\u003e[Int]",
@@ -407,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "find",
           "package": "sized-vector",
@@ -416,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "find",
           "normalized": "(a-\u003eBool)-\u003eVector a b-\u003eMaybe a",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe findIndex function takes a predicate and a vector\n and returns the index of the first element in the vector\n satisfying the predicate, or Nothing if there is no such element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "findIndex",
           "package": "sized-vector",
@@ -441,6 +476,7 @@
         "index": {
           "description": "The findIndex function takes predicate and vector and returns the index of the first element in the vector satisfying the predicate or Nothing if there is no such element",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "findIndex",
           "normalized": "(a-\u003eBool)-\u003eVector a b-\u003eMaybe Int",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efindIndices\u003c/a\u003e\u003c/code\u003e function extends \u003ccode\u003e\u003ca\u003efindIndex\u003c/a\u003e\u003c/code\u003e, by returning the indices of all elements satisfying the predicate,\n  in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "findIndices",
           "package": "sized-vector",
@@ -467,6 +504,7 @@
         "index": {
           "description": "The findIndices function extends findIndex by returning the indices of all elements satisfying the predicate in ascending order",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "findIndices",
           "normalized": "(a-\u003eBool)-\u003eVector a b-\u003e[Int]",
@@ -483,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft fold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "foldl",
           "package": "sized-vector",
@@ -493,6 +532,7 @@
         "index": {
           "description": "Left fold",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVector b c-\u003ea",
@@ -508,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "foldl'",
           "package": "sized-vector",
@@ -518,6 +559,7 @@
         "index": {
           "description": "strict version of foldl",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "foldl'",
           "normalized": "a b c d(b-\u003ec-\u003eb)-\u003eb-\u003eVector c e-\u003eb",
@@ -533,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft fold for non-empty vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "foldl1",
           "package": "sized-vector",
@@ -543,6 +586,7 @@
         "index": {
           "description": "Left fold for non-empty vector",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVector a(S b)-\u003ea",
@@ -558,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of \u003ccode\u003e\u003ca\u003efoldl1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "foldl1'",
           "package": "sized-vector",
@@ -568,6 +613,7 @@
         "index": {
           "description": "strict version of foldl1",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "foldl1'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVector a(S b)-\u003ea",
@@ -583,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight fold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "foldr",
           "package": "sized-vector",
@@ -593,6 +640,7 @@
         "index": {
           "description": "Right fold",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVector a c-\u003eb",
@@ -608,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight fold for non-empty vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "foldr1",
           "package": "sized-vector",
@@ -618,6 +667,7 @@
         "index": {
           "description": "Right fold for non-empty vector",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "foldr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVector a(S b)-\u003ea",
@@ -633,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list into a vector.\n If a given list is shorter than the length, it returns \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "fromList",
           "package": "sized-vector",
@@ -643,6 +694,7 @@
         "index": {
           "description": "Convert list into vector If given list is shorter than the length it returns Nothing",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "fromList",
           "normalized": "SNat a-\u003e[b]-\u003eMaybe(Vector b a)",
@@ -659,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list into vector, with length inferred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "fromList'",
           "package": "sized-vector",
@@ -669,6 +722,7 @@
         "index": {
           "description": "Convert list into vector with length inferred",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "fromList'",
           "normalized": "[a]-\u003eMaybe(Vector a b)",
@@ -685,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the first element of a non-empty vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "head",
           "package": "sized-vector",
@@ -695,6 +750,7 @@
         "index": {
           "description": "Extract the first element of non-empty vector",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "head",
           "normalized": "Vector a(S b)-\u003ea",
@@ -710,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlipped version of \u003ccode\u003e\u003ca\u003e!!\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "index",
           "package": "sized-vector",
@@ -720,6 +777,7 @@
         "index": {
           "description": "Flipped version of",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "index",
           "normalized": "SNat a-\u003eVector b(S c)-\u003eb",
@@ -735,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eintersperse\u003c/a\u003e\u003c/code\u003e function takes an element and a vector and\n `intersperses' that element between the elements of the vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "intersperse",
           "package": "sized-vector",
@@ -745,6 +804,7 @@
         "index": {
           "description": "The intersperse function takes an element and vector and intersperses that element between the elements of the vector",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "intersperse",
           "normalized": "a-\u003eVector a b-\u003eVector a((Two*b)One)",
@@ -760,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the last element of a non-empty vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "last",
           "package": "sized-vector",
@@ -770,6 +831,7 @@
         "index": {
           "description": "Extract the last element of non-empty vector",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "last",
           "normalized": "Vector a(S b)-\u003ea",
@@ -785,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e returns the length of a finite list as an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "length",
           "package": "sized-vector",
@@ -795,6 +858,7 @@
         "index": {
           "description": "length returns the length of finite list as an Int",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "length",
           "normalized": "Vector a b-\u003eInt",
@@ -810,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef xs\u003c/code\u003e is the vector obtained by applying \u003ccode\u003ef\u003c/code\u003e to each element of xs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "map",
           "package": "sized-vector",
@@ -820,6 +885,7 @@
         "index": {
           "description": "map xs is the vector obtained by applying to each element of xs",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eVector a c-\u003eVector b c",
@@ -834,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "maximum",
           "package": "sized-vector",
@@ -843,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "maximum",
           "normalized": "Vector a(S b)-\u003ea",
@@ -857,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "minimum",
           "package": "sized-vector",
@@ -866,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "minimum",
           "normalized": "Vector a(S b)-\u003ea",
@@ -880,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "notElem",
           "package": "sized-vector",
@@ -889,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "notElem",
           "normalized": "a-\u003eVector a b-\u003eBool",
@@ -905,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a \u003ccode\u003eVector\u003c/code\u003e is empty, though it's clear from the type parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "null",
           "package": "sized-vector",
@@ -915,6 +988,7 @@
         "index": {
           "description": "Test whether Vector is empty though it clear from the type parameter",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "null",
           "normalized": "Vector a b-\u003eBool",
@@ -930,6 +1004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eor\u003c/a\u003e\u003c/code\u003e returns the disjunction of a Boolean vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "or",
           "package": "sized-vector",
@@ -940,6 +1015,7 @@
         "index": {
           "description": "or returns the disjunction of Boolean vector",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "or",
           "normalized": "Vector Bool a-\u003eBool",
@@ -954,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "product",
           "package": "sized-vector",
@@ -963,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "product",
           "normalized": "Vector a b-\u003ea",
@@ -978,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en x\u003c/code\u003e is a vector of length \u003ccode\u003en\u003c/code\u003e with \u003ccode\u003ex\u003c/code\u003e the value of every element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "replicate",
           "package": "sized-vector",
@@ -988,6 +1067,7 @@
         "index": {
           "description": "replicate is vector of length with the value of every element",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "replicate",
           "normalized": "SNat a-\u003eb-\u003eVector b a",
@@ -1003,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e, with the length inferred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "replicate'",
           "package": "sized-vector",
@@ -1013,6 +1094,7 @@
         "index": {
           "description": "replicate with the length inferred",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "replicate'",
           "normalized": "a-\u003eVector a b",
@@ -1028,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ereverse\u003c/a\u003e\u003c/code\u003e \u003ccode\u003exs\u003c/code\u003e returns the elements of xs in reverse order. \u003ccode\u003exs\u003c/code\u003e must be finite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "reverse",
           "package": "sized-vector",
@@ -1038,6 +1121,7 @@
         "index": {
           "description": "reverse xs returns the elements of xs in reverse order xs must be finite",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "reverse",
           "normalized": "a b c Vector b d-\u003eVector b d",
@@ -1053,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003eelemIndex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "sElemIndex",
           "package": "sized-vector",
@@ -1063,6 +1148,7 @@
         "index": {
           "description": "Index version of elemIndex",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "sElemIndex",
           "normalized": "a-\u003eVector a b-\u003eMaybe(Index b)",
@@ -1079,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003eelemIndices\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "sElemIndices",
           "package": "sized-vector",
@@ -1089,6 +1176,7 @@
         "index": {
           "description": "Index version of elemIndices",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "sElemIndices",
           "normalized": "a-\u003eVector a b-\u003e[Index b]",
@@ -1105,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003efindIndex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "sFindIndex",
           "package": "sized-vector",
@@ -1115,6 +1204,7 @@
         "index": {
           "description": "Index version of findIndex",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "sFindIndex",
           "normalized": "(a-\u003eBool)-\u003eVector a b-\u003eMaybe(Index b)",
@@ -1131,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003efindIndices\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "sFindIndices",
           "package": "sized-vector",
@@ -1141,6 +1232,7 @@
         "index": {
           "description": "Index version of findIndices",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "sFindIndices",
           "normalized": "(a-\u003eBool)-\u003eVector a b-\u003e[Index b]",
@@ -1157,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "sIndex",
           "package": "sized-vector",
@@ -1167,6 +1260,7 @@
         "index": {
           "description": "Index version of index",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "sIndex",
           "normalized": "Index a-\u003eVector b a-\u003eb",
@@ -1183,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esLength\u003c/a\u003e\u003c/code\u003e returns the length of a finite list as a \u003ccode\u003e\u003ca\u003eSNat\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "sLength",
           "package": "sized-vector",
@@ -1193,6 +1288,7 @@
         "index": {
           "description": "sLength returns the length of finite list as SNat",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "sLength",
           "normalized": "Vector a b-\u003eSNat b",
@@ -1209,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a singleton vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "singleton",
           "package": "sized-vector",
@@ -1219,6 +1316,7 @@
         "index": {
           "description": "Construct singleton vector",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "singleton",
           "normalized": "a-\u003eVector a(S Z)",
@@ -1234,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esplitAt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en xs\u003c/code\u003e returns a tuple where first element is \u003ccode\u003exs\u003c/code\u003e prefix of length \u003ccode\u003en\u003c/code\u003e\n and second element is the remainder of the list. \u003ccode\u003en\u003c/code\u003e should be less than or equal to the length of \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "splitAt",
           "package": "sized-vector",
@@ -1244,6 +1343,7 @@
         "index": {
           "description": "splitAt xs returns tuple where first element is xs prefix of length and second element is the remainder of the list should be less than or equal to the length of xs",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "splitAt",
           "normalized": "SNat a-\u003eVector b c-\u003e(Vector b a,Vector b(c a))",
@@ -1260,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA varian of \u003ccode\u003e\u003ca\u003esplitAt\u003c/a\u003e\u003c/code\u003e which allows \u003ccode\u003en\u003c/code\u003e to be greater than the length of \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "splitAtMost",
           "package": "sized-vector",
@@ -1270,6 +1371,7 @@
         "index": {
           "description": "varian of splitAt which allows to be greater than the length of xs",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "splitAtMost",
           "normalized": "SNat a-\u003eVector b c-\u003e(Vector b(Min a c),Vector b(c a))",
@@ -1286,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003estripPrefix\u003c/a\u003e\u003c/code\u003e function drops the given prefix from a vector.\n It returns \u003ccode\u003eNothing\u003c/code\u003e if the vector did not start with the prefix given or shorter than the prefix,\n or Just the vector after the prefix, if it does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "stripPrefix",
           "package": "sized-vector",
@@ -1296,6 +1399,7 @@
         "index": {
           "description": "The stripPrefix function drops the given prefix from vector It returns Nothing if the vector did not start with the prefix given or shorter than the prefix or Just the vector after the prefix if it does",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "stripPrefix",
           "normalized": "Vector a b-\u003eVector a c-\u003eMaybe(Vector a(c b))",
@@ -1311,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "sum",
           "package": "sized-vector",
@@ -1320,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "sum",
           "normalized": "Vector a b-\u003ea",
@@ -1335,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the elements after the head of a non-empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "tail",
           "package": "sized-vector",
@@ -1345,6 +1452,7 @@
         "index": {
           "description": "Extract the elements after the head of non-empty list",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "tail",
           "normalized": "Vector a(S b)-\u003eVector a b",
@@ -1360,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etake\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en xs\u003c/code\u003e returns the prefix of \u003ccode\u003exs\u003c/code\u003e of length \u003ccode\u003en\u003c/code\u003e,\n with \u003ccode\u003en\u003c/code\u003e less than or equal to the length of \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "take",
           "package": "sized-vector",
@@ -1370,6 +1479,7 @@
         "index": {
           "description": "take xs returns the prefix of xs of length with less than or equal to the length of xs",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "take",
           "normalized": "SNat a-\u003eVector b c-\u003eVector b a",
@@ -1385,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003etake\u003c/code\u003e which returns entire \u003ccode\u003exs\u003c/code\u003e if \u003ccode\u003en\u003c/code\u003e is greater than the length of \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "takeAtMost",
           "package": "sized-vector",
@@ -1395,6 +1506,7 @@
         "index": {
           "description": "variant of take which returns entire xs if is greater than the length of xs",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "takeAtMost",
           "normalized": "SNat a-\u003eVector b c-\u003eVector b(Min a c)",
@@ -1411,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a vector into a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "toList",
           "package": "sized-vector",
@@ -1421,6 +1534,7 @@
         "index": {
           "description": "Convert vector into list",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "toList",
           "normalized": "Vector a b-\u003e[a]",
@@ -1437,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etranspose\u003c/a\u003e\u003c/code\u003e function transposes the rows and columns of its argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "transpose",
           "package": "sized-vector",
@@ -1447,6 +1562,7 @@
         "index": {
           "description": "The transpose function transposes the rows and columns of its argument",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "transpose",
           "normalized": "Vector(Vector a b)c-\u003eVector(Vector a c)b",
@@ -1462,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUncons the non-empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "uncons",
           "package": "sized-vector",
@@ -1472,6 +1589,7 @@
         "index": {
           "description": "Uncons the non-empty list",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "uncons",
           "normalized": "Vector a(S b)-\u003e(a,Vector a b)",
@@ -1487,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe version of \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e.\n If a given list is shorter than the length, it aborts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "unsafeFromList",
           "package": "sized-vector",
@@ -1497,6 +1616,7 @@
         "index": {
           "description": "Unsafe version of fromList If given list is shorter than the length it aborts",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "unsafeFromList",
           "normalized": "SNat a-\u003e[b]-\u003eVector b a",
@@ -1513,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe version of \u003ccode\u003e\u003ca\u003eunsafeFromList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "unsafeFromList'",
           "package": "sized-vector",
@@ -1523,6 +1644,7 @@
         "index": {
           "description": "Unsafe version of unsafeFromList",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "unsafeFromList'",
           "normalized": "[a]-\u003eVector a b",
@@ -1539,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003ezipSame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "unzip",
           "package": "sized-vector",
@@ -1549,6 +1672,7 @@
         "index": {
           "description": "Inverse of zipSame",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "unzip",
           "normalized": "Vector(a,b)c-\u003e(Vector a c,Vector b c)",
@@ -1564,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e takes two vectors and returns a vector of corresponding pairs.\n  If one input list is short, excess elements of the longer list are discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "zip",
           "package": "sized-vector",
@@ -1574,6 +1699,7 @@
         "index": {
           "description": "zip takes two vectors and returns vector of corresponding pairs If one input list is short excess elements of the longer list are discarded",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "zip",
           "normalized": "Vector a b-\u003eVector c d-\u003eVector(a,c)(Min b d)",
@@ -1589,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e, but the given vectors must have the same length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "zipSame",
           "package": "sized-vector",
@@ -1599,6 +1726,7 @@
         "index": {
           "description": "Same as zip but the given vectors must have the same length",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "zipSame",
           "normalized": "Vector a b-\u003eVector c b-\u003eVector(a,c)b",
@@ -1615,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e generalises \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e by zipping with the function given as the first argument, instead of a tupling function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "zipWith",
           "package": "sized-vector",
@@ -1625,6 +1754,7 @@
         "index": {
           "description": "zipWith generalises zip by zipping with the function given as the first argument instead of tupling function",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVector a d-\u003eVector b e-\u003eVector c(Min d e)",
@@ -1641,6 +1771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e, but the given vectors must have the same length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:00 UTC 2014",
           "module": "Data.Vector.Sized",
           "name": "zipWithSame",
           "package": "sized-vector",
@@ -1651,6 +1782,7 @@
         "index": {
           "description": "Same as zipWith but the given vectors must have the same length",
           "hierarchy": "Data Vector Sized",
+          "indexed": "2014-03-11T20:04:00",
           "module": "Data.Vector.Sized",
           "name": "zipWithSame",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVector a d-\u003eVector b d-\u003eVector c d",

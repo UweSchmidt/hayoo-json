@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rsagl-math"
+        "phrase": "rsagl-math",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides generic typeclasses for common operations among many types: addition, subtraction, scalar multiplication, magnitude, and zero.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractVector",
           "package": "rsagl-math",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides generic typeclasses for common operations among many types addition subtraction scalar multiplication magnitude and zero",
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractVector",
           "package": "rsagl-math",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type that supports addition.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003ea \u003ccode\u003e\u003ca\u003eadd\u003c/a\u003e\u003c/code\u003e zero = a\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractAdd",
           "package": "rsagl-math",
@@ -51,6 +54,7 @@
         "index": {
           "description": "data type that supports addition add zero",
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractAdd",
           "package": "rsagl-math",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type that supports scalar magnitude.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003emagnitude (scalarMultiply (recip $ magnitude a) a) = 1\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractMagnitude",
           "package": "rsagl-math",
@@ -74,6 +79,7 @@
         "index": {
           "description": "data type that supports scalar magnitude magnitude scalarMultiply recip magnitude",
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractMagnitude",
           "package": "rsagl-math",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type that supports scalar multiplication.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003escalarMultiply 0 a = zero\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractScale",
           "package": "rsagl-math",
@@ -97,6 +104,7 @@
         "index": {
           "description": "data type that supports scalar multiplication scalarMultiply zero",
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractScale",
           "package": "rsagl-math",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type that supports subtraction.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003ea \u003ccode\u003e\u003ca\u003esub\u003c/a\u003e\u003c/code\u003e a = zero\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractSubtract",
           "package": "rsagl-math",
@@ -120,6 +129,7 @@
         "index": {
           "description": "data type that supports subtraction sub zero",
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractSubtract",
           "package": "rsagl-math",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience class for many vector types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractVector",
           "package": "rsagl-math",
@@ -143,6 +154,7 @@
         "index": {
           "description": "convenience class for many vector types",
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractVector",
           "package": "rsagl-math",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type that has an additive identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractZero",
           "package": "rsagl-math",
@@ -166,6 +179,7 @@
         "index": {
           "description": "data type that has an additive identity",
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "AbstractZero",
           "package": "rsagl-math",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAverage of a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "abstractAverage",
           "package": "rsagl-math",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Average of list",
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "abstractAverage",
           "normalized": "[a]-\u003ea",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance between two points, based on the \u003ccode\u003e\u003ca\u003emagnitude\u003c/a\u003e\u003c/code\u003e of the difference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "abstractDistance",
           "package": "rsagl-math",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Distance between two points based on the magnitude of the difference",
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "abstractDistance",
           "normalized": "a-\u003ea-\u003eRSdouble",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce a vector to the specified magnitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "abstractScaleTo",
           "package": "rsagl-math",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Force vector to the specified magnitude",
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "abstractScaleTo",
           "normalized": "RSdouble-\u003ea-\u003ea",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum of a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "abstractSum",
           "package": "rsagl-math",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Sum of list",
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "abstractSum",
           "normalized": "[a]-\u003eb",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "add",
           "package": "rsagl-math",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "add",
           "normalized": "a-\u003eb-\u003ea",
@@ -306,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "magnitude",
           "package": "rsagl-math",
@@ -315,6 +340,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "magnitude",
           "normalized": "a-\u003eRSdouble",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "scalarMultiply",
           "package": "rsagl-math",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "scalarMultiply",
           "normalized": "RSdouble-\u003ea-\u003ea",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "sub",
           "package": "rsagl-math",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "sub",
           "normalized": "a-\u003ea-\u003eb",
@@ -376,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.AbstractVector",
           "name": "zero",
           "package": "rsagl-math",
@@ -385,6 +416,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math AbstractVector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.AbstractVector",
           "name": "zero",
           "package": "rsagl-math",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAffine Transformations of Arbitrary Geometric Objects\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "Affine",
           "package": "rsagl-math",
@@ -407,6 +440,7 @@
         "index": {
           "description": "Affine Transformations of Arbitrary Geometric Objects",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "Affine",
           "package": "rsagl-math",
@@ -421,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAffineTransformable\u003c/a\u003e\u003c/code\u003e objects are subject to affine transformations using matrix multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "AffineTransformable",
           "package": "rsagl-math",
@@ -430,6 +465,7 @@
         "index": {
           "description": "AffineTransformable objects are subject to affine transformations using matrix multiplication",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "AffineTransformable",
           "package": "rsagl-math",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the inverse of an affine transformation, defined by a 4x4 matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "inverseTransform",
           "package": "rsagl-math",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Apply the inverse of an affine transformation defined by x4 matrix",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "inverseTransform",
           "normalized": "Matrix-\u003ea-\u003ea",
@@ -470,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate an entity about the origin, using the specified vector as the axis of rotation.\n See also \u003ccode\u003e\u003ca\u003etransformAbout\u003c/a\u003e\u003c/code\u003e to rotate around an arbitrary point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "rotate",
           "package": "rsagl-math",
@@ -480,6 +519,7 @@
         "index": {
           "description": "Rotate an entity about the origin using the specified vector as the axis of rotation See also transformAbout to rotate around an arbitrary point",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "rotate",
           "normalized": "Vector D-\u003eAngle-\u003ea-\u003ea",
@@ -495,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecific rotation along the shortest path that brings the second vector in line with the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "rotateToFrom",
           "package": "rsagl-math",
@@ -505,6 +546,7 @@
         "index": {
           "description": "Specific rotation along the shortest path that brings the second vector in line with the first",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "rotateToFrom",
           "normalized": "Vector D-\u003eVector D-\u003ea-\u003ea",
@@ -521,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecific rotation around the x-axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "rotateX",
           "package": "rsagl-math",
@@ -531,6 +574,7 @@
         "index": {
           "description": "Specific rotation around the x-axis",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "rotateX",
           "normalized": "Angle-\u003ea-\u003ea",
@@ -546,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecific rotation around the y-axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "rotateY",
           "package": "rsagl-math",
@@ -556,6 +601,7 @@
         "index": {
           "description": "Specific rotation around the y-axis",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "rotateY",
           "normalized": "Angle-\u003ea-\u003ea",
@@ -571,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecific rotation around the z-axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "rotateZ",
           "package": "rsagl-math",
@@ -581,6 +628,7 @@
         "index": {
           "description": "Specific rotation around the z-axis",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "rotateZ",
           "normalized": "Angle-\u003ea-\u003ea",
@@ -596,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale an entity along the \u003ccode\u003ex\u003c/code\u003e \u003ccode\u003ey\u003c/code\u003e and \u003ccode\u003ez\u003c/code\u003e axes.  For example, \u003ccode\u003escale (Vector3D 2 3 4)\u003c/code\u003e will make an object twice as wide, three times as tall,\n and four times as deep.  It may be helpful to think of the vector as a control point on the vertex of a unit cube.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "scale",
           "package": "rsagl-math",
@@ -606,6 +655,7 @@
         "index": {
           "description": "Scale an entity along the and axes For example scale Vector3D will make an object twice as wide three times as tall and four times as deep It may be helpful to think of the vector as control point on the vertex of unit cube",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "scale",
           "normalized": "Vector D-\u003ea-\u003ea",
@@ -621,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecific scale preserving proportions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "scale'",
           "package": "rsagl-math",
@@ -631,6 +682,7 @@
         "index": {
           "description": "Specific scale preserving proportions",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "scale'",
           "normalized": "RSdouble-\u003ea-\u003ea",
@@ -646,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecific scale along an arbitary axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "scaleAlong",
           "package": "rsagl-math",
@@ -656,6 +709,7 @@
         "index": {
           "description": "Specific scale along an arbitary axis",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "scaleAlong",
           "normalized": "Vector D-\u003eRSdouble-\u003ea-\u003ea",
@@ -672,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an affine transformation, defined by a 4x4 matrix.  (This is the only required method.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "transform",
           "package": "rsagl-math",
@@ -682,6 +737,7 @@
         "index": {
           "description": "Apply an affine transformation defined by x4 matrix This is the only required method",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "transform",
           "normalized": "Matrix-\u003ea-\u003ea",
@@ -697,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function treating a particular point as the origin.  For example, combining \u003ccode\u003e\u003ca\u003etransformAbout\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003erotate\u003c/a\u003e\u003c/code\u003e\n performs a rotation about an arbitrary point rather than the origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "transformAbout",
           "package": "rsagl-math",
@@ -707,6 +764,7 @@
         "index": {
           "description": "Apply function treating particular point as the origin For example combining transformAbout with rotate performs rotation about an arbitrary point rather than the origin",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "transformAbout",
           "normalized": "Point D-\u003e(a-\u003ea)-\u003ea-\u003ea",
@@ -723,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an entity along the specified vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "translate",
           "package": "rsagl-math",
@@ -733,6 +792,7 @@
         "index": {
           "description": "Translate an entity along the specified vector",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "translate",
           "normalized": "Vector D-\u003ea-\u003ea",
@@ -748,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecific translation along the vector between two points.\n This ordinary use is to set the second point as the center of a model (typically origin_point_3d)\n and the first point as the desired position of the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "translateToFrom",
           "package": "rsagl-math",
@@ -758,6 +819,7 @@
         "index": {
           "description": "Specific translation along the vector between two points This ordinary use is to set the second point as the center of model typically origin point and the first point as the desired position of the model",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "translateToFrom",
           "normalized": "Point D-\u003ePoint D-\u003ea-\u003ea",
@@ -774,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function under an affine transformation.  \u003ccode\u003ewithTransformation m id\u003c/code\u003e is an identity if \u003ccode\u003em\u003c/code\u003e is invertable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Affine",
           "name": "withTransformation",
           "package": "rsagl-math",
@@ -784,6 +847,7 @@
         "index": {
           "description": "Apply function under an affine transformation withTransformation id is an identity if is invertable",
           "hierarchy": "RSAGL Math Affine",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Affine",
           "name": "withTransformation",
           "normalized": "Matrix-\u003e(a-\u003ea)-\u003ea-\u003ea",
@@ -799,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "Angle",
           "package": "rsagl-math",
@@ -807,6 +872,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "Angle",
           "package": "rsagl-math",
@@ -821,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn angular value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "Angle",
           "package": "rsagl-math",
@@ -830,6 +897,7 @@
         "index": {
           "description": "An angular value",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "Angle",
           "package": "rsagl-math",
@@ -844,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn angular value.  \u003ccode\u003e\u003ca\u003eBoundAngle\u003c/a\u003e\u003c/code\u003es are always in the range between -180 and 180 degrees, inclusive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "BoundAngle",
           "package": "rsagl-math",
@@ -853,6 +922,7 @@
         "index": {
           "description": "An angular value BoundAngle are always in the range between and degrees inclusive",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "BoundAngle",
           "package": "rsagl-math",
@@ -866,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "BoundAngle",
           "package": "rsagl-math",
@@ -875,6 +946,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "BoundAngle",
           "package": "rsagl-math",
@@ -889,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolute value of an angle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "absoluteAngle",
           "package": "rsagl-math",
@@ -899,6 +972,7 @@
         "index": {
           "description": "Absolute value of an angle",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "absoluteAngle",
           "normalized": "Angle-\u003eAngle",
@@ -914,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "angleAdd",
           "package": "rsagl-math",
@@ -923,6 +998,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "angleAdd",
           "normalized": "Angle-\u003eAngle-\u003eAngle",
@@ -938,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "angleNegate",
           "package": "rsagl-math",
@@ -947,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "angleNegate",
           "normalized": "Angle-\u003eAngle",
@@ -962,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "angleSubtract",
           "package": "rsagl-math",
@@ -971,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "angleSubtract",
           "normalized": "Angle-\u003eAngle-\u003eAngle",
@@ -987,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eangularIncrements answers n evenly distributed angles from 0 to 2*pi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "angularIncrements",
           "package": "rsagl-math",
@@ -997,6 +1078,7 @@
         "index": {
           "description": "angularIncrements answers evenly distributed angles from to pi",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "angularIncrements",
           "normalized": "Integer-\u003e[Angle]",
@@ -1012,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "arcCosine",
           "package": "rsagl-math",
@@ -1021,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "arcCosine",
           "normalized": "RSdouble-\u003eAngle",
@@ -1036,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "arcSine",
           "package": "rsagl-math",
@@ -1045,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "arcSine",
           "normalized": "RSdouble-\u003eAngle",
@@ -1060,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "arcTangent",
           "package": "rsagl-math",
@@ -1069,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "arcTangent",
           "normalized": "RSdouble-\u003eAngle",
@@ -1084,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "cartesianToPolar",
           "package": "rsagl-math",
@@ -1093,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "cartesianToPolar",
           "normalized": "(RSdouble,RSdouble)-\u003e(Angle,RSdouble)",
@@ -1108,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "cosine",
           "package": "rsagl-math",
@@ -1117,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "cosine",
           "normalized": "Angle-\u003eRSdouble",
@@ -1132,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere are 21600 arc minutes in a circle, 60 arc minutes in a degree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "fromArcMinutes",
           "package": "rsagl-math",
@@ -1142,6 +1235,7 @@
         "index": {
           "description": "There are arc minutes in circle arc minutes in degree",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "fromArcMinutes",
           "normalized": "RSdouble-\u003eAngle",
@@ -1158,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere are 1296000 arc seconds in a circle, 60 arc seconds in an arc minutes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "fromArcSeconds",
           "package": "rsagl-math",
@@ -1168,6 +1263,7 @@
         "index": {
           "description": "There are arc seconds in circle arc seconds in an arc minutes",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "fromArcSeconds",
           "normalized": "RSdouble-\u003eAngle",
@@ -1184,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere are 260 degrees in a circle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "fromDegrees",
           "package": "rsagl-math",
@@ -1194,6 +1291,7 @@
         "index": {
           "description": "There are degrees in circle",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "fromDegrees",
           "normalized": "RSdouble-\u003eAngle",
@@ -1210,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere are 2*pi radians in a circle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "fromRadians",
           "package": "rsagl-math",
@@ -1220,6 +1319,7 @@
         "index": {
           "description": "There are pi radians in circle",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "fromRadians",
           "normalized": "RSdouble-\u003eAngle",
@@ -1236,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere is 1 rotation in a circle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "fromRotations",
           "package": "rsagl-math",
@@ -1246,6 +1347,7 @@
         "index": {
           "description": "There is rotation in circle",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "fromRotations",
           "normalized": "RSdouble-\u003eAngle",
@@ -1262,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an angle based on time of day, hours, minutes, seconds, where noon is considered a zero angle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "fromTimeOfDayHMS",
           "package": "rsagl-math",
@@ -1272,6 +1375,7 @@
         "index": {
           "description": "Get an angle based on time of day hours minutes seconds where noon is considered zero angle",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "fromTimeOfDayHMS",
           "normalized": "RSdouble-\u003eRSdouble-\u003eRSdouble-\u003eAngle",
@@ -1287,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "polarToCartesian",
           "package": "rsagl-math",
@@ -1296,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "polarToCartesian",
           "normalized": "(Angle,RSdouble)-\u003e(RSdouble,RSdouble)",
@@ -1311,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "scaleAngle",
           "package": "rsagl-math",
@@ -1320,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "scaleAngle",
           "normalized": "RSdouble-\u003eAngle-\u003eAngle",
@@ -1335,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "sine",
           "package": "rsagl-math",
@@ -1344,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "sine",
           "normalized": "Angle-\u003eRSdouble",
@@ -1358,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "supplementaryAngle",
           "package": "rsagl-math",
@@ -1367,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "supplementaryAngle",
           "normalized": "Angle-\u003eAngle",
@@ -1382,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "tangent",
           "package": "rsagl-math",
@@ -1391,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "tangent",
           "normalized": "Angle-\u003eRSdouble",
@@ -1406,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswers the angle in the range of -180 to 180, inclusive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "toDegrees",
           "package": "rsagl-math",
@@ -1416,6 +1531,7 @@
         "index": {
           "description": "Answers the angle in the range of to inclusive",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "toDegrees",
           "normalized": "Angle-\u003eRSdouble",
@@ -1432,6 +1548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etoDegrees_\u003c/a\u003e\u003c/code\u003e answers the angle in degrees with no range limitation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "toDegrees_",
           "package": "rsagl-math",
@@ -1442,6 +1559,7 @@
         "index": {
           "description": "toDegrees answers the angle in degrees with no range limitation",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "toDegrees_",
           "normalized": "Angle-\u003eRSdouble",
@@ -1458,6 +1576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etoRadians\u003c/a\u003e\u003c/code\u003e answers the angle in the range of -pi .. pi, inclusive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "toRadians",
           "package": "rsagl-math",
@@ -1468,6 +1587,7 @@
         "index": {
           "description": "toRadians answers the angle in the range of pi pi inclusive",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "toRadians",
           "normalized": "Angle-\u003eRSdouble",
@@ -1484,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etoRadians answers the angle in radians with no range limitation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "toRadians_",
           "package": "rsagl-math",
@@ -1494,6 +1615,7 @@
         "index": {
           "description": "toRadians answers the angle in radians with no range limitation",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "toRadians_",
           "normalized": "Angle-\u003eRSdouble",
@@ -1510,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etoRotations\u003c/a\u003e\u003c/code\u003e answers the angle in the range of -0.5 to 0.5, inclusive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "toRotations",
           "package": "rsagl-math",
@@ -1520,6 +1643,7 @@
         "index": {
           "description": "toRotations answers the angle in the range of to inclusive",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "toRotations",
           "normalized": "Angle-\u003eRSdouble",
@@ -1536,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etoRotations\u003c/a\u003e\u003c/code\u003e answers the angle in rotations with no range limitation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "toRotations_",
           "package": "rsagl-math",
@@ -1546,6 +1671,7 @@
         "index": {
           "description": "toRotations answers the angle in rotations with no range limitation",
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "toRotations_",
           "normalized": "Angle-\u003eRSdouble",
@@ -1561,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "unboundAngle",
           "package": "rsagl-math",
@@ -1570,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "unboundAngle",
           "normalized": "BoundAngle-\u003eAngle",
@@ -1585,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Angle",
           "name": "zero_angle",
           "package": "rsagl-math",
@@ -1594,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Angle",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Angle",
           "name": "zero_angle",
           "package": "rsagl-math",
@@ -1606,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.BoundingBox",
           "name": "BoundingBox",
           "package": "rsagl-math",
@@ -1614,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math BoundingBox",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.BoundingBox",
           "name": "BoundingBox",
           "package": "rsagl-math",
@@ -1628,6 +1760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience class for any finite geometry.\n In particular, it's easy to concatenate the bounding\n box of multiple geometries by placing them in a list\n and taking the bounding box of the entire list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.BoundingBox",
           "name": "Bound3D",
           "package": "rsagl-math",
@@ -1637,6 +1770,7 @@
         "index": {
           "description": "convenience class for any finite geometry In particular it easy to concatenate the bounding box of multiple geometries by placing them in list and taking the bounding box of the entire list",
           "hierarchy": "RSAGL Math BoundingBox",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.BoundingBox",
           "name": "Bound3D",
           "package": "rsagl-math",
@@ -1651,6 +1785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple bounding box.  Operations on bounding boxes\n are designed to be fast, not accurate.  The only\n guarantee on any bounding box operation is that\n objects reported to be outside a bounding box,\n are.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.BoundingBox",
           "name": "BoundingBox",
           "package": "rsagl-math",
@@ -1660,6 +1795,7 @@
         "index": {
           "description": "simple bounding box Operations on bounding boxes are designed to be fast not accurate The only guarantee on any bounding box operation is that objects reported to be outside bounding box are",
           "hierarchy": "RSAGL Math BoundingBox",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.BoundingBox",
           "name": "BoundingBox",
           "package": "rsagl-math",
@@ -1673,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.BoundingBox",
           "name": "boundingBox",
           "package": "rsagl-math",
@@ -1682,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math BoundingBox",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.BoundingBox",
           "name": "boundingBox",
           "normalized": "a-\u003eBoundingBox",
@@ -1698,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView of a bounding box in the form of a bounding spehre.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.BoundingBox",
           "name": "boundingCenterRadius",
           "package": "rsagl-math",
@@ -1708,6 +1847,7 @@
         "index": {
           "description": "View of bounding box in the form of bounding spehre",
           "hierarchy": "RSAGL Math BoundingBox",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.BoundingBox",
           "name": "boundingCenterRadius",
           "normalized": "BoundingBox-\u003e(Point D,RSdouble)",
@@ -1724,6 +1864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEstimates distance between a point and the outside surface of a bounding\n box.  If the value is negative, then the point lies inside the bound\n region.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.BoundingBox",
           "name": "minimalDistanceToBoundingBox",
           "package": "rsagl-math",
@@ -1734,6 +1875,7 @@
         "index": {
           "description": "Estimates distance between point and the outside surface of bounding box If the value is negative then the point lies inside the bound region",
           "hierarchy": "RSAGL Math BoundingBox",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.BoundingBox",
           "name": "minimalDistanceToBoundingBox",
           "normalized": "Point D-\u003eBoundingBox-\u003eRSdouble",
@@ -1749,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "Curve",
           "package": "rsagl-math",
@@ -1757,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "Curve",
           "package": "rsagl-math",
@@ -1771,6 +1915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eCurve\u003c/a\u003e\u003c/code\u003e is a parametric function from a one-dimensional space into a space of an arbitrary datatype.  The key feature of a \u003ccode\u003e\u003ca\u003eCurve\u003c/a\u003e\u003c/code\u003e is that it is aware of it's own\n sampling interval.  Using this information and appropriate arithmetic and scalar multiplication functions provided by RSAGL.AbstractVector, a \u003ccode\u003e\u003ca\u003eCurve\u003c/a\u003e\u003c/code\u003e can be differentiated or integrated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "Curve",
           "package": "rsagl-math",
@@ -1780,6 +1925,7 @@
         "index": {
           "description": "Curve is parametric function from one-dimensional space into space of an arbitrary datatype The key feature of Curve is that it is aware of it own sampling interval Using this information and appropriate arithmetic and scalar multiplication functions provided by RSAGL.AbstractVector Curve can be differentiated or integrated",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "Curve",
           "package": "rsagl-math",
@@ -1794,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn interval of a curve, including the curve, lower and upper bounds of the interval, and an instantaneous sample value for that interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "IntervalSample",
           "package": "rsagl-math",
@@ -1803,6 +1950,7 @@
         "index": {
           "description": "An interval of curve including the curve lower and upper bounds of the interval and an instantaneous sample value for that interval",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "IntervalSample",
           "package": "rsagl-math",
@@ -1816,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "SamplingAlgorithm",
           "package": "rsagl-math",
@@ -1824,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "SamplingAlgorithm",
           "package": "rsagl-math",
@@ -1838,6 +1988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSurface\u003c/a\u003e\u003c/code\u003e is a based on a \u003ccode\u003e\u003ca\u003eCurve\u003c/a\u003e\u003c/code\u003e with an output of another \u003ccode\u003e\u003ca\u003eCurve\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "Surface",
           "package": "rsagl-math",
@@ -1847,6 +1998,7 @@
         "index": {
           "description": "Surface is based on Curve with an output of another Curve",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "Surface",
           "package": "rsagl-math",
@@ -1861,6 +2013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSampling algorithm that takes increasing numbers of samples over intervals where the magnitude of the sample is large.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "adaptiveMagnitudeSamples",
           "package": "rsagl-math",
@@ -1871,6 +2024,7 @@
         "index": {
           "description": "Sampling algorithm that takes increasing numbers of samples over intervals where the magnitude of the sample is large",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "adaptiveMagnitudeSamples",
           "normalized": "Integer-\u003eSamplingAlgorithm a",
@@ -1887,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClamp lower and upper bounds of a curve along the axis of the input parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "clampCurve",
           "package": "rsagl-math",
@@ -1897,6 +2052,7 @@
         "index": {
           "description": "Clamp lower and upper bounds of curve along the axis of the input parameter",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "clampCurve",
           "normalized": "(RSdouble,RSdouble)-\u003eCurve a-\u003eCurve a",
@@ -1913,6 +2069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a curve by manipulating control points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "controlCurve",
           "package": "rsagl-math",
@@ -1923,6 +2080,7 @@
         "index": {
           "description": "Transform curve by manipulating control points",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "controlCurve",
           "normalized": "(RSdouble,RSdouble)-\u003e(RSdouble,RSdouble)-\u003eCurve a-\u003eCurve a",
@@ -1939,6 +2097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a simple curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "curve",
           "package": "rsagl-math",
@@ -1949,6 +2108,7 @@
         "index": {
           "description": "Define simple curve",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "curve",
           "normalized": "(RSdouble-\u003ea)-\u003eCurve a",
@@ -1964,6 +2124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the derivative of a \u003ccode\u003e\u003ca\u003eCurve\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "curveDerivative",
           "package": "rsagl-math",
@@ -1974,6 +2135,7 @@
         "index": {
           "description": "Take the derivative of Curve",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "curveDerivative",
           "normalized": "Curve a-\u003eCurve b",
@@ -1990,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose a surface while flipping the inner curve, so that that orientable surfaces retain their original orientation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "flipTransposeSurface",
           "package": "rsagl-math",
@@ -2000,6 +2163,7 @@
         "index": {
           "description": "Transpose surface while flipping the inner curve so that that orientable surfaces retain their original orientation",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "flipTransposeSurface",
           "normalized": "Surface a-\u003eSurface a",
@@ -2016,6 +2180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample the outer \u003ccode\u003e\u003ca\u003eCurve\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eSurface\u003c/a\u003e\u003c/code\u003e at regularly spaced intervals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "halfIterateSurface",
           "package": "rsagl-math",
@@ -2026,6 +2191,7 @@
         "index": {
           "description": "Sample the outer Curve of Surface at regularly spaced intervals",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "halfIterateSurface",
           "normalized": "Integer-\u003eSurface a-\u003e[Curve a]",
@@ -2042,6 +2208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinite integral of a curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "integrateCurve",
           "package": "rsagl-math",
@@ -2052,6 +2219,7 @@
         "index": {
           "description": "Definite integral of curve",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "integrateCurve",
           "normalized": "SamplingAlgorithm a-\u003eCurve a-\u003eb-\u003eb",
@@ -2068,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower and upper bounds of an \u003ccode\u003e\u003ca\u003eIntervalSample\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "intervalRange",
           "package": "rsagl-math",
@@ -2078,6 +2247,7 @@
         "index": {
           "description": "Lower and upper bounds of an IntervalSample",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "intervalRange",
           "normalized": "IntervalSample a-\u003e(RSdouble,RSdouble)",
@@ -2093,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "intervalSample",
           "package": "rsagl-math",
@@ -2102,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "intervalSample",
           "normalized": "Curve a-\u003eRSdouble-\u003eRSdouble-\u003eIntervalSample a",
@@ -2118,6 +2290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegral of the sample value over the range of the \u003ccode\u003e\u003ca\u003eIntervalSample\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "intervalSingleIntegral",
           "package": "rsagl-math",
@@ -2128,6 +2301,7 @@
         "index": {
           "description": "Integral of the sample value over the range of the IntervalSample",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "intervalSingleIntegral",
           "normalized": "IntervalSample a-\u003ea",
@@ -2144,6 +2318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the range of an \u003ccode\u003e\u003ca\u003eIntervalSample\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "intervalSize",
           "package": "rsagl-math",
@@ -2154,6 +2329,7 @@
         "index": {
           "description": "Size of the range of an IntervalSample",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "intervalSize",
           "normalized": "IntervalSample a-\u003eRSdouble",
@@ -2170,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample a curve at regular intervals in the range 0..1 inclusive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "iterateCurve",
           "package": "rsagl-math",
@@ -2180,6 +2357,7 @@
         "index": {
           "description": "Sample curve at regular intervals in the range inclusive",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "iterateCurve",
           "normalized": "Integer-\u003eCurve a-\u003e[a]",
@@ -2196,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample a surface at regularly spaced lattice points in the range 0..1 inclusive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "iterateSurface",
           "package": "rsagl-math",
@@ -2206,6 +2385,7 @@
         "index": {
           "description": "Sample surface at regularly spaced lattice points in the range inclusive",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "iterateSurface",
           "normalized": "(Integer,Integer)-\u003eSurface a-\u003e[[a]]",
@@ -2222,6 +2402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSampling algorithm that takes a fixed count of samples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "linearSamples",
           "package": "rsagl-math",
@@ -2232,6 +2413,7 @@
         "index": {
           "description": "Sampling algorithm that takes fixed count of samples",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "linearSamples",
           "normalized": "Integer-\u003eSamplingAlgorithm a",
@@ -2275,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to determine the normal vector to a curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "newellCurve",
           "package": "rsagl-math",
@@ -2285,6 +2468,7 @@
         "index": {
           "description": "Try to determine the normal vector to curve",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "newellCurve",
           "normalized": "Curve Point D-\u003eMaybe Vector D",
@@ -2301,6 +2485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the orientation of a \u003ccode\u003e\u003ca\u003eSurface\u003c/a\u003e\u003c/code\u003e by passing very small circles centered on each sampled point as the parametric input.\n\u003c/p\u003e\u003cp\u003eA gotchya with this operation is that as much as 3/4ths of the orientation loop may lie outside of the 0..1 range that is normally\n sampled.  Depending on how the surface is constructed, this may produce unexpected results.  The solution is to clamp the\n the problematic parametric inputs at 0 and 1 using \u003ccode\u003eclampSurface\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAs a rule, do clamp longitudinal axes that come to a singularity at each end.\n Do not clamp latitudinal axes that are connected at each end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "orientationLoops",
           "package": "rsagl-math",
@@ -2311,6 +2496,7 @@
         "index": {
           "description": "Determine the orientation of Surface by passing very small circles centered on each sampled point as the parametric input gotchya with this operation is that as much as ths of the orientation loop may lie outside of the range that is normally sampled Depending on how the surface is constructed this may produce unexpected results The solution is to clamp the the problematic parametric inputs at and using clampSurface As rule do clamp longitudinal axes that come to singularity at each end Do not clamp latitudinal axes that are connected at each end",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "orientationLoops",
           "normalized": "Surface a-\u003eSurface(Curve a)",
@@ -2327,6 +2513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a curve along the axis of the input parameter.  Factors greater than one have a \u003ca\u003ezoom in\u003c/a\u003e effect, while\n factors less than one have a \u003ca\u003ezoom out\u003c/a\u003e effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "scaleCurve",
           "package": "rsagl-math",
@@ -2337,6 +2524,7 @@
         "index": {
           "description": "Scale curve along the axis of the input parameter Factors greater than one have zoom in effect while factors less than one have zoom out effect",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "scaleCurve",
           "normalized": "RSdouble-\u003eCurve a-\u003eCurve a",
@@ -2353,6 +2541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a surface along each of its input parameter axes, as scaleCurve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "scaleSurface",
           "package": "rsagl-math",
@@ -2363,6 +2552,7 @@
         "index": {
           "description": "Scale surface along each of its input parameter axes as scaleCurve",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "scaleSurface",
           "normalized": "(RSdouble,RSdouble)-\u003eSurface a-\u003eSurface a",
@@ -2379,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a simple surface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "surface",
           "package": "rsagl-math",
@@ -2389,6 +2580,7 @@
         "index": {
           "description": "Define simple surface",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "surface",
           "normalized": "(RSdouble-\u003eRSdouble-\u003ea)-\u003eSurface a",
@@ -2404,6 +2596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the piecewise derivative of a \u003ccode\u003e\u003ca\u003eSurface\u003c/a\u003e\u003c/code\u003e along the inner and outer curves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "surfaceDerivative",
           "package": "rsagl-math",
@@ -2414,6 +2607,7 @@
         "index": {
           "description": "Take the piecewise derivative of Surface along the inner and outer curves",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "surfaceDerivative",
           "normalized": "Surface a-\u003eSurface(b,b)",
@@ -2430,6 +2624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to determine the normal vectors of a surface using multiple techniques.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "surfaceNormals3D",
           "package": "rsagl-math",
@@ -2440,6 +2635,7 @@
         "index": {
           "description": "Try to determine the normal vectors of surface using multiple techniques",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "surfaceNormals3D",
           "normalized": "Surface Point D-\u003eSurface SurfaceVertex D",
@@ -2456,6 +2652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift two curve transformations onto each axis of a second order curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "transformCurve2",
           "package": "rsagl-math",
@@ -2466,6 +2663,7 @@
         "index": {
           "description": "Lift two curve transformations onto each axis of second order curve",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "transformCurve2",
           "normalized": "(a b Curve c-\u003eCurve c)-\u003e(a d Curve e-\u003eCurve e)-\u003eCurve(Curve f)-\u003eCurve(Curve f)",
@@ -2482,6 +2680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a transformation on a second order \u003ccode\u003e\u003ca\u003eCurve\u003c/a\u003e\u003c/code\u003e onto a Surface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "transformSurface",
           "package": "rsagl-math",
@@ -2492,6 +2691,7 @@
         "index": {
           "description": "Lift transformation on second order Curve onto Surface",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "transformSurface",
           "normalized": "(Curve(Curve a)-\u003eCurve(Curve a))-\u003eSurface a-\u003eSurface a",
@@ -2508,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift two curve transformations onto each axis of a Surface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "transformSurface2",
           "package": "rsagl-math",
@@ -2518,6 +2719,7 @@
         "index": {
           "description": "Lift two curve transformations onto each axis of Surface",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "transformSurface2",
           "normalized": "(a b Curve c-\u003eCurve c)-\u003e(a d Curve e-\u003eCurve e)-\u003eSurface f-\u003eSurface f",
@@ -2534,6 +2736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a curve along the axis of the input parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "translateCurve",
           "package": "rsagl-math",
@@ -2544,6 +2747,7 @@
         "index": {
           "description": "Translate curve along the axis of the input parameter",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "translateCurve",
           "normalized": "RSdouble-\u003eCurve a-\u003eCurve a",
@@ -2560,6 +2764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a surface over each of its input parameter axes, as translateCurve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "translateSurface",
           "package": "rsagl-math",
@@ -2570,6 +2775,7 @@
         "index": {
           "description": "Translate surface over each of its input parameter axes as translateCurve",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "translateSurface",
           "normalized": "(RSdouble,RSdouble)-\u003eSurface a-\u003eSurface a",
@@ -2586,6 +2792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose the inner and outer components of a curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "transposeCurve",
           "package": "rsagl-math",
@@ -2596,6 +2803,7 @@
         "index": {
           "description": "Transpose the inner and outer components of curve",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "transposeCurve",
           "normalized": "Curve(Curve a)-\u003eCurve(Curve a)",
@@ -2612,6 +2820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose the axes of a \u003ccode\u003e\u003ca\u003eSurface\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "transposeSurface",
           "package": "rsagl-math",
@@ -2622,6 +2831,7 @@
         "index": {
           "description": "Transpose the axes of Surface",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "transposeSurface",
           "normalized": "Surface a-\u003eSurface a",
@@ -2637,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "unwrapSurface",
           "package": "rsagl-math",
@@ -2646,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "unwrapSurface",
           "normalized": "Surface a-\u003eCurve(Curve a)",
@@ -2662,6 +2874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identity \u003ccode\u003e\u003ca\u003eSurface\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "uv_identity",
           "package": "rsagl-math",
@@ -2672,6 +2885,7 @@
         "index": {
           "description": "An identity Surface",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "uv_identity",
           "normalized": "Surface(RSdouble,RSdouble)",
@@ -2686,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "wrapSurface",
           "package": "rsagl-math",
@@ -2695,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "wrapSurface",
           "normalized": "Curve(Curve a)-\u003eSurface a",
@@ -2711,6 +2927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two curves using an arbitrary function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "zipCurve",
           "package": "rsagl-math",
@@ -2721,6 +2938,7 @@
         "index": {
           "description": "Combine two curves using an arbitrary function",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "zipCurve",
           "normalized": "(a-\u003eb-\u003ec)-\u003eCurve a-\u003eCurve b-\u003eCurve c",
@@ -2737,6 +2955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two surfaces using an arbitrary function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Curve",
           "name": "zipSurface",
           "package": "rsagl-math",
@@ -2747,6 +2966,7 @@
         "index": {
           "description": "Combine two surfaces using an arbitrary function",
           "hierarchy": "RSAGL Math Curve",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Curve",
           "name": "zipSurface",
           "normalized": "(a-\u003eb-\u003ec)-\u003eSurface a-\u003eSurface b-\u003eSurface c",
@@ -2762,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "CurveExtras",
           "package": "rsagl-math",
@@ -2770,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "CurveExtras",
           "package": "rsagl-math",
@@ -2783,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "circleXY",
           "package": "rsagl-math",
@@ -2792,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "circleXY",
           "package": "rsagl-math",
@@ -2805,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "circularCoordinates",
           "package": "rsagl-math",
@@ -2814,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "circularCoordinates",
           "normalized": "((RSdouble,RSdouble)-\u003ea)-\u003eSurface a",
@@ -2829,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "cylindricalCoordinates",
           "package": "rsagl-math",
@@ -2838,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "cylindricalCoordinates",
           "normalized": "((Angle,RSdouble)-\u003ea)-\u003eSurface a",
@@ -2853,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "linearInterpolation",
           "package": "rsagl-math",
@@ -2862,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "linearInterpolation",
           "normalized": "[a]-\u003eCurve a",
@@ -2877,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "loopedLinearInterpolation",
           "package": "rsagl-math",
@@ -2886,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "loopedLinearInterpolation",
           "normalized": "[a]-\u003eCurve a",
@@ -2901,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "polarCoordinates",
           "package": "rsagl-math",
@@ -2910,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "polarCoordinates",
           "normalized": "((Angle,RSdouble)-\u003ea)-\u003eSurface a",
@@ -2925,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "regularPolygon",
           "package": "rsagl-math",
@@ -2934,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "regularPolygon",
           "normalized": "Integer-\u003eCurve Point D",
@@ -2949,6 +3185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "smoothCurve",
           "package": "rsagl-math",
@@ -2958,6 +3195,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "smoothCurve",
           "normalized": "Integer-\u003eRSdouble-\u003eCurve a-\u003eCurve a",
@@ -2973,6 +3211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "sphericalCoordinates",
           "package": "rsagl-math",
@@ -2982,6 +3221,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "sphericalCoordinates",
           "normalized": "((Angle,Angle)-\u003ea)-\u003eSurface a",
@@ -2997,6 +3237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "toroidalCoordinates",
           "package": "rsagl-math",
@@ -3006,6 +3247,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "toroidalCoordinates",
           "normalized": "((Angle,Angle)-\u003ea)-\u003eSurface a",
@@ -3021,6 +3263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "transformUnitCubeToUnitSphere",
           "package": "rsagl-math",
@@ -3030,6 +3273,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "transformUnitCubeToUnitSphere",
           "normalized": "Point D-\u003ePoint D",
@@ -3045,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.CurveExtras",
           "name": "transformUnitSquareToUnitCircle",
           "package": "rsagl-math",
@@ -3054,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math CurveExtras",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.CurveExtras",
           "name": "transformUnitSquareToUnitCircle",
           "normalized": "(RSdouble,RSdouble)-\u003e(RSdouble,RSdouble)",
@@ -3069,6 +3315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.FMod",
           "name": "FMod",
           "package": "rsagl-math",
@@ -3077,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math FMod",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.FMod",
           "name": "FMod",
           "package": "rsagl-math",
@@ -3090,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.FMod",
           "name": "FMod",
           "package": "rsagl-math",
@@ -3098,6 +3347,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math FMod",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.FMod",
           "name": "FMod",
           "package": "rsagl-math",
@@ -3111,6 +3361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.FMod",
           "name": "fmod",
           "package": "rsagl-math",
@@ -3120,6 +3371,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math FMod",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.FMod",
           "name": "fmod",
           "normalized": "a-\u003ea-\u003ea",
@@ -3134,6 +3386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Interpolation",
           "name": "Interpolation",
           "package": "rsagl-math",
@@ -3142,6 +3395,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Interpolation",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Interpolation",
           "name": "Interpolation",
           "package": "rsagl-math",
@@ -3155,6 +3409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerp",
           "package": "rsagl-math",
@@ -3164,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Interpolation",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerp",
           "normalized": "a-\u003e(b,b)-\u003eb",
@@ -3178,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerpBetween",
           "package": "rsagl-math",
@@ -3187,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Interpolation",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerpBetween",
           "normalized": "(a,a,a)-\u003e(b,b)-\u003eb",
@@ -3202,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerpBetweenClamped",
           "package": "rsagl-math",
@@ -3211,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Interpolation",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerpBetweenClamped",
           "normalized": "(a,a,a)-\u003e(b,b)-\u003eb",
@@ -3226,6 +3486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerpBetweenClampedMutated",
           "package": "rsagl-math",
@@ -3235,6 +3496,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Interpolation",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerpBetweenClampedMutated",
           "normalized": "(a-\u003ea)-\u003e(a,a,a)-\u003e(b,b)-\u003eb",
@@ -3250,6 +3512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerpBetweenMutated",
           "package": "rsagl-math",
@@ -3259,6 +3522,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Interpolation",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerpBetweenMutated",
           "normalized": "(a-\u003ea)-\u003e(a,a,a)-\u003e(b,b)-\u003eb",
@@ -3274,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerpClamped",
           "package": "rsagl-math",
@@ -3283,6 +3548,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Interpolation",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerpClamped",
           "normalized": "a-\u003e(b,b)-\u003eb",
@@ -3298,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerpMap",
           "package": "rsagl-math",
@@ -3307,6 +3574,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Interpolation",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerpMap",
           "normalized": "[(a,b)]-\u003ea-\u003eb",
@@ -3322,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerp_mutator_continuous_1st",
           "package": "rsagl-math",
@@ -3331,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Interpolation",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Interpolation",
           "name": "lerp_mutator_continuous_1st",
           "normalized": "a-\u003ea",
@@ -3345,6 +3615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.ListUtils",
           "name": "ListUtils",
           "package": "rsagl-math",
@@ -3353,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math ListUtils",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.ListUtils",
           "name": "ListUtils",
           "package": "rsagl-math",
@@ -3367,6 +3639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswers a list containing every sequence of n consecutive\n elements in the parameter.\n\u003c/p\u003e\u003cpre\u003econsecutives 3 [1,2,3,4] = [[1,2,3],[2,3,4]]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.ListUtils",
           "name": "consecutives",
           "package": "rsagl-math",
@@ -3377,6 +3650,7 @@
         "index": {
           "description": "Answers list containing every sequence of consecutive elements in the parameter consecutives",
           "hierarchy": "RSAGL Math ListUtils",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.ListUtils",
           "name": "consecutives",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -3392,6 +3666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a list to a list of adjacent elements.\n\u003c/p\u003e\u003cpre\u003edoubles [1,2,3,4,5] = [(1,2),(2,3),(3,4),(4,5)]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.ListUtils",
           "name": "doubles",
           "package": "rsagl-math",
@@ -3402,6 +3677,7 @@
         "index": {
           "description": "Transforms list to list of adjacent elements doubles",
           "hierarchy": "RSAGL Math ListUtils",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.ListUtils",
           "name": "doubles",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -3417,6 +3693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswers a list containing every sequence of n consecutive\n elements in the parameter, looping back to the beginning of the list.\n\u003c/p\u003e\u003cpre\u003econsecutives 3 [1,2,3,4] = [[1,2,3],[2,3,4],[3,4,1],[4,1,2]]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.ListUtils",
           "name": "loopedConsecutives",
           "package": "rsagl-math",
@@ -3427,6 +3704,7 @@
         "index": {
           "description": "Answers list containing every sequence of consecutive elements in the parameter looping back to the beginning of the list consecutives",
           "hierarchy": "RSAGL Math ListUtils",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.ListUtils",
           "name": "loopedConsecutives",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -3443,6 +3721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eloopedDoubles transforms a list to a list of adjacent elements, looping\n back to the beginning of the list.\n\u003c/p\u003e\u003cpre\u003eloopedRSdoubles [1,2,3,4,5] = [(1,2),(2,3),(3,4),(4,5),(5,1)]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.ListUtils",
           "name": "loopedDoubles",
           "package": "rsagl-math",
@@ -3453,6 +3732,7 @@
         "index": {
           "description": "loopedDoubles transforms list to list of adjacent elements looping back to the beginning of the list loopedRSdoubles",
           "hierarchy": "RSAGL Math ListUtils",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.ListUtils",
           "name": "loopedDoubles",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -3469,6 +3749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a list of numbers from 0.0 to 1.0, using n steps.\n This can't be done with the enum-from-to method, due to roundoff errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.ListUtils",
           "name": "zeroToOne",
           "package": "rsagl-math",
@@ -3479,6 +3760,7 @@
         "index": {
           "description": "Creates list of numbers from to using steps This can be done with the enum-from-to method due to roundoff errors",
           "hierarchy": "RSAGL Math ListUtils",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.ListUtils",
           "name": "zeroToOne",
           "normalized": "Integer-\u003e[RSdouble]",
@@ -3494,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "Matrix",
           "package": "rsagl-math",
@@ -3502,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "Matrix",
           "package": "rsagl-math",
@@ -3515,6 +3799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "Matrix",
           "package": "rsagl-math",
@@ -3523,6 +3808,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "Matrix",
           "package": "rsagl-math",
@@ -3536,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "colMajorForm",
           "package": "rsagl-math",
@@ -3545,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "colMajorForm",
           "normalized": "Matrix-\u003e[[RSdouble]]",
@@ -3560,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "determinant",
           "package": "rsagl-math",
@@ -3569,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "determinant",
           "normalized": "Matrix-\u003eRSdouble",
@@ -3583,6 +3873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "determinantPrim",
           "package": "rsagl-math",
@@ -3592,6 +3883,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "determinantPrim",
           "normalized": "Matrix-\u003eRSdouble",
@@ -3607,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "identity_matrix",
           "package": "rsagl-math",
@@ -3616,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "identity_matrix",
           "package": "rsagl-math",
@@ -3628,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "matrix",
           "package": "rsagl-math",
@@ -3637,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "matrix",
           "normalized": "[[RSdouble]]-\u003eMatrix",
@@ -3651,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixAdd",
           "package": "rsagl-math",
@@ -3660,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixAdd",
           "normalized": "Matrix-\u003eMatrix-\u003eMatrix",
@@ -3675,6 +3973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixAt",
           "package": "rsagl-math",
@@ -3684,6 +3983,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixAt",
           "normalized": "Matrix-\u003e(Int,Int)-\u003eRSdouble",
@@ -3699,6 +3999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixInverse",
           "package": "rsagl-math",
@@ -3708,6 +4009,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixInverse",
           "normalized": "Matrix-\u003eMatrix",
@@ -3723,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixInversePrim",
           "package": "rsagl-math",
@@ -3732,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixInversePrim",
           "normalized": "Matrix-\u003eMatrix",
@@ -3747,6 +4051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixInverseTransposePrim",
           "package": "rsagl-math",
@@ -3756,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixInverseTransposePrim",
           "normalized": "Matrix-\u003eMatrix",
@@ -3771,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixMultiply",
           "package": "rsagl-math",
@@ -3780,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixMultiply",
           "normalized": "Matrix-\u003eMatrix-\u003eMatrix",
@@ -3795,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixTranspose",
           "package": "rsagl-math",
@@ -3804,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixTranspose",
           "normalized": "Matrix-\u003eMatrix",
@@ -3819,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixTransposePrim",
           "package": "rsagl-math",
@@ -3828,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "matrixTransposePrim",
           "normalized": "Matrix-\u003eMatrix",
@@ -3843,6 +4155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "rotationMatrix",
           "package": "rsagl-math",
@@ -3852,6 +4165,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "rotationMatrix",
           "normalized": "Vector D-\u003eAngle-\u003eMatrix",
@@ -3867,6 +4181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "rowAt",
           "package": "rsagl-math",
@@ -3876,6 +4191,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "rowAt",
           "normalized": "Matrix-\u003eInt-\u003e[RSdouble]",
@@ -3891,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "rowMajorForm",
           "package": "rsagl-math",
@@ -3900,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "rowMajorForm",
           "normalized": "Matrix-\u003e[[RSdouble]]",
@@ -3915,6 +4233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "scaleMatrix",
           "package": "rsagl-math",
@@ -3924,6 +4243,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "scaleMatrix",
           "normalized": "Vector D-\u003eMatrix",
@@ -3940,6 +4260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a column matrix of length 4, perform an affine transformation on it, and produce the resulting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "transformHomogenous",
           "package": "rsagl-math",
@@ -3950,6 +4271,7 @@
         "index": {
           "description": "Generate column matrix of length perform an affine transformation on it and produce the resulting value",
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "transformHomogenous",
           "normalized": "RSdouble-\u003eRSdouble-\u003eRSdouble-\u003eRSdouble-\u003e(RSdouble-\u003eRSdouble-\u003eRSdouble-\u003ea)-\u003eMatrix-\u003ea",
@@ -3965,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "translationMatrix",
           "package": "rsagl-math",
@@ -3974,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "translationMatrix",
           "normalized": "Vector D-\u003eMatrix",
@@ -3989,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Matrix",
           "name": "xyzMatrix",
           "package": "rsagl-math",
@@ -3998,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Matrix",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Matrix",
           "name": "xyzMatrix",
           "normalized": "Vector D-\u003eVector D-\u003eVector D-\u003eMatrix",
@@ -4014,6 +4340,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIt's useful to work with the set of coordinate systems restricted to those\n that use orthogonal unit-scaled axes, that is, that are subject only to\n rotation and translation.  This is because these coordinate systems are the\n describe rigid objects.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Orthogonal",
           "name": "Orthogonal",
           "package": "rsagl-math",
@@ -4023,6 +4350,7 @@
         "index": {
           "description": "It useful to work with the set of coordinate systems restricted to those that use orthogonal unit-scaled axes that is that are subject only to rotation and translation This is because these coordinate systems are the describe rigid objects",
           "hierarchy": "RSAGL Math Orthogonal",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Orthogonal",
           "name": "Orthogonal",
           "package": "rsagl-math",
@@ -4036,6 +4364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Orthogonal",
           "name": "FUR",
           "package": "rsagl-math",
@@ -4044,6 +4373,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Orthogonal",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Orthogonal",
           "name": "FUR",
           "package": "rsagl-math",
@@ -4058,6 +4388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to the -Z axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Orthogonal",
           "name": "backward",
           "package": "rsagl-math",
@@ -4068,6 +4399,7 @@
         "index": {
           "description": "reference to the axis",
           "hierarchy": "RSAGL Math Orthogonal",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Orthogonal",
           "name": "backward",
           "normalized": "a-\u003eFUR a",
@@ -4083,6 +4415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to the -Y axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Orthogonal",
           "name": "down",
           "package": "rsagl-math",
@@ -4093,6 +4426,7 @@
         "index": {
           "description": "reference to the axis",
           "hierarchy": "RSAGL Math Orthogonal",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Orthogonal",
           "name": "down",
           "normalized": "a-\u003eFUR a",
@@ -4108,6 +4442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to the +Z axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Orthogonal",
           "name": "forward",
           "package": "rsagl-math",
@@ -4118,6 +4453,7 @@
         "index": {
           "description": "reference to the axis",
           "hierarchy": "RSAGL Math Orthogonal",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Orthogonal",
           "name": "forward",
           "normalized": "a-\u003eFUR a",
@@ -4133,6 +4469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to the -X axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Orthogonal",
           "name": "left",
           "package": "rsagl-math",
@@ -4143,6 +4480,7 @@
         "index": {
           "description": "reference to the axis",
           "hierarchy": "RSAGL Math Orthogonal",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Orthogonal",
           "name": "left",
           "normalized": "a-\u003eFUR a",
@@ -4158,6 +4496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslates and rotates a model to aim at a given position or in a\n given direction from a given vantage point.  This is analogous\n to camera look-at functions, and could be used, for example, to\n cause a model of an eyeball to track a particular target.\n The first parameter is the position of the model.  Typically the second\n parameter will be the position of the target, and the third parameter will\n \u003ccode\u003e(up $ Vector3D 0 1 0)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Orthogonal",
           "name": "modelLookAt",
           "package": "rsagl-math",
@@ -4168,6 +4507,7 @@
         "index": {
           "description": "Translates and rotates model to aim at given position or in given direction from given vantage point This is analogous to camera look-at functions and could be used for example to cause model of an eyeball to track particular target The first parameter is the position of the model Typically the second parameter will be the position of the target and the third parameter will up Vector3D",
           "hierarchy": "RSAGL Math Orthogonal",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Orthogonal",
           "name": "modelLookAt",
           "normalized": "Point D-\u003eFUR(Either Point D Vector D)-\u003eFUR(Either Point D Vector D)-\u003ea-\u003ea",
@@ -4184,6 +4524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two axial references to describe a rigid affine transformation.\n Accepts any combination of non-coaxial references.\n In the affine transformation, the old axes will be mapped onto the specified\n freeform axes.\n\u003c/p\u003e\u003cp\u003eThe first parameter is absolute, meaning that the source axis will always map\n perfectly onto the destination axis.  The second parameter will be obeyed\n on a \u003ca\u003ebest effort\u003c/a\u003e basis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Orthogonal",
           "name": "orthogonalFrame",
           "package": "rsagl-math",
@@ -4194,6 +4535,7 @@
         "index": {
           "description": "Combine two axial references to describe rigid affine transformation Accepts any combination of non-coaxial references In the affine transformation the old axes will be mapped onto the specified freeform axes The first parameter is absolute meaning that the source axis will always map perfectly onto the destination axis The second parameter will be obeyed on best effort basis",
           "hierarchy": "RSAGL Math Orthogonal",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Orthogonal",
           "name": "orthogonalFrame",
           "normalized": "FUR Vector D-\u003eFUR Vector D-\u003ea-\u003ea",
@@ -4210,6 +4552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to the +X axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Orthogonal",
           "name": "right",
           "package": "rsagl-math",
@@ -4220,6 +4563,7 @@
         "index": {
           "description": "reference to the axis",
           "hierarchy": "RSAGL Math Orthogonal",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Orthogonal",
           "name": "right",
           "normalized": "a-\u003eFUR a",
@@ -4235,6 +4579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to the +Y axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Orthogonal",
           "name": "up",
           "package": "rsagl-math",
@@ -4245,6 +4590,7 @@
         "index": {
           "description": "reference to the axis",
           "hierarchy": "RSAGL Math Orthogonal",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Orthogonal",
           "name": "up",
           "normalized": "a-\u003eFUR a",
@@ -4259,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Ray",
           "name": "Ray",
           "package": "rsagl-math",
@@ -4267,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Ray",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Ray",
           "name": "Ray",
           "package": "rsagl-math",
@@ -4281,6 +4629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRays with endpoints and vectors.\n\u003c/p\u003e\u003cp\u003eAlthough a ray is isomorphic to a \u003ccode\u003e\u003ca\u003eSurfaceVertex3D\u003c/a\u003e\u003c/code\u003e, it does not have the\n same behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Ray",
           "name": "Ray3D",
           "package": "rsagl-math",
@@ -4290,6 +4639,7 @@
         "index": {
           "description": "Rays with endpoints and vectors Although ray is isomorphic to SurfaceVertex3D it does not have the same behavior",
           "hierarchy": "RSAGL Math Ray",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Ray",
           "name": "Ray3D",
           "package": "rsagl-math",
@@ -4303,6 +4653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Ray",
           "name": "Ray3D",
           "package": "rsagl-math",
@@ -4312,6 +4663,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Ray",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Ray",
           "name": "Ray3D",
           "package": "rsagl-math",
@@ -4326,6 +4678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe angle between vector of the ray and the vector from the\n endpoint of the ray to the specified point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Ray",
           "name": "angleFrom",
           "package": "rsagl-math",
@@ -4336,6 +4689,7 @@
         "index": {
           "description": "The angle between vector of the ray and the vector from the endpoint of the ray to the specified point",
           "hierarchy": "RSAGL Math Ray",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Ray",
           "name": "angleFrom",
           "normalized": "Ray D-\u003ePoint D-\u003eAngle",
@@ -4352,6 +4706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse operation to \u003ccode\u003e\u003ca\u003eprojectRay\u003c/a\u003e\u003c/code\u003e.  This could also be\n understood as the height of the point above the plane defined\n by the ray.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Ray",
           "name": "distanceAlong",
           "package": "rsagl-math",
@@ -4362,6 +4717,7 @@
         "index": {
           "description": "The inverse operation to projectRay This could also be understood as the height of the point above the plane defined by the ray",
           "hierarchy": "RSAGL Math Ray",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Ray",
           "name": "distanceAlong",
           "normalized": "Ray D-\u003ePoint D-\u003eRSdouble",
@@ -4378,6 +4734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ray normalize to a length of 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Ray",
           "name": "normalizeRay",
           "package": "rsagl-math",
@@ -4388,6 +4745,7 @@
         "index": {
           "description": "ray normalize to length of",
           "hierarchy": "RSAGL Math Ray",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Ray",
           "name": "normalizeRay",
           "normalized": "Ray D-\u003eRay D",
@@ -4404,6 +4762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parametric function of a ray.  The parameter is measured as a\n proportion of the length of the vector.  \u003ccode\u003eprojectRay 0\u003c/code\u003e is the\n endpoint of the ray.  \u003ccode\u003eprojectRay 1\u003c/code\u003e is the endpoint offset\n by the ray's vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Ray",
           "name": "projectRay",
           "package": "rsagl-math",
@@ -4414,6 +4773,7 @@
         "index": {
           "description": "The parametric function of ray The parameter is measured as proportion of the length of the vector projectRay is the endpoint of the ray projectRay is the endpoint offset by the ray vector",
           "hierarchy": "RSAGL Math Ray",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Ray",
           "name": "projectRay",
           "normalized": "RSdouble-\u003eRay D-\u003ePoint D",
@@ -4429,6 +4789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Ray",
           "name": "ray_endpoint",
           "package": "rsagl-math",
@@ -4438,6 +4799,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Ray",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Ray",
           "name": "ray_endpoint",
           "package": "rsagl-math",
@@ -4450,6 +4812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Ray",
           "name": "ray_vector",
           "package": "rsagl-math",
@@ -4459,6 +4822,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Ray",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Ray",
           "name": "ray_vector",
           "package": "rsagl-math",
@@ -4471,6 +4835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Types",
           "name": "Types",
           "package": "rsagl-math",
@@ -4479,6 +4844,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Types",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Types",
           "name": "Types",
           "package": "rsagl-math",
@@ -4492,6 +4858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Types",
           "name": "RSdouble",
           "package": "rsagl-math",
@@ -4500,6 +4867,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Types",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Types",
           "name": "RSdouble",
           "package": "rsagl-math",
@@ -4513,6 +4881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Types",
           "name": "RSfloat",
           "package": "rsagl-math",
@@ -4521,6 +4890,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Types",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Types",
           "name": "RSfloat",
           "package": "rsagl-math",
@@ -4534,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Types",
           "name": "f2f",
           "package": "rsagl-math",
@@ -4543,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Types",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Types",
           "name": "f2f",
           "normalized": "a-\u003eb",
@@ -4557,6 +4929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Types",
           "name": "fromGLdouble",
           "package": "rsagl-math",
@@ -4566,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Types",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Types",
           "name": "fromGLdouble",
           "normalized": "GLdouble-\u003eRSdouble",
@@ -4581,6 +4955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Types",
           "name": "fromGLfloat",
           "package": "rsagl-math",
@@ -4590,6 +4965,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Types",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Types",
           "name": "fromGLfloat",
           "normalized": "GLfloat-\u003eRSfloat",
@@ -4605,6 +4981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Types",
           "name": "toGLdouble",
           "package": "rsagl-math",
@@ -4614,6 +4991,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Types",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Types",
           "name": "toGLdouble",
           "normalized": "RSdouble-\u003eGLdouble",
@@ -4629,6 +5007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Types",
           "name": "toGLfloat",
           "package": "rsagl-math",
@@ -4638,6 +5017,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Types",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Types",
           "name": "toGLfloat",
           "normalized": "RSfloat-\u003eGLfloat",
@@ -4653,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "Vector",
           "package": "rsagl-math",
@@ -4661,6 +5042,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "Vector",
           "package": "rsagl-math",
@@ -4674,6 +5056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "Point3D",
           "package": "rsagl-math",
@@ -4682,6 +5065,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "Point3D",
           "package": "rsagl-math",
@@ -4695,6 +5079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "SurfaceVertex3D",
           "package": "rsagl-math",
@@ -4703,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "SurfaceVertex3D",
           "package": "rsagl-math",
@@ -4716,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "Vector3D",
           "package": "rsagl-math",
@@ -4724,6 +5111,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "Vector3D",
           "package": "rsagl-math",
@@ -4737,6 +5125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "XYZ",
           "package": "rsagl-math",
@@ -4745,6 +5134,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "XYZ",
           "package": "rsagl-math",
@@ -4758,6 +5148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "Xyz",
           "package": "rsagl-math",
@@ -4766,6 +5157,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "Xyz",
           "package": "rsagl-math",
@@ -4779,6 +5171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "Point3D",
           "package": "rsagl-math",
@@ -4788,6 +5181,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "Point3D",
           "package": "rsagl-math",
@@ -4801,6 +5195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "SurfaceVertex3D",
           "package": "rsagl-math",
@@ -4810,6 +5205,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "SurfaceVertex3D",
           "package": "rsagl-math",
@@ -4823,6 +5219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "Vector3D",
           "package": "rsagl-math",
@@ -4832,6 +5229,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "Vector3D",
           "package": "rsagl-math",
@@ -4845,6 +5243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "aLargeVector",
           "package": "rsagl-math",
@@ -4854,6 +5253,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "aLargeVector",
           "normalized": "RSdouble-\u003eVector D-\u003eMaybe Vector D",
@@ -4869,6 +5269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "aNonZeroVector",
           "package": "rsagl-math",
@@ -4878,6 +5279,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "aNonZeroVector",
           "normalized": "Vector D-\u003eMaybe Vector D",
@@ -4893,6 +5295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "angleBetween",
           "package": "rsagl-math",
@@ -4902,6 +5305,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "angleBetween",
           "normalized": "Vector D-\u003eVector D-\u003eAngle",
@@ -4917,6 +5321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "crossProduct",
           "package": "rsagl-math",
@@ -4926,6 +5331,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "crossProduct",
           "normalized": "Vector D-\u003eVector D-\u003eVector D",
@@ -4941,6 +5347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "distanceBetween",
           "package": "rsagl-math",
@@ -4950,6 +5357,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "distanceBetween",
           "normalized": "a-\u003ea-\u003eRSdouble",
@@ -4965,6 +5373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "distanceBetweenSquared",
           "package": "rsagl-math",
@@ -4974,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "distanceBetweenSquared",
           "normalized": "a-\u003ea-\u003eRSdouble",
@@ -4989,6 +5399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "dotProduct",
           "package": "rsagl-math",
@@ -4998,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "dotProduct",
           "normalized": "Vector D-\u003eVector D-\u003eRSdouble",
@@ -5013,6 +5425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "fixOrtho",
           "package": "rsagl-math",
@@ -5022,6 +5435,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "fixOrtho",
           "normalized": "Vector D-\u003eVector D-\u003eVector D",
@@ -5037,6 +5451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "fixOrtho2",
           "package": "rsagl-math",
@@ -5046,6 +5461,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "fixOrtho2",
           "normalized": "Vector D-\u003eVector D-\u003e(Vector D,Vector D)",
@@ -5061,6 +5477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "fixOrtho2Left",
           "package": "rsagl-math",
@@ -5070,6 +5487,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "fixOrtho2Left",
           "normalized": "Vector D-\u003eVector D-\u003e(Vector D,Vector D)",
@@ -5085,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "fromXYZ",
           "package": "rsagl-math",
@@ -5094,6 +5513,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "fromXYZ",
           "normalized": "XYZ-\u003ea",
@@ -5109,6 +5529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "newell",
           "package": "rsagl-math",
@@ -5118,6 +5539,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "newell",
           "normalized": "[Point D]-\u003eMaybe Vector D",
@@ -5132,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "origin_point_3d",
           "package": "rsagl-math",
@@ -5141,6 +5564,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "origin_point_3d",
           "package": "rsagl-math",
@@ -5153,6 +5577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "orthos",
           "package": "rsagl-math",
@@ -5162,6 +5587,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "orthos",
           "normalized": "Vector D-\u003e(Vector D,Vector D)",
@@ -5176,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "point2d",
           "package": "rsagl-math",
@@ -5185,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "point2d",
           "normalized": "(RSdouble,RSdouble)-\u003ePoint D",
@@ -5199,6 +5627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "point3d",
           "package": "rsagl-math",
@@ -5208,6 +5637,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "point3d",
           "normalized": "(RSdouble,RSdouble,RSdouble)-\u003ePoint D",
@@ -5222,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "points2d",
           "package": "rsagl-math",
@@ -5231,6 +5662,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "points2d",
           "normalized": "[(RSdouble,RSdouble)]-\u003e[Point D]",
@@ -5245,6 +5677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "points3d",
           "package": "rsagl-math",
@@ -5254,6 +5687,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "points3d",
           "normalized": "[(RSdouble,RSdouble,RSdouble)]-\u003e[Point D]",
@@ -5268,6 +5702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "randomXYZ",
           "package": "rsagl-math",
@@ -5277,6 +5712,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "randomXYZ",
           "normalized": "(RSdouble,RSdouble)-\u003ea-\u003e(b,a)",
@@ -5292,6 +5728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "sv3d_normal",
           "package": "rsagl-math",
@@ -5301,6 +5738,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "sv3d_normal",
           "package": "rsagl-math",
@@ -5313,6 +5751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "sv3d_position",
           "package": "rsagl-math",
@@ -5322,6 +5761,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "sv3d_position",
           "package": "rsagl-math",
@@ -5334,6 +5774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "toXYZ",
           "package": "rsagl-math",
@@ -5343,6 +5784,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "toXYZ",
           "normalized": "a-\u003eXYZ",
@@ -5358,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "vector3d",
           "package": "rsagl-math",
@@ -5367,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "vector3d",
           "normalized": "(RSdouble,RSdouble,RSdouble)-\u003eVector D",
@@ -5381,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "vectorAdd",
           "package": "rsagl-math",
@@ -5390,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "vectorAdd",
           "normalized": "Vector D-\u003eVector D-\u003eVector D",
@@ -5405,6 +5851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "vectorAverage",
           "package": "rsagl-math",
@@ -5414,6 +5861,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "vectorAverage",
           "normalized": "[Vector D]-\u003eVector D",
@@ -5429,6 +5877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "vectorLength",
           "package": "rsagl-math",
@@ -5438,6 +5887,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "vectorLength",
           "normalized": "Vector D-\u003eRSdouble",
@@ -5453,6 +5903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "vectorLengthSquared",
           "package": "rsagl-math",
@@ -5462,6 +5913,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "vectorLengthSquared",
           "normalized": "Vector D-\u003eRSdouble",
@@ -5477,6 +5929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "vectorNormalize",
           "package": "rsagl-math",
@@ -5486,6 +5939,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "vectorNormalize",
           "normalized": "Vector D-\u003eVector D",
@@ -5501,6 +5955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "vectorScale",
           "package": "rsagl-math",
@@ -5510,6 +5965,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "vectorScale",
           "normalized": "RSdouble-\u003eVector D-\u003eVector D",
@@ -5525,6 +5981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "vectorScaleTo",
           "package": "rsagl-math",
@@ -5534,6 +5991,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "vectorScaleTo",
           "normalized": "RSdouble-\u003eVector D-\u003eVector D",
@@ -5549,6 +6007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "vectorString",
           "package": "rsagl-math",
@@ -5558,6 +6017,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "vectorString",
           "normalized": "a-\u003eString",
@@ -5573,6 +6033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "vectorSum",
           "package": "rsagl-math",
@@ -5582,6 +6043,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "vectorSum",
           "normalized": "[Vector D]-\u003eVector D",
@@ -5597,6 +6059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "vectorToFrom",
           "package": "rsagl-math",
@@ -5606,6 +6069,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "vectorToFrom",
           "normalized": "a-\u003ea-\u003eVector D",
@@ -5621,6 +6085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math.Vector",
           "name": "zero_vector",
           "package": "rsagl-math",
@@ -5630,6 +6095,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math Vector",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math.Vector",
           "name": "zero_vector",
           "package": "rsagl-math",
@@ -5642,6 +6108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:44 UTC 2014",
           "module": "RSAGL.Math",
           "name": "Math",
           "package": "rsagl-math",
@@ -5650,6 +6117,7 @@
         },
         "index": {
           "hierarchy": "RSAGL Math",
+          "indexed": "2014-03-11T19:55:44",
           "module": "RSAGL.Math",
           "name": "Math",
           "package": "rsagl-math",

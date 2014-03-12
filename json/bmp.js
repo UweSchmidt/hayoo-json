@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bmp"
+        "phrase": "bmp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReading and writing uncompressed BMP files.\n\u003c/p\u003e\u003cp\u003eSupports uncompressed 24bit RGB and 32bit RGBA\n      WindowsV3, WindowsV4 and WindowsV5 formats.\n\u003c/p\u003e\u003cp\u003eWe don't support the plain OS/2 BitmapCoreHeader\n       and BitmapCoreHeader2 image headers, but I haven't yet seen one of\n       these in the wild.\n\u003c/p\u003e\u003cp\u003eTo write a file do something like:\n\u003c/p\u003e\u003cpre\u003e do let rgba   = Data.ByteString.pack [some list of Word8s]\n    let bmp    = packRGBA32ToBMP width height rgba\n    writeBMP fileName bmp\n\u003c/pre\u003e\u003cp\u003eTo read a file do something like:\n\u003c/p\u003e\u003cpre\u003e do Right bmp  \u003c- readBMP fileName\n    let rgba   =  unpackBMPToRGBA32 bmp\n    let (width, height) = bmpDimensions bmp\n    ... \n\u003c/pre\u003e\u003cp\u003eRelease Notes:\n\u003c/p\u003e\u003cpre\u003e  * bmp 1.2.5\n    Add support for writing uncompressed 32-bit files.\n\n  * bmp 1.2.4\n    Update to use binary 0.6.\n\n  * bmp 1.2.3\n    Add pure parseBMP / renderBMP API.\n\n  * bmp 1.2.2\n    Allow the physical image buffer to be larger than the image\n     size stated in the header, to accept output of foolish Win7 codec.\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "BMP",
           "package": "bmp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Reading and writing uncompressed BMP files Supports uncompressed bit RGB and bit RGBA WindowsV3 WindowsV4 and WindowsV5 formats We don support the plain OS BitmapCoreHeader and BitmapCoreHeader2 image headers but haven yet seen one of these in the wild To write file do something like do let rgba Data.ByteString.pack some list of Word8s let bmp packRGBA32ToBMP width height rgba writeBMP fileName bmp To read file do something like do Right bmp readBMP fileName let rgba unpackBMPToRGBA32 bmp let width height bmpDimensions bmp Release Notes bmp Add support for writing uncompressed bit files bmp Update to use binary bmp Add pure parseBMP renderBMP API bmp Allow the physical image buffer to be larger than the image size stated in the header to accept output of foolish Win7 codec",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "BMP",
           "package": "bmp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA BMP image.\n\tFor an uncompressed image, the image data contains triples of BGR\n      component values. Each line may also have zero pad values on the end,\n      to bring them up to a multiple of 4 bytes in length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "BMP",
           "package": "bmp",
@@ -51,6 +54,7 @@
         "index": {
           "description": "BMP image For an uncompressed image the image data contains triples of BGR component values Each line may also have zero pad values on the end to bring them up to multiple of bytes in length",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "BMP",
           "package": "bmp",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for the various image header types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "BitmapInfo",
           "package": "bmp",
@@ -74,6 +79,7 @@
         "index": {
           "description": "wrapper for the various image header types",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "BitmapInfo",
           "package": "bmp",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice Independent Bitmap (DIB) header for Windows V3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "BitmapInfoV3",
           "package": "bmp",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Device Independent Bitmap DIB header for Windows V3",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "BitmapInfoV3",
           "package": "bmp",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice Independent Bitmap (DIB) header for Windows V4 (95 and newer)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "BitmapInfoV4",
           "package": "bmp",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Device Independent Bitmap DIB header for Windows V4 and newer",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "BitmapInfoV4",
           "package": "bmp",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice Independent Bitmap (DIB) header for Windows V5 (98/2000 and newer)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "BitmapInfoV5",
           "package": "bmp",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Device Independent Bitmap DIB header for Windows V5 and newer",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "BitmapInfoV5",
           "package": "bmp",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains the XYZ coordinates of a specific color in a specified color\n   space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "CIEXYZ",
           "package": "bmp",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Contains the XYZ coordinates of specific color in specified color space",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "CIEXYZ",
           "package": "bmp",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Compression mode says how the image data is encoded in the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "Compression",
           "package": "bmp",
@@ -189,6 +204,7 @@
         "index": {
           "description": "The Compression mode says how the image data is encoded in the file",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "Compression",
           "package": "bmp",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThings that can go wrong when loading a BMP file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "Error",
           "package": "bmp",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Things that can go wrong when loading BMP file",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "Error",
           "package": "bmp",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBMP file header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "FileHeader",
           "package": "bmp",
@@ -235,6 +254,7 @@
         "index": {
           "description": "BMP file header",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "FileHeader",
           "package": "bmp",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "BMP",
           "package": "bmp",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "BMP",
           "package": "bmp",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "BitmapInfoV3",
           "package": "bmp",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "BitmapInfoV3",
           "package": "bmp",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "BitmapInfoV4",
           "package": "bmp",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "BitmapInfoV4",
           "package": "bmp",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "BitmapInfoV5",
           "package": "bmp",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "BitmapInfoV5",
           "package": "bmp",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "CIEXYZ",
           "package": "bmp",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "CIEXYZ",
           "package": "bmp",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "CompressionBitFields",
           "package": "bmp",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "CompressionBitFields",
           "package": "bmp",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "CompressionJPEG",
           "package": "bmp",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "CompressionJPEG",
           "package": "bmp",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "CompressionPNG",
           "package": "bmp",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "CompressionPNG",
           "package": "bmp",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "CompressionRGB",
           "package": "bmp",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "CompressionRGB",
           "package": "bmp",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "CompressionRLE4",
           "package": "bmp",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "CompressionRLE4",
           "package": "bmp",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "CompressionRLE8",
           "package": "bmp",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "CompressionRLE8",
           "package": "bmp",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "CompressionUnknown",
           "package": "bmp",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "CompressionUnknown",
           "package": "bmp",
@@ -513,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMagic number was not at the start of the file, \n   so this probably isn't a BMP file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "ErrorBadMagic",
           "package": "bmp",
@@ -523,6 +568,7 @@
         "index": {
           "description": "Magic number was not at the start of the file so this probably isn BMP file",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "ErrorBadMagic",
           "package": "bmp",
@@ -537,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe offset to the image data from the file header doesn't\n   point anywhere sensible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "ErrorDodgyFileHeaderFieldOffset",
           "package": "bmp",
@@ -547,6 +594,7 @@
         "index": {
           "description": "The offset to the image data from the file header doesn point anywhere sensible",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "ErrorDodgyFileHeaderFieldOffset",
           "package": "bmp",
@@ -561,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile is too short to contain a file header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "ErrorFileHeaderTruncated",
           "package": "bmp",
@@ -571,6 +620,7 @@
         "index": {
           "description": "File is too short to contain file header",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "ErrorFileHeaderTruncated",
           "package": "bmp",
@@ -585,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile is too short to contain the image data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "ErrorImageDataTruncated",
           "package": "bmp",
@@ -595,6 +646,7 @@
         "index": {
           "description": "File is too short to contain the image data",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "ErrorImageDataTruncated",
           "package": "bmp",
@@ -609,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile is too short to contain an image header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "ErrorImageHeaderTruncated",
           "package": "bmp",
@@ -619,6 +672,7 @@
         "index": {
           "description": "File is too short to contain an image header",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "ErrorImageHeaderTruncated",
           "package": "bmp",
@@ -633,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMismatch between the image size stated in the header\n   and that which is calculuated from the other fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "ErrorImagePhysicalSizeMismatch",
           "package": "bmp",
@@ -643,6 +698,7 @@
         "index": {
           "description": "Mismatch between the image size stated in the header and that which is calculuated from the other fields",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "ErrorImagePhysicalSizeMismatch",
           "package": "bmp",
@@ -657,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething went wrong in the library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "ErrorInternalErrorPleaseReport",
           "package": "bmp",
@@ -667,6 +724,7 @@
         "index": {
           "description": "Something went wrong in the library",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "ErrorInternalErrorPleaseReport",
           "package": "bmp",
@@ -681,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved fields should be zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "ErrorReservedFieldNotZero",
           "package": "bmp",
@@ -691,6 +750,7 @@
         "index": {
           "description": "Reserved fields should be zero",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "ErrorReservedFieldNotZero",
           "package": "bmp",
@@ -705,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe handle V3 V4 and V5 image headers, but the size of \n   the header indicates it has some other format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "ErrorUnhandledBitmapHeaderSize",
           "package": "bmp",
@@ -715,6 +776,7 @@
         "index": {
           "description": "We handle V3 V4 and V5 image headers but the size of the header indicates it has some other format",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "ErrorUnhandledBitmapHeaderSize",
           "package": "bmp",
@@ -729,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe only handle 24 and 32 bit images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "ErrorUnhandledColorDepth",
           "package": "bmp",
@@ -739,6 +802,7 @@
         "index": {
           "description": "We only handle and bit images",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "ErrorUnhandledColorDepth",
           "package": "bmp",
@@ -753,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe only handle uncompressed images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "ErrorUnhandledCompressionMode",
           "package": "bmp",
@@ -763,6 +828,7 @@
         "index": {
           "description": "We only handle uncompressed images",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "ErrorUnhandledCompressionMode",
           "package": "bmp",
@@ -777,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe only handle single color planes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "ErrorUnhandledPlanesCount",
           "package": "bmp",
@@ -787,6 +854,7 @@
         "index": {
           "description": "We only handle single color planes",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "ErrorUnhandledPlanesCount",
           "package": "bmp",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "FileHeader",
           "package": "bmp",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "FileHeader",
           "package": "bmp",
@@ -822,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "InfoV3",
           "package": "bmp",
@@ -831,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "InfoV3",
           "package": "bmp",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "InfoV4",
           "package": "bmp",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "InfoV4",
           "package": "bmp",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "InfoV5",
           "package": "bmp",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "InfoV5",
           "package": "bmp",
@@ -888,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "bmpBitmapInfo",
           "package": "bmp",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "bmpBitmapInfo",
           "package": "bmp",
@@ -911,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the width and height of an image.\n\tIt's better to use this function than to access the headers directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "bmpDimensions",
           "package": "bmp",
@@ -921,6 +1000,7 @@
         "index": {
           "description": "Get the width and height of an image It better to use this function than to access the headers directly",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "bmpDimensions",
           "normalized": "BMP-\u003e(Int,Int)",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "bmpFileHeader",
           "package": "bmp",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "bmpFileHeader",
           "package": "bmp",
@@ -958,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "bmpRawImageData",
           "package": "bmp",
@@ -967,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "bmpRawImageData",
           "package": "bmp",
@@ -981,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+14) Number of bits per pixel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib3BitCount",
           "package": "bmp",
@@ -991,6 +1076,7 @@
         "index": {
           "description": "Number of bits per pixel",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib3BitCount",
           "package": "bmp",
@@ -1005,6 +1091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+36) Number of significant colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib3ColorsImportant",
           "package": "bmp",
@@ -1015,6 +1102,7 @@
         "index": {
           "description": "Number of significant colors",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib3ColorsImportant",
           "package": "bmp",
@@ -1029,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+32) Number of color entries that are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib3ColorsUsed",
           "package": "bmp",
@@ -1039,6 +1128,7 @@
         "index": {
           "description": "Number of color entries that are used",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib3ColorsUsed",
           "package": "bmp",
@@ -1053,6 +1143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+16) Image compression mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib3Compression",
           "package": "bmp",
@@ -1063,6 +1154,7 @@
         "index": {
           "description": "Image compression mode",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib3Compression",
           "package": "bmp",
@@ -1077,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+8) Height of the image, in pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib3Height",
           "package": "bmp",
@@ -1087,6 +1180,7 @@
         "index": {
           "description": "Height of the image in pixels",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib3Height",
           "package": "bmp",
@@ -1101,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the height field in the file is negative then this is interpreted\n   as an image with the rows flipped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib3HeightFlipped",
           "package": "bmp",
@@ -1111,6 +1206,7 @@
         "index": {
           "description": "If the height field in the file is negative then this is interpreted as an image with the rows flipped",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib3HeightFlipped",
           "package": "bmp",
@@ -1125,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+20) Size of raw image data.\n   Some encoders set this to zero, so we need to calculate it based\n   on the overall file size.\n\u003c/p\u003e\u003cp\u003eIf it is non-zero then we check it matches the file size - header\n   size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib3ImageSize",
           "package": "bmp",
@@ -1135,6 +1232,7 @@
         "index": {
           "description": "Size of raw image data Some encoders set this to zero so we need to calculate it based on the overall file size If it is non-zero then we check it matches the file size header size",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib3ImageSize",
           "package": "bmp",
@@ -1149,6 +1247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+24) Prefered resolution in pixels per meter, along the X axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib3PelsPerMeterX",
           "package": "bmp",
@@ -1159,6 +1258,7 @@
         "index": {
           "description": "Prefered resolution in pixels per meter along the axis",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib3PelsPerMeterX",
           "package": "bmp",
@@ -1173,6 +1273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+28) Prefered resolution in pixels per meter, along the Y axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib3PelsPerMeterY",
           "package": "bmp",
@@ -1183,6 +1284,7 @@
         "index": {
           "description": "Prefered resolution in pixels per meter along the axis",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib3PelsPerMeterY",
           "package": "bmp",
@@ -1197,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+12) Number of color planes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib3Planes",
           "package": "bmp",
@@ -1207,6 +1310,7 @@
         "index": {
           "description": "Number of color planes",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib3Planes",
           "package": "bmp",
@@ -1221,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+0) Size of the image header, in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib3Size",
           "package": "bmp",
@@ -1231,6 +1336,7 @@
         "index": {
           "description": "Size of the image header in bytes",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib3Size",
           "package": "bmp",
@@ -1245,6 +1351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+4) Width of the image, in pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib3Width",
           "package": "bmp",
@@ -1255,6 +1362,7 @@
         "index": {
           "description": "Width of the image in pixels",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib3Width",
           "package": "bmp",
@@ -1268,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib4AlphaMask",
           "package": "bmp",
@@ -1277,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib4AlphaMask",
           "package": "bmp",
@@ -1290,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib4BlueMask",
           "package": "bmp",
@@ -1299,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib4BlueMask",
           "package": "bmp",
@@ -1313,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe color space used by the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib4ColorSpaceType",
           "package": "bmp",
@@ -1323,6 +1436,7 @@
         "index": {
           "description": "The color space used by the image",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib4ColorSpaceType",
           "package": "bmp",
@@ -1337,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the XYZ coords of the three colors that correspond to\n   the RGB endpoints for the logical color space associated with the\n   bitmap. Only used when ColorSpaceType specifies a calibrated image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib4Endpoints",
           "package": "bmp",
@@ -1347,6 +1462,7 @@
         "index": {
           "description": "Specifies the XYZ coords of the three colors that correspond to the RGB endpoints for the logical color space associated with the bitmap Only used when ColorSpaceType specifies calibrated image",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib4Endpoints",
           "normalized": "(CIEXYZ,CIEXYZ,CIEXYZ)",
@@ -1362,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib4GammaBlue",
           "package": "bmp",
@@ -1371,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib4GammaBlue",
           "package": "bmp",
@@ -1384,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib4GammaGreen",
           "package": "bmp",
@@ -1393,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib4GammaGreen",
           "package": "bmp",
@@ -1407,6 +1527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToned response curves for each component. \n   Only used when the ColorSpaceType specifies a calibrated image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib4GammaRed",
           "package": "bmp",
@@ -1417,6 +1538,7 @@
         "index": {
           "description": "Toned response curves for each component Only used when the ColorSpaceType specifies calibrated image",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib4GammaRed",
           "package": "bmp",
@@ -1430,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib4GreenMask",
           "package": "bmp",
@@ -1439,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib4GreenMask",
           "package": "bmp",
@@ -1453,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the image header, in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib4InfoV3",
           "package": "bmp",
@@ -1463,6 +1588,7 @@
         "index": {
           "description": "Size of the image header in bytes",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib4InfoV3",
           "package": "bmp",
@@ -1477,6 +1603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor masks specify components of each pixel.\n   Only used with the bitfields compression mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib4RedMask",
           "package": "bmp",
@@ -1487,6 +1614,7 @@
         "index": {
           "description": "Color masks specify components of each pixel Only used with the bitfields compression mode",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib4RedMask",
           "package": "bmp",
@@ -1500,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib5InfoV4",
           "package": "bmp",
@@ -1509,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib5InfoV4",
           "package": "bmp",
@@ -1523,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendering intent for the bitmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib5Intent",
           "package": "bmp",
@@ -1533,6 +1664,7 @@
         "index": {
           "description": "Rendering intent for the bitmap",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib5Intent",
           "package": "bmp",
@@ -1547,6 +1679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset (in bytes) from the beginning of the header to the start\n   of the profile data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib5ProfileData",
           "package": "bmp",
@@ -1557,6 +1690,7 @@
         "index": {
           "description": "Offset in bytes from the beginning of the header to the start of the profile data",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib5ProfileData",
           "package": "bmp",
@@ -1571,6 +1705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize (in bytes) of embedded profile data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib5ProfileSize",
           "package": "bmp",
@@ -1581,6 +1716,7 @@
         "index": {
           "description": "Size in bytes of embedded profile data",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib5ProfileSize",
           "package": "bmp",
@@ -1595,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved, should be zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "dib5Reserved",
           "package": "bmp",
@@ -1605,6 +1742,7 @@
         "index": {
           "description": "Reserved should be zero",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "dib5Reserved",
           "package": "bmp",
@@ -1618,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "errorBitmapHeaderSize",
           "package": "bmp",
@@ -1627,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "errorBitmapHeaderSize",
           "package": "bmp",
@@ -1640,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "errorBytesAvailable",
           "package": "bmp",
@@ -1649,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "errorBytesAvailable",
           "package": "bmp",
@@ -1662,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "errorBytesNeeded",
           "package": "bmp",
@@ -1671,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "errorBytesNeeded",
           "package": "bmp",
@@ -1684,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "errorColorDepth",
           "package": "bmp",
@@ -1693,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "errorColorDepth",
           "package": "bmp",
@@ -1706,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "errorCompression",
           "package": "bmp",
@@ -1715,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "errorCompression",
           "package": "bmp",
@@ -1728,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "errorFileHeaderOffset",
           "package": "bmp",
@@ -1737,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "errorFileHeaderOffset",
           "package": "bmp",
@@ -1750,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "errorImageSizeFromHeader",
           "package": "bmp",
@@ -1759,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "errorImageSizeFromHeader",
           "package": "bmp",
@@ -1772,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "errorImageSizeOfBuffer",
           "package": "bmp",
@@ -1781,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "errorImageSizeOfBuffer",
           "package": "bmp",
@@ -1794,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "errorMagic",
           "package": "bmp",
@@ -1803,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "errorMagic",
           "package": "bmp",
@@ -1816,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "errorPlanesCount",
           "package": "bmp",
@@ -1825,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "errorPlanesCount",
           "package": "bmp",
@@ -1839,6 +1997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+2) Size of the file, in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "fileHeaderFileSize",
           "package": "bmp",
@@ -1849,6 +2008,7 @@
         "index": {
           "description": "Size of the file in bytes",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "fileHeaderFileSize",
           "package": "bmp",
@@ -1863,6 +2023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+10) Offset in bytes to the start of the pixel data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "fileHeaderOffset",
           "package": "bmp",
@@ -1873,6 +2034,7 @@
         "index": {
           "description": "Offset in bytes to the start of the pixel data",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "fileHeaderOffset",
           "package": "bmp",
@@ -1887,6 +2049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+6) Reserved, must be zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "fileHeaderReserved1",
           "package": "bmp",
@@ -1897,6 +2060,7 @@
         "index": {
           "description": "Reserved must be zero",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "fileHeaderReserved1",
           "package": "bmp",
@@ -1911,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+8) Reserved, must be zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "fileHeaderReserved2",
           "package": "bmp",
@@ -1921,6 +2086,7 @@
         "index": {
           "description": "Reserved must be zero",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "fileHeaderReserved2",
           "package": "bmp",
@@ -1935,6 +2101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(+0) Magic numbers 0x42 0x4d\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "fileHeaderType",
           "package": "bmp",
@@ -1945,6 +2112,7 @@
         "index": {
           "description": "Magic numbers x42 x4d",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "fileHeaderType",
           "package": "bmp",
@@ -1959,6 +2127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a BMP image from a file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "hGetBMP",
           "package": "bmp",
@@ -1969,6 +2138,7 @@
         "index": {
           "description": "Get BMP image from file handle",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "hGetBMP",
           "normalized": "Handle-\u003eIO(Either Error BMP)",
@@ -1985,6 +2155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a BMP image to a file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "hPutBMP",
           "package": "bmp",
@@ -1995,6 +2166,7 @@
         "index": {
           "description": "Put BMP image to file handle",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "hPutBMP",
           "normalized": "Handle-\u003eBMP-\u003eIO()",
@@ -2011,6 +2183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack a string of RGBA component values into a 32-bit BMP image.\n\u003c/p\u003e\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003epackRGBA32ToBMP32\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "packRGBA32ToBMP",
           "package": "bmp",
@@ -2020,6 +2193,7 @@
         "index": {
           "description": "Pack string of RGBA component values into bit BMP image Alias for packRGBA32ToBMP32",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "packRGBA32ToBMP",
           "normalized": "Int-\u003eInt-\u003eByteString-\u003eBMP",
@@ -2036,6 +2210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack a string of RGBA component values into a 24-bit BMP image,\n   discarding the alpha channel of the source data.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If the given dimensions don't match the input string then \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e If the width or height fields are negative then \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "packRGBA32ToBMP24",
           "package": "bmp",
@@ -2045,6 +2220,7 @@
         "index": {
           "description": "Pack string of RGBA component values into bit BMP image discarding the alpha channel of the source data If the given dimensions don match the input string then error If the width or height fields are negative then error",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "packRGBA32ToBMP24",
           "normalized": "Int-\u003eInt-\u003eByteString-\u003eBMP",
@@ -2061,6 +2237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack a string of RGBA component values into a 32-bit BMP image.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If the given dimensions don't match the input string then \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e If the width or height fields are negative then \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "packRGBA32ToBMP32",
           "package": "bmp",
@@ -2070,6 +2247,7 @@
         "index": {
           "description": "Pack string of RGBA component values into bit BMP image If the given dimensions don match the input string then error If the width or height fields are negative then error",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "packRGBA32ToBMP32",
           "normalized": "Int-\u003eInt-\u003eByteString-\u003eBMP",
@@ -2086,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a BMP image from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "parseBMP",
           "package": "bmp",
@@ -2096,6 +2275,7 @@
         "index": {
           "description": "Parse BMP image from lazy ByteString",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "parseBMP",
           "normalized": "ByteString-\u003eEither Error BMP",
@@ -2112,6 +2292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a BMP from a file.\n      The file is checked for problems and unsupported features when read.\n      If there is anything wrong this gives an \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "readBMP",
           "package": "bmp",
@@ -2122,6 +2303,7 @@
         "index": {
           "description": "Read BMP from file The file is checked for problems and unsupported features when read If there is anything wrong this gives an Error instead",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "readBMP",
           "normalized": "FilePath-\u003eIO(Either Error BMP)",
@@ -2138,6 +2320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a BMP image to a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "renderBMP",
           "package": "bmp",
@@ -2148,6 +2331,7 @@
         "index": {
           "description": "Render BMP image to lazy ByteString",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "renderBMP",
           "normalized": "BMP-\u003eByteString",
@@ -2164,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack a BMP image to a string of RGBA component values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "unpackBMPToRGBA32",
           "package": "bmp",
@@ -2174,6 +2359,7 @@
         "index": {
           "description": "Unpack BMP image to string of RGBA component values",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "unpackBMPToRGBA32",
           "normalized": "BMP-\u003eByteString",
@@ -2190,6 +2376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for \u003ccode\u003e\u003ca\u003ehPutBMP\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:44 UTC 2014",
           "module": "Codec.BMP",
           "name": "writeBMP",
           "package": "bmp",
@@ -2200,6 +2387,7 @@
         "index": {
           "description": "Wrapper for hPutBMP",
           "hierarchy": "Codec BMP",
+          "indexed": "2014-03-11T17:24:44",
           "module": "Codec.BMP",
           "name": "writeBMP",
           "normalized": "FilePath-\u003eBMP-\u003eIO()",

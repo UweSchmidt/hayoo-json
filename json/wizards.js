@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wizards"
+        "phrase": "wizards",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.BasicIO",
           "name": "BasicIO",
           "package": "wizards",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard BasicIO",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.BasicIO",
           "name": "BasicIO",
           "package": "wizards",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBasicIO\u003c/a\u003e\u003c/code\u003e backend supports only simple input and output.\n   Support for \u003ccode\u003e\u003ca\u003ePassword\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eLinePrewritten\u003c/a\u003e\u003c/code\u003e features can be added with \n   a shim from \u003ccode\u003e\u003ca\u003eShim\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.BasicIO",
           "name": "BasicIO",
           "package": "wizards",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The BasicIO backend supports only simple input and output Support for Password and LinePrewritten features can be added with shim from Shim",
           "hierarchy": "System Console Wizard BasicIO",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.BasicIO",
           "name": "BasicIO",
           "package": "wizards",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple identity function, used to restrict types if the type inferred by GHC is too general.\n   You could achieve the same effect with a type signature, but this is slightly less typing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.BasicIO",
           "name": "basicIO",
           "package": "wizards",
@@ -73,6 +78,7 @@
         "index": {
           "description": "simple identity function used to restrict types if the type inferred by GHC is too general You could achieve the same effect with type signature but this is slightly less typing",
           "hierarchy": "System Console Wizard BasicIO",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.BasicIO",
           "name": "basicIO",
           "normalized": "Wizard BasicIO a-\u003eWizard BasicIO a",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Haskeline",
           "name": "Haskeline",
           "package": "wizards",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Haskeline",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Haskeline",
           "name": "Haskeline",
           "package": "wizards",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskeline supports all the following features completely. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Haskeline",
           "name": "Haskeline",
           "package": "wizards",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Haskeline supports all the following features completely",
           "hierarchy": "System Console Wizard Haskeline",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Haskeline",
           "name": "Haskeline",
           "package": "wizards",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Haskeline back-end will throw this exception if EOF is encountered\n   when it is not expected. Specifically, when actions such as \u003ccode\u003e\u003ca\u003egetInputLine\u003c/a\u003e\u003c/code\u003e return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Haskeline",
           "name": "UnexpectedEOF",
           "package": "wizards",
@@ -142,6 +153,7 @@
         "index": {
           "description": "The Haskeline back-end will throw this exception if EOF is encountered when it is not expected Specifically when actions such as getInputLine return Nothing",
           "hierarchy": "System Console Wizard Haskeline",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Haskeline",
           "name": "UnexpectedEOF",
           "package": "wizards",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Haskeline",
           "name": "WithSettings",
           "package": "wizards",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Haskeline",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Haskeline",
           "name": "WithSettings",
           "package": "wizards",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Haskeline",
           "name": "UnexpectedEOF",
           "package": "wizards",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Haskeline",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Haskeline",
           "name": "UnexpectedEOF",
           "package": "wizards",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Haskeline",
           "name": "WithSettings",
           "package": "wizards",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Haskeline",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Haskeline",
           "name": "WithSettings",
           "package": "wizards",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple identity function, used to restrict types if the type inferred by GHC is too general.\n   You could achieve the same effect with a type signature, but this is slightly less typing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Haskeline",
           "name": "haskeline",
           "package": "wizards",
@@ -231,6 +250,7 @@
         "index": {
           "description": "simple identity function used to restrict types if the type inferred by GHC is too general You could achieve the same effect with type signature but this is slightly less typing",
           "hierarchy": "System Console Wizard Haskeline",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Haskeline",
           "name": "haskeline",
           "normalized": "Wizard Haskeline a-\u003eWizard Haskeline a",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies a wizard so that it will run with different Haskeline \u003ccode\u003e\u003ca\u003eSettings\u003c/a\u003e\u003c/code\u003e to the top level input monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Haskeline",
           "name": "withSettings",
           "package": "wizards",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Modifies wizard so that it will run with different Haskeline Settings to the top level input monad",
           "hierarchy": "System Console Wizard Haskeline",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Haskeline",
           "name": "withSettings",
           "normalized": "Settings IO-\u003eWizard a b-\u003eWizard a b",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Internal",
           "package": "wizards",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Internal",
           "package": "wizards",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoproduct of two functors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": ":+:",
           "package": "wizards",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Coproduct of two functors",
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": ":+:",
           "package": "wizards",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubsumption of two functors. You shouldn't define any of your own instances of this when writing back-ends, rely only on GeneralizedNewtypeDeriving.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": ":\u003c:",
           "package": "wizards",
@@ -324,6 +351,7 @@
         "index": {
           "description": "Subsumption of two functors You shouldn define any of your own instances of this when writing back-ends rely only on GeneralizedNewtypeDeriving",
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": ":\u003c:",
           "package": "wizards",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "ArbitraryIO",
           "package": "wizards",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "ArbitraryIO",
           "package": "wizards",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Character",
           "package": "wizards",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Character",
           "package": "wizards",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Line",
           "package": "wizards",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Line",
           "package": "wizards",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "LinePrewritten",
           "package": "wizards",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "LinePrewritten",
           "package": "wizards",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Output",
           "package": "wizards",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Output",
           "package": "wizards",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "OutputLn",
           "package": "wizards",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "OutputLn",
           "package": "wizards",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Password",
           "package": "wizards",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Password",
           "package": "wizards",
@@ -484,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string for a prompt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "PromptString",
           "package": "wizards",
@@ -493,6 +536,7 @@
         "index": {
           "description": "string for prompt",
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "PromptString",
           "package": "wizards",
@@ -507,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for implementing actions on a backend. E.g Run IO Output provides an interpreter for the Output action in the IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Run",
           "package": "wizards",
@@ -516,6 +561,7 @@
         "index": {
           "description": "class for implementing actions on backend E.g Run IO Output provides an interpreter for the Output action in the IO monad",
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Run",
           "package": "wizards",
@@ -530,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eWizard b a\u003c/code\u003e is a conversation with the user via back-end \u003ccode\u003eb\u003c/code\u003e that will result in a data type \u003ccode\u003ea\u003c/code\u003e, or may fail.\n   A \u003ccode\u003e\u003ca\u003eWizard\u003c/a\u003e\u003c/code\u003e is made up of one or more \"primitives\" (see below), composed using the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e,\n  \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instances. The \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance is, as you might expect, a maybe-style cascade. \n   If the first wizard fails, the next one is tried. \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e can be used to induce failure directly.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eWizard\u003c/a\u003e\u003c/code\u003e constructor is exported here for use when developing backends,  but it is better for end-users to \n  simply pretend that \u003ccode\u003e\u003ca\u003eWizard\u003c/a\u003e\u003c/code\u003e is an opaque data type. Don't depend on this unless you have no other choice.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eWizard\u003c/a\u003e\u003c/code\u003es are, internally, just a maybe transformer over a free monad built from some coproduct of functors,\n  each of which is a primitive action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Wizard",
           "package": "wizards",
@@ -539,6 +586,7 @@
         "index": {
           "description": "Wizard is conversation with the user via back-end that will result in data type or may fail Wizard is made up of one or more primitives see below composed using the Applicative Monad and Alternative instances The Alternative instance is as you might expect maybe-style cascade If the first wizard fails the next one is tried mzero can be used to induce failure directly The Wizard constructor is exported here for use when developing backends but it is better for end-users to simply pretend that Wizard is an opaque data type Don depend on this unless you have no other choice Wizard are internally just maybe transformer over free monad built from some coproduct of functors each of which is primitive action",
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Wizard",
           "package": "wizards",
@@ -552,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "ArbitraryIO",
           "package": "wizards",
@@ -561,6 +610,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "ArbitraryIO",
           "normalized": "a b ArbitraryIO(IO b)(b-\u003ec)",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Character",
           "package": "wizards",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Character",
           "normalized": "Character PromptString(Char-\u003ea)",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Inl",
           "package": "wizards",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Inl",
           "package": "wizards",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Inr",
           "package": "wizards",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Inr",
           "package": "wizards",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Line",
           "package": "wizards",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Line",
           "normalized": "Line PromptString(String-\u003ea)",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "LinePrewritten",
           "package": "wizards",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "LinePrewritten",
           "normalized": "LinePrewritten PromptString String String(String-\u003ea)",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Output",
           "package": "wizards",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Output",
           "package": "wizards",
@@ -714,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "OutputLn",
           "package": "wizards",
@@ -723,6 +786,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "OutputLn",
           "package": "wizards",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "Password",
           "package": "wizards",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "Password",
           "normalized": "Password PromptString(Maybe Char)(String-\u003ea)",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjection function for free monads, see \"Data Types a la Carte\" from Walter Swierstra, \u003ccode\u003ehttp://www.cs.ru.nl/~W.Swierstra/Publications/DataTypesALaCarte.pdf\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "inject",
           "package": "wizards",
@@ -794,6 +861,7 @@
         "index": {
           "description": "Injection function for free monads see Data Types la Carte from Walter Swierstra http www.cs.ru.nl W.Swierstra Publications DataTypesALaCarte.pdf",
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "inject",
           "normalized": "a(Free b c)-\u003eFree b c",
@@ -834,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Internal",
           "name": "runAlgebra",
           "package": "wizards",
@@ -843,6 +912,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Internal",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Internal",
           "name": "runAlgebra",
           "normalized": "a(b c)-\u003eb c",
@@ -858,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Pure",
           "name": "Pure",
           "package": "wizards",
@@ -866,6 +937,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Pure",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Pure",
           "name": "Pure",
           "package": "wizards",
@@ -880,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ePure\u003c/a\u003e\u003c/code\u003e backend supports only simple input and output.\n   Support for \u003ccode\u003e\u003ca\u003ePassword\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eLinePrewritten\u003c/a\u003e\u003c/code\u003e features can be added with \n   a shim from \u003ca\u003eSystem.Console.Wizard.Shim\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Pure",
           "name": "Pure",
           "package": "wizards",
@@ -889,6 +962,7 @@
         "index": {
           "description": "The Pure backend supports only simple input and output Support for Password and LinePrewritten features can be added with shim from System.Console.Wizard.Shim",
           "hierarchy": "System Console Wizard Pure",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Pure",
           "name": "Pure",
           "package": "wizards",
@@ -903,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe pure backend is actually just a simple state monad, with the following state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Pure",
           "name": "PureState",
           "package": "wizards",
@@ -912,6 +987,7 @@
         "index": {
           "description": "The pure backend is actually just simple state monad with the following state",
           "hierarchy": "System Console Wizard Pure",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Pure",
           "name": "PureState",
           "package": "wizards",
@@ -926,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrown if the wizard ever unexpectedly runs out of input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Pure",
           "name": "UnexpectedEOI",
           "package": "wizards",
@@ -935,6 +1012,7 @@
         "index": {
           "description": "Thrown if the wizard ever unexpectedly runs out of input",
           "hierarchy": "System Console Wizard Pure",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Pure",
           "name": "UnexpectedEOI",
           "package": "wizards",
@@ -948,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Pure",
           "name": "UnexpectedEOI",
           "package": "wizards",
@@ -957,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard Pure",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Pure",
           "name": "UnexpectedEOI",
           "package": "wizards",
@@ -971,6 +1051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a wizard in the Pure backend\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard.Pure",
           "name": "runPure",
           "package": "wizards",
@@ -981,6 +1062,7 @@
         "index": {
           "description": "Run wizard in the Pure backend",
           "hierarchy": "System Console Wizard Pure",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard.Pure",
           "name": "runPure",
           "normalized": "Wizard Pure a-\u003eString-\u003e(Maybe a,String)",
@@ -996,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "Wizard",
           "package": "wizards",
@@ -1004,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "Wizard",
           "package": "wizards",
@@ -1018,6 +1102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoproduct of two functors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": ":+:",
           "package": "wizards",
@@ -1027,6 +1112,7 @@
         "index": {
           "description": "Coproduct of two functors",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": ":+:",
           "package": "wizards",
@@ -1040,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubsumption of two functors. You shouldn't define any of your own instances of this when writing back-ends, rely only on GeneralizedNewtypeDeriving.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": ":\u003c:",
           "package": "wizards",
@@ -1049,6 +1136,7 @@
         "index": {
           "description": "Subsumption of two functors You shouldn define any of your own instances of this when writing back-ends rely only on GeneralizedNewtypeDeriving",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": ":\u003c:",
           "package": "wizards",
@@ -1061,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "ArbitraryIO",
           "package": "wizards",
@@ -1069,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "ArbitraryIO",
           "package": "wizards",
@@ -1082,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "Character",
           "package": "wizards",
@@ -1090,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "Character",
           "package": "wizards",
@@ -1103,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "Line",
           "package": "wizards",
@@ -1111,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "Line",
           "package": "wizards",
@@ -1124,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "LinePrewritten",
           "package": "wizards",
@@ -1132,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "LinePrewritten",
           "package": "wizards",
@@ -1145,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "Output",
           "package": "wizards",
@@ -1153,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "Output",
           "package": "wizards",
@@ -1166,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "OutputLn",
           "package": "wizards",
@@ -1174,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "OutputLn",
           "package": "wizards",
@@ -1187,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "Password",
           "package": "wizards",
@@ -1195,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "Password",
           "package": "wizards",
@@ -1209,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string for a prompt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "PromptString",
           "package": "wizards",
@@ -1218,6 +1321,7 @@
         "index": {
           "description": "string for prompt",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "PromptString",
           "package": "wizards",
@@ -1232,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eWizard b a\u003c/code\u003e is a conversation with the user via back-end \u003ccode\u003eb\u003c/code\u003e that will result in a data type \u003ccode\u003ea\u003c/code\u003e, or may fail.\n   A \u003ccode\u003e\u003ca\u003eWizard\u003c/a\u003e\u003c/code\u003e is made up of one or more \"primitives\" (see below), composed using the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e,\n  \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instances. The \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance is, as you might expect, a maybe-style cascade. \n   If the first wizard fails, the next one is tried. \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e can be used to induce failure directly.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eWizard\u003c/a\u003e\u003c/code\u003e constructor is exported here for use when developing backends,  but it is better for end-users to \n  simply pretend that \u003ccode\u003e\u003ca\u003eWizard\u003c/a\u003e\u003c/code\u003e is an opaque data type. Don't depend on this unless you have no other choice.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eWizard\u003c/a\u003e\u003c/code\u003es are, internally, just a maybe transformer over a free monad built from some coproduct of functors,\n  each of which is a primitive action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "Wizard",
           "package": "wizards",
@@ -1241,6 +1346,7 @@
         "index": {
           "description": "Wizard is conversation with the user via back-end that will result in data type or may fail Wizard is made up of one or more primitives see below composed using the Applicative Monad and Alternative instances The Alternative instance is as you might expect maybe-style cascade If the first wizard fails the next one is tried mzero can be used to induce failure directly The Wizard constructor is exported here for use when developing backends but it is better for end-users to simply pretend that Wizard is an opaque data type Don depend on this unless you have no other choice Wizard are internally just maybe transformer over free monad built from some coproduct of functors each of which is primitive action",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "Wizard",
           "package": "wizards",
@@ -1255,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a single character only from input. Cannot fail (but may throw exceptions, depending on the backend).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "character",
           "package": "wizards",
@@ -1265,6 +1372,7 @@
         "index": {
           "description": "Read single character only from input Cannot fail but may throw exceptions depending on the backend",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "character",
           "normalized": "PromptString-\u003eWizard a Char",
@@ -1280,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ex `defaultTo` y\u003c/code\u003e will return \u003ccode\u003ey\u003c/code\u003e if \u003ccode\u003ex\u003c/code\u003e fails, e.g \u003ccode\u003eparseRead line `defaultTo` 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "defaultTo",
           "package": "wizards",
@@ -1290,6 +1399,7 @@
         "index": {
           "description": "defaultTo will return if fails e.g parseRead line defaultTo",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "defaultTo",
           "normalized": "Wizard a b-\u003eb-\u003eWizard a b",
@@ -1306,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsures that a maybe value satisfies a given predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "ensure",
           "package": "wizards",
@@ -1316,6 +1427,7 @@
         "index": {
           "description": "Ensures that maybe value satisfies given predicate",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "ensure",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eMaybe a",
@@ -1331,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a wizard fail if it gets an ordered quantity outside of the given range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "inRange",
           "package": "wizards",
@@ -1341,6 +1454,7 @@
         "index": {
           "description": "Makes wizard fail if it gets an ordered quantity outside of the given range",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "inRange",
           "normalized": "(a,a)-\u003eWizard b a-\u003eWizard b a",
@@ -1357,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a maybe value into wizard success/failure.\t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "liftMaybe",
           "package": "wizards",
@@ -1367,6 +1482,7 @@
         "index": {
           "description": "Translate maybe value into wizard success failure",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "liftMaybe",
           "normalized": "Maybe a-\u003eWizard b a",
@@ -1383,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead one line of input from the user. Cannot fail (but may throw exceptions, depending on the backend).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "line",
           "package": "wizards",
@@ -1393,6 +1510,7 @@
         "index": {
           "description": "Read one line of input from the user Cannot fail but may throw exceptions depending on the backend",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "line",
           "normalized": "PromptString-\u003eWizard a String",
@@ -1408,6 +1526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead one line of input, with some default text already present, before and/or after the editing cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "linePrewritten",
           "package": "wizards",
@@ -1417,6 +1536,7 @@
         "index": {
           "description": "Read one line of input with some default text already present before and or after the editing cursor",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "linePrewritten",
           "normalized": "PromptString-\u003eString-\u003eString-\u003eWizard a String",
@@ -1433,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimply \u003ccode\u003evalidator (not . null)\u003c/code\u003e, makes a wizard fail if it gets an empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "nonEmpty",
           "package": "wizards",
@@ -1443,6 +1564,7 @@
         "index": {
           "description": "Simply validator not null makes wizard fail if it gets an empty string",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "nonEmpty",
           "normalized": "Wizard a[b]-\u003eWizard a[b]",
@@ -1459,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a string. Does not fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "output",
           "package": "wizards",
@@ -1469,6 +1592,7 @@
         "index": {
           "description": "Output string Does not fail",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "output",
           "normalized": "String-\u003eWizard a()",
@@ -1484,6 +1608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a string followed by a newline. Does not fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "outputLn",
           "package": "wizards",
@@ -1494,6 +1619,7 @@
         "index": {
           "description": "Output string followed by newline Does not fail",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "outputLn",
           "normalized": "String-\u003eWizard a()",
@@ -1510,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimply \u003ccode\u003eparser readP\u003c/code\u003e. Attaches a simple \u003ccode\u003eread\u003c/code\u003e parser to a \u003ccode\u003e\u003ca\u003eWizard\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "parseRead",
           "package": "wizards",
@@ -1520,6 +1647,7 @@
         "index": {
           "description": "Simply parser readP Attaches simple read parser to Wizard",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "parseRead",
           "normalized": "Wizard a String-\u003eWizard a b",
@@ -1536,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e, except the function may be partial (\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e causes the wizard to fail).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "parser",
           "package": "wizards",
@@ -1546,6 +1675,7 @@
         "index": {
           "description": "Like fmap except the function may be partial Nothing causes the wizard to fail",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "parser",
           "normalized": "(a-\u003eMaybe b)-\u003eWizard c a-\u003eWizard c b",
@@ -1561,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead one line of password input, with an optional mask character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "password",
           "package": "wizards",
@@ -1570,6 +1701,7 @@
         "index": {
           "description": "Read one line of password input with an optional mask character",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "password",
           "normalized": "PromptString-\u003eMaybe Char-\u003eWizard a String",
@@ -1585,6 +1717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA read-based parser for the \u003ccode\u003e\u003ca\u003eparser\u003c/a\u003e\u003c/code\u003e modifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "readP",
           "package": "wizards",
@@ -1595,6 +1728,7 @@
         "index": {
           "description": "read-based parser for the parser modifier",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "readP",
           "normalized": "String-\u003eMaybe a",
@@ -1610,6 +1744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetry produces a wizard that will retry the entire conversation again if it fails.\n It is simply \u003ccode\u003eretry x = x \u003c|\u003e retry x\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "retry",
           "package": "wizards",
@@ -1620,6 +1755,7 @@
         "index": {
           "description": "Retry produces wizard that will retry the entire conversation again if it fails It is simply retry retry",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "retry",
           "normalized": "Wizard a b-\u003eWizard a b",
@@ -1635,6 +1771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eretry\u003c/a\u003e\u003c/code\u003e, except an error message can be specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "retryMsg",
           "package": "wizards",
@@ -1645,6 +1782,7 @@
         "index": {
           "description": "Same as retry except an error message can be specified",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "retryMsg",
           "normalized": "String-\u003eWizard a b-\u003eWizard a b",
@@ -1661,6 +1799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evalidator p\u003c/code\u003e causes a wizard to fail if the output value does not satisfy the predicate \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:17 UTC 2014",
           "module": "System.Console.Wizard",
           "name": "validator",
           "package": "wizards",
@@ -1671,6 +1810,7 @@
         "index": {
           "description": "validator causes wizard to fail if the output value does not satisfy the predicate",
           "hierarchy": "System Console Wizard",
+          "indexed": "2014-03-11T20:39:17",
           "module": "System.Console.Wizard",
           "name": "validator",
           "normalized": "(a-\u003eBool)-\u003eWizard b a-\u003eWizard b a",

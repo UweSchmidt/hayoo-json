@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monadtransform"
+        "phrase": "monadtransform",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:49 UTC 2014",
           "module": "Control.Monad.Transform.Class",
           "name": "Class",
           "package": "monadtransform",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Transform Class",
+          "indexed": "2014-03-11T19:21:49",
           "module": "Control.Monad.Transform.Class",
           "name": "Class",
           "package": "monadtransform",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:49 UTC 2014",
           "module": "Control.Monad.Transform.Class",
           "name": "MonadTransform",
           "package": "monadtransform",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Transform Class",
+          "indexed": "2014-03-11T19:21:49",
           "module": "Control.Monad.Transform.Class",
           "name": "MonadTransform",
           "package": "monadtransform",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:49 UTC 2014",
           "module": "Control.Monad.Transform.Class",
           "name": "liftHom",
           "package": "monadtransform",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Transform Class",
+          "indexed": "2014-03-11T19:21:49",
           "module": "Control.Monad.Transform.Class",
           "name": "liftHom",
           "normalized": "a Identity b-\u003ea c b",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:49 UTC 2014",
           "module": "Control.Monad.Transform.Class",
           "name": "transform",
           "package": "monadtransform",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Transform Class",
+          "indexed": "2014-03-11T19:21:49",
           "module": "Control.Monad.Transform.Class",
           "name": "transform",
           "normalized": "(a b c d-\u003ee d)-\u003ef c g-\u003ef e g",

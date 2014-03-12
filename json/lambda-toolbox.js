@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lambda-toolbox"
+        "phrase": "lambda-toolbox",
+        "type": "phrase"
       },
       "type": "context"
     }

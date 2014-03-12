@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings"
+        "phrase": "bindings",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:26 UTC 2014",
           "module": "Bindings.Deprecated",
           "name": "Deprecated",
           "package": "bindings",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bindings Deprecated",
+          "indexed": "2014-03-11T17:19:26",
           "module": "Bindings.Deprecated",
           "name": "Deprecated",
           "package": "bindings",

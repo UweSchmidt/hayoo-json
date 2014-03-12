@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "secure-sockets"
+        "phrase": "secure-sockets",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure.Identity",
           "name": "Identity",
           "package": "secure-sockets",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Secure Identity",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure.Identity",
           "name": "Identity",
           "package": "secure-sockets",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identity, public or private.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure.Identity",
           "name": "Identity",
           "package": "secure-sockets",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An identity public or private",
           "hierarchy": "Network Secure Identity",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure.Identity",
           "name": "Identity",
           "package": "secure-sockets",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA local identity. This kind of identity can be used to\n authenticate \u003cem\u003eto\u003c/em\u003e remote ends of connections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure.Identity",
           "name": "LocalIdentity",
           "package": "secure-sockets",
@@ -72,6 +77,7 @@
         "index": {
           "description": "local identity This kind of identity can be used to authenticate to remote ends of connections",
           "hierarchy": "Network Secure Identity",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure.Identity",
           "name": "LocalIdentity",
           "package": "secure-sockets",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe public identity of a peer. This kind of identity can be used\n to authenticate the remote ends of connections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure.Identity",
           "name": "PeerIdentity",
           "package": "secure-sockets",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The public identity of peer This kind of identity can be used to authenticate the remote ends of connections",
           "hierarchy": "Network Secure Identity",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure.Identity",
           "name": "PeerIdentity",
           "package": "secure-sockets",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure.Identity",
           "name": "fromX509",
           "package": "secure-sockets",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Network Secure Identity",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure.Identity",
           "name": "fromX509",
           "normalized": "X-\u003eIO PeerIdentity",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the description that was associated with the identity\n when it was created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure.Identity",
           "name": "identityName",
           "package": "secure-sockets",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Return the description that was associated with the identity when it was created",
           "hierarchy": "Network Secure Identity",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure.Identity",
           "name": "identityName",
           "normalized": "a-\u003eString",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure.Identity",
           "name": "liKey",
           "package": "secure-sockets",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Network Secure Identity",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure.Identity",
           "name": "liKey",
           "normalized": "LocalIdentity-\u003eRSAKeyPair",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure.Identity",
           "name": "liX509",
           "package": "secure-sockets",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Network Secure Identity",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure.Identity",
           "name": "liX509",
           "normalized": "LocalIdentity-\u003eX",
@@ -231,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure.Identity",
           "name": "piX509",
           "package": "secure-sockets",
@@ -240,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Network Secure Identity",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure.Identity",
           "name": "piX509",
           "normalized": "PeerIdentity-\u003eX",
@@ -255,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead back an identity previously serialized with\n writeIdentity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure.Identity",
           "name": "readIdentity",
           "package": "secure-sockets",
@@ -265,6 +284,7 @@
         "index": {
           "description": "Read back an identity previously serialized with writeIdentity",
           "hierarchy": "Network Secure Identity",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure.Identity",
           "name": "readIdentity",
           "normalized": "ByteString-\u003ea b",
@@ -308,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize an identity to a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e for storage or\n transmission.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure.Identity",
           "name": "writeIdentity",
           "package": "secure-sockets",
@@ -318,6 +339,7 @@
         "index": {
           "description": "Serialize an identity to ByteString for storage or transmission",
           "hierarchy": "Network Secure Identity",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure.Identity",
           "name": "writeIdentity",
           "normalized": "a-\u003eb ByteString",
@@ -334,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library simplifies the task of securely connecting two\n servers to each other. It closely mimicks the regular socket API,\n and adds the concept of identity: each communicating server has an\n identity, and connections can only be established between two\n servers who know each other and expect to be communicating.\n\u003c/p\u003e\u003cp\u003eUnder the hood, the library takes care of strongly authenticating\n the connection, and of encrypting all traffic. If you successfully\n establish a connection using this library, you have the guarantee\n that the connection is secure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "Secure",
           "package": "secure-sockets",
@@ -343,6 +366,7 @@
         "index": {
           "description": "This library simplifies the task of securely connecting two servers to each other It closely mimicks the regular socket API and adds the concept of identity each communicating server has an identity and connections can only be established between two servers who know each other and expect to be communicating Under the hood the library takes care of strongly authenticating the connection and of encrypting all traffic If you successfully establish connection using this library you have the guarantee that the connection is secure",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "Secure",
           "package": "secure-sockets",
@@ -357,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn established authenticated connection to a peer. It is\n guaranteed that all Connection objects are with a known peer, and\n that the connection is strongly encrypted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "Connection",
           "package": "secure-sockets",
@@ -366,6 +391,7 @@
         "index": {
           "description": "An established authenticated connection to peer It is guaranteed that all Connection objects are with known peer and that the connection is strongly encrypted",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "Connection",
           "package": "secure-sockets",
@@ -380,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither a host name e.g., \u003ccode\u003e\"haskell.org\"\u003c/code\u003e or a numeric host\n address string consisting of a dotted decimal IPv4 address or an\n IPv6 address e.g., \u003ccode\u003e\"192.168.0.1\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "HostName",
           "package": "secure-sockets",
@@ -388,6 +415,7 @@
         "index": {
           "description": "Either host name e.g haskell.org or numeric host address string consisting of dotted decimal IPv4 address or an IPv6 address e.g",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "HostName",
           "package": "secure-sockets",
@@ -402,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identity, public or private.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "Identity",
           "package": "secure-sockets",
@@ -411,6 +440,7 @@
         "index": {
           "description": "An identity public or private",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "Identity",
           "package": "secure-sockets",
@@ -425,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA local identity. This kind of identity can be used to\n authenticate \u003cem\u003eto\u003c/em\u003e remote ends of connections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "LocalIdentity",
           "package": "secure-sockets",
@@ -434,6 +465,7 @@
         "index": {
           "description": "local identity This kind of identity can be used to authenticate to remote ends of connections",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "LocalIdentity",
           "package": "secure-sockets",
@@ -448,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe public identity of a peer. This kind of identity can be used\n to authenticate the remote ends of connections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "PeerIdentity",
           "package": "secure-sockets",
@@ -457,6 +490,7 @@
         "index": {
           "description": "The public identity of peer This kind of identity can be used to authenticate the remote ends of connections",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "PeerIdentity",
           "package": "secure-sockets",
@@ -470,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "ServiceName",
           "package": "secure-sockets",
@@ -477,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "ServiceName",
           "package": "secure-sockets",
@@ -491,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA server socket that accepts only secure connections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "Socket",
           "package": "secure-sockets",
@@ -500,6 +537,7 @@
         "index": {
           "description": "server socket that accepts only secure connections",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "Socket",
           "package": "secure-sockets",
@@ -514,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept one secure connection from a remote peer. The peer may\n authenticate as any of the given peer identities. A \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e is\n returned iff the autentication completes successfully.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "accept",
           "package": "secure-sockets",
@@ -524,6 +563,7 @@
         "index": {
           "description": "Accept one secure connection from remote peer The peer may authenticate as any of the given peer identities Connection is returned iff the autentication completes successfully",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "accept",
           "normalized": "LocalIdentity-\u003e[PeerIdentity]-\u003eSocket-\u003eIO Connection",
@@ -539,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the connection. No other operations on \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003es should\n be used after closing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "close",
           "package": "secure-sockets",
@@ -549,6 +590,7 @@
         "index": {
           "description": "Close the connection No other operations on Connection should be used after closing it",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "close",
           "normalized": "Connection-\u003eIO()",
@@ -564,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect securely to the given host/port. The \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e is\n returned only if the peer accepts the given \u003ccode\u003e\u003ca\u003eLocalIdentity\u003c/a\u003e\u003c/code\u003e, and if\n the remote endpoint successfully authenticates as one of the given\n \u003ccode\u003e\u003ca\u003ePeerIdentity\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "connect",
           "package": "secure-sockets",
@@ -574,6 +617,7 @@
         "index": {
           "description": "Connect securely to the given host port The Connection is returned only if the peer accepts the given LocalIdentity and if the remote endpoint successfully authenticates as one of the given PeerIdentity",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "connect",
           "normalized": "LocalIdentity-\u003e[PeerIdentity]-\u003e(HostName,ServiceName)-\u003eIO Connection",
@@ -589,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the description that was associated with the identity\n when it was created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "identityName",
           "package": "secure-sockets",
@@ -599,6 +644,7 @@
         "index": {
           "description": "Return the description that was associated with the identity when it was created",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "identityName",
           "normalized": "a-\u003eString",
@@ -615,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new secure socket server, listening on the given\n address/port. The host may be \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e to signify that the socket\n should listen on all available addresses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "newServer",
           "package": "secure-sockets",
@@ -625,6 +672,7 @@
         "index": {
           "description": "Create new secure socket server listening on the given address port The host may be Nothing to signify that the socket should listen on all available addresses",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "newServer",
           "normalized": "(Maybe HostName,ServiceName)-\u003eIO Socket",
@@ -641,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the \u003ccode\u003e\u003ca\u003ePeerIdentity\u003c/a\u003e\u003c/code\u003e of the remote end of the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "peer",
           "package": "secure-sockets",
@@ -651,6 +700,7 @@
         "index": {
           "description": "Return the PeerIdentity of the remote end of the connection",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "peer",
           "normalized": "Connection-\u003ePeerIdentity",
@@ -666,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead at most \u003ccode\u003en\u003c/code\u003e bytes from the given connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "read",
           "package": "secure-sockets",
@@ -676,6 +727,7 @@
         "index": {
           "description": "Read at most bytes from the given connection",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "read",
           "normalized": "Connection-\u003eInt-\u003eIO ByteString",
@@ -691,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead back an identity previously serialized with\n writeIdentity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "readIdentity",
           "package": "secure-sockets",
@@ -701,6 +754,7 @@
         "index": {
           "description": "Read back an identity previously serialized with writeIdentity",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "readIdentity",
           "normalized": "ByteString-\u003ea b",
@@ -717,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead at most \u003ccode\u003en\u003c/code\u003e bytes from the given connection, into the given raw buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "readPtr",
           "package": "secure-sockets",
@@ -727,6 +782,7 @@
         "index": {
           "description": "Read at most bytes from the given connection into the given raw buffer",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "readPtr",
           "normalized": "Connection-\u003ePtr a-\u003eInt-\u003eIO Int",
@@ -743,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend data to the connected peer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "write",
           "package": "secure-sockets",
@@ -753,6 +810,7 @@
         "index": {
           "description": "Send data to the connected peer",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "write",
           "normalized": "Connection-\u003eByteString-\u003eIO()",
@@ -768,6 +826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize an identity to a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e for storage or\n transmission.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "writeIdentity",
           "package": "secure-sockets",
@@ -778,6 +837,7 @@
         "index": {
           "description": "Serialize an identity to ByteString for storage or transmission",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "writeIdentity",
           "normalized": "a-\u003eb ByteString",
@@ -794,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend data from the given raw pointer to the connected peer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:10 UTC 2014",
           "module": "Network.Secure",
           "name": "writePtr",
           "package": "secure-sockets",
@@ -804,6 +865,7 @@
         "index": {
           "description": "Send data from the given raw pointer to the connected peer",
           "hierarchy": "Network Secure",
+          "indexed": "2014-03-11T19:59:10",
           "module": "Network.Secure",
           "name": "writePtr",
           "normalized": "Connection-\u003ePtr a-\u003eInt-\u003eIO()",

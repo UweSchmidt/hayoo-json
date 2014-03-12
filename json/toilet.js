@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "toilet"
+        "phrase": "toilet",
+        "type": "phrase"
       },
       "type": "context"
     }

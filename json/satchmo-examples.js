@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "satchmo-examples"
+        "phrase": "satchmo-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "opentheory-primitive"
+        "phrase": "opentheory-primitive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Byte",
           "name": "Byte",
           "package": "opentheory-primitive",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Byte",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Byte",
           "name": "Byte",
           "package": "opentheory-primitive",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Byte",
           "name": "Byte",
           "package": "opentheory-primitive",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Byte",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Byte",
           "name": "Byte",
           "package": "opentheory-primitive",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Byte",
           "name": "and",
           "package": "opentheory-primitive",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Byte",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Byte",
           "name": "and",
           "normalized": "Byte-\u003eByte-\u003eByte",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Byte",
           "name": "bit",
           "package": "opentheory-primitive",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Byte",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Byte",
           "name": "bit",
           "normalized": "Byte-\u003eNatural-\u003eBool",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Byte",
           "name": "fromNatural",
           "package": "opentheory-primitive",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Byte",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Byte",
           "name": "fromNatural",
           "normalized": "Natural-\u003eByte",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Byte",
           "name": "not",
           "package": "opentheory-primitive",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Byte",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Byte",
           "name": "not",
           "normalized": "Byte-\u003eByte",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Byte",
           "name": "or",
           "package": "opentheory-primitive",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Byte",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Byte",
           "name": "or",
           "normalized": "Byte-\u003eByte-\u003eByte",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Byte",
           "name": "shiftLeft",
           "package": "opentheory-primitive",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Byte",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Byte",
           "name": "shiftLeft",
           "normalized": "Byte-\u003eNatural-\u003eByte",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Byte",
           "name": "shiftRight",
           "package": "opentheory-primitive",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Byte",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Byte",
           "name": "shiftRight",
           "normalized": "Byte-\u003eNatural-\u003eByte",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Natural",
           "name": "Natural",
           "package": "opentheory-primitive",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Natural",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Natural",
           "name": "Natural",
           "package": "opentheory-primitive",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Natural",
           "name": "Natural",
           "package": "opentheory-primitive",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Natural",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Natural",
           "name": "Natural",
           "package": "opentheory-primitive",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Random",
           "name": "Random",
           "package": "opentheory-primitive",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Random",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Random",
           "name": "Random",
           "package": "opentheory-primitive",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Random",
           "name": "Random",
           "package": "opentheory-primitive",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Random",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Random",
           "name": "Random",
           "package": "opentheory-primitive",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Random",
           "name": "bit",
           "package": "opentheory-primitive",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Random",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Random",
           "name": "bit",
           "normalized": "Random-\u003e(Bool,Random)",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Random",
           "name": "fromInt",
           "package": "opentheory-primitive",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Random",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Random",
           "name": "fromInt",
           "normalized": "Int-\u003eRandom",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Random",
           "name": "split",
           "package": "opentheory-primitive",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Random",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Random",
           "name": "split",
           "normalized": "Random-\u003e(Random,Random)",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Test",
           "name": "Test",
           "package": "opentheory-primitive",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Test",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Test",
           "name": "Test",
           "package": "opentheory-primitive",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Test",
           "name": "assert",
           "package": "opentheory-primitive",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Test",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Test",
           "name": "assert",
           "normalized": "String-\u003eBool-\u003eIO()",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Test",
           "name": "check",
           "package": "opentheory-primitive",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Test",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Test",
           "name": "check",
           "normalized": "String-\u003ea-\u003eIO()",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Word16",
           "name": "Word16",
           "package": "opentheory-primitive",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Word16",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Word16",
           "name": "Word16",
           "package": "opentheory-primitive",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Word16",
           "name": "Word16",
           "package": "opentheory-primitive",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Word16",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Word16",
           "name": "Word16",
           "package": "opentheory-primitive",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Word16",
           "name": "and",
           "package": "opentheory-primitive",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Word16",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Word16",
           "name": "and",
           "normalized": "Word-\u003eWord-\u003eWord",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Word16",
           "name": "bit",
           "package": "opentheory-primitive",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Word16",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Word16",
           "name": "bit",
           "normalized": "Word-\u003eNatural-\u003eBool",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Word16",
           "name": "fromBytes",
           "package": "opentheory-primitive",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Word16",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Word16",
           "name": "fromBytes",
           "normalized": "Byte-\u003eByte-\u003eWord",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Word16",
           "name": "fromNatural",
           "package": "opentheory-primitive",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Word16",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Word16",
           "name": "fromNatural",
           "normalized": "Natural-\u003eWord",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Word16",
           "name": "not",
           "package": "opentheory-primitive",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Word16",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Word16",
           "name": "not",
           "normalized": "Word-\u003eWord",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Word16",
           "name": "or",
           "package": "opentheory-primitive",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Word16",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Word16",
           "name": "or",
           "normalized": "Word-\u003eWord-\u003eWord",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Word16",
           "name": "shiftLeft",
           "package": "opentheory-primitive",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Word16",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Word16",
           "name": "shiftLeft",
           "normalized": "Word-\u003eNatural-\u003eWord",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Word16",
           "name": "shiftRight",
           "package": "opentheory-primitive",
@@ -660,6 +717,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Word16",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Word16",
           "name": "shiftRight",
           "normalized": "Word-\u003eNatural-\u003eWord",
@@ -675,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:32 UTC 2014",
           "module": "OpenTheory.Primitive.Word16",
           "name": "toBytes",
           "package": "opentheory-primitive",
@@ -684,6 +743,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Primitive Word16",
+          "indexed": "2014-03-11T19:32:32",
           "module": "OpenTheory.Primitive.Word16",
           "name": "toBytes",
           "normalized": "Word-\u003e(Byte,Byte)",

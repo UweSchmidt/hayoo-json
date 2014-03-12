@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pontarius-mediaserver"
+        "phrase": "pontarius-mediaserver",
+        "type": "phrase"
       },
       "type": "context"
     }

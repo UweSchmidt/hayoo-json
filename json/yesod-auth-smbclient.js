@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-auth-smbclient"
+        "phrase": "yesod-auth-smbclient",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:21 UTC 2014",
           "module": "Yesod.Auth.SmbClient",
           "name": "SmbClient",
           "package": "yesod-auth-smbclient",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth SmbClient",
+          "indexed": "2014-03-11T20:45:21",
           "module": "Yesod.Auth.SmbClient",
           "name": "SmbClient",
           "package": "yesod-auth-smbclient",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe smbclient authentication plugin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:21 UTC 2014",
           "module": "Yesod.Auth.SmbClient",
           "name": "authSmbClient",
           "package": "yesod-auth-smbclient",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The smbclient authentication plugin",
           "hierarchy": "Yesod Auth SmbClient",
+          "indexed": "2014-03-11T20:45:21",
           "module": "Yesod.Auth.SmbClient",
           "name": "authSmbClient",
           "normalized": "Text-\u003eText-\u003eAuthPlugin a",

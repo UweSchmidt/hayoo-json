@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "barchart"
+        "phrase": "barchart",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library provides functions and data type for generating bar\n charts, for example, from CSV files. If the functionality provided\n by the command-line program is insufficient for your needs, you can\n use the API provided by this library to draw custom bar charts.\n\u003c/p\u003e\u003cp\u003eThe library provides high-level functions to generate bar-chart\n values from different types but also exports the underlying\n datatype and all functions used for rendering such that you have\n access to all internal details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "BarChart",
           "package": "barchart",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This library provides functions and data type for generating bar charts for example from CSV files If the functionality provided by the command-line program is insufficient for your needs you can use the API provided by this library to draw custom bar charts The library provides high-level functions to generate bar-chart values from different types but also exports the underlying datatype and all functions used for rendering such that you have access to all internal details",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "BarChart",
           "package": "barchart",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents one bar of a bar chart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Bar",
           "package": "barchart",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Represents one bar of bar chart",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Bar",
           "package": "barchart",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBar charts consist of a (possibly empty) list of labels for the\n   diferent blcks of bars and the bars themselves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "BarChart",
           "package": "barchart",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Bar charts consist of possibly empty list of labels for the diferent blcks of bars and the bars themselves",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "BarChart",
           "package": "barchart",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBocks either have a single associated value or a mean value along\n   with minimum and maximum deviation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Block",
           "package": "barchart",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Bocks either have single associated value or mean value along with minimum and maximum deviation",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Block",
           "package": "barchart",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies how bar charts are rendered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Config",
           "package": "barchart",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Specifies how bar charts are rendered",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Config",
           "package": "barchart",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues of this type are drawn as charts where each bar has an\n   associated deviation depicted as an interval next to the bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Intervals",
           "package": "barchart",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Values of this type are drawn as charts where each bar has an associated deviation depicted as an interval next to the bar",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Intervals",
           "package": "barchart",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Label",
           "package": "barchart",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Label",
           "package": "barchart",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances of this class can be depicted in bar charts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Measurable",
           "package": "barchart",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Instances of this class can be depicted in bar charts",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Measurable",
           "package": "barchart",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues of this type are drawn as charts where each bar may be\n   divided into multiple blocks with an associated deviation\n   depicted as intervals next to them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "MultiBarIntervals",
           "package": "barchart",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Values of this type are drawn as charts where each bar may be divided into multiple blocks with an associated deviation depicted as intervals next to them",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "MultiBarIntervals",
           "package": "barchart",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues of this type are drawn as charts where each bar may\n   consist of multiple blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "MultiBars",
           "package": "barchart",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Values of this type are drawn as charts where each bar may consist of multiple blocks",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "MultiBars",
           "package": "barchart",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around the double type used in bar charts for progression\n   summaries. It has a custom \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance that shows the \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e\n   values as percentages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Ratio",
           "package": "barchart",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Wrapper around the double type used in bar charts for progression summaries It has custom Show instance that shows the Double values as percentages",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Ratio",
           "package": "barchart",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around the \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e type used in bar charts for criterion\n   summary files. It has a custom \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance to produce labels\n   like \u003ccode\u003e10ms\u003c/code\u003e or \u003ccode\u003e2h\u003c/code\u003e rather than showing the plain \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e\n   values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "RunTime",
           "package": "barchart",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Wrapper around the Double type used in bar charts for criterion summary files It has custom Show instance to produce labels like ms or rather than showing the plain Double values",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "RunTime",
           "package": "barchart",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Bar",
           "package": "barchart",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Bar",
           "package": "barchart",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "BarChart",
           "package": "barchart",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "BarChart",
           "package": "barchart",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Config",
           "package": "barchart",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Config",
           "package": "barchart",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Interval",
           "package": "barchart",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Interval",
           "package": "barchart",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Intervals",
           "package": "barchart",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Intervals",
           "normalized": "Intervals[(Label,(a,a,a))]",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "MBIntervals",
           "package": "barchart",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "MBIntervals",
           "normalized": "MBIntervals[Label][(Label,[(a,a,a)])]",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "MultiBars",
           "package": "barchart",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "MultiBars",
           "normalized": "MultiBars[Label][(Label,[a])]",
@@ -452,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Ratio",
           "package": "barchart",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Ratio",
           "package": "barchart",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "RunTime",
           "package": "barchart",
@@ -483,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "RunTime",
           "package": "barchart",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "Value",
           "package": "barchart",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "Value",
           "package": "barchart",
@@ -519,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColors for the different blocks of a bar. If there are fewer\n   colors than blocks, then colors are reused in a cyclic fashion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "barColors",
           "package": "barchart",
@@ -529,6 +574,7 @@
         "index": {
           "description": "Colors for the different blocks of bar If there are fewer colors than blocks then colors are reused in cyclic fashion",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "barColors",
           "normalized": "[SomeColor]",
@@ -545,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue between 0.0 and 1.0 which pecifies the width of\n   bars. Zero means that the bars are lines and 1.0 means that the\n   is no space between bars.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "barRatio",
           "package": "barchart",
@@ -555,6 +602,7 @@
         "index": {
           "description": "Value between and which pecifies the width of bars Zero means that the bars are lines and means that the is no space between bars",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "barRatio",
           "package": "barchart",
@@ -569,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different bars of the chart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "bars",
           "package": "barchart",
@@ -579,6 +628,7 @@
         "index": {
           "description": "The different bars of the chart",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "bars",
           "normalized": "[Bar a]",
@@ -594,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabels of blocks in bars. Drawn as a legend if non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "block_labels",
           "package": "barchart",
@@ -604,6 +655,7 @@
         "index": {
           "description": "Labels of blocks in bars Drawn as legend if non-empty",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "block_labels",
           "normalized": "[Label]",
@@ -619,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent blocks of the bar. Simple charts contain only one\n   block per bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "blocks",
           "package": "barchart",
@@ -629,6 +682,7 @@
         "index": {
           "description": "Different blocks of the bar Simple charts contain only one block per bar",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "blocks",
           "normalized": "[Block a]",
@@ -644,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle of the generated chart\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "caption",
           "package": "barchart",
@@ -654,6 +709,7 @@
         "index": {
           "description": "Title of the generated chart",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "caption",
           "package": "barchart",
@@ -667,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003ewriteComparisonChart\u003c/a\u003e\u003c/code\u003e to generate a bar chart from\n   multiple summary files generated by criterion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "comparisonChart",
           "package": "barchart",
@@ -677,6 +734,7 @@
         "index": {
           "description": "Used by writeComparisonChart to generate bar chart from multiple summary files generated by criterion",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "comparisonChart",
           "normalized": "Bool-\u003e[(Label,CSV)]-\u003eBarChart RunTime",
@@ -693,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default configuration generates a PNG file with a chart of\n   size 600x300 pixels. The output file is left unspecified and you\n   should provide one if you use a cstom configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "conf",
           "package": "barchart",
@@ -703,6 +762,7 @@
         "index": {
           "description": "The default configuration generates PNG file with chart of size x300 pixels The output file is left unspecified and you should provide one if you use cstom configuration",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "conf",
           "package": "barchart",
@@ -716,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003ewriteCriterionChart\u003c/a\u003e\u003c/code\u003e to generate a bar chart from\n   criterion's summary file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "criterionChart",
           "package": "barchart",
@@ -726,6 +787,7 @@
         "index": {
           "description": "Used by writeCriterionChart to generate bar chart from criterion summary file",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "criterionChart",
           "normalized": "CSV-\u003eBarChart RunTime",
@@ -742,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function can be used to embed bar charts into bigger\n   \u003ccode\u003e\u003ca\u003eDiagram\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "diagram",
           "package": "barchart",
@@ -752,6 +815,7 @@
         "index": {
           "description": "This function can be used to embed bar charts into bigger Diagram",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "diagram",
           "normalized": "Config-\u003eBarChart a-\u003eDiagram",
@@ -767,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimensions of the generated chart. The image will be a bit\n   larger because of additiona space used for labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "dimensions",
           "package": "barchart",
@@ -777,6 +842,7 @@
         "index": {
           "description": "Dimensions of the generated chart The image will be bit larger because of additiona space used for labels",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "dimensions",
           "normalized": "(Int,Int)",
@@ -792,6 +858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts bars with associated deviation into their \u003ccode\u003e\u003ca\u003eBarChart\u003c/a\u003e\u003c/code\u003e\n   representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "drawIntervals",
           "package": "barchart",
@@ -802,6 +869,7 @@
         "index": {
           "description": "Converts bars with associated deviation into their BarChart representation",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "drawIntervals",
           "normalized": "Intervals a-\u003eBarChart a",
@@ -818,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts bars with multiple blocks and associated deviations into\n   their \u003ccode\u003e\u003ca\u003eBarChart\u003c/a\u003e\u003c/code\u003e representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "drawMultiBarIntervals",
           "package": "barchart",
@@ -828,6 +897,7 @@
         "index": {
           "description": "Converts bars with multiple blocks and associated deviations into their BarChart representation",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "drawMultiBarIntervals",
           "normalized": "MultiBarIntervals a-\u003eBarChart a",
@@ -844,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts bars with multiple blocks into their \u003ccode\u003e\u003ca\u003eBarChart\u003c/a\u003e\u003c/code\u003e\n   representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "drawMultiBars",
           "package": "barchart",
@@ -854,6 +925,7 @@
         "index": {
           "description": "Converts bars with multiple blocks into their BarChart representation",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "drawMultiBars",
           "normalized": "MultiBars a-\u003eBarChart a",
@@ -870,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwaps bars and blocks of a chart that contains both and\n   associated deviations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "flipMultiBarIntervals",
           "package": "barchart",
@@ -880,6 +953,7 @@
         "index": {
           "description": "Swaps bars and blocks of chart that contains both and associated deviations",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "flipMultiBarIntervals",
           "normalized": "MultiBarIntervals a-\u003eMultiBarIntervals a",
@@ -896,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the size of fonts used for labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "fontSize",
           "package": "barchart",
@@ -906,6 +981,7 @@
         "index": {
           "description": "Specifies the size of fonts used for labels",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "fontSize",
           "package": "barchart",
@@ -920,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003ewriteIntervalChart\u003c/a\u003e\u003c/code\u003e to create a \u003ccode\u003e\u003ca\u003eBarChart\u003c/a\u003e\u003c/code\u003e from a CSV file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "intervalChart",
           "package": "barchart",
@@ -929,6 +1006,7 @@
         "index": {
           "description": "Used by writeIntervalChart to create BarChart from CSV file",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "intervalChart",
           "normalized": "CSV-\u003eBarChart a",
@@ -945,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel written underneath\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "label",
           "package": "barchart",
@@ -955,6 +1034,7 @@
         "index": {
           "description": "Label written underneath",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "label",
           "package": "barchart",
@@ -967,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "lower",
           "package": "barchart",
@@ -976,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "lower",
           "package": "barchart",
@@ -988,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "mean",
           "package": "barchart",
@@ -997,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "mean",
           "package": "barchart",
@@ -1010,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges several interval charts into a chart where each bar has\n   multiple blocks that represent the different interval charts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "mergeIntervals",
           "package": "barchart",
@@ -1020,6 +1105,7 @@
         "index": {
           "description": "Merges several interval charts into chart where each bar has multiple blocks that represent the different interval charts",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "mergeIntervals",
           "normalized": "[(Label,Intervals a)]-\u003eMultiBarIntervals a",
@@ -1036,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003ewriteMultiBarChart\u003c/a\u003e\u003c/code\u003e to create a \u003ccode\u003e\u003ca\u003eBarChart\u003c/a\u003e\u003c/code\u003e from a CSV file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "multiBarChart",
           "package": "barchart",
@@ -1045,6 +1132,7 @@
         "index": {
           "description": "Used by writeMultiBarChart to create BarChart from CSV file",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "multiBarChart",
           "normalized": "[Label]-\u003eCSV-\u003eBarChart a",
@@ -1061,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003ewriteMultiBarIntervalChart\u003c/a\u003e\u003c/code\u003e to create a \u003ccode\u003e\u003ca\u003eBarChart\u003c/a\u003e\u003c/code\u003e from\n | a CSV file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "multiBarIntervalChart",
           "package": "barchart",
@@ -1070,6 +1159,7 @@
         "index": {
           "description": "Used by writeMultiBarIntervalChart to create BarChart from CSV file",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "multiBarIntervalChart",
           "normalized": "[Label]-\u003eCSV-\u003eBarChart a",
@@ -1086,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efile to which the bar chart is written\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "outFile",
           "package": "barchart",
@@ -1096,6 +1187,7 @@
         "index": {
           "description": "file to which the bar chart is written",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "outFile",
           "package": "barchart",
@@ -1110,6 +1202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of generated file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "outputType",
           "package": "barchart",
@@ -1120,6 +1213,7 @@
         "index": {
           "description": "Type of generated file",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "outputType",
           "package": "barchart",
@@ -1134,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a CSV file to be drawn as a chart where each bar has an\n   attached deviation depicted as an interval next to the bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "parseIntervals",
           "package": "barchart",
@@ -1144,6 +1239,7 @@
         "index": {
           "description": "Converts CSV file to be drawn as chart where each bar has an attached deviation depicted as an interval next to the bar",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "parseIntervals",
           "normalized": "CSV-\u003eIntervals a",
@@ -1160,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a CSV file to be drawn as a chart where each bar may\n   consist of multiple blocks which have an attached deviation\n   depicted as an interval next to them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "parseMultiBarIntervals",
           "package": "barchart",
@@ -1170,6 +1267,7 @@
         "index": {
           "description": "Converts CSV file to be drawn as chart where each bar may consist of multiple blocks which have an attached deviation depicted as an interval next to them",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "parseMultiBarIntervals",
           "normalized": "[Label]-\u003eCSV-\u003eMultiBarIntervals a",
@@ -1186,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a CSV file to be drawn as a chart where each bar may\n   consist of multiple blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "parseMultiBars",
           "package": "barchart",
@@ -1196,6 +1295,7 @@
         "index": {
           "description": "Converts CSV file to be drawn as chart where each bar may consist of multiple blocks",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "parseMultiBars",
           "normalized": "[Label]-\u003eCSV-\u003eMultiBars a",
@@ -1212,6 +1312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003ewriteProgressionChart\u003c/a\u003e\u003c/code\u003e to generate a bar chart from\n   progression's \u003ccode\u003eplot.csv\u003c/code\u003e file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "progressionChart",
           "package": "barchart",
@@ -1222,6 +1323,7 @@
         "index": {
           "description": "Used by writeProgressionChart to generate bar chart from progression plot.csv file",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "progressionChart",
           "normalized": "Bool-\u003e[Label]-\u003eCSV-\u003eBarChart Ratio",
@@ -1238,6 +1340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScales the height of the chart. The given ratio is multiplied\n   with the \u003ccode\u003e\u003ca\u003esize\u003c/a\u003e\u003c/code\u003e of bars as given by the corresponding\n   \u003ccode\u003e\u003ca\u003eMeasurable\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "ratio",
           "package": "barchart",
@@ -1248,6 +1351,7 @@
         "index": {
           "description": "Scales the height of the chart The given ratio is multiplied with the size of bars as given by the corresponding Measurable instance",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "ratio",
           "package": "barchart",
@@ -1261,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a bar chart as \u003ccode\u003ebarchart.png\u003c/code\u003e according to the default\n   configuration \u003ccode\u003e\u003ca\u003econf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "render",
           "package": "barchart",
@@ -1271,6 +1376,7 @@
         "index": {
           "description": "Renders bar chart as barchart.png according to the default configuration conf",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "render",
           "normalized": "BarChart a-\u003eIO()",
@@ -1286,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a bar chart according to a custom configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "renderWith",
           "package": "barchart",
@@ -1296,6 +1403,7 @@
         "index": {
           "description": "Renders bar chart according to custom configuration",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "renderWith",
           "normalized": "Config-\u003eBarChart a-\u003eIO()",
@@ -1312,6 +1420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasures the given value to figure out the correponding height\n   of the bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "size",
           "package": "barchart",
@@ -1322,6 +1431,7 @@
         "index": {
           "description": "Measures the given value to figure out the correponding height of the bar",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "size",
           "normalized": "a-\u003eDouble",
@@ -1336,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "upper",
           "package": "barchart",
@@ -1345,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "upper",
           "package": "barchart",
@@ -1358,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads multiple summary files generated by criterion and creates a\n   bar chart to compare them. If the first argument is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e the\n   chart is flipped such that the bars represent different\n   benchmarks rather than summaries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "writeComparisonChart",
           "package": "barchart",
@@ -1368,6 +1481,7 @@
         "index": {
           "description": "Reads multiple summary files generated by criterion and creates bar chart to compare them If the first argument is True the chart is flipped such that the bars represent different benchmarks rather than summaries",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "writeComparisonChart",
           "normalized": "Bool-\u003eConfig-\u003e[FilePath]-\u003eIO()",
@@ -1384,6 +1498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a summary file generated by criterion and writes a\n   corresponding bar chart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "writeCriterionChart",
           "package": "barchart",
@@ -1394,6 +1509,7 @@
         "index": {
           "description": "Reads summary file generated by criterion and writes corresponding bar chart",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "writeCriterionChart",
           "normalized": "Config-\u003eFilePath-\u003eIO()",
@@ -1410,6 +1526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first column of the CSV file is parsed as names of the\n   bars. Three entries following each bar name are parsed as mean,\n   minimum, and maximum value and depicted using an interval next to\n   the bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "writeIntervalChart",
           "package": "barchart",
@@ -1419,6 +1536,7 @@
         "index": {
           "description": "The first column of the CSV file is parsed as names of the bars Three entries following each bar name are parsed as mean minimum and maximum value and depicted using an interval next to the bar",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "writeIntervalChart",
           "normalized": "Config-\u003eFilePath-\u003eIO()",
@@ -1435,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first column of the CSV file is parsed as names of the\n   bars. The height of each bar corresponds to the sum of all\n   subsequent entries. If there is more than one entry, the bars are\n   split into blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "writeMultiBarChart",
           "package": "barchart",
@@ -1444,6 +1563,7 @@
         "index": {
           "description": "The first column of the CSV file is parsed as names of the bars The height of each bar corresponds to the sum of all subsequent entries If there is more than one entry the bars are split into blocks",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "writeMultiBarChart",
           "normalized": "Config-\u003eFilePath-\u003e[Label]-\u003eIO()",
@@ -1460,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first column of the CSV file is parsed as names of the\n   bars. The entries following each bar name are parsed as triples\n   of mean, minimum, and maximum value and depicted using an\n   interval next to the bar. The number of subsequent entries must\n   be a multiple of three and each bar is divided into a\n   corresponding number of blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "writeMultiBarIntervalChart",
           "package": "barchart",
@@ -1469,6 +1590,7 @@
         "index": {
           "description": "The first column of the CSV file is parsed as names of the bars The entries following each bar name are parsed as triples of mean minimum and maximum value and depicted using an interval next to the bar The number of subsequent entries must be multiple of three and each bar is divided into corresponding number of blocks",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "writeMultiBarIntervalChart",
           "normalized": "Config-\u003eFilePath-\u003e[Label]-\u003eIO()",
@@ -1485,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads the \u003ccode\u003eplot.csv\u003c/code\u003e file generated by progression and creates a\n   corresponding bar chart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "writeProgressionChart",
           "package": "barchart",
@@ -1495,6 +1618,7 @@
         "index": {
           "description": "Reads the plot.csv file generated by progression and creates corresponding bar chart",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "writeProgressionChart",
           "normalized": "Bool-\u003eConfig-\u003eFilePath-\u003e[Label]-\u003eIO()",
@@ -1511,6 +1635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel of the x-axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "xLabel",
           "package": "barchart",
@@ -1521,6 +1646,7 @@
         "index": {
           "description": "Label of the x-axis",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "xLabel",
           "package": "barchart",
@@ -1535,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elabel of the y-axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:36 UTC 2014",
           "module": "Graphics.BarChart",
           "name": "yLabel",
           "package": "barchart",
@@ -1545,6 +1672,7 @@
         "index": {
           "description": "label of the y-axis",
           "hierarchy": "Graphics BarChart",
+          "indexed": "2014-03-11T17:16:36",
           "module": "Graphics.BarChart",
           "name": "yLabel",
           "package": "barchart",

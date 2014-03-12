@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "misfortune"
+        "phrase": "misfortune",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "Fortune",
           "package": "misfortune",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "Fortune",
           "package": "misfortune",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle to an open fortune database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "FortuneFile",
           "package": "misfortune",
@@ -49,6 +52,7 @@
         "index": {
           "description": "handle to an open fortune database",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "FortuneFile",
           "package": "misfortune",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome statistics about the fortunes in a database.  These are stored in \n the index file and used to speed up various calculations that would otherwise\n require re-reading lots of files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "FortuneStats",
           "package": "misfortune",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Some statistics about the fortunes in database These are stored in the index file and used to speed up various calculations that would otherwise require re-reading lots of files",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "FortuneStats",
           "package": "misfortune",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThree different search paths are supported, depending on the \"type\" of fortune\n requested.  These are the types that can be requested.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "FortuneType",
           "package": "misfortune",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Three different search paths are supported depending on the type of fortune requested These are the types that can be requested",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "FortuneType",
           "package": "misfortune",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception type indicating things that can be wrong about an index file's header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "HeaderProblem",
           "package": "misfortune",
@@ -118,6 +127,7 @@
         "index": {
           "description": "An exception type indicating things that can be wrong about an index file header",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "HeaderProblem",
           "package": "misfortune",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle to an open fortune index file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "Index",
           "package": "misfortune",
@@ -141,6 +152,7 @@
         "index": {
           "description": "handle to an open fortune index file",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "Index",
           "package": "misfortune",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConceptually, an \u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e file is just a header containing \u003ccode\u003e\u003ca\u003eFortuneStats\u003c/a\u003e\u003c/code\u003e and an array of these entries.\n An \u003ccode\u003e\u003ca\u003eIndexEntry\u003c/a\u003e\u003c/code\u003e stores the information needed to locate one string in the fortune fiel, as well as some\n basic stats about that one file (from which the \u003ccode\u003e\u003ca\u003eFortuneStats\u003c/a\u003e\u003c/code\u003e will be derived).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "IndexEntry",
           "package": "misfortune",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Conceptually an Index file is just header containing FortuneStats and an array of these entries An IndexEntry stores the information needed to locate one string in the fortune fiel as well as some basic stats about that one file from which the FortuneStats will be derived",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "IndexEntry",
           "package": "misfortune",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors that can be thrown indicating a problem with an index file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "IndexProblem",
           "package": "misfortune",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Errors that can be thrown indicating problem with an index file",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "IndexProblem",
           "package": "misfortune",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors that can be thrown when stats are read from an index file.\n These errors describe various logical inconsistencies that generally\n indicate that the index file is corrupted somehow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "StatsProblem",
           "package": "misfortune",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Errors that can be thrown when stats are read from an index file These errors describe various logical inconsistencies that generally indicate that the index file is corrupted somehow",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "StatsProblem",
           "package": "misfortune",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "AccessToClosedIndex",
           "package": "misfortune",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "AccessToClosedIndex",
           "package": "misfortune",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "All",
           "package": "misfortune",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "All",
           "package": "misfortune",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "BadMagicNumber",
           "package": "misfortune",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "BadMagicNumber",
           "package": "misfortune",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "EntriesWithoutLengths",
           "package": "misfortune",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "EntriesWithoutLengths",
           "package": "misfortune",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "HeaderProblem",
           "package": "misfortune",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "HeaderProblem",
           "package": "misfortune",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "InconsistentLengthsForOneEntry",
           "package": "misfortune",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "InconsistentLengthsForOneEntry",
           "package": "misfortune",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "IndexEntry",
           "package": "misfortune",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "IndexEntry",
           "package": "misfortune",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "LengthsWithoutEntries",
           "package": "misfortune",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "LengthsWithoutEntries",
           "package": "misfortune",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "MaxLengthLessThanMinLength",
           "package": "misfortune",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "MaxLengthLessThanMinLength",
           "package": "misfortune",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "NegativeCount",
           "package": "misfortune",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "NegativeCount",
           "package": "misfortune",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "NegativeLength",
           "package": "misfortune",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "NegativeLength",
           "package": "misfortune",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "NegativeOffset",
           "package": "misfortune",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "NegativeOffset",
           "package": "misfortune",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "Normal",
           "package": "misfortune",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "Normal",
           "package": "misfortune",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "Offensive",
           "package": "misfortune",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "Offensive",
           "package": "misfortune",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "StatsProblem",
           "package": "misfortune",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "StatsProblem",
           "package": "misfortune",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "TableLongerThanFile",
           "package": "misfortune",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "TableLongerThanFile",
           "package": "misfortune",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "TableStartsBeforeHeaderEnds",
           "package": "misfortune",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "TableStartsBeforeHeaderEnds",
           "package": "misfortune",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "UnsupportedVersion",
           "package": "misfortune",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "UnsupportedVersion",
           "package": "misfortune",
@@ -620,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend all the given entries to the \u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "appendEntries",
           "package": "misfortune",
@@ -630,6 +685,7 @@
         "index": {
           "description": "Append all the given entries to the Index file",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "appendEntries",
           "normalized": "Index-\u003eVector IndexEntry-\u003eIO()",
@@ -646,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend a single \u003ccode\u003e\u003ca\u003eIndexEntry\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "appendEntry",
           "package": "misfortune",
@@ -656,6 +713,7 @@
         "index": {
           "description": "Append single IndexEntry to an Index file",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "appendEntry",
           "normalized": "Index-\u003eIndexEntry-\u003eIO()",
@@ -672,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend a fortune to a fortune file, inserting a delimiter if\n needed and updating the index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "appendFortune",
           "package": "misfortune",
@@ -682,6 +741,7 @@
         "index": {
           "description": "Append fortune to fortune file inserting delimiter if needed and updating the index",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "appendFortune",
           "normalized": "FortuneFile-\u003eText-\u003eIO()",
@@ -698,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce a consistency check on an index file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "checkIndex",
           "package": "misfortune",
@@ -708,6 +769,7 @@
         "index": {
           "description": "Force consistency check on an index file",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "checkIndex",
           "normalized": "Index-\u003eIO(Maybe IndexProblem)",
@@ -724,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all entries from an \u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "clearIndex",
           "package": "misfortune",
@@ -734,6 +797,7 @@
         "index": {
           "description": "Delete all entries from an Index",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "clearIndex",
           "normalized": "Index-\u003eIO()",
@@ -750,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a fortune file. Subsequent accesses will fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "closeFortuneFile",
           "package": "misfortune",
@@ -760,6 +825,7 @@
         "index": {
           "description": "Close fortune file Subsequent accesses will fail",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "closeFortuneFile",
           "normalized": "FortuneFile-\u003eIO()",
@@ -776,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose an index file.  Subsequent accesses will fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "closeIndex",
           "package": "misfortune",
@@ -786,6 +853,7 @@
         "index": {
           "description": "Close an index file Subsequent accesses will fail",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "closeIndex",
           "normalized": "Index-\u003eIO()",
@@ -802,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an in-memory index - useful for working with files when, for whatever reason,\n you cannot create a valid index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "createVirtualIndex",
           "package": "misfortune",
@@ -812,6 +881,7 @@
         "index": {
           "description": "Create an in-memory index useful for working with files when for whatever reason you cannot create valid index",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "createVirtualIndex",
           "package": "misfortune",
@@ -826,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of \u003ccode\u003e\u003ca\u003eFortuneFile\u003c/a\u003e\u003c/code\u003es, compute a distrubution over them weighted by the number\n of fortunes in each.  If this distribution is used with \u003ccode\u003e\u003ca\u003erandomFortuneFromRandomFile\u003c/a\u003e\u003c/code\u003e,\n the result will be a uniform selection over all the fortunes in all the files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "defaultFortuneDistribution",
           "package": "misfortune",
@@ -836,6 +907,7 @@
         "index": {
           "description": "Given list of FortuneFile compute distrubution over them weighted by the number of fortunes in each If this distribution is used with randomFortuneFromRandomFile the result will be uniform selection over all the fortunes in all the files",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "defaultFortuneDistribution",
           "normalized": "[FortuneFile]-\u003eIO(Categorical Float FortuneFile)",
@@ -852,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all fortune files on the configured search path (see \u003ccode\u003e\u003ca\u003egetFortuneSearchPath\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "defaultFortuneFiles",
           "package": "misfortune",
@@ -862,6 +935,7 @@
         "index": {
           "description": "Get list of all fortune files on the configured search path see getFortuneSearchPath",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "defaultFortuneFiles",
           "normalized": "FortuneType-\u003eIO[FilePath]",
@@ -878,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the default search path for a specified fortune type (ignoring the \u003ccode\u003eMISFORTUNE_PATH\u003c/code\u003e environment variables)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "defaultFortuneSearchPath",
           "package": "misfortune",
@@ -888,6 +963,7 @@
         "index": {
           "description": "Get the default search path for specified fortune type ignoring the MISFORTUNE PATH environment variables",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "defaultFortuneSearchPath",
           "normalized": "FortuneType-\u003eIO[(FilePath,Bool)]",
@@ -903,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "filterFortunes",
           "package": "misfortune",
@@ -912,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "filterFortunes",
           "normalized": "(IndexEntry-\u003eBool)-\u003eFortuneFile-\u003eIO[a]",
@@ -927,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "filterFortunesM",
           "package": "misfortune",
@@ -936,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "filterFortunesM",
           "normalized": "(IndexEntry-\u003eIO Bool)-\u003eFortuneFile-\u003eIO[a]",
@@ -951,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "filterFortunesWithIndex",
           "package": "misfortune",
@@ -960,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "filterFortunesWithIndex",
           "normalized": "(a-\u003eIndexEntry-\u003eBool)-\u003eFortuneFile-\u003eIO[a]",
@@ -975,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "filterFortunesWithIndexM",
           "package": "misfortune",
@@ -984,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "filterFortunesWithIndexM",
           "normalized": "(a-\u003eIndexEntry-\u003eIO Bool)-\u003eFortuneFile-\u003eIO[a]",
@@ -1000,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003elistFortuneFiles\u003c/a\u003e\u003c/code\u003e except only returning paths with the \n specified file name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "findFortuneFile",
           "package": "misfortune",
@@ -1010,6 +1095,7 @@
         "index": {
           "description": "Like listFortuneFiles except only returning paths with the specified file name",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "findFortuneFile",
           "normalized": "Bool-\u003eFilePath-\u003eString-\u003eIO[FilePath]",
@@ -1026,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003elistFortuneFilesIn\u003c/a\u003e\u003c/code\u003e except only returning paths with the \n specified file name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "findFortuneFileIn",
           "package": "misfortune",
@@ -1036,6 +1123,7 @@
         "index": {
           "description": "Like listFortuneFilesIn except only returning paths with the specified file name",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "findFortuneFileIn",
           "normalized": "[(String,Bool)]-\u003eString-\u003eIO[FilePath]",
@@ -1052,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efindFortuneFileIn\u003c/a\u003e\u003c/code\u003e but searches for multiple files in multiple directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "findFortuneFilesIn",
           "package": "misfortune",
@@ -1062,6 +1151,7 @@
         "index": {
           "description": "Like findFortuneFileIn but searches for multiple files in multiple directories",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "findFortuneFilesIn",
           "normalized": "[(String,Bool)]-\u003e[String]-\u003eIO[FilePath]",
@@ -1078,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003edefaultFortuneDistribution\u003c/a\u003e\u003c/code\u003e, but filtering the fortunes.  In addition to the\n fortune file, the tuples in the distribution include a distribution over the\n matching fortune indices in that file, assigning equal weight to each.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "fortuneDistributionWhere",
           "package": "misfortune",
@@ -1088,6 +1179,7 @@
         "index": {
           "description": "Like defaultFortuneDistribution but filtering the fortunes In addition to the fortune file the tuples in the distribution include distribution over the matching fortune indices in that file assigning equal weight to each",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "fortuneDistributionWhere",
           "normalized": "(FortuneFile-\u003eInt-\u003eIndexEntry-\u003eIO Bool)-\u003e[FortuneFile]-\u003eIO(Categorical Float(FortuneFile,Categorical Float Int))",
@@ -1104,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path of the text part of an open fortune database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "fortuneFilePath",
           "package": "misfortune",
@@ -1114,6 +1207,7 @@
         "index": {
           "description": "Get the path of the text part of an open fortune database",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "fortuneFilePath",
           "normalized": "FortuneFile-\u003eFilePath",
@@ -1130,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path of the index part of an open fortune database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "fortuneIndexPath",
           "package": "misfortune",
@@ -1140,6 +1235,7 @@
         "index": {
           "description": "Get the path of the index part of an open fortune database",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "fortuneIndexPath",
           "normalized": "FortuneFile-\u003eFilePath",
@@ -1156,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead all the entries in an \u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "getEntries",
           "package": "misfortune",
@@ -1166,6 +1263,7 @@
         "index": {
           "description": "Read all the entries in an Index",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "getEntries",
           "normalized": "Index-\u003eIO(Vector IndexEntry)",
@@ -1182,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a specified entry from an \u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "getEntry",
           "package": "misfortune",
@@ -1192,6 +1291,7 @@
         "index": {
           "description": "Read specified entry from an Index",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "getEntry",
           "normalized": "Index-\u003eInt-\u003eIO IndexEntry",
@@ -1208,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetFortune f i\u003c/code\u003e retrieves the text of the \u003ccode\u003ei\u003c/code\u003e'th fortune\n (according to the order in the index file) in the \u003ccode\u003e\u003ca\u003eFortuneFile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "getFortune",
           "package": "misfortune",
@@ -1218,6 +1319,7 @@
         "index": {
           "description": "getFortune retrieves the text of the th fortune according to the order in the index file in the FortuneFile",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "getFortune",
           "normalized": "FortuneFile-\u003eInt-\u003eIO Text",
@@ -1234,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path of the directory containing built-in fortunes of the specified type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "getFortuneDir",
           "package": "misfortune",
@@ -1244,6 +1347,7 @@
         "index": {
           "description": "Get the path of the directory containing built-in fortunes of the specified type",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "getFortuneDir",
           "normalized": "FortuneType-\u003eIO FilePath",
@@ -1260,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the configured search path for a specified fortune type.\n If the environment variable \u003ccode\u003eMISFORTUNE_PATH_\u003ca\u003eTYPE\u003c/a\u003e\u003c/code\u003e is set, it will be used.\n Otherwise, if \u003ccode\u003eMISFORTUNE_PATH\u003c/code\u003e is set, it will be used.  Otherwise, the\n \u003ccode\u003e\u003ca\u003edefaultFortuneSearchPath\u003c/a\u003e\u003c/code\u003e will be used.\n\u003c/p\u003e\u003cp\u003eEnvironment variables are interpreted by splitting on \u003ccode\u003e\u003ccode\u003e:\u003c/code\u003e\u003c/code\u003e and checking\n for an optional \u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e prefix on each component (where \u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e indicates \n recursive search of that directory).  The default is non-recursive search\n for each component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "getFortuneSearchPath",
           "package": "misfortune",
@@ -1270,6 +1375,7 @@
         "index": {
           "description": "Get the configured search path for specified fortune type If the environment variable MISFORTUNE PATH TYPE is set it will be used Otherwise if MISFORTUNE PATH is set it will be used Otherwise the defaultFortuneSearchPath will be used Environment variables are interpreted by splitting on and checking for an optional or prefix on each component where indicates recursive search of that directory The default is non-recursive search for each component",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "getFortuneSearchPath",
           "normalized": "FortuneType-\u003eIO[(FilePath,Bool)]",
@@ -1286,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the text of every fortune in a fortune file,\n in the order they occur in the file.  Ignores the index\n entirely.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "getFortunes",
           "package": "misfortune",
@@ -1296,6 +1403,7 @@
         "index": {
           "description": "Get the text of every fortune in fortune file in the order they occur in the file Ignores the index entirely",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "getFortunes",
           "normalized": "FortuneFile-\u003eIO[Text]",
@@ -1312,6 +1420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eFortuneFile\u003c/a\u003e\u003c/code\u003e, opening it if necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "getIndex",
           "package": "misfortune",
@@ -1322,6 +1431,7 @@
         "index": {
           "description": "Get the Index of FortuneFile opening it if necessary",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "getIndex",
           "normalized": "FortuneFile-\u003eIO Index",
@@ -1338,6 +1448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of fortunes in a fortune file, as recorded\n in the index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "getNumFortunes",
           "package": "misfortune",
@@ -1348,6 +1459,7 @@
         "index": {
           "description": "Get the number of fortunes in fortune file as recorded in the index",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "getNumFortunes",
           "normalized": "FortuneFile-\u003eIO Int",
@@ -1364,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet some cached stats about the fortunes indexed in this file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "getStats",
           "package": "misfortune",
@@ -1374,6 +1487,7 @@
         "index": {
           "description": "Get some cached stats about the fortunes indexed in this file",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "getStats",
           "normalized": "Index-\u003eIO FortuneStats",
@@ -1390,6 +1504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert one index entry to a \u003ccode\u003e\u003ca\u003eFortuneStats\u003c/a\u003e\u003c/code\u003e record describing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "indexEntryStats",
           "package": "misfortune",
@@ -1400,6 +1515,7 @@
         "index": {
           "description": "Convert one index entry to FortuneStats record describing it",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "indexEntryStats",
           "normalized": "IndexEntry-\u003eFortuneStats",
@@ -1416,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all the fortune files in a directory.  The \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e value\n specifies whether to search subtrees as well.\n\u003c/p\u003e\u003cp\u003eAny file which does not have an extension of \".ix\" or \".dat\"\n will be reported as a fortune file (\".dat\" is not used by\n misfortune, but is ignored so that misfortune can share fortune\n databases with \u003ccode\u003efortune\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "listFortuneFiles",
           "package": "misfortune",
@@ -1426,6 +1543,7 @@
         "index": {
           "description": "List all the fortune files in directory The Bool value specifies whether to search subtrees as well Any file which does not have an extension of ix or dat will be reported as fortune file dat is not used by misfortune but is ignored so that misfortune can share fortune databases with fortune",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "listFortuneFiles",
           "normalized": "Bool-\u003eFilePath-\u003eIO[FilePath]",
@@ -1442,6 +1560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all the fortune files in several directories.  Each directory\n will be searched by \u003ccode\u003e\u003ca\u003elistFortuneFiles\u003c/a\u003e\u003c/code\u003e (using the corresponding \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e \n value to control whether the directory is searched recursively) and all\n results will be combined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "listFortuneFilesIn",
           "package": "misfortune",
@@ -1452,6 +1571,7 @@
         "index": {
           "description": "List all the fortune files in several directories Each directory will be searched by listFortuneFiles using the corresponding Bool value to control whether the directory is searched recursively and all results will be combined",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "listFortuneFilesIn",
           "normalized": "[(FilePath,Bool)]-\u003eIO[FilePath]",
@@ -1467,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "mapFortunes",
           "package": "misfortune",
@@ -1476,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "mapFortunes",
           "normalized": "(IndexEntry-\u003ea)-\u003eFortuneFile-\u003eIO[a]",
@@ -1491,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "mapFortunesM",
           "package": "misfortune",
@@ -1500,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "mapFortunesM",
           "normalized": "(IndexEntry-\u003eIO a)-\u003eFortuneFile-\u003eIO[a]",
@@ -1515,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "mapFortunesWithIndex",
           "package": "misfortune",
@@ -1524,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "mapFortunesWithIndex",
           "normalized": "(a-\u003eIO b)-\u003eFortuneFile-\u003eIO[b]",
@@ -1539,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "mapFortunesWithIndexM",
           "package": "misfortune",
@@ -1548,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "mapFortunesWithIndexM",
           "normalized": "(a-\u003eIndexEntry-\u003eIO b)-\u003eFortuneFile-\u003eIO[b]",
@@ -1564,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe greatest number of lines in any string in the index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "maxChars",
           "package": "misfortune",
@@ -1574,6 +1703,7 @@
         "index": {
           "description": "The greatest number of lines in any string in the index",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "maxChars",
           "normalized": "FortuneStats-\u003eInt",
@@ -1590,6 +1720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe greatest number of characters in any string in the index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "maxLines",
           "package": "misfortune",
@@ -1600,6 +1731,7 @@
         "index": {
           "description": "The greatest number of characters in any string in the index",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "maxLines",
           "normalized": "FortuneStats-\u003eInt",
@@ -1616,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe smallest number of characters in any string in the index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "minChars",
           "package": "misfortune",
@@ -1626,6 +1759,7 @@
         "index": {
           "description": "The smallest number of characters in any string in the index",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "minChars",
           "normalized": "FortuneStats-\u003eInt",
@@ -1642,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe smallest number of lines in any string in the index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "minLines",
           "package": "misfortune",
@@ -1652,6 +1787,7 @@
         "index": {
           "description": "The smallest number of lines in any string in the index",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "minLines",
           "normalized": "FortuneStats-\u003eInt",
@@ -1668,6 +1804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of fortune strings in the index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "numFortunes",
           "package": "misfortune",
@@ -1678,6 +1815,7 @@
         "index": {
           "description": "The number of fortune strings in the index",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "numFortunes",
           "normalized": "FortuneStats-\u003eInt",
@@ -1694,6 +1832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eopenFortuneFile path delim writeMode\u003c/code\u003e: Open a fortune file at \u003ccode\u003epath\u003c/code\u003e,\n using \u003ccode\u003edelim\u003c/code\u003e as the character between strings, allowing writing if\n \u003ccode\u003ewriteMode\u003c/code\u003e is set.  If no file exists at the specified path, an error\n will be thrown or the file will be created, depending on \u003ccode\u003ewriteMode\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "openFortuneFile",
           "package": "misfortune",
@@ -1704,6 +1843,7 @@
         "index": {
           "description": "openFortuneFile path delim writeMode Open fortune file at path using delim as the character between strings allowing writing if writeMode is set If no file exists at the specified path an error will be thrown or the file will be created depending on writeMode",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "openFortuneFile",
           "normalized": "Char-\u003eBool-\u003eFilePath-\u003eIO FortuneFile",
@@ -1720,6 +1860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eopenIndex path writeMode\u003c/code\u003e: Opens the index file at \u003ccode\u003epath\u003c/code\u003e.  The \u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e will\n be writable if \u003ccode\u003ewriteMode\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.  If there is no index file at that path, \n an error will be thrown or the index will be created, depending on \u003ccode\u003ewriteMode\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "openIndex",
           "package": "misfortune",
@@ -1730,6 +1871,7 @@
         "index": {
           "description": "openIndex path writeMode Opens the index file at path The Index will be writable if writeMode is True If there is no index file at that path an error will be thrown or the index will be created depending on writeMode",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "openIndex",
           "normalized": "FilePath-\u003eBool-\u003eIO Index",
@@ -1746,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect a random fortune from all files matching any of a list of names (or if the \n list is empty, all fortune files on the search path).  Every fortune string will have\n an equal probability of being selected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "randomFortune",
           "package": "misfortune",
@@ -1756,6 +1899,7 @@
         "index": {
           "description": "Select random fortune from all files matching any of list of names or if the list is empty all fortune files on the search path Every fortune string will have an equal probability of being selected",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "randomFortune",
           "normalized": "[String]-\u003eIO String",
@@ -1772,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect a random fortune file from a specified distribution and then select a\n random fortune from that file (unformly).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "randomFortuneFromRandomFile",
           "package": "misfortune",
@@ -1782,6 +1927,7 @@
         "index": {
           "description": "Select random fortune file from specified distribution and then select random fortune from that file unformly",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "randomFortuneFromRandomFile",
           "normalized": "RVar FortuneFile-\u003eIO String",
@@ -1798,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear a \u003ccode\u003e\u003ca\u003eFortuneFile\u003c/a\u003e\u003c/code\u003es \u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e and rebuild it from the contents \n of the text file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "rebuildIndex",
           "package": "misfortune",
@@ -1808,6 +1955,7 @@
         "index": {
           "description": "Clear FortuneFile Index and rebuild it from the contents of the text file",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "rebuildIndex",
           "normalized": "FortuneFile-\u003eIO()",
@@ -1824,6 +1972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the operations here should preserve correctness of stats, but just in case...\n This procedure forces the stats to be recomputed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "rebuildStats",
           "package": "misfortune",
@@ -1834,6 +1983,7 @@
         "index": {
           "description": "All the operations here should preserve correctness of stats but just in case This procedure forces the stats to be recomputed",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "rebuildStats",
           "normalized": "Index-\u003eIO()",
@@ -1850,6 +2000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for all fortune files in the configured search path with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "resolveFortuneFile",
           "package": "misfortune",
@@ -1860,6 +2011,7 @@
         "index": {
           "description": "Search for all fortune files in the configured search path with the given name",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "resolveFortuneFile",
           "normalized": "FortuneType-\u003eString-\u003eIO[FilePath]",
@@ -1876,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for all fortune files in the configured search path with any of the given names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "resolveFortuneFiles",
           "package": "misfortune",
@@ -1886,6 +2039,7 @@
         "index": {
           "description": "Search for all fortune files in the configured search path with any of the given names",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "resolveFortuneFiles",
           "normalized": "FortuneType-\u003e[String]-\u003eIO[FilePath]",
@@ -1902,6 +2056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of bytes the string occupies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "stringBytes",
           "package": "misfortune",
@@ -1912,6 +2067,7 @@
         "index": {
           "description": "The number of bytes the string occupies",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "stringBytes",
           "package": "misfortune",
@@ -1926,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of characters in the string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "stringChars",
           "package": "misfortune",
@@ -1936,6 +2093,7 @@
         "index": {
           "description": "The number of characters in the string",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "stringChars",
           "package": "misfortune",
@@ -1950,6 +2108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of lines in the string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "stringLines",
           "package": "misfortune",
@@ -1960,6 +2119,7 @@
         "index": {
           "description": "The number of lines in the string",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "stringLines",
           "package": "misfortune",
@@ -1974,6 +2134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe location of the string in the file, as a byte offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "stringOffset",
           "package": "misfortune",
@@ -1984,6 +2145,7 @@
         "index": {
           "description": "The location of the string in the file as byte offset",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "stringOffset",
           "package": "misfortune",
@@ -1998,6 +2160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeatedly invoke a generator for index entries until it returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e,\n appending all entries returned to the index file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "unfoldEntries",
           "package": "misfortune",
@@ -2008,6 +2171,7 @@
         "index": {
           "description": "Repeatedly invoke generator for index entries until it returns Nothing appending all entries returned to the index file",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "unfoldEntries",
           "normalized": "Index-\u003eIO(Maybe IndexEntry)-\u003eIO()",
@@ -2024,6 +2188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an action with an open \u003ccode\u003e\u003ca\u003eFortuneFile\u003c/a\u003e\u003c/code\u003e, ensuring the file is closed\n when the action finishes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "withFortuneFile",
           "package": "misfortune",
@@ -2034,6 +2199,7 @@
         "index": {
           "description": "Perform an action with an open FortuneFile ensuring the file is closed when the action finishes",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "withFortuneFile",
           "normalized": "Char-\u003eBool-\u003eFilePath-\u003e(FortuneFile-\u003eIO a)-\u003eIO a",
@@ -2050,6 +2216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an action with many open \u003ccode\u003e\u003ca\u003eFortuneFile\u003c/a\u003e\u003c/code\u003es, ensuring the files are closed\n when the action finishes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:30 UTC 2014",
           "module": "Data.Fortune",
           "name": "withFortuneFiles",
           "package": "misfortune",
@@ -2060,6 +2227,7 @@
         "index": {
           "description": "Perform an action with many open FortuneFile ensuring the files are closed when the action finishes",
           "hierarchy": "Data Fortune",
+          "indexed": "2014-03-11T19:18:30",
           "module": "Data.Fortune",
           "name": "withFortuneFiles",
           "normalized": "Char-\u003eBool-\u003e[FilePath]-\u003e([FortuneFile]-\u003eIO a)-\u003eIO a",

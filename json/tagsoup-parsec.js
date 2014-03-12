@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tagsoup-parsec"
+        "phrase": "tagsoup-parsec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "Parsec",
           "package": "tagsoup-parsec",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "Parsec",
           "package": "tagsoup-parsec",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Tag parser, using Tag as the token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "TagParser",
           "package": "tagsoup-parsec",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The Tag parser using Tag as the token",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "TagParser",
           "package": "tagsoup-parsec",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stateful tag parser\n This is a new type alias to allow backwards compatibility with old code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "TagParserSt",
           "package": "tagsoup-parsec",
@@ -72,6 +77,7 @@
         "index": {
           "description": "stateful tag parser This is new type alias to allow backwards compatibility with old code",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "TagParserSt",
           "package": "tagsoup-parsec",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type represent the TagOpen, any inner tags , and the TagClose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "WholeTag",
           "package": "tagsoup-parsec",
@@ -95,6 +102,7 @@
         "index": {
           "description": "type represent the TagOpen any inner tags and the TagClose",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "WholeTag",
           "package": "tagsoup-parsec",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eallCloseTags will return all TagClose with the given name.\n It is not case sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "allCloseTags",
           "package": "tagsoup-parsec",
@@ -119,6 +128,7 @@
         "index": {
           "description": "allCloseTags will return all TagClose with the given name It is not case sensitive",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "allCloseTags",
           "normalized": "a-\u003eTagParserSt a b[Tag a]",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eallOpenTags will return all TagOpen with the given name.\n It is not case sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "allOpenTags",
           "package": "tagsoup-parsec",
@@ -145,6 +156,7 @@
         "index": {
           "description": "allOpenTags will return all TagOpen with the given name It is not case sensitive",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "allOpenTags",
           "normalized": "a-\u003eTagParserSt a b[Tag a]",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eallP takes a parser which returns  a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e value, and returns a list of matching tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "allP",
           "package": "tagsoup-parsec",
@@ -171,6 +184,7 @@
         "index": {
           "description": "allP takes parser which returns Maybe value and returns list of matching tokens",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "allP",
           "normalized": "GenParser a b(Maybe c)-\u003eGenParser a b[c]",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eallWholeTags will return all WholeTag with the given name.\n It is not case sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "allWholeTags",
           "package": "tagsoup-parsec",
@@ -196,6 +211,7 @@
         "index": {
           "description": "allWholeTags will return all WholeTag with the given name It is not case sensitive",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "allWholeTags",
           "normalized": "a-\u003eTagParserSt a b[WholeTag a]",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecloseTag matches a TagClose with the given name.  It is not case sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "closeTag",
           "package": "tagsoup-parsec",
@@ -222,6 +239,7 @@
         "index": {
           "description": "closeTag matches TagClose with the given name It is not case sensitive",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "closeTag",
           "normalized": "a-\u003eTagParserSt a b(Tag a)",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeither a Right TagClose or a Left arbitary tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "eitherCloseTag",
           "package": "tagsoup-parsec",
@@ -248,6 +267,7 @@
         "index": {
           "description": "either Right TagClose or Left arbitary tag",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "eitherCloseTag",
           "normalized": "a-\u003eTagParserSt a b(Either(Tag a)(Tag a))",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeither a Right TagOpen or a Left arbitary tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "eitherOpenTag",
           "package": "tagsoup-parsec",
@@ -274,6 +295,7 @@
         "index": {
           "description": "either Right TagOpen or Left arbitary tag",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "eitherOpenTag",
           "normalized": "a-\u003eTagParserSt a b(Either(Tag a)(Tag a))",
@@ -290,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeitherP takes a parser, and becomes its \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e equivalent -- returning \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e if it matches, and \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e of anyToken if it doesn't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "eitherP",
           "package": "tagsoup-parsec",
@@ -300,6 +323,7 @@
         "index": {
           "description": "eitherP takes parser and becomes its Either equivalent returning Right if it matches and Left of anyToken if it doesn",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "eitherP",
           "normalized": "GenParser a b c-\u003eGenParser a b(Either a c)",
@@ -315,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeither a Right WholeTag or a Left arbitary tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "eitherWholeTag",
           "package": "tagsoup-parsec",
@@ -325,6 +350,7 @@
         "index": {
           "description": "either Right WholeTag or Left arbitary tag",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "eitherWholeTag",
           "normalized": "a-\u003eTagParserSt a b(Either(Tag a)(WholeTag a))",
@@ -341,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaybeCloseTag will return \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the tag if it gets a TagClose with he given name,\n It will return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e otherwise.\n It is not case sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "maybeCloseTag",
           "package": "tagsoup-parsec",
@@ -351,6 +378,7 @@
         "index": {
           "description": "maybeCloseTag will return Just the tag if it gets TagClose with he given name It will return Nothing otherwise It is not case sensitive",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "maybeCloseTag",
           "normalized": "a-\u003eTagParserSt a b(Maybe(Tag a))",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaybeOpenTag will return \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the tag if it gets a TagOpen with he given name,\n It will return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e otherwise.\n It is not case sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "maybeOpenTag",
           "package": "tagsoup-parsec",
@@ -377,6 +406,7 @@
         "index": {
           "description": "maybeOpenTag will return Just the tag if it gets TagOpen with he given name It will return Nothing otherwise It is not case sensitive",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "maybeOpenTag",
           "normalized": "a-\u003eTagParserSt a b(Maybe(Tag a))",
@@ -393,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaybeP takes a parser, and becomes its \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e equivalent -- returning \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e if it matches, and \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if it doesn't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "maybeP",
           "package": "tagsoup-parsec",
@@ -403,6 +434,7 @@
         "index": {
           "description": "maybeP takes parser and becomes its Maybe equivalent returning Just if it matches and Nothing if it doesn",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "maybeP",
           "normalized": "GenParser a b c-\u003eGenParser a b(Maybe c)",
@@ -418,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaybeWholeTag will return \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the tag if it gets a WholeTag with he given name,\n It will return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e otherwise.\n It is not case sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "maybeWholeTag",
           "package": "tagsoup-parsec",
@@ -428,6 +461,7 @@
         "index": {
           "description": "maybeWholeTag will return Just the tag if it gets WholeTag with he given name It will return Nothing otherwise It is not case sensitive",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "maybeWholeTag",
           "normalized": "a-\u003eTagParserSt a b(Maybe(WholeTag a))",
@@ -444,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enotCloseTag will match any tag which is not a TagClose with the given name.  It is not case sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "notCloseTag",
           "package": "tagsoup-parsec",
@@ -454,6 +489,7 @@
         "index": {
           "description": "notCloseTag will match any tag which is not TagClose with the given name It is not case sensitive",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "notCloseTag",
           "normalized": "a-\u003eTagParserSt a b(Tag a)",
@@ -470,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enotOpenTag will match any tag which is not a TagOpen with the given name.  It is not case sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "notOpenTag",
           "package": "tagsoup-parsec",
@@ -480,6 +517,7 @@
         "index": {
           "description": "notOpenTag will match any tag which is not TagOpen with the given name It is not case sensitive",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "notOpenTag",
           "normalized": "a-\u003eTagParserSt a b(Tag a)",
@@ -496,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eopenTag matches a TagOpen with the given name.  It is not case sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "openTag",
           "package": "tagsoup-parsec",
@@ -506,6 +545,7 @@
         "index": {
           "description": "openTag matches TagOpen with the given name It is not case sensitive",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "openTag",
           "normalized": "a-\u003eTagParserSt a b(Tag a)",
@@ -522,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to invoke parsing of Tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "tParse",
           "package": "tagsoup-parsec",
@@ -532,6 +573,7 @@
         "index": {
           "description": "Used to invoke parsing of Tags",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "tParse",
           "normalized": "TagParser a b-\u003e[Tag a]-\u003eb",
@@ -548,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimply run a stateful tag parser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "tStParse",
           "package": "tagsoup-parsec",
@@ -558,6 +601,7 @@
         "index": {
           "description": "Simply run stateful tag parser",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "tStParse",
           "normalized": "TagParserSt a b c-\u003eb-\u003e[Tag a]-\u003ec",
@@ -574,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewholeTag matches a TagOpen with the given name,\n then all intervening tags,\n until it reaches a TagClose with the given name.\n It is not case sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:54 UTC 2014",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "wholeTag",
           "package": "tagsoup-parsec",
@@ -584,6 +629,7 @@
         "index": {
           "description": "wholeTag matches TagOpen with the given name then all intervening tags until it reaches TagClose with the given name It is not case sensitive",
           "hierarchy": "Text HTML TagSoup Parsec",
+          "indexed": "2014-03-11T20:16:54",
           "module": "Text.HTML.TagSoup.Parsec",
           "name": "wholeTag",
           "normalized": "a-\u003eTagParserSt a b(WholeTag a)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "web-css"
+        "phrase": "web-css",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:33 UTC 2014",
           "module": "Web.CSS.Escaping",
           "name": "Escaping",
           "package": "web-css",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web CSS Escaping",
+          "indexed": "2014-03-11T20:37:33",
           "module": "Web.CSS.Escaping",
           "name": "Escaping",
           "package": "web-css",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape a CSS identifier. This function is slightly more\n permissive than the CSS standard. For example, it does not reject\n identifiers that begin with two hyphens. The function always\n escapes \u003ccode\u003especial\u003c/code\u003e characters such as the tilde (\u003ccode\u003e~\u003c/code\u003e) or left\n bracket (\u003ccode\u003e[\u003c/code\u003e). As such, they will never be interpreted as special\n characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:33 UTC 2014",
           "module": "Web.CSS.Escaping",
           "name": "escapeIdentifier",
           "package": "web-css",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Escape CSS identifier This function is slightly more permissive than the CSS standard For example it does not reject identifiers that begin with two hyphens The function always escapes special characters such as the tilde or left bracket As such they will never be interpreted as special characters",
           "hierarchy": "Web CSS Escaping",
+          "indexed": "2014-03-11T20:37:33",
           "module": "Web.CSS.Escaping",
           "name": "escapeIdentifier",
           "normalized": "Text-\u003eText",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape a CSS string value. This function is conservative and\n produces only output characters in the US-ASCII range. This comes\n at the cost of space usage, so this function should not be used to\n encode strings expected to contain a disproportionate amount of\n non-US-ASCII characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:33 UTC 2014",
           "module": "Web.CSS.Escaping",
           "name": "escapeString",
           "package": "web-css",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Escape CSS string value This function is conservative and produces only output characters in the US-ASCII range This comes at the cost of space usage so this function should not be used to encode strings expected to contain disproportionate amount of non-US-ASCII characters",
           "hierarchy": "Web CSS Escaping",
+          "indexed": "2014-03-11T20:37:33",
           "module": "Web.CSS.Escaping",
           "name": "escapeString",
           "normalized": "Text-\u003eText",

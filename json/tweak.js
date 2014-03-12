@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tweak"
+        "phrase": "tweak",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Internal",
           "name": "Internal",
           "package": "tweak",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Internal",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Internal",
           "name": "Internal",
           "package": "tweak",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Internal",
           "name": "Comply",
           "package": "tweak",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Internal",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Internal",
           "name": "Comply",
           "package": "tweak",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Internal",
           "name": "Funktor",
           "package": "tweak",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Internal",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Internal",
           "name": "Funktor",
           "package": "tweak",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMaker\u003c/a\u003e\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e used to create \u003ccode\u003e\u003ca\u003eTweakable\u003c/a\u003e\u003c/code\u003e expressions\n  Use the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e interface or the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e helpers\n \u003ccode\u003e\u003ca\u003e.$.\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e.*.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Internal",
           "name": "Maker",
           "package": "tweak",
@@ -91,6 +98,7 @@
         "index": {
           "description": "Maker is the Applicative used to create Tweakable expressions Use the Applicative interface or the Applicative helpers and",
           "hierarchy": "Control Tweak Internal",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Internal",
           "name": "Maker",
           "package": "tweak",
@@ -156,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Internal",
           "name": "Maker",
           "package": "tweak",
@@ -165,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Internal",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Internal",
           "name": "Maker",
           "package": "tweak",
@@ -178,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Internal",
           "name": "apply",
           "package": "tweak",
@@ -187,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Internal",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Internal",
           "name": "apply",
           "normalized": "IO(Tweakable(a-\u003eb))-\u003eIO(Tweakable a)-\u003eIO(Tweakable b)",
@@ -201,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Internal",
           "name": "connect",
           "package": "tweak",
@@ -210,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Internal",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Internal",
           "name": "connect",
           "normalized": "a(b-\u003ec)-\u003ed b-\u003ea c",
@@ -224,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Internal",
           "name": "fcrap",
           "package": "tweak",
@@ -233,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Internal",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Internal",
           "name": "fcrap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ed b",
@@ -273,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Internal",
           "name": "runmaker",
           "package": "tweak",
@@ -282,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Internal",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Internal",
           "name": "runmaker",
           "package": "tweak",
@@ -295,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTweakable expressions can be updated incrementally. This module\n    exports the central expression type for incremental computations.\n    However, the \u003ccode\u003e\u003ca\u003eTweakable\u003c/a\u003e\u003c/code\u003e expressions are meant to be created with \n    \u003ccode\u003eMaker\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003ereadCache\u003c/a\u003e\u003c/code\u003e to retrieve the value of an \u003ccode\u003e\u003ca\u003eTweakable\u003c/a\u003e\u003c/code\u003e at anytime.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Tweakable",
           "name": "Tweakable",
           "package": "tweak",
@@ -304,6 +323,7 @@
         "index": {
           "description": "Tweakable expressions can be updated incrementally This module exports the central expression type for incremental computations However the Tweakable expressions are meant to be created with Maker Use readCache to retrieve the value of an Tweakable at anytime",
           "hierarchy": "Control Tweak Tweakable",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Tweakable",
           "name": "Tweakable",
           "package": "tweak",
@@ -318,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression that can be incrementally updated. \n   \u003ccode\u003e\u003ca\u003eTweakable\u003c/a\u003e\u003c/code\u003e is basically an simple \u003ccode\u003eApplicative\u003c/code\u003e\n   with a cached value.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Tweakable",
           "name": "Tweakable",
           "package": "tweak",
@@ -327,6 +348,7 @@
         "index": {
           "description": "An expression that can be incrementally updated Tweakable is basically an simple Applicative with cached value",
           "hierarchy": "Control Tweak Tweakable",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Tweakable",
           "name": "Tweakable",
           "package": "tweak",
@@ -391,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the cache and put in an \u003ccode\u003e\u003ca\u003eAnyVar\u003c/a\u003e\u003c/code\u003e existential wrapper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Tweakable",
           "name": "getAnyVar",
           "package": "tweak",
@@ -401,6 +424,7 @@
         "index": {
           "description": "Get the cache and put in an AnyVar existential wrapper",
           "hierarchy": "Control Tweak Tweakable",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Tweakable",
           "name": "getAnyVar",
           "normalized": "Tweakable a-\u003eAnyVar",
@@ -417,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the cache i.e. the \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e from the Tweakable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Tweakable",
           "name": "getVar",
           "package": "tweak",
@@ -427,6 +452,7 @@
         "index": {
           "description": "Get the cache i.e the Var from the Tweakable",
           "hierarchy": "Control Tweak Tweakable",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Tweakable",
           "name": "getVar",
           "normalized": "Tweakable a-\u003eVar a",
@@ -497,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e is the reference type used for incremental computing. It has a cached value \n     and a list of dependent children to update when it changes.\n\u003c/p\u003e\u003cp\u003eThe update propogation happens automatically when using either \u003ccode\u003e\u003ca\u003emodifyVar\u003c/a\u003e\u003c/code\u003e or \n     \u003ccode\u003e\u003ca\u003ewriteVar\u003c/a\u003e\u003c/code\u003e. Same with the \u003ccode\u003e\u003ca\u003eSTM\u003c/a\u003e\u003c/code\u003e variants. \n\u003c/p\u003e\u003cp\u003eAdditionally updates can be triggered manually with \u003ccode\u003e\u003ca\u003eupdate\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e is low level and is used by \u003ccode\u003eTweakable\u003c/code\u003e and to create incremental expressions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "Var",
           "package": "tweak",
@@ -506,6 +533,7 @@
         "index": {
           "description": "Var is the reference type used for incremental computing It has cached value and list of dependent children to update when it changes The update propogation happens automatically when using either modifyVar or writeVar Same with the STM variants Additionally updates can be triggered manually with update Var is low level and is used by Tweakable and to create incremental expressions",
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "Var",
           "package": "tweak",
@@ -519,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "AnyVar",
           "package": "tweak",
@@ -527,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "AnyVar",
           "package": "tweak",
@@ -540,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "Cacheable",
           "package": "tweak",
@@ -548,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "Cacheable",
           "package": "tweak",
@@ -562,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe container for a \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003es dependent \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "Children",
           "package": "tweak",
@@ -571,6 +604,7 @@
         "index": {
           "description": "The container for Var dependent Var",
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "Children",
           "package": "tweak",
@@ -585,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of update actions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "Update",
           "package": "tweak",
@@ -594,6 +629,7 @@
         "index": {
           "description": "The type of update actions",
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "Update",
           "package": "tweak",
@@ -608,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis a reference for incremental computation. Not only does it include a value,\n   But is also has a list of actions to execute when it is updated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "Var",
           "package": "tweak",
@@ -617,6 +654,7 @@
         "index": {
           "description": "This reference for incremental computation Not only does it include value But is also has list of actions to execute when it is updated",
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "Var",
           "package": "tweak",
@@ -630,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "AnyVar",
           "package": "tweak",
@@ -639,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "AnyVar",
           "package": "tweak",
@@ -652,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "Var",
           "package": "tweak",
@@ -661,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "Var",
           "package": "tweak",
@@ -675,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection of actions to execute when the value of the \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e is updated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "_children",
           "package": "tweak",
@@ -685,6 +728,7 @@
         "index": {
           "description": "collection of actions to execute when the value of the Var is updated",
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "_children",
           "package": "tweak",
@@ -698,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is so to references to the same \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e are not added to \u003ccode\u003e\u003ca\u003e_children\u003c/a\u003e\u003c/code\u003e\n   collection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "_identifier",
           "package": "tweak",
@@ -708,6 +753,7 @@
         "index": {
           "description": "This is so to references to the same Var are not added to children collection",
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "_identifier",
           "package": "tweak",
@@ -721,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cached value of the the \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "_output",
           "package": "tweak",
@@ -731,6 +778,7 @@
         "index": {
           "description": "The cached value of the the Var",
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "_output",
           "package": "tweak",
@@ -744,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a dependent child to the \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003es children, or any type that has \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e like\n   Children\n   See \u003ccode\u003e\u003ca\u003eaddChildSTM\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eSTM\u003c/a\u003e\u003c/code\u003e version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "addChild",
           "package": "tweak",
@@ -753,6 +802,7 @@
         "index": {
           "description": "Add dependent child to the Var children or any type that has Var like Children See addChildSTM for the STM version",
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "addChild",
           "normalized": "a-\u003eAnyVar-\u003eUpdate-\u003eIO()",
@@ -769,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a dependent child to the \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003es children, or any type that has \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e like\n   Children\n   See \u003ccode\u003e\u003ca\u003eaddChild\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "addChildSTM",
           "package": "tweak",
@@ -778,6 +829,7 @@
         "index": {
           "description": "Add dependent child to the Var children or any type that has Var like Children See addChild for the IO version",
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "addChildSTM",
           "normalized": "a-\u003eAnyVar-\u003eUpdate-\u003eSTM()",
@@ -793,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "children",
           "package": "tweak",
@@ -802,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "children",
           "package": "tweak",
@@ -815,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e for the unique identifier associated with this \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "identifier",
           "package": "tweak",
@@ -825,6 +880,7 @@
         "index": {
           "description": "Lens for the unique identifier associated with this Var",
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "identifier",
           "package": "tweak",
@@ -946,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e for the cached ref\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "output",
           "package": "tweak",
@@ -956,6 +1013,7 @@
         "index": {
           "description": "Lens for the cached ref",
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "output",
           "package": "tweak",
@@ -1023,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively call update on the children of a \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e like thing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak.Var",
           "name": "update",
           "package": "tweak",
@@ -1033,6 +1092,7 @@
         "index": {
           "description": "Recursively call update on the children of Var like thing",
           "hierarchy": "Control Tweak Var",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak.Var",
           "name": "update",
           "normalized": "a-\u003eSTM()",
@@ -1102,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTweak exposes an interface for incremental computation. \n\u003c/p\u003e\u003cp\u003eThere are three main types that work together to build expressions that can \n   updated incrementally: \u003ccode\u003e\u003ca\u003eMaker\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTweakable\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eMaker\u003c/a\u003e\u003c/code\u003e exposes a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e interface for building \u003ccode\u003e\u003ca\u003eTweakable\u003c/a\u003e\u003c/code\u003e \n   expressions\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eTweakable\u003c/a\u003e\u003c/code\u003e constructs expressions that can be re-evaluated incrementally by calling\n   \u003ccode\u003e\u003ca\u003ereadCache\u003c/a\u003e\u003c/code\u003e. In contains caches of \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e is a mututable reference with dependency information, which propagates changes\n   through a graph of \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eUnder the hood everything is done using \u003ccode\u003eTVar\u003c/code\u003es and the system is meant to be used\n   in a concurrent environment. There are \u003ccode\u003eSTM\u003c/code\u003e versions of functions that occur in \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e \n   to help build more complex \u003ccode\u003eSTM\u003c/code\u003e transactions.\n\u003c/p\u003e\u003cp\u003eHere is a simple example.\n\u003c/p\u003e\u003cpre\u003e Import Control.Tweak\n \n test = do\n      foo \u003c- newVar 1\n      baz \u003c- newVar 2\n \n      quux \u003c- runMaker $ (*) \u003c$\u003e make baz \u003c*\u003e make baz\n      bar  \u003c- runMaker $ (+) \u003c$\u003e make foo \u003c*\u003e make quux\n      \n      -- prints 5\n      print =\u003c\u003c readCache bar\n\n      writeVar foo 10\n      --\n      print =\u003c\u003c readCache bar        \n\u003c/pre\u003e\u003cp\u003eIt is a little inconvient to explictly convert \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003es into \u003ccode\u003e\u003ca\u003eMaker\u003c/a\u003e\u003c/code\u003es so there is some \n   \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e like sugar for \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e, that also does the \n   proper wrapping of \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTweakable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eUsing the sugar the example above looks like. \n\u003c/p\u003e\u003cpre\u003e Import Control.Tweak\n \n test = do\n      foo \u003c- newVar 1\n      baz \u003c- newVar 2\n \n      quux \u003c- runMaker $ (*) .$. baz .*. baz\n      bar  \u003c- runMaker $ (+) .$. foo .*. quux\n      \n      -- prints 5\n      print =\u003c\u003c readCache bar\n\n      writeVar foo 10\n      --\n      print =\u003c\u003c readCache bar\n\u003c/pre\u003e\u003cp\u003eThe important people of the example above, is when the \u003ccode\u003efoo\u003c/code\u003e is updated, only \u003ccode\u003ebar\u003c/code\u003e\n   is updated, not \u003ccode\u003equux\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak",
           "name": "Tweak",
           "package": "tweak",
@@ -1111,6 +1172,7 @@
         "index": {
           "description": "Tweak exposes an interface for incremental computation There are three main types that work together to build expressions that can updated incrementally Maker Tweakable and Var Maker exposes Functor and Applicative interface for building Tweakable expressions Tweakable constructs expressions that can be re-evaluated incrementally by calling readCache In contains caches of Var Var is mututable reference with dependency information which propagates changes through graph of Var Under the hood everything is done using TVar and the system is meant to be used in concurrent environment There are STM versions of functions that occur in IO to help build more complex STM transactions Here is simple example Import Control.Tweak test do foo newVar baz newVar quux runMaker make baz make baz bar runMaker make foo make quux prints print readCache bar writeVar foo print readCache bar It is little inconvient to explictly convert Var into Maker so there is some Applicative and Functor like sugar for and that also does the proper wrapping of Var and Tweakable Using the sugar the example above looks like Import Control.Tweak test do foo newVar baz newVar quux runMaker baz baz bar runMaker foo quux prints print readCache bar writeVar foo print readCache bar The important people of the example above is when the foo is updated only bar is updated not quux",
           "hierarchy": "Control Tweak",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak",
           "name": "Tweak",
           "package": "tweak",
@@ -1125,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMaker\u003c/a\u003e\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e used to create \u003ccode\u003e\u003ca\u003eTweakable\u003c/a\u003e\u003c/code\u003e expressions\n  Use the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e interface or the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e helpers\n \u003ccode\u003e\u003ca\u003e.$.\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e.*.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak",
           "name": "Maker",
           "package": "tweak",
@@ -1134,6 +1197,7 @@
         "index": {
           "description": "Maker is the Applicative used to create Tweakable expressions Use the Applicative interface or the Applicative helpers and",
           "hierarchy": "Control Tweak",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak",
           "name": "Maker",
           "package": "tweak",
@@ -1148,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression that can be incrementally updated. \n   \u003ccode\u003e\u003ca\u003eTweakable\u003c/a\u003e\u003c/code\u003e is basically an simple \u003ccode\u003eApplicative\u003c/code\u003e\n   with a cached value.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak",
           "name": "Tweakable",
           "package": "tweak",
@@ -1157,6 +1222,7 @@
         "index": {
           "description": "An expression that can be incrementally updated Tweakable is basically an simple Applicative with cached value",
           "hierarchy": "Control Tweak",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak",
           "name": "Tweakable",
           "package": "tweak",
@@ -1171,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis a reference for incremental computation. Not only does it include a value,\n   But is also has a list of actions to execute when it is updated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak",
           "name": "Var",
           "package": "tweak",
@@ -1180,6 +1247,7 @@
         "index": {
           "description": "This reference for incremental computation Not only does it include value But is also has list of actions to execute when it is updated",
           "hierarchy": "Control Tweak",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak",
           "name": "Var",
           "package": "tweak",
@@ -1193,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:20 UTC 2014",
           "module": "Control.Tweak",
           "name": "runmaker",
           "package": "tweak",
@@ -1202,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Control Tweak",
+          "indexed": "2014-03-11T20:26:20",
           "module": "Control.Tweak",
           "name": "runmaker",
           "normalized": "Maker a-\u003eIO(Tweakable a)",

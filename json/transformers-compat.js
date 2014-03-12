@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "transformers-compat"
+        "phrase": "transformers-compat",
+        "type": "phrase"
       },
       "type": "context"
     }

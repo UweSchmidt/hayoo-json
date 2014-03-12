@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-natural"
+        "phrase": "type-natural",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType level peano natural number, some arithmetic functions and their singletons.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Natural",
           "package": "type-natural",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Type level peano natural number some arithmetic functions and their singletons",
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Natural",
           "package": "type-natural",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": ":*",
           "package": "type-natural",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": ":*",
           "package": "type-natural",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": ":*:",
           "package": "type-natural",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Type-level multiplication",
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": ":*:",
           "package": "type-natural",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": ":+",
           "package": "type-natural",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": ":+",
           "package": "type-natural",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": ":+:",
           "package": "type-natural",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": ":+:",
           "package": "type-natural",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": ":-",
           "package": "type-natural",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": ":-",
           "package": "type-natural",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": ":-:",
           "package": "type-natural",
@@ -151,6 +164,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": ":-:",
           "package": "type-natural",
@@ -164,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean-valued type-level comparison function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": ":\u003c\u003c=",
           "package": "type-natural",
@@ -173,6 +188,7 @@
         "index": {
           "description": "Boolean-valued type-level comparison function",
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": ":\u003c\u003c=",
           "package": "type-natural",
@@ -186,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComparison via type-class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": ":\u003c=",
           "package": "type-natural",
@@ -195,6 +212,7 @@
         "index": {
           "description": "Comparison via type-class",
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": ":\u003c=",
           "package": "type-natural",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Eight",
           "package": "type-natural",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Eight",
           "package": "type-natural",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Eighteen",
           "package": "type-natural",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Eighteen",
           "package": "type-natural",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Eleven",
           "package": "type-natural",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Eleven",
           "package": "type-natural",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Fifteen",
           "package": "type-natural",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Fifteen",
           "package": "type-natural",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Five",
           "package": "type-natural",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Five",
           "package": "type-natural",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Four",
           "package": "type-natural",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Four",
           "package": "type-natural",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Fourteen",
           "package": "type-natural",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Fourteen",
           "package": "type-natural",
@@ -355,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComparison via GADTs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Leq",
           "package": "type-natural",
@@ -364,6 +397,7 @@
         "index": {
           "description": "Comparison via GADTs",
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Leq",
           "package": "type-natural",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "LeqInstance",
           "package": "type-natural",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "LeqInstance",
           "package": "type-natural",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "LeqTrueInstance",
           "package": "type-natural",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "LeqTrueInstance",
           "package": "type-natural",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Max",
           "package": "type-natural",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Max",
           "package": "type-natural",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Min",
           "package": "type-natural",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Min",
           "package": "type-natural",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N0",
           "package": "type-natural",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N0",
           "package": "type-natural",
@@ -481,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N1",
           "package": "type-natural",
@@ -489,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N1",
           "package": "type-natural",
@@ -501,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N10",
           "package": "type-natural",
@@ -509,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N10",
           "package": "type-natural",
@@ -521,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N11",
           "package": "type-natural",
@@ -529,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N11",
           "package": "type-natural",
@@ -541,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N12",
           "package": "type-natural",
@@ -549,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N12",
           "package": "type-natural",
@@ -561,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N13",
           "package": "type-natural",
@@ -569,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N13",
           "package": "type-natural",
@@ -581,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N14",
           "package": "type-natural",
@@ -589,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N14",
           "package": "type-natural",
@@ -601,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N15",
           "package": "type-natural",
@@ -609,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N15",
           "package": "type-natural",
@@ -621,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N16",
           "package": "type-natural",
@@ -629,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N16",
           "package": "type-natural",
@@ -641,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N17",
           "package": "type-natural",
@@ -649,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N17",
           "package": "type-natural",
@@ -661,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N18",
           "package": "type-natural",
@@ -669,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N18",
           "package": "type-natural",
@@ -681,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N19",
           "package": "type-natural",
@@ -689,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N19",
           "package": "type-natural",
@@ -701,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N2",
           "package": "type-natural",
@@ -709,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N2",
           "package": "type-natural",
@@ -721,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N20",
           "package": "type-natural",
@@ -729,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N20",
           "package": "type-natural",
@@ -741,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N3",
           "package": "type-natural",
@@ -749,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N3",
           "package": "type-natural",
@@ -761,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N4",
           "package": "type-natural",
@@ -769,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N4",
           "package": "type-natural",
@@ -781,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N5",
           "package": "type-natural",
@@ -789,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N5",
           "package": "type-natural",
@@ -801,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N6",
           "package": "type-natural",
@@ -809,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N6",
           "package": "type-natural",
@@ -821,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N7",
           "package": "type-natural",
@@ -829,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N7",
           "package": "type-natural",
@@ -841,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N8",
           "package": "type-natural",
@@ -849,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N8",
           "package": "type-natural",
@@ -861,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "N9",
           "package": "type-natural",
@@ -869,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "N9",
           "package": "type-natural",
@@ -881,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Nat",
           "package": "type-natural",
@@ -889,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Nat",
           "package": "type-natural",
@@ -902,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Nine",
           "package": "type-natural",
@@ -910,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Nine",
           "package": "type-natural",
@@ -923,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Nineteen",
           "package": "type-natural",
@@ -931,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Nineteen",
           "package": "type-natural",
@@ -944,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "One",
           "package": "type-natural",
@@ -952,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "One",
           "package": "type-natural",
@@ -965,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "SNat",
           "package": "type-natural",
@@ -973,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "SNat",
           "package": "type-natural",
@@ -986,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Seven",
           "package": "type-natural",
@@ -994,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Seven",
           "package": "type-natural",
@@ -1007,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Seventeen",
           "package": "type-natural",
@@ -1015,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Seventeen",
           "package": "type-natural",
@@ -1028,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Sing",
           "package": "type-natural",
@@ -1036,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Sing",
           "package": "type-natural",
@@ -1049,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Six",
           "package": "type-natural",
@@ -1057,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Six",
           "package": "type-natural",
@@ -1070,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Sixteen",
           "package": "type-natural",
@@ -1078,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Sixteen",
           "package": "type-natural",
@@ -1091,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Ten",
           "package": "type-natural",
@@ -1099,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Ten",
           "package": "type-natural",
@@ -1112,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Thirteen",
           "package": "type-natural",
@@ -1120,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Thirteen",
           "package": "type-natural",
@@ -1133,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Three",
           "package": "type-natural",
@@ -1141,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Three",
           "package": "type-natural",
@@ -1154,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Twelve",
           "package": "type-natural",
@@ -1162,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Twelve",
           "package": "type-natural",
@@ -1175,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Twenty",
           "package": "type-natural",
@@ -1183,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Twenty",
           "package": "type-natural",
@@ -1196,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Two",
           "package": "type-natural",
@@ -1204,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Two",
           "package": "type-natural",
@@ -1217,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Zero",
           "package": "type-natural",
@@ -1225,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Zero",
           "package": "type-natural",
@@ -1239,6 +1357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication for singleton numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "(%*)",
           "package": "type-natural",
@@ -1249,6 +1368,7 @@
         "index": {
           "description": "Multiplication for singleton numbers",
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "(%*) %*",
           "normalized": "SNat a-\u003eSNat b-\u003eSNat(a*b)",
@@ -1264,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition for singleton numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "(%+)",
           "package": "type-natural",
@@ -1274,6 +1395,7 @@
         "index": {
           "description": "Addition for singleton numbers",
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "(%+) %+",
           "normalized": "SNat a-\u003eSNat b-\u003eSNat(a b)",
@@ -1288,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "(%-)",
           "package": "type-natural",
@@ -1297,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "(%-) %-",
           "normalized": "SNat a-\u003eSNat b-\u003eSNat(a b)",
@@ -1311,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "(%:*)",
           "package": "type-natural",
@@ -1320,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "(%:*) %:*",
           "normalized": "a b c Sing b-\u003eSing b-\u003eSing(*b b)",
@@ -1334,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "(%:+)",
           "package": "type-natural",
@@ -1343,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "(%:+) %:+",
           "normalized": "a b c Sing b-\u003eSing b-\u003eSing(b b)",
@@ -1357,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "(%:-)",
           "package": "type-natural",
@@ -1366,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "(%:-) %:-",
           "normalized": "a b c Sing b-\u003eSing b-\u003eSing(b b)",
@@ -1380,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "(%:\u003c\u003c=)",
           "package": "type-natural",
@@ -1389,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "(%:\u003c\u003c=) %:\u003c\u003c=",
           "normalized": "a b c Sing b-\u003eSing b-\u003eSing(b b)",
@@ -1403,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "S",
           "package": "type-natural",
@@ -1412,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "S",
           "package": "type-natural",
@@ -1424,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "SuccLeqSucc",
           "package": "type-natural",
@@ -1433,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "SuccLeqSucc",
           "normalized": "Leq a b-\u003eLeq(S a)(S b)",
@@ -1448,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "Z",
           "package": "type-natural",
@@ -1457,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "Z",
           "package": "type-natural",
@@ -1469,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "ZeroLeq",
           "package": "type-natural",
@@ -1478,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "ZeroLeq",
           "normalized": "SNat a-\u003eLeq Zero a",
@@ -1493,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "boolToClassLeq",
           "package": "type-natural",
@@ -1502,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "boolToClassLeq",
           "normalized": "SNat a-\u003eSNat b-\u003eLeqInstance a b",
@@ -1517,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "boolToPropLeq",
           "package": "type-natural",
@@ -1526,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "boolToPropLeq",
           "normalized": "SNat a-\u003eSNat b-\u003eLeq a b",
@@ -1541,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "eight",
           "package": "type-natural",
@@ -1550,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "eight",
           "package": "type-natural",
@@ -1562,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "eighteen",
           "package": "type-natural",
@@ -1571,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "eighteen",
           "package": "type-natural",
@@ -1583,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "eleven",
           "package": "type-natural",
@@ -1592,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "eleven",
           "package": "type-natural",
@@ -1604,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "eqPreservesS",
           "package": "type-natural",
@@ -1613,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "eqPreservesS",
           "normalized": "(a b)-\u003eS a S b",
@@ -1628,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "eqSuccMinus",
           "package": "type-natural",
@@ -1637,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "eqSuccMinus",
           "normalized": "SNat a-\u003eSNat b-\u003e(S a b)S(a b)",
@@ -1652,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "fifteen",
           "package": "type-natural",
@@ -1661,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "fifteen",
           "package": "type-natural",
@@ -1673,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "five",
           "package": "type-natural",
@@ -1682,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "five",
           "package": "type-natural",
@@ -1694,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "four",
           "package": "type-natural",
@@ -1703,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "four",
           "package": "type-natural",
@@ -1715,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "fourteen",
           "package": "type-natural",
@@ -1724,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "fourteen",
           "package": "type-natural",
@@ -1737,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert integral numbers into \u003ccode\u003e\u003ca\u003eNat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "intToNat",
           "package": "type-natural",
@@ -1747,6 +1910,7 @@
         "index": {
           "description": "Convert integral numbers into Nat",
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "intToNat",
           "normalized": "a-\u003eNat",
@@ -1762,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "leqAnitsymmetric",
           "package": "type-natural",
@@ -1771,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "leqAnitsymmetric",
           "normalized": "Leq a b-\u003eLeq b a-\u003ea b",
@@ -1786,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "leqLhs",
           "package": "type-natural",
@@ -1795,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "leqLhs",
           "normalized": "Leq a b-\u003eSNat a",
@@ -1810,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "leqRefl",
           "package": "type-natural",
@@ -1819,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "leqRefl",
           "normalized": "SNat a-\u003eLeq a a",
@@ -1834,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "leqRhs",
           "package": "type-natural",
@@ -1843,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "leqRhs",
           "normalized": "Leq a b-\u003eSNat b",
@@ -1858,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "leqSucc",
           "package": "type-natural",
@@ -1867,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "leqSucc",
           "normalized": "SNat a-\u003eLeq a(S a)",
@@ -1882,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "leqTrans",
           "package": "type-natural",
@@ -1891,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "leqTrans",
           "normalized": "Leq a b-\u003eLeq b c-\u003eLeq a c",
@@ -1906,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "max",
           "package": "type-natural",
@@ -1915,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "max",
           "normalized": "Nat-\u003eNat-\u003eNat",
@@ -1929,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "maxComm",
           "package": "type-natural",
@@ -1938,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "maxComm",
           "normalized": "SNat a-\u003eSNat b-\u003eMax a b Max b a",
@@ -1953,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "maxLeqL",
           "package": "type-natural",
@@ -1962,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "maxLeqL",
           "normalized": "SNat a-\u003eSNat b-\u003eLeq a(Max a b)",
@@ -1977,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "maxLeqR",
           "package": "type-natural",
@@ -1986,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "maxLeqR",
           "normalized": "SNat a-\u003eSNat b-\u003eLeq b(Max a b)",
@@ -2001,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "maxZL",
           "package": "type-natural",
@@ -2010,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "maxZL",
           "normalized": "SNat a-\u003eMax Z a a",
@@ -2025,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "maxZR",
           "package": "type-natural",
@@ -2034,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "maxZR",
           "normalized": "SNat a-\u003eMax a Z a",
@@ -2049,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "min",
           "package": "type-natural",
@@ -2058,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "min",
           "normalized": "Nat-\u003eNat-\u003eNat",
@@ -2072,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "minComm",
           "package": "type-natural",
@@ -2081,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "minComm",
           "normalized": "SNat a-\u003eSNat b-\u003eMin a b Min b a",
@@ -2096,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "minLeqL",
           "package": "type-natural",
@@ -2105,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "minLeqL",
           "normalized": "SNat a-\u003eSNat b-\u003eLeq(Min a b)a",
@@ -2120,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "minLeqR",
           "package": "type-natural",
@@ -2129,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "minLeqR",
           "normalized": "SNat a-\u003eSNat b-\u003eLeq(Min a b)b",
@@ -2144,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "minusCongEq",
           "package": "type-natural",
@@ -2153,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "minusCongEq",
           "normalized": "(a b)-\u003eSNat c-\u003e(a c)(b c)",
@@ -2168,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "minusNilpotent",
           "package": "type-natural",
@@ -2177,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "minusNilpotent",
           "normalized": "SNat a-\u003e(a a)Zero",
@@ -2192,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "multAssociative",
           "package": "type-natural",
@@ -2201,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "multAssociative",
           "normalized": "SNat a-\u003eSNat b-\u003eSNat c-\u003e(a*(b*c))((a*b)*c)",
@@ -2216,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "multComm",
           "package": "type-natural",
@@ -2225,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "multComm",
           "normalized": "SNat a-\u003eSNat b-\u003e(a*b)(b*a)",
@@ -2240,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "multCongL",
           "package": "type-natural",
@@ -2249,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "multCongL",
           "normalized": "SNat a-\u003e(b c)-\u003e(a*b)(a*c)",
@@ -2264,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "multCongR",
           "package": "type-natural",
@@ -2273,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "multCongR",
           "normalized": "SNat a-\u003e(b c)-\u003e(b*a)(c*a)",
@@ -2288,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "multOneL",
           "package": "type-natural",
@@ -2297,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "multOneL",
           "normalized": "SNat a-\u003e(One*a)a",
@@ -2312,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "multOneR",
           "package": "type-natural",
@@ -2321,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "multOneR",
           "normalized": "SNat a-\u003e(a*One)a",
@@ -2336,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "multPlusDistr",
           "package": "type-natural",
@@ -2345,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "multPlusDistr",
           "normalized": "SNat a-\u003eSNat b-\u003eSNat c-\u003e(a*(b c))((a*b)(a*c))",
@@ -2360,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "multZL",
           "package": "type-natural",
@@ -2369,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "multZL",
           "normalized": "SNat a-\u003e(Zero*a)Zero",
@@ -2384,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "multZR",
           "package": "type-natural",
@@ -2393,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "multZR",
           "normalized": "SNat a-\u003e(a*Zero)Zero",
@@ -2408,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n0",
           "package": "type-natural",
@@ -2417,6 +2636,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n0",
           "package": "type-natural",
@@ -2429,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n1",
           "package": "type-natural",
@@ -2438,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n1",
           "package": "type-natural",
@@ -2450,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n10",
           "package": "type-natural",
@@ -2459,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n10",
           "package": "type-natural",
@@ -2471,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n11",
           "package": "type-natural",
@@ -2480,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n11",
           "package": "type-natural",
@@ -2492,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n12",
           "package": "type-natural",
@@ -2501,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n12",
           "package": "type-natural",
@@ -2513,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n13",
           "package": "type-natural",
@@ -2522,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n13",
           "package": "type-natural",
@@ -2534,6 +2764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n14",
           "package": "type-natural",
@@ -2543,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n14",
           "package": "type-natural",
@@ -2555,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n15",
           "package": "type-natural",
@@ -2564,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n15",
           "package": "type-natural",
@@ -2576,6 +2810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n16",
           "package": "type-natural",
@@ -2585,6 +2820,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n16",
           "package": "type-natural",
@@ -2597,6 +2833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n17",
           "package": "type-natural",
@@ -2606,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n17",
           "package": "type-natural",
@@ -2618,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n18",
           "package": "type-natural",
@@ -2627,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n18",
           "package": "type-natural",
@@ -2639,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n19",
           "package": "type-natural",
@@ -2648,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n19",
           "package": "type-natural",
@@ -2660,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n2",
           "package": "type-natural",
@@ -2669,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n2",
           "package": "type-natural",
@@ -2681,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n20",
           "package": "type-natural",
@@ -2690,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n20",
           "package": "type-natural",
@@ -2702,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n3",
           "package": "type-natural",
@@ -2711,6 +2958,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n3",
           "package": "type-natural",
@@ -2723,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n4",
           "package": "type-natural",
@@ -2732,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n4",
           "package": "type-natural",
@@ -2744,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n5",
           "package": "type-natural",
@@ -2753,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n5",
           "package": "type-natural",
@@ -2765,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n6",
           "package": "type-natural",
@@ -2774,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n6",
           "package": "type-natural",
@@ -2786,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n7",
           "package": "type-natural",
@@ -2795,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n7",
           "package": "type-natural",
@@ -2807,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n8",
           "package": "type-natural",
@@ -2816,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n8",
           "package": "type-natural",
@@ -2828,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "n9",
           "package": "type-natural",
@@ -2837,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "n9",
           "package": "type-natural",
@@ -2850,6 +3110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuotesi-quoter for \u003ccode\u003e\u003ca\u003eNat\u003c/a\u003e\u003c/code\u003e. This can be used for an expression, pattern and type.\n\u003c/p\u003e\u003cp\u003efor example: \u003ccode\u003esing :: SNat ([nat| 2 |] :+ [nat| 5 |])\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "nat",
           "package": "type-natural",
@@ -2860,6 +3121,7 @@
         "index": {
           "description": "Quotesi-quoter for Nat This can be used for an expression pattern and type for example sing SNat nat nat",
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "nat",
           "package": "type-natural",
@@ -2873,6 +3135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003e\u003ca\u003eNat\u003c/a\u003e\u003c/code\u003e into normal integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "natToInt",
           "package": "type-natural",
@@ -2883,6 +3146,7 @@
         "index": {
           "description": "Convert Nat into normal integers",
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "natToInt",
           "normalized": "Nat-\u003ea",
@@ -2898,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "nine",
           "package": "type-natural",
@@ -2907,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "nine",
           "package": "type-natural",
@@ -2919,6 +3185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "nineteen",
           "package": "type-natural",
@@ -2928,6 +3195,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "nineteen",
           "package": "type-natural",
@@ -2940,6 +3208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "one",
           "package": "type-natural",
@@ -2949,6 +3218,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "one",
           "package": "type-natural",
@@ -2961,6 +3231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusAssociative",
           "package": "type-natural",
@@ -2970,6 +3241,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusAssociative",
           "normalized": "SNat a-\u003eSNat b-\u003eSNat c-\u003e(a(b c))((a b)c)",
@@ -2985,6 +3257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusCommutative",
           "package": "type-natural",
@@ -2994,6 +3267,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusCommutative",
           "normalized": "SNat a-\u003eSNat b-\u003e(a b)(b a)",
@@ -3009,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusCongL",
           "package": "type-natural",
@@ -3018,6 +3293,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusCongL",
           "normalized": "SNat a-\u003e(b c)-\u003e(a b)(a c)",
@@ -3033,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusCongR",
           "package": "type-natural",
@@ -3042,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusCongR",
           "normalized": "SNat a-\u003e(b c)-\u003e(b a)(c a)",
@@ -3057,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusLeqL",
           "package": "type-natural",
@@ -3066,6 +3345,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusLeqL",
           "normalized": "SNat a-\u003eSNat b-\u003eLeq a(a b)",
@@ -3081,6 +3361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusLeqR",
           "package": "type-natural",
@@ -3090,6 +3371,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusLeqR",
           "normalized": "SNat a-\u003eSNat b-\u003eLeq b(a b)",
@@ -3105,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusMinusEqL",
           "package": "type-natural",
@@ -3114,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusMinusEqL",
           "normalized": "SNat a-\u003eSNat b-\u003e((a b)b)a",
@@ -3129,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusMinusEqR",
           "package": "type-natural",
@@ -3138,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusMinusEqR",
           "normalized": "SNat a-\u003eSNat b-\u003e((b a)b)a",
@@ -3153,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusMonotone",
           "package": "type-natural",
@@ -3162,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusMonotone",
           "normalized": "Leq a b-\u003eLeq c d-\u003eLeq(a c)(b d)",
@@ -3177,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusMultDistr",
           "package": "type-natural",
@@ -3186,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusMultDistr",
           "normalized": "SNat a-\u003eSNat b-\u003eSNat c-\u003e((a b)*c)((a*c)(b*c))",
@@ -3201,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusSR",
           "package": "type-natural",
@@ -3210,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusSR",
           "normalized": "SNat a-\u003eSNat b-\u003eS(a b)(a S b)",
@@ -3225,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusZL",
           "package": "type-natural",
@@ -3234,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusZL",
           "normalized": "SNat a-\u003e(Z a)a",
@@ -3249,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "plusZR",
           "package": "type-natural",
@@ -3258,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "plusZR",
           "normalized": "SNat a-\u003e(a Z)a",
@@ -3273,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "propToBoolLeq",
           "package": "type-natural",
@@ -3282,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "propToBoolLeq",
           "normalized": "a b c Leq b d-\u003eLeqTrueInstance b d",
@@ -3297,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "propToClassLeq",
           "package": "type-natural",
@@ -3306,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "propToClassLeq",
           "normalized": "Leq a b-\u003eLeqInstance a b",
@@ -3321,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sAndPlusOne",
           "package": "type-natural",
@@ -3330,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sAndPlusOne",
           "normalized": "SNat a-\u003eS a(a One)",
@@ -3345,6 +3647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sEight",
           "package": "type-natural",
@@ -3354,6 +3657,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sEight",
           "package": "type-natural",
@@ -3367,6 +3671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sEighteen",
           "package": "type-natural",
@@ -3376,6 +3681,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sEighteen",
           "package": "type-natural",
@@ -3389,6 +3695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sEleven",
           "package": "type-natural",
@@ -3398,6 +3705,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sEleven",
           "package": "type-natural",
@@ -3411,6 +3719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sFifteen",
           "package": "type-natural",
@@ -3420,6 +3729,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sFifteen",
           "package": "type-natural",
@@ -3433,6 +3743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sFive",
           "package": "type-natural",
@@ -3442,6 +3753,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sFive",
           "package": "type-natural",
@@ -3455,6 +3767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sFour",
           "package": "type-natural",
@@ -3464,6 +3777,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sFour",
           "package": "type-natural",
@@ -3477,6 +3791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sFourteen",
           "package": "type-natural",
@@ -3486,6 +3801,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sFourteen",
           "package": "type-natural",
@@ -3499,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sMax",
           "package": "type-natural",
@@ -3508,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sMax",
           "normalized": "a b c Sing b-\u003eSing b-\u003eSing(Max b b)",
@@ -3523,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sMin",
           "package": "type-natural",
@@ -3532,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sMin",
           "normalized": "a b c Sing b-\u003eSing b-\u003eSing(Min b b)",
@@ -3547,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN0",
           "package": "type-natural",
@@ -3556,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN0",
           "package": "type-natural",
@@ -3568,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN1",
           "package": "type-natural",
@@ -3577,6 +3900,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN1",
           "package": "type-natural",
@@ -3589,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN10",
           "package": "type-natural",
@@ -3598,6 +3923,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN10",
           "package": "type-natural",
@@ -3610,6 +3936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN11",
           "package": "type-natural",
@@ -3619,6 +3946,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN11",
           "package": "type-natural",
@@ -3631,6 +3959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN12",
           "package": "type-natural",
@@ -3640,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN12",
           "package": "type-natural",
@@ -3652,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN13",
           "package": "type-natural",
@@ -3661,6 +3992,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN13",
           "package": "type-natural",
@@ -3673,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN14",
           "package": "type-natural",
@@ -3682,6 +4015,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN14",
           "package": "type-natural",
@@ -3694,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN15",
           "package": "type-natural",
@@ -3703,6 +4038,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN15",
           "package": "type-natural",
@@ -3715,6 +4051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN16",
           "package": "type-natural",
@@ -3724,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN16",
           "package": "type-natural",
@@ -3736,6 +4074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN17",
           "package": "type-natural",
@@ -3745,6 +4084,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN17",
           "package": "type-natural",
@@ -3757,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN18",
           "package": "type-natural",
@@ -3766,6 +4107,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN18",
           "package": "type-natural",
@@ -3778,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN19",
           "package": "type-natural",
@@ -3787,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN19",
           "package": "type-natural",
@@ -3799,6 +4143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN2",
           "package": "type-natural",
@@ -3808,6 +4153,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN2",
           "package": "type-natural",
@@ -3820,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN20",
           "package": "type-natural",
@@ -3829,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN20",
           "package": "type-natural",
@@ -3841,6 +4189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN3",
           "package": "type-natural",
@@ -3850,6 +4199,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN3",
           "package": "type-natural",
@@ -3862,6 +4212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN4",
           "package": "type-natural",
@@ -3871,6 +4222,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN4",
           "package": "type-natural",
@@ -3883,6 +4235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN5",
           "package": "type-natural",
@@ -3892,6 +4245,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN5",
           "package": "type-natural",
@@ -3904,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN6",
           "package": "type-natural",
@@ -3913,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN6",
           "package": "type-natural",
@@ -3925,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN7",
           "package": "type-natural",
@@ -3934,6 +4291,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN7",
           "package": "type-natural",
@@ -3946,6 +4304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN8",
           "package": "type-natural",
@@ -3955,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN8",
           "package": "type-natural",
@@ -3967,6 +4327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sN9",
           "package": "type-natural",
@@ -3976,6 +4337,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sN9",
           "package": "type-natural",
@@ -3989,6 +4351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert 'SNat n' into normal integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sNatToInt",
           "package": "type-natural",
@@ -3999,6 +4362,7 @@
         "index": {
           "description": "Convert SNat into normal integers",
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sNatToInt",
           "normalized": "SNat a-\u003eb",
@@ -4014,6 +4378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sNine",
           "package": "type-natural",
@@ -4023,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sNine",
           "package": "type-natural",
@@ -4036,6 +4402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sNineteen",
           "package": "type-natural",
@@ -4045,6 +4412,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sNineteen",
           "package": "type-natural",
@@ -4058,6 +4426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sOne",
           "package": "type-natural",
@@ -4067,6 +4436,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sOne",
           "package": "type-natural",
@@ -4080,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sS",
           "package": "type-natural",
@@ -4089,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sS",
           "normalized": "a b Sing c-\u003eSing(S c)",
@@ -4103,6 +4475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sSeven",
           "package": "type-natural",
@@ -4112,6 +4485,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sSeven",
           "package": "type-natural",
@@ -4125,6 +4499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sSeventeen",
           "package": "type-natural",
@@ -4134,6 +4509,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sSeventeen",
           "package": "type-natural",
@@ -4147,6 +4523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sSix",
           "package": "type-natural",
@@ -4156,6 +4533,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sSix",
           "package": "type-natural",
@@ -4169,6 +4547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sSixteen",
           "package": "type-natural",
@@ -4178,6 +4557,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sSixteen",
           "package": "type-natural",
@@ -4191,6 +4571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sTen",
           "package": "type-natural",
@@ -4200,6 +4581,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sTen",
           "package": "type-natural",
@@ -4213,6 +4595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sThirteen",
           "package": "type-natural",
@@ -4222,6 +4605,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sThirteen",
           "package": "type-natural",
@@ -4235,6 +4619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sThree",
           "package": "type-natural",
@@ -4244,6 +4629,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sThree",
           "package": "type-natural",
@@ -4257,6 +4643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sTwelve",
           "package": "type-natural",
@@ -4266,6 +4653,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sTwelve",
           "package": "type-natural",
@@ -4279,6 +4667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sTwenty",
           "package": "type-natural",
@@ -4288,6 +4677,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sTwenty",
           "package": "type-natural",
@@ -4301,6 +4691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sTwo",
           "package": "type-natural",
@@ -4310,6 +4701,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sTwo",
           "package": "type-natural",
@@ -4323,6 +4715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sZ",
           "package": "type-natural",
@@ -4332,6 +4725,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sZ",
           "package": "type-natural",
@@ -4344,6 +4738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sZero",
           "package": "type-natural",
@@ -4353,6 +4748,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sZero",
           "package": "type-natural",
@@ -4366,6 +4762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "seven",
           "package": "type-natural",
@@ -4375,6 +4772,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "seven",
           "package": "type-natural",
@@ -4387,6 +4785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "seventeen",
           "package": "type-natural",
@@ -4396,6 +4795,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "seventeen",
           "package": "type-natural",
@@ -4408,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "six",
           "package": "type-natural",
@@ -4417,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "six",
           "package": "type-natural",
@@ -4429,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "sixteen",
           "package": "type-natural",
@@ -4438,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "sixteen",
           "package": "type-natural",
@@ -4451,6 +4855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuotesi-quoter for \u003ccode\u003e\u003ca\u003eSNat\u003c/a\u003e\u003c/code\u003e. This can be used for an expression, pattern and type.\n\u003c/p\u003e\u003cp\u003eFor example: \u003ccode\u003e[snat|12|] \u003ccode\u003e\u003ca\u003e%+\u003c/a\u003e\u003c/code\u003e [snat| 5 |]\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003esing\u003c/code\u003e :: [snat| 12 |]\u003c/code\u003e, \u003ccode\u003ef [snat| 12 |] = \"hey\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "snat",
           "package": "type-natural",
@@ -4461,6 +4866,7 @@
         "index": {
           "description": "Quotesi-quoter for SNat This can be used for an expression pattern and type For example snat snat sing snat snat hey",
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "snat",
           "package": "type-natural",
@@ -4473,6 +4879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "succCongEq",
           "package": "type-natural",
@@ -4482,6 +4889,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "succCongEq",
           "normalized": "(a b)-\u003eS a S b",
@@ -4497,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "succPlusL",
           "package": "type-natural",
@@ -4506,6 +4915,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "succPlusL",
           "normalized": "SNat a-\u003eSNat b-\u003e(S a b)S(a b)",
@@ -4521,6 +4931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "succPlusR",
           "package": "type-natural",
@@ -4530,6 +4941,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "succPlusR",
           "normalized": "SNat a-\u003eSNat b-\u003e(a S b)S(a b)",
@@ -4545,6 +4957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "ten",
           "package": "type-natural",
@@ -4554,6 +4967,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "ten",
           "package": "type-natural",
@@ -4566,6 +4980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "thirteen",
           "package": "type-natural",
@@ -4575,6 +4990,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "thirteen",
           "package": "type-natural",
@@ -4587,6 +5003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "three",
           "package": "type-natural",
@@ -4596,6 +5013,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "three",
           "package": "type-natural",
@@ -4608,6 +5026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "twelve",
           "package": "type-natural",
@@ -4617,6 +5036,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "twelve",
           "package": "type-natural",
@@ -4629,6 +5049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "twenty",
           "package": "type-natural",
@@ -4638,6 +5059,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "twenty",
           "package": "type-natural",
@@ -4650,6 +5072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "two",
           "package": "type-natural",
@@ -4659,6 +5082,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "two",
           "package": "type-natural",
@@ -4671,6 +5095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "zAbsorbsMinL",
           "package": "type-natural",
@@ -4680,6 +5105,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "zAbsorbsMinL",
           "normalized": "SNat a-\u003eMin Z a Z",
@@ -4695,6 +5121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "zAbsorbsMinR",
           "package": "type-natural",
@@ -4704,6 +5131,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "zAbsorbsMinR",
           "normalized": "SNat a-\u003eMin a Z Z",
@@ -4719,6 +5147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Natural",
           "name": "zero",
           "package": "type-natural",
@@ -4728,6 +5157,7 @@
         },
         "index": {
           "hierarchy": "Data Type Natural",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Natural",
           "name": "zero",
           "package": "type-natural",
@@ -4741,6 +5171,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSet-theoretic ordinal arithmetic\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "Ordinal",
           "package": "type-natural",
@@ -4750,6 +5181,7 @@
         "index": {
           "description": "Set-theoretic ordinal arithmetic",
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "Ordinal",
           "package": "type-natural",
@@ -4763,6 +5195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "CastedOrdinal",
           "package": "type-natural",
@@ -4771,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "CastedOrdinal",
           "package": "type-natural",
@@ -4785,6 +5219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet-theoretic (finite) ordinals:\n\u003c/p\u003e\u003cpre\u003e n = {0, 1, ..., n-1}\n\u003c/pre\u003e\u003cp\u003eSo, \u003ccode\u003eOrdinal n\u003c/code\u003e has exactly n inhabitants. So especially \u003ccode\u003eOrdinal Z\u003c/code\u003e is isomorphic to \u003ccode\u003eVoid\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "Ordinal",
           "package": "type-natural",
@@ -4794,6 +5229,7 @@
         "index": {
           "description": "Set-theoretic finite ordinals n-1 So Ordinal has exactly inhabitants So especially Ordinal is isomorphic to Void",
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "Ordinal",
           "package": "type-natural",
@@ -4808,6 +5244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdinal addition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "(@+)",
           "package": "type-natural",
@@ -4818,6 +5255,7 @@
         "index": {
           "description": "Ordinal addition",
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "(@+) @+",
           "normalized": "Ordinal a-\u003eOrdinal b-\u003eOrdinal(a b)",
@@ -4832,6 +5270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "CastedOrdinal",
           "package": "type-natural",
@@ -4841,6 +5280,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "CastedOrdinal",
           "normalized": "SNat a-\u003eCastedOrdinal b",
@@ -4856,6 +5296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "OS",
           "package": "type-natural",
@@ -4865,6 +5306,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "OS",
           "normalized": "Ordinal a-\u003eOrdinal(S a)",
@@ -4880,6 +5322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "OZ",
           "package": "type-natural",
@@ -4889,6 +5332,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "OZ",
           "package": "type-natural",
@@ -4902,6 +5346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "enumOrdinal",
           "package": "type-natural",
@@ -4911,6 +5356,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "enumOrdinal",
           "normalized": "SNat a-\u003e[Ordinal a]",
@@ -4927,6 +5373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclusion function for ordinals with codomain inferred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "inclusion",
           "package": "type-natural",
@@ -4937,6 +5384,7 @@
         "index": {
           "description": "Inclusion function for ordinals with codomain inferred",
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "inclusion",
           "normalized": "Ordinal a-\u003eOrdinal b",
@@ -4952,6 +5400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclusion function for ordinals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "inclusion'",
           "package": "type-natural",
@@ -4962,6 +5411,7 @@
         "index": {
           "description": "Inclusion function for ordinals",
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "inclusion'",
           "normalized": "SNat a-\u003eOrdinal b-\u003eOrdinal a",
@@ -4977,6 +5427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasiquoter for ordinals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "od",
           "package": "type-natural",
@@ -4987,6 +5438,7 @@
         "index": {
           "description": "Quasiquoter for ordinals",
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "od",
           "package": "type-natural",
@@ -5000,6 +5452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert ordinal into \u003ccode\u003eInt\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "ordToInt",
           "package": "type-natural",
@@ -5010,6 +5463,7 @@
         "index": {
           "description": "Convert ordinal into Int",
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "ordToInt",
           "normalized": "Ordinal a-\u003eInt",
@@ -5026,6 +5480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003eOrdinal n\u003c/code\u003e into monomorphic \u003ccode\u003eSNat\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "ordToSNat",
           "package": "type-natural",
@@ -5036,6 +5491,7 @@
         "index": {
           "description": "Convert Ordinal into monomorphic SNat",
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "ordToSNat",
           "normalized": "Nat-\u003e*)",
@@ -5052,6 +5508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003eOrdinal n\u003c/code\u003e into \u003ccode\u003eSNat m\u003c/code\u003e with the proof of \u003ccode\u003eS m :\u003c\u003c= n\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "ordToSNat'",
           "package": "type-natural",
@@ -5062,6 +5519,7 @@
         "index": {
           "description": "Convert Ordinal into SNat with the proof of",
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "ordToSNat'",
           "normalized": "Ordinal a-\u003eCastedOrdinal a",
@@ -5078,6 +5536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esNatToOrd'\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003en\u003c/code\u003e inferred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "sNatToOrd",
           "package": "type-natural",
@@ -5088,6 +5547,7 @@
         "index": {
           "description": "sNatToOrd with inferred",
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "sNatToOrd",
           "normalized": "SNat a-\u003eOrdinal b",
@@ -5104,6 +5564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esNatToOrd'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en m\u003c/code\u003e injects \u003ccode\u003em\u003c/code\u003e as \u003ccode\u003eOrdinal n\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "sNatToOrd'",
           "package": "type-natural",
@@ -5114,6 +5575,7 @@
         "index": {
           "description": "sNatToOrd injects as Ordinal",
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "sNatToOrd'",
           "normalized": "SNat a-\u003eSNat b-\u003eOrdinal a",
@@ -5129,6 +5591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:46 UTC 2014",
           "module": "Data.Type.Ordinal",
           "name": "unsafeFromInt",
           "package": "type-natural",
@@ -5138,6 +5601,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ordinal",
+          "indexed": "2014-03-11T20:27:46",
           "module": "Data.Type.Ordinal",
           "name": "unsafeFromInt",
           "normalized": "Int-\u003eOrdinal a",

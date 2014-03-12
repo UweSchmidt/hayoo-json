@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SoOSiM"
+        "phrase": "SoOSiM",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "Types",
           "package": "SoOSiM",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "Types",
           "package": "SoOSiM",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext of a running component in the simulator.\n\u003c/p\u003e\u003cp\u003eWe need existential types because we need to make a single collection\n of several component contexts, each having their own type representing\n their internal state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "ComponentContext",
           "package": "SoOSiM",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Context of running component in the simulator We need existential types because we need to make single collection of several component contexts each having their own type representing their internal state",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "ComponentContext",
           "package": "SoOSiM",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "ComponentId",
           "package": "SoOSiM",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "ComponentId",
           "package": "SoOSiM",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class that defines an OS component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "ComponentInterface",
           "package": "SoOSiM",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Type class that defines an OS component",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "ComponentInterface",
           "package": "SoOSiM",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "ComponentName",
           "package": "SoOSiM",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "ComponentName",
           "package": "SoOSiM",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of a running component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "ComponentStatus",
           "package": "SoOSiM",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Status of running component",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "ComponentStatus",
           "package": "SoOSiM",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents send to components by the simulator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "Input",
           "package": "SoOSiM",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Events send to components by the simulator",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "Input",
           "package": "SoOSiM",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNodes represent computing entities in the simulator,\n and host the OS components and application threads\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "Node",
           "package": "SoOSiM",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Nodes represent computing entities in the simulator and host the OS components and application threads",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "Node",
           "package": "SoOSiM",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "NodeId",
           "package": "SoOSiM",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "NodeId",
           "package": "SoOSiM",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeta-data describing the functionaly of the computing node, currently\n just a singleton type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "NodeInfo",
           "package": "SoOSiM",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Meta-data describing the functionaly of the computing node currently just singleton type",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "NodeInfo",
           "package": "SoOSiM",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "RequestOrYield",
           "package": "SoOSiM",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "RequestOrYield",
           "package": "SoOSiM",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "ReturnAddress",
           "package": "SoOSiM",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "ReturnAddress",
           "package": "SoOSiM",
@@ -283,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe simulator monad used by the OS components offers resumable\n computations in the form of coroutines. These resumable computations\n expect a value of type \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e, and return a value of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWe need resumable computations to simulate synchronous messaging between\n two components. When a component synchronously sends a message to another\n component, we store the rest of the computation as part of the execution\n context in the simulator state. When a message is send back, the stored\n computation will continue with the message content (of type \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eTo suspend a computation you simply do:\n   'request \u003ca\u003ecomponentId\u003c/a\u003e'\n\u003c/p\u003e\u003cp\u003eWhere the \u003ca\u003ecomponentId\u003c/a\u003e is the ID of the OS component you are expecting a\n message from. The execute a resumeable computation you simply do:\n   'resume \u003ca\u003ecomp\u003c/a\u003e'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "Sim",
           "package": "SoOSiM",
@@ -292,6 +317,7 @@
         "index": {
           "description": "The simulator monad used by the OS components offers resumable computations in the form of coroutines These resumable computations expect value of type Dynamic and return value of type We need resumable computations to simulate synchronous messaging between two components When component synchronously sends message to another component we store the rest of the computation as part of the execution context in the simulator state When message is send back the stored computation will continue with the message content of type Dynamic To suspend computation you simply do request componentId Where the componentId is the ID of the OS component you are expecting message from The execute resumeable computation you simply do resume comp",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "Sim",
           "package": "SoOSiM",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "SimInternal",
           "package": "SoOSiM",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "SimInternal",
           "package": "SoOSiM",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "SimMetaData",
           "package": "SoOSiM",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "SimMetaData",
           "package": "SoOSiM",
@@ -348,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe internal monad of the simulator is currently a simple state-monad\n wrapping STM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "SimMonad",
           "package": "SoOSiM",
@@ -357,6 +388,7 @@
         "index": {
           "description": "The internal monad of the simulator is currently simple state-monad wrapping STM",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "SimMonad",
           "package": "SoOSiM",
@@ -371,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe internal simulator state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "SimState",
           "package": "SoOSiM",
@@ -380,6 +413,7 @@
         "index": {
           "description": "The internal simulator state",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "SimState",
           "package": "SoOSiM",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "CC",
           "package": "SoOSiM",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "CC",
           "package": "SoOSiM",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "Kill",
           "package": "SoOSiM",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "Kill",
           "package": "SoOSiM",
@@ -438,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule scheduled for deletion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "Killed",
           "package": "SoOSiM",
@@ -448,6 +487,7 @@
         "index": {
           "description": "Module scheduled for deletion",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "Killed",
           "package": "SoOSiM",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "Node",
           "package": "SoOSiM",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "Node",
           "package": "SoOSiM",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "NodeInfo",
           "package": "SoOSiM",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "NodeInfo",
           "package": "SoOSiM",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "RA",
           "package": "SoOSiM",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "RA",
           "package": "SoOSiM",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComponent is doing nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "ReadyToIdle",
           "package": "SoOSiM",
@@ -563,6 +610,7 @@
         "index": {
           "description": "Component is doing nothing",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "ReadyToIdle",
           "package": "SoOSiM",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComponent is busy doing computations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "ReadyToRun",
           "package": "SoOSiM",
@@ -587,6 +636,7 @@
         "index": {
           "description": "Component is busy doing computations",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "ReadyToRun",
           "package": "SoOSiM",
@@ -600,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "Request",
           "package": "SoOSiM",
@@ -609,6 +660,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "Request",
           "normalized": "Request a(b-\u003ec)",
@@ -624,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "Sim",
           "package": "SoOSiM",
@@ -633,6 +686,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "Sim",
           "package": "SoOSiM",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "SimMetaData",
           "package": "SoOSiM",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "SimMetaData",
           "package": "SoOSiM",
@@ -668,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "SimState",
           "package": "SoOSiM",
@@ -677,6 +734,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "SimState",
           "package": "SoOSiM",
@@ -716,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComponent is waiting for a message from \u003ccode\u003e\u003ca\u003eComponentId\u003c/a\u003e\u003c/code\u003e, will continue\n with computation ('(' -\u003e \u003ccode\u003eSimM\u003c/code\u003e a) once received\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "WaitingFor",
           "package": "SoOSiM",
@@ -726,6 +785,7 @@
         "index": {
           "description": "Component is waiting for message from ComponentId will continue with computation SimM once received",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "WaitingFor",
           "normalized": "WaitingFor ComponentId(()-\u003eSim(State a))",
@@ -741,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "Yield",
           "package": "SoOSiM",
@@ -750,6 +811,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "Yield",
           "package": "SoOSiM",
@@ -764,6 +826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function defining the behaviour of your component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "componentBehaviour",
           "package": "SoOSiM",
@@ -774,6 +837,7 @@
         "index": {
           "description": "The function defining the behaviour of your component",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "componentBehaviour",
           "normalized": "a-\u003eState a-\u003eInput(Receive a)-\u003eSim(State a)",
@@ -790,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eComponentId\u003c/a\u003e\u003c/code\u003e of this component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "componentId",
           "package": "SoOSiM",
@@ -800,6 +865,7 @@
         "index": {
           "description": "ComponentId of this component",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "componentId",
           "package": "SoOSiM",
@@ -814,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "componentIface",
           "package": "SoOSiM",
@@ -824,6 +891,7 @@
         "index": {
           "description": "Interface type",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "componentIface",
           "package": "SoOSiM",
@@ -838,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function returning the unique global name of your component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "componentName",
           "package": "SoOSiM",
@@ -848,6 +917,7 @@
         "index": {
           "description": "function returning the unique global name of your component",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "componentName",
           "normalized": "a-\u003eComponentName",
@@ -864,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState internal to the component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "componentState",
           "package": "SoOSiM",
@@ -874,6 +945,7 @@
         "index": {
           "description": "State internal to the component",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "componentState",
           "package": "SoOSiM",
@@ -888,6 +960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eComponentId\u003c/a\u003e\u003c/code\u003e of the component that created this component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "creator",
           "package": "SoOSiM",
@@ -898,6 +971,7 @@
         "index": {
           "description": "ComponentId of the component that created this component",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "creator",
           "package": "SoOSiM",
@@ -911,6 +985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eComponentId\u003c/a\u003e\u003c/code\u003e of the component currently under evaluation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "currentComponent",
           "package": "SoOSiM",
@@ -921,6 +996,7 @@
         "index": {
           "description": "The ComponentId of the component currently under evaluation",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "currentComponent",
           "package": "SoOSiM",
@@ -935,6 +1011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003e of the node containing the component currently under\n evaluation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "currentNode",
           "package": "SoOSiM",
@@ -945,6 +1022,7 @@
         "index": {
           "description": "The NodeId of the node containing the component currently under evaluation",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "currentNode",
           "package": "SoOSiM",
@@ -959,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of the component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "currentStatus",
           "package": "SoOSiM",
@@ -969,6 +1048,7 @@
         "index": {
           "description": "Status of the component",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "currentStatus",
           "package": "SoOSiM",
@@ -982,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "cyclesIdling",
           "package": "SoOSiM",
@@ -991,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "cyclesIdling",
           "package": "SoOSiM",
@@ -1004,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "cyclesRunning",
           "package": "SoOSiM",
@@ -1013,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "cyclesRunning",
           "package": "SoOSiM",
@@ -1026,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "cyclesWaiting",
           "package": "SoOSiM",
@@ -1035,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "cyclesWaiting",
           "package": "SoOSiM",
@@ -1049,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe minimal internal state of your component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "initState",
           "package": "SoOSiM",
@@ -1059,6 +1146,7 @@
         "index": {
           "description": "The minimal internal state of your component",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "initState",
           "normalized": "a-\u003eState a",
@@ -1075,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage waiting to be processed by the component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "msgBuffer",
           "package": "SoOSiM",
@@ -1085,6 +1174,7 @@
         "index": {
           "description": "Message waiting to be processed by the component",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "msgBuffer",
           "normalized": "TVar[Input Dynamic]",
@@ -1101,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey: senderId; Value: number of messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "msgsReceived",
           "package": "SoOSiM",
@@ -1111,6 +1202,7 @@
         "index": {
           "description": "Key senderId Value number of messages",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "msgsReceived",
           "package": "SoOSiM",
@@ -1125,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey: receiverId: Value: number of messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "msgsSend",
           "package": "SoOSiM",
@@ -1135,6 +1228,7 @@
         "index": {
           "description": "Key receiverId Value number of messages",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "msgsSend",
           "package": "SoOSiM",
@@ -1149,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup table of OS components running on the node, key: the\n \u003ccode\u003e\u003ca\u003eComponentName\u003c/a\u003e\u003c/code\u003e, value: unique \u003ccode\u003e\u003ca\u003eComponentId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "nodeComponentLookup",
           "package": "SoOSiM",
@@ -1159,6 +1254,7 @@
         "index": {
           "description": "Lookup table of OS components running on the node key the ComponentName value unique ComponentId",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "nodeComponentLookup",
           "package": "SoOSiM",
@@ -1172,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "nodeComponentOrder",
           "package": "SoOSiM",
@@ -1181,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "nodeComponentOrder",
           "normalized": "[ComponentId]",
@@ -1197,6 +1295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap of component contexts, key is the \u003ccode\u003e\u003ca\u003eComponentId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "nodeComponents",
           "package": "SoOSiM",
@@ -1207,6 +1306,7 @@
         "index": {
           "description": "Map of component contexts key is the ComponentId",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "nodeComponents",
           "package": "SoOSiM",
@@ -1221,6 +1321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobally Unique ID of the node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "nodeId",
           "package": "SoOSiM",
@@ -1231,6 +1332,7 @@
         "index": {
           "description": "Globally Unique ID of the node",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "nodeId",
           "package": "SoOSiM",
@@ -1245,6 +1347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeta-data describing the node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "nodeInfo",
           "package": "SoOSiM",
@@ -1255,6 +1358,7 @@
         "index": {
           "description": "Meta-data describing the node",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "nodeInfo",
           "package": "SoOSiM",
@@ -1269,6 +1373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode-local memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "nodeMemory",
           "package": "SoOSiM",
@@ -1279,6 +1384,7 @@
         "index": {
           "description": "Node-local memory",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "nodeMemory",
           "package": "SoOSiM",
@@ -1293,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of nodes comprising the entire system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "nodes",
           "package": "SoOSiM",
@@ -1303,6 +1410,7 @@
         "index": {
           "description": "The set of nodes comprising the entire system",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "nodes",
           "package": "SoOSiM",
@@ -1315,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "runSim",
           "package": "SoOSiM",
@@ -1324,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "runSim",
           "package": "SoOSiM",
@@ -1338,6 +1448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatistical information regarding a component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "simMetaData",
           "package": "SoOSiM",
@@ -1348,6 +1459,7 @@
         "index": {
           "description": "Statistical information regarding component",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "simMetaData",
           "package": "SoOSiM",
@@ -1362,6 +1474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrace message buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "traceMsgs",
           "package": "SoOSiM",
@@ -1372,6 +1485,7 @@
         "index": {
           "description": "Trace message buffer",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "traceMsgs",
           "normalized": "[String]",
@@ -1387,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "unRA",
           "package": "SoOSiM",
@@ -1396,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "unRA",
           "normalized": "(ComponentId,TVar Dynamic)",
@@ -1412,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlimited supply of unique values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM.Types",
           "name": "uniqueSupply",
           "package": "SoOSiM",
@@ -1422,6 +1539,7 @@
         "index": {
           "description": "Unlimited supply of unique values",
           "hierarchy": "SoOSiM Types",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM.Types",
           "name": "uniqueSupply",
           "package": "SoOSiM",
@@ -1435,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "SoOSiM",
           "package": "SoOSiM",
@@ -1443,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "SoOSiM",
           "package": "SoOSiM",
@@ -1456,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "ComponentId",
           "package": "SoOSiM",
@@ -1464,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "ComponentId",
           "package": "SoOSiM",
@@ -1478,6 +1600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class that defines an OS component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "ComponentInterface",
           "package": "SoOSiM",
@@ -1487,6 +1610,7 @@
         "index": {
           "description": "Type class that defines an OS component",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "ComponentInterface",
           "package": "SoOSiM",
@@ -1500,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "ComponentName",
           "package": "SoOSiM",
@@ -1508,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "ComponentName",
           "package": "SoOSiM",
@@ -1522,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e is an object encapsulated together with its type.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e may only represent a monomorphic value; an attempt to\n  create a value of type \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e from a polymorphically-typed\n  expression will result in an ambiguity error (see \u003ccode\u003e\u003ca\u003etoDyn\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003eing a value of type \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e returns a pretty-printed representation\n  of the object's type; useful for debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "Dynamic",
           "package": "SoOSiM",
@@ -1530,6 +1657,7 @@
         "index": {
           "description": "value of type Dynamic is an object encapsulated together with its type Dynamic may only represent monomorphic value an attempt to create value of type Dynamic from polymorphically-typed expression will result in an ambiguity error see toDyn Show ing value of type Dynamic returns pretty-printed representation of the object type useful for debugging",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "Dynamic",
           "package": "SoOSiM",
@@ -1544,6 +1672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents send to components by the simulator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "Input",
           "package": "SoOSiM",
@@ -1553,6 +1682,7 @@
         "index": {
           "description": "Events send to components by the simulator",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "Input",
           "package": "SoOSiM",
@@ -1566,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "NodeId",
           "package": "SoOSiM",
@@ -1574,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "NodeId",
           "package": "SoOSiM",
@@ -1588,6 +1720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe simulator monad used by the OS components offers resumable\n computations in the form of coroutines. These resumable computations\n expect a value of type \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e, and return a value of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWe need resumable computations to simulate synchronous messaging between\n two components. When a component synchronously sends a message to another\n component, we store the rest of the computation as part of the execution\n context in the simulator state. When a message is send back, the stored\n computation will continue with the message content (of type \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eTo suspend a computation you simply do:\n   'request \u003ca\u003ecomponentId\u003c/a\u003e'\n\u003c/p\u003e\u003cp\u003eWhere the \u003ca\u003ecomponentId\u003c/a\u003e is the ID of the OS component you are expecting a\n message from. The execute a resumeable computation you simply do:\n   'resume \u003ca\u003ecomp\u003c/a\u003e'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "Sim",
           "package": "SoOSiM",
@@ -1597,6 +1730,7 @@
         "index": {
           "description": "The simulator monad used by the OS components offers resumable computations in the form of coroutines These resumable computations expect value of type Dynamic and return value of type We need resumable computations to simulate synchronous messaging between two components When component synchronously sends message to another component we store the rest of the computation as part of the execution context in the simulator state When message is send back the stored computation will continue with the message content of type Dynamic To suspend computation you simply do request componentId Where the componentId is the ID of the OS component you are expecting message from The execute resumeable computation you simply do resume comp",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "Sim",
           "package": "SoOSiM",
@@ -1611,6 +1745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e allows a concrete representation of a type to\n be calculated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "Typeable",
           "package": "SoOSiM",
@@ -1619,6 +1754,7 @@
         "index": {
           "description": "The class Typeable allows concrete representation of type to be calculated",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "Typeable",
           "package": "SoOSiM",
@@ -1633,6 +1769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function defining the behaviour of your component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "componentBehaviour",
           "package": "SoOSiM",
@@ -1643,6 +1780,7 @@
         "index": {
           "description": "The function defining the behaviour of your component",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "componentBehaviour",
           "normalized": "a-\u003eState a-\u003eInput(Receive a)-\u003eSim(State a)",
@@ -1659,6 +1797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the \u003ccode\u003e\u003ca\u003eComponentId\u003c/a\u003e\u003c/code\u003e of the component that created the current\n component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "componentCreator",
           "package": "SoOSiM",
@@ -1669,6 +1808,7 @@
         "index": {
           "description": "Return the ComponentId of the component that created the current component",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "componentCreator",
           "package": "SoOSiM",
@@ -1683,6 +1823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the unique \u003ccode\u003e\u003ca\u003eComponentId\u003c/a\u003e\u003c/code\u003e of a component implementing an interface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "componentLookup",
           "package": "SoOSiM",
@@ -1692,6 +1833,7 @@
         "index": {
           "description": "Get the unique ComponentId of component implementing an interface",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "componentLookup",
           "normalized": "a-\u003eSim(Maybe ComponentId)",
@@ -1708,6 +1850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function returning the unique global name of your component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "componentName",
           "package": "SoOSiM",
@@ -1718,6 +1861,7 @@
         "index": {
           "description": "function returning the unique global name of your component",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "componentName",
           "normalized": "a-\u003eComponentName",
@@ -1734,6 +1878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "createComponent",
           "package": "SoOSiM",
@@ -1743,6 +1888,7 @@
         "index": {
           "description": "Create new component",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "createComponent",
           "normalized": "a-\u003eSim ComponentId",
@@ -1759,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "createComponentN",
           "package": "SoOSiM",
@@ -1768,6 +1915,7 @@
         "index": {
           "description": "Create new component",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "createComponentN",
           "normalized": "a-\u003eNodeId-\u003eSim ComponentId",
@@ -1784,6 +1932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "createComponentNP",
           "package": "SoOSiM",
@@ -1793,6 +1942,7 @@
         "index": {
           "description": "Create new component",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "createComponentNP",
           "normalized": "NodeId-\u003eComponentId-\u003ea-\u003eSim ComponentId",
@@ -1809,6 +1959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "createNode",
           "package": "SoOSiM",
@@ -1818,6 +1969,7 @@
         "index": {
           "description": "Create new node",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "createNode",
           "package": "SoOSiM",
@@ -1832,6 +1984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the component id of your component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "getComponentId",
           "package": "SoOSiM",
@@ -1842,6 +1995,7 @@
         "index": {
           "description": "Get the component id of your component",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "getComponentId",
           "package": "SoOSiM",
@@ -1856,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the node id of of the node your component is currently running on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "getNodeId",
           "package": "SoOSiM",
@@ -1866,6 +2021,7 @@
         "index": {
           "description": "Get the node id of of the node your component is currently running on",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "getNodeId",
           "package": "SoOSiM",
@@ -1879,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "ignore",
           "package": "SoOSiM",
@@ -1888,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "ignore",
           "normalized": "a-\u003eSim()",
@@ -1903,6 +2061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe minimal internal state of your component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "initState",
           "package": "SoOSiM",
@@ -1913,6 +2072,7 @@
         "index": {
           "description": "The minimal internal state of your component",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "initState",
           "normalized": "a-\u003eState a",
@@ -1929,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronously invoke another component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "invoke",
           "package": "SoOSiM",
@@ -1938,6 +2099,7 @@
         "index": {
           "description": "Synchronously invoke another component",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "invoke",
           "normalized": "a-\u003eComponentId-\u003eReceive a-\u003eSim(Send a)",
@@ -1953,6 +2115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvoke another component, handle response asynchronously\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "invokeAsync",
           "package": "SoOSiM",
@@ -1962,6 +2125,7 @@
         "index": {
           "description": "Invoke another component handle response asynchronously",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "invokeAsync",
           "normalized": "a-\u003eComponentId-\u003eReceive a-\u003e(Send a-\u003eSim())-\u003eSim()",
@@ -1978,6 +2142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvoke another component, handle response asynchronously\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "invokeAsyncS",
           "package": "SoOSiM",
@@ -1987,6 +2152,7 @@
         "index": {
           "description": "Invoke another component handle response asynchronously",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "invokeAsyncS",
           "normalized": "a-\u003eMaybe ComponentId-\u003eComponentId-\u003eReceive a-\u003e(Send a-\u003eSim())-\u003eSim()",
@@ -2003,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronously invoke another component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "invokeS",
           "package": "SoOSiM",
@@ -2012,6 +2179,7 @@
         "index": {
           "description": "Synchronously invoke another component",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "invokeS",
           "normalized": "a-\u003eMaybe ComponentId-\u003eComponentId-\u003eReceive a-\u003eSim(Send a)",
@@ -2027,6 +2195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead memory of local node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "readMemory",
           "package": "SoOSiM",
@@ -2036,6 +2205,7 @@
         "index": {
           "description": "Read memory of local node",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "readMemory",
           "normalized": "Int-\u003eSim Dynamic",
@@ -2052,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead memory of local node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "readMemoryN",
           "package": "SoOSiM",
@@ -2061,6 +2232,7 @@
         "index": {
           "description": "Read memory of local node",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "readMemoryN",
           "normalized": "Maybe NodeId-\u003eInt-\u003eSim Dynamic",
@@ -2077,6 +2249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond to an invocation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "respond",
           "package": "SoOSiM",
@@ -2086,6 +2259,7 @@
         "index": {
           "description": "Respond to an invocation",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "respond",
           "normalized": "a-\u003eReturnAddress-\u003eSend a-\u003eSim()",
@@ -2101,6 +2275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond to an invocation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "respondS",
           "package": "SoOSiM",
@@ -2110,6 +2285,7 @@
         "index": {
           "description": "Respond to an invocation",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "respondS",
           "normalized": "a-\u003eMaybe ComponentId-\u003eReturnAddress-\u003eSend a-\u003eSim()",
@@ -2124,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "returnAddress",
           "package": "SoOSiM",
@@ -2133,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "returnAddress",
           "normalized": "ReturnAddress-\u003eComponentId",
@@ -2148,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "runSTM",
           "package": "SoOSiM",
@@ -2157,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "runSTM",
           "normalized": "STM a-\u003eSim a",
@@ -2172,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "tick",
           "package": "SoOSiM",
@@ -2181,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "tick",
           "normalized": "SimState-\u003eIO SimState",
@@ -2195,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "traceMsg",
           "package": "SoOSiM",
@@ -2204,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "traceMsg",
           "normalized": "String-\u003eSim()",
@@ -2219,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "unmarshall",
           "package": "SoOSiM",
@@ -2228,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "unmarshall",
           "normalized": "String-\u003eDynamic-\u003ea",
@@ -2243,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite memory of local node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "writeMemory",
           "package": "SoOSiM",
@@ -2252,6 +2439,7 @@
         "index": {
           "description": "Write memory of local node",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "writeMemory",
           "normalized": "Int-\u003ea-\u003eSim()",
@@ -2268,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite memory of local node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "writeMemoryN",
           "package": "SoOSiM",
@@ -2277,6 +2466,7 @@
         "index": {
           "description": "Write memory of local node",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "writeMemoryN",
           "normalized": "Maybe NodeId-\u003eInt-\u003ea-\u003eSim()",
@@ -2293,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield internal state to the simulator scheduler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:57 UTC 2014",
           "module": "SoOSiM",
           "name": "yield",
           "package": "SoOSiM",
@@ -2303,6 +2494,7 @@
         "index": {
           "description": "Yield internal state to the simulator scheduler",
           "hierarchy": "SoOSiM",
+          "indexed": "2014-03-11T17:00:57",
           "module": "SoOSiM",
           "name": "yield",
           "normalized": "a-\u003eSim a",

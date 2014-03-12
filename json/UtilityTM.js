@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "UtilityTM"
+        "phrase": "UtilityTM",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonadic combinators missing from the standard library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:03:31 UTC 2014",
           "module": "Control.Monad.TM",
           "name": "TM",
           "package": "UtilityTM",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Monadic combinators missing from the standard library",
           "hierarchy": "Control Monad TM",
+          "indexed": "2014-03-11T17:03:31",
           "module": "Control.Monad.TM",
           "name": "TM",
           "package": "UtilityTM",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifting bind into a monad. Often denoted \u003cem\u003econcatMapM\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:31 UTC 2014",
           "module": "Control.Monad.TM",
           "name": "(.=\u003c\u003c.)",
           "package": "UtilityTM",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Lifting bind into monad Often denoted concatMapM",
           "hierarchy": "Control Monad TM",
+          "indexed": "2014-03-11T17:03:31",
           "module": "Control.Monad.TM",
           "name": "(.=\u003c\u003c.) .=\u003c\u003c.",
           "normalized": "(a-\u003eb(c d))-\u003ec a-\u003eb(c d)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifting bind into a monad. Often denoted \u003cem\u003econcatMapM\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:31 UTC 2014",
           "module": "Control.Monad.TM",
           "name": "(.\u003e\u003e=.)",
           "package": "UtilityTM",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Lifting bind into monad Often denoted concatMapM",
           "hierarchy": "Control Monad TM",
+          "indexed": "2014-03-11T17:03:31",
           "module": "Control.Monad.TM",
           "name": "(.\u003e\u003e=.) .\u003e\u003e=.",
           "normalized": "a b-\u003e(b-\u003ec(a d))-\u003ec(a d)",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniversal quantification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:31 UTC 2014",
           "module": "Control.Monad.TM",
           "name": "allM",
           "package": "UtilityTM",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Universal quantification",
           "hierarchy": "Control Monad TM",
+          "indexed": "2014-03-11T17:03:31",
           "module": "Control.Monad.TM",
           "name": "allM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb Bool",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExistential quantification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:31 UTC 2014",
           "module": "Control.Monad.TM",
           "name": "anyM",
           "package": "UtilityTM",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Existential quantification",
           "hierarchy": "Control Monad TM",
+          "indexed": "2014-03-11T17:03:31",
           "module": "Control.Monad.TM",
           "name": "anyM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb Bool",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind an element satisfying a predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:31 UTC 2014",
           "module": "Control.Monad.TM",
           "name": "findM",
           "package": "UtilityTM",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Find an element satisfying predicate",
           "hierarchy": "Control Monad TM",
+          "indexed": "2014-03-11T17:03:31",
           "module": "Control.Monad.TM",
           "name": "findM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb(Maybe a)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bamboo-plugin-highlight"
+        "phrase": "bamboo-plugin-highlight",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:22 UTC 2014",
           "module": "Bamboo.Plugin.Highlight",
           "name": "Highlight",
           "package": "bamboo-plugin-highlight",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Highlight",
+          "indexed": "2014-03-11T17:16:22",
           "module": "Bamboo.Plugin.Highlight",
           "name": "Highlight",
           "package": "bamboo-plugin-highlight",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:22 UTC 2014",
           "module": "Bamboo.Plugin.Highlight",
           "name": "highlight",
           "package": "bamboo-plugin-highlight",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Highlight",
+          "indexed": "2014-03-11T17:16:22",
           "module": "Bamboo.Plugin.Highlight",
           "name": "highlight",
           "package": "bamboo-plugin-highlight",

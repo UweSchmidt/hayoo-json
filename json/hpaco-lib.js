@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hpaco-lib"
+        "phrase": "hpaco-lib",
+        "type": "phrase"
       },
       "type": "context"
     }

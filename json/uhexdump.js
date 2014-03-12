@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uhexdump"
+        "phrase": "uhexdump",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ivor"
+        "phrase": "ivor",
+        "type": "phrase"
       },
       "type": "context"
     }

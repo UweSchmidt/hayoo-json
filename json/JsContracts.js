@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "JsContracts"
+        "phrase": "JsContracts",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:23 UTC 2014",
           "module": "BrownPLT.JavaScript.Contracts.Interface",
           "name": "Interface",
           "package": "JsContracts",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Contracts Interface",
+          "indexed": "2014-03-11T16:50:23",
           "module": "BrownPLT.JavaScript.Contracts.Interface",
           "name": "Interface",
           "package": "JsContracts",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:23 UTC 2014",
           "module": "BrownPLT.JavaScript.Contracts.Interface",
           "name": "Contract",
           "package": "JsContracts",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Contracts Interface",
+          "indexed": "2014-03-11T16:50:23",
           "module": "BrownPLT.JavaScript.Contracts.Interface",
           "name": "Contract",
           "package": "JsContracts",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:23 UTC 2014",
           "module": "BrownPLT.JavaScript.Contracts.Interface",
           "name": "InterfaceItem",
           "package": "JsContracts",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Contracts Interface",
+          "indexed": "2014-03-11T16:50:23",
           "module": "BrownPLT.JavaScript.Contracts.Interface",
           "name": "InterfaceItem",
           "package": "JsContracts",
@@ -344,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:23 UTC 2014",
           "module": "BrownPLT.JavaScript.Contracts.Interface",
           "name": "contractPos",
           "package": "JsContracts",
@@ -353,6 +360,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Contracts Interface",
+          "indexed": "2014-03-11T16:50:23",
           "module": "BrownPLT.JavaScript.Contracts.Interface",
           "name": "contractPos",
           "normalized": "Contract-\u003eSourcePos",
@@ -391,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:23 UTC 2014",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "Contracts",
           "package": "JsContracts",
@@ -399,6 +408,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Contracts",
+          "indexed": "2014-03-11T16:50:23",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "Contracts",
           "package": "JsContracts",
@@ -412,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:23 UTC 2014",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "Contract",
           "package": "JsContracts",
@@ -420,6 +431,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Contracts",
+          "indexed": "2014-03-11T16:50:23",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "Contract",
           "package": "JsContracts",
@@ -433,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:23 UTC 2014",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "InterfaceItem",
           "package": "JsContracts",
@@ -441,6 +454,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Contracts",
+          "indexed": "2014-03-11T16:50:23",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "InterfaceItem",
           "package": "JsContracts",
@@ -454,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:23 UTC 2014",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "compile",
           "package": "JsContracts",
@@ -462,6 +477,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Contracts",
+          "indexed": "2014-03-11T16:50:23",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "compile",
           "normalized": "[ParsedStatement]-\u003e[InterfaceItem]-\u003e[ParsedStatement]-\u003eParsedStatement",
@@ -476,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:23 UTC 2014",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "compileFormatted",
           "package": "JsContracts",
@@ -484,6 +501,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Contracts",
+          "indexed": "2014-03-11T16:50:23",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "compileFormatted",
           "normalized": "String-\u003eString-\u003eString-\u003eBool-\u003e[InterfaceItem]-\u003eString",
@@ -499,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:23 UTC 2014",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "compileRelease",
           "package": "JsContracts",
@@ -507,6 +526,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Contracts",
+          "indexed": "2014-03-11T16:50:23",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "compileRelease",
           "normalized": "String-\u003eString-\u003eString-\u003eBool-\u003e[InterfaceItem]-\u003eMaybe String-\u003eString",
@@ -522,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:23 UTC 2014",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "getContractLibraryPath",
           "package": "JsContracts",
@@ -531,6 +552,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Contracts",
+          "indexed": "2014-03-11T16:50:23",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "getContractLibraryPath",
           "package": "JsContracts",
@@ -544,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:23 UTC 2014",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "parseInterface",
           "package": "JsContracts",
@@ -553,6 +576,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Contracts",
+          "indexed": "2014-03-11T16:50:23",
           "module": "BrownPLT.JavaScript.Contracts",
           "name": "parseInterface",
           "normalized": "String-\u003eIO[InterfaceItem]",

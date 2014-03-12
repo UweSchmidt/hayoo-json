@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "process-conduit"
+        "phrase": "process-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "Process",
           "package": "process-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "Process",
           "package": "process-conduit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "CmdSpec",
           "package": "process-conduit",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "CmdSpec",
           "package": "process-conduit",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "CreateProcess",
           "package": "process-conduit",
@@ -66,6 +71,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "CreateProcess",
           "package": "process-conduit",
@@ -79,6 +85,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "ProcessHandle",
           "package": "process-conduit",
@@ -86,6 +93,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "ProcessHandle",
           "package": "process-conduit",
@@ -99,6 +107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "StdStream",
           "package": "process-conduit",
@@ -106,6 +115,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "StdStream",
           "package": "process-conduit",
@@ -120,6 +130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new pipe.  The returned\n \u003ccode\u003eHandle\u003c/code\u003e will use the default encoding\n and newline translation mode (just\n like \u003ccode\u003eHandle\u003c/code\u003es created by \u003ccode\u003eopenFile\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "CreatePipe",
           "package": "process-conduit",
@@ -129,6 +140,7 @@
         "index": {
           "description": "Create new pipe The returned Handle will use the default encoding and newline translation mode just like Handle created by openFile",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "CreatePipe",
           "package": "process-conduit",
@@ -142,6 +154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "CreateProcess",
           "package": "process-conduit",
@@ -150,6 +163,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "CreateProcess",
           "package": "process-conduit",
@@ -164,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInherit Handle from parent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "Inherit",
           "package": "process-conduit",
@@ -173,6 +188,7 @@
         "index": {
           "description": "Inherit Handle from parent",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "Inherit",
           "package": "process-conduit",
@@ -187,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe filename of an executable with a list of arguments.\n see \u003ccode\u003e\u003ca\u003eproc\u003c/a\u003e\u003c/code\u003e for the precise interpretation of\n the \u003ccode\u003eFilePath\u003c/code\u003e field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "RawCommand",
           "package": "process-conduit",
@@ -196,6 +213,7 @@
         "index": {
           "description": "the filename of an executable with list of arguments see proc for the precise interpretation of the FilePath field",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "RawCommand",
           "normalized": "RawCommand FilePath[String]",
@@ -212,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea command line to execute using the shell\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "ShellCommand",
           "package": "process-conduit",
@@ -221,6 +240,7 @@
         "index": {
           "description": "command line to execute using the shell",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "ShellCommand",
           "package": "process-conduit",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the supplied Handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "UseHandle",
           "package": "process-conduit",
@@ -244,6 +265,7 @@
         "index": {
           "description": "Use the supplied Handle",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "UseHandle",
           "package": "process-conduit",
@@ -258,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose all file descriptors except stdin, stdout and stderr in the new process (on Windows, only works if std_in, std_out, and std_err are all Inherit)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "close_fds",
           "package": "process-conduit",
@@ -267,6 +290,7 @@
         "index": {
           "description": "Close all file descriptors except stdin stdout and stderr in the new process on Windows only works if std in std out and std err are all Inherit",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "close_fds",
           "package": "process-conduit",
@@ -280,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutable & arguments, or shell command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "cmdspec",
           "package": "process-conduit",
@@ -289,6 +314,7 @@
         "index": {
           "description": "Executable arguments or shell command",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "cmdspec",
           "package": "process-conduit",
@@ -302,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduit of shell command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "conduitCmd",
           "package": "process-conduit",
@@ -312,6 +339,7 @@
         "index": {
           "description": "Conduit of shell command",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "conduitCmd",
           "normalized": "String-\u003eConduit ByteString a ByteString",
@@ -328,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduit of process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "conduitProcess",
           "package": "process-conduit",
@@ -338,6 +367,7 @@
         "index": {
           "description": "Conduit of process",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "conduitProcess",
           "normalized": "CreateProcess-\u003eConduit ByteString a ByteString",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new process group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "create_group",
           "package": "process-conduit",
@@ -363,6 +394,7 @@
         "index": {
           "description": "Create new process group",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "create_group",
           "package": "process-conduit",
@@ -376,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional path to the working directory for the new process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "cwd",
           "package": "process-conduit",
@@ -385,6 +418,7 @@
         "index": {
           "description": "Optional path to the working directory for the new process",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "cwd",
           "package": "process-conduit",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional environment (otherwise inherit from the current process)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "env",
           "package": "process-conduit",
@@ -407,6 +442,7 @@
         "index": {
           "description": "Optional environment otherwise inherit from the current process",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "env",
           "normalized": "Maybe[(String,String)]",
@@ -422,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eCreateProcess\u003c/a\u003e\u003c/code\u003e record for passing to \u003ccode\u003e\u003ca\u003ecreateProcess\u003c/a\u003e\u003c/code\u003e,\n representing a raw command with arguments.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eFilePath\u003c/code\u003e names the executable, and is interpreted according\n to the platform's standard policy for searching for\n executables. Specifically:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e on Unix systems the \u003ccode\u003eexecvp\u003c/code\u003e semantics is used, where if the\n   filename does not contain a slash (\u003ccode\u003e/\u003c/code\u003e) then the \u003ccode\u003ePATH\u003c/code\u003e\n   environment variable is searched for the executable.\n\u003c/li\u003e\u003cli\u003e on Windows systems the Win32 \u003ccode\u003eCreateProcess\u003c/code\u003e semantics is used.\n   Briefly: if the filename does not contain a path, then the\n   directory containing the parent executable is searched, followed\n   by the current directory, then some some standard locations, and\n   finally the current \u003ccode\u003ePATH\u003c/code\u003e.  An \u003ccode\u003e.exe\u003c/code\u003e extension is added if the\n   filename does not already have an extension.  For full details\n   see the documentation for the Windows \u003ccode\u003eSearchPath\u003c/code\u003e API.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "proc",
           "package": "process-conduit",
@@ -431,6 +468,7 @@
         "index": {
           "description": "Construct CreateProcess record for passing to createProcess representing raw command with arguments The FilePath names the executable and is interpreted according to the platform standard policy for searching for executables Specifically on Unix systems the execvp semantics is used where if the filename does not contain slash then the PATH environment variable is searched for the executable on Windows systems the Win32 CreateProcess semantics is used Briefly if the filename does not contain path then the directory containing the parent executable is searched followed by the current directory then some some standard locations and finally the current PATH An exe extension is added if the filename does not already have an extension For full details see the documentation for the Windows SearchPath API",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "proc",
           "normalized": "FilePath-\u003e[String]-\u003eCreateProcess",
@@ -446,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eCreateProcess\u003c/a\u003e\u003c/code\u003e record for passing to \u003ccode\u003e\u003ca\u003ecreateProcess\u003c/a\u003e\u003c/code\u003e,\n representing a command to be passed to the shell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "shell",
           "package": "process-conduit",
@@ -455,6 +494,7 @@
         "index": {
           "description": "Construct CreateProcess record for passing to createProcess representing command to be passed to the shell",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "shell",
           "normalized": "String-\u003eCreateProcess",
@@ -470,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource of shell command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "sourceCmd",
           "package": "process-conduit",
@@ -480,6 +521,7 @@
         "index": {
           "description": "Source of shell command",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "sourceCmd",
           "normalized": "String-\u003eProducer a ByteString",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource of process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "sourceProcess",
           "package": "process-conduit",
@@ -506,6 +549,7 @@
         "index": {
           "description": "Source of process",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "sourceProcess",
           "normalized": "CreateProcess-\u003eProducer a ByteString",
@@ -522,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to determine stderr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "std_err",
           "package": "process-conduit",
@@ -531,6 +576,7 @@
         "index": {
           "description": "How to determine stderr",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "std_err",
           "package": "process-conduit",
@@ -544,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to determine stdin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "std_in",
           "package": "process-conduit",
@@ -553,6 +600,7 @@
         "index": {
           "description": "How to determine stdin",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "std_in",
           "package": "process-conduit",
@@ -566,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to determine stdout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "Data.Conduit.Process",
           "name": "std_out",
           "package": "process-conduit",
@@ -575,6 +624,7 @@
         "index": {
           "description": "How to determine stdout",
           "hierarchy": "Data Conduit Process",
+          "indexed": "2014-03-11T19:44:19",
           "module": "Data.Conduit.Process",
           "name": "std_out",
           "package": "process-conduit",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "System.Process.QQ",
           "name": "QQ",
           "package": "process-conduit",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "System Process QQ",
+          "indexed": "2014-03-11T19:44:19",
           "module": "System.Process.QQ",
           "name": "QQ",
           "package": "process-conduit",
@@ -609,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduit of shell command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "System.Process.QQ",
           "name": "ccmd",
           "package": "process-conduit",
@@ -619,6 +672,7 @@
         "index": {
           "description": "Conduit of shell command",
           "hierarchy": "System Process QQ",
+          "indexed": "2014-03-11T19:44:19",
           "module": "System.Process.QQ",
           "name": "ccmd",
           "package": "process-conduit",
@@ -632,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand result of (Lazy) ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "System.Process.QQ",
           "name": "cmd",
           "package": "process-conduit",
@@ -642,6 +697,7 @@
         "index": {
           "description": "Command result of Lazy ByteString",
           "hierarchy": "System Process QQ",
+          "indexed": "2014-03-11T19:44:19",
           "module": "System.Process.QQ",
           "name": "cmd",
           "package": "process-conduit",
@@ -655,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource of shell command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:19 UTC 2014",
           "module": "System.Process.QQ",
           "name": "scmd",
           "package": "process-conduit",
@@ -665,6 +722,7 @@
         "index": {
           "description": "Source of shell command",
           "hierarchy": "System Process QQ",
+          "indexed": "2014-03-11T19:44:19",
           "module": "System.Process.QQ",
           "name": "scmd",
           "package": "process-conduit",

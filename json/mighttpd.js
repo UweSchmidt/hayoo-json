@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mighttpd"
+        "phrase": "mighttpd",
+        "type": "phrase"
       },
       "type": "context"
     }

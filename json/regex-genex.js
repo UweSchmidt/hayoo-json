@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regex-genex"
+        "phrase": "regex-genex",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex.Normalize",
           "name": "Normalize",
           "package": "regex-genex",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Regex Genex Normalize",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex.Normalize",
           "name": "Normalize",
           "package": "regex-genex",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalize a regex into \u003ccode\u003estrong star normal form\u003c/code\u003e, as defined in the paper\n   \u003ccode\u003eSimplifying Regular Expressions: A Quantitative Perspective\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex.Normalize",
           "name": "normalize",
           "package": "regex-genex",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Normalize regex into strong star normal form as defined in the paper Simplifying Regular Expressions Quantitative Perspective",
           "hierarchy": "Regex Genex Normalize",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex.Normalize",
           "name": "normalize",
           "normalized": "BackReferences-\u003ePattern-\u003ePattern",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module and the accompanying \u003ccode\u003e\u003ca\u003egenex\u003c/a\u003e\u003c/code\u003e program finds all permutations\nof strings that matches every input regular expressions, ordered from\nshortest to longest, with full support for back references ('\\1' .. '\\9')\nand word boundaries ('\\b').\n\u003c/p\u003e\u003cp\u003eIt requires the \u003ccode\u003eyices\u003c/code\u003e binary in PATH; please download it from:\n\u003ca\u003ehttp://yices.csl.sri.com/download-yices2.shtml\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex",
           "name": "Genex",
           "package": "regex-genex",
@@ -74,6 +79,7 @@
         "index": {
           "description": "This module and the accompanying genex program finds all permutations of strings that matches every input regular expressions ordered from shortest to longest with full support for back references and word boundaries It requires the yices binary in PATH please download it from http yices.csl.sri.com download-yices2.shtml",
           "hierarchy": "Regex Genex",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex",
           "name": "Genex",
           "package": "regex-genex",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA match consists of a string (list of codepoints), and a rank representing alternation order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex",
           "name": "Model",
           "package": "regex-genex",
@@ -97,6 +104,7 @@
         "index": {
           "description": "match consists of string list of codepoints and rank representing alternation order",
           "hierarchy": "Regex Genex",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex",
           "name": "Model",
           "package": "regex-genex",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex",
           "name": "Model",
           "package": "regex-genex",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Regex Genex",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex",
           "name": "Model",
           "package": "regex-genex",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of regular repressions, returns all possible strings that matches every one of them.\n Guarantees to return shorter strings before longer ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex",
           "name": "genex",
           "package": "regex-genex",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Given list of regular repressions returns all possible strings that matches every one of them Guarantees to return shorter strings before longer ones",
           "hierarchy": "Regex Genex",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex",
           "name": "genex",
           "normalized": "[String]-\u003eIO[String]",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003egenex\u003c/a\u003e\u003c/code\u003e, but with the entire model returned instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex",
           "name": "genexModels",
           "package": "regex-genex",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Same as genex but with the entire model returned instead",
           "hierarchy": "Regex Genex",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex",
           "name": "genexModels",
           "normalized": "[String]-\u003eIO[Model]",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003egenexModels\u003c/a\u003e\u003c/code\u003e, but print the models to standard output instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex",
           "name": "genexPrint",
           "package": "regex-genex",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Same as genexModels but print the models to standard output instead",
           "hierarchy": "Regex Genex",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex",
           "name": "genexPrint",
           "normalized": "[String]-\u003eIO()",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure and much faster variant of \u003ccode\u003e\u003ca\u003egenex\u003c/a\u003e\u003c/code\u003e, but without support for\n   back-references, anchors or word boundaries.\n Does not guarantee orders about length of strings.\n Does not depend on the external \u003ccode\u003eyices\u003c/code\u003e SMT solver.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex",
           "name": "genexPure",
           "package": "regex-genex",
@@ -220,6 +237,7 @@
         "index": {
           "description": "pure and much faster variant of genex but without support for back-references anchors or word boundaries Does not guarantee orders about length of strings Does not depend on the external yices SMT solver",
           "hierarchy": "Regex Genex",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex",
           "name": "genexPure",
           "normalized": "[String]-\u003e[String]",
@@ -235,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex",
           "name": "genexWith",
           "package": "regex-genex",
@@ -244,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Regex Genex",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex",
           "name": "genexWith",
           "normalized": "([SatResult]-\u003eHits-\u003e(Hits-\u003eIO a)-\u003eIO a)-\u003e[[Char]]-\u003eIO a",
@@ -259,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex",
           "name": "modelChars",
           "package": "regex-genex",
@@ -268,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Regex Genex",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex",
           "name": "modelChars",
           "normalized": "[Word]",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex",
           "name": "modelRank",
           "package": "regex-genex",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Regex Genex",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex",
           "name": "modelRank",
           "package": "regex-genex",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:09 UTC 2014",
           "module": "Regex.Genex",
           "name": "regexMatch",
           "package": "regex-genex",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Regex Genex",
+          "indexed": "2014-03-11T19:51:09",
           "module": "Regex.Genex",
           "name": "regexMatch",
           "normalized": "[[Char]]-\u003eStr-\u003eSymbolic SBool",

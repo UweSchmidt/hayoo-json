@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "oauthenticated"
+        "phrase": "oauthenticated",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "enummapset-th"
+        "phrase": "enummapset-th",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDocumentation: \u003ca\u003ehttp://hackage.haskell.org/packages/archive/containers/latest/doc/html/Data-IntMap-Lazy.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "Lazy",
           "package": "enummapset-th",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Documentation http hackage.haskell.org packages archive containers latest doc html Data-IntMap-Lazy.html",
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "Lazy",
           "package": "enummapset-th",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "EnumMap",
           "package": "enummapset-th",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "EnumMap",
           "package": "enummapset-th",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "(!)",
           "package": "enummapset-th",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "(!) !",
           "normalized": "EnumMap a b-\u003ea-\u003eb",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "(\\\\)",
           "package": "enummapset-th",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "(\\\\) \\\\",
           "normalized": "a b c d EnumMap b c-\u003eEnumMap b e-\u003eEnumMap b c",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "EnumMap",
           "package": "enummapset-th",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "EnumMap",
           "package": "enummapset-th",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "adjust",
           "package": "enummapset-th",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eb-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "adjustWithKey",
           "package": "enummapset-th",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "adjustWithKey",
           "normalized": "(a-\u003eb-\u003eb)-\u003ea-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "alter",
           "package": "enummapset-th",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "alter",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eb-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "assocs",
           "package": "enummapset-th",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "assocs",
           "normalized": "EnumMap a b-\u003e[(a,b)]",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "delete",
           "package": "enummapset-th",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "delete",
           "normalized": "a-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "deleteFindMax",
           "package": "enummapset-th",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "deleteFindMax",
           "normalized": "EnumMap a b-\u003e((a,b),EnumMap a b)",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "deleteFindMin",
           "package": "enummapset-th",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "deleteFindMin",
           "normalized": "EnumMap a b-\u003e((a,b),EnumMap a b)",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "deleteMax",
           "package": "enummapset-th",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "deleteMax",
           "normalized": "a b c EnumMap b d-\u003eEnumMap b d",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "deleteMin",
           "package": "enummapset-th",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "deleteMin",
           "normalized": "a b c EnumMap b d-\u003eEnumMap b d",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "difference",
           "package": "enummapset-th",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "difference",
           "normalized": "a b c d EnumMap b c-\u003eEnumMap b e-\u003eEnumMap b c",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "differenceWith",
           "package": "enummapset-th",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "differenceWith",
           "normalized": "a b c d(c-\u003ee-\u003eMaybe c)-\u003eEnumMap b c-\u003eEnumMap b e-\u003eEnumMap b c",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "differenceWithKey",
           "package": "enummapset-th",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "differenceWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003eMaybe b)-\u003eEnumMap a b-\u003eEnumMap a c-\u003eEnumMap a b",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "elems",
           "package": "enummapset-th",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "elems",
           "normalized": "a b c EnumMap b d-\u003e[d]",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "empty",
           "package": "enummapset-th",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "empty",
           "package": "enummapset-th",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "filter",
           "package": "enummapset-th",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "filter",
           "normalized": "a b c(d-\u003eBool)-\u003eEnumMap b d-\u003eEnumMap b d",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "filterWithKey",
           "package": "enummapset-th",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "filterWithKey",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "findMax",
           "package": "enummapset-th",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "findMax",
           "normalized": "EnumMap a b-\u003e(a,b)",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "findMin",
           "package": "enummapset-th",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "findMin",
           "normalized": "EnumMap a b-\u003e(a,b)",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "findWithDefault",
           "package": "enummapset-th",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "findWithDefault",
           "normalized": "a-\u003eb-\u003eEnumMap b a-\u003ea",
@@ -576,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "foldl",
           "package": "enummapset-th",
@@ -585,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "foldl",
           "normalized": "a b c d(c-\u003ee-\u003ec)-\u003ec-\u003eEnumMap b e-\u003ec",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "foldl'",
           "package": "enummapset-th",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "foldl'",
           "normalized": "a b c d(c-\u003ee-\u003ec)-\u003ec-\u003eEnumMap b e-\u003ec",
@@ -622,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "foldlWithKey",
           "package": "enummapset-th",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "foldlWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003ea)-\u003ea-\u003eEnumMap b c-\u003ea",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "foldlWithKey'",
           "package": "enummapset-th",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "foldlWithKey'",
           "normalized": "(a-\u003eb-\u003ec-\u003ea)-\u003ea-\u003eEnumMap b c-\u003ea",
@@ -670,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "foldr",
           "package": "enummapset-th",
@@ -679,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "foldr",
           "normalized": "a b c d(c-\u003ee-\u003ee)-\u003ee-\u003eEnumMap b c-\u003ee",
@@ -693,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "foldr'",
           "package": "enummapset-th",
@@ -702,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "foldr'",
           "normalized": "a b c d(c-\u003ee-\u003ee)-\u003ee-\u003eEnumMap b c-\u003ee",
@@ -716,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "foldrWithKey",
           "package": "enummapset-th",
@@ -725,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "foldrWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eEnumMap a b-\u003ec",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "foldrWithKey'",
           "package": "enummapset-th",
@@ -749,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "foldrWithKey'",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eEnumMap a b-\u003ec",
@@ -764,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "fromAscList",
           "package": "enummapset-th",
@@ -773,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "fromAscList",
           "normalized": "[(a,b)]-\u003eEnumMap a b",
@@ -788,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "fromAscListWith",
           "package": "enummapset-th",
@@ -797,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "fromAscListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003eEnumMap b a",
@@ -812,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "fromAscListWithKey",
           "package": "enummapset-th",
@@ -821,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "fromAscListWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003e[(a,b)]-\u003eEnumMap a b",
@@ -836,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "fromDistinctAscList",
           "package": "enummapset-th",
@@ -845,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "fromDistinctAscList",
           "normalized": "[(a,b)]-\u003eEnumMap a b",
@@ -860,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "fromList",
           "package": "enummapset-th",
@@ -869,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eEnumMap a b",
@@ -884,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "fromListWith",
           "package": "enummapset-th",
@@ -893,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "fromListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003eEnumMap b a",
@@ -908,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "fromListWithKey",
           "package": "enummapset-th",
@@ -917,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "fromListWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003e[(a,b)]-\u003eEnumMap a b",
@@ -932,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "fromSet",
           "package": "enummapset-th",
@@ -941,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "fromSet",
           "normalized": "(a-\u003eb)-\u003eEnumSet a-\u003eEnumMap a b",
@@ -956,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "insert",
           "package": "enummapset-th",
@@ -965,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -979,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "insertLookupWithKey",
           "package": "enummapset-th",
@@ -988,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "insertLookupWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003ea-\u003eb-\u003eEnumMap a b-\u003e(Maybe b,EnumMap a b)",
@@ -1003,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "insertWith",
           "package": "enummapset-th",
@@ -1012,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb-\u003ea-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -1027,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "insertWithKey",
           "package": "enummapset-th",
@@ -1036,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "insertWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003ea-\u003eb-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -1051,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "intersection",
           "package": "enummapset-th",
@@ -1060,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "intersection",
           "normalized": "a b c d EnumMap b c-\u003eEnumMap b e-\u003eEnumMap b c",
@@ -1074,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "intersectionWith",
           "package": "enummapset-th",
@@ -1083,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "intersectionWith",
           "normalized": "a b c d e(c-\u003ed-\u003ef)-\u003eEnumMap b c-\u003eEnumMap b d-\u003eEnumMap b f",
@@ -1098,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "intersectionWithKey",
           "package": "enummapset-th",
@@ -1107,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "intersectionWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eEnumMap a b-\u003eEnumMap a c-\u003eEnumMap a d",
@@ -1122,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "isProperSubmapOf",
           "package": "enummapset-th",
@@ -1131,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "isProperSubmapOf",
           "normalized": "EnumMap a b-\u003eEnumMap a b-\u003eBool",
@@ -1146,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "isProperSubmapOfBy",
           "package": "enummapset-th",
@@ -1155,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "isProperSubmapOfBy",
           "normalized": "a b c d(c-\u003ee-\u003eBool)-\u003eEnumMap b c-\u003eEnumMap b e-\u003eBool",
@@ -1170,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "isSubmapOf",
           "package": "enummapset-th",
@@ -1179,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "isSubmapOf",
           "normalized": "EnumMap a b-\u003eEnumMap a b-\u003eBool",
@@ -1194,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "isSubmapOfBy",
           "package": "enummapset-th",
@@ -1203,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "isSubmapOfBy",
           "normalized": "a b c d(c-\u003ee-\u003eBool)-\u003eEnumMap b c-\u003eEnumMap b e-\u003eBool",
@@ -1218,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "keys",
           "package": "enummapset-th",
@@ -1227,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "keys",
           "normalized": "EnumMap a b-\u003e[a]",
@@ -1241,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "keysSet",
           "package": "enummapset-th",
@@ -1250,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "keysSet",
           "normalized": "a b c EnumMap b d-\u003eEnumSet b",
@@ -1265,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "lookup",
           "package": "enummapset-th",
@@ -1274,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "lookup",
           "normalized": "a-\u003eEnumMap a b-\u003eMaybe b",
@@ -1288,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "lookupGE",
           "package": "enummapset-th",
@@ -1297,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "lookupGE",
           "normalized": "a-\u003eEnumMap a b-\u003eMaybe(a,b)",
@@ -1312,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "lookupGT",
           "package": "enummapset-th",
@@ -1321,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "lookupGT",
           "normalized": "a-\u003eEnumMap a b-\u003eMaybe(a,b)",
@@ -1336,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "lookupLE",
           "package": "enummapset-th",
@@ -1345,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "lookupLE",
           "normalized": "a-\u003eEnumMap a b-\u003eMaybe(a,b)",
@@ -1360,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "lookupLT",
           "package": "enummapset-th",
@@ -1369,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "lookupLT",
           "normalized": "a-\u003eEnumMap a b-\u003eMaybe(a,b)",
@@ -1384,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "map",
           "package": "enummapset-th",
@@ -1393,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "map",
           "normalized": "a b c d(c-\u003ee)-\u003eEnumMap b c-\u003eEnumMap b e",
@@ -1407,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "mapAccum",
           "package": "enummapset-th",
@@ -1416,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "mapAccum",
           "normalized": "a b c d e(c-\u003ed-\u003e(c,f))-\u003ec-\u003eEnumMap b d-\u003e(c,EnumMap b f)",
@@ -1431,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "mapAccumRWithKey",
           "package": "enummapset-th",
@@ -1440,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "mapAccumRWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003e(a,d))-\u003ea-\u003eEnumMap b c-\u003e(a,EnumMap b d)",
@@ -1455,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "mapAccumWithKey",
           "package": "enummapset-th",
@@ -1464,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "mapAccumWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003e(a,d))-\u003ea-\u003eEnumMap b c-\u003e(a,EnumMap b d)",
@@ -1479,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "mapEither",
           "package": "enummapset-th",
@@ -1488,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "mapEither",
           "normalized": "a b c d e(c-\u003eEither d f)-\u003eEnumMap b c-\u003e(EnumMap b d,EnumMap b f)",
@@ -1503,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "mapEitherWithKey",
           "package": "enummapset-th",
@@ -1512,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "mapEitherWithKey",
           "normalized": "(a-\u003eb-\u003eEither c d)-\u003eEnumMap a b-\u003e(EnumMap a c,EnumMap a d)",
@@ -1527,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "mapKeys",
           "package": "enummapset-th",
@@ -1536,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "mapKeys",
           "normalized": "(a-\u003eb)-\u003eEnumMap a c-\u003eEnumMap b c",
@@ -1551,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "mapKeysMonotonic",
           "package": "enummapset-th",
@@ -1560,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "mapKeysMonotonic",
           "normalized": "(a-\u003eb)-\u003eEnumMap a c-\u003eEnumMap b c",
@@ -1575,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "mapKeysWith",
           "package": "enummapset-th",
@@ -1584,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "mapKeysWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(b-\u003ec)-\u003eEnumMap b a-\u003eEnumMap c a",
@@ -1599,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "mapMaybe",
           "package": "enummapset-th",
@@ -1608,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "mapMaybe",
           "normalized": "a b c d(c-\u003eMaybe e)-\u003eEnumMap b c-\u003eEnumMap b e",
@@ -1623,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "mapMaybeWithKey",
           "package": "enummapset-th",
@@ -1632,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "mapMaybeWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe c)-\u003eEnumMap a b-\u003eEnumMap a c",
@@ -1647,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "mapWithKey",
           "package": "enummapset-th",
@@ -1656,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "mapWithKey",
           "normalized": "(a-\u003eb-\u003ec)-\u003eEnumMap a b-\u003eEnumMap a c",
@@ -1671,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "maxView",
           "package": "enummapset-th",
@@ -1680,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "maxView",
           "normalized": "a b c EnumMap b d-\u003eMaybe(d,EnumMap b d)",
@@ -1695,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "maxViewWithKey",
           "package": "enummapset-th",
@@ -1704,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "maxViewWithKey",
           "normalized": "EnumMap a b-\u003eMaybe((a,b),EnumMap a b)",
@@ -1719,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "member",
           "package": "enummapset-th",
@@ -1728,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "member",
           "normalized": "a-\u003eEnumMap a b-\u003eBool",
@@ -1742,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "mergeWithKey",
           "package": "enummapset-th",
@@ -1751,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "mergeWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003eMaybe d)-\u003e(EnumMap a b-\u003eEnumMap a d)-\u003e(EnumMap a c-\u003eEnumMap a d)-\u003eEnumMap a b-\u003eEnumMap a c-\u003eEnumMap a d",
@@ -1766,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "minView",
           "package": "enummapset-th",
@@ -1775,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "minView",
           "normalized": "a b c EnumMap b d-\u003eMaybe(d,EnumMap b d)",
@@ -1790,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "minViewWithKey",
           "package": "enummapset-th",
@@ -1799,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "minViewWithKey",
           "normalized": "EnumMap a b-\u003eMaybe((a,b),EnumMap a b)",
@@ -1814,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "notMember",
           "package": "enummapset-th",
@@ -1823,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "notMember",
           "normalized": "a-\u003eEnumMap a b-\u003eBool",
@@ -1838,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "null",
           "package": "enummapset-th",
@@ -1847,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "null",
           "normalized": "a b c EnumMap b d-\u003eBool",
@@ -1861,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "partition",
           "package": "enummapset-th",
@@ -1870,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "partition",
           "normalized": "a b c(d-\u003eBool)-\u003eEnumMap b d-\u003e(EnumMap b d,EnumMap b d)",
@@ -1884,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "partitionWithKey",
           "package": "enummapset-th",
@@ -1893,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "partitionWithKey",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eEnumMap a b-\u003e(EnumMap a b,EnumMap a b)",
@@ -1908,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "showTree",
           "package": "enummapset-th",
@@ -1917,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "showTree",
           "normalized": "EnumMap a b-\u003eString",
@@ -1932,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "showTreeWith",
           "package": "enummapset-th",
@@ -1941,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "showTreeWith",
           "normalized": "Bool-\u003eBool-\u003eEnumMap a b-\u003eString",
@@ -1956,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "singleton",
           "package": "enummapset-th",
@@ -1965,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eEnumMap a b",
@@ -1979,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "size",
           "package": "enummapset-th",
@@ -1988,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "size",
           "normalized": "a b c EnumMap b d-\u003eInt",
@@ -2002,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "split",
           "package": "enummapset-th",
@@ -2011,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "split",
           "normalized": "a-\u003eEnumMap a b-\u003e(EnumMap a b,EnumMap a b)",
@@ -2025,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "splitLookup",
           "package": "enummapset-th",
@@ -2034,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "splitLookup",
           "normalized": "a-\u003eEnumMap a b-\u003e(EnumMap a b,Maybe b,EnumMap a b)",
@@ -2049,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "toAscList",
           "package": "enummapset-th",
@@ -2058,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "toAscList",
           "normalized": "EnumMap a b-\u003e[(a,b)]",
@@ -2073,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "toDescList",
           "package": "enummapset-th",
@@ -2082,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "toDescList",
           "normalized": "EnumMap a b-\u003e[(a,b)]",
@@ -2097,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "toList",
           "package": "enummapset-th",
@@ -2106,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "toList",
           "normalized": "EnumMap a b-\u003e[(a,b)]",
@@ -2121,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "traverseWithKey",
           "package": "enummapset-th",
@@ -2130,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "traverseWithKey",
           "normalized": "(a-\u003eb-\u003ec d)-\u003eEnumMap a b-\u003ec(EnumMap a d)",
@@ -2145,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "unEnumMap",
           "package": "enummapset-th",
@@ -2154,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "unEnumMap",
           "package": "enummapset-th",
@@ -2167,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "union",
           "package": "enummapset-th",
@@ -2176,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "union",
           "normalized": "a b c EnumMap b d-\u003eEnumMap b d-\u003eEnumMap b d",
@@ -2190,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "unionWith",
           "package": "enummapset-th",
@@ -2199,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "unionWith",
           "normalized": "a b c(d-\u003ed-\u003ed)-\u003eEnumMap b d-\u003eEnumMap b d-\u003eEnumMap b d",
@@ -2214,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "unionWithKey",
           "package": "enummapset-th",
@@ -2223,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "unionWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003eEnumMap a b-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -2238,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "unions",
           "package": "enummapset-th",
@@ -2247,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "unions",
           "normalized": "a b c[EnumMap b d]-\u003eEnumMap b d",
@@ -2261,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "unionsWith",
           "package": "enummapset-th",
@@ -2270,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "unionsWith",
           "normalized": "a b c(d-\u003ed-\u003ed)-\u003e[EnumMap b d]-\u003eEnumMap b d",
@@ -2285,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "update",
           "package": "enummapset-th",
@@ -2294,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "update",
           "normalized": "(a-\u003eMaybe a)-\u003eb-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -2308,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "updateLookupWithKey",
           "package": "enummapset-th",
@@ -2317,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "updateLookupWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe b)-\u003ea-\u003eEnumMap a b-\u003e(Maybe b,EnumMap a b)",
@@ -2332,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "updateMax",
           "package": "enummapset-th",
@@ -2341,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "updateMax",
           "normalized": "a b c(d-\u003eMaybe d)-\u003eEnumMap b d-\u003eEnumMap b d",
@@ -2356,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "updateMaxWithKey",
           "package": "enummapset-th",
@@ -2365,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "updateMaxWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe b)-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -2380,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "updateMin",
           "package": "enummapset-th",
@@ -2389,6 +2590,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "updateMin",
           "normalized": "a b c(d-\u003eMaybe d)-\u003eEnumMap b d-\u003eEnumMap b d",
@@ -2404,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "updateMinWithKey",
           "package": "enummapset-th",
@@ -2413,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "updateMinWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe b)-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -2428,6 +2632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Lazy",
           "name": "updateWithKey",
           "package": "enummapset-th",
@@ -2437,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Lazy",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Lazy",
           "name": "updateWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe b)-\u003ea-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -2453,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDocumentation: \u003ca\u003ehttp://hackage.haskell.org/packages/archive/containers/latest/doc/html/Data-IntMap-Strict.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "Strict",
           "package": "enummapset-th",
@@ -2462,6 +2669,7 @@
         "index": {
           "description": "Documentation http hackage.haskell.org packages archive containers latest doc html Data-IntMap-Strict.html",
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "Strict",
           "package": "enummapset-th",
@@ -2475,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "EnumMap",
           "package": "enummapset-th",
@@ -2483,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "EnumMap",
           "package": "enummapset-th",
@@ -2496,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "(!)",
           "package": "enummapset-th",
@@ -2505,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "(!) !",
           "normalized": "EnumMap a b-\u003ea-\u003eb",
@@ -2519,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "(\\\\)",
           "package": "enummapset-th",
@@ -2528,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "(\\\\) \\\\",
           "normalized": "a b c d EnumMap b c-\u003eEnumMap b e-\u003eEnumMap b c",
@@ -2542,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "EnumMap",
           "package": "enummapset-th",
@@ -2551,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "EnumMap",
           "package": "enummapset-th",
@@ -2564,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "adjust",
           "package": "enummapset-th",
@@ -2573,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eb-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -2587,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "adjustWithKey",
           "package": "enummapset-th",
@@ -2596,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "adjustWithKey",
           "normalized": "(a-\u003eb-\u003eb)-\u003ea-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -2611,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "alter",
           "package": "enummapset-th",
@@ -2620,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "alter",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eb-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -2634,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "assocs",
           "package": "enummapset-th",
@@ -2643,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "assocs",
           "normalized": "EnumMap a b-\u003e[(a,b)]",
@@ -2657,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "delete",
           "package": "enummapset-th",
@@ -2666,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "delete",
           "normalized": "a-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -2680,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "deleteFindMax",
           "package": "enummapset-th",
@@ -2689,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "deleteFindMax",
           "normalized": "EnumMap a b-\u003e((a,b),EnumMap a b)",
@@ -2704,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "deleteFindMin",
           "package": "enummapset-th",
@@ -2713,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "deleteFindMin",
           "normalized": "EnumMap a b-\u003e((a,b),EnumMap a b)",
@@ -2728,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "deleteMax",
           "package": "enummapset-th",
@@ -2737,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "deleteMax",
           "normalized": "a b c EnumMap b d-\u003eEnumMap b d",
@@ -2752,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "deleteMin",
           "package": "enummapset-th",
@@ -2761,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "deleteMin",
           "normalized": "a b c EnumMap b d-\u003eEnumMap b d",
@@ -2776,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "difference",
           "package": "enummapset-th",
@@ -2785,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "difference",
           "normalized": "a b c d EnumMap b c-\u003eEnumMap b e-\u003eEnumMap b c",
@@ -2799,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "differenceWith",
           "package": "enummapset-th",
@@ -2808,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "differenceWith",
           "normalized": "a b c d(c-\u003ee-\u003eMaybe c)-\u003eEnumMap b c-\u003eEnumMap b e-\u003eEnumMap b c",
@@ -2823,6 +3061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "differenceWithKey",
           "package": "enummapset-th",
@@ -2832,6 +3071,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "differenceWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003eMaybe b)-\u003eEnumMap a b-\u003eEnumMap a c-\u003eEnumMap a b",
@@ -2847,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "elems",
           "package": "enummapset-th",
@@ -2856,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "elems",
           "normalized": "a b c EnumMap b d-\u003e[d]",
@@ -2870,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "empty",
           "package": "enummapset-th",
@@ -2879,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "empty",
           "package": "enummapset-th",
@@ -2891,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "filter",
           "package": "enummapset-th",
@@ -2900,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "filter",
           "normalized": "a b c(d-\u003eBool)-\u003eEnumMap b d-\u003eEnumMap b d",
@@ -2914,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "filterWithKey",
           "package": "enummapset-th",
@@ -2923,6 +3170,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "filterWithKey",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -2938,6 +3186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "findMax",
           "package": "enummapset-th",
@@ -2947,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "findMax",
           "normalized": "EnumMap a b-\u003e(a,b)",
@@ -2962,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "findMin",
           "package": "enummapset-th",
@@ -2971,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "findMin",
           "normalized": "EnumMap a b-\u003e(a,b)",
@@ -2986,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "findWithDefault",
           "package": "enummapset-th",
@@ -2995,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "findWithDefault",
           "normalized": "a-\u003eb-\u003eEnumMap b a-\u003ea",
@@ -3010,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "foldl",
           "package": "enummapset-th",
@@ -3019,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "foldl",
           "normalized": "a b c d(c-\u003ee-\u003ec)-\u003ec-\u003eEnumMap b e-\u003ec",
@@ -3033,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "foldl'",
           "package": "enummapset-th",
@@ -3042,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "foldl'",
           "normalized": "a b c d(c-\u003ee-\u003ec)-\u003ec-\u003eEnumMap b e-\u003ec",
@@ -3056,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "foldlWithKey",
           "package": "enummapset-th",
@@ -3065,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "foldlWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003ea)-\u003ea-\u003eEnumMap b c-\u003ea",
@@ -3080,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "foldlWithKey'",
           "package": "enummapset-th",
@@ -3089,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "foldlWithKey'",
           "normalized": "(a-\u003eb-\u003ec-\u003ea)-\u003ea-\u003eEnumMap b c-\u003ea",
@@ -3104,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "foldr",
           "package": "enummapset-th",
@@ -3113,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "foldr",
           "normalized": "a b c d(c-\u003ee-\u003ee)-\u003ee-\u003eEnumMap b c-\u003ee",
@@ -3127,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "foldr'",
           "package": "enummapset-th",
@@ -3136,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "foldr'",
           "normalized": "a b c d(c-\u003ee-\u003ee)-\u003ee-\u003eEnumMap b c-\u003ee",
@@ -3150,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "foldrWithKey",
           "package": "enummapset-th",
@@ -3159,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "foldrWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eEnumMap a b-\u003ec",
@@ -3174,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "foldrWithKey'",
           "package": "enummapset-th",
@@ -3183,6 +3452,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "foldrWithKey'",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eEnumMap a b-\u003ec",
@@ -3198,6 +3468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "fromAscList",
           "package": "enummapset-th",
@@ -3207,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "fromAscList",
           "normalized": "[(a,b)]-\u003eEnumMap a b",
@@ -3222,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "fromAscListWith",
           "package": "enummapset-th",
@@ -3231,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "fromAscListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003eEnumMap b a",
@@ -3246,6 +3520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "fromAscListWithKey",
           "package": "enummapset-th",
@@ -3255,6 +3530,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "fromAscListWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003e[(a,b)]-\u003eEnumMap a b",
@@ -3270,6 +3546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "fromDistinctAscList",
           "package": "enummapset-th",
@@ -3279,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "fromDistinctAscList",
           "normalized": "[(a,b)]-\u003eEnumMap a b",
@@ -3294,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "fromList",
           "package": "enummapset-th",
@@ -3303,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eEnumMap a b",
@@ -3318,6 +3598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "fromListWith",
           "package": "enummapset-th",
@@ -3327,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "fromListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003eEnumMap b a",
@@ -3342,6 +3624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "fromListWithKey",
           "package": "enummapset-th",
@@ -3351,6 +3634,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "fromListWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003e[(a,b)]-\u003eEnumMap a b",
@@ -3366,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "fromSet",
           "package": "enummapset-th",
@@ -3375,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "fromSet",
           "normalized": "(a-\u003eb)-\u003eEnumSet a-\u003eEnumMap a b",
@@ -3390,6 +3676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "insert",
           "package": "enummapset-th",
@@ -3399,6 +3686,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -3413,6 +3701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "insertLookupWithKey",
           "package": "enummapset-th",
@@ -3422,6 +3711,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "insertLookupWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003ea-\u003eb-\u003eEnumMap a b-\u003e(Maybe b,EnumMap a b)",
@@ -3437,6 +3727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "insertWith",
           "package": "enummapset-th",
@@ -3446,6 +3737,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb-\u003ea-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -3461,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "insertWithKey",
           "package": "enummapset-th",
@@ -3470,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "insertWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003ea-\u003eb-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -3485,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "intersection",
           "package": "enummapset-th",
@@ -3494,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "intersection",
           "normalized": "a b c d EnumMap b c-\u003eEnumMap b e-\u003eEnumMap b c",
@@ -3508,6 +3804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "intersectionWith",
           "package": "enummapset-th",
@@ -3517,6 +3814,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "intersectionWith",
           "normalized": "a b c d e(c-\u003ed-\u003ef)-\u003eEnumMap b c-\u003eEnumMap b d-\u003eEnumMap b f",
@@ -3532,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "intersectionWithKey",
           "package": "enummapset-th",
@@ -3541,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "intersectionWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eEnumMap a b-\u003eEnumMap a c-\u003eEnumMap a d",
@@ -3556,6 +3856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "isProperSubmapOf",
           "package": "enummapset-th",
@@ -3565,6 +3866,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "isProperSubmapOf",
           "normalized": "EnumMap a b-\u003eEnumMap a b-\u003eBool",
@@ -3580,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "isProperSubmapOfBy",
           "package": "enummapset-th",
@@ -3589,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "isProperSubmapOfBy",
           "normalized": "a b c d(c-\u003ee-\u003eBool)-\u003eEnumMap b c-\u003eEnumMap b e-\u003eBool",
@@ -3604,6 +3908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "isSubmapOf",
           "package": "enummapset-th",
@@ -3613,6 +3918,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "isSubmapOf",
           "normalized": "EnumMap a b-\u003eEnumMap a b-\u003eBool",
@@ -3628,6 +3934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "isSubmapOfBy",
           "package": "enummapset-th",
@@ -3637,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "isSubmapOfBy",
           "normalized": "a b c d(c-\u003ee-\u003eBool)-\u003eEnumMap b c-\u003eEnumMap b e-\u003eBool",
@@ -3652,6 +3960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "keys",
           "package": "enummapset-th",
@@ -3661,6 +3970,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "keys",
           "normalized": "EnumMap a b-\u003e[a]",
@@ -3675,6 +3985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "keysSet",
           "package": "enummapset-th",
@@ -3684,6 +3995,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "keysSet",
           "normalized": "a b c EnumMap b d-\u003eEnumSet b",
@@ -3699,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "lookup",
           "package": "enummapset-th",
@@ -3708,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "lookup",
           "normalized": "a-\u003eEnumMap a b-\u003eMaybe b",
@@ -3722,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "lookupGE",
           "package": "enummapset-th",
@@ -3731,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "lookupGE",
           "normalized": "a-\u003eEnumMap a b-\u003eMaybe(a,b)",
@@ -3746,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "lookupGT",
           "package": "enummapset-th",
@@ -3755,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "lookupGT",
           "normalized": "a-\u003eEnumMap a b-\u003eMaybe(a,b)",
@@ -3770,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "lookupLE",
           "package": "enummapset-th",
@@ -3779,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "lookupLE",
           "normalized": "a-\u003eEnumMap a b-\u003eMaybe(a,b)",
@@ -3794,6 +4114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "lookupLT",
           "package": "enummapset-th",
@@ -3803,6 +4124,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "lookupLT",
           "normalized": "a-\u003eEnumMap a b-\u003eMaybe(a,b)",
@@ -3818,6 +4140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "map",
           "package": "enummapset-th",
@@ -3827,6 +4150,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "map",
           "normalized": "a b c d(c-\u003ee)-\u003eEnumMap b c-\u003eEnumMap b e",
@@ -3841,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "mapAccum",
           "package": "enummapset-th",
@@ -3850,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "mapAccum",
           "normalized": "a b c d e(c-\u003ed-\u003e(c,f))-\u003ec-\u003eEnumMap b d-\u003e(c,EnumMap b f)",
@@ -3865,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "mapAccumRWithKey",
           "package": "enummapset-th",
@@ -3874,6 +4201,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "mapAccumRWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003e(a,d))-\u003ea-\u003eEnumMap b c-\u003e(a,EnumMap b d)",
@@ -3889,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "mapAccumWithKey",
           "package": "enummapset-th",
@@ -3898,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "mapAccumWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003e(a,d))-\u003ea-\u003eEnumMap b c-\u003e(a,EnumMap b d)",
@@ -3913,6 +4243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "mapEither",
           "package": "enummapset-th",
@@ -3922,6 +4253,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "mapEither",
           "normalized": "a b c d e(c-\u003eEither d f)-\u003eEnumMap b c-\u003e(EnumMap b d,EnumMap b f)",
@@ -3937,6 +4269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "mapEitherWithKey",
           "package": "enummapset-th",
@@ -3946,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "mapEitherWithKey",
           "normalized": "(a-\u003eb-\u003eEither c d)-\u003eEnumMap a b-\u003e(EnumMap a c,EnumMap a d)",
@@ -3961,6 +4295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "mapKeys",
           "package": "enummapset-th",
@@ -3970,6 +4305,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "mapKeys",
           "normalized": "(a-\u003eb)-\u003eEnumMap a c-\u003eEnumMap b c",
@@ -3985,6 +4321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "mapKeysMonotonic",
           "package": "enummapset-th",
@@ -3994,6 +4331,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "mapKeysMonotonic",
           "normalized": "(a-\u003eb)-\u003eEnumMap a c-\u003eEnumMap b c",
@@ -4009,6 +4347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "mapKeysWith",
           "package": "enummapset-th",
@@ -4018,6 +4357,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "mapKeysWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(b-\u003ec)-\u003eEnumMap b a-\u003eEnumMap c a",
@@ -4033,6 +4373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "mapMaybe",
           "package": "enummapset-th",
@@ -4042,6 +4383,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "mapMaybe",
           "normalized": "a b c d(c-\u003eMaybe e)-\u003eEnumMap b c-\u003eEnumMap b e",
@@ -4057,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "mapMaybeWithKey",
           "package": "enummapset-th",
@@ -4066,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "mapMaybeWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe c)-\u003eEnumMap a b-\u003eEnumMap a c",
@@ -4081,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "mapWithKey",
           "package": "enummapset-th",
@@ -4090,6 +4435,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "mapWithKey",
           "normalized": "(a-\u003eb-\u003ec)-\u003eEnumMap a b-\u003eEnumMap a c",
@@ -4105,6 +4451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "maxView",
           "package": "enummapset-th",
@@ -4114,6 +4461,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "maxView",
           "normalized": "a b c EnumMap b d-\u003eMaybe(d,EnumMap b d)",
@@ -4129,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "maxViewWithKey",
           "package": "enummapset-th",
@@ -4138,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "maxViewWithKey",
           "normalized": "EnumMap a b-\u003eMaybe((a,b),EnumMap a b)",
@@ -4153,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "member",
           "package": "enummapset-th",
@@ -4162,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "member",
           "normalized": "a-\u003eEnumMap a b-\u003eBool",
@@ -4176,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "mergeWithKey",
           "package": "enummapset-th",
@@ -4185,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "mergeWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003eMaybe d)-\u003e(EnumMap a b-\u003eEnumMap a d)-\u003e(EnumMap a c-\u003eEnumMap a d)-\u003eEnumMap a b-\u003eEnumMap a c-\u003eEnumMap a d",
@@ -4200,6 +4554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "minView",
           "package": "enummapset-th",
@@ -4209,6 +4564,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "minView",
           "normalized": "a b c EnumMap b d-\u003eMaybe(d,EnumMap b d)",
@@ -4224,6 +4580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "minViewWithKey",
           "package": "enummapset-th",
@@ -4233,6 +4590,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "minViewWithKey",
           "normalized": "EnumMap a b-\u003eMaybe((a,b),EnumMap a b)",
@@ -4248,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "notMember",
           "package": "enummapset-th",
@@ -4257,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "notMember",
           "normalized": "a-\u003eEnumMap a b-\u003eBool",
@@ -4272,6 +4632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "null",
           "package": "enummapset-th",
@@ -4281,6 +4642,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "null",
           "normalized": "a b c EnumMap b d-\u003eBool",
@@ -4295,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "partition",
           "package": "enummapset-th",
@@ -4304,6 +4667,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "partition",
           "normalized": "a b c(d-\u003eBool)-\u003eEnumMap b d-\u003e(EnumMap b d,EnumMap b d)",
@@ -4318,6 +4682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "partitionWithKey",
           "package": "enummapset-th",
@@ -4327,6 +4692,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "partitionWithKey",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eEnumMap a b-\u003e(EnumMap a b,EnumMap a b)",
@@ -4342,6 +4708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "showTree",
           "package": "enummapset-th",
@@ -4351,6 +4718,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "showTree",
           "normalized": "EnumMap a b-\u003eString",
@@ -4366,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "showTreeWith",
           "package": "enummapset-th",
@@ -4375,6 +4744,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "showTreeWith",
           "normalized": "Bool-\u003eBool-\u003eEnumMap a b-\u003eString",
@@ -4390,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "singleton",
           "package": "enummapset-th",
@@ -4399,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eEnumMap a b",
@@ -4413,6 +4785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "size",
           "package": "enummapset-th",
@@ -4422,6 +4795,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "size",
           "normalized": "a b c EnumMap b d-\u003eInt",
@@ -4436,6 +4810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "split",
           "package": "enummapset-th",
@@ -4445,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "split",
           "normalized": "a-\u003eEnumMap a b-\u003e(EnumMap a b,EnumMap a b)",
@@ -4459,6 +4835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "splitLookup",
           "package": "enummapset-th",
@@ -4468,6 +4845,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "splitLookup",
           "normalized": "a-\u003eEnumMap a b-\u003e(EnumMap a b,Maybe b,EnumMap a b)",
@@ -4483,6 +4861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "toAscList",
           "package": "enummapset-th",
@@ -4492,6 +4871,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "toAscList",
           "normalized": "EnumMap a b-\u003e[(a,b)]",
@@ -4507,6 +4887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "toDescList",
           "package": "enummapset-th",
@@ -4516,6 +4897,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "toDescList",
           "normalized": "EnumMap a b-\u003e[(a,b)]",
@@ -4531,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "toList",
           "package": "enummapset-th",
@@ -4540,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "toList",
           "normalized": "EnumMap a b-\u003e[(a,b)]",
@@ -4555,6 +4939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "traverseWithKey",
           "package": "enummapset-th",
@@ -4564,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "traverseWithKey",
           "normalized": "(a-\u003eb-\u003ec d)-\u003eEnumMap a b-\u003ec(EnumMap a d)",
@@ -4579,6 +4965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "unEnumMap",
           "package": "enummapset-th",
@@ -4588,6 +4975,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "unEnumMap",
           "package": "enummapset-th",
@@ -4601,6 +4989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "union",
           "package": "enummapset-th",
@@ -4610,6 +4999,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "union",
           "normalized": "a b c EnumMap b d-\u003eEnumMap b d-\u003eEnumMap b d",
@@ -4624,6 +5014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "unionWith",
           "package": "enummapset-th",
@@ -4633,6 +5024,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "unionWith",
           "normalized": "a b c(d-\u003ed-\u003ed)-\u003eEnumMap b d-\u003eEnumMap b d-\u003eEnumMap b d",
@@ -4648,6 +5040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "unionWithKey",
           "package": "enummapset-th",
@@ -4657,6 +5050,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "unionWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003eEnumMap a b-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -4672,6 +5066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "unions",
           "package": "enummapset-th",
@@ -4681,6 +5076,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "unions",
           "normalized": "a b c[EnumMap b d]-\u003eEnumMap b d",
@@ -4695,6 +5091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "unionsWith",
           "package": "enummapset-th",
@@ -4704,6 +5101,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "unionsWith",
           "normalized": "a b c(d-\u003ed-\u003ed)-\u003e[EnumMap b d]-\u003eEnumMap b d",
@@ -4719,6 +5117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "update",
           "package": "enummapset-th",
@@ -4728,6 +5127,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "update",
           "normalized": "(a-\u003eMaybe a)-\u003eb-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -4742,6 +5142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "updateLookupWithKey",
           "package": "enummapset-th",
@@ -4751,6 +5152,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "updateLookupWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe b)-\u003ea-\u003eEnumMap a b-\u003e(Maybe b,EnumMap a b)",
@@ -4766,6 +5168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "updateMax",
           "package": "enummapset-th",
@@ -4775,6 +5178,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "updateMax",
           "normalized": "a b c(d-\u003eMaybe d)-\u003eEnumMap b d-\u003eEnumMap b d",
@@ -4790,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "updateMaxWithKey",
           "package": "enummapset-th",
@@ -4799,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "updateMaxWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe b)-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -4814,6 +5220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "updateMin",
           "package": "enummapset-th",
@@ -4823,6 +5230,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "updateMin",
           "normalized": "a b c(d-\u003eMaybe d)-\u003eEnumMap b d-\u003eEnumMap b d",
@@ -4838,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "updateMinWithKey",
           "package": "enummapset-th",
@@ -4847,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "updateMinWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe b)-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -4862,6 +5272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumMap.Strict",
           "name": "updateWithKey",
           "package": "enummapset-th",
@@ -4871,6 +5282,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap Strict",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumMap.Strict",
           "name": "updateWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe b)-\u003ea-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -4887,6 +5299,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDocumentation: \u003ca\u003ehttp://hackage.haskell.org/packages/archive/containers/latest/doc/html/Data-IntSet.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "EnumSet",
           "package": "enummapset-th",
@@ -4896,6 +5309,7 @@
         "index": {
           "description": "Documentation http hackage.haskell.org packages archive containers latest doc html Data-IntSet.html",
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "EnumSet",
           "package": "enummapset-th",
@@ -4909,6 +5323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "EnumSet",
           "package": "enummapset-th",
@@ -4917,6 +5332,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "EnumSet",
           "package": "enummapset-th",
@@ -4930,6 +5346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "(\\\\)",
           "package": "enummapset-th",
@@ -4939,6 +5356,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "(\\\\) \\\\",
           "normalized": "a b EnumSet c-\u003eEnumSet c-\u003eEnumSet c",
@@ -4953,6 +5371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "EnumSet",
           "package": "enummapset-th",
@@ -4962,6 +5381,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "EnumSet",
           "package": "enummapset-th",
@@ -4975,6 +5395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "delete",
           "package": "enummapset-th",
@@ -4984,6 +5405,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "delete",
           "normalized": "a-\u003eEnumSet a-\u003eEnumSet a",
@@ -4998,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "deleteFindMax",
           "package": "enummapset-th",
@@ -5007,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "deleteFindMax",
           "normalized": "EnumSet a-\u003e(a,EnumSet a)",
@@ -5022,6 +5446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "deleteFindMin",
           "package": "enummapset-th",
@@ -5031,6 +5456,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "deleteFindMin",
           "normalized": "EnumSet a-\u003e(a,EnumSet a)",
@@ -5046,6 +5472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "deleteMax",
           "package": "enummapset-th",
@@ -5055,6 +5482,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "deleteMax",
           "normalized": "a b EnumSet c-\u003eEnumSet c",
@@ -5070,6 +5498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "deleteMin",
           "package": "enummapset-th",
@@ -5079,6 +5508,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "deleteMin",
           "normalized": "a b EnumSet c-\u003eEnumSet c",
@@ -5094,6 +5524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "difference",
           "package": "enummapset-th",
@@ -5103,6 +5534,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "difference",
           "normalized": "a b EnumSet c-\u003eEnumSet c-\u003eEnumSet c",
@@ -5117,6 +5549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "elems",
           "package": "enummapset-th",
@@ -5126,6 +5559,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "elems",
           "normalized": "EnumSet a-\u003e[a]",
@@ -5140,6 +5574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "empty",
           "package": "enummapset-th",
@@ -5149,6 +5584,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "empty",
           "package": "enummapset-th",
@@ -5161,6 +5597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "filter",
           "package": "enummapset-th",
@@ -5170,6 +5607,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eEnumSet a-\u003eEnumSet a",
@@ -5184,6 +5622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "findMax",
           "package": "enummapset-th",
@@ -5193,6 +5632,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "findMax",
           "normalized": "EnumSet a-\u003ea",
@@ -5208,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "findMin",
           "package": "enummapset-th",
@@ -5217,6 +5658,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "findMin",
           "normalized": "EnumSet a-\u003ea",
@@ -5232,6 +5674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "foldl",
           "package": "enummapset-th",
@@ -5241,6 +5684,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eEnumSet b-\u003ea",
@@ -5255,6 +5699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "foldl'",
           "package": "enummapset-th",
@@ -5264,6 +5709,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eEnumSet b-\u003ea",
@@ -5278,6 +5724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "foldr",
           "package": "enummapset-th",
@@ -5287,6 +5734,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eEnumSet a-\u003eb",
@@ -5301,6 +5749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "foldr'",
           "package": "enummapset-th",
@@ -5310,6 +5759,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "foldr'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eEnumSet a-\u003eb",
@@ -5324,6 +5774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "fromAscList",
           "package": "enummapset-th",
@@ -5333,6 +5784,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "fromAscList",
           "normalized": "[a]-\u003eEnumSet a",
@@ -5348,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "fromDistinctAscList",
           "package": "enummapset-th",
@@ -5357,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "fromDistinctAscList",
           "normalized": "[a]-\u003eEnumSet a",
@@ -5372,6 +5826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "fromList",
           "package": "enummapset-th",
@@ -5381,6 +5836,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "fromList",
           "normalized": "[a]-\u003eEnumSet a",
@@ -5396,6 +5852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "insert",
           "package": "enummapset-th",
@@ -5405,6 +5862,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "insert",
           "normalized": "a-\u003eEnumSet a-\u003eEnumSet a",
@@ -5419,6 +5877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "intersection",
           "package": "enummapset-th",
@@ -5428,6 +5887,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "intersection",
           "normalized": "a b EnumSet c-\u003eEnumSet c-\u003eEnumSet c",
@@ -5442,6 +5902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "isProperSubsetOf",
           "package": "enummapset-th",
@@ -5451,6 +5912,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "isProperSubsetOf",
           "normalized": "a b EnumSet c-\u003eEnumSet c-\u003eBool",
@@ -5466,6 +5928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "isSubsetOf",
           "package": "enummapset-th",
@@ -5475,6 +5938,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "isSubsetOf",
           "normalized": "a b EnumSet c-\u003eEnumSet c-\u003eBool",
@@ -5490,6 +5954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "lookupGE",
           "package": "enummapset-th",
@@ -5499,6 +5964,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "lookupGE",
           "normalized": "a-\u003eEnumSet a-\u003eMaybe a",
@@ -5514,6 +5980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "lookupGT",
           "package": "enummapset-th",
@@ -5523,6 +5990,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "lookupGT",
           "normalized": "a-\u003eEnumSet a-\u003eMaybe a",
@@ -5538,6 +6006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "lookupLE",
           "package": "enummapset-th",
@@ -5547,6 +6016,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "lookupLE",
           "normalized": "a-\u003eEnumSet a-\u003eMaybe a",
@@ -5562,6 +6032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "lookupLT",
           "package": "enummapset-th",
@@ -5571,6 +6042,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "lookupLT",
           "normalized": "a-\u003eEnumSet a-\u003eMaybe a",
@@ -5586,6 +6058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "map",
           "package": "enummapset-th",
@@ -5595,6 +6068,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eEnumSet a-\u003eEnumSet b",
@@ -5609,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "maxView",
           "package": "enummapset-th",
@@ -5618,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "maxView",
           "normalized": "EnumSet a-\u003eMaybe(a,EnumSet a)",
@@ -5633,6 +6109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "member",
           "package": "enummapset-th",
@@ -5642,6 +6119,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "member",
           "normalized": "a-\u003eEnumSet a-\u003eBool",
@@ -5656,6 +6134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "minView",
           "package": "enummapset-th",
@@ -5665,6 +6144,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "minView",
           "normalized": "EnumSet a-\u003eMaybe(a,EnumSet a)",
@@ -5680,6 +6160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "notMember",
           "package": "enummapset-th",
@@ -5689,6 +6170,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "notMember",
           "normalized": "a-\u003eEnumSet a-\u003eBool",
@@ -5704,6 +6186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "null",
           "package": "enummapset-th",
@@ -5713,6 +6196,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "null",
           "normalized": "a b EnumSet c-\u003eBool",
@@ -5727,6 +6211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "partition",
           "package": "enummapset-th",
@@ -5736,6 +6221,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eEnumSet a-\u003e(EnumSet a,EnumSet a)",
@@ -5750,6 +6236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "showTree",
           "package": "enummapset-th",
@@ -5759,6 +6246,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "showTree",
           "normalized": "a b EnumSet c-\u003eString",
@@ -5774,6 +6262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "showTreeWith",
           "package": "enummapset-th",
@@ -5783,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "showTreeWith",
           "normalized": "a b Bool-\u003eBool-\u003eEnumSet c-\u003eString",
@@ -5798,6 +6288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "singleton",
           "package": "enummapset-th",
@@ -5807,6 +6298,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "singleton",
           "normalized": "a-\u003eEnumSet a",
@@ -5821,6 +6313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "size",
           "package": "enummapset-th",
@@ -5830,6 +6323,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "size",
           "normalized": "a b EnumSet c-\u003eInt",
@@ -5844,6 +6338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "split",
           "package": "enummapset-th",
@@ -5853,6 +6348,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "split",
           "normalized": "a-\u003eEnumSet a-\u003e(EnumSet a,EnumSet a)",
@@ -5867,6 +6363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "splitMember",
           "package": "enummapset-th",
@@ -5876,6 +6373,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "splitMember",
           "normalized": "a-\u003eEnumSet a-\u003e(EnumSet a,Bool,EnumSet a)",
@@ -5891,6 +6389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "toAscList",
           "package": "enummapset-th",
@@ -5900,6 +6399,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "toAscList",
           "normalized": "EnumSet a-\u003e[a]",
@@ -5915,6 +6415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "toDescList",
           "package": "enummapset-th",
@@ -5924,6 +6425,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "toDescList",
           "normalized": "EnumSet a-\u003e[a]",
@@ -5939,6 +6441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "toList",
           "package": "enummapset-th",
@@ -5948,6 +6451,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "toList",
           "normalized": "EnumSet a-\u003e[a]",
@@ -5963,6 +6467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "unEnumSet",
           "package": "enummapset-th",
@@ -5972,6 +6477,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "unEnumSet",
           "package": "enummapset-th",
@@ -5985,6 +6491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "union",
           "package": "enummapset-th",
@@ -5994,6 +6501,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "union",
           "normalized": "a b EnumSet c-\u003eEnumSet c-\u003eEnumSet c",
@@ -6008,6 +6516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:01 UTC 2014",
           "module": "Data.EnumSet",
           "name": "unions",
           "package": "enummapset-th",
@@ -6017,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:01",
           "module": "Data.EnumSet",
           "name": "unions",
           "normalized": "a b[EnumSet c]-\u003eEnumSet c",

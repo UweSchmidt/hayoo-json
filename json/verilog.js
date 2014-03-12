@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "verilog"
+        "phrase": "verilog",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Lex",
           "name": "Lex",
           "package": "verilog",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Lex",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Lex",
           "name": "Lex",
           "package": "verilog",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Lex",
           "name": "alexScanTokens",
           "package": "verilog",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Lex",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Lex",
           "name": "alexScanTokens",
           "normalized": "String-\u003e[Token]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Parse",
           "name": "Parse",
           "package": "verilog",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Parse",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Parse",
           "name": "Parse",
           "package": "verilog",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a file given a table of predefined macros, the file name, and the file contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Parse",
           "name": "parseFile",
           "package": "verilog",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Parses file given table of predefined macros the file name and the file contents",
           "hierarchy": "Language Verilog Parse",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Parse",
           "name": "parseFile",
           "normalized": "[(String,String)]-\u003eFilePath-\u003eString-\u003e[Module]",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Preprocess",
           "name": "Preprocess",
           "package": "verilog",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Preprocess",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Preprocess",
           "name": "Preprocess",
           "package": "verilog",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple `define preprocessor.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Preprocess",
           "name": "preprocess",
           "package": "verilog",
@@ -142,6 +153,7 @@
         "index": {
           "description": "simple define preprocessor",
           "hierarchy": "Language Verilog Preprocess",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Preprocess",
           "name": "preprocess",
           "normalized": "[(String,String)]-\u003eFilePath-\u003eString-\u003eString",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove comments from code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Preprocess",
           "name": "uncomment",
           "package": "verilog",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Remove comments from code",
           "hierarchy": "Language Verilog Preprocess",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Preprocess",
           "name": "uncomment",
           "normalized": "FilePath-\u003eString-\u003eString",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Tokens",
           "package": "verilog",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Tokens",
           "package": "verilog",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Position",
           "package": "verilog",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Position",
           "package": "verilog",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Token",
           "package": "verilog",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Token",
           "package": "verilog",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "TokenInfo",
           "package": "verilog",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "TokenInfo",
           "package": "verilog",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Id_escaped",
           "package": "verilog",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Id_escaped",
           "package": "verilog",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Id_simple",
           "package": "verilog",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Id_simple",
           "package": "verilog",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Id_system",
           "package": "verilog",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Id_system",
           "package": "verilog",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_alias",
           "package": "verilog",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_alias",
           "package": "verilog",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_always",
           "package": "verilog",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_always",
           "package": "verilog",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_always_comb",
           "package": "verilog",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_always_comb",
           "package": "verilog",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_always_ff",
           "package": "verilog",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_always_ff",
           "package": "verilog",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_always_latch",
           "package": "verilog",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_always_latch",
           "package": "verilog",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_and",
           "package": "verilog",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_and",
           "package": "verilog",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_assert",
           "package": "verilog",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_assert",
           "package": "verilog",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_assign",
           "package": "verilog",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_assign",
           "package": "verilog",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_assume",
           "package": "verilog",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_assume",
           "package": "verilog",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_automatic",
           "package": "verilog",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_automatic",
           "package": "verilog",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_before",
           "package": "verilog",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_before",
           "package": "verilog",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_begin",
           "package": "verilog",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_begin",
           "package": "verilog",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_bind",
           "package": "verilog",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_bind",
           "package": "verilog",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_bins",
           "package": "verilog",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_bins",
           "package": "verilog",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_binsof",
           "package": "verilog",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_binsof",
           "package": "verilog",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_bit",
           "package": "verilog",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_bit",
           "package": "verilog",
@@ -683,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_break",
           "package": "verilog",
@@ -692,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_break",
           "package": "verilog",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_buf",
           "package": "verilog",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_buf",
           "package": "verilog",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_bufif0",
           "package": "verilog",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_bufif0",
           "package": "verilog",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_bufif1",
           "package": "verilog",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_bufif1",
           "package": "verilog",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_byte",
           "package": "verilog",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_byte",
           "package": "verilog",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_case",
           "package": "verilog",
@@ -802,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_case",
           "package": "verilog",
@@ -815,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_casex",
           "package": "verilog",
@@ -824,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_casex",
           "package": "verilog",
@@ -837,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_casez",
           "package": "verilog",
@@ -846,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_casez",
           "package": "verilog",
@@ -859,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_cell",
           "package": "verilog",
@@ -868,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_cell",
           "package": "verilog",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_chandle",
           "package": "verilog",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_chandle",
           "package": "verilog",
@@ -903,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_class",
           "package": "verilog",
@@ -912,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_class",
           "package": "verilog",
@@ -925,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_clocking",
           "package": "verilog",
@@ -934,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_clocking",
           "package": "verilog",
@@ -947,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_cmos",
           "package": "verilog",
@@ -956,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_cmos",
           "package": "verilog",
@@ -969,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_config",
           "package": "verilog",
@@ -978,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_config",
           "package": "verilog",
@@ -991,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_const",
           "package": "verilog",
@@ -1000,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_const",
           "package": "verilog",
@@ -1013,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_constraint",
           "package": "verilog",
@@ -1022,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_constraint",
           "package": "verilog",
@@ -1035,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_context",
           "package": "verilog",
@@ -1044,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_context",
           "package": "verilog",
@@ -1057,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_continue",
           "package": "verilog",
@@ -1066,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_continue",
           "package": "verilog",
@@ -1079,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_cover",
           "package": "verilog",
@@ -1088,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_cover",
           "package": "verilog",
@@ -1101,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_covergroup",
           "package": "verilog",
@@ -1110,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_covergroup",
           "package": "verilog",
@@ -1123,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_coverpoint",
           "package": "verilog",
@@ -1132,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_coverpoint",
           "package": "verilog",
@@ -1145,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_cross",
           "package": "verilog",
@@ -1154,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_cross",
           "package": "verilog",
@@ -1167,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_deassign",
           "package": "verilog",
@@ -1176,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_deassign",
           "package": "verilog",
@@ -1189,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_default",
           "package": "verilog",
@@ -1198,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_default",
           "package": "verilog",
@@ -1211,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_defparam",
           "package": "verilog",
@@ -1220,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_defparam",
           "package": "verilog",
@@ -1233,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_design",
           "package": "verilog",
@@ -1242,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_design",
           "package": "verilog",
@@ -1255,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_disable",
           "package": "verilog",
@@ -1264,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_disable",
           "package": "verilog",
@@ -1277,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_dist",
           "package": "verilog",
@@ -1286,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_dist",
           "package": "verilog",
@@ -1299,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_do",
           "package": "verilog",
@@ -1308,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_do",
           "package": "verilog",
@@ -1321,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_edge",
           "package": "verilog",
@@ -1330,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_edge",
           "package": "verilog",
@@ -1343,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_else",
           "package": "verilog",
@@ -1352,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_else",
           "package": "verilog",
@@ -1365,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_end",
           "package": "verilog",
@@ -1374,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_end",
           "package": "verilog",
@@ -1387,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endcase",
           "package": "verilog",
@@ -1396,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endcase",
           "package": "verilog",
@@ -1409,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endclass",
           "package": "verilog",
@@ -1418,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endclass",
           "package": "verilog",
@@ -1431,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endclocking",
           "package": "verilog",
@@ -1440,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endclocking",
           "package": "verilog",
@@ -1453,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endconfig",
           "package": "verilog",
@@ -1462,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endconfig",
           "package": "verilog",
@@ -1475,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endfunction",
           "package": "verilog",
@@ -1484,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endfunction",
           "package": "verilog",
@@ -1497,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endgenerate",
           "package": "verilog",
@@ -1506,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endgenerate",
           "package": "verilog",
@@ -1519,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endgroup",
           "package": "verilog",
@@ -1528,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endgroup",
           "package": "verilog",
@@ -1541,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endinterface",
           "package": "verilog",
@@ -1550,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endinterface",
           "package": "verilog",
@@ -1563,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endmodule",
           "package": "verilog",
@@ -1572,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endmodule",
           "package": "verilog",
@@ -1585,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endpackage",
           "package": "verilog",
@@ -1594,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endpackage",
           "package": "verilog",
@@ -1607,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endprimitive",
           "package": "verilog",
@@ -1616,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endprimitive",
           "package": "verilog",
@@ -1629,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endprogram",
           "package": "verilog",
@@ -1638,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endprogram",
           "package": "verilog",
@@ -1651,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endproperty",
           "package": "verilog",
@@ -1660,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endproperty",
           "package": "verilog",
@@ -1673,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endsequence",
           "package": "verilog",
@@ -1682,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endsequence",
           "package": "verilog",
@@ -1695,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endspecify",
           "package": "verilog",
@@ -1704,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endspecify",
           "package": "verilog",
@@ -1717,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endtable",
           "package": "verilog",
@@ -1726,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endtable",
           "package": "verilog",
@@ -1739,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endtask",
           "package": "verilog",
@@ -1748,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_endtask",
           "package": "verilog",
@@ -1761,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_enum",
           "package": "verilog",
@@ -1770,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_enum",
           "package": "verilog",
@@ -1783,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_event",
           "package": "verilog",
@@ -1792,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_event",
           "package": "verilog",
@@ -1805,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_expect",
           "package": "verilog",
@@ -1814,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_expect",
           "package": "verilog",
@@ -1827,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_export",
           "package": "verilog",
@@ -1836,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_export",
           "package": "verilog",
@@ -1849,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_extends",
           "package": "verilog",
@@ -1858,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_extends",
           "package": "verilog",
@@ -1871,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_extern",
           "package": "verilog",
@@ -1880,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_extern",
           "package": "verilog",
@@ -1893,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_final",
           "package": "verilog",
@@ -1902,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_final",
           "package": "verilog",
@@ -1915,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_first_match",
           "package": "verilog",
@@ -1924,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_first_match",
           "package": "verilog",
@@ -1937,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_for",
           "package": "verilog",
@@ -1946,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_for",
           "package": "verilog",
@@ -1959,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_force",
           "package": "verilog",
@@ -1968,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_force",
           "package": "verilog",
@@ -1981,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_foreach",
           "package": "verilog",
@@ -1990,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_foreach",
           "package": "verilog",
@@ -2003,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_forever",
           "package": "verilog",
@@ -2012,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_forever",
           "package": "verilog",
@@ -2025,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_fork",
           "package": "verilog",
@@ -2034,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_fork",
           "package": "verilog",
@@ -2047,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_forkjoin",
           "package": "verilog",
@@ -2056,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_forkjoin",
           "package": "verilog",
@@ -2069,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_function",
           "package": "verilog",
@@ -2078,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_function",
           "package": "verilog",
@@ -2091,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_function_prototype",
           "package": "verilog",
@@ -2100,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_function_prototype",
           "package": "verilog",
@@ -2113,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_generate",
           "package": "verilog",
@@ -2122,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_generate",
           "package": "verilog",
@@ -2135,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_genvar",
           "package": "verilog",
@@ -2144,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_genvar",
           "package": "verilog",
@@ -2157,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_highz0",
           "package": "verilog",
@@ -2166,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_highz0",
           "package": "verilog",
@@ -2179,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_highz1",
           "package": "verilog",
@@ -2188,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_highz1",
           "package": "verilog",
@@ -2201,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_if",
           "package": "verilog",
@@ -2210,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_if",
           "package": "verilog",
@@ -2223,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_iff",
           "package": "verilog",
@@ -2232,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_iff",
           "package": "verilog",
@@ -2245,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_ifnone",
           "package": "verilog",
@@ -2254,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_ifnone",
           "package": "verilog",
@@ -2267,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_ignore_bins",
           "package": "verilog",
@@ -2276,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_ignore_bins",
           "package": "verilog",
@@ -2289,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_illegal_bins",
           "package": "verilog",
@@ -2298,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_illegal_bins",
           "package": "verilog",
@@ -2311,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_import",
           "package": "verilog",
@@ -2320,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_import",
           "package": "verilog",
@@ -2333,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_incdir",
           "package": "verilog",
@@ -2342,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_incdir",
           "package": "verilog",
@@ -2355,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_include",
           "package": "verilog",
@@ -2364,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_include",
           "package": "verilog",
@@ -2377,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_initial",
           "package": "verilog",
@@ -2386,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_initial",
           "package": "verilog",
@@ -2399,6 +2615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_inout",
           "package": "verilog",
@@ -2408,6 +2625,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_inout",
           "package": "verilog",
@@ -2421,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_input",
           "package": "verilog",
@@ -2430,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_input",
           "package": "verilog",
@@ -2443,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_inside",
           "package": "verilog",
@@ -2452,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_inside",
           "package": "verilog",
@@ -2465,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_instance",
           "package": "verilog",
@@ -2474,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_instance",
           "package": "verilog",
@@ -2487,6 +2711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_int",
           "package": "verilog",
@@ -2496,6 +2721,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_int",
           "package": "verilog",
@@ -2509,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_integer",
           "package": "verilog",
@@ -2518,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_integer",
           "package": "verilog",
@@ -2531,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_interface",
           "package": "verilog",
@@ -2540,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_interface",
           "package": "verilog",
@@ -2553,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_intersect",
           "package": "verilog",
@@ -2562,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_intersect",
           "package": "verilog",
@@ -2575,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_join",
           "package": "verilog",
@@ -2584,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_join",
           "package": "verilog",
@@ -2597,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_join_any",
           "package": "verilog",
@@ -2606,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_join_any",
           "package": "verilog",
@@ -2619,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_join_none",
           "package": "verilog",
@@ -2628,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_join_none",
           "package": "verilog",
@@ -2641,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_large",
           "package": "verilog",
@@ -2650,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_large",
           "package": "verilog",
@@ -2663,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_liblist",
           "package": "verilog",
@@ -2672,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_liblist",
           "package": "verilog",
@@ -2685,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_library",
           "package": "verilog",
@@ -2694,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_library",
           "package": "verilog",
@@ -2707,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_local",
           "package": "verilog",
@@ -2716,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_local",
           "package": "verilog",
@@ -2729,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_localparam",
           "package": "verilog",
@@ -2738,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_localparam",
           "package": "verilog",
@@ -2751,6 +2999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_logic",
           "package": "verilog",
@@ -2760,6 +3009,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_logic",
           "package": "verilog",
@@ -2773,6 +3023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_longint",
           "package": "verilog",
@@ -2782,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_longint",
           "package": "verilog",
@@ -2795,6 +3047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_macromodule",
           "package": "verilog",
@@ -2804,6 +3057,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_macromodule",
           "package": "verilog",
@@ -2817,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_matches",
           "package": "verilog",
@@ -2826,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_matches",
           "package": "verilog",
@@ -2839,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_medium",
           "package": "verilog",
@@ -2848,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_medium",
           "package": "verilog",
@@ -2861,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_modport",
           "package": "verilog",
@@ -2870,6 +3129,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_modport",
           "package": "verilog",
@@ -2883,6 +3143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_module",
           "package": "verilog",
@@ -2892,6 +3153,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_module",
           "package": "verilog",
@@ -2905,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_nand",
           "package": "verilog",
@@ -2914,6 +3177,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_nand",
           "package": "verilog",
@@ -2927,6 +3191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_negedge",
           "package": "verilog",
@@ -2936,6 +3201,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_negedge",
           "package": "verilog",
@@ -2949,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_new",
           "package": "verilog",
@@ -2958,6 +3225,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_new",
           "package": "verilog",
@@ -2971,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_nmos",
           "package": "verilog",
@@ -2980,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_nmos",
           "package": "verilog",
@@ -2993,6 +3263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_nor",
           "package": "verilog",
@@ -3002,6 +3273,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_nor",
           "package": "verilog",
@@ -3015,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_noshowcancelled",
           "package": "verilog",
@@ -3024,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_noshowcancelled",
           "package": "verilog",
@@ -3037,6 +3311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_not",
           "package": "verilog",
@@ -3046,6 +3321,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_not",
           "package": "verilog",
@@ -3059,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_notif0",
           "package": "verilog",
@@ -3068,6 +3345,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_notif0",
           "package": "verilog",
@@ -3081,6 +3359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_notif1",
           "package": "verilog",
@@ -3090,6 +3369,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_notif1",
           "package": "verilog",
@@ -3103,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_null",
           "package": "verilog",
@@ -3112,6 +3393,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_null",
           "package": "verilog",
@@ -3125,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_option",
           "package": "verilog",
@@ -3134,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_option",
           "package": "verilog",
@@ -3147,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_or",
           "package": "verilog",
@@ -3156,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_or",
           "package": "verilog",
@@ -3169,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_output",
           "package": "verilog",
@@ -3178,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_output",
           "package": "verilog",
@@ -3191,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_package",
           "package": "verilog",
@@ -3200,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_package",
           "package": "verilog",
@@ -3213,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_packed",
           "package": "verilog",
@@ -3222,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_packed",
           "package": "verilog",
@@ -3235,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_parameter",
           "package": "verilog",
@@ -3244,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_parameter",
           "package": "verilog",
@@ -3257,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pathpulse_dollar",
           "package": "verilog",
@@ -3266,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pathpulse_dollar",
           "package": "verilog",
@@ -3279,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pmos",
           "package": "verilog",
@@ -3288,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pmos",
           "package": "verilog",
@@ -3301,6 +3599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_posedge",
           "package": "verilog",
@@ -3310,6 +3609,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_posedge",
           "package": "verilog",
@@ -3323,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_primitive",
           "package": "verilog",
@@ -3332,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_primitive",
           "package": "verilog",
@@ -3345,6 +3647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_priority",
           "package": "verilog",
@@ -3354,6 +3657,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_priority",
           "package": "verilog",
@@ -3367,6 +3671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_program",
           "package": "verilog",
@@ -3376,6 +3681,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_program",
           "package": "verilog",
@@ -3389,6 +3695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_property",
           "package": "verilog",
@@ -3398,6 +3705,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_property",
           "package": "verilog",
@@ -3411,6 +3719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_protected",
           "package": "verilog",
@@ -3420,6 +3729,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_protected",
           "package": "verilog",
@@ -3433,6 +3743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pull0",
           "package": "verilog",
@@ -3442,6 +3753,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pull0",
           "package": "verilog",
@@ -3455,6 +3767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pull1",
           "package": "verilog",
@@ -3464,6 +3777,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pull1",
           "package": "verilog",
@@ -3477,6 +3791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pulldown",
           "package": "verilog",
@@ -3486,6 +3801,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pulldown",
           "package": "verilog",
@@ -3499,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pullup",
           "package": "verilog",
@@ -3508,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pullup",
           "package": "verilog",
@@ -3521,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pulsestyle_ondetect",
           "package": "verilog",
@@ -3530,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pulsestyle_ondetect",
           "package": "verilog",
@@ -3543,6 +3863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pulsestyle_onevent",
           "package": "verilog",
@@ -3552,6 +3873,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pulsestyle_onevent",
           "package": "verilog",
@@ -3565,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pure",
           "package": "verilog",
@@ -3574,6 +3897,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_pure",
           "package": "verilog",
@@ -3587,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rand",
           "package": "verilog",
@@ -3596,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rand",
           "package": "verilog",
@@ -3609,6 +3935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_randc",
           "package": "verilog",
@@ -3618,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_randc",
           "package": "verilog",
@@ -3631,6 +3959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_randcase",
           "package": "verilog",
@@ -3640,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_randcase",
           "package": "verilog",
@@ -3653,6 +3983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_randsequence",
           "package": "verilog",
@@ -3662,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_randsequence",
           "package": "verilog",
@@ -3675,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rcmos",
           "package": "verilog",
@@ -3684,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rcmos",
           "package": "verilog",
@@ -3697,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_real",
           "package": "verilog",
@@ -3706,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_real",
           "package": "verilog",
@@ -3719,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_realtime",
           "package": "verilog",
@@ -3728,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_realtime",
           "package": "verilog",
@@ -3741,6 +4079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_ref",
           "package": "verilog",
@@ -3750,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_ref",
           "package": "verilog",
@@ -3763,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_reg",
           "package": "verilog",
@@ -3772,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_reg",
           "package": "verilog",
@@ -3785,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_release",
           "package": "verilog",
@@ -3794,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_release",
           "package": "verilog",
@@ -3807,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_repeat",
           "package": "verilog",
@@ -3816,6 +4161,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_repeat",
           "package": "verilog",
@@ -3829,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_return",
           "package": "verilog",
@@ -3838,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_return",
           "package": "verilog",
@@ -3851,6 +4199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rnmos",
           "package": "verilog",
@@ -3860,6 +4209,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rnmos",
           "package": "verilog",
@@ -3873,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rpmos",
           "package": "verilog",
@@ -3882,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rpmos",
           "package": "verilog",
@@ -3895,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rtran",
           "package": "verilog",
@@ -3904,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rtran",
           "package": "verilog",
@@ -3917,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rtranif0",
           "package": "verilog",
@@ -3926,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rtranif0",
           "package": "verilog",
@@ -3939,6 +4295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rtranif1",
           "package": "verilog",
@@ -3948,6 +4305,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_rtranif1",
           "package": "verilog",
@@ -3961,6 +4319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_scalared",
           "package": "verilog",
@@ -3970,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_scalared",
           "package": "verilog",
@@ -3983,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_sequence",
           "package": "verilog",
@@ -3992,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_sequence",
           "package": "verilog",
@@ -4005,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_shortint",
           "package": "verilog",
@@ -4014,6 +4377,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_shortint",
           "package": "verilog",
@@ -4027,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_shortreal",
           "package": "verilog",
@@ -4036,6 +4401,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_shortreal",
           "package": "verilog",
@@ -4049,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_showcancelled",
           "package": "verilog",
@@ -4058,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_showcancelled",
           "package": "verilog",
@@ -4071,6 +4439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_signed",
           "package": "verilog",
@@ -4080,6 +4449,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_signed",
           "package": "verilog",
@@ -4093,6 +4463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_small",
           "package": "verilog",
@@ -4102,6 +4473,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_small",
           "package": "verilog",
@@ -4115,6 +4487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_solve",
           "package": "verilog",
@@ -4124,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_solve",
           "package": "verilog",
@@ -4137,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_specify",
           "package": "verilog",
@@ -4146,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_specify",
           "package": "verilog",
@@ -4159,6 +4535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_specparam",
           "package": "verilog",
@@ -4168,6 +4545,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_specparam",
           "package": "verilog",
@@ -4181,6 +4559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_static",
           "package": "verilog",
@@ -4190,6 +4569,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_static",
           "package": "verilog",
@@ -4203,6 +4583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_strength0",
           "package": "verilog",
@@ -4212,6 +4593,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_strength0",
           "package": "verilog",
@@ -4225,6 +4607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_strength1",
           "package": "verilog",
@@ -4234,6 +4617,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_strength1",
           "package": "verilog",
@@ -4247,6 +4631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_string",
           "package": "verilog",
@@ -4256,6 +4641,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_string",
           "package": "verilog",
@@ -4269,6 +4655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_strong0",
           "package": "verilog",
@@ -4278,6 +4665,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_strong0",
           "package": "verilog",
@@ -4291,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_strong1",
           "package": "verilog",
@@ -4300,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_strong1",
           "package": "verilog",
@@ -4313,6 +4703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_struct",
           "package": "verilog",
@@ -4322,6 +4713,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_struct",
           "package": "verilog",
@@ -4335,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_super",
           "package": "verilog",
@@ -4344,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_super",
           "package": "verilog",
@@ -4357,6 +4751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_supply0",
           "package": "verilog",
@@ -4366,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_supply0",
           "package": "verilog",
@@ -4379,6 +4775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_supply1",
           "package": "verilog",
@@ -4388,6 +4785,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_supply1",
           "package": "verilog",
@@ -4401,6 +4799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_table",
           "package": "verilog",
@@ -4410,6 +4809,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_table",
           "package": "verilog",
@@ -4423,6 +4823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tagged",
           "package": "verilog",
@@ -4432,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tagged",
           "package": "verilog",
@@ -4445,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_task",
           "package": "verilog",
@@ -4454,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_task",
           "package": "verilog",
@@ -4467,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_this",
           "package": "verilog",
@@ -4476,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_this",
           "package": "verilog",
@@ -4489,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_throughout",
           "package": "verilog",
@@ -4498,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_throughout",
           "package": "verilog",
@@ -4511,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_time",
           "package": "verilog",
@@ -4520,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_time",
           "package": "verilog",
@@ -4533,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_timeprecision",
           "package": "verilog",
@@ -4542,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_timeprecision",
           "package": "verilog",
@@ -4555,6 +4967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_timeunit",
           "package": "verilog",
@@ -4564,6 +4977,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_timeunit",
           "package": "verilog",
@@ -4577,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tran",
           "package": "verilog",
@@ -4586,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tran",
           "package": "verilog",
@@ -4599,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tranif0",
           "package": "verilog",
@@ -4608,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tranif0",
           "package": "verilog",
@@ -4621,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tranif1",
           "package": "verilog",
@@ -4630,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tranif1",
           "package": "verilog",
@@ -4643,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tri",
           "package": "verilog",
@@ -4652,6 +5073,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tri",
           "package": "verilog",
@@ -4665,6 +5087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tri0",
           "package": "verilog",
@@ -4674,6 +5097,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tri0",
           "package": "verilog",
@@ -4687,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tri1",
           "package": "verilog",
@@ -4696,6 +5121,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_tri1",
           "package": "verilog",
@@ -4709,6 +5135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_triand",
           "package": "verilog",
@@ -4718,6 +5145,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_triand",
           "package": "verilog",
@@ -4731,6 +5159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_trior",
           "package": "verilog",
@@ -4740,6 +5169,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_trior",
           "package": "verilog",
@@ -4753,6 +5183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_trireg",
           "package": "verilog",
@@ -4762,6 +5193,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_trireg",
           "package": "verilog",
@@ -4775,6 +5207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_type",
           "package": "verilog",
@@ -4784,6 +5217,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_type",
           "package": "verilog",
@@ -4797,6 +5231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_type_option",
           "package": "verilog",
@@ -4806,6 +5241,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_type_option",
           "package": "verilog",
@@ -4819,6 +5255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_typedef",
           "package": "verilog",
@@ -4828,6 +5265,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_typedef",
           "package": "verilog",
@@ -4841,6 +5279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_union",
           "package": "verilog",
@@ -4850,6 +5289,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_union",
           "package": "verilog",
@@ -4863,6 +5303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_unique",
           "package": "verilog",
@@ -4872,6 +5313,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_unique",
           "package": "verilog",
@@ -4885,6 +5327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_unsigned",
           "package": "verilog",
@@ -4894,6 +5337,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_unsigned",
           "package": "verilog",
@@ -4907,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_use",
           "package": "verilog",
@@ -4916,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_use",
           "package": "verilog",
@@ -4929,6 +5375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_var",
           "package": "verilog",
@@ -4938,6 +5385,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_var",
           "package": "verilog",
@@ -4951,6 +5399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_vectored",
           "package": "verilog",
@@ -4960,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_vectored",
           "package": "verilog",
@@ -4973,6 +5423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_virtual",
           "package": "verilog",
@@ -4982,6 +5433,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_virtual",
           "package": "verilog",
@@ -4995,6 +5447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_void",
           "package": "verilog",
@@ -5004,6 +5457,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_void",
           "package": "verilog",
@@ -5017,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_wait",
           "package": "verilog",
@@ -5026,6 +5481,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_wait",
           "package": "verilog",
@@ -5039,6 +5495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_wait_order",
           "package": "verilog",
@@ -5048,6 +5505,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_wait_order",
           "package": "verilog",
@@ -5061,6 +5519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_wand",
           "package": "verilog",
@@ -5070,6 +5529,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_wand",
           "package": "verilog",
@@ -5083,6 +5543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_weak0",
           "package": "verilog",
@@ -5092,6 +5553,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_weak0",
           "package": "verilog",
@@ -5105,6 +5567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_weak1",
           "package": "verilog",
@@ -5114,6 +5577,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_weak1",
           "package": "verilog",
@@ -5127,6 +5591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_while",
           "package": "verilog",
@@ -5136,6 +5601,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_while",
           "package": "verilog",
@@ -5149,6 +5615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_wildcard",
           "package": "verilog",
@@ -5158,6 +5625,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_wildcard",
           "package": "verilog",
@@ -5171,6 +5639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_wire",
           "package": "verilog",
@@ -5180,6 +5649,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_wire",
           "package": "verilog",
@@ -5193,6 +5663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_with",
           "package": "verilog",
@@ -5202,6 +5673,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_with",
           "package": "verilog",
@@ -5215,6 +5687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_within",
           "package": "verilog",
@@ -5224,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_within",
           "package": "verilog",
@@ -5237,6 +5711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_wor",
           "package": "verilog",
@@ -5246,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_wor",
           "package": "verilog",
@@ -5259,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_xnor",
           "package": "verilog",
@@ -5268,6 +5745,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_xnor",
           "package": "verilog",
@@ -5281,6 +5759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "KW_xor",
           "package": "verilog",
@@ -5290,6 +5769,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "KW_xor",
           "package": "verilog",
@@ -5303,6 +5783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Lit_number",
           "package": "verilog",
@@ -5312,6 +5793,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Lit_number",
           "package": "verilog",
@@ -5325,6 +5807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Lit_number_unsigned",
           "package": "verilog",
@@ -5334,6 +5817,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Lit_number_unsigned",
           "package": "verilog",
@@ -5347,6 +5831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Lit_string",
           "package": "verilog",
@@ -5356,6 +5841,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Lit_string",
           "package": "verilog",
@@ -5369,6 +5855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Position",
           "package": "verilog",
@@ -5378,6 +5865,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Position",
           "package": "verilog",
@@ -5391,6 +5879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_amp",
           "package": "verilog",
@@ -5400,6 +5889,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_amp",
           "package": "verilog",
@@ -5413,6 +5903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_amp_amp",
           "package": "verilog",
@@ -5422,6 +5913,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_amp_amp",
           "package": "verilog",
@@ -5435,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_amp_amp_amp",
           "package": "verilog",
@@ -5444,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_amp_amp_amp",
           "package": "verilog",
@@ -5457,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_amp_eq",
           "package": "verilog",
@@ -5466,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_amp_eq",
           "package": "verilog",
@@ -5479,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_aster",
           "package": "verilog",
@@ -5488,6 +5985,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_aster",
           "package": "verilog",
@@ -5501,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_aster_aster",
           "package": "verilog",
@@ -5510,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_aster_aster",
           "package": "verilog",
@@ -5523,6 +6023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_aster_eq",
           "package": "verilog",
@@ -5532,6 +6033,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_aster_eq",
           "package": "verilog",
@@ -5545,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_aster_gt",
           "package": "verilog",
@@ -5554,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_aster_gt",
           "package": "verilog",
@@ -5567,6 +6071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_aster_paren_r",
           "package": "verilog",
@@ -5576,6 +6081,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_aster_paren_r",
           "package": "verilog",
@@ -5589,6 +6095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_at",
           "package": "verilog",
@@ -5598,6 +6105,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_at",
           "package": "verilog",
@@ -5611,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_at_aster",
           "package": "verilog",
@@ -5620,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_at_aster",
           "package": "verilog",
@@ -5633,6 +6143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_at_at_paren_l",
           "package": "verilog",
@@ -5642,6 +6153,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_at_at_paren_l",
           "package": "verilog",
@@ -5655,6 +6167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bang",
           "package": "verilog",
@@ -5664,6 +6177,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bang",
           "package": "verilog",
@@ -5677,6 +6191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bang_eq",
           "package": "verilog",
@@ -5686,6 +6201,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bang_eq",
           "package": "verilog",
@@ -5699,6 +6215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bang_eq_eq",
           "package": "verilog",
@@ -5708,6 +6225,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bang_eq_eq",
           "package": "verilog",
@@ -5721,6 +6239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bang_question_eq",
           "package": "verilog",
@@ -5730,6 +6249,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bang_question_eq",
           "package": "verilog",
@@ -5743,6 +6263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bar",
           "package": "verilog",
@@ -5752,6 +6273,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bar",
           "package": "verilog",
@@ -5765,6 +6287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bar_bar",
           "package": "verilog",
@@ -5774,6 +6297,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bar_bar",
           "package": "verilog",
@@ -5787,6 +6311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bar_dash_gt",
           "package": "verilog",
@@ -5796,6 +6321,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bar_dash_gt",
           "package": "verilog",
@@ -5809,6 +6335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bar_eq",
           "package": "verilog",
@@ -5818,6 +6345,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bar_eq",
           "package": "verilog",
@@ -5831,6 +6359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bar_eq_gt",
           "package": "verilog",
@@ -5840,6 +6369,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_bar_eq_gt",
           "package": "verilog",
@@ -5853,6 +6383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brace_l",
           "package": "verilog",
@@ -5862,6 +6393,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brace_l",
           "package": "verilog",
@@ -5875,6 +6407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brace_r",
           "package": "verilog",
@@ -5884,6 +6417,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brace_r",
           "package": "verilog",
@@ -5897,6 +6431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brack_l",
           "package": "verilog",
@@ -5906,6 +6441,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brack_l",
           "package": "verilog",
@@ -5919,6 +6455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brack_l_aster",
           "package": "verilog",
@@ -5928,6 +6465,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brack_l_aster",
           "package": "verilog",
@@ -5941,6 +6479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brack_l_dash_gt",
           "package": "verilog",
@@ -5950,6 +6489,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brack_l_dash_gt",
           "package": "verilog",
@@ -5963,6 +6503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brack_l_eq",
           "package": "verilog",
@@ -5972,6 +6513,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brack_l_eq",
           "package": "verilog",
@@ -5985,6 +6527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brack_r",
           "package": "verilog",
@@ -5994,6 +6537,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_brack_r",
           "package": "verilog",
@@ -6007,6 +6551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_colon",
           "package": "verilog",
@@ -6016,6 +6561,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_colon",
           "package": "verilog",
@@ -6029,6 +6575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_colon_colon",
           "package": "verilog",
@@ -6038,6 +6585,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_colon_colon",
           "package": "verilog",
@@ -6051,6 +6599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_colon_eq",
           "package": "verilog",
@@ -6060,6 +6609,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_colon_eq",
           "package": "verilog",
@@ -6073,6 +6623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_colon_slash",
           "package": "verilog",
@@ -6082,6 +6633,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_colon_slash",
           "package": "verilog",
@@ -6095,6 +6647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_comma",
           "package": "verilog",
@@ -6104,6 +6657,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_comma",
           "package": "verilog",
@@ -6117,6 +6671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dash",
           "package": "verilog",
@@ -6126,6 +6681,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dash",
           "package": "verilog",
@@ -6139,6 +6695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dash_colon",
           "package": "verilog",
@@ -6148,6 +6705,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dash_colon",
           "package": "verilog",
@@ -6161,6 +6719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dash_dash",
           "package": "verilog",
@@ -6170,6 +6729,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dash_dash",
           "package": "verilog",
@@ -6183,6 +6743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dash_eq",
           "package": "verilog",
@@ -6192,6 +6753,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dash_eq",
           "package": "verilog",
@@ -6205,6 +6767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dash_gt",
           "package": "verilog",
@@ -6214,6 +6777,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dash_gt",
           "package": "verilog",
@@ -6227,6 +6791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dash_gt_gt",
           "package": "verilog",
@@ -6236,6 +6801,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dash_gt_gt",
           "package": "verilog",
@@ -6249,6 +6815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dollar",
           "package": "verilog",
@@ -6258,6 +6825,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dollar",
           "package": "verilog",
@@ -6271,6 +6839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dot",
           "package": "verilog",
@@ -6280,6 +6849,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dot",
           "package": "verilog",
@@ -6293,6 +6863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dot_aster",
           "package": "verilog",
@@ -6302,6 +6873,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_dot_aster",
           "package": "verilog",
@@ -6315,6 +6887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_eq",
           "package": "verilog",
@@ -6324,6 +6897,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_eq",
           "package": "verilog",
@@ -6337,6 +6911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_eq_eq",
           "package": "verilog",
@@ -6346,6 +6921,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_eq_eq",
           "package": "verilog",
@@ -6359,6 +6935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_eq_eq_eq",
           "package": "verilog",
@@ -6368,6 +6945,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_eq_eq_eq",
           "package": "verilog",
@@ -6381,6 +6959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_eq_gt",
           "package": "verilog",
@@ -6390,6 +6969,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_eq_gt",
           "package": "verilog",
@@ -6403,6 +6983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_eq_question_eq",
           "package": "verilog",
@@ -6412,6 +6993,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_eq_question_eq",
           "package": "verilog",
@@ -6425,6 +7007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_gt",
           "package": "verilog",
@@ -6434,6 +7017,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_gt",
           "package": "verilog",
@@ -6447,6 +7031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_gt_eq",
           "package": "verilog",
@@ -6456,6 +7041,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_gt_eq",
           "package": "verilog",
@@ -6469,6 +7055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_gt_gt",
           "package": "verilog",
@@ -6478,6 +7065,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_gt_gt",
           "package": "verilog",
@@ -6491,6 +7079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_gt_gt_eq",
           "package": "verilog",
@@ -6500,6 +7089,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_gt_gt_eq",
           "package": "verilog",
@@ -6513,6 +7103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_gt_gt_gt",
           "package": "verilog",
@@ -6522,6 +7113,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_gt_gt_gt",
           "package": "verilog",
@@ -6535,6 +7127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_gt_gt_gt_eq",
           "package": "verilog",
@@ -6544,6 +7137,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_gt_gt_gt_eq",
           "package": "verilog",
@@ -6557,6 +7151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_hat",
           "package": "verilog",
@@ -6566,6 +7161,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_hat",
           "package": "verilog",
@@ -6579,6 +7175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_hat_eq",
           "package": "verilog",
@@ -6588,6 +7185,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_hat_eq",
           "package": "verilog",
@@ -6601,6 +7199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_hat_tildy",
           "package": "verilog",
@@ -6610,6 +7209,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_hat_tildy",
           "package": "verilog",
@@ -6623,6 +7223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_lt",
           "package": "verilog",
@@ -6632,6 +7233,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_lt",
           "package": "verilog",
@@ -6645,6 +7247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_lt_eq",
           "package": "verilog",
@@ -6654,6 +7257,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_lt_eq",
           "package": "verilog",
@@ -6667,6 +7271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_lt_lt",
           "package": "verilog",
@@ -6676,6 +7281,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_lt_lt",
           "package": "verilog",
@@ -6689,6 +7295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_lt_lt_eq",
           "package": "verilog",
@@ -6698,6 +7305,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_lt_lt_eq",
           "package": "verilog",
@@ -6711,6 +7319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_lt_lt_lt",
           "package": "verilog",
@@ -6720,6 +7329,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_lt_lt_lt",
           "package": "verilog",
@@ -6733,6 +7343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_lt_lt_lt_eq",
           "package": "verilog",
@@ -6742,6 +7353,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_lt_lt_lt_eq",
           "package": "verilog",
@@ -6755,6 +7367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_paren_l",
           "package": "verilog",
@@ -6764,6 +7377,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_paren_l",
           "package": "verilog",
@@ -6777,6 +7391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_paren_l_aster",
           "package": "verilog",
@@ -6786,6 +7401,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_paren_l_aster",
           "package": "verilog",
@@ -6799,6 +7415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_paren_l_aster_paren_r",
           "package": "verilog",
@@ -6808,6 +7425,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_paren_l_aster_paren_r",
           "package": "verilog",
@@ -6821,6 +7439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_paren_r",
           "package": "verilog",
@@ -6830,6 +7449,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_paren_r",
           "package": "verilog",
@@ -6843,6 +7463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_percent",
           "package": "verilog",
@@ -6852,6 +7473,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_percent",
           "package": "verilog",
@@ -6865,6 +7487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_percent_eq",
           "package": "verilog",
@@ -6874,6 +7497,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_percent_eq",
           "package": "verilog",
@@ -6887,6 +7511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_plus",
           "package": "verilog",
@@ -6896,6 +7521,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_plus",
           "package": "verilog",
@@ -6909,6 +7535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_plus_colon",
           "package": "verilog",
@@ -6918,6 +7545,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_plus_colon",
           "package": "verilog",
@@ -6931,6 +7559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_plus_eq",
           "package": "verilog",
@@ -6940,6 +7569,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_plus_eq",
           "package": "verilog",
@@ -6953,6 +7583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_plus_plus",
           "package": "verilog",
@@ -6962,6 +7593,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_plus_plus",
           "package": "verilog",
@@ -6975,6 +7607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_pound",
           "package": "verilog",
@@ -6984,6 +7617,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_pound",
           "package": "verilog",
@@ -6997,6 +7631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_pound_pound",
           "package": "verilog",
@@ -7006,6 +7641,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_pound_pound",
           "package": "verilog",
@@ -7019,6 +7655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_question",
           "package": "verilog",
@@ -7028,6 +7665,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_question",
           "package": "verilog",
@@ -7041,6 +7679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_s_quote",
           "package": "verilog",
@@ -7050,6 +7689,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_s_quote",
           "package": "verilog",
@@ -7063,6 +7703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_semi",
           "package": "verilog",
@@ -7072,6 +7713,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_semi",
           "package": "verilog",
@@ -7085,6 +7727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_slash",
           "package": "verilog",
@@ -7094,6 +7737,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_slash",
           "package": "verilog",
@@ -7107,6 +7751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_slash_eq",
           "package": "verilog",
@@ -7116,6 +7761,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_slash_eq",
           "package": "verilog",
@@ -7129,6 +7775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_tildy",
           "package": "verilog",
@@ -7138,6 +7785,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_tildy",
           "package": "verilog",
@@ -7151,6 +7799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_tildy_amp",
           "package": "verilog",
@@ -7160,6 +7809,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_tildy_amp",
           "package": "verilog",
@@ -7173,6 +7823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_tildy_bar",
           "package": "verilog",
@@ -7182,6 +7833,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_tildy_bar",
           "package": "verilog",
@@ -7195,6 +7847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_tildy_hat",
           "package": "verilog",
@@ -7204,6 +7857,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Sym_tildy_hat",
           "package": "verilog",
@@ -7217,6 +7871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Token",
           "package": "verilog",
@@ -7226,6 +7881,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Token",
           "package": "verilog",
@@ -7239,6 +7895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "Unknown",
           "package": "verilog",
@@ -7248,6 +7905,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "Unknown",
           "package": "verilog",
@@ -7261,6 +7919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Tokens",
           "name": "tokenString",
           "package": "verilog",
@@ -7270,6 +7929,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Tokens",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Tokens",
           "name": "tokenString",
           "normalized": "Token-\u003eString",
@@ -7285,6 +7945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Types",
           "package": "verilog",
@@ -7293,6 +7954,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Types",
           "package": "verilog",
@@ -7306,6 +7968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Call",
           "package": "verilog",
@@ -7314,6 +7977,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Call",
           "package": "verilog",
@@ -7327,6 +7991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Case",
           "package": "verilog",
@@ -7335,6 +8000,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Case",
           "package": "verilog",
@@ -7348,6 +8014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Expr",
           "package": "verilog",
@@ -7356,6 +8023,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Expr",
           "package": "verilog",
@@ -7369,6 +8037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Identifier",
           "package": "verilog",
@@ -7377,6 +8046,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Identifier",
           "package": "verilog",
@@ -7390,6 +8060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "LHS",
           "package": "verilog",
@@ -7398,6 +8069,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "LHS",
           "package": "verilog",
@@ -7411,6 +8083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Module",
           "package": "verilog",
@@ -7419,6 +8092,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Module",
           "package": "verilog",
@@ -7432,6 +8106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "ModuleItem",
           "package": "verilog",
@@ -7440,6 +8115,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "ModuleItem",
           "package": "verilog",
@@ -7453,6 +8129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Range",
           "package": "verilog",
@@ -7461,6 +8138,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Range",
           "package": "verilog",
@@ -7474,6 +8152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Sense",
           "package": "verilog",
@@ -7482,6 +8161,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Sense",
           "package": "verilog",
@@ -7495,6 +8175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Stmt",
           "package": "verilog",
@@ -7503,6 +8184,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Stmt",
           "package": "verilog",
@@ -7516,6 +8198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Add",
           "package": "verilog",
@@ -7525,6 +8208,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Add",
           "package": "verilog",
@@ -7538,6 +8222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Always",
           "package": "verilog",
@@ -7547,6 +8232,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Always",
           "package": "verilog",
@@ -7560,6 +8246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "And",
           "package": "verilog",
@@ -7569,6 +8256,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "And",
           "package": "verilog",
@@ -7582,6 +8270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Assign",
           "package": "verilog",
@@ -7591,6 +8280,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Assign",
           "package": "verilog",
@@ -7604,6 +8294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "BWAnd",
           "package": "verilog",
@@ -7613,6 +8304,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "BWAnd",
           "package": "verilog",
@@ -7626,6 +8318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "BWNot",
           "package": "verilog",
@@ -7635,6 +8328,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "BWNot",
           "package": "verilog",
@@ -7648,6 +8342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "BWOr",
           "package": "verilog",
@@ -7657,6 +8352,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "BWOr",
           "package": "verilog",
@@ -7670,6 +8366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "BWXor",
           "package": "verilog",
@@ -7679,6 +8376,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "BWXor",
           "package": "verilog",
@@ -7692,6 +8390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Block",
           "package": "verilog",
@@ -7701,6 +8400,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Block",
           "normalized": "Block(Maybe Identifier)[Stmt]",
@@ -7716,6 +8416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "BlockingAssignment",
           "package": "verilog",
@@ -7725,6 +8426,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "BlockingAssignment",
           "package": "verilog",
@@ -7738,6 +8440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Call",
           "package": "verilog",
@@ -7747,6 +8450,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Call",
           "normalized": "Call Identifier[Expr]",
@@ -7762,6 +8466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Case",
           "package": "verilog",
@@ -7771,6 +8476,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Case",
           "normalized": "Case Expr[Case]Stmt",
@@ -7786,6 +8492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Concat",
           "package": "verilog",
@@ -7795,6 +8502,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Concat",
           "normalized": "Concat[Expr]",
@@ -7810,6 +8518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Delay",
           "package": "verilog",
@@ -7819,6 +8528,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Delay",
           "package": "verilog",
@@ -7832,6 +8542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Div",
           "package": "verilog",
@@ -7841,6 +8552,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Div",
           "package": "verilog",
@@ -7854,6 +8566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Eq",
           "package": "verilog",
@@ -7863,6 +8576,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Eq",
           "package": "verilog",
@@ -7876,6 +8590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "ExprCall",
           "package": "verilog",
@@ -7885,6 +8600,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "ExprCall",
           "package": "verilog",
@@ -7898,6 +8614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "ExprLHS",
           "package": "verilog",
@@ -7907,6 +8624,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "ExprLHS",
           "package": "verilog",
@@ -7920,6 +8638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "For",
           "package": "verilog",
@@ -7929,6 +8648,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "For",
           "normalized": "For(Identifier,Expr)Expr(Identifier,Expr)Stmt",
@@ -7944,6 +8664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Ge",
           "package": "verilog",
@@ -7953,6 +8674,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Ge",
           "package": "verilog",
@@ -7966,6 +8688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Gt",
           "package": "verilog",
@@ -7975,6 +8698,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Gt",
           "package": "verilog",
@@ -7988,6 +8712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "If",
           "package": "verilog",
@@ -7997,6 +8722,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "If",
           "package": "verilog",
@@ -8010,6 +8736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Initial",
           "package": "verilog",
@@ -8019,6 +8746,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Initial",
           "package": "verilog",
@@ -8032,6 +8760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Inout",
           "package": "verilog",
@@ -8041,6 +8770,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Inout",
           "normalized": "Inout(Maybe Range)[(Identifier,Maybe Range)]",
@@ -8056,6 +8786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Input",
           "package": "verilog",
@@ -8065,6 +8796,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Input",
           "normalized": "Input(Maybe Range)[(Identifier,Maybe Range)]",
@@ -8080,6 +8812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Instance",
           "package": "verilog",
@@ -8089,6 +8822,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Instance",
           "normalized": "Instance Identifier[(Identifier,Maybe Expr)]Identifier[(Identifier,Maybe Expr)]",
@@ -8104,6 +8838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Integer",
           "package": "verilog",
@@ -8113,6 +8848,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Integer",
           "package": "verilog",
@@ -8126,6 +8862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "LHS",
           "package": "verilog",
@@ -8135,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "LHS",
           "package": "verilog",
@@ -8148,6 +8886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "LHSBit",
           "package": "verilog",
@@ -8157,6 +8896,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "LHSBit",
           "package": "verilog",
@@ -8170,6 +8910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "LHSRange",
           "package": "verilog",
@@ -8179,6 +8920,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "LHSRange",
           "package": "verilog",
@@ -8192,6 +8934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Le",
           "package": "verilog",
@@ -8201,6 +8944,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Le",
           "package": "verilog",
@@ -8214,6 +8958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Lt",
           "package": "verilog",
@@ -8223,6 +8968,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Lt",
           "package": "verilog",
@@ -8236,6 +8982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Mod",
           "package": "verilog",
@@ -8245,6 +8992,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Mod",
           "package": "verilog",
@@ -8258,6 +9006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Module",
           "package": "verilog",
@@ -8267,6 +9016,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Module",
           "normalized": "Module Identifier[Identifier][ModuleItem]",
@@ -8282,6 +9032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Mul",
           "package": "verilog",
@@ -8291,6 +9042,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Mul",
           "package": "verilog",
@@ -8304,6 +9056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Mux",
           "package": "verilog",
@@ -8313,6 +9066,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Mux",
           "package": "verilog",
@@ -8326,6 +9080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Ne",
           "package": "verilog",
@@ -8335,6 +9090,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Ne",
           "package": "verilog",
@@ -8348,6 +9104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "NonBlockingAssignment",
           "package": "verilog",
@@ -8357,6 +9114,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "NonBlockingAssignment",
           "package": "verilog",
@@ -8370,6 +9128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Not",
           "package": "verilog",
@@ -8379,6 +9138,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Not",
           "package": "verilog",
@@ -8392,6 +9152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Null",
           "package": "verilog",
@@ -8401,6 +9162,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Null",
           "package": "verilog",
@@ -8414,6 +9176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Number",
           "package": "verilog",
@@ -8423,6 +9186,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Number",
           "package": "verilog",
@@ -8436,6 +9200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Or",
           "package": "verilog",
@@ -8445,6 +9210,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Or",
           "package": "verilog",
@@ -8458,6 +9224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Output",
           "package": "verilog",
@@ -8467,6 +9234,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Output",
           "normalized": "Output(Maybe Range)[(Identifier,Maybe Range)]",
@@ -8482,6 +9250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Paremeter",
           "package": "verilog",
@@ -8491,6 +9260,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Paremeter",
           "package": "verilog",
@@ -8504,6 +9274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Reg",
           "package": "verilog",
@@ -8513,6 +9284,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Reg",
           "normalized": "Reg(Maybe Range)[(Identifier,Maybe Range)]",
@@ -8528,6 +9300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Repeat",
           "package": "verilog",
@@ -8537,6 +9310,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Repeat",
           "normalized": "Repeat Expr[Expr]",
@@ -8552,6 +9326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Sense",
           "package": "verilog",
@@ -8561,6 +9336,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Sense",
           "package": "verilog",
@@ -8574,6 +9350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "SenseNegedge",
           "package": "verilog",
@@ -8583,6 +9360,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "SenseNegedge",
           "package": "verilog",
@@ -8596,6 +9374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "SenseOr",
           "package": "verilog",
@@ -8605,6 +9384,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "SenseOr",
           "package": "verilog",
@@ -8618,6 +9398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "SensePosedge",
           "package": "verilog",
@@ -8627,6 +9408,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "SensePosedge",
           "package": "verilog",
@@ -8640,6 +9422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "ShiftL",
           "package": "verilog",
@@ -8649,6 +9432,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "ShiftL",
           "package": "verilog",
@@ -8662,6 +9446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "ShiftR",
           "package": "verilog",
@@ -8671,6 +9456,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "ShiftR",
           "package": "verilog",
@@ -8684,6 +9470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "StmtCall",
           "package": "verilog",
@@ -8693,6 +9480,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "StmtCall",
           "package": "verilog",
@@ -8706,6 +9494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "String",
           "package": "verilog",
@@ -8715,6 +9504,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "String",
           "package": "verilog",
@@ -8728,6 +9518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Sub",
           "package": "verilog",
@@ -8737,6 +9528,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Sub",
           "package": "verilog",
@@ -8750,6 +9542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog.Types",
           "name": "Wire",
           "package": "verilog",
@@ -8759,6 +9552,7 @@
         },
         "index": {
           "hierarchy": "Language Verilog Types",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog.Types",
           "name": "Wire",
           "normalized": "Wire(Maybe Range)[(Identifier,Maybe Range)]",
@@ -8775,6 +9569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA parser for the Verilog hardware description language.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:58 UTC 2014",
           "module": "Language.Verilog",
           "name": "Verilog",
           "package": "verilog",
@@ -8784,6 +9579,7 @@
         "index": {
           "description": "parser for the Verilog hardware description language",
           "hierarchy": "Language Verilog",
+          "indexed": "2014-03-11T20:34:58",
           "module": "Language.Verilog",
           "name": "Verilog",
           "package": "verilog",

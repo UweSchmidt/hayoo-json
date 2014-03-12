@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "iter-stats"
+        "phrase": "iter-stats",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee.Compat",
           "name": "Compat",
           "package": "iter-stats",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Statistics Iteratee Compat",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee.Compat",
           "name": "Compat",
           "package": "iter-stats",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee.Compat",
           "name": "ListLikey",
           "package": "iter-stats",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Statistics Iteratee Compat",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee.Compat",
           "name": "ListLikey",
           "package": "iter-stats",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee.Sample",
           "name": "Sample",
           "package": "iter-stats",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Statistics Iteratee Sample",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee.Sample",
           "name": "Sample",
           "package": "iter-stats",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Harmonic mean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee.Sample",
           "name": "harmonicMean",
           "package": "iter-stats",
@@ -92,6 +99,7 @@
         "index": {
           "description": "Harmonic mean",
           "hierarchy": "Statistics Iteratee Sample",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee.Sample",
           "name": "harmonicMean",
           "package": "iter-stats",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Arithmetic mean.  Uses Welford's algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee.Sample",
           "name": "mean",
           "package": "iter-stats",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Arithmetic mean Uses Welford algorithm",
           "hierarchy": "Statistics Iteratee Sample",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee.Sample",
           "name": "mean",
           "package": "iter-stats",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee.Sample",
           "name": "minMaxNBy",
           "package": "iter-stats",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Statistics Iteratee Sample",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee.Sample",
           "name": "minMaxNBy",
           "normalized": "Int-\u003e(a-\u003eb)-\u003eIteratee c d([(b,a)],[(b,a)])",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Range. The difference between the largest and smallest elements of\n a stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee.Sample",
           "name": "range",
           "package": "iter-stats",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Range The difference between the largest and smallest elements of stream",
           "hierarchy": "Statistics Iteratee Sample",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee.Sample",
           "name": "range",
           "package": "iter-stats",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e/O(n) Standard deviation, using Knuth's algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee.Sample",
           "name": "stdDev",
           "package": "iter-stats",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Standard deviation using Knuth algorithm",
           "hierarchy": "Statistics Iteratee Sample",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee.Sample",
           "name": "stdDev",
           "package": "iter-stats",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Maximum likelihood estimate of a sample's variance, using Knuth's\n   algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee.Sample",
           "name": "variance",
           "package": "iter-stats",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Maximum likelihood estimate of sample variance using Knuth algorithm",
           "hierarchy": "Statistics Iteratee Sample",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee.Sample",
           "name": "variance",
           "package": "iter-stats",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003esome functions for working with uniformly-sampled data\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee.Uniform",
           "name": "Uniform",
           "package": "iter-stats",
@@ -232,6 +251,7 @@
         "index": {
           "description": "some functions for working with uniformly-sampled data",
           "hierarchy": "Statistics Iteratee Uniform",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee.Uniform",
           "name": "Uniform",
           "package": "iter-stats",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee.Uniform",
           "name": "movingAverage",
           "package": "iter-stats",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Statistics Iteratee Uniform",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee.Uniform",
           "name": "movingAverage",
           "normalized": "Int-\u003eEnumeratee a[b]c d",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee.Uniform",
           "name": "someRollingFunction",
           "package": "iter-stats",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Statistics Iteratee Uniform",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee.Uniform",
           "name": "someRollingFunction",
           "normalized": "Int-\u003e(a-\u003eb)-\u003eEnumeratee a[b]c d",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:06 UTC 2014",
           "module": "Statistics.Iteratee",
           "name": "Iteratee",
           "package": "iter-stats",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Statistics Iteratee",
+          "indexed": "2014-03-11T19:00:06",
           "module": "Statistics.Iteratee",
           "name": "Iteratee",
           "package": "iter-stats",

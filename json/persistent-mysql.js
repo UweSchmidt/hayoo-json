@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "persistent-mysql"
+        "phrase": "persistent-mysql",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA MySQL backend for \u003ccode\u003epersistent\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "MySQL",
           "package": "persistent-mysql",
@@ -28,6 +29,7 @@
         "index": {
           "description": "MySQL backend for persistent",
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "MySQL",
           "package": "persistent-mysql",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "ConnectInfo",
           "package": "persistent-mysql",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "ConnectInfo",
           "package": "persistent-mysql",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation required to connect to a MySQL database\n using \u003ccode\u003epersistent\u003c/code\u003e's generic facilities.  These values are the\n same that are given to \u003ccode\u003e\u003ca\u003ewithMySQLPool\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "MySQLConf",
           "package": "persistent-mysql",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Information required to connect to MySQL database using persistent generic facilities These values are the same that are given to withMySQLPool",
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "MySQLConf",
           "package": "persistent-mysql",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "SSLInfo",
           "package": "persistent-mysql",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "SSLInfo",
           "package": "persistent-mysql",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "ConnectInfo",
           "package": "persistent-mysql",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "ConnectInfo",
           "package": "persistent-mysql",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "MySQLConf",
           "package": "persistent-mysql",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "MySQLConf",
           "package": "persistent-mysql",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "SSLInfo",
           "package": "persistent-mysql",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "SSLInfo",
           "package": "persistent-mysql",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "connectDatabase",
           "package": "persistent-mysql",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "connectDatabase",
           "package": "persistent-mysql",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "connectHost",
           "package": "persistent-mysql",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "connectHost",
           "package": "persistent-mysql",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "connectOptions",
           "package": "persistent-mysql",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "connectOptions",
           "normalized": "[Option]",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "connectPassword",
           "package": "persistent-mysql",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "connectPassword",
           "package": "persistent-mysql",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "connectPath",
           "package": "persistent-mysql",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "connectPath",
           "package": "persistent-mysql",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "connectPort",
           "package": "persistent-mysql",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "connectPort",
           "package": "persistent-mysql",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "connectSSL",
           "package": "persistent-mysql",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "connectSSL",
           "package": "persistent-mysql",
@@ -317,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "connectUser",
           "package": "persistent-mysql",
@@ -325,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "connectUser",
           "package": "persistent-mysql",
@@ -339,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a MySQL connection pool.  Note that it's your\n responsability to properly close the connection pool when\n unneeded.  Use \u003ccode\u003e\u003ca\u003ewithMySQLPool\u003c/a\u003e\u003c/code\u003e for automatic resource control.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "createMySQLPool",
           "package": "persistent-mysql",
@@ -348,6 +379,7 @@
         "index": {
           "description": "Create MySQL connection pool Note that it your responsability to properly close the connection pool when unneeded Use withMySQLPool for automatic resource control",
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "createMySQLPool",
           "normalized": "ConnectInfo-\u003eInt-\u003ea ConnectionPool",
@@ -364,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault information for setting up a connection.\n\u003c/p\u003e\u003cp\u003eDefaults are as follows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Server on \u003ccode\u003elocalhost\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e User \u003ccode\u003eroot\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e No password\n\u003c/li\u003e\u003cli\u003e Database \u003ccode\u003etest\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Character set \u003ccode\u003eutf8\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eUse as in the following example:\n\u003c/p\u003e\u003cpre\u003e connect defaultConnectInfo { connectHost = \"db.example.com\" }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "defaultConnectInfo",
           "package": "persistent-mysql",
@@ -373,6 +406,7 @@
         "index": {
           "description": "Default information for setting up connection Defaults are as follows Server on localhost User root No password Database test Character set utf8 Use as in the following example connect defaultConnectInfo connectHost db.example.com",
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "defaultConnectInfo",
           "package": "persistent-mysql",
@@ -387,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault (empty) information for setting up an SSL connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "defaultSSLInfo",
           "package": "persistent-mysql",
@@ -396,6 +431,7 @@
         "index": {
           "description": "Default empty information for setting up an SSL connection",
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "defaultSSLInfo",
           "package": "persistent-mysql",
@@ -410,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe connection information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "myConnInfo",
           "package": "persistent-mysql",
@@ -420,6 +457,7 @@
         "index": {
           "description": "The connection information",
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "myConnInfo",
           "package": "persistent-mysql",
@@ -434,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many connections should be held on the connection pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "myPoolSize",
           "package": "persistent-mysql",
@@ -444,6 +483,7 @@
         "index": {
           "description": "How many connections should be held on the connection pool",
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "myPoolSize",
           "package": "persistent-mysql",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "sslCA",
           "package": "persistent-mysql",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "sslCA",
           "package": "persistent-mysql",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "sslCAPath",
           "package": "persistent-mysql",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "sslCAPath",
           "package": "persistent-mysql",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "sslCert",
           "package": "persistent-mysql",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "sslCert",
           "package": "persistent-mysql",
@@ -521,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComma-separated list of cipher names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "sslCiphers",
           "package": "persistent-mysql",
@@ -530,6 +577,7 @@
         "index": {
           "description": "Comma-separated list of cipher names",
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "sslCiphers",
           "package": "persistent-mysql",
@@ -543,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "sslKey",
           "package": "persistent-mysql",
@@ -551,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "sslKey",
           "package": "persistent-mysql",
@@ -565,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ewithMySQLPool\u003c/a\u003e\u003c/code\u003e, but instead of opening a pool\n of connections, only one connection is opened.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "withMySQLConn",
           "package": "persistent-mysql",
@@ -574,6 +625,7 @@
         "index": {
           "description": "Same as withMySQLPool but instead of opening pool of connections only one connection is opened",
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "withMySQLConn",
           "normalized": "ConnectInfo-\u003e(Connection-\u003ea b)-\u003ea b",
@@ -590,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a MySQL connection pool and run the given action.\n The pool is properly released after the action finishes using\n it.  Note that you should not use the given \u003ccode\u003e\u003ca\u003eConnectionPool\u003c/a\u003e\u003c/code\u003e\n outside the action since it may be already been released.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:48 UTC 2014",
           "module": "Database.Persist.MySQL",
           "name": "withMySQLPool",
           "package": "persistent-mysql",
@@ -599,6 +652,7 @@
         "index": {
           "description": "Create MySQL connection pool and run the given action The pool is properly released after the action finishes using it Note that you should not use the given ConnectionPool outside the action since it may be already been released",
           "hierarchy": "Database Persist MySQL",
+          "indexed": "2014-03-11T19:37:48",
           "module": "Database.Persist.MySQL",
           "name": "withMySQLPool",
           "normalized": "ConnectInfo-\u003eInt-\u003e(ConnectionPool-\u003ea b)-\u003ea b",

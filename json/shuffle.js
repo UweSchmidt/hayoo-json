@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shuffle"
+        "phrase": "shuffle",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:03 UTC 2014",
           "module": "Distribution.Simple.Shuffle",
           "name": "Shuffle",
           "package": "shuffle",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Distribution Simple Shuffle",
+          "indexed": "2014-03-11T20:02:03",
           "module": "Distribution.Simple.Shuffle",
           "name": "Shuffle",
           "package": "shuffle",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd shuffle to a set of existing userhooks. To use shuffle together\n with UUAGC, define a Setup.hs as follows:\n\u003c/p\u003e\u003cpre\u003e import Distribution.Simple (defaultMainWithHooks)\n import Distribution.Simple.Shuffle (shuffleHooks)\n import Distribution.Simple.UUAGC (uuagcLibUserHook)\n import UU.UUAGC (uuagc)\n\n main :: IO ()\n main = defaultMainWithHooks (shuffleHooks (uuagcLibUserHook uuagc))\n\u003c/pre\u003e\u003cp\u003eFor .chs files, the shuffle settings can be configured in the\n .cabal file as follows:\n\u003c/p\u003e\u003cpre\u003e   x-shuffle-hs:        --gen-reqm=1 --preamble=no --lhs2tex=no --variant-order=\"1\"\n\u003c/pre\u003e\u003cp\u003eFor the .cag files, the shuffle and AG options can be specified as:\n\u003c/p\u003e\u003cpre\u003e   x-shuffle-ag:        --gen-reqm=1 --preamble=no --lhs2tex=no --variant-order=\"1\"\n   x-shuffle-ag-d:      data, rename\n   x-shuffle-ag-s:      catas, semfuns, signatures, pretty, rename\n   x-shuffle-ag-sd:     data, catas, semfuns, signatures, pretty, rename, module\n   x-shuffle-ag-d-dep:  Data/DataFile.cag\n                        Another.cag\n   x-shuffle-ag-s-dep:  Main.cag\n                        Data/Imports.cag\n                        Another.cag\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:02:03 UTC 2014",
           "module": "Distribution.Simple.Shuffle",
           "name": "shuffleHooks",
           "package": "shuffle",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Add shuffle to set of existing userhooks To use shuffle together with UUAGC define Setup.hs as follows import Distribution.Simple defaultMainWithHooks import Distribution.Simple.Shuffle shuffleHooks import Distribution.Simple.UUAGC uuagcLibUserHook import UU.UUAGC uuagc main IO main defaultMainWithHooks shuffleHooks uuagcLibUserHook uuagc For chs files the shuffle settings can be configured in the cabal file as follows x-shuffle-hs gen-reqm preamble no lhs2tex no variant-order For the cag files the shuffle and AG options can be specified as x-shuffle-ag gen-reqm preamble no lhs2tex no variant-order x-shuffle-ag-d data rename x-shuffle-ag-s catas semfuns signatures pretty rename x-shuffle-ag-sd data catas semfuns signatures pretty rename module x-shuffle-ag-d-dep Data DataFile.cag Another.cag x-shuffle-ag-s-dep Main.cag Data Imports.cag Another.cag",
           "hierarchy": "Distribution Simple Shuffle",
+          "indexed": "2014-03-11T20:02:03",
           "module": "Distribution.Simple.Shuffle",
           "name": "shuffleHooks",
           "normalized": "UserHooks-\u003eUserHooks",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:03 UTC 2014",
           "module": "UHC.Shuffle",
           "name": "Shuffle",
           "package": "shuffle",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "UHC Shuffle",
+          "indexed": "2014-03-11T20:02:03",
           "module": "UHC.Shuffle",
           "name": "Shuffle",
           "package": "shuffle",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:03 UTC 2014",
           "module": "UHC.Shuffle",
           "name": "FPathWithAlias",
           "package": "shuffle",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "UHC Shuffle",
+          "indexed": "2014-03-11T20:02:03",
           "module": "UHC.Shuffle",
           "name": "FPathWithAlias",
           "package": "shuffle",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:03 UTC 2014",
           "module": "UHC.Shuffle",
           "name": "Opts",
           "package": "shuffle",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "UHC Shuffle",
+          "indexed": "2014-03-11T20:02:03",
           "module": "UHC.Shuffle",
           "name": "Opts",
           "package": "shuffle",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:03 UTC 2014",
           "module": "UHC.Shuffle",
           "name": "defaultOpts",
           "package": "shuffle",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "UHC Shuffle",
+          "indexed": "2014-03-11T20:02:03",
           "module": "UHC.Shuffle",
           "name": "defaultOpts",
           "package": "shuffle",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:03 UTC 2014",
           "module": "UHC.Shuffle",
           "name": "getDeps",
           "package": "shuffle",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "UHC Shuffle",
+          "indexed": "2014-03-11T20:02:03",
           "module": "UHC.Shuffle",
           "name": "getDeps",
           "normalized": "Opts-\u003eString-\u003eIO[String]",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:03 UTC 2014",
           "module": "UHC.Shuffle",
           "name": "parseOpts",
           "package": "shuffle",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "UHC Shuffle",
+          "indexed": "2014-03-11T20:02:03",
           "module": "UHC.Shuffle",
           "name": "parseOpts",
           "normalized": "[String]-\u003e(Opts,FPath,[FPathWithAlias],[String])",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:03 UTC 2014",
           "module": "UHC.Shuffle",
           "name": "shuffleCompile",
           "package": "shuffle",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "UHC Shuffle",
+          "indexed": "2014-03-11T20:02:03",
           "module": "UHC.Shuffle",
           "name": "shuffleCompile",
           "normalized": "Handle-\u003eOpts-\u003eFPath-\u003e[FPathWithAlias]-\u003eIO Bool",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:03 UTC 2014",
           "module": "UHC.Shuffle",
           "name": "shuffleMain",
           "package": "shuffle",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "UHC Shuffle",
+          "indexed": "2014-03-11T20:02:03",
           "module": "UHC.Shuffle",
           "name": "shuffleMain",
           "normalized": "IO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Semantique"
+        "phrase": "Semantique",
+        "type": "phrase"
       },
       "type": "context"
     }

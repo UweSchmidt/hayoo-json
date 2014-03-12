@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "higherorder"
+        "phrase": "higherorder",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:11 UTC 2014",
           "module": "Data.Bool.Higher",
           "name": "Higher",
           "package": "higherorder",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Bool Higher",
+          "indexed": "2014-03-11T18:39:11",
           "module": "Data.Bool.Higher",
           "name": "Higher",
           "package": "higherorder",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:11 UTC 2014",
           "module": "Data.Bool.Higher",
           "name": "(??)",
           "package": "higherorder",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Bool Higher",
+          "indexed": "2014-03-11T18:39:11",
           "module": "Data.Bool.Higher",
           "name": "(??) ??",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:11 UTC 2014",
           "module": "Data.Bool.Higher",
           "name": "bool",
           "package": "higherorder",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Bool Higher",
+          "indexed": "2014-03-11T18:39:11",
           "module": "Data.Bool.Higher",
           "name": "bool",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eBool)-\u003ea-\u003eb",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:11 UTC 2014",
           "module": "Data.List.Higher",
           "name": "Higher",
           "package": "higherorder",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data List Higher",
+          "indexed": "2014-03-11T18:39:11",
           "module": "Data.List.Higher",
           "name": "Higher",
           "package": "higherorder",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:11 UTC 2014",
           "module": "Data.List.Higher",
           "name": "list",
           "package": "higherorder",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data List Higher",
+          "indexed": "2014-03-11T18:39:11",
           "module": "Data.List.Higher",
           "name": "list",
           "normalized": "a-\u003e([b]-\u003ea)-\u003e[b]-\u003ea",

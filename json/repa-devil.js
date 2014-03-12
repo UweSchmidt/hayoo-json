@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "repa-devil"
+        "phrase": "repa-devil",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead and write images in many formats, representing them in Haskell\n as a 3-dimensional \u003cem\u003erepa\u003c/em\u003e array. Image parsing and decoding is done\n by the \u003cem\u003eDevelopers Image Library\u003c/em\u003e, DevIL.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Many formats are supported, including .png, .bmp, .jpg, .tif\n\u003c/li\u003e\u003cli\u003e Image format parsing is determined by the filepath extension type.\n\u003c/li\u003e\u003cli\u003e Only RGB, RGBA, BGR, BGRA and Greyscale images are supported.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eExample: read a .png file into a repa array, and write it out as a .jpg\n\u003c/p\u003e\u003cpre\u003e main = runIL $ do\n          x \u003c- readImage \"/tmp/y.png\" \n          writeImage \"/tmp/x.jpg\" x\n\u003c/pre\u003e\u003cp\u003eNote that as DevIL is stateful, we ensure the library is initialized\n by running image manipulation functions in the \u003cem\u003eIL\u003c/em\u003e monad, a wrapper\n over IO that ensures the library has been initialized. It is a type\n error to call image functions outside of the \u003cem\u003eIL\u003c/em\u003e monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:59 UTC 2014",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "DevIL",
           "package": "repa-devil",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Read and write images in many formats representing them in Haskell as dimensional repa array Image parsing and decoding is done by the Developers Image Library DevIL Many formats are supported including png bmp jpg tif Image format parsing is determined by the filepath extension type Only RGB RGBA BGR BGRA and Greyscale images are supported Example read png file into repa array and write it out as jpg main runIL do readImage tmp y.png writeImage tmp x.jpg Note that as DevIL is stateful we ensure the library is initialized by running image manipulation functions in the IL monad wrapper over IO that ensures the library has been initialized It is type error to call image functions outside of the IL monad",
           "hierarchy": "Data Array Repa IO DevIL",
+          "indexed": "2014-03-11T19:52:59",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "DevIL",
           "package": "repa-devil",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe IL monad. Provides statically-guaranteed access to an initialized IL\n context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:59 UTC 2014",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "IL",
           "package": "repa-devil",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The IL monad Provides statically-guaranteed access to an initialized IL context",
           "hierarchy": "Data Array Repa IO DevIL",
+          "indexed": "2014-03-11T19:52:59",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "IL",
           "package": "repa-devil",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRGBA, RGB, BGRA and BGR images are 3D repa arrays where indices are\n \u003cem\u003eZ :. row :. column :. color channel\u003c/em\u003e. Grey images are 2D repa arrays.\n\u003c/p\u003e\u003cp\u003eThe origin (\u003cem\u003eZ :. 0 :. 0\u003c/em\u003e) is on the lower left point of the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:59 UTC 2014",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "Image",
           "package": "repa-devil",
@@ -74,6 +79,7 @@
         "index": {
           "description": "RGBA RGB BGRA and BGR images are repa arrays where indices are row column color channel Grey images are repa arrays The origin is on the lower left point of the image",
           "hierarchy": "Data Array Repa IO DevIL",
+          "indexed": "2014-03-11T19:52:59",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "Image",
           "package": "repa-devil",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:59 UTC 2014",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "BGR",
           "package": "repa-devil",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO DevIL",
+          "indexed": "2014-03-11T19:52:59",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "BGR",
           "package": "repa-devil",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:59 UTC 2014",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "BGRA",
           "package": "repa-devil",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO DevIL",
+          "indexed": "2014-03-11T19:52:59",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "BGRA",
           "package": "repa-devil",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:59 UTC 2014",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "Grey",
           "package": "repa-devil",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO DevIL",
+          "indexed": "2014-03-11T19:52:59",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "Grey",
           "package": "repa-devil",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:59 UTC 2014",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "RGB",
           "package": "repa-devil",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO DevIL",
+          "indexed": "2014-03-11T19:52:59",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "RGB",
           "package": "repa-devil",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:59 UTC 2014",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "RGBA",
           "package": "repa-devil",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO DevIL",
+          "indexed": "2014-03-11T19:52:59",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "RGBA",
           "package": "repa-devil",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads an image into a repa array. It uses directly the C array using the\n repa's foreign arrays wrapper.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e main = do\n    x \u003c- runIL $ readImage \"/tmp/x.png\"\n    .. operations on x ..\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e The image input type is determined by the filename extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:59 UTC 2014",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "readImage",
           "package": "repa-devil",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Reads an image into repa array It uses directly the array using the repa foreign arrays wrapper Example main do runIL readImage tmp x.png operations on Note The image input type is determined by the filename extension",
           "hierarchy": "Data Array Repa IO DevIL",
+          "indexed": "2014-03-11T19:52:59",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "readImage",
           "normalized": "FilePath-\u003eIL Image",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRunning code in the \u003cem\u003eIL\u003c/em\u003e monad. This is a simple wrapper over \u003cem\u003eIO\u003c/em\u003e\n that guarantees the DevIL library has been initialized before you run\n functions on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:59 UTC 2014",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "runIL",
           "package": "repa-devil",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Running code in the IL monad This is simple wrapper over IO that guarantees the DevIL library has been initialized before you run functions on it",
           "hierarchy": "Data Array Repa IO DevIL",
+          "indexed": "2014-03-11T19:52:59",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "runIL",
           "normalized": "IL a-\u003eIO a",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites an \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e to a file. The image array must be represented as foreign\n buffers. You can use \u003ccode\u003ecopyS\u003c/code\u003e or \u003ccode\u003ecopyP\u003c/code\u003e to convert the array.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e The image output type is determined by the filename extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:59 UTC 2014",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "writeImage",
           "package": "repa-devil",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Writes an Image to file The image array must be represented as foreign buffers You can use copyS or copyP to convert the array Note The image output type is determined by the filename extension",
           "hierarchy": "Data Array Repa IO DevIL",
+          "indexed": "2014-03-11T19:52:59",
           "module": "Data.Array.Repa.IO.DevIL",
           "name": "writeImage",
           "normalized": "FilePath-\u003eImage-\u003eIL()",

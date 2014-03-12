@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ClassLaws"
+        "phrase": "ClassLaws",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTests the Monad ClassLaws for a few example datatypes. Mainly\n instance declarations and QuickCheck tests + a \u003ccode\u003e\u003ca\u003emain\u003c/a\u003e\u003c/code\u003e to run it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "Instances",
           "package": "ClassLaws",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Tests the Monad ClassLaws for few example datatypes Mainly instance declarations and QuickCheck tests main to run it",
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "Instances",
           "package": "ClassLaws",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "expectedFailures",
           "package": "ClassLaws",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "expectedFailures",
           "normalized": "IO()",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "main",
           "package": "ClassLaws",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "main",
           "normalized": "IO()",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "testFunctorList",
           "package": "ClassLaws",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "testFunctorList",
           "normalized": "IO()",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "testFunctorMaybe",
           "package": "ClassLaws",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "testFunctorMaybe",
           "normalized": "IO()",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "testFunctorMonadList",
           "package": "ClassLaws",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "testFunctorMonadList",
           "normalized": "IO()",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "testFunctorMonadMaybe",
           "package": "ClassLaws",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "testFunctorMonadMaybe",
           "normalized": "IO()",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "testFunctorMonadMyList",
           "package": "ClassLaws",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "testFunctorMonadMyList",
           "normalized": "IO()",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "testFunctorMyList",
           "package": "ClassLaws",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "testFunctorMyList",
           "normalized": "IO()",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "testMonadList",
           "package": "ClassLaws",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "testMonadList",
           "normalized": "IO()",
@@ -256,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "testMonadMaybe",
           "package": "ClassLaws",
@@ -265,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "testMonadMaybe",
           "normalized": "IO()",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "testMonadMyList",
           "package": "ClassLaws",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "testMonadMyList",
           "normalized": "IO()",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws.Instances",
           "name": "testMonadState",
           "package": "ClassLaws",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws.Instances",
           "name": "testMonadState",
           "normalized": "IO()",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements the laws in Control.Monad, specified in\nthe Haskell 2010 report, in 6.3.5 for Functor, in 6.3.6 for Monad, and\nin Chapter 13, module Control.Monad.  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "Laws",
           "package": "ClassLaws",
@@ -338,6 +365,7 @@
         "index": {
           "description": "This module implements the laws in Control.Monad specified in the Haskell report in for Functor in for Monad and in Chapter module Control.Monad",
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "Laws",
           "package": "ClassLaws",
@@ -351,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "FunctorLaw1",
           "package": "ClassLaws",
@@ -359,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "FunctorLaw1",
           "package": "ClassLaws",
@@ -372,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "FunctorLaw2",
           "package": "ClassLaws",
@@ -380,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "FunctorLaw2",
           "package": "ClassLaws",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "FunctorLaws",
           "package": "ClassLaws",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "FunctorLaws",
           "package": "ClassLaws",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "FunctorMonadLaw",
           "package": "ClassLaws",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "FunctorMonadLaw",
           "package": "ClassLaws",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "FunctorMonadLaws",
           "package": "ClassLaws",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "FunctorMonadLaws",
           "package": "ClassLaws",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "MonadLaw1",
           "package": "ClassLaws",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "MonadLaw1",
           "package": "ClassLaws",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "MonadLaw2",
           "package": "ClassLaws",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "MonadLaw2",
           "package": "ClassLaws",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "MonadLaw3",
           "package": "ClassLaws",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "MonadLaw3",
           "package": "ClassLaws",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "MonadLaws",
           "package": "ClassLaws",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "MonadLaws",
           "package": "ClassLaws",
@@ -541,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe laws for MonadPlus are less prominently declared in the base\nlibraries. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "MonadPlusLaw1",
           "package": "ClassLaws",
@@ -550,6 +597,7 @@
         "index": {
           "description": "The laws for MonadPlus are less prominently declared in the base libraries",
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "MonadPlusLaw1",
           "package": "ClassLaws",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "MonadPlusLaw2",
           "package": "ClassLaws",
@@ -571,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "MonadPlusLaw2",
           "package": "ClassLaws",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "MonadPlusLaw3",
           "package": "ClassLaws",
@@ -592,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "MonadPlusLaw3",
           "package": "ClassLaws",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "MonadPlusLaw4",
           "package": "ClassLaws",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "MonadPlusLaw4",
           "package": "ClassLaws",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "MonadPlusLaw5",
           "package": "ClassLaws",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "MonadPlusLaw5",
           "package": "ClassLaws",
@@ -647,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "MonadPlusLaws",
           "package": "ClassLaws",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "MonadPlusLaws",
           "package": "ClassLaws",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "defaultFunctorLaw1",
           "package": "ClassLaws",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "defaultFunctorLaw1",
           "normalized": "a b-\u003eTheorem(a b)",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "defaultFunctorLaw2",
           "package": "ClassLaws",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "defaultFunctorLaw2",
           "normalized": "(a-\u003ea,b-\u003ea,c b)-\u003eTheorem(c a)",
@@ -716,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "defaultFunctorMonadLaw",
           "package": "ClassLaws",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "defaultFunctorMonadLaw",
           "normalized": "(a-\u003eb,c a)-\u003eTheorem(c b)",
@@ -740,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadLaw1",
           "package": "ClassLaws",
@@ -749,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadLaw1",
           "normalized": "(a,a-\u003eb c)-\u003eTheorem(b c)",
@@ -764,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadLaw2",
           "package": "ClassLaws",
@@ -773,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadLaw2",
           "normalized": "a b-\u003eTheorem(a b)",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadLaw3",
           "package": "ClassLaws",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadLaw3",
           "normalized": "(a b,b-\u003ea b,b-\u003ea c)-\u003eTheorem(a c)",
@@ -812,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadPlusLaw1",
           "package": "ClassLaws",
@@ -821,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadPlusLaw1",
           "normalized": "a b-\u003eTheorem(a b)",
@@ -836,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadPlusLaw2",
           "package": "ClassLaws",
@@ -845,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadPlusLaw2",
           "normalized": "a b-\u003eTheorem(a b)",
@@ -860,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadPlusLaw3",
           "package": "ClassLaws",
@@ -869,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadPlusLaw3",
           "normalized": "(a-\u003eb c)-\u003eTheorem(b c)",
@@ -884,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadPlusLaw4",
           "package": "ClassLaws",
@@ -893,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadPlusLaw4",
           "normalized": "a b-\u003eTheorem(a c)",
@@ -908,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadPlusLaw5",
           "package": "ClassLaws",
@@ -917,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "defaultMonadPlusLaw5",
           "normalized": "(a b,a b,a b)-\u003eTheorem(a b)",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "functorLaw1",
           "package": "ClassLaws",
@@ -941,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "functorLaw1",
           "package": "ClassLaws",
@@ -954,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "functorLaw2",
           "package": "ClassLaws",
@@ -963,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "functorLaw2",
           "package": "ClassLaws",
@@ -976,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "functorMonadLaw",
           "package": "ClassLaws",
@@ -985,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "functorMonadLaw",
           "package": "ClassLaws",
@@ -998,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "monadLaw1",
           "package": "ClassLaws",
@@ -1007,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "monadLaw1",
           "package": "ClassLaws",
@@ -1020,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "monadLaw2",
           "package": "ClassLaws",
@@ -1029,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "monadLaw2",
           "package": "ClassLaws",
@@ -1042,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "monadLaw3",
           "package": "ClassLaws",
@@ -1051,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "monadLaw3",
           "package": "ClassLaws",
@@ -1064,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "monadPlusLaw1",
           "package": "ClassLaws",
@@ -1073,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "monadPlusLaw1",
           "package": "ClassLaws",
@@ -1086,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "monadPlusLaw2",
           "package": "ClassLaws",
@@ -1095,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "monadPlusLaw2",
           "package": "ClassLaws",
@@ -1108,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "monadPlusLaw3",
           "package": "ClassLaws",
@@ -1117,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "monadPlusLaw3",
           "package": "ClassLaws",
@@ -1130,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "monadPlusLaw4",
           "package": "ClassLaws",
@@ -1139,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "monadPlusLaw4",
           "package": "ClassLaws",
@@ -1152,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.Laws",
           "name": "monadPlusLaw5",
           "package": "ClassLaws",
@@ -1161,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.Laws",
           "name": "monadPlusLaw5",
           "package": "ClassLaws",
@@ -1175,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTests of the \u003ccode\u003eMonadState\u003c/code\u003e laws for lazy and strict state monads.\n The laws are one level up in the module hierarchy: \n \u003ccode\u003e\u003ca\u003edefaultMonadStatePutGet\u003c/a\u003e\u003c/code\u003e etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws.Instances",
           "name": "Instances",
           "package": "ClassLaws",
@@ -1184,6 +1287,7 @@
         "index": {
           "description": "Tests of the MonadState laws for lazy and strict state monads The laws are one level up in the module hierarchy defaultMonadStatePutGet etc",
           "hierarchy": "Control Monad State Class Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws.Instances",
           "name": "Instances",
           "package": "ClassLaws",
@@ -1197,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws.Instances",
           "name": "main",
           "package": "ClassLaws",
@@ -1206,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws.Instances",
           "name": "main",
           "normalized": "IO()",
@@ -1220,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws.Instances",
           "name": "testLawsStateL",
           "package": "ClassLaws",
@@ -1229,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws.Instances",
           "name": "testLawsStateL",
           "normalized": "IO()",
@@ -1244,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws.Instances",
           "name": "testLawsStatePartialL",
           "package": "ClassLaws",
@@ -1253,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws.Instances",
           "name": "testLawsStatePartialL",
           "normalized": "IO()",
@@ -1268,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws.Instances",
           "name": "testLawsStatePartialS",
           "package": "ClassLaws",
@@ -1277,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws.Instances",
           "name": "testLawsStatePartialS",
           "normalized": "IO()",
@@ -1292,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws.Instances",
           "name": "testLawsStateS",
           "package": "ClassLaws",
@@ -1301,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws.Instances",
           "name": "testLawsStateS",
           "normalized": "IO()",
@@ -1317,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLaws for the \u003ccode\u003e\u003ca\u003eMonadState\u003c/a\u003e\u003c/code\u003e class. A submodule has a\n \u003ccode\u003e\u003ca\u003emain\u003c/a\u003e\u003c/code\u003e which runs quite a\n few tests for the lazy and strict state monads.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "Laws",
           "package": "ClassLaws",
@@ -1326,6 +1441,7 @@
         "index": {
           "description": "Laws for the MonadState class submodule has main which runs quite few tests for the lazy and strict state monads",
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "Laws",
           "package": "ClassLaws",
@@ -1339,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "MonadStateGetGet",
           "package": "ClassLaws",
@@ -1347,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "MonadStateGetGet",
           "package": "ClassLaws",
@@ -1360,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "MonadStateGetPut",
           "package": "ClassLaws",
@@ -1368,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "MonadStateGetPut",
           "package": "ClassLaws",
@@ -1381,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "MonadStateLaws",
           "package": "ClassLaws",
@@ -1389,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "MonadStateLaws",
           "package": "ClassLaws",
@@ -1402,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "MonadStatePutGet",
           "package": "ClassLaws",
@@ -1410,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "MonadStatePutGet",
           "package": "ClassLaws",
@@ -1423,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "MonadStatePutPut",
           "package": "ClassLaws",
@@ -1431,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "MonadStatePutPut",
           "package": "ClassLaws",
@@ -1444,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "defaultMonadStateGetGet",
           "package": "ClassLaws",
@@ -1453,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "defaultMonadStateGetGet",
           "normalized": "(a-\u003ea-\u003eb c)-\u003eTheorem(b c)",
@@ -1468,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "defaultMonadStateGetPut",
           "package": "ClassLaws",
@@ -1477,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "defaultMonadStateGetPut",
           "normalized": "a-\u003eTheorem(b())",
@@ -1492,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "defaultMonadStatePutGet",
           "package": "ClassLaws",
@@ -1501,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "defaultMonadStatePutGet",
           "normalized": "a-\u003eTheorem(b a)",
@@ -1516,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "defaultMonadStatePutPut",
           "package": "ClassLaws",
@@ -1525,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "defaultMonadStatePutPut",
           "normalized": "(a,a)-\u003eTheorem(b())",
@@ -1540,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "monadStateGetGet",
           "package": "ClassLaws",
@@ -1549,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "monadStateGetGet",
           "package": "ClassLaws",
@@ -1562,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "monadStateGetPut",
           "package": "ClassLaws",
@@ -1571,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "monadStateGetPut",
           "package": "ClassLaws",
@@ -1584,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "monadStatePutGet",
           "package": "ClassLaws",
@@ -1593,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "monadStatePutGet",
           "package": "ClassLaws",
@@ -1606,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Control.Monad.State.Class.Laws",
           "name": "monadStatePutPut",
           "package": "ClassLaws",
@@ -1615,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Control Monad State Class Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Control.Monad.State.Class.Laws",
           "name": "monadStatePutPut",
           "package": "ClassLaws",
@@ -1629,6 +1771,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConctrete tests of some instances od the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e laws (for\n \u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e, mainly). The laws themselves are one level up in the module\n hierarchy: \u003ccode\u003e\u003ca\u003edefaultMonoidLaw1\u003c/a\u003e\u003c/code\u003e etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws.Instances",
           "name": "Instances",
           "package": "ClassLaws",
@@ -1638,6 +1781,7 @@
         "index": {
           "description": "Conctrete tests of some instances od the Monoid laws for Endo mainly The laws themselves are one level up in the module hierarchy defaultMonoidLaw1 etc",
           "hierarchy": "Data Monoid Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws.Instances",
           "name": "Instances",
           "package": "ClassLaws",
@@ -1651,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws.Instances",
           "name": "b2i",
           "package": "ClassLaws",
@@ -1660,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws.Instances",
           "name": "b2i",
           "normalized": "Bool-\u003eInt",
@@ -1674,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws.Instances",
           "name": "main",
           "package": "ClassLaws",
@@ -1683,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws.Instances",
           "name": "main",
           "normalized": "IO()",
@@ -1697,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws.Instances",
           "name": "testMonoidEndo",
           "package": "ClassLaws",
@@ -1706,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws.Instances",
           "name": "testMonoidEndo",
           "normalized": "IO()",
@@ -1721,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws.Instances",
           "name": "testMonoidEndoPartial",
           "package": "ClassLaws",
@@ -1730,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws.Instances",
           "name": "testMonoidEndoPartial",
           "normalized": "IO()",
@@ -1745,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws.Instances",
           "name": "testMonoidMyList",
           "package": "ClassLaws",
@@ -1754,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws.Instances",
           "name": "testMonoidMyList",
           "normalized": "IO()",
@@ -1769,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws.Instances",
           "name": "test_roundtrip",
           "package": "ClassLaws",
@@ -1778,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws Instances",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws.Instances",
           "name": "test_roundtrip",
           "package": "ClassLaws",
@@ -1791,6 +1947,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClassLaws for the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e class. Actual tests are defined in the Instances submodule and can be run from \u003ccode\u003e\u003ca\u003emain\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws",
           "name": "Laws",
           "package": "ClassLaws",
@@ -1800,6 +1957,7 @@
         "index": {
           "description": "ClassLaws for the Monoid class Actual tests are defined in the Instances submodule and can be run from main",
           "hierarchy": "Data Monoid Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws",
           "name": "Laws",
           "package": "ClassLaws",
@@ -1813,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws",
           "name": "MonoidLaw1",
           "package": "ClassLaws",
@@ -1821,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws",
           "name": "MonoidLaw1",
           "package": "ClassLaws",
@@ -1834,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws",
           "name": "MonoidLaw2",
           "package": "ClassLaws",
@@ -1842,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws",
           "name": "MonoidLaw2",
           "package": "ClassLaws",
@@ -1855,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws",
           "name": "MonoidLaw3",
           "package": "ClassLaws",
@@ -1863,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws",
           "name": "MonoidLaw3",
           "package": "ClassLaws",
@@ -1876,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws",
           "name": "MonoidLaws",
           "package": "ClassLaws",
@@ -1884,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws",
           "name": "MonoidLaws",
           "package": "ClassLaws",
@@ -1897,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws",
           "name": "defaultMonoidLaw1",
           "package": "ClassLaws",
@@ -1906,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws",
           "name": "defaultMonoidLaw1",
           "normalized": "a-\u003eTheorem a",
@@ -1921,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws",
           "name": "defaultMonoidLaw2",
           "package": "ClassLaws",
@@ -1930,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws",
           "name": "defaultMonoidLaw2",
           "normalized": "a-\u003eTheorem a",
@@ -1945,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws",
           "name": "defaultMonoidLaw3",
           "package": "ClassLaws",
@@ -1954,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws",
           "name": "defaultMonoidLaw3",
           "normalized": "(a,a,a)-\u003eTheorem a",
@@ -1969,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws",
           "name": "monoidLaw1",
           "package": "ClassLaws",
@@ -1978,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws",
           "name": "monoidLaw1",
           "package": "ClassLaws",
@@ -1991,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws",
           "name": "monoidLaw2",
           "package": "ClassLaws",
@@ -2000,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws",
           "name": "monoidLaw2",
           "package": "ClassLaws",
@@ -2013,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Data.Monoid.Laws",
           "name": "monoidLaw3",
           "package": "ClassLaws",
@@ -2022,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Data.Monoid.Laws",
           "name": "monoidLaw3",
           "package": "ClassLaws",
@@ -2036,6 +2214,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe core of ClassLaws are the type families \u003ccode\u003e\u003ca\u003eLawArgs\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eLawBody\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eParam\u003c/a\u003e\u003c/code\u003e, tied together by the type class \u003ccode\u003e\u003ca\u003eLawTest\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "Core",
           "package": "ClassLaws",
@@ -2045,6 +2224,7 @@
         "index": {
           "description": "The core of ClassLaws are the type families LawArgs LawBody and Param tied together by the type class LawTest",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "Core",
           "package": "ClassLaws",
@@ -2059,6 +2239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn equality proof is represented as a list of (at least two) equal values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "Equal",
           "package": "ClassLaws",
@@ -2068,6 +2249,7 @@
         "index": {
           "description": "An equality proof is represented as list of at least two equal values",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "Equal",
           "package": "ClassLaws",
@@ -2082,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eLaw\u003c/a\u003e\u003c/code\u003es we handle are of this form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "Law",
           "package": "ClassLaws",
@@ -2091,6 +2274,7 @@
         "index": {
           "description": "The Law we handle are of this form",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "Law",
           "package": "ClassLaws",
@@ -2105,6 +2289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe forall quantified part on the top level of the law\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "LawArgs",
           "package": "ClassLaws",
@@ -2114,6 +2299,7 @@
         "index": {
           "description": "The forall quantified part on the top level of the law",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "LawArgs",
           "package": "ClassLaws",
@@ -2128,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type in the body of the forall\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "LawBody",
           "package": "ClassLaws",
@@ -2137,6 +2324,7 @@
         "index": {
           "description": "The type in the body of the forall",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "LawBody",
           "package": "ClassLaws",
@@ -2151,6 +2339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass LawTest defines a test method, which returns a testable property, which we\ncan use to test a law for a type t. This class is independent of the actual laws\nto test - it can be used for Monoid, Monad, ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "LawTest",
           "package": "ClassLaws",
@@ -2160,6 +2349,7 @@
         "index": {
           "description": "Class LawTest defines test method which returns testable property which we can use to test law for type This class is independent of the actual laws to test it can be used for Monoid Monad",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "LawTest",
           "package": "ClassLaws",
@@ -2174,6 +2364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters needed for \u003ccode\u003e\u003ca\u003eEqual\u003c/a\u003e\u003c/code\u003e checking of the body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "Param",
           "package": "ClassLaws",
@@ -2183,6 +2374,7 @@
         "index": {
           "description": "Parameters needed for Equal checking of the body",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "Param",
           "package": "ClassLaws",
@@ -2197,6 +2389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Theorem is a claim that a LHS equals a RHS - an \u003ccode\u003e\u003ca\u003eEqual\u003c/a\u003e\u003c/code\u003e of length two.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "Theorem",
           "package": "ClassLaws",
@@ -2206,6 +2399,7 @@
         "index": {
           "description": "Theorem is claim that LHS equals RHS an Equal of length two",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "Theorem",
           "package": "ClassLaws",
@@ -2220,6 +2414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContructing an equality theorem: \u003ccode\u003elhs =.= rhs  =  [lhs, rhs]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "(=.=)",
           "package": "ClassLaws",
@@ -2230,6 +2425,7 @@
         "index": {
           "description": "Contructing an equality theorem lhs rhs lhs rhs",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "(=.=) =.=",
           "normalized": "a-\u003ea-\u003eTheorem a",
@@ -2245,6 +2441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a two-element \u003ca\u003etheorem\u003c/a\u003e and an equality proof chain to splice in the middle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "addSteps",
           "package": "ClassLaws",
@@ -2255,6 +2452,7 @@
         "index": {
           "description": "Take two-element theorem and an equality proof chain to splice in the middle",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "addSteps",
           "normalized": "Theorem a-\u003eEqual a-\u003eEqual a",
@@ -2271,6 +2469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to test laws where arguments lack a Show instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "blindlawtest",
           "package": "ClassLaws",
@@ -2281,6 +2480,7 @@
         "index": {
           "description": "Helper function to test laws where arguments lack Show instance",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "blindlawtest",
           "normalized": "a-\u003eBlind(LawArgs a)-\u003eParam(LawBody a)-\u003eProperty",
@@ -2295,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "lawtest",
           "package": "ClassLaws",
@@ -2304,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "lawtest",
           "normalized": "a-\u003eLawArgs a-\u003eParam(LawBody a)-\u003eProperty",
@@ -2319,6 +2521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to test laws where we should care about partial values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "partiallawtest",
           "package": "ClassLaws",
@@ -2329,6 +2532,7 @@
         "index": {
           "description": "Helper function to test laws where we should care about partial values",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "partiallawtest",
           "normalized": "a-\u003ePartial(LawArgs a-\u003eParam(LawBody a)-\u003eProperty)",
@@ -2344,6 +2548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant not needing a Show instance for the \u003ccode\u003eLawArg\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "quickFLawCheck",
           "package": "ClassLaws",
@@ -2354,6 +2559,7 @@
         "index": {
           "description": "Variant not needing Show instance for the LawArg",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "quickFLawCheck",
           "normalized": "a-\u003eIO()",
@@ -2370,6 +2576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop level use of ClassLaws is often \u003ccode\u003e\u003ccode\u003e\u003ca\u003equickLawCheck\u003c/a\u003e\u003c/code\u003e someLaw\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "quickLawCheck",
           "package": "ClassLaws",
@@ -2380,6 +2587,7 @@
         "index": {
           "description": "Top level use of ClassLaws is often quickLawCheck someLaw",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "quickLawCheck",
           "normalized": "a-\u003eIO()",
@@ -2396,6 +2604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking laws in the precense of partial values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Core",
           "name": "quickLawCheckPartial",
           "package": "ClassLaws",
@@ -2406,6 +2615,7 @@
         "index": {
           "description": "Checking laws in the precense of partial values",
           "hierarchy": "Test ClassLaws Core",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Core",
           "name": "quickLawCheckPartial",
           "normalized": "a-\u003eIO()",
@@ -2422,6 +2632,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module collects the infrastructure used to easily switch\n between testing ClassLaws with or without partial values. Built\n around QuickCheck and ChasingBottoms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Partial",
           "name": "Partial",
           "package": "ClassLaws",
@@ -2431,6 +2642,7 @@
         "index": {
           "description": "This module collects the infrastructure used to easily switch between testing ClassLaws with or without partial values Built around QuickCheck and ChasingBottoms",
           "hierarchy": "Test ClassLaws Partial",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Partial",
           "name": "Partial",
           "package": "ClassLaws",
@@ -2445,6 +2657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe copy the QuickCheck structure to make sure generators of\n partial values and equality checks handling partial values are\n used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Partial",
           "name": "ArbitraryPartial",
           "package": "ClassLaws",
@@ -2454,6 +2667,7 @@
         "index": {
           "description": "We copy the QuickCheck structure to make sure generators of partial values and equality checks handling partial values are used",
           "hierarchy": "Test ClassLaws Partial",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Partial",
           "name": "ArbitraryPartial",
           "package": "ClassLaws",
@@ -2468,6 +2682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA modifier to indicate that partial values should be generated\n (or tested, or both).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Partial",
           "name": "Partial",
           "package": "ClassLaws",
@@ -2477,6 +2692,7 @@
         "index": {
           "description": "modifier to indicate that partial values should be generated or tested or both",
           "hierarchy": "Test ClassLaws Partial",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Partial",
           "name": "Partial",
           "package": "ClassLaws",
@@ -2491,6 +2707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclaring a property for possibly partial values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Partial",
           "name": "TestablePartial",
           "package": "ClassLaws",
@@ -2500,6 +2717,7 @@
         "index": {
           "description": "Declaring property for possibly partial values",
           "hierarchy": "Test ClassLaws Partial",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Partial",
           "name": "TestablePartial",
           "package": "ClassLaws",
@@ -2513,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Partial",
           "name": "Partial",
           "package": "ClassLaws",
@@ -2522,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws Partial",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Partial",
           "name": "Partial",
           "package": "ClassLaws",
@@ -2535,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Partial",
           "name": "arbitraryPartial",
           "package": "ClassLaws",
@@ -2544,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws Partial",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Partial",
           "name": "arbitraryPartial",
           "package": "ClassLaws",
@@ -2558,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for generating partial values: \u003ccode\u003egenPartial ib ia ga\u003c/code\u003e\n generates \u003ccode\u003e\u003ca\u003ebottom\u003c/a\u003e\u003c/code\u003e with frequence \u003ccode\u003eib\u003c/code\u003e and \u003ccode\u003ega\u003c/code\u003e with frequency\n \u003ccode\u003eia\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Partial",
           "name": "genPartial",
           "package": "ClassLaws",
@@ -2568,6 +2791,7 @@
         "index": {
           "description": "Helper for generating partial values genPartial ib ia ga generates bottom with frequence ib and ga with frequency ia",
           "hierarchy": "Test ClassLaws Partial",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Partial",
           "name": "genPartial",
           "normalized": "Int-\u003eInt-\u003eGen a-\u003eGen a",
@@ -2583,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Partial",
           "name": "propertyPartial",
           "package": "ClassLaws",
@@ -2592,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws Partial",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Partial",
           "name": "propertyPartial",
           "normalized": "a-\u003eProperty",
@@ -2608,6 +2834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for showing partial values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Partial",
           "name": "showPartial",
           "package": "ClassLaws",
@@ -2618,6 +2845,7 @@
         "index": {
           "description": "Helper for showing partial values",
           "hierarchy": "Test ClassLaws Partial",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Partial",
           "name": "showPartial",
           "normalized": "String-\u003e(a-\u003eString)-\u003ea-\u003eString",
@@ -2633,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Partial",
           "name": "shrinkPartial",
           "package": "ClassLaws",
@@ -2642,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws Partial",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Partial",
           "name": "shrinkPartial",
           "normalized": "a-\u003e[a]",
@@ -2657,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.Partial",
           "name": "unPartial",
           "package": "ClassLaws",
@@ -2666,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws Partial",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.Partial",
           "name": "unPartial",
           "package": "ClassLaws",
@@ -2680,6 +2912,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome example usage of the ClassLaws framework\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "TestingDatatypes",
           "package": "ClassLaws",
@@ -2689,6 +2922,7 @@
         "index": {
           "description": "Some example usage of the ClassLaws framework",
           "hierarchy": "Test ClassLaws TestingDatatypes",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "TestingDatatypes",
           "package": "ClassLaws",
@@ -2703,6 +2937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe use the MyList datatype to provide instances that do not\n satisfy some class laws.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "MyList",
           "package": "ClassLaws",
@@ -2712,6 +2947,7 @@
         "index": {
           "description": "We use the MyList datatype to provide instances that do not satisfy some class laws",
           "hierarchy": "Test ClassLaws TestingDatatypes",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "MyList",
           "package": "ClassLaws",
@@ -2725,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "(+++)",
           "package": "ClassLaws",
@@ -2734,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingDatatypes",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "(+++) +++",
           "normalized": "MyList a-\u003eMyList a-\u003eMyList a",
@@ -2748,6 +2986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "Cons",
           "package": "ClassLaws",
@@ -2757,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingDatatypes",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "Cons",
           "package": "ClassLaws",
@@ -2770,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "Nil",
           "package": "ClassLaws",
@@ -2779,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingDatatypes",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "Nil",
           "package": "ClassLaws",
@@ -2792,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "foldrMyList",
           "package": "ClassLaws",
@@ -2801,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingDatatypes",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "foldrMyList",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eMyList a-\u003eb",
@@ -2816,6 +3060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "list2MyList",
           "package": "ClassLaws",
@@ -2825,6 +3070,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingDatatypes",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "list2MyList",
           "normalized": "[a]-\u003eMyList a",
@@ -2840,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "myList2List",
           "package": "ClassLaws",
@@ -2849,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingDatatypes",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "myList2List",
           "normalized": "MyList a-\u003e[a]",
@@ -2864,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "snoc",
           "package": "ClassLaws",
@@ -2873,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingDatatypes",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingDatatypes",
           "name": "snoc",
           "normalized": "a-\u003eMyList a-\u003eMyList a",
@@ -2888,6 +3138,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe following class + helper functions implement law-agnostic testing\nfunctionality that is used to test laws for various classes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "TestingEquality",
           "package": "ClassLaws",
@@ -2897,6 +3148,7 @@
         "index": {
           "description": "The following class helper functions implement law-agnostic testing functionality that is used to test laws for various classes",
           "hierarchy": "Test ClassLaws TestingEquality",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "TestingEquality",
           "package": "ClassLaws",
@@ -2911,6 +3163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition in an equality proof\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "Pos",
           "package": "ClassLaws",
@@ -2920,6 +3173,7 @@
         "index": {
           "description": "Position in an equality proof",
           "hierarchy": "Test ClassLaws TestingEquality",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "Pos",
           "package": "ClassLaws",
@@ -2934,6 +3188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for types which can be checked for \u003ccode\u003e\u003ca\u003eEqual\u003c/a\u003e\u003c/code\u003eity, possibly\n needing some extra \u003ccode\u003e\u003ca\u003eParam\u003c/a\u003e\u003c/code\u003eeters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "TestEqual",
           "package": "ClassLaws",
@@ -2943,6 +3198,7 @@
         "index": {
           "description": "class for types which can be checked for Equal ity possibly needing some extra Param eters",
           "hierarchy": "Test ClassLaws TestingEquality",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "TestEqual",
           "package": "ClassLaws",
@@ -2957,6 +3213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal helper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "failingPair",
           "package": "ClassLaws",
@@ -2967,6 +3224,7 @@
         "index": {
           "description": "Local helper",
           "hierarchy": "Test ClassLaws TestingEquality",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "failingPair",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eEqual a-\u003e(Pos,a,a)",
@@ -2983,6 +3241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal helper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "failingPair'",
           "package": "ClassLaws",
@@ -2993,6 +3252,7 @@
         "index": {
           "description": "Local helper",
           "hierarchy": "Test ClassLaws TestingEquality",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "failingPair'",
           "normalized": "a-\u003e(a-\u003ea-\u003eBool)-\u003e[a]-\u003e(a,a,a)",
@@ -3009,6 +3269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal helper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "pairwiseEq",
           "package": "ClassLaws",
@@ -3019,6 +3280,7 @@
         "index": {
           "description": "Local helper",
           "hierarchy": "Test ClassLaws TestingEquality",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "pairwiseEq",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003eBool",
@@ -3035,6 +3297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe second function, \u003ccode\u003e\u003ca\u003etestEq\u003c/a\u003e\u003c/code\u003e, does the same, but now for pairs\n that are not necessarily runnable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "testEq",
           "package": "ClassLaws",
@@ -3045,6 +3308,7 @@
         "index": {
           "description": "The second function testEq does the same but now for pairs that are not necessarily runnable",
           "hierarchy": "Test ClassLaws TestingEquality",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "testEq",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eEqual a-\u003eProperty",
@@ -3061,6 +3325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar variant of \u003ccode\u003e\u003ca\u003etestEq\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "testEqPartial",
           "package": "ClassLaws",
@@ -3071,6 +3336,7 @@
         "index": {
           "description": "Similar variant of testEq for Partial values",
           "hierarchy": "Test ClassLaws TestingEquality",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "testEqPartial",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eEqual a-\u003eProperty",
@@ -3086,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "testEqual",
           "package": "ClassLaws",
@@ -3095,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingEquality",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "testEqual",
           "normalized": "Equal a-\u003eParam a-\u003eProperty",
@@ -3111,6 +3379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first function, \u003ccode\u003e\u003ca\u003etestRunEq\u003c/a\u003e\u003c/code\u003e, returns a property implementing\n an equality check.  It takes a function that can \u003ccode\u003erun\u003c/code\u003e a value and a\n comparison operator to a predicate (which in turn takes some\n supposedly equal values, and a parameter needed for the run\n function, and returns a \u003ccode\u003e\u003ca\u003eProperty\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "testRunEq",
           "package": "ClassLaws",
@@ -3121,6 +3390,7 @@
         "index": {
           "description": "The first function testRunEq returns property implementing an equality check It takes function that can run value and comparison operator to predicate which in turn takes some supposedly equal values and parameter needed for the run function and returns Property",
           "hierarchy": "Test ClassLaws TestingEquality",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "testRunEq",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(c-\u003ec-\u003eBool)-\u003eEqual a-\u003eb-\u003eProperty",
@@ -3137,6 +3407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003etestRunEq\u003c/a\u003e\u003c/code\u003e intended for \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003e values. (Only the\n Show part differs - the user also needs to supply an equality\n operator handling \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003e values.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "testRunEqPartial",
           "package": "ClassLaws",
@@ -3147,6 +3418,7 @@
         "index": {
           "description": "Variant of testRunEq intended for Partial values Only the Show part differs the user also needs to supply an equality operator handling Partial values",
           "hierarchy": "Test ClassLaws TestingEquality",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingEquality",
           "name": "testRunEqPartial",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(c-\u003ec-\u003eBool)-\u003eEqual a-\u003eb-\u003eProperty",
@@ -3163,6 +3435,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions from a finite type can be shown, checked for equality,\n and generated. We provide variants both for total and for partial\n values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "TestingFinFuns",
           "package": "ClassLaws",
@@ -3172,6 +3445,7 @@
         "index": {
           "description": "Functions from finite type can be shown checked for equality and generated We provide variants both for total and for partial values",
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "TestingFinFuns",
           "package": "ClassLaws",
@@ -3185,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "FunTab",
           "package": "ClassLaws",
@@ -3193,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "FunTab",
           "package": "ClassLaws",
@@ -3206,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "SemEq",
           "package": "ClassLaws",
@@ -3214,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "SemEq",
           "package": "ClassLaws",
@@ -3227,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "arbitraryPartialFun",
           "package": "ClassLaws",
@@ -3236,6 +3515,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "arbitraryPartialFun",
           "normalized": "Gen a-\u003eGen(b-\u003ea)",
@@ -3251,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "enumElems",
           "package": "ClassLaws",
@@ -3260,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "enumElems",
           "normalized": "[a]",
@@ -3275,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "eqPartial",
           "package": "ClassLaws",
@@ -3284,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "eqPartial",
           "normalized": "Bool-\u003ea-\u003ea-\u003eBool",
@@ -3299,6 +3583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "lMeet",
           "package": "ClassLaws",
@@ -3308,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "lMeet",
           "normalized": "[a]-\u003ea",
@@ -3323,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "lessEqPartial",
           "package": "ClassLaws",
@@ -3332,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "lessEqPartial",
           "normalized": "Bool-\u003ea-\u003ea-\u003eBool",
@@ -3347,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "meetPartial",
           "package": "ClassLaws",
@@ -3356,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "meetPartial",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -3371,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "semEqFun",
           "package": "ClassLaws",
@@ -3380,6 +3671,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "semEqFun",
           "normalized": "SemEq a-\u003eSemEq(b-\u003ea)",
@@ -3395,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "semanticLE",
           "package": "ClassLaws",
@@ -3404,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "semanticLE",
           "normalized": "a-\u003eb-\u003eb-\u003eBool",
@@ -3419,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "showFun",
           "package": "ClassLaws",
@@ -3428,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "showFun",
           "normalized": "(a-\u003eb)-\u003eString",
@@ -3443,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "showPartialFun",
           "package": "ClassLaws",
@@ -3452,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "showPartialFun",
           "normalized": "(a-\u003eb)-\u003eString",
@@ -3467,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "table2fun",
           "package": "ClassLaws",
@@ -3476,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingFinFuns",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingFinFuns",
           "name": "table2fun",
           "normalized": "FunTab a b-\u003ea-\u003eb",
@@ -3491,6 +3791,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementations of the infrastructure needed to test state monad\n laws.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "TestingState",
           "package": "ClassLaws",
@@ -3500,6 +3801,7 @@
         "index": {
           "description": "Implementations of the infrastructure needed to test state monad laws",
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "TestingState",
           "package": "ClassLaws",
@@ -3513,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "Pair",
           "package": "ClassLaws",
@@ -3521,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "Pair",
           "package": "ClassLaws",
@@ -3534,6 +3838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "SS",
           "package": "ClassLaws",
@@ -3542,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "SS",
           "package": "ClassLaws",
@@ -3555,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "State",
           "package": "ClassLaws",
@@ -3563,6 +3870,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "State",
           "package": "ClassLaws",
@@ -3576,6 +3884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "Pair",
           "package": "ClassLaws",
@@ -3585,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "Pair",
           "package": "ClassLaws",
@@ -3598,6 +3908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "S",
           "package": "ClassLaws",
@@ -3607,6 +3918,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "S",
           "package": "ClassLaws",
@@ -3619,6 +3931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "SS",
           "package": "ClassLaws",
@@ -3628,6 +3941,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "SS",
           "package": "ClassLaws",
@@ -3641,6 +3955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "basicPairShow",
           "package": "ClassLaws",
@@ -3650,6 +3965,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "basicPairShow",
           "normalized": "(a-\u003eString)-\u003e(b-\u003eString)-\u003ePair a b-\u003eString",
@@ -3665,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "bindStateL",
           "package": "ClassLaws",
@@ -3674,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "bindStateL",
           "normalized": "State a a-\u003e(a-\u003eState a b)-\u003eState a b",
@@ -3689,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "bindStateS",
           "package": "ClassLaws",
@@ -3698,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "bindStateS",
           "normalized": "State a b-\u003e(b-\u003eState a b)-\u003eState a b",
@@ -3713,6 +4033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "enumShowBot_auxLst",
           "package": "ClassLaws",
@@ -3722,6 +4043,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "enumShowBot_auxLst",
           "normalized": "[String]-\u003ea-\u003eString",
@@ -3737,6 +4059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "enumTotArb",
           "package": "ClassLaws",
@@ -3746,6 +4069,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "enumTotArb",
           "normalized": "[(Int,a)]-\u003eGen a",
@@ -3761,6 +4085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "fmapStateL",
           "package": "ClassLaws",
@@ -3770,6 +4095,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "fmapStateL",
           "normalized": "(a-\u003eb)-\u003eState a a-\u003eState a b",
@@ -3785,6 +4111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "fmapStateS",
           "package": "ClassLaws",
@@ -3794,6 +4121,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "fmapStateS",
           "normalized": "(a-\u003ea)-\u003eState b a-\u003eState b a",
@@ -3809,6 +4137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "fstP",
           "package": "ClassLaws",
@@ -3818,6 +4147,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "fstP",
           "normalized": "Pair a a-\u003ea",
@@ -3832,6 +4162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "getState",
           "package": "ClassLaws",
@@ -3841,6 +4172,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "getState",
           "package": "ClassLaws",
@@ -3854,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "pairFromGen",
           "package": "ClassLaws",
@@ -3863,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "pairFromGen",
           "normalized": "Gen a-\u003eGen b-\u003eGen(Pair a b)",
@@ -3878,6 +4212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "pairRecPatt",
           "package": "ClassLaws",
@@ -3887,6 +4222,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "pairRecPatt",
           "normalized": "(a-\u003ea-\u003eb)-\u003e(c-\u003ec-\u003ed)-\u003e(b-\u003ed-\u003ee)-\u003ePair a c-\u003ePair a c-\u003ee",
@@ -3902,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "pairShowPartial",
           "package": "ClassLaws",
@@ -3911,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "pairShowPartial",
           "normalized": "String-\u003ePair a b-\u003eString",
@@ -3926,6 +4264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "putState",
           "package": "ClassLaws",
@@ -3935,6 +4274,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "putState",
           "normalized": "a-\u003eState a()",
@@ -3950,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "returnState",
           "package": "ClassLaws",
@@ -3959,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "returnState",
           "normalized": "a-\u003eState b a",
@@ -3974,6 +4316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "runS",
           "package": "ClassLaws",
@@ -3983,6 +4326,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "runS",
           "normalized": "a-\u003ePair b a",
@@ -3997,6 +4341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "sndP",
           "package": "ClassLaws",
@@ -4006,6 +4351,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "sndP",
           "normalized": "Pair a a-\u003ea",
@@ -4020,6 +4366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "statePatt",
           "package": "ClassLaws",
@@ -4029,6 +4376,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "statePatt",
           "normalized": "((a-\u003ePair a a)-\u003e(a-\u003ePair a a)-\u003ea)-\u003eState a a-\u003eState a a-\u003ea",
@@ -4044,6 +4392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws.TestingState",
           "name": "unSS",
           "package": "ClassLaws",
@@ -4053,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Test ClassLaws TestingState",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws.TestingState",
           "name": "unSS",
           "package": "ClassLaws",
@@ -4067,6 +4417,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe central part of ClassLaws is defined in the .Core, .Partial\n and .TestingEquality. Some more helper functions and examples\n reside in Test.ClassLaws.*. Finally, laws for the Monoid, Monad and\n MonadState classes live under their definitions in the hierarchy:\n Data.Monoid.Laws, Control.Monad.Laws, etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Test.ClassLaws",
           "name": "ClassLaws",
           "package": "ClassLaws",
@@ -4076,6 +4427,7 @@
         "index": {
           "description": "The central part of ClassLaws is defined in the Core Partial and TestingEquality Some more helper functions and examples reside in Test.ClassLaws Finally laws for the Monoid Monad and MonadState classes live under their definitions in the hierarchy Data.Monoid.Laws Control.Monad.Laws etc",
           "hierarchy": "Test ClassLaws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Test.ClassLaws",
           "name": "ClassLaws",
           "package": "ClassLaws",
@@ -4089,6 +4441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Text.Show.Laws",
           "name": "Laws",
           "package": "ClassLaws",
@@ -4097,6 +4450,7 @@
         },
         "index": {
           "hierarchy": "Text Show Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Text.Show.Laws",
           "name": "Laws",
           "package": "ClassLaws",
@@ -4110,6 +4464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Text.Show.Laws",
           "name": "ShowLaw",
           "package": "ClassLaws",
@@ -4118,6 +4473,7 @@
         },
         "index": {
           "hierarchy": "Text Show Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Text.Show.Laws",
           "name": "ShowLaw",
           "package": "ClassLaws",
@@ -4131,6 +4487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Text.Show.Laws",
           "name": "ShowLaws",
           "package": "ClassLaws",
@@ -4139,6 +4496,7 @@
         },
         "index": {
           "hierarchy": "Text Show Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Text.Show.Laws",
           "name": "ShowLaws",
           "package": "ClassLaws",
@@ -4152,6 +4510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Text.Show.Laws",
           "name": "defaultShowLaw",
           "package": "ClassLaws",
@@ -4161,6 +4520,7 @@
         },
         "index": {
           "hierarchy": "Text Show Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Text.Show.Laws",
           "name": "defaultShowLaw",
           "normalized": "(Int,a,String,[Char])-\u003eTheorem[Char]",
@@ -4176,6 +4536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:42 UTC 2014",
           "module": "Text.Show.Laws",
           "name": "showLaw",
           "package": "ClassLaws",
@@ -4185,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "Text Show Laws",
+          "indexed": "2014-03-11T16:36:42",
           "module": "Text.Show.Laws",
           "name": "showLaw",
           "package": "ClassLaws",

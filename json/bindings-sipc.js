@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-sipc"
+        "phrase": "bindings-sipc",
+        "type": "phrase"
       },
       "type": "context"
     }

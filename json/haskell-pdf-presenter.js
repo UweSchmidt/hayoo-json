@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-pdf-presenter"
+        "phrase": "haskell-pdf-presenter",
+        "type": "phrase"
       },
       "type": "context"
     }

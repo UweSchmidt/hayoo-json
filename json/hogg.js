@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hogg"
+        "phrase": "hogg",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Chain",
           "name": "Chain",
           "package": "hogg",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Chain",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Chain",
           "name": "Chain",
           "package": "hogg",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA section of a chained Ogg physical bitstream. This corresponds to\n an entire song or video, and most Ogg files in the wild contain only\n a single chain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Chain",
           "name": "OggChain",
           "package": "hogg",
@@ -49,6 +52,7 @@
         "index": {
           "description": "section of chained Ogg physical bitstream This corresponds to an entire song or video and most Ogg files in the wild contain only single chain",
           "hierarchy": "Codec Container Ogg Chain",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Chain",
           "name": "OggChain",
           "package": "hogg",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Chain",
           "name": "OggChain",
           "package": "hogg",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Chain",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Chain",
           "name": "OggChain",
           "package": "hogg",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a Skeleton logical bitstream to an OggChain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Chain",
           "name": "chainAddSkeleton",
           "package": "hogg",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Add Skeleton logical bitstream to an OggChain",
           "hierarchy": "Codec Container Ogg Chain",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Chain",
           "name": "chainAddSkeleton",
           "normalized": "OggChain-\u003eIO OggChain",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Chain",
           "name": "chainPackets",
           "package": "hogg",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Chain",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Chain",
           "name": "chainPackets",
           "normalized": "[OggPacket]",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Chain",
           "name": "chainPages",
           "package": "hogg",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Chain",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Chain",
           "name": "chainPages",
           "normalized": "[OggPage]",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a ByteString into a list of OggChains\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Chain",
           "name": "chainScan",
           "package": "hogg",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Parse ByteString into list of OggChains",
           "hierarchy": "Codec Container Ogg Chain",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Chain",
           "name": "chainScan",
           "normalized": "ByteString-\u003e[OggChain]",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Chain",
           "name": "chainTracks",
           "package": "hogg",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Chain",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Chain",
           "name": "chainTracks",
           "normalized": "[OggTrack]",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Chop",
           "name": "Chop",
           "package": "hogg",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Chop",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Chop",
           "name": "Chop",
           "package": "hogg",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChop a bitstream, do NOT add a Skeleton bitstream\n | chop start end chain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Chop",
           "name": "chop",
           "package": "hogg",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Chop bitstream do NOT add Skeleton bitstream chop start end chain",
           "hierarchy": "Codec Container Ogg Chop",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Chop",
           "name": "chop",
           "normalized": "Maybe Timestamp-\u003eMaybe Timestamp-\u003eOggChain-\u003eIO OggChain",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChop a bitstream, adding a Skeleton bitstream\n | chopWithSkel start end chain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Chop",
           "name": "chopWithSkel",
           "package": "hogg",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Chop bitstream adding Skeleton bitstream chopWithSkel start end chain",
           "hierarchy": "Codec Container Ogg Chop",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Chop",
           "name": "chopWithSkel",
           "normalized": "Maybe Timestamp-\u003eMaybe Timestamp-\u003eOggChain-\u003eIO OggChain",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "ContentType",
           "package": "hogg",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "ContentType",
           "package": "hogg",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData: ContentType\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "ContentType",
           "package": "hogg",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Data ContentType",
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "ContentType",
           "package": "hogg",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass: ContentTyped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "ContentTyped",
           "package": "hogg",
@@ -334,6 +361,7 @@
         "index": {
           "description": "Typeclass ContentTyped",
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "ContentTyped",
           "package": "hogg",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "ContentType",
           "package": "hogg",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "ContentType",
           "package": "hogg",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "celt",
           "package": "hogg",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "celt",
           "package": "hogg",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "cmml",
           "package": "hogg",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "cmml",
           "package": "hogg",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "contentTypeEq",
           "package": "hogg",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "contentTypeEq",
           "normalized": "a-\u003eb-\u003eBool",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "contentTypeIs",
           "package": "hogg",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "contentTypeIs",
           "normalized": "ContentType-\u003ea-\u003eBool",
@@ -459,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "contentTypeOf",
           "package": "hogg",
@@ -468,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "contentTypeOf",
           "normalized": "a-\u003eMaybe ContentType",
@@ -484,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup a list of ContentTyped items by their Content-Type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "demuxByContentType",
           "package": "hogg",
@@ -494,6 +535,7 @@
         "index": {
           "description": "Group list of ContentTyped items by their Content-Type",
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "demuxByContentType",
           "normalized": "[a]-\u003e[[a]]",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "flac",
           "package": "hogg",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "flac",
           "package": "hogg",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "granulerate",
           "package": "hogg",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "granulerate",
           "normalized": "ContentType-\u003eByteString-\u003eMaybe Granulerate",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "granulerateF",
           "package": "hogg",
@@ -562,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "granulerateF",
           "normalized": "Maybe(ByteString-\u003eGranulerate)",
@@ -576,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "granuleshift",
           "package": "hogg",
@@ -585,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "granuleshift",
           "normalized": "ContentType-\u003eByteString-\u003eMaybe Int",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "granuleshiftF",
           "package": "hogg",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "granuleshiftF",
           "normalized": "Maybe(ByteString-\u003eInt)",
@@ -622,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "headers",
           "package": "hogg",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "headers",
           "normalized": "ByteString-\u003eInt",
@@ -645,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "identify",
           "package": "hogg",
@@ -654,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "identify",
           "normalized": "ByteString-\u003eMaybe ContentType",
@@ -668,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "identifyP",
           "package": "hogg",
@@ -677,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "identifyP",
           "normalized": "ByteString-\u003eBool",
@@ -691,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "knownContentTypes",
           "package": "hogg",
@@ -700,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "knownContentTypes",
           "normalized": "[String]",
@@ -715,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "label",
           "package": "hogg",
@@ -724,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "label",
           "package": "hogg",
@@ -736,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "metadata",
           "package": "hogg",
@@ -745,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "metadata",
           "normalized": "ByteString-\u003eMessageHeaders",
@@ -759,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "mime",
           "package": "hogg",
@@ -768,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "mime",
           "normalized": "[String]",
@@ -782,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "parseType",
           "package": "hogg",
@@ -791,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "parseType",
           "normalized": "String-\u003eMaybe ContentType",
@@ -806,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "preroll",
           "package": "hogg",
@@ -815,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "preroll",
           "package": "hogg",
@@ -827,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "skeleton",
           "package": "hogg",
@@ -836,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "skeleton",
           "package": "hogg",
@@ -848,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "speex",
           "package": "hogg",
@@ -857,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "speex",
           "package": "hogg",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "theora",
           "package": "hogg",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "theora",
           "package": "hogg",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "vorbis",
           "package": "hogg",
@@ -899,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg ContentType",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.ContentType",
           "name": "vorbis",
           "package": "hogg",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Granulepos",
           "name": "Granulepos",
           "package": "hogg",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Granulepos",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Granulepos",
           "name": "Granulepos",
           "package": "hogg",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Granulepos",
           "name": "Granulepos",
           "package": "hogg",
@@ -940,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Granulepos",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Granulepos",
           "name": "Granulepos",
           "package": "hogg",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Granulepos",
           "name": "Granulepos",
           "package": "hogg",
@@ -962,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Granulepos",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Granulepos",
           "name": "Granulepos",
           "package": "hogg",
@@ -975,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Granulepos",
           "name": "gpPack",
           "package": "hogg",
@@ -984,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Granulepos",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Granulepos",
           "name": "gpPack",
           "normalized": "Word-\u003eGranulepos",
@@ -999,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Granulepos",
           "name": "gpUnpack",
           "package": "hogg",
@@ -1008,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Granulepos",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Granulepos",
           "name": "gpUnpack",
           "normalized": "Granulepos-\u003eWord",
@@ -1023,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Granulerate",
           "name": "Granulerate",
           "package": "hogg",
@@ -1031,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Granulerate",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Granulerate",
           "name": "Granulerate",
           "package": "hogg",
@@ -1044,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Granulerate",
           "name": "Granulerate",
           "package": "hogg",
@@ -1052,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Granulerate",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Granulerate",
           "name": "Granulerate",
           "package": "hogg",
@@ -1065,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Granulerate",
           "name": "Granulerate",
           "package": "hogg",
@@ -1074,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Granulerate",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Granulerate",
           "name": "Granulerate",
           "package": "hogg",
@@ -1087,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Granulerate",
           "name": "fracRate",
           "package": "hogg",
@@ -1096,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Granulerate",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Granulerate",
           "name": "fracRate",
           "normalized": "Integer-\u003eInteger-\u003eGranulerate",
@@ -1111,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Granulerate",
           "name": "intRate",
           "package": "hogg",
@@ -1120,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Granulerate",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Granulerate",
           "name": "intRate",
           "normalized": "Integer-\u003eGranulerate",
@@ -1135,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Headers",
           "name": "Headers",
           "package": "hogg",
@@ -1143,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Headers",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Headers",
           "name": "Headers",
           "package": "hogg",
@@ -1156,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Headers",
           "name": "processHeaders",
           "package": "hogg",
@@ -1165,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Headers",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Headers",
           "name": "processHeaders",
           "normalized": "([OggPage]-\u003e[OggPage])-\u003e[OggPage]-\u003e[OggPage]",
@@ -1180,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "Packet",
           "package": "hogg",
@@ -1188,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "Packet",
           "package": "hogg",
@@ -1201,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "OggPacket",
           "package": "hogg",
@@ -1209,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "OggPacket",
           "package": "hogg",
@@ -1222,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "OggSegment",
           "package": "hogg",
@@ -1230,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "OggSegment",
           "package": "hogg",
@@ -1243,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "OggPacket",
           "package": "hogg",
@@ -1252,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "OggPacket",
           "package": "hogg",
@@ -1265,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "OggSegment",
           "package": "hogg",
@@ -1274,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "OggSegment",
           "package": "hogg",
@@ -1287,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetBOS",
           "package": "hogg",
@@ -1296,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetBOS",
           "package": "hogg",
@@ -1309,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetData",
           "package": "hogg",
@@ -1318,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetData",
           "package": "hogg",
@@ -1331,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetEOS",
           "package": "hogg",
@@ -1340,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetEOS",
           "package": "hogg",
@@ -1353,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetGranulepos",
           "package": "hogg",
@@ -1362,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetGranulepos",
           "package": "hogg",
@@ -1375,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetSegments",
           "package": "hogg",
@@ -1384,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetSegments",
           "normalized": "(Maybe[OggSegment])",
@@ -1400,6 +1522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a dump of a packet, as used by \u003ca\u003ehogg dump\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetToBS",
           "package": "hogg",
@@ -1410,6 +1533,7 @@
         "index": {
           "description": "Create dump of packet as used by hogg dump",
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetToBS",
           "normalized": "OggPacket-\u003eByteString",
@@ -1425,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetTrack",
           "package": "hogg",
@@ -1434,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetTrack",
           "package": "hogg",
@@ -1448,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack packets into pages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetsToPages",
           "package": "hogg",
@@ -1458,6 +1585,7 @@
         "index": {
           "description": "Pack packets into pages",
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "packetsToPages",
           "normalized": "[OggPacket]-\u003e[OggPage]",
@@ -1474,6 +1602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePull the packets out of pages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "pagesToPackets",
           "package": "hogg",
@@ -1484,6 +1613,7 @@
         "index": {
           "description": "Pull the packets out of pages",
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "pagesToPackets",
           "normalized": "[OggPage]-\u003e[OggPacket]",
@@ -1500,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether or not the segment ends a page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "segmentEndsPage",
           "package": "hogg",
@@ -1510,6 +1641,7 @@
         "index": {
           "description": "whether or not the segment ends page",
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "segmentEndsPage",
           "package": "hogg",
@@ -1523,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "segmentLength",
           "package": "hogg",
@@ -1532,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "segmentLength",
           "package": "hogg",
@@ -1546,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epage index (NOT seqno) of this segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "segmentPageIx",
           "package": "hogg",
@@ -1556,6 +1691,7 @@
         "index": {
           "description": "page index NOT seqno of this segment",
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "segmentPageIx",
           "package": "hogg",
@@ -1570,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a packet which spans a single page, ie. consists of only\n one segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "uncutPacket",
           "package": "hogg",
@@ -1580,6 +1717,7 @@
         "index": {
           "description": "Create packet which spans single page ie consists of only one segment",
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "uncutPacket",
           "normalized": "ByteString-\u003eOggTrack-\u003eGranulepos-\u003eOggPacket",
@@ -1596,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a page which contains only a single complete packet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Packet",
           "name": "uncutPage",
           "package": "hogg",
@@ -1606,6 +1745,7 @@
         "index": {
           "description": "Create page which contains only single complete packet",
           "hierarchy": "Codec Container Ogg Packet",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Packet",
           "name": "uncutPage",
           "normalized": "ByteString-\u003eOggTrack-\u003eGranulepos-\u003eOggPage",
@@ -1621,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "Page",
           "package": "hogg",
@@ -1629,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "Page",
           "package": "hogg",
@@ -1642,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "OggPage",
           "package": "hogg",
@@ -1650,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "OggPage",
           "package": "hogg",
@@ -1663,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "OggPage",
           "package": "hogg",
@@ -1672,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "OggPage",
           "package": "hogg",
@@ -1685,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageBOS",
           "package": "hogg",
@@ -1694,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageBOS",
           "package": "hogg",
@@ -1708,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the number of packets completed by this page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageCompletedPackets",
           "package": "hogg",
@@ -1718,6 +1867,7 @@
         "index": {
           "description": "Determine the number of packets completed by this page",
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageCompletedPackets",
           "normalized": "OggPage-\u003eInt",
@@ -1733,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageContinued",
           "package": "hogg",
@@ -1742,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageContinued",
           "package": "hogg",
@@ -1755,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageEOS",
           "package": "hogg",
@@ -1764,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageEOS",
           "package": "hogg",
@@ -1777,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageGranulepos",
           "package": "hogg",
@@ -1786,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageGranulepos",
           "package": "hogg",
@@ -1799,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageIncomplete",
           "package": "hogg",
@@ -1808,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageIncomplete",
           "package": "hogg",
@@ -1822,6 +1980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the keygranule of a page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageKeyGranule",
           "package": "hogg",
@@ -1832,6 +1991,7 @@
         "index": {
           "description": "Determine the keygranule of page",
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageKeyGranule",
           "normalized": "OggPage-\u003eMaybe Integer",
@@ -1848,6 +2008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the length in bytes of a page that would be written\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageLength",
           "package": "hogg",
@@ -1858,6 +2019,7 @@
         "index": {
           "description": "Determine the length in bytes of page that would be written",
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageLength",
           "normalized": "OggPage-\u003eInt",
@@ -1873,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageOffset",
           "package": "hogg",
@@ -1882,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageOffset",
           "package": "hogg",
@@ -1896,6 +2060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a list of data bytes into Ogg pages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageScan",
           "package": "hogg",
@@ -1906,6 +2071,7 @@
         "index": {
           "description": "Read list of data bytes into Ogg pages",
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageScan",
           "normalized": "ByteString-\u003e([OggTrack],[OggPage],ByteString)",
@@ -1921,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageSegments",
           "package": "hogg",
@@ -1930,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageSegments",
           "normalized": "[ByteString]",
@@ -1945,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageSeqno",
           "package": "hogg",
@@ -1954,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageSeqno",
           "package": "hogg",
@@ -1967,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageTrack",
           "package": "hogg",
@@ -1976,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageTrack",
           "package": "hogg",
@@ -1990,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a binary representation of an Ogg page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageWrite",
           "package": "hogg",
@@ -2000,6 +2173,7 @@
         "index": {
           "description": "Construct binary representation of an Ogg page",
           "hierarchy": "Codec Container Ogg Page",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Page",
           "name": "pageWrite",
           "normalized": "OggPage-\u003eByteString",
@@ -2015,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "RawPage",
           "package": "hogg",
@@ -2023,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "RawPage",
           "package": "hogg",
@@ -2036,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "OggRawPage",
           "package": "hogg",
@@ -2044,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "OggRawPage",
           "package": "hogg",
@@ -2057,6 +2235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "OggRawPage",
           "package": "hogg",
@@ -2066,6 +2245,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "OggRawPage",
           "package": "hogg",
@@ -2079,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "pageMarker",
           "package": "hogg",
@@ -2088,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "pageMarker",
           "package": "hogg",
@@ -2102,6 +2284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOgg version supported by this library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "pageVersion",
           "package": "hogg",
@@ -2112,6 +2295,7 @@
         "index": {
           "description": "Ogg version supported by this library",
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "pageVersion",
           "package": "hogg",
@@ -2125,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageBody",
           "package": "hogg",
@@ -2134,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageBody",
           "package": "hogg",
@@ -2147,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageBuild",
           "package": "hogg",
@@ -2156,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageBuild",
           "normalized": "ByteString-\u003e(OggRawPage,Int)",
@@ -2171,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageCRC",
           "package": "hogg",
@@ -2180,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageCRC",
           "package": "hogg",
@@ -2193,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageGranulepos",
           "package": "hogg",
@@ -2202,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageGranulepos",
           "package": "hogg",
@@ -2215,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageHType",
           "package": "hogg",
@@ -2224,6 +2417,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageHType",
           "package": "hogg",
@@ -2237,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageNumseg",
           "package": "hogg",
@@ -2246,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageNumseg",
           "package": "hogg",
@@ -2259,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageScan",
           "package": "hogg",
@@ -2268,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageScan",
           "normalized": "ByteString-\u003e[OggRawPage]",
@@ -2283,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageSegtab",
           "package": "hogg",
@@ -2292,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageSegtab",
           "normalized": "[Int]",
@@ -2307,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageSeqno",
           "package": "hogg",
@@ -2316,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageSeqno",
           "package": "hogg",
@@ -2329,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageSerialno",
           "package": "hogg",
@@ -2338,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageSerialno",
           "package": "hogg",
@@ -2351,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageVersion",
           "package": "hogg",
@@ -2360,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg RawPage",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.RawPage",
           "name": "rawPageVersion",
           "package": "hogg",
@@ -2373,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Serial",
           "name": "Serial",
           "package": "hogg",
@@ -2381,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Serial",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Serial",
           "name": "Serial",
           "package": "hogg",
@@ -2394,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Serial",
           "name": "Serial",
           "package": "hogg",
@@ -2402,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Serial",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Serial",
           "name": "Serial",
           "package": "hogg",
@@ -2416,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass: Serialled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Serial",
           "name": "Serialled",
           "package": "hogg",
@@ -2425,6 +2636,7 @@
         "index": {
           "description": "Typeclass Serialled",
           "hierarchy": "Codec Container Ogg Serial",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Serial",
           "name": "Serialled",
           "package": "hogg",
@@ -2439,6 +2651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemux\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Serial",
           "name": "demux",
           "package": "hogg",
@@ -2449,6 +2662,7 @@
         "index": {
           "description": "Demux",
           "hierarchy": "Codec Container Ogg Serial",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Serial",
           "name": "demux",
           "normalized": "[a]-\u003e[[a]]",
@@ -2464,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a serial number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Serial",
           "name": "genSerial",
           "package": "hogg",
@@ -2474,6 +2689,7 @@
         "index": {
           "description": "Generate serial number",
           "hierarchy": "Codec Container Ogg Serial",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Serial",
           "name": "genSerial",
           "package": "hogg",
@@ -2487,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Serial",
           "name": "serialOf",
           "package": "hogg",
@@ -2496,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Serial",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Serial",
           "name": "serialOf",
           "normalized": "a-\u003eSerial",
@@ -2511,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "Skeleton",
           "package": "hogg",
@@ -2519,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "Skeleton",
           "package": "hogg",
@@ -2532,6 +2752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "OggFisbone",
           "package": "hogg",
@@ -2540,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "OggFisbone",
           "package": "hogg",
@@ -2553,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "OggFishead",
           "package": "hogg",
@@ -2561,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "OggFishead",
           "package": "hogg",
@@ -2574,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "OggFisbone",
           "package": "hogg",
@@ -2583,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "OggFisbone",
           "package": "hogg",
@@ -2596,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "OggFishead",
           "package": "hogg",
@@ -2605,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "OggFishead",
           "package": "hogg",
@@ -2618,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "emptyFishead",
           "package": "hogg",
@@ -2627,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "emptyFishead",
           "package": "hogg",
@@ -2640,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneGranulerate",
           "package": "hogg",
@@ -2649,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneGranulerate",
           "package": "hogg",
@@ -2662,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneGranuleshift",
           "package": "hogg",
@@ -2671,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneGranuleshift",
           "package": "hogg",
@@ -2684,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneMsgHeaders",
           "package": "hogg",
@@ -2693,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneMsgHeaders",
           "package": "hogg",
@@ -2706,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneNHeaders",
           "package": "hogg",
@@ -2715,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneNHeaders",
           "package": "hogg",
@@ -2728,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisbonePreroll",
           "package": "hogg",
@@ -2737,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisbonePreroll",
           "package": "hogg",
@@ -2750,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneSerialno",
           "package": "hogg",
@@ -2759,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneSerialno",
           "package": "hogg",
@@ -2772,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneStartgranule",
           "package": "hogg",
@@ -2781,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneStartgranule",
           "package": "hogg",
@@ -2794,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneToPacket",
           "package": "hogg",
@@ -2803,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneToPacket",
           "normalized": "OggTrack-\u003eOggFisbone-\u003eOggPacket",
@@ -2818,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneToPage",
           "package": "hogg",
@@ -2827,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisboneToPage",
           "normalized": "OggTrack-\u003eOggFisbone-\u003eOggPage",
@@ -2842,6 +3090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisheadBasetime",
           "package": "hogg",
@@ -2851,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisheadBasetime",
           "package": "hogg",
@@ -2864,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisheadPrestime",
           "package": "hogg",
@@ -2873,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisheadPrestime",
           "package": "hogg",
@@ -2886,6 +3138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisheadToPacket",
           "package": "hogg",
@@ -2895,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisheadToPacket",
           "normalized": "OggTrack-\u003eOggFishead-\u003eOggPacket",
@@ -2910,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisheadToPage",
           "package": "hogg",
@@ -2919,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "fisheadToPage",
           "normalized": "OggTrack-\u003eOggFishead-\u003eOggPage",
@@ -2934,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "packetToFisbone",
           "package": "hogg",
@@ -2943,6 +3200,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "packetToFisbone",
           "normalized": "OggPacket-\u003eMaybe OggFisbone",
@@ -2958,6 +3216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "packetToFishead",
           "package": "hogg",
@@ -2967,6 +3226,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "packetToFishead",
           "normalized": "OggPacket-\u003eMaybe OggFishead",
@@ -2982,6 +3242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "pageToFisbone",
           "package": "hogg",
@@ -2991,6 +3252,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "pageToFisbone",
           "normalized": "OggPage-\u003eMaybe OggFisbone",
@@ -3006,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "pageToFishead",
           "package": "hogg",
@@ -3015,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "pageToFishead",
           "normalized": "OggPage-\u003eMaybe OggFishead",
@@ -3031,6 +3295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an OggFisbone from a given OggTrack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "trackToFisbone",
           "package": "hogg",
@@ -3041,6 +3306,7 @@
         "index": {
           "description": "Create an OggFisbone from given OggTrack",
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "trackToFisbone",
           "normalized": "OggTrack-\u003eMaybe OggFisbone",
@@ -3057,6 +3323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a list of OggFisbones from a list of OggTracks, not including\n | any OggTracks with unknown ContentType or Granulerate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "tracksToFisbones",
           "package": "hogg",
@@ -3067,6 +3334,7 @@
         "index": {
           "description": "Create list of OggFisbones from list of OggTracks not including any OggTracks with unknown ContentType or Granulerate",
           "hierarchy": "Codec Container Ogg Skeleton",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Skeleton",
           "name": "tracksToFisbones",
           "normalized": "[OggTrack]-\u003e[OggFisbone]",
@@ -3082,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Sort",
           "name": "Sort",
           "package": "hogg",
@@ -3090,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Sort",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Sort",
           "name": "Sort",
           "package": "hogg",
@@ -3103,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Sort",
           "name": "merge",
           "package": "hogg",
@@ -3112,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Sort",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Sort",
           "name": "merge",
           "normalized": "[[OggPage]]-\u003e[OggPage]",
@@ -3126,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Sort",
           "name": "sort",
           "package": "hogg",
@@ -3135,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Sort",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Sort",
           "name": "sort",
           "normalized": "[OggPage]-\u003e[OggPage]",
@@ -3149,6 +3423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "TimeScheme",
           "package": "hogg",
@@ -3157,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "TimeScheme",
           "package": "hogg",
@@ -3170,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "TimeScheme",
           "package": "hogg",
@@ -3178,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "TimeScheme",
           "package": "hogg",
@@ -3191,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "TimeScheme",
           "package": "hogg",
@@ -3200,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "TimeScheme",
           "package": "hogg",
@@ -3214,6 +3494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuess the TimeScheme by rate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "guessTimeScheme",
           "package": "hogg",
@@ -3224,6 +3505,7 @@
         "index": {
           "description": "Guess the TimeScheme by rate",
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "guessTimeScheme",
           "normalized": "Rational-\u003eMaybe TimeScheme",
@@ -3239,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "npt",
           "package": "hogg",
@@ -3248,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "npt",
           "package": "hogg",
@@ -3260,6 +3544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte24",
           "package": "hogg",
@@ -3269,6 +3554,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte24",
           "package": "hogg",
@@ -3281,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte24drop",
           "package": "hogg",
@@ -3290,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte24drop",
           "package": "hogg",
@@ -3302,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte25",
           "package": "hogg",
@@ -3311,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte25",
           "package": "hogg",
@@ -3323,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte25drop",
           "package": "hogg",
@@ -3332,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte25drop",
           "package": "hogg",
@@ -3344,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte30",
           "package": "hogg",
@@ -3353,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte30",
           "package": "hogg",
@@ -3365,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte30drop",
           "package": "hogg",
@@ -3374,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte30drop",
           "package": "hogg",
@@ -3386,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte50",
           "package": "hogg",
@@ -3395,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte50",
           "package": "hogg",
@@ -3407,6 +3705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte60",
           "package": "hogg",
@@ -3416,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte60",
           "package": "hogg",
@@ -3428,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte60drop",
           "package": "hogg",
@@ -3437,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "smpte60drop",
           "package": "hogg",
@@ -3449,6 +3751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "timeSchemeName",
           "package": "hogg",
@@ -3458,6 +3761,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "timeSchemeName",
           "package": "hogg",
@@ -3471,6 +3775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "timeSchemeRate",
           "package": "hogg",
@@ -3480,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg TimeScheme",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.TimeScheme",
           "name": "timeSchemeRate",
           "package": "hogg",
@@ -3493,6 +3799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "Timestamp",
           "package": "hogg",
@@ -3501,6 +3808,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Timestamp",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "Timestamp",
           "package": "hogg",
@@ -3514,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "Timestamp",
           "package": "hogg",
@@ -3522,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Timestamp",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "Timestamp",
           "package": "hogg",
@@ -3535,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "Timestampable",
           "package": "hogg",
@@ -3543,6 +3854,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Timestamp",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "Timestampable",
           "package": "hogg",
@@ -3556,6 +3868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "Timestamp",
           "package": "hogg",
@@ -3565,6 +3878,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Timestamp",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "Timestamp",
           "package": "hogg",
@@ -3578,6 +3892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "before",
           "package": "hogg",
@@ -3587,6 +3902,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Timestamp",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "before",
           "normalized": "Maybe Timestamp-\u003ea-\u003eBool",
@@ -3601,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "between",
           "package": "hogg",
@@ -3610,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Timestamp",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "between",
           "normalized": "Maybe Timestamp-\u003eMaybe Timestamp-\u003e[a]-\u003e[a]",
@@ -3624,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "stamp",
           "package": "hogg",
@@ -3633,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Timestamp",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "stamp",
           "normalized": "(Integer,Integer)",
@@ -3647,6 +3967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "timestampOf",
           "package": "hogg",
@@ -3656,6 +3977,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Timestamp",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "timestampOf",
           "normalized": "a-\u003eMaybe Timestamp",
@@ -3671,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "zeroTimestamp",
           "package": "hogg",
@@ -3680,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Timestamp",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Timestamp",
           "name": "zeroTimestamp",
           "package": "hogg",
@@ -3693,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "Track",
           "package": "hogg",
@@ -3701,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "Track",
           "package": "hogg",
@@ -3715,6 +4041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass: ContentTypeImplied\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "ContentTypeImplied",
           "package": "hogg",
@@ -3724,6 +4051,7 @@
         "index": {
           "description": "Typeclass ContentTypeImplied",
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "ContentTypeImplied",
           "package": "hogg",
@@ -3737,6 +4065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "OggTrack",
           "package": "hogg",
@@ -3745,6 +4074,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "OggTrack",
           "package": "hogg",
@@ -3758,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "OggTrack",
           "package": "hogg",
@@ -3767,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "OggTrack",
           "package": "hogg",
@@ -3780,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "bosToTrack",
           "package": "hogg",
@@ -3789,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "bosToTrack",
           "normalized": "Serial-\u003eByteString-\u003eOggTrack",
@@ -3804,6 +4138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "contentTypeImplies",
           "package": "hogg",
@@ -3813,6 +4148,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "contentTypeImplies",
           "normalized": "[OggTrack]-\u003eContentType-\u003ea-\u003eBool",
@@ -3828,6 +4164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "gpExplain",
           "package": "hogg",
@@ -3837,6 +4174,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "gpExplain",
           "normalized": "Granulepos-\u003eOggTrack-\u003eString",
@@ -3853,6 +4191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a granulepos by its track's granuleshift\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "gpSplit",
           "package": "hogg",
@@ -3863,6 +4202,7 @@
         "index": {
           "description": "Split granulepos by its track granuleshift",
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "gpSplit",
           "normalized": "Granulepos-\u003eOggTrack-\u003eMaybe(Integer,Integer)",
@@ -3879,6 +4219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a granluepos to a count of granules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "gpToGranules",
           "package": "hogg",
@@ -3889,6 +4230,7 @@
         "index": {
           "description": "Convert granluepos to count of granules",
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "gpToGranules",
           "normalized": "Granulepos-\u003eOggTrack-\u003eMaybe Integer",
@@ -3905,6 +4247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a granulepos to a timestamp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "gpToTimestamp",
           "package": "hogg",
@@ -3915,6 +4258,7 @@
         "index": {
           "description": "Convert granulepos to timestamp",
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "gpToTimestamp",
           "normalized": "Granulepos-\u003eOggTrack-\u003eMaybe Timestamp",
@@ -3931,6 +4275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA new track, with a given serialno\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "newTrack",
           "package": "hogg",
@@ -3941,6 +4286,7 @@
         "index": {
           "description": "new track with given serialno",
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "newTrack",
           "normalized": "Serial-\u003eOggTrack",
@@ -3957,6 +4303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe null track\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "nullTrack",
           "package": "hogg",
@@ -3967,6 +4314,7 @@
         "index": {
           "description": "The null track",
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "nullTrack",
           "package": "hogg",
@@ -3980,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "trackGranulerate",
           "package": "hogg",
@@ -3989,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "trackGranulerate",
           "package": "hogg",
@@ -4002,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "trackGranuleshift",
           "package": "hogg",
@@ -4011,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "trackGranuleshift",
           "package": "hogg",
@@ -4024,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "trackHeaders",
           "package": "hogg",
@@ -4033,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "trackHeaders",
           "package": "hogg",
@@ -4046,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "trackMetadata",
           "package": "hogg",
@@ -4055,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "trackMetadata",
           "package": "hogg",
@@ -4068,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "trackSerialno",
           "package": "hogg",
@@ -4077,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "trackSerialno",
           "package": "hogg",
@@ -4090,6 +4448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:02 UTC 2014",
           "module": "Codec.Container.Ogg.Track",
           "name": "trackType",
           "package": "hogg",
@@ -4099,6 +4458,7 @@
         },
         "index": {
           "hierarchy": "Codec Container Ogg Track",
+          "indexed": "2014-03-11T18:43:02",
           "module": "Codec.Container.Ogg.Track",
           "name": "trackType",
           "package": "hogg",

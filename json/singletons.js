@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "singletons"
+        "phrase": "singletons",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines functions and datatypes relating to the singleton for \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e,\n including a singletons version of all the definitions in \u003ccode\u003eData.Bool\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBecause many of these definitions are produced by Template Haskell,\n it is not possible to create proper Haddock documentation. Please look\n up the corresponding operation in \u003ccode\u003eData.Bool\u003c/code\u003e. Also, please excuse\n the apparent repeated variable names. This is due to an interaction\n between Template Haskell and Haddock.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Bool",
           "name": "Bool",
           "package": "singletons",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Defines functions and datatypes relating to the singleton for Bool including singletons version of all the definitions in Data.Bool Because many of these definitions are produced by Template Haskell it is not possible to create proper Haddock documentation Please look up the corresponding operation in Data.Bool Also please excuse the apparent repeated variable names This is due to an interaction between Template Haskell and Haddock",
           "hierarchy": "Data Singletons Bool",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Bool",
           "name": "Bool",
           "package": "singletons",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Bool",
           "name": ":||",
           "package": "singletons",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Bool",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Bool",
           "name": ":||",
           "package": "singletons",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Bool",
           "name": ":&&",
           "package": "singletons",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Bool",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Bool",
           "name": ":&&",
           "package": "singletons",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Bool",
           "name": "Bool_",
           "package": "singletons",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Bool",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Bool",
           "name": "Bool_",
           "package": "singletons",
@@ -150,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Bool",
           "name": "Otherwise",
           "package": "singletons",
@@ -158,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Bool",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Bool",
           "name": "Otherwise",
           "package": "singletons",
@@ -171,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Bool",
           "name": "SBool",
           "package": "singletons",
@@ -179,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Bool",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Bool",
           "name": "SBool",
           "package": "singletons",
@@ -264,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Bool",
           "name": "sBool_",
           "package": "singletons",
@@ -273,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Bool",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Bool",
           "name": "sBool_",
           "normalized": "a b b c Sing b-\u003eSing b-\u003eSing b-\u003eSing(Bool_ b b b)",
@@ -340,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Bool",
           "name": "sOtherwise",
           "package": "singletons",
@@ -349,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Bool",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Bool",
           "name": "sOtherwise",
           "package": "singletons",
@@ -363,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis file implements \u003ccode\u003e\u003ca\u003esingletonStar\u003c/a\u003e\u003c/code\u003e, which generates a datatype \u003ccode\u003eRep\u003c/code\u003e and associated\n singleton from a list of types. The promoted version of \u003ccode\u003eRep\u003c/code\u003e is kind \u003ccode\u003e*\u003c/code\u003e and the\n Haskell types themselves. This is still very experimental, so expect unusual\n results!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.CustomStar",
           "name": "CustomStar",
           "package": "singletons",
@@ -372,6 +389,7 @@
         "index": {
           "description": "This file implements singletonStar which generates datatype Rep and associated singleton from list of types The promoted version of Rep is kind and the Haskell types themselves This is still very experimental so expect unusual results",
           "hierarchy": "Data Singletons CustomStar",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.CustomStar",
           "name": "CustomStar",
           "package": "singletons",
@@ -386,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a representation and singleton for the collection of types given.\n\u003c/p\u003e\u003cp\u003eA datatype \u003ccode\u003eRep\u003c/code\u003e is created, with one constructor per type in the declared\n universe. When this type is promoted by the singletons library, the\n constructors become full types in \u003ccode\u003e*\u003c/code\u003e, not just promoted data constructors.\n\u003c/p\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre\u003e $(singletonStar [''Nat, ''Bool, ''Maybe])\n\u003c/pre\u003e\u003cp\u003egenerates the following:\n\u003c/p\u003e\u003cpre\u003e data Rep = Nat | Bool | Maybe Rep deriving (Eq, Show, Read)\n\u003c/pre\u003e\u003cp\u003eand its singleton. However, because \u003ccode\u003eRep\u003c/code\u003e is promoted to \u003ccode\u003e*\u003c/code\u003e, the singleton\n is perhaps slightly unexpected:\n\u003c/p\u003e\u003cpre\u003e data instance Sing (a :: *) where\n   SNat :: Sing Nat\n   SBool :: Sing Bool\n   SMaybe :: SingRep a =\u003e Sing a -\u003e Sing (Maybe a)\n\u003c/pre\u003e\u003cp\u003eThe unexpected part is that \u003ccode\u003eNat\u003c/code\u003e, \u003ccode\u003eBool\u003c/code\u003e, and \u003ccode\u003eMaybe\u003c/code\u003e above are the real \u003ccode\u003eNat\u003c/code\u003e,\n \u003ccode\u003eBool\u003c/code\u003e, and \u003ccode\u003eMaybe\u003c/code\u003e, not just promoted data constructors.\n\u003c/p\u003e\u003cp\u003ePlease note that this function is \u003cem\u003every\u003c/em\u003e experimental. Use at your own risk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.CustomStar",
           "name": "singletonStar",
           "package": "singletons",
@@ -395,6 +414,7 @@
         "index": {
           "description": "Produce representation and singleton for the collection of types given datatype Rep is created with one constructor per type in the declared universe When this type is promoted by the singletons library the constructors become full types in not just promoted data constructors For example singletonStar Nat Bool Maybe generates the following data Rep Nat Bool Maybe Rep deriving Eq Show Read and its singleton However because Rep is promoted to the singleton is perhaps slightly unexpected data instance Sing where SNat Sing Nat SBool Sing Bool SMaybe SingRep Sing Sing Maybe The unexpected part is that Nat Bool and Maybe above are the real Nat Bool and Maybe not just promoted data constructors Please note that this function is very experimental Use at your own risk",
           "hierarchy": "Data Singletons CustomStar",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.CustomStar",
           "name": "singletonStar",
           "normalized": "[Name]-\u003ea[Dec]",
@@ -411,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines the class \u003ccode\u003e\u003ca\u003eSDecide\u003c/a\u003e\u003c/code\u003e, allowing for decidable equality over singletons.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Decide",
           "name": "Decide",
           "package": "singletons",
@@ -420,6 +441,7 @@
         "index": {
           "description": "Defines the class SDecide allowing for decidable equality over singletons",
           "hierarchy": "Data Singletons Decide",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Decide",
           "name": "Decide",
           "package": "singletons",
@@ -434,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropositional equality. If \u003ccode\u003ea :~: b\u003c/code\u003e is inhabited by some terminating\n value, then the type \u003ccode\u003ea\u003c/code\u003e is the same as the type \u003ccode\u003eb\u003c/code\u003e. To use this equality\n in practice, pattern-match on the \u003ccode\u003ea :~: b\u003c/code\u003e to get out the \u003ccode\u003eRefl\u003c/code\u003e constructor;\n in the body of the pattern-match, the compiler knows that \u003ccode\u003ea ~ b\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSince: 4.7.0.0\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Decide",
           "name": ":~:",
           "package": "singletons",
@@ -442,6 +465,7 @@
         "index": {
           "description": "Propositional equality If is inhabited by some terminating value then the type is the same as the type To use this equality in practice pattern-match on the to get out the Refl constructor in the body of the pattern-match the compiler knows that Since",
           "hierarchy": "Data Singletons Decide",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Decide",
           "name": ":~:",
           "package": "singletons",
@@ -455,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDecision\u003c/a\u003e\u003c/code\u003e about a type \u003ccode\u003ea\u003c/code\u003e is either a proof of existence or a proof that \u003ccode\u003ea\u003c/code\u003e\n cannot exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Decide",
           "name": "Decision",
           "package": "singletons",
@@ -464,6 +489,7 @@
         "index": {
           "description": "Decision about type is either proof of existence or proof that cannot exist",
           "hierarchy": "Data Singletons Decide",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Decide",
           "name": "Decision",
           "package": "singletons",
@@ -478,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBecause we can never create a value of type \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e, a function that type-checks\n at \u003ccode\u003ea -\u003e Void\u003c/code\u003e shows that objects of type \u003ccode\u003ea\u003c/code\u003e can never exist. Thus, we say that\n \u003ccode\u003ea\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eRefuted\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Decide",
           "name": "Refuted",
           "package": "singletons",
@@ -487,6 +514,7 @@
         "index": {
           "description": "Because we can never create value of type Void function that type-checks at Void shows that objects of type can never exist Thus we say that is Refuted",
           "hierarchy": "Data Singletons Decide",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Decide",
           "name": "Refuted",
           "package": "singletons",
@@ -501,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMembers of the \u003ccode\u003e\u003ca\u003eSDecide\u003c/a\u003e\u003c/code\u003e \u003ca\u003ekind\u003c/a\u003e class support decidable equality. Instances\n of this class are generated alongside singleton definitions for datatypes that\n derive an \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Decide",
           "name": "SDecide",
           "package": "singletons",
@@ -510,6 +539,7 @@
         "index": {
           "description": "Members of the SDecide kind class support decidable equality Instances of this class are generated alongside singleton definitions for datatypes that derive an Eq instance",
           "hierarchy": "Data Singletons Decide",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Decide",
           "name": "SDecide",
           "package": "singletons",
@@ -524,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logically uninhabited data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Decide",
           "name": "Void",
           "package": "singletons",
@@ -533,6 +564,7 @@
         "index": {
           "description": "logically uninhabited data type",
           "hierarchy": "Data Singletons Decide",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Decide",
           "name": "Void",
           "package": "singletons",
@@ -547,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a proof or disproof of equality, given two singletons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Decide",
           "name": "(%~)",
           "package": "singletons",
@@ -557,6 +590,7 @@
         "index": {
           "description": "Compute proof or disproof of equality given two singletons",
           "hierarchy": "Data Singletons Decide",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Decide",
           "name": "(%~) %~",
           "normalized": "a b c Sing b-\u003eSing d-\u003eDecision(b d)",
@@ -644,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines functions and datatypes relating to the singleton for \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e,\n including a singletons version of all the definitions in \u003ccode\u003eData.Either\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBecause many of these definitions are produced by Template Haskell,\n it is not possible to create proper Haddock documentation. Please look\n up the corresponding operation in \u003ccode\u003eData.Either\u003c/code\u003e. Also, please excuse\n the apparent repeated variable names. This is due to an interaction\n between Template Haskell and Haddock.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Either",
           "name": "Either",
           "package": "singletons",
@@ -653,6 +688,7 @@
         "index": {
           "description": "Defines functions and datatypes relating to the singleton for Either including singletons version of all the definitions in Data.Either Because many of these definitions are produced by Template Haskell it is not possible to create proper Haddock documentation Please look up the corresponding operation in Data.Either Also please excuse the apparent repeated variable names This is due to an interaction between Template Haskell and Haddock",
           "hierarchy": "Data Singletons Either",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Either",
           "name": "Either",
           "package": "singletons",
@@ -688,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Either",
           "name": "IsLeft",
           "package": "singletons",
@@ -696,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Either",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Either",
           "name": "IsLeft",
           "package": "singletons",
@@ -709,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Either",
           "name": "IsRight",
           "package": "singletons",
@@ -717,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Either",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Either",
           "name": "IsRight",
           "package": "singletons",
@@ -730,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Either",
           "name": "Lefts",
           "package": "singletons",
@@ -738,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Either",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Either",
           "name": "Lefts",
           "package": "singletons",
@@ -751,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Either",
           "name": "PartitionEithers",
           "package": "singletons",
@@ -759,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Either",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Either",
           "name": "PartitionEithers",
           "package": "singletons",
@@ -772,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Either",
           "name": "Rights",
           "package": "singletons",
@@ -780,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Either",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Either",
           "name": "Rights",
           "package": "singletons",
@@ -793,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Either",
           "name": "SEither",
           "package": "singletons",
@@ -801,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Either",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Either",
           "name": "SEither",
           "package": "singletons",
@@ -839,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Either",
           "name": "sIsLeft",
           "package": "singletons",
@@ -848,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Either",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Either",
           "name": "sIsLeft",
           "normalized": "a b Sing c-\u003eSing(IsLeft c)",
@@ -863,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Either",
           "name": "sIsRight",
           "package": "singletons",
@@ -872,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Either",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Either",
           "name": "sIsRight",
           "normalized": "a b Sing c-\u003eSing(IsRight c)",
@@ -887,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Either",
           "name": "sLefts",
           "package": "singletons",
@@ -896,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Either",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Either",
           "name": "sLefts",
           "normalized": "a b Sing c-\u003eSing(Lefts c)",
@@ -911,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Either",
           "name": "sPartitionEithers",
           "package": "singletons",
@@ -920,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Either",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Either",
           "name": "sPartitionEithers",
           "normalized": "a b Sing c-\u003eSing(PartitionEithers c)",
@@ -935,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Either",
           "name": "sRights",
           "package": "singletons",
@@ -944,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Either",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Either",
           "name": "sRights",
           "normalized": "a b Sing c-\u003eSing(Rights c)",
@@ -960,6 +1018,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines the SEq singleton version of the Eq type class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Eq",
           "name": "Eq",
           "package": "singletons",
@@ -969,6 +1028,7 @@
         "index": {
           "description": "Defines the SEq singleton version of the Eq type class",
           "hierarchy": "Data Singletons Eq",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Eq",
           "name": "Eq",
           "package": "singletons",
@@ -1007,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Eq",
           "name": ":/=",
           "package": "singletons",
@@ -1015,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Eq",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Eq",
           "name": ":/=",
           "package": "singletons",
@@ -1028,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA re-export of the type-level \u003ccode\u003e(==)\u003c/code\u003e that conforms to the singletons naming\n convention.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Eq",
           "name": ":==",
           "package": "singletons",
@@ -1037,6 +1100,7 @@
         "index": {
           "description": "re-export of the type-level that conforms to the singletons naming convention",
           "hierarchy": "Data Singletons Eq",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Eq",
           "name": ":==",
           "package": "singletons",
@@ -1050,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe singleton analogue of \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e. Unlike the definition for \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e, it is required\n that instances define a body for '(%:==)'. You may also supply a body for '(%:/=)'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Eq",
           "name": "SEq",
           "package": "singletons",
@@ -1059,6 +1124,7 @@
         "index": {
           "description": "The singleton analogue of Eq Unlike the definition for Eq it is required that instances define body for You may also supply body for",
           "hierarchy": "Data Singletons Eq",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Eq",
           "name": "SEq",
           "package": "singletons",
@@ -1073,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean disequality on singletons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Eq",
           "name": "(%:/=)",
           "package": "singletons",
@@ -1083,6 +1150,7 @@
         "index": {
           "description": "Boolean disequality on singletons",
           "hierarchy": "Data Singletons Eq",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Eq",
           "name": "(%:/=) %:/=",
           "normalized": "a b c Sing b-\u003eSing d-\u003eSing(b d)",
@@ -1098,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean equality on singletons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Eq",
           "name": "(%:==)",
           "package": "singletons",
@@ -1108,6 +1177,7 @@
         "index": {
           "description": "Boolean equality on singletons",
           "hierarchy": "Data Singletons Eq",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Eq",
           "name": "(%:==) %:==",
           "normalized": "a b c Sing b-\u003eSing d-\u003eSing(b d)",
@@ -1123,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines functions and datatypes relating to the singleton for '[]',\n including a singletons version of a few of the definitions in \u003ccode\u003eData.List\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBecause many of these definitions are produced by Template Haskell,\n it is not possible to create proper Haddock documentation. Please look\n up the corresponding operation in \u003ccode\u003eData.List\u003c/code\u003e. Also, please excuse\n the apparent repeated variable names. This is due to an interaction\n between Template Haskell and Haddock.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.List",
           "name": "List",
           "package": "singletons",
@@ -1132,6 +1203,7 @@
         "index": {
           "description": "Defines functions and datatypes relating to the singleton for including singletons version of few of the definitions in Data.List Because many of these definitions are produced by Template Haskell it is not possible to create proper Haddock documentation Please look up the corresponding operation in Data.List Also please excuse the apparent repeated variable names This is due to an interaction between Template Haskell and Haddock",
           "hierarchy": "Data Singletons List",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.List",
           "name": "List",
           "package": "singletons",
@@ -1188,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.List",
           "name": "Reverse",
           "package": "singletons",
@@ -1196,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons List",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.List",
           "name": "Reverse",
           "package": "singletons",
@@ -1209,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.List",
           "name": "SList",
           "package": "singletons",
@@ -1217,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons List",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.List",
           "name": "SList",
           "package": "singletons",
@@ -1276,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.List",
           "name": "sHead",
           "package": "singletons",
@@ -1285,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons List",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.List",
           "name": "sHead",
           "normalized": "a b Sing c-\u003eSing(Head c)",
@@ -1300,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.List",
           "name": "sReverse",
           "package": "singletons",
@@ -1309,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons List",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.List",
           "name": "sReverse",
           "normalized": "a b Sing c-\u003eSing(Reverse c)",
@@ -1324,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.List",
           "name": "sTail",
           "package": "singletons",
@@ -1333,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons List",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.List",
           "name": "sTail",
           "normalized": "a b Sing c-\u003eSing(Tail c)",
@@ -1349,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines functions and datatypes relating to the singleton for \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e,\n including a singletons version of all the definitions in \u003ccode\u003eData.Maybe\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBecause many of these definitions are produced by Template Haskell,\n it is not possible to create proper Haddock documentation. Please look\n up the corresponding operation in \u003ccode\u003eData.Maybe\u003c/code\u003e. Also, please excuse\n the apparent repeated variable names. This is due to an interaction\n between Template Haskell and Haddock.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "Maybe",
           "package": "singletons",
@@ -1358,6 +1441,7 @@
         "index": {
           "description": "Defines functions and datatypes relating to the singleton for Maybe including singletons version of all the definitions in Data.Maybe Because many of these definitions are produced by Template Haskell it is not possible to create proper Haddock documentation Please look up the corresponding operation in Data.Maybe Also please excuse the apparent repeated variable names This is due to an interaction between Template Haskell and Haddock",
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "Maybe",
           "package": "singletons",
@@ -1371,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "CatMaybes",
           "package": "singletons",
@@ -1379,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "CatMaybes",
           "package": "singletons",
@@ -1392,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "FromJust",
           "package": "singletons",
@@ -1400,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "FromJust",
           "package": "singletons",
@@ -1413,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "FromMaybe",
           "package": "singletons",
@@ -1421,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "FromMaybe",
           "package": "singletons",
@@ -1434,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "IsJust",
           "package": "singletons",
@@ -1442,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "IsJust",
           "package": "singletons",
@@ -1455,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "IsNothing",
           "package": "singletons",
@@ -1463,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "IsNothing",
           "package": "singletons",
@@ -1476,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "ListToMaybe",
           "package": "singletons",
@@ -1484,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "ListToMaybe",
           "package": "singletons",
@@ -1497,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "MapMaybe",
           "package": "singletons",
@@ -1505,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "MapMaybe",
           "package": "singletons",
@@ -1518,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "MaybeToList",
           "package": "singletons",
@@ -1526,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "MaybeToList",
           "package": "singletons",
@@ -1561,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "SMaybe",
           "package": "singletons",
@@ -1569,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "SMaybe",
           "package": "singletons",
@@ -1582,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "sCatMaybes",
           "package": "singletons",
@@ -1591,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "sCatMaybes",
           "normalized": "a b Sing c-\u003eSing(CatMaybes c)",
@@ -1606,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "sFromJust",
           "package": "singletons",
@@ -1615,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "sFromJust",
           "normalized": "a b Sing c-\u003eSing(FromJust c)",
@@ -1630,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "sFromMaybe",
           "package": "singletons",
@@ -1639,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "sFromMaybe",
           "normalized": "a b c Sing b-\u003eSing b-\u003eSing(FromMaybe b b)",
@@ -1654,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "sIsJust",
           "package": "singletons",
@@ -1663,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "sIsJust",
           "normalized": "a b Sing c-\u003eSing(IsJust c)",
@@ -1678,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "sIsNothing",
           "package": "singletons",
@@ -1687,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "sIsNothing",
           "normalized": "a b Sing c-\u003eSing(IsNothing c)",
@@ -1702,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "sListToMaybe",
           "package": "singletons",
@@ -1711,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "sListToMaybe",
           "normalized": "a b Sing c-\u003eSing(ListToMaybe c)",
@@ -1726,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "sMapMaybe",
           "package": "singletons",
@@ -1735,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "sMapMaybe",
           "normalized": "a b c(a c Sing b-\u003eSing(b b))-\u003eSing b-\u003eSing(MapMaybe b b)",
@@ -1750,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Maybe",
           "name": "sMaybeToList",
           "package": "singletons",
@@ -1759,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Maybe",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Maybe",
           "name": "sMaybeToList",
           "normalized": "a b Sing c-\u003eSing(MaybeToList c)",
@@ -1800,6 +1918,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMimics the Haskell Prelude, but with singleton types. Includes the basic\n singleton definitions. Note: This is currently very incomplete!\n\u003c/p\u003e\u003cp\u003eBecause many of these definitions are produced by Template Haskell, it is\n not possible to create proper Haddock documentation. Also, please excuse\n the apparent repeated variable names. This is due to an interaction between\n Template Haskell and Haddock.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": "Prelude",
           "package": "singletons",
@@ -1809,6 +1928,7 @@
         "index": {
           "description": "Mimics the Haskell Prelude but with singleton types Includes the basic singleton definitions Note This is currently very incomplete Because many of these definitions are produced by Template Haskell it is not possible to create proper Haddock documentation Also please excuse the apparent repeated variable names This is due to an interaction between Template Haskell and Haddock",
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": "Prelude",
           "package": "singletons",
@@ -1822,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": ":||",
           "package": "singletons",
@@ -1830,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": ":||",
           "package": "singletons",
@@ -1842,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": ":&&",
           "package": "singletons",
@@ -1850,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": ":&&",
           "package": "singletons",
@@ -1906,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": "SBool",
           "package": "singletons",
@@ -1914,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": "SBool",
           "package": "singletons",
@@ -1927,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": "SEither",
           "package": "singletons",
@@ -1935,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": "SEither",
           "package": "singletons",
@@ -1948,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": "SList",
           "package": "singletons",
@@ -1956,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": "SList",
           "package": "singletons",
@@ -1969,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": "SMaybe",
           "package": "singletons",
@@ -1977,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": "SMaybe",
           "package": "singletons",
@@ -1990,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": "STuple0",
           "package": "singletons",
@@ -1998,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": "STuple0",
           "package": "singletons",
@@ -2011,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": "STuple2",
           "package": "singletons",
@@ -2019,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": "STuple2",
           "package": "singletons",
@@ -2032,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": "STuple3",
           "package": "singletons",
@@ -2040,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": "STuple3",
           "package": "singletons",
@@ -2053,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": "STuple4",
           "package": "singletons",
@@ -2061,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": "STuple4",
           "package": "singletons",
@@ -2074,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": "STuple5",
           "package": "singletons",
@@ -2082,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": "STuple5",
           "package": "singletons",
@@ -2095,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": "STuple6",
           "package": "singletons",
@@ -2103,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": "STuple6",
           "package": "singletons",
@@ -2116,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Prelude",
           "name": "STuple7",
           "package": "singletons",
@@ -2124,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Prelude",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Prelude",
           "name": "STuple7",
           "package": "singletons",
@@ -2282,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains everything you need to derive your own singletons via\n Template Haskell.\n\u003c/p\u003e\u003cp\u003eTURN ON \u003ccode\u003e-XScopedTypeVariables\u003c/code\u003e IN YOUR MODULE IF YOU WANT THIS TO WORK.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "TH",
           "package": "singletons",
@@ -2291,6 +2438,7 @@
         "index": {
           "description": "This module contains everything you need to derive your own singletons via Template Haskell TURN ON XScopedTypeVariables IN YOUR MODULE IF YOU WANT THIS TO WORK",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "TH",
           "package": "singletons",
@@ -2305,6 +2453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropositional equality. If \u003ccode\u003ea :~: b\u003c/code\u003e is inhabited by some terminating\n value, then the type \u003ccode\u003ea\u003c/code\u003e is the same as the type \u003ccode\u003eb\u003c/code\u003e. To use this equality\n in practice, pattern-match on the \u003ccode\u003ea :~: b\u003c/code\u003e to get out the \u003ccode\u003eRefl\u003c/code\u003e constructor;\n in the body of the pattern-match, the compiler knows that \u003ccode\u003ea ~ b\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSince: 4.7.0.0\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": ":~:",
           "package": "singletons",
@@ -2313,6 +2462,7 @@
         "index": {
           "description": "Propositional equality If is inhabited by some terminating value then the type is the same as the type To use this equality in practice pattern-match on the to get out the Refl constructor in the body of the pattern-match the compiler knows that Since",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": ":~:",
           "package": "singletons",
@@ -2325,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": ":&&",
           "package": "singletons",
@@ -2333,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": ":&&",
           "package": "singletons",
@@ -2346,6 +2498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA re-export of the type-level \u003ccode\u003e(==)\u003c/code\u003e that conforms to the singletons naming\n convention.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": ":==",
           "package": "singletons",
@@ -2355,6 +2508,7 @@
         "index": {
           "description": "re-export of the type-level that conforms to the singletons naming convention",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": ":==",
           "package": "singletons",
@@ -2368,6 +2522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type constructor \u003ccode\u003eAny\u003c/code\u003e is type to which you can unsafely coerce any\n \tlifted type, and back.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e It is lifted, and hence represented by a pointer\n\u003c/li\u003e\u003cli\u003e It does not claim to be a \u003cem\u003edata\u003c/em\u003e type, and that's important for\n \t    the code generator, because the code gen may \u003cem\u003eenter\u003c/em\u003e a data value\n \t    but never enters a function value.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIt's also used to instantiate un-constrained type variables after type\n \tchecking.  For example, \u003ccode\u003elength\u003c/code\u003e has type\n\u003c/p\u003e\u003cpre\u003elength :: forall a. [a] -\u003e Int\u003c/pre\u003e\u003cp\u003eand the list datacon for the empty list has type\n\u003c/p\u003e\u003cpre\u003e[] :: forall a. [a]\u003c/pre\u003e\u003cp\u003eIn order to compose these two terms as \u003ccode\u003elength []\u003c/code\u003e a type\n \tapplication is required, but there is no constraint on the\n \tchoice.  In this situation GHC uses \u003ccode\u003eAny\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003elength (Any *) ([] (Any *))\u003c/pre\u003e\u003cp\u003eNote that \u003ccode\u003eAny\u003c/code\u003e is kind polymorphic, and takes a kind \u003ccode\u003ek\u003c/code\u003e as its\n         first argument. The kind of \u003ccode\u003eAny\u003c/code\u003e is thus \u003ccode\u003eforall k. k -\u003e k\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "Any",
           "package": "singletons",
@@ -2376,6 +2531,7 @@
         "index": {
           "description": "The type constructor Any is type to which you can unsafely coerce any lifted type and back It is lifted and hence represented by pointer It does not claim to be data type and that important for the code generator because the code gen may enter data value but never enters function value It also used to instantiate un-constrained type variables after type checking For example length has type length forall Int and the list datacon for the empty list has type forall In order to compose these two terms as length type application is required but there is no constraint on the choice In this situation GHC uses Any length Any Any Note that Any is kind polymorphic and takes kind as its first argument The kind of Any is thus forall",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "Any",
           "package": "singletons",
@@ -2390,6 +2546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDecision\u003c/a\u003e\u003c/code\u003e about a type \u003ccode\u003ea\u003c/code\u003e is either a proof of existence or a proof that \u003ccode\u003ea\u003c/code\u003e\n cannot exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "Decision",
           "package": "singletons",
@@ -2399,6 +2556,7 @@
         "index": {
           "description": "Decision about type is either proof of existence or proof that cannot exist",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "Decision",
           "package": "singletons",
@@ -2413,6 +2571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient abbreviation for \u003ccode\u003e\u003ca\u003eDemoteRep\u003c/a\u003e\u003c/code\u003e:\n \u003ccode\u003etype Demote (a :: k) = DemoteRep ('KProxy :: KProxy k)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "Demote",
           "package": "singletons",
@@ -2422,6 +2581,7 @@
         "index": {
           "description": "Convenient abbreviation for DemoteRep type Demote DemoteRep KProxy KProxy",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "Demote",
           "package": "singletons",
@@ -2436,6 +2596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concrete, promotable proxy type, for use at the kind level\n There are no instances for this because it is intended at the kind level only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "KProxy",
           "package": "singletons",
@@ -2444,6 +2605,7 @@
         "index": {
           "description": "concrete promotable proxy type for use at the kind level There are no instances for this because it is intended at the kind level only",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "KProxy",
           "package": "singletons",
@@ -2458,6 +2620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient synonym to refer to the kind of a type variable:\n \u003ccode\u003etype KindOf (a :: k) = ('KProxy :: KProxy k)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "KindOf",
           "package": "singletons",
@@ -2467,6 +2630,7 @@
         "index": {
           "description": "Convenient synonym to refer to the kind of type variable type KindOf KProxy KProxy",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "KindOf",
           "package": "singletons",
@@ -2481,6 +2645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBecause we can never create a value of type \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e, a function that type-checks\n at \u003ccode\u003ea -\u003e Void\u003c/code\u003e shows that objects of type \u003ccode\u003ea\u003c/code\u003e can never exist. Thus, we say that\n \u003ccode\u003ea\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eRefuted\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "Refuted",
           "package": "singletons",
@@ -2490,6 +2655,7 @@
         "index": {
           "description": "Because we can never create value of type Void function that type-checks at Void shows that objects of type can never exist Thus we say that is Refuted",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "Refuted",
           "package": "singletons",
@@ -2504,6 +2670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMembers of the \u003ccode\u003e\u003ca\u003eSDecide\u003c/a\u003e\u003c/code\u003e \u003ca\u003ekind\u003c/a\u003e class support decidable equality. Instances\n of this class are generated alongside singleton definitions for datatypes that\n derive an \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "SDecide",
           "package": "singletons",
@@ -2513,6 +2680,7 @@
         "index": {
           "description": "Members of the SDecide kind class support decidable equality Instances of this class are generated alongside singleton definitions for datatypes that derive an Eq instance",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "SDecide",
           "package": "singletons",
@@ -2527,6 +2695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe singleton analogue of \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e. Unlike the definition for \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e, it is required\n that instances define a body for '(%:==)'. You may also supply a body for '(%:/=)'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "SEq",
           "package": "singletons",
@@ -2536,6 +2705,7 @@
         "index": {
           "description": "The singleton analogue of Eq Unlike the definition for Eq it is required that instances define body for You may also supply body for",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "SEq",
           "package": "singletons",
@@ -2550,6 +2720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSingI\u003c/a\u003e\u003c/code\u003e constraint is essentially an implicitly-passed singleton.\n If you need to satisfy this constraint with an explicit singleton, please\n see \u003ccode\u003ewithSingI\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "SingI",
           "package": "singletons",
@@ -2559,6 +2730,7 @@
         "index": {
           "description": "SingI constraint is essentially an implicitly-passed singleton If you need to satisfy this constraint with an explicit singleton please see withSingI",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "SingI",
           "package": "singletons",
@@ -2573,6 +2745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eSingKind\u003c/a\u003e\u003c/code\u003e class is essentially a \u003cem\u003ekind\u003c/em\u003e class. It classifies all kinds\n for which singletons are defined. The class supports converting between a singleton\n type and the base (unrefined) type which it is built from.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "SingKind",
           "package": "singletons",
@@ -2582,6 +2755,7 @@
         "index": {
           "description": "The SingKind class is essentially kind class It classifies all kinds for which singletons are defined The class supports converting between singleton type and the base unrefined type which it is built from",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "SingKind",
           "package": "singletons",
@@ -2596,6 +2770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003cem\u003eexistentially-quantified\u003c/em\u003e singleton. This type is useful when you want a\n singleton type, but there is no way of knowing, at compile-time, what the type\n index will be. To make use of this type, you will generally have to use a\n pattern-match:\n\u003c/p\u003e\u003cpre\u003e foo :: Bool -\u003e ...\n foo b = case toSing b of\n           SomeSing sb -\u003e {- fancy dependently-typed code with sb -}\n\u003c/pre\u003e\u003cp\u003eAn example like the one above may be easier to write using \u003ccode\u003ewithSomeSing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "SomeSing",
           "package": "singletons",
@@ -2605,6 +2780,7 @@
         "index": {
           "description": "An existentially-quantified singleton This type is useful when you want singleton type but there is no way of knowing at compile-time what the type index will be To make use of this type you will generally have to use pattern-match foo Bool foo case toSing of SomeSing sb fancy dependently-typed code with sb An example like the one above may be easier to write using withSomeSing",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "SomeSing",
           "package": "singletons",
@@ -2619,6 +2795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logically uninhabited data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "Void",
           "package": "singletons",
@@ -2628,6 +2805,7 @@
         "index": {
           "description": "logically uninhabited data type",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "Void",
           "package": "singletons",
@@ -2642,6 +2820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a proof or disproof of equality, given two singletons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "(%~)",
           "package": "singletons",
@@ -2652,6 +2831,7 @@
         "index": {
           "description": "Compute proof or disproof of equality given two singletons",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "(%~) %~",
           "normalized": "a b c Sing b-\u003eSing d-\u003eDecision(b d)",
@@ -2667,6 +2847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean disequality on singletons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "(%:/=)",
           "package": "singletons",
@@ -2677,6 +2858,7 @@
         "index": {
           "description": "Boolean disequality on singletons",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "(%:/=) %:/=",
           "normalized": "a b c Sing b-\u003eSing d-\u003eSing(b d)",
@@ -2692,6 +2874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean equality on singletons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "(%:==)",
           "package": "singletons",
@@ -2702,6 +2885,7 @@
         "index": {
           "description": "Boolean equality on singletons",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "(%:==) %:==",
           "normalized": "a b c Sing b-\u003eSing d-\u003eSing(b d)",
@@ -2762,6 +2946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003ecases\u003c/a\u003e\u003c/code\u003e generates a case expression where each right-hand side\n is identical. This may be useful if the type-checker requires knowledge of which\n constructor is used to satisfy equality or type-class constraints, but where\n each constructor is treated the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "cases",
           "package": "singletons",
@@ -2771,6 +2956,7 @@
         "index": {
           "description": "The function cases generates case expression where each right-hand side is identical This may be useful if the type-checker requires knowledge of which constructor is used to satisfy equality or type-class constraints but where each constructor is treated the same",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "cases",
           "normalized": "Name-\u003ea Exp-\u003ea Exp-\u003ea Exp",
@@ -2786,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a singleton to its unrefined version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "fromSing",
           "package": "singletons",
@@ -2796,6 +2983,7 @@
         "index": {
           "description": "Convert singleton to its unrefined version",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "fromSing",
           "normalized": "a)-\u003eDemoteRep b",
@@ -2812,6 +3000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate singleton definitions from a type that is already defined.\n For example, the singletons package itself uses\n\u003c/p\u003e\u003cpre\u003e $(genSingletons [''Bool, ''Maybe, ''Either, ''[]])\n\u003c/pre\u003e\u003cp\u003eto generate singletons for Prelude types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "genSingletons",
           "package": "singletons",
@@ -2822,6 +3011,7 @@
         "index": {
           "description": "Generate singleton definitions from type that is already defined For example the singletons package itself uses genSingletons Bool Maybe Either to generate singletons for Prelude types",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "genSingletons",
           "normalized": "[Name]-\u003ea[Dec]",
@@ -2838,6 +3028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote every declaration given to the type level, retaining the originals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "promote",
           "package": "singletons",
@@ -2848,6 +3039,7 @@
         "index": {
           "description": "Promote every declaration given to the type level retaining the originals",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "promote",
           "normalized": "a[Dec]-\u003ea[Dec]",
@@ -2863,6 +3055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce an instance for '(:==)' (type-level equality) from the given type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "promoteEqInstance",
           "package": "singletons",
@@ -2873,6 +3066,7 @@
         "index": {
           "description": "Produce an instance for type-level equality from the given type",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "promoteEqInstance",
           "normalized": "Name-\u003ea[Dec]",
@@ -2889,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce instances for '(:==)' (type-level equality) from the given types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "promoteEqInstances",
           "package": "singletons",
@@ -2899,6 +3094,7 @@
         "index": {
           "description": "Produce instances for type-level equality from the given types",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "promoteEqInstances",
           "normalized": "[Name]-\u003ea[Dec]",
@@ -2915,6 +3111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote each declaration, discarding the originals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "promoteOnly",
           "package": "singletons",
@@ -2925,6 +3122,7 @@
         "index": {
           "description": "Promote each declaration discarding the originals",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "promoteOnly",
           "normalized": "a[Dec]-\u003ea[Dec]",
@@ -2941,6 +3139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce the singleton explicitly. You will likely need the \u003ccode\u003eScopedTypeVariables\u003c/code\u003e\n extension to use this method the way you want.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "sing",
           "package": "singletons",
@@ -2951,6 +3150,7 @@
         "index": {
           "description": "Produce the singleton explicitly You will likely need the ScopedTypeVariables extension to use this method the way you want",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "sing",
           "package": "singletons",
@@ -2964,6 +3164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate instance of SDecide for the given type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "singDecideInstance",
           "package": "singletons",
@@ -2974,6 +3175,7 @@
         "index": {
           "description": "Create instance of SDecide for the given type",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "singDecideInstance",
           "normalized": "Name-\u003ea[Dec]",
@@ -2990,6 +3192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate instances of \u003ccode\u003eSDecide\u003c/code\u003e for each type in the list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "singDecideInstances",
           "package": "singletons",
@@ -3000,6 +3203,7 @@
         "index": {
           "description": "Create instances of SDecide for each type in the list",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "singDecideInstances",
           "normalized": "[Name]-\u003ea[Dec]",
@@ -3016,6 +3220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate instance of \u003ccode\u003eSEq\u003c/code\u003e and type-level '(:==)' for the given type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "singEqInstance",
           "package": "singletons",
@@ -3026,6 +3231,7 @@
         "index": {
           "description": "Create instance of SEq and type-level for the given type",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "singEqInstance",
           "normalized": "Name-\u003ea[Dec]",
@@ -3042,6 +3248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate instances of \u003ccode\u003eSEq\u003c/code\u003e (only -- no instance for '(:==)', which \u003ccode\u003eSEq\u003c/code\u003e generally\n relies on) for the given type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "singEqInstanceOnly",
           "package": "singletons",
@@ -3052,6 +3259,7 @@
         "index": {
           "description": "Create instances of SEq only no instance for which SEq generally relies on for the given type",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "singEqInstanceOnly",
           "normalized": "Name-\u003ea[Dec]",
@@ -3068,6 +3276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate instances of \u003ccode\u003eSEq\u003c/code\u003e and type-level '(:==)' for each type in the list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "singEqInstances",
           "package": "singletons",
@@ -3078,6 +3287,7 @@
         "index": {
           "description": "Create instances of SEq and type-level for each type in the list",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "singEqInstances",
           "normalized": "[Name]-\u003ea[Dec]",
@@ -3094,6 +3304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate instances of \u003ccode\u003eSEq\u003c/code\u003e (only -- no instance for '(:==)', which \u003ccode\u003eSEq\u003c/code\u003e generally\n relies on) for each type in the list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "singEqInstancesOnly",
           "package": "singletons",
@@ -3104,6 +3315,7 @@
         "index": {
           "description": "Create instances of SEq only no instance for which SEq generally relies on for each type in the list",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "singEqInstancesOnly",
           "normalized": "[Name]-\u003ea[Dec]",
@@ -3120,6 +3332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake promoted and singleton versions of all declarations given, retaining\n the original declarations.\n See \u003ca\u003ehttp://www.cis.upenn.edu/~eir/packages/singletons/README.html\u003c/a\u003e for\n further explanation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "singletons",
           "package": "singletons",
@@ -3130,6 +3343,7 @@
         "index": {
           "description": "Make promoted and singleton versions of all declarations given retaining the original declarations See http www.cis.upenn.edu eir packages singletons README.html for further explanation",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "singletons",
           "normalized": "a[Dec]-\u003ea[Dec]",
@@ -3145,6 +3359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake promoted and singleton versions of all declarations given, discarding\n the original declarations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "singletonsOnly",
           "package": "singletons",
@@ -3155,6 +3370,7 @@
         "index": {
           "description": "Make promoted and singleton versions of all declarations given discarding the original declarations",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "singletonsOnly",
           "normalized": "a[Dec]-\u003ea[Dec]",
@@ -3171,6 +3387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an unrefined type to an existentially-quantified singleton type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TH",
           "name": "toSing",
           "package": "singletons",
@@ -3181,6 +3398,7 @@
         "index": {
           "description": "Convert an unrefined type to an existentially-quantified singleton type",
           "hierarchy": "Data Singletons TH",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TH",
           "name": "toSing",
           "normalized": "DemoteRep a-\u003eSomeSing a",
@@ -3197,6 +3415,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines functions and datatypes relating to the singleton for tuples,\n including a singletons version of all the definitions in \u003ccode\u003eData.Tuple\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBecause many of these definitions are produced by Template Haskell,\n it is not possible to create proper Haddock documentation. Please look\n up the corresponding operation in \u003ccode\u003eData.Tuple\u003c/code\u003e. Also, please excuse\n the apparent repeated variable names. This is due to an interaction\n between Template Haskell and Haddock.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Tuple",
           "name": "Tuple",
           "package": "singletons",
@@ -3206,6 +3425,7 @@
         "index": {
           "description": "Defines functions and datatypes relating to the singleton for tuples including singletons version of all the definitions in Data.Tuple Because many of these definitions are produced by Template Haskell it is not possible to create proper Haddock documentation Please look up the corresponding operation in Data.Tuple Also please excuse the apparent repeated variable names This is due to an interaction between Template Haskell and Haddock",
           "hierarchy": "Data Singletons Tuple",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Tuple",
           "name": "Tuple",
           "package": "singletons",
@@ -3219,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Tuple",
           "name": "STuple0",
           "package": "singletons",
@@ -3227,6 +3448,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Tuple",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Tuple",
           "name": "STuple0",
           "package": "singletons",
@@ -3240,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Tuple",
           "name": "STuple2",
           "package": "singletons",
@@ -3248,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Tuple",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Tuple",
           "name": "STuple2",
           "package": "singletons",
@@ -3261,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Tuple",
           "name": "STuple3",
           "package": "singletons",
@@ -3269,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Tuple",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Tuple",
           "name": "STuple3",
           "package": "singletons",
@@ -3282,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Tuple",
           "name": "STuple4",
           "package": "singletons",
@@ -3290,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Tuple",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Tuple",
           "name": "STuple4",
           "package": "singletons",
@@ -3303,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Tuple",
           "name": "STuple5",
           "package": "singletons",
@@ -3311,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Tuple",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Tuple",
           "name": "STuple5",
           "package": "singletons",
@@ -3324,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Tuple",
           "name": "STuple6",
           "package": "singletons",
@@ -3332,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Tuple",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Tuple",
           "name": "STuple6",
           "package": "singletons",
@@ -3345,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Tuple",
           "name": "STuple7",
           "package": "singletons",
@@ -3353,6 +3586,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Tuple",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Tuple",
           "name": "STuple7",
           "package": "singletons",
@@ -3366,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Tuple",
           "name": "Swap",
           "package": "singletons",
@@ -3374,6 +3609,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Tuple",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Tuple",
           "name": "Swap",
           "package": "singletons",
@@ -3387,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Tuple",
           "name": "sSwap",
           "package": "singletons",
@@ -3396,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons Tuple",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Tuple",
           "name": "sSwap",
           "normalized": "a b Sing c-\u003eSing(Swap c)",
@@ -3412,6 +3650,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines singleton instances making \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e the singleton for\n the kind \u003ccode\u003e*\u003c/code\u003e. The definitions don't fully line up with what is expected\n within the singletons library, so expect unusual results!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.TypeRepStar",
           "name": "TypeRepStar",
           "package": "singletons",
@@ -3421,6 +3660,7 @@
         "index": {
           "description": "This module defines singleton instances making Typeable the singleton for the kind The definitions don fully line up with what is expected within the singletons library so expect unusual results",
           "hierarchy": "Data Singletons TypeRepStar",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.TypeRepStar",
           "name": "TypeRepStar",
           "package": "singletons",
@@ -3435,6 +3675,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines and exports types that are useful when working with singletons.\n Some of these are re-exports from \u003ccode\u003eData.Type.Equality\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Types",
           "name": "Types",
           "package": "singletons",
@@ -3444,6 +3685,7 @@
         "index": {
           "description": "Defines and exports types that are useful when working with singletons Some of these are re-exports from Data.Type.Equality",
           "hierarchy": "Data Singletons Types",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Types",
           "name": "Types",
           "package": "singletons",
@@ -3458,6 +3700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDecision\u003c/a\u003e\u003c/code\u003e about a type \u003ccode\u003ea\u003c/code\u003e is either a proof of existence or a proof that \u003ccode\u003ea\u003c/code\u003e\n cannot exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Types",
           "name": "Decision",
           "package": "singletons",
@@ -3467,6 +3710,7 @@
         "index": {
           "description": "Decision about type is either proof of existence or proof that cannot exist",
           "hierarchy": "Data Singletons Types",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Types",
           "name": "Decision",
           "package": "singletons",
@@ -3481,6 +3725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBecause we can never create a value of type \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e, a function that type-checks\n at \u003ccode\u003ea -\u003e Void\u003c/code\u003e shows that objects of type \u003ccode\u003ea\u003c/code\u003e can never exist. Thus, we say that\n \u003ccode\u003ea\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eRefuted\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Types",
           "name": "Refuted",
           "package": "singletons",
@@ -3490,6 +3735,7 @@
         "index": {
           "description": "Because we can never create value of type Void function that type-checks at Void shows that objects of type can never exist Thus we say that is Refuted",
           "hierarchy": "Data Singletons Types",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Types",
           "name": "Refuted",
           "package": "singletons",
@@ -3504,6 +3750,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is a reimplementation of Edward Kmett's \u003ccode\u003evoid\u003c/code\u003e package.\n It is included within singletons to avoid depending on \u003ccode\u003evoid\u003c/code\u003e and all the\n packages that depends on (including \u003ccode\u003etext\u003c/code\u003e). If this causes problems for\n you (that singletons has its own \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e type), please let me (Richard Eisenberg)\n know at \u003ccode\u003eeir\u003c/code\u003e at \u003ccode\u003ecis.upenn.edu\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Void",
           "name": "Void",
           "package": "singletons",
@@ -3513,6 +3760,7 @@
         "index": {
           "description": "This module is reimplementation of Edward Kmett void package It is included within singletons to avoid depending on void and all the packages that depends on including text If this causes problems for you that singletons has its own Void type please let me Richard Eisenberg know at eir at cis.upenn.edu",
           "hierarchy": "Data Singletons Void",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Void",
           "name": "Void",
           "package": "singletons",
@@ -3527,6 +3775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logically uninhabited data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Void",
           "name": "Void",
           "package": "singletons",
@@ -3536,6 +3785,7 @@
         "index": {
           "description": "logically uninhabited data type",
           "hierarchy": "Data Singletons Void",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Void",
           "name": "Void",
           "package": "singletons",
@@ -3550,6 +3800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e values logically don't exist, this witnesses the logical\n reasoning tool of \"ex falso quodlibet\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Void",
           "name": "absurd",
           "package": "singletons",
@@ -3560,6 +3811,7 @@
         "index": {
           "description": "Since Void values logically don exist this witnesses the logical reasoning tool of ex falso quodlibet",
           "hierarchy": "Data Singletons Void",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Void",
           "name": "absurd",
           "normalized": "Void-\u003ea",
@@ -3575,6 +3827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e is uninhabited then any \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e that holds only values of type \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e\n is holding no values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Void",
           "name": "vacuous",
           "package": "singletons",
@@ -3585,6 +3838,7 @@
         "index": {
           "description": "If Void is uninhabited then any Functor that holds only values of type Void is holding no values",
           "hierarchy": "Data Singletons Void",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Void",
           "name": "vacuous",
           "normalized": "a Void-\u003ea b",
@@ -3600,6 +3854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e is uninhabited then any \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e that holds values of type \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e\n is holding no values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons.Void",
           "name": "vacuousM",
           "package": "singletons",
@@ -3610,6 +3865,7 @@
         "index": {
           "description": "If Void is uninhabited then any Monad that holds values of type Void is holding no values",
           "hierarchy": "Data Singletons Void",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons.Void",
           "name": "vacuousM",
           "normalized": "a Void-\u003ea b",
@@ -3625,6 +3881,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports the basic definitions to use singletons. For routine\n use, consider importing \u003ccode\u003e\u003ca\u003ePrelude\u003c/a\u003e\u003c/code\u003e, which exports constructors\n for singletons based on types in the \u003ccode\u003ePrelude\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou may also want to read\n \u003ca\u003ehttp://www.cis.upenn.edu/~eir/packages/singletons/README.html\u003c/a\u003e and the\n original paper presenting this library, available at\n \u003ca\u003ehttp://www.cis.upenn.edu/~eir/papers/2012/singletons/paper.pdf\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "Singletons",
           "package": "singletons",
@@ -3634,6 +3891,7 @@
         "index": {
           "description": "This module exports the basic definitions to use singletons For routine use consider importing Prelude which exports constructors for singletons based on types in the Prelude You may also want to read http www.cis.upenn.edu eir packages singletons README.html and the original paper presenting this library available at http www.cis.upenn.edu eir papers singletons paper.pdf",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "Singletons",
           "package": "singletons",
@@ -3648,6 +3906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient abbreviation for \u003ccode\u003e\u003ca\u003eDemoteRep\u003c/a\u003e\u003c/code\u003e:\n \u003ccode\u003etype Demote (a :: k) = DemoteRep ('KProxy :: KProxy k)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "Demote",
           "package": "singletons",
@@ -3657,6 +3916,7 @@
         "index": {
           "description": "Convenient abbreviation for DemoteRep type Demote DemoteRep KProxy KProxy",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "Demote",
           "package": "singletons",
@@ -3671,6 +3931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe promotion of \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "Error",
           "package": "singletons",
@@ -3680,6 +3941,7 @@
         "index": {
           "description": "The promotion of error",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "Error",
           "package": "singletons",
@@ -3694,6 +3956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concrete, promotable proxy type, for use at the kind level\n There are no instances for this because it is intended at the kind level only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "KProxy",
           "package": "singletons",
@@ -3702,6 +3965,7 @@
         "index": {
           "description": "concrete promotable proxy type for use at the kind level There are no instances for this because it is intended at the kind level only",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "KProxy",
           "package": "singletons",
@@ -3716,6 +3980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient synonym to refer to the kind of a type variable:\n \u003ccode\u003etype KindOf (a :: k) = ('KProxy :: KProxy k)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "KindOf",
           "package": "singletons",
@@ -3725,6 +3990,7 @@
         "index": {
           "description": "Convenient synonym to refer to the kind of type variable type KindOf KProxy KProxy",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "KindOf",
           "package": "singletons",
@@ -3739,6 +4005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concrete, poly-kinded proxy type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "Proxy",
           "package": "singletons",
@@ -3747,6 +4014,7 @@
         "index": {
           "description": "concrete poly-kinded proxy type",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "Proxy",
           "package": "singletons",
@@ -3761,6 +4029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSingI\u003c/a\u003e\u003c/code\u003e constraint is essentially an implicitly-passed singleton.\n If you need to satisfy this constraint with an explicit singleton, please\n see \u003ccode\u003ewithSingI\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "SingI",
           "package": "singletons",
@@ -3770,6 +4039,7 @@
         "index": {
           "description": "SingI constraint is essentially an implicitly-passed singleton If you need to satisfy this constraint with an explicit singleton please see withSingI",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "SingI",
           "package": "singletons",
@@ -3784,6 +4054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSingInstance\u003c/a\u003e\u003c/code\u003e wraps up a \u003ccode\u003e\u003ca\u003eSingI\u003c/a\u003e\u003c/code\u003e instance for explicit handling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "SingInstance",
           "package": "singletons",
@@ -3793,6 +4064,7 @@
         "index": {
           "description": "SingInstance wraps up SingI instance for explicit handling",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "SingInstance",
           "package": "singletons",
@@ -3807,6 +4079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eSingKind\u003c/a\u003e\u003c/code\u003e class is essentially a \u003cem\u003ekind\u003c/em\u003e class. It classifies all kinds\n for which singletons are defined. The class supports converting between a singleton\n type and the base (unrefined) type which it is built from.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "SingKind",
           "package": "singletons",
@@ -3816,6 +4089,7 @@
         "index": {
           "description": "The SingKind class is essentially kind class It classifies all kinds for which singletons are defined The class supports converting between singleton type and the base unrefined type which it is built from",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "SingKind",
           "package": "singletons",
@@ -3830,6 +4104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003cem\u003eexistentially-quantified\u003c/em\u003e singleton. This type is useful when you want a\n singleton type, but there is no way of knowing, at compile-time, what the type\n index will be. To make use of this type, you will generally have to use a\n pattern-match:\n\u003c/p\u003e\u003cpre\u003e foo :: Bool -\u003e ...\n foo b = case toSing b of\n           SomeSing sb -\u003e {- fancy dependently-typed code with sb -}\n\u003c/pre\u003e\u003cp\u003eAn example like the one above may be easier to write using \u003ccode\u003ewithSomeSing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "SomeSing",
           "package": "singletons",
@@ -3839,6 +4114,7 @@
         "index": {
           "description": "An existentially-quantified singleton This type is useful when you want singleton type but there is no way of knowing at compile-time what the type index will be To make use of this type you will generally have to use pattern-match foo Bool foo case toSing of SomeSing sb fancy dependently-typed code with sb An example like the one above may be easier to write using withSomeSing",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "SomeSing",
           "package": "singletons",
@@ -3852,6 +4128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "Proxy",
           "package": "singletons",
@@ -3860,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "Proxy",
           "package": "singletons",
@@ -3873,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "SingInstance",
           "package": "singletons",
@@ -3882,6 +4161,7 @@
         },
         "index": {
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "SingInstance",
           "package": "singletons",
@@ -3896,6 +4176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGHC 7.8 sometimes warns about incomplete pattern matches when no such\n patterns are possible, due to GADT constraints.\n See the bug report at \u003ca\u003ehttps://ghc.haskell.org/trac/ghc/ticket/3927\u003c/a\u003e.\n In such cases, it's useful to have a catch-all pattern that then has\n \u003ccode\u003e\u003ca\u003ebugInGHC\u003c/a\u003e\u003c/code\u003e as its right-hand side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "bugInGHC",
           "package": "singletons",
@@ -3906,6 +4187,7 @@
         "index": {
           "description": "GHC sometimes warns about incomplete pattern matches when no such patterns are possible due to GADT constraints See the bug report at https ghc.haskell.org trac ghc ticket In such cases it useful to have catch-all pattern that then has bugInGHC as its right-hand side",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "bugInGHC",
           "package": "singletons",
@@ -3920,6 +4202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a singleton to its unrefined version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "fromSing",
           "package": "singletons",
@@ -3930,6 +4213,7 @@
         "index": {
           "description": "Convert singleton to its unrefined version",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "fromSing",
           "normalized": "a)-\u003eDemoteRep b",
@@ -3946,6 +4230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe singleton for \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "sError",
           "package": "singletons",
@@ -3956,6 +4241,7 @@
         "index": {
           "description": "The singleton for error",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "sError",
           "normalized": "Symbol)-\u003ea",
@@ -3972,6 +4258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce the singleton explicitly. You will likely need the \u003ccode\u003eScopedTypeVariables\u003c/code\u003e\n extension to use this method the way you want.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "sing",
           "package": "singletons",
@@ -3982,6 +4269,7 @@
         "index": {
           "description": "Produce the singleton explicitly You will likely need the ScopedTypeVariables extension to use this method the way you want",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "sing",
           "package": "singletons",
@@ -3995,6 +4283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows creation of a singleton when a proxy is at hand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "singByProxy",
           "package": "singletons",
@@ -4005,6 +4294,7 @@
         "index": {
           "description": "Allows creation of singleton when proxy is at hand",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "singByProxy",
           "normalized": "a b-\u003eSing b",
@@ -4021,6 +4311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows creation of a singleton when a \u003ccode\u003eproxy#\u003c/code\u003e is at hand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "singByProxy#",
           "package": "singletons",
@@ -4031,6 +4322,7 @@
         "index": {
           "description": "Allows creation of singleton when proxy is at hand",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "singByProxy#",
           "normalized": "Proxy # a-\u003eSing a",
@@ -4047,6 +4339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an implicit singleton (a \u003ccode\u003e\u003ca\u003eSingI\u003c/a\u003e\u003c/code\u003e instance) from an explicit one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "singInstance",
           "package": "singletons",
@@ -4057,6 +4350,7 @@
         "index": {
           "description": "Get an implicit singleton SingI instance from an explicit one",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "singInstance",
           "normalized": "a b Sing c-\u003eSingInstance c",
@@ -4073,6 +4367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function that names a singleton satisfying a certain\n property.  If the singleton does not satisfy the property, then the function\n returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e. The property is expressed in terms of the underlying\n representation of the singleton.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "singThat",
           "package": "singletons",
@@ -4083,6 +4378,7 @@
         "index": {
           "description": "convenience function that names singleton satisfying certain property If the singleton does not satisfy the property then the function returns Nothing The property is expressed in terms of the underlying representation of the singleton",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "singThat",
           "normalized": "(Demote a-\u003eBool)-\u003eMaybe(Sing a)",
@@ -4099,6 +4395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an unrefined type to an existentially-quantified singleton type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "toSing",
           "package": "singletons",
@@ -4109,6 +4406,7 @@
         "index": {
           "description": "Convert an unrefined type to an existentially-quantified singleton type",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "toSing",
           "normalized": "DemoteRep a-\u003eSomeSing a",
@@ -4125,6 +4423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function useful when we need to name a singleton value\n multiple times. Without this function, each use of \u003ccode\u003e\u003ca\u003esing\u003c/a\u003e\u003c/code\u003e could potentially\n refer to a different singleton, and one has to use type signatures (often\n with \u003ccode\u003eScopedTypeVariables\u003c/code\u003e) to ensure that they are the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "withSing",
           "package": "singletons",
@@ -4135,6 +4434,7 @@
         "index": {
           "description": "convenience function useful when we need to name singleton value multiple times Without this function each use of sing could potentially refer to different singleton and one has to use type signatures often with ScopedTypeVariables to ensure that they are the same",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "withSing",
           "normalized": "(Sing a-\u003eb)-\u003eb",
@@ -4151,6 +4451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function for creating a context with an implicit singleton\n available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "withSingI",
           "package": "singletons",
@@ -4161,6 +4462,7 @@
         "index": {
           "description": "Convenience function for creating context with an implicit singleton available",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "withSingI",
           "normalized": "a)-\u003ea",
@@ -4177,6 +4479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a normal datatype (like \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e) to a singleton for that datatype,\n passing it into a continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:48 UTC 2014",
           "module": "Data.Singletons",
           "name": "withSomeSing",
           "package": "singletons",
@@ -4186,6 +4489,7 @@
         "index": {
           "description": "Convert normal datatype like Bool to singleton for that datatype passing it into continuation",
           "hierarchy": "Data Singletons",
+          "indexed": "2014-03-11T20:03:48",
           "module": "Data.Singletons",
           "name": "withSomeSing",
           "normalized": "KProxy a)-\u003e(b c Sing d-\u003ee)-\u003ee",

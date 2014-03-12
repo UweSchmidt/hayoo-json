@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mmtl-base"
+        "phrase": "mmtl-base",
+        "type": "phrase"
       },
       "type": "context"
     }

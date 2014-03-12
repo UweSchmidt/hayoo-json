@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mtp"
+        "phrase": "mtp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBindings to libmtp. High-level interface.\n\u003c/p\u003e\u003cp\u003eUsage:\n\u003c/p\u003e\u003cpre\u003e import qualified MTP\n\u003c/pre\u003e\u003cpre\u003e main = do\n\u003c/pre\u003e\u003cpre\u003e MTP.init\n\u003c/pre\u003e\u003cpre\u003e MTP.withFirstDevice MTP.getDeviceVersion\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "MTP",
           "package": "mtp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Bindings to libmtp High-level interface Usage import qualified MTP main do MTP.init MTP.withFirstDevice MTP.getDeviceVersion",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "MTP",
           "package": "mtp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "File",
           "package": "mtp",
@@ -51,6 +54,7 @@
         "index": {
           "description": "File metadata",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "File",
           "package": "mtp",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFiletype enumeration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "FileType",
           "package": "mtp",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Filetype enumeration",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "FileType",
           "package": "mtp",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFolder metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "Folder",
           "package": "mtp",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Folder metadata",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "Folder",
           "package": "mtp",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMTP exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "MTPException",
           "package": "mtp",
@@ -120,6 +129,7 @@
         "index": {
           "description": "MTP exceptions",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "MTPException",
           "package": "mtp",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle to an MTP device connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "MTPHandle",
           "package": "mtp",
@@ -143,6 +154,7 @@
         "index": {
           "description": "handle to an MTP device connection",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "MTPHandle",
           "package": "mtp",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaylist metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "Playlist",
           "package": "mtp",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Playlist metadata",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "Playlist",
           "package": "mtp",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrack metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "Track",
           "package": "mtp",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Track metadata",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "Track",
           "package": "mtp",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "Cancelled",
           "package": "mtp",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "Cancelled",
           "package": "mtp",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "ConnectionFailed",
           "package": "mtp",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "ConnectionFailed",
           "package": "mtp",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "File",
           "package": "mtp",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "File",
           "package": "mtp",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "Folder",
           "package": "mtp",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "Folder",
           "package": "mtp",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "General",
           "package": "mtp",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "General",
           "package": "mtp",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "NoDevice",
           "package": "mtp",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "NoDevice",
           "package": "mtp",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "Playlist",
           "package": "mtp",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "Playlist",
           "package": "mtp",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "StorageFull",
           "package": "mtp",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "StorageFull",
           "package": "mtp",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "Track",
           "package": "mtp",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "Track",
           "package": "mtp",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "aac",
           "package": "mtp",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "aac",
           "package": "mtp",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "asf",
           "package": "mtp",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "asf",
           "package": "mtp",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "audible",
           "package": "mtp",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "audible",
           "package": "mtp",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "avi",
           "package": "mtp",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "avi",
           "package": "mtp",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "bmp",
           "package": "mtp",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "bmp",
           "package": "mtp",
@@ -506,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new folder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "createFolder",
           "package": "mtp",
@@ -515,6 +560,7 @@
         "index": {
           "description": "Create new folder",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "createFolder",
           "normalized": "MTPHandle-\u003eString-\u003eInt-\u003eInt-\u003eIO Int",
@@ -531,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new playlist using the metadata supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "createPlaylist",
           "package": "mtp",
@@ -541,6 +588,7 @@
         "index": {
           "description": "Create new playlist using the metadata supplied",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "createPlaylist",
           "normalized": "MTPHandle-\u003ePlaylist-\u003eIO()",
@@ -557,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a single file, track, playlist, folder or any other object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "deleteObject",
           "package": "mtp",
@@ -567,6 +616,7 @@
         "index": {
           "description": "Delete single file track playlist folder or any other object",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "deleteObject",
           "normalized": "MTPHandle-\u003eInt-\u003eIO()",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "doc",
           "package": "mtp",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "doc",
           "package": "mtp",
@@ -604,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a track exists on the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "doesTrackExist",
           "package": "mtp",
@@ -614,6 +667,7 @@
         "index": {
           "description": "Test whether track exists on the device",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "doesTrackExist",
           "normalized": "MTPHandle-\u003eInt-\u003eIO Bool",
@@ -630,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty track.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "emptyTrack",
           "package": "mtp",
@@ -640,6 +695,7 @@
         "index": {
           "description": "An empty track",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "emptyTrack",
           "package": "mtp",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "fileID",
           "package": "mtp",
@@ -662,6 +719,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "fileID",
           "package": "mtp",
@@ -675,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "fileName",
           "package": "mtp",
@@ -684,6 +743,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "fileName",
           "package": "mtp",
@@ -697,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "fileParentID",
           "package": "mtp",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "fileParentID",
           "package": "mtp",
@@ -719,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "fileSize",
           "package": "mtp",
@@ -728,6 +791,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "fileSize",
           "package": "mtp",
@@ -741,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "fileStorageID",
           "package": "mtp",
@@ -750,6 +815,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "fileStorageID",
           "package": "mtp",
@@ -763,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "fileType",
           "package": "mtp",
@@ -772,6 +839,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "fileType",
           "package": "mtp",
@@ -786,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the FileType for a given file name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "findFileType",
           "package": "mtp",
@@ -796,6 +865,7 @@
         "index": {
           "description": "Find the FileType for given file name",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "findFileType",
           "normalized": "FilePath-\u003eFileType",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "firmware",
           "package": "mtp",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "firmware",
           "package": "mtp",
@@ -832,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "flac",
           "package": "mtp",
@@ -841,6 +914,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "flac",
           "package": "mtp",
@@ -853,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "folderChild",
           "package": "mtp",
@@ -862,6 +937,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "folderChild",
           "package": "mtp",
@@ -875,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "folderID",
           "package": "mtp",
@@ -884,6 +961,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "folderID",
           "package": "mtp",
@@ -897,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "folderName",
           "package": "mtp",
@@ -906,6 +985,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "folderName",
           "package": "mtp",
@@ -919,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "folderParentID",
           "package": "mtp",
@@ -928,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "folderParentID",
           "package": "mtp",
@@ -941,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "folderStorageID",
           "package": "mtp",
@@ -950,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "folderStorageID",
           "package": "mtp",
@@ -964,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet battery level, maximum and current.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getBatteryLevel",
           "package": "mtp",
@@ -974,6 +1059,7 @@
         "index": {
           "description": "Get battery level maximum and current",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getBatteryLevel",
           "normalized": "MTPHandle-\u003eIO(Int,Int)",
@@ -990,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet device hardware and firmware version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getDeviceVersion",
           "package": "mtp",
@@ -1000,6 +1087,7 @@
         "index": {
           "description": "Get device hardware and firmware version",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getDeviceVersion",
           "normalized": "MTPHandle-\u003eIO String",
@@ -1016,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a file from the device to a local file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getFile",
           "package": "mtp",
@@ -1026,6 +1115,7 @@
         "index": {
           "description": "Copy file from the device to local file",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getFile",
           "normalized": "MTPHandle-\u003eInt-\u003eFilePath-\u003eIO()",
@@ -1042,6 +1132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all files stored on the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getFileListing",
           "package": "mtp",
@@ -1052,6 +1143,7 @@
         "index": {
           "description": "Get list of all files stored on the device",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getFileListing",
           "normalized": "MTPHandle-\u003eIO[File]",
@@ -1068,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to the first available MTP device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getFirstDevice",
           "package": "mtp",
@@ -1078,6 +1171,7 @@
         "index": {
           "description": "Connect to the first available MTP device",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getFirstDevice",
           "package": "mtp",
@@ -1092,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all folders on the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getFolderList",
           "package": "mtp",
@@ -1102,6 +1197,7 @@
         "index": {
           "description": "Get list of all folders on the device",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getFolderList",
           "normalized": "MTPHandle-\u003eIO[Folder]",
@@ -1118,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the owner string aka. the \"friendly name\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getFriendlyName",
           "package": "mtp",
@@ -1128,6 +1225,7 @@
         "index": {
           "description": "Get the owner string aka the friendly name",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getFriendlyName",
           "normalized": "MTPHandle-\u003eIO String",
@@ -1144,6 +1242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the device manufacturer name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getManufacturerName",
           "package": "mtp",
@@ -1154,6 +1253,7 @@
         "index": {
           "description": "Get the device manufacturer name",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getManufacturerName",
           "normalized": "MTPHandle-\u003eIO String",
@@ -1170,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the device model name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getModelName",
           "package": "mtp",
@@ -1180,6 +1281,7 @@
         "index": {
           "description": "Get the device model name",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getModelName",
           "normalized": "MTPHandle-\u003eIO String",
@@ -1196,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a single playlist by ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getPlaylist",
           "package": "mtp",
@@ -1206,6 +1309,7 @@
         "index": {
           "description": "Get single playlist by ID",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getPlaylist",
           "normalized": "MTPHandle-\u003eInt-\u003eIO(Maybe Playlist)",
@@ -1222,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of playlists on the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getPlaylistList",
           "package": "mtp",
@@ -1232,6 +1337,7 @@
         "index": {
           "description": "Get list of playlists on the device",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getPlaylistList",
           "normalized": "MTPHandle-\u003eIO[Playlist]",
@@ -1248,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the device serial number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getSerialNumber",
           "package": "mtp",
@@ -1258,6 +1365,7 @@
         "index": {
           "description": "Get the device serial number",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getSerialNumber",
           "normalized": "MTPHandle-\u003eIO String",
@@ -1274,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of supported file types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getSupportedFileTypes",
           "package": "mtp",
@@ -1284,6 +1393,7 @@
         "index": {
           "description": "Get list of supported file types",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getSupportedFileTypes",
           "normalized": "MTPHandle-\u003eIO[FileType]",
@@ -1300,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a track from the device to a local file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getTrack",
           "package": "mtp",
@@ -1310,6 +1421,7 @@
         "index": {
           "description": "Copy track from the device to local file",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getTrack",
           "normalized": "MTPHandle-\u003eInt-\u003eFilePath-\u003eIO()",
@@ -1326,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all tracks stored on the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getTrackListing",
           "package": "mtp",
@@ -1336,6 +1449,7 @@
         "index": {
           "description": "Get list of all tracks stored on the device",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getTrackListing",
           "normalized": "MTPHandle-\u003eIO[Track]",
@@ -1352,6 +1466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet metadata for a single track.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "getTrackMetadata",
           "package": "mtp",
@@ -1362,6 +1477,7 @@
         "index": {
           "description": "Get metadata for single track",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "getTrackMetadata",
           "normalized": "MTPHandle-\u003eInt-\u003eIO(Maybe Track)",
@@ -1377,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "gif",
           "package": "mtp",
@@ -1386,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "gif",
           "package": "mtp",
@@ -1399,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a file from the device to a file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "hGetFile",
           "package": "mtp",
@@ -1409,6 +1528,7 @@
         "index": {
           "description": "Get file from the device to file handle",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "hGetFile",
           "normalized": "MTPHandle-\u003eInt-\u003eHandle-\u003eIO()",
@@ -1425,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a track from the device to a file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "hGetTrack",
           "package": "mtp",
@@ -1435,6 +1556,7 @@
         "index": {
           "description": "Copy track from the device to file handle",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "hGetTrack",
           "normalized": "MTPHandle-\u003eInt-\u003eHandle-\u003eIO()",
@@ -1451,6 +1573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a file to the device from a file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "hSendFile",
           "package": "mtp",
@@ -1461,6 +1584,7 @@
         "index": {
           "description": "Send file to the device from file handle",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "hSendFile",
           "normalized": "MTPHandle-\u003eHandle-\u003eFile-\u003eIO()",
@@ -1477,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a track to the device from a file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "hSendTrack",
           "package": "mtp",
@@ -1487,6 +1612,7 @@
         "index": {
           "description": "Send track to the device from file handle",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "hSendTrack",
           "normalized": "MTPHandle-\u003eHandle-\u003eTrack-\u003eIO()",
@@ -1502,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "html",
           "package": "mtp",
@@ -1511,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "html",
           "package": "mtp",
@@ -1524,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize MTP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "init",
           "package": "mtp",
@@ -1534,6 +1663,7 @@
         "index": {
           "description": "Initialize MTP",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "init",
           "normalized": "IO()",
@@ -1548,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "jfif",
           "package": "mtp",
@@ -1557,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "jfif",
           "package": "mtp",
@@ -1569,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "jp2",
           "package": "mtp",
@@ -1578,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "jp2",
           "package": "mtp",
@@ -1590,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "jpeg",
           "package": "mtp",
@@ -1599,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "jpeg",
           "package": "mtp",
@@ -1611,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "m4a",
           "package": "mtp",
@@ -1620,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "m4a",
           "package": "mtp",
@@ -1632,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "mediacard",
           "package": "mtp",
@@ -1641,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "mediacard",
           "package": "mtp",
@@ -1653,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "mht",
           "package": "mtp",
@@ -1662,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "mht",
           "package": "mtp",
@@ -1674,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "mp2",
           "package": "mtp",
@@ -1683,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "mp2",
           "package": "mtp",
@@ -1695,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "mp3",
           "package": "mtp",
@@ -1704,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "mp3",
           "package": "mtp",
@@ -1716,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "mp4",
           "package": "mtp",
@@ -1725,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "mp4",
           "package": "mtp",
@@ -1737,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "mpeg",
           "package": "mtp",
@@ -1746,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "mpeg",
           "package": "mtp",
@@ -1758,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "ogg",
           "package": "mtp",
@@ -1767,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "ogg",
           "package": "mtp",
@@ -1779,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "pict",
           "package": "mtp",
@@ -1788,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "pict",
           "package": "mtp",
@@ -1800,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "playlistID",
           "package": "mtp",
@@ -1809,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "playlistID",
           "package": "mtp",
@@ -1822,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "playlistName",
           "package": "mtp",
@@ -1831,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "playlistName",
           "package": "mtp",
@@ -1844,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "playlistNoTracks",
           "package": "mtp",
@@ -1853,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "playlistNoTracks",
           "package": "mtp",
@@ -1866,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "playlistParentID",
           "package": "mtp",
@@ -1875,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "playlistParentID",
           "package": "mtp",
@@ -1888,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "playlistStorageID",
           "package": "mtp",
@@ -1897,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "playlistStorageID",
           "package": "mtp",
@@ -1910,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "playlistTracks",
           "package": "mtp",
@@ -1919,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "playlistTracks",
           "normalized": "[Int]",
@@ -1934,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "png",
           "package": "mtp",
@@ -1943,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "png",
           "package": "mtp",
@@ -1955,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "ppt",
           "package": "mtp",
@@ -1964,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "ppt",
           "package": "mtp",
@@ -1976,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "qt",
           "package": "mtp",
@@ -1985,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "qt",
           "package": "mtp",
@@ -1998,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose connection to a MTP device. The handle is unusable after this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "releaseDevice",
           "package": "mtp",
@@ -2008,6 +2181,7 @@
         "index": {
           "description": "Close connection to MTP device The handle is unusable after this",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "releaseDevice",
           "normalized": "MTPHandle-\u003eIO()",
@@ -2024,6 +2198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "resetDevice",
           "package": "mtp",
@@ -2034,6 +2209,7 @@
         "index": {
           "description": "Reset device",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "resetDevice",
           "normalized": "MTPHandle-\u003eIO()",
@@ -2050,6 +2226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a local file to the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "sendFile",
           "package": "mtp",
@@ -2060,6 +2237,7 @@
         "index": {
           "description": "Send local file to the device",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "sendFile",
           "normalized": "MTPHandle-\u003eFilePath-\u003eIO()",
@@ -2076,6 +2254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a local track to the device, using the supplied metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "sendTrack",
           "package": "mtp",
@@ -2086,6 +2265,7 @@
         "index": {
           "description": "Send local track to the device using the supplied metadata",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "sendTrack",
           "normalized": "MTPHandle-\u003eFilePath-\u003eTrack-\u003eIO()",
@@ -2102,6 +2282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename a file on the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "setFileName",
           "package": "mtp",
@@ -2112,6 +2293,7 @@
         "index": {
           "description": "Rename file on the device",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "setFileName",
           "normalized": "MTPHandle-\u003eFile-\u003eString-\u003eIO()",
@@ -2128,6 +2310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename a folder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "setFolderName",
           "package": "mtp",
@@ -2138,6 +2321,7 @@
         "index": {
           "description": "Rename folder",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "setFolderName",
           "normalized": "MTPHandle-\u003eFolder-\u003eString-\u003eIO()",
@@ -2154,6 +2338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the filename of any object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "setObjectName",
           "package": "mtp",
@@ -2164,6 +2349,7 @@
         "index": {
           "description": "Set the filename of any object",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "setObjectName",
           "normalized": "MTPHandle-\u003eInt-\u003eString-\u003eIO()",
@@ -2180,6 +2366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename an existing playlist. The expected name suffix is \".pla\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "setPlaylistName",
           "package": "mtp",
@@ -2190,6 +2377,7 @@
         "index": {
           "description": "Rename an existing playlist The expected name suffix is pla",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "setPlaylistName",
           "normalized": "MTPHandle-\u003ePlaylist-\u003eString-\u003eIO()",
@@ -2206,6 +2394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename a single track.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "setTrackName",
           "package": "mtp",
@@ -2216,6 +2405,7 @@
         "index": {
           "description": "Rename single track",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "setTrackName",
           "normalized": "MTPHandle-\u003eTrack-\u003eString-\u003eIO()",
@@ -2231,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "text",
           "package": "mtp",
@@ -2240,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "text",
           "package": "mtp",
@@ -2252,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "tiff",
           "package": "mtp",
@@ -2261,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "tiff",
           "package": "mtp",
@@ -2273,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackAlbum",
           "package": "mtp",
@@ -2282,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackAlbum",
           "package": "mtp",
@@ -2295,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackArtist",
           "package": "mtp",
@@ -2304,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackArtist",
           "package": "mtp",
@@ -2317,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackBitrate",
           "package": "mtp",
@@ -2326,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackBitrate",
           "package": "mtp",
@@ -2339,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackBitrateType",
           "package": "mtp",
@@ -2348,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackBitrateType",
           "package": "mtp",
@@ -2361,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackChannels",
           "package": "mtp",
@@ -2370,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackChannels",
           "package": "mtp",
@@ -2383,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackComposer",
           "package": "mtp",
@@ -2392,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackComposer",
           "package": "mtp",
@@ -2405,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackDate",
           "package": "mtp",
@@ -2414,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackDate",
           "package": "mtp",
@@ -2427,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackDuration",
           "package": "mtp",
@@ -2436,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackDuration",
           "package": "mtp",
@@ -2449,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackFileName",
           "package": "mtp",
@@ -2458,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackFileName",
           "package": "mtp",
@@ -2471,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackFileSize",
           "package": "mtp",
@@ -2480,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackFileSize",
           "package": "mtp",
@@ -2493,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackFileType",
           "package": "mtp",
@@ -2502,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackFileType",
           "package": "mtp",
@@ -2515,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackGenre",
           "package": "mtp",
@@ -2524,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackGenre",
           "package": "mtp",
@@ -2537,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackID",
           "package": "mtp",
@@ -2546,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackID",
           "package": "mtp",
@@ -2559,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackNumber",
           "package": "mtp",
@@ -2568,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackNumber",
           "package": "mtp",
@@ -2581,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackParentID",
           "package": "mtp",
@@ -2590,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackParentID",
           "package": "mtp",
@@ -2603,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackRating",
           "package": "mtp",
@@ -2612,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackRating",
           "package": "mtp",
@@ -2625,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackSamplerate",
           "package": "mtp",
@@ -2634,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackSamplerate",
           "package": "mtp",
@@ -2647,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackStorageID",
           "package": "mtp",
@@ -2656,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackStorageID",
           "package": "mtp",
@@ -2669,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackTitle",
           "package": "mtp",
@@ -2678,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackTitle",
           "package": "mtp",
@@ -2691,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackUseCount",
           "package": "mtp",
@@ -2700,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackUseCount",
           "package": "mtp",
@@ -2713,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "trackWavecodec",
           "package": "mtp",
@@ -2722,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "trackWavecodec",
           "package": "mtp",
@@ -2735,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "undef_audio",
           "package": "mtp",
@@ -2744,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "undef_audio",
           "package": "mtp",
@@ -2756,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "undef_video",
           "package": "mtp",
@@ -2765,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "undef_video",
           "package": "mtp",
@@ -2777,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "unknown",
           "package": "mtp",
@@ -2786,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "unknown",
           "package": "mtp",
@@ -2799,6 +3041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate an existing playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "updatePlaylist",
           "package": "mtp",
@@ -2809,6 +3052,7 @@
         "index": {
           "description": "Update an existing playlist",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "updatePlaylist",
           "normalized": "MTPHandle-\u003ePlaylist-\u003eIO()",
@@ -2825,6 +3069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate track metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "updateTrack",
           "package": "mtp",
@@ -2835,6 +3080,7 @@
         "index": {
           "description": "Update track metadata",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "updateTrack",
           "normalized": "MTPHandle-\u003eTrack-\u003eIO()",
@@ -2850,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "vcalendar1",
           "package": "mtp",
@@ -2859,6 +3106,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "vcalendar1",
           "package": "mtp",
@@ -2871,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "vcalendar2",
           "package": "mtp",
@@ -2880,6 +3129,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "vcalendar2",
           "package": "mtp",
@@ -2892,6 +3142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "vcard2",
           "package": "mtp",
@@ -2901,6 +3152,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "vcard2",
           "package": "mtp",
@@ -2913,6 +3165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "vcard3",
           "package": "mtp",
@@ -2922,6 +3175,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "vcard3",
           "package": "mtp",
@@ -2935,6 +3189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMTP library version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "version",
           "package": "mtp",
@@ -2945,6 +3200,7 @@
         "index": {
           "description": "MTP library version",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "version",
           "package": "mtp",
@@ -2957,6 +3213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "wav",
           "package": "mtp",
@@ -2966,6 +3223,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "wav",
           "package": "mtp",
@@ -2978,6 +3236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "windowsimageformat",
           "package": "mtp",
@@ -2987,6 +3246,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "windowsimageformat",
           "package": "mtp",
@@ -2999,6 +3259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "winexec",
           "package": "mtp",
@@ -3008,6 +3269,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "winexec",
           "package": "mtp",
@@ -3021,6 +3283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a connection to the first available MTP device and run an\n action, closing the connection afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "withFirstDevice",
           "package": "mtp",
@@ -3031,6 +3294,7 @@
         "index": {
           "description": "Open connection to the first available MTP device and run an action closing the connection afterwards",
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "withFirstDevice",
           "normalized": "(MTPHandle-\u003eIO a)-\u003eIO a",
@@ -3046,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "wma",
           "package": "mtp",
@@ -3055,6 +3320,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "wma",
           "package": "mtp",
@@ -3067,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "wmv",
           "package": "mtp",
@@ -3076,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "wmv",
           "package": "mtp",
@@ -3088,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "xls",
           "package": "mtp",
@@ -3097,6 +3366,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "xls",
           "package": "mtp",
@@ -3109,6 +3379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:30 UTC 2014",
           "module": "MTP",
           "name": "xml",
           "package": "mtp",
@@ -3118,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "MTP",
+          "indexed": "2014-03-11T19:23:30",
           "module": "MTP",
           "name": "xml",
           "package": "mtp",

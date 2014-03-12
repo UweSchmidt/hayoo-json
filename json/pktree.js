@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pktree"
+        "phrase": "pktree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of the PKTree spatial index data structure\n\u003c/p\u003e\u003cp\u003eThe reccomended way to import this module is:\n\u003c/p\u003e\u003cpre\u003e import qualified Data.PKTree as PKTree\n pkInsert = insert K [rx,ry,..]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "PKTree",
           "package": "pktree",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implementation of the PKTree spatial index data structure The reccomended way to import this module is import qualified Data.PKTree as PKTree pkInsert insert rx ry",
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "PKTree",
           "package": "pktree",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInner nodes have rectangles, leaves are points and data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "Node",
           "package": "pktree",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Inner nodes have rectangles leaves are points and data",
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "Node",
           "package": "pktree",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PKTree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "PKTree",
           "package": "pktree",
@@ -74,6 +79,7 @@
         "index": {
           "description": "PKTree",
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "PKTree",
           "package": "pktree",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn n-dimensional point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "Point",
           "package": "pktree",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An n-dimensional point",
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "Point",
           "package": "pktree",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn n-dimensional hyperrectangle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "Rectangle",
           "package": "pktree",
@@ -120,6 +129,7 @@
         "index": {
           "description": "An n-dimensional hyperrectangle",
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "Rectangle",
           "package": "pktree",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "Inner",
           "package": "pktree",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "Inner",
           "package": "pktree",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "Leaf",
           "package": "pktree",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "Leaf",
           "package": "pktree",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContruct a tree with no children\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "cell",
           "package": "pktree",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Contruct tree with no children",
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "cell",
           "normalized": "Rectangle-\u003ePKTree a",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for points in some hypercube\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "cubeSearch",
           "package": "pktree",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Search for points in some hypercube",
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "cubeSearch",
           "normalized": "Rectangle-\u003eBool-\u003ePKTree a-\u003e[(Point,a)]",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a point into a PKTree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "insert",
           "package": "pktree",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Insert point into PKTree",
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "insert",
           "normalized": "Int-\u003e[Int]-\u003ePKTree a-\u003ePoint-\u003ea-\u003ePKTree a",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a leaf node representing a point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "pointCell",
           "package": "pktree",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Construct leaf node representing point",
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "pointCell",
           "normalized": "Point-\u003ea-\u003ePKTree a",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for points in some hypercircle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "radiusSearch",
           "package": "pktree",
@@ -287,6 +310,7 @@
         "index": {
           "description": "Search for points in some hypercircle",
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "radiusSearch",
           "normalized": "Point-\u003eFloat-\u003ePKTree a-\u003e[(Point,a)]",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the rectangle from a node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:54 UTC 2014",
           "module": "Data.PKTree",
           "name": "rect",
           "package": "pktree",
@@ -313,6 +338,7 @@
         "index": {
           "description": "Extract the rectangle from node",
           "hierarchy": "Data PKTree",
+          "indexed": "2014-03-11T19:39:54",
           "module": "Data.PKTree",
           "name": "rect",
           "normalized": "PKTree a-\u003eRectangle",

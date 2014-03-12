@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "IDynamic"
+        "phrase": "IDynamic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IDynamic",
           "name": "IDynamic",
           "package": "IDynamic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data IDynamic",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IDynamic",
           "name": "IDynamic",
           "package": "IDynamic",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IDynamic",
           "name": "Key",
           "package": "IDynamic",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data IDynamic",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IDynamic",
           "name": "Key",
           "package": "IDynamic",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IDynamic",
           "name": "DynamicInterface",
           "package": "IDynamic",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data IDynamic",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IDynamic",
           "name": "DynamicInterface",
           "package": "IDynamic",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "extract the data from the dynamic object. trows a user error when the cast fails\n",
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IDynamic",
           "name": "fromIDyn",
           "package": "IDynamic",
@@ -92,6 +99,7 @@
         "index": {
           "description": "extract the data from the dynamic object trows user error when the cast fails",
           "hierarchy": "Data IDynamic",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IDynamic",
           "name": "fromIDyn",
           "normalized": "IDynamic-\u003ea",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IDynamic",
           "name": "list",
           "package": "IDynamic",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data IDynamic",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IDynamic",
           "name": "list",
           "normalized": "MVar(Map Word(IDynamic-\u003eIO(Maybe IDynamic),String-\u003eIDynamic))",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "registers the deserialize, readp and readResource methods for this data type\n",
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IDynamic",
           "name": "registerType",
           "package": "IDynamic",
@@ -141,6 +152,7 @@
         "index": {
           "description": "registers the deserialize readp and readResource methods for this data type",
           "hierarchy": "Data IDynamic",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IDynamic",
           "name": "registerType",
           "package": "IDynamic",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "safe extraction with Maybe\n",
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IDynamic",
           "name": "safeFromIDyn",
           "package": "IDynamic",
@@ -165,6 +178,7 @@
         "index": {
           "description": "safe extraction with Maybe",
           "hierarchy": "Data IDynamic",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IDynamic",
           "name": "safeFromIDyn",
           "normalized": "IDynamic-\u003eMaybe a",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "encapsulates data in a dynamic object\n",
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IDynamic",
           "name": "toIDyn",
           "package": "IDynamic",
@@ -191,6 +206,7 @@
         "index": {
           "description": "encapsulates data in dynamic object",
           "hierarchy": "Data IDynamic",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IDynamic",
           "name": "toIDyn",
           "normalized": "a-\u003eIDynamic",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "unsafe version.\n",
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IDynamic",
           "name": "unsafeFromIDyn",
           "package": "IDynamic",
@@ -217,6 +234,7 @@
         "index": {
           "description": "unsafe version",
           "hierarchy": "Data IDynamic",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IDynamic",
           "name": "unsafeFromIDyn",
           "normalized": "IDynamic-\u003ea",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IResource",
           "name": "AccessTime",
           "package": "IDynamic",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Data IResource",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IResource",
           "name": "AccessTime",
           "package": "IDynamic",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IResource",
           "name": "ModifTime",
           "package": "IDynamic",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data IResource",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IResource",
           "name": "ModifTime",
           "package": "IDynamic",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IResource",
           "name": "Resources",
           "package": "IDynamic",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Data IResource",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IResource",
           "name": "Resources",
           "package": "IDynamic",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IResource",
           "name": "IResource",
           "package": "IDynamic",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data IResource",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IResource",
           "name": "IResource",
           "package": "IDynamic",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "additional extension for default file paths or key prefixes \n",
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IResource",
           "name": "defPath",
           "package": "IDynamic",
@@ -327,6 +354,7 @@
         "index": {
           "description": "additional extension for default file paths or key prefixes",
           "hierarchy": "Data IResource",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IResource",
           "name": "defPath",
           "normalized": "a-\u003eString",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IResource",
           "name": "delResource",
           "package": "IDynamic",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data IResource",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IResource",
           "name": "delResource",
           "normalized": "a-\u003eIO()",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "must be defined by the user\n",
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IResource",
           "name": "deserialize",
           "package": "IDynamic",
@@ -377,6 +408,7 @@
         "index": {
           "description": "must be defined by the user",
           "hierarchy": "Data IResource",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IResource",
           "name": "deserialize",
           "normalized": "String-\u003ea",
@@ -392,6 +424,7 @@
       "document": {
         "description": {
           "description": "must be defined\n",
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IResource",
           "name": "keyResource",
           "package": "IDynamic",
@@ -402,6 +435,7 @@
         "index": {
           "description": "must be defined",
           "hierarchy": "Data IResource",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IResource",
           "name": "keyResource",
           "normalized": "a-\u003eString",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IResource",
           "name": "readResource",
           "package": "IDynamic",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Data IResource",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IResource",
           "name": "readResource",
           "normalized": "a-\u003eIO(Maybe a)",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eresources= Resources  [] [] ()\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IResource",
           "name": "resources",
           "package": "IDynamic",
@@ -452,6 +489,7 @@
         "index": {
           "description": "resources Resources",
           "hierarchy": "Data IResource",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IResource",
           "name": "resources",
           "normalized": "Resources a()",
@@ -467,6 +505,7 @@
       "document": {
         "description": {
           "description": "must be defined by the user\n",
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IResource",
           "name": "serialize",
           "package": "IDynamic",
@@ -477,6 +516,7 @@
         "index": {
           "description": "must be defined by the user",
           "hierarchy": "Data IResource",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IResource",
           "name": "serialize",
           "normalized": "a-\u003eString",
@@ -491,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:28 UTC 2014",
           "module": "Data.IResource",
           "name": "writeResource",
           "package": "IDynamic",
@@ -500,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Data IResource",
+          "indexed": "2014-03-11T16:49:28",
           "module": "Data.IResource",
           "name": "writeResource",
           "normalized": "a-\u003eIO()",

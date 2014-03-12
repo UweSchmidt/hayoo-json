@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gofer-prelude"
+        "phrase": "gofer-prelude",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopyright Mark P Jones 1991-1994.\n Copyright Don Stewart, 2009\n\u003c/p\u003e\u003cp\u003eFunctional programming environment, Version 2.30\n Standard prelude for use of overloaded values using type classes.\n Based on the Haskell standard prelude version 1.2.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "Gofer",
           "package": "gofer-prelude",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Copyright Mark Jones Copyright Don Stewart Functional programming environment Version Standard prelude for use of overloaded values using type classes Based on the Haskell standard prelude version",
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "Gofer",
           "package": "gofer-prelude",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "Dialogue",
           "package": "gofer-prelude",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "Dialogue",
           "package": "gofer-prelude",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "FailCont",
           "package": "gofer-prelude",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "FailCont",
           "package": "gofer-prelude",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "IOError",
           "package": "gofer-prelude",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "IOError",
           "package": "gofer-prelude",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Dialogue, Request, Response and IOError datatypes are now builtin:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "Request",
           "package": "gofer-prelude",
@@ -114,6 +123,7 @@
         "index": {
           "description": "The Dialogue Request Response and IOError datatypes are now builtin",
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "Request",
           "package": "gofer-prelude",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "Response",
           "package": "gofer-prelude",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "Response",
           "package": "gofer-prelude",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "ShowS",
           "package": "gofer-prelude",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "ShowS",
           "package": "gofer-prelude",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "StrCont",
           "package": "gofer-prelude",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "StrCont",
           "package": "gofer-prelude",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "StrListCont",
           "package": "gofer-prelude",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "StrListCont",
           "package": "gofer-prelude",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "SuccCont",
           "package": "gofer-prelude",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "SuccCont",
           "package": "gofer-prelude",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(||)",
           "package": "gofer-prelude",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(||) ||",
           "normalized": "Bool-\u003eBool-\u003eBool",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(!!)",
           "package": "gofer-prelude",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(!!) !!",
           "normalized": "[a]-\u003eInt-\u003ea",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "($)",
           "package": "gofer-prelude",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "($) $",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(&&)",
           "package": "gofer-prelude",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(&&) &&",
           "normalized": "Bool-\u003eBool-\u003eBool",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(*)",
           "package": "gofer-prelude",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(*) *",
           "normalized": "a-\u003ea-\u003ea",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(+)",
           "package": "gofer-prelude",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(+) +",
           "normalized": "a-\u003ea-\u003ea",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(++)",
           "package": "gofer-prelude",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(++) ++",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(-)",
           "package": "gofer-prelude",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(-) -",
           "normalized": "a-\u003ea-\u003ea",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(/)",
           "package": "gofer-prelude",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(/) /",
           "normalized": "a-\u003ea-\u003ea",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(/=)",
           "package": "gofer-prelude",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(/=) /=",
           "normalized": "a-\u003ea-\u003eBool",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(\u003c)",
           "package": "gofer-prelude",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(\u003c) \u003c",
           "normalized": "a-\u003ea-\u003eBool",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(\u003c=)",
           "package": "gofer-prelude",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(\u003c=) \u003c=",
           "normalized": "a-\u003ea-\u003eBool",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(==)",
           "package": "gofer-prelude",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(==) ==",
           "normalized": "a-\u003ea-\u003eBool",
@@ -528,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(\u003e)",
           "package": "gofer-prelude",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(\u003e) \u003e",
           "normalized": "a-\u003ea-\u003eBool",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(\u003e=)",
           "package": "gofer-prelude",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(\u003e=) \u003e=",
           "normalized": "a-\u003ea-\u003eBool",
@@ -575,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(\\) is used to remove the first occurrence of each element in the second\n list from the first list.  It is a kind of inverse of (++) in the sense\n that  (xs ++ ys) \\ xs = ys for any finite list xs of proper values xs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(\\\\)",
           "package": "gofer-prelude",
@@ -585,6 +636,7 @@
         "index": {
           "description": "is used to remove the first occurrence of each element in the second list from the first list It is kind of inverse of in the sense that xs ys xs ys for any finite list xs of proper values xs",
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(\\\\) \\\\",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(^)",
           "package": "gofer-prelude",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(^) ^",
           "normalized": "a-\u003eInt-\u003ea",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "(.)",
           "package": "gofer-prelude",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "(.) .",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003eb",
@@ -645,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "AppendChan",
           "package": "gofer-prelude",
@@ -654,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "AppendChan",
           "package": "gofer-prelude",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "AppendFile",
           "package": "gofer-prelude",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "AppendFile",
           "package": "gofer-prelude",
@@ -689,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "Echo",
           "package": "gofer-prelude",
@@ -698,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "Echo",
           "package": "gofer-prelude",
@@ -711,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "Failure",
           "package": "gofer-prelude",
@@ -720,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "Failure",
           "package": "gofer-prelude",
@@ -733,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "FormatError",
           "package": "gofer-prelude",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "FormatError",
           "package": "gofer-prelude",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "GetArgs",
           "package": "gofer-prelude",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "GetArgs",
           "package": "gofer-prelude",
@@ -777,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "GetEnv",
           "package": "gofer-prelude",
@@ -786,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "GetEnv",
           "package": "gofer-prelude",
@@ -799,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "GetProgName",
           "package": "gofer-prelude",
@@ -808,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "GetProgName",
           "package": "gofer-prelude",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "OtherError",
           "package": "gofer-prelude",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "OtherError",
           "package": "gofer-prelude",
@@ -843,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "ReadChan",
           "package": "gofer-prelude",
@@ -852,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "ReadChan",
           "package": "gofer-prelude",
@@ -865,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "ReadError",
           "package": "gofer-prelude",
@@ -874,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "ReadError",
           "package": "gofer-prelude",
@@ -887,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "ReadFile",
           "package": "gofer-prelude",
@@ -896,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "ReadFile",
           "package": "gofer-prelude",
@@ -909,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "SearchError",
           "package": "gofer-prelude",
@@ -918,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "SearchError",
           "package": "gofer-prelude",
@@ -931,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "Str",
           "package": "gofer-prelude",
@@ -940,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "Str",
           "package": "gofer-prelude",
@@ -953,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "StrList",
           "package": "gofer-prelude",
@@ -962,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "StrList",
           "normalized": "StrList[String]",
@@ -977,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "Success",
           "package": "gofer-prelude",
@@ -986,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "Success",
           "package": "gofer-prelude",
@@ -999,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "WriteError",
           "package": "gofer-prelude",
@@ -1008,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "WriteError",
           "package": "gofer-prelude",
@@ -1021,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "WriteFile",
           "package": "gofer-prelude",
@@ -1030,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "WriteFile",
           "package": "gofer-prelude",
@@ -1043,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "abort",
           "package": "gofer-prelude",
@@ -1052,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "abort",
           "package": "gofer-prelude",
@@ -1064,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "abs",
           "package": "gofer-prelude",
@@ -1073,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "abs",
           "normalized": "a-\u003ea",
@@ -1087,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "acos",
           "package": "gofer-prelude",
@@ -1096,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "acos",
           "normalized": "Float-\u003eFloat",
@@ -1110,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "all",
           "package": "gofer-prelude",
@@ -1119,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eBool",
@@ -1133,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "and",
           "package": "gofer-prelude",
@@ -1142,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "and",
           "normalized": "[Bool]-\u003eBool",
@@ -1156,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "any",
           "package": "gofer-prelude",
@@ -1165,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eBool",
@@ -1179,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "appendChan",
           "package": "gofer-prelude",
@@ -1188,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "appendChan",
           "normalized": "String-\u003eString-\u003eFailCont-\u003eSuccCont-\u003eDialogue",
@@ -1203,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "appendFile",
           "package": "gofer-prelude",
@@ -1212,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "appendFile",
           "normalized": "String-\u003eString-\u003eFailCont-\u003eSuccCont-\u003eDialogue",
@@ -1227,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "asTypeOf",
           "package": "gofer-prelude",
@@ -1236,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "asTypeOf",
           "normalized": "a-\u003ea-\u003ea",
@@ -1251,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "asin",
           "package": "gofer-prelude",
@@ -1260,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "asin",
           "normalized": "Float-\u003eFloat",
@@ -1274,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "atan",
           "package": "gofer-prelude",
@@ -1283,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "atan",
           "normalized": "Float-\u003eFloat",
@@ -1297,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "atan2",
           "package": "gofer-prelude",
@@ -1306,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "atan2",
           "normalized": "Float-\u003eFloat",
@@ -1320,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "break",
           "package": "gofer-prelude",
@@ -1329,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "break",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -1343,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "chr",
           "package": "gofer-prelude",
@@ -1352,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "chr",
           "normalized": "Int-\u003eChar",
@@ -1366,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "cjustify",
           "package": "gofer-prelude",
@@ -1375,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "cjustify",
           "normalized": "Int-\u003eString-\u003eString",
@@ -1389,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "concat",
           "package": "gofer-prelude",
@@ -1397,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "concat",
           "normalized": "[[a]]-\u003e[a]",
@@ -1412,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprimitive strict primStrict :: (a -\u003e b) -\u003e a -\u003e b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "const",
           "package": "gofer-prelude",
@@ -1422,6 +1547,7 @@
         "index": {
           "description": "primitive strict primStrict",
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "const",
           "normalized": "a-\u003eb-\u003ea",
@@ -1436,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "copy",
           "package": "gofer-prelude",
@@ -1444,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "copy",
           "normalized": "Int-\u003ea-\u003e[a]",
@@ -1458,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "cos",
           "package": "gofer-prelude",
@@ -1467,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "cos",
           "normalized": "Float-\u003eFloat",
@@ -1481,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "curry",
           "package": "gofer-prelude",
@@ -1490,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "curry",
           "normalized": "((a,b)-\u003ec)-\u003ea-\u003eb-\u003ec",
@@ -1504,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "cycle",
           "package": "gofer-prelude",
@@ -1512,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "cycle",
           "normalized": "[a]-\u003e[a]",
@@ -1526,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "div",
           "package": "gofer-prelude",
@@ -1535,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "div",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -1549,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "done",
           "package": "gofer-prelude",
@@ -1558,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "done",
           "package": "gofer-prelude",
@@ -1570,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "drop",
           "package": "gofer-prelude",
@@ -1579,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "drop",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -1593,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "dropWhile",
           "package": "gofer-prelude",
@@ -1602,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -1617,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "echo",
           "package": "gofer-prelude",
@@ -1626,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "echo",
           "normalized": "Bool-\u003eFailCont-\u003eSuccCont-\u003eDialogue",
@@ -1640,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "elem",
           "package": "gofer-prelude",
@@ -1649,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "elem",
           "normalized": "a-\u003e[a]-\u003eBool",
@@ -1663,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "enumFrom",
           "package": "gofer-prelude",
@@ -1672,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "enumFrom",
           "normalized": "a-\u003e[a]",
@@ -1687,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "enumFromThen",
           "package": "gofer-prelude",
@@ -1696,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "enumFromThen",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -1711,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "enumFromThenTo",
           "package": "gofer-prelude",
@@ -1720,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "enumFromThenTo",
           "normalized": "a-\u003ea-\u003ea-\u003e[a]",
@@ -1735,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "enumFromTo",
           "package": "gofer-prelude",
@@ -1744,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "enumFromTo",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -1759,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "error",
           "package": "gofer-prelude",
@@ -1768,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "error",
           "normalized": "[Char]-\u003ea",
@@ -1782,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "even",
           "package": "gofer-prelude",
@@ -1791,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "even",
           "normalized": "Int-\u003eBool",
@@ -1805,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "exit",
           "package": "gofer-prelude",
@@ -1814,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "exit",
           "package": "gofer-prelude",
@@ -1826,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "exp",
           "package": "gofer-prelude",
@@ -1835,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "exp",
           "normalized": "Float-\u003eFloat",
@@ -1849,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "filter",
           "package": "gofer-prelude",
@@ -1858,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -1872,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "flip",
           "package": "gofer-prelude",
@@ -1881,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "flip",
           "normalized": "(a-\u003eb-\u003ec)-\u003eb-\u003ea-\u003ec",
@@ -1896,6 +2062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold primitives:  The foldl and scanl functions, variants foldl1 and\n scanl1 for non-empty lists, and strict variants foldl' scanl' describe\n common patterns of recursion over lists.  Informally:\n\u003c/p\u003e\u003cpre\u003e foldl f a [x1, x2, ..., xn]  = f (...(f (f a x1) x2)...) xn\n                              = (...((a `f` x1) `f` x2)...) `f` xn\n\u003c/pre\u003e\u003cp\u003eetc...\n\u003c/p\u003e\u003cp\u003eThe functions foldr, scanr and variants foldr1, scanr1 are duals of these\n functions:\n\u003c/p\u003e\u003cpre\u003e   foldr f a xs = foldl (flip f) a (reverse xs)  for finite lists xs.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "foldl",
           "package": "gofer-prelude",
@@ -1906,6 +2073,7 @@
         "index": {
           "description": "Fold primitives The foldl and scanl functions variants foldl1 and scanl1 for non-empty lists and strict variants foldl scanl describe common patterns of recursion over lists Informally foldl x1 x2 xn x1 x2 xn x1 x2 xn etc The functions foldr scanr and variants foldr1 scanr1 are duals of these functions foldr xs foldl flip reverse xs for finite lists xs",
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003e[b]-\u003ea",
@@ -1920,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "foldl'",
           "package": "gofer-prelude",
@@ -1929,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003e[b]-\u003ea",
@@ -1943,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "foldl1",
           "package": "gofer-prelude",
@@ -1952,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -1966,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "foldr",
           "package": "gofer-prelude",
@@ -1975,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003e[a]-\u003eb",
@@ -1989,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "foldr1",
           "package": "gofer-prelude",
@@ -1998,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "foldr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -2012,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "fromInteger_",
           "package": "gofer-prelude",
@@ -2021,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "fromInteger_",
           "normalized": "Int-\u003ea",
@@ -2036,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "fst",
           "package": "gofer-prelude",
@@ -2045,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "fst",
           "normalized": "(a,b)-\u003ea",
@@ -2059,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "fst3",
           "package": "gofer-prelude",
@@ -2068,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -2082,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "gcd",
           "package": "gofer-prelude",
@@ -2091,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "gcd",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -2105,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "genericLength",
           "package": "gofer-prelude",
@@ -2114,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "genericLength",
           "normalized": "[a]-\u003eb",
@@ -2129,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "getArgs",
           "package": "gofer-prelude",
@@ -2138,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "getArgs",
           "normalized": "FailCont-\u003eStrListCont-\u003eDialogue",
@@ -2153,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "getEnv",
           "package": "gofer-prelude",
@@ -2162,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "getEnv",
           "normalized": "String-\u003eFailCont-\u003eStrCont-\u003eDialogue",
@@ -2177,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "getProgName",
           "package": "gofer-prelude",
@@ -2186,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "getProgName",
           "normalized": "FailCont-\u003eStrCont-\u003eDialogue",
@@ -2201,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "head",
           "package": "gofer-prelude",
@@ -2210,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "head",
           "normalized": "[a]-\u003ea",
@@ -2224,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "help",
           "package": "gofer-prelude",
@@ -2233,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "help",
           "normalized": "[Char]",
@@ -2247,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "id",
           "package": "gofer-prelude",
@@ -2256,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "id",
           "normalized": "a-\u003ea",
@@ -2270,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "inRange",
           "package": "gofer-prelude",
@@ -2279,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "inRange",
           "normalized": "(a,a)-\u003ea-\u003eBool",
@@ -2294,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "index",
           "package": "gofer-prelude",
@@ -2303,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "index",
           "normalized": "(a,a)-\u003ea-\u003eInt",
@@ -2317,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "init",
           "package": "gofer-prelude",
@@ -2326,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "init",
           "normalized": "[a]-\u003e[a]",
@@ -2340,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "insert",
           "package": "gofer-prelude",
@@ -2349,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "insert",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -2363,6 +2569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "interact",
           "package": "gofer-prelude",
@@ -2372,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "interact",
           "normalized": "(String-\u003eString)-\u003eDialogue",
@@ -2386,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "isAlpha",
           "package": "gofer-prelude",
@@ -2395,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "isAlpha",
           "normalized": "Char-\u003eBool",
@@ -2410,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "isAlphanum",
           "package": "gofer-prelude",
@@ -2419,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "isAlphanum",
           "normalized": "Char-\u003eBool",
@@ -2434,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "isAscii",
           "package": "gofer-prelude",
@@ -2443,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "isAscii",
           "normalized": "Char-\u003eBool",
@@ -2458,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "isControl",
           "package": "gofer-prelude",
@@ -2467,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "isControl",
           "normalized": "Char-\u003eBool",
@@ -2482,6 +2698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "isDigit",
           "package": "gofer-prelude",
@@ -2491,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "isDigit",
           "normalized": "Char-\u003eBool",
@@ -2506,6 +2724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "isLower",
           "package": "gofer-prelude",
@@ -2515,6 +2734,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "isLower",
           "normalized": "Char-\u003eBool",
@@ -2530,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "isPrint",
           "package": "gofer-prelude",
@@ -2539,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "isPrint",
           "normalized": "Char-\u003eBool",
@@ -2554,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "isSpace",
           "package": "gofer-prelude",
@@ -2563,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "isSpace",
           "normalized": "Char-\u003eBool",
@@ -2578,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "isUpper",
           "package": "gofer-prelude",
@@ -2587,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "isUpper",
           "normalized": "Char-\u003eBool",
@@ -2602,6 +2828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "iterate",
           "package": "gofer-prelude",
@@ -2610,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "iterate",
           "normalized": "(a-\u003ea)-\u003ea-\u003e[a]",
@@ -2624,6 +2852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "last",
           "package": "gofer-prelude",
@@ -2633,6 +2862,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "last",
           "normalized": "[a]-\u003ea",
@@ -2647,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "layn",
           "package": "gofer-prelude",
@@ -2656,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "layn",
           "normalized": "[String]-\u003eString",
@@ -2670,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "lcm",
           "package": "gofer-prelude",
@@ -2679,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "lcm",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -2693,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "length",
           "package": "gofer-prelude",
@@ -2701,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "length",
           "normalized": "[a]-\u003eInt",
@@ -2716,6 +2952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText processing:\n   lines s     returns the list of lines in the string s.\n   words s     returns the list of words in the string s.\n   unlines ls  joins the list of lines ls into a single string\n               with lines separated by newline characters.\n   unwords ws  joins the list of words ws into a single string\n               with words separated by spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "lines",
           "package": "gofer-prelude",
@@ -2726,6 +2963,7 @@
         "index": {
           "description": "Text processing lines returns the list of lines in the string words returns the list of words in the string unlines ls joins the list of lines ls into single string with lines separated by newline characters unwords ws joins the list of words ws into single string with words separated by spaces",
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "lines",
           "normalized": "String-\u003e[String]",
@@ -2740,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "ljustify",
           "package": "gofer-prelude",
@@ -2749,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "ljustify",
           "normalized": "Int-\u003eString-\u003eString",
@@ -2763,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "log",
           "package": "gofer-prelude",
@@ -2772,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "log",
           "normalized": "Float-\u003eFloat",
@@ -2787,6 +3029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emap f xs applies the function f to each element of the list xs returning\n the corresponding list of results.  filter p xs returns the sublist of xs\n containing those elements which satisfy the predicate p.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "map",
           "package": "gofer-prelude",
@@ -2797,6 +3040,7 @@
         "index": {
           "description": "map xs applies the function to each element of the list xs returning the corresponding list of results filter xs returns the sublist of xs containing those elements which satisfy the predicate",
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -2811,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "max",
           "package": "gofer-prelude",
@@ -2820,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "max",
           "normalized": "a-\u003ea-\u003ea",
@@ -2834,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "maxChar",
           "package": "gofer-prelude",
@@ -2843,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "maxChar",
           "package": "gofer-prelude",
@@ -2856,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "maximum",
           "package": "gofer-prelude",
@@ -2865,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "maximum",
           "normalized": "[a]-\u003ea",
@@ -2879,6 +3129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "merge",
           "package": "gofer-prelude",
@@ -2888,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "merge",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -2902,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "min",
           "package": "gofer-prelude",
@@ -2911,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "min",
           "normalized": "a-\u003ea-\u003ea",
@@ -2925,6 +3179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "minChar",
           "package": "gofer-prelude",
@@ -2934,6 +3189,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "minChar",
           "package": "gofer-prelude",
@@ -2948,6 +3204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emax element in non-empty list.\n min element in non-empty list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "minimum",
           "package": "gofer-prelude",
@@ -2958,6 +3215,7 @@
         "index": {
           "description": "max element in non-empty list min element in non-empty list",
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "minimum",
           "normalized": "[a]-\u003ea",
@@ -2972,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "mod",
           "package": "gofer-prelude",
@@ -2981,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "mod",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -2995,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "negate",
           "package": "gofer-prelude",
@@ -3004,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "negate",
           "normalized": "a-\u003ea",
@@ -3018,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "not",
           "package": "gofer-prelude",
@@ -3027,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "not",
           "normalized": "Bool-\u003eBool",
@@ -3042,6 +3306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest for membership in list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "notElem",
           "package": "gofer-prelude",
@@ -3052,6 +3317,7 @@
         "index": {
           "description": "test for membership in list",
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "notElem",
           "normalized": "a-\u003e[a]-\u003eBool",
@@ -3067,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "nub",
           "package": "gofer-prelude",
@@ -3075,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "nub",
           "normalized": "[a]-\u003e[a]",
@@ -3090,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enull provides a simple and efficient way of determining whether a given\n list is empty, without using (==) and hence avoiding a constraint of the\n form Eq [a].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "null",
           "package": "gofer-prelude",
@@ -3100,6 +3369,7 @@
         "index": {
           "description": "null provides simple and efficient way of determining whether given list is empty without using and hence avoiding constraint of the form Eq",
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "null",
           "normalized": "[a]-\u003eBool",
@@ -3114,6 +3384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "odd",
           "package": "gofer-prelude",
@@ -3123,6 +3394,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "odd",
           "normalized": "Int-\u003eBool",
@@ -3137,6 +3409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "openfile",
           "package": "gofer-prelude",
@@ -3146,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "openfile",
           "normalized": "String-\u003eString",
@@ -3160,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "or",
           "package": "gofer-prelude",
@@ -3169,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "or",
           "normalized": "[Bool]-\u003eBool",
@@ -3183,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "ord",
           "package": "gofer-prelude",
@@ -3192,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "ord",
           "normalized": "Char-\u003eInt",
@@ -3206,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "otherwise",
           "package": "gofer-prelude",
@@ -3215,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "otherwise",
           "package": "gofer-prelude",
@@ -3227,6 +3507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "pi",
           "package": "gofer-prelude",
@@ -3236,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "pi",
           "package": "gofer-prelude",
@@ -3248,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "print",
           "package": "gofer-prelude",
@@ -3257,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "print",
           "normalized": "a-\u003eDialogue",
@@ -3271,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "prints",
           "package": "gofer-prelude",
@@ -3280,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "prints",
           "normalized": "a-\u003eString-\u003eDialogue",
@@ -3294,6 +3580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "product",
           "package": "gofer-prelude",
@@ -3303,6 +3590,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "product",
           "normalized": "[a]-\u003ea",
@@ -3317,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "products",
           "package": "gofer-prelude",
@@ -3326,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "products",
           "normalized": "[a]-\u003e[a]",
@@ -3340,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "qsort",
           "package": "gofer-prelude",
@@ -3349,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "qsort",
           "normalized": "[a]-\u003e[a]",
@@ -3363,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "quot",
           "package": "gofer-prelude",
@@ -3372,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "quot",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -3386,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "range",
           "package": "gofer-prelude",
@@ -3395,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "range",
           "normalized": "(a,a)-\u003e[a]",
@@ -3409,6 +3705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "readChan",
           "package": "gofer-prelude",
@@ -3418,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "readChan",
           "normalized": "String-\u003eFailCont-\u003eStrCont-\u003eDialogue",
@@ -3433,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "readFile",
           "package": "gofer-prelude",
@@ -3442,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "readFile",
           "normalized": "String-\u003eFailCont-\u003eStrCont-\u003eDialogue",
@@ -3457,6 +3757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "rem",
           "package": "gofer-prelude",
@@ -3466,6 +3767,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "rem",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -3480,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "repeat",
           "package": "gofer-prelude",
@@ -3488,6 +3791,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "repeat",
           "normalized": "a-\u003e[a]",
@@ -3502,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "reverse",
           "package": "gofer-prelude",
@@ -3510,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "reverse",
           "normalized": "[a]-\u003e[a]",
@@ -3524,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "rjustify",
           "package": "gofer-prelude",
@@ -3533,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "rjustify",
           "normalized": "Int-\u003eString-\u003eString",
@@ -3547,6 +3855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "run",
           "package": "gofer-prelude",
@@ -3556,6 +3865,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "run",
           "normalized": "(String-\u003eString)-\u003eDialogue",
@@ -3570,6 +3880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "scanl",
           "package": "gofer-prelude",
@@ -3579,6 +3890,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "scanl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003e[b]-\u003e[a]",
@@ -3593,6 +3905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "scanl'",
           "package": "gofer-prelude",
@@ -3602,6 +3915,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "scanl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003e[b]-\u003e[a]",
@@ -3616,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "scanl1",
           "package": "gofer-prelude",
@@ -3625,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "scanl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003e[a]",
@@ -3639,6 +3955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "scanr",
           "package": "gofer-prelude",
@@ -3648,6 +3965,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "scanr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003e[a]-\u003e[b]",
@@ -3662,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "scanr1",
           "package": "gofer-prelude",
@@ -3671,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "scanr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003e[a]",
@@ -3685,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "show",
           "package": "gofer-prelude",
@@ -3694,6 +4015,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "show",
           "normalized": "a-\u003eString",
@@ -3708,6 +4030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "showChar",
           "package": "gofer-prelude",
@@ -3717,6 +4040,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "showChar",
           "normalized": "Char-\u003eShowS",
@@ -3732,6 +4056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "showList",
           "package": "gofer-prelude",
@@ -3741,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "showList",
           "normalized": "[a]-\u003eShowS",
@@ -3756,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "showString",
           "package": "gofer-prelude",
@@ -3765,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "showString",
           "normalized": "String-\u003eShowS",
@@ -3780,6 +4108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "shows",
           "package": "gofer-prelude",
@@ -3789,6 +4118,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "shows",
           "normalized": "a-\u003eShowS",
@@ -3803,6 +4133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "showsPrec",
           "package": "gofer-prelude",
@@ -3812,6 +4143,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "showsPrec",
           "normalized": "Int-\u003ea-\u003eShowS",
@@ -3827,6 +4159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "signum",
           "package": "gofer-prelude",
@@ -3836,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "signum",
           "normalized": "a-\u003eInt",
@@ -3850,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "sin",
           "package": "gofer-prelude",
@@ -3859,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "sin",
           "normalized": "Float-\u003eFloat",
@@ -3873,6 +4209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "snd",
           "package": "gofer-prelude",
@@ -3882,6 +4219,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "snd",
           "normalized": "(a,b)-\u003eb",
@@ -3896,6 +4234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "snd3",
           "package": "gofer-prelude",
@@ -3905,6 +4244,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -3919,6 +4259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "sort",
           "package": "gofer-prelude",
@@ -3928,6 +4269,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "sort",
           "normalized": "[a]-\u003e[a]",
@@ -3942,6 +4284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "space",
           "package": "gofer-prelude",
@@ -3951,6 +4294,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "space",
           "normalized": "Int-\u003eString",
@@ -3965,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "span",
           "package": "gofer-prelude",
@@ -3974,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "span",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -3988,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "splitAt",
           "package": "gofer-prelude",
@@ -3997,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "splitAt",
           "normalized": "Int-\u003e[a]-\u003e([a],[a])",
@@ -4012,6 +4360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "sqrt",
           "package": "gofer-prelude",
@@ -4021,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "sqrt",
           "normalized": "Float-\u003eFloat",
@@ -4035,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "stdecho",
           "package": "gofer-prelude",
@@ -4044,6 +4395,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "stdecho",
           "normalized": "[Char]",
@@ -4058,6 +4410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "stderr",
           "package": "gofer-prelude",
@@ -4067,6 +4420,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "stderr",
           "normalized": "[Char]",
@@ -4081,6 +4435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "stdin",
           "package": "gofer-prelude",
@@ -4090,6 +4445,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "stdin",
           "normalized": "[Char]",
@@ -4104,6 +4460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "stdout",
           "package": "gofer-prelude",
@@ -4113,6 +4470,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "stdout",
           "normalized": "[Char]",
@@ -4127,6 +4485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "strDispatch",
           "package": "gofer-prelude",
@@ -4136,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "strDispatch",
           "normalized": "(IOError-\u003e[Response]-\u003ea)-\u003e(String-\u003e[Response]-\u003ea)-\u003e[Response]-\u003ea",
@@ -4151,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "strListDispatch",
           "package": "gofer-prelude",
@@ -4160,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "strListDispatch",
           "normalized": "(IOError-\u003e[Response]-\u003ea)-\u003e([String]-\u003e[Response]-\u003ea)-\u003e[Response]-\u003ea",
@@ -4175,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "strict",
           "package": "gofer-prelude",
@@ -4184,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "strict",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -4198,6 +4562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "subtract",
           "package": "gofer-prelude",
@@ -4207,6 +4572,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "subtract",
           "normalized": "a-\u003ea-\u003ea",
@@ -4221,6 +4587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "succDispatch",
           "package": "gofer-prelude",
@@ -4230,6 +4597,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "succDispatch",
           "normalized": "(IOError-\u003e[Response]-\u003ea)-\u003e([Response]-\u003ea)-\u003e[Response]-\u003ea",
@@ -4245,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "sum",
           "package": "gofer-prelude",
@@ -4254,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "sum",
           "normalized": "[a]-\u003ea",
@@ -4268,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "sums",
           "package": "gofer-prelude",
@@ -4277,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "sums",
           "normalized": "[a]-\u003e[a]",
@@ -4291,6 +4663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "tail",
           "package": "gofer-prelude",
@@ -4300,6 +4673,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "tail",
           "normalized": "[a]-\u003e[a]",
@@ -4315,6 +4689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList breaking functions:\n\u003c/p\u003e\u003cp\u003etake n xs       returns the first n elements of xs\n   drop n xs       returns the remaining elements of xs\n   splitAt n xs    = (take n xs, drop n xs)\n\u003c/p\u003e\u003cp\u003etakeWhile p xs  returns the longest initial segment of xs whose\n                   elements satisfy p\n   dropWhile p xs  returns the remaining portion of the list\n   span p xs       = (takeWhile p xs, dropWhile p xs)\n\u003c/p\u003e\u003cp\u003etakeUntil p xs  returns the list of elements upto and including the\n                   first element of xs which satisfies p\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "take",
           "package": "gofer-prelude",
@@ -4325,6 +4700,7 @@
         "index": {
           "description": "List breaking functions take xs returns the first elements of xs drop xs returns the remaining elements of xs splitAt xs take xs drop xs takeWhile xs returns the longest initial segment of xs whose elements satisfy dropWhile xs returns the remaining portion of the list span xs takeWhile xs dropWhile xs takeUntil xs returns the list of elements upto and including the first element of xs which satisfies",
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "take",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -4339,6 +4715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "takeUntil",
           "package": "gofer-prelude",
@@ -4348,6 +4725,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "takeUntil",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -4363,6 +4741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "takeWhile",
           "package": "gofer-prelude",
@@ -4372,6 +4751,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -4387,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "tan",
           "package": "gofer-prelude",
@@ -4396,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "tan",
           "normalized": "Float-\u003eFloat",
@@ -4410,6 +4792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "thd3",
           "package": "gofer-prelude",
@@ -4419,6 +4802,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "thd3",
           "normalized": "(a,b,c)-\u003ec",
@@ -4433,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "transpose",
           "package": "gofer-prelude",
@@ -4441,6 +4826,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "transpose",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -4455,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "truncate",
           "package": "gofer-prelude",
@@ -4464,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "truncate",
           "normalized": "Float-\u003eInt",
@@ -4478,6 +4866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "uncurry",
           "package": "gofer-prelude",
@@ -4487,6 +4876,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "uncurry",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(a,b)-\u003ec",
@@ -4501,6 +4891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "undefined",
           "package": "gofer-prelude",
@@ -4510,6 +4901,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "undefined",
           "package": "gofer-prelude",
@@ -4522,6 +4914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "unlines",
           "package": "gofer-prelude",
@@ -4531,6 +4924,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "unlines",
           "normalized": "[String]-\u003eString",
@@ -4545,6 +4939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "until",
           "package": "gofer-prelude",
@@ -4554,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "until",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003ea)-\u003ea-\u003ea",
@@ -4568,6 +4964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "until'",
           "package": "gofer-prelude",
@@ -4577,6 +4974,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "until'",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003ea)-\u003ea-\u003e[a]",
@@ -4591,6 +4989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "unwords",
           "package": "gofer-prelude",
@@ -4600,6 +4999,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "unwords",
           "normalized": "[String]-\u003eString",
@@ -4614,6 +5014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "unzip",
           "package": "gofer-prelude",
@@ -4623,6 +5024,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "unzip",
           "normalized": "[(a,b)]-\u003e([a],[b])",
@@ -4637,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "words",
           "package": "gofer-prelude",
@@ -4646,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "words",
           "normalized": "String-\u003e[String]",
@@ -4660,6 +5064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "writeFile",
           "package": "gofer-prelude",
@@ -4669,6 +5074,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "writeFile",
           "normalized": "String-\u003eString-\u003eFailCont-\u003eSuccCont-\u003eDialogue",
@@ -4684,6 +5090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "zip",
           "package": "gofer-prelude",
@@ -4693,6 +5100,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "zip",
           "normalized": "[a]-\u003e[b]-\u003e[(a,b)]",
@@ -4707,6 +5115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "zip3",
           "package": "gofer-prelude",
@@ -4716,6 +5125,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "zip3",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[(a,b,c)]",
@@ -4730,6 +5140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "zip4",
           "package": "gofer-prelude",
@@ -4739,6 +5150,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "zip4",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[(a,b,c,d)]",
@@ -4753,6 +5165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "zip5",
           "package": "gofer-prelude",
@@ -4762,6 +5175,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "zip5",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[(a,b,c,d,e)]",
@@ -4776,6 +5190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "zip6",
           "package": "gofer-prelude",
@@ -4785,6 +5200,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "zip6",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003e[(a,b,c,d,e,f)]",
@@ -4799,6 +5215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "zip7",
           "package": "gofer-prelude",
@@ -4808,6 +5225,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "zip7",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003e[g]-\u003e[(a,b,c,d,e,f,g)]",
@@ -4822,6 +5240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "zipWith",
           "package": "gofer-prelude",
@@ -4831,6 +5250,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003e[a]-\u003e[b]-\u003e[c]",
@@ -4846,6 +5266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "zipWith3",
           "package": "gofer-prelude",
@@ -4855,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "zipWith3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]",
@@ -4870,6 +5292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "zipWith4",
           "package": "gofer-prelude",
@@ -4879,6 +5302,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "zipWith4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]",
@@ -4894,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "zipWith5",
           "package": "gofer-prelude",
@@ -4903,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "zipWith5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]",
@@ -4918,6 +5344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "zipWith6",
           "package": "gofer-prelude",
@@ -4927,6 +5354,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "zipWith6",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003e[g]",
@@ -4942,6 +5370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:01 UTC 2014",
           "module": "Prelude.Gofer",
           "name": "zipWith7",
           "package": "gofer-prelude",
@@ -4951,6 +5380,7 @@
         },
         "index": {
           "hierarchy": "Prelude Gofer",
+          "indexed": "2014-03-11T18:19:01",
           "module": "Prelude.Gofer",
           "name": "zipWith7",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003e[g]-\u003e[h]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "parallel-tree-search"
+        "phrase": "parallel-tree-search",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Haskell library provides an implementation of parallel search\n based on the search tree provided by the package tree-monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:21 UTC 2014",
           "module": "Control.Parallel.TreeSearch",
           "name": "TreeSearch",
           "package": "parallel-tree-search",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This Haskell library provides an implementation of parallel search based on the search tree provided by the package tree-monad",
           "hierarchy": "Control Parallel TreeSearch",
+          "indexed": "2014-03-11T19:34:21",
           "module": "Control.Parallel.TreeSearch",
           "name": "TreeSearch",
           "package": "parallel-tree-search",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate the leaves of a \u003ccode\u003eSearchTree\u003c/code\u003e using parallel depth-first search.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:21 UTC 2014",
           "module": "Control.Parallel.TreeSearch",
           "name": "parSearch",
           "package": "parallel-tree-search",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Enumerate the leaves of SearchTree using parallel depth-first search",
           "hierarchy": "Control Parallel TreeSearch",
+          "indexed": "2014-03-11T19:34:21",
           "module": "Control.Parallel.TreeSearch",
           "name": "parSearch",
           "normalized": "SearchTree a-\u003e[a]",

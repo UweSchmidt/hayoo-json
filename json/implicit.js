@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "implicit"
+        "phrase": "implicit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Definitions",
           "package": "implicit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Definitions",
           "package": "implicit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "ℕ",
           "package": "implicit",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "ℕ",
           "package": "implicit",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "ℝ",
           "package": "implicit",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "ℝ",
           "package": "implicit",
@@ -79,6 +85,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "ℝ2",
           "package": "implicit",
@@ -87,6 +94,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "ℝ2",
           "package": "implicit",
@@ -99,6 +107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "ℝ3",
           "package": "implicit",
@@ -107,6 +116,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "ℝ3",
           "package": "implicit",
@@ -120,6 +130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Box2",
           "package": "implicit",
@@ -129,6 +140,7 @@
         "index": {
           "description": "box",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Box2",
           "package": "implicit",
@@ -143,6 +155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 3D box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Box3",
           "package": "implicit",
@@ -152,6 +165,7 @@
         "index": {
           "description": "box",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Box3",
           "package": "implicit",
@@ -166,6 +180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoxed 2D object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Boxed2",
           "package": "implicit",
@@ -175,6 +190,7 @@
         "index": {
           "description": "Boxed object",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Boxed2",
           "package": "implicit",
@@ -189,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoxed 3D object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Boxed3",
           "package": "implicit",
@@ -198,6 +215,7 @@
         "index": {
           "description": "Boxed object",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Boxed3",
           "package": "implicit",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "BoxedObj2",
           "package": "implicit",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "BoxedObj2",
           "package": "implicit",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "BoxedObj3",
           "package": "implicit",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "BoxedObj3",
           "package": "implicit",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "ComponentWiseMultable",
           "package": "implicit",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "ComponentWiseMultable",
           "package": "implicit",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "M2",
           "package": "implicit",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "M2",
           "package": "implicit",
@@ -294,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "M3",
           "package": "implicit",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "M3",
           "package": "implicit",
@@ -315,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA triangle ((v1,n1),(v2,n2),(v3,n3)) has vertices v1, v2, v3\n   with corresponding normals n1, n2, and n3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "NormedTriangle",
           "package": "implicit",
@@ -324,6 +353,7 @@
         "index": {
           "description": "triangle v1 n1 v2 n2 v3 n3 has vertices v1 v2 v3 with corresponding normals n1 n2 and n3",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "NormedTriangle",
           "package": "implicit",
@@ -338,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA normed triangle mesh is a bunch of normed trianlges!!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "NormedTriangleMesh",
           "package": "implicit",
@@ -347,6 +378,7 @@
         "index": {
           "description": "normed triangle mesh is bunch of normed trianlges",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "NormedTriangleMesh",
           "package": "implicit",
@@ -361,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Obj2",
           "package": "implicit",
@@ -370,6 +403,7 @@
         "index": {
           "description": "object",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Obj2",
           "package": "implicit",
@@ -384,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 3D object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Obj3",
           "package": "implicit",
@@ -393,6 +428,7 @@
         "index": {
           "description": "object",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Obj3",
           "package": "implicit",
@@ -407,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chain of line segments, as in SVG\n eg. [(0,0), (0.5,1), (1,0)] ---\u003e /\\\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Polyline",
           "package": "implicit",
@@ -416,6 +453,7 @@
         "index": {
           "description": "chain of line segments as in SVG eg",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Polyline",
           "package": "implicit",
@@ -430,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRectilinear 2D set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Rectilinear2",
           "package": "implicit",
@@ -439,6 +478,7 @@
         "index": {
           "description": "Rectilinear set",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Rectilinear2",
           "package": "implicit",
@@ -453,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRectilinear 2D set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Rectilinear3",
           "package": "implicit",
@@ -462,6 +503,7 @@
         "index": {
           "description": "Rectilinear set",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Rectilinear3",
           "package": "implicit",
@@ -476,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbolic 2D object format.\n   We want to have a symbolic object so that we can \n   accelerate rendering & give ideal meshes for simple\n   cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "SymbolicObj2",
           "package": "implicit",
@@ -485,6 +528,7 @@
         "index": {
           "description": "symbolic object format We want to have symbolic object so that we can accelerate rendering give ideal meshes for simple cases",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "SymbolicObj2",
           "package": "implicit",
@@ -499,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbolic 3D format!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "SymbolicObj3",
           "package": "implicit",
@@ -508,6 +553,7 @@
         "index": {
           "description": "symbolic format",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "SymbolicObj3",
           "package": "implicit",
@@ -522,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA triangle (a,b,c) = a trinagle with vertices a, b and c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Triangle",
           "package": "implicit",
@@ -531,6 +578,7 @@
         "index": {
           "description": "triangle trinagle with vertices and",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Triangle",
           "package": "implicit",
@@ -545,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA triangle mesh is a bunch of triangles :)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "TriangleMesh",
           "package": "implicit",
@@ -554,6 +603,7 @@
         "index": {
           "description": "triangle mesh is bunch of triangles",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "TriangleMesh",
           "package": "implicit",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "(⋅)",
           "package": "implicit",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "(⋅) ⋅",
           "normalized": "a-\u003ea-\u003eScalar a",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "(⋯*)",
           "package": "implicit",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "(⋯*) ⋯*",
           "normalized": "a-\u003ea-\u003ea",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "(⋯/)",
           "package": "implicit",
@@ -622,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "(⋯/) ⋯/",
           "normalized": "a-\u003ea-\u003ea",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Circle",
           "package": "implicit",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Circle",
           "package": "implicit",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Complement2",
           "package": "implicit",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Complement2",
           "package": "implicit",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Complement3",
           "package": "implicit",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Complement3",
           "package": "implicit",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Cylinder",
           "package": "implicit",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Cylinder",
           "package": "implicit",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "DifferenceR2",
           "package": "implicit",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "DifferenceR2",
           "normalized": "DifferenceR ℝ[SymbolicObj]",
@@ -748,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "DifferenceR3",
           "package": "implicit",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "DifferenceR3",
           "normalized": "DifferenceR ℝ[SymbolicObj]",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "EmbedBoxedObj2",
           "package": "implicit",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "EmbedBoxedObj2",
           "package": "implicit",
@@ -794,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "EmbedBoxedObj3",
           "package": "implicit",
@@ -803,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "EmbedBoxedObj3",
           "package": "implicit",
@@ -816,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "ExtrudeOnEdgeOf",
           "package": "implicit",
@@ -825,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "ExtrudeOnEdgeOf",
           "package": "implicit",
@@ -838,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "ExtrudeR",
           "package": "implicit",
@@ -847,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "ExtrudeR",
           "package": "implicit",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "ExtrudeRM",
           "package": "implicit",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "ExtrudeRM",
           "normalized": "ExtrudeRM ℝ(Maybe(ℝ-\u003eℝ))(Maybe(ℝ-\u003eℝ))(Maybe(ℝ-\u003eℝ))SymbolicObj(Either ℝ(ℝ-\u003eℝ))",
@@ -884,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "ExtrudeRotateR",
           "package": "implicit",
@@ -893,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "ExtrudeRotateR",
           "package": "implicit",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "IntersectR2",
           "package": "implicit",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "IntersectR2",
           "normalized": "IntersectR ℝ[SymbolicObj]",
@@ -930,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "IntersectR3",
           "package": "implicit",
@@ -939,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "IntersectR3",
           "normalized": "IntersectR ℝ[SymbolicObj]",
@@ -954,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Outset2",
           "package": "implicit",
@@ -963,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Outset2",
           "package": "implicit",
@@ -976,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Outset3",
           "package": "implicit",
@@ -985,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Outset3",
           "package": "implicit",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "PolygonR",
           "package": "implicit",
@@ -1007,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "PolygonR",
           "normalized": "PolygonR ℝ[ℝ]",
@@ -1022,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Rect3R",
           "package": "implicit",
@@ -1031,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Rect3R",
           "package": "implicit",
@@ -1044,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "RectR",
           "package": "implicit",
@@ -1053,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "RectR",
           "package": "implicit",
@@ -1066,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Rotate2",
           "package": "implicit",
@@ -1075,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Rotate2",
           "package": "implicit",
@@ -1088,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Rotate3",
           "package": "implicit",
@@ -1097,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Rotate3",
           "normalized": "Rotate(ℝ,ℝ,ℝ)SymbolicObj",
@@ -1112,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Rotate3V",
           "package": "implicit",
@@ -1121,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Rotate3V",
           "package": "implicit",
@@ -1134,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "RotateExtrude",
           "package": "implicit",
@@ -1143,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "RotateExtrude",
           "normalized": "RotateExtrude ℝ(Maybe ℝ)(Either ℝ(ℝ-\u003eℝ))SymbolicObj",
@@ -1158,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Scale2",
           "package": "implicit",
@@ -1167,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Scale2",
           "package": "implicit",
@@ -1180,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Scale3",
           "package": "implicit",
@@ -1189,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Scale3",
           "package": "implicit",
@@ -1202,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Shell2",
           "package": "implicit",
@@ -1211,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Shell2",
           "package": "implicit",
@@ -1224,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Shell3",
           "package": "implicit",
@@ -1233,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Shell3",
           "package": "implicit",
@@ -1246,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Sphere",
           "package": "implicit",
@@ -1255,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Sphere",
           "package": "implicit",
@@ -1268,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Translate2",
           "package": "implicit",
@@ -1277,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Translate2",
           "package": "implicit",
@@ -1290,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "Translate3",
           "package": "implicit",
@@ -1299,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "Translate3",
           "package": "implicit",
@@ -1312,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "UnionR2",
           "package": "implicit",
@@ -1321,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "UnionR2",
           "normalized": "UnionR ℝ[SymbolicObj]",
@@ -1336,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "UnionR3",
           "package": "implicit",
@@ -1345,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "UnionR3",
           "normalized": "UnionR ℝ[SymbolicObj]",
@@ -1360,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "errorMessage",
           "package": "implicit",
@@ -1369,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "errorMessage",
           "normalized": "Int-\u003eString-\u003eIO()",
@@ -1385,6 +1507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNow for something that makes me a bad person...\n   I promise I'll use it for good, not evil!\n   I don't want to reparse the program arguments \n   everytime I want to know if XML errors are needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Definitions",
           "name": "xmlErrorOn",
           "package": "implicit",
@@ -1395,6 +1518,7 @@
         "index": {
           "description": "Now for something that makes me bad person promise ll use it for good not evil don want to reparse the program arguments everytime want to know if XML errors are needed",
           "hierarchy": "Graphics Implicit Definitions",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Definitions",
           "name": "xmlErrorOn",
           "package": "implicit",
@@ -1408,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "Export",
           "package": "implicit",
@@ -1416,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "Export",
           "package": "implicit",
@@ -1429,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "formatObject",
           "package": "implicit",
@@ -1437,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "formatObject",
           "normalized": "ℝ-\u003e(a-\u003eText)-\u003eb-\u003eText",
@@ -1452,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "writeBinSTL",
           "package": "implicit",
@@ -1461,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "writeBinSTL",
           "normalized": "ℝ-\u003eFilePath-\u003ea-\u003eIO()",
@@ -1476,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "writeGCodeHacklabLaser",
           "package": "implicit",
@@ -1485,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "writeGCodeHacklabLaser",
           "normalized": "ℝ-\u003eFilePath-\u003ea-\u003eIO()",
@@ -1500,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "writeOBJ",
           "package": "implicit",
@@ -1509,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "writeOBJ",
           "normalized": "ℝ-\u003eFilePath-\u003ea-\u003eIO()",
@@ -1524,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "writeObject",
           "package": "implicit",
@@ -1532,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "writeObject",
           "normalized": "ℝ-\u003e(a-\u003eText)-\u003eFilePath-\u003eb-\u003eIO()",
@@ -1547,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "writeObject'",
           "package": "implicit",
@@ -1555,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "writeObject'",
           "normalized": "ℝ-\u003e(FilePath-\u003ea-\u003eIO())-\u003eFilePath-\u003eb-\u003eIO()",
@@ -1570,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "writePNG",
           "package": "implicit",
@@ -1579,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "writePNG",
           "normalized": "ℝ-\u003eFilePath-\u003ea-\u003eIO()",
@@ -1594,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "writeSCAD2",
           "package": "implicit",
@@ -1603,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "writeSCAD2",
           "normalized": "ℝ-\u003eFilePath-\u003eSymbolicObj-\u003eIO()",
@@ -1618,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "writeSCAD3",
           "package": "implicit",
@@ -1627,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "writeSCAD3",
           "normalized": "ℝ-\u003eFilePath-\u003eSymbolicObj-\u003eIO()",
@@ -1642,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "writeSTL",
           "package": "implicit",
@@ -1651,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "writeSTL",
           "normalized": "ℝ-\u003eFilePath-\u003ea-\u003eIO()",
@@ -1666,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "writeSVG",
           "package": "implicit",
@@ -1675,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "writeSVG",
           "normalized": "ℝ-\u003eFilePath-\u003ea-\u003eIO()",
@@ -1690,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Export",
           "name": "writeTHREEJS",
           "package": "implicit",
@@ -1699,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Export",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Export",
           "name": "writeTHREEJS",
           "normalized": "ℝ-\u003eFilePath-\u003ea-\u003eIO()",
@@ -1714,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "ExtOpenScad",
           "package": "implicit",
@@ -1722,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ExtOpenScad",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "ExtOpenScad",
           "package": "implicit",
@@ -1736,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects for our OpenSCAD-like language\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OVal",
           "package": "implicit",
@@ -1745,6 +1898,7 @@
         "index": {
           "description": "Objects for our OpenSCAD-like language",
           "hierarchy": "Graphics Implicit ExtOpenScad",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OVal",
           "package": "implicit",
@@ -1758,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OBool",
           "package": "implicit",
@@ -1767,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ExtOpenScad",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OBool",
           "package": "implicit",
@@ -1780,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OError",
           "package": "implicit",
@@ -1789,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ExtOpenScad",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OError",
           "normalized": "OError[String]",
@@ -1804,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OFunc",
           "package": "implicit",
@@ -1813,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ExtOpenScad",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OFunc",
           "normalized": "OFunc(OVal-\u003eOVal)",
@@ -1828,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OList",
           "package": "implicit",
@@ -1837,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ExtOpenScad",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OList",
           "normalized": "OList[OVal]",
@@ -1852,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OModule",
           "package": "implicit",
@@ -1861,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ExtOpenScad",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OModule",
           "normalized": "OModule([OVal]-\u003eArgParser(IO[OVal]))",
@@ -1876,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "ONum",
           "package": "implicit",
@@ -1885,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ExtOpenScad",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "ONum",
           "package": "implicit",
@@ -1898,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OObj2",
           "package": "implicit",
@@ -1907,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ExtOpenScad",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OObj2",
           "package": "implicit",
@@ -1920,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OObj3",
           "package": "implicit",
@@ -1929,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ExtOpenScad",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OObj3",
           "package": "implicit",
@@ -1942,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OString",
           "package": "implicit",
@@ -1951,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ExtOpenScad",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OString",
           "package": "implicit",
@@ -1964,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OUndefined",
           "package": "implicit",
@@ -1973,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ExtOpenScad",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ExtOpenScad",
           "name": "OUndefined",
           "package": "implicit",
@@ -2011,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.MathUtil",
           "name": "MathUtil",
           "package": "implicit",
@@ -2019,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit MathUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.MathUtil",
           "name": "MathUtil",
           "package": "implicit",
@@ -2032,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.MathUtil",
           "name": "box3sWithin",
           "package": "implicit",
@@ -2041,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit MathUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.MathUtil",
           "name": "box3sWithin",
           "normalized": "ℝ-\u003e(ℝ,ℝ)-\u003e(ℝ,ℝ)-\u003eBool",
@@ -2057,6 +2235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe distance a point p is from a line segment (a,b)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.MathUtil",
           "name": "distFromLineSeg",
           "package": "implicit",
@@ -2067,6 +2246,7 @@
         "index": {
           "description": "The distance point is from line segment",
           "hierarchy": "Graphics Implicit MathUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.MathUtil",
           "name": "distFromLineSeg",
           "normalized": "ℝ-\u003e(ℝ,ℝ)-\u003eℝ",
@@ -2082,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.MathUtil",
           "name": "pack",
           "package": "implicit",
@@ -2090,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit MathUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.MathUtil",
           "name": "pack",
           "normalized": "Box-\u003eℝ-\u003e[(Box,a)]-\u003e([(ℝ,a)],[(Box,a)])",
@@ -2105,6 +2287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRounded Maximum\n Consider  max(x,y) = 0, the generated curve \n has a square-like corner. We replace it with a \n quarter of a circle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.MathUtil",
           "name": "rmax",
           "package": "implicit",
@@ -2114,6 +2297,7 @@
         "index": {
           "description": "Rounded Maximum Consider max the generated curve has square-like corner We replace it with quarter of circle",
           "hierarchy": "Graphics Implicit MathUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.MathUtil",
           "name": "rmax",
           "normalized": "ℝ-\u003eℝ-\u003eℝ-\u003eℝ",
@@ -2129,6 +2313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike rmax, but on a list instead of two.\n Just as maximum is.\n The implementation is to take the maximum two\n and rmax those.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.MathUtil",
           "name": "rmaximum",
           "package": "implicit",
@@ -2138,6 +2323,7 @@
         "index": {
           "description": "Like rmax but on list instead of two Just as maximum is The implementation is to take the maximum two and rmax those",
           "hierarchy": "Graphics Implicit MathUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.MathUtil",
           "name": "rmaximum",
           "normalized": "ℝ-\u003e[ℝ]-\u003eℝ",
@@ -2153,6 +2339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRounded minimum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.MathUtil",
           "name": "rmin",
           "package": "implicit",
@@ -2162,6 +2349,7 @@
         "index": {
           "description": "Rounded minimum",
           "hierarchy": "Graphics Implicit MathUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.MathUtil",
           "name": "rmin",
           "normalized": "ℝ-\u003eℝ-\u003eℝ-\u003eℝ",
@@ -2177,6 +2365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike rmin but on a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.MathUtil",
           "name": "rminimum",
           "package": "implicit",
@@ -2186,6 +2375,7 @@
         "index": {
           "description": "Like rmin but on list",
           "hierarchy": "Graphics Implicit MathUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.MathUtil",
           "name": "rminimum",
           "normalized": "ℝ-\u003e[ℝ]-\u003eℝ",
@@ -2200,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ObjectUtil",
           "name": "ObjectUtil",
           "package": "implicit",
@@ -2208,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ObjectUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ObjectUtil",
           "name": "ObjectUtil",
           "package": "implicit",
@@ -2221,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ObjectUtil",
           "name": "getBox2",
           "package": "implicit",
@@ -2230,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ObjectUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ObjectUtil",
           "name": "getBox2",
           "normalized": "SymbolicObj-\u003eBox",
@@ -2245,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ObjectUtil",
           "name": "getBox3",
           "package": "implicit",
@@ -2254,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ObjectUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ObjectUtil",
           "name": "getBox3",
           "normalized": "SymbolicObj-\u003eBox",
@@ -2269,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ObjectUtil",
           "name": "getImplicit2",
           "package": "implicit",
@@ -2278,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ObjectUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ObjectUtil",
           "name": "getImplicit2",
           "normalized": "SymbolicObj-\u003eObj",
@@ -2293,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.ObjectUtil",
           "name": "getImplicit3",
           "package": "implicit",
@@ -2302,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit ObjectUtil",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.ObjectUtil",
           "name": "getImplicit3",
           "normalized": "SymbolicObj-\u003eObj",
@@ -2317,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "Primitives",
           "package": "implicit",
@@ -2325,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "Primitives",
           "package": "implicit",
@@ -2338,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "Object",
           "package": "implicit",
@@ -2346,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "Object",
           "package": "implicit",
@@ -2383,6 +2587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplement an Object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "complement",
           "package": "implicit",
@@ -2393,6 +2598,7 @@
         "index": {
           "description": "Complement an Object",
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "complement",
           "package": "implicit",
@@ -2477,6 +2683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRounded difference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "differenceR",
           "package": "implicit",
@@ -2487,6 +2694,7 @@
         "index": {
           "description": "Rounded difference",
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "differenceR",
           "package": "implicit",
@@ -2548,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "extrudeRM",
           "package": "implicit",
@@ -2557,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "extrudeRM",
           "normalized": "ℝ-\u003eMaybe(ℝ-\u003eℝ)-\u003eMaybe(ℝ-\u003eℝ)-\u003eMaybe(ℝ-\u003eℝ)-\u003eSymbolicObj-\u003eEither ℝ(ℝ-\u003eℝ)-\u003eSymbolicObj",
@@ -2573,6 +2783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the bounding box an object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "getBox",
           "package": "implicit",
@@ -2583,6 +2794,7 @@
         "index": {
           "description": "Get the bounding box an object",
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "getBox",
           "package": "implicit",
@@ -2597,6 +2809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the implicit function for an object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "getImplicit",
           "package": "implicit",
@@ -2607,6 +2820,7 @@
         "index": {
           "description": "Get the implicit function for an object",
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "getImplicit",
           "package": "implicit",
@@ -2620,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "implicit",
           "package": "implicit",
@@ -2629,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "implicit",
           "package": "implicit",
@@ -2666,6 +2882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRounded minimum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "intersectR",
           "package": "implicit",
@@ -2676,6 +2893,7 @@
         "index": {
           "description": "Rounded minimum",
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "intersectR",
           "package": "implicit",
@@ -2689,6 +2907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutset an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "outset",
           "package": "implicit",
@@ -2699,6 +2918,7 @@
         "index": {
           "description": "Outset an object",
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "outset",
           "package": "implicit",
@@ -2711,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "pack2",
           "package": "implicit",
@@ -2720,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "pack2",
           "normalized": "ℝ-\u003eℝ-\u003e[SymbolicObj]-\u003eMaybe SymbolicObj",
@@ -2734,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "pack3",
           "package": "implicit",
@@ -2743,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "pack3",
           "normalized": "ℝ-\u003eℝ-\u003e[SymbolicObj]-\u003eMaybe SymbolicObj",
@@ -2781,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "polygonR",
           "package": "implicit",
@@ -2789,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "polygonR",
           "normalized": "ℝ-\u003e[ℝ]-\u003eSymbolicObj",
@@ -2849,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "rotate",
           "package": "implicit",
@@ -2858,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "rotate",
           "normalized": "ℝ-\u003eSymbolicObj-\u003eSymbolicObj",
@@ -2872,6 +3100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "rotate3",
           "package": "implicit",
@@ -2881,6 +3110,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "rotate3",
           "normalized": "(ℝ,ℝ,ℝ)-\u003eSymbolicObj-\u003eSymbolicObj",
@@ -2895,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "rotate3V",
           "package": "implicit",
@@ -2904,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "rotate3V",
           "normalized": "ℝ-\u003eℝ-\u003eSymbolicObj-\u003eSymbolicObj",
@@ -2918,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "rotateExtrude",
           "package": "implicit",
@@ -2927,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "rotateExtrude",
           "normalized": "ℝ-\u003eMaybe ℝ-\u003eEither ℝ(ℝ-\u003eℝ)-\u003eSymbolicObj-\u003eSymbolicObj",
@@ -2943,6 +3177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale an object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "scale",
           "package": "implicit",
@@ -2953,6 +3188,7 @@
         "index": {
           "description": "Scale an object",
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "scale",
           "package": "implicit",
@@ -2966,6 +3202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a shell of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "shell",
           "package": "implicit",
@@ -2976,6 +3213,7 @@
         "index": {
           "description": "Make shell of an object",
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "shell",
           "package": "implicit",
@@ -3012,6 +3250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an object by a vector of appropriate dimension. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "translate",
           "package": "implicit",
@@ -3022,6 +3261,7 @@
         "index": {
           "description": "Translate an object by vector of appropriate dimension",
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "translate",
           "package": "implicit",
@@ -3059,6 +3299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRounded union\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit.Primitives",
           "name": "unionR",
           "package": "implicit",
@@ -3069,6 +3310,7 @@
         "index": {
           "description": "Rounded union",
           "hierarchy": "Graphics Implicit Primitives",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit.Primitives",
           "name": "unionR",
           "package": "implicit",
@@ -3081,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "Implicit",
           "package": "implicit",
@@ -3089,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "Implicit",
           "package": "implicit",
@@ -3103,6 +3347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbolic 2D object format.\n   We want to have a symbolic object so that we can \n   accelerate rendering & give ideal meshes for simple\n   cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "SymbolicObj2",
           "package": "implicit",
@@ -3112,6 +3357,7 @@
         "index": {
           "description": "symbolic object format We want to have symbolic object so that we can accelerate rendering give ideal meshes for simple cases",
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "SymbolicObj2",
           "package": "implicit",
@@ -3126,6 +3372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbolic 3D format!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "SymbolicObj3",
           "package": "implicit",
@@ -3135,6 +3382,7 @@
         "index": {
           "description": "symbolic format",
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "SymbolicObj3",
           "package": "implicit",
@@ -3149,6 +3397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplement an Object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "complement",
           "package": "implicit",
@@ -3158,6 +3407,7 @@
         "index": {
           "description": "Complement an Object",
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "complement",
           "normalized": "a-\u003ea",
@@ -3173,6 +3423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRounded difference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "differenceR",
           "package": "implicit",
@@ -3182,6 +3433,7 @@
         "index": {
           "description": "Rounded difference",
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "differenceR",
           "normalized": "ℝ-\u003e[a]-\u003ea",
@@ -3196,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "implicit",
           "package": "implicit",
@@ -3204,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "implicit",
           "normalized": "(a-\u003eℝ)-\u003e(a,a)-\u003eb",
@@ -3219,6 +3473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRounded minimum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "intersectR",
           "package": "implicit",
@@ -3228,6 +3483,7 @@
         "index": {
           "description": "Rounded minimum",
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "intersectR",
           "normalized": "ℝ-\u003e[a]-\u003ea",
@@ -3243,6 +3499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale an object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "scale",
           "package": "implicit",
@@ -3252,6 +3509,7 @@
         "index": {
           "description": "Scale an object",
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "scale",
           "normalized": "a-\u003eb-\u003eb",
@@ -3267,6 +3525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a shell of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "shell",
           "package": "implicit",
@@ -3276,6 +3535,7 @@
         "index": {
           "description": "Make shell of an object",
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "shell",
           "normalized": "ℝ-\u003ea-\u003ea",
@@ -3291,6 +3551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an object by a vector of appropriate dimension. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "translate",
           "package": "implicit",
@@ -3300,6 +3561,7 @@
         "index": {
           "description": "Translate an object by vector of appropriate dimension",
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "translate",
           "normalized": "a-\u003eb-\u003eb",
@@ -3315,6 +3577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRounded union\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "unionR",
           "package": "implicit",
@@ -3324,6 +3587,7 @@
         "index": {
           "description": "Rounded union",
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "unionR",
           "normalized": "ℝ-\u003e[a]-\u003ea",
@@ -3338,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "writeBinSTL",
           "package": "implicit",
@@ -3347,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "writeBinSTL",
           "normalized": "ℝ-\u003eFilePath-\u003eSymbolicObj-\u003eIO()",
@@ -3362,6 +3628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "writeGCodeHacklabLaser",
           "package": "implicit",
@@ -3371,6 +3638,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "writeGCodeHacklabLaser",
           "normalized": "ℝ-\u003eFilePath-\u003eSymbolicObj-\u003eIO()",
@@ -3386,6 +3654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "writeOBJ",
           "package": "implicit",
@@ -3395,6 +3664,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "writeOBJ",
           "normalized": "ℝ-\u003eFilePath-\u003eSymbolicObj-\u003eIO()",
@@ -3410,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "writePNG2",
           "package": "implicit",
@@ -3419,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "writePNG2",
           "normalized": "ℝ-\u003eFilePath-\u003eSymbolicObj-\u003eIO()",
@@ -3434,6 +3706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "writePNG3",
           "package": "implicit",
@@ -3443,6 +3716,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "writePNG3",
           "normalized": "ℝ-\u003eFilePath-\u003eSymbolicObj-\u003eIO()",
@@ -3458,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "writeSCAD2",
           "package": "implicit",
@@ -3467,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "writeSCAD2",
           "normalized": "ℝ-\u003eFilePath-\u003eSymbolicObj-\u003eIO()",
@@ -3482,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "writeSCAD3",
           "package": "implicit",
@@ -3491,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "writeSCAD3",
           "normalized": "ℝ-\u003eFilePath-\u003eSymbolicObj-\u003eIO()",
@@ -3506,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "writeSTL",
           "package": "implicit",
@@ -3515,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "writeSTL",
           "normalized": "ℝ-\u003eFilePath-\u003eSymbolicObj-\u003eIO()",
@@ -3530,6 +3810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "writeSVG",
           "package": "implicit",
@@ -3539,6 +3820,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "writeSVG",
           "normalized": "ℝ-\u003eFilePath-\u003eSymbolicObj-\u003eIO()",
@@ -3554,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:06 UTC 2014",
           "module": "Graphics.Implicit",
           "name": "writeTHREEJS",
           "package": "implicit",
@@ -3563,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "Graphics Implicit",
+          "indexed": "2014-03-11T18:57:06",
           "module": "Graphics.Implicit",
           "name": "writeTHREEJS",
           "normalized": "ℝ-\u003eFilePath-\u003eSymbolicObj-\u003eIO()",

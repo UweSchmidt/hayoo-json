@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "primitive"
+        "phrase": "primitive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimitive state-transformer monads\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "Primitive",
           "package": "primitive",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Primitive state-transformer monads",
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "Primitive",
           "package": "primitive",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of primitive state-transformer monads\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "PrimMonad",
           "package": "primitive",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Class of primitive state-transformer monads",
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "PrimMonad",
           "package": "primitive",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eRealWorld\u003c/code\u003e is deeply magical.  It is \u003cem\u003eprimitive\u003c/em\u003e, but it is not\n \t\u003cem\u003eunlifted\u003c/em\u003e (hence \u003ccode\u003eptrArg\u003c/code\u003e).  We never manipulate values of type\n \t\u003ccode\u003eRealWorld\u003c/code\u003e; it's only used in the type system, to parameterise \u003ccode\u003eState#\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "RealWorld",
           "package": "primitive",
@@ -73,6 +78,7 @@
         "index": {
           "description": "RealWorld is deeply magical It is primitive but it is not unlifted hence ptrArg We never manipulate values of type RealWorld it only used in the type system to parameterise State",
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "RealWorld",
           "package": "primitive",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpose the internal structure of the monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "internal",
           "package": "primitive",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Expose the internal structure of the monad",
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "internal",
           "normalized": "a b-\u003eState #(PrimState a)-\u003e(#State #(PrimState a),b #)",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003ePrimMonad\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eRealWorld\u003c/a\u003e\u003c/code\u003e state token to \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "primToIO",
           "package": "primitive",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Convert PrimMonad with RealWorld state token to IO",
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "primToIO",
           "normalized": "a b-\u003eIO b",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003ePrimMonad\u003c/a\u003e\u003c/code\u003e to another monad with the same state token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "primToPrim",
           "package": "primitive",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Convert PrimMonad to another monad with the same state token",
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "primToPrim",
           "normalized": "a b-\u003ea b",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003ePrimMonad\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "primToST",
           "package": "primitive",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Convert PrimMonad to ST",
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "primToST",
           "normalized": "a b-\u003eST(PrimState a)b",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a primitive operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "primitive",
           "package": "primitive",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Execute primitive operation",
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "primitive",
           "normalized": "(State #(PrimState a)-\u003e(#State #(PrimState a),b #))-\u003ea b",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a primitive operation with no result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "primitive_",
           "package": "primitive",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Execute primitive operation with no result",
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "primitive_",
           "normalized": "(State #(PrimState a)-\u003eState #(PrimState a))-\u003ea()",
@@ -239,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "touch",
           "package": "primitive",
@@ -248,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "touch",
           "normalized": "a-\u003eb()",
@@ -262,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "unsafeInlineIO",
           "package": "primitive",
@@ -271,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "unsafeInlineIO",
           "normalized": "IO a-\u003ea",
@@ -286,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "unsafeInlinePrim",
           "package": "primitive",
@@ -295,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "unsafeInlinePrim",
           "normalized": "a b-\u003eb",
@@ -310,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "unsafeInlineST",
           "package": "primitive",
@@ -319,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "unsafeInlineST",
           "normalized": "ST a b-\u003eb",
@@ -335,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert any \u003ccode\u003e\u003ca\u003ePrimMonad\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e. This operation is highly unsafe!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "unsafePrimToIO",
           "package": "primitive",
@@ -345,6 +372,7 @@
         "index": {
           "description": "Convert any PrimMonad to IO This operation is highly unsafe",
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "unsafePrimToIO",
           "normalized": "a b-\u003eIO b",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003ePrimMonad\u003c/a\u003e\u003c/code\u003e to another monad with a possibly different state\n token. This operation is highly unsafe!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "unsafePrimToPrim",
           "package": "primitive",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Convert PrimMonad to another monad with possibly different state token This operation is highly unsafe",
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "unsafePrimToPrim",
           "normalized": "a b-\u003ea b",
@@ -387,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert any \u003ccode\u003e\u003ca\u003ePrimMonad\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e with an arbitrary state token. This\n operation is highly unsafe!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Control.Monad.Primitive",
           "name": "unsafePrimToST",
           "package": "primitive",
@@ -397,6 +428,7 @@
         "index": {
           "description": "Convert any PrimMonad to ST with an arbitrary state token This operation is highly unsafe",
           "hierarchy": "Control Monad Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Control.Monad.Primitive",
           "name": "unsafePrimToST",
           "normalized": "a b-\u003eST c b",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimitive operations on machine addresses\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Addr",
           "name": "Addr",
           "package": "primitive",
@@ -422,6 +455,7 @@
         "index": {
           "description": "Primitive operations on machine addresses",
           "hierarchy": "Data Primitive Addr",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Addr",
           "name": "Addr",
           "package": "primitive",
@@ -436,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA machine address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Addr",
           "name": "Addr",
           "package": "primitive",
@@ -445,6 +480,7 @@
         "index": {
           "description": "machine address",
           "hierarchy": "Data Primitive Addr",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Addr",
           "name": "Addr",
           "package": "primitive",
@@ -482,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the given number of bytes from the second \u003ccode\u003e\u003ca\u003eAddr\u003c/a\u003e\u003c/code\u003e to the first. The\n areas may not overlap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Addr",
           "name": "copyAddr",
           "package": "primitive",
@@ -491,6 +528,7 @@
         "index": {
           "description": "Copy the given number of bytes from the second Addr to the first The areas may not overlap",
           "hierarchy": "Data Primitive Addr",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Addr",
           "name": "copyAddr",
           "normalized": "Addr-\u003eAddr-\u003eInt-\u003ea()",
@@ -507,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value from a memory position given by an address and an offset.\n The memory block the address refers to must be immutable. The offset is in\n elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Addr",
           "name": "indexOffAddr",
           "package": "primitive",
@@ -517,6 +556,7 @@
         "index": {
           "description": "Read value from memory position given by an address and an offset The memory block the address refers to must be immutable The offset is in elements of type rather than in bytes",
           "hierarchy": "Data Primitive Addr",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Addr",
           "name": "indexOffAddr",
           "normalized": "Addr-\u003eInt-\u003ea",
@@ -533,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance in bytes between two addresses. The result is only valid if the\n difference fits in an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Addr",
           "name": "minusAddr",
           "package": "primitive",
@@ -543,6 +584,7 @@
         "index": {
           "description": "Distance in bytes between two addresses The result is only valid if the difference fits in an Int",
           "hierarchy": "Data Primitive Addr",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Addr",
           "name": "minusAddr",
           "normalized": "Addr-\u003eAddr-\u003eInt",
@@ -559,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the given number of bytes from the second \u003ccode\u003e\u003ca\u003eAddr\u003c/a\u003e\u003c/code\u003e to the first. The\n areas may overlap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Addr",
           "name": "moveAddr",
           "package": "primitive",
@@ -568,6 +611,7 @@
         "index": {
           "description": "Copy the given number of bytes from the second Addr to the first The areas may overlap",
           "hierarchy": "Data Primitive Addr",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Addr",
           "name": "moveAddr",
           "normalized": "Addr-\u003eAddr-\u003eInt-\u003ea()",
@@ -584,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe null address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Addr",
           "name": "nullAddr",
           "package": "primitive",
@@ -594,6 +639,7 @@
         "index": {
           "description": "The null address",
           "hierarchy": "Data Primitive Addr",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Addr",
           "name": "nullAddr",
           "package": "primitive",
@@ -608,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset an address by the given number of bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Addr",
           "name": "plusAddr",
           "package": "primitive",
@@ -618,6 +665,7 @@
         "index": {
           "description": "Offset an address by the given number of bytes",
           "hierarchy": "Data Primitive Addr",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Addr",
           "name": "plusAddr",
           "normalized": "Addr-\u003eInt-\u003eAddr",
@@ -634,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value from a memory position given by an address and an offset.\n The offset is in elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Addr",
           "name": "readOffAddr",
           "package": "primitive",
@@ -644,6 +693,7 @@
         "index": {
           "description": "Read value from memory position given by an address and an offset The offset is in elements of type rather than in bytes",
           "hierarchy": "Data Primitive Addr",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Addr",
           "name": "readOffAddr",
           "normalized": "Addr-\u003eInt-\u003ea b",
@@ -660,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe remainder of the address and the integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Addr",
           "name": "remAddr",
           "package": "primitive",
@@ -670,6 +721,7 @@
         "index": {
           "description": "The remainder of the address and the integer",
           "hierarchy": "Data Primitive Addr",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Addr",
           "name": "remAddr",
           "normalized": "Addr-\u003eInt-\u003eInt",
@@ -686,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill a memory block of with the given value. The length is in\n elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Addr",
           "name": "setAddr",
           "package": "primitive",
@@ -696,6 +749,7 @@
         "index": {
           "description": "Fill memory block of with the given value The length is in elements of type rather than in bytes",
           "hierarchy": "Data Primitive Addr",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Addr",
           "name": "setAddr",
           "normalized": "Addr-\u003eInt-\u003ea-\u003eb()",
@@ -712,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a value to a memory position given by an address and an offset.\n The offset is in elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Addr",
           "name": "writeOffAddr",
           "package": "primitive",
@@ -722,6 +777,7 @@
         "index": {
           "description": "Write value to memory position given by an address and an offset The offset is in elements of type rather than in bytes",
           "hierarchy": "Data Primitive Addr",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Addr",
           "name": "writeOffAddr",
           "normalized": "Addr-\u003eInt-\u003ea-\u003eb()",
@@ -738,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimitive boxed arrays\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "Array",
           "package": "primitive",
@@ -747,6 +804,7 @@
         "index": {
           "description": "Primitive boxed arrays",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "Array",
           "package": "primitive",
@@ -761,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoxed arrays\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "Array",
           "package": "primitive",
@@ -770,6 +829,7 @@
         "index": {
           "description": "Boxed arrays",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "Array",
           "package": "primitive",
@@ -784,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable boxed arrays associated with a primitive state token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "MutableArray",
           "package": "primitive",
@@ -793,6 +854,7 @@
         "index": {
           "description": "Mutable boxed arrays associated with primitive state token",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "MutableArray",
           "package": "primitive",
@@ -806,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "Array",
           "package": "primitive",
@@ -815,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "Array",
           "package": "primitive",
@@ -828,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "MutableArray",
           "package": "primitive",
@@ -837,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "MutableArray",
           "package": "primitive",
@@ -851,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a slice of an immutable array to a mutable array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "copyArray",
           "package": "primitive",
@@ -860,6 +927,7 @@
         "index": {
           "description": "Copy slice of an immutable array to mutable array",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "copyArray",
           "normalized": "MutableArray(PrimState a)b-\u003eInt-\u003eArray b-\u003eInt-\u003eInt-\u003ea()",
@@ -876,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a slice of a mutable array to another array. The two arrays may\n not be the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "copyMutableArray",
           "package": "primitive",
@@ -885,6 +954,7 @@
         "index": {
           "description": "Copy slice of mutable array to another array The two arrays may not be the same",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "copyMutableArray",
           "normalized": "MutableArray(PrimState a)b-\u003eInt-\u003eMutableArray(PrimState a)b-\u003eInt-\u003eInt-\u003ea()",
@@ -901,6 +971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value from the immutable array at the given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "indexArray",
           "package": "primitive",
@@ -911,6 +982,7 @@
         "index": {
           "description": "Read value from the immutable array at the given index",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "indexArray",
           "normalized": "Array a-\u003eInt-\u003ea",
@@ -927,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadically read a value from the immutable array at the given index.\n This allows us to be strict in the array while remaining lazy in the read\n element which is very useful for collective operations. Suppose we want to\n copy an array. We could do something like this:\n\u003c/p\u003e\u003cpre\u003e copy marr arr ... = do ...\n                        writeArray marr i (indexArray arr i) ...\n                        ...\n\u003c/pre\u003e\u003cp\u003eBut since primitive arrays are lazy, the calls to \u003ccode\u003e\u003ca\u003eindexArray\u003c/a\u003e\u003c/code\u003e will not be\n evaluated. Rather, \u003ccode\u003emarr\u003c/code\u003e will be filled with thunks each of which would\n retain a reference to \u003ccode\u003earr\u003c/code\u003e. This is definitely not what we want!\n\u003c/p\u003e\u003cp\u003eWith \u003ccode\u003e\u003ca\u003eindexArrayM\u003c/a\u003e\u003c/code\u003e, we can instead write\n\u003c/p\u003e\u003cpre\u003e copy marr arr ... = do ...\n                        x \u003c- indexArrayM arr i\n                        writeArray marr i x\n                        ...\n\u003c/pre\u003e\u003cp\u003eNow, indexing is executed immediately although the returned element is\n still not evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "indexArrayM",
           "package": "primitive",
@@ -937,6 +1010,7 @@
         "index": {
           "description": "Monadically read value from the immutable array at the given index This allows us to be strict in the array while remaining lazy in the read element which is very useful for collective operations Suppose we want to copy an array We could do something like this copy marr arr do writeArray marr indexArray arr But since primitive arrays are lazy the calls to indexArray will not be evaluated Rather marr will be filled with thunks each of which would retain reference to arr This is definitely not what we want With indexArrayM we can instead write copy marr arr do indexArrayM arr writeArray marr Now indexing is executed immediately although the returned element is still not evaluated",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "indexArrayM",
           "normalized": "Array a-\u003eInt-\u003eb a",
@@ -953,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new mutable array of the specified size and initialise all\n elements with the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "newArray",
           "package": "primitive",
@@ -963,6 +1038,7 @@
         "index": {
           "description": "Create new mutable array of the specified size and initialise all elements with the given value",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "newArray",
           "normalized": "Int-\u003ea-\u003eb(MutableArray(PrimState b)a)",
@@ -979,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value from the array at the given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "readArray",
           "package": "primitive",
@@ -989,6 +1066,7 @@
         "index": {
           "description": "Read value from the array at the given index",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "readArray",
           "normalized": "MutableArray(PrimState a)b-\u003eInt-\u003ea b",
@@ -1005,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the two arrays refer to the same memory block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "sameMutableArray",
           "package": "primitive",
@@ -1015,6 +1094,7 @@
         "index": {
           "description": "Check whether the two arrays refer to the same memory block",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "sameMutableArray",
           "normalized": "MutableArray a b-\u003eMutableArray a b-\u003eBool",
@@ -1031,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a mutable array to an immutable one without copying. The\n array should not be modified after the conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "unsafeFreezeArray",
           "package": "primitive",
@@ -1041,6 +1122,7 @@
         "index": {
           "description": "Convert mutable array to an immutable one without copying The array should not be modified after the conversion",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "unsafeFreezeArray",
           "normalized": "MutableArray(PrimState a)b-\u003ea(Array b)",
@@ -1057,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an immutable array to an mutable one without copying. The\n immutable array should not be used after the conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "unsafeThawArray",
           "package": "primitive",
@@ -1067,6 +1150,7 @@
         "index": {
           "description": "Convert an immutable array to an mutable one without copying The immutable array should not be used after the conversion",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "unsafeThawArray",
           "normalized": "Array a-\u003eb(MutableArray(PrimState b)a)",
@@ -1083,6 +1167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a value to the array at the given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Array",
           "name": "writeArray",
           "package": "primitive",
@@ -1093,6 +1178,7 @@
         "index": {
           "description": "Write value to the array at the given index",
           "hierarchy": "Data Primitive Array",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Array",
           "name": "writeArray",
           "normalized": "MutableArray(PrimState a)b-\u003eInt-\u003eb-\u003ea()",
@@ -1109,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimitive operations on ByteArrays\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "ByteArray",
           "package": "primitive",
@@ -1118,6 +1205,7 @@
         "index": {
           "description": "Primitive operations on ByteArrays",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "ByteArray",
           "package": "primitive",
@@ -1132,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eByte arrays\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "ByteArray",
           "package": "primitive",
@@ -1141,6 +1230,7 @@
         "index": {
           "description": "Byte arrays",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "ByteArray",
           "package": "primitive",
@@ -1154,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "ByteArray#",
           "package": "primitive",
@@ -1161,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "ByteArray#",
           "package": "primitive",
@@ -1175,6 +1267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable byte arrays associated with a primitive state token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "MutableByteArray",
           "package": "primitive",
@@ -1184,6 +1277,7 @@
         "index": {
           "description": "Mutable byte arrays associated with primitive state token",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "MutableByteArray",
           "package": "primitive",
@@ -1197,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "MutableByteArray#",
           "package": "primitive",
@@ -1204,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "MutableByteArray#",
           "package": "primitive",
@@ -1217,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "ByteArray",
           "package": "primitive",
@@ -1226,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "ByteArray",
           "package": "primitive",
@@ -1239,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "MutableByteArray",
           "package": "primitive",
@@ -1248,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "MutableByteArray",
           "package": "primitive",
@@ -1262,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield a pointer to the array's data. This operation is only safe on\n \u003cem\u003epinned\u003c/em\u003e byte arrays allocated by \u003ccode\u003e\u003ca\u003enewPinnedByteArray\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003enewAlignedPinnedByteArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "byteArrayContents",
           "package": "primitive",
@@ -1272,6 +1373,7 @@
         "index": {
           "description": "Yield pointer to the array data This operation is only safe on pinned byte arrays allocated by newPinnedByteArray or newAlignedPinnedByteArray",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "byteArrayContents",
           "normalized": "ByteArray-\u003eAddr",
@@ -1288,6 +1390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a slice of an immutable byte array to a mutable byte array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "copyByteArray",
           "package": "primitive",
@@ -1297,6 +1400,7 @@
         "index": {
           "description": "Copy slice of an immutable byte array to mutable byte array",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "copyByteArray",
           "normalized": "MutableByteArray(PrimState a)-\u003eInt-\u003eByteArray-\u003eInt-\u003eInt-\u003ea()",
@@ -1313,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a slice of a mutable byte array into another array. The two slices\n may not overlap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "copyMutableByteArray",
           "package": "primitive",
@@ -1322,6 +1427,7 @@
         "index": {
           "description": "Copy slice of mutable byte array into another array The two slices may not overlap",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "copyMutableByteArray",
           "normalized": "MutableByteArray(PrimState a)-\u003eInt-\u003eMutableByteArray(PrimState a)-\u003eInt-\u003eInt-\u003ea()",
@@ -1338,6 +1444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill a slice of a mutable byte array with a byte.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "fillByteArray",
           "package": "primitive",
@@ -1347,6 +1454,7 @@
         "index": {
           "description": "Fill slice of mutable byte array with byte",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "fillByteArray",
           "normalized": "MutableByteArray(PrimState a)-\u003eInt-\u003eInt-\u003eWord-\u003ea()",
@@ -1363,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a primitive value from the byte array. The offset is given in\n elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "indexByteArray",
           "package": "primitive",
@@ -1373,6 +1482,7 @@
         "index": {
           "description": "Read primitive value from the byte array The offset is given in elements of type rather than in bytes",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "indexByteArray",
           "normalized": "ByteArray-\u003eInt-\u003ea",
@@ -1389,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a slice of a mutable byte array into another, potentially\n overlapping array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "moveByteArray",
           "package": "primitive",
@@ -1398,6 +1509,7 @@
         "index": {
           "description": "Copy slice of mutable byte array into another potentially overlapping array",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "moveByteArray",
           "normalized": "MutableByteArray(PrimState a)-\u003eInt-\u003eMutableByteArray(PrimState a)-\u003eInt-\u003eInt-\u003ea()",
@@ -1414,6 +1526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield a pointer to the array's data. This operation is only safe on\n \u003cem\u003epinned\u003c/em\u003e byte arrays allocated by \u003ccode\u003e\u003ca\u003enewPinnedByteArray\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003enewAlignedPinnedByteArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "mutableByteArrayContents",
           "package": "primitive",
@@ -1424,6 +1537,7 @@
         "index": {
           "description": "Yield pointer to the array data This operation is only safe on pinned byte arrays allocated by newPinnedByteArray or newAlignedPinnedByteArray",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "mutableByteArrayContents",
           "normalized": "MutableByteArray a-\u003eAddr",
@@ -1440,6 +1554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003cem\u003epinned\u003c/em\u003e byte array of the specified size and with the give\n alignment. The garbage collector is guaranteed not to move it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "newAlignedPinnedByteArray",
           "package": "primitive",
@@ -1450,6 +1565,7 @@
         "index": {
           "description": "Create pinned byte array of the specified size and with the give alignment The garbage collector is guaranteed not to move it",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "newAlignedPinnedByteArray",
           "normalized": "Int-\u003eInt-\u003ea(MutableByteArray(PrimState a))",
@@ -1466,6 +1582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new mutable byte array of the specified size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "newByteArray",
           "package": "primitive",
@@ -1476,6 +1593,7 @@
         "index": {
           "description": "Create new mutable byte array of the specified size",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "newByteArray",
           "normalized": "Int-\u003ea(MutableByteArray(PrimState a))",
@@ -1492,6 +1610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003cem\u003epinned\u003c/em\u003e byte array of the specified size. The garbage collector\n is guaranteed not to move it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "newPinnedByteArray",
           "package": "primitive",
@@ -1502,6 +1621,7 @@
         "index": {
           "description": "Create pinned byte array of the specified size The garbage collector is guaranteed not to move it",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "newPinnedByteArray",
           "normalized": "Int-\u003ea(MutableByteArray(PrimState a))",
@@ -1518,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a primitive value from the byte array. The offset is given in\n elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "readByteArray",
           "package": "primitive",
@@ -1528,6 +1649,7 @@
         "index": {
           "description": "Read primitive value from the byte array The offset is given in elements of type rather than in bytes",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "readByteArray",
           "normalized": "MutableByteArray(PrimState a)-\u003eInt-\u003ea b",
@@ -1544,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the two arrays refer to the same memory block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "sameMutableByteArray",
           "package": "primitive",
@@ -1554,6 +1677,7 @@
         "index": {
           "description": "Check if the two arrays refer to the same memory block",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "sameMutableByteArray",
           "normalized": "MutableByteArray a-\u003eMutableByteArray a-\u003eBool",
@@ -1570,6 +1694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill a slice of a mutable byte array with a value. The offset and length\n are given in elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "setByteArray",
           "package": "primitive",
@@ -1579,6 +1704,7 @@
         "index": {
           "description": "Fill slice of mutable byte array with value The offset and length are given in elements of type rather than in bytes",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "setByteArray",
           "normalized": "MutableByteArray(PrimState a)-\u003eInt-\u003eInt-\u003eb-\u003ea()",
@@ -1595,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the byte array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "sizeofByteArray",
           "package": "primitive",
@@ -1605,6 +1732,7 @@
         "index": {
           "description": "Size of the byte array",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "sizeofByteArray",
           "normalized": "ByteArray-\u003eInt",
@@ -1621,6 +1749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the mutable byte array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "sizeofMutableByteArray",
           "package": "primitive",
@@ -1631,6 +1760,7 @@
         "index": {
           "description": "Size of the mutable byte array",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "sizeofMutableByteArray",
           "normalized": "MutableByteArray a-\u003eInt",
@@ -1647,6 +1777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a mutable byte array to an immutable one without copying. The\n array should not be modified after the conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "unsafeFreezeByteArray",
           "package": "primitive",
@@ -1657,6 +1788,7 @@
         "index": {
           "description": "Convert mutable byte array to an immutable one without copying The array should not be modified after the conversion",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "unsafeFreezeByteArray",
           "normalized": "MutableByteArray(PrimState a)-\u003ea ByteArray",
@@ -1673,6 +1805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an immutable byte array to a mutable one without copying. The\n original array should not be used after the conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "unsafeThawByteArray",
           "package": "primitive",
@@ -1683,6 +1816,7 @@
         "index": {
           "description": "Convert an immutable byte array to mutable one without copying The original array should not be used after the conversion",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "unsafeThawByteArray",
           "normalized": "ByteArray-\u003ea(MutableByteArray(PrimState a))",
@@ -1699,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a primitive value to the byte array. The offset is given in\n elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.ByteArray",
           "name": "writeByteArray",
           "package": "primitive",
@@ -1709,6 +1844,7 @@
         "index": {
           "description": "Write primitive value to the byte array The offset is given in elements of type rather than in bytes",
           "hierarchy": "Data Primitive ByteArray",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.ByteArray",
           "name": "writeByteArray",
           "normalized": "MutableByteArray(PrimState a)-\u003eInt-\u003eb-\u003ea()",
@@ -1725,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMachine-dependent constants\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "MachDeps",
           "package": "primitive",
@@ -1734,6 +1871,7 @@
         "index": {
           "description": "Machine-dependent constants",
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "MachDeps",
           "package": "primitive",
@@ -1747,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "Int64_#",
           "package": "primitive",
@@ -1755,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "Int64_#",
           "package": "primitive",
@@ -1768,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "Word64_#",
           "package": "primitive",
@@ -1776,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "Word64_#",
           "package": "primitive",
@@ -1789,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_CHAR",
           "package": "primitive",
@@ -1798,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_CHAR",
           "package": "primitive",
@@ -1811,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_DOUBLE",
           "package": "primitive",
@@ -1820,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_DOUBLE",
           "package": "primitive",
@@ -1833,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_FLOAT",
           "package": "primitive",
@@ -1842,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_FLOAT",
           "package": "primitive",
@@ -1855,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_FUNPTR",
           "package": "primitive",
@@ -1864,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_FUNPTR",
           "package": "primitive",
@@ -1877,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_INT",
           "package": "primitive",
@@ -1886,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_INT",
           "package": "primitive",
@@ -1899,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_INT16",
           "package": "primitive",
@@ -1908,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_INT16",
           "package": "primitive",
@@ -1921,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_INT32",
           "package": "primitive",
@@ -1930,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_INT32",
           "package": "primitive",
@@ -1943,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_INT64",
           "package": "primitive",
@@ -1952,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_INT64",
           "package": "primitive",
@@ -1965,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_INT8",
           "package": "primitive",
@@ -1974,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_INT8",
           "package": "primitive",
@@ -1987,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_PTR",
           "package": "primitive",
@@ -1996,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_PTR",
           "package": "primitive",
@@ -2009,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_STABLEPTR",
           "package": "primitive",
@@ -2018,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_STABLEPTR",
           "package": "primitive",
@@ -2031,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_WORD",
           "package": "primitive",
@@ -2040,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_WORD",
           "package": "primitive",
@@ -2053,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_WORD16",
           "package": "primitive",
@@ -2062,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_WORD16",
           "package": "primitive",
@@ -2075,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_WORD32",
           "package": "primitive",
@@ -2084,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_WORD32",
           "package": "primitive",
@@ -2097,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_WORD64",
           "package": "primitive",
@@ -2106,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_WORD64",
           "package": "primitive",
@@ -2119,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_WORD8",
           "package": "primitive",
@@ -2128,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "aLIGNMENT_WORD8",
           "package": "primitive",
@@ -2141,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_CHAR",
           "package": "primitive",
@@ -2150,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_CHAR",
           "package": "primitive",
@@ -2163,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_DOUBLE",
           "package": "primitive",
@@ -2172,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_DOUBLE",
           "package": "primitive",
@@ -2185,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_FLOAT",
           "package": "primitive",
@@ -2194,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_FLOAT",
           "package": "primitive",
@@ -2207,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_FUNPTR",
           "package": "primitive",
@@ -2216,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_FUNPTR",
           "package": "primitive",
@@ -2229,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_INT",
           "package": "primitive",
@@ -2238,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_INT",
           "package": "primitive",
@@ -2251,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_INT16",
           "package": "primitive",
@@ -2260,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_INT16",
           "package": "primitive",
@@ -2273,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_INT32",
           "package": "primitive",
@@ -2282,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_INT32",
           "package": "primitive",
@@ -2295,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_INT64",
           "package": "primitive",
@@ -2304,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_INT64",
           "package": "primitive",
@@ -2317,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_INT8",
           "package": "primitive",
@@ -2326,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_INT8",
           "package": "primitive",
@@ -2339,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_PTR",
           "package": "primitive",
@@ -2348,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_PTR",
           "package": "primitive",
@@ -2361,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_STABLEPTR",
           "package": "primitive",
@@ -2370,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_STABLEPTR",
           "package": "primitive",
@@ -2383,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_WORD",
           "package": "primitive",
@@ -2392,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_WORD",
           "package": "primitive",
@@ -2405,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_WORD16",
           "package": "primitive",
@@ -2414,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_WORD16",
           "package": "primitive",
@@ -2427,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_WORD32",
           "package": "primitive",
@@ -2436,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_WORD32",
           "package": "primitive",
@@ -2449,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_WORD64",
           "package": "primitive",
@@ -2458,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_WORD64",
           "package": "primitive",
@@ -2471,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_WORD8",
           "package": "primitive",
@@ -2480,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MachDeps",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MachDeps",
           "name": "sIZEOF_WORD8",
           "package": "primitive",
@@ -2494,6 +2700,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimitive boxed mutable variables\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MutVar",
           "name": "MutVar",
           "package": "primitive",
@@ -2503,6 +2710,7 @@
         "index": {
           "description": "Primitive boxed mutable variables",
           "hierarchy": "Data Primitive MutVar",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MutVar",
           "name": "MutVar",
           "package": "primitive",
@@ -2517,6 +2725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMutVar\u003c/a\u003e\u003c/code\u003e behaves like a single-element mutable array associated\n with a primitive state token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MutVar",
           "name": "MutVar",
           "package": "primitive",
@@ -2526,6 +2735,7 @@
         "index": {
           "description": "MutVar behaves like single-element mutable array associated with primitive state token",
           "hierarchy": "Data Primitive MutVar",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MutVar",
           "name": "MutVar",
           "package": "primitive",
@@ -2539,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MutVar",
           "name": "MutVar",
           "package": "primitive",
@@ -2548,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "Data Primitive MutVar",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MutVar",
           "name": "MutVar",
           "package": "primitive",
@@ -2562,6 +2774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomically mutate the contents of a \u003ccode\u003e\u003ca\u003eMutVar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MutVar",
           "name": "atomicModifyMutVar",
           "package": "primitive",
@@ -2572,6 +2785,7 @@
         "index": {
           "description": "Atomically mutate the contents of MutVar",
           "hierarchy": "Data Primitive MutVar",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MutVar",
           "name": "atomicModifyMutVar",
           "normalized": "MutVar(PrimState a)b-\u003e(b-\u003e(b,c))-\u003ea c",
@@ -2588,6 +2802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003e\u003ca\u003eatomicModifyMutVar\u003c/a\u003e\u003c/code\u003e. This forces both the value stored\n in the \u003ccode\u003e\u003ca\u003eMutVar\u003c/a\u003e\u003c/code\u003e as well as the value returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MutVar",
           "name": "atomicModifyMutVar'",
           "package": "primitive",
@@ -2598,6 +2813,7 @@
         "index": {
           "description": "Strict version of atomicModifyMutVar This forces both the value stored in the MutVar as well as the value returned",
           "hierarchy": "Data Primitive MutVar",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MutVar",
           "name": "atomicModifyMutVar'",
           "normalized": "MutVar(PrimState a)b-\u003e(b-\u003e(b,c))-\u003ea c",
@@ -2614,6 +2830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutate the contents of a \u003ccode\u003e\u003ca\u003eMutVar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MutVar",
           "name": "modifyMutVar",
           "package": "primitive",
@@ -2624,6 +2841,7 @@
         "index": {
           "description": "Mutate the contents of MutVar",
           "hierarchy": "Data Primitive MutVar",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MutVar",
           "name": "modifyMutVar",
           "normalized": "MutVar(PrimState a)b-\u003e(b-\u003eb)-\u003ea()",
@@ -2640,6 +2858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003e\u003ca\u003emodifyMutVar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MutVar",
           "name": "modifyMutVar'",
           "package": "primitive",
@@ -2650,6 +2869,7 @@
         "index": {
           "description": "Strict version of modifyMutVar",
           "hierarchy": "Data Primitive MutVar",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MutVar",
           "name": "modifyMutVar'",
           "normalized": "MutVar(PrimState a)b-\u003e(b-\u003eb)-\u003ea()",
@@ -2666,6 +2886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new \u003ccode\u003e\u003ca\u003eMutVar\u003c/a\u003e\u003c/code\u003e with the specified initial value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MutVar",
           "name": "newMutVar",
           "package": "primitive",
@@ -2676,6 +2897,7 @@
         "index": {
           "description": "Create new MutVar with the specified initial value",
           "hierarchy": "Data Primitive MutVar",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MutVar",
           "name": "newMutVar",
           "normalized": "a-\u003eb(MutVar(PrimState b)a)",
@@ -2692,6 +2914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the value of a \u003ccode\u003e\u003ca\u003eMutVar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MutVar",
           "name": "readMutVar",
           "package": "primitive",
@@ -2702,6 +2925,7 @@
         "index": {
           "description": "Read the value of MutVar",
           "hierarchy": "Data Primitive MutVar",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MutVar",
           "name": "readMutVar",
           "normalized": "MutVar(PrimState a)b-\u003ea b",
@@ -2718,6 +2942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a new value into a \u003ccode\u003e\u003ca\u003eMutVar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.MutVar",
           "name": "writeMutVar",
           "package": "primitive",
@@ -2728,6 +2953,7 @@
         "index": {
           "description": "Write new value into MutVar",
           "hierarchy": "Data Primitive MutVar",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.MutVar",
           "name": "writeMutVar",
           "normalized": "MutVar(PrimState a)b-\u003eb-\u003ea()",
@@ -2744,6 +2970,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types and classes for primitive array operations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "Types",
           "package": "primitive",
@@ -2753,6 +2980,7 @@
         "index": {
           "description": "Basic types and classes for primitive array operations",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "Types",
           "package": "primitive",
@@ -2767,6 +2995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA machine address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "Addr",
           "package": "primitive",
@@ -2776,6 +3005,7 @@
         "index": {
           "description": "machine address",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "Addr",
           "package": "primitive",
@@ -2790,6 +3020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types supporting primitive array operations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "Prim",
           "package": "primitive",
@@ -2799,6 +3030,7 @@
         "index": {
           "description": "Class of types supporting primitive array operations",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "Prim",
           "package": "primitive",
@@ -2813,6 +3045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlignment of values of type \u003ccode\u003ea\u003c/code\u003e. The argument is not used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "alignment#",
           "package": "primitive",
@@ -2823,6 +3056,7 @@
         "index": {
           "description": "Alignment of values of type The argument is not used",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "alignment#",
           "normalized": "a-\u003eInt #",
@@ -2838,6 +3072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value from the array. The offset is in elements of type\n \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "indexByteArray#",
           "package": "primitive",
@@ -2848,6 +3083,7 @@
         "index": {
           "description": "Read value from the array The offset is in elements of type rather than in bytes",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "indexByteArray#",
           "normalized": "ByteArray #-\u003eInt #-\u003ea",
@@ -2864,6 +3100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value from a memory position given by an address and an offset.\n The memory block the address refers to must be immutable. The offset is in\n elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "indexOffAddr#",
           "package": "primitive",
@@ -2874,6 +3111,7 @@
         "index": {
           "description": "Read value from memory position given by an address and an offset The memory block the address refers to must be immutable The offset is in elements of type rather than in bytes",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "indexOffAddr#",
           "normalized": "Addr #-\u003eInt #-\u003ea",
@@ -2890,6 +3128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value from the mutable array. The offset is in elements of type\n \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "readByteArray#",
           "package": "primitive",
@@ -2900,6 +3139,7 @@
         "index": {
           "description": "Read value from the mutable array The offset is in elements of type rather than in bytes",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "readByteArray#",
           "normalized": "MutableByteArray # a-\u003eInt #-\u003eState # a-\u003e(#State # a,b #)",
@@ -2916,6 +3156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value from a memory position given by an address and an offset.\n The offset is in elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "readOffAddr#",
           "package": "primitive",
@@ -2926,6 +3167,7 @@
         "index": {
           "description": "Read value from memory position given by an address and an offset The offset is in elements of type rather than in bytes",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "readOffAddr#",
           "normalized": "Addr #-\u003eInt #-\u003eState # a-\u003e(#State # a,b #)",
@@ -2942,6 +3184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill a slice of the mutable array with a value. The offset and length\n of the chunk are in elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "setByteArray#",
           "package": "primitive",
@@ -2952,6 +3195,7 @@
         "index": {
           "description": "Fill slice of the mutable array with value The offset and length of the chunk are in elements of type rather than in bytes",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "setByteArray#",
           "normalized": "MutableByteArray # a-\u003eInt #-\u003eInt #-\u003eb-\u003eState # a-\u003eState # a",
@@ -2968,6 +3212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill a memory block given by an address, an offset and a length.\n The offset and length are in elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "setOffAddr#",
           "package": "primitive",
@@ -2978,6 +3223,7 @@
         "index": {
           "description": "Fill memory block given by an address an offset and length The offset and length are in elements of type rather than in bytes",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "setOffAddr#",
           "normalized": "Addr #-\u003eInt #-\u003eInt #-\u003ea-\u003eState # b-\u003eState # b",
@@ -2994,6 +3240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of values of type \u003ccode\u003ea\u003c/code\u003e. The argument is not used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "sizeOf#",
           "package": "primitive",
@@ -3004,6 +3251,7 @@
         "index": {
           "description": "Size of values of type The argument is not used",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "sizeOf#",
           "normalized": "a-\u003eInt #",
@@ -3020,6 +3268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a value to the mutable array. The offset is in elements of type\n \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "writeByteArray#",
           "package": "primitive",
@@ -3030,6 +3279,7 @@
         "index": {
           "description": "Write value to the mutable array The offset is in elements of type rather than in bytes",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "writeByteArray#",
           "normalized": "MutableByteArray # a-\u003eInt #-\u003eb-\u003eState # a-\u003eState # a",
@@ -3046,6 +3296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a value to a memory position given by an address and an offset.\n The offset is in elements of type \u003ccode\u003ea\u003c/code\u003e rather than in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive.Types",
           "name": "writeOffAddr#",
           "package": "primitive",
@@ -3056,6 +3307,7 @@
         "index": {
           "description": "Write value to memory position given by an address and an offset The offset is in elements of type rather than in bytes",
           "hierarchy": "Data Primitive Types",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive.Types",
           "name": "writeOffAddr#",
           "normalized": "Addr #-\u003eInt #-\u003ea-\u003eState # b-\u003eState # b",
@@ -3072,6 +3324,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReexports all primitive operations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive",
           "name": "Primitive",
           "package": "primitive",
@@ -3081,6 +3334,7 @@
         "index": {
           "description": "Reexports all primitive operations",
           "hierarchy": "Data Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive",
           "name": "Primitive",
           "package": "primitive",
@@ -3095,6 +3349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlignment of values of type \u003ccode\u003ea\u003c/code\u003e. The argument is not used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive",
           "name": "alignment",
           "package": "primitive",
@@ -3105,6 +3360,7 @@
         "index": {
           "description": "Alignment of values of type The argument is not used",
           "hierarchy": "Data Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive",
           "name": "alignment",
           "normalized": "a-\u003eInt",
@@ -3120,6 +3376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of values of type \u003ccode\u003ea\u003c/code\u003e. The argument is not used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:49 UTC 2014",
           "module": "Data.Primitive",
           "name": "sizeOf",
           "package": "primitive",
@@ -3130,6 +3387,7 @@
         "index": {
           "description": "Size of values of type The argument is not used",
           "hierarchy": "Data Primitive",
+          "indexed": "2014-03-11T19:43:49",
           "module": "Data.Primitive",
           "name": "sizeOf",
           "normalized": "a-\u003eInt",

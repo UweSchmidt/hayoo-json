@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vty-menu"
+        "phrase": "vty-menu",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:36 UTC 2014",
           "module": "Graphics.Vty.Menu",
           "name": "Menu",
           "package": "vty-menu",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Menu",
+          "indexed": "2014-03-11T20:35:36",
           "module": "Graphics.Vty.Menu",
           "name": "Menu",
           "package": "vty-menu",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:36 UTC 2014",
           "module": "Graphics.Vty.Menu",
           "name": "displayMenu",
           "package": "vty-menu",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Menu",
+          "indexed": "2014-03-11T20:35:36",
           "module": "Graphics.Vty.Menu",
           "name": "displayMenu",
           "normalized": "[String]-\u003eIO(Maybe String)",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:36 UTC 2014",
           "module": "Graphics.Vty.Menu",
           "name": "displayMenuOfValues",
           "package": "vty-menu",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Menu",
+          "indexed": "2014-03-11T20:35:36",
           "module": "Graphics.Vty.Menu",
           "name": "displayMenuOfValues",
           "normalized": "[(String,a)]-\u003eIO(Maybe a)",

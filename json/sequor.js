@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sequor"
+        "phrase": "sequor",
+        "type": "phrase"
       },
       "type": "context"
     }

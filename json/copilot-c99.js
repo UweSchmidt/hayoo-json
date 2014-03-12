@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "copilot-c99"
+        "phrase": "copilot-c99",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.C2A",
           "name": "C2A",
           "package": "copilot-c99",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 C2A",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.C2A",
           "name": "C2A",
           "package": "copilot-c99",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.C2A",
           "name": "c2aExpr",
           "package": "copilot-c99",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 C2A",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.C2A",
           "name": "c2aExpr",
           "normalized": "MetaTable-\u003eExpr a-\u003eE a",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.C2A",
           "name": "c2aType",
           "package": "copilot-c99",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 C2A",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.C2A",
           "name": "c2aType",
           "normalized": "Type a-\u003eType",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Common",
           "name": "Common",
           "package": "copilot-c99",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Common",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Common",
           "name": "Common",
           "package": "copilot-c99",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Common",
           "name": "mkTmpExtFunVarName",
           "package": "copilot-c99",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Common",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Common",
           "name": "mkTmpExtFunVarName",
           "normalized": "Name-\u003eTag-\u003eString",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Common",
           "name": "typeSpec",
           "package": "copilot-c99",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Common",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Common",
           "name": "typeSpec",
           "normalized": "Type a-\u003eString",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "MetaTable",
           "package": "copilot-c99",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "MetaTable",
           "package": "copilot-c99",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternArrayInfo",
           "package": "copilot-c99",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternArrayInfo",
           "package": "copilot-c99",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternFunInfo",
           "package": "copilot-c99",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternFunInfo",
           "package": "copilot-c99",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternFunInfoMap",
           "package": "copilot-c99",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternFunInfoMap",
           "package": "copilot-c99",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternInfo",
           "package": "copilot-c99",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternInfo",
           "package": "copilot-c99",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternInfoMap",
           "package": "copilot-c99",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternInfoMap",
           "package": "copilot-c99",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "MetaTable",
           "package": "copilot-c99",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "MetaTable",
           "package": "copilot-c99",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "StreamInfo",
           "package": "copilot-c99",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "StreamInfo",
           "package": "copilot-c99",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "StreamInfoMap",
           "package": "copilot-c99",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "StreamInfoMap",
           "package": "copilot-c99",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternArrayInfo",
           "package": "copilot-c99",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternArrayInfo",
           "package": "copilot-c99",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternFunInfo",
           "package": "copilot-c99",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternFunInfo",
           "package": "copilot-c99",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternInfo",
           "package": "copilot-c99",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "ExternInfo",
           "package": "copilot-c99",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "MetaTable",
           "package": "copilot-c99",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "MetaTable",
           "package": "copilot-c99",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "StreamInfo",
           "package": "copilot-c99",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "StreamInfo",
           "package": "copilot-c99",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "allocMetaTable",
           "package": "copilot-c99",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "allocMetaTable",
           "normalized": "Spec-\u003eAtom MetaTable",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externArrayInfoElemType",
           "package": "copilot-c99",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externArrayInfoElemType",
           "package": "copilot-c99",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externArrayInfoIdxExpr",
           "package": "copilot-c99",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externArrayInfoIdxExpr",
           "package": "copilot-c99",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externArrayInfoIdxType",
           "package": "copilot-c99",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externArrayInfoIdxType",
           "package": "copilot-c99",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externArrayInfoMap",
           "package": "copilot-c99",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externArrayInfoMap",
           "package": "copilot-c99",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externArrayInfoVar",
           "package": "copilot-c99",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externArrayInfoVar",
           "package": "copilot-c99",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externFunInfoArgs",
           "package": "copilot-c99",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externFunInfoArgs",
           "normalized": "[UExpr]",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externFunInfoMap",
           "package": "copilot-c99",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externFunInfoMap",
           "package": "copilot-c99",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externFunInfoType",
           "package": "copilot-c99",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externFunInfoType",
           "package": "copilot-c99",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externFunInfoVar",
           "package": "copilot-c99",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externFunInfoVar",
           "package": "copilot-c99",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externInfoMap",
           "package": "copilot-c99",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externInfoMap",
           "package": "copilot-c99",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externInfoType",
           "package": "copilot-c99",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externInfoType",
           "package": "copilot-c99",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externInfoVar",
           "package": "copilot-c99",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "externInfoVar",
           "package": "copilot-c99",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "streamInfoMap",
           "package": "copilot-c99",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "streamInfoMap",
           "package": "copilot-c99",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "streamInfoQueue",
           "package": "copilot-c99",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "streamInfoQueue",
           "package": "copilot-c99",
@@ -788,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "streamInfoTempVar",
           "package": "copilot-c99",
@@ -797,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "streamInfoTempVar",
           "package": "copilot-c99",
@@ -810,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "streamInfoType",
           "package": "copilot-c99",
@@ -819,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 MetaTable",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.MetaTable",
           "name": "streamInfoType",
           "package": "copilot-c99",
@@ -832,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Params",
           "name": "Params",
           "package": "copilot-c99",
@@ -840,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Params",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Params",
           "name": "Params",
           "package": "copilot-c99",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Params",
           "name": "Params",
           "package": "copilot-c99",
@@ -861,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Params",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Params",
           "name": "Params",
           "package": "copilot-c99",
@@ -874,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Params",
           "name": "Params",
           "package": "copilot-c99",
@@ -883,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Params",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Params",
           "name": "Params",
           "package": "copilot-c99",
@@ -896,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Params",
           "name": "defaultParams",
           "package": "copilot-c99",
@@ -905,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Params",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Params",
           "name": "defaultParams",
           "package": "copilot-c99",
@@ -918,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Params",
           "name": "prefix",
           "package": "copilot-c99",
@@ -927,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Params",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Params",
           "name": "prefix",
           "package": "copilot-c99",
@@ -939,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Params",
           "name": "verbose",
           "package": "copilot-c99",
@@ -948,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Params",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Params",
           "name": "verbose",
           "package": "copilot-c99",
@@ -960,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Params",
           "name": "withPrefix",
           "package": "copilot-c99",
@@ -969,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Params",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Params",
           "name": "withPrefix",
           "normalized": "Maybe String-\u003eString-\u003eString",
@@ -984,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Phases",
           "name": "Phases",
           "package": "copilot-c99",
@@ -992,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Phases",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Phases",
           "name": "Phases",
           "package": "copilot-c99",
@@ -1005,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Phases",
           "name": "numberOfPhases",
           "package": "copilot-c99",
@@ -1014,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Phases",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Phases",
           "name": "numberOfPhases",
           "package": "copilot-c99",
@@ -1027,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Phases",
           "name": "schedulePhases",
           "package": "copilot-c99",
@@ -1036,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Phases",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Phases",
           "name": "schedulePhases",
           "normalized": "Params-\u003eMetaTable-\u003eSpec-\u003eAtom()",
@@ -1051,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.PrePostCode",
           "name": "PrePostCode",
           "package": "copilot-c99",
@@ -1059,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 PrePostCode",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.PrePostCode",
           "name": "PrePostCode",
           "package": "copilot-c99",
@@ -1072,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.PrePostCode",
           "name": "postCode",
           "package": "copilot-c99",
@@ -1081,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 PrePostCode",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.PrePostCode",
           "name": "postCode",
           "normalized": "Params-\u003eSpec-\u003eString",
@@ -1096,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.PrePostCode",
           "name": "preCode",
           "package": "copilot-c99",
@@ -1105,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 PrePostCode",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.PrePostCode",
           "name": "preCode",
           "normalized": "Params-\u003eSpec-\u003eString",
@@ -1120,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Queue",
           "name": "Queue",
           "package": "copilot-c99",
@@ -1128,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Queue",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Queue",
           "name": "Queue",
           "package": "copilot-c99",
@@ -1141,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Queue",
           "name": "Queue",
           "package": "copilot-c99",
@@ -1149,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Queue",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Queue",
           "name": "Queue",
           "package": "copilot-c99",
@@ -1162,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Queue",
           "name": "dropFirstElemAndSnoc",
           "package": "copilot-c99",
@@ -1171,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Queue",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Queue",
           "name": "dropFirstElemAndSnoc",
           "normalized": "E a-\u003eQueue a-\u003eAtom()",
@@ -1186,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Queue",
           "name": "lookahead",
           "package": "copilot-c99",
@@ -1195,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Queue",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Queue",
           "name": "lookahead",
           "normalized": "Int-\u003eQueue a-\u003eE a",
@@ -1209,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Queue",
           "name": "queue",
           "package": "copilot-c99",
@@ -1218,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Queue",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Queue",
           "name": "queue",
           "normalized": "String-\u003e[a]-\u003eAtom(Queue a)",
@@ -1232,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Queue",
           "name": "size",
           "package": "copilot-c99",
@@ -1241,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Queue",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Queue",
           "name": "size",
           "normalized": "Queue a-\u003eQueueIndexType",
@@ -1255,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Test.CheckSpec",
           "name": "CheckSpec",
           "package": "copilot-c99",
@@ -1263,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Test CheckSpec",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Test.CheckSpec",
           "name": "CheckSpec",
           "package": "copilot-c99",
@@ -1276,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Test.CheckSpec",
           "name": "checkSpec",
           "package": "copilot-c99",
@@ -1285,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Test CheckSpec",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Test.CheckSpec",
           "name": "checkSpec",
           "normalized": "Int-\u003eSpec-\u003eIO Bool",
@@ -1300,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Test.Driver",
           "name": "Driver",
           "package": "copilot-c99",
@@ -1308,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Test Driver",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Test.Driver",
           "name": "Driver",
           "package": "copilot-c99",
@@ -1321,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Test.Driver",
           "name": "driver",
           "package": "copilot-c99",
@@ -1330,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Test Driver",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Test.Driver",
           "name": "driver",
           "normalized": "Int-\u003eSpec-\u003eText",
@@ -1344,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Test.Iteration",
           "name": "Iteration",
           "package": "copilot-c99",
@@ -1352,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Test Iteration",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Test.Iteration",
           "name": "Iteration",
           "package": "copilot-c99",
@@ -1365,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Test.Iteration",
           "name": "Iteration",
           "package": "copilot-c99",
@@ -1373,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Test Iteration",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Test.Iteration",
           "name": "Iteration",
           "package": "copilot-c99",
@@ -1386,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Test.Iteration",
           "name": "Iteration",
           "package": "copilot-c99",
@@ -1395,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Test Iteration",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Test.Iteration",
           "name": "Iteration",
           "package": "copilot-c99",
@@ -1408,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Test.Iteration",
           "name": "execTraceToIterations",
           "package": "copilot-c99",
@@ -1417,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Test Iteration",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Test.Iteration",
           "name": "execTraceToIterations",
           "normalized": "ExecTrace-\u003e[Iteration]",
@@ -1432,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Test.Iteration",
           "name": "iterationOutputs",
           "package": "copilot-c99",
@@ -1441,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Test Iteration",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Test.Iteration",
           "name": "iterationOutputs",
           "normalized": "Map String[Output]",
@@ -1456,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Test.ReadCSV",
           "name": "ReadCSV",
           "package": "copilot-c99",
@@ -1464,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Test ReadCSV",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Test.ReadCSV",
           "name": "ReadCSV",
           "package": "copilot-c99",
@@ -1477,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Test.ReadCSV",
           "name": "iterationsFromCSV",
           "package": "copilot-c99",
@@ -1486,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Test ReadCSV",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Test.ReadCSV",
           "name": "iterationsFromCSV",
           "normalized": "ByteString-\u003e[Iteration]",
@@ -1501,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "Witness",
           "package": "copilot-c99",
@@ -1509,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "Witness",
           "package": "copilot-c99",
@@ -1522,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "AssignInst",
           "package": "copilot-c99",
@@ -1530,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "AssignInst",
           "package": "copilot-c99",
@@ -1543,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "BitsEInst",
           "package": "copilot-c99",
@@ -1551,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "BitsEInst",
           "package": "copilot-c99",
@@ -1564,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "EqEInst",
           "package": "copilot-c99",
@@ -1572,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "EqEInst",
           "package": "copilot-c99",
@@ -1585,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "ExprInst",
           "package": "copilot-c99",
@@ -1593,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "ExprInst",
           "package": "copilot-c99",
@@ -1606,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "FloatingEInst",
           "package": "copilot-c99",
@@ -1614,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "FloatingEInst",
           "package": "copilot-c99",
@@ -1627,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "IntegralEInst",
           "package": "copilot-c99",
@@ -1635,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "IntegralEInst",
           "package": "copilot-c99",
@@ -1648,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "NumEInst",
           "package": "copilot-c99",
@@ -1656,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "NumEInst",
           "package": "copilot-c99",
@@ -1669,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "OrdEInst",
           "package": "copilot-c99",
@@ -1677,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "OrdEInst",
           "package": "copilot-c99",
@@ -1690,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "AssignInst",
           "package": "copilot-c99",
@@ -1699,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "AssignInst",
           "package": "copilot-c99",
@@ -1712,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "BitsEInst",
           "package": "copilot-c99",
@@ -1721,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "BitsEInst",
           "package": "copilot-c99",
@@ -1734,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "EqEInst",
           "package": "copilot-c99",
@@ -1743,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "EqEInst",
           "package": "copilot-c99",
@@ -1756,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "ExprInst",
           "package": "copilot-c99",
@@ -1765,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "ExprInst",
           "package": "copilot-c99",
@@ -1778,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "FloatingEInst",
           "package": "copilot-c99",
@@ -1787,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "FloatingEInst",
           "package": "copilot-c99",
@@ -1800,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "IntegralEInst",
           "package": "copilot-c99",
@@ -1809,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "IntegralEInst",
           "package": "copilot-c99",
@@ -1822,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "NumEInst",
           "package": "copilot-c99",
@@ -1831,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "NumEInst",
           "package": "copilot-c99",
@@ -1844,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "OrdEInst",
           "package": "copilot-c99",
@@ -1853,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "OrdEInst",
           "package": "copilot-c99",
@@ -1866,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "assignInst",
           "package": "copilot-c99",
@@ -1875,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "assignInst",
           "normalized": "Type a-\u003eAssignInst a",
@@ -1890,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "bitsEInst",
           "package": "copilot-c99",
@@ -1899,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "bitsEInst",
           "normalized": "Type a-\u003eBitsEInst a",
@@ -1914,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "eqEInst",
           "package": "copilot-c99",
@@ -1923,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "eqEInst",
           "normalized": "Type a-\u003eEqEInst a",
@@ -1938,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "exprInst",
           "package": "copilot-c99",
@@ -1947,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "exprInst",
           "normalized": "Type a-\u003eExprInst a",
@@ -1962,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "floatingEInst",
           "package": "copilot-c99",
@@ -1971,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "floatingEInst",
           "normalized": "Type a-\u003eFloatingEInst a",
@@ -1986,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "integralEInst",
           "package": "copilot-c99",
@@ -1995,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "integralEInst",
           "normalized": "Type a-\u003eIntegralEInst a",
@@ -2010,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "numEInst",
           "package": "copilot-c99",
@@ -2019,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "numEInst",
           "normalized": "Type a-\u003eNumEInst a",
@@ -2034,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99.Witness",
           "name": "ordEInst",
           "package": "copilot-c99",
@@ -2043,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99 Witness",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99.Witness",
           "name": "ordEInst",
           "normalized": "Type a-\u003eOrdEInst a",
@@ -2059,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompile through the Atom backend.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99",
           "name": "C99",
           "package": "copilot-c99",
@@ -2068,6 +2253,7 @@
         "index": {
           "description": "Compile through the Atom backend",
           "hierarchy": "Copilot Compile C99",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99",
           "name": "C99",
           "package": "copilot-c99",
@@ -2080,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99",
           "name": "c99DirName",
           "package": "copilot-c99",
@@ -2089,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99",
           "name": "c99DirName",
           "package": "copilot-c99",
@@ -2102,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99",
           "name": "c99FileRoot",
           "package": "copilot-c99",
@@ -2111,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99",
           "name": "c99FileRoot",
           "package": "copilot-c99",
@@ -2124,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:03 UTC 2014",
           "module": "Copilot.Compile.C99",
           "name": "compile",
           "package": "copilot-c99",
@@ -2133,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile C99",
+          "indexed": "2014-03-11T17:41:03",
           "module": "Copilot.Compile.C99",
           "name": "compile",
           "normalized": "Params-\u003eSpec-\u003eIO()",

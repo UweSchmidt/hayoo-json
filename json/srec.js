@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "srec"
+        "phrase": "srec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing and processing s-records.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:14 UTC 2014",
           "module": "Data.SRec",
           "name": "SRec",
           "package": "srec",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parsing and processing s-records",
           "hierarchy": "Data SRec",
+          "indexed": "2014-03-11T20:09:14",
           "module": "Data.SRec",
           "name": "SRec",
           "package": "srec",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:14 UTC 2014",
           "module": "Data.SRec",
           "name": "SRec",
           "package": "srec",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data SRec",
+          "indexed": "2014-03-11T20:09:14",
           "module": "Data.SRec",
           "name": "SRec",
           "package": "srec",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarting address of block and block data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:14 UTC 2014",
           "module": "Data.SRec",
           "name": "SRec",
           "package": "srec",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Starting address of block and block data",
           "hierarchy": "Data SRec",
+          "indexed": "2014-03-11T20:09:14",
           "module": "Data.SRec",
           "name": "SRec",
           "normalized": "SRec[(Int,ByteString)]",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge all blocks in s-record into one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:14 UTC 2014",
           "module": "Data.SRec",
           "name": "mergeAllBlocks",
           "package": "srec",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Merge all blocks in s-record into one",
           "hierarchy": "Data SRec",
+          "indexed": "2014-03-11T20:09:14",
           "module": "Data.SRec",
           "name": "mergeAllBlocks",
           "normalized": "Word-\u003eSRec-\u003eSRec",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge consecutive blocks into one.  If blocks are not contiguous, the padding byte is used to fill in the extra space.  If the blocks overlap, an error is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:14 UTC 2014",
           "module": "Data.SRec",
           "name": "mergeBlocks",
           "package": "srec",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Merge consecutive blocks into one If blocks are not contiguous the padding byte is used to fill in the extra space If the blocks overlap an error is thrown",
           "hierarchy": "Data SRec",
+          "indexed": "2014-03-11T20:09:14",
           "module": "Data.SRec",
           "name": "mergeBlocks",
           "normalized": "Word-\u003e[(Int,ByteString)]-\u003e(Int,ByteString)",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge contiguous consecutive blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:14 UTC 2014",
           "module": "Data.SRec",
           "name": "mergeContiguousBlocks",
           "package": "srec",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Merge contiguous consecutive blocks",
           "hierarchy": "Data SRec",
+          "indexed": "2014-03-11T20:09:14",
           "module": "Data.SRec",
           "name": "mergeContiguousBlocks",
           "normalized": "[(Int,ByteString)]-\u003e[(Int,ByteString)]",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an s-record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:14 UTC 2014",
           "module": "Data.SRec",
           "name": "parseSRec",
           "package": "srec",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Parse an s-record",
           "hierarchy": "Data SRec",
+          "indexed": "2014-03-11T20:09:14",
           "module": "Data.SRec",
           "name": "parseSRec",
           "normalized": "String-\u003eSRec",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints (formats) an s-record file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:14 UTC 2014",
           "module": "Data.SRec",
           "name": "printSRec",
           "package": "srec",
@@ -203,6 +218,7 @@
         "index": {
           "description": "Prints formats an s-record file",
           "hierarchy": "Data SRec",
+          "indexed": "2014-03-11T20:09:14",
           "module": "Data.SRec",
           "name": "printSRec",
           "normalized": "SRec-\u003eString",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a block into sub-blocks given a block length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:14 UTC 2014",
           "module": "Data.SRec",
           "name": "splitBlock",
           "package": "srec",
@@ -229,6 +246,7 @@
         "index": {
           "description": "Split block into sub-blocks given block length",
           "hierarchy": "Data SRec",
+          "indexed": "2014-03-11T20:09:14",
           "module": "Data.SRec",
           "name": "splitBlock",
           "normalized": "Int-\u003e(Int,ByteString)-\u003e[(Int,ByteString)]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "accelerate-cuda"
+        "phrase": "accelerate-cuda",
+        "type": "phrase"
       },
       "type": "context"
     }

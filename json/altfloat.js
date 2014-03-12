@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "altfloat"
+        "phrase": "altfloat",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBindings to the standard C math library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "CMath",
           "package": "altfloat",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Bindings to the standard math library",
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "CMath",
           "package": "altfloat",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_acos",
           "package": "altfloat",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_acos",
           "normalized": "CDouble-\u003eCDouble",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_acosf",
           "package": "altfloat",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_acosf",
           "normalized": "CFloat-\u003eCFloat",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_acosh",
           "package": "altfloat",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_acosh",
           "normalized": "CDouble-\u003eCDouble",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_acoshf",
           "package": "altfloat",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_acoshf",
           "normalized": "CFloat-\u003eCFloat",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_asin",
           "package": "altfloat",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_asin",
           "normalized": "CDouble-\u003eCDouble",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_asinf",
           "package": "altfloat",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_asinf",
           "normalized": "CFloat-\u003eCFloat",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_asinh",
           "package": "altfloat",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_asinh",
           "normalized": "CDouble-\u003eCDouble",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_asinhf",
           "package": "altfloat",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_asinhf",
           "normalized": "CFloat-\u003eCFloat",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_atan",
           "package": "altfloat",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_atan",
           "normalized": "CDouble-\u003eCDouble",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_atan2",
           "package": "altfloat",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_atan2",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_atan2f",
           "package": "altfloat",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_atan2f",
           "normalized": "CFloat-\u003eCFloat-\u003eCFloat",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_atanf",
           "package": "altfloat",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_atanf",
           "normalized": "CFloat-\u003eCFloat",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_atanh",
           "package": "altfloat",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_atanh",
           "normalized": "CDouble-\u003eCDouble",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_atanhf",
           "package": "altfloat",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_atanhf",
           "normalized": "CFloat-\u003eCFloat",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_cbrt",
           "package": "altfloat",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_cbrt",
           "normalized": "CDouble-\u003eCDouble",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_cbrtf",
           "package": "altfloat",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_cbrtf",
           "normalized": "CFloat-\u003eCFloat",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_ceil",
           "package": "altfloat",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_ceil",
           "normalized": "CDouble-\u003eCDouble",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_ceilf",
           "package": "altfloat",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_ceilf",
           "normalized": "CFloat-\u003eCFloat",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_copysign",
           "package": "altfloat",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_copysign",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_copysignf",
           "package": "altfloat",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_copysignf",
           "normalized": "CFloat-\u003eCFloat-\u003eCFloat",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_cos",
           "package": "altfloat",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_cos",
           "normalized": "CDouble-\u003eCDouble",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_cosf",
           "package": "altfloat",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_cosf",
           "normalized": "CFloat-\u003eCFloat",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_cosh",
           "package": "altfloat",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_cosh",
           "normalized": "CDouble-\u003eCDouble",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_coshf",
           "package": "altfloat",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_coshf",
           "normalized": "CFloat-\u003eCFloat",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_erf",
           "package": "altfloat",
@@ -602,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_erf",
           "normalized": "CDouble-\u003eCDouble",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_erfc",
           "package": "altfloat",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_erfc",
           "normalized": "CDouble-\u003eCDouble",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_erfcf",
           "package": "altfloat",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_erfcf",
           "normalized": "CFloat-\u003eCFloat",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_erff",
           "package": "altfloat",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_erff",
           "normalized": "CFloat-\u003eCFloat",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_exp",
           "package": "altfloat",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_exp",
           "normalized": "CDouble-\u003eCDouble",
@@ -708,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_exp2",
           "package": "altfloat",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_exp2",
           "normalized": "CDouble-\u003eCDouble",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_exp2f",
           "package": "altfloat",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_exp2f",
           "normalized": "CFloat-\u003eCFloat",
@@ -754,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_expf",
           "package": "altfloat",
@@ -763,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_expf",
           "normalized": "CFloat-\u003eCFloat",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_expm1",
           "package": "altfloat",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_expm1",
           "normalized": "CDouble-\u003eCDouble",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_expm1f",
           "package": "altfloat",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_expm1f",
           "normalized": "CFloat-\u003eCFloat",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_fabs",
           "package": "altfloat",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_fabs",
           "normalized": "CDouble-\u003eCDouble",
@@ -846,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_fabsf",
           "package": "altfloat",
@@ -855,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_fabsf",
           "normalized": "CFloat-\u003eCFloat",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_fdim",
           "package": "altfloat",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_fdim",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_fdimf",
           "package": "altfloat",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_fdimf",
           "normalized": "CFloat-\u003eCFloat-\u003eCFloat",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_floor",
           "package": "altfloat",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_floor",
           "normalized": "CDouble-\u003eCDouble",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_floorf",
           "package": "altfloat",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_floorf",
           "normalized": "CFloat-\u003eCFloat",
@@ -961,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_fma",
           "package": "altfloat",
@@ -970,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_fma",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_fmaf",
           "package": "altfloat",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_fmaf",
           "normalized": "CFloat-\u003eCFloat-\u003eCFloat-\u003eCFloat",
@@ -1007,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_fmax",
           "package": "altfloat",
@@ -1016,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_fmax",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -1030,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_fmaxf",
           "package": "altfloat",
@@ -1039,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_fmaxf",
           "normalized": "CFloat-\u003eCFloat-\u003eCFloat",
@@ -1053,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_fmin",
           "package": "altfloat",
@@ -1062,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_fmin",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_fminf",
           "package": "altfloat",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_fminf",
           "normalized": "CFloat-\u003eCFloat-\u003eCFloat",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_fmod",
           "package": "altfloat",
@@ -1108,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_fmod",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -1122,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_fmodf",
           "package": "altfloat",
@@ -1131,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_fmodf",
           "normalized": "CFloat-\u003eCFloat-\u003eCFloat",
@@ -1145,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_frexp",
           "package": "altfloat",
@@ -1154,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_frexp",
           "normalized": "CDouble-\u003ePtr CInt-\u003eIO CDouble",
@@ -1168,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_frexpf",
           "package": "altfloat",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_frexpf",
           "normalized": "CFloat-\u003ePtr CInt-\u003eIO CFloat",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_hypot",
           "package": "altfloat",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_hypot",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -1214,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_hypotf",
           "package": "altfloat",
@@ -1223,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_hypotf",
           "normalized": "CFloat-\u003eCFloat-\u003eCFloat",
@@ -1237,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_ilogb",
           "package": "altfloat",
@@ -1246,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_ilogb",
           "normalized": "CDouble-\u003eCInt",
@@ -1260,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_ilogbf",
           "package": "altfloat",
@@ -1269,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_ilogbf",
           "normalized": "CFloat-\u003eCInt",
@@ -1283,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_ldexp",
           "package": "altfloat",
@@ -1292,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_ldexp",
           "normalized": "CDouble-\u003eCInt-\u003eCDouble",
@@ -1306,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_ldexpf",
           "package": "altfloat",
@@ -1315,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_ldexpf",
           "normalized": "CFloat-\u003eCInt-\u003eCFloat",
@@ -1329,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_lgamma",
           "package": "altfloat",
@@ -1338,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_lgamma",
           "normalized": "CDouble-\u003eCDouble",
@@ -1352,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_lgammaf",
           "package": "altfloat",
@@ -1361,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_lgammaf",
           "normalized": "CFloat-\u003eCFloat",
@@ -1375,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_llrint",
           "package": "altfloat",
@@ -1384,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_llrint",
           "normalized": "CDouble-\u003eCLLong",
@@ -1398,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_llrintf",
           "package": "altfloat",
@@ -1407,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_llrintf",
           "normalized": "CFloat-\u003eCLLong",
@@ -1421,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_llround",
           "package": "altfloat",
@@ -1430,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_llround",
           "normalized": "CDouble-\u003eCLLong",
@@ -1444,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_llroundf",
           "package": "altfloat",
@@ -1453,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_llroundf",
           "normalized": "CFloat-\u003eCLLong",
@@ -1467,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_log",
           "package": "altfloat",
@@ -1476,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_log",
           "normalized": "CDouble-\u003eCDouble",
@@ -1490,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_log10",
           "package": "altfloat",
@@ -1499,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_log10",
           "normalized": "CDouble-\u003eCDouble",
@@ -1513,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_log10f",
           "package": "altfloat",
@@ -1522,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_log10f",
           "normalized": "CFloat-\u003eCFloat",
@@ -1536,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_log1p",
           "package": "altfloat",
@@ -1545,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_log1p",
           "normalized": "CDouble-\u003eCDouble",
@@ -1559,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_log1pf",
           "package": "altfloat",
@@ -1568,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_log1pf",
           "normalized": "CFloat-\u003eCFloat",
@@ -1582,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_log2",
           "package": "altfloat",
@@ -1591,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_log2",
           "normalized": "CDouble-\u003eCDouble",
@@ -1605,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_log2f",
           "package": "altfloat",
@@ -1614,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_log2f",
           "normalized": "CFloat-\u003eCFloat",
@@ -1628,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_logb",
           "package": "altfloat",
@@ -1637,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_logb",
           "normalized": "CDouble-\u003eCDouble",
@@ -1651,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_logbf",
           "package": "altfloat",
@@ -1660,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_logbf",
           "normalized": "CFloat-\u003eCFloat",
@@ -1674,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_logf",
           "package": "altfloat",
@@ -1683,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_logf",
           "normalized": "CFloat-\u003eCFloat",
@@ -1697,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_lrint",
           "package": "altfloat",
@@ -1706,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_lrint",
           "normalized": "CDouble-\u003eCLong",
@@ -1720,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_lrintf",
           "package": "altfloat",
@@ -1729,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_lrintf",
           "normalized": "CFloat-\u003eCLong",
@@ -1743,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_lround",
           "package": "altfloat",
@@ -1752,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_lround",
           "normalized": "CDouble-\u003eCLong",
@@ -1766,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_lroundf",
           "package": "altfloat",
@@ -1775,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_lroundf",
           "normalized": "CFloat-\u003eCLong",
@@ -1789,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_modf",
           "package": "altfloat",
@@ -1798,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_modf",
           "normalized": "CDouble-\u003ePtr CDouble-\u003eIO CDouble",
@@ -1812,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_modff",
           "package": "altfloat",
@@ -1821,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_modff",
           "normalized": "CFloat-\u003ePtr CFloat-\u003eIO CFloat",
@@ -1835,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_nan",
           "package": "altfloat",
@@ -1844,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_nan",
           "normalized": "CString-\u003eIO CDouble",
@@ -1858,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_nanf",
           "package": "altfloat",
@@ -1867,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_nanf",
           "normalized": "CString-\u003eIO CFloat",
@@ -1881,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_nearbyint",
           "package": "altfloat",
@@ -1890,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_nearbyint",
           "normalized": "CDouble-\u003eCDouble",
@@ -1904,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_nearbyintf",
           "package": "altfloat",
@@ -1913,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_nearbyintf",
           "normalized": "CFloat-\u003eCFloat",
@@ -1927,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_nextafter",
           "package": "altfloat",
@@ -1936,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_nextafter",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -1950,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_nextafterf",
           "package": "altfloat",
@@ -1959,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_nextafterf",
           "normalized": "CFloat-\u003eCFloat-\u003eCFloat",
@@ -1973,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_pow",
           "package": "altfloat",
@@ -1982,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_pow",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -1996,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_powf",
           "package": "altfloat",
@@ -2005,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_powf",
           "normalized": "CFloat-\u003eCFloat-\u003eCFloat",
@@ -2019,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_remainder",
           "package": "altfloat",
@@ -2028,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_remainder",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble",
@@ -2042,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_remainderf",
           "package": "altfloat",
@@ -2051,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_remainderf",
           "normalized": "CFloat-\u003eCFloat-\u003eCFloat",
@@ -2065,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_remquo",
           "package": "altfloat",
@@ -2074,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_remquo",
           "normalized": "CDouble-\u003eCDouble-\u003ePtr CInt-\u003eIO CDouble",
@@ -2088,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_remquof",
           "package": "altfloat",
@@ -2097,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_remquof",
           "normalized": "CFloat-\u003eCFloat-\u003ePtr CInt-\u003eIO CFloat",
@@ -2111,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_rint",
           "package": "altfloat",
@@ -2120,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_rint",
           "normalized": "CDouble-\u003eCDouble",
@@ -2134,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_rintf",
           "package": "altfloat",
@@ -2143,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_rintf",
           "normalized": "CFloat-\u003eCFloat",
@@ -2157,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_round",
           "package": "altfloat",
@@ -2166,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_round",
           "normalized": "CDouble-\u003eCDouble",
@@ -2180,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_roundf",
           "package": "altfloat",
@@ -2189,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_roundf",
           "normalized": "CFloat-\u003eCFloat",
@@ -2203,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_scalbln",
           "package": "altfloat",
@@ -2212,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_scalbln",
           "normalized": "CDouble-\u003eCLong-\u003eCDouble",
@@ -2226,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_scalblnf",
           "package": "altfloat",
@@ -2235,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_scalblnf",
           "normalized": "CFloat-\u003eCLong-\u003eCFloat",
@@ -2249,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_scalbn",
           "package": "altfloat",
@@ -2258,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_scalbn",
           "normalized": "CDouble-\u003eCInt-\u003eCDouble",
@@ -2272,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_scalbnf",
           "package": "altfloat",
@@ -2281,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_scalbnf",
           "normalized": "CFloat-\u003eCInt-\u003eCFloat",
@@ -2295,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_sin",
           "package": "altfloat",
@@ -2304,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_sin",
           "normalized": "CDouble-\u003eCDouble",
@@ -2318,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_sinf",
           "package": "altfloat",
@@ -2327,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_sinf",
           "normalized": "CFloat-\u003eCFloat",
@@ -2341,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_sinh",
           "package": "altfloat",
@@ -2350,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_sinh",
           "normalized": "CDouble-\u003eCDouble",
@@ -2364,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_sinhf",
           "package": "altfloat",
@@ -2373,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_sinhf",
           "normalized": "CFloat-\u003eCFloat",
@@ -2387,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_sqrt",
           "package": "altfloat",
@@ -2396,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_sqrt",
           "normalized": "CDouble-\u003eCDouble",
@@ -2410,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_sqrtf",
           "package": "altfloat",
@@ -2419,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_sqrtf",
           "normalized": "CFloat-\u003eCFloat",
@@ -2433,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_tan",
           "package": "altfloat",
@@ -2442,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_tan",
           "normalized": "CDouble-\u003eCDouble",
@@ -2456,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_tanf",
           "package": "altfloat",
@@ -2465,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_tanf",
           "normalized": "CFloat-\u003eCFloat",
@@ -2479,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_tanh",
           "package": "altfloat",
@@ -2488,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_tanh",
           "normalized": "CDouble-\u003eCDouble",
@@ -2502,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_tanhf",
           "package": "altfloat",
@@ -2511,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_tanhf",
           "normalized": "CFloat-\u003eCFloat",
@@ -2525,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_tgamma",
           "package": "altfloat",
@@ -2534,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_tgamma",
           "normalized": "CDouble-\u003eCDouble",
@@ -2548,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_tgammaf",
           "package": "altfloat",
@@ -2557,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_tgammaf",
           "normalized": "CFloat-\u003eCFloat",
@@ -2571,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_trunc",
           "package": "altfloat",
@@ -2580,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_trunc",
           "normalized": "CDouble-\u003eCDouble",
@@ -2594,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "c_truncf",
           "package": "altfloat",
@@ -2603,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "c_truncf",
           "normalized": "CFloat-\u003eCFloat",
@@ -2617,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "libmDouble",
           "package": "altfloat",
@@ -2626,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "libmDouble",
           "normalized": "(CDouble-\u003eCDouble)-\u003eDouble-\u003eDouble",
@@ -2641,6 +2869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "libmDouble2",
           "package": "altfloat",
@@ -2650,6 +2879,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "libmDouble2",
           "normalized": "(CDouble-\u003eCDouble-\u003eCDouble)-\u003eDouble-\u003eDouble-\u003eDouble",
@@ -2665,6 +2895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "libmDouble3",
           "package": "altfloat",
@@ -2674,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "libmDouble3",
           "normalized": "(CDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble)-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble",
@@ -2689,6 +2921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "libmFloat",
           "package": "altfloat",
@@ -2698,6 +2931,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "libmFloat",
           "normalized": "(CFloat-\u003eCFloat)-\u003eFloat-\u003eFloat",
@@ -2713,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "libmFloat2",
           "package": "altfloat",
@@ -2722,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "libmFloat2",
           "normalized": "(CFloat-\u003eCFloat-\u003eCFloat)-\u003eFloat-\u003eFloat-\u003eFloat",
@@ -2737,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.CMath",
           "name": "libmFloat3",
           "package": "altfloat",
@@ -2746,6 +2983,7 @@
         },
         "index": {
           "hierarchy": "Data Floating CMath",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.CMath",
           "name": "libmFloat3",
           "normalized": "(CFloat-\u003eCFloat-\u003eCFloat-\u003eCFloat)-\u003eFloat-\u003eFloat-\u003eFloat-\u003eFloat",
@@ -2762,6 +3000,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric classes for floating point types.  The interface is loosely based\n off of the C math library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "Classes",
           "package": "altfloat",
@@ -2771,6 +3010,7 @@
         "index": {
           "description": "Generic classes for floating point types The interface is loosely based off of the math library",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "Classes",
           "package": "altfloat",
@@ -2785,6 +3025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassification of floating point values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "FPClassification",
           "package": "altfloat",
@@ -2794,6 +3035,7 @@
         "index": {
           "description": "Classification of floating point values",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "FPClassification",
           "package": "altfloat",
@@ -2808,6 +3050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for floating point types (real or complex-valued).\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: everything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "Floating",
           "package": "altfloat",
@@ -2817,6 +3060,7 @@
         "index": {
           "description": "Class for floating point types real or complex-valued Minimal complete definition everything",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "Floating",
           "package": "altfloat",
@@ -2831,6 +3075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for the basic floating point types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "PrimFloat",
           "package": "altfloat",
@@ -2840,6 +3085,7 @@
         "index": {
           "description": "Class for the basic floating point types",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "PrimFloat",
           "package": "altfloat",
@@ -2854,6 +3100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for real-valued floating point types.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: all except \u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003einfinity\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003enan\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "RealFloat",
           "package": "altfloat",
@@ -2863,6 +3110,7 @@
         "index": {
           "description": "Class for real-valued floating point types Minimal complete definition all except pi infinity and nan",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "RealFloat",
           "package": "altfloat",
@@ -2877,6 +3125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for types which can be rounded to integers.  The rounding functions\n in the Prelude are inadequate for floating point because they shoehorn their\n results into an integral type.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003etoIntegral\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eround\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "Roundable",
           "package": "altfloat",
@@ -2886,6 +3135,7 @@
         "index": {
           "description": "Class for types which can be rounded to integers The rounding functions in the Prelude are inadequate for floating point because they shoehorn their results into an integral type Minimal complete definition toIntegral and round",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "Roundable",
           "package": "altfloat",
@@ -2899,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "(**)",
           "package": "altfloat",
@@ -2908,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "(**) **",
           "normalized": "a-\u003ea-\u003ea",
@@ -2922,6 +3174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "FPInfinite",
           "package": "altfloat",
@@ -2931,6 +3184,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "FPInfinite",
           "package": "altfloat",
@@ -2944,6 +3198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "FPNaN",
           "package": "altfloat",
@@ -2953,6 +3208,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "FPNaN",
           "package": "altfloat",
@@ -2966,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "FPNormal",
           "package": "altfloat",
@@ -2975,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "FPNormal",
           "package": "altfloat",
@@ -2988,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "FPSubNormal",
           "package": "altfloat",
@@ -2997,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "FPSubNormal",
           "package": "altfloat",
@@ -3010,6 +3270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "FPZero",
           "package": "altfloat",
@@ -3019,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "FPZero",
           "package": "altfloat",
@@ -3032,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "acos",
           "package": "altfloat",
@@ -3041,6 +3304,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "acos",
           "normalized": "a-\u003ea",
@@ -3055,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "acosh",
           "package": "altfloat",
@@ -3064,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "acosh",
           "normalized": "a-\u003ea",
@@ -3078,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "asin",
           "package": "altfloat",
@@ -3087,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "asin",
           "normalized": "a-\u003ea",
@@ -3101,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "asinh",
           "package": "altfloat",
@@ -3110,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "asinh",
           "normalized": "a-\u003ea",
@@ -3124,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "atan",
           "package": "altfloat",
@@ -3133,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "atan",
           "normalized": "a-\u003ea",
@@ -3148,6 +3420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eatan2 y x\u003c/code\u003e computes the principal value of the arctangent of \u003ccode\u003ey/x\u003c/code\u003e.\n The signs of the input determine the quadrant of the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "atan2",
           "package": "altfloat",
@@ -3158,6 +3431,7 @@
         "index": {
           "description": "atan2 computes the principal value of the arctangent of The signs of the input determine the quadrant of the result",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "atan2",
           "normalized": "a-\u003ea-\u003ea",
@@ -3172,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "atanh",
           "package": "altfloat",
@@ -3181,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "atanh",
           "normalized": "a-\u003ea",
@@ -3196,6 +3472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCube root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "cbrt",
           "package": "altfloat",
@@ -3206,6 +3483,7 @@
         "index": {
           "description": "Cube root",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "cbrt",
           "normalized": "a-\u003ea",
@@ -3220,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "ceiling",
           "package": "altfloat",
@@ -3229,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "ceiling",
           "normalized": "a-\u003ea",
@@ -3243,6 +3523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "classify",
           "package": "altfloat",
@@ -3252,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "classify",
           "normalized": "a-\u003eFPClassification",
@@ -3267,6 +3549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecopysign x y\u003c/code\u003e computes a value with the magnitude of \u003ccode\u003ex\u003c/code\u003e but the sign\n of \u003ccode\u003ey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "copysign",
           "package": "altfloat",
@@ -3277,6 +3560,7 @@
         "index": {
           "description": "copysign computes value with the magnitude of but the sign of",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "copysign",
           "normalized": "a-\u003ea-\u003ea",
@@ -3291,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "cos",
           "package": "altfloat",
@@ -3300,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "cos",
           "normalized": "a-\u003ea",
@@ -3314,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "cosh",
           "package": "altfloat",
@@ -3323,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "cosh",
           "normalized": "a-\u003ea",
@@ -3338,6 +3626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "erf",
           "package": "altfloat",
@@ -3348,6 +3637,7 @@
         "index": {
           "description": "Error function",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "erf",
           "normalized": "a-\u003ea",
@@ -3363,6 +3653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplementary error function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "erfc",
           "package": "altfloat",
@@ -3373,6 +3664,7 @@
         "index": {
           "description": "Complementary error function",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "erfc",
           "normalized": "a-\u003ea",
@@ -3387,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "exp",
           "package": "altfloat",
@@ -3396,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "exp",
           "normalized": "a-\u003ea",
@@ -3411,6 +3705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase-2 exponential function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "exp2",
           "package": "altfloat",
@@ -3421,6 +3716,7 @@
         "index": {
           "description": "Base-2 exponential function",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "exp2",
           "normalized": "a-\u003ea",
@@ -3436,6 +3732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes \u003ccode\u003eexp x - 1\u003c/code\u003e without undue cancellation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "expm1",
           "package": "altfloat",
@@ -3446,6 +3743,7 @@
         "index": {
           "description": "Computes exp without undue cancellation",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "expm1",
           "normalized": "a-\u003ea",
@@ -3460,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "floor",
           "package": "altfloat",
@@ -3469,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "floor",
           "normalized": "a-\u003ea",
@@ -3484,6 +3784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFused multiply-add.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "fma",
           "package": "altfloat",
@@ -3494,6 +3795,7 @@
         "index": {
           "description": "Fused multiply-add",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "fma",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -3509,6 +3811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efmod x y\u003c/code\u003e computes \u003ccode\u003ex - n*y\u003c/code\u003e, where \u003ccode\u003en\u003c/code\u003e is the integral quotient of\n \u003ccode\u003ex/y\u003c/code\u003e, rounded towards zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "fmod",
           "package": "altfloat",
@@ -3519,6 +3822,7 @@
         "index": {
           "description": "fmod computes where is the integral quotient of rounded towards zero",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "fmod",
           "normalized": "a-\u003ea-\u003ea",
@@ -3534,6 +3838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efrem x y\u003c/code\u003e computes \u003ccode\u003ex - n*y\u003c/code\u003e, where \u003ccode\u003en\u003c/code\u003e is the integral quotient of\n \u003ccode\u003ex/y\u003c/code\u003e, rounded to the nearest integer, with halfway values rounded to\n even.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "frem",
           "package": "altfloat",
@@ -3544,6 +3849,7 @@
         "index": {
           "description": "frem computes where is the integral quotient of rounded to the nearest integer with halfway values rounded to even",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "frem",
           "normalized": "a-\u003ea-\u003ea",
@@ -3559,6 +3865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGamma function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "gamma",
           "package": "altfloat",
@@ -3569,6 +3876,7 @@
         "index": {
           "description": "Gamma function",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "gamma",
           "normalized": "a-\u003ea",
@@ -3584,6 +3892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEuclidean distance function without undue overflow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "hypot",
           "package": "altfloat",
@@ -3594,6 +3903,7 @@
         "index": {
           "description": "Euclidean distance function without undue overflow",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "hypot",
           "normalized": "a-\u003ea-\u003ea",
@@ -3608,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "infinity",
           "package": "altfloat",
@@ -3617,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "infinity",
           "package": "altfloat",
@@ -3630,6 +3942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog gamma function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "lgamma",
           "package": "altfloat",
@@ -3640,6 +3953,7 @@
         "index": {
           "description": "Log gamma function",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "lgamma",
           "normalized": "a-\u003ea",
@@ -3654,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "log",
           "package": "altfloat",
@@ -3663,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "log",
           "normalized": "a-\u003ea",
@@ -3678,6 +3994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase-10 logarithm function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "log10",
           "package": "altfloat",
@@ -3688,6 +4005,7 @@
         "index": {
           "description": "Base-10 logarithm function",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "log10",
           "normalized": "a-\u003ea",
@@ -3703,6 +4021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes \u003ccode\u003elog (x + 1)\u003c/code\u003e without undue cancellation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "log1p",
           "package": "altfloat",
@@ -3713,6 +4032,7 @@
         "index": {
           "description": "Computes log without undue cancellation",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "log1p",
           "normalized": "a-\u003ea",
@@ -3728,6 +4048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase-2 logarithm function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "log2",
           "package": "altfloat",
@@ -3738,6 +4059,7 @@
         "index": {
           "description": "Base-2 logarithm function",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "log2",
           "normalized": "a-\u003ea",
@@ -3753,6 +4075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the exponent of a floating point value.  If the value is\n subnormal, the result is as if the value were normalized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "logb",
           "package": "altfloat",
@@ -3763,6 +4086,7 @@
         "index": {
           "description": "Extracts the exponent of floating point value If the value is subnormal the result is as if the value were normalized",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "logb",
           "normalized": "a-\u003ea",
@@ -3777,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "nan",
           "package": "altfloat",
@@ -3786,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "nan",
           "package": "altfloat",
@@ -3799,6 +4125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003erint\u003c/a\u003e\u003c/code\u003e, except that the \u003ccode\u003eInexact\u003c/code\u003e exception is not raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "nearbyint",
           "package": "altfloat",
@@ -3809,6 +4136,7 @@
         "index": {
           "description": "Same as rint except that the Inexact exception is not raised",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "nearbyint",
           "normalized": "a-\u003ea",
@@ -3824,6 +4152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enextafter x y\u003c/code\u003e computes the next representable value after \u003ccode\u003ex\u003c/code\u003e in the\n direction of \u003ccode\u003ey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "nextafter",
           "package": "altfloat",
@@ -3834,6 +4163,7 @@
         "index": {
           "description": "nextafter computes the next representable value after in the direction of",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "nextafter",
           "normalized": "a-\u003ea-\u003ea",
@@ -3848,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "pi",
           "package": "altfloat",
@@ -3857,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "pi",
           "package": "altfloat",
@@ -3870,6 +4202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRound to the nearest integer according to the current rounding\n direction.  The default rounding direction is towards the nearest\n integer with halfway values rounded to even.  If the resulting value\n differs from the input, the \u003ccode\u003eInexact\u003c/code\u003e exception is raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "rint",
           "package": "altfloat",
@@ -3880,6 +4213,7 @@
         "index": {
           "description": "Round to the nearest integer according to the current rounding direction The default rounding direction is towards the nearest integer with halfway values rounded to even If the resulting value differs from the input the Inexact exception is raised",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "rint",
           "normalized": "a-\u003ea",
@@ -3894,6 +4228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "round",
           "package": "altfloat",
@@ -3903,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "round",
           "normalized": "a-\u003ea",
@@ -3917,6 +4253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "sin",
           "package": "altfloat",
@@ -3926,6 +4263,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "sin",
           "normalized": "a-\u003ea",
@@ -3940,6 +4278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "sinh",
           "package": "altfloat",
@@ -3949,6 +4288,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "sinh",
           "normalized": "a-\u003ea",
@@ -3963,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "sqrt",
           "package": "altfloat",
@@ -3972,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "sqrt",
           "normalized": "a-\u003ea",
@@ -3986,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "tan",
           "package": "altfloat",
@@ -3995,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "tan",
           "normalized": "a-\u003ea",
@@ -4009,6 +4353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "tanh",
           "package": "altfloat",
@@ -4018,6 +4363,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "tanh",
           "normalized": "a-\u003ea",
@@ -4033,6 +4379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscards the fractional component from a value.  Results in \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n if the result cannot be represented as an integer, such as if the input\n is infinite or NaN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "toIntegral",
           "package": "altfloat",
@@ -4043,6 +4390,7 @@
         "index": {
           "description": "Discards the fractional component from value Results in Nothing if the result cannot be represented as an integer such as if the input is infinite or NaN",
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "toIntegral",
           "normalized": "a-\u003eMaybe b",
@@ -4058,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Classes",
           "name": "truncate",
           "package": "altfloat",
@@ -4067,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Classes",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Classes",
           "name": "truncate",
           "normalized": "a-\u003ea",
@@ -4082,6 +4432,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAccess to the floating point environment.  Performing this access within\n a Haskell program turns out to be extremely problematic, because floating\n point operations are secretly impure.  For example, the innocent-looking\n function\n\u003c/p\u003e\u003cpre\u003e  (+) :: Double -\u003e Double -\u003e Double\u003c/pre\u003e\u003cp\u003epotentially both depends on and modifies the global floating point\n environment.\n\u003c/p\u003e\u003cp\u003eThis module avoids the referential transparency problems that occur as a\n result of accessing the floating point environment by restricting when\n computations which access it are evaluated.  There is some minor discipline\n required of the programmer: she must arrange her code so that pure floating\n point expressions are not forced during a call to \u003ccode\u003e\u003ca\u003efenvEval\u003c/a\u003e\u003c/code\u003e.\n See \u003ccode\u003efenv-impure.hs\u003c/code\u003e in the \u003ccode\u003eexamples/\u003c/code\u003e directory of the altfloat\n distribution for why this discipline is necessary.\n\u003c/p\u003e\u003cp\u003eFEnv instances the numeric classes, so it should be possible to use\n natural syntax.  Note that the operations done on FEnv are stored so that\n they can be performed later, thus one should be take care not to construct\n huge thunks when using this interface.\n\u003c/p\u003e\u003cp\u003eThis interface has not been tested in multi-threaded programs.  It might\n work: more info is needed about GHC's threading support.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "Environment",
           "package": "altfloat",
@@ -4091,6 +4442,7 @@
         "index": {
           "description": "Access to the floating point environment Performing this access within Haskell program turns out to be extremely problematic because floating point operations are secretly impure For example the innocent-looking function Double Double Double potentially both depends on and modifies the global floating point environment This module avoids the referential transparency problems that occur as result of accessing the floating point environment by restricting when computations which access it are evaluated There is some minor discipline required of the programmer she must arrange her code so that pure floating point expressions are not forced during call to fenvEval See fenv-impure.hs in the examples directory of the altfloat distribution for why this discipline is necessary FEnv instances the numeric classes so it should be possible to use natural syntax Note that the operations done on FEnv are stored so that they can be performed later thus one should be take care not to construct huge thunks when using this interface This interface has not been tested in multi-threaded programs It might work more info is needed about GHC threading support",
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "Environment",
           "package": "altfloat",
@@ -4105,6 +4457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContainer for computations which will be run in a modified floating point\n environment.  The FEnv container records all operations for later evaluation\n by \u003ccode\u003e\u003ca\u003efenvEval\u003c/a\u003e\u003c/code\u003e.  Note that \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e is strict in order to force evaluation\n of floating point values stored in the container.\n\u003c/p\u003e\u003cp\u003eDo not use the \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instances, they are provided only because Num\n requires them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "FEnv",
           "package": "altfloat",
@@ -4114,6 +4467,7 @@
         "index": {
           "description": "Container for computations which will be run in modified floating point environment The FEnv container records all operations for later evaluation by fenvEval Note that pure is strict in order to force evaluation of floating point values stored in the container Do not use the Eq or Show instances they are provided only because Num requires them",
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "FEnv",
           "package": "altfloat",
@@ -4128,6 +4482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque type which stores the complete floating point environment.  It\n corresponds to the C type \u003ccode\u003efenv_t\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "FEnvState",
           "package": "altfloat",
@@ -4137,6 +4492,7 @@
         "index": {
           "description": "Opaque type which stores the complete floating point environment It corresponds to the type fenv",
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "FEnvState",
           "package": "altfloat",
@@ -4150,6 +4506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "FloatException",
           "package": "altfloat",
@@ -4158,6 +4515,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "FloatException",
           "package": "altfloat",
@@ -4171,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "RoundingMode",
           "package": "altfloat",
@@ -4179,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "RoundingMode",
           "package": "altfloat",
@@ -4192,6 +4552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "DivByZero",
           "package": "altfloat",
@@ -4201,6 +4562,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "DivByZero",
           "package": "altfloat",
@@ -4214,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "Downward",
           "package": "altfloat",
@@ -4223,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "Downward",
           "package": "altfloat",
@@ -4236,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "Inexact",
           "package": "altfloat",
@@ -4245,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "Inexact",
           "package": "altfloat",
@@ -4258,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "Invalid",
           "package": "altfloat",
@@ -4267,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "Invalid",
           "package": "altfloat",
@@ -4280,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "Overflow",
           "package": "altfloat",
@@ -4289,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "Overflow",
           "package": "altfloat",
@@ -4302,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "ToNearest",
           "package": "altfloat",
@@ -4311,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "ToNearest",
           "package": "altfloat",
@@ -4324,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "TowardZero",
           "package": "altfloat",
@@ -4333,6 +4706,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "TowardZero",
           "package": "altfloat",
@@ -4346,6 +4720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "Underflow",
           "package": "altfloat",
@@ -4355,6 +4730,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "Underflow",
           "package": "altfloat",
@@ -4368,6 +4744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "Upward",
           "package": "altfloat",
@@ -4377,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "Upward",
           "package": "altfloat",
@@ -4391,6 +4769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns all the computations which are recorded in an FEnv container.  The\n floating point environment is preserved across this call, and any floating\n point exceptions which were raised during the computation are returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "fenvEval",
           "package": "altfloat",
@@ -4401,6 +4780,7 @@
         "index": {
           "description": "Runs all the computations which are recorded in an FEnv container The floating point environment is preserved across this call and any floating point exceptions which were raised during the computation are returned",
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "fenvEval",
           "normalized": "FEnv a-\u003eIO(a,[FloatException])",
@@ -4417,6 +4797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is to help with debugging the floating point environment\n handling.  \u003ccode\u003efenvTrace msg x\u003c/code\u003e constructs an FEnv value containing \u003ccode\u003ex\u003c/code\u003e that\n prints \u003ccode\u003emsg\u003c/code\u003e (using \u003ccode\u003e\u003ca\u003etrace\u003c/a\u003e\u003c/code\u003e) whenever the value is extracted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "fenvTrace",
           "package": "altfloat",
@@ -4427,6 +4808,7 @@
         "index": {
           "description": "This function is to help with debugging the floating point environment handling fenvTrace msg constructs an FEnv value containing that prints msg using trace whenever the value is extracted",
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "fenvTrace",
           "normalized": "String-\u003ea-\u003eFEnv a",
@@ -4442,6 +4824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "getRoundingMode",
           "package": "altfloat",
@@ -4451,6 +4834,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "getRoundingMode",
           "package": "altfloat",
@@ -4465,6 +4849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise floating point exceptions as part of an FEnv computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "raiseExceptions",
           "package": "altfloat",
@@ -4475,6 +4860,7 @@
         "index": {
           "description": "Raise floating point exceptions as part of an FEnv computation",
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "raiseExceptions",
           "normalized": "[FloatException]-\u003eFEnv a-\u003eFEnv a",
@@ -4491,6 +4877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaises the given floating point exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "unsafeRaiseExceptions",
           "package": "altfloat",
@@ -4501,6 +4888,7 @@
         "index": {
           "description": "Raises the given floating point exceptions",
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "unsafeRaiseExceptions",
           "normalized": "[FloatException]-\u003eIO()",
@@ -4517,6 +4905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestores a previously-saved floating point environment and returns the\n list of floating point exceptions that occurred prior to restoring the\n environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "unsafeRestoreEnvironment",
           "package": "altfloat",
@@ -4527,6 +4916,7 @@
         "index": {
           "description": "Restores previously-saved floating point environment and returns the list of floating point exceptions that occurred prior to restoring the environment",
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "unsafeRestoreEnvironment",
           "normalized": "FEnvState-\u003eIO[FloatException]",
@@ -4543,6 +4933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves the current floating point environment and, optionally, clears all\n floating point exception flags and sets non-stop (continue on exceptions)\n mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "unsafeSaveEnvironment",
           "package": "altfloat",
@@ -4553,6 +4944,7 @@
         "index": {
           "description": "Saves the current floating point environment and optionally clears all floating point exception flags and sets non-stop continue on exceptions mode",
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "unsafeSaveEnvironment",
           "normalized": "Bool-\u003eIO FEnvState",
@@ -4568,6 +4960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "unsafeSetRoundingMode",
           "package": "altfloat",
@@ -4577,6 +4970,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "unsafeSetRoundingMode",
           "normalized": "RoundingMode-\u003eIO()",
@@ -4593,6 +4987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate an FEnv using a specific rounding mode.  Rounding mode selections\n nest: subcomputations might use another mode.  The default rounding mode is\n unspecified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Environment",
           "name": "withRoundingMode",
           "package": "altfloat",
@@ -4603,6 +4998,7 @@
         "index": {
           "description": "Evaluate an FEnv using specific rounding mode Rounding mode selections nest subcomputations might use another mode The default rounding mode is unspecified",
           "hierarchy": "Data Floating Environment",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Environment",
           "name": "withRoundingMode",
           "normalized": "RoundingMode-\u003eFEnv a-\u003eFEnv a",
@@ -4619,6 +5015,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlternate prelude for the alternate floating point types.  This module\n re-exports the Data.Floating and Data.Poset operations as well as all the\n Prelude operations that do not conflict.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Prelude",
           "name": "Prelude",
           "package": "altfloat",
@@ -4628,6 +5025,7 @@
         "index": {
           "description": "Alternate prelude for the alternate floating point types This module re-exports the Data.Floating and Data.Poset operations as well as all the Prelude operations that do not conflict",
           "hierarchy": "Data Floating Prelude",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Prelude",
           "name": "Prelude",
           "package": "altfloat",
@@ -4641,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Types.Double",
           "name": "Double",
           "package": "altfloat",
@@ -4649,6 +5048,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Types Double",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Types.Double",
           "name": "Double",
           "package": "altfloat",
@@ -4663,6 +5063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Double type.  This is expected to be an identical declaration to\n the one found in GHC.Prim.  We avoid simply using GHC's type because we need \n to define our own class instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Types.Double",
           "name": "Double",
           "package": "altfloat",
@@ -4672,6 +5073,7 @@
         "index": {
           "description": "The Double type This is expected to be an identical declaration to the one found in GHC.Prim We avoid simply using GHC type because we need to define our own class instances",
           "hierarchy": "Data Floating Types Double",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Types.Double",
           "name": "Double",
           "package": "altfloat",
@@ -4685,6 +5087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Types.Float",
           "name": "Float",
           "package": "altfloat",
@@ -4693,6 +5096,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Types Float",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Types.Float",
           "name": "Float",
           "package": "altfloat",
@@ -4707,6 +5111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Float type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Types.Float",
           "name": "Float",
           "package": "altfloat",
@@ -4716,6 +5121,7 @@
         "index": {
           "description": "The Float type",
           "hierarchy": "Data Floating Types Float",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Types.Float",
           "name": "Float",
           "package": "altfloat",
@@ -4730,6 +5136,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinition of the core floating point types and basic manipulation of\n them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Types",
           "name": "Types",
           "package": "altfloat",
@@ -4739,6 +5146,7 @@
         "index": {
           "description": "Definition of the core floating point types and basic manipulation of them",
           "hierarchy": "Data Floating Types",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Types",
           "name": "Types",
           "package": "altfloat",
@@ -4753,6 +5161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Double type.  This is expected to be an identical declaration to\n the one found in GHC.Prim.  We avoid simply using GHC's type because we need \n to define our own class instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Types",
           "name": "Double",
           "package": "altfloat",
@@ -4762,6 +5171,7 @@
         "index": {
           "description": "The Double type This is expected to be an identical declaration to the one found in GHC.Prim We avoid simply using GHC type because we need to define our own class instances",
           "hierarchy": "Data Floating Types",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Types",
           "name": "Double",
           "package": "altfloat",
@@ -4776,6 +5186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Float type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Types",
           "name": "Float",
           "package": "altfloat",
@@ -4785,6 +5196,7 @@
         "index": {
           "description": "The Float type",
           "hierarchy": "Data Floating Types",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Types",
           "name": "Float",
           "package": "altfloat",
@@ -4799,6 +5211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoercion to floating point types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Types",
           "name": "FloatConvert",
           "package": "altfloat",
@@ -4808,6 +5221,7 @@
         "index": {
           "description": "Coercion to floating point types",
           "hierarchy": "Data Floating Types",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Types",
           "name": "FloatConvert",
           "package": "altfloat",
@@ -4821,6 +5235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Types",
           "name": "D#",
           "package": "altfloat",
@@ -4830,6 +5245,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Types",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Types",
           "name": "D#",
           "package": "altfloat",
@@ -4842,6 +5258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Types",
           "name": "F#",
           "package": "altfloat",
@@ -4851,6 +5268,7 @@
         },
         "index": {
           "hierarchy": "Data Floating Types",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Types",
           "name": "F#",
           "package": "altfloat",
@@ -4864,6 +5282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a floating point type.  Conversions from integers and real\n types are provided, as well as conversions between floating point types.\n Conversions between floating point types preserve infinities, negative\n zeros and NaNs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating.Types",
           "name": "toFloating",
           "package": "altfloat",
@@ -4874,6 +5293,7 @@
         "index": {
           "description": "Convert to floating point type Conversions from integers and real types are provided as well as conversions between floating point types Conversions between floating point types preserve infinities negative zeros and NaNs",
           "hierarchy": "Data Floating Types",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating.Types",
           "name": "toFloating",
           "normalized": "a-\u003eb",
@@ -4890,6 +5310,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTop level module for alternative floating point support.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating",
           "name": "Floating",
           "package": "altfloat",
@@ -4899,6 +5320,7 @@
         "index": {
           "description": "Top level module for alternative floating point support",
           "hierarchy": "Data Floating",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating",
           "name": "Floating",
           "package": "altfloat",
@@ -4913,6 +5335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Double type.  This is expected to be an identical declaration to\n the one found in GHC.Prim.  We avoid simply using GHC's type because we need \n to define our own class instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating",
           "name": "Double",
           "package": "altfloat",
@@ -4922,6 +5345,7 @@
         "index": {
           "description": "The Double type This is expected to be an identical declaration to the one found in GHC.Prim We avoid simply using GHC type because we need to define our own class instances",
           "hierarchy": "Data Floating",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating",
           "name": "Double",
           "package": "altfloat",
@@ -4936,6 +5360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Float type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating",
           "name": "Float",
           "package": "altfloat",
@@ -4945,6 +5370,7 @@
         "index": {
           "description": "The Float type",
           "hierarchy": "Data Floating",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating",
           "name": "Float",
           "package": "altfloat",
@@ -4959,6 +5385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efquotRem x y\u003c/code\u003e computes the remainder and integral quotient upon division\n of x by y.  The result is (x-n*y, n), where n is the value x/y rounded to\n the nearest integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating",
           "name": "fquotRem",
           "package": "altfloat",
@@ -4969,6 +5396,7 @@
         "index": {
           "description": "fquotRem computes the remainder and integral quotient upon division of by The result is x-n where is the value rounded to the nearest integer",
           "hierarchy": "Data Floating",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating",
           "name": "fquotRem",
           "normalized": "a-\u003ea-\u003e(a,a)",
@@ -4984,6 +5412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating",
           "name": "isFinite",
           "package": "altfloat",
@@ -4993,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "Data Floating",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating",
           "name": "isFinite",
           "normalized": "a-\u003eBool",
@@ -5008,6 +5438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating",
           "name": "isInfinite",
           "package": "altfloat",
@@ -5017,6 +5448,7 @@
         },
         "index": {
           "hierarchy": "Data Floating",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating",
           "name": "isInfinite",
           "normalized": "a-\u003eBool",
@@ -5032,6 +5464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating",
           "name": "isNaN",
           "package": "altfloat",
@@ -5041,6 +5474,7 @@
         },
         "index": {
           "hierarchy": "Data Floating",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating",
           "name": "isNaN",
           "normalized": "a-\u003eBool",
@@ -5056,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating",
           "name": "isNegativeZero",
           "package": "altfloat",
@@ -5065,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Data Floating",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating",
           "name": "isNegativeZero",
           "normalized": "a-\u003eBool",
@@ -5080,6 +5516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating",
           "name": "isNormal",
           "package": "altfloat",
@@ -5089,6 +5526,7 @@
         },
         "index": {
           "hierarchy": "Data Floating",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating",
           "name": "isNormal",
           "normalized": "a-\u003eBool",
@@ -5104,6 +5542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating",
           "name": "isSubNormal",
           "package": "altfloat",
@@ -5113,6 +5552,7 @@
         },
         "index": {
           "hierarchy": "Data Floating",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating",
           "name": "isSubNormal",
           "normalized": "a-\u003eBool",
@@ -5129,6 +5569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a floating point type.  Conversions from integers and real\n types are provided, as well as conversions between floating point types.\n Conversions between floating point types preserve infinities, negative\n zeros and NaNs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Floating",
           "name": "toFloating",
           "package": "altfloat",
@@ -5139,6 +5580,7 @@
         "index": {
           "description": "Convert to floating point type Conversions from integers and real types are provided as well as conversions between floating point types Conversions between floating point types preserve infinities negative zeros and NaNs",
           "hierarchy": "Data Floating",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Floating",
           "name": "toFloating",
           "normalized": "a-\u003eb",
@@ -5155,6 +5597,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePartially ordered data types.  The standard \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e class is for\n total orders and therefore not suitable for floating point.  However, we can\n still define meaningful \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esort\u003c/a\u003e\u003c/code\u003e functions for these types.\n\u003c/p\u003e\u003cp\u003eWe define our own \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e class which is intended as a replacement for\n \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e.  However, in order to take advantage of existing libraries\n which use \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e, we make every instance of \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e an instance of\n \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e.  This is done using the OverlappingInstances and\n UndecidableInstances extensions -- it remains to be seen if problems occur\n as a result of this.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "Poset",
           "package": "altfloat",
@@ -5164,6 +5607,7 @@
         "index": {
           "description": "Partially ordered data types The standard Ord class is for total orders and therefore not suitable for floating point However we can still define meaningful max and sort functions for these types We define our own Ord class which is intended as replacement for Ord However in order to take advantage of existing libraries which use Ord we make every instance of Ord an instance of Ord This is done using the OverlappingInstances and UndecidableInstances extensions it remains to be seen if problems occur as result of this",
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "Poset",
           "package": "altfloat",
@@ -5178,6 +5622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for totally ordered data types.  Instances should satisfy\n \u003ccode\u003eisOrdered a = True\u003c/code\u003e for all \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "Ord",
           "package": "altfloat",
@@ -5187,6 +5632,7 @@
         "index": {
           "description": "Class for totally ordered data types Instances should satisfy isOrdered True for all",
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "Ord",
           "package": "altfloat",
@@ -5200,6 +5646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "Ordering",
           "package": "altfloat",
@@ -5208,6 +5655,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "Ordering",
           "package": "altfloat",
@@ -5222,6 +5670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for partially ordered data types.  Instances should satisfy the\n following laws for all values a, b and c:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ea \u003c= a\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ea \u003c= b\u003c/code\u003e and \u003ccode\u003eb \u003c= a\u003c/code\u003e implies \u003ccode\u003ea == b\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ea \u003c= b\u003c/code\u003e and \u003ccode\u003eb \u003c= c\u003c/code\u003e implies \u003ccode\u003ea \u003c= c\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eBut note that the floating point instances don't satisfy the first rule.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003ecompare\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003e\u003c=\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "Poset",
           "package": "altfloat",
@@ -5231,6 +5680,7 @@
         "index": {
           "description": "Class for partially ordered data types Instances should satisfy the following laws for all values and and implies and implies But note that the floating point instances don satisfy the first rule Minimal complete definition compare or",
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "Poset",
           "package": "altfloat",
@@ -5245,6 +5695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for partially ordered data types where sorting makes sense.\n This includes all totally ordered sets and floating point types.  Instances\n should satisfy the following laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The set of elements for which \u003ccode\u003e\u003ca\u003eisOrdered\u003c/a\u003e\u003c/code\u003e returns true is totally ordered.\n\u003c/li\u003e\u003cli\u003e The max (or min) of an insignificant element and a significant element\n is the significant one.\n\u003c/li\u003e\u003cli\u003e The result of sorting a list should contain only significant elements.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003emax a b\u003c/code\u003e = \u003ccode\u003emax b a\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003emin a b\u003c/code\u003e = \u003ccode\u003emin b a\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe idea comes from floating point types, where non-comparable elements\n (NaNs) are the exception rather than the rule.  For these types, we can\n define \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003emin\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esortBy\u003c/a\u003e\u003c/code\u003e to ignore insignificant elements.  Thus, a\n sort of floating point values will discard all NaNs and order the remaining\n elements.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003eisOrdered\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "Sortable",
           "package": "altfloat",
@@ -5254,6 +5705,7 @@
         "index": {
           "description": "Class for partially ordered data types where sorting makes sense This includes all totally ordered sets and floating point types Instances should satisfy the following laws The set of elements for which isOrdered returns true is totally ordered The max or min of an insignificant element and significant element is the significant one The result of sorting list should contain only significant elements max max min min The idea comes from floating point types where non-comparable elements NaNs are the exception rather than the rule For these types we can define max min and sortBy to ignore insignificant elements Thus sort of floating point values will discard all NaNs and order the remaining elements Minimal complete definition isOrdered",
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "Sortable",
           "package": "altfloat",
@@ -5267,6 +5719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "(\u003c)",
           "package": "altfloat",
@@ -5276,6 +5729,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "(\u003c) \u003c",
           "normalized": "a-\u003ea-\u003eBool",
@@ -5291,6 +5745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs not comparable to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "(\u003c/=\u003e)",
           "package": "altfloat",
@@ -5301,6 +5756,7 @@
         "index": {
           "description": "Is not comparable to",
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "(\u003c/=\u003e) \u003c/=\u003e",
           "normalized": "a-\u003ea-\u003eBool",
@@ -5315,6 +5771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "(\u003c=)",
           "package": "altfloat",
@@ -5324,6 +5781,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "(\u003c=) \u003c=",
           "normalized": "a-\u003ea-\u003eBool",
@@ -5339,6 +5797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs comparable to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "(\u003c==\u003e)",
           "package": "altfloat",
@@ -5349,6 +5808,7 @@
         "index": {
           "description": "Is comparable to",
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "(\u003c==\u003e) \u003c==\u003e",
           "normalized": "a-\u003ea-\u003eBool",
@@ -5363,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "(\u003e)",
           "package": "altfloat",
@@ -5372,6 +5833,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "(\u003e) \u003e",
           "normalized": "a-\u003ea-\u003eBool",
@@ -5386,6 +5848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "(\u003e=)",
           "package": "altfloat",
@@ -5395,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "(\u003e=) \u003e=",
           "normalized": "a-\u003ea-\u003eBool",
@@ -5409,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "EQ",
           "package": "altfloat",
@@ -5418,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "EQ",
           "package": "altfloat",
@@ -5431,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "GT",
           "package": "altfloat",
@@ -5440,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "GT",
           "package": "altfloat",
@@ -5453,6 +5921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "LT",
           "package": "altfloat",
@@ -5462,6 +5931,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "LT",
           "package": "altfloat",
@@ -5475,6 +5945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "NC",
           "package": "altfloat",
@@ -5484,6 +5955,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "NC",
           "package": "altfloat",
@@ -5497,6 +5969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "compare",
           "package": "altfloat",
@@ -5506,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "compare",
           "normalized": "a-\u003ea-\u003eOrdering",
@@ -5521,6 +5995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to values before comparing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "comparing",
           "package": "altfloat",
@@ -5531,6 +6006,7 @@
         "index": {
           "description": "Apply function to values before comparing",
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "comparing",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eOrdering",
@@ -5545,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "isOrdered",
           "package": "altfloat",
@@ -5554,6 +6031,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "isOrdered",
           "normalized": "a-\u003eBool",
@@ -5569,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "max",
           "package": "altfloat",
@@ -5578,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "max",
           "normalized": "a-\u003ea-\u003ea",
@@ -5592,6 +6072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "min",
           "package": "altfloat",
@@ -5601,6 +6082,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "min",
           "normalized": "a-\u003ea-\u003ea",
@@ -5616,6 +6098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort a list using the default comparison function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "sort",
           "package": "altfloat",
@@ -5626,6 +6109,7 @@
         "index": {
           "description": "Sort list using the default comparison function",
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "sort",
           "normalized": "[a]-\u003e[a]",
@@ -5640,6 +6124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:37 UTC 2014",
           "module": "Data.Poset",
           "name": "sortBy",
           "package": "altfloat",
@@ -5649,6 +6134,7 @@
         },
         "index": {
           "hierarchy": "Data Poset",
+          "indexed": "2014-03-11T17:10:37",
           "module": "Data.Poset",
           "name": "sortBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003e[a]",

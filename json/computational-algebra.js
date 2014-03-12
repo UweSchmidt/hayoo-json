@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "computational-algebra"
+        "phrase": "computational-algebra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonomorphic interface for Groenber basis.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "Monomorphic",
           "package": "computational-algebra",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Monomorphic interface for Groenber basis",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "Monomorphic",
           "package": "computational-algebra",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "GradedStrategy",
           "package": "computational-algebra",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "GradedStrategy",
           "package": "computational-algebra",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraded reversed lexicographical order. Same as \u003ccode\u003eGraded Revlex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "Grevlex",
           "package": "computational-algebra",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Graded reversed lexicographical order Same as Graded Revlex",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "Grevlex",
           "package": "computational-algebra",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose the pair with the least LCM(LT(f), LT(g)) w.r.t. \u003ccode\u003e\u003ca\u003eGrevlex\u003c/a\u003e\u003c/code\u003e order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "GrevlexStrategy",
           "package": "computational-algebra",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Choose the pair with the least LCM LT LT w.r.t Grevlex order",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "GrevlexStrategy",
           "package": "computational-algebra",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraded lexicographical order. Same as \u003ccode\u003eGraded Lex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "Grlex",
           "package": "computational-algebra",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Graded lexicographical order Same as Graded Lex",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "Grlex",
           "package": "computational-algebra",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "Groebnerable",
           "package": "computational-algebra",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Synonym",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "Groebnerable",
           "package": "computational-algebra",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for Monomial orders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "IsMonomialOrder",
           "package": "computational-algebra",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Class for Monomial orders",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "IsMonomialOrder",
           "package": "computational-algebra",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass to lookup ordering from its (type-level) name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "IsOrder",
           "package": "computational-algebra",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Class to lookup ordering from its type-level name",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "IsOrder",
           "package": "computational-algebra",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexicographical order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "Lex",
           "package": "computational-algebra",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Lexicographical order",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "Lex",
           "package": "computational-algebra",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuchberger's normal selection strategy. This selects the pair with\n the least LCM(LT(f), LT(g)) w.r.t. current monomial ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "NormalStrategy",
           "package": "computational-algebra",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Buchberger normal selection strategy This selects the pair with the least LCM LT LT w.r.t current monomial ordering",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "NormalStrategy",
           "package": "computational-algebra",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReversed lexicographical order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "Revlex",
           "package": "computational-algebra",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Reversed lexicographical order",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "Revlex",
           "package": "computational-algebra",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-class for selection strategies in Buchberger's algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "SelectionStrategy",
           "package": "computational-algebra",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Type-class for selection strategies in Buchberger algorithm",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "SelectionStrategy",
           "package": "computational-algebra",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSugar strategy. This chooses the pair with the least phantom homogenized degree and then break the tie with the given strategy (say \u003ccode\u003es\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "SugarStrategy",
           "package": "computational-algebra",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Sugar strategy This chooses the pair with the least phantom homogenized degree and then break the tie with the given strategy say",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "SugarStrategy",
           "package": "computational-algebra",
@@ -499,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "calcGroebnerBasis",
           "package": "computational-algebra",
@@ -508,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "calcGroebnerBasis",
           "normalized": "[Polynomial a]-\u003e[Polynomial a]",
@@ -523,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "calcGroebnerBasisWith",
           "package": "computational-algebra",
@@ -532,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "calcGroebnerBasisWith",
           "normalized": "a-\u003e[Polynomial b]-\u003e[Polynomial b]",
@@ -547,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "calcWeight",
           "package": "computational-algebra",
@@ -556,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "calcWeight",
           "normalized": "Proxy a-\u003eOrderedPolynomial b c d-\u003eOrderedPolynomial b c d-\u003eWeight a c",
@@ -598,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "cmpMonomial",
           "package": "computational-algebra",
@@ -607,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "cmpMonomial",
           "normalized": "Proxy a-\u003eMonomialOrder",
@@ -622,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "divModPolynomial",
           "package": "computational-algebra",
@@ -631,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "divModPolynomial",
           "normalized": "Polynomial a-\u003e[Polynomial a]-\u003e([(Polynomial a,Polynomial a)],Polynomial a)",
@@ -646,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "divModPolynomialWith",
           "package": "computational-algebra",
@@ -655,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "divModPolynomialWith",
           "normalized": "a-\u003ePolynomial b-\u003e[Polynomial b]-\u003e([(Polynomial b,Polynomial b)],Polynomial b)",
@@ -670,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "divPolynomial",
           "package": "computational-algebra",
@@ -679,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "divPolynomial",
           "normalized": "Polynomial a-\u003e[Polynomial a]-\u003e[(Polynomial a,Polynomial a)]",
@@ -694,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "divPolynomialWith",
           "package": "computational-algebra",
@@ -703,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "divPolynomialWith",
           "normalized": "a-\u003ePolynomial b-\u003e[Polynomial b]-\u003e[(Polynomial b,Polynomial b)]",
@@ -718,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "eliminate",
           "package": "computational-algebra",
@@ -727,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "eliminate",
           "normalized": "[Variable]-\u003e[Polynomial a]-\u003e[Polynomial a]",
@@ -742,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the ideal with specified variables eliminated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "eliminateWith",
           "package": "computational-algebra",
@@ -752,6 +797,7 @@
         "index": {
           "description": "Computes the ideal with specified variables eliminated",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "eliminateWith",
           "normalized": "a-\u003e[Variable]-\u003e[Polynomial b]-\u003e[Polynomial b]",
@@ -768,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermin if given two unary polynomials have common factor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "hasCommonFactor",
           "package": "computational-algebra",
@@ -778,6 +825,7 @@
         "index": {
           "description": "Determin if given two unary polynomials have common factor",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "hasCommonFactor",
           "normalized": "Polynomial a-\u003ePolynomial a-\u003eBool",
@@ -794,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate a intersection of given ideals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "intersection",
           "package": "computational-algebra",
@@ -804,6 +853,7 @@
         "index": {
           "description": "Calculate intersection of given ideals",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "intersection",
           "normalized": "[[Polynomial a]]-\u003e[Polynomial a]",
@@ -818,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "isIdealMember",
           "package": "computational-algebra",
@@ -827,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "isIdealMember",
           "normalized": "Polynomial a-\u003e[Polynomial a]-\u003eBool",
@@ -842,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "modPolynomial",
           "package": "computational-algebra",
@@ -851,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "modPolynomial",
           "normalized": "Polynomial a-\u003e[Polynomial a]-\u003ePolynomial a",
@@ -866,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "modPolynomialWith",
           "package": "computational-algebra",
@@ -875,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "modPolynomialWith",
           "normalized": "a-\u003ePolynomial b-\u003e[Polynomial b]-\u003ePolynomial b",
@@ -890,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "primeTestBuchberger",
           "package": "computational-algebra",
@@ -899,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "primeTestBuchberger",
           "normalized": "[Polynomial a]-\u003e[Polynomial a]",
@@ -914,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "primeTestBuchbergerWith",
           "package": "computational-algebra",
@@ -923,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "primeTestBuchbergerWith",
           "normalized": "a-\u003e[Polynomial b]-\u003e[Polynomial b]",
@@ -939,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate ideal quotient of I by principal ideal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "quotByPrincipalIdeal",
           "package": "computational-algebra",
@@ -949,6 +1010,7 @@
         "index": {
           "description": "Calculate ideal quotient of by principal ideal",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "quotByPrincipalIdeal",
           "normalized": "[Polynomial a]-\u003ePolynomial a-\u003e[Polynomial a]",
@@ -965,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the ideal quotient of I of J.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "quotIdeal",
           "package": "computational-algebra",
@@ -975,6 +1038,7 @@
         "index": {
           "description": "Calculate the ideal quotient of of",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "quotIdeal",
           "normalized": "[Polynomial a]-\u003e[Polynomial a]-\u003e[Polynomial a]",
@@ -991,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates resultants for given two unary-polynomials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "resultant",
           "package": "computational-algebra",
@@ -1001,6 +1066,7 @@
         "index": {
           "description": "Calculates resultants for given two unary-polynomials",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "resultant",
           "normalized": "Polynomial a-\u003ePolynomial a-\u003ea",
@@ -1016,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate saturation ideal by the principal ideal generated by the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "saturationByPrincipalIdeal",
           "package": "computational-algebra",
@@ -1026,6 +1093,7 @@
         "index": {
           "description": "Calculate saturation ideal by the principal ideal generated by the second argument",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "saturationByPrincipalIdeal",
           "normalized": "[Polynomial a]-\u003ePolynomial a-\u003e[Polynomial a]",
@@ -1042,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate saturation ideal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "saturationIdeal",
           "package": "computational-algebra",
@@ -1052,6 +1121,7 @@
         "index": {
           "description": "Calculate saturation ideal",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "saturationIdeal",
           "normalized": "[Polynomial a]-\u003e[Polynomial a]-\u003e[Polynomial a]",
@@ -1067,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "simpleBuchberger",
           "package": "computational-algebra",
@@ -1076,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "simpleBuchberger",
           "normalized": "[Polynomial a]-\u003e[Polynomial a]",
@@ -1091,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "simpleBuchbergerWith",
           "package": "computational-algebra",
@@ -1100,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "simpleBuchbergerWith",
           "normalized": "a-\u003e[Polynomial b]-\u003e[Polynomial b]",
@@ -1115,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "syzygyBuchberger",
           "package": "computational-algebra",
@@ -1124,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "syzygyBuchberger",
           "normalized": "[Polynomial a]-\u003e[Polynomial a]",
@@ -1139,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "syzygyBuchbergerWith",
           "package": "computational-algebra",
@@ -1148,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "syzygyBuchbergerWith",
           "normalized": "a-\u003e[Polynomial b]-\u003e[Polynomial b]",
@@ -1163,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "syzygyBuchbergerWithStrategy",
           "package": "computational-algebra",
@@ -1172,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "syzygyBuchbergerWithStrategy",
           "normalized": "a-\u003eb-\u003e[Polynomial c]-\u003e[Polynomial c]",
@@ -1188,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes nth elimination ideal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "thEliminationIdeal",
           "package": "computational-algebra",
@@ -1198,6 +1279,7 @@
         "index": {
           "description": "Computes nth elimination ideal",
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "thEliminationIdeal",
           "normalized": "Int-\u003e[Polynomial a]-\u003e[Polynomial a]",
@@ -1213,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "thEliminationIdealWith",
           "package": "computational-algebra",
@@ -1222,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner.Monomorphic",
           "name": "thEliminationIdealWith",
           "normalized": "a-\u003eInt-\u003e[Polynomial b]-\u003e[Polynomial b]",
@@ -1237,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "Groebner",
           "package": "computational-algebra",
@@ -1245,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "Groebner",
           "package": "computational-algebra",
@@ -1258,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "GradedStrategy",
           "package": "computational-algebra",
@@ -1266,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "GradedStrategy",
           "package": "computational-algebra",
@@ -1280,6 +1368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose the pair with the least LCM(LT(f), LT(g)) w.r.t. \u003ccode\u003e\u003ca\u003eGrevlex\u003c/a\u003e\u003c/code\u003e order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "GrevlexStrategy",
           "package": "computational-algebra",
@@ -1289,6 +1378,7 @@
         "index": {
           "description": "Choose the pair with the least LCM LT LT w.r.t Grevlex order",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "GrevlexStrategy",
           "package": "computational-algebra",
@@ -1303,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuchberger's normal selection strategy. This selects the pair with\n the least LCM(LT(f), LT(g)) w.r.t. current monomial ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "NormalStrategy",
           "package": "computational-algebra",
@@ -1312,6 +1403,7 @@
         "index": {
           "description": "Buchberger normal selection strategy This selects the pair with the least LCM LT LT w.r.t current monomial ordering",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "NormalStrategy",
           "package": "computational-algebra",
@@ -1326,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-class for selection strategies in Buchberger's algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "SelectionStrategy",
           "package": "computational-algebra",
@@ -1335,6 +1428,7 @@
         "index": {
           "description": "Type-class for selection strategies in Buchberger algorithm",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "SelectionStrategy",
           "package": "computational-algebra",
@@ -1349,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSugar strategy. This chooses the pair with the least phantom homogenized degree and then break the tie with the given strategy (say \u003ccode\u003es\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "SugarStrategy",
           "package": "computational-algebra",
@@ -1358,6 +1453,7 @@
         "index": {
           "description": "Sugar strategy This chooses the pair with the least phantom homogenized degree and then break the tie with the given strategy say",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "SugarStrategy",
           "package": "computational-algebra",
@@ -1372,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate Groebner basis applying (modified) Buchberger's algorithm.\n This function is same as \u003ccode\u003e\u003ca\u003esyzygyBuchberger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "buchberger",
           "package": "computational-algebra",
@@ -1382,6 +1479,7 @@
         "index": {
           "description": "Calculate Groebner basis applying modified Buchberger algorithm This function is same as syzygyBuchberger",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "buchberger",
           "normalized": "Ideal(OrderedPolynomial a b c)-\u003e[OrderedPolynomial a b c]",
@@ -1397,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCaliculating reduced Groebner basis of the given ideal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "calcGroebnerBasis",
           "package": "computational-algebra",
@@ -1407,6 +1506,7 @@
         "index": {
           "description": "Caliculating reduced Groebner basis of the given ideal",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "calcGroebnerBasis",
           "normalized": "Ideal(OrderedPolynomial a b c)-\u003e[OrderedPolynomial a b c]",
@@ -1423,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCaliculating reduced Groebner basis of the given ideal w.r.t. the specified monomial order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "calcGroebnerBasisWith",
           "package": "computational-algebra",
@@ -1433,6 +1534,7 @@
         "index": {
           "description": "Caliculating reduced Groebner basis of the given ideal w.r.t the specified monomial order",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "calcGroebnerBasisWith",
           "normalized": "a-\u003eIdeal(OrderedPolynomial b c d)-\u003e[OrderedPolynomial b a d]",
@@ -1449,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCaliculating reduced Groebner basis of the given ideal w.r.t. the specified monomial order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "calcGroebnerBasisWithStrategy",
           "package": "computational-algebra",
@@ -1459,6 +1562,7 @@
         "index": {
           "description": "Caliculating reduced Groebner basis of the given ideal w.r.t the specified monomial order",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "calcGroebnerBasisWithStrategy",
           "normalized": "a-\u003eIdeal(OrderedPolynomial b c d)-\u003e[OrderedPolynomial b c d]",
@@ -1474,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "calcWeight",
           "package": "computational-algebra",
@@ -1483,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "calcWeight",
           "normalized": "Proxy a-\u003eOrderedPolynomial b c d-\u003eOrderedPolynomial b c d-\u003eWeight a c",
@@ -1499,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate a polynomial quotient and remainder w.r.t. second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "divModPolynomial",
           "package": "computational-algebra",
@@ -1509,6 +1616,7 @@
         "index": {
           "description": "Calculate polynomial quotient and remainder w.r.t second argument",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "divModPolynomial",
           "normalized": "OrderedPolynomial a b c-\u003e[OrderedPolynomial a b c]-\u003e([(OrderedPolynomial a b c,OrderedPolynomial a b c)],OrderedPolynomial a b c)",
@@ -1525,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Quotient of given polynomial w.r.t. the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "divPolynomial",
           "package": "computational-algebra",
@@ -1535,6 +1644,7 @@
         "index": {
           "description": "Quotient of given polynomial w.r.t the second argument",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "divPolynomial",
           "normalized": "OrderedPolynomial a b c-\u003e[OrderedPolynomial a b c]-\u003e[(OrderedPolynomial a b c,OrderedPolynomial a b c)]",
@@ -1550,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "hasCommonFactor",
           "package": "computational-algebra",
@@ -1559,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "hasCommonFactor",
           "normalized": "OrderedPolynomial a b One-\u003eOrderedPolynomial a b One-\u003eBool",
@@ -1575,6 +1687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn intersection ideal of given ideals (using \u003ccode\u003e\u003ca\u003eWeightedEliminationOrder\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "intersection",
           "package": "computational-algebra",
@@ -1585,6 +1698,7 @@
         "index": {
           "description": "An intersection ideal of given ideals using WeightedEliminationOrder",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "intersection",
           "normalized": "Vector(Ideal(OrderedPolynomial a b c))d-\u003eIdeal(OrderedPolynomial a b c)",
@@ -1600,6 +1714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the given polynomial is the member of the ideal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "isIdealMember",
           "package": "computational-algebra",
@@ -1610,6 +1725,7 @@
         "index": {
           "description": "Test if the given polynomial is the member of the ideal",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "isIdealMember",
           "normalized": "OrderedPolynomial a b c-\u003eIdeal(OrderedPolynomial a b c)-\u003eBool",
@@ -1625,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "minimizeGroebnerBasis",
           "package": "computational-algebra",
@@ -1634,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "minimizeGroebnerBasis",
           "normalized": "[OrderedPolynomial a b c]-\u003e[OrderedPolynomial a b c]",
@@ -1650,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemainder of given polynomial w.r.t. the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "modPolynomial",
           "package": "computational-algebra",
@@ -1660,6 +1779,7 @@
         "index": {
           "description": "Remainder of given polynomial w.r.t the second argument",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "modPolynomial",
           "normalized": "OrderedPolynomial a b c-\u003e[OrderedPolynomial a b c]-\u003eOrderedPolynomial a b c",
@@ -1676,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuchberger's algorithm slightly improved by discarding relatively prime pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "primeTestBuchberger",
           "package": "computational-algebra",
@@ -1686,6 +1807,7 @@
         "index": {
           "description": "Buchberger algorithm slightly improved by discarding relatively prime pair",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "primeTestBuchberger",
           "normalized": "Ideal(OrderedPolynomial a b c)-\u003e[OrderedPolynomial a b c]",
@@ -1702,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdeal quotient by a principal ideals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "quotByPrincipalIdeal",
           "package": "computational-algebra",
@@ -1712,6 +1835,7 @@
         "index": {
           "description": "Ideal quotient by principal ideals",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "quotByPrincipalIdeal",
           "normalized": "Ideal(OrderedPolynomial a b c)-\u003eOrderedPolynomial a b c-\u003eIdeal(OrderedPolynomial a b c)",
@@ -1728,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdeal quotient by the given ideal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "quotIdeal",
           "package": "computational-algebra",
@@ -1738,6 +1863,7 @@
         "index": {
           "description": "Ideal quotient by the given ideal",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "quotIdeal",
           "normalized": "Ideal(OrderedPolynomial a b c)-\u003eIdeal(OrderedPolynomial a b c)-\u003eIdeal(OrderedPolynomial a b c)",
@@ -1754,6 +1880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce minimum Groebner basis into reduced Groebner basis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "reduceMinimalGroebnerBasis",
           "package": "computational-algebra",
@@ -1764,6 +1891,7 @@
         "index": {
           "description": "Reduce minimum Groebner basis into reduced Groebner basis",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "reduceMinimalGroebnerBasis",
           "normalized": "[OrderedPolynomial a b c]-\u003e[OrderedPolynomial a b c]",
@@ -1780,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate resultant for given two unary polynomimals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "resultant",
           "package": "computational-algebra",
@@ -1790,6 +1919,7 @@
         "index": {
           "description": "Calculate resultant for given two unary polynomimals",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "resultant",
           "normalized": "OrderedPolynomial a b One-\u003eOrderedPolynomial a b One-\u003ea",
@@ -1805,6 +1935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaturation by a principal ideal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "saturationByPrincipalIdeal",
           "package": "computational-algebra",
@@ -1815,6 +1946,7 @@
         "index": {
           "description": "Saturation by principal ideal",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "saturationByPrincipalIdeal",
           "normalized": "Ideal(OrderedPolynomial a b c)-\u003eOrderedPolynomial a b c-\u003eIdeal(OrderedPolynomial a b c)",
@@ -1831,6 +1963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaturation ideal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "saturationIdeal",
           "package": "computational-algebra",
@@ -1841,6 +1974,7 @@
         "index": {
           "description": "Saturation ideal",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "saturationIdeal",
           "normalized": "Ideal(OrderedPolynomial a b c)-\u003eIdeal(OrderedPolynomial a b c)-\u003eIdeal(OrderedPolynomial a b c)",
@@ -1857,6 +1991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Naive buchberger's algorithm to calculate Groebner basis for the given ideal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "simpleBuchberger",
           "package": "computational-algebra",
@@ -1867,6 +2002,7 @@
         "index": {
           "description": "The Naive buchberger algorithm to calculate Groebner basis for the given ideal",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "simpleBuchberger",
           "normalized": "Ideal(OrderedPolynomial a b c)-\u003e[OrderedPolynomial a b c]",
@@ -1883,6 +2019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuchberger's algorithm greately improved using the syzygy theory with the sugar strategy.\n Utilizing priority queues, this function reduces division complexity and comparison time.\n If you don't have strong reason to avoid this function, this function is recommended to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "syzygyBuchberger",
           "package": "computational-algebra",
@@ -1893,6 +2030,7 @@
         "index": {
           "description": "Buchberger algorithm greately improved using the syzygy theory with the sugar strategy Utilizing priority queues this function reduces division complexity and comparison time If you don have strong reason to avoid this function this function is recommended to use",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "syzygyBuchberger",
           "normalized": "Ideal(OrderedPolynomial a b c)-\u003e[OrderedPolynomial a b c]",
@@ -1909,6 +2047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply buchberger's algorithm using given selection strategy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "syzygyBuchbergerWithStrategy",
           "package": "computational-algebra",
@@ -1919,6 +2058,7 @@
         "index": {
           "description": "apply buchberger algorithm using given selection strategy",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "syzygyBuchbergerWithStrategy",
           "normalized": "a-\u003eIdeal(OrderedPolynomial b c d)-\u003e[OrderedPolynomial b c d]",
@@ -1935,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate n-th elimination ideal using \u003ccode\u003e\u003ca\u003eWeightedEliminationOrder\u003c/a\u003e\u003c/code\u003e ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "thEliminationIdeal",
           "package": "computational-algebra",
@@ -1945,6 +2086,7 @@
         "index": {
           "description": "Calculate n-th elimination ideal using WeightedEliminationOrder ordering",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "thEliminationIdeal",
           "normalized": "SNat a-\u003eIdeal(OrderedPolynomial b c d)-\u003eIdeal(OrderedPolynomial b c(d a))",
@@ -1961,6 +2103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate n-th elimination ideal using the specified n-th elimination type order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "thEliminationIdealWith",
           "package": "computational-algebra",
@@ -1971,6 +2114,7 @@
         "index": {
           "description": "Calculate n-th elimination ideal using the specified n-th elimination type order",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "thEliminationIdealWith",
           "normalized": "a-\u003eSNat b-\u003eIdeal(OrderedPolynomial c d e)-\u003eIdeal(OrderedPolynomial c a(e b))",
@@ -1987,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate n-th elimination ideal using the specified n-th elimination type order.\n This function should be used carefully because it does not check whether the given ordering is\n n-th elimintion type or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Algorithms.Groebner",
           "name": "unsafeThEliminationIdealWith",
           "package": "computational-algebra",
@@ -1997,6 +2142,7 @@
         "index": {
           "description": "Calculate n-th elimination ideal using the specified n-th elimination type order This function should be used carefully because it does not check whether the given ordering is n-th elimintion type or not",
           "hierarchy": "Algebra Algorithms Groebner",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Algorithms.Groebner",
           "name": "unsafeThEliminationIdealWith",
           "normalized": "a-\u003eSNat b-\u003eIdeal(OrderedPolynomial c d e)-\u003eIdeal(OrderedPolynomial c a(e b))",
@@ -2012,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Internal",
           "name": "Internal",
           "package": "computational-algebra",
@@ -2020,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Algebra Internal",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Internal",
           "name": "Internal",
           "package": "computational-algebra",
@@ -2033,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Internal",
           "name": "toProxy",
           "package": "computational-algebra",
@@ -2042,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Algebra Internal",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Internal",
           "name": "toProxy",
           "normalized": "a-\u003eProxy a",
@@ -2057,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Noetherian",
           "name": "Noetherian",
           "package": "computational-algebra",
@@ -2065,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Noetherian",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Noetherian",
           "name": "Noetherian",
           "package": "computational-algebra",
@@ -2078,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Noetherian",
           "name": "Ideal",
           "package": "computational-algebra",
@@ -2086,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Noetherian",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Noetherian",
           "name": "Ideal",
           "package": "computational-algebra",
@@ -2099,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Noetherian",
           "name": "NoetherianRing",
           "package": "computational-algebra",
@@ -2107,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Noetherian",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Noetherian",
           "name": "NoetherianRing",
           "package": "computational-algebra",
@@ -2120,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Noetherian",
           "name": "Ideal",
           "package": "computational-algebra",
@@ -2129,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Noetherian",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Noetherian",
           "name": "Ideal",
           "package": "computational-algebra",
@@ -2142,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Noetherian",
           "name": "addToIdeal",
           "package": "computational-algebra",
@@ -2151,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Noetherian",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Noetherian",
           "name": "addToIdeal",
           "normalized": "a-\u003eIdeal a-\u003eIdeal a",
@@ -2166,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Noetherian",
           "name": "appendIdeal",
           "package": "computational-algebra",
@@ -2175,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Noetherian",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Noetherian",
           "name": "appendIdeal",
           "normalized": "Ideal a-\u003eIdeal a-\u003eIdeal a",
@@ -2190,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Noetherian",
           "name": "filterIdeal",
           "package": "computational-algebra",
@@ -2199,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Noetherian",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Noetherian",
           "name": "filterIdeal",
           "normalized": "(a-\u003eBool)-\u003eIdeal a-\u003eIdeal a",
@@ -2214,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Noetherian",
           "name": "generators",
           "package": "computational-algebra",
@@ -2223,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Noetherian",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Noetherian",
           "name": "generators",
           "normalized": "Ideal a-\u003e[a]",
@@ -2237,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Noetherian",
           "name": "mapIdeal",
           "package": "computational-algebra",
@@ -2246,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Noetherian",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Noetherian",
           "name": "mapIdeal",
           "normalized": "(a-\u003eb)-\u003eIdeal a-\u003eIdeal b",
@@ -2261,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Noetherian",
           "name": "principalIdeal",
           "package": "computational-algebra",
@@ -2270,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Noetherian",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Noetherian",
           "name": "principalIdeal",
           "normalized": "a-\u003eIdeal a",
@@ -2285,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Noetherian",
           "name": "toIdeal",
           "package": "computational-algebra",
@@ -2294,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Noetherian",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Noetherian",
           "name": "toIdeal",
           "normalized": "[a]-\u003eIdeal a",
@@ -2309,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "Monomorphic",
           "package": "computational-algebra",
@@ -2317,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "Monomorphic",
           "package": "computational-algebra",
@@ -2330,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "Monomial",
           "package": "computational-algebra",
@@ -2338,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "Monomial",
           "package": "computational-algebra",
@@ -2351,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "Polynomial",
           "package": "computational-algebra",
@@ -2359,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "Polynomial",
           "package": "computational-algebra",
@@ -2372,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "PolynomialSetting",
           "package": "computational-algebra",
@@ -2380,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "PolynomialSetting",
           "package": "computational-algebra",
@@ -2393,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "Variable",
           "package": "computational-algebra",
@@ -2401,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "Variable",
           "package": "computational-algebra",
@@ -2414,6 +2596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "PolySetting",
           "package": "computational-algebra",
@@ -2423,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "PolySetting",
           "package": "computational-algebra",
@@ -2436,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "Polynomial",
           "package": "computational-algebra",
@@ -2445,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "Polynomial",
           "package": "computational-algebra",
@@ -2458,6 +2644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "Variable",
           "package": "computational-algebra",
@@ -2467,6 +2654,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "Variable",
           "package": "computational-algebra",
@@ -2480,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "buildVarsList",
           "package": "computational-algebra",
@@ -2489,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "buildVarsList",
           "normalized": "Polynomial a-\u003e[Variable]",
@@ -2504,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "dimension",
           "package": "computational-algebra",
@@ -2513,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "dimension",
           "normalized": "Nat-\u003e*)",
@@ -2527,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "encodeMonomList",
           "package": "computational-algebra",
@@ -2536,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "encodeMonomList",
           "normalized": "[Variable]-\u003eMonomial-\u003e[Int]",
@@ -2551,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "encodeMonomial",
           "package": "computational-algebra",
@@ -2560,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "encodeMonomial",
           "normalized": "[Variable]-\u003eMonomial-\u003eMonomorphic(Vector Int)",
@@ -2575,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "encodePolynomial",
           "package": "computational-algebra",
@@ -2584,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "encodePolynomial",
           "normalized": "Polynomial a-\u003eMonomorphic(Polynomial a)",
@@ -2599,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "injectCoeff",
           "package": "computational-algebra",
@@ -2608,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "injectCoeff",
           "normalized": "a-\u003ePolynomial a",
@@ -2623,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "injectVar",
           "package": "computational-algebra",
@@ -2632,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "injectVar",
           "normalized": "Variable-\u003ePolynomial a",
@@ -2647,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "normalize",
           "package": "computational-algebra",
@@ -2656,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "normalize",
           "normalized": "Polynomial a-\u003ePolynomial a",
@@ -2670,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "normalizeMonom",
           "package": "computational-algebra",
@@ -2679,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "normalizeMonom",
           "normalized": "Monomial-\u003eMonomial",
@@ -2694,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "polyn",
           "package": "computational-algebra",
@@ -2703,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "polyn",
           "package": "computational-algebra",
@@ -2715,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "promoteList",
           "package": "computational-algebra",
@@ -2724,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "promoteList",
           "normalized": "[Polynomial a]-\u003eMonomorphic([]OrderedPolynomial a b)",
@@ -2739,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "promoteListWithDim",
           "package": "computational-algebra",
@@ -2748,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "promoteListWithDim",
           "normalized": "Int-\u003e[Polynomial a]-\u003eMonomorphic([]OrderedPolynomial a b)",
@@ -2763,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "promoteListWithVarOrder",
           "package": "computational-algebra",
@@ -2772,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "promoteListWithVarOrder",
           "normalized": "[Variable]-\u003e[Polynomial a]-\u003eMonomorphic([]OrderedPolynomial a b)",
@@ -2787,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "renameVars",
           "package": "computational-algebra",
@@ -2796,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "renameVars",
           "normalized": "[Variable]-\u003ePolynomial a-\u003ePolynomial a",
@@ -2811,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "showPolynomial",
           "package": "computational-algebra",
@@ -2820,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "showPolynomial",
           "normalized": "Polynomial a-\u003eString",
@@ -2835,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "showRatPolynomial",
           "package": "computational-algebra",
@@ -2844,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "showRatPolynomial",
           "normalized": "Polynomial(Ratio a)-\u003eString",
@@ -2859,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "toPolynomialSetting",
           "package": "computational-algebra",
@@ -2868,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "toPolynomialSetting",
           "normalized": "Polynomial a-\u003ePolynomialSetting a",
@@ -2883,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "unPolynomial",
           "package": "computational-algebra",
@@ -2892,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "unPolynomial",
           "package": "computational-algebra",
@@ -2905,6 +3129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "uniformlyPromote",
           "package": "computational-algebra",
@@ -2914,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "uniformlyPromote",
           "normalized": "[Polynomial a]-\u003eMonomorphic(Ideal OrderedPolynomial a b)",
@@ -2929,6 +3155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "uniformlyPromoteWithDim",
           "package": "computational-algebra",
@@ -2938,6 +3165,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "uniformlyPromoteWithDim",
           "normalized": "Int-\u003e[Polynomial a]-\u003eMonomorphic(Ideal OrderedPolynomial a b)",
@@ -2953,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "varIndex",
           "package": "computational-algebra",
@@ -2962,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "varIndex",
           "package": "computational-algebra",
@@ -2975,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "varName",
           "package": "computational-algebra",
@@ -2984,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Monomorphic",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Monomorphic",
           "name": "varName",
           "package": "computational-algebra",
@@ -2997,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "Parser",
           "package": "computational-algebra",
@@ -3005,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Parser",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "Parser",
           "package": "computational-algebra",
@@ -3018,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "expression",
           "package": "computational-algebra",
@@ -3027,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Parser",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "expression",
           "package": "computational-algebra",
@@ -3039,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "integer",
           "package": "computational-algebra",
@@ -3048,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Parser",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "integer",
           "package": "computational-algebra",
@@ -3060,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "monomial",
           "package": "computational-algebra",
@@ -3069,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Parser",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "monomial",
           "package": "computational-algebra",
@@ -3081,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "natural",
           "package": "computational-algebra",
@@ -3090,6 +3331,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Parser",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "natural",
           "package": "computational-algebra",
@@ -3102,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "number",
           "package": "computational-algebra",
@@ -3111,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Parser",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "number",
           "package": "computational-algebra",
@@ -3123,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "parsePolyn",
           "package": "computational-algebra",
@@ -3132,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Parser",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "parsePolyn",
           "normalized": "String-\u003eEither ParseError(Polynomial Rational)",
@@ -3147,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "variable",
           "package": "computational-algebra",
@@ -3156,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Parser",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "variable",
           "package": "computational-algebra",
@@ -3168,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "variableWithPower",
           "package": "computational-algebra",
@@ -3177,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial Parser",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial.Parser",
           "name": "variableWithPower",
           "normalized": "Parser(MemoTable a)a b(Variable,Integer)",
@@ -3192,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Polynomial",
           "package": "computational-algebra",
@@ -3200,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Polynomial",
           "package": "computational-algebra",
@@ -3213,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Coefficient",
           "package": "computational-algebra",
@@ -3221,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Coefficient",
           "package": "computational-algebra",
@@ -3234,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "EliminationOrder",
           "package": "computational-algebra",
@@ -3242,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "EliminationOrder",
           "package": "computational-algebra",
@@ -3256,6 +3512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonomial order which can be use to calculate n-th elimination ideal.\n This should judge it as bigger that contains variables to eliminate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "EliminationType",
           "package": "computational-algebra",
@@ -3265,6 +3522,7 @@
         "index": {
           "description": "Monomial order which can be use to calculate n-th elimination ideal This should judge it as bigger that contains variables to eliminate",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "EliminationType",
           "package": "computational-algebra",
@@ -3279,6 +3537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraded order from another monomial order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Graded",
           "package": "computational-algebra",
@@ -3288,6 +3547,7 @@
         "index": {
           "description": "Graded order from another monomial order",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Graded",
           "package": "computational-algebra",
@@ -3302,6 +3562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraded reversed lexicographical order. Same as \u003ccode\u003eGraded Revlex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Grevlex",
           "package": "computational-algebra",
@@ -3311,6 +3572,7 @@
         "index": {
           "description": "Graded reversed lexicographical order Same as Graded Revlex",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Grevlex",
           "package": "computational-algebra",
@@ -3325,6 +3587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraded lexicographical order. Same as \u003ccode\u003eGraded Lex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Grlex",
           "package": "computational-algebra",
@@ -3334,6 +3597,7 @@
         "index": {
           "description": "Graded lexicographical order Same as Graded Lex",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Grlex",
           "package": "computational-algebra",
@@ -3348,6 +3612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for Monomial orders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "IsMonomialOrder",
           "package": "computational-algebra",
@@ -3357,6 +3622,7 @@
         "index": {
           "description": "Class for Monomial orders",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "IsMonomialOrder",
           "package": "computational-algebra",
@@ -3371,6 +3637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass to lookup ordering from its (type-level) name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "IsOrder",
           "package": "computational-algebra",
@@ -3380,6 +3647,7 @@
         "index": {
           "description": "Class to lookup ordering from its type-level name",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "IsOrder",
           "package": "computational-algebra",
@@ -3394,6 +3662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level constraint to check whether it forms polynomial ring or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "IsPolynomial",
           "package": "computational-algebra",
@@ -3403,6 +3672,7 @@
         "index": {
           "description": "Type-level constraint to check whether it forms polynomial ring or not",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "IsPolynomial",
           "package": "computational-algebra",
@@ -3417,6 +3687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexicographical order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Lex",
           "package": "computational-algebra",
@@ -3426,6 +3697,7 @@
         "index": {
           "description": "Lexicographical order",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Lex",
           "package": "computational-algebra",
@@ -3440,6 +3712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eN-ary Monomial. IntMap contains degrees for each x_i.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Monomial",
           "package": "computational-algebra",
@@ -3449,6 +3722,7 @@
         "index": {
           "description": "N-ary Monomial IntMap contains degrees for each",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Monomial",
           "package": "computational-algebra",
@@ -3463,6 +3737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonomial order (of degree n). This should satisfy following laws:\n (1) Totality: forall a, b (a \u003c b || a == b || b \u003c a)\n (2) Additivity: a \u003ca\u003eb ==\u003c/a\u003e a + c \u003c= b + c\n (3) Non-negative: forall a, 0 \u003c= a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "MonomialOrder",
           "package": "computational-algebra",
@@ -3472,6 +3747,7 @@
         "index": {
           "description": "Monomial order of degree This should satisfy following laws Totality forall Additivity Non-negative forall",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "MonomialOrder",
           "package": "computational-algebra",
@@ -3486,6 +3762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for monomials with a certain (monomial) order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "OrderedMonomial",
           "package": "computational-algebra",
@@ -3495,6 +3772,7 @@
         "index": {
           "description": "wrapper for monomials with certain monomial order",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "OrderedMonomial",
           "package": "computational-algebra",
@@ -3509,6 +3787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonomorphic representation for monomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "OrderedMonomial'",
           "package": "computational-algebra",
@@ -3518,6 +3797,7 @@
         "index": {
           "description": "Monomorphic representation for monomial",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "OrderedMonomial'",
           "package": "computational-algebra",
@@ -3532,6 +3812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003en-ary polynomial ring over some noetherian ring R.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "OrderedPolynomial",
           "package": "computational-algebra",
@@ -3541,6 +3822,7 @@
         "index": {
           "description": "n-ary polynomial ring over some noetherian ring",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "OrderedPolynomial",
           "package": "computational-algebra",
@@ -3554,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Polynomial",
           "package": "computational-algebra",
@@ -3562,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Polynomial",
           "package": "computational-algebra",
@@ -3575,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "ProductOrder",
           "package": "computational-algebra",
@@ -3583,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "ProductOrder",
           "package": "computational-algebra",
@@ -3597,6 +3883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReversed lexicographical order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Revlex",
           "package": "computational-algebra",
@@ -3606,6 +3893,7 @@
         "index": {
           "description": "Reversed lexicographical order",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Revlex",
           "package": "computational-algebra",
@@ -3619,6 +3907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "ToWeightVector",
           "package": "computational-algebra",
@@ -3627,6 +3916,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "ToWeightVector",
           "package": "computational-algebra",
@@ -3640,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "WeightOrder",
           "package": "computational-algebra",
@@ -3648,6 +3939,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "WeightOrder",
           "package": "computational-algebra",
@@ -3662,6 +3954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData.Proxy provides kind-polymorphic \u003ccode\u003e\u003ca\u003eProxy\u003c/a\u003e\u003c/code\u003e data-type, but due to bug of GHC 7.4.1,\n It canot be used as kind-polymorphic. So I define another type here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "WeightProxy",
           "package": "computational-algebra",
@@ -3671,6 +3964,7 @@
         "index": {
           "description": "Data.Proxy provides kind-polymorphic Proxy data-type but due to bug of GHC It canot be used as kind-polymorphic So define another type here",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "WeightProxy",
           "package": "computational-algebra",
@@ -3684,6 +3978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "WeightedEliminationOrder",
           "package": "computational-algebra",
@@ -3692,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "WeightedEliminationOrder",
           "package": "computational-algebra",
@@ -3705,6 +4001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "ConsWeight",
           "package": "computational-algebra",
@@ -3714,6 +4011,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "ConsWeight",
           "normalized": "SNat a-\u003eWeightProxy b-\u003eWeightProxy(a b)",
@@ -3729,6 +4027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Eps",
           "package": "computational-algebra",
@@ -3738,6 +4037,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Eps",
           "package": "computational-algebra",
@@ -3751,6 +4051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Graded",
           "package": "computational-algebra",
@@ -3760,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Graded",
           "package": "computational-algebra",
@@ -3773,6 +4075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Negative",
           "package": "computational-algebra",
@@ -3782,6 +4085,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Negative",
           "package": "computational-algebra",
@@ -3795,6 +4099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "NilWeight",
           "package": "computational-algebra",
@@ -3804,6 +4109,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "NilWeight",
           "normalized": "WeightProxy[]",
@@ -3819,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "OM'",
           "package": "computational-algebra",
@@ -3828,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "OM'",
           "package": "computational-algebra",
@@ -3841,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "OrderedMonomial",
           "package": "computational-algebra",
@@ -3850,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "OrderedMonomial",
           "package": "computational-algebra",
@@ -3863,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Positive",
           "package": "computational-algebra",
@@ -3872,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Positive",
           "package": "computational-algebra",
@@ -3885,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "ProductOrder",
           "package": "computational-algebra",
@@ -3894,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "ProductOrder",
           "normalized": "SNat a-\u003eb-\u003ec-\u003eProductOrder a b c",
@@ -3909,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "WeightOrder",
           "package": "computational-algebra",
@@ -3918,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "WeightOrder",
           "normalized": "[Nat])-\u003ea-\u003eWeightOrder b a",
@@ -3933,6 +4249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "Zero",
           "package": "computational-algebra",
@@ -3942,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "Zero",
           "package": "computational-algebra",
@@ -3955,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "calcOrderWeight",
           "package": "computational-algebra",
@@ -3964,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "calcOrderWeight",
           "normalized": "Proxy' a-\u003eVector Int b-\u003eInt",
@@ -3979,6 +4299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "castMonomial",
           "package": "computational-algebra",
@@ -3988,6 +4309,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "castMonomial",
           "normalized": "OrderedMonomial a b-\u003eOrderedMonomial c d",
@@ -4003,6 +4325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "castPolynomial",
           "package": "computational-algebra",
@@ -4012,6 +4335,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "castPolynomial",
           "normalized": "OrderedPolynomial a b c-\u003eOrderedPolynomial a d e",
@@ -4027,6 +4351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "changeOrder",
           "package": "computational-algebra",
@@ -4036,6 +4361,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "changeOrder",
           "normalized": "a-\u003eOrderedPolynomial b c d-\u003eOrderedPolynomial b a d",
@@ -4051,6 +4377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "changeOrderProxy",
           "package": "computational-algebra",
@@ -4060,6 +4387,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "changeOrderProxy",
           "normalized": "Proxy a-\u003eOrderedPolynomial b c d-\u003eOrderedPolynomial b a d",
@@ -4075,6 +4403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "cmpMonomial",
           "package": "computational-algebra",
@@ -4084,6 +4413,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "cmpMonomial",
           "normalized": "Proxy a-\u003eMonomialOrder",
@@ -4100,6 +4430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecoefficient for a degree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "coeff",
           "package": "computational-algebra",
@@ -4110,6 +4441,7 @@
         "index": {
           "description": "coefficient for degree",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "coeff",
           "normalized": "Monomial a-\u003eOrderedPolynomial b c a-\u003eb",
@@ -4124,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "divs",
           "package": "computational-algebra",
@@ -4133,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "divs",
           "normalized": "Monomial a-\u003eMonomial a-\u003eBool",
@@ -4147,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "eliminationOrder",
           "package": "computational-algebra",
@@ -4156,6 +4491,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "eliminationOrder",
           "normalized": "SNat a-\u003eEliminationOrder a",
@@ -4172,6 +4508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert NAry list into Monomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "fromList",
           "package": "computational-algebra",
@@ -4182,6 +4519,7 @@
         "index": {
           "description": "convert NAry list into Monomial",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "fromList",
           "normalized": "SNat a-\u003e[Int]-\u003eMonomial a",
@@ -4197,6 +4535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "genVars",
           "package": "computational-algebra",
@@ -4206,6 +4545,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "genVars",
           "normalized": "SNat(S a)-\u003e[OrderedPolynomial b c(S a)]",
@@ -4221,6 +4561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "getMonomial",
           "package": "computational-algebra",
@@ -4230,6 +4571,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "getMonomial",
           "package": "computational-algebra",
@@ -4243,6 +4585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "getMonomial'",
           "package": "computational-algebra",
@@ -4252,6 +4595,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "getMonomial'",
           "normalized": "[Int]",
@@ -4267,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "getTerms",
           "package": "computational-algebra",
@@ -4276,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "getTerms",
           "normalized": "OrderedPolynomial a b c-\u003e[(a,Monomial c)]",
@@ -4292,6 +4638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert ordering into graded one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "graded",
           "package": "computational-algebra",
@@ -4302,6 +4649,7 @@
         "index": {
           "description": "Convert ordering into graded one",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "graded",
           "normalized": "(Monomial a-\u003eMonomial a-\u003eOrdering)-\u003eMonomial a-\u003eMonomial a-\u003eOrdering",
@@ -4317,6 +4665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraded reversed lexicographical order. This *is* a monomial order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "grevlex",
           "package": "computational-algebra",
@@ -4327,6 +4676,7 @@
         "index": {
           "description": "Graded reversed lexicographical order This is monomial order",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "grevlex",
           "package": "computational-algebra",
@@ -4340,6 +4690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraded lexicographical order. This *is* a monomial order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "grlex",
           "package": "computational-algebra",
@@ -4350,6 +4701,7 @@
         "index": {
           "description": "Graded lexicographical order This is monomial order",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "grlex",
           "package": "computational-algebra",
@@ -4362,6 +4714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "injectCoeff",
           "package": "computational-algebra",
@@ -4371,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "injectCoeff",
           "normalized": "a-\u003eOrderedPolynomial a b c",
@@ -4386,6 +4740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "lcmMonomial",
           "package": "computational-algebra",
@@ -4395,6 +4750,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "lcmMonomial",
           "normalized": "Monomial a-\u003eMonomial a-\u003eMonomial a",
@@ -4410,6 +4766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "leadingCoeff",
           "package": "computational-algebra",
@@ -4419,6 +4776,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "leadingCoeff",
           "normalized": "OrderedPolynomial a b c-\u003ea",
@@ -4434,6 +4792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "leadingMonomial",
           "package": "computational-algebra",
@@ -4443,6 +4802,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "leadingMonomial",
           "normalized": "OrderedPolynomial a b c-\u003eMonomial c",
@@ -4458,6 +4818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "leadingOrderedMonomial",
           "package": "computational-algebra",
@@ -4467,6 +4828,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "leadingOrderedMonomial",
           "normalized": "OrderedPolynomial a b c-\u003eOrderedMonomial b c",
@@ -4482,6 +4844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "leadingTerm",
           "package": "computational-algebra",
@@ -4491,6 +4854,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "leadingTerm",
           "normalized": "OrderedPolynomial a b c-\u003e(a,Monomial c)",
@@ -4507,6 +4871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexicographical order. This *is* a monomial order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "lex",
           "package": "computational-algebra",
@@ -4517,6 +4882,7 @@
         "index": {
           "description": "Lexicographical order This is monomial order",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "lex",
           "package": "computational-algebra",
@@ -4529,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "normalize",
           "package": "computational-algebra",
@@ -4538,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "normalize",
           "normalized": "OrderedPolynomial a b c-\u003eOrderedPolynomial a b c",
@@ -4552,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "orderedBy",
           "package": "computational-algebra",
@@ -4561,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "orderedBy",
           "normalized": "OrderedPolynomial a b c-\u003eb-\u003eOrderedPolynomial a b c",
@@ -4576,6 +4946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "polynomial",
           "package": "computational-algebra",
@@ -4585,6 +4956,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "polynomial",
           "normalized": "Map(OrderedMonomial a b)c-\u003eOrderedPolynomial c a b",
@@ -4599,6 +4971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "productOrder",
           "package": "computational-algebra",
@@ -4608,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "productOrder",
           "normalized": "Proxy(ProductOrder a b c)-\u003eMonomial d-\u003eMonomial d-\u003eOrdering",
@@ -4623,6 +4997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "productOrder'",
           "package": "computational-algebra",
@@ -4632,6 +5007,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "productOrder'",
           "normalized": "SNat a-\u003eb-\u003ec-\u003eMonomial d-\u003eMonomial d-\u003eOrdering",
@@ -4648,6 +5024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReversed lexicographical order. This is *not* a monomial order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "revlex",
           "package": "computational-algebra",
@@ -4658,6 +5035,7 @@
         "index": {
           "description": "Reversed lexicographical order This is not monomial order",
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "revlex",
           "normalized": "Monomial a-\u003eMonomial a-\u003eOrdering",
@@ -4672,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "sArity",
           "package": "computational-algebra",
@@ -4681,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "sArity",
           "normalized": "OrderedPolynomial a b c-\u003eSNat c",
@@ -4696,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "sPolynomial",
           "package": "computational-algebra",
@@ -4705,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "sPolynomial",
           "normalized": "OrderedPolynomial a b c-\u003eOrderedPolynomial a b c-\u003eOrderedPolynomial a b c",
@@ -4720,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "scastMonomial",
           "package": "computational-algebra",
@@ -4729,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "scastMonomial",
           "normalized": "SNat a-\u003eOrderedMonomial b c-\u003eOrderedMonomial b a",
@@ -4744,6 +5128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "scastPolynomial",
           "package": "computational-algebra",
@@ -4753,6 +5138,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "scastPolynomial",
           "normalized": "SNat a-\u003eOrderedPolynomial b c d-\u003eOrderedPolynomial b e a",
@@ -4768,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "shiftR",
           "package": "computational-algebra",
@@ -4777,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "shiftR",
           "normalized": "SNat a-\u003eOrderedPolynomial b c d-\u003eOrderedPolynomial b c(a d)",
@@ -4791,6 +5179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "showPolynomialWith",
           "package": "computational-algebra",
@@ -4800,6 +5189,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "showPolynomialWith",
           "normalized": "[(Int,String)]-\u003e(a-\u003eCoefficient)-\u003eOrderedPolynomial a b c-\u003eString",
@@ -4815,6 +5205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "showPolynomialWithVars",
           "package": "computational-algebra",
@@ -4824,6 +5215,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "showPolynomialWithVars",
           "normalized": "[(Int,String)]-\u003eOrderedPolynomial a b c-\u003eString",
@@ -4839,6 +5231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "showRational",
           "package": "computational-algebra",
@@ -4848,6 +5241,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "showRational",
           "normalized": "Ratio a-\u003eCoefficient",
@@ -4863,6 +5257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "toPolynomial",
           "package": "computational-algebra",
@@ -4872,6 +5267,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "toPolynomial",
           "normalized": "(a,Monomial b)-\u003eOrderedPolynomial a c b",
@@ -4887,6 +5283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "totalDegree",
           "package": "computational-algebra",
@@ -4896,6 +5293,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "totalDegree",
           "normalized": "Monomial a-\u003eInt",
@@ -4911,6 +5309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "totalDegree'",
           "package": "computational-algebra",
@@ -4920,6 +5319,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "totalDegree'",
           "normalized": "OrderedPolynomial a b c-\u003eInt",
@@ -4935,6 +5335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "transformMonomial",
           "package": "computational-algebra",
@@ -4944,6 +5345,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "transformMonomial",
           "normalized": "(Monomial a-\u003eMonomial b)-\u003eOrderedPolynomial c d a-\u003eOrderedPolynomial c d b",
@@ -4959,6 +5361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "tryDiv",
           "package": "computational-algebra",
@@ -4968,6 +5371,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "tryDiv",
           "normalized": "(a,Monomial b)-\u003e(a,Monomial b)-\u003e(a,Monomial b)",
@@ -4983,6 +5387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "var",
           "package": "computational-algebra",
@@ -4992,6 +5397,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "var",
           "normalized": "SNat(S a)-\u003eOrderedPolynomial b c d",
@@ -5006,6 +5412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "varX",
           "package": "computational-algebra",
@@ -5015,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "varX",
           "package": "computational-algebra",
@@ -5027,6 +5435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "weightOrder",
           "package": "computational-algebra",
@@ -5036,6 +5445,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "weightOrder",
           "normalized": "Proxy(WeightOrder a b)-\u003eMonomial c-\u003eMonomial c-\u003eOrdering",
@@ -5051,6 +5461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:43 UTC 2014",
           "module": "Algebra.Ring.Polynomial",
           "name": "weightedEliminationOrder",
           "package": "computational-algebra",
@@ -5060,6 +5471,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ring Polynomial",
+          "indexed": "2014-03-11T17:37:43",
           "module": "Algebra.Ring.Polynomial",
           "name": "weightedEliminationOrder",
           "normalized": "SNat a-\u003eWeightedEliminationOrder a Grevlex",

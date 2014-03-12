@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hnetcdf"
+        "phrase": "hnetcdf",
+        "type": "phrase"
       },
       "type": "context"
     }

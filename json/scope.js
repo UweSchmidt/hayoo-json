@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scope"
+        "phrase": "scope",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLayers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Layer",
           "name": "Layer",
           "package": "scope",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Layers",
           "hierarchy": "Scope Layer",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Layer",
           "name": "Layer",
           "package": "scope",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Layer",
           "name": "addLayersFromFile",
           "package": "scope",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Scope Layer",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Layer",
           "name": "addLayersFromFile",
           "normalized": "FilePath-\u003eScope a-\u003eIO(Scope a)",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Layer",
           "name": "plotLayers",
           "package": "scope",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Scope Layer",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Layer",
           "name": "plotLayers",
           "normalized": "Scope a-\u003eb(Scope a)",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eScope plotting functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Numeric.IEEE754",
           "name": "IEEE754",
           "package": "scope",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Scope plotting functions",
           "hierarchy": "Scope Numeric IEEE754",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Numeric.IEEE754",
           "name": "IEEE754",
           "package": "scope",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eScope types and interfaces\n\u003c/p\u003e\u003cp\u003eThe coordinate system:\n\u003c/p\u003e\u003cpre\u003e\n           CanvasX 0.0                       CanvasX 1.0    DataX 1.0\n              |                                 |              |\n DataX 0.0    V                                 V              V\n    |\n    V          ---------------------------------   \u003c- CanvasY -1.0\n              |                                 |\n    +---------+---------------------------------+--------------+\n    |         |                                 |              |\n    |         |                                 |              |\n    +---------+---------------------------------+--------------+\n              |                                 |\n               ---------------------------------   \u003c- CanvasY -1.0\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "Types",
           "package": "scope",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Scope types and interfaces The coordinate system CanvasX CanvasX DataX DataX CanvasY CanvasY",
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "Types",
           "package": "scope",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "CanvasX",
           "package": "scope",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "CanvasX",
           "package": "scope",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "CanvasY",
           "package": "scope",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "CanvasY",
           "package": "scope",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "Coordinate",
           "package": "scope",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "Coordinate",
           "package": "scope",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "DataX",
           "package": "scope",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "DataX",
           "package": "scope",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "DataY",
           "package": "scope",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "DataY",
           "package": "scope",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "DrawCmd",
           "package": "scope",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "DrawCmd",
           "package": "scope",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "DrawLayer",
           "package": "scope",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "DrawLayer",
           "package": "scope",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "Layer",
           "package": "scope",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "Layer",
           "package": "scope",
@@ -304,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA layer plotting function which is given the x position and x width,\n and a previously returned value of type \u003ccode\u003e\u003ca\u003eb\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "LayerFoldFunc",
           "package": "scope",
@@ -313,6 +340,7 @@
         "index": {
           "description": "layer plotting function which is given the position and width and previously returned value of type",
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "LayerFoldFunc",
           "package": "scope",
@@ -327,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA layer plotting function which is just given the x position and x width\n to render the data value of type \u003ccode\u003ea\u003c/code\u003e into.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "LayerMapFunc",
           "package": "scope",
@@ -336,6 +365,7 @@
         "index": {
           "description": "layer plotting function which is just given the position and width to render the data value of type into",
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "LayerMapFunc",
           "package": "scope",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "LayerPlot",
           "package": "scope",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "LayerPlot",
           "package": "scope",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "RGB",
           "package": "scope",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "RGB",
           "package": "scope",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "Scope",
           "package": "scope",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "Scope",
           "package": "scope",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "ScopeFile",
           "package": "scope",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "ScopeFile",
           "package": "scope",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "ScopeLayer",
           "package": "scope",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "ScopeLayer",
           "package": "scope",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "ScopePlot",
           "package": "scope",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "ScopePlot",
           "package": "scope",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "ScopeRender",
           "package": "scope",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "ScopeRender",
           "package": "scope",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "ScreenX",
           "package": "scope",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "ScreenX",
           "package": "scope",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "ScreenY",
           "package": "scope",
@@ -525,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "ScreenY",
           "package": "scope",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "Transform",
           "package": "scope",
@@ -546,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "Transform",
           "package": "scope",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "View",
           "package": "scope",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "View",
           "package": "scope",
@@ -580,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "CanvasX",
           "package": "scope",
@@ -589,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "CanvasX",
           "package": "scope",
@@ -602,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "CanvasY",
           "package": "scope",
@@ -611,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "CanvasY",
           "package": "scope",
@@ -624,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "DataX",
           "package": "scope",
@@ -633,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "DataX",
           "package": "scope",
@@ -646,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "DataY",
           "package": "scope",
@@ -655,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "DataY",
           "package": "scope",
@@ -668,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "FillPoly",
           "package": "scope",
@@ -677,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "FillPoly",
           "normalized": "FillPoly[(Double,Double)]",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "Layer",
           "package": "scope",
@@ -701,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "Layer",
           "package": "scope",
@@ -714,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "LayerFold",
           "package": "scope",
@@ -723,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "LayerFold",
           "normalized": "a b LayerFold(LayerFoldFunc c b)[DrawLayer]b",
@@ -738,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "LayerMap",
           "package": "scope",
@@ -747,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "LayerMap",
           "normalized": "LayerMap(LayerMapFunc a)[DrawLayer]",
@@ -762,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "LineTo",
           "package": "scope",
@@ -771,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "LineTo",
           "normalized": "LineTo(Double,Double)",
@@ -786,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "MoveTo",
           "package": "scope",
@@ -795,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "MoveTo",
           "normalized": "MoveTo(Double,Double)",
@@ -810,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "Scope",
           "package": "scope",
@@ -819,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "Scope",
           "package": "scope",
@@ -832,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "ScopeFile",
           "package": "scope",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "ScopeFile",
           "package": "scope",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "ScopeLayer",
           "package": "scope",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "ScopeLayer",
           "package": "scope",
@@ -876,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "ScreenX",
           "package": "scope",
@@ -885,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "ScreenX",
           "package": "scope",
@@ -898,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "ScreenY",
           "package": "scope",
@@ -907,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "ScreenY",
           "package": "scope",
@@ -920,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "SetRGB",
           "package": "scope",
@@ -929,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "SetRGB",
           "package": "scope",
@@ -942,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "SetRGBA",
           "package": "scope",
@@ -951,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "SetRGBA",
           "package": "scope",
@@ -964,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "Transform",
           "package": "scope",
@@ -973,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "Transform",
           "package": "scope",
@@ -986,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "View",
           "package": "scope",
@@ -995,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "View",
           "package": "scope",
@@ -1008,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "b",
           "package": "scope",
@@ -1017,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "b",
           "package": "scope",
@@ -1029,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "bounds",
           "package": "scope",
@@ -1038,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "bounds",
           "normalized": "Maybe(TimeStamp,TimeStamp)",
@@ -1052,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "convEnee",
           "package": "scope",
@@ -1061,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "convEnee",
           "normalized": "Enumeratee[Offset Block][a]b()",
@@ -1077,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance from to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "distance",
           "package": "scope",
@@ -1087,6 +1184,7 @@
         "index": {
           "description": "Distance from to",
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "distance",
           "normalized": "a-\u003ea-\u003ea",
@@ -1101,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "dragDX",
           "package": "scope",
@@ -1110,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "dragDX",
           "package": "scope",
@@ -1123,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "endTime",
           "package": "scope",
@@ -1132,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "endTime",
           "package": "scope",
@@ -1145,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "fd",
           "package": "scope",
@@ -1154,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "fd",
           "package": "scope",
@@ -1166,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "filename",
           "package": "scope",
@@ -1175,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "filename",
           "package": "scope",
@@ -1187,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "fromDouble",
           "package": "scope",
@@ -1196,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "fromDouble",
           "normalized": "Double-\u003ea",
@@ -1211,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "layerBaseUTC",
           "package": "scope",
@@ -1220,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "layerBaseUTC",
           "package": "scope",
@@ -1233,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "layerFile",
           "package": "scope",
@@ -1242,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "layerFile",
           "package": "scope",
@@ -1255,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "layerTrackNo",
           "package": "scope",
@@ -1264,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "layerTrackNo",
           "package": "scope",
@@ -1277,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "layers",
           "package": "scope",
@@ -1286,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "layers",
           "normalized": "[ScopeLayer]",
@@ -1300,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "m",
           "package": "scope",
@@ -1309,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "m",
           "package": "scope",
@@ -1321,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "mkTSDataTransform",
           "package": "scope",
@@ -1330,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "mkTSDataTransform",
           "normalized": "(TimeStamp,TimeStamp)-\u003e(TimeStamp,TimeStamp)-\u003eTransform DataX",
@@ -1345,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "mkTransform",
           "package": "scope",
@@ -1354,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "mkTransform",
           "normalized": "(a,a)-\u003e(a,a)-\u003eTransform a",
@@ -1369,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "plotter",
           "package": "scope",
@@ -1378,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "plotter",
           "package": "scope",
@@ -1390,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "pointerX",
           "package": "scope",
@@ -1399,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "pointerX",
           "package": "scope",
@@ -1411,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "rawLayerPlot",
           "package": "scope",
@@ -1420,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "rawLayerPlot",
           "normalized": "a-\u003eRGB-\u003eLayerPlot(TimeStamp,[a])",
@@ -1435,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "renderCmds",
           "package": "scope",
@@ -1444,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "renderCmds",
           "normalized": "[DrawCmd]-\u003ea()",
@@ -1460,6 +1590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrict a window to within a given range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "restrictRange",
           "package": "scope",
@@ -1470,6 +1601,7 @@
         "index": {
           "description": "Restrict window to within given range",
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "restrictRange",
           "normalized": "(a,a)-\u003e(a,a)-\u003e(a,a)",
@@ -1485,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "restrictRange01",
           "package": "scope",
@@ -1494,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "restrictRange01",
           "normalized": "(a,a)-\u003e(a,a)",
@@ -1509,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "scopeCF",
           "package": "scope",
@@ -1518,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "scopeCF",
           "package": "scope",
@@ -1531,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "scopeClose",
           "package": "scope",
@@ -1540,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "scopeClose",
           "normalized": "Scope a-\u003eIO(Scope a)",
@@ -1555,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "scopeModifyView",
           "package": "scope",
@@ -1564,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "scopeModifyView",
           "normalized": "(View a-\u003eView a)-\u003eScope a-\u003eScope a",
@@ -1579,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "scopeNew",
           "package": "scope",
@@ -1588,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "scopeNew",
           "normalized": "a-\u003eScope a",
@@ -1603,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "scopeUpdate",
           "package": "scope",
@@ -1612,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "scopeUpdate",
           "normalized": "Maybe(TimeStamp,TimeStamp)-\u003eMaybe(UTCTime,UTCTime)-\u003eScope a-\u003eScope a",
@@ -1627,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "startTime",
           "package": "scope",
@@ -1636,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "startTime",
           "package": "scope",
@@ -1649,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "summaryLayerPlot",
           "package": "scope",
@@ -1658,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "summaryLayerPlot",
           "normalized": "a-\u003eRGB-\u003eLayerPlot[Summary a]",
@@ -1673,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "toDouble",
           "package": "scope",
@@ -1682,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "toDouble",
           "normalized": "a-\u003eDouble",
@@ -1697,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "transform",
           "package": "scope",
@@ -1706,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "transform",
           "normalized": "Transform a-\u003ea-\u003ea",
@@ -1721,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate x by\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "translate",
           "package": "scope",
@@ -1731,6 +1884,7 @@
         "index": {
           "description": "Translate by",
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "translate",
           "normalized": "a-\u003ea-\u003ea",
@@ -1745,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "translateRange",
           "package": "scope",
@@ -1754,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "translateRange",
           "normalized": "a-\u003e(a,a)-\u003e(a,a)",
@@ -1769,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "unionBounds",
           "package": "scope",
@@ -1778,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "unionBounds",
           "normalized": "Maybe(a,a)-\u003eMaybe(a,a)-\u003eMaybe(a,a)",
@@ -1793,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "unionRange",
           "package": "scope",
@@ -1802,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "unionRange",
           "normalized": "(a,a)-\u003e(a,a)-\u003e(a,a)",
@@ -1817,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "utcBounds",
           "package": "scope",
@@ -1826,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "utcBounds",
           "normalized": "Maybe(UTCTime,UTCTime)",
@@ -1841,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "view",
           "package": "scope",
@@ -1850,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "view",
           "package": "scope",
@@ -1862,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "viewUI",
           "package": "scope",
@@ -1871,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "viewUI",
           "package": "scope",
@@ -1884,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "viewX1",
           "package": "scope",
@@ -1893,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "viewX1",
           "package": "scope",
@@ -1905,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "viewX2",
           "package": "scope",
@@ -1914,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "viewX2",
           "package": "scope",
@@ -1926,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "viewY1",
           "package": "scope",
@@ -1935,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "viewY1",
           "package": "scope",
@@ -1947,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "viewY2",
           "package": "scope",
@@ -1956,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "viewY2",
           "package": "scope",
@@ -1968,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.Types",
           "name": "zoomRange",
           "package": "scope",
@@ -1977,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Scope Types",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.Types",
           "name": "zoomRange",
           "normalized": "CanvasX-\u003eDouble-\u003e(a,a)-\u003e(a,a)",
@@ -1993,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for dealing with Views\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "View",
           "package": "scope",
@@ -2002,6 +2179,7 @@
         "index": {
           "description": "Functions for dealing with Views",
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "View",
           "package": "scope",
@@ -2015,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "dataToTimeStamp",
           "package": "scope",
@@ -2024,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "dataToTimeStamp",
           "normalized": "Scope a-\u003eDataX-\u003eMaybe TimeStamp",
@@ -2039,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "dataToUTC",
           "package": "scope",
@@ -2048,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "dataToUTC",
           "normalized": "Scope a-\u003eDataX-\u003eMaybe UTCTime",
@@ -2063,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "timeStampToCanvas",
           "package": "scope",
@@ -2072,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "timeStampToCanvas",
           "normalized": "Scope a-\u003eTimeStamp-\u003eCanvasX",
@@ -2087,6 +2271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "timeStampToData",
           "package": "scope",
@@ -2096,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "timeStampToData",
           "normalized": "Scope a-\u003eTimeStamp-\u003eMaybe DataX",
@@ -2111,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "utcToCanvas",
           "package": "scope",
@@ -2120,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "utcToCanvas",
           "normalized": "Scope a-\u003eUTCTime-\u003eCanvasX",
@@ -2136,6 +2324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign a view so the given DataX appears at CanvasX,\n preserving the current view width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewAlign",
           "package": "scope",
@@ -2146,6 +2335,7 @@
         "index": {
           "description": "Align view so the given DataX appears at CanvasX preserving the current view width",
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewAlign",
           "normalized": "CanvasX-\u003eDataX-\u003eView a-\u003eView a",
@@ -2161,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewButtonDown",
           "package": "scope",
@@ -2170,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewButtonDown",
           "normalized": "CanvasX-\u003eView a-\u003eView a",
@@ -2185,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewButtonMotion",
           "package": "scope",
@@ -2194,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewButtonMotion",
           "normalized": "CanvasX-\u003eView a-\u003eView a",
@@ -2209,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewButtonRelease",
           "package": "scope",
@@ -2218,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewButtonRelease",
           "normalized": "View a-\u003eView a",
@@ -2233,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewDuration",
           "package": "scope",
@@ -2242,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewDuration",
           "normalized": "Scope a-\u003eView a-\u003eMaybe TimeStampDiff",
@@ -2257,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewEndTime",
           "package": "scope",
@@ -2266,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewEndTime",
           "normalized": "Scope a-\u003eView a-\u003eMaybe TimeStamp",
@@ -2281,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewEndUTC",
           "package": "scope",
@@ -2290,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewEndUTC",
           "normalized": "Scope a-\u003eView a-\u003eMaybe UTCTime",
@@ -2305,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewMoveEnd",
           "package": "scope",
@@ -2314,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewMoveEnd",
           "normalized": "View a-\u003eView a",
@@ -2329,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewMoveLeft",
           "package": "scope",
@@ -2338,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewMoveLeft",
           "normalized": "View a-\u003eView a",
@@ -2353,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewMoveRight",
           "package": "scope",
@@ -2362,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewMoveRight",
           "normalized": "View a-\u003eView a",
@@ -2377,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewMoveStart",
           "package": "scope",
@@ -2386,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewMoveStart",
           "normalized": "View a-\u003eView a",
@@ -2401,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewMoveTo",
           "package": "scope",
@@ -2410,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewMoveTo",
           "normalized": "Double-\u003eView a-\u003eView a",
@@ -2425,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewStartTime",
           "package": "scope",
@@ -2434,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewStartTime",
           "normalized": "Scope a-\u003eView a-\u003eMaybe TimeStamp",
@@ -2449,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewStartUTC",
           "package": "scope",
@@ -2458,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewStartUTC",
           "normalized": "Scope a-\u003eView a-\u003eMaybe UTCTime",
@@ -2473,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewZoomIn",
           "package": "scope",
@@ -2482,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewZoomIn",
           "normalized": "Double-\u003eView a-\u003eView a",
@@ -2497,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewZoomInOn",
           "package": "scope",
@@ -2506,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewZoomInOn",
           "normalized": "CanvasX-\u003eDouble-\u003eView a-\u003eView a",
@@ -2521,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewZoomOut",
           "package": "scope",
@@ -2530,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewZoomOut",
           "normalized": "Double-\u003eView a-\u003eView a",
@@ -2545,6 +2767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:18 UTC 2014",
           "module": "Scope.View",
           "name": "viewZoomOutOn",
           "package": "scope",
@@ -2554,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "Scope View",
+          "indexed": "2014-03-11T19:58:18",
           "module": "Scope.View",
           "name": "viewZoomOutOn",
           "normalized": "CanvasX-\u003eDouble-\u003eView a-\u003eView a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "google-dictionary"
+        "phrase": "google-dictionary",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Types",
           "package": "google-dictionary",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Types",
           "package": "google-dictionary",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "EEntry",
           "package": "google-dictionary",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "EEntry",
           "package": "google-dictionary",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "EEntryType",
           "package": "google-dictionary",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "EEntryType",
           "package": "google-dictionary",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Label",
           "package": "google-dictionary",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Label",
           "package": "google-dictionary",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PEntry",
           "package": "google-dictionary",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PEntry",
           "package": "google-dictionary",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PEntryType",
           "package": "google-dictionary",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PEntryType",
           "package": "google-dictionary",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Primary",
           "package": "google-dictionary",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Primary",
           "package": "google-dictionary",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PrimaryType",
           "package": "google-dictionary",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PrimaryType",
           "package": "google-dictionary",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Response",
           "package": "google-dictionary",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Response",
           "package": "google-dictionary",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Term",
           "package": "google-dictionary",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Term",
           "package": "google-dictionary",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "TermType",
           "package": "google-dictionary",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "TermType",
           "package": "google-dictionary",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "EEExample",
           "package": "google-dictionary",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "EEExample",
           "package": "google-dictionary",
@@ -271,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "EEntry",
           "package": "google-dictionary",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "EEntry",
           "package": "google-dictionary",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Label",
           "package": "google-dictionary",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Label",
           "package": "google-dictionary",
@@ -315,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PEMeaning",
           "package": "google-dictionary",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PEMeaning",
           "package": "google-dictionary",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PERelated",
           "package": "google-dictionary",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PERelated",
           "package": "google-dictionary",
@@ -359,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PEntry",
           "package": "google-dictionary",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PEntry",
           "package": "google-dictionary",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PHeadword",
           "package": "google-dictionary",
@@ -390,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "PHeadword",
           "package": "google-dictionary",
@@ -403,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Primary",
           "package": "google-dictionary",
@@ -412,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Primary",
           "package": "google-dictionary",
@@ -425,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Response",
           "package": "google-dictionary",
@@ -434,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Response",
           "package": "google-dictionary",
@@ -447,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "TPhonetic",
           "package": "google-dictionary",
@@ -456,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "TPhonetic",
           "package": "google-dictionary",
@@ -469,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "TSound",
           "package": "google-dictionary",
@@ -478,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "TSound",
           "package": "google-dictionary",
@@ -491,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "TText",
           "package": "google-dictionary",
@@ -500,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "TText",
           "package": "google-dictionary",
@@ -513,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Term",
           "package": "google-dictionary",
@@ -522,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "Term",
           "package": "google-dictionary",
@@ -535,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "eentryTerms",
           "package": "google-dictionary",
@@ -544,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "eentryTerms",
           "normalized": "[Term]",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "eentryType",
           "package": "google-dictionary",
@@ -568,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "eentryType",
           "package": "google-dictionary",
@@ -581,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "labelText",
           "package": "google-dictionary",
@@ -590,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "labelText",
           "package": "google-dictionary",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "labelTitle",
           "package": "google-dictionary",
@@ -612,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "labelTitle",
           "package": "google-dictionary",
@@ -625,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "pentryEntries",
           "package": "google-dictionary",
@@ -634,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "pentryEntries",
           "normalized": "Maybe[EEntry]",
@@ -649,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "pentryTerms",
           "package": "google-dictionary",
@@ -658,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "pentryTerms",
           "normalized": "[Term]",
@@ -673,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "pentryType",
           "package": "google-dictionary",
@@ -682,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "pentryType",
           "package": "google-dictionary",
@@ -695,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "primaryEntries",
           "package": "google-dictionary",
@@ -704,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "primaryEntries",
           "normalized": "[PEntry]",
@@ -719,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "primaryTerms",
           "package": "google-dictionary",
@@ -728,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "primaryTerms",
           "normalized": "[Term]",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "primaryType",
           "package": "google-dictionary",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "primaryType",
           "package": "google-dictionary",
@@ -765,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "responsePrimaries",
           "package": "google-dictionary",
@@ -774,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "responsePrimaries",
           "normalized": "[Primary]",
@@ -789,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "responseQuery",
           "package": "google-dictionary",
@@ -798,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "responseQuery",
           "package": "google-dictionary",
@@ -811,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "responseSourceLanguage",
           "package": "google-dictionary",
@@ -820,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "responseSourceLanguage",
           "package": "google-dictionary",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "responseTargetLanguage",
           "package": "google-dictionary",
@@ -842,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "responseTargetLanguage",
           "package": "google-dictionary",
@@ -855,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "termLabels",
           "package": "google-dictionary",
@@ -864,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "termLabels",
           "normalized": "Maybe[Label]",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "termLanguage",
           "package": "google-dictionary",
@@ -888,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "termLanguage",
           "package": "google-dictionary",
@@ -901,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "termText",
           "package": "google-dictionary",
@@ -910,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "termText",
           "package": "google-dictionary",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "termType",
           "package": "google-dictionary",
@@ -932,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary Types",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary.Types",
           "name": "termType",
           "package": "google-dictionary",
@@ -945,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary",
           "name": "GoogleDictionary",
           "package": "google-dictionary",
@@ -953,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary",
           "name": "GoogleDictionary",
           "package": "google-dictionary",
@@ -966,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary",
           "name": "Entry",
           "package": "google-dictionary",
@@ -974,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary",
           "name": "Entry",
           "package": "google-dictionary",
@@ -987,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary",
           "name": "Entry",
           "package": "google-dictionary",
@@ -996,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary",
           "name": "Entry",
           "package": "google-dictionary",
@@ -1009,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary",
           "name": "entryDefinition",
           "package": "google-dictionary",
@@ -1018,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary",
           "name": "entryDefinition",
           "package": "google-dictionary",
@@ -1031,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary",
           "name": "entryPartOfSpeech",
           "package": "google-dictionary",
@@ -1040,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary",
           "name": "entryPartOfSpeech",
           "package": "google-dictionary",
@@ -1053,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary",
           "name": "entryPhonetic",
           "package": "google-dictionary",
@@ -1062,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary",
           "name": "entryPhonetic",
           "package": "google-dictionary",
@@ -1075,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary",
           "name": "entrySoundUrl",
           "package": "google-dictionary",
@@ -1084,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary",
           "name": "entrySoundUrl",
           "package": "google-dictionary",
@@ -1097,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary",
           "name": "entryWord",
           "package": "google-dictionary",
@@ -1106,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary",
           "name": "entryWord",
           "package": "google-dictionary",
@@ -1119,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary",
           "name": "getResponse",
           "package": "google-dictionary",
@@ -1128,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary",
           "name": "getResponse",
           "normalized": "String-\u003eIO(Either String Response)",
@@ -1143,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:04 UTC 2014",
           "module": "Network.API.GoogleDictionary",
           "name": "lookupWord",
           "package": "google-dictionary",
@@ -1152,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Network API GoogleDictionary",
+          "indexed": "2014-03-11T18:19:04",
           "module": "Network.API.GoogleDictionary",
           "name": "lookupWord",
           "normalized": "String-\u003eIO[Entry]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blaze-builder"
+        "phrase": "blaze-builder",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eWrite\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es for strict and lazy bytestrings.\n\u003c/p\u003e\u003cp\u003eWe assume the following qualified imports in order to differentiate between\n strict and lazy bytestrings in the code examples.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.ByteString      as S\n import qualified Data.ByteString.Lazy as L\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "ByteString",
           "package": "blaze-builder",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Write and Builder for strict and lazy bytestrings We assume the following qualified imports in order to differentiate between strict and lazy bytestrings in the code examples import qualified Data.ByteString as import qualified Data.ByteString.Lazy as",
           "hierarchy": "Blaze ByteString Builder ByteString",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "ByteString",
           "package": "blaze-builder",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecopyByteString bs\u003c/code\u003e serialize the strict bytestring \u003ccode\u003ebs\u003c/code\u003e by copying it to\n the output buffer.\n\u003c/p\u003e\u003cp\u003eUse this function to serialize strict bytestrings that are statically known\n to be smallish (\u003ccode\u003e\u003c= 4kb\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "copyByteString",
           "package": "blaze-builder",
@@ -52,6 +55,7 @@
         "index": {
           "description": "copyByteString bs serialize the strict bytestring bs by copying it to the output buffer Use this function to serialize strict bytestrings that are statically known to be smallish kb",
           "hierarchy": "Blaze ByteString Builder ByteString",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "copyByteString",
           "normalized": "ByteString-\u003eBuilder",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize a lazy bytestring by copying \u003cem\u003eall\u003c/em\u003e chunks sequentially\n to the output buffer.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003ecopyByteString\u003c/a\u003e\u003c/code\u003e for usage considerations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "copyLazyByteString",
           "package": "blaze-builder",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Serialize lazy bytestring by copying all chunks sequentially to the output buffer See copyByteString for usage considerations",
           "hierarchy": "Blaze ByteString Builder ByteString",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "copyLazyByteString",
           "normalized": "ByteString-\u003eBuilder",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart serialization of a strict bytestring.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efromByteString\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003efromByteStringWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultMaximalCopySize\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eUse this function to serialize strict bytestrings. It guarantees an\n average chunk size of 4kb, which has been shown to be a reasonable size in\n benchmarks. Note that the check whether to copy or to insert is (almost)\n free as the builder performance is mostly memory-bound.\n\u003c/p\u003e\u003cp\u003eIf you statically know that copying or inserting the strict bytestring is\n always the best choice, then you can use the \u003ccode\u003e\u003ca\u003ecopyByteString\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003einsertByteString\u003c/a\u003e\u003c/code\u003e functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "fromByteString",
           "package": "blaze-builder",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Smart serialization of strict bytestring fromByteString fromByteStringWith defaultMaximalCopySize Use this function to serialize strict bytestrings It guarantees an average chunk size of kb which has been shown to be reasonable size in benchmarks Note that the check whether to copy or to insert is almost free as the builder performance is mostly memory-bound If you statically know that copying or inserting the strict bytestring is always the best choice then you can use the copyByteString or insertByteString functions",
           "hierarchy": "Blaze ByteString Builder ByteString",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "fromByteString",
           "normalized": "ByteString-\u003eBuilder",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efromByteStringWith maximalCopySize bs\u003c/code\u003e serializes the strict bytestring\n \u003ccode\u003ebs\u003c/code\u003e according to the following rules.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eS.length bs \u003c= maximalCopySize\u003c/code\u003e:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003ebs\u003c/code\u003e is copied to the output buffer.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eS.length bs \u003e  maximalCopySize\u003c/code\u003e:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003ebs\u003c/code\u003e the output buffer is flushed and\n   \u003ccode\u003ebs\u003c/code\u003e is inserted directly as separate chunk in the output stream.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThese rules guarantee that average chunk size in the output stream is at\n least half the \u003ccode\u003emaximalCopySize\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "fromByteStringWith",
           "package": "blaze-builder",
@@ -129,6 +138,7 @@
         "index": {
           "description": "fromByteStringWith maximalCopySize bs serializes the strict bytestring bs according to the following rules S.length bs maximalCopySize bs is copied to the output buffer S.length bs maximalCopySize bs the output buffer is flushed and bs is inserted directly as separate chunk in the output stream These rules guarantee that average chunk size in the output stream is at least half the maximalCopySize",
           "hierarchy": "Blaze ByteString Builder ByteString",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "fromByteStringWith",
           "normalized": "Int-\u003eByteString-\u003eBuilder",
@@ -145,6 +155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Smart serialization of a lazy bytestring.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efromLazyByteString\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003efromLazyByteStringWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultMaximalCopySize\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eUse this function to serialize lazy bytestrings. It guarantees an average\n chunk size of 4kb, which has been shown to be a reasonable size in\n benchmarks. Note that the check whether to copy or to insert is (almost)\n free as the builder performance is mostly memory-bound.\n\u003c/p\u003e\u003cp\u003eIf you statically know that copying or inserting \u003cem\u003eall\u003c/em\u003e chunks of the lazy\n bytestring is always the best choice, then you can use the\n \u003ccode\u003e\u003ca\u003ecopyLazyByteString\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003einsertLazyByteString\u003c/a\u003e\u003c/code\u003e functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "fromLazyByteString",
           "package": "blaze-builder",
@@ -155,6 +166,7 @@
         "index": {
           "description": "Smart serialization of lazy bytestring fromLazyByteString fromLazyByteStringWith defaultMaximalCopySize Use this function to serialize lazy bytestrings It guarantees an average chunk size of kb which has been shown to be reasonable size in benchmarks Note that the check whether to copy or to insert is almost free as the builder performance is mostly memory-bound If you statically know that copying or inserting all chunks of the lazy bytestring is always the best choice then you can use the copyLazyByteString or insertLazyByteString functions",
           "hierarchy": "Blaze ByteString Builder ByteString",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "fromLazyByteString",
           "normalized": "ByteString-\u003eBuilder",
@@ -171,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize a lazy bytestring chunk-wise according to the same rules\n as in \u003ccode\u003e\u003ca\u003efromByteStringWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSemantically, it holds that\n\u003c/p\u003e\u003cpre\u003e   fromLazyByteStringWith maxCopySize\n = mconcat . map (fromByteStringWith maxCopySize) . L.toChunks\n\u003c/pre\u003e\u003cp\u003eHowever, the left-hand-side is much more efficient, as it moves the\n end-of-buffer pointer out of the inner loop and provides the compiler with\n more strictness information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "fromLazyByteStringWith",
           "package": "blaze-builder",
@@ -180,6 +193,7 @@
         "index": {
           "description": "Serialize lazy bytestring chunk-wise according to the same rules as in fromByteStringWith Semantically it holds that fromLazyByteStringWith maxCopySize mconcat map fromByteStringWith maxCopySize L.toChunks However the left-hand-side is much more efficient as it moves the end-of-buffer pointer out of the inner loop and provides the compiler with more strictness information",
           "hierarchy": "Blaze ByteString Builder ByteString",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "fromLazyByteStringWith",
           "normalized": "Int-\u003eByteString-\u003eBuilder",
@@ -196,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einsertByteString bs\u003c/code\u003e serializes the strict bytestring \u003ccode\u003ebs\u003c/code\u003e by inserting\n it directly as a chunk of the output stream.\n\u003c/p\u003e\u003cp\u003eNote that this implies flushing the output buffer; even if it contains just\n a single byte. Hence, you should use this operation only for large (\u003ccode\u003e\u003e 8kb\u003c/code\u003e)\n bytestrings, as otherwise the resulting output stream may be too fragmented\n to be processed efficiently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "insertByteString",
           "package": "blaze-builder",
@@ -206,6 +221,7 @@
         "index": {
           "description": "insertByteString bs serializes the strict bytestring bs by inserting it directly as chunk of the output stream Note that this implies flushing the output buffer even if it contains just single byte Hence you should use this operation only for large kb bytestrings as otherwise the resulting output stream may be too fragmented to be processed efficiently",
           "hierarchy": "Blaze ByteString Builder ByteString",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "insertByteString",
           "normalized": "ByteString-\u003eBuilder",
@@ -222,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize a lazy bytestring by inserting \u003cem\u003eall\u003c/em\u003e its chunks directly\n into the output stream.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003einsertByteString\u003c/a\u003e\u003c/code\u003e for usage considerations.\n\u003c/p\u003e\u003cp\u003eFor library developers, see the \u003ccode\u003eModifyChunks\u003c/code\u003e build signal, if you\n need an \u003cem\u003eO(1)\u003c/em\u003e lazy bytestring insert based on difference lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "insertLazyByteString",
           "package": "blaze-builder",
@@ -232,6 +249,7 @@
         "index": {
           "description": "Serialize lazy bytestring by inserting all its chunks directly into the output stream See insertByteString for usage considerations For library developers see the ModifyChunks build signal if you need an lazy bytestring insert based on difference lists",
           "hierarchy": "Blaze ByteString Builder ByteString",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "insertLazyByteString",
           "normalized": "ByteString-\u003eBuilder",
@@ -248,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to a buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "writeByteString",
           "package": "blaze-builder",
@@ -258,6 +277,7 @@
         "index": {
           "description": "Write strict ByteString to buffer",
           "hierarchy": "Blaze ByteString Builder ByteString",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.ByteString",
           "name": "writeByteString",
           "normalized": "ByteString-\u003eWrite",
@@ -274,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eWrite\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es for serializing Unicode characters using the UTF-8\n encoding.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "Utf8",
           "package": "blaze-builder",
@@ -283,6 +304,7 @@
         "index": {
           "description": "Write and Builder for serializing Unicode characters using the UTF-8 encoding",
           "hierarchy": "Blaze ByteString Builder Char Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "Utf8",
           "package": "blaze-builder",
@@ -297,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Serialize a Unicode character using the UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "fromChar",
           "package": "blaze-builder",
@@ -307,6 +330,7 @@
         "index": {
           "description": "Serialize Unicode character using the UTF-8 encoding",
           "hierarchy": "Blaze ByteString Builder Char Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "fromChar",
           "normalized": "Char-\u003eBuilder",
@@ -323,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize a lazy Unicode \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value using the UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "fromLazyText",
           "package": "blaze-builder",
@@ -333,6 +358,7 @@
         "index": {
           "description": "Serialize lazy Unicode Text value using the UTF-8 encoding",
           "hierarchy": "Blaze ByteString Builder Char Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "fromLazyText",
           "normalized": "Text-\u003eBuilder",
@@ -349,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize a value by \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003eing it and UTF-8 encoding the resulting\n \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "fromShow",
           "package": "blaze-builder",
@@ -359,6 +386,7 @@
         "index": {
           "description": "Serialize value by Show ing it and UTF-8 encoding the resulting String",
           "hierarchy": "Blaze ByteString Builder Char Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "fromShow",
           "normalized": "a-\u003eBuilder",
@@ -375,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize a Unicode \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e using the UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "fromString",
           "package": "blaze-builder",
@@ -385,6 +414,7 @@
         "index": {
           "description": "Serialize Unicode String using the UTF-8 encoding",
           "hierarchy": "Blaze ByteString Builder Char Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "fromString",
           "normalized": "String-\u003eBuilder",
@@ -401,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize a strict Unicode \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value using the UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "fromText",
           "package": "blaze-builder",
@@ -411,6 +442,7 @@
         "index": {
           "description": "Serialize strict Unicode Text value using the UTF-8 encoding",
           "hierarchy": "Blaze ByteString Builder Char Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "fromText",
           "normalized": "Text-\u003eBuilder",
@@ -427,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a UTF-8 encoded Unicode character to a buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "writeChar",
           "package": "blaze-builder",
@@ -437,6 +470,7 @@
         "index": {
           "description": "Write UTF-8 encoded Unicode character to buffer",
           "hierarchy": "Blaze ByteString Builder Char Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char.Utf8",
           "name": "writeChar",
           "normalized": "Char-\u003eWrite",
@@ -453,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem/\u003eNote:\u003cem/\u003e This package is intended for low-level use like implementing\n protocols. If you need to \u003cem/\u003eserialize\u003cem/\u003e Unicode characters use one of the\n UTF encodings (e.g. 'Blaze.ByteString.Builder.Char.UTF-8').\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eWrite\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es for serializing the lower 8-bits of characters.\n\u003c/p\u003e\u003cp\u003eThis corresponds to what the \u003ccode\u003ebytestring\u003c/code\u003e package offer in\n \u003ccode\u003e\u003ca\u003eChar8\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "Char8",
           "package": "blaze-builder",
@@ -462,6 +497,7 @@
         "index": {
           "description": "Note This package is intended for low-level use like implementing protocols If you need to serialize Unicode characters use one of the UTF encodings e.g Blaze.ByteString.Builder.Char.UTF-8 Write and Builder for serializing the lower bits of characters This corresponds to what the bytestring package offer in Char8",
           "hierarchy": "Blaze ByteString Builder Char8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "Char8",
           "package": "blaze-builder",
@@ -476,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Serialize the lower 8-bits of a character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "fromChar",
           "package": "blaze-builder",
@@ -486,6 +523,7 @@
         "index": {
           "description": "Serialize the lower bits of character",
           "hierarchy": "Blaze ByteString Builder Char8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "fromChar",
           "normalized": "Char-\u003eBuilder",
@@ -502,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize the lower 8-bits of all characters in the lazy text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "fromLazyText",
           "package": "blaze-builder",
@@ -512,6 +551,7 @@
         "index": {
           "description": "Serialize the lower bits of all characters in the lazy text",
           "hierarchy": "Blaze ByteString Builder Char8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "fromLazyText",
           "normalized": "Text-\u003eBuilder",
@@ -528,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize a value by \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003eing it and serializing the lower 8-bits\n of the resulting string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "fromShow",
           "package": "blaze-builder",
@@ -538,6 +579,7 @@
         "index": {
           "description": "Serialize value by Show ing it and serializing the lower bits of the resulting string",
           "hierarchy": "Blaze ByteString Builder Char8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "fromShow",
           "normalized": "a-\u003eBuilder",
@@ -554,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize the lower 8-bits of all characters of a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "fromString",
           "package": "blaze-builder",
@@ -564,6 +607,7 @@
         "index": {
           "description": "Serialize the lower bits of all characters of string",
           "hierarchy": "Blaze ByteString Builder Char8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "fromString",
           "normalized": "String-\u003eBuilder",
@@ -580,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize the lower 8-bits of all characters in the strict text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "fromText",
           "package": "blaze-builder",
@@ -590,6 +635,7 @@
         "index": {
           "description": "Serialize the lower bits of all characters in the strict text",
           "hierarchy": "Blaze ByteString Builder Char8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "fromText",
           "normalized": "Text-\u003eBuilder",
@@ -606,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the lower 8-bits of a character to a buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "writeChar",
           "package": "blaze-builder",
@@ -616,6 +663,7 @@
         "index": {
           "description": "Write the lower bits of character to buffer",
           "hierarchy": "Blaze ByteString Builder Char8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Char8",
           "name": "writeChar",
           "normalized": "Char-\u003eWrite",
@@ -632,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for HTTP response encoding.\n\u003c/p\u003e\u003cp\u003eTODO: Improve documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.HTTP",
           "name": "HTTP",
           "package": "blaze-builder",
@@ -641,6 +690,7 @@
         "index": {
           "description": "Support for HTTP response encoding TODO Improve documentation",
           "hierarchy": "Blaze ByteString Builder HTTP",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.HTTP",
           "name": "HTTP",
           "package": "blaze-builder",
@@ -655,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a builder such that it uses chunked HTTP transfer encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.HTTP",
           "name": "chunkedTransferEncoding",
           "package": "blaze-builder",
@@ -665,6 +716,7 @@
         "index": {
           "description": "Transform builder such that it uses chunked HTTP transfer encoding",
           "hierarchy": "Blaze ByteString Builder HTTP",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.HTTP",
           "name": "chunkedTransferEncoding",
           "normalized": "Builder-\u003eBuilder",
@@ -681,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe zero-length chunk '0\\r\\n\\r\\n' signaling the termination of the data transfer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.HTTP",
           "name": "chunkedTransferTerminator",
           "package": "blaze-builder",
@@ -691,6 +744,7 @@
         "index": {
           "description": "The zero-length chunk signaling the termination of the data transfer",
           "hierarchy": "Blaze ByteString Builder HTTP",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.HTTP",
           "name": "chunkedTransferTerminator",
           "package": "blaze-builder",
@@ -705,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eWrite\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es for serializing HTML escaped and UTF-8 encoded\n characters.\n\u003c/p\u003e\u003cp\u003eThis module is used by both the 'blaze-html' and the 'hamlet' HTML\n templating libraries. If the \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e from 'blaze-builder' replaces the\n \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e implementation, this module will most likely keep its\n place, as it provides a set of very specialized functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "Utf8",
           "package": "blaze-builder",
@@ -714,6 +769,7 @@
         "index": {
           "description": "Write and Builder for serializing HTML escaped and UTF-8 encoded characters This module is used by both the blaze-html and the hamlet HTML templating libraries If the Builder from blaze-builder replaces the Builder implementation this module will most likely keep its place as it provides set of very specialized functions",
           "hierarchy": "Blaze ByteString Builder Html Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "Utf8",
           "package": "blaze-builder",
@@ -728,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e Serialize a HTML escaped Unicode character using the UTF-8\n encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "fromHtmlEscapedChar",
           "package": "blaze-builder",
@@ -738,6 +795,7 @@
         "index": {
           "description": "Serialize HTML escaped Unicode character using the UTF-8 encoding",
           "hierarchy": "Blaze ByteString Builder Html Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "fromHtmlEscapedChar",
           "normalized": "Char-\u003eBuilder",
@@ -754,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize a HTML escaped Unicode \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e using the UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "fromHtmlEscapedLazyText",
           "package": "blaze-builder",
@@ -764,6 +823,7 @@
         "index": {
           "description": "Serialize HTML escaped Unicode Text using the UTF-8 encoding",
           "hierarchy": "Blaze ByteString Builder Html Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "fromHtmlEscapedLazyText",
           "normalized": "Text-\u003eBuilder",
@@ -780,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize a value by \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003eing it and then, HTML escaping and\n UTF-8 encoding the resulting \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "fromHtmlEscapedShow",
           "package": "blaze-builder",
@@ -790,6 +851,7 @@
         "index": {
           "description": "Serialize value by Show ing it and then HTML escaping and UTF-8 encoding the resulting String",
           "hierarchy": "Blaze ByteString Builder Html Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "fromHtmlEscapedShow",
           "normalized": "a-\u003eBuilder",
@@ -806,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize a HTML escaped Unicode \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e using the UTF-8\n encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "fromHtmlEscapedString",
           "package": "blaze-builder",
@@ -816,6 +879,7 @@
         "index": {
           "description": "Serialize HTML escaped Unicode String using the UTF-8 encoding",
           "hierarchy": "Blaze ByteString Builder Html Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "fromHtmlEscapedString",
           "normalized": "String-\u003eBuilder",
@@ -832,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Serialize a HTML escaped strict Unicode \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value using the\n UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "fromHtmlEscapedText",
           "package": "blaze-builder",
@@ -842,6 +907,7 @@
         "index": {
           "description": "Serialize HTML escaped strict Unicode Text value using the UTF-8 encoding",
           "hierarchy": "Blaze ByteString Builder Html Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "fromHtmlEscapedText",
           "normalized": "Text-\u003eBuilder",
@@ -858,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a HTML escaped and UTF-8 encoded Unicode character to a bufffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "writeHtmlEscapedChar",
           "package": "blaze-builder",
@@ -868,6 +935,7 @@
         "index": {
           "description": "Write HTML escaped and UTF-8 encoded Unicode character to bufffer",
           "hierarchy": "Blaze ByteString Builder Html Utf8",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Html.Utf8",
           "name": "writeHtmlEscapedChar",
           "normalized": "Char-\u003eWrite",
@@ -884,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eWrite\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es for serializing integers.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003eBlaze.ByteString.Builder.Word\u003c/a\u003e for information about how to best write several\n integers at once.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "Int",
           "package": "blaze-builder",
@@ -893,6 +962,7 @@
         "index": {
           "description": "Write and Builder for serializing integers See Blaze.ByteString.Builder.Word for information about how to best write several integers at once",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "Int",
           "package": "blaze-builder",
@@ -907,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize an \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt16be",
           "package": "blaze-builder",
@@ -917,6 +988,7 @@
         "index": {
           "description": "Serialize an Int16 in big endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt16be",
           "normalized": "Int-\u003eBuilder",
@@ -933,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt16host",
           "package": "blaze-builder",
@@ -943,6 +1016,7 @@
         "index": {
           "description": "Write an Int16 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt16host",
           "normalized": "Int-\u003eBuilder",
@@ -959,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize an \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt16le",
           "package": "blaze-builder",
@@ -969,6 +1044,7 @@
         "index": {
           "description": "Serialize an Int16 in little endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt16le",
           "normalized": "Int-\u003eBuilder",
@@ -985,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003es in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt16sbe",
           "package": "blaze-builder",
@@ -995,6 +1072,7 @@
         "index": {
           "description": "Serialize list of Int16 in big endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt16sbe",
           "normalized": "[Int]-\u003eBuilder",
@@ -1011,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a list of \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003es in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt16shost",
           "package": "blaze-builder",
@@ -1021,6 +1100,7 @@
         "index": {
           "description": "Write list of Int16 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt16shost",
           "normalized": "[Int]-\u003eBuilder",
@@ -1037,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003es in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt16sle",
           "package": "blaze-builder",
@@ -1047,6 +1128,7 @@
         "index": {
           "description": "Serialize list of Int16 in little endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt16sle",
           "normalized": "[Int]-\u003eBuilder",
@@ -1063,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize an \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt32be",
           "package": "blaze-builder",
@@ -1073,6 +1156,7 @@
         "index": {
           "description": "Serialize an Int32 in big endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt32be",
           "normalized": "Int-\u003eBuilder",
@@ -1089,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt32host",
           "package": "blaze-builder",
@@ -1099,6 +1184,7 @@
         "index": {
           "description": "Write an Int32 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt32host",
           "normalized": "Int-\u003eBuilder",
@@ -1115,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize an \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt32le",
           "package": "blaze-builder",
@@ -1125,6 +1212,7 @@
         "index": {
           "description": "Serialize an Int32 in little endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt32le",
           "normalized": "Int-\u003eBuilder",
@@ -1141,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003es in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt32sbe",
           "package": "blaze-builder",
@@ -1151,6 +1240,7 @@
         "index": {
           "description": "Serialize list of Int32 in big endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt32sbe",
           "normalized": "[Int]-\u003eBuilder",
@@ -1167,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a list of \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003es in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt32shost",
           "package": "blaze-builder",
@@ -1177,6 +1268,7 @@
         "index": {
           "description": "Write list of Int32 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt32shost",
           "normalized": "[Int]-\u003eBuilder",
@@ -1193,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003es in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt32sle",
           "package": "blaze-builder",
@@ -1203,6 +1296,7 @@
         "index": {
           "description": "Serialize list of Int32 in little endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt32sle",
           "normalized": "[Int]-\u003eBuilder",
@@ -1219,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt64be",
           "package": "blaze-builder",
@@ -1229,6 +1324,7 @@
         "index": {
           "description": "Serialize an Int64 in big endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt64be",
           "normalized": "Int-\u003eBuilder",
@@ -1245,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt64host",
           "package": "blaze-builder",
@@ -1255,6 +1352,7 @@
         "index": {
           "description": "Write an Int64 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt64host",
           "normalized": "Int-\u003eBuilder",
@@ -1271,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt64le",
           "package": "blaze-builder",
@@ -1281,6 +1380,7 @@
         "index": {
           "description": "Serialize an Int64 in little endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt64le",
           "normalized": "Int-\u003eBuilder",
@@ -1297,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003es in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt64sbe",
           "package": "blaze-builder",
@@ -1307,6 +1408,7 @@
         "index": {
           "description": "Serialize list of Int64 in big endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt64sbe",
           "normalized": "[Int]-\u003eBuilder",
@@ -1323,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a list of \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003es in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt64shost",
           "package": "blaze-builder",
@@ -1333,6 +1436,7 @@
         "index": {
           "description": "Write list of Int64 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt64shost",
           "normalized": "[Int]-\u003eBuilder",
@@ -1349,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003es in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt64sle",
           "package": "blaze-builder",
@@ -1359,6 +1464,7 @@
         "index": {
           "description": "Serialize list of Int64 in little endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt64sle",
           "normalized": "[Int]-\u003eBuilder",
@@ -1375,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a single byte.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt8",
           "package": "blaze-builder",
@@ -1385,6 +1492,7 @@
         "index": {
           "description": "Serialize single byte",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt8",
           "normalized": "Int-\u003eBuilder",
@@ -1401,6 +1509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt8s",
           "package": "blaze-builder",
@@ -1411,6 +1520,7 @@
         "index": {
           "description": "Serialize list of bytes",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInt8s",
           "normalized": "[Int]-\u003eBuilder",
@@ -1427,6 +1537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a single native machine \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e is serialized in host\n order, host endian form, for the machine you're on. On a 64 bit machine the\n \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e is an 8 byte value, on a 32 bit machine, 4 bytes. Values written this\n way are not portable to different endian or integer sized machines, without\n conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInthost",
           "package": "blaze-builder",
@@ -1437,6 +1548,7 @@
         "index": {
           "description": "Serialize single native machine Int The Int is serialized in host order host endian form for the machine you re on On bit machine the Int is an byte value on bit machine bytes Values written this way are not portable to different endian or integer sized machines without conversion",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromInthost",
           "normalized": "Int-\u003eBuilder",
@@ -1453,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.\n See \u003ccode\u003e\u003ca\u003efromInthost\u003c/a\u003e\u003c/code\u003e for usage considerations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromIntshost",
           "package": "blaze-builder",
@@ -1463,6 +1576,7 @@
         "index": {
           "description": "Serialize list of Int See fromInthost for usage considerations",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "fromIntshost",
           "normalized": "[Int]-\u003eBuilder",
@@ -1479,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt16be",
           "package": "blaze-builder",
@@ -1489,6 +1604,7 @@
         "index": {
           "description": "Write an Int16 in big endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt16be",
           "normalized": "Int-\u003eWrite",
@@ -1505,6 +1621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt16host",
           "package": "blaze-builder",
@@ -1515,6 +1632,7 @@
         "index": {
           "description": "Write an Int16 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt16host",
           "normalized": "Int-\u003eWrite",
@@ -1531,6 +1649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt16le",
           "package": "blaze-builder",
@@ -1541,6 +1660,7 @@
         "index": {
           "description": "Write an Int16 in little endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt16le",
           "normalized": "Int-\u003eWrite",
@@ -1557,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt32be",
           "package": "blaze-builder",
@@ -1567,6 +1688,7 @@
         "index": {
           "description": "Write an Int32 in big endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt32be",
           "normalized": "Int-\u003eWrite",
@@ -1583,6 +1705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt32host",
           "package": "blaze-builder",
@@ -1593,6 +1716,7 @@
         "index": {
           "description": "Write an Int32 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt32host",
           "normalized": "Int-\u003eWrite",
@@ -1609,6 +1733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt32le",
           "package": "blaze-builder",
@@ -1619,6 +1744,7 @@
         "index": {
           "description": "Write an Int32 in little endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt32le",
           "normalized": "Int-\u003eWrite",
@@ -1635,6 +1761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt64be",
           "package": "blaze-builder",
@@ -1645,6 +1772,7 @@
         "index": {
           "description": "Write an Int64 in big endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt64be",
           "normalized": "Int-\u003eWrite",
@@ -1661,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt64host",
           "package": "blaze-builder",
@@ -1671,6 +1800,7 @@
         "index": {
           "description": "Write an Int64 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt64host",
           "normalized": "Int-\u003eWrite",
@@ -1687,6 +1817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt64le",
           "package": "blaze-builder",
@@ -1697,6 +1828,7 @@
         "index": {
           "description": "Write an Int64 in little endian format",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt64le",
           "normalized": "Int-\u003eWrite",
@@ -1713,6 +1845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a single signed byte.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt8",
           "package": "blaze-builder",
@@ -1723,6 +1856,7 @@
         "index": {
           "description": "Write single signed byte",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInt8",
           "normalized": "Int-\u003eWrite",
@@ -1739,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a single native machine \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e is written in host order,\n host endian form, for the machine you're on. On a 64 bit machine the \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\n is an 8 byte value, on a 32 bit machine, 4 bytes. Values written this way\n are not portable to different endian or integer sized machines, without\n conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInthost",
           "package": "blaze-builder",
@@ -1749,6 +1884,7 @@
         "index": {
           "description": "Write single native machine Int The Int is written in host order host endian form for the machine you re on On bit machine the Int is an byte value on bit machine bytes Values written this way are not portable to different endian or integer sized machines without conversion",
           "hierarchy": "Blaze ByteString Builder Int",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Int",
           "name": "writeInthost",
           "normalized": "Int-\u003eWrite",
@@ -1765,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExecution of the \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e monad and hence also \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es with respect to\n buffers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "Buffer",
           "package": "blaze-builder",
@@ -1774,6 +1911,7 @@
         "index": {
           "description": "Execution of the Put monad and hence also Builder with respect to buffers",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "Buffer",
           "package": "blaze-builder",
@@ -1788,6 +1926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA buffer \u003ccode\u003eBuffer fpbuf p0 op ope\u003c/code\u003e describes a buffer with the underlying\n byte array \u003ccode\u003efpbuf..ope\u003c/code\u003e, the currently written slice \u003ccode\u003ep0..op\u003c/code\u003e and the free\n space \u003ccode\u003eop..ope\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "Buffer",
           "package": "blaze-builder",
@@ -1797,6 +1936,7 @@
         "index": {
           "description": "buffer Buffer fpbuf p0 op ope describes buffer with the underlying byte array fpbuf..ope the currently written slice p0..op and the free space op..ope",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "Buffer",
           "package": "blaze-builder",
@@ -1811,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA buffer allocation strategy \u003ccode\u003e(buf0, nextBuf)\u003c/code\u003e specifies the initial\n buffer to use and how to compute a new buffer \u003ccode\u003enextBuf minSize buf\u003c/code\u003e with at\n least size \u003ccode\u003eminSize\u003c/code\u003e from a filled buffer \u003ccode\u003ebuf\u003c/code\u003e. The double nesting of the\n \u003ccode\u003eIO\u003c/code\u003e monad helps to ensure that the reference to the filled buffer \u003ccode\u003ebuf\u003c/code\u003e is\n lost as soon as possible, but the new buffer doesn't have to be allocated\n too early.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "BufferAllocStrategy",
           "package": "blaze-builder",
@@ -1820,6 +1961,7 @@
         "index": {
           "description": "buffer allocation strategy buf0 nextBuf specifies the initial buffer to use and how to compute new buffer nextBuf minSize buf with at least size minSize from filled buffer buf The double nesting of the IO monad helps to ensure that the reference to the filled buffer buf is lost as soon as possible but the new buffer doesn have to be allocated too early",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "BufferAllocStrategy",
           "package": "blaze-builder",
@@ -1833,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "Buffer",
           "package": "blaze-builder",
@@ -1842,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "Buffer",
           "package": "blaze-builder",
@@ -1856,6 +2000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe simplest buffer allocation strategy: whenever a buffer is requested,\n allocate a new one that is big enough for the next build step to execute.\n\u003c/p\u003e\u003cp\u003eNOTE that this allocation strategy may spill quite some memory upon direct\n insertion of a bytestring by the builder. Thats no problem for garbage\n collection, but it may lead to unreasonably high memory consumption in\n special circumstances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "allNewBuffersStrategy",
           "package": "blaze-builder",
@@ -1866,6 +2011,7 @@
         "index": {
           "description": "The simplest buffer allocation strategy whenever buffer is requested allocate new one that is big enough for the next build step to execute NOTE that this allocation strategy may spill quite some memory upon direct insertion of bytestring by the builder Thats no problem for garbage collection but it may lead to unreasonably high memory consumption in special circumstances",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "allNewBuffersStrategy",
           "normalized": "Int-\u003eBufferAllocStrategy",
@@ -1882,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eallocBuffer size\u003c/code\u003e allocates a new buffer of size \u003ccode\u003esize\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "allocBuffer",
           "package": "blaze-builder",
@@ -1892,6 +2039,7 @@
         "index": {
           "description": "allocBuffer size allocates new buffer of size size",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "allocBuffer",
           "normalized": "Int-\u003eIO Buffer",
@@ -1908,6 +2056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of the whole byte array underlying the buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "bufferSize",
           "package": "blaze-builder",
@@ -1918,6 +2067,7 @@
         "index": {
           "description": "The size of the whole byte array underlying the buffer",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "bufferSize",
           "normalized": "Buffer-\u003eInt",
@@ -1934,6 +2084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a build step on the given buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "execBuildStep",
           "package": "blaze-builder",
@@ -1944,6 +2095,7 @@
         "index": {
           "description": "Execute build step on the given buffer",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "execBuildStep",
           "normalized": "BuildStep a-\u003eBuffer-\u003eIO(BuildSignal a)",
@@ -1960,6 +2112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of the free space of the buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "freeSize",
           "package": "blaze-builder",
@@ -1970,6 +2123,7 @@
         "index": {
           "description": "The size of the free space of the buffer",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "freeSize",
           "normalized": "Buffer-\u003eInt",
@@ -1986,6 +2140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the beginning of the slice to the next free byte such that the\n remaining free space of the buffer can be filled further. This operation\n is safe and can be used to fill the remaining part of the buffer after a\n direct insertion of a bytestring or a flush.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "nextSlice",
           "package": "blaze-builder",
@@ -1996,6 +2151,7 @@
         "index": {
           "description": "Move the beginning of the slice to the next free byte such that the remaining free space of the buffer can be filled further This operation is safe and can be used to fill the remaining part of the buffer after direct insertion of bytestring or flush",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "nextSlice",
           "normalized": "Int-\u003eBuffer-\u003eMaybe Buffer",
@@ -2012,6 +2168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResets the beginning of the next slice and the next free byte such that\n the whole buffer can be filled again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "reuseBuffer",
           "package": "blaze-builder",
@@ -2022,6 +2179,7 @@
         "index": {
           "description": "Resets the beginning of the next slice and the next free byte such that the whole buffer can be filled again",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "reuseBuffer",
           "normalized": "Buffer-\u003eBuffer",
@@ -2038,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unsafe, but possibly more efficient buffer allocation strategy:\n reuse the buffer, if it is big enough for the next build step to execute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "reuseBufferStrategy",
           "package": "blaze-builder",
@@ -2048,6 +2207,7 @@
         "index": {
           "description": "An unsafe but possibly more efficient buffer allocation strategy reuse the buffer if it is big enough for the next build step to execute",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "reuseBufferStrategy",
           "normalized": "IO Buffer-\u003eBufferAllocStrategy",
@@ -2064,6 +2224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a put on a buffer.\n\u003c/p\u003e\u003cp\u003eTODO: Generalize over buffer allocation strategy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "runPut",
           "package": "blaze-builder",
@@ -2074,6 +2235,7 @@
         "index": {
           "description": "Execute put on buffer TODO Generalize over buffer allocation strategy",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "runPut",
           "normalized": "(IO(BuildSignal a)-\u003eb(BuildSignal a))-\u003e(Int-\u003eBuffer-\u003eb Buffer)-\u003e(ByteString-\u003eb())-\u003ePut a-\u003eBuffer-\u003eb(a,Buffer)",
@@ -2090,6 +2252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of the written slice in the buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "sliceSize",
           "package": "blaze-builder",
@@ -2100,6 +2263,7 @@
         "index": {
           "description": "The size of the written slice in the buffer",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "sliceSize",
           "normalized": "Buffer-\u003eInt",
@@ -2116,6 +2280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the buffer to a bytestring. This operation is unsafe in the sense\n that created bytestring shares the underlying byte array with the buffer.\n Hence, depending on the later use of this buffer (e.g., if it gets reset and\n filled again) referential transparency may be lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "unsafeFreezeBuffer",
           "package": "blaze-builder",
@@ -2126,6 +2291,7 @@
         "index": {
           "description": "Convert the buffer to bytestring This operation is unsafe in the sense that created bytestring shares the underlying byte array with the buffer Hence depending on the later use of this buffer e.g if it gets reset and filled again referential transparency may be lost",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "unsafeFreezeBuffer",
           "normalized": "Buffer-\u003eByteString",
@@ -2142,6 +2308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a buffer to a non-empty bytestring. See \u003ccode\u003e\u003ca\u003eunsafeFreezeBuffer\u003c/a\u003e\u003c/code\u003e for\n the explanation of why this operation may be unsafe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "unsafeFreezeNonEmptyBuffer",
           "package": "blaze-builder",
@@ -2152,6 +2319,7 @@
         "index": {
           "description": "Convert buffer to non-empty bytestring See unsafeFreezeBuffer for the explanation of why this operation may be unsafe",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "unsafeFreezeNonEmptyBuffer",
           "normalized": "Buffer-\u003eMaybe ByteString",
@@ -2168,6 +2336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the end of slice pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "updateEndOfSlice",
           "package": "blaze-builder",
@@ -2178,6 +2347,7 @@
         "index": {
           "description": "Update the end of slice pointer",
           "hierarchy": "Blaze ByteString Builder Internal Buffer",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Buffer",
           "name": "updateEndOfSlice",
           "normalized": "Buffer-\u003ePtr Word-\u003eBuffer",
@@ -2194,6 +2364,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCore types and functions for the \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e monoid and the \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e monad based\n based on the 'blaze-builder' library by Jasper van der Jeugt and Simon\n Meier.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "Types",
           "package": "blaze-builder",
@@ -2203,6 +2374,7 @@
         "index": {
           "description": "Core types and functions for the Builder monoid and the Put monad based based on the blaze-builder library by Jasper van der Jeugt and Simon Meier",
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "Types",
           "package": "blaze-builder",
@@ -2216,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "BufRange",
           "package": "blaze-builder",
@@ -2224,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "BufRange",
           "package": "blaze-builder",
@@ -2237,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "BuildSignal",
           "package": "blaze-builder",
@@ -2245,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "BuildSignal",
           "package": "blaze-builder",
@@ -2258,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "BuildStep",
           "package": "blaze-builder",
@@ -2266,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "BuildStep",
           "package": "blaze-builder",
@@ -2279,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "Builder",
           "package": "blaze-builder",
@@ -2287,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "Builder",
           "package": "blaze-builder",
@@ -2300,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "Put",
           "package": "blaze-builder",
@@ -2308,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "Put",
           "package": "blaze-builder",
@@ -2344,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "BufferFull",
           "package": "blaze-builder",
@@ -2353,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "BufferFull",
           "package": "blaze-builder",
@@ -2366,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "BuildStep",
           "package": "blaze-builder",
@@ -2375,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "BuildStep",
           "package": "blaze-builder",
@@ -2388,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "Builder",
           "package": "blaze-builder",
@@ -2397,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "Builder",
           "package": "blaze-builder",
@@ -2410,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "Done",
           "package": "blaze-builder",
@@ -2419,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "Done",
           "package": "blaze-builder",
@@ -2432,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "InsertByteString",
           "package": "blaze-builder",
@@ -2441,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "InsertByteString",
           "package": "blaze-builder",
@@ -2454,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "Put",
           "package": "blaze-builder",
@@ -2463,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "Put",
           "package": "blaze-builder",
@@ -2501,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "buildStep",
           "package": "blaze-builder",
@@ -2510,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "buildStep",
           "normalized": "(BufRange-\u003eIO(BuildSignal a))-\u003eBuildStep a",
@@ -2705,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "runBuildStep",
           "package": "blaze-builder",
@@ -2714,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "runBuildStep",
           "normalized": "BufRange-\u003eIO(BuildSignal a)",
@@ -2729,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "unBuilder",
           "package": "blaze-builder",
@@ -2738,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "unBuilder",
           "normalized": "a b BuildStep c-\u003eBuildStep c",
@@ -2753,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "unPut",
           "package": "blaze-builder",
@@ -2762,6 +2963,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Types",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Types",
           "name": "unPut",
           "normalized": "a b(c-\u003eBuildStep d)-\u003eBuildStep d",
@@ -2778,6 +2980,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA general and efficient write type that allows for the easy construction of\n builders for (smallish) bounded size writes to a buffer.\n\u003c/p\u003e\u003cp\u003eFIXME: Improve documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "Write",
           "package": "blaze-builder",
@@ -2787,6 +2990,7 @@
         "index": {
           "description": "general and efficient write type that allows for the easy construction of builders for smallish bounded size writes to buffer FIXME Improve documentation",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "Write",
           "package": "blaze-builder",
@@ -2801,6 +3005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanging a sequence of bytes starting from the given pointer. \u003ccode\u003e\u003ca\u003ePoke\u003c/a\u003e\u003c/code\u003es are\n the most primitive buffer manipulation. In most cases, you don't use the\n explicitely but as part of a \u003ccode\u003e\u003ca\u003eWrite\u003c/a\u003e\u003c/code\u003e, which also tells how many bytes will\n be changed at most.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "Poke",
           "package": "blaze-builder",
@@ -2810,6 +3015,7 @@
         "index": {
           "description": "Changing sequence of bytes starting from the given pointer Poke are the most primitive buffer manipulation In most cases you don use the explicitely but as part of Write which also tells how many bytes will be changed at most",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "Poke",
           "package": "blaze-builder",
@@ -2824,6 +3030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA write of a bounded number of bytes.\n\u003c/p\u003e\u003cp\u003eWhen defining a function \u003ccode\u003ewrite :: a -\u003e Write\u003c/code\u003e for some \u003ccode\u003ea\u003c/code\u003e, then it is\n important to ensure that the bound on the number of bytes written is\n data-independent. Formally,\n\u003c/p\u003e\u003cpre\u003e forall x y. getBound (write x) = getBound (write y)\u003c/pre\u003e\u003cp\u003eThe idea is that this data-independent bound is specified such that the\n compiler can optimize the check, if there are enough free bytes in the buffer,\n to a single subtraction between the pointer to the next free byte and the\n pointer to the end of the buffer with this constant bound of the maximal\n number of bytes to be written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "Write",
           "package": "blaze-builder",
@@ -2833,6 +3040,7 @@
         "index": {
           "description": "write of bounded number of bytes When defining function write Write for some then it is important to ensure that the bound on the number of bytes written is data-independent Formally forall getBound write getBound write The idea is that this data-independent bound is specified such that the compiler can optimize the check if there are enough free bytes in the buffer to single subtraction between the pointer to the next free byte and the pointer to the end of the buffer with this constant bound of the maximal number of bytes to be written",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "Write",
           "package": "blaze-builder",
@@ -2847,6 +3055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eboundedWrite size write\u003c/code\u003e creates a bounded write from a \u003ccode\u003ewrite\u003c/code\u003e that does\n not write more than \u003ccode\u003esize\u003c/code\u003e bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "boundedWrite",
           "package": "blaze-builder",
@@ -2857,6 +3066,7 @@
         "index": {
           "description": "boundedWrite size write creates bounded write from write that does not write more than size bytes",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "boundedWrite",
           "normalized": "Int-\u003ePoke-\u003eWrite",
@@ -2873,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eexactWrite size io\u003c/code\u003e creates a bounded write that can later be converted to\n a builder that writes exactly \u003ccode\u003esize\u003c/code\u003e bytes. Note that \u003ccode\u003eio\u003c/code\u003e MUST write\n EXACTLY \u003ccode\u003esize\u003c/code\u003e bytes to the buffer!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "exactWrite",
           "package": "blaze-builder",
@@ -2883,6 +3094,7 @@
         "index": {
           "description": "exactWrite size io creates bounded write that can later be converted to builder that writes exactly size bytes Note that io MUST write EXACTLY size bytes to the buffer",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "exactWrite",
           "normalized": "Int-\u003e(Ptr Word-\u003eIO())-\u003eWrite",
@@ -3032,6 +3244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the maximal number of bytes that this write could write.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "getBound",
           "package": "blaze-builder",
@@ -3042,6 +3255,7 @@
         "index": {
           "description": "Extract the maximal number of bytes that this write could write",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "getBound",
           "normalized": "Write-\u003eInt",
@@ -3058,6 +3272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the maximal number of bytes that this write could write in any\n case. Assumes that the bound of the write is data-independent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "getBound'",
           "package": "blaze-builder",
@@ -3067,6 +3282,7 @@
         "index": {
           "description": "Extract the maximal number of bytes that this write could write in any case Assumes that the bound of the write is data-independent",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "getBound'",
           "normalized": "String-\u003e(a-\u003eWrite)-\u003eInt",
@@ -3083,6 +3299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the \u003ccode\u003e\u003ca\u003ePoke\u003c/a\u003e\u003c/code\u003e action of a write.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "getPoke",
           "package": "blaze-builder",
@@ -3093,6 +3310,7 @@
         "index": {
           "description": "Extract the Poke action of write",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "getPoke",
           "normalized": "Write-\u003ePoke",
@@ -3109,6 +3327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epokeN size io\u003c/code\u003e creates a write that denotes the writing of \u003ccode\u003esize\u003c/code\u003e bytes\n to a buffer using the IO action \u003ccode\u003eio\u003c/code\u003e. Note that \u003ccode\u003eio\u003c/code\u003e MUST write EXACTLY \u003ccode\u003esize\u003c/code\u003e\n bytes to the buffer!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "pokeN",
           "package": "blaze-builder",
@@ -3119,6 +3338,7 @@
         "index": {
           "description": "pokeN size io creates write that denotes the writing of size bytes to buffer using the IO action io Note that io MUST write EXACTLY size bytes to the buffer",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "pokeN",
           "normalized": "Int-\u003e(Ptr Word-\u003eIO())-\u003ePoke",
@@ -3133,6 +3353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "runPoke",
           "package": "blaze-builder",
@@ -3142,6 +3363,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "runPoke",
           "normalized": "Poke-\u003ePtr Word-\u003eIO(Ptr Word)",
@@ -3158,6 +3380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the \u003ccode\u003e\u003ca\u003ePoke\u003c/a\u003e\u003c/code\u003e action of a write.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "runWrite",
           "package": "blaze-builder",
@@ -3168,6 +3391,7 @@
         "index": {
           "description": "Run the Poke action of write",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "runWrite",
           "normalized": "Write-\u003ePtr Word-\u003eIO(Ptr Word)",
@@ -3184,6 +3408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare the value to a test value and use the first write action for the\n equal case and the second write action for the non-equal case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "writeEq",
           "package": "blaze-builder",
@@ -3194,6 +3419,7 @@
         "index": {
           "description": "Compare the value to test value and use the first write action for the equal case and the second write action for the non-equal case",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "writeEq",
           "normalized": "a-\u003e(a-\u003eWrite)-\u003e(a-\u003eWrite)-\u003ea-\u003eWrite",
@@ -3210,6 +3436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewriteIf p wTrue wFalse x\u003c/code\u003e creates a \u003ccode\u003e\u003ca\u003eWrite\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003ePoke\u003c/a\u003e\u003c/code\u003e equal to \u003ccode\u003ewTrue\n x\u003c/code\u003e, if \u003ccode\u003ep x\u003c/code\u003e and equal to \u003ccode\u003ewFalse x\u003c/code\u003e otherwise. The bound of this new\n \u003ccode\u003e\u003ca\u003eWrite\u003c/a\u003e\u003c/code\u003e is the maximum of the bounds for either \u003ccode\u003e\u003ca\u003eWrite\u003c/a\u003e\u003c/code\u003e. This yields a data\n independent bound, if the bound for \u003ccode\u003ewTrue\u003c/code\u003e and \u003ccode\u003ewFalse\u003c/code\u003e is already data\n independent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "writeIf",
           "package": "blaze-builder",
@@ -3220,6 +3447,7 @@
         "index": {
           "description": "writeIf wTrue wFalse creates Write with Poke equal to wTrue if and equal to wFalse otherwise The bound of this new Write is the maximum of the bounds for either Write This yields data independent bound if the bound for wTrue and wFalse is already data independent",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "writeIf",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eWrite)-\u003e(a-\u003eWrite)-\u003ea-\u003eWrite",
@@ -3236,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewriteLiftIO io write\u003c/code\u003e creates a write executes the \u003ccode\u003eio\u003c/code\u003e action to compute\n the value that is then written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "writeLiftIO",
           "package": "blaze-builder",
@@ -3246,6 +3475,7 @@
         "index": {
           "description": "writeLiftIO io write creates write executes the io action to compute the value that is then written",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "writeLiftIO",
           "normalized": "(a-\u003eWrite)-\u003eIO a-\u003eWrite",
@@ -3262,6 +3492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA write combinator useful to build decision trees for deciding what value\n to write with a constant bound on the maximal number of bytes written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "writeOrd",
           "package": "blaze-builder",
@@ -3272,6 +3503,7 @@
         "index": {
           "description": "write combinator useful to build decision trees for deciding what value to write with constant bound on the maximal number of bytes written",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "writeOrd",
           "normalized": "a-\u003e(a-\u003eWrite)-\u003e(a-\u003eWrite)-\u003e(a-\u003eWrite)-\u003ea-\u003eWrite",
@@ -3288,6 +3520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO: Test this. It might well be too difficult to use.\n   FIXME: Better name required!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "writeOrdering",
           "package": "blaze-builder",
@@ -3298,6 +3531,7 @@
         "index": {
           "description": "TODO Test this It might well be too difficult to use FIXME Better name required",
           "hierarchy": "Blaze ByteString Builder Internal Write",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal.Write",
           "name": "writeOrdering",
           "normalized": "(a-\u003eOrdering)-\u003e(a-\u003eWrite)-\u003e(a-\u003eWrite)-\u003e(a-\u003eWrite)-\u003ea-\u003eWrite",
@@ -3341,6 +3575,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCore types and functions for the \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e monoid and the \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "Internal",
           "package": "blaze-builder",
@@ -3350,6 +3585,7 @@
         "index": {
           "description": "Core types and functions for the Builder monoid and the Put monad",
           "hierarchy": "Blaze ByteString Builder Internal",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "Internal",
           "package": "blaze-builder",
@@ -3363,6 +3599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "BufRange",
           "package": "blaze-builder",
@@ -3371,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "BufRange",
           "package": "blaze-builder",
@@ -3384,6 +3622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "BuildSignal",
           "package": "blaze-builder",
@@ -3392,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "BuildSignal",
           "package": "blaze-builder",
@@ -3405,6 +3645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "BuildStep",
           "package": "blaze-builder",
@@ -3413,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "BuildStep",
           "package": "blaze-builder",
@@ -3426,6 +3668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "Builder",
           "package": "blaze-builder",
@@ -3434,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "Builder",
           "package": "blaze-builder",
@@ -3447,6 +3691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "Put",
           "package": "blaze-builder",
@@ -3455,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder Internal",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "Put",
           "package": "blaze-builder",
@@ -3469,6 +3715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault size (~32kb) for the buffer that becomes a chunk of the output\n stream once it is filled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "defaultBufferSize",
           "package": "blaze-builder",
@@ -3479,6 +3726,7 @@
         "index": {
           "description": "Default size kb for the buffer that becomes chunk of the output stream once it is filled",
           "hierarchy": "Blaze ByteString Builder Internal",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "defaultBufferSize",
           "package": "blaze-builder",
@@ -3493,6 +3741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default length (64) for the first buffer to be allocated when\n converting a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e to a lazy bytestring.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003etoLazyByteStringWith\u003c/a\u003e\u003c/code\u003e for further explanation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "defaultFirstBufferSize",
           "package": "blaze-builder",
@@ -3503,6 +3752,7 @@
         "index": {
           "description": "The default length for the first buffer to be allocated when converting Builder to lazy bytestring See toLazyByteStringWith for further explanation",
           "hierarchy": "Blaze ByteString Builder Internal",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "defaultFirstBufferSize",
           "package": "blaze-builder",
@@ -3517,6 +3767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximal number of bytes for that copying is cheaper than direct\n insertion into the output stream. This takes into account the fragmentation\n that may occur in the output buffer due to the early \u003ccode\u003e\u003ca\u003eflush\u003c/a\u003e\u003c/code\u003e implied by the\n direct bytestring insertion.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edefaultMaximalCopySize\u003c/a\u003e\u003c/code\u003e = 2 * \u003ccode\u003e\u003ca\u003edefaultMinimalBufferSize\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "defaultMaximalCopySize",
           "package": "blaze-builder",
@@ -3527,6 +3778,7 @@
         "index": {
           "description": "The maximal number of bytes for that copying is cheaper than direct insertion into the output stream This takes into account the fragmentation that may occur in the output buffer due to the early flush implied by the direct bytestring insertion defaultMaximalCopySize defaultMinimalBufferSize",
           "hierarchy": "Blaze ByteString Builder Internal",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "defaultMaximalCopySize",
           "package": "blaze-builder",
@@ -3541,6 +3793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe minimal length (~4kb) a buffer must have before filling it and\n outputting it as a chunk of the output stream.\n\u003c/p\u003e\u003cp\u003eThis size determines when a buffer is spilled after a \u003ccode\u003e\u003ca\u003eflush\u003c/a\u003e\u003c/code\u003e or a direct\n bytestring insertion. It is also the size of the first chunk generated by\n \u003ccode\u003e\u003ca\u003etoLazyByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "defaultMinimalBufferSize",
           "package": "blaze-builder",
@@ -3551,6 +3804,7 @@
         "index": {
           "description": "The minimal length kb buffer must have before filling it and outputting it as chunk of the output stream This size determines when buffer is spilled after flush or direct bytestring insertion It is also the size of the first chunk generated by toLazyByteString",
           "hierarchy": "Blaze ByteString Builder Internal",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Internal",
           "name": "defaultMinimalBufferSize",
           "package": "blaze-builder",
@@ -3749,6 +4003,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eWrite\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es for serializing words.\n\u003c/p\u003e\u003cp\u003eNote that for serializing a three tuple \u003ccode\u003e(x,y,z)\u003c/code\u003e of bytes (or other word\n values) you should use the expression\n\u003c/p\u003e\u003cpre\u003e fromWrite $ writeWord8 x `mappend` writeWord8 y `mappend` writeWord z\n\u003c/pre\u003e\u003cp\u003einstead of\n\u003c/p\u003e\u003cpre\u003e fromWord8 x `mappend` fromWord8 y `mappend` fromWord z\n\u003c/pre\u003e\u003cp\u003eThe first expression will result in a single atomic write of three bytes,\n while the second expression will check for each byte, if there is free space\n left in the output buffer. Coalescing these checks can improve performance\n quite a bit, as long as you use it sensibly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "Word",
           "package": "blaze-builder",
@@ -3758,6 +4013,7 @@
         "index": {
           "description": "Write and Builder for serializing words Note that for serializing three tuple of bytes or other word values you should use the expression fromWrite writeWord8 mappend writeWord8 mappend writeWord instead of fromWord8 mappend fromWord8 mappend fromWord The first expression will result in single atomic write of three bytes while the second expression will check for each byte if there is free space left in the output buffer Coalescing these checks can improve performance quite bit as long as you use it sensibly",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "Word",
           "package": "blaze-builder",
@@ -3772,6 +4028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord16be",
           "package": "blaze-builder",
@@ -3782,6 +4039,7 @@
         "index": {
           "description": "Serialize Word16 in big endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord16be",
           "normalized": "Word-\u003eBuilder",
@@ -3798,6 +4056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord16host",
           "package": "blaze-builder",
@@ -3808,6 +4067,7 @@
         "index": {
           "description": "Write Word16 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord16host",
           "normalized": "Word-\u003eBuilder",
@@ -3824,6 +4084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord16le",
           "package": "blaze-builder",
@@ -3834,6 +4095,7 @@
         "index": {
           "description": "Serialize Word16 in little endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord16le",
           "normalized": "Word-\u003eBuilder",
@@ -3850,6 +4112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003es in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord16sbe",
           "package": "blaze-builder",
@@ -3860,6 +4123,7 @@
         "index": {
           "description": "Serialize list of Word16 in big endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord16sbe",
           "normalized": "[Word]-\u003eBuilder",
@@ -3876,6 +4140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a list of \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003es in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord16shost",
           "package": "blaze-builder",
@@ -3886,6 +4151,7 @@
         "index": {
           "description": "Write list of Word16 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord16shost",
           "normalized": "[Word]-\u003eBuilder",
@@ -3902,6 +4168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003es in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord16sle",
           "package": "blaze-builder",
@@ -3912,6 +4179,7 @@
         "index": {
           "description": "Serialize list of Word16 in little endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord16sle",
           "normalized": "[Word]-\u003eBuilder",
@@ -3928,6 +4196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord32be",
           "package": "blaze-builder",
@@ -3938,6 +4207,7 @@
         "index": {
           "description": "Serialize Word32 in big endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord32be",
           "normalized": "Word-\u003eBuilder",
@@ -3954,6 +4224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord32host",
           "package": "blaze-builder",
@@ -3964,6 +4235,7 @@
         "index": {
           "description": "Write Word32 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord32host",
           "normalized": "Word-\u003eBuilder",
@@ -3980,6 +4252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord32le",
           "package": "blaze-builder",
@@ -3990,6 +4263,7 @@
         "index": {
           "description": "Serialize Word32 in little endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord32le",
           "normalized": "Word-\u003eBuilder",
@@ -4006,6 +4280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003es in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord32sbe",
           "package": "blaze-builder",
@@ -4016,6 +4291,7 @@
         "index": {
           "description": "Serialize list of Word32 in big endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord32sbe",
           "normalized": "[Word]-\u003eBuilder",
@@ -4032,6 +4308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a list of \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003es in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord32shost",
           "package": "blaze-builder",
@@ -4042,6 +4319,7 @@
         "index": {
           "description": "Write list of Word32 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord32shost",
           "normalized": "[Word]-\u003eBuilder",
@@ -4058,6 +4336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003es in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord32sle",
           "package": "blaze-builder",
@@ -4068,6 +4347,7 @@
         "index": {
           "description": "Serialize list of Word32 in little endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord32sle",
           "normalized": "[Word]-\u003eBuilder",
@@ -4084,6 +4364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord64be",
           "package": "blaze-builder",
@@ -4094,6 +4375,7 @@
         "index": {
           "description": "Serialize Word64 in big endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord64be",
           "normalized": "Word-\u003eBuilder",
@@ -4110,6 +4392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord64host",
           "package": "blaze-builder",
@@ -4120,6 +4403,7 @@
         "index": {
           "description": "Write Word64 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord64host",
           "normalized": "Word-\u003eBuilder",
@@ -4136,6 +4420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord64le",
           "package": "blaze-builder",
@@ -4146,6 +4431,7 @@
         "index": {
           "description": "Serialize Word64 in little endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord64le",
           "normalized": "Word-\u003eBuilder",
@@ -4162,6 +4448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003es in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord64sbe",
           "package": "blaze-builder",
@@ -4172,6 +4459,7 @@
         "index": {
           "description": "Serialize list of Word64 in big endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord64sbe",
           "normalized": "[Word]-\u003eBuilder",
@@ -4188,6 +4476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a list of \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003es in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord64shost",
           "package": "blaze-builder",
@@ -4198,6 +4487,7 @@
         "index": {
           "description": "Write list of Word64 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord64shost",
           "normalized": "[Word]-\u003eBuilder",
@@ -4214,6 +4504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003es in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord64sle",
           "package": "blaze-builder",
@@ -4224,6 +4515,7 @@
         "index": {
           "description": "Serialize list of Word64 in little endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord64sle",
           "normalized": "[Word]-\u003eBuilder",
@@ -4240,6 +4532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a single byte.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord8",
           "package": "blaze-builder",
@@ -4250,6 +4543,7 @@
         "index": {
           "description": "Serialize single byte",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord8",
           "normalized": "Word-\u003eBuilder",
@@ -4266,6 +4560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord8s",
           "package": "blaze-builder",
@@ -4276,6 +4571,7 @@
         "index": {
           "description": "Serialize list of bytes",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWord8s",
           "normalized": "[Word]-\u003eBuilder",
@@ -4292,6 +4588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a single native machine \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e is serialized in host\n order, host endian form, for the machine you're on. On a 64 bit machine the\n \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e is an 8 byte value, on a 32 bit machine, 4 bytes. Values written this\n way are not portable to different endian or word sized machines, without\n conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWordhost",
           "package": "blaze-builder",
@@ -4302,6 +4599,7 @@
         "index": {
           "description": "Serialize single native machine Word The Word is serialized in host order host endian form for the machine you re on On bit machine the Word is an byte value on bit machine bytes Values written this way are not portable to different endian or word sized machines without conversion",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWordhost",
           "normalized": "Word-\u003eBuilder",
@@ -4318,6 +4616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003es.\n See \u003ccode\u003e\u003ca\u003efromWordhost\u003c/a\u003e\u003c/code\u003e for usage considerations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWordshost",
           "package": "blaze-builder",
@@ -4328,6 +4627,7 @@
         "index": {
           "description": "Serialize list of Word See fromWordhost for usage considerations",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "fromWordshost",
           "normalized": "[Word]-\u003eBuilder",
@@ -4344,6 +4644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord16be",
           "package": "blaze-builder",
@@ -4354,6 +4655,7 @@
         "index": {
           "description": "Write Word16 in big endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord16be",
           "normalized": "Word-\u003eWrite",
@@ -4370,6 +4672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord16host",
           "package": "blaze-builder",
@@ -4380,6 +4683,7 @@
         "index": {
           "description": "Write Word16 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord16host",
           "normalized": "Word-\u003eWrite",
@@ -4396,6 +4700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord16le",
           "package": "blaze-builder",
@@ -4406,6 +4711,7 @@
         "index": {
           "description": "Write Word16 in little endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord16le",
           "normalized": "Word-\u003eWrite",
@@ -4422,6 +4728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord32be",
           "package": "blaze-builder",
@@ -4432,6 +4739,7 @@
         "index": {
           "description": "Write Word32 in big endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord32be",
           "normalized": "Word-\u003eWrite",
@@ -4448,6 +4756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord32host",
           "package": "blaze-builder",
@@ -4458,6 +4767,7 @@
         "index": {
           "description": "Write Word32 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord32host",
           "normalized": "Word-\u003eWrite",
@@ -4474,6 +4784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord32le",
           "package": "blaze-builder",
@@ -4484,6 +4795,7 @@
         "index": {
           "description": "Write Word32 in little endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord32le",
           "normalized": "Word-\u003eWrite",
@@ -4500,6 +4812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord64be",
           "package": "blaze-builder",
@@ -4510,6 +4823,7 @@
         "index": {
           "description": "Write Word64 in big endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord64be",
           "normalized": "Word-\u003eWrite",
@@ -4526,6 +4840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord64host",
           "package": "blaze-builder",
@@ -4536,6 +4851,7 @@
         "index": {
           "description": "Write Word64 in native host order and host endianness",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord64host",
           "normalized": "Word-\u003eWrite",
@@ -4552,6 +4868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord64le",
           "package": "blaze-builder",
@@ -4562,6 +4879,7 @@
         "index": {
           "description": "Write Word64 in little endian format",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord64le",
           "normalized": "Word-\u003eWrite",
@@ -4578,6 +4896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a single byte.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord8",
           "package": "blaze-builder",
@@ -4588,6 +4907,7 @@
         "index": {
           "description": "Write single byte",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWord8",
           "normalized": "Word-\u003eWrite",
@@ -4604,6 +4924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a single native machine \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e is written in host order,\n host endian form, for the machine you're on. On a 64 bit machine the \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e\n is an 8 byte value, on a 32 bit machine, 4 bytes. Values written this way\n are not portable to different endian or word sized machines, without\n conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWordhost",
           "package": "blaze-builder",
@@ -4614,6 +4935,7 @@
         "index": {
           "description": "Write single native machine Word The Word is written in host order host endian form for the machine you re on On bit machine the Word is an byte value on bit machine bytes Values written this way are not portable to different endian or word sized machines without conversion",
           "hierarchy": "Blaze ByteString Builder Word",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder.Word",
           "name": "writeWordhost",
           "normalized": "Word-\u003eWrite",
@@ -4630,6 +4952,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eBlaze.ByteString.Builder\u003c/a\u003e is the main module, which you should import as a user\n of the \u003ccode\u003eblaze-builder\u003c/code\u003e library.\n\u003c/p\u003e\u003cpre\u003e import Blaze.ByteString.Builder\n\u003c/pre\u003e\u003cp\u003eIt provides you with a type \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that allows to efficiently construct\n lazy bytestrings with a large average chunk size.\n\u003c/p\u003e\u003cp\u003eIntuitively, a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e denotes the construction of a part of a lazy\n bytestring. Builders can either be created using one of the primitive\n combinators in \u003ca\u003eBlaze.ByteString.Builder.Write\u003c/a\u003e or by using one of the predefined\n combinators for standard Haskell values (see the exposed modules of this\n package).  Concatenation of builders is done using \u003ccode\u003emappend\u003c/code\u003e from the\n \u003ccode\u003eMonoid\u003c/code\u003e typeclass.\n\u003c/p\u003e\u003cp\u003eHere is a small example that serializes a list of strings using the UTF-8\n encoding.\n\u003c/p\u003e\u003cpre\u003e import \u003ca\u003eBlaze.ByteString.Builder.Char.Utf8\u003c/a\u003e\u003c/pre\u003e\u003cpre\u003e strings :: [String]\n strings = replicate 10000 \"Hello there!\"\n\u003c/pre\u003e\u003cp\u003eThe function \u003ccode\u003e\u003ccode\u003efromString\u003c/code\u003e\u003c/code\u003e creates a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e denoting the UTF-8 encoded\n argument. Hence, UTF-8 encoding and concatenating all \u003ccode\u003estrings\u003c/code\u003e can be done\n follows.\n\u003c/p\u003e\u003cpre\u003e concatenation :: Builder\n concatenation = mconcat $ map fromString strings\n\u003c/pre\u003e\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003etoLazyByteString\u003c/a\u003e\u003c/code\u003e  can be used to execute a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e and\n obtain the resulting lazy bytestring.\n\u003c/p\u003e\u003cpre\u003e result :: L.ByteString\n result = toLazyByteString concatenation\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003eresult\u003c/code\u003e is a lazy bytestring containing 10000 repetitions of the string\n \u003ccode\u003e\"Hello there!\"\u003c/code\u003e encoded using UTF-8. The corresponding 120000 bytes are\n distributed among three chunks of 32kb and a last chunk of 6kb.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eA note on history.\u003c/em\u003e This serialization library was inspired by the\n \u003ccode\u003eData.Binary.Builder\u003c/code\u003e module provided by the \u003ccode\u003ebinary\u003c/code\u003e package. It was\n originally developed with the specific needs of the \u003ccode\u003eblaze-html\u003c/code\u003e package in\n mind. Since then it has been restructured to serve as a drop-in replacement\n for \u003ccode\u003eData.Binary.Builder\u003c/code\u003e, which it improves upon both in speed as well as\n expressivity.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder",
           "name": "Builder",
           "package": "blaze-builder",
@@ -4639,6 +4962,7 @@
         "index": {
           "description": "Blaze.ByteString.Builder is the main module which you should import as user of the blaze-builder library import Blaze.ByteString.Builder It provides you with type Builder that allows to efficiently construct lazy bytestrings with large average chunk size Intuitively Builder denotes the construction of part of lazy bytestring Builders can either be created using one of the primitive combinators in Blaze.ByteString.Builder.Write or by using one of the predefined combinators for standard Haskell values see the exposed modules of this package Concatenation of builders is done using mappend from the Monoid typeclass Here is small example that serializes list of strings using the UTF-8 encoding import Blaze.ByteString.Builder.Char.Utf8 strings String strings replicate Hello there The function fromString creates Builder denoting the UTF-8 encoded argument Hence UTF-8 encoding and concatenating all strings can be done follows concatenation Builder concatenation mconcat map fromString strings The function toLazyByteString can be used to execute Builder and obtain the resulting lazy bytestring result L.ByteString result toLazyByteString concatenation The result is lazy bytestring containing repetitions of the string Hello there encoded using UTF-8 The corresponding bytes are distributed among three chunks of kb and last chunk of kb note on history This serialization library was inspired by the Data.Binary.Builder module provided by the binary package It was originally developed with the specific needs of the blaze-html package in mind Since then it has been restructured to serve as drop-in replacement for Data.Binary.Builder which it improves upon both in speed as well as expressivity",
           "hierarchy": "Blaze ByteString Builder",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder",
           "name": "Builder",
           "package": "blaze-builder",
@@ -4652,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder",
           "name": "Builder",
           "package": "blaze-builder",
@@ -4660,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "Blaze ByteString Builder",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder",
           "name": "Builder",
           "package": "blaze-builder",
@@ -4674,6 +5000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA write of a bounded number of bytes.\n\u003c/p\u003e\u003cp\u003eWhen defining a function \u003ccode\u003ewrite :: a -\u003e Write\u003c/code\u003e for some \u003ccode\u003ea\u003c/code\u003e, then it is\n important to ensure that the bound on the number of bytes written is\n data-independent. Formally,\n\u003c/p\u003e\u003cpre\u003e forall x y. getBound (write x) = getBound (write y)\u003c/pre\u003e\u003cp\u003eThe idea is that this data-independent bound is specified such that the\n compiler can optimize the check, if there are enough free bytes in the buffer,\n to a single subtraction between the pointer to the next free byte and the\n pointer to the end of the buffer with this constant bound of the maximal\n number of bytes to be written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:45 UTC 2014",
           "module": "Blaze.ByteString.Builder",
           "name": "Write",
           "package": "blaze-builder",
@@ -4683,6 +5010,7 @@
         "index": {
           "description": "write of bounded number of bytes When defining function write Write for some then it is important to ensure that the bound on the number of bytes written is data-independent Formally forall getBound write getBound write The idea is that this data-independent bound is specified such that the compiler can optimize the check if there are enough free bytes in the buffer to single subtraction between the pointer to the next free byte and the pointer to the end of the buffer with this constant bound of the maximal number of bytes to be written",
           "hierarchy": "Blaze ByteString Builder",
+          "indexed": "2014-03-11T17:23:45",
           "module": "Blaze.ByteString.Builder",
           "name": "Write",
           "package": "blaze-builder",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "feed"
+        "phrase": "feed",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDescription: Convert from Atom to XML\n\u003c/p\u003e\u003cp\u003eConvert from Atom to XML\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "Export",
           "package": "feed",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Description Convert from Atom to XML Convert from Atom to XML",
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "Export",
           "package": "feed",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "atomAttr",
           "package": "feed",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "atomAttr",
           "normalized": "String-\u003eString-\u003eAttr",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "atomLeaf",
           "package": "feed",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "atomLeaf",
           "normalized": "String-\u003eString-\u003eElement",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "atomNS",
           "package": "feed",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "atomNS",
           "package": "feed",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "atomName",
           "package": "feed",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "atomName",
           "normalized": "String-\u003eQName",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "atomNode",
           "package": "feed",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "atomNode",
           "normalized": "String-\u003e[Content]-\u003eElement",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "atomThreadAttr",
           "package": "feed",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "atomThreadAttr",
           "normalized": "String-\u003eString-\u003eAttr",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "atomThreadLeaf",
           "package": "feed",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "atomThreadLeaf",
           "normalized": "String-\u003eString-\u003eElement",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "atomThreadNS",
           "package": "feed",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "atomThreadNS",
           "package": "feed",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "atomThreadName",
           "package": "feed",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "atomThreadName",
           "normalized": "String-\u003eQName",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "atomThreadNode",
           "package": "feed",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "atomThreadNode",
           "normalized": "String-\u003e[Content]-\u003eElement",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "atom_prefix",
           "package": "feed",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "atom_prefix",
           "package": "feed",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "atom_thr_prefix",
           "package": "feed",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "atom_thr_prefix",
           "package": "feed",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "mb",
           "package": "feed",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "mb",
           "normalized": "(a-\u003eb)-\u003eMaybe a-\u003e[b]",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlAuthor",
           "package": "feed",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlAuthor",
           "normalized": "Person-\u003eElement",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlCategory",
           "package": "feed",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlCategory",
           "normalized": "Category-\u003eElement",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlContent",
           "package": "feed",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlContent",
           "normalized": "EntryContent-\u003eElement",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlContributor",
           "package": "feed",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlContributor",
           "normalized": "Person-\u003eElement",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlEntry",
           "package": "feed",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlEntry",
           "normalized": "Entry-\u003eElement",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlFeed",
           "package": "feed",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlFeed",
           "normalized": "Feed-\u003eElement",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlGenerator",
           "package": "feed",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlGenerator",
           "normalized": "Generator-\u003eElement",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlIcon",
           "package": "feed",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlIcon",
           "normalized": "URI-\u003eElement",
@@ -534,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlId",
           "package": "feed",
@@ -543,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlId",
           "normalized": "String-\u003eElement",
@@ -558,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlInReplyTo",
           "package": "feed",
@@ -567,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlInReplyTo",
           "normalized": "InReplyTo-\u003eElement",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlInReplyTotal",
           "package": "feed",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlInReplyTotal",
           "normalized": "InReplyTotal-\u003eElement",
@@ -606,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlLink",
           "package": "feed",
@@ -615,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlLink",
           "normalized": "Link-\u003eElement",
@@ -630,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlLogo",
           "package": "feed",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlLogo",
           "normalized": "URI-\u003eElement",
@@ -654,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlPerson",
           "package": "feed",
@@ -663,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlPerson",
           "normalized": "Person-\u003e[Content]",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlPublished",
           "package": "feed",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlPublished",
           "normalized": "Date-\u003eElement",
@@ -702,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlRights",
           "package": "feed",
@@ -711,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlRights",
           "normalized": "TextContent-\u003eElement",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlSource",
           "package": "feed",
@@ -735,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlSource",
           "normalized": "Source-\u003eElement",
@@ -750,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlSubtitle",
           "package": "feed",
@@ -759,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlSubtitle",
           "normalized": "TextContent-\u003eElement",
@@ -774,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlSummary",
           "package": "feed",
@@ -783,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlSummary",
           "normalized": "TextContent-\u003eElement",
@@ -798,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlTextContent",
           "package": "feed",
@@ -807,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlTextContent",
           "normalized": "String-\u003eTextContent-\u003eElement",
@@ -822,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlTitle",
           "package": "feed",
@@ -831,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlTitle",
           "normalized": "TextContent-\u003eElement",
@@ -846,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlUpdated",
           "package": "feed",
@@ -855,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlUpdated",
           "normalized": "Date-\u003eElement",
@@ -870,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlns_atom",
           "package": "feed",
@@ -879,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlns_atom",
           "package": "feed",
@@ -891,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlns_atom_thread",
           "package": "feed",
@@ -900,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Export",
           "name": "xmlns_atom_thread",
           "package": "feed",
@@ -913,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDescription: Convert from XML to Atom\n\u003c/p\u003e\u003cp\u003eConvert from XML to Atom\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "Import",
           "package": "feed",
@@ -922,6 +999,7 @@
         "index": {
           "description": "Description Convert from XML to Atom Convert from XML to Atom",
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "Import",
           "package": "feed",
@@ -935,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "children",
           "package": "feed",
@@ -944,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "children",
           "normalized": "Element-\u003e[Element]",
@@ -958,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "elementFeed",
           "package": "feed",
@@ -967,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "elementFeed",
           "normalized": "Element-\u003eMaybe Feed",
@@ -982,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pAttr",
           "package": "feed",
@@ -991,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pAttr",
           "normalized": "String-\u003eElement-\u003eMaybe String",
@@ -1006,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pAttrs",
           "package": "feed",
@@ -1015,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pAttrs",
           "normalized": "String-\u003eElement-\u003e[String]",
@@ -1030,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pCategory",
           "package": "feed",
@@ -1039,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pCategory",
           "normalized": "Element-\u003eMaybe Category",
@@ -1054,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pContent",
           "package": "feed",
@@ -1063,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pContent",
           "normalized": "Element-\u003eMaybe EntryContent",
@@ -1078,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pEntry",
           "package": "feed",
@@ -1087,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pEntry",
           "normalized": "Element-\u003eMaybe Entry",
@@ -1102,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pGenerator",
           "package": "feed",
@@ -1111,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pGenerator",
           "normalized": "Element-\u003eGenerator",
@@ -1126,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pInReplyTo",
           "package": "feed",
@@ -1135,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pInReplyTo",
           "normalized": "[Element]-\u003eMaybe InReplyTo",
@@ -1150,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pInReplyTotal",
           "package": "feed",
@@ -1159,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pInReplyTotal",
           "normalized": "[Element]-\u003eMaybe InReplyTotal",
@@ -1174,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pLeaf",
           "package": "feed",
@@ -1183,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pLeaf",
           "normalized": "String-\u003e[Element]-\u003eMaybe String",
@@ -1198,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pLink",
           "package": "feed",
@@ -1207,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pLink",
           "normalized": "Element-\u003eMaybe Link",
@@ -1222,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pMany",
           "package": "feed",
@@ -1231,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pMany",
           "normalized": "String-\u003e(Element-\u003eMaybe a)-\u003e[Element]-\u003e[a]",
@@ -1246,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pNode",
           "package": "feed",
@@ -1255,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pNode",
           "normalized": "String-\u003e[Element]-\u003eMaybe Element",
@@ -1270,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pNodes",
           "package": "feed",
@@ -1279,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pNodes",
           "normalized": "String-\u003e[Element]-\u003e[Element]",
@@ -1294,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pPerson",
           "package": "feed",
@@ -1303,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pPerson",
           "normalized": "Element-\u003eMaybe Person",
@@ -1318,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pQAttr",
           "package": "feed",
@@ -1327,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pQAttr",
           "normalized": "QName-\u003eElement-\u003eMaybe String",
@@ -1342,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pQLeaf",
           "package": "feed",
@@ -1351,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pQLeaf",
           "normalized": "QName-\u003e[Element]-\u003eMaybe String",
@@ -1366,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pQNode",
           "package": "feed",
@@ -1375,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pQNode",
           "normalized": "QName-\u003e[Element]-\u003eMaybe Element",
@@ -1390,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pQNodes",
           "package": "feed",
@@ -1399,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pQNodes",
           "normalized": "QName-\u003e[Element]-\u003e[Element]",
@@ -1414,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pSource",
           "package": "feed",
@@ -1423,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pSource",
           "normalized": "Element-\u003eSource",
@@ -1438,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Import",
           "name": "pTextContent",
           "package": "feed",
@@ -1447,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Import",
           "name": "pTextContent",
           "normalized": "String-\u003e[Element]-\u003eMaybe TextContent",
@@ -1462,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "Link",
           "package": "feed",
@@ -1470,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "Link",
           "package": "feed",
@@ -1484,6 +1608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtom feeds uses typed IRI links to represent\n information / metadata that is of interest to the\n consumers (software, in the main) of feeds. For instance,\n the edit link relation attached to an atom:entry element\n points to the IRI to use to update/edit it.\n\u003c/p\u003e\u003cp\u003eThe Atom standard encourages that such typed links to\n be registered with IANA if they have wider applicability,\n and the \u003ccode\u003e\u003ca\u003eLinkRelation\u003c/a\u003e\u003c/code\u003e data type encodes the currently\n registered link types (derived from:\n  http://www.iana.org/assignments/link-relations.html\n on 2007-10-28]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkRelation",
           "package": "feed",
@@ -1493,6 +1618,7 @@
         "index": {
           "description": "Atom feeds uses typed IRI links to represent information metadata that is of interest to the consumers software in the main of feeds For instance the edit link relation attached to an atom entry element points to the IRI to use to update edit it The Atom standard encourages that such typed links to be registered with IANA if they have wider applicability and the LinkRelation data type encodes the currently registered link types derived from http www.iana.org assignments link-relations.html on",
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkRelation",
           "package": "feed",
@@ -1506,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkAlternate",
           "package": "feed",
@@ -1515,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkAlternate",
           "package": "feed",
@@ -1528,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkCurrent",
           "package": "feed",
@@ -1537,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkCurrent",
           "package": "feed",
@@ -1550,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkEdit",
           "package": "feed",
@@ -1559,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkEdit",
           "package": "feed",
@@ -1572,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkEditMedia",
           "package": "feed",
@@ -1581,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkEditMedia",
           "package": "feed",
@@ -1594,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkEnclosure",
           "package": "feed",
@@ -1603,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkEnclosure",
           "package": "feed",
@@ -1616,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkFirst",
           "package": "feed",
@@ -1625,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkFirst",
           "package": "feed",
@@ -1638,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkLast",
           "package": "feed",
@@ -1647,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkLast",
           "package": "feed",
@@ -1660,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkLicense",
           "package": "feed",
@@ -1669,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkLicense",
           "package": "feed",
@@ -1682,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkNext",
           "package": "feed",
@@ -1691,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkNext",
           "package": "feed",
@@ -1704,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkNextArchive",
           "package": "feed",
@@ -1713,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkNextArchive",
           "package": "feed",
@@ -1726,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkOther",
           "package": "feed",
@@ -1735,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkOther",
           "package": "feed",
@@ -1748,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkPayment",
           "package": "feed",
@@ -1757,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkPayment",
           "package": "feed",
@@ -1770,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkPrevArchive",
           "package": "feed",
@@ -1779,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkPrevArchive",
           "package": "feed",
@@ -1792,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkPrevious",
           "package": "feed",
@@ -1801,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkPrevious",
           "package": "feed",
@@ -1814,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkRelated",
           "package": "feed",
@@ -1823,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkRelated",
           "package": "feed",
@@ -1836,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkReplies",
           "package": "feed",
@@ -1845,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkReplies",
           "package": "feed",
@@ -1858,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkSelf",
           "package": "feed",
@@ -1867,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkSelf",
           "package": "feed",
@@ -1880,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkVia",
           "package": "feed",
@@ -1889,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "LinkVia",
           "package": "feed",
@@ -1902,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "showLinkAttr",
           "package": "feed",
@@ -1911,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "showLinkAttr",
           "normalized": "LinkRelation-\u003eString-\u003eString",
@@ -1926,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Link",
           "name": "showLinkRelation",
           "package": "feed",
@@ -1935,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Link",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Link",
           "name": "showLinkRelation",
           "normalized": "LinkRelation-\u003eString",
@@ -1950,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "Validate",
           "package": "feed",
@@ -1958,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "Validate",
           "package": "feed",
@@ -1971,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "VTree",
           "package": "feed",
@@ -1979,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "VTree",
           "package": "feed",
@@ -1992,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "ValidatorResult",
           "package": "feed",
@@ -2000,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "ValidatorResult",
           "package": "feed",
@@ -2013,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "VLeaf",
           "package": "feed",
@@ -2022,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "VLeaf",
           "normalized": "VLeaf[a]",
@@ -2037,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "VNode",
           "package": "feed",
@@ -2046,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "VNode",
           "normalized": "VNode[a][VTree a]",
@@ -2061,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "advice",
           "package": "feed",
@@ -2070,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "advice",
           "normalized": "String-\u003eValidatorResult",
@@ -2084,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkAuthor",
           "package": "feed",
@@ -2093,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkAuthor",
           "normalized": "Element-\u003eValidatorResult",
@@ -2108,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkCat",
           "package": "feed",
@@ -2117,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkCat",
           "normalized": "Element-\u003eValidatorResult",
@@ -2132,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkCats",
           "package": "feed",
@@ -2141,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkCats",
           "normalized": "Element-\u003eValidatorResult",
@@ -2156,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkContent",
           "package": "feed",
@@ -2165,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkContent",
           "normalized": "Element-\u003eValidatorResult",
@@ -2180,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkContentLink",
           "package": "feed",
@@ -2189,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkContentLink",
           "normalized": "Element-\u003eValidatorResult",
@@ -2204,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkContents",
           "package": "feed",
@@ -2213,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkContents",
           "normalized": "Element-\u003eValidatorResult",
@@ -2228,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkContributor",
           "package": "feed",
@@ -2237,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkContributor",
           "normalized": "Element-\u003eValidatorResult",
@@ -2252,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkEmail",
           "package": "feed",
@@ -2261,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkEmail",
           "normalized": "Element-\u003eValidatorResult",
@@ -2276,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkEntryAuthor",
           "package": "feed",
@@ -2285,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkEntryAuthor",
           "normalized": "Element-\u003eValidatorResult",
@@ -2300,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkId",
           "package": "feed",
@@ -2309,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkId",
           "normalized": "Element-\u003eValidatorResult",
@@ -2324,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkLinks",
           "package": "feed",
@@ -2333,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkLinks",
           "normalized": "Element-\u003eValidatorResult",
@@ -2348,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkName",
           "package": "feed",
@@ -2357,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkName",
           "normalized": "Element-\u003eValidatorResult",
@@ -2372,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkPerson",
           "package": "feed",
@@ -2381,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkPerson",
           "normalized": "Element-\u003eValidatorResult",
@@ -2396,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkPublished",
           "package": "feed",
@@ -2405,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkPublished",
           "normalized": "Element-\u003eValidatorResult",
@@ -2420,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkRights",
           "package": "feed",
@@ -2429,6 +2636,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkRights",
           "normalized": "Element-\u003eValidatorResult",
@@ -2444,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkSource",
           "package": "feed",
@@ -2453,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkSource",
           "normalized": "Element-\u003eValidatorResult",
@@ -2468,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkSummary",
           "package": "feed",
@@ -2477,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkSummary",
           "normalized": "Element-\u003eValidatorResult",
@@ -2492,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkTerm",
           "package": "feed",
@@ -2501,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkTerm",
           "normalized": "Element-\u003eValidatorResult",
@@ -2516,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkTitle",
           "package": "feed",
@@ -2525,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkTitle",
           "normalized": "Element-\u003eValidatorResult",
@@ -2540,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkUpdated",
           "package": "feed",
@@ -2549,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkUpdated",
           "normalized": "Element-\u003eValidatorResult",
@@ -2564,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkUri",
           "package": "feed",
@@ -2573,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "checkUri",
           "normalized": "Element-\u003eValidatorResult",
@@ -2588,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "demand",
           "package": "feed",
@@ -2597,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "demand",
           "normalized": "String-\u003eValidatorResult",
@@ -2611,6 +2833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "flattenT",
           "package": "feed",
@@ -2620,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "flattenT",
           "normalized": "VTree a-\u003e[a]",
@@ -2634,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "mkTree",
           "package": "feed",
@@ -2643,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "mkTree",
           "normalized": "[(Bool,String)]-\u003e[ValidatorResult]-\u003eValidatorResult",
@@ -2658,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "valid",
           "package": "feed",
@@ -2667,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "valid",
           "package": "feed",
@@ -2679,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed.Validate",
           "name": "validateEntry",
           "package": "feed",
@@ -2688,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed Validate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed.Validate",
           "name": "validateEntry",
           "normalized": "Element-\u003eValidatorResult",
@@ -2703,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Feed",
           "package": "feed",
@@ -2711,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Feed",
           "package": "feed",
@@ -2724,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Category",
           "package": "feed",
@@ -2732,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Category",
           "package": "feed",
@@ -2745,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Date",
           "package": "feed",
@@ -2753,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Date",
           "package": "feed",
@@ -2766,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Entry",
           "package": "feed",
@@ -2774,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Entry",
           "package": "feed",
@@ -2787,6 +3025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "EntryContent",
           "package": "feed",
@@ -2795,6 +3034,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "EntryContent",
           "package": "feed",
@@ -2808,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Feed",
           "package": "feed",
@@ -2816,6 +3057,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Feed",
           "package": "feed",
@@ -2829,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Generator",
           "package": "feed",
@@ -2837,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Generator",
           "package": "feed",
@@ -2850,6 +3094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "InReplyTo",
           "package": "feed",
@@ -2858,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "InReplyTo",
           "package": "feed",
@@ -2871,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "InReplyTotal",
           "package": "feed",
@@ -2879,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "InReplyTotal",
           "package": "feed",
@@ -2892,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Link",
           "package": "feed",
@@ -2900,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Link",
           "package": "feed",
@@ -2913,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "MediaType",
           "package": "feed",
@@ -2921,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "MediaType",
           "package": "feed",
@@ -2934,6 +3186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "NCName",
           "package": "feed",
@@ -2942,6 +3195,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "NCName",
           "package": "feed",
@@ -2955,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Person",
           "package": "feed",
@@ -2963,6 +3218,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Person",
           "package": "feed",
@@ -2976,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Source",
           "package": "feed",
@@ -2984,6 +3241,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Source",
           "package": "feed",
@@ -2997,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "TextContent",
           "package": "feed",
@@ -3005,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "TextContent",
           "package": "feed",
@@ -3018,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "URI",
           "package": "feed",
@@ -3026,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "URI",
           "package": "feed",
@@ -3039,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Category",
           "package": "feed",
@@ -3048,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Category",
           "package": "feed",
@@ -3061,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Entry",
           "package": "feed",
@@ -3070,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Entry",
           "package": "feed",
@@ -3083,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "ExternalContent",
           "package": "feed",
@@ -3092,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "ExternalContent",
           "package": "feed",
@@ -3105,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Feed",
           "package": "feed",
@@ -3114,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Feed",
           "package": "feed",
@@ -3127,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Generator",
           "package": "feed",
@@ -3136,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Generator",
           "package": "feed",
@@ -3149,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "HTMLContent",
           "package": "feed",
@@ -3158,6 +3431,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "HTMLContent",
           "package": "feed",
@@ -3171,6 +3445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "HTMLString",
           "package": "feed",
@@ -3180,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "HTMLString",
           "package": "feed",
@@ -3193,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "InReplyTo",
           "package": "feed",
@@ -3202,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "InReplyTo",
           "package": "feed",
@@ -3215,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "InReplyTotal",
           "package": "feed",
@@ -3224,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "InReplyTotal",
           "package": "feed",
@@ -3237,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Link",
           "package": "feed",
@@ -3246,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Link",
           "package": "feed",
@@ -3259,6 +3541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "MixedContent",
           "package": "feed",
@@ -3268,6 +3551,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "MixedContent",
           "normalized": "MixedContent(Maybe String)[Content]",
@@ -3283,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Person",
           "package": "feed",
@@ -3292,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Person",
           "package": "feed",
@@ -3305,6 +3591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "Source",
           "package": "feed",
@@ -3314,6 +3601,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "Source",
           "package": "feed",
@@ -3327,6 +3615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "TextContent",
           "package": "feed",
@@ -3336,6 +3625,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "TextContent",
           "package": "feed",
@@ -3349,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "TextString",
           "package": "feed",
@@ -3358,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "TextString",
           "package": "feed",
@@ -3371,6 +3663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "XHTMLContent",
           "package": "feed",
@@ -3380,6 +3673,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "XHTMLContent",
           "package": "feed",
@@ -3393,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "XHTMLString",
           "package": "feed",
@@ -3402,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "XHTMLString",
           "package": "feed",
@@ -3416,6 +3712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehuman-readable label of the category\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "catLabel",
           "package": "feed",
@@ -3426,6 +3723,7 @@
         "index": {
           "description": "human-readable label of the category",
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "catLabel",
           "package": "feed",
@@ -3440,6 +3738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunknown elements, for extensibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "catOther",
           "package": "feed",
@@ -3450,6 +3749,7 @@
         "index": {
           "description": "unknown elements for extensibility",
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "catOther",
           "normalized": "[Element]",
@@ -3466,6 +3766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional URL for identifying the categorization scheme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "catScheme",
           "package": "feed",
@@ -3476,6 +3777,7 @@
         "index": {
           "description": "optional URL for identifying the categorization scheme",
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "catScheme",
           "package": "feed",
@@ -3490,6 +3792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe tag/term of the category.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "catTerm",
           "package": "feed",
@@ -3500,6 +3803,7 @@
         "index": {
           "description": "the tag term of the category",
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "catTerm",
           "package": "feed",
@@ -3513,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryAttrs",
           "package": "feed",
@@ -3522,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryAttrs",
           "normalized": "[Attr]",
@@ -3537,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryAuthors",
           "package": "feed",
@@ -3546,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryAuthors",
           "normalized": "[Person]",
@@ -3561,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryCategories",
           "package": "feed",
@@ -3570,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryCategories",
           "normalized": "[Category]",
@@ -3585,6 +3895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryContent",
           "package": "feed",
@@ -3594,6 +3905,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryContent",
           "package": "feed",
@@ -3607,6 +3919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryContributor",
           "package": "feed",
@@ -3616,6 +3929,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryContributor",
           "normalized": "[Person]",
@@ -3631,6 +3945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryId",
           "package": "feed",
@@ -3640,6 +3955,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryId",
           "package": "feed",
@@ -3653,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryInReplyTo",
           "package": "feed",
@@ -3662,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryInReplyTo",
           "package": "feed",
@@ -3675,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryInReplyTotal",
           "package": "feed",
@@ -3684,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryInReplyTotal",
           "package": "feed",
@@ -3697,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryLinks",
           "package": "feed",
@@ -3706,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryLinks",
           "normalized": "[Link]",
@@ -3721,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryOther",
           "package": "feed",
@@ -3730,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryOther",
           "normalized": "[Element]",
@@ -3745,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryPublished",
           "package": "feed",
@@ -3754,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryPublished",
           "package": "feed",
@@ -3767,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryRights",
           "package": "feed",
@@ -3776,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryRights",
           "package": "feed",
@@ -3789,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entrySource",
           "package": "feed",
@@ -3798,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entrySource",
           "package": "feed",
@@ -3811,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entrySummary",
           "package": "feed",
@@ -3820,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entrySummary",
           "package": "feed",
@@ -3833,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryTitle",
           "package": "feed",
@@ -3842,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryTitle",
           "package": "feed",
@@ -3855,6 +4189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "entryUpdated",
           "package": "feed",
@@ -3864,6 +4199,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "entryUpdated",
           "package": "feed",
@@ -3877,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedAttrs",
           "package": "feed",
@@ -3886,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedAttrs",
           "normalized": "[Attr]",
@@ -3901,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedAuthors",
           "package": "feed",
@@ -3910,6 +4249,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedAuthors",
           "normalized": "[Person]",
@@ -3925,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedCategories",
           "package": "feed",
@@ -3934,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedCategories",
           "normalized": "[Category]",
@@ -3949,6 +4291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedContributors",
           "package": "feed",
@@ -3958,6 +4301,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedContributors",
           "normalized": "[Person]",
@@ -3973,6 +4317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedEntries",
           "package": "feed",
@@ -3982,6 +4327,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedEntries",
           "normalized": "[Entry]",
@@ -3997,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedGenerator",
           "package": "feed",
@@ -4006,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedGenerator",
           "package": "feed",
@@ -4019,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedIcon",
           "package": "feed",
@@ -4028,6 +4377,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedIcon",
           "package": "feed",
@@ -4041,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedId",
           "package": "feed",
@@ -4050,6 +4401,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedId",
           "package": "feed",
@@ -4063,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedLinks",
           "package": "feed",
@@ -4072,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedLinks",
           "normalized": "[Link]",
@@ -4087,6 +4441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedLogo",
           "package": "feed",
@@ -4096,6 +4451,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedLogo",
           "package": "feed",
@@ -4109,6 +4465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedOther",
           "package": "feed",
@@ -4118,6 +4475,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedOther",
           "normalized": "[Element]",
@@ -4133,6 +4491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedRights",
           "package": "feed",
@@ -4142,6 +4501,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedRights",
           "package": "feed",
@@ -4155,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedSubtitle",
           "package": "feed",
@@ -4164,6 +4525,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedSubtitle",
           "package": "feed",
@@ -4177,6 +4539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedTitle",
           "package": "feed",
@@ -4186,6 +4549,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedTitle",
           "package": "feed",
@@ -4199,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "feedUpdated",
           "package": "feed",
@@ -4208,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "feedUpdated",
           "package": "feed",
@@ -4221,6 +4587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "genText",
           "package": "feed",
@@ -4230,6 +4597,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "genText",
           "package": "feed",
@@ -4243,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "genURI",
           "package": "feed",
@@ -4252,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "genURI",
           "package": "feed",
@@ -4265,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "genVersion",
           "package": "feed",
@@ -4274,6 +4645,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "genVersion",
           "package": "feed",
@@ -4287,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "linkAttrs",
           "package": "feed",
@@ -4296,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "linkAttrs",
           "normalized": "[Attr]",
@@ -4311,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "linkHref",
           "package": "feed",
@@ -4320,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "linkHref",
           "package": "feed",
@@ -4333,6 +4709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "linkHrefLang",
           "package": "feed",
@@ -4342,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "linkHrefLang",
           "package": "feed",
@@ -4355,6 +4733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "linkLength",
           "package": "feed",
@@ -4364,6 +4743,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "linkLength",
           "package": "feed",
@@ -4377,6 +4757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "linkOther",
           "package": "feed",
@@ -4386,6 +4767,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "linkOther",
           "normalized": "[Element]",
@@ -4401,6 +4783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "linkRel",
           "package": "feed",
@@ -4410,6 +4793,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "linkRel",
           "package": "feed",
@@ -4423,6 +4807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "linkTitle",
           "package": "feed",
@@ -4432,6 +4817,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "linkTitle",
           "package": "feed",
@@ -4445,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "linkType",
           "package": "feed",
@@ -4454,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "linkType",
           "package": "feed",
@@ -4467,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "newCategory",
           "package": "feed",
@@ -4475,6 +4864,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "newCategory",
           "normalized": "String-\u003eCategory",
@@ -4490,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "nullEntry",
           "package": "feed",
@@ -4498,6 +4889,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "nullEntry",
           "normalized": "String-\u003eTextContent-\u003eDate-\u003eEntry",
@@ -4513,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "nullFeed",
           "package": "feed",
@@ -4521,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "nullFeed",
           "normalized": "String-\u003eTextContent-\u003eDate-\u003eFeed",
@@ -4536,6 +4930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "nullGenerator",
           "package": "feed",
@@ -4544,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "nullGenerator",
           "normalized": "String-\u003eGenerator",
@@ -4559,6 +4955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "nullLink",
           "package": "feed",
@@ -4567,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "nullLink",
           "normalized": "URI-\u003eLink",
@@ -4582,6 +4980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "nullPerson",
           "package": "feed",
@@ -4591,6 +4990,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "nullPerson",
           "package": "feed",
@@ -4604,6 +5004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "nullSource",
           "package": "feed",
@@ -4613,6 +5014,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "nullSource",
           "package": "feed",
@@ -4626,6 +5028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "personEmail",
           "package": "feed",
@@ -4635,6 +5038,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "personEmail",
           "package": "feed",
@@ -4648,6 +5052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "personName",
           "package": "feed",
@@ -4657,6 +5062,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "personName",
           "package": "feed",
@@ -4670,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "personOther",
           "package": "feed",
@@ -4679,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "personOther",
           "normalized": "[Element]",
@@ -4694,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "personURI",
           "package": "feed",
@@ -4703,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "personURI",
           "package": "feed",
@@ -4716,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "replyToContent",
           "package": "feed",
@@ -4725,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "replyToContent",
           "normalized": "[Content]",
@@ -4740,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "replyToHRef",
           "package": "feed",
@@ -4749,6 +5162,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "replyToHRef",
           "package": "feed",
@@ -4762,6 +5176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "replyToOther",
           "package": "feed",
@@ -4771,6 +5186,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "replyToOther",
           "normalized": "[Attr]",
@@ -4786,6 +5202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "replyToRef",
           "package": "feed",
@@ -4795,6 +5212,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "replyToRef",
           "package": "feed",
@@ -4808,6 +5226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "replyToSource",
           "package": "feed",
@@ -4817,6 +5236,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "replyToSource",
           "package": "feed",
@@ -4830,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "replyToTotal",
           "package": "feed",
@@ -4839,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "replyToTotal",
           "package": "feed",
@@ -4852,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "replyToTotalOther",
           "package": "feed",
@@ -4861,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "replyToTotalOther",
           "normalized": "[Attr]",
@@ -4876,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "replyToType",
           "package": "feed",
@@ -4885,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "replyToType",
           "package": "feed",
@@ -4898,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "sourceAuthors",
           "package": "feed",
@@ -4907,6 +5334,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "sourceAuthors",
           "normalized": "[Person]",
@@ -4922,6 +5350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "sourceCategories",
           "package": "feed",
@@ -4931,6 +5360,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "sourceCategories",
           "normalized": "[Category]",
@@ -4946,6 +5376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "sourceGenerator",
           "package": "feed",
@@ -4955,6 +5386,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "sourceGenerator",
           "package": "feed",
@@ -4968,6 +5400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "sourceIcon",
           "package": "feed",
@@ -4977,6 +5410,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "sourceIcon",
           "package": "feed",
@@ -4990,6 +5424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "sourceId",
           "package": "feed",
@@ -4999,6 +5434,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "sourceId",
           "package": "feed",
@@ -5012,6 +5448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "sourceLinks",
           "package": "feed",
@@ -5021,6 +5458,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "sourceLinks",
           "normalized": "[Link]",
@@ -5036,6 +5474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "sourceLogo",
           "package": "feed",
@@ -5045,6 +5484,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "sourceLogo",
           "package": "feed",
@@ -5058,6 +5498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "sourceOther",
           "package": "feed",
@@ -5067,6 +5508,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "sourceOther",
           "normalized": "[Element]",
@@ -5082,6 +5524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "sourceRights",
           "package": "feed",
@@ -5091,6 +5534,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "sourceRights",
           "package": "feed",
@@ -5104,6 +5548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "sourceSubtitle",
           "package": "feed",
@@ -5113,6 +5558,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "sourceSubtitle",
           "package": "feed",
@@ -5126,6 +5572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "sourceTitle",
           "package": "feed",
@@ -5135,6 +5582,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "sourceTitle",
           "package": "feed",
@@ -5148,6 +5596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "sourceUpdated",
           "package": "feed",
@@ -5157,6 +5606,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "sourceUpdated",
           "package": "feed",
@@ -5170,6 +5620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Feed",
           "name": "txtToString",
           "package": "feed",
@@ -5179,6 +5630,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Feed",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Feed",
           "name": "txtToString",
           "normalized": "TextContent-\u003eString",
@@ -5195,6 +5647,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDescription: Serializing APP types (as XML.)\n\u003c/p\u003e\u003cp\u003eSerializing Atom Publishing Protocol types as XML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "Export",
           "package": "feed",
@@ -5204,6 +5657,7 @@
         "index": {
           "description": "Description Serializing APP types as XML Serializing Atom Publishing Protocol types as XML",
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "Export",
           "package": "feed",
@@ -5217,6 +5671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "appNS",
           "package": "feed",
@@ -5226,6 +5681,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "appNS",
           "package": "feed",
@@ -5239,6 +5695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "appName",
           "package": "feed",
@@ -5248,6 +5705,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "appName",
           "normalized": "String-\u003eQName",
@@ -5263,6 +5721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "mkAttr",
           "package": "feed",
@@ -5272,6 +5731,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "mkAttr",
           "normalized": "String-\u003eString-\u003eAttr",
@@ -5287,6 +5747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "mkElem",
           "package": "feed",
@@ -5296,6 +5757,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "mkElem",
           "normalized": "QName-\u003e[Attr]-\u003e[Element]-\u003eElement",
@@ -5311,6 +5773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "mkLeaf",
           "package": "feed",
@@ -5320,6 +5783,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "mkLeaf",
           "normalized": "QName-\u003e[Attr]-\u003eString-\u003eElement",
@@ -5335,6 +5799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "mkQName",
           "package": "feed",
@@ -5344,6 +5809,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "mkQName",
           "normalized": "Maybe String-\u003eString-\u003eQName",
@@ -5359,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "showServiceDoc",
           "package": "feed",
@@ -5368,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "showServiceDoc",
           "normalized": "Service-\u003eString",
@@ -5383,6 +5851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "xmlAccept",
           "package": "feed",
@@ -5392,6 +5861,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "xmlAccept",
           "normalized": "Accept-\u003eElement",
@@ -5407,6 +5877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "xmlCategories",
           "package": "feed",
@@ -5416,6 +5887,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "xmlCategories",
           "normalized": "Categories-\u003eElement",
@@ -5431,6 +5903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "xmlCollection",
           "package": "feed",
@@ -5440,6 +5913,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "xmlCollection",
           "normalized": "Collection-\u003eElement",
@@ -5455,6 +5929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "xmlService",
           "package": "feed",
@@ -5464,6 +5939,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "xmlService",
           "normalized": "Service-\u003eElement",
@@ -5479,6 +5955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "xmlWorkspace",
           "package": "feed",
@@ -5488,6 +5965,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "xmlWorkspace",
           "normalized": "Workspace-\u003eElement",
@@ -5503,6 +5981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub.Export",
           "name": "xmlns_app",
           "package": "feed",
@@ -5512,6 +5991,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub.Export",
           "name": "xmlns_app",
           "package": "feed",
@@ -5525,6 +6005,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for the Atom Publishing Protocol (APP)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "Pub",
           "package": "feed",
@@ -5534,6 +6015,7 @@
         "index": {
           "description": "Types for the Atom Publishing Protocol APP",
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "Pub",
           "package": "feed",
@@ -5547,6 +6029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "Accept",
           "package": "feed",
@@ -5555,6 +6038,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "Accept",
           "package": "feed",
@@ -5568,6 +6052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "Categories",
           "package": "feed",
@@ -5576,6 +6061,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "Categories",
           "package": "feed",
@@ -5589,6 +6075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "Collection",
           "package": "feed",
@@ -5597,6 +6084,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "Collection",
           "package": "feed",
@@ -5610,6 +6098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "Service",
           "package": "feed",
@@ -5618,6 +6107,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "Service",
           "package": "feed",
@@ -5631,6 +6121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "Workspace",
           "package": "feed",
@@ -5639,6 +6130,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "Workspace",
           "package": "feed",
@@ -5652,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "Accept",
           "package": "feed",
@@ -5661,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "Accept",
           "package": "feed",
@@ -5674,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "Categories",
           "package": "feed",
@@ -5683,6 +6178,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "Categories",
           "normalized": "Categories(Maybe Bool)(Maybe URI)[Category]",
@@ -5698,6 +6194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "CategoriesExternal",
           "package": "feed",
@@ -5707,6 +6204,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "CategoriesExternal",
           "package": "feed",
@@ -5720,6 +6218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "Collection",
           "package": "feed",
@@ -5729,6 +6228,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "Collection",
           "package": "feed",
@@ -5742,6 +6242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "Service",
           "package": "feed",
@@ -5751,6 +6252,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "Service",
           "package": "feed",
@@ -5764,6 +6266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "Workspace",
           "package": "feed",
@@ -5773,6 +6276,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "Workspace",
           "package": "feed",
@@ -5786,6 +6290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "acceptType",
           "package": "feed",
@@ -5795,6 +6300,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "acceptType",
           "package": "feed",
@@ -5808,6 +6314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "collectionAccept",
           "package": "feed",
@@ -5817,6 +6324,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "collectionAccept",
           "normalized": "[Accept]",
@@ -5832,6 +6340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "collectionCats",
           "package": "feed",
@@ -5841,6 +6350,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "collectionCats",
           "normalized": "[Categories]",
@@ -5856,6 +6366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "collectionOther",
           "package": "feed",
@@ -5865,6 +6376,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "collectionOther",
           "normalized": "[Element]",
@@ -5880,6 +6392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "collectionTitle",
           "package": "feed",
@@ -5889,6 +6402,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "collectionTitle",
           "package": "feed",
@@ -5902,6 +6416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "collectionURI",
           "package": "feed",
@@ -5911,6 +6426,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "collectionURI",
           "package": "feed",
@@ -5924,6 +6440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "serviceOther",
           "package": "feed",
@@ -5933,6 +6450,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "serviceOther",
           "normalized": "[Element]",
@@ -5948,6 +6466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "serviceWorkspaces",
           "package": "feed",
@@ -5957,6 +6476,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "serviceWorkspaces",
           "normalized": "[Workspace]",
@@ -5972,6 +6492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "workspaceCols",
           "package": "feed",
@@ -5981,6 +6502,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "workspaceCols",
           "normalized": "[Collection]",
@@ -5996,6 +6518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "workspaceOther",
           "package": "feed",
@@ -6005,6 +6528,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "workspaceOther",
           "normalized": "[Element]",
@@ -6020,6 +6544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Atom.Pub",
           "name": "workspaceTitle",
           "package": "feed",
@@ -6029,6 +6554,7 @@
         },
         "index": {
           "hierarchy": "Text Atom Pub",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Atom.Pub",
           "name": "workspaceTitle",
           "package": "feed",
@@ -6043,6 +6569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresenting the DublinCore metadata elements in Haskell.\n For information on the Dublin Core Metadata Element Set,\n see: \u003ca\u003ehttp://dublincore.org/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "Types",
           "package": "feed",
@@ -6052,6 +6579,7 @@
         "index": {
           "description": "Representing the DublinCore metadata elements in Haskell For information on the Dublin Core Metadata Element Set see http dublincore.org",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "Types",
           "package": "feed",
@@ -6066,6 +6594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Dublin Core Metadata Element Set, all 15 of them (plus an extension constructor.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DCInfo",
           "package": "feed",
@@ -6075,6 +6604,7 @@
         "index": {
           "description": "The Dublin Core Metadata Element Set all of them plus an extension constructor",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DCInfo",
           "package": "feed",
@@ -6089,6 +6619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA DCItem pairs a specific element with its (string) value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DCItem",
           "package": "feed",
@@ -6098,6 +6629,7 @@
         "index": {
           "description": "DCItem pairs specific element with its string value",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DCItem",
           "package": "feed",
@@ -6111,6 +6643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DCItem",
           "package": "feed",
@@ -6120,6 +6653,7 @@
         },
         "index": {
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DCItem",
           "package": "feed",
@@ -6134,6 +6668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entity responsible for making contributions to the content of the resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Contributor",
           "package": "feed",
@@ -6144,6 +6679,7 @@
         "index": {
           "description": "An entity responsible for making contributions to the content of the resource",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Contributor",
           "package": "feed",
@@ -6158,6 +6694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe extent or scope of the content of the resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Coverage",
           "package": "feed",
@@ -6168,6 +6705,7 @@
         "index": {
           "description": "The extent or scope of the content of the resource",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Coverage",
           "package": "feed",
@@ -6182,6 +6720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entity primarily responsible for making the content of the resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Creator",
           "package": "feed",
@@ -6192,6 +6731,7 @@
         "index": {
           "description": "An entity primarily responsible for making the content of the resource",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Creator",
           "package": "feed",
@@ -6206,6 +6746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA date associated with an event in the life cycle of the resource (YYYY-MM-DD)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Date",
           "package": "feed",
@@ -6216,6 +6757,7 @@
         "index": {
           "description": "date associated with an event in the life cycle of the resource YYYY-MM-DD",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Date",
           "package": "feed",
@@ -6230,6 +6772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn account of the content of the resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Description",
           "package": "feed",
@@ -6240,6 +6783,7 @@
         "index": {
           "description": "An account of the content of the resource",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Description",
           "package": "feed",
@@ -6254,6 +6798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe physical or digital manifestation of the resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Format",
           "package": "feed",
@@ -6264,6 +6809,7 @@
         "index": {
           "description": "The physical or digital manifestation of the resource",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Format",
           "package": "feed",
@@ -6278,6 +6824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unambiguous reference to the resource within a given context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Identifier",
           "package": "feed",
@@ -6288,6 +6835,7 @@
         "index": {
           "description": "An unambiguous reference to the resource within given context",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Identifier",
           "package": "feed",
@@ -6302,6 +6850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA language of the intellectual content of the resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Language",
           "package": "feed",
@@ -6312,6 +6861,7 @@
         "index": {
           "description": "language of the intellectual content of the resource",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Language",
           "package": "feed",
@@ -6326,6 +6876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther; data type extension mechanism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Other",
           "package": "feed",
@@ -6336,6 +6887,7 @@
         "index": {
           "description": "Other data type extension mechanism",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Other",
           "package": "feed",
@@ -6350,6 +6902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entity responsible for making the resource available\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Publisher",
           "package": "feed",
@@ -6360,6 +6913,7 @@
         "index": {
           "description": "An entity responsible for making the resource available",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Publisher",
           "package": "feed",
@@ -6374,6 +6928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to a related resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Relation",
           "package": "feed",
@@ -6384,6 +6939,7 @@
         "index": {
           "description": "reference to related resource",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Relation",
           "package": "feed",
@@ -6398,6 +6954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about rights held in and over the resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Rights",
           "package": "feed",
@@ -6408,6 +6965,7 @@
         "index": {
           "description": "Information about rights held in and over the resource",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Rights",
           "package": "feed",
@@ -6422,6 +6980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Reference to a resource from which the present resource is derived.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Source",
           "package": "feed",
@@ -6432,6 +6991,7 @@
         "index": {
           "description": "Reference to resource from which the present resource is derived",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Source",
           "package": "feed",
@@ -6446,6 +7006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe topic of the content of the resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Subject",
           "package": "feed",
@@ -6456,6 +7017,7 @@
         "index": {
           "description": "The topic of the content of the resource",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Subject",
           "package": "feed",
@@ -6470,6 +7032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name given to the resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Title",
           "package": "feed",
@@ -6480,6 +7043,7 @@
         "index": {
           "description": "name given to the resource",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Title",
           "package": "feed",
@@ -6494,6 +7058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe nature or genre of the content of the resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "DC_Type",
           "package": "feed",
@@ -6504,6 +7069,7 @@
         "index": {
           "description": "The nature or genre of the content of the resource",
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "DC_Type",
           "package": "feed",
@@ -6517,6 +7083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "dcElt",
           "package": "feed",
@@ -6526,6 +7093,7 @@
         },
         "index": {
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "dcElt",
           "package": "feed",
@@ -6539,6 +7107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "dcText",
           "package": "feed",
@@ -6548,6 +7117,7 @@
         },
         "index": {
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "dcText",
           "package": "feed",
@@ -6561,6 +7131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "dc_element_names",
           "package": "feed",
@@ -6570,6 +7141,7 @@
         },
         "index": {
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "dc_element_names",
           "normalized": "[String]",
@@ -6584,6 +7156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.DublinCore.Types",
           "name": "infoToTag",
           "package": "feed",
@@ -6593,6 +7166,7 @@
         },
         "index": {
           "hierarchy": "Text DublinCore Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.DublinCore.Types",
           "name": "infoToTag",
           "normalized": "DCInfo-\u003eString",
@@ -6609,6 +7183,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDescription: Module for an abstraction layer between different kinds of feeds.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "Constructor",
           "package": "feed",
@@ -6618,6 +7193,7 @@
         "index": {
           "description": "Description Module for an abstraction layer between different kinds of feeds",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "Constructor",
           "package": "feed",
@@ -6632,6 +7208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kinds of feed documents supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "FeedKind",
           "package": "feed",
@@ -6641,6 +7218,7 @@
         "index": {
           "description": "The kinds of feed documents supported",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "FeedKind",
           "package": "feed",
@@ -6654,6 +7232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "FeedSetter",
           "package": "feed",
@@ -6662,6 +7241,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "FeedSetter",
           "package": "feed",
@@ -6675,6 +7255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "ItemSetter",
           "package": "feed",
@@ -6683,6 +7264,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "ItemSetter",
           "package": "feed",
@@ -6765,6 +7347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "addItem",
           "package": "feed",
@@ -6774,6 +7357,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "addItem",
           "normalized": "Item-\u003eFeed-\u003eFeed",
@@ -6789,6 +7373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "atomEntryToItem",
           "package": "feed",
@@ -6798,6 +7383,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "atomEntryToItem",
           "normalized": "Entry-\u003eItem",
@@ -6813,6 +7399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "feedFromAtom",
           "package": "feed",
@@ -6822,6 +7409,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "feedFromAtom",
           "normalized": "Feed-\u003eFeed",
@@ -6837,6 +7425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "feedFromRDF",
           "package": "feed",
@@ -6846,6 +7435,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "feedFromRDF",
           "normalized": "Feed-\u003eFeed",
@@ -6861,6 +7451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "feedFromRSS",
           "package": "feed",
@@ -6870,6 +7461,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "feedFromRSS",
           "normalized": "RSS-\u003eFeed",
@@ -6885,6 +7477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "feedFromXML",
           "package": "feed",
@@ -6894,6 +7487,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "feedFromXML",
           "normalized": "Element-\u003eFeed",
@@ -6909,6 +7503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "getFeedKind",
           "package": "feed",
@@ -6918,6 +7513,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "getFeedKind",
           "normalized": "Feed-\u003eFeedKind",
@@ -6933,6 +7529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "getItemKind",
           "package": "feed",
@@ -6942,6 +7539,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "getItemKind",
           "normalized": "Item-\u003eFeedKind",
@@ -6958,6 +7556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an empty feed document, intending to output it in\n the \u003ccode\u003efk\u003c/code\u003e feed format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "newFeed",
           "package": "feed",
@@ -6968,6 +7567,7 @@
         "index": {
           "description": "Construct an empty feed document intending to output it in the fk feed format",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "newFeed",
           "normalized": "FeedKind-\u003eFeed",
@@ -6983,6 +7583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "newItem",
           "package": "feed",
@@ -6992,6 +7593,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "newItem",
           "normalized": "FeedKind-\u003eItem",
@@ -7007,6 +7609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "rdfItemToItem",
           "package": "feed",
@@ -7016,6 +7619,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "rdfItemToItem",
           "normalized": "Item-\u003eItem",
@@ -7031,6 +7635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "rssItemToItem",
           "package": "feed",
@@ -7040,6 +7645,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "rssItemToItem",
           "normalized": "RSSItem-\u003eItem",
@@ -7055,6 +7661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withFeedCategories",
           "package": "feed",
@@ -7064,6 +7671,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withFeedCategories",
           "normalized": "FeedSetter[(String,Maybe String)]",
@@ -7080,6 +7688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'withFeedDate dt' is the composition of \u003ccode\u003e\u003ca\u003ewithFeedPubDate\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003ewithFeedLastUpdate\u003c/a\u003e\u003c/code\u003e, setting both publication date and\n last update date to \u003ccode\u003edt\u003c/code\u003e. Notice that RSS2.0 is the only format\n supporting both pub and last-update.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withFeedDate",
           "package": "feed",
@@ -7090,6 +7699,7 @@
         "index": {
           "description": "withFeedDate dt is the composition of withFeedPubDate and withFeedLastUpdate setting both publication date and last update date to dt Notice that RSS2.0 is the only format supporting both pub and last-update",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withFeedDate",
           "package": "feed",
@@ -7104,6 +7714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewithFeedHTML\u003c/a\u003e\u003c/code\u003e sets the URL where an HTML version of the\n feed is published.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withFeedDescription",
           "package": "feed",
@@ -7114,6 +7725,7 @@
         "index": {
           "description": "withFeedHTML sets the URL where an HTML version of the feed is published",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withFeedDescription",
           "package": "feed",
@@ -7127,6 +7739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withFeedGenerator",
           "package": "feed",
@@ -7136,6 +7749,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withFeedGenerator",
           "normalized": "FeedSetter(String,Maybe URLString)",
@@ -7152,6 +7766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewithFeedHTML\u003c/a\u003e\u003c/code\u003e sets the URL where an HTML version of the\n feed is published.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withFeedHTML",
           "package": "feed",
@@ -7162,6 +7777,7 @@
         "index": {
           "description": "withFeedHTML sets the URL where an HTML version of the feed is published",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withFeedHTML",
           "package": "feed",
@@ -7175,6 +7791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withFeedHome",
           "package": "feed",
@@ -7184,6 +7801,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withFeedHome",
           "package": "feed",
@@ -7197,6 +7815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withFeedItems",
           "package": "feed",
@@ -7206,6 +7825,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withFeedItems",
           "normalized": "FeedSetter[Item]",
@@ -7221,6 +7841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withFeedLanguage",
           "package": "feed",
@@ -7230,6 +7851,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withFeedLanguage",
           "package": "feed",
@@ -7243,6 +7865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withFeedLastUpdate",
           "package": "feed",
@@ -7252,6 +7875,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withFeedLastUpdate",
           "package": "feed",
@@ -7265,6 +7889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withFeedLogoLink",
           "package": "feed",
@@ -7274,6 +7899,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withFeedLogoLink",
           "normalized": "URLString-\u003eFeedSetter URLString",
@@ -7289,6 +7915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withFeedPubDate",
           "package": "feed",
@@ -7298,6 +7925,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withFeedPubDate",
           "package": "feed",
@@ -7311,6 +7939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withFeedTitle",
           "package": "feed",
@@ -7320,6 +7949,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withFeedTitle",
           "package": "feed",
@@ -7334,6 +7964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'withItemAuthor auStr' associates new author info\n with a feed item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withItemAuthor",
           "package": "feed",
@@ -7344,6 +7975,7 @@
         "index": {
           "description": "withItemAuthor auStr associates new author info with feed item",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withItemAuthor",
           "package": "feed",
@@ -7357,6 +7989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withItemCategories",
           "package": "feed",
@@ -7366,6 +7999,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withItemCategories",
           "normalized": "ItemSetter[(String,Maybe String)]",
@@ -7382,6 +8016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'withItemCommentLink url' sets the URL reference to the comment page to \u003ccode\u003eurl\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withItemCommentLink",
           "package": "feed",
@@ -7392,6 +8027,7 @@
         "index": {
           "description": "withItemCommentLink url sets the URL reference to the comment page to url",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withItemCommentLink",
           "package": "feed",
@@ -7406,6 +8042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewithItemDate\u003c/a\u003e\u003c/code\u003e is a synonym for \u003ccode\u003e\u003ca\u003ewithItemPubDate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withItemDate",
           "package": "feed",
@@ -7416,6 +8053,7 @@
         "index": {
           "description": "withItemDate is synonym for withItemPubDate",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withItemDate",
           "package": "feed",
@@ -7430,6 +8068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'withItemDescription desc' associates a new descriptive string (aka summary)\n with a feed item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withItemDescription",
           "package": "feed",
@@ -7440,6 +8079,7 @@
         "index": {
           "description": "withItemDescription desc associates new descriptive string aka summary with feed item",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withItemDescription",
           "package": "feed",
@@ -7454,6 +8094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'withItemEnclosure url mbTy len' sets the URL reference to the comment page to \u003ccode\u003eurl\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withItemEnclosure",
           "package": "feed",
@@ -7464,6 +8105,7 @@
         "index": {
           "description": "withItemEnclosure url mbTy len sets the URL reference to the comment page to url",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withItemEnclosure",
           "normalized": "String-\u003eMaybe String-\u003eItemSetter(Maybe Integer)",
@@ -7480,6 +8122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'withItemFeedLink name myFeed' associates the parent feed URL \u003ccode\u003emyFeed\u003c/code\u003e\n with a feed item. It is labelled as \u003ccode\u003ename\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withItemFeedLink",
           "package": "feed",
@@ -7490,6 +8133,7 @@
         "index": {
           "description": "withItemFeedLink name myFeed associates the parent feed URL myFeed with feed item It is labelled as name",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withItemFeedLink",
           "normalized": "String-\u003eItemSetter String",
@@ -7506,6 +8150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'withItemId isURL id' associates new unique identifier with a feed item.\n If \u003ccode\u003eisURL\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, then the id is assumed to point to a valid web resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withItemId",
           "package": "feed",
@@ -7516,6 +8161,7 @@
         "index": {
           "description": "withItemId isURL id associates new unique identifier with feed item If isURL is True then the id is assumed to point to valid web resource",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withItemId",
           "normalized": "Bool-\u003eItemSetter String",
@@ -7532,6 +8178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'withItemTitle myLink' associates a new URL, \u003ccode\u003emyLink\u003c/code\u003e,\n with a feed item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withItemLink",
           "package": "feed",
@@ -7542,6 +8189,7 @@
         "index": {
           "description": "withItemTitle myLink associates new URL myLink with feed item",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withItemLink",
           "package": "feed",
@@ -7556,6 +8204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'withItemPubDate dt' associates the creation/ publication date \u003ccode\u003edt\u003c/code\u003e\n with a feed item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withItemPubDate",
           "package": "feed",
@@ -7566,6 +8215,7 @@
         "index": {
           "description": "withItemPubDate dt associates the creation publication date dt with feed item",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withItemPubDate",
           "package": "feed",
@@ -7580,6 +8230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'withItemRights rightStr' associates the rights information \u003ccode\u003erightStr\u003c/code\u003e\n with a feed item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withItemRights",
           "package": "feed",
@@ -7590,6 +8241,7 @@
         "index": {
           "description": "withItemRights rightStr associates the rights information rightStr with feed item",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withItemRights",
           "package": "feed",
@@ -7604,6 +8256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'withItemTitle myTitle' associates a new title, \u003ccode\u003emyTitle\u003c/code\u003e,\n with a feed item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Constructor",
           "name": "withItemTitle",
           "package": "feed",
@@ -7614,6 +8267,7 @@
         "index": {
           "description": "withItemTitle myTitle associates new title myTitle with feed item",
           "hierarchy": "Text Feed Constructor",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Constructor",
           "name": "withItemTitle",
           "package": "feed",
@@ -7628,6 +8282,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert from Feeds to XML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Export",
           "name": "Export",
           "package": "feed",
@@ -7637,6 +8292,7 @@
         "index": {
           "description": "Convert from Feeds to XML",
           "hierarchy": "Text Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Export",
           "name": "Export",
           "package": "feed",
@@ -7651,6 +8307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'xmlFeed f' serializes a \u003ccode\u003eFeed\u003c/code\u003e document into a conforming\n XML toplevel element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Export",
           "name": "xmlFeed",
           "package": "feed",
@@ -7661,6 +8318,7 @@
         "index": {
           "description": "xmlFeed serializes Feed document into conforming XML toplevel element",
           "hierarchy": "Text Feed Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Export",
           "name": "xmlFeed",
           "normalized": "Feed-\u003eElement",
@@ -7677,6 +8335,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert from XML to Feeds.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Import",
           "name": "Import",
           "package": "feed",
@@ -7686,6 +8345,7 @@
         "index": {
           "description": "Convert from XML to Feeds",
           "hierarchy": "Text Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Import",
           "name": "Import",
           "package": "feed",
@@ -7700,6 +8360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'parseFeedFromFile fp' reads in the contents of the file at \u003ccode\u003efp\u003c/code\u003e;\n the assumed encoding is UTF-8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Import",
           "name": "parseFeedFromFile",
           "package": "feed",
@@ -7710,6 +8371,7 @@
         "index": {
           "description": "parseFeedFromFile fp reads in the contents of the file at fp the assumed encoding is UTF-8",
           "hierarchy": "Text Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Import",
           "name": "parseFeedFromFile",
           "normalized": "FilePath-\u003eIO Feed",
@@ -7726,6 +8388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'parseFeedString str' tries to parse the string \u003ccode\u003estr\u003c/code\u003e as\n one of the feed formats. First as Atom, then RSS2 before\n giving RSS1 a try. \u003ccode\u003eNothing\u003c/code\u003e is, rather unhelpfully, returned\n as an indication of error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Import",
           "name": "parseFeedString",
           "package": "feed",
@@ -7736,6 +8399,7 @@
         "index": {
           "description": "parseFeedString str tries to parse the string str as one of the feed formats First as Atom then RSS2 before giving RSS1 try Nothing is rather unhelpfully returned as an indication of error",
           "hierarchy": "Text Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Import",
           "name": "parseFeedString",
           "normalized": "String-\u003eMaybe Feed",
@@ -7752,6 +8416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'readAtom elt' tries to derive an Atom feed document\n from the XML element \u003ccode\u003ee\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Import",
           "name": "readAtom",
           "package": "feed",
@@ -7762,6 +8427,7 @@
         "index": {
           "description": "readAtom elt tries to derive an Atom feed document from the XML element",
           "hierarchy": "Text Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Import",
           "name": "readAtom",
           "normalized": "Element-\u003eMaybe Feed",
@@ -7778,6 +8444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'readRSS1 elt' tries to derive an RSS1.0 feed document\n from the XML element \u003ccode\u003ee\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Import",
           "name": "readRSS1",
           "package": "feed",
@@ -7788,6 +8455,7 @@
         "index": {
           "description": "readRSS1 elt tries to derive an RSS1.0 feed document from the XML element",
           "hierarchy": "Text Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Import",
           "name": "readRSS1",
           "normalized": "Element-\u003eMaybe Feed",
@@ -7804,6 +8472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'readRSS2 elt' tries to derive an RSS2.x, RSS-0.9x feed document\n from the XML element \u003ccode\u003ee\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Import",
           "name": "readRSS2",
           "package": "feed",
@@ -7814,6 +8483,7 @@
         "index": {
           "description": "readRSS2 elt tries to derive an RSS2.x RSS-0.9x feed document from the XML element",
           "hierarchy": "Text Feed Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Import",
           "name": "readRSS2",
           "normalized": "Element-\u003eMaybe Feed",
@@ -7829,6 +8499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "Query",
           "package": "feed",
@@ -7837,6 +8508,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "Query",
           "package": "feed",
@@ -7850,6 +8522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "FeedGetter",
           "package": "feed",
@@ -7858,6 +8531,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "FeedGetter",
           "package": "feed",
@@ -7871,6 +8545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "ItemGetter",
           "package": "feed",
@@ -7879,6 +8554,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "ItemGetter",
           "package": "feed",
@@ -7892,6 +8568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "feedItems",
           "package": "feed",
@@ -7901,6 +8578,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "feedItems",
           "normalized": "Feed-\u003e[Item]",
@@ -7916,6 +8594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedAuthor",
           "package": "feed",
@@ -7925,6 +8604,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedAuthor",
           "package": "feed",
@@ -7938,6 +8618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedCategories",
           "package": "feed",
@@ -7947,6 +8628,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedCategories",
           "normalized": "Feed-\u003e[(String,Maybe String)]",
@@ -7962,6 +8644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedDate",
           "package": "feed",
@@ -7971,6 +8654,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedDate",
           "package": "feed",
@@ -7984,6 +8668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedDescription",
           "package": "feed",
@@ -7993,6 +8678,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedDescription",
           "package": "feed",
@@ -8006,6 +8692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedGenerator",
           "package": "feed",
@@ -8015,6 +8702,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedGenerator",
           "package": "feed",
@@ -8028,6 +8716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedHTML",
           "package": "feed",
@@ -8037,6 +8726,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedHTML",
           "package": "feed",
@@ -8050,6 +8740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedHome",
           "package": "feed",
@@ -8059,6 +8750,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedHome",
           "package": "feed",
@@ -8072,6 +8764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedItems",
           "package": "feed",
@@ -8081,6 +8774,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedItems",
           "normalized": "Feed-\u003e[Item]",
@@ -8096,6 +8790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedLanguage",
           "package": "feed",
@@ -8105,6 +8800,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedLanguage",
           "package": "feed",
@@ -8118,6 +8814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedLastUpdate",
           "package": "feed",
@@ -8127,6 +8824,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedLastUpdate",
           "package": "feed",
@@ -8140,6 +8838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedLogoLink",
           "package": "feed",
@@ -8149,6 +8848,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedLogoLink",
           "package": "feed",
@@ -8162,6 +8862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedPubDate",
           "package": "feed",
@@ -8171,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedPubDate",
           "package": "feed",
@@ -8184,6 +8886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getFeedTitle",
           "package": "feed",
@@ -8193,6 +8896,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getFeedTitle",
           "normalized": "Feed-\u003eString",
@@ -8209,6 +8913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'getItemAuthor f' returns the optional author of the item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemAuthor",
           "package": "feed",
@@ -8219,6 +8924,7 @@
         "index": {
           "description": "getItemAuthor returns the optional author of the item",
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemAuthor",
           "package": "feed",
@@ -8232,6 +8938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemCategories",
           "package": "feed",
@@ -8241,6 +8948,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemCategories",
           "normalized": "Item-\u003e[String]",
@@ -8256,6 +8964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemCommentLink",
           "package": "feed",
@@ -8265,6 +8974,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemCommentLink",
           "package": "feed",
@@ -8278,6 +8988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemDate",
           "package": "feed",
@@ -8287,6 +8998,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemDate",
           "package": "feed",
@@ -8300,6 +9012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemDescription",
           "package": "feed",
@@ -8309,6 +9022,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemDescription",
           "package": "feed",
@@ -8322,6 +9036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemEnclosure",
           "package": "feed",
@@ -8331,6 +9046,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemEnclosure",
           "normalized": "ItemGetter(String,Maybe String,Maybe Integer)",
@@ -8346,6 +9062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemFeedLink",
           "package": "feed",
@@ -8355,6 +9072,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemFeedLink",
           "package": "feed",
@@ -8368,6 +9086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemId",
           "package": "feed",
@@ -8377,6 +9096,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemId",
           "normalized": "ItemGetter(Bool,String)",
@@ -8392,6 +9112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemLink",
           "package": "feed",
@@ -8401,6 +9122,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemLink",
           "package": "feed",
@@ -8415,6 +9137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'getItemPublishDate item' returns the publication date of the item,\n but first parsed per the supported RFC 822 and RFC 3339 formats.\n\u003c/p\u003e\u003cp\u003eIf the date string cannot be parsed as such, Just Nothing is\n returned.  The caller must then instead fall back to processing the\n date string from \u003ccode\u003e\u003ca\u003egetItemPublishDateString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe parsed date representation is one of the ParseTime instances;\n see \u003ccode\u003e\u003ca\u003eFormat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemPublishDate",
           "package": "feed",
@@ -8425,6 +9148,7 @@
         "index": {
           "description": "getItemPublishDate item returns the publication date of the item but first parsed per the supported RFC and RFC formats If the date string cannot be parsed as such Just Nothing is returned The caller must then instead fall back to processing the date string from getItemPublishDateString The parsed date representation is one of the ParseTime instances see Format",
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemPublishDate",
           "package": "feed",
@@ -8438,6 +9162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemPublishDateString",
           "package": "feed",
@@ -8447,6 +9172,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemPublishDateString",
           "package": "feed",
@@ -8460,6 +9186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemRights",
           "package": "feed",
@@ -8469,6 +9196,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemRights",
           "package": "feed",
@@ -8482,6 +9210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemSummary",
           "package": "feed",
@@ -8491,6 +9220,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemSummary",
           "package": "feed",
@@ -8504,6 +9234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Query",
           "name": "getItemTitle",
           "package": "feed",
@@ -8513,6 +9244,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Query",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Query",
           "name": "getItemTitle",
           "package": "feed",
@@ -8527,6 +9259,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTranslating between RSS formats; work in progress.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Translate",
           "name": "Translate",
           "package": "feed",
@@ -8536,6 +9269,7 @@
         "index": {
           "description": "Translating between RSS formats work in progress",
           "hierarchy": "Text Feed Translate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Translate",
           "name": "Translate",
           "package": "feed",
@@ -8549,6 +9283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Translate",
           "name": "translateItemTo",
           "package": "feed",
@@ -8558,6 +9293,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Translate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Translate",
           "name": "translateItemTo",
           "normalized": "FeedKind-\u003eItem-\u003eItem",
@@ -8573,6 +9309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Translate",
           "name": "withAtomEntry",
           "package": "feed",
@@ -8582,6 +9319,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Translate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Translate",
           "name": "withAtomEntry",
           "normalized": "(Entry-\u003eEntry)-\u003eItem-\u003eItem",
@@ -8597,6 +9335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Translate",
           "name": "withRSS1Item",
           "package": "feed",
@@ -8606,6 +9345,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Translate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Translate",
           "name": "withRSS1Item",
           "normalized": "(Item-\u003eItem)-\u003eItem-\u003eItem",
@@ -8621,6 +9361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Translate",
           "name": "withRSSItem",
           "package": "feed",
@@ -8630,6 +9371,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Translate",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Translate",
           "name": "withRSSItem",
           "normalized": "(RSSItem-\u003eRSSItem)-\u003eItem-\u003eItem",
@@ -8645,6 +9387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Types",
           "name": "Types",
           "package": "feed",
@@ -8653,6 +9396,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Types",
           "name": "Types",
           "package": "feed",
@@ -8667,6 +9411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract type of feed documents. The internal representation\n is as whatever feed variant type the document was either imported or\n has now been translated to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Types",
           "name": "Feed",
           "package": "feed",
@@ -8676,6 +9421,7 @@
         "index": {
           "description": "The abstract type of feed documents The internal representation is as whatever feed variant type the document was either imported or has now been translated to",
           "hierarchy": "Text Feed Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Types",
           "name": "Feed",
           "package": "feed",
@@ -8690,6 +9436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kinds of feed documents supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Types",
           "name": "FeedKind",
           "package": "feed",
@@ -8699,6 +9446,7 @@
         "index": {
           "description": "The kinds of feed documents supported",
           "hierarchy": "Text Feed Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Types",
           "name": "FeedKind",
           "package": "feed",
@@ -8713,6 +9461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract type of feed items. Like the \u003ccode\u003e\u003ca\u003eFeed\u003c/a\u003e\u003c/code\u003e type, the\n representation of a value is as one of the different RSS item/entry\n variants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Types",
           "name": "Item",
           "package": "feed",
@@ -8722,6 +9471,7 @@
         "index": {
           "description": "The abstract type of feed items Like the Feed type the representation of value is as one of the different RSS item entry variants",
           "hierarchy": "Text Feed Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Types",
           "name": "Item",
           "package": "feed",
@@ -8735,6 +9485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Types",
           "name": "AtomFeed",
           "package": "feed",
@@ -8744,6 +9495,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Types",
           "name": "AtomFeed",
           "package": "feed",
@@ -8757,6 +9509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Types",
           "name": "AtomItem",
           "package": "feed",
@@ -8766,6 +9519,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Types",
           "name": "AtomItem",
           "package": "feed",
@@ -8779,6 +9533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Types",
           "name": "RSS1Feed",
           "package": "feed",
@@ -8788,6 +9543,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Types",
           "name": "RSS1Feed",
           "package": "feed",
@@ -8801,6 +9557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Types",
           "name": "RSS1Item",
           "package": "feed",
@@ -8810,6 +9567,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Types",
           "name": "RSS1Item",
           "package": "feed",
@@ -8823,6 +9581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Types",
           "name": "RSSFeed",
           "package": "feed",
@@ -8832,6 +9591,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Types",
           "name": "RSSFeed",
           "package": "feed",
@@ -8845,6 +9605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Types",
           "name": "RSSItem",
           "package": "feed",
@@ -8854,6 +9615,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Types",
           "name": "RSSItem",
           "package": "feed",
@@ -8867,6 +9629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Types",
           "name": "XMLFeed",
           "package": "feed",
@@ -8876,6 +9639,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Types",
           "name": "XMLFeed",
           "package": "feed",
@@ -8889,6 +9653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Types",
           "name": "XMLItem",
           "package": "feed",
@@ -8898,6 +9663,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Types",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Types",
           "name": "XMLItem",
           "package": "feed",
@@ -8911,6 +9677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Util",
           "name": "Util",
           "package": "feed",
@@ -8919,6 +9686,7 @@
         },
         "index": {
           "hierarchy": "Text Feed Util",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Util",
           "name": "Util",
           "package": "feed",
@@ -8933,6 +9701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etoFeedDate\u003c/code\u003e translates a calendar time into\n the format expected by the feed kind.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.Feed.Util",
           "name": "toFeedDateString",
           "package": "feed",
@@ -8943,6 +9712,7 @@
         "index": {
           "description": "toFeedDate translates calendar time into the format expected by the feed kind",
           "hierarchy": "Text Feed Util",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.Feed.Util",
           "name": "toFeedDateString",
           "normalized": "FeedKind-\u003eClockTime-\u003eString",
@@ -8959,6 +9729,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDescription: Convert from RSS to XML\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "Export",
           "package": "feed",
@@ -8968,6 +9739,7 @@
         "index": {
           "description": "Description Convert from RSS to XML",
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "Export",
           "package": "feed",
@@ -8981,6 +9753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "mb",
           "package": "feed",
@@ -8990,6 +9763,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "mb",
           "normalized": "(a-\u003eb)-\u003eMaybe a-\u003e[b]",
@@ -9004,6 +9778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "qualName",
           "package": "feed",
@@ -9013,6 +9788,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "qualName",
           "normalized": "String-\u003eQName",
@@ -9028,6 +9804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "qualNode",
           "package": "feed",
@@ -9037,6 +9814,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "qualNode",
           "normalized": "String-\u003e[Content]-\u003eElement",
@@ -9052,6 +9830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlAttr",
           "package": "feed",
@@ -9061,6 +9840,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlAttr",
           "normalized": "String-\u003eString-\u003eAttr",
@@ -9076,6 +9856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlCategory",
           "package": "feed",
@@ -9085,6 +9866,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlCategory",
           "normalized": "RSSCategory-\u003eElement",
@@ -9100,6 +9882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlChannel",
           "package": "feed",
@@ -9109,6 +9892,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlChannel",
           "normalized": "RSSChannel-\u003eElement",
@@ -9124,6 +9908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlCloud",
           "package": "feed",
@@ -9133,6 +9918,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlCloud",
           "normalized": "RSSCloud-\u003eElement",
@@ -9148,6 +9934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlEnclosure",
           "package": "feed",
@@ -9157,6 +9944,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlEnclosure",
           "normalized": "RSSEnclosure-\u003eElement",
@@ -9172,6 +9960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlGuid",
           "package": "feed",
@@ -9181,6 +9970,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlGuid",
           "normalized": "RSSGuid-\u003eElement",
@@ -9196,6 +9986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlImage",
           "package": "feed",
@@ -9205,6 +9996,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlImage",
           "normalized": "RSSImage-\u003eElement",
@@ -9220,6 +10012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlItem",
           "package": "feed",
@@ -9229,6 +10022,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlItem",
           "normalized": "RSSItem-\u003eElement",
@@ -9244,6 +10038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlLeaf",
           "package": "feed",
@@ -9253,6 +10048,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlLeaf",
           "normalized": "String-\u003eString-\u003eElement",
@@ -9268,6 +10064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlRSS",
           "package": "feed",
@@ -9277,6 +10074,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlRSS",
           "normalized": "RSS-\u003eElement",
@@ -9292,6 +10090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlSkipDays",
           "package": "feed",
@@ -9301,6 +10100,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlSkipDays",
           "normalized": "[String]-\u003eElement",
@@ -9316,6 +10116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlSkipHours",
           "package": "feed",
@@ -9325,6 +10126,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlSkipHours",
           "normalized": "[Integer]-\u003eElement",
@@ -9340,6 +10142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlSource",
           "package": "feed",
@@ -9349,6 +10152,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlSource",
           "normalized": "RSSSource-\u003eElement",
@@ -9364,6 +10168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Export",
           "name": "xmlTextInput",
           "package": "feed",
@@ -9373,6 +10178,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Export",
           "name": "xmlTextInput",
           "normalized": "RSSTextInput-\u003eElement",
@@ -9389,6 +10195,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConverting from XML to RSS\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "Import",
           "package": "feed",
@@ -9398,6 +10205,7 @@
         "index": {
           "description": "Converting from XML to RSS",
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "Import",
           "package": "feed",
@@ -9411,6 +10219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "children",
           "package": "feed",
@@ -9420,6 +10229,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "children",
           "normalized": "Element-\u003e[Element]",
@@ -9434,6 +10244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "dcName",
           "package": "feed",
@@ -9443,6 +10254,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "dcName",
           "normalized": "String-\u003eQName",
@@ -9458,6 +10270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "elementToCategory",
           "package": "feed",
@@ -9467,6 +10280,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "elementToCategory",
           "normalized": "Element-\u003eMaybe RSSCategory",
@@ -9482,6 +10296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "elementToChannel",
           "package": "feed",
@@ -9491,6 +10306,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "elementToChannel",
           "normalized": "Element-\u003eMaybe RSSChannel",
@@ -9506,6 +10322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "elementToCloud",
           "package": "feed",
@@ -9515,6 +10332,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "elementToCloud",
           "normalized": "Element-\u003eMaybe RSSCloud",
@@ -9530,6 +10348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "elementToEnclosure",
           "package": "feed",
@@ -9539,6 +10358,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "elementToEnclosure",
           "normalized": "Element-\u003eMaybe RSSEnclosure",
@@ -9554,6 +10374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "elementToGuid",
           "package": "feed",
@@ -9563,6 +10384,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "elementToGuid",
           "normalized": "Element-\u003eMaybe RSSGuid",
@@ -9578,6 +10400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "elementToImage",
           "package": "feed",
@@ -9587,6 +10410,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "elementToImage",
           "normalized": "Element-\u003eMaybe RSSImage",
@@ -9602,6 +10426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "elementToItem",
           "package": "feed",
@@ -9611,6 +10436,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "elementToItem",
           "normalized": "Element-\u003eMaybe RSSItem",
@@ -9626,6 +10452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "elementToRSS",
           "package": "feed",
@@ -9635,6 +10462,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "elementToRSS",
           "normalized": "Element-\u003eMaybe RSS",
@@ -9650,6 +10478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "elementToSkipDays",
           "package": "feed",
@@ -9659,6 +10488,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "elementToSkipDays",
           "normalized": "Element-\u003eMaybe[String]",
@@ -9674,6 +10504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "elementToSkipHours",
           "package": "feed",
@@ -9683,6 +10514,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "elementToSkipHours",
           "normalized": "Element-\u003eMaybe[Integer]",
@@ -9698,6 +10530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "elementToSource",
           "package": "feed",
@@ -9707,6 +10540,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "elementToSource",
           "normalized": "Element-\u003eMaybe RSSSource",
@@ -9722,6 +10556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "elementToTextInput",
           "package": "feed",
@@ -9731,6 +10566,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "elementToTextInput",
           "normalized": "Element-\u003eMaybe RSSTextInput",
@@ -9746,6 +10582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "pAttr",
           "package": "feed",
@@ -9755,6 +10592,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "pAttr",
           "normalized": "String-\u003eElement-\u003eMaybe String",
@@ -9770,6 +10608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "pLeaf",
           "package": "feed",
@@ -9779,6 +10618,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "pLeaf",
           "normalized": "String-\u003e[Element]-\u003eMaybe String",
@@ -9794,6 +10634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "pMany",
           "package": "feed",
@@ -9803,6 +10644,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "pMany",
           "normalized": "String-\u003e(Element-\u003eMaybe a)-\u003e[Element]-\u003e[a]",
@@ -9818,6 +10660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "pNode",
           "package": "feed",
@@ -9827,6 +10670,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "pNode",
           "normalized": "String-\u003e[Element]-\u003eMaybe Element",
@@ -9842,6 +10686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "pNodes",
           "package": "feed",
@@ -9851,6 +10696,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "pNodes",
           "normalized": "String-\u003e[Element]-\u003e[Element]",
@@ -9866,6 +10712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "pQLeaf",
           "package": "feed",
@@ -9875,6 +10722,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "pQLeaf",
           "normalized": "QName-\u003e[Element]-\u003eMaybe String",
@@ -9890,6 +10738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "pQNode",
           "package": "feed",
@@ -9899,6 +10748,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "pQNode",
           "normalized": "QName-\u003e[Element]-\u003eMaybe Element",
@@ -9914,6 +10764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "pQNodes",
           "package": "feed",
@@ -9923,6 +10774,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "pQNodes",
           "normalized": "QName-\u003e[Element]-\u003e[Element]",
@@ -9938,6 +10790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "qualName",
           "package": "feed",
@@ -9947,6 +10800,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "qualName",
           "normalized": "String-\u003eQName",
@@ -9962,6 +10816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "readBool",
           "package": "feed",
@@ -9971,6 +10826,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "readBool",
           "normalized": "String-\u003eMaybe Bool",
@@ -9986,6 +10842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Import",
           "name": "readInt",
           "package": "feed",
@@ -9995,6 +10852,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Import",
           "name": "readInt",
           "normalized": "String-\u003eMaybe Integer",
@@ -10011,6 +10869,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe basic syntax for putting together feeds.\n\u003c/p\u003e\u003cp\u003eFor instance, to create a feed with a single item item:\n  (nullRSS \"rss title\" \"link\") {rssChannel=(nullChannel \"channel title\" \"link\") {rssItems=[(nullItem \"item title\")]}}\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "Syntax",
           "package": "feed",
@@ -10020,6 +10879,7 @@
         "index": {
           "description": "The basic syntax for putting together feeds For instance to create feed with single item item nullRSS rss title link rssChannel nullChannel channel title link rssItems nullItem item title",
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "Syntax",
           "package": "feed",
@@ -10034,6 +10894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRFC 822 conforming.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "DateString",
           "package": "feed",
@@ -10043,6 +10904,7 @@
         "index": {
           "description": "RFC conforming",
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "DateString",
           "package": "feed",
@@ -10056,6 +10918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSS",
           "package": "feed",
@@ -10064,6 +10927,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSS",
           "package": "feed",
@@ -10077,6 +10941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSCategory",
           "package": "feed",
@@ -10085,6 +10950,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSCategory",
           "package": "feed",
@@ -10098,6 +10964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSChannel",
           "package": "feed",
@@ -10106,6 +10973,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSChannel",
           "package": "feed",
@@ -10119,6 +10987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSCloud",
           "package": "feed",
@@ -10127,6 +10996,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSCloud",
           "package": "feed",
@@ -10140,6 +11010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSEnclosure",
           "package": "feed",
@@ -10148,6 +11019,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSEnclosure",
           "package": "feed",
@@ -10161,6 +11033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSGuid",
           "package": "feed",
@@ -10169,6 +11042,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSGuid",
           "package": "feed",
@@ -10182,6 +11056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSImage",
           "package": "feed",
@@ -10190,6 +11065,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSImage",
           "package": "feed",
@@ -10203,6 +11079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSItem",
           "package": "feed",
@@ -10211,6 +11088,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSItem",
           "package": "feed",
@@ -10224,6 +11102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSSource",
           "package": "feed",
@@ -10232,6 +11111,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSSource",
           "package": "feed",
@@ -10245,6 +11125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSTextInput",
           "package": "feed",
@@ -10253,6 +11134,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSTextInput",
           "package": "feed",
@@ -10266,6 +11148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "URLString",
           "package": "feed",
@@ -10274,6 +11157,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "URLString",
           "package": "feed",
@@ -10287,6 +11171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSS",
           "package": "feed",
@@ -10296,6 +11181,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSS",
           "package": "feed",
@@ -10309,6 +11195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSCategory",
           "package": "feed",
@@ -10318,6 +11205,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSCategory",
           "package": "feed",
@@ -10331,6 +11219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSChannel",
           "package": "feed",
@@ -10340,6 +11229,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSChannel",
           "package": "feed",
@@ -10353,6 +11243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSCloud",
           "package": "feed",
@@ -10362,6 +11253,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSCloud",
           "package": "feed",
@@ -10375,6 +11267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSEnclosure",
           "package": "feed",
@@ -10384,6 +11277,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSEnclosure",
           "package": "feed",
@@ -10397,6 +11291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSGuid",
           "package": "feed",
@@ -10406,6 +11301,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSGuid",
           "package": "feed",
@@ -10419,6 +11315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSImage",
           "package": "feed",
@@ -10428,6 +11325,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSImage",
           "package": "feed",
@@ -10441,6 +11339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSItem",
           "package": "feed",
@@ -10450,6 +11349,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSItem",
           "package": "feed",
@@ -10463,6 +11363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSSource",
           "package": "feed",
@@ -10472,6 +11373,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSSource",
           "package": "feed",
@@ -10485,6 +11387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "RSSTextInput",
           "package": "feed",
@@ -10494,6 +11397,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "RSSTextInput",
           "package": "feed",
@@ -10507,6 +11411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "newCategory",
           "package": "feed",
@@ -10515,6 +11420,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "newCategory",
           "normalized": "String-\u003eRSSCategory",
@@ -10530,6 +11436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "nullChannel",
           "package": "feed",
@@ -10538,6 +11445,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "nullChannel",
           "normalized": "String-\u003eURLString-\u003eRSSChannel",
@@ -10553,6 +11461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "nullCloud",
           "package": "feed",
@@ -10562,6 +11471,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "nullCloud",
           "package": "feed",
@@ -10575,6 +11485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "nullEnclosure",
           "package": "feed",
@@ -10583,6 +11494,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "nullEnclosure",
           "normalized": "URLString-\u003eMaybe Integer-\u003eString-\u003eRSSEnclosure",
@@ -10598,6 +11510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "nullGuid",
           "package": "feed",
@@ -10606,6 +11519,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "nullGuid",
           "normalized": "String-\u003eRSSGuid",
@@ -10621,6 +11535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "nullImage",
           "package": "feed",
@@ -10629,6 +11544,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "nullImage",
           "normalized": "URLString-\u003eString-\u003eURLString-\u003eRSSImage",
@@ -10644,6 +11560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "nullItem",
           "package": "feed",
@@ -10652,6 +11569,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "nullItem",
           "normalized": "String-\u003eRSSItem",
@@ -10667,6 +11585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "nullPermaGuid",
           "package": "feed",
@@ -10675,6 +11594,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "nullPermaGuid",
           "normalized": "String-\u003eRSSGuid",
@@ -10690,6 +11610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "nullRSS",
           "package": "feed",
@@ -10698,6 +11619,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "nullRSS",
           "normalized": "String-\u003eURLString-\u003eRSS",
@@ -10713,6 +11635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "nullSource",
           "package": "feed",
@@ -10721,6 +11644,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "nullSource",
           "normalized": "URLString-\u003eString-\u003eRSSSource",
@@ -10736,6 +11660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "nullTextInput",
           "package": "feed",
@@ -10744,6 +11669,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "nullTextInput",
           "normalized": "String-\u003eString-\u003eURLString-\u003eRSSTextInput",
@@ -10759,6 +11685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssAttrs",
           "package": "feed",
@@ -10768,6 +11695,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssAttrs",
           "normalized": "[Attr]",
@@ -10783,6 +11711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssCategories",
           "package": "feed",
@@ -10792,6 +11721,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssCategories",
           "normalized": "[RSSCategory]",
@@ -10807,6 +11737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssCategoryAttrs",
           "package": "feed",
@@ -10816,6 +11747,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssCategoryAttrs",
           "normalized": "[Attr]",
@@ -10831,6 +11763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssCategoryDomain",
           "package": "feed",
@@ -10840,6 +11773,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssCategoryDomain",
           "package": "feed",
@@ -10853,6 +11787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssCategoryValue",
           "package": "feed",
@@ -10862,6 +11797,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssCategoryValue",
           "package": "feed",
@@ -10875,6 +11811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssChannel",
           "package": "feed",
@@ -10884,6 +11821,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssChannel",
           "package": "feed",
@@ -10897,6 +11835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssChannelOther",
           "package": "feed",
@@ -10906,6 +11845,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssChannelOther",
           "normalized": "[Element]",
@@ -10921,6 +11861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssCloud",
           "package": "feed",
@@ -10930,6 +11871,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssCloud",
           "package": "feed",
@@ -10943,6 +11885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssCloudAttrs",
           "package": "feed",
@@ -10952,6 +11895,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssCloudAttrs",
           "normalized": "[Attr]",
@@ -10967,6 +11911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssCloudDomain",
           "package": "feed",
@@ -10976,6 +11921,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssCloudDomain",
           "package": "feed",
@@ -10989,6 +11935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssCloudPath",
           "package": "feed",
@@ -10998,6 +11945,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssCloudPath",
           "package": "feed",
@@ -11011,6 +11959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssCloudPort",
           "package": "feed",
@@ -11020,6 +11969,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssCloudPort",
           "package": "feed",
@@ -11033,6 +11983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssCloudProtocol",
           "package": "feed",
@@ -11042,6 +11993,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssCloudProtocol",
           "package": "feed",
@@ -11055,6 +12007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssCloudRegister",
           "package": "feed",
@@ -11064,6 +12017,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssCloudRegister",
           "package": "feed",
@@ -11077,6 +12031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssCopyright",
           "package": "feed",
@@ -11086,6 +12041,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssCopyright",
           "package": "feed",
@@ -11099,6 +12055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssDescription",
           "package": "feed",
@@ -11108,6 +12065,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssDescription",
           "package": "feed",
@@ -11121,6 +12079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssDocs",
           "package": "feed",
@@ -11130,6 +12089,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssDocs",
           "package": "feed",
@@ -11143,6 +12103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssEditor",
           "package": "feed",
@@ -11152,6 +12113,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssEditor",
           "package": "feed",
@@ -11165,6 +12127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssEnclosureAttrs",
           "package": "feed",
@@ -11174,6 +12137,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssEnclosureAttrs",
           "normalized": "[Attr]",
@@ -11189,6 +12153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssEnclosureLength",
           "package": "feed",
@@ -11198,6 +12163,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssEnclosureLength",
           "package": "feed",
@@ -11211,6 +12177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssEnclosureType",
           "package": "feed",
@@ -11220,6 +12187,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssEnclosureType",
           "package": "feed",
@@ -11233,6 +12201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssEnclosureURL",
           "package": "feed",
@@ -11242,6 +12211,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssEnclosureURL",
           "package": "feed",
@@ -11255,6 +12225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssGenerator",
           "package": "feed",
@@ -11264,6 +12235,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssGenerator",
           "package": "feed",
@@ -11277,6 +12249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssGuidAttrs",
           "package": "feed",
@@ -11286,6 +12259,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssGuidAttrs",
           "normalized": "[Attr]",
@@ -11301,6 +12275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssGuidPermanentURL",
           "package": "feed",
@@ -11310,6 +12285,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssGuidPermanentURL",
           "package": "feed",
@@ -11323,6 +12299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssGuidValue",
           "package": "feed",
@@ -11332,6 +12309,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssGuidValue",
           "package": "feed",
@@ -11345,6 +12323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssImage",
           "package": "feed",
@@ -11354,6 +12333,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssImage",
           "package": "feed",
@@ -11367,6 +12347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssImageDesc",
           "package": "feed",
@@ -11376,6 +12357,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssImageDesc",
           "package": "feed",
@@ -11389,6 +12371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssImageHeight",
           "package": "feed",
@@ -11398,6 +12381,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssImageHeight",
           "package": "feed",
@@ -11411,6 +12395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssImageLink",
           "package": "feed",
@@ -11420,6 +12405,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssImageLink",
           "package": "feed",
@@ -11433,6 +12419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssImageOther",
           "package": "feed",
@@ -11442,6 +12429,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssImageOther",
           "normalized": "[Element]",
@@ -11457,6 +12445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssImageTitle",
           "package": "feed",
@@ -11466,6 +12455,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssImageTitle",
           "package": "feed",
@@ -11479,6 +12469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssImageURL",
           "package": "feed",
@@ -11488,6 +12479,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssImageURL",
           "package": "feed",
@@ -11501,6 +12493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssImageWidth",
           "package": "feed",
@@ -11510,6 +12503,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssImageWidth",
           "package": "feed",
@@ -11523,6 +12517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItemAttrs",
           "package": "feed",
@@ -11532,6 +12527,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItemAttrs",
           "normalized": "[Attr]",
@@ -11547,6 +12543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItemAuthor",
           "package": "feed",
@@ -11556,6 +12553,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItemAuthor",
           "package": "feed",
@@ -11569,6 +12567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItemCategories",
           "package": "feed",
@@ -11578,6 +12577,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItemCategories",
           "normalized": "[RSSCategory]",
@@ -11593,6 +12593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItemComments",
           "package": "feed",
@@ -11602,6 +12603,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItemComments",
           "package": "feed",
@@ -11616,6 +12618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif not present, the title is. (per spec, at least.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItemDescription",
           "package": "feed",
@@ -11626,6 +12629,7 @@
         "index": {
           "description": "if not present the title is per spec at least",
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItemDescription",
           "package": "feed",
@@ -11639,6 +12643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItemEnclosure",
           "package": "feed",
@@ -11648,6 +12653,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItemEnclosure",
           "package": "feed",
@@ -11661,6 +12667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItemGuid",
           "package": "feed",
@@ -11670,6 +12677,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItemGuid",
           "package": "feed",
@@ -11683,6 +12691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItemLink",
           "package": "feed",
@@ -11692,6 +12701,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItemLink",
           "package": "feed",
@@ -11705,6 +12715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItemOther",
           "package": "feed",
@@ -11714,6 +12725,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItemOther",
           "normalized": "[Element]",
@@ -11729,6 +12741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItemPubDate",
           "package": "feed",
@@ -11738,6 +12751,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItemPubDate",
           "package": "feed",
@@ -11751,6 +12765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItemSource",
           "package": "feed",
@@ -11760,6 +12775,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItemSource",
           "package": "feed",
@@ -11773,6 +12789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItemTitle",
           "package": "feed",
@@ -11782,6 +12799,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItemTitle",
           "package": "feed",
@@ -11795,6 +12813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssItems",
           "package": "feed",
@@ -11804,6 +12823,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssItems",
           "normalized": "[RSSItem]",
@@ -11819,6 +12839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssLanguage",
           "package": "feed",
@@ -11828,6 +12849,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssLanguage",
           "package": "feed",
@@ -11842,6 +12864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erfc 822 conforming.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssLastUpdate",
           "package": "feed",
@@ -11852,6 +12875,7 @@
         "index": {
           "description": "rfc conforming",
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssLastUpdate",
           "package": "feed",
@@ -11865,6 +12889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssLink",
           "package": "feed",
@@ -11874,6 +12899,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssLink",
           "package": "feed",
@@ -11887,6 +12913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssOther",
           "package": "feed",
@@ -11896,6 +12923,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssOther",
           "normalized": "[Element]",
@@ -11912,6 +12940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erfc 822 conforming.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssPubDate",
           "package": "feed",
@@ -11922,6 +12951,7 @@
         "index": {
           "description": "rfc conforming",
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssPubDate",
           "package": "feed",
@@ -11935,6 +12965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssRating",
           "package": "feed",
@@ -11944,6 +12975,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssRating",
           "package": "feed",
@@ -11957,6 +12989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssSkipDays",
           "package": "feed",
@@ -11966,6 +12999,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssSkipDays",
           "normalized": "Maybe[String]",
@@ -11981,6 +13015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssSkipHours",
           "package": "feed",
@@ -11990,6 +13025,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssSkipHours",
           "normalized": "Maybe[Integer]",
@@ -12005,6 +13041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssSourceAttrs",
           "package": "feed",
@@ -12014,6 +13051,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssSourceAttrs",
           "normalized": "[Attr]",
@@ -12029,6 +13067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssSourceTitle",
           "package": "feed",
@@ -12038,6 +13077,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssSourceTitle",
           "package": "feed",
@@ -12051,6 +13091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssSourceURL",
           "package": "feed",
@@ -12060,6 +13101,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssSourceURL",
           "package": "feed",
@@ -12073,6 +13115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssTTL",
           "package": "feed",
@@ -12082,6 +13125,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssTTL",
           "package": "feed",
@@ -12095,6 +13139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInput",
           "package": "feed",
@@ -12104,6 +13149,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInput",
           "package": "feed",
@@ -12117,6 +13163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInputAttrs",
           "package": "feed",
@@ -12126,6 +13173,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInputAttrs",
           "normalized": "[Attr]",
@@ -12141,6 +13189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInputDesc",
           "package": "feed",
@@ -12150,6 +13199,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInputDesc",
           "package": "feed",
@@ -12163,6 +13213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInputLink",
           "package": "feed",
@@ -12172,6 +13223,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInputLink",
           "package": "feed",
@@ -12185,6 +13237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInputName",
           "package": "feed",
@@ -12194,6 +13247,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInputName",
           "package": "feed",
@@ -12207,6 +13261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInputOther",
           "package": "feed",
@@ -12216,6 +13271,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInputOther",
           "normalized": "[Element]",
@@ -12231,6 +13287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInputTitle",
           "package": "feed",
@@ -12240,6 +13297,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssTextInputTitle",
           "package": "feed",
@@ -12253,6 +13311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssTitle",
           "package": "feed",
@@ -12262,6 +13321,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssTitle",
           "package": "feed",
@@ -12275,6 +13335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssVersion",
           "package": "feed",
@@ -12284,6 +13345,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssVersion",
           "package": "feed",
@@ -12297,6 +13359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS.Syntax",
           "name": "rssWebMaster",
           "package": "feed",
@@ -12306,6 +13369,7 @@
         },
         "index": {
           "hierarchy": "Text RSS Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS.Syntax",
           "name": "rssWebMaster",
           "package": "feed",
@@ -12319,6 +13383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Export",
           "name": "Export",
           "package": "feed",
@@ -12327,6 +13392,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Export",
           "name": "Export",
           "package": "feed",
@@ -12340,6 +13406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Export",
           "name": "xmlFeed",
           "package": "feed",
@@ -12349,6 +13416,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Export",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Export",
           "name": "xmlFeed",
           "normalized": "Feed-\u003eElement",
@@ -12364,6 +13432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Import",
           "name": "Import",
           "package": "feed",
@@ -12372,6 +13441,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Import",
           "name": "Import",
           "package": "feed",
@@ -12385,6 +13455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Import",
           "name": "elementToFeed",
           "package": "feed",
@@ -12394,6 +13465,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Import",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Import",
           "name": "elementToFeed",
           "normalized": "Element-\u003eMaybe Feed",
@@ -12409,6 +13481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Syntax",
           "package": "feed",
@@ -12417,6 +13490,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Syntax",
           "package": "feed",
@@ -12430,6 +13504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Channel",
           "package": "feed",
@@ -12438,6 +13513,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Channel",
           "package": "feed",
@@ -12451,6 +13527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "ContentInfo",
           "package": "feed",
@@ -12459,6 +13536,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "ContentInfo",
           "package": "feed",
@@ -12472,6 +13550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Feed",
           "package": "feed",
@@ -12480,6 +13559,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Feed",
           "package": "feed",
@@ -12493,6 +13573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Image",
           "package": "feed",
@@ -12501,6 +13582,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Image",
           "package": "feed",
@@ -12514,6 +13596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Item",
           "package": "feed",
@@ -12522,6 +13605,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Item",
           "package": "feed",
@@ -12535,6 +13619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "TaxonomyTopic",
           "package": "feed",
@@ -12543,6 +13628,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "TaxonomyTopic",
           "package": "feed",
@@ -12556,6 +13642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "TextInputInfo",
           "package": "feed",
@@ -12564,6 +13651,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "TextInputInfo",
           "package": "feed",
@@ -12577,6 +13665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "TextString",
           "package": "feed",
@@ -12585,6 +13674,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "TextString",
           "package": "feed",
@@ -12598,6 +13688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "TimeString",
           "package": "feed",
@@ -12606,6 +13697,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "TimeString",
           "package": "feed",
@@ -12619,6 +13711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "TitleString",
           "package": "feed",
@@ -12627,6 +13720,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "TitleString",
           "package": "feed",
@@ -12640,6 +13734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "URIString",
           "package": "feed",
@@ -12648,6 +13743,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "URIString",
           "package": "feed",
@@ -12661,6 +13757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "UpdatePeriod",
           "package": "feed",
@@ -12669,6 +13766,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "UpdatePeriod",
           "package": "feed",
@@ -12682,6 +13780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Channel",
           "package": "feed",
@@ -12691,6 +13790,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Channel",
           "package": "feed",
@@ -12704,6 +13804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "ContentInfo",
           "package": "feed",
@@ -12713,6 +13814,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "ContentInfo",
           "package": "feed",
@@ -12726,6 +13828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Feed",
           "package": "feed",
@@ -12735,6 +13838,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Feed",
           "package": "feed",
@@ -12748,6 +13852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Image",
           "package": "feed",
@@ -12757,6 +13862,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Image",
           "package": "feed",
@@ -12770,6 +13876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Item",
           "package": "feed",
@@ -12779,6 +13886,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Item",
           "package": "feed",
@@ -12792,6 +13900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "TaxonomyTopic",
           "package": "feed",
@@ -12801,6 +13910,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "TaxonomyTopic",
           "package": "feed",
@@ -12814,6 +13924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "TextInputInfo",
           "package": "feed",
@@ -12823,6 +13934,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "TextInputInfo",
           "package": "feed",
@@ -12836,6 +13948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Update_Daily",
           "package": "feed",
@@ -12845,6 +13958,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Update_Daily",
           "package": "feed",
@@ -12858,6 +13972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Update_Hourly",
           "package": "feed",
@@ -12867,6 +13982,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Update_Hourly",
           "package": "feed",
@@ -12880,6 +13996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Update_Monthly",
           "package": "feed",
@@ -12889,6 +14006,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Update_Monthly",
           "package": "feed",
@@ -12902,6 +14020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Update_Weekly",
           "package": "feed",
@@ -12911,6 +14030,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Update_Weekly",
           "package": "feed",
@@ -12924,6 +14044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "Update_Yearly",
           "package": "feed",
@@ -12933,6 +14054,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "Update_Yearly",
           "package": "feed",
@@ -12946,6 +14068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelAttrs",
           "package": "feed",
@@ -12955,6 +14078,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelAttrs",
           "normalized": "[Attr]",
@@ -12970,6 +14094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelContent",
           "package": "feed",
@@ -12979,6 +14104,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelContent",
           "normalized": "[ContentInfo]",
@@ -12994,6 +14120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelDC",
           "package": "feed",
@@ -13003,6 +14130,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelDC",
           "normalized": "[DCItem]",
@@ -13018,6 +14146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelDesc",
           "package": "feed",
@@ -13027,6 +14156,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelDesc",
           "package": "feed",
@@ -13040,6 +14170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelImageURI",
           "package": "feed",
@@ -13049,6 +14180,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelImageURI",
           "package": "feed",
@@ -13062,6 +14194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelItemURIs",
           "package": "feed",
@@ -13071,6 +14204,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelItemURIs",
           "normalized": "[URIString]",
@@ -13086,6 +14220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelLink",
           "package": "feed",
@@ -13095,6 +14230,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelLink",
           "package": "feed",
@@ -13108,6 +14244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelOther",
           "package": "feed",
@@ -13117,6 +14254,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelOther",
           "normalized": "[Element]",
@@ -13132,6 +14270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelTextInputURI",
           "package": "feed",
@@ -13141,6 +14280,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelTextInputURI",
           "package": "feed",
@@ -13154,6 +14294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelTitle",
           "package": "feed",
@@ -13163,6 +14304,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelTitle",
           "package": "feed",
@@ -13176,6 +14318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelTopics",
           "package": "feed",
@@ -13185,6 +14328,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelTopics",
           "normalized": "[URIString]",
@@ -13200,6 +14344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelURI",
           "package": "feed",
@@ -13209,6 +14354,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelURI",
           "package": "feed",
@@ -13222,6 +14368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelUpdateBase",
           "package": "feed",
@@ -13231,6 +14378,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelUpdateBase",
           "package": "feed",
@@ -13244,6 +14392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelUpdateFreq",
           "package": "feed",
@@ -13253,6 +14402,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelUpdateFreq",
           "package": "feed",
@@ -13266,6 +14416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "channelUpdatePeriod",
           "package": "feed",
@@ -13275,6 +14426,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "channelUpdatePeriod",
           "package": "feed",
@@ -13288,6 +14440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "contentEncoding",
           "package": "feed",
@@ -13297,6 +14450,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "contentEncoding",
           "package": "feed",
@@ -13310,6 +14464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "contentFormat",
           "package": "feed",
@@ -13319,6 +14474,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "contentFormat",
           "package": "feed",
@@ -13332,6 +14488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "contentURI",
           "package": "feed",
@@ -13341,6 +14498,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "contentURI",
           "package": "feed",
@@ -13354,6 +14512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "contentValue",
           "package": "feed",
@@ -13363,6 +14522,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "contentValue",
           "package": "feed",
@@ -13376,6 +14536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "feedAttrs",
           "package": "feed",
@@ -13385,6 +14546,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "feedAttrs",
           "normalized": "[Attr]",
@@ -13400,6 +14562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "feedChannel",
           "package": "feed",
@@ -13409,6 +14572,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "feedChannel",
           "package": "feed",
@@ -13422,6 +14586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "feedImage",
           "package": "feed",
@@ -13431,6 +14596,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "feedImage",
           "package": "feed",
@@ -13444,6 +14610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "feedItems",
           "package": "feed",
@@ -13453,6 +14620,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "feedItems",
           "normalized": "[Item]",
@@ -13468,6 +14636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "feedOther",
           "package": "feed",
@@ -13477,6 +14646,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "feedOther",
           "normalized": "[Element]",
@@ -13492,6 +14662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "feedTextInput",
           "package": "feed",
@@ -13501,6 +14672,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "feedTextInput",
           "package": "feed",
@@ -13514,6 +14686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "feedTopics",
           "package": "feed",
@@ -13523,6 +14696,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "feedTopics",
           "normalized": "[TaxonomyTopic]",
@@ -13538,6 +14712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "feedVersion",
           "package": "feed",
@@ -13547,6 +14722,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "feedVersion",
           "package": "feed",
@@ -13560,6 +14736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "imageAttrs",
           "package": "feed",
@@ -13569,6 +14746,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "imageAttrs",
           "normalized": "[Attr]",
@@ -13584,6 +14762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "imageDC",
           "package": "feed",
@@ -13593,6 +14772,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "imageDC",
           "normalized": "[DCItem]",
@@ -13608,6 +14788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "imageLink",
           "package": "feed",
@@ -13617,6 +14798,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "imageLink",
           "package": "feed",
@@ -13630,6 +14812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "imageOther",
           "package": "feed",
@@ -13639,6 +14822,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "imageOther",
           "normalized": "[Element]",
@@ -13654,6 +14838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "imageTitle",
           "package": "feed",
@@ -13663,6 +14848,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "imageTitle",
           "package": "feed",
@@ -13676,6 +14862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "imageURI",
           "package": "feed",
@@ -13685,6 +14872,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "imageURI",
           "package": "feed",
@@ -13698,6 +14886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "imageURL",
           "package": "feed",
@@ -13707,6 +14896,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "imageURL",
           "package": "feed",
@@ -13720,6 +14910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "itemAttrs",
           "package": "feed",
@@ -13729,6 +14920,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "itemAttrs",
           "normalized": "[Attr]",
@@ -13744,6 +14936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "itemContent",
           "package": "feed",
@@ -13753,6 +14946,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "itemContent",
           "normalized": "[ContentInfo]",
@@ -13768,6 +14962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "itemDC",
           "package": "feed",
@@ -13777,6 +14972,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "itemDC",
           "normalized": "[DCItem]",
@@ -13792,6 +14988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "itemDesc",
           "package": "feed",
@@ -13801,6 +14998,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "itemDesc",
           "package": "feed",
@@ -13814,6 +15012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "itemLink",
           "package": "feed",
@@ -13823,6 +15022,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "itemLink",
           "package": "feed",
@@ -13836,6 +15036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "itemOther",
           "package": "feed",
@@ -13845,6 +15046,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "itemOther",
           "normalized": "[Element]",
@@ -13860,6 +15062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "itemTitle",
           "package": "feed",
@@ -13869,6 +15072,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "itemTitle",
           "package": "feed",
@@ -13882,6 +15086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "itemTopics",
           "package": "feed",
@@ -13891,6 +15096,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "itemTopics",
           "normalized": "[URIString]",
@@ -13906,6 +15112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "itemURI",
           "package": "feed",
@@ -13915,6 +15122,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "itemURI",
           "package": "feed",
@@ -13928,6 +15136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "nullChannel",
           "package": "feed",
@@ -13937,6 +15146,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "nullChannel",
           "normalized": "URIString-\u003eTitleString-\u003eChannel",
@@ -13952,6 +15162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "nullContentInfo",
           "package": "feed",
@@ -13961,6 +15172,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "nullContentInfo",
           "package": "feed",
@@ -13974,6 +15186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "nullFeed",
           "package": "feed",
@@ -13983,6 +15196,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "nullFeed",
           "normalized": "URIString-\u003eTitleString-\u003eFeed",
@@ -13998,6 +15212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "nullImage",
           "package": "feed",
@@ -14007,6 +15222,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "nullImage",
           "normalized": "URIString-\u003eString-\u003eURIString-\u003eImage",
@@ -14022,6 +15238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "nullItem",
           "package": "feed",
@@ -14031,6 +15248,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "nullItem",
           "normalized": "URIString-\u003eTextString-\u003eURIString-\u003eItem",
@@ -14046,6 +15264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "nullTaxonomyTopic",
           "package": "feed",
@@ -14055,6 +15274,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "nullTaxonomyTopic",
           "normalized": "URIString-\u003eURIString-\u003eTaxonomyTopic",
@@ -14070,6 +15290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "nullTextInputInfo",
           "package": "feed",
@@ -14079,6 +15300,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "nullTextInputInfo",
           "normalized": "URIString-\u003eTextString-\u003eTextString-\u003eURIString-\u003eTextInputInfo",
@@ -14094,6 +15316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyDC",
           "package": "feed",
@@ -14103,6 +15326,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyDC",
           "normalized": "[DCItem]",
@@ -14118,6 +15342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyDesc",
           "package": "feed",
@@ -14127,6 +15352,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyDesc",
           "package": "feed",
@@ -14140,6 +15366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyLink",
           "package": "feed",
@@ -14149,6 +15376,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyLink",
           "package": "feed",
@@ -14162,6 +15390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyOther",
           "package": "feed",
@@ -14171,6 +15400,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyOther",
           "normalized": "[Element]",
@@ -14186,6 +15416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyTitle",
           "package": "feed",
@@ -14195,6 +15426,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyTitle",
           "package": "feed",
@@ -14208,6 +15440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyTopics",
           "package": "feed",
@@ -14217,6 +15450,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyTopics",
           "normalized": "[URIString]",
@@ -14232,6 +15466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyURI",
           "package": "feed",
@@ -14241,6 +15476,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "taxonomyURI",
           "package": "feed",
@@ -14254,6 +15490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "textInputAttrs",
           "package": "feed",
@@ -14263,6 +15500,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "textInputAttrs",
           "normalized": "[Attr]",
@@ -14278,6 +15516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "textInputDC",
           "package": "feed",
@@ -14287,6 +15526,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "textInputDC",
           "normalized": "[DCItem]",
@@ -14302,6 +15542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "textInputDesc",
           "package": "feed",
@@ -14311,6 +15552,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "textInputDesc",
           "package": "feed",
@@ -14324,6 +15566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "textInputLink",
           "package": "feed",
@@ -14333,6 +15576,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "textInputLink",
           "package": "feed",
@@ -14346,6 +15590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "textInputName",
           "package": "feed",
@@ -14355,6 +15600,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "textInputName",
           "package": "feed",
@@ -14368,6 +15614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "textInputOther",
           "package": "feed",
@@ -14377,6 +15624,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "textInputOther",
           "normalized": "[Element]",
@@ -14392,6 +15640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "textInputTitle",
           "package": "feed",
@@ -14401,6 +15650,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "textInputTitle",
           "package": "feed",
@@ -14414,6 +15664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Syntax",
           "name": "textInputURI",
           "package": "feed",
@@ -14423,6 +15674,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Syntax",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Syntax",
           "name": "textInputURI",
           "package": "feed",
@@ -14436,6 +15688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "Utils",
           "package": "feed",
@@ -14444,6 +15697,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "Utils",
           "package": "feed",
@@ -14457,6 +15711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "children",
           "package": "feed",
@@ -14466,6 +15721,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "children",
           "normalized": "Element-\u003e[Element]",
@@ -14480,6 +15736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "conNS",
           "package": "feed",
@@ -14489,6 +15746,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "conNS",
           "package": "feed",
@@ -14502,6 +15760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "conPrefix",
           "package": "feed",
@@ -14511,6 +15770,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "conPrefix",
           "package": "feed",
@@ -14524,6 +15784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "dcNS",
           "package": "feed",
@@ -14533,6 +15794,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "dcNS",
           "package": "feed",
@@ -14546,6 +15808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "dcPrefix",
           "package": "feed",
@@ -14555,6 +15818,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "dcPrefix",
           "package": "feed",
@@ -14568,6 +15832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "known_con_elts",
           "package": "feed",
@@ -14577,6 +15842,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "known_con_elts",
           "normalized": "[QName]",
@@ -14591,6 +15857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "known_dc_elts",
           "package": "feed",
@@ -14600,6 +15867,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "known_dc_elts",
           "normalized": "[QName]",
@@ -14614,6 +15882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "known_rss_elts",
           "package": "feed",
@@ -14623,6 +15892,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "known_rss_elts",
           "normalized": "[QName]",
@@ -14637,6 +15907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "known_syn_elts",
           "package": "feed",
@@ -14646,6 +15917,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "known_syn_elts",
           "normalized": "[QName]",
@@ -14660,6 +15932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "known_tax_elts",
           "package": "feed",
@@ -14669,6 +15942,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "known_tax_elts",
           "normalized": "[QName]",
@@ -14683,6 +15957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "pAttr",
           "package": "feed",
@@ -14692,6 +15967,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "pAttr",
           "normalized": "(Maybe String,Maybe String)-\u003eString-\u003eElement-\u003eMaybe String",
@@ -14707,6 +15983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "pLeaf",
           "package": "feed",
@@ -14716,6 +15993,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "pLeaf",
           "normalized": "String-\u003eElement-\u003eMaybe String",
@@ -14731,6 +16009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "pMany",
           "package": "feed",
@@ -14740,6 +16019,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "pMany",
           "normalized": "(Maybe String,Maybe String)-\u003eString-\u003e(Element-\u003eMaybe a)-\u003eElement-\u003e[a]",
@@ -14755,6 +16035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "pNode",
           "package": "feed",
@@ -14764,6 +16045,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "pNode",
           "normalized": "String-\u003eElement-\u003eMaybe Element",
@@ -14779,6 +16061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "pQLeaf",
           "package": "feed",
@@ -14788,6 +16071,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "pQLeaf",
           "normalized": "(Maybe String,Maybe String)-\u003eString-\u003eElement-\u003eMaybe String",
@@ -14803,6 +16087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "pQNode",
           "package": "feed",
@@ -14812,6 +16097,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "pQNode",
           "normalized": "QName-\u003eElement-\u003eMaybe Element",
@@ -14827,6 +16113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "pQNodes",
           "package": "feed",
@@ -14836,6 +16123,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "pQNodes",
           "normalized": "QName-\u003eElement-\u003e[Element]",
@@ -14851,6 +16139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "qualName",
           "package": "feed",
@@ -14860,6 +16149,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "qualName",
           "normalized": "(Maybe String,Maybe String)-\u003eString-\u003eQName",
@@ -14875,6 +16165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "rdfNS",
           "package": "feed",
@@ -14884,6 +16175,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "rdfNS",
           "package": "feed",
@@ -14897,6 +16189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "rdfName",
           "package": "feed",
@@ -14906,6 +16199,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "rdfName",
           "normalized": "String-\u003eQName",
@@ -14921,6 +16215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "rdfPrefix",
           "package": "feed",
@@ -14930,6 +16225,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "rdfPrefix",
           "package": "feed",
@@ -14943,6 +16239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "removeKnownAttrs",
           "package": "feed",
@@ -14952,6 +16249,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "removeKnownAttrs",
           "normalized": "Element-\u003e[Attr]",
@@ -14967,6 +16265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "removeKnownElts",
           "package": "feed",
@@ -14976,6 +16275,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "removeKnownElts",
           "normalized": "Element-\u003e[Element]",
@@ -14991,6 +16291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "rss10NS",
           "package": "feed",
@@ -15000,6 +16301,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "rss10NS",
           "package": "feed",
@@ -15013,6 +16315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "rssName",
           "package": "feed",
@@ -15022,6 +16325,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "rssName",
           "normalized": "String-\u003eQName",
@@ -15037,6 +16341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "rssPrefix",
           "package": "feed",
@@ -15046,6 +16351,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "rssPrefix",
           "package": "feed",
@@ -15059,6 +16365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "synNS",
           "package": "feed",
@@ -15068,6 +16375,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "synNS",
           "package": "feed",
@@ -15081,6 +16389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "synName",
           "package": "feed",
@@ -15090,6 +16399,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "synName",
           "normalized": "String-\u003eQName",
@@ -15105,6 +16415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "synPrefix",
           "package": "feed",
@@ -15114,6 +16425,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "synPrefix",
           "package": "feed",
@@ -15127,6 +16439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "taxNS",
           "package": "feed",
@@ -15136,6 +16449,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "taxNS",
           "package": "feed",
@@ -15149,6 +16463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:28 UTC 2014",
           "module": "Text.RSS1.Utils",
           "name": "taxPrefix",
           "package": "feed",
@@ -15158,6 +16473,7 @@
         },
         "index": {
           "hierarchy": "Text RSS1 Utils",
+          "indexed": "2014-03-11T18:07:28",
           "module": "Text.RSS1.Utils",
           "name": "taxPrefix",
           "package": "feed",

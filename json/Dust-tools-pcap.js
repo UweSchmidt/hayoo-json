@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Dust-tools-pcap"
+        "phrase": "Dust-tools-pcap",
+        "type": "phrase"
       },
       "type": "context"
     }

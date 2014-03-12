@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HPath"
+        "phrase": "HPath",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.Cabal",
           "name": "Cabal",
           "package": "HPath",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HPath Cabal",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.Cabal",
           "name": "Cabal",
           "package": "HPath",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a Cabal file in the given directory and tell us what extensions are\n    in play and what the source directories are.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.Cabal",
           "name": "info",
           "package": "HPath",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Open Cabal file in the given directory and tell us what extensions are in play and what the source directories are",
           "hierarchy": "HPath Cabal",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.Cabal",
           "name": "info",
           "normalized": "FilePath-\u003eIO([Extension],[FilePath])",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "Classes",
           "package": "HPath",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "HPath HaskellSrcExts Classes",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "Classes",
           "package": "HPath",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "HasModuleName",
           "package": "HPath",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "HPath HaskellSrcExts Classes",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "HasModuleName",
           "package": "HPath",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "MentionsNames",
           "package": "HPath",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "HPath HaskellSrcExts Classes",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "MentionsNames",
           "package": "HPath",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "SearchModule",
           "package": "HPath",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "HPath HaskellSrcExts Classes",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "SearchModule",
           "package": "HPath",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "declarations",
           "package": "HPath",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "HPath HaskellSrcExts Classes",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "declarations",
           "normalized": "Module a-\u003eb a-\u003e[Decl a]",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "match",
           "package": "HPath",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "HPath HaskellSrcExts Classes",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "match",
           "normalized": "a b-\u003eName b-\u003eBool",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "module_name",
           "package": "HPath",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "HPath HaskellSrcExts Classes",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.HaskellSrcExts.Classes",
           "name": "module_name",
           "normalized": "a b-\u003eString",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.HaskellSrcExts",
           "name": "HaskellSrcExts",
           "package": "HPath",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "HPath HaskellSrcExts",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.HaskellSrcExts",
           "name": "HaskellSrcExts",
           "package": "HPath",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.HaskellSrcExts",
           "name": "extension_conversion",
           "package": "HPath",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "HPath HaskellSrcExts",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.HaskellSrcExts",
           "name": "extension_conversion",
           "normalized": "[Extension]-\u003e[Extension]",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.HaskellSrcExts",
           "name": "modules",
           "package": "HPath",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "HPath HaskellSrcExts",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.HaskellSrcExts",
           "name": "modules",
           "normalized": "[FilePath]-\u003e[Extension]-\u003eIO([Module SrcSpanInfo],([(SrcLoc,String)],[(FilePath,IOError)]))",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.HaskellSrcExts",
           "name": "qname",
           "package": "HPath",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "HPath HaskellSrcExts",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.HaskellSrcExts",
           "name": "qname",
           "normalized": "Path-\u003eQName SrcSpanInfo",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.HaskellSrcExts",
           "name": "search",
           "package": "HPath",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "HPath HaskellSrcExts",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.HaskellSrcExts",
           "name": "search",
           "normalized": "Path-\u003e[Module SrcSpanInfo]-\u003e[Decl SrcSpanInfo]",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.Hierarchy",
           "name": "Hierarchy",
           "package": "HPath",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "HPath Hierarchy",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.Hierarchy",
           "name": "Hierarchy",
           "package": "HPath",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce file paths to search for this Haskell name, accomodating JHC style\n    paths as well as GHC style paths. The GHC style path comes first in order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.Hierarchy",
           "name": "paths",
           "package": "HPath",
@@ -362,6 +393,7 @@
         "index": {
           "description": "Produce file paths to search for this Haskell name accomodating JHC style paths as well as GHC style paths The GHC style path comes first in order",
           "hierarchy": "HPath Hierarchy",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.Hierarchy",
           "name": "paths",
           "normalized": "Path-\u003e[[Char]]",
@@ -377,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser for Haskell. Not complete and just parses strings to strings. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.Parser.Lower",
           "name": "Lower",
           "package": "HPath",
@@ -386,6 +419,7 @@
         "index": {
           "description": "Parser for Haskell Not complete and just parses strings to strings",
           "hierarchy": "HPath Parser Lower",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.Parser.Lower",
           "name": "Lower",
           "package": "HPath",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.Path",
           "name": "Path",
           "package": "HPath",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "HPath Path",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.Path",
           "name": "Path",
           "package": "HPath",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.Path",
           "name": "Path",
           "package": "HPath",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "HPath Path",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.Path",
           "name": "Path",
           "package": "HPath",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.Path",
           "name": "Path",
           "package": "HPath",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "HPath Path",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.Path",
           "name": "Path",
           "normalized": "Path[String]String String",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.Path",
           "name": "parse",
           "package": "HPath",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "HPath Path",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.Path",
           "name": "parse",
           "normalized": "String-\u003eEither ParseError Path",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:05 UTC 2014",
           "module": "HPath.Path",
           "name": "url",
           "package": "HPath",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "HPath Path",
+          "indexed": "2014-03-11T16:46:05",
           "module": "HPath.Path",
           "name": "url",
           "normalized": "Path-\u003eString",

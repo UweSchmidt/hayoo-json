@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nicify"
+        "phrase": "nicify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:09 UTC 2014",
           "module": "Text.Nicify",
           "name": "Nicify",
           "package": "nicify",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Nicify",
+          "indexed": "2014-03-11T19:29:09",
           "module": "Text.Nicify",
           "name": "Nicify",
           "package": "nicify",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:09 UTC 2014",
           "module": "Text.Nicify",
           "name": "X",
           "package": "nicify",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Nicify",
+          "indexed": "2014-03-11T19:29:09",
           "module": "Text.Nicify",
           "name": "X",
           "package": "nicify",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:09 UTC 2014",
           "module": "Text.Nicify",
           "name": "XAnything",
           "package": "nicify",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Nicify",
+          "indexed": "2014-03-11T19:29:09",
           "module": "Text.Nicify",
           "name": "XAnything",
           "package": "nicify",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:09 UTC 2014",
           "module": "Text.Nicify",
           "name": "XBrackets",
           "package": "nicify",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text Nicify",
+          "indexed": "2014-03-11T19:29:09",
           "module": "Text.Nicify",
           "name": "XBrackets",
           "normalized": "XBrackets[X]",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:09 UTC 2014",
           "module": "Text.Nicify",
           "name": "XCurly",
           "package": "nicify",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text Nicify",
+          "indexed": "2014-03-11T19:29:09",
           "module": "Text.Nicify",
           "name": "XCurly",
           "normalized": "XCurly[X]",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:09 UTC 2014",
           "module": "Text.Nicify",
           "name": "XSep",
           "package": "nicify",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Text Nicify",
+          "indexed": "2014-03-11T19:29:09",
           "module": "Text.Nicify",
           "name": "XSep",
           "package": "nicify",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:09 UTC 2014",
           "module": "Text.Nicify",
           "name": "XString",
           "package": "nicify",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Text Nicify",
+          "indexed": "2014-03-11T19:29:09",
           "module": "Text.Nicify",
           "name": "XString",
           "package": "nicify",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:09 UTC 2014",
           "module": "Text.Nicify",
           "name": "nicify",
           "package": "nicify",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Text Nicify",
+          "indexed": "2014-03-11T19:29:09",
           "module": "Text.Nicify",
           "name": "nicify",
           "normalized": "String-\u003eString",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:09 UTC 2014",
           "module": "Text.Nicify",
           "name": "parseX",
           "package": "nicify",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Text Nicify",
+          "indexed": "2014-03-11T19:29:09",
           "module": "Text.Nicify",
           "name": "parseX",
           "normalized": "String-\u003e[X]",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:09 UTC 2014",
           "module": "Text.Nicify",
           "name": "printX",
           "package": "nicify",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Text Nicify",
+          "indexed": "2014-03-11T19:29:09",
           "module": "Text.Nicify",
           "name": "printX",
           "normalized": "[X]-\u003eString",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:09 UTC 2014",
           "module": "Text.Nicify",
           "name": "printX'",
           "package": "nicify",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Text Nicify",
+          "indexed": "2014-03-11T19:29:09",
           "module": "Text.Nicify",
           "name": "printX'",
           "normalized": "String-\u003e[X]-\u003eString",

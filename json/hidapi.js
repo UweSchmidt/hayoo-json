@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hidapi"
+        "phrase": "hidapi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "HIDAPI",
           "package": "hidapi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "HIDAPI",
           "package": "hidapi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "Device",
           "package": "hidapi",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "Device",
           "package": "hidapi",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "DeviceInfo",
           "package": "hidapi",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "DeviceInfo",
           "package": "hidapi",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "DevicePath",
           "package": "hidapi",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "DevicePath",
           "package": "hidapi",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "HIDAPIException",
           "package": "hidapi",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "HIDAPIException",
           "package": "hidapi",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "InterfaceNumber",
           "package": "hidapi",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "InterfaceNumber",
           "package": "hidapi",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "ProductID",
           "package": "hidapi",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "ProductID",
           "package": "hidapi",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "ReleaseNumber",
           "package": "hidapi",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "ReleaseNumber",
           "package": "hidapi",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "SerialNumber",
           "package": "hidapi",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "SerialNumber",
           "package": "hidapi",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "VendorID",
           "package": "hidapi",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "VendorID",
           "package": "hidapi",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "DeviceInfo",
           "package": "hidapi",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "DeviceInfo",
           "package": "hidapi",
@@ -250,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "HIDAPIException",
           "package": "hidapi",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "HIDAPIException",
           "package": "hidapi",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "close",
           "package": "hidapi",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "close",
           "normalized": "Device-\u003eIO()",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "enumerate",
           "package": "hidapi",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "enumerate",
           "normalized": "Maybe VendorID-\u003eMaybe ProductID-\u003eIO[DeviceInfo]",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "enumerateAll",
           "package": "hidapi",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "enumerateAll",
           "normalized": "IO[DeviceInfo]",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "error",
           "package": "hidapi",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "error",
           "normalized": "Device-\u003eIO(Maybe String)",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "exit",
           "package": "hidapi",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "exit",
           "normalized": "IO()",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "getSerialNumberString",
           "package": "hidapi",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "getSerialNumberString",
           "normalized": "Device-\u003eIO SerialNumber",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "init",
           "package": "hidapi",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "init",
           "normalized": "IO()",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "interfaceNumber",
           "package": "hidapi",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "interfaceNumber",
           "package": "hidapi",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "manufacturerString",
           "package": "hidapi",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "manufacturerString",
           "package": "hidapi",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "open",
           "package": "hidapi",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "open",
           "normalized": "VendorID-\u003eProductID-\u003eMaybe SerialNumber-\u003eIO Device",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "openDeviceInfo",
           "package": "hidapi",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "openDeviceInfo",
           "normalized": "DeviceInfo-\u003eIO Device",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "openPath",
           "package": "hidapi",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "openPath",
           "normalized": "DevicePath-\u003eIO Device",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "path",
           "package": "hidapi",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "path",
           "package": "hidapi",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "productId",
           "package": "hidapi",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "productId",
           "package": "hidapi",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "productString",
           "package": "hidapi",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "productString",
           "package": "hidapi",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "read",
           "package": "hidapi",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "read",
           "normalized": "Device-\u003eInt-\u003eIO ByteString",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "releaseNumber",
           "package": "hidapi",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "releaseNumber",
           "package": "hidapi",
@@ -660,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "serialNumber",
           "package": "hidapi",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "serialNumber",
           "package": "hidapi",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "usage",
           "package": "hidapi",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "usage",
           "package": "hidapi",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "usagePage",
           "package": "hidapi",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "usagePage",
           "package": "hidapi",
@@ -725,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "vendorId",
           "package": "hidapi",
@@ -734,6 +799,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "vendorId",
           "package": "hidapi",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "withHIDAPI",
           "package": "hidapi",
@@ -756,6 +823,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "withHIDAPI",
           "normalized": "IO a-\u003eIO a",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:51 UTC 2014",
           "module": "System.HIDAPI",
           "name": "write",
           "package": "hidapi",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "System HIDAPI",
+          "indexed": "2014-03-11T18:38:51",
           "module": "System.HIDAPI",
           "name": "write",
           "normalized": "Device-\u003eByteString-\u003eIO Int",

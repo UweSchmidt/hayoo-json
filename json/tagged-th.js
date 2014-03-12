@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tagged-th"
+        "phrase": "tagged-th",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA parser for simple type expressions, including kinds and excluding operators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:32 UTC 2014",
           "module": "Data.Proxy.TH.Aux",
           "name": "Aux",
           "package": "tagged-th",
@@ -28,6 +29,7 @@
         "index": {
           "description": "parser for simple type expressions including kinds and excluding operators",
           "hierarchy": "Data Proxy TH Aux",
+          "indexed": "2014-03-11T20:16:32",
           "module": "Data.Proxy.TH.Aux",
           "name": "Aux",
           "package": "tagged-th",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:32 UTC 2014",
           "module": "Data.Proxy.TH.Aux",
           "name": "parseIdent",
           "package": "tagged-th",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy TH Aux",
+          "indexed": "2014-03-11T20:16:32",
           "module": "Data.Proxy.TH.Aux",
           "name": "parseIdent",
           "normalized": "String-\u003ea([Type],String)",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:32 UTC 2014",
           "module": "Data.Proxy.TH.Aux",
           "name": "parseProxy",
           "package": "tagged-th",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy TH Aux",
+          "indexed": "2014-03-11T20:16:32",
           "module": "Data.Proxy.TH.Aux",
           "name": "parseProxy",
           "normalized": "String-\u003ea((Type,Kind),String)",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:32 UTC 2014",
           "module": "Data.Proxy.TH.Aux",
           "name": "parseProxy_",
           "package": "tagged-th",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy TH Aux",
+          "indexed": "2014-03-11T20:16:32",
           "module": "Data.Proxy.TH.Aux",
           "name": "parseProxy_",
           "normalized": "String-\u003ea(Type,Kind)",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:32 UTC 2014",
           "module": "Data.Proxy.TH.Aux",
           "name": "thProxyT_fail",
           "package": "tagged-th",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy TH Aux",
+          "indexed": "2014-03-11T20:16:32",
           "module": "Data.Proxy.TH.Aux",
           "name": "thProxyT_fail",
           "normalized": "Maybe Name-\u003eQ a",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuasiquoter and TH-splice generator for proxies using \u003ccode\u003etype-spine\u003c/code\u003e's \u003ccode\u003ek -\u003e *\u003c/code\u003e\nkind wrappers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:32 UTC 2014",
           "module": "Data.Proxy.TH",
           "name": "TH",
           "package": "tagged-th",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Quasiquoter and TH-splice generator for proxies using type-spine kind wrappers",
           "hierarchy": "Data Proxy TH",
+          "indexed": "2014-03-11T20:16:32",
           "module": "Data.Proxy.TH",
           "name": "TH",
           "package": "tagged-th",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:32 UTC 2014",
           "module": "Data.Proxy.TH",
           "name": "Proxy",
           "package": "tagged-th",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy TH",
+          "indexed": "2014-03-11T20:16:32",
           "module": "Data.Proxy.TH",
           "name": "Proxy",
           "package": "tagged-th",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:32 UTC 2014",
           "module": "Data.Proxy.TH",
           "name": "Proxy",
           "package": "tagged-th",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy TH",
+          "indexed": "2014-03-11T20:16:32",
           "module": "Data.Proxy.TH",
           "name": "Proxy",
           "package": "tagged-th",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:32 UTC 2014",
           "module": "Data.Proxy.TH",
           "name": "qProxy",
           "package": "tagged-th",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy TH",
+          "indexed": "2014-03-11T20:16:32",
           "module": "Data.Proxy.TH",
           "name": "qProxy",
           "package": "tagged-th",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:32 UTC 2014",
           "module": "Data.Proxy.TH",
           "name": "thProxy",
           "package": "tagged-th",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy TH",
+          "indexed": "2014-03-11T20:16:32",
           "module": "Data.Proxy.TH",
           "name": "thProxy",
           "normalized": "Type-\u003eQ Exp",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:32 UTC 2014",
           "module": "Data.Proxy.TH",
           "name": "thProxyT",
           "package": "tagged-th",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy TH",
+          "indexed": "2014-03-11T20:16:32",
           "module": "Data.Proxy.TH",
           "name": "thProxyT",
           "normalized": "Type-\u003eQ Type",

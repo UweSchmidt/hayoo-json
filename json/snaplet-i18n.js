@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-i18n"
+        "phrase": "snaplet-i18n",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:44 UTC 2014",
           "module": "Snap.Snaplet.I18N",
           "name": "I18N",
           "package": "snaplet-i18n",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet I18N",
+          "indexed": "2014-03-11T20:05:44",
           "module": "Snap.Snaplet.I18N",
           "name": "I18N",
           "package": "snaplet-i18n",
@@ -39,6 +41,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose App with a I18N Snaplet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:44 UTC 2014",
           "module": "Snap.Snaplet.I18N",
           "name": "HasI18N",
           "package": "snaplet-i18n",
@@ -48,6 +51,7 @@
         "index": {
           "description": "Compose App with I18N Snaplet",
           "hierarchy": "Snap Snaplet I18N",
+          "indexed": "2014-03-11T20:05:44",
           "module": "Snap.Snaplet.I18N",
           "name": "HasI18N",
           "package": "snaplet-i18n",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:44 UTC 2014",
           "module": "Snap.Snaplet.I18N",
           "name": "I18N",
           "package": "snaplet-i18n",
@@ -71,6 +76,7 @@
         "index": {
           "description": "data type",
           "hierarchy": "Snap Snaplet I18N",
+          "indexed": "2014-03-11T20:05:44",
           "module": "Snap.Snaplet.I18N",
           "name": "I18N",
           "package": "snaplet-i18n",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:44 UTC 2014",
           "module": "Snap.Snaplet.I18N",
           "name": "I18NMessage",
           "package": "snaplet-i18n",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Message content",
           "hierarchy": "Snap Snaplet I18N",
+          "indexed": "2014-03-11T20:05:44",
           "module": "Snap.Snaplet.I18N",
           "name": "I18NMessage",
           "package": "snaplet-i18n",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:44 UTC 2014",
           "module": "Snap.Snaplet.I18N",
           "name": "I18NMessage",
           "package": "snaplet-i18n",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet I18N",
+          "indexed": "2014-03-11T20:05:44",
           "module": "Snap.Snaplet.I18N",
           "name": "I18NMessage",
           "package": "snaplet-i18n",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003eI18NMessage\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:44 UTC 2014",
           "module": "Snap.Snaplet.I18N",
           "name": "getI18NMessages",
           "package": "snaplet-i18n",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Get the I18NMessage",
           "hierarchy": "Snap Snaplet I18N",
+          "indexed": "2014-03-11T20:05:44",
           "module": "Snap.Snaplet.I18N",
           "name": "getI18NMessages",
           "package": "snaplet-i18n",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:44 UTC 2014",
           "module": "Snap.Snaplet.I18N",
           "name": "i18nLens",
           "package": "snaplet-i18n",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet I18N",
+          "indexed": "2014-03-11T20:05:44",
           "module": "Snap.Snaplet.I18N",
           "name": "i18nLens",
           "package": "snaplet-i18n",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInit this I18N snaplet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:44 UTC 2014",
           "module": "Snap.Snaplet.I18N",
           "name": "initI18N",
           "package": "snaplet-i18n",
@@ -184,6 +199,7 @@
         "index": {
           "description": "Init this I18N snaplet",
           "hierarchy": "Snap Snaplet I18N",
+          "indexed": "2014-03-11T20:05:44",
           "module": "Snap.Snaplet.I18N",
           "name": "initI18N",
           "normalized": "Maybe Locale-\u003eSnapletInit a I N",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a value in, usuallly Handler Monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:44 UTC 2014",
           "module": "Snap.Snaplet.I18N",
           "name": "lookupI18NValue",
           "package": "snaplet-i18n",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Look up value in usuallly Handler Monad",
           "hierarchy": "Snap Snaplet I18N",
+          "indexed": "2014-03-11T20:05:44",
           "module": "Snap.Snaplet.I18N",
           "name": "lookupI18NValue",
           "normalized": "Text-\u003eHandler a a Text",

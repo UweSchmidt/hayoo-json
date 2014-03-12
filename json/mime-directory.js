@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mime-directory"
+        "phrase": "mime-directory",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLibrary for parsing and generating the text/directory mime content type.\n This library implements all the required mechanisms in RFC 2425, which other\n libraries may use to implement parsing and generating specific profiles,\n such as vCard.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Directory",
           "package": "mime-directory",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Library for parsing and generating the text directory mime content type This library implements all the required mechanisms in RFC which other libraries may use to implement parsing and generating specific profiles such as vCard",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Directory",
           "package": "mime-directory",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA directory is a list of groups of semantically related entities. These\n entities are grouped together in RFC 2425 using \u003ccode\u003eBEGIN ... END\u003c/code\u003e pairs.\n Within a group properties are further grouped together by the property\n types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Directory",
           "package": "mime-directory",
@@ -51,6 +54,7 @@
         "index": {
           "description": "directory is list of groups of semantically related entities These entities are grouped together in RFC using BEGIN END pairs Within group properties are further grouped together by the property types",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Directory",
           "package": "mime-directory",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Parameter",
           "package": "mime-directory",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Parameter",
           "package": "mime-directory",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "PrintValue",
           "package": "mime-directory",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "PrintValue",
           "package": "mime-directory",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Property",
           "package": "mime-directory",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Property",
           "package": "mime-directory",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstantiate Value with this phantom type to indicate that property types\n should be none other than those defined in rfc2425.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Rfc2425Value",
           "package": "mime-directory",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Instantiate Value with this phantom type to indicate that property types should be none other than those defined in rfc2425",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Rfc2425Value",
           "package": "mime-directory",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Type",
           "package": "mime-directory",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Type",
           "package": "mime-directory",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is sufficient to represent values whose specification is defined in\n RFC 2425. Values with other specifications can be represented via the\n \u003ccode\u003e\u003ca\u003eIANAValue\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Value",
           "package": "mime-directory",
@@ -181,6 +196,7 @@
         "index": {
           "description": "This is sufficient to represent values whose specification is defined in RFC Values with other specifications can be represented via the IANAValue constructor",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Value",
           "package": "mime-directory",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of parsers for property values, for instance to read an integer\n property, text property, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "ValueParser",
           "package": "mime-directory",
@@ -204,6 +221,7 @@
         "index": {
           "description": "The type of parsers for property values for instance to read an integer property text property etc",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "ValueParser",
           "package": "mime-directory",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the given property is an instance of the given type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "(@@)",
           "package": "mime-directory",
@@ -228,6 +247,7 @@
         "index": {
           "description": "Check whether the given property is an instance of the given type",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "(@@) @@",
           "normalized": "Property a-\u003eByteString-\u003eBool",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Boolean",
           "package": "mime-directory",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Boolean",
           "package": "mime-directory",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Date",
           "package": "mime-directory",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Date",
           "package": "mime-directory",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "DateTime",
           "package": "mime-directory",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "DateTime",
           "package": "mime-directory",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Float",
           "package": "mime-directory",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Float",
           "package": "mime-directory",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn IANA defined type not part of rfc2425\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "IANAValue",
           "package": "mime-directory",
@@ -341,6 +370,7 @@
         "index": {
           "description": "An IANA defined type not part of rfc2425",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "IANAValue",
           "package": "mime-directory",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Integer",
           "package": "mime-directory",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Integer",
           "package": "mime-directory",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Param",
           "package": "mime-directory",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Param",
           "package": "mime-directory",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Prop",
           "package": "mime-directory",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Prop",
           "package": "mime-directory",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Text",
           "package": "mime-directory",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Text",
           "package": "mime-directory",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Time",
           "package": "mime-directory",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Time",
           "package": "mime-directory",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Type",
           "package": "mime-directory",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "Type",
           "package": "mime-directory",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "URI",
           "package": "mime-directory",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "URI",
           "package": "mime-directory",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "decodeValue",
           "package": "mime-directory",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "decodeValue",
           "normalized": "[Parameter]-\u003eByteString-\u003eByteString",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "encodeValue",
           "package": "mime-directory",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "encodeValue",
           "normalized": "[Parameter]-\u003eByteString-\u003eByteString",
@@ -557,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape any occurrence of the characters given as first argument with a\n backslash. Newlines are always replaced by the two character sequence\n \u003ccode\u003e\u003ca\u003e\\n\u003c/a\u003e\u003c/code\u003e. The backslash character is always escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "escape",
           "package": "mime-directory",
@@ -567,6 +616,7 @@
         "index": {
           "description": "Escape any occurrence of the characters given as first argument with backslash Newlines are always replaced by the two character sequence The backslash character is always escaped",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "escape",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",
@@ -582,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a directory from a list of properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "fromList",
           "package": "mime-directory",
@@ -592,6 +643,7 @@
         "index": {
           "description": "Build directory from list of properties",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "fromList",
           "normalized": "[Property a]-\u003eDirectory a",
@@ -608,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup properties into blocks delimited by \u003ccode\u003ebegin..end\u003c/code\u003e pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "groupByBeginEnd",
           "package": "mime-directory",
@@ -618,6 +671,7 @@
         "index": {
           "description": "Group properties into blocks delimited by begin..end pairs",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "groupByBeginEnd",
           "normalized": "[Property a]-\u003e[[Property a]]",
@@ -634,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the parameter values for a given parameter name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "lookupParameter",
           "package": "mime-directory",
@@ -644,6 +699,7 @@
         "index": {
           "description": "Find the parameter values for given parameter name",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "lookupParameter",
           "normalized": "ByteString-\u003e[Parameter]-\u003eMaybe[ByteString]",
@@ -660,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a parser for single values to a parser for a list of values. This\n assumes that the separator between values is the \u003ca\u003e,\u003c/a\u003e character, and that\n values do not contain commas themselves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "many",
           "package": "mime-directory",
@@ -670,6 +727,7 @@
         "index": {
           "description": "Take parser for single values to parser for list of values This assumes that the separator between values is the character and that values do not contain commas themselves",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "many",
           "normalized": "ValueParser a-\u003eValueParser a",
@@ -685,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a property type without any grouping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "nakedType",
           "package": "mime-directory",
@@ -695,6 +754,7 @@
         "index": {
           "description": "Make property type without any grouping",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "nakedType",
           "normalized": "ByteString-\u003eType",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_URI",
           "package": "mime-directory",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_URI",
           "package": "mime-directory",
@@ -732,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_boolean",
           "package": "mime-directory",
@@ -741,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_boolean",
           "package": "mime-directory",
@@ -753,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_date",
           "package": "mime-directory",
@@ -762,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_date",
           "package": "mime-directory",
@@ -774,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_dateTime",
           "package": "mime-directory",
@@ -783,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_dateTime",
           "package": "mime-directory",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_float",
           "package": "mime-directory",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_float",
           "package": "mime-directory",
@@ -817,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_integer",
           "package": "mime-directory",
@@ -826,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_integer",
           "package": "mime-directory",
@@ -839,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnescape slashes, newlines and commas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_text",
           "package": "mime-directory",
@@ -849,6 +922,7 @@
         "index": {
           "description": "Unescape slashes newlines and commas",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_text",
           "package": "mime-directory",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_textList",
           "package": "mime-directory",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_textList",
           "package": "mime-directory",
@@ -883,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_time",
           "package": "mime-directory",
@@ -892,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "pa_time",
           "package": "mime-directory",
@@ -904,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "param_name",
           "package": "mime-directory",
@@ -913,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "param_name",
           "package": "mime-directory",
@@ -925,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "param_values",
           "package": "mime-directory",
@@ -934,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "param_values",
           "normalized": "[ByteString]",
@@ -949,6 +1031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces a map where properties are grouped together using their type as key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "parseDirectory",
           "package": "mime-directory",
@@ -958,6 +1041,7 @@
         "index": {
           "description": "Produces map where properties are grouped together using their type as key",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "parseDirectory",
           "normalized": "ValueParser a-\u003eByteString-\u003eDirectory a",
@@ -974,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alternative version of \u003ccode\u003e\u003ca\u003eparseDirectory\u003c/a\u003e\u003c/code\u003e that produces a list\n of properties rather than a mapping from property types to\n properties. Note that here properties in the list are in the same\n order as in the input string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "parseDirectory'",
           "package": "mime-directory",
@@ -984,6 +1069,7 @@
         "index": {
           "description": "An alternative version of parseDirectory that produces list of properties rather than mapping from property types to properties Note that here properties in the list are in the same order as in the input string",
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "parseDirectory'",
           "normalized": "ValueParser a-\u003eByteString-\u003e[Property a]",
@@ -999,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "printDirectory",
           "package": "mime-directory",
@@ -1008,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "printDirectory",
           "normalized": "Directory a-\u003eByteString",
@@ -1023,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "printDirectory'",
           "package": "mime-directory",
@@ -1032,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "printDirectory'",
           "normalized": "[Property a]-\u003eByteString",
@@ -1047,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "printProperty",
           "package": "mime-directory",
@@ -1056,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "printProperty",
           "normalized": "Property a-\u003eByteString",
@@ -1071,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "printValue",
           "package": "mime-directory",
@@ -1080,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "printValue",
           "normalized": "a-\u003eByteString",
@@ -1095,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "prop_parameters",
           "package": "mime-directory",
@@ -1104,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "prop_parameters",
           "normalized": "[Parameter]",
@@ -1118,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "prop_type",
           "package": "mime-directory",
@@ -1127,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "prop_type",
           "package": "mime-directory",
@@ -1139,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "prop_value",
           "package": "mime-directory",
@@ -1148,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "prop_value",
           "package": "mime-directory",
@@ -1160,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "type_group",
           "package": "mime-directory",
@@ -1169,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "type_group",
           "package": "mime-directory",
@@ -1181,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "type_name",
           "package": "mime-directory",
@@ -1190,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME ContentType Text Directory",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Codec.MIME.ContentType.Text.Directory",
           "name": "type_name",
           "package": "mime-directory",
@@ -1203,6 +1307,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA variant of ByteString where strings differing in the case of some of\n its characters are identified.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "Caseless",
           "package": "mime-directory",
@@ -1212,6 +1317,7 @@
         "index": {
           "description": "variant of ByteString where strings differing in the case of some of its characters are identified",
           "hierarchy": "Data ByteString Lazy Char8 Caseless",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "Caseless",
           "package": "mime-directory",
@@ -1226,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for case insensitive strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "ByteString",
           "package": "mime-directory",
@@ -1235,6 +1342,7 @@
         "index": {
           "description": "Wrapper for case insensitive strings",
           "hierarchy": "Data ByteString Lazy Char8 Caseless",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "ByteString",
           "package": "mime-directory",
@@ -1248,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "concat",
           "package": "mime-directory",
@@ -1257,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Lazy Char8 Caseless",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "concat",
           "normalized": "[ByteString]-\u003eByteString",
@@ -1271,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "intercalate",
           "package": "mime-directory",
@@ -1280,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Lazy Char8 Caseless",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "intercalate",
           "normalized": "ByteString-\u003e[ByteString]-\u003eByteString",
@@ -1294,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "pack",
           "package": "mime-directory",
@@ -1303,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Lazy Char8 Caseless",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "pack",
           "normalized": "String-\u003eByteString",
@@ -1318,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject back to a regular bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "sensitize",
           "package": "mime-directory",
@@ -1328,6 +1443,7 @@
         "index": {
           "description": "Project back to regular bytestring",
           "hierarchy": "Data ByteString Lazy Char8 Caseless",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "sensitize",
           "normalized": "ByteString-\u003eByteString",
@@ -1342,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "unpack",
           "package": "mime-directory",
@@ -1351,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Lazy Char8 Caseless",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "unpack",
           "normalized": "ByteString-\u003eString",
@@ -1366,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a bytestring into a case insensitive bytestring. Note that the case\n of all letters in the ByteString is folded to lower case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:48 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "unsensitize",
           "package": "mime-directory",
@@ -1376,6 +1495,7 @@
         "index": {
           "description": "Inject bytestring into case insensitive bytestring Note that the case of all letters in the ByteString is folded to lower case",
           "hierarchy": "Data ByteString Lazy Char8 Caseless",
+          "indexed": "2014-03-11T19:17:48",
           "module": "Data.ByteString.Lazy.Char8.Caseless",
           "name": "unsensitize",
           "normalized": "ByteString-\u003eByteString",

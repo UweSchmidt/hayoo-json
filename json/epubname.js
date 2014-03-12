@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "epubname"
+        "phrase": "epubname",
+        "type": "phrase"
       },
       "type": "context"
     }

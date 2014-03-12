@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-recaptcha"
+        "phrase": "snaplet-recaptcha",
+        "type": "phrase"
       },
       "type": "context"
     }

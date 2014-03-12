@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "chp-spec"
+        "phrase": "chp-spec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing the choice constructs.  See \u003ca\u003ehttp://chplib.wordpress.com/2010/04/20/automatic-model-generation-part-3-choice-and-io/\u003c/a\u003e\n for details of how choice is modelled.\n\u003c/p\u003e\u003cp\u003eCurrently conjunction is not modelled (mainly because CSP/FDR don't support\n it), but external choice is modelled fine; \u003ccode\u003e\u003ca\u003epriAlt\u003c/a\u003e\u003c/code\u003e is modelled as a plain \u003ccode\u003e\u003ca\u003ealt\u003c/a\u003e\u003c/code\u003e,\n though.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Alt",
           "name": "Alt",
           "package": "chp-spec",
@@ -28,6 +29,7 @@
         "index": {
           "description": "module containing the choice constructs See http chplib.wordpress.com automatic-model-generation-part-3-choice-and-io for details of how choice is modelled Currently conjunction is not modelled mainly because CSP FDR don support it but external choice is modelled fine priAlt is modelled as plain alt though",
           "hierarchy": "Control Concurrent CHPSpec Alt",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Alt",
           "name": "Alt",
           "package": "chp-spec",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Alt",
           "name": "(\u003c-\u003e)",
           "package": "chp-spec",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Alt",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Alt",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "CHP a-\u003eCHP a-\u003eCHP a",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Alt",
           "name": "(\u003c/\u003e)",
           "package": "chp-spec",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Alt",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Alt",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "CHP a-\u003eCHP a-\u003eCHP a",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Alt",
           "name": "alt",
           "package": "chp-spec",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Alt",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Alt",
           "name": "alt",
           "normalized": "[CHP a]-\u003eCHP a",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Alt",
           "name": "priAlt",
           "package": "chp-spec",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Alt",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Alt",
           "name": "priAlt",
           "normalized": "[CHP a]-\u003eCHP a",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing barriers.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ePhasedBarrier\u003c/a\u003e\u003c/code\u003e type remains, but currently \u003ccode\u003e\u003ca\u003esyncBarrier\u003c/a\u003e\u003c/code\u003e has been changed\n so that it only works on \u003ccode\u003e\u003ca\u003eBarrier\u003c/a\u003e\u003c/code\u003e, i.e. \u003ccode\u003ePhasedBarrier ()\u003c/code\u003e.  This is because\n phases haven't been modelled yet.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "Barriers",
           "package": "chp-spec",
@@ -144,6 +155,7 @@
         "index": {
           "description": "module containing barriers The PhasedBarrier type remains but currently syncBarrier has been changed so that it only works on Barrier i.e PhasedBarrier This is because phases haven been modelled yet",
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "Barriers",
           "package": "chp-spec",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "BarOpts",
           "package": "chp-spec",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "BarOpts",
           "package": "chp-spec",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "Barrier",
           "package": "chp-spec",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "Barrier",
           "package": "chp-spec",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "EnrolledBarrier",
           "package": "chp-spec",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "EnrolledBarrier",
           "package": "chp-spec",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "PhasedBarrier",
           "package": "chp-spec",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "PhasedBarrier",
           "package": "chp-spec",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "BarOpts",
           "package": "chp-spec",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "BarOpts",
           "package": "chp-spec",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "barIncPhase",
           "package": "chp-spec",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "barIncPhase",
           "normalized": "a-\u003ea",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "barLabel",
           "package": "chp-spec",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "barLabel",
           "normalized": "String-\u003eBarOpts a",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "barOptsLabel",
           "package": "chp-spec",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "barOptsLabel",
           "package": "chp-spec",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "barOptsShow",
           "package": "chp-spec",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "barOptsShow",
           "normalized": "a-\u003eString",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "barPriority",
           "package": "chp-spec",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "barPriority",
           "package": "chp-spec",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "defaultBarOpts",
           "package": "chp-spec",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "defaultBarOpts",
           "package": "chp-spec",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "defaultIncPhase",
           "package": "chp-spec",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "defaultIncPhase",
           "normalized": "a-\u003ea",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "newBarrier",
           "package": "chp-spec",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "newBarrier",
           "package": "chp-spec",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "newBarrierPri",
           "package": "chp-spec",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "newBarrierPri",
           "normalized": "Int-\u003eCHP Barrier",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "newBarrierWithLabel",
           "package": "chp-spec",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "newBarrierWithLabel",
           "normalized": "String-\u003eCHP Barrier",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "newPhasedBarrier",
           "package": "chp-spec",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "newPhasedBarrier",
           "normalized": "a-\u003eCHP(PhasedBarrier a)",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "newPhasedBarrier'",
           "package": "chp-spec",
@@ -528,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "newPhasedBarrier'",
           "normalized": "a-\u003eBarOpts a-\u003eCHP(PhasedBarrier a)",
@@ -544,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlike normal CHP, this function only works on barriers with the unit type\n for a phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "syncBarrier",
           "package": "chp-spec",
@@ -554,6 +601,7 @@
         "index": {
           "description": "Unlike normal CHP this function only works on barriers with the unit type for phase",
           "hierarchy": "Control Concurrent CHPSpec Barriers",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Barriers",
           "name": "syncBarrier",
           "normalized": "EnrolledBarrier-\u003eCHP()",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "Communication",
           "package": "chp-spec",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Communication",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "Communication",
           "package": "chp-spec",
@@ -590,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "ReadableChannel",
           "package": "chp-spec",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Communication",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "ReadableChannel",
           "package": "chp-spec",
@@ -611,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "WriteableChannel",
           "package": "chp-spec",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Communication",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "WriteableChannel",
           "package": "chp-spec",
@@ -633,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrently, extended inputs and outputs are modelled (incorrectly) as standard\n inputs and outputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "extReadChannel",
           "package": "chp-spec",
@@ -643,6 +698,7 @@
         "index": {
           "description": "Currently extended inputs and outputs are modelled incorrectly as standard inputs and outputs",
           "hierarchy": "Control Concurrent CHPSpec Channels Communication",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "extReadChannel",
           "normalized": "a b-\u003e(b-\u003eCHP c)-\u003eCHP c",
@@ -659,6 +715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrently, extended inputs and outputs are modelled (incorrectly) as standard\n inputs and outputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "extWriteChannel",
           "package": "chp-spec",
@@ -669,6 +726,7 @@
         "index": {
           "description": "Currently extended inputs and outputs are modelled incorrectly as standard inputs and outputs",
           "hierarchy": "Control Concurrent CHPSpec Channels Communication",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "extWriteChannel",
           "normalized": "a b-\u003eCHP b-\u003eCHP()",
@@ -685,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrently, extended inputs and outputs are modelled (incorrectly) as standard\n inputs and outputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "extWriteChannel'",
           "package": "chp-spec",
@@ -695,6 +754,7 @@
         "index": {
           "description": "Currently extended inputs and outputs are modelled incorrectly as standard inputs and outputs",
           "hierarchy": "Control Concurrent CHPSpec Channels Communication",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "extWriteChannel'",
           "normalized": "a b-\u003eCHP(b,c)-\u003eCHP c",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "readChannel",
           "package": "chp-spec",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Communication",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "readChannel",
           "normalized": "a b-\u003eCHP b",
@@ -734,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "writeChannel",
           "package": "chp-spec",
@@ -743,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Communication",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "writeChannel",
           "normalized": "a b-\u003eb-\u003eCHP()",
@@ -759,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function strictly evaluates its second argument and then behaves like\n \u003ccode\u003e\u003ca\u003ewriteChannel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "writeChannelStrict",
           "package": "chp-spec",
@@ -769,6 +834,7 @@
         "index": {
           "description": "This function strictly evaluates its second argument and then behaves like writeChannel",
           "hierarchy": "Control Concurrent CHPSpec Channels Communication",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "writeChannelStrict",
           "normalized": "a b-\u003eb-\u003eCHP()",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "writeValue",
           "package": "chp-spec",
@@ -793,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Communication",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Communication",
           "name": "writeValue",
           "normalized": "a-\u003eb a-\u003eCHP()",
@@ -808,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "Creation",
           "package": "chp-spec",
@@ -816,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "Creation",
           "package": "chp-spec",
@@ -829,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "Chan",
           "package": "chp-spec",
@@ -837,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "Chan",
           "package": "chp-spec",
@@ -851,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for channel creation.  The first two will be ignored, but the label\n (if present) will be used to label the channel in the specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "ChanOpts",
           "package": "chp-spec",
@@ -860,6 +933,7 @@
         "index": {
           "description": "Options for channel creation The first two will be ignored but the label if present will be used to label the channel in the specification",
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "ChanOpts",
           "package": "chp-spec",
@@ -873,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "Channel",
           "package": "chp-spec",
@@ -881,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "Channel",
           "package": "chp-spec",
@@ -894,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "ChanOpts",
           "package": "chp-spec",
@@ -903,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "ChanOpts",
           "package": "chp-spec",
@@ -916,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "chanLabel",
           "package": "chp-spec",
@@ -925,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "chanLabel",
           "normalized": "String-\u003eChanOpts a",
@@ -940,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "chanOptsLabel",
           "package": "chp-spec",
@@ -949,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "chanOptsLabel",
           "package": "chp-spec",
@@ -962,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "chanOptsPriority",
           "package": "chp-spec",
@@ -971,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "chanOptsPriority",
           "package": "chp-spec",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "chanOptsShow",
           "package": "chp-spec",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "chanOptsShow",
           "normalized": "a-\u003eString",
@@ -1008,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "defaultChanOpts",
           "package": "chp-spec",
@@ -1017,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "defaultChanOpts",
           "package": "chp-spec",
@@ -1031,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabels a channel in the traces.  It is easiest to do this at creation.\n The effect of re-labelling channels after their first use is undefined.\n\u003c/p\u003e\u003cp\u003eThis function does work as expected in chp-spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "labelChannel",
           "package": "chp-spec",
@@ -1041,6 +1130,7 @@
         "index": {
           "description": "Labels channel in the traces It is easiest to do this at creation The effect of re-labelling channels after their first use is undefined This function does work as expected in chp-spec",
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "labelChannel",
           "normalized": "Chan a b c-\u003eString-\u003ed()",
@@ -1056,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannel",
           "package": "chp-spec",
@@ -1065,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannel",
           "package": "chp-spec",
@@ -1078,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannel'",
           "package": "chp-spec",
@@ -1087,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannel'",
           "normalized": "ChanOpts a-\u003eb(Chan c d a)",
@@ -1102,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannelList",
           "package": "chp-spec",
@@ -1111,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannelList",
           "normalized": "Int-\u003ea[Chan b c d]",
@@ -1126,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannelListWithLabels",
           "package": "chp-spec",
@@ -1135,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannelListWithLabels",
           "normalized": "[String]-\u003ea[Chan b c d]",
@@ -1150,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannelListWithStem",
           "package": "chp-spec",
@@ -1159,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannelListWithStem",
           "normalized": "Int-\u003eString-\u003ea[Chan b c d]",
@@ -1174,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannelRW",
           "package": "chp-spec",
@@ -1183,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannelRW",
           "normalized": "a(b c,d c)",
@@ -1198,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannelWR",
           "package": "chp-spec",
@@ -1207,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "newChannelWR",
           "normalized": "a(b c,d c)",
@@ -1222,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "sameChannel",
           "package": "chp-spec",
@@ -1231,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Creation",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Creation",
           "name": "sameChannel",
           "normalized": "a b-\u003ec b-\u003eBool",
@@ -1246,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "Ends",
           "package": "chp-spec",
@@ -1254,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Ends",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "Ends",
           "package": "chp-spec",
@@ -1267,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "Chanin",
           "package": "chp-spec",
@@ -1275,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Ends",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "Chanin",
           "package": "chp-spec",
@@ -1288,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "Chanout",
           "package": "chp-spec",
@@ -1296,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Ends",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "Chanout",
           "package": "chp-spec",
@@ -1309,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "Shared",
           "package": "chp-spec",
@@ -1317,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Ends",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "Shared",
           "package": "chp-spec",
@@ -1330,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "claim",
           "package": "chp-spec",
@@ -1339,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Ends",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "claim",
           "normalized": "Shared a b-\u003e(a b-\u003eCHP c)-\u003eCHP c",
@@ -1353,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "reader",
           "package": "chp-spec",
@@ -1362,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Ends",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "reader",
           "normalized": "Chan a b c-\u003ea c",
@@ -1376,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "readers",
           "package": "chp-spec",
@@ -1385,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Ends",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "readers",
           "normalized": "[Chan a b c]-\u003e[a c]",
@@ -1399,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "writer",
           "package": "chp-spec",
@@ -1408,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Ends",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "writer",
           "normalized": "Chan a b c-\u003eb c",
@@ -1422,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "writers",
           "package": "chp-spec",
@@ -1431,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Ends",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Ends",
           "name": "writers",
           "normalized": "[Chan a b c]-\u003e[b c]",
@@ -1445,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "Synonyms",
           "package": "chp-spec",
@@ -1453,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "Synonyms",
           "package": "chp-spec",
@@ -1466,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "AnyToAnyChannel",
           "package": "chp-spec",
@@ -1474,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "AnyToAnyChannel",
           "package": "chp-spec",
@@ -1487,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "AnyToOneChannel",
           "package": "chp-spec",
@@ -1495,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "AnyToOneChannel",
           "package": "chp-spec",
@@ -1508,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "OneToAnyChannel",
           "package": "chp-spec",
@@ -1516,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "OneToAnyChannel",
           "package": "chp-spec",
@@ -1529,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "OneToOneChannel",
           "package": "chp-spec",
@@ -1537,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "OneToOneChannel",
           "package": "chp-spec",
@@ -1550,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "anyToAnyChannel",
           "package": "chp-spec",
@@ -1559,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "anyToAnyChannel",
           "package": "chp-spec",
@@ -1572,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "anyToAnyChannel'",
           "package": "chp-spec",
@@ -1581,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "anyToAnyChannel'",
           "normalized": "ChanOpts a-\u003eb(AnyToAnyChannel a)",
@@ -1596,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "anyToOneChannel",
           "package": "chp-spec",
@@ -1605,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "anyToOneChannel",
           "package": "chp-spec",
@@ -1618,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "anyToOneChannel'",
           "package": "chp-spec",
@@ -1627,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "anyToOneChannel'",
           "normalized": "ChanOpts a-\u003eb(AnyToOneChannel a)",
@@ -1642,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "oneToAnyChannel",
           "package": "chp-spec",
@@ -1651,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "oneToAnyChannel",
           "package": "chp-spec",
@@ -1664,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "oneToAnyChannel'",
           "package": "chp-spec",
@@ -1673,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "oneToAnyChannel'",
           "normalized": "ChanOpts a-\u003eb(OneToAnyChannel a)",
@@ -1688,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "oneToOneChannel",
           "package": "chp-spec",
@@ -1697,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "oneToOneChannel",
           "package": "chp-spec",
@@ -1710,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "oneToOneChannel'",
           "package": "chp-spec",
@@ -1719,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Channels Synonyms",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels.Synonyms",
           "name": "oneToOneChannel'",
           "normalized": "ChanOpts a-\u003eb(OneToOneChannel a)",
@@ -1735,6 +1885,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module containing all the different types of channels in CHP.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://chplib.wordpress.com/2010/04/22/automatic-model-generation-part-4-communication/\u003c/a\u003e\n for details of modelling communication.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Channels",
           "name": "Channels",
           "package": "chp-spec",
@@ -1744,6 +1895,7 @@
         "index": {
           "description": "The module containing all the different types of channels in CHP See http chplib.wordpress.com automatic-model-generation-part-4-communication for details of modelling communication",
           "hierarchy": "Control Concurrent CHPSpec Channels",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Channels",
           "name": "Channels",
           "package": "chp-spec",
@@ -1758,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module with support for things that are enrollable.\n\u003c/p\u003e\u003cp\u003eEnrollment is currently pretty much ignored during model generation, but these\n operations are provided so that you don't have to change your program.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "Enroll",
           "package": "chp-spec",
@@ -1767,6 +1920,7 @@
         "index": {
           "description": "module with support for things that are enrollable Enrollment is currently pretty much ignored during model generation but these operations are provided so that you don have to change your program",
           "hierarchy": "Control Concurrent CHPSpec Enroll",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "Enroll",
           "package": "chp-spec",
@@ -1780,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "Enrollable",
           "package": "chp-spec",
@@ -1788,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Enroll",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "Enrollable",
           "package": "chp-spec",
@@ -1801,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "Enrolled",
           "package": "chp-spec",
@@ -1809,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Enroll",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "Enrolled",
           "package": "chp-spec",
@@ -1822,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enroll",
           "package": "chp-spec",
@@ -1831,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Enroll",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enroll",
           "normalized": "a b-\u003e(Enrolled a b-\u003eCHP c)-\u003eCHP c",
@@ -1845,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enrollAll",
           "package": "chp-spec",
@@ -1854,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Enroll",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enrollAll",
           "normalized": "CHP(a b)-\u003e[Enrolled a b-\u003eCHP c]-\u003eCHP[c]",
@@ -1869,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enrollAllT",
           "package": "chp-spec",
@@ -1878,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Enroll",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enrollAllT",
           "normalized": "([a]-\u003eCHP b)-\u003eCHP(c d)-\u003e[Enrolled c d-\u003ea]-\u003eCHP b",
@@ -1893,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enrollAll_",
           "package": "chp-spec",
@@ -1902,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Enroll",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enrollAll_",
           "normalized": "CHP(a b)-\u003e[Enrolled a b-\u003eCHP c]-\u003eCHP()",
@@ -1917,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enrollList",
           "package": "chp-spec",
@@ -1926,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Enroll",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enrollList",
           "normalized": "[a b]-\u003e([Enrolled a b]-\u003eCHP c)-\u003eCHP c",
@@ -1941,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enrollOneMany",
           "package": "chp-spec",
@@ -1950,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Enroll",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enrollOneMany",
           "normalized": "([Enrolled a b]-\u003eCHP c)-\u003e[(CHP(a b),Enrolled a b-\u003eCHP d)]-\u003eCHP(c,[d])",
@@ -1965,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enrollPair",
           "package": "chp-spec",
@@ -1974,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Enroll",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "enrollPair",
           "normalized": "(a b,c d)-\u003e((Enrolled a b,Enrolled c d)-\u003eCHP e)-\u003eCHP e",
@@ -1989,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "furtherEnroll",
           "package": "chp-spec",
@@ -1998,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Enroll",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "furtherEnroll",
           "normalized": "Enrolled a b-\u003e(Enrolled a b-\u003eCHP c)-\u003eCHP c",
@@ -2013,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "resign",
           "package": "chp-spec",
@@ -2022,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Enroll",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Enroll",
           "name": "resign",
           "normalized": "Enrolled a b-\u003eCHP c-\u003eCHP c",
@@ -2037,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is a near-copy of the Test.LazySmallCheck module from the lazysmallcheck\n package on Hackage.  It was written by Matthew Naylor and Fredrik Lindblad.\n  I have modified it to add the \u003ccode\u003e\u003ca\u003efuzz\u003c/a\u003e\u003c/code\u003e function that is used by chp-spec internally,\n but to write that function I needed access to more internals than the original\n Test.LazySmallCheck exposed, hence I had to make a copy of the module.  Unfortunately,\n this means that the Serial type-class here is a different type-class (despite\n being identical in behaviour and API) from the original lazysmallcheck package.\n The modified module is exposed in case you need to supply any of your own instances\n for \u003ccode\u003e\u003ca\u003eSerial\u003c/a\u003e\u003c/code\u003e.  For more explanation of how Lazy SmallCheck is used in this library\n for modelling IO actions, see this blog post: \u003ca\u003ehttp://chplib.wordpress.com/2010/04/20/automatic-model-generation-part-3-choice-and-io/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "LazySmallCheck",
           "package": "chp-spec",
@@ -2046,6 +2223,7 @@
         "index": {
           "description": "This module is near-copy of the Test.LazySmallCheck module from the lazysmallcheck package on Hackage It was written by Matthew Naylor and Fredrik Lindblad have modified it to add the fuzz function that is used by chp-spec internally but to write that function needed access to more internals than the original Test.LazySmallCheck exposed hence had to make copy of the module Unfortunately this means that the Serial type-class here is different type-class despite being identical in behaviour and API from the original lazysmallcheck package The modified module is exposed in case you need to supply any of your own instances for Serial For more explanation of how Lazy SmallCheck is used in this library for modelling IO actions see this blog post http chplib.wordpress.com automatic-model-generation-part-3-choice-and-io",
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "LazySmallCheck",
           "package": "chp-spec",
@@ -2059,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "Cons",
           "package": "chp-spec",
@@ -2067,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "Cons",
           "package": "chp-spec",
@@ -2080,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "Serial",
           "package": "chp-spec",
@@ -2088,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "Serial",
           "package": "chp-spec",
@@ -2101,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "Series",
           "package": "chp-spec",
@@ -2109,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "Series",
           "package": "chp-spec",
@@ -2122,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "(\u003e\u003c)",
           "package": "chp-spec",
@@ -2131,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "Series(a-\u003eb)-\u003eSeries a-\u003eSeries b",
@@ -2145,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "(\\/)",
           "package": "chp-spec",
@@ -2154,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "(\\/) \\/",
           "normalized": "Series a-\u003eSeries a-\u003eSeries a",
@@ -2168,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons",
           "package": "chp-spec",
@@ -2177,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons",
           "normalized": "a-\u003eSeries a",
@@ -2191,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons0",
           "package": "chp-spec",
@@ -2200,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons0",
           "normalized": "a-\u003eSeries a",
@@ -2214,6 +2406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons1",
           "package": "chp-spec",
@@ -2223,6 +2416,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons1",
           "normalized": "(a-\u003eb)-\u003eSeries b",
@@ -2237,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons2",
           "package": "chp-spec",
@@ -2246,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eSeries c",
@@ -2260,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons3",
           "package": "chp-spec",
@@ -2269,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eSeries d",
@@ -2283,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons4",
           "package": "chp-spec",
@@ -2292,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eSeries e",
@@ -2306,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons5",
           "package": "chp-spec",
@@ -2315,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "cons5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eSeries f",
@@ -2329,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "drawnFrom",
           "package": "chp-spec",
@@ -2338,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "drawnFrom",
           "normalized": "[a]-\u003eCons a",
@@ -2353,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "fuzz",
           "package": "chp-spec",
@@ -2362,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "fuzz",
           "normalized": "(a-\u003eStateT b IO c)-\u003eStateT b IO([c],Bool)",
@@ -2376,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "series",
           "package": "chp-spec",
@@ -2385,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec LazySmallCheck",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.LazySmallCheck",
           "name": "series",
           "package": "chp-spec",
@@ -2398,6 +2606,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains all the central monads in the CHP library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "Monad",
           "package": "chp-spec",
@@ -2407,6 +2616,7 @@
         "index": {
           "description": "This module contains all the central monads in the CHP library",
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "Monad",
           "package": "chp-spec",
@@ -2421,6 +2631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe central monad of the library.  You can use\n the \u003ccode\u003especify\u003c/code\u003e function to model programs written with this monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "CHP",
           "package": "chp-spec",
@@ -2430,6 +2641,7 @@
         "index": {
           "description": "The central monad of the library You can use the specify function to model programs written with this monad",
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "CHP",
           "package": "chp-spec",
@@ -2443,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "MonadCHP",
           "package": "chp-spec",
@@ -2451,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "MonadCHP",
           "package": "chp-spec",
@@ -2464,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "Poisonable",
           "package": "chp-spec",
@@ -2472,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "Poisonable",
           "package": "chp-spec",
@@ -2486,6 +2702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class with instances for CHP processes of the form \u003ccode\u003ea -\u003e b -\u003e .. -\u003e CHP r\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe return value of the process must support \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e, and the arguments of\n the process must support \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "Process",
           "package": "chp-spec",
@@ -2495,6 +2712,7 @@
         "index": {
           "description": "class with instances for CHP processes of the form CHP The return value of the process must support Typeable and the arguments of the process must support Typeable and Eq",
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "Process",
           "package": "chp-spec",
@@ -2508,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "checkForPoison",
           "package": "chp-spec",
@@ -2517,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "checkForPoison",
           "normalized": "a-\u003eb()",
@@ -2533,6 +2753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModels processes that run forever.\n\u003c/p\u003e\u003cp\u003eAnything following a \u003ccode\u003e\u003ca\u003eforeverP\u003c/a\u003e\u003c/code\u003e call in sequence will not be modelled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "foreverP",
           "package": "chp-spec",
@@ -2543,6 +2764,7 @@
         "index": {
           "description": "Models processes that run forever Anything following foreverP call in sequence will not be modelled",
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "foreverP",
           "normalized": "CHP a-\u003eCHP b",
@@ -2557,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "liftCHP",
           "package": "chp-spec",
@@ -2566,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "liftCHP",
           "normalized": "CHP a-\u003eb a",
@@ -2582,6 +2806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003eliftIO_CHP'\u003c/code\u003e, but with an empty label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "liftIO_CHP",
           "package": "chp-spec",
@@ -2592,6 +2817,7 @@
         "index": {
           "description": "Like liftIO CHP but with an empty label",
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "liftIO_CHP",
           "normalized": "IO a-\u003eCHP a",
@@ -2608,6 +2834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModels the lifting of an IO action into the CHP monad.\n\u003c/p\u003e\u003cp\u003eThe IO computation itself is completely ignored.  The label (first parameter)\n is used to label various different dummy events, which arise from exploring\n the return type of the IO computation.  To support this exploration, the return\n type must be an instance of \u003ccode\u003e\u003ca\u003eSerial\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMore details and a full explanation of how IO events are modelled are available\n in this blog post: \u003ca\u003ehttp://chplib.wordpress.com/2010/04/20/automatic-model-generation-part-3-choice-and-io/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "liftIO_CHP'",
           "package": "chp-spec",
@@ -2618,6 +2845,7 @@
         "index": {
           "description": "Models the lifting of an IO action into the CHP monad The IO computation itself is completely ignored The label first parameter is used to label various different dummy events which arise from exploring the return type of the IO computation To support this exploration the return type must be an instance of Serial More details and full explanation of how IO events are modelled are available in this blog post http chplib.wordpress.com automatic-model-generation-part-3-choice-and-io",
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "liftIO_CHP'",
           "normalized": "String-\u003eIO a-\u003eCHP a",
@@ -2634,6 +2862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eonPoisonTrap\u003c/a\u003e\u003c/code\u003e, this function allows you to provide a handler for\n  poison.  Since poison is not currently modelled, this acts like \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e at\n  the moment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "onPoisonRethrow",
           "package": "chp-spec",
@@ -2644,6 +2873,7 @@
         "index": {
           "description": "Like onPoisonTrap this function allows you to provide handler for poison Since poison is not currently modelled this acts like const at the moment",
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "onPoisonRethrow",
           "normalized": "CHP a-\u003eCHP()-\u003eCHP a",
@@ -2660,6 +2890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows you to provide a handler for sections with poison.  Since poison is\n not currently modelled, this acts like \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e at the moment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "onPoisonTrap",
           "package": "chp-spec",
@@ -2670,6 +2901,7 @@
         "index": {
           "description": "Allows you to provide handler for sections with poison Since poison is not currently modelled this acts like const at the moment",
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "onPoisonTrap",
           "normalized": "a b CHP c-\u003eCHP c-\u003eCHP c",
@@ -2685,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "poison",
           "package": "chp-spec",
@@ -2694,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "poison",
           "normalized": "a-\u003eb()",
@@ -2708,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "poisonAll",
           "package": "chp-spec",
@@ -2717,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "poisonAll",
           "normalized": "[a]-\u003eb()",
@@ -2733,6 +2969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn annotation to put around a top-level process.  This annotation must be\n inside the recursive knot.  You can either place it as:\n\u003c/p\u003e\u003cpre\u003e foo :: Int -\u003e String -\u003e CHP ()\n foo = process \"foo\" $ \\n s -\u003e ...\n\u003c/pre\u003e\u003cp\u003eOr as follows:\n\u003c/p\u003e\u003cpre\u003e foo :: Int -\u003e String -\u003e CHP ()\n foo = process \"foo\" foo'\n   where\n     foo' n s = ...\n\u003c/pre\u003e\u003cp\u003eThe annotation must capture all the parameters to the process.  What you must \u003cem\u003enot\u003c/em\u003e do is place it\n such that there are free parameters not captured, for example this is \u003cem\u003ewrong\u003c/em\u003e:\n\u003c/p\u003e\u003cpre\u003e foo :: Int -\u003e String -\u003e CHP ()\n foo n s = process \"foo\" foo'\n   where\n     foo' = ...\n\u003c/pre\u003e\u003cp\u003eIf you do want to have recursive processes that have outer parameters and not\n pass them, you must wrap the outer process in \u003ccode\u003e\u003ca\u003eprocess\u003c/a\u003e\u003c/code\u003e and the inner process(es)\n in \u003ccode\u003e\u003ca\u003esubProcess\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "process",
           "package": "chp-spec",
@@ -2743,6 +2980,7 @@
         "index": {
           "description": "An annotation to put around top-level process This annotation must be inside the recursive knot You can either place it as foo Int String CHP foo process foo Or as follows foo Int String CHP foo process foo foo where foo The annotation must capture all the parameters to the process What you must not do is place it such that there are free parameters not captured for example this is wrong foo Int String CHP foo process foo foo where foo If you do want to have recursive processes that have outer parameters and not pass them you must wrap the outer process in process and the inner process es in subProcess",
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "process",
           "normalized": "String-\u003ea-\u003ea",
@@ -2757,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "skip",
           "package": "chp-spec",
@@ -2766,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "skip",
           "normalized": "CHP()",
@@ -2781,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe top-level function in this library, to be used in place of runCHP in your\n program.  You pass it a boolean (True if you want to leave the dummy IO events\n exposed, False if you want them hidden) and a CHP process that you want to specify.\n  The result is a String containing a CSP-M specification that can be written\n out to a file and read in to other tools, such as FDR, PRoBE and others.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "specify",
           "package": "chp-spec",
@@ -2791,6 +3032,7 @@
         "index": {
           "description": "The top-level function in this library to be used in place of runCHP in your program You pass it boolean True if you want to leave the dummy IO events exposed False if you want them hidden and CHP process that you want to specify The result is String containing CSP-M specification that can be written out to file and read in to other tools such as FDR PRoBE and others",
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "specify",
           "normalized": "Bool-\u003eCHP()-\u003eIO String",
@@ -2805,6 +3047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "stop",
           "package": "chp-spec",
@@ -2814,6 +3057,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "stop",
           "package": "chp-spec",
@@ -2826,6 +3070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "subProcess",
           "package": "chp-spec",
@@ -2835,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "subProcess",
           "normalized": "String-\u003ea-\u003ea",
@@ -2851,6 +3097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrows a poison exception.  Poison is not currently modelled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "throwPoison",
           "package": "chp-spec",
@@ -2861,6 +3108,7 @@
         "index": {
           "description": "Throws poison exception Poison is not currently modelled",
           "hierarchy": "Control Concurrent CHPSpec Monad",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Monad",
           "name": "throwPoison",
           "package": "chp-spec",
@@ -2875,6 +3123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for running items in parallel.  See \u003ca\u003ehttp://chplib.wordpress.com/2010/04/13/automatic-model-generation-part-1-parallel/\u003c/a\u003e\n for details of how parallel items are modelled.\n\u003c/p\u003e\u003cp\u003eParallel specifications are well supported, and the only change to this module\n from normal CHP is that forking is not currently supported.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "Parallel",
           "package": "chp-spec",
@@ -2884,6 +3133,7 @@
         "index": {
           "description": "module for running items in parallel See http chplib.wordpress.com automatic-model-generation-part-1-parallel for details of how parallel items are modelled Parallel specifications are well supported and the only change to this module from normal CHP is that forking is not currently supported",
           "hierarchy": "Control Concurrent CHPSpec Parallel",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "Parallel",
           "package": "chp-spec",
@@ -2897,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "(\u003c||\u003e)",
           "package": "chp-spec",
@@ -2906,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Parallel",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "CHP a-\u003eCHP b-\u003eCHP(a,b)",
@@ -2920,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "(\u003c|*|\u003e)",
           "package": "chp-spec",
@@ -2929,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Parallel",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "(\u003c|*|\u003e) \u003c|*|\u003e",
           "normalized": "CHP a-\u003eCHP b-\u003eCHP()",
@@ -2943,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "runParMapM",
           "package": "chp-spec",
@@ -2952,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Parallel",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "runParMapM",
           "normalized": "(a-\u003eCHP b)-\u003e[a]-\u003eCHP[b]",
@@ -2967,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "runParMapM_",
           "package": "chp-spec",
@@ -2976,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Parallel",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "runParMapM_",
           "normalized": "(a-\u003eCHP b)-\u003e[a]-\u003eCHP()",
@@ -2991,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "runParallel",
           "package": "chp-spec",
@@ -3000,6 +3259,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Parallel",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "runParallel",
           "normalized": "[CHP a]-\u003eCHP[a]",
@@ -3015,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "runParallel_",
           "package": "chp-spec",
@@ -3024,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent CHPSpec Parallel",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec.Parallel",
           "name": "runParallel_",
           "normalized": "[CHP a]-\u003eCHP()",
@@ -3040,6 +3302,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module re-exports all of the functionality of the chp-spec library, except\n the \u003ca\u003eControl.Concurrent.CHPSpec.LazySmallCheck\u003c/a\u003e module.\n\u003c/p\u003e\u003cp\u003eThe documentation for this library may seem relatively spartan; only the functions\n and modules with significant differences/caveats from CHP API are documented.\n  All the details of how each aspect is modelled is available in the original\n series of blog posts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:20 UTC 2014",
           "module": "Control.Concurrent.CHPSpec",
           "name": "CHPSpec",
           "package": "chp-spec",
@@ -3049,6 +3312,7 @@
         "index": {
           "description": "This module re-exports all of the functionality of the chp-spec library except the Control.Concurrent.CHPSpec.LazySmallCheck module The documentation for this library may seem relatively spartan only the functions and modules with significant differences caveats from CHP API are documented All the details of how each aspect is modelled is available in the original series of blog posts",
           "hierarchy": "Control Concurrent CHPSpec",
+          "indexed": "2014-03-11T17:32:20",
           "module": "Control.Concurrent.CHPSpec",
           "name": "CHPSpec",
           "package": "chp-spec",

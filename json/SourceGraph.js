@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SourceGraph"
+        "phrase": "SourceGraph",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fay"
+        "phrase": "fay",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConfiguration functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler.Config",
           "name": "Config",
           "package": "fay",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Configuration functions",
           "hierarchy": "Fay Compiler Config",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler.Config",
           "name": "Config",
           "package": "fay",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a mapping from (maybe) a package to a source directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler.Config",
           "name": "addConfigDirectoryInclude",
           "package": "fay",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Add mapping from maybe package to source directory",
           "hierarchy": "Fay Compiler Config",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler.Config",
           "name": "addConfigDirectoryInclude",
           "normalized": "Maybe String-\u003eFilePath-\u003eCompileConfig-\u003eCompileConfig",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd several include directories without package references.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler.Config",
           "name": "addConfigDirectoryIncludePaths",
           "package": "fay",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Add several include directories without package references",
           "hierarchy": "Fay Compiler Config",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler.Config",
           "name": "addConfigDirectoryIncludePaths",
           "normalized": "[FilePath]-\u003eCompileConfig-\u003eCompileConfig",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd several include directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler.Config",
           "name": "addConfigDirectoryIncludes",
           "package": "fay",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Add several include directories",
           "hierarchy": "Fay Compiler Config",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler.Config",
           "name": "addConfigDirectoryIncludes",
           "normalized": "[(Maybe String,FilePath)]-\u003eCompileConfig-\u003eCompileConfig",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a package to compilation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler.Config",
           "name": "addConfigPackage",
           "package": "fay",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Add package to compilation",
           "hierarchy": "Fay Compiler Config",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler.Config",
           "name": "addConfigPackage",
           "normalized": "String-\u003eCompileConfig-\u003eCompileConfig",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd several packages to compilation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler.Config",
           "name": "addConfigPackages",
           "package": "fay",
@@ -156,6 +167,7 @@
         "index": {
           "description": "Add several packages to compilation",
           "hierarchy": "Fay Compiler Config",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler.Config",
           "name": "addConfigPackages",
           "normalized": "[String]-\u003eCompileConfig-\u003eCompileConfig",
@@ -172,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all include directories without the package mapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler.Config",
           "name": "configDirectoryIncludePaths",
           "package": "fay",
@@ -182,6 +195,7 @@
         "index": {
           "description": "Get all include directories without the package mapping",
           "hierarchy": "Fay Compiler Config",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler.Config",
           "name": "configDirectoryIncludePaths",
           "normalized": "CompileConfig-\u003e[FilePath]",
@@ -198,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all include directories not included through packages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler.Config",
           "name": "nonPackageConfigDirectoryIncludePaths",
           "package": "fay",
@@ -208,6 +223,7 @@
         "index": {
           "description": "Get all include directories not included through packages",
           "hierarchy": "Fay Compiler Config",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler.Config",
           "name": "nonPackageConfigDirectoryIncludePaths",
           "normalized": "CompileConfig-\u003e[FilePath]",
@@ -223,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler.Config",
           "name": "shouldExportStrictWrapper",
           "package": "fay",
@@ -232,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Fay Compiler Config",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler.Config",
           "name": "shouldExportStrictWrapper",
           "normalized": "ModuleName a-\u003eCompileConfig-\u003eBool",
@@ -248,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Haskell&#8594;Javascript compiler.\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler",
           "name": "Compiler",
           "package": "fay",
@@ -257,6 +276,7 @@
         "index": {
           "description": "The Haskell Javascript compiler",
           "hierarchy": "Fay Compiler",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler",
           "name": "Compiler",
           "package": "fay",
@@ -271,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler",
           "name": "compileDecl",
           "package": "fay",
@@ -281,6 +302,7 @@
         "index": {
           "description": "Compile declaration",
           "hierarchy": "Fay Compiler",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler",
           "name": "compileDecl",
           "normalized": "Bool-\u003eDecl-\u003eCompile[JsStmt]",
@@ -297,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile Haskell expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler",
           "name": "compileExp",
           "package": "fay",
@@ -307,6 +330,7 @@
         "index": {
           "description": "Compile Haskell expression",
           "hierarchy": "Fay Compiler",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler",
           "name": "compileExp",
           "normalized": "Exp-\u003eCompile JsExp",
@@ -323,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a parse HSE module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler",
           "name": "compileModuleFromAST",
           "package": "fay",
@@ -333,6 +358,7 @@
         "index": {
           "description": "Compile parse HSE module",
           "hierarchy": "Fay Compiler",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler",
           "name": "compileModuleFromAST",
           "normalized": "([JsStmt],[JsStmt])-\u003eModule-\u003eCompile([JsStmt],[JsStmt])",
@@ -349,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a source string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler",
           "name": "compileModuleFromContents",
           "package": "fay",
@@ -359,6 +386,7 @@
         "index": {
           "description": "Compile source string",
           "hierarchy": "Fay Compiler",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler",
           "name": "compileModuleFromContents",
           "normalized": "String-\u003eCompile([JsStmt],[JsStmt])",
@@ -375,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile the top-level Fay module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler",
           "name": "compileToplevelModule",
           "package": "fay",
@@ -385,6 +414,7 @@
         "index": {
           "description": "Compile the top-level Fay module",
           "hierarchy": "Fay Compiler",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler",
           "name": "compileToplevelModule",
           "normalized": "FilePath-\u003eModule-\u003eCompile[JsStmt]",
@@ -401,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a Haskell source string to a JavaScript source string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler",
           "name": "compileViaStr",
           "package": "fay",
@@ -411,6 +442,7 @@
         "index": {
           "description": "Compile Haskell source string to JavaScript source string",
           "hierarchy": "Fay Compiler",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler",
           "name": "compileViaStr",
           "normalized": "FilePath-\u003eCompileConfig-\u003ePrintState-\u003e(Module-\u003eCompile[JsStmt])-\u003eString-\u003eIO(Either CompileError(PrintState,CompileState,CompileWriter))",
@@ -427,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler",
           "name": "compileWith",
           "package": "fay",
@@ -437,6 +470,7 @@
         "index": {
           "description": "Compile module",
           "hierarchy": "Fay Compiler",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler",
           "name": "compileWith",
           "normalized": "FilePath-\u003e(a-\u003eModule-\u003eCompile a)-\u003e(FilePath-\u003eString-\u003eCompile a)-\u003e(X-\u003eModule-\u003eIO(Either CompileError Module))-\u003eString-\u003eCompile(a,CompileState,CompileWriter)",
@@ -453,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse some Fay code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler",
           "name": "parseFay",
           "package": "fay",
@@ -463,6 +498,7 @@
         "index": {
           "description": "Parse some Fay code",
           "hierarchy": "Fay Compiler",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler",
           "name": "parseFay",
           "normalized": "FilePath-\u003eString-\u003eParseResult a",
@@ -479,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns compilation for a single module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Compiler",
           "name": "runCompileModule",
           "package": "fay",
@@ -489,6 +526,7 @@
         "index": {
           "description": "Runs compilation for single module",
           "hierarchy": "Fay Compiler",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Compiler",
           "name": "runCompileModule",
           "normalized": "CompileReader-\u003eCompileState-\u003eCompile a-\u003eCompileModule a",
@@ -505,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra monadic functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Control.Monad.Extra",
           "name": "Extra",
           "package": "fay",
@@ -514,6 +553,7 @@
         "index": {
           "description": "Extra monadic functions",
           "hierarchy": "Fay Control Monad Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Control.Monad.Extra",
           "name": "Extra",
           "package": "fay",
@@ -528,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo any of the (monadic) predicates match?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Control.Monad.Extra",
           "name": "anyM",
           "package": "fay",
@@ -538,6 +579,7 @@
         "index": {
           "description": "Do any of the monadic predicates match",
           "hierarchy": "Fay Control Monad Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Control.Monad.Extra",
           "name": "anyM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb Bool",
@@ -553,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWord version of flip (\u003e\u003e=).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Control.Monad.Extra",
           "name": "bind",
           "package": "fay",
@@ -563,6 +606,7 @@
         "index": {
           "description": "Word version of flip",
           "hierarchy": "Fay Control Monad Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Control.Monad.Extra",
           "name": "bind",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003eb c",
@@ -578,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip of mapMaybe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Control.Monad.Extra",
           "name": "forMaybe",
           "package": "fay",
@@ -588,6 +633,7 @@
         "index": {
           "description": "Flip of mapMaybe",
           "hierarchy": "Fay Control Monad Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Control.Monad.Extra",
           "name": "forMaybe",
           "normalized": "[a]-\u003e(a-\u003eMaybe b)-\u003e[b]",
@@ -604,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up a form in a Maybe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Control.Monad.Extra",
           "name": "just",
           "package": "fay",
@@ -614,6 +661,7 @@
         "index": {
           "description": "Wrap up form in Maybe",
           "hierarchy": "Fay Control Monad Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Control.Monad.Extra",
           "name": "just",
           "normalized": "a b-\u003ea(Maybe b)",
@@ -629,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of maybe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Control.Monad.Extra",
           "name": "maybeM",
           "package": "fay",
@@ -639,6 +688,7 @@
         "index": {
           "description": "Monadic version of maybe",
           "hierarchy": "Fay Control Monad Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Control.Monad.Extra",
           "name": "maybeM",
           "normalized": "a-\u003e(a-\u003eb a)-\u003eMaybe a-\u003eb a",
@@ -654,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the value is Just.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Control.Monad.Extra",
           "name": "whenJust",
           "package": "fay",
@@ -664,6 +715,7 @@
         "index": {
           "description": "When the value is Just",
           "hierarchy": "Fay Control Monad Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Control.Monad.Extra",
           "name": "whenJust",
           "normalized": "Maybe a-\u003e(a-\u003eb())-\u003eb()",
@@ -680,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlias of MonadIO.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Control.Monad.IO",
           "name": "IO",
           "package": "fay",
@@ -689,6 +742,7 @@
         "index": {
           "description": "Alias of MonadIO",
           "hierarchy": "Fay Control Monad IO",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Control.Monad.IO",
           "name": "IO",
           "package": "fay",
@@ -703,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias of liftIO, I hate typing it. Hate reading it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Control.Monad.IO",
           "name": "io",
           "package": "fay",
@@ -713,6 +768,7 @@
         "index": {
           "description": "Alias of liftIO hate typing it Hate reading it",
           "hierarchy": "Fay Control Monad IO",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Control.Monad.IO",
           "name": "io",
           "normalized": "IO a-\u003eb a",
@@ -728,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert a Haskell value to a (JSON representation of a) Fay value.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Convert",
           "name": "Convert",
           "package": "fay",
@@ -737,6 +794,7 @@
         "index": {
           "description": "Convert Haskell value to JSON representation of Fay value",
           "hierarchy": "Fay Convert",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Convert",
           "name": "Convert",
           "package": "fay",
@@ -751,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value representing a Fay value to a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Convert",
           "name": "readFromFay",
           "package": "fay",
@@ -761,6 +820,7 @@
         "index": {
           "description": "Convert value representing Fay value to Haskell value",
           "hierarchy": "Fay Convert",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Convert",
           "name": "readFromFay",
           "normalized": "Value-\u003eMaybe a",
@@ -777,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Haskell value to a value representing a Fay value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Convert",
           "name": "showToFay",
           "package": "fay",
@@ -787,6 +848,7 @@
         "index": {
           "description": "Convert Haskell value to value representing Fay value",
           "hierarchy": "Fay Convert",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Convert",
           "name": "showToFay",
           "normalized": "a-\u003eMaybe Value",
@@ -803,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra list functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Data.List.Extra",
           "name": "Extra",
           "package": "fay",
@@ -812,6 +875,7 @@
         "index": {
           "description": "Extra list functions",
           "hierarchy": "Fay Data List Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Data.List.Extra",
           "name": "Extra",
           "package": "fay",
@@ -826,6 +890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip of map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Data.List.Extra",
           "name": "for",
           "package": "fay",
@@ -836,6 +901,7 @@
         "index": {
           "description": "Flip of map",
           "hierarchy": "Fay Data List Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Data.List.Extra",
           "name": "for",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -851,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the union of a list of lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Data.List.Extra",
           "name": "unionOf",
           "package": "fay",
@@ -861,6 +928,7 @@
         "index": {
           "description": "Get the union of list of lists",
           "hierarchy": "Fay Data List Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Data.List.Extra",
           "name": "unionOf",
           "normalized": "[[a]]-\u003e[a]",
@@ -876,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "NoAnnotation",
           "package": "fay",
@@ -884,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "NoAnnotation",
           "package": "fay",
@@ -897,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Alt",
           "package": "fay",
@@ -905,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Alt",
           "package": "fay",
@@ -918,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "BangType",
           "package": "fay",
@@ -926,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "BangType",
           "package": "fay",
@@ -939,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "ClassDecl",
           "package": "fay",
@@ -947,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "ClassDecl",
           "package": "fay",
@@ -960,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Decl",
           "package": "fay",
@@ -968,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Decl",
           "package": "fay",
@@ -981,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "DeclHead",
           "package": "fay",
@@ -989,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "DeclHead",
           "package": "fay",
@@ -1002,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Ex",
           "package": "fay",
@@ -1010,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Ex",
           "package": "fay",
@@ -1023,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Exp",
           "package": "fay",
@@ -1031,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Exp",
           "package": "fay",
@@ -1044,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "ExportSpec",
           "package": "fay",
@@ -1052,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "ExportSpec",
           "package": "fay",
@@ -1065,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "FieldDecl",
           "package": "fay",
@@ -1073,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "FieldDecl",
           "package": "fay",
@@ -1086,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "FieldUpdate",
           "package": "fay",
@@ -1094,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "FieldUpdate",
           "package": "fay",
@@ -1107,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "GadtDecl",
           "package": "fay",
@@ -1115,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "GadtDecl",
           "package": "fay",
@@ -1128,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "GuardedAlts",
           "package": "fay",
@@ -1136,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "GuardedAlts",
           "package": "fay",
@@ -1149,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "GuardedRhs",
           "package": "fay",
@@ -1157,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "GuardedRhs",
           "package": "fay",
@@ -1170,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "ImportDecl",
           "package": "fay",
@@ -1178,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "ImportDecl",
           "package": "fay",
@@ -1191,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "ImportSpec",
           "package": "fay",
@@ -1199,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "ImportSpec",
           "package": "fay",
@@ -1212,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Literal",
           "package": "fay",
@@ -1220,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Literal",
           "package": "fay",
@@ -1233,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Match",
           "package": "fay",
@@ -1241,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Match",
           "package": "fay",
@@ -1254,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Module",
           "package": "fay",
@@ -1262,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Module",
           "package": "fay",
@@ -1275,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "ModuleName",
           "package": "fay",
@@ -1283,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "ModuleName",
           "package": "fay",
@@ -1296,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "ModulePragma",
           "package": "fay",
@@ -1304,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "ModulePragma",
           "package": "fay",
@@ -1317,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Name",
           "package": "fay",
@@ -1325,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Name",
           "package": "fay",
@@ -1338,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Pat",
           "package": "fay",
@@ -1346,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Pat",
           "package": "fay",
@@ -1359,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "PatField",
           "package": "fay",
@@ -1367,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "PatField",
           "package": "fay",
@@ -1380,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "QName",
           "package": "fay",
@@ -1388,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "QName",
           "package": "fay",
@@ -1401,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "QOp",
           "package": "fay",
@@ -1409,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "QOp",
           "package": "fay",
@@ -1422,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "QualConDecl",
           "package": "fay",
@@ -1430,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "QualConDecl",
           "package": "fay",
@@ -1443,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "QualStmt",
           "package": "fay",
@@ -1451,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "QualStmt",
           "package": "fay",
@@ -1464,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Rhs",
           "package": "fay",
@@ -1472,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Rhs",
           "package": "fay",
@@ -1485,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "SpecialCon",
           "package": "fay",
@@ -1493,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "SpecialCon",
           "package": "fay",
@@ -1506,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "SrcLoc",
           "package": "fay",
@@ -1514,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "SrcLoc",
           "package": "fay",
@@ -1527,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "SrcSpan",
           "package": "fay",
@@ -1535,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "SrcSpan",
           "package": "fay",
@@ -1548,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "SrcSpanInfo",
           "package": "fay",
@@ -1556,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "SrcSpanInfo",
           "package": "fay",
@@ -1569,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Stmt",
           "package": "fay",
@@ -1577,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Stmt",
           "package": "fay",
@@ -1590,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "TyVarBind",
           "package": "fay",
@@ -1598,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "TyVarBind",
           "package": "fay",
@@ -1611,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Type",
           "package": "fay",
@@ -1619,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "Type",
           "package": "fay",
@@ -1632,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.NoAnnotation",
           "name": "unAnn",
           "package": "fay",
@@ -1641,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts NoAnnotation",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.NoAnnotation",
           "name": "unAnn",
           "normalized": "a b-\u003ea()",
@@ -1656,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Scoped",
           "package": "fay",
@@ -1664,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Scoped",
           "package": "fay",
@@ -1677,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Alt",
           "package": "fay",
@@ -1685,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Alt",
           "package": "fay",
@@ -1698,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "BangType",
           "package": "fay",
@@ -1706,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "BangType",
           "package": "fay",
@@ -1719,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "ClassDecl",
           "package": "fay",
@@ -1727,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "ClassDecl",
           "package": "fay",
@@ -1740,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Decl",
           "package": "fay",
@@ -1748,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Decl",
           "package": "fay",
@@ -1761,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "DeclHead",
           "package": "fay",
@@ -1769,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "DeclHead",
           "package": "fay",
@@ -1782,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Ex",
           "package": "fay",
@@ -1790,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Ex",
           "package": "fay",
@@ -1803,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Exp",
           "package": "fay",
@@ -1811,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Exp",
           "package": "fay",
@@ -1824,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "ExportSpec",
           "package": "fay",
@@ -1832,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "ExportSpec",
           "package": "fay",
@@ -1845,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "FieldDecl",
           "package": "fay",
@@ -1853,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "FieldDecl",
           "package": "fay",
@@ -1866,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "FieldUpdate",
           "package": "fay",
@@ -1874,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "FieldUpdate",
           "package": "fay",
@@ -1887,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "GadtDecl",
           "package": "fay",
@@ -1895,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "GadtDecl",
           "package": "fay",
@@ -1908,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "GuardedAlts",
           "package": "fay",
@@ -1916,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "GuardedAlts",
           "package": "fay",
@@ -1929,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "GuardedRhs",
           "package": "fay",
@@ -1937,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "GuardedRhs",
           "package": "fay",
@@ -1950,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "ImportDecl",
           "package": "fay",
@@ -1958,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "ImportDecl",
           "package": "fay",
@@ -1971,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "ImportSpec",
           "package": "fay",
@@ -1979,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "ImportSpec",
           "package": "fay",
@@ -1992,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Literal",
           "package": "fay",
@@ -2000,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Literal",
           "package": "fay",
@@ -2013,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Match",
           "package": "fay",
@@ -2021,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Match",
           "package": "fay",
@@ -2034,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Module",
           "package": "fay",
@@ -2042,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Module",
           "package": "fay",
@@ -2055,6 +2235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "ModuleName",
           "package": "fay",
@@ -2063,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "ModuleName",
           "package": "fay",
@@ -2076,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "ModulePragma",
           "package": "fay",
@@ -2084,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "ModulePragma",
           "package": "fay",
@@ -2097,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Name",
           "package": "fay",
@@ -2105,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Name",
           "package": "fay",
@@ -2118,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Pat",
           "package": "fay",
@@ -2126,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Pat",
           "package": "fay",
@@ -2139,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "PatField",
           "package": "fay",
@@ -2147,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "PatField",
           "package": "fay",
@@ -2160,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "QName",
           "package": "fay",
@@ -2168,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "QName",
           "package": "fay",
@@ -2181,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "QOp",
           "package": "fay",
@@ -2189,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "QOp",
           "package": "fay",
@@ -2202,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "QualConDecl",
           "package": "fay",
@@ -2210,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "QualConDecl",
           "package": "fay",
@@ -2223,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "QualStmt",
           "package": "fay",
@@ -2231,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "QualStmt",
           "package": "fay",
@@ -2244,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Rhs",
           "package": "fay",
@@ -2252,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Rhs",
           "package": "fay",
@@ -2265,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "SpecialCon",
           "package": "fay",
@@ -2273,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "SpecialCon",
           "package": "fay",
@@ -2286,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "SrcLoc",
           "package": "fay",
@@ -2294,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "SrcLoc",
           "package": "fay",
@@ -2307,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Stmt",
           "package": "fay",
@@ -2315,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Stmt",
           "package": "fay",
@@ -2328,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "TyVarBind",
           "package": "fay",
@@ -2336,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "TyVarBind",
           "package": "fay",
@@ -2349,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "Type",
           "package": "fay",
@@ -2357,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "Type",
           "package": "fay",
@@ -2370,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "X",
           "package": "fay",
@@ -2378,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "X",
           "package": "fay",
@@ -2390,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "noI",
           "package": "fay",
@@ -2399,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "noI",
           "package": "fay",
@@ -2411,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts.Scoped",
           "name": "srcSpanInfo",
           "package": "fay",
@@ -2420,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts Scoped",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts.Scoped",
           "name": "srcSpanInfo",
           "normalized": "Scoped SrcSpanInfo-\u003eSrcSpanInfo",
@@ -2435,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Exts",
           "package": "fay",
@@ -2443,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Exts",
           "package": "fay",
@@ -2456,6 +2674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Alt",
           "package": "fay",
@@ -2464,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Alt",
           "package": "fay",
@@ -2477,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "BangType",
           "package": "fay",
@@ -2485,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "BangType",
           "package": "fay",
@@ -2498,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "ClassDecl",
           "package": "fay",
@@ -2506,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "ClassDecl",
           "package": "fay",
@@ -2519,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Decl",
           "package": "fay",
@@ -2527,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Decl",
           "package": "fay",
@@ -2540,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "DeclHead",
           "package": "fay",
@@ -2548,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "DeclHead",
           "package": "fay",
@@ -2561,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Ex",
           "package": "fay",
@@ -2569,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Ex",
           "package": "fay",
@@ -2582,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Exp",
           "package": "fay",
@@ -2590,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Exp",
           "package": "fay",
@@ -2603,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "ExportSpec",
           "package": "fay",
@@ -2611,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "ExportSpec",
           "package": "fay",
@@ -2624,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "FieldDecl",
           "package": "fay",
@@ -2632,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "FieldDecl",
           "package": "fay",
@@ -2645,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "FieldUpdate",
           "package": "fay",
@@ -2653,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "FieldUpdate",
           "package": "fay",
@@ -2666,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "GadtDecl",
           "package": "fay",
@@ -2674,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "GadtDecl",
           "package": "fay",
@@ -2687,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "GuardedAlts",
           "package": "fay",
@@ -2695,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "GuardedAlts",
           "package": "fay",
@@ -2708,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "GuardedRhs",
           "package": "fay",
@@ -2716,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "GuardedRhs",
           "package": "fay",
@@ -2729,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "ImportDecl",
           "package": "fay",
@@ -2737,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "ImportDecl",
           "package": "fay",
@@ -2750,6 +2996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "ImportSpec",
           "package": "fay",
@@ -2758,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "ImportSpec",
           "package": "fay",
@@ -2771,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Literal",
           "package": "fay",
@@ -2779,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Literal",
           "package": "fay",
@@ -2792,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Match",
           "package": "fay",
@@ -2800,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Match",
           "package": "fay",
@@ -2813,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Module",
           "package": "fay",
@@ -2821,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Module",
           "package": "fay",
@@ -2834,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "ModuleName",
           "package": "fay",
@@ -2842,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "ModuleName",
           "package": "fay",
@@ -2855,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "ModulePragma",
           "package": "fay",
@@ -2863,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "ModulePragma",
           "package": "fay",
@@ -2876,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Name",
           "package": "fay",
@@ -2884,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Name",
           "package": "fay",
@@ -2897,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Pat",
           "package": "fay",
@@ -2905,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Pat",
           "package": "fay",
@@ -2918,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "PatField",
           "package": "fay",
@@ -2926,6 +3189,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "PatField",
           "package": "fay",
@@ -2939,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "QName",
           "package": "fay",
@@ -2947,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "QName",
           "package": "fay",
@@ -2960,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "QOp",
           "package": "fay",
@@ -2968,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "QOp",
           "package": "fay",
@@ -2981,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "QualConDecl",
           "package": "fay",
@@ -2989,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "QualConDecl",
           "package": "fay",
@@ -3002,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "QualStmt",
           "package": "fay",
@@ -3010,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "QualStmt",
           "package": "fay",
@@ -3023,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Rhs",
           "package": "fay",
@@ -3031,6 +3304,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Rhs",
           "package": "fay",
@@ -3044,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "SpecialCon",
           "package": "fay",
@@ -3052,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "SpecialCon",
           "package": "fay",
@@ -3065,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "SrcLoc",
           "package": "fay",
@@ -3073,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "SrcLoc",
           "package": "fay",
@@ -3086,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Stmt",
           "package": "fay",
@@ -3094,6 +3373,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Stmt",
           "package": "fay",
@@ -3107,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "TyVarBind",
           "package": "fay",
@@ -3115,6 +3396,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "TyVarBind",
           "package": "fay",
@@ -3128,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "Type",
           "package": "fay",
@@ -3136,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "Type",
           "package": "fay",
@@ -3149,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "X",
           "package": "fay",
@@ -3157,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "X",
           "package": "fay",
@@ -3169,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "convertFieldDecl",
           "package": "fay",
@@ -3178,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "convertFieldDecl",
           "normalized": "FieldDecl a-\u003e([Name a],BangType a)",
@@ -3193,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "declHeadName",
           "package": "fay",
@@ -3202,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "declHeadName",
           "normalized": "DeclHead a-\u003eName a",
@@ -3217,6 +3507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "fieldDeclNames",
           "package": "fay",
@@ -3226,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "fieldDeclNames",
           "normalized": "FieldDecl a-\u003e[Name a]",
@@ -3241,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "mkIdent",
           "package": "fay",
@@ -3250,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "mkIdent",
           "normalized": "String-\u003eName SrcSpanInfo",
@@ -3265,6 +3559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "moduleExports",
           "package": "fay",
@@ -3274,6 +3569,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "moduleExports",
           "normalized": "Module X-\u003eMaybe(ExportSpecList X)",
@@ -3289,6 +3585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "moduleName",
           "package": "fay",
@@ -3298,6 +3595,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "moduleName",
           "normalized": "Module a-\u003eModuleName a",
@@ -3313,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "moduleNameString",
           "package": "fay",
@@ -3322,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "moduleNameString",
           "normalized": "ModuleName a-\u003eString",
@@ -3337,6 +3637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Exts",
           "name": "noI",
           "package": "fay",
@@ -3346,6 +3647,7 @@
         },
         "index": {
           "hierarchy": "Fay Exts",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Exts",
           "name": "noI",
           "package": "fay",
@@ -3359,6 +3661,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe internal FFI module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.FFI",
           "name": "FFI",
           "package": "fay",
@@ -3368,6 +3671,7 @@
         "index": {
           "description": "The internal FFI module",
           "hierarchy": "Fay FFI",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.FFI",
           "name": "FFI",
           "package": "fay",
@@ -3382,6 +3686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opposite of \u003ca\u003ePtr\u003c/a\u003e. Serialize the specified polymorphic type.\n\u003c/p\u003e\u003cpre\u003e foo :: Automatic a -\u003e String\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.FFI",
           "name": "Automatic",
           "package": "fay",
@@ -3391,6 +3696,7 @@
         "index": {
           "description": "The opposite of Ptr Serialize the specified polymorphic type foo Automatic String",
           "hierarchy": "Fay FFI",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.FFI",
           "name": "Automatic",
           "package": "fay",
@@ -3405,6 +3711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues that may be undefined\n Defined x encodes to x, Undefined decodes to undefined.\n An undefined property in a record will be removed when encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.FFI",
           "name": "Defined",
           "package": "fay",
@@ -3414,6 +3721,7 @@
         "index": {
           "description": "Values that may be undefined Defined encodes to Undefined decodes to undefined An undefined property in record will be removed when encoding",
           "hierarchy": "Fay FFI",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.FFI",
           "name": "Defined",
           "package": "fay",
@@ -3428,6 +3736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JavaScript FFI interfacing monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.FFI",
           "name": "Fay",
           "package": "fay",
@@ -3437,6 +3746,7 @@
         "index": {
           "description": "The JavaScript FFI interfacing monad",
           "hierarchy": "Fay FFI",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.FFI",
           "name": "Fay",
           "package": "fay",
@@ -3451,6 +3761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues that may be null\n  Nullable x decodes to x, Null decodes to null.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.FFI",
           "name": "Nullable",
           "package": "fay",
@@ -3460,6 +3771,7 @@
         "index": {
           "description": "Values that may be null Nullable decodes to Null decodes to null",
           "hierarchy": "Fay FFI",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.FFI",
           "name": "Nullable",
           "package": "fay",
@@ -3474,6 +3786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not serialize the specified type. This is useful for, e.g.\n\u003c/p\u003e\u003cpre\u003e foo :: String -\u003e String\n foo = ffi \"%1\"\n\u003c/pre\u003e\u003cp\u003eThis would normally serialize and unserialize the string, for no\n reason, in this case. Instead:\n\u003c/p\u003e\u003cpre\u003e foo :: Ptr String -\u003e Ptr String\n\u003c/pre\u003e\u003cp\u003eWill just give an identity function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.FFI",
           "name": "Ptr",
           "package": "fay",
@@ -3483,6 +3796,7 @@
         "index": {
           "description": "Do not serialize the specified type This is useful for e.g foo String String foo ffi This would normally serialize and unserialize the string for no reason in this case Instead foo Ptr String Ptr String Will just give an identity function",
           "hierarchy": "Fay FFI",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.FFI",
           "name": "Ptr",
           "package": "fay",
@@ -3496,6 +3810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.FFI",
           "name": "Defined",
           "package": "fay",
@@ -3505,6 +3820,7 @@
         },
         "index": {
           "hierarchy": "Fay FFI",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.FFI",
           "name": "Defined",
           "package": "fay",
@@ -3518,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.FFI",
           "name": "Null",
           "package": "fay",
@@ -3527,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "Fay FFI",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.FFI",
           "name": "Null",
           "package": "fay",
@@ -3540,6 +3858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.FFI",
           "name": "Nullable",
           "package": "fay",
@@ -3549,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "Fay FFI",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.FFI",
           "name": "Nullable",
           "package": "fay",
@@ -3562,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.FFI",
           "name": "Undefined",
           "package": "fay",
@@ -3571,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "Fay FFI",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.FFI",
           "name": "Undefined",
           "package": "fay",
@@ -3585,6 +3907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare a foreign action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.FFI",
           "name": "ffi",
           "package": "fay",
@@ -3594,6 +3917,7 @@
         "index": {
           "description": "Declare foreign action",
           "hierarchy": "Fay FFI",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.FFI",
           "name": "ffi",
           "normalized": "a-\u003eb",
@@ -3609,6 +3933,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra directory functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.System.Directory.Extra",
           "name": "Extra",
           "package": "fay",
@@ -3618,6 +3943,7 @@
         "index": {
           "description": "Extra directory functions",
           "hierarchy": "Fay System Directory Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.System.Directory.Extra",
           "name": "Extra",
           "package": "fay",
@@ -3632,6 +3958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all files in a folder and its subdirectories.\n Taken from Real World Haskell\n http:\u003cem/\u003ebook.realworldhaskell.org\u003cem\u003eread\u003c/em\u003eio-case-study-a-library-for-searching-the-filesystem.html\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.System.Directory.Extra",
           "name": "getRecursiveContents",
           "package": "fay",
@@ -3642,6 +3969,7 @@
         "index": {
           "description": "Get all files in folder and its subdirectories Taken from Real World Haskell http book.realworldhaskell.org read io-case-study-a-library-for-searching-the-filesystem.html",
           "hierarchy": "Fay System Directory Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.System.Directory.Extra",
           "name": "getRecursiveContents",
           "normalized": "FilePath-\u003eIO[FilePath]",
@@ -3658,6 +3986,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra process functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.System.Process.Extra",
           "name": "Extra",
           "package": "fay",
@@ -3667,6 +3996,7 @@
         "index": {
           "description": "Extra process functions",
           "hierarchy": "Fay System Process Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.System.Process.Extra",
           "name": "Extra",
           "package": "fay",
@@ -3681,6 +4011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead from a process returning both std err and out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.System.Process.Extra",
           "name": "readAllFromProcess",
           "package": "fay",
@@ -3691,6 +4022,7 @@
         "index": {
           "description": "Read from process returning both std err and out",
           "hierarchy": "Fay System Process Extra",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.System.Process.Extra",
           "name": "readAllFromProcess",
           "normalized": "FilePath-\u003e[String]-\u003eString-\u003eIO(Either(String,String)(String,String))",
@@ -3707,6 +4039,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAll Fay types and instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "Types",
           "package": "fay",
@@ -3716,6 +4049,7 @@
         "index": {
           "description": "All Fay types and instances",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "Types",
           "package": "fay",
@@ -3730,6 +4064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "Compile",
           "package": "fay",
@@ -3739,6 +4074,7 @@
         "index": {
           "description": "Compile monad",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "Compile",
           "package": "fay",
@@ -3753,6 +4089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration of the compiler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "CompileConfig",
           "package": "fay",
@@ -3762,6 +4099,7 @@
         "index": {
           "description": "Configuration of the compiler",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "CompileConfig",
           "package": "fay",
@@ -3776,6 +4114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "CompileError",
           "package": "fay",
@@ -3785,6 +4124,7 @@
         "index": {
           "description": "Error type",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "CompileError",
           "package": "fay",
@@ -3798,6 +4138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "CompileModule",
           "package": "fay",
@@ -3806,6 +4147,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "CompileModule",
           "package": "fay",
@@ -3820,6 +4162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration and globals for the compiler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "CompileReader",
           "package": "fay",
@@ -3829,6 +4172,7 @@
         "index": {
           "description": "Configuration and globals for the compiler",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "CompileReader",
           "package": "fay",
@@ -3842,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "CompileResult",
           "package": "fay",
@@ -3850,6 +4195,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "CompileResult",
           "package": "fay",
@@ -3864,6 +4210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState of the compiler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "CompileState",
           "package": "fay",
@@ -3873,6 +4220,7 @@
         "index": {
           "description": "State of the compiler",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "CompileState",
           "package": "fay",
@@ -3887,6 +4235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThings written out by the compiler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "CompileWriter",
           "package": "fay",
@@ -3896,6 +4245,7 @@
         "index": {
           "description": "Things written out by the compiler",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "CompileWriter",
           "package": "fay",
@@ -3910,6 +4260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JavaScript FFI interfacing monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "Fay",
           "package": "fay",
@@ -3919,6 +4270,7 @@
         "index": {
           "description": "The JavaScript FFI interfacing monad",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "Fay",
           "package": "fay",
@@ -3933,6 +4285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese are the data types that are serializable directly to native\n JS data types. Strings, floating points and arrays. The others are:\n actions in the JS monad, which are thunks that shouldn't be forced\n when serialized but wrapped up as JS zero-arg functions, and\n unknown types can't be converted but should at least be forced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "FundamentalType",
           "package": "fay",
@@ -3942,6 +4295,7 @@
         "index": {
           "description": "These are the data types that are serializable directly to native JS data types Strings floating points and arrays The others are actions in the JS monad which are thunks that shouldn be forced when serialized but wrapped up as JS zero-arg functions and unknown types can be converted but should at least be forced",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "FundamentalType",
           "package": "fay",
@@ -3956,6 +4310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsExp",
           "package": "fay",
@@ -3965,6 +4320,7 @@
         "index": {
           "description": "Expression type",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsExp",
           "package": "fay",
@@ -3979,6 +4335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral value type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsLit",
           "package": "fay",
@@ -3988,6 +4345,7 @@
         "index": {
           "description": "Literal value type",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsLit",
           "package": "fay",
@@ -4002,6 +4360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name of some kind.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsName",
           "package": "fay",
@@ -4011,6 +4370,7 @@
         "index": {
           "description": "name of some kind",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsName",
           "package": "fay",
@@ -4025,6 +4385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatement type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsStmt",
           "package": "fay",
@@ -4034,6 +4395,7 @@
         "index": {
           "description": "Statement type",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsStmt",
           "package": "fay",
@@ -4048,6 +4410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a module split into a list for code generation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "ModulePath",
           "package": "fay",
@@ -4057,6 +4420,7 @@
         "index": {
           "description": "The name of module split into list for code generation",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "ModulePath",
           "package": "fay",
@@ -4071,6 +4435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state of the pretty printer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "PrintState",
           "package": "fay",
@@ -4080,6 +4445,7 @@
         "index": {
           "description": "The state of the pretty printer",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "PrintState",
           "package": "fay",
@@ -4094,6 +4460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint some value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "Printable",
           "package": "fay",
@@ -4103,6 +4470,7 @@
         "index": {
           "description": "Print some value",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "Printable",
           "package": "fay",
@@ -4117,6 +4485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe printer monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "Printer",
           "package": "fay",
@@ -4126,6 +4495,7 @@
         "index": {
           "description": "The printer monad",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "Printer",
           "package": "fay",
@@ -4140,6 +4510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe serialization context indicates whether we're currently\n serializing some value or a particular field in a user-defined data\n type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "SerializeContext",
           "package": "fay",
@@ -4149,6 +4520,7 @@
         "index": {
           "description": "The serialization context indicates whether we re currently serializing some value or particular field in user-defined data type",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "SerializeContext",
           "package": "fay",
@@ -4162,6 +4534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "Automatic",
           "package": "fay",
@@ -4171,6 +4544,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "Automatic",
           "package": "fay",
@@ -4184,6 +4558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "BoolType",
           "package": "fay",
@@ -4193,6 +4568,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "BoolType",
           "package": "fay",
@@ -4206,6 +4582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "Compile",
           "package": "fay",
@@ -4215,6 +4592,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "Compile",
           "package": "fay",
@@ -4228,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "CompileConfig",
           "package": "fay",
@@ -4237,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "CompileConfig",
           "package": "fay",
@@ -4250,6 +4630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "CompileReader",
           "package": "fay",
@@ -4259,6 +4640,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "CompileReader",
           "package": "fay",
@@ -4272,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "CompileState",
           "package": "fay",
@@ -4281,6 +4664,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "CompileState",
           "package": "fay",
@@ -4294,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "CompileWriter",
           "package": "fay",
@@ -4303,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "CompileWriter",
           "package": "fay",
@@ -4316,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "Couldn'tFindImport",
           "package": "fay",
@@ -4325,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "Couldn'tFindImport",
           "normalized": "Couldn'tFindImport ModuleName[FilePath]",
@@ -4340,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "DateType",
           "package": "fay",
@@ -4349,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "DateType",
           "package": "fay",
@@ -4362,6 +4752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "Defined",
           "package": "fay",
@@ -4371,6 +4762,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "Defined",
           "package": "fay",
@@ -4384,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "DoubleType",
           "package": "fay",
@@ -4393,6 +4786,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "DoubleType",
           "package": "fay",
@@ -4406,6 +4800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "EmptyDoBlock",
           "package": "fay",
@@ -4415,6 +4810,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "EmptyDoBlock",
           "package": "fay",
@@ -4428,6 +4824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "FfiFormatBadChars",
           "package": "fay",
@@ -4437,6 +4834,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "FfiFormatBadChars",
           "package": "fay",
@@ -4450,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "FfiFormatIncompleteArg",
           "package": "fay",
@@ -4459,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "FfiFormatIncompleteArg",
           "package": "fay",
@@ -4472,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "FfiFormatInvalidJavaScript",
           "package": "fay",
@@ -4481,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "FfiFormatInvalidJavaScript",
           "package": "fay",
@@ -4494,6 +4896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "FfiFormatNoSuchArg",
           "package": "fay",
@@ -4503,6 +4906,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "FfiFormatNoSuchArg",
           "package": "fay",
@@ -4516,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "FfiNeedsTypeSig",
           "package": "fay",
@@ -4525,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "FfiNeedsTypeSig",
           "package": "fay",
@@ -4538,6 +4944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "FunctionType",
           "package": "fay",
@@ -4547,6 +4954,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "FunctionType",
           "normalized": "FunctionType[FundamentalType]",
@@ -4562,6 +4970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "GHCError",
           "package": "fay",
@@ -4571,6 +4980,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "GHCError",
           "package": "fay",
@@ -4584,6 +4994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "IntType",
           "package": "fay",
@@ -4593,6 +5004,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "IntType",
           "package": "fay",
@@ -4606,6 +5018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "InvalidDoBlock",
           "package": "fay",
@@ -4615,6 +5028,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "InvalidDoBlock",
           "package": "fay",
@@ -4628,6 +5042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsAnd",
           "package": "fay",
@@ -4637,6 +5052,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsAnd",
           "package": "fay",
@@ -4650,6 +5066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsApp",
           "package": "fay",
@@ -4659,6 +5076,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsApp",
           "normalized": "JsApp JsExp[JsExp]",
@@ -4674,6 +5092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsApply",
           "package": "fay",
@@ -4683,6 +5102,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsApply",
           "package": "fay",
@@ -4696,6 +5116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsBlock",
           "package": "fay",
@@ -4705,6 +5126,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsBlock",
           "normalized": "JsBlock[JsStmt]",
@@ -4720,6 +5142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsBool",
           "package": "fay",
@@ -4729,6 +5152,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsBool",
           "package": "fay",
@@ -4742,6 +5166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsBuiltIn",
           "package": "fay",
@@ -4751,6 +5176,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsBuiltIn",
           "package": "fay",
@@ -4764,6 +5190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsChar",
           "package": "fay",
@@ -4773,6 +5200,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsChar",
           "package": "fay",
@@ -4786,6 +5214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsConstructor",
           "package": "fay",
@@ -4795,6 +5224,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsConstructor",
           "package": "fay",
@@ -4808,6 +5238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsContinue",
           "package": "fay",
@@ -4817,6 +5248,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsContinue",
           "package": "fay",
@@ -4830,6 +5262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsEarlyReturn",
           "package": "fay",
@@ -4839,6 +5272,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsEarlyReturn",
           "package": "fay",
@@ -4852,6 +5286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsEq",
           "package": "fay",
@@ -4861,6 +5296,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsEq",
           "package": "fay",
@@ -4874,6 +5310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsExpStmt",
           "package": "fay",
@@ -4883,6 +5320,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsExpStmt",
           "package": "fay",
@@ -4896,6 +5334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsFloating",
           "package": "fay",
@@ -4905,6 +5344,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsFloating",
           "package": "fay",
@@ -4918,6 +5358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsForce",
           "package": "fay",
@@ -4927,6 +5368,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsForce",
           "package": "fay",
@@ -4940,6 +5382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsFun",
           "package": "fay",
@@ -4949,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsFun",
           "normalized": "JsFun(Maybe JsName)[JsName][JsStmt](Maybe JsExp)",
@@ -4964,6 +5408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsGetProp",
           "package": "fay",
@@ -4973,6 +5418,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsGetProp",
           "package": "fay",
@@ -4986,6 +5432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsGetPropExtern",
           "package": "fay",
@@ -4995,6 +5442,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsGetPropExtern",
           "package": "fay",
@@ -5008,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsIf",
           "package": "fay",
@@ -5017,6 +5466,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsIf",
           "normalized": "JsIf JsExp[JsStmt][JsStmt]",
@@ -5032,6 +5482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsIndex",
           "package": "fay",
@@ -5041,6 +5492,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsIndex",
           "package": "fay",
@@ -5054,6 +5506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsInfix",
           "package": "fay",
@@ -5063,6 +5516,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsInfix",
           "package": "fay",
@@ -5076,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsInstanceOf",
           "package": "fay",
@@ -5085,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsInstanceOf",
           "package": "fay",
@@ -5098,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsInt",
           "package": "fay",
@@ -5107,6 +5564,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsInt",
           "package": "fay",
@@ -5120,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsList",
           "package": "fay",
@@ -5129,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsList",
           "normalized": "JsList[JsExp]",
@@ -5144,6 +5604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsLit",
           "package": "fay",
@@ -5153,6 +5614,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsLit",
           "package": "fay",
@@ -5166,6 +5628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsLitObj",
           "package": "fay",
@@ -5175,6 +5638,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsLitObj",
           "normalized": "JsLitObj[(Name,JsExp)]",
@@ -5190,6 +5654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsLookup",
           "package": "fay",
@@ -5199,6 +5664,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsLookup",
           "package": "fay",
@@ -5212,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsModuleName",
           "package": "fay",
@@ -5221,6 +5688,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsModuleName",
           "package": "fay",
@@ -5234,6 +5702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsName",
           "package": "fay",
@@ -5243,6 +5712,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsName",
           "package": "fay",
@@ -5256,6 +5726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsNameVar",
           "package": "fay",
@@ -5265,6 +5736,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsNameVar",
           "package": "fay",
@@ -5278,6 +5750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsNegApp",
           "package": "fay",
@@ -5287,6 +5760,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsNegApp",
           "package": "fay",
@@ -5300,6 +5774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsNeq",
           "package": "fay",
@@ -5309,6 +5784,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsNeq",
           "package": "fay",
@@ -5322,6 +5798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsNew",
           "package": "fay",
@@ -5331,6 +5808,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsNew",
           "normalized": "JsNew JsName[JsExp]",
@@ -5346,6 +5824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsNull",
           "package": "fay",
@@ -5355,6 +5834,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsNull",
           "package": "fay",
@@ -5368,6 +5848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsObj",
           "package": "fay",
@@ -5377,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsObj",
           "normalized": "JsObj[(String,JsExp)]",
@@ -5392,6 +5874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsOr",
           "package": "fay",
@@ -5401,6 +5884,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsOr",
           "package": "fay",
@@ -5414,6 +5898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsParam",
           "package": "fay",
@@ -5423,6 +5908,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsParam",
           "package": "fay",
@@ -5436,6 +5922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsParametrizedType",
           "package": "fay",
@@ -5445,6 +5932,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsParametrizedType",
           "package": "fay",
@@ -5458,6 +5946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsParen",
           "package": "fay",
@@ -5467,6 +5956,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsParen",
           "package": "fay",
@@ -5480,6 +5970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsRawExp",
           "package": "fay",
@@ -5489,6 +5980,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsRawExp",
           "package": "fay",
@@ -5502,6 +5994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsSeq",
           "package": "fay",
@@ -5511,6 +6004,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsSeq",
           "normalized": "JsSeq[JsExp]",
@@ -5526,6 +6020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsSetConstructor",
           "package": "fay",
@@ -5535,6 +6030,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsSetConstructor",
           "package": "fay",
@@ -5548,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsSetModule",
           "package": "fay",
@@ -5557,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsSetModule",
           "package": "fay",
@@ -5570,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsSetProp",
           "package": "fay",
@@ -5579,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsSetProp",
           "package": "fay",
@@ -5592,6 +6092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsSetPropExtern",
           "package": "fay",
@@ -5601,6 +6102,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsSetPropExtern",
           "package": "fay",
@@ -5614,6 +6116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsSetQName",
           "package": "fay",
@@ -5623,6 +6126,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsSetQName",
           "package": "fay",
@@ -5636,6 +6140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsStr",
           "package": "fay",
@@ -5645,6 +6150,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsStr",
           "package": "fay",
@@ -5658,6 +6164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsTernaryIf",
           "package": "fay",
@@ -5667,6 +6174,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsTernaryIf",
           "package": "fay",
@@ -5680,6 +6188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsThis",
           "package": "fay",
@@ -5689,6 +6198,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsThis",
           "package": "fay",
@@ -5702,6 +6212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsThrow",
           "package": "fay",
@@ -5711,6 +6222,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsThrow",
           "package": "fay",
@@ -5724,6 +6236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsThrowExp",
           "package": "fay",
@@ -5733,6 +6246,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsThrowExp",
           "package": "fay",
@@ -5746,6 +6260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsThunk",
           "package": "fay",
@@ -5755,6 +6270,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsThunk",
           "package": "fay",
@@ -5768,6 +6284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsTmp",
           "package": "fay",
@@ -5777,6 +6294,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsTmp",
           "package": "fay",
@@ -5790,6 +6308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsType",
           "package": "fay",
@@ -5799,6 +6318,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsType",
           "package": "fay",
@@ -5812,6 +6332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsUndefined",
           "package": "fay",
@@ -5821,6 +6342,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsUndefined",
           "package": "fay",
@@ -5834,6 +6356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsUpdate",
           "package": "fay",
@@ -5843,6 +6366,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsUpdate",
           "package": "fay",
@@ -5856,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsUpdateProp",
           "package": "fay",
@@ -5865,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsUpdateProp",
           "package": "fay",
@@ -5878,6 +6404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsUpdatePropExtern",
           "package": "fay",
@@ -5887,6 +6414,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsUpdatePropExtern",
           "package": "fay",
@@ -5900,6 +6428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsVar",
           "package": "fay",
@@ -5909,6 +6438,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsVar",
           "package": "fay",
@@ -5922,6 +6452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "JsWhile",
           "package": "fay",
@@ -5931,6 +6462,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "JsWhile",
           "normalized": "JsWhile JsExp[JsStmt]",
@@ -5946,6 +6478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "ListType",
           "package": "fay",
@@ -5955,6 +6488,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "ListType",
           "package": "fay",
@@ -5968,6 +6502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "Nullable",
           "package": "fay",
@@ -5977,6 +6512,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "Nullable",
           "package": "fay",
@@ -5990,6 +6526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "ParseError",
           "package": "fay",
@@ -5999,6 +6536,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "ParseError",
           "package": "fay",
@@ -6012,6 +6550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "PrintState",
           "package": "fay",
@@ -6021,6 +6560,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "PrintState",
           "package": "fay",
@@ -6034,6 +6574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "Printer",
           "package": "fay",
@@ -6043,6 +6584,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "Printer",
           "package": "fay",
@@ -6056,6 +6598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "PtrType",
           "package": "fay",
@@ -6065,6 +6608,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "PtrType",
           "package": "fay",
@@ -6078,6 +6622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "SerializeAnywhere",
           "package": "fay",
@@ -6087,6 +6632,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "SerializeAnywhere",
           "package": "fay",
@@ -6100,6 +6646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "SerializeUserArg",
           "package": "fay",
@@ -6109,6 +6656,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "SerializeUserArg",
           "package": "fay",
@@ -6122,6 +6670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "ShouldBeDesugared",
           "package": "fay",
@@ -6131,6 +6680,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "ShouldBeDesugared",
           "package": "fay",
@@ -6144,6 +6694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "StringType",
           "package": "fay",
@@ -6153,6 +6704,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "StringType",
           "package": "fay",
@@ -6166,6 +6718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "TupleType",
           "package": "fay",
@@ -6175,6 +6728,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "TupleType",
           "normalized": "TupleType[FundamentalType]",
@@ -6190,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnableResolveQualified",
           "package": "fay",
@@ -6199,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnableResolveQualified",
           "package": "fay",
@@ -6212,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnknownType",
           "package": "fay",
@@ -6221,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnknownType",
           "package": "fay",
@@ -6234,6 +6792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedDeclaration",
           "package": "fay",
@@ -6243,6 +6802,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedDeclaration",
           "package": "fay",
@@ -6256,6 +6816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedEnum",
           "package": "fay",
@@ -6265,6 +6826,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedEnum",
           "package": "fay",
@@ -6278,6 +6840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedExportSpec",
           "package": "fay",
@@ -6287,6 +6850,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedExportSpec",
           "package": "fay",
@@ -6300,6 +6864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedExpression",
           "package": "fay",
@@ -6309,6 +6874,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedExpression",
           "package": "fay",
@@ -6322,6 +6888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedFieldPattern",
           "package": "fay",
@@ -6331,6 +6898,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedFieldPattern",
           "package": "fay",
@@ -6344,6 +6912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedImport",
           "package": "fay",
@@ -6353,6 +6922,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedImport",
           "package": "fay",
@@ -6366,6 +6936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedLet",
           "package": "fay",
@@ -6375,6 +6946,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedLet",
           "package": "fay",
@@ -6388,6 +6960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedLetBinding",
           "package": "fay",
@@ -6397,6 +6970,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedLetBinding",
           "package": "fay",
@@ -6410,6 +6984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedLiteral",
           "package": "fay",
@@ -6419,6 +6994,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedLiteral",
           "package": "fay",
@@ -6432,6 +7008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedModuleSyntax",
           "package": "fay",
@@ -6441,6 +7018,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedModuleSyntax",
           "package": "fay",
@@ -6454,6 +7032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedPattern",
           "package": "fay",
@@ -6463,6 +7042,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedPattern",
           "package": "fay",
@@ -6476,6 +7056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedQualStmt",
           "package": "fay",
@@ -6485,6 +7066,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedQualStmt",
           "package": "fay",
@@ -6498,6 +7080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedRecursiveDo",
           "package": "fay",
@@ -6507,6 +7090,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedRecursiveDo",
           "package": "fay",
@@ -6520,6 +7104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedRhs",
           "package": "fay",
@@ -6529,6 +7114,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedRhs",
           "package": "fay",
@@ -6542,6 +7128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedWhereInAlt",
           "package": "fay",
@@ -6551,6 +7138,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedWhereInAlt",
           "package": "fay",
@@ -6564,6 +7152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UnsupportedWhereInMatch",
           "package": "fay",
@@ -6573,6 +7162,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UnsupportedWhereInMatch",
           "package": "fay",
@@ -6586,6 +7176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "UserDefined",
           "package": "fay",
@@ -6595,6 +7186,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "UserDefined",
           "normalized": "UserDefined Name[FundamentalType]",
@@ -6611,6 +7203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom source location for fay-base\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configBasePath",
           "package": "fay",
@@ -6621,6 +7214,7 @@
         "index": {
           "description": "Custom source location for fay-base",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configBasePath",
           "package": "fay",
@@ -6635,6 +7229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossibly a fay package name, and a include directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configDirectoryIncludes",
           "package": "fay",
@@ -6645,6 +7240,7 @@
         "index": {
           "description": "Possibly fay package name and include directory",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configDirectoryIncludes",
           "normalized": "[(Maybe String,FilePath)]",
@@ -6661,6 +7257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExport the runtime?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configExportRuntime",
           "package": "fay",
@@ -6671,6 +7268,7 @@
         "index": {
           "description": "Export the runtime",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configExportRuntime",
           "package": "fay",
@@ -6685,6 +7283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExport the stdlib?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configExportStdlib",
           "package": "fay",
@@ -6695,6 +7294,7 @@
         "index": {
           "description": "Export the stdlib",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configExportStdlib",
           "package": "fay",
@@ -6709,6 +7309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExport \u003cem\u003eonly\u003c/em\u003e the stdlib?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configExportStdlibOnly",
           "package": "fay",
@@ -6719,6 +7320,7 @@
         "index": {
           "description": "Export only the stdlib",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configExportStdlibOnly",
           "package": "fay",
@@ -6733,6 +7335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile path to output to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configFilePath",
           "package": "fay",
@@ -6743,6 +7346,7 @@
         "index": {
           "description": "File path to output to",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configFilePath",
           "package": "fay",
@@ -6757,6 +7361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten function application?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configFlattenApps",
           "package": "fay",
@@ -6767,6 +7372,7 @@
         "index": {
           "description": "Flatten function application",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configFlattenApps",
           "package": "fay",
@@ -6781,6 +7387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun Google Closure on the produced JS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configGClosure",
           "package": "fay",
@@ -6791,6 +7398,7 @@
         "index": {
           "description": "Run Google Closure on the produced JS",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configGClosure",
           "package": "fay",
@@ -6805,6 +7413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny JS files to link to in the HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configHtmlJSLibs",
           "package": "fay",
@@ -6815,6 +7424,7 @@
         "index": {
           "description": "Any JS files to link to in the HTML",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configHtmlJSLibs",
           "normalized": "[FilePath]",
@@ -6831,6 +7441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a HTML file including the produced JS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configHtmlWrapper",
           "package": "fay",
@@ -6841,6 +7452,7 @@
         "index": {
           "description": "Output HTML file including the produced JS",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configHtmlWrapper",
           "package": "fay",
@@ -6855,6 +7467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDon't invoke main in the produced JS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configLibrary",
           "package": "fay",
@@ -6865,6 +7478,7 @@
         "index": {
           "description": "Don invoke main in the produced JS",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configLibrary",
           "package": "fay",
@@ -6879,6 +7493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun optimizations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configOptimize",
           "package": "fay",
@@ -6889,6 +7504,7 @@
         "index": {
           "description": "Run optimizations",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configOptimize",
           "package": "fay",
@@ -6903,6 +7519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe package config e.g. packages-6.12.3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configPackageConf",
           "package": "fay",
@@ -6913,6 +7530,7 @@
         "index": {
           "description": "The package config e.g packages-6.12.3",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configPackageConf",
           "package": "fay",
@@ -6927,6 +7545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncluded Fay packages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configPackages",
           "package": "fay",
@@ -6937,6 +7556,7 @@
         "index": {
           "description": "Included Fay packages",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configPackages",
           "normalized": "[String]",
@@ -6953,6 +7573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print the JS output?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configPrettyPrint",
           "package": "fay",
@@ -6963,6 +7584,7 @@
         "index": {
           "description": "Pretty print the JS output",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configPrettyPrint",
           "package": "fay",
@@ -6976,6 +7598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configRuntimePath",
           "package": "fay",
@@ -6985,6 +7608,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configRuntimePath",
           "package": "fay",
@@ -6999,6 +7623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a source map file as outfile.map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configSourceMap",
           "package": "fay",
@@ -7009,6 +7634,7 @@
         "index": {
           "description": "Output source map file as outfile.map",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configSourceMap",
           "package": "fay",
@@ -7023,6 +7649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce strict and uncurried wrappers for all functions with type signatures in the given module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configStrict",
           "package": "fay",
@@ -7033,6 +7660,7 @@
         "index": {
           "description": "Produce strict and uncurried wrappers for all functions with type signatures in the given module",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configStrict",
           "normalized": "[String]",
@@ -7049,6 +7677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypecheck with GHC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configTypecheck",
           "package": "fay",
@@ -7059,6 +7688,7 @@
         "index": {
           "description": "Typecheck with GHC",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configTypecheck",
           "package": "fay",
@@ -7073,6 +7703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly invoke GHC for typechecking, don't produce any output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configTypecheckOnly",
           "package": "fay",
@@ -7083,6 +7714,7 @@
         "index": {
           "description": "Only invoke GHC for typechecking don produce any output",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configTypecheckOnly",
           "package": "fay",
@@ -7097,6 +7729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypecheck with -Wall.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configWall",
           "package": "fay",
@@ -7107,6 +7740,7 @@
         "index": {
           "description": "Typecheck with Wall",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configWall",
           "package": "fay",
@@ -7121,6 +7755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarn on dubious stuff, not related to typechecking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "configWarn",
           "package": "fay",
@@ -7131,6 +7766,7 @@
         "index": {
           "description": "Warn on dubious stuff not related to typechecking",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "configWarn",
           "package": "fay",
@@ -7145,6 +7781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the complete ModulePath from a ModuleName.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "mkModulePath",
           "package": "fay",
@@ -7155,6 +7792,7 @@
         "index": {
           "description": "Construct the complete ModulePath from ModuleName",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "mkModulePath",
           "normalized": "ModuleName a-\u003eModulePath",
@@ -7171,6 +7809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting a QName to a ModulePath is only relevant for constructors since\n they can conflict with module names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "mkModulePathFromQName",
           "package": "fay",
@@ -7181,6 +7820,7 @@
         "index": {
           "description": "Converting QName to ModulePath is only relevant for constructors since they can conflict with module names",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "mkModulePathFromQName",
           "normalized": "QName a-\u003eModulePath",
@@ -7197,6 +7837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct intermediate module paths from a ModuleName.\n mkModulePaths \u003ca\u003eA.B\u003c/a\u003e =\u003e [[\u003ca\u003eA\u003c/a\u003e], [\u003ca\u003eA\u003c/a\u003e,\u003ca\u003eB\u003c/a\u003e]]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "mkModulePaths",
           "package": "fay",
@@ -7207,6 +7848,7 @@
         "index": {
           "description": "Construct intermediate module paths from ModuleName mkModulePaths A.B",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "mkModulePaths",
           "normalized": "ModuleName a-\u003e[ModulePath]",
@@ -7222,6 +7864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "printJS",
           "package": "fay",
@@ -7231,6 +7874,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "printJS",
           "normalized": "a-\u003ePrinter()",
@@ -7247,6 +7891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "psColumn",
           "package": "fay",
@@ -7257,6 +7902,7 @@
         "index": {
           "description": "Current column",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "psColumn",
           "package": "fay",
@@ -7271,6 +7917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent indentation level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "psIndentLevel",
           "package": "fay",
@@ -7281,6 +7928,7 @@
         "index": {
           "description": "Current indentation level",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "psIndentLevel",
           "package": "fay",
@@ -7295,6 +7943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "psLine",
           "package": "fay",
@@ -7305,6 +7954,7 @@
         "index": {
           "description": "The current line",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "psLine",
           "package": "fay",
@@ -7319,6 +7969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource mappings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "psMappings",
           "package": "fay",
@@ -7329,6 +7980,7 @@
         "index": {
           "description": "Source mappings",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "psMappings",
           "normalized": "[Mapping]",
@@ -7345,6 +7997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust outputted a newline?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "psNewline",
           "package": "fay",
@@ -7355,6 +8008,7 @@
         "index": {
           "description": "Just outputted newline",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "psNewline",
           "package": "fay",
@@ -7369,6 +8023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current output. TODO: Make more efficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "psOutput",
           "package": "fay",
@@ -7379,6 +8034,7 @@
         "index": {
           "description": "The current output TODO Make more efficient",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "psOutput",
           "normalized": "[String]",
@@ -7395,6 +8051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre we to pretty print?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "psPretty",
           "package": "fay",
@@ -7405,6 +8062,7 @@
         "index": {
           "description": "Are we to pretty print",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "psPretty",
           "package": "fay",
@@ -7418,6 +8076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "readerCompileDecls",
           "package": "fay",
@@ -7427,6 +8086,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "readerCompileDecls",
           "normalized": "Bool-\u003e[Decl]-\u003eCompile[JsStmt]",
@@ -7442,6 +8102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "readerCompileLit",
           "package": "fay",
@@ -7451,6 +8112,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "readerCompileLit",
           "normalized": "Literal-\u003eCompile JsExp",
@@ -7467,6 +8129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compilation configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "readerConfig",
           "package": "fay",
@@ -7477,6 +8140,7 @@
         "index": {
           "description": "The compilation configuration",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "readerConfig",
           "package": "fay",
@@ -7490,6 +8154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "runPrinter",
           "package": "fay",
@@ -7499,6 +8164,7 @@
         },
         "index": {
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "runPrinter",
           "package": "fay",
@@ -7513,6 +8179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap of all imported modules and their source locations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "stateImported",
           "package": "fay",
@@ -7523,6 +8190,7 @@
         "index": {
           "description": "Map of all imported modules and their source locations",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "stateImported",
           "normalized": "[(ModuleName,FilePath)]",
@@ -7539,6 +8207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExported identifiers for all modules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "stateInterfaces",
           "package": "fay",
@@ -7549,6 +8218,7 @@
         "index": {
           "description": "Exported identifiers for all modules",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "stateInterfaces",
           "package": "fay",
@@ -7563,6 +8233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule paths that have code generated for them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "stateJsModulePaths",
           "package": "fay",
@@ -7573,6 +8244,7 @@
         "index": {
           "description": "Module paths that have code generated for them",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "stateJsModulePaths",
           "package": "fay",
@@ -7587,6 +8259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the module currently being compiled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "stateModuleName",
           "package": "fay",
@@ -7597,6 +8270,7 @@
         "index": {
           "description": "Name of the module currently being compiled",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "stateModuleName",
           "package": "fay",
@@ -7611,6 +8285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDepth of the current lexical scope, used for creating unshadowing variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "stateNameDepth",
           "package": "fay",
@@ -7621,6 +8296,7 @@
         "index": {
           "description": "Depth of the current lexical scope used for creating unshadowing variables",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "stateNameDepth",
           "package": "fay",
@@ -7635,6 +8311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype constructor, destructor, wrapped type tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "stateNewtypes",
           "package": "fay",
@@ -7645,6 +8322,7 @@
         "index": {
           "description": "Newtype constructor destructor wrapped type tuple",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "stateNewtypes",
           "normalized": "[(QName,Maybe QName,Type)]",
@@ -7661,6 +8339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap types to constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "stateRecordTypes",
           "package": "fay",
@@ -7671,6 +8350,7 @@
         "index": {
           "description": "Map types to constructors",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "stateRecordTypes",
           "normalized": "[(QName,[QName])]",
@@ -7687,6 +8367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap constructors to fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "stateRecords",
           "package": "fay",
@@ -7697,6 +8378,7 @@
         "index": {
           "description": "Map constructors to fields",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "stateRecords",
           "normalized": "[(QName,[Name])]",
@@ -7713,6 +8395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule level declarations having explicit type signatures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "stateTypeSigs",
           "package": "fay",
@@ -7723,6 +8406,7 @@
         "index": {
           "description": "Module level declarations having explicit type signatures",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "stateTypeSigs",
           "package": "fay",
@@ -7737,6 +8421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse JS Strings instead of [Char] for string literals?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "stateUseFromString",
           "package": "fay",
@@ -7747,6 +8432,7 @@
         "index": {
           "description": "Use JS Strings instead of Char for string literals",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "stateUseFromString",
           "package": "fay",
@@ -7761,6 +8447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUns the compiler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "unCompile",
           "package": "fay",
@@ -7771,6 +8458,7 @@
         "index": {
           "description": "Uns the compiler",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "unCompile",
           "package": "fay",
@@ -7785,6 +8473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "writerCons",
           "package": "fay",
@@ -7795,6 +8484,7 @@
         "index": {
           "description": "Constructors",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "writerCons",
           "normalized": "[JsStmt]",
@@ -7811,6 +8501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFay to JS dispatchers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "writerFayToJs",
           "package": "fay",
@@ -7821,6 +8512,7 @@
         "index": {
           "description": "Fay to JS dispatchers",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "writerFayToJs",
           "normalized": "[(String,JsExp)]",
@@ -7837,6 +8529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJS to Fay dispatchers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay.Types",
           "name": "writerJsToFay",
           "package": "fay",
@@ -7847,6 +8540,7 @@
         "index": {
           "description": "JS to Fay dispatchers",
           "hierarchy": "Fay Types",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay.Types",
           "name": "writerJsToFay",
           "normalized": "[(String,JsExp)]",
@@ -7863,6 +8557,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain library entry point.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay",
           "name": "Fay",
           "package": "fay",
@@ -7872,6 +8567,7 @@
         "index": {
           "description": "Main library entry point",
           "hierarchy": "Fay",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay",
           "name": "Fay",
           "package": "fay",
@@ -7886,6 +8582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay",
           "name": "compileFile",
           "package": "fay",
@@ -7896,6 +8593,7 @@
         "index": {
           "description": "Compile the given file",
           "hierarchy": "Fay",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay",
           "name": "compileFile",
           "normalized": "CompileConfig-\u003eFilePath-\u003eIO(Either CompileError(String,[Mapping]))",
@@ -7912,6 +8610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a file returning the state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay",
           "name": "compileFileWithState",
           "package": "fay",
@@ -7922,6 +8621,7 @@
         "index": {
           "description": "Compile file returning the state",
           "hierarchy": "Fay",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay",
           "name": "compileFileWithState",
           "normalized": "CompileConfig-\u003eFilePath-\u003eIO(Either CompileError(String,[Mapping],CompileState))",
@@ -7938,6 +8638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile the given file and write the output to the given path, or\n if nothing given, stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay",
           "name": "compileFromTo",
           "package": "fay",
@@ -7948,6 +8649,7 @@
         "index": {
           "description": "Compile the given file and write the output to the given path or if nothing given stdout",
           "hierarchy": "Fay",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay",
           "name": "compileFromTo",
           "normalized": "CompileConfig-\u003eFilePath-\u003eMaybe FilePath-\u003eIO()",
@@ -7964,6 +8666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile the given file and write to the output, also generate any HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay",
           "name": "compileFromToAndGenerateHtml",
           "package": "fay",
@@ -7974,6 +8677,7 @@
         "index": {
           "description": "Compile the given file and write to the output also generate any HTML",
           "hierarchy": "Fay",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay",
           "name": "compileFromToAndGenerateHtml",
           "normalized": "CompileConfig-\u003eFilePath-\u003eFilePath-\u003eIO(Either CompileError(String,[Mapping]))",
@@ -7990,6 +8694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the JS runtime source.\n This will return the user supplied runtime if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay",
           "name": "getConfigRuntime",
           "package": "fay",
@@ -8000,6 +8705,7 @@
         "index": {
           "description": "Get the JS runtime source This will return the user supplied runtime if it exists",
           "hierarchy": "Fay",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay",
           "name": "getConfigRuntime",
           "normalized": "CompileConfig-\u003eIO String",
@@ -8016,6 +8722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the default JS runtime source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay",
           "name": "getRuntime",
           "package": "fay",
@@ -8026,6 +8733,7 @@
         "index": {
           "description": "Get the default JS runtime source",
           "hierarchy": "Fay",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay",
           "name": "getRuntime",
           "package": "fay",
@@ -8040,6 +8748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a compile error for human consumption.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay",
           "name": "showCompileError",
           "package": "fay",
@@ -8050,6 +8759,7 @@
         "index": {
           "description": "Print compile error for human consumption",
           "hierarchy": "Fay",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay",
           "name": "showCompileError",
           "normalized": "CompileError-\u003eString",
@@ -8066,6 +8776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Haskell filename to a JS filename.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:43 UTC 2014",
           "module": "Fay",
           "name": "toJsName",
           "package": "fay",
@@ -8076,6 +8787,7 @@
         "index": {
           "description": "Convert Haskell filename to JS filename",
           "hierarchy": "Fay",
+          "indexed": "2014-03-11T18:06:43",
           "module": "Fay",
           "name": "toJsName",
           "normalized": "String-\u003eString",

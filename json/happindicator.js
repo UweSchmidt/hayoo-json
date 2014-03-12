@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happindicator"
+        "phrase": "happindicator",
+        "type": "phrase"
       },
       "type": "context"
     }

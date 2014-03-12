@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-datatables"
+        "phrase": "yesod-datatables",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is used to make database queries based on the\n DataTables request. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Query",
           "name": "Query",
           "package": "yesod-datatables",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is used to make database queries based on the DataTables request",
           "hierarchy": "Yesod DataTables Query",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Query",
           "name": "Query",
           "package": "yesod-datatables",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of DataTables grid column \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Query",
           "name": "ColumnName",
           "package": "yesod-datatables",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Name of DataTables grid column",
           "hierarchy": "Yesod DataTables Query",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Query",
           "name": "ColumnName",
           "package": "yesod-datatables",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe functions in a DataTable define how search strings, column sorting,\n filtering and value fetching is implemented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Query",
           "name": "DataTable",
           "package": "yesod-datatables",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The functions in DataTable define how search strings column sorting filtering and value fetching is implemented",
           "hierarchy": "Yesod DataTables Query",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Query",
           "name": "DataTable",
           "package": "yesod-datatables",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym for indicating whether a search string is a regular\n expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Query",
           "name": "RegexFlag",
           "package": "yesod-datatables",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Type synonym for indicating whether search string is regular expression",
           "hierarchy": "Yesod DataTables Query",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Query",
           "name": "RegexFlag",
           "package": "yesod-datatables",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Query",
           "name": "DataTable",
           "package": "yesod-datatables",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Yesod DataTables Query",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Query",
           "name": "DataTable",
           "package": "yesod-datatables",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselects records from database and populates the grid columns using \n callback functions (which can issue follow-up queries)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Query",
           "name": "dataTableSelect",
           "package": "yesod-datatables",
@@ -143,6 +154,7 @@
         "index": {
           "description": "selects records from database and populates the grid columns using callback functions which can issue follow-up queries",
           "hierarchy": "Yesod DataTables Query",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Query",
           "name": "dataTableSelect",
           "normalized": "DataTable a-\u003eRequest-\u003eb Reply",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emapping a column search to filters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Query",
           "name": "dtColumnSearch",
           "package": "yesod-datatables",
@@ -169,6 +182,7 @@
         "index": {
           "description": "mapping column search to filters",
           "hierarchy": "Yesod DataTables Query",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Query",
           "name": "dtColumnSearch",
           "normalized": "ColumnName-\u003eText-\u003eRegexFlag-\u003e[Filter a]",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efilters that are always applied\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Query",
           "name": "dtFilters",
           "package": "yesod-datatables",
@@ -195,6 +210,7 @@
         "index": {
           "description": "filters that are always applied",
           "hierarchy": "Yesod DataTables Query",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Query",
           "name": "dtFilters",
           "normalized": "[Filter a]",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emapping global search field to filters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Query",
           "name": "dtGlobalSearch",
           "package": "yesod-datatables",
@@ -221,6 +238,7 @@
         "index": {
           "description": "mapping global search field to filters",
           "hierarchy": "Yesod DataTables Query",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Query",
           "name": "dtGlobalSearch",
           "normalized": "Text-\u003eRegexFlag-\u003e[Filter a]",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emapping entity to a row identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Query",
           "name": "dtRowId",
           "package": "yesod-datatables",
@@ -247,6 +266,7 @@
         "index": {
           "description": "mapping entity to row identifier",
           "hierarchy": "Yesod DataTables Query",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Query",
           "name": "dtRowId",
           "normalized": "Entity a-\u003eb Text",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emapping sorting instructions to select options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Query",
           "name": "dtSort",
           "package": "yesod-datatables",
@@ -273,6 +294,7 @@
         "index": {
           "description": "mapping sorting instructions to select options",
           "hierarchy": "Yesod DataTables Query",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Query",
           "name": "dtSort",
           "normalized": "[(ColumnName,SortDir)]-\u003e[SelectOpt a]",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emapping column name and entity to a textual value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Query",
           "name": "dtValue",
           "package": "yesod-datatables",
@@ -299,6 +322,7 @@
         "index": {
           "description": "mapping column name and entity to textual value",
           "hierarchy": "Yesod DataTables Query",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Query",
           "name": "dtValue",
           "normalized": "ColumnName-\u003eEntity a-\u003eb Text",
@@ -315,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDataTables reply formatting.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Reply",
           "name": "Reply",
           "package": "yesod-datatables",
@@ -324,6 +349,7 @@
         "index": {
           "description": "DataTables reply formatting",
           "hierarchy": "Yesod DataTables Reply",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Reply",
           "name": "Reply",
           "package": "yesod-datatables",
@@ -338,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContainer for holding the reply to DataTables jQuery plugin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Reply",
           "name": "Reply",
           "package": "yesod-datatables",
@@ -347,6 +374,7 @@
         "index": {
           "description": "Container for holding the reply to DataTables jQuery plugin",
           "hierarchy": "Yesod DataTables Reply",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Reply",
           "name": "Reply",
           "package": "yesod-datatables",
@@ -360,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Reply",
           "name": "Reply",
           "package": "yesod-datatables",
@@ -369,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Yesod DataTables Reply",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Reply",
           "name": "Reply",
           "package": "yesod-datatables",
@@ -383,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslates the reply object to a JSON value that DataTables javascript\n plugin expects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Reply",
           "name": "formatReply",
           "package": "yesod-datatables",
@@ -393,6 +424,7 @@
         "index": {
           "description": "Translates the reply object to JSON value that DataTables javascript plugin expects",
           "hierarchy": "Yesod DataTables Reply",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Reply",
           "name": "formatReply",
           "normalized": "Reply-\u003eValue",
@@ -409,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unaltered copy of \u003ccode\u003esEcho\u003c/code\u003e sent from the client side. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Reply",
           "name": "replyEcho",
           "package": "yesod-datatables",
@@ -419,6 +452,7 @@
         "index": {
           "description": "An unaltered copy of sEcho sent from the client side",
           "hierarchy": "Yesod DataTables Reply",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Reply",
           "name": "replyEcho",
           "package": "yesod-datatables",
@@ -433,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal records, after filtering (i.e. the total number of records \n after filtering has been applied - not just the number of records \n being returned in this result set).                             \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Reply",
           "name": "replyNumDisplayRecords",
           "package": "yesod-datatables",
@@ -443,6 +478,7 @@
         "index": {
           "description": "Total records after filtering i.e the total number of records after filtering has been applied not just the number of records being returned in this result set",
           "hierarchy": "Yesod DataTables Reply",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Reply",
           "name": "replyNumDisplayRecords",
           "package": "yesod-datatables",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal records, before filtering \n (i.e. the total number of records in the database).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Reply",
           "name": "replyNumRecords",
           "package": "yesod-datatables",
@@ -467,6 +504,7 @@
         "index": {
           "description": "Total records before filtering i.e the total number of records in the database",
           "hierarchy": "Yesod DataTables Reply",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Reply",
           "name": "replyNumRecords",
           "package": "yesod-datatables",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn array of JSON objects, one for each record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Reply",
           "name": "replyRecords",
           "package": "yesod-datatables",
@@ -491,6 +530,7 @@
         "index": {
           "description": "An array of JSON objects one for each record",
           "hierarchy": "Yesod DataTables Reply",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Reply",
           "name": "replyRecords",
           "package": "yesod-datatables",
@@ -505,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDataTables request parsing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "Request",
           "package": "yesod-datatables",
@@ -514,6 +555,7 @@
         "index": {
           "description": "DataTables request parsing",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "Request",
           "package": "yesod-datatables",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einformation about grid column \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "Column",
           "package": "yesod-datatables",
@@ -537,6 +580,7 @@
         "index": {
           "description": "information about grid column",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "Column",
           "package": "yesod-datatables",
@@ -551,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of DataTables grid column \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "ColumnName",
           "package": "yesod-datatables",
@@ -560,6 +605,7 @@
         "index": {
           "description": "Name of DataTables grid column",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "ColumnName",
           "package": "yesod-datatables",
@@ -574,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDataTables grid server-side request\n (see \u003ca\u003ehttp://datatables.net/usage/server-side\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "Request",
           "package": "yesod-datatables",
@@ -583,6 +630,7 @@
         "index": {
           "description": "DataTables grid server-side request see http datatables.net usage server-side",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "Request",
           "package": "yesod-datatables",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenum for sSortDir_(int) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "SortDir",
           "package": "yesod-datatables",
@@ -606,6 +655,7 @@
         "index": {
           "description": "enum for sSortDir int",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "SortDir",
           "package": "yesod-datatables",
@@ -619,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "Column",
           "package": "yesod-datatables",
@@ -628,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "Column",
           "package": "yesod-datatables",
@@ -641,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "Request",
           "package": "yesod-datatables",
@@ -650,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "Request",
           "package": "yesod-datatables",
@@ -663,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "SortAsc",
           "package": "yesod-datatables",
@@ -672,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "SortAsc",
           "package": "yesod-datatables",
@@ -685,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "SortDesc",
           "package": "yesod-datatables",
@@ -694,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "SortDesc",
           "package": "yesod-datatables",
@@ -708,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolumn name (client-side also expects the data in a field with the\n same name \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "colName",
           "package": "yesod-datatables",
@@ -718,6 +777,7 @@
         "index": {
           "description": "column name client-side also expects the data in field with the same name",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "colName",
           "package": "yesod-datatables",
@@ -732,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolumn-specific search query  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "colSearch",
           "package": "yesod-datatables",
@@ -742,6 +803,7 @@
         "index": {
           "description": "column-specific search query",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "colSearch",
           "package": "yesod-datatables",
@@ -756,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether search query should be interpreted as a regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "colSearchRegex",
           "package": "yesod-datatables",
@@ -766,6 +829,7 @@
         "index": {
           "description": "whether search query should be interpreted as regular expression",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "colSearchRegex",
           "package": "yesod-datatables",
@@ -780,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether searching is enabled at client-side\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "colSearchable",
           "package": "yesod-datatables",
@@ -790,6 +855,7 @@
         "index": {
           "description": "whether searching is enabled at client-side",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "colSearchable",
           "package": "yesod-datatables",
@@ -804,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether sorting is enabled at client-side\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "colSortable",
           "package": "yesod-datatables",
@@ -814,6 +881,7 @@
         "index": {
           "description": "whether sorting is enabled at client-side",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "colSortable",
           "package": "yesod-datatables",
@@ -828,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to parse DataTables request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "parseRequest",
           "package": "yesod-datatables",
@@ -838,6 +907,7 @@
         "index": {
           "description": "Tries to parse DataTables request",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "parseRequest",
           "normalized": "[(ParamName,ParamValue)]-\u003eMaybe Request",
@@ -854,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolumns that the client-side knows about\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "reqColumns",
           "package": "yesod-datatables",
@@ -864,6 +935,7 @@
         "index": {
           "description": "columns that the client-side knows about",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "reqColumns",
           "normalized": "[Column]",
@@ -880,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of records that the table can display in the current draw. It is expected that the number of records returned will be equal to this number, unless the server has fewer records to return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "reqDisplayLength",
           "package": "yesod-datatables",
@@ -890,6 +963,7 @@
         "index": {
           "description": "Number of records that the table can display in the current draw It is expected that the number of records returned will be equal to this number unless the server has fewer records to return",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "reqDisplayLength",
           "package": "yesod-datatables",
@@ -904,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay start point in the current data set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "reqDisplayStart",
           "package": "yesod-datatables",
@@ -914,6 +989,7 @@
         "index": {
           "description": "Display start point in the current data set",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "reqDisplayStart",
           "package": "yesod-datatables",
@@ -928,6 +1004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation for DataTables to use for rendering (do not alter).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "reqEcho",
           "package": "yesod-datatables",
@@ -938,6 +1015,7 @@
         "index": {
           "description": "Information for DataTables to use for rendering do not alter",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "reqEcho",
           "package": "yesod-datatables",
@@ -952,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal search field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "reqSearch",
           "package": "yesod-datatables",
@@ -962,6 +1041,7 @@
         "index": {
           "description": "Global search field",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "reqSearch",
           "package": "yesod-datatables",
@@ -976,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the global filter should be treated as a regular expression for advanced filtering, false if not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "reqSearchRegex",
           "package": "yesod-datatables",
@@ -986,6 +1067,7 @@
         "index": {
           "description": "True if the global filter should be treated as regular expression for advanced filtering false if not",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "reqSearchRegex",
           "package": "yesod-datatables",
@@ -1000,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresult set sorting instructions \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables.Request",
           "name": "reqSort",
           "package": "yesod-datatables",
@@ -1010,6 +1093,7 @@
         "index": {
           "description": "result set sorting instructions",
           "hierarchy": "Yesod DataTables Request",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables.Request",
           "name": "reqSort",
           "normalized": "[(ColumnName,SortDir)]",
@@ -1026,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDataTables (\u003ca\u003ehttp://datatables.net\u003c/a\u003e) is a capable plugin for jQuery \n Javascript library. This Haskell library contains routines for implementing\n server-side processing (e.g. request parsing and response formatting) for\n DataTables with Yesod platform.\n\u003c/p\u003e\u003cp\u003eSee the example at \u003ca\u003ehttp://yesod-datatables-example.herokuapp.com\u003c/a\u003e .\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:37 UTC 2014",
           "module": "Yesod.DataTables",
           "name": "DataTables",
           "package": "yesod-datatables",
@@ -1035,6 +1120,7 @@
         "index": {
           "description": "DataTables http datatables.net is capable plugin for jQuery Javascript library This Haskell library contains routines for implementing server-side processing e.g request parsing and response formatting for DataTables with Yesod platform See the example at http yesod-datatables-example.herokuapp.com",
           "hierarchy": "Yesod DataTables",
+          "indexed": "2014-03-11T20:45:37",
           "module": "Yesod.DataTables",
           "name": "DataTables",
           "package": "yesod-datatables",

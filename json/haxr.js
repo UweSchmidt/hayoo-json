@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haxr"
+        "phrase": "haxr",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the client functionality of XML-RPC.\n The XML-RPC specifcation is available at \u003ca\u003ehttp://www.xmlrpc.com/spec\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eA simple client application:\n\u003c/p\u003e\u003cpre\u003e import Network.XmlRpc.Client\n\n server = \"http://localhost/~bjorn/cgi-bin/simple_server\"\n\n add :: String -\u003e Int -\u003e Int -\u003e IO Int\n add url = remote url \"examples.add\"\n\n main = do\n        let x = 4\n            y = 7\n        z \u003c- add server x y\n        putStrLn (show x ++ \" + \" ++ show y ++ \" = \" ++ show z)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Client",
           "name": "Client",
           "package": "haxr",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains the client functionality of XML-RPC The XML-RPC specifcation is available at http www.xmlrpc.com spec simple client application import Network.XmlRpc.Client server http localhost bjorn cgi-bin simple server add String Int Int IO Int add url remote url examples.add main do let add server putStrLn show show show",
           "hierarchy": "Network XmlRpc Client",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Client",
           "name": "Client",
           "package": "haxr",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Client",
           "name": "Remote",
           "package": "haxr",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Client",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Client",
           "name": "Remote",
           "package": "haxr",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level method calling function. Use this function if\n   you need to do custom conversions between XML-RPC types and\n   Haskell types.\n   Throws an exception if the response was a fault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Client",
           "name": "call",
           "package": "haxr",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Low-level method calling function Use this function if you need to do custom conversions between XML-RPC types and Haskell types Throws an exception if the response was fault",
           "hierarchy": "Network XmlRpc Client",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Client",
           "name": "call",
           "normalized": "String-\u003eString-\u003e[Value]-\u003eErr IO Value",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level method calling function. Use this function if\n   you need to do custom conversions between XML-RPC types and\n   Haskell types. Takes a list of extra headers to add to the\n   HTTP request.\n   Throws an exception if the response was a fault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Client",
           "name": "callWithHeaders",
           "package": "haxr",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Low-level method calling function Use this function if you need to do custom conversions between XML-RPC types and Haskell types Takes list of extra headers to add to the HTTP request Throws an exception if the response was fault",
           "hierarchy": "Network XmlRpc Client",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Client",
           "name": "callWithHeaders",
           "normalized": "String-\u003eString-\u003e[Header]-\u003e[Value]-\u003eErr IO Value",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a remote method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Client",
           "name": "remote",
           "package": "haxr",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Call remote method",
           "hierarchy": "Network XmlRpc Client",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Client",
           "name": "remote",
           "normalized": "String-\u003eString-\u003ea",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a remote method. Takes a list of extra headers to add to the HTTP\n   request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Client",
           "name": "remoteWithHeaders",
           "package": "haxr",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Call remote method Takes list of extra headers to add to the HTTP request",
           "hierarchy": "Network XmlRpc Client",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Client",
           "name": "remoteWithHeaders",
           "normalized": "String-\u003eString-\u003e[Header]-\u003ea",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "DTD_XMLRPC",
           "package": "haxr",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "DTD_XMLRPC",
           "package": "haxr",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "ADouble",
           "package": "haxr",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "ADouble",
           "package": "haxr",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "AInt",
           "package": "haxr",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "AInt",
           "package": "haxr",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "AString",
           "package": "haxr",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "AString",
           "package": "haxr",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Array",
           "package": "haxr",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Array",
           "package": "haxr",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Base64",
           "package": "haxr",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Base64",
           "package": "haxr",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Boolean",
           "package": "haxr",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Boolean",
           "package": "haxr",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Data",
           "package": "haxr",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Data",
           "package": "haxr",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "DateTime_iso8601",
           "package": "haxr",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "DateTime_iso8601",
           "package": "haxr",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Fault",
           "package": "haxr",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Fault",
           "package": "haxr",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "I4",
           "package": "haxr",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "I4",
           "package": "haxr",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "I8",
           "package": "haxr",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "I8",
           "package": "haxr",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Member",
           "package": "haxr",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Member",
           "package": "haxr",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodCall",
           "package": "haxr",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodCall",
           "package": "haxr",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodName",
           "package": "haxr",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodName",
           "package": "haxr",
@@ -473,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodResponse",
           "package": "haxr",
@@ -481,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodResponse",
           "package": "haxr",
@@ -494,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Name",
           "package": "haxr",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Name",
           "package": "haxr",
@@ -515,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Param",
           "package": "haxr",
@@ -523,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Param",
           "package": "haxr",
@@ -536,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Params",
           "package": "haxr",
@@ -544,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Params",
           "package": "haxr",
@@ -557,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Struct",
           "package": "haxr",
@@ -565,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Struct",
           "package": "haxr",
@@ -578,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value",
           "package": "haxr",
@@ -586,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value",
           "package": "haxr",
@@ -599,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_",
           "package": "haxr",
@@ -607,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_",
           "package": "haxr",
@@ -620,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "ADouble",
           "package": "haxr",
@@ -629,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "ADouble",
           "package": "haxr",
@@ -642,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "AInt",
           "package": "haxr",
@@ -651,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "AInt",
           "package": "haxr",
@@ -664,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "AString",
           "package": "haxr",
@@ -673,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "AString",
           "package": "haxr",
@@ -686,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Array",
           "package": "haxr",
@@ -695,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Array",
           "package": "haxr",
@@ -708,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Base64",
           "package": "haxr",
@@ -717,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Base64",
           "package": "haxr",
@@ -730,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Boolean",
           "package": "haxr",
@@ -739,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Boolean",
           "package": "haxr",
@@ -752,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Data",
           "package": "haxr",
@@ -761,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Data",
           "normalized": "Data[Value]",
@@ -776,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "DateTime_iso8601",
           "package": "haxr",
@@ -785,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "DateTime_iso8601",
           "package": "haxr",
@@ -798,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Fault",
           "package": "haxr",
@@ -807,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Fault",
           "package": "haxr",
@@ -820,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "I4",
           "package": "haxr",
@@ -829,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "I4",
           "package": "haxr",
@@ -841,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "I8",
           "package": "haxr",
@@ -850,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "I8",
           "package": "haxr",
@@ -862,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Member",
           "package": "haxr",
@@ -871,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Member",
           "package": "haxr",
@@ -884,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodCall",
           "package": "haxr",
@@ -893,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodCall",
           "package": "haxr",
@@ -906,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodName",
           "package": "haxr",
@@ -915,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodName",
           "package": "haxr",
@@ -928,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodResponseFault",
           "package": "haxr",
@@ -937,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodResponseFault",
           "package": "haxr",
@@ -950,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodResponseParams",
           "package": "haxr",
@@ -959,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "MethodResponseParams",
           "package": "haxr",
@@ -972,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Name",
           "package": "haxr",
@@ -981,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Name",
           "package": "haxr",
@@ -994,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Param",
           "package": "haxr",
@@ -1003,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Param",
           "package": "haxr",
@@ -1016,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Params",
           "package": "haxr",
@@ -1025,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Params",
           "normalized": "Params[Param]",
@@ -1040,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Struct",
           "package": "haxr",
@@ -1049,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Struct",
           "normalized": "Struct[Member]",
@@ -1064,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value",
           "package": "haxr",
@@ -1073,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value",
           "normalized": "Value[Value_]",
@@ -1088,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_ADouble",
           "package": "haxr",
@@ -1097,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_ADouble",
           "package": "haxr",
@@ -1110,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_AInt",
           "package": "haxr",
@@ -1119,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_AInt",
           "package": "haxr",
@@ -1132,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_AString",
           "package": "haxr",
@@ -1141,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_AString",
           "package": "haxr",
@@ -1154,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_Array",
           "package": "haxr",
@@ -1163,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_Array",
           "package": "haxr",
@@ -1176,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_Base64",
           "package": "haxr",
@@ -1185,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_Base64",
           "package": "haxr",
@@ -1198,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_Boolean",
           "package": "haxr",
@@ -1207,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_Boolean",
           "package": "haxr",
@@ -1220,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_DateTime_iso8601",
           "package": "haxr",
@@ -1229,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_DateTime_iso8601",
           "package": "haxr",
@@ -1242,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_I4",
           "package": "haxr",
@@ -1251,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_I4",
           "package": "haxr",
@@ -1264,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_I8",
           "package": "haxr",
@@ -1273,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_I8",
           "package": "haxr",
@@ -1286,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_Str",
           "package": "haxr",
@@ -1295,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_Str",
           "package": "haxr",
@@ -1308,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_Struct",
           "package": "haxr",
@@ -1317,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc DTD_XMLRPC",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.DTD_XMLRPC",
           "name": "Value_Struct",
           "package": "haxr",
@@ -1331,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the core functionality of the XML-RPC library.\n Most applications should not need to use this module. Client\n applications should use \u003ca\u003eNetwork.XmlRpc.Client\u003c/a\u003e and server applications should\n use \u003ca\u003eNetwork.XmlRpc.Server\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThe XML-RPC specifcation is available at \u003ca\u003ehttp://www.xmlrpc.com/spec\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "Internals",
           "package": "haxr",
@@ -1340,6 +1461,7 @@
         "index": {
           "description": "This module contains the core functionality of the XML-RPC library Most applications should not need to use this module Client applications should use Network.XmlRpc.Client and server applications should use Network.XmlRpc.Server The XML-RPC specifcation is available at http www.xmlrpc.com spec",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "Internals",
           "package": "haxr",
@@ -1353,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "Err",
           "package": "haxr",
@@ -1361,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "Err",
           "package": "haxr",
@@ -1375,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML-RPC method call. Consists of a method name and a list of\n   parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "MethodCall",
           "package": "haxr",
@@ -1384,6 +1509,7 @@
         "index": {
           "description": "An XML-RPC method call Consists of method name and list of parameters",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "MethodCall",
           "package": "haxr",
@@ -1398,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML-RPC response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "MethodResponse",
           "package": "haxr",
@@ -1407,6 +1534,7 @@
         "index": {
           "description": "An XML-RPC response",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "MethodResponse",
           "package": "haxr",
@@ -1421,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML-RPC value. Use for error messages and introspection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "Type",
           "package": "haxr",
@@ -1430,6 +1559,7 @@
         "index": {
           "description": "An XML-RPC value Use for error messages and introspection",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "Type",
           "package": "haxr",
@@ -1444,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML-RPC value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "Value",
           "package": "haxr",
@@ -1453,6 +1584,7 @@
         "index": {
           "description": "An XML-RPC value",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "Value",
           "package": "haxr",
@@ -1467,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for mapping Haskell types to XML-RPC types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "XmlRpcType",
           "package": "haxr",
@@ -1476,6 +1609,7 @@
         "index": {
           "description": "class for mapping Haskell types to XML-RPC types",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "XmlRpcType",
           "package": "haxr",
@@ -1490,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fault response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "Fault",
           "package": "haxr",
@@ -1500,6 +1635,7 @@
         "index": {
           "description": "fault response",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "Fault",
           "package": "haxr",
@@ -1513,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "MethodCall",
           "package": "haxr",
@@ -1522,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "MethodCall",
           "normalized": "MethodCall String[Value]",
@@ -1538,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA method response returning a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "Return",
           "package": "haxr",
@@ -1548,6 +1687,7 @@
         "index": {
           "description": "method response returning value",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "Return",
           "package": "haxr",
@@ -1561,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "TArray",
           "package": "haxr",
@@ -1570,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "TArray",
           "package": "haxr",
@@ -1583,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "TBase64",
           "package": "haxr",
@@ -1592,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "TBase64",
           "package": "haxr",
@@ -1605,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "TBool",
           "package": "haxr",
@@ -1614,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "TBool",
           "package": "haxr",
@@ -1627,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "TDateTime",
           "package": "haxr",
@@ -1636,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "TDateTime",
           "package": "haxr",
@@ -1649,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "TDouble",
           "package": "haxr",
@@ -1658,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "TDouble",
           "package": "haxr",
@@ -1671,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "TInt",
           "package": "haxr",
@@ -1680,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "TInt",
           "package": "haxr",
@@ -1693,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "TString",
           "package": "haxr",
@@ -1702,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "TString",
           "package": "haxr",
@@ -1715,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "TStruct",
           "package": "haxr",
@@ -1724,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "TStruct",
           "package": "haxr",
@@ -1737,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "TUnknown",
           "package": "haxr",
@@ -1746,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "TUnknown",
           "package": "haxr",
@@ -1760,6 +1918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003earray\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueArray",
           "package": "haxr",
@@ -1770,6 +1929,7 @@
         "index": {
           "description": "array",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueArray",
           "normalized": "ValueArray[Value]",
@@ -1786,6 +1946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebase 64.  NOTE that you should provide the raw data; the haxr library takes care of doing the base-64 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueBase64",
           "package": "haxr",
@@ -1796,6 +1957,7 @@
         "index": {
           "description": "base NOTE that you should provide the raw data the haxr library takes care of doing the base-64 encoding",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueBase64",
           "package": "haxr",
@@ -1810,6 +1972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueBool",
           "package": "haxr",
@@ -1820,6 +1983,7 @@
         "index": {
           "description": "bool",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueBool",
           "package": "haxr",
@@ -1834,6 +1998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edateTime.iso8601\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueDateTime",
           "package": "haxr",
@@ -1844,6 +2009,7 @@
         "index": {
           "description": "dateTime.iso8601",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueDateTime",
           "package": "haxr",
@@ -1858,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edouble\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueDouble",
           "package": "haxr",
@@ -1868,6 +2035,7 @@
         "index": {
           "description": "double",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueDouble",
           "package": "haxr",
@@ -1882,6 +2050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eint, i4, or i8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueInt",
           "package": "haxr",
@@ -1892,6 +2061,7 @@
         "index": {
           "description": "int i4 or i8",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueInt",
           "package": "haxr",
@@ -1906,6 +2076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueString",
           "package": "haxr",
@@ -1916,6 +2087,7 @@
         "index": {
           "description": "string",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueString",
           "package": "haxr",
@@ -1930,6 +2102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estruct\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueStruct",
           "package": "haxr",
@@ -1940,6 +2113,7 @@
         "index": {
           "description": "struct",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueStruct",
           "normalized": "ValueStruct[(String,Value)]",
@@ -1956,6 +2130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eno inner element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueUnwrapped",
           "package": "haxr",
@@ -1966,6 +2141,7 @@
         "index": {
           "description": "no inner element",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "ValueUnwrapped",
           "package": "haxr",
@@ -1980,6 +2156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e to this type. May fail if\n   if there is a type error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "fromValue",
           "package": "haxr",
@@ -1990,6 +2167,7 @@
         "index": {
           "description": "Convert from Value to this type May fail if if there is type error",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "fromValue",
           "normalized": "Value-\u003eErr a b",
@@ -2005,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "fromXRMember",
           "package": "haxr",
@@ -2014,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "fromXRMember",
           "normalized": "Member-\u003eErr a(String,Value)",
@@ -2029,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "fromXRMethodCall",
           "package": "haxr",
@@ -2038,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "fromXRMethodCall",
           "normalized": "MethodCall-\u003eErr a MethodCall",
@@ -2053,6 +2235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "fromXRMethodResponse",
           "package": "haxr",
@@ -2062,6 +2245,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "fromXRMethodResponse",
           "normalized": "MethodResponse-\u003eErr a MethodResponse",
@@ -2077,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "fromXRParams",
           "package": "haxr",
@@ -2086,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "fromXRParams",
           "normalized": "Params-\u003eErr a[Value]",
@@ -2101,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "fromXRValue",
           "package": "haxr",
@@ -2110,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "fromXRValue",
           "normalized": "Value-\u003eErr a Value",
@@ -2126,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a field value from a (possibly heterogeneous) struct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "getField",
           "package": "haxr",
@@ -2135,6 +2324,7 @@
         "index": {
           "description": "Get field value from possibly heterogeneous struct",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "getField",
           "normalized": "String-\u003e[(String,Value)]-\u003eErr a b",
@@ -2151,6 +2341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a field value from a (possibly heterogeneous) struct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "getFieldMaybe",
           "package": "haxr",
@@ -2160,6 +2351,7 @@
         "index": {
           "description": "Get field value from possibly heterogeneous struct",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "getFieldMaybe",
           "normalized": "String-\u003e[(String,Value)]-\u003eErr a(Maybe b)",
@@ -2175,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "getType",
           "package": "haxr",
@@ -2184,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "getType",
           "normalized": "a-\u003eType",
@@ -2200,6 +2394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle errors from the error monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "handleError",
           "package": "haxr",
@@ -2210,6 +2405,7 @@
         "index": {
           "description": "Handle errors from the error monad",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "handleError",
           "normalized": "(String-\u003ea b)-\u003eErr a b-\u003ea b",
@@ -2226,6 +2422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch IO errors in the error monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "ioErrorToErr",
           "package": "haxr",
@@ -2236,6 +2433,7 @@
         "index": {
           "description": "Catch IO errors in the error monad",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "ioErrorToErr",
           "normalized": "IO a-\u003eErr IO a",
@@ -2252,6 +2450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e value to a value in any monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "maybeToM",
           "package": "haxr",
@@ -2261,6 +2460,7 @@
         "index": {
           "description": "Convert Maybe value to value in any monad",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "maybeToM",
           "normalized": "String-\u003eMaybe a-\u003eb a",
@@ -2277,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a method call from XML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "parseCall",
           "package": "haxr",
@@ -2287,6 +2488,7 @@
         "index": {
           "description": "Parses method call from XML",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "parseCall",
           "normalized": "String-\u003eErr a MethodCall",
@@ -2303,6 +2505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a method response from XML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "parseResponse",
           "package": "haxr",
@@ -2313,6 +2516,7 @@
         "index": {
           "description": "Parses method response from XML",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "parseResponse",
           "normalized": "String-\u003eErr a MethodResponse",
@@ -2329,6 +2533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes an XML-representation of a method call.\n FIXME: pretty prints ugly XML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "renderCall",
           "package": "haxr",
@@ -2339,6 +2544,7 @@
         "index": {
           "description": "Makes an XML-representation of method call FIXME pretty prints ugly XML",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "renderCall",
           "normalized": "MethodCall-\u003eByteString",
@@ -2355,6 +2561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes an XML-representation of a method response.\n FIXME: pretty prints ugly XML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "renderResponse",
           "package": "haxr",
@@ -2365,6 +2572,7 @@
         "index": {
           "description": "Makes an XML-representation of method response FIXME pretty prints ugly XML",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "renderResponse",
           "normalized": "MethodResponse-\u003eByteString",
@@ -2381,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from this type to a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "toValue",
           "package": "haxr",
@@ -2391,6 +2600,7 @@
         "index": {
           "description": "Convert from this type to Value",
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "toValue",
           "normalized": "a-\u003eValue",
@@ -2406,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "toXRMember",
           "package": "haxr",
@@ -2415,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "toXRMember",
           "normalized": "(String,Value)-\u003eMember",
@@ -2430,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "toXRMethodCall",
           "package": "haxr",
@@ -2439,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "toXRMethodCall",
           "normalized": "MethodCall-\u003eMethodCall",
@@ -2454,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "toXRMethodResponse",
           "package": "haxr",
@@ -2463,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "toXRMethodResponse",
           "normalized": "MethodResponse-\u003eMethodResponse",
@@ -2478,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "toXRParams",
           "package": "haxr",
@@ -2487,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "toXRParams",
           "normalized": "[Value]-\u003eParams",
@@ -2502,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Internals",
           "name": "toXRValue",
           "package": "haxr",
@@ -2511,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Internals",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Internals",
           "name": "toXRValue",
           "normalized": "Value-\u003eValue",
@@ -2526,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Introspect",
           "name": "Introspect",
           "package": "haxr",
@@ -2534,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Introspect",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Introspect",
           "name": "Introspect",
           "package": "haxr",
@@ -2547,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Introspect",
           "name": "Help",
           "package": "haxr",
@@ -2555,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Introspect",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Introspect",
           "name": "Help",
           "package": "haxr",
@@ -2568,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Introspect",
           "name": "MethodInfo",
           "package": "haxr",
@@ -2576,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Introspect",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Introspect",
           "name": "MethodInfo",
           "package": "haxr",
@@ -2589,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Introspect",
           "name": "Signature",
           "package": "haxr",
@@ -2597,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Introspect",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Introspect",
           "name": "Signature",
           "package": "haxr",
@@ -2610,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Introspect",
           "name": "listMethods",
           "package": "haxr",
@@ -2619,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Introspect",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Introspect",
           "name": "listMethods",
           "normalized": "String-\u003eIO[String]",
@@ -2634,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Introspect",
           "name": "methodHelp",
           "package": "haxr",
@@ -2643,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Introspect",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Introspect",
           "name": "methodHelp",
           "normalized": "String-\u003eString-\u003eIO String",
@@ -2658,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Introspect",
           "name": "methodInfo",
           "package": "haxr",
@@ -2667,6 +2900,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Introspect",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Introspect",
           "name": "methodInfo",
           "normalized": "String-\u003eString-\u003eIO MethodInfo",
@@ -2682,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Introspect",
           "name": "methodSignature",
           "package": "haxr",
@@ -2691,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Introspect",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Introspect",
           "name": "methodSignature",
           "normalized": "String-\u003eString-\u003eIO[[String]]",
@@ -2706,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Introspect",
           "name": "signatures",
           "package": "haxr",
@@ -2715,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Introspect",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Introspect",
           "name": "signatures",
           "normalized": "String-\u003eString-\u003eIO[Signature]",
@@ -2730,6 +2968,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a fast non-pretty-printer for turning the internal representation\n   of generic structured XML documents into Lazy ByteStrings.\n   Like in Text.Xml.HaXml.Pretty, there is one pp function for each type in\n   Text.Xml.HaXml.Types, so you can pretty-print as much or as little\n   of the document as you wish.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Pretty",
           "name": "Pretty",
           "package": "haxr",
@@ -2739,6 +2978,7 @@
         "index": {
           "description": "This is fast non-pretty-printer for turning the internal representation of generic structured XML documents into Lazy ByteStrings Like in Text.Xml.HaXml.Pretty there is one pp function for each type in Text.Xml.HaXml.Types so you can pretty-print as much or as little of the document as you wish",
           "hierarchy": "Network XmlRpc Pretty",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Pretty",
           "name": "Pretty",
           "package": "haxr",
@@ -2752,6 +2992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Pretty",
           "name": "content",
           "package": "haxr",
@@ -2761,6 +3002,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Pretty",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Pretty",
           "name": "content",
           "normalized": "Content a-\u003eByteString",
@@ -2775,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Pretty",
           "name": "cp",
           "package": "haxr",
@@ -2784,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Pretty",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Pretty",
           "name": "cp",
           "normalized": "CP-\u003eByteString",
@@ -2798,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Pretty",
           "name": "doctypedecl",
           "package": "haxr",
@@ -2807,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Pretty",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Pretty",
           "name": "doctypedecl",
           "normalized": "DocTypeDecl-\u003eByteString",
@@ -2822,6 +3068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ccode\u003e\u003ca\u003eDocument\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Pretty",
           "name": "document",
           "package": "haxr",
@@ -2832,6 +3079,7 @@
         "index": {
           "description": "Render Document to ByteString",
           "hierarchy": "Network XmlRpc Pretty",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Pretty",
           "name": "document",
           "normalized": "Document a-\u003eByteString",
@@ -2846,6 +3094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Pretty",
           "name": "element",
           "package": "haxr",
@@ -2855,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Pretty",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Pretty",
           "name": "element",
           "normalized": "Element a-\u003eByteString",
@@ -2869,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Pretty",
           "name": "prolog",
           "package": "haxr",
@@ -2878,6 +3129,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Pretty",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Pretty",
           "name": "prolog",
           "normalized": "Prolog-\u003eByteString",
@@ -2893,6 +3145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the server functionality of XML-RPC.\n The XML-RPC specifcation is available at \u003ca\u003ehttp://www.xmlrpc.com/spec\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eA simple CGI-based XML-RPC server application:\n\u003c/p\u003e\u003cpre\u003e import Network.XmlRpc.Server \n\n add :: Int -\u003e Int -\u003e IO Int\n add x y = return (x + y)\n\n main = cgiXmlRpcServer [(\"examples.add\", fun add)]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Server",
           "name": "Server",
           "package": "haxr",
@@ -2902,6 +3155,7 @@
         "index": {
           "description": "This module contains the server functionality of XML-RPC The XML-RPC specifcation is available at http www.xmlrpc.com spec simple CGI-based XML-RPC server application import Network.XmlRpc.Server add Int Int IO Int add return main cgiXmlRpcServer examples.add fun add",
           "hierarchy": "Network XmlRpc Server",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Server",
           "name": "Server",
           "package": "haxr",
@@ -2915,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Server",
           "name": "ServerResult",
           "package": "haxr",
@@ -2923,6 +3178,7 @@
         },
         "index": {
           "hierarchy": "Network XmlRpc Server",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Server",
           "name": "ServerResult",
           "package": "haxr",
@@ -2937,6 +3193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of XML-RPC methods on the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Server",
           "name": "XmlRpcMethod",
           "package": "haxr",
@@ -2946,6 +3203,7 @@
         "index": {
           "description": "The type of XML-RPC methods on the server",
           "hierarchy": "Network XmlRpc Server",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Server",
           "name": "XmlRpcMethod",
           "package": "haxr",
@@ -2960,6 +3218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CGI-based XML-RPC server. Reads a request from standard input\n   and writes some HTTP headers (Content-Type and Content-Length),\n   followed by the response to standard output. Supports\n   introspection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Server",
           "name": "cgiXmlRpcServer",
           "package": "haxr",
@@ -2970,6 +3229,7 @@
         "index": {
           "description": "CGI-based XML-RPC server Reads request from standard input and writes some HTTP headers Content-Type and Content-Length followed by the response to standard output Supports introspection",
           "hierarchy": "Network XmlRpc Server",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Server",
           "name": "cgiXmlRpcServer",
           "normalized": "[(String,XmlRpcMethod)]-\u003eIO()",
@@ -2986,6 +3246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns any function \n   \u003ccode\u003e(XmlRpcType t1, ..., XmlRpcType tn, XmlRpcType r) =\u003e \n   t1 -\u003e ... -\u003e tn -\u003e IO r\u003c/code\u003e\n   into an \u003ccode\u003e\u003ca\u003eXmlRpcMethod\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Server",
           "name": "fun",
           "package": "haxr",
@@ -2996,6 +3257,7 @@
         "index": {
           "description": "Turns any function XmlRpcType t1 XmlRpcType tn XmlRpcType t1 tn IO into an XmlRpcMethod",
           "hierarchy": "Network XmlRpc Server",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Server",
           "name": "fun",
           "normalized": "a-\u003eXmlRpcMethod",
@@ -3011,6 +3273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a method call from a string, uses the supplied method\n   to generate a response and returns that response as a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Server",
           "name": "handleCall",
           "package": "haxr",
@@ -3021,6 +3284,7 @@
         "index": {
           "description": "Reads method call from string uses the supplied method to generate response and returns that response as string",
           "hierarchy": "Network XmlRpc Server",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Server",
           "name": "handleCall",
           "normalized": "(MethodCall-\u003eServerResult)-\u003eString-\u003eIO ByteString",
@@ -3037,6 +3301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XmlRpcMethod that looks up the method name in a table\n   and uses that method to handle the call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.Server",
           "name": "methods",
           "package": "haxr",
@@ -3047,6 +3312,7 @@
         "index": {
           "description": "An XmlRpcMethod that looks up the method name in table and uses that method to handle the call",
           "hierarchy": "Network XmlRpc Server",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.Server",
           "name": "methods",
           "normalized": "[(String,XmlRpcMethod)]-\u003eMethodCall-\u003eServerResult",
@@ -3062,6 +3328,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUses Template Haskell to automagically derive instances of \u003ccode\u003e\u003ca\u003eXmlRpcType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.THDeriveXmlRpcType",
           "name": "THDeriveXmlRpcType",
           "package": "haxr",
@@ -3071,6 +3338,7 @@
         "index": {
           "description": "Uses Template Haskell to automagically derive instances of XmlRpcType",
           "hierarchy": "Network XmlRpc THDeriveXmlRpcType",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.THDeriveXmlRpcType",
           "name": "THDeriveXmlRpcType",
           "package": "haxr",
@@ -3085,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an \u003ccode\u003e\u003ca\u003eXmlRpcType\u003c/a\u003e\u003c/code\u003e instance which handles a Haskell record\n   as an XmlRpc struct. Example:\n \u003ccode\u003e\n data Person = Person { name :: String, age :: Int }\n $(asXmlRpcStruct ''Person)\n \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:31 UTC 2014",
           "module": "Network.XmlRpc.THDeriveXmlRpcType",
           "name": "asXmlRpcStruct",
           "package": "haxr",
@@ -3095,6 +3364,7 @@
         "index": {
           "description": "Creates an XmlRpcType instance which handles Haskell record as an XmlRpc struct Example data Person Person name String age Int asXmlRpcStruct Person",
           "hierarchy": "Network XmlRpc THDeriveXmlRpcType",
+          "indexed": "2014-03-11T18:34:31",
           "module": "Network.XmlRpc.THDeriveXmlRpcType",
           "name": "asXmlRpcStruct",
           "normalized": "Name-\u003eQ[Dec]",

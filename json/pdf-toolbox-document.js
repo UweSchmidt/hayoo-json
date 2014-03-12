@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pdf-toolbox-document"
+        "phrase": "pdf-toolbox-document",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDocument datalog\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Catalog",
           "name": "Catalog",
           "package": "pdf-toolbox-document",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Document datalog",
           "hierarchy": "Pdf Toolbox Document Catalog",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Catalog",
           "name": "Catalog",
           "package": "pdf-toolbox-document",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument catalog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Catalog",
           "name": "Catalog",
           "package": "pdf-toolbox-document",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Document catalog",
           "hierarchy": "Pdf Toolbox Document Catalog",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Catalog",
           "name": "Catalog",
           "package": "pdf-toolbox-document",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet root node of page tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Catalog",
           "name": "catalogPageNode",
           "package": "pdf-toolbox-document",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Get root node of page tree",
           "hierarchy": "Pdf Toolbox Document Catalog",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Catalog",
           "name": "catalogPageNode",
           "normalized": "Catalog-\u003ePdfE a PageNode",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePDF document\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Document",
           "name": "Document",
           "package": "pdf-toolbox-document",
@@ -100,6 +107,7 @@
         "index": {
           "description": "PDF document",
           "hierarchy": "Pdf Toolbox Document Document",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Document",
           "name": "Document",
           "package": "pdf-toolbox-document",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePDF document\n\u003c/p\u003e\u003cp\u003eIt is a trailer under the hood\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Document",
           "name": "Document",
           "package": "pdf-toolbox-document",
@@ -123,6 +132,7 @@
         "index": {
           "description": "PDF document It is trailer under the hood",
           "hierarchy": "Pdf Toolbox Document Document",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Document",
           "name": "Document",
           "package": "pdf-toolbox-document",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the document catalog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Document",
           "name": "documentCatalog",
           "package": "pdf-toolbox-document",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Get the document catalog",
           "hierarchy": "Pdf Toolbox Document Document",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Document",
           "name": "documentCatalog",
           "normalized": "Document-\u003ePdfE a Catalog",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument encryption dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Document",
           "name": "documentEncryption",
           "package": "pdf-toolbox-document",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Document encryption dictionary",
           "hierarchy": "Pdf Toolbox Document Document",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Document",
           "name": "documentEncryption",
           "normalized": "Document-\u003ePdfE a(Maybe Dict)",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfornation dictionary for the document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Document",
           "name": "documentInfo",
           "package": "pdf-toolbox-document",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Infornation dictionary for the document",
           "hierarchy": "Pdf Toolbox Document Document",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Document",
           "name": "documentInfo",
           "normalized": "Document-\u003ePdfE a(Maybe Info)",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic support for encrypted PDF documents\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Encryption",
           "name": "Encryption",
           "package": "pdf-toolbox-document",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Basic support for encrypted PDF documents",
           "hierarchy": "Pdf Toolbox Document Encryption",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Encryption",
           "name": "Encryption",
           "package": "pdf-toolbox-document",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrypt input stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Encryption",
           "name": "Decryptor",
           "package": "pdf-toolbox-document",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Decrypt input stream",
           "hierarchy": "Pdf Toolbox Document Encryption",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Encryption",
           "name": "Decryptor",
           "package": "pdf-toolbox-document",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrypt object with the decryptor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Encryption",
           "name": "decryptObject",
           "package": "pdf-toolbox-document",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Decrypt object with the decryptor",
           "hierarchy": "Pdf Toolbox Document Encryption",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Encryption",
           "name": "decryptObject",
           "normalized": "(IS-\u003eIO IS)-\u003eObject a-\u003eIO(Object a)",
@@ -312,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard decryptor. RC4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Encryption",
           "name": "mkStandardDecryptor",
           "package": "pdf-toolbox-document",
@@ -321,6 +344,7 @@
         "index": {
           "description": "Standard decryptor RC4",
           "hierarchy": "Pdf Toolbox Document Encryption",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Encryption",
           "name": "mkStandardDecryptor",
           "normalized": "Dict-\u003eDict-\u003eByteString-\u003ePdfE a(Maybe Decryptor)",
@@ -337,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFont dictionary\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontDict",
           "package": "pdf-toolbox-document",
@@ -346,6 +371,7 @@
         "index": {
           "description": "Font dictionary",
           "hierarchy": "Pdf Toolbox Document FontDict",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontDict",
           "package": "pdf-toolbox-document",
@@ -360,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontDict",
           "package": "pdf-toolbox-document",
@@ -369,6 +396,7 @@
         "index": {
           "description": "Font dictionary",
           "hierarchy": "Pdf Toolbox Document FontDict",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontDict",
           "package": "pdf-toolbox-document",
@@ -383,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont subtypes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontSubtype",
           "package": "pdf-toolbox-document",
@@ -392,6 +421,7 @@
         "index": {
           "description": "Font subtypes",
           "hierarchy": "Pdf Toolbox Document FontDict",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontSubtype",
           "package": "pdf-toolbox-document",
@@ -405,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontMMType1",
           "package": "pdf-toolbox-document",
@@ -414,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document FontDict",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontMMType1",
           "package": "pdf-toolbox-document",
@@ -427,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontTrueType",
           "package": "pdf-toolbox-document",
@@ -436,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document FontDict",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontTrueType",
           "package": "pdf-toolbox-document",
@@ -449,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontType0",
           "package": "pdf-toolbox-document",
@@ -458,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document FontDict",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontType0",
           "package": "pdf-toolbox-document",
@@ -471,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontType1",
           "package": "pdf-toolbox-document",
@@ -480,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document FontDict",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontType1",
           "package": "pdf-toolbox-document",
@@ -493,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontType3",
           "package": "pdf-toolbox-document",
@@ -502,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document FontDict",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "FontType3",
           "package": "pdf-toolbox-document",
@@ -516,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad font info for the font\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "fontDictLoadInfo",
           "package": "pdf-toolbox-document",
@@ -526,6 +567,7 @@
         "index": {
           "description": "Load font info for the font",
           "hierarchy": "Pdf Toolbox Document FontDict",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "fontDictLoadInfo",
           "normalized": "FontDict-\u003ePdfE a FontInfo",
@@ -542,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet font subtype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "fontDictSubtype",
           "package": "pdf-toolbox-document",
@@ -552,6 +595,7 @@
         "index": {
           "description": "Get font subtype",
           "hierarchy": "Pdf Toolbox Document FontDict",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.FontDict",
           "name": "fontDictSubtype",
           "normalized": "FontDict-\u003ePdfE a FontSubtype",
@@ -568,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDocument info dictionary\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Info",
           "name": "Info",
           "package": "pdf-toolbox-document",
@@ -577,6 +622,7 @@
         "index": {
           "description": "Document info dictionary",
           "hierarchy": "Pdf Toolbox Document Info",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Info",
           "name": "Info",
           "package": "pdf-toolbox-document",
@@ -591,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument title\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Info",
           "name": "infoTitle",
           "package": "pdf-toolbox-document",
@@ -601,6 +648,7 @@
         "index": {
           "description": "Document title",
           "hierarchy": "Pdf Toolbox Document Info",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Info",
           "name": "infoTitle",
           "normalized": "Info-\u003ePdfE a(Maybe Str)",
@@ -617,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal type declarations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Types",
           "package": "pdf-toolbox-document",
@@ -626,6 +675,7 @@
         "index": {
           "description": "Internal type declarations",
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Types",
           "package": "pdf-toolbox-document",
@@ -640,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument catalog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Catalog",
           "package": "pdf-toolbox-document",
@@ -649,6 +700,7 @@
         "index": {
           "description": "Document catalog",
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Catalog",
           "package": "pdf-toolbox-document",
@@ -663,6 +715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePDF document\n\u003c/p\u003e\u003cp\u003eIt is a trailer under the hood\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Document",
           "package": "pdf-toolbox-document",
@@ -672,6 +725,7 @@
         "index": {
           "description": "PDF document It is trailer under the hood",
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Document",
           "package": "pdf-toolbox-document",
@@ -686,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "FontDict",
           "package": "pdf-toolbox-document",
@@ -695,6 +750,7 @@
         "index": {
           "description": "Font dictionary",
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "FontDict",
           "package": "pdf-toolbox-document",
@@ -709,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Info",
           "package": "pdf-toolbox-document",
@@ -718,6 +775,7 @@
         "index": {
           "description": "Information dictionary",
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Info",
           "package": "pdf-toolbox-document",
@@ -732,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePdf document page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Page",
           "package": "pdf-toolbox-document",
@@ -741,6 +800,7 @@
         "index": {
           "description": "Pdf document page",
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Page",
           "package": "pdf-toolbox-document",
@@ -755,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage tree node, contains pages or other nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "PageNode",
           "package": "pdf-toolbox-document",
@@ -764,6 +825,7 @@
         "index": {
           "description": "Page tree node contains pages or other nodes",
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "PageNode",
           "package": "pdf-toolbox-document",
@@ -778,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "PageTree",
           "package": "pdf-toolbox-document",
@@ -787,6 +850,7 @@
         "index": {
           "description": "Page tree",
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "PageTree",
           "package": "pdf-toolbox-document",
@@ -800,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Catalog",
           "package": "pdf-toolbox-document",
@@ -809,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Catalog",
           "package": "pdf-toolbox-document",
@@ -822,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Document",
           "package": "pdf-toolbox-document",
@@ -831,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Document",
           "package": "pdf-toolbox-document",
@@ -844,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "FontDict",
           "package": "pdf-toolbox-document",
@@ -853,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "FontDict",
           "package": "pdf-toolbox-document",
@@ -866,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Info",
           "package": "pdf-toolbox-document",
@@ -875,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Info",
           "package": "pdf-toolbox-document",
@@ -888,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Page",
           "package": "pdf-toolbox-document",
@@ -897,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "Page",
           "package": "pdf-toolbox-document",
@@ -910,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "PageNode",
           "package": "pdf-toolbox-document",
@@ -919,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document Internal Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Types",
           "name": "PageNode",
           "package": "pdf-toolbox-document",
@@ -979,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for internal use\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Util",
           "name": "Util",
           "package": "pdf-toolbox-document",
@@ -988,6 +1065,7 @@
         "index": {
           "description": "Utilities for internal use",
           "hierarchy": "Pdf Toolbox Document Internal Util",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Util",
           "name": "Util",
           "package": "pdf-toolbox-document",
@@ -1002,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet dictionary type, name at key \"Type\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Util",
           "name": "dictionaryType",
           "package": "pdf-toolbox-document",
@@ -1012,6 +1091,7 @@
         "index": {
           "description": "Get dictionary type name at key Type",
           "hierarchy": "Pdf Toolbox Document Internal Util",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Util",
           "name": "dictionaryType",
           "normalized": "Dict-\u003ePdfE a Name",
@@ -1028,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that the dictionary has the specified \"Type\" filed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Internal.Util",
           "name": "ensureType",
           "package": "pdf-toolbox-document",
@@ -1038,6 +1119,7 @@
         "index": {
           "description": "Check that the dictionary has the specified Type filed",
           "hierarchy": "Pdf Toolbox Document Internal Util",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Internal.Util",
           "name": "ensureType",
           "normalized": "Name-\u003eDict-\u003ePdfE a()",
@@ -1054,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to the underlying PDF file\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "Monad",
           "package": "pdf-toolbox-document",
@@ -1063,6 +1146,7 @@
         "index": {
           "description": "Interface to the underlying PDF file",
           "hierarchy": "Pdf Toolbox Document Monad",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "Monad",
           "package": "pdf-toolbox-document",
@@ -1077,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface to the underlying PDF file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "MonadPdf",
           "package": "pdf-toolbox-document",
@@ -1086,6 +1171,7 @@
         "index": {
           "description": "Interface to the underlying PDF file",
           "hierarchy": "Pdf Toolbox Document Monad",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "MonadPdf",
           "package": "pdf-toolbox-document",
@@ -1100,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively load indirect object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "deref",
           "package": "pdf-toolbox-document",
@@ -1110,6 +1197,7 @@
         "index": {
           "description": "Recursively load indirect object",
           "hierarchy": "Pdf Toolbox Document Monad",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "deref",
           "normalized": "Object a-\u003ePdfE b(Object())",
@@ -1125,6 +1213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent decryptor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "getDecryptor",
           "package": "pdf-toolbox-document",
@@ -1135,6 +1224,7 @@
         "index": {
           "description": "Current decryptor",
           "hierarchy": "Pdf Toolbox Document Monad",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "getDecryptor",
           "package": "pdf-toolbox-document",
@@ -1149,6 +1239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet random access input stream for direct access to the PDF file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "getRIS",
           "package": "pdf-toolbox-document",
@@ -1159,6 +1250,7 @@
         "index": {
           "description": "Get random access input stream for direct access to the PDF file",
           "hierarchy": "Pdf Toolbox Document Monad",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "getRIS",
           "package": "pdf-toolbox-document",
@@ -1173,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all stream filters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "getStreamFilters",
           "package": "pdf-toolbox-document",
@@ -1183,6 +1276,7 @@
         "index": {
           "description": "Get all stream filters",
           "hierarchy": "Pdf Toolbox Document Monad",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "getStreamFilters",
           "normalized": "PdfE a[StreamFilter]",
@@ -1199,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efind object by it's reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "lookupObject",
           "package": "pdf-toolbox-document",
@@ -1209,6 +1304,7 @@
         "index": {
           "description": "find object by it reference",
           "hierarchy": "Pdf Toolbox Document Monad",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "lookupObject",
           "normalized": "Ref-\u003ePdfE a(Object Int)",
@@ -1225,6 +1321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edecoded stream content\n\u003c/p\u003e\u003cp\u003eNote: the \u003ccode\u003e\u003ca\u003eIS\u003c/a\u003e\u003c/code\u003e returned is valid only until the next \u003ccode\u003e\u003ca\u003elookupObject\u003c/a\u003e\u003c/code\u003e\n or any other operation, that requares seek\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "streamContent",
           "package": "pdf-toolbox-document",
@@ -1235,6 +1332,7 @@
         "index": {
           "description": "decoded stream content Note the IS returned is valid only until the next lookupObject or any other operation that requares seek",
           "hierarchy": "Pdf Toolbox Document Monad",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Monad",
           "name": "streamContent",
           "normalized": "Ref-\u003eStream Int-\u003ePdfE a(Stream IS)",
@@ -1251,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePDF document page\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "Page",
           "package": "pdf-toolbox-document",
@@ -1260,6 +1359,7 @@
         "index": {
           "description": "PDF document page",
           "hierarchy": "Pdf Toolbox Document Page",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "Page",
           "package": "pdf-toolbox-document",
@@ -1274,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePdf document page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "Page",
           "package": "pdf-toolbox-document",
@@ -1283,6 +1384,7 @@
         "index": {
           "description": "Pdf document page",
           "hierarchy": "Pdf Toolbox Document Page",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "Page",
           "package": "pdf-toolbox-document",
@@ -1297,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of references to page's content streams\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "pageContents",
           "package": "pdf-toolbox-document",
@@ -1307,6 +1410,7 @@
         "index": {
           "description": "List of references to page content streams",
           "hierarchy": "Pdf Toolbox Document Page",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "pageContents",
           "normalized": "Page-\u003ePdfE a[Ref]",
@@ -1323,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract text from the page\n\u003c/p\u003e\u003cp\u003eRight now it doesn't even try to insert additional spaces or newlines,\n and returns text as it is embeded. But someday it will.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "pageExtractText",
           "package": "pdf-toolbox-document",
@@ -1333,6 +1438,7 @@
         "index": {
           "description": "Extract text from the page Right now it doesn even try to insert additional spaces or newlines and returns text as it is embeded But someday it will",
           "hierarchy": "Pdf Toolbox Document Page",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "pageExtractText",
           "normalized": "Page-\u003ePdfE a Text",
@@ -1349,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont dictionaries for the page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "pageFontDicts",
           "package": "pdf-toolbox-document",
@@ -1359,6 +1466,7 @@
         "index": {
           "description": "Font dictionaries for the page",
           "hierarchy": "Pdf Toolbox Document Page",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "pageFontDicts",
           "normalized": "Page-\u003ePdfE a[(Name,FontDict)]",
@@ -1375,6 +1483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedia box, inheritable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "pageMediaBox",
           "package": "pdf-toolbox-document",
@@ -1385,6 +1494,7 @@
         "index": {
           "description": "Media box inheritable",
           "hierarchy": "Pdf Toolbox Document Page",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "pageMediaBox",
           "normalized": "Page-\u003ePdfE a(Rectangle Double)",
@@ -1401,6 +1511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage's parent node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "pageParentNode",
           "package": "pdf-toolbox-document",
@@ -1411,6 +1522,7 @@
         "index": {
           "description": "Page parent node",
           "hierarchy": "Pdf Toolbox Document Page",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Page",
           "name": "pageParentNode",
           "normalized": "Page-\u003ePdfE a PageNode",
@@ -1427,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePage tree node\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "PageNode",
           "package": "pdf-toolbox-document",
@@ -1436,6 +1549,7 @@
         "index": {
           "description": "Page tree node",
           "hierarchy": "Pdf Toolbox Document PageNode",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "PageNode",
           "package": "pdf-toolbox-document",
@@ -1450,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage tree node, contains pages or other nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "PageNode",
           "package": "pdf-toolbox-document",
@@ -1459,6 +1574,7 @@
         "index": {
           "description": "Page tree node contains pages or other nodes",
           "hierarchy": "Pdf Toolbox Document PageNode",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "PageNode",
           "package": "pdf-toolbox-document",
@@ -1473,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "PageTree",
           "package": "pdf-toolbox-document",
@@ -1482,6 +1599,7 @@
         "index": {
           "description": "Page tree",
           "hierarchy": "Pdf Toolbox Document PageNode",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "PageTree",
           "package": "pdf-toolbox-document",
@@ -1496,6 +1614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad page tree node by reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "loadPageNode",
           "package": "pdf-toolbox-document",
@@ -1506,6 +1625,7 @@
         "index": {
           "description": "Load page tree node by reference",
           "hierarchy": "Pdf Toolbox Document PageNode",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "loadPageNode",
           "normalized": "Ref-\u003ePdfE a PageTree",
@@ -1522,6 +1642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReferencies to all kids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "pageNodeKids",
           "package": "pdf-toolbox-document",
@@ -1532,6 +1653,7 @@
         "index": {
           "description": "Referencies to all kids",
           "hierarchy": "Pdf Toolbox Document PageNode",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "pageNodeKids",
           "normalized": "PageNode-\u003ePdfE a[Ref]",
@@ -1548,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal number of child leaf nodes, including deep children\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "pageNodeNKids",
           "package": "pdf-toolbox-document",
@@ -1558,6 +1681,7 @@
         "index": {
           "description": "Total number of child leaf nodes including deep children",
           "hierarchy": "Pdf Toolbox Document PageNode",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "pageNodeNKids",
           "normalized": "PageNode-\u003ePdfE a Int",
@@ -1574,6 +1698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind page by it's number\n\u003c/p\u003e\u003cp\u003eNote: it is not efficient for PDF files with a lot of pages,\n because it performs traversal through the page tree each time.\n Use \u003ccode\u003e\u003ca\u003epageNodeNKids\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epageNodeKids\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eloadPageNode\u003c/a\u003e\u003c/code\u003e for\n efficient traversal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "pageNodePageByNum",
           "package": "pdf-toolbox-document",
@@ -1584,6 +1709,7 @@
         "index": {
           "description": "Find page by it number Note it is not efficient for PDF files with lot of pages because it performs traversal through the page tree each time Use pageNodeNKids pageNodeKids and loadPageNode for efficient traversal",
           "hierarchy": "Pdf Toolbox Document PageNode",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "pageNodePageByNum",
           "normalized": "PageNode-\u003eInt-\u003ePdfE a Page",
@@ -1600,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParent page node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "pageNodeParent",
           "package": "pdf-toolbox-document",
@@ -1610,6 +1737,7 @@
         "index": {
           "description": "Parent page node",
           "hierarchy": "Pdf Toolbox Document PageNode",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.PageNode",
           "name": "pageNodeParent",
           "normalized": "PageNode-\u003ePdfE a(Maybe PageNode)",
@@ -1626,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic implementation of pdf monad\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "Pdf",
           "package": "pdf-toolbox-document",
@@ -1635,6 +1764,7 @@
         "index": {
           "description": "Basic implementation of pdf monad",
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "Pdf",
           "package": "pdf-toolbox-document",
@@ -1648,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "MonadIO",
           "package": "pdf-toolbox-document",
@@ -1655,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "MonadIO",
           "package": "pdf-toolbox-document",
@@ -1669,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient type alias\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "Pdf",
           "package": "pdf-toolbox-document",
@@ -1678,6 +1811,7 @@
         "index": {
           "description": "Convenient type alias",
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "Pdf",
           "package": "pdf-toolbox-document",
@@ -1692,6 +1826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic implementation of pdf monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "Pdf'",
           "package": "pdf-toolbox-document",
@@ -1701,6 +1836,7 @@
         "index": {
           "description": "Basic implementation of pdf monad",
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "Pdf'",
           "package": "pdf-toolbox-document",
@@ -1715,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrypt PDF object using user password is set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "decrypt",
           "package": "pdf-toolbox-document",
@@ -1725,6 +1862,7 @@
         "index": {
           "description": "Decrypt PDF object using user password is set",
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "decrypt",
           "normalized": "Ref-\u003eObject a-\u003ePdf b(Object a)",
@@ -1740,6 +1878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet PDF document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "document",
           "package": "pdf-toolbox-document",
@@ -1750,6 +1889,7 @@
         "index": {
           "description": "Get PDF document",
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "document",
           "package": "pdf-toolbox-document",
@@ -1763,6 +1903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all objects from cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "flushObjectCache",
           "package": "pdf-toolbox-document",
@@ -1773,6 +1914,7 @@
         "index": {
           "description": "Remove all objects from cache",
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "flushObjectCache",
           "normalized": "Pdf a()",
@@ -1789,6 +1931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the PDF document it encrypted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "isEncrypted",
           "package": "pdf-toolbox-document",
@@ -1799,6 +1942,7 @@
         "index": {
           "description": "Whether the PDF document it encrypted",
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "isEncrypted",
           "package": "pdf-toolbox-document",
@@ -1813,6 +1957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll stream filters implemented by the toolbox\n\u003c/p\u003e\u003cp\u003eRight now it contains only FlateDecode filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "knownFilters",
           "package": "pdf-toolbox-document",
@@ -1822,6 +1967,7 @@
         "index": {
           "description": "All stream filters implemented by the toolbox Right now it contains only FlateDecode filter",
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "knownFilters",
           "normalized": "[StreamFilter]",
@@ -1837,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "liftIO",
           "package": "pdf-toolbox-document",
@@ -1845,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "liftIO",
           "normalized": "IO a-\u003eb a",
@@ -1861,6 +2009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute PDF action with \u003ccode\u003e\u003ca\u003eRIS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "runPdf",
           "package": "pdf-toolbox-document",
@@ -1871,6 +2020,7 @@
         "index": {
           "description": "Execute PDF action with RIS",
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "runPdf",
           "normalized": "RIS-\u003e[StreamFilter]-\u003ePdf a b-\u003ea(Either PdfError b)",
@@ -1887,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute PDF action with \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "runPdfWithHandle",
           "package": "pdf-toolbox-document",
@@ -1897,6 +2048,7 @@
         "index": {
           "description": "Execute PDF action with Handle",
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "runPdfWithHandle",
           "normalized": "Handle-\u003e[StreamFilter]-\u003ePdf a b-\u003ea(Either PdfError b)",
@@ -1913,6 +2065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the password to be user for decryption\n\u003c/p\u003e\u003cp\u003eReturns False when the password is wrong\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "setUserPassword",
           "package": "pdf-toolbox-document",
@@ -1923,6 +2076,7 @@
         "index": {
           "description": "Set the password to be user for decryption Returns False when the password is wrong",
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "setUserPassword",
           "normalized": "ByteString-\u003ePdf a Bool",
@@ -1939,6 +2093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform action without adding objects to cache.\n Note: the existent cache is not flushed, and is used\n within the action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "withoutObjectCache",
           "package": "pdf-toolbox-document",
@@ -1949,6 +2104,7 @@
         "index": {
           "description": "Perform action without adding objects to cache Note the existent cache is not flushed and is used within the action",
           "hierarchy": "Pdf Toolbox Document Pdf",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Pdf",
           "name": "withoutObjectCache",
           "normalized": "Pdf a()-\u003ePdf a()",
@@ -1965,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Types",
           "name": "Types",
           "package": "pdf-toolbox-document",
@@ -1974,6 +2131,7 @@
         "index": {
           "description": "Various types",
           "hierarchy": "Pdf Toolbox Document Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Types",
           "name": "Types",
           "package": "pdf-toolbox-document",
@@ -1988,6 +2146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRectangle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Types",
           "name": "Rectangle",
           "package": "pdf-toolbox-document",
@@ -1997,6 +2156,7 @@
         "index": {
           "description": "Rectangle",
           "hierarchy": "Pdf Toolbox Document Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Types",
           "name": "Rectangle",
           "package": "pdf-toolbox-document",
@@ -2010,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Types",
           "name": "Rectangle",
           "package": "pdf-toolbox-document",
@@ -2019,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Pdf Toolbox Document Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Types",
           "name": "Rectangle",
           "package": "pdf-toolbox-document",
@@ -2033,6 +2195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate rectangle form an array of 4 numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document.Types",
           "name": "rectangleFromArray",
           "package": "pdf-toolbox-document",
@@ -2043,6 +2206,7 @@
         "index": {
           "description": "Create rectangle form an array of numbers",
           "hierarchy": "Pdf Toolbox Document Types",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document.Types",
           "name": "rectangleFromArray",
           "normalized": "Array-\u003ePdfE a(Rectangle Double)",
@@ -2059,6 +2223,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMid level utils for processing PDF file\n\u003c/p\u003e\u003cp\u003eBasic example how to get number of pages in document\n\u003c/p\u003e\u003cpre\u003e\n  withBinaryFile \"input.pdf\" ReadMode $ handle -\u003e\n    \u003ccode\u003e\u003ca\u003erunPdfWithHandle\u003c/a\u003e\u003c/code\u003e handle \u003ccode\u003e\u003ca\u003eknownFilters\u003c/a\u003e\u003c/code\u003e $ do\n      pdf \u003c- \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e\n      catalog \u003c- \u003ccode\u003e\u003ca\u003edocumentCatalog\u003c/a\u003e\u003c/code\u003e pdf\n      rootNode \u003c- \u003ccode\u003e\u003ca\u003ecatalogPageNode\u003c/a\u003e\u003c/code\u003e catalog\n      cout \u003c- \u003ccode\u003e\u003ca\u003epageNodeNKids\u003c/a\u003e\u003c/code\u003e rootNode\n      liftIO $ print count\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:37 UTC 2014",
           "module": "Pdf.Toolbox.Document",
           "name": "Document",
           "package": "pdf-toolbox-document",
@@ -2068,6 +2233,7 @@
         "index": {
           "description": "Mid level utils for processing PDF file Basic example how to get number of pages in document withBinaryFile input.pdf ReadMode handle runPdfWithHandle handle knownFilters do pdf document catalog documentCatalog pdf rootNode catalogPageNode catalog cout pageNodeNKids rootNode liftIO print count",
           "hierarchy": "Pdf Toolbox Document",
+          "indexed": "2014-03-11T19:36:37",
           "module": "Pdf.Toolbox.Document",
           "name": "Document",
           "package": "pdf-toolbox-document",

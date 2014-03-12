@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SimpleGL"
+        "phrase": "SimpleGL",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL.Texture",
           "name": "Texture",
           "package": "SimpleGL",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL Texture",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL.Texture",
           "name": "Texture",
           "package": "SimpleGL",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract Texture type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL.Texture",
           "name": "Texture",
           "package": "SimpleGL",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The abstract Texture type",
           "hierarchy": "SimpleH GL Texture",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL.Texture",
           "name": "Texture",
           "package": "SimpleGL",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to convert a JuicyPixels image to a texture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL.Texture",
           "name": "imageTexture",
           "package": "SimpleGL",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Try to convert JuicyPixels image to texture",
           "hierarchy": "SimpleH GL Texture",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL.Texture",
           "name": "imageTexture",
           "normalized": "DynamicImage-\u003eIO(Either[Char]Texture)",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a texture from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL.Texture",
           "name": "readTexture",
           "package": "SimpleGL",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Read texture from file",
           "hierarchy": "SimpleH GL Texture",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL.Texture",
           "name": "readTexture",
           "normalized": "FilePath-\u003eIO(Either String Texture)",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to read a structure of files into a structure of textures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL.Texture",
           "name": "readTextures",
           "package": "SimpleGL",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Try to read structure of files into structure of textures",
           "hierarchy": "SimpleH GL Texture",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL.Texture",
           "name": "readTextures",
           "normalized": "a FilePath-\u003eIO(Either String(a Texture))",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a structure of files into a structure of textures, raising an error\n if it fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL.Texture",
           "name": "readTextures'",
           "package": "SimpleGL",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Read structure of files into structure of textures raising an error if it fails",
           "hierarchy": "SimpleH GL Texture",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL.Texture",
           "name": "readTextures'",
           "normalized": "a FilePath-\u003eIO(a Texture)",
@@ -166,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "GL",
           "package": "SimpleGL",
@@ -174,6 +187,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "GL",
           "package": "SimpleGL",
@@ -187,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Button",
           "package": "SimpleGL",
@@ -195,6 +210,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Button",
           "package": "SimpleGL",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Coord",
           "package": "SimpleGL",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Coord",
           "package": "SimpleGL",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "EventHandler",
           "package": "SimpleGL",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "EventHandler",
           "package": "SimpleGL",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concrete implementation of a read-only state variable, carrying an IO\n action to read the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "GettableStateVar",
           "package": "SimpleGL",
@@ -259,6 +280,7 @@
         "index": {
           "description": "concrete implementation of read-only state variable carrying an IO action to read the value",
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "GettableStateVar",
           "package": "SimpleGL",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Graphics",
           "package": "SimpleGL",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Graphics",
           "package": "SimpleGL",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey or button state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "KeyButtonState",
           "package": "SimpleGL",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Key or button state",
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "KeyButtonState",
           "package": "SimpleGL",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Position",
           "package": "SimpleGL",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Position",
           "package": "SimpleGL",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Scene",
           "package": "SimpleGL",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Scene",
           "package": "SimpleGL",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concrete implementation of a write-only state variable, carrying an IO\n action to write the new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "SettableStateVar",
           "package": "SimpleGL",
@@ -366,6 +397,7 @@
         "index": {
           "description": "concrete implementation of write-only state variable carrying an IO action to write the new value",
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "SettableStateVar",
           "package": "SimpleGL",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Shape",
           "package": "SimpleGL",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Shape",
           "package": "SimpleGL",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "ShapeProp",
           "package": "SimpleGL",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "ShapeProp",
           "package": "SimpleGL",
@@ -422,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2-dimensional size, measured in pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Size",
           "package": "SimpleGL",
@@ -430,6 +467,7 @@
         "index": {
           "description": "dimensional size measured in pixels",
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Size",
           "package": "SimpleGL",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Title",
           "package": "SimpleGL",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Title",
           "package": "SimpleGL",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Transform",
           "package": "SimpleGL",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Transform",
           "package": "SimpleGL",
@@ -486,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA two-element vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "V2",
           "package": "SimpleGL",
@@ -495,6 +538,7 @@
         "index": {
           "description": "two-element vector",
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "V2",
           "package": "SimpleGL",
@@ -508,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA three-element vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "V3",
           "package": "SimpleGL",
@@ -517,6 +562,7 @@
         "index": {
           "description": "three-element vector",
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "V3",
           "package": "SimpleGL",
@@ -530,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA three-element vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "V4",
           "package": "SimpleGL",
@@ -539,6 +586,7 @@
         "index": {
           "description": "three-element vector",
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "V4",
           "package": "SimpleGL",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Vertex",
           "package": "SimpleGL",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Vertex",
           "package": "SimpleGL",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "VertexProp",
           "package": "SimpleGL",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "VertexProp",
           "package": "SimpleGL",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Widget",
           "package": "SimpleGL",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Widget",
           "package": "SimpleGL",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "CharKey",
           "package": "SimpleGL",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "CharKey",
           "package": "SimpleGL",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Color",
           "package": "SimpleGL",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Color",
           "package": "SimpleGL",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "MouseButton",
           "package": "SimpleGL",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "MouseButton",
           "package": "SimpleGL",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Polygon",
           "package": "SimpleGL",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Polygon",
           "normalized": "Polygon[Vertex a]",
@@ -704,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Press",
           "package": "SimpleGL",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Press",
           "package": "SimpleGL",
@@ -725,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Release",
           "package": "SimpleGL",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Release",
           "package": "SimpleGL",
@@ -746,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Rotate",
           "package": "SimpleGL",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Rotate",
           "package": "SimpleGL",
@@ -768,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Shape",
           "package": "SimpleGL",
@@ -777,6 +846,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Shape",
           "normalized": "Shape[ShapeProp](Shape a)",
@@ -792,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Size",
           "package": "SimpleGL",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Size",
           "package": "SimpleGL",
@@ -813,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "SpecialKey",
           "package": "SimpleGL",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "SpecialKey",
           "package": "SimpleGL",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "SubScene",
           "package": "SimpleGL",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "SubScene",
           "normalized": "SubScene[Transform a](Scene a)",
@@ -859,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "TexCoord",
           "package": "SimpleGL",
@@ -868,6 +945,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "TexCoord",
           "package": "SimpleGL",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Texture",
           "package": "SimpleGL",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Texture",
           "package": "SimpleGL",
@@ -903,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Translate",
           "package": "SimpleGL",
@@ -912,6 +993,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Translate",
           "package": "SimpleGL",
@@ -925,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "V2",
           "package": "SimpleGL",
@@ -934,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "V2",
           "package": "SimpleGL",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "V3",
           "package": "SimpleGL",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "V3",
           "package": "SimpleGL",
@@ -967,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "V4",
           "package": "SimpleGL",
@@ -976,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "V4",
           "package": "SimpleGL",
@@ -988,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Vertex",
           "package": "SimpleGL",
@@ -997,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Vertex",
           "normalized": "Vertex[VertexProp a]a a a",
@@ -1012,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "Zoom",
           "package": "SimpleGL",
@@ -1021,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "Zoom",
           "package": "SimpleGL",
@@ -1034,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "black",
           "package": "SimpleGL",
@@ -1043,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "black",
           "package": "SimpleGL",
@@ -1055,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "blue",
           "package": "SimpleGL",
@@ -1064,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "blue",
           "package": "SimpleGL",
@@ -1076,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "cvert",
           "package": "SimpleGL",
@@ -1085,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "cvert",
           "normalized": "VertexProp a-\u003ea-\u003ea-\u003ea-\u003eVertex a",
@@ -1099,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "cyan",
           "package": "SimpleGL",
@@ -1108,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "cyan",
           "package": "SimpleGL",
@@ -1120,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "draw",
           "package": "SimpleGL",
@@ -1129,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "draw",
           "normalized": "a-\u003eIO()",
@@ -1143,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "drawScene",
           "package": "SimpleGL",
@@ -1152,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "drawScene",
           "normalized": "Scene Coord-\u003eIO()",
@@ -1167,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "gray",
           "package": "SimpleGL",
@@ -1176,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "gray",
           "normalized": "a-\u003eV a",
@@ -1190,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "green",
           "package": "SimpleGL",
@@ -1199,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "green",
           "package": "SimpleGL",
@@ -1211,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "grey",
           "package": "SimpleGL",
@@ -1220,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "grey",
           "normalized": "a-\u003eV a",
@@ -1234,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "magenta",
           "package": "SimpleGL",
@@ -1243,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "magenta",
           "package": "SimpleGL",
@@ -1255,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "red",
           "package": "SimpleGL",
@@ -1264,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "red",
           "package": "SimpleGL",
@@ -1277,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an OpenGL window and sinks all events into the given handler. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "spawnWindow",
           "package": "SimpleGL",
@@ -1287,6 +1402,7 @@
         "index": {
           "description": "Create an OpenGL window and sinks all events into the given handler",
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "spawnWindow",
           "normalized": "Title-\u003eEventHandler-\u003eIO()",
@@ -1302,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "vert",
           "package": "SimpleGL",
@@ -1311,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "vert",
           "normalized": "a-\u003ea-\u003ea-\u003eVertex a",
@@ -1325,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "white",
           "package": "SimpleGL",
@@ -1334,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "white",
           "package": "SimpleGL",
@@ -1346,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:44 UTC 2014",
           "module": "SimpleH.GL",
           "name": "yellow",
           "package": "SimpleGL",
@@ -1355,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "SimpleH GL",
+          "indexed": "2014-03-11T17:00:44",
           "module": "SimpleH.GL",
           "name": "yellow",
           "package": "SimpleGL",

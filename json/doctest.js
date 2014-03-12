@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "doctest"
+        "phrase": "doctest",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:45 UTC 2014",
           "module": "Test.DocTest",
           "name": "DocTest",
           "package": "doctest",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test DocTest",
+          "indexed": "2014-03-11T17:57:45",
           "module": "Test.DocTest",
           "name": "DocTest",
           "package": "doctest",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun doctest with given list of arguments.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoctest [\"-iexample/src\", \"example/src/Example.hs\"]\n\u003c/code\u003e\u003c/strong\u003eExamples: 2  Tried: 2  Errors: 0  Failures: 0\n\u003c/pre\u003e\u003cp\u003eThis can be used to create a Cabal test suite that runs doctest for your\n project.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:45 UTC 2014",
           "module": "Test.DocTest",
           "name": "doctest",
           "package": "doctest",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Run doctest with given list of arguments Example doctest iexample src example src Example.hs Examples Tried Errors Failures This can be used to create Cabal test suite that runs doctest for your project",
           "hierarchy": "Test DocTest",
+          "indexed": "2014-03-11T17:57:45",
           "module": "Test.DocTest",
           "name": "doctest",
           "normalized": "[String]-\u003eIO()",

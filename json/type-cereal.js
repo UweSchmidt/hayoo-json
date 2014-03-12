@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-cereal"
+        "phrase": "type-cereal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level serialization (i.e. type -\u003e \u003ccode\u003etype-digit\u003c/code\u003e type-level numeral).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:04 UTC 2014",
           "module": "Type.Serialize.Base",
           "name": "Base",
           "package": "type-cereal",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Type-level serialization i.e type type-digit type-level numeral",
           "hierarchy": "Type Serialize Base",
+          "indexed": "2014-03-11T20:27:04",
           "module": "Type.Serialize.Base",
           "name": "Base",
           "package": "type-cereal",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eSerialize\u003c/code\u003e maps a type to its unique type-level serialization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:04 UTC 2014",
           "module": "Type.Serialize.Base",
           "name": "Serialize",
           "package": "type-cereal",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Serialize maps type to its unique type-level serialization",
           "hierarchy": "Type Serialize Base",
+          "indexed": "2014-03-11T20:27:04",
           "module": "Type.Serialize.Base",
           "name": "Serialize",
           "package": "type-cereal",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode uses the \u003ccode\u003ecereal\u003c/code\u003e package serializer to encode the value and then\n uses \u003ccode\u003etype-digits\u003c/code\u003e to reflect it as a type-level numeral.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:04 UTC 2014",
           "module": "Type.Serialize.Base",
           "name": "encode",
           "package": "type-cereal",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Encode uses the cereal package serializer to encode the value and then uses type-digits to reflect it as type-level numeral",
           "hierarchy": "Type Serialize Base",
+          "indexed": "2014-03-11T20:27:04",
           "module": "Type.Serialize.Base",
           "name": "encode",
           "normalized": "a-\u003eType",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:04 UTC 2014",
           "module": "Type.Serialize.Base",
           "name": "serializeTypeAsHash_",
           "package": "type-cereal",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Type Serialize Base",
+          "indexed": "2014-03-11T20:27:04",
           "module": "Type.Serialize.Base",
           "name": "serializeTypeAsHash_",
           "normalized": "(Name-\u003eType)-\u003eName-\u003ea[Dec]",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eserializeType\u003c/code\u003e can result in very large types, so we prefer the\n \u003ccode\u003edata-hash\u003c/code\u003e hash of the \u003ccode\u003eNameG\u003c/code\u003e's serialization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:04 UTC 2014",
           "module": "Type.Serialize.Base",
           "name": "serializeTypeAsHash_data",
           "package": "type-cereal",
@@ -124,6 +133,7 @@
         "index": {
           "description": "serializeType can result in very large types so we prefer the data-hash hash of the NameG serialization",
           "hierarchy": "Type Serialize Base",
+          "indexed": "2014-03-11T20:27:04",
           "module": "Type.Serialize.Base",
           "name": "serializeTypeAsHash_data",
           "normalized": "Name-\u003eQ[Dec]",
@@ -139,6 +149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:04 UTC 2014",
           "module": "Type.Serialize.Base",
           "name": "serializeTypeAsHash_pro",
           "package": "type-cereal",
@@ -148,6 +159,7 @@
         },
         "index": {
           "hierarchy": "Type Serialize Base",
+          "indexed": "2014-03-11T20:27:04",
           "module": "Type.Serialize.Base",
           "name": "serializeTypeAsHash_pro",
           "normalized": "Name-\u003eQ[Dec]",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:04 UTC 2014",
           "module": "Type.Serialize.Base",
           "name": "serializeType_",
           "package": "type-cereal",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Type Serialize Base",
+          "indexed": "2014-03-11T20:27:04",
           "module": "Type.Serialize.Base",
           "name": "serializeType_",
           "normalized": "(Name-\u003eType)-\u003eName-\u003ea[Dec]",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the \u003ccode\u003eSerialize\u003c/code\u003e instance corresponding to the serialization of\n the type constructor's globally unique name (i.e. TH's \u003ccode\u003eNameG\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:04 UTC 2014",
           "module": "Type.Serialize.Base",
           "name": "serializeType_data",
           "package": "type-cereal",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Generates the Serialize instance corresponding to the serialization of the type constructor globally unique name i.e TH NameG",
           "hierarchy": "Type Serialize Base",
+          "indexed": "2014-03-11T20:27:04",
           "module": "Type.Serialize.Base",
           "name": "serializeType_data",
           "normalized": "Name-\u003eQ[Dec]",
@@ -213,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:04 UTC 2014",
           "module": "Type.Serialize.Base",
           "name": "serializeType_pro",
           "package": "type-cereal",
@@ -222,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Type Serialize Base",
+          "indexed": "2014-03-11T20:27:04",
           "module": "Type.Serialize.Base",
           "name": "serializeType_pro",
           "normalized": "Name-\u003eQ[Dec]",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level serialization for the basic types: Bool, Char, Either, etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:04 UTC 2014",
           "module": "Type.Serialize",
           "name": "Serialize",
           "package": "type-cereal",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Type-level serialization for the basic types Bool Char Either etc",
           "hierarchy": "Type Serialize",
+          "indexed": "2014-03-11T20:27:04",
           "module": "Type.Serialize",
           "name": "Serialize",
           "package": "type-cereal",

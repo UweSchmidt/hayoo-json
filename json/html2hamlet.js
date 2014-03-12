@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "html2hamlet"
+        "phrase": "html2hamlet",
+        "type": "phrase"
       },
       "type": "context"
     }

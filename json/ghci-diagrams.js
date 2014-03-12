@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghci-diagrams"
+        "phrase": "ghci-diagrams",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "DrawDiagrams",
           "package": "ghci-diagrams",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "DrawDiagrams",
           "package": "ghci-diagrams",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e type class encompasses color representations which\n   can be used by the Diagrams library; that is, every function in\n   the Diagrams library which expects a color can take any type\n   which is an instance of \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e.  Instances are provided for both\n   the \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e types from\n   the \u003ca\u003eData.Colour\u003c/a\u003e library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "Color",
           "package": "ghci-diagrams",
@@ -48,6 +51,7 @@
         "index": {
           "description": "The Color type class encompasses color representations which can be used by the Diagrams library that is every function in the Diagrams library which expects color can take any type which is an instance of Color Instances are provided for both the Colour and AlphaColour types from the Data.Colour library",
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "Color",
           "package": "ghci-diagrams",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDiagram\u003c/a\u003e\u003c/code\u003e is the core data type which describes a diagram.\n   \u003ccode\u003e\u003ca\u003eDiagram\u003c/a\u003e\u003c/code\u003es may be constructed, transformed, combined, and\n   ultimately rendered as an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "Diagram",
           "package": "ghci-diagrams",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Diagram is the core data type which describes diagram Diagram may be constructed transformed combined and ultimately rendered as an image",
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "Diagram",
           "package": "ghci-diagrams",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic 2D points/vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "Point",
           "package": "ghci-diagrams",
@@ -92,6 +99,7 @@
         "index": {
           "description": "Basic points vectors",
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "Point",
           "package": "ghci-diagrams",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "(*.)",
           "package": "ghci-diagrams",
@@ -115,6 +124,7 @@
         "index": {
           "description": "Scalar multiplication",
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "(*.) *.",
           "normalized": "Double-\u003ePoint-\u003ePoint",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "(\u003c|\u003e)",
           "package": "ghci-diagrams",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "Diagram-\u003eDiagram-\u003eDiagram",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "(\u003e-\u003c)",
           "package": "ghci-diagrams",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "(\u003e-\u003c) \u003e-\u003c",
           "normalized": "Point-\u003ePoint-\u003eDiagram",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "(.*.)",
           "package": "ghci-diagrams",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "(.*.) .*.",
           "normalized": "Point-\u003ePoint-\u003ePoint",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "(.+.)",
           "package": "ghci-diagrams",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "(.+.) .+.",
           "normalized": "Point-\u003ePoint-\u003ePoint",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElementwise addition, subtraction and multiplication for \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "(.-.)",
           "package": "ghci-diagrams",
@@ -229,6 +248,7 @@
         "index": {
           "description": "Elementwise addition subtraction and multiplication for Point",
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "(.-.) .-.",
           "normalized": "Point-\u003ePoint-\u003ePoint",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "circle",
           "package": "ghci-diagrams",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "circle",
           "normalized": "Double-\u003eDiagram",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "draw",
           "package": "ghci-diagrams",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "draw",
           "normalized": "Diagram-\u003eIO()",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "drawOn",
           "package": "ghci-diagrams",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "drawOn",
           "normalized": "Int-\u003eInt-\u003eDiagram-\u003eIO()",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "fill",
           "package": "ghci-diagrams",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "fill",
           "normalized": "Diagram-\u003ea-\u003eDiagram",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "move",
           "package": "ghci-diagrams",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "move",
           "normalized": "Diagram-\u003e(Double,Double)-\u003eDiagram",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "polygon",
           "package": "ghci-diagrams",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "polygon",
           "normalized": "[Point]-\u003eDiagram",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "polyline",
           "package": "ghci-diagrams",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "polyline",
           "normalized": "[Point]-\u003eDiagram",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erect w h\u003c/code\u003e is a rectangle of width \u003ccode\u003ew\u003c/code\u003e and height \u003ccode\u003eh\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "rect",
           "package": "ghci-diagrams",
@@ -415,6 +450,7 @@
         "index": {
           "description": "rect is rectangle of width and height",
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "rect",
           "normalized": "Double-\u003eDouble-\u003eDiagram",
@@ -430,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e from RGB values using the \u003cem\u003elinear\u003c/em\u003e RGB colour\n with the same gamut as sRGB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "rgb",
           "package": "ghci-diagrams",
@@ -439,6 +476,7 @@
         "index": {
           "description": "Constructs Colour from RGB values using the linear RGB colour with the same gamut as sRGB",
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "rgb",
           "normalized": "a-\u003ea-\u003ea-\u003eColour a",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "rotate",
           "package": "ghci-diagrams",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "rotate",
           "normalized": "Diagram-\u003eDouble-\u003eDiagram",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "scale",
           "package": "ghci-diagrams",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "scale",
           "normalized": "Diagram-\u003eDouble-\u003eDiagram",
@@ -500,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a diagram along the y-axis only.  \u003ccode\u003escaleY s\u003c/code\u003e is equivalent\n   to \u003ccode\u003estretch 1 s\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "scaleY",
           "package": "ghci-diagrams",
@@ -509,6 +552,7 @@
         "index": {
           "description": "Scale diagram along the y-axis only scaleY is equivalent to stretch",
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "scaleY",
           "normalized": "Double-\u003eDiagram-\u003eDiagram",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "stroke",
           "package": "ghci-diagrams",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "stroke",
           "normalized": "Diagram-\u003ea-\u003eDiagram",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "strokeWidth",
           "package": "ghci-diagrams",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "strokeWidth",
           "normalized": "Diagram-\u003eDouble-\u003eDiagram",
@@ -571,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eDiagram\u003c/a\u003e\u003c/code\u003e as a union of subdiagrams which will not be\n   repositioned.  If the subdiagrams overlap, they will appear with\n   the first \u003ccode\u003e\u003ca\u003eDiagram\u003c/a\u003e\u003c/code\u003e on the bottom, and the last on top.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:35 UTC 2014",
           "module": "DrawDiagrams",
           "name": "union",
           "package": "ghci-diagrams",
@@ -580,6 +629,7 @@
         "index": {
           "description": "Create Diagram as union of subdiagrams which will not be repositioned If the subdiagrams overlap they will appear with the first Diagram on the bottom and the last on top",
           "hierarchy": "DrawDiagrams",
+          "indexed": "2014-03-11T18:16:35",
           "module": "DrawDiagrams",
           "name": "union",
           "normalized": "[Diagram]-\u003eDiagram",

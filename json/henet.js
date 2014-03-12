@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "henet"
+        "phrase": "henet",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "x11-xinput"
+        "phrase": "x11-xinput",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "Devices",
           "package": "x11-xinput",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "Devices",
           "package": "x11-xinput",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "Device",
           "package": "x11-xinput",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "Device",
           "package": "x11-xinput",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "DevicesMap",
           "package": "x11-xinput",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "DevicesMap",
           "package": "x11-xinput",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "Device",
           "package": "x11-xinput",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "Device",
           "package": "x11-xinput",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "DevicesMap",
           "package": "x11-xinput",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "DevicesMap",
           "package": "x11-xinput",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "allDevices",
           "package": "x11-xinput",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "allDevices",
           "package": "x11-xinput",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "buildDevicesMap",
           "package": "x11-xinput",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "buildDevicesMap",
           "normalized": "[DeviceInfo]-\u003eDevicesMap",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "byName",
           "package": "x11-xinput",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "byName",
           "package": "x11-xinput",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "deviceById",
           "package": "x11-xinput",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "deviceById",
           "normalized": "DeviceID-\u003eDevicesMap-\u003eMaybe DeviceInfo",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "deviceByName",
           "package": "x11-xinput",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "deviceByName",
           "normalized": "String-\u003eDevicesMap-\u003eMaybe DeviceInfo",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "isMasterDevice",
           "package": "x11-xinput",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "isMasterDevice",
           "normalized": "DeviceID-\u003eDevicesMap-\u003eBool",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "masterDevice",
           "package": "x11-xinput",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "masterDevice",
           "package": "x11-xinput",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "masterDeviceById",
           "package": "x11-xinput",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "masterDeviceById",
           "normalized": "DeviceID-\u003eDevicesMap-\u003eMaybe Device",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "masterDevices",
           "package": "x11-xinput",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "masterDevices",
           "package": "x11-xinput",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "showDevicesMap",
           "package": "x11-xinput",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "showDevicesMap",
           "normalized": "DevicesMap-\u003eString",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Devices",
           "name": "slaveDevices",
           "package": "x11-xinput",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Devices",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Devices",
           "name": "slaveDevices",
           "normalized": "[DeviceInfo]",
@@ -382,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains FFI imports and thin wrappers for them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "Foreign",
           "package": "x11-xinput",
@@ -391,6 +424,7 @@
         "index": {
           "description": "This module contains FFI imports and thin wrappers for them",
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "Foreign",
           "package": "x11-xinput",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "freeEventData",
           "package": "x11-xinput",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "freeEventData",
           "normalized": "Display-\u003eEventCookiePtr-\u003eIO()",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "getEventData",
           "package": "x11-xinput",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "getEventData",
           "normalized": "Display-\u003eEventCookiePtr-\u003eIO Bool",
@@ -452,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "grabButton",
           "package": "x11-xinput",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "grabButton",
           "normalized": "Display-\u003eSelectDevices-\u003eButton-\u003eWindow-\u003eCursor-\u003eGrabMode-\u003eGrabMode-\u003eBool-\u003e[EventType]-\u003e[GrabModifiers]-\u003eIO[GrabModifiers]",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "grabDevice",
           "package": "x11-xinput",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "grabDevice",
           "normalized": "Display-\u003eDeviceID-\u003eWindow-\u003eCursor-\u003eGrabMode-\u003eGrabMode-\u003eBool-\u003eEventMask-\u003eIO Status",
@@ -500,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "grabKeycode",
           "package": "x11-xinput",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "grabKeycode",
           "normalized": "Display-\u003eSelectDevices-\u003eKeyCode-\u003eWindow-\u003eGrabMode-\u003eGrabMode-\u003eBool-\u003e[EventType]-\u003e[GrabModifiers]-\u003eIO[GrabModifiers]",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery list of devices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "queryDevice",
           "package": "x11-xinput",
@@ -534,6 +579,7 @@
         "index": {
           "description": "Query list of devices",
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "queryDevice",
           "normalized": "Display-\u003eSelectDevices-\u003eIO[DeviceInfo]",
@@ -550,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect XInput events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "setEventMask",
           "package": "x11-xinput",
@@ -559,6 +606,7 @@
         "index": {
           "description": "Select XInput events",
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "setEventMask",
           "normalized": "Display-\u003eWindow-\u003e[EventType]-\u003eIO()",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "ungrabButton",
           "package": "x11-xinput",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "ungrabButton",
           "normalized": "Display-\u003eSelectDevices-\u003eButton-\u003eWindow-\u003e[GrabModifiers]-\u003eIO Status",
@@ -598,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "ungrabDevice",
           "package": "x11-xinput",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "ungrabDevice",
           "normalized": "Display-\u003eDeviceID-\u003eIO Status",
@@ -622,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "ungrabKeycode",
           "package": "x11-xinput",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "ungrabKeycode",
           "normalized": "Display-\u003eSelectDevices-\u003eKeyCode-\u003eWindow-\u003e[GrabModifiers]-\u003eIO Status",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "xQueryExtension",
           "package": "x11-xinput",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "xQueryExtension",
           "normalized": "Display-\u003eCString-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO CInt",
@@ -670,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "xiQueryDevice",
           "package": "x11-xinput",
@@ -679,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "xiQueryDevice",
           "normalized": "Display-\u003eCInt-\u003ePtr CInt-\u003eIO DeviceInfoPtr",
@@ -694,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "xinputVersion",
           "package": "x11-xinput",
@@ -703,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Foreign",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Foreign",
           "name": "xinputVersion",
           "normalized": "Display-\u003ePtr CInt-\u003ePtr CInt-\u003eIO CInt",
@@ -719,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains some higher-level functions,\n - wrapping XInput calls. #\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Functions",
           "name": "Functions",
           "package": "x11-xinput",
@@ -728,6 +789,7 @@
         "index": {
           "description": "This module contains some higher-level functions wrapping XInput calls",
           "hierarchy": "Graphics X11 XInput Functions",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Functions",
           "name": "Functions",
           "package": "x11-xinput",
@@ -742,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut to get button number or keycode\n from keyboard or mouse event. Returns Nothing\n if this is not mouse or keyboard event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Functions",
           "name": "eventButton",
           "package": "x11-xinput",
@@ -752,6 +815,7 @@
         "index": {
           "description": "Shortcut to get button number or keycode from keyboard or mouse event Returns Nothing if this is not mouse or keyboard event",
           "hierarchy": "Graphics X11 XInput Functions",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Functions",
           "name": "eventButton",
           "normalized": "Event-\u003eMaybe Int",
@@ -768,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut to get keymask from event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Functions",
           "name": "eventKeyMask",
           "package": "x11-xinput",
@@ -778,6 +843,7 @@
         "index": {
           "description": "Shortcut to get keymask from event",
           "hierarchy": "Graphics X11 XInput Functions",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Functions",
           "name": "eventKeyMask",
           "normalized": "Event-\u003eMaybe KeyMask",
@@ -794,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut to get pointer position from event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Functions",
           "name": "eventMousePos",
           "package": "x11-xinput",
@@ -804,6 +871,7 @@
         "index": {
           "description": "Shortcut to get pointer position from event",
           "hierarchy": "Graphics X11 XInput Functions",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Functions",
           "name": "eventMousePos",
           "normalized": "Event-\u003eMaybe(Position,Position)",
@@ -820,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut to get event window.\n Returns Nothing if this is not pointer-related event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Functions",
           "name": "eventWindow",
           "package": "x11-xinput",
@@ -830,6 +899,7 @@
         "index": {
           "description": "Shortcut to get event window Returns Nothing if this is not pointer-related event",
           "hierarchy": "Graphics X11 XInput Functions",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Functions",
           "name": "eventWindow",
           "normalized": "Event-\u003eMaybe Window",
@@ -846,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle usual X11 event or cookie event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Functions",
           "name": "handleXCookie",
           "package": "x11-xinput",
@@ -855,6 +926,7 @@
         "index": {
           "description": "Handle usual X11 event or cookie event",
           "hierarchy": "Graphics X11 XInput Functions",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Functions",
           "name": "handleXCookie",
           "normalized": "Display-\u003eOpcode-\u003eXEventPtr-\u003e(Event-\u003ea b)-\u003e(EventCookie-\u003ea b)-\u003ea b",
@@ -871,6 +943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns Nothing if XInput 2.0 is supported, or\n Just (major, minor) if another version is supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Functions",
           "name": "xinputCheckVersion",
           "package": "x11-xinput",
@@ -881,6 +954,7 @@
         "index": {
           "description": "Returns Nothing if XInput is supported or Just major minor if another version is supported",
           "hierarchy": "Graphics X11 XInput Functions",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Functions",
           "name": "xinputCheckVersion",
           "normalized": "Display-\u003eIO(Maybe(Int,Int))",
@@ -897,6 +971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize XInput 2.0 extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Functions",
           "name": "xinputInit",
           "package": "x11-xinput",
@@ -907,6 +982,7 @@
         "index": {
           "description": "Initialize XInput extension",
           "hierarchy": "Graphics X11 XInput Functions",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Functions",
           "name": "xinputInit",
           "normalized": "Display-\u003eIO XInputInitResult",
@@ -923,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions of this module perform parsing of XInput events structures. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "Parser",
           "package": "x11-xinput",
@@ -932,6 +1009,7 @@
         "index": {
           "description": "Functions of this module perform parsing of XInput events structures",
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "Parser",
           "package": "x11-xinput",
@@ -945,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "Struct",
           "package": "x11-xinput",
@@ -953,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "Struct",
           "package": "x11-xinput",
@@ -966,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "checkByte",
           "package": "x11-xinput",
@@ -975,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "checkByte",
           "normalized": "CUChar-\u003e[Int]",
@@ -990,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "getXGenericEventCookie",
           "package": "x11-xinput",
@@ -999,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "getXGenericEventCookie",
           "normalized": "XEventPtr-\u003eIO EventCookie",
@@ -1014,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "get_event_extension",
           "package": "x11-xinput",
@@ -1023,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "get_event_extension",
           "normalized": "XEventPtr-\u003eIO Opcode",
@@ -1037,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "get_event_type",
           "package": "x11-xinput",
@@ -1046,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "get_event_type",
           "normalized": "XEventPtr-\u003eIO EventType",
@@ -1060,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "packMask",
           "package": "x11-xinput",
@@ -1069,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "packMask",
           "normalized": "[Int]-\u003eKeyMask",
@@ -1084,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "parseMask",
           "package": "x11-xinput",
@@ -1093,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "parseMask",
           "normalized": "Mask-\u003e[Int]",
@@ -1108,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekButtonClass",
           "package": "x11-xinput",
@@ -1117,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekButtonClass",
           "normalized": "GDeviceClassPtr-\u003eIO DeviceClass",
@@ -1132,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekClasses",
           "package": "x11-xinput",
@@ -1141,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekClasses",
           "normalized": "Int-\u003ePtr a-\u003eIO[GDeviceClass]",
@@ -1156,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekEventSpecific",
           "package": "x11-xinput",
@@ -1165,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekEventSpecific",
           "normalized": "EventType-\u003ePtr a-\u003eIO EventSpecific",
@@ -1180,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekKeyClass",
           "package": "x11-xinput",
@@ -1189,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekKeyClass",
           "normalized": "GDeviceClassPtr-\u003eIO DeviceClass",
@@ -1204,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekMask",
           "package": "x11-xinput",
@@ -1213,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekMask",
           "normalized": "(Ptr a-\u003eIO CInt)-\u003e(Ptr a-\u003eIO(Ptr CUChar))-\u003ePtr a-\u003eIO[Int]",
@@ -1228,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekPointerEvent",
           "package": "x11-xinput",
@@ -1237,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekPointerEvent",
           "normalized": "EventType-\u003ePtr a-\u003eIO PointerEvent",
@@ -1252,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekRawEvent",
           "package": "x11-xinput",
@@ -1261,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekRawEvent",
           "normalized": "EventType-\u003ePtr a-\u003eIO PointerEvent",
@@ -1276,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekStruct",
           "package": "x11-xinput",
@@ -1285,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekStruct",
           "normalized": "Pointer a-\u003eIO a",
@@ -1300,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekValuatorClass",
           "package": "x11-xinput",
@@ -1309,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "peekValuatorClass",
           "normalized": "GDeviceClassPtr-\u003eIO DeviceClass",
@@ -1324,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Parser",
           "name": "trace",
           "package": "x11-xinput",
@@ -1333,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Parser",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Parser",
           "name": "trace",
           "normalized": "String-\u003eIO a-\u003eIO a",
@@ -1348,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains declarations of used XInput event structures.\nSee XInput2.h for more info.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "Types",
           "package": "x11-xinput",
@@ -1357,6 +1470,7 @@
         "index": {
           "description": "This module contains declarations of used XInput event structures See XInput2.h for more info",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "Types",
           "package": "x11-xinput",
@@ -1370,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ButtonState",
           "package": "x11-xinput",
@@ -1378,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ButtonState",
           "package": "x11-xinput",
@@ -1391,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ButtonStatePtr",
           "package": "x11-xinput",
@@ -1399,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ButtonStatePtr",
           "package": "x11-xinput",
@@ -1413,6 +1531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice class specific info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceClass",
           "package": "x11-xinput",
@@ -1422,6 +1541,7 @@
         "index": {
           "description": "Device class specific info",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceClass",
           "package": "x11-xinput",
@@ -1436,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of device class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceClassType",
           "package": "x11-xinput",
@@ -1445,6 +1566,7 @@
         "index": {
           "description": "Type of device class",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceClassType",
           "package": "x11-xinput",
@@ -1458,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceID",
           "package": "x11-xinput",
@@ -1466,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceID",
           "package": "x11-xinput",
@@ -1480,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceInfo",
           "package": "x11-xinput",
@@ -1489,6 +1614,7 @@
         "index": {
           "description": "Device info",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceInfo",
           "package": "x11-xinput",
@@ -1502,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceInfoPtr",
           "package": "x11-xinput",
@@ -1510,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceInfoPtr",
           "package": "x11-xinput",
@@ -1523,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceType",
           "package": "x11-xinput",
@@ -1531,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceType",
           "package": "x11-xinput",
@@ -1545,6 +1675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXInput events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "Event",
           "package": "x11-xinput",
@@ -1554,6 +1685,7 @@
         "index": {
           "description": "XInput events",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "Event",
           "package": "x11-xinput",
@@ -1568,6 +1700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for X11 cookie events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventCookie",
           "package": "x11-xinput",
@@ -1577,6 +1710,7 @@
         "index": {
           "description": "Type for X11 cookie events",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventCookie",
           "package": "x11-xinput",
@@ -1590,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventCookiePtr",
           "package": "x11-xinput",
@@ -1598,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventCookiePtr",
           "package": "x11-xinput",
@@ -1611,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventMask",
           "package": "x11-xinput",
@@ -1619,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventMask",
           "package": "x11-xinput",
@@ -1632,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventMaskPtr",
           "package": "x11-xinput",
@@ -1640,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventMaskPtr",
           "package": "x11-xinput",
@@ -1653,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventPtr",
           "package": "x11-xinput",
@@ -1661,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventPtr",
           "package": "x11-xinput",
@@ -1675,6 +1817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent-specific info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventSpecific",
           "package": "x11-xinput",
@@ -1684,6 +1827,7 @@
         "index": {
           "description": "Event-specific info",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventSpecific",
           "package": "x11-xinput",
@@ -1698,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXInput event type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventType",
           "package": "x11-xinput",
@@ -1707,6 +1852,7 @@
         "index": {
           "description": "XInput event type",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventType",
           "package": "x11-xinput",
@@ -1721,6 +1867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny device class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "GDeviceClass",
           "package": "x11-xinput",
@@ -1730,6 +1877,7 @@
         "index": {
           "description": "Any device class",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "GDeviceClass",
           "package": "x11-xinput",
@@ -1743,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "GDeviceClassPtr",
           "package": "x11-xinput",
@@ -1751,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "GDeviceClassPtr",
           "package": "x11-xinput",
@@ -1764,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "GrabModifiers",
           "package": "x11-xinput",
@@ -1772,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "GrabModifiers",
           "package": "x11-xinput",
@@ -1785,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "GrabModifiersPtr",
           "package": "x11-xinput",
@@ -1793,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "GrabModifiersPtr",
           "package": "x11-xinput",
@@ -1806,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "GroupState",
           "package": "x11-xinput",
@@ -1814,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "GroupState",
           "package": "x11-xinput",
@@ -1827,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "Mask",
           "package": "x11-xinput",
@@ -1835,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "Mask",
           "package": "x11-xinput",
@@ -1848,6 +2006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ModifierState",
           "package": "x11-xinput",
@@ -1856,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ModifierState",
           "package": "x11-xinput",
@@ -1869,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ModifierStatePtr",
           "package": "x11-xinput",
@@ -1877,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ModifierStatePtr",
           "package": "x11-xinput",
@@ -1890,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "Opcode",
           "package": "x11-xinput",
@@ -1898,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "Opcode",
           "package": "x11-xinput",
@@ -1912,6 +2076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll pointer-related event details\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "PointerEvent",
           "package": "x11-xinput",
@@ -1921,6 +2086,7 @@
         "index": {
           "description": "All pointer-related event details",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "PointerEvent",
           "package": "x11-xinput",
@@ -1934,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "SelectDevices",
           "package": "x11-xinput",
@@ -1942,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "SelectDevices",
           "package": "x11-xinput",
@@ -1955,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ValuatorState",
           "package": "x11-xinput",
@@ -1963,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ValuatorState",
           "package": "x11-xinput",
@@ -1976,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ValuatorStatePtr",
           "package": "x11-xinput",
@@ -1984,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ValuatorStatePtr",
           "package": "x11-xinput",
@@ -1998,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXInput initialization result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XInputInitResult",
           "package": "x11-xinput",
@@ -2007,6 +2180,7 @@
         "index": {
           "description": "XInput initialization result",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XInputInitResult",
           "package": "x11-xinput",
@@ -2020,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ButtonClass",
           "package": "x11-xinput",
@@ -2029,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ButtonClass",
           "package": "x11-xinput",
@@ -2042,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ButtonState",
           "package": "x11-xinput",
@@ -2051,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ButtonState",
           "package": "x11-xinput",
@@ -2064,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceChangedEvent",
           "package": "x11-xinput",
@@ -2073,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceChangedEvent",
           "package": "x11-xinput",
@@ -2087,6 +2267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice event, such as button press\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceEvent",
           "package": "x11-xinput",
@@ -2097,6 +2278,7 @@
         "index": {
           "description": "Device event such as button press",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceEvent",
           "package": "x11-xinput",
@@ -2110,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceInfo",
           "package": "x11-xinput",
@@ -2119,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "DeviceInfo",
           "package": "x11-xinput",
@@ -2133,6 +2317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXIEnterEvent or XILeaveEvent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "EnterLeaveEvent",
           "package": "x11-xinput",
@@ -2143,6 +2328,7 @@
         "index": {
           "description": "XIEnterEvent or XILeaveEvent",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "EnterLeaveEvent",
           "package": "x11-xinput",
@@ -2156,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "Event",
           "package": "x11-xinput",
@@ -2165,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "Event",
           "package": "x11-xinput",
@@ -2178,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventCookie",
           "package": "x11-xinput",
@@ -2187,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventCookie",
           "package": "x11-xinput",
@@ -2200,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventMask",
           "package": "x11-xinput",
@@ -2209,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "EventMask",
           "package": "x11-xinput",
@@ -2222,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "GDeviceClass",
           "package": "x11-xinput",
@@ -2231,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "GDeviceClass",
           "package": "x11-xinput",
@@ -2245,6 +2439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral constructor for all pointer-related events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "GPointerEvent",
           "package": "x11-xinput",
@@ -2255,6 +2450,7 @@
         "index": {
           "description": "General constructor for all pointer-related events",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "GPointerEvent",
           "package": "x11-xinput",
@@ -2268,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "GrabModifiers",
           "package": "x11-xinput",
@@ -2277,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "GrabModifiers",
           "package": "x11-xinput",
@@ -2291,6 +2489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXInput 2.0 is supported, return xi_opcode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "InitOK",
           "package": "x11-xinput",
@@ -2301,6 +2500,7 @@
         "index": {
           "description": "XInput is supported return xi opcode",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "InitOK",
           "package": "x11-xinput",
@@ -2314,6 +2514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "KeyClass",
           "package": "x11-xinput",
@@ -2323,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "KeyClass",
           "package": "x11-xinput",
@@ -2336,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ModifierState",
           "package": "x11-xinput",
@@ -2345,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ModifierState",
           "package": "x11-xinput",
@@ -2359,6 +2563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtension is not supported at all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "NoXInput",
           "package": "x11-xinput",
@@ -2369,6 +2574,7 @@
         "index": {
           "description": "Extension is not supported at all",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "NoXInput",
           "package": "x11-xinput",
@@ -2382,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "OneDevice",
           "package": "x11-xinput",
@@ -2391,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "OneDevice",
           "package": "x11-xinput",
@@ -2404,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "PropertyEvent",
           "package": "x11-xinput",
@@ -2413,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "PropertyEvent",
           "package": "x11-xinput",
@@ -2426,6 +2636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "RawEvent",
           "package": "x11-xinput",
@@ -2435,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "RawEvent",
           "package": "x11-xinput",
@@ -2448,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "UnsupportedEvent",
           "package": "x11-xinput",
@@ -2457,6 +2670,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "UnsupportedEvent",
           "package": "x11-xinput",
@@ -2470,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ValuatorClass",
           "package": "x11-xinput",
@@ -2479,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ValuatorClass",
           "package": "x11-xinput",
@@ -2493,6 +2709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXInput 2.0 is not supported, but other version is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "VersionMismatch",
           "package": "x11-xinput",
@@ -2503,6 +2720,7 @@
         "index": {
           "description": "XInput is not supported but other version is",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "VersionMismatch",
           "package": "x11-xinput",
@@ -2516,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIAllDevices",
           "package": "x11-xinput",
@@ -2525,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIAllDevices",
           "package": "x11-xinput",
@@ -2538,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIAllMasterDevices",
           "package": "x11-xinput",
@@ -2547,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIAllMasterDevices",
           "package": "x11-xinput",
@@ -2560,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIButtonClass",
           "package": "x11-xinput",
@@ -2569,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIButtonClass",
           "package": "x11-xinput",
@@ -2582,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIFloatingSlave",
           "package": "x11-xinput",
@@ -2591,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIFloatingSlave",
           "package": "x11-xinput",
@@ -2604,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIKeyClass",
           "package": "x11-xinput",
@@ -2613,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIKeyClass",
           "package": "x11-xinput",
@@ -2626,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIMasterKeyboard",
           "package": "x11-xinput",
@@ -2635,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIMasterKeyboard",
           "package": "x11-xinput",
@@ -2648,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIMasterPointer",
           "package": "x11-xinput",
@@ -2657,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIMasterPointer",
           "package": "x11-xinput",
@@ -2670,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XISlaveKeyboard",
           "package": "x11-xinput",
@@ -2679,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XISlaveKeyboard",
           "package": "x11-xinput",
@@ -2692,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XISlavePointer",
           "package": "x11-xinput",
@@ -2701,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XISlavePointer",
           "package": "x11-xinput",
@@ -2714,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIValuatorClass",
           "package": "x11-xinput",
@@ -2723,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XIValuatorClass",
           "package": "x11-xinput",
@@ -2736,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_ButtonPress",
           "package": "x11-xinput",
@@ -2745,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_ButtonPress",
           "package": "x11-xinput",
@@ -2758,6 +2998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_ButtonRelease",
           "package": "x11-xinput",
@@ -2767,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_ButtonRelease",
           "package": "x11-xinput",
@@ -2780,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_DeviceChanged",
           "package": "x11-xinput",
@@ -2789,6 +3032,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_DeviceChanged",
           "package": "x11-xinput",
@@ -2802,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_Enter",
           "package": "x11-xinput",
@@ -2811,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_Enter",
           "package": "x11-xinput",
@@ -2824,6 +3070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_FocusIn",
           "package": "x11-xinput",
@@ -2833,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_FocusIn",
           "package": "x11-xinput",
@@ -2846,6 +3094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_FocusOut",
           "package": "x11-xinput",
@@ -2855,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_FocusOut",
           "package": "x11-xinput",
@@ -2868,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_HierarchyChanged",
           "package": "x11-xinput",
@@ -2877,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_HierarchyChanged",
           "package": "x11-xinput",
@@ -2890,6 +3142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_KeyPress",
           "package": "x11-xinput",
@@ -2899,6 +3152,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_KeyPress",
           "package": "x11-xinput",
@@ -2912,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_KeyRelease",
           "package": "x11-xinput",
@@ -2921,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_KeyRelease",
           "package": "x11-xinput",
@@ -2934,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_Leave",
           "package": "x11-xinput",
@@ -2943,6 +3200,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_Leave",
           "package": "x11-xinput",
@@ -2956,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_Motion",
           "package": "x11-xinput",
@@ -2965,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_Motion",
           "package": "x11-xinput",
@@ -2978,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_PropertyEvent",
           "package": "x11-xinput",
@@ -2987,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_PropertyEvent",
           "package": "x11-xinput",
@@ -3000,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_RawButtonPress",
           "package": "x11-xinput",
@@ -3009,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_RawButtonPress",
           "package": "x11-xinput",
@@ -3022,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_RawButtonRelease",
           "package": "x11-xinput",
@@ -3031,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_RawButtonRelease",
           "package": "x11-xinput",
@@ -3044,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_RawKeyPress",
           "package": "x11-xinput",
@@ -3053,6 +3320,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_RawKeyPress",
           "package": "x11-xinput",
@@ -3066,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_RawKeyRelease",
           "package": "x11-xinput",
@@ -3075,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_RawKeyRelease",
           "package": "x11-xinput",
@@ -3088,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_RawMotion",
           "package": "x11-xinput",
@@ -3097,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "XI_RawMotion",
           "package": "x11-xinput",
@@ -3110,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "bsMask",
           "package": "x11-xinput",
@@ -3119,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "bsMask",
           "normalized": "[Int]",
@@ -3134,6 +3408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcKeycodes",
           "package": "x11-xinput",
@@ -3143,6 +3418,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcKeycodes",
           "normalized": "[Int]",
@@ -3158,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcLabel",
           "package": "x11-xinput",
@@ -3167,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcLabel",
           "package": "x11-xinput",
@@ -3180,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcLabels",
           "package": "x11-xinput",
@@ -3189,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcLabels",
           "normalized": "[Atom]",
@@ -3204,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcMax",
           "package": "x11-xinput",
@@ -3213,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcMax",
           "package": "x11-xinput",
@@ -3226,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcMin",
           "package": "x11-xinput",
@@ -3235,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcMin",
           "package": "x11-xinput",
@@ -3248,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcMode",
           "package": "x11-xinput",
@@ -3257,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcMode",
           "package": "x11-xinput",
@@ -3270,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcNumButtons",
           "package": "x11-xinput",
@@ -3279,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcNumButtons",
           "package": "x11-xinput",
@@ -3292,6 +3580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcNumKeycodes",
           "package": "x11-xinput",
@@ -3301,6 +3590,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcNumKeycodes",
           "package": "x11-xinput",
@@ -3314,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcNumber",
           "package": "x11-xinput",
@@ -3323,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcNumber",
           "package": "x11-xinput",
@@ -3336,6 +3628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcResolution",
           "package": "x11-xinput",
@@ -3345,6 +3638,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcResolution",
           "package": "x11-xinput",
@@ -3358,6 +3652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcSourceId",
           "package": "x11-xinput",
@@ -3367,6 +3662,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcSourceId",
           "package": "x11-xinput",
@@ -3380,6 +3676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcSpecific",
           "package": "x11-xinput",
@@ -3389,6 +3686,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcSpecific",
           "package": "x11-xinput",
@@ -3402,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcState",
           "package": "x11-xinput",
@@ -3411,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcState",
           "package": "x11-xinput",
@@ -3424,6 +3724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcType",
           "package": "x11-xinput",
@@ -3433,6 +3734,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcType",
           "package": "x11-xinput",
@@ -3446,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcValue",
           "package": "x11-xinput",
@@ -3455,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dcValue",
           "package": "x11-xinput",
@@ -3468,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dceClasses",
           "package": "x11-xinput",
@@ -3477,6 +3782,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dceClasses",
           "normalized": "[GDeviceClass]",
@@ -3492,6 +3798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "dceReason",
           "package": "x11-xinput",
@@ -3501,6 +3808,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "dceReason",
           "package": "x11-xinput",
@@ -3514,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "deFlags",
           "package": "x11-xinput",
@@ -3523,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "deFlags",
           "package": "x11-xinput",
@@ -3536,6 +3846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "deType",
           "package": "x11-xinput",
@@ -3545,6 +3856,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "deType",
           "package": "x11-xinput",
@@ -3558,6 +3870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "deValuators",
           "package": "x11-xinput",
@@ -3567,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "deValuators",
           "package": "x11-xinput",
@@ -3580,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "deviceType2int",
           "package": "x11-xinput",
@@ -3589,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "deviceType2int",
           "normalized": "DeviceType-\u003eCInt",
@@ -3605,6 +3921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier of device this device is attached to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "diAttachment",
           "package": "x11-xinput",
@@ -3615,6 +3932,7 @@
         "index": {
           "description": "Identifier of device this device is attached to",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "diAttachment",
           "package": "x11-xinput",
@@ -3629,6 +3947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice classes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "diClasses",
           "package": "x11-xinput",
@@ -3639,6 +3958,7 @@
         "index": {
           "description": "Device classes",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "diClasses",
           "normalized": "[GDeviceClass]",
@@ -3654,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "diEnabled",
           "package": "x11-xinput",
@@ -3663,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "diEnabled",
           "package": "x11-xinput",
@@ -3677,6 +3999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "diID",
           "package": "x11-xinput",
@@ -3687,6 +4010,7 @@
         "index": {
           "description": "Device identifier",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "diID",
           "package": "x11-xinput",
@@ -3701,6 +4025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "diName",
           "package": "x11-xinput",
@@ -3711,6 +4036,7 @@
         "index": {
           "description": "Device name",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "diName",
           "package": "x11-xinput",
@@ -3725,6 +4051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice type: master or slave\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "diUse",
           "package": "x11-xinput",
@@ -3735,6 +4062,7 @@
         "index": {
           "description": "Device type master or slave",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "diUse",
           "package": "x11-xinput",
@@ -3748,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "display2ptr",
           "package": "x11-xinput",
@@ -3757,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "display2ptr",
           "normalized": "Display-\u003ePtr()",
@@ -3772,6 +4102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "eDeviceId",
           "package": "x11-xinput",
@@ -3782,6 +4113,7 @@
         "index": {
           "description": "Device identifier",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "eDeviceId",
           "package": "x11-xinput",
@@ -3795,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "eDisplay",
           "package": "x11-xinput",
@@ -3804,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "eDisplay",
           "package": "x11-xinput",
@@ -3818,6 +4152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eX11 extension identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "eExtension",
           "package": "x11-xinput",
@@ -3828,6 +4163,7 @@
         "index": {
           "description": "X11 extension identifier",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "eExtension",
           "package": "x11-xinput",
@@ -3842,6 +4178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if event was sent by SendEvent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "eSendEvent",
           "package": "x11-xinput",
@@ -3852,6 +4189,7 @@
         "index": {
           "description": "True if event was sent by SendEvent",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "eSendEvent",
           "package": "x11-xinput",
@@ -3866,6 +4204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent-specific data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "eSpecific",
           "package": "x11-xinput",
@@ -3876,6 +4215,7 @@
         "index": {
           "description": "Event-specific data",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "eSpecific",
           "package": "x11-xinput",
@@ -3890,6 +4230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "eType",
           "package": "x11-xinput",
@@ -3900,6 +4241,7 @@
         "index": {
           "description": "Event type",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "eType",
           "package": "x11-xinput",
@@ -3913,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ecCookie",
           "package": "x11-xinput",
@@ -3922,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ecCookie",
           "package": "x11-xinput",
@@ -3936,6 +4280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXInput event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ecData",
           "package": "x11-xinput",
@@ -3946,6 +4291,7 @@
         "index": {
           "description": "XInput event",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ecData",
           "package": "x11-xinput",
@@ -3960,6 +4306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsual X11 event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ecEvent",
           "package": "x11-xinput",
@@ -3970,6 +4317,7 @@
         "index": {
           "description": "Usual X11 event",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ecEvent",
           "package": "x11-xinput",
@@ -3984,6 +4332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eX11 extension identifier \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ecExtension",
           "package": "x11-xinput",
@@ -3994,6 +4343,7 @@
         "index": {
           "description": "X11 extension identifier",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ecExtension",
           "package": "x11-xinput",
@@ -4008,6 +4358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ecType",
           "package": "x11-xinput",
@@ -4018,6 +4369,7 @@
         "index": {
           "description": "Event type",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ecType",
           "package": "x11-xinput",
@@ -4031,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "eeFocus",
           "package": "x11-xinput",
@@ -4040,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "eeFocus",
           "package": "x11-xinput",
@@ -4053,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "eeMode",
           "package": "x11-xinput",
@@ -4062,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "eeMode",
           "package": "x11-xinput",
@@ -4075,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "eeSameScreen",
           "package": "x11-xinput",
@@ -4084,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "eeSameScreen",
           "package": "x11-xinput",
@@ -4097,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "emDeviceID",
           "package": "x11-xinput",
@@ -4106,6 +4465,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "emDeviceID",
           "package": "x11-xinput",
@@ -4119,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "emMask",
           "package": "x11-xinput",
@@ -4128,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "emMask",
           "normalized": "[Int]",
@@ -4143,6 +4505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "eventType2int",
           "package": "x11-xinput",
@@ -4152,6 +4515,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "eventType2int",
           "normalized": "EventType-\u003ea",
@@ -4167,6 +4531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "fromBool",
           "package": "x11-xinput",
@@ -4176,6 +4541,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "fromBool",
           "normalized": "Bool-\u003ea",
@@ -4191,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "gModifiers",
           "package": "x11-xinput",
@@ -4200,6 +4567,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "gModifiers",
           "package": "x11-xinput",
@@ -4213,6 +4581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "gStatus",
           "package": "x11-xinput",
@@ -4222,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "gStatus",
           "package": "x11-xinput",
@@ -4235,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "genericEvent",
           "package": "x11-xinput",
@@ -4244,6 +4615,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "genericEvent",
           "package": "x11-xinput",
@@ -4257,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "int2deviceType",
           "package": "x11-xinput",
@@ -4266,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "int2deviceType",
           "normalized": "CInt-\u003eDeviceType",
@@ -4281,6 +4655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "int2eventType",
           "package": "x11-xinput",
@@ -4290,6 +4665,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "int2eventType",
           "normalized": "a-\u003eEventType",
@@ -4305,6 +4681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "keymask2grabModifiers",
           "package": "x11-xinput",
@@ -4314,6 +4691,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "keymask2grabModifiers",
           "normalized": "KeyMask-\u003eGrabModifiers",
@@ -4329,6 +4707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "msBase",
           "package": "x11-xinput",
@@ -4338,6 +4717,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "msBase",
           "package": "x11-xinput",
@@ -4351,6 +4731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "msEffective",
           "package": "x11-xinput",
@@ -4360,6 +4741,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "msEffective",
           "package": "x11-xinput",
@@ -4373,6 +4755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "msLatched",
           "package": "x11-xinput",
@@ -4382,6 +4765,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "msLatched",
           "package": "x11-xinput",
@@ -4395,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "msLocked",
           "package": "x11-xinput",
@@ -4404,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "msLocked",
           "package": "x11-xinput",
@@ -4417,6 +4803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peButtons",
           "package": "x11-xinput",
@@ -4426,6 +4813,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peButtons",
           "package": "x11-xinput",
@@ -4440,6 +4828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChild window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peChild",
           "package": "x11-xinput",
@@ -4450,6 +4839,7 @@
         "index": {
           "description": "Child window",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peChild",
           "package": "x11-xinput",
@@ -4464,6 +4854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetailed info; for example, button number or keycode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peDetail",
           "package": "x11-xinput",
@@ -4474,6 +4865,7 @@
         "index": {
           "description": "Detailed info for example button number or keycode",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peDetail",
           "package": "x11-xinput",
@@ -4488,6 +4880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peEvent",
           "package": "x11-xinput",
@@ -4498,6 +4891,7 @@
         "index": {
           "description": "Event window",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peEvent",
           "package": "x11-xinput",
@@ -4511,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peEventX",
           "package": "x11-xinput",
@@ -4520,6 +4915,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peEventX",
           "package": "x11-xinput",
@@ -4533,6 +4929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peEventY",
           "package": "x11-xinput",
@@ -4542,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peEventY",
           "package": "x11-xinput",
@@ -4555,6 +4953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peGroup",
           "package": "x11-xinput",
@@ -4564,6 +4963,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peGroup",
           "package": "x11-xinput",
@@ -4577,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peMods",
           "package": "x11-xinput",
@@ -4586,6 +4987,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peMods",
           "package": "x11-xinput",
@@ -4599,6 +5001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peProperty",
           "package": "x11-xinput",
@@ -4608,6 +5011,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peProperty",
           "package": "x11-xinput",
@@ -4622,6 +5026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoot window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peRoot",
           "package": "x11-xinput",
@@ -4632,6 +5037,7 @@
         "index": {
           "description": "Root window",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peRoot",
           "package": "x11-xinput",
@@ -4645,6 +5051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peRootX",
           "package": "x11-xinput",
@@ -4654,6 +5061,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peRootX",
           "package": "x11-xinput",
@@ -4667,6 +5075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peRootY",
           "package": "x11-xinput",
@@ -4676,6 +5085,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peRootY",
           "package": "x11-xinput",
@@ -4690,6 +5100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource device identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peSourceId",
           "package": "x11-xinput",
@@ -4700,6 +5111,7 @@
         "index": {
           "description": "Source device identifier",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peSourceId",
           "package": "x11-xinput",
@@ -4714,6 +5126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent-specific\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peSpecific",
           "package": "x11-xinput",
@@ -4724,6 +5137,7 @@
         "index": {
           "description": "Event-specific",
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peSpecific",
           "package": "x11-xinput",
@@ -4737,6 +5151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "peWhat",
           "package": "x11-xinput",
@@ -4746,6 +5161,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "peWhat",
           "package": "x11-xinput",
@@ -4759,6 +5175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "ptr2display",
           "package": "x11-xinput",
@@ -4768,6 +5185,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "ptr2display",
           "normalized": "Ptr()-\u003eDisplay",
@@ -4782,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "reFlags",
           "package": "x11-xinput",
@@ -4791,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "reFlags",
           "package": "x11-xinput",
@@ -4804,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "reType",
           "package": "x11-xinput",
@@ -4813,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "reType",
           "package": "x11-xinput",
@@ -4826,6 +5248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "reValuators",
           "package": "x11-xinput",
@@ -4835,6 +5258,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "reValuators",
           "package": "x11-xinput",
@@ -4848,6 +5272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "selectDevices",
           "package": "x11-xinput",
@@ -4857,6 +5282,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "selectDevices",
           "normalized": "SelectDevices-\u003eCInt",
@@ -4872,6 +5298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "toBool",
           "package": "x11-xinput",
@@ -4881,6 +5308,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "toBool",
           "normalized": "a-\u003eBool",
@@ -4896,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput.Types",
           "name": "xiAnyModifier",
           "package": "x11-xinput",
@@ -4905,6 +5334,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput Types",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput.Types",
           "name": "xiAnyModifier",
           "package": "x11-xinput",
@@ -4918,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:45 UTC 2014",
           "module": "Graphics.X11.XInput",
           "name": "XInput",
           "package": "x11-xinput",
@@ -4926,6 +5357,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XInput",
+          "indexed": "2014-03-11T20:40:45",
           "module": "Graphics.X11.XInput",
           "name": "XInput",
           "package": "x11-xinput",

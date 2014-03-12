@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "control-monad-queue"
+        "phrase": "control-monad-queue",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library implementation of corecursive queues,  see\n \u003cem\u003eCircular Programs and Self-Referential Structures\u003c/em\u003e by Lloyd Allison,\n \u003cem\u003eSoftware Practice and Experience\u003c/em\u003e, 19(2), pp.99-109, Feb 1989\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.csse.monash.edu.au/~lloyd/tildeFP/1989SPE/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eFor an explanation of the library implementation, see\n \u003cem\u003eLloyd Allison's Corecursive Queues:  Why Continuations Matter\u003c/em\u003e\n by Leon P Smith,  in \u003cem\u003eThe Monad Reader\u003c/em\u003e, Issue 14, Jul 2009.   This library\n corresponds to \u003ccode\u003eCorecQ\u003c/code\u003e in that paper.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://themonadreader.files.wordpress.com/2009/07/issue142.pdf\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "Allison",
           "package": "control-monad-queue",
@@ -28,6 +29,7 @@
         "index": {
           "description": "library implementation of corecursive queues see Circular Programs and Self-Referential Structures by Lloyd Allison Software Practice and Experience pp.99-109 Feb http www.csse.monash.edu.au lloyd tildeFP SPE For an explanation of the library implementation see Lloyd Allison Corecursive Queues Why Continuations Matter by Leon Smith in The Monad Reader Issue Jul This library corresponds to CorecQ in that paper http themonadreader.files.wordpress.com issue142.pdf",
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "Allison",
           "package": "control-monad-queue",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "LenType",
           "package": "control-monad-queue",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "LenType",
           "package": "control-monad-queue",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "Q",
           "package": "control-monad-queue",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "Q",
           "package": "control-monad-queue",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "callCC",
           "package": "control-monad-queue",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "callCC",
           "normalized": "((a-\u003eb c Q d e)-\u003eQ d a)-\u003eQ d a",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDequeues an element,  returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the queue is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "deQ",
           "package": "control-monad-queue",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Dequeues an element returns Nothing if the queue is empty",
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "deQ",
           "package": "control-monad-queue",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDequeues an element:  terminates the queue computation if the queue is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "deQ_break",
           "package": "control-monad-queue",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Dequeues an element terminates the queue computation if the queue is empty",
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "deQ_break",
           "package": "control-monad-queue",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDequeues up to \u003ccode\u003elen\u003c/code\u003e elements from the queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "deQs",
           "package": "control-monad-queue",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Dequeues up to len elements from the queue",
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "deQs",
           "normalized": "a-\u003eQ b[b]",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnqueues an element to the queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "enQ",
           "package": "control-monad-queue",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Enqueues an element to the queue",
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "enQ",
           "normalized": "a-\u003eQ a()",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerminates the queue computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "exit",
           "package": "control-monad-queue",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Terminates the queue computation",
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "exit",
           "package": "control-monad-queue",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the length of the queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "lenQ",
           "package": "control-monad-queue",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Returns the length of the queue",
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "lenQ",
           "package": "control-monad-queue",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the length of the queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "lenQ_",
           "package": "control-monad-queue",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Returns the length of the queue",
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "lenQ_",
           "package": "control-monad-queue",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamines the front element of the queue without removing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "peekQ",
           "package": "control-monad-queue",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Examines the front element of the queue without removing it",
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "peekQ",
           "package": "control-monad-queue",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamines the element currently at position \u003ccode\u003eindex\u003c/code\u003e in the queue, indexing starts with \u003ccode\u003e0\u003c/code\u003e,  like \u003ccode\u003e\u003ca\u003e!!\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "peekQn",
           "package": "control-monad-queue",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Examines the element currently at position index in the queue indexing starts with like",
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "peekQn",
           "normalized": "a-\u003eQ b(Maybe b)",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamines up to \u003ccode\u003emaxlen\u003c/code\u003e elements of the queue without removing them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "peekQs",
           "package": "control-monad-queue",
@@ -332,6 +359,7 @@
         "index": {
           "description": "Examines up to maxlen elements of the queue without removing them",
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "peekQs",
           "normalized": "a-\u003eQ b[b]",
@@ -348,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all elements enqueued during the queue computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Allison",
           "name": "runQueue",
           "package": "control-monad-queue",
@@ -358,6 +387,7 @@
         "index": {
           "description": "Returns list of all elements enqueued during the queue computation",
           "hierarchy": "Control Monad Queue Allison",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Allison",
           "name": "runQueue",
           "normalized": "Q a b-\u003e[a]",
@@ -373,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "Class",
           "package": "control-monad-queue",
@@ -381,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Class",
           "name": "Class",
           "package": "control-monad-queue",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "MonadQueue",
           "package": "control-monad-queue",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Class",
           "name": "MonadQueue",
           "package": "control-monad-queue",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDequeue an element,  returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the queue is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "deQ",
           "package": "control-monad-queue",
@@ -426,6 +461,7 @@
         "index": {
           "description": "Dequeue an element returns Nothing if the queue is empty",
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Class",
           "name": "deQ",
           "package": "control-monad-queue",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDequeue up to \u003ccode\u003emaxlen\u003c/code\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "deQs",
           "package": "control-monad-queue",
@@ -449,6 +486,7 @@
         "index": {
           "description": "Dequeue up to maxlen elements",
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Class",
           "name": "deQs",
           "normalized": "a-\u003eb[c]",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnqueue an element to a queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "enQ",
           "package": "control-monad-queue",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Enqueue an element to queue",
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Class",
           "name": "enQ",
           "normalized": "a-\u003eb()",
@@ -490,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current length of the queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "lenQ",
           "package": "control-monad-queue",
@@ -500,6 +541,7 @@
         "index": {
           "description": "Returns the current length of the queue",
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Class",
           "name": "lenQ",
           "package": "control-monad-queue",
@@ -513,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamines the front element of the queue without removing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "peekQ",
           "package": "control-monad-queue",
@@ -523,6 +566,7 @@
         "index": {
           "description": "Examines the front element of the queue without removing it",
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Class",
           "name": "peekQ",
           "package": "control-monad-queue",
@@ -536,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamines the element currently at position \u003ccode\u003eindex\u003c/code\u003e,  indexing starts at \u003ccode\u003e0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "peekQn",
           "package": "control-monad-queue",
@@ -546,6 +591,7 @@
         "index": {
           "description": "Examines the element currently at position index indexing starts at",
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Class",
           "name": "peekQn",
           "normalized": "a-\u003eb(Maybe c)",
@@ -562,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamines up to \u003ccode\u003emaxlen\u003c/code\u003e elements of the queue without removing them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "peekQs",
           "package": "control-monad-queue",
@@ -572,6 +619,7 @@
         "index": {
           "description": "Examines up to maxlen elements of the queue without removing them",
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Class",
           "name": "peekQs",
           "normalized": "a-\u003eb[c]",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCorecursive queues with return values.  This is a straightforward\n generalization of Control.Monad.Queue.Allison.   It corresponds to\n \u003ccode\u003eCorecQW\u003c/code\u003e in the paper\n \u003cem\u003eLloyd Allison's Corecursive Queues:  Why Continuations Matter\u003c/em\u003e by\n Leon P Smith in the Monad Reader issue 14.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "Corec",
           "package": "control-monad-queue",
@@ -597,6 +646,7 @@
         "index": {
           "description": "Corecursive queues with return values This is straightforward generalization of Control.Monad.Queue.Allison It corresponds to CorecQW in the paper Lloyd Allison Corecursive Queues Why Continuations Matter by Leon Smith in the Monad Reader issue",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "Corec",
           "package": "control-monad-queue",
@@ -610,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "LenType",
           "package": "control-monad-queue",
@@ -618,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "LenType",
           "package": "control-monad-queue",
@@ -631,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "Q",
           "package": "control-monad-queue",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "Q",
           "package": "control-monad-queue",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "callCC",
           "package": "control-monad-queue",
@@ -660,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "callCC",
           "normalized": "((a-\u003eb c Q d e f)-\u003eQ d e a)-\u003eQ d e a",
@@ -676,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDequeues and element:  returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the queue is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "deQ",
           "package": "control-monad-queue",
@@ -686,6 +743,7 @@
         "index": {
           "description": "Dequeues and element returns Nothing if the queue is empty",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "deQ",
           "package": "control-monad-queue",
@@ -699,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDequeues an element:  terminates the computation with the final result \u003ccode\u003ew\u003c/code\u003e if the queue is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "deQ_break",
           "package": "control-monad-queue",
@@ -709,6 +768,7 @@
         "index": {
           "description": "Dequeues an element terminates the computation with the final result if the queue is empty",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "deQ_break",
           "normalized": "a-\u003eQ a b b",
@@ -724,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDequeues up to \u003ccode\u003elen\u003c/code\u003e elements from the queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "deQs",
           "package": "control-monad-queue",
@@ -734,6 +795,7 @@
         "index": {
           "description": "Dequeues up to len elements from the queue",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "deQs",
           "normalized": "a-\u003eQ b c[c]",
@@ -750,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnqueues an element to the queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "enQ",
           "package": "control-monad-queue",
@@ -760,6 +823,7 @@
         "index": {
           "description": "Enqueues an element to the queue",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "enQ",
           "normalized": "a-\u003eQ b a()",
@@ -775,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerminates the queue computation with result \u003ccode\u003ew\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "exit",
           "package": "control-monad-queue",
@@ -785,6 +850,7 @@
         "index": {
           "description": "Terminates the queue computation with result",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "exit",
           "normalized": "a-\u003eQ a b c",
@@ -800,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the length of the queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "lenQ",
           "package": "control-monad-queue",
@@ -810,6 +877,7 @@
         "index": {
           "description": "Returns the length of the queue",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "lenQ",
           "package": "control-monad-queue",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the length of the queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "lenQ_",
           "package": "control-monad-queue",
@@ -833,6 +902,7 @@
         "index": {
           "description": "Returns the length of the queue",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "lenQ_",
           "package": "control-monad-queue",
@@ -846,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to the final return value of the entire computation,  like \u003ccode\u003eControl.Monad.Cont.mapCont\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "mapQ",
           "package": "control-monad-queue",
@@ -856,6 +927,7 @@
         "index": {
           "description": "Applies function to the final return value of the entire computation like Control.Monad.Cont.mapCont",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "mapQ",
           "normalized": "(a-\u003ea)-\u003eQ a b c-\u003eQ a b c",
@@ -871,6 +943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamines the front element of the queue without removing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "peekQ",
           "package": "control-monad-queue",
@@ -881,6 +954,7 @@
         "index": {
           "description": "Examines the front element of the queue without removing it",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "peekQ",
           "package": "control-monad-queue",
@@ -894,6 +968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamines the element currently at position \u003ccode\u003eindex\u003c/code\u003e in the queue,  indexing starts from \u003ccode\u003e0\u003c/code\u003e, like \u003ccode\u003e\u003ca\u003e!!\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "peekQn",
           "package": "control-monad-queue",
@@ -904,6 +979,7 @@
         "index": {
           "description": "Examines the element currently at position index in the queue indexing starts from like",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "peekQn",
           "normalized": "a-\u003eQ b c(Maybe c)",
@@ -920,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooks at up to the first \u003ccode\u003elen\u003c/code\u003e elements of the queue,  like \u003ccode\u003e\u003ca\u003edeQs\u003c/a\u003e\u003c/code\u003e except without removing them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "peekQs",
           "package": "control-monad-queue",
@@ -930,6 +1007,7 @@
         "index": {
           "description": "Looks at up to the first len elements of the queue like deQs except without removing them",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "peekQs",
           "normalized": "a-\u003eQ b c[c]",
@@ -946,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the computation,  returns a list of all elements enqueued\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "runQueue",
           "package": "control-monad-queue",
@@ -956,6 +1035,7 @@
         "index": {
           "description": "Runs the computation returns list of all elements enqueued",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "runQueue",
           "normalized": "Q a b a-\u003e[b]",
@@ -972,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the computation,  returns the result of the computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "runResult",
           "package": "control-monad-queue",
@@ -982,6 +1063,7 @@
         "index": {
           "description": "Runs the computation returns the result of the computation",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "runResult",
           "normalized": "Q a b a-\u003ea",
@@ -998,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the computation,  returns the result of the computation and a list of all elements enqueued\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "runResultQueue",
           "package": "control-monad-queue",
@@ -1008,6 +1091,7 @@
         "index": {
           "description": "Runs the computation returns the result of the computation and list of all elements enqueued",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "runResultQueue",
           "normalized": "Q a b a-\u003e(a,[b])",
@@ -1024,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes a fixpoint on the result;  usually used in conjunction with \u003ccode\u003emapQ\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:31 UTC 2014",
           "module": "Control.Monad.Queue.Corec",
           "name": "wfix",
           "package": "control-monad-queue",
@@ -1034,6 +1119,7 @@
         "index": {
           "description": "Computes fixpoint on the result usually used in conjunction with mapQ",
           "hierarchy": "Control Monad Queue Corec",
+          "indexed": "2014-03-11T17:40:31",
           "module": "Control.Monad.Queue.Corec",
           "name": "wfix",
           "normalized": "(a-\u003eQ a b c)-\u003eQ a b c",

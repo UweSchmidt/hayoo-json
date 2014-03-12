@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alsa-seq"
+        "phrase": "alsa-seq",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "Address",
           "package": "alsa-seq",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Address",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "Address",
           "package": "alsa-seq",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "T",
           "package": "alsa-seq",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Address",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "T",
           "package": "alsa-seq",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "Cons",
           "package": "alsa-seq",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Address",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "Cons",
           "package": "alsa-seq",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "broadcast",
           "package": "alsa-seq",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Address",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "broadcast",
           "package": "alsa-seq",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "client",
           "package": "alsa-seq",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Address",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "client",
           "package": "alsa-seq",
@@ -124,6 +134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the given string into sequencer address.\nThe client and port are separated by either colon or period, e.g. 128:1.\nThe function also accepts client names or prefixes thereof.\nThrows \u003ccode\u003e(Errno 2)\u003c/code\u003e exception if no client name matches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "parse",
           "package": "alsa-seq",
@@ -133,6 +144,7 @@
         "index": {
           "description": "Parse the given string into sequencer address The client and port are separated by either colon or period e.g The function also accepts client names or prefixes thereof Throws Errno exception if no client name matches",
           "hierarchy": "Sound ALSA Sequencer Address",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "parse",
           "normalized": "T a-\u003eString-\u003eIO T",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "port",
           "package": "alsa-seq",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Address",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "port",
           "package": "alsa-seq",
@@ -169,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe address of all subscribed ports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "subscribers",
           "package": "alsa-seq",
@@ -179,6 +194,7 @@
         "index": {
           "description": "The address of all subscribed ports",
           "hierarchy": "Sound ALSA Sequencer Address",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "subscribers",
           "package": "alsa-seq",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "systemAnnounce",
           "package": "alsa-seq",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Address",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "systemAnnounce",
           "package": "alsa-seq",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "systemTimer",
           "package": "alsa-seq",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Address",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "systemTimer",
           "package": "alsa-seq",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "unknown",
           "package": "alsa-seq",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Address",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Address",
           "name": "unknown",
           "package": "alsa-seq",
@@ -257,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with sequencer clients.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_client.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "Info",
           "package": "alsa-seq",
@@ -266,6 +289,7 @@
         "index": {
           "description": "This module contains functions for working with sequencer clients Reference http www.alsa-project.org alsa-doc alsa-lib group seq client.html",
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "Info",
           "package": "alsa-seq",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "T",
           "package": "alsa-seq",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "T",
           "package": "alsa-seq",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "clone",
           "package": "alsa-seq",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "clone",
           "normalized": "T-\u003eIO T",
@@ -323,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new information area filled with data about the sequencer client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "copy",
           "package": "alsa-seq",
@@ -332,6 +361,7 @@
         "index": {
           "description": "Create new information area filled with data about the sequencer client",
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "copy",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "filterAdd",
           "package": "alsa-seq",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "filterAdd",
           "normalized": "T-\u003ea-\u003eIO()",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "filterCheck",
           "package": "alsa-seq",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "filterCheck",
           "normalized": "T-\u003ea-\u003eIO Bool",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "filterClear",
           "package": "alsa-seq",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "filterClear",
           "normalized": "T-\u003eIO()",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "filterDel",
           "package": "alsa-seq",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "filterDel",
           "normalized": "T-\u003ea-\u003eIO()",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "get",
           "package": "alsa-seq",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "get",
           "normalized": "T a-\u003eIO T",
@@ -466,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of an object to a newly created object.\n\u003c/p\u003e\u003cp\u003eCreate a new information area filled with data about an arbitrary client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getAny",
           "package": "alsa-seq",
@@ -476,6 +517,7 @@
         "index": {
           "description": "Copy the content of an object to newly created object Create new information area filled with data about an arbitrary client",
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getAny",
           "normalized": "T a-\u003eT-\u003eIO T",
@@ -491,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getBroadcastFilter",
           "package": "alsa-seq",
@@ -500,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getBroadcastFilter",
           "normalized": "T-\u003eIO Bool",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getClient",
           "package": "alsa-seq",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getClient",
           "normalized": "T-\u003eIO T",
@@ -540,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate an uninitialized object. (Not exported)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getErrorBounce",
           "package": "alsa-seq",
@@ -550,6 +597,7 @@
         "index": {
           "description": "Allocate an uninitialized object Not exported",
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getErrorBounce",
           "normalized": "T-\u003eIO Bool",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getEventLost",
           "package": "alsa-seq",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getEventLost",
           "normalized": "T-\u003eIO Word",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getName",
           "package": "alsa-seq",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getName",
           "normalized": "T-\u003eIO String",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getNumPorts",
           "package": "alsa-seq",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getNumPorts",
           "normalized": "T-\u003eIO Word",
@@ -637,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getType",
           "package": "alsa-seq",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "getType",
           "normalized": "T-\u003eIO Type",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "queryFirst",
           "package": "alsa-seq",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "queryFirst",
           "normalized": "T a-\u003eIO T",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "queryLoop",
           "package": "alsa-seq",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "queryLoop",
           "normalized": "T a-\u003e(T-\u003eIO b)-\u003eIO[b]",
@@ -709,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "queryLoop_",
           "package": "alsa-seq",
@@ -718,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "queryLoop_",
           "normalized": "T a-\u003e(T-\u003eIO())-\u003eIO()",
@@ -734,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about the client with the next biggest identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "queryNext",
           "package": "alsa-seq",
@@ -743,6 +806,7 @@
         "index": {
           "description": "Get information about the client with the next biggest identifier",
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "queryNext",
           "normalized": "T a-\u003eT-\u003eIO Bool",
@@ -759,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the information for the sequencer client based on the data\n in the given information area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "set",
           "package": "alsa-seq",
@@ -769,6 +834,7 @@
         "index": {
           "description": "Set the information for the sequencer client based on the data in the given information area",
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "set",
           "normalized": "T a-\u003eT-\u003eIO()",
@@ -783,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "setBroadcastFilter",
           "package": "alsa-seq",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "setBroadcastFilter",
           "normalized": "T-\u003eBool-\u003eIO()",
@@ -807,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "setClient",
           "package": "alsa-seq",
@@ -816,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "setClient",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -831,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "setErrorBounce",
           "package": "alsa-seq",
@@ -840,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "setErrorBounce",
           "normalized": "T-\u003eBool-\u003eIO()",
@@ -855,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "setName",
           "package": "alsa-seq",
@@ -864,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.Info",
           "name": "setName",
           "normalized": "T-\u003eString-\u003eIO()",
@@ -879,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "InfoMonad",
           "package": "alsa-seq",
@@ -887,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "InfoMonad",
           "package": "alsa-seq",
@@ -900,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "T",
           "package": "alsa-seq",
@@ -908,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "T",
           "package": "alsa-seq",
@@ -920,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "get",
           "package": "alsa-seq",
@@ -929,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "get",
           "normalized": "T a-\u003eT b-\u003eIO b",
@@ -943,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getBroadcastFilter",
           "package": "alsa-seq",
@@ -952,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getBroadcastFilter",
           "package": "alsa-seq",
@@ -965,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getClient",
           "package": "alsa-seq",
@@ -974,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getClient",
           "package": "alsa-seq",
@@ -987,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getErrorBounce",
           "package": "alsa-seq",
@@ -996,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getErrorBounce",
           "package": "alsa-seq",
@@ -1009,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getEventLost",
           "package": "alsa-seq",
@@ -1018,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getEventLost",
           "package": "alsa-seq",
@@ -1031,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getName",
           "package": "alsa-seq",
@@ -1040,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getName",
           "package": "alsa-seq",
@@ -1053,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getNumPorts",
           "package": "alsa-seq",
@@ -1062,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getNumPorts",
           "package": "alsa-seq",
@@ -1075,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getType",
           "package": "alsa-seq",
@@ -1084,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "getType",
           "package": "alsa-seq",
@@ -1097,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "modify",
           "package": "alsa-seq",
@@ -1106,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "modify",
           "normalized": "T a-\u003eT b-\u003eIO b",
@@ -1120,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "run",
           "package": "alsa-seq",
@@ -1129,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "run",
           "normalized": "T a-\u003eT-\u003eIO a",
@@ -1143,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "setBroadcastFilter",
           "package": "alsa-seq",
@@ -1152,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "setBroadcastFilter",
           "normalized": "Bool-\u003eT()",
@@ -1167,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "setClient",
           "package": "alsa-seq",
@@ -1176,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "setClient",
           "normalized": "T-\u003eT()",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "setErrorBounce",
           "package": "alsa-seq",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "setErrorBounce",
           "normalized": "Bool-\u003eT()",
@@ -1215,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "setName",
           "package": "alsa-seq",
@@ -1224,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client.InfoMonad",
           "name": "setName",
           "normalized": "String-\u003eT()",
@@ -1240,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with sequencer clients.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_client.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "Client",
           "package": "alsa-seq",
@@ -1249,6 +1356,7 @@
         "index": {
           "description": "This module contains functions for working with sequencer clients Reference http www.alsa-project.org alsa-doc alsa-lib group seq client.html",
           "hierarchy": "Sound ALSA Sequencer Client",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "Client",
           "package": "alsa-seq",
@@ -1263,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of client identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "T",
           "package": "alsa-seq",
@@ -1272,6 +1381,7 @@
         "index": {
           "description": "The type of client identifiers",
           "hierarchy": "Sound ALSA Sequencer Client",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "T",
           "package": "alsa-seq",
@@ -1285,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different types of clients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "Type",
           "package": "alsa-seq",
@@ -1294,6 +1405,7 @@
         "index": {
           "description": "The different types of clients",
           "hierarchy": "Sound ALSA Sequencer Client",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "Type",
           "package": "alsa-seq",
@@ -1307,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "Cons",
           "package": "alsa-seq",
@@ -1316,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "Cons",
           "package": "alsa-seq",
@@ -1329,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "Kernel",
           "package": "alsa-seq",
@@ -1338,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "Kernel",
           "package": "alsa-seq",
@@ -1351,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "User",
           "package": "alsa-seq",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "User",
           "package": "alsa-seq",
@@ -1373,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "broadcast",
           "package": "alsa-seq",
@@ -1382,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "broadcast",
           "package": "alsa-seq",
@@ -1395,6 +1515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the client identifier for the sequencer.\n A convinience function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "getId",
           "package": "alsa-seq",
@@ -1405,6 +1526,7 @@
         "index": {
           "description": "Get the client identifier for the sequencer convinience function",
           "hierarchy": "Sound ALSA Sequencer Client",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "getId",
           "normalized": "T a-\u003eIO T",
@@ -1421,6 +1543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the name for the sequencer client.\n A convinience function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "setName",
           "package": "alsa-seq",
@@ -1431,6 +1554,7 @@
         "index": {
           "description": "Set the name for the sequencer client convinience function",
           "hierarchy": "Sound ALSA Sequencer Client",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "setName",
           "normalized": "T a-\u003eString-\u003eIO()",
@@ -1446,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "subscribers",
           "package": "alsa-seq",
@@ -1455,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "subscribers",
           "package": "alsa-seq",
@@ -1467,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "system",
           "package": "alsa-seq",
@@ -1476,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "system",
           "package": "alsa-seq",
@@ -1488,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "unknown",
           "package": "alsa-seq",
@@ -1497,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Client",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Client",
           "name": "unknown",
           "package": "alsa-seq",
@@ -1509,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "Concurrent",
           "package": "alsa-seq",
@@ -1517,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Concurrent",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "Concurrent",
           "package": "alsa-seq",
@@ -1531,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA thread-compatible version of \u003ccode\u003eSound.ALSA.Sequencer.Event.drainBuffer\u003c/code\u003e.\n This call is always blocking but will not block other threads.  The\n sequencer, however, must be set non-blocking or this will not work as\n expected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "drainOutput",
           "package": "alsa-seq",
@@ -1541,6 +1674,7 @@
         "index": {
           "description": "thread-compatible version of Sound.ALSA.Sequencer.Event.drainBuffer This call is always blocking but will not block other threads The sequencer however must be set non-blocking or this will not work as expected",
           "hierarchy": "Sound ALSA Sequencer Concurrent",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "drainOutput",
           "normalized": "T a-\u003eIO()",
@@ -1557,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA thread-compatible version of \u003ccode\u003eSound.ALSA.Sequencer.Event.input\u003c/code\u003e.\n This call is always blocking (unless there are already event in the input\n buffer) but will not block other threads.  The sequencer, however, must be\n set non-blocking or this will not work as expected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "input",
           "package": "alsa-seq",
@@ -1567,6 +1702,7 @@
         "index": {
           "description": "thread-compatible version of Sound.ALSA.Sequencer.Event.input This call is always blocking unless there are already event in the input buffer but will not block other threads The sequencer however must be set non-blocking or this will not work as expected",
           "hierarchy": "Sound ALSA Sequencer Concurrent",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "input",
           "normalized": "T a-\u003eIO T",
@@ -1582,6 +1718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA thread-compatible version of \u003ccode\u003eSound.ALSA.Sequencer.Event.output\u003c/code\u003e.\n This call is always blocking (unless there is space in the output\n buffer) but will not block other threads.  The sequencer, however, must be\n set non-blocking or this will not work as expected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "output",
           "package": "alsa-seq",
@@ -1592,6 +1729,7 @@
         "index": {
           "description": "thread-compatible version of Sound.ALSA.Sequencer.Event.output This call is always blocking unless there is space in the output buffer but will not block other threads The sequencer however must be set non-blocking or this will not work as expected",
           "hierarchy": "Sound ALSA Sequencer Concurrent",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "output",
           "normalized": "T a-\u003eT-\u003eIO Word",
@@ -1607,6 +1745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until new input is available or new output may be drained\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "threadWaitDuplex",
           "package": "alsa-seq",
@@ -1617,6 +1756,7 @@
         "index": {
           "description": "Wait until new input is available or new output may be drained",
           "hierarchy": "Sound ALSA Sequencer Concurrent",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "threadWaitDuplex",
           "normalized": "T a-\u003eIO()",
@@ -1633,6 +1773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for new input to be available from the sequencer (even if there is already input in the buffer)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "threadWaitInput",
           "package": "alsa-seq",
@@ -1643,6 +1784,7 @@
         "index": {
           "description": "Wait for new input to be available from the sequencer even if there is already input in the buffer",
           "hierarchy": "Sound ALSA Sequencer Concurrent",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "threadWaitInput",
           "normalized": "T a-\u003eIO()",
@@ -1659,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until new output may be drained from the buffer to the sequencer (even if the output buffer is already empty)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "threadWaitOutput",
           "package": "alsa-seq",
@@ -1669,6 +1812,7 @@
         "index": {
           "description": "Wait until new output may be drained from the buffer to the sequencer even if the output buffer is already empty",
           "hierarchy": "Sound ALSA Sequencer Concurrent",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Concurrent",
           "name": "threadWaitOutput",
           "normalized": "T a-\u003eIO()",
@@ -1684,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "Connect",
           "package": "alsa-seq",
@@ -1692,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "Connect",
           "package": "alsa-seq",
@@ -1705,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "T",
           "package": "alsa-seq",
@@ -1713,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "T",
           "package": "alsa-seq",
@@ -1725,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "Cons",
           "package": "alsa-seq",
@@ -1734,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "Cons",
           "package": "alsa-seq",
@@ -1748,6 +1898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple subscription (w/o exclusive & time conversion).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "createFrom",
           "package": "alsa-seq",
@@ -1758,6 +1909,7 @@
         "index": {
           "description": "Simple subscription exclusive time conversion",
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "createFrom",
           "normalized": "T a-\u003eT-\u003eT-\u003eIO T",
@@ -1774,6 +1926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple subscription (w/o exclusive & time conversion).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "createTo",
           "package": "alsa-seq",
@@ -1784,6 +1937,7 @@
         "index": {
           "description": "Simple subscription exclusive time conversion",
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "createTo",
           "normalized": "T a-\u003eT-\u003eT-\u003eIO T",
@@ -1800,6 +1954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple disconnection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "deleteFrom",
           "package": "alsa-seq",
@@ -1810,6 +1965,7 @@
         "index": {
           "description": "Simple disconnection",
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "deleteFrom",
           "normalized": "T a-\u003eT-\u003eT-\u003eIO()",
@@ -1826,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple disconnection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "deleteTo",
           "package": "alsa-seq",
@@ -1836,6 +1993,7 @@
         "index": {
           "description": "Simple disconnection",
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "deleteTo",
           "normalized": "T a-\u003eT-\u003eT-\u003eIO()",
@@ -1851,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "dest",
           "package": "alsa-seq",
@@ -1860,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "dest",
           "package": "alsa-seq",
@@ -1872,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "fromSubscribers",
           "package": "alsa-seq",
@@ -1881,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "fromSubscribers",
           "normalized": "T-\u003eT",
@@ -1896,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "reverse",
           "package": "alsa-seq",
@@ -1905,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "reverse",
           "normalized": "T-\u003eT",
@@ -1919,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "source",
           "package": "alsa-seq",
@@ -1928,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "source",
           "package": "alsa-seq",
@@ -1940,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "toSubscribers",
           "package": "alsa-seq",
@@ -1949,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "toSubscribers",
           "normalized": "T-\u003eT",
@@ -1965,6 +2133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemporary subscription.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "withFrom",
           "package": "alsa-seq",
@@ -1975,6 +2144,7 @@
         "index": {
           "description": "Temporary subscription",
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "withFrom",
           "normalized": "T a-\u003eT-\u003eT-\u003e(T-\u003eIO b)-\u003eIO b",
@@ -1991,6 +2161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemporary subscription.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "withTo",
           "package": "alsa-seq",
@@ -2001,6 +2172,7 @@
         "index": {
           "description": "Temporary subscription",
           "hierarchy": "Sound ALSA Sequencer Connect",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Connect",
           "name": "withTo",
           "normalized": "T a-\u003eT-\u003eT-\u003e(T-\u003eIO b)-\u003eIO b",
@@ -2016,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "Accessor",
           "package": "alsa-seq",
@@ -2024,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event Accessor",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "Accessor",
           "package": "alsa-seq",
@@ -2037,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "body",
           "package": "alsa-seq",
@@ -2046,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event Accessor",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "body",
           "package": "alsa-seq",
@@ -2058,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "connect",
           "package": "alsa-seq",
@@ -2067,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event Accessor",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "connect",
           "package": "alsa-seq",
@@ -2079,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "dest",
           "package": "alsa-seq",
@@ -2088,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event Accessor",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "dest",
           "package": "alsa-seq",
@@ -2100,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "highPriority",
           "package": "alsa-seq",
@@ -2109,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event Accessor",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "highPriority",
           "package": "alsa-seq",
@@ -2122,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "queue",
           "package": "alsa-seq",
@@ -2131,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event Accessor",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "queue",
           "package": "alsa-seq",
@@ -2143,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "source",
           "package": "alsa-seq",
@@ -2152,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event Accessor",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "source",
           "package": "alsa-seq",
@@ -2164,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "tag",
           "package": "alsa-seq",
@@ -2173,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event Accessor",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "tag",
           "package": "alsa-seq",
@@ -2185,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "time",
           "package": "alsa-seq",
@@ -2194,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event Accessor",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "time",
           "package": "alsa-seq",
@@ -2206,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "timeStamp",
           "package": "alsa-seq",
@@ -2215,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event Accessor",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.Accessor",
           "name": "timeStamp",
           "package": "alsa-seq",
@@ -2229,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows to cancel events according to some criteria.\nIn all cases other than \u003ccode\u003e\u003ca\u003esetInput\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esetOutput\u003c/a\u003e\u003c/code\u003e\nthe criteria are combined by logical AND.\nFor every criterion we provide three kinds of accessors:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eset\u003c/code\u003e: enable a criterion\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eput\u003c/code\u003e: enable or disable a criterion\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eget\u003c/code\u003e: query, whether the criterion is enabled or disabled.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eCurrently only the \u003ccode\u003eset\u003c/code\u003e functions are really usable.\nThe \u003ccode\u003eput\u003c/code\u003e and \u003ccode\u003eget\u003c/code\u003e functions would become useful\nfor manipulating the remove criterion record, that ALSA maintains.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "RemoveMonad",
           "package": "alsa-seq",
@@ -2238,6 +2431,7 @@
         "index": {
           "description": "This module allows to cancel events according to some criteria In all cases other than setInput and setOutput the criteria are combined by logical AND For every criterion we provide three kinds of accessors set enable criterion put enable or disable criterion get query whether the criterion is enabled or disabled Currently only the set functions are really usable The put and get functions would become useful for manipulating the remove criterion record that ALSA maintains",
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "RemoveMonad",
           "package": "alsa-seq",
@@ -2251,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "T",
           "package": "alsa-seq",
@@ -2259,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "T",
           "package": "alsa-seq",
@@ -2271,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getChannel",
           "package": "alsa-seq",
@@ -2280,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getChannel",
           "package": "alsa-seq",
@@ -2293,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getDest",
           "package": "alsa-seq",
@@ -2302,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getDest",
           "normalized": "T(Maybe(T,T))",
@@ -2317,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getIgnoreOff",
           "package": "alsa-seq",
@@ -2326,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getIgnoreOff",
           "package": "alsa-seq",
@@ -2339,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getInput",
           "package": "alsa-seq",
@@ -2348,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getInput",
           "package": "alsa-seq",
@@ -2361,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getOutput",
           "package": "alsa-seq",
@@ -2370,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getOutput",
           "package": "alsa-seq",
@@ -2383,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getTag",
           "package": "alsa-seq",
@@ -2392,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getTag",
           "package": "alsa-seq",
@@ -2405,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getTime",
           "package": "alsa-seq",
@@ -2414,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "getTime",
           "normalized": "T(Maybe Ordering,Stamp)",
@@ -2429,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putChannel",
           "package": "alsa-seq",
@@ -2438,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putChannel",
           "normalized": "Maybe Channel-\u003eT()",
@@ -2453,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putDest",
           "package": "alsa-seq",
@@ -2462,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putDest",
           "normalized": "Maybe(T,T)-\u003eT()",
@@ -2477,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putEventType",
           "package": "alsa-seq",
@@ -2486,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putEventType",
           "normalized": "Maybe a-\u003eT()",
@@ -2501,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putIgnoreOff",
           "package": "alsa-seq",
@@ -2510,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putIgnoreOff",
           "normalized": "Bool-\u003eT()",
@@ -2525,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putInput",
           "package": "alsa-seq",
@@ -2534,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putInput",
           "normalized": "Bool-\u003eT()",
@@ -2549,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putOutput",
           "package": "alsa-seq",
@@ -2558,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putOutput",
           "normalized": "Bool-\u003eT()",
@@ -2573,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putTag",
           "package": "alsa-seq",
@@ -2582,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putTag",
           "normalized": "Maybe Tag-\u003eT()",
@@ -2597,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putTime",
           "package": "alsa-seq",
@@ -2606,6 +2831,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "putTime",
           "normalized": "Maybe Ordering-\u003eStamp-\u003eT()",
@@ -2622,6 +2848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove events according to the given conditions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "run",
           "package": "alsa-seq",
@@ -2632,6 +2859,7 @@
         "index": {
           "description": "Remove events according to the given conditions",
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "run",
           "normalized": "T a-\u003eT b-\u003eIO b",
@@ -2646,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setChannel",
           "package": "alsa-seq",
@@ -2655,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setChannel",
           "normalized": "Channel-\u003eT()",
@@ -2671,6 +2901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eALSA maintainers say, that destination address and queue are checked together,\nat least in the kernel buffer.\nHowever up to ALSA-1.0.22 the check for the queue is missing in libasound\nfor the local buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setDest",
           "package": "alsa-seq",
@@ -2681,6 +2912,7 @@
         "index": {
           "description": "ALSA maintainers say that destination address and queue are checked together at least in the kernel buffer However up to ALSA-1.0.22 the check for the queue is missing in libasound for the local buffer",
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setDest",
           "normalized": "(T,T)-\u003eT()",
@@ -2696,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setEventType",
           "package": "alsa-seq",
@@ -2705,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setEventType",
           "normalized": "a-\u003eT()",
@@ -2721,6 +2955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNoteOff events are kept in any case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setIgnoreOff",
           "package": "alsa-seq",
@@ -2731,6 +2966,7 @@
         "index": {
           "description": "NoteOff events are kept in any case",
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setIgnoreOff",
           "normalized": "T()",
@@ -2747,6 +2983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll events in the local input buffer are removed.\nThe conditions are not checked for these events.\nThis is equivalent to \u003ccode\u003e\u003ca\u003edropInputBuffer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setInput",
           "package": "alsa-seq",
@@ -2757,6 +2994,7 @@
         "index": {
           "description": "All events in the local input buffer are removed The conditions are not checked for these events This is equivalent to dropInputBuffer",
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setInput",
           "normalized": "T()",
@@ -2773,6 +3011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatching events in the local output buffer are removed, too.\nMatching events in the kernel buffer are removed in any case.\nIf there are no further conditions,\nthen this is equivalent to \u003ccode\u003e\u003ca\u003edropOutputBuffer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setOutput",
           "package": "alsa-seq",
@@ -2783,6 +3022,7 @@
         "index": {
           "description": "Matching events in the local output buffer are removed too Matching events in the kernel buffer are removed in any case If there are no further conditions then this is equivalent to dropOutputBuffer",
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setOutput",
           "normalized": "T()",
@@ -2798,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setTag",
           "package": "alsa-seq",
@@ -2807,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setTag",
           "normalized": "Tag-\u003eT()",
@@ -2822,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setTime",
           "package": "alsa-seq",
@@ -2831,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event RemoveMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event.RemoveMonad",
           "name": "setTime",
           "normalized": "Ordering-\u003eStamp-\u003eT()",
@@ -2847,6 +3091,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with events.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_event.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Event",
           "package": "alsa-seq",
@@ -2856,6 +3101,7 @@
         "index": {
           "description": "This module contains functions for working with events Reference http www.alsa-project.org alsa-doc alsa-lib group seq event.html",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Event",
           "package": "alsa-seq",
@@ -2869,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "AddrEv",
           "package": "alsa-seq",
@@ -2877,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "AddrEv",
           "package": "alsa-seq",
@@ -2890,6 +3138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Channel",
           "package": "alsa-seq",
@@ -2898,6 +3147,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Channel",
           "package": "alsa-seq",
@@ -2911,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ConnEv",
           "package": "alsa-seq",
@@ -2919,6 +3170,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ConnEv",
           "package": "alsa-seq",
@@ -2932,6 +3184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Ctrl",
           "package": "alsa-seq",
@@ -2940,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Ctrl",
           "package": "alsa-seq",
@@ -2953,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "CtrlEv",
           "package": "alsa-seq",
@@ -2961,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "CtrlEv",
           "package": "alsa-seq",
@@ -2974,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Custom",
           "package": "alsa-seq",
@@ -2982,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Custom",
           "package": "alsa-seq",
@@ -2995,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "CustomEv",
           "package": "alsa-seq",
@@ -3003,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "CustomEv",
           "package": "alsa-seq",
@@ -3016,6 +3276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Data",
           "package": "alsa-seq",
@@ -3024,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Data",
           "package": "alsa-seq",
@@ -3037,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Duration",
           "package": "alsa-seq",
@@ -3045,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Duration",
           "package": "alsa-seq",
@@ -3058,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "EmptyEv",
           "package": "alsa-seq",
@@ -3066,6 +3331,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "EmptyEv",
           "package": "alsa-seq",
@@ -3079,6 +3345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ExtEv",
           "package": "alsa-seq",
@@ -3087,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ExtEv",
           "package": "alsa-seq",
@@ -3100,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Note",
           "package": "alsa-seq",
@@ -3108,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Note",
           "package": "alsa-seq",
@@ -3121,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "NoteEv",
           "package": "alsa-seq",
@@ -3129,6 +3400,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "NoteEv",
           "package": "alsa-seq",
@@ -3142,6 +3414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Parameter",
           "package": "alsa-seq",
@@ -3150,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Parameter",
           "package": "alsa-seq",
@@ -3163,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Pitch",
           "package": "alsa-seq",
@@ -3171,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Pitch",
           "package": "alsa-seq",
@@ -3184,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueEv",
           "package": "alsa-seq",
@@ -3192,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueEv",
           "package": "alsa-seq",
@@ -3205,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "T",
           "package": "alsa-seq",
@@ -3213,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "T",
           "package": "alsa-seq",
@@ -3225,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Tag",
           "package": "alsa-seq",
@@ -3233,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Tag",
           "package": "alsa-seq",
@@ -3246,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Tempo",
           "package": "alsa-seq",
@@ -3254,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Tempo",
           "package": "alsa-seq",
@@ -3267,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Type",
           "package": "alsa-seq",
@@ -3275,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Type",
           "package": "alsa-seq",
@@ -3288,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Value",
           "package": "alsa-seq",
@@ -3296,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Value",
           "package": "alsa-seq",
@@ -3309,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Velocity",
           "package": "alsa-seq",
@@ -3317,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Velocity",
           "package": "alsa-seq",
@@ -3330,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ANote",
           "package": "alsa-seq",
@@ -3339,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ANote",
           "package": "alsa-seq",
@@ -3352,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "AddrEv",
           "package": "alsa-seq",
@@ -3361,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "AddrEv",
           "package": "alsa-seq",
@@ -3374,6 +3668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Bounce",
           "package": "alsa-seq",
@@ -3383,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Bounce",
           "package": "alsa-seq",
@@ -3396,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ChanPress",
           "package": "alsa-seq",
@@ -3405,6 +3702,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ChanPress",
           "package": "alsa-seq",
@@ -3418,6 +3716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Channel",
           "package": "alsa-seq",
@@ -3427,6 +3726,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Channel",
           "package": "alsa-seq",
@@ -3440,6 +3740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ClientChange",
           "package": "alsa-seq",
@@ -3449,6 +3750,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ClientChange",
           "package": "alsa-seq",
@@ -3462,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ClientExit",
           "package": "alsa-seq",
@@ -3471,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ClientExit",
           "package": "alsa-seq",
@@ -3484,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ClientStart",
           "package": "alsa-seq",
@@ -3493,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ClientStart",
           "package": "alsa-seq",
@@ -3506,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ConnEv",
           "package": "alsa-seq",
@@ -3515,6 +3822,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ConnEv",
           "package": "alsa-seq",
@@ -3528,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Cons",
           "package": "alsa-seq",
@@ -3537,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Cons",
           "package": "alsa-seq",
@@ -3550,6 +3860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Control14",
           "package": "alsa-seq",
@@ -3559,6 +3870,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Control14",
           "package": "alsa-seq",
@@ -3572,6 +3884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Controller",
           "package": "alsa-seq",
@@ -3581,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Controller",
           "package": "alsa-seq",
@@ -3594,6 +3908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Ctrl",
           "package": "alsa-seq",
@@ -3603,6 +3918,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Ctrl",
           "package": "alsa-seq",
@@ -3616,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "CtrlEv",
           "package": "alsa-seq",
@@ -3625,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "CtrlEv",
           "package": "alsa-seq",
@@ -3638,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Custom",
           "package": "alsa-seq",
@@ -3647,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Custom",
           "package": "alsa-seq",
@@ -3660,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "CustomEv",
           "package": "alsa-seq",
@@ -3669,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "CustomEv",
           "package": "alsa-seq",
@@ -3682,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Duration",
           "package": "alsa-seq",
@@ -3691,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Duration",
           "package": "alsa-seq",
@@ -3704,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Echo",
           "package": "alsa-seq",
@@ -3713,6 +4038,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Echo",
           "package": "alsa-seq",
@@ -3726,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "EmptyEv",
           "package": "alsa-seq",
@@ -3735,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "EmptyEv",
           "package": "alsa-seq",
@@ -3748,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ExtEv",
           "package": "alsa-seq",
@@ -3757,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ExtEv",
           "package": "alsa-seq",
@@ -3770,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "KeyPress",
           "package": "alsa-seq",
@@ -3779,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "KeyPress",
           "package": "alsa-seq",
@@ -3792,6 +4124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "KeySign",
           "package": "alsa-seq",
@@ -3801,6 +4134,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "KeySign",
           "package": "alsa-seq",
@@ -3814,6 +4148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "NonRegParam",
           "package": "alsa-seq",
@@ -3823,6 +4158,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "NonRegParam",
           "package": "alsa-seq",
@@ -3836,6 +4172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "None",
           "package": "alsa-seq",
@@ -3845,6 +4182,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "None",
           "package": "alsa-seq",
@@ -3858,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Note",
           "package": "alsa-seq",
@@ -3867,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Note",
           "package": "alsa-seq",
@@ -3880,6 +4220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "NoteEv",
           "package": "alsa-seq",
@@ -3889,6 +4230,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "NoteEv",
           "package": "alsa-seq",
@@ -3902,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "NoteOff",
           "package": "alsa-seq",
@@ -3911,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "NoteOff",
           "package": "alsa-seq",
@@ -3924,6 +4268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "NoteOn",
           "package": "alsa-seq",
@@ -3933,6 +4278,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "NoteOn",
           "package": "alsa-seq",
@@ -3946,6 +4292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "OSS",
           "package": "alsa-seq",
@@ -3955,6 +4302,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "OSS",
           "package": "alsa-seq",
@@ -3968,6 +4316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Parameter",
           "package": "alsa-seq",
@@ -3977,6 +4326,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Parameter",
           "package": "alsa-seq",
@@ -3990,6 +4340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PgmChange",
           "package": "alsa-seq",
@@ -3999,6 +4350,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PgmChange",
           "package": "alsa-seq",
@@ -4012,6 +4364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Pitch",
           "package": "alsa-seq",
@@ -4021,6 +4374,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Pitch",
           "package": "alsa-seq",
@@ -4034,6 +4388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PitchBend",
           "package": "alsa-seq",
@@ -4043,6 +4398,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PitchBend",
           "package": "alsa-seq",
@@ -4056,6 +4412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PortChange",
           "package": "alsa-seq",
@@ -4065,6 +4422,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PortChange",
           "package": "alsa-seq",
@@ -4078,6 +4436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PortExit",
           "package": "alsa-seq",
@@ -4087,6 +4446,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PortExit",
           "package": "alsa-seq",
@@ -4100,6 +4460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PortStart",
           "package": "alsa-seq",
@@ -4109,6 +4470,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PortStart",
           "package": "alsa-seq",
@@ -4122,6 +4484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PortSubscribed",
           "package": "alsa-seq",
@@ -4131,6 +4494,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PortSubscribed",
           "package": "alsa-seq",
@@ -4144,6 +4508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PortUnsubscribed",
           "package": "alsa-seq",
@@ -4153,6 +4518,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "PortUnsubscribed",
           "package": "alsa-seq",
@@ -4166,6 +4532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QFrame",
           "package": "alsa-seq",
@@ -4175,6 +4542,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QFrame",
           "package": "alsa-seq",
@@ -4188,6 +4556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueClock",
           "package": "alsa-seq",
@@ -4197,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueClock",
           "package": "alsa-seq",
@@ -4210,6 +4580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueContinue",
           "package": "alsa-seq",
@@ -4219,6 +4590,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueContinue",
           "package": "alsa-seq",
@@ -4232,6 +4604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueEv",
           "package": "alsa-seq",
@@ -4241,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueEv",
           "package": "alsa-seq",
@@ -4254,6 +4628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueSetPosTick",
           "package": "alsa-seq",
@@ -4263,6 +4638,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueSetPosTick",
           "package": "alsa-seq",
@@ -4276,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueSetPosTime",
           "package": "alsa-seq",
@@ -4285,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueSetPosTime",
           "package": "alsa-seq",
@@ -4298,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueSkew",
           "package": "alsa-seq",
@@ -4307,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueSkew",
           "package": "alsa-seq",
@@ -4320,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueStart",
           "package": "alsa-seq",
@@ -4329,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueStart",
           "package": "alsa-seq",
@@ -4342,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueStop",
           "package": "alsa-seq",
@@ -4351,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueStop",
           "package": "alsa-seq",
@@ -4364,6 +4748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueSyncPos",
           "package": "alsa-seq",
@@ -4373,6 +4758,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueSyncPos",
           "package": "alsa-seq",
@@ -4386,6 +4772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueTempo",
           "package": "alsa-seq",
@@ -4395,6 +4782,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueTempo",
           "package": "alsa-seq",
@@ -4408,6 +4796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueTick",
           "package": "alsa-seq",
@@ -4417,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "QueueTick",
           "package": "alsa-seq",
@@ -4430,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "RegParam",
           "package": "alsa-seq",
@@ -4439,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "RegParam",
           "package": "alsa-seq",
@@ -4452,6 +4844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Reset",
           "package": "alsa-seq",
@@ -4461,6 +4854,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Reset",
           "package": "alsa-seq",
@@ -4474,6 +4868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Sensing",
           "package": "alsa-seq",
@@ -4483,6 +4878,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Sensing",
           "package": "alsa-seq",
@@ -4496,6 +4892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "SongPos",
           "package": "alsa-seq",
@@ -4505,6 +4902,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "SongPos",
           "package": "alsa-seq",
@@ -4518,6 +4916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "SongSel",
           "package": "alsa-seq",
@@ -4527,6 +4926,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "SongSel",
           "package": "alsa-seq",
@@ -4540,6 +4940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "SysEx",
           "package": "alsa-seq",
@@ -4549,6 +4950,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "SysEx",
           "package": "alsa-seq",
@@ -4562,6 +4964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Tag",
           "package": "alsa-seq",
@@ -4571,6 +4974,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Tag",
           "package": "alsa-seq",
@@ -4584,6 +4988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Tempo",
           "package": "alsa-seq",
@@ -4593,6 +4998,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Tempo",
           "package": "alsa-seq",
@@ -4606,6 +5012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "TimeSign",
           "package": "alsa-seq",
@@ -4615,6 +5022,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "TimeSign",
           "package": "alsa-seq",
@@ -4628,6 +5036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "TuneRequest",
           "package": "alsa-seq",
@@ -4637,6 +5046,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "TuneRequest",
           "package": "alsa-seq",
@@ -4650,6 +5060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Unknown",
           "package": "alsa-seq",
@@ -4659,6 +5070,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Unknown",
           "package": "alsa-seq",
@@ -4672,6 +5084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User0",
           "package": "alsa-seq",
@@ -4681,6 +5094,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User0",
           "package": "alsa-seq",
@@ -4694,6 +5108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User1",
           "package": "alsa-seq",
@@ -4703,6 +5118,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User1",
           "package": "alsa-seq",
@@ -4716,6 +5132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User2",
           "package": "alsa-seq",
@@ -4725,6 +5142,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User2",
           "package": "alsa-seq",
@@ -4738,6 +5156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User3",
           "package": "alsa-seq",
@@ -4747,6 +5166,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User3",
           "package": "alsa-seq",
@@ -4760,6 +5180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User4",
           "package": "alsa-seq",
@@ -4769,6 +5190,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User4",
           "package": "alsa-seq",
@@ -4782,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User5",
           "package": "alsa-seq",
@@ -4791,6 +5214,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User5",
           "package": "alsa-seq",
@@ -4804,6 +5228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User6",
           "package": "alsa-seq",
@@ -4813,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User6",
           "package": "alsa-seq",
@@ -4826,6 +5252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User7",
           "package": "alsa-seq",
@@ -4835,6 +5262,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User7",
           "package": "alsa-seq",
@@ -4848,6 +5276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User8",
           "package": "alsa-seq",
@@ -4857,6 +5286,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User8",
           "package": "alsa-seq",
@@ -4870,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User9",
           "package": "alsa-seq",
@@ -4879,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "User9",
           "package": "alsa-seq",
@@ -4892,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "UserVar0",
           "package": "alsa-seq",
@@ -4901,6 +5334,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "UserVar0",
           "package": "alsa-seq",
@@ -4914,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "UserVar1",
           "package": "alsa-seq",
@@ -4923,6 +5358,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "UserVar1",
           "package": "alsa-seq",
@@ -4936,6 +5372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "UserVar2",
           "package": "alsa-seq",
@@ -4945,6 +5382,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "UserVar2",
           "package": "alsa-seq",
@@ -4958,6 +5396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "UserVar3",
           "package": "alsa-seq",
@@ -4967,6 +5406,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "UserVar3",
           "package": "alsa-seq",
@@ -4980,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "UserVar4",
           "package": "alsa-seq",
@@ -4989,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "UserVar4",
           "package": "alsa-seq",
@@ -5002,6 +5444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Value",
           "package": "alsa-seq",
@@ -5011,6 +5454,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Value",
           "package": "alsa-seq",
@@ -5024,6 +5468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Velocity",
           "package": "alsa-seq",
@@ -5033,6 +5478,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "Velocity",
           "package": "alsa-seq",
@@ -5046,6 +5492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "body",
           "package": "alsa-seq",
@@ -5055,6 +5502,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "body",
           "package": "alsa-seq",
@@ -5067,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ctrlChannel",
           "package": "alsa-seq",
@@ -5076,6 +5525,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ctrlChannel",
           "package": "alsa-seq",
@@ -5089,6 +5539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ctrlParam",
           "package": "alsa-seq",
@@ -5098,6 +5549,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ctrlParam",
           "package": "alsa-seq",
@@ -5111,6 +5563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ctrlValue",
           "package": "alsa-seq",
@@ -5120,6 +5573,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "ctrlValue",
           "package": "alsa-seq",
@@ -5133,6 +5587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "custom0",
           "package": "alsa-seq",
@@ -5142,6 +5597,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "custom0",
           "package": "alsa-seq",
@@ -5154,6 +5610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "custom1",
           "package": "alsa-seq",
@@ -5163,6 +5620,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "custom1",
           "package": "alsa-seq",
@@ -5175,6 +5633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "custom2",
           "package": "alsa-seq",
@@ -5184,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "custom2",
           "package": "alsa-seq",
@@ -5196,6 +5656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "customZero",
           "package": "alsa-seq",
@@ -5205,6 +5666,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "customZero",
           "package": "alsa-seq",
@@ -5218,6 +5680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "dest",
           "package": "alsa-seq",
@@ -5227,6 +5690,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "dest",
           "package": "alsa-seq",
@@ -5240,6 +5704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrain output buffer to sequencer.\n This function drains all pending events on the output buffer.\n The function returns immediately after the events are sent to the queues\n regardless whether the events are processed or not.\n To get synchronization with the all event processes,\n use \u003ccode\u003e\u003ca\u003esyncOutputQueue\u003c/a\u003e\u003c/code\u003e after calling this function.\n Throws an exception on error.\n See also: \u003ccode\u003e\u003ca\u003eoutput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esyncOutputQueue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "drainOutput",
           "package": "alsa-seq",
@@ -5249,6 +5714,7 @@
         "index": {
           "description": "Drain output buffer to sequencer This function drains all pending events on the output buffer The function returns immediately after the events are sent to the queues regardless whether the events are processed or not To get synchronization with the all event processes use syncOutputQueue after calling this function Throws an exception on error See also output syncOutputQueue",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "drainOutput",
           "normalized": "T a-\u003eIO Word",
@@ -5265,6 +5731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove events from both the user-space input buffer,\n and the kernel-space sequencer queue.\n See also: \u003ccode\u003e\u003ca\u003edropInputBuffer\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eremoveOutput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "dropInput",
           "package": "alsa-seq",
@@ -5275,6 +5742,7 @@
         "index": {
           "description": "Remove events from both the user-space input buffer and the kernel-space sequencer queue See also dropInputBuffer removeOutput",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "dropInput",
           "normalized": "T a-\u003eIO()",
@@ -5291,6 +5759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove events from the user-space input buffer.\n See also: \u003ccode\u003e\u003ca\u003edropInput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "dropInputBuffer",
           "package": "alsa-seq",
@@ -5301,6 +5770,7 @@
         "index": {
           "description": "Remove events from the user-space input buffer See also dropInput",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "dropInputBuffer",
           "normalized": "T a-\u003eIO()",
@@ -5317,6 +5787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove events from both the user-space output buffer,\n and the kernel-space sequencer queue.\n See also: \u003ccode\u003e\u003ca\u003edrainOutput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edropOutputBuffer\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eremoveOutput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "dropOutput",
           "package": "alsa-seq",
@@ -5327,6 +5798,7 @@
         "index": {
           "description": "Remove events from both the user-space output buffer and the kernel-space sequencer queue See also drainOutput dropOutputBuffer removeOutput",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "dropOutput",
           "normalized": "T a-\u003eIO()",
@@ -5343,6 +5815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove events from the user-space output buffer.\n See also: \u003ccode\u003e\u003ca\u003edropOutput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "dropOutputBuffer",
           "package": "alsa-seq",
@@ -5353,6 +5826,7 @@
         "index": {
           "description": "Remove events from the user-space output buffer See also dropOutput",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "dropOutputBuffer",
           "normalized": "T a-\u003eIO()",
@@ -5369,6 +5843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the first event in output buffer.\n Throws \u003ccode\u003e(Errno 2)\u003c/code\u003e exception if output buffer is empty.\n See also \u003ccode\u003e\u003ca\u003eoutput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "extractOutput",
           "package": "alsa-seq",
@@ -5378,6 +5853,7 @@
         "index": {
           "description": "Extract the first event in output buffer Throws Errno exception if output buffer is empty See also output",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "extractOutput",
           "normalized": "T a-\u003eIO T",
@@ -5393,6 +5869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "forConnection",
           "package": "alsa-seq",
@@ -5402,6 +5879,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "forConnection",
           "normalized": "T-\u003eData-\u003eT",
@@ -5417,6 +5895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "forSourcePort",
           "package": "alsa-seq",
@@ -5426,6 +5905,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "forSourcePort",
           "normalized": "T-\u003eData-\u003eT",
@@ -5441,6 +5921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "highPriority",
           "package": "alsa-seq",
@@ -5450,6 +5931,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "highPriority",
           "package": "alsa-seq",
@@ -5464,6 +5946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an event from the input buffer.\n If the input buffer is empty, then it is filled with data from the\n sequencer queue.  If there is no data in the sequencer queue,\n then the process is either put to sleep (if the sequencer is operating\n in blocking mode), or we throw \u003ccode\u003eEAGAIN\u003c/code\u003e (if the sequence is operating\n in non-blocking mode).\n\u003c/p\u003e\u003cp\u003eWe may also throw \u003ccode\u003eENOSPC\u003c/code\u003e, which means that the sequencer queue\n over-run and some events were lost (this clears the input buffer).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "input",
           "package": "alsa-seq",
@@ -5474,6 +5957,7 @@
         "index": {
           "description": "Get an event from the input buffer If the input buffer is empty then it is filled with data from the sequencer queue If there is no data in the sequencer queue then the process is either put to sleep if the sequencer is operating in blocking mode or we throw EAGAIN if the sequence is operating in non-blocking mode We may also throw ENOSPC which means that the sequencer queue over-run and some events were lost this clears the input buffer",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "input",
           "normalized": "T a-\u003eIO T",
@@ -5489,6 +5973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of events in the input buffer.\n If the input buffer is empty and the boolean argument is true,\n then try to fill the input buffer with data from the sequencer queue.\n See also: \u003ccode\u003e\u003ca\u003einput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "inputPending",
           "package": "alsa-seq",
@@ -5498,6 +5983,7 @@
         "index": {
           "description": "Returns the number of events in the input buffer If the input buffer is empty and the boolean argument is true then try to fill the input buffer with data from the sequencer queue See also input",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "inputPending",
           "normalized": "T a-\u003eBool-\u003eIO Word",
@@ -5513,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "normalVelocity",
           "package": "alsa-seq",
@@ -5522,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "normalVelocity",
           "package": "alsa-seq",
@@ -5535,6 +6023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "noteChannel",
           "package": "alsa-seq",
@@ -5544,6 +6033,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "noteChannel",
           "package": "alsa-seq",
@@ -5557,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "noteDuration",
           "package": "alsa-seq",
@@ -5566,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "noteDuration",
           "package": "alsa-seq",
@@ -5579,6 +6071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "noteNote",
           "package": "alsa-seq",
@@ -5588,6 +6081,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "noteNote",
           "package": "alsa-seq",
@@ -5601,6 +6095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "noteOffVelocity",
           "package": "alsa-seq",
@@ -5610,6 +6105,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "noteOffVelocity",
           "package": "alsa-seq",
@@ -5623,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "noteVelocity",
           "package": "alsa-seq",
@@ -5632,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "noteVelocity",
           "package": "alsa-seq",
@@ -5645,6 +6143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "offVelocity",
           "package": "alsa-seq",
@@ -5654,6 +6153,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "offVelocity",
           "package": "alsa-seq",
@@ -5668,6 +6168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput an event and drain the buffer, if it became full.\n Throws exceptions.\n See also: \u003ccode\u003e\u003ca\u003eoutputDirect\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eoutputBuffer\u003c/a\u003e\u003c/code\u003e,\n           \u003ccode\u003e\u003ca\u003eoutputPending\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edrainOutput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edropOutput\u003c/a\u003e\u003c/code\u003e,\n           \u003ccode\u003e\u003ca\u003eextractOutput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eremoveOutput\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "output",
           "package": "alsa-seq",
@@ -5677,6 +6178,7 @@
         "index": {
           "description": "Output an event and drain the buffer if it became full Throws exceptions See also outputDirect outputBuffer outputPending drainOutput dropOutput extractOutput removeOutput",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "output",
           "normalized": "T a-\u003eT-\u003eIO Word",
@@ -5692,6 +6194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput an event without draining the buffer.\n Throws \u003ccode\u003e-EAGAIN\u003c/code\u003e if the buffer becomes full.\n See also \u003ccode\u003e\u003ca\u003eoutput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "outputBuffer",
           "package": "alsa-seq",
@@ -5701,6 +6204,7 @@
         "index": {
           "description": "Output an event without draining the buffer Throws EAGAIN if the buffer becomes full See also output",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "outputBuffer",
           "normalized": "T a-\u003eT-\u003eIO Word",
@@ -5717,6 +6221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput an event directly to the sequencer, NOT through the output buffer.\n If an error occurs, then we throw an exception.\n See also \u003ccode\u003e\u003ca\u003eoutput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "outputDirect",
           "package": "alsa-seq",
@@ -5726,6 +6231,7 @@
         "index": {
           "description": "Output an event directly to the sequencer NOT through the output buffer If an error occurs then we throw an exception See also output",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "outputDirect",
           "normalized": "T a-\u003eT-\u003eIO Word",
@@ -5742,6 +6248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the size (in bytes) of pending events on output buffer.\n See also \u003ccode\u003e\u003ca\u003eoutput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "outputPending",
           "package": "alsa-seq",
@@ -5751,6 +6258,7 @@
         "index": {
           "description": "Return the size in bytes of pending events on output buffer See also output",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "outputPending",
           "normalized": "T a-\u003eIO Word",
@@ -5766,6 +6274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "queue",
           "package": "alsa-seq",
@@ -5775,6 +6284,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "queue",
           "package": "alsa-seq",
@@ -5788,6 +6298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the first event in output buffer.\n Throws an exception on error.\n See also \u003ccode\u003e\u003ca\u003eoutput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "removeOutput",
           "package": "alsa-seq",
@@ -5798,6 +6309,7 @@
         "index": {
           "description": "Remove the first event in output buffer Throws an exception on error See also output",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "removeOutput",
           "normalized": "T a-\u003eIO()",
@@ -5814,6 +6326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an ALSA sequencer event from very few information.\nMost fields are initialized with sensible defaults.\nYou may use this as a start and alter its fields for your special needs.\n\u003c/p\u003e\u003cpre\u003e (Event.simple myAddr (Event.simpleNote (Event.Channel 0) (Event.Pitch 60) Event.normalVelocity)) {Event.dest = destAddr}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "simple",
           "package": "alsa-seq",
@@ -5824,6 +6337,7 @@
         "index": {
           "description": "Construct an ALSA sequencer event from very few information Most fields are initialized with sensible defaults You may use this as start and alter its fields for your special needs Event.simple myAddr Event.simpleNote Event.Channel Event.Pitch Event.normalVelocity Event.dest destAddr",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "simple",
           "normalized": "T-\u003eData-\u003eT",
@@ -5839,6 +6353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a note whose unspecified fields contain 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "simpleNote",
           "package": "alsa-seq",
@@ -5849,6 +6364,7 @@
         "index": {
           "description": "Make note whose unspecified fields contain",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "simpleNote",
           "normalized": "Channel-\u003ePitch-\u003eVelocity-\u003eNote",
@@ -5864,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "source",
           "package": "alsa-seq",
@@ -5873,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "source",
           "package": "alsa-seq",
@@ -5886,6 +6404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until all events of the client are processed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "syncOutputQueue",
           "package": "alsa-seq",
@@ -5896,6 +6415,7 @@
         "index": {
           "description": "Wait until all events of the client are processed",
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "syncOutputQueue",
           "normalized": "T a-\u003eIO()",
@@ -5911,6 +6431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "tag",
           "package": "alsa-seq",
@@ -5920,6 +6441,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "tag",
           "package": "alsa-seq",
@@ -5932,6 +6454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "time",
           "package": "alsa-seq",
@@ -5941,6 +6464,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "time",
           "package": "alsa-seq",
@@ -5953,6 +6477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unChannel",
           "package": "alsa-seq",
@@ -5962,6 +6487,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unChannel",
           "package": "alsa-seq",
@@ -5975,6 +6501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unDuration",
           "package": "alsa-seq",
@@ -5984,6 +6511,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unDuration",
           "package": "alsa-seq",
@@ -5997,6 +6525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unParameter",
           "package": "alsa-seq",
@@ -6006,6 +6535,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unParameter",
           "package": "alsa-seq",
@@ -6019,6 +6549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unPitch",
           "package": "alsa-seq",
@@ -6028,6 +6559,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unPitch",
           "package": "alsa-seq",
@@ -6041,6 +6573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unTag",
           "package": "alsa-seq",
@@ -6050,6 +6583,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unTag",
           "package": "alsa-seq",
@@ -6063,6 +6597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unTempo",
           "package": "alsa-seq",
@@ -6072,6 +6607,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unTempo",
           "package": "alsa-seq",
@@ -6085,6 +6621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unValue",
           "package": "alsa-seq",
@@ -6094,6 +6631,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unValue",
           "package": "alsa-seq",
@@ -6107,6 +6645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unVelocity",
           "package": "alsa-seq",
@@ -6116,6 +6655,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Event",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Event",
           "name": "unVelocity",
           "package": "alsa-seq",
@@ -6129,6 +6669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Poll",
           "name": "Poll",
           "package": "alsa-seq",
@@ -6137,6 +6678,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Poll",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Poll",
           "name": "Poll",
           "package": "alsa-seq",
@@ -6150,6 +6692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Poll",
           "name": "descriptors",
           "package": "alsa-seq",
@@ -6159,6 +6702,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Poll",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Poll",
           "name": "descriptors",
           "normalized": "T a-\u003eEvents-\u003eIO[Fd]",
@@ -6174,6 +6718,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with ports.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_port.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "Info",
           "package": "alsa-seq",
@@ -6183,6 +6728,7 @@
         "index": {
           "description": "This module contains functions for working with ports Reference http www.alsa-project.org alsa-doc alsa-lib group seq port.html",
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "Info",
           "package": "alsa-seq",
@@ -6196,6 +6742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "T",
           "package": "alsa-seq",
@@ -6204,6 +6751,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "T",
           "package": "alsa-seq",
@@ -6216,6 +6764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "clone",
           "package": "alsa-seq",
@@ -6225,6 +6774,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "clone",
           "normalized": "T-\u003eIO T",
@@ -6263,6 +6813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the information for the sequencer port\nbased on the data in the given information area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "get",
           "package": "alsa-seq",
@@ -6273,6 +6824,7 @@
         "index": {
           "description": "Set the information for the sequencer port based on the data in the given information area",
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "get",
           "normalized": "T a-\u003eT-\u003eIO T",
@@ -6287,6 +6839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getAddr",
           "package": "alsa-seq",
@@ -6296,6 +6849,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getAddr",
           "normalized": "T-\u003eIO T",
@@ -6311,6 +6865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getAny",
           "package": "alsa-seq",
@@ -6320,6 +6875,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getAny",
           "normalized": "T a-\u003eT-\u003eT-\u003eIO T",
@@ -6335,6 +6891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getCapability",
           "package": "alsa-seq",
@@ -6344,6 +6901,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getCapability",
           "normalized": "T-\u003eIO Cap",
@@ -6359,6 +6917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getClient",
           "package": "alsa-seq",
@@ -6368,6 +6927,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getClient",
           "normalized": "T-\u003eIO T",
@@ -6383,6 +6943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getMidiChannels",
           "package": "alsa-seq",
@@ -6392,6 +6953,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getMidiChannels",
           "normalized": "T-\u003eIO Word",
@@ -6407,6 +6969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getMidiVoices",
           "package": "alsa-seq",
@@ -6416,6 +6979,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getMidiVoices",
           "normalized": "T-\u003eIO Word",
@@ -6431,6 +6995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getName",
           "package": "alsa-seq",
@@ -6440,6 +7005,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getName",
           "normalized": "T-\u003eIO String",
@@ -6455,6 +7021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getPort",
           "package": "alsa-seq",
@@ -6464,6 +7031,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getPort",
           "normalized": "T-\u003eIO T",
@@ -6479,6 +7047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getPortSpecified",
           "package": "alsa-seq",
@@ -6488,6 +7057,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getPortSpecified",
           "normalized": "T-\u003eIO Bool",
@@ -6503,6 +7073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getReadUse",
           "package": "alsa-seq",
@@ -6512,6 +7083,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getReadUse",
           "normalized": "T-\u003eIO Word",
@@ -6528,6 +7100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of an object to a newly created object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getSynthVoices",
           "package": "alsa-seq",
@@ -6538,6 +7111,7 @@
         "index": {
           "description": "Copy the content of an object to newly created object",
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getSynthVoices",
           "normalized": "T-\u003eIO Word",
@@ -6553,6 +7127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getTimestampQueue",
           "package": "alsa-seq",
@@ -6562,6 +7137,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getTimestampQueue",
           "normalized": "T-\u003eIO T",
@@ -6577,6 +7153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getTimestampReal",
           "package": "alsa-seq",
@@ -6586,6 +7163,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getTimestampReal",
           "normalized": "T-\u003eIO Bool",
@@ -6602,6 +7180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of one object into another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getTimestamping",
           "package": "alsa-seq",
@@ -6612,6 +7191,7 @@
         "index": {
           "description": "Copy the content of one object into another",
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getTimestamping",
           "normalized": "T-\u003eIO Bool",
@@ -6627,6 +7207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getWriteUse",
           "package": "alsa-seq",
@@ -6636,6 +7217,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "getWriteUse",
           "normalized": "T-\u003eIO Word",
@@ -6652,6 +7234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about the first port on our client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "queryFirst",
           "package": "alsa-seq",
@@ -6662,6 +7245,7 @@
         "index": {
           "description": "Get information about the first port on our client",
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "queryFirst",
           "normalized": "T a-\u003eIO T",
@@ -6677,6 +7261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "queryLoop",
           "package": "alsa-seq",
@@ -6686,6 +7271,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "queryLoop",
           "normalized": "T a-\u003eT-\u003e(T-\u003eIO b)-\u003eIO[b]",
@@ -6701,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "queryLoop_",
           "package": "alsa-seq",
@@ -6710,6 +7297,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "queryLoop_",
           "normalized": "T a-\u003eT-\u003e(T-\u003eIO())-\u003eIO()",
@@ -6726,6 +7314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about the port with the next biggest identifier.\n If a matching port is found, then its information is stored in the\n given area and \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "queryNext",
           "package": "alsa-seq",
@@ -6736,6 +7325,7 @@
         "index": {
           "description": "Get information about the port with the next biggest identifier If matching port is found then its information is stored in the given area and True is returned",
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "queryNext",
           "normalized": "T a-\u003eT-\u003eIO Bool",
@@ -6751,6 +7341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "set",
           "package": "alsa-seq",
@@ -6760,6 +7351,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "set",
           "normalized": "T a-\u003eT-\u003eT-\u003eIO()",
@@ -6774,6 +7366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setAddr",
           "package": "alsa-seq",
@@ -6783,6 +7376,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setAddr",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -6798,6 +7392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setCapability",
           "package": "alsa-seq",
@@ -6807,6 +7402,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setCapability",
           "normalized": "T-\u003eCap-\u003eIO()",
@@ -6822,6 +7418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setClient",
           "package": "alsa-seq",
@@ -6831,6 +7428,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setClient",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -6846,6 +7444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setMidiChannels",
           "package": "alsa-seq",
@@ -6855,6 +7454,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setMidiChannels",
           "normalized": "T-\u003eWord-\u003eIO()",
@@ -6870,6 +7470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setMidiVoices",
           "package": "alsa-seq",
@@ -6879,6 +7480,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setMidiVoices",
           "normalized": "T-\u003eWord-\u003eIO()",
@@ -6894,6 +7496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setName",
           "package": "alsa-seq",
@@ -6903,6 +7506,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setName",
           "normalized": "T-\u003eString-\u003eIO()",
@@ -6918,6 +7522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setPort",
           "package": "alsa-seq",
@@ -6927,6 +7532,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setPort",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -6942,6 +7548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setPortSpecified",
           "package": "alsa-seq",
@@ -6951,6 +7558,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setPortSpecified",
           "normalized": "T-\u003eBool-\u003eIO()",
@@ -6966,6 +7574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setSynthVoices",
           "package": "alsa-seq",
@@ -6975,6 +7584,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setSynthVoices",
           "normalized": "T-\u003eWord-\u003eIO()",
@@ -6991,6 +7601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the port address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setTimestampQueue",
           "package": "alsa-seq",
@@ -7001,6 +7612,7 @@
         "index": {
           "description": "Set the port address",
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setTimestampQueue",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -7016,6 +7628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setTimestampReal",
           "package": "alsa-seq",
@@ -7025,6 +7638,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setTimestampReal",
           "normalized": "T-\u003eBool-\u003eIO()",
@@ -7040,6 +7654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setTimestamping",
           "package": "alsa-seq",
@@ -7049,6 +7664,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.Info",
           "name": "setTimestamping",
           "normalized": "T-\u003eBool-\u003eIO()",
@@ -7065,6 +7681,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with ports.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_port.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "InfoMonad",
           "package": "alsa-seq",
@@ -7074,6 +7691,7 @@
         "index": {
           "description": "This module contains functions for working with ports Reference http www.alsa-project.org alsa-doc alsa-lib group seq port.html",
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "InfoMonad",
           "package": "alsa-seq",
@@ -7087,6 +7705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "T",
           "package": "alsa-seq",
@@ -7095,6 +7714,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "T",
           "package": "alsa-seq",
@@ -7107,6 +7727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "get",
           "package": "alsa-seq",
@@ -7116,6 +7737,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "get",
           "normalized": "T a-\u003eT-\u003eT b-\u003eIO b",
@@ -7130,6 +7752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getAddr",
           "package": "alsa-seq",
@@ -7139,6 +7762,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getAddr",
           "package": "alsa-seq",
@@ -7152,6 +7776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getCapability",
           "package": "alsa-seq",
@@ -7161,6 +7786,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getCapability",
           "package": "alsa-seq",
@@ -7174,6 +7800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getClient",
           "package": "alsa-seq",
@@ -7183,6 +7810,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getClient",
           "package": "alsa-seq",
@@ -7196,6 +7824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getMidiChannels",
           "package": "alsa-seq",
@@ -7205,6 +7834,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getMidiChannels",
           "package": "alsa-seq",
@@ -7218,6 +7848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getMidiVoices",
           "package": "alsa-seq",
@@ -7227,6 +7858,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getMidiVoices",
           "package": "alsa-seq",
@@ -7240,6 +7872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getName",
           "package": "alsa-seq",
@@ -7249,6 +7882,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getName",
           "package": "alsa-seq",
@@ -7262,6 +7896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getPort",
           "package": "alsa-seq",
@@ -7271,6 +7906,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getPort",
           "package": "alsa-seq",
@@ -7284,6 +7920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getPortSpecified",
           "package": "alsa-seq",
@@ -7293,6 +7930,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getPortSpecified",
           "package": "alsa-seq",
@@ -7306,6 +7944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getReadUse",
           "package": "alsa-seq",
@@ -7315,6 +7954,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getReadUse",
           "package": "alsa-seq",
@@ -7328,6 +7968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getSynthVoices",
           "package": "alsa-seq",
@@ -7337,6 +7978,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getSynthVoices",
           "package": "alsa-seq",
@@ -7350,6 +7992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getTimestampQueue",
           "package": "alsa-seq",
@@ -7359,6 +8002,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getTimestampQueue",
           "package": "alsa-seq",
@@ -7372,6 +8016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getTimestampReal",
           "package": "alsa-seq",
@@ -7381,6 +8026,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getTimestampReal",
           "package": "alsa-seq",
@@ -7394,6 +8040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getTimestamping",
           "package": "alsa-seq",
@@ -7403,6 +8050,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getTimestamping",
           "package": "alsa-seq",
@@ -7416,6 +8064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getWriteUse",
           "package": "alsa-seq",
@@ -7425,6 +8074,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "getWriteUse",
           "package": "alsa-seq",
@@ -7438,6 +8088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "modify",
           "package": "alsa-seq",
@@ -7447,6 +8098,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "modify",
           "normalized": "T a-\u003eT-\u003eT b-\u003eIO b",
@@ -7461,6 +8113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "run",
           "package": "alsa-seq",
@@ -7470,6 +8123,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "run",
           "normalized": "T a-\u003eT-\u003eIO a",
@@ -7484,6 +8138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setAddr",
           "package": "alsa-seq",
@@ -7493,6 +8148,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setAddr",
           "normalized": "T-\u003eT()",
@@ -7508,6 +8164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setCapability",
           "package": "alsa-seq",
@@ -7517,6 +8174,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setCapability",
           "normalized": "Cap-\u003eT()",
@@ -7532,6 +8190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setClient",
           "package": "alsa-seq",
@@ -7541,6 +8200,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setClient",
           "normalized": "T-\u003eT()",
@@ -7556,6 +8216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setMidiChannels",
           "package": "alsa-seq",
@@ -7565,6 +8226,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setMidiChannels",
           "normalized": "Word-\u003eT()",
@@ -7580,6 +8242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setMidiVoices",
           "package": "alsa-seq",
@@ -7589,6 +8252,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setMidiVoices",
           "normalized": "Word-\u003eT()",
@@ -7604,6 +8268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setName",
           "package": "alsa-seq",
@@ -7613,6 +8278,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setName",
           "normalized": "String-\u003eT()",
@@ -7628,6 +8294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setPort",
           "package": "alsa-seq",
@@ -7637,6 +8304,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setPort",
           "normalized": "T-\u003eT()",
@@ -7652,6 +8320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setPortSpecified",
           "package": "alsa-seq",
@@ -7661,6 +8330,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setPortSpecified",
           "normalized": "Bool-\u003eT()",
@@ -7676,6 +8346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setSynthVoices",
           "package": "alsa-seq",
@@ -7685,6 +8356,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setSynthVoices",
           "normalized": "Word-\u003eT()",
@@ -7700,6 +8372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setTimestampQueue",
           "package": "alsa-seq",
@@ -7709,6 +8382,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setTimestampQueue",
           "normalized": "T-\u003eT()",
@@ -7724,6 +8398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setTimestampReal",
           "package": "alsa-seq",
@@ -7733,6 +8408,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setTimestampReal",
           "normalized": "Bool-\u003eT()",
@@ -7748,6 +8424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setTimestamping",
           "package": "alsa-seq",
@@ -7757,6 +8434,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port InfoMonad",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port.InfoMonad",
           "name": "setTimestamping",
           "normalized": "Bool-\u003eT()",
@@ -7773,6 +8451,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with ports.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_port.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "Port",
           "package": "alsa-seq",
@@ -7782,6 +8461,7 @@
         "index": {
           "description": "This module contains functions for working with ports Reference http www.alsa-project.org alsa-doc alsa-lib group seq port.html",
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "Port",
           "package": "alsa-seq",
@@ -7796,6 +8476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort capabilities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "Cap",
           "package": "alsa-seq",
@@ -7805,6 +8486,7 @@
         "index": {
           "description": "Port capabilities",
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "Cap",
           "package": "alsa-seq",
@@ -7818,6 +8500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "T",
           "package": "alsa-seq",
@@ -7826,6 +8509,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "T",
           "package": "alsa-seq",
@@ -7839,6 +8523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "Type",
           "package": "alsa-seq",
@@ -7848,6 +8533,7 @@
         "index": {
           "description": "Port types",
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "Type",
           "package": "alsa-seq",
@@ -7861,6 +8547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "Cons",
           "package": "alsa-seq",
@@ -7870,6 +8557,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "Cons",
           "package": "alsa-seq",
@@ -7883,6 +8571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capDuplex",
           "package": "alsa-seq",
@@ -7892,6 +8581,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capDuplex",
           "package": "alsa-seq",
@@ -7905,6 +8595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capNoExport",
           "package": "alsa-seq",
@@ -7914,6 +8605,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capNoExport",
           "package": "alsa-seq",
@@ -7927,6 +8619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capRead",
           "package": "alsa-seq",
@@ -7936,6 +8629,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capRead",
           "package": "alsa-seq",
@@ -7949,6 +8643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capSubsRead",
           "package": "alsa-seq",
@@ -7958,6 +8653,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capSubsRead",
           "package": "alsa-seq",
@@ -7971,6 +8667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capSubsWrite",
           "package": "alsa-seq",
@@ -7980,6 +8677,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capSubsWrite",
           "package": "alsa-seq",
@@ -7993,6 +8691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capSyncRead",
           "package": "alsa-seq",
@@ -8002,6 +8701,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capSyncRead",
           "package": "alsa-seq",
@@ -8015,6 +8715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capSyncWrite",
           "package": "alsa-seq",
@@ -8024,6 +8725,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capSyncWrite",
           "package": "alsa-seq",
@@ -8037,6 +8739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capWrite",
           "package": "alsa-seq",
@@ -8046,6 +8749,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "capWrite",
           "package": "alsa-seq",
@@ -8059,6 +8763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "caps",
           "package": "alsa-seq",
@@ -8068,6 +8773,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "caps",
           "normalized": "[Cap]-\u003eCap",
@@ -8083,6 +8789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new port, as described by the info structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "create",
           "package": "alsa-seq",
@@ -8093,6 +8800,7 @@
         "index": {
           "description": "Create new port as described by the info structure",
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "create",
           "normalized": "T a-\u003eT-\u003eIO()",
@@ -8108,6 +8816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a port - simple version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "createSimple",
           "package": "alsa-seq",
@@ -8118,6 +8827,7 @@
         "index": {
           "description": "Create port simple version",
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "createSimple",
           "normalized": "T a-\u003eString-\u003eCap-\u003eType-\u003eIO T",
@@ -8134,6 +8844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "delete",
           "package": "alsa-seq",
@@ -8144,6 +8855,7 @@
         "index": {
           "description": "Delete the port",
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "delete",
           "normalized": "T a-\u003eT-\u003eIO()",
@@ -8159,6 +8871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "deleteSimple",
           "package": "alsa-seq",
@@ -8169,6 +8882,7 @@
         "index": {
           "description": "Delete the port",
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "deleteSimple",
           "normalized": "T a-\u003eT-\u003eIO()",
@@ -8184,6 +8898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "systemAnnounce",
           "package": "alsa-seq",
@@ -8193,6 +8908,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "systemAnnounce",
           "package": "alsa-seq",
@@ -8206,6 +8922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "systemTimer",
           "package": "alsa-seq",
@@ -8215,6 +8932,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "systemTimer",
           "package": "alsa-seq",
@@ -8228,6 +8946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeApplication",
           "package": "alsa-seq",
@@ -8237,6 +8956,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeApplication",
           "package": "alsa-seq",
@@ -8250,6 +8970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeDirectSample",
           "package": "alsa-seq",
@@ -8259,6 +8980,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeDirectSample",
           "package": "alsa-seq",
@@ -8272,6 +8994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeHardware",
           "package": "alsa-seq",
@@ -8281,6 +9004,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeHardware",
           "package": "alsa-seq",
@@ -8294,6 +9018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeMidiGM",
           "package": "alsa-seq",
@@ -8303,6 +9028,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeMidiGM",
           "package": "alsa-seq",
@@ -8316,6 +9042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeMidiGM2",
           "package": "alsa-seq",
@@ -8325,6 +9052,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeMidiGM2",
           "package": "alsa-seq",
@@ -8338,6 +9066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeMidiGS",
           "package": "alsa-seq",
@@ -8347,6 +9076,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeMidiGS",
           "package": "alsa-seq",
@@ -8360,6 +9090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeMidiGeneric",
           "package": "alsa-seq",
@@ -8369,6 +9100,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeMidiGeneric",
           "package": "alsa-seq",
@@ -8382,6 +9114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeMidiMT32",
           "package": "alsa-seq",
@@ -8391,6 +9124,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeMidiMT32",
           "package": "alsa-seq",
@@ -8404,6 +9138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeMidiXG",
           "package": "alsa-seq",
@@ -8413,6 +9148,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeMidiXG",
           "package": "alsa-seq",
@@ -8426,6 +9162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typePort",
           "package": "alsa-seq",
@@ -8435,6 +9172,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typePort",
           "package": "alsa-seq",
@@ -8448,6 +9186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeSample",
           "package": "alsa-seq",
@@ -8457,6 +9196,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeSample",
           "package": "alsa-seq",
@@ -8470,6 +9210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeSoftware",
           "package": "alsa-seq",
@@ -8479,6 +9220,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeSoftware",
           "package": "alsa-seq",
@@ -8492,6 +9234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeSpecific",
           "package": "alsa-seq",
@@ -8501,6 +9244,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeSpecific",
           "package": "alsa-seq",
@@ -8514,6 +9258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeSynth",
           "package": "alsa-seq",
@@ -8523,6 +9268,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeSynth",
           "package": "alsa-seq",
@@ -8536,6 +9282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeSynthesizer",
           "package": "alsa-seq",
@@ -8545,6 +9292,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "typeSynthesizer",
           "package": "alsa-seq",
@@ -8558,6 +9306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "types",
           "package": "alsa-seq",
@@ -8567,6 +9316,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "types",
           "normalized": "[Type]-\u003eType",
@@ -8581,6 +9331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "unknown",
           "package": "alsa-seq",
@@ -8590,6 +9341,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "unknown",
           "package": "alsa-seq",
@@ -8602,6 +9354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "withSimple",
           "package": "alsa-seq",
@@ -8611,6 +9364,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Port",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Port",
           "name": "withSimple",
           "normalized": "T a-\u003eString-\u003eCap-\u003eType-\u003e(T-\u003eIO b)-\u003eIO b",
@@ -8626,6 +9380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "Query",
           "package": "alsa-seq",
@@ -8634,6 +9389,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "Query",
           "package": "alsa-seq",
@@ -8647,6 +9403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "C",
           "package": "alsa-seq",
@@ -8655,6 +9412,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "C",
           "package": "alsa-seq",
@@ -8667,6 +9425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "first",
           "package": "alsa-seq",
@@ -8676,6 +9435,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "first",
           "normalized": "T a-\u003eIO b",
@@ -8690,6 +9450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "init",
           "package": "alsa-seq",
@@ -8699,6 +9460,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "init",
           "normalized": "a-\u003eIO()",
@@ -8713,6 +9475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "loop",
           "package": "alsa-seq",
@@ -8722,6 +9485,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "loop",
           "normalized": "T a-\u003e(b-\u003eIO())-\u003e(b-\u003eIO c)-\u003eIO[c]",
@@ -8736,6 +9500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "loop_",
           "package": "alsa-seq",
@@ -8745,6 +9510,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "loop_",
           "normalized": "T a-\u003e(b-\u003eIO())-\u003e(b-\u003eIO())-\u003eIO()",
@@ -8759,6 +9525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "next",
           "package": "alsa-seq",
@@ -8768,6 +9535,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Query",
           "name": "next",
           "normalized": "T a-\u003eb-\u003eIO Bool",
@@ -8783,6 +9551,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with sequencer queue.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_queue.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "Info",
           "package": "alsa-seq",
@@ -8792,6 +9561,7 @@
         "index": {
           "description": "This module contains functions for working with sequencer queue Reference http www.alsa-project.org alsa-doc alsa-lib group seq queue.html",
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "Info",
           "package": "alsa-seq",
@@ -8805,6 +9575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "T",
           "package": "alsa-seq",
@@ -8813,6 +9584,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "T",
           "package": "alsa-seq",
@@ -8826,6 +9598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of an object to a newly created object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "clone",
           "package": "alsa-seq",
@@ -8836,6 +9609,7 @@
         "index": {
           "description": "Copy the content of an object to newly created object",
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "clone",
           "normalized": "T-\u003eIO T",
@@ -8850,6 +9624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "get",
           "package": "alsa-seq",
@@ -8859,6 +9634,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "get",
           "normalized": "T a-\u003eT-\u003eIO T",
@@ -8873,6 +9649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "getFlags",
           "package": "alsa-seq",
@@ -8882,6 +9659,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "getFlags",
           "normalized": "T-\u003eIO Word",
@@ -8897,6 +9675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "getLocked",
           "package": "alsa-seq",
@@ -8906,6 +9685,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "getLocked",
           "normalized": "T-\u003eIO Bool",
@@ -8921,6 +9701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "getName",
           "package": "alsa-seq",
@@ -8930,6 +9711,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "getName",
           "normalized": "T-\u003eIO String",
@@ -8945,6 +9727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "getOwner",
           "package": "alsa-seq",
@@ -8954,6 +9737,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "getOwner",
           "normalized": "T-\u003eIO T",
@@ -8969,6 +9753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "getQueue",
           "package": "alsa-seq",
@@ -8978,6 +9763,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "getQueue",
           "normalized": "T-\u003eIO T",
@@ -8993,6 +9779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "set",
           "package": "alsa-seq",
@@ -9002,6 +9789,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "set",
           "normalized": "T a-\u003eT-\u003eT-\u003eIO()",
@@ -9016,6 +9804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "setFlags",
           "package": "alsa-seq",
@@ -9025,6 +9814,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "setFlags",
           "normalized": "T-\u003eWord-\u003eIO()",
@@ -9040,6 +9830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "setLocked",
           "package": "alsa-seq",
@@ -9049,6 +9840,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "setLocked",
           "normalized": "T-\u003eBool-\u003eIO()",
@@ -9064,6 +9856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "setName",
           "package": "alsa-seq",
@@ -9073,6 +9866,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "setName",
           "normalized": "T-\u003eString-\u003eIO()",
@@ -9088,6 +9882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "setOwner",
           "package": "alsa-seq",
@@ -9097,6 +9892,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Info",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Info",
           "name": "setOwner",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -9113,6 +9909,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with sequencer queue.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_queue.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "Status",
           "package": "alsa-seq",
@@ -9122,6 +9919,7 @@
         "index": {
           "description": "This module contains functions for working with sequencer queue Reference http www.alsa-project.org alsa-doc alsa-lib group seq queue.html",
           "hierarchy": "Sound ALSA Sequencer Queue Status",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "Status",
           "package": "alsa-seq",
@@ -9135,6 +9933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "T",
           "package": "alsa-seq",
@@ -9143,6 +9942,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Status",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "T",
           "package": "alsa-seq",
@@ -9156,6 +9956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of an object to a newly created object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "clone",
           "package": "alsa-seq",
@@ -9166,6 +9967,7 @@
         "index": {
           "description": "Copy the content of an object to newly created object",
           "hierarchy": "Sound ALSA Sequencer Queue Status",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "clone",
           "normalized": "T-\u003eIO T",
@@ -9181,6 +9983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of one object into another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "copy",
           "package": "alsa-seq",
@@ -9190,6 +9993,7 @@
         "index": {
           "description": "Copy the content of one object into another",
           "hierarchy": "Sound ALSA Sequencer Queue Status",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "copy",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -9204,6 +10008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "get",
           "package": "alsa-seq",
@@ -9213,6 +10018,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Status",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "get",
           "normalized": "T a-\u003eT-\u003eIO T",
@@ -9227,6 +10033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "getEvents",
           "package": "alsa-seq",
@@ -9236,6 +10043,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Status",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "getEvents",
           "normalized": "T-\u003eIO Int",
@@ -9251,6 +10059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "getQueue",
           "package": "alsa-seq",
@@ -9260,6 +10069,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Status",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "getQueue",
           "normalized": "T-\u003eIO T",
@@ -9275,6 +10085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "getRealTime",
           "package": "alsa-seq",
@@ -9284,6 +10095,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Status",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "getRealTime",
           "normalized": "T-\u003eIO T",
@@ -9300,6 +10112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate an uninitialized object. (Not exported)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "getTickTime",
           "package": "alsa-seq",
@@ -9310,6 +10123,7 @@
         "index": {
           "description": "Allocate an uninitialized object Not exported",
           "hierarchy": "Sound ALSA Sequencer Queue Status",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Status",
           "name": "getTickTime",
           "normalized": "T-\u003eIO Tick",
@@ -9326,6 +10140,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with sequencer queue.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_queue.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "Tempo",
           "package": "alsa-seq",
@@ -9335,6 +10150,7 @@
         "index": {
           "description": "This module contains functions for working with sequencer queue Reference http www.alsa-project.org alsa-doc alsa-lib group seq queue.html",
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "Tempo",
           "package": "alsa-seq",
@@ -9348,6 +10164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "T",
           "package": "alsa-seq",
@@ -9356,6 +10173,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "T",
           "package": "alsa-seq",
@@ -9369,6 +10187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of an object to a newly created object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "clone",
           "package": "alsa-seq",
@@ -9379,6 +10198,7 @@
         "index": {
           "description": "Copy the content of an object to newly created object",
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "clone",
           "normalized": "T-\u003eIO T",
@@ -9393,6 +10213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "get",
           "package": "alsa-seq",
@@ -9402,6 +10223,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "get",
           "normalized": "T a-\u003eT-\u003eIO T",
@@ -9416,6 +10238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "getPPQ",
           "package": "alsa-seq",
@@ -9425,6 +10248,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "getPPQ",
           "normalized": "T-\u003eIO Int",
@@ -9440,6 +10264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "getQueue",
           "package": "alsa-seq",
@@ -9449,6 +10274,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "getQueue",
           "normalized": "T-\u003eIO T",
@@ -9464,6 +10290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "getSkew",
           "package": "alsa-seq",
@@ -9473,6 +10300,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "getSkew",
           "normalized": "T-\u003eIO Word",
@@ -9488,6 +10316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "getSkewBase",
           "package": "alsa-seq",
@@ -9497,6 +10326,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "getSkewBase",
           "normalized": "T-\u003eIO Word",
@@ -9512,6 +10342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "getTempo",
           "package": "alsa-seq",
@@ -9521,6 +10352,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "getTempo",
           "normalized": "T-\u003eIO Word",
@@ -9536,6 +10368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "set",
           "package": "alsa-seq",
@@ -9545,6 +10378,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "set",
           "normalized": "T a-\u003eT-\u003eT-\u003eIO()",
@@ -9559,6 +10393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "setPPQ",
           "package": "alsa-seq",
@@ -9568,6 +10403,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "setPPQ",
           "normalized": "T-\u003eInt-\u003eIO()",
@@ -9583,6 +10419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "setSkew",
           "package": "alsa-seq",
@@ -9592,6 +10429,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "setSkew",
           "normalized": "T-\u003eWord-\u003eIO()",
@@ -9607,6 +10445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "setSkewBase",
           "package": "alsa-seq",
@@ -9616,6 +10455,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "setSkewBase",
           "normalized": "T-\u003eWord-\u003eIO()",
@@ -9632,6 +10472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of one object into another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "setTempo",
           "package": "alsa-seq",
@@ -9642,6 +10483,7 @@
         "index": {
           "description": "Copy the content of one object into another",
           "hierarchy": "Sound ALSA Sequencer Queue Tempo",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Tempo",
           "name": "setTempo",
           "normalized": "T-\u003eWord-\u003eIO()",
@@ -9658,6 +10500,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with sequencer queue.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_queue.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "Timer",
           "package": "alsa-seq",
@@ -9667,6 +10510,7 @@
         "index": {
           "description": "This module contains functions for working with sequencer queue Reference http www.alsa-project.org alsa-doc alsa-lib group seq queue.html",
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "Timer",
           "package": "alsa-seq",
@@ -9680,6 +10524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "T",
           "package": "alsa-seq",
@@ -9688,6 +10533,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "T",
           "package": "alsa-seq",
@@ -9700,6 +10546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "Type",
           "package": "alsa-seq",
@@ -9708,6 +10555,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "Type",
           "package": "alsa-seq",
@@ -9721,6 +10569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "Alsa",
           "package": "alsa-seq",
@@ -9730,6 +10579,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "Alsa",
           "package": "alsa-seq",
@@ -9743,6 +10593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "MidiClock",
           "package": "alsa-seq",
@@ -9752,6 +10603,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "MidiClock",
           "package": "alsa-seq",
@@ -9765,6 +10617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "MidiTick",
           "package": "alsa-seq",
@@ -9774,6 +10627,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "MidiTick",
           "package": "alsa-seq",
@@ -9788,6 +10642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of an object to a newly created object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "clone",
           "package": "alsa-seq",
@@ -9798,6 +10653,7 @@
         "index": {
           "description": "Copy the content of an object to newly created object",
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "clone",
           "normalized": "T-\u003eIO T",
@@ -9812,6 +10668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "get",
           "package": "alsa-seq",
@@ -9821,6 +10678,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "get",
           "normalized": "T a-\u003eT-\u003eIO T",
@@ -9835,6 +10693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "getQueue",
           "package": "alsa-seq",
@@ -9844,6 +10703,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "getQueue",
           "normalized": "T-\u003eIO T",
@@ -9859,6 +10719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "getResolution",
           "package": "alsa-seq",
@@ -9868,6 +10729,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "getResolution",
           "normalized": "T-\u003eIO Word",
@@ -9883,6 +10745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "getType",
           "package": "alsa-seq",
@@ -9892,6 +10755,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "getType",
           "normalized": "T-\u003eIO Type",
@@ -9907,6 +10771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "set",
           "package": "alsa-seq",
@@ -9916,6 +10781,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "set",
           "normalized": "T a-\u003eT-\u003eT-\u003eIO()",
@@ -9930,6 +10796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "setResolution",
           "package": "alsa-seq",
@@ -9939,6 +10806,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "setResolution",
           "normalized": "T-\u003eWord-\u003eIO()",
@@ -9954,6 +10822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "setType",
           "package": "alsa-seq",
@@ -9963,6 +10832,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue Timer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue.Timer",
           "name": "setType",
           "normalized": "T-\u003eType-\u003eIO()",
@@ -9979,6 +10849,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with sequencer queue.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_queue.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "Queue",
           "package": "alsa-seq",
@@ -9988,6 +10859,7 @@
         "index": {
           "description": "This module contains functions for working with sequencer queue Reference http www.alsa-project.org alsa-doc alsa-lib group seq queue.html",
           "hierarchy": "Sound ALSA Sequencer Queue",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "Queue",
           "package": "alsa-seq",
@@ -10002,6 +10874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of queue identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "T",
           "package": "alsa-seq",
@@ -10011,6 +10884,7 @@
         "index": {
           "description": "The type of queue identifiers",
           "hierarchy": "Sound ALSA Sequencer Queue",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "T",
           "package": "alsa-seq",
@@ -10023,6 +10897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "alloc",
           "package": "alsa-seq",
@@ -10031,6 +10906,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "alloc",
           "normalized": "T a-\u003eIO T",
@@ -10045,6 +10921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "allocNamed",
           "package": "alsa-seq",
@@ -10054,6 +10931,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "allocNamed",
           "normalized": "T a-\u003eString-\u003eIO T",
@@ -10070,6 +10948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart\u003cem\u003estop\u003c/em\u003econtinue a queue\n\u003c/p\u003e\u003cp\u003eIn the prototype event you can provide additional information.\nThe prototype event does not need to be a queue control event,\nthis part is ignored anyway.\nIn the prototype event you may also specify a queue.\nThis is the queue that the timestamp of the prototype event refers to.\nThis way you can control the target queue using timing from another queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "control",
           "package": "alsa-seq",
@@ -10079,6 +10958,7 @@
         "index": {
           "description": "start stop continue queue In the prototype event you can provide additional information The prototype event does not need to be queue control event this part is ignored anyway In the prototype event you may also specify queue This is the queue that the timestamp of the prototype event refers to This way you can control the target queue using timing from another queue",
           "hierarchy": "Sound ALSA Sequencer Queue",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "control",
           "normalized": "T a-\u003eT-\u003eQueueEv-\u003eMaybe T-\u003eIO()",
@@ -10093,6 +10973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "direct",
           "package": "alsa-seq",
@@ -10102,6 +10983,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "direct",
           "package": "alsa-seq",
@@ -10115,6 +10997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the specified queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "free",
           "package": "alsa-seq",
@@ -10124,6 +11007,7 @@
         "index": {
           "description": "Delete the specified queue",
           "hierarchy": "Sound ALSA Sequencer Queue",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "free",
           "normalized": "T a-\u003eT-\u003eIO()",
@@ -10138,6 +11022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "with",
           "package": "alsa-seq",
@@ -10147,6 +11032,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "with",
           "normalized": "T a-\u003e(T-\u003eIO b)-\u003eIO b",
@@ -10161,6 +11047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "withNamed",
           "package": "alsa-seq",
@@ -10170,6 +11057,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Queue",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Queue",
           "name": "withNamed",
           "normalized": "T a-\u003eString-\u003e(T-\u003eIO b)-\u003eIO b",
@@ -10185,6 +11073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "RealTime",
           "package": "alsa-seq",
@@ -10193,6 +11082,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer RealTime",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "RealTime",
           "package": "alsa-seq",
@@ -10206,6 +11096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "T",
           "package": "alsa-seq",
@@ -10214,6 +11105,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer RealTime",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "T",
           "package": "alsa-seq",
@@ -10226,6 +11118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "Cons",
           "package": "alsa-seq",
@@ -10235,6 +11128,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer RealTime",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "Cons",
           "package": "alsa-seq",
@@ -10249,6 +11143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert fractional number of seconds to \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e\nTime must be non-negative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "fromDouble",
           "package": "alsa-seq",
@@ -10259,6 +11154,7 @@
         "index": {
           "description": "Convert fractional number of seconds to Time must be non-negative",
           "hierarchy": "Sound ALSA Sequencer RealTime",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "fromDouble",
           "normalized": "Double-\u003eT",
@@ -10274,6 +11170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "fromFractional",
           "package": "alsa-seq",
@@ -10283,6 +11180,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer RealTime",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "fromFractional",
           "normalized": "a-\u003eT",
@@ -10299,6 +11197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert number of nanoseconds to \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "fromInteger",
           "package": "alsa-seq",
@@ -10309,6 +11208,7 @@
         "index": {
           "description": "Convert number of nanoseconds to",
           "hierarchy": "Sound ALSA Sequencer RealTime",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "fromInteger",
           "normalized": "Integer-\u003eT",
@@ -10324,6 +11224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "nano",
           "package": "alsa-seq",
@@ -10333,6 +11234,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer RealTime",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "nano",
           "package": "alsa-seq",
@@ -10345,6 +11247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "secs",
           "package": "alsa-seq",
@@ -10354,6 +11257,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer RealTime",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "secs",
           "package": "alsa-seq",
@@ -10367,6 +11271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert fractional number of seconds to \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "toDouble",
           "package": "alsa-seq",
@@ -10377,6 +11282,7 @@
         "index": {
           "description": "Convert fractional number of seconds to",
           "hierarchy": "Sound ALSA Sequencer RealTime",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "toDouble",
           "normalized": "T-\u003eDouble",
@@ -10392,6 +11298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "toFractional",
           "package": "alsa-seq",
@@ -10401,6 +11308,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer RealTime",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "toFractional",
           "normalized": "T-\u003ea",
@@ -10417,6 +11325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert number of nanoseconds to \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "toInteger",
           "package": "alsa-seq",
@@ -10427,6 +11336,7 @@
         "index": {
           "description": "Convert number of nanoseconds to",
           "hierarchy": "Sound ALSA Sequencer RealTime",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.RealTime",
           "name": "toInteger",
           "normalized": "T-\u003eInteger",
@@ -10443,6 +11353,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with subscriptions.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_subscribe.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "Query",
           "package": "alsa-seq",
@@ -10452,6 +11363,7 @@
         "index": {
           "description": "This module contains functions for working with subscriptions Reference http www.alsa-project.org alsa-doc alsa-lib group seq subscribe.html",
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "Query",
           "package": "alsa-seq",
@@ -10465,6 +11377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "T",
           "package": "alsa-seq",
@@ -10473,6 +11386,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "T",
           "package": "alsa-seq",
@@ -10485,6 +11399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "Type",
           "package": "alsa-seq",
@@ -10493,6 +11408,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "Type",
           "package": "alsa-seq",
@@ -10506,6 +11422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "Read",
           "package": "alsa-seq",
@@ -10515,6 +11432,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "Read",
           "package": "alsa-seq",
@@ -10528,6 +11446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "Write",
           "package": "alsa-seq",
@@ -10537,6 +11456,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "Write",
           "package": "alsa-seq",
@@ -10550,6 +11470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "clone",
           "package": "alsa-seq",
@@ -10559,6 +11480,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "clone",
           "normalized": "T-\u003eIO T",
@@ -10573,6 +11495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getAddr",
           "package": "alsa-seq",
@@ -10582,6 +11505,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getAddr",
           "normalized": "T-\u003eIO T",
@@ -10597,6 +11521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getClient",
           "package": "alsa-seq",
@@ -10606,6 +11531,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getClient",
           "normalized": "T-\u003eIO T",
@@ -10621,6 +11547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getExclusive",
           "package": "alsa-seq",
@@ -10630,6 +11557,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getExclusive",
           "normalized": "T-\u003eIO Bool",
@@ -10645,6 +11573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getIndex",
           "package": "alsa-seq",
@@ -10654,6 +11583,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getIndex",
           "normalized": "T-\u003eIO Word",
@@ -10669,6 +11599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getNumSubs",
           "package": "alsa-seq",
@@ -10678,6 +11609,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getNumSubs",
           "normalized": "T-\u003eIO Word",
@@ -10693,6 +11625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getPort",
           "package": "alsa-seq",
@@ -10702,6 +11635,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getPort",
           "normalized": "T-\u003eIO T",
@@ -10717,6 +11651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getQueue",
           "package": "alsa-seq",
@@ -10726,6 +11661,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getQueue",
           "normalized": "T-\u003eIO T",
@@ -10742,6 +11678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the client/port address of a query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getRoot",
           "package": "alsa-seq",
@@ -10752,6 +11689,7 @@
         "index": {
           "description": "Set the client port address of query",
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getRoot",
           "normalized": "T-\u003eIO T",
@@ -10767,6 +11705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getTimeReal",
           "package": "alsa-seq",
@@ -10776,6 +11715,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getTimeReal",
           "normalized": "T-\u003eIO Bool",
@@ -10791,6 +11731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getTimeUpdate",
           "package": "alsa-seq",
@@ -10800,6 +11741,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getTimeUpdate",
           "normalized": "T-\u003eIO Bool",
@@ -10815,6 +11757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getType",
           "package": "alsa-seq",
@@ -10824,6 +11767,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "getType",
           "normalized": "T-\u003eIO Type",
@@ -10839,6 +11783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "malloc",
           "package": "alsa-seq",
@@ -10848,6 +11793,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "malloc",
           "package": "alsa-seq",
@@ -10861,6 +11807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQueries a subscriber connected to (Write) or from (Read) a given address: \u003ccode\u003e\u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e seq addr typ index\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "query",
           "package": "alsa-seq",
@@ -10871,6 +11818,7 @@
         "index": {
           "description": "Queries subscriber connected to Write or from Read given address query seq addr typ index",
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "query",
           "normalized": "T a-\u003eT-\u003eType-\u003eWord-\u003eIO(Maybe T)",
@@ -10886,6 +11834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQueries the list of subscribers accessing a port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "queryAll",
           "package": "alsa-seq",
@@ -10896,6 +11845,7 @@
         "index": {
           "description": "Queries the list of subscribers accessing port",
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "queryAll",
           "normalized": "T a-\u003eT-\u003eType-\u003eIO[T]",
@@ -10911,6 +11861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "setClient",
           "package": "alsa-seq",
@@ -10920,6 +11871,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "setClient",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -10935,6 +11887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "setIndex",
           "package": "alsa-seq",
@@ -10944,6 +11897,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "setIndex",
           "normalized": "T-\u003eWord-\u003eIO()",
@@ -10959,6 +11913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "setPort",
           "package": "alsa-seq",
@@ -10968,6 +11923,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "setPort",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -10983,6 +11939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "setType",
           "package": "alsa-seq",
@@ -10992,6 +11949,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe Query",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe.Query",
           "name": "setType",
           "normalized": "T-\u003eType-\u003eIO()",
@@ -11008,6 +11966,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with subscriptions.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_subscribe.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "Subscribe",
           "package": "alsa-seq",
@@ -11017,6 +11976,7 @@
         "index": {
           "description": "This module contains functions for working with subscriptions Reference http www.alsa-project.org alsa-doc alsa-lib group seq subscribe.html",
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "Subscribe",
           "package": "alsa-seq",
@@ -11030,6 +11990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "T",
           "package": "alsa-seq",
@@ -11038,6 +11999,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "T",
           "package": "alsa-seq",
@@ -11051,6 +12013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of an object to a newly created object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "clone",
           "package": "alsa-seq",
@@ -11061,6 +12024,7 @@
         "index": {
           "description": "Copy the content of an object to newly created object",
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "clone",
           "normalized": "T-\u003eIO T",
@@ -11075,6 +12039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "create",
           "package": "alsa-seq",
@@ -11084,6 +12049,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "create",
           "normalized": "T-\u003eT-\u003eBool-\u003eMaybe(T,Bool)-\u003eIO T",
@@ -11098,6 +12064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "getDest",
           "package": "alsa-seq",
@@ -11107,6 +12074,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "getDest",
           "normalized": "T-\u003eIO T",
@@ -11122,6 +12090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "getExclusive",
           "package": "alsa-seq",
@@ -11131,6 +12100,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "getExclusive",
           "normalized": "T-\u003eIO Bool",
@@ -11146,6 +12116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "getQueue",
           "package": "alsa-seq",
@@ -11155,6 +12126,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "getQueue",
           "normalized": "T-\u003eIO T",
@@ -11170,6 +12142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "getSender",
           "package": "alsa-seq",
@@ -11179,6 +12152,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "getSender",
           "normalized": "T-\u003eIO T",
@@ -11194,6 +12168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "getTimeReal",
           "package": "alsa-seq",
@@ -11203,6 +12178,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "getTimeReal",
           "normalized": "T-\u003eIO Bool",
@@ -11219,6 +12195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate an uninitialized object. (Not exported)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "getTimeUpdate",
           "package": "alsa-seq",
@@ -11229,6 +12206,7 @@
         "index": {
           "description": "Allocate an uninitialized object Not exported",
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "getTimeUpdate",
           "normalized": "T-\u003eIO Bool",
@@ -11244,6 +12222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "malloc",
           "package": "alsa-seq",
@@ -11253,6 +12232,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "malloc",
           "package": "alsa-seq",
@@ -11265,6 +12245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "setDest",
           "package": "alsa-seq",
@@ -11274,6 +12255,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "setDest",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -11289,6 +12271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "setExclusive",
           "package": "alsa-seq",
@@ -11298,6 +12281,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "setExclusive",
           "normalized": "T-\u003eBool-\u003eIO()",
@@ -11313,6 +12297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "setQueue",
           "package": "alsa-seq",
@@ -11322,6 +12307,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "setQueue",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -11337,6 +12323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "setSender",
           "package": "alsa-seq",
@@ -11346,6 +12333,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "setSender",
           "normalized": "T-\u003eT-\u003eIO()",
@@ -11361,6 +12349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "setTimeReal",
           "package": "alsa-seq",
@@ -11370,6 +12359,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "setTimeReal",
           "normalized": "T-\u003eBool-\u003eIO()",
@@ -11385,6 +12375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "setTimeUpdate",
           "package": "alsa-seq",
@@ -11394,6 +12385,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "setTimeUpdate",
           "normalized": "T-\u003eBool-\u003eIO()",
@@ -11410,6 +12402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubscribe a port connection: \u003ccode\u003e\u003ccode\u003esubscribeSimple\u003c/code\u003e sender dest exclusive (Just (updatequeue, realtime))\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "subscribe",
           "package": "alsa-seq",
@@ -11420,6 +12413,7 @@
         "index": {
           "description": "Subscribe port connection subscribeSimple sender dest exclusive Just updatequeue realtime",
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "subscribe",
           "normalized": "T a-\u003eT-\u003eT-\u003eBool-\u003eMaybe(T,Bool)-\u003eIO()",
@@ -11435,6 +12429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubscribe a port connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "subscribePort",
           "package": "alsa-seq",
@@ -11445,6 +12440,7 @@
         "index": {
           "description": "Subscribe port connection",
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "subscribePort",
           "normalized": "T a-\u003eT-\u003eIO()",
@@ -11461,6 +12457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsubscribe a port connection: \u003ccode\u003e\u003ccode\u003eunsubscribeSimple\u003c/code\u003e sender dest\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "unsubscribe",
           "package": "alsa-seq",
@@ -11471,6 +12468,7 @@
         "index": {
           "description": "Unsubscribe port connection unsubscribeSimple sender dest",
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "unsubscribe",
           "normalized": "T a-\u003eT-\u003eT-\u003eIO()",
@@ -11485,6 +12483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "unsubscribePort",
           "package": "alsa-seq",
@@ -11494,6 +12493,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Subscribe",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Subscribe",
           "name": "unsubscribePort",
           "normalized": "T a-\u003eT-\u003eIO()",
@@ -11509,6 +12509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Time",
           "package": "alsa-seq",
@@ -11517,6 +12518,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Time",
           "package": "alsa-seq",
@@ -11530,6 +12532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Mode",
           "package": "alsa-seq",
@@ -11538,6 +12541,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Mode",
           "package": "alsa-seq",
@@ -11551,6 +12555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Stamp",
           "package": "alsa-seq",
@@ -11559,6 +12564,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Stamp",
           "package": "alsa-seq",
@@ -11572,6 +12578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "T",
           "package": "alsa-seq",
@@ -11580,6 +12587,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "T",
           "package": "alsa-seq",
@@ -11592,6 +12600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Absolute",
           "package": "alsa-seq",
@@ -11601,6 +12610,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Absolute",
           "package": "alsa-seq",
@@ -11614,6 +12624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Cons",
           "package": "alsa-seq",
@@ -11623,6 +12634,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Cons",
           "package": "alsa-seq",
@@ -11636,6 +12648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Real",
           "package": "alsa-seq",
@@ -11645,6 +12658,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Real",
           "package": "alsa-seq",
@@ -11658,6 +12672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Relative",
           "package": "alsa-seq",
@@ -11667,6 +12682,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Relative",
           "package": "alsa-seq",
@@ -11680,6 +12696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Tick",
           "package": "alsa-seq",
@@ -11689,6 +12706,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "Tick",
           "package": "alsa-seq",
@@ -11702,6 +12720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "consAbs",
           "package": "alsa-seq",
@@ -11711,6 +12730,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "consAbs",
           "normalized": "Stamp-\u003eT",
@@ -11726,6 +12746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "consRel",
           "package": "alsa-seq",
@@ -11735,6 +12756,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "consRel",
           "normalized": "Stamp-\u003eT",
@@ -11750,6 +12772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "mode",
           "package": "alsa-seq",
@@ -11759,6 +12782,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "mode",
           "package": "alsa-seq",
@@ -11771,6 +12795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "stamp",
           "package": "alsa-seq",
@@ -11780,6 +12805,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Time",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer.Time",
           "name": "stamp",
           "package": "alsa-seq",
@@ -11793,6 +12819,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOverview: \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/seq.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eWARNING: This whole library does not seem to be particlarly thread aware.\n Perhaps place the sequencer handle in an MVar?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "Sequencer",
           "package": "alsa-seq",
@@ -11802,6 +12829,7 @@
         "index": {
           "description": "Overview http www.alsa-project.org alsa-doc alsa-lib seq.html WARNING This whole library does not seem to be particlarly thread aware Perhaps place the sequencer handle in an MVar",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "Sequencer",
           "package": "alsa-seq",
@@ -11815,6 +12843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "AllowInput",
           "package": "alsa-seq",
@@ -11823,6 +12852,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "AllowInput",
           "package": "alsa-seq",
@@ -11836,6 +12866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "AllowOutput",
           "package": "alsa-seq",
@@ -11844,6 +12875,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "AllowOutput",
           "package": "alsa-seq",
@@ -11858,6 +12890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlocking behavior of the sequencer device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "BlockMode",
           "package": "alsa-seq",
@@ -11867,6 +12900,7 @@
         "index": {
           "description": "Blocking behavior of the sequencer device",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "BlockMode",
           "package": "alsa-seq",
@@ -11880,6 +12914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "DuplexMode",
           "package": "alsa-seq",
@@ -11888,6 +12923,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "DuplexMode",
           "package": "alsa-seq",
@@ -11901,6 +12937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "InputMode",
           "package": "alsa-seq",
@@ -11909,6 +12946,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "InputMode",
           "package": "alsa-seq",
@@ -11923,6 +12961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead/Write permissions for the sequencer device.\n This way we prevent the ALSA exception 22 \u003ca\u003eInvalid argument\u003c/a\u003e\n when calling \u003ccode\u003eevent_output\u003c/code\u003e on an input-only sequencer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "OpenMode",
           "package": "alsa-seq",
@@ -11932,6 +12971,7 @@
         "index": {
           "description": "Read Write permissions for the sequencer device This way we prevent the ALSA exception Invalid argument when calling event output on an input-only sequencer",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "OpenMode",
           "package": "alsa-seq",
@@ -11945,6 +12985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "OutputMode",
           "package": "alsa-seq",
@@ -11953,6 +12994,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "OutputMode",
           "package": "alsa-seq",
@@ -11967,6 +13009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of sequencer handles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "T",
           "package": "alsa-seq",
@@ -11976,6 +13019,7 @@
         "index": {
           "description": "The type of sequencer handles",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "T",
           "package": "alsa-seq",
@@ -11989,6 +13033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperations may block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "Block",
           "package": "alsa-seq",
@@ -11999,6 +13044,7 @@
         "index": {
           "description": "Operations may block",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "Block",
           "package": "alsa-seq",
@@ -12012,6 +13058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "DuplexMode",
           "package": "alsa-seq",
@@ -12021,6 +13068,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "DuplexMode",
           "package": "alsa-seq",
@@ -12034,6 +13082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "InputMode",
           "package": "alsa-seq",
@@ -12043,6 +13092,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "InputMode",
           "package": "alsa-seq",
@@ -12057,6 +13107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow exceptions instead of blocking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "Nonblock",
           "package": "alsa-seq",
@@ -12067,6 +13118,7 @@
         "index": {
           "description": "Throw exceptions instead of blocking",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "Nonblock",
           "package": "alsa-seq",
@@ -12080,6 +13132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "OutputMode",
           "package": "alsa-seq",
@@ -12089,6 +13142,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "OutputMode",
           "package": "alsa-seq",
@@ -12103,6 +13157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the sequencer. Closes the sequencer client and releases its\n resources. After a client is closed, an event with \u003ccode\u003eClientExit\u003c/code\u003e is\n broadcast to announce port. The connection between other clients are\n disconnected. Call this just before exiting your program.\n NOTE: we could put this in a finalizer for the handle?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "close",
           "package": "alsa-seq",
@@ -12112,6 +13167,7 @@
         "index": {
           "description": "Close the sequencer Closes the sequencer client and releases its resources After client is closed an event with ClientExit is broadcast to announce port The connection between other clients are disconnected Call this just before exiting your program NOTE we could put this in finalizer for the handle",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "close",
           "normalized": "T a-\u003eIO()",
@@ -12127,6 +13183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the name that should be passed to \u003ccode\u003e\u003ca\u003eopen\u003c/a\u003e\u003c/code\u003e in most cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "defaultName",
           "package": "alsa-seq",
@@ -12137,6 +13194,7 @@
         "index": {
           "description": "This is the name that should be passed to open in most cases",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "defaultName",
           "package": "alsa-seq",
@@ -12151,6 +13209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the byte size of input buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "getInputBufferSize",
           "package": "alsa-seq",
@@ -12160,6 +13219,7 @@
         "index": {
           "description": "Return the byte size of input buffer",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "getInputBufferSize",
           "normalized": "T a-\u003eIO Word",
@@ -12176,6 +13236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet identifier of a sequencer handle.\n It is the same identifier specified in the call to \u003ccode\u003e\u003ca\u003eopen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "getName",
           "package": "alsa-seq",
@@ -12185,6 +13246,7 @@
         "index": {
           "description": "Get identifier of sequencer handle It is the same identifier specified in the call to open",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "getName",
           "normalized": "T a-\u003eIO String",
@@ -12201,6 +13263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the byte size of the output buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "getOutputBufferSize",
           "package": "alsa-seq",
@@ -12210,6 +13273,7 @@
         "index": {
           "description": "Return the byte size of the output buffer",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "getOutputBufferSize",
           "normalized": "T a-\u003eIO Word",
@@ -12226,6 +13290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new handle and opens a connection to the kernel sequencer\n interface. After a client is created successfully,\n a \u003ccode\u003eClientStart\u003c/code\u003e event is broadcast to the announce port.\n May throw an exception.\n See also: \u003ccode\u003eopen_lconf\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eget_seq_type\u003c/code\u003e,\n   \u003ccode\u003eget_seq_name\u003c/code\u003e, \u003ccode\u003eset_blocking\u003c/code\u003e, \u003ccode\u003eget_client_id\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "open",
           "package": "alsa-seq",
@@ -12235,6 +13300,7 @@
         "index": {
           "description": "Creates new handle and opens connection to the kernel sequencer interface After client is created successfully ClientStart event is broadcast to the announce port May throw an exception See also open lconf close get seq type get seq name set blocking get client id",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "open",
           "normalized": "String-\u003eBlockMode-\u003eIO(T a)",
@@ -12249,6 +13315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "openDefault",
           "package": "alsa-seq",
@@ -12257,6 +13324,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "openDefault",
           "normalized": "BlockMode-\u003eIO(T a)",
@@ -12273,6 +13341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the input pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "resetPoolInput",
           "package": "alsa-seq",
@@ -12282,6 +13351,7 @@
         "index": {
           "description": "Reset the input pool",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "resetPoolInput",
           "normalized": "T a-\u003eIO()",
@@ -12298,6 +13368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the output pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "resetPoolOutput",
           "package": "alsa-seq",
@@ -12307,6 +13378,7 @@
         "index": {
           "description": "Reset the output pool",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "resetPoolOutput",
           "normalized": "T a-\u003eIO()",
@@ -12323,6 +13395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the blocking mode of the given client.\n In block mode, the client falls into sleep when it fills the output\n pool with events, or when it demands events from an empty input pool.\n memory pool with full events. Clients that are sleeping due to\n loack of space in the output pool are woken when a certain\n amount of free space becomes available (see \u003ccode\u003eset_output_room\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "setBlocking",
           "package": "alsa-seq",
@@ -12332,6 +13405,7 @@
         "index": {
           "description": "Change the blocking mode of the given client In block mode the client falls into sleep when it fills the output pool with events or when it demands events from an empty input pool memory pool with full events Clients that are sleeping due to loack of space in the output pool are woken when certain amount of free space becomes available see set output room",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "setBlocking",
           "normalized": "T a-\u003eBlockMode-\u003eIO()",
@@ -12348,6 +13422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResize the input buffer.\n This function clears all input events (see \u003ccode\u003edrop_input\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "setInputBufferSize",
           "package": "alsa-seq",
@@ -12357,6 +13432,7 @@
         "index": {
           "description": "Resize the input buffer This function clears all input events see drop input",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "setInputBufferSize",
           "normalized": "T a-\u003eWord-\u003eIO()",
@@ -12373,6 +13449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResize of the output buffer.\n This function clears all output events (see \u003ccode\u003edrop_output\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "setOutputBufferSize",
           "package": "alsa-seq",
@@ -12382,6 +13459,7 @@
         "index": {
           "description": "Resize of the output buffer This function clears all output events see drop output",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "setOutputBufferSize",
           "normalized": "T a-\u003eWord-\u003eIO()",
@@ -12398,6 +13476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResize the input memory pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "setPoolInput",
           "package": "alsa-seq",
@@ -12407,6 +13486,7 @@
         "index": {
           "description": "Resize the input memory pool",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "setPoolInput",
           "normalized": "T a-\u003eWord-\u003eIO()",
@@ -12423,6 +13503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResize the output memory pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "setPoolOutput",
           "package": "alsa-seq",
@@ -12432,6 +13513,7 @@
         "index": {
           "description": "Resize the output memory pool",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "setPoolOutput",
           "normalized": "T a-\u003eWord-\u003eIO()",
@@ -12448,6 +13530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify how much space should become free before waking clients\n that are blocked due to a lack of space in the output pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "setPoolOutputRoom",
           "package": "alsa-seq",
@@ -12457,6 +13540,7 @@
         "index": {
           "description": "Specify how much space should become free before waking clients that are blocked due to lack of space in the output pool",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "setPoolOutputRoom",
           "normalized": "T a-\u003eWord-\u003eIO()",
@@ -12472,6 +13556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "with",
           "package": "alsa-seq",
@@ -12480,6 +13565,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "with",
           "normalized": "String-\u003eBlockMode-\u003e(T a-\u003eIO b)-\u003eIO b",
@@ -12494,6 +13580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:30 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "withDefault",
           "package": "alsa-seq",
@@ -12503,6 +13590,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:30",
           "module": "Sound.ALSA.Sequencer",
           "name": "withDefault",
           "normalized": "BlockMode-\u003e(T a-\u003eIO b)-\u003eIO b",

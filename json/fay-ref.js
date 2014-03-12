@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fay-ref"
+        "phrase": "fay-ref",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:53 UTC 2014",
           "module": "FayRef",
           "name": "FayRef",
           "package": "fay-ref",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "FayRef",
+          "indexed": "2014-03-11T18:06:53",
           "module": "FayRef",
           "name": "FayRef",
           "package": "fay-ref",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable variable in the \u003ccode\u003e\u003ca\u003eFay\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:53 UTC 2014",
           "module": "FayRef",
           "name": "FayRef",
           "package": "fay-ref",
@@ -49,6 +52,7 @@
         "index": {
           "description": "mutable variable in the Fay monad",
           "hierarchy": "FayRef",
+          "indexed": "2014-03-11T18:06:53",
           "module": "FayRef",
           "name": "FayRef",
           "package": "fay-ref",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutate the contents of a \u003ccode\u003e\u003ca\u003eFayRef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBe warned that \u003ccode\u003e\u003ca\u003emodifyFayRef\u003c/a\u003e\u003c/code\u003e does not apply the function strictly.  This\n means if the program calls \u003ccode\u003e\u003ca\u003emodifyFayRef\u003c/a\u003e\u003c/code\u003e many times, but seldomly uses the\n value, thunks will pile up in memory resulting in a space leak.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:53 UTC 2014",
           "module": "FayRef",
           "name": "modifyFayRef",
           "package": "fay-ref",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Mutate the contents of FayRef Be warned that modifyFayRef does not apply the function strictly This means if the program calls modifyFayRef many times but seldomly uses the value thunks will pile up in memory resulting in space leak",
           "hierarchy": "FayRef",
+          "indexed": "2014-03-11T18:06:53",
           "module": "FayRef",
           "name": "modifyFayRef",
           "normalized": "FayRef a-\u003e(a-\u003ea)-\u003eFay()",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003e\u003ca\u003emodifyFayRef\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:53 UTC 2014",
           "module": "FayRef",
           "name": "modifyFayRef'",
           "package": "fay-ref",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Strict version of modifyFayRef",
           "hierarchy": "FayRef",
+          "indexed": "2014-03-11T18:06:53",
           "module": "FayRef",
           "name": "modifyFayRef'",
           "normalized": "FayRef a-\u003e(a-\u003ea)-\u003eFay()",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a new \u003ccode\u003e\u003ca\u003eFayRef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:53 UTC 2014",
           "module": "FayRef",
           "name": "newFayRef",
           "package": "fay-ref",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Build new FayRef",
           "hierarchy": "FayRef",
+          "indexed": "2014-03-11T18:06:53",
           "module": "FayRef",
           "name": "newFayRef",
           "normalized": "a-\u003eFay(FayRef a)",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a new value into a \u003ccode\u003e\u003ca\u003eFayRef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:53 UTC 2014",
           "module": "FayRef",
           "name": "readFayRef",
           "package": "fay-ref",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Write new value into FayRef",
           "hierarchy": "FayRef",
+          "indexed": "2014-03-11T18:06:53",
           "module": "FayRef",
           "name": "readFayRef",
           "normalized": "FayRef a-\u003eFay a",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a new value into a \u003ccode\u003e\u003ca\u003eFayRef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:53 UTC 2014",
           "module": "FayRef",
           "name": "writeFayRef",
           "package": "fay-ref",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Write new value into FayRef",
           "hierarchy": "FayRef",
+          "indexed": "2014-03-11T18:06:53",
           "module": "FayRef",
           "name": "writeFayRef",
           "normalized": "FayRef a-\u003ea-\u003eFay()",

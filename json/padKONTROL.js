@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "padKONTROL"
+        "phrase": "padKONTROL",
+        "type": "phrase"
       },
       "type": "context"
     }

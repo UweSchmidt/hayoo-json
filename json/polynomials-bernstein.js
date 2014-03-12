@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "polynomials-bernstein"
+        "phrase": "polynomials-bernstein",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious functions for manipulating polynomials, essentially when\n represented in the Bernstein basis, in one or two variables.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "Bernstein",
           "package": "polynomials-bernstein",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Various functions for manipulating polynomials essentially when represented in the Bernstein basis in one or two variables",
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "Bernstein",
           "package": "polynomials-bernstein",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "Bernstein",
           "package": "polynomials-bernstein",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "Bernstein",
           "package": "polynomials-bernstein",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for Bernstein polynomials with an arbitrary number of variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "Bernsteinp",
           "package": "polynomials-bernstein",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The type for Bernstein polynomials with an arbitrary number of variables",
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "Bernsteinp",
           "package": "polynomials-bernstein",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "(?)",
           "package": "polynomials-bernstein",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "(?) ?",
           "normalized": "Bernsteinp a b-\u003ea-\u003eb",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "Bernsteinp",
           "package": "polynomials-bernstein",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "Bernsteinp",
           "package": "polynomials-bernstein",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "bounds",
           "package": "polynomials-bernstein",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "bounds",
           "package": "polynomials-bernstein",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "coefs",
           "package": "polynomials-bernstein",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "coefs",
           "package": "polynomials-bernstein",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "constant",
           "package": "polynomials-bernstein",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "constant",
           "normalized": "a-\u003eBernsteinp b a",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the derivative of a univariate Bernstein polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "derivate",
           "package": "polynomials-bernstein",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Computes the derivative of univariate Bernstein polynomial",
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "derivate",
           "normalized": "Bernsteinp Int a-\u003eBernsteinp Int a",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "elevate",
           "package": "polynomials-bernstein",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "elevate",
           "normalized": "a-\u003eBernsteinp a b-\u003eBernsteinp a b",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "eval",
           "package": "polynomials-bernstein",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "eval",
           "normalized": "Bernsteinp a b-\u003eParam a b-\u003eb",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "promote",
           "package": "polynomials-bernstein",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "promote",
           "normalized": "Int-\u003eBernsteinp Int a-\u003eBernsteinp b a",
@@ -290,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes \u003ccode\u003ef(1-x)\u003c/code\u003e (useful when used with Bezier curves).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "reorient",
           "package": "polynomials-bernstein",
@@ -300,6 +325,7 @@
         "index": {
           "description": "Computes useful when used with Bezier curves",
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "reorient",
           "normalized": "Bernsteinp Int a-\u003eBernsteinp Int a",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "restriction",
           "package": "polynomials-bernstein",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "restriction",
           "normalized": "Bernsteinp a b-\u003eParam a b-\u003eParam a b-\u003eBernsteinp a b",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "scale",
           "package": "polynomials-bernstein",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "scale",
           "normalized": "a-\u003eBernsteinp b a-\u003eBernsteinp b a",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the intersection of a given Bezier hypersurface, given\n by its graph, with plane \u003ccode\u003ez=0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "solve",
           "package": "polynomials-bernstein",
@@ -371,6 +402,7 @@
         "index": {
           "description": "Computes the intersection of given Bezier hypersurface given by its graph with plane",
           "hierarchy": "Algebra Polynomials Bernstein",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Bernstein",
           "name": "solve",
           "normalized": "Double-\u003eVector(Bernsteinp a Interval)-\u003eb-\u003e[b]",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the definition of the main arithmetic tools\n used in Metafont'.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "Numerical",
           "package": "polynomials-bernstein",
@@ -395,6 +428,7 @@
         "index": {
           "description": "This module contains the definition of the main arithmetic tools used in Metafont",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "Numerical",
           "package": "polynomials-bernstein",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interval type (most of its operations are calls to the raw functions)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "Interval",
           "package": "polynomials-bernstein",
@@ -418,6 +453,7 @@
         "index": {
           "description": "The interval type most of its operations are calls to the raw functions",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "Interval",
           "package": "polynomials-bernstein",
@@ -432,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo common operations on types defined with intervals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "Intervalize",
           "package": "polynomials-bernstein",
@@ -441,6 +478,7 @@
         "index": {
           "description": "Two common operations on types defined with intervals",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "Intervalize",
           "package": "polynomials-bernstein",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "Interval",
           "package": "polynomials-bernstein",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "Interval",
           "package": "polynomials-bernstein",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "acos#",
           "package": "polynomials-bernstein",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "acos#",
           "normalized": "Double-\u003eDouble-\u003e(#Double,Double #)",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "asin#",
           "package": "polynomials-bernstein",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "asin#",
           "normalized": "Double-\u003eDouble-\u003e(#Double,Double #)",
@@ -523,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval cosine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "cos#",
           "package": "polynomials-bernstein",
@@ -533,6 +578,7 @@
         "index": {
           "description": "Interval cosine",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "cos#",
           "normalized": "Double-\u003eDouble-\u003e(#Double,Double #)",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "fpred",
           "package": "polynomials-bernstein",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "fpred",
           "normalized": "Double-\u003eDouble",
@@ -571,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e value into an interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "fromIntegral#",
           "package": "polynomials-bernstein",
@@ -581,6 +630,7 @@
         "index": {
           "description": "Converts an Integral value into an interval",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "fromIntegral#",
           "normalized": "a-\u003e(#Double,Double #)",
@@ -596,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "fsucc",
           "package": "polynomials-bernstein",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "fsucc",
           "normalized": "Double-\u003eDouble",
@@ -619,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "ilow",
           "package": "polynomials-bernstein",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "ilow",
           "package": "polynomials-bernstein",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "intersects",
           "package": "polynomials-bernstein",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "intersects",
           "normalized": "a Interval-\u003ea Interval-\u003eBool",
@@ -664,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection of two \u003ccode\u003e\u003ca\u003eInterval\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "intersectsd",
           "package": "polynomials-bernstein",
@@ -674,6 +731,7 @@
         "index": {
           "description": "Intersection of two Interval",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "intersectsd",
           "normalized": "Interval-\u003eInterval-\u003eBool",
@@ -689,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an optimal IEEE-754 representation of a number into an\n optimal interval containing this number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "interval",
           "package": "polynomials-bernstein",
@@ -699,6 +758,7 @@
         "index": {
           "description": "Converts an optimal IEEE-754 representation of number into an optimal interval containing this number",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "interval",
           "normalized": "Double-\u003eInterval",
@@ -713,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "intervalize",
           "package": "polynomials-bernstein",
@@ -722,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "intervalize",
           "normalized": "a Double-\u003ea Interval",
@@ -736,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "iup",
           "package": "polynomials-bernstein",
@@ -745,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "iup",
           "package": "polynomials-bernstein",
@@ -758,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval substraction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "minus",
           "package": "polynomials-bernstein",
@@ -768,6 +833,7 @@
         "index": {
           "description": "Interval substraction",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "minus",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003e(#Double,Double #)",
@@ -783,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval division\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "over",
           "package": "polynomials-bernstein",
@@ -793,6 +860,7 @@
         "index": {
           "description": "Interval division",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "over",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003e(#Double,Double #)",
@@ -808,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval addition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "plus",
           "package": "polynomials-bernstein",
@@ -818,6 +887,7 @@
         "index": {
           "description": "Interval addition",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "plus",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003e(#Double,Double #)",
@@ -833,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval sine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "sin#",
           "package": "polynomials-bernstein",
@@ -843,6 +914,7 @@
         "index": {
           "description": "Interval sine",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "sin#",
           "normalized": "Double-\u003eDouble-\u003e(#Double,Double #)",
@@ -857,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "sqrt#",
           "package": "polynomials-bernstein",
@@ -866,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "sqrt#",
           "normalized": "Double-\u003eDouble-\u003e(#Double,Double #)",
@@ -881,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval multiplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "times",
           "package": "polynomials-bernstein",
@@ -891,6 +966,7 @@
         "index": {
           "description": "Interval multiplication",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "times",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003e(#Double,Double #)",
@@ -906,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion of two intersecting intervals (undefined behaviour if they do not intersect).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:10 UTC 2014",
           "module": "Algebra.Polynomials.Numerical",
           "name": "union",
           "package": "polynomials-bernstein",
@@ -916,6 +993,7 @@
         "index": {
           "description": "Union of two intersecting intervals undefined behaviour if they do not intersect",
           "hierarchy": "Algebra Polynomials Numerical",
+          "indexed": "2014-03-11T19:41:10",
           "module": "Algebra.Polynomials.Numerical",
           "name": "union",
           "normalized": "Interval-\u003eInterval-\u003eInterval",

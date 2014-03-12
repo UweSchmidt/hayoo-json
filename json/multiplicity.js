@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "multiplicity"
+        "phrase": "multiplicity",
+        "type": "phrase"
       },
       "type": "context"
     }

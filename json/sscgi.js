@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sscgi"
+        "phrase": "sscgi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "SCGI",
           "package": "sscgi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "SCGI",
           "package": "sscgi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "Body",
           "package": "sscgi",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "Body",
           "package": "sscgi",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "Headers",
           "package": "sscgi",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "Headers",
           "package": "sscgi",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "Response",
           "package": "sscgi",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "Response",
           "package": "sscgi",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "SCGI",
           "package": "sscgi",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "SCGI",
           "package": "sscgi",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "SCGIT",
           "package": "sscgi",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "SCGIT",
           "package": "sscgi",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "Status",
           "package": "sscgi",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "Status",
           "package": "sscgi",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "Response",
           "package": "sscgi",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "Response",
           "package": "sscgi",
@@ -188,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all request headers as a list in the format they were received from the web server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "allHeaders",
           "package": "sscgi",
@@ -197,6 +214,7 @@
         "index": {
           "description": "Return all request headers as list in the format they were received from the web server",
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "allHeaders",
           "normalized": "SCGIT a[(ByteString,ByteString)]",
@@ -213,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the request body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "body",
           "package": "sscgi",
@@ -223,6 +242,7 @@
         "index": {
           "description": "Return the request body",
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "body",
           "package": "sscgi",
@@ -236,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a request header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "header",
           "package": "sscgi",
@@ -245,6 +266,7 @@
         "index": {
           "description": "Look up request header",
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "header",
           "normalized": "ByteString-\u003eSCGIT a(Maybe ByteString)",
@@ -260,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the request method (GET, POST, etc.). You could look the header up\n yourself, but this normalizes the method name to uppercase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "method",
           "package": "sscgi",
@@ -269,6 +292,7 @@
         "index": {
           "description": "Get the request method GET POST etc You could look the header up yourself but this normalizes the method name to uppercase",
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "method",
           "package": "sscgi",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "negotiate",
           "package": "sscgi",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "negotiate",
           "normalized": "[ByteString]-\u003eSCGIT a[ByteString]",
@@ -305,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the requested path. According to the spec, this can be complex, and\n actual CGI implementations diverge from the spec. I've found this to work,\n even though it doesn't seem correct or intuitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "path",
           "package": "sscgi",
@@ -314,6 +341,7 @@
         "index": {
           "description": "Get the requested path According to the spec this can be complex and actual CGI implementations diverge from the spec ve found this to work even though it doesn seem correct or intuitive",
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "path",
           "package": "sscgi",
@@ -327,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a response header (one set during this request). This is useful when you need to check if a header has been set already (in case you want to modify it, for example).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "responseHeader",
           "package": "sscgi",
@@ -336,6 +365,7 @@
         "index": {
           "description": "Look up response header one set during this request This is useful when you need to check if header has been set already in case you want to modify it for example",
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "responseHeader",
           "normalized": "ByteString-\u003eSCGIT a(Maybe ByteString)",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a request in the SCGI monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "runRequest",
           "package": "sscgi",
@@ -361,6 +392,7 @@
         "index": {
           "description": "Run request in the SCGI monad",
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "runRequest",
           "normalized": "Handle-\u003eSCGIT a Response-\u003ea()",
@@ -377,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a response header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:16 UTC 2014",
           "module": "Network.SCGI",
           "name": "setHeader",
           "package": "sscgi",
@@ -386,6 +419,7 @@
         "index": {
           "description": "Set response header",
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T20:09:16",
           "module": "Network.SCGI",
           "name": "setHeader",
           "normalized": "ByteString-\u003eByteString-\u003eSCGIT a()",

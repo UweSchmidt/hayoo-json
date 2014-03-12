@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scaleimage"
+        "phrase": "scaleimage",
+        "type": "phrase"
       },
       "type": "context"
     }

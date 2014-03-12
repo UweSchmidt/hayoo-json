@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "errorcall-eq-instance"
+        "phrase": "errorcall-eq-instance",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:58 UTC 2014",
           "module": "Control.Exception.ErrorCall.EqInstance",
           "name": "EqInstance",
           "package": "errorcall-eq-instance",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Exception ErrorCall EqInstance",
+          "indexed": "2014-03-11T18:03:58",
           "module": "Control.Exception.ErrorCall.EqInstance",
           "name": "EqInstance",
           "package": "errorcall-eq-instance",

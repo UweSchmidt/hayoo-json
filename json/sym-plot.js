@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sym-plot"
+        "phrase": "sym-plot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlot permutations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:47 UTC 2014",
           "module": "Math.Sym.Plot",
           "name": "Plot",
           "package": "sym-plot",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Plot permutations",
           "hierarchy": "Math Sym Plot",
+          "indexed": "2014-03-11T20:14:47",
           "module": "Math.Sym.Plot",
           "name": "Plot",
           "package": "sym-plot",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plot is represented by Cairo diagram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:47 UTC 2014",
           "module": "Math.Sym.Plot",
           "name": "Plot",
           "package": "sym-plot",
@@ -51,6 +54,7 @@
         "index": {
           "description": "plot is represented by Cairo diagram",
           "hierarchy": "Math Sym Plot",
+          "indexed": "2014-03-11T20:14:47",
           "module": "Math.Sym.Plot",
           "name": "Plot",
           "package": "sym-plot",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe plot of a permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:47 UTC 2014",
           "module": "Math.Sym.Plot",
           "name": "plotPerm",
           "package": "sym-plot",
@@ -75,6 +80,7 @@
         "index": {
           "description": "The plot of permutation",
           "hierarchy": "Math Sym Plot",
+          "indexed": "2014-03-11T20:14:47",
           "module": "Math.Sym.Plot",
           "name": "plotPerm",
           "normalized": "a-\u003ePlot",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe plot of a list of permutations. The first argument specifies\n how many permutations are on each row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:47 UTC 2014",
           "module": "Math.Sym.Plot",
           "name": "plotPerms",
           "package": "sym-plot",
@@ -101,6 +108,7 @@
         "index": {
           "description": "The plot of list of permutations The first argument specifies how many permutations are on each row",
           "hierarchy": "Math Sym Plot",
+          "indexed": "2014-03-11T20:14:47",
           "module": "Math.Sym.Plot",
           "name": "plotPerms",
           "normalized": "Int-\u003e[a]-\u003ePlot",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave plot as a png, ps, pdf, or svg (determined automatically from\n the file extension).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:47 UTC 2014",
           "module": "Math.Sym.Plot",
           "name": "savePlot",
           "package": "sym-plot",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Save plot as png ps pdf or svg determined automatically from the file extension",
           "hierarchy": "Math Sym Plot",
+          "indexed": "2014-03-11T20:14:47",
           "module": "Math.Sym.Plot",
           "name": "savePlot",
           "normalized": "Double-\u003eString-\u003ePlot-\u003eIO()",

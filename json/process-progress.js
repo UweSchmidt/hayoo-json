@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "process-progress"
+        "phrase": "process-progress",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Posix.EnvPlus",
           "name": "EnvPlus",
           "package": "process-progress",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Posix EnvPlus",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Posix.EnvPlus",
           "name": "EnvPlus",
           "package": "process-progress",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of Posix setEnv/unSetEnv.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Posix.EnvPlus",
           "name": "modifyEnv",
           "package": "process-progress",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Generalization of Posix setEnv unSetEnv",
           "hierarchy": "System Posix EnvPlus",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Posix.EnvPlus",
           "name": "modifyEnv",
           "normalized": "String-\u003e(Maybe String-\u003eMaybe String)-\u003eIO()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e`Functions to run a process and manage the type and amount of output\n it generates.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Progress",
           "name": "Progress",
           "package": "process-progress",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Functions to run process and manage the type and amount of output it generates",
           "hierarchy": "System Process Progress",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Progress",
           "name": "Progress",
           "package": "process-progress",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereadProcessChunks\u003c/a\u003e\u003c/code\u003e function is a process reader that returns\n a list (stream) of \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e, which represent chunks of text read\n from \u003ccode\u003e\u003ca\u003eStdout\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eStderr\u003c/a\u003e\u003c/code\u003e, a \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e code, or an \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e.  This\n has the advantage of preserving the order in which these things\n appeared.  The \u003ccode\u003e\u003ca\u003efoldOutput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efoldOutputsL\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003efoldOutputsR\u003c/a\u003e\u003c/code\u003e\n functions can be used to process the output stream.  The output\n text can be any \u003ccode\u003e\u003ca\u003eNonBlocking\u003c/a\u003e\u003c/code\u003e instance, which needs to be implemented\n using a non-blocking read function like \u003ccode\u003e\u003ca\u003ehGetSome\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "Chunks",
           "package": "process-progress",
@@ -98,6 +105,7 @@
         "index": {
           "description": "The readProcessChunks function is process reader that returns list stream of Output which represent chunks of text read from Stdout Stderr Result code or an Exception This has the advantage of preserving the order in which these things appeared The foldOutput foldOutputsL and foldOutputsR functions can be used to process the output stream The output text can be any NonBlocking instance which needs to be implemented using non-blocking read function like hGetSome",
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "Chunks",
           "package": "process-progress",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types which can also be used by \u003ccode\u003e\u003ca\u003ereadProcessChunks\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "NonBlocking",
           "package": "process-progress",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Class of types which can also be used by readProcessChunks",
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "NonBlocking",
           "package": "process-progress",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "Output",
           "package": "process-progress",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "Output",
           "package": "process-progress",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "Exception",
           "package": "process-progress",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "Exception",
           "package": "process-progress",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "Result",
           "package": "process-progress",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "Result",
           "package": "process-progress",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "Stderr",
           "package": "process-progress",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "Stderr",
           "package": "process-progress",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "Stdout",
           "package": "process-progress",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "Stdout",
           "package": "process-progress",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fold function for the Output type, dispatches the value\n depending on the constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "foldOutput",
           "package": "process-progress",
@@ -254,6 +275,7 @@
         "index": {
           "description": "fold function for the Output type dispatches the value depending on the constructor",
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "foldOutput",
           "normalized": "(ExitCode-\u003ea)-\u003e(b-\u003ea)-\u003e(b-\u003ea)-\u003e(IOError-\u003ea)-\u003eOutput b-\u003ea",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "foldOutputsL",
           "package": "process-progress",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "foldOutputsL",
           "normalized": "(a-\u003eExitCode-\u003ea)-\u003e(a-\u003eb-\u003ea)-\u003e(a-\u003eb-\u003ea)-\u003e(a-\u003eIOError-\u003ea)-\u003ea-\u003e[Output b]-\u003ea",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "foldOutputsR",
           "package": "process-progress",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "foldOutputsR",
           "normalized": "(a-\u003eExitCode-\u003ea)-\u003e(a-\u003eb-\u003ea)-\u003e(a-\u003eb-\u003ea)-\u003e(a-\u003eIOError-\u003ea)-\u003ea-\u003e[Output b]-\u003ea",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "hGetSome",
           "package": "process-progress",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "hGetSome",
           "normalized": "Handle-\u003eLengthType a-\u003eIO a",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a process runner which (at the cost of a busy loop) gives\n you the chunks of text read from stdout and stderr interleaved in\n the order they were written, along with any ResourceVanished\n exxception that might occur.  Its interface is similar to\n \u003ccode\u003e\u003ca\u003ereadModifiedProcessWith\u003c/a\u003e\u003c/code\u003e, though the\n implementation is somewhat alarming.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "readProcessChunks",
           "package": "process-progress",
@@ -352,6 +381,7 @@
         "index": {
           "description": "This is process runner which at the cost of busy loop gives you the chunks of text read from stdout and stderr interleaved in the order they were written along with any ResourceVanished exxception that might occur Its interface is similar to readModifiedProcessWith though the implementation is somewhat alarming",
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "readProcessChunks",
           "normalized": "CreateProcess-\u003ea-\u003eIO[Output a]",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA test version of readProcessChunks.\n Pipes code here: http:\u003cem/\u003ehpaste.org/76631\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "readProcessChunks'",
           "package": "process-progress",
@@ -378,6 +409,7 @@
         "index": {
           "description": "test version of readProcessChunks Pipes code here http hpaste.org",
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "readProcessChunks'",
           "normalized": "CreateProcess-\u003ea-\u003eIO[Output a]",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Chunks",
           "name": "toChunks",
           "package": "process-progress",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Chunks",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Chunks",
           "name": "toChunks",
           "normalized": "a-\u003e[a]",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome functions brought over from my obsolete progress packages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Compat",
           "name": "Compat",
           "package": "process-progress",
@@ -427,6 +462,7 @@
         "index": {
           "description": "Some functions brought over from my obsolete progress packages",
           "hierarchy": "System Process Read Compat",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Compat",
           "name": "Compat",
           "package": "process-progress",
@@ -441,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a description of a command and then run it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Compat",
           "name": "echo",
           "package": "process-progress",
@@ -451,6 +488,7 @@
         "index": {
           "description": "Output description of command and then run it",
           "hierarchy": "System Process Read Compat",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Compat",
           "name": "echo",
           "normalized": "CmdSpec-\u003eIO()-\u003eIO()",
@@ -466,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the result code of an output stream, throw an error if\n there isn't exactly one of them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Compat",
           "name": "oneResult",
           "package": "process-progress",
@@ -476,6 +515,7 @@
         "index": {
           "description": "Extract the result code of an output stream throw an error if there isn exactly one of them",
           "hierarchy": "System Process Read Compat",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Compat",
           "name": "oneResult",
           "normalized": "[Output a]-\u003eExitCode",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a task and return the elapsed time along with its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Compat",
           "name": "timeTask",
           "package": "process-progress",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Run task and return the elapsed time along with its result",
           "hierarchy": "System Process Read Compat",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Compat",
           "name": "timeTask",
           "normalized": "IO a-\u003eIO(a,NominalDiffTime)",
@@ -517,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "Convenience",
           "package": "process-progress",
@@ -525,6 +568,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "Convenience",
           "package": "process-progress",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "collectOutputs",
           "package": "process-progress",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "collectOutputs",
           "normalized": "[Output a]-\u003e([ExitCode],a,a,[IOError])",
@@ -562,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "discardExceptions",
           "package": "process-progress",
@@ -571,6 +618,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "discardExceptions",
           "normalized": "[Output a]-\u003e[Output a]",
@@ -586,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "discardOutput",
           "package": "process-progress",
@@ -595,6 +644,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "discardOutput",
           "normalized": "[Output a]-\u003e[Output a]",
@@ -610,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "discardResult",
           "package": "process-progress",
@@ -619,6 +670,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "discardResult",
           "normalized": "[Output a]-\u003e[Output a]",
@@ -634,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "discardStderr",
           "package": "process-progress",
@@ -643,6 +696,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "discardStderr",
           "normalized": "[Output a]-\u003e[Output a]",
@@ -658,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "discardStdout",
           "package": "process-progress",
@@ -667,6 +722,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "discardStdout",
           "normalized": "[Output a]-\u003e[Output a]",
@@ -682,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "doAll",
           "package": "process-progress",
@@ -691,6 +748,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "doAll",
           "normalized": "[Output a]-\u003eIO[Output a]",
@@ -706,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "doException",
           "package": "process-progress",
@@ -715,6 +774,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "doException",
           "normalized": "[Output a]-\u003eIO[Output a]",
@@ -731,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI don't see much use for this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "doExit",
           "package": "process-progress",
@@ -741,6 +802,7 @@
         "index": {
           "description": "don see much use for this",
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "doExit",
           "normalized": "[Output a]-\u003eIO[Output a]",
@@ -756,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "doOutput",
           "package": "process-progress",
@@ -765,6 +828,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "doOutput",
           "normalized": "[Output a]-\u003eIO[Output a]",
@@ -780,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "doStderr",
           "package": "process-progress",
@@ -789,6 +854,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "doStderr",
           "normalized": "[Output a]-\u003eIO[Output a]",
@@ -804,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "doStdout",
           "package": "process-progress",
@@ -813,6 +880,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "doStdout",
           "normalized": "[Output a]-\u003eIO[Output a]",
@@ -828,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "dots",
           "package": "process-progress",
@@ -837,6 +906,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "dots",
           "normalized": "LengthType a-\u003e(LengthType a-\u003eIO())-\u003e[Output a]-\u003eIO[Output a]",
@@ -851,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "eMessage",
           "package": "process-progress",
@@ -860,6 +931,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "eMessage",
           "normalized": "String-\u003ea-\u003eb a",
@@ -875,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "eMessageLn",
           "package": "process-progress",
@@ -884,6 +957,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "eMessageLn",
           "normalized": "String-\u003ea-\u003eb a",
@@ -899,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "ePutStr",
           "package": "process-progress",
@@ -908,6 +983,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "ePutStr",
           "normalized": "String-\u003ea()",
@@ -923,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "ePutStrLn",
           "package": "process-progress",
@@ -932,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "ePutStrLn",
           "normalized": "String-\u003ea()",
@@ -947,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "foldChars",
           "package": "process-progress",
@@ -956,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "foldChars",
           "normalized": "(a-\u003eIO(Output a))-\u003e(a-\u003eIO(Output a))-\u003e[Output a]-\u003eIO[Output a]",
@@ -971,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "foldException",
           "package": "process-progress",
@@ -980,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "foldException",
           "normalized": "(IOError-\u003eIO(Output a))-\u003e[Output a]-\u003eIO[Output a]",
@@ -995,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "foldFailure",
           "package": "process-progress",
@@ -1004,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "foldFailure",
           "normalized": "(Int-\u003eIO(Output a))-\u003e[Output a]-\u003eIO[Output a]",
@@ -1019,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "foldFailure'",
           "package": "process-progress",
@@ -1028,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "foldFailure'",
           "normalized": "(Int-\u003eIO(Output a))-\u003e[Output a]-\u003eIO[Output a]",
@@ -1043,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "foldResult",
           "package": "process-progress",
@@ -1052,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "foldResult",
           "normalized": "(ExitCode-\u003eIO(Output a))-\u003e[Output a]-\u003eIO[Output a]",
@@ -1067,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "foldStderr",
           "package": "process-progress",
@@ -1076,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "foldStderr",
           "normalized": "(a-\u003eIO(Output a))-\u003e[Output a]-\u003eIO[Output a]",
@@ -1091,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "foldStdout",
           "package": "process-progress",
@@ -1100,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "foldStdout",
           "normalized": "(a-\u003eIO(Output a))-\u003e[Output a]-\u003eIO[Output a]",
@@ -1115,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "foldSuccess",
           "package": "process-progress",
@@ -1124,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "foldSuccess",
           "normalized": "IO(Output a)-\u003e[Output a]-\u003eIO[Output a]",
@@ -1139,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "isException",
           "package": "process-progress",
@@ -1148,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "isException",
           "normalized": "Output a-\u003eBool",
@@ -1163,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "isOutput",
           "package": "process-progress",
@@ -1172,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "isOutput",
           "normalized": "Output a-\u003eBool",
@@ -1187,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "isResult",
           "package": "process-progress",
@@ -1196,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "isResult",
           "normalized": "Output a-\u003eBool",
@@ -1211,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "isStderr",
           "package": "process-progress",
@@ -1220,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "isStderr",
           "normalized": "Output a-\u003eBool",
@@ -1235,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "isStdout",
           "package": "process-progress",
@@ -1244,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "isStdout",
           "normalized": "Output a-\u003eBool",
@@ -1259,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "keepExceptions",
           "package": "process-progress",
@@ -1268,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "keepExceptions",
           "normalized": "[Output a]-\u003e[IOError]",
@@ -1283,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "keepOutput",
           "package": "process-progress",
@@ -1292,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "keepOutput",
           "normalized": "[Output a]-\u003e[a]",
@@ -1307,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "keepResult",
           "package": "process-progress",
@@ -1316,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "keepResult",
           "normalized": "[Output a]-\u003e[ExitCode]",
@@ -1331,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "keepStderr",
           "package": "process-progress",
@@ -1340,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "keepStderr",
           "normalized": "[Output a]-\u003e[a]",
@@ -1355,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "keepStdout",
           "package": "process-progress",
@@ -1364,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "keepStdout",
           "normalized": "[Output a]-\u003e[a]",
@@ -1379,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "mapMaybeException",
           "package": "process-progress",
@@ -1388,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "mapMaybeException",
           "normalized": "(IOError-\u003eMaybe(Output a))-\u003e[Output a]-\u003e[Output a]",
@@ -1403,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "mapMaybeResult",
           "package": "process-progress",
@@ -1412,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "mapMaybeResult",
           "normalized": "(ExitCode-\u003eMaybe(Output a))-\u003e[Output a]-\u003e[Output a]",
@@ -1427,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "mapMaybeStderr",
           "package": "process-progress",
@@ -1436,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "mapMaybeStderr",
           "normalized": "(a-\u003eMaybe(Output a))-\u003e[Output a]-\u003e[Output a]",
@@ -1451,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "mapMaybeStdout",
           "package": "process-progress",
@@ -1460,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "mapMaybeStdout",
           "normalized": "(a-\u003eMaybe(Output a))-\u003e[Output a]-\u003e[Output a]",
@@ -1475,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "mergeToStderr",
           "package": "process-progress",
@@ -1484,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "mergeToStderr",
           "normalized": "[Output a]-\u003e[Output a]",
@@ -1499,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "mergeToStdout",
           "package": "process-progress",
@@ -1508,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "mergeToStdout",
           "normalized": "[Output a]-\u003e[Output a]",
@@ -1524,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the stream with a prefix added at the beginning of each\n line of stdout and stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Convenience",
           "name": "prefixed",
           "package": "process-progress",
@@ -1534,6 +1661,7 @@
         "index": {
           "description": "Output the stream with prefix added at the beginning of each line of stdout and stderr",
           "hierarchy": "System Process Read Convenience",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Convenience",
           "name": "prefixed",
           "normalized": "a-\u003ea-\u003e[Output a]-\u003eIO[Output a]",
@@ -1549,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA perhaps over-engineered set of wrappers around\n readProcessChunks to run processes with a variety of echoing\n options and responses to failure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Monad",
           "name": "Monad",
           "package": "process-progress",
@@ -1558,6 +1687,7 @@
         "index": {
           "description": "perhaps over-engineered set of wrappers around readProcessChunks to run processes with variety of echoing options and responses to failure",
           "hierarchy": "System Process Read Monad",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Monad",
           "name": "Monad",
           "package": "process-progress",
@@ -1572,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Monad",
           "name": "runProcessD",
           "package": "process-progress",
@@ -1582,6 +1713,7 @@
         "index": {
           "description": "Dot output",
           "hierarchy": "System Process Read Monad",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Monad",
           "name": "runProcessD",
           "normalized": "CreateProcess-\u003ea-\u003eb[Output a]",
@@ -1598,6 +1730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot output, exception on failure, echo on failure.  Note that\n runProcessVE isn't a useful option, you get the output twice.  VF\n makes more sense.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Monad",
           "name": "runProcessDE",
           "package": "process-progress",
@@ -1608,6 +1741,7 @@
         "index": {
           "description": "Dot output exception on failure echo on failure Note that runProcessVE isn useful option you get the output twice VF makes more sense",
           "hierarchy": "System Process Read Monad",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Monad",
           "name": "runProcessDE",
           "normalized": "Maybe(a,a)-\u003eCreateProcess-\u003ea-\u003eb[Output a]",
@@ -1624,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot output and exception on failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Monad",
           "name": "runProcessDF",
           "package": "process-progress",
@@ -1634,6 +1769,7 @@
         "index": {
           "description": "Dot output and exception on failure",
           "hierarchy": "System Process Read Monad",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Monad",
           "name": "runProcessDF",
           "normalized": "CreateProcess-\u003ea-\u003eb[Output a]",
@@ -1650,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line trace only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Monad",
           "name": "runProcessQ",
           "package": "process-progress",
@@ -1660,6 +1797,7 @@
         "index": {
           "description": "Command line trace only",
           "hierarchy": "System Process Read Monad",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Monad",
           "name": "runProcessQ",
           "normalized": "CreateProcess-\u003ea-\u003eb[Output a]",
@@ -1676,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException and echo on failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Monad",
           "name": "runProcessQE",
           "package": "process-progress",
@@ -1686,6 +1825,7 @@
         "index": {
           "description": "Exception and echo on failure",
           "hierarchy": "System Process Read Monad",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Monad",
           "name": "runProcessQE",
           "normalized": "Maybe(a,a)-\u003eCreateProcess-\u003ea-\u003eb[Output a]",
@@ -1701,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Monad",
           "name": "runProcessQF",
           "package": "process-progress",
@@ -1710,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Monad",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Monad",
           "name": "runProcessQF",
           "normalized": "CreateProcess-\u003ea-\u003eb[Output a]",
@@ -1726,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun silently\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Monad",
           "name": "runProcessS",
           "package": "process-progress",
@@ -1736,6 +1879,7 @@
         "index": {
           "description": "Run silently",
           "hierarchy": "System Process Read Monad",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Monad",
           "name": "runProcessS",
           "normalized": "CreateProcess-\u003ea-\u003eb[Output a]",
@@ -1752,6 +1896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException and echo on failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Monad",
           "name": "runProcessSE",
           "package": "process-progress",
@@ -1762,6 +1907,7 @@
         "index": {
           "description": "Exception and echo on failure",
           "hierarchy": "System Process Read Monad",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Monad",
           "name": "runProcessSE",
           "normalized": "Maybe(a,a)-\u003eCreateProcess-\u003ea-\u003eb[Output a]",
@@ -1778,6 +1924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException on failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Monad",
           "name": "runProcessSF",
           "package": "process-progress",
@@ -1788,6 +1935,7 @@
         "index": {
           "description": "Exception on failure",
           "hierarchy": "System Process Read Monad",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Monad",
           "name": "runProcessSF",
           "normalized": "CreateProcess-\u003ea-\u003eb[Output a]",
@@ -1804,6 +1952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEcho output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Monad",
           "name": "runProcessV",
           "package": "process-progress",
@@ -1814,6 +1963,7 @@
         "index": {
           "description": "Echo output",
           "hierarchy": "System Process Read Monad",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Monad",
           "name": "runProcessV",
           "normalized": "CreateProcess-\u003ea-\u003eb[Output a]",
@@ -1830,6 +1980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEcho output and exception on failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Monad",
           "name": "runProcessVF",
           "package": "process-progress",
@@ -1840,6 +1991,7 @@
         "index": {
           "description": "Echo output and exception on failure",
           "hierarchy": "System Process Read Monad",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Monad",
           "name": "runProcessVF",
           "normalized": "CreateProcess-\u003ea-\u003eb[Output a]",
@@ -1855,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "Verbosity",
           "package": "process-progress",
@@ -1863,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "Verbosity",
           "package": "process-progress",
@@ -1876,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "defaultVerbosity",
           "package": "process-progress",
@@ -1885,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "defaultVerbosity",
           "package": "process-progress",
@@ -1898,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "noisier",
           "package": "process-progress",
@@ -1907,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "noisier",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -1921,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "qBracket",
           "package": "process-progress",
@@ -1930,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "qBracket",
           "normalized": "String-\u003ea b-\u003ea b",
@@ -1945,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "qMessage",
           "package": "process-progress",
@@ -1954,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "qMessage",
           "normalized": "String-\u003ea-\u003eb a",
@@ -1969,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "qMessageLn",
           "package": "process-progress",
@@ -1978,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "qMessageLn",
           "normalized": "String-\u003ea-\u003eb a",
@@ -1993,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "qPutStr",
           "package": "process-progress",
@@ -2002,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "qPutStr",
           "normalized": "String-\u003ea()",
@@ -2017,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "qPutStrLn",
           "package": "process-progress",
@@ -2026,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "qPutStrLn",
           "normalized": "String-\u003ea()",
@@ -2041,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "quieter",
           "package": "process-progress",
@@ -2050,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "quieter",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -2065,6 +2235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect from the runProcess* functions in Monad based on a verbosity level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "runProcess",
           "package": "process-progress",
@@ -2075,6 +2246,7 @@
         "index": {
           "description": "Select from the runProcess functions in Monad based on verbosity level",
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "runProcess",
           "normalized": "CreateProcess-\u003ea-\u003eb[Output a]",
@@ -2091,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003erunProcess\u003c/a\u003e\u003c/code\u003e that throws an exception on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "runProcessF",
           "package": "process-progress",
@@ -2101,6 +2274,7 @@
         "index": {
           "description": "version of runProcess that throws an exception on failure",
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "runProcessF",
           "normalized": "Maybe(a,a)-\u003eCreateProcess-\u003ea-\u003eb[Output a]",
@@ -2116,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "verbosity",
           "package": "process-progress",
@@ -2125,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "verbosity",
           "package": "process-progress",
@@ -2137,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:32 UTC 2014",
           "module": "System.Process.Read.Verbosity",
           "name": "withModifiedVerbosity",
           "package": "process-progress",
@@ -2146,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Verbosity",
+          "indexed": "2014-03-11T19:44:32",
           "module": "System.Process.Read.Verbosity",
           "name": "withModifiedVerbosity",
           "normalized": "(Int-\u003eInt)-\u003ea b-\u003ea b",

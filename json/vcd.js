@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vcd"
+        "phrase": "vcd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBuilding hierarchy from unstructured hierarchical paths.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD.Tree",
           "name": "Tree",
           "package": "vcd",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Building hierarchy from unstructured hierarchical paths",
           "hierarchy": "Data VCD Tree",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD.Tree",
           "name": "Tree",
           "package": "vcd",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD.Tree",
           "name": "Tree",
           "package": "vcd",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data VCD Tree",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD.Tree",
           "name": "Tree",
           "package": "vcd",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD.Tree",
           "name": "Branch",
           "package": "vcd",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data VCD Tree",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD.Tree",
           "name": "Branch",
           "normalized": "Branch a[Tree a b]",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD.Tree",
           "name": "Leaf",
           "package": "vcd",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data VCD Tree",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD.Tree",
           "name": "Leaf",
           "package": "vcd",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD.Tree",
           "name": "tree",
           "package": "vcd",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data VCD Tree",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD.Tree",
           "name": "tree",
           "normalized": "(a-\u003e[b])-\u003e[a]-\u003e[Tree b a]",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGenerating and parsing Value Change Dump (VCD) files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "VCD",
           "package": "vcd",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Generating and parsing Value Change Dump VCD files",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "VCD",
           "package": "vcd",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "Definition",
           "package": "vcd",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Variable definition",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "Definition",
           "package": "vcd",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVCD Timescale.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "Timescale",
           "package": "vcd",
@@ -187,6 +202,7 @@
         "index": {
           "description": "VCD Timescale",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "Timescale",
           "package": "vcd",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVCD database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "VCD",
           "package": "vcd",
@@ -210,6 +227,7 @@
         "index": {
           "description": "VCD database",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "VCD",
           "package": "vcd",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe VCDHandle keeps track of generation state and the output handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "VCDHandle",
           "package": "vcd",
@@ -233,6 +252,7 @@
         "index": {
           "description": "The VCDHandle keeps track of generation state and the output handle",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "VCDHandle",
           "package": "vcd",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecorded value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "Value",
           "package": "vcd",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Recorded value",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "Value",
           "package": "vcd",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that can be recorded as VCD variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "Variable",
           "package": "vcd",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Types that can be recorded as VCD variables",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "Variable",
           "package": "vcd",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "Bits",
           "package": "vcd",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "Bits",
           "normalized": "Bits[Bool]",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "Bool",
           "package": "vcd",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "Bool",
           "package": "vcd",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "Double",
           "package": "vcd",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "Double",
           "package": "vcd",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emilliseconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "MS",
           "package": "vcd",
@@ -371,6 +402,7 @@
         "index": {
           "description": "milliseconds",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "MS",
           "package": "vcd",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epicoseconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "PS",
           "package": "vcd",
@@ -395,6 +428,7 @@
         "index": {
           "description": "picoseconds",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "PS",
           "package": "vcd",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eseconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "S",
           "package": "vcd",
@@ -419,6 +454,7 @@
         "index": {
           "description": "seconds",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "S",
           "package": "vcd",
@@ -432,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHierarchical scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "Scope",
           "package": "vcd",
@@ -442,6 +479,7 @@
         "index": {
           "description": "Hierarchical scope",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "Scope",
           "normalized": "Scope String[Definition]",
@@ -458,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emicroseconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "US",
           "package": "vcd",
@@ -468,6 +507,7 @@
         "index": {
           "description": "microseconds",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "US",
           "package": "vcd",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "VCD",
           "package": "vcd",
@@ -490,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "VCD",
           "normalized": "VCD Timescale[Definition][(Int,[(String,Value)])]",
@@ -506,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable with type, width, code, name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "Var",
           "package": "vcd",
@@ -516,6 +559,7 @@
         "index": {
           "description": "Variable with type width code name",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "Var",
           "package": "vcd",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new handle for generating a VCD file with a given timescale.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "newVCD",
           "package": "vcd",
@@ -540,6 +585,7 @@
         "index": {
           "description": "Create new handle for generating VCD file with given timescale",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "newVCD",
           "normalized": "Handle-\u003eTimescale-\u003eIO VCDHandle",
@@ -556,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse VCD data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "parseVCD",
           "package": "vcd",
@@ -566,6 +613,7 @@
         "index": {
           "description": "Parse VCD data",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "parseVCD",
           "normalized": "String-\u003eVCD",
@@ -582,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a time step.  \u003ccode\u003e\u003ca\u003estep\u003c/a\u003e\u003c/code\u003e will also transition a VCDHandle from the definition to the recording phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "step",
           "package": "vcd",
@@ -592,6 +641,7 @@
         "index": {
           "description": "Set time step step will also transition VCDHandle from the definition to the recording phase",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "step",
           "normalized": "VCDHandle-\u003eInt-\u003eIO()",
@@ -607,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave as \u003ccode\u003e\u003ca\u003estep\u003c/a\u003e\u003c/code\u003e, but forces a step recording even if variables have not changed.  Useful for realtime simulation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "step'",
           "package": "vcd",
@@ -617,6 +668,7 @@
         "index": {
           "description": "Save as step but forces step recording even if variables have not changed Useful for realtime simulation",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "step'",
           "normalized": "VCDHandle-\u003eInt-\u003eIO()",
@@ -632,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a new variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "var",
           "package": "vcd",
@@ -642,6 +695,7 @@
         "index": {
           "description": "Define new variable",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "var",
           "normalized": "VCDHandle-\u003e[String]-\u003ea-\u003eIO(a-\u003eIO())",
@@ -657,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper to create new \u003ccode\u003e\u003ca\u003eVariable\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:31 UTC 2014",
           "module": "Data.VCD",
           "name": "variable",
           "package": "vcd",
@@ -667,6 +722,7 @@
         "index": {
           "description": "Helper to create new Variable instances",
           "hierarchy": "Data VCD",
+          "indexed": "2014-03-11T20:33:31",
           "module": "Data.VCD",
           "name": "variable",
           "normalized": "String-\u003eInt-\u003e(a-\u003eString)-\u003eVCDHandle-\u003e[String]-\u003ea-\u003eIO(a-\u003eIO())",

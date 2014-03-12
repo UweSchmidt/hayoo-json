@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "newtyper"
+        "phrase": "newtyper",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:04 UTC 2014",
           "module": "Control.Newtyper",
           "name": "Newtyper",
           "package": "newtyper",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Newtyper",
+          "indexed": "2014-03-11T19:29:04",
           "module": "Control.Newtyper",
           "name": "Newtyper",
           "package": "newtyper",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:04 UTC 2014",
           "module": "Control.Newtyper",
           "name": "packF",
           "package": "newtyper",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control Newtyper",
+          "indexed": "2014-03-11T19:29:04",
           "module": "Control.Newtyper",
           "name": "packF",
           "normalized": "(a-\u003eb c)-\u003ea-\u003eb d",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:04 UTC 2014",
           "module": "Control.Newtyper",
           "name": "packM",
           "package": "newtyper",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Control Newtyper",
+          "indexed": "2014-03-11T19:29:04",
           "module": "Control.Newtyper",
           "name": "packM",
           "normalized": "(a-\u003eb c)-\u003ea-\u003eb d",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:04 UTC 2014",
           "module": "Control.Newtyper",
           "name": "unpackF",
           "package": "newtyper",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Control Newtyper",
+          "indexed": "2014-03-11T19:29:04",
           "module": "Control.Newtyper",
           "name": "unpackF",
           "normalized": "(a-\u003eb c)-\u003ea-\u003eb d",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:04 UTC 2014",
           "module": "Control.Newtyper",
           "name": "unpackM",
           "package": "newtyper",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Control Newtyper",
+          "indexed": "2014-03-11T19:29:04",
           "module": "Control.Newtyper",
           "name": "unpackM",
           "normalized": "(a-\u003eb c)-\u003ea-\u003eb d",

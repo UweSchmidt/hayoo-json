@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BiobaseDotP"
+        "phrase": "BiobaseDotP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS.Export",
           "name": "Export",
           "package": "BiobaseDotP",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Biobase ExtSS Export",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS.Export",
           "name": "Export",
           "package": "BiobaseDotP",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of \u003ccode\u003e\u003ca\u003eExtSS\u003c/a\u003e\u003c/code\u003e elements, transform into a bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS.Export",
           "name": "eneeByteString",
           "package": "BiobaseDotP",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Given list of ExtSS elements transform into bytestring",
           "hierarchy": "Biobase ExtSS Export",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS.Export",
           "name": "eneeByteString",
           "normalized": "Enumeratee[ExtSS]ByteString a b",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImports an extended secondary structure from bytestring. Such a structure\n is defined as:\n\u003c/p\u003e\u003cp\u003e# comment 1      -- comments\n # comment ...    -- comments\n # comment n      -- comments\n AUGACUACUAGC     -- sequence part\n    3  9  cWW     -- detailed pair information (indented)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS.Import",
           "name": "Import",
           "package": "BiobaseDotP",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Imports an extended secondary structure from bytestring Such structure is defined as comment comments comment comments comment comments AUGACUACUAGC sequence part cWW detailed pair information indented",
           "hierarchy": "Biobase ExtSS Import",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS.Import",
           "name": "Import",
           "package": "BiobaseDotP",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a line into an extended pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS.Import",
           "name": "convLine",
           "package": "BiobaseDotP",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Convert line into an extended pair",
           "hierarchy": "Biobase ExtSS Import",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS.Import",
           "name": "convLine",
           "normalized": "ByteString-\u003e(Int,Int,ByteString)",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert input bytestring into a list of extended secondary structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS.Import",
           "name": "eneeExtSS",
           "package": "BiobaseDotP",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Convert input bytestring into list of extended secondary structures",
           "hierarchy": "Biobase ExtSS Import",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS.Import",
           "name": "eneeExtSS",
           "normalized": "Enumeratee ByteString[ExtSS]a b",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS.Import",
           "name": "fromFile",
           "package": "BiobaseDotP",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Convenience function",
           "hierarchy": "Biobase ExtSS Import",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS.Import",
           "name": "fromFile",
           "normalized": "FilePath-\u003eIO[ExtSS]",
@@ -166,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS",
           "name": "ExtSS",
           "package": "BiobaseDotP",
@@ -174,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Biobase ExtSS",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS",
           "name": "ExtSS",
           "package": "BiobaseDotP",
@@ -187,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS",
           "name": "ExtSS",
           "package": "BiobaseDotP",
@@ -195,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Biobase ExtSS",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS",
           "name": "ExtSS",
           "package": "BiobaseDotP",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS",
           "name": "ExtSS",
           "package": "BiobaseDotP",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Biobase ExtSS",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS",
           "name": "ExtSS",
           "package": "BiobaseDotP",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS",
           "name": "comments",
           "package": "BiobaseDotP",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Biobase ExtSS",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS",
           "name": "comments",
           "normalized": "[ByteString]",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS",
           "name": "detailed",
           "package": "BiobaseDotP",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Biobase ExtSS",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS",
           "name": "detailed",
           "normalized": "[(Int,Int,ByteString)]",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS",
           "name": "sequence",
           "package": "BiobaseDotP",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Biobase ExtSS",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS",
           "name": "sequence",
           "package": "BiobaseDotP",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.ExtSS",
           "name": "structure",
           "package": "BiobaseDotP",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Biobase ExtSS",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.ExtSS",
           "name": "structure",
           "package": "BiobaseDotP",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.RNAstrand.Export",
           "name": "Export",
           "package": "BiobaseDotP",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Biobase RNAstrand Export",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.RNAstrand.Export",
           "name": "Export",
           "package": "BiobaseDotP",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.RNAstrand.Import",
           "name": "Import",
           "package": "BiobaseDotP",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Biobase RNAstrand Import",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.RNAstrand.Import",
           "name": "Import",
           "package": "BiobaseDotP",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRNAstrand element creation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.RNAstrand.Import",
           "name": "eneeRNAstrand",
           "package": "BiobaseDotP",
@@ -371,6 +402,7 @@
         "index": {
           "description": "RNAstrand element creation",
           "hierarchy": "Biobase RNAstrand Import",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.RNAstrand.Import",
           "name": "eneeRNAstrand",
           "normalized": "Enumeratee ByteString[RNAstrand]a b",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.RNAstrand.Import",
           "name": "fromFile",
           "package": "BiobaseDotP",
@@ -397,6 +430,7 @@
         "index": {
           "description": "Convenience function",
           "hierarchy": "Biobase RNAstrand Import",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.RNAstrand.Import",
           "name": "fromFile",
           "normalized": "FilePath-\u003eIO[RNAstrand]",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.RNAstrand",
           "name": "RNAstrand",
           "package": "BiobaseDotP",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Biobase RNAstrand",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.RNAstrand",
           "name": "RNAstrand",
           "package": "BiobaseDotP",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRNAstrand Dot-bracket files contain a sequence and a secondary structure,\n possibly with pseudoknots. In addition, comments are possible using \u003ca/\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.RNAstrand",
           "name": "RNAstrand",
           "package": "BiobaseDotP",
@@ -443,6 +480,7 @@
         "index": {
           "description": "RNAstrand Dot-bracket files contain sequence and secondary structure possibly with pseudoknots In addition comments are possible using",
           "hierarchy": "Biobase RNAstrand",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.RNAstrand",
           "name": "RNAstrand",
           "package": "BiobaseDotP",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.RNAstrand",
           "name": "RNAstrand",
           "package": "BiobaseDotP",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Biobase RNAstrand",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.RNAstrand",
           "name": "RNAstrand",
           "package": "BiobaseDotP",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.RNAstrand",
           "name": "comments",
           "package": "BiobaseDotP",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Biobase RNAstrand",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.RNAstrand",
           "name": "comments",
           "normalized": "[ByteString]",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.RNAstrand",
           "name": "sequence",
           "package": "BiobaseDotP",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Biobase RNAstrand",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.RNAstrand",
           "name": "sequence",
           "package": "BiobaseDotP",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.RNAstrand",
           "name": "structure",
           "package": "BiobaseDotP",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Biobase RNAstrand",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.RNAstrand",
           "name": "structure",
           "package": "BiobaseDotP",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.Vienna.Export",
           "name": "Export",
           "package": "BiobaseDotP",
@@ -551,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Biobase Vienna Export",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.Vienna.Export",
           "name": "Export",
           "package": "BiobaseDotP",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.Vienna.Import",
           "name": "Import",
           "package": "BiobaseDotP",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Biobase Vienna Import",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.Vienna.Import",
           "name": "Import",
           "package": "BiobaseDotP",
@@ -586,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eViennaRNA secondary structures.\n\u003c/p\u003e\u003cp\u003eTODO extends all data structures to accept energy values associated with\n structures, if needed.\n\u003c/p\u003e\u003cp\u003eTODO or said otherwise, parsers for RNAfold, RNAsubopt, etc output would be\n nice.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.Vienna",
           "name": "Vienna",
           "package": "BiobaseDotP",
@@ -595,6 +646,7 @@
         "index": {
           "description": "ViennaRNA secondary structures TODO extends all data structures to accept energy values associated with structures if needed TODO or said otherwise parsers for RNAfold RNAsubopt etc output would be nice",
           "hierarchy": "Biobase Vienna",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.Vienna",
           "name": "Vienna",
           "package": "BiobaseDotP",
@@ -609,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulation of ViennaRNA secondary structures.\n\u003c/p\u003e\u003cp\u003eSometimes, we need to associate more than one structure with a sequence.\n This happens, for example, when parsing RNAsubopt output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.Vienna",
           "name": "Vienna",
           "package": "BiobaseDotP",
@@ -618,6 +671,7 @@
         "index": {
           "description": "Encapsulation of ViennaRNA secondary structures Sometimes we need to associate more than one structure with sequence This happens for example when parsing RNAsubopt output",
           "hierarchy": "Biobase Vienna",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.Vienna",
           "name": "Vienna",
           "package": "BiobaseDotP",
@@ -631,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.Vienna",
           "name": "Vienna",
           "package": "BiobaseDotP",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Biobase Vienna",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.Vienna",
           "name": "Vienna",
           "package": "BiobaseDotP",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.Vienna",
           "name": "ViennaMany",
           "package": "BiobaseDotP",
@@ -662,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Biobase Vienna",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.Vienna",
           "name": "ViennaMany",
           "package": "BiobaseDotP",
@@ -675,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.Vienna",
           "name": "sequence",
           "package": "BiobaseDotP",
@@ -684,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Biobase Vienna",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.Vienna",
           "name": "sequence",
           "package": "BiobaseDotP",
@@ -696,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.Vienna",
           "name": "structure",
           "package": "BiobaseDotP",
@@ -705,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Biobase Vienna",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.Vienna",
           "name": "structure",
           "package": "BiobaseDotP",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:20 UTC 2014",
           "module": "Biobase.Vienna",
           "name": "structures",
           "package": "BiobaseDotP",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Biobase Vienna",
+          "indexed": "2014-03-11T16:34:20",
           "module": "Biobase.Vienna",
           "name": "structures",
           "normalized": "[ByteString]",

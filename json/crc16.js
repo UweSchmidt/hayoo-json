@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crc16"
+        "phrase": "crc16",
+        "type": "phrase"
       },
       "type": "context"
     }

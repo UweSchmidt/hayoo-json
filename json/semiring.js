@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "semiring"
+        "phrase": "semiring",
+        "type": "phrase"
       },
       "type": "context"
     }

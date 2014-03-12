@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "LslPlus"
+        "phrase": "LslPlus",
+        "type": "phrase"
       },
       "type": "context"
     }

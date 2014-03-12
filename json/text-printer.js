@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "text-printer"
+        "phrase": "text-printer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrint fractions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "Fractional",
           "package": "text-printer",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Print fractions",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "Fractional",
           "package": "text-printer",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe binary numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "Binary",
           "package": "text-printer",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The binary numeral system",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "Binary",
           "package": "text-printer",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositonal numeral system with a power of two radix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "BitSystem",
           "package": "text-printer",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Positonal numeral system with power of two radix",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "BitSystem",
           "package": "text-printer",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe decimal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "Decimal",
           "package": "text-printer",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The decimal numeral system",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "Decimal",
           "package": "text-printer",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hexadecimal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "Hexadecimal",
           "package": "text-printer",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The hexadecimal numeral system",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "Hexadecimal",
           "package": "text-printer",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hexadecimal numeral system, using lower case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "LowHex",
           "package": "text-printer",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The hexadecimal numeral system using lower case digits",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "LowHex",
           "package": "text-printer",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe octal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "Octal",
           "package": "text-printer",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The octal numeral system",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "Octal",
           "package": "text-printer",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptionality characteristic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "Optional",
           "package": "text-printer",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Optionality characteristic",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "Optional",
           "package": "text-printer",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "PositionalSystem",
           "package": "text-printer",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Positional numeral system",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "PositionalSystem",
           "package": "text-printer",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hexadecimal numeral system, using upper case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "UpHex",
           "package": "text-printer",
@@ -235,6 +254,7 @@
         "index": {
           "description": "The hexadecimal numeral system using upper case digits",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "UpHex",
           "package": "text-printer",
@@ -363,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "Optional",
           "package": "text-printer",
@@ -372,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "Optional",
           "package": "text-printer",
@@ -385,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "Required",
           "package": "text-printer",
@@ -394,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "Required",
           "package": "text-printer",
@@ -431,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumer of bits occupied by a digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "digitBitsIn",
           "package": "text-printer",
@@ -441,6 +466,7 @@
         "index": {
           "description": "Numer of bits occupied by digit",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "digitBitsIn",
           "normalized": "a-\u003eInt",
@@ -457,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number that has \u003ccode\u003e\u003ca\u003edigitBitsIn\u003c/a\u003e\u003c/code\u003e least significant bits set to ones\n   and all the other bits set to zeroes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "digitMaskIn",
           "package": "text-printer",
@@ -467,6 +494,7 @@
         "index": {
           "description": "The number that has digitBitsIn least significant bits set to ones and all the other bits set to zeroes",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "digitMaskIn",
           "normalized": "a-\u003eb",
@@ -483,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a fraction. The numerator and the denominator are written in the\n   decimal numeral system and separated by a slash. Negative values\n   are prefixed with a minus sign. Invisible denominators are omitted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "fraction",
           "package": "text-printer",
@@ -493,6 +522,7 @@
         "index": {
           "description": "Print fraction The numerator and the denominator are written in the decimal numeral system and separated by slash Negative values are prefixed with minus sign Invisible denominators are omitted",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "fraction",
           "normalized": "a-\u003eb",
@@ -508,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a fraction, writing the numerator and the denominator in\n   the specified positional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "fraction'",
           "package": "text-printer",
@@ -517,6 +548,7 @@
         "index": {
           "description": "Print fraction writing the numerator and the denominator in the specified positional numeral system",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "fraction'",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eOptional-\u003ec-\u003eb",
@@ -532,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap digits to the corresponding numbers. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e on\n   other inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "fromDigitIn",
           "package": "text-printer",
@@ -542,6 +575,7 @@
         "index": {
           "description": "Map digits to the corresponding numbers Return Nothing on other inputs",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "fromDigitIn",
           "normalized": "a-\u003eChar-\u003eMaybe b",
@@ -558,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap non-zero digits to the corresponding numbers. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e on\n   other inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "fromNzDigitIn",
           "package": "text-printer",
@@ -568,6 +603,7 @@
         "index": {
           "description": "Map non-zero digits to the corresponding numbers Return Nothing on other inputs",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "fromNzDigitIn",
           "normalized": "a-\u003eChar-\u003eMaybe b",
@@ -584,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e values to the corresponding digits. Inputs \u003cem\u003emust\u003c/em\u003e be\n   non-negative and less than the radix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "intToDigitIn",
           "package": "text-printer",
@@ -594,6 +631,7 @@
         "index": {
           "description": "Map Int values to the corresponding digits Inputs must be non-negative and less than the radix",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "intToDigitIn",
           "normalized": "a-\u003eInt-\u003eChar",
@@ -610,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a character is a digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "isDigitIn",
           "package": "text-printer",
@@ -620,6 +659,7 @@
         "index": {
           "description": "Test if character is digit",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "isDigitIn",
           "normalized": "a-\u003eChar-\u003eBool",
@@ -636,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a character is a non-zero digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "isNzDigitIn",
           "package": "text-printer",
@@ -646,6 +687,7 @@
         "index": {
           "description": "Test if character is non-zero digit",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "isNzDigitIn",
           "normalized": "a-\u003eChar-\u003eBool",
@@ -662,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the supplied value is \u003ccode\u003e\u003ca\u003eOptional\u003c/a\u003e\u003c/code\u003e and false otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "isOptional",
           "package": "text-printer",
@@ -672,6 +715,7 @@
         "index": {
           "description": "True if the supplied value is Optional and false otherwise",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "isOptional",
           "normalized": "Optional-\u003eBool",
@@ -688,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the supplied value is \u003ccode\u003e\u003ca\u003eRequired\u003c/a\u003e\u003c/code\u003e and false otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "isRequired",
           "package": "text-printer",
@@ -698,6 +743,7 @@
         "index": {
           "description": "True if the supplied value is Required and false otherwise",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "isRequired",
           "normalized": "Optional-\u003eBool",
@@ -714,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the last digit of a number to the corresponding \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "lastDigitIn",
           "package": "text-printer",
@@ -724,6 +771,7 @@
         "index": {
           "description": "Map the last digit of number to the corresponding Int value",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "lastDigitIn",
           "normalized": "a-\u003eb-\u003eInt",
@@ -740,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "printDigitIn",
           "package": "text-printer",
@@ -750,6 +799,7 @@
         "index": {
           "description": "Print digit",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "printDigitIn",
           "normalized": "a-\u003eChar-\u003eb",
@@ -765,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "printZeroIn",
           "package": "text-printer",
@@ -774,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "printZeroIn",
           "normalized": "a-\u003eb",
@@ -790,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe radix of the system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "radixIn",
           "package": "text-printer",
@@ -800,6 +853,7 @@
         "index": {
           "description": "The radix of the system",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "radixIn",
           "normalized": "a-\u003eb",
@@ -816,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the system (e.g. \"binary\", \"decimal\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "systemName",
           "package": "text-printer",
@@ -826,6 +881,7 @@
         "index": {
           "description": "The name of the system e.g binary decimal",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "systemName",
           "normalized": "a-\u003eString",
@@ -842,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap digits to the corresponding numbers. No checks are performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Fractional",
           "name": "unsafeFromDigitIn",
           "package": "text-printer",
@@ -852,6 +909,7 @@
         "index": {
           "description": "Map digits to the corresponding numbers No checks are performed",
           "hierarchy": "Text Printer Fractional",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Fractional",
           "name": "unsafeFromDigitIn",
           "normalized": "a-\u003eChar-\u003eb",
@@ -868,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrint integral numbers in common positional numeral systems. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "Integral",
           "package": "text-printer",
@@ -877,6 +936,7 @@
         "index": {
           "description": "Print integral numbers in common positional numeral systems",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "Integral",
           "package": "text-printer",
@@ -891,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe binary numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "Binary",
           "package": "text-printer",
@@ -900,6 +961,7 @@
         "index": {
           "description": "The binary numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "Binary",
           "package": "text-printer",
@@ -914,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositonal numeral system with a power of two radix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "BitSystem",
           "package": "text-printer",
@@ -923,6 +986,7 @@
         "index": {
           "description": "Positonal numeral system with power of two radix",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "BitSystem",
           "package": "text-printer",
@@ -937,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe decimal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "Decimal",
           "package": "text-printer",
@@ -946,6 +1011,7 @@
         "index": {
           "description": "The decimal numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "Decimal",
           "package": "text-printer",
@@ -960,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hexadecimal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "Hexadecimal",
           "package": "text-printer",
@@ -969,6 +1036,7 @@
         "index": {
           "description": "The hexadecimal numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "Hexadecimal",
           "package": "text-printer",
@@ -983,6 +1051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hexadecimal numeral system, using lower case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "LowHex",
           "package": "text-printer",
@@ -992,6 +1061,7 @@
         "index": {
           "description": "The hexadecimal numeral system using lower case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "LowHex",
           "package": "text-printer",
@@ -1006,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe octal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "Octal",
           "package": "text-printer",
@@ -1015,6 +1086,7 @@
         "index": {
           "description": "The octal numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "Octal",
           "package": "text-printer",
@@ -1029,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "PositionalSystem",
           "package": "text-printer",
@@ -1038,6 +1111,7 @@
         "index": {
           "description": "Positional numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "PositionalSystem",
           "package": "text-printer",
@@ -1052,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hexadecimal numeral system, using upper case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "UpHex",
           "package": "text-printer",
@@ -1061,6 +1136,7 @@
         "index": {
           "description": "The hexadecimal numeral system using upper case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "UpHex",
           "package": "text-printer",
@@ -1075,6 +1151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a number in the binary numeral system. Negative values\n   are prefixed with a minus sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "binary",
           "package": "text-printer",
@@ -1085,6 +1162,7 @@
         "index": {
           "description": "Print number in the binary numeral system Negative values are prefixed with minus sign",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "binary",
           "normalized": "a-\u003eb",
@@ -1100,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a number in the binary numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "binary'",
           "package": "text-printer",
@@ -1109,6 +1188,7 @@
         "index": {
           "description": "Print number in the binary numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "binary'",
           "normalized": "a-\u003ea-\u003ea-\u003eb-\u003ea",
@@ -1124,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a binary number in the binary numeral system. Negative values\n   are prefixed with a minus sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "binaryBits",
           "package": "text-printer",
@@ -1134,6 +1215,7 @@
         "index": {
           "description": "Print binary number in the binary numeral system Negative values are prefixed with minus sign",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "binaryBits",
           "normalized": "a-\u003eb",
@@ -1150,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a binary number in the binary numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "binaryBits'",
           "package": "text-printer",
@@ -1159,6 +1242,7 @@
         "index": {
           "description": "Print binary number in the binary numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "binaryBits'",
           "normalized": "a-\u003ea-\u003ea-\u003eb-\u003ea",
@@ -1175,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a binary number in the specified positional numeral system.\n   Negative values are prefixed with a minus sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "bits",
           "package": "text-printer",
@@ -1185,6 +1270,7 @@
         "index": {
           "description": "Print binary number in the specified positional numeral system Negative values are prefixed with minus sign",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "bits",
           "normalized": "a-\u003eb-\u003ec",
@@ -1200,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a binary number in the specified positional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "bits'",
           "package": "text-printer",
@@ -1209,6 +1296,7 @@
         "index": {
           "description": "Print binary number in the specified positional numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "bits'",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003ec-\u003eb",
@@ -1224,6 +1312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a number in the decimal numeral system. Negative values\n   are prefixed with a minus sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "decimal",
           "package": "text-printer",
@@ -1234,6 +1323,7 @@
         "index": {
           "description": "Print number in the decimal numeral system Negative values are prefixed with minus sign",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "decimal",
           "normalized": "a-\u003eb",
@@ -1249,6 +1339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a number in the decimal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "decimal'",
           "package": "text-printer",
@@ -1258,6 +1349,7 @@
         "index": {
           "description": "Print number in the decimal numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "decimal'",
           "normalized": "a-\u003ea-\u003ea-\u003eb-\u003ea",
@@ -1273,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumer of bits occupied by a digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "digitBitsIn",
           "package": "text-printer",
@@ -1283,6 +1376,7 @@
         "index": {
           "description": "Numer of bits occupied by digit",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "digitBitsIn",
           "normalized": "a-\u003eInt",
@@ -1299,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number that has \u003ccode\u003e\u003ca\u003edigitBitsIn\u003c/a\u003e\u003c/code\u003e least significant bits set to ones\n   and all the other bits set to zeroes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "digitMaskIn",
           "package": "text-printer",
@@ -1309,6 +1404,7 @@
         "index": {
           "description": "The number that has digitBitsIn least significant bits set to ones and all the other bits set to zeroes",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "digitMaskIn",
           "normalized": "a-\u003eb",
@@ -1325,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap digits to the corresponding numbers. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e on\n   other inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "fromDigitIn",
           "package": "text-printer",
@@ -1335,6 +1432,7 @@
         "index": {
           "description": "Map digits to the corresponding numbers Return Nothing on other inputs",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "fromDigitIn",
           "normalized": "a-\u003eChar-\u003eMaybe b",
@@ -1351,6 +1449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap non-zero digits to the corresponding numbers. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e on\n   other inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "fromNzDigitIn",
           "package": "text-printer",
@@ -1361,6 +1460,7 @@
         "index": {
           "description": "Map non-zero digits to the corresponding numbers Return Nothing on other inputs",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "fromNzDigitIn",
           "normalized": "a-\u003eChar-\u003eMaybe b",
@@ -1377,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e values to the corresponding digits. Inputs \u003cem\u003emust\u003c/em\u003e be\n   non-negative and less than the radix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "intToDigitIn",
           "package": "text-printer",
@@ -1387,6 +1488,7 @@
         "index": {
           "description": "Map Int values to the corresponding digits Inputs must be non-negative and less than the radix",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "intToDigitIn",
           "normalized": "a-\u003eInt-\u003eChar",
@@ -1403,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a character is a digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "isDigitIn",
           "package": "text-printer",
@@ -1413,6 +1516,7 @@
         "index": {
           "description": "Test if character is digit",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "isDigitIn",
           "normalized": "a-\u003eChar-\u003eBool",
@@ -1429,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a character is a non-zero digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "isNzDigitIn",
           "package": "text-printer",
@@ -1439,6 +1544,7 @@
         "index": {
           "description": "Test if character is non-zero digit",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "isNzDigitIn",
           "normalized": "a-\u003eChar-\u003eBool",
@@ -1455,6 +1561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the last digit of a number to the corresponding \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "lastDigitIn",
           "package": "text-printer",
@@ -1465,6 +1572,7 @@
         "index": {
           "description": "Map the last digit of number to the corresponding Int value",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "lastDigitIn",
           "normalized": "a-\u003eb-\u003eInt",
@@ -1481,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a number in the hexadecimal numeral system using lower case\n   digits. Negative values are prefixed with a minus sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "lowHex",
           "package": "text-printer",
@@ -1491,6 +1600,7 @@
         "index": {
           "description": "Print number in the hexadecimal numeral system using lower case digits Negative values are prefixed with minus sign",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "lowHex",
           "normalized": "a-\u003eb",
@@ -1507,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a number in the hexadecimal numeral system using lower case\n   digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "lowHex'",
           "package": "text-printer",
@@ -1516,6 +1627,7 @@
         "index": {
           "description": "Print number in the hexadecimal numeral system using lower case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "lowHex'",
           "normalized": "a-\u003ea-\u003ea-\u003eb-\u003ea",
@@ -1532,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a binary number in the hexadecimal numeral system using lower\n   case digits. Negative values are prefixed with a minus sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "lowHexBits",
           "package": "text-printer",
@@ -1542,6 +1655,7 @@
         "index": {
           "description": "Print binary number in the hexadecimal numeral system using lower case digits Negative values are prefixed with minus sign",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "lowHexBits",
           "normalized": "a-\u003eb",
@@ -1558,6 +1672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a binary number in the hexadecimal numeral system using lower\n   case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "lowHexBits'",
           "package": "text-printer",
@@ -1567,6 +1682,7 @@
         "index": {
           "description": "Print binary number in the hexadecimal numeral system using lower case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "lowHexBits'",
           "normalized": "a-\u003ea-\u003ea-\u003eb-\u003ea",
@@ -1583,6 +1699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-negative number in the binary numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "nnBinary",
           "package": "text-printer",
@@ -1593,6 +1710,7 @@
         "index": {
           "description": "Print non-negative number in the binary numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "nnBinary",
           "normalized": "a-\u003eb",
@@ -1609,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-negative binary number in the binary numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "nnBinaryBits",
           "package": "text-printer",
@@ -1619,6 +1738,7 @@
         "index": {
           "description": "Print non-negative binary number in the binary numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "nnBinaryBits",
           "normalized": "a-\u003eb",
@@ -1635,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-negative binary number in the specified positional numeral\n   system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "nnBits",
           "package": "text-printer",
@@ -1645,6 +1766,7 @@
         "index": {
           "description": "Print non-negative binary number in the specified positional numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "nnBits",
           "normalized": "a-\u003eb-\u003ec",
@@ -1661,6 +1783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-negative number in the decimal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "nnDecimal",
           "package": "text-printer",
@@ -1671,6 +1794,7 @@
         "index": {
           "description": "Print non-negative number in the decimal numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "nnDecimal",
           "normalized": "a-\u003eb",
@@ -1687,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-negative number in the hexadecimal numeral system\n   using lower case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "nnLowHex",
           "package": "text-printer",
@@ -1697,6 +1822,7 @@
         "index": {
           "description": "Print non-negative number in the hexadecimal numeral system using lower case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "nnLowHex",
           "normalized": "a-\u003eb",
@@ -1713,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-negative binary number in the hexadecimal numeral system\n   using lower case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "nnLowHexBits",
           "package": "text-printer",
@@ -1723,6 +1850,7 @@
         "index": {
           "description": "Print non-negative binary number in the hexadecimal numeral system using lower case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "nnLowHexBits",
           "normalized": "a-\u003eb",
@@ -1739,6 +1867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-negative number in the octal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "nnOctal",
           "package": "text-printer",
@@ -1749,6 +1878,7 @@
         "index": {
           "description": "Print non-negative number in the octal numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "nnOctal",
           "normalized": "a-\u003eb",
@@ -1765,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-negative binary number in the octal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "nnOctalBits",
           "package": "text-printer",
@@ -1775,6 +1906,7 @@
         "index": {
           "description": "Print non-negative binary number in the octal numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "nnOctalBits",
           "normalized": "a-\u003eb",
@@ -1791,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-negative number in the hexadecimal numeral system\n   using upper case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "nnUpHex",
           "package": "text-printer",
@@ -1801,6 +1934,7 @@
         "index": {
           "description": "Print non-negative number in the hexadecimal numeral system using upper case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "nnUpHex",
           "normalized": "a-\u003eb",
@@ -1817,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-negative binary number in the hexadecimal numeral system\n   using upper case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "nnUpHexBits",
           "package": "text-printer",
@@ -1827,6 +1962,7 @@
         "index": {
           "description": "Print non-negative binary number in the hexadecimal numeral system using upper case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "nnUpHexBits",
           "normalized": "a-\u003eb",
@@ -1843,6 +1979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-negative number in the specified positional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "nonNegative",
           "package": "text-printer",
@@ -1853,6 +1990,7 @@
         "index": {
           "description": "Print non-negative number in the specified positional numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "nonNegative",
           "normalized": "a-\u003eb-\u003ec",
@@ -1869,6 +2007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-positive number in the specified positional numeral system.\n   For example, \u003ccode\u003e\u003ccode\u003e\u003ca\u003enonPositive\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDecimal\u003c/a\u003e\u003c/code\u003e (-\u003cem\u003e123\u003c/em\u003e)\u003c/code\u003e would print \"123\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "nonPositive",
           "package": "text-printer",
@@ -1879,6 +2018,7 @@
         "index": {
           "description": "Print non-positive number in the specified positional numeral system For example nonPositive Decimal would print",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "nonPositive",
           "normalized": "a-\u003eb-\u003ec",
@@ -1895,6 +2035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-positive number in the binary numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "npBinary",
           "package": "text-printer",
@@ -1905,6 +2046,7 @@
         "index": {
           "description": "Print non-positive number in the binary numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "npBinary",
           "normalized": "a-\u003eb",
@@ -1921,6 +2063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-positive binary number in the binary numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "npBinaryBits",
           "package": "text-printer",
@@ -1931,6 +2074,7 @@
         "index": {
           "description": "Print non-positive binary number in the binary numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "npBinaryBits",
           "normalized": "a-\u003eb",
@@ -1947,6 +2091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-positive two-compliment binary number in the specified\n   positional numeral system. For example, \u003ccode\u003e\u003ccode\u003e\u003ca\u003enpBits\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eUpHex\u003c/a\u003e\u003c/code\u003e (-\u003cem\u003e0xABC\u003c/em\u003e)\u003c/code\u003e\n   would print \"ABC\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "npBits",
           "package": "text-printer",
@@ -1957,6 +2102,7 @@
         "index": {
           "description": "Print non-positive two-compliment binary number in the specified positional numeral system For example npBits UpHex xABC would print ABC",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "npBits",
           "normalized": "a-\u003eb-\u003ec",
@@ -1973,6 +2119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-positive number in the decimal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "npDecimal",
           "package": "text-printer",
@@ -1983,6 +2130,7 @@
         "index": {
           "description": "Print non-positive number in the decimal numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "npDecimal",
           "normalized": "a-\u003eb",
@@ -1999,6 +2147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-positive number in the hexadecimal numeral system\n   using lower case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "npLowHex",
           "package": "text-printer",
@@ -2009,6 +2158,7 @@
         "index": {
           "description": "Print non-positive number in the hexadecimal numeral system using lower case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "npLowHex",
           "normalized": "a-\u003eb",
@@ -2025,6 +2175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-positive binary number in the hexadecimal numeral system\n   using lower case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "npLowHexBits",
           "package": "text-printer",
@@ -2035,6 +2186,7 @@
         "index": {
           "description": "Print non-positive binary number in the hexadecimal numeral system using lower case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "npLowHexBits",
           "normalized": "a-\u003eb",
@@ -2051,6 +2203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-positive number in the octal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "npOctal",
           "package": "text-printer",
@@ -2061,6 +2214,7 @@
         "index": {
           "description": "Print non-positive number in the octal numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "npOctal",
           "normalized": "a-\u003eb",
@@ -2077,6 +2231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-positive binary number in the octal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "npOctalBits",
           "package": "text-printer",
@@ -2087,6 +2242,7 @@
         "index": {
           "description": "Print non-positive binary number in the octal numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "npOctalBits",
           "normalized": "a-\u003eb",
@@ -2103,6 +2259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-positive number in the hexadecimal numeral system\n   using upper case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "npUpHex",
           "package": "text-printer",
@@ -2113,6 +2270,7 @@
         "index": {
           "description": "Print non-positive number in the hexadecimal numeral system using upper case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "npUpHex",
           "normalized": "a-\u003eb",
@@ -2129,6 +2287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a non-positive binary number in the hexadecimal numeral system\n   using upper case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "npUpHexBits",
           "package": "text-printer",
@@ -2139,6 +2298,7 @@
         "index": {
           "description": "Print non-positive binary number in the hexadecimal numeral system using upper case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "npUpHexBits",
           "normalized": "a-\u003eb",
@@ -2155,6 +2315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a number in the specified positional numeral system. Negative\n   values are prefixed with a minus sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "number",
           "package": "text-printer",
@@ -2165,6 +2326,7 @@
         "index": {
           "description": "Print number in the specified positional numeral system Negative values are prefixed with minus sign",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "number",
           "normalized": "a-\u003eb-\u003ec",
@@ -2180,6 +2342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a number in the specified positional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "number'",
           "package": "text-printer",
@@ -2189,6 +2352,7 @@
         "index": {
           "description": "Print number in the specified positional numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "number'",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003ec-\u003eb",
@@ -2204,6 +2368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a number in the octal numeral system. Negative values\n   are prefixed with a minus sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "octal",
           "package": "text-printer",
@@ -2214,6 +2379,7 @@
         "index": {
           "description": "Print number in the octal numeral system Negative values are prefixed with minus sign",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "octal",
           "normalized": "a-\u003eb",
@@ -2229,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a number in the octal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "octal'",
           "package": "text-printer",
@@ -2238,6 +2405,7 @@
         "index": {
           "description": "Print number in the octal numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "octal'",
           "normalized": "a-\u003ea-\u003ea-\u003eb-\u003ea",
@@ -2253,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a binary number in the octal numeral system. Negative values\n   are prefixed with a minus sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "octalBits",
           "package": "text-printer",
@@ -2263,6 +2432,7 @@
         "index": {
           "description": "Print binary number in the octal numeral system Negative values are prefixed with minus sign",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "octalBits",
           "normalized": "a-\u003eb",
@@ -2279,6 +2449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a binary number in the octal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "octalBits'",
           "package": "text-printer",
@@ -2288,6 +2459,7 @@
         "index": {
           "description": "Print binary number in the octal numeral system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "octalBits'",
           "normalized": "a-\u003ea-\u003ea-\u003eb-\u003ea",
@@ -2304,6 +2476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "printDigitIn",
           "package": "text-printer",
@@ -2314,6 +2487,7 @@
         "index": {
           "description": "Print digit",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "printDigitIn",
           "normalized": "a-\u003eChar-\u003eb",
@@ -2329,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "printZeroIn",
           "package": "text-printer",
@@ -2338,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "printZeroIn",
           "normalized": "a-\u003eb",
@@ -2354,6 +2530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe radix of the system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "radixIn",
           "package": "text-printer",
@@ -2364,6 +2541,7 @@
         "index": {
           "description": "The radix of the system",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "radixIn",
           "normalized": "a-\u003eb",
@@ -2380,6 +2558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the system (e.g. \"binary\", \"decimal\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "systemName",
           "package": "text-printer",
@@ -2390,6 +2569,7 @@
         "index": {
           "description": "The name of the system e.g binary decimal",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "systemName",
           "normalized": "a-\u003eString",
@@ -2406,6 +2586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap digits to the corresponding numbers. No checks are performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "unsafeFromDigitIn",
           "package": "text-printer",
@@ -2416,6 +2597,7 @@
         "index": {
           "description": "Map digits to the corresponding numbers No checks are performed",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "unsafeFromDigitIn",
           "normalized": "a-\u003eChar-\u003eb",
@@ -2432,6 +2614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a number in the hexadecimal numeral system using upper case\n   digits. Negative values are prefixed with a minus sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "upHex",
           "package": "text-printer",
@@ -2442,6 +2625,7 @@
         "index": {
           "description": "Print number in the hexadecimal numeral system using upper case digits Negative values are prefixed with minus sign",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "upHex",
           "normalized": "a-\u003eb",
@@ -2458,6 +2642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a number in the hexadecimal numeral system using upper case\n   digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "upHex'",
           "package": "text-printer",
@@ -2467,6 +2652,7 @@
         "index": {
           "description": "Print number in the hexadecimal numeral system using upper case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "upHex'",
           "normalized": "a-\u003ea-\u003ea-\u003eb-\u003ea",
@@ -2483,6 +2669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a binary number in the hexadecimal numeral system using upper\n   case digits. Negative values are prefixed with a minus sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "upHexBits",
           "package": "text-printer",
@@ -2493,6 +2680,7 @@
         "index": {
           "description": "Print binary number in the hexadecimal numeral system using upper case digits Negative values are prefixed with minus sign",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "upHexBits",
           "normalized": "a-\u003eb",
@@ -2509,6 +2697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a binary number in the hexadecimal numeral system using upper\n   case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer.Integral",
           "name": "upHexBits'",
           "package": "text-printer",
@@ -2518,6 +2707,7 @@
         "index": {
           "description": "Print binary number in the hexadecimal numeral system using upper case digits",
           "hierarchy": "Text Printer Integral",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer.Integral",
           "name": "upHexBits'",
           "normalized": "a-\u003ea-\u003ea-\u003eb-\u003ea",
@@ -2534,6 +2724,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonoids with a homomorphism from \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to themselves.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "Printer",
           "package": "text-printer",
@@ -2543,6 +2734,7 @@
         "index": {
           "description": "Monoids with homomorphism from String to themselves",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "Printer",
           "package": "text-printer",
@@ -2557,6 +2749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this builder when you are sure that only ASCII characters\n   will get printed to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "AsciiBuilder",
           "package": "text-printer",
@@ -2566,6 +2759,7 @@
         "index": {
           "description": "Use this builder when you are sure that only ASCII characters will get printed to it",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "AsciiBuilder",
           "package": "text-printer",
@@ -2580,6 +2774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multiline printer that combines lines with the provided function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "LinePrinter",
           "package": "text-printer",
@@ -2589,6 +2784,7 @@
         "index": {
           "description": "multiline printer that combines lines with the provided function",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "LinePrinter",
           "package": "text-printer",
@@ -2603,6 +2799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrinters that can produce multiple lines of text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "MultilinePrinter",
           "package": "text-printer",
@@ -2612,6 +2809,7 @@
         "index": {
           "description": "Printers that can produce multiple lines of text",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "MultilinePrinter",
           "package": "text-printer",
@@ -2626,6 +2824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText monoid. \u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e must be equivalent to \u003ccode\u003e\u003ca\u003efromString\u003c/a\u003e\u003c/code\u003e and be a monoid\n   homomorphism, i.e. \u003ccode\u003e\u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e \u003cem\u003ex\u003c/em\u003e) (\u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e \u003cem\u003ey\u003c/em\u003e) = \u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e \u003cem\u003ex\u003c/em\u003e \u003cem\u003ey\u003c/em\u003e)\u003c/code\u003e.\n   Other operations must be monoid homomorphisms that are eqiuvalent (but\n   possibly faster) to the composition of \u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e and the corresponding\n   embedding, e.g. \u003ccode\u003e\u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eunpack\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "Printer",
           "package": "text-printer",
@@ -2635,6 +2834,7 @@
         "index": {
           "description": "Text monoid string must be equivalent to fromString and be monoid homomorphism i.e string mempty mempty and mappend string string string mappend Other operations must be monoid homomorphisms that are eqiuvalent but possibly faster to the composition of string and the corresponding embedding e.g text string unpack",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "Printer",
           "package": "text-printer",
@@ -2649,6 +2849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple string builder as used by \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "StringBuilder",
           "package": "text-printer",
@@ -2658,6 +2859,7 @@
         "index": {
           "description": "simple string builder as used by Show",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "StringBuilder",
           "package": "text-printer",
@@ -2672,6 +2874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-8 lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e builder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "Utf8Builder",
           "package": "text-printer",
@@ -2681,6 +2884,7 @@
         "index": {
           "description": "UTF-8 lazy ByteString builder",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "Utf8Builder",
           "package": "text-printer",
@@ -2695,6 +2899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate two \u003ccode\u003e\u003ca\u003ePrinter\u003c/a\u003e\u003c/code\u003es with a space between them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "(\u003c+\u003e)",
           "package": "text-printer",
@@ -2705,6 +2910,7 @@
         "index": {
           "description": "Concatenate two Printer with space between them",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -2720,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two lines. Must be associative, i.e.\n   \u003cem\u003ex\u003c/em\u003e \u003ccode\u003e\u003ca\u003e\u003c-\u003e\u003c/a\u003e\u003c/code\u003e (\u003cem\u003ey\u003c/em\u003e \u003ccode\u003e\u003ca\u003e\u003c-\u003e\u003c/a\u003e\u003c/code\u003e \u003cem\u003ez\u003c/em\u003e) = (\u003cem\u003ex\u003c/em\u003e \u003ccode\u003e\u003ca\u003e\u003c-\u003e\u003c/a\u003e\u003c/code\u003e \u003cem\u003ey\u003c/em\u003e) \u003ccode\u003e\u003ca\u003e\u003c-\u003e\u003c/a\u003e\u003c/code\u003e \u003cem\u003ez\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "(\u003c-\u003e)",
           "package": "text-printer",
@@ -2730,6 +2937,7 @@
         "index": {
           "description": "Combine two lines Must be associative i.e",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -2745,6 +2953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "(\u003c\u003e)",
           "package": "text-printer",
@@ -2754,6 +2963,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -2768,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "AsciiBuilder",
           "package": "text-printer",
@@ -2777,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "AsciiBuilder",
           "package": "text-printer",
@@ -2790,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "LinePrinter",
           "package": "text-printer",
@@ -2799,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "LinePrinter",
           "package": "text-printer",
@@ -2812,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "StringBuilder",
           "package": "text-printer",
@@ -2821,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "StringBuilder",
           "package": "text-printer",
@@ -2834,6 +3050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "Utf8Builder",
           "package": "text-printer",
@@ -2843,6 +3060,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "Utf8Builder",
           "package": "text-printer",
@@ -2857,6 +3075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose a \u003ccode\u003e\u003ca\u003ePrinter\u003c/a\u003e\u003c/code\u003e with angle brackets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "angles",
           "package": "text-printer",
@@ -2867,6 +3086,7 @@
         "index": {
           "description": "Enclose Printer with angle brackets",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "angles",
           "normalized": "a-\u003ea",
@@ -2882,6 +3102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint an ASCII \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "ascii",
           "package": "text-printer",
@@ -2892,6 +3113,7 @@
         "index": {
           "description": "Print an ASCII ByteString",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "ascii",
           "normalized": "ByteString-\u003ea",
@@ -2906,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "asciiBuilder",
           "package": "text-printer",
@@ -2915,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "asciiBuilder",
           "package": "text-printer",
@@ -2929,6 +3153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose a \u003ccode\u003e\u003ca\u003ePrinter\u003c/a\u003e\u003c/code\u003e with curly braces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "braces",
           "package": "text-printer",
@@ -2939,6 +3164,7 @@
         "index": {
           "description": "Enclose Printer with curly braces",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "braces",
           "normalized": "a-\u003ea",
@@ -2954,6 +3180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose a \u003ccode\u003e\u003ca\u003ePrinter\u003c/a\u003e\u003c/code\u003e with square brackets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "brackets",
           "package": "text-printer",
@@ -2964,6 +3191,7 @@
         "index": {
           "description": "Enclose Printer with square brackets",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "brackets",
           "normalized": "a-\u003ea",
@@ -2978,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "buildAscii",
           "package": "text-printer",
@@ -2987,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "buildAscii",
           "normalized": "AsciiBuilder-\u003eByteString",
@@ -3002,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "buildLazyAscii",
           "package": "text-printer",
@@ -3011,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "buildLazyAscii",
           "normalized": "AsciiBuilder-\u003eByteString",
@@ -3026,6 +3258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "buildLazyText",
           "package": "text-printer",
@@ -3035,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "buildLazyText",
           "normalized": "Builder-\u003eText",
@@ -3050,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "buildLazyUtf8",
           "package": "text-printer",
@@ -3059,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "buildLazyUtf8",
           "normalized": "Utf Builder-\u003eByteString",
@@ -3074,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "buildString",
           "package": "text-printer",
@@ -3083,6 +3320,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "buildString",
           "normalized": "StringBuilder-\u003eString",
@@ -3098,6 +3336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "buildText",
           "package": "text-printer",
@@ -3107,6 +3346,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "buildText",
           "normalized": "Builder-\u003eText",
@@ -3122,6 +3362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "buildUtf8",
           "package": "text-printer",
@@ -3131,6 +3372,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "buildUtf8",
           "normalized": "Utf Builder-\u003eByteString",
@@ -3147,6 +3389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a character. \u003ccode\u003e\u003ccode\u003e\u003ca\u003echar\u003c/a\u003e\u003c/code\u003e \u003cem\u003ec\u003c/em\u003e\u003c/code\u003e must be equivalent to\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e [\u003cem\u003ec\u003c/em\u003e]\u003c/code\u003e, but hopefully is faster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "char",
           "package": "text-printer",
@@ -3157,6 +3400,7 @@
         "index": {
           "description": "Print character char must be equivalent to string but hopefully is faster",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "char",
           "normalized": "Char-\u003ea",
@@ -3172,6 +3416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint an ASCII character, can be faster than \u003ccode\u003e\u003ca\u003echar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "char7",
           "package": "text-printer",
@@ -3182,6 +3427,7 @@
         "index": {
           "description": "Print an ASCII character can be faster than char",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "char7",
           "normalized": "Char-\u003ea",
@@ -3197,6 +3443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint CR (\u003cem\u003e'\\r'\u003c/em\u003e) followed by LF (\u003cem\u003e'\\n'\u003c/em\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "crlf",
           "package": "text-printer",
@@ -3207,6 +3454,7 @@
         "index": {
           "description": "Print CR followed by LF",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "crlf",
           "package": "text-printer",
@@ -3220,6 +3468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate lines with \u003ccode\u003e\u003ca\u003ecrlf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "crlfPrinter",
           "package": "text-printer",
@@ -3230,6 +3479,7 @@
         "index": {
           "description": "Separate lines with crlf",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "crlfPrinter",
           "normalized": "LinePrinter a-\u003ea",
@@ -3246,6 +3496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose a \u003ccode\u003e\u003ca\u003ePrinter\u003c/a\u003e\u003c/code\u003e with double quotes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "dquotes",
           "package": "text-printer",
@@ -3256,6 +3507,7 @@
         "index": {
           "description": "Enclose Printer with double quotes",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "dquotes",
           "normalized": "a-\u003ea",
@@ -3271,6 +3523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the items of a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e data structure using the provided\n   function. If the data structure is empty, \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "fcat",
           "package": "text-printer",
@@ -3281,6 +3534,7 @@
         "index": {
           "description": "Combine the items of Foldable data structure using the provided function If the data structure is empty mempty is returned",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "fcat",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -3296,6 +3550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003efcat\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eseparate\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "fsep",
           "package": "text-printer",
@@ -3306,6 +3561,7 @@
         "index": {
           "description": "shorthand for fcat separate",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "fsep",
           "normalized": "a-\u003eb a-\u003ea",
@@ -3321,6 +3577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e data structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "hcat",
           "package": "text-printer",
@@ -3331,6 +3588,7 @@
         "index": {
           "description": "mconcat for Foldable data structures",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "hcat",
           "normalized": "a b-\u003eb",
@@ -3346,6 +3604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate the items of a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e data structure\n   with spaces between them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "hsep",
           "package": "text-printer",
@@ -3356,6 +3615,7 @@
         "index": {
           "description": "Concatenate the items of Foldable data structure with spaces between them",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "hsep",
           "normalized": "a b-\u003eb",
@@ -3371,6 +3631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a lazy ASCII \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "lazyAscii",
           "package": "text-printer",
@@ -3381,6 +3642,7 @@
         "index": {
           "description": "Print lazy ASCII ByteString",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "lazyAscii",
           "normalized": "ByteString-\u003ea",
@@ -3397,6 +3659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "lazyText",
           "package": "text-printer",
@@ -3407,6 +3670,7 @@
         "index": {
           "description": "Print lazy Text",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "lazyText",
           "normalized": "Text-\u003ea",
@@ -3423,6 +3687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a lazy UTF-8 \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "lazyUtf8",
           "package": "text-printer",
@@ -3433,6 +3698,7 @@
         "index": {
           "description": "Print lazy UTF-8 ByteString",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "lazyUtf8",
           "normalized": "ByteString-\u003ea",
@@ -3449,6 +3715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate lines with \u003ccode\u003e\u003ca\u003enewLine\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "lfPrinter",
           "package": "text-printer",
@@ -3459,6 +3726,7 @@
         "index": {
           "description": "Separate lines with newLine",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "lfPrinter",
           "normalized": "LinePrinter a-\u003ea",
@@ -3474,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "linePrinter",
           "package": "text-printer",
@@ -3483,6 +3752,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "linePrinter",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea",
@@ -3499,6 +3769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the items of a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e data structure with \u003ccode\u003e\u003ca\u003e\u003c-\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "lines",
           "package": "text-printer",
@@ -3509,6 +3780,7 @@
         "index": {
           "description": "Combine the items of Foldable data structure with",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "lines",
           "normalized": "a b-\u003eb",
@@ -3524,6 +3796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate the items of a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e data structure with commas\n   between them.\n\u003c/p\u003e\u003cpre\u003e\n   \u003ccode\u003e\u003ca\u003elist\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003efsep\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003echar7\u003c/a\u003e\u003c/code\u003e ',')\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "list",
           "package": "text-printer",
@@ -3534,6 +3807,7 @@
         "index": {
           "description": "Concatenate the items of Foldable data structure with commas between them list fsep char7",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "list",
           "normalized": "a b-\u003eb",
@@ -3549,6 +3823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the LF character (\u003cem\u003e'\\n'\u003c/em\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "newLine",
           "package": "text-printer",
@@ -3559,6 +3834,7 @@
         "index": {
           "description": "Print the LF character",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "newLine",
           "package": "text-printer",
@@ -3573,6 +3849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose a \u003ccode\u003e\u003ca\u003ePrinter\u003c/a\u003e\u003c/code\u003e with parentheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "parens",
           "package": "text-printer",
@@ -3583,6 +3860,7 @@
         "index": {
           "description": "Enclose Printer with parentheses",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "parens",
           "normalized": "a-\u003ea",
@@ -3598,6 +3876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepend all but the first element of a \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e with the\n   provided value, e.g.\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003epunctuateL\u003c/a\u003e\u003c/code\u003e \u003cem\u003ep\u003c/em\u003e [\u003cem\u003ex1\u003c/em\u003e, \u003cem\u003ex2\u003c/em\u003e, ..., \u003cem\u003exN\u003c/em\u003e] =\n      [\u003cem\u003ex1\u003c/em\u003e, \u003cem\u003ep\u003c/em\u003e \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003cem\u003ex2\u003c/em\u003e, ..., \u003cem\u003ep\u003c/em\u003e \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003cem\u003exN\u003c/em\u003e]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "punctuateL",
           "package": "text-printer",
@@ -3608,6 +3887,7 @@
         "index": {
           "description": "Prepend all but the first element of Traversable with the provided value e.g punctuateL x1 x2 xN x1 x2 xN",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "punctuateL",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -3623,6 +3903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend the provided value to all but the last element of a \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e,\n   e.g. \u003ccode\u003e\u003ccode\u003e\u003ca\u003epunctuateR\u003c/a\u003e\u003c/code\u003e \u003cem\u003ep\u003c/em\u003e [\u003cem\u003ex1\u003c/em\u003e, ..., \u003cem\u003exN-1\u003c/em\u003e, \u003cem\u003exN\u003c/em\u003e] =\n           [\u003cem\u003ex1\u003c/em\u003e \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003cem\u003ep\u003c/em\u003e, ..., \u003cem\u003exN-1\u003c/em\u003e \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003cem\u003ep\u003c/em\u003e, \u003cem\u003exN\u003c/em\u003e]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "punctuateR",
           "package": "text-printer",
@@ -3633,6 +3914,7 @@
         "index": {
           "description": "Append the provided value to all but the last element of Traversable e.g punctuateR x1 xN-1 xN x1 xN-1 xN",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "punctuateR",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -3648,6 +3930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate two \u003ccode\u003e\u003ca\u003ePrinter\u003c/a\u003e\u003c/code\u003es with a separator between them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "separate",
           "package": "text-printer",
@@ -3657,6 +3940,7 @@
         "index": {
           "description": "Concatenate two Printer with separator between them",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "separate",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -3672,6 +3956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose a \u003ccode\u003e\u003ca\u003ePrinter\u003c/a\u003e\u003c/code\u003e with single quotes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "squotes",
           "package": "text-printer",
@@ -3682,6 +3967,7 @@
         "index": {
           "description": "Enclose Printer with single quotes",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "squotes",
           "normalized": "a-\u003ea",
@@ -3697,6 +3983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "string",
           "package": "text-printer",
@@ -3707,6 +3994,7 @@
         "index": {
           "description": "Print string",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "string",
           "normalized": "String-\u003ea",
@@ -3722,6 +4010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint an ASCII string, can be faster than \u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "string7",
           "package": "text-printer",
@@ -3732,6 +4021,7 @@
         "index": {
           "description": "Print an ASCII string can be faster than string",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "string7",
           "normalized": "String-\u003ea",
@@ -3746,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "stringBuilder",
           "package": "text-printer",
@@ -3755,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "stringBuilder",
           "normalized": "String-\u003eString",
@@ -3771,6 +4063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "text",
           "package": "text-printer",
@@ -3781,6 +4074,7 @@
         "index": {
           "description": "Print Text",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "text",
           "normalized": "Text-\u003ea",
@@ -3796,6 +4090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a UTF-8 \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "utf8",
           "package": "text-printer",
@@ -3806,6 +4101,7 @@
         "index": {
           "description": "Print UTF-8 ByteString",
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "utf8",
           "normalized": "ByteString-\u003ea",
@@ -3820,6 +4116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:28 UTC 2014",
           "module": "Text.Printer",
           "name": "utf8Builder",
           "package": "text-printer",
@@ -3829,6 +4126,7 @@
         },
         "index": {
           "hierarchy": "Text Printer",
+          "indexed": "2014-03-11T20:20:28",
           "module": "Text.Printer",
           "name": "utf8Builder",
           "package": "text-printer",

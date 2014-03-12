@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "trace-call"
+        "phrase": "trace-call",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Base",
           "name": "Base",
           "package": "trace-call",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall Base",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Base",
           "name": "Base",
           "package": "trace-call",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Data collected during inspecting function calls\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Base",
           "name": "TraceData",
           "package": "trace-call",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Data collected during inspecting function calls",
           "hierarchy": "Debug TraceCall Base",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Base",
           "name": "TraceData",
           "package": "trace-call",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Base",
           "name": "TraceData",
           "package": "trace-call",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall Base",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Base",
           "name": "TraceData",
           "package": "trace-call",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Base",
           "name": "args",
           "package": "trace-call",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall Base",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Base",
           "name": "args",
           "normalized": "[String]",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Base",
           "name": "context",
           "package": "trace-call",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall Base",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Base",
           "name": "context",
           "package": "trace-call",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Base",
           "name": "function",
           "package": "trace-call",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall Base",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Base",
           "name": "function",
           "package": "trace-call",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Base",
           "name": "traceResult",
           "package": "trace-call",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall Base",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Base",
           "name": "traceResult",
           "normalized": "TraceData-\u003eString-\u003eString",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Base",
           "name": "traceToString",
           "package": "trace-call",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall Base",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Base",
           "name": "traceToString",
           "normalized": "TraceData-\u003e[String]",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules contains examples of how to use Debug.TraceCall\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Examples",
           "name": "Examples",
           "package": "trace-call",
@@ -207,6 +224,7 @@
         "index": {
           "description": "This modules contains examples of how to use Debug.TraceCall",
           "hierarchy": "Debug TraceCall Examples",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Examples",
           "name": "Examples",
           "package": "trace-call",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is even possible to log closures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Examples",
           "name": "logClosure",
           "package": "trace-call",
@@ -231,6 +250,7 @@
         "index": {
           "description": "It is even possible to log closures",
           "hierarchy": "Debug TraceCall Examples",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Examples",
           "name": "logClosure",
           "normalized": "[Int]",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith the \u003ccode\u003edeep\u003c/code\u003e version we can also trace the function\n arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Examples",
           "name": "logMapDeepEx",
           "package": "trace-call",
@@ -257,6 +278,7 @@
         "index": {
           "description": "With the deep version we can also trace the function arguments",
           "hierarchy": "Debug TraceCall Examples",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Examples",
           "name": "logMapDeepEx",
           "normalized": "[Float]",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBy default function arguments will be ignored\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Examples",
           "name": "logMapEx",
           "package": "trace-call",
@@ -283,6 +306,7 @@
         "index": {
           "description": "By default function arguments will be ignored",
           "hierarchy": "Debug TraceCall Examples",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Examples",
           "name": "logMapEx",
           "normalized": "[Float]",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe normal traceCall function operates within the IO monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Examples",
           "name": "logReadFile",
           "package": "trace-call",
@@ -309,6 +334,7 @@
         "index": {
           "description": "The normal traceCall function operates within the IO monad",
           "hierarchy": "Debug TraceCall Examples",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Examples",
           "name": "logReadFile",
           "normalized": "String-\u003eIO String",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating a logged version of splitAt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Examples",
           "name": "logSplitAt",
           "package": "trace-call",
@@ -335,6 +362,7 @@
         "index": {
           "description": "Creating logged version of splitAt",
           "hierarchy": "Debug TraceCall Examples",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Examples",
           "name": "logSplitAt",
           "normalized": "Int-\u003e[a]-\u003e([a],[a])",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe don't have to create specialized versions, we can also\n do this inline, on any function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Examples",
           "name": "logSplitAtEx2",
           "package": "trace-call",
@@ -361,6 +390,7 @@
         "index": {
           "description": "We don have to create specialized versions we can also do this inline on any function",
           "hierarchy": "Debug TraceCall Examples",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Examples",
           "name": "logSplitAtEx2",
           "normalized": "([Int],[Int])",
@@ -376,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.IO",
           "name": "IO",
           "package": "trace-call",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall IO",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.IO",
           "name": "IO",
           "package": "trace-call",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.IO",
           "name": "TAIO",
           "package": "trace-call",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall IO",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.IO",
           "name": "TAIO",
           "package": "trace-call",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.IO",
           "name": "TCIO",
           "package": "trace-call",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall IO",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.IO",
           "name": "TCIO",
           "package": "trace-call",
@@ -439,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.IO",
           "name": "taIO",
           "package": "trace-call",
@@ -448,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall IO",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.IO",
           "name": "taIO",
           "normalized": "String-\u003ea-\u003eString",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.IO",
           "name": "tcIO",
           "package": "trace-call",
@@ -472,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall IO",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.IO",
           "name": "tcIO",
           "normalized": "TraceData-\u003eInt-\u003ea-\u003ea",
@@ -512,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.IODeep",
           "name": "IODeep",
           "package": "trace-call",
@@ -520,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall IODeep",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.IODeep",
           "name": "IODeep",
           "package": "trace-call",
@@ -533,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.IODeep",
           "name": "TADeepIO",
           "package": "trace-call",
@@ -541,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall IODeep",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.IODeep",
           "name": "TADeepIO",
           "package": "trace-call",
@@ -554,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.IODeep",
           "name": "TCDeepIO",
           "package": "trace-call",
@@ -562,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall IODeep",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.IODeep",
           "name": "TCDeepIO",
           "package": "trace-call",
@@ -575,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.IODeep",
           "name": "taDeepIO",
           "package": "trace-call",
@@ -584,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall IODeep",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.IODeep",
           "name": "taDeepIO",
           "normalized": "String-\u003ea-\u003eEither String(TraceData-\u003ea)",
@@ -599,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.IODeep",
           "name": "tcDeepIO",
           "package": "trace-call",
@@ -608,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall IODeep",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.IODeep",
           "name": "tcDeepIO",
           "normalized": "TraceData-\u003eInt-\u003e(TraceData-\u003ea)-\u003ea-\u003ea",
@@ -648,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Unsafe",
           "name": "Unsafe",
           "package": "trace-call",
@@ -656,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall Unsafe",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Unsafe",
           "name": "Unsafe",
           "package": "trace-call",
@@ -669,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Unsafe",
           "name": "TAUnsafe",
           "package": "trace-call",
@@ -677,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall Unsafe",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Unsafe",
           "name": "TAUnsafe",
           "package": "trace-call",
@@ -690,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Unsafe",
           "name": "TCUnsafe",
           "package": "trace-call",
@@ -698,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall Unsafe",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Unsafe",
           "name": "TCUnsafe",
           "package": "trace-call",
@@ -711,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Unsafe",
           "name": "taUnsafe",
           "package": "trace-call",
@@ -720,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall Unsafe",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Unsafe",
           "name": "taUnsafe",
           "normalized": "String-\u003ea-\u003eString",
@@ -735,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.Unsafe",
           "name": "tcUnsafe",
           "package": "trace-call",
@@ -744,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall Unsafe",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.Unsafe",
           "name": "tcUnsafe",
           "normalized": "TraceData-\u003eInt-\u003ea-\u003ea",
@@ -784,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.UnsafeDeep",
           "name": "UnsafeDeep",
           "package": "trace-call",
@@ -792,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall UnsafeDeep",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.UnsafeDeep",
           "name": "UnsafeDeep",
           "package": "trace-call",
@@ -805,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.UnsafeDeep",
           "name": "TADeepUnsafe",
           "package": "trace-call",
@@ -813,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall UnsafeDeep",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.UnsafeDeep",
           "name": "TADeepUnsafe",
           "package": "trace-call",
@@ -826,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.UnsafeDeep",
           "name": "TCDeepUnsafe",
           "package": "trace-call",
@@ -834,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall UnsafeDeep",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.UnsafeDeep",
           "name": "TCDeepUnsafe",
           "package": "trace-call",
@@ -847,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.UnsafeDeep",
           "name": "taDeepUnsafe",
           "package": "trace-call",
@@ -856,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall UnsafeDeep",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.UnsafeDeep",
           "name": "taDeepUnsafe",
           "normalized": "String-\u003ea-\u003eEither String(TraceData-\u003ea)",
@@ -871,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall.UnsafeDeep",
           "name": "tcDeepUnsafe",
           "package": "trace-call",
@@ -880,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Debug TraceCall UnsafeDeep",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall.UnsafeDeep",
           "name": "tcDeepUnsafe",
           "normalized": "TraceData-\u003eInt-\u003e(TraceData-\u003ea)-\u003ea-\u003ea",
@@ -921,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains convenience methods for logging/tracing function calls and their arguments. More examples \n of how this library can be used can be found in \u003ca\u003eDebug.TraceCall.Examples\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eA traceCall function can be applied to a normal function and transforms that function into a function\n that will log its output. unsafeTraceCall takes as argument a pure function and transforms it into a \n function which uses Debug.Trace.trace to log its argument and result. The normal traceCall function\n works on function of the form a -\u003e IO b and does its logging through IO.\n\u003c/p\u003e\u003cp\u003eFor a tracecall to work all arguments should be an instance of Show. The only exception are function\n arguments. The normal traceCall functions will ignore the function arguments in their report. The -Deep\n versions of traceCall will also add traces to function arguments, so the usages of the function arguments\n will also be logged. To try this out, type in th following in ghci:\n\u003c/p\u003e\u003cp\u003eunsafeTraceCallDeep \"map\" map sqrt [1..5]\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:29 UTC 2014",
           "module": "Debug.TraceCall",
           "name": "TraceCall",
           "package": "trace-call",
@@ -930,6 +1001,7 @@
         "index": {
           "description": "This module contains convenience methods for logging tracing function calls and their arguments More examples of how this library can be used can be found in Debug.TraceCall.Examples traceCall function can be applied to normal function and transforms that function into function that will log its output unsafeTraceCall takes as argument pure function and transforms it into function which uses Debug.Trace.trace to log its argument and result The normal traceCall function works on function of the form IO and does its logging through IO For tracecall to work all arguments should be an instance of Show The only exception are function arguments The normal traceCall functions will ignore the function arguments in their report The Deep versions of traceCall will also add traces to function arguments so the usages of the function arguments will also be logged To try this out type in th following in ghci unsafeTraceCallDeep map map sqrt",
           "hierarchy": "Debug TraceCall",
+          "indexed": "2014-03-11T20:24:29",
           "module": "Debug.TraceCall",
           "name": "TraceCall",
           "package": "trace-call",

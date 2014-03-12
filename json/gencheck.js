@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gencheck"
+        "phrase": "gencheck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.Base",
           "name": "Base",
           "package": "gencheck",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base Base",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.Base",
           "name": "Base",
           "package": "gencheck",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.Base",
           "name": "Count",
           "package": "gencheck",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base Base",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.Base",
           "name": "Count",
           "package": "gencheck",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.Base",
           "name": "Property",
           "package": "gencheck",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base Base",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.Base",
           "name": "Property",
           "package": "gencheck",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.Base",
           "name": "Rank",
           "package": "gencheck",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base Base",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.Base",
           "name": "Rank",
           "package": "gencheck",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.Datum",
           "name": "Datum",
           "package": "gencheck",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base Datum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.Datum",
           "name": "Datum",
           "package": "gencheck",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.Datum",
           "name": "Datum",
           "package": "gencheck",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base Datum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.Datum",
           "name": "Datum",
           "package": "gencheck",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.Datum",
           "name": "datum",
           "package": "gencheck",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base Datum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.Datum",
           "name": "datum",
           "normalized": "a-\u003eDataType a",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "LabelledPartition",
           "package": "gencheck",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "LabelledPartition",
           "package": "gencheck",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "LabelledPartition",
           "package": "gencheck",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "LabelledPartition",
           "package": "gencheck",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "empty",
           "package": "gencheck",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "empty",
           "package": "gencheck",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "filter",
           "package": "gencheck",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "filter",
           "normalized": "(a-\u003eb-\u003eBool)-\u003ec a(d b)-\u003ec a(d b)",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "fold",
           "package": "gencheck",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "fold",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003ed a(e b)-\u003ec",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "fromList",
           "package": "gencheck",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "fromList",
           "normalized": "[(a,[b])]-\u003ec a(d b)",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "insert",
           "package": "gencheck",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "insert",
           "normalized": "a-\u003eb-\u003ec a(d b)-\u003ec a(d b)",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "lookup",
           "package": "gencheck",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "lookup",
           "normalized": "a-\u003eb a(c d)-\u003eMaybe(c d)",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "map",
           "package": "gencheck",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "map",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a(e b)-\u003ed a(e c)",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "merge",
           "package": "gencheck",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "merge",
           "normalized": "a b(c d)-\u003ea b(c d)-\u003ea b(c d)",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "new",
           "package": "gencheck",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "new",
           "normalized": "a-\u003e[b]-\u003ec a(d b)",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "relabel",
           "package": "gencheck",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "relabel",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a(e b)-\u003ed c(e b)",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "size",
           "package": "gencheck",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "size",
           "normalized": "a b(c d)-\u003eInt",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "toList",
           "package": "gencheck",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base LabelledPartition",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.LabelledPartition",
           "name": "toList",
           "normalized": "a b(c d)-\u003e[(b,c d)]",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.Verdict",
           "name": "Verdict",
           "package": "gencheck",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base Verdict",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.Verdict",
           "name": "Verdict",
           "package": "gencheck",
@@ -506,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.Verdict",
           "name": "SummaryVerdict",
           "package": "gencheck",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base Verdict",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.Verdict",
           "name": "SummaryVerdict",
           "package": "gencheck",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.Verdict",
           "name": "Verdict",
           "package": "gencheck",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base Verdict",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.Verdict",
           "name": "Verdict",
           "package": "gencheck",
@@ -548,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.Verdict",
           "name": "summaryverdict",
           "package": "gencheck",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base Verdict",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.Verdict",
           "name": "summaryverdict",
           "normalized": "a b-\u003eBool",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Base.Verdict",
           "name": "verdict",
           "package": "gencheck",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Base Verdict",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Base.Verdict",
           "name": "verdict",
           "normalized": "a-\u003eBool",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "BaseEnum",
           "package": "gencheck",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "BaseEnum",
           "package": "gencheck",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "BaseEnum",
           "package": "gencheck",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "BaseEnum",
           "package": "gencheck",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "EnumGC",
           "package": "gencheck",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "EnumGC",
           "package": "gencheck",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "Base",
           "package": "gencheck",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "Base",
           "package": "gencheck",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "base",
           "package": "gencheck",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "base",
           "package": "gencheck",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "baseCount",
           "package": "gencheck",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "baseCount",
           "package": "gencheck",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "baseSelect",
           "package": "gencheck",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "baseSelect",
           "package": "gencheck",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumBaseBool",
           "package": "gencheck",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumBaseBool",
           "package": "gencheck",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumBaseChar",
           "package": "gencheck",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumBaseChar",
           "package": "gencheck",
@@ -788,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumBaseInt",
           "package": "gencheck",
@@ -797,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumBaseInt",
           "package": "gencheck",
@@ -810,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumBaseNat",
           "package": "gencheck",
@@ -819,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumBaseNat",
           "package": "gencheck",
@@ -832,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumBasePosInt",
           "package": "gencheck",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumBasePosInt",
           "package": "gencheck",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumBaseRange",
           "package": "gencheck",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumBaseRange",
           "normalized": "(a,a)-\u003eBaseEnum a",
@@ -878,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumDfltChar",
           "package": "gencheck",
@@ -887,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumDfltChar",
           "package": "gencheck",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumDfltInt",
           "package": "gencheck",
@@ -909,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumDfltInt",
           "package": "gencheck",
@@ -922,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumDigitChar",
           "package": "gencheck",
@@ -931,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumDigitChar",
           "package": "gencheck",
@@ -944,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumList",
           "package": "gencheck",
@@ -953,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumList",
           "normalized": "[a]-\u003eBaseEnum a",
@@ -968,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumLowChar",
           "package": "gencheck",
@@ -977,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumLowChar",
           "package": "gencheck",
@@ -990,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumUpperChar",
           "package": "gencheck",
@@ -999,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "enumUpperChar",
           "package": "gencheck",
@@ -1012,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "getBase",
           "package": "gencheck",
@@ -1021,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "getBase",
           "normalized": "BaseEnum a-\u003eCount-\u003eMaybe a",
@@ -1036,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "getBaseUnsafe",
           "package": "gencheck",
@@ -1045,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "getBaseUnsafe",
           "normalized": "BaseEnum a-\u003eCount-\u003ea",
@@ -1060,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "makeBaseEnum",
           "package": "gencheck",
@@ -1069,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseEnum",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseEnum",
           "name": "makeBaseEnum",
           "normalized": "Count-\u003eBaseSelector a-\u003eBaseEnum a",
@@ -1084,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "BaseGens",
           "package": "gencheck",
@@ -1092,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "BaseGens",
           "package": "gencheck",
@@ -1105,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "baseEnumGCGens",
           "package": "gencheck",
@@ -1114,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "baseEnumGCGens",
           "normalized": "BaseEnum a-\u003eStandardGens a",
@@ -1129,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "baseEnumGCStdGens",
           "package": "gencheck",
@@ -1138,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "baseEnumGCStdGens",
           "package": "gencheck",
@@ -1151,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "baseEnumGen",
           "package": "gencheck",
@@ -1160,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "baseEnumGen",
           "normalized": "EnumStrat-\u003eBaseEnum a-\u003eGenerator a",
@@ -1175,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "baseGen",
           "package": "gencheck",
@@ -1184,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "baseGen",
           "normalized": "[a]-\u003eGenerator a",
@@ -1199,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "bldStr",
           "package": "gencheck",
@@ -1208,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "bldStr",
           "normalized": "StdGen-\u003e(Char,Char)-\u003eRank-\u003e(String,StdGen)",
@@ -1223,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genBaseRangeAll",
           "package": "gencheck",
@@ -1232,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genBaseRangeAll",
           "normalized": "(a,a)-\u003eGenerator a",
@@ -1247,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genBaseRangeExt",
           "package": "gencheck",
@@ -1256,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genBaseRangeExt",
           "normalized": "(a,a)-\u003eGenerator a",
@@ -1271,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genBaseRangeRnd",
           "package": "gencheck",
@@ -1280,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genBaseRangeRnd",
           "normalized": "(a,a)-\u003eb-\u003eGenerator a",
@@ -1295,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genBaseRangeUni",
           "package": "gencheck",
@@ -1304,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genBaseRangeUni",
           "normalized": "(a,a)-\u003eInt-\u003eGenerator a",
@@ -1319,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genBaseStdGens",
           "package": "gencheck",
@@ -1328,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genBaseStdGens",
           "normalized": "(a,a)-\u003eStandardGens a",
@@ -1343,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDblRangeRnd",
           "package": "gencheck",
@@ -1352,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDblRangeRnd",
           "normalized": "(Double,Double)-\u003eStdGen-\u003eGenerator Double",
@@ -1367,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDblRangeUni",
           "package": "gencheck",
@@ -1376,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDblRangeUni",
           "normalized": "(Double,Double)-\u003eInt-\u003eGenerator Double",
@@ -1391,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDblRnd",
           "package": "gencheck",
@@ -1400,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDblRnd",
           "normalized": "StdGen-\u003eGenerator Double",
@@ -1415,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDblUni",
           "package": "gencheck",
@@ -1424,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDblUni",
           "normalized": "Int-\u003eGenerator Double",
@@ -1439,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDblXtrm",
           "package": "gencheck",
@@ -1448,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDblXtrm",
           "package": "gencheck",
@@ -1461,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDfltCharAll",
           "package": "gencheck",
@@ -1470,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDfltCharAll",
           "package": "gencheck",
@@ -1483,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDfltCharExt",
           "package": "gencheck",
@@ -1492,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDfltCharExt",
           "package": "gencheck",
@@ -1505,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDfltCharRnd",
           "package": "gencheck",
@@ -1514,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDfltCharRnd",
           "normalized": "StdGen-\u003eGenerator Char",
@@ -1529,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDfltCharUni",
           "package": "gencheck",
@@ -1538,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDfltCharUni",
           "normalized": "Int-\u003eGenerator Char",
@@ -1553,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDigitCharAll",
           "package": "gencheck",
@@ -1562,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDigitCharAll",
           "package": "gencheck",
@@ -1575,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDigitCharExt",
           "package": "gencheck",
@@ -1584,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDigitCharExt",
           "package": "gencheck",
@@ -1597,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDigitCharRnd",
           "package": "gencheck",
@@ -1606,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDigitCharRnd",
           "normalized": "StdGen-\u003eGenerator Char",
@@ -1621,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDigitCharUni",
           "package": "gencheck",
@@ -1630,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genDigitCharUni",
           "normalized": "Int-\u003eGenerator Char",
@@ -1645,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genFltRangeRnd",
           "package": "gencheck",
@@ -1654,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genFltRangeRnd",
           "normalized": "(Float,Float)-\u003eStdGen-\u003eGenerator Float",
@@ -1669,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genFltRangeUni",
           "package": "gencheck",
@@ -1678,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genFltRangeUni",
           "normalized": "(Float,Float)-\u003eInt-\u003eGenerator Float",
@@ -1693,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genFltRnd",
           "package": "gencheck",
@@ -1702,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genFltRnd",
           "normalized": "StdGen-\u003eGenerator Float",
@@ -1717,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genFltUni",
           "package": "gencheck",
@@ -1726,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genFltUni",
           "normalized": "Int-\u003eGenerator Float",
@@ -1741,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genFltXtrm",
           "package": "gencheck",
@@ -1750,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genFltXtrm",
           "package": "gencheck",
@@ -1763,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genIntAll",
           "package": "gencheck",
@@ -1772,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genIntAll",
           "package": "gencheck",
@@ -1785,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genIntExt",
           "package": "gencheck",
@@ -1794,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genIntExt",
           "package": "gencheck",
@@ -1807,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genIntRnd",
           "package": "gencheck",
@@ -1816,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genIntRnd",
           "normalized": "a-\u003eGenerator Int",
@@ -1831,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genIntUni",
           "package": "gencheck",
@@ -1840,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genIntUni",
           "normalized": "Int-\u003eGenerator Int",
@@ -1855,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genLowCharAll",
           "package": "gencheck",
@@ -1864,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genLowCharAll",
           "package": "gencheck",
@@ -1877,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genLowCharExt",
           "package": "gencheck",
@@ -1886,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genLowCharExt",
           "package": "gencheck",
@@ -1899,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genLowCharRnd",
           "package": "gencheck",
@@ -1908,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genLowCharRnd",
           "normalized": "StdGen-\u003eGenerator Char",
@@ -1923,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genLowCharUni",
           "package": "gencheck",
@@ -1932,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genLowCharUni",
           "normalized": "Int-\u003eGenerator Char",
@@ -1947,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrDfltCharAll",
           "package": "gencheck",
@@ -1956,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrDfltCharAll",
           "package": "gencheck",
@@ -1969,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrDigitCharAll",
           "package": "gencheck",
@@ -1978,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrDigitCharAll",
           "package": "gencheck",
@@ -1991,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrDigitRnd",
           "package": "gencheck",
@@ -2000,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrDigitRnd",
           "normalized": "StdGen-\u003eGenerator String",
@@ -2015,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrLowCharAll",
           "package": "gencheck",
@@ -2024,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrLowCharAll",
           "package": "gencheck",
@@ -2037,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrLowRnd",
           "package": "gencheck",
@@ -2046,6 +2225,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrLowRnd",
           "normalized": "StdGen-\u003eGenerator String",
@@ -2061,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrRangeAll",
           "package": "gencheck",
@@ -2070,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrRangeAll",
           "normalized": "(Char,Char)-\u003eGenerator String",
@@ -2085,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrRangeRnd",
           "package": "gencheck",
@@ -2094,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrRangeRnd",
           "normalized": "StdGen-\u003e(Char,Char)-\u003eGenerator String",
@@ -2109,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrUpperCharAll",
           "package": "gencheck",
@@ -2118,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrUpperCharAll",
           "package": "gencheck",
@@ -2131,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrUpperRnd",
           "package": "gencheck",
@@ -2140,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genStrUpperRnd",
           "normalized": "StdGen-\u003eGenerator String",
@@ -2155,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genUpperCharAll",
           "package": "gencheck",
@@ -2164,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genUpperCharAll",
           "package": "gencheck",
@@ -2177,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genUpperCharExt",
           "package": "gencheck",
@@ -2186,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genUpperCharExt",
           "package": "gencheck",
@@ -2199,6 +2391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genUpperCharRnd",
           "package": "gencheck",
@@ -2208,6 +2401,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genUpperCharRnd",
           "normalized": "StdGen-\u003eGenerator Char",
@@ -2223,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genUpperCharUni",
           "package": "gencheck",
@@ -2232,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator BaseGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.BaseGens",
           "name": "genUpperCharUni",
           "normalized": "Int-\u003eGenerator Char",
@@ -2247,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "EnumStrat",
           "package": "gencheck",
@@ -2255,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator EnumStrat",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "EnumStrat",
           "package": "gencheck",
@@ -2268,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "EnumStrat",
           "package": "gencheck",
@@ -2276,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator EnumStrat",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "EnumStrat",
           "package": "gencheck",
@@ -2289,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "branch",
           "package": "gencheck",
@@ -2298,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator EnumStrat",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "branch",
           "package": "gencheck",
@@ -2310,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "exhaustG",
           "package": "gencheck",
@@ -2319,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator EnumStrat",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "exhaustG",
           "package": "gencheck",
@@ -2332,6 +2536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextreme (1,20) = [1,20,10,2,11,9,19,5,15,3,12,6,16,4,14,8,18,7,13,17]|\n\u003c/p\u003e\u003cp\u003eThe first two extreme binary trees will be the ``all left'' and ''all right''\n branched trees, which is a good start for testing, but in general extreme\n indices may or may not map to boundary conditions in a particular structure.\n\u003c/p\u003e\u003cp\u003eExtreme generators is best used for pulling a small number of cases in\n conjunction with random testing. It is not an efficient strategy to produce a\n large number of test cases, and may contain duplicate index entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "extreme",
           "package": "gencheck",
@@ -2342,6 +2547,7 @@
         "index": {
           "description": "extreme The first two extreme binary trees will be the all left and all right branched trees which is good start for testing but in general extreme indices may or may not map to boundary conditions in particular structure Extreme generators is best used for pulling small number of cases in conjunction with random testing It is not an efficient strategy to produce large number of test cases and may contain duplicate index entries",
           "hierarchy": "Test GenCheck Generator EnumStrat",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "extreme",
           "package": "gencheck",
@@ -2354,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "interleave",
           "package": "gencheck",
@@ -2363,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator EnumStrat",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "interleave",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -2377,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "randG",
           "package": "gencheck",
@@ -2386,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator EnumStrat",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "randG",
           "normalized": "StdGen-\u003eEnumStrat",
@@ -2400,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "uniform",
           "package": "gencheck",
@@ -2409,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator EnumStrat",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.EnumStrat",
           "name": "uniform",
           "normalized": "Int-\u003eEnumStrat",
@@ -2424,6 +2636,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRational|, |Float| and |Double|.  These `\u003ccode\u003escalar'\u003c/code\u003e types require some\n additional structure.  Most of the base type enumeration functions are in\n BaseTypeEnum.lhs.\n\u003c/p\u003e\u003cp\u003eAll Haskell regular polynomial structure types can be enumerated by rank (size)\n using a mechanical algorithm based solely on the type constructor.  These\n enumerations are constructed using the combinators eConst, eNode, eSum, eProd,\n etc.  to mirror the type's constructor.  Recursive structure enumerations\n should also be memoized to improve their performance since the count /\n selection of value at rank r is dependent on the count / selection of values at\n ranks $1$ through $(r-1)$. The eMemoize function provides the default\n memoization; additional memoization techniques are also provided in Memoize.lhs\n\u003c/p\u003e\u003cp\u003eNote: the Enumeration class differs from Haskell's Enum class in that\n the index of the enumerated value is unrecoverable, so the methods\n succ, pred, enumToInt, etc. are not required for the Enumeration instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "Enumeration",
           "package": "gencheck",
@@ -2433,6 +2646,7 @@
         "index": {
           "description": "Rational Float and Double These scalar types require some additional structure Most of the base type enumeration functions are in BaseTypeEnum.lhs All Haskell regular polynomial structure types can be enumerated by rank size using mechanical algorithm based solely on the type constructor These enumerations are constructed using the combinators eConst eNode eSum eProd etc to mirror the type constructor Recursive structure enumerations should also be memoized to improve their performance since the count selection of value at rank is dependent on the count selection of values at ranks through r-1 The eMemoize function provides the default memoization additional memoization techniques are also provided in Memoize.lhs Note the Enumeration class differs from Haskell Enum class in that the index of the enumerated value is unrecoverable so the methods succ pred enumToInt etc are not required for the Enumeration instances",
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "Enumeration",
           "package": "gencheck",
@@ -2447,6 +2661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emkEnumeration| applies a default memoization strategy to both the counter and\n selector functions.  |mkEnum| is just the raw constructor, and is used for\n enumerations that will be embedded in other enumerations to avoid redundant\n memoization.  |mkEnum| should only be needed by experts and the Template Haskell\n code that assembles the enumeration combinators based on the type constructor.\n\u003c/p\u003e\u003cp\u003eAn enumerated type may be defined to be an instance of the |Enumerated| class,\n which will automatically provide the default generators for that type\n as instances of StandardGens in the Generator module.\n The structures will have a Label (A, B, etc.) in each `\u003ccode\u003ehole'\u003c/code\u003e\n that distinguishes the sort of the element.\n\u003c/p\u003e\u003cp\u003e|get| retrieves a value from an enumeration given a rank and an index, \n or returns |Nothing| if the index is outside of the range of the enumeration.\n |getUnsafe| assumes the rank and index values are valid and in range,\n with unpredictable results if not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "Counter",
           "package": "gencheck",
@@ -2456,6 +2671,7 @@
         "index": {
           "description": "mkEnumeration applies default memoization strategy to both the counter and selector functions mkEnum is just the raw constructor and is used for enumerations that will be embedded in other enumerations to avoid redundant memoization mkEnum should only be needed by experts and the Template Haskell code that assembles the enumeration combinators based on the type constructor An enumerated type may be defined to be an instance of the Enumerated class which will automatically provide the default generators for that type as instances of StandardGens in the Generator module The structures will have Label etc in each hole that distinguishes the sort of the element get retrieves value from an enumeration given rank and an index or returns Nothing if the index is outside of the range of the enumeration getUnsafe assumes the rank and index values are valid and in range with unpredictable results if not",
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "Counter",
           "package": "gencheck",
@@ -2469,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "Enumerated",
           "package": "gencheck",
@@ -2477,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "Enumerated",
           "package": "gencheck",
@@ -2490,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "Enumeration",
           "package": "gencheck",
@@ -2498,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "Enumeration",
           "package": "gencheck",
@@ -2511,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "Label",
           "package": "gencheck",
@@ -2519,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "Label",
           "package": "gencheck",
@@ -2532,6 +2754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "Selector",
           "package": "gencheck",
@@ -2540,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "Selector",
           "package": "gencheck",
@@ -2707,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cConst",
           "package": "gencheck",
@@ -2716,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cConst",
           "package": "gencheck",
@@ -2729,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cNode",
           "package": "gencheck",
@@ -2738,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cNode",
           "package": "gencheck",
@@ -2751,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cProd",
           "package": "gencheck",
@@ -2760,6 +2989,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cProd",
           "normalized": "Counter-\u003eCounter-\u003eCounter",
@@ -2775,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cProd3",
           "package": "gencheck",
@@ -2784,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cProd3",
           "normalized": "Counter-\u003eCounter-\u003eCounter-\u003eCounter",
@@ -2799,6 +3031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cProd4",
           "package": "gencheck",
@@ -2808,6 +3041,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cProd4",
           "normalized": "Counter-\u003eCounter-\u003eCounter-\u003eCounter-\u003eCounter",
@@ -2823,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cSum",
           "package": "gencheck",
@@ -2832,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cSum",
           "normalized": "Counter-\u003eCounter-\u003eCounter",
@@ -2847,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cSum3",
           "package": "gencheck",
@@ -2856,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cSum3",
           "normalized": "Counter-\u003eCounter-\u003eCounter-\u003eCounter",
@@ -2871,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cSum4",
           "package": "gencheck",
@@ -2880,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "cSum4",
           "normalized": "Counter-\u003eCounter-\u003eCounter-\u003eCounter-\u003eCounter",
@@ -2895,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "counter",
           "package": "gencheck",
@@ -2904,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "counter",
           "normalized": "Enumeration a b-\u003eCounter",
@@ -2918,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eConst",
           "package": "gencheck",
@@ -2927,6 +3170,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eConst",
           "normalized": "a b-\u003eEnumeration a b",
@@ -2942,6 +3186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eMemoize",
           "package": "gencheck",
@@ -2951,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eMemoize",
           "normalized": "Enumeration a b-\u003eEnumeration a b",
@@ -2966,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eNode",
           "package": "gencheck",
@@ -2975,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eNode",
           "normalized": "a b-\u003eEnumeration a b",
@@ -2990,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eProd",
           "package": "gencheck",
@@ -2999,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eProd",
           "normalized": "(a b-\u003ec b-\u003ed b)-\u003eEnumeration a b-\u003eEnumeration c b-\u003eEnumeration d b",
@@ -3014,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eProd3",
           "package": "gencheck",
@@ -3023,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eProd3",
           "normalized": "(a b-\u003ec b-\u003ed b-\u003ee b)-\u003eEnumeration a b-\u003eEnumeration c b-\u003eEnumeration d b-\u003eEnumeration e b",
@@ -3038,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eProd4",
           "package": "gencheck",
@@ -3047,6 +3300,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eProd4",
           "normalized": "(a b-\u003ec b-\u003ed b-\u003ee b-\u003ef b)-\u003eEnumeration a b-\u003eEnumeration c b-\u003eEnumeration d b-\u003eEnumeration e b-\u003eEnumeration f b",
@@ -3062,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eSum",
           "package": "gencheck",
@@ -3071,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eSum",
           "normalized": "Enumeration a b-\u003eEnumeration a b-\u003eEnumeration a b",
@@ -3086,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eSum3",
           "package": "gencheck",
@@ -3095,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eSum3",
           "normalized": "Enumeration a b-\u003eEnumeration a b-\u003eEnumeration a b-\u003eEnumeration a b",
@@ -3110,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eSum4",
           "package": "gencheck",
@@ -3119,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "eSum4",
           "normalized": "Enumeration a b-\u003eEnumeration a b-\u003eEnumeration a b-\u003eEnumeration a b-\u003eEnumeration a b",
@@ -3134,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "enumFromTo",
           "package": "gencheck",
@@ -3143,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "enumFromTo",
           "normalized": "(Integer,Integer)-\u003eEnumeration a Label",
@@ -3158,6 +3420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "enumRange",
           "package": "gencheck",
@@ -3167,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "enumRange",
           "normalized": "(Count,Count)-\u003eEnumeration a b-\u003eEnumeration a b",
@@ -3182,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "enumeration",
           "package": "gencheck",
@@ -3191,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "enumeration",
           "package": "gencheck",
@@ -3203,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "get",
           "package": "gencheck",
@@ -3212,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "get",
           "normalized": "Enumeration a b-\u003eRank-\u003eCount-\u003eMaybe(a b)",
@@ -3226,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "getUnsafe",
           "package": "gencheck",
@@ -3235,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "getUnsafe",
           "normalized": "Enumeration a b-\u003eRank-\u003eCount-\u003ea b",
@@ -3250,6 +3520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "mkEnum",
           "package": "gencheck",
@@ -3259,6 +3530,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "mkEnum",
           "normalized": "Counter-\u003eSelector a b-\u003eEnumeration a b",
@@ -3274,6 +3546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "mkEnumeration",
           "package": "gencheck",
@@ -3283,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "mkEnumeration",
           "normalized": "Counter-\u003eSelector a b-\u003eEnumeration a b",
@@ -3298,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sConst",
           "package": "gencheck",
@@ -3307,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sConst",
           "normalized": "a b-\u003ec-\u003ed-\u003ea b",
@@ -3322,6 +3598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sNode",
           "package": "gencheck",
@@ -3331,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sNode",
           "normalized": "a b-\u003ec-\u003ed-\u003ea b",
@@ -3346,6 +3624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sProd",
           "package": "gencheck",
@@ -3355,6 +3634,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sProd",
           "normalized": "(a b-\u003ec b-\u003ed b)-\u003eEnumeration a b-\u003eEnumeration c b-\u003eSelector d b",
@@ -3370,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sProd3",
           "package": "gencheck",
@@ -3379,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sProd3",
           "normalized": "(a b-\u003ec b-\u003ed b-\u003ee b)-\u003eEnumeration a b-\u003eEnumeration c b-\u003eEnumeration d b-\u003eSelector e b",
@@ -3394,6 +3676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sProd4",
           "package": "gencheck",
@@ -3403,6 +3686,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sProd4",
           "normalized": "(a b-\u003ec b-\u003ed b-\u003ee b-\u003ef b)-\u003eEnumeration a b-\u003eEnumeration c b-\u003eEnumeration d b-\u003eEnumeration e b-\u003eSelector f b",
@@ -3418,6 +3702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sSum",
           "package": "gencheck",
@@ -3427,6 +3712,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sSum",
           "normalized": "Enumeration a b-\u003eEnumeration a b-\u003eSelector a b",
@@ -3442,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sSum3",
           "package": "gencheck",
@@ -3451,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sSum3",
           "normalized": "Enumeration a b-\u003eEnumeration a b-\u003eEnumeration a b-\u003eSelector a b",
@@ -3466,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sSum4",
           "package": "gencheck",
@@ -3475,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "sSum4",
           "normalized": "Enumeration a b-\u003eEnumeration a b-\u003eEnumeration a b-\u003eEnumeration a b-\u003eSelector a b",
@@ -3490,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "selector",
           "package": "gencheck",
@@ -3499,6 +3790,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Enumeration",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Enumeration",
           "name": "selector",
           "normalized": "Enumeration a b-\u003eSelector a b",
@@ -3513,6 +3805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "Generator",
           "package": "gencheck",
@@ -3521,6 +3814,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Generator",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "Generator",
           "package": "gencheck",
@@ -3534,6 +3828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "Generator",
           "package": "gencheck",
@@ -3542,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Generator",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "Generator",
           "package": "gencheck",
@@ -3555,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "StandardGens",
           "package": "gencheck",
@@ -3563,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Generator",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "StandardGens",
           "package": "gencheck",
@@ -3576,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "Testable",
           "package": "gencheck",
@@ -3584,6 +3883,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Generator",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "Testable",
           "package": "gencheck",
@@ -3643,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "enumGenerator",
           "package": "gencheck",
@@ -3652,6 +3953,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Generator",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "enumGenerator",
           "normalized": "EnumStrat-\u003eEnumeration a b-\u003eGenerator(a b)",
@@ -3667,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "enumGens",
           "package": "gencheck",
@@ -3676,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Generator",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "enumGens",
           "normalized": "Enumeration a Label-\u003eStandardGens(a Label)",
@@ -3739,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "genTake",
           "package": "gencheck",
@@ -3748,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Generator",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "genTake",
           "normalized": "Generator a-\u003eRank-\u003eCount-\u003e[a]",
@@ -3811,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "generate",
           "package": "gencheck",
@@ -3820,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Generator",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "generate",
           "normalized": "Generator a-\u003e[(Rank,Count)]-\u003e[a]",
@@ -3857,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "stdTestGens",
           "package": "gencheck",
@@ -3866,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Generator",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Generator",
           "name": "stdTestGens",
           "package": "gencheck",
@@ -3879,6 +4189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.StructureGens",
           "name": "StructureGens",
           "package": "gencheck",
@@ -3887,6 +4198,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator StructureGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.StructureGens",
           "name": "StructureGens",
           "package": "gencheck",
@@ -3900,6 +4212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.StructureGens",
           "name": "genListAll",
           "package": "gencheck",
@@ -3909,6 +4222,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator StructureGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.StructureGens",
           "name": "genListAll",
           "normalized": "Generator[Label]",
@@ -3924,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.StructureGens",
           "name": "genListOf",
           "package": "gencheck",
@@ -3933,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator StructureGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.StructureGens",
           "name": "genListOf",
           "normalized": "Generator a-\u003eRank-\u003eGenerator[a]",
@@ -3948,6 +4264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.StructureGens",
           "name": "genTplAll",
           "package": "gencheck",
@@ -3957,6 +4274,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator StructureGens",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.StructureGens",
           "name": "genTplAll",
           "normalized": "Generator(Label,Label)",
@@ -3997,6 +4315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "Substitution",
           "package": "gencheck",
@@ -4005,6 +4324,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Substitution",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "Substitution",
           "package": "gencheck",
@@ -4018,6 +4338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "Structure",
           "package": "gencheck",
@@ -4026,6 +4347,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Substitution",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "Structure",
           "package": "gencheck",
@@ -4039,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "Structure2",
           "package": "gencheck",
@@ -4047,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Substitution",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "Structure2",
           "package": "gencheck",
@@ -4060,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "Structure3",
           "package": "gencheck",
@@ -4068,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Substitution",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "Structure3",
           "package": "gencheck",
@@ -4277,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "substitute",
           "package": "gencheck",
@@ -4286,6 +4613,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Substitution",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "substitute",
           "normalized": "a b-\u003e[c]-\u003e(Maybe(a c),[c])",
@@ -4300,6 +4628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "substitute2",
           "package": "gencheck",
@@ -4309,6 +4638,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Substitution",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "substitute2",
           "normalized": "a b c-\u003e[d]-\u003e[e]-\u003e(Maybe(a d e),[d],[e])",
@@ -4323,6 +4653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "substitute3",
           "package": "gencheck",
@@ -4332,6 +4663,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck Generator Substitution",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.Generator.Substitution",
           "name": "substitute3",
           "normalized": "a b b b-\u003e[b]-\u003e[b]-\u003e[b]-\u003e(Maybe(a b b b),[b],[b],[b])",
@@ -4346,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.Result",
           "name": "Result",
           "package": "gencheck",
@@ -4354,6 +4687,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System Result",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.Result",
           "name": "Result",
           "package": "gencheck",
@@ -4367,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.Result",
           "name": "DetailedResult",
           "package": "gencheck",
@@ -4375,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System Result",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.Result",
           "name": "DetailedResult",
           "package": "gencheck",
@@ -4388,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.Result",
           "name": "cases",
           "package": "gencheck",
@@ -4397,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System Result",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.Result",
           "name": "cases",
           "normalized": "a(b c)-\u003ea(b(DataType c))",
@@ -4411,6 +4749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.Result",
           "name": "dspDetails",
           "package": "gencheck",
@@ -4420,6 +4759,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System Result",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.Result",
           "name": "dspDetails",
           "normalized": "String-\u003ea b(c d)-\u003eIO()",
@@ -4435,6 +4775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.Result",
           "name": "dspSummary",
           "package": "gencheck",
@@ -4444,6 +4785,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System Result",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.Result",
           "name": "dspSummary",
           "normalized": "String-\u003ea b(c d)-\u003eIO()",
@@ -4459,6 +4801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.Result",
           "name": "dspVerdict",
           "package": "gencheck",
@@ -4468,6 +4811,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System Result",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.Result",
           "name": "dspVerdict",
           "normalized": "String-\u003ea b(c d)-\u003eIO Bool",
@@ -4483,6 +4827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.Result",
           "name": "failures",
           "package": "gencheck",
@@ -4492,6 +4837,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System Result",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.Result",
           "name": "failures",
           "normalized": "a(b c)-\u003ea(b c)",
@@ -4506,6 +4852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.Result",
           "name": "result",
           "package": "gencheck",
@@ -4515,6 +4862,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System Result",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.Result",
           "name": "result",
           "normalized": "a b(c d)-\u003eBool",
@@ -4529,6 +4877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.Result",
           "name": "resultPartial",
           "package": "gencheck",
@@ -4538,6 +4887,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System Result",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.Result",
           "name": "resultPartial",
           "normalized": "a b(c d)-\u003eb-\u003eBool",
@@ -4553,6 +4903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "SimpleCheck",
           "package": "gencheck",
@@ -4561,6 +4912,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "SimpleCheck",
           "package": "gencheck",
@@ -4574,6 +4926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "Property",
           "package": "gencheck",
@@ -4582,6 +4935,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "Property",
           "package": "gencheck",
@@ -4595,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "baseCheck",
           "package": "gencheck",
@@ -4604,6 +4959,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "baseCheck",
           "normalized": "Property a-\u003eb-\u003eIO()",
@@ -4619,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "baseCheckArgs",
           "package": "gencheck",
@@ -4628,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "baseCheckArgs",
           "normalized": "StandardGens a-\u003eString-\u003eProperty a-\u003eCount-\u003eIO()",
@@ -4643,6 +5001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "baseReport",
           "package": "gencheck",
@@ -4652,6 +5011,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "baseReport",
           "normalized": "Property a-\u003eb-\u003eIO()",
@@ -4667,6 +5027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "baseReportArgs",
           "package": "gencheck",
@@ -4676,6 +5037,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "baseReportArgs",
           "normalized": "StandardGens a-\u003eString-\u003eProperty a-\u003eCount-\u003eIO()",
@@ -4691,6 +5053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "baseTest",
           "package": "gencheck",
@@ -4700,6 +5063,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "baseTest",
           "normalized": "Property a-\u003eb-\u003eIO()",
@@ -4715,6 +5079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "baseTestArgs",
           "package": "gencheck",
@@ -4724,6 +5089,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "baseTestArgs",
           "normalized": "StandardGens a-\u003eString-\u003eProperty a-\u003eCount-\u003eIO()",
@@ -4739,6 +5105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "deepCheck",
           "package": "gencheck",
@@ -4748,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "deepCheck",
           "normalized": "Property a-\u003eb-\u003eIO()",
@@ -4763,6 +5131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "deepCheckArgs",
           "package": "gencheck",
@@ -4772,6 +5141,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "deepCheckArgs",
           "normalized": "StandardGens a-\u003eString-\u003eRank-\u003eProperty a-\u003eCount-\u003eIO()",
@@ -4787,6 +5157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "deepReport",
           "package": "gencheck",
@@ -4796,6 +5167,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "deepReport",
           "normalized": "Property a-\u003eb-\u003eIO()",
@@ -4811,6 +5183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "deepReportArgs",
           "package": "gencheck",
@@ -4820,6 +5193,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "deepReportArgs",
           "normalized": "StandardGens a-\u003eString-\u003eRank-\u003eProperty a-\u003eCount-\u003eIO()",
@@ -4835,6 +5209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "deepTest",
           "package": "gencheck",
@@ -4844,6 +5219,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "deepTest",
           "normalized": "Property a-\u003eb-\u003eIO()",
@@ -4859,6 +5235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "deepTestArgs",
           "package": "gencheck",
@@ -4868,6 +5245,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "deepTestArgs",
           "normalized": "StandardGens a-\u003eString-\u003eRank-\u003eProperty a-\u003eCount-\u003eIO()",
@@ -4958,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "stdCheck",
           "package": "gencheck",
@@ -4967,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "stdCheck",
           "normalized": "Property a-\u003eb-\u003eIO()",
@@ -4982,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "stdCheckArgs",
           "package": "gencheck",
@@ -4991,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "stdCheckArgs",
           "normalized": "StandardGens a-\u003eString-\u003eRank-\u003eProperty a-\u003eCount-\u003eIO()",
@@ -5006,6 +5388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "stdReport",
           "package": "gencheck",
@@ -5015,6 +5398,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "stdReport",
           "normalized": "Property a-\u003eb-\u003eIO()",
@@ -5030,6 +5414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "stdReportArgs",
           "package": "gencheck",
@@ -5039,6 +5424,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "stdReportArgs",
           "normalized": "StandardGens a-\u003eString-\u003eRank-\u003eProperty a-\u003eCount-\u003eIO()",
@@ -5054,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "stdTest",
           "package": "gencheck",
@@ -5063,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "stdTest",
           "normalized": "Property a-\u003eb-\u003eIO()",
@@ -5078,6 +5466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "stdTestArgs",
           "package": "gencheck",
@@ -5087,6 +5476,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System SimpleCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.SimpleCheck",
           "name": "stdTestArgs",
           "normalized": "StandardGens a-\u003eString-\u003eRank-\u003eProperty a-\u003eCount-\u003eIO()",
@@ -5102,6 +5492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.TestSuite",
           "name": "TestSuite",
           "package": "gencheck",
@@ -5110,6 +5501,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System TestSuite",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.TestSuite",
           "name": "TestSuite",
           "package": "gencheck",
@@ -5123,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.TestSuite",
           "name": "GenInstruct",
           "package": "gencheck",
@@ -5131,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System TestSuite",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.TestSuite",
           "name": "GenInstruct",
           "package": "gencheck",
@@ -5144,6 +5538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.TestSuite",
           "name": "MapRankSuite",
           "package": "gencheck",
@@ -5152,6 +5547,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System TestSuite",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.TestSuite",
           "name": "MapRankSuite",
           "package": "gencheck",
@@ -5165,6 +5561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck.System.TestSuite",
           "name": "TestSuite",
           "package": "gencheck",
@@ -5173,6 +5570,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck System TestSuite",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck.System.TestSuite",
           "name": "TestSuite",
           "package": "gencheck",
@@ -5336,6 +5734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "GenCheck",
           "package": "gencheck",
@@ -5344,6 +5743,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "GenCheck",
           "package": "gencheck",
@@ -5357,6 +5757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "Count",
           "package": "gencheck",
@@ -5365,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "Count",
           "package": "gencheck",
@@ -5378,6 +5780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "EnumGC",
           "package": "gencheck",
@@ -5386,6 +5789,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "EnumGC",
           "package": "gencheck",
@@ -5399,6 +5803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "Enumerated",
           "package": "gencheck",
@@ -5407,6 +5812,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "Enumerated",
           "package": "gencheck",
@@ -5420,6 +5826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "Enumeration",
           "package": "gencheck",
@@ -5428,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "Enumeration",
           "package": "gencheck",
@@ -5441,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "GenInstruct",
           "package": "gencheck",
@@ -5449,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "GenInstruct",
           "package": "gencheck",
@@ -5462,6 +5872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "Generator",
           "package": "gencheck",
@@ -5470,6 +5881,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "Generator",
           "package": "gencheck",
@@ -5483,6 +5895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "Label",
           "package": "gencheck",
@@ -5491,6 +5904,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "Label",
           "package": "gencheck",
@@ -5504,6 +5918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "MapRankSuite",
           "package": "gencheck",
@@ -5512,6 +5927,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "MapRankSuite",
           "package": "gencheck",
@@ -5525,6 +5941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "Property",
           "package": "gencheck",
@@ -5533,6 +5950,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "Property",
           "package": "gencheck",
@@ -5546,6 +5964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "Rank",
           "package": "gencheck",
@@ -5554,6 +5973,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "Rank",
           "package": "gencheck",
@@ -5567,6 +5987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "StandardGens",
           "package": "gencheck",
@@ -5575,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "StandardGens",
           "package": "gencheck",
@@ -5588,6 +6010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "Structure",
           "package": "gencheck",
@@ -5596,6 +6019,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "Structure",
           "package": "gencheck",
@@ -5609,6 +6033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "Structure2",
           "package": "gencheck",
@@ -5617,6 +6042,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "Structure2",
           "package": "gencheck",
@@ -5630,6 +6056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "Structure3",
           "package": "gencheck",
@@ -5638,6 +6065,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "Structure3",
           "package": "gencheck",
@@ -5651,6 +6079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "TestSuite",
           "package": "gencheck",
@@ -5659,6 +6088,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "TestSuite",
           "package": "gencheck",
@@ -5672,6 +6102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "Testable",
           "package": "gencheck",
@@ -5680,6 +6111,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "Testable",
           "package": "gencheck",
@@ -5693,6 +6125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "base",
           "package": "gencheck",
@@ -5702,6 +6135,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "base",
           "package": "gencheck",
@@ -5714,6 +6148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "enumFromTo",
           "package": "gencheck",
@@ -5723,6 +6158,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "enumFromTo",
           "normalized": "(Integer,Integer)-\u003eEnumeration a Label",
@@ -5738,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "enumeration",
           "package": "gencheck",
@@ -5747,6 +6184,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "enumeration",
           "package": "gencheck",
@@ -5759,6 +6197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "stdTestGens",
           "package": "gencheck",
@@ -5768,6 +6207,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "stdTestGens",
           "package": "gencheck",
@@ -5781,6 +6221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "substitute",
           "package": "gencheck",
@@ -5790,6 +6231,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "substitute",
           "normalized": "a b-\u003e[c]-\u003e(Maybe(a c),[c])",
@@ -5804,6 +6246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "substitute2",
           "package": "gencheck",
@@ -5813,6 +6256,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "substitute2",
           "normalized": "a b c-\u003e[d]-\u003e[e]-\u003e(Maybe(a d e),[d],[e])",
@@ -5827,6 +6271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:36 UTC 2014",
           "module": "Test.GenCheck",
           "name": "substitute3",
           "package": "gencheck",
@@ -5836,6 +6281,7 @@
         },
         "index": {
           "hierarchy": "Test GenCheck",
+          "indexed": "2014-03-11T18:14:36",
           "module": "Test.GenCheck",
           "name": "substitute3",
           "normalized": "a b b b-\u003e[b]-\u003e[b]-\u003e[b]-\u003e(Maybe(a b b b),[b],[b],[b])",

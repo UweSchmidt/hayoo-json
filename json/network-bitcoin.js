@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-bitcoin"
+        "phrase": "network-bitcoin",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interface to bitcoind's available block-chain-related RPC calls. The\n   implementation of these functions can be found at\n   \u003ca\u003ehttps://github.com/bitcoin/bitcoin/blob/master/src/rpcblockchain.cpp\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIf any APIs are missing, patches are always welcome. If you look at the\n   source of this module, you'll see that the interface code is trivial.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.BlockChain",
           "name": "BlockChain",
           "package": "network-bitcoin",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An interface to bitcoind available block-chain-related RPC calls The implementation of these functions can be found at https github.com bitcoin bitcoin blob master src rpcblockchain.cpp If any APIs are missing patches are always welcome If you look at the source of this module you ll see that the interface code is trivial",
           "hierarchy": "Network Bitcoin BlockChain",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.BlockChain",
           "name": "BlockChain",
           "package": "network-bitcoin",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAuth\u003c/a\u003e\u003c/code\u003e describes authentication credentials for\n making API requests to the Bitcoin daemon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.BlockChain",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Auth describes authentication credentials for making API requests to the Bitcoin daemon",
           "hierarchy": "Network Bitcoin BlockChain",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.BlockChain",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of bitcoin money, represented with a fixed-point number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.BlockChain",
           "name": "BTC",
           "package": "network-bitcoin",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The type of bitcoin money represented with fixed-point number",
           "hierarchy": "Network Bitcoin BlockChain",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.BlockChain",
           "name": "BTC",
           "package": "network-bitcoin",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a given block in the block chain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.BlockChain",
           "name": "Block",
           "package": "network-bitcoin",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Information about given block in the block chain",
           "hierarchy": "Network Bitcoin BlockChain",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.BlockChain",
           "name": "Block",
           "package": "network-bitcoin",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hash of a given block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.BlockChain",
           "name": "BlockHash",
           "package": "network-bitcoin",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The hash of given block",
           "hierarchy": "Network Bitcoin BlockChain",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.BlockChain",
           "name": "BlockHash",
           "package": "network-bitcoin",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails about an unspent transaction output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.BlockChain",
           "name": "OutputInfo",
           "package": "network-bitcoin",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Details about an unspent transaction output",
           "hierarchy": "Network Bitcoin BlockChain",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.BlockChain",
           "name": "OutputInfo",
           "package": "network-bitcoin",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on the unspent transaction in the output set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.BlockChain",
           "name": "OutputSetInfo",
           "package": "network-bitcoin",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Information on the unspent transaction in the output set",
           "hierarchy": "Network Bitcoin BlockChain",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.BlockChain",
           "name": "OutputSetInfo",
           "package": "network-bitcoin",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hexadecimal string representation of a 256-bit unsigned integer.\n\u003c/p\u003e\u003cp\u003eThis integer is a unique transaction identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.BlockChain",
           "name": "TransactionID",
           "package": "network-bitcoin",
@@ -189,6 +204,7 @@
         "index": {
           "description": "hexadecimal string representation of bit unsigned integer This integer is unique transaction identifier",
           "hierarchy": "Network Bitcoin BlockChain",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.BlockChain",
           "name": "TransactionID",
           "package": "network-bitcoin",
@@ -1151,6 +1167,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interface to bitcoind's available private key calls. The implementation\n   of these functions can be found at \u003ca\u003ehttps://github.com/bitcoin/bitcoin/blob/master/src/rpcdump.cpp\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIf any APIs are missing, patches are always welcome. If you look at the\n   source of this module, you'll see that the interface code is trivial.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Dump",
           "name": "Dump",
           "package": "network-bitcoin",
@@ -1160,6 +1177,7 @@
         "index": {
           "description": "An interface to bitcoind available private key calls The implementation of these functions can be found at https github.com bitcoin bitcoin blob master src rpcdump.cpp If any APIs are missing patches are always welcome If you look at the source of this module you ll see that the interface code is trivial",
           "hierarchy": "Network Bitcoin Dump",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Dump",
           "name": "Dump",
           "package": "network-bitcoin",
@@ -1174,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA textual representation of a bitcoin private key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Dump",
           "name": "PrivateKey",
           "package": "network-bitcoin",
@@ -1183,6 +1202,7 @@
         "index": {
           "description": "textual representation of bitcoin private key",
           "hierarchy": "Network Bitcoin Dump",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Dump",
           "name": "PrivateKey",
           "package": "network-bitcoin",
@@ -1250,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe API exposed in this module should be considered unstable, and is\n   subject to change between minor revisions.\n\u003c/p\u003e\u003cp\u003eIf the version number is a.b.c.d, and either a or b changes, then the\n   module's whole API may have changed (if only b changes, then it was\n   probably a minor change).\n\u003c/p\u003e\u003cp\u003eIf c changed, then only the internal API may change. The rest of the\n   module is guaranteed to be stable.\n\u003c/p\u003e\u003cp\u003eIf only d changes, then there were no user-facing code changes made.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "Internal",
           "package": "network-bitcoin",
@@ -1259,6 +1280,7 @@
         "index": {
           "description": "The API exposed in this module should be considered unstable and is subject to change between minor revisions If the version number is a.b.c.d and either or changes then the module whole API may have changed if only changes then it was probably minor change If changed then only the internal API may change The rest of the module is guaranteed to be stable If only changes then there were no user-facing code changes made",
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "Internal",
           "package": "network-bitcoin",
@@ -1273,6 +1295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for a vector of address:amount pairs. The RPC expects that as\n   an object of \u003ca\u003eaddress\u003c/a\u003e:\u003ca\u003eamount\u003c/a\u003e pairs, instead of a vector. So that's what\n   we give them with AddrAddress's ToJSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "AddrAddress",
           "package": "network-bitcoin",
@@ -1282,6 +1305,7 @@
         "index": {
           "description": "wrapper for vector of address amount pairs The RPC expects that as an object of address amount pairs instead of vector So that what we give them with AddrAddress ToJSON",
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "AddrAddress",
           "package": "network-bitcoin",
@@ -1296,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA response from bitcoind will contain the result of the JSON-RPC call, and\n   an error. The error should be null if a valid response was received.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "BitcoinRpcResponse",
           "package": "network-bitcoin",
@@ -1305,6 +1330,7 @@
         "index": {
           "description": "response from bitcoind will contain the result of the JSON-RPC call and an error The error should be null if valid response was received",
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "BitcoinRpcResponse",
           "package": "network-bitcoin",
@@ -1319,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted from JSON, with the possibility of\n failure.\n\u003c/p\u003e\u003cp\u003eWhen writing an instance, use \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003emzero\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e to make a\n conversion fail, e.g. if an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e is missing a required key, or\n the value is of the wrong type.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE OverloadedStrings #-}\n\ndata Coord { x :: Double, y :: Double }\n\ninstance FromJSON Coord where\n   parseJSON (\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e v) = Coord    \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e\n                          v \u003ccode\u003e\u003ca\u003e.:\u003c/a\u003e\u003c/code\u003e \"x\" \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e\n                          v \u003ccode\u003e\u003ca\u003e.:\u003c/a\u003e\u003c/code\u003e \"y\"\n\n-- A non-\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e value is of the wrong type, so use \u003ccode\u003emzero\u003c/code\u003e to fail.\n   parseJSON _          = \u003ccode\u003emzero\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eNote the use of the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension which enables\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e values to be written as string literals.\n\u003c/p\u003e\u003cp\u003eInstead of manually writing your \u003ccode\u003e\u003ca\u003eFromJSON\u003c/a\u003e\u003c/code\u003e instance, there are three options\n to do it automatically:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eData.Aeson.TH\u003c/a\u003e provides template-haskell functions which will derive an\n instance at compile-time. The generated instance is optimized for your type\n so will probably be more efficient than the following two options:\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.Aeson.Generic\u003c/a\u003e provides a generic \u003ccode\u003efromJSON\u003c/code\u003e function that parses to\n any type which is an instance of \u003ccode\u003eData\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e If your compiler has support for the \u003ccode\u003eDeriveGeneric\u003c/code\u003e and\n \u003ccode\u003eDefaultSignatures\u003c/code\u003e language extensions, \u003ccode\u003eparseJSON\u003c/code\u003e will have a default\n generic implementation.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTo use this, simply add a \u003ccode\u003ederiving \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e clause to your datatype and\n declare a \u003ccode\u003eFromJSON\u003c/code\u003e instance for your datatype without giving a definition\n for \u003ccode\u003eparseJSON\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example the previous example can be simplified to just:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE DeriveGeneric #-}\n\nimport GHC.Generics\n\ndata Coord { x :: Double, y :: Double } deriving Generic\n\ninstance FromJSON Coord\n\u003c/pre\u003e\u003cp\u003eNote that, instead of using \u003ccode\u003eDefaultSignatures\u003c/code\u003e, it's also possible\n to parameterize the generic decoding using \u003ccode\u003e\u003ca\u003egenericParseJSON\u003c/a\u003e\u003c/code\u003e applied\n to your encoding/decoding \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n instance FromJSON Coord where\n     parseJSON = \u003ccode\u003e\u003ca\u003egenericParseJSON\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "FromJSON",
           "package": "network-bitcoin",
@@ -1327,6 +1354,7 @@
         "index": {
           "description": "type that can be converted from JSON with the possibility of failure When writing an instance use empty mzero or fail to make conversion fail e.g if an Object is missing required key or the value is of the wrong type An example type and instance LANGUAGE OverloadedStrings data Coord Double Double instance FromJSON Coord where parseJSON Object Coord non Object value is of the wrong type so use mzero to fail parseJSON mzero Note the use of the OverloadedStrings language extension which enables Text values to be written as string literals Instead of manually writing your FromJSON instance there are three options to do it automatically Data.Aeson.TH provides template-haskell functions which will derive an instance at compile-time The generated instance is optimized for your type so will probably be more efficient than the following two options Data.Aeson.Generic provides generic fromJSON function that parses to any type which is an instance of Data If your compiler has support for the DeriveGeneric and DefaultSignatures language extensions parseJSON will have default generic implementation To use this simply add deriving Generic clause to your datatype and declare FromJSON instance for your datatype without giving definition for parseJSON For example the previous example can be simplified to just LANGUAGE DeriveGeneric import GHC.Generics data Coord Double Double deriving Generic instance FromJSON Coord Note that instead of using DefaultSignatures it also possible to parameterize the generic decoding using genericParseJSON applied to your encoding decoding Options instance FromJSON Coord where parseJSON genericParseJSON defaultOptions",
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "FromJSON",
           "package": "network-bitcoin",
@@ -1341,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to allow \u003ca\u003enull\u003c/a\u003e to decode to a tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "Nil",
           "package": "network-bitcoin",
@@ -1350,6 +1379,7 @@
         "index": {
           "description": "Used to allow null to decode to tuple",
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "Nil",
           "package": "network-bitcoin",
@@ -1364,6 +1394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space efficient, packed, unboxed Unicode text type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "Text",
           "package": "network-bitcoin",
@@ -1372,6 +1403,7 @@
         "index": {
           "description": "space efficient packed unboxed Unicode text type",
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "Text",
           "package": "network-bitcoin",
@@ -1386,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoxed vectors, supporting efficient slicing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "Vector",
           "package": "network-bitcoin",
@@ -1394,6 +1427,7 @@
         "index": {
           "description": "Boxed vectors supporting efficient slicing",
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "Vector",
           "package": "network-bitcoin",
@@ -1407,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "AA",
           "package": "network-bitcoin",
@@ -1416,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "AA",
           "normalized": "AA(Vector(Address,BTC))",
@@ -1431,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "BitcoinRpcResponse",
           "package": "network-bitcoin",
@@ -1440,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "BitcoinRpcResponse",
           "package": "network-bitcoin",
@@ -1453,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "Nil",
           "package": "network-bitcoin",
@@ -1462,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "Nil",
           "package": "network-bitcoin",
@@ -1475,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "btcError",
           "package": "network-bitcoin",
@@ -1484,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "btcError",
           "package": "network-bitcoin",
@@ -1497,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "btcResult",
           "package": "network-bitcoin",
@@ -1506,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "btcResult",
           "package": "network-bitcoin",
@@ -1520,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecallApi\u003c/a\u003e\u003c/code\u003e is a low-level interface for making authenticated API\n   calls to a Bitcoin daemon. The first argument specifies\n   authentication details (URL, username, password) and is often\n   curried for convenience:\n\u003c/p\u003e\u003cpre\u003e callBtc = callApi $ Auth \"http://127.0.0.1:8332\" \"user\" \"password\"\n\u003c/pre\u003e\u003cp\u003eThe second argument is the command name.  The third argument provides\n   parameters for the API call.\n\u003c/p\u003e\u003cpre\u003e let result = callBtc \"getbalance\" [ tj \"account-name\", tj 6 ]\n\u003c/pre\u003e\u003cp\u003eOn error, throws a \u003ccode\u003e\u003ca\u003eBitcoinException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "callApi",
           "package": "network-bitcoin",
@@ -1529,6 +1574,7 @@
         "index": {
           "description": "callApi is low-level interface for making authenticated API calls to Bitcoin daemon The first argument specifies authentication details URL username password and is often curried for convenience callBtc callApi Auth http user password The second argument is the command name The third argument provides parameters for the API call let result callBtc getbalance tj account-name tj On error throws BitcoinException",
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "callApi",
           "normalized": "Auth-\u003eText-\u003e[Value]-\u003eIO a",
@@ -1545,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ca\u003eno conversion needed\u003c/a\u003e implementation of callApi. THis lets us inline\n   and specialize callApi for its parameters, while keeping the bulk of the\n   work in this function shared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "callApi'",
           "package": "network-bitcoin",
@@ -1555,6 +1602,7 @@
         "index": {
           "description": "The no conversion needed implementation of callApi THis lets us inline and specialize callApi for its parameters while keeping the bulk of the work in this function shared",
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "callApi'",
           "normalized": "Auth-\u003eByteString-\u003eIO ByteString",
@@ -1570,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "parseJSON",
           "package": "network-bitcoin",
@@ -1578,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "parseJSON",
           "normalized": "Value-\u003eParser a",
@@ -1594,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handy shortcut for toJSON, because I'm lazy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "tj",
           "package": "network-bitcoin",
@@ -1604,6 +1655,7 @@
         "index": {
           "description": "handy shortcut for toJSON because lazy",
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "tj",
           "normalized": "a-\u003eValue",
@@ -1618,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Internal",
           "name": "unNil",
           "package": "network-bitcoin",
@@ -1627,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin Internal",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Internal",
           "name": "unNil",
           "normalized": "()",
@@ -1643,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interface to bitcoind's available mining RPC calls. The implementation\n   of these functions can be found at \u003ca\u003ehttps://github.com/bitcoin/bitcoin/blob/master/src/rpcmining.cpp\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIf any APIs are missing, patches are always welcome. If you look at the\n   source of this module, you'll see that the interface code is trivial.\n\u003c/p\u003e\u003cp\u003eNote that it is highly discouraged to use bitcoind for actual bitcoin\n   mining. It uses the CPU for mining, which is much, much less power\n   efficient than GPU mining. If you're paying for power, you will not come\n   out ahead.\n\u003c/p\u003e\u003cp\u003eInstead, consider using a GPU miner listed at \u003ca\u003ehttps://en.bitcoin.it/wiki/Software#Mining_apps\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Mining",
           "name": "Mining",
           "package": "network-bitcoin",
@@ -1652,6 +1707,7 @@
         "index": {
           "description": "An interface to bitcoind available mining RPC calls The implementation of these functions can be found at https github.com bitcoin bitcoin blob master src rpcmining.cpp If any APIs are missing patches are always welcome If you look at the source of this module you ll see that the interface code is trivial Note that it is highly discouraged to use bitcoind for actual bitcoin mining It uses the CPU for mining which is much much less power efficient than GPU mining If you re paying for power you will not come out ahead Instead consider using GPU miner listed at https en.bitcoin.it wiki Software Mining apps",
           "hierarchy": "Network Bitcoin Mining",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Mining",
           "name": "Mining",
           "package": "network-bitcoin",
@@ -1666,6 +1722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAuth\u003c/a\u003e\u003c/code\u003e describes authentication credentials for\n making API requests to the Bitcoin daemon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Mining",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -1675,6 +1732,7 @@
         "index": {
           "description": "Auth describes authentication credentials for making API requests to the Bitcoin daemon",
           "hierarchy": "Network Bitcoin Mining",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Mining",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -1689,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA template for constructing a block to work on.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttps://en.bitcoin.it/wiki/BIP_0022\u003c/a\u003e for the full specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Mining",
           "name": "BlockTemplate",
           "package": "network-bitcoin",
@@ -1698,6 +1757,7 @@
         "index": {
           "description": "template for constructing block to work on See https en.bitcoin.it wiki BIP for the full specification",
           "hierarchy": "Network Bitcoin Mining",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Mining",
           "name": "BlockTemplate",
           "package": "network-bitcoin",
@@ -1711,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Mining",
           "name": "CoinBaseAux",
           "package": "network-bitcoin",
@@ -1719,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin Mining",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Mining",
           "name": "CoinBaseAux",
           "package": "network-bitcoin",
@@ -1733,6 +1795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hash data returned from \u003ccode\u003e\u003ca\u003egetWork\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Mining",
           "name": "HashData",
           "package": "network-bitcoin",
@@ -1742,6 +1805,7 @@
         "index": {
           "description": "The hash data returned from getWork",
           "hierarchy": "Network Bitcoin Mining",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Mining",
           "name": "HashData",
           "package": "network-bitcoin",
@@ -1756,6 +1820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation related to the current bitcoind mining operation.\n\u003c/p\u003e\u003cp\u003eIf a field is undocumented here, it's because I don't know what it means.\n   If you DO know what it means, I'd love it if you would submit a patch to\n   help complete this documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Mining",
           "name": "MiningInfo",
           "package": "network-bitcoin",
@@ -1765,6 +1830,7 @@
         "index": {
           "description": "Information related to the current bitcoind mining operation If field is undocumented here it because don know what it means If you DO know what it means love it if you would submit patch to help complete this documentation",
           "hierarchy": "Network Bitcoin Mining",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Mining",
           "name": "MiningInfo",
           "package": "network-bitcoin",
@@ -1779,6 +1845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transaction to be included in the next block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Mining",
           "name": "Transaction",
           "package": "network-bitcoin",
@@ -1788,6 +1855,7 @@
         "index": {
           "description": "transaction to be included in the next block",
           "hierarchy": "Network Bitcoin Mining",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Mining",
           "name": "Transaction",
           "package": "network-bitcoin",
@@ -2927,6 +2995,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interface to bitcoind's available network-related RPC calls.\n   The implementation of these functions can be found at\n   \u003ca\u003ehttps://github.com/bitcoin/bitcoin/blob/master/src/rpcnet.cpp\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIf any APIs are missing, patches are always welcome. If you look at the\n   source of this module, you'll see that the interface code is trivial.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Net",
           "name": "Net",
           "package": "network-bitcoin",
@@ -2936,6 +3005,7 @@
         "index": {
           "description": "An interface to bitcoind available network-related RPC calls The implementation of these functions can be found at https github.com bitcoin bitcoin blob master src rpcnet.cpp If any APIs are missing patches are always welcome If you look at the source of this module you ll see that the interface code is trivial",
           "hierarchy": "Network Bitcoin Net",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Net",
           "name": "Net",
           "package": "network-bitcoin",
@@ -2950,6 +3020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAuth\u003c/a\u003e\u003c/code\u003e describes authentication credentials for\n making API requests to the Bitcoin daemon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Net",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -2959,6 +3030,7 @@
         "index": {
           "description": "Auth describes authentication credentials for making API requests to the Bitcoin daemon",
           "hierarchy": "Network Bitcoin Net",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Net",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -2973,6 +3045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a peer node of the Bitcoin network.\n\u003c/p\u003e\u003cp\u003eThe documentation for this data structure is incomplete, as I honestly\n   don't know what some of these fields are for. Patches are welcome!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Net",
           "name": "PeerInfo",
           "package": "network-bitcoin",
@@ -2982,6 +3055,7 @@
         "index": {
           "description": "Information about peer node of the Bitcoin network The documentation for this data structure is incomplete as honestly don know what some of these fields are for Patches are welcome",
           "hierarchy": "Network Bitcoin Net",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Net",
           "name": "PeerInfo",
           "package": "network-bitcoin",
@@ -3361,6 +3435,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interface to bitcoind's available raw transaction-related RPC calls.\n   The implementation of these functions can be found at\n   \u003ca\u003ehttps://github.com/bitcoin/bitcoin/blob/master/src/rpcrawtransaction.cpp\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIf any APIs are missing, patches are always welcome. If you look at the\n   source of this module, you'll see that the interface code is trivial.\n\u003c/p\u003e\u003cp\u003eAlso, documentation for this module is scarce. I would love the addition\n   of more documentation by anyone who knows what these things are.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "RawTransaction",
           "package": "network-bitcoin",
@@ -3370,6 +3445,7 @@
         "index": {
           "description": "An interface to bitcoind available raw transaction-related RPC calls The implementation of these functions can be found at https github.com bitcoin bitcoin blob master src rpcrawtransaction.cpp If any APIs are missing patches are always welcome If you look at the source of this module you ll see that the interface code is trivial Also documentation for this module is scarce would love the addition of more documentation by anyone who knows what these things are",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "RawTransaction",
           "package": "network-bitcoin",
@@ -3384,6 +3460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAuth\u003c/a\u003e\u003c/code\u003e describes authentication credentials for\n making API requests to the Bitcoin daemon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -3393,6 +3470,7 @@
         "index": {
           "description": "Auth describes authentication credentials for making API requests to the Bitcoin daemon",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -3407,6 +3485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on a single block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "BlockInfo",
           "package": "network-bitcoin",
@@ -3416,6 +3495,7 @@
         "index": {
           "description": "Information on single block",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "BlockInfo",
           "package": "network-bitcoin",
@@ -3430,6 +3510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA successfully decoded raw transaction, from a given serialized,\n   hex-encoded transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "DecodedRawTransaction",
           "package": "network-bitcoin",
@@ -3439,6 +3520,7 @@
         "index": {
           "description": "successfully decoded raw transaction from given serialized hex-encoded transaction",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "DecodedRawTransaction",
           "package": "network-bitcoin",
@@ -3453,6 +3535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA raw signed transaction contains the raw, signed hexstring and whether or\n   not this transaction has a complete signature set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "RawSignedTransaction",
           "package": "network-bitcoin",
@@ -3462,6 +3545,7 @@
         "index": {
           "description": "raw signed transaction contains the raw signed hexstring and whether or not this transaction has complete signature set",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "RawSignedTransaction",
           "package": "network-bitcoin",
@@ -3476,6 +3560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust like most binary data retrieved from bitcoind, a raw transaction is\n   represented by a hexstring.\n\u003c/p\u003e\u003cp\u003eThis is a serialized, hex-encoded transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "RawTransaction",
           "package": "network-bitcoin",
@@ -3485,6 +3570,7 @@
         "index": {
           "description": "Just like most binary data retrieved from bitcoind raw transaction is represented by hexstring This is serialized hex-encoded transaction",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "RawTransaction",
           "package": "network-bitcoin",
@@ -3499,6 +3585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe raw transaction info for a given transaction ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "RawTransactionInfo",
           "package": "network-bitcoin",
@@ -3508,6 +3595,7 @@
         "index": {
           "description": "The raw transaction info for given transaction ID",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "RawTransactionInfo",
           "package": "network-bitcoin",
@@ -3522,6 +3610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA public key of someone we sent money to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "ScriptPubKey",
           "package": "network-bitcoin",
@@ -3531,6 +3620,7 @@
         "index": {
           "description": "public key of someone we sent money to",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "ScriptPubKey",
           "package": "network-bitcoin",
@@ -3545,6 +3635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA script signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "ScriptSig",
           "package": "network-bitcoin",
@@ -3554,6 +3645,7 @@
         "index": {
           "description": "script signature",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "ScriptSig",
           "package": "network-bitcoin",
@@ -3568,6 +3660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transaction into an account. This can either be a coinbase transaction,\n   or a standard transaction with another account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "TxIn",
           "package": "network-bitcoin",
@@ -3577,6 +3670,7 @@
         "index": {
           "description": "transaction into an account This can either be coinbase transaction or standard transaction with another account",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "TxIn",
           "package": "network-bitcoin",
@@ -3591,6 +3685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transaction out of an account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "TxOut",
           "package": "network-bitcoin",
@@ -3600,6 +3695,7 @@
         "index": {
           "description": "transaction out of an account",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "TxOut",
           "package": "network-bitcoin",
@@ -3614,6 +3710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a transaction out.\n\u003c/p\u003e\u003cp\u003eMore documentation is needed here. Submit a patch if you know what this is\n   about!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "TxnOutputType",
           "package": "network-bitcoin",
@@ -3623,6 +3720,7 @@
         "index": {
           "description": "The type of transaction out More documentation is needed here Submit patch if you know what this is about",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "TxnOutputType",
           "package": "network-bitcoin",
@@ -3636,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "UnspentTransaction",
           "package": "network-bitcoin",
@@ -3644,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "UnspentTransaction",
           "package": "network-bitcoin",
@@ -3658,6 +3758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWho can pay for a given transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "WhoCanPay",
           "package": "network-bitcoin",
@@ -3667,6 +3768,7 @@
         "index": {
           "description": "Who can pay for given transaction",
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "WhoCanPay",
           "package": "network-bitcoin",
@@ -3887,6 +3989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "ScriptSig",
           "package": "network-bitcoin",
@@ -3896,6 +3999,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "ScriptSig",
           "package": "network-bitcoin",
@@ -4860,6 +4964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "sigAsm",
           "package": "network-bitcoin",
@@ -4869,6 +4974,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "sigAsm",
           "package": "network-bitcoin",
@@ -4882,6 +4988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "sigHex",
           "package": "network-bitcoin",
@@ -4891,6 +4998,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin RawTransaction",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.RawTransaction",
           "name": "sigHex",
           "package": "network-bitcoin",
@@ -5340,6 +5448,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains the common types used through bitcoin RPC calls, that aren't\n   specific to a single submodule.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Types",
           "name": "Types",
           "package": "network-bitcoin",
@@ -5349,6 +5458,7 @@
         "index": {
           "description": "Contains the common types used through bitcoin RPC calls that aren specific to single submodule",
           "hierarchy": "Network Bitcoin Types",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Types",
           "name": "Types",
           "package": "network-bitcoin",
@@ -5363,6 +5473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn account on the wallet is just a label to easily specify private keys.\n\u003c/p\u003e\u003cp\u003eThe default account is an empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Types",
           "name": "Account",
           "package": "network-bitcoin",
@@ -5372,6 +5483,7 @@
         "index": {
           "description": "An account on the wallet is just label to easily specify private keys The default account is an empty string",
           "hierarchy": "Network Bitcoin Types",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Types",
           "name": "Account",
           "package": "network-bitcoin",
@@ -5386,6 +5498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn address for sending or receiving money.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Types",
           "name": "Address",
           "package": "network-bitcoin",
@@ -5395,6 +5508,7 @@
         "index": {
           "description": "An address for sending or receiving money",
           "hierarchy": "Network Bitcoin Types",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Types",
           "name": "Address",
           "package": "network-bitcoin",
@@ -5409,6 +5523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAuth\u003c/a\u003e\u003c/code\u003e describes authentication credentials for\n making API requests to the Bitcoin daemon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Types",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -5418,6 +5533,7 @@
         "index": {
           "description": "Auth describes authentication credentials for making API requests to the Bitcoin daemon",
           "hierarchy": "Network Bitcoin Types",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Types",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -5432,6 +5548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of bitcoin money, represented with a fixed-point number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Types",
           "name": "BTC",
           "package": "network-bitcoin",
@@ -5441,6 +5558,7 @@
         "index": {
           "description": "The type of bitcoin money represented with fixed-point number",
           "hierarchy": "Network Bitcoin Types",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Types",
           "name": "BTC",
           "package": "network-bitcoin",
@@ -5455,6 +5573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBitcoinException\u003c/a\u003e\u003c/code\u003e is thrown when 'callApi encounters an\n   error.  The API error code is represented as an \u003ccode\u003eInt\u003c/code\u003e, the message as\n   a \u003ccode\u003eString\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt may also be thrown when the value returned by the bitcoin API wasn't\n   what we expected.\n\u003c/p\u003e\u003cp\u003eWARNING: Any of the functions in this module's public API may throw this\n            exception. You should plan on handling it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Types",
           "name": "BitcoinException",
           "package": "network-bitcoin",
@@ -5464,6 +5583,7 @@
         "index": {
           "description": "BitcoinException is thrown when callApi encounters an error The API error code is represented as an Int the message as String It may also be thrown when the value returned by the bitcoin API wasn what we expected WARNING Any of the functions in this module public API may throw this exception You should plan on handling it",
           "hierarchy": "Network Bitcoin Types",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Types",
           "name": "BitcoinException",
           "package": "network-bitcoin",
@@ -5478,6 +5598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string returned by the bitcoind API, representing data as hex.\n\u003c/p\u003e\u003cp\u003eWhat that data represents depends on the API call, but should be\n   dcumented accordingly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Types",
           "name": "HexString",
           "package": "network-bitcoin",
@@ -5487,6 +5608,7 @@
         "index": {
           "description": "string returned by the bitcoind API representing data as hex What that data represents depends on the API call but should be dcumented accordingly",
           "hierarchy": "Network Bitcoin Types",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Types",
           "name": "HexString",
           "package": "network-bitcoin",
@@ -5501,6 +5623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA satoshi is the smallest subdivision of bitcoins. For the resolution,\n   use \u003ccode\u003e\u003ca\u003eresolution\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eFixed\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Types",
           "name": "Satoshi",
           "package": "network-bitcoin",
@@ -5510,6 +5633,7 @@
         "index": {
           "description": "satoshi is the smallest subdivision of bitcoins For the resolution use resolution from Fixed",
           "hierarchy": "Network Bitcoin Types",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Types",
           "name": "Satoshi",
           "package": "network-bitcoin",
@@ -5524,6 +5648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hexadecimal string representation of a 256-bit unsigned integer.\n\u003c/p\u003e\u003cp\u003eThis integer is a unique transaction identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Types",
           "name": "TransactionID",
           "package": "network-bitcoin",
@@ -5533,6 +5658,7 @@
         "index": {
           "description": "hexadecimal string representation of bit unsigned integer This integer is unique transaction identifier",
           "hierarchy": "Network Bitcoin Types",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Types",
           "name": "TransactionID",
           "package": "network-bitcoin",
@@ -5620,6 +5746,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interface to bitcoind's available wallet-related RPC calls.\n   The implementation of these functions can be found at\n   \u003ca\u003ehttps://github.com/bitcoin/bitcoin/blob/master/src/rpcwallet.cpp\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIf any APIs are missing, patches are always welcome. If you look at the\n   source of this module, you'll see that the interface code is trivial.\n\u003c/p\u003e\u003cp\u003eCertain APIs were too complicated for me to write an interface for. If\n   you figure them out, then patches are always welcome! They're left in\n   the source as comments.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Wallet",
           "name": "Wallet",
           "package": "network-bitcoin",
@@ -5629,6 +5756,7 @@
         "index": {
           "description": "An interface to bitcoind available wallet-related RPC calls The implementation of these functions can be found at https github.com bitcoin bitcoin blob master src rpcwallet.cpp If any APIs are missing patches are always welcome If you look at the source of this module you ll see that the interface code is trivial Certain APIs were too complicated for me to write an interface for If you figure them out then patches are always welcome They re left in the source as comments",
           "hierarchy": "Network Bitcoin Wallet",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Wallet",
           "name": "Wallet",
           "package": "network-bitcoin",
@@ -5643,6 +5771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on a given address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Wallet",
           "name": "AddressInfo",
           "package": "network-bitcoin",
@@ -5652,6 +5781,7 @@
         "index": {
           "description": "Information on given address",
           "hierarchy": "Network Bitcoin Wallet",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Wallet",
           "name": "AddressInfo",
           "package": "network-bitcoin",
@@ -5666,6 +5796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAuth\u003c/a\u003e\u003c/code\u003e describes authentication credentials for\n making API requests to the Bitcoin daemon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Wallet",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -5675,6 +5806,7 @@
         "index": {
           "description": "Auth describes authentication credentials for making API requests to the Bitcoin daemon",
           "hierarchy": "Network Bitcoin Wallet",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Wallet",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -5689,6 +5821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plethora of information about a bitcoind instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Wallet",
           "name": "BitcoindInfo",
           "package": "network-bitcoin",
@@ -5698,6 +5831,7 @@
         "index": {
           "description": "plethora of information about bitcoind instance",
           "hierarchy": "Network Bitcoin Wallet",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Wallet",
           "name": "BitcoindInfo",
           "package": "network-bitcoin",
@@ -5711,6 +5845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Wallet",
           "name": "ReceivedByAccount",
           "package": "network-bitcoin",
@@ -5719,6 +5854,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin Wallet",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Wallet",
           "name": "ReceivedByAccount",
           "package": "network-bitcoin",
@@ -5733,6 +5869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on how much was received by a given address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Wallet",
           "name": "ReceivedByAddress",
           "package": "network-bitcoin",
@@ -5742,6 +5879,7 @@
         "index": {
           "description": "Information on how much was received by given address",
           "hierarchy": "Network Bitcoin Wallet",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Wallet",
           "name": "ReceivedByAddress",
           "package": "network-bitcoin",
@@ -5756,6 +5894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signature is a base-64 encoded string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin.Wallet",
           "name": "Signature",
           "package": "network-bitcoin",
@@ -5765,6 +5904,7 @@
         "index": {
           "description": "signature is base-64 encoded string",
           "hierarchy": "Network Bitcoin Wallet",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin.Wallet",
           "name": "Signature",
           "package": "network-bitcoin",
@@ -7291,6 +7431,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Haskell binding to the bitcoind server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "Bitcoin",
           "package": "network-bitcoin",
@@ -7300,6 +7441,7 @@
         "index": {
           "description": "Haskell binding to the bitcoind server",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "Bitcoin",
           "package": "network-bitcoin",
@@ -7314,6 +7456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn account on the wallet is just a label to easily specify private keys.\n\u003c/p\u003e\u003cp\u003eThe default account is an empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "Account",
           "package": "network-bitcoin",
@@ -7323,6 +7466,7 @@
         "index": {
           "description": "An account on the wallet is just label to easily specify private keys The default account is an empty string",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "Account",
           "package": "network-bitcoin",
@@ -7337,6 +7481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn address for sending or receiving money.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "Address",
           "package": "network-bitcoin",
@@ -7346,6 +7491,7 @@
         "index": {
           "description": "An address for sending or receiving money",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "Address",
           "package": "network-bitcoin",
@@ -7360,6 +7506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on a given address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "AddressInfo",
           "package": "network-bitcoin",
@@ -7369,6 +7516,7 @@
         "index": {
           "description": "Information on given address",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "AddressInfo",
           "package": "network-bitcoin",
@@ -7383,6 +7531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAuth\u003c/a\u003e\u003c/code\u003e describes authentication credentials for\n making API requests to the Bitcoin daemon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -7392,6 +7541,7 @@
         "index": {
           "description": "Auth describes authentication credentials for making API requests to the Bitcoin daemon",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "Auth",
           "package": "network-bitcoin",
@@ -7406,6 +7556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of bitcoin money, represented with a fixed-point number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "BTC",
           "package": "network-bitcoin",
@@ -7415,6 +7566,7 @@
         "index": {
           "description": "The type of bitcoin money represented with fixed-point number",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "BTC",
           "package": "network-bitcoin",
@@ -7429,6 +7581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBitcoinException\u003c/a\u003e\u003c/code\u003e is thrown when 'callApi encounters an\n   error.  The API error code is represented as an \u003ccode\u003eInt\u003c/code\u003e, the message as\n   a \u003ccode\u003eString\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt may also be thrown when the value returned by the bitcoin API wasn't\n   what we expected.\n\u003c/p\u003e\u003cp\u003eWARNING: Any of the functions in this module's public API may throw this\n            exception. You should plan on handling it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "BitcoinException",
           "package": "network-bitcoin",
@@ -7438,6 +7591,7 @@
         "index": {
           "description": "BitcoinException is thrown when callApi encounters an error The API error code is represented as an Int the message as String It may also be thrown when the value returned by the bitcoin API wasn what we expected WARNING Any of the functions in this module public API may throw this exception You should plan on handling it",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "BitcoinException",
           "package": "network-bitcoin",
@@ -7452,6 +7606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plethora of information about a bitcoind instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "BitcoindInfo",
           "package": "network-bitcoin",
@@ -7461,6 +7616,7 @@
         "index": {
           "description": "plethora of information about bitcoind instance",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "BitcoindInfo",
           "package": "network-bitcoin",
@@ -7475,6 +7631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a given block in the block chain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "Block",
           "package": "network-bitcoin",
@@ -7484,6 +7641,7 @@
         "index": {
           "description": "Information about given block in the block chain",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "Block",
           "package": "network-bitcoin",
@@ -7498,6 +7656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hash of a given block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "BlockHash",
           "package": "network-bitcoin",
@@ -7507,6 +7666,7 @@
         "index": {
           "description": "The hash of given block",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "BlockHash",
           "package": "network-bitcoin",
@@ -7521,6 +7681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on a single block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "BlockInfo",
           "package": "network-bitcoin",
@@ -7530,6 +7691,7 @@
         "index": {
           "description": "Information on single block",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "BlockInfo",
           "package": "network-bitcoin",
@@ -7544,6 +7706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA template for constructing a block to work on.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttps://en.bitcoin.it/wiki/BIP_0022\u003c/a\u003e for the full specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "BlockTemplate",
           "package": "network-bitcoin",
@@ -7553,6 +7716,7 @@
         "index": {
           "description": "template for constructing block to work on See https en.bitcoin.it wiki BIP for the full specification",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "BlockTemplate",
           "package": "network-bitcoin",
@@ -7566,6 +7730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "CoinBaseAux",
           "package": "network-bitcoin",
@@ -7574,6 +7739,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "CoinBaseAux",
           "package": "network-bitcoin",
@@ -7588,6 +7754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA successfully decoded raw transaction, from a given serialized,\n   hex-encoded transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "DecodedRawTransaction",
           "package": "network-bitcoin",
@@ -7597,6 +7764,7 @@
         "index": {
           "description": "successfully decoded raw transaction from given serialized hex-encoded transaction",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "DecodedRawTransaction",
           "package": "network-bitcoin",
@@ -7611,6 +7779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hash data returned from \u003ccode\u003e\u003ca\u003egetWork\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "HashData",
           "package": "network-bitcoin",
@@ -7620,6 +7789,7 @@
         "index": {
           "description": "The hash data returned from getWork",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "HashData",
           "package": "network-bitcoin",
@@ -7634,6 +7804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string returned by the bitcoind API, representing data as hex.\n\u003c/p\u003e\u003cp\u003eWhat that data represents depends on the API call, but should be\n   dcumented accordingly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "HexString",
           "package": "network-bitcoin",
@@ -7643,6 +7814,7 @@
         "index": {
           "description": "string returned by the bitcoind API representing data as hex What that data represents depends on the API call but should be dcumented accordingly",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "HexString",
           "package": "network-bitcoin",
@@ -7657,6 +7829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation related to the current bitcoind mining operation.\n\u003c/p\u003e\u003cp\u003eIf a field is undocumented here, it's because I don't know what it means.\n   If you DO know what it means, I'd love it if you would submit a patch to\n   help complete this documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "MiningInfo",
           "package": "network-bitcoin",
@@ -7666,6 +7839,7 @@
         "index": {
           "description": "Information related to the current bitcoind mining operation If field is undocumented here it because don know what it means If you DO know what it means love it if you would submit patch to help complete this documentation",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "MiningInfo",
           "package": "network-bitcoin",
@@ -7680,6 +7854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails about an unspent transaction output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "OutputInfo",
           "package": "network-bitcoin",
@@ -7689,6 +7864,7 @@
         "index": {
           "description": "Details about an unspent transaction output",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "OutputInfo",
           "package": "network-bitcoin",
@@ -7703,6 +7879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on the unspent transaction in the output set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "OutputSetInfo",
           "package": "network-bitcoin",
@@ -7712,6 +7889,7 @@
         "index": {
           "description": "Information on the unspent transaction in the output set",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "OutputSetInfo",
           "package": "network-bitcoin",
@@ -7726,6 +7904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a peer node of the Bitcoin network.\n\u003c/p\u003e\u003cp\u003eThe documentation for this data structure is incomplete, as I honestly\n   don't know what some of these fields are for. Patches are welcome!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "PeerInfo",
           "package": "network-bitcoin",
@@ -7735,6 +7914,7 @@
         "index": {
           "description": "Information about peer node of the Bitcoin network The documentation for this data structure is incomplete as honestly don know what some of these fields are for Patches are welcome",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "PeerInfo",
           "package": "network-bitcoin",
@@ -7749,6 +7929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA raw signed transaction contains the raw, signed hexstring and whether or\n   not this transaction has a complete signature set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "RawSignedTransaction",
           "package": "network-bitcoin",
@@ -7758,6 +7939,7 @@
         "index": {
           "description": "raw signed transaction contains the raw signed hexstring and whether or not this transaction has complete signature set",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "RawSignedTransaction",
           "package": "network-bitcoin",
@@ -7772,6 +7954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust like most binary data retrieved from bitcoind, a raw transaction is\n   represented by a hexstring.\n\u003c/p\u003e\u003cp\u003eThis is a serialized, hex-encoded transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "RawTransaction",
           "package": "network-bitcoin",
@@ -7781,6 +7964,7 @@
         "index": {
           "description": "Just like most binary data retrieved from bitcoind raw transaction is represented by hexstring This is serialized hex-encoded transaction",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "RawTransaction",
           "package": "network-bitcoin",
@@ -7795,6 +7979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe raw transaction info for a given transaction ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "RawTransactionInfo",
           "package": "network-bitcoin",
@@ -7804,6 +7989,7 @@
         "index": {
           "description": "The raw transaction info for given transaction ID",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "RawTransactionInfo",
           "package": "network-bitcoin",
@@ -7817,6 +8003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "ReceivedByAccount",
           "package": "network-bitcoin",
@@ -7825,6 +8012,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "ReceivedByAccount",
           "package": "network-bitcoin",
@@ -7839,6 +8027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on how much was received by a given address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "ReceivedByAddress",
           "package": "network-bitcoin",
@@ -7848,6 +8037,7 @@
         "index": {
           "description": "Information on how much was received by given address",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "ReceivedByAddress",
           "package": "network-bitcoin",
@@ -7862,6 +8052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA satoshi is the smallest subdivision of bitcoins. For the resolution,\n   use \u003ccode\u003e\u003ca\u003eresolution\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eFixed\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "Satoshi",
           "package": "network-bitcoin",
@@ -7871,6 +8062,7 @@
         "index": {
           "description": "satoshi is the smallest subdivision of bitcoins For the resolution use resolution from Fixed",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "Satoshi",
           "package": "network-bitcoin",
@@ -7885,6 +8077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA public key of someone we sent money to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "ScriptPubKey",
           "package": "network-bitcoin",
@@ -7894,6 +8087,7 @@
         "index": {
           "description": "public key of someone we sent money to",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "ScriptPubKey",
           "package": "network-bitcoin",
@@ -7908,6 +8102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA script signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "ScriptSig",
           "package": "network-bitcoin",
@@ -7917,6 +8112,7 @@
         "index": {
           "description": "script signature",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "ScriptSig",
           "package": "network-bitcoin",
@@ -7931,6 +8127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signature is a base-64 encoded string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "Signature",
           "package": "network-bitcoin",
@@ -7940,6 +8137,7 @@
         "index": {
           "description": "signature is base-64 encoded string",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "Signature",
           "package": "network-bitcoin",
@@ -7954,6 +8152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transaction to be included in the next block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "Transaction",
           "package": "network-bitcoin",
@@ -7963,6 +8162,7 @@
         "index": {
           "description": "transaction to be included in the next block",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "Transaction",
           "package": "network-bitcoin",
@@ -7977,6 +8177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hexadecimal string representation of a 256-bit unsigned integer.\n\u003c/p\u003e\u003cp\u003eThis integer is a unique transaction identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "TransactionID",
           "package": "network-bitcoin",
@@ -7986,6 +8187,7 @@
         "index": {
           "description": "hexadecimal string representation of bit unsigned integer This integer is unique transaction identifier",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "TransactionID",
           "package": "network-bitcoin",
@@ -8000,6 +8202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transaction into an account. This can either be a coinbase transaction,\n   or a standard transaction with another account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "TxIn",
           "package": "network-bitcoin",
@@ -8009,6 +8212,7 @@
         "index": {
           "description": "transaction into an account This can either be coinbase transaction or standard transaction with another account",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "TxIn",
           "package": "network-bitcoin",
@@ -8023,6 +8227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transaction out of an account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "TxOut",
           "package": "network-bitcoin",
@@ -8032,6 +8237,7 @@
         "index": {
           "description": "transaction out of an account",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "TxOut",
           "package": "network-bitcoin",
@@ -8046,6 +8252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a transaction out.\n\u003c/p\u003e\u003cp\u003eMore documentation is needed here. Submit a patch if you know what this is\n   about!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "TxnOutputType",
           "package": "network-bitcoin",
@@ -8055,6 +8262,7 @@
         "index": {
           "description": "The type of transaction out More documentation is needed here Submit patch if you know what this is about",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "TxnOutputType",
           "package": "network-bitcoin",
@@ -8068,6 +8276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "UnspentTransaction",
           "package": "network-bitcoin",
@@ -8076,6 +8285,7 @@
         },
         "index": {
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "UnspentTransaction",
           "package": "network-bitcoin",
@@ -8090,6 +8300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWho can pay for a given transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:29 UTC 2014",
           "module": "Network.Bitcoin",
           "name": "WhoCanPay",
           "package": "network-bitcoin",
@@ -8099,6 +8310,7 @@
         "index": {
           "description": "Who can pay for given transaction",
           "hierarchy": "Network Bitcoin",
+          "indexed": "2014-03-11T19:27:29",
           "module": "Network.Bitcoin",
           "name": "WhoCanPay",
           "package": "network-bitcoin",

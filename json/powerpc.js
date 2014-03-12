@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "powerpc"
+        "phrase": "powerpc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Instructions",
           "name": "Instructions",
           "package": "powerpc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Instructions",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Instructions",
           "name": "Instructions",
           "package": "powerpc",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the RTL statements of an instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Instructions",
           "name": "rtl",
           "package": "powerpc",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Extracts the RTL statements of an instruction",
           "hierarchy": "Language PowerPC Instructions",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Instructions",
           "name": "rtl",
           "normalized": "Word-\u003eWord-\u003e(String,Stmt)",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Opcode",
           "name": "Opcode",
           "package": "powerpc",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Opcode",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Opcode",
           "name": "Opcode",
           "package": "powerpc",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Opcode",
           "name": "opcode",
           "package": "powerpc",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Opcode",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Opcode",
           "name": "opcode",
           "normalized": "Word-\u003e(Int,Int)",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "RTL",
           "package": "powerpc",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "RTL",
           "package": "powerpc",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Cond",
           "package": "powerpc",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Cond",
           "package": "powerpc",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "E",
           "package": "powerpc",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "E",
           "package": "powerpc",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "RTL",
           "package": "powerpc",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "RTL",
           "package": "powerpc",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Stmt",
           "package": "powerpc",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Stmt",
           "package": "powerpc",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "(||.)",
           "package": "powerpc",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "(||.) ||.",
           "normalized": "E-\u003eE-\u003eE",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "(&&.)",
           "package": "powerpc",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "(&&.) &&.",
           "normalized": "E-\u003eE-\u003eE",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "(/=.)",
           "package": "powerpc",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "(/=.) /=.",
           "normalized": "E-\u003eE-\u003eE",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "(\u003c==)",
           "package": "powerpc",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "(\u003c==) \u003c==",
           "normalized": "E-\u003eE-\u003eRTL()",
@@ -305,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than or equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "(\u003c=.)",
           "package": "powerpc",
@@ -315,6 +342,7 @@
         "index": {
           "description": "Less than or equal",
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "(\u003c=.) \u003c=.",
           "normalized": "E-\u003eE-\u003eE",
@@ -330,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "(\u003c.)",
           "package": "powerpc",
@@ -340,6 +369,7 @@
         "index": {
           "description": "Less than",
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "(\u003c.) \u003c.",
           "normalized": "E-\u003eE-\u003eE",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "(==.)",
           "package": "powerpc",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "(==.) ==.",
           "normalized": "E-\u003eE-\u003eE",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater than or equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "(\u003e=.)",
           "package": "powerpc",
@@ -388,6 +421,7 @@
         "index": {
           "description": "Greater than or equal",
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "(\u003e=.) \u003e=.",
           "normalized": "E-\u003eE-\u003eE",
@@ -403,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater than.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "(\u003e.)",
           "package": "powerpc",
@@ -413,6 +448,7 @@
         "index": {
           "description": "Greater than",
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "(\u003e.) \u003e.",
           "normalized": "E-\u003eE-\u003eE",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "AA",
           "package": "powerpc",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "AA",
           "package": "powerpc",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Add",
           "package": "powerpc",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Add",
           "package": "powerpc",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "And",
           "package": "powerpc",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "And",
           "package": "powerpc",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Assign",
           "package": "powerpc",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Assign",
           "normalized": "Assign[Cond]E E",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "BA",
           "package": "powerpc",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "BA",
           "package": "powerpc",
@@ -539,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "BB",
           "package": "powerpc",
@@ -548,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "BB",
           "package": "powerpc",
@@ -561,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "BD",
           "package": "powerpc",
@@ -570,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "BD",
           "package": "powerpc",
@@ -583,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "BF",
           "package": "powerpc",
@@ -592,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "BF",
           "package": "powerpc",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "BI",
           "package": "powerpc",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "BI",
           "package": "powerpc",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "BO",
           "package": "powerpc",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "BO",
           "package": "powerpc",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "BT",
           "package": "powerpc",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "BT",
           "package": "powerpc",
@@ -671,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "BWAnd",
           "package": "powerpc",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "BWAnd",
           "package": "powerpc",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "BWNot",
           "package": "powerpc",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "BWNot",
           "package": "powerpc",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "BWOr",
           "package": "powerpc",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "BWOr",
           "package": "powerpc",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Bit",
           "package": "powerpc",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Bit",
           "package": "powerpc",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "C",
           "package": "powerpc",
@@ -768,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "C",
           "package": "powerpc",
@@ -780,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "CA",
           "package": "powerpc",
@@ -789,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "CA",
           "package": "powerpc",
@@ -802,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "CA'",
           "package": "powerpc",
@@ -811,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "CA'",
           "package": "powerpc",
@@ -824,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "CIA",
           "package": "powerpc",
@@ -833,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "CIA",
           "package": "powerpc",
@@ -846,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "CR",
           "package": "powerpc",
@@ -855,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "CR",
           "package": "powerpc",
@@ -868,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "CR'",
           "package": "powerpc",
@@ -877,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "CR'",
           "package": "powerpc",
@@ -890,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "CRField",
           "package": "powerpc",
@@ -899,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "CRField",
           "package": "powerpc",
@@ -912,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "CTR",
           "package": "powerpc",
@@ -921,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "CTR",
           "package": "powerpc",
@@ -934,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "D",
           "package": "powerpc",
@@ -943,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "D",
           "package": "powerpc",
@@ -955,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Div",
           "package": "powerpc",
@@ -964,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Div",
           "package": "powerpc",
@@ -977,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "EA",
           "package": "powerpc",
@@ -986,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "EA",
           "package": "powerpc",
@@ -999,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "EXTS",
           "package": "powerpc",
@@ -1008,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "EXTS",
           "package": "powerpc",
@@ -1021,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Eq",
           "package": "powerpc",
@@ -1030,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Eq",
           "package": "powerpc",
@@ -1043,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "GPR",
           "package": "powerpc",
@@ -1052,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "GPR",
           "package": "powerpc",
@@ -1065,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "If",
           "package": "powerpc",
@@ -1074,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "If",
           "package": "powerpc",
@@ -1087,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "L10",
           "package": "powerpc",
@@ -1096,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "L10",
           "package": "powerpc",
@@ -1108,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "L15",
           "package": "powerpc",
@@ -1117,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "L15",
           "package": "powerpc",
@@ -1129,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "LI",
           "package": "powerpc",
@@ -1138,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "LI",
           "package": "powerpc",
@@ -1151,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "LK",
           "package": "powerpc",
@@ -1160,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "LK",
           "package": "powerpc",
@@ -1173,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "LR",
           "package": "powerpc",
@@ -1182,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "LR",
           "package": "powerpc",
@@ -1195,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Lt",
           "package": "powerpc",
@@ -1204,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Lt",
           "package": "powerpc",
@@ -1218,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMask start stop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "MASK",
           "package": "powerpc",
@@ -1228,6 +1337,7 @@
         "index": {
           "description": "Mask start stop",
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "MASK",
           "package": "powerpc",
@@ -1241,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "MB5",
           "package": "powerpc",
@@ -1250,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "MB5",
           "package": "powerpc",
@@ -1263,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "MB6",
           "package": "powerpc",
@@ -1272,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "MB6",
           "package": "powerpc",
@@ -1285,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "ME5",
           "package": "powerpc",
@@ -1294,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "ME5",
           "package": "powerpc",
@@ -1307,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "ME6",
           "package": "powerpc",
@@ -1316,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "ME6",
           "package": "powerpc",
@@ -1329,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "MEM",
           "package": "powerpc",
@@ -1338,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "MEM",
           "package": "powerpc",
@@ -1351,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "MSR",
           "package": "powerpc",
@@ -1360,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "MSR",
           "package": "powerpc",
@@ -1373,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Mul",
           "package": "powerpc",
@@ -1382,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Mul",
           "package": "powerpc",
@@ -1395,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "NIA",
           "package": "powerpc",
@@ -1404,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "NIA",
           "package": "powerpc",
@@ -1417,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Not",
           "package": "powerpc",
@@ -1426,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Not",
           "package": "powerpc",
@@ -1439,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Null",
           "package": "powerpc",
@@ -1448,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Null",
           "package": "powerpc",
@@ -1461,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "OE",
           "package": "powerpc",
@@ -1470,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "OE",
           "package": "powerpc",
@@ -1483,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "OV",
           "package": "powerpc",
@@ -1492,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "OV",
           "package": "powerpc",
@@ -1505,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Or",
           "package": "powerpc",
@@ -1514,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Or",
           "package": "powerpc",
@@ -1527,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "RA",
           "package": "powerpc",
@@ -1536,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "RA",
           "package": "powerpc",
@@ -1549,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "RAI",
           "package": "powerpc",
@@ -1558,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "RAI",
           "package": "powerpc",
@@ -1571,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "RB",
           "package": "powerpc",
@@ -1580,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "RB",
           "package": "powerpc",
@@ -1594,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eROTL32 value amount\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "ROTL32",
           "package": "powerpc",
@@ -1604,6 +1747,7 @@
         "index": {
           "description": "ROTL32 value amount",
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "ROTL32",
           "package": "powerpc",
@@ -1618,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eROTL64 value amount\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "ROTL64",
           "package": "powerpc",
@@ -1628,6 +1773,7 @@
         "index": {
           "description": "ROTL64 value amount",
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "ROTL64",
           "package": "powerpc",
@@ -1641,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "RS",
           "package": "powerpc",
@@ -1650,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "RS",
           "package": "powerpc",
@@ -1663,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "RSI",
           "package": "powerpc",
@@ -1672,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "RSI",
           "package": "powerpc",
@@ -1685,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "RT",
           "package": "powerpc",
@@ -1694,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "RT",
           "package": "powerpc",
@@ -1707,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "RTI",
           "package": "powerpc",
@@ -1716,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "RTI",
           "package": "powerpc",
@@ -1729,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "RTL",
           "package": "powerpc",
@@ -1738,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "RTL",
           "normalized": "RTL(Stmt-\u003e(a,Stmt))",
@@ -1753,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Rc",
           "package": "powerpc",
@@ -1762,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Rc",
           "package": "powerpc",
@@ -1775,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "SH5",
           "package": "powerpc",
@@ -1784,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "SH5",
           "package": "powerpc",
@@ -1797,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "SH6",
           "package": "powerpc",
@@ -1806,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "SH6",
           "package": "powerpc",
@@ -1819,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "SI",
           "package": "powerpc",
@@ -1828,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "SI",
           "package": "powerpc",
@@ -1841,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "SPR",
           "package": "powerpc",
@@ -1850,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "SPR",
           "package": "powerpc",
@@ -1863,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Seq",
           "package": "powerpc",
@@ -1872,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Seq",
           "normalized": "Seq[Stmt]",
@@ -1887,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Shift",
           "package": "powerpc",
@@ -1896,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Shift",
           "package": "powerpc",
@@ -1909,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "Sub",
           "package": "powerpc",
@@ -1918,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "Sub",
           "package": "powerpc",
@@ -1931,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "UI",
           "package": "powerpc",
@@ -1940,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "UI",
           "package": "powerpc",
@@ -1953,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "V",
           "package": "powerpc",
@@ -1962,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "V",
           "package": "powerpc",
@@ -1974,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "While",
           "package": "powerpc",
@@ -1983,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "While",
           "package": "powerpc",
@@ -1996,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "XER",
           "package": "powerpc",
@@ -2005,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "XER",
           "package": "powerpc",
@@ -2018,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "assign",
           "package": "powerpc",
@@ -2027,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "assign",
           "normalized": "[Cond]-\u003eE-\u003eE-\u003eRTL()",
@@ -2041,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "cmp",
           "package": "powerpc",
@@ -2050,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "cmp",
           "normalized": "[Cond]-\u003eE-\u003eE-\u003eRTL()",
@@ -2064,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "if'",
           "package": "powerpc",
@@ -2073,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "if'",
           "normalized": "E-\u003eRTL()-\u003eRTL()-\u003eRTL()",
@@ -2087,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "stmt",
           "package": "powerpc",
@@ -2096,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "stmt",
           "normalized": "RTL()-\u003eStmt",
@@ -2110,6 +2298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.RTL",
           "name": "while",
           "package": "powerpc",
@@ -2119,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC RTL",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.RTL",
           "name": "while",
           "normalized": "E-\u003eRTL()-\u003eRTL()",
@@ -2134,6 +2324,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePowerPC instruction set simulation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "Simulator",
           "package": "powerpc",
@@ -2143,6 +2334,7 @@
         "index": {
           "description": "PowerPC instruction set simulation",
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "Simulator",
           "package": "powerpc",
@@ -2157,6 +2349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState of processor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "Machine",
           "package": "powerpc",
@@ -2166,6 +2359,7 @@
         "index": {
           "description": "State of processor",
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "Machine",
           "package": "powerpc",
@@ -2180,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemory interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "Memory",
           "package": "powerpc",
@@ -2189,6 +2384,7 @@
         "index": {
           "description": "Memory interface",
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "Memory",
           "package": "powerpc",
@@ -2202,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "Machine",
           "package": "powerpc",
@@ -2211,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "Machine",
           "package": "powerpc",
@@ -2224,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "cr",
           "package": "powerpc",
@@ -2233,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "cr",
           "package": "powerpc",
@@ -2245,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "ctr",
           "package": "powerpc",
@@ -2254,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "ctr",
           "package": "powerpc",
@@ -2266,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "fetch",
           "package": "powerpc",
@@ -2275,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "fetch",
           "normalized": "a-\u003eMachine-\u003eWord-\u003eIO Word",
@@ -2289,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "gprs",
           "package": "powerpc",
@@ -2298,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "gprs",
           "normalized": "[Word]",
@@ -2312,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "load",
           "package": "powerpc",
@@ -2321,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "load",
           "normalized": "a-\u003eWord-\u003eInt-\u003eIO[Word]",
@@ -2335,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "lr",
           "package": "powerpc",
@@ -2344,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "lr",
           "package": "powerpc",
@@ -2356,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "pc",
           "package": "powerpc",
@@ -2365,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "pc",
           "package": "powerpc",
@@ -2377,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "readMSR",
           "package": "powerpc",
@@ -2386,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "readMSR",
           "normalized": "a-\u003eIO Word",
@@ -2401,6 +2615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "readSPR",
           "package": "powerpc",
@@ -2410,6 +2625,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "readSPR",
           "normalized": "a-\u003eInt-\u003eIO Word",
@@ -2426,6 +2642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun simulation given memory and the starting address of program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "simulate",
           "package": "powerpc",
@@ -2436,6 +2653,7 @@
         "index": {
           "description": "Run simulation given memory and the starting address of program",
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "simulate",
           "normalized": "a-\u003eWord-\u003eIO()",
@@ -2450,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "store",
           "package": "powerpc",
@@ -2459,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "store",
           "normalized": "a-\u003eWord-\u003e[Word]-\u003eIO()",
@@ -2473,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "writeMSR",
           "package": "powerpc",
@@ -2482,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "writeMSR",
           "normalized": "a-\u003eWord-\u003eIO()",
@@ -2497,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "writeSPR",
           "package": "powerpc",
@@ -2506,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "writeSPR",
           "normalized": "a-\u003eInt-\u003eWord-\u003eIO()",
@@ -2521,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Simulator",
           "name": "xer",
           "package": "powerpc",
@@ -2530,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Simulator",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Simulator",
           "name": "xer",
           "package": "powerpc",
@@ -2542,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Utils",
           "name": "Utils",
           "package": "powerpc",
@@ -2550,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Utils",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Utils",
           "name": "Utils",
           "package": "powerpc",
@@ -2563,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Utils",
           "name": "clearBits",
           "package": "powerpc",
@@ -2572,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Utils",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Utils",
           "name": "clearBits",
           "normalized": "a-\u003e[Int]-\u003ea",
@@ -2587,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC.Utils",
           "name": "setBits",
           "package": "powerpc",
@@ -2596,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Language PowerPC Utils",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC.Utils",
           "name": "setBits",
           "normalized": "a-\u003e[Int]-\u003ea",
@@ -2612,6 +2844,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneral tools for PowerPC programs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:42 UTC 2014",
           "module": "Language.PowerPC",
           "name": "PowerPC",
           "package": "powerpc",
@@ -2621,6 +2854,7 @@
         "index": {
           "description": "General tools for PowerPC programs",
           "hierarchy": "Language PowerPC",
+          "indexed": "2014-03-11T19:42:42",
           "module": "Language.PowerPC",
           "name": "PowerPC",
           "package": "powerpc",

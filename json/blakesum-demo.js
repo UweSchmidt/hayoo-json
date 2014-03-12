@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blakesum-demo"
+        "phrase": "blakesum-demo",
+        "type": "phrase"
       },
       "type": "context"
     }

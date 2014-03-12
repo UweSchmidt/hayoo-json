@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "perdure"
+        "phrase": "perdure",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "Map",
           "package": "perdure",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "Map",
           "package": "perdure",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlike Data.Map, this Map does not support constant time size computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "Map",
           "package": "perdure",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Unlike Data.Map this Map does not support constant time size computation",
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "Map",
           "package": "perdure",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "assocs",
           "package": "perdure",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "assocs",
           "normalized": "Map a b-\u003e[(a,b)]",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "delete",
           "package": "perdure",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "delete",
           "normalized": "a-\u003eMap a b-\u003eMap a b",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "elems",
           "package": "perdure",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "elems",
           "normalized": "Map a b-\u003e[b]",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "empty",
           "package": "perdure",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "empty",
           "package": "perdure",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "foldlWithKey",
           "package": "perdure",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "foldlWithKey",
           "normalized": "a b c d(b-\u003ec-\u003ee-\u003eb)-\u003eb-\u003eMap c e-\u003eb",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "foldrWithKey",
           "package": "perdure",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "foldrWithKey",
           "normalized": "a b c d(c-\u003ee-\u003eb-\u003eb)-\u003eb-\u003eMap c e-\u003eb",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "fromList",
           "package": "perdure",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eMap a b",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "insert",
           "package": "perdure",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eMap a b-\u003eMap a b",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "insertWith",
           "package": "perdure",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb-\u003ea-\u003eMap b a-\u003eMap b a",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "lookup",
           "package": "perdure",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "lookup",
           "normalized": "a-\u003eMap a b-\u003eMaybe b",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "mapLens",
           "package": "perdure",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "mapLens",
           "normalized": "a-\u003eLens(Map a b)(Maybe b)",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "maxKey",
           "package": "perdure",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "maxKey",
           "normalized": "Map a b-\u003eMaybe a",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "null",
           "package": "perdure",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "null",
           "normalized": "Map a b-\u003eBool",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "scan",
           "package": "perdure",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "scan",
           "normalized": "a b c d(b-\u003ec-\u003ee)-\u003e(b-\u003ee-\u003ee-\u003ee)-\u003eMap b c-\u003eMaybe e",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "toList",
           "package": "perdure",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "toList",
           "normalized": "Map a b-\u003e[(a,b)]",
@@ -413,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral update/lookup at a single key. The State monad used supports\n non-modification. Nothing denotes the absence of a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Data.Map",
           "name": "updateM",
           "package": "perdure",
@@ -423,6 +458,7 @@
         "index": {
           "description": "General update lookup at single key The State monad used supports non-modification Nothing denotes the absence of value",
           "hierarchy": "Database Perdure Data Map",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Data.Map",
           "name": "updateM",
           "normalized": "a-\u003eState(Maybe b)c-\u003eState(Map a b)c",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Deref",
           "name": "Deref",
           "package": "perdure",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Deref",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Deref",
           "name": "Deref",
           "package": "perdure",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Deref",
           "name": "Deref",
           "package": "perdure",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Deref",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Deref",
           "name": "Deref",
           "package": "perdure",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Deref",
           "name": "deref",
           "package": "perdure",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Deref",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Deref",
           "name": "deref",
           "normalized": "a b-\u003eb",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Deref",
           "name": "derefEq",
           "package": "perdure",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Deref",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Deref",
           "name": "derefEq",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Deref",
           "name": "derefIO",
           "package": "perdure",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Deref",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Deref",
           "name": "derefIO",
           "normalized": "a b-\u003eIO b",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.History",
           "name": "History",
           "package": "perdure",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure History",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.History",
           "name": "History",
           "package": "perdure",
@@ -572,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe History type is used as the state type so as to keep some snapshots of the past, in case data is lost due to a programming error\n by the application developer. It is an homogenous collection so the argument type has to take care of versionning.\n To avoid needless reserialization of the past states, the argument type should be a Ref type.\n\u003c/p\u003e\u003cp\u003eWe keep the last n samples inserted, then n samples keeping one out of every two, \n then n samples keeping one out of every four... Currently n is hard coded to 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.History",
           "name": "History",
           "package": "perdure",
@@ -581,6 +630,7 @@
         "index": {
           "description": "The History type is used as the state type so as to keep some snapshots of the past in case data is lost due to programming error by the application developer It is an homogenous collection so the argument type has to take care of versionning To avoid needless reserialization of the past states the argument type should be Ref type We keep the last samples inserted then samples keeping one out of every two then samples keeping one out of every four Currently is hard coded to",
           "hierarchy": "Database Perdure History",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.History",
           "name": "History",
           "package": "perdure",
@@ -595,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe history is never empty, so it is safe to get the current sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.History",
           "name": "current",
           "package": "perdure",
@@ -605,6 +656,7 @@
         "index": {
           "description": "The history is never empty so it is safe to get the current sample",
           "hierarchy": "Database Perdure History",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.History",
           "name": "current",
           "normalized": "History a-\u003ea",
@@ -619,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.History",
           "name": "initial",
           "package": "perdure",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure History",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.History",
           "name": "initial",
           "normalized": "a-\u003eHistory a",
@@ -643,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a newer state to the history\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.History",
           "name": "insert",
           "package": "perdure",
@@ -653,6 +708,7 @@
         "index": {
           "description": "Add newer state to the history",
           "hierarchy": "Database Perdure History",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.History",
           "name": "insert",
           "normalized": "a-\u003eHistory a-\u003eHistory a",
@@ -668,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges a transformation on \u003ccode\u003ea\u003c/code\u003e into a transformation on 'History a'. Adds a new state into the \u003ccode\u003e\u003ca\u003eHistory\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.History",
           "name": "updateHistory",
           "package": "perdure",
@@ -678,6 +735,7 @@
         "index": {
           "description": "Changes transformation on into transformation on History Adds new state into the History",
           "hierarchy": "Database Perdure History",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.History",
           "name": "updateHistory",
           "normalized": "StateT a b c-\u003eStateT(History a)b c",
@@ -694,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges a transformation on \u003ccode\u003ea\u003c/code\u003e into a transformation on 'History a'. Adds a new state into the \u003ccode\u003e\u003ca\u003eHistory\u003c/a\u003e\u003c/code\u003e,\n unless the state has not changed. Uses \u003ccode\u003e\u003ca\u003eState\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.History",
           "name": "updateHistoryM",
           "package": "perdure",
@@ -704,6 +763,7 @@
         "index": {
           "description": "Changes transformation on into transformation on History Adds new state into the History unless the state has not changed Uses State",
           "hierarchy": "Database Perdure History",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.History",
           "name": "updateHistoryM",
           "normalized": "StateT a b c-\u003eStateT(History a)b c",
@@ -719,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "Internal",
           "package": "perdure",
@@ -727,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "Internal",
           "package": "perdure",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "Address",
           "package": "perdure",
@@ -748,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "Address",
           "package": "perdure",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "BasicRef",
           "package": "perdure",
@@ -769,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "BasicRef",
           "package": "perdure",
@@ -782,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "CRef",
           "package": "perdure",
@@ -790,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "CRef",
           "package": "perdure",
@@ -803,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "CachedFile",
           "package": "perdure",
@@ -811,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "CachedFile",
           "package": "perdure",
@@ -824,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "DeserOut",
           "package": "perdure",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "DeserOut",
           "package": "perdure",
@@ -845,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "Deserializable",
           "package": "perdure",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "Deserializable",
           "package": "perdure",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "Deserializer",
           "package": "perdure",
@@ -874,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "Deserializer",
           "package": "perdure",
@@ -887,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "MapMultiset",
           "package": "perdure",
@@ -895,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "MapMultiset",
           "package": "perdure",
@@ -909,6 +987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PState represents the whole state of the database. It is needed to perform updates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "PState",
           "package": "perdure",
@@ -918,6 +997,7 @@
         "index": {
           "description": "The PState represents the whole state of the database It is needed to perform updates",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "PState",
           "package": "perdure",
@@ -932,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoot persisted data. The \u003ccode\u003ea\u003c/code\u003e type parameter is the user persisted data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "Root",
           "package": "perdure",
@@ -941,6 +1022,7 @@
         "index": {
           "description": "Root persisted data The type parameter is the user persisted data type",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "Root",
           "package": "perdure",
@@ -954,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "RootAddress",
           "package": "perdure",
@@ -962,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "RootAddress",
           "package": "perdure",
@@ -976,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RootLocation specifies where roots are written, and provides a cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "RootLocation",
           "package": "perdure",
@@ -985,6 +1070,7 @@
         "index": {
           "description": "The RootLocation specifies where roots are written and provides cache",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "RootLocation",
           "package": "perdure",
@@ -998,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "RootValues",
           "package": "perdure",
@@ -1006,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "RootValues",
           "package": "perdure",
@@ -1019,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "SerializerContext",
           "package": "perdure",
@@ -1027,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "SerializerContext",
           "package": "perdure",
@@ -1040,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "Space",
           "package": "perdure",
@@ -1048,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "Space",
           "package": "perdure",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "SpaceBook",
           "package": "perdure",
@@ -1069,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "SpaceBook",
           "package": "perdure",
@@ -1082,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "Span",
           "package": "perdure",
@@ -1090,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "Span",
           "package": "perdure",
@@ -1103,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "StoreFile",
           "package": "perdure",
@@ -1111,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "StoreFile",
           "package": "perdure",
@@ -1124,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "SyncableStoreFile",
           "package": "perdure",
@@ -1132,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "SyncableStoreFile",
           "package": "perdure",
@@ -1146,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "Word64",
           "package": "perdure",
@@ -1154,6 +1255,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "Word64",
           "package": "perdure",
@@ -1167,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "BasicRef",
           "package": "perdure",
@@ -1176,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "BasicRef",
           "package": "perdure",
@@ -1189,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "CachedFile",
           "package": "perdure",
@@ -1198,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "CachedFile",
           "package": "perdure",
@@ -1211,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "DeserOut",
           "package": "perdure",
@@ -1220,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "DeserOut",
           "package": "perdure",
@@ -1233,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "Deserializer",
           "package": "perdure",
@@ -1242,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "Deserializer",
           "package": "perdure",
@@ -1278,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "Root",
           "package": "perdure",
@@ -1287,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "Root",
           "package": "perdure",
@@ -1300,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "RootAddress",
           "package": "perdure",
@@ -1309,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "RootAddress",
           "package": "perdure",
@@ -1322,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "RootLocation",
           "package": "perdure",
@@ -1331,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "RootLocation",
           "normalized": "RootLocation CachedFile[RootAddress]",
@@ -1346,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "RootValues",
           "package": "perdure",
@@ -1355,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "RootValues",
           "package": "perdure",
@@ -1368,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "SpaceBook",
           "package": "perdure",
@@ -1377,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "SpaceBook",
           "package": "perdure",
@@ -1413,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "addSpan",
           "package": "perdure",
@@ -1422,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "addSpan",
           "normalized": "Span-\u003ea-\u003ea",
@@ -1437,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "await0",
           "package": "perdure",
@@ -1445,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "await0",
           "normalized": "(IO()-\u003eIO a)-\u003eIO a",
@@ -1459,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "await1",
           "package": "perdure",
@@ -1467,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "await1",
           "normalized": "Async a()-\u003eIO a",
@@ -1481,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "bookCount",
           "package": "perdure",
@@ -1490,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "bookCount",
           "package": "perdure",
@@ -1503,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "bookSpace",
           "package": "perdure",
@@ -1512,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "bookSpace",
           "package": "perdure",
@@ -1525,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "cDeser",
           "package": "perdure",
@@ -1534,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "cDeser",
           "normalized": "Persister a-\u003eDeserializerContext-\u003eDeserializer Free a",
@@ -1549,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "cSer",
           "package": "perdure",
@@ -1558,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "cSer",
           "normalized": "Persister a-\u003eSerializerContext b c-\u003e(a-\u003eDest-\u003eIO d)-\u003ea-\u003eDest-\u003eIO d",
@@ -1574,6 +1708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollects the garbage accumulated by the calls to writeState. Uses reference counting: first does an increment pass on\n the current value, and then does a decrement pass on the value that was present at the last collection. Only new allocations are\n scanned in the increment pass, not what was already allocated at the last collection. The decrement pass only traverses\n the allocations that need to be deallocated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "collectState",
           "package": "perdure",
@@ -1584,6 +1719,7 @@
         "index": {
           "description": "Collects the garbage accumulated by the calls to writeState Uses reference counting first does an increment pass on the current value and then does decrement pass on the value that was present at the last collection Only new allocations are scanned in the increment pass not what was already allocated at the last collection The decrement pass only traverses the allocations that need to be deallocated",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "collectState",
           "normalized": "PState a-\u003eIO(PState a)",
@@ -1599,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "collectStateM",
           "package": "perdure",
@@ -1608,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "collectStateM",
           "normalized": "StateT(PState a)IO()",
@@ -1624,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHas effects through unsafePerformIO on the caches stored in the DRefs (removes any cache entries for the deallocated allocations).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "decr",
           "package": "perdure",
@@ -1634,6 +1773,7 @@
         "index": {
           "description": "Has effects through unsafePerformIO on the caches stored in the DRefs removes any cache entries for the deallocated allocations",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "decr",
           "normalized": "Persister a-\u003ea-\u003eSpaceBook-\u003eSpaceBook",
@@ -1648,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "deserInput",
           "package": "perdure",
@@ -1657,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "deserInput",
           "normalized": "ArrayRange(PrimArray a b)-\u003eArrayRange(PrimArray c Word)",
@@ -1672,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "deserPos",
           "package": "perdure",
@@ -1681,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "deserPos",
           "package": "perdure",
@@ -1694,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "deserValue",
           "package": "perdure",
@@ -1703,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "deserValue",
           "package": "perdure",
@@ -1716,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "deserialize",
           "package": "perdure",
@@ -1725,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "deserialize",
           "normalized": "Len Bool Word-\u003ePrimArray a Word-\u003eDeserOut b",
@@ -1739,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "deserializeFromArray",
           "package": "perdure",
@@ -1748,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "deserializeFromArray",
           "normalized": "Deserializer a b-\u003eArrayRange(PrimArray c d)-\u003eDeserOut b",
@@ -1763,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "deserializeFromFullArray",
           "package": "perdure",
@@ -1772,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "deserializeFromFullArray",
           "normalized": "Deserializer a b-\u003eArrayRange(PrimArray c d)-\u003eb",
@@ -1787,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "emptySpace",
           "package": "perdure",
@@ -1796,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "emptySpace",
           "package": "perdure",
@@ -1809,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "findSpan",
           "package": "perdure",
@@ -1818,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "findSpan",
           "normalized": "Word-\u003ea-\u003e[Span]",
@@ -1833,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "getRootAddress",
           "package": "perdure",
@@ -1842,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "getRootAddress",
           "package": "perdure",
@@ -1855,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "incr",
           "package": "perdure",
@@ -1864,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "incr",
           "normalized": "Persister a-\u003ea-\u003eSpaceBook-\u003eSpaceBook",
@@ -1879,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites an initial state (creates a new database).\n Most often the passed \u003ccode\u003ea\u003c/code\u003e will be a fresh unpersisted value. This is always safe.\n However it is legal for parts of \u003ccode\u003ea\u003c/code\u003e to be already persisted, but they must only use allocations within the passed SpaceTree.\n To read the state of an existing database use readState.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "initState",
           "package": "perdure",
@@ -1889,6 +2050,7 @@
         "index": {
           "description": "Writes an initial state creates new database Most often the passed will be fresh unpersisted value This is always safe However it is legal for parts of to be already persisted but they must only use allocations within the passed SpaceTree To read the state of an existing database use readState",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "initState",
           "normalized": "RootLocation-\u003eSpaceTree-\u003ea-\u003eIO(PState a)",
@@ -1904,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "isFreeSpace",
           "package": "perdure",
@@ -1913,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "isFreeSpace",
           "normalized": "Word-\u003ea-\u003eBool",
@@ -1953,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "prnf",
           "package": "perdure",
@@ -1962,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "prnf",
           "normalized": "Persister a-\u003ea-\u003e()",
@@ -1977,6 +2143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads the state of an existing database. It only reads the root, and the rest is lazy loaded.\n The RootLocation must match the one use when writing. On failure it returns Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "readState",
           "package": "perdure",
@@ -1987,6 +2154,7 @@
         "index": {
           "description": "Reads the state of an existing database It only reads the root and the rest is lazy loaded The RootLocation must match the one use when writing On failure it returns Nothing",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "readState",
           "normalized": "RootLocation-\u003eIO(Maybe(PState a))",
@@ -2002,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "refSize",
           "package": "perdure",
@@ -2011,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "refSize",
           "package": "perdure",
@@ -2024,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "refSpan",
           "package": "perdure",
@@ -2033,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "refSpan",
           "normalized": "BasicRef a-\u003eSpan",
@@ -2048,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "refStart",
           "package": "perdure",
@@ -2057,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "refStart",
           "package": "perdure",
@@ -2070,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "removeSpan",
           "package": "perdure",
@@ -2079,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "removeSpan",
           "normalized": "Span-\u003ea-\u003ea",
@@ -2095,6 +2271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe reserve the option of growing roots to 1MB, so use this as a minimum distance between the various RootAddress in RootLocation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "rootAllocSize",
           "package": "perdure",
@@ -2105,6 +2282,7 @@
         "index": {
           "description": "We reserve the option of growing roots to MB so use this as minimum distance between the various RootAddress in RootLocation",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "rootAllocSize",
           "package": "perdure",
@@ -2118,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "rootCS",
           "package": "perdure",
@@ -2127,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "rootCS",
           "package": "perdure",
@@ -2140,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "rootDecr",
           "package": "perdure",
@@ -2149,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "rootDecr",
           "package": "perdure",
@@ -2162,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "rootId",
           "package": "perdure",
@@ -2171,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "rootId",
           "package": "perdure",
@@ -2184,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "rootScan",
           "package": "perdure",
@@ -2193,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "rootScan",
           "package": "perdure",
@@ -2206,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "rootValue",
           "package": "perdure",
@@ -2215,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "rootValue",
           "package": "perdure",
@@ -2229,6 +2417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe passed Persister must hace no references\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "serializeToArray",
           "package": "perdure",
@@ -2239,6 +2428,7 @@
         "index": {
           "description": "The passed Persister must hace no references",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "serializeToArray",
           "normalized": "Persister a-\u003ea-\u003ePrimArray Pinned b",
@@ -2254,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "stateValue",
           "package": "perdure",
@@ -2263,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "stateValue",
           "normalized": "PState a-\u003ea",
@@ -2279,6 +2471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrevent the reordering of preceeding and subsequent read and write operations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "storeFileFullBarrier",
           "package": "perdure",
@@ -2289,6 +2482,7 @@
         "index": {
           "description": "Prevent the reordering of preceeding and subsequent read and write operations",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "storeFileFullBarrier",
           "normalized": "a-\u003eIO()",
@@ -2304,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "storeFileRead",
           "package": "perdure",
@@ -2313,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "storeFileRead",
           "normalized": "a-\u003eStoreRef a b-\u003eEndianness-\u003ec-\u003eAsync(Maybe(ArrayRange(PrimArray Pinned b)))()",
@@ -2329,6 +2525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNotify when all preceeding writes have completed, implies no barrier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "storeFileSync",
           "package": "perdure",
@@ -2339,6 +2536,7 @@
         "index": {
           "description": "Notify when all preceeding writes have completed implies no barrier",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "storeFileSync",
           "normalized": "a-\u003eIO()-\u003eIO()",
@@ -2354,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "storeFileWrite",
           "package": "perdure",
@@ -2363,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "storeFileWrite",
           "normalized": "a-\u003eLen Word Word-\u003eEndianness-\u003e[PrimArray Pinned b]-\u003eIO(StoreRef a b)",
@@ -2379,6 +2579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe passed persister must have no references\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "unsafeSeqDeserializer",
           "package": "perdure",
@@ -2389,6 +2590,7 @@
         "index": {
           "description": "The passed persister must have no references",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "unsafeSeqDeserializer",
           "normalized": "Persister a-\u003eDeserializer Free a",
@@ -2405,6 +2607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a new state if the passed state change requires it. The StateT monad used here is like the usual StateT monad but\n it has an additional \u003ccode\u003eunchanged\u003c/code\u003e case which allow us to avoid needless writes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "updateState",
           "package": "perdure",
@@ -2415,6 +2618,7 @@
         "index": {
           "description": "Writes new state if the passed state change requires it The StateT monad used here is like the usual StateT monad but it has an additional unchanged case which allow us to avoid needless writes",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "updateState",
           "normalized": "StateT a b c-\u003eStateT(PState a)b c",
@@ -2431,6 +2635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike updateState but the updater has access to the input PState throught an additional ReaderT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "updateStateRead",
           "package": "perdure",
@@ -2441,6 +2646,7 @@
         "index": {
           "description": "Like updateState but the updater has access to the input PState throught an additional ReaderT",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "updateStateRead",
           "normalized": "StateT a(ReaderT(PState a)b)c-\u003eStateT(PState a)b c",
@@ -2457,6 +2663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the current state and the new value to be written, and writes and returns a new state. Writing is strict so make sure you do\n not have cycles in the value to be written. After writing, you should no longer use the value you passed in, but instead use the\n equivalent value present in the in the returned state. That new equivalent value knows where it is stored and will be lazily loadable.\n The value just written will be partially or totally in the cache. IMPORTANT: This call overwrites the value that was in the state\n passed as input, so you should not use it after this call returns. However it is safe for this call to use it implicitly, because often\n the new value will be a function of the old one, and the strict write process will force parts of the old value to be read. If\n by accident you do use a value which was overwritten, its digests will be incorrect (with very high probability) and deref will return error.\n This calls collectState implicity once every 1000 calls. We will make this optional in future revisions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Internal",
           "name": "writeState",
           "package": "perdure",
@@ -2467,6 +2674,7 @@
         "index": {
           "description": "Takes the current state and the new value to be written and writes and returns new state Writing is strict so make sure you do not have cycles in the value to be written After writing you should no longer use the value you passed in but instead use the equivalent value present in the in the returned state That new equivalent value knows where it is stored and will be lazily loadable The value just written will be partially or totally in the cache IMPORTANT This call overwrites the value that was in the state passed as input so you should not use it after this call returns However it is safe for this call to use it implicitly because often the new value will be function of the old one and the strict write process will force parts of the old value to be read If by accident you do use value which was overwritten its digests will be incorrect with very high probability and deref will return error This calls collectState implicity once every calls We will make this optional in future revisions",
           "hierarchy": "Database Perdure Internal",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Internal",
           "name": "writeState",
           "normalized": "a-\u003ePState a-\u003eIO(PState a)",
@@ -2482,6 +2690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "Persistent",
           "package": "perdure",
@@ -2490,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "Persistent",
           "package": "perdure",
@@ -2503,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "CDRef",
           "package": "perdure",
@@ -2511,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "CDRef",
           "package": "perdure",
@@ -2524,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "CRef",
           "package": "perdure",
@@ -2532,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "CRef",
           "package": "perdure",
@@ -2545,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "Cache",
           "package": "perdure",
@@ -2553,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "Cache",
           "package": "perdure",
@@ -2566,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "DRef",
           "package": "perdure",
@@ -2574,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "DRef",
           "package": "perdure",
@@ -2587,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "DeserializerContext",
           "package": "perdure",
@@ -2595,6 +2814,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "DeserializerContext",
           "package": "perdure",
@@ -2608,6 +2828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "IRef",
           "package": "perdure",
@@ -2616,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "IRef",
           "package": "perdure",
@@ -2629,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "LgPersistent1_",
           "package": "perdure",
@@ -2637,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "LgPersistent1_",
           "package": "perdure",
@@ -2650,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "Persistent",
           "package": "perdure",
@@ -2658,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "Persistent",
           "package": "perdure",
@@ -2671,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "Persistent1",
           "package": "perdure",
@@ -2679,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "Persistent1",
           "package": "perdure",
@@ -2692,6 +2920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "Persistent1_",
           "package": "perdure",
@@ -2700,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "Persistent1_",
           "package": "perdure",
@@ -2713,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "Persister",
           "package": "perdure",
@@ -2721,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "Persister",
           "package": "perdure",
@@ -2734,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "Ref0",
           "package": "perdure",
@@ -2742,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "Ref0",
           "package": "perdure",
@@ -2755,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "RefPersistent",
           "package": "perdure",
@@ -2763,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "RefPersistent",
           "package": "perdure",
@@ -2776,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "RefPersister",
           "package": "perdure",
@@ -2784,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "RefPersister",
           "package": "perdure",
@@ -2798,6 +3036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of \u003ccode\u003e\u003ca\u003eLocalStoreFile\u003c/a\u003e\u003c/code\u003e to be used as replicates. We write to all replicates and read from the first one that reports no error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "ReplicatedFile",
           "package": "perdure",
@@ -2807,6 +3046,7 @@
         "index": {
           "description": "list of LocalStoreFile to be used as replicates We write to all replicates and read from the first one that reports no error",
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "ReplicatedFile",
           "package": "perdure",
@@ -2820,6 +3060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "WArrayRef",
           "package": "perdure",
@@ -2828,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "WArrayRef",
           "package": "perdure",
@@ -2841,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "WordArrayRef",
           "package": "perdure",
@@ -2849,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "WordArrayRef",
           "package": "perdure",
@@ -2862,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "WordNArrayRef",
           "package": "perdure",
@@ -2870,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "WordNArrayRef",
           "package": "perdure",
@@ -2883,6 +3129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "(|.)",
           "package": "perdure",
@@ -2892,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "(|.) |.",
           "normalized": "Persister a-\u003ePersister b-\u003ePersister(Either a b)",
@@ -2906,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "(&.)",
           "package": "perdure",
@@ -2915,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "(&.) &.",
           "normalized": "Persister a-\u003ePersister b-\u003ePersister(a,b)",
@@ -2930,6 +3180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialization of shortcutPersister with the \u003ccode\u003e\u003ca\u003esuper\u003c/a\u003e\u003c/code\u003e injection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "(\u003e.)",
           "package": "perdure",
@@ -2940,6 +3191,7 @@
         "index": {
           "description": "Specialization of shortcutPersister with the super injection",
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "(\u003e.) \u003e.",
           "normalized": "Persister a-\u003ePersister b-\u003ePersister a",
@@ -2954,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "CRefPersister",
           "package": "perdure",
@@ -2963,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "CRefPersister",
           "normalized": "RefPersister a-\u003eRefPersister(CRef a)",
@@ -2978,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "CRefPersister'",
           "package": "perdure",
@@ -2987,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "CRefPersister'",
           "normalized": "(RefPersister a)-\u003e(Persister(a b))-\u003ePersister(CRef a b)",
@@ -3002,6 +3258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "DRef",
           "package": "perdure",
@@ -3011,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "DRef",
           "normalized": "(Persister a)-\u003eDeserializerContext-\u003e(WArrayRef BasicRef)-\u003eDRef a",
@@ -3026,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "DRefPersister",
           "package": "perdure",
@@ -3035,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "DRefPersister",
           "package": "perdure",
@@ -3048,6 +3308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "DRefPersister'",
           "package": "perdure",
@@ -3057,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "DRefPersister'",
           "package": "perdure",
@@ -3070,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "DeserializerContext",
           "package": "perdure",
@@ -3079,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "DeserializerContext",
           "package": "perdure",
@@ -3092,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "EitherPersister",
           "package": "perdure",
@@ -3101,6 +3366,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "EitherPersister",
           "normalized": "(Persister a)-\u003e(Persister b)-\u003ePersister(Either a b)",
@@ -3116,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "IRef",
           "package": "perdure",
@@ -3125,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "IRef",
           "package": "perdure",
@@ -3138,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "IRefPersister",
           "package": "perdure",
@@ -3147,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "IRefPersister",
           "normalized": "RefPersister a-\u003eRefPersister(IRef a)",
@@ -3162,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "PairPersister",
           "package": "perdure",
@@ -3171,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "PairPersister",
           "normalized": "(Persister a)-\u003e(Persister b)-\u003ePersister(a,b)",
@@ -3186,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "PartialWordPersister",
           "package": "perdure",
@@ -3195,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "PartialWordPersister",
           "normalized": "(Len Bool Word)-\u003ePersister Word",
@@ -3210,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "Ref0",
           "package": "perdure",
@@ -3219,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "Ref0",
           "package": "perdure",
@@ -3232,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "Ref0Persister",
           "package": "perdure",
@@ -3241,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "Ref0Persister",
           "package": "perdure",
@@ -3254,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "RefView",
           "package": "perdure",
@@ -3263,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "RefView",
           "normalized": "(a b c d-\u003ee d)-\u003eRefPersister c-\u003eRefPersister e",
@@ -3278,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "SizeRefPersister",
           "package": "perdure",
@@ -3287,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "SizeRefPersister",
           "normalized": "Len Bool Word-\u003eRefPersister(Sum Ref DRef)",
@@ -3302,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "SummationPersister",
           "package": "perdure",
@@ -3311,6 +3594,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "SummationPersister",
           "normalized": "(Persister a)-\u003e(b c(b d Persister e-\u003e(e-\u003ef)-\u003eg)-\u003ea-\u003eg)-\u003e(b c(b d a-\u003ePersister e-\u003e(e-\u003ef)-\u003ee-\u003eg)-\u003ef-\u003eg)-\u003ePersister f",
@@ -3326,6 +3610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "ViewPersister",
           "package": "perdure",
@@ -3335,6 +3620,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "ViewPersister",
           "normalized": "(InjectionA' a b)-\u003ePersister b-\u003ePersister a",
@@ -3350,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "Word32ArrayRef",
           "package": "perdure",
@@ -3359,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "Word32ArrayRef",
           "package": "perdure",
@@ -3372,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "Word64ArrayRef",
           "package": "perdure",
@@ -3381,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "Word64ArrayRef",
           "package": "perdure",
@@ -3394,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "WordNArrayRef",
           "package": "perdure",
@@ -3403,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "WordNArrayRef",
           "package": "perdure",
@@ -3416,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "dcCache",
           "package": "perdure",
@@ -3425,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "dcCache",
           "package": "perdure",
@@ -3438,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "dcFile",
           "package": "perdure",
@@ -3447,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "dcFile",
           "package": "perdure",
@@ -3460,6 +3756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "getIRef",
           "package": "perdure",
@@ -3469,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "getIRef",
           "package": "perdure",
@@ -3482,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "lenPersister",
           "package": "perdure",
@@ -3491,6 +3790,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "lenPersister",
           "normalized": "Persister a-\u003ePersister(Len b a)",
@@ -3506,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "lgPersister1_",
           "package": "perdure",
@@ -3515,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "lgPersister1_",
           "package": "perdure",
@@ -3529,6 +3831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePersister for lists built from a specified element persister.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "listPersister",
           "package": "perdure",
@@ -3539,6 +3842,7 @@
         "index": {
           "description": "Persister for lists built from specified element persister",
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "listPersister",
           "normalized": "Persister(Listed a)-\u003ePersister a",
@@ -3555,6 +3859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePersister for 'Maybe a' built from a specified \u003ccode\u003ea\u003c/code\u003e persister. Uses a single bit to represent \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "maybePersister",
           "package": "perdure",
@@ -3565,6 +3870,7 @@
         "index": {
           "description": "Persister for Maybe built from specified persister Uses single bit to represent Nothing",
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "maybePersister",
           "normalized": "Persister a-\u003ePersister(Maybe a)",
@@ -3580,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "persister",
           "package": "perdure",
@@ -3589,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "persister",
           "package": "perdure",
@@ -3601,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "persister1",
           "package": "perdure",
@@ -3610,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "persister1",
           "package": "perdure",
@@ -3622,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "persister1_",
           "package": "perdure",
@@ -3631,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "persister1_",
           "package": "perdure",
@@ -3643,6 +3955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "ratioPersister",
           "package": "perdure",
@@ -3652,6 +3965,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "ratioPersister",
           "normalized": "Persister a-\u003ePersister(Ratio a)",
@@ -3667,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "refPersister",
           "package": "perdure",
@@ -3676,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "refPersister",
           "package": "perdure",
@@ -3690,6 +4006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes persisters for 2 types, and an injection from the smaller type \u003ccode\u003ea\u003c/code\u003e to the larger type \u003ccode\u003eb\u003c/code\u003e, and gives a\n persister for the larger type which uses the smaller type representation when possible, plus one bit to identify\n which representation is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "shortcutPersister",
           "package": "perdure",
@@ -3700,6 +4017,7 @@
         "index": {
           "description": "Takes persisters for types and an injection from the smaller type to the larger type and gives persister for the larger type which uses the smaller type representation when possible plus one bit to identify which representation is used",
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "shortcutPersister",
           "normalized": "a b c-\u003ePersister c-\u003ePersister b-\u003ePersister c",
@@ -3715,6 +4033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Persistent",
           "name": "summationPersister",
           "package": "perdure",
@@ -3724,6 +4043,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Persistent",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Persistent",
           "name": "summationPersister",
           "normalized": "Persister a-\u003e(b c(b d Persister e-\u003e(e-\u003ef)-\u003eg)-\u003ea-\u003eg)-\u003e(b c(b d a-\u003ePersister e-\u003e(e-\u003ef)-\u003ee-\u003eg)-\u003ef-\u003eg)-\u003ePersister f",
@@ -3739,6 +4059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Ref",
           "name": "Ref",
           "package": "perdure",
@@ -3747,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Ref",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Ref",
           "name": "Ref",
           "package": "perdure",
@@ -3760,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Ref",
           "name": "Ref",
           "package": "perdure",
@@ -3768,6 +4091,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Ref",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Ref",
           "name": "Ref",
           "package": "perdure",
@@ -3781,6 +4105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Ref",
           "name": "ref",
           "package": "perdure",
@@ -3790,6 +4115,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Ref",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Ref",
           "name": "ref",
           "normalized": "a-\u003eb a",
@@ -3804,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Ref",
           "name": "refIO",
           "package": "perdure",
@@ -3813,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Ref",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Ref",
           "name": "refIO",
           "normalized": "a-\u003eIO(b a)",
@@ -3828,6 +4156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Ref",
           "name": "refLens",
           "package": "perdure",
@@ -3837,6 +4166,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Ref",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Ref",
           "name": "refLens",
           "package": "perdure",
@@ -3850,6 +4180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Rev",
           "name": "Rev",
           "package": "perdure",
@@ -3858,6 +4189,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Rev",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Rev",
           "name": "Rev",
           "package": "perdure",
@@ -3872,6 +4204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type which is equivalent to Either, but which is persisted in an open manner which allows us to chain new\n variants on the left. As more variants are added (going from NoRev to V1 :\u003e NoRev and then to V2 :\u003e V1 :\u003e NoRev), the\n persisted representation gets expanded without breaking the representation of previous variants.\n We do not use Either because of the risk of persisting it in the standard manner and therefore losing upgradability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Rev",
           "name": ":\u003e",
           "package": "perdure",
@@ -3881,6 +4214,7 @@
         "index": {
           "description": "data type which is equivalent to Either but which is persisted in an open manner which allows us to chain new variants on the left As more variants are added going from NoRev to V1 NoRev and then to V2 V1 NoRev the persisted representation gets expanded without breaking the representation of previous variants We do not use Either because of the risk of persisting it in the standard manner and therefore losing upgradability",
           "hierarchy": "Database Perdure Rev",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Rev",
           "name": ":\u003e",
           "package": "perdure",
@@ -3894,6 +4228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn uninhabited type used as the last (rightmost) type in chains of '(:\u003e)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Rev",
           "name": "NoRev",
           "package": "perdure",
@@ -3903,6 +4238,7 @@
         "index": {
           "description": "An uninhabited type used as the last rightmost type in chains of",
           "hierarchy": "Database Perdure Rev",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Rev",
           "name": "NoRev",
           "package": "perdure",
@@ -3916,6 +4252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Rev",
           "name": "Current",
           "package": "perdure",
@@ -3925,6 +4262,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Rev",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Rev",
           "name": "Current",
           "package": "perdure",
@@ -3938,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Rev",
           "name": "Previous",
           "package": "perdure",
@@ -3947,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Rev",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Rev",
           "name": "Previous",
           "package": "perdure",
@@ -3961,6 +4301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is not a legal lens since it violates the law which says that setting back what you got must have no effect.\n Here it is almost true since the only effect it has is to upgrade to the current representation, an idempotent change\n for a semantically equivalent value.                                                             \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Rev",
           "name": "latestLens",
           "package": "perdure",
@@ -3971,6 +4312,7 @@
         "index": {
           "description": "This is not legal lens since it violates the law which says that setting back what you got must have no effect Here it is almost true since the only effect it has is to upgrade to the current representation an idempotent change for semantically equivalent value",
           "hierarchy": "Database Perdure Rev",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Rev",
           "name": "latestLens",
           "normalized": "(a-\u003eb)-\u003eLens(b a)b",
@@ -3986,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Rev",
           "name": "onNoRev",
           "package": "perdure",
@@ -3995,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Rev",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Rev",
           "name": "onNoRev",
           "normalized": "NoRev-\u003ea",
@@ -4010,6 +4354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Rev",
           "name": "onRev",
           "package": "perdure",
@@ -4019,6 +4364,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Rev",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Rev",
           "name": "onRev",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(a c)-\u003eb",
@@ -4035,6 +4381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe persister for '(:\u003e)' first writes out the numeric index, from the right, in the chain of revisions. This way the chain of alternative\n revisions can lengthen without changing the indices of past revisions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Rev",
           "name": "revPersister",
           "package": "perdure",
@@ -4045,6 +4392,7 @@
         "index": {
           "description": "The persister for first writes out the numeric index from the right in the chain of revisions This way the chain of alternative revisions can lengthen without changing the indices of past revisions",
           "hierarchy": "Database Perdure Rev",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Rev",
           "name": "revPersister",
           "package": "perdure",
@@ -4059,6 +4407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a chain of revisions to the \u003ccode\u003e\u003ca\u003eCurrent\u003c/a\u003e\u003c/code\u003e type, given a way to convert the \u003ccode\u003e\u003ca\u003ePrevious\u003c/a\u003e\u003c/code\u003e type to the \u003ccode\u003e\u003ca\u003eCurrent\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Rev",
           "name": "toCurrent",
           "package": "perdure",
@@ -4069,6 +4418,7 @@
         "index": {
           "description": "Converts chain of revisions to the Current type given way to convert the Previous type to the Current type",
           "hierarchy": "Database Perdure Rev",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Rev",
           "name": "toCurrent",
           "normalized": "(a-\u003eb)-\u003e(b a)-\u003eb",
@@ -4084,6 +4434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.Rev",
           "name": "toOnlyRev",
           "package": "perdure",
@@ -4093,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure Rev",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.Rev",
           "name": "toOnlyRev",
           "normalized": "(a NoRev)-\u003ea",
@@ -4108,6 +4460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.SizeRef",
           "name": "SizeRef",
           "package": "perdure",
@@ -4116,6 +4469,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure SizeRef",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.SizeRef",
           "name": "SizeRef",
           "package": "perdure",
@@ -4130,6 +4484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference type which automatically puts its referent is a separately loadable allocation when that\n allocation's size is greater than 2^n bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure.SizeRef",
           "name": "SizeRef",
           "package": "perdure",
@@ -4139,6 +4494,7 @@
         "index": {
           "description": "reference type which automatically puts its referent is separately loadable allocation when that allocation size is greater than bytes",
           "hierarchy": "Database Perdure SizeRef",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure.SizeRef",
           "name": "SizeRef",
           "package": "perdure",
@@ -4152,6 +4508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "Perdure",
           "package": "perdure",
@@ -4160,6 +4517,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "Perdure",
           "package": "perdure",
@@ -4174,6 +4532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file or raw device where we can persist bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "LocalStoreFile",
           "package": "perdure",
@@ -4183,6 +4542,7 @@
         "index": {
           "description": "file or raw device where we can persist bytes",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "LocalStoreFile",
           "package": "perdure",
@@ -4197,6 +4557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a persisted database. Contains a (ram-only) lock to sequence multithreaded operations,\n so only one \u003ccode\u003e\u003ca\u003ePVar\u003c/a\u003e\u003c/code\u003e must be created per \u003ccode\u003e\u003ca\u003eRootLocation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "PVar",
           "package": "perdure",
@@ -4206,6 +4567,7 @@
         "index": {
           "description": "Represents persisted database Contains ram-only lock to sequence multithreaded operations so only one PVar must be created per RootLocation",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "PVar",
           "package": "perdure",
@@ -4220,6 +4582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of \u003ccode\u003e\u003ca\u003eLocalStoreFile\u003c/a\u003e\u003c/code\u003e to be used as replicates. We write to all replicates and read from the first one that reports no error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "ReplicatedFile",
           "package": "perdure",
@@ -4229,6 +4592,7 @@
         "index": {
           "description": "list of LocalStoreFile to be used as replicates We write to all replicates and read from the first one that reports no error",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "ReplicatedFile",
           "package": "perdure",
@@ -4243,6 +4607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RootLocation specifies where roots are written, and provides a cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "RootLocation",
           "package": "perdure",
@@ -4252,6 +4617,7 @@
         "index": {
           "description": "The RootLocation specifies where roots are written and provides cache",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "RootLocation",
           "package": "perdure",
@@ -4265,6 +4631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "ReplicatedFile",
           "package": "perdure",
@@ -4274,6 +4641,7 @@
         },
         "index": {
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "ReplicatedFile",
           "normalized": "ReplicatedFile[LocalStoreFile]",
@@ -4290,6 +4658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a PVar with the specified initial state. Writes at the specified location, using the given maximum usable space (in bytes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "createPVar",
           "package": "perdure",
@@ -4300,6 +4669,7 @@
         "index": {
           "description": "Creates PVar with the specified initial state Writes at the specified location using the given maximum usable space in bytes",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "createPVar",
           "normalized": "a-\u003eWord-\u003eRootLocation-\u003eIO(PVar a)",
@@ -4316,6 +4686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt the moment this is the only way to create a rootLocation.\n The root of the database will be located in one of two reserved locations at the start of the specified files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "defaultRootLocation",
           "package": "perdure",
@@ -4326,6 +4697,7 @@
         "index": {
           "description": "At the moment this is the only way to create rootLocation The root of the database will be located in one of two reserved locations at the start of the specified files",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "defaultRootLocation",
           "normalized": "CachedFile-\u003eRootLocation",
@@ -4342,6 +4714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a ReplicatedFile with a cache of a given size. The size is specified in bytes of serialized data, but the actual consumed\n size may be a few times larger since the cache contains the deserialized data, which is often less compact than its serialized\n representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "newCachedFile",
           "package": "perdure",
@@ -4352,6 +4725,7 @@
         "index": {
           "description": "Wraps ReplicatedFile with cache of given size The size is specified in bytes of serialized data but the actual consumed size may be few times larger since the cache contains the deserialized data which is often less compact than its serialized representation",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "newCachedFile",
           "normalized": "Integer-\u003eReplicatedFile-\u003eIO CachedFile",
@@ -4368,6 +4742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to open a PVar by reading at the given \u003ccode\u003e\u003ca\u003eRootLocation\u003c/a\u003e\u003c/code\u003e. Do not open the same location multiple times, share\n the PVar instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "openPVar",
           "package": "perdure",
@@ -4378,6 +4753,7 @@
         "index": {
           "description": "Attempts to open PVar by reading at the given RootLocation Do not open the same location multiple times share the PVar instead",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "openPVar",
           "normalized": "RootLocation-\u003eIO(Maybe(PVar a))",
@@ -4394,6 +4770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function allows read access to the bookkeeping structures of the database. The \u003ccode\u003e\u003ca\u003ePState\u003c/a\u003e\u003c/code\u003e type is subject to change.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "updateInspectPVar",
           "package": "perdure",
@@ -4404,6 +4781,7 @@
         "index": {
           "description": "This function allows read access to the bookkeeping structures of the database The PState type is subject to change",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "updateInspectPVar",
           "normalized": "PVar a-\u003eStateT a(ReaderT(PState a)IO)b-\u003eIO b",
@@ -4420,6 +4798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePersist a state change\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "updatePVar",
           "package": "perdure",
@@ -4430,6 +4809,7 @@
         "index": {
           "description": "Persist state change",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "updatePVar",
           "normalized": "PVar a-\u003eStateT a IO b-\u003eIO b",
@@ -4446,6 +4826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens the specified file as a LocalStoreFile, runs the provided function and closes the file.\n Do not make concurrent calls on the same file, place concurrency in the passed function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "withFileStoreFile",
           "package": "perdure",
@@ -4456,6 +4837,7 @@
         "index": {
           "description": "Opens the specified file as LocalStoreFile runs the provided function and closes the file Do not make concurrent calls on the same file place concurrency in the passed function",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "withFileStoreFile",
           "normalized": "FilePath-\u003e(LocalStoreFile-\u003eIO a)-\u003eErrorT String IO a",
@@ -4472,6 +4854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens the specified raw device as a LocalStoreFile, runs the provided function and closes the device.\n Do not make concurrent calls on the same device, place concurrency in the passed function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "withRawDeviceStoreFile",
           "package": "perdure",
@@ -4482,6 +4865,7 @@
         "index": {
           "description": "Opens the specified raw device as LocalStoreFile runs the provided function and closes the device Do not make concurrent calls on the same device place concurrency in the passed function",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "withRawDeviceStoreFile",
           "normalized": "FilePath-\u003e(LocalStoreFile-\u003eIO a)-\u003eErrorT String IO a",
@@ -4498,6 +4882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike nesting multiple calls to \u003ccode\u003e\u003ca\u003ewithRawDeviceStoreFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:23 UTC 2014",
           "module": "Database.Perdure",
           "name": "withRawDeviceStoreFiles",
           "package": "perdure",
@@ -4508,6 +4893,7 @@
         "index": {
           "description": "Like nesting multiple calls to withRawDeviceStoreFile",
           "hierarchy": "Database Perdure",
+          "indexed": "2014-03-11T19:37:23",
           "module": "Database.Perdure",
           "name": "withRawDeviceStoreFiles",
           "normalized": "[FilePath]-\u003e([LocalStoreFile]-\u003eIO a)-\u003eErrorT String IO a",

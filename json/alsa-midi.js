@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alsa-midi"
+        "phrase": "alsa-midi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "FFI",
           "package": "alsa-midi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "FFI",
           "package": "alsa-midi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Address",
           "package": "alsa-midi",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Address",
           "package": "alsa-midi",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "ClientId",
           "package": "alsa-midi",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "ClientId",
           "package": "alsa-midi",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EnumBitPos",
           "package": "alsa-midi",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EnumBitPos",
           "package": "alsa-midi",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Event",
           "package": "alsa-midi",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Event",
           "package": "alsa-midi",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventDataUnion",
           "package": "alsa-midi",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventDataUnion",
           "package": "alsa-midi",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventLength",
           "package": "alsa-midi",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventLength",
           "package": "alsa-midi",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventType",
           "package": "alsa-midi",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventType",
           "package": "alsa-midi",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "FlagSet",
           "package": "alsa-midi",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "FlagSet",
           "package": "alsa-midi",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Open",
           "package": "alsa-midi",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Open",
           "package": "alsa-midi",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "OpenMode",
           "package": "alsa-midi",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "OpenMode",
           "package": "alsa-midi",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Port",
           "package": "alsa-midi",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Port",
           "package": "alsa-midi",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapability",
           "package": "alsa-midi",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapability",
           "package": "alsa-midi",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapabilitySet",
           "package": "alsa-midi",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapabilitySet",
           "package": "alsa-midi",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType",
           "package": "alsa-midi",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType",
           "package": "alsa-midi",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeSet",
           "package": "alsa-midi",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeSet",
           "package": "alsa-midi",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Priority",
           "package": "alsa-midi",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Priority",
           "package": "alsa-midi",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Queue",
           "package": "alsa-midi",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Queue",
           "package": "alsa-midi",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueControl",
           "package": "alsa-midi",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueControl",
           "package": "alsa-midi",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "RealTime",
           "package": "alsa-midi",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "RealTime",
           "package": "alsa-midi",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "ReturnCode",
           "package": "alsa-midi",
@@ -446,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "ReturnCode",
           "package": "alsa-midi",
@@ -459,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "T",
           "package": "alsa-midi",
@@ -467,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "T",
           "package": "alsa-midi",
@@ -479,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Tempo",
           "package": "alsa-midi",
@@ -487,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Tempo",
           "package": "alsa-midi",
@@ -500,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TickTime",
           "package": "alsa-midi",
@@ -508,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TickTime",
           "package": "alsa-midi",
@@ -521,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeMode",
           "package": "alsa-midi",
@@ -529,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeMode",
           "package": "alsa-midi",
@@ -542,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeStamp",
           "package": "alsa-midi",
@@ -550,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeStamp",
           "package": "alsa-midi",
@@ -563,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeUnit",
           "package": "alsa-midi",
@@ -571,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeUnit",
           "package": "alsa-midi",
@@ -584,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeValue",
           "package": "alsa-midi",
@@ -592,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeValue",
           "package": "alsa-midi",
@@ -605,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Address",
           "package": "alsa-midi",
@@ -614,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Address",
           "package": "alsa-midi",
@@ -627,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "ClientId",
           "package": "alsa-midi",
@@ -636,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "ClientId",
           "package": "alsa-midi",
@@ -649,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Connect",
           "package": "alsa-midi",
@@ -658,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Connect",
           "package": "alsa-midi",
@@ -671,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Cons",
           "package": "alsa-midi",
@@ -680,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Cons",
           "normalized": "Cons(Ptr())",
@@ -695,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Control",
           "package": "alsa-midi",
@@ -704,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Control",
           "package": "alsa-midi",
@@ -717,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "DataUnknown",
           "package": "alsa-midi",
@@ -726,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "DataUnknown",
           "package": "alsa-midi",
@@ -739,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EnumBitPos",
           "package": "alsa-midi",
@@ -748,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EnumBitPos",
           "package": "alsa-midi",
@@ -761,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Event",
           "package": "alsa-midi",
@@ -770,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Event",
           "package": "alsa-midi",
@@ -783,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventBounce",
           "package": "alsa-midi",
@@ -792,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventBounce",
           "package": "alsa-midi",
@@ -805,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventChannelPressure",
           "package": "alsa-midi",
@@ -814,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventChannelPressure",
           "package": "alsa-midi",
@@ -827,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventClientChange",
           "package": "alsa-midi",
@@ -836,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventClientChange",
           "package": "alsa-midi",
@@ -849,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventClientExit",
           "package": "alsa-midi",
@@ -858,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventClientExit",
           "package": "alsa-midi",
@@ -871,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventClientStart",
           "package": "alsa-midi",
@@ -880,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventClientStart",
           "package": "alsa-midi",
@@ -893,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventClock",
           "package": "alsa-midi",
@@ -902,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventClock",
           "package": "alsa-midi",
@@ -915,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventContinue",
           "package": "alsa-midi",
@@ -924,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventContinue",
           "package": "alsa-midi",
@@ -937,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventControl14",
           "package": "alsa-midi",
@@ -946,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventControl14",
           "package": "alsa-midi",
@@ -959,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventController",
           "package": "alsa-midi",
@@ -968,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventController",
           "package": "alsa-midi",
@@ -981,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventEcho",
           "package": "alsa-midi",
@@ -990,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventEcho",
           "package": "alsa-midi",
@@ -1003,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentBegin",
           "package": "alsa-midi",
@@ -1012,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentBegin",
           "package": "alsa-midi",
@@ -1025,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentChange",
           "package": "alsa-midi",
@@ -1034,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentChange",
           "package": "alsa-midi",
@@ -1047,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentCluster",
           "package": "alsa-midi",
@@ -1056,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentCluster",
           "package": "alsa-midi",
@@ -1069,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentClusterGet",
           "package": "alsa-midi",
@@ -1078,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentClusterGet",
           "package": "alsa-midi",
@@ -1091,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentClusterResult",
           "package": "alsa-midi",
@@ -1100,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentClusterResult",
           "package": "alsa-midi",
@@ -1113,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentEnd",
           "package": "alsa-midi",
@@ -1122,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentEnd",
           "package": "alsa-midi",
@@ -1135,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentFormatInfo",
           "package": "alsa-midi",
@@ -1144,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentFormatInfo",
           "package": "alsa-midi",
@@ -1157,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentFormatInfoResult",
           "package": "alsa-midi",
@@ -1166,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentFormatInfoResult",
           "package": "alsa-midi",
@@ -1179,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentFree",
           "package": "alsa-midi",
@@ -1188,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentFree",
           "package": "alsa-midi",
@@ -1201,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentGet",
           "package": "alsa-midi",
@@ -1210,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentGet",
           "package": "alsa-midi",
@@ -1223,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentGetResult",
           "package": "alsa-midi",
@@ -1232,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentGetResult",
           "package": "alsa-midi",
@@ -1245,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentInfo",
           "package": "alsa-midi",
@@ -1254,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentInfo",
           "package": "alsa-midi",
@@ -1267,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentInfoResult",
           "package": "alsa-midi",
@@ -1276,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentInfoResult",
           "package": "alsa-midi",
@@ -1289,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentList",
           "package": "alsa-midi",
@@ -1298,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentList",
           "package": "alsa-midi",
@@ -1311,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentListResult",
           "package": "alsa-midi",
@@ -1320,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentListResult",
           "package": "alsa-midi",
@@ -1333,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentPut",
           "package": "alsa-midi",
@@ -1342,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentPut",
           "package": "alsa-midi",
@@ -1355,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentReset",
           "package": "alsa-midi",
@@ -1364,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentReset",
           "package": "alsa-midi",
@@ -1377,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentStatus",
           "package": "alsa-midi",
@@ -1386,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentStatus",
           "package": "alsa-midi",
@@ -1399,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentStatusResult",
           "package": "alsa-midi",
@@ -1408,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventInstrumentStatusResult",
           "package": "alsa-midi",
@@ -1421,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventKeyPressure",
           "package": "alsa-midi",
@@ -1430,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventKeyPressure",
           "package": "alsa-midi",
@@ -1443,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventKeySign",
           "package": "alsa-midi",
@@ -1452,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventKeySign",
           "package": "alsa-midi",
@@ -1465,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventLengthFixed",
           "package": "alsa-midi",
@@ -1474,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventLengthFixed",
           "package": "alsa-midi",
@@ -1487,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventLengthVariable",
           "package": "alsa-midi",
@@ -1496,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventLengthVariable",
           "package": "alsa-midi",
@@ -1509,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventLengthVariableUser",
           "package": "alsa-midi",
@@ -1518,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventLengthVariableUser",
           "package": "alsa-midi",
@@ -1531,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventNonRegisteredParameter",
           "package": "alsa-midi",
@@ -1540,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventNonRegisteredParameter",
           "package": "alsa-midi",
@@ -1553,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventNote",
           "package": "alsa-midi",
@@ -1562,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventNote",
           "package": "alsa-midi",
@@ -1575,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventNoteOff",
           "package": "alsa-midi",
@@ -1584,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventNoteOff",
           "package": "alsa-midi",
@@ -1597,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventNoteOn",
           "package": "alsa-midi",
@@ -1606,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventNoteOn",
           "package": "alsa-midi",
@@ -1619,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventOSS",
           "package": "alsa-midi",
@@ -1628,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventOSS",
           "package": "alsa-midi",
@@ -1641,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad002",
           "package": "alsa-midi",
@@ -1650,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad002",
           "package": "alsa-midi",
@@ -1663,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad003",
           "package": "alsa-midi",
@@ -1672,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad003",
           "package": "alsa-midi",
@@ -1685,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad004",
           "package": "alsa-midi",
@@ -1694,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad004",
           "package": "alsa-midi",
@@ -1707,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad009",
           "package": "alsa-midi",
@@ -1716,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad009",
           "package": "alsa-midi",
@@ -1729,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad017",
           "package": "alsa-midi",
@@ -1738,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad017",
           "package": "alsa-midi",
@@ -1751,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad018",
           "package": "alsa-midi",
@@ -1760,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad018",
           "package": "alsa-midi",
@@ -1773,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad019",
           "package": "alsa-midi",
@@ -1782,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad019",
           "package": "alsa-midi",
@@ -1795,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad025",
           "package": "alsa-midi",
@@ -1804,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad025",
           "package": "alsa-midi",
@@ -1817,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad026",
           "package": "alsa-midi",
@@ -1826,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad026",
           "package": "alsa-midi",
@@ -1839,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad027",
           "package": "alsa-midi",
@@ -1848,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad027",
           "package": "alsa-midi",
@@ -1861,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad028",
           "package": "alsa-midi",
@@ -1870,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad028",
           "package": "alsa-midi",
@@ -1883,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad029",
           "package": "alsa-midi",
@@ -1892,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad029",
           "package": "alsa-midi",
@@ -1905,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad043",
           "package": "alsa-midi",
@@ -1914,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad043",
           "package": "alsa-midi",
@@ -1927,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad044",
           "package": "alsa-midi",
@@ -1936,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad044",
           "package": "alsa-midi",
@@ -1949,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad045",
           "package": "alsa-midi",
@@ -1958,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad045",
           "package": "alsa-midi",
@@ -1971,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad046",
           "package": "alsa-midi",
@@ -1980,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad046",
           "package": "alsa-midi",
@@ -1993,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad047",
           "package": "alsa-midi",
@@ -2002,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad047",
           "package": "alsa-midi",
@@ -2015,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad048",
           "package": "alsa-midi",
@@ -2024,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad048",
           "package": "alsa-midi",
@@ -2037,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad049",
           "package": "alsa-midi",
@@ -2046,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad049",
           "package": "alsa-midi",
@@ -2059,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad052",
           "package": "alsa-midi",
@@ -2068,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad052",
           "package": "alsa-midi",
@@ -2081,6 +2271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad053",
           "package": "alsa-midi",
@@ -2090,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad053",
           "package": "alsa-midi",
@@ -2103,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad054",
           "package": "alsa-midi",
@@ -2112,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad054",
           "package": "alsa-midi",
@@ -2125,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad055",
           "package": "alsa-midi",
@@ -2134,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad055",
           "package": "alsa-midi",
@@ -2147,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad056",
           "package": "alsa-midi",
@@ -2156,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad056",
           "package": "alsa-midi",
@@ -2169,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad057",
           "package": "alsa-midi",
@@ -2178,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad057",
           "package": "alsa-midi",
@@ -2191,6 +2391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad058",
           "package": "alsa-midi",
@@ -2200,6 +2401,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad058",
           "package": "alsa-midi",
@@ -2213,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad059",
           "package": "alsa-midi",
@@ -2222,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad059",
           "package": "alsa-midi",
@@ -2235,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad068",
           "package": "alsa-midi",
@@ -2244,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad068",
           "package": "alsa-midi",
@@ -2257,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad069",
           "package": "alsa-midi",
@@ -2266,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad069",
           "package": "alsa-midi",
@@ -2279,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad079",
           "package": "alsa-midi",
@@ -2288,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad079",
           "package": "alsa-midi",
@@ -2301,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad080",
           "package": "alsa-midi",
@@ -2310,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad080",
           "package": "alsa-midi",
@@ -2323,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad081",
           "package": "alsa-midi",
@@ -2332,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad081",
           "package": "alsa-midi",
@@ -2345,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad082",
           "package": "alsa-midi",
@@ -2354,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad082",
           "package": "alsa-midi",
@@ -2367,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad083",
           "package": "alsa-midi",
@@ -2376,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad083",
           "package": "alsa-midi",
@@ -2389,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad084",
           "package": "alsa-midi",
@@ -2398,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad084",
           "package": "alsa-midi",
@@ -2411,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad085",
           "package": "alsa-midi",
@@ -2420,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad085",
           "package": "alsa-midi",
@@ -2433,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad086",
           "package": "alsa-midi",
@@ -2442,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad086",
           "package": "alsa-midi",
@@ -2455,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad087",
           "package": "alsa-midi",
@@ -2464,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad087",
           "package": "alsa-midi",
@@ -2477,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad088",
           "package": "alsa-midi",
@@ -2486,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad088",
           "package": "alsa-midi",
@@ -2499,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad089",
           "package": "alsa-midi",
@@ -2508,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad089",
           "package": "alsa-midi",
@@ -2521,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad119",
           "package": "alsa-midi",
@@ -2530,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad119",
           "package": "alsa-midi",
@@ -2543,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad120",
           "package": "alsa-midi",
@@ -2552,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad120",
           "package": "alsa-midi",
@@ -2565,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad121",
           "package": "alsa-midi",
@@ -2574,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad121",
           "package": "alsa-midi",
@@ -2587,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad122",
           "package": "alsa-midi",
@@ -2596,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad122",
           "package": "alsa-midi",
@@ -2609,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad123",
           "package": "alsa-midi",
@@ -2618,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad123",
           "package": "alsa-midi",
@@ -2631,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad124",
           "package": "alsa-midi",
@@ -2640,6 +2881,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad124",
           "package": "alsa-midi",
@@ -2653,6 +2895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad125",
           "package": "alsa-midi",
@@ -2662,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad125",
           "package": "alsa-midi",
@@ -2675,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad126",
           "package": "alsa-midi",
@@ -2684,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad126",
           "package": "alsa-midi",
@@ -2697,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad127",
           "package": "alsa-midi",
@@ -2706,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad127",
           "package": "alsa-midi",
@@ -2719,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad128",
           "package": "alsa-midi",
@@ -2728,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad128",
           "package": "alsa-midi",
@@ -2741,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad129",
           "package": "alsa-midi",
@@ -2750,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad129",
           "package": "alsa-midi",
@@ -2763,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad132",
           "package": "alsa-midi",
@@ -2772,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad132",
           "package": "alsa-midi",
@@ -2785,6 +3039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad133",
           "package": "alsa-midi",
@@ -2794,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad133",
           "package": "alsa-midi",
@@ -2807,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad134",
           "package": "alsa-midi",
@@ -2816,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPad134",
           "package": "alsa-midi",
@@ -2829,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPitchBend",
           "package": "alsa-midi",
@@ -2838,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPitchBend",
           "package": "alsa-midi",
@@ -2851,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPortChange",
           "package": "alsa-midi",
@@ -2860,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPortChange",
           "package": "alsa-midi",
@@ -2873,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPortExit",
           "package": "alsa-midi",
@@ -2882,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPortExit",
           "package": "alsa-midi",
@@ -2895,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPortStart",
           "package": "alsa-midi",
@@ -2904,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPortStart",
           "package": "alsa-midi",
@@ -2917,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPortSubscribed",
           "package": "alsa-midi",
@@ -2926,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPortSubscribed",
           "package": "alsa-midi",
@@ -2939,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPortUnsubscribed",
           "package": "alsa-midi",
@@ -2948,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventPortUnsubscribed",
           "package": "alsa-midi",
@@ -2961,6 +3231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventProgramChange",
           "package": "alsa-midi",
@@ -2970,6 +3241,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventProgramChange",
           "package": "alsa-midi",
@@ -2983,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventQuarterFrame",
           "package": "alsa-midi",
@@ -2992,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventQuarterFrame",
           "package": "alsa-midi",
@@ -3005,6 +3279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventQueueSkew",
           "package": "alsa-midi",
@@ -3014,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventQueueSkew",
           "package": "alsa-midi",
@@ -3027,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventRegisteredParameter",
           "package": "alsa-midi",
@@ -3036,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventRegisteredParameter",
           "package": "alsa-midi",
@@ -3049,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventReset",
           "package": "alsa-midi",
@@ -3058,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventReset",
           "package": "alsa-midi",
@@ -3071,6 +3351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventResult",
           "package": "alsa-midi",
@@ -3080,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventResult",
           "package": "alsa-midi",
@@ -3093,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSample",
           "package": "alsa-midi",
@@ -3102,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSample",
           "package": "alsa-midi",
@@ -3115,6 +3399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSampleCluster",
           "package": "alsa-midi",
@@ -3124,6 +3409,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSampleCluster",
           "package": "alsa-midi",
@@ -3137,6 +3423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSampleFrequency",
           "package": "alsa-midi",
@@ -3146,6 +3433,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSampleFrequency",
           "package": "alsa-midi",
@@ -3159,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSampleLoop",
           "package": "alsa-midi",
@@ -3168,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSampleLoop",
           "package": "alsa-midi",
@@ -3181,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSamplePosition",
           "package": "alsa-midi",
@@ -3190,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSamplePosition",
           "package": "alsa-midi",
@@ -3203,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSamplePrivate1",
           "package": "alsa-midi",
@@ -3212,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSamplePrivate1",
           "package": "alsa-midi",
@@ -3225,6 +3519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSampleStart",
           "package": "alsa-midi",
@@ -3234,6 +3529,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSampleStart",
           "package": "alsa-midi",
@@ -3247,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSampleStop",
           "package": "alsa-midi",
@@ -3256,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSampleStop",
           "package": "alsa-midi",
@@ -3269,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSampleVolume",
           "package": "alsa-midi",
@@ -3278,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSampleVolume",
           "package": "alsa-midi",
@@ -3291,6 +3591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSensing",
           "package": "alsa-midi",
@@ -3300,6 +3601,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSensing",
           "package": "alsa-midi",
@@ -3313,6 +3615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSetPositionTick",
           "package": "alsa-midi",
@@ -3322,6 +3625,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSetPositionTick",
           "package": "alsa-midi",
@@ -3335,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSetPositionTime",
           "package": "alsa-midi",
@@ -3344,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSetPositionTime",
           "package": "alsa-midi",
@@ -3357,6 +3663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSongPosition",
           "package": "alsa-midi",
@@ -3366,6 +3673,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSongPosition",
           "package": "alsa-midi",
@@ -3379,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSongSelect",
           "package": "alsa-midi",
@@ -3388,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSongSelect",
           "package": "alsa-midi",
@@ -3401,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventStart",
           "package": "alsa-midi",
@@ -3410,6 +3721,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventStart",
           "package": "alsa-midi",
@@ -3423,6 +3735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventStop",
           "package": "alsa-midi",
@@ -3432,6 +3745,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventStop",
           "package": "alsa-midi",
@@ -3445,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSyncPos",
           "package": "alsa-midi",
@@ -3454,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSyncPos",
           "package": "alsa-midi",
@@ -3467,6 +3783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSystem",
           "package": "alsa-midi",
@@ -3476,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSystem",
           "package": "alsa-midi",
@@ -3489,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSystemExclusive",
           "package": "alsa-midi",
@@ -3498,6 +3817,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventSystemExclusive",
           "package": "alsa-midi",
@@ -3511,6 +3831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventTempo",
           "package": "alsa-midi",
@@ -3520,6 +3841,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventTempo",
           "package": "alsa-midi",
@@ -3533,6 +3855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventTick",
           "package": "alsa-midi",
@@ -3542,6 +3865,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventTick",
           "package": "alsa-midi",
@@ -3555,6 +3879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventTimeSign",
           "package": "alsa-midi",
@@ -3564,6 +3889,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventTimeSign",
           "package": "alsa-midi",
@@ -3577,6 +3903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventTuneRequest",
           "package": "alsa-midi",
@@ -3586,6 +3913,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventTuneRequest",
           "package": "alsa-midi",
@@ -3599,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser0",
           "package": "alsa-midi",
@@ -3608,6 +3937,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser0",
           "package": "alsa-midi",
@@ -3621,6 +3951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser1",
           "package": "alsa-midi",
@@ -3630,6 +3961,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser1",
           "package": "alsa-midi",
@@ -3643,6 +3975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser2",
           "package": "alsa-midi",
@@ -3652,6 +3985,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser2",
           "package": "alsa-midi",
@@ -3665,6 +3999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser3",
           "package": "alsa-midi",
@@ -3674,6 +4009,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser3",
           "package": "alsa-midi",
@@ -3687,6 +4023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser4",
           "package": "alsa-midi",
@@ -3696,6 +4033,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser4",
           "package": "alsa-midi",
@@ -3709,6 +4047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser5",
           "package": "alsa-midi",
@@ -3718,6 +4057,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser5",
           "package": "alsa-midi",
@@ -3731,6 +4071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser6",
           "package": "alsa-midi",
@@ -3740,6 +4081,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser6",
           "package": "alsa-midi",
@@ -3753,6 +4095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser7",
           "package": "alsa-midi",
@@ -3762,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser7",
           "package": "alsa-midi",
@@ -3775,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser8",
           "package": "alsa-midi",
@@ -3784,6 +4129,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser8",
           "package": "alsa-midi",
@@ -3797,6 +4143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser9",
           "package": "alsa-midi",
@@ -3806,6 +4153,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUser9",
           "package": "alsa-midi",
@@ -3819,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUserVar0",
           "package": "alsa-midi",
@@ -3828,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUserVar0",
           "package": "alsa-midi",
@@ -3841,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUserVar1",
           "package": "alsa-midi",
@@ -3850,6 +4201,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUserVar1",
           "package": "alsa-midi",
@@ -3863,6 +4215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUserVar2",
           "package": "alsa-midi",
@@ -3872,6 +4225,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUserVar2",
           "package": "alsa-midi",
@@ -3885,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUserVar3",
           "package": "alsa-midi",
@@ -3894,6 +4249,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUserVar3",
           "package": "alsa-midi",
@@ -3907,6 +4263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUserVar4",
           "package": "alsa-midi",
@@ -3916,6 +4273,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "EventUserVar4",
           "package": "alsa-midi",
@@ -3929,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Fixed",
           "package": "alsa-midi",
@@ -3938,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Fixed",
           "package": "alsa-midi",
@@ -3951,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "FlagSet",
           "package": "alsa-midi",
@@ -3960,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "FlagSet",
           "package": "alsa-midi",
@@ -3973,6 +4335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Note",
           "package": "alsa-midi",
@@ -3982,6 +4345,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Note",
           "package": "alsa-midi",
@@ -3995,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "OpenInput",
           "package": "alsa-midi",
@@ -4004,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "OpenInput",
           "package": "alsa-midi",
@@ -4017,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "OpenOutput",
           "package": "alsa-midi",
@@ -4026,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "OpenOutput",
           "package": "alsa-midi",
@@ -4062,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapDuplex",
           "package": "alsa-midi",
@@ -4071,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapDuplex",
           "package": "alsa-midi",
@@ -4084,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapNoExport",
           "package": "alsa-midi",
@@ -4093,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapNoExport",
           "package": "alsa-midi",
@@ -4106,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapRead",
           "package": "alsa-midi",
@@ -4115,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapRead",
           "package": "alsa-midi",
@@ -4128,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapSubsRead",
           "package": "alsa-midi",
@@ -4137,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapSubsRead",
           "package": "alsa-midi",
@@ -4150,6 +4526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapSubsWrite",
           "package": "alsa-midi",
@@ -4159,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapSubsWrite",
           "package": "alsa-midi",
@@ -4172,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapSyncRead",
           "package": "alsa-midi",
@@ -4181,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapSyncRead",
           "package": "alsa-midi",
@@ -4194,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapSyncWrite",
           "package": "alsa-midi",
@@ -4203,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapSyncWrite",
           "package": "alsa-midi",
@@ -4216,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapWrite",
           "package": "alsa-midi",
@@ -4225,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortCapWrite",
           "package": "alsa-midi",
@@ -4238,6 +4622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType06",
           "package": "alsa-midi",
@@ -4247,6 +4632,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType06",
           "package": "alsa-midi",
@@ -4260,6 +4646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType07",
           "package": "alsa-midi",
@@ -4269,6 +4656,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType07",
           "package": "alsa-midi",
@@ -4282,6 +4670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType08",
           "package": "alsa-midi",
@@ -4291,6 +4680,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType08",
           "package": "alsa-midi",
@@ -4304,6 +4694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType09",
           "package": "alsa-midi",
@@ -4313,6 +4704,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType09",
           "package": "alsa-midi",
@@ -4326,6 +4718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType13",
           "package": "alsa-midi",
@@ -4335,6 +4728,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType13",
           "package": "alsa-midi",
@@ -4348,6 +4742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType14",
           "package": "alsa-midi",
@@ -4357,6 +4752,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType14",
           "package": "alsa-midi",
@@ -4370,6 +4766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType15",
           "package": "alsa-midi",
@@ -4379,6 +4776,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType15",
           "package": "alsa-midi",
@@ -4392,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType16",
           "package": "alsa-midi",
@@ -4401,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType16",
           "package": "alsa-midi",
@@ -4414,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType17",
           "package": "alsa-midi",
@@ -4423,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType17",
           "package": "alsa-midi",
@@ -4436,6 +4838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType18",
           "package": "alsa-midi",
@@ -4445,6 +4848,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType18",
           "package": "alsa-midi",
@@ -4458,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType19",
           "package": "alsa-midi",
@@ -4467,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortType19",
           "package": "alsa-midi",
@@ -4480,6 +4886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeApplication",
           "package": "alsa-midi",
@@ -4489,6 +4896,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeApplication",
           "package": "alsa-midi",
@@ -4502,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeDirectSample",
           "package": "alsa-midi",
@@ -4511,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeDirectSample",
           "package": "alsa-midi",
@@ -4524,6 +4934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeMIDIGM",
           "package": "alsa-midi",
@@ -4533,6 +4944,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeMIDIGM",
           "package": "alsa-midi",
@@ -4546,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeMIDIGS",
           "package": "alsa-midi",
@@ -4555,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeMIDIGS",
           "package": "alsa-midi",
@@ -4568,6 +4982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeMIDIGeneric",
           "package": "alsa-midi",
@@ -4577,6 +4992,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeMIDIGeneric",
           "package": "alsa-midi",
@@ -4590,6 +5006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeMIDIMT32",
           "package": "alsa-midi",
@@ -4599,6 +5016,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeMIDIMT32",
           "package": "alsa-midi",
@@ -4612,6 +5030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeMIDIXG",
           "package": "alsa-midi",
@@ -4621,6 +5040,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeMIDIXG",
           "package": "alsa-midi",
@@ -4634,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeSample",
           "package": "alsa-midi",
@@ -4643,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeSample",
           "package": "alsa-midi",
@@ -4656,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeSpecific",
           "package": "alsa-midi",
@@ -4665,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeSpecific",
           "package": "alsa-midi",
@@ -4678,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeSynth",
           "package": "alsa-midi",
@@ -4687,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PortTypeSynth",
           "package": "alsa-midi",
@@ -4700,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PriorityHigh",
           "package": "alsa-midi",
@@ -4709,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PriorityHigh",
           "package": "alsa-midi",
@@ -4722,6 +5150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PriorityNormal",
           "package": "alsa-midi",
@@ -4731,6 +5160,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "PriorityNormal",
           "package": "alsa-midi",
@@ -4744,6 +5174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Queue",
           "package": "alsa-midi",
@@ -4753,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Queue",
           "package": "alsa-midi",
@@ -4766,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueControlData32",
           "package": "alsa-midi",
@@ -4775,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueControlData32",
           "package": "alsa-midi",
@@ -4788,6 +5222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueControlData8",
           "package": "alsa-midi",
@@ -4797,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueControlData8",
           "package": "alsa-midi",
@@ -4810,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueControlPosition",
           "package": "alsa-midi",
@@ -4819,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueControlPosition",
           "package": "alsa-midi",
@@ -4832,6 +5270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueControlTime",
           "package": "alsa-midi",
@@ -4841,6 +5280,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueControlTime",
           "package": "alsa-midi",
@@ -4854,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueControlValue",
           "package": "alsa-midi",
@@ -4863,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueControlValue",
           "package": "alsa-midi",
@@ -4876,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueEv",
           "package": "alsa-midi",
@@ -4885,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "QueueEv",
           "package": "alsa-midi",
@@ -4898,6 +5342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "RealTime",
           "package": "alsa-midi",
@@ -4907,6 +5352,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "RealTime",
           "package": "alsa-midi",
@@ -4920,6 +5366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "ReturnCode",
           "package": "alsa-midi",
@@ -4929,6 +5376,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "ReturnCode",
           "package": "alsa-midi",
@@ -4942,6 +5390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Tempo",
           "package": "alsa-midi",
@@ -4951,6 +5400,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "Tempo",
           "normalized": "Tempo(Ptr())",
@@ -4966,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TickTime",
           "package": "alsa-midi",
@@ -4975,6 +5426,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TickTime",
           "package": "alsa-midi",
@@ -4988,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeModeAbsolute",
           "package": "alsa-midi",
@@ -4997,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeModeAbsolute",
           "package": "alsa-midi",
@@ -5010,6 +5464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeModeRelative",
           "package": "alsa-midi",
@@ -5019,6 +5474,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeModeRelative",
           "package": "alsa-midi",
@@ -5032,6 +5488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeStampReal",
           "package": "alsa-midi",
@@ -5041,6 +5498,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeStampReal",
           "package": "alsa-midi",
@@ -5054,6 +5512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeStampTick",
           "package": "alsa-midi",
@@ -5063,6 +5522,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeStampTick",
           "package": "alsa-midi",
@@ -5076,6 +5536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeUnitReal",
           "package": "alsa-midi",
@@ -5085,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeUnitReal",
           "package": "alsa-midi",
@@ -5098,6 +5560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeUnitTick",
           "package": "alsa-midi",
@@ -5107,6 +5570,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "TimeUnitTick",
           "package": "alsa-midi",
@@ -5120,6 +5584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "addressTimer",
           "package": "alsa-midi",
@@ -5129,6 +5594,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "addressTimer",
           "package": "alsa-midi",
@@ -5142,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "alloc_named_queue",
           "package": "alsa-midi",
@@ -5151,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "alloc_named_queue",
           "normalized": "T-\u003eCString-\u003eIO ReturnCode",
@@ -5165,6 +5633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "alloc_queue",
           "package": "alsa-midi",
@@ -5174,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "alloc_queue",
           "normalized": "T-\u003eIO ReturnCode",
@@ -5188,6 +5658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "check",
           "package": "alsa-midi",
@@ -5197,6 +5668,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "check",
           "normalized": "String-\u003eIO ReturnCode-\u003eIO CUInt",
@@ -5211,6 +5683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "client",
           "package": "alsa-midi",
@@ -5220,6 +5693,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "client",
           "package": "alsa-midi",
@@ -5233,6 +5707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edummy ports \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "clientDummy",
           "package": "alsa-midi",
@@ -5243,6 +5718,7 @@
         "index": {
           "description": "dummy ports",
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "clientDummy",
           "package": "alsa-midi",
@@ -5257,6 +5733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOSS sequencer emulator \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "clientOSS",
           "package": "alsa-midi",
@@ -5267,6 +5744,7 @@
         "index": {
           "description": "OSS sequencer emulator",
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "clientOSS",
           "package": "alsa-midi",
@@ -5281,6 +5759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esystem client \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "clientSystem",
           "package": "alsa-midi",
@@ -5291,6 +5770,7 @@
         "index": {
           "description": "system client",
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "clientSystem",
           "package": "alsa-midi",
@@ -5304,6 +5784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "client_id",
           "package": "alsa-midi",
@@ -5313,6 +5794,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "client_id",
           "normalized": "T-\u003eClientId",
@@ -5327,6 +5809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "close",
           "package": "alsa-midi",
@@ -5336,6 +5819,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "close",
           "normalized": "T-\u003eIO ReturnCode",
@@ -5350,6 +5834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "connectDest",
           "package": "alsa-midi",
@@ -5359,6 +5844,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "connectDest",
           "package": "alsa-midi",
@@ -5372,6 +5858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "connectSender",
           "package": "alsa-midi",
@@ -5381,6 +5868,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "connectSender",
           "package": "alsa-midi",
@@ -5394,6 +5882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "controlChannel",
           "package": "alsa-midi",
@@ -5403,6 +5892,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "controlChannel",
           "package": "alsa-midi",
@@ -5416,6 +5906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "controlParameter",
           "package": "alsa-midi",
@@ -5425,6 +5916,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "controlParameter",
           "package": "alsa-midi",
@@ -5438,6 +5930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "controlValue",
           "package": "alsa-midi",
@@ -5447,6 +5940,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "controlValue",
           "package": "alsa-midi",
@@ -5460,6 +5954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "create_simple_port",
           "package": "alsa-midi",
@@ -5469,6 +5964,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "create_simple_port",
           "normalized": "T-\u003ePtr CChar-\u003ePortCapabilitySet-\u003ePortTypeSet-\u003eIO ReturnCode",
@@ -5483,6 +5979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "delete_simple_port",
           "package": "alsa-midi",
@@ -5492,6 +5989,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "delete_simple_port",
           "normalized": "T-\u003ePort-\u003eIO ReturnCode",
@@ -5506,6 +6004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "dest",
           "package": "alsa-midi",
@@ -5515,6 +6014,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "dest",
           "package": "alsa-midi",
@@ -5527,6 +6027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "drain_output",
           "package": "alsa-midi",
@@ -5536,6 +6037,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "drain_output",
           "normalized": "T-\u003eIO ReturnCode",
@@ -5550,6 +6052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "enumFromChar",
           "package": "alsa-midi",
@@ -5559,6 +6062,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "enumFromChar",
           "normalized": "CUChar-\u003ea",
@@ -5574,6 +6078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "enumToChar",
           "package": "alsa-midi",
@@ -5583,6 +6088,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "enumToChar",
           "normalized": "a-\u003eCUChar",
@@ -5598,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "eventData",
           "package": "alsa-midi",
@@ -5607,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "eventData",
           "package": "alsa-midi",
@@ -5620,6 +6128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "eventLength",
           "package": "alsa-midi",
@@ -5629,6 +6138,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "eventLength",
           "package": "alsa-midi",
@@ -5642,6 +6152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "eventLengthBit",
           "package": "alsa-midi",
@@ -5651,6 +6162,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "eventLengthBit",
           "package": "alsa-midi",
@@ -5664,6 +6176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "event_input",
           "package": "alsa-midi",
@@ -5673,6 +6186,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "event_input",
           "normalized": "T-\u003ePtr(Ptr Event)-\u003eIO ReturnCode",
@@ -5687,6 +6201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "event_output",
           "package": "alsa-midi",
@@ -5696,6 +6211,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "event_output",
           "normalized": "T-\u003ePtr Event-\u003eIO ReturnCode",
@@ -5710,6 +6226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "flagToWord",
           "package": "alsa-midi",
@@ -5719,6 +6236,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "flagToWord",
           "normalized": "a-\u003eFlagSet b a",
@@ -5734,6 +6252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "flagsToWord",
           "package": "alsa-midi",
@@ -5743,6 +6262,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "flagsToWord",
           "normalized": "[a]-\u003eFlagSet b a",
@@ -5758,6 +6278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "free_queue",
           "package": "alsa-midi",
@@ -5767,6 +6288,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "free_queue",
           "normalized": "T-\u003eQueue-\u003eIO ReturnCode",
@@ -5781,6 +6303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "get_queue_tempo",
           "package": "alsa-midi",
@@ -5790,6 +6313,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "get_queue_tempo",
           "normalized": "T-\u003eQueue-\u003eTempo-\u003eIO ReturnCode",
@@ -5804,6 +6328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "intToFlags",
           "package": "alsa-midi",
@@ -5813,6 +6338,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "intToFlags",
           "normalized": "FlagSet a b-\u003e[b]",
@@ -5828,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "isConnect",
           "package": "alsa-midi",
@@ -5837,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "isConnect",
           "normalized": "EventDataUnion-\u003eBool",
@@ -5852,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "isController",
           "package": "alsa-midi",
@@ -5861,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "isController",
           "normalized": "EventDataUnion-\u003eBool",
@@ -5876,6 +6406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "isFixed",
           "package": "alsa-midi",
@@ -5885,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "isFixed",
           "normalized": "EventDataUnion-\u003eBool",
@@ -5900,6 +6432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "isNote",
           "package": "alsa-midi",
@@ -5909,6 +6442,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "isNote",
           "normalized": "EventDataUnion-\u003eBool",
@@ -5924,6 +6458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "noteChannel",
           "package": "alsa-midi",
@@ -5933,6 +6468,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "noteChannel",
           "package": "alsa-midi",
@@ -5946,6 +6482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "noteDuration",
           "package": "alsa-midi",
@@ -5955,6 +6492,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "noteDuration",
           "package": "alsa-midi",
@@ -5968,6 +6506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "noteOffVelocity",
           "package": "alsa-midi",
@@ -5977,6 +6516,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "noteOffVelocity",
           "package": "alsa-midi",
@@ -5990,6 +6530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "notePitch",
           "package": "alsa-midi",
@@ -5999,6 +6540,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "notePitch",
           "package": "alsa-midi",
@@ -6012,6 +6554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "noteVelocity",
           "package": "alsa-midi",
@@ -6021,6 +6564,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "noteVelocity",
           "package": "alsa-midi",
@@ -6034,6 +6578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "open",
           "package": "alsa-midi",
@@ -6043,6 +6588,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "open",
           "normalized": "Ptr T-\u003eCString-\u003eOpenMode-\u003eCUInt-\u003eIO ReturnCode",
@@ -6057,6 +6603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "openDuplex",
           "package": "alsa-midi",
@@ -6066,6 +6613,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "openDuplex",
           "package": "alsa-midi",
@@ -6079,6 +6627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "openInput",
           "package": "alsa-midi",
@@ -6088,6 +6637,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "openInput",
           "package": "alsa-midi",
@@ -6101,6 +6651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "openOutput",
           "package": "alsa-midi",
@@ -6110,6 +6661,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "openOutput",
           "package": "alsa-midi",
@@ -6123,6 +6675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "packEnum",
           "package": "alsa-midi",
@@ -6132,6 +6685,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "packEnum",
           "normalized": "EnumBitPos a-\u003ea-\u003eb",
@@ -6147,6 +6701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "peekConnect",
           "package": "alsa-midi",
@@ -6156,6 +6711,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "peekConnect",
           "normalized": "Ptr EventDataUnion-\u003eIO EventDataUnion",
@@ -6171,6 +6727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "peekControl",
           "package": "alsa-midi",
@@ -6180,6 +6737,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "peekControl",
           "normalized": "Ptr EventDataUnion-\u003eIO EventDataUnion",
@@ -6195,6 +6753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "peekEventData",
           "package": "alsa-midi",
@@ -6204,6 +6763,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "peekEventData",
           "normalized": "Ptr EventDataUnion-\u003eEventType-\u003eIO EventDataUnion",
@@ -6219,6 +6779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "peekNote",
           "package": "alsa-midi",
@@ -6228,6 +6789,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "peekNote",
           "normalized": "Ptr EventDataUnion-\u003eIO EventDataUnion",
@@ -6243,6 +6805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "peekTimeStamp",
           "package": "alsa-midi",
@@ -6252,6 +6815,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "peekTimeStamp",
           "normalized": "TimeUnit-\u003ePtr TimeStamp-\u003eIO TimeStamp",
@@ -6267,6 +6831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "pokeEventData",
           "package": "alsa-midi",
@@ -6276,6 +6841,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "pokeEventData",
           "normalized": "Ptr EventDataUnion-\u003eEventDataUnion-\u003eIO()",
@@ -6291,6 +6857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "pokeQueueControl",
           "package": "alsa-midi",
@@ -6300,6 +6867,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "pokeQueueControl",
           "normalized": "Ptr QueueControl-\u003eQueueControl-\u003eIO()",
@@ -6315,6 +6883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "pokeTimeStamp",
           "package": "alsa-midi",
@@ -6324,6 +6893,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "pokeTimeStamp",
           "normalized": "Ptr TimeStamp-\u003eTimeStamp-\u003eIO TimeUnit",
@@ -6339,6 +6909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "port",
           "package": "alsa-midi",
@@ -6348,6 +6919,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "port",
           "package": "alsa-midi",
@@ -6360,6 +6932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapDuplex",
           "package": "alsa-midi",
@@ -6369,6 +6942,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapDuplex",
           "package": "alsa-midi",
@@ -6382,6 +6956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapNoExport",
           "package": "alsa-midi",
@@ -6391,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapNoExport",
           "package": "alsa-midi",
@@ -6404,6 +6980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapRead",
           "package": "alsa-midi",
@@ -6413,6 +6990,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapRead",
           "package": "alsa-midi",
@@ -6426,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapSubsRead",
           "package": "alsa-midi",
@@ -6435,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapSubsRead",
           "package": "alsa-midi",
@@ -6448,6 +7028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapSubsWrite",
           "package": "alsa-midi",
@@ -6457,6 +7038,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapSubsWrite",
           "package": "alsa-midi",
@@ -6470,6 +7052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapSyncRead",
           "package": "alsa-midi",
@@ -6479,6 +7062,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapSyncRead",
           "package": "alsa-midi",
@@ -6492,6 +7076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapSyncWrite",
           "package": "alsa-midi",
@@ -6501,6 +7086,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapSyncWrite",
           "package": "alsa-midi",
@@ -6514,6 +7100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapWrite",
           "package": "alsa-midi",
@@ -6523,6 +7110,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portCapWrite",
           "package": "alsa-midi",
@@ -6537,6 +7125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esystem announce port \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portSystemAnnounce",
           "package": "alsa-midi",
@@ -6547,6 +7136,7 @@
         "index": {
           "description": "system announce port",
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portSystemAnnounce",
           "package": "alsa-midi",
@@ -6561,6 +7151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esystem timer port \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portSystemTimer",
           "package": "alsa-midi",
@@ -6571,6 +7162,7 @@
         "index": {
           "description": "system timer port",
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portSystemTimer",
           "package": "alsa-midi",
@@ -6584,6 +7176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeApplication",
           "package": "alsa-midi",
@@ -6593,6 +7186,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeApplication",
           "package": "alsa-midi",
@@ -6606,6 +7200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeDirectSample",
           "package": "alsa-midi",
@@ -6615,6 +7210,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeDirectSample",
           "package": "alsa-midi",
@@ -6628,6 +7224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeMIDIGM",
           "package": "alsa-midi",
@@ -6637,6 +7234,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeMIDIGM",
           "package": "alsa-midi",
@@ -6650,6 +7248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeMIDIGS",
           "package": "alsa-midi",
@@ -6659,6 +7258,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeMIDIGS",
           "package": "alsa-midi",
@@ -6672,6 +7272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeMIDIGeneric",
           "package": "alsa-midi",
@@ -6681,6 +7282,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeMIDIGeneric",
           "package": "alsa-midi",
@@ -6694,6 +7296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeMIDIMT32",
           "package": "alsa-midi",
@@ -6703,6 +7306,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeMIDIMT32",
           "package": "alsa-midi",
@@ -6716,6 +7320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeMIDIXG",
           "package": "alsa-midi",
@@ -6725,6 +7330,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeMIDIXG",
           "package": "alsa-midi",
@@ -6738,6 +7344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeSample",
           "package": "alsa-midi",
@@ -6747,6 +7354,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeSample",
           "package": "alsa-midi",
@@ -6760,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeSpecific",
           "package": "alsa-midi",
@@ -6769,6 +7378,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeSpecific",
           "package": "alsa-midi",
@@ -6782,6 +7392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeSynth",
           "package": "alsa-midi",
@@ -6791,6 +7402,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "portTypeSynth",
           "package": "alsa-midi",
@@ -6804,6 +7416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "priority",
           "package": "alsa-midi",
@@ -6813,6 +7426,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "priority",
           "package": "alsa-midi",
@@ -6825,6 +7439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "priorityBit",
           "package": "alsa-midi",
@@ -6834,6 +7449,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "priorityBit",
           "package": "alsa-midi",
@@ -6847,6 +7463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queue",
           "package": "alsa-midi",
@@ -6856,6 +7473,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queue",
           "package": "alsa-midi",
@@ -6868,6 +7486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queueControl",
           "package": "alsa-midi",
@@ -6877,6 +7496,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queueControl",
           "package": "alsa-midi",
@@ -6890,6 +7510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queueDirect",
           "package": "alsa-midi",
@@ -6899,6 +7520,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queueDirect",
           "package": "alsa-midi",
@@ -6912,6 +7534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queueId",
           "package": "alsa-midi",
@@ -6921,6 +7544,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queueId",
           "package": "alsa-midi",
@@ -6934,6 +7558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queue_tempo_free",
           "package": "alsa-midi",
@@ -6943,6 +7568,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queue_tempo_free",
           "normalized": "Tempo-\u003eIO()",
@@ -6957,6 +7583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queue_tempo_malloc",
           "package": "alsa-midi",
@@ -6966,6 +7593,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queue_tempo_malloc",
           "normalized": "Ptr Tempo-\u003eIO ReturnCode",
@@ -6980,6 +7608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queue_tempo_set_ppq",
           "package": "alsa-midi",
@@ -6989,6 +7618,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queue_tempo_set_ppq",
           "normalized": "Tempo-\u003eCUInt-\u003eIO()",
@@ -7003,6 +7633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queue_tempo_set_tempo",
           "package": "alsa-midi",
@@ -7012,6 +7643,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "queue_tempo_set_tempo",
           "normalized": "Tempo-\u003eCUInt-\u003eIO()",
@@ -7027,6 +7659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom a list of expressions choose the one,\n    whose condition holds. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "select",
           "package": "alsa-midi",
@@ -7037,6 +7670,7 @@
         "index": {
           "description": "From list of expressions choose the one whose condition holds",
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "select",
           "normalized": "a-\u003e[(Bool,a)]-\u003ea",
@@ -7051,6 +7685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "set_client_name",
           "package": "alsa-midi",
@@ -7060,6 +7695,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "set_client_name",
           "normalized": "T-\u003eCString-\u003eIO()",
@@ -7074,6 +7710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "set_queue_tempo",
           "package": "alsa-midi",
@@ -7083,6 +7720,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "set_queue_tempo",
           "normalized": "T-\u003eQueue-\u003eTempo-\u003eIO ReturnCode",
@@ -7097,6 +7735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "source",
           "package": "alsa-midi",
@@ -7106,6 +7745,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "source",
           "package": "alsa-midi",
@@ -7119,6 +7759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshould be in a more general ALSA module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "str_error",
           "package": "alsa-midi",
@@ -7129,6 +7770,7 @@
         "index": {
           "description": "should be in more general ALSA module",
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "str_error",
           "normalized": "CInt-\u003eIO CString",
@@ -7143,6 +7785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "tag",
           "package": "alsa-midi",
@@ -7152,6 +7795,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "tag",
           "package": "alsa-midi",
@@ -7164,6 +7808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "time",
           "package": "alsa-midi",
@@ -7173,6 +7818,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "time",
           "package": "alsa-midi",
@@ -7185,6 +7831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "timeMode",
           "package": "alsa-midi",
@@ -7194,6 +7841,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "timeMode",
           "package": "alsa-midi",
@@ -7207,6 +7855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "timeModeBit",
           "package": "alsa-midi",
@@ -7216,6 +7865,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "timeModeBit",
           "package": "alsa-midi",
@@ -7229,6 +7879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "timeUnitBit",
           "package": "alsa-midi",
@@ -7238,6 +7889,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "timeUnitBit",
           "package": "alsa-midi",
@@ -7251,6 +7903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "tv_nsec",
           "package": "alsa-midi",
@@ -7260,6 +7913,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "tv_nsec",
           "package": "alsa-midi",
@@ -7272,6 +7926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "tv_sec",
           "package": "alsa-midi",
@@ -7281,6 +7936,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "tv_sec",
           "package": "alsa-midi",
@@ -7293,6 +7949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "tv_ticks",
           "package": "alsa-midi",
@@ -7302,6 +7959,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "tv_ticks",
           "package": "alsa-midi",
@@ -7314,6 +7972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "typ",
           "package": "alsa-midi",
@@ -7323,6 +7982,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "typ",
           "package": "alsa-midi",
@@ -7335,6 +7995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "unFlagSet",
           "package": "alsa-midi",
@@ -7344,6 +8005,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "unFlagSet",
           "package": "alsa-midi",
@@ -7357,6 +8019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "unpackEnum",
           "package": "alsa-midi",
@@ -7366,6 +8029,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "unpackEnum",
           "normalized": "a-\u003eEnumBitPos b-\u003ea-\u003eb",
@@ -7381,6 +8045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "wordToFlags",
           "package": "alsa-midi",
@@ -7390,6 +8055,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer FFI",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.FFI",
           "name": "wordToFlags",
           "normalized": "FlagSet a b-\u003e[b]",
@@ -7406,6 +8072,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIf you have the Haskore package installed,\nthen you can use this module for playing Haskore songs in realtime via ALSA.\nExample:\n\u003c/p\u003e\u003cpre\u003e Prelude\u003e Sound.ALSA.Sequencer.Play.run (Sound.ALSA.Sequencer.numAddress 128 0) (Haskore.Interface.MIDI.Render.generalMidi Haskore.Example.ChildSong6.song)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Play",
           "name": "Play",
           "package": "alsa-midi",
@@ -7415,6 +8082,7 @@
         "index": {
           "description": "If you have the Haskore package installed then you can use this module for playing Haskore songs in realtime via ALSA Example Prelude Sound.ALSA.Sequencer.Play.run Sound.ALSA.Sequencer.numAddress Haskore.Interface.MIDI.Render.generalMidi Haskore.Example.ChildSong6.song",
           "hierarchy": "Sound ALSA Sequencer Play",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.Play",
           "name": "Play",
           "package": "alsa-midi",
@@ -7428,6 +8096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer.Play",
           "name": "run",
           "package": "alsa-midi",
@@ -7437,6 +8106,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer Play",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer.Play",
           "name": "run",
           "normalized": "Address-\u003eT-\u003eIO()",
@@ -7451,6 +8121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "Sequencer",
           "package": "alsa-midi",
@@ -7459,6 +8130,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "Sequencer",
           "package": "alsa-midi",
@@ -7472,6 +8144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "Client",
           "package": "alsa-midi",
@@ -7480,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "Client",
           "package": "alsa-midi",
@@ -7493,6 +8167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "Port",
           "package": "alsa-midi",
@@ -7501,6 +8176,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "Port",
           "package": "alsa-midi",
@@ -7514,6 +8190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "createClient",
           "package": "alsa-midi",
@@ -7523,6 +8200,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "createClient",
           "normalized": "OpenMode-\u003eString-\u003eIO Client",
@@ -7538,6 +8216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "createInputPort",
           "package": "alsa-midi",
@@ -7547,6 +8226,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "createInputPort",
           "normalized": "Client-\u003eString-\u003eIO Port",
@@ -7562,6 +8242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "createOutputPort",
           "package": "alsa-midi",
@@ -7571,6 +8252,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "createOutputPort",
           "normalized": "Client-\u003eString-\u003eIO Port",
@@ -7586,6 +8268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "deleteClient",
           "package": "alsa-midi",
@@ -7595,6 +8278,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "deleteClient",
           "normalized": "Client-\u003eIO()",
@@ -7611,6 +8295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrangly ALSA returns error code 2 (No such file or directory)\nif the destination port does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "drainOutput",
           "package": "alsa-midi",
@@ -7621,6 +8306,7 @@
         "index": {
           "description": "Strangly ALSA returns error code No such file or directory if the destination port does not exist",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "drainOutput",
           "normalized": "Client-\u003eIO()",
@@ -7636,6 +8322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "eventFromChannelMsg",
           "package": "alsa-midi",
@@ -7645,6 +8332,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "eventFromChannelMsg",
           "normalized": "T-\u003e(EventType,EventDataUnion)",
@@ -7660,6 +8348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "eventFromMetaEvent",
           "package": "alsa-midi",
@@ -7669,6 +8358,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "eventFromMetaEvent",
           "normalized": "Queue-\u003eT-\u003e(EventType,EventDataUnion)",
@@ -7685,6 +8375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function checks whether the ALSA sequencer message\nis a MIDI channel message and converts to the corresponding data structure.\n\u003c/p\u003e\u003cp\u003eNote that ALSA sequencer events contain MIDI realtime messages,\nMIDI file events and additional events.\nWe do not want to define yet another data structure\nadditionally to \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e and the message types from the midi package.\nInstead, because we believe,\nthat most of the time you cope with certain types of events in bundles,\nwe provide functions that allow easy access to these types.\nCurrently we provide only access to MIDI channel messages\nbut that can be easily extended.\nMultiple handlers of certain event types can be composed using \u003ccode\u003eControl.Monad.mplus\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNoteOn events with zero velocity are not automatically converted to NoteOff events,\nthis can be done with the \u003ccode\u003eSound.MIDI.Message.Channel.Voice.explicitNoteOff\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "eventToChannelMsg",
           "package": "alsa-midi",
@@ -7695,6 +8386,7 @@
         "index": {
           "description": "This function checks whether the ALSA sequencer message is MIDI channel message and converts to the corresponding data structure Note that ALSA sequencer events contain MIDI realtime messages MIDI file events and additional events We do not want to define yet another data structure additionally to Event and the message types from the midi package Instead because we believe that most of the time you cope with certain types of events in bundles we provide functions that allow easy access to these types Currently we provide only access to MIDI channel messages but that can be easily extended Multiple handlers of certain event types can be composed using Control.Monad.mplus NoteOn events with zero velocity are not automatically converted to NoteOff events this can be done with the Sound.MIDI.Message.Channel.Voice.explicitNoteOff function",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "eventToChannelMsg",
           "normalized": "Event-\u003eMaybe T",
@@ -7710,6 +8402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "initQueueTempo",
           "package": "alsa-midi",
@@ -7719,6 +8412,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "initQueueTempo",
           "normalized": "Client-\u003eQueue-\u003eInt-\u003eInt-\u003eIO()",
@@ -7734,6 +8428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "numAddress",
           "package": "alsa-midi",
@@ -7743,6 +8438,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "numAddress",
           "normalized": "Integer-\u003eInteger-\u003eAddress",
@@ -7758,6 +8454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "numAddressEither",
           "package": "alsa-midi",
@@ -7767,6 +8464,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "numAddressEither",
           "normalized": "Integer-\u003eInteger-\u003eEither String Address",
@@ -7782,6 +8480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "portAddress",
           "package": "alsa-midi",
@@ -7791,6 +8490,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "portAddress",
           "normalized": "Client-\u003ePort-\u003eAddress",
@@ -7806,6 +8506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "receiveEvent",
           "package": "alsa-midi",
@@ -7815,6 +8516,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "receiveEvent",
           "normalized": "Client-\u003eIO(Maybe Event)",
@@ -7830,6 +8532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "sendPlainEvent",
           "package": "alsa-midi",
@@ -7839,6 +8542,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "sendPlainEvent",
           "normalized": "Client-\u003eEvent-\u003eIO()",
@@ -7855,6 +8559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess MIDI events from ALSA in a lazy manner.\nThe processing function must be strict,\nin order to let the cleanup take place after abandoning the process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "withEvents",
           "package": "alsa-midi",
@@ -7865,6 +8570,7 @@
         "index": {
           "description": "Process MIDI events from ALSA in lazy manner The processing function must be strict in order to let the cleanup take place after abandoning the process",
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "withEvents",
           "normalized": "String-\u003eString-\u003e([Event]-\u003eIO a)-\u003eIO a",
@@ -7880,6 +8586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:18 UTC 2014",
           "module": "Sound.ALSA.Sequencer",
           "name": "withNamedQueue",
           "package": "alsa-midi",
@@ -7889,6 +8596,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Sequencer",
+          "indexed": "2014-03-11T17:10:18",
           "module": "Sound.ALSA.Sequencer",
           "name": "withNamedQueue",
           "normalized": "Client-\u003eString-\u003e(Queue-\u003eIO a)-\u003eIO a",

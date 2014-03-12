@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "threads-pool"
+        "phrase": "threads-pool",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "Pool",
           "package": "threads-pool",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "Pool",
           "package": "threads-pool",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis stores all pool-related states\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "Pool",
           "package": "threads-pool",
@@ -49,6 +52,7 @@
         "index": {
           "description": "This stores all pool-related states",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "Pool",
           "package": "threads-pool",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny monadic computation that can be turned to IO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "Task",
           "package": "threads-pool",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Any monadic computation that can be turned to IO",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "Task",
           "package": "threads-pool",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if pool is waiting for new tasks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "isPoolWaiting",
           "package": "threads-pool",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Check if pool is waiting for new tasks",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "isPoolWaiting",
           "normalized": "Pool a b c-\u003eIO Bool",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new threads pool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "newPool",
           "package": "threads-pool",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Create new threads pool",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "newPool",
           "normalized": "Int-\u003eBool-\u003ea(Pool a b c)",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new threads pool in IO monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "newPoolIO",
           "package": "threads-pool",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Create new threads pool in IO monad",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "newPoolIO",
           "normalized": "Int-\u003eBool-\u003eIO(Pool a b c)",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTell to the pool that there will no new tasks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "noMoreTasks",
           "package": "threads-pool",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Tell to the pool that there will no new tasks",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "noMoreTasks",
           "normalized": "Pool a b c-\u003ea()",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTell to the pool that there will no new tasks, in IO monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "noMoreTasksIO",
           "package": "threads-pool",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Tell to the pool that there will no new tasks in IO monad",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "noMoreTasksIO",
           "normalized": "Pool a b c-\u003eIO()",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut the new task into queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "queue",
           "package": "threads-pool",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Put the new task into queue",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "queue",
           "normalized": "Pool a b c-\u003ea c-\u003eb-\u003ea Integer",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead next result from the pool.\n This makes sense only if for pool which returns results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "readResult",
           "package": "threads-pool",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Read next result from the pool This makes sense only if for pool which returns results",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "readResult",
           "normalized": "Pool a b c-\u003ea(Integer,c)",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead all results from pool and run given computation with each.\n Probably you will run this in the separate thread (using forkIO).\n This makes sense only if for pool which returns results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "resultsReader",
           "package": "threads-pool",
@@ -272,6 +293,7 @@
         "index": {
           "description": "Read all results from pool and run given computation with each Probably you will run this in the separate thread using forkIO This makes sense only if for pool which returns results",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "resultsReader",
           "normalized": "Pool a b c-\u003e(Integer-\u003ec-\u003eIO d)-\u003eIO()",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the task with given argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "runTask",
           "package": "threads-pool",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Run the task with given argument",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "runTask",
           "normalized": "a b-\u003ec-\u003eIO b",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerminate all threads in the pool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "terminatePool",
           "package": "threads-pool",
@@ -324,6 +349,7 @@
         "index": {
           "description": "Terminate all threads in the pool",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "terminatePool",
           "normalized": "Pool a b c-\u003ea()",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerminate all threads in the pool, in IO monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "terminatePoolIO",
           "package": "threads-pool",
@@ -350,6 +377,7 @@
         "index": {
           "description": "Terminate all threads in the pool in IO monad",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "terminatePoolIO",
           "normalized": "Pool a b c-\u003eIO()",
@@ -366,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until all tasks will end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "waitFor",
           "package": "threads-pool",
@@ -376,6 +405,7 @@
         "index": {
           "description": "Wait until all tasks will end",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "waitFor",
           "normalized": "Pool a b c-\u003ea()",
@@ -392,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until all tasks will end, in IO monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "waitForIO",
           "package": "threads-pool",
@@ -402,6 +433,7 @@
         "index": {
           "description": "Wait until all tasks will end in IO monad",
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "waitForIO",
           "normalized": "Pool a b c-\u003eIO()",
@@ -417,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:52 UTC 2014",
           "module": "Control.Concurrent.Pool",
           "name": "waitForTasks",
           "package": "threads-pool",
@@ -426,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Pool",
+          "indexed": "2014-03-11T20:21:52",
           "module": "Control.Concurrent.Pool",
           "name": "waitForTasks",
           "normalized": "Pool a b c-\u003e[Integer]-\u003ea()",

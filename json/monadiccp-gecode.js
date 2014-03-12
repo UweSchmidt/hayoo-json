@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monadiccp-gecode"
+        "phrase": "monadiccp-gecode",
+        "type": "phrase"
       },
       "type": "context"
     }

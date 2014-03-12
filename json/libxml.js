@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libxml"
+        "phrase": "libxml",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "Force the finalization of a document. This function is a no-op on non-ghc systems.\n",
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Internals",
           "name": "freeDocument",
           "package": "libxml",
@@ -29,6 +30,7 @@
         "index": {
           "description": "Force the finalization of document This function is no-op on non-ghc systems",
           "hierarchy": "Text XML LibXML Internals",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Internals",
           "name": "freeDocument",
           "normalized": "Document-\u003eIO()",
@@ -44,6 +46,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Internals",
           "name": "mkFinalizedDocument",
           "package": "libxml",
@@ -53,6 +56,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Internals",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Internals",
           "name": "mkFinalizedDocument",
           "normalized": "Ptr Document-\u003eIO Document",
@@ -68,6 +72,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Internals",
           "name": "mkFinalizedNode",
           "package": "libxml",
@@ -77,6 +82,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Internals",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Internals",
           "name": "mkFinalizedNode",
           "normalized": "Ptr Node-\u003eIO Node",
@@ -92,6 +98,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Internals",
           "name": "xmlFreeDoc",
           "package": "libxml",
@@ -101,6 +108,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Internals",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Internals",
           "name": "xmlFreeDoc",
           "normalized": "FunPtr(Ptr Document-\u003eIO())",
@@ -116,6 +124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Internals",
           "name": "xmlFreeNode",
           "package": "libxml",
@@ -125,6 +134,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Internals",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Internals",
           "name": "xmlFreeNode",
           "normalized": "FunPtr(Ptr Node-\u003eIO())",
@@ -140,6 +150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Parser",
           "name": "cleanupParser",
           "package": "libxml",
@@ -149,6 +160,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Parser",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Parser",
           "name": "cleanupParser",
           "normalized": "IO()",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "Parse XML document from a file. Throws an exception on error.\n",
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Parser",
           "name": "parseFile",
           "package": "libxml",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Parse XML document from file Throws an exception on error",
           "hierarchy": "Text XML LibXML Parser",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Parser",
           "name": "parseFile",
           "normalized": "FilePath-\u003ea Document",
@@ -190,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Parser",
           "name": "parseFile_",
           "package": "libxml",
@@ -199,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Parser",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Parser",
           "name": "parseFile_",
           "normalized": "FilePath-\u003ea(Maybe Document)",
@@ -214,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Parser",
           "name": "parseMemory",
           "package": "libxml",
@@ -223,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Parser",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Parser",
           "name": "parseMemory",
           "normalized": "ByteString-\u003ea Document",
@@ -238,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Parser",
           "name": "parseMemory_",
           "package": "libxml",
@@ -247,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Parser",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Parser",
           "name": "parseMemory_",
           "normalized": "ByteString-\u003ea(Maybe Document)",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "Set and return the previous value for default entity support.\n",
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Parser",
           "name": "substituteEntitiesDefault",
           "package": "libxml",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Set and return the previous value for default entity support",
           "hierarchy": "Text XML LibXML Parser",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Parser",
           "name": "substituteEntitiesDefault",
           "normalized": "Bool-\u003ea Bool",
@@ -288,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "addChild",
           "package": "libxml",
@@ -297,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "addChild",
           "normalized": "Node-\u003eNode-\u003ea()",
@@ -312,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "addSibling",
           "package": "libxml",
@@ -321,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "addSibling",
           "normalized": "Node-\u003eNode-\u003ea()",
@@ -336,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "documentDumpMemory",
           "package": "libxml",
@@ -345,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "documentDumpMemory",
           "normalized": "Document-\u003ea ByteString",
@@ -360,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "getDocumentRootElement",
           "package": "libxml",
@@ -369,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "getDocumentRootElement",
           "normalized": "Document-\u003ea Node",
@@ -384,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "newChild",
           "package": "libxml",
@@ -393,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "newChild",
           "normalized": "Node-\u003eMaybe Namespace-\u003eString-\u003eMaybe String-\u003ea Node",
@@ -409,6 +441,7 @@
       "document": {
         "description": {
           "description": "Version\n",
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "newDocument",
           "package": "libxml",
@@ -419,6 +452,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "newDocument",
           "normalized": "String-\u003ea Document",
@@ -434,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "newDocumentNode",
           "package": "libxml",
@@ -443,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "newDocumentNode",
           "normalized": "Document-\u003eMaybe Namespace-\u003eString-\u003eMaybe String-\u003ea Node",
@@ -458,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "newDocumentPI",
           "package": "libxml",
@@ -467,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "newDocumentPI",
           "normalized": "Document-\u003eString-\u003eString-\u003ea Node",
@@ -482,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "newNode",
           "package": "libxml",
@@ -491,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "newNode",
           "normalized": "Maybe Namespace-\u003eString-\u003ea Node",
@@ -506,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "newProperty",
           "package": "libxml",
@@ -515,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "newProperty",
           "normalized": "Node-\u003eString-\u003eString-\u003ea()",
@@ -530,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "newText",
           "package": "libxml",
@@ -539,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "newText",
           "normalized": "String-\u003ea Node",
@@ -554,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "newTextChild",
           "package": "libxml",
@@ -563,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "newTextChild",
           "normalized": "Node-\u003eMaybe Namespace-\u003eString-\u003eString-\u003ea Node",
@@ -578,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Tree",
           "name": "setDocumentRootElement",
           "package": "libxml",
@@ -587,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Tree",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Tree",
           "name": "setDocumentRootElement",
           "normalized": "Document-\u003eNode-\u003ea()",
@@ -602,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Types",
           "name": "Document",
           "package": "libxml",
@@ -610,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Types",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Types",
           "name": "Document",
           "package": "libxml",
@@ -623,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Types",
           "name": "Namespace",
           "package": "libxml",
@@ -631,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Types",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Types",
           "name": "Namespace",
           "package": "libxml",
@@ -644,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Types",
           "name": "Node",
           "package": "libxml",
@@ -652,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Types",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Types",
           "name": "Node",
           "package": "libxml",
@@ -665,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Types",
           "name": "Property",
           "package": "libxml",
@@ -673,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Types",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Types",
           "name": "Property",
           "package": "libxml",
@@ -686,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Types",
           "name": "withDocument",
           "package": "libxml",
@@ -695,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Types",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Types",
           "name": "withDocument",
           "normalized": "Document-\u003e(Ptr Document-\u003eIO a)-\u003eIO a",
@@ -710,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Types",
           "name": "withNamespace",
           "package": "libxml",
@@ -719,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Types",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Types",
           "name": "withNamespace",
           "normalized": "Namespace-\u003e(Ptr Namespace-\u003eIO a)-\u003eIO a",
@@ -734,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Types",
           "name": "withNode",
           "package": "libxml",
@@ -743,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Types",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Types",
           "name": "withNode",
           "normalized": "Node-\u003e(Ptr Node-\u003eIO a)-\u003eIO a",
@@ -758,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:12 UTC 2014",
           "module": "Text.XML.LibXML.Types",
           "name": "withProperty",
           "package": "libxml",
@@ -767,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Types",
+          "indexed": "2014-03-11T19:09:12",
           "module": "Text.XML.LibXML.Types",
           "name": "withProperty",
           "normalized": "Property-\u003e(Ptr Property-\u003eIO a)-\u003eIO a",

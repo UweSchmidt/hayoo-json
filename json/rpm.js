@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rpm"
+        "phrase": "rpm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003eSystem.Rpm.Combinators\u003c/code\u003e provides a mechanism for comparing\n  attributes of an Rpm against some sort of specification.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "Combinators",
           "package": "rpm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "System.Rpm.Combinators provides mechanism for comparing attributes of an Rpm against some sort of specification",
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "Combinators",
           "package": "rpm",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "Rpm",
           "package": "rpm",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "Rpm",
           "package": "rpm",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate type that takes an \u003ccode\u003e\u003ca\u003eRpmInfo\u003c/a\u003e\u003c/code\u003e datatype and returns a\nvalue of Bool depending on its evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "RpmP",
           "package": "rpm",
@@ -72,6 +77,7 @@
         "index": {
           "description": "predicate type that takes an RpmInfo datatype and returns value of Bool depending on its evaluation",
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "RpmP",
           "package": "rpm",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a logical combinator used for constructing more complex\nsequences of combinators by requiring one of the predicates to be true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "(.||.)",
           "package": "rpm",
@@ -96,6 +103,7 @@
         "index": {
           "description": "This is logical combinator used for constructing more complex sequences of combinators by requiring one of the predicates to be true",
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "(.||.) .||.",
           "normalized": "RpmP-\u003eRpmP-\u003eRpmP",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a logical combinator used for constructing more complex\nsequences of combinators by requiring both predicates to be true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "(.&&.)",
           "package": "rpm",
@@ -121,6 +130,7 @@
         "index": {
           "description": "This is logical combinator used for constructing more complex sequences of combinators by requiring both predicates to be true",
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "(.&&.) .&&.",
           "normalized": "RpmP-\u003eRpmP-\u003eRpmP",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "(./=.)",
           "package": "rpm",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "(./=.) ./=.",
           "normalized": "Rpm a-\u003ea-\u003eRpmP",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "(.\u003c=.)",
           "package": "rpm",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "(.\u003c=.) .\u003c=.",
           "normalized": "Rpm a-\u003ea-\u003eRpmP",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "(.\u003c.)",
           "package": "rpm",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "(.\u003c.) .\u003c.",
           "normalized": "Rpm a-\u003ea-\u003eRpmP",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "(.==.)",
           "package": "rpm",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "(.==.) .==.",
           "normalized": "Rpm a-\u003ea-\u003eRpmP",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "(.\u003e=.)",
           "package": "rpm",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "(.\u003e=.) .\u003e=.",
           "normalized": "Rpm a-\u003ea-\u003eRpmP",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "(.\u003e.)",
           "package": "rpm",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "(.\u003e.) .\u003e.",
           "normalized": "Rpm a-\u003ea-\u003eRpmP",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enotP\u003c/code\u003e is used to negate its \u003ccode\u003e\u003ca\u003eRpmP\u003c/a\u003e\u003c/code\u003e when run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "notP",
           "package": "rpm",
@@ -282,6 +305,7 @@
         "index": {
           "description": "notP is used to negate its RpmP when run",
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "notP",
           "normalized": "RpmP-\u003eRpmP",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "oneP",
           "package": "rpm",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "oneP",
           "package": "rpm",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezeroP\u003c/a\u003e\u003c/code\u003e combinator, much like the \u003ccode\u003e\u003ca\u003eoneP\u003c/a\u003e\u003c/code\u003e combinator, is more\nfor completeness than anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Combinators",
           "name": "zeroP",
           "package": "rpm",
@@ -326,6 +353,7 @@
         "index": {
           "description": "The zeroP combinator much like the oneP combinator is more for completeness than anything",
           "hierarchy": "System Rpm Combinators",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Combinators",
           "name": "zeroP",
           "package": "rpm",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is mainly for internal purposes and these functions\n   should not be called directly.\n   --  Remove \u003ccode\u003etestName\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "Info",
           "package": "rpm",
@@ -348,6 +377,7 @@
         "index": {
           "description": "This module is mainly for internal purposes and these functions should not be called directly Remove testName",
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "Info",
           "package": "rpm",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "RpmInfo",
           "package": "rpm",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "RpmInfo",
           "package": "rpm",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "RpmI",
           "package": "rpm",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "RpmI",
           "package": "rpm",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "buildHost",
           "package": "rpm",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "buildHost",
           "package": "rpm",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "buildTime",
           "package": "rpm",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "buildTime",
           "package": "rpm",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "description",
           "package": "rpm",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "description",
           "package": "rpm",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "name",
           "package": "rpm",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "name",
           "package": "rpm",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "release",
           "package": "rpm",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "release",
           "package": "rpm",
@@ -511,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "rpmInfoFromFile",
           "package": "rpm",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "rpmInfoFromFile",
           "normalized": "FilePath-\u003eIO(Maybe RpmInfo)",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "rpmInfoFromXml",
           "package": "rpm",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "rpmInfoFromXml",
           "normalized": "String-\u003eMaybe RpmInfo",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "size",
           "package": "rpm",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "size",
           "package": "rpm",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "summary",
           "package": "rpm",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "summary",
           "package": "rpm",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Info",
           "name": "version",
           "package": "rpm",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "System Rpm Info",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Info",
           "name": "version",
           "package": "rpm",
@@ -621,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is responsible for generating a XML representation of a Rpm.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Xml",
           "name": "Xml",
           "package": "rpm",
@@ -630,6 +685,7 @@
         "index": {
           "description": "This module is responsible for generating XML representation of Rpm",
           "hierarchy": "System Rpm Xml",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Xml",
           "name": "Xml",
           "package": "rpm",
@@ -644,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eexecuteRpm2Xml\u003c/a\u003e\u003c/code\u003e takes a path to an RPM package and generates an\n XML representation in the form of a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:36 UTC 2014",
           "module": "System.Rpm.Xml",
           "name": "executeRpm2Xml",
           "package": "rpm",
@@ -653,6 +710,7 @@
         "index": {
           "description": "executeRpm2Xml takes path to an RPM package and generates an XML representation in the form of string",
           "hierarchy": "System Rpm Xml",
+          "indexed": "2014-03-11T19:55:36",
           "module": "System.Rpm.Xml",
           "name": "executeRpm2Xml",
           "normalized": "FilePath-\u003eIO(Maybe String)",

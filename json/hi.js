@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hi"
+        "phrase": "hi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Config",
           "name": "Config",
           "package": "hi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hi Config",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Config",
           "name": "Config",
           "package": "hi",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse config file and return \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Config",
           "name": "parseConfig",
           "package": "hi",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Parse config file and return Option",
           "hierarchy": "Hi Config",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Config",
           "name": "parseConfig",
           "normalized": "String-\u003e[(String,String)]",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Directory",
           "name": "Directory",
           "package": "hi",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Hi Directory",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Directory",
           "name": "Directory",
           "package": "hi",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun callback in given directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Directory",
           "name": "inDirectory",
           "package": "hi",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Run callback in given directory",
           "hierarchy": "Hi Directory",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Directory",
           "name": "inDirectory",
           "normalized": "FilePath-\u003eIO a-\u003eIO a",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun callback in a temporary directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Directory",
           "name": "inTemporaryDirectory",
           "package": "hi",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Run callback in temporary directory",
           "hierarchy": "Hi Directory",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Directory",
           "name": "inTemporaryDirectory",
           "normalized": "String-\u003eIO a-\u003eIO a",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.FilePath",
           "name": "FilePath",
           "package": "hi",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Hi FilePath",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.FilePath",
           "name": "FilePath",
           "package": "hi",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert given path to the destination path, with given options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.FilePath",
           "name": "rewritePath",
           "package": "hi",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Convert given path to the destination path with given options",
           "hierarchy": "Hi FilePath",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.FilePath",
           "name": "rewritePath",
           "normalized": "[Option]-\u003eFilePath-\u003eFilePath",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Git",
           "name": "Git",
           "package": "hi",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Hi Git",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Git",
           "name": "Git",
           "package": "hi",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClone given repository to current directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Git",
           "name": "clone",
           "package": "hi",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Clone given repository to current directory",
           "hierarchy": "Hi Git",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Git",
           "name": "clone",
           "normalized": "String-\u003eIO ExitCode",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Git",
           "name": "expandUrl",
           "package": "hi",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Hi Git",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Git",
           "name": "expandUrl",
           "normalized": "String-\u003eString",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn file list by `git ls-files`\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Git",
           "name": "lsFiles",
           "package": "hi",
@@ -264,6 +285,7 @@
         "index": {
           "description": "Return file list by git ls-files",
           "hierarchy": "Hi Git",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Git",
           "name": "lsFiles",
           "normalized": "IO[String]",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Option",
           "name": "Option",
           "package": "hi",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Hi Option",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Option",
           "name": "Option",
           "package": "hi",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Option",
           "name": "getMode",
           "package": "hi",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Returns Mode",
           "hierarchy": "Hi Option",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Option",
           "name": "getMode",
           "package": "hi",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eOptions\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Option",
           "name": "getOptions",
           "package": "hi",
@@ -335,6 +362,7 @@
         "index": {
           "description": "Returns Options",
           "hierarchy": "Hi Option",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Option",
           "name": "getOptions",
           "normalized": "IO[Option]",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Option",
           "name": "options",
           "package": "hi",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Available options",
           "hierarchy": "Hi Option",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Option",
           "name": "options",
           "normalized": "[OptDescr Option]",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Option",
           "name": "usage",
           "package": "hi",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Hi Option",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Option",
           "name": "usage",
           "package": "hi",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Template",
           "name": "Template",
           "package": "hi",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Hi Template",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Template",
           "name": "Template",
           "package": "hi",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead templates in given \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Template",
           "name": "readTemplates",
           "package": "hi",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Read templates in given FilePath",
           "hierarchy": "Hi Template",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Template",
           "name": "readTemplates",
           "normalized": "FilePath-\u003eIO Files",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove \".template\" from \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Template",
           "name": "untemplate",
           "package": "hi",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Remove template from FilePath",
           "hierarchy": "Hi Template",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Template",
           "name": "untemplate",
           "normalized": "FilePath-\u003eFilePath",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "Types",
           "package": "hi",
@@ -476,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "Types",
           "package": "hi",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "Error",
           "package": "hi",
@@ -497,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "Error",
           "package": "hi",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "Files",
           "package": "hi",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "Files",
           "package": "hi",
@@ -531,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "Label",
           "package": "hi",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "Label",
           "package": "hi",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "Mode",
           "package": "hi",
@@ -562,6 +609,7 @@
         "index": {
           "description": "Run mode",
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "Mode",
           "package": "hi",
@@ -576,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "Option",
           "package": "hi",
@@ -585,6 +634,7 @@
         "index": {
           "description": "Options",
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "Option",
           "package": "hi",
@@ -598,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "Arg",
           "package": "hi",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "Arg",
           "package": "hi",
@@ -620,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "Help",
           "package": "hi",
@@ -629,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "Help",
           "package": "hi",
@@ -642,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "InitializeGitRepository",
           "package": "hi",
@@ -651,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "InitializeGitRepository",
           "package": "hi",
@@ -664,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "Run",
           "package": "hi",
@@ -673,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "Run",
           "package": "hi",
@@ -686,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "ShowHelp",
           "package": "hi",
@@ -695,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "ShowHelp",
           "package": "hi",
@@ -708,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "ShowVersion",
           "package": "hi",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "ShowVersion",
           "package": "hi",
@@ -730,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Types",
           "name": "Version",
           "package": "hi",
@@ -739,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Hi Types",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Types",
           "name": "Version",
           "package": "hi",
@@ -752,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Utils",
           "name": "Utils",
           "package": "hi",
@@ -760,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Hi Utils",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Utils",
           "name": "Utils",
           "package": "hi",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Utils",
           "name": "lookupArg",
           "package": "hi",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Hi Utils",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Utils",
           "name": "lookupArg",
           "normalized": "String-\u003e[Option]-\u003eMaybe String",
@@ -797,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Version",
           "name": "Version",
           "package": "hi",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Hi Version",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Version",
           "name": "Version",
           "package": "hi",
@@ -818,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi.Version",
           "name": "version",
           "package": "hi",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Hi Version",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi.Version",
           "name": "version",
           "package": "hi",
@@ -839,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi",
           "name": "Hi",
           "package": "hi",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Hi",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi",
           "name": "Hi",
           "package": "hi",
@@ -861,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess given \u003ccode\u003e\u003ca\u003eFiles\u003c/a\u003e\u003c/code\u003e and return result. it does\n\u003c/p\u003e\u003col\u003e\u003cli\u003e rewrite path\n\u003c/li\u003e\u003cli\u003e substitute arguments\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi",
           "name": "process",
           "package": "hi",
@@ -871,6 +946,7 @@
         "index": {
           "description": "Process given Files and return result it does rewrite path substitute arguments",
           "hierarchy": "Hi",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi",
           "name": "process",
           "normalized": "[Option]-\u003eFiles-\u003eFiles",
@@ -886,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun \u003ccode\u003ehi\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:45 UTC 2014",
           "module": "Hi",
           "name": "run",
           "package": "hi",
@@ -896,6 +973,7 @@
         "index": {
           "description": "Run hi",
           "hierarchy": "Hi",
+          "indexed": "2014-03-11T18:38:45",
           "module": "Hi",
           "name": "run",
           "normalized": "[Option]-\u003eIO()",

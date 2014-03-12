@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nettle-netkit"
+        "phrase": "nettle-netkit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides facilities for easily creating Netkit (\u003ca\u003ehttp://wiki.netkit.org/index.php/Main_Page\u003c/a\u003e) labs  \n to experiment with OpenFlow switches and controllers. \n This module provides a notation for describing simple \n OpenFlow-based network topologies, and provides a command\n that generates a NetKit lab that can be used to simulate the\n network.\n\u003c/p\u003e\u003cp\u003eTo use this module, describe the configuration of your test network, including\n hosts, switches and their interconnectivity using the functions in this module (see the example below), \n and then run one of the \u003ccode\u003emakeLab\u003c/code\u003e commands to generate the Netkit files needed to run the lab.\n You can then move into the directory containing the Netkit lab and start the lab using Netkit commands \n (e.g. \u003ccode\u003elstart\u003c/code\u003e).\n The generated lab will include hosts and switches, but not a controller. \n The lab will setup a TAP interface with subnet 10.0.0.0/8 from the switch virtual machines to the host on which you started the lab, \n and the switches will attempt to contact a controller with IP address 10.0.0.1 over that TAP interface, at the server port mentioned in the lab.\n You can then control the switches by starting a controller on the host at the specified port. See the example below for more details.\n\u003c/p\u003e\u003cp\u003eThe generated lab is designed to work with a customized netkit file system that \n has OpenFlow software in a particular location. Instructions for obtaining this file\n system are here \u003ca\u003ehttp://haskell.cs.yale.edu/?page_id=383\u003c/a\u003e; see the last instruction in the section on Installing on Your Own Machine. \n The generator (i.e. \u003ccode\u003emakeLab\u003c/code\u003e) must know the location of this file in order to generate the Netkit lab files. \n The default options assume the files are in the user's \u003ccode\u003e~/.nettle\u003c/code\u003e directory, but they can be placed in other locations as well. \n If they are in another location, then the Lab options must be set appropriately. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "LabUtil",
           "package": "nettle-netkit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides facilities for easily creating Netkit http wiki.netkit.org index.php Main Page labs to experiment with OpenFlow switches and controllers This module provides notation for describing simple OpenFlow-based network topologies and provides command that generates NetKit lab that can be used to simulate the network To use this module describe the configuration of your test network including hosts switches and their interconnectivity using the functions in this module see the example below and then run one of the makeLab commands to generate the Netkit files needed to run the lab You can then move into the directory containing the Netkit lab and start the lab using Netkit commands e.g lstart The generated lab will include hosts and switches but not controller The lab will setup TAP interface with subnet from the switch virtual machines to the host on which you started the lab and the switches will attempt to contact controller with IP address over that TAP interface at the server port mentioned in the lab You can then control the switches by starting controller on the host at the specified port See the example below for more details The generated lab is designed to work with customized netkit file system that has OpenFlow software in particular location Instructions for obtaining this file system are here http haskell.cs.yale.edu page id see the last instruction in the section on Installing on Your Own Machine The generator i.e makeLab must know the location of this file in order to generate the Netkit lab files The default options assume the files are in the user nettle directory but they can be placed in other locations as well If they are in another location then the Lab options must be set appropriately",
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "LabUtil",
           "package": "nettle-netkit",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "ControllerTCPPort",
           "package": "nettle-netkit",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "ControllerTCPPort",
           "package": "nettle-netkit",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Host",
           "package": "nettle-netkit",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Host",
           "package": "nettle-netkit",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Interface",
           "package": "nettle-netkit",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Interface",
           "package": "nettle-netkit",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "LabConfig",
           "package": "nettle-netkit",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "LabConfig",
           "package": "nettle-netkit",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumerated data type representing OpenFlow versions supported by \n this module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "OpenFlowVersion",
           "package": "nettle-netkit",
@@ -135,6 +146,7 @@
         "index": {
           "description": "An enumerated data type representing OpenFlow versions supported by this module",
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "OpenFlowVersion",
           "package": "nettle-netkit",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype for specifying lab options, including the paths to the kernel and filesystem\n used by netkit machines, as well as the OpenFlow version of the reference switch software.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Options",
           "package": "nettle-netkit",
@@ -158,6 +171,7 @@
         "index": {
           "description": "datatype for specifying lab options including the paths to the kernel and filesystem used by netkit machines as well as the OpenFlow version of the reference switch software",
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Options",
           "package": "nettle-netkit",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Port",
           "package": "nettle-netkit",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Port",
           "package": "nettle-netkit",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Switch",
           "package": "nettle-netkit",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Switch",
           "package": "nettle-netkit",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "SwitchPort",
           "package": "nettle-netkit",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "SwitchPort",
           "package": "nettle-netkit",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenotes a SwitchPort, i.e. a port on a switch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "(#)",
           "package": "nettle-netkit",
@@ -245,6 +266,7 @@
         "index": {
           "description": "Denotes SwitchPort i.e port on switch",
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "(#) #",
           "normalized": "Switch-\u003ePort-\u003eSwitchPort",
@@ -260,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenotes a link (switch-to-switch) connection.          \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "(\u003c--\u003e)",
           "package": "nettle-netkit",
@@ -270,6 +293,7 @@
         "index": {
           "description": "Denotes link switch-to-switch connection",
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "(\u003c--\u003e) \u003c--\u003e",
           "normalized": "SwitchPort-\u003eSwitchPort-\u003e(SwitchPort,SwitchPort)",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenotes where a host is attached to the network of switches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "(@@)",
           "package": "nettle-netkit",
@@ -295,6 +320,7 @@
         "index": {
           "description": "Denotes where host is attached to the network of switches",
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "(@@) @@",
           "normalized": "(Host,Interface)-\u003eSwitchPort-\u003e((Host,Interface),SwitchPort)",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Host",
           "package": "nettle-netkit",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Host",
           "package": "nettle-netkit",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Interface",
           "package": "nettle-netkit",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Interface",
           "package": "nettle-netkit",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "LabConfig",
           "package": "nettle-netkit",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "LabConfig",
           "package": "nettle-netkit",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Options",
           "package": "nettle-netkit",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Options",
           "package": "nettle-netkit",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Port",
           "package": "nettle-netkit",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Port",
           "package": "nettle-netkit",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Switch",
           "package": "nettle-netkit",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Switch",
           "package": "nettle-netkit",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Ver0_9_0",
           "package": "nettle-netkit",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Ver0_9_0",
           "package": "nettle-netkit",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Ver1_0_0",
           "package": "nettle-netkit",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "Ver1_0_0",
           "package": "nettle-netkit",
@@ -486,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TCP port number at which the controller will listen for switch connections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "controllerServerPort",
           "package": "nettle-netkit",
@@ -496,6 +539,7 @@
         "index": {
           "description": "The TCP port number at which the controller will listen for switch connections",
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "controllerServerPort",
           "package": "nettle-netkit",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "getDefaultOptions",
           "package": "nettle-netkit",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "getDefaultOptions",
           "normalized": "OpenFlowVersion-\u003eIO Options",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "host",
           "package": "nettle-netkit",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "host",
           "normalized": "Int-\u003eHost",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "hostID",
           "package": "nettle-netkit",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "hostID",
           "package": "nettle-netkit",
@@ -579,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of where the host interfaces are attached to switches in the network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "hosts",
           "package": "nettle-netkit",
@@ -589,6 +640,7 @@
         "index": {
           "description": "description of where the host interfaces are attached to switches in the network",
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "hosts",
           "normalized": "[((Host,Interface),SwitchPort)]",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "interfaceID",
           "package": "nettle-netkit",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "interfaceID",
           "package": "nettle-netkit",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "interfaceIPAddress",
           "package": "nettle-netkit",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "interfaceIPAddress",
           "package": "nettle-netkit",
@@ -648,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of how switches are connected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "links",
           "package": "nettle-netkit",
@@ -658,6 +715,7 @@
         "index": {
           "description": "description of how switches are connected",
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "links",
           "normalized": "[(SwitchPort,SwitchPort)]",
@@ -673,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emakeLabWithDefaults path options lab\u003c/code\u003e is a command that writes the files and\n directories needed to run a Netkit lab that implements the description provided by \u003ccode\u003elab\u003c/code\u003e. \n It writes the files to directory \u003ccode\u003epath\u003c/code\u003e, and the options are specified by \u003ccode\u003eoptions\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "makeLab",
           "package": "nettle-netkit",
@@ -683,6 +742,7 @@
         "index": {
           "description": "makeLabWithDefaults path options lab is command that writes the files and directories needed to run Netkit lab that implements the description provided by lab It writes the files to directory path and the options are specified by options",
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "makeLab",
           "normalized": "FilePath-\u003eOptions-\u003eLabConfig-\u003eIO()",
@@ -699,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emakeLabWithDefaults path version lab\u003c/code\u003e is a command that writes the files and\n directories needed to run a Netkit lab that implements the description provided by \u003ccode\u003elab\u003c/code\u003e. \n It writes the files to directory \u003ccode\u003epath\u003c/code\u003e, and the switches will run the OpenFlow reference\n switch software for OpenFlow version \u003ccode\u003eversion\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "makeLabWithDefaults",
           "package": "nettle-netkit",
@@ -709,6 +770,7 @@
         "index": {
           "description": "makeLabWithDefaults path version lab is command that writes the files and directories needed to run Netkit lab that implements the description provided by lab It writes the files to directory path and the switches will run the OpenFlow reference switch software for OpenFlow version version",
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "makeLabWithDefaults",
           "normalized": "FilePath-\u003eOpenFlowVersion-\u003eLabConfig-\u003eIO()",
@@ -724,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "openFlowVersion",
           "package": "nettle-netkit",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "openFlowVersion",
           "package": "nettle-netkit",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "pathToFileSystem",
           "package": "nettle-netkit",
@@ -755,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "pathToFileSystem",
           "package": "nettle-netkit",
@@ -768,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "pathToKernel",
           "package": "nettle-netkit",
@@ -777,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "pathToKernel",
           "package": "nettle-netkit",
@@ -790,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "port",
           "package": "nettle-netkit",
@@ -799,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "port",
           "normalized": "PortID-\u003ePort",
@@ -813,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "switch",
           "package": "nettle-netkit",
@@ -822,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "switch",
           "normalized": "SwitchID-\u003eSwitch",
@@ -837,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitches for this lab\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.LabUtil",
           "name": "switches",
           "package": "nettle-netkit",
@@ -847,6 +920,7 @@
         "index": {
           "description": "Switches for this lab",
           "hierarchy": "Nettle Netkit LabUtil",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.LabUtil",
           "name": "switches",
           "normalized": "[Switch]",
@@ -862,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple, purely functional implementation of union-find. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.UnionFind",
           "name": "UnionFind",
           "package": "nettle-netkit",
@@ -871,6 +946,7 @@
         "index": {
           "description": "simple purely functional implementation of union-find",
           "hierarchy": "Nettle Netkit UnionFind",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.UnionFind",
           "name": "UnionFind",
           "package": "nettle-netkit",
@@ -884,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.UnionFind",
           "name": "Partition",
           "package": "nettle-netkit",
@@ -892,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit UnionFind",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.UnionFind",
           "name": "Partition",
           "package": "nettle-netkit",
@@ -905,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.UnionFind",
           "name": "discretePartition",
           "package": "nettle-netkit",
@@ -914,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit UnionFind",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.UnionFind",
           "name": "discretePartition",
           "normalized": "[a]-\u003ePartition a",
@@ -929,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.UnionFind",
           "name": "finestPartition",
           "package": "nettle-netkit",
@@ -938,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit UnionFind",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.UnionFind",
           "name": "finestPartition",
           "normalized": "[(a,a)]-\u003ePartition a",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:11 UTC 2014",
           "module": "Nettle.Netkit.UnionFind",
           "name": "unionParts",
           "package": "nettle-netkit",
@@ -962,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Nettle Netkit UnionFind",
+          "indexed": "2014-03-11T19:27:11",
           "module": "Nettle.Netkit.UnionFind",
           "name": "unionParts",
           "normalized": "a-\u003ea-\u003ePartition a-\u003ePartition a",

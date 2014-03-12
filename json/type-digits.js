@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-digits"
+        "phrase": "type-digits",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe parameters for the \u003ccode\u003etype-digits\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Aux",
           "name": "Aux",
           "package": "type-digits",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The parameters for the type-digits package",
           "hierarchy": "Type Digits Aux",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Aux",
           "name": "Aux",
           "package": "type-digits",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Aux",
           "name": "Proxy",
           "package": "type-digits",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Aux",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Aux",
           "name": "Proxy",
           "package": "type-digits",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Aux",
           "name": "Proxy",
           "package": "type-digits",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Aux",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Aux",
           "name": "Proxy",
           "package": "type-digits",
@@ -136,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level numerals built from type-level digits of an arbitrary radix.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "Stage0",
           "package": "type-digits",
@@ -145,6 +152,7 @@
         "index": {
           "description": "Type-level numerals built from type-level digits of an arbitrary radix",
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "Stage0",
           "package": "type-digits",
@@ -158,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "Digit",
           "package": "type-digits",
@@ -166,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "Digit",
           "package": "type-digits",
@@ -179,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "DigitStop",
           "package": "type-digits",
@@ -188,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "DigitStop",
           "package": "type-digits",
@@ -201,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T00",
           "package": "type-digits",
@@ -210,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T00",
           "package": "type-digits",
@@ -222,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T01",
           "package": "type-digits",
@@ -231,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T01",
           "package": "type-digits",
@@ -243,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T02",
           "package": "type-digits",
@@ -252,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T02",
           "package": "type-digits",
@@ -264,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T03",
           "package": "type-digits",
@@ -273,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T03",
           "package": "type-digits",
@@ -285,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T04",
           "package": "type-digits",
@@ -294,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T04",
           "package": "type-digits",
@@ -306,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T05",
           "package": "type-digits",
@@ -315,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T05",
           "package": "type-digits",
@@ -327,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T06",
           "package": "type-digits",
@@ -336,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T06",
           "package": "type-digits",
@@ -348,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T07",
           "package": "type-digits",
@@ -357,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T07",
           "package": "type-digits",
@@ -369,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T08",
           "package": "type-digits",
@@ -378,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T08",
           "package": "type-digits",
@@ -390,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T09",
           "package": "type-digits",
@@ -399,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T09",
           "package": "type-digits",
@@ -411,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T0A",
           "package": "type-digits",
@@ -420,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T0A",
           "package": "type-digits",
@@ -432,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T0B",
           "package": "type-digits",
@@ -441,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T0B",
           "package": "type-digits",
@@ -453,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T0C",
           "package": "type-digits",
@@ -462,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T0C",
           "package": "type-digits",
@@ -474,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T0D",
           "package": "type-digits",
@@ -483,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T0D",
           "package": "type-digits",
@@ -495,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T0E",
           "package": "type-digits",
@@ -504,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T0E",
           "package": "type-digits",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T0F",
           "package": "type-digits",
@@ -525,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T0F",
           "package": "type-digits",
@@ -537,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T10",
           "package": "type-digits",
@@ -546,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T10",
           "package": "type-digits",
@@ -558,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T11",
           "package": "type-digits",
@@ -567,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T11",
           "package": "type-digits",
@@ -579,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T12",
           "package": "type-digits",
@@ -588,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T12",
           "package": "type-digits",
@@ -600,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T13",
           "package": "type-digits",
@@ -609,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T13",
           "package": "type-digits",
@@ -621,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T14",
           "package": "type-digits",
@@ -630,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T14",
           "package": "type-digits",
@@ -642,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T15",
           "package": "type-digits",
@@ -651,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T15",
           "package": "type-digits",
@@ -663,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T16",
           "package": "type-digits",
@@ -672,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T16",
           "package": "type-digits",
@@ -684,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T17",
           "package": "type-digits",
@@ -693,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T17",
           "package": "type-digits",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T18",
           "package": "type-digits",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T18",
           "package": "type-digits",
@@ -726,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T19",
           "package": "type-digits",
@@ -735,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T19",
           "package": "type-digits",
@@ -747,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T1A",
           "package": "type-digits",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T1A",
           "package": "type-digits",
@@ -768,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T1B",
           "package": "type-digits",
@@ -777,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T1B",
           "package": "type-digits",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T1C",
           "package": "type-digits",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T1C",
           "package": "type-digits",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T1D",
           "package": "type-digits",
@@ -819,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T1D",
           "package": "type-digits",
@@ -831,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T1E",
           "package": "type-digits",
@@ -840,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T1E",
           "package": "type-digits",
@@ -852,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T1F",
           "package": "type-digits",
@@ -861,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T1F",
           "package": "type-digits",
@@ -873,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T20",
           "package": "type-digits",
@@ -882,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T20",
           "package": "type-digits",
@@ -894,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T21",
           "package": "type-digits",
@@ -903,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T21",
           "package": "type-digits",
@@ -915,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T22",
           "package": "type-digits",
@@ -924,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T22",
           "package": "type-digits",
@@ -936,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T23",
           "package": "type-digits",
@@ -945,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T23",
           "package": "type-digits",
@@ -957,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T24",
           "package": "type-digits",
@@ -966,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T24",
           "package": "type-digits",
@@ -978,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T25",
           "package": "type-digits",
@@ -987,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T25",
           "package": "type-digits",
@@ -999,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T26",
           "package": "type-digits",
@@ -1008,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T26",
           "package": "type-digits",
@@ -1020,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T27",
           "package": "type-digits",
@@ -1029,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T27",
           "package": "type-digits",
@@ -1041,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T28",
           "package": "type-digits",
@@ -1050,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T28",
           "package": "type-digits",
@@ -1062,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T29",
           "package": "type-digits",
@@ -1071,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T29",
           "package": "type-digits",
@@ -1083,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T2A",
           "package": "type-digits",
@@ -1092,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T2A",
           "package": "type-digits",
@@ -1104,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T2B",
           "package": "type-digits",
@@ -1113,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T2B",
           "package": "type-digits",
@@ -1125,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T2C",
           "package": "type-digits",
@@ -1134,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T2C",
           "package": "type-digits",
@@ -1146,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T2D",
           "package": "type-digits",
@@ -1155,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T2D",
           "package": "type-digits",
@@ -1167,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T2E",
           "package": "type-digits",
@@ -1176,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T2E",
           "package": "type-digits",
@@ -1188,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T2F",
           "package": "type-digits",
@@ -1197,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T2F",
           "package": "type-digits",
@@ -1209,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T30",
           "package": "type-digits",
@@ -1218,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T30",
           "package": "type-digits",
@@ -1230,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T31",
           "package": "type-digits",
@@ -1239,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T31",
           "package": "type-digits",
@@ -1251,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T32",
           "package": "type-digits",
@@ -1260,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T32",
           "package": "type-digits",
@@ -1272,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T33",
           "package": "type-digits",
@@ -1281,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T33",
           "package": "type-digits",
@@ -1293,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T34",
           "package": "type-digits",
@@ -1302,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T34",
           "package": "type-digits",
@@ -1314,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T35",
           "package": "type-digits",
@@ -1323,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T35",
           "package": "type-digits",
@@ -1335,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T36",
           "package": "type-digits",
@@ -1344,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T36",
           "package": "type-digits",
@@ -1356,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T37",
           "package": "type-digits",
@@ -1365,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T37",
           "package": "type-digits",
@@ -1377,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T38",
           "package": "type-digits",
@@ -1386,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T38",
           "package": "type-digits",
@@ -1398,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T39",
           "package": "type-digits",
@@ -1407,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T39",
           "package": "type-digits",
@@ -1419,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T3A",
           "package": "type-digits",
@@ -1428,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T3A",
           "package": "type-digits",
@@ -1440,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T3B",
           "package": "type-digits",
@@ -1449,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T3B",
           "package": "type-digits",
@@ -1461,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T3C",
           "package": "type-digits",
@@ -1470,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T3C",
           "package": "type-digits",
@@ -1482,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T3D",
           "package": "type-digits",
@@ -1491,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T3D",
           "package": "type-digits",
@@ -1503,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T3E",
           "package": "type-digits",
@@ -1512,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T3E",
           "package": "type-digits",
@@ -1524,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T3F",
           "package": "type-digits",
@@ -1533,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T3F",
           "package": "type-digits",
@@ -1545,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T40",
           "package": "type-digits",
@@ -1554,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T40",
           "package": "type-digits",
@@ -1566,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T41",
           "package": "type-digits",
@@ -1575,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T41",
           "package": "type-digits",
@@ -1587,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T42",
           "package": "type-digits",
@@ -1596,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T42",
           "package": "type-digits",
@@ -1608,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T43",
           "package": "type-digits",
@@ -1617,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T43",
           "package": "type-digits",
@@ -1629,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T44",
           "package": "type-digits",
@@ -1638,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T44",
           "package": "type-digits",
@@ -1650,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T45",
           "package": "type-digits",
@@ -1659,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T45",
           "package": "type-digits",
@@ -1671,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T46",
           "package": "type-digits",
@@ -1680,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T46",
           "package": "type-digits",
@@ -1692,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T47",
           "package": "type-digits",
@@ -1701,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T47",
           "package": "type-digits",
@@ -1713,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T48",
           "package": "type-digits",
@@ -1722,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T48",
           "package": "type-digits",
@@ -1734,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T49",
           "package": "type-digits",
@@ -1743,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T49",
           "package": "type-digits",
@@ -1755,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T4A",
           "package": "type-digits",
@@ -1764,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T4A",
           "package": "type-digits",
@@ -1776,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T4B",
           "package": "type-digits",
@@ -1785,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T4B",
           "package": "type-digits",
@@ -1797,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T4C",
           "package": "type-digits",
@@ -1806,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T4C",
           "package": "type-digits",
@@ -1818,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T4D",
           "package": "type-digits",
@@ -1827,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T4D",
           "package": "type-digits",
@@ -1839,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T4E",
           "package": "type-digits",
@@ -1848,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T4E",
           "package": "type-digits",
@@ -1860,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T4F",
           "package": "type-digits",
@@ -1869,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T4F",
           "package": "type-digits",
@@ -1881,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T50",
           "package": "type-digits",
@@ -1890,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T50",
           "package": "type-digits",
@@ -1902,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T51",
           "package": "type-digits",
@@ -1911,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T51",
           "package": "type-digits",
@@ -1923,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T52",
           "package": "type-digits",
@@ -1932,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T52",
           "package": "type-digits",
@@ -1944,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T53",
           "package": "type-digits",
@@ -1953,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T53",
           "package": "type-digits",
@@ -1965,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T54",
           "package": "type-digits",
@@ -1974,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T54",
           "package": "type-digits",
@@ -1986,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T55",
           "package": "type-digits",
@@ -1995,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T55",
           "package": "type-digits",
@@ -2007,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T56",
           "package": "type-digits",
@@ -2016,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T56",
           "package": "type-digits",
@@ -2028,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T57",
           "package": "type-digits",
@@ -2037,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T57",
           "package": "type-digits",
@@ -2049,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T58",
           "package": "type-digits",
@@ -2058,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T58",
           "package": "type-digits",
@@ -2070,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T59",
           "package": "type-digits",
@@ -2079,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T59",
           "package": "type-digits",
@@ -2091,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T5A",
           "package": "type-digits",
@@ -2100,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T5A",
           "package": "type-digits",
@@ -2112,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T5B",
           "package": "type-digits",
@@ -2121,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T5B",
           "package": "type-digits",
@@ -2133,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T5C",
           "package": "type-digits",
@@ -2142,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T5C",
           "package": "type-digits",
@@ -2154,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T5D",
           "package": "type-digits",
@@ -2163,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T5D",
           "package": "type-digits",
@@ -2175,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T5E",
           "package": "type-digits",
@@ -2184,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T5E",
           "package": "type-digits",
@@ -2196,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T5F",
           "package": "type-digits",
@@ -2205,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T5F",
           "package": "type-digits",
@@ -2217,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T60",
           "package": "type-digits",
@@ -2226,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T60",
           "package": "type-digits",
@@ -2238,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T61",
           "package": "type-digits",
@@ -2247,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T61",
           "package": "type-digits",
@@ -2259,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T62",
           "package": "type-digits",
@@ -2268,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T62",
           "package": "type-digits",
@@ -2280,6 +2490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T63",
           "package": "type-digits",
@@ -2289,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T63",
           "package": "type-digits",
@@ -2301,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T64",
           "package": "type-digits",
@@ -2310,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T64",
           "package": "type-digits",
@@ -2322,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T65",
           "package": "type-digits",
@@ -2331,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T65",
           "package": "type-digits",
@@ -2343,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T66",
           "package": "type-digits",
@@ -2352,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T66",
           "package": "type-digits",
@@ -2364,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T67",
           "package": "type-digits",
@@ -2373,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T67",
           "package": "type-digits",
@@ -2385,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T68",
           "package": "type-digits",
@@ -2394,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T68",
           "package": "type-digits",
@@ -2406,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T69",
           "package": "type-digits",
@@ -2415,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T69",
           "package": "type-digits",
@@ -2427,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T6A",
           "package": "type-digits",
@@ -2436,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T6A",
           "package": "type-digits",
@@ -2448,6 +2674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T6B",
           "package": "type-digits",
@@ -2457,6 +2684,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T6B",
           "package": "type-digits",
@@ -2469,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T6C",
           "package": "type-digits",
@@ -2478,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T6C",
           "package": "type-digits",
@@ -2490,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T6D",
           "package": "type-digits",
@@ -2499,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T6D",
           "package": "type-digits",
@@ -2511,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T6E",
           "package": "type-digits",
@@ -2520,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T6E",
           "package": "type-digits",
@@ -2532,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T6F",
           "package": "type-digits",
@@ -2541,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T6F",
           "package": "type-digits",
@@ -2553,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T70",
           "package": "type-digits",
@@ -2562,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T70",
           "package": "type-digits",
@@ -2574,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T71",
           "package": "type-digits",
@@ -2583,6 +2822,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T71",
           "package": "type-digits",
@@ -2595,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T72",
           "package": "type-digits",
@@ -2604,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T72",
           "package": "type-digits",
@@ -2616,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T73",
           "package": "type-digits",
@@ -2625,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T73",
           "package": "type-digits",
@@ -2637,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T74",
           "package": "type-digits",
@@ -2646,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T74",
           "package": "type-digits",
@@ -2658,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T75",
           "package": "type-digits",
@@ -2667,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T75",
           "package": "type-digits",
@@ -2679,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T76",
           "package": "type-digits",
@@ -2688,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T76",
           "package": "type-digits",
@@ -2700,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T77",
           "package": "type-digits",
@@ -2709,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T77",
           "package": "type-digits",
@@ -2721,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T78",
           "package": "type-digits",
@@ -2730,6 +2983,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T78",
           "package": "type-digits",
@@ -2742,6 +2996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T79",
           "package": "type-digits",
@@ -2751,6 +3006,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T79",
           "package": "type-digits",
@@ -2763,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T7A",
           "package": "type-digits",
@@ -2772,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T7A",
           "package": "type-digits",
@@ -2784,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T7B",
           "package": "type-digits",
@@ -2793,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T7B",
           "package": "type-digits",
@@ -2805,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T7C",
           "package": "type-digits",
@@ -2814,6 +3075,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T7C",
           "package": "type-digits",
@@ -2826,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T7D",
           "package": "type-digits",
@@ -2835,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T7D",
           "package": "type-digits",
@@ -2847,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T7E",
           "package": "type-digits",
@@ -2856,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T7E",
           "package": "type-digits",
@@ -2868,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage0",
           "name": "T7F",
           "package": "type-digits",
@@ -2877,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Type Digits Stage0",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage0",
           "name": "T7F",
           "package": "type-digits",
@@ -2890,6 +3158,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level numerals built from type-level digits of an arbitrary radix.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits.Stage1",
           "name": "Stage1",
           "package": "type-digits",
@@ -2899,6 +3168,7 @@
         "index": {
           "description": "Type-level numerals built from type-level digits of an arbitrary radix",
           "hierarchy": "Type Digits Stage1",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits.Stage1",
           "name": "Stage1",
           "package": "type-digits",
@@ -3009,6 +3279,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level numerals built from type-level digits of an arbitrary radix.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits",
           "name": "Digits",
           "package": "type-digits",
@@ -3018,6 +3289,7 @@
         "index": {
           "description": "Type-level numerals built from type-level digits of an arbitrary radix",
           "hierarchy": "Type Digits",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits",
           "name": "Digits",
           "package": "type-digits",
@@ -3031,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits",
           "name": "Digit",
           "package": "type-digits",
@@ -3039,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Type Digits",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits",
           "name": "Digit",
           "package": "type-digits",
@@ -3053,6 +3327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a number to the name of the corresponding digit -- error if the\n argument is out of range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits",
           "name": "digit",
           "package": "type-digits",
@@ -3063,6 +3338,7 @@
         "index": {
           "description": "Convert number to the name of the corresponding digit error if the argument is out of range",
           "hierarchy": "Type Digits",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits",
           "name": "digit",
           "normalized": "a-\u003eName",
@@ -3078,6 +3354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePads its second argument so that the resulting length is its first\n argument; fails if the second argument is already larger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits",
           "name": "exactly",
           "package": "type-digits",
@@ -3088,6 +3365,7 @@
         "index": {
           "description": "Pads its second argument so that the resulting length is its first argument fails if the second argument is already larger",
           "hierarchy": "Type Digits",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits",
           "name": "exactly",
           "normalized": "Int-\u003e[Name]-\u003e[Name]",
@@ -3103,6 +3381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003eBounded\u003c/code\u003e \u003ccode\u003eIntegral\u003c/code\u003e to a type-level numeral using exactly the\n number of digits it takes to represent each value of that type uniquely.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits",
           "name": "fixed",
           "package": "type-digits",
@@ -3113,6 +3392,7 @@
         "index": {
           "description": "Converts Bounded Integral to type-level numeral using exactly the number of digits it takes to represent each value of that type uniquely",
           "hierarchy": "Type Digits",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits",
           "name": "fixed",
           "normalized": "a-\u003e[Name]",
@@ -3128,6 +3408,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003efixed' = fixed . fromEnum\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits",
           "name": "fixed'",
           "package": "type-digits",
@@ -3138,6 +3419,7 @@
         "index": {
           "description": "fixed fixed fromEnum",
           "hierarchy": "Type Digits",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits",
           "name": "fixed'",
           "normalized": "a-\u003e[Name]",
@@ -3153,6 +3435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003eIntegral\u003c/code\u003e to a type-level numeral using as many digits as it\n takes that particular number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits",
           "name": "flexible",
           "package": "type-digits",
@@ -3163,6 +3446,7 @@
         "index": {
           "description": "Converts an Integral to type-level numeral using as many digits as it takes that particular number",
           "hierarchy": "Type Digits",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits",
           "name": "flexible",
           "normalized": "a-\u003e[Name]",
@@ -3178,6 +3462,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eflexible' = flexible . fromEnum\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits",
           "name": "flexible'",
           "package": "type-digits",
@@ -3188,6 +3473,7 @@
         "index": {
           "description": "flexible flexible fromEnum",
           "hierarchy": "Type Digits",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits",
           "name": "flexible'",
           "normalized": "a-\u003e[Name]",
@@ -3203,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003etoDigits f = toType . f\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits",
           "name": "toDigits",
           "package": "type-digits",
@@ -3213,6 +3500,7 @@
         "index": {
           "description": "toDigits toType",
           "hierarchy": "Type Digits",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits",
           "name": "toDigits",
           "normalized": "(a-\u003e[Name])-\u003ea-\u003eType-\u003eType",
@@ -3229,6 +3517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etoDigits_ = (($ PromotedT 'DigitStop) .) . toDigits\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits",
           "name": "toDigits_",
           "package": "type-digits",
@@ -3239,6 +3528,7 @@
         "index": {
           "description": "toDigits PromotedT DigitStop toDigits",
           "hierarchy": "Type Digits",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits",
           "name": "toDigits_",
           "normalized": "(a-\u003e[Name])-\u003ea-\u003eType",
@@ -3255,6 +3545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive a list of digit names, and a base type, yields a type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits",
           "name": "toType",
           "package": "type-digits",
@@ -3265,6 +3556,7 @@
         "index": {
           "description": "Give list of digit names and base type yields type",
           "hierarchy": "Type Digits",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits",
           "name": "toType",
           "normalized": "[Name]-\u003eType-\u003eType",
@@ -3281,6 +3573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etoType_ = ($ PromotedT 'DigitStop) . toType\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:06 UTC 2014",
           "module": "Type.Digits",
           "name": "toType_",
           "package": "type-digits",
@@ -3291,6 +3584,7 @@
         "index": {
           "description": "toType PromotedT DigitStop toType",
           "hierarchy": "Type Digits",
+          "indexed": "2014-03-11T20:27:06",
           "module": "Type.Digits",
           "name": "toType_",
           "normalized": "[Name]-\u003eType",

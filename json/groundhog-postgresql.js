@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "groundhog-postgresql"
+        "phrase": "groundhog-postgresql",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSee detailed documentation for PostgreSQL arrays at http:\u003cem/\u003ewww.postgresql.org\u003cem\u003edocs\u003c/em\u003e9.2\u003cem\u003estatic\u003c/em\u003earrays.html and http:\u003cem/\u003ewww.postgresql.org\u003cem\u003edocs\u003c/em\u003e9.2\u003cem\u003estatic\u003c/em\u003efunctions-array.html\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "Array",
           "package": "groundhog-postgresql",
@@ -28,6 +29,7 @@
         "index": {
           "description": "See detailed documentation for PostgreSQL arrays at http www.postgresql.org docs static arrays.html and http www.postgresql.org docs static functions-array.html",
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "Array",
           "package": "groundhog-postgresql",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents PostgreSQL arrays\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "Array",
           "package": "groundhog-postgresql",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Represents PostgreSQL arrays",
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "Array",
           "package": "groundhog-postgresql",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "(!)",
           "package": "groundhog-postgresql",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "(!) !",
           "normalized": "a-\u003eb-\u003eExpr Postgresql c d",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "(!:)",
           "package": "groundhog-postgresql",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "(!:) !:",
           "normalized": "a-\u003e(b,b)-\u003eExpr Postgresql c(Array d)",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "(\u003c@)",
           "package": "groundhog-postgresql",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "(\u003c@) \u003c@",
           "normalized": "a-\u003eb-\u003eCond Postgresql c",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "(@\u003e)",
           "package": "groundhog-postgresql",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "(@\u003e) @\u003e",
           "normalized": "a-\u003eb-\u003eCond Postgresql c",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "Array",
           "package": "groundhog-postgresql",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "Array",
           "normalized": "Array[a]",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "all",
           "package": "groundhog-postgresql",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "all",
           "normalized": "a-\u003eb-\u003eCond Postgresql c",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "any",
           "package": "groundhog-postgresql",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "any",
           "normalized": "a-\u003eb-\u003eCond Postgresql c",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "append",
           "package": "groundhog-postgresql",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "append",
           "normalized": "a-\u003eb-\u003eExpr Postgresql c(Array d)",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayCat",
           "package": "groundhog-postgresql",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayCat",
           "normalized": "a-\u003eb-\u003eExpr Postgresql c(Array d)",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayDims",
           "package": "groundhog-postgresql",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayDims",
           "normalized": "a-\u003eExpr Postgresql b String",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayLength",
           "package": "groundhog-postgresql",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayLength",
           "normalized": "a-\u003eInt-\u003eExpr Postgresql b Int",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayLower",
           "package": "groundhog-postgresql",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayLower",
           "normalized": "a-\u003eInt-\u003eExpr Postgresql b Int",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayNDims",
           "package": "groundhog-postgresql",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayNDims",
           "normalized": "a-\u003eExpr Postgresql b Int",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenates array elements using supplied delimiter. array_to_string(ARRAY[1, 2, 3], \u003ccode\u003e~^~\u003c/code\u003e) = 1~^~2~^~3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayToString",
           "package": "groundhog-postgresql",
@@ -380,6 +411,7 @@
         "index": {
           "description": "Concatenates array elements using supplied delimiter array to string ARRAY",
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayToString",
           "normalized": "a-\u003eString-\u003eExpr Postgresql b String",
@@ -395,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayUpper",
           "package": "groundhog-postgresql",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "arrayUpper",
           "normalized": "a-\u003eInt-\u003eExpr Postgresql b Int",
@@ -420,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverlap (have elements in common). ARRAY[1,4,3] && ARRAY[2,1] = t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "overlaps",
           "package": "groundhog-postgresql",
@@ -430,6 +465,7 @@
         "index": {
           "description": "Overlap have elements in common ARRAY ARRAY",
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "overlaps",
           "normalized": "a-\u003eb-\u003eCond Postgresql c",
@@ -444,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "prepend",
           "package": "groundhog-postgresql",
@@ -453,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "prepend",
           "normalized": "a-\u003eb-\u003eExpr Postgresql c(Array d)",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits string into array elements using supplied delimiter. string_to_array('xx~^~yy~^~zz', \u003ccode\u003e~^~\u003c/code\u003e) = {xx,yy,zz}\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "stringToArray",
           "package": "groundhog-postgresql",
@@ -478,6 +517,7 @@
         "index": {
           "description": "Splits string into array elements using supplied delimiter string to array xx yy zz xx yy zz",
           "hierarchy": "Database Groundhog Postgresql Array",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Array",
           "name": "stringToArray",
           "normalized": "a-\u003eString-\u003eExpr Postgresql b(Array String)",
@@ -493,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Geometry",
           "package": "groundhog-postgresql",
@@ -501,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Geometry",
           "package": "groundhog-postgresql",
@@ -514,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Box",
           "package": "groundhog-postgresql",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Box",
           "package": "groundhog-postgresql",
@@ -535,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Circle",
           "package": "groundhog-postgresql",
@@ -543,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Circle",
           "package": "groundhog-postgresql",
@@ -557,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is not fully implemented in PostgreSQL yet. It is kept just to match all geometric types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Line",
           "package": "groundhog-postgresql",
@@ -566,6 +613,7 @@
         "index": {
           "description": "It is not fully implemented in PostgreSQL yet It is kept just to match all geometric types",
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Line",
           "package": "groundhog-postgresql",
@@ -579,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Lseg",
           "package": "groundhog-postgresql",
@@ -587,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Lseg",
           "package": "groundhog-postgresql",
@@ -600,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Path",
           "package": "groundhog-postgresql",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Path",
           "package": "groundhog-postgresql",
@@ -621,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Point",
           "package": "groundhog-postgresql",
@@ -629,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Point",
           "package": "groundhog-postgresql",
@@ -642,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Polygon",
           "package": "groundhog-postgresql",
@@ -650,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Polygon",
           "package": "groundhog-postgresql",
@@ -663,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Box",
           "package": "groundhog-postgresql",
@@ -672,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Box",
           "package": "groundhog-postgresql",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Circle",
           "package": "groundhog-postgresql",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Circle",
           "package": "groundhog-postgresql",
@@ -707,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "ClosedPath",
           "package": "groundhog-postgresql",
@@ -716,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "ClosedPath",
           "normalized": "ClosedPath[Point]",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Line",
           "package": "groundhog-postgresql",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Line",
           "package": "groundhog-postgresql",
@@ -753,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Lseg",
           "package": "groundhog-postgresql",
@@ -762,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Lseg",
           "package": "groundhog-postgresql",
@@ -775,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "OpenPath",
           "package": "groundhog-postgresql",
@@ -784,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "OpenPath",
           "normalized": "OpenPath[Point]",
@@ -799,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Point",
           "package": "groundhog-postgresql",
@@ -808,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Point",
           "package": "groundhog-postgresql",
@@ -821,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Polygon",
           "package": "groundhog-postgresql",
@@ -830,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql Geometry",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql.Geometry",
           "name": "Polygon",
           "normalized": "Polygon[Point]",
@@ -845,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql",
           "name": "Postgresql",
           "package": "groundhog-postgresql",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql",
           "name": "Postgresql",
           "package": "groundhog-postgresql",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql",
           "name": "Postgresql",
           "package": "groundhog-postgresql",
@@ -874,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql",
           "name": "Postgresql",
           "package": "groundhog-postgresql",
@@ -887,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql",
           "name": "Postgresql",
           "package": "groundhog-postgresql",
@@ -896,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql",
           "name": "Postgresql",
           "package": "groundhog-postgresql",
@@ -910,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCasts expression to a type. \u003ccode\u003ecastType value \"INT\"\u003c/code\u003e results in \u003ccode\u003evalue::INT\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql",
           "name": "castType",
           "package": "groundhog-postgresql",
@@ -920,6 +999,7 @@
         "index": {
           "description": "Casts expression to type castType value INT results in value INT",
           "hierarchy": "Database Groundhog Postgresql",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql",
           "name": "castType",
           "normalized": "a-\u003eString-\u003eExpr Postgresql b a",
@@ -935,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql",
           "name": "createPostgresqlPool",
           "package": "groundhog-postgresql",
@@ -943,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql",
           "name": "createPostgresqlPool",
           "normalized": "String-\u003eInt-\u003ea(Pool Postgresql)",
@@ -959,6 +1041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut explicit type for expression. It is useful for values which are defaulted to a wrong type.\n For example, a literal Int from a 64bit machine can be defaulted to a 32bit int by Postgresql. \n Also a value entered as an external string (geometry, arrays and other complex types have this representation) may need an explicit type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql",
           "name": "explicitType",
           "package": "groundhog-postgresql",
@@ -969,6 +1052,7 @@
         "index": {
           "description": "Put explicit type for expression It is useful for values which are defaulted to wrong type For example literal Int from bit machine can be defaulted to bit int by Postgresql Also value entered as an external string geometry arrays and other complex types have this representation may need an explicit type",
           "hierarchy": "Database Groundhog Postgresql",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql",
           "name": "explicitType",
           "normalized": "a-\u003eExpr Postgresql b a",
@@ -985,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns action within connection. It can handle a simple connection, a pool of them, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql",
           "name": "runDbConn",
           "package": "groundhog-postgresql",
@@ -994,6 +1079,7 @@
         "index": {
           "description": "Runs action within connection It can handle simple connection pool of them etc",
           "hierarchy": "Database Groundhog Postgresql",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql",
           "name": "runDbConn",
           "normalized": "DbPersist a(NoLoggingT b)c-\u003ed-\u003eb c",
@@ -1009,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql",
           "name": "withPostgresqlConn",
           "package": "groundhog-postgresql",
@@ -1017,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql",
           "name": "withPostgresqlConn",
           "normalized": "String-\u003e(Postgresql-\u003ea b)-\u003ea b",
@@ -1032,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:37 UTC 2014",
           "module": "Database.Groundhog.Postgresql",
           "name": "withPostgresqlPool",
           "package": "groundhog-postgresql",
@@ -1040,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Postgresql",
+          "indexed": "2014-03-11T18:21:37",
           "module": "Database.Groundhog.Postgresql",
           "name": "withPostgresqlPool",
           "normalized": "String-\u003eInt-\u003e(Pool Postgresql-\u003ea b)-\u003ea b",

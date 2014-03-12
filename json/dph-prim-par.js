@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dph-prim-par"
+        "phrase": "dph-prim-par",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperations on distributed arrays.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Arrays",
           "name": "Arrays",
           "package": "dph-prim-par",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Operations on distributed arrays",
           "hierarchy": "Data Array Parallel Unlifted Distributed Arrays",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Arrays",
           "name": "Arrays",
           "package": "dph-prim-par",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a phantom parameter used to record whether a distributed value\n   is balanced evenly among the threads. It's used to signal this property\n   between RULES, but the actual value is never used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Arrays",
           "name": "Distribution",
           "package": "dph-prim-par",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This is phantom parameter used to record whether distributed value is balanced evenly among the threads It used to signal this property between RULES but the actual value is never used",
           "hierarchy": "Data Array Parallel Unlifted Distributed Arrays",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Arrays",
           "name": "Distribution",
           "package": "dph-prim-par",
@@ -450,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic operations on distributed types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Basics",
           "name": "Basics",
           "package": "dph-prim-par",
@@ -459,6 +464,7 @@
         "index": {
           "description": "Basic operations on distributed types",
           "hierarchy": "Data Array Parallel Unlifted Distributed Basics",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Basics",
           "name": "Basics",
           "package": "dph-prim-par",
@@ -577,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStandard combinators for distributed types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Combinators",
           "name": "Combinators",
           "package": "dph-prim-par",
@@ -586,6 +593,7 @@
         "index": {
           "description": "Standard combinators for distributed types",
           "hierarchy": "Data Array Parallel Unlifted Distributed Combinators",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Combinators",
           "name": "Combinators",
           "package": "dph-prim-par",
@@ -600,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat sort of thing is being computed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Combinators",
           "name": "What",
           "package": "dph-prim-par",
@@ -609,6 +618,7 @@
         "index": {
           "description": "What sort of thing is being computed",
           "hierarchy": "Data Array Parallel Unlifted Distributed Combinators",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Combinators",
           "name": "What",
           "package": "dph-prim-par",
@@ -928,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function across all elements of a distributed value.\n   The worker function also gets the current thread index.\n   As opposed to \u003ccode\u003e\u003ca\u003eimapD'\u003c/a\u003e\u003c/code\u003e this version also deepSeqs each element before\n   passing it to the function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Combinators",
           "name": "imapD",
           "package": "dph-prim-par",
@@ -937,6 +948,7 @@
         "index": {
           "description": "Map function across all elements of distributed value The worker function also gets the current thread index As opposed to imapD this version also deepSeqs each element before passing it to the function",
           "hierarchy": "Data Array Parallel Unlifted Distributed Combinators",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Combinators",
           "name": "imapD",
           "normalized": "What-\u003eGang-\u003e(Int-\u003ea-\u003eb)-\u003eDist a-\u003eDist b",
@@ -952,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two distributed values with the given function.\n   The worker function also gets the index of the current thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Combinators",
           "name": "izipWithD",
           "package": "dph-prim-par",
@@ -961,6 +974,7 @@
         "index": {
           "description": "Combine two distributed values with the given function The worker function also gets the index of the current thread",
           "hierarchy": "Data Array Parallel Unlifted Distributed Combinators",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Combinators",
           "name": "izipWithD",
           "normalized": "What-\u003eGang-\u003e(Int-\u003ea-\u003eb-\u003ec)-\u003eDist a-\u003eDist b-\u003eDist c",
@@ -977,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombination of map and fold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Combinators",
           "name": "mapAccumLD",
           "package": "dph-prim-par",
@@ -987,6 +1002,7 @@
         "index": {
           "description": "Combination of map and fold",
           "hierarchy": "Data Array Parallel Unlifted Distributed Combinators",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Combinators",
           "name": "mapAccumLD",
           "normalized": "Gang-\u003e(a-\u003eb-\u003e(a,c))-\u003ea-\u003eDist b-\u003e(a,Dist c)",
@@ -1157,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Bool",
           "name": "Bool",
           "package": "dph-prim-par",
@@ -1165,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Bool",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Bool",
           "name": "Bool",
           "package": "dph-prim-par",
@@ -1231,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of Maybes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Maybe",
           "name": "Maybe",
           "package": "dph-prim-par",
@@ -1240,6 +1259,7 @@
         "index": {
           "description": "Distribution of Maybes",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Maybe",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Maybe",
           "name": "Maybe",
           "package": "dph-prim-par",
@@ -1254,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of values of primitive types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Ordering",
           "name": "Ordering",
           "package": "dph-prim-par",
@@ -1263,6 +1284,7 @@
         "index": {
           "description": "Distribution of values of primitive types",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Ordering",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Ordering",
           "name": "Ordering",
           "package": "dph-prim-par",
@@ -1277,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eDPrim\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDT\u003c/a\u003e\u003c/code\u003e instances for scalar types. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar.Base",
           "name": "Base",
           "package": "dph-prim-par",
@@ -1286,6 +1309,7 @@
         "index": {
           "description": "DPrim and DT instances for scalar types",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Scalar Base",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar.Base",
           "name": "Base",
           "package": "dph-prim-par",
@@ -1300,6 +1324,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of values of primitive types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "Scalar",
           "package": "dph-prim-par",
@@ -1309,6 +1334,7 @@
         "index": {
           "description": "Distribution of values of primitive types",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Scalar",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "Scalar",
           "package": "dph-prim-par",
@@ -1323,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of distributable types. Instances of \u003ccode\u003e\u003ca\u003eDT\u003c/a\u003e\u003c/code\u003e can be\n   distributed across all workers of a \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e. \n   All such types must be hyperstrict as we do not want to pass thunks\n   into distributed computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "DT",
           "package": "dph-prim-par",
@@ -1332,6 +1359,7 @@
         "index": {
           "description": "Class of distributable types Instances of DT can be distributed across all workers of Gang All such types must be hyperstrict as we do not want to pass thunks into distributed computations",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Scalar",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "DT",
           "package": "dph-prim-par",
@@ -1346,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure a distributed value is fully evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "deepSeqD",
           "package": "dph-prim-par",
@@ -1356,6 +1385,7 @@
         "index": {
           "description": "Ensure distributed value is fully evaluated",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Scalar",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "deepSeqD",
           "normalized": "a-\u003eb-\u003eb",
@@ -1372,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a single element of an immutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "indexD",
           "package": "dph-prim-par",
@@ -1382,6 +1413,7 @@
         "index": {
           "description": "Extract single element of an immutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Scalar",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "indexD",
           "normalized": "String-\u003eDist a-\u003eInt-\u003ea",
@@ -1397,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a distributed value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For debugging only.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "measureD",
           "package": "dph-prim-par",
@@ -1407,6 +1440,7 @@
         "index": {
           "description": "Show distributed value For debugging only",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Scalar",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "measureD",
           "normalized": "a-\u003eString",
@@ -1422,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an unitialised distributed value for the given \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e.\n   The gang is used (only) to know how many elements are needed\n   in the distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "newMD",
           "package": "dph-prim-par",
@@ -1432,6 +1467,7 @@
         "index": {
           "description": "Create an unitialised distributed value for the given Gang The gang is used only to know how many elements are needed in the distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Scalar",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "newMD",
           "normalized": "Gang-\u003eST a(MDist b a)",
@@ -1448,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract an element from a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "readMD",
           "package": "dph-prim-par",
@@ -1458,6 +1495,7 @@
         "index": {
           "description": "Extract an element from mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Scalar",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "readMD",
           "normalized": "MDist a b-\u003eInt-\u003eST b a",
@@ -1500,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in the distributed value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For debugging only, as code shouldn't be sensitive to the return value.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "sizeD",
           "package": "dph-prim-par",
@@ -1510,6 +1549,7 @@
         "index": {
           "description": "Number of elements in the distributed value For debugging only as code shouldn be sensitive to the return value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Scalar",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "sizeD",
           "normalized": "Dist a-\u003eInt",
@@ -1525,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in the mutable distributed value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For debugging only, as code shouldn't be sensitive to the return value.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "sizeMD",
           "package": "dph-prim-par",
@@ -1535,6 +1576,7 @@
         "index": {
           "description": "Number of elements in the mutable distributed value For debugging only as code shouldn be sensitive to the return value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Scalar",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "sizeMD",
           "normalized": "MDist a b-\u003eInt",
@@ -1577,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafely freeze a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "unsafeFreezeMD",
           "package": "dph-prim-par",
@@ -1587,6 +1630,7 @@
         "index": {
           "description": "Unsafely freeze mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Scalar",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "unsafeFreezeMD",
           "normalized": "MDist a b-\u003eST b(Dist a)",
@@ -1603,6 +1647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an element of a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "writeMD",
           "package": "dph-prim-par",
@@ -1613,6 +1658,7 @@
         "index": {
           "description": "Write an element of mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Scalar",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Scalar",
           "name": "writeMD",
           "normalized": "MDist a b-\u003eInt-\u003ea-\u003eST b()",
@@ -1629,6 +1675,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of Tuples\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Tuple",
           "name": "Tuple",
           "package": "dph-prim-par",
@@ -1638,6 +1685,7 @@
         "index": {
           "description": "Distribution of Tuples",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Tuple",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Tuple",
           "name": "Tuple",
           "package": "dph-prim-par",
@@ -1652,6 +1700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpairing of distributed values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Tuple",
           "name": "unzip3D",
           "package": "dph-prim-par",
@@ -1662,6 +1711,7 @@
         "index": {
           "description": "Unpairing of distributed values",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Tuple",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Tuple",
           "name": "unzip3D",
           "normalized": "Dist(a,b,c)-\u003e(Dist a,Dist b,Dist c)",
@@ -1677,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePairing of distributed values.\n \u003cem\u003eThe two values must belong to the same\u003c/em\u003e \u003ccode\u003eGang\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Tuple",
           "name": "zip3D",
           "package": "dph-prim-par",
@@ -1687,6 +1738,7 @@
         "index": {
           "description": "Pairing of distributed values The two values must belong to the same Gang",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Tuple",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Tuple",
           "name": "zip3D",
           "normalized": "Dist a-\u003eDist b-\u003eDist c-\u003eDist(a,b,c)",
@@ -1702,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of Segment Descriptors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USSegd.Base",
           "name": "Base",
           "package": "dph-prim-par",
@@ -1711,6 +1764,7 @@
         "index": {
           "description": "Distribution of Segment Descriptors",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data USSegd Base",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USSegd.Base",
           "name": "Base",
           "package": "dph-prim-par",
@@ -1913,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of Segment Descriptors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USSegd.DT",
           "name": "DT",
           "package": "dph-prim-par",
@@ -1922,6 +1977,7 @@
         "index": {
           "description": "Distribution of Segment Descriptors",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data USSegd DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USSegd.DT",
           "name": "DT",
           "package": "dph-prim-par",
@@ -1936,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperations on Distributed Segment Descriptors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USSegd.Split",
           "name": "Split",
           "package": "dph-prim-par",
@@ -1945,6 +2002,7 @@
         "index": {
           "description": "Operations on Distributed Segment Descriptors",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data USSegd Split",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USSegd.Split",
           "name": "Split",
           "package": "dph-prim-par",
@@ -1986,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of Segment Descriptors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USSegd",
           "name": "USSegd",
           "package": "dph-prim-par",
@@ -1995,6 +2054,7 @@
         "index": {
           "description": "Distribution of Segment Descriptors",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data USSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USSegd",
           "name": "USSegd",
           "package": "dph-prim-par",
@@ -2009,6 +2069,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of Segment Descriptors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USegd.Base",
           "name": "Base",
           "package": "dph-prim-par",
@@ -2018,6 +2079,7 @@
         "index": {
           "description": "Distribution of Segment Descriptors",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data USegd Base",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USegd.Base",
           "name": "Base",
           "package": "dph-prim-par",
@@ -2165,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of Segment Descriptors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USegd.DT",
           "name": "DT",
           "package": "dph-prim-par",
@@ -2174,6 +2237,7 @@
         "index": {
           "description": "Distribution of Segment Descriptors",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data USegd DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USegd.DT",
           "name": "DT",
           "package": "dph-prim-par",
@@ -2188,6 +2252,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperations on Distributed Segment Descriptors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USegd.Split",
           "name": "Split",
           "package": "dph-prim-par",
@@ -2197,6 +2262,7 @@
         "index": {
           "description": "Operations on Distributed Segment Descriptors",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data USegd Split",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USegd.Split",
           "name": "Split",
           "package": "dph-prim-par",
@@ -2344,6 +2410,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of Segment Descriptors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USegd",
           "name": "USegd",
           "package": "dph-prim-par",
@@ -2353,6 +2420,7 @@
         "index": {
           "description": "Distribution of Segment Descriptors",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data USegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.USegd",
           "name": "USegd",
           "package": "dph-prim-par",
@@ -2367,6 +2435,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of Virtual Segment Descriptors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "UVSegd",
           "package": "dph-prim-par",
@@ -2376,6 +2445,7 @@
         "index": {
           "description": "Distribution of Virtual Segment Descriptors",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data UVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "UVSegd",
           "package": "dph-prim-par",
@@ -2390,6 +2460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the overall number of segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "lengthD",
           "package": "dph-prim-par",
@@ -2400,6 +2471,7 @@
         "index": {
           "description": "Yield the overall number of segments",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data UVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "lengthD",
           "normalized": "Dist UVSegd-\u003eDist Int",
@@ -2415,6 +2487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the number of data elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeElementsD",
           "package": "dph-prim-par",
@@ -2425,6 +2498,7 @@
         "index": {
           "description": "Yield the number of data elements",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data UVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeElementsD",
           "normalized": "Dist UVSegd-\u003eDist Int",
@@ -2441,6 +2515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the segment indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeIndicesD",
           "package": "dph-prim-par",
@@ -2451,6 +2526,7 @@
         "index": {
           "description": "Yield the segment indices",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data UVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeIndicesD",
           "normalized": "Dist UVSegd-\u003eDist(Vector Int)",
@@ -2467,6 +2543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the lengths of the individual segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeLengthsD",
           "package": "dph-prim-par",
@@ -2477,6 +2554,7 @@
         "index": {
           "description": "Yield the lengths of the individual segments",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data UVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeLengthsD",
           "normalized": "Dist UVSegd-\u003eDist(Vector Int)",
@@ -2493,6 +2571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the source ids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeSourcesD",
           "package": "dph-prim-par",
@@ -2503,6 +2582,7 @@
         "index": {
           "description": "Yield the source ids",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data UVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeSourcesD",
           "normalized": "Dist UVSegd-\u003eDist(Vector Int)",
@@ -2519,6 +2599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the starting indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeStartsD",
           "package": "dph-prim-par",
@@ -2529,6 +2610,7 @@
         "index": {
           "description": "Yield the starting indices",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data UVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeStartsD",
           "normalized": "Dist UVSegd-\u003eDist(Vector Int)",
@@ -2545,6 +2627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the USSegd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeUSSegdD",
           "package": "dph-prim-par",
@@ -2555,6 +2638,7 @@
         "index": {
           "description": "Yield the USSegd",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data UVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeUSSegdD",
           "normalized": "Dist UVSegd-\u003eDist USSegd",
@@ -2571,6 +2655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the vsegids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeVSegidsD",
           "package": "dph-prim-par",
@@ -2581,6 +2666,7 @@
         "index": {
           "description": "Yield the vsegids",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data UVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.UVSegd",
           "name": "takeVSegidsD",
           "normalized": "Dist UVSegd-\u003eDist(Vector Int)",
@@ -2597,6 +2683,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of unit values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Unit",
           "name": "Unit",
           "package": "dph-prim-par",
@@ -2606,6 +2693,7 @@
         "index": {
           "description": "Distribution of unit values",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Unit",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Unit",
           "name": "Unit",
           "package": "dph-prim-par",
@@ -2620,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield a distributed unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Unit",
           "name": "unitD",
           "package": "dph-prim-par",
@@ -2630,6 +2719,7 @@
         "index": {
           "description": "Yield distributed unit",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Unit",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Unit",
           "name": "unitD",
           "normalized": "Gang-\u003eDist()",
@@ -2645,6 +2735,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of Vectors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Vector",
           "name": "Vector",
           "package": "dph-prim-par",
@@ -2654,6 +2745,7 @@
         "index": {
           "description": "Distribution of Vectors",
           "hierarchy": "Data Array Parallel Unlifted Distributed Data Vector",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Data.Vector",
           "name": "Vector",
           "package": "dph-prim-par",
@@ -2668,6 +2760,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistribution of values of primitive types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "DPrim",
           "package": "dph-prim-par",
@@ -2677,6 +2770,7 @@
         "index": {
           "description": "Distribution of values of primitive types",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "DPrim",
           "package": "dph-prim-par",
@@ -2691,6 +2785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor distributed primitive values, we can just store all the members in\n   a vector. The vector has the same length as the number of threads in the gang.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "DPrim",
           "package": "dph-prim-par",
@@ -2700,6 +2795,7 @@
         "index": {
           "description": "For distributed primitive values we can just store all the members in vector The vector has the same length as the number of threads in the gang",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "DPrim",
           "package": "dph-prim-par",
@@ -2714,6 +2810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an immutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "mkDPrim",
           "package": "dph-prim-par",
@@ -2724,6 +2821,7 @@
         "index": {
           "description": "Make an immutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "mkDPrim",
           "normalized": "Vector a-\u003eDist a",
@@ -2740,6 +2838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "mkMDPrim",
           "package": "dph-prim-par",
@@ -2750,6 +2849,7 @@
         "index": {
           "description": "Make mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "mkMDPrim",
           "normalized": "STVector a b-\u003eMDist b a",
@@ -2766,6 +2866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the member corresponding to a thread index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primIndexD",
           "package": "dph-prim-par",
@@ -2776,6 +2877,7 @@
         "index": {
           "description": "Get the member corresponding to thread index",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primIndexD",
           "normalized": "String-\u003eDist a-\u003eInt-\u003ea",
@@ -2792,6 +2894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new distributed value, having as many members as threads\n   in the given \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primNewMD",
           "package": "dph-prim-par",
@@ -2802,6 +2905,7 @@
         "index": {
           "description": "Create new distributed value having as many members as threads in the given Gang",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primNewMD",
           "normalized": "Gang-\u003eST a(MDist b a)",
@@ -2818,6 +2922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the member of a distributed value corresponding to the given thread index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primReadMD",
           "package": "dph-prim-par",
@@ -2828,6 +2933,7 @@
         "index": {
           "description": "Read the member of distributed value corresponding to the given thread index",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primReadMD",
           "normalized": "MDist a b-\u003eInt-\u003eST b a",
@@ -2844,6 +2950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of a distributed value, that is, the number of threads\n   in the gang that it was created for.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primSizeD",
           "package": "dph-prim-par",
@@ -2854,6 +2961,7 @@
         "index": {
           "description": "Get the size of distributed value that is the number of threads in the gang that it was created for",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primSizeD",
           "normalized": "Dist a-\u003eInt",
@@ -2870,6 +2978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of a distributed mutable value, that is, the number of threads\n   in the gang it was created for.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primSizeMD",
           "package": "dph-prim-par",
@@ -2880,6 +2989,7 @@
         "index": {
           "description": "Get the size of distributed mutable value that is the number of threads in the gang it was created for",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primSizeMD",
           "normalized": "MDist a b-\u003eInt",
@@ -2896,6 +3006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFreeze a mutable distributed value to an immutable one.\n   You promise not to update the mutable one any further.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primUnsafeFreezeMD",
           "package": "dph-prim-par",
@@ -2906,6 +3017,7 @@
         "index": {
           "description": "Freeze mutable distributed value to an immutable one You promise not to update the mutable one any further",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primUnsafeFreezeMD",
           "normalized": "MDist a b-\u003eST b(Dist a)",
@@ -2922,6 +3034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the member of a distributed value corresponding to the given thread index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primWriteMD",
           "package": "dph-prim-par",
@@ -2932,6 +3045,7 @@
         "index": {
           "description": "Write the member of distributed value corresponding to the given thread index",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "primWriteMD",
           "normalized": "MDist a b-\u003eInt-\u003ea-\u003eST b()",
@@ -2948,6 +3062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack an immutable distributed value back into a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "unDPrim",
           "package": "dph-prim-par",
@@ -2958,6 +3073,7 @@
         "index": {
           "description": "Unpack an immutable distributed value back into vector",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "unDPrim",
           "normalized": "Dist a-\u003eVector a",
@@ -2974,6 +3090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack a mutable distributed value back into a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "unMDPrim",
           "package": "dph-prim-par",
@@ -2984,6 +3101,7 @@
         "index": {
           "description": "Unpack mutable distributed value back into vector",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DPrim",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DPrim",
           "name": "unMDPrim",
           "normalized": "MDist a b-\u003eSTVector b a",
@@ -2999,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "DT",
           "package": "dph-prim-par",
@@ -3007,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "DT",
           "package": "dph-prim-par",
@@ -3021,6 +3141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of distributable types. Instances of \u003ccode\u003e\u003ca\u003eDT\u003c/a\u003e\u003c/code\u003e can be\n   distributed across all workers of a \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e. \n   All such types must be hyperstrict as we do not want to pass thunks\n   into distributed computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "DT",
           "package": "dph-prim-par",
@@ -3030,6 +3151,7 @@
         "index": {
           "description": "Class of distributable types Instances of DT can be distributed across all workers of Gang All such types must be hyperstrict as we do not want to pass thunks into distributed computations",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "DT",
           "package": "dph-prim-par",
@@ -3071,6 +3193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that the sizes of the \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e and of the mutable distributed value match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "checkGangMD",
           "package": "dph-prim-par",
@@ -3081,6 +3204,7 @@
         "index": {
           "description": "Check that the sizes of the Gang and of the mutable distributed value match",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "checkGangMD",
           "normalized": "String-\u003eGang-\u003eMDist a b-\u003ec-\u003ec",
@@ -3123,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure a distributed value is fully evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "deepSeqD",
           "package": "dph-prim-par",
@@ -3133,6 +3258,7 @@
         "index": {
           "description": "Ensure distributed value is fully evaluated",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "deepSeqD",
           "normalized": "a-\u003eb-\u003eb",
@@ -3149,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a single element of an immutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "indexD",
           "package": "dph-prim-par",
@@ -3159,6 +3286,7 @@
         "index": {
           "description": "Extract single element of an immutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "indexD",
           "normalized": "String-\u003eDist a-\u003eInt-\u003ea",
@@ -3174,6 +3302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a distributed value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For debugging only.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "measureD",
           "package": "dph-prim-par",
@@ -3184,6 +3313,7 @@
         "index": {
           "description": "Show distributed value For debugging only",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "measureD",
           "normalized": "a-\u003eString",
@@ -3225,6 +3355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an unitialised distributed value for the given \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e.\n   The gang is used (only) to know how many elements are needed\n   in the distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "newMD",
           "package": "dph-prim-par",
@@ -3235,6 +3366,7 @@
         "index": {
           "description": "Create an unitialised distributed value for the given Gang The gang is used only to know how many elements are needed in the distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "newMD",
           "normalized": "Gang-\u003eST a(MDist b a)",
@@ -3251,6 +3383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract an element from a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "readMD",
           "package": "dph-prim-par",
@@ -3261,6 +3394,7 @@
         "index": {
           "description": "Extract an element from mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "readMD",
           "normalized": "MDist a b-\u003eInt-\u003eST b a",
@@ -3277,6 +3411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in the distributed value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For debugging only, as code shouldn't be sensitive to the return value.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "sizeD",
           "package": "dph-prim-par",
@@ -3287,6 +3422,7 @@
         "index": {
           "description": "Number of elements in the distributed value For debugging only as code shouldn be sensitive to the return value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "sizeD",
           "normalized": "Dist a-\u003eInt",
@@ -3302,6 +3438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in the mutable distributed value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For debugging only, as code shouldn't be sensitive to the return value.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "sizeMD",
           "package": "dph-prim-par",
@@ -3312,6 +3449,7 @@
         "index": {
           "description": "Number of elements in the mutable distributed value For debugging only as code shouldn be sensitive to the return value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "sizeMD",
           "normalized": "MDist a b-\u003eInt",
@@ -3328,6 +3466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafely freeze a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "unsafeFreezeMD",
           "package": "dph-prim-par",
@@ -3338,6 +3477,7 @@
         "index": {
           "description": "Unsafely freeze mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "unsafeFreezeMD",
           "normalized": "MDist a b-\u003eST b(Dist a)",
@@ -3354,6 +3494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an element of a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "writeMD",
           "package": "dph-prim-par",
@@ -3364,6 +3505,7 @@
         "index": {
           "description": "Write an element of mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DT",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DT",
           "name": "writeMD",
           "normalized": "MDist a b-\u003eInt-\u003ea-\u003eST b()",
@@ -3380,6 +3522,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistributed ST computations.\n\u003c/p\u003e\u003cp\u003eComputations of type \u003ccode\u003e\u003ca\u003eDistST\u003c/a\u003e\u003c/code\u003e are data-parallel computations which\n  are run on each thread of a gang. At the moment, they can only access the\n  element of a (possibly mutable) distributed value owned by the current\n  thread.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eTODO:\u003c/em\u003e Add facilities for implementing parallel scans etc.\n\u003c/p\u003e\u003cp\u003eTODO: \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "DistST",
           "package": "dph-prim-par",
@@ -3389,6 +3532,7 @@
         "index": {
           "description": "Distributed ST computations Computations of type DistST are data-parallel computations which are run on each thread of gang At the moment they can only access the element of possibly mutable distributed value owned by the current thread TODO Add facilities for implementing parallel scans etc TODO",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "DistST",
           "package": "dph-prim-par",
@@ -3403,6 +3547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData-parallel computations.\n   When applied to a thread gang, the computation implicitly knows the index\n   of the thread it's working on. Alternatively, if we know the thread index\n   then we can make a regular ST computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "DistST",
           "package": "dph-prim-par",
@@ -3412,6 +3557,7 @@
         "index": {
           "description": "Data-parallel computations When applied to thread gang the computation implicitly knows the index of the thread it working on Alternatively if we know the thread index then we can make regular ST computation",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "DistST",
           "package": "dph-prim-par",
@@ -3426,6 +3572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a data-parallel computation, yielding the distributed result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "distST",
           "package": "dph-prim-par",
@@ -3436,6 +3583,7 @@
         "index": {
           "description": "Execute data-parallel computation yielding the distributed result",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "distST",
           "normalized": "Comp-\u003eGang-\u003eDistST a b-\u003eST a(Dist b)",
@@ -3452,6 +3600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a data-parallel computation on a \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e.\n   The same DistST comutation runs on each thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "distST_",
           "package": "dph-prim-par",
@@ -3462,6 +3611,7 @@
         "index": {
           "description": "Execute data-parallel computation on Gang The same DistST comutation runs on each thread",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "distST_",
           "normalized": "Comp-\u003eGang-\u003eDistST a()-\u003eST a()",
@@ -3477,6 +3627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "mapDST",
           "package": "dph-prim-par",
@@ -3486,6 +3637,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "mapDST",
           "normalized": "What-\u003eGang-\u003e(a-\u003eDistST b c)-\u003eDist a-\u003eST b(Dist c)",
@@ -3501,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "mapDST_",
           "package": "dph-prim-par",
@@ -3510,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "mapDST_",
           "normalized": "What-\u003eGang-\u003e(a-\u003eDistST b())-\u003eDist a-\u003eST b()",
@@ -3526,6 +3680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the \u003ccode\u003e\u003ca\u003eDist\u003c/a\u003e\u003c/code\u003e element owned by the current thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "myD",
           "package": "dph-prim-par",
@@ -3536,6 +3691,7 @@
         "index": {
           "description": "Yields the Dist element owned by the current thread",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "myD",
           "normalized": "Dist a-\u003eDistST b a",
@@ -3551,6 +3707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the index of the current thread within its gang.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "myIndex",
           "package": "dph-prim-par",
@@ -3561,6 +3718,7 @@
         "index": {
           "description": "Yields the index of the current thread within its gang",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "myIndex",
           "package": "dph-prim-par",
@@ -3575,6 +3733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the \u003ccode\u003e\u003ca\u003eMDist\u003c/a\u003e\u003c/code\u003e element owned by the current thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "readMyMD",
           "package": "dph-prim-par",
@@ -3585,6 +3744,7 @@
         "index": {
           "description": "Yields the MDist element owned by the current thread",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "readMyMD",
           "normalized": "MDist a b-\u003eDistST b a",
@@ -3601,6 +3761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a data-parallel computation, yielding the distributed result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "runDistST",
           "package": "dph-prim-par",
@@ -3611,6 +3772,7 @@
         "index": {
           "description": "Run data-parallel computation yielding the distributed result",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "runDistST",
           "normalized": "Comp-\u003eGang-\u003e(a b DistST c d)-\u003eDist d",
@@ -3626,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "runDistST_seq",
           "package": "dph-prim-par",
@@ -3635,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "runDistST_seq",
           "normalized": "Gang-\u003e(a b DistST c d)-\u003eDist d",
@@ -3651,6 +3815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts an \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e computation into the \u003ccode\u003e\u003ca\u003eDistST\u003c/a\u003e\u003c/code\u003e monad.\n   The lifted computation should be data parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "stToDistST",
           "package": "dph-prim-par",
@@ -3661,6 +3826,7 @@
         "index": {
           "description": "Lifts an ST computation into the DistST monad The lifted computation should be data parallel",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "stToDistST",
           "normalized": "ST a b-\u003eDistST a b",
@@ -3677,6 +3843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites the \u003ccode\u003e\u003ca\u003eMDist\u003c/a\u003e\u003c/code\u003e element owned by the current thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "writeMyMD",
           "package": "dph-prim-par",
@@ -3687,6 +3854,7 @@
         "index": {
           "description": "Writes the MDist element owned by the current thread",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "writeMyMD",
           "normalized": "MDist a b-\u003ea-\u003eDistST b()",
@@ -3702,6 +3870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "zipWithDST",
           "package": "dph-prim-par",
@@ -3711,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "zipWithDST",
           "normalized": "What-\u003eGang-\u003e(a-\u003eb-\u003eDistST c d)-\u003eDist a-\u003eDist b-\u003eST c(Dist d)",
@@ -3726,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "zipWithDST_",
           "package": "dph-prim-par",
@@ -3735,6 +3906,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive DistST",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.DistST",
           "name": "zipWithDST_",
           "normalized": "What-\u003eGang-\u003e(a-\u003eb-\u003eDistST c())-\u003eDist a-\u003eDist b-\u003eST c()",
@@ -3751,6 +3923,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGang primitives.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "Gang",
           "package": "dph-prim-par",
@@ -3760,6 +3933,7 @@
         "index": {
           "description": "Gang primitives",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive Gang",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "Gang",
           "package": "dph-prim-par",
@@ -3774,6 +3948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e is a group of threads which execute arbitrary work requests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "Gang",
           "package": "dph-prim-par",
@@ -3783,6 +3958,7 @@
         "index": {
           "description": "Gang is group of threads which execute arbitrary work requests",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive Gang",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "Gang",
           "package": "dph-prim-par",
@@ -3796,6 +3972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "Workload",
           "package": "dph-prim-par",
@@ -3804,6 +3981,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive Gang",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "Workload",
           "package": "dph-prim-par",
@@ -3818,6 +3996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemory bound copy-like workload, \n   of the given number of bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "WorkCopy",
           "package": "dph-prim-par",
@@ -3828,6 +4007,7 @@
         "index": {
           "description": "Memory bound copy-like workload of the given number of bytes",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive Gang",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "WorkCopy",
           "package": "dph-prim-par",
@@ -3842,6 +4022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnknown workload. Just run it in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "WorkUnknown",
           "package": "dph-prim-par",
@@ -3852,6 +4033,7 @@
         "index": {
           "description": "Unknown workload Just run it in parallel",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive Gang",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "WorkUnknown",
           "package": "dph-prim-par",
@@ -3893,6 +4075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIssue work requests for the \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e and wait until they have been executed.\n   If the gang is already busy then just run the action in the requesting\n   thread. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "gangIO",
           "package": "dph-prim-par",
@@ -3903,6 +4086,7 @@
         "index": {
           "description": "Issue work requests for the Gang and wait until they have been executed If the gang is already busy then just run the action in the requesting thread",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive Gang",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "gangIO",
           "normalized": "Gang-\u003eString-\u003eWorkload-\u003e(Int-\u003eIO())-\u003eIO()",
@@ -3919,6 +4103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003egangIO\u003c/a\u003e\u003c/code\u003e but in the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "gangST",
           "package": "dph-prim-par",
@@ -3929,6 +4114,7 @@
         "index": {
           "description": "Same as gangIO but in the ST monad",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive Gang",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Gang",
           "name": "gangST",
           "normalized": "Gang-\u003eString-\u003eWorkload-\u003e(Int-\u003eST a())-\u003eST a()",
@@ -3999,6 +4185,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStandard combinators for distributed types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Operators",
           "name": "Operators",
           "package": "dph-prim-par",
@@ -4008,6 +4195,7 @@
         "index": {
           "description": "Standard combinators for distributed types",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive Operators",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive.Operators",
           "name": "Operators",
           "package": "dph-prim-par",
@@ -4099,6 +4287,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStandard combinators for distributed types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "Primitive",
           "package": "dph-prim-par",
@@ -4108,6 +4297,7 @@
         "index": {
           "description": "Standard combinators for distributed types",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "Primitive",
           "package": "dph-prim-par",
@@ -4122,6 +4312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of distributable types. Instances of \u003ccode\u003e\u003ca\u003eDT\u003c/a\u003e\u003c/code\u003e can be\n   distributed across all workers of a \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e. \n   All such types must be hyperstrict as we do not want to pass thunks\n   into distributed computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "DT",
           "package": "dph-prim-par",
@@ -4131,6 +4322,7 @@
         "index": {
           "description": "Class of distributable types Instances of DT can be distributed across all workers of Gang All such types must be hyperstrict as we do not want to pass thunks into distributed computations",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "DT",
           "package": "dph-prim-par",
@@ -4145,6 +4337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e is a group of threads which execute arbitrary work requests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "Gang",
           "package": "dph-prim-par",
@@ -4154,6 +4347,7 @@
         "index": {
           "description": "Gang is group of threads which execute arbitrary work requests",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "Gang",
           "package": "dph-prim-par",
@@ -4168,6 +4362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure a distributed value is fully evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "deepSeqD",
           "package": "dph-prim-par",
@@ -4178,6 +4373,7 @@
         "index": {
           "description": "Ensure distributed value is fully evaluated",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "deepSeqD",
           "normalized": "a-\u003eb-\u003eb",
@@ -4194,6 +4390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a single element of an immutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "indexD",
           "package": "dph-prim-par",
@@ -4204,6 +4401,7 @@
         "index": {
           "description": "Extract single element of an immutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "indexD",
           "normalized": "String-\u003eDist a-\u003eInt-\u003ea",
@@ -4219,6 +4417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a distributed value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For debugging only.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "measureD",
           "package": "dph-prim-par",
@@ -4229,6 +4428,7 @@
         "index": {
           "description": "Show distributed value For debugging only",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "measureD",
           "normalized": "a-\u003eString",
@@ -4244,6 +4444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an unitialised distributed value for the given \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e.\n   The gang is used (only) to know how many elements are needed\n   in the distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "newMD",
           "package": "dph-prim-par",
@@ -4254,6 +4455,7 @@
         "index": {
           "description": "Create an unitialised distributed value for the given Gang The gang is used only to know how many elements are needed in the distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "newMD",
           "normalized": "Gang-\u003eST a(MDist b a)",
@@ -4270,6 +4472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract an element from a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "readMD",
           "package": "dph-prim-par",
@@ -4280,6 +4483,7 @@
         "index": {
           "description": "Extract an element from mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "readMD",
           "normalized": "MDist a b-\u003eInt-\u003eST b a",
@@ -4296,6 +4500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in the distributed value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For debugging only, as code shouldn't be sensitive to the return value.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "sizeD",
           "package": "dph-prim-par",
@@ -4306,6 +4511,7 @@
         "index": {
           "description": "Number of elements in the distributed value For debugging only as code shouldn be sensitive to the return value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "sizeD",
           "normalized": "Dist a-\u003eInt",
@@ -4321,6 +4527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in the mutable distributed value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For debugging only, as code shouldn't be sensitive to the return value.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "sizeMD",
           "package": "dph-prim-par",
@@ -4331,6 +4538,7 @@
         "index": {
           "description": "Number of elements in the mutable distributed value For debugging only as code shouldn be sensitive to the return value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "sizeMD",
           "normalized": "MDist a b-\u003eInt",
@@ -4372,6 +4580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafely freeze a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "unsafeFreezeMD",
           "package": "dph-prim-par",
@@ -4382,6 +4591,7 @@
         "index": {
           "description": "Unsafely freeze mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "unsafeFreezeMD",
           "normalized": "MDist a b-\u003eST b(Dist a)",
@@ -4398,6 +4608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an element of a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "writeMD",
           "package": "dph-prim-par",
@@ -4408,6 +4619,7 @@
         "index": {
           "description": "Write an element of mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed Primitive",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.Primitive",
           "name": "writeMD",
           "normalized": "MDist a b-\u003eInt-\u003ea-\u003eST b()",
@@ -4423,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "What",
           "package": "dph-prim-par",
@@ -4431,6 +4644,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed What",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "What",
           "package": "dph-prim-par",
@@ -4445,6 +4659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat distributed computation we are doing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "Comp",
           "package": "dph-prim-par",
@@ -4454,6 +4669,7 @@
         "index": {
           "description": "What distributed computation we are doing",
           "hierarchy": "Data Array Parallel Unlifted Distributed What",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "Comp",
           "package": "dph-prim-par",
@@ -4468,6 +4684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat sort of thing is being computed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "What",
           "package": "dph-prim-par",
@@ -4477,6 +4694,7 @@
         "index": {
           "description": "What sort of thing is being computed",
           "hierarchy": "Data Array Parallel Unlifted Distributed What",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "What",
           "package": "dph-prim-par",
@@ -4490,6 +4708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "CDist",
           "package": "dph-prim-par",
@@ -4499,6 +4718,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed What",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "CDist",
           "package": "dph-prim-par",
@@ -4512,6 +4732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "CFold",
           "package": "dph-prim-par",
@@ -4521,6 +4742,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed What",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "CFold",
           "package": "dph-prim-par",
@@ -4534,6 +4756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "CGen",
           "package": "dph-prim-par",
@@ -4543,6 +4766,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed What",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "CGen",
           "package": "dph-prim-par",
@@ -4556,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "CMap",
           "package": "dph-prim-par",
@@ -4565,6 +4790,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed What",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "CMap",
           "package": "dph-prim-par",
@@ -4578,6 +4804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "CScan",
           "package": "dph-prim-par",
@@ -4587,6 +4814,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Distributed What",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed.What",
           "name": "CScan",
           "package": "dph-prim-par",
@@ -4601,6 +4829,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDistributed types and operations.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e This is an internal API and shouldn't need to be used directly.\n     Client programs should use \u003ca\u003eData.Array.Parallel.Unlifted\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "Distributed",
           "package": "dph-prim-par",
@@ -4610,6 +4839,7 @@
         "index": {
           "description": "Distributed types and operations This is an internal API and shouldn need to be used directly Client programs should use Data.Array.Parallel.Unlifted",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "Distributed",
           "package": "dph-prim-par",
@@ -4624,6 +4854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of distributable types. Instances of \u003ccode\u003e\u003ca\u003eDT\u003c/a\u003e\u003c/code\u003e can be\n   distributed across all workers of a \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e. \n   All such types must be hyperstrict as we do not want to pass thunks\n   into distributed computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "DT",
           "package": "dph-prim-par",
@@ -4633,6 +4864,7 @@
         "index": {
           "description": "Class of distributable types Instances of DT can be distributed across all workers of Gang All such types must be hyperstrict as we do not want to pass thunks into distributed computations",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "DT",
           "package": "dph-prim-par",
@@ -4647,6 +4879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a phantom parameter used to record whether a distributed value\n   is balanced evenly among the threads. It's used to signal this property\n   between RULES, but the actual value is never used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "Distribution",
           "package": "dph-prim-par",
@@ -4656,6 +4889,7 @@
         "index": {
           "description": "This is phantom parameter used to record whether distributed value is balanced evenly among the threads It used to signal this property between RULES but the actual value is never used",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "Distribution",
           "package": "dph-prim-par",
@@ -4670,6 +4904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e is a group of threads which execute arbitrary work requests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "Gang",
           "package": "dph-prim-par",
@@ -4679,6 +4914,7 @@
         "index": {
           "description": "Gang is group of threads which execute arbitrary work requests",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "Gang",
           "package": "dph-prim-par",
@@ -4693,6 +4929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure a distributed value is fully evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "deepSeqD",
           "package": "dph-prim-par",
@@ -4703,6 +4940,7 @@
         "index": {
           "description": "Ensure distributed value is fully evaluated",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "deepSeqD",
           "normalized": "a-\u003eb-\u003eb",
@@ -4719,6 +4957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a single element of an immutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "indexD",
           "package": "dph-prim-par",
@@ -4729,6 +4968,7 @@
         "index": {
           "description": "Extract single element of an immutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "indexD",
           "normalized": "String-\u003eDist a-\u003eInt-\u003ea",
@@ -4744,6 +4984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a distributed value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For debugging only.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "measureD",
           "package": "dph-prim-par",
@@ -4754,6 +4995,7 @@
         "index": {
           "description": "Show distributed value For debugging only",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "measureD",
           "normalized": "a-\u003eString",
@@ -4769,6 +5011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an unitialised distributed value for the given \u003ccode\u003e\u003ca\u003eGang\u003c/a\u003e\u003c/code\u003e.\n   The gang is used (only) to know how many elements are needed\n   in the distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "newMD",
           "package": "dph-prim-par",
@@ -4779,6 +5022,7 @@
         "index": {
           "description": "Create an unitialised distributed value for the given Gang The gang is used only to know how many elements are needed in the distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "newMD",
           "normalized": "Gang-\u003eST a(MDist b a)",
@@ -4795,6 +5039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract an element from a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "readMD",
           "package": "dph-prim-par",
@@ -4805,6 +5050,7 @@
         "index": {
           "description": "Extract an element from mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "readMD",
           "normalized": "MDist a b-\u003eInt-\u003eST b a",
@@ -4821,6 +5067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in the distributed value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For debugging only, as code shouldn't be sensitive to the return value.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "sizeD",
           "package": "dph-prim-par",
@@ -4831,6 +5078,7 @@
         "index": {
           "description": "Number of elements in the distributed value For debugging only as code shouldn be sensitive to the return value",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "sizeD",
           "normalized": "Dist a-\u003eInt",
@@ -4846,6 +5094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in the mutable distributed value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For debugging only, as code shouldn't be sensitive to the return value.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "sizeMD",
           "package": "dph-prim-par",
@@ -4856,6 +5105,7 @@
         "index": {
           "description": "Number of elements in the mutable distributed value For debugging only as code shouldn be sensitive to the return value",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "sizeMD",
           "normalized": "MDist a b-\u003eInt",
@@ -4872,6 +5122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafely freeze a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "unsafeFreezeMD",
           "package": "dph-prim-par",
@@ -4882,6 +5133,7 @@
         "index": {
           "description": "Unsafely freeze mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "unsafeFreezeMD",
           "normalized": "MDist a b-\u003eST b(Dist a)",
@@ -4898,6 +5150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an element of a mutable distributed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "writeMD",
           "package": "dph-prim-par",
@@ -4908,6 +5161,7 @@
         "index": {
           "description": "Write an element of mutable distributed value",
           "hierarchy": "Data Array Parallel Unlifted Distributed",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Distributed",
           "name": "writeMD",
           "normalized": "MDist a b-\u003eInt-\u003ea-\u003eST b()",
@@ -4924,6 +5178,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic operations on parallel unlifted arrays.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Basics",
           "name": "Basics",
           "package": "dph-prim-par",
@@ -4933,6 +5188,7 @@
         "index": {
           "description": "Basic operations on parallel unlifted arrays",
           "hierarchy": "Data Array Parallel Unlifted Parallel Basics",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Basics",
           "name": "Basics",
           "package": "dph-prim-par",
@@ -5134,6 +5390,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParallel combinators for unlifted arrays. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Combinators",
           "name": "Combinators",
           "package": "dph-prim-par",
@@ -5143,6 +5400,7 @@
         "index": {
           "description": "Parallel combinators for unlifted arrays",
           "hierarchy": "Data Array Parallel Unlifted Parallel Combinators",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Combinators",
           "name": "Combinators",
           "package": "dph-prim-par",
@@ -5454,6 +5712,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEnum-related parallel operations on unlifted arrays\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Enum",
           "name": "Enum",
           "package": "dph-prim-par",
@@ -5463,6 +5722,7 @@
         "index": {
           "description": "Enum-related parallel operations on unlifted arrays",
           "hierarchy": "Data Array Parallel Unlifted Parallel Enum",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Enum",
           "name": "Enum",
           "package": "dph-prim-par",
@@ -5577,6 +5837,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParallel combinators for segmented unboxed arrays\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Extracts",
           "name": "Extracts",
           "package": "dph-prim-par",
@@ -5586,6 +5847,7 @@
         "index": {
           "description": "Parallel combinators for segmented unboxed arrays",
           "hierarchy": "Data Array Parallel Unlifted Parallel Extracts",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Extracts",
           "name": "Extracts",
           "package": "dph-prim-par",
@@ -5654,6 +5916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequential extracts from USSegd and Segmap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Extracts",
           "name": "extractsFromVectorsUPSSegdSegmap",
           "package": "dph-prim-par",
@@ -5664,6 +5927,7 @@
         "index": {
           "description": "Sequential extracts from USSegd and Segmap",
           "hierarchy": "Data Array Parallel Unlifted Parallel Extracts",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Extracts",
           "name": "extractsFromVectorsUPSSegdSegmap",
           "normalized": "UPSSegd-\u003eVectors a-\u003eVector Int-\u003eVector a",
@@ -5815,6 +6079,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParallel permutations for unlifted arrays\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Permute",
           "name": "Permute",
           "package": "dph-prim-par",
@@ -5824,6 +6089,7 @@
         "index": {
           "description": "Parallel permutations for unlifted arrays",
           "hierarchy": "Data Array Parallel Unlifted Parallel Permute",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Permute",
           "name": "Permute",
           "package": "dph-prim-par",
@@ -5892,6 +6158,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParallel combinators for segmented unboxed arrays\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Segmented",
           "name": "Segmented",
           "package": "dph-prim-par",
@@ -5901,6 +6168,7 @@
         "index": {
           "description": "Parallel combinators for segmented unboxed arrays",
           "hierarchy": "Data Array Parallel Unlifted Parallel Segmented",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Segmented",
           "name": "Segmented",
           "package": "dph-prim-par",
@@ -5965,6 +6233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented append.\n -old\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Segmented",
           "name": "appendSUP_old",
           "package": "dph-prim-par",
@@ -5975,6 +6244,7 @@
         "index": {
           "description": "Segmented append old",
           "hierarchy": "Data Array Parallel Unlifted Parallel Segmented",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Segmented",
           "name": "appendSUP_old",
           "normalized": "UPSegd-\u003eUPSegd-\u003eVector a-\u003eUPSegd-\u003eVector a-\u003eVector a",
@@ -6072,6 +6342,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSubarrays of flat unlifted arrays.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Subarrays",
           "name": "Subarrays",
           "package": "dph-prim-par",
@@ -6081,6 +6352,7 @@
         "index": {
           "description": "Subarrays of flat unlifted arrays",
           "hierarchy": "Data Array Parallel Unlifted Parallel Subarrays",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Subarrays",
           "name": "Subarrays",
           "package": "dph-prim-par",
@@ -6122,6 +6394,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSum-like parallel combinators for unlifted arrays\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Sums",
           "name": "Sums",
           "package": "dph-prim-par",
@@ -6131,6 +6404,7 @@
         "index": {
           "description": "Sum-like parallel combinators for unlifted arrays",
           "hierarchy": "Data Array Parallel Unlifted Parallel Sums",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Sums",
           "name": "Sums",
           "package": "dph-prim-par",
@@ -6388,6 +6662,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead/Show instances for segmented unlifted arrays.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Text",
           "name": "Text",
           "package": "dph-prim-par",
@@ -6397,6 +6672,7 @@
         "index": {
           "description": "Read Show instances for segmented unlifted arrays",
           "hierarchy": "Data Array Parallel Unlifted Parallel Text",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.Text",
           "name": "Text",
           "package": "dph-prim-par",
@@ -6411,6 +6687,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParallel Scattered Segment descriptors.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003eData.Array.Parallel.Unlifted\u003c/a\u003e for how this works.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "UPSSegd",
           "package": "dph-prim-par",
@@ -6420,6 +6697,7 @@
         "index": {
           "description": "Parallel Scattered Segment descriptors See Data.Array.Parallel.Unlifted for how this works",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "UPSSegd",
           "package": "dph-prim-par",
@@ -6434,6 +6712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel Scattered Segment sescriptor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "UPSSegd",
           "package": "dph-prim-par",
@@ -6443,6 +6722,7 @@
         "index": {
           "description": "Parallel Scattered Segment sescriptor",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "UPSSegd",
           "package": "dph-prim-par",
@@ -6457,6 +6737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n)\n   Produce a segment descriptor that describes the result of appending two\n   segmented arrays.\n\u003c/p\u003e\u003cp\u003eAppending two nested arrays is an index space transformation. Because\n   a \u003ccode\u003e\u003ca\u003eUPSSegd\u003c/a\u003e\u003c/code\u003e can contain segments from multiple flat data arrays, we can\n   represent the result of the append without copying elements from the\n   underlying flat data arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "appendWith",
           "package": "dph-prim-par",
@@ -6466,6 +6747,7 @@
         "index": {
           "description": "Produce segment descriptor that describes the result of appending two segmented arrays Appending two nested arrays is an index space transformation Because UPSSegd can contain segments from multiple flat data arrays we can represent the result of the append without copying elements from the underlying flat data arrays",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "appendWith",
           "normalized": "UPSSegd-\u003eInt-\u003eUPSSegd-\u003eInt-\u003eUPSSegd",
@@ -6482,6 +6764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield an empty segment descriptor, with no elements or segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "empty",
           "package": "dph-prim-par",
@@ -6492,6 +6775,7 @@
         "index": {
           "description": "Yield an empty segment descriptor with no elements or segments",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "empty",
           "package": "dph-prim-par",
@@ -6505,6 +6789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold segments specified by a \u003ccode\u003e\u003ca\u003eUPSSegd\u003c/a\u003e\u003c/code\u003e, with a non-empty vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "fold1WithP",
           "package": "dph-prim-par",
@@ -6515,6 +6800,7 @@
         "index": {
           "description": "Fold segments specified by UPSSegd with non-empty vector",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "fold1WithP",
           "normalized": "(a-\u003ea-\u003ea)-\u003eUPSSegd-\u003eVectors a-\u003eVector a",
@@ -6531,6 +6817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the segments specified by a \u003ccode\u003e\u003ca\u003eUPSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eLow level function takes a per-element worker and a per-segment worker.\n   It folds all the segments with the per-segment worker, then uses the\n   per-element worker to fixup the partial results when a segment \n   is split across multiple threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "foldSegsWithP",
           "package": "dph-prim-par",
@@ -6541,6 +6828,7 @@
         "index": {
           "description": "Fold the segments specified by UPSSegd Low level function takes per-element worker and per-segment worker It folds all the segments with the per-segment worker then uses the per-element worker to fixup the partial results when segment is split across multiple threads",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "foldSegsWithP",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(USSegd-\u003eVectors a-\u003eVector a)-\u003eUPSSegd-\u003eVectors a-\u003eVector a",
@@ -6557,6 +6845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold segments specified by a \u003ccode\u003e\u003ca\u003eUPSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "foldWithP",
           "package": "dph-prim-par",
@@ -6567,6 +6856,7 @@
         "index": {
           "description": "Fold segments specified by UPSSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "foldWithP",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eUPSSegd-\u003eVectors a-\u003eVector a",
@@ -6583,6 +6873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a plain \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eUPSSegd\u003c/a\u003e\u003c/code\u003e, by assuming that all segments\n   come from a single flat array with source id 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "fromUPSegd",
           "package": "dph-prim-par",
@@ -6593,6 +6884,7 @@
         "index": {
           "description": "Promote plain UPSegd to UPSSegd by assuming that all segments come from single flat array with source id",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "fromUPSegd",
           "normalized": "UPSegd-\u003eUPSSegd",
@@ -6609,6 +6901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a global \u003ccode\u003e\u003ca\u003eUSSegd\u003c/a\u003e\u003c/code\u003e to a parallel \u003ccode\u003e\u003ca\u003eUPSSegd\u003c/a\u003e\u003c/code\u003e by distributing\n   it across the gang.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "fromUSSegd",
           "package": "dph-prim-par",
@@ -6619,6 +6912,7 @@
         "index": {
           "description": "Promote global USSegd to parallel UPSSegd by distributing it across the gang",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "fromUSSegd",
           "normalized": "USSegd-\u003eUPSSegd",
@@ -6635,6 +6929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Get the length, segment index, starting index, and source id of a segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "getSeg",
           "package": "dph-prim-par",
@@ -6645,6 +6940,7 @@
         "index": {
           "description": "Get the length segment index starting index and source id of segment",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "getSeg",
           "normalized": "UPSSegd-\u003eInt-\u003e(Int,Int,Int,Int)",
@@ -6661,6 +6957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). True when the starts are identical to the usegd indices field and\n   the sources are all 0's. \n\u003c/p\u003e\u003cp\u003eIn this case all the data elements are in one contiguous flat\n   array, and consumers can avoid looking at the real starts and\n   sources fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "isContiguous",
           "package": "dph-prim-par",
@@ -6671,6 +6968,7 @@
         "index": {
           "description": "True when the starts are identical to the usegd indices field and the sources are all In this case all the data elements are in one contiguous flat array and consumers can avoid looking at the real starts and sources fields",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "isContiguous",
           "normalized": "UPSSegd-\u003eBool",
@@ -6687,6 +6985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the overall number of segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "length",
           "package": "dph-prim-par",
@@ -6697,6 +6996,7 @@
         "index": {
           "description": "Yield the overall number of segments",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "length",
           "normalized": "UPSSegd-\u003eInt",
@@ -6712,6 +7012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new segment descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "mkUPSSegd",
           "package": "dph-prim-par",
@@ -6721,6 +7022,7 @@
         "index": {
           "description": "Construct new segment descriptor",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "mkUPSSegd",
           "normalized": "Vector Int-\u003eVector Int-\u003eUPSegd-\u003eUPSSegd",
@@ -6737,6 +7039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1).\n   Yield a singleton segment descriptor.\n   The single segment covers the given number of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "singleton",
           "package": "dph-prim-par",
@@ -6747,6 +7050,7 @@
         "index": {
           "description": "Yield singleton segment descriptor The single segment covers the given number of elements",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "singleton",
           "normalized": "Int-\u003eUPSSegd",
@@ -6762,6 +7066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum up segments specified by a \u003ccode\u003e\u003ca\u003eUPSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "sumWithP",
           "package": "dph-prim-par",
@@ -6772,6 +7077,7 @@
         "index": {
           "description": "Sum up segments specified by UPSSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "sumWithP",
           "normalized": "UPSSegd-\u003eVectors a-\u003eVector a",
@@ -6788,6 +7094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the distributed \u003ccode\u003eUSegd\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeDistributed",
           "package": "dph-prim-par",
@@ -6798,6 +7105,7 @@
         "index": {
           "description": "Yield the distributed USegd of UPSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeDistributed",
           "normalized": "UPSSegd-\u003eDist((USSegd,Int),Int)",
@@ -6814,6 +7122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the total number of data elements.\n\u003c/p\u003e\u003cpre\u003etakeElements upssegd = sum (takeLengths upssegd)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeElements",
           "package": "dph-prim-par",
@@ -6824,6 +7133,7 @@
         "index": {
           "description": "Yield the total number of data elements takeElements upssegd sum takeLengths upssegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeElements",
           "normalized": "UPSSegd-\u003eInt",
@@ -6840,6 +7150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the segment indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeIndices",
           "package": "dph-prim-par",
@@ -6850,6 +7161,7 @@
         "index": {
           "description": "Yield the segment indices",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeIndices",
           "normalized": "UPSSegd-\u003eVector Int",
@@ -6866,6 +7178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the lengths of the individual segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeLengths",
           "package": "dph-prim-par",
@@ -6876,6 +7189,7 @@
         "index": {
           "description": "Yield the lengths of the individual segments",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeLengths",
           "normalized": "UPSSegd-\u003eVector Int",
@@ -6892,6 +7206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the source ids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeSources",
           "package": "dph-prim-par",
@@ -6902,6 +7217,7 @@
         "index": {
           "description": "Yield the source ids",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeSources",
           "normalized": "UPSSegd-\u003eVector Int",
@@ -6918,6 +7234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the starting indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeStarts",
           "package": "dph-prim-par",
@@ -6928,6 +7245,7 @@
         "index": {
           "description": "Yield the starting indices",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeStarts",
           "normalized": "UPSSegd-\u003eVector Int",
@@ -6944,6 +7262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the global \u003ccode\u003eUSegd\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeUSSegd",
           "package": "dph-prim-par",
@@ -6954,6 +7273,7 @@
         "index": {
           "description": "Yield the global USegd of UPSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "takeUSSegd",
           "normalized": "UPSSegd-\u003eUSSegd",
@@ -6970,6 +7290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1).\n   Check the internal consistency of a scattered segment descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "valid",
           "package": "dph-prim-par",
@@ -6980,6 +7301,7 @@
         "index": {
           "description": "Check the internal consistency of scattered segment descriptor",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSSegd",
           "name": "valid",
           "normalized": "UPSSegd-\u003eBool",
@@ -6995,6 +7317,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParallel segment descriptors.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003eData.Array.Parallel.Unlifted\u003c/a\u003e for how this works.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "UPSegd",
           "package": "dph-prim-par",
@@ -7004,6 +7327,7 @@
         "index": {
           "description": "Parallel segment descriptors See Data.Array.Parallel.Unlifted for how this works",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "UPSegd",
           "package": "dph-prim-par",
@@ -7018,6 +7342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parallel segment descriptor holds a global (undistributed) segment\n   desciptor, as well as a distributed version. The distributed version\n   describes how to split work on the segmented array over the gang. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "UPSegd",
           "package": "dph-prim-par",
@@ -7027,6 +7352,7 @@
         "index": {
           "description": "parallel segment descriptor holds global undistributed segment desciptor as well as distributed version The distributed version describes how to split work on the segmented array over the gang",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "UPSegd",
           "package": "dph-prim-par",
@@ -7040,6 +7366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "UPSegd",
           "package": "dph-prim-par",
@@ -7049,6 +7376,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "UPSegd",
           "package": "dph-prim-par",
@@ -7063,6 +7391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct an empty segment descriptor, with no elements or segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "empty",
           "package": "dph-prim-par",
@@ -7073,6 +7402,7 @@
         "index": {
           "description": "Construct an empty segment descriptor with no elements or segments",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "empty",
           "package": "dph-prim-par",
@@ -7086,6 +7416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold segments specified by a \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e, with a non-empty vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "fold1WithP",
           "package": "dph-prim-par",
@@ -7096,6 +7427,7 @@
         "index": {
           "description": "Fold segments specified by UPSegd with non-empty vector",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "fold1WithP",
           "normalized": "(a-\u003ea-\u003ea)-\u003eUPSegd-\u003eVector a-\u003eVector a",
@@ -7112,6 +7444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the segments specified by a \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis low level function takes a per-element worker and a per-segment worker.\n   It folds all the segments with the per-segment worker, then uses the\n   per-element worker to fixup the partial results when a segment \n   is split across multiple threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "foldSegsWithP",
           "package": "dph-prim-par",
@@ -7122,6 +7455,7 @@
         "index": {
           "description": "Fold the segments specified by UPSegd This low level function takes per-element worker and per-segment worker It folds all the segments with the per-segment worker then uses the per-element worker to fixup the partial results when segment is split across multiple threads",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "foldSegsWithP",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(USegd-\u003eVector a-\u003eVector a)-\u003eUPSegd-\u003eVector a-\u003eVector a",
@@ -7138,6 +7472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold segments specified by a \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "foldWithP",
           "package": "dph-prim-par",
@@ -7148,6 +7483,7 @@
         "index": {
           "description": "Fold segments specified by UPSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "foldWithP",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eUPSegd-\u003eVector a-\u003eVector a",
@@ -7164,6 +7500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Convert an array of segment lengths into a parallel segment descriptor.\n\u003c/p\u003e\u003cp\u003eThe array contains the length of each segment, and we compute the \n   indices from that. Runtime is O(n) in the number of segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "fromLengths",
           "package": "dph-prim-par",
@@ -7174,6 +7511,7 @@
         "index": {
           "description": "Convert an array of segment lengths into parallel segment descriptor The array contains the length of each segment and we compute the indices from that Runtime is in the number of segments",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "fromLengths",
           "normalized": "Vector Int-\u003eUPSegd",
@@ -7190,6 +7528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a global \u003ccode\u003e\u003ca\u003eUSegd\u003c/a\u003e\u003c/code\u003e to a parallel \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e by distributing \n   it across the gang.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "fromUSegd",
           "package": "dph-prim-par",
@@ -7200,6 +7539,7 @@
         "index": {
           "description": "Convert global USegd to parallel UPSegd by distributing it across the gang",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "fromUSegd",
           "normalized": "USegd-\u003eUPSegd",
@@ -7216,6 +7556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Yield a vector containing indicies that give the position of each \n         member of the flat array in its corresponding segment.\n\u003c/p\u003e\u003cpre\u003eindicesP (fromLengths [5, 2, 3]) = [0,1,2,3,4,0,1,0,1,2]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "indicesP",
           "package": "dph-prim-par",
@@ -7226,6 +7567,7 @@
         "index": {
           "description": "Yield vector containing indicies that give the position of each member of the flat array in its corresponding segment indicesP fromLengths",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "indicesP",
           "normalized": "UPSegd-\u003eVector Int",
@@ -7241,6 +7583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the overall number of segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "length",
           "package": "dph-prim-par",
@@ -7251,6 +7594,7 @@
         "index": {
           "description": "Yield the overall number of segments",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "length",
           "normalized": "UPSegd-\u003eInt",
@@ -7266,6 +7610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct a new parallel segment descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "mkUPSegd",
           "package": "dph-prim-par",
@@ -7275,6 +7620,7 @@
         "index": {
           "description": "Construct new parallel segment descriptor",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "mkUPSegd",
           "normalized": "Vector Int-\u003eVector Int-\u003eInt-\u003eUPSegd",
@@ -7291,6 +7637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopying segmented replication. Each element of the vector is physically \n   copied according to the length of each segment in the segment descriptor.\n\u003c/p\u003e\u003cpre\u003ereplicateWith (fromLengths [3, 1, 2]) [5, 6, 7] = [5, 5, 5, 6, 7, 7]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "replicateWithP",
           "package": "dph-prim-par",
@@ -7301,6 +7648,7 @@
         "index": {
           "description": "Copying segmented replication Each element of the vector is physically copied according to the length of each segment in the segment descriptor replicateWith fromLengths",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "replicateWithP",
           "normalized": "UPSegd-\u003eVector a-\u003eVector a",
@@ -7317,6 +7665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct a singleton segment descriptor.\n   The single segment covers the given number of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "singleton",
           "package": "dph-prim-par",
@@ -7327,6 +7676,7 @@
         "index": {
           "description": "Construct singleton segment descriptor The single segment covers the given number of elements",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "singleton",
           "normalized": "Int-\u003eUPSegd",
@@ -7342,6 +7692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum up segments specified by a \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "sumWithP",
           "package": "dph-prim-par",
@@ -7352,6 +7703,7 @@
         "index": {
           "description": "Sum up segments specified by UPSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "sumWithP",
           "normalized": "UPSegd-\u003eVector a-\u003eVector a",
@@ -7368,6 +7720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the distributed \u003ccode\u003e\u003ca\u003eUSegd\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWe get a plain \u003ccode\u003e\u003ca\u003eUSegd\u003c/a\u003e\u003c/code\u003e for each chunk, the segment id of the first\n  slice in the chunk, and the starting offset of that slice in its segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "takeDistributed",
           "package": "dph-prim-par",
@@ -7378,6 +7731,7 @@
         "index": {
           "description": "Yield the distributed USegd of UPSegd We get plain USegd for each chunk the segment id of the first slice in the chunk and the starting offset of that slice in its segment",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "takeDistributed",
           "normalized": "UPSegd-\u003eDist((USegd,Int),Int)",
@@ -7394,6 +7748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the total number of array elements.\n\u003c/p\u003e\u003cpre\u003etakeElements upsegd = sum (takeLengths upsegd)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "takeElements",
           "package": "dph-prim-par",
@@ -7404,6 +7759,7 @@
         "index": {
           "description": "Yield the total number of array elements takeElements upsegd sum takeLengths upsegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "takeElements",
           "normalized": "UPSegd-\u003eInt",
@@ -7420,6 +7776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the segment indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "takeIndices",
           "package": "dph-prim-par",
@@ -7430,6 +7787,7 @@
         "index": {
           "description": "Yield the segment indices",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "takeIndices",
           "normalized": "UPSegd-\u003eVector Int",
@@ -7446,6 +7804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the lengths of the individual segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "takeLengths",
           "package": "dph-prim-par",
@@ -7456,6 +7815,7 @@
         "index": {
           "description": "Yield the lengths of the individual segments",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "takeLengths",
           "normalized": "UPSegd-\u003eVector Int",
@@ -7472,6 +7832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the global \u003ccode\u003e\u003ca\u003eUSegd\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "takeUSegd",
           "package": "dph-prim-par",
@@ -7482,6 +7843,7 @@
         "index": {
           "description": "Yield the global USegd of UPSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "takeUSegd",
           "normalized": "UPSegd-\u003eUSegd",
@@ -7498,6 +7860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment descriptor for each chunk, \n   along with segment id of first slice in the chunk,\n   and the offset of that slice in its segment.\n   See docs of \u003ccode\u003esplitSegdOfElemsD\u003c/code\u003e for an example.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "upsegd_dsegd",
           "package": "dph-prim-par",
@@ -7508,6 +7871,7 @@
         "index": {
           "description": "Segment descriptor for each chunk along with segment id of first slice in the chunk and the offset of that slice in its segment See docs of splitSegdOfElemsD for an example",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "upsegd_dsegd",
           "normalized": "Dist((USegd,Int),Int)",
@@ -7523,6 +7887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment descriptor that describes the whole array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "upsegd_usegd",
           "package": "dph-prim-par",
@@ -7533,6 +7898,7 @@
         "index": {
           "description": "Segment descriptor that describes the whole array",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "upsegd_usegd",
           "package": "dph-prim-par",
@@ -7546,6 +7912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1).\n   Check the internal consistency of a parallel segment descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "valid",
           "package": "dph-prim-par",
@@ -7556,6 +7923,7 @@
         "index": {
           "description": "Check the internal consistency of parallel segment descriptor",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSegd",
           "name": "valid",
           "normalized": "UPSegd-\u003eBool",
@@ -7571,6 +7939,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParallel selectors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "UPSel",
           "package": "dph-prim-par",
@@ -7580,6 +7949,7 @@
         "index": {
           "description": "Parallel selectors",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "UPSel",
           "package": "dph-prim-par",
@@ -7594,6 +7964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains a selector \u003ccode\u003e\u003ca\u003eUSel2\u003c/a\u003e\u003c/code\u003e, as well as an \u003ccode\u003eUSelRep2\u003c/code\u003e which says how \n   to distribute this selector across the PEs. \n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003edph-prim-seq:Data.Array.Parallel.Unlifted.Sequential.Segmented.USel\u003c/code\u003e\n   for more discussion of what selectors are for.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "UPSel2",
           "package": "dph-prim-par",
@@ -7603,6 +7974,7 @@
         "index": {
           "description": "Contains selector USel2 as well as an USelRep2 which says how to distribute this selector across the PEs See dph-prim-seq Data.Array.Parallel.Unlifted.Sequential.Segmented.USel for more discussion of what selectors are for",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "UPSel2",
           "package": "dph-prim-par",
@@ -7616,6 +7988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "UPSelRep2",
           "package": "dph-prim-par",
@@ -7624,6 +7997,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "UPSelRep2",
           "package": "dph-prim-par",
@@ -7638,6 +8012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Get the number of elements that will be taken from the first array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "elementsUPSel2_0",
           "package": "dph-prim-par",
@@ -7648,6 +8023,7 @@
         "index": {
           "description": "Get the number of elements that will be taken from the first array",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "elementsUPSel2_0",
           "normalized": "UPSel-\u003eInt",
@@ -7664,6 +8040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Get the number of elements that will be taken from the second array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "elementsUPSel2_1",
           "package": "dph-prim-par",
@@ -7674,6 +8051,7 @@
         "index": {
           "description": "Get the number of elements that will be taken from the second array",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "elementsUPSel2_1",
           "normalized": "UPSel-\u003eInt",
@@ -7690,6 +8068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Count the number of elements to take from the first array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "elementsUPSelRep2_0",
           "package": "dph-prim-par",
@@ -7700,6 +8079,7 @@
         "index": {
           "description": "Count the number of elements to take from the first array",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "elementsUPSelRep2_0",
           "normalized": "Vector Tag-\u003eUPSelRep-\u003eInt",
@@ -7716,6 +8096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Count the number of elements to take from the second array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "elementsUPSelRep2_1",
           "package": "dph-prim-par",
@@ -7726,6 +8107,7 @@
         "index": {
           "description": "Count the number of elements to take from the second array",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "elementsUPSelRep2_1",
           "normalized": "Vector Tag-\u003eUPSelRep-\u003eInt",
@@ -7742,6 +8124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Get the indices of a selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "indicesUPSel2",
           "package": "dph-prim-par",
@@ -7752,6 +8135,7 @@
         "index": {
           "description": "Get the indices of selector",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "indicesUPSel2",
           "normalized": "UPSel-\u003eVector Int",
@@ -7767,6 +8151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "indicesUPSelRep2",
           "package": "dph-prim-par",
@@ -7776,6 +8161,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "indicesUPSelRep2",
           "normalized": "Vector Tag-\u003eUPSelRep-\u003eVector Int",
@@ -7792,6 +8178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct a selector. Wrapper for \u003ccode\u003e\u003ca\u003eUPSel2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "mkUPSel2",
           "package": "dph-prim-par",
@@ -7802,6 +8189,7 @@
         "index": {
           "description": "Construct selector Wrapper for UPSel2",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "mkUPSel2",
           "normalized": "Vector Tag-\u003eVector Int-\u003eInt-\u003eInt-\u003eUPSelRep-\u003eUPSel",
@@ -7818,6 +8206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes a \u003ccode\u003e\u003ca\u003eUPSelRep2\u003c/a\u003e\u003c/code\u003e from an array of tags.\n   This is used when parallelising a \u003ccode\u003e\u003ca\u003ecombine\u003c/a\u003e\u003c/code\u003e operation.\n   See the docs for \u003ccode\u003e\u003ca\u003eUPSelRep2\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "mkUPSelRep2",
           "package": "dph-prim-par",
@@ -7828,6 +8217,7 @@
         "index": {
           "description": "Computes UPSelRep2 from an array of tags This is used when parallelising combine operation See the docs for UPSelRep2 for details",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "mkUPSelRep2",
           "normalized": "Vector Tag-\u003eUPSelRep",
@@ -7844,6 +8234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Take the \u003ccode\u003e\u003ca\u003eUPSelRep2\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eUPSel2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "repUPSel2",
           "package": "dph-prim-par",
@@ -7854,6 +8245,7 @@
         "index": {
           "description": "Take the UPSelRep2 from UPSel2",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "repUPSel2",
           "normalized": "UPSel-\u003eUPSelRep",
@@ -7870,6 +8262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Take the sequential \u003ccode\u003e\u003ca\u003eUSel2\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eUPSel2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "selUPSel2",
           "package": "dph-prim-par",
@@ -7880,6 +8273,7 @@
         "index": {
           "description": "Take the sequential USel2 from UPSel2",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "selUPSel2",
           "normalized": "UPSel-\u003eUSel",
@@ -7896,6 +8290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Get the tags of a selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "tagsUPSel2",
           "package": "dph-prim-par",
@@ -7906,6 +8301,7 @@
         "index": {
           "description": "Get the tags of selector",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPSel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPSel",
           "name": "tagsUPSel2",
           "normalized": "UPSel-\u003eVector Tag",
@@ -7922,6 +8318,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParallel virtual segment descriptors.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003eData.Array.Parallel.Unlifted\u003c/a\u003e for how this works.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "UPVSegd",
           "package": "dph-prim-par",
@@ -7931,6 +8328,7 @@
         "index": {
           "description": "Parallel virtual segment descriptors See Data.Array.Parallel.Unlifted for how this works",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "UPVSegd",
           "package": "dph-prim-par",
@@ -7945,6 +8343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel Virtual Segment descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "UPVSegd",
           "package": "dph-prim-par",
@@ -7954,6 +8353,7 @@
         "index": {
           "description": "Parallel Virtual Segment descriptor",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "UPVSegd",
           "package": "dph-prim-par",
@@ -7968,6 +8368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a segment descriptor that describes the result of appending two arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "appendWith",
           "package": "dph-prim-par",
@@ -7977,6 +8378,7 @@
         "index": {
           "description": "Produce segment descriptor that describes the result of appending two arrays",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "appendWith",
           "normalized": "UPVSegd-\u003eInt-\u003eUPVSegd-\u003eInt-\u003eUPVSegd",
@@ -7993,6 +8395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two virtual segment descriptors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "combine2",
           "package": "dph-prim-par",
@@ -8002,6 +8405,7 @@
         "index": {
           "description": "Combine two virtual segment descriptors",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "combine2",
           "normalized": "UPSel-\u003eUPVSegd-\u003eInt-\u003eUPVSegd-\u003eInt-\u003eUPVSegd",
@@ -8017,6 +8421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct an empty segment descriptor, with no elements or segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "empty",
           "package": "dph-prim-par",
@@ -8027,6 +8432,7 @@
         "index": {
           "description": "Construct an empty segment descriptor with no elements or segments",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "empty",
           "package": "dph-prim-par",
@@ -8040,6 +8446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(segs). Promote a \u003ccode\u003e\u003ca\u003eUPSSegd\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e.\n   The result contains one virtual segment for every physical segment\n   defined by the \u003ccode\u003e\u003ca\u003eUPSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "fromUPSSegd",
           "package": "dph-prim-par",
@@ -8050,6 +8457,7 @@
         "index": {
           "description": "segs Promote UPSSegd to UPVSegd The result contains one virtual segment for every physical segment defined by the UPSSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "fromUPSSegd",
           "normalized": "UPSSegd-\u003eUPVSegd",
@@ -8066,6 +8474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(segs). Promote a \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e.\n   All segments are assumed to come from a flat array with sourceid 0.\n   The result contains one virtual segment for every physical segment\n   the provided \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "fromUPSegd",
           "package": "dph-prim-par",
@@ -8076,6 +8485,7 @@
         "index": {
           "description": "segs Promote UPSegd to UPVSegd All segments are assumed to come from flat array with sourceid The result contains one virtual segment for every physical segment the provided UPSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "fromUPSegd",
           "normalized": "UPSegd-\u003eUPVSegd",
@@ -8092,6 +8502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Get the length, starting index, and source id of a segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "getSeg",
           "package": "dph-prim-par",
@@ -8102,6 +8513,7 @@
         "index": {
           "description": "Get the length starting index and source id of segment",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "getSeg",
           "normalized": "UPVSegd-\u003eInt-\u003e(Int,Int,Int)",
@@ -8118,6 +8530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). True when the starts are identical to the usegd indices field and\n   the sources are all 0's. \n\u003c/p\u003e\u003cp\u003eIn this case all the data elements are in one contiguous flat\n   array, and consumers can avoid looking at the real starts and\n   sources fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "isContiguous",
           "package": "dph-prim-par",
@@ -8128,6 +8541,7 @@
         "index": {
           "description": "True when the starts are identical to the usegd indices field and the sources are all In this case all the data elements are in one contiguous flat array and consumers can avoid looking at the real starts and sources fields",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "isContiguous",
           "normalized": "UPVSegd-\u003eBool",
@@ -8144,6 +8558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Checks whether all the segments are manifest (unshared / non-virtual).\n   If this is the case, then the vsegids field will be [0..len-1]. \n\u003c/p\u003e\u003cp\u003eConsumers can check this field, avoid demanding the vsegids field.\n   This can avoid the need for it to be constructed in the first place, due to\n   lazy evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "isManifest",
           "package": "dph-prim-par",
@@ -8154,6 +8569,7 @@
         "index": {
           "description": "Checks whether all the segments are manifest unshared non-virtual If this is the case then the vsegids field will be len-1 Consumers can check this field avoid demanding the vsegids field This can avoid the need for it to be constructed in the first place due to lazy evaluation",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "isManifest",
           "normalized": "UPVSegd-\u003eBool",
@@ -8170,6 +8586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the overall number of segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "length",
           "package": "dph-prim-par",
@@ -8180,6 +8597,7 @@
         "index": {
           "description": "Yield the overall number of segments",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "length",
           "normalized": "UPVSegd-\u003eInt",
@@ -8195,6 +8613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct a new virtual segment descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "mkUPVSegd",
           "package": "dph-prim-par",
@@ -8204,6 +8623,7 @@
         "index": {
           "description": "Construct new virtual segment descriptor",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "mkUPVSegd",
           "normalized": "Vector Int-\u003eUPSSegd-\u003eUPVSegd",
@@ -8220,6 +8640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct a \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e that describes an array created by replicating\n   a single segment several times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "replicated",
           "package": "dph-prim-par",
@@ -8229,6 +8650,7 @@
         "index": {
           "description": "Construct UPVSegd that describes an array created by replicating single segment several times",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "replicated",
           "normalized": "Int-\u003eInt-\u003eUPVSegd",
@@ -8244,6 +8666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct a singleton segment descriptor.\n   The single segment covers the given number of elements in a flat array\n   with sourceid 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "singleton",
           "package": "dph-prim-par",
@@ -8254,6 +8677,7 @@
         "index": {
           "description": "Construct singleton segment descriptor The single segment covers the given number of elements in flat array with sourceid",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "singleton",
           "normalized": "Int-\u003eUPVSegd",
@@ -8269,6 +8693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) or O(segs). Yield \u003ccode\u003e\u003ca\u003eUSegd\u003c/a\u003e\u003c/code\u003es distributed over a logical view of this \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e.\n   The complexity is only O(1) if this has already been evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "takeDistributed",
           "package": "dph-prim-par",
@@ -8279,6 +8704,7 @@
         "index": {
           "description": "or segs Yield USegd distributed over logical view of this UPVSegd The complexity is only if this has already been evaluated",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "takeDistributed",
           "normalized": "UPVSegd-\u003eDist((USegd,Int),Int)",
@@ -8295,6 +8721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(segs). Yield the lengths of the segments described by a \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "takeLengths",
           "package": "dph-prim-par",
@@ -8305,6 +8732,7 @@
         "index": {
           "description": "segs Yield the lengths of the segments described by UPVSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "takeLengths",
           "normalized": "UPVSegd-\u003eVector Int",
@@ -8321,6 +8749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the \u003ccode\u003e\u003ca\u003eUPSSegd\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "takeUPSSegd",
           "package": "dph-prim-par",
@@ -8331,6 +8760,7 @@
         "index": {
           "description": "Yield the UPSSegd of UPVSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "takeUPSSegd",
           "normalized": "UPVSegd-\u003eUPSSegd",
@@ -8347,6 +8777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Take the \u003ccode\u003e\u003ca\u003eUPSSegd\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e, but don't require that every physical\n   segment is referenced by some virtual segment.\n\u003c/p\u003e\u003cp\u003eSee the note in \u003ccode\u003e\u003ca\u003etakeVSegidsRedundant\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "takeUPSSegdRedundant",
           "package": "dph-prim-par",
@@ -8357,6 +8788,7 @@
         "index": {
           "description": "Take the UPSSegd of UPVSegd but don require that every physical segment is referenced by some virtual segment See the note in takeVSegidsRedundant",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "takeUPSSegdRedundant",
           "normalized": "UPVSegd-\u003eUPSSegd",
@@ -8373,6 +8805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the virtual segment ids of \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "takeVSegids",
           "package": "dph-prim-par",
@@ -8383,6 +8816,7 @@
         "index": {
           "description": "Yield the virtual segment ids of UPVSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "takeVSegids",
           "normalized": "UPVSegd-\u003eVector Int",
@@ -8399,6 +8833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Take the vsegids of a \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e, but don't require that every physical\n   segment is referenced by some virtual segment.\n\u003c/p\u003e\u003cp\u003eIf you're just performing indexing and don't need the invariant that all\n   physical segments are reachable from some virtual segment, then use this\n   version as it's faster. This sidesteps the code that maintains the invariant.\n\u003c/p\u003e\u003cp\u003eThe stated O(1) complexity assumes that the array has already been fully\n   evalauted. If this is not the case then we can avoid demanding the result\n   of a prior computation on the vsegids, thus reducing the cost attributed\n   to that prior computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "takeVSegidsRedundant",
           "package": "dph-prim-par",
@@ -8409,6 +8844,7 @@
         "index": {
           "description": "Take the vsegids of UPVSegd but don require that every physical segment is referenced by some virtual segment If you re just performing indexing and don need the invariant that all physical segments are reachable from some virtual segment then use this version as it faster This sidesteps the code that maintains the invariant The stated complexity assumes that the array has already been fully evalauted If this is not the case then we can avoid demanding the result of prior computation on the vsegids thus reducing the cost attributed to that prior computation",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "takeVSegidsRedundant",
           "normalized": "UPVSegd-\u003eVector Int",
@@ -8425,6 +8861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(segs). Yield a \u003ccode\u003e\u003ca\u003eUPSSegd\u003c/a\u003e\u003c/code\u003e that describes each segment of a \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e\n   individually.\n\u003c/p\u003e\u003cp\u003eBy doing this we lose information about which virtual segments\n   correspond to the same physical segments.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWARNING\u003c/em\u003e: Trying to take the \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e of a nested array that has been\n   constructed with replication can cause index space overflow. This is\n   because the virtual size of the corresponding flat data can be larger\n   than physical memory. If this happens then indices fields and \n   element count in the result will be invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "unsafeDemoteToUPSSegd",
           "package": "dph-prim-par",
@@ -8435,6 +8872,7 @@
         "index": {
           "description": "segs Yield UPSSegd that describes each segment of UPVSegd individually By doing this we lose information about which virtual segments correspond to the same physical segments WARNING Trying to take the UPSegd of nested array that has been constructed with replication can cause index space overflow This is because the virtual size of the corresponding flat data can be larger than physical memory If this happens then indices fields and element count in the result will be invalid",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "unsafeDemoteToUPSSegd",
           "normalized": "UPVSegd-\u003eUPSSegd",
@@ -8451,6 +8889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(segs). Yield a \u003ccode\u003e\u003ca\u003eUPSegd\u003c/a\u003e\u003c/code\u003e that describes each segment of a \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e\n   individually, assuming all segments have been concatenated to \n   remove scattering.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e See the warning in \u003ccode\u003e\u003ca\u003eunsafeDemoteToUPSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "unsafeDemoteToUPSegd",
           "package": "dph-prim-par",
@@ -8461,6 +8900,7 @@
         "index": {
           "description": "segs Yield UPSegd that describes each segment of UPVSegd individually assuming all segments have been concatenated to remove scattering See the warning in unsafeDemoteToUPSSegd",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "unsafeDemoteToUPSegd",
           "normalized": "UPVSegd-\u003eUPSegd",
@@ -8477,6 +8917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the vsegids of a \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e, and then cull the physical\n   segment descriptor so that all physical segments are reachable from\n   some virtual segment.\n\u003c/p\u003e\u003cp\u003eThis function lets you perform filtering operations on the virtual segments,\n   while maintaining the invariant that all physical segments are referenced\n   by some virtual segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "updateVSegs",
           "package": "dph-prim-par",
@@ -8487,6 +8928,7 @@
         "index": {
           "description": "Update the vsegids of UPVSegd and then cull the physical segment descriptor so that all physical segments are reachable from some virtual segment This function lets you perform filtering operations on the virtual segments while maintaining the invariant that all physical segments are referenced by some virtual segment",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "updateVSegs",
           "normalized": "(Vector Int-\u003eVector Int)-\u003eUPVSegd-\u003eUPVSegd",
@@ -8503,6 +8945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the vsegids  of \u003ccode\u003e\u003ca\u003eUPVSegd\u003c/a\u003e\u003c/code\u003e, where the result is guaranteed to\n   cover all physical segments.\n\u003c/p\u003e\u003cp\u003eUsing this version saves performing the \u003ccode\u003ecull\u003c/code\u003e operation which \n   discards unreachable physical segments.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The resulting vsegids must cover all physical segments.\n     If they do not then there will be physical segments that are not \n     reachable from some virtual segment, and subsequent operations\n     like segmented fold will have the wrong work complexity.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "updateVSegsReachable",
           "package": "dph-prim-par",
@@ -8513,6 +8956,7 @@
         "index": {
           "description": "Update the vsegids of UPVSegd where the result is guaranteed to cover all physical segments Using this version saves performing the cull operation which discards unreachable physical segments The resulting vsegids must cover all physical segments If they do not then there will be physical segments that are not reachable from some virtual segment and subsequent operations like segmented fold will have the wrong work complexity",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "updateVSegsReachable",
           "normalized": "(Vector Int-\u003eVector Int)-\u003eUPVSegd-\u003eUPVSegd",
@@ -8529,6 +8973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Check the internal consistency of a virutal segmentation descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "valid",
           "package": "dph-prim-par",
@@ -8539,6 +8984,7 @@
         "index": {
           "description": "Check the internal consistency of virutal segmentation descriptor",
           "hierarchy": "Data Array Parallel Unlifted Parallel UPVSegd",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel.UPVSegd",
           "name": "valid",
           "normalized": "UPVSegd-\u003eBool",
@@ -8554,6 +9000,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParallel operations on unlifted arrays\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e This is an internal API and shouldn't need to be used directly.\n     Client programs should use \u003ca\u003eData.Array.Parallel.Unlifted\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted.Parallel",
           "name": "Parallel",
           "package": "dph-prim-par",
@@ -8563,6 +9010,7 @@
         "index": {
           "description": "Parallel operations on unlifted arrays This is an internal API and shouldn need to be used directly Client programs should use Data.Array.Parallel.Unlifted",
           "hierarchy": "Data Array Parallel Unlifted Parallel",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted.Parallel",
           "name": "Parallel",
           "package": "dph-prim-par",
@@ -8577,6 +9025,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParallel implementation of the segmented array API defined in \u003ccode\u003edph-prim-interface\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSome of them don't yet have parallel implementations, so we fall back\n   to the sequential ones from \u003ccode\u003edph-prim-seq\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWARNING:\u003c/em\u003e Although this library is intended to be used as a target\n   for the DPH vectoriser, it is also fine to use it directly from non\n   DPH programs. However, this library does not support nested parallelism\n   by itself. If you try to run further parallel computations in the workers\n   passed to \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e etc, then they will just run\n   sequentially.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Unlifted",
           "package": "dph-prim-par",
@@ -8586,6 +9035,7 @@
         "index": {
           "description": "Parallel implementation of the segmented array API defined in dph-prim-interface Some of them don yet have parallel implementations so we fall back to the sequential ones from dph-prim-seq WARNING Although this library is intended to be used as target for the DPH vectoriser it is also fine to use it directly from non DPH programs However this library does not support nested parallelism by itself If you try to run further parallel computations in the workers passed to map zipWith fold etc then they will just run sequentially",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Unlifted",
           "package": "dph-prim-par",
@@ -8600,6 +9050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrays are stored as unboxed vectors. \n   They have bulk-strict semantics, so demanding one element demands them all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Array",
           "package": "dph-prim-par",
@@ -8609,6 +9060,7 @@
         "index": {
           "description": "Arrays are stored as unboxed vectors They have bulk-strict semantics so demanding one element demands them all",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Array",
           "package": "dph-prim-par",
@@ -8622,6 +9074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Arrays",
           "package": "dph-prim-par",
@@ -8630,6 +9083,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Arrays",
           "package": "dph-prim-par",
@@ -8643,6 +9097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Elt",
           "package": "dph-prim-par",
@@ -8651,6 +9106,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Elt",
           "package": "dph-prim-par",
@@ -8664,6 +9120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Elts",
           "package": "dph-prim-par",
@@ -8672,6 +9129,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Elts",
           "package": "dph-prim-par",
@@ -8685,6 +9143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "IOElt",
           "package": "dph-prim-par",
@@ -8693,6 +9152,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "IOElt",
           "package": "dph-prim-par",
@@ -8706,6 +9166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "SSegd",
           "package": "dph-prim-par",
@@ -8714,6 +9175,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "SSegd",
           "package": "dph-prim-par",
@@ -8727,6 +9189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Segd",
           "package": "dph-prim-par",
@@ -8735,6 +9198,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Segd",
           "package": "dph-prim-par",
@@ -8748,6 +9212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Sel2",
           "package": "dph-prim-par",
@@ -8756,6 +9221,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "Sel2",
           "package": "dph-prim-par",
@@ -8769,6 +9235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "SelRep2",
           "package": "dph-prim-par",
@@ -8777,6 +9244,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "SelRep2",
           "package": "dph-prim-par",
@@ -8790,6 +9258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "VSegd",
           "package": "dph-prim-par",
@@ -8798,6 +9267,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "VSegd",
           "package": "dph-prim-par",
@@ -8812,6 +9282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Append two arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "(+:+)",
           "package": "dph-prim-par",
@@ -8822,6 +9293,7 @@
         "index": {
           "description": "length result Append two arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "(+:+) +:+",
           "normalized": "Array a-\u003eArray a-\u003eArray a",
@@ -8837,6 +9309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length source). Compute the conjunction of all elements in a boolean array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "and",
           "package": "dph-prim-par",
@@ -8847,6 +9320,7 @@
         "index": {
           "description": "length source Compute the conjunction of all elements in boolean array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "and",
           "normalized": "Array Bool-\u003eBool",
@@ -8862,6 +9336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a segment descriptor that describes the result of appending two\n   segmented arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "appendSSegd",
           "package": "dph-prim-par",
@@ -8872,6 +9347,7 @@
         "index": {
           "description": "Produce segment descriptor that describes the result of appending two segmented arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "appendSSegd",
           "normalized": "SSegd-\u003eInt-\u003eSSegd-\u003eInt-\u003eSSegd",
@@ -8888,6 +9364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a virtual segment descriptor that describes the result of \n   appending two segmented arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "appendVSegd",
           "package": "dph-prim-par",
@@ -8897,6 +9374,7 @@
         "index": {
           "description": "Produce virtual segment descriptor that describes the result of appending two segmented arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "appendVSegd",
           "normalized": "VSegd-\u003eInt-\u003eVSegd-\u003eInt-\u003eVSegd",
@@ -8913,6 +9391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Segmented append.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "append_s",
           "package": "dph-prim-par",
@@ -8922,6 +9401,7 @@
         "index": {
           "description": "length result Segmented append",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "append_s",
           "normalized": "Segd-\u003eSegd-\u003eArray a-\u003eSegd-\u003eArray a-\u003eArray a",
@@ -8936,6 +9416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "append_vs",
           "package": "dph-prim-par",
@@ -8944,6 +9425,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "append_vs",
           "normalized": "Segd-\u003eVSegd-\u003eArrays a-\u003eVSegd-\u003eArrays a-\u003eArray a",
@@ -8959,6 +9441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Append two \u003ccode\u003e\u003ca\u003eArrays\u003c/a\u003e\u003c/code\u003e, using work proportional to the length\n         of the outer array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "appends",
           "package": "dph-prim-par",
@@ -8969,6 +9452,7 @@
         "index": {
           "description": "Append two Arrays using work proportional to the length of the outer array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "appends",
           "normalized": "Arrays a-\u003eArrays a-\u003eArrays a",
@@ -8984,6 +9468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Backwards permutation of array elements.\n\u003c/p\u003e\u003cpre\u003ebpermute [50, 60, 20, 30] [0, 3, 2] = [50, 30, 20]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "bpermute",
           "package": "dph-prim-par",
@@ -8993,6 +9478,7 @@
         "index": {
           "description": "length result Backwards permutation of array elements bpermute",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "bpermute",
           "normalized": "Array a-\u003eArray Int-\u003eArray a",
@@ -9008,6 +9494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault backwards permutation.\n\u003c/p\u003e\u003cp\u003eThe values of the index-value pairs are written into the position in the\n   result array that is indicated by the corresponding index.\n\u003c/p\u003e\u003cp\u003eAll positions not covered by the index-value pairs will have the value\n   determined by the initialiser function for that index position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "bpermuteDft",
           "package": "dph-prim-par",
@@ -9018,6 +9505,7 @@
         "index": {
           "description": "Default backwards permutation The values of the index-value pairs are written into the position in the result array that is indicated by the corresponding index All positions not covered by the index-value pairs will have the value determined by the initialiser function for that index position",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "bpermuteDft",
           "normalized": "Int-\u003e(Int-\u003ea)-\u003eArray(Int,a)-\u003eArray a",
@@ -9034,6 +9522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two arrays, \n    using a flags array to tell us where to get each element from.\n\u003c/p\u003e\u003cpre\u003ecombine [T, F, F, T, T, F] [1, 2, 3] [4, 5, 6] = [1, 4, 5, 2, 3, 6]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "combine",
           "package": "dph-prim-par",
@@ -9044,6 +9533,7 @@
         "index": {
           "description": "Combine two arrays using flags array to tell us where to get each element from combine",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "combine",
           "normalized": "Array Bool-\u003eArray a-\u003eArray a-\u003eArray a",
@@ -9059,6 +9549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecombine\u003c/a\u003e\u003c/code\u003e, but use a precomputed selector to speed up the process.\n\u003c/p\u003e\u003cp\u003eSee the description of \u003ccode\u003e\u003ca\u003emkSel2\u003c/a\u003e\u003c/code\u003e for how this works.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "combine2",
           "package": "dph-prim-par",
@@ -9069,6 +9560,7 @@
         "index": {
           "description": "Like combine but use precomputed selector to speed up the process See the description of mkSel2 for how this works",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "combine2",
           "normalized": "Array Tag-\u003eSelRep-\u003eArray a-\u003eArray a-\u003eArray a",
@@ -9084,6 +9576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two virtual segment descriptors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "combine2VSegd",
           "package": "dph-prim-par",
@@ -9093,6 +9586,7 @@
         "index": {
           "description": "Combine two virtual segment descriptors",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "combine2VSegd",
           "normalized": "Sel-\u003eVSegd-\u003eInt-\u003eVSegd-\u003eInt-\u003eVSegd",
@@ -9109,6 +9603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the number of elements in array that are equal to the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "count",
           "package": "dph-prim-par",
@@ -9119,6 +9614,7 @@
         "index": {
           "description": "Count the number of elements in array that are equal to the given value",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "count",
           "normalized": "Array a-\u003ea-\u003eInt",
@@ -9134,6 +9630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "count_s",
           "package": "dph-prim-par",
@@ -9144,6 +9641,7 @@
         "index": {
           "description": "Segmented count",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "count_s",
           "normalized": "Segd-\u003eArray a-\u003ea-\u003eArray Int",
@@ -9159,6 +9657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScattered segmented count.\n\u003c/p\u003e\u003cp\u003eNOTE: This is a transitory interface, and will be removed in future versions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "count_ss",
           "package": "dph-prim-par",
@@ -9169,6 +9668,7 @@
         "index": {
           "description": "Scattered segmented count NOTE This is transitory interface and will be removed in future versions",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "count_ss",
           "normalized": "SSegd-\u003eVector(Array a)-\u003ea-\u003eArray Int",
@@ -9184,6 +9684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Drop elements from the front of an array, \n         returning the latter portion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "drop",
           "package": "dph-prim-par",
@@ -9194,6 +9695,7 @@
         "index": {
           "description": "length result Drop elements from the front of an array returning the latter portion",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "drop",
           "normalized": "Int-\u003eArray a-\u003eArray a",
@@ -9209,6 +9711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the total number of elements defined by a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "elementsSegd",
           "package": "dph-prim-par",
@@ -9219,6 +9722,7 @@
         "index": {
           "description": "Yield the total number of elements defined by Segd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "elementsSegd",
           "normalized": "Segd-\u003eInt",
@@ -9235,6 +9739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the number of elements that will be taken from the first array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "elementsSel2_0",
           "package": "dph-prim-par",
@@ -9245,6 +9750,7 @@
         "index": {
           "description": "Yield the number of elements that will be taken from the first array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "elementsSel2_0",
           "normalized": "Sel-\u003eInt",
@@ -9261,6 +9767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the number of elements that will be taken from the second array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "elementsSel2_1",
           "package": "dph-prim-par",
@@ -9271,6 +9778,7 @@
         "index": {
           "description": "Yield the number of elements that will be taken from the second array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "elementsSel2_1",
           "normalized": "Sel-\u003eInt",
@@ -9287,6 +9795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the number of elements to take from the first array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "elementsSelRep2_0",
           "package": "dph-prim-par",
@@ -9297,6 +9806,7 @@
         "index": {
           "description": "Yield the number of elements to take from the first array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "elementsSelRep2_0",
           "normalized": "Array Tag-\u003eSelRep-\u003eInt",
@@ -9313,6 +9823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the number of elements to take from the second array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "elementsSelRep2_1",
           "package": "dph-prim-par",
@@ -9323,6 +9834,7 @@
         "index": {
           "description": "Yield the number of elements to take from the second array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "elementsSelRep2_1",
           "normalized": "Array Tag-\u003eSelRep-\u003eInt",
@@ -9339,6 +9851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct an array with no elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "empty",
           "package": "dph-prim-par",
@@ -9349,6 +9862,7 @@
         "index": {
           "description": "Construct an array with no elements",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "empty",
           "package": "dph-prim-par",
@@ -9362,6 +9876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct an empty \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "emptySSegd",
           "package": "dph-prim-par",
@@ -9372,6 +9887,7 @@
         "index": {
           "description": "Construct an empty SSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "emptySSegd",
           "package": "dph-prim-par",
@@ -9386,6 +9902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct an empty \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "emptySegd",
           "package": "dph-prim-par",
@@ -9396,6 +9913,7 @@
         "index": {
           "description": "Construct an empty Segd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "emptySegd",
           "package": "dph-prim-par",
@@ -9410,6 +9928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct an empty \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "emptyVSegd",
           "package": "dph-prim-par",
@@ -9420,6 +9939,7 @@
         "index": {
           "description": "Construct an empty SSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "emptyVSegd",
           "package": "dph-prim-par",
@@ -9434,6 +9954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct an empty \u003ccode\u003e\u003ca\u003eArrays\u003c/a\u003e\u003c/code\u003e with no elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "emptys",
           "package": "dph-prim-par",
@@ -9444,6 +9965,7 @@
         "index": {
           "description": "Construct an empty Arrays with no elements",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "emptys",
           "package": "dph-prim-par",
@@ -9456,6 +9978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "enumFromStepLen",
           "package": "dph-prim-par",
@@ -9465,6 +9988,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "enumFromStepLen",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eArray Int",
@@ -9480,6 +10004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "enumFromStepLenEach",
           "package": "dph-prim-par",
@@ -9489,6 +10014,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "enumFromStepLenEach",
           "normalized": "Int-\u003eArray Int-\u003eArray Int-\u003eArray Int-\u003eArray Int",
@@ -9504,6 +10030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "enumFromThenTo",
           "package": "dph-prim-par",
@@ -9513,6 +10040,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "enumFromThenTo",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eArray Int",
@@ -9528,6 +10056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "enumFromTo",
           "package": "dph-prim-par",
@@ -9537,6 +10066,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "enumFromTo",
           "normalized": "Int-\u003eInt-\u003eArray Int",
@@ -9553,6 +10083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Extract a subrange of elements from an array.\n\u003c/p\u003e\u003cpre\u003eextract [23, 42, 93, 50, 27] 1 3  = [42, 93, 50]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "extract",
           "package": "dph-prim-par",
@@ -9562,6 +10093,7 @@
         "index": {
           "description": "length result Extract subrange of elements from an array extract",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "extract",
           "normalized": "Array a-\u003eInt-\u003eInt-\u003eArray a",
@@ -9577,6 +10109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Extract segments defined by a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExtract all the segments defined by the \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eArrays\u003c/a\u003e\u003c/code\u003e,\n   returning them concatenated in a fresh \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "extracts_ass",
           "package": "dph-prim-par",
@@ -9586,6 +10119,7 @@
         "index": {
           "description": "length result Extract segments defined by SSegd Extract all the segments defined by the SSegd from the Arrays returning them concatenated in fresh Array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "extracts_ass",
           "normalized": "SSegd-\u003eArrays a-\u003eArray a",
@@ -9601,6 +10135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Extract segments defined by a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExtract all the segments defined by the \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eArrays\u003c/a\u003e\u003c/code\u003e,\n   returning them concatenated in a fresh \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "extracts_avs",
           "package": "dph-prim-par",
@@ -9610,6 +10145,7 @@
         "index": {
           "description": "length result Extract segments defined by VSegd Extract all the segments defined by the VSegd from the Arrays returning them concatenated in fresh Array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "extracts_avs",
           "normalized": "VSegd-\u003eArrays a-\u003eArray a",
@@ -9625,6 +10161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Extract segments defined by a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e from a vector of arrays.\n\u003c/p\u003e\u003cp\u003eNOTE: This is a transitory interface, and will be removed in future versions.\n         Use \u003ccode\u003e\u003ca\u003eextracts_ass\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "extracts_nss",
           "package": "dph-prim-par",
@@ -9635,6 +10172,7 @@
         "index": {
           "description": "length result Extract segments defined by SSegd from vector of arrays NOTE This is transitory interface and will be removed in future versions Use extracts ass instead",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "extracts_nss",
           "normalized": "SSegd-\u003eVector(Array a)-\u003eArray a",
@@ -9650,6 +10188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the elements from an array that match the given predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "filter",
           "package": "dph-prim-par",
@@ -9660,6 +10199,7 @@
         "index": {
           "description": "Extract the elements from an array that match the given predicate",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eArray a-\u003eArray a",
@@ -9675,6 +10215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndirected fold over an array.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The worker function must be associative.\n\u003c/li\u003e\u003cli\u003e The provided starting element must be neutral with respect to the worker.\n     For example 0 is neutral wrt (+) and 1 is neutral wrt (*).\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold",
           "package": "dph-prim-par",
@@ -9685,6 +10226,7 @@
         "index": {
           "description": "Undirected fold over an array The worker function must be associative The provided starting element must be neutral with respect to the worker For example is neutral wrt and is neutral wrt",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eArray a-\u003ea",
@@ -9700,6 +10242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndirected fold, using the first element to initialise the state.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The worker function must be associative.\n\u003c/li\u003e\u003cli\u003e The provided starting element must be neutral with respect to the worker.\n     For example 0 is neutral wrt (+) and 1 is neutral wrt (*).\n\u003c/li\u003e\u003cli\u003e If the array contains no elements then you'll get a bounds check \u003ccode\u003eerror\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold1",
           "package": "dph-prim-par",
@@ -9710,6 +10253,7 @@
         "index": {
           "description": "Undirected fold using the first element to initialise the state The worker function must be associative The provided starting element must be neutral with respect to the worker For example is neutral wrt and is neutral wrt If the array contains no elements then you ll get bounds check error",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eArray a-\u003ea",
@@ -9725,6 +10269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efold_s\u003c/a\u003e\u003c/code\u003e, but using the first element of each segment to initialise\n   the state of that segment.\n\u003c/p\u003e\u003cp\u003eSame preconditions as \u003ccode\u003e\u003ca\u003efold1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold1_s",
           "package": "dph-prim-par",
@@ -9735,6 +10280,7 @@
         "index": {
           "description": "Like fold but using the first element of each segment to initialise the state of that segment Same preconditions as fold1",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold1_s",
           "normalized": "(a-\u003ea-\u003ea)-\u003eSegd-\u003eArray a-\u003eArray a",
@@ -9750,6 +10296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efold_ss\u003c/a\u003e\u003c/code\u003e, but using the first element of each segment to intialise \n   the state of that segment.\n\u003c/p\u003e\u003cp\u003eSame preconditions as \u003ccode\u003e\u003ca\u003efold1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold1_ss",
           "package": "dph-prim-par",
@@ -9760,6 +10307,7 @@
         "index": {
           "description": "Like fold ss but using the first element of each segment to intialise the state of that segment Same preconditions as fold1",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold1_ss",
           "normalized": "(a-\u003ea-\u003ea)-\u003eSSegd-\u003eArrays a-\u003eArray a",
@@ -9775,6 +10323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efold_vs\u003c/a\u003e\u003c/code\u003e, but using the first element of each segment to initialise \n   the state of that segment.\n\u003c/p\u003e\u003cp\u003eSame preconditions as \u003ccode\u003e\u003ca\u003efold1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold1_vs",
           "package": "dph-prim-par",
@@ -9785,6 +10334,7 @@
         "index": {
           "description": "Like fold vs but using the first element of each segment to initialise the state of that segment Same preconditions as fold1",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold1_vs",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVSegd-\u003eArrays a-\u003eArray a",
@@ -9800,6 +10350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegular segmented fold. \n\u003c/p\u003e\u003cp\u003eAll segements have the given length.\n\u003c/p\u003e\u003cp\u003eSame preconditions as \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold_r",
           "package": "dph-prim-par",
@@ -9810,6 +10361,7 @@
         "index": {
           "description": "Regular segmented fold All segements have the given length Same preconditions as fold",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold_r",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eInt-\u003eArray a-\u003eArray a",
@@ -9825,6 +10377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndirected segmented fold. \n\u003c/p\u003e\u003cp\u003eAll segments are folded individually, and the result contains one\n   element for each segment. \n\u003c/p\u003e\u003cp\u003eSame preconditions as \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold_s",
           "package": "dph-prim-par",
@@ -9835,6 +10388,7 @@
         "index": {
           "description": "Undirected segmented fold All segments are folded individually and the result contains one element for each segment Same preconditions as fold",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold_s",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eSegd-\u003eArray a-\u003eArray a",
@@ -9850,6 +10404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndirected scattered segmented fold.\n\u003c/p\u003e\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efold_s\u003c/a\u003e\u003c/code\u003e, but the segments can be scattered through an \u003ccode\u003e\u003ca\u003eArrays\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eSame preconditions as \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold_ss",
           "package": "dph-prim-par",
@@ -9860,6 +10415,7 @@
         "index": {
           "description": "Undirected scattered segmented fold Like fold but the segments can be scattered through an Arrays Same preconditions as fold",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold_ss",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eSSegd-\u003eArrays a-\u003eArray a",
@@ -9875,6 +10431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndirected fold over virtual segments.\n\u003c/p\u003e\u003cp\u003eThe physical segments defined by the \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e are folded individually, \n   and these results are replicated according to the virtual segment\n   id table of the \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e. The result contains as many elements as there\n   virtual segments.\n\u003c/p\u003e\u003cp\u003eSame preconditions as \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold_vs",
           "package": "dph-prim-par",
@@ -9885,6 +10442,7 @@
         "index": {
           "description": "Undirected fold over virtual segments The physical segments defined by the VSegd are folded individually and these results are replicated according to the virtual segment id table of the VSegd The result contains as many elements as there virtual segments Same preconditions as fold",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fold_vs",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eVSegd-\u003eArrays a-\u003eArray a",
@@ -9900,6 +10458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of elements to an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fromList",
           "package": "dph-prim-par",
@@ -9910,6 +10469,7 @@
         "index": {
           "description": "Convert list of elements to an array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fromList",
           "normalized": "[a]-\u003eArray a",
@@ -9926,6 +10486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(number of inner arrays). \n   Convert a boxed vector of \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003e\u003ca\u003eArrays\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fromVectors",
           "package": "dph-prim-par",
@@ -9936,6 +10497,7 @@
         "index": {
           "description": "number of inner arrays Convert boxed vector of Array to an Arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fromVectors",
           "normalized": "Vector(Array a)-\u003eArrays a",
@@ -9952,6 +10514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Take the first elements of an array of pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fsts",
           "package": "dph-prim-par",
@@ -9962,6 +10525,7 @@
         "index": {
           "description": "Take the first elements of an array of pairs",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "fsts",
           "normalized": "Array(a,b)-\u003eArray a",
@@ -9977,6 +10541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new array given its length and a function to compute each element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "generate",
           "package": "dph-prim-par",
@@ -9987,6 +10552,7 @@
         "index": {
           "description": "Generate new array given its length and function to compute each element",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "generate",
           "normalized": "Int-\u003e(Int-\u003ea)-\u003eArray a",
@@ -10002,6 +10568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Get the length, segment index, starting index, and source id of a segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "getSegOfSSegd",
           "package": "dph-prim-par",
@@ -10012,6 +10579,7 @@
         "index": {
           "description": "Get the length segment index starting index and source id of segment",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "getSegOfSSegd",
           "normalized": "SSegd-\u003eInt-\u003e(Int,Int,Int,Int)",
@@ -10028,6 +10596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Get the length, starting index, and source id of a segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "getSegOfVSegd",
           "package": "dph-prim-par",
@@ -10038,6 +10607,7 @@
         "index": {
           "description": "Get the length starting index and source id of segment",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "getSegOfVSegd",
           "normalized": "VSegd-\u003eInt-\u003e(Int,Int,Int)",
@@ -10054,6 +10624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an array from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "hGet",
           "package": "dph-prim-par",
@@ -10064,6 +10635,7 @@
         "index": {
           "description": "Read an array from file",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "hGet",
           "normalized": "Handle-\u003eIO(Array a)",
@@ -10080,6 +10652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an array to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "hPut",
           "package": "dph-prim-par",
@@ -10090,6 +10663,7 @@
         "index": {
           "description": "Write an array to file",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "hPut",
           "normalized": "Handle-\u003eArray a-\u003eIO()",
@@ -10106,6 +10680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Retrieve a numbered element from an array.\n\u003c/p\u003e\u003cp\u003eThe first argument gives a source-code location for out-of-bounds errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "index",
           "package": "dph-prim-par",
@@ -10116,6 +10691,7 @@
         "index": {
           "description": "Retrieve numbered element from an array The first argument gives source-code location for out-of-bounds errors",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "index",
           "normalized": "String-\u003eArray a-\u003eInt-\u003ea",
@@ -10131,6 +10707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Tag each element of an array with its index.\n\u003c/p\u003e\u003cpre\u003eindexed [42, 93, 13] = [(0, 42), (1, 93), (2, 13)]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indexed",
           "package": "dph-prim-par",
@@ -10141,6 +10718,7 @@
         "index": {
           "description": "length result Tag each element of an array with its index indexed",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indexed",
           "normalized": "Array a-\u003eArray(Int,a)",
@@ -10156,6 +10734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Scattered indexing from a single \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is an alias for \u003ccode\u003e\u003ca\u003ebpermute\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indexs",
           "package": "dph-prim-par",
@@ -10166,6 +10745,7 @@
         "index": {
           "description": "length result Scattered indexing from single Array This is an alias for bpermute",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indexs",
           "normalized": "Array a-\u003eArray Int-\u003eArray a",
@@ -10181,6 +10761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Scattered indexing through a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe index array contains pairs of segment id and the index within that \n   segment. \n\u003c/p\u003e\u003cp\u003eWe use the \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e to map the pairs to 2D indices within the \u003ccode\u003e\u003ca\u003eArrays\u003c/a\u003e\u003c/code\u003e, \n   and return an array of the resulting elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indexs_avs",
           "package": "dph-prim-par",
@@ -10190,6 +10771,7 @@
         "index": {
           "description": "length result Scattered indexing through VSegd The index array contains pairs of segment id and the index within that segment We use the VSegd to map the pairs to indices within the Arrays and return an array of the resulting elements",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indexs_avs",
           "normalized": "Arrays a-\u003eVSegd-\u003eArray(Int,Int)-\u003eArray a",
@@ -10205,6 +10787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the indices field of a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indicesOfSSegd",
           "package": "dph-prim-par",
@@ -10215,6 +10798,7 @@
         "index": {
           "description": "Yield the indices field of SSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indicesOfSSegd",
           "normalized": "SSegd-\u003eArray Int",
@@ -10231,6 +10815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the segment starting indices of a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indicesSegd",
           "package": "dph-prim-par",
@@ -10241,6 +10826,7 @@
         "index": {
           "description": "Yield the segment starting indices of Segd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indicesSegd",
           "normalized": "Segd-\u003eArray Int",
@@ -10257,6 +10843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the indices array of a selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indicesSel2",
           "package": "dph-prim-par",
@@ -10267,6 +10854,7 @@
         "index": {
           "description": "Yield the indices array of selector",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indicesSel2",
           "normalized": "Sel-\u003eArray Int",
@@ -10283,6 +10871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Take the \u003ccode\u003eindices\u003c/code\u003e field from a \u003ccode\u003e\u003ca\u003eSelRep2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indicesSelRep2",
           "package": "dph-prim-par",
@@ -10293,6 +10882,7 @@
         "index": {
           "description": "Take the indices field from SelRep2",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indicesSelRep2",
           "normalized": "Array Tag-\u003eSelRep-\u003eArray Int",
@@ -10309,6 +10899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Segmented indices. \n\u003c/p\u003e\u003cp\u003eConstruct an array containing containing the segments defined by the\n   given \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eEach segment will contain the elements \u003ccode\u003e[0..len-1]\u003c/code\u003e where \u003ccode\u003elen\u003c/code\u003e is the\n   length of that segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indices_s",
           "package": "dph-prim-par",
@@ -10319,6 +10910,7 @@
         "index": {
           "description": "length result Segmented indices Construct an array containing containing the segments defined by the given Segd Each segment will contain the elements len-1 where len is the length of that segment",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "indices_s",
           "normalized": "Segd-\u003eArray Int",
@@ -10334,6 +10926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterleave the elements of two arrays.\n\u003c/p\u003e\u003cpre\u003einterleave [1, 2, 3] [4, 5, 6] = [1, 4, 2, 5, 3, 6]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "interleave",
           "package": "dph-prim-par",
@@ -10344,6 +10937,7 @@
         "index": {
           "description": "Interleave the elements of two arrays interleave",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "interleave",
           "normalized": "Array a-\u003eArray a-\u003eArray a",
@@ -10359,6 +10953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). True when a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e has been constructed by promoting a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIn this case all the data elements are in one contiguous flat\n   array, and consumers can avoid looking at the real starts and\n   sources fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "isContiguousSSegd",
           "package": "dph-prim-par",
@@ -10369,6 +10964,7 @@
         "index": {
           "description": "True when SSegd has been constructed by promoting SSegd In this case all the data elements are in one contiguous flat array and consumers can avoid looking at the real starts and sources fields",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "isContiguousSSegd",
           "normalized": "SSegd-\u003eBool",
@@ -10385,6 +10981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). If true then the \u003ccode\u003estarts\u003c/code\u003e field is identical to the \u003ccode\u003eindices\u003c/code\u003e field\n         and the sourceids are all 0s.\n\u003c/p\u003e\u003cp\u003eIn this case all the data elements are in one contiguous flat array, and\n   consumers can avoid looking at the real starts and sources fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "isContiguousVSegd",
           "package": "dph-prim-par",
@@ -10395,6 +10992,7 @@
         "index": {
           "description": "If true then the starts field is identical to the indices field and the sourceids are all In this case all the data elements are in one contiguous flat array and consumers can avoid looking at the real starts and sources fields",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "isContiguousVSegd",
           "normalized": "VSegd-\u003eBool",
@@ -10411,6 +11009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). If true then the segments are all unshared, and the \u003ccode\u003evsegids\u003c/code\u003e field \n         be just \u003ccode\u003e[0..len-1]\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eConsumers can check this field to avoid demanding the \u003ccode\u003evsegids\u003c/code\u003e field.\n   This can avoid the need for it to be constructed in the first place, \n   due to lazy evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "isManifestVSegd",
           "package": "dph-prim-par",
@@ -10421,6 +11020,7 @@
         "index": {
           "description": "If true then the segments are all unshared and the vsegids field be just len-1 Consumers can check this field to avoid demanding the vsegids field This can avoid the need for it to be constructed in the first place due to lazy evaluation",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "isManifestVSegd",
           "normalized": "VSegd-\u003eBool",
@@ -10437,6 +11037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the number of elements in an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "length",
           "package": "dph-prim-par",
@@ -10447,6 +11048,7 @@
         "index": {
           "description": "Yield the number of elements in an array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "length",
           "normalized": "Array a-\u003eInt",
@@ -10462,6 +11064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the length of a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengthOfSSegd",
           "package": "dph-prim-par",
@@ -10472,6 +11075,7 @@
         "index": {
           "description": "Yield the length of SSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengthOfSSegd",
           "normalized": "SSegd-\u003eInt",
@@ -10488,6 +11092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the length of a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengthOfVSegd",
           "package": "dph-prim-par",
@@ -10498,6 +11103,7 @@
         "index": {
           "description": "Yield the length of VSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengthOfVSegd",
           "normalized": "VSegd-\u003eInt",
@@ -10514,6 +11120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the length of a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengthSegd",
           "package": "dph-prim-par",
@@ -10524,6 +11131,7 @@
         "index": {
           "description": "Yield the length of Segd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengthSegd",
           "normalized": "Segd-\u003eInt",
@@ -10540,6 +11148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the number of \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e in an \u003ccode\u003e\u003ca\u003eArrays\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengths",
           "package": "dph-prim-par",
@@ -10550,6 +11159,7 @@
         "index": {
           "description": "Yield the number of Array in an Arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengths",
           "normalized": "Arrays a-\u003eInt",
@@ -10565,6 +11175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the segment lengths of a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengthsOfSSegd",
           "package": "dph-prim-par",
@@ -10575,6 +11186,7 @@
         "index": {
           "description": "Yield the segment lengths of SSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengthsOfSSegd",
           "normalized": "SSegd-\u003eArray Int",
@@ -10591,6 +11203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the segment lengths of a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengthsSegd",
           "package": "dph-prim-par",
@@ -10601,6 +11214,7 @@
         "index": {
           "description": "Yield the segment lengths of Segd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengthsSegd",
           "normalized": "Segd-\u003eArray Int",
@@ -10617,6 +11231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(max(segs, threads) . log segs). \n   Construct a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e from an array of segment lengths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengthsToSegd",
           "package": "dph-prim-par",
@@ -10627,6 +11242,7 @@
         "index": {
           "description": "max segs threads log segs Construct Segd from an array of segment lengths",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "lengthsToSegd",
           "normalized": "Array Int-\u003eSegd",
@@ -10643,6 +11259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a worker function to each element of an array, yielding a new array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "map",
           "package": "dph-prim-par",
@@ -10653,6 +11270,7 @@
         "index": {
           "description": "Apply worker function to each element of an array yielding new array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eArray a-\u003eArray b",
@@ -10668,6 +11286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombination of map and bpermute.\n\u003c/p\u003e\u003cp\u003eThe advantage of using this combined version is that we don't need\n   to apply the parameter function to source elements that don't appear\n   in the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "mbpermute",
           "package": "dph-prim-par",
@@ -10678,6 +11297,7 @@
         "index": {
           "description": "Combination of map and bpermute The advantage of using this combined version is that we don need to apply the parameter function to source elements that don appear in the result",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "mbpermute",
           "normalized": "(a-\u003eb)-\u003eArray a-\u003eArray Int-\u003eArray b",
@@ -10693,6 +11313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a Scattered Segment Descriptor.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e is an extension of a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e that that allows the segments to be\n   scattered through multiple flat arrays.\n\u003c/p\u003e\u003cp\u003eEach segment is associated with a source id that indicates what \n   flat array it is in, along with the starting index in that flat array.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The segments need not cover the entire flat array.\n\u003c/li\u003e\u003cli\u003e Different segments may point to the same elements.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "mkSSegd",
           "package": "dph-prim-par",
@@ -10702,6 +11323,7 @@
         "index": {
           "description": "Construct Scattered Segment Descriptor SSegd is an extension of Segd that that allows the segments to be scattered through multiple flat arrays Each segment is associated with source id that indicates what flat array it is in along with the starting index in that flat array The segments need not cover the entire flat array Different segments may point to the same elements",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "mkSSegd",
           "normalized": "Array Int-\u003eArray Int-\u003eSegd-\u003eSSegd",
@@ -10718,6 +11340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(max(segs, threads) . log segs). Construct a segment descriptor.\n\u003c/p\u003e\u003cp\u003eA segment desciptor defines an irregular 2D array based on a flat, 1D array\n   of elements. The defined array is a nested array of segments, where every\n   segment covers some of the elements from the flat array. \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The starting indices must be equal to \u003ccode\u003einit (scanl (+) 0 lengths)\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e If you don't want to cover all the elements from the flat arrary then\n     use a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n   flat array data: [1 2 3 4 5 6 7 8]\n     (segmentation)  --- ----- - ---\n     segd  lengths: [2, 3, 1, 2]\n           indices: [0, 2, 5, 6]\n          elements: 8 \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "mkSegd",
           "package": "dph-prim-par",
@@ -10727,6 +11350,7 @@
         "index": {
           "description": "max segs threads log segs Construct segment descriptor segment desciptor defines an irregular array based on flat array of elements The defined array is nested array of segments where every segment covers some of the elements from the flat array The starting indices must be equal to init scanl lengths If you don want to cover all the elements from the flat arrary then use SSegd instead Example flat array data segmentation segd lengths indices elements",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "mkSegd",
           "normalized": "Array Int-\u003eArray Int-\u003eInt-\u003eSegd",
@@ -10743,6 +11367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct a selector.\n\u003c/p\u003e\u003cp\u003eA selector is a description of how to perform a \u003ccode\u003e\u003ca\u003ecombine\u003c/a\u003e\u003c/code\u003e operation.\n\u003c/p\u003e\u003cp\u003eSuppose we are evaluating the following expression:\n\u003c/p\u003e\u003cpre\u003ecombine [F,F,T,F,T,T] [1,2,3] [4,5,6] = [4,5,1,6,2,3]\u003c/pre\u003e\u003cp\u003eThis is difficult to parallelise. For each element in the result, the\n   source array we get this element from depends on the tag values associated\n   with all previous elements.\n\u003c/p\u003e\u003cp\u003eHowever, if we going to apply \u003ccode\u003e\u003ca\u003ecombine\u003c/a\u003e\u003c/code\u003e several times with the same flags array, \n   we can precompute a selector that tells us where to get each element. \n   The selector contains the original flags, as well as the source index telling\n   us where to get each element for the result array.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003etagsToIndices2 [F,F,T,F,T,T]   -- tags\n             = [0,1,0,2,1,2]   -- indices\n\u003c/pre\u003e\u003cp\u003eThis says get the first element from index 0 in the second array, \n     then from index 1 in the second array,\n     then index 0 in the first array ...\n\u003c/p\u003e\u003cp\u003eThe selector then consists of both the \u003ccode\u003etag\u003c/code\u003e and \u003ccode\u003eindices\u003c/code\u003e arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "mkSel2",
           "package": "dph-prim-par",
@@ -10752,6 +11377,7 @@
         "index": {
           "description": "Construct selector selector is description of how to perform combine operation Suppose we are evaluating the following expression combine This is difficult to parallelise For each element in the result the source array we get this element from depends on the tag values associated with all previous elements However if we going to apply combine several times with the same flags array we can precompute selector that tells us where to get each element The selector contains the original flags as well as the source index telling us where to get each element for the result array For example tagsToIndices2 tags indices This says get the first element from index in the second array then from index in the second array then index in the first array The selector then consists of both the tag and indices arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "mkSel2",
           "normalized": "Array Tag-\u003eArray Int-\u003eInt-\u003eInt-\u003eSelRep-\u003eSel",
@@ -10768,6 +11394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Construct a parallel selector representation.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSelRep2\u003c/a\u003e\u003c/code\u003e describes how to distribute the two data vectors\n   corresponding to a \u003ccode\u003e\u003ca\u003eSel2\u003c/a\u003e\u003c/code\u003e across several PEs.\n\u003c/p\u003e\u003cp\u003eSuppose we want to perform the following \u003ccode\u003e\u003ca\u003ecombine\u003c/a\u003e\u003c/code\u003e operation:\n\u003c/p\u003e\u003cpre\u003e\n combine [F,F,T,T,F,T,F,F,T] [A0,A1,A2,A3,A4] [B0,B1,B2,B3] \n   = [A0,A1,B0,B1,A2,B2,A3,A4,B3]\n\u003c/pre\u003e\u003cp\u003eThe first array is the flags array, that says which of the data arrays to\n   get each successive element from. As \u003ccode\u003e\u003ca\u003ecombine\u003c/a\u003e\u003c/code\u003e is difficult to compute\n   in parallel, if we are going to perform several combines with the same\n   flags array, we can precompute a selector that tells us where to get each\n   element. The selector contains the original flags, as well as the source\n   index telling us where to get each element for the result array.\n\u003c/p\u003e\u003cpre\u003e\n flags:   [F,F,T,T,F,T,F,F,T]\n indices: [0,1,0,1,2,2,3,4,3]\n\u003c/pre\u003e\u003cp\u003eSuppose we want to distribute the combine operation across 3 PEs. It's\n  easy to split the selector like so:\n\u003c/p\u003e\u003cpre\u003e\n            PE0                PE1               PE2\n flags:   [F,F,T]            [T,F,T]           [F,F,T] \n indices: [0,1,0]            [1,2,2]           [3,4,3]\n\u003c/pre\u003e\u003cp\u003eWe now need to split the two data arrays. Each PE needs slices of the data\n  arrays that correspond to the parts of the selector that were given to it.\n  For the current example we get:\n\u003c/p\u003e\u003cpre\u003e\n            PE0                PE1               PE2\n data_A:   [A0,A1]            [A2]              [A3,A4]\n data_B:   [B0]               [B1,B2]           [B3]\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eSelRep2\u003c/a\u003e\u003c/code\u003e contains the starting index and length of each of of these\n  slices:\n\u003c/p\u003e\u003cpre\u003e\n            PE0                PE1               PE2\n      ((0, 0), (2, 1))   ((2, 1), (1, 2))  ((3, 3), (2, 1))\n       indices   lens      indices  lens    indices  lens\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "mkSelRep2",
           "package": "dph-prim-par",
@@ -10778,6 +11405,7 @@
         "index": {
           "description": "Construct parallel selector representation SelRep2 describes how to distribute the two data vectors corresponding to Sel2 across several PEs Suppose we want to perform the following combine operation combine A0 A1 A2 A3 A4 B0 B1 B2 B3 A0 A1 B0 B1 A2 B2 A3 A4 B3 The first array is the flags array that says which of the data arrays to get each successive element from As combine is difficult to compute in parallel if we are going to perform several combines with the same flags array we can precompute selector that tells us where to get each element The selector contains the original flags as well as the source index telling us where to get each element for the result array flags indices Suppose we want to distribute the combine operation across PEs It easy to split the selector like so PE0 PE1 PE2 flags indices We now need to split the two data arrays Each PE needs slices of the data arrays that correspond to the parts of the selector that were given to it For the current example we get PE0 PE1 PE2 data A0 A1 A2 A3 A4 data B0 B1 B2 B3 The SelRep2 contains the starting index and length of each of of these slices PE0 PE1 PE2 indices lens indices lens indices lens",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "mkSelRep2",
           "normalized": "Array Tag-\u003eSelRep",
@@ -10794,6 +11422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a Virtual Segment Descriptor.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e is an extension of a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e that allows data from the underlying\n   flat array to be shared between segments. For example, you can define an array\n   of 10 virtual segments that all have the same length and elements as a\n   single physical segment.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Internally we maintain the invariant that all physical segments must be\n     reachable by some virtual segment. This is needed to ensure that operations\n     such as \u003ccode\u003e\u003ca\u003efold_ss\u003c/a\u003e\u003c/code\u003e segmented fold have the right complexity. \n\u003c/li\u003e\u003cli\u003e If you don't need the invariant then you can sidestep the code that\n     maintains it by using the redundant versions of the following operators, \n     and sometimes get faster code.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "mkVSegd",
           "package": "dph-prim-par",
@@ -10803,6 +11432,7 @@
         "index": {
           "description": "Construct Virtual Segment Descriptor VSegd is an extension of SSegd that allows data from the underlying flat array to be shared between segments For example you can define an array of virtual segments that all have the same length and elements as single physical segment Internally we maintain the invariant that all physical segments must be reachable by some virtual segment This is needed to ensure that operations such as fold ss segmented fold have the right complexity If you don need the invariant then you can sidestep the code that maintains it by using the redundant versions of the following operators and sometimes get faster code",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "mkVSegd",
           "normalized": "Array Int-\u003eSSegd-\u003eVSegd",
@@ -10819,6 +11449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result).\n   Extract elements of an array where the associated flag is true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "pack",
           "package": "dph-prim-par",
@@ -10829,6 +11460,7 @@
         "index": {
           "description": "length result Extract elements of an array where the associated flag is true",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "pack",
           "normalized": "Array a-\u003eArray Bool-\u003eArray a",
@@ -10844,6 +11476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result).\n   Select the elements of an array that have a corresponding tag.\n\u003c/p\u003e\u003cpre\u003epackByTag [12, 24, 42, 93] [1, 0, 0, 1] 0 = [24, 42]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "packByTag",
           "package": "dph-prim-par",
@@ -10853,6 +11486,7 @@
         "index": {
           "description": "length result Select the elements of an array that have corresponding tag packByTag",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "packByTag",
           "normalized": "Array a-\u003eArray Tag-\u003eTag-\u003eArray a",
@@ -10869,6 +11503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Forwards permutation of array elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "permute",
           "package": "dph-prim-par",
@@ -10878,6 +11513,7 @@
         "index": {
           "description": "length result Forwards permutation of array elements",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "permute",
           "normalized": "Array a-\u003eArray Int-\u003eArray a",
@@ -10893,6 +11529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute an array of flags indicating which elements match a given value.\n\u003c/p\u003e\u003cpre\u003epick [4, 5, 3, 6, 5, 2, 5] 5 = [F, T, F, F, T, F, T]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "pick",
           "package": "dph-prim-par",
@@ -10903,6 +11540,7 @@
         "index": {
           "description": "Compute an array of flags indicating which elements match given value pick",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "pick",
           "normalized": "Array a-\u003ea-\u003eArray Bool",
@@ -10918,6 +11556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(max(segs, threads) . log segs). \n   Add the lengths of corresponding segments in two descriptors.\n\u003c/p\u003e\u003cpre\u003eplusSegd [lens: 2 3 1] [lens: 3 1 1] = [lens: 5 4 2]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "plusSegd",
           "package": "dph-prim-par",
@@ -10928,6 +11567,7 @@
         "index": {
           "description": "max segs threads log segs Add the lengths of corresponding segments in two descriptors plusSegd lens lens lens",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "plusSegd",
           "normalized": "Segd-\u003eSegd-\u003eSegd",
@@ -10944,6 +11584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(segs). Promote a plain \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe result contains one virtual segment for every physical segment\n   the provided \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "promoteSSegdToVSegd",
           "package": "dph-prim-par",
@@ -10954,6 +11595,7 @@
         "index": {
           "description": "segs Promote plain SSegd to VSegd The result contains one virtual segment for every physical segment the provided SSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "promoteSSegdToVSegd",
           "normalized": "SSegd-\u003eVSegd",
@@ -10970,6 +11612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(segs). Promote a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e, \n   assuming all segments are contiguous and come from a single array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "promoteSegdToSSegd",
           "package": "dph-prim-par",
@@ -10980,6 +11623,7 @@
         "index": {
           "description": "segs Promote Segd to SSegd assuming all segments are contiguous and come from single array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "promoteSegdToSSegd",
           "normalized": "Segd-\u003eSSegd",
@@ -10996,6 +11640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(segs). Promote a plain \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe result contains one virtual segment for every physical segment\n   the provided \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "promoteSegdToVSegd",
           "package": "dph-prim-par",
@@ -11006,6 +11651,7 @@
         "index": {
           "description": "segs Promote plain Segd to VSegd The result contains one virtual segment for every physical segment the provided Segd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "promoteSegdToVSegd",
           "normalized": "Segd-\u003eVSegd",
@@ -11022,6 +11668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an array of the given length full of random data.\n   Good for testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "randomRs",
           "package": "dph-prim-par",
@@ -11032,6 +11679,7 @@
         "index": {
           "description": "Generate an array of the given length full of random data Good for testing",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "randomRs",
           "normalized": "Int-\u003e(a,a)-\u003eb-\u003eArray a",
@@ -11048,6 +11696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an array of the given length full of random data. \n   Good for testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "randoms",
           "package": "dph-prim-par",
@@ -11058,6 +11707,7 @@
         "index": {
           "description": "Generate an array of the given length full of random data Good for testing",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "randoms",
           "normalized": "Int-\u003ea-\u003eArray b",
@@ -11073,6 +11723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the parallel representation of a selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "repSel2",
           "package": "dph-prim-par",
@@ -11083,6 +11734,7 @@
         "index": {
           "description": "Yield the parallel representation of selector",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "repSel2",
           "normalized": "Sel-\u003eSelRep",
@@ -11099,6 +11751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Construct an array by copying a portion of another array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "repeat",
           "package": "dph-prim-par",
@@ -11108,6 +11761,7 @@
         "index": {
           "description": "length result Construct an array by copying portion of another array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "repeat",
           "normalized": "Int-\u003eInt-\u003eArray a-\u003eArray a",
@@ -11123,6 +11777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). \n   Construct a new array by replicating a single element the given\n   number of times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "replicate",
           "package": "dph-prim-par",
@@ -11133,6 +11788,7 @@
         "index": {
           "description": "length result Construct new array by replicating single element the given number of times",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "replicate",
           "normalized": "Int-\u003ea-\u003eArray a",
@@ -11148,6 +11804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Regular segmented replicate.\n\u003c/p\u003e\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ereplicate_s\u003c/a\u003e\u003c/code\u003e, but all segments are assumed to have the given length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "replicate_rs",
           "package": "dph-prim-par",
@@ -11158,6 +11815,7 @@
         "index": {
           "description": "length result Regular segmented replicate Like replicate but all segments are assumed to have the given length",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "replicate_rs",
           "normalized": "Int-\u003eArray a-\u003eArray a",
@@ -11173,6 +11831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). Segmented replicate.\n\u003c/p\u003e\u003cp\u003eElements of the array are replicated according to the lengths of the \n   segments defined by the \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "replicate_s",
           "package": "dph-prim-par",
@@ -11183,6 +11842,7 @@
         "index": {
           "description": "length result Segmented replicate Elements of the array are replicated according to the lengths of the segments defined by the Segd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "replicate_s",
           "normalized": "Segd-\u003eArray a-\u003eArray a",
@@ -11198,6 +11858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(len). Construct a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e that describes an array where all virtual \n   segments point to the same physical segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "replicatedVSegd",
           "package": "dph-prim-par",
@@ -11207,6 +11868,7 @@
         "index": {
           "description": "len Construct VSegd that describes an array where all virtual segments point to the same physical segment",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "replicatedVSegd",
           "normalized": "Int-\u003eInt-\u003eVSegd",
@@ -11223,6 +11885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003efoldl\u003c/code\u003e but return an array of the intermediate states, including\n   the final state that is computed by \u003ccode\u003efoldl\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "scan",
           "package": "dph-prim-par",
@@ -11233,6 +11896,7 @@
         "index": {
           "description": "Similar to foldl but return an array of the intermediate states including the final state that is computed by foldl",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "scan",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eArray a-\u003eArray a",
@@ -11248,6 +11912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e containing a single segment of the given length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "singletonSSegd",
           "package": "dph-prim-par",
@@ -11258,6 +11923,7 @@
         "index": {
           "description": "Construct Segd containing single segment of the given length",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "singletonSSegd",
           "normalized": "Int-\u003eSSegd",
@@ -11274,6 +11940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e containing a single segment of the given length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "singletonSegd",
           "package": "dph-prim-par",
@@ -11284,6 +11951,7 @@
         "index": {
           "description": "Construct Segd containing single segment of the given length",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "singletonSegd",
           "normalized": "Int-\u003eSegd",
@@ -11300,6 +11968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e containing a single segment of the given length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "singletonVSegd",
           "package": "dph-prim-par",
@@ -11310,6 +11979,7 @@
         "index": {
           "description": "Construct VSegd containing single segment of the given length",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "singletonVSegd",
           "normalized": "Int-\u003eVSegd",
@@ -11326,6 +11996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct an \u003ccode\u003e\u003ca\u003eArrays\u003c/a\u003e\u003c/code\u003e consisting of a single \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "singletons",
           "package": "dph-prim-par",
@@ -11336,6 +12007,7 @@
         "index": {
           "description": "Construct an Arrays consisting of single Array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "singletons",
           "normalized": "Array a-\u003eArrays a",
@@ -11351,6 +12023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Take the second elements of an array of pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "snds",
           "package": "dph-prim-par",
@@ -11361,6 +12034,7 @@
         "index": {
           "description": "Take the second elements of an array of pairs",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "snds",
           "normalized": "Array(a,b)-\u003eArray b",
@@ -11376,6 +12050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the sources field of a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "sourcesOfSSegd",
           "package": "dph-prim-par",
@@ -11386,6 +12061,7 @@
         "index": {
           "description": "Yield the sources field of SSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "sourcesOfSSegd",
           "normalized": "SSegd-\u003eArray Int",
@@ -11402,6 +12078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the starts field of a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "startsOfSSegd",
           "package": "dph-prim-par",
@@ -11412,6 +12089,7 @@
         "index": {
           "description": "Yield the starts field of SSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "startsOfSSegd",
           "normalized": "SSegd-\u003eArray Int",
@@ -11428,6 +12106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003efold (+) 0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "sum",
           "package": "dph-prim-par",
@@ -11438,6 +12117,7 @@
         "index": {
           "description": "Same as fold",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "sum",
           "normalized": "Array a-\u003ea",
@@ -11453,6 +12133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003efold_r (+) 0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "sum_r",
           "package": "dph-prim-par",
@@ -11463,6 +12144,7 @@
         "index": {
           "description": "Same as fold",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "sum_r",
           "normalized": "Int-\u003eArray a-\u003eArray a",
@@ -11478,6 +12160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003efold_s (+) 0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "sum_s",
           "package": "dph-prim-par",
@@ -11488,6 +12171,7 @@
         "index": {
           "description": "Same as fold",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "sum_s",
           "normalized": "Segd-\u003eArray a-\u003eArray a",
@@ -11503,6 +12187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003efold_ss (+) 0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "sum_ss",
           "package": "dph-prim-par",
@@ -11513,6 +12198,7 @@
         "index": {
           "description": "Same as fold ss",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "sum_ss",
           "normalized": "SSegd-\u003eArrays a-\u003eArray a",
@@ -11528,6 +12214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the tags array of a selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "tagsSel2",
           "package": "dph-prim-par",
@@ -11538,6 +12225,7 @@
         "index": {
           "description": "Yield the tags array of selector",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "tagsSel2",
           "normalized": "Sel-\u003eArray Tag",
@@ -11554,6 +12242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Compute a selector from a tags array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "tagsToSel2",
           "package": "dph-prim-par",
@@ -11564,6 +12253,7 @@
         "index": {
           "description": "Compute selector from tags array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "tagsToSel2",
           "normalized": "Array Tag-\u003eSel",
@@ -11580,6 +12270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the segment lengths of a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "takeLengthsOfVSegd",
           "package": "dph-prim-par",
@@ -11590,6 +12281,7 @@
         "index": {
           "description": "Yield the segment lengths of VSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "takeLengthsOfVSegd",
           "normalized": "VSegd-\u003eArray Int",
@@ -11606,6 +12298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "takeSSegdOfVSegd",
           "package": "dph-prim-par",
@@ -11616,6 +12309,7 @@
         "index": {
           "description": "Yield the SSegd of VSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "takeSSegdOfVSegd",
           "normalized": "VSegd-\u003eSSegd",
@@ -11632,6 +12326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e, but don't require that every physical\n   segment is referenced by some virtual segment.\n\u003c/p\u003e\u003cp\u003eSee the note in \u003ccode\u003e\u003ca\u003etakeVSegidsRedundantOfVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "takeSSegdRedundantOfVSegd",
           "package": "dph-prim-par",
@@ -11642,6 +12337,7 @@
         "index": {
           "description": "Yield the SSegd of VSegd but don require that every physical segment is referenced by some virtual segment See the note in takeVSegidsRedundantOfVSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "takeSSegdRedundantOfVSegd",
           "normalized": "VSegd-\u003eSSegd",
@@ -11658,6 +12354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the vsegids of a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "takeVSegidsOfVSegd",
           "package": "dph-prim-par",
@@ -11668,6 +12365,7 @@
         "index": {
           "description": "Yield the vsegids of VSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "takeVSegidsOfVSegd",
           "normalized": "VSegd-\u003eArray Int",
@@ -11684,6 +12382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the vsegids of a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e, but don't require that every physical\n   segment is referenced by some virtual segment.\n\u003c/p\u003e\u003cp\u003eIf you're just performing indexing and don't need the invariant that all\n   physical segments are reachable from some virtual segment, then use this\n   version as it's faster. This sidesteps the code that maintains the invariant.\n\u003c/p\u003e\u003cp\u003eThe stated O(1) complexity assumes that the array has already been fully\n   evalauted. If this is not the case then we can avoid demanding the result\n   of a prior computation on the \u003ccode\u003evsegids\u003c/code\u003e, thus reducing the cost attributed\n   to that prior computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "takeVSegidsRedundantOfVSegd",
           "package": "dph-prim-par",
@@ -11694,6 +12393,7 @@
         "index": {
           "description": "Yield the vsegids of VSegd but don require that every physical segment is referenced by some virtual segment If you re just performing indexing and don need the invariant that all physical segments are reachable from some virtual segment then use this version as it faster This sidesteps the code that maintains the invariant The stated complexity assumes that the array has already been fully evalauted If this is not the case then we can avoid demanding the result of prior computation on the vsegids thus reducing the cost attributed to that prior computation",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "takeVSegidsRedundantOfVSegd",
           "normalized": "VSegd-\u003eArray Int",
@@ -11710,6 +12410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an array to a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "toList",
           "package": "dph-prim-par",
@@ -11720,6 +12421,7 @@
         "index": {
           "description": "Convert an array to list of elements",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "toList",
           "normalized": "Array a-\u003e[a]",
@@ -11736,6 +12438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(number of inner arrays). \n   Convert an \u003ccode\u003e\u003ca\u003eArrays\u003c/a\u003e\u003c/code\u003e to a boxed vector of \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "toVectors",
           "package": "dph-prim-par",
@@ -11746,6 +12449,7 @@
         "index": {
           "description": "number of inner arrays Convert an Arrays to boxed vector of Array",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "toVectors",
           "normalized": "Arrays a-\u003eVector(Array a)",
@@ -11762,6 +12466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(segs). \n   Yield a \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e that describes each segment of a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e individually.\n\u003c/p\u003e\u003cp\u003eBy doing this we lose information about which virtual segments\n   correspond to the same physical segments.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWARNING\u003c/em\u003e: Trying to take the \u003ccode\u003e\u003ca\u003eSSegd\u003c/a\u003e\u003c/code\u003e of a nested array that has been\n   constructed with replication can cause index space overflow. This is\n   because the virtual size of the corresponding flat data can be larger\n   than physical memory. If this happens then indices fields and \n   element count in the result will be invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "unsafeDemoteToSSegdOfVSegd",
           "package": "dph-prim-par",
@@ -11772,6 +12477,7 @@
         "index": {
           "description": "segs Yield SSegd that describes each segment of VSegd individually By doing this we lose information about which virtual segments correspond to the same physical segments WARNING Trying to take the SSegd of nested array that has been constructed with replication can cause index space overflow This is because the virtual size of the corresponding flat data can be larger than physical memory If this happens then indices fields and element count in the result will be invalid",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "unsafeDemoteToSSegdOfVSegd",
           "normalized": "VSegd-\u003eSSegd",
@@ -11788,6 +12494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(segs). Yield a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e that describes each segment of a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e individually.\n\u003c/p\u003e\u003cp\u003eBy doing this we lose information about which virtual segments\n   correspond to the same physical segments.\n\u003c/p\u003e\u003cp\u003eSee the warning in \u003ccode\u003e\u003ca\u003eunsafeDemoteToSSegdOfVSegd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "unsafeDemoteToSegdOfVSegd",
           "package": "dph-prim-par",
@@ -11798,6 +12505,7 @@
         "index": {
           "description": "segs Yield Segd that describes each segment of VSegd individually By doing this we lose information about which virtual segments correspond to the same physical segments See the warning in unsafeDemoteToSSegdOfVSegd",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "unsafeDemoteToSegdOfVSegd",
           "normalized": "VSegd-\u003eSegd",
@@ -11814,6 +12522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Retrieve a single element from an \u003ccode\u003e\u003ca\u003eArrays\u003c/a\u003e\u003c/code\u003e, \n        given the outer and inner indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "unsafeIndex2s",
           "package": "dph-prim-par",
@@ -11824,6 +12533,7 @@
         "index": {
           "description": "Retrieve single element from an Arrays given the outer and inner indices",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "unsafeIndex2s",
           "normalized": "Arrays a-\u003eInt-\u003eInt-\u003ea",
@@ -11840,6 +12550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Take one of the outer \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003e\u003ca\u003eArrays\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "unsafeIndexs",
           "package": "dph-prim-par",
@@ -11850,6 +12561,7 @@
         "index": {
           "description": "Take one of the outer Array from an Arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "unsafeIndexs",
           "normalized": "Arrays a-\u003eInt-\u003eArray a",
@@ -11866,6 +12578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Unzip an array of pairs into a pair of arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "unzip",
           "package": "dph-prim-par",
@@ -11876,6 +12589,7 @@
         "index": {
           "description": "Unzip an array of pairs into pair of arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "unzip",
           "normalized": "Array(a,b)-\u003e(Array a,Array b)",
@@ -11891,6 +12605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Unzip an array of triples into a triple of arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "unzip3",
           "package": "dph-prim-par",
@@ -11901,6 +12616,7 @@
         "index": {
           "description": "Unzip an array of triples into triple of arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "unzip3",
           "normalized": "Array(a,b,c)-\u003e(Array a,Array b,Array c)",
@@ -11916,6 +12632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(length result). \n   Copy the source array while replacing some elements by new ones in the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "update",
           "package": "dph-prim-par",
@@ -11925,6 +12642,7 @@
         "index": {
           "description": "length result Copy the source array while replacing some elements by new ones in the result",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "update",
           "normalized": "Array a-\u003eArray(Int,a)-\u003eArray a",
@@ -11940,6 +12658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the \u003ccode\u003evsegids\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e, and then cull the physical\n   segment descriptor so that all physical segments are reachable from\n   some virtual segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "updateVSegsOfVSegd",
           "package": "dph-prim-par",
@@ -11950,6 +12669,7 @@
         "index": {
           "description": "Update the vsegids of VSegd and then cull the physical segment descriptor so that all physical segments are reachable from some virtual segment",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "updateVSegsOfVSegd",
           "normalized": "(Array Int-\u003eArray Int)-\u003eVSegd-\u003eVSegd",
@@ -11966,6 +12686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the \u003ccode\u003evsegids\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eVSegd\u003c/a\u003e\u003c/code\u003e, where the result is guaranteed to\n   cover all physical segments.\n\u003c/p\u003e\u003cp\u003eUsing this version avoids performing the \u003ccode\u003ecull\u003c/code\u003e operation which \n   discards unreachable physical segments.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The resulting vsegids must cover all physical segments.\n     If they do not then there will be physical segments that are not \n     reachable from some virtual segment, and subsequent operations\n     like \u003ccode\u003efold_ss\u003c/code\u003e will have the wrong work complexity.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "updateVSegsReachableOfVSegd",
           "package": "dph-prim-par",
@@ -11976,6 +12697,7 @@
         "index": {
           "description": "Update the vsegids of VSegd where the result is guaranteed to cover all physical segments Using this version avoids performing the cull operation which discards unreachable physical segments The resulting vsegids must cover all physical segments If they do not then there will be physical segments that are not reachable from some virtual segment and subsequent operations like fold ss will have the wrong work complexity",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "updateVSegsReachableOfVSegd",
           "normalized": "(Array Int-\u003eArray Int)-\u003eVSegd-\u003eVSegd",
@@ -11992,6 +12714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e is well formed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "validSSegd",
           "package": "dph-prim-par",
@@ -12002,6 +12725,7 @@
         "index": {
           "description": "Check whether Segd is well formed",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "validSSegd",
           "normalized": "SSegd-\u003eBool",
@@ -12018,6 +12742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e is well formed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "validSegd",
           "package": "dph-prim-par",
@@ -12028,6 +12753,7 @@
         "index": {
           "description": "Check whether Segd is well formed",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "validSegd",
           "normalized": "Segd-\u003eBool",
@@ -12044,6 +12770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a \u003ccode\u003e\u003ca\u003eSegd\u003c/a\u003e\u003c/code\u003e is well formed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "validVSegd",
           "package": "dph-prim-par",
@@ -12054,6 +12781,7 @@
         "index": {
           "description": "Check whether Segd is well formed",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "validVSegd",
           "normalized": "VSegd-\u003eBool",
@@ -12070,6 +12798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Zip two arrays into an array of pairs.\n   If one array is short, excess elements of the longer array are discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zip",
           "package": "dph-prim-par",
@@ -12080,6 +12809,7 @@
         "index": {
           "description": "Zip two arrays into an array of pairs If one array is short excess elements of the longer array are discarded",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zip",
           "normalized": "Array a-\u003eArray b-\u003eArray(a,b)",
@@ -12095,6 +12825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Zip three arrays into an array of triples.\n   If one array is short, excess elements of the longer arrays are discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zip3",
           "package": "dph-prim-par",
@@ -12105,6 +12836,7 @@
         "index": {
           "description": "Zip three arrays into an array of triples If one array is short excess elements of the longer arrays are discarded",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zip3",
           "normalized": "Array a-\u003eArray b-\u003eArray c-\u003eArray(a,b,c)",
@@ -12120,6 +12852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a worker function to correponding elements of two arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith",
           "package": "dph-prim-par",
@@ -12130,6 +12863,7 @@
         "index": {
           "description": "Apply worker function to correponding elements of two arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eArray a-\u003eArray b-\u003eArray c",
@@ -12146,6 +12880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a worker function to corresponding elements of three arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith3",
           "package": "dph-prim-par",
@@ -12156,6 +12891,7 @@
         "index": {
           "description": "Apply worker function to corresponding elements of three arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eArray a-\u003eArray b-\u003eArray c-\u003eArray d",
@@ -12172,6 +12908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a worker function to corresponding elements of four arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith4",
           "package": "dph-prim-par",
@@ -12182,6 +12919,7 @@
         "index": {
           "description": "Apply worker function to corresponding elements of four arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eArray a-\u003eArray b-\u003eArray c-\u003eArray d-\u003eArray e",
@@ -12198,6 +12936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a worker function to corresponding elements of five arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith5",
           "package": "dph-prim-par",
@@ -12208,6 +12947,7 @@
         "index": {
           "description": "Apply worker function to corresponding elements of five arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eArray a-\u003eArray b-\u003eArray c-\u003eArray d-\u003eArray e-\u003eArray f",
@@ -12224,6 +12964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a worker function to corresponding elements of six arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith6",
           "package": "dph-prim-par",
@@ -12234,6 +12975,7 @@
         "index": {
           "description": "Apply worker function to corresponding elements of six arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith6",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003eArray a-\u003eArray b-\u003eArray c-\u003eArray d-\u003eArray e-\u003eArray f-\u003eArray g",
@@ -12250,6 +12992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a worker function to corresponding elements of seven arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith7",
           "package": "dph-prim-par",
@@ -12260,6 +13003,7 @@
         "index": {
           "description": "Apply worker function to corresponding elements of seven arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith7",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh)-\u003eArray a-\u003eArray b-\u003eArray c-\u003eArray d-\u003eArray e-\u003eArray f-\u003eArray g-\u003eArray h",
@@ -12276,6 +13020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a worker function to corresponding elements of six arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:49 UTC 2014",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith8",
           "package": "dph-prim-par",
@@ -12286,6 +13031,7 @@
         "index": {
           "description": "Apply worker function to corresponding elements of six arrays",
           "hierarchy": "Data Array Parallel Unlifted",
+          "indexed": "2014-03-11T17:58:49",
           "module": "Data.Array.Parallel.Unlifted",
           "name": "zipWith8",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh-\u003ei)-\u003eArray a-\u003eArray b-\u003eArray c-\u003eArray d-\u003eArray e-\u003eArray f-\u003eArray g-\u003eArray h-\u003eArray i",

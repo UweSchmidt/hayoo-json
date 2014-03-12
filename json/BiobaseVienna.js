@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BiobaseVienna"
+        "phrase": "BiobaseVienna",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Vienna 2004 model is a mirror of the Turner data structure. The\n difference is that The ViennaRNA package uses an explicit annotation for RNA\n basepairs (which this library does not anymore!)\n\u003c/p\u003e\u003cp\u003eFurthermore, all energies are stored in parts of 1/100, using Ints instead\n of Doubles.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:39 UTC 2014",
           "module": "Biobase.Vienna",
           "name": "Vienna",
           "package": "BiobaseVienna",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Vienna model is mirror of the Turner data structure The difference is that The ViennaRNA package uses an explicit annotation for RNA basepairs which this library does not anymore Furthermore all energies are stored in parts of using Ints instead of Doubles",
           "hierarchy": "Biobase Vienna",
+          "indexed": "2014-03-11T16:34:39",
           "module": "Biobase.Vienna",
           "name": "Vienna",
           "package": "BiobaseVienna",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:39 UTC 2014",
           "module": "Biobase.Vienna",
           "name": "Deka",
           "package": "BiobaseVienna",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Biobase Vienna",
+          "indexed": "2014-03-11T16:34:39",
           "module": "Biobase.Vienna",
           "name": "Deka",
           "package": "BiobaseVienna",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:39 UTC 2014",
           "module": "Biobase.Vienna",
           "name": "Vienna2004",
           "package": "BiobaseVienna",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Biobase Vienna",
+          "indexed": "2014-03-11T16:34:39",
           "module": "Biobase.Vienna",
           "name": "Vienna2004",
           "package": "BiobaseVienna",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:39 UTC 2014",
           "module": "Biobase.Vienna",
           "name": "Deka",
           "package": "BiobaseVienna",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Biobase Vienna",
+          "indexed": "2014-03-11T16:34:39",
           "module": "Biobase.Vienna",
           "name": "Deka",
           "package": "BiobaseVienna",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:39 UTC 2014",
           "module": "Biobase.Vienna",
           "name": "turnerToVienna",
           "package": "BiobaseVienna",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Biobase Vienna",
+          "indexed": "2014-03-11T16:34:39",
           "module": "Biobase.Vienna",
           "name": "turnerToVienna",
           "normalized": "Turner-\u003eVienna",

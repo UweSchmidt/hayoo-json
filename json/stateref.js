@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stateref"
+        "phrase": "stateref",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.Accessor",
           "name": "Accessor",
           "package": "stateref",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.Accessor",
           "name": "Accessor",
           "package": "stateref",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.Accessor",
           "name": "Accessor",
           "package": "stateref",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.Accessor",
           "name": "Accessor",
           "package": "stateref",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.Accessor",
           "name": "Getter",
           "package": "stateref",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.Accessor",
           "name": "Getter",
           "package": "stateref",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.Accessor",
           "name": "Setter",
           "package": "stateref",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.Accessor",
           "name": "Setter",
           "package": "stateref",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.Accessor",
           "name": "Accessor",
           "package": "stateref",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.Accessor",
           "name": "Accessor",
           "normalized": "Accessor(Getter a b,Setter a b)",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.Accessor",
           "name": "Getter",
           "package": "stateref",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.Accessor",
           "name": "Getter",
           "package": "stateref",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.Accessor",
           "name": "Setter",
           "package": "stateref",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.Accessor",
           "name": "Setter",
           "normalized": "Setter(a-\u003eb())",
@@ -173,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports no new symbols of its own.  It defines \n  basic class instances for creating, reading, and writing \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003es, and\n  re-exports \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Instances",
           "name": "Instances",
           "package": "stateref",
@@ -182,6 +197,7 @@
         "index": {
           "description": "This module exports no new symbols of its own It defines basic class instances for creating reading and writing MVar and re-exports MVar",
           "hierarchy": "Data MRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Instances",
           "name": "Instances",
           "package": "stateref",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e (pronounced \"em-var\") is a synchronising variable, used\nfor communication between concurrent threads.  It can be thought of\nas a a box, which may be empty or full.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Instances",
           "name": "MVar",
           "package": "stateref",
@@ -204,6 +221,7 @@
         "index": {
           "description": "An MVar pronounced em-var is synchronising variable used for communication between concurrent threads It can be thought of as box which may be empty or full",
           "hierarchy": "Data MRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Instances",
           "name": "MVar",
           "package": "stateref",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads in which \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computations may be embedded.\n Any monad built by applying a sequence of monad transformers to the\n \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad will be an instance of this class.\n\u003c/p\u003e\u003cp\u003eInstances should satisfy the following laws, which state that \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e\n is a transformer of monads:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e (m \u003e\u003e= f) = \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e m \u003e\u003e= (\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e . f)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Instances",
           "name": "MonadIO",
           "package": "stateref",
@@ -226,6 +245,7 @@
         "index": {
           "description": "Monads in which IO computations may be embedded Any monad built by applying sequence of monad transformers to the IO monad will be an instance of this class Instances should satisfy the following laws which state that liftIO is transformer of monads liftIO return return liftIO liftIO liftIO",
           "hierarchy": "Data MRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Instances",
           "name": "MonadIO",
           "package": "stateref",
@@ -240,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad supporting atomic memory transactions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Instances",
           "name": "STM",
           "package": "stateref",
@@ -248,6 +269,7 @@
         "index": {
           "description": "monad supporting atomic memory transactions",
           "hierarchy": "Data MRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Instances",
           "name": "STM",
           "package": "stateref",
@@ -262,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTMVar\u003c/a\u003e\u003c/code\u003e is a synchronising variable, used\nfor communication between concurrent threads.  It can be thought of\nas a box, which may be empty or full.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Instances",
           "name": "TMVar",
           "package": "stateref",
@@ -270,6 +293,7 @@
         "index": {
           "description": "TMVar is synchronising variable used for communication between concurrent threads It can be thought of as box which may be empty or full",
           "hierarchy": "Data MRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Instances",
           "name": "TMVar",
           "package": "stateref",
@@ -284,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShared memory locations that support atomic memory transactions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Instances",
           "name": "TVar",
           "package": "stateref",
@@ -292,6 +317,7 @@
         "index": {
           "description": "Shared memory locations that support atomic memory transactions",
           "hierarchy": "Data MRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Instances",
           "name": "TVar",
           "package": "stateref",
@@ -331,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Instances",
           "name": "liftIO",
           "package": "stateref",
@@ -340,6 +367,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Data MRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Instances",
           "name": "liftIO",
           "normalized": "IO a-\u003eb a",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the \"MRef\" abstraction, which is a set of\n  type-classes for things that behave like \u003ccode\u003eControl.Concurrent.MVar.MVar\u003c/code\u003es.\n  See the documentation there for more info.  \n\u003c/p\u003e\u003cp\u003eThis interface may be subject to future expansion.  Presently, rather \n  than providing something like \u003ccode\u003eControl.Concurrent.MVar.tryTakeMVar\u003c/code\u003e,\n  instances for \"\u003ccode\u003eData.StateRef.Types.ReadRef\u003c/code\u003e sr m (\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e a)\" are\n  provided, giving \u003ccode\u003eData.StateRef.Types.readReference\u003c/code\u003e the same type \n  tryTakeMRef would have if it existed.  There is currently nothing like\n  \u003ccode\u003eControl.Concurrent.MVar.tryPutMVar\u003c/code\u003e, though.  Perhaps there should be.\n  Or, perhaps this is the sort of thing the weird (to me) signature of\n  \u003ccode\u003eData.IORef.atomicModifyIORef\u003c/code\u003e is for, and an argument for a similar\n  signature for \u003ccode\u003eData.StateRef.Types.modifyStateRef\u003c/code\u003e or the addition of\n  a new atomicModifyStateRef function.\n\u003c/p\u003e\u003cp\u003eI would like to resolve these questions in version 0.3 of this package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "Types",
           "package": "stateref",
@@ -365,6 +394,7 @@
         "index": {
           "description": "This module defines the MRef abstraction which is set of type-classes for things that behave like Control.Concurrent.MVar.MVar See the documentation there for more info This interface may be subject to future expansion Presently rather than providing something like Control.Concurrent.MVar.tryTakeMVar instances for Data.StateRef.Types.ReadRef sr Maybe are provided giving Data.StateRef.Types.readReference the same type tryTakeMRef would have if it existed There is currently nothing like Control.Concurrent.MVar.tryPutMVar though Perhaps there should be Or perhaps this is the sort of thing the weird to me signature of Data.IORef.atomicModifyIORef is for and an argument for similar signature for Data.StateRef.Types.modifyStateRef or the addition of new atomicModifyStateRef function would like to resolve these questions in version of this package",
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "Types",
           "package": "stateref",
@@ -378,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "HasMRef",
           "package": "stateref",
@@ -386,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "HasMRef",
           "package": "stateref",
@@ -399,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "MRef",
           "package": "stateref",
@@ -407,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "MRef",
           "package": "stateref",
@@ -420,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "NewMRef",
           "package": "stateref",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "NewMRef",
           "package": "stateref",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "PutMRef",
           "package": "stateref",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "PutMRef",
           "package": "stateref",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "TakeMRef",
           "package": "stateref",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "TakeMRef",
           "package": "stateref",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "MRef",
           "package": "stateref",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "MRef",
           "normalized": "a-\u003eMRef b c",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "newEmptyMRef",
           "package": "stateref",
@@ -516,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "newEmptyMRef",
           "package": "stateref",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003eControl.Concurrent.MVar.newEmptyMVar\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "newEmptyMReference",
           "package": "stateref",
@@ -540,6 +585,7 @@
         "index": {
           "description": "See Control.Concurrent.MVar.newEmptyMVar",
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "newEmptyMReference",
           "package": "stateref",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "newMRef",
           "package": "stateref",
@@ -562,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "newMRef",
           "normalized": "a-\u003eb(MRef b a)",
@@ -578,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003eControl.Concurrent.MVar.newMVar\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "newMReference",
           "package": "stateref",
@@ -588,6 +637,7 @@
         "index": {
           "description": "See Control.Concurrent.MVar.newMVar",
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "newMReference",
           "normalized": "a-\u003eb c",
@@ -604,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003eControl.Concurrent.MVar.putMVar\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "putMReference",
           "package": "stateref",
@@ -614,6 +665,7 @@
         "index": {
           "description": "See Control.Concurrent.MVar.putMVar",
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "putMReference",
           "normalized": "a-\u003eb-\u003ec()",
@@ -630,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003eControl.Concurrent.MVar.takeMVar\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef.Types",
           "name": "takeMReference",
           "package": "stateref",
@@ -640,6 +693,7 @@
         "index": {
           "description": "See Control.Concurrent.MVar.takeMVar",
           "hierarchy": "Data MRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef.Types",
           "name": "takeMReference",
           "normalized": "a-\u003eb c",
@@ -655,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef",
           "name": "MRef",
           "package": "stateref",
@@ -663,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Data MRef",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef",
           "name": "MRef",
           "package": "stateref",
@@ -677,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eputMRef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef",
           "name": "putMRef",
           "package": "stateref",
@@ -687,6 +744,7 @@
         "index": {
           "description": "See putMRef",
           "hierarchy": "Data MRef",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef",
           "name": "putMRef",
           "normalized": "MRef a b-\u003eb-\u003ea()",
@@ -703,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003etakeMRef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.MRef",
           "name": "takeMRef",
           "package": "stateref",
@@ -713,6 +772,7 @@
         "index": {
           "description": "See takeMRef",
           "hierarchy": "Data MRef",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.MRef",
           "name": "takeMRef",
           "normalized": "MRef a b-\u003ea b",
@@ -729,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports no new symbols of its own.  It defines several \n  basic class instances for creating, reading, and writing standard\n  reference types, and re-exports the types for which it defines instances.\n\u003c/p\u003e\u003cp\u003eTODO: add millions of SPECIALIZE INSTANCE pragmas, for IO monad at\n  a minimum.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "Instances",
           "package": "stateref",
@@ -738,6 +799,7 @@
         "index": {
           "description": "This module exports no new symbols of its own It defines several basic class instances for creating reading and writing standard reference types and re-exports the types for which it defines instances TODO add millions of SPECIALIZE INSTANCE pragmas for IO monad at minimum",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "Instances",
           "package": "stateref",
@@ -752,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e represents references to objects that are\n maintained in a foreign language, i.e., that are not part of the\n data structures usually managed by the Haskell storage manager.\n The essential difference between \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003es and vanilla memory\n references of type \u003ccode\u003ePtr a\u003c/code\u003e is that the former may be associated\n with \u003cem\u003efinalizers\u003c/em\u003e. A finalizer is a routine that is invoked when\n the Haskell storage manager detects that - within the Haskell heap\n and stack - there are no more references left that are pointing to\n the \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e.  Typically, the finalizer will, then, invoke\n routines in the foreign language that free the resources bound by\n the foreign object.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e is parameterised in the same way as \u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e.  The\n type argument of \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e should normally be an instance of\n class \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "ForeignPtr",
           "package": "stateref",
@@ -760,6 +823,7 @@
         "index": {
           "description": "The type ForeignPtr represents references to objects that are maintained in foreign language i.e that are not part of the data structures usually managed by the Haskell storage manager The essential difference between ForeignPtr and vanilla memory references of type Ptr is that the former may be associated with finalizers finalizer is routine that is invoked when the Haskell storage manager detects that within the Haskell heap and stack there are no more references left that are pointing to the ForeignPtr Typically the finalizer will then invoke routines in the foreign language that free the resources bound by the foreign object The ForeignPtr is parameterised in the same way as Ptr The type argument of ForeignPtr should normally be an instance of class Storable",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "ForeignPtr",
           "package": "stateref",
@@ -774,6 +838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable variable in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "IORef",
           "package": "stateref",
@@ -782,6 +847,7 @@
         "index": {
           "description": "mutable variable in the IO monad",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "IORef",
           "package": "stateref",
@@ -796,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e (pronounced \"em-var\") is a synchronising variable, used\nfor communication between concurrent threads.  It can be thought of\nas a a box, which may be empty or full.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "MVar",
           "package": "stateref",
@@ -804,6 +871,7 @@
         "index": {
           "description": "An MVar pronounced em-var is synchronising variable used for communication between concurrent threads It can be thought of as box which may be empty or full",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "MVar",
           "package": "stateref",
@@ -818,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads in which \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computations may be embedded.\n Any monad built by applying a sequence of monad transformers to the\n \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad will be an instance of this class.\n\u003c/p\u003e\u003cp\u003eInstances should satisfy the following laws, which state that \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e\n is a transformer of monads:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e (m \u003e\u003e= f) = \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e m \u003e\u003e= (\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e . f)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "MonadIO",
           "package": "stateref",
@@ -826,6 +895,7 @@
         "index": {
           "description": "Monads in which IO computations may be embedded Any monad built by applying sequence of monad transformers to the IO monad will be an instance of this class Instances should satisfy the following laws which state that liftIO is transformer of monads liftIO return return liftIO liftIO liftIO",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "MonadIO",
           "package": "stateref",
@@ -840,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eRealWorld\u003c/code\u003e is deeply magical.  It is \u003cem\u003eprimitive\u003c/em\u003e, but it is not\n \t\u003cem\u003eunlifted\u003c/em\u003e (hence \u003ccode\u003eptrArg\u003c/code\u003e).  We never manipulate values of type\n \t\u003ccode\u003eRealWorld\u003c/code\u003e; it's only used in the type system, to parameterise \u003ccode\u003eState#\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "RealWorld",
           "package": "stateref",
@@ -848,6 +919,7 @@
         "index": {
           "description": "RealWorld is deeply magical It is primitive but it is not unlifted hence ptrArg We never manipulate values of type RealWorld it only used in the type system to parameterise State",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "RealWorld",
           "package": "stateref",
@@ -862,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strict state-transformer monad.\n A computation of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e s a\u003c/code\u003e transforms an internal state indexed\n by \u003ccode\u003es\u003c/code\u003e, and returns a value of type \u003ccode\u003ea\u003c/code\u003e.\n The \u003ccode\u003es\u003c/code\u003e parameter is either\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e an uninstantiated type variable (inside invocations of \u003ccode\u003e\u003ca\u003erunST\u003c/a\u003e\u003c/code\u003e), or\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eRealWorld\u003c/a\u003e\u003c/code\u003e (inside invocations of \u003ccode\u003eControl.Monad.ST.stToIO\u003c/code\u003e).\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIt serves to keep the internal states of different invocations\n of \u003ccode\u003e\u003ca\u003erunST\u003c/a\u003e\u003c/code\u003e separate from each other and from invocations of\n \u003ccode\u003eControl.Monad.ST.stToIO\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003e\u003e\u003c/a\u003e\u003c/code\u003e operations are strict in the state (though not in\n values stored in the state).  For example,\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunST\u003c/a\u003e\u003c/code\u003e (writeSTRef _|_ v \u003e\u003e= f) = _|_\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "ST",
           "package": "stateref",
@@ -870,6 +943,7 @@
         "index": {
           "description": "The strict state-transformer monad computation of type ST transforms an internal state indexed by and returns value of type The parameter is either an uninstantiated type variable inside invocations of runST or RealWorld inside invocations of Control.Monad.ST.stToIO It serves to keep the internal states of different invocations of runST separate from each other and from invocations of Control.Monad.ST.stToIO The and operations are strict in the state though not in values stored in the state For example runST writeSTRef",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "ST",
           "package": "stateref",
@@ -884,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad supporting atomic memory transactions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "STM",
           "package": "stateref",
@@ -892,6 +967,7 @@
         "index": {
           "description": "monad supporting atomic memory transactions",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "STM",
           "package": "stateref",
@@ -906,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea value of type \u003ccode\u003eSTRef s a\u003c/code\u003e is a mutable variable in state thread \u003ccode\u003es\u003c/code\u003e,\n containing a value of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "STRef",
           "package": "stateref",
@@ -914,6 +991,7 @@
         "index": {
           "description": "value of type STRef is mutable variable in state thread containing value of type",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "STRef",
           "package": "stateref",
@@ -928,6 +1006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTMVar\u003c/a\u003e\u003c/code\u003e is a synchronising variable, used\nfor communication between concurrent threads.  It can be thought of\nas a box, which may be empty or full.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "TMVar",
           "package": "stateref",
@@ -936,6 +1015,7 @@
         "index": {
           "description": "TMVar is synchronising variable used for communication between concurrent threads It can be thought of as box which may be empty or full",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "TMVar",
           "package": "stateref",
@@ -950,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShared memory locations that support atomic memory transactions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "TVar",
           "package": "stateref",
@@ -958,6 +1039,7 @@
         "index": {
           "description": "Shared memory locations that support atomic memory transactions",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "TVar",
           "package": "stateref",
@@ -972,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a state reference that supports reading and writing, and add a\n potentially thread-unsafe \u003ccode\u003e\u003ca\u003eModifyRef\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "UnsafeModifyRef",
           "package": "stateref",
@@ -981,6 +1064,7 @@
         "index": {
           "description": "Wrap state reference that supports reading and writing and add potentially thread-unsafe ModifyRef instance",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "UnsafeModifyRef",
           "package": "stateref",
@@ -994,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "UnsafeModifyRef",
           "package": "stateref",
@@ -1003,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "UnsafeModifyRef",
           "package": "stateref",
@@ -1017,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Instances",
           "name": "liftIO",
           "package": "stateref",
@@ -1026,6 +1113,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Data StateRef Instances",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Instances",
           "name": "liftIO",
           "normalized": "IO a-\u003eb a",
@@ -1041,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "Types",
           "package": "stateref",
@@ -1049,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "Types",
           "package": "stateref",
@@ -1062,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "HasRef",
           "package": "stateref",
@@ -1070,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "HasRef",
           "package": "stateref",
@@ -1083,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "ModifyRef",
           "package": "stateref",
@@ -1091,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "ModifyRef",
           "package": "stateref",
@@ -1105,6 +1199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault implementation of atomicModifyReference in terms of readReference and writeReference\n\u003c/p\u003e\u003cp\u003eDefault implementation of modifyReference in terms of readReference and writeReference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "NewRef",
           "package": "stateref",
@@ -1114,6 +1209,7 @@
         "index": {
           "description": "Default implementation of atomicModifyReference in terms of readReference and writeReference Default implementation of modifyReference in terms of readReference and writeReference",
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "NewRef",
           "package": "stateref",
@@ -1127,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "ReadRef",
           "package": "stateref",
@@ -1135,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "ReadRef",
           "package": "stateref",
@@ -1149,6 +1247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple reference type, hiding the complexity of all these type classes,\n since most of the time the only thing you care about is that you want a reference.\n The full complexity is still there, though, so FFI types or other reference-like\n things can still be made into \u003ccode\u003e\u003ca\u003eRef\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "Ref",
           "package": "stateref",
@@ -1158,6 +1257,7 @@
         "index": {
           "description": "simple reference type hiding the complexity of all these type classes since most of the time the only thing you care about is that you want reference The full complexity is still there though so FFI types or other reference-like things can still be made into Ref",
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "Ref",
           "package": "stateref",
@@ -1171,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "WriteRef",
           "package": "stateref",
@@ -1179,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "WriteRef",
           "package": "stateref",
@@ -1192,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "Ref",
           "package": "stateref",
@@ -1201,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "Ref",
           "normalized": "a-\u003eRef b c",
@@ -1217,6 +1321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomically modify the contents of a reference.  This is\n implemented in a separate class (rather than a function with\n context (ReadRef sr m a, WriteRef sr m a)) because in most\n cases the default implementation cannot act atomically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "atomicModifyReference",
           "package": "stateref",
@@ -1227,6 +1332,7 @@
         "index": {
           "description": "Atomically modify the contents of reference This is implemented in separate class rather than function with context ReadRef sr WriteRef sr because in most cases the default implementation cannot act atomically",
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "atomicModifyReference",
           "normalized": "a-\u003e(b-\u003e(b,c))-\u003ed c",
@@ -1243,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame thing, but don't thread out the extra return.  Could perhaps\n be implemented slightly more efficiently than \u003ccode\u003e\u003ca\u003eatomicModifyReference\u003c/a\u003e\u003c/code\u003e in many cases.\n Note that implementations are expected to be atomic, if at all possible,\n but not strictly required to be.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "modifyReference",
           "package": "stateref",
@@ -1253,6 +1360,7 @@
         "index": {
           "description": "Same thing but don thread out the extra return Could perhaps be implemented slightly more efficiently than atomicModifyReference in many cases Note that implementations are expected to be atomic if at all possible but not strictly required to be",
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "modifyReference",
           "normalized": "a-\u003e(b-\u003eb)-\u003ec()",
@@ -1269,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new mutable reference (of an unspecified implementation type) containing the provided value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "newRef",
           "package": "stateref",
@@ -1279,6 +1388,7 @@
         "index": {
           "description": "Construct new mutable reference of an unspecified implementation type containing the provided value",
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "newRef",
           "normalized": "a-\u003eb(Ref b a)",
@@ -1295,6 +1405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new reference to the provided value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "newReference",
           "package": "stateref",
@@ -1305,6 +1416,7 @@
         "index": {
           "description": "Construct new reference to the provided value",
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "newReference",
           "normalized": "a-\u003eb c",
@@ -1321,6 +1433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current value referenced by the given state reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "readReference",
           "package": "stateref",
@@ -1331,6 +1444,7 @@
         "index": {
           "description": "Get the current value referenced by the given state reference",
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "readReference",
           "normalized": "a-\u003eb c",
@@ -1347,6 +1461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the existing value of the given reference with the provided value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef.Types",
           "name": "writeReference",
           "package": "stateref",
@@ -1357,6 +1472,7 @@
         "index": {
           "description": "Replace the existing value of the given reference with the provided value",
           "hierarchy": "Data StateRef Types",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef.Types",
           "name": "writeReference",
           "normalized": "a-\u003eb-\u003ec()",
@@ -1373,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides classes and instances for mutable state\n references.  Various implementation exist in common usage, but\n no way (until now ;-) to define functions using state references\n which don't depend on the specific monad or reference type in use.\n\u003c/p\u003e\u003cp\u003eThese modules use several language extensions, including multi-parameter\n type classes and functional dependencies.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef",
           "name": "StateRef",
           "package": "stateref",
@@ -1382,6 +1499,7 @@
         "index": {
           "description": "This module provides classes and instances for mutable state references Various implementation exist in common usage but no way until now to define functions using state references which don depend on the specific monad or reference type in use These modules use several language extensions including multi-parameter type classes and functional dependencies",
           "hierarchy": "Data StateRef",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef",
           "name": "StateRef",
           "package": "stateref",
@@ -1396,6 +1514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a \u003ccode\u003e\u003ca\u003eRef\u003c/a\u003e\u003c/code\u003e.  See \u003ccode\u003e\u003ca\u003emodifyReference\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef",
           "name": "atomicModifyRef",
           "package": "stateref",
@@ -1406,6 +1525,7 @@
         "index": {
           "description": "Modify Ref See modifyReference",
           "hierarchy": "Data StateRef",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef",
           "name": "atomicModifyRef",
           "normalized": "Ref a b-\u003e(b-\u003e(b,c))-\u003ea c",
@@ -1422,6 +1542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \"lapse reader\" (suggestions for better terminology are more \n than welcome), a sort of a time-lapse of the variable.  The first \n motivating instance for this operation was a clock in a simple simulation\n application.  Given a \u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e called \"clock\", a useful\n value \"dT\" is yielded by the expression: \u003ccode\u003e\u003ca\u003emkLapseReader\u003c/a\u003e\u003c/code\u003e clock (-)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef",
           "name": "mkLapseReader",
           "package": "stateref",
@@ -1432,6 +1553,7 @@
         "index": {
           "description": "Create lapse reader suggestions for better terminology are more than welcome sort of time-lapse of the variable The first motivating instance for this operation was clock in simple simulation application Given TVar Double called clock useful value dT is yielded by the expression mkLapseReader clock",
           "hierarchy": "Data StateRef",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef",
           "name": "mkLapseReader",
           "normalized": "a-\u003e(b-\u003eb-\u003ec)-\u003ed(d c)",
@@ -1448,6 +1570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a \u003ccode\u003e\u003ca\u003eRef\u003c/a\u003e\u003c/code\u003e.  See \u003ccode\u003e\u003ca\u003emodifyReference\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef",
           "name": "modifyRef",
           "package": "stateref",
@@ -1458,6 +1581,7 @@
         "index": {
           "description": "Modify Ref See modifyReference",
           "hierarchy": "Data StateRef",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef",
           "name": "modifyRef",
           "normalized": "Ref a b-\u003e(b-\u003eb)-\u003ea()",
@@ -1474,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a counter - a monadic value which, each time it is\n evaluated, returns the \u003ccode\u003e\u003ca\u003esucc\u003c/a\u003e\u003c/code\u003e of the previous value returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef",
           "name": "newCounter",
           "package": "stateref",
@@ -1484,6 +1609,7 @@
         "index": {
           "description": "Construct counter monadic value which each time it is evaluated returns the succ of the previous value returned",
           "hierarchy": "Data StateRef",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef",
           "name": "newCounter",
           "normalized": "a-\u003eb(b a)",
@@ -1500,6 +1626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a \u003ccode\u003e\u003ca\u003eRef\u003c/a\u003e\u003c/code\u003e.  See \u003ccode\u003e\u003ca\u003ereadReference\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef",
           "name": "readRef",
           "package": "stateref",
@@ -1510,6 +1637,7 @@
         "index": {
           "description": "Read Ref See readReference",
           "hierarchy": "Data StateRef",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef",
           "name": "readRef",
           "normalized": "Ref a b-\u003ea b",
@@ -1526,6 +1654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEssentially the same concept as \u003ccode\u003eControl.Monad.State.gets\u003c/code\u003e,\n \u003ccode\u003eControl.Monad.State.asks\u003c/code\u003e, et al. Typically useful to read a field of\n a referenced ADT by passing a record selector as the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef",
           "name": "readsRef",
           "package": "stateref",
@@ -1536,6 +1665,7 @@
         "index": {
           "description": "Essentially the same concept as Control.Monad.State.gets Control.Monad.State.asks et al Typically useful to read field of referenced ADT by passing record selector as the second argument",
           "hierarchy": "Data StateRef",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef",
           "name": "readsRef",
           "normalized": "a-\u003e(b-\u003ec)-\u003ed c",
@@ -1552,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eRef\u003c/a\u003e\u003c/code\u003e.  See \u003ccode\u003e\u003ca\u003ewriteReference\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:59 UTC 2014",
           "module": "Data.StateRef",
           "name": "writeRef",
           "package": "stateref",
@@ -1562,6 +1693,7 @@
         "index": {
           "description": "Write Ref See writeReference",
           "hierarchy": "Data StateRef",
+          "indexed": "2014-03-11T20:09:59",
           "module": "Data.StateRef",
           "name": "writeRef",
           "normalized": "Ref a b-\u003eb-\u003ea()",

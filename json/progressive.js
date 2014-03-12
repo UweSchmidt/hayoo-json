@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "progressive"
+        "phrase": "progressive",
+        "type": "phrase"
       },
       "type": "context"
     }

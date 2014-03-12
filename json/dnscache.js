@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dnscache"
+        "phrase": "dnscache",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements an asynchronous, caching DNS resolver.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "DnsCache",
           "package": "dnscache",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements an asynchronous caching DNS resolver",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "DnsCache",
           "package": "dnscache",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDNS cache configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "DnsCache",
           "package": "dnscache",
@@ -51,6 +54,7 @@
         "index": {
           "description": "DNS cache configuration",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "DnsCache",
           "package": "dnscache",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads, which contain a DNS cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "DnsMonad",
           "package": "dnscache",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Monads which contain DNS cache",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "DnsMonad",
           "package": "dnscache",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "Domain",
           "package": "dnscache",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Type for domain",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "Domain",
           "package": "dnscache",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of a mass lookup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "MassResult",
           "package": "dnscache",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Result of mass lookup",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "MassResult",
           "package": "dnscache",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of resources to look up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "MassType",
           "package": "dnscache",
@@ -142,6 +153,7 @@
         "index": {
           "description": "The type of resources to look up",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "MassType",
           "package": "dnscache",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "MassA",
           "package": "dnscache",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "MassA",
           "package": "dnscache",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "MassAAAA",
           "package": "dnscache",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "MassAAAA",
           "package": "dnscache",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "MassAll",
           "package": "dnscache",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "MassAll",
           "package": "dnscache",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "MassMX",
           "package": "dnscache",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "MassMX",
           "package": "dnscache",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "MassResult",
           "package": "dnscache",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "MassResult",
           "package": "dnscache",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a DNS cache with the given number of resolver threads and the\n given cache timeout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "createDnsCache",
           "package": "dnscache",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Start DNS cache with the given number of resolver threads and the given cache timeout",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "createDnsCache",
           "normalized": "Int-\u003eNominalDiffTime-\u003ea DnsCache",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree existing DNS cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "freeDnsCache",
           "package": "dnscache",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Free existing DNS cache",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "freeDnsCache",
           "normalized": "DnsCache-\u003ea()",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current DNS cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "getDnsCache",
           "package": "dnscache",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Get the current DNS cache",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "getDnsCache",
           "package": "dnscache",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "massA",
           "package": "dnscache",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "massA",
           "normalized": "[IPv]",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "massAAAA",
           "package": "dnscache",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "massAAAA",
           "normalized": "[IPv]",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "massDomain",
           "package": "dnscache",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "massDomain",
           "package": "dnscache",
@@ -411,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a mass lookup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "massLookup",
           "package": "dnscache",
@@ -421,6 +456,7 @@
         "index": {
           "description": "Perform mass lookup",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "massLookup",
           "normalized": "MassType-\u003e[Domain]-\u003ea(Map Domain MassResult)",
@@ -437,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a mass lookup with report function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "massLookupReport",
           "package": "dnscache",
@@ -447,6 +484,7 @@
         "index": {
           "description": "Perform mass lookup with report function",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "massLookupReport",
           "normalized": "MassType-\u003e[Domain]-\u003e(MassResult-\u003ea())-\u003ea()",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "massMX",
           "package": "dnscache",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "massMX",
           "normalized": "[Domain]",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve an A record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "resolveA",
           "package": "dnscache",
@@ -497,6 +538,7 @@
         "index": {
           "description": "Resolve an record",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "resolveA",
           "normalized": "Domain-\u003ea(Maybe[IPv])",
@@ -512,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve an AAAA record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "resolveAAAA",
           "package": "dnscache",
@@ -522,6 +565,7 @@
         "index": {
           "description": "Resolve an AAAA record",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "resolveAAAA",
           "normalized": "Domain-\u003ea(Maybe[IPv])",
@@ -538,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve an MX record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "resolveMX",
           "package": "dnscache",
@@ -548,6 +593,7 @@
         "index": {
           "description": "Resolve an MX record",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "resolveMX",
           "normalized": "Domain-\u003ea(Maybe[Domain])",
@@ -564,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient wrapper around \u003ccode\u003e\u003ca\u003ecreateDnsCache\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efreeDnsCache\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "withDnsCache",
           "package": "dnscache",
@@ -574,6 +621,7 @@
         "index": {
           "description": "Convenient wrapper around createDnsCache and freeDnsCache",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "withDnsCache",
           "normalized": "Int-\u003eNominalDiffTime-\u003e(DnsCache-\u003ea b)-\u003ea b",
@@ -590,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eStateT\u003c/a\u003e\u003c/code\u003e computation with a DNS cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:34 UTC 2014",
           "module": "Network.DnsCache",
           "name": "withDnsStateT",
           "package": "dnscache",
@@ -600,6 +649,7 @@
         "index": {
           "description": "Run StateT computation with DNS cache",
           "hierarchy": "Network DnsCache",
+          "indexed": "2014-03-11T17:57:34",
           "module": "Network.DnsCache",
           "name": "withDnsStateT",
           "normalized": "Int-\u003eNominalDiffTime-\u003eStateT a DnsCache b a-\u003eb a",

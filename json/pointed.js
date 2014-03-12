@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pointed"
+        "phrase": "pointed",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:33 UTC 2014",
           "module": "Data.Copointed",
           "name": "Copointed",
           "package": "pointed",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Copointed",
+          "indexed": "2014-03-11T19:40:33",
           "module": "Data.Copointed",
           "name": "Copointed",
           "package": "pointed",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCopointed\u003c/a\u003e\u003c/code\u003e does not require a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, as the only relationship\n between \u003ccode\u003e\u003ca\u003ecopoint\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e is given by a free theorem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:33 UTC 2014",
           "module": "Data.Copointed",
           "name": "Copointed",
           "package": "pointed",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Copointed does not require Functor as the only relationship between copoint and fmap is given by free theorem",
           "hierarchy": "Data Copointed",
+          "indexed": "2014-03-11T19:40:33",
           "module": "Data.Copointed",
           "name": "Copointed",
           "package": "pointed",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:33 UTC 2014",
           "module": "Data.Copointed",
           "name": "copoint",
           "package": "pointed",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Copointed",
+          "indexed": "2014-03-11T19:40:33",
           "module": "Data.Copointed",
           "name": "copoint",
           "normalized": "a b-\u003eb",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:33 UTC 2014",
           "module": "Data.Pointed",
           "name": "Pointed",
           "package": "pointed",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Pointed",
+          "indexed": "2014-03-11T19:40:33",
           "module": "Data.Pointed",
           "name": "Pointed",
           "package": "pointed",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:33 UTC 2014",
           "module": "Data.Pointed",
           "name": "Pointed",
           "package": "pointed",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Pointed",
+          "indexed": "2014-03-11T19:40:33",
           "module": "Data.Pointed",
           "name": "Pointed",
           "package": "pointed",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:33 UTC 2014",
           "module": "Data.Pointed",
           "name": "point",
           "package": "pointed",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Pointed",
+          "indexed": "2014-03-11T19:40:33",
           "module": "Data.Pointed",
           "name": "point",
           "normalized": "a-\u003eb a",

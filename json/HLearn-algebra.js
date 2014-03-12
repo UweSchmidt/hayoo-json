@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HLearn-algebra"
+        "phrase": "HLearn-algebra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains \"low-level higher order functions\" for manipulating algebraic homomorphisms.  You probably want to use the \u003ca\u003eHomTrainer\u003c/a\u003e type-class rather than using these functions directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Functions",
           "name": "Functions",
           "package": "HLearn-algebra",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains low-level higher order functions for manipulating algebraic homomorphisms You probably want to use the HomTrainer type-class rather than using these functions directly",
           "hierarchy": "HLearn Algebra Functions",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Functions",
           "name": "Functions",
           "package": "HLearn-algebra",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery data type that implements this class has a corresponding function.  We can use this data type as type level parameters to other data types.  This gives us some of the benefit of dependently typed functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Functions",
           "name": "Function",
           "package": "HLearn-algebra",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Every data type that implements this class has corresponding function We can use this data type as type level parameters to other data types This gives us some of the benefit of dependently typed functions",
           "hierarchy": "HLearn Algebra Functions",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Functions",
           "name": "Function",
           "package": "HLearn-algebra",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a singleton trainer into a batch trainer, which is also a semigroup homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Functions",
           "name": "batch",
           "package": "HLearn-algebra",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Converts singleton trainer into batch trainer which is also semigroup homomorphism",
           "hierarchy": "HLearn Algebra Functions",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Functions",
           "name": "batch",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Functions",
           "name": "batchCK",
           "package": "HLearn-algebra",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Functions",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Functions",
           "name": "batchCK",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Functions",
           "name": "function",
           "package": "HLearn-algebra",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Functions",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Functions",
           "name": "function",
           "normalized": "a-\u003eb-\u003ec",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse of \u003ccode\u003e\u003ca\u003eonline\u003c/a\u003e\u003c/code\u003e.  Converts an online trainer into a batch trainer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Functions",
           "name": "offline",
           "package": "HLearn-algebra",
@@ -144,6 +155,7 @@
         "index": {
           "description": "The inverse of online Converts an online trainer into batch trainer",
           "hierarchy": "HLearn Algebra Functions",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Functions",
           "name": "offline",
           "normalized": "(a-\u003eb-\u003ea)-\u003eb-\u003ea",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a batch trainer into an online trainer.  The input function should be a semigroup homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Functions",
           "name": "online",
           "package": "HLearn-algebra",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Converts batch trainer into an online trainer The input function should be semigroup homomorphism",
           "hierarchy": "HLearn Algebra Functions",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Functions",
           "name": "online",
           "normalized": "(a-\u003eb)-\u003eb-\u003ea-\u003eb",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallelizes any batch trainer to run over multiple processors on a single machine.  The function automatically detects the number of available processors and parallelizes the function accordingly.  This requires the use of unsafePerformIO, however, the result should still be safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Functions",
           "name": "parallel",
           "package": "HLearn-algebra",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Parallelizes any batch trainer to run over multiple processors on single machine The function automatically detects the number of available processors and parallelizes the function accordingly This requires the use of unsafePerformIO however the result should still be safe",
           "hierarchy": "HLearn Algebra Functions",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Functions",
           "name": "parallel",
           "normalized": "(a b-\u003ec)-\u003ea b-\u003ec",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike fold, but (i) only for use on the semigroup operation (\u003c\u003e) and (ii) uses the fan-in reduction strategy which is more efficient when the semigroup operation takes nonconstant time depending on the size of the data structures being reduced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Functions",
           "name": "reduce",
           "package": "HLearn-algebra",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Like fold but only for use on the semigroup operation and ii uses the fan-in reduction strategy which is more efficient when the semigroup operation takes nonconstant time depending on the size of the data structures being reduced",
           "hierarchy": "HLearn Algebra Functions",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Functions",
           "name": "reduce",
           "normalized": "a b-\u003eb",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormally we would define our semigroup operation explicitly.  However, it is possible to generate one from an online trainer and a pseudo inverse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Functions",
           "name": "semigroup",
           "package": "HLearn-algebra",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Normally we would define our semigroup operation explicitly However it is possible to generate one from an online trainer and pseudo inverse",
           "hierarchy": "HLearn Algebra Functions",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Functions",
           "name": "semigroup",
           "normalized": "(a-\u003eb-\u003ea)-\u003e(a-\u003eb)-\u003ea-\u003ea-\u003ea",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003eunbatch\u003c/a\u003e\u003c/code\u003e.  Converts a semigroup homomorphism into a singleton trainer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Functions",
           "name": "unbatch",
           "package": "HLearn-algebra",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Inverse of unbatch Converts semigroup homomorphism into singleton trainer",
           "hierarchy": "HLearn Algebra Functions",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Functions",
           "name": "unbatch",
           "normalized": "([a]-\u003eb)-\u003ea-\u003eb",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.CoHomTrainer",
           "name": "CoHomTrainer",
           "package": "HLearn-algebra",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Models CoHomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.CoHomTrainer",
           "name": "CoHomTrainer",
           "package": "HLearn-algebra",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ca\u003eCoHomTrainer\u003c/a\u003e is a formal way of describing a generative model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.CoHomTrainer",
           "name": "CoHomTrainer",
           "package": "HLearn-algebra",
@@ -310,6 +335,7 @@
         "index": {
           "description": "CoHomTrainer is formal way of describing generative model",
           "hierarchy": "HLearn Algebra Models CoHomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.CoHomTrainer",
           "name": "CoHomTrainer",
           "package": "HLearn-algebra",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esample without replacement a single datapoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.CoHomTrainer",
           "name": "coadd1dp",
           "package": "HLearn-algebra",
@@ -334,6 +361,7 @@
         "index": {
           "description": "sample without replacement single datapoint",
           "hierarchy": "HLearn Algebra Models CoHomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.CoHomTrainer",
           "name": "coadd1dp",
           "normalized": "a-\u003eRand b(CoDatapoint a,a)",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esample without replacement as many datapoints as possible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.CoHomTrainer",
           "name": "coaddBatch",
           "package": "HLearn-algebra",
@@ -359,6 +388,7 @@
         "index": {
           "description": "sample without replacement as many datapoints as possible",
           "hierarchy": "HLearn Algebra Models CoHomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.CoHomTrainer",
           "name": "coaddBatch",
           "normalized": "a-\u003eRand b[(CoDatapoint a,a)]",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esamples infinitely many datapoints with replacement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.CoHomTrainer",
           "name": "cotrain",
           "package": "HLearn-algebra",
@@ -385,6 +416,7 @@
         "index": {
           "description": "samples infinitely many datapoints with replacement",
           "hierarchy": "HLearn Algebra Models CoHomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.CoHomTrainer",
           "name": "cotrain",
           "normalized": "a-\u003eRand b[CoDatapoint a]",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esample with replacement a single datapoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.CoHomTrainer",
           "name": "cotrain1dp",
           "package": "HLearn-algebra",
@@ -410,6 +443,7 @@
         "index": {
           "description": "sample with replacement single datapoint",
           "hierarchy": "HLearn Algebra Models CoHomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.CoHomTrainer",
           "name": "cotrain1dp",
           "normalized": "a-\u003eRand b(CoDatapoint a)",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEvery model in the HLearn library is an instance of the \u003ccode\u003e\u003ca\u003eHomTrainer\u003c/a\u003e\u003c/code\u003e type class.  This ensures that the batch trainer is a monoid homomorphism.  This is a restrictive condition that not all learning models satisfy; however, it is useful for two reasons.  First, this property lets us easily derive three important functions for machine learning algorithms: online trainers, parallel trainers, and fast cross-validation algorithms.  Second, many popular algorithms (or variants on them) satisfy the condition and are implemented in the library.\n\u003c/p\u003e\u003cp\u003eFor a full theoretical description of the \u003ccode\u003e\u003ca\u003eHomTrainer\u003c/a\u003e\u003c/code\u003e class, see the paper: \u003ca\u003eHERE\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eUnfortunately, the class hierarchy here is slightly more complicated.  In the paper, we assume that all parameters for a model can be included in the model's type.  Currently, however, this is not possible in Haskell, so every model must also have a data type that describes it's parameters.  This is the purpose of the \u003ccode\u003eModelParams\u003c/code\u003e class.  Most models have either no parameters, or reasonable defaults, and so their parameters are instances of the \u003ccode\u003eDefaultParams\u003c/code\u003e class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "HomTrainer",
           "package": "HLearn-algebra",
@@ -434,6 +469,7 @@
         "index": {
           "description": "Every model in the HLearn library is an instance of the HomTrainer type class This ensures that the batch trainer is monoid homomorphism This is restrictive condition that not all learning models satisfy however it is useful for two reasons First this property lets us easily derive three important functions for machine learning algorithms online trainers parallel trainers and fast cross-validation algorithms Second many popular algorithms or variants on them satisfy the condition and are implemented in the library For full theoretical description of the HomTrainer class see the paper HERE Unfortunately the class hierarchy here is slightly more complicated In the paper we assume that all parameters for model can be included in the model type Currently however this is not possible in Haskell so every model must also have data type that describes it parameters This is the purpose of the ModelParams class Most models have either no parameters or reasonable defaults and so their parameters are instances of the DefaultParams class",
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "HomTrainer",
           "package": "HLearn-algebra",
@@ -448,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA minimal complete definition of the class is the singleton trainer 'train1dp\\''\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "HomTrainer",
           "package": "HLearn-algebra",
@@ -457,6 +494,7 @@
         "index": {
           "description": "minimal complete definition of the class is the singleton trainer train1dp",
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "HomTrainer",
           "package": "HLearn-algebra",
@@ -471,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumdp returns the number of data points that the model has been trained on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "NumDP",
           "package": "HLearn-algebra",
@@ -480,6 +519,7 @@
         "index": {
           "description": "numdp returns the number of data points that the model has been trained on",
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "NumDP",
           "package": "HLearn-algebra",
@@ -493,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "WeightedHomTrainer",
           "package": "HLearn-algebra",
@@ -501,6 +542,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "WeightedHomTrainer",
           "package": "HLearn-algebra",
@@ -515,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe online trainer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "add1dp",
           "package": "HLearn-algebra",
@@ -525,6 +568,7 @@
         "index": {
           "description": "The online trainer",
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "add1dp",
           "normalized": "a-\u003eDatapoint a-\u003ea",
@@ -539,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "add1dpW",
           "package": "HLearn-algebra",
@@ -548,6 +593,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "add1dpW",
           "normalized": "a-\u003eWeightedDatapoint a-\u003ea",
@@ -563,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe batch online trainer; will be more efficient than simply calling \u003ccode\u003e\u003ca\u003eadd1dp\u003c/a\u003e\u003c/code\u003e for each element being added\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "addBatch",
           "package": "HLearn-algebra",
@@ -573,6 +620,7 @@
         "index": {
           "description": "The batch online trainer will be more efficient than simply calling add1dp for each element being added",
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "addBatch",
           "normalized": "a-\u003eb(Datapoint a)-\u003ea",
@@ -588,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "addBatchCK",
           "package": "HLearn-algebra",
@@ -597,6 +646,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "addBatchCK",
           "normalized": "a-\u003eb(Datapoint a)-\u003ea",
@@ -612,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "addBatchW",
           "package": "HLearn-algebra",
@@ -621,6 +672,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "addBatchW",
           "normalized": "a-\u003eb(WeightedDatapoint a)-\u003ea",
@@ -636,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "numdp",
           "package": "HLearn-algebra",
@@ -645,6 +698,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "numdp",
           "normalized": "a-\u003eRing a",
@@ -660,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubtracts a single data point from the model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "sub1dp",
           "package": "HLearn-algebra",
@@ -670,6 +725,7 @@
         "index": {
           "description": "subtracts single data point from the model",
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "sub1dp",
           "normalized": "a-\u003eDatapoint a-\u003ea",
@@ -685,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubtracts a single weighted data point from the model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "sub1dpW",
           "package": "HLearn-algebra",
@@ -695,6 +752,7 @@
         "index": {
           "description": "subtracts single weighted data point from the model",
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "sub1dpW",
           "normalized": "a-\u003eWeightedDatapoint a-\u003ea",
@@ -710,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubtracts a multiple data point from the model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "subBatch",
           "package": "HLearn-algebra",
@@ -720,6 +779,7 @@
         "index": {
           "description": "subtracts multiple data point from the model",
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "subBatch",
           "normalized": "a-\u003eb(Datapoint a)-\u003ea",
@@ -736,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubtracts multiple weighted data points from the model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "subBatchW",
           "package": "HLearn-algebra",
@@ -746,6 +807,7 @@
         "index": {
           "description": "subtracts multiple weighted data points from the model",
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "subBatchW",
           "normalized": "a-\u003eb(WeightedDatapoint a)-\u003ea",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe batch trainer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "train",
           "package": "HLearn-algebra",
@@ -772,6 +835,7 @@
         "index": {
           "description": "The batch trainer",
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "train",
           "normalized": "a(Datapoint b)-\u003eb",
@@ -787,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe singleton trainer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "train1dp",
           "package": "HLearn-algebra",
@@ -797,6 +862,7 @@
         "index": {
           "description": "The singleton trainer",
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "train1dp",
           "normalized": "Datapoint a-\u003ea",
@@ -811,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "train1dpW",
           "package": "HLearn-algebra",
@@ -820,6 +887,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "train1dpW",
           "normalized": "(Ring a,Datapoint a)-\u003ea",
@@ -835,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCK methods take advantage of the ContraintKinds extension to allow containers that require constraints.  In particular, they allow the use of Unboxed Vectors, which can improve performance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "trainCK",
           "package": "HLearn-algebra",
@@ -845,6 +914,7 @@
         "index": {
           "description": "CK methods take advantage of the ContraintKinds extension to allow containers that require constraints In particular they allow the use of Unboxed Vectors which can improve performance",
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "trainCK",
           "normalized": "a(Datapoint b)-\u003eb",
@@ -860,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "trainW",
           "package": "HLearn-algebra",
@@ -869,6 +940,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Models HomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.HomTrainer",
           "name": "trainW",
           "normalized": "a(Ring b,Datapoint b)-\u003eb",
@@ -884,6 +956,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLame trainers are trainers that are crippled---They are not Monoids, and training their models is not a homomorphism.  This means we can't do any of the cool manipulations automatically that we can do with the HomTrainer class.  These classes are provided mostly for development and testing purposes.  It is not recommended that you use any of their instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.Lame",
           "name": "Lame",
           "package": "HLearn-algebra",
@@ -893,6 +966,7 @@
         "index": {
           "description": "Lame trainers are trainers that are crippled---They are not Monoids and training their models is not homomorphism This means we can do any of the cool manipulations automatically that we can do with the HomTrainer class These classes are provided mostly for development and testing purposes It is not recommended that you use any of their instances",
           "hierarchy": "HLearn Algebra Models Lame",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.Lame",
           "name": "Lame",
           "package": "HLearn-algebra",
@@ -907,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides a non-homomorphic batch trainer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.Lame",
           "name": "LameTrainer",
           "package": "HLearn-algebra",
@@ -916,6 +991,7 @@
         "index": {
           "description": "Provides non-homomorphic batch trainer",
           "hierarchy": "HLearn Algebra Models Lame",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.Lame",
           "name": "LameTrainer",
           "package": "HLearn-algebra",
@@ -930,6 +1006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides a non-homomorphic online trainer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.Lame",
           "name": "LameTrainerOnline",
           "package": "HLearn-algebra",
@@ -939,6 +1016,7 @@
         "index": {
           "description": "Provides non-homomorphic online trainer",
           "hierarchy": "HLearn Algebra Models Lame",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.Lame",
           "name": "LameTrainerOnline",
           "package": "HLearn-algebra",
@@ -952,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.Lame",
           "name": "lame_add1dp",
           "package": "HLearn-algebra",
@@ -961,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Models Lame",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.Lame",
           "name": "lame_add1dp",
           "normalized": "a-\u003eLameDatapointOnline a-\u003ea",
@@ -975,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Models.Lame",
           "name": "lame_train",
           "package": "HLearn-algebra",
@@ -984,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Models Lame",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Models.Lame",
           "name": "lame_train",
           "normalized": "LameContainer a(LameDatapoint a)-\u003ea",
@@ -998,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.Bagging",
           "name": "Bagging",
           "package": "HLearn-algebra",
@@ -1006,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free Bagging",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.Bagging",
           "name": "Bagging",
           "package": "HLearn-algebra",
@@ -1019,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.Bagging",
           "name": "Bagging",
           "package": "HLearn-algebra",
@@ -1027,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free Bagging",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.Bagging",
           "name": "Bagging",
           "package": "HLearn-algebra",
@@ -1040,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.Bagging",
           "name": "Bagging'",
           "package": "HLearn-algebra",
@@ -1048,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free Bagging",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.Bagging",
           "name": "Bagging'",
           "package": "HLearn-algebra",
@@ -1061,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.FreeHomTrainer",
           "name": "FreeHomTrainer",
           "package": "HLearn-algebra",
@@ -1069,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free FreeHomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.FreeHomTrainer",
           "name": "FreeHomTrainer",
           "package": "HLearn-algebra",
@@ -1082,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.FreeHomTrainer",
           "name": "AbelianGroup",
           "package": "HLearn-algebra",
@@ -1090,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free FreeHomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.FreeHomTrainer",
           "name": "AbelianGroup",
           "package": "HLearn-algebra",
@@ -1103,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.FreeHomTrainer",
           "name": "FreeHomTrainer",
           "package": "HLearn-algebra",
@@ -1111,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free FreeHomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.FreeHomTrainer",
           "name": "FreeHomTrainer",
           "package": "HLearn-algebra",
@@ -1124,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.FreeHomTrainer",
           "name": "FreeHomTrainer'",
           "package": "HLearn-algebra",
@@ -1132,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free FreeHomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.FreeHomTrainer",
           "name": "FreeHomTrainer'",
           "package": "HLearn-algebra",
@@ -1145,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.FreeHomTrainer",
           "name": "NoFlatten",
           "package": "HLearn-algebra",
@@ -1153,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free FreeHomTrainer",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.FreeHomTrainer",
           "name": "NoFlatten",
           "package": "HLearn-algebra",
@@ -1166,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.FreeModule",
           "name": "FreeModule",
           "package": "HLearn-algebra",
@@ -1174,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free FreeModule",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.FreeModule",
           "name": "FreeModule",
           "package": "HLearn-algebra",
@@ -1187,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.FreeModule",
           "name": "FreeModule",
           "package": "HLearn-algebra",
@@ -1195,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free FreeModule",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.FreeModule",
           "name": "FreeModule",
           "package": "HLearn-algebra",
@@ -1208,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.FreeModule",
           "name": "FreeModule",
           "package": "HLearn-algebra",
@@ -1217,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free FreeModule",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.FreeModule",
           "name": "FreeModule",
           "package": "HLearn-algebra",
@@ -1230,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.FreeModule",
           "name": "getMap",
           "package": "HLearn-algebra",
@@ -1239,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free FreeModule",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.FreeModule",
           "name": "getMap",
           "package": "HLearn-algebra",
@@ -1252,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Free.FreeModule",
           "name": "list2module",
           "package": "HLearn-algebra",
@@ -1261,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Free FreeModule",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Free.FreeModule",
           "name": "list2module",
           "normalized": "[a]-\u003eFreeModule b a",
@@ -1276,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThese algebraic structures have sacrificed generality in favor of being easily used with the standard Haskell Prelude.  The fact that monoids are not guaranteed to be semigroups makes this difficult.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "Groups",
           "package": "HLearn-algebra",
@@ -1285,6 +1394,7 @@
         "index": {
           "description": "These algebraic structures have sacrificed generality in favor of being easily used with the standard Haskell Prelude The fact that monoids are not guaranteed to be semigroups makes this difficult",
           "hierarchy": "HLearn Algebra Structures Groups",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "Groups",
           "package": "HLearn-algebra",
@@ -1298,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "Abelian",
           "package": "HLearn-algebra",
@@ -1306,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Groups",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "Abelian",
           "package": "HLearn-algebra",
@@ -1319,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "FreeInverse",
           "package": "HLearn-algebra",
@@ -1327,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Groups",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "FreeInverse",
           "package": "HLearn-algebra",
@@ -1341,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroups are monoids that also have an inverse.  See \u003ca\u003ehttps://en.wikipedia.org/wiki/Regular_semigroup\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "Group",
           "package": "HLearn-algebra",
@@ -1350,6 +1465,7 @@
         "index": {
           "description": "Groups are monoids that also have an inverse See https en.wikipedia.org wiki Regular semigroup",
           "hierarchy": "HLearn Algebra Structures Groups",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "Group",
           "package": "HLearn-algebra",
@@ -1363,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "Invertible",
           "package": "HLearn-algebra",
@@ -1371,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Groups",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "Invertible",
           "package": "HLearn-algebra",
@@ -1384,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "FreeInverse",
           "package": "HLearn-algebra",
@@ -1393,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Groups",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "FreeInverse",
           "package": "HLearn-algebra",
@@ -1406,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "Negate",
           "package": "HLearn-algebra",
@@ -1415,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Groups",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "Negate",
           "package": "HLearn-algebra",
@@ -1428,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "inverse",
           "package": "HLearn-algebra",
@@ -1437,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Groups",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "inverse",
           "normalized": "a-\u003ea",
@@ -1451,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "isInverse",
           "package": "HLearn-algebra",
@@ -1460,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Groups",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "isInverse",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1475,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "mkinverse",
           "package": "HLearn-algebra",
@@ -1484,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Groups",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Groups",
           "name": "mkinverse",
           "normalized": "a-\u003ea",
@@ -1499,6 +1627,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMetric spaces are mathematical structures that have a notion of distance between objects.  See wikipedia for more information: \u003ca\u003ehttps://en.wikipedia.org/wiki/Metric_space\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.MetricSpace",
           "name": "MetricSpace",
           "package": "HLearn-algebra",
@@ -1508,6 +1637,7 @@
         "index": {
           "description": "Metric spaces are mathematical structures that have notion of distance between objects See wikipedia for more information https en.wikipedia.org wiki Metric space",
           "hierarchy": "HLearn Algebra Structures MetricSpace",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.MetricSpace",
           "name": "MetricSpace",
           "package": "HLearn-algebra",
@@ -1522,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe assume that the MetricSpace on s is compatible with the ordering on s\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.MetricSpace",
           "name": "MetricSpace",
           "package": "HLearn-algebra",
@@ -1531,6 +1662,7 @@
         "index": {
           "description": "We assume that the MetricSpace on is compatible with the ordering on",
           "hierarchy": "HLearn Algebra Structures MetricSpace",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.MetricSpace",
           "name": "MetricSpace",
           "package": "HLearn-algebra",
@@ -1544,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.MetricSpace",
           "name": "Norm",
           "package": "HLearn-algebra",
@@ -1552,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures MetricSpace",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.MetricSpace",
           "name": "Norm",
           "package": "HLearn-algebra",
@@ -1565,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.MetricSpace",
           "name": "distance",
           "package": "HLearn-algebra",
@@ -1574,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures MetricSpace",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.MetricSpace",
           "name": "distance",
           "normalized": "a-\u003ea-\u003eRing a",
@@ -1588,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.MetricSpace",
           "name": "magnitude",
           "package": "HLearn-algebra",
@@ -1597,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures MetricSpace",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.MetricSpace",
           "name": "magnitude",
           "normalized": "a-\u003eRing a",
@@ -1612,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModules are a generalization of vector spaces\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "Modules",
           "package": "HLearn-algebra",
@@ -1621,6 +1760,7 @@
         "index": {
           "description": "Modules are generalization of vector spaces",
           "hierarchy": "HLearn Algebra Structures Modules",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "Modules",
           "package": "HLearn-algebra",
@@ -1634,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "HasRing",
           "package": "HLearn-algebra",
@@ -1642,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Modules",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "HasRing",
           "package": "HLearn-algebra",
@@ -1656,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBug: The module classes have the constraint that r be of type Num.  Technically, this should be a Ring.  But creating a Ring class would be awkward because it would conflict with the Num class and require importing a different Prelude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "Module",
           "package": "HLearn-algebra",
@@ -1665,6 +1808,7 @@
         "index": {
           "description": "Bug The module classes have the constraint that be of type Num Technically this should be Ring But creating Ring class would be awkward because it would conflict with the Num class and require importing different Prelude",
           "hierarchy": "HLearn Algebra Structures Modules",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "Module",
           "package": "HLearn-algebra",
@@ -1678,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "VectorSpace",
           "package": "HLearn-algebra",
@@ -1686,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Modules",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "VectorSpace",
           "package": "HLearn-algebra",
@@ -1699,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "(*.)",
           "package": "HLearn-algebra",
@@ -1708,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Modules",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "(*.) *.",
           "normalized": "a-\u003eRing a-\u003ea",
@@ -1722,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "(/.)",
           "package": "HLearn-algebra",
@@ -1731,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Modules",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "(/.) /.",
           "normalized": "a-\u003eRing a-\u003ea",
@@ -1745,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "(.*)",
           "package": "HLearn-algebra",
@@ -1754,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Modules",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Modules",
           "name": "(.*) .*",
           "normalized": "Ring a-\u003ea-\u003ea",
@@ -1769,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a generic interface to structures that offer both a left and right cons.  It's based on the Data.Sequence interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Triangles",
           "name": "Triangles",
           "package": "HLearn-algebra",
@@ -1778,6 +1931,7 @@
         "index": {
           "description": "Provides generic interface to structures that offer both left and right cons It based on the Data.Sequence interface",
           "hierarchy": "HLearn Algebra Structures Triangles",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Triangles",
           "name": "Triangles",
           "package": "HLearn-algebra",
@@ -1792,6 +1946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethods for left and right cons on a data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Triangles",
           "name": "Triangle",
           "package": "HLearn-algebra",
@@ -1801,6 +1956,7 @@
         "index": {
           "description": "Methods for left and right cons on data type",
           "hierarchy": "HLearn Algebra Structures Triangles",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Triangles",
           "name": "Triangle",
           "package": "HLearn-algebra",
@@ -1814,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Triangles",
           "name": "(|\u003e)",
           "package": "HLearn-algebra",
@@ -1823,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Triangles",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Triangles",
           "name": "(|\u003e) |\u003e",
           "normalized": "a-\u003eb-\u003ea",
@@ -1837,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Structures.Triangles",
           "name": "(\u003c|)",
           "package": "HLearn-algebra",
@@ -1846,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Structures Triangles",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Structures.Triangles",
           "name": "(\u003c|) \u003c|",
           "normalized": "a-\u003eb-\u003eb",
@@ -1860,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HList",
           "package": "HLearn-algebra",
@@ -1868,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HList",
           "package": "HLearn-algebra",
@@ -1881,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "($)",
           "package": "HLearn-algebra",
@@ -1889,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "($) $",
           "normalized": "()",
@@ -1903,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "(++)",
           "package": "HLearn-algebra",
@@ -1911,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "(++) ++",
           "normalized": "()",
@@ -1925,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": ":!",
           "package": "HLearn-algebra",
@@ -1933,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": ":!",
           "package": "HLearn-algebra",
@@ -1946,6 +2114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMost generic box, can be used on any type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "AnyBox",
           "package": "HLearn-algebra",
@@ -1955,6 +2124,7 @@
         "index": {
           "description": "Most generic box can be used on any type",
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "AnyBox",
           "package": "HLearn-algebra",
@@ -1968,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Concat",
           "package": "HLearn-algebra",
@@ -1976,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Concat",
           "package": "HLearn-algebra",
@@ -1989,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "ConstraintBox",
           "package": "HLearn-algebra",
@@ -1997,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "ConstraintBox",
           "package": "HLearn-algebra",
@@ -2010,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Distribute",
           "package": "HLearn-algebra",
@@ -2018,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Distribute",
           "package": "HLearn-algebra",
@@ -2031,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Downcast",
           "package": "HLearn-algebra",
@@ -2039,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Downcast",
           "package": "HLearn-algebra",
@@ -2074,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HAppend",
           "package": "HLearn-algebra",
@@ -2082,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HAppend",
           "package": "HLearn-algebra",
@@ -2095,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HCons",
           "package": "HLearn-algebra",
@@ -2103,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HCons",
           "package": "HLearn-algebra",
@@ -2117,6 +2299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to prelude's \u003ca\u003edrop\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HDrop1",
           "package": "HLearn-algebra",
@@ -2126,6 +2309,7 @@
         "index": {
           "description": "Equivalent to prelude drop",
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HDrop1",
           "package": "HLearn-algebra",
@@ -2140,6 +2324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed only for the HList class to determine its length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HLength",
           "package": "HLearn-algebra",
@@ -2149,6 +2334,7 @@
         "index": {
           "description": "Used only for the HList class to determine its length",
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HLength",
           "package": "HLearn-algebra",
@@ -2163,6 +2349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe heterogenous list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HList",
           "package": "HLearn-algebra",
@@ -2172,6 +2359,7 @@
         "index": {
           "description": "The heterogenous list",
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HList",
           "package": "HLearn-algebra",
@@ -2186,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor converting into a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HList2List",
           "package": "HLearn-algebra",
@@ -2195,6 +2384,7 @@
         "index": {
           "description": "For converting into list",
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HList2List",
           "package": "HLearn-algebra",
@@ -2209,6 +2399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to prelude's \u003ca\u003emap\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HMap",
           "package": "HLearn-algebra",
@@ -2218,6 +2409,7 @@
         "index": {
           "description": "Equivalent to prelude map",
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HMap",
           "package": "HLearn-algebra",
@@ -2232,6 +2424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to prelude's \u003ca\u003etake\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HTake1",
           "package": "HLearn-algebra",
@@ -2241,6 +2434,7 @@
         "index": {
           "description": "Equivalent to prelude take",
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HTake1",
           "package": "HLearn-algebra",
@@ -2254,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Length",
           "package": "HLearn-algebra",
@@ -2262,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Length",
           "package": "HLearn-algebra",
@@ -2275,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Length1",
           "package": "HLearn-algebra",
@@ -2283,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Length1",
           "package": "HLearn-algebra",
@@ -2297,6 +2495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor construction from lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "List2HList",
           "package": "HLearn-algebra",
@@ -2306,6 +2505,7 @@
         "index": {
           "description": "For construction from lists",
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "List2HList",
           "package": "HLearn-algebra",
@@ -2319,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Map",
           "package": "HLearn-algebra",
@@ -2327,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Map",
           "package": "HLearn-algebra",
@@ -2340,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Nat1",
           "package": "HLearn-algebra",
@@ -2348,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Nat1",
           "package": "HLearn-algebra",
@@ -2361,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Nat1Box",
           "package": "HLearn-algebra",
@@ -2369,6 +2574,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Nat1Box",
           "package": "HLearn-algebra",
@@ -2382,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Replicate",
           "package": "HLearn-algebra",
@@ -2390,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Replicate",
           "package": "HLearn-algebra",
@@ -2403,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Reverse",
           "package": "HLearn-algebra",
@@ -2411,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "Reverse",
           "package": "HLearn-algebra",
@@ -2425,6 +2635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this box unless you know for certain that your types won't have a show instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "ShowBox",
           "package": "HLearn-algebra",
@@ -2434,6 +2645,7 @@
         "index": {
           "description": "Use this box unless you know for certain that your types won have show instance",
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "ShowBox",
           "package": "HLearn-algebra",
@@ -2469,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "TypeList",
           "package": "HLearn-algebra",
@@ -2477,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "TypeList",
           "package": "HLearn-algebra",
@@ -2490,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "UnHList",
           "package": "HLearn-algebra",
@@ -2498,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "UnHList",
           "package": "HLearn-algebra",
@@ -2511,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": ":::",
           "package": "HLearn-algebra",
@@ -2520,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": ":::",
           "normalized": "a-\u003eHList b-\u003eHList(a b)",
@@ -2534,6 +2752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "AnyBox",
           "package": "HLearn-algebra",
@@ -2543,6 +2762,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "AnyBox",
           "package": "HLearn-algebra",
@@ -2556,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HNil",
           "package": "HLearn-algebra",
@@ -2565,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "HNil",
           "normalized": "HList[]",
@@ -2603,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "ShowBox",
           "package": "HLearn-algebra",
@@ -2612,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "ShowBox",
           "package": "HLearn-algebra",
@@ -2671,6 +2895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "box",
           "package": "HLearn-algebra",
@@ -2680,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "box",
           "normalized": "a-\u003eb",
@@ -2694,6 +2920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "downcast",
           "package": "HLearn-algebra",
@@ -2703,6 +2930,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "downcast",
           "normalized": "a-\u003e[b]",
@@ -2717,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "downcastAs",
           "package": "HLearn-algebra",
@@ -2726,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "downcastAs",
           "normalized": "(a-\u003eb)-\u003ec-\u003e[b]",
@@ -2741,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "hdrop1",
           "package": "HLearn-algebra",
@@ -2750,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "hdrop1",
           "normalized": "a-\u003eb-\u003eb",
@@ -2764,6 +2996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "hlength",
           "package": "HLearn-algebra",
@@ -2773,6 +3006,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "hlength",
           "normalized": "a-\u003eInt",
@@ -2787,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "hlist2list",
           "package": "HLearn-algebra",
@@ -2796,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "hlist2list",
           "normalized": "a-\u003e[b]",
@@ -2810,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "hmap",
           "package": "HLearn-algebra",
@@ -2819,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "hmap",
           "normalized": "a-\u003eb-\u003eb",
@@ -2833,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "htake1",
           "package": "HLearn-algebra",
@@ -2842,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "htake1",
           "normalized": "a-\u003eb-\u003eb",
@@ -2856,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "list2hlist",
           "package": "HLearn-algebra",
@@ -2865,6 +3106,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "list2hlist",
           "normalized": "[a]-\u003eHList(a b)",
@@ -2879,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "typeList",
           "package": "HLearn-algebra",
@@ -2888,6 +3131,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "typeList",
           "normalized": "a-\u003e[TypeRep]",
@@ -2903,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.HList",
           "name": "unsafeUnbox",
           "package": "HLearn-algebra",
@@ -2912,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types HList",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.HList",
           "name": "unsafeUnbox",
           "normalized": "a-\u003eb",
@@ -2927,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "Indexing",
           "package": "HLearn-algebra",
@@ -2935,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "Indexing",
           "package": "HLearn-algebra",
@@ -2949,6 +3197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindex into a data type, but the result type depends on which record we're indexing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "DepIndex",
           "package": "HLearn-algebra",
@@ -2958,6 +3207,7 @@
         "index": {
           "description": "index into data type but the result type depends on which record we re indexing",
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "DepIndex",
           "package": "HLearn-algebra",
@@ -2972,6 +3222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefines a canonical ordering of all elments in the data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "HasDepIndex",
           "package": "HLearn-algebra",
@@ -2981,6 +3232,7 @@
         "index": {
           "description": "defines canonical ordering of all elments in the data type",
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "HasDepIndex",
           "package": "HLearn-algebra",
@@ -2995,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindex into a data type, all of whose members have the same type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "Index",
           "package": "HLearn-algebra",
@@ -3004,6 +3257,7 @@
         "index": {
           "description": "index into data type all of whose members have the same type",
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "Index",
           "package": "HLearn-algebra",
@@ -3017,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "TH_0",
           "package": "HLearn-algebra",
@@ -3025,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "TH_0",
           "package": "HLearn-algebra",
@@ -3038,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "TH_1",
           "package": "HLearn-algebra",
@@ -3046,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "TH_1",
           "package": "HLearn-algebra",
@@ -3059,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "TH_2",
           "package": "HLearn-algebra",
@@ -3067,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "TH_2",
           "package": "HLearn-algebra",
@@ -3080,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "TH_3",
           "package": "HLearn-algebra",
@@ -3088,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "TH_3",
           "package": "HLearn-algebra",
@@ -3101,6 +3363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "ValueList",
           "package": "HLearn-algebra",
@@ -3109,6 +3372,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "ValueList",
           "package": "HLearn-algebra",
@@ -3122,6 +3386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "(!)",
           "package": "HLearn-algebra",
@@ -3131,6 +3396,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "(!) !",
           "normalized": "a-\u003eIndexType a-\u003eIndexResult a",
@@ -3145,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "(#)",
           "package": "HLearn-algebra",
@@ -3154,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "(#) #",
           "normalized": "a-\u003eb-\u003ea DepIndexResult b",
@@ -3168,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "datatype2valueList",
           "package": "HLearn-algebra",
@@ -3177,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "datatype2valueList",
           "normalized": "a-\u003eHList(ValueList a)",
@@ -3192,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "depIndexList",
           "package": "HLearn-algebra",
@@ -3201,6 +3472,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "depIndexList",
           "normalized": "a-\u003eHList(DepIndexList a)",
@@ -3217,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates data types and instances for indexing into a class.  Dependent indices are preficed with \"TH_\" and normal indices by \"I_\".  The dependent indices and \u003ca\u003eDepIndex\u003c/a\u003e instances are always created.  The normal index data types are always created, but the \u003ca\u003eIndex\u003c/a\u003e instance is created only if all records within the data type have the same type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "makeIndex",
           "package": "HLearn-algebra",
@@ -3227,6 +3500,7 @@
         "index": {
           "description": "Creates data types and instances for indexing into class Dependent indices are preficed with TH and normal indices by The dependent indices and DepIndex instances are always created The normal index data types are always created but the Index instance is created only if all records within the data type have the same type",
           "hierarchy": "HLearn Algebra Types Indexing",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Indexing",
           "name": "makeIndex",
           "normalized": "Name-\u003eQ[Dec]",
@@ -3243,6 +3517,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module was automatically generated by Nat1Generator.hs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Nat1",
           "name": "Nat1",
           "package": "HLearn-algebra",
@@ -3252,6 +3527,7 @@
         "index": {
           "description": "This module was automatically generated by Nat1Generator.hs",
           "hierarchy": "HLearn Algebra Types Nat1",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Nat1",
           "name": "Nat1",
           "package": "HLearn-algebra",
@@ -3265,6 +3541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Nat1",
           "name": "Nat1",
           "package": "HLearn-algebra",
@@ -3273,6 +3550,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types Nat1",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Nat1",
           "name": "Nat1",
           "package": "HLearn-algebra",
@@ -3286,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra.Types.Nat1",
           "name": "Nat1Box",
           "package": "HLearn-algebra",
@@ -3294,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "HLearn Algebra Types Nat1",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra.Types.Nat1",
           "name": "Nat1Box",
           "package": "HLearn-algebra",
@@ -3308,6 +3588,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the base module for the HLearn library.  It exports all the functions / data structures needed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:31 UTC 2014",
           "module": "HLearn.Algebra",
           "name": "Algebra",
           "package": "HLearn-algebra",
@@ -3317,6 +3598,7 @@
         "index": {
           "description": "This is the base module for the HLearn library It exports all the functions data structures needed",
           "hierarchy": "HLearn Algebra",
+          "indexed": "2014-03-11T16:45:31",
           "module": "HLearn.Algebra",
           "name": "Algebra",
           "package": "HLearn-algebra",

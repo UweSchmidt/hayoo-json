@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "control-monad-free"
+        "phrase": "control-monad-free",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNaive Free monads suffer from a quadratic complexity,\n  as explained in\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Janis Voigtlander, \u003cem\u003eAsymptotic Improvement of Computations over Free Monads, MPC'08\u003c/em\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe solution is to redefine the Free datatype in CPS,\n  similar to what is done in difference lists to solve the problem on quadratic append\n  for lists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free.Improve",
           "name": "Improve",
           "package": "control-monad-free",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Naive Free monads suffer from quadratic complexity as explained in Janis Voigtlander Asymptotic Improvement of Computations over Free Monads MPC The solution is to redefine the Free datatype in CPS similar to what is done in difference lists to solve the problem on quadratic append for lists",
           "hierarchy": "Control Monad Free Improve",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free.Improve",
           "name": "Improve",
           "package": "control-monad-free",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free.Improve",
           "name": "C",
           "package": "control-monad-free",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free Improve",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free.Improve",
           "name": "C",
           "package": "control-monad-free",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free.Improve",
           "name": "C",
           "package": "control-monad-free",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free Improve",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free.Improve",
           "name": "C",
           "normalized": "C(a b(c-\u003ed e)-\u003ed e)",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free.Improve",
           "name": "improve",
           "package": "control-monad-free",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free Improve",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free.Improve",
           "name": "improve",
           "normalized": "C a b-\u003ea b",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free.Improve",
           "name": "rep",
           "package": "control-monad-free",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free Improve",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free.Improve",
           "name": "rep",
           "normalized": "a b-\u003eC a b",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free.Zip",
           "name": "Zip",
           "package": "control-monad-free",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free Zip",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free.Zip",
           "name": "Zip",
           "package": "control-monad-free",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free.Zip",
           "name": "zipFree",
           "package": "control-monad-free",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free Zip",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free.Zip",
           "name": "zipFree",
           "normalized": "(Free a b-\u003eFree a c-\u003ed(Free a e))-\u003eFree a b-\u003eFree a c-\u003ed(Free a e)",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free.Zip",
           "name": "zipFree_",
           "package": "control-monad-free",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free Zip",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free.Zip",
           "name": "zipFree_",
           "normalized": "(Free a b-\u003eFree a c-\u003ed())-\u003eFree a b-\u003eFree a c-\u003ed()",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "Free",
           "package": "control-monad-free",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "Free",
           "package": "control-monad-free",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "Free",
           "package": "control-monad-free",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "Free",
           "package": "control-monad-free",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "FreeT",
           "package": "control-monad-free",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "FreeT",
           "package": "control-monad-free",
@@ -263,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type class generalizes over encodings of Free Monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "MonadFree",
           "package": "control-monad-free",
@@ -272,6 +295,7 @@
         "index": {
           "description": "This type class generalizes over encodings of Free Monads",
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "MonadFree",
           "package": "control-monad-free",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "FreeT",
           "package": "control-monad-free",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "FreeT",
           "package": "control-monad-free",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "Impure",
           "package": "control-monad-free",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "Impure",
           "package": "control-monad-free",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "Pure",
           "package": "control-monad-free",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "Pure",
           "package": "control-monad-free",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "evalFree",
           "package": "control-monad-free",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "evalFree",
           "normalized": "(a-\u003eb)-\u003e(c(Free c a)-\u003eb)-\u003eFree c a-\u003eb",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "foldFree",
           "package": "control-monad-free",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "foldFree",
           "normalized": "(a-\u003eb)-\u003e(c b-\u003eb)-\u003eFree c a-\u003eb",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "foldFreeM",
           "package": "control-monad-free",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "foldFreeM",
           "normalized": "(a-\u003eb c)-\u003e(d c-\u003eb c)-\u003eFree d a-\u003eb c",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "foldFreeT",
           "package": "control-monad-free",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "foldFreeT",
           "normalized": "(a-\u003eb c)-\u003e(d c-\u003eb c)-\u003eFreeT d b a-\u003eb c",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "foldFreeT'",
           "package": "control-monad-free",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "foldFreeT'",
           "normalized": "(a-\u003eb)-\u003e(c b-\u003eb)-\u003eFreeT c d a-\u003ed b",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "free",
           "package": "control-monad-free",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "free",
           "package": "control-monad-free",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "induce",
           "package": "control-monad-free",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "induce",
           "normalized": "(a b c d-\u003ee d)-\u003eFree c d-\u003ee d",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "isImpure",
           "package": "control-monad-free",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "isImpure",
           "normalized": "Free a a-\u003eBool",
@@ -539,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "isPure",
           "package": "control-monad-free",
@@ -548,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "isPure",
           "normalized": "Free a a-\u003eBool",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "liftFree",
           "package": "control-monad-free",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "liftFree",
           "normalized": "(a-\u003eFree b c)-\u003ea-\u003eFreeT b d c",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "mapFree",
           "package": "control-monad-free",
@@ -596,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "mapFree",
           "normalized": "(a(Free b c)-\u003eb(Free b c))-\u003eFree a c-\u003eFree b c",
@@ -611,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "mapFreeM",
           "package": "control-monad-free",
@@ -620,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "mapFreeM",
           "normalized": "(a(Free b c)-\u003ed(b(Free b c)))-\u003eFree a c-\u003ed(Free b c)",
@@ -635,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "mapFreeM'",
           "package": "control-monad-free",
@@ -644,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "mapFreeM'",
           "normalized": "(a b c d-\u003ee(f d))-\u003eFree c d-\u003ee(Free f d)",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "mapFreeT",
           "package": "control-monad-free",
@@ -668,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "mapFreeT",
           "normalized": "(a b c d-\u003ee d)-\u003eFreeT f c d-\u003eFreeT f e d",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "trans",
           "package": "control-monad-free",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "trans",
           "normalized": "Free a b-\u003eFreeT a c b",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "trans'",
           "package": "control-monad-free",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "trans'",
           "normalized": "a(Free b c)-\u003eFreeT b a c",
@@ -729,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "unFreeT",
           "package": "control-monad-free",
@@ -738,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "unFreeT",
           "package": "control-monad-free",
@@ -751,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "untrans",
           "package": "control-monad-free",
@@ -760,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "untrans",
           "normalized": "FreeT a b c-\u003eb(Free a c)",
@@ -774,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:23 UTC 2014",
           "module": "Control.Monad.Free",
           "name": "wrap",
           "package": "control-monad-free",
@@ -783,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Free",
+          "indexed": "2014-03-11T17:40:23",
           "module": "Control.Monad.Free",
           "name": "wrap",
           "package": "control-monad-free",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fast-tagsoup-utf8-only"
+        "phrase": "fast-tagsoup-utf8-only",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVery fast TagSoup parser.\n\u003c/p\u003e\u003cp\u003eWorks only with strict bytestrings.\n  Correctly handles HTML \u003ccode\u003e\u003cscript\u003e\u003c/code\u003e and \u003ccode\u003e\u003cstyle\u003e\u003c/code\u003e tags.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be used in conjunction with the original \u003ccode\u003etagsoup\u003c/code\u003e package:\n\u003c/p\u003e\u003cpre\u003e import Text.HTML.TagSoup hiding (parseTags, renderTags)\n import Text.HTML.TagSoup.Fast.Utf8Only\n\u003c/pre\u003e\u003cp\u003eRemark that tags are returned in lower case and comments are not returned.\n\u003c/p\u003e\u003cp\u003eIn long running multithreaded applications it's generally recommended to use\n  \u003ccode\u003e\u003ca\u003eparseTagsT\u003c/a\u003e\u003c/code\u003e and work with \u003ccode\u003e[\u003c/code\u003e\u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eText\u003c/code\u003e\u003ccode\u003e]\u003c/code\u003e to reduce memory fragmentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:34 UTC 2014",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "Utf8Only",
           "package": "fast-tagsoup-utf8-only",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Very fast TagSoup parser Works only with strict bytestrings Correctly handles HTML script and style tags This module is intended to be used in conjunction with the original tagsoup package import Text.HTML.TagSoup hiding parseTags renderTags import Text.HTML.TagSoup.Fast.Utf8Only Remark that tags are returned in lower case and comments are not returned In long running multithreaded applications it generally recommended to use parseTagsT and work with Tag Text to reduce memory fragmentation",
           "hierarchy": "Text HTML TagSoup Fast Utf8Only",
+          "indexed": "2014-03-11T18:06:34",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "Utf8Only",
           "package": "fast-tagsoup-utf8-only",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode XML to UTF-8 using \u003ccode\u003eencoding\u003c/code\u003e attribute of \u003ccode\u003e\u003c?xml\u003e\u003c/code\u003e tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:34 UTC 2014",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "ensureUtf8Xml",
           "package": "fast-tagsoup-utf8-only",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Decode XML to UTF-8 using encoding attribute of xml tag",
           "hierarchy": "Text HTML TagSoup Fast Utf8Only",
+          "indexed": "2014-03-11T18:06:34",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "ensureUtf8Xml",
           "normalized": "ByteString-\u003eByteString",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape characters unsafe to HTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:34 UTC 2014",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "escapeHtml",
           "package": "fast-tagsoup-utf8-only",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Escape characters unsafe to HTML",
           "hierarchy": "Text HTML TagSoup Fast Utf8Only",
+          "indexed": "2014-03-11T18:06:34",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "escapeHtml",
           "normalized": "ByteString-\u003eByteString",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative to \u003ccode\u003e\u003ca\u003eescapeHtml\u003c/a\u003e\u003c/code\u003e working with \u003ccode\u003eText\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:34 UTC 2014",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "escapeHtmlT",
           "package": "fast-tagsoup-utf8-only",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Alternative to escapeHtml working with Text",
           "hierarchy": "Text HTML TagSoup Fast Utf8Only",
+          "indexed": "2014-03-11T18:06:34",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "escapeHtmlT",
           "normalized": "Text-\u003eText",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string to a list of tags.\n\u003c/p\u003e\u003cpre\u003e parseTags \"\u003cdiv\u003e&amp;\u003cscript\u003ex\u003cy\u003c/script\u003e\" ==\n   [TagOpen \"div\" [],TagText \"&\",TagOpen \"script\" [],TagText \"x\u003cy\",TagClose \"script\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:06:34 UTC 2014",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "parseTags",
           "package": "fast-tagsoup-utf8-only",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Parse string to list of tags parseTags div amp script script TagOpen div TagText TagOpen script TagText TagClose script",
           "hierarchy": "Text HTML TagSoup Fast Utf8Only",
+          "indexed": "2014-03-11T18:06:34",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "parseTags",
           "normalized": "ByteString-\u003e[Tag ByteString]",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative to \u003ccode\u003e\u003ca\u003eparseTags\u003c/a\u003e\u003c/code\u003e working with \u003ccode\u003eText\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:34 UTC 2014",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "parseTagsT",
           "package": "fast-tagsoup-utf8-only",
@@ -156,6 +167,7 @@
         "index": {
           "description": "Alternative to parseTags working with Text",
           "hierarchy": "Text HTML TagSoup Fast Utf8Only",
+          "indexed": "2014-03-11T18:06:34",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "parseTagsT",
           "normalized": "ByteString-\u003e[Tag Text]",
@@ -172,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a list of tags, as they might have been parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:34 UTC 2014",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "renderTags",
           "package": "fast-tagsoup-utf8-only",
@@ -182,6 +195,7 @@
         "index": {
           "description": "Show list of tags as they might have been parsed",
           "hierarchy": "Text HTML TagSoup Fast Utf8Only",
+          "indexed": "2014-03-11T18:06:34",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "renderTags",
           "normalized": "[Tag ByteString]-\u003eByteString",
@@ -198,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative to \u003ccode\u003e\u003ca\u003erenderTags\u003c/a\u003e\u003c/code\u003e working with \u003ccode\u003eText\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:34 UTC 2014",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "renderTagsT",
           "package": "fast-tagsoup-utf8-only",
@@ -208,6 +223,7 @@
         "index": {
           "description": "Alternative to renderTags working with Text",
           "hierarchy": "Text HTML TagSoup Fast Utf8Only",
+          "indexed": "2014-03-11T18:06:34",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "renderTagsT",
           "normalized": "[Tag Text]-\u003eText",
@@ -224,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert escaped HTML to raw.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:34 UTC 2014",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "unescapeHtml",
           "package": "fast-tagsoup-utf8-only",
@@ -234,6 +251,7 @@
         "index": {
           "description": "Convert escaped HTML to raw",
           "hierarchy": "Text HTML TagSoup Fast Utf8Only",
+          "indexed": "2014-03-11T18:06:34",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "unescapeHtml",
           "normalized": "ByteString-\u003eByteString",
@@ -250,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative to \u003ccode\u003e\u003ca\u003eunescapeHtml\u003c/a\u003e\u003c/code\u003e working with \u003ccode\u003eText\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:34 UTC 2014",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "unescapeHtmlT",
           "package": "fast-tagsoup-utf8-only",
@@ -260,6 +279,7 @@
         "index": {
           "description": "Alternative to unescapeHtml working with Text",
           "hierarchy": "Text HTML TagSoup Fast Utf8Only",
+          "indexed": "2014-03-11T18:06:34",
           "module": "Text.HTML.TagSoup.Fast.Utf8Only",
           "name": "unescapeHtmlT",
           "normalized": "Text-\u003eText",

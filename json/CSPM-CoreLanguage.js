@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CSPM-CoreLanguage"
+        "phrase": "CSPM-CoreLanguage",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the event-related part of an interface between \n the CSPM-CoreLanguage and the underlying implementation.\n The underlying implementation has to instantiate the type families \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eEventSet\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eRenamingRelation\u003c/a\u003e\u003c/code\u003e\n and the class \u003ccode\u003e\u003ca\u003eBE\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eBE\u003c/a\u003e\u003c/code\u003e== base event).\n\u003c/p\u003e\u003cp\u003eFor full CSPM support (channels with multiple fields, event closure sets etc.)\n CSPM.CoreLanguage.Field is also needed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "Event",
           "package": "CSPM-CoreLanguage",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines the event-related part of an interface between the CSPM-CoreLanguage and the underlying implementation The underlying implementation has to instantiate the type families Event EventSet RenamingRelation and the class BE BE base event For full CSPM support channels with multiple fields event closure sets etc CSPM.CoreLanguage.Field is also needed",
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "Event",
           "package": "CSPM-CoreLanguage",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first argument of all functions in \u003ccode\u003e\u003ca\u003eBE\u003c/a\u003e\u003c/code\u003e is a phantom-type-argument, i.e.\n applications pass _|_ and implementations must not use this value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "BE",
           "package": "CSPM-CoreLanguage",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The first argument of all functions in BE is phantom-type-argument i.e applications pass and implementations must not use this value",
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "BE",
           "package": "CSPM-CoreLanguage",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "Event",
           "package": "CSPM-CoreLanguage",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "Event",
           "package": "CSPM-CoreLanguage",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "EventSet",
           "package": "CSPM-CoreLanguage",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "EventSet",
           "package": "CSPM-CoreLanguage",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "RenamingRelation",
           "package": "CSPM-CoreLanguage",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "RenamingRelation",
           "package": "CSPM-CoreLanguage",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "ShowEvent",
           "package": "CSPM-CoreLanguage",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "ShowEvent",
           "package": "CSPM-CoreLanguage",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "ShowTTE",
           "package": "CSPM-CoreLanguage",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "ShowTTE",
           "package": "CSPM-CoreLanguage",
@@ -170,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigma is the set of all events that appear in a system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "Sigma",
           "package": "CSPM-CoreLanguage",
@@ -179,6 +194,7 @@
         "index": {
           "description": "Sigma is the set of all events that appear in system",
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "Sigma",
           "package": "CSPM-CoreLanguage",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for tick-events, tau-events and events from Sigma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "TTE",
           "package": "CSPM-CoreLanguage",
@@ -202,6 +219,7 @@
         "index": {
           "description": "wrapper for tick-events tau-events and events from Sigma",
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "TTE",
           "package": "CSPM-CoreLanguage",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "SEvent",
           "package": "CSPM-CoreLanguage",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "SEvent",
           "package": "CSPM-CoreLanguage",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "TauEvent",
           "package": "CSPM-CoreLanguage",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "TauEvent",
           "package": "CSPM-CoreLanguage",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "TickEvent",
           "package": "CSPM-CoreLanguage",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "TickEvent",
           "package": "CSPM-CoreLanguage",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "allEvents",
           "package": "CSPM-CoreLanguage",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "allEvents",
           "normalized": "a-\u003eEventSet a",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "delete",
           "package": "CSPM-CoreLanguage",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "delete",
           "normalized": "a-\u003eEvent a-\u003eEventSet a-\u003eEventSet a",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "difference",
           "package": "CSPM-CoreLanguage",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "difference",
           "normalized": "a-\u003eEventSet a-\u003eEventSet a-\u003eEventSet a",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "eventEq",
           "package": "CSPM-CoreLanguage",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "eventEq",
           "normalized": "a-\u003eEvent a-\u003eEvent a-\u003eBool",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "eventSetToList",
           "package": "CSPM-CoreLanguage",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "eventSetToList",
           "normalized": "a-\u003eEventSet a-\u003e[Event a]",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "getRenamingDomain",
           "package": "CSPM-CoreLanguage",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "getRenamingDomain",
           "normalized": "a-\u003eRenamingRelation a-\u003e[Event a]",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "getRenamingRange",
           "package": "CSPM-CoreLanguage",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "getRenamingRange",
           "normalized": "a-\u003eRenamingRelation a-\u003e[Event a]",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "imageRenaming",
           "package": "CSPM-CoreLanguage",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "imageRenaming",
           "normalized": "a-\u003eRenamingRelation a-\u003eEvent a-\u003e[Event a]",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "insert",
           "package": "CSPM-CoreLanguage",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "insert",
           "normalized": "a-\u003eEvent a-\u003eEventSet a-\u003eEventSet a",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "intersection",
           "package": "CSPM-CoreLanguage",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "intersection",
           "normalized": "a-\u003eEventSet a-\u003eEventSet a-\u003eEventSet a",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "isInRenaming",
           "package": "CSPM-CoreLanguage",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "isInRenaming",
           "normalized": "a-\u003eRenamingRelation a-\u003eEvent a-\u003eEvent a-\u003eBool",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "isInRenamingDomain",
           "package": "CSPM-CoreLanguage",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "isInRenamingDomain",
           "normalized": "a-\u003eEvent a-\u003eRenamingRelation a-\u003eBool",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "isInRenamingRange",
           "package": "CSPM-CoreLanguage",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "isInRenamingRange",
           "normalized": "a-\u003eEvent a-\u003eRenamingRelation a-\u003eBool",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "member",
           "package": "CSPM-CoreLanguage",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "member",
           "normalized": "a-\u003eEvent a-\u003eEventSet a-\u003eBool",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "null",
           "package": "CSPM-CoreLanguage",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "null",
           "normalized": "a-\u003eEventSet a-\u003eBool",
@@ -635,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "preImageRenaming",
           "package": "CSPM-CoreLanguage",
@@ -644,6 +699,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "preImageRenaming",
           "normalized": "a-\u003eRenamingRelation a-\u003eEvent a-\u003e[Event a]",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "renamingFromList",
           "package": "CSPM-CoreLanguage",
@@ -668,6 +725,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "renamingFromList",
           "normalized": "a-\u003e[(Event a,Event a)]-\u003eRenamingRelation a",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "renamingToList",
           "package": "CSPM-CoreLanguage",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "renamingToList",
           "normalized": "a-\u003eRenamingRelation a-\u003e[(Event a,Event a)]",
@@ -707,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "showEvent",
           "package": "CSPM-CoreLanguage",
@@ -716,6 +777,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "showEvent",
           "normalized": "a-\u003eString",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "showTTE",
           "package": "CSPM-CoreLanguage",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "showTTE",
           "normalized": "a-\u003eString",
@@ -755,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "singleEventToClosureSet",
           "package": "CSPM-CoreLanguage",
@@ -764,6 +829,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "singleEventToClosureSet",
           "normalized": "a-\u003eEvent a-\u003eEventSet a",
@@ -779,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "singleton",
           "package": "CSPM-CoreLanguage",
@@ -788,6 +855,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "singleton",
           "normalized": "a-\u003eEvent a-\u003eEventSet a",
@@ -802,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Event",
           "name": "union",
           "package": "CSPM-CoreLanguage",
@@ -811,6 +880,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Event",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Event",
           "name": "union",
           "normalized": "a-\u003eEventSet a-\u003eEventSet a-\u003eEventSet a",
@@ -826,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the class \u003ccode\u003e\u003ca\u003eBF\u003c/a\u003e\u003c/code\u003e for versions of CSP\n that also support multi-field-events and event-closure sets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "Field",
           "package": "CSPM-CoreLanguage",
@@ -835,6 +906,7 @@
         "index": {
           "description": "This module defines the class BF for versions of CSP that also support multi-field-events and event-closure sets",
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "Field",
           "package": "CSPM-CoreLanguage",
@@ -848,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "BF",
           "package": "CSPM-CoreLanguage",
@@ -856,6 +929,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "BF",
           "package": "CSPM-CoreLanguage",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "ClosureState",
           "package": "CSPM-CoreLanguage",
@@ -877,6 +952,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "ClosureState",
           "package": "CSPM-CoreLanguage",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "ClosureView",
           "package": "CSPM-CoreLanguage",
@@ -898,6 +975,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "ClosureView",
           "package": "CSPM-CoreLanguage",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "Field",
           "package": "CSPM-CoreLanguage",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "Field",
           "package": "CSPM-CoreLanguage",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "FieldSet",
           "package": "CSPM-CoreLanguage",
@@ -940,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "FieldSet",
           "package": "CSPM-CoreLanguage",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "PrefixFieldView",
           "package": "CSPM-CoreLanguage",
@@ -961,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "PrefixFieldView",
           "package": "CSPM-CoreLanguage",
@@ -974,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "PrefixState",
           "package": "CSPM-CoreLanguage",
@@ -982,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "PrefixState",
           "package": "CSPM-CoreLanguage",
@@ -995,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "FieldGuard",
           "package": "CSPM-CoreLanguage",
@@ -1004,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "FieldGuard",
           "package": "CSPM-CoreLanguage",
@@ -1017,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "FieldIn",
           "package": "CSPM-CoreLanguage",
@@ -1026,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "FieldIn",
           "package": "CSPM-CoreLanguage",
@@ -1039,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "FieldOut",
           "package": "CSPM-CoreLanguage",
@@ -1048,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "FieldOut",
           "package": "CSPM-CoreLanguage",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "InClosure",
           "package": "CSPM-CoreLanguage",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "InClosure",
           "package": "CSPM-CoreLanguage",
@@ -1083,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "MaybeInClosure",
           "package": "CSPM-CoreLanguage",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "MaybeInClosure",
           "package": "CSPM-CoreLanguage",
@@ -1105,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "NotInClosure",
           "package": "CSPM-CoreLanguage",
@@ -1114,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "NotInClosure",
           "package": "CSPM-CoreLanguage",
@@ -1127,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "channelLen",
           "package": "CSPM-CoreLanguage",
@@ -1136,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "channelLen",
           "normalized": "a-\u003eField a-\u003eInt",
@@ -1151,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "closureRestore",
           "package": "CSPM-CoreLanguage",
@@ -1160,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "closureRestore",
           "normalized": "a-\u003eClosureState a-\u003eEventSet a",
@@ -1175,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "closureStateInit",
           "package": "CSPM-CoreLanguage",
@@ -1184,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "closureStateInit",
           "normalized": "a-\u003eEventSet a-\u003eClosureState a",
@@ -1199,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "closureStateNext",
           "package": "CSPM-CoreLanguage",
@@ -1208,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "closureStateNext",
           "normalized": "a-\u003eClosureState a-\u003eField a-\u003eClosureState a",
@@ -1223,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "delete",
           "package": "CSPM-CoreLanguage",
@@ -1232,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "delete",
           "normalized": "a-\u003eField a-\u003eFieldSet a-\u003eFieldSet a",
@@ -1246,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "difference",
           "package": "CSPM-CoreLanguage",
@@ -1255,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "difference",
           "normalized": "a-\u003eFieldSet a-\u003eFieldSet a-\u003eFieldSet a",
@@ -1269,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "fieldEq",
           "package": "CSPM-CoreLanguage",
@@ -1278,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "fieldEq",
           "normalized": "a-\u003eField a-\u003eField a-\u003eBool",
@@ -1293,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "fieldSetFromList",
           "package": "CSPM-CoreLanguage",
@@ -1302,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "fieldSetFromList",
           "normalized": "a-\u003e[Field a]-\u003eFieldSet a",
@@ -1317,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "fieldSetToList",
           "package": "CSPM-CoreLanguage",
@@ -1326,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "fieldSetToList",
           "normalized": "a-\u003eFieldSet a-\u003e[Field a]",
@@ -1341,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "insert",
           "package": "CSPM-CoreLanguage",
@@ -1350,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "insert",
           "normalized": "a-\u003eField a-\u003eFieldSet a-\u003eFieldSet a",
@@ -1364,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "intersection",
           "package": "CSPM-CoreLanguage",
@@ -1373,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "intersection",
           "normalized": "a-\u003eFieldSet a-\u003eFieldSet a-\u003eFieldSet a",
@@ -1387,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "joinFields",
           "package": "CSPM-CoreLanguage",
@@ -1396,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "joinFields",
           "normalized": "a-\u003e[Field a]-\u003eEvent a",
@@ -1411,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "member",
           "package": "CSPM-CoreLanguage",
@@ -1420,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "member",
           "normalized": "a-\u003eField a-\u003eFieldSet a-\u003eBool",
@@ -1434,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "null",
           "package": "CSPM-CoreLanguage",
@@ -1443,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "null",
           "normalized": "a-\u003eFieldSet a-\u003eBool",
@@ -1457,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "prefixStateFinalize",
           "package": "CSPM-CoreLanguage",
@@ -1466,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "prefixStateFinalize",
           "normalized": "a-\u003ePrefixState a-\u003eMaybe(Prefix a)",
@@ -1481,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "prefixStateInit",
           "package": "CSPM-CoreLanguage",
@@ -1490,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "prefixStateInit",
           "normalized": "a-\u003ePrefix a-\u003ePrefixState a",
@@ -1505,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "prefixStateNext",
           "package": "CSPM-CoreLanguage",
@@ -1514,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "prefixStateNext",
           "normalized": "a-\u003ePrefixState a-\u003eField a-\u003eMaybe(PrefixState a)",
@@ -1529,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "seenPrefixInClosure",
           "package": "CSPM-CoreLanguage",
@@ -1538,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "seenPrefixInClosure",
           "normalized": "a-\u003eClosureState a-\u003eBool",
@@ -1553,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "singleton",
           "package": "CSPM-CoreLanguage",
@@ -1562,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "singleton",
           "normalized": "a-\u003eField a-\u003eFieldSet a",
@@ -1576,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "splitFields",
           "package": "CSPM-CoreLanguage",
@@ -1585,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "splitFields",
           "normalized": "a-\u003eEvent a-\u003e[Field a]",
@@ -1600,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "union",
           "package": "CSPM-CoreLanguage",
@@ -1609,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "union",
           "normalized": "a-\u003eFieldSet a-\u003eFieldSet a-\u003eFieldSet a",
@@ -1623,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "viewClosureFields",
           "package": "CSPM-CoreLanguage",
@@ -1632,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "viewClosureFields",
           "normalized": "a-\u003eClosureState a-\u003eFieldSet a",
@@ -1647,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "viewClosureState",
           "package": "CSPM-CoreLanguage",
@@ -1656,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "viewClosureState",
           "normalized": "a-\u003eClosureState a-\u003eClosureView",
@@ -1671,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Field",
           "name": "viewPrefixState",
           "package": "CSPM-CoreLanguage",
@@ -1680,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Field",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Field",
           "name": "viewPrefixState",
           "normalized": "a-\u003ePrefixState a-\u003ePrefixFieldView a",
@@ -1696,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules defines an FDR-compatible CSP core language.\n The core language deals with CSP-related constructs like processes and events.\n\u003c/p\u003e\u003cp\u003eThe implementation of the underlying language\n must provide instances for the type families \u003ccode\u003e\u003ca\u003ePrefix\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eExtProcess\u003c/a\u003e\u003c/code\u003e\n and class \u003ccode\u003e\u003ca\u003eBL\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Process",
           "package": "CSPM-CoreLanguage",
@@ -1705,6 +1852,7 @@
         "index": {
           "description": "This modules defines an FDR-compatible CSP core language The core language deals with CSP-related constructs like processes and events The implementation of the underlying language must provide instances for the type families Prefix ExtProcess and class BL",
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Process",
           "package": "CSPM-CoreLanguage",
@@ -1718,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "BL",
           "package": "CSPM-CoreLanguage",
@@ -1726,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "BL",
           "package": "CSPM-CoreLanguage",
@@ -1740,6 +1890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA process that has not yet been switched on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "ExtProcess",
           "package": "CSPM-CoreLanguage",
@@ -1749,6 +1900,7 @@
         "index": {
           "description": "process that has not yet been switched on",
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "ExtProcess",
           "package": "CSPM-CoreLanguage",
@@ -1763,6 +1915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prefix expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Prefix",
           "package": "CSPM-CoreLanguage",
@@ -1772,6 +1925,7 @@
         "index": {
           "description": "prefix expression",
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Prefix",
           "package": "CSPM-CoreLanguage",
@@ -1786,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type for CSPM processes.\n  For efficiency, replicated alphabetized parallel has an explicit constructor.\n  Other replicated operations get translated on the fly.\n  For constructing processes one should rather use the wrappers from \n  CSPM.CoreLanguage.ProcessWrappers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Process",
           "package": "CSPM-CoreLanguage",
@@ -1795,6 +1950,7 @@
         "index": {
           "description": "data type for CSPM processes For efficiency replicated alphabetized parallel has an explicit constructor Other replicated operations get translated on the fly For constructing processes one should rather use the wrappers from CSPM.CoreLanguage.ProcessWrappers",
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Process",
           "package": "CSPM-CoreLanguage",
@@ -1808,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "AParallel",
           "package": "CSPM-CoreLanguage",
@@ -1817,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "AParallel",
           "package": "CSPM-CoreLanguage",
@@ -1831,6 +1989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust for debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "AProcess",
           "package": "CSPM-CoreLanguage",
@@ -1841,6 +2000,7 @@
         "index": {
           "description": "Just for debugging",
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "AProcess",
           "package": "CSPM-CoreLanguage",
@@ -1854,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Chaos",
           "package": "CSPM-CoreLanguage",
@@ -1863,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Chaos",
           "package": "CSPM-CoreLanguage",
@@ -1876,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Exception",
           "package": "CSPM-CoreLanguage",
@@ -1885,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Exception",
           "package": "CSPM-CoreLanguage",
@@ -1898,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "ExternalChoice",
           "package": "CSPM-CoreLanguage",
@@ -1907,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "ExternalChoice",
           "package": "CSPM-CoreLanguage",
@@ -1920,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Hide",
           "package": "CSPM-CoreLanguage",
@@ -1929,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Hide",
           "package": "CSPM-CoreLanguage",
@@ -1942,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Interleave",
           "package": "CSPM-CoreLanguage",
@@ -1951,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Interleave",
           "package": "CSPM-CoreLanguage",
@@ -1964,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "InternalChoice",
           "package": "CSPM-CoreLanguage",
@@ -1973,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "InternalChoice",
           "package": "CSPM-CoreLanguage",
@@ -1986,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Interrupt",
           "package": "CSPM-CoreLanguage",
@@ -1995,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Interrupt",
           "package": "CSPM-CoreLanguage",
@@ -2008,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "LinkParallel",
           "package": "CSPM-CoreLanguage",
@@ -2017,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "LinkParallel",
           "package": "CSPM-CoreLanguage",
@@ -2030,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Omega",
           "package": "CSPM-CoreLanguage",
@@ -2039,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Omega",
           "package": "CSPM-CoreLanguage",
@@ -2052,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Prefix",
           "package": "CSPM-CoreLanguage",
@@ -2061,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Prefix",
           "package": "CSPM-CoreLanguage",
@@ -2074,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Renaming",
           "package": "CSPM-CoreLanguage",
@@ -2083,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Renaming",
           "package": "CSPM-CoreLanguage",
@@ -2096,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "RepAParallel",
           "package": "CSPM-CoreLanguage",
@@ -2105,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "RepAParallel",
           "normalized": "RepAParallel[(EventSet a,Process a)]",
@@ -2120,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Seq",
           "package": "CSPM-CoreLanguage",
@@ -2129,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Seq",
           "package": "CSPM-CoreLanguage",
@@ -2142,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Sharing",
           "package": "CSPM-CoreLanguage",
@@ -2151,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Sharing",
           "package": "CSPM-CoreLanguage",
@@ -2164,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Skip",
           "package": "CSPM-CoreLanguage",
@@ -2173,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Skip",
           "package": "CSPM-CoreLanguage",
@@ -2186,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Stop",
           "package": "CSPM-CoreLanguage",
@@ -2195,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Stop",
           "package": "CSPM-CoreLanguage",
@@ -2208,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "SwitchedOff",
           "package": "CSPM-CoreLanguage",
@@ -2217,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "SwitchedOff",
           "package": "CSPM-CoreLanguage",
@@ -2230,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Timeout",
           "package": "CSPM-CoreLanguage",
@@ -2239,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "Timeout",
           "package": "CSPM-CoreLanguage",
@@ -2252,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "isOmega",
           "package": "CSPM-CoreLanguage",
@@ -2261,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "isOmega",
           "normalized": "Process a-\u003eBool",
@@ -2277,6 +2475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to perform an \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e return the successor \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e or Nothing\n   if the event is not possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "prefixNext",
           "package": "CSPM-CoreLanguage",
@@ -2287,6 +2486,7 @@
         "index": {
           "description": "Try to perform an Event return the successor Process or Nothing if the event is not possible",
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "prefixNext",
           "normalized": "Prefix a-\u003eEvent a-\u003eMaybe(Process a)",
@@ -2302,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.Process",
           "name": "switchOn",
           "package": "CSPM-CoreLanguage",
@@ -2311,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage Process",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.Process",
           "name": "switchOn",
           "normalized": "ExtProcess a-\u003eProcess a",
@@ -2327,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWrappers for the constructors of data type \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e and some\n rewriting rules for replicated operations.\n\u003c/p\u003e\u003cp\u003eThis can also be used as EDSL for CSP.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "ProcessWrapper",
           "package": "CSPM-CoreLanguage",
@@ -2336,6 +2539,7 @@
         "index": {
           "description": "Wrappers for the constructors of data type Process and some rewriting rules for replicated operations This can also be used as EDSL for CSP",
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "ProcessWrapper",
           "package": "CSPM-CoreLanguage",
@@ -2349,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "aparallel",
           "package": "CSPM-CoreLanguage",
@@ -2358,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "aparallel",
           "normalized": "EventSet a-\u003eEventSet a-\u003eProcess a-\u003eProcess a-\u003eProcess a",
@@ -2372,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "chaos",
           "package": "CSPM-CoreLanguage",
@@ -2381,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "chaos",
           "normalized": "EventSet a-\u003eProcess a",
@@ -2395,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "externalChoice",
           "package": "CSPM-CoreLanguage",
@@ -2404,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "externalChoice",
           "normalized": "Process a-\u003eProcess a-\u003eProcess a",
@@ -2419,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "hide",
           "package": "CSPM-CoreLanguage",
@@ -2428,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "hide",
           "normalized": "EventSet a-\u003eProcess a-\u003eProcess a",
@@ -2442,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "interleave",
           "package": "CSPM-CoreLanguage",
@@ -2451,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "interleave",
           "normalized": "Process a-\u003eProcess a-\u003eProcess a",
@@ -2465,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "internalChoice",
           "package": "CSPM-CoreLanguage",
@@ -2474,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "internalChoice",
           "normalized": "Process a-\u003eProcess a-\u003eProcess a",
@@ -2489,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "interrupt",
           "package": "CSPM-CoreLanguage",
@@ -2498,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "interrupt",
           "normalized": "Process a-\u003eProcess a-\u003eProcess a",
@@ -2512,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "linkParallel",
           "package": "CSPM-CoreLanguage",
@@ -2521,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "linkParallel",
           "normalized": "RenamingRelation a-\u003eProcess a-\u003eProcess a-\u003eProcess a",
@@ -2536,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "prefix",
           "package": "CSPM-CoreLanguage",
@@ -2545,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "prefix",
           "normalized": "Prefix a-\u003eProcess a",
@@ -2559,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "renaming",
           "package": "CSPM-CoreLanguage",
@@ -2568,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "renaming",
           "normalized": "RenamingRelation a-\u003eProcess a-\u003eProcess a",
@@ -2582,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repAParallel",
           "package": "CSPM-CoreLanguage",
@@ -2591,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repAParallel",
           "normalized": "[(EventSet a,Process a)]-\u003eProcess a",
@@ -2606,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repExternalChoice",
           "package": "CSPM-CoreLanguage",
@@ -2615,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repExternalChoice",
           "normalized": "[Process a]-\u003eProcess a",
@@ -2630,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repInterleave",
           "package": "CSPM-CoreLanguage",
@@ -2639,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repInterleave",
           "normalized": "[Process a]-\u003eProcess a",
@@ -2654,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repInternalChoice",
           "package": "CSPM-CoreLanguage",
@@ -2663,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repInternalChoice",
           "normalized": "[Process a]-\u003eProcess a",
@@ -2678,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repLinkParallel",
           "package": "CSPM-CoreLanguage",
@@ -2687,6 +2920,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repLinkParallel",
           "normalized": "RenamingRelation a-\u003e[Process a]-\u003eProcess a",
@@ -2702,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repSeq",
           "package": "CSPM-CoreLanguage",
@@ -2711,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repSeq",
           "normalized": "[Process a]-\u003eProcess a",
@@ -2726,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repSharing",
           "package": "CSPM-CoreLanguage",
@@ -2735,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "repSharing",
           "normalized": "EventSet a-\u003e[Process a]-\u003eProcess a",
@@ -2750,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "seq",
           "package": "CSPM-CoreLanguage",
@@ -2759,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "seq",
           "normalized": "Process a-\u003eProcess a-\u003eProcess a",
@@ -2773,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "sharing",
           "package": "CSPM-CoreLanguage",
@@ -2782,6 +3023,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "sharing",
           "normalized": "Process a-\u003eEventSet a-\u003eProcess a-\u003eProcess a",
@@ -2796,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "skip",
           "package": "CSPM-CoreLanguage",
@@ -2805,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "skip",
           "package": "CSPM-CoreLanguage",
@@ -2817,6 +3061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "stop",
           "package": "CSPM-CoreLanguage",
@@ -2826,6 +3071,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "stop",
           "package": "CSPM-CoreLanguage",
@@ -2838,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "switchedOff",
           "package": "CSPM-CoreLanguage",
@@ -2847,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "switchedOff",
           "normalized": "ExtProcess a-\u003eProcess a",
@@ -2862,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "timeout",
           "package": "CSPM-CoreLanguage",
@@ -2871,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "CSPM CoreLanguage ProcessWrapper",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage.ProcessWrapper",
           "name": "timeout",
           "normalized": "Process a-\u003eProcess a-\u003eProcess a",
@@ -2886,6 +3136,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJust re-exports.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage",
           "name": "CoreLanguage",
           "package": "CSPM-CoreLanguage",
@@ -2895,6 +3146,7 @@
         "index": {
           "description": "Just re-exports",
           "hierarchy": "CSPM CoreLanguage",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage",
           "name": "CoreLanguage",
           "package": "CSPM-CoreLanguage",
@@ -2909,6 +3161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe version of the CSPM-CoreLangugage library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:46 UTC 2014",
           "module": "CSPM.CoreLanguage",
           "name": "coreLanguageVersion",
           "package": "CSPM-CoreLanguage",
@@ -2919,6 +3172,7 @@
         "index": {
           "description": "The version of the CSPM-CoreLangugage library",
           "hierarchy": "CSPM CoreLanguage",
+          "indexed": "2014-03-11T16:35:46",
           "module": "CSPM.CoreLanguage",
           "name": "coreLanguageVersion",
           "package": "CSPM-CoreLanguage",

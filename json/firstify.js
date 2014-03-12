@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "firstify"
+        "phrase": "firstify",
+        "type": "phrase"
       },
       "type": "context"
     }

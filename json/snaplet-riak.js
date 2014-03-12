@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-riak"
+        "phrase": "snaplet-riak",
+        "type": "phrase"
       },
       "type": "context"
     }

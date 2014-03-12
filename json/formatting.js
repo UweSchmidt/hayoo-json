@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "formatting"
+        "phrase": "formatting",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExamples that should always compile. If reading on Haddock, you\n can view the sources to each of these.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Examples",
           "name": "Examples",
           "package": "formatting",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Examples that should always compile If reading on Haddock you can view the sources to each of these",
           "hierarchy": "Formatting Examples",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Examples",
           "name": "Examples",
           "package": "formatting",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrinting builders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Examples",
           "name": "builders",
           "package": "formatting",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Printing builders",
           "hierarchy": "Formatting Examples",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Examples",
           "name": "builders",
           "package": "formatting",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrinting floating points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Examples",
           "name": "floats",
           "package": "formatting",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Printing floating points",
           "hierarchy": "Formatting Examples",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Examples",
           "name": "floats",
           "package": "formatting",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple hello, world!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Examples",
           "name": "hello",
           "package": "formatting",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Simple hello world",
           "hierarchy": "Formatting Examples",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Examples",
           "name": "hello",
           "package": "formatting",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrinting integrals in hex (base-16).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Examples",
           "name": "hexes",
           "package": "formatting",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Printing integrals in hex base-16",
           "hierarchy": "Formatting Examples",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Examples",
           "name": "hexes",
           "package": "formatting",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrinting integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Examples",
           "name": "integers",
           "package": "formatting",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Printing integers",
           "hierarchy": "Formatting Examples",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Examples",
           "name": "integers",
           "package": "formatting",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePadding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Examples",
           "name": "padding",
           "package": "formatting",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Padding",
           "hierarchy": "Formatting Examples",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Examples",
           "name": "padding",
           "package": "formatting",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrinting strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Examples",
           "name": "strings",
           "package": "formatting",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Printing strings",
           "hierarchy": "Formatting Examples",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Examples",
           "name": "strings",
           "package": "formatting",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrinting texts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Examples",
           "name": "texts",
           "package": "formatting",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Printing texts",
           "hierarchy": "Formatting Examples",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Examples",
           "name": "texts",
           "package": "formatting",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormatting functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "Formatters",
           "package": "formatting",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Formatting functions",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "Formatters",
           "package": "formatting",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types that can be rendered to a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "Buildable",
           "package": "formatting",
@@ -257,6 +278,7 @@
         "index": {
           "description": "The class of types that can be rendered to Builder",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "Buildable",
           "package": "formatting",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild anything that implements the \u003ca\u003eBuildable\u003c/a\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "build",
           "package": "formatting",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Build anything that implements the Buildable class",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "build",
           "package": "formatting",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a builder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "builder",
           "package": "formatting",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Build builder",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "builder",
           "package": "formatting",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd commas to an integral, e.g 12000 -\u003e  \u003ca\u003e12,000\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "commas",
           "package": "formatting",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Add commas to an integral e.g",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "commas",
           "package": "formatting",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using scientific/engineering\n notation (e.g. 2.3e123), with the given number of decimal places.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "expt",
           "package": "formatting",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Render floating point number using scientific engineering notation e.g e123 with the given number of decimal places",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "expt",
           "normalized": "Int-\u003eFormat a",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using normal notation, with the\n given number of decimal places.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "fixed",
           "package": "formatting",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Render floating point number using normal notation with the given number of decimal places",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "fixed",
           "normalized": "Int-\u003eFormat a",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender some floating point with the usual notation, e.g. 123.32 =\u003e \"123.32\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "float",
           "package": "formatting",
@@ -400,6 +433,7 @@
         "index": {
           "description": "Render some floating point with the usual notation e.g",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "float",
           "package": "formatting",
@@ -413,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an integer using hexadecimal notation. (No leading 0x is\n added.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "hex",
           "package": "formatting",
@@ -423,6 +458,7 @@
         "index": {
           "description": "Render an integer using hexadecimal notation No leading is added",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "hex",
           "package": "formatting",
@@ -436,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an integral e.g. 123 -\u003e \"123\", 0 -\u003e \"0\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "int",
           "package": "formatting",
@@ -446,6 +483,7 @@
         "index": {
           "description": "Render an integral e.g",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "int",
           "package": "formatting",
@@ -459,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad the left hand side of a string until it reaches k characters\n wide, if necessary filling with character c.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "left",
           "package": "formatting",
@@ -469,6 +508,7 @@
         "index": {
           "description": "Pad the left hand side of string until it reaches characters wide if necessary filling with character",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "left",
           "normalized": "Int-\u003eChar-\u003eFormat a",
@@ -484,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number, with the given number of digits\n of precision. Uses decimal notation for values between 0.1 and\n 9,999,999, and scientific notation otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "prec",
           "package": "formatting",
@@ -494,6 +535,7 @@
         "index": {
           "description": "Render floating point number with the given number of digits of precision Uses decimal notation for values between and and scientific notation otherwise",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "prec",
           "normalized": "Int-\u003eFormat a",
@@ -509,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad the right hand side of a string until it reaches k characters\n wide, if necessary filling with character c.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "right",
           "package": "formatting",
@@ -519,6 +562,7 @@
         "index": {
           "description": "Pad the right hand side of string until it reaches characters wide if necessary filling with character",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "right",
           "normalized": "Int-\u003eChar-\u003eFormat a",
@@ -534,6 +578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using the smallest number of\n digits that correctly represent it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "shortest",
           "package": "formatting",
@@ -544,6 +589,7 @@
         "index": {
           "description": "Render floating point number using the smallest number of digits that correctly represent it",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "shortest",
           "package": "formatting",
@@ -557,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a strict text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "stext",
           "package": "formatting",
@@ -567,6 +614,7 @@
         "index": {
           "description": "Output strict text",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "stext",
           "package": "formatting",
@@ -580,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "string",
           "package": "formatting",
@@ -590,6 +639,7 @@
         "index": {
           "description": "Output string",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "string",
           "package": "formatting",
@@ -603,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a lazy text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Formatters",
           "name": "text",
           "package": "formatting",
@@ -613,6 +664,7 @@
         "index": {
           "description": "Output lazy text",
           "hierarchy": "Formatting Formatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Formatters",
           "name": "text",
           "package": "formatting",
@@ -626,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopy of the holey monoids library but with constructor exported.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Holey",
           "name": "Holey",
           "package": "formatting",
@@ -635,6 +688,7 @@
         "index": {
           "description": "Copy of the holey monoids library but with constructor exported",
           "hierarchy": "Formatting Holey",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Holey",
           "name": "Holey",
           "package": "formatting",
@@ -649,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA formatter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Holey",
           "name": "Format",
           "package": "formatting",
@@ -658,6 +713,7 @@
         "index": {
           "description": "formatter",
           "hierarchy": "Formatting Holey",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Holey",
           "name": "Format",
           "package": "formatting",
@@ -672,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a monoid with holes. The underlying monoid is\n represented by type parameter \u003ccode\u003em\u003c/code\u003e. The \u003ccode\u003er\u003c/code\u003e is the result type and\n stays polymorphic until the very last moment when \u003ccode\u003erun\u003c/code\u003e is\n called. The last argument \u003ccode\u003ea\u003c/code\u003e is always a function with zero or\n more arguments, finally resulting in \u003ccode\u003er\u003c/code\u003e. Ordering the arguments in\n this order allows holey monoids to be composed using \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e, stacking\n the expected arguments. Note that the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e constraint is only\n used in the identity \u003ccode\u003e\u003ca\u003eHoley\u003c/a\u003e\u003c/code\u003e and in composing two \u003ccode\u003e\u003ca\u003eHoley\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Holey",
           "name": "Holey",
           "package": "formatting",
@@ -681,6 +738,7 @@
         "index": {
           "description": "The type of monoid with holes The underlying monoid is represented by type parameter The is the result type and stays polymorphic until the very last moment when run is called The last argument is always function with zero or more arguments finally resulting in Ordering the arguments in this order allows holey monoids to be composed using stacking the expected arguments Note that the Monoid constraint is only used in the identity Holey and in composing two Holey",
           "hierarchy": "Formatting Holey",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Holey",
           "name": "Holey",
           "package": "formatting",
@@ -695,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition operator. The same as category composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Holey",
           "name": "(%)",
           "package": "formatting",
@@ -705,6 +764,7 @@
         "index": {
           "description": "Composition operator The same as category composition",
           "hierarchy": "Formatting Holey",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Holey",
           "name": "(%) %",
           "normalized": "Holey a b c-\u003eHoley a b b-\u003eHoley a b c",
@@ -719,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Holey",
           "name": "Holey",
           "package": "formatting",
@@ -728,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Formatting Holey",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Holey",
           "name": "Holey",
           "package": "formatting",
@@ -742,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic indexed bind for holey monoids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Holey",
           "name": "bind",
           "package": "formatting",
@@ -752,6 +815,7 @@
         "index": {
           "description": "Monadic indexed bind for holey monoids",
           "hierarchy": "Formatting Holey",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Holey",
           "name": "bind",
           "normalized": "Holey a b c-\u003e(a-\u003eHoley d e b)-\u003eHoley d e c",
@@ -767,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert between underlying \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Holey",
           "name": "hmap",
           "package": "formatting",
@@ -777,6 +842,7 @@
         "index": {
           "description": "Convert between underlying Monoid types",
           "hierarchy": "Formatting Holey",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Holey",
           "name": "hmap",
           "normalized": "(a-\u003eb)-\u003eHoley a c d-\u003eHoley b c d",
@@ -792,6 +858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a monoidal value that is not specified until the\n computation is \u003ccode\u003erun\u003c/code\u003e. The argument that is expected later is\n converted to the monoid type using the given conversion function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Holey",
           "name": "later",
           "package": "formatting",
@@ -802,6 +869,7 @@
         "index": {
           "description": "Insert monoidal value that is not specified until the computation is run The argument that is expected later is converted to the monoid type using the given conversion function",
           "hierarchy": "Formatting Holey",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Holey",
           "name": "later",
           "normalized": "(a-\u003eb)-\u003eHoley b c(a-\u003ec)",
@@ -817,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a constant monoidal value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Holey",
           "name": "now",
           "package": "formatting",
@@ -827,6 +896,7 @@
         "index": {
           "description": "Insert constant monoidal value",
           "hierarchy": "Formatting Holey",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Holey",
           "name": "now",
           "normalized": "a-\u003eHoley a b b",
@@ -841,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Holey",
           "name": "runHM",
           "package": "formatting",
@@ -850,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Formatting Holey",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Holey",
           "name": "runHM",
           "normalized": "(a-\u003eb)-\u003ec",
@@ -866,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSingle letters for short formatting.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.ShortFormatters",
           "name": "ShortFormatters",
           "package": "formatting",
@@ -875,6 +948,7 @@
         "index": {
           "description": "Single letters for short formatting",
           "hierarchy": "Formatting ShortFormatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.ShortFormatters",
           "name": "ShortFormatters",
           "package": "formatting",
@@ -889,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using scientific/engineering\n notation (e.g. 2.3e123), with the given number of decimal places.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.ShortFormatters",
           "name": "ef",
           "package": "formatting",
@@ -899,6 +974,7 @@
         "index": {
           "description": "Render floating point number using scientific engineering notation e.g e123 with the given number of decimal places",
           "hierarchy": "Formatting ShortFormatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.ShortFormatters",
           "name": "ef",
           "normalized": "Int-\u003eFormat a",
@@ -914,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using normal notation, with the\n given number of decimal places.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.ShortFormatters",
           "name": "f",
           "package": "formatting",
@@ -924,6 +1001,7 @@
         "index": {
           "description": "Render floating point number using normal notation with the given number of decimal places",
           "hierarchy": "Formatting ShortFormatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.ShortFormatters",
           "name": "f",
           "normalized": "Int-\u003eFormat a",
@@ -939,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad the left hand side of a string until it reaches k characters\n wide, if necessary filling with character c.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.ShortFormatters",
           "name": "l",
           "package": "formatting",
@@ -949,6 +1028,7 @@
         "index": {
           "description": "Pad the left hand side of string until it reaches characters wide if necessary filling with character",
           "hierarchy": "Formatting ShortFormatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.ShortFormatters",
           "name": "l",
           "normalized": "Int-\u003eChar-\u003eFormat a",
@@ -964,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number, with the given number of digits\n of precision. Uses decimal notation for values between 0.1 and\n 9,999,999, and scientific notation otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.ShortFormatters",
           "name": "pf",
           "package": "formatting",
@@ -974,6 +1055,7 @@
         "index": {
           "description": "Render floating point number with the given number of digits of precision Uses decimal notation for values between and and scientific notation otherwise",
           "hierarchy": "Formatting ShortFormatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.ShortFormatters",
           "name": "pf",
           "normalized": "Int-\u003eFormat a",
@@ -989,6 +1071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad the right hand side of a string until it reaches k characters\n wide, if necessary filling with character c.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.ShortFormatters",
           "name": "r",
           "package": "formatting",
@@ -999,6 +1082,7 @@
         "index": {
           "description": "Pad the right hand side of string until it reaches characters wide if necessary filling with character",
           "hierarchy": "Formatting ShortFormatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.ShortFormatters",
           "name": "r",
           "normalized": "Int-\u003eChar-\u003eFormat a",
@@ -1014,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.ShortFormatters",
           "name": "s",
           "package": "formatting",
@@ -1024,6 +1109,7 @@
         "index": {
           "description": "Output string",
           "hierarchy": "Formatting ShortFormatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.ShortFormatters",
           "name": "s",
           "package": "formatting",
@@ -1037,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using the smallest number of\n digits that correctly represent it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.ShortFormatters",
           "name": "sf",
           "package": "formatting",
@@ -1047,6 +1134,7 @@
         "index": {
           "description": "Render floating point number using the smallest number of digits that correctly represent it",
           "hierarchy": "Formatting ShortFormatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.ShortFormatters",
           "name": "sf",
           "package": "formatting",
@@ -1060,6 +1148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a strict text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.ShortFormatters",
           "name": "st",
           "package": "formatting",
@@ -1070,6 +1159,7 @@
         "index": {
           "description": "Output strict text",
           "hierarchy": "Formatting ShortFormatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.ShortFormatters",
           "name": "st",
           "package": "formatting",
@@ -1083,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a lazy text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.ShortFormatters",
           "name": "t",
           "package": "formatting",
@@ -1093,6 +1184,7 @@
         "index": {
           "description": "Output lazy text",
           "hierarchy": "Formatting ShortFormatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.ShortFormatters",
           "name": "t",
           "package": "formatting",
@@ -1106,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an integer using hexadecimal notation. (No leading 0x is\n added.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.ShortFormatters",
           "name": "x",
           "package": "formatting",
@@ -1116,6 +1209,7 @@
         "index": {
           "description": "Render an integer using hexadecimal notation No leading is added",
           "hierarchy": "Formatting ShortFormatters",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.ShortFormatters",
           "name": "x",
           "package": "formatting",
@@ -1129,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormatters for time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "Time",
           "package": "formatting",
@@ -1138,6 +1233,7 @@
         "index": {
           "description": "Formatters for time",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "Time",
           "package": "formatting",
@@ -1152,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCentury (being the first two digits of the year), \u003ccode\u003e00\u003c/code\u003e - \u003ccode\u003e99\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "century",
           "package": "formatting",
@@ -1162,6 +1259,7 @@
         "index": {
           "description": "Century being the first two digits of the year",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "century",
           "package": "formatting",
@@ -1175,6 +1273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e%Y-%m-%d\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "dateDash",
           "package": "formatting",
@@ -1185,6 +1284,7 @@
         "index": {
           "description": "Same as",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "dateDash",
           "package": "formatting",
@@ -1199,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e%m/%d/%y\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "dateSlash",
           "package": "formatting",
@@ -1209,6 +1310,7 @@
         "index": {
           "description": "Same as",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "dateSlash",
           "package": "formatting",
@@ -1223,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003edateFmt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elocale\u003c/code\u003e (e.g. \u003ccode\u003e%m/%d/%y\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "dateSlashL",
           "package": "formatting",
@@ -1233,6 +1336,7 @@
         "index": {
           "description": "As dateFmt locale e.g",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "dateSlashL",
           "package": "formatting",
@@ -1247,6 +1351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003edateTimeFmt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elocale\u003c/code\u003e (e.g. \u003ccode\u003e%a %b %e %H:%M:%S %Z %Y\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "datetime",
           "package": "formatting",
@@ -1257,6 +1362,7 @@
         "index": {
           "description": "As dateTimeFmt locale e.g",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "datetime",
           "package": "formatting",
@@ -1270,6 +1376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of year for Ordinal Date format, \u003ccode\u003e001\u003c/code\u003e - \u003ccode\u003e366\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "day",
           "package": "formatting",
@@ -1280,6 +1387,7 @@
         "index": {
           "description": "Day of year for Ordinal Date format",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "day",
           "package": "formatting",
@@ -1293,6 +1401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay half from (\u003ccode\u003e\u003ca\u003eamPm\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elocale\u003c/code\u003e), converted to lowercase, \u003ccode\u003eam\u003c/code\u003e,\n \u003ccode\u003epm\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "dayHalf",
           "package": "formatting",
@@ -1303,6 +1412,7 @@
         "index": {
           "description": "Day half from amPm locale converted to lowercase am pm",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "dayHalf",
           "package": "formatting",
@@ -1317,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay half from (\u003ccode\u003e\u003ca\u003eamPm\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elocale\u003c/code\u003e), \u003ccode\u003eAM\u003c/code\u003e, \u003ccode\u003ePM\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "dayHalfU",
           "package": "formatting",
@@ -1327,6 +1438,7 @@
         "index": {
           "description": "Day half from amPm locale AM PM",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "dayHalfU",
           "package": "formatting",
@@ -1341,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of week, long form (\u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003ewDays\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elocale\u003c/code\u003e), \u003ccode\u003eSunday\u003c/code\u003e -\n \u003ccode\u003eSaturday\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "dayName",
           "package": "formatting",
@@ -1351,6 +1464,7 @@
         "index": {
           "description": "Day of week long form fst from wDays locale Sunday Saturday",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "dayName",
           "package": "formatting",
@@ -1365,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of week, short form (\u003ccode\u003e\u003ca\u003esnd\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003ewDays\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elocale\u003c/code\u003e), \u003ccode\u003eSun\u003c/code\u003e -\n \u003ccode\u003eSat\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "dayNameShort",
           "package": "formatting",
@@ -1375,6 +1490,7 @@
         "index": {
           "description": "Day of week short form snd from wDays locale Sun Sat",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "dayNameShort",
           "package": "formatting",
@@ -1389,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of month, leading 0 as needed, \u003ccode\u003e01\u003c/code\u003e - \u003ccode\u003e31\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "dayOfMonth",
           "package": "formatting",
@@ -1399,6 +1516,7 @@
         "index": {
           "description": "Day of month leading as needed",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "dayOfMonth",
           "package": "formatting",
@@ -1413,6 +1531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of month, leading space as needed, \u003ccode\u003e 1\u003c/code\u003e - \u003ccode\u003e31\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "dayOfMonthS",
           "package": "formatting",
@@ -1423,6 +1542,7 @@
         "index": {
           "description": "Day of month leading space as needed",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "dayOfMonthS",
           "package": "formatting",
@@ -1437,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay for Week Date format, \u003ccode\u003e1\u003c/code\u003e - \u003ccode\u003e7\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "dayOfWeek",
           "package": "formatting",
@@ -1447,6 +1568,7 @@
         "index": {
           "description": "Day for Week Date format",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "dayOfWeek",
           "package": "formatting",
@@ -1461,6 +1583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of week number, \u003ccode\u003e0\u003c/code\u003e (= Sunday) - \u003ccode\u003e6\u003c/code\u003e (= Saturday).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "dayOfWeekFromZero",
           "package": "formatting",
@@ -1471,6 +1594,7 @@
         "index": {
           "description": "Day of week number Sunday Saturday",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "dayOfWeekFromZero",
           "package": "formatting",
@@ -1485,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal point and up to 12 second decimals, without trailing\n zeros. For a whole number of seconds, this produces the empty\n string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "decimals",
           "package": "formatting",
@@ -1495,6 +1620,7 @@
         "index": {
           "description": "Decimal point and up to second decimals without trailing zeros For whole number of seconds this produces the empty string",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "decimals",
           "package": "formatting",
@@ -1507,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "epoch",
           "package": "formatting",
@@ -1516,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "epoch",
           "package": "formatting",
@@ -1529,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormatter call. Probably don't want to use this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "fmt",
           "package": "formatting",
@@ -1539,6 +1668,7 @@
         "index": {
           "description": "Formatter call Probably don want to use this",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "fmt",
           "normalized": "Text-\u003ea-\u003eText",
@@ -1554,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e%H:%M\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "hm",
           "package": "formatting",
@@ -1564,6 +1695,7 @@
         "index": {
           "description": "Same as",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "hm",
           "package": "formatting",
@@ -1577,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e%H:%M:%S\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "hms",
           "package": "formatting",
@@ -1587,6 +1720,7 @@
         "index": {
           "description": "Same as",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "hms",
           "package": "formatting",
@@ -1600,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003etimeFmt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elocale\u003c/code\u003e (e.g. \u003ccode\u003e%H:%M:%S\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "hmsL",
           "package": "formatting",
@@ -1610,6 +1745,7 @@
         "index": {
           "description": "As timeFmt locale e.g",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "hmsL",
           "package": "formatting",
@@ -1623,6 +1759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003etime12Fmt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elocale\u003c/code\u003e (e.g. \u003ccode\u003e%I:%M:%S %p\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "hmsPL",
           "package": "formatting",
@@ -1633,6 +1770,7 @@
         "index": {
           "description": "As time12Fmt locale e.g",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "hmsPL",
           "package": "formatting",
@@ -1647,6 +1785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHour, 12-hour, leading 0 as needed, \u003ccode\u003e01\u003c/code\u003e - \u003ccode\u003e12\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "hour12",
           "package": "formatting",
@@ -1657,6 +1796,7 @@
         "index": {
           "description": "Hour hour leading as needed",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "hour12",
           "package": "formatting",
@@ -1670,6 +1810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHour, 12-hour, leading space as needed, \u003ccode\u003e 1\u003c/code\u003e - \u003ccode\u003e12\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "hour12S",
           "package": "formatting",
@@ -1680,6 +1821,7 @@
         "index": {
           "description": "Hour hour leading space as needed",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "hour12S",
           "package": "formatting",
@@ -1693,6 +1835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHour, 24-hour, leading 0 as needed, \u003ccode\u003e00\u003c/code\u003e - \u003ccode\u003e23\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "hour24",
           "package": "formatting",
@@ -1703,6 +1846,7 @@
         "index": {
           "description": "Hour hour leading as needed",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "hour24",
           "package": "formatting",
@@ -1716,6 +1860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHour, 24-hour, leading space as needed, \u003ccode\u003e 0\u003c/code\u003e - \u003ccode\u003e23\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "hour24S",
           "package": "formatting",
@@ -1726,6 +1871,7 @@
         "index": {
           "description": "Hour hour leading space as needed",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "hour24S",
           "package": "formatting",
@@ -1739,6 +1885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinute, \u003ccode\u003e00\u003c/code\u003e - \u003ccode\u003e59\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "minute",
           "package": "formatting",
@@ -1749,6 +1896,7 @@
         "index": {
           "description": "Minute",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "minute",
           "package": "formatting",
@@ -1762,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonth of year, leading 0 as needed, \u003ccode\u003e01\u003c/code\u003e - \u003ccode\u003e12\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "month",
           "package": "formatting",
@@ -1772,6 +1921,7 @@
         "index": {
           "description": "Month of year leading as needed",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "month",
           "package": "formatting",
@@ -1785,6 +1935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonth name, long form (\u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003emonths\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elocale\u003c/code\u003e), \u003ccode\u003eJanuary\u003c/code\u003e -\n \u003ccode\u003eDecember\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "monthName",
           "package": "formatting",
@@ -1795,6 +1946,7 @@
         "index": {
           "description": "Month name long form fst from months locale January December",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "monthName",
           "package": "formatting",
@@ -1808,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "monthNameShort",
           "package": "formatting",
@@ -1817,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "monthNameShort",
           "package": "formatting",
@@ -1831,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePicosecond, including trailing zeros, \u003ccode\u003e000000000000\u003c/code\u003e -\n \u003ccode\u003e999999999999\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "pico",
           "package": "formatting",
@@ -1841,6 +1996,7 @@
         "index": {
           "description": "Picosecond including trailing zeros",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "pico",
           "package": "formatting",
@@ -1854,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecond, without decimal part, \u003ccode\u003e00\u003c/code\u003e - \u003ccode\u003e60\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "second",
           "package": "formatting",
@@ -1864,6 +2021,7 @@
         "index": {
           "description": "Second without decimal part",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "second",
           "package": "formatting",
@@ -1877,6 +2035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimezone offset on the format \u003ccode\u003e-HHMM\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "tz",
           "package": "formatting",
@@ -1887,6 +2046,7 @@
         "index": {
           "description": "Timezone offset on the format HHMM",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "tz",
           "package": "formatting",
@@ -1900,6 +2060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimezone name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "tzName",
           "package": "formatting",
@@ -1910,6 +2071,7 @@
         "index": {
           "description": "Timezone name",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "tzName",
           "package": "formatting",
@@ -1924,6 +2086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeek for Week Date format, \u003ccode\u003e01\u003c/code\u003e - \u003ccode\u003e53\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "week",
           "package": "formatting",
@@ -1934,6 +2097,7 @@
         "index": {
           "description": "Week for Week Date format",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "week",
           "package": "formatting",
@@ -1947,6 +2111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCentury (first two digits of year) for Week Date format, \u003ccode\u003e00\u003c/code\u003e -\n \u003ccode\u003e99\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "weekCentury",
           "package": "formatting",
@@ -1957,6 +2122,7 @@
         "index": {
           "description": "Century first two digits of year for Week Date format",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "weekCentury",
           "package": "formatting",
@@ -1971,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeek number of year, where weeks start on Sunday (as\n \u003ccode\u003esundayStartWeek\u003c/code\u003e), \u003ccode\u003e00\u003c/code\u003e - \u003ccode\u003e53\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "weekFromZero",
           "package": "formatting",
@@ -1981,6 +2148,7 @@
         "index": {
           "description": "Week number of year where weeks start on Sunday as sundayStartWeek",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "weekFromZero",
           "package": "formatting",
@@ -1995,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeek number of year, where weeks start on Monday (as\n \u003ccode\u003emondayStartWeek\u003c/code\u003e), \u003ccode\u003e00\u003c/code\u003e - \u003ccode\u003e53\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "weekOfYearMon",
           "package": "formatting",
@@ -2005,6 +2174,7 @@
         "index": {
           "description": "Week number of year where weeks start on Monday as mondayStartWeek",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "weekOfYearMon",
           "package": "formatting",
@@ -2019,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLast two digits of year for Week Date format, \u003ccode\u003e00\u003c/code\u003e - \u003ccode\u003e99\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "weekYY",
           "package": "formatting",
@@ -2029,6 +2200,7 @@
         "index": {
           "description": "Last two digits of year for Week Date format",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "weekYY",
           "package": "formatting",
@@ -2043,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYear for Week Date format e.g. \u003ccode\u003e2013\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "weekYear",
           "package": "formatting",
@@ -2053,6 +2226,7 @@
         "index": {
           "description": "Year for Week Date format e.g",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "weekYear",
           "package": "formatting",
@@ -2067,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "year",
           "package": "formatting",
@@ -2077,6 +2252,7 @@
         "index": {
           "description": "Year",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "year",
           "package": "formatting",
@@ -2090,6 +2266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLast two digits of year, \u003ccode\u003e00\u003c/code\u003e - \u003ccode\u003e99\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting.Time",
           "name": "yy",
           "package": "formatting",
@@ -2100,6 +2277,7 @@
         "index": {
           "description": "Last two digits of year",
           "hierarchy": "Formatting Time",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting.Time",
           "name": "yy",
           "package": "formatting",
@@ -2113,6 +2291,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCombinator-based type-safe formatting (like printf() or FORMAT) for Text.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eformat (\"Person's name is \" % text % \", age is \" % hex) \"Dave\" 54\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cp\u003eSee \u003ca\u003eFormatting.Formatters\u003c/a\u003e for a complete list of formatting combinators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting",
           "name": "Formatting",
           "package": "formatting",
@@ -2122,6 +2301,7 @@
         "index": {
           "description": "Combinator-based type-safe formatting like printf or FORMAT for Text Example format Person name is text age is hex Dave See Formatting.Formatters for complete list of formatting combinators",
           "hierarchy": "Formatting",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting",
           "name": "Formatting",
           "package": "formatting",
@@ -2136,6 +2316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the formatter and return a \u003ca\u003eBuilder\u003c/a\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting",
           "name": "bprint",
           "package": "formatting",
@@ -2146,6 +2327,7 @@
         "index": {
           "description": "Run the formatter and return Builder value",
           "hierarchy": "Formatting",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting",
           "name": "bprint",
           "normalized": "Holey Builder Builder a-\u003ea",
@@ -2161,6 +2343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the formatter and return a \u003ca\u003eText\u003c/a\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting",
           "name": "format",
           "package": "formatting",
@@ -2171,6 +2354,7 @@
         "index": {
           "description": "Run the formatter and return Text value",
           "hierarchy": "Formatting",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting",
           "name": "format",
           "normalized": "Holey Builder Text a-\u003ea",
@@ -2186,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the formatter and print out the text to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting",
           "name": "fprint",
           "package": "formatting",
@@ -2196,6 +2381,7 @@
         "index": {
           "description": "Run the formatter and print out the text to stdout",
           "hierarchy": "Formatting",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting",
           "name": "fprint",
           "normalized": "Holey Builder(IO())a-\u003ea",
@@ -2211,6 +2397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the formatter and put the output onto the given \u003ca\u003eHandle\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:29 UTC 2014",
           "module": "Formatting",
           "name": "hprint",
           "package": "formatting",
@@ -2221,6 +2408,7 @@
         "index": {
           "description": "Run the formatter and put the output onto the given Handle",
           "hierarchy": "Formatting",
+          "indexed": "2014-03-11T18:11:29",
           "module": "Formatting",
           "name": "hprint",
           "normalized": "Handle-\u003eHoley Builder(IO())a-\u003ea",

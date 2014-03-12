@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lin-alg"
+        "phrase": "lin-alg",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "Class",
           "package": "lin-alg",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Class",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "Class",
           "package": "lin-alg",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "Matrix",
           "package": "lin-alg",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Class",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "Matrix",
           "package": "lin-alg",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "(.+.)",
           "package": "lin-alg",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Class",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "(.+.) .+.",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "(.-.)",
           "package": "lin-alg",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Class",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "(.-.) .-.",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "det",
           "package": "lin-alg",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Class",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "det",
           "normalized": "a b-\u003eb",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "mApply",
           "package": "lin-alg",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Class",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "mApply",
           "normalized": "a(b-\u003ec)-\u003eb-\u003ea c",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "mDim",
           "package": "lin-alg",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Class",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "mDim",
           "normalized": "a b-\u003eInt",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "mElement",
           "package": "lin-alg",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Class",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "mElement",
           "normalized": "a b-\u003eInt-\u003eInt-\u003eb",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emFold is foldl1'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "mFold",
           "package": "lin-alg",
@@ -212,6 +229,7 @@
         "index": {
           "description": "mFold is foldl1",
           "hierarchy": "Numeric LinearAlgebra Matrix Class",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "mFold",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "mIndexOf",
           "package": "lin-alg",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Class",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "mIndexOf",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eb a-\u003e(Int,Int)",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "mZip",
           "package": "lin-alg",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Class",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Class",
           "name": "mZip",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "Mat33",
           "package": "lin-alg",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "Mat33",
           "package": "lin-alg",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "Mat33",
           "package": "lin-alg",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "Mat33",
           "package": "lin-alg",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "Mat33",
           "package": "lin-alg",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "Mat33",
           "package": "lin-alg",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "det33",
           "package": "lin-alg",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "det33",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m00",
           "package": "lin-alg",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m00",
           "package": "lin-alg",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m01",
           "package": "lin-alg",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m01",
           "package": "lin-alg",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m02",
           "package": "lin-alg",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m02",
           "package": "lin-alg",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m10",
           "package": "lin-alg",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m10",
           "package": "lin-alg",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m11",
           "package": "lin-alg",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m11",
           "package": "lin-alg",
@@ -467,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m12",
           "package": "lin-alg",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m12",
           "package": "lin-alg",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m20",
           "package": "lin-alg",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m20",
           "package": "lin-alg",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m21",
           "package": "lin-alg",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m21",
           "package": "lin-alg",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m22",
           "package": "lin-alg",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat33",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat33",
           "name": "m22",
           "package": "lin-alg",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "Mat44",
           "package": "lin-alg",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "Mat44",
           "package": "lin-alg",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "Mat44",
           "package": "lin-alg",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "Mat44",
           "package": "lin-alg",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "Mat44",
           "package": "lin-alg",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "Mat44",
           "package": "lin-alg",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "det44",
           "package": "lin-alg",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "det44",
           "normalized": "Mat a-\u003ea",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "inv44",
           "package": "lin-alg",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "inv44",
           "normalized": "Mat a-\u003eMat a",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m00",
           "package": "lin-alg",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m00",
           "package": "lin-alg",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m01",
           "package": "lin-alg",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m01",
           "package": "lin-alg",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m02",
           "package": "lin-alg",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m02",
           "package": "lin-alg",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m03",
           "package": "lin-alg",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m03",
           "package": "lin-alg",
@@ -745,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m10",
           "package": "lin-alg",
@@ -754,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m10",
           "package": "lin-alg",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m11",
           "package": "lin-alg",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m11",
           "package": "lin-alg",
@@ -787,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m12",
           "package": "lin-alg",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m12",
           "package": "lin-alg",
@@ -808,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m13",
           "package": "lin-alg",
@@ -817,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m13",
           "package": "lin-alg",
@@ -829,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m20",
           "package": "lin-alg",
@@ -838,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m20",
           "package": "lin-alg",
@@ -850,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m21",
           "package": "lin-alg",
@@ -859,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m21",
           "package": "lin-alg",
@@ -871,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m22",
           "package": "lin-alg",
@@ -880,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m22",
           "package": "lin-alg",
@@ -892,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m23",
           "package": "lin-alg",
@@ -901,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m23",
           "package": "lin-alg",
@@ -913,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m30",
           "package": "lin-alg",
@@ -922,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m30",
           "package": "lin-alg",
@@ -934,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m31",
           "package": "lin-alg",
@@ -943,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m31",
           "package": "lin-alg",
@@ -955,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m32",
           "package": "lin-alg",
@@ -964,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m32",
           "package": "lin-alg",
@@ -976,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m33",
           "package": "lin-alg",
@@ -985,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix Mat44",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix.Mat44",
           "name": "m33",
           "package": "lin-alg",
@@ -997,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix",
           "name": "Matrix",
           "package": "lin-alg",
@@ -1005,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix",
           "name": "Matrix",
           "package": "lin-alg",
@@ -1018,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix",
           "name": "Mat33",
           "package": "lin-alg",
@@ -1026,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix",
           "name": "Mat33",
           "package": "lin-alg",
@@ -1039,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Matrix",
           "name": "Mat44",
           "package": "lin-alg",
@@ -1047,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Matrix",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Matrix",
           "name": "Mat44",
           "package": "lin-alg",
@@ -1060,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "OrthoNormalBasis",
           "package": "lin-alg",
@@ -1068,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "OrthoNormalBasis",
           "package": "lin-alg",
@@ -1081,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "ONB",
           "package": "lin-alg",
@@ -1089,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "ONB",
           "package": "lin-alg",
@@ -1102,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "ONB",
           "package": "lin-alg",
@@ -1111,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "ONB",
           "package": "lin-alg",
@@ -1124,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "epsilon",
           "package": "lin-alg",
@@ -1133,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "epsilon",
           "package": "lin-alg",
@@ -1145,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromU",
           "package": "lin-alg",
@@ -1154,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromU",
           "normalized": "Vec a-\u003eONB a",
@@ -1169,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromUV",
           "package": "lin-alg",
@@ -1178,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromUV",
           "normalized": "Vec a-\u003eVec a-\u003eONB a",
@@ -1193,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromUW",
           "package": "lin-alg",
@@ -1202,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromUW",
           "normalized": "Vec a-\u003eVec a-\u003eONB a",
@@ -1217,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromV",
           "package": "lin-alg",
@@ -1226,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromV",
           "normalized": "Vec a-\u003eONB a",
@@ -1241,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromVU",
           "package": "lin-alg",
@@ -1250,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromVU",
           "normalized": "Vec a-\u003eVec a-\u003eONB a",
@@ -1265,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromVW",
           "package": "lin-alg",
@@ -1274,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromVW",
           "normalized": "Vec a-\u003eVec a-\u003eONB a",
@@ -1289,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromW",
           "package": "lin-alg",
@@ -1298,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromW",
           "normalized": "Vec a-\u003eONB a",
@@ -1313,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromWU",
           "package": "lin-alg",
@@ -1322,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromWU",
           "normalized": "Vec a-\u003eVec a-\u003eONB a",
@@ -1337,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromWV",
           "package": "lin-alg",
@@ -1346,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "mkFromWV",
           "normalized": "Vec a-\u003eVec a-\u003eONB a",
@@ -1361,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "onbU",
           "package": "lin-alg",
@@ -1370,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "onbU",
           "package": "lin-alg",
@@ -1382,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "onbV",
           "package": "lin-alg",
@@ -1391,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "onbV",
           "package": "lin-alg",
@@ -1403,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "onbW",
           "package": "lin-alg",
@@ -1412,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra OrthoNormalBasis",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.OrthoNormalBasis",
           "name": "onbW",
           "package": "lin-alg",
@@ -1424,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vector",
           "package": "lin-alg",
@@ -1432,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vector",
           "package": "lin-alg",
@@ -1445,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vec2",
           "package": "lin-alg",
@@ -1453,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vec2",
           "package": "lin-alg",
@@ -1466,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vec3",
           "package": "lin-alg",
@@ -1474,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vec3",
           "package": "lin-alg",
@@ -1487,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vec4",
           "package": "lin-alg",
@@ -1495,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vec4",
           "package": "lin-alg",
@@ -1508,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vector",
           "package": "lin-alg",
@@ -1516,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vector",
           "package": "lin-alg",
@@ -1529,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(*\u003e)",
           "package": "lin-alg",
@@ -1538,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(*\u003e) *\u003e",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -1553,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross product\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c%\u003e)",
           "package": "lin-alg",
@@ -1563,6 +1704,7 @@
         "index": {
           "description": "Cross product",
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c%\u003e) \u003c%\u003e",
           "normalized": "Vec a-\u003eVec a-\u003eVec a",
@@ -1577,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c*\u003e)",
           "package": "lin-alg",
@@ -1586,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1600,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c+\u003e)",
           "package": "lin-alg",
@@ -1609,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1623,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c-\u003e)",
           "package": "lin-alg",
@@ -1632,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1646,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c/)",
           "package": "lin-alg",
@@ -1655,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c/) \u003c/",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -1669,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c/\u003e)",
           "package": "lin-alg",
@@ -1678,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1692,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c.\u003e)",
           "package": "lin-alg",
@@ -1701,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "a b-\u003ea b-\u003eb",
@@ -1715,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vec2",
           "package": "lin-alg",
@@ -1724,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vec2",
           "package": "lin-alg",
@@ -1737,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vec3",
           "package": "lin-alg",
@@ -1746,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vec3",
           "package": "lin-alg",
@@ -1759,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vec4",
           "package": "lin-alg",
@@ -1768,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "Vec4",
           "package": "lin-alg",
@@ -1781,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "len",
           "package": "lin-alg",
@@ -1790,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "len",
           "normalized": "a b-\u003eb",
@@ -1804,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "lenSquared",
           "package": "lin-alg",
@@ -1813,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "lenSquared",
           "normalized": "a b-\u003eb",
@@ -1828,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "maxAbsComponent",
           "package": "lin-alg",
@@ -1837,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "maxAbsComponent",
           "normalized": "a b-\u003eb",
@@ -1852,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "maxComponent",
           "package": "lin-alg",
@@ -1861,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "maxComponent",
           "normalized": "a b-\u003eb",
@@ -1876,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "maxVec",
           "package": "lin-alg",
@@ -1885,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "maxVec",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1900,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "minAbsComponent",
           "package": "lin-alg",
@@ -1909,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "minAbsComponent",
           "normalized": "a b-\u003eb",
@@ -1924,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "minComponent",
           "package": "lin-alg",
@@ -1933,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "minComponent",
           "normalized": "a b-\u003eb",
@@ -1948,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "minVec",
           "package": "lin-alg",
@@ -1957,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "minVec",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1972,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "tripleProduct",
           "package": "lin-alg",
@@ -1981,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "tripleProduct",
           "normalized": "Vec a-\u003eVec a-\u003eVec a-\u003ea",
@@ -1996,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "unitVector",
           "package": "lin-alg",
@@ -2005,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "unitVector",
           "normalized": "a b-\u003ea b",
@@ -2020,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vDim",
           "package": "lin-alg",
@@ -2029,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vDim",
           "normalized": "a b-\u003eInt",
@@ -2044,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vElement",
           "package": "lin-alg",
@@ -2053,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vElement",
           "normalized": "a b-\u003eInt-\u003eb",
@@ -2069,6 +2253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evFold is foldl1'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vFold",
           "package": "lin-alg",
@@ -2079,6 +2264,7 @@
         "index": {
           "description": "vFold is foldl1",
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vFold",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -2094,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vIndexOf",
           "package": "lin-alg",
@@ -2103,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vIndexOf",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eb a-\u003eInt",
@@ -2118,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vIndexOfMaxAbsComponent",
           "package": "lin-alg",
@@ -2127,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vIndexOfMaxAbsComponent",
           "normalized": "a b-\u003eInt",
@@ -2142,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vIndexOfMaxComponent",
           "package": "lin-alg",
@@ -2151,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vIndexOfMaxComponent",
           "normalized": "a b-\u003eInt",
@@ -2166,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vIndexOfMinAbsComponent",
           "package": "lin-alg",
@@ -2175,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vIndexOfMinAbsComponent",
           "normalized": "a b-\u003eInt",
@@ -2190,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vIndexOfMinComponent",
           "package": "lin-alg",
@@ -2199,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vIndexOfMinComponent",
           "normalized": "a b-\u003eInt",
@@ -2214,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vNegate",
           "package": "lin-alg",
@@ -2223,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vNegate",
           "normalized": "a b-\u003ea b",
@@ -2238,6 +2436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:43 UTC 2014",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vZip",
           "package": "lin-alg",
@@ -2247,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Vector",
+          "indexed": "2014-03-11T19:09:43",
           "module": "Numeric.LinearAlgebra.Vector",
           "name": "vZip",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",

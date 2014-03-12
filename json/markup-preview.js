@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "markup-preview"
+        "phrase": "markup-preview",
+        "type": "phrase"
       },
       "type": "context"
     }

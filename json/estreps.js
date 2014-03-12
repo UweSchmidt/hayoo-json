@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "estreps"
+        "phrase": "estreps",
+        "type": "phrase"
       },
       "type": "context"
     }

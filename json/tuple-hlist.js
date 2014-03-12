@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tuple-hlist"
+        "phrase": "tuple-hlist",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains overloaded functions for creating an HList from a tuple or\na tuple from an HList.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:03 UTC 2014",
           "module": "Data.Tuple.HList",
           "name": "HList",
           "package": "tuple-hlist",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains overloaded functions for creating an HList from tuple or tuple from an HList",
           "hierarchy": "Data Tuple HList",
+          "indexed": "2014-03-11T20:26:03",
           "module": "Data.Tuple.HList",
           "name": "HList",
           "package": "tuple-hlist",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:03 UTC 2014",
           "module": "Data.Tuple.HList",
           "name": "HLst",
           "package": "tuple-hlist",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple HList",
+          "indexed": "2014-03-11T20:26:03",
           "module": "Data.Tuple.HList",
           "name": "HLst",
           "package": "tuple-hlist",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a tuple from an HList.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:03 UTC 2014",
           "module": "Data.Tuple.HList",
           "name": "fromHList",
           "package": "tuple-hlist",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Creates tuple from an HList",
           "hierarchy": "Data Tuple HList",
+          "indexed": "2014-03-11T20:26:03",
           "module": "Data.Tuple.HList",
           "name": "fromHList",
           "normalized": "a-\u003eb",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an HList from a tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:03 UTC 2014",
           "module": "Data.Tuple.HList",
           "name": "toHList",
           "package": "tuple-hlist",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Creates an HList from tuple",
           "hierarchy": "Data Tuple HList",
+          "indexed": "2014-03-11T20:26:03",
           "module": "Data.Tuple.HList",
           "name": "toHList",
           "normalized": "a-\u003eb",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Wired"
+        "phrase": "Wired",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "Library",
           "package": "Wired",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "Library",
           "package": "Wired",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "LayerProps",
           "package": "Wired",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "LayerProps",
           "package": "Wired",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "Slope",
           "package": "Wired",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "Slope",
           "package": "Wired",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "Timing",
           "package": "Wired",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "Timing",
           "package": "Wired",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "TimingLibrary",
           "package": "Wired",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "TimingLibrary",
           "package": "Wired",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "WireTimingLibrary",
           "package": "Wired",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "WireTimingLibrary",
           "package": "Wired",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "Falling",
           "package": "Wired",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "Falling",
           "package": "Wired",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "LayerProps",
           "package": "Wired",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "LayerProps",
           "package": "Wired",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "Rising",
           "package": "Wired",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "Rising",
           "package": "Wired",
@@ -256,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "capPerArea",
           "package": "Wired",
@@ -265,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "capPerArea",
           "package": "Wired",
@@ -278,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "delay",
           "package": "Wired",
@@ -287,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "delay",
           "normalized": "a-\u003eInPin-\u003eOutPin-\u003eSlope-\u003eCapacitance-\u003eTiming-\u003eTiming",
@@ -301,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "edgeCap",
           "package": "Wired",
@@ -310,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "edgeCap",
           "package": "Wired",
@@ -323,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "layerProps",
           "package": "Wired",
@@ -332,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "layerProps",
           "normalized": "Layer_-\u003eRes a LayerProps",
@@ -347,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "layerWidth",
           "package": "Wired",
@@ -356,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "layerWidth",
           "package": "Wired",
@@ -369,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "linearDelay",
           "package": "Wired",
@@ -378,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "linearDelay",
           "normalized": "Delay-\u003eDouble-\u003eDouble-\u003eResistance-\u003eResistance-\u003eCapacitance-\u003eTiming-\u003eTiming",
@@ -393,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "loadCaps",
           "package": "Wired",
@@ -402,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "loadCaps",
           "normalized": "a-\u003e[Capacitance]",
@@ -417,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "maximumByArrival",
           "package": "Wired",
@@ -426,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "maximumByArrival",
           "normalized": "[Timing]-\u003eTiming",
@@ -441,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "mkTimingTable",
           "package": "Wired",
@@ -450,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "mkTimingTable",
           "normalized": "CInt-\u003eCInt-\u003e(CInt-\u003eCDouble)-\u003e(CInt-\u003eCDouble)-\u003e(CInt-\u003eCInt-\u003eCDouble)-\u003eTable D CInt a b c",
@@ -465,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "tableDelay",
           "package": "Wired",
@@ -474,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "tableDelay",
           "normalized": "Table D CInt TransitionTime Capacitance Time-\u003eTable D CInt TransitionTime Capacitance TransitionTime-\u003eCapacitance-\u003eTiming-\u003eTiming",
@@ -512,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing.Library",
           "name": "wireCap",
           "package": "Wired",
@@ -521,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing Library",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing.Library",
           "name": "wireCap",
           "normalized": "Layer_-\u003eLength-\u003eRes a Capacitance",
@@ -536,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing",
           "name": "Timing",
           "package": "Wired",
@@ -544,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing",
           "name": "Timing",
           "package": "Wired",
@@ -557,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing",
           "name": "Timing",
           "package": "Wired",
@@ -565,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing",
           "name": "Timing",
           "package": "Wired",
@@ -578,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing",
           "name": "TimingLibrary",
           "package": "Wired",
@@ -586,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing",
           "name": "TimingLibrary",
           "package": "Wired",
@@ -599,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing",
           "name": "TransitionTime",
           "package": "Wired",
@@ -607,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing",
           "name": "TransitionTime",
           "package": "Wired",
@@ -620,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing",
           "name": "analyzeTiming",
           "package": "Wired",
@@ -629,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing",
           "name": "analyzeTiming",
           "normalized": "a b-\u003e(c,InterpDesignDB d(Timing,Capacitance))",
@@ -644,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Analysis.Timing",
           "name": "analyzeTimingW",
           "package": "Wired",
@@ -653,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Analysis Timing",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Analysis.Timing",
           "name": "analyzeTimingW",
           "normalized": "Wired a b-\u003e(c,InterpDesignDB a(Timing,Capacitance))",
@@ -669,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines types of a general nature that are used by the \u003ca\u003eLava\u003c/a\u003e,\n \u003ca\u003eLayout\u003c/a\u003e and \u003ca\u003eWired\u003c/a\u003e libraries. It also defines operations on those types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Internal",
           "package": "Wired",
@@ -678,6 +731,7 @@
         "index": {
           "description": "This module defines types of general nature that are used by the Lava Layout and Wired libraries It also defines operations on those types",
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Internal",
           "package": "Wired",
@@ -691,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Angle",
           "package": "Wired",
@@ -699,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Angle",
           "package": "Wired",
@@ -712,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Capacitance",
           "package": "Wired",
@@ -720,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Capacitance",
           "package": "Wired",
@@ -733,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "CellId",
           "package": "Wired",
@@ -741,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "CellId",
           "package": "Wired",
@@ -754,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Delay",
           "package": "Wired",
@@ -762,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Delay",
           "package": "Wired",
@@ -775,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Direction",
           "package": "Wired",
@@ -783,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Direction",
           "package": "Wired",
@@ -796,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "DoubleCast",
           "package": "Wired",
@@ -804,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "DoubleCast",
           "package": "Wired",
@@ -817,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Height",
           "package": "Wired",
@@ -825,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Height",
           "package": "Wired",
@@ -838,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "InPin",
           "package": "Wired",
@@ -846,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "InPin",
           "package": "Wired",
@@ -859,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "IntCast",
           "package": "Wired",
@@ -867,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "IntCast",
           "package": "Wired",
@@ -880,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "IsTime",
           "package": "Wired",
@@ -888,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "IsTime",
           "package": "Wired",
@@ -901,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Layer",
           "package": "Wired",
@@ -909,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Layer",
           "package": "Wired",
@@ -922,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Layer_",
           "package": "Wired",
@@ -930,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Layer_",
           "package": "Wired",
@@ -943,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Length",
           "package": "Wired",
@@ -951,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Length",
           "package": "Wired",
@@ -964,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Multiply",
           "package": "Wired",
@@ -972,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Multiply",
           "package": "Wired",
@@ -985,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Name",
           "package": "Wired",
@@ -993,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Name",
           "package": "Wired",
@@ -1006,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Orientation",
           "package": "Wired",
@@ -1014,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Orientation",
           "package": "Wired",
@@ -1027,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "OutPin",
           "package": "Wired",
@@ -1035,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "OutPin",
           "package": "Wired",
@@ -1048,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Position",
           "package": "Wired",
@@ -1056,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Position",
           "package": "Wired",
@@ -1069,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "PrimInpId",
           "package": "Wired",
@@ -1077,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "PrimInpId",
           "package": "Wired",
@@ -1091,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe phantom parameter \u003ccode\u003et\u003c/code\u003e can be used to pass a type constraint to an\n overloaded function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Res",
           "package": "Wired",
@@ -1100,6 +1193,7 @@
         "index": {
           "description": "The phantom parameter can be used to pass type constraint to an overloaded function",
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Res",
           "package": "Wired",
@@ -1113,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Resistance",
           "package": "Wired",
@@ -1121,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Resistance",
           "package": "Wired",
@@ -1134,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Size",
           "package": "Wired",
@@ -1142,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Size",
           "package": "Wired",
@@ -1155,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Table2D",
           "package": "Wired",
@@ -1163,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Table2D",
           "package": "Wired",
@@ -1176,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Tag",
           "package": "Wired",
@@ -1184,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Tag",
           "package": "Wired",
@@ -1197,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Time",
           "package": "Wired",
@@ -1205,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Time",
           "package": "Wired",
@@ -1218,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "TransitionTime",
           "package": "Wired",
@@ -1226,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "TransitionTime",
           "package": "Wired",
@@ -1239,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Value",
           "package": "Wired",
@@ -1247,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Value",
           "package": "Wired",
@@ -1260,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Width",
           "package": "Wired",
@@ -1268,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Width",
           "package": "Wired",
@@ -1281,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "XPos",
           "package": "Wired",
@@ -1289,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "XPos",
           "package": "Wired",
@@ -1302,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "YPos",
           "package": "Wired",
@@ -1310,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "YPos",
           "package": "Wired",
@@ -1323,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "(\u003e\u003c)",
           "package": "Wired",
@@ -1332,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "a-\u003ea-\u003ea",
@@ -1346,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "(.+)",
           "package": "Wired",
@@ -1355,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "(.+) .+",
           "normalized": "ShowS-\u003eShowS-\u003eShowS",
@@ -1369,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Cap",
           "package": "Wired",
@@ -1378,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Cap",
           "package": "Wired",
@@ -1391,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "CellId",
           "package": "Wired",
@@ -1400,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "CellId",
           "package": "Wired",
@@ -1413,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Downwards",
           "package": "Wired",
@@ -1422,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Downwards",
           "package": "Wired",
@@ -1435,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Horizontal",
           "package": "Wired",
@@ -1444,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Horizontal",
           "package": "Wired",
@@ -1457,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "InPin",
           "package": "Wired",
@@ -1466,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "InPin",
           "package": "Wired",
@@ -1479,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Layer",
           "package": "Wired",
@@ -1488,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Layer",
           "package": "Wired",
@@ -1501,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Leftwards",
           "package": "Wired",
@@ -1510,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Leftwards",
           "package": "Wired",
@@ -1546,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "OutPin",
           "package": "Wired",
@@ -1555,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "OutPin",
           "package": "Wired",
@@ -1568,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "PrimInpId",
           "package": "Wired",
@@ -1577,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "PrimInpId",
           "package": "Wired",
@@ -1612,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Res",
           "package": "Wired",
@@ -1621,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Res",
           "package": "Wired",
@@ -1634,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Rightwards",
           "package": "Wired",
@@ -1643,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Rightwards",
           "package": "Wired",
@@ -1656,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Table2D",
           "package": "Wired",
@@ -1665,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Table2D",
           "package": "Wired",
@@ -1678,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Time",
           "package": "Wired",
@@ -1687,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Time",
           "package": "Wired",
@@ -1700,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "TransitionTime",
           "package": "Wired",
@@ -1709,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "TransitionTime",
           "package": "Wired",
@@ -1722,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Upwards",
           "package": "Wired",
@@ -1731,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Upwards",
           "package": "Wired",
@@ -1744,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "Vertical",
           "package": "Wired",
@@ -1753,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "Vertical",
           "package": "Wired",
@@ -1791,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "bilinInterpolate",
           "package": "Wired",
@@ -1800,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "bilinInterpolate",
           "normalized": "Table D a b c d-\u003eb-\u003ec-\u003ed",
@@ -1815,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "bilinInterpolate1",
           "package": "Wired",
@@ -1824,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "bilinInterpolate1",
           "normalized": "(a,b)-\u003e(a,b)-\u003e(c,c,c,c)-\u003ea-\u003eb-\u003ec",
@@ -1839,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "dcast",
           "package": "Wired",
@@ -1848,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "dcast",
           "normalized": "a-\u003eb",
@@ -1862,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "directionAngle",
           "package": "Wired",
@@ -1871,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "directionAngle",
           "normalized": "Direction-\u003eAngle",
@@ -1911,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "euclidDistance",
           "package": "Wired",
@@ -1920,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "euclidDistance",
           "normalized": "(Position,Position)-\u003eDouble",
@@ -1935,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "euclidSpanning",
           "package": "Wired",
@@ -1944,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "euclidSpanning",
           "normalized": "[Position]-\u003e[(Position,Position)]",
@@ -1959,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "findPoints",
           "package": "Wired",
@@ -1968,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "findPoints",
           "normalized": "Table D a b c d-\u003eb-\u003ec-\u003e((b,c),(b,c),(d,d,d,d))",
@@ -1983,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "fromDouble",
           "package": "Wired",
@@ -1992,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "fromDouble",
           "normalized": "Double-\u003ea",
@@ -2007,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "fromInt",
           "package": "Wired",
@@ -2016,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "fromInt",
           "normalized": "Int-\u003ea",
@@ -2031,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "icast",
           "package": "Wired",
@@ -2040,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "icast",
           "normalized": "a-\u003eb",
@@ -2104,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "nearestPoints",
           "package": "Wired",
@@ -2113,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "nearestPoints",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb-\u003e((a,b),(a,b))",
@@ -2128,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "north",
           "package": "Wired",
@@ -2137,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "north",
           "package": "Wired",
@@ -2149,6 +2323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "rectiDistance",
           "package": "Wired",
@@ -2158,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "rectiDistance",
           "normalized": "(Position,Position)-\u003eDouble",
@@ -2173,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "rectiSpanning",
           "package": "Wired",
@@ -2182,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "rectiSpanning",
           "normalized": "[Position]-\u003e[(Position,Position)]",
@@ -2220,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the minimal spanning tree based on the given distance function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "spanning",
           "package": "Wired",
@@ -2230,6 +2409,7 @@
         "index": {
           "description": "Computes the minimal spanning tree based on the given distance function",
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "spanning",
           "normalized": "((Position,Position)-\u003eDouble)-\u003e[Position]-\u003e[(Position,Position)]",
@@ -2269,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "tableAxisX",
           "package": "Wired",
@@ -2278,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "tableAxisX",
           "normalized": "a-\u003eb",
@@ -2293,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "tableAxisY",
           "package": "Wired",
@@ -2302,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "tableAxisY",
           "normalized": "a-\u003eb",
@@ -2317,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "tableLengthX",
           "package": "Wired",
@@ -2326,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "tableLengthX",
           "package": "Wired",
@@ -2339,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "tableLengthY",
           "package": "Wired",
@@ -2348,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "tableLengthY",
           "package": "Wired",
@@ -2361,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "tableValues",
           "package": "Wired",
@@ -2370,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "tableValues",
           "normalized": "a-\u003ea-\u003eb",
@@ -2385,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "timeCast",
           "package": "Wired",
@@ -2394,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "timeCast",
           "normalized": "a-\u003ea",
@@ -2409,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "toDouble",
           "package": "Wired",
@@ -2418,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "toDouble",
           "normalized": "a-\u003eDouble",
@@ -2433,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "toInt",
           "package": "Wired",
@@ -2442,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "toInt",
           "normalized": "a-\u003eInt",
@@ -2458,6 +2654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lookup function that is defined for all keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "totalLookup",
           "package": "Wired",
@@ -2468,6 +2665,7 @@
         "index": {
           "description": "lookup function that is defined for all keys",
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "totalLookup",
           "normalized": "a-\u003eMap a[b]-\u003e[b]",
@@ -2506,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "unlineS",
           "package": "Wired",
@@ -2515,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "unlineS",
           "normalized": "[ShowS]-\u003eShowS",
@@ -2529,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "unwordS",
           "package": "Wired",
@@ -2538,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "unwordS",
           "normalized": "[ShowS]-\u003eShowS",
@@ -2552,6 +2754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware.Internal",
           "name": "value",
           "package": "Wired",
@@ -2561,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware.Internal",
           "name": "value",
           "normalized": "a-\u003eRational",
@@ -2576,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports the types that users of \u003ca\u003eLava\u003c/a\u003e, \u003ca\u003eLayout\u003c/a\u003e and \u003ca\u003eWired\u003c/a\u003e\n (not the internal modules) will need.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware",
           "name": "Hardware",
           "package": "Wired",
@@ -2585,6 +2790,7 @@
         "index": {
           "description": "This module exports the types that users of Lava Layout and Wired not the internal modules will need",
           "hierarchy": "Data Hardware",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware",
           "name": "Hardware",
           "package": "Wired",
@@ -2598,6 +2804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware",
           "name": "Delay",
           "package": "Wired",
@@ -2606,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware",
           "name": "Delay",
           "package": "Wired",
@@ -2619,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware",
           "name": "Height",
           "package": "Wired",
@@ -2627,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware",
           "name": "Height",
           "package": "Wired",
@@ -2640,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware",
           "name": "Layer",
           "package": "Wired",
@@ -2648,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware",
           "name": "Layer",
           "package": "Wired",
@@ -2661,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware",
           "name": "Length",
           "package": "Wired",
@@ -2669,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware",
           "name": "Length",
           "package": "Wired",
@@ -2682,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware",
           "name": "Name",
           "package": "Wired",
@@ -2690,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware",
           "name": "Name",
           "package": "Wired",
@@ -2704,6 +2920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe phantom parameter \u003ccode\u003et\u003c/code\u003e can be used to pass a type constraint to an\n overloaded function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware",
           "name": "Res",
           "package": "Wired",
@@ -2713,6 +2930,7 @@
         "index": {
           "description": "The phantom parameter can be used to pass type constraint to an overloaded function",
           "hierarchy": "Data Hardware",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware",
           "name": "Res",
           "package": "Wired",
@@ -2726,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware",
           "name": "Tag",
           "package": "Wired",
@@ -2734,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware",
           "name": "Tag",
           "package": "Wired",
@@ -2747,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware",
           "name": "Time",
           "package": "Wired",
@@ -2755,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware",
           "name": "Time",
           "package": "Wired",
@@ -2768,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware",
           "name": "Width",
           "package": "Wired",
@@ -2776,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware",
           "name": "Width",
           "package": "Wired",
@@ -2789,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware",
           "name": "XPos",
           "package": "Wired",
@@ -2797,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware",
           "name": "XPos",
           "package": "Wired",
@@ -2810,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Hardware",
           "name": "YPos",
           "package": "Wired",
@@ -2818,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Data Hardware",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Hardware",
           "name": "YPos",
           "package": "Wired",
@@ -2831,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Knot",
           "name": "Knot",
           "package": "Wired",
@@ -2839,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Knot",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Knot",
           "name": "Knot",
           "package": "Wired",
@@ -2852,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Knot",
           "name": "Knot",
           "package": "Wired",
@@ -2860,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Knot",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Knot",
           "name": "Knot",
           "package": "Wired",
@@ -2873,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Knot",
           "name": "KnotT",
           "package": "Wired",
@@ -2881,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Knot",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Knot",
           "name": "KnotT",
           "package": "Wired",
@@ -2894,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Knot",
           "name": "MonadKnot",
           "package": "Wired",
@@ -2902,6 +3137,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Knot",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Knot",
           "name": "MonadKnot",
           "package": "Wired",
@@ -2915,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Knot",
           "name": "(*=)",
           "package": "Wired",
@@ -2924,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Knot",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Knot",
           "name": "(*=) *=",
           "normalized": "a-\u003eb-\u003ec()",
@@ -2938,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Knot",
           "name": "accKnot",
           "package": "Wired",
@@ -2947,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Knot",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Knot",
           "name": "accKnot",
           "normalized": "(a-\u003ea-\u003ea)-\u003eKnot b a c-\u003e(c,Map b a)",
@@ -2962,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Knot",
           "name": "accKnotT",
           "package": "Wired",
@@ -2971,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Knot",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Knot",
           "name": "accKnotT",
           "normalized": "(a-\u003ea-\u003ea)-\u003eKnotT b a c d-\u003ec(d,Map b a)",
@@ -2986,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Knot",
           "name": "askKnot",
           "package": "Wired",
@@ -2995,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Knot",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Knot",
           "name": "askKnot",
           "normalized": "a-\u003eb c",
@@ -3010,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Knot",
           "name": "askKnotDef",
           "package": "Wired",
@@ -3019,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Knot",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Knot",
           "name": "askKnotDef",
           "normalized": "a-\u003eb-\u003ec a",
@@ -3034,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Knot",
           "name": "tieKnot",
           "package": "Wired",
@@ -3043,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Knot",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Knot",
           "name": "tieKnot",
           "normalized": "Knot a b c-\u003e(c,Map a b)",
@@ -3058,6 +3306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Knot",
           "name": "tieKnotT",
           "package": "Wired",
@@ -3067,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Knot",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Knot",
           "name": "tieKnotT",
           "normalized": "KnotT a b c d-\u003ec(d,Map a b)",
@@ -3082,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Let",
           "name": "Let",
           "package": "Wired",
@@ -3090,6 +3341,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Let",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Let",
           "name": "Let",
           "package": "Wired",
@@ -3103,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Let",
           "name": "Let",
           "package": "Wired",
@@ -3111,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Let",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Let",
           "name": "Let",
           "package": "Wired",
@@ -3124,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Let",
           "name": "LetT",
           "package": "Wired",
@@ -3132,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Let",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Let",
           "name": "LetT",
           "package": "Wired",
@@ -3145,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Let",
           "name": "MonadLet",
           "package": "Wired",
@@ -3153,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Let",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Let",
           "name": "MonadLet",
           "package": "Wired",
@@ -3166,6 +3424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Let",
           "name": "Var",
           "package": "Wired",
@@ -3174,6 +3433,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Let",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Let",
           "name": "Var",
           "package": "Wired",
@@ -3187,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Let",
           "name": "(===)",
           "package": "Wired",
@@ -3196,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Let",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Let",
           "name": "(===) ===",
           "normalized": "Var a-\u003ea-\u003eb()",
@@ -3210,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Let",
           "name": "free",
           "package": "Wired",
@@ -3219,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Let",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Let",
           "name": "free",
           "package": "Wired",
@@ -3231,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Let",
           "name": "runLet",
           "package": "Wired",
@@ -3240,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Let",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Let",
           "name": "runLet",
           "normalized": "Let a b-\u003eb",
@@ -3255,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Let",
           "name": "runLetT",
           "package": "Wired",
@@ -3264,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Let",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Let",
           "name": "runLetT",
           "normalized": "LetT a b c-\u003eb c",
@@ -3279,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Data.Logical.Let",
           "name": "val",
           "package": "Wired",
@@ -3288,6 +3557,7 @@
         },
         "index": {
           "hierarchy": "Data Logical Let",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Data.Logical.Let",
           "name": "val",
           "normalized": "Var a-\u003ea",
@@ -3302,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Export.DEF",
           "name": "DEF",
           "package": "Wired",
@@ -3310,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "Export DEF",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Export.DEF",
           "name": "DEF",
           "package": "Wired",
@@ -3323,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Export.DEF",
           "name": "exportDEF",
           "package": "Wired",
@@ -3332,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Export DEF",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Export.DEF",
           "name": "exportDEF",
           "normalized": "Name-\u003eWired a b-\u003eIO()",
@@ -3347,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "Internal",
           "package": "Wired",
@@ -3355,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "Internal",
           "package": "Wired",
@@ -3368,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "CellLibrary",
           "package": "Wired",
@@ -3376,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "CellLibrary",
           "package": "Wired",
@@ -3389,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "Declaration",
           "package": "Wired",
@@ -3397,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "Declaration",
           "package": "Wired",
@@ -3410,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "DesignDB",
           "package": "Wired",
@@ -3418,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "DesignDB",
           "package": "Wired",
@@ -3431,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "InterpDesignDB",
           "package": "Wired",
@@ -3439,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "InterpDesignDB",
           "package": "Wired",
@@ -3452,6 +3736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "Interpretation",
           "package": "Wired",
@@ -3460,6 +3745,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "Interpretation",
           "package": "Wired",
@@ -3473,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "Lava",
           "package": "Wired",
@@ -3481,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "Lava",
           "package": "Wired",
@@ -3494,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "MonadLava",
           "package": "Wired",
@@ -3502,6 +3791,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "MonadLava",
           "package": "Wired",
@@ -3515,6 +3805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "Port",
           "package": "Wired",
@@ -3523,6 +3814,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "Port",
           "package": "Wired",
@@ -3536,6 +3828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "PortFixed",
           "package": "Wired",
@@ -3544,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "PortFixed",
           "package": "Wired",
@@ -3557,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "PortStruct",
           "package": "Wired",
@@ -3565,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "PortStruct",
           "package": "Wired",
@@ -3578,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "PortTree",
           "package": "Wired",
@@ -3586,6 +3883,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "PortTree",
           "package": "Wired",
@@ -3600,6 +3898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies a driver in the circuit. A driver is either a primary input or\n an output pin of a cell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "Signal",
           "package": "Wired",
@@ -3609,6 +3908,7 @@
         "index": {
           "description": "Identifies driver in the circuit driver is either primary input or an output pin of cell",
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "Signal",
           "package": "Wired",
@@ -3622,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "Cell",
           "package": "Wired",
@@ -3631,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "Cell",
           "normalized": "Cell CellId a[Signal]",
@@ -3646,6 +3948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "CellSig",
           "package": "Wired",
@@ -3655,6 +3958,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "CellSig",
           "package": "Wired",
@@ -3668,6 +3972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "DesignDB",
           "package": "Wired",
@@ -3677,6 +3982,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "DesignDB",
           "package": "Wired",
@@ -3690,6 +3996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "Interp",
           "package": "Wired",
@@ -3699,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "Interp",
           "package": "Wired",
@@ -3712,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "Label",
           "package": "Wired",
@@ -3721,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "Label",
           "package": "Wired",
@@ -3734,6 +4044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "Lava",
           "package": "Wired",
@@ -3743,6 +4054,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "Lava",
           "package": "Wired",
@@ -3756,6 +4068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "List",
           "package": "Wired",
@@ -3765,6 +4078,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "List",
           "normalized": "List[PortTree a]",
@@ -3780,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "One",
           "package": "Wired",
@@ -3789,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "One",
           "package": "Wired",
@@ -3802,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "PrimInpSig",
           "package": "Wired",
@@ -3811,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "PrimInpSig",
           "package": "Wired",
@@ -3824,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "PrimInput",
           "package": "Wired",
@@ -3833,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "PrimInput",
           "package": "Wired",
@@ -3846,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "accumulator",
           "package": "Wired",
@@ -3855,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "accumulator",
           "normalized": "a-\u003ea-\u003ea",
@@ -3869,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "askSig",
           "package": "Wired",
@@ -3878,6 +4201,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "askSig",
           "normalized": "Interpretation a b-\u003eSignal-\u003eKnot Signal b b",
@@ -3893,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "cell",
           "package": "Wired",
@@ -3902,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "cell",
           "normalized": "a-\u003eb-\u003ec d",
@@ -3916,6 +4242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "cellDB",
           "package": "Wired",
@@ -3925,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "cellDB",
           "normalized": "Map CellId(a,[Signal])",
@@ -3940,6 +4268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "cellInputs",
           "package": "Wired",
@@ -3949,6 +4278,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "cellInputs",
           "normalized": "CellId-\u003ea-\u003e[(CellId,InPin)]",
@@ -3964,6 +4294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "cellList",
           "package": "Wired",
@@ -3973,6 +4304,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "cellList",
           "normalized": "a-\u003e[Signal]-\u003eb[Signal]",
@@ -3988,6 +4320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "cellOutputs",
           "package": "Wired",
@@ -3997,6 +4330,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "cellOutputs",
           "normalized": "CellId-\u003ea-\u003e[Signal]",
@@ -4012,6 +4346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "declare",
           "package": "Wired",
@@ -4021,6 +4356,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "declare",
           "normalized": "Declaration a-\u003eb()",
@@ -4060,6 +4396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "defaultVal",
           "package": "Wired",
@@ -4069,6 +4406,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "defaultVal",
           "package": "Wired",
@@ -4106,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "depthInterp",
           "package": "Wired",
@@ -4115,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "depthInterp",
           "package": "Wired",
@@ -4179,6 +4519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "fanoutDB",
           "package": "Wired",
@@ -4188,6 +4529,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "fanoutDB",
           "normalized": "Map Signal[(CellId,InPin)]",
@@ -4203,6 +4545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "fromListFP",
           "package": "Wired",
@@ -4212,6 +4555,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "fromListFP",
           "normalized": "[a]-\u003eb",
@@ -4277,6 +4621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "hasLoopDB",
           "package": "Wired",
@@ -4286,6 +4631,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "hasLoopDB",
           "normalized": "Bool-\u003eDesignDB a-\u003eBool",
@@ -4301,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "inPinId",
           "package": "Wired",
@@ -4310,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "inPinId",
           "normalized": "a-\u003eName-\u003eInPin",
@@ -4325,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "inPinName",
           "package": "Wired",
@@ -4334,6 +4683,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "inPinName",
           "normalized": "a-\u003eInPin-\u003eName",
@@ -4396,6 +4746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "inputSig",
           "package": "Wired",
@@ -4405,6 +4756,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "inputSig",
           "package": "Wired",
@@ -4418,6 +4770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "inputToSig",
           "package": "Wired",
@@ -4427,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "inputToSig",
           "normalized": "PortTree a-\u003ePortTree Signal",
@@ -4442,6 +4796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "interpret",
           "package": "Wired",
@@ -4451,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "interpret",
           "normalized": "Interpretation a b-\u003eLava a c-\u003e(d,InterpDesignDB a b)",
@@ -4465,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "interpretCells",
           "package": "Wired",
@@ -4474,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "interpretCells",
           "normalized": "Interpretation a b-\u003e[(Signal,b)]-\u003e[(CellId,(a,[Signal]))]-\u003eMap Signal b",
@@ -4489,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "interpretFunc",
           "package": "Wired",
@@ -4498,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "interpretFunc",
           "normalized": "Interpretation a b-\u003e(c-\u003eLava a d)-\u003ee-\u003e(f,InterpDesignDB a b)",
@@ -4513,6 +4873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "interpretFuncP",
           "package": "Wired",
@@ -4522,6 +4883,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "interpretFuncP",
           "normalized": "Interpretation a b-\u003e(PortTree Signal-\u003eLava a(PortTree Signal))-\u003ePortTree b-\u003e(PortTree b,InterpDesignDB a b)",
@@ -4537,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "interpret_",
           "package": "Wired",
@@ -4546,6 +4909,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "interpret_",
           "normalized": "Interpretation a b-\u003e[(Signal,b)]-\u003eLava a(PortTree Signal)-\u003e(PortTree b,InterpDesignDB a b)",
@@ -4560,6 +4924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "interpret__",
           "package": "Wired",
@@ -4569,6 +4934,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "interpret__",
           "normalized": "Interpretation a b-\u003e[(Signal,b)]-\u003e(PortTree Signal,DesignDB a)-\u003e(PortTree b,InterpDesignDB a b)",
@@ -4583,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "isFlop",
           "package": "Wired",
@@ -4592,6 +4959,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "isFlop",
           "normalized": "a-\u003eBool",
@@ -4631,6 +4999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "labelSig",
           "package": "Wired",
@@ -4640,6 +5009,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "labelSig",
           "normalized": "Tag-\u003eSignal-\u003ea Signal",
@@ -4655,6 +5025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "lava2000Interp",
           "package": "Wired",
@@ -4664,6 +5035,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "lava2000Interp",
           "package": "Wired",
@@ -4677,6 +5049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "lengthFP",
           "package": "Wired",
@@ -4686,6 +5059,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "lengthFP",
           "package": "Wired",
@@ -4699,6 +5073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "listenDecls",
           "package": "Wired",
@@ -4708,6 +5083,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "listenDecls",
           "normalized": "a b-\u003ea(b,[Declaration c])",
@@ -4748,6 +5124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "mapPort",
           "package": "Wired",
@@ -4757,6 +5134,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "mapPort",
           "normalized": "(a-\u003eb)-\u003ec-\u003ed",
@@ -4772,6 +5150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "mapPortM",
           "package": "Wired",
@@ -4781,6 +5160,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "mapPortM",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb e",
@@ -4796,6 +5176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "newCellId",
           "package": "Wired",
@@ -4805,6 +5186,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "newCellId",
           "package": "Wired",
@@ -4818,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "newPrimInpId",
           "package": "Wired",
@@ -4827,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "newPrimInpId",
           "package": "Wired",
@@ -4840,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "numIns",
           "package": "Wired",
@@ -4849,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "numIns",
           "normalized": "a-\u003eInPin",
@@ -4864,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "numOuts",
           "package": "Wired",
@@ -4873,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "numOuts",
           "normalized": "a-\u003eOutPin",
@@ -4888,6 +5276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "outPinId",
           "package": "Wired",
@@ -4897,6 +5286,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "outPinId",
           "normalized": "a-\u003eName-\u003eOutPin",
@@ -4912,6 +5302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "outPinName",
           "package": "Wired",
@@ -4921,6 +5312,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "outPinName",
           "normalized": "a-\u003eOutPin-\u003eName",
@@ -4936,6 +5328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "physCell",
           "package": "Wired",
@@ -4945,6 +5338,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "physCell",
           "normalized": "a-\u003eb-\u003ec b",
@@ -4960,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "port",
           "package": "Wired",
@@ -4969,6 +5364,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "port",
           "normalized": "a-\u003ePortTree b",
@@ -4983,6 +5379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "primIns",
           "package": "Wired",
@@ -4992,6 +5389,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "primIns",
           "normalized": "[Signal]",
@@ -5007,6 +5405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "prop_validDecls",
           "package": "Wired",
@@ -5016,6 +5415,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "prop_validDecls",
           "normalized": "[Declaration a]-\u003eBool",
@@ -5031,6 +5431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "prop_validSignals",
           "package": "Wired",
@@ -5040,6 +5441,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "prop_validSignals",
           "normalized": "[Declaration a]-\u003eBool",
@@ -5055,6 +5457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "propagator",
           "package": "Wired",
@@ -5064,6 +5467,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "propagator",
           "normalized": "a-\u003e[b]-\u003e[Maybe b]",
@@ -5078,6 +5482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "runLava",
           "package": "Wired",
@@ -5087,6 +5492,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "runLava",
           "normalized": "Lava a b-\u003e(b,DesignDB a)",
@@ -5102,6 +5508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "sigTagDB",
           "package": "Wired",
@@ -5111,6 +5518,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "sigTagDB",
           "normalized": "Map Signal[Tag]",
@@ -5175,6 +5583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "sinkCell",
           "package": "Wired",
@@ -5184,6 +5593,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "sinkCell",
           "normalized": "a-\u003eb-\u003ec()",
@@ -5223,6 +5633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "sourceCell",
           "package": "Wired",
@@ -5232,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "sourceCell",
           "normalized": "a-\u003eb c",
@@ -5247,6 +5659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "tagSigDB",
           "package": "Wired",
@@ -5256,6 +5669,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "tagSigDB",
           "normalized": "Map Tag[Signal]",
@@ -5271,6 +5685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "tellSigs",
           "package": "Wired",
@@ -5280,6 +5695,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "tellSigs",
           "normalized": "Interpretation a b-\u003e[Signal]-\u003e[Maybe b]-\u003eKnot Signal b()",
@@ -5295,6 +5711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "toLava",
           "package": "Wired",
@@ -5304,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "toLava",
           "normalized": "a b-\u003eLava c b",
@@ -5344,6 +5762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "unLava",
           "package": "Wired",
@@ -5353,6 +5772,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "unLava",
           "normalized": "WriterT[Declaration a](State(PrimInpId,CellId))b",
@@ -5368,6 +5788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "unOne",
           "package": "Wired",
@@ -5377,6 +5798,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "unOne",
           "package": "Wired",
@@ -5390,6 +5812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Internal",
           "name": "unport",
           "package": "Wired",
@@ -5399,6 +5822,7 @@
         },
         "index": {
           "hierarchy": "Lava Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Internal",
           "name": "unport",
           "normalized": "PortTree a-\u003eb",
@@ -5437,6 +5861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "Patterns",
           "package": "Wired",
@@ -5445,6 +5870,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "Patterns",
           "package": "Wired",
@@ -5458,6 +5884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "(-|-)",
           "package": "Wired",
@@ -5467,6 +5894,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "(-|-) -|-",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003e(a,d)-\u003eb(c,e)",
@@ -5481,6 +5909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "(-\u003c-)",
           "package": "Wired",
@@ -5490,6 +5919,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "(-\u003c-) -\u003c-",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb a)-\u003ed-\u003eb c",
@@ -5504,6 +5934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "(-\u003e-)",
           "package": "Wired",
@@ -5513,6 +5944,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "(-\u003e-) -\u003e-",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003eb d",
@@ -5527,6 +5959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "(.\u003c.)",
           "package": "Wired",
@@ -5536,6 +5969,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "(.\u003c.) .\u003c.",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003eb",
@@ -5550,6 +5984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "(.\u003e.)",
           "package": "Wired",
@@ -5559,6 +5994,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "(.\u003e.) .\u003e.",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec)-\u003ea-\u003ec",
@@ -5573,6 +6009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "append",
           "package": "Wired",
@@ -5582,6 +6019,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "append",
           "normalized": "([a],[a])-\u003e[a]",
@@ -5596,6 +6034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "bfly",
           "package": "Wired",
@@ -5605,6 +6044,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "bfly",
           "normalized": "Int-\u003e([a]-\u003eb[a])-\u003e[a]-\u003eb[a]",
@@ -5619,6 +6059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "column",
           "package": "Wired",
@@ -5628,6 +6069,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "column",
           "normalized": "((a,b)-\u003ec(b,d))-\u003e([a],b)-\u003ec(b,[d])",
@@ -5642,6 +6084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "compose",
           "package": "Wired",
@@ -5651,6 +6094,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "compose",
           "normalized": "[a-\u003eb a]-\u003ea-\u003eb a",
@@ -5665,6 +6109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "composeN",
           "package": "Wired",
@@ -5674,6 +6119,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "composeN",
           "normalized": "Int-\u003e(a-\u003eb a)-\u003ea-\u003eb a",
@@ -5688,6 +6134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "copy",
           "package": "Wired",
@@ -5697,6 +6144,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "copy",
           "normalized": "a-\u003e(a,a)",
@@ -5711,6 +6159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "grid",
           "package": "Wired",
@@ -5720,6 +6169,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "grid",
           "normalized": "((a,b)-\u003ec(b,a))-\u003e([a],[b])-\u003ec([b],[a])",
@@ -5734,6 +6184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "halveList",
           "package": "Wired",
@@ -5743,6 +6194,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "halveList",
           "normalized": "[a]-\u003e([a],[a])",
@@ -5758,6 +6210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "ilv",
           "package": "Wired",
@@ -5767,6 +6220,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "ilv",
           "normalized": "([a]-\u003eb[c])-\u003e[a]-\u003eb[c]",
@@ -5781,6 +6235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "ilvN",
           "package": "Wired",
@@ -5790,6 +6245,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "ilvN",
           "normalized": "Int-\u003e([a]-\u003eb[c])-\u003e[a]-\u003eb[c]",
@@ -5804,6 +6260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "iter",
           "package": "Wired",
@@ -5813,6 +6270,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "iter",
           "normalized": "Int-\u003e((a-\u003eb c)-\u003ea-\u003eb c)-\u003e(a-\u003eb c)-\u003ea-\u003eb c",
@@ -5827,6 +6285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "mirror",
           "package": "Wired",
@@ -5836,6 +6295,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "mirror",
           "normalized": "((a,b)-\u003ec(d,e))-\u003e(b,a)-\u003ec(e,d)",
@@ -5850,6 +6310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "mon",
           "package": "Wired",
@@ -5859,6 +6320,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "mon",
           "normalized": "(a-\u003eb)-\u003ea-\u003ec b",
@@ -5873,6 +6335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "pair",
           "package": "Wired",
@@ -5882,6 +6345,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "pair",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -5896,6 +6360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "par",
           "package": "Wired",
@@ -5905,6 +6370,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "par",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003e(a,d)-\u003eb(c,e)",
@@ -5919,6 +6385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "parl",
           "package": "Wired",
@@ -5928,6 +6395,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "parl",
           "normalized": "([a]-\u003eb[c])-\u003e([a]-\u003eb[c])-\u003e[a]-\u003eb[c]",
@@ -5942,6 +6410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "pmap",
           "package": "Wired",
@@ -5951,6 +6420,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "pmap",
           "normalized": "((a,a)-\u003eb(c,c))-\u003e[a]-\u003eb[c]",
@@ -5965,6 +6435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "riffle",
           "package": "Wired",
@@ -5974,6 +6445,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "riffle",
           "normalized": "[a]-\u003e[a]",
@@ -5988,6 +6460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "row",
           "package": "Wired",
@@ -5997,6 +6470,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "row",
           "normalized": "((a,b)-\u003ec(d,a))-\u003e(a,[b])-\u003ec([d],a)",
@@ -6011,6 +6485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "serial",
           "package": "Wired",
@@ -6020,6 +6495,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "serial",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003eb d",
@@ -6034,6 +6510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "swap",
           "package": "Wired",
@@ -6043,6 +6520,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "swap",
           "normalized": "(a,b)-\u003e(b,a)",
@@ -6057,6 +6535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "swapl",
           "package": "Wired",
@@ -6066,6 +6545,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "swapl",
           "normalized": "[a]-\u003e[a]",
@@ -6080,6 +6560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "tri",
           "package": "Wired",
@@ -6089,6 +6570,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "tri",
           "normalized": "(a-\u003eb a)-\u003e[a]-\u003eb[a]",
@@ -6103,6 +6585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "two",
           "package": "Wired",
@@ -6112,6 +6595,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "two",
           "normalized": "([a]-\u003eb[c])-\u003e[a]-\u003eb[c]",
@@ -6126,6 +6610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "twoN",
           "package": "Wired",
@@ -6135,6 +6620,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "twoN",
           "normalized": "Int-\u003e([a]-\u003eb[c])-\u003e[a]-\u003eb[c]",
@@ -6149,6 +6635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "unpair",
           "package": "Wired",
@@ -6158,6 +6645,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "unpair",
           "normalized": "[(a,a)]-\u003e[a]",
@@ -6172,6 +6660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "unriffle",
           "package": "Wired",
@@ -6181,6 +6670,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "unriffle",
           "normalized": "[a]-\u003e[a]",
@@ -6195,6 +6685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "unzipp",
           "package": "Wired",
@@ -6204,6 +6695,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "unzipp",
           "normalized": "[(a,b)]-\u003e([a],[b])",
@@ -6218,6 +6710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava.Patterns",
           "name": "zipp",
           "package": "Wired",
@@ -6227,6 +6720,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava.Patterns",
           "name": "zipp",
           "normalized": "([a],[b])-\u003e[(a,b)]",
@@ -6241,6 +6735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava",
           "name": "Lava",
           "package": "Wired",
@@ -6249,6 +6744,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava",
           "name": "Lava",
           "package": "Wired",
@@ -6262,6 +6758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava",
           "name": "CellLibrary",
           "package": "Wired",
@@ -6270,6 +6767,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava",
           "name": "CellLibrary",
           "package": "Wired",
@@ -6283,6 +6781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava",
           "name": "InterpDesignDB",
           "package": "Wired",
@@ -6291,6 +6790,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava",
           "name": "InterpDesignDB",
           "package": "Wired",
@@ -6304,6 +6804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava",
           "name": "Lava",
           "package": "Wired",
@@ -6312,6 +6813,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava",
           "name": "Lava",
           "package": "Wired",
@@ -6325,6 +6827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava",
           "name": "MonadLava",
           "package": "Wired",
@@ -6333,6 +6836,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava",
           "name": "MonadLava",
           "package": "Wired",
@@ -6346,6 +6850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava",
           "name": "Port",
           "package": "Wired",
@@ -6354,6 +6859,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava",
           "name": "Port",
           "package": "Wired",
@@ -6367,6 +6873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava",
           "name": "PortFixed",
           "package": "Wired",
@@ -6375,6 +6882,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava",
           "name": "PortFixed",
           "package": "Wired",
@@ -6388,6 +6896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava",
           "name": "PortStruct",
           "package": "Wired",
@@ -6396,6 +6905,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava",
           "name": "PortStruct",
           "package": "Wired",
@@ -6410,6 +6920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies a driver in the circuit. A driver is either a primary input or\n an output pin of a cell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava",
           "name": "Signal",
           "package": "Wired",
@@ -6419,6 +6930,7 @@
         "index": {
           "description": "Identifies driver in the circuit driver is either primary input or an output pin of cell",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava",
           "name": "Signal",
           "package": "Wired",
@@ -6432,6 +6944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Lava",
           "name": "toLava",
           "package": "Wired",
@@ -6441,6 +6954,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Lava",
           "name": "toLava",
           "normalized": "a b-\u003eLava c b",
@@ -6456,6 +6970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Internal",
           "package": "Wired",
@@ -6464,6 +6979,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Internal",
           "package": "Wired",
@@ -6477,6 +6993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "AbsBlock",
           "package": "Wired",
@@ -6485,6 +7002,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "AbsBlock",
           "package": "Wired",
@@ -6498,6 +7016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "AbsFloorplan",
           "package": "Wired",
@@ -6506,6 +7025,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "AbsFloorplan",
           "package": "Wired",
@@ -6519,6 +7039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Alignment",
           "package": "Wired",
@@ -6527,6 +7048,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Alignment",
           "package": "Wired",
@@ -6540,6 +7062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Block",
           "package": "Wired",
@@ -6548,6 +7071,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Block",
           "package": "Wired",
@@ -6561,6 +7085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Color",
           "package": "Wired",
@@ -6569,6 +7094,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Color",
           "package": "Wired",
@@ -6582,6 +7108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Distance",
           "package": "Wired",
@@ -6590,6 +7117,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Distance",
           "package": "Wired",
@@ -6603,6 +7131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Elasticity",
           "package": "Wired",
@@ -6611,6 +7140,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Elasticity",
           "package": "Wired",
@@ -6624,6 +7154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Floorplan",
           "package": "Wired",
@@ -6632,6 +7163,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Floorplan",
           "package": "Wired",
@@ -6645,6 +7177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Layout",
           "package": "Wired",
@@ -6653,6 +7186,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Layout",
           "package": "Wired",
@@ -6666,6 +7200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "LayoutT",
           "package": "Wired",
@@ -6674,6 +7209,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "LayoutT",
           "package": "Wired",
@@ -6687,6 +7223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "MonadLayout",
           "package": "Wired",
@@ -6695,6 +7232,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "MonadLayout",
           "package": "Wired",
@@ -6708,6 +7246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "PSShow",
           "package": "Wired",
@@ -6716,6 +7255,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "PSShow",
           "package": "Wired",
@@ -6729,6 +7269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Placement",
           "package": "Wired",
@@ -6737,6 +7278,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Placement",
           "package": "Wired",
@@ -6750,6 +7292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Postscript",
           "package": "Wired",
@@ -6758,6 +7301,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Postscript",
           "package": "Wired",
@@ -6771,6 +7315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "RelBlock",
           "package": "Wired",
@@ -6779,6 +7324,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "RelBlock",
           "package": "Wired",
@@ -6792,6 +7338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Transformable",
           "package": "Wired",
@@ -6800,6 +7347,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Transformable",
           "package": "Wired",
@@ -6813,6 +7361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Block",
           "package": "Wired",
@@ -6822,6 +7371,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Block",
           "package": "Wired",
@@ -6835,6 +7385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "BottomLeft",
           "package": "Wired",
@@ -6844,6 +7395,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "BottomLeft",
           "package": "Wired",
@@ -6857,6 +7409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Box",
           "package": "Wired",
@@ -6866,6 +7419,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Box",
           "package": "Wired",
@@ -6879,6 +7433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Comb",
           "package": "Wired",
@@ -6888,6 +7443,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Comb",
           "normalized": "Comb Placement[Floorplan a b]",
@@ -6903,6 +7459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Dist",
           "package": "Wired",
@@ -6912,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Dist",
           "package": "Wired",
@@ -6925,6 +7483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Elasticity",
           "package": "Wired",
@@ -6934,6 +7493,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Elasticity",
           "package": "Wired",
@@ -6947,6 +7507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Layout",
           "package": "Wired",
@@ -6956,6 +7517,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Layout",
           "normalized": "Layout(ReaderT Placement(Writer[Floorplan a b])c)",
@@ -6971,6 +7533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "LayoutT",
           "package": "Wired",
@@ -6980,6 +7543,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "LayoutT",
           "normalized": "LayoutT(ReaderT Placement(WriterT[Floorplan a b]c)d)",
@@ -6995,6 +7559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Row",
           "package": "Wired",
@@ -7004,6 +7569,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Row",
           "package": "Wired",
@@ -7017,6 +7583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Space",
           "package": "Wired",
@@ -7026,6 +7593,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Space",
           "package": "Wired",
@@ -7039,6 +7607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Stack",
           "package": "Wired",
@@ -7048,6 +7617,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Stack",
           "package": "Wired",
@@ -7061,6 +7631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "TopRight",
           "package": "Wired",
@@ -7070,6 +7641,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "TopRight",
           "package": "Wired",
@@ -7083,6 +7655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "Unspecified",
           "package": "Wired",
@@ -7092,6 +7665,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "Unspecified",
           "package": "Wired",
@@ -7105,6 +7679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "absToPS",
           "package": "Wired",
@@ -7114,6 +7689,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "absToPS",
           "normalized": "AbsFloorplan a b-\u003ePostscript",
@@ -7129,6 +7705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "absolutize",
           "package": "Wired",
@@ -7138,6 +7715,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "absolutize",
           "normalized": "Floorplan a b-\u003e(AbsFloorplan a b,Size)",
@@ -7152,6 +7730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "absolutizeBlock",
           "package": "Wired",
@@ -7161,6 +7740,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "absolutizeBlock",
           "normalized": "Placement-\u003eRelBlock a b-\u003e(AbsBlock a b,Size)",
@@ -7176,6 +7756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "absolutize_",
           "package": "Wired",
@@ -7185,6 +7766,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "absolutize_",
           "normalized": "Placement-\u003ePosition-\u003eFloorplan a b-\u003eWriter(AbsFloorplan a b)Size",
@@ -7199,6 +7781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "align",
           "package": "Wired",
@@ -7208,6 +7791,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "align",
           "normalized": "Alignment-\u003eLength-\u003eLength-\u003eLength",
@@ -7244,6 +7828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "block",
           "package": "Wired",
@@ -7253,6 +7838,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "block",
           "normalized": "Width-\u003eHeight-\u003eName-\u003ea-\u003eb-\u003ec b",
@@ -7267,6 +7853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "blockCenter",
           "package": "Wired",
@@ -7276,6 +7863,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "blockCenter",
           "normalized": "(Position,AbsBlock a b)-\u003ePosition",
@@ -7291,6 +7879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "block_",
           "package": "Wired",
@@ -7300,6 +7889,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "block_",
           "normalized": "Width-\u003eHeight-\u003eName-\u003ea-\u003eb()",
@@ -7336,6 +7926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "currentPlacement",
           "package": "Wired",
@@ -7345,6 +7936,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "currentPlacement",
           "package": "Wired",
@@ -7406,6 +7998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "flipX",
           "package": "Wired",
@@ -7415,6 +8008,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "flipX",
           "normalized": "a-\u003ea",
@@ -7429,6 +8023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "flipY",
           "package": "Wired",
@@ -7438,6 +8033,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "flipY",
           "normalized": "a-\u003ea",
@@ -7452,6 +8048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "floorplanToPS",
           "package": "Wired",
@@ -7461,6 +8058,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "floorplanToPS",
           "normalized": "Floorplan a b-\u003e(Postscript,Size)",
@@ -7568,6 +8166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "linesToPS",
           "package": "Wired",
@@ -7577,6 +8176,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "linesToPS",
           "normalized": "[([(Position,Position)],Color)]-\u003ePostscript",
@@ -7592,6 +8192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "ps1",
           "package": "Wired",
@@ -7601,6 +8202,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "ps1",
           "package": "Wired",
@@ -7613,6 +8215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "ps2",
           "package": "Wired",
@@ -7622,6 +8225,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "ps2",
           "package": "Wired",
@@ -7634,6 +8238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "ps3",
           "package": "Wired",
@@ -7643,6 +8248,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "ps3",
           "package": "Wired",
@@ -7655,6 +8261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "psShow",
           "package": "Wired",
@@ -7664,6 +8271,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "psShow",
           "normalized": "a-\u003ePostscript",
@@ -7701,6 +8309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "renderFloorplan",
           "package": "Wired",
@@ -7710,6 +8319,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "renderFloorplan",
           "normalized": "Name-\u003eFloorplan a b-\u003eIO()",
@@ -7725,6 +8335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "renderFloorplan_",
           "package": "Wired",
@@ -7734,6 +8345,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "renderFloorplan_",
           "normalized": "Length-\u003eName-\u003eFloorplan a b-\u003e[([(Position,Position)],Color)]-\u003eIO()",
@@ -7871,6 +8483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "rotate_",
           "package": "Wired",
@@ -7880,6 +8493,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "rotate_",
           "normalized": "Int-\u003ea-\u003ea",
@@ -7894,6 +8508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "runLayout",
           "package": "Wired",
@@ -7903,6 +8518,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "runLayout",
           "normalized": "Layout a b c-\u003e(c,Floorplan a b)",
@@ -7918,6 +8534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "runLayoutT",
           "package": "Wired",
@@ -7927,6 +8544,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "runLayoutT",
           "normalized": "LayoutT a b c d-\u003ec(d,Floorplan a b)",
@@ -7966,6 +8584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "space_",
           "package": "Wired",
@@ -7975,6 +8594,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "space_",
           "normalized": "Length-\u003eMaybe a-\u003eb()",
@@ -8013,6 +8633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "subLayout",
           "package": "Wired",
@@ -8022,6 +8643,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "subLayout",
           "normalized": "Placement-\u003ea b-\u003ea b",
@@ -8037,6 +8659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "transformFloorplan",
           "package": "Wired",
@@ -8046,6 +8669,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "transformFloorplan",
           "normalized": "(Floorplan a b-\u003eFloorplan a b)-\u003ec d-\u003ec d",
@@ -8085,6 +8709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout.Internal",
           "name": "translateBlocks",
           "package": "Wired",
@@ -8094,6 +8719,7 @@
         },
         "index": {
           "hierarchy": "Layout Internal",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout.Internal",
           "name": "translateBlocks",
           "normalized": "Position-\u003eAbsFloorplan a b-\u003eAbsFloorplan a b",
@@ -8203,6 +8829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout",
           "name": "Layout",
           "package": "Wired",
@@ -8211,6 +8838,7 @@
         },
         "index": {
           "hierarchy": "Layout",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout",
           "name": "Layout",
           "package": "Wired",
@@ -8224,6 +8852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout",
           "name": "Layout",
           "package": "Wired",
@@ -8232,6 +8861,7 @@
         },
         "index": {
           "hierarchy": "Layout",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout",
           "name": "Layout",
           "package": "Wired",
@@ -8245,6 +8875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout",
           "name": "LayoutT",
           "package": "Wired",
@@ -8253,6 +8884,7 @@
         },
         "index": {
           "hierarchy": "Layout",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout",
           "name": "LayoutT",
           "package": "Wired",
@@ -8266,6 +8898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout",
           "name": "MonadLayout",
           "package": "Wired",
@@ -8274,6 +8907,7 @@
         },
         "index": {
           "hierarchy": "Layout",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout",
           "name": "MonadLayout",
           "package": "Wired",
@@ -8287,6 +8921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout",
           "name": "Transformable",
           "package": "Wired",
@@ -8295,6 +8930,7 @@
         },
         "index": {
           "hierarchy": "Layout",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout",
           "name": "Transformable",
           "package": "Wired",
@@ -8308,6 +8944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout",
           "name": "flipX",
           "package": "Wired",
@@ -8317,6 +8954,7 @@
         },
         "index": {
           "hierarchy": "Layout",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout",
           "name": "flipX",
           "normalized": "a-\u003ea",
@@ -8331,6 +8969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout",
           "name": "flipY",
           "package": "Wired",
@@ -8340,6 +8979,7 @@
         },
         "index": {
           "hierarchy": "Layout",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout",
           "name": "flipY",
           "normalized": "a-\u003ea",
@@ -8354,6 +8994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Layout",
           "name": "rotate_",
           "package": "Wired",
@@ -8363,6 +9004,7 @@
         },
         "index": {
           "hierarchy": "Layout",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Layout",
           "name": "rotate_",
           "normalized": "Int-\u003ea-\u003ea",
@@ -8378,6 +9020,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cpre\u003e The Open Cell Library is intended for use by universities, other research\n activities, educational programs and Si2.org members.\n However allowed, the Open Cell Library is not intended for commercial use.\n If you use the Open Cell Library for demonstration of commercial EDA tools\n it is required to mention, indicate that the library was developped by\n Nangate.\n\n If you have questions or concerns then please contact us at\n openlibrary@nangate.com\n\n The Open Cell Library is provided by Nangate under the following License:\n\n Nangate Open Cell Library License, Version 1.0. February 20, 2008\n\n Permission is hereby granted, free of charge, to any person or organization\n obtaining a copy of the Open Cell Library and accompanying documentation\n (the \"Library\") covered by this license to use, reproduce, display,\n distribute, execute, and transmit the Library, and to prepare derivative\n works of the Library, and to permit third-parties to whom the Library is\n furnished to do so, all subject to the following:\n\n The copyright notices in the Library and this entire statement, including\n the above license grant, this restriction and the following disclaimer,\n must be included in all copies of the Library, in whole or in part, and all\n derivative works of the Library, unless such copies or derivative works are\n solely in the form of machine-executable object code generated by a source\n language processor. The library has been generated using a non-optimized\n open PDK and is not suited for any commercial purpose. Measuring or\n benchmarking the Library against any other library or standard cell set is\n prohibited. Any meaningful library benchmarking must be done in\n collaboration with Nangate or other providers of optimized and\n production-ready PDKs.\n\n THE LIBRARY IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT\n SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE LIBRARY BE LIABLE\n FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,\n ARISING FROM, OUT OF OR IN CONNECTION WITH THE LIBRARY OR THE USE OR OTHER\n DEALINGS IN THE LIBRARY.\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.LICENSE",
           "name": "LICENSE",
           "package": "Wired",
@@ -8387,6 +9030,7 @@
         "index": {
           "description": "The Open Cell Library is intended for use by universities other research activities educational programs and Si2.org members However allowed the Open Cell Library is not intended for commercial use If you use the Open Cell Library for demonstration of commercial EDA tools it is required to mention indicate that the library was developped by Nangate If you have questions or concerns then please contact us at openlibrary@nangate.com The Open Cell Library is provided by Nangate under the following License Nangate Open Cell Library License Version February Permission is hereby granted free of charge to any person or organization obtaining copy of the Open Cell Library and accompanying documentation the Library covered by this license to use reproduce display distribute execute and transmit the Library and to prepare derivative works of the Library and to permit third-parties to whom the Library is furnished to do so all subject to the following The copyright notices in the Library and this entire statement including the above license grant this restriction and the following disclaimer must be included in all copies of the Library in whole or in part and all derivative works of the Library unless such copies or derivative works are solely in the form of machine-executable object code generated by source language processor The library has been generated using non-optimized open PDK and is not suited for any commercial purpose Measuring or benchmarking the Library against any other library or standard cell set is prohibited Any meaningful library benchmarking must be done in collaboration with Nangate or other providers of optimized and production-ready PDKs THE LIBRARY IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND EXPRESS OR IMPLIED INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY FITNESS FOR PARTICULAR PURPOSE TITLE AND NON-INFRINGEMENT IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE LIBRARY BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY WHETHER IN CONTRACT TORT OR OTHERWISE ARISING FROM OUT OF OR IN CONNECTION WITH THE LIBRARY OR THE USE OR OTHER DEALINGS IN THE LIBRARY",
           "hierarchy": "Libs Nangate45 LICENSE",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.LICENSE",
           "name": "LICENSE",
           "package": "Wired",
@@ -8401,6 +9045,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLava interface to the Nangate45 library.\n\u003c/p\u003e\u003cp\u003eThe data in this file is derived from Nangate's Open Cell Library,\n and is subject to the license restrictions stated in\n \u003ca\u003eLibs.Nangate45.LICENSE\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "Lava",
           "package": "Wired",
@@ -8410,6 +9055,7 @@
         "index": {
           "description": "Lava interface to the Nangate45 library The data in this file is derived from Nangate Open Cell Library and is subject to the license restrictions stated in Libs.Nangate45.LICENSE",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "Lava",
           "package": "Wired",
@@ -8423,6 +9069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "Nangate45",
           "package": "Wired",
@@ -8431,6 +9078,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "Nangate45",
           "package": "Wired",
@@ -8445,6 +9093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = and [A1, A2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "and2_x1",
           "package": "Wired",
@@ -8455,6 +9104,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN and A1 A2",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "and2_x1",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -8470,6 +9120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = and [A1, A2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "and2_x2",
           "package": "Wired",
@@ -8480,6 +9131,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN and A1 A2",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "and2_x2",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -8495,6 +9147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = and [A1, A2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "and2_x4",
           "package": "Wired",
@@ -8505,6 +9158,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN and A1 A2",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "and2_x4",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -8520,6 +9174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = A\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "buf_x1",
           "package": "Wired",
@@ -8530,6 +9185,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "buf_x1",
           "normalized": "Signal-\u003ea Signal",
@@ -8545,6 +9201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = A\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "buf_x16",
           "package": "Wired",
@@ -8555,6 +9212,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "buf_x16",
           "normalized": "Signal-\u003ea Signal",
@@ -8570,6 +9228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = A\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "buf_x2",
           "package": "Wired",
@@ -8580,6 +9239,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "buf_x2",
           "normalized": "Signal-\u003ea Signal",
@@ -8595,6 +9255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = A\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "buf_x32",
           "package": "Wired",
@@ -8605,6 +9266,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "buf_x32",
           "normalized": "Signal-\u003ea Signal",
@@ -8620,6 +9282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = A\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "buf_x4",
           "package": "Wired",
@@ -8630,6 +9293,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "buf_x4",
           "normalized": "Signal-\u003ea Signal",
@@ -8645,6 +9309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = A\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "buf_x8",
           "package": "Wired",
@@ -8655,6 +9320,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "buf_x8",
           "normalized": "Signal-\u003ea Signal",
@@ -8670,6 +9336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (CI, (A, B)) -\u003e (S, CO)\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    S = or [and [or [and [A, B'], and [A', B]], CI'], and [(or [and [A, B'], and [A', B]])', CI]]\n    CO = or [and [A, B], and [A, CI], and [B, CI]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "fa_x1",
           "package": "Wired",
@@ -8680,6 +9347,7 @@
         "index": {
           "description": "Interface CI CO Function or and or and and CI and or and and CI CO or and and CI and CI",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "fa_x1",
           "normalized": "(Signal,(Signal,Signal))-\u003ea(Signal,Signal)",
@@ -8694,6 +9362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "fillcell_x1",
           "package": "Wired",
@@ -8703,6 +9372,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "fillcell_x1",
           "normalized": "a-\u003eb a",
@@ -8717,6 +9387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "fillcell_x16",
           "package": "Wired",
@@ -8726,6 +9397,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "fillcell_x16",
           "normalized": "a-\u003eb a",
@@ -8740,6 +9412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "fillcell_x2",
           "package": "Wired",
@@ -8749,6 +9422,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "fillcell_x2",
           "normalized": "a-\u003eb a",
@@ -8763,6 +9437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "fillcell_x32",
           "package": "Wired",
@@ -8772,6 +9447,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "fillcell_x32",
           "normalized": "a-\u003eb a",
@@ -8786,6 +9462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "fillcell_x4",
           "package": "Wired",
@@ -8795,6 +9472,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "fillcell_x4",
           "normalized": "a-\u003eb a",
@@ -8809,6 +9487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "fillcell_x8",
           "package": "Wired",
@@ -8818,6 +9497,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "fillcell_x8",
           "normalized": "a-\u003eb a",
@@ -8833,6 +9513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A, B) -\u003e (S, CO)\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    S = or [and [A, B'], and [A', B]]\n    CO = and [A, B]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "ha_x1",
           "package": "Wired",
@@ -8843,6 +9524,7 @@
         "index": {
           "description": "Interface CO Function or and and CO and",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "ha_x1",
           "normalized": "(Signal,Signal)-\u003ea(Signal,Signal)",
@@ -8858,6 +9540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = A'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "inv_x1",
           "package": "Wired",
@@ -8868,6 +9551,7 @@
         "index": {
           "description": "Interface ZN Function ZN",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "inv_x1",
           "normalized": "Signal-\u003ea Signal",
@@ -8883,6 +9567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = A'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "inv_x16",
           "package": "Wired",
@@ -8893,6 +9578,7 @@
         "index": {
           "description": "Interface ZN Function ZN",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "inv_x16",
           "normalized": "Signal-\u003ea Signal",
@@ -8908,6 +9594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = A'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "inv_x2",
           "package": "Wired",
@@ -8918,6 +9605,7 @@
         "index": {
           "description": "Interface ZN Function ZN",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "inv_x2",
           "normalized": "Signal-\u003ea Signal",
@@ -8933,6 +9621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = A'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "inv_x32",
           "package": "Wired",
@@ -8943,6 +9632,7 @@
         "index": {
           "description": "Interface ZN Function ZN",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "inv_x32",
           "normalized": "Signal-\u003ea Signal",
@@ -8958,6 +9648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = A'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "inv_x4",
           "package": "Wired",
@@ -8968,6 +9659,7 @@
         "index": {
           "description": "Interface ZN Function ZN",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "inv_x4",
           "normalized": "Signal-\u003ea Signal",
@@ -8983,6 +9675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = A'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "inv_x8",
           "package": "Wired",
@@ -8993,6 +9686,7 @@
         "index": {
           "description": "Interface ZN Function ZN",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "inv_x8",
           "normalized": "Signal-\u003ea Signal",
@@ -9008,6 +9702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "logic0_x1",
           "package": "Wired",
@@ -9018,6 +9713,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "logic0_x1",
           "package": "Wired",
@@ -9031,6 +9727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "logic1_x1",
           "package": "Wired",
@@ -9041,6 +9738,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "logic1_x1",
           "package": "Wired",
@@ -9054,6 +9752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (and [A1, A2])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "nand2_x1",
           "package": "Wired",
@@ -9064,6 +9763,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN and A1 A2",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "nand2_x1",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9079,6 +9779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (and [A1, A2])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "nand2_x2",
           "package": "Wired",
@@ -9089,6 +9790,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN and A1 A2",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "nand2_x2",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9104,6 +9806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (and [A1, A2])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "nand2_x4",
           "package": "Wired",
@@ -9114,6 +9817,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN and A1 A2",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "nand2_x4",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9129,6 +9833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (or [A1, A2])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "nor2_x1",
           "package": "Wired",
@@ -9139,6 +9844,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN or A1 A2",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "nor2_x1",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9154,6 +9860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (or [A1, A2])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "nor2_x2",
           "package": "Wired",
@@ -9164,6 +9871,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN or A1 A2",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "nor2_x2",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9179,6 +9887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (or [A1, A2])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "nor2_x4",
           "package": "Wired",
@@ -9189,6 +9898,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN or A1 A2",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "nor2_x4",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9204,6 +9914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = or [A1, A2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "or2_x1",
           "package": "Wired",
@@ -9214,6 +9925,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN or A1 A2",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "or2_x1",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9229,6 +9941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = or [A1, A2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "or2_x2",
           "package": "Wired",
@@ -9239,6 +9952,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN or A1 A2",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "or2_x2",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9254,6 +9968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = or [A1, A2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "or2_x4",
           "package": "Wired",
@@ -9264,6 +9979,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN or A1 A2",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "or2_x4",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9279,6 +9995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A, B) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (or [and [A, B'], and [A', B]])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "xnor2_x1",
           "package": "Wired",
@@ -9289,6 +10006,7 @@
         "index": {
           "description": "Interface ZN Function ZN or and and",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "xnor2_x1",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9304,6 +10022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A, B) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (or [and [A, B'], and [A', B]])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "xnor2_x2",
           "package": "Wired",
@@ -9314,6 +10033,7 @@
         "index": {
           "description": "Interface ZN Function ZN or and and",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "xnor2_x2",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9329,6 +10049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A, B) -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = or [and [A, B'], and [A', B]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "xor2_x1",
           "package": "Wired",
@@ -9339,6 +10060,7 @@
         "index": {
           "description": "Interface Function or and and",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "xor2_x1",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9354,6 +10076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A, B) -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = or [and [A, B'], and [A', B]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Lava",
           "name": "xor2_x2",
           "package": "Wired",
@@ -9364,6 +10087,7 @@
         "index": {
           "description": "Interface Function or and and",
           "hierarchy": "Libs Nangate45 Lava",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Lava",
           "name": "xor2_x2",
           "normalized": "(Signal,Signal)-\u003ea Signal",
@@ -9379,6 +10103,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWired interface to the Nangate45 library.\n\u003c/p\u003e\u003cp\u003eThe data in this file is derived from Nangate's Open Cell Library,\n and is subject to the license restrictions stated in\n \u003ca\u003eLibs.Nangate45.LICENSE\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "Wired",
           "package": "Wired",
@@ -9388,6 +10113,7 @@
         "index": {
           "description": "Wired interface to the Nangate45 library The data in this file is derived from Nangate Open Cell Library and is subject to the license restrictions stated in Libs.Nangate45.LICENSE",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "Wired",
           "package": "Wired",
@@ -9401,6 +10127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "Nangate45",
           "package": "Wired",
@@ -9409,6 +10136,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "Nangate45",
           "package": "Wired",
@@ -9423,6 +10151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = and [A1, A2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "and2_x1",
           "package": "Wired",
@@ -9433,6 +10162,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN and A1 A2",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "and2_x1",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -9448,6 +10178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = and [A1, A2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "and2_x2",
           "package": "Wired",
@@ -9458,6 +10189,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN and A1 A2",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "and2_x2",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -9473,6 +10205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = and [A1, A2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "and2_x4",
           "package": "Wired",
@@ -9483,6 +10216,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN and A1 A2",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "and2_x4",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -9498,6 +10232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = A\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "buf_x1",
           "package": "Wired",
@@ -9508,6 +10243,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "buf_x1",
           "normalized": "Signal-\u003eWired Nangate Signal",
@@ -9523,6 +10259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = A\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "buf_x16",
           "package": "Wired",
@@ -9533,6 +10270,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "buf_x16",
           "normalized": "Signal-\u003eWired Nangate Signal",
@@ -9548,6 +10286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = A\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "buf_x2",
           "package": "Wired",
@@ -9558,6 +10297,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "buf_x2",
           "normalized": "Signal-\u003eWired Nangate Signal",
@@ -9573,6 +10313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = A\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "buf_x32",
           "package": "Wired",
@@ -9583,6 +10324,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "buf_x32",
           "normalized": "Signal-\u003eWired Nangate Signal",
@@ -9598,6 +10340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = A\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "buf_x4",
           "package": "Wired",
@@ -9608,6 +10351,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "buf_x4",
           "normalized": "Signal-\u003eWired Nangate Signal",
@@ -9623,6 +10367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = A\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "buf_x8",
           "package": "Wired",
@@ -9633,6 +10378,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "buf_x8",
           "normalized": "Signal-\u003eWired Nangate Signal",
@@ -9648,6 +10394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (CI, (A, B)) -\u003e (S, CO)\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    S = or [and [or [and [A, B'], and [A', B]], CI'], and [(or [and [A, B'], and [A', B]])', CI]]\n    CO = or [and [A, B], and [A, CI], and [B, CI]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "fa_x1",
           "package": "Wired",
@@ -9658,6 +10405,7 @@
         "index": {
           "description": "Interface CI CO Function or and or and and CI and or and and CI CO or and and CI and CI",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "fa_x1",
           "normalized": "(Signal,(Signal,Signal))-\u003eWired Nangate(Signal,Signal)",
@@ -9672,6 +10420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "fillcell_x1",
           "package": "Wired",
@@ -9681,6 +10430,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "fillcell_x1",
           "normalized": "a-\u003eWired Nangate a",
@@ -9695,6 +10445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "fillcell_x16",
           "package": "Wired",
@@ -9704,6 +10455,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "fillcell_x16",
           "normalized": "a-\u003eWired Nangate a",
@@ -9718,6 +10470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "fillcell_x2",
           "package": "Wired",
@@ -9727,6 +10480,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "fillcell_x2",
           "normalized": "a-\u003eWired Nangate a",
@@ -9741,6 +10495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "fillcell_x32",
           "package": "Wired",
@@ -9750,6 +10505,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "fillcell_x32",
           "normalized": "a-\u003eWired Nangate a",
@@ -9764,6 +10520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "fillcell_x4",
           "package": "Wired",
@@ -9773,6 +10530,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "fillcell_x4",
           "normalized": "a-\u003eWired Nangate a",
@@ -9787,6 +10545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "fillcell_x8",
           "package": "Wired",
@@ -9796,6 +10555,7 @@
         },
         "index": {
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "fillcell_x8",
           "normalized": "a-\u003eWired Nangate a",
@@ -9811,6 +10571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A, B) -\u003e (S, CO)\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    S = or [and [A, B'], and [A', B]]\n    CO = and [A, B]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "ha_x1",
           "package": "Wired",
@@ -9821,6 +10582,7 @@
         "index": {
           "description": "Interface CO Function or and and CO and",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "ha_x1",
           "normalized": "(Signal,Signal)-\u003eWired Nangate(Signal,Signal)",
@@ -9836,6 +10598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = A'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "inv_x1",
           "package": "Wired",
@@ -9846,6 +10609,7 @@
         "index": {
           "description": "Interface ZN Function ZN",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "inv_x1",
           "normalized": "Signal-\u003eWired Nangate Signal",
@@ -9861,6 +10625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = A'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "inv_x16",
           "package": "Wired",
@@ -9871,6 +10636,7 @@
         "index": {
           "description": "Interface ZN Function ZN",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "inv_x16",
           "normalized": "Signal-\u003eWired Nangate Signal",
@@ -9886,6 +10652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = A'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "inv_x2",
           "package": "Wired",
@@ -9896,6 +10663,7 @@
         "index": {
           "description": "Interface ZN Function ZN",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "inv_x2",
           "normalized": "Signal-\u003eWired Nangate Signal",
@@ -9911,6 +10679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = A'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "inv_x32",
           "package": "Wired",
@@ -9921,6 +10690,7 @@
         "index": {
           "description": "Interface ZN Function ZN",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "inv_x32",
           "normalized": "Signal-\u003eWired Nangate Signal",
@@ -9936,6 +10706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = A'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "inv_x4",
           "package": "Wired",
@@ -9946,6 +10717,7 @@
         "index": {
           "description": "Interface ZN Function ZN",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "inv_x4",
           "normalized": "Signal-\u003eWired Nangate Signal",
@@ -9961,6 +10733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    A -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = A'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "inv_x8",
           "package": "Wired",
@@ -9971,6 +10744,7 @@
         "index": {
           "description": "Interface ZN Function ZN",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "inv_x8",
           "normalized": "Signal-\u003eWired Nangate Signal",
@@ -9986,6 +10760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "logic0_x1",
           "package": "Wired",
@@ -9996,6 +10771,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "logic0_x1",
           "package": "Wired",
@@ -10009,6 +10785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "logic1_x1",
           "package": "Wired",
@@ -10019,6 +10796,7 @@
         "index": {
           "description": "Interface Function",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "logic1_x1",
           "package": "Wired",
@@ -10032,6 +10810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (and [A1, A2])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "nand2_x1",
           "package": "Wired",
@@ -10042,6 +10821,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN and A1 A2",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "nand2_x1",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10057,6 +10837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (and [A1, A2])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "nand2_x2",
           "package": "Wired",
@@ -10067,6 +10848,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN and A1 A2",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "nand2_x2",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10082,6 +10864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (and [A1, A2])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "nand2_x4",
           "package": "Wired",
@@ -10092,6 +10875,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN and A1 A2",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "nand2_x4",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10107,6 +10891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (or [A1, A2])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "nor2_x1",
           "package": "Wired",
@@ -10117,6 +10902,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN or A1 A2",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "nor2_x1",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10132,6 +10918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (or [A1, A2])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "nor2_x2",
           "package": "Wired",
@@ -10142,6 +10929,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN or A1 A2",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "nor2_x2",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10157,6 +10945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (or [A1, A2])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "nor2_x4",
           "package": "Wired",
@@ -10167,6 +10956,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN or A1 A2",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "nor2_x4",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10182,6 +10972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = or [A1, A2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "or2_x1",
           "package": "Wired",
@@ -10192,6 +10983,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN or A1 A2",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "or2_x1",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10207,6 +10999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = or [A1, A2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "or2_x2",
           "package": "Wired",
@@ -10217,6 +11010,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN or A1 A2",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "or2_x2",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10232,6 +11026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A1, A2) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = or [A1, A2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "or2_x4",
           "package": "Wired",
@@ -10242,6 +11037,7 @@
         "index": {
           "description": "Interface A1 A2 ZN Function ZN or A1 A2",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "or2_x4",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10257,6 +11053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A, B) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (or [and [A, B'], and [A', B]])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "xnor2_x1",
           "package": "Wired",
@@ -10267,6 +11064,7 @@
         "index": {
           "description": "Interface ZN Function ZN or and and",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "xnor2_x1",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10282,6 +11080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A, B) -\u003e ZN\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    ZN = (or [and [A, B'], and [A', B]])'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "xnor2_x2",
           "package": "Wired",
@@ -10292,6 +11091,7 @@
         "index": {
           "description": "Interface ZN Function ZN or and and",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "xnor2_x2",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10307,6 +11107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A, B) -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = or [and [A, B'], and [A', B]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "xor2_x1",
           "package": "Wired",
@@ -10317,6 +11118,7 @@
         "index": {
           "description": "Interface Function or and and",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "xor2_x1",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10332,6 +11134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface:\n\u003c/p\u003e\u003cpre\u003e    (A, B) -\u003e Z\n\u003c/pre\u003e\u003cp\u003eFunction:\n\u003c/p\u003e\u003cpre\u003e    Z = or [and [A, B'], and [A', B]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Libs.Nangate45.Wired",
           "name": "xor2_x2",
           "package": "Wired",
@@ -10342,6 +11145,7 @@
         "index": {
           "description": "Interface Function or and and",
           "hierarchy": "Libs Nangate45 Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Libs.Nangate45.Wired",
           "name": "xor2_x2",
           "normalized": "(Signal,Signal)-\u003eWired Nangate Signal",
@@ -10356,6 +11160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "Model",
           "package": "Wired",
@@ -10364,6 +11169,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "Model",
           "package": "Wired",
@@ -10377,6 +11183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "Guide",
           "package": "Wired",
@@ -10385,6 +11192,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "Guide",
           "package": "Wired",
@@ -10398,6 +11206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "MonadWired",
           "package": "Wired",
@@ -10406,6 +11215,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "MonadWired",
           "package": "Wired",
@@ -10419,6 +11229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "Wired",
           "package": "Wired",
@@ -10427,6 +11238,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "Wired",
           "package": "Wired",
@@ -10440,6 +11252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "WiredLibrary",
           "package": "Wired",
@@ -10448,6 +11261,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "WiredLibrary",
           "package": "Wired",
@@ -10461,6 +11275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "convertGuide",
           "package": "Wired",
@@ -10470,6 +11285,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "convertGuide",
           "normalized": "(Position,AbsBlock Guide CellId)-\u003e(Signal,(Layer_,Position,Position))",
@@ -10485,6 +11301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "featureSize",
           "package": "Wired",
@@ -10494,6 +11311,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "featureSize",
           "package": "Wired",
@@ -10507,6 +11325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "fpToLines",
           "package": "Wired",
@@ -10516,6 +11335,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "fpToLines",
           "normalized": "(Signal-\u003eMaybe Color)-\u003eFloorplan Guide CellId-\u003e[([(Position,Position)],Color)]",
@@ -10579,6 +11399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "guideLength",
           "package": "Wired",
@@ -10588,6 +11409,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "guideLength",
           "normalized": "Layer-\u003eRes a Length",
@@ -10675,6 +11497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "guide_",
           "package": "Wired",
@@ -10684,6 +11507,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "guide_",
           "normalized": "Direction-\u003eLayer-\u003eWidth-\u003ea-\u003eb a",
@@ -10698,6 +11522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "guide__",
           "package": "Wired",
@@ -10707,6 +11532,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "guide__",
           "normalized": "Direction-\u003eLayer_-\u003eWidth-\u003ea-\u003eb a",
@@ -10722,6 +11548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo be used when direction doesn't matter (e.g. when \u003ccode\u003eguideLength = 0\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "mkCell",
           "package": "Wired",
@@ -10732,6 +11559,7 @@
         "index": {
           "description": "To be used when direction doesn matter e.g when guideLength",
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "mkCell",
           "normalized": "Name-\u003eWidth-\u003eHeight-\u003ea b-\u003ea b",
@@ -10747,6 +11575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "mkGuideDB",
           "package": "Wired",
@@ -10756,6 +11585,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "mkGuideDB",
           "normalized": "Floorplan Guide CellId-\u003eMap Signal[(Layer_,Position,Position)]",
@@ -10846,6 +11676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "rowHeight",
           "package": "Wired",
@@ -10855,6 +11686,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "rowHeight",
           "package": "Wired",
@@ -10868,6 +11700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "runWired",
           "package": "Wired",
@@ -10877,6 +11710,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "runWired",
           "normalized": "Wired a b-\u003e(b,(DesignDB a,Floorplan Guide CellId))",
@@ -10988,6 +11822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "wire_",
           "package": "Wired",
@@ -10997,6 +11832,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "wire_",
           "normalized": "Direction-\u003eLength-\u003eLayer-\u003eWidth-\u003ea-\u003eb a",
@@ -11011,6 +11847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired.Model",
           "name": "wire__",
           "package": "Wired",
@@ -11020,6 +11857,7 @@
         },
         "index": {
           "hierarchy": "Wired Model",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired.Model",
           "name": "wire__",
           "normalized": "Direction-\u003eLength-\u003eLayer_-\u003eWidth-\u003ea-\u003eb a",
@@ -11034,6 +11872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired",
           "name": "Wired",
           "package": "Wired",
@@ -11042,6 +11881,7 @@
         },
         "index": {
           "hierarchy": "Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired",
           "name": "Wired",
           "package": "Wired",
@@ -11055,6 +11895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired",
           "name": "Wired",
           "package": "Wired",
@@ -11063,6 +11904,7 @@
         },
         "index": {
           "hierarchy": "Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired",
           "name": "Wired",
           "package": "Wired",
@@ -11076,6 +11918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired",
           "name": "WiredLibrary",
           "package": "Wired",
@@ -11084,6 +11927,7 @@
         },
         "index": {
           "hierarchy": "Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired",
           "name": "WiredLibrary",
           "package": "Wired",
@@ -11097,6 +11941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired",
           "name": "featureSize",
           "package": "Wired",
@@ -11106,6 +11951,7 @@
         },
         "index": {
           "hierarchy": "Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired",
           "name": "featureSize",
           "package": "Wired",
@@ -11119,6 +11965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired",
           "name": "guideLength",
           "package": "Wired",
@@ -11128,6 +11975,7 @@
         },
         "index": {
           "hierarchy": "Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired",
           "name": "guideLength",
           "normalized": "Layer-\u003eRes a Length",
@@ -11143,6 +11991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:50 UTC 2014",
           "module": "Wired",
           "name": "rowHeight",
           "package": "Wired",
@@ -11152,6 +12001,7 @@
         },
         "index": {
           "hierarchy": "Wired",
+          "indexed": "2014-03-11T17:04:50",
           "module": "Wired",
           "name": "rowHeight",
           "package": "Wired",

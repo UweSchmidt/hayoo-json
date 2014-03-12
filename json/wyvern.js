@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wyvern"
+        "phrase": "wyvern",
+        "type": "phrase"
       },
       "type": "context"
     }

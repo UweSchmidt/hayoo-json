@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "currency"
+        "phrase": "currency",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency.Rates",
           "name": "Rates",
           "package": "currency",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Currency Rates",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency.Rates",
           "name": "Rates",
           "package": "currency",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from currency to exchange rate against some reference currency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency.Rates",
           "name": "Rates",
           "package": "currency",
@@ -49,6 +52,7 @@
         "index": {
           "description": "map from currency to exchange rate against some reference currency",
           "hierarchy": "Currency Rates",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency.Rates",
           "name": "Rates",
           "package": "currency",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency.Rates",
           "name": "Rates",
           "package": "currency",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Currency Rates",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency.Rates",
           "name": "Rates",
           "package": "currency",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function for getting a single exchange rate\n\u003c/p\u003e\u003cp\u003eIf you're doing a lot of conversions, use \u003ccode\u003e\u003ca\u003erebase\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency.Rates",
           "name": "exchangeRate",
           "package": "currency",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Convenience function for getting single exchange rate If you re doing lot of conversions use rebase and lookup",
           "hierarchy": "Currency Rates",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency.Rates",
           "name": "exchangeRate",
           "normalized": "Rates a b-\u003ea-\u003ea-\u003eMaybe b",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency.Rates",
           "name": "rates",
           "package": "currency",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Currency Rates",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency.Rates",
           "name": "rates",
           "package": "currency",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the reference currency to a different one found in the \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency.Rates",
           "name": "rebase",
           "package": "currency",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Change the reference currency to different one found in the Map",
           "hierarchy": "Currency Rates",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency.Rates",
           "name": "rebase",
           "normalized": "a-\u003eRates a b-\u003eRates a b",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency.Rates",
           "name": "reference",
           "package": "currency",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Currency Rates",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency.Rates",
           "name": "reference",
           "package": "currency",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA representation of both ISO4217 and nonstandard currencies\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency",
           "name": "Currency",
           "package": "currency",
@@ -186,6 +201,7 @@
         "index": {
           "description": "representation of both ISO4217 and nonstandard currencies",
           "hierarchy": "Currency",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency",
           "name": "Currency",
           "package": "currency",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither an \u003ccode\u003e\u003ca\u003eISO4217Currency\u003c/a\u003e\u003c/code\u003e or a nonstandard currency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency",
           "name": "Currency",
           "package": "currency",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Either an ISO4217Currency or nonstandard currency",
           "hierarchy": "Currency",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency",
           "name": "Currency",
           "package": "currency",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO4217 currency, either national or non-national\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency",
           "name": "ISO4217Currency",
           "package": "currency",
@@ -232,6 +251,7 @@
         "index": {
           "description": "ISO4217 currency either national or non-national",
           "hierarchy": "Currency",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency",
           "name": "ISO4217Currency",
           "package": "currency",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency",
           "name": "ISO4217Currency",
           "package": "currency",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Currency",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency",
           "name": "ISO4217Currency",
           "package": "currency",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency",
           "name": "NationalCurrency",
           "package": "currency",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Currency",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency",
           "name": "NationalCurrency",
           "package": "currency",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency",
           "name": "NonNationalCurrency",
           "package": "currency",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Currency",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency",
           "name": "NonNationalCurrency",
           "package": "currency",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency",
           "name": "NonStandardCurrency",
           "package": "currency",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Currency",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency",
           "name": "NonStandardCurrency",
           "package": "currency",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of fractional decimal places in an amount of a\n \u003ccode\u003e\u003ca\u003eCurrency\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eISO4217Currency\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:36 UTC 2014",
           "module": "Currency",
           "name": "minorUnits",
           "package": "currency",
@@ -344,6 +373,7 @@
         "index": {
           "description": "The number of fractional decimal places in an amount of Currency or ISO4217Currency",
           "hierarchy": "Currency",
+          "indexed": "2014-03-11T17:45:36",
           "module": "Currency",
           "name": "minorUnits",
           "normalized": "a-\u003eMaybe Int",

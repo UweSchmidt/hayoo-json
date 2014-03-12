@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ncurses"
+        "phrase": "ncurses",
+        "type": "phrase"
       },
       "type": "context"
     }

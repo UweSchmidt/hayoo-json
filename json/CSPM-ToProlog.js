@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CSPM-ToProlog"
+        "phrase": "CSPM-ToProlog",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert an AST to Prolog. An experiment with the new GHC-Generic extentions\n This would be more compact with SYB.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:55 UTC 2014",
           "module": "Language.CSPM.AstToProlog",
           "name": "AstToProlog",
           "package": "CSPM-ToProlog",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Convert an AST to Prolog An experiment with the new GHC-Generic extentions This would be more compact with SYB",
           "hierarchy": "Language CSPM AstToProlog",
+          "indexed": "2014-03-11T16:35:55",
           "module": "Language.CSPM.AstToProlog",
           "name": "AstToProlog",
           "package": "CSPM-ToProlog",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:55 UTC 2014",
           "module": "Language.CSPM.AstToProlog",
           "name": "toProlog",
           "package": "CSPM-ToProlog",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AstToProlog",
+          "indexed": "2014-03-11T16:35:55",
           "module": "Language.CSPM.AstToProlog",
           "name": "toProlog",
           "normalized": "a-\u003eDoc",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTranslation of an AST into Prolog terms, suitable for the ProB CSPM-Interpreter\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:55 UTC 2014",
           "module": "Language.CSPM.CompileAstToProlog",
           "name": "CompileAstToProlog",
           "package": "CSPM-ToProlog",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Translation of an AST into Prolog terms suitable for the ProB CSPM-Interpreter",
           "hierarchy": "Language CSPM CompileAstToProlog",
+          "indexed": "2014-03-11T16:35:55",
           "module": "Language.CSPM.CompileAstToProlog",
           "name": "CompileAstToProlog",
           "package": "CSPM-ToProlog",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a \u003ca\u003eLModule\u003c/a\u003e into a \u003ca\u003eDoc\u003c/a\u003e containing a number of Prolog facts.\n The LModule must be a renamed,i.e. contain only unique \u003ca\u003eIdent\u003c/a\u003eifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:55 UTC 2014",
           "module": "Language.CSPM.CompileAstToProlog",
           "name": "cspToProlog",
           "package": "CSPM-ToProlog",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Translate LModule into Doc containing number of Prolog facts The LModule must be renamed i.e contain only unique Ident ifier",
           "hierarchy": "Language CSPM CompileAstToProlog",
+          "indexed": "2014-03-11T16:35:55",
           "module": "Language.CSPM.CompileAstToProlog",
           "name": "cspToProlog",
           "normalized": "ModuleFromRenaming-\u003eDoc",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a source location to Prolog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:55 UTC 2014",
           "module": "Language.CSPM.CompileAstToProlog",
           "name": "mkSrcLoc",
           "package": "CSPM-ToProlog",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Translate source location to Prolog",
           "hierarchy": "Language CSPM CompileAstToProlog",
+          "indexed": "2014-03-11T16:35:55",
           "module": "Language.CSPM.CompileAstToProlog",
           "name": "mkSrcLoc",
           "normalized": "SrcLoc-\u003eTerm",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a \u003ca\u003eAstAnnotation\u003c/a\u003e with \u003ca\u003eUnqiueIdentifier\u003c/a\u003e (i.e. a Symboltable)\n into a \u003ca\u003eDoc\u003c/a\u003e containing Prolog facts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:55 UTC 2014",
           "module": "Language.CSPM.CompileAstToProlog",
           "name": "mkSymbolTable",
           "package": "CSPM-ToProlog",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Translate AstAnnotation with UnqiueIdentifier i.e Symboltable into Doc containing Prolog facts",
           "hierarchy": "Language CSPM CompileAstToProlog",
+          "indexed": "2014-03-11T16:35:55",
           "module": "Language.CSPM.CompileAstToProlog",
           "name": "mkSymbolTable",
           "normalized": "AstAnnotation UniqueIdent-\u003eDoc",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTranslate a CSPM-specification to Prolog.\n This is the interface used by Prolog\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:55 UTC 2014",
           "module": "Language.CSPM.TranslateToProlog",
           "name": "TranslateToProlog",
           "package": "CSPM-ToProlog",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Translate CSPM-specification to Prolog This is the interface used by Prolog",
           "hierarchy": "Language CSPM TranslateToProlog",
+          "indexed": "2014-03-11T16:35:55",
           "module": "Language.CSPM.TranslateToProlog",
           "name": "TranslateToProlog",
           "package": "CSPM-ToProlog",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe version of the CSPM-ToProlog library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:55 UTC 2014",
           "module": "Language.CSPM.TranslateToProlog",
           "name": "toPrologVersion",
           "package": "CSPM-ToProlog",
@@ -199,6 +214,7 @@
         "index": {
           "description": "The version of the CSPM-ToProlog library",
           "hierarchy": "Language CSPM TranslateToProlog",
+          "indexed": "2014-03-11T16:35:55",
           "module": "Language.CSPM.TranslateToProlog",
           "name": "toPrologVersion",
           "package": "CSPM-ToProlog",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etranslateToProlog\u003c/a\u003e\u003c/code\u003e reads a CSPM specification from inFile\n and writes the Prolog representation to outFile.\n It handles all lexer and parser errors and catches all exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:55 UTC 2014",
           "module": "Language.CSPM.TranslateToProlog",
           "name": "translateToProlog",
           "package": "CSPM-ToProlog",
@@ -222,6 +239,7 @@
         "index": {
           "description": "translateToProlog reads CSPM specification from inFile and writes the Prolog representation to outFile It handles all lexer and parser errors and catches all exceptions",
           "hierarchy": "Language CSPM TranslateToProlog",
+          "indexed": "2014-03-11T16:35:55",
           "module": "Language.CSPM.TranslateToProlog",
           "name": "translateToProlog",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "thyme"
+        "phrase": "thyme",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJulian or Gregorian.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "MonthDay",
           "package": "thyme",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Julian or Gregorian",
           "hierarchy": "Data Thyme Calendar MonthDay",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "MonthDay",
           "package": "thyme",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "DayOfMonth",
           "package": "thyme",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar MonthDay",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "DayOfMonth",
           "package": "thyme",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "Month",
           "package": "thyme",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar MonthDay",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "Month",
           "package": "thyme",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "MonthDay",
           "package": "thyme",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar MonthDay",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "MonthDay",
           "package": "thyme",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "MonthDay",
           "package": "thyme",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar MonthDay",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "MonthDay",
           "package": "thyme",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "_mdDay",
           "package": "thyme",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar MonthDay",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "_mdDay",
           "package": "thyme",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "_mdMonth",
           "package": "thyme",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar MonthDay",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "_mdMonth",
           "package": "thyme",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "mdDay",
           "package": "thyme",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar MonthDay",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "mdDay",
           "package": "thyme",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "mdMonth",
           "package": "thyme",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar MonthDay",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "mdMonth",
           "package": "thyme",
@@ -215,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert between day of year in the Gregorian or Julian calendars, and\n month and day of month. First arg is leap year flag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "monthDay",
           "package": "thyme",
@@ -225,6 +244,7 @@
         "index": {
           "description": "Convert between day of year in the Gregorian or Julian calendars and month and day of month First arg is leap year flag",
           "hierarchy": "Data Thyme Calendar MonthDay",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "monthDay",
           "normalized": "Bool-\u003eIso' DayOfYear MonthDay",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "monthDayValid",
           "package": "thyme",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar MonthDay",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "monthDayValid",
           "normalized": "Bool-\u003eMonthDay-\u003eMaybe DayOfYear",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "monthLength",
           "package": "thyme",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar MonthDay",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.MonthDay",
           "name": "monthLength",
           "normalized": "Bool-\u003eMonth-\u003eDays",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eISO 8601 Ordinal Date format\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "OrdinalDate",
           "package": "thyme",
@@ -298,6 +323,7 @@
         "index": {
           "description": "ISO Ordinal Date format",
           "hierarchy": "Data Thyme Calendar OrdinalDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "OrdinalDate",
           "package": "thyme",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "DayOfYear",
           "package": "thyme",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar OrdinalDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "DayOfYear",
           "package": "thyme",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "OrdinalDate",
           "package": "thyme",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar OrdinalDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "OrdinalDate",
           "package": "thyme",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "Year",
           "package": "thyme",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar OrdinalDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "Year",
           "package": "thyme",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "OrdinalDate",
           "package": "thyme",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar OrdinalDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "OrdinalDate",
           "package": "thyme",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "_odDay",
           "package": "thyme",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar OrdinalDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "_odDay",
           "package": "thyme",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "_odYear",
           "package": "thyme",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar OrdinalDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "_odYear",
           "package": "thyme",
@@ -467,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "odDay",
           "package": "thyme",
@@ -476,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar OrdinalDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "odDay",
           "package": "thyme",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "odYear",
           "package": "thyme",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar OrdinalDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "odYear",
           "package": "thyme",
@@ -511,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "ordinalDate",
           "package": "thyme",
@@ -520,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar OrdinalDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "ordinalDate",
           "package": "thyme",
@@ -533,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "ordinalDateValid",
           "package": "thyme",
@@ -542,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar OrdinalDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.OrdinalDate",
           "name": "ordinalDateValid",
           "normalized": "OrdinalDate-\u003eMaybe Day",
@@ -558,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious Week Date formats\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "WeekDate",
           "package": "thyme",
@@ -567,6 +614,7 @@
         "index": {
           "description": "Various Week Date formats",
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "WeekDate",
           "package": "thyme",
@@ -580,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "DayOfWeek",
           "package": "thyme",
@@ -588,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "DayOfWeek",
           "package": "thyme",
@@ -602,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeeks numbered from 0 to 53, starting with the first Monday of the year\n as the first day of week 1. The last week of a given year and week 0 of\n the next both refer to the same week, but not all \u003ccode\u003e\u003ca\u003eDayOfWeek\u003c/a\u003e\u003c/code\u003e are valid.\n \u003ccode\u003e\u003ca\u003eYear\u003c/a\u003e\u003c/code\u003e coincides with that of \u003ccode\u003e\u003ca\u003egregorian\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "MondayWeek",
           "package": "thyme",
@@ -611,6 +662,7 @@
         "index": {
           "description": "Weeks numbered from to starting with the first Monday of the year as the first day of week The last week of given year and week of the next both refer to the same week but not all DayOfWeek are valid Year coincides with that of gregorian",
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "MondayWeek",
           "package": "thyme",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeeks numbered from 0 to 53, starting with the first Sunday of the year\n as the first day of week 1. The last week of a given year and week 0 of\n the next both refer to the same week, but not all \u003ccode\u003e\u003ca\u003eDayOfWeek\u003c/a\u003e\u003c/code\u003e are valid.\n \u003ccode\u003e\u003ca\u003eYear\u003c/a\u003e\u003c/code\u003e coincides with that of \u003ccode\u003e\u003ca\u003egregorian\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "SundayWeek",
           "package": "thyme",
@@ -634,6 +687,7 @@
         "index": {
           "description": "Weeks numbered from to starting with the first Sunday of the year as the first day of week The last week of given year and week of the next both refer to the same week but not all DayOfWeek are valid Year coincides with that of gregorian",
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "SundayWeek",
           "package": "thyme",
@@ -648,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeeks numbered 01 to 53, where week 01 is the first week that has at\n least 4 days in the new year. Days before week 01 are considered to\n belong to the previous year.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "WeekDate",
           "package": "thyme",
@@ -657,6 +712,7 @@
         "index": {
           "description": "Weeks numbered to where week is the first week that has at least days in the new year Days before week are considered to belong to the previous year",
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "WeekDate",
           "package": "thyme",
@@ -670,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "WeekOfYear",
           "package": "thyme",
@@ -678,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "WeekOfYear",
           "package": "thyme",
@@ -691,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "Year",
           "package": "thyme",
@@ -699,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "Year",
           "package": "thyme",
@@ -712,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "MondayWeek",
           "package": "thyme",
@@ -721,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "MondayWeek",
           "package": "thyme",
@@ -734,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "SundayWeek",
           "package": "thyme",
@@ -743,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "SundayWeek",
           "package": "thyme",
@@ -756,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "WeekDate",
           "package": "thyme",
@@ -765,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "WeekDate",
           "package": "thyme",
@@ -778,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_mwDay",
           "package": "thyme",
@@ -787,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_mwDay",
           "package": "thyme",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_mwWeek",
           "package": "thyme",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_mwWeek",
           "package": "thyme",
@@ -822,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_mwYear",
           "package": "thyme",
@@ -831,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_mwYear",
           "package": "thyme",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_swDay",
           "package": "thyme",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_swDay",
           "package": "thyme",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_swWeek",
           "package": "thyme",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_swWeek",
           "package": "thyme",
@@ -888,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_swYear",
           "package": "thyme",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_swYear",
           "package": "thyme",
@@ -910,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_wdDay",
           "package": "thyme",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_wdDay",
           "package": "thyme",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_wdWeek",
           "package": "thyme",
@@ -941,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_wdWeek",
           "package": "thyme",
@@ -954,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_wdYear",
           "package": "thyme",
@@ -963,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "_wdYear",
           "package": "thyme",
@@ -976,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "mondayWeek",
           "package": "thyme",
@@ -985,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "mondayWeek",
           "package": "thyme",
@@ -998,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "mondayWeekValid",
           "package": "thyme",
@@ -1007,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "mondayWeekValid",
           "normalized": "MondayWeek-\u003eMaybe Day",
@@ -1022,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "mwDay",
           "package": "thyme",
@@ -1031,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "mwDay",
           "package": "thyme",
@@ -1044,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "mwWeek",
           "package": "thyme",
@@ -1053,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "mwWeek",
           "package": "thyme",
@@ -1066,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "mwYear",
           "package": "thyme",
@@ -1075,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "mwYear",
           "package": "thyme",
@@ -1088,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "showWeekDate",
           "package": "thyme",
@@ -1097,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "showWeekDate",
           "normalized": "Day-\u003eString",
@@ -1112,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "sundayWeek",
           "package": "thyme",
@@ -1121,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "sundayWeek",
           "package": "thyme",
@@ -1134,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "sundayWeekValid",
           "package": "thyme",
@@ -1143,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "sundayWeekValid",
           "normalized": "SundayWeek-\u003eMaybe Day",
@@ -1158,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "swDay",
           "package": "thyme",
@@ -1167,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "swDay",
           "package": "thyme",
@@ -1180,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "swWeek",
           "package": "thyme",
@@ -1189,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "swWeek",
           "package": "thyme",
@@ -1202,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "swYear",
           "package": "thyme",
@@ -1211,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "swYear",
           "package": "thyme",
@@ -1224,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "wdDay",
           "package": "thyme",
@@ -1233,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "wdDay",
           "package": "thyme",
@@ -1246,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "wdWeek",
           "package": "thyme",
@@ -1255,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "wdWeek",
           "package": "thyme",
@@ -1268,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "wdYear",
           "package": "thyme",
@@ -1277,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "wdYear",
           "package": "thyme",
@@ -1290,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "weekDate",
           "package": "thyme",
@@ -1299,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "weekDate",
           "package": "thyme",
@@ -1312,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "weekDateValid",
           "package": "thyme",
@@ -1321,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekDate",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekDate",
           "name": "weekDateValid",
           "normalized": "WeekDate-\u003eMaybe Day",
@@ -1336,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "WeekdayOfMonth",
           "package": "thyme",
@@ -1344,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "WeekdayOfMonth",
           "package": "thyme",
@@ -1357,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "WeekdayOfMonth",
           "package": "thyme",
@@ -1365,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "WeekdayOfMonth",
           "package": "thyme",
@@ -1378,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "WeekdayOfMonth",
           "package": "thyme",
@@ -1387,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "WeekdayOfMonth",
           "package": "thyme",
@@ -1400,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "_womDayOfWeek",
           "package": "thyme",
@@ -1409,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "_womDayOfWeek",
           "package": "thyme",
@@ -1422,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "_womMonth",
           "package": "thyme",
@@ -1431,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "_womMonth",
           "package": "thyme",
@@ -1444,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "_womNth",
           "package": "thyme",
@@ -1453,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "_womNth",
           "package": "thyme",
@@ -1466,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "_womYear",
           "package": "thyme",
@@ -1475,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "_womYear",
           "package": "thyme",
@@ -1488,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "weekdayOfMonth",
           "package": "thyme",
@@ -1497,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "weekdayOfMonth",
           "package": "thyme",
@@ -1510,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "weekdayOfMonthValid",
           "package": "thyme",
@@ -1519,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "weekdayOfMonthValid",
           "normalized": "WeekdayOfMonth-\u003eMaybe Day",
@@ -1534,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "womDayOfWeek",
           "package": "thyme",
@@ -1543,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "womDayOfWeek",
           "package": "thyme",
@@ -1556,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "womMonth",
           "package": "thyme",
@@ -1565,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "womMonth",
           "package": "thyme",
@@ -1579,6 +1717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#177;1&#8211;5, negative means n-th last\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "womNth",
           "package": "thyme",
@@ -1589,6 +1728,7 @@
         "index": {
           "description": "negative means n-th last",
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "womNth",
           "package": "thyme",
@@ -1602,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "womYear",
           "package": "thyme",
@@ -1611,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar WeekdayOfMonth",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar.WeekdayOfMonth",
           "name": "womYear",
           "package": "thyme",
@@ -1625,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e is not Y294K-compliant, and \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e instances for the\n various calendar types reflect this fact. That said, the calendar\n calculations by themselves work perfectly fine for a wider range of\n dates, subject to the size of \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e for your platform.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "Calendar",
           "package": "thyme",
@@ -1634,6 +1777,7 @@
         "index": {
           "description": "UTCTime is not Y294K-compliant and Bounded instances for the various calendar types reflect this fact That said the calendar calculations by themselves work perfectly fine for wider range of dates subject to the size of Int for your platform",
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "Calendar",
           "package": "thyme",
@@ -1648,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Modified Julian Day is a standard count of days, with zero being\n the day 1858-11-17.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "Day",
           "package": "thyme",
@@ -1657,6 +1802,7 @@
         "index": {
           "description": "The Modified Julian Day is standard count of days with zero being the day",
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "Day",
           "package": "thyme",
@@ -1670,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "DayOfMonth",
           "package": "thyme",
@@ -1678,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "DayOfMonth",
           "package": "thyme",
@@ -1691,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "Days",
           "package": "thyme",
@@ -1699,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "Days",
           "package": "thyme",
@@ -1712,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "Month",
           "package": "thyme",
@@ -1720,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "Month",
           "package": "thyme",
@@ -1733,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "Months",
           "package": "thyme",
@@ -1741,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "Months",
           "package": "thyme",
@@ -1754,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "Year",
           "package": "thyme",
@@ -1762,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "Year",
           "package": "thyme",
@@ -1775,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "YearMonthDay",
           "package": "thyme",
@@ -1783,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "YearMonthDay",
           "package": "thyme",
@@ -1796,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "Years",
           "package": "thyme",
@@ -1804,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "Years",
           "package": "thyme",
@@ -1817,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "ModifiedJulianDay",
           "package": "thyme",
@@ -1826,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "ModifiedJulianDay",
           "package": "thyme",
@@ -1839,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "YearMonthDay",
           "package": "thyme",
@@ -1848,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "YearMonthDay",
           "package": "thyme",
@@ -1861,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "_ymdDay",
           "package": "thyme",
@@ -1870,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "_ymdDay",
           "package": "thyme",
@@ -1883,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "_ymdMonth",
           "package": "thyme",
@@ -1892,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "_ymdMonth",
           "package": "thyme",
@@ -1905,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "_ymdYear",
           "package": "thyme",
@@ -1914,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "_ymdYear",
           "package": "thyme",
@@ -1927,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "gregorian",
           "package": "thyme",
@@ -1936,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "gregorian",
           "package": "thyme",
@@ -1948,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "gregorianMonthLength",
           "package": "thyme",
@@ -1957,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "gregorianMonthLength",
           "normalized": "Year-\u003eMonth-\u003eDays",
@@ -1972,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "gregorianMonthsClip",
           "package": "thyme",
@@ -1981,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "gregorianMonthsClip",
           "normalized": "Months-\u003eYearMonthDay-\u003eYearMonthDay",
@@ -1996,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "gregorianMonthsRollover",
           "package": "thyme",
@@ -2005,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "gregorianMonthsRollover",
           "normalized": "Months-\u003eYearMonthDay-\u003eYearMonthDay",
@@ -2020,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "gregorianValid",
           "package": "thyme",
@@ -2029,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "gregorianValid",
           "normalized": "YearMonthDay-\u003eMaybe Day",
@@ -2044,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "gregorianYearsClip",
           "package": "thyme",
@@ -2053,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "gregorianYearsClip",
           "normalized": "Years-\u003eYearMonthDay-\u003eYearMonthDay",
@@ -2068,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "gregorianYearsRollover",
           "package": "thyme",
@@ -2077,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "gregorianYearsRollover",
           "normalized": "Years-\u003eYearMonthDay-\u003eYearMonthDay",
@@ -2092,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "modifiedJulianDay",
           "package": "thyme",
@@ -2101,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "modifiedJulianDay",
           "package": "thyme",
@@ -2114,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "showGregorian",
           "package": "thyme",
@@ -2123,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "showGregorian",
           "normalized": "Day-\u003eString",
@@ -2138,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "toModifiedJulianDay",
           "package": "thyme",
@@ -2147,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "toModifiedJulianDay",
           "package": "thyme",
@@ -2160,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "yearMonthDay",
           "package": "thyme",
@@ -2169,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "yearMonthDay",
           "package": "thyme",
@@ -2182,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "ymdDay",
           "package": "thyme",
@@ -2191,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "ymdDay",
           "package": "thyme",
@@ -2204,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "ymdMonth",
           "package": "thyme",
@@ -2213,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "ymdMonth",
           "package": "thyme",
@@ -2226,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Calendar",
           "name": "ymdYear",
           "package": "thyme",
@@ -2235,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Calendar",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Calendar",
           "name": "ymdYear",
           "package": "thyme",
@@ -2248,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock.POSIX",
           "name": "POSIX",
           "package": "thyme",
@@ -2256,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Clock POSIX",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock.POSIX",
           "name": "POSIX",
           "package": "thyme",
@@ -2269,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock.POSIX",
           "name": "POSIXTime",
           "package": "thyme",
@@ -2277,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Clock POSIX",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock.POSIX",
           "name": "POSIXTime",
           "package": "thyme",
@@ -2290,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock.POSIX",
           "name": "getPOSIXTime",
           "package": "thyme",
@@ -2299,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Clock POSIX",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock.POSIX",
           "name": "getPOSIXTime",
           "package": "thyme",
@@ -2313,6 +2517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe nominal length of a POSIX day: precisely 86400 SI seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock.POSIX",
           "name": "posixDayLength",
           "package": "thyme",
@@ -2323,6 +2528,7 @@
         "index": {
           "description": "The nominal length of POSIX day precisely SI seconds",
           "hierarchy": "Data Thyme Clock POSIX",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock.POSIX",
           "name": "posixDayLength",
           "package": "thyme",
@@ -2336,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock.POSIX",
           "name": "posixTime",
           "package": "thyme",
@@ -2345,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Clock POSIX",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock.POSIX",
           "name": "posixTime",
           "package": "thyme",
@@ -2358,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock.TAI",
           "name": "TAI",
           "package": "thyme",
@@ -2366,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Clock TAI",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock.TAI",
           "name": "TAI",
           "package": "thyme",
@@ -2379,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock.TAI",
           "name": "AbsoluteTime",
           "package": "thyme",
@@ -2387,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Clock TAI",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock.TAI",
           "name": "AbsoluteTime",
           "package": "thyme",
@@ -2400,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock.TAI",
           "name": "LeapSecondTable",
           "package": "thyme",
@@ -2408,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Clock TAI",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock.TAI",
           "name": "LeapSecondTable",
           "package": "thyme",
@@ -2421,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock.TAI",
           "name": "absoluteTime",
           "package": "thyme",
@@ -2430,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Clock TAI",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock.TAI",
           "name": "absoluteTime",
           "normalized": "LeapSecondTable-\u003eIso' UTCTime AbsoluteTime",
@@ -2446,6 +2662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etai-utc.dat\u003c/code\u003e from \u003ca\u003ehttp://maia.usno.navy.mil/ser7/tai-utc.dat\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock.TAI",
           "name": "parseTAIUTCDAT",
           "package": "thyme",
@@ -2456,6 +2673,7 @@
         "index": {
           "description": "tai-utc.dat from http maia.usno.navy.mil ser7 tai-utc.dat",
           "hierarchy": "Data Thyme Clock TAI",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock.TAI",
           "name": "parseTAIUTCDAT",
           "normalized": "ByteString-\u003eLeapSecondTable",
@@ -2472,6 +2690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe epoch of TAI, which is 1858-11-17 00:00:00 TAI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock.TAI",
           "name": "taiEpoch",
           "package": "thyme",
@@ -2482,6 +2701,7 @@
         "index": {
           "description": "The epoch of TAI which is TAI",
           "hierarchy": "Data Thyme Clock TAI",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock.TAI",
           "name": "taiEpoch",
           "package": "thyme",
@@ -2495,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock.TAI",
           "name": "utcDayLength",
           "package": "thyme",
@@ -2504,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Clock TAI",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock.TAI",
           "name": "utcDayLength",
           "normalized": "LeapSecondTable-\u003eDay-\u003eDiffTime",
@@ -2520,6 +2742,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes and functions for\n \u003ca\u003eUTC\u003c/a\u003e and\n \u003ca\u003eUT1\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIf you don't care about leap seconds, keep to \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e for your clock calculations, and you'll be fine.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eReal\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e instances for \u003ccode\u003e\u003ca\u003eDiffTime\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e are only available by importing \u003ca\u003eData.Thyme.Time\u003c/a\u003e. In\n their stead are instances of \u003ccode\u003e\u003ca\u003eAdditiveGroup\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eHasBasis\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eVectorSpace\u003c/a\u003e\u003c/code\u003e, with\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eScalar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDiffTime\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eScalar\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eUsing \u003ccode\u003e\u003ca\u003efromSeconds\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etoSeconds\u003c/a\u003e\u003c/code\u003e to convert between \u003ccode\u003e\u003ca\u003eTimeDiff\u003c/a\u003e\u003c/code\u003es and\n  other numeric types. If you really must coerce between \u003ccode\u003e\u003ca\u003eDiffTime\u003c/a\u003e\u003c/code\u003e and\n  \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eview\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emicroseconds\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003efrom\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003emicroseconds\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e is an instance of \u003ccode\u003e\u003ca\u003eAffineSpace\u003c/a\u003e\u003c/code\u003e, with\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDiff\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e is not Y294K-compliant. Please file a bug report on GitHub when\n this becomes a problem.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "Clock",
           "package": "thyme",
@@ -2529,6 +2752,7 @@
         "index": {
           "description": "Types and functions for UTC and UT1 If you don care about leap seconds keep to UTCTime and NominalDiffTime for your clock calculations and you ll be fine Num Real Fractional and RealFrac instances for DiffTime and NominalDiffTime are only available by importing Data.Thyme.Time In their stead are instances of AdditiveGroup HasBasis and VectorSpace with Scalar DiffTime Scalar NominalDiffTime Rational Using fromSeconds and toSeconds to convert between TimeDiff and other numeric types If you really must coerce between DiffTime and NominalDiffTime view microseconds from microseconds UTCTime is an instance of AffineSpace with Diff UTCTime NominalDiffTime UTCTime is not Y294K-compliant Please file bug report on GitHub when this becomes problem",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "Clock",
           "package": "thyme",
@@ -2543,6 +2767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn absolute time interval as measured by a clock.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eDiffTime\u003c/a\u003e\u003c/code\u003e forms an \u003ccode\u003e\u003ca\u003eAdditiveGroup\u003c/a\u003e\u003c/code\u003e&#8213;so can be added using \u003ccode\u003e\u003ca\u003e^+^\u003c/a\u003e\u003c/code\u003e (or \u003ccode\u003e\u003ca\u003e^-^\u003c/a\u003e\u003c/code\u003e\n for subtraction), and also an instance of \u003ccode\u003e\u003ca\u003eVectorSpace\u003c/a\u003e\u003c/code\u003e&#8213;so can be scaled\n using \u003ccode\u003e\u003ca\u003e*^\u003c/a\u003e\u003c/code\u003e, where\n\u003c/p\u003e\u003cpre\u003e\n type \u003ccode\u003e\u003ca\u003eScalar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDiffTime\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "DiffTime",
           "package": "thyme",
@@ -2552,6 +2777,7 @@
         "index": {
           "description": "An absolute time interval as measured by clock DiffTime forms an AdditiveGroup so can be added using or for subtraction and also an instance of VectorSpace so can be scaled using where type Scalar DiffTime Rational",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "DiffTime",
           "package": "thyme",
@@ -2566,6 +2792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA time interval as measured by UTC, that does not take leap-seconds\n into account.\n\u003c/p\u003e\u003cp\u003eFor instance, the difference between \u003ccode\u003e23:59:59\u003c/code\u003e and \u003ccode\u003e00:00:01\u003c/code\u003e on the\n following day is always 2 seconds of \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e, regardless of\n whether a leap-second took place.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e forms an \u003ccode\u003e\u003ca\u003eAdditiveGroup\u003c/a\u003e\u003c/code\u003e&#8213;so can be added using \u003ccode\u003e\u003ca\u003e^+^\u003c/a\u003e\u003c/code\u003e\n (or \u003ccode\u003e\u003ca\u003e^-^\u003c/a\u003e\u003c/code\u003e for subtraction), and also an instance of \u003ccode\u003e\u003ca\u003eVectorSpace\u003c/a\u003e\u003c/code\u003e&#8213;so can\n be scaled using \u003ccode\u003e\u003ca\u003e*^\u003c/a\u003e\u003c/code\u003e, where\n\u003c/p\u003e\u003cpre\u003e\n type \u003ccode\u003e\u003ca\u003eScalar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "NominalDiffTime",
           "package": "thyme",
@@ -2575,6 +2802,7 @@
         "index": {
           "description": "time interval as measured by UTC that does not take leap-seconds into account For instance the difference between and on the following day is always seconds of NominalDiffTime regardless of whether leap-second took place NominalDiffTime forms an AdditiveGroup so can be added using or for subtraction and also an instance of VectorSpace so can be scaled using where type Scalar NominalDiffTime Rational",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "NominalDiffTime",
           "package": "thyme",
@@ -2589,6 +2817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime intervals, encompassing both \u003ccode\u003e\u003ca\u003eDiffTime\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eIssues\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Still affected by\n \u003ca\u003ehttp://hackage.haskell.org/trac/ghc/ticket/7611\u003c/a\u003e?\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "TimeDiff",
           "package": "thyme",
@@ -2598,6 +2827,7 @@
         "index": {
           "description": "Time intervals encompassing both DiffTime and NominalDiffTime Issues Still affected by http hackage.haskell.org trac ghc ticket",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "TimeDiff",
           "package": "thyme",
@@ -2612,6 +2842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003eCo&#246;rdinated universal time\u003c/a\u003e:\n the most common form of universal time for civil timekeeping. It is\n synchronised with \u003ccode\u003eAbsoluteTime\u003c/code\u003e and both tick in increments of SI\n seconds, but UTC includes occasional leap-seconds so that it does not\n drift too far from \u003ccode\u003e\u003ca\u003eUniversalTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e is an instance of \u003ccode\u003e\u003ca\u003eAffineSpace\u003c/a\u003e\u003c/code\u003e, with\n\u003c/p\u003e\u003cpre\u003e\n type \u003ccode\u003e\u003ca\u003eDiff\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003e.+^\u003c/a\u003e\u003c/code\u003e to add (or \u003ccode\u003e\u003ca\u003e.-^\u003c/a\u003e\u003c/code\u003e to subtract) time intervals of type\n \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003e.-.\u003c/a\u003e\u003c/code\u003e to get the interval between \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003ePerformance\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Internally this is a 64-bit count of \u003ccode\u003e\u003ca\u003emicroseconds\u003c/a\u003e\u003c/code\u003e since\n the MJD epoch, so \u003ccode\u003e\u003ca\u003e.+^\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e.-^\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e.-.\u003c/a\u003e\u003c/code\u003e ought to be fairly fast.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eIssues\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e currently\n \u003ca\u003ecannot represent leap seconds\u003c/a\u003e.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "UTCTime",
           "package": "thyme",
@@ -2621,6 +2852,7 @@
         "index": {
           "description": "Co rdinated universal time the most common form of universal time for civil timekeeping It is synchronised with AbsoluteTime and both tick in increments of SI seconds but UTC includes occasional leap-seconds so that it does not drift too far from UniversalTime UTCTime is an instance of AffineSpace with type Diff UTCTime NominalDiffTime Use to add or to subtract time intervals of type NominalDiffTime and to get the interval between UTCTime Performance Internally this is bit count of microseconds since the MJD epoch so and ought to be fairly fast Issues UTCTime currently cannot represent leap seconds",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "UTCTime",
           "package": "thyme",
@@ -2635,6 +2867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpacked \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e, partly for compatibility with \u003ccode\u003etime\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "UTCView",
           "package": "thyme",
@@ -2644,6 +2877,7 @@
         "index": {
           "description": "Unpacked UTCTime partly for compatibility with time",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "UTCView",
           "package": "thyme",
@@ -2658,6 +2892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe principal form of universal time, namely\n \u003ca\u003eUT1\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eUniversalTime\u003c/a\u003e\u003c/code\u003e is defined by the rotation of the Earth around its axis\n relative to the Sun. Thus the length of a day by this definition varies\n from one to the next, and is never exactly 86400 SI seconds unlike\n \u003ca\u003eTAI\u003c/a\u003e or\n \u003ccode\u003eAbsoluteTime\u003c/code\u003e. The difference between UT1 and UTC is\n \u003ca\u003eDUT1\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "UniversalTime",
           "package": "thyme",
@@ -2667,6 +2902,7 @@
         "index": {
           "description": "The principal form of universal time namely UT1 UniversalTime is defined by the rotation of the Earth around its axis relative to the Sun Thus the length of day by this definition varies from one to the next and is never exactly SI seconds unlike TAI or AbsoluteTime The difference between UT1 and UTC is DUT1",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "UniversalTime",
           "package": "thyme",
@@ -2680,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "UTCTime",
           "package": "thyme",
@@ -2689,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "UTCTime",
           "package": "thyme",
@@ -2703,6 +2941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLens'\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eDay\u003c/a\u003e\u003c/code\u003e component of an \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "_utctDay",
           "package": "thyme",
@@ -2713,6 +2952,7 @@
         "index": {
           "description": "Lens for the Day component of an UTCTime",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "_utctDay",
           "package": "thyme",
@@ -2727,6 +2967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLens'\u003c/a\u003e\u003c/code\u003e for the time-of-day component of an \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "_utctDayTime",
           "package": "thyme",
@@ -2737,6 +2978,7 @@
         "index": {
           "description": "Lens for the time-of-day component of an UTCTime",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "_utctDayTime",
           "package": "thyme",
@@ -2751,6 +2993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a time interval from some \u003ccode\u003e\u003ca\u003eReal\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003ePerformance\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Try to make sure \u003ccode\u003en\u003c/code\u003e is one of \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e, for which rewrite \u003ccode\u003eRULES\u003c/code\u003e have been provided.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "fromSeconds",
           "package": "thyme",
@@ -2761,6 +3004,7 @@
         "index": {
           "description": "Make time interval from some Real type Performance Try to make sure is one of Float Double Int Int64 or Integer for which rewrite RULES have been provided",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "fromSeconds",
           "normalized": "a-\u003eb",
@@ -2777,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-restricted \u003ccode\u003e\u003ca\u003efromSeconds\u003c/a\u003e\u003c/code\u003e to avoid constraint-defaulting warnings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "fromSeconds'",
           "package": "thyme",
@@ -2787,6 +3032,7 @@
         "index": {
           "description": "Type-restricted fromSeconds to avoid constraint-defaulting warnings",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "fromSeconds'",
           "normalized": "Rational-\u003ea",
@@ -2803,6 +3049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current UTC time from the system clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "getCurrentTime",
           "package": "thyme",
@@ -2813,6 +3060,7 @@
         "index": {
           "description": "Get the current UTC time from the system clock",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "getCurrentTime",
           "package": "thyme",
@@ -2827,6 +3075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape hatch; avoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "microseconds",
           "package": "thyme",
@@ -2837,6 +3086,7 @@
         "index": {
           "description": "Escape hatch avoid",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "microseconds",
           "package": "thyme",
@@ -2850,6 +3100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView \u003ccode\u003e\u003ca\u003eUniversalTime\u003c/a\u003e\u003c/code\u003e as a fractional number of days since the\n \u003ca\u003eModified Julian Date epoch\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "modJulianDate",
           "package": "thyme",
@@ -2860,6 +3111,7 @@
         "index": {
           "description": "View UniversalTime as fractional number of days since the Modified Julian Date epoch",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "modJulianDate",
           "package": "thyme",
@@ -2874,6 +3126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a time interval to some \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "toSeconds",
           "package": "thyme",
@@ -2884,6 +3137,7 @@
         "index": {
           "description": "Convert time interval to some Fractional type",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "toSeconds",
           "normalized": "a-\u003eb",
@@ -2900,6 +3154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-restricted \u003ccode\u003e\u003ca\u003etoSeconds\u003c/a\u003e\u003c/code\u003e to avoid constraint-defaulting warnings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "toSeconds'",
           "package": "thyme",
@@ -2910,6 +3165,7 @@
         "index": {
           "description": "Type-restricted toSeconds to avoid constraint-defaulting warnings",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "toSeconds'",
           "normalized": "a-\u003eRational",
@@ -2926,6 +3182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e as an \u003ccode\u003e\u003ca\u003eUTCView\u003c/a\u003e\u003c/code\u003e, comprising a \u003ccode\u003e\u003ca\u003eDay\u003c/a\u003e\u003c/code\u003e along with\n a \u003ccode\u003e\u003ca\u003eDiffTime\u003c/a\u003e\u003c/code\u003e offset since midnight.\n\u003c/p\u003e\u003cp\u003eThis is an improper lens: \u003ccode\u003e\u003ca\u003eutctDayTime\u003c/a\u003e\u003c/code\u003e offsets outside the range of\n \u003ccode\u003e[\u003ccode\u003e\u003ca\u003ezeroV\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eposixDayLength\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e will carry over into the day part, with the\n expected behaviour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "utcTime",
           "package": "thyme",
@@ -2936,6 +3193,7 @@
         "index": {
           "description": "View UTCTime as an UTCView comprising Day along with DiffTime offset since midnight This is an improper lens utctDayTime offsets outside the range of zeroV posixDayLength will carry over into the day part with the expected behaviour",
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "utcTime",
           "package": "thyme",
@@ -2949,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "utctDay",
           "package": "thyme",
@@ -2958,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "utctDay",
           "package": "thyme",
@@ -2971,6 +3231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Clock",
           "name": "utctDayTime",
           "package": "thyme",
@@ -2980,6 +3241,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Clock",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Clock",
           "name": "utctDayTime",
           "package": "thyme",
@@ -2994,6 +3256,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eFromJSON\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eToJSON\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eZonedTime\u003c/a\u003e\u003c/code\u003e,\n along with a newtype wrapper \u003ccode\u003e\u003ca\u003eDotNetTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format.Aeson",
           "name": "Aeson",
           "package": "thyme",
@@ -3003,6 +3266,7 @@
         "index": {
           "description": "Instances of FromJSON and ToJSON for UTCTime and ZonedTime along with newtype wrapper DotNetTime",
           "hierarchy": "Data Thyme Format Aeson",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format.Aeson",
           "name": "Aeson",
           "package": "thyme",
@@ -3017,6 +3281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype wrapper for \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e that uses the same non-standard\n serialization format as Microsoft .NET, whose \u003ccode\u003eSystem.DateTime\u003c/code\u003e\n type is by default serialized to JSON as in the following example:\n\u003c/p\u003e\u003cpre\u003e /Date(1302547608878)/\n\u003c/pre\u003e\u003cp\u003eThe number represents milliseconds since the Unix epoch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format.Aeson",
           "name": "DotNetTime",
           "package": "thyme",
@@ -3026,6 +3291,7 @@
         "index": {
           "description": "newtype wrapper for UTCTime that uses the same non-standard serialization format as Microsoft NET whose System.DateTime type is by default serialized to JSON as in the following example Date The number represents milliseconds since the Unix epoch",
           "hierarchy": "Data Thyme Format Aeson",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format.Aeson",
           "name": "DotNetTime",
           "package": "thyme",
@@ -3039,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format.Aeson",
           "name": "DotNetTime",
           "package": "thyme",
@@ -3048,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format Aeson",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format.Aeson",
           "name": "DotNetTime",
           "package": "thyme",
@@ -3061,6 +3329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format.Aeson",
           "name": "fromDotNetTime",
           "package": "thyme",
@@ -3070,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format Aeson",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format.Aeson",
           "name": "fromDotNetTime",
           "package": "thyme",
@@ -3083,6 +3353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format.Human",
           "name": "Human",
           "package": "thyme",
@@ -3091,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format Human",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format.Human",
           "name": "Human",
           "package": "thyme",
@@ -3105,6 +3377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay one \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e relative to another, in a human-readable form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format.Human",
           "name": "humanRelTime",
           "package": "thyme",
@@ -3115,6 +3388,7 @@
         "index": {
           "description": "Display one UTCTime relative to another in human-readable form",
           "hierarchy": "Data Thyme Format Human",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format.Human",
           "name": "humanRelTime",
           "normalized": "UTCTime-\u003eUTCTime-\u003eString",
@@ -3131,6 +3405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay one \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e relative to another, in a human-readable form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format.Human",
           "name": "humanRelTimes",
           "package": "thyme",
@@ -3141,6 +3416,7 @@
         "index": {
           "description": "Display one UTCTime relative to another in human-readable form",
           "hierarchy": "Data Thyme Format Human",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format.Human",
           "name": "humanRelTimes",
           "normalized": "UTCTime-\u003eUTCTime-\u003eShowS",
@@ -3157,6 +3433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay \u003ccode\u003e\u003ca\u003eDiffTime\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e in a human-readable form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format.Human",
           "name": "humanTimeDiff",
           "package": "thyme",
@@ -3167,6 +3444,7 @@
         "index": {
           "description": "Display DiffTime or NominalDiffTime in human-readable form",
           "hierarchy": "Data Thyme Format Human",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format.Human",
           "name": "humanTimeDiff",
           "normalized": "a-\u003eString",
@@ -3183,6 +3461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay \u003ccode\u003e\u003ca\u003eDiffTime\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e in a human-readable form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format.Human",
           "name": "humanTimeDiffs",
           "package": "thyme",
@@ -3193,6 +3472,7 @@
         "index": {
           "description": "Display DiffTime or NominalDiffTime in human-readable form",
           "hierarchy": "Data Thyme Format Human",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format.Human",
           "name": "humanTimeDiffs",
           "normalized": "a-\u003eShowS",
@@ -3208,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "Format",
           "package": "thyme",
@@ -3216,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "Format",
           "package": "thyme",
@@ -3229,6 +3511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "FormatTime",
           "package": "thyme",
@@ -3237,6 +3520,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "FormatTime",
           "package": "thyme",
@@ -3250,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "ParseTime",
           "package": "thyme",
@@ -3258,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "ParseTime",
           "package": "thyme",
@@ -3271,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "TimeParse",
           "package": "thyme",
@@ -3279,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "TimeParse",
           "package": "thyme",
@@ -3292,6 +3580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "TimeParse",
           "package": "thyme",
@@ -3301,6 +3590,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "TimeParse",
           "package": "thyme",
@@ -3314,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "buildTime",
           "package": "thyme",
@@ -3323,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "buildTime",
           "normalized": "TimeParse-\u003ea",
@@ -3338,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "formatTime",
           "package": "thyme",
@@ -3347,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "formatTime",
           "normalized": "TimeLocale-\u003eString-\u003ea-\u003eString",
@@ -3362,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "parseTime",
           "package": "thyme",
@@ -3371,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "parseTime",
           "normalized": "TimeLocale-\u003eString-\u003eString-\u003eMaybe a",
@@ -3386,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "readTime",
           "package": "thyme",
@@ -3395,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "readTime",
           "normalized": "TimeLocale-\u003eString-\u003eString-\u003ea",
@@ -3410,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "readsTime",
           "package": "thyme",
@@ -3419,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "readsTime",
           "normalized": "TimeLocale-\u003eString-\u003eReadS a",
@@ -3434,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "showsTime",
           "package": "thyme",
@@ -3443,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "showsTime",
           "normalized": "TimeLocale-\u003ea-\u003e(Char-\u003eShowS)-\u003eChar-\u003eShowS",
@@ -3459,6 +3761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e for UTF-8 encoded \u003ccode\u003eByteString\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eAttoparsec easily beats any \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e parser out there, but we do have to\n be careful to convert the input to UTF-8 \u003ccode\u003eByteString\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "timeParser",
           "package": "thyme",
@@ -3469,6 +3772,7 @@
         "index": {
           "description": "Time Parser for UTF-8 encoded ByteString Attoparsec easily beats any String parser out there but we do have to be careful to convert the input to UTF-8 ByteString",
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "timeParser",
           "normalized": "TimeLocale-\u003eString-\u003eParser TimeParse",
@@ -3484,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpCentury",
           "package": "thyme",
@@ -3493,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpCentury",
           "package": "thyme",
@@ -3506,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpCenturyYear",
           "package": "thyme",
@@ -3515,6 +3822,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpCenturyYear",
           "package": "thyme",
@@ -3528,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpDayOfMonth",
           "package": "thyme",
@@ -3537,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpDayOfMonth",
           "package": "thyme",
@@ -3550,6 +3860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpDayOfWeek",
           "package": "thyme",
@@ -3559,6 +3870,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpDayOfWeek",
           "package": "thyme",
@@ -3572,6 +3884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpDayOfYear",
           "package": "thyme",
@@ -3581,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpDayOfYear",
           "package": "thyme",
@@ -3594,6 +3908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpFlags",
           "package": "thyme",
@@ -3603,6 +3918,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpFlags",
           "package": "thyme",
@@ -3616,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpHour",
           "package": "thyme",
@@ -3625,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpHour",
           "package": "thyme",
@@ -3638,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpMinute",
           "package": "thyme",
@@ -3647,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpMinute",
           "package": "thyme",
@@ -3660,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpMonth",
           "package": "thyme",
@@ -3669,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpMonth",
           "package": "thyme",
@@ -3682,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpPOSIXTime",
           "package": "thyme",
@@ -3691,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpPOSIXTime",
           "package": "thyme",
@@ -3704,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpSecFrac",
           "package": "thyme",
@@ -3713,6 +4038,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpSecFrac",
           "package": "thyme",
@@ -3726,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpSecond",
           "package": "thyme",
@@ -3735,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpSecond",
           "package": "thyme",
@@ -3748,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpTimeZone",
           "package": "thyme",
@@ -3757,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpTimeZone",
           "package": "thyme",
@@ -3770,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Format",
           "name": "tpWeekOfYear",
           "package": "thyme",
@@ -3779,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Format",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Format",
           "name": "tpWeekOfYear",
           "package": "thyme",
@@ -3792,6 +4124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "LocalTime",
           "package": "thyme",
@@ -3800,6 +4133,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "LocalTime",
           "package": "thyme",
@@ -3813,6 +4147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "Hour",
           "package": "thyme",
@@ -3821,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "Hour",
           "package": "thyme",
@@ -3834,6 +4170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "LocalTime",
           "package": "thyme",
@@ -3842,6 +4179,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "LocalTime",
           "package": "thyme",
@@ -3855,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "Minute",
           "package": "thyme",
@@ -3863,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "Minute",
           "package": "thyme",
@@ -3876,6 +4216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "Minutes",
           "package": "thyme",
@@ -3884,6 +4225,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "Minutes",
           "package": "thyme",
@@ -3897,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "TimeOfDay",
           "package": "thyme",
@@ -3905,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "TimeOfDay",
           "package": "thyme",
@@ -3919,6 +4263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA TimeZone is a whole number of minutes offset from UTC, together with a name and a \"just for summer\" flag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "TimeZone",
           "package": "thyme",
@@ -3927,6 +4272,7 @@
         "index": {
           "description": "TimeZone is whole number of minutes offset from UTC together with name and just for summer flag",
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "TimeZone",
           "package": "thyme",
@@ -3940,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "ZonedTime",
           "package": "thyme",
@@ -3948,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "ZonedTime",
           "package": "thyme",
@@ -3961,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "LocalTime",
           "package": "thyme",
@@ -3970,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "LocalTime",
           "package": "thyme",
@@ -3983,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "TimeOfDay",
           "package": "thyme",
@@ -3992,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "TimeOfDay",
           "package": "thyme",
@@ -4005,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "TimeZone",
           "package": "thyme",
@@ -4013,6 +4366,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "TimeZone",
           "package": "thyme",
@@ -4026,6 +4380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "ZonedTime",
           "package": "thyme",
@@ -4035,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "ZonedTime",
           "package": "thyme",
@@ -4048,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "_localDay",
           "package": "thyme",
@@ -4057,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "_localDay",
           "package": "thyme",
@@ -4070,6 +4428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "_localTimeOfDay",
           "package": "thyme",
@@ -4079,6 +4438,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "_localTimeOfDay",
           "package": "thyme",
@@ -4092,6 +4452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "_timeZoneMinutes",
           "package": "thyme",
@@ -4101,6 +4462,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "_timeZoneMinutes",
           "package": "thyme",
@@ -4114,6 +4476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "_timeZoneName",
           "package": "thyme",
@@ -4123,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "_timeZoneName",
           "package": "thyme",
@@ -4136,6 +4500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "_timeZoneSummerOnly",
           "package": "thyme",
@@ -4145,6 +4510,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "_timeZoneSummerOnly",
           "package": "thyme",
@@ -4158,6 +4524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "_todHour",
           "package": "thyme",
@@ -4167,6 +4534,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "_todHour",
           "package": "thyme",
@@ -4180,6 +4548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "_todMin",
           "package": "thyme",
@@ -4189,6 +4558,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "_todMin",
           "package": "thyme",
@@ -4202,6 +4572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "_todSec",
           "package": "thyme",
@@ -4211,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "_todSec",
           "package": "thyme",
@@ -4224,6 +4596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "_zonedTimeToLocalTime",
           "package": "thyme",
@@ -4233,6 +4606,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "_zonedTimeToLocalTime",
           "package": "thyme",
@@ -4246,6 +4620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "_zonedTimeZone",
           "package": "thyme",
@@ -4255,6 +4630,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "_zonedTimeZone",
           "package": "thyme",
@@ -4269,6 +4645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd some minutes to a \u003ccode\u003e\u003ca\u003eTimeOfDay\u003c/a\u003e\u003c/code\u003e; result comes with a day adjustment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "addMinutes",
           "package": "thyme",
@@ -4279,6 +4656,7 @@
         "index": {
           "description": "Add some minutes to TimeOfDay result comes with day adjustment",
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "addMinutes",
           "normalized": "Minutes-\u003eTimeOfDay-\u003e(Days,TimeOfDay)",
@@ -4294,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "dayFraction",
           "package": "thyme",
@@ -4303,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "dayFraction",
           "package": "thyme",
@@ -4316,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "getCurrentTimeZone",
           "package": "thyme",
@@ -4325,6 +4706,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "getCurrentTimeZone",
           "package": "thyme",
@@ -4338,6 +4720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "getTimeZone",
           "package": "thyme",
@@ -4347,6 +4730,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "getTimeZone",
           "normalized": "UTCTime-\u003eIO TimeZone",
@@ -4362,6 +4746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "getZonedTime",
           "package": "thyme",
@@ -4371,6 +4756,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "getZonedTime",
           "package": "thyme",
@@ -4385,6 +4771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a nameless non-summer timezone for this number of hours\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "hoursToTimeZone",
           "package": "thyme",
@@ -4394,6 +4781,7 @@
         "index": {
           "description": "Create nameless non-summer timezone for this number of hours",
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "hoursToTimeZone",
           "normalized": "Int-\u003eTimeZone",
@@ -4409,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "localDay",
           "package": "thyme",
@@ -4418,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "localDay",
           "package": "thyme",
@@ -4431,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "localTimeOfDay",
           "package": "thyme",
@@ -4440,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "localTimeOfDay",
           "package": "thyme",
@@ -4453,6 +4845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "makeTimeOfDayValid",
           "package": "thyme",
@@ -4462,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "makeTimeOfDayValid",
           "normalized": "Hour-\u003eMinute-\u003eDiffTime-\u003eMaybe TimeOfDay",
@@ -4478,6 +4872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHour twelve\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "midday",
           "package": "thyme",
@@ -4488,6 +4883,7 @@
         "index": {
           "description": "Hour twelve",
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "midday",
           "package": "thyme",
@@ -4501,6 +4897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHour zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "midnight",
           "package": "thyme",
@@ -4511,6 +4908,7 @@
         "index": {
           "description": "Hour zero",
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "midnight",
           "package": "thyme",
@@ -4523,6 +4921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "minuteLength",
           "package": "thyme",
@@ -4532,6 +4931,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "minuteLength",
           "normalized": "Hour-\u003eMinute-\u003eDiffTime",
@@ -4548,6 +4948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a nameless non-summer timezone for this number of minutes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "minutesToTimeZone",
           "package": "thyme",
@@ -4557,6 +4958,7 @@
         "index": {
           "description": "Create nameless non-summer timezone for this number of minutes",
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "minutesToTimeZone",
           "normalized": "Int-\u003eTimeZone",
@@ -4572,6 +4974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "timeOfDay",
           "package": "thyme",
@@ -4581,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "timeOfDay",
           "package": "thyme",
@@ -4595,6 +4999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of minutes offset from UTC. Positive means local time will be later in the day than UTC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "timeZoneMinutes",
           "package": "thyme",
@@ -4604,6 +5009,7 @@
         "index": {
           "description": "The number of minutes offset from UTC Positive means local time will be later in the day than UTC",
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "timeZoneMinutes",
           "package": "thyme",
@@ -4618,6 +5024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the zone, typically a three- or four-letter acronym.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "timeZoneName",
           "package": "thyme",
@@ -4627,6 +5034,7 @@
         "index": {
           "description": "The name of the zone typically three or four-letter acronym",
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "timeZoneName",
           "package": "thyme",
@@ -4641,6 +5049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText representing the offset of this timezone, such as \"-0800\" or \"+0400\" (like %z in formatTime)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "timeZoneOffsetString",
           "package": "thyme",
@@ -4650,6 +5059,7 @@
         "index": {
           "description": "Text representing the offset of this timezone such as or like in formatTime",
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "timeZoneOffsetString",
           "normalized": "TimeZone-\u003eString",
@@ -4666,6 +5076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText representing the offset of this timezone, such as \"-0800\" or \"+0400\" (like %z in formatTime), with arbitrary padding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "timeZoneOffsetString'",
           "package": "thyme",
@@ -4675,6 +5086,7 @@
         "index": {
           "description": "Text representing the offset of this timezone such as or like in formatTime with arbitrary padding",
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "timeZoneOffsetString'",
           "normalized": "NumericPadOption-\u003eTimeZone-\u003eString",
@@ -4691,6 +5103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this time zone just persisting for the summer?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "timeZoneSummerOnly",
           "package": "thyme",
@@ -4700,6 +5113,7 @@
         "index": {
           "description": "Is this time zone just persisting for the summer",
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "timeZoneSummerOnly",
           "package": "thyme",
@@ -4713,6 +5127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "todHour",
           "package": "thyme",
@@ -4722,6 +5137,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "todHour",
           "package": "thyme",
@@ -4735,6 +5151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "todMin",
           "package": "thyme",
@@ -4744,6 +5161,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "todMin",
           "package": "thyme",
@@ -4757,6 +5175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "todSec",
           "package": "thyme",
@@ -4766,6 +5185,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "todSec",
           "package": "thyme",
@@ -4779,6 +5199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "ut1LocalTime",
           "package": "thyme",
@@ -4788,6 +5209,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "ut1LocalTime",
           "normalized": "Rational-\u003eIso' UniversalTime LocalTime",
@@ -4804,6 +5226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe UTC time zone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "utc",
           "package": "thyme",
@@ -4813,6 +5236,7 @@
         "index": {
           "description": "The UTC time zone",
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "utc",
           "package": "thyme",
@@ -4825,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "utcLocalTime",
           "package": "thyme",
@@ -4834,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "utcLocalTime",
           "normalized": "TimeZone-\u003eIso' UTCTime LocalTime",
@@ -4849,6 +5275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "utcToLocalZonedTime",
           "package": "thyme",
@@ -4858,6 +5285,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "utcToLocalZonedTime",
           "normalized": "UTCTime-\u003eIO ZonedTime",
@@ -4873,6 +5301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "zonedTime",
           "package": "thyme",
@@ -4882,6 +5311,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "zonedTime",
           "normalized": "Iso'(TimeZone,UTCTime)ZonedTime",
@@ -4897,6 +5327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "zonedTimeToLocalTime",
           "package": "thyme",
@@ -4906,6 +5337,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "zonedTimeToLocalTime",
           "package": "thyme",
@@ -4919,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.LocalTime",
           "name": "zonedTimeZone",
           "package": "thyme",
@@ -4928,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme LocalTime",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.LocalTime",
           "name": "zonedTimeZone",
           "package": "thyme",
@@ -4942,6 +5376,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides just the compatibility wrappers for the things\n that \u003ccode\u003ethyme\u003c/code\u003e does differently from \u003ccode\u003etime\u003c/code\u003e. No \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e instances for\n \u003ccode\u003e\u003ca\u003eDiffTime\u003c/a\u003e\u003c/code\u003e nor \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e, nor other riffraff.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "Core",
           "package": "thyme",
@@ -4951,6 +5386,7 @@
         "index": {
           "description": "This module provides just the compatibility wrappers for the things that thyme does differently from time No RealFrac instances for DiffTime nor NominalDiffTime nor other riffraff",
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "Core",
           "package": "thyme",
@@ -4964,6 +5400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "Thyme",
           "package": "thyme",
@@ -4972,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "Thyme",
           "package": "thyme",
@@ -4985,6 +5423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "addAbsoluteTime",
           "package": "thyme",
@@ -4994,6 +5433,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "addAbsoluteTime",
           "normalized": "DiffTime-\u003eAbsoluteTime-\u003eAbsoluteTime",
@@ -5009,6 +5449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "addDays",
           "package": "thyme",
@@ -5018,6 +5459,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "addDays",
           "normalized": "Days-\u003eDay-\u003eDay",
@@ -5033,6 +5475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "addGregorianMonthsClip",
           "package": "thyme",
@@ -5042,6 +5485,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "addGregorianMonthsClip",
           "normalized": "Months-\u003eDay-\u003eDay",
@@ -5057,6 +5501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "addGregorianMonthsRollover",
           "package": "thyme",
@@ -5066,6 +5511,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "addGregorianMonthsRollover",
           "normalized": "Months-\u003eDay-\u003eDay",
@@ -5081,6 +5527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "addGregorianYearsClip",
           "package": "thyme",
@@ -5090,6 +5537,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "addGregorianYearsClip",
           "normalized": "Years-\u003eDay-\u003eDay",
@@ -5105,6 +5553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "addGregorianYearsRollover",
           "package": "thyme",
@@ -5114,6 +5563,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "addGregorianYearsRollover",
           "normalized": "Years-\u003eDay-\u003eDay",
@@ -5129,6 +5579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "addUTCTime",
           "package": "thyme",
@@ -5138,6 +5589,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "addUTCTime",
           "normalized": "NominalDiffTime-\u003eUTCTime-\u003eUTCTime",
@@ -5153,6 +5605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "dayFractionToTimeOfDay",
           "package": "thyme",
@@ -5162,6 +5615,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "dayFractionToTimeOfDay",
           "normalized": "Rational-\u003eTimeOfDay",
@@ -5177,6 +5631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "dayOfYearToMonthAndDay",
           "package": "thyme",
@@ -5186,6 +5641,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "dayOfYearToMonthAndDay",
           "normalized": "Bool-\u003eDayOfYear-\u003e(Month,DayOfMonth)",
@@ -5201,6 +5657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "diffAbsoluteTime",
           "package": "thyme",
@@ -5210,6 +5667,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "diffAbsoluteTime",
           "normalized": "AbsoluteTime-\u003eAbsoluteTime-\u003eDiffTime",
@@ -5225,6 +5683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "diffDays",
           "package": "thyme",
@@ -5234,6 +5693,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "diffDays",
           "normalized": "Day-\u003eDay-\u003eDays",
@@ -5249,6 +5709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "diffUTCTime",
           "package": "thyme",
@@ -5258,6 +5719,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "diffUTCTime",
           "normalized": "UTCTime-\u003eUTCTime-\u003eNominalDiffTime",
@@ -5273,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "fromGregorian",
           "package": "thyme",
@@ -5282,6 +5745,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "fromGregorian",
           "normalized": "Year-\u003eMonth-\u003eDayOfMonth-\u003eDay",
@@ -5297,6 +5761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "fromGregorianValid",
           "package": "thyme",
@@ -5306,6 +5771,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "fromGregorianValid",
           "normalized": "Year-\u003eMonth-\u003eDayOfMonth-\u003eMaybe Day",
@@ -5321,6 +5787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "fromMondayStartWeek",
           "package": "thyme",
@@ -5330,6 +5797,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "fromMondayStartWeek",
           "normalized": "Year-\u003eWeekOfYear-\u003eDayOfWeek-\u003eDay",
@@ -5345,6 +5813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "fromMondayStartWeekValid",
           "package": "thyme",
@@ -5354,6 +5823,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "fromMondayStartWeekValid",
           "normalized": "Year-\u003eWeekOfYear-\u003eDayOfWeek-\u003eMaybe Day",
@@ -5369,6 +5839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "fromOrdinalDate",
           "package": "thyme",
@@ -5378,6 +5849,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "fromOrdinalDate",
           "normalized": "Year-\u003eDayOfYear-\u003eDay",
@@ -5393,6 +5865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "fromOrdinalDateValid",
           "package": "thyme",
@@ -5402,6 +5875,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "fromOrdinalDateValid",
           "normalized": "Year-\u003eDayOfYear-\u003eMaybe Day",
@@ -5417,6 +5891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "fromSundayStartWeek",
           "package": "thyme",
@@ -5426,6 +5901,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "fromSundayStartWeek",
           "normalized": "Year-\u003eWeekOfYear-\u003eDayOfWeek-\u003eDay",
@@ -5441,6 +5917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "fromSundayStartWeekValid",
           "package": "thyme",
@@ -5450,6 +5927,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "fromSundayStartWeekValid",
           "normalized": "Year-\u003eWeekOfYear-\u003eDayOfWeek-\u003eMaybe Day",
@@ -5465,6 +5943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "fromThyme",
           "package": "thyme",
@@ -5474,6 +5953,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "fromThyme",
           "normalized": "a-\u003eb",
@@ -5489,6 +5969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "fromWeekDate",
           "package": "thyme",
@@ -5498,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "fromWeekDate",
           "normalized": "Year-\u003eWeekOfYear-\u003eDayOfWeek-\u003eDay",
@@ -5513,6 +5995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "fromWeekDateValid",
           "package": "thyme",
@@ -5522,6 +6005,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "fromWeekDateValid",
           "normalized": "Year-\u003eWeekOfYear-\u003eDayOfWeek-\u003eMaybe Day",
@@ -5537,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "getModJulianDate",
           "package": "thyme",
@@ -5546,6 +6031,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "getModJulianDate",
           "normalized": "UniversalTime-\u003eRational",
@@ -5561,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "localTimeToUT1",
           "package": "thyme",
@@ -5570,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "localTimeToUT1",
           "normalized": "Rational-\u003eLocalTime-\u003eUniversalTime",
@@ -5585,6 +6073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "localTimeToUTC",
           "package": "thyme",
@@ -5594,6 +6083,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "localTimeToUTC",
           "normalized": "TimeZone-\u003eLocalTime-\u003eUTCTime",
@@ -5609,6 +6099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "localToUTCTimeOfDay",
           "package": "thyme",
@@ -5618,6 +6109,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "localToUTCTimeOfDay",
           "normalized": "TimeZone-\u003eTimeOfDay-\u003e(Days,TimeOfDay)",
@@ -5634,6 +6126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplacement for \u003ccode\u003e\u003ca\u003eModJulianDate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "mkModJulianDate",
           "package": "thyme",
@@ -5644,6 +6137,7 @@
         "index": {
           "description": "Replacement for ModJulianDate",
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "mkModJulianDate",
           "normalized": "Rational-\u003eUniversalTime",
@@ -5659,6 +6153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "mkUTCTime",
           "package": "thyme",
@@ -5668,6 +6163,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "mkUTCTime",
           "normalized": "Day-\u003eDiffTime-\u003eUTCTime",
@@ -5683,6 +6179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "mondayStartWeek",
           "package": "thyme",
@@ -5692,6 +6189,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "mondayStartWeek",
           "normalized": "Day-\u003e(Year,WeekOfYear,DayOfWeek)",
@@ -5707,6 +6205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "monthAndDayToDayOfYear",
           "package": "thyme",
@@ -5716,6 +6215,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "monthAndDayToDayOfYear",
           "normalized": "Bool-\u003eMonth-\u003eDayOfMonth-\u003eDayOfYear",
@@ -5731,6 +6231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "monthAndDayToDayOfYearValid",
           "package": "thyme",
@@ -5740,6 +6241,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "monthAndDayToDayOfYearValid",
           "normalized": "Bool-\u003eMonth-\u003eDayOfMonth-\u003eMaybe DayOfYear",
@@ -5755,6 +6257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "picosecondsToDiffTime",
           "package": "thyme",
@@ -5764,6 +6267,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "picosecondsToDiffTime",
           "normalized": "Int-\u003eDiffTime",
@@ -5779,6 +6283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "posixSecondsToUTCTime",
           "package": "thyme",
@@ -5788,6 +6293,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "posixSecondsToUTCTime",
           "normalized": "POSIXTime-\u003eUTCTime",
@@ -5803,6 +6309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "secondsToDiffTime",
           "package": "thyme",
@@ -5812,6 +6319,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "secondsToDiffTime",
           "normalized": "Int-\u003eDiffTime",
@@ -5827,6 +6335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "sundayStartWeek",
           "package": "thyme",
@@ -5836,6 +6345,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "sundayStartWeek",
           "normalized": "Day-\u003e(Year,WeekOfYear,DayOfWeek)",
@@ -5851,6 +6361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "taiToUTCTime",
           "package": "thyme",
@@ -5860,6 +6371,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "taiToUTCTime",
           "normalized": "LeapSecondTable-\u003eAbsoluteTime-\u003eUTCTime",
@@ -5875,6 +6387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "thyme",
           "package": "thyme",
@@ -5884,6 +6397,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "thyme",
           "package": "thyme",
@@ -5896,6 +6410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "timeOfDayToDayFraction",
           "package": "thyme",
@@ -5905,6 +6420,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "timeOfDayToDayFraction",
           "normalized": "TimeOfDay-\u003eRational",
@@ -5920,6 +6436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "timeOfDayToTime",
           "package": "thyme",
@@ -5929,6 +6446,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "timeOfDayToTime",
           "normalized": "TimeOfDay-\u003eDiffTime",
@@ -5944,6 +6462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "timeToTimeOfDay",
           "package": "thyme",
@@ -5953,6 +6472,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "timeToTimeOfDay",
           "normalized": "DiffTime-\u003eTimeOfDay",
@@ -5968,6 +6488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "toGregorian",
           "package": "thyme",
@@ -5977,6 +6498,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "toGregorian",
           "normalized": "Day-\u003e(Year,Month,DayOfMonth)",
@@ -5992,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "toOrdinalDate",
           "package": "thyme",
@@ -6001,6 +6524,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "toOrdinalDate",
           "normalized": "Day-\u003e(Year,DayOfYear)",
@@ -6016,6 +6540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "toThyme",
           "package": "thyme",
@@ -6025,6 +6550,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "toThyme",
           "normalized": "a-\u003eb",
@@ -6040,6 +6566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "toWeekDate",
           "package": "thyme",
@@ -6049,6 +6576,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "toWeekDate",
           "normalized": "Day-\u003e(Year,WeekOfYear,DayOfWeek)",
@@ -6064,6 +6592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "unUTCTime",
           "package": "thyme",
@@ -6073,6 +6602,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "unUTCTime",
           "normalized": "UTCTime-\u003eUTCView",
@@ -6088,6 +6618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "ut1ToLocalTime",
           "package": "thyme",
@@ -6097,6 +6628,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "ut1ToLocalTime",
           "normalized": "Rational-\u003eUniversalTime-\u003eLocalTime",
@@ -6112,6 +6644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "utcTimeToPOSIXSeconds",
           "package": "thyme",
@@ -6121,6 +6654,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "utcTimeToPOSIXSeconds",
           "normalized": "UTCTime-\u003ePOSIXTime",
@@ -6136,6 +6670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "utcToLocalTime",
           "package": "thyme",
@@ -6145,6 +6680,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "utcToLocalTime",
           "normalized": "TimeZone-\u003eUTCTime-\u003eLocalTime",
@@ -6160,6 +6696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "utcToLocalTimeOfDay",
           "package": "thyme",
@@ -6169,6 +6706,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "utcToLocalTimeOfDay",
           "normalized": "TimeZone-\u003eTimeOfDay-\u003e(Days,TimeOfDay)",
@@ -6184,6 +6722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "utcToTAITime",
           "package": "thyme",
@@ -6193,6 +6732,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "utcToTAITime",
           "normalized": "LeapSecondTable-\u003eUTCTime-\u003eAbsoluteTime",
@@ -6208,6 +6748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "utcToZonedTime",
           "package": "thyme",
@@ -6217,6 +6758,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "utcToZonedTime",
           "normalized": "TimeZone-\u003eUTCTime-\u003eZonedTime",
@@ -6232,6 +6774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time.Core",
           "name": "zonedTimeToUTC",
           "package": "thyme",
@@ -6241,6 +6784,7 @@
         },
         "index": {
           "hierarchy": "Data Thyme Time Core",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time.Core",
           "name": "zonedTimeToUTC",
           "normalized": "ZonedTime-\u003eUTCTime",
@@ -6257,6 +6801,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides compatibility instances and wrappers for the\n things that \u003ccode\u003ethyme\u003c/code\u003e does differently from \u003ccode\u003etime\u003c/code\u003e, and allows it to be\n used as a drop-in replacement for the latter, with the exceptions noted\n below:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e When constructing an \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eUniversalTime\u003c/a\u003e\u003c/code\u003e, use \u003ccode\u003e\u003ca\u003emkUTCTime\u003c/a\u003e\u003c/code\u003e or\n   \u003ccode\u003e\u003ca\u003emkModJulianDate\u003c/a\u003e\u003c/code\u003e in place of \u003ccode\u003eUTCTime\u003c/code\u003e or \u003ccode\u003eModJulianDate\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Instead of pattern matching on \u003ccode\u003eUTCTime\u003c/code\u003e, use \u003ccode\u003e\u003ca\u003eunUTCTime\u003c/a\u003e\u003c/code\u003e to get\n   a \u003ccode\u003e\u003ca\u003eUTCView\u003c/a\u003e\u003c/code\u003e, which has a constructor \u003ccode\u003eUTCTime\u003c/code\u003e with the same fields.\n   For \u003ccode\u003eModJulianDate\u003c/code\u003e, use \u003ccode\u003e\u003ca\u003egetModJulianDate\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003eViewPatterns\u003c/code\u003e may make\n   the transition more seamless.\n\u003c/li\u003e\u003cli\u003e Where a third party library uses \u003ccode\u003etime\u003c/code\u003e, you can use \u003ccode\u003e\u003ca\u003etoThyme\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003efromThyme\u003c/a\u003e\u003c/code\u003e to convert between the corresponding types.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eYear\u003c/a\u003e\u003c/code\u003es are \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es, not \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003es: you may need \u003ccode\u003e\u003ca\u003efromIntegral\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eYou shouldn't need to use \u003ccode\u003elens\u003c/code\u003e or \u003ccode\u003evector-space\u003c/code\u003e directly if you don't\n want to. However if you do use \u003ccode\u003evector-space\u003c/code\u003e and wish to avoid the\n \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e instances for \u003ccode\u003e\u003ca\u003eDiffTime\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNominalDiffTime\u003c/a\u003e\u003c/code\u003e, import\n \u003ca\u003eData.Thyme.Time.Core\u003c/a\u003e instead.\n\u003c/p\u003e\u003cp\u003eAnything else is probably not intentional, and you should either contact\n me via IRC or file an issue at \u003ca\u003ehttps://github.com/liyang/thyme/issues\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme.Time",
           "name": "Time",
           "package": "thyme",
@@ -6266,6 +6811,7 @@
         "index": {
           "description": "This module provides compatibility instances and wrappers for the things that thyme does differently from time and allows it to be used as drop-in replacement for the latter with the exceptions noted below When constructing an UTCTime or UniversalTime use mkUTCTime or mkModJulianDate in place of UTCTime or ModJulianDate Instead of pattern matching on UTCTime use unUTCTime to get UTCView which has constructor UTCTime with the same fields For ModJulianDate use getModJulianDate ViewPatterns may make the transition more seamless Where third party library uses time you can use toThyme and fromThyme to convert between the corresponding types Year are Int not Integer you may need fromIntegral You shouldn need to use lens or vector-space directly if you don want to However if you do use vector-space and wish to avoid the RealFrac instances for DiffTime and NominalDiffTime import Data.Thyme.Time.Core instead Anything else is probably not intentional and you should either contact me via IRC or file an issue at https github.com liyang thyme issues",
           "hierarchy": "Data Thyme Time",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme.Time",
           "name": "Time",
           "package": "thyme",
@@ -6280,6 +6826,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThyme is a rewrite of the fine \u003ccode\u003etime\u003c/code\u003e library, with a particular focus\n on performance for applications that make heavy use of timestamps. For\n example, \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e is represented with &#956;s precision as an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e, which gives a usable range from \u003ccode\u003e-290419-11-07\n 19:59:05.224192 UTC\u003c/code\u003e to \u003ccode\u003e294135-11-26 04:00:54.775807 UTC\u003c/code\u003e in the future.\n\u003c/p\u003e\u003cp\u003eConversions are provided as \u003ccode\u003e\u003ca\u003eIso'\u003c/a\u003e\u003c/code\u003es from the \u003ccode\u003elens\u003c/code\u003e\n package, while \u003ccode\u003e\u003ca\u003eAdditiveGroup\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eVectorSpace\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eAffineSpace\u003c/a\u003e\u003c/code\u003e from\n \u003ccode\u003evector-space\u003c/code\u003e allow for more principled calculations instead of \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e & al. Check each module for usage examples, and see\n \u003ca\u003ehttp://hackage.haskell.org/package/lens\u003c/a\u003e or\n \u003ca\u003ehttp://hackage.haskell.org/package/vector-space\u003c/a\u003e for further details.\n\u003c/p\u003e\u003cp\u003eThyme uses strict and unpacked tuples throughout, e.g. \u003ccode\u003e\u003ca\u003eYearMonthDay\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eWeekDate\u003c/a\u003e\u003c/code\u003e. Descriptive \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e synonyms such\n as \u003ccode\u003e\u003ca\u003eYear\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDayOfMonth\u003c/a\u003e\u003c/code\u003e are also provided.\n\u003c/p\u003e\u003cp\u003eOn platforms where \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e is 64-bits wide, types with an \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e instance\n can be used as \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003es for \u003ccode\u003e\u003ca\u003eIntMap\u003c/a\u003e\u003c/code\u003e, preferably\n via the \u003ccode\u003eEnumMap\u003c/code\u003e wrapper provided by\n \u003ca\u003ehttp://hackage.haskell.org/package/enummapset-th\u003c/a\u003e. In any case the \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e\n instances are much faster, if you must use \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eData.Thyme.Time\u003c/a\u003e is a drop-in compatibility module for existing code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:12 UTC 2014",
           "module": "Data.Thyme",
           "name": "Thyme",
           "package": "thyme",
@@ -6289,6 +6836,7 @@
         "index": {
           "description": "Thyme is rewrite of the fine time library with particular focus on performance for applications that make heavy use of timestamps For example UTCTime is represented with precision as an Int64 which gives usable range from UTC to UTC in the future Conversions are provided as Iso from the lens package while AdditiveGroup VectorSpace and AffineSpace from vector-space allow for more principled calculations instead of Num Fractional al Check each module for usage examples and see http hackage.haskell.org package lens or http hackage.haskell.org package vector-space for further details Thyme uses strict and unpacked tuples throughout e.g YearMonthDay or WeekDate Descriptive Int synonyms such as Year and DayOfMonth are also provided On platforms where Int is bits wide types with an Enum instance can be used as Key for IntMap preferably via the EnumMap wrapper provided by http hackage.haskell.org package enummapset-th In any case the Ord instances are much faster if you must use Map Data.Thyme.Time is drop-in compatibility module for existing code",
           "hierarchy": "Data Thyme",
+          "indexed": "2014-03-11T20:22:12",
           "module": "Data.Thyme",
           "name": "Thyme",
           "package": "thyme",

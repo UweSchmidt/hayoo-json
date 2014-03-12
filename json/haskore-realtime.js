@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskore-realtime"
+        "phrase": "haskore-realtime",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module uses a pipe\nin order to play CSound music without a temporary score file.\nA temporary orchestra file is necessary, though.\n\u003c/p\u003e\u003cp\u003eIn my tests on a SuSE Linux only CSound5 (but not CSound4)\ncould play via '-odac'.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.CSound.Play",
           "name": "Play",
           "package": "haskore-realtime",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module uses pipe in order to play CSound music without temporary score file temporary orchestra file is necessary though In my tests on SuSE Linux only CSound5 but not CSound4 could play via odac",
           "hierarchy": "Haskore Interface CSound Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.CSound.Play",
           "name": "Play",
           "package": "haskore-realtime",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.CSound.Play",
           "name": "play",
           "package": "haskore-realtime",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface CSound Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.CSound.Play",
           "name": "play",
           "normalized": "T a-\u003eT-\u003eIO()",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.CSound.Play",
           "name": "playNamedPipe",
           "package": "haskore-realtime",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface CSound Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.CSound.Play",
           "name": "playNamedPipe",
           "normalized": "(String,String)-\u003eFilePath-\u003eName-\u003eT a-\u003eT-\u003eIO()",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.CSound.Play",
           "name": "playV4",
           "package": "haskore-realtime",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface CSound Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.CSound.Play",
           "name": "playV4",
           "normalized": "FilePath-\u003e(Name,T a,T)-\u003eIO()",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.CSound.Play",
           "name": "playV4AnonymousPipe",
           "package": "haskore-realtime",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface CSound Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.CSound.Play",
           "name": "playV4AnonymousPipe",
           "normalized": "FilePath-\u003e(Name,T,T a)-\u003eIO()",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.CSound.Play",
           "name": "playV4NamedPipe",
           "package": "haskore-realtime",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface CSound Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.CSound.Play",
           "name": "playV4NamedPipe",
           "normalized": "FilePath-\u003e(Name,T,T a)-\u003eIO()",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.CSound.Play",
           "name": "playV5",
           "package": "haskore-realtime",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface CSound Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.CSound.Play",
           "name": "playV5",
           "normalized": "FilePath-\u003e(Name,T a,T)-\u003eIO()",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.CSound.Play",
           "name": "playV5NamedPipe",
           "package": "haskore-realtime",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface CSound Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.CSound.Play",
           "name": "playV5NamedPipe",
           "normalized": "FilePath-\u003e(Name,T,T a)-\u003eIO()",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.CSound.Play",
           "name": "scorePipe",
           "package": "haskore-realtime",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface CSound Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.CSound.Play",
           "name": "scorePipe",
           "package": "haskore-realtime",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.CSound.Play",
           "name": "tmpWave",
           "package": "haskore-realtime",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface CSound Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.CSound.Play",
           "name": "tmpWave",
           "package": "haskore-realtime",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module used shell-haskell and a pipe\nin order to play MIDI music without temporary files.\nToday it uses \u003ccode\u003eSystem.Process.runInteractiveProcess\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eI got this running only with GHC and Linux so far.\nThough it is not satisfying.\nIt seems that \u003ccode\u003etimidity\u003c/code\u003e forks itself away\nso that it doesn't block the prompt of Haskell.\nI assume that because sometimes ghci tries\nto write to the pipe before \u003ccode\u003etimidity\u003c/code\u003e can read it.\nInterestingly if I start \u003ccode\u003etimidity\u003c/code\u003e with an input pipe\nfrom the console it stays synchronously.\n\u003c/p\u003e\u003cp\u003eSome music seems to be to large,\nmaybe larger than a pipe buffer,\nthen the buffer runs over and the replay fails.\nE.g. ChildSong6 is short enough, Kantate147 is too long.\n\u003c/p\u003e\u003cp\u003eUsing a pipe is the only way to play\ninfinite streams of music using an external program.\nIt is no problem to control a MIDI device\nover an unlimited time,\nbut unfortunately the MIDI file format\nuses absolute time points and a file length value.\nThus it is not possible to play infinite MIDI streams\nvia the MIDI file format!\nFor better realtime support on Linux look at the \u003ccode\u003ealsa-midi\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.MIDI.Play",
           "name": "Play",
           "package": "haskore-realtime",
@@ -260,6 +281,7 @@
         "index": {
           "description": "This module used shell-haskell and pipe in order to play MIDI music without temporary files Today it uses System.Process.runInteractiveProcess got this running only with GHC and Linux so far Though it is not satisfying It seems that timidity forks itself away so that it doesn block the prompt of Haskell assume that because sometimes ghci tries to write to the pipe before timidity can read it Interestingly if start timidity with an input pipe from the console it stays synchronously Some music seems to be to large maybe larger than pipe buffer then the buffer runs over and the replay fails E.g ChildSong6 is short enough Kantate147 is too long Using pipe is the only way to play infinite streams of music using an external program It is no problem to control MIDI device over an unlimited time but unfortunately the MIDI file format uses absolute time points and file length value Thus it is not possible to play infinite MIDI streams via the MIDI file format For better realtime support on Linux look at the alsa-midi package",
           "hierarchy": "Haskore Interface MIDI Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.MIDI.Play",
           "name": "Play",
           "package": "haskore-realtime",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.MIDI.Play",
           "name": "ByteList",
           "package": "haskore-realtime",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface MIDI Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.MIDI.Play",
           "name": "ByteList",
           "package": "haskore-realtime",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.MIDI.Play",
           "name": "play",
           "package": "haskore-realtime",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface MIDI Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.MIDI.Play",
           "name": "play",
           "normalized": "(ChannelProgramPitchTable a,ChannelProgramTable b,T c d(Note a b),T a b)-\u003eIO()",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.MIDI.Play",
           "name": "playRaw",
           "package": "haskore-realtime",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface MIDI Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.MIDI.Play",
           "name": "playRaw",
           "normalized": "[String]-\u003eByteList-\u003eIO()",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.MIDI.Play",
           "name": "playSimple",
           "package": "haskore-realtime",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface MIDI Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.MIDI.Play",
           "name": "playSimple",
           "normalized": "T-\u003eIO()",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.Interface.MIDI.Play",
           "name": "stringCharFromByte",
           "package": "haskore-realtime",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface MIDI Play",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.Interface.MIDI.Play",
           "name": "stringCharFromByte",
           "normalized": "ByteList-\u003eString",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eApply actions to event lists\n(starting with time, ending with body)\nat given times.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "TimeBody",
           "package": "haskore-realtime",
@@ -399,6 +432,7 @@
         "index": {
           "description": "Apply actions to event lists starting with time ending with body at given times",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "TimeBody",
           "package": "haskore-realtime",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "T",
           "package": "haskore-realtime",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "T",
           "package": "haskore-realtime",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe export this function only for use in \u003ca\u003eHaskore.RealTime.EventList.TimeTime\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "attachTime",
           "package": "haskore-realtime",
@@ -465,6 +502,7 @@
         "index": {
           "description": "We export this function only for use in Haskore.RealTime.EventList.TimeTime",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "attachTime",
           "normalized": "T a b-\u003eT a(a,b)",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup events that have equal start times\n(that is zero time differences).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "collectCoincident",
           "package": "haskore-realtime",
@@ -490,6 +529,7 @@
         "index": {
           "description": "Group events that have equal start times that is zero time differences",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "collectCoincident",
           "normalized": "T a b-\u003eT a[b]",
@@ -599,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "cycle",
           "package": "haskore-realtime",
@@ -607,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "cycle",
           "normalized": "T a b-\u003eT a b",
@@ -690,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse to collectCoincident:\nTurn each \u003ccode\u003ebody\u003c/code\u003e into a separate event.\n\u003c/p\u003e\u003cpre\u003e   xs  ==  flatten (collectCoincident xs)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "flatten",
           "package": "haskore-realtime",
@@ -699,6 +742,7 @@
         "index": {
           "description": "Reverse to collectCoincident Turn each body into separate event xs flatten collectCoincident xs",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "flatten",
           "normalized": "T a[b]-\u003eT a b",
@@ -713,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "foldr",
           "package": "haskore-realtime",
@@ -721,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(d-\u003ec-\u003eb)-\u003ec-\u003eT a d-\u003ec",
@@ -735,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "getBodies",
           "package": "haskore-realtime",
@@ -743,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "getBodies",
           "normalized": "T a b-\u003e[b]",
@@ -759,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e inserts an event into an event list at the given time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "insert",
           "package": "haskore-realtime",
@@ -768,6 +817,7 @@
         "index": {
           "description": "insert inserts an event into an event list at the given time",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eT a b-\u003eT a b",
@@ -806,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "mapBodyM",
           "package": "haskore-realtime",
@@ -814,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "mapBodyM",
           "normalized": "(a-\u003eb a)-\u003eT c a-\u003eb(T c a)",
@@ -830,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the lists of coincident events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "mapCoincident",
           "package": "haskore-realtime",
@@ -839,6 +892,7 @@
         "index": {
           "description": "Apply function to the lists of coincident events",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "mapCoincident",
           "normalized": "([a]-\u003e[b])-\u003eT c a-\u003eT c b",
@@ -949,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esort\u003c/a\u003e\u003c/code\u003e sorts a list of coinciding events,\nthat is all events but the first one have time difference 0.\n\u003ccode\u003e\u003ca\u003enormalize\u003c/a\u003e\u003c/code\u003e sorts all coinciding events in a list\nthus yielding a canonical representation of a time ordered list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "normalize",
           "package": "haskore-realtime",
@@ -958,6 +1013,7 @@
         "index": {
           "description": "sort sorts list of coinciding events that is all events but the first one have time difference normalize sorts all coinciding events in list thus yielding canonical representation of time ordered list",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "normalize",
           "normalized": "T a b-\u003eT a b",
@@ -972,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "null",
           "package": "haskore-realtime",
@@ -980,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "null",
           "normalized": "T a b-\u003eBool",
@@ -994,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "partition",
           "package": "haskore-realtime",
@@ -1002,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eT b a-\u003e(T b a,T b a)",
@@ -1040,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe next set of routines is more precise.\nIt computes a time table starting with current system time\nand tries to stick to it.\n\u003c/p\u003e\u003cp\u003eSo far, I worked hard to use time differences instead of absolute times\nin order to avoid increasing memory consumption of time numbers\n(which however slows down as time evolves)\nbut the time related functions of the system are absolute,\nso have to make our ones absolute as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "run",
           "package": "haskore-realtime",
@@ -1050,6 +1111,7 @@
         "index": {
           "description": "The next set of routines is more precise It computes time table starting with current system time and tries to stick to it So far worked hard to use time differences instead of absolute times in order to avoid increasing memory consumption of time numbers which however slows down as time evolves but the time related functions of the system are absolute so have to make our ones absolute as well",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "run",
           "normalized": "T a-\u003e(b-\u003ea c)-\u003eT d b-\u003ea[c]",
@@ -1064,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "runCore",
           "package": "haskore-realtime",
@@ -1073,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "runCore",
           "normalized": "(T a b-\u003eT a b)-\u003eT c-\u003e(a-\u003eb-\u003ec d)-\u003eT a b-\u003ec[d]",
@@ -1089,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first function assumes,\nthat the action does not consume time\nand that the wait command is precise.\nIt is not very useful in practice, but very simple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "runRelative",
           "package": "haskore-realtime",
@@ -1099,6 +1164,7 @@
         "index": {
           "description": "The first function assumes that the action does not consume time and that the wait command is precise It is not very useful in practice but very simple",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "runRelative",
           "normalized": "T a-\u003e(b-\u003ea c)-\u003eT d b-\u003ea[c]",
@@ -1114,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "runRelativeCore",
           "package": "haskore-realtime",
@@ -1123,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "runRelativeCore",
           "normalized": "T a-\u003e(b-\u003ea c)-\u003eT Integer b-\u003ea[c]",
@@ -1139,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe wait calls are necessarily quantized,\nbut the time passed to the action is not quantized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "runTimeStamp",
           "package": "haskore-realtime",
@@ -1149,6 +1218,7 @@
         "index": {
           "description": "The wait calls are necessarily quantized but the time passed to the action is not quantized",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "runTimeStamp",
           "normalized": "T a-\u003e(b-\u003ec-\u003ea d)-\u003eT b c-\u003ea[d]",
@@ -1165,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis routine is only necessary,\nbecause differences might be too small\nto be noticed in the absolute time values.\nThat is, collectCoincident will split events which actually belong together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "runTimeStampGrouped",
           "package": "haskore-realtime",
@@ -1175,6 +1246,7 @@
         "index": {
           "description": "This routine is only necessary because differences might be too small to be noticed in the absolute time values That is collectCoincident will split events which actually belong together",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "runTimeStampGrouped",
           "normalized": "T a-\u003e(b-\u003e[c]-\u003ea d)-\u003eT b c-\u003ea[d]",
@@ -1190,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "singleton",
           "package": "haskore-realtime",
@@ -1198,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eT a b",
@@ -1213,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing a classification function\nwe splice the event list into lists, each containing the same class.\nAbsolute time stamps are preserved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "slice",
           "package": "haskore-realtime",
@@ -1222,6 +1297,7 @@
         "index": {
           "description": "Using classification function we splice the event list into lists each containing the same class Absolute time stamps are preserved",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "slice",
           "normalized": "(a-\u003eb)-\u003eT c a-\u003e[(b,T c a)]",
@@ -1236,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "snoc",
           "package": "haskore-realtime",
@@ -1244,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "snoc",
           "normalized": "T a b-\u003ea-\u003eb-\u003eT a b",
@@ -1259,6 +1337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe tried hard to compute everything with respect to relative times.\nHowever sometimes we need absolute time values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "toAbsoluteEventList",
           "package": "haskore-realtime",
@@ -1268,6 +1347,7 @@
         "index": {
           "description": "We tried hard to compute everything with respect to relative times However sometimes we need absolute time values",
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "toAbsoluteEventList",
           "normalized": "a-\u003eT a b-\u003eT a b",
@@ -1283,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "viewBodyL",
           "package": "haskore-realtime",
@@ -1291,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "viewBodyL",
           "normalized": "T a b-\u003e(b,T a b)",
@@ -1306,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "viewL",
           "package": "haskore-realtime",
@@ -1314,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "viewL",
           "normalized": "T a b-\u003eMaybe((a,b),T a b)",
@@ -1328,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "viewTimeL",
           "package": "haskore-realtime",
@@ -1336,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeBody",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeBody",
           "name": "viewTimeL",
           "normalized": "T a b-\u003eMaybe(a,T a b)",
@@ -1352,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eApply actions to event lists\n(starting with time, ending with time)\nat given times.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "TimeTime",
           "package": "haskore-realtime",
@@ -1361,6 +1448,7 @@
         "index": {
           "description": "Apply actions to event lists starting with time ending with time at given times",
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "TimeTime",
           "package": "haskore-realtime",
@@ -1374,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "T",
           "package": "haskore-realtime",
@@ -1381,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "T",
           "package": "haskore-realtime",
@@ -1394,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds times in a left-associative fashion.\nUse this if the time is a strict data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "catMaybes",
           "package": "haskore-realtime",
@@ -1403,6 +1494,7 @@
         "index": {
           "description": "Adds times in left-associative fashion Use this if the time is strict data type",
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "catMaybes",
           "normalized": "T a(Maybe b)-\u003eT a b",
@@ -1418,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "collectCoincident",
           "package": "haskore-realtime",
@@ -1426,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "collectCoincident",
           "normalized": "T a b-\u003eT a[b]",
@@ -1442,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003econcatNaive\u003c/a\u003e\u003c/code\u003e are essentially the same.\n\u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e must use \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e in order to work on infinite lists,\nhowever if there are many empty lists,\nsumming of their durations will be done from right to left,\nwhich is inefficient.\nThus we detect subsequent empty lists and merge them from left to right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "concatNaive",
           "package": "haskore-realtime",
@@ -1451,6 +1546,7 @@
         "index": {
           "description": "concat and concatNaive are essentially the same concat must use foldr in order to work on infinite lists however if there are many empty lists summing of their durations will be done from right to left which is inefficient Thus we detect subsequent empty lists and merge them from left to right",
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "concatNaive",
           "normalized": "[T a b]-\u003eT a b",
@@ -1467,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogously to the \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003e\u003ca\u003econcatNaive\u003c/a\u003e\u003c/code\u003e pair\nwe have to versions of \u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e,\nwhere the clever implementation sums up pauses\nfrom the beginning to the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "filter",
           "package": "haskore-realtime",
@@ -1476,6 +1573,7 @@
         "index": {
           "description": "Analogously to the concat concatNaive pair we have to versions of filter where the clever implementation sums up pauses from the beginning to the end",
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eT b a-\u003eT b a",
@@ -1490,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "flatten",
           "package": "haskore-realtime",
@@ -1498,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "flatten",
           "normalized": "T a[b]-\u003eT a b",
@@ -1512,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "foldr",
           "package": "haskore-realtime",
@@ -1520,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(d-\u003ec-\u003eb)-\u003eb-\u003eT a d-\u003ec",
@@ -1535,6 +1637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003emerge\u003c/a\u003e\u003c/code\u003e compares entire events rather than just start\ntimes.  This is to ensure that it is commutative, a desirable\ncondition for some of the proofs used in secref{equivalence}.\nIt is also necessary to assert a unique representation\nof the performance independent of the structure of the 'Music.T note'.\nThe same function for inserting into a time ordered list with a trailing pause.\nThe strictness annotation is necessary for working with infinite lists.\n\u003c/p\u003e\u003cp\u003eHere are two other functions that are already known for non-padded time lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "insert",
           "package": "haskore-realtime",
@@ -1544,6 +1647,7 @@
         "index": {
           "description": "Note that merge compares entire events rather than just start times This is to ensure that it is commutative desirable condition for some of the proofs used in secref equivalence It is also necessary to assert unique representation of the performance independent of the structure of the Music.T note The same function for inserting into time ordered list with trailing pause The strictness annotation is necessary for working with infinite lists Here are two other functions that are already known for non-padded time lists",
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eT a b-\u003eT a b",
@@ -1558,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapBodyHead",
           "package": "haskore-realtime",
@@ -1566,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapBodyHead",
           "normalized": "(a-\u003ea)-\u003eT b a-\u003eT b a",
@@ -1581,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapBodyInit",
           "package": "haskore-realtime",
@@ -1589,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapBodyInit",
           "normalized": "(T a b-\u003eT a b)-\u003eT a b-\u003eT a b",
@@ -1604,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapBodyL",
           "package": "haskore-realtime",
@@ -1612,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapBodyL",
           "normalized": "(a-\u003ea,T b a-\u003eT b a)-\u003eT b a-\u003eT b a",
@@ -1627,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapBodyLast",
           "package": "haskore-realtime",
@@ -1635,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapBodyLast",
           "normalized": "(a-\u003ea)-\u003eT b a-\u003eT b a",
@@ -1650,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapBodyR",
           "package": "haskore-realtime",
@@ -1658,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapBodyR",
           "normalized": "(T a b-\u003eT a b,b-\u003eb)-\u003eT a b-\u003eT a b",
@@ -1673,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapBodyTail",
           "package": "haskore-realtime",
@@ -1681,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapBodyTail",
           "normalized": "(T a b-\u003eT a b)-\u003eT a b-\u003eT a b",
@@ -1696,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapCoincident",
           "package": "haskore-realtime",
@@ -1704,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapCoincident",
           "normalized": "([a]-\u003e[b])-\u003eT c a-\u003eT c b",
@@ -1719,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapTimeHead",
           "package": "haskore-realtime",
@@ -1727,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapTimeHead",
           "normalized": "(a-\u003ea)-\u003eT a b-\u003eT a b",
@@ -1742,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapTimeInit",
           "package": "haskore-realtime",
@@ -1750,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapTimeInit",
           "normalized": "(T a b-\u003eT a b)-\u003eT a b-\u003eT a b",
@@ -1765,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapTimeL",
           "package": "haskore-realtime",
@@ -1773,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapTimeL",
           "normalized": "(a-\u003ea,T a b-\u003eT a b)-\u003eT a b-\u003eT a b",
@@ -1788,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapTimeLast",
           "package": "haskore-realtime",
@@ -1796,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapTimeLast",
           "normalized": "(a-\u003ea)-\u003eT a b-\u003eT a b",
@@ -1811,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapTimeR",
           "package": "haskore-realtime",
@@ -1819,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "mapTimeR",
           "normalized": "(T a b-\u003eT a b,a-\u003ea)-\u003eT a b-\u003eT a b",
@@ -1835,6 +1963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first important function is \u003ccode\u003e\u003ca\u003emerge\u003c/a\u003e\u003c/code\u003e\nwhich merges the events of two lists into a new time order list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "merge",
           "package": "haskore-realtime",
@@ -1844,6 +1973,7 @@
         "index": {
           "description": "The first important function is merge which merges the events of two lists into new time order list",
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "merge",
           "normalized": "T a b-\u003eT a b-\u003eT a b",
@@ -1858,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "pause",
           "package": "haskore-realtime",
@@ -1866,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "pause",
           "normalized": "a-\u003eT a b",
@@ -1880,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "run",
           "package": "haskore-realtime",
@@ -1889,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "run",
           "normalized": "T a-\u003e(b-\u003ea c)-\u003eT d b-\u003ea[c]",
@@ -1903,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "runRelative",
           "package": "haskore-realtime",
@@ -1912,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "runRelative",
           "normalized": "T a-\u003e(b-\u003ea c)-\u003eT d b-\u003ea[c]",
@@ -1927,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "runTimeStamp",
           "package": "haskore-realtime",
@@ -1936,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "runTimeStamp",
           "normalized": "T a-\u003e(b-\u003ec-\u003ea d)-\u003eT b c-\u003ea[d]",
@@ -1951,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "runTimeStampGrouped",
           "package": "haskore-realtime",
@@ -1960,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "runTimeStampGrouped",
           "normalized": "T a-\u003e(b-\u003e[c]-\u003ea d)-\u003eT b c-\u003ea[d]",
@@ -1975,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "snoc",
           "package": "haskore-realtime",
@@ -1983,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "snoc",
           "normalized": "T a b-\u003eb-\u003ea-\u003eT a b",
@@ -1997,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "snocBody",
           "package": "haskore-realtime",
@@ -2005,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "snocBody",
           "normalized": "T a b-\u003eb-\u003eT a b",
@@ -2020,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "snocTime",
           "package": "haskore-realtime",
@@ -2028,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "snocTime",
           "normalized": "T a b-\u003ea-\u003eT a b",
@@ -2043,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "toAbsoluteEventList",
           "package": "haskore-realtime",
@@ -2051,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "toAbsoluteEventList",
           "normalized": "a-\u003eT a b-\u003eT a b",
@@ -2066,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "viewBodyL",
           "package": "haskore-realtime",
@@ -2074,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "viewBodyL",
           "normalized": "T a b-\u003eMaybe(b,T a b)",
@@ -2089,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "viewBodyR",
           "package": "haskore-realtime",
@@ -2097,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "viewBodyR",
           "normalized": "T a b-\u003eMaybe(T a b,b)",
@@ -2112,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "viewTimeL",
           "package": "haskore-realtime",
@@ -2120,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "viewTimeL",
           "normalized": "T a b-\u003e(a,T a b)",
@@ -2135,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "viewTimeR",
           "package": "haskore-realtime",
@@ -2143,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime EventList TimeTime",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.EventList.TimeTime",
           "name": "viewTimeR",
           "normalized": "T a b-\u003e(T a b,a)",
@@ -2159,6 +2315,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ereplace functionality of shell-pipe package\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.ShellPipe",
           "name": "ShellPipe",
           "package": "haskore-realtime",
@@ -2168,6 +2325,7 @@
         "index": {
           "description": "replace functionality of shell-pipe package",
           "hierarchy": "Haskore RealTime ShellPipe",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.ShellPipe",
           "name": "ShellPipe",
           "package": "haskore-realtime",
@@ -2181,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.ShellPipe",
           "name": "launch",
           "package": "haskore-realtime",
@@ -2189,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime ShellPipe",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.ShellPipe",
           "name": "launch",
           "normalized": "FilePath-\u003e[String]-\u003eIO(Handle,Handle,Handle)",
@@ -2204,6 +2364,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis timer doesn't wait but returns immediately.\nThis is useful for turning real-time processing to non-real-time processing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer.Immediate",
           "name": "Immediate",
           "package": "haskore-realtime",
@@ -2213,6 +2374,7 @@
         "index": {
           "description": "This timer doesn wait but returns immediately This is useful for turning real-time processing to non-real-time processing",
           "hierarchy": "Haskore RealTime Timer Immediate",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer.Immediate",
           "name": "Immediate",
           "package": "haskore-realtime",
@@ -2226,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer.Immediate",
           "name": "timer",
           "package": "haskore-realtime",
@@ -2235,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer Immediate",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer.Immediate",
           "name": "timer",
           "package": "haskore-realtime",
@@ -2247,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer.Posix",
           "name": "Posix",
           "package": "haskore-realtime",
@@ -2255,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer Posix",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer.Posix",
           "name": "Posix",
           "package": "haskore-realtime",
@@ -2268,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer.Posix",
           "name": "timer",
           "package": "haskore-realtime",
@@ -2277,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer Posix",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer.Posix",
           "name": "timer",
           "package": "haskore-realtime",
@@ -2289,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer.Thread",
           "name": "Thread",
           "package": "haskore-realtime",
@@ -2297,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer Thread",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer.Thread",
           "name": "Thread",
           "package": "haskore-realtime",
@@ -2310,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer.Thread",
           "name": "timer",
           "package": "haskore-realtime",
@@ -2319,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer Thread",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer.Thread",
           "name": "timer",
           "package": "haskore-realtime",
@@ -2331,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "Timer",
           "package": "haskore-realtime",
@@ -2339,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "Timer",
           "package": "haskore-realtime",
@@ -2352,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "T",
           "package": "haskore-realtime",
@@ -2360,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "T",
           "package": "haskore-realtime",
@@ -2372,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "Cons",
           "package": "haskore-realtime",
@@ -2381,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "Cons",
           "package": "haskore-realtime",
@@ -2394,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "clockTimeToSeconds",
           "package": "haskore-realtime",
@@ -2403,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "clockTimeToSeconds",
           "normalized": "ClockTime-\u003ea",
@@ -2418,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "clockTimeToWaitTime",
           "package": "haskore-realtime",
@@ -2427,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "clockTimeToWaitTime",
           "normalized": "Integer-\u003eClockTime-\u003eInteger",
@@ -2442,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "getClockTime",
           "package": "haskore-realtime",
@@ -2451,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "getClockTime",
           "package": "haskore-realtime",
@@ -2464,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "getTime",
           "package": "haskore-realtime",
@@ -2473,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "getTime",
           "normalized": "T a-\u003ea Integer",
@@ -2488,6 +2674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "getTimeSeconds",
           "package": "haskore-realtime",
@@ -2497,6 +2684,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "getTimeSeconds",
           "normalized": "T a-\u003ea b",
@@ -2512,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "lift",
           "package": "haskore-realtime",
@@ -2521,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "lift",
           "normalized": "T a-\u003eT(b a)",
@@ -2535,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "liftIO",
           "package": "haskore-realtime",
@@ -2544,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "liftIO",
           "normalized": "T IO-\u003eT a",
@@ -2559,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "resolution",
           "package": "haskore-realtime",
@@ -2568,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "resolution",
           "package": "haskore-realtime",
@@ -2580,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "wait",
           "package": "haskore-realtime",
@@ -2589,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "wait",
           "normalized": "T a-\u003eInteger-\u003ea()",
@@ -2603,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "waitInt",
           "package": "haskore-realtime",
@@ -2612,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "waitInt",
           "normalized": "Int-\u003ea()",
@@ -2627,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "waitUntil",
           "package": "haskore-realtime",
@@ -2636,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "waitUntil",
           "normalized": "T a-\u003eInteger-\u003ea()",
@@ -2651,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:46 UTC 2014",
           "module": "Haskore.RealTime.Timer",
           "name": "waitUntilSeconds",
           "package": "haskore-realtime",
@@ -2660,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Haskore RealTime Timer",
+          "indexed": "2014-03-11T18:33:46",
           "module": "Haskore.RealTime.Timer",
           "name": "waitUntilSeconds",
           "normalized": "T a-\u003eb-\u003ea()",

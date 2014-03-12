@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nixos-types"
+        "phrase": "nixos-types",
+        "type": "phrase"
       },
       "type": "context"
     }

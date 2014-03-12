@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graph-rewriting-trs"
+        "phrase": "graph-rewriting-trs",
+        "type": "phrase"
       },
       "type": "context"
     }

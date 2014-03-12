@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nlp-scores-scripts"
+        "phrase": "nlp-scores-scripts",
+        "type": "phrase"
       },
       "type": "context"
     }

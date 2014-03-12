@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabalrpmdeps"
+        "phrase": "cabalrpmdeps",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:03 UTC 2014",
           "module": "Distribution.RpmDeps",
           "name": "RpmDeps",
           "package": "cabalrpmdeps",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Distribution RpmDeps",
+          "indexed": "2014-03-11T17:29:03",
           "module": "Distribution.RpmDeps",
           "name": "RpmDeps",
           "package": "cabalrpmdeps",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:03 UTC 2014",
           "module": "Distribution.RpmDeps",
           "name": "dependency2rpmdep",
           "package": "cabalrpmdeps",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Distribution RpmDeps",
+          "indexed": "2014-03-11T17:29:03",
           "module": "Distribution.RpmDeps",
           "name": "dependency2rpmdep",
           "normalized": "Dependency-\u003eString",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:03 UTC 2014",
           "module": "Distribution.RpmDeps",
           "name": "package2rpmdep",
           "package": "cabalrpmdeps",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Distribution RpmDeps",
+          "indexed": "2014-03-11T17:29:03",
           "module": "Distribution.RpmDeps",
           "name": "package2rpmdep",
           "normalized": "PackageIdentifier-\u003eString",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:03 UTC 2014",
           "module": "Distribution.RpmDeps",
           "name": "rpmbuildrequires",
           "package": "cabalrpmdeps",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Distribution RpmDeps",
+          "indexed": "2014-03-11T17:29:03",
           "module": "Distribution.RpmDeps",
           "name": "rpmbuildrequires",
           "normalized": "Maybe FilePath-\u003eIO[String]",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:03 UTC 2014",
           "module": "Distribution.RpmDeps",
           "name": "rpmprovides",
           "package": "cabalrpmdeps",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Distribution RpmDeps",
+          "indexed": "2014-03-11T17:29:03",
           "module": "Distribution.RpmDeps",
           "name": "rpmprovides",
           "normalized": "Maybe FilePath-\u003eIO[String]",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:03 UTC 2014",
           "module": "Distribution.RpmDeps",
           "name": "rpmrequires",
           "package": "cabalrpmdeps",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Distribution RpmDeps",
+          "indexed": "2014-03-11T17:29:03",
           "module": "Distribution.RpmDeps",
           "name": "rpmrequires",
           "normalized": "Maybe FilePath-\u003eIO[String]",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:03 UTC 2014",
           "module": "Distribution.RpmDeps",
           "name": "version2string",
           "package": "cabalrpmdeps",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Distribution RpmDeps",
+          "indexed": "2014-03-11T17:29:03",
           "module": "Distribution.RpmDeps",
           "name": "version2string",
           "normalized": "Version-\u003eString",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:03 UTC 2014",
           "module": "Distribution.RpmDeps",
           "name": "versionrange2sign",
           "package": "cabalrpmdeps",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Distribution RpmDeps",
+          "indexed": "2014-03-11T17:29:03",
           "module": "Distribution.RpmDeps",
           "name": "versionrange2sign",
           "normalized": "VersionRange-\u003eString",

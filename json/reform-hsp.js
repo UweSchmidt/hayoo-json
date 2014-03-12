@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reform-hsp"
+        "phrase": "reform-hsp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "Common",
           "package": "reform-hsp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "Common",
           "package": "reform-hsp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "br",
           "package": "reform-hsp",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "br",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "button",
           "package": "reform-hsp",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "button",
           "normalized": "a-\u003eForm b c d[XMLGenT e(XMLType e)]()()",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "buttonReset",
           "package": "reform-hsp",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "buttonReset",
           "normalized": "a-\u003eForm b c d[XMLGenT e(XMLType e)]()()",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "buttonSubmit",
           "package": "reform-hsp",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "buttonSubmit",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003ed-\u003eForm e a b[XMLGenT f(XMLType f)]()(Maybe c)",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "childErrorList",
           "package": "reform-hsp",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "childErrorList",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()()",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "errorList",
           "package": "reform-hsp",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "errorList",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()()",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "fieldset",
           "package": "reform-hsp",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "fieldset",
           "normalized": "Form a b c d e f-\u003eForm a b c[XMLGenT g(XMLType g)]e f",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "form",
           "package": "reform-hsp",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "form",
           "normalized": "a-\u003e[(Text,Text)]-\u003e[XMLGenT b(XMLType b)]-\u003e[XMLGenT b(XMLType b)]",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "inputButton",
           "package": "reform-hsp",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "inputButton",
           "normalized": "a-\u003eForm b c d[XMLGenT e(XMLType e)]()()",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "inputCheckbox",
           "package": "reform-hsp",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "inputCheckbox",
           "normalized": "Bool-\u003eForm a b c[XMLGenT d(XMLType d)]()Bool",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "inputCheckboxes",
           "package": "reform-hsp",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "inputCheckboxes",
           "normalized": "[(a,b)]-\u003e(a-\u003eBool)-\u003eForm c d e[XMLGenT f(XMLType f)]()[a]",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "inputFile",
           "package": "reform-hsp",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "inputFile",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()(FileType b)",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "inputHidden",
           "package": "reform-hsp",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "inputHidden",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003eForm d a b[XMLGenT e(XMLType e)]()c",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "inputPassword",
           "package": "reform-hsp",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "inputPassword",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003eForm d a b[XMLGenT e(XMLType e)]()c",
@@ -371,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "inputRadio",
           "package": "reform-hsp",
@@ -380,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "inputRadio",
           "normalized": "[(a,b)]-\u003e(a-\u003eBool)-\u003eForm c d e[XMLGenT f(XMLType f)]()a",
@@ -395,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "inputRadioForms",
           "package": "reform-hsp",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "inputRadioForms",
           "normalized": "[(Form a b c[XMLGenT d(XMLType d)]e f,g)]-\u003ef-\u003eForm a b c[XMLGenT d(XMLType d)]e f",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "inputRadioForms'",
           "package": "reform-hsp",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "inputRadioForms'",
           "normalized": "(FormId-\u003eFormId-\u003e[FormId]-\u003eText)-\u003e[(Form a b c[XMLGenT d(XMLType d)]e f,g)]-\u003ef-\u003eForm a b c[XMLGenT d(XMLType d)]e f",
@@ -443,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "inputReset",
           "package": "reform-hsp",
@@ -452,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "inputReset",
           "normalized": "a-\u003eForm b c d[XMLGenT e(XMLType e)]()()",
@@ -467,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "inputSubmit",
           "package": "reform-hsp",
@@ -476,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "inputSubmit",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003eForm d a b[XMLGenT e(XMLType e)]()(Maybe c)",
@@ -491,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "inputText",
           "package": "reform-hsp",
@@ -500,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "inputText",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003eForm d a b[XMLGenT e(XMLType e)]()c",
@@ -515,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "label",
           "package": "reform-hsp",
@@ -524,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "label",
           "normalized": "a-\u003eForm b c d[XMLGenT e(XMLType e)]()()",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "li",
           "package": "reform-hsp",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "li",
           "normalized": "Form a b c d e f-\u003eForm a b c[XMLGenT g(XMLType g)]e f",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "ol",
           "package": "reform-hsp",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "ol",
           "normalized": "Form a b c d e f-\u003eForm a b c[XMLGenT g(XMLType g)]e f",
@@ -584,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "select",
           "package": "reform-hsp",
@@ -593,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "select",
           "normalized": "[(a,b)]-\u003e(a-\u003eBool)-\u003eForm c d e[XMLGenT f(XMLType f)]()a",
@@ -607,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "selectMultiple",
           "package": "reform-hsp",
@@ -616,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "selectMultiple",
           "normalized": "[(a,b)]-\u003e(a-\u003eBool)-\u003eForm c d e[XMLGenT f(XMLType f)]()[a]",
@@ -631,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "setAttrs",
           "package": "reform-hsp",
@@ -640,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "setAttrs",
           "normalized": "Form a b c[GenXML d]e f-\u003eg-\u003eForm a b c[GenXML d]e f",
@@ -655,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "textarea",
           "package": "reform-hsp",
@@ -664,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "textarea",
           "normalized": "(a-\u003eEither b c)-\u003eInt-\u003eInt-\u003ec-\u003eForm d a b[XMLGenT e(XMLType e)]()c",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Common",
           "name": "ul",
           "package": "reform-hsp",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Text Reform HSP Common",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Common",
           "name": "ul",
           "normalized": "Form a b c d e f-\u003eForm a b c[XMLGenT g(XMLType g)]e f",
@@ -702,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions creating Reform using HSP markup.\n\u003c/p\u003e\u003cp\u003eThis module assumes that you wish for text based controls such as \u003ccode\u003e\u003ca\u003einputText\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etextarea\u003c/a\u003e\u003c/code\u003e to using \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e values. If you prefer \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e see \u003ca\u003eText.Reform.HSP.Text\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "String",
           "package": "reform-hsp",
@@ -711,6 +770,7 @@
         "index": {
           "description": "This module provides functions creating Reform using HSP markup This module assumes that you wish for text based controls such as inputText and textarea to using String values If you prefer Text see Text.Reform.HSP.Text",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "String",
           "package": "reform-hsp",
@@ -725,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003cbr\u003e\u003c/code\u003e tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "br",
           "package": "reform-hsp",
@@ -735,6 +796,7 @@
         "index": {
           "description": "create br tag",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "br",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()()",
@@ -801,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a  \u003ccode\u003e\u003cbutton type=\"submit\"\u003e\u003c/button\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "buttonSubmit",
           "package": "reform-hsp",
@@ -810,6 +873,7 @@
         "index": {
           "description": "create button type submit button element",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "buttonSubmit",
           "normalized": "String-\u003ea-\u003eForm b c d[XMLGenT e(XMLType e)]()(Maybe String)",
@@ -826,6 +890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003cul\u003e\u003c/code\u003e which contains all the errors related to the \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIncludes errors from children of the current form.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e\\ul\\\u003c/a\u003e\u003c/code\u003e will have the attribute \u003ccode\u003eclass=\"reform-error-list\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "childErrorList",
           "package": "reform-hsp",
@@ -836,6 +901,7 @@
         "index": {
           "description": "create ul which contains all the errors related to the Form Includes errors from children of the current form The ul will have the attribute class reform-error-list",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "childErrorList",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()()",
@@ -852,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003cul\u003e\u003c/code\u003e which contains all the errors related to the \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e\\ul\\\u003c/a\u003e\u003c/code\u003e will have the attribute \u003ccode\u003eclass=\"reform-error-list\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "errorList",
           "package": "reform-hsp",
@@ -862,6 +929,7 @@
         "index": {
           "description": "create ul which contains all the errors related to the Form The ul will have the attribute class reform-error-list",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "errorList",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()()",
@@ -878,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap a \u003ccode\u003e\u003cfieldset class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "fieldset",
           "package": "reform-hsp",
@@ -888,6 +957,7 @@
         "index": {
           "description": "wrap fieldset class reform around Form",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "fieldset",
           "normalized": "Form a b c d e f-\u003eForm a b c[XMLGenT g(XMLType g)]e f",
@@ -928,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"button\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThe element is a push button with a text label. The button does nothing by default, but actions can be added using javascript. This element does not add any data to the form data set.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ebutton\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "inputButton",
           "package": "reform-hsp",
@@ -937,6 +1008,7 @@
         "index": {
           "description": "Create an input type button element The element is push button with text label The button does nothing by default but actions can be added using javascript This element does not add any data to the form data set see also button",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "inputButton",
           "normalized": "String-\u003eForm a b c[XMLGenT d(XMLType d)]()()",
@@ -1005,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"file\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThis control may succeed even if the user does not actually select a file to upload. In that case the uploaded name will likely be \"\" and the file contents will be empty as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "inputFile",
           "package": "reform-hsp",
@@ -1015,6 +1088,7 @@
         "index": {
           "description": "Create an input type file element This control may succeed even if the user does not actually select file to upload In that case the uploaded name will likely be and the file contents will be empty as well",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "inputFile",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()(FileType b)",
@@ -1031,6 +1105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"hidden\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "inputHidden",
           "package": "reform-hsp",
@@ -1040,6 +1115,7 @@
         "index": {
           "description": "Create an input type hidden element",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "inputHidden",
           "normalized": "String-\u003eForm a b c[XMLGenT d(XMLType d)]()String",
@@ -1056,6 +1132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"password\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "inputPassword",
           "package": "reform-hsp",
@@ -1066,6 +1143,7 @@
         "index": {
           "description": "Create an input type password element",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "inputPassword",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()String",
@@ -1134,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"reset\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThis element does not add any data to the form data set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "inputReset",
           "package": "reform-hsp",
@@ -1143,6 +1222,7 @@
         "index": {
           "description": "Create an input type reset element This element does not add any data to the form data set",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "inputReset",
           "normalized": "String-\u003eForm a b c[XMLGenT d(XMLType d)]()()",
@@ -1159,6 +1239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"submit\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003ereturns:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eJust\u003c/code\u003e \u003cem\u003evalue\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e if this button was used to submit the form.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNothing\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    if this button was not used to submit the form.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "inputSubmit",
           "package": "reform-hsp",
@@ -1168,6 +1249,7 @@
         "index": {
           "description": "Create an input type submit element returns Just value if this button was used to submit the form Nothing if this button was not used to submit the form",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "inputSubmit",
           "normalized": "String-\u003eForm a b c[XMLGenT d(XMLType d)]()(Maybe String)",
@@ -1184,6 +1266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"text\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "inputText",
           "package": "reform-hsp",
@@ -1193,6 +1276,7 @@
         "index": {
           "description": "Create an input type text element",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "inputText",
           "normalized": "String-\u003eForm a b c[XMLGenT d(XMLType d)]()String",
@@ -1209,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003clabel\u003e\u003c/code\u003e element.\n\u003c/p\u003e\u003cp\u003eUse this with \u003ca\u003eor ++\u003c/a\u003e to ensure that the \u003ccode\u003efor\u003c/code\u003e attribute references the correct \u003ccode\u003eid\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e label \"some input field: \" ++\u003e inputText \"\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "label",
           "package": "reform-hsp",
@@ -1219,6 +1304,7 @@
         "index": {
           "description": "create label element Use this with or to ensure that the for attribute references the correct id label some input field inputText",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "label",
           "normalized": "a-\u003eForm b c d[XMLGenT e(XMLType e)]()()",
@@ -1234,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap a \u003ccode\u003e\u003cli class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "li",
           "package": "reform-hsp",
@@ -1244,6 +1331,7 @@
         "index": {
           "description": "wrap li class reform around Form",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "li",
           "normalized": "Form a b c d e f-\u003eForm a b c[XMLGenT g(XMLType g)]e f",
@@ -1259,6 +1347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap an \u003ccode\u003e\u003col class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "ol",
           "package": "reform-hsp",
@@ -1269,6 +1358,7 @@
         "index": {
           "description": "wrap an ol class reform around Form",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "ol",
           "normalized": "Form a b c d e f-\u003eForm a b c[XMLGenT g(XMLType g)]e f",
@@ -1335,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the attributes on the top-level elements of \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "setAttrs",
           "package": "reform-hsp",
@@ -1345,6 +1436,7 @@
         "index": {
           "description": "set the attributes on the top-level elements of Form",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "setAttrs",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]e f-\u003eg-\u003eForm a b c[GenXML d]e f",
@@ -1361,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ctextarea\u003e\u003c/textarea\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "textarea",
           "package": "reform-hsp",
@@ -1370,6 +1463,7 @@
         "index": {
           "description": "Create textarea textarea element",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "textarea",
           "normalized": "Int-\u003eInt-\u003eString-\u003eForm a b c[XMLGenT d(XMLType d)]()String",
@@ -1385,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap a \u003ccode\u003e\u003cul class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.String",
           "name": "ul",
           "package": "reform-hsp",
@@ -1395,6 +1490,7 @@
         "index": {
           "description": "wrap ul class reform around Form",
           "hierarchy": "Text Reform HSP String",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.String",
           "name": "ul",
           "normalized": "Form a b c d e f-\u003eForm a b c[XMLGenT g(XMLType g)]e f",
@@ -1410,6 +1506,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions creating Reform using HSP markup.\n\u003c/p\u003e\u003cp\u003eThis module assumes that you wish for text based controls such as \u003ccode\u003e\u003ca\u003einputText\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etextarea\u003c/a\u003e\u003c/code\u003e to using \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e values. If you prefer \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e see \u003ca\u003eText.Reform.HSP.String\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "Text",
           "package": "reform-hsp",
@@ -1419,6 +1516,7 @@
         "index": {
           "description": "This module provides functions creating Reform using HSP markup This module assumes that you wish for text based controls such as inputText and textarea to using Text values If you prefer String see Text.Reform.HSP.String",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "Text",
           "package": "reform-hsp",
@@ -1433,6 +1531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003cbr\u003e\u003c/code\u003e tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "br",
           "package": "reform-hsp",
@@ -1443,6 +1542,7 @@
         "index": {
           "description": "create br tag",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "br",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()()",
@@ -1458,6 +1558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a  \u003ccode\u003e\u003cbutton type=\"submit\"\u003e\u003c/button\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "buttonSubmit",
           "package": "reform-hsp",
@@ -1467,6 +1568,7 @@
         "index": {
           "description": "create button type submit button element",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "buttonSubmit",
           "normalized": "Text-\u003ea-\u003eForm b c d[XMLGenT e(XMLType e)]()(Maybe Text)",
@@ -1483,6 +1585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003cul\u003e\u003c/code\u003e which contains all the errors related to the \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIncludes errors from children of the current form.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e\\ul\\\u003c/a\u003e\u003c/code\u003e will have the attribute \u003ccode\u003eclass=\"reform-error-list\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "childErrorList",
           "package": "reform-hsp",
@@ -1493,6 +1596,7 @@
         "index": {
           "description": "create ul which contains all the errors related to the Form Includes errors from children of the current form The ul will have the attribute class reform-error-list",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "childErrorList",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()()",
@@ -1509,6 +1613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003cul\u003e\u003c/code\u003e which contains all the errors related to the \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e\\ul\\\u003c/a\u003e\u003c/code\u003e will have the attribute \u003ccode\u003eclass=\"reform-error-list\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "errorList",
           "package": "reform-hsp",
@@ -1519,6 +1624,7 @@
         "index": {
           "description": "create ul which contains all the errors related to the Form The ul will have the attribute class reform-error-list",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "errorList",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()()",
@@ -1535,6 +1641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap a \u003ccode\u003e\u003cfieldset class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "fieldset",
           "package": "reform-hsp",
@@ -1545,6 +1652,7 @@
         "index": {
           "description": "wrap fieldset class reform around Form",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "fieldset",
           "normalized": "Form a b c d e f-\u003eForm a b c[XMLGenT g(XMLType g)]e f",
@@ -1560,6 +1668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"button\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThe element is a push button with a text label. The button does nothing by default, but actions can be added using javascript. This element does not add any data to the form data set.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ebutton\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "inputButton",
           "package": "reform-hsp",
@@ -1569,6 +1678,7 @@
         "index": {
           "description": "Create an input type button element The element is push button with text label The button does nothing by default but actions can be added using javascript This element does not add any data to the form data set see also button",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "inputButton",
           "normalized": "Text-\u003eForm a b c[XMLGenT d(XMLType d)]()()",
@@ -1585,6 +1695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"file\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThis control may succeed even if the user does not actually select a file to upload. In that case the uploaded name will likely be \"\" and the file contents will be empty as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "inputFile",
           "package": "reform-hsp",
@@ -1595,6 +1706,7 @@
         "index": {
           "description": "Create an input type file element This control may succeed even if the user does not actually select file to upload In that case the uploaded name will likely be and the file contents will be empty as well",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "inputFile",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()(FileType b)",
@@ -1611,6 +1723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"hidden\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "inputHidden",
           "package": "reform-hsp",
@@ -1620,6 +1733,7 @@
         "index": {
           "description": "Create an input type hidden element",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "inputHidden",
           "normalized": "Text-\u003eForm a b c[XMLGenT d(XMLType d)]()Text",
@@ -1636,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"password\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "inputPassword",
           "package": "reform-hsp",
@@ -1646,6 +1761,7 @@
         "index": {
           "description": "Create an input type password element",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "inputPassword",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]()Text",
@@ -1662,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"reset\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThis element does not add any data to the form data set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "inputReset",
           "package": "reform-hsp",
@@ -1671,6 +1788,7 @@
         "index": {
           "description": "Create an input type reset element This element does not add any data to the form data set",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "inputReset",
           "normalized": "Text-\u003eForm a b c[XMLGenT d(XMLType d)]()()",
@@ -1687,6 +1805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"submit\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003ereturns:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eJust\u003c/code\u003e \u003cem\u003evalue\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e if this button was used to submit the form.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNothing\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    if this button was not used to submit the form.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "inputSubmit",
           "package": "reform-hsp",
@@ -1696,6 +1815,7 @@
         "index": {
           "description": "Create an input type submit element returns Just value if this button was used to submit the form Nothing if this button was not used to submit the form",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "inputSubmit",
           "normalized": "Text-\u003eForm a b c[XMLGenT d(XMLType d)]()(Maybe Text)",
@@ -1712,6 +1832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"text\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "inputText",
           "package": "reform-hsp",
@@ -1721,6 +1842,7 @@
         "index": {
           "description": "Create an input type text element",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "inputText",
           "normalized": "Text-\u003eForm a b c[XMLGenT d(XMLType d)]()Text",
@@ -1737,6 +1859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003clabel\u003e\u003c/code\u003e element.\n\u003c/p\u003e\u003cp\u003eUse this with \u003ca\u003eor ++\u003c/a\u003e to ensure that the \u003ccode\u003efor\u003c/code\u003e attribute references the correct \u003ccode\u003eid\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e label \"some input field: \" ++\u003e inputText \"\"\n\u003c/pre\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elabelText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "label",
           "package": "reform-hsp",
@@ -1747,6 +1870,7 @@
         "index": {
           "description": "create label element Use this with or to ensure that the for attribute references the correct id label some input field inputText see also labelText",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "label",
           "normalized": "a-\u003eForm b c d[XMLGenT e(XMLType e)]()()",
@@ -1762,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003clabel\u003e\u003c/code\u003e element.\n\u003c/p\u003e\u003cp\u003eUse this with \u003ca\u003eor ++\u003c/a\u003e to ensure that the \u003ccode\u003efor\u003c/code\u003e attribute references the correct \u003ccode\u003eid\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e labelText \"some input field: \" ++\u003e inputText \"\"\n\u003c/pre\u003e\u003cp\u003eThis function is provided as an alternative to \u003ccode\u003e\u003ca\u003elabel\u003c/a\u003e\u003c/code\u003e because when\n the \u003ccode\u003eOverloadedStrings\u003c/code\u003e extension is enabled, you will get\n ambiguous type errors when attempting to apply \u003ccode\u003e\u003ca\u003elabel\u003c/a\u003e\u003c/code\u003e to a string\n literal. While the type error can be fixed using an explicit type\n signature, calling \u003ccode\u003e\u003ca\u003elabelText\u003c/a\u003e\u003c/code\u003e looks nicer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "labelText",
           "package": "reform-hsp",
@@ -1772,6 +1897,7 @@
         "index": {
           "description": "create label element Use this with or to ensure that the for attribute references the correct id labelText some input field inputText This function is provided as an alternative to label because when the OverloadedStrings extension is enabled you will get ambiguous type errors when attempting to apply label to string literal While the type error can be fixed using an explicit type signature calling labelText looks nicer",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "labelText",
           "normalized": "Text-\u003eForm a b c[XMLGenT d(XMLType d)]()()",
@@ -1788,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap a \u003ccode\u003e\u003cli class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "li",
           "package": "reform-hsp",
@@ -1798,6 +1925,7 @@
         "index": {
           "description": "wrap li class reform around Form",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "li",
           "normalized": "Form a b c d e f-\u003eForm a b c[XMLGenT g(XMLType g)]e f",
@@ -1813,6 +1941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap an \u003ccode\u003e\u003col class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "ol",
           "package": "reform-hsp",
@@ -1823,6 +1952,7 @@
         "index": {
           "description": "wrap an ol class reform around Form",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "ol",
           "normalized": "Form a b c d e f-\u003eForm a b c[XMLGenT g(XMLType g)]e f",
@@ -1838,6 +1968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the attributes on the top-level elements of \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "setAttrs",
           "package": "reform-hsp",
@@ -1848,6 +1979,7 @@
         "index": {
           "description": "set the attributes on the top-level elements of Form",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "setAttrs",
           "normalized": "Form a b c[XMLGenT d(XMLType d)]e f-\u003eg-\u003eForm a b c[GenXML d]e f",
@@ -1864,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ctextarea\u003e\u003c/textarea\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "textarea",
           "package": "reform-hsp",
@@ -1873,6 +2006,7 @@
         "index": {
           "description": "Create textarea textarea element",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "textarea",
           "normalized": "Int-\u003eInt-\u003eText-\u003eForm a b c[XMLGenT d(XMLType d)]()Text",
@@ -1888,6 +2022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap a \u003ccode\u003e\u003cul class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:51 UTC 2014",
           "module": "Text.Reform.HSP.Text",
           "name": "ul",
           "package": "reform-hsp",
@@ -1898,6 +2033,7 @@
         "index": {
           "description": "wrap ul class reform around Form",
           "hierarchy": "Text Reform HSP Text",
+          "indexed": "2014-03-11T19:50:51",
           "module": "Text.Reform.HSP.Text",
           "name": "ul",
           "normalized": "Form a b c d e f-\u003eForm a b c[XMLGenT g(XMLType g)]e f",

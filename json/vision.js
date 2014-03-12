@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vision"
+        "phrase": "vision",
+        "type": "phrase"
       },
       "type": "context"
     }

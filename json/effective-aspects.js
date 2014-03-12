@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "effective-aspects"
+        "phrase": "effective-aspects",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault aspect semantics, aspects are deployed and undeployed at the top level.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Default",
           "name": "Default",
           "package": "effective-aspects",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Default aspect semantics aspects are deployed and undeployed at the top level",
           "hierarchy": "AOP Default",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Default",
           "name": "Default",
           "package": "effective-aspects",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.AOPMonad",
           "name": "AOPMonad",
           "package": "effective-aspects",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal AOPMonad",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.AOPMonad",
           "name": "AOPMonad",
           "package": "effective-aspects",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.AOPMonad",
           "name": "AOPMonad",
           "package": "effective-aspects",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal AOPMonad",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.AOPMonad",
           "name": "AOPMonad",
           "package": "effective-aspects",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.AOPMonad",
           "name": "MonadDeploy",
           "package": "effective-aspects",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal AOPMonad",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.AOPMonad",
           "name": "MonadDeploy",
           "package": "effective-aspects",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.AOPMonad",
           "name": "deploy",
           "package": "effective-aspects",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal AOPMonad",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.AOPMonad",
           "name": "deploy",
           "normalized": "Aspect a b c d e-\u003ea()",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.AOPMonad",
           "name": "deployInEnv",
           "package": "effective-aspects",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal AOPMonad",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.AOPMonad",
           "name": "deployInEnv",
           "normalized": "Aspect(a b)c d e f-\u003eAspectEnv(a b)-\u003eb(AspectEnv(a b))",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.AOPMonad",
           "name": "undeploy",
           "package": "effective-aspects",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal AOPMonad",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.AOPMonad",
           "name": "undeploy",
           "normalized": "Aspect a b c d e-\u003ea()",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.AOPMonad",
           "name": "undeployInEnv",
           "package": "effective-aspects",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal AOPMonad",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.AOPMonad",
           "name": "undeployInEnv",
           "normalized": "Aspect(a b)c d e f-\u003eAspectEnv(a b)-\u003eb(AspectEnv(a b))",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.AOT",
           "name": "AOT",
           "package": "effective-aspects",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal AOT",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.AOT",
           "name": "AOT",
           "package": "effective-aspects",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.AOT",
           "name": "AOT",
           "package": "effective-aspects",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal AOT",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.AOT",
           "name": "AOT",
           "package": "effective-aspects",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.AOT",
           "name": "mkAOT",
           "package": "effective-aspects",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal AOT",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.AOT",
           "name": "mkAOT",
           "normalized": "(AspectEnv(AOT a)-\u003ea(b,AspectEnv(AOT a)))-\u003eAOT a b",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns an AOT computation to obtain a computation in the underlying monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.AOT",
           "name": "runAOT",
           "package": "effective-aspects",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Runs an AOT computation to obtain computation in the underlying monad",
           "hierarchy": "AOP Internal AOT",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.AOT",
           "name": "runAOT",
           "normalized": "AOT a b-\u003ea b",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of woven application for AOT, used in the overloading of #.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.AOT",
           "name": "wappt",
           "package": "effective-aspects",
@@ -301,6 +326,7 @@
         "index": {
           "description": "Implementation of woven application for AOT used in the overloading of",
           "hierarchy": "AOP Internal AOT",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.AOT",
           "name": "wappt",
           "normalized": "FunctionTag-\u003e(a-\u003eAOT b c)-\u003ea-\u003eAOT b c",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "JoinpointModel",
           "package": "effective-aspects",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "JoinpointModel",
           "package": "effective-aspects",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "Advice",
           "package": "effective-aspects",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "Advice",
           "package": "effective-aspects",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyped first-class aspect. An aspect is tagged with a Unique value, used for identity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "Aspect",
           "package": "effective-aspects",
@@ -367,6 +398,7 @@
         "index": {
           "description": "Typed first-class aspect An aspect is tagged with Unique value used for identity",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "Aspect",
           "package": "effective-aspects",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAspect environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "AspectEnv",
           "package": "effective-aspects",
@@ -390,6 +423,7 @@
         "index": {
           "description": "Aspect environment",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "AspectEnv",
           "package": "effective-aspects",
@@ -404,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAspect with hidden types, to be used in the aspect environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "EAspect",
           "package": "effective-aspects",
@@ -413,6 +448,7 @@
         "index": {
           "description": "Aspect with hidden types to be used in the aspect environment",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "EAspect",
           "package": "effective-aspects",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "FunctionTag",
           "package": "effective-aspects",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "FunctionTag",
           "package": "effective-aspects",
@@ -448,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin points are function applications. We store the function and the argument, and the function type representation.\n | We add a FunctionTag value to use for quantification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "Jp",
           "package": "effective-aspects",
@@ -457,6 +496,7 @@
         "index": {
           "description": "Join points are function applications We store the function and the argument and the function type representation We add FunctionTag value to use for quantification",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "Jp",
           "package": "effective-aspects",
@@ -471,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pointcut is a predicate on the current join point. It is used to identify join points of interest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "PC",
           "package": "effective-aspects",
@@ -480,6 +521,7 @@
         "index": {
           "description": "pointcut is predicate on the current join point It is used to identify join points of interest",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "PC",
           "package": "effective-aspects",
@@ -494,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA RequirePC is not a valid standalone pointcut, it reflects a type requirement and must be combined with a standard PC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "RequirePC",
           "package": "effective-aspects",
@@ -503,6 +546,7 @@
         "index": {
           "description": "RequirePC is not valid standalone pointcut it reflects type requirement and must be combined with standard PC",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "RequirePC",
           "package": "effective-aspects",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "Aspect",
           "package": "effective-aspects",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "Aspect",
           "package": "effective-aspects",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "EAspect",
           "package": "effective-aspects",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "EAspect",
           "package": "effective-aspects",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "Jp",
           "package": "effective-aspects",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "Jp",
           "normalized": "Jp(a-\u003eb c)FunctionTag a TypeRep",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "PC",
           "package": "effective-aspects",
@@ -593,6 +644,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "PC",
           "package": "effective-aspects",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "RequirePC",
           "package": "effective-aspects",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "RequirePC",
           "package": "effective-aspects",
@@ -629,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoerces t2 to be compatible with the advice. It passes t1 as a the proceed argument of the advice.\n This coercion is safe, as described in the paper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "applyAdv",
           "package": "effective-aspects",
@@ -639,6 +694,7 @@
         "index": {
           "description": "Coerces t2 to be compatible with the advice It passes t1 as the proceed argument of the advice This coercion is safe as described in the paper",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "applyAdv",
           "normalized": "Advice a b c-\u003ed-\u003ed",
@@ -655,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a well-typed aspect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "aspect",
           "package": "effective-aspects",
@@ -665,6 +722,7 @@
         "index": {
           "description": "Constructs well-typed aspect",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "aspect",
           "normalized": "PC a b c-\u003eAdvice a b c-\u003eAspect a b c b c",
@@ -680,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComparing identity of functions:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "compareFun",
           "package": "effective-aspects",
@@ -690,6 +749,7 @@
         "index": {
           "description": "Comparing identity of functions",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "compareFun",
           "normalized": "a-\u003eFunctionTag-\u003eJp b c d-\u003eBool",
@@ -706,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare types to see if type representation t is less general \n | than the type of the function associated to the join point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "compareType",
           "package": "effective-aspects",
@@ -716,6 +777,7 @@
         "index": {
           "description": "Compare types to see if type representation is less general than the type of the function associated to the join point",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "compareType",
           "normalized": "TypeRep-\u003eJp a b c-\u003eBool",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "defaultFunctionTag",
           "package": "effective-aspects",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "defaultFunctionTag",
           "package": "effective-aspects",
@@ -754,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes asp from the aspect environment, used in undeploy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "deleteAsp",
           "package": "effective-aspects",
@@ -764,6 +829,7 @@
         "index": {
           "description": "Deletes asp from the aspect environment used in undeploy",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "deleteAsp",
           "normalized": "EAspect a-\u003eAspectEnv a-\u003eAspectEnv a",
@@ -780,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the argument bound to the join point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "getJpArg",
           "package": "effective-aspects",
@@ -790,6 +857,7 @@
         "index": {
           "description": "Gets the argument bound to the join point",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "getJpArg",
           "normalized": "Jp a b c-\u003eb",
@@ -805,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "mpcond",
           "package": "effective-aspects",
@@ -814,6 +883,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "mpcond",
           "normalized": "a b c d(Jp d b e-\u003ed Bool)",
@@ -828,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "mpcond'",
           "package": "effective-aspects",
@@ -837,6 +908,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "mpcond'",
           "normalized": "a b c d(Jp d b e-\u003ed Bool)",
@@ -852,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a join point with given function, tag, and argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "newjp",
           "package": "effective-aspects",
@@ -862,6 +935,7 @@
         "index": {
           "description": "Creates join point with given function tag and argument",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "newjp",
           "normalized": "(a-\u003eb c)-\u003eFunctionTag-\u003ea-\u003eJp b a c",
@@ -877,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the computation resulting of applying a join point to the pointcut\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.JoinpointModel",
           "name": "runPC",
           "package": "effective-aspects",
@@ -887,6 +962,7 @@
         "index": {
           "description": "Extracts the computation resulting of applying join point to the pointcut",
           "hierarchy": "AOP Internal JoinpointModel",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.JoinpointModel",
           "name": "runPC",
           "normalized": "PC a b b-\u003eJp a c d-\u003ea Bool",
@@ -902,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.LessGen",
           "name": "LessGen",
           "package": "effective-aspects",
@@ -910,6 +987,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal LessGen",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.LessGen",
           "name": "LessGen",
           "package": "effective-aspects",
@@ -923,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.LessGen",
           "name": "Analyze",
           "package": "effective-aspects",
@@ -931,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal LessGen",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.LessGen",
           "name": "Analyze",
           "package": "effective-aspects",
@@ -945,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf LeastGen a b c holds then there exists a substitution s and type c such that (s c = (a, b)).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.LessGen",
           "name": "LeastGen",
           "package": "effective-aspects",
@@ -954,6 +1035,7 @@
         "index": {
           "description": "If LeastGen holds then there exists substitution and type such that",
           "hierarchy": "AOP Internal LessGen",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.LessGen",
           "name": "LeastGen",
           "package": "effective-aspects",
@@ -967,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.LessGen",
           "name": "LeastGen'",
           "package": "effective-aspects",
@@ -975,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal LessGen",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.LessGen",
           "name": "LeastGen'",
           "package": "effective-aspects",
@@ -989,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf LessGen a b, then b is less general than a. That is, there exists substitution s such that (s b = a).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.LessGen",
           "name": "LessGen",
           "package": "effective-aspects",
@@ -998,6 +1083,7 @@
         "index": {
           "description": "If LessGen then is less general than That is there exists substitution such that",
           "hierarchy": "AOP Internal LessGen",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.LessGen",
           "name": "LessGen",
           "package": "effective-aspects",
@@ -1012,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding of substitutions as partial maps \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.LessGen",
           "name": "SubstEmpty",
           "package": "effective-aspects",
@@ -1021,6 +1108,7 @@
         "index": {
           "description": "Encoding of substitutions as partial maps",
           "hierarchy": "AOP Internal LessGen",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.LessGen",
           "name": "SubstEmpty",
           "package": "effective-aspects",
@@ -1034,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.OpenApp",
           "name": "OpenApp",
           "package": "effective-aspects",
@@ -1042,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal OpenApp",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.OpenApp",
           "name": "OpenApp",
           "package": "effective-aspects",
@@ -1055,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.OpenApp",
           "name": "OpenApp",
           "package": "effective-aspects",
@@ -1063,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal OpenApp",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.OpenApp",
           "name": "OpenApp",
           "package": "effective-aspects",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.OpenApp",
           "name": "TaggedApp",
           "package": "effective-aspects",
@@ -1084,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal OpenApp",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.OpenApp",
           "name": "TaggedApp",
           "package": "effective-aspects",
@@ -1097,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.OpenApp",
           "name": "(#)",
           "package": "effective-aspects",
@@ -1106,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal OpenApp",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.OpenApp",
           "name": "(#) #",
           "normalized": "(a-\u003eb c)-\u003ea-\u003eb c",
@@ -1120,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.OpenApp",
           "name": "taggedApp",
           "package": "effective-aspects",
@@ -1129,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal OpenApp",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.OpenApp",
           "name": "taggedApp",
           "normalized": "FunctionTag-\u003e(a-\u003eb c)-\u003ea-\u003eb c",
@@ -1144,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "PointcutLanguage",
           "package": "effective-aspects",
@@ -1152,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PointcutLanguage",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "PointcutLanguage",
           "package": "effective-aspects",
@@ -1165,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "pcAnd",
           "package": "effective-aspects",
@@ -1174,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PointcutLanguage",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "pcAnd",
           "normalized": "PC a b c-\u003ed a b c-\u003ePC a b c",
@@ -1190,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilt-in pointcuts pcCall and pcType, and pointcut combinators pcAnd, pcOr and pcNot.\nUsing typeclasses, pointcuts are open for new definitions of functions, like the Function wrapper.\nWe also define pcSeq, that matches a sequence of two join points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "pcCall",
           "package": "effective-aspects",
@@ -1200,6 +1303,7 @@
         "index": {
           "description": "Built-in pointcuts pcCall and pcType and pointcut combinators pcAnd pcOr and pcNot Using typeclasses pointcuts are open for new definitions of functions like the Function wrapper We also define pcSeq that matches sequence of two join points",
           "hierarchy": "AOP Internal PointcutLanguage",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "pcCall",
           "normalized": "(a-\u003eb)-\u003ePC c a b",
@@ -1216,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical Not pointcut combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "pcNot",
           "package": "effective-aspects",
@@ -1226,6 +1331,7 @@
         "index": {
           "description": "Logical Not pointcut combinator",
           "hierarchy": "AOP Internal PointcutLanguage",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "pcNot",
           "normalized": "PC a b c-\u003ePC a b c",
@@ -1242,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical Or pointcut combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "pcOr",
           "package": "effective-aspects",
@@ -1252,6 +1359,7 @@
         "index": {
           "description": "Logical Or pointcut combinator",
           "hierarchy": "AOP Internal PointcutLanguage",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "pcOr",
           "normalized": "PC a b c-\u003ePC a b c-\u003ePC a d e",
@@ -1267,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "pcTag",
           "package": "effective-aspects",
@@ -1276,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PointcutLanguage",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "pcTag",
           "normalized": "FunctionTag-\u003ePC a b c",
@@ -1291,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "pcType",
           "package": "effective-aspects",
@@ -1300,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PointcutLanguage",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PointcutLanguage",
           "name": "pcType",
           "normalized": "(a-\u003eb)-\u003ePC c a b",
@@ -1315,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeable",
           "name": "PolyTypeable",
           "package": "effective-aspects",
@@ -1323,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeable",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeable",
           "name": "PolyTypeable",
           "package": "effective-aspects",
@@ -1336,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeable",
           "name": "Analyze",
           "package": "effective-aspects",
@@ -1344,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeable",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeable",
           "name": "Analyze",
           "package": "effective-aspects",
@@ -1357,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeable",
           "name": "PolyTypeable",
           "package": "effective-aspects",
@@ -1365,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeable",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeable",
           "name": "PolyTypeable",
           "package": "effective-aspects",
@@ -1378,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TCon0",
           "package": "effective-aspects",
@@ -1386,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeable",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TCon0",
           "package": "effective-aspects",
@@ -1399,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TCon1",
           "package": "effective-aspects",
@@ -1407,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeable",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TCon1",
           "package": "effective-aspects",
@@ -1420,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TCon2",
           "package": "effective-aspects",
@@ -1428,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeable",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TCon2",
           "package": "effective-aspects",
@@ -1441,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TCon3",
           "package": "effective-aspects",
@@ -1449,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeable",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TCon3",
           "package": "effective-aspects",
@@ -1462,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TCon4",
           "package": "effective-aspects",
@@ -1470,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeable",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TCon4",
           "package": "effective-aspects",
@@ -1483,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TCon5",
           "package": "effective-aspects",
@@ -1491,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeable",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TCon5",
           "package": "effective-aspects",
@@ -1504,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TVar",
           "package": "effective-aspects",
@@ -1512,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeable",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeable",
           "name": "TVar",
           "package": "effective-aspects",
@@ -1525,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeable",
           "name": "W",
           "package": "effective-aspects",
@@ -1533,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeable",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeable",
           "name": "W",
           "package": "effective-aspects",
@@ -1545,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeable",
           "name": "polyTypeOf",
           "package": "effective-aspects",
@@ -1554,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeable",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeable",
           "name": "polyTypeOf",
           "normalized": "a-\u003eTypeRep",
@@ -1569,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeableUtils",
           "name": "PolyTypeableUtils",
           "package": "effective-aspects",
@@ -1577,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal PolyTypeableUtils",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeableUtils",
           "name": "PolyTypeableUtils",
           "package": "effective-aspects",
@@ -1591,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function on the first component of a pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeableUtils",
           "name": "first",
           "package": "effective-aspects",
@@ -1601,6 +1740,7 @@
         "index": {
           "description": "Applies function on the first component of pair",
           "hierarchy": "AOP Internal PolyTypeableUtils",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeableUtils",
           "name": "first",
           "normalized": "(a-\u003eb)-\u003e(a,c)-\u003e(b,c)",
@@ -1616,6 +1756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True iff t1 is less general than t2\n | We use a hashmap to compute a substitution from t2 to t1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeableUtils",
           "name": "isLessGeneral",
           "package": "effective-aspects",
@@ -1626,6 +1767,7 @@
         "index": {
           "description": "Returns True iff t1 is less general than t2 We use hashmap to compute substitution from t2 to t1",
           "hierarchy": "AOP Internal PolyTypeableUtils",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeableUtils",
           "name": "isLessGeneral",
           "normalized": "TypeRep-\u003eTypeRep-\u003eBool",
@@ -1642,6 +1784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad andmap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.PolyTypeableUtils",
           "name": "mmap",
           "package": "effective-aspects",
@@ -1652,6 +1795,7 @@
         "index": {
           "description": "Monad andmap",
           "hierarchy": "AOP Internal PolyTypeableUtils",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.PolyTypeableUtils",
           "name": "mmap",
           "normalized": "(a-\u003eb-\u003ec Bool)-\u003e[a]-\u003e[b]-\u003ec Bool",
@@ -1666,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.StableNamesEq",
           "name": "StableNamesEq",
           "package": "effective-aspects",
@@ -1674,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal StableNamesEq",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.StableNamesEq",
           "name": "StableNamesEq",
           "package": "effective-aspects",
@@ -1688,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality of functions based on the StableName API\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.StableNamesEq",
           "name": "stableNamesEq",
           "package": "effective-aspects",
@@ -1698,6 +1845,7 @@
         "index": {
           "description": "Equality of functions based on the StableName API",
           "hierarchy": "AOP Internal StableNamesEq",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.StableNamesEq",
           "name": "stableNamesEq",
           "normalized": "a-\u003eb-\u003eBool",
@@ -1713,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.Typeable1Monad",
           "name": "Typeable1Monad",
           "package": "effective-aspects",
@@ -1721,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "AOP Internal Typeable1Monad",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.Typeable1Monad",
           "name": "Typeable1Monad",
           "package": "effective-aspects",
@@ -1735,6 +1885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupport for PolyTypeable when using monads and monad transformers \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.Internal.Typeable1Monad",
           "name": "Typeable1Monad",
           "package": "effective-aspects",
@@ -1744,6 +1895,7 @@
         "index": {
           "description": "Support for PolyTypeable when using monads and monad transformers",
           "hierarchy": "AOP Internal Typeable1Monad",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.Internal.Typeable1Monad",
           "name": "Typeable1Monad",
           "package": "effective-aspects",
@@ -1757,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.ProtectedPointcuts",
           "name": "ProtectedPointcuts",
           "package": "effective-aspects",
@@ -1765,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "AOP ProtectedPointcuts",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.ProtectedPointcuts",
           "name": "ProtectedPointcuts",
           "package": "effective-aspects",
@@ -1778,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.ProtectedPointcuts",
           "name": "ProtectedPC",
           "package": "effective-aspects",
@@ -1786,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "AOP ProtectedPointcuts",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.ProtectedPointcuts",
           "name": "ProtectedPC",
           "package": "effective-aspects",
@@ -1800,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a protected aspect based on a given protected pc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.ProtectedPointcuts",
           "name": "pAspect",
           "package": "effective-aspects",
@@ -1810,6 +1967,7 @@
         "index": {
           "description": "Creates protected aspect based on given protected pc",
           "hierarchy": "AOP ProtectedPointcuts",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.ProtectedPointcuts",
           "name": "pAspect",
           "normalized": "ProtectedPC a b c d e f-\u003ed-\u003eAspect a b c e f",
@@ -1826,6 +1984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical and combinator for protected pointcuts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.ProtectedPointcuts",
           "name": "ppcAnd",
           "package": "effective-aspects",
@@ -1836,6 +1995,7 @@
         "index": {
           "description": "Logical and combinator for protected pointcuts",
           "hierarchy": "AOP ProtectedPointcuts",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.ProtectedPointcuts",
           "name": "ppcAnd",
           "normalized": "ProtectedPC a b c d e f-\u003eProtectedPC a b c d e f-\u003eProtectedPC a b c d e f",
@@ -1852,6 +2012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical or combinator for protected pointcuts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.ProtectedPointcuts",
           "name": "ppcOr",
           "package": "effective-aspects",
@@ -1862,6 +2023,7 @@
         "index": {
           "description": "Logical or combinator for protected pointcuts",
           "hierarchy": "AOP ProtectedPointcuts",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.ProtectedPointcuts",
           "name": "ppcOr",
           "normalized": "ProtectedPC a b c d e f-\u003eProtectedPC a g h d e f-\u003eProtectedPC a i j d e f",
@@ -1877,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:06 UTC 2014",
           "module": "AOP.ProtectedPointcuts",
           "name": "protectPC",
           "package": "effective-aspects",
@@ -1886,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "AOP ProtectedPointcuts",
+          "indexed": "2014-03-11T18:01:06",
           "module": "AOP.ProtectedPointcuts",
           "name": "protectPC",
           "normalized": "PC a b c-\u003eCombinator d a e f-\u003eProtectedPC a b c d e f",

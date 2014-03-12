@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "antigate"
+        "phrase": "antigate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n import Text.Recognition.Antigate\n import Data.Default\n import Network\n import Control.Monad\n import Control.Monad.IO.Class\n import Data.ByteString.Lazy hiding (putStrLn)\n import System.Timeout\n\n myApiKey :: ApiKey\n myApiKey = \"0123456789abcdef0123456789abcdef\"{api_host=\"antigate.com\"}\n\n downloadJpegCaptcha :: Manager -\u003e IO ByteString\n downloadJpegCaptcha = undefined\n\n answerCaptcha :: String -\u003e Manager -\u003e IO Bool\n answerCaptcha = undefined\n\n main :: IO ()\n main = withSocketsDo $ do\n     res \u003c- timeout (30*1000000) $ withManager $ \\m -\u003e do\n         bytes \u003c- liftIO $ downloadJpegCaptcha m\n         (id, answer) \u003c- solveCaptcha def myApiKey def{phrase=True} \"captcha.jpg\" bytes m\n         res \u003c- liftIO $ answerCaptcha answer m\n         unless res $ reportBad myApiKey id m\n         return res\n     case res of\n         Nothing -\u003e do\n             putStrLn \"Timed out\"\n         Just True -\u003e do\n             putStrLn \"Solved successfully\"\n         Just False -\u003e do\n             putStrLn \"Couldn't solve\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "Antigate",
           "package": "antigate",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Example LANGUAGE OverloadedStrings import Text.Recognition.Antigate import Data.Default import Network import Control.Monad import Control.Monad.IO.Class import Data.ByteString.Lazy hiding putStrLn import System.Timeout myApiKey ApiKey myApiKey abcdef0123456789abcdef api host antigate.com downloadJpegCaptcha Manager IO ByteString downloadJpegCaptcha undefined answerCaptcha String Manager IO Bool answerCaptcha undefined main IO main withSocketsDo do res timeout withManager do bytes liftIO downloadJpegCaptcha id answer solveCaptcha def myApiKey def phrase True captcha.jpg bytes res liftIO answerCaptcha answer unless res reportBad myApiKey id return res case res of Nothing do putStrLn Timed out Just True do putStrLn Solved successfully Just False do putStrLn Couldn solve",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "Antigate",
           "package": "antigate",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAntigate API access key paired with service provider's host.\n At least these services claim to support Antigate API:\n Antigate, Captchabot, Decaptcher, ExpertDecoders, ImageTyperz,\n DeathByCaptcha and Pixodrom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ApiKey",
           "package": "antigate",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Antigate API access key paired with service provider host At least these services claim to support Antigate API Antigate Captchabot Decaptcher ExpertDecoders ImageTyperz DeathByCaptcha and Pixodrom",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ApiKey",
           "package": "antigate",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ApiResult",
           "package": "antigate",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ApiResult",
           "package": "antigate",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties of the captcha to be solved. See \u003ca\u003ehttp://antigate.com/panel.php?action=api\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "CaptchaConf",
           "package": "antigate",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Properties of the captcha to be solved See http antigate.com panel.php action api",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "CaptchaConf",
           "package": "antigate",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "CaptchaID",
           "package": "antigate",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "CaptchaID",
           "package": "antigate",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeeps track of open connections for keep-alive.\n\u003c/p\u003e\u003cp\u003eIf possible, you should share a single \u003ccode\u003e\u003ca\u003eManager\u003c/a\u003e\u003c/code\u003e between multiple threads and requests.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "Manager",
           "package": "antigate",
@@ -138,6 +149,7 @@
         "index": {
           "description": "Keeps track of open connections for keep-alive If possible you should share single Manager between multiple threads and requests Since",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "Manager",
           "package": "antigate",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "Phase",
           "package": "antigate",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "Phase",
           "package": "antigate",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "SolveConf",
           "package": "antigate",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "SolveConf",
           "package": "antigate",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "SolveException",
           "package": "antigate",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "SolveException",
           "package": "antigate",
@@ -215,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecaptcha is not recognized yet, repeat request withing 1-5 seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "CAPCHA_NOT_READY",
           "package": "antigate",
@@ -225,6 +244,7 @@
         "index": {
           "description": "captcha is not recognized yet repeat request withing seconds",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "CAPCHA_NOT_READY",
           "package": "antigate",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "CaptchaConf",
           "package": "antigate",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "CaptchaConf",
           "package": "antigate",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "CheckPhase",
           "package": "antigate",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "CheckPhase",
           "package": "antigate",
@@ -283,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCould not determine captcha file type, only allowed formats are JPG, GIF, PNG\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_IMAGE_TYPE_NOT_SUPPORTED",
           "package": "antigate",
@@ -293,6 +318,7 @@
         "index": {
           "description": "Could not determine captcha file type only allowed formats are JPG GIF PNG",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_IMAGE_TYPE_NOT_SUPPORTED",
           "package": "antigate",
@@ -307,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest with current account key is not allowed from your IP. Please refer to IP list section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_IP_NOT_ALLOWED",
           "package": "antigate",
@@ -317,6 +344,7 @@
         "index": {
           "description": "Request with current account key is not allowed from your IP Please refer to IP list section",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_IP_NOT_ALLOWED",
           "package": "antigate",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eyou have set wrong user authorization key in request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_KEY_DOES_NOT_EXIST",
           "package": "antigate",
@@ -341,6 +370,7 @@
         "index": {
           "description": "you have set wrong user authorization key in request",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_KEY_DOES_NOT_EXIST",
           "package": "antigate",
@@ -355,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eno idle captcha workers are available at the moment, please try a bit later or try increasing your bid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_NO_SLOT_AVAILABLE",
           "package": "antigate",
@@ -365,6 +396,7 @@
         "index": {
           "description": "no idle captcha workers are available at the moment please try bit later or try increasing your bid",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_NO_SLOT_AVAILABLE",
           "package": "antigate",
@@ -379,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eyour captcha size is exceeding 100kb limit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_TOO_BIG_CAPTCHA_FILESIZE",
           "package": "antigate",
@@ -389,6 +422,7 @@
         "index": {
           "description": "your captcha size is exceeding kb limit",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_TOO_BIG_CAPTCHA_FILESIZE",
           "package": "antigate",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_UNKNOWN",
           "package": "antigate",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_UNKNOWN",
           "package": "antigate",
@@ -425,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eyour captcha file has wrong extension, the only allowed extensions are gif,jpg,jpeg,png\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_WRONG_FILE_EXTENSION",
           "package": "antigate",
@@ -435,6 +472,7 @@
         "index": {
           "description": "your captcha file has wrong extension the only allowed extensions are gif jpg jpeg png",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_WRONG_FILE_EXTENSION",
           "package": "antigate",
@@ -449,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe captcha ID you are sending is non-numeric\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_WRONG_ID_FORMAT",
           "package": "antigate",
@@ -459,6 +498,7 @@
         "index": {
           "description": "the captcha ID you are sending is non-numeric",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_WRONG_ID_FORMAT",
           "package": "antigate",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser authorization key is invalid (its length is not 32 bytes as it should be)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_WRONG_USER_KEY",
           "package": "antigate",
@@ -483,6 +524,7 @@
         "index": {
           "description": "user authorization key is invalid its length is not bytes as it should be",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_WRONG_USER_KEY",
           "package": "antigate",
@@ -497,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaccount has zero or negative balance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_ZERO_BALANCE",
           "package": "antigate",
@@ -507,6 +550,7 @@
         "index": {
           "description": "account has zero or negative balance",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_ZERO_BALANCE",
           "package": "antigate",
@@ -521,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe size of the captcha you are uploading or pointing to is zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_ZERO_CAPTCHA_FILESIZE",
           "package": "antigate",
@@ -531,6 +576,7 @@
         "index": {
           "description": "the size of the captcha you are uploading or pointing to is zero",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "ERROR_ZERO_CAPTCHA_FILESIZE",
           "package": "antigate",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "OK",
           "package": "antigate",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "OK",
           "package": "antigate",
@@ -566,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "SolveConf",
           "package": "antigate",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "SolveConf",
           "package": "antigate",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "SolveExceptionCheck",
           "package": "antigate",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "SolveExceptionCheck",
           "normalized": "SolveExceptionCheck CaptchaID(ApiResult())",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "SolveExceptionUpload",
           "package": "antigate",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "SolveExceptionUpload",
           "normalized": "SolveExceptionUpload(ApiResult())",
@@ -636,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "UploadPhase",
           "package": "antigate",
@@ -645,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "UploadPhase",
           "package": "antigate",
@@ -659,6 +715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehow much to sleep between captcha checks; in microseconds.\n\u003c/p\u003e\u003cp\u003eDefault: \u003ccode\u003e[6000000,2000000,3000000] -- sleep 6 seconds before checking, on first retry sleep 2 seconds, then always sleep 3 seconds. List can be infinite\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "api_check_sleep",
           "package": "antigate",
@@ -669,6 +726,7 @@
         "index": {
           "description": "how much to sleep between captcha checks in microseconds Default sleep seconds before checking on first retry sleep seconds then always sleep seconds List can be infinite",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "api_check_sleep",
           "normalized": "[Int]",
@@ -684,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eapi_counter\u003c/a\u003e\u003c/code\u003e will be called at the start of each phase\n\u003c/p\u003e\u003cpre\u003e api_counter = \\phase count -\u003e do\n     if count == 0\n       then putStrLn $ show phase ++ \" began\"\n       else putStrLn $ show phase ++ \" retries: \" ++ show count\n\u003c/pre\u003e\u003cp\u003eDefault: \u003ccode\u003e_ _ -\u003e return ()\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "api_counter",
           "package": "antigate",
@@ -694,6 +753,7 @@
         "index": {
           "description": "api counter will be called at the start of each phase api counter phase count do if count then putStrLn show phase began else putStrLn show phase retries show count Default return",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "api_counter",
           "normalized": "Phase-\u003eInt-\u003eIO()",
@@ -709,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault: \"antigate.com\". This is a record selector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "api_host",
           "package": "antigate",
@@ -719,6 +780,7 @@
         "index": {
           "description": "default antigate.com This is record selector",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "api_host",
           "normalized": "ApiKey-\u003eString",
@@ -734,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a record selector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "api_key",
           "package": "antigate",
@@ -744,6 +807,7 @@
         "index": {
           "description": "This is record selector",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "api_key",
           "normalized": "ApiKey-\u003eString",
@@ -759,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis will be called when upload phase finishes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "api_upload_callback",
           "package": "antigate",
@@ -769,6 +834,7 @@
         "index": {
           "description": "This will be called when upload phase finishes",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "api_upload_callback",
           "normalized": "CaptchaID-\u003eIO()",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehow much to sleep while waiting for available slot; in microseconds.\n\u003c/p\u003e\u003cp\u003eDefault: \u003ccode\u003e[3000000]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "api_upload_sleep",
           "package": "antigate",
@@ -794,6 +861,7 @@
         "index": {
           "description": "how much to sleep while waiting for available slot in microseconds Default",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "api_upload_sleep",
           "normalized": "[Int]",
@@ -809,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e = default value\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e = numbers on captcha must be summed\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "calc",
           "package": "antigate",
@@ -819,6 +888,7 @@
         "index": {
           "description": "False default value True numbers on captcha must be summed",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "calc",
           "package": "antigate",
@@ -832,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eretrieve captcha status\n\u003c/p\u003e\u003cp\u003ethrows \u003ccode\u003e\u003ca\u003eHttpException\u003c/a\u003e\u003c/code\u003e on network errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "checkCaptcha",
           "package": "antigate",
@@ -842,6 +913,7 @@
         "index": {
           "description": "retrieve captcha status throws HttpException on network errors",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "checkCaptcha",
           "normalized": "ApiKey-\u003eCaptchaID-\u003eManager-\u003ea(ApiResult String)",
@@ -858,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eretrieve multiple captcha status\n\u003c/p\u003e\u003cp\u003ethrows \u003ccode\u003e\u003ca\u003eHttpException\u003c/a\u003e\u003c/code\u003e on network errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "checkCaptchas",
           "package": "antigate",
@@ -868,6 +941,7 @@
         "index": {
           "description": "retrieve multiple captcha status throws HttpException on network errors",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "checkCaptchas",
           "normalized": "ApiKey-\u003e[CaptchaID]-\u003eManager-\u003ea[ApiResult String]",
@@ -884,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose all connections in a \u003ccode\u003e\u003ca\u003eManager\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that this doesn't affect currently in-flight connections,\n meaning you can safely use it without hurting any queries you may\n have concurrently running.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "closeManager",
           "package": "antigate",
@@ -893,6 +968,7 @@
         "index": {
           "description": "Close all connections in Manager Note that this doesn affect currently in-flight connections meaning you can safely use it without hurting any queries you may have concurrently running Since",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "closeManager",
           "normalized": "Manager-\u003eIO()",
@@ -909,6 +985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eretrieve your current account balance\n\u003c/p\u003e\u003cp\u003ethrows \u003ccode\u003e\u003ca\u003eHttpException\u003c/a\u003e\u003c/code\u003e on network errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "getBalance",
           "package": "antigate",
@@ -919,6 +996,7 @@
         "index": {
           "description": "retrieve your current account balance throws HttpException on network errors",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "getBalance",
           "normalized": "ApiKey-\u003eManager-\u003ea Double",
@@ -935,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e = default value\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e = captcha goes to Russian-speaking worker\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "is_russian",
           "package": "antigate",
@@ -945,6 +1024,7 @@
         "index": {
           "description": "False default value True captcha goes to Russian-speaking worker",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "is_russian",
           "package": "antigate",
@@ -958,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/code\u003e value is set on bids page. This parameter allows to control maximum bid without setting it on the bids page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "max_bid",
           "package": "antigate",
@@ -968,6 +1049,7 @@
         "index": {
           "description": "Default value is set on bids page This parameter allows to control maximum bid without setting it on the bids page",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "max_bid",
           "package": "antigate",
@@ -981,6 +1063,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e 0 = default value (unlimited)\n\u003c/li\u003e\u003cli\u003e \u003e0 = maximum length of captcha text workers required to input\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "max_len",
           "package": "antigate",
@@ -991,6 +1074,7 @@
         "index": {
           "description": "default value unlimited maximum length of captcha text workers required to input",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "max_len",
           "package": "antigate",
@@ -1004,6 +1088,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e 0 = default value\n\u003c/li\u003e\u003cli\u003e \u003e0 = minimum length of captcha text workers required to input\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "min_len",
           "package": "antigate",
@@ -1014,6 +1099,7 @@
         "index": {
           "description": "default value minimum length of captcha text workers required to input",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "min_len",
           "package": "antigate",
@@ -1027,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eManager\u003c/a\u003e\u003c/code\u003e. You may manually call \u003ccode\u003e\u003ca\u003ecloseManager\u003c/a\u003e\u003c/code\u003e to shut it down,\n or allow the \u003ccode\u003eManager\u003c/code\u003e to be shut down automatically based on garbage\n collection.\n\u003c/p\u003e\u003cp\u003eCreating a new \u003ccode\u003e\u003ca\u003eManager\u003c/a\u003e\u003c/code\u003e is a relatively expensive operation, you are\n advised to share a single \u003ccode\u003e\u003ca\u003eManager\u003c/a\u003e\u003c/code\u003e between requests instead.\n\u003c/p\u003e\u003cp\u003eThe first argument to this function is often \u003ccode\u003e\u003ca\u003edefaultManagerSettings\u003c/a\u003e\u003c/code\u003e,\n though add-on libraries may provide a recommended replacement.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "newManager",
           "package": "antigate",
@@ -1036,6 +1123,7 @@
         "index": {
           "description": "Create Manager You may manually call closeManager to shut it down or allow the Manager to be shut down automatically based on garbage collection Creating new Manager is relatively expensive operation you are advised to share single Manager between requests instead The first argument to this function is often defaultManagerSettings though add-on libraries may provide recommended replacement Since",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "newManager",
           "normalized": "ManagerSettings-\u003eIO Manager",
@@ -1052,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e = default value\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e = captcha consists from numbers only\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e = captcha does not have numbers on it\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "numeric",
           "package": "antigate",
@@ -1062,6 +1151,7 @@
         "index": {
           "description": "Nothing default value Just True captcha consists from numbers only Just False captcha does not have numbers on it",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "numeric",
           "package": "antigate",
@@ -1075,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse antigate's check response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "parseCheckResponse",
           "package": "antigate",
@@ -1085,6 +1176,7 @@
         "index": {
           "description": "Parse antigate check response",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "parseCheckResponse",
           "normalized": "String-\u003eApiResult String",
@@ -1101,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse antigate's multi-check response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "parseMultiCheckResponse",
           "package": "antigate",
@@ -1111,6 +1204,7 @@
         "index": {
           "description": "Parse antigate multi-check response",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "parseMultiCheckResponse",
           "normalized": "String-\u003eApiResult String",
@@ -1127,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse antigate's multi-check response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "parseMultiCheckResponses",
           "package": "antigate",
@@ -1137,6 +1232,7 @@
         "index": {
           "description": "Parse antigate multi-check response",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "parseMultiCheckResponses",
           "normalized": "String-\u003e[ApiResult String]",
@@ -1153,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse antigate's upload response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "parseUploadResponse",
           "package": "antigate",
@@ -1163,6 +1260,7 @@
         "index": {
           "description": "Parse antigate upload response",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "parseUploadResponse",
           "normalized": "String-\u003eApiResult CaptchaID",
@@ -1179,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e = default value (one word)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e = captcha has 2-4 words\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "phrase",
           "package": "antigate",
@@ -1189,6 +1288,7 @@
         "index": {
           "description": "False default value one word True captcha has words",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "phrase",
           "package": "antigate",
@@ -1202,6 +1302,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e = default value (case is not important)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e = captcha is case sensitive\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "regsense",
           "package": "antigate",
@@ -1212,6 +1313,7 @@
         "index": {
           "description": "False default value case is not important True captcha is case sensitive",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "regsense",
           "package": "antigate",
@@ -1225,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarshal \u003ca\u003eApiResult\u003c/a\u003e back to its text form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "renderApiResult",
           "package": "antigate",
@@ -1235,6 +1338,7 @@
         "index": {
           "description": "Marshal ApiResult back to its text form",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "renderApiResult",
           "normalized": "ApiResult String-\u003eString",
@@ -1251,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereport bad captcha result\n\u003c/p\u003e\u003cp\u003ethrows \u003ccode\u003e\u003ca\u003eHttpException\u003c/a\u003e\u003c/code\u003e on network errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "reportBad",
           "package": "antigate",
@@ -1261,6 +1366,7 @@
         "index": {
           "description": "report bad captcha result throws HttpException on network errors",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "reportBad",
           "normalized": "ApiKey-\u003eCaptchaID-\u003eManager-\u003ea Bool",
@@ -1277,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigh level function to solve captcha, blocks until answer is provided (about 2-10 seconds).\n\u003c/p\u003e\u003cp\u003ethrows \u003ccode\u003e\u003ca\u003eSolveException\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eHttpException\u003c/a\u003e\u003c/code\u003e when something goes wrong.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "solveCaptcha",
           "package": "antigate",
@@ -1286,6 +1393,7 @@
         "index": {
           "description": "High level function to solve captcha blocks until answer is provided about seconds throws SolveException or HttpException when something goes wrong",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "solveCaptcha",
           "normalized": "SolveConf-\u003eApiKey-\u003eCaptchaConf-\u003eFilePath-\u003eByteString-\u003eManager-\u003ea(CaptchaID,String)",
@@ -1301,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "solveCaptchaFromFile",
           "package": "antigate",
@@ -1310,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "solveCaptchaFromFile",
           "normalized": "SolveConf-\u003eApiKey-\u003eCaptchaConf-\u003eFilePath-\u003eManager-\u003ea(CaptchaID,String)",
@@ -1326,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupload captcha for recognition\n\u003c/p\u003e\u003cp\u003ethrows \u003ccode\u003e\u003ca\u003eHttpException\u003c/a\u003e\u003c/code\u003e on network errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "uploadCaptcha",
           "package": "antigate",
@@ -1336,6 +1447,7 @@
         "index": {
           "description": "upload captcha for recognition throws HttpException on network errors",
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "uploadCaptcha",
           "normalized": "ApiKey-\u003eCaptchaConf-\u003eFilePath-\u003eByteString-\u003eManager-\u003ea(ApiResult CaptchaID)",
@@ -1351,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "uploadCaptchaFromFile",
           "package": "antigate",
@@ -1360,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "uploadCaptchaFromFile",
           "normalized": "ApiKey-\u003eCaptchaConf-\u003eFilePath-\u003eManager-\u003ea(ApiResult CaptchaID)",
@@ -1375,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:18 UTC 2014",
           "module": "Text.Recognition.Antigate",
           "name": "withManager",
           "package": "antigate",
@@ -1383,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Text Recognition Antigate",
+          "indexed": "2014-03-11T17:11:18",
           "module": "Text.Recognition.Antigate",
           "name": "withManager",
           "normalized": "(Manager-\u003eResourceT a b)-\u003ea b",

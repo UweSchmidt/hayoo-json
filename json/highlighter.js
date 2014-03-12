@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "highlighter"
+        "phrase": "highlighter",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Formatters.Html",
           "name": "Html",
           "package": "highlighter",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Formatters Html",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Formatters.Html",
           "name": "Html",
           "package": "highlighter",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Formatters.Html",
           "name": "format",
           "package": "highlighter",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Formatters Html",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Formatters.Html",
           "name": "format",
           "normalized": "Bool-\u003e[Token]-\u003eHtml",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Formatters.Html",
           "name": "formatInline",
           "package": "highlighter",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Formatters Html",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Formatters.Html",
           "name": "formatInline",
           "normalized": "[Token]-\u003eHtml",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "Lexer",
           "package": "highlighter",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "Lexer",
           "package": "highlighter",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "LexerError",
           "package": "highlighter",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "LexerError",
           "package": "highlighter",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "LexerM",
           "package": "highlighter",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "LexerM",
           "package": "highlighter",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "LexerState",
           "package": "highlighter",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "LexerState",
           "package": "highlighter",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "LexerState",
           "package": "highlighter",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "LexerState",
           "package": "highlighter",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "NoMatchFor",
           "package": "highlighter",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "NoMatchFor",
           "package": "highlighter",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "OtherLexerError",
           "package": "highlighter",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "OtherLexerError",
           "package": "highlighter",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "isBOL",
           "package": "highlighter",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "isBOL",
           "package": "highlighter",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "lex",
           "package": "highlighter",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "lex",
           "normalized": "LexerM[Token]",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "lsInput",
           "package": "highlighter",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "lsInput",
           "package": "highlighter",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "lsLexed",
           "package": "highlighter",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "lsLexed",
           "normalized": "[Token]",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "lsLexer",
           "package": "highlighter",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "lsLexer",
           "package": "highlighter",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "lsState",
           "package": "highlighter",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "lsState",
           "normalized": "[TokenMatcher]",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "nextState",
           "package": "highlighter",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "nextState",
           "normalized": "NextState-\u003e[ByteString]-\u003eLexerM()",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "runLexer",
           "package": "highlighter",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "runLexer",
           "normalized": "Lexer-\u003eByteString-\u003eEither LexerError[Token]",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "skipFailed",
           "package": "highlighter",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "skipFailed",
           "normalized": "ByteString-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "toTokens",
           "package": "highlighter",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "toTokens",
           "normalized": "[ByteString]-\u003eTokenType-\u003eLexerM[Token]",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "tryAll",
           "package": "highlighter",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "tryAll",
           "normalized": "[Match]-\u003eLexerM[Token]",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexer",
           "name": "tryAllFirst",
           "package": "highlighter",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexer",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexer",
           "name": "tryAllFirst",
           "normalized": "[Match]-\u003eLexerM[Token]",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ABAP",
           "name": "ABAP",
           "package": "highlighter",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ABAP",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ABAP",
           "name": "ABAP",
           "package": "highlighter",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ABAP",
           "name": "lexer",
           "package": "highlighter",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ABAP",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ABAP",
           "name": "lexer",
           "package": "highlighter",
@@ -559,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ActionScript",
           "name": "ActionScript",
           "package": "highlighter",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ActionScript",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ActionScript",
           "name": "ActionScript",
           "package": "highlighter",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ActionScript",
           "name": "lexer",
           "package": "highlighter",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ActionScript",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ActionScript",
           "name": "lexer",
           "package": "highlighter",
@@ -601,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ActionScript3",
           "name": "ActionScript3",
           "package": "highlighter",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ActionScript3",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ActionScript3",
           "name": "ActionScript3",
           "package": "highlighter",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ActionScript3",
           "name": "lexer",
           "package": "highlighter",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ActionScript3",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ActionScript3",
           "name": "lexer",
           "package": "highlighter",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Ada",
           "name": "Ada",
           "package": "highlighter",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Ada",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Ada",
           "name": "Ada",
           "package": "highlighter",
@@ -664,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Ada",
           "name": "lexer",
           "package": "highlighter",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Ada",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Ada",
           "name": "lexer",
           "package": "highlighter",
@@ -685,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Antlr",
           "name": "Antlr",
           "package": "highlighter",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Antlr",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Antlr",
           "name": "Antlr",
           "package": "highlighter",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Antlr",
           "name": "lexer",
           "package": "highlighter",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Antlr",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Antlr",
           "name": "lexer",
           "package": "highlighter",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ApacheConf",
           "name": "ApacheConf",
           "package": "highlighter",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ApacheConf",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ApacheConf",
           "name": "ApacheConf",
           "package": "highlighter",
@@ -748,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ApacheConf",
           "name": "lexer",
           "package": "highlighter",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ApacheConf",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ApacheConf",
           "name": "lexer",
           "package": "highlighter",
@@ -769,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.AppleScript",
           "name": "AppleScript",
           "package": "highlighter",
@@ -777,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers AppleScript",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.AppleScript",
           "name": "AppleScript",
           "package": "highlighter",
@@ -790,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.AppleScript",
           "name": "lexer",
           "package": "highlighter",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers AppleScript",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.AppleScript",
           "name": "lexer",
           "package": "highlighter",
@@ -811,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Asymptote",
           "name": "Asymptote",
           "package": "highlighter",
@@ -819,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Asymptote",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Asymptote",
           "name": "Asymptote",
           "package": "highlighter",
@@ -832,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Asymptote",
           "name": "lexer",
           "package": "highlighter",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Asymptote",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Asymptote",
           "name": "lexer",
           "package": "highlighter",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Atomo",
           "name": "Atomo",
           "package": "highlighter",
@@ -861,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Atomo",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Atomo",
           "name": "Atomo",
           "package": "highlighter",
@@ -874,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Atomo",
           "name": "lexer",
           "package": "highlighter",
@@ -883,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Atomo",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Atomo",
           "name": "lexer",
           "package": "highlighter",
@@ -895,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Autohotkey",
           "name": "Autohotkey",
           "package": "highlighter",
@@ -903,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Autohotkey",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Autohotkey",
           "name": "Autohotkey",
           "package": "highlighter",
@@ -916,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Autohotkey",
           "name": "lexer",
           "package": "highlighter",
@@ -925,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Autohotkey",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Autohotkey",
           "name": "lexer",
           "package": "highlighter",
@@ -937,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.BBCode",
           "name": "BBCode",
           "package": "highlighter",
@@ -945,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers BBCode",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.BBCode",
           "name": "BBCode",
           "package": "highlighter",
@@ -958,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.BBCode",
           "name": "lexer",
           "package": "highlighter",
@@ -967,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers BBCode",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.BBCode",
           "name": "lexer",
           "package": "highlighter",
@@ -979,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Bash",
           "name": "Bash",
           "package": "highlighter",
@@ -987,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Bash",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Bash",
           "name": "Bash",
           "package": "highlighter",
@@ -1000,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Bash",
           "name": "lexer",
           "package": "highlighter",
@@ -1009,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Bash",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Bash",
           "name": "lexer",
           "package": "highlighter",
@@ -1021,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Batch",
           "name": "Batch",
           "package": "highlighter",
@@ -1029,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Batch",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Batch",
           "name": "Batch",
           "package": "highlighter",
@@ -1042,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Batch",
           "name": "lexer",
           "package": "highlighter",
@@ -1051,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Batch",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Batch",
           "name": "lexer",
           "package": "highlighter",
@@ -1063,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Befunge",
           "name": "Befunge",
           "package": "highlighter",
@@ -1071,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Befunge",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Befunge",
           "name": "Befunge",
           "package": "highlighter",
@@ -1084,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Befunge",
           "name": "lexer",
           "package": "highlighter",
@@ -1093,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Befunge",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Befunge",
           "name": "lexer",
           "package": "highlighter",
@@ -1105,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.BlitzMax",
           "name": "BlitzMax",
           "package": "highlighter",
@@ -1113,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers BlitzMax",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.BlitzMax",
           "name": "BlitzMax",
           "package": "highlighter",
@@ -1126,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.BlitzMax",
           "name": "lexer",
           "package": "highlighter",
@@ -1135,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers BlitzMax",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.BlitzMax",
           "name": "lexer",
           "package": "highlighter",
@@ -1147,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Boo",
           "name": "Boo",
           "package": "highlighter",
@@ -1155,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Boo",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Boo",
           "name": "Boo",
           "package": "highlighter",
@@ -1168,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Boo",
           "name": "lexer",
           "package": "highlighter",
@@ -1177,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Boo",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Boo",
           "name": "lexer",
           "package": "highlighter",
@@ -1189,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Brainfuck",
           "name": "Brainfuck",
           "package": "highlighter",
@@ -1197,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Brainfuck",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Brainfuck",
           "name": "Brainfuck",
           "package": "highlighter",
@@ -1210,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Brainfuck",
           "name": "lexer",
           "package": "highlighter",
@@ -1219,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Brainfuck",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Brainfuck",
           "name": "lexer",
           "package": "highlighter",
@@ -1231,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.C",
           "name": "C",
           "package": "highlighter",
@@ -1239,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers C",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.C",
           "name": "C",
           "package": "highlighter",
@@ -1251,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.C",
           "name": "lexer",
           "package": "highlighter",
@@ -1260,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers C",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.C",
           "name": "lexer",
           "package": "highlighter",
@@ -1272,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.CMake",
           "name": "CMake",
           "package": "highlighter",
@@ -1280,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers CMake",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.CMake",
           "name": "CMake",
           "package": "highlighter",
@@ -1293,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.CMake",
           "name": "lexer",
           "package": "highlighter",
@@ -1302,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers CMake",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.CMake",
           "name": "lexer",
           "package": "highlighter",
@@ -1314,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Clojure",
           "name": "Clojure",
           "package": "highlighter",
@@ -1322,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Clojure",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Clojure",
           "name": "Clojure",
           "package": "highlighter",
@@ -1335,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Clojure",
           "name": "lexer",
           "package": "highlighter",
@@ -1344,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Clojure",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Clojure",
           "name": "lexer",
           "package": "highlighter",
@@ -1356,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.CoffeeScript",
           "name": "CoffeeScript",
           "package": "highlighter",
@@ -1364,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers CoffeeScript",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.CoffeeScript",
           "name": "CoffeeScript",
           "package": "highlighter",
@@ -1377,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.CoffeeScript",
           "name": "lexer",
           "package": "highlighter",
@@ -1386,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers CoffeeScript",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.CoffeeScript",
           "name": "lexer",
           "package": "highlighter",
@@ -1398,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Coldfusion",
           "name": "Coldfusion",
           "package": "highlighter",
@@ -1406,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Coldfusion",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Coldfusion",
           "name": "Coldfusion",
           "package": "highlighter",
@@ -1419,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Coldfusion",
           "name": "lexer",
           "package": "highlighter",
@@ -1428,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Coldfusion",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Coldfusion",
           "name": "lexer",
           "package": "highlighter",
@@ -1440,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.CommonLisp",
           "name": "CommonLisp",
           "package": "highlighter",
@@ -1448,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers CommonLisp",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.CommonLisp",
           "name": "CommonLisp",
           "package": "highlighter",
@@ -1461,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.CommonLisp",
           "name": "lexer",
           "package": "highlighter",
@@ -1470,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers CommonLisp",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.CommonLisp",
           "name": "lexer",
           "package": "highlighter",
@@ -1482,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Cpp",
           "name": "Cpp",
           "package": "highlighter",
@@ -1490,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Cpp",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Cpp",
           "name": "Cpp",
           "package": "highlighter",
@@ -1503,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Cpp",
           "name": "lexer",
           "package": "highlighter",
@@ -1512,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Cpp",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Cpp",
           "name": "lexer",
           "package": "highlighter",
@@ -1524,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Css",
           "name": "Css",
           "package": "highlighter",
@@ -1532,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Css",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Css",
           "name": "Css",
           "package": "highlighter",
@@ -1545,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Css",
           "name": "lexer",
           "package": "highlighter",
@@ -1554,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Css",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Css",
           "name": "lexer",
           "package": "highlighter",
@@ -1566,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Cython",
           "name": "Cython",
           "package": "highlighter",
@@ -1574,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Cython",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Cython",
           "name": "Cython",
           "package": "highlighter",
@@ -1587,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Cython",
           "name": "lexer",
           "package": "highlighter",
@@ -1596,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Cython",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Cython",
           "name": "lexer",
           "package": "highlighter",
@@ -1608,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.D",
           "name": "D",
           "package": "highlighter",
@@ -1616,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers D",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.D",
           "name": "D",
           "package": "highlighter",
@@ -1628,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.D",
           "name": "lexer",
           "package": "highlighter",
@@ -1637,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers D",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.D",
           "name": "lexer",
           "package": "highlighter",
@@ -1649,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.DarcsPatch",
           "name": "DarcsPatch",
           "package": "highlighter",
@@ -1657,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers DarcsPatch",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.DarcsPatch",
           "name": "DarcsPatch",
           "package": "highlighter",
@@ -1670,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.DarcsPatch",
           "name": "lexer",
           "package": "highlighter",
@@ -1679,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers DarcsPatch",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.DarcsPatch",
           "name": "lexer",
           "package": "highlighter",
@@ -1691,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.DebianControl",
           "name": "DebianControl",
           "package": "highlighter",
@@ -1699,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers DebianControl",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.DebianControl",
           "name": "DebianControl",
           "package": "highlighter",
@@ -1712,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.DebianControl",
           "name": "lexer",
           "package": "highlighter",
@@ -1721,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers DebianControl",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.DebianControl",
           "name": "lexer",
           "package": "highlighter",
@@ -1733,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Diff",
           "name": "Diff",
           "package": "highlighter",
@@ -1741,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Diff",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Diff",
           "name": "Diff",
           "package": "highlighter",
@@ -1754,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Diff",
           "name": "lexer",
           "package": "highlighter",
@@ -1763,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Diff",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Diff",
           "name": "lexer",
           "package": "highlighter",
@@ -1775,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Django",
           "name": "Django",
           "package": "highlighter",
@@ -1783,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Django",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Django",
           "name": "Django",
           "package": "highlighter",
@@ -1796,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Django",
           "name": "lexer",
           "package": "highlighter",
@@ -1805,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Django",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Django",
           "name": "lexer",
           "package": "highlighter",
@@ -1817,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Duel",
           "name": "Duel",
           "package": "highlighter",
@@ -1825,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Duel",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Duel",
           "name": "Duel",
           "package": "highlighter",
@@ -1838,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Duel",
           "name": "lexer",
           "package": "highlighter",
@@ -1847,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Duel",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Duel",
           "name": "lexer",
           "package": "highlighter",
@@ -1859,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Dylan",
           "name": "Dylan",
           "package": "highlighter",
@@ -1867,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Dylan",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Dylan",
           "name": "Dylan",
           "package": "highlighter",
@@ -1880,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Dylan",
           "name": "lexer",
           "package": "highlighter",
@@ -1889,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Dylan",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Dylan",
           "name": "lexer",
           "package": "highlighter",
@@ -1901,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Erlang",
           "name": "Erlang",
           "package": "highlighter",
@@ -1909,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Erlang",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Erlang",
           "name": "Erlang",
           "package": "highlighter",
@@ -1922,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Erlang",
           "name": "lexer",
           "package": "highlighter",
@@ -1931,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Erlang",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Erlang",
           "name": "lexer",
           "package": "highlighter",
@@ -1943,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Factor",
           "name": "Factor",
           "package": "highlighter",
@@ -1951,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Factor",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Factor",
           "name": "Factor",
           "package": "highlighter",
@@ -1964,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Factor",
           "name": "lexer",
           "package": "highlighter",
@@ -1973,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Factor",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Factor",
           "name": "lexer",
           "package": "highlighter",
@@ -1985,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Felix",
           "name": "Felix",
           "package": "highlighter",
@@ -1993,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Felix",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Felix",
           "name": "Felix",
           "package": "highlighter",
@@ -2006,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Felix",
           "name": "lexer",
           "package": "highlighter",
@@ -2015,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Felix",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Felix",
           "name": "lexer",
           "package": "highlighter",
@@ -2027,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Fortran",
           "name": "Fortran",
           "package": "highlighter",
@@ -2035,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Fortran",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Fortran",
           "name": "Fortran",
           "package": "highlighter",
@@ -2048,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Fortran",
           "name": "lexer",
           "package": "highlighter",
@@ -2057,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Fortran",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Fortran",
           "name": "lexer",
           "package": "highlighter",
@@ -2069,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.GLShader",
           "name": "GLShader",
           "package": "highlighter",
@@ -2077,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers GLShader",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.GLShader",
           "name": "GLShader",
           "package": "highlighter",
@@ -2090,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.GLShader",
           "name": "lexer",
           "package": "highlighter",
@@ -2099,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers GLShader",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.GLShader",
           "name": "lexer",
           "package": "highlighter",
@@ -2111,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Gas",
           "name": "Gas",
           "package": "highlighter",
@@ -2119,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Gas",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Gas",
           "name": "Gas",
           "package": "highlighter",
@@ -2132,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Gas",
           "name": "lexer",
           "package": "highlighter",
@@ -2141,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Gas",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Gas",
           "name": "lexer",
           "package": "highlighter",
@@ -2153,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.GenshiText",
           "name": "GenshiText",
           "package": "highlighter",
@@ -2161,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers GenshiText",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.GenshiText",
           "name": "GenshiText",
           "package": "highlighter",
@@ -2174,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.GenshiText",
           "name": "lexer",
           "package": "highlighter",
@@ -2183,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers GenshiText",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.GenshiText",
           "name": "lexer",
           "package": "highlighter",
@@ -2195,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Gettext",
           "name": "Gettext",
           "package": "highlighter",
@@ -2203,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Gettext",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Gettext",
           "name": "Gettext",
           "package": "highlighter",
@@ -2216,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Gettext",
           "name": "lexer",
           "package": "highlighter",
@@ -2225,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Gettext",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Gettext",
           "name": "lexer",
           "package": "highlighter",
@@ -2237,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Gherkin",
           "name": "Gherkin",
           "package": "highlighter",
@@ -2245,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Gherkin",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Gherkin",
           "name": "Gherkin",
           "package": "highlighter",
@@ -2258,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Gherkin",
           "name": "lexer",
           "package": "highlighter",
@@ -2267,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Gherkin",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Gherkin",
           "name": "lexer",
           "package": "highlighter",
@@ -2279,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Gnuplot",
           "name": "Gnuplot",
           "package": "highlighter",
@@ -2287,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Gnuplot",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Gnuplot",
           "name": "Gnuplot",
           "package": "highlighter",
@@ -2300,6 +2514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Gnuplot",
           "name": "lexer",
           "package": "highlighter",
@@ -2309,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Gnuplot",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Gnuplot",
           "name": "lexer",
           "package": "highlighter",
@@ -2321,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Go",
           "name": "Go",
           "package": "highlighter",
@@ -2329,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Go",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Go",
           "name": "Go",
           "package": "highlighter",
@@ -2342,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Go",
           "name": "lexer",
           "package": "highlighter",
@@ -2351,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Go",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Go",
           "name": "lexer",
           "package": "highlighter",
@@ -2363,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.GoodDataCL",
           "name": "GoodDataCL",
           "package": "highlighter",
@@ -2371,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers GoodDataCL",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.GoodDataCL",
           "name": "GoodDataCL",
           "package": "highlighter",
@@ -2384,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.GoodDataCL",
           "name": "lexer",
           "package": "highlighter",
@@ -2393,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers GoodDataCL",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.GoodDataCL",
           "name": "lexer",
           "package": "highlighter",
@@ -2405,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Groff",
           "name": "Groff",
           "package": "highlighter",
@@ -2413,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Groff",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Groff",
           "name": "Groff",
           "package": "highlighter",
@@ -2426,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Groff",
           "name": "lexer",
           "package": "highlighter",
@@ -2435,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Groff",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Groff",
           "name": "lexer",
           "package": "highlighter",
@@ -2447,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Haskell",
           "name": "Haskell",
           "package": "highlighter",
@@ -2455,6 +2684,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Haskell",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Haskell",
           "name": "Haskell",
           "package": "highlighter",
@@ -2468,6 +2698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Haskell",
           "name": "lexer",
           "package": "highlighter",
@@ -2477,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Haskell",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Haskell",
           "name": "lexer",
           "package": "highlighter",
@@ -2489,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Haxe",
           "name": "Haxe",
           "package": "highlighter",
@@ -2497,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Haxe",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Haxe",
           "name": "Haxe",
           "package": "highlighter",
@@ -2510,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Haxe",
           "name": "lexer",
           "package": "highlighter",
@@ -2519,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Haxe",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Haxe",
           "name": "lexer",
           "package": "highlighter",
@@ -2531,6 +2767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Html",
           "name": "Html",
           "package": "highlighter",
@@ -2539,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Html",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Html",
           "name": "Html",
           "package": "highlighter",
@@ -2552,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Html",
           "name": "lexer",
           "package": "highlighter",
@@ -2561,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Html",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Html",
           "name": "lexer",
           "package": "highlighter",
@@ -2573,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Hybris",
           "name": "Hybris",
           "package": "highlighter",
@@ -2581,6 +2822,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Hybris",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Hybris",
           "name": "Hybris",
           "package": "highlighter",
@@ -2594,6 +2836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Hybris",
           "name": "lexer",
           "package": "highlighter",
@@ -2603,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Hybris",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Hybris",
           "name": "lexer",
           "package": "highlighter",
@@ -2615,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Ini",
           "name": "Ini",
           "package": "highlighter",
@@ -2623,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Ini",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Ini",
           "name": "Ini",
           "package": "highlighter",
@@ -2636,6 +2882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Ini",
           "name": "lexer",
           "package": "highlighter",
@@ -2645,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Ini",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Ini",
           "name": "lexer",
           "package": "highlighter",
@@ -2657,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Io",
           "name": "Io",
           "package": "highlighter",
@@ -2665,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Io",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Io",
           "name": "Io",
           "package": "highlighter",
@@ -2678,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Io",
           "name": "lexer",
           "package": "highlighter",
@@ -2687,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Io",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Io",
           "name": "lexer",
           "package": "highlighter",
@@ -2699,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Ioke",
           "name": "Ioke",
           "package": "highlighter",
@@ -2707,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Ioke",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Ioke",
           "name": "Ioke",
           "package": "highlighter",
@@ -2720,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Ioke",
           "name": "lexer",
           "package": "highlighter",
@@ -2729,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Ioke",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Ioke",
           "name": "lexer",
           "package": "highlighter",
@@ -2741,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.IrcLogs",
           "name": "IrcLogs",
           "package": "highlighter",
@@ -2749,6 +3006,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers IrcLogs",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.IrcLogs",
           "name": "IrcLogs",
           "package": "highlighter",
@@ -2762,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.IrcLogs",
           "name": "lexer",
           "package": "highlighter",
@@ -2771,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers IrcLogs",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.IrcLogs",
           "name": "lexer",
           "package": "highlighter",
@@ -2783,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Java",
           "name": "Java",
           "package": "highlighter",
@@ -2791,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Java",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Java",
           "name": "Java",
           "package": "highlighter",
@@ -2804,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Java",
           "name": "lexer",
           "package": "highlighter",
@@ -2813,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Java",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Java",
           "name": "lexer",
           "package": "highlighter",
@@ -2825,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Javascript",
           "name": "Javascript",
           "package": "highlighter",
@@ -2833,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Javascript",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Javascript",
           "name": "Javascript",
           "package": "highlighter",
@@ -2846,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Javascript",
           "name": "lexer",
           "package": "highlighter",
@@ -2855,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Javascript",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Javascript",
           "name": "lexer",
           "package": "highlighter",
@@ -2867,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.LighttpdConf",
           "name": "LighttpdConf",
           "package": "highlighter",
@@ -2875,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers LighttpdConf",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.LighttpdConf",
           "name": "LighttpdConf",
           "package": "highlighter",
@@ -2888,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.LighttpdConf",
           "name": "lexer",
           "package": "highlighter",
@@ -2897,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers LighttpdConf",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.LighttpdConf",
           "name": "lexer",
           "package": "highlighter",
@@ -2909,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Llvm",
           "name": "Llvm",
           "package": "highlighter",
@@ -2917,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Llvm",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Llvm",
           "name": "Llvm",
           "package": "highlighter",
@@ -2930,6 +3204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Llvm",
           "name": "lexer",
           "package": "highlighter",
@@ -2939,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Llvm",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Llvm",
           "name": "lexer",
           "package": "highlighter",
@@ -2951,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Logtalk",
           "name": "Logtalk",
           "package": "highlighter",
@@ -2959,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Logtalk",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Logtalk",
           "name": "Logtalk",
           "package": "highlighter",
@@ -2972,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Logtalk",
           "name": "lexer",
           "package": "highlighter",
@@ -2981,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Logtalk",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Logtalk",
           "name": "lexer",
           "package": "highlighter",
@@ -2993,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Lua",
           "name": "Lua",
           "package": "highlighter",
@@ -3001,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Lua",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Lua",
           "name": "Lua",
           "package": "highlighter",
@@ -3014,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Lua",
           "name": "lexer",
           "package": "highlighter",
@@ -3023,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Lua",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Lua",
           "name": "lexer",
           "package": "highlighter",
@@ -3035,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.MOOCode",
           "name": "MOOCode",
           "package": "highlighter",
@@ -3043,6 +3328,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers MOOCode",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.MOOCode",
           "name": "MOOCode",
           "package": "highlighter",
@@ -3056,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.MOOCode",
           "name": "lexer",
           "package": "highlighter",
@@ -3065,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers MOOCode",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.MOOCode",
           "name": "lexer",
           "package": "highlighter",
@@ -3077,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Mako",
           "name": "Mako",
           "package": "highlighter",
@@ -3085,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Mako",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Mako",
           "name": "Mako",
           "package": "highlighter",
@@ -3098,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Mako",
           "name": "lexer",
           "package": "highlighter",
@@ -3107,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Mako",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Mako",
           "name": "lexer",
           "package": "highlighter",
@@ -3119,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Maql",
           "name": "Maql",
           "package": "highlighter",
@@ -3127,6 +3420,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Maql",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Maql",
           "name": "Maql",
           "package": "highlighter",
@@ -3140,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Maql",
           "name": "lexer",
           "package": "highlighter",
@@ -3149,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Maql",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Maql",
           "name": "lexer",
           "package": "highlighter",
@@ -3161,6 +3457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Matlab",
           "name": "Matlab",
           "package": "highlighter",
@@ -3169,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Matlab",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Matlab",
           "name": "Matlab",
           "package": "highlighter",
@@ -3182,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Matlab",
           "name": "lexer",
           "package": "highlighter",
@@ -3191,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Matlab",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Matlab",
           "name": "lexer",
           "package": "highlighter",
@@ -3203,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.MiniD",
           "name": "MiniD",
           "package": "highlighter",
@@ -3211,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers MiniD",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.MiniD",
           "name": "MiniD",
           "package": "highlighter",
@@ -3224,6 +3526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.MiniD",
           "name": "lexer",
           "package": "highlighter",
@@ -3233,6 +3536,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers MiniD",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.MiniD",
           "name": "lexer",
           "package": "highlighter",
@@ -3245,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Modelica",
           "name": "Modelica",
           "package": "highlighter",
@@ -3253,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Modelica",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Modelica",
           "name": "Modelica",
           "package": "highlighter",
@@ -3266,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Modelica",
           "name": "lexer",
           "package": "highlighter",
@@ -3275,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Modelica",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Modelica",
           "name": "lexer",
           "package": "highlighter",
@@ -3287,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Modula2",
           "name": "Modula2",
           "package": "highlighter",
@@ -3295,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Modula2",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Modula2",
           "name": "Modula2",
           "package": "highlighter",
@@ -3308,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Modula2",
           "name": "lexer",
           "package": "highlighter",
@@ -3317,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Modula2",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Modula2",
           "name": "lexer",
           "package": "highlighter",
@@ -3329,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.MoinWiki",
           "name": "MoinWiki",
           "package": "highlighter",
@@ -3337,6 +3650,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers MoinWiki",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.MoinWiki",
           "name": "MoinWiki",
           "package": "highlighter",
@@ -3350,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.MoinWiki",
           "name": "lexer",
           "package": "highlighter",
@@ -3359,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers MoinWiki",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.MoinWiki",
           "name": "lexer",
           "package": "highlighter",
@@ -3371,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.MuPAD",
           "name": "MuPAD",
           "package": "highlighter",
@@ -3379,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers MuPAD",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.MuPAD",
           "name": "MuPAD",
           "package": "highlighter",
@@ -3392,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.MuPAD",
           "name": "lexer",
           "package": "highlighter",
@@ -3401,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers MuPAD",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.MuPAD",
           "name": "lexer",
           "package": "highlighter",
@@ -3413,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Mxml",
           "name": "Mxml",
           "package": "highlighter",
@@ -3421,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Mxml",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Mxml",
           "name": "Mxml",
           "package": "highlighter",
@@ -3434,6 +3756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Mxml",
           "name": "lexer",
           "package": "highlighter",
@@ -3443,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Mxml",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Mxml",
           "name": "lexer",
           "package": "highlighter",
@@ -3455,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.MySql",
           "name": "MySql",
           "package": "highlighter",
@@ -3463,6 +3788,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers MySql",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.MySql",
           "name": "MySql",
           "package": "highlighter",
@@ -3476,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.MySql",
           "name": "lexer",
           "package": "highlighter",
@@ -3485,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers MySql",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.MySql",
           "name": "lexer",
           "package": "highlighter",
@@ -3497,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Nasm",
           "name": "Nasm",
           "package": "highlighter",
@@ -3505,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Nasm",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Nasm",
           "name": "Nasm",
           "package": "highlighter",
@@ -3518,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Nasm",
           "name": "lexer",
           "package": "highlighter",
@@ -3527,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Nasm",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Nasm",
           "name": "lexer",
           "package": "highlighter",
@@ -3539,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Newspeak",
           "name": "Newspeak",
           "package": "highlighter",
@@ -3547,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Newspeak",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Newspeak",
           "name": "Newspeak",
           "package": "highlighter",
@@ -3560,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Newspeak",
           "name": "lexer",
           "package": "highlighter",
@@ -3569,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Newspeak",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Newspeak",
           "name": "lexer",
           "package": "highlighter",
@@ -3581,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.NginxConf",
           "name": "NginxConf",
           "package": "highlighter",
@@ -3589,6 +3926,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers NginxConf",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.NginxConf",
           "name": "NginxConf",
           "package": "highlighter",
@@ -3602,6 +3940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.NginxConf",
           "name": "lexer",
           "package": "highlighter",
@@ -3611,6 +3950,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers NginxConf",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.NginxConf",
           "name": "lexer",
           "package": "highlighter",
@@ -3623,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.NumPy",
           "name": "NumPy",
           "package": "highlighter",
@@ -3631,6 +3972,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers NumPy",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.NumPy",
           "name": "NumPy",
           "package": "highlighter",
@@ -3644,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.NumPy",
           "name": "lexer",
           "package": "highlighter",
@@ -3653,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers NumPy",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.NumPy",
           "name": "lexer",
           "package": "highlighter",
@@ -3665,6 +4009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Objdump",
           "name": "Objdump",
           "package": "highlighter",
@@ -3673,6 +4018,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Objdump",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Objdump",
           "name": "Objdump",
           "package": "highlighter",
@@ -3686,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Objdump",
           "name": "lexer",
           "package": "highlighter",
@@ -3695,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Objdump",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Objdump",
           "name": "lexer",
           "package": "highlighter",
@@ -3707,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ObjectiveC",
           "name": "ObjectiveC",
           "package": "highlighter",
@@ -3715,6 +4064,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ObjectiveC",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ObjectiveC",
           "name": "ObjectiveC",
           "package": "highlighter",
@@ -3728,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ObjectiveC",
           "name": "lexer",
           "package": "highlighter",
@@ -3737,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ObjectiveC",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ObjectiveC",
           "name": "lexer",
           "package": "highlighter",
@@ -3749,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ObjectiveJ",
           "name": "ObjectiveJ",
           "package": "highlighter",
@@ -3757,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ObjectiveJ",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ObjectiveJ",
           "name": "ObjectiveJ",
           "package": "highlighter",
@@ -3770,6 +4124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ObjectiveJ",
           "name": "lexer",
           "package": "highlighter",
@@ -3779,6 +4134,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ObjectiveJ",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ObjectiveJ",
           "name": "lexer",
           "package": "highlighter",
@@ -3791,6 +4147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Ocaml",
           "name": "Ocaml",
           "package": "highlighter",
@@ -3799,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Ocaml",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Ocaml",
           "name": "Ocaml",
           "package": "highlighter",
@@ -3812,6 +4170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Ocaml",
           "name": "lexer",
           "package": "highlighter",
@@ -3821,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Ocaml",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Ocaml",
           "name": "lexer",
           "package": "highlighter",
@@ -3833,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Ooc",
           "name": "Ooc",
           "package": "highlighter",
@@ -3841,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Ooc",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Ooc",
           "name": "Ooc",
           "package": "highlighter",
@@ -3854,6 +4216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Ooc",
           "name": "lexer",
           "package": "highlighter",
@@ -3863,6 +4226,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Ooc",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Ooc",
           "name": "lexer",
           "package": "highlighter",
@@ -3875,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Perl",
           "name": "Perl",
           "package": "highlighter",
@@ -3883,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Perl",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Perl",
           "name": "Perl",
           "package": "highlighter",
@@ -3896,6 +4262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Perl",
           "name": "lexer",
           "package": "highlighter",
@@ -3905,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Perl",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Perl",
           "name": "lexer",
           "package": "highlighter",
@@ -3917,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Php",
           "name": "Php",
           "package": "highlighter",
@@ -3925,6 +4294,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Php",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Php",
           "name": "Php",
           "package": "highlighter",
@@ -3938,6 +4308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Php",
           "name": "lexer",
           "package": "highlighter",
@@ -3947,6 +4318,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Php",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Php",
           "name": "lexer",
           "package": "highlighter",
@@ -3959,6 +4331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.PostScript",
           "name": "PostScript",
           "package": "highlighter",
@@ -3967,6 +4340,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers PostScript",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.PostScript",
           "name": "PostScript",
           "package": "highlighter",
@@ -3980,6 +4354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.PostScript",
           "name": "lexer",
           "package": "highlighter",
@@ -3989,6 +4364,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers PostScript",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.PostScript",
           "name": "lexer",
           "package": "highlighter",
@@ -4001,6 +4377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Povray",
           "name": "Povray",
           "package": "highlighter",
@@ -4009,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Povray",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Povray",
           "name": "Povray",
           "package": "highlighter",
@@ -4022,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Povray",
           "name": "lexer",
           "package": "highlighter",
@@ -4031,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Povray",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Povray",
           "name": "lexer",
           "package": "highlighter",
@@ -4043,6 +4423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Prolog",
           "name": "Prolog",
           "package": "highlighter",
@@ -4051,6 +4432,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Prolog",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Prolog",
           "name": "Prolog",
           "package": "highlighter",
@@ -4064,6 +4446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Prolog",
           "name": "lexer",
           "package": "highlighter",
@@ -4073,6 +4456,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Prolog",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Prolog",
           "name": "lexer",
           "package": "highlighter",
@@ -4085,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Properties",
           "name": "Properties",
           "package": "highlighter",
@@ -4093,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Properties",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Properties",
           "name": "Properties",
           "package": "highlighter",
@@ -4106,6 +4492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Properties",
           "name": "lexer",
           "package": "highlighter",
@@ -4115,6 +4502,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Properties",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Properties",
           "name": "lexer",
           "package": "highlighter",
@@ -4127,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ProtoBuf",
           "name": "ProtoBuf",
           "package": "highlighter",
@@ -4135,6 +4524,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ProtoBuf",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ProtoBuf",
           "name": "ProtoBuf",
           "package": "highlighter",
@@ -4148,6 +4538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.ProtoBuf",
           "name": "lexer",
           "package": "highlighter",
@@ -4157,6 +4548,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers ProtoBuf",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.ProtoBuf",
           "name": "lexer",
           "package": "highlighter",
@@ -4169,6 +4561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Python",
           "name": "Python",
           "package": "highlighter",
@@ -4177,6 +4570,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Python",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Python",
           "name": "Python",
           "package": "highlighter",
@@ -4190,6 +4584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Python",
           "name": "lexer",
           "package": "highlighter",
@@ -4199,6 +4594,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Python",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Python",
           "name": "lexer",
           "package": "highlighter",
@@ -4211,6 +4607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Python3",
           "name": "Python3",
           "package": "highlighter",
@@ -4219,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Python3",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Python3",
           "name": "Python3",
           "package": "highlighter",
@@ -4232,6 +4630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Python3",
           "name": "lexer",
           "package": "highlighter",
@@ -4241,6 +4640,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Python3",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Python3",
           "name": "lexer",
           "package": "highlighter",
@@ -4253,6 +4653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Python3Traceback",
           "name": "Python3Traceback",
           "package": "highlighter",
@@ -4261,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Python3Traceback",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Python3Traceback",
           "name": "Python3Traceback",
           "package": "highlighter",
@@ -4274,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Python3Traceback",
           "name": "lexer",
           "package": "highlighter",
@@ -4283,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Python3Traceback",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Python3Traceback",
           "name": "lexer",
           "package": "highlighter",
@@ -4295,6 +4699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.PythonTraceback",
           "name": "PythonTraceback",
           "package": "highlighter",
@@ -4303,6 +4708,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers PythonTraceback",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.PythonTraceback",
           "name": "PythonTraceback",
           "package": "highlighter",
@@ -4316,6 +4722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.PythonTraceback",
           "name": "lexer",
           "package": "highlighter",
@@ -4325,6 +4732,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers PythonTraceback",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.PythonTraceback",
           "name": "lexer",
           "package": "highlighter",
@@ -4337,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Ragel",
           "name": "Ragel",
           "package": "highlighter",
@@ -4345,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Ragel",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Ragel",
           "name": "Ragel",
           "package": "highlighter",
@@ -4358,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Ragel",
           "name": "lexer",
           "package": "highlighter",
@@ -4367,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Ragel",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Ragel",
           "name": "lexer",
           "package": "highlighter",
@@ -4379,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.RagelEmbedded",
           "name": "RagelEmbedded",
           "package": "highlighter",
@@ -4387,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers RagelEmbedded",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.RagelEmbedded",
           "name": "RagelEmbedded",
           "package": "highlighter",
@@ -4400,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.RagelEmbedded",
           "name": "lexer",
           "package": "highlighter",
@@ -4409,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers RagelEmbedded",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.RagelEmbedded",
           "name": "lexer",
           "package": "highlighter",
@@ -4421,6 +4837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Redcode",
           "name": "Redcode",
           "package": "highlighter",
@@ -4429,6 +4846,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Redcode",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Redcode",
           "name": "Redcode",
           "package": "highlighter",
@@ -4442,6 +4860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Redcode",
           "name": "lexer",
           "package": "highlighter",
@@ -4451,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Redcode",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Redcode",
           "name": "lexer",
           "package": "highlighter",
@@ -4463,6 +4883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.S",
           "name": "S",
           "package": "highlighter",
@@ -4471,6 +4892,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers S",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.S",
           "name": "S",
           "package": "highlighter",
@@ -4483,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.S",
           "name": "lexer",
           "package": "highlighter",
@@ -4492,6 +4915,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers S",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.S",
           "name": "lexer",
           "package": "highlighter",
@@ -4504,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Scala",
           "name": "Scala",
           "package": "highlighter",
@@ -4512,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Scala",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Scala",
           "name": "Scala",
           "package": "highlighter",
@@ -4525,6 +4951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Scala",
           "name": "lexer",
           "package": "highlighter",
@@ -4534,6 +4961,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Scala",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Scala",
           "name": "lexer",
           "package": "highlighter",
@@ -4546,6 +4974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Scheme",
           "name": "Scheme",
           "package": "highlighter",
@@ -4554,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Scheme",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Scheme",
           "name": "Scheme",
           "package": "highlighter",
@@ -4567,6 +4997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Scheme",
           "name": "lexer",
           "package": "highlighter",
@@ -4576,6 +5007,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Scheme",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Scheme",
           "name": "lexer",
           "package": "highlighter",
@@ -4588,6 +5020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Scss",
           "name": "Scss",
           "package": "highlighter",
@@ -4596,6 +5029,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Scss",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Scss",
           "name": "Scss",
           "package": "highlighter",
@@ -4609,6 +5043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Scss",
           "name": "lexer",
           "package": "highlighter",
@@ -4618,6 +5053,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Scss",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Scss",
           "name": "lexer",
           "package": "highlighter",
@@ -4630,6 +5066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Smalltalk",
           "name": "Smalltalk",
           "package": "highlighter",
@@ -4638,6 +5075,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Smalltalk",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Smalltalk",
           "name": "Smalltalk",
           "package": "highlighter",
@@ -4651,6 +5089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Smalltalk",
           "name": "lexer",
           "package": "highlighter",
@@ -4660,6 +5099,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Smalltalk",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Smalltalk",
           "name": "lexer",
           "package": "highlighter",
@@ -4672,6 +5112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Smarty",
           "name": "Smarty",
           "package": "highlighter",
@@ -4680,6 +5121,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Smarty",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Smarty",
           "name": "Smarty",
           "package": "highlighter",
@@ -4693,6 +5135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Smarty",
           "name": "lexer",
           "package": "highlighter",
@@ -4702,6 +5145,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Smarty",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Smarty",
           "name": "lexer",
           "package": "highlighter",
@@ -4714,6 +5158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.SourcesList",
           "name": "SourcesList",
           "package": "highlighter",
@@ -4722,6 +5167,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers SourcesList",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.SourcesList",
           "name": "SourcesList",
           "package": "highlighter",
@@ -4735,6 +5181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.SourcesList",
           "name": "lexer",
           "package": "highlighter",
@@ -4744,6 +5191,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers SourcesList",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.SourcesList",
           "name": "lexer",
           "package": "highlighter",
@@ -4756,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Sql",
           "name": "Sql",
           "package": "highlighter",
@@ -4764,6 +5213,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Sql",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Sql",
           "name": "Sql",
           "package": "highlighter",
@@ -4777,6 +5227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Sql",
           "name": "lexer",
           "package": "highlighter",
@@ -4786,6 +5237,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Sql",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Sql",
           "name": "lexer",
           "package": "highlighter",
@@ -4798,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.SquidConf",
           "name": "SquidConf",
           "package": "highlighter",
@@ -4806,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers SquidConf",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.SquidConf",
           "name": "SquidConf",
           "package": "highlighter",
@@ -4819,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.SquidConf",
           "name": "lexer",
           "package": "highlighter",
@@ -4828,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers SquidConf",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.SquidConf",
           "name": "lexer",
           "package": "highlighter",
@@ -4840,6 +5296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Tcl",
           "name": "Tcl",
           "package": "highlighter",
@@ -4848,6 +5305,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Tcl",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Tcl",
           "name": "Tcl",
           "package": "highlighter",
@@ -4861,6 +5319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Tcl",
           "name": "lexer",
           "package": "highlighter",
@@ -4870,6 +5329,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Tcl",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Tcl",
           "name": "lexer",
           "package": "highlighter",
@@ -4882,6 +5342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Tcsh",
           "name": "Tcsh",
           "package": "highlighter",
@@ -4890,6 +5351,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Tcsh",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Tcsh",
           "name": "Tcsh",
           "package": "highlighter",
@@ -4903,6 +5365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Tcsh",
           "name": "lexer",
           "package": "highlighter",
@@ -4912,6 +5375,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Tcsh",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Tcsh",
           "name": "lexer",
           "package": "highlighter",
@@ -4924,6 +5388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Tex",
           "name": "Tex",
           "package": "highlighter",
@@ -4932,6 +5397,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Tex",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Tex",
           "name": "Tex",
           "package": "highlighter",
@@ -4945,6 +5411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Tex",
           "name": "lexer",
           "package": "highlighter",
@@ -4954,6 +5421,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Tex",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Tex",
           "name": "lexer",
           "package": "highlighter",
@@ -4966,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Vala",
           "name": "Vala",
           "package": "highlighter",
@@ -4974,6 +5443,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Vala",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Vala",
           "name": "Vala",
           "package": "highlighter",
@@ -4987,6 +5457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Vala",
           "name": "lexer",
           "package": "highlighter",
@@ -4996,6 +5467,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Vala",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Vala",
           "name": "lexer",
           "package": "highlighter",
@@ -5008,6 +5480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.VbNet",
           "name": "VbNet",
           "package": "highlighter",
@@ -5016,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers VbNet",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.VbNet",
           "name": "VbNet",
           "package": "highlighter",
@@ -5029,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.VbNet",
           "name": "lexer",
           "package": "highlighter",
@@ -5038,6 +5513,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers VbNet",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.VbNet",
           "name": "lexer",
           "package": "highlighter",
@@ -5050,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Velocity",
           "name": "Velocity",
           "package": "highlighter",
@@ -5058,6 +5535,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Velocity",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Velocity",
           "name": "Velocity",
           "package": "highlighter",
@@ -5071,6 +5549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Velocity",
           "name": "lexer",
           "package": "highlighter",
@@ -5080,6 +5559,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Velocity",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Velocity",
           "name": "lexer",
           "package": "highlighter",
@@ -5092,6 +5572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Verilog",
           "name": "Verilog",
           "package": "highlighter",
@@ -5100,6 +5581,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Verilog",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Verilog",
           "name": "Verilog",
           "package": "highlighter",
@@ -5113,6 +5595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Verilog",
           "name": "lexer",
           "package": "highlighter",
@@ -5122,6 +5605,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Verilog",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Verilog",
           "name": "lexer",
           "package": "highlighter",
@@ -5134,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Vim",
           "name": "Vim",
           "package": "highlighter",
@@ -5142,6 +5627,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Vim",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Vim",
           "name": "Vim",
           "package": "highlighter",
@@ -5155,6 +5641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Vim",
           "name": "lexer",
           "package": "highlighter",
@@ -5164,6 +5651,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Vim",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Vim",
           "name": "lexer",
           "package": "highlighter",
@@ -5176,6 +5664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Xml",
           "name": "Xml",
           "package": "highlighter",
@@ -5184,6 +5673,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Xml",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Xml",
           "name": "Xml",
           "package": "highlighter",
@@ -5197,6 +5687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Xml",
           "name": "lexer",
           "package": "highlighter",
@@ -5206,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Xml",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Xml",
           "name": "lexer",
           "package": "highlighter",
@@ -5218,6 +5710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Xslt",
           "name": "Xslt",
           "package": "highlighter",
@@ -5226,6 +5719,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Xslt",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Xslt",
           "name": "Xslt",
           "package": "highlighter",
@@ -5239,6 +5733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers.Xslt",
           "name": "lexer",
           "package": "highlighter",
@@ -5248,6 +5743,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers Xslt",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers.Xslt",
           "name": "lexer",
           "package": "highlighter",
@@ -5260,6 +5756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers",
           "name": "Lexers",
           "package": "highlighter",
@@ -5268,6 +5765,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers",
           "name": "Lexers",
           "package": "highlighter",
@@ -5281,6 +5779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Lexers",
           "name": "lexers",
           "package": "highlighter",
@@ -5290,6 +5789,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Lexers",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Lexers",
           "name": "lexers",
           "normalized": "[(String,Lexer)]",
@@ -5304,6 +5804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Types",
           "package": "highlighter",
@@ -5312,6 +5813,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Types",
           "package": "highlighter",
@@ -5325,6 +5827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Callback",
           "package": "highlighter",
@@ -5333,6 +5836,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Callback",
           "package": "highlighter",
@@ -5346,6 +5850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Lexer",
           "package": "highlighter",
@@ -5354,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Lexer",
           "package": "highlighter",
@@ -5367,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Match",
           "package": "highlighter",
@@ -5375,6 +5882,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Match",
           "package": "highlighter",
@@ -5388,6 +5896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "NextState",
           "package": "highlighter",
@@ -5396,6 +5905,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "NextState",
           "package": "highlighter",
@@ -5409,6 +5919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Token",
           "package": "highlighter",
@@ -5417,6 +5928,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Token",
           "package": "highlighter",
@@ -5430,6 +5942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "TokenMatcher",
           "package": "highlighter",
@@ -5438,6 +5951,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "TokenMatcher",
           "package": "highlighter",
@@ -5451,6 +5965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "TokenType",
           "package": "highlighter",
@@ -5459,6 +5974,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "TokenType",
           "package": "highlighter",
@@ -5472,6 +5988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": ":.",
           "package": "highlighter",
@@ -5481,6 +5998,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": ":.",
           "package": "highlighter",
@@ -5493,6 +6011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Anonymous",
           "package": "highlighter",
@@ -5502,6 +6021,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Anonymous",
           "package": "highlighter",
@@ -5515,6 +6035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "AnyOf",
           "package": "highlighter",
@@ -5524,6 +6045,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "AnyOf",
           "package": "highlighter",
@@ -5537,6 +6059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Arbitrary",
           "package": "highlighter",
@@ -5546,6 +6069,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Arbitrary",
           "package": "highlighter",
@@ -5559,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Atom",
           "package": "highlighter",
@@ -5568,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Atom",
           "package": "highlighter",
@@ -5581,6 +6107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Attribute",
           "package": "highlighter",
@@ -5590,6 +6117,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Attribute",
           "package": "highlighter",
@@ -5603,6 +6131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Backtick",
           "package": "highlighter",
@@ -5612,6 +6141,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Backtick",
           "package": "highlighter",
@@ -5625,6 +6155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Bin",
           "package": "highlighter",
@@ -5634,6 +6165,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Bin",
           "package": "highlighter",
@@ -5647,6 +6179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Binary",
           "package": "highlighter",
@@ -5656,6 +6189,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Binary",
           "package": "highlighter",
@@ -5669,6 +6203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Builtin",
           "package": "highlighter",
@@ -5678,6 +6213,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Builtin",
           "package": "highlighter",
@@ -5691,6 +6227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "ByGroups",
           "package": "highlighter",
@@ -5700,6 +6237,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "ByGroups",
           "normalized": "ByGroups[TokenType]",
@@ -5715,6 +6253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "CapturesTo",
           "package": "highlighter",
@@ -5724,6 +6263,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "CapturesTo",
           "package": "highlighter",
@@ -5737,6 +6277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Char",
           "package": "highlighter",
@@ -5746,6 +6287,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Char",
           "package": "highlighter",
@@ -5759,6 +6301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Class",
           "package": "highlighter",
@@ -5768,6 +6311,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Class",
           "package": "highlighter",
@@ -5781,6 +6325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Combined",
           "package": "highlighter",
@@ -5790,6 +6335,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Combined",
           "normalized": "Combined[TokenMatcher]",
@@ -5805,6 +6351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Comment",
           "package": "highlighter",
@@ -5814,6 +6361,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Comment",
           "package": "highlighter",
@@ -5827,6 +6375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Constant",
           "package": "highlighter",
@@ -5836,6 +6385,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Constant",
           "package": "highlighter",
@@ -5849,6 +6399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Continue",
           "package": "highlighter",
@@ -5858,6 +6409,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Continue",
           "package": "highlighter",
@@ -5871,6 +6423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Date",
           "package": "highlighter",
@@ -5880,6 +6433,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Date",
           "package": "highlighter",
@@ -5893,6 +6447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Decimal",
           "package": "highlighter",
@@ -5902,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Decimal",
           "package": "highlighter",
@@ -5915,6 +6471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Declaration",
           "package": "highlighter",
@@ -5924,6 +6481,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Declaration",
           "package": "highlighter",
@@ -5937,6 +6495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Decorator",
           "package": "highlighter",
@@ -5946,6 +6505,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Decorator",
           "package": "highlighter",
@@ -5959,6 +6519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Deleted",
           "package": "highlighter",
@@ -5968,6 +6529,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Deleted",
           "package": "highlighter",
@@ -5981,6 +6543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "DoAll",
           "package": "highlighter",
@@ -5990,6 +6553,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "DoAll",
           "normalized": "DoAll[NextState]",
@@ -6005,6 +6569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Doc",
           "package": "highlighter",
@@ -6014,6 +6579,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Doc",
           "package": "highlighter",
@@ -6027,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Double",
           "package": "highlighter",
@@ -6036,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Double",
           "package": "highlighter",
@@ -6049,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Emph",
           "package": "highlighter",
@@ -6058,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Emph",
           "package": "highlighter",
@@ -6071,6 +6641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Entity",
           "package": "highlighter",
@@ -6080,6 +6651,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Entity",
           "package": "highlighter",
@@ -6093,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Error",
           "package": "highlighter",
@@ -6102,6 +6675,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Error",
           "package": "highlighter",
@@ -6115,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Escape",
           "package": "highlighter",
@@ -6124,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Escape",
           "package": "highlighter",
@@ -6137,6 +6713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Exception",
           "package": "highlighter",
@@ -6146,6 +6723,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Exception",
           "package": "highlighter",
@@ -6159,6 +6737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Float",
           "package": "highlighter",
@@ -6168,6 +6747,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Float",
           "package": "highlighter",
@@ -6181,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Function",
           "package": "highlighter",
@@ -6190,6 +6771,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Function",
           "package": "highlighter",
@@ -6203,6 +6785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Generic",
           "package": "highlighter",
@@ -6212,6 +6795,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Generic",
           "package": "highlighter",
@@ -6225,6 +6809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Global",
           "package": "highlighter",
@@ -6234,6 +6819,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Global",
           "package": "highlighter",
@@ -6247,6 +6833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "GoTo",
           "package": "highlighter",
@@ -6256,6 +6843,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "GoTo",
           "package": "highlighter",
@@ -6269,6 +6857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Heading",
           "package": "highlighter",
@@ -6278,6 +6867,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Heading",
           "package": "highlighter",
@@ -6291,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Heredoc",
           "package": "highlighter",
@@ -6300,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Heredoc",
           "package": "highlighter",
@@ -6313,6 +6905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Hex",
           "package": "highlighter",
@@ -6322,6 +6915,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Hex",
           "package": "highlighter",
@@ -6335,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Hexadecimal",
           "package": "highlighter",
@@ -6344,6 +6939,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Hexadecimal",
           "package": "highlighter",
@@ -6357,6 +6953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Identifier",
           "package": "highlighter",
@@ -6366,6 +6963,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Identifier",
           "package": "highlighter",
@@ -6379,6 +6977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Indicator",
           "package": "highlighter",
@@ -6388,6 +6987,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Indicator",
           "package": "highlighter",
@@ -6401,6 +7001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Inserted",
           "package": "highlighter",
@@ -6410,6 +7011,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Inserted",
           "package": "highlighter",
@@ -6423,6 +7025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Instance",
           "package": "highlighter",
@@ -6432,6 +7035,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Instance",
           "package": "highlighter",
@@ -6445,6 +7049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Int",
           "package": "highlighter",
@@ -6454,6 +7059,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Int",
           "package": "highlighter",
@@ -6467,6 +7073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Integer",
           "package": "highlighter",
@@ -6476,6 +7083,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Integer",
           "package": "highlighter",
@@ -6489,6 +7097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Interp",
           "package": "highlighter",
@@ -6498,6 +7107,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Interp",
           "package": "highlighter",
@@ -6511,6 +7121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Interpol",
           "package": "highlighter",
@@ -6520,6 +7131,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Interpol",
           "package": "highlighter",
@@ -6533,6 +7145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Keyword",
           "package": "highlighter",
@@ -6542,6 +7155,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Keyword",
           "package": "highlighter",
@@ -6555,6 +7169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Label",
           "package": "highlighter",
@@ -6564,6 +7179,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Label",
           "package": "highlighter",
@@ -6577,6 +7193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Lexer",
           "package": "highlighter",
@@ -6586,6 +7203,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Lexer",
           "package": "highlighter",
@@ -6599,6 +7217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Literal",
           "package": "highlighter",
@@ -6608,6 +7227,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Literal",
           "package": "highlighter",
@@ -6621,6 +7241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Long",
           "package": "highlighter",
@@ -6630,6 +7251,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Long",
           "package": "highlighter",
@@ -6643,6 +7265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Match",
           "package": "highlighter",
@@ -6652,6 +7275,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Match",
           "package": "highlighter",
@@ -6665,6 +7289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Multiline",
           "package": "highlighter",
@@ -6674,6 +7299,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Multiline",
           "package": "highlighter",
@@ -6687,6 +7313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Name",
           "package": "highlighter",
@@ -6696,6 +7323,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Name",
           "package": "highlighter",
@@ -6709,6 +7337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Namespace",
           "package": "highlighter",
@@ -6718,6 +7347,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Namespace",
           "package": "highlighter",
@@ -6731,6 +7361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Number",
           "package": "highlighter",
@@ -6740,6 +7371,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Number",
           "package": "highlighter",
@@ -6753,6 +7385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Oct",
           "package": "highlighter",
@@ -6762,6 +7395,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Oct",
           "package": "highlighter",
@@ -6775,6 +7409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Octal",
           "package": "highlighter",
@@ -6784,6 +7419,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Octal",
           "package": "highlighter",
@@ -6797,6 +7433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Operator",
           "package": "highlighter",
@@ -6806,6 +7443,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Operator",
           "package": "highlighter",
@@ -6819,6 +7457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Other",
           "package": "highlighter",
@@ -6828,6 +7467,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Other",
           "package": "highlighter",
@@ -6841,6 +7481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Output",
           "package": "highlighter",
@@ -6850,6 +7491,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Output",
           "package": "highlighter",
@@ -6863,6 +7505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Plain",
           "package": "highlighter",
@@ -6872,6 +7515,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Plain",
           "package": "highlighter",
@@ -6885,6 +7529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Pop",
           "package": "highlighter",
@@ -6894,6 +7539,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Pop",
           "package": "highlighter",
@@ -6907,6 +7553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "PopNum",
           "package": "highlighter",
@@ -6916,6 +7563,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "PopNum",
           "package": "highlighter",
@@ -6929,6 +7577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Preproc",
           "package": "highlighter",
@@ -6938,6 +7587,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Preproc",
           "package": "highlighter",
@@ -6951,6 +7601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Prompt",
           "package": "highlighter",
@@ -6960,6 +7611,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Prompt",
           "package": "highlighter",
@@ -6973,6 +7625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Property",
           "package": "highlighter",
@@ -6982,6 +7635,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Property",
           "package": "highlighter",
@@ -6995,6 +7649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Pseudo",
           "package": "highlighter",
@@ -7004,6 +7659,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Pseudo",
           "package": "highlighter",
@@ -7017,6 +7673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Punctuation",
           "package": "highlighter",
@@ -7026,6 +7683,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Punctuation",
           "package": "highlighter",
@@ -7039,6 +7697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Push",
           "package": "highlighter",
@@ -7048,6 +7707,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Push",
           "package": "highlighter",
@@ -7061,6 +7721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Regex",
           "package": "highlighter",
@@ -7070,6 +7731,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Regex",
           "package": "highlighter",
@@ -7083,6 +7745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Regexp",
           "package": "highlighter",
@@ -7092,6 +7755,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Regexp",
           "package": "highlighter",
@@ -7105,6 +7769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Reserved",
           "package": "highlighter",
@@ -7114,6 +7779,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Reserved",
           "package": "highlighter",
@@ -7127,6 +7793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Scalar",
           "package": "highlighter",
@@ -7136,6 +7803,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Scalar",
           "package": "highlighter",
@@ -7149,6 +7817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Single",
           "package": "highlighter",
@@ -7158,6 +7827,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Single",
           "package": "highlighter",
@@ -7171,6 +7841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Special",
           "package": "highlighter",
@@ -7180,6 +7851,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Special",
           "package": "highlighter",
@@ -7193,6 +7865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "String",
           "package": "highlighter",
@@ -7202,6 +7875,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "String",
           "package": "highlighter",
@@ -7215,6 +7889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Strong",
           "package": "highlighter",
@@ -7224,6 +7899,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Strong",
           "package": "highlighter",
@@ -7237,6 +7913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Subheading",
           "package": "highlighter",
@@ -7246,6 +7923,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Subheading",
           "package": "highlighter",
@@ -7259,6 +7937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Symbol",
           "package": "highlighter",
@@ -7268,6 +7947,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Symbol",
           "package": "highlighter",
@@ -7281,6 +7961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Tag",
           "package": "highlighter",
@@ -7290,6 +7971,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Tag",
           "package": "highlighter",
@@ -7303,6 +7985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Text",
           "package": "highlighter",
@@ -7312,6 +7995,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Text",
           "package": "highlighter",
@@ -7325,6 +8009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Token",
           "package": "highlighter",
@@ -7334,6 +8019,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Token",
           "package": "highlighter",
@@ -7347,6 +8033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Traceback",
           "package": "highlighter",
@@ -7356,6 +8043,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Traceback",
           "package": "highlighter",
@@ -7369,6 +8057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Type",
           "package": "highlighter",
@@ -7378,6 +8067,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Type",
           "package": "highlighter",
@@ -7391,6 +8081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Using",
           "package": "highlighter",
@@ -7400,6 +8091,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Using",
           "package": "highlighter",
@@ -7413,6 +8105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Variable",
           "package": "highlighter",
@@ -7422,6 +8115,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Variable",
           "package": "highlighter",
@@ -7435,6 +8129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Whitespace",
           "package": "highlighter",
@@ -7444,6 +8139,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Whitespace",
           "package": "highlighter",
@@ -7457,6 +8153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "Word",
           "package": "highlighter",
@@ -7466,6 +8163,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "Word",
           "package": "highlighter",
@@ -7479,6 +8177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "anyOf",
           "package": "highlighter",
@@ -7488,6 +8187,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "anyOf",
           "normalized": "TokenMatcher-\u003eMatch",
@@ -7503,6 +8203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "lAliases",
           "package": "highlighter",
@@ -7512,6 +8213,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "lAliases",
           "normalized": "[String]",
@@ -7527,6 +8229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "lExtensions",
           "package": "highlighter",
@@ -7536,6 +8239,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "lExtensions",
           "normalized": "[String]",
@@ -7551,6 +8255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "lFlags",
           "package": "highlighter",
@@ -7560,6 +8265,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "lFlags",
           "normalized": "[PCREOption]",
@@ -7575,6 +8281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "lMimetypes",
           "package": "highlighter",
@@ -7584,6 +8291,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "lMimetypes",
           "normalized": "[String]",
@@ -7599,6 +8307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "lName",
           "package": "highlighter",
@@ -7608,6 +8317,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "lName",
           "package": "highlighter",
@@ -7621,6 +8331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "lStart",
           "package": "highlighter",
@@ -7630,6 +8341,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "lStart",
           "package": "highlighter",
@@ -7643,6 +8355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "mNextState",
           "package": "highlighter",
@@ -7652,6 +8365,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "mNextState",
           "package": "highlighter",
@@ -7665,6 +8379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "mRegexp",
           "package": "highlighter",
@@ -7674,6 +8389,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "mRegexp",
           "package": "highlighter",
@@ -7687,6 +8403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "mType",
           "package": "highlighter",
@@ -7696,6 +8413,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "mType",
           "package": "highlighter",
@@ -7709,6 +8427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "shortName",
           "package": "highlighter",
@@ -7718,6 +8437,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "shortName",
           "normalized": "TokenType-\u003eString",
@@ -7733,6 +8453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "tText",
           "package": "highlighter",
@@ -7742,6 +8463,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "tText",
           "package": "highlighter",
@@ -7755,6 +8477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "tType",
           "package": "highlighter",
@@ -7764,6 +8487,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "tType",
           "package": "highlighter",
@@ -7777,6 +8501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "tok",
           "package": "highlighter",
@@ -7786,6 +8511,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "tok",
           "normalized": "String-\u003eTokenType-\u003eMatch",
@@ -7800,6 +8526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter.Types",
           "name": "tokNext",
           "package": "highlighter",
@@ -7809,6 +8536,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter Types",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter.Types",
           "name": "tokNext",
           "normalized": "String-\u003eTokenType-\u003eNextState-\u003eMatch",
@@ -7824,6 +8552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter",
           "name": "Highlighter",
           "package": "highlighter",
@@ -7832,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter",
           "name": "Highlighter",
           "package": "highlighter",
@@ -7845,6 +8575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:18 UTC 2014",
           "module": "Text.Highlighter",
           "name": "lexerFromFilename",
           "package": "highlighter",
@@ -7854,6 +8585,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighter",
+          "indexed": "2014-03-11T18:39:18",
           "module": "Text.Highlighter",
           "name": "lexerFromFilename",
           "normalized": "FilePath-\u003eMaybe Lexer",

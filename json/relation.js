@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "relation"
+        "phrase": "relation",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "E02",
           "package": "relation",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "E02",
           "package": "relation",
@@ -39,6 +41,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample 2:\n\u003c/p\u003e\u003cp\u003eA student x can take n classes.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Each student must take at least 1 class\n\u003c/li\u003e\u003cli\u003e Each class must have at least one student.\n\u003c/li\u003e\u003c/ul\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ep enrollment\n\u003c/code\u003e\u003c/strong\u003eRelation{domain =\n           fromList\n             [(\"Antonio\", fromList [\"History\"]),\n              (\"Rebeca\", fromList [\"History\", \"Mathematics\"]),\n              (\"Rolando\", fromList [\"Comunication\", \"Religion\"]),\n              (\"Teresa\", fromList [\"Architecture\", \"Religion\"])],\n         range =\n           fromList\n             [(\"Architecture\", fromList [\"Teresa\"]),\n              (\"Comunication\", fromList [\"Rolando\"]),\n              (\"History\", fromList [\"Antonio\", \"Rebeca\"]),\n              (\"Mathematics\", fromList [\"Rebeca\"]),\n              (\"Religion\", fromList [\"Rolando\", \"Teresa\"])]}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "enrollment",
           "package": "relation",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Example student can take classes Each student must take at least class Each class must have at least one student enrollment Relation domain fromList Antonio fromList History Rebeca fromList History Mathematics Rolando fromList Comunication Religion Teresa fromList Architecture Religion range fromList Architecture fromList Teresa Comunication fromList Rolando History fromList Antonio Rebeca Mathematics fromList Rebeca Religion fromList Rolando Teresa",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "enrollment",
           "normalized": "Relation[Char][Char]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "id1",
           "package": "relation",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "id1",
           "normalized": "Set[Char]-\u003e(Bool,Set[Char])",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "id1R",
           "package": "relation",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "id1R",
           "normalized": "Set a-\u003eRelation b a-\u003eBool",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "id2",
           "package": "relation",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "id2",
           "normalized": "Set[Char]-\u003e(Bool,Set[Char])",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "id2R",
           "package": "relation",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "id2R",
           "normalized": "Set a-\u003eRelation b a-\u003eBool",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "id3",
           "package": "relation",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "id3",
           "normalized": "Set[Char]-\u003e(Bool,Set[Char])",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "id3R",
           "package": "relation",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "id3R",
           "normalized": "Set a-\u003eRelation a b-\u003eBool",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "id4",
           "package": "relation",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "id4",
           "normalized": "Set[Char]-\u003e(Bool,Set[Char])",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "id4R",
           "package": "relation",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "id4R",
           "normalized": "Set a-\u003eRelation a b-\u003eBool",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ep others\n\u003c/code\u003e\u003c/strong\u003efromList [\"Architecture\", \"Comunication\", \"Religion\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "others",
           "package": "relation",
@@ -258,6 +279,7 @@
         "index": {
           "description": "others fromList Architecture Comunication Religion",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "others",
           "normalized": "Set[Char]",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocumentation Tests\n\u003c/p\u003e\u003cp\u003eAll examples in this module are tested automatically with Doctest, and pretty printed with \u003ca\u003eText.Groom\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis output is provided as proof of the correctness of the REPL (\u003ccode\u003e\u003e\u003e\u003e\u003c/code\u003e) text:\n\u003c/p\u003e\u003cpre\u003e\n   There are 12 tests, with 12 total interactions.\n   Examples: 12  Tried: 12  Errors: 0  Failures: 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "p",
           "package": "relation",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Documentation Tests All examples in this module are tested automatically with Doctest and pretty printed with Text.Groom This output is provided as proof of the correctness of the REPL text There are tests with total interactions Examples Tried Errors Failures",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "p",
           "normalized": "a-\u003eIO()",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ep rebecaenrollment\n\u003c/code\u003e\u003c/strong\u003efromList [\"History\", \"Mathematics\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "rebecaenrollment",
           "package": "relation",
@@ -308,6 +333,7 @@
         "index": {
           "description": "rebecaenrollment fromList History Mathematics",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "rebecaenrollment",
           "normalized": "Set[Char]",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "religion",
           "package": "relation",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "religion",
           "normalized": "Set[Char]",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ep t11\n\u003c/code\u003e\u003c/strong\u003e(True, fromList [\"Religion\"])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "t11",
           "package": "relation",
@@ -356,6 +385,7 @@
         "index": {
           "description": "t11 True fromList Religion",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "t11",
           "normalized": "(Bool,Set[Char])",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ep t12\n\u003c/code\u003e\u003c/strong\u003e(True, fromList [\"Rolando\", \"Teresa\"])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "t12",
           "package": "relation",
@@ -381,6 +412,7 @@
         "index": {
           "description": "t12 True fromList Rolando Teresa",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "t12",
           "normalized": "(Bool,Set[Char])",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ep t13\n\u003c/code\u003e\u003c/strong\u003e(True, fromList [\"Teresa\"])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "t13",
           "package": "relation",
@@ -406,6 +439,7 @@
         "index": {
           "description": "t13 True fromList Teresa",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "t13",
           "normalized": "(Bool,Set[Char])",
@@ -421,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ep t14\n\u003c/code\u003e\u003c/strong\u003e(True, fromList [\"Architecture\", \"Religion\"])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "t14",
           "package": "relation",
@@ -431,6 +466,7 @@
         "index": {
           "description": "t14 True fromList Architecture Religion",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "t14",
           "normalized": "(Bool,Set[Char])",
@@ -446,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ep takingreligion\n\u003c/code\u003e\u003c/strong\u003efromList [\"Rolando\", \"Teresa\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "takingreligion",
           "package": "relation",
@@ -456,6 +493,7 @@
         "index": {
           "description": "takingreligion fromList Rolando Teresa",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "takingreligion",
           "normalized": "Set[Char]",
@@ -471,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ep takingreligion2\n\u003c/code\u003e\u003c/strong\u003eRelation{domain =\n           fromList\n             [(\"Rolando\", fromList [\"Religion\"]),\n              (\"Teresa\", fromList [\"Religion\"])],\n         range = fromList [(\"Religion\", fromList [\"Rolando\", \"Teresa\"])]}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "takingreligion2",
           "package": "relation",
@@ -481,6 +520,7 @@
         "index": {
           "description": "takingreligion2 Relation domain fromList Rolando fromList Religion Teresa fromList Religion range fromList Religion fromList Rolando Teresa",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "takingreligion2",
           "normalized": "Relation[Char][Char]",
@@ -496,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ep religion\n\u003c/code\u003e\u003c/strong\u003efromList [\"Religion\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "teresa",
           "package": "relation",
@@ -506,6 +547,7 @@
         "index": {
           "description": "religion fromList Religion",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "teresa",
           "normalized": "Set[Char]",
@@ -521,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ep test1\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "test1",
           "package": "relation",
@@ -531,6 +574,7 @@
         "index": {
           "description": "test1 True",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "test1",
           "package": "relation",
@@ -544,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ep testAll\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation.Examples.E02",
           "name": "testAll",
           "package": "relation",
@@ -554,6 +599,7 @@
         "index": {
           "description": "testAll True",
           "hierarchy": "Data Relation Examples E02",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation.Examples.E02",
           "name": "testAll",
           "package": "relation",
@@ -568,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRelations are modeled as assciations between two elements.\n\u003c/p\u003e\u003cp\u003eRelations offer efficient search for any of the two elements.\n\u003c/p\u003e\u003cp\u003eUnlike \u003ca\u003eData.Map\u003c/a\u003e, an element ca be associated more than once.\n\u003c/p\u003e\u003cp\u003eThe two purposes of this structure are:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Associating elements\n\u003c/li\u003e\u003cli\u003e Provide efficient searches for either of the two elements.\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eSince neither \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e nor \u003ccode\u003efold\u003c/code\u003e are implemented, you \u003cem\u003emust\u003c/em\u003e convert\n the structure to a list to process sequentially.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "Relation",
           "package": "relation",
@@ -577,6 +624,7 @@
         "index": {
           "description": "Relations are modeled as assciations between two elements Relations offer efficient search for any of the two elements Unlike Data.Map an element ca be associated more than once The two purposes of this structure are Associating elements Provide efficient searches for either of the two elements Since neither map nor fold are implemented you must convert the structure to list to process sequentially",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "Relation",
           "package": "relation",
@@ -591,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis implementation avoids using \u003ccode\u003e\u003ca\u003eS.Set (a,b)\u003c/a\u003e\u003c/code\u003e because\n it it is necessary to search for an item without knowing both \u003ccode\u003eD\u003c/code\u003e and \u003ccode\u003eR\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIn \u003ca\u003eS.Set\u003c/a\u003e, you must know both values to search.\n\u003c/p\u003e\u003cp\u003eThus, we have are two maps to updated together.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Always be careful with the associated set of the key.\n\u003c/li\u003e\u003cli\u003e If you union two relations, apply union to the set of values.\n\u003c/li\u003e\u003cli\u003e If you subtract, take care when handling the set of values.\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eAs a multi-map, each key is asscoated with a Set of values v.\n\u003c/p\u003e\u003cp\u003eWe do not allow the associations with the \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e Set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "Relation",
           "package": "relation",
@@ -600,6 +649,7 @@
         "index": {
           "description": "This implementation avoids using S.Set because it it is necessary to search for an item without knowing both and In S.Set you must know both values to search Thus we have are two maps to updated together Always be careful with the associated set of the key If you union two relations apply union to the set of values If you subtract take care when handling the set of values As multi-map each key is asscoated with Set of values We do not allow the associations with the empty Set",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "Relation",
           "package": "relation",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e( Case a |\u003e r b )\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "(|$\u003e)",
           "package": "relation",
@@ -624,6 +675,7 @@
         "index": {
           "description": "Case",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "(|$\u003e) |$\u003e",
           "normalized": "Set a-\u003eSet b-\u003eRelation a b-\u003eSet b",
@@ -639,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRange restriction for a relation. Modeled on z.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "(|\u003e)",
           "package": "relation",
@@ -649,6 +702,7 @@
         "index": {
           "description": "Range restriction for relation Modeled on",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "(|\u003e) |\u003e",
           "normalized": "Relation a b-\u003eSet b-\u003eRelation a b",
@@ -664,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDomain restriction for a relation. Modeled on z.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "(\u003c|)",
           "package": "relation",
@@ -674,6 +729,7 @@
         "index": {
           "description": "Domain restriction for relation Modeled on",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "(\u003c|) \u003c|",
           "normalized": "Set a-\u003eRelation a b-\u003eRelation a b",
@@ -689,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e(Case b \u003c| r a)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "(\u003c$|)",
           "package": "relation",
@@ -699,6 +756,7 @@
         "index": {
           "description": "Case",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "(\u003c$|) \u003c$|",
           "normalized": "Set a-\u003eSet b-\u003eRelation a b-\u003eSet a",
@@ -714,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compact set of sets the values of which can be \u003ccode\u003eJust (Set x)\u003c/code\u003e or \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe cases of \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e are purged.\n\u003c/p\u003e\u003cp\u003eIt is similar to \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "compactSet",
           "package": "relation",
@@ -724,6 +783,7 @@
         "index": {
           "description": "compact set of sets the values of which can be Just Set or Nothing The cases of Nothing are purged It is similar to concat",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "compactSet",
           "normalized": "Set(Maybe(Set a))-\u003eSet a",
@@ -740,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete an association in the relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "delete",
           "package": "relation",
@@ -750,6 +811,7 @@
         "index": {
           "description": "Delete an association in the relation",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "delete",
           "normalized": "a-\u003eb-\u003eRelation a b-\u003eRelation a b",
@@ -765,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the domain in the relation, as a Set, in its entirety.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "dom",
           "package": "relation",
@@ -775,6 +838,7 @@
         "index": {
           "description": "Returns the domain in the relation as Set in its entirety",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "dom",
           "normalized": "Relation a b-\u003eSet a",
@@ -790,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a relation with no elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "empty",
           "package": "relation",
@@ -800,6 +865,7 @@
         "index": {
           "description": "Construct relation with no elements",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "empty",
           "package": "relation",
@@ -813,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list must be formatted like: [(k1, v1), (k2, v2),..,(kn, vn)].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "fromList",
           "package": "relation",
@@ -823,6 +890,7 @@
         "index": {
           "description": "The list must be formatted like k1 v1 k2 v2 kn vn",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eRelation a b",
@@ -839,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a relation \u003ccode\u003e x \u003c/code\u003e and \u003ccode\u003e y \u003c/code\u003e in the relation \u003ccode\u003e r \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "insert",
           "package": "relation",
@@ -849,6 +918,7 @@
         "index": {
           "description": "Insert relation and in the relation",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eRelation a b-\u003eRelation a b",
@@ -864,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Set of values associated with a value in the domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "lookupDom",
           "package": "relation",
@@ -874,6 +945,7 @@
         "index": {
           "description": "The Set of values associated with value in the domain",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "lookupDom",
           "normalized": "a-\u003eRelation a b-\u003eMaybe(Set b)",
@@ -890,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Set of values associated with a value in the range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "lookupRan",
           "package": "relation",
@@ -900,6 +973,7 @@
         "index": {
           "description": "The Set of values associated with value in the range",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "lookupRan",
           "normalized": "a-\u003eRelation b a-\u003eMaybe(Set b)",
@@ -916,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the relation contains the association \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "member",
           "package": "relation",
@@ -926,6 +1001,7 @@
         "index": {
           "description": "True if the relation contains the association and",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "member",
           "normalized": "a-\u003eb-\u003eRelation a b-\u003eBool",
@@ -941,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the element \u003ccode\u003e x \u003c/code\u003e exists in the domain of \u003ccode\u003e r \u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "memberDom",
           "package": "relation",
@@ -951,6 +1028,7 @@
         "index": {
           "description": "True if the element exists in the domain of",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "memberDom",
           "normalized": "a-\u003eRelation a b-\u003eBool",
@@ -967,6 +1045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the element exists in the range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "memberRan",
           "package": "relation",
@@ -977,6 +1056,7 @@
         "index": {
           "description": "True if the element exists in the range",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "memberRan",
           "normalized": "a-\u003eRelation b a-\u003eBool",
@@ -993,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the relation \u003cem\u003edoes not\u003c/em\u003e contain the association \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "notMember",
           "package": "relation",
@@ -1003,6 +1084,7 @@
         "index": {
           "description": "True if the relation does not contain the association and",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "notMember",
           "normalized": "a-\u003eb-\u003eRelation a b-\u003eBool",
@@ -1019,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the relation \u003ccode\u003er\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "null",
           "package": "relation",
@@ -1029,6 +1112,7 @@
         "index": {
           "description": "True if the relation is the empty relation",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "null",
           "normalized": "Relation a b-\u003eBool",
@@ -1044,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the range of the relation, as a Set, in its entirety.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "ran",
           "package": "relation",
@@ -1054,6 +1139,7 @@
         "index": {
           "description": "Returns the range of the relation as Set in its entirety",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "ran",
           "normalized": "Relation a b-\u003eSet b",
@@ -1069,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds a \u003ccode\u003e\u003ca\u003eRelation\u003c/a\u003e\u003c/code\u003e consiting of an association between: \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "singleton",
           "package": "relation",
@@ -1079,6 +1166,7 @@
         "index": {
           "description": "Builds Relation consiting of an association between and",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eRelation a b",
@@ -1094,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esize r\u003c/code\u003e returns the number of tuples in the relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "size",
           "package": "relation",
@@ -1104,6 +1193,7 @@
         "index": {
           "description": "size returns the number of tuples in the relation",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "size",
           "normalized": "Relation a b-\u003eInt",
@@ -1119,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds a List from a Relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "toList",
           "package": "relation",
@@ -1129,6 +1220,7 @@
         "index": {
           "description": "Builds List from Relation",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "toList",
           "normalized": "Relation a b-\u003e[(a,b)]",
@@ -1145,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eRelation\u003c/a\u003e\u003c/code\u003e that results from the union of two relations: \u003ccode\u003er\u003c/code\u003e and \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "union",
           "package": "relation",
@@ -1155,6 +1248,7 @@
         "index": {
           "description": "The Relation that results from the union of two relations and",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "union",
           "normalized": "Relation a b-\u003eRelation a b-\u003eRelation a b",
@@ -1170,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion a list of relations using the \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:32 UTC 2014",
           "module": "Data.Relation",
           "name": "unions",
           "package": "relation",
@@ -1180,6 +1275,7 @@
         "index": {
           "description": "Union list of relations using the empty relation",
           "hierarchy": "Data Relation",
+          "indexed": "2014-03-11T19:52:32",
           "module": "Data.Relation",
           "name": "unions",
           "normalized": "[Relation a b]-\u003eRelation a b",

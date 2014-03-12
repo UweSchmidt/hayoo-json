@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "markov"
+        "phrase": "markov",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "MarkovAlgo",
           "package": "markov",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "MarkovAlgo",
           "package": "markov",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarkov's algorithm itself\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "Algo",
           "package": "markov",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Markov algorithm itself",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "Algo",
           "package": "markov",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne rule in algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "Rule",
           "package": "markov",
@@ -72,6 +77,7 @@
         "index": {
           "description": "One rule in algorithm",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "Rule",
           "package": "markov",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable for rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "Var",
           "package": "markov",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Variable for rules",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "Var",
           "package": "markov",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-terminating rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": ":-\u003e",
           "package": "markov",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Non-terminating rule",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": ":-\u003e",
           "normalized": "[a]-\u003e[a]",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerminating rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": ":-\u003e.",
           "package": "markov",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Terminating rule",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": ":-\u003e.",
           "normalized": "[a]-\u003e[a]",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral char\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "L",
           "package": "markov",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Literal char",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "L",
           "package": "markov",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable with given number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "V",
           "package": "markov",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Variable with given number",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "V",
           "package": "markov",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet antecedent of rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "antecedent",
           "package": "markov",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Get antecedent of rule",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "antecedent",
           "normalized": "Rule a-\u003e[a]",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild concrete algo from simple text description with variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "buildAlgo",
           "package": "markov",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Build concrete algo from simple text description with variables",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "buildAlgo",
           "normalized": "[a]-\u003e[a]-\u003eAlgo a-\u003eAlgo a",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet consequent of rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "consequent",
           "package": "markov",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Get consequent of rule",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "consequent",
           "normalized": "Rule a-\u003e[a]",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet data constructor of Rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "constructor",
           "package": "markov",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Get data constructor of Rule",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "constructor",
           "normalized": "Rule a-\u003e[b]-\u003e[b]-\u003eRule b",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand algorithm with variables into algorithm without variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "expand",
           "package": "markov",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Expand algorithm with variables into algorithm without variables",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "expand",
           "normalized": "[a]-\u003eAlgo(Var a)-\u003eAlgo a",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate generic Rule from concrete Rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "parseRule",
           "package": "markov",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Create generic Rule from concrete Rule",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "parseRule",
           "normalized": "[a]-\u003eRule a-\u003eRule(Var a)",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun concrete (without variables) Markov's algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:53 UTC 2014",
           "module": "Data.MarkovAlgo",
           "name": "runMarkov",
           "package": "markov",
@@ -363,6 +392,7 @@
         "index": {
           "description": "Run concrete without variables Markov algorithm",
           "hierarchy": "Data MarkovAlgo",
+          "indexed": "2014-03-11T19:14:53",
           "module": "Data.MarkovAlgo",
           "name": "runMarkov",
           "normalized": "Algo a-\u003e[a]-\u003e[a]",

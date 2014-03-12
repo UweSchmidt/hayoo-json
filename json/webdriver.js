@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "webdriver"
+        "phrase": "webdriver",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Capabilities",
           "name": "Capabilities",
           "package": "webdriver",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Capabilities",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Capabilities",
           "name": "Capabilities",
           "package": "webdriver",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis constructor simultaneously specifies which browser the session will\n use, while also providing browser-specific configuration. Default\n configuration is provided for each browser by \u003ccode\u003e\u003ca\u003efirefox\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003echrome\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eopera\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eie\u003c/a\u003e\u003c/code\u003e, etc.\n\u003c/p\u003e\u003cp\u003eThis library uses \u003ccode\u003e\u003ca\u003efirefox\u003c/a\u003e\u003c/code\u003e as its \u003ccode\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/code\u003e browser configuration, when no\n browser choice is specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Capabilities",
           "name": "Browser",
           "package": "webdriver",
@@ -49,6 +52,7 @@
         "index": {
           "description": "This constructor simultaneously specifies which browser the session will use while also providing browser-specific configuration Default configuration is provided for each browser by firefox chrome opera ie etc This library uses firefox as its Default browser configuration when no browser choice is specified",
           "hierarchy": "Test WebDriver Capabilities",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Capabilities",
           "name": "Browser",
           "package": "webdriver",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure describing the capabilities of a session. This record\nserves dual roles.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e It's used to specify the desired capabilities for a session before\nit's created. In this usage, fields that are set to Nothing indicate\nthat we have no preference for that capability.\n\u003c/li\u003e\u003cli\u003e When received from the server , it's used to\ndescribe the actual capabilities given to us by the WebDriver\nserver. Here a value of Nothing indicates that the server doesn't\nsupport the capability. Thus, for Maybe Bool fields, both Nothing and\nJust False indicate a lack of support for the desired capability.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Capabilities",
           "name": "Capabilities",
           "package": "webdriver",
@@ -72,6 +77,7 @@
         "index": {
           "description": "structure describing the capabilities of session This record serves dual roles It used to specify the desired capabilities for session before it created In this usage fields that are set to Nothing indicate that we have no preference for that capability When received from the server it used to describe the actual capabilities given to us by the WebDriver server Here value of Nothing indicates that the server doesn support the capability Thus for Maybe Bool fields both Nothing and Just False indicate lack of support for the desired capability",
           "hierarchy": "Test WebDriver Capabilities",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Capabilities",
           "name": "Capabilities",
           "package": "webdriver",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies how elements scroll into the viewport. (see \u003ccode\u003e\u003ca\u003eieElementScrollBehavior\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Capabilities",
           "name": "IEElementScrollBehavior",
           "package": "webdriver",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Specifies how elements scroll into the viewport see ieElementScrollBehavior",
           "hierarchy": "Test WebDriver Capabilities",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Capabilities",
           "name": "IEElementScrollBehavior",
           "package": "webdriver",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogging levels for Internet Explorer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Capabilities",
           "name": "IELogLevel",
           "package": "webdriver",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Logging levels for Internet Explorer",
           "hierarchy": "Test WebDriver Capabilities",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Capabilities",
           "name": "IELogLevel",
           "package": "webdriver",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates a log verbosity level. Used in \u003ccode\u003e\u003ca\u003eFirefox\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOpera\u003c/a\u003e\u003c/code\u003e configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Capabilities",
           "name": "LogLevel",
           "package": "webdriver",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Indicates log verbosity level Used in Firefox and Opera configuration",
           "hierarchy": "Test WebDriver Capabilities",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Capabilities",
           "name": "LogLevel",
           "package": "webdriver",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents platform options supported by WebDriver. The value Any represents\n no preference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Capabilities",
           "name": "Platform",
           "package": "webdriver",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Represents platform options supported by WebDriver The value Any represents no preference",
           "hierarchy": "Test WebDriver Capabilities",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Capabilities",
           "name": "Platform",
           "package": "webdriver",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable settings for the proxy \u003ccode\u003e\u003ca\u003eCapabilities\u003c/a\u003e\u003c/code\u003e field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Capabilities",
           "name": "ProxyType",
           "package": "webdriver",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Available settings for the proxy Capabilities field",
           "hierarchy": "Test WebDriver Capabilities",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Capabilities",
           "name": "ProxyType",
           "package": "webdriver",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Capabilities",
           "name": "UnexpectedAlertBehavior",
           "package": "webdriver",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Capabilities",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Capabilities",
           "name": "UnexpectedAlertBehavior",
           "package": "webdriver",
@@ -1739,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Capabilities",
           "name": "htmlUnit",
           "package": "webdriver",
@@ -1748,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Capabilities",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Capabilities",
           "name": "htmlUnit",
           "package": "webdriver",
@@ -2823,6 +2843,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions and types for working with Google Chrome extensions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Chrome.Extension",
           "name": "Extension",
           "package": "webdriver",
@@ -2832,6 +2853,7 @@
         "index": {
           "description": "Functions and types for working with Google Chrome extensions",
           "hierarchy": "Test WebDriver Chrome Extension",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Chrome.Extension",
           "name": "Extension",
           "package": "webdriver",
@@ -2846,6 +2868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque type representing a Google Chrome extension. Values of this type\n are passed to the \u003ccode\u003e\u003ca\u003echromeExtensions\u003c/a\u003e\u003c/code\u003e field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Chrome.Extension",
           "name": "ChromeExtension",
           "package": "webdriver",
@@ -2855,6 +2878,7 @@
         "index": {
           "description": "An opaque type representing Google Chrome extension Values of this type are passed to the chromeExtensions field",
           "hierarchy": "Test WebDriver Chrome Extension",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Chrome.Extension",
           "name": "ChromeExtension",
           "package": "webdriver",
@@ -2869,6 +2893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a .crx file as a \u003ccode\u003e\u003ca\u003eChromeExtension\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Chrome.Extension",
           "name": "loadExtension",
           "package": "webdriver",
@@ -2879,6 +2904,7 @@
         "index": {
           "description": "Load crx file as ChromeExtension",
           "hierarchy": "Test WebDriver Chrome Extension",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Chrome.Extension",
           "name": "loadExtension",
           "normalized": "FilePath-\u003ea ChromeExtension",
@@ -2895,6 +2921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad raw .crx data as a \u003ccode\u003e\u003ca\u003eChromeExtension\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Chrome.Extension",
           "name": "loadRawExtension",
           "package": "webdriver",
@@ -2905,6 +2932,7 @@
         "index": {
           "description": "Load raw crx data as ChromeExtension",
           "hierarchy": "Test WebDriver Chrome Extension",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Chrome.Extension",
           "name": "loadRawExtension",
           "normalized": "ByteString-\u003eChromeExtension",
@@ -2920,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "Classes",
           "package": "webdriver",
@@ -2928,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "Classes",
           "package": "webdriver",
@@ -2942,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HTTP request method, to be used in the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e object.\n We are missing a few of the stranger methods, but these are\n not really necessary until we add full TLS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "RequestMethod",
           "package": "webdriver",
@@ -2950,6 +2981,7 @@
         "index": {
           "description": "The HTTP request method to be used in the Request object We are missing few of the stranger methods but these are not really necessary until we add full TLS",
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "RequestMethod",
           "package": "webdriver",
@@ -2964,6 +2996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque identifier for a WebDriver session. These handles are produced by\nthe server on session creation, and act to identify a session in progress. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "SessionId",
           "package": "webdriver",
@@ -2973,6 +3006,7 @@
         "index": {
           "description": "An opaque identifier for WebDriver session These handles are produced by the server on session creation and act to identify session in progress",
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "SessionId",
           "package": "webdriver",
@@ -2987,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for monads that carry a WebDriver session with them. The\n MonadBaseControl superclass is used for exception handling through\n the lifted-base package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "SessionState",
           "package": "webdriver",
@@ -2996,6 +3031,7 @@
         "index": {
           "description": "class for monads that carry WebDriver session with them The MonadBaseControl superclass is used for exception handling through the lifted-base package",
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "SessionState",
           "package": "webdriver",
@@ -3010,6 +3046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a WebDriver session. This structure is passed\nimplicitly through all \u003ccode\u003eWD\u003c/code\u003e computations, and is also used to configure the \u003ccode\u003eWD\u003c/code\u003e\nmonad before execution. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "WDSession",
           "package": "webdriver",
@@ -3019,6 +3056,7 @@
         "index": {
           "description": "Information about WebDriver session This structure is passed implicitly through all WD computations and is also used to configure the WD monad before execution",
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "WDSession",
           "package": "webdriver",
@@ -3033,6 +3071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for monads that can handle wire protocol requests. This is the\n operation underlying all of the high-level commands exported in\n \u003ca\u003eTest.WebDriver.Commands\u003c/a\u003e. For more information on the wire protocol see\n \u003ca\u003ehttp://code.google.com/p/selenium/wiki/JsonWireProtocol\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "WebDriver",
           "package": "webdriver",
@@ -3042,6 +3081,7 @@
         "index": {
           "description": "class for monads that can handle wire protocol requests This is the operation underlying all of the high-level commands exported in Test.WebDriver.Commands For more information on the wire protocol see http code.google.com selenium wiki JsonWireProtocol",
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "WebDriver",
           "package": "webdriver",
@@ -3055,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "CONNECT",
           "package": "webdriver",
@@ -3063,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "CONNECT",
           "package": "webdriver",
@@ -3076,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "Custom",
           "package": "webdriver",
@@ -3084,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "Custom",
           "package": "webdriver",
@@ -3097,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "DELETE",
           "package": "webdriver",
@@ -3105,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "DELETE",
           "package": "webdriver",
@@ -3118,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "GET",
           "package": "webdriver",
@@ -3126,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "GET",
           "package": "webdriver",
@@ -3139,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "HEAD",
           "package": "webdriver",
@@ -3147,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "HEAD",
           "package": "webdriver",
@@ -3160,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "OPTIONS",
           "package": "webdriver",
@@ -3168,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "OPTIONS",
           "package": "webdriver",
@@ -3181,6 +3233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "POST",
           "package": "webdriver",
@@ -3189,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "POST",
           "package": "webdriver",
@@ -3202,6 +3256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "PUT",
           "package": "webdriver",
@@ -3210,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "PUT",
           "package": "webdriver",
@@ -3246,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "TRACE",
           "package": "webdriver",
@@ -3254,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "TRACE",
           "package": "webdriver",
@@ -3315,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "doCommand",
           "package": "webdriver",
@@ -3324,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "doCommand",
           "package": "webdriver",
@@ -3337,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "getSession",
           "package": "webdriver",
@@ -3346,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "getSession",
           "package": "webdriver",
@@ -3384,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "modifySession",
           "package": "webdriver",
@@ -3393,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "modifySession",
           "normalized": "(WDSession-\u003eWDSession)-\u003ea()",
@@ -3408,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Classes",
           "name": "putSession",
           "package": "webdriver",
@@ -3417,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Classes",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Classes",
           "name": "putSession",
           "normalized": "WDSession-\u003ea()",
@@ -3531,6 +3597,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal functions used to implement the functions exported by\n \u003ca\u003eTest.WebDriver.Commands\u003c/a\u003e. These may be useful for implementing non-standard\n webdriver commands.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "Internal",
           "package": "webdriver",
@@ -3540,6 +3607,7 @@
         "index": {
           "description": "Internal functions used to implement the functions exported by Test.WebDriver.Commands These may be useful for implementing non-standard webdriver commands",
           "hierarchy": "Test WebDriver Commands Internal",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "Internal",
           "package": "webdriver",
@@ -3554,6 +3622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque identifier for a web page element. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "Element",
           "package": "webdriver",
@@ -3563,6 +3632,7 @@
         "index": {
           "description": "An opaque identifier for web page element",
           "hierarchy": "Test WebDriver Commands Internal",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "Element",
           "package": "webdriver",
@@ -3577,6 +3647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command requiring a session ID was attempted when no session ID was\n available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "NoSessionId",
           "package": "webdriver",
@@ -3586,6 +3657,7 @@
         "index": {
           "description": "command requiring session ID was attempted when no session ID was available",
           "hierarchy": "Test WebDriver Commands Internal",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "NoSessionId",
           "package": "webdriver",
@@ -3600,6 +3672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque identifier for a WebDriver session. These handles are produced by\nthe server on session creation, and act to identify a session in progress. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "SessionId",
           "package": "webdriver",
@@ -3609,6 +3682,7 @@
         "index": {
           "description": "An opaque identifier for WebDriver session These handles are produced by the server on session creation and act to identify session in progress",
           "hierarchy": "Test WebDriver Commands Internal",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "SessionId",
           "package": "webdriver",
@@ -3623,6 +3697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque identifier for a browser window \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "WindowHandle",
           "package": "webdriver",
@@ -3632,6 +3707,7 @@
         "index": {
           "description": "An opaque identifier for browser window",
           "hierarchy": "Test WebDriver Commands Internal",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "WindowHandle",
           "package": "webdriver",
@@ -3739,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "doCommand",
           "package": "webdriver",
@@ -3747,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands Internal",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "doCommand",
           "normalized": "RequestMethod-\u003eText-\u003ea-\u003eb c",
@@ -3763,6 +3841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper around \u003ccode\u003e\u003ca\u003edoSessCommand\u003c/a\u003e\u003c/code\u003e to create element URLs.\n For example, passing a URL of \u003ca\u003e/active\u003c/a\u003e will expand to\n \"\u003cem\u003esession\u003c/em\u003e:sessionId\u003cem\u003eelement\u003c/em\u003e:id/active\", where :sessionId and :id are URL\n parameters as described in the wire protocol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "doElemCommand",
           "package": "webdriver",
@@ -3773,6 +3852,7 @@
         "index": {
           "description": "wrapper around doSessCommand to create element URLs For example passing URL of active will expand to session sessionId element id active where sessionId and id are URL parameters as described in the wire protocol",
           "hierarchy": "Test WebDriver Commands Internal",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "doElemCommand",
           "normalized": "RequestMethod-\u003eElement-\u003eText-\u003ea-\u003eb c",
@@ -3789,6 +3869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis a convenient wrapper around \u003ccode\u003e\u003ca\u003edoCommand\u003c/a\u003e\u003c/code\u003e that automatically prepends\n the session URL parameter to the wire command URL. For example, passing\n a URL of \"\u003cem\u003erefresh\\\" will expand to \\\"\u003c/em\u003esession\u003cem\u003e:sessionId\u003c/em\u003erefresh\", where\n :sessionId is a URL parameter as described in\n \u003ca\u003ehttp://code.google.com/p/selenium/wiki/JsonWireProtocol\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "doSessCommand",
           "package": "webdriver",
@@ -3799,6 +3880,7 @@
         "index": {
           "description": "This convenient wrapper around doCommand that automatically prepends the session URL parameter to the wire command URL For example passing URL of refresh will expand to session sessionId refresh where sessionId is URL parameter as described in http code.google.com selenium wiki JsonWireProtocol",
           "hierarchy": "Test WebDriver Commands Internal",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "doSessCommand",
           "normalized": "RequestMethod-\u003eText-\u003ea-\u003eb c",
@@ -3815,6 +3897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper around \u003ccode\u003e\u003ca\u003edoSessCommand\u003c/a\u003e\u003c/code\u003e to create window handle URLS.\n For example, passing a URL of \"/size\" will expand to\n \"\u003cem\u003esession\u003c/em\u003e:sessionId\u003cem\u003ewindow\u003c/em\u003e:windowHandle/\", where :sessionId and\n :windowHandle are URL parameters as described in the wire protocol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "doWinCommand",
           "package": "webdriver",
@@ -3825,6 +3908,7 @@
         "index": {
           "description": "wrapper around doSessCommand to create window handle URLS For example passing URL of size will expand to session sessionId window windowHandle where sessionId and windowHandle are URL parameters as described in the wire protocol",
           "hierarchy": "Test WebDriver Commands Internal",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Internal",
           "name": "doWinCommand",
           "normalized": "RequestMethod-\u003eWindowHandle-\u003eText-\u003ea-\u003eb c",
@@ -3840,6 +3924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "Wait",
           "package": "webdriver",
@@ -3848,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "Wait",
           "package": "webdriver",
@@ -3862,6 +3948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception representing the failure of an expected condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "ExpectFailed",
           "package": "webdriver",
@@ -3871,6 +3958,7 @@
         "index": {
           "description": "An exception representing the failure of an expected condition",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "ExpectFailed",
           "package": "webdriver",
@@ -3885,6 +3973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted inclusive disjunction. Unlike \u003ccode\u003e\u003ca\u003eliftM2\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003e||\u003c/a\u003e\u003c/code\u003e), This function is \n short-circuiting in the monad. Fixity is the same as \u003ccode\u003e\u003ca\u003e||\u003c/a\u003e\u003c/code\u003e (infixr 2).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "(\u003c||\u003e)",
           "package": "webdriver",
@@ -3894,6 +3983,7 @@
         "index": {
           "description": "Lifted inclusive disjunction Unlike liftM2 This function is short-circuiting in the monad Fixity is the same as infixr",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -3909,6 +3999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted conjunction. Unlike \u003ccode\u003e\u003ca\u003eliftM2\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003e&&\u003c/a\u003e\u003c/code\u003e), this function is \n short-circuiting in the monad. Fixity is the same as \u003ccode\u003e\u003ca\u003e&&\u003c/a\u003e\u003c/code\u003e (infxr 3).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "(\u003c&&\u003e)",
           "package": "webdriver",
@@ -3918,6 +4009,7 @@
         "index": {
           "description": "Lifted conjunction Unlike liftM2 this function is short-circuiting in the monad Fixity is the same as infxr",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "(\u003c&&\u003e) \u003c&&\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -3933,6 +4025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expected condition. This function allows you to express assertions in\n your explicit wait. This function raises \u003ccode\u003e\u003ca\u003eExpectFailed\u003c/a\u003e\u003c/code\u003e if the given\n boolean is False, and otherwise does nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "expect",
           "package": "webdriver",
@@ -3943,6 +4036,7 @@
         "index": {
           "description": "An expected condition This function allows you to express assertions in your explicit wait This function raises ExpectFailed if the given boolean is False and otherwise does nothing",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "expect",
           "normalized": "Bool-\u003ea()",
@@ -3958,6 +4052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic predicate to every element in a list, and \u003ccode\u003e\u003ca\u003eexpect\u003c/a\u003e\u003c/code\u003e that all\n succeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "expectAll",
           "package": "webdriver",
@@ -3968,6 +4063,7 @@
         "index": {
           "description": "Apply monadic predicate to every element in list and expect that all succeed",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "expectAll",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb()",
@@ -3984,6 +4080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic predicate to every element in a list, and \u003ccode\u003e\u003ca\u003eexpect\u003c/a\u003e\u003c/code\u003e that\n at least one succeeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "expectAny",
           "package": "webdriver",
@@ -3994,6 +4091,7 @@
         "index": {
           "description": "Apply monadic predicate to every element in list and expect that at least one succeeds",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "expectAny",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb()",
@@ -4010,6 +4108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eif'\u003c/a\u003e\u003c/code\u003e lifted to \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e. Unlike \u003ccode\u003e\u003ca\u003eliftM3\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eif'\u003c/a\u003e\u003c/code\u003e, this is  \n short-circuiting in the monad, such that only the predicate action and one of\n the remaining argument actions are executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "ifM",
           "package": "webdriver",
@@ -4019,6 +4118,7 @@
         "index": {
           "description": "if lifted to Monad Unlike liftM3 if this is short-circuiting in the monad such that only the predicate action and one of the remaining argument actions are executed",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "ifM",
           "normalized": "a b-\u003ea c-\u003ea c-\u003ea c",
@@ -4034,6 +4134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted boolean negation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "notM",
           "package": "webdriver",
@@ -4043,6 +4144,7 @@
         "index": {
           "description": "Lifted boolean negation",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "notM",
           "normalized": "a b-\u003ea b",
@@ -4058,6 +4160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function to catch \u003ccode\u003e\u003ca\u003eFailedCommand\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e exceptions\n and perform some action.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e waitUntil 5 (getText \u003c=\u003c findElem $ ByCSS \".class\")\n    `onTimeout` return \"\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "onTimeout",
           "package": "webdriver",
@@ -4068,6 +4171,7 @@
         "index": {
           "description": "Convenience function to catch FailedCommand Timeout exceptions and perform some action Example waitUntil getText findElem ByCSS class onTimeout return",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "onTimeout",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -4084,6 +4188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethrows \u003ccode\u003e\u003ca\u003eExpectFailed\u003c/a\u003e\u003c/code\u003e. This is nice for writing your own abstractions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "unexpected",
           "package": "webdriver",
@@ -4093,6 +4198,7 @@
         "index": {
           "description": "throws ExpectFailed This is nice for writing your own abstractions",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "unexpected",
           "normalized": "String-\u003ea b",
@@ -4108,6 +4214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until either the given action succeeds or the timeout is reached.\n The action will be retried every .5 seconds until no \u003ccode\u003e\u003ca\u003eExpectFailed\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eFailedCommand\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eNoSuchElement\u003c/a\u003e\u003c/code\u003e exceptions occur. If the timeout is reached,\n then a \u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e exception will be raised. The timeout value\n is expressed in seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "waitUntil",
           "package": "webdriver",
@@ -4118,6 +4225,7 @@
         "index": {
           "description": "Wait until either the given action succeeds or the timeout is reached The action will be retried every seconds until no ExpectFailed or FailedCommand NoSuchElement exceptions occur If the timeout is reached then Timeout exception will be raised The timeout value is expressed in seconds",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "waitUntil",
           "normalized": "Double-\u003ea b-\u003ea b",
@@ -4134,6 +4242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003ewaitUntil\u003c/a\u003e\u003c/code\u003e but allows you to also specify the poll frequency\n of the \u003ccode\u003eWD\u003c/code\u003e action. The frequency is expressed as an integer in microseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "waitUntil'",
           "package": "webdriver",
@@ -4144,6 +4253,7 @@
         "index": {
           "description": "Similar to waitUntil but allows you to also specify the poll frequency of the WD action The frequency is expressed as an integer in microseconds",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "waitUntil'",
           "normalized": "Int-\u003eDouble-\u003ea b-\u003ea b",
@@ -4160,6 +4270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewaitUntil\u003c/a\u003e\u003c/code\u003e, but retries the action until it fails or until the timeout\n is exceeded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "waitWhile",
           "package": "webdriver",
@@ -4170,6 +4281,7 @@
         "index": {
           "description": "Like waitUntil but retries the action until it fails or until the timeout is exceeded",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "waitWhile",
           "normalized": "Double-\u003ea b-\u003ea()",
@@ -4186,6 +4298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewaitUntil'\u003c/a\u003e\u003c/code\u003e, but retries the action until it either fails or\n until the timeout is exceeded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "waitWhile'",
           "package": "webdriver",
@@ -4196,6 +4309,7 @@
         "index": {
           "description": "Like waitUntil but retries the action until it either fails or until the timeout is exceeded",
           "hierarchy": "Test WebDriver Commands Wait",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands.Wait",
           "name": "waitWhile'",
           "normalized": "Int-\u003eDouble-\u003ea b-\u003ea()",
@@ -4212,6 +4326,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports basic WD actions that can be used to interact with a\n browser session.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "Commands",
           "package": "webdriver",
@@ -4221,6 +4336,7 @@
         "index": {
           "description": "This module exports basic WD actions that can be used to interact with browser session",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "Commands",
           "package": "webdriver",
@@ -4234,6 +4350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "ApplicationCacheStatus",
           "package": "webdriver",
@@ -4242,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "ApplicationCacheStatus",
           "package": "webdriver",
@@ -4256,6 +4374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCookies are delicious delicacies. When sending cookies to the server, a value\n of Nothing indicates that the server should use a default value. When receiving\n cookies from the server, a value of Nothing indicates that the server is unable\n to specify the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "Cookie",
           "package": "webdriver",
@@ -4265,6 +4384,7 @@
         "index": {
           "description": "Cookies are delicious delicacies When sending cookies to the server value of Nothing indicates that the server should use default value When receiving cookies from the server value of Nothing indicates that the server is unable to specify the value",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "Cookie",
           "package": "webdriver",
@@ -4279,6 +4399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque identifier for a web page element. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "Element",
           "package": "webdriver",
@@ -4288,6 +4409,7 @@
         "index": {
           "description": "An opaque identifier for web page element",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "Element",
           "package": "webdriver",
@@ -4302,6 +4424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the frame used by \u003ccode\u003e\u003ca\u003efocusFrame\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "FrameSelector",
           "package": "webdriver",
@@ -4311,6 +4434,7 @@
         "index": {
           "description": "Specifies the frame used by focusFrame",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "FrameSelector",
           "package": "webdriver",
@@ -4325,6 +4449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existential wrapper for any \u003ccode\u003e\u003ca\u003eToJSON\u003c/a\u003e\u003c/code\u003e instance. This allows us to pass\n parameters of many different types to Javascript code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "JSArg",
           "package": "webdriver",
@@ -4334,6 +4459,7 @@
         "index": {
           "description": "An existential wrapper for any ToJSON instance This allows us to pass parameters of many different types to Javascript code",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "JSArg",
           "package": "webdriver",
@@ -4348,6 +4474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA record that represents a single log entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "LogEntry",
           "package": "webdriver",
@@ -4357,6 +4484,7 @@
         "index": {
           "description": "record that represents single log entry",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "LogEntry",
           "package": "webdriver",
@@ -4371,6 +4499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates a log verbosity level. Used in \u003ccode\u003e\u003ca\u003eFirefox\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOpera\u003c/a\u003e\u003c/code\u003e configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "LogLevel",
           "package": "webdriver",
@@ -4380,6 +4509,7 @@
         "index": {
           "description": "Indicates log verbosity level Used in Firefox and Opera configuration",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "LogLevel",
           "package": "webdriver",
@@ -4393,6 +4523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "LogType",
           "package": "webdriver",
@@ -4401,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "LogType",
           "package": "webdriver",
@@ -4415,6 +4547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mouse button\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "MouseButton",
           "package": "webdriver",
@@ -4424,6 +4557,7 @@
         "index": {
           "description": "mouse button",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "MouseButton",
           "package": "webdriver",
@@ -4438,6 +4572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA screen orientation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "Orientation",
           "package": "webdriver",
@@ -4447,6 +4582,7 @@
         "index": {
           "description": "screen orientation",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "Orientation",
           "package": "webdriver",
@@ -4461,6 +4597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies element(s) within a DOM tree using various selection methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "Selector",
           "package": "webdriver",
@@ -4470,6 +4607,7 @@
         "index": {
           "description": "Specifies element within DOM tree using various selection methods",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "Selector",
           "package": "webdriver",
@@ -4484,6 +4622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTML 5 storage type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "WebStorageType",
           "package": "webdriver",
@@ -4493,6 +4632,7 @@
         "index": {
           "description": "An HTML storage type",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "WebStorageType",
           "package": "webdriver",
@@ -4507,6 +4647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque identifier for a browser window \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "WindowHandle",
           "package": "webdriver",
@@ -4516,6 +4657,7 @@
         "index": {
           "description": "An opaque identifier for browser window",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "WindowHandle",
           "package": "webdriver",
@@ -4530,6 +4672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines if two element identifiers refer to different elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "(\u003c/=\u003e)",
           "package": "webdriver",
@@ -4540,6 +4683,7 @@
         "index": {
           "description": "Determines if two element identifiers refer to different elements",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "(\u003c/=\u003e) \u003c/=\u003e",
           "normalized": "Element-\u003eElement-\u003ea Bool",
@@ -4555,6 +4699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines if two element identifiers refer to the same element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "(\u003c==\u003e)",
           "package": "webdriver",
@@ -4565,6 +4710,7 @@
         "index": {
           "description": "Determines if two element identifiers refer to the same element",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "(\u003c==\u003e) \u003c==\u003e",
           "normalized": "Element-\u003eElement-\u003ea Bool",
@@ -5232,6 +5378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccepts the currently displayed alert dialog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "acceptAlert",
           "package": "webdriver",
@@ -5242,6 +5389,7 @@
         "index": {
           "description": "Accepts the currently displayed alert dialog",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "acceptAlert",
           "normalized": "a()",
@@ -5257,6 +5405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "activateIME",
           "package": "webdriver",
@@ -5266,6 +5415,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "activateIME",
           "normalized": "Text-\u003ea()",
@@ -5282,6 +5432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the element that currently has focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "activeElem",
           "package": "webdriver",
@@ -5292,6 +5443,7 @@
         "index": {
           "description": "Return the element that currently has focus",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "activeElem",
           "package": "webdriver",
@@ -5305,6 +5457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "activeIMEEngine",
           "package": "webdriver",
@@ -5314,6 +5467,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "activeIMEEngine",
           "package": "webdriver",
@@ -5328,6 +5482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a snippet of Javascript code asynchronously. This function works\nsimilarly to \u003ccode\u003e\u003ca\u003eexecuteJS\u003c/a\u003e\u003c/code\u003e, except that the Javascript is passed a callback\nfunction as its final argument. The script should call this function\nto signal that it has finished executing, passing to it a value that will be\nreturned as the result of asyncJS. A result of Nothing indicates that the\nJavascript function timed out (see \u003ccode\u003e\u003ca\u003esetScriptTimeout\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "asyncJS",
           "package": "webdriver",
@@ -5338,6 +5493,7 @@
         "index": {
           "description": "Executes snippet of Javascript code asynchronously This function works similarly to executeJS except that the Javascript is passed callback function as its final argument The script should call this function to signal that it has finished executing passing to it value that will be returned as the result of asyncJS result of Nothing indicates that the Javascript function timed out see setScriptTimeout",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "asyncJS",
           "normalized": "[JSArg]-\u003eText-\u003ea(Maybe b)",
@@ -5354,6 +5510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the value of an element's attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "attr",
           "package": "webdriver",
@@ -5364,6 +5521,7 @@
         "index": {
           "description": "Retrieve the value of an element attribute",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "attr",
           "normalized": "Element-\u003eText-\u003ea(Maybe Text)",
@@ -5378,6 +5536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "availableIMEEngines",
           "package": "webdriver",
@@ -5387,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "availableIMEEngines",
           "normalized": "a[Text]",
@@ -5403,6 +5563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNavigate backward in the browser history.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "back",
           "package": "webdriver",
@@ -5413,6 +5574,7 @@
         "index": {
           "description": "Navigate backward in the browser history",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "back",
           "normalized": "a()",
@@ -5427,6 +5589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "checkIMEActive",
           "package": "webdriver",
@@ -5436,6 +5599,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "checkIMEActive",
           "package": "webdriver",
@@ -5450,6 +5614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear a textarea or text input element's value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "clearInput",
           "package": "webdriver",
@@ -5460,6 +5625,7 @@
         "index": {
           "description": "Clear textarea or text input element value",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "clearInput",
           "normalized": "Element-\u003ea()",
@@ -5476,6 +5642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClick on an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "click",
           "package": "webdriver",
@@ -5486,6 +5653,7 @@
         "index": {
           "description": "Click on an element",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "click",
           "normalized": "Element-\u003ea()",
@@ -5501,6 +5669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClick at the current mouse position with the given mouse button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "clickWith",
           "package": "webdriver",
@@ -5511,6 +5680,7 @@
         "index": {
           "description": "Click at the current mouse position with the given mouse button",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "clickWith",
           "normalized": "MouseButton-\u003ea()",
@@ -5527,6 +5697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the current session and the browser associated with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "closeSession",
           "package": "webdriver",
@@ -5537,6 +5708,7 @@
         "index": {
           "description": "Close the current session and the browser associated with it",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "closeSession",
           "normalized": "a()",
@@ -5553,6 +5725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses the given window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "closeWindow",
           "package": "webdriver",
@@ -5563,6 +5736,7 @@
         "index": {
           "description": "Closes the given window",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "closeWindow",
           "normalized": "WindowHandle-\u003ea()",
@@ -5725,6 +5899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve all cookies visible to the current page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "cookies",
           "package": "webdriver",
@@ -5735,6 +5910,7 @@
         "index": {
           "description": "Retrieve all cookies visible to the current page",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "cookies",
           "normalized": "a[Cookie]",
@@ -5750,6 +5926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new session with the given \u003ccode\u003e\u003ca\u003eCapabilities\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "createSession",
           "package": "webdriver",
@@ -5760,6 +5937,7 @@
         "index": {
           "description": "Create new session with the given Capabilities",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "createSession",
           "normalized": "Capabilities-\u003ea WDSession",
@@ -5776,6 +5954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the value of an element's computed CSS property\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "cssProp",
           "package": "webdriver",
@@ -5786,6 +5965,7 @@
         "index": {
           "description": "Retrieve the value of an element computed CSS property",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "cssProp",
           "normalized": "Element-\u003eText-\u003ea(Maybe Text)",
@@ -5801,6 +5981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "deactivateIME",
           "package": "webdriver",
@@ -5810,6 +5991,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "deactivateIME",
           "normalized": "a()",
@@ -5826,6 +6008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all keys within a given web storage area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "deleteAllKeys",
           "package": "webdriver",
@@ -5836,6 +6019,7 @@
         "index": {
           "description": "Delete all keys within given web storage area",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "deleteAllKeys",
           "normalized": "WebStorageType-\u003ea()",
@@ -5852,6 +6036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a cookie. This will do nothing is the cookie isn't visible to the\n current page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "deleteCookie",
           "package": "webdriver",
@@ -5862,6 +6047,7 @@
         "index": {
           "description": "Delete cookie This will do nothing is the cookie isn visible to the current page",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "deleteCookie",
           "normalized": "Cookie-\u003ea()",
@@ -5877,6 +6063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "deleteCookieByName",
           "package": "webdriver",
@@ -5886,6 +6073,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "deleteCookieByName",
           "normalized": "Text-\u003ea()",
@@ -5902,6 +6090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a key in the given web storage area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "deleteKey",
           "package": "webdriver",
@@ -5912,6 +6101,7 @@
         "index": {
           "description": "Delete key in the given web storage area",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "deleteKey",
           "normalized": "WebStorageType-\u003eText-\u003ea()",
@@ -5928,6 +6118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all visible cookies on the current page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "deleteVisibleCookies",
           "package": "webdriver",
@@ -5938,6 +6129,7 @@
         "index": {
           "description": "Delete all visible cookies on the current page",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "deleteVisibleCookies",
           "normalized": "a()",
@@ -5954,6 +6146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDismisses the currently displayed alert dialog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "dismissAlert",
           "package": "webdriver",
@@ -5964,6 +6157,7 @@
         "index": {
           "description": "Dismisses the currently displayed alert dialog",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "dismissAlert",
           "normalized": "a()",
@@ -5980,6 +6174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDouble click at the current mouse location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "doubleClick",
           "package": "webdriver",
@@ -5990,6 +6185,7 @@
         "index": {
           "description": "Double click at the current mouse location",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "doubleClick",
           "normalized": "a()",
@@ -6006,6 +6202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe the element. Returns a JSON object whose meaning is currently\n undefined by the WebDriver protocol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "elemInfo",
           "package": "webdriver",
@@ -6016,6 +6213,7 @@
         "index": {
           "description": "Describe the element Returns JSON object whose meaning is currently undefined by the WebDriver protocol",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "elemInfo",
           "normalized": "Element-\u003ea Value",
@@ -6032,6 +6230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve an element's current position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "elemPos",
           "package": "webdriver",
@@ -6042,6 +6241,7 @@
         "index": {
           "description": "Retrieve an element current position",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "elemPos",
           "normalized": "Element-\u003ea(Int,Int)",
@@ -6058,6 +6258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve an element's current size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "elemSize",
           "package": "webdriver",
@@ -6068,6 +6269,7 @@
         "index": {
           "description": "Retrieve an element current size",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "elemSize",
           "normalized": "Element-\u003ea(Word,Word)",
@@ -6084,6 +6286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a snippet of Javascript into the page for execution in the\ncontext of the currently selected frame. The executed script is\nassumed to be synchronous and the result of evaluating the script is\nreturned and converted to an instance of FromJSON.\n\u003c/p\u003e\u003cp\u003eThe first parameter defines arguments to pass to the javascript\nfunction. Arguments of type Element will be converted to the\ncorresponding DOM element. Likewise, any elements in the script result\nwill be returned to the client as Elements.\n\u003c/p\u003e\u003cp\u003eThe second parameter defines the script itself in the form of a\nfunction body. The value returned by that function will be returned to\nthe client. The function will be invoked with the provided argument\nlist and the values may be accessed via the arguments object in the\norder specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "executeJS",
           "package": "webdriver",
@@ -6094,6 +6297,7 @@
         "index": {
           "description": "Inject snippet of Javascript into the page for execution in the context of the currently selected frame The executed script is assumed to be synchronous and the result of evaluating the script is returned and converted to an instance of FromJSON The first parameter defines arguments to pass to the javascript function Arguments of type Element will be converted to the corresponding DOM element Likewise any elements in the script result will be returned to the client as Elements The second parameter defines the script itself in the form of function body The value returned by that function will be returned to the client The function will be invoked with the provided argument list and the values may be accessed via the arguments object in the order specified",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "executeJS",
           "normalized": "[JSArg]-\u003eText-\u003ea b",
@@ -6110,6 +6314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind an element on the page using the given element selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "findElem",
           "package": "webdriver",
@@ -6120,6 +6325,7 @@
         "index": {
           "description": "Find an element on the page using the given element selector",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "findElem",
           "normalized": "Selector-\u003ea Element",
@@ -6136,6 +6342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for an element using the given element as root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "findElemFrom",
           "package": "webdriver",
@@ -6146,6 +6353,7 @@
         "index": {
           "description": "Search for an element using the given element as root",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "findElemFrom",
           "normalized": "Element-\u003eSelector-\u003ea Element",
@@ -6162,6 +6370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all elements on the page matching the given selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "findElems",
           "package": "webdriver",
@@ -6172,6 +6381,7 @@
         "index": {
           "description": "Find all elements on the page matching the given selector",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "findElems",
           "normalized": "Selector-\u003ea[Element]",
@@ -6188,6 +6398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all elements matching a selector, using the given element as root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "findElemsFrom",
           "package": "webdriver",
@@ -6198,6 +6409,7 @@
         "index": {
           "description": "Find all elements matching selector using the given element as root",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "findElemsFrom",
           "normalized": "Element-\u003eSelector-\u003ea[Element]",
@@ -6214,6 +6426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch focus to the frame specified by the FrameSelector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "focusFrame",
           "package": "webdriver",
@@ -6224,6 +6437,7 @@
         "index": {
           "description": "Switch focus to the frame specified by the FrameSelector",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "focusFrame",
           "normalized": "FrameSelector-\u003ea()",
@@ -6239,6 +6453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "focusWindow",
           "package": "webdriver",
@@ -6248,6 +6463,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "focusWindow",
           "normalized": "WindowHandle-\u003ea()",
@@ -6264,6 +6480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNavigate forward in the browser history.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "forward",
           "package": "webdriver",
@@ -6274,6 +6491,7 @@
         "index": {
           "description": "Navigate forward in the browser history",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "forward",
           "normalized": "a()",
@@ -6289,6 +6507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the text of an alert dialog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getAlertText",
           "package": "webdriver",
@@ -6299,6 +6518,7 @@
         "index": {
           "description": "Get the text of an alert dialog",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getAlertText",
           "package": "webdriver",
@@ -6313,6 +6533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all keys from a web storage area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getAllKeys",
           "package": "webdriver",
@@ -6323,6 +6544,7 @@
         "index": {
           "description": "Get list of all keys from web storage area",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getAllKeys",
           "normalized": "WebStorageType-\u003ea[Text]",
@@ -6338,6 +6560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getApplicationCacheStatus",
           "package": "webdriver",
@@ -6347,6 +6570,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getApplicationCacheStatus",
           "package": "webdriver",
@@ -6361,6 +6585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the actual \u003ccode\u003e\u003ca\u003eCapabilities\u003c/a\u003e\u003c/code\u003e of the current session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getCaps",
           "package": "webdriver",
@@ -6371,6 +6596,7 @@
         "index": {
           "description": "Get the actual Capabilities of the current session",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getCaps",
           "package": "webdriver",
@@ -6385,6 +6611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the URL of the current page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getCurrentURL",
           "package": "webdriver",
@@ -6395,6 +6622,7 @@
         "index": {
           "description": "Gets the URL of the current page",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getCurrentURL",
           "package": "webdriver",
@@ -6409,6 +6637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a handle to the currently focused window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getCurrentWindow",
           "package": "webdriver",
@@ -6419,6 +6648,7 @@
         "index": {
           "description": "Returns handle to the currently focused window",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getCurrentWindow",
           "package": "webdriver",
@@ -6433,6 +6663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value associated with a key in the given web storage area.\n Unset keys result in empty strings, since the Web Storage spec\n makes no distinction between the empty string and an undefined value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getKey",
           "package": "webdriver",
@@ -6443,6 +6674,7 @@
         "index": {
           "description": "Get the value associated with key in the given web storage area Unset keys result in empty strings since the Web Storage spec makes no distinction between the empty string and an undefined value",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getKey",
           "normalized": "WebStorageType-\u003eText-\u003ea Text",
@@ -6459,6 +6691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current geographical location of the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getLocation",
           "package": "webdriver",
@@ -6469,6 +6702,7 @@
         "index": {
           "description": "Get the current geographical location of the device",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getLocation",
           "normalized": "a(Int,Int,Int)",
@@ -6485,6 +6719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of available log types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getLogTypes",
           "package": "webdriver",
@@ -6495,6 +6730,7 @@
         "index": {
           "description": "Get list of available log types",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getLogTypes",
           "normalized": "a[LogType]",
@@ -6511,6 +6747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the log buffer for a given log type. The server-side log buffer is reset after each request.\n\u003c/p\u003e\u003cp\u003eWhich log types are available is server defined, but the wire protocol lists these as common log types:\n client, driver, browser, server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getLogs",
           "package": "webdriver",
@@ -6521,6 +6758,7 @@
         "index": {
           "description": "Retrieve the log buffer for given log type The server-side log buffer is reset after each request Which log types are available is server defined but the wire protocol lists these as common log types client driver browser server",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getLogs",
           "normalized": "LogType-\u003ea[LogEntry]",
@@ -6537,6 +6775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current screen orientation for rotatable display devices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getOrientation",
           "package": "webdriver",
@@ -6547,6 +6786,7 @@
         "index": {
           "description": "Get the current screen orientation for rotatable display devices",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getOrientation",
           "package": "webdriver",
@@ -6561,6 +6801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current page source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getSource",
           "package": "webdriver",
@@ -6571,6 +6812,7 @@
         "index": {
           "description": "Get the current page source",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getSource",
           "package": "webdriver",
@@ -6585,6 +6827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all visible text within this element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getText",
           "package": "webdriver",
@@ -6595,6 +6838,7 @@
         "index": {
           "description": "Get all visible text within this element",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getText",
           "normalized": "Element-\u003ea Text",
@@ -6611,6 +6855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the title of the current page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getTitle",
           "package": "webdriver",
@@ -6621,6 +6866,7 @@
         "index": {
           "description": "Get the title of the current page",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getTitle",
           "package": "webdriver",
@@ -6635,6 +6881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the coordinates of the current window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getWindowPos",
           "package": "webdriver",
@@ -6645,6 +6892,7 @@
         "index": {
           "description": "Get the coordinates of the current window",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getWindowPos",
           "normalized": "a(Int,Int)",
@@ -6661,6 +6909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the dimensions of the current window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "getWindowSize",
           "package": "webdriver",
@@ -6671,6 +6920,7 @@
         "index": {
           "description": "Get the dimensions of the current window",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "getWindowSize",
           "normalized": "a(Word,Word)",
@@ -6687,6 +6937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if the element is displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "isDisplayed",
           "package": "webdriver",
@@ -6697,6 +6948,7 @@
         "index": {
           "description": "Determine if the element is displayed",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "isDisplayed",
           "normalized": "Element-\u003ea Bool",
@@ -6713,6 +6965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if the element is enabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "isEnabled",
           "package": "webdriver",
@@ -6723,6 +6976,7 @@
         "index": {
           "description": "Determine if the element is enabled",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "isEnabled",
           "normalized": "Element-\u003ea Bool",
@@ -6739,6 +6993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if the element is selected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "isSelected",
           "package": "webdriver",
@@ -6749,6 +7004,7 @@
         "index": {
           "description": "Determine if the element is selected",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "isSelected",
           "normalized": "Element-\u003ea Bool",
@@ -6838,6 +7094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximizes the current  window if not already maximized\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "maximize",
           "package": "webdriver",
@@ -6848,6 +7105,7 @@
         "index": {
           "description": "Maximizes the current window if not already maximized",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "maximize",
           "normalized": "a()",
@@ -6890,6 +7148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePress and hold the left mouse button down. Note that undefined behavior\n occurs if the next mouse command is not mouseUp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "mouseDown",
           "package": "webdriver",
@@ -6900,6 +7159,7 @@
         "index": {
           "description": "Press and hold the left mouse button down Note that undefined behavior occurs if the next mouse command is not mouseUp",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "mouseDown",
           "normalized": "a()",
@@ -6916,6 +7176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelease the left mouse button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "mouseUp",
           "package": "webdriver",
@@ -6926,6 +7187,7 @@
         "index": {
           "description": "Release the left mouse button",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "mouseUp",
           "normalized": "a()",
@@ -6942,6 +7204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoves the mouse to the given position relative to the active element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "moveTo",
           "package": "webdriver",
@@ -6952,6 +7215,7 @@
         "index": {
           "description": "Moves the mouse to the given position relative to the active element",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "moveTo",
           "normalized": "(Int,Int)-\u003ea()",
@@ -6968,6 +7232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoves the mouse to the center of a given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "moveToCenter",
           "package": "webdriver",
@@ -6978,6 +7243,7 @@
         "index": {
           "description": "Moves the mouse to the center of given element",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "moveToCenter",
           "normalized": "Element-\u003ea()",
@@ -6994,6 +7260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoves the mouse to the given position relative to the given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "moveToFrom",
           "package": "webdriver",
@@ -7004,6 +7271,7 @@
         "index": {
           "description": "Moves the mouse to the given position relative to the given element",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "moveToFrom",
           "normalized": "(Int,Int)-\u003eElement-\u003ea()",
@@ -7020,6 +7288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a new page by the given URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "openPage",
           "package": "webdriver",
@@ -7030,6 +7299,7 @@
         "index": {
           "description": "Opens new page by the given URL",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "openPage",
           "normalized": "String-\u003ea()",
@@ -7046,6 +7316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRefresh the current page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "refresh",
           "package": "webdriver",
@@ -7056,6 +7327,7 @@
         "index": {
           "description": "Refresh the current page",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "refresh",
           "normalized": "a()",
@@ -7071,6 +7343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends keystrokes to Javascript prompt() dialog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "replyToAlert",
           "package": "webdriver",
@@ -7081,6 +7354,7 @@
         "index": {
           "description": "Sends keystrokes to Javascript prompt dialog",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "replyToAlert",
           "normalized": "Text-\u003ea()",
@@ -7097,6 +7371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrab a screenshot of the current page as a PNG image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "screenshot",
           "package": "webdriver",
@@ -7107,6 +7382,7 @@
         "index": {
           "description": "Grab screenshot of the current page as PNG image",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "screenshot",
           "package": "webdriver",
@@ -7120,6 +7396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrab a screenshot as a base-64 encoded PNG image. This is the protocol-defined format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "screenshotBase64",
           "package": "webdriver",
@@ -7130,6 +7407,7 @@
         "index": {
           "description": "Grab screenshot as base-64 encoded PNG image This is the protocol-defined format",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "screenshotBase64",
           "package": "webdriver",
@@ -7144,6 +7422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a sequence of keystrokes to an element. All modifier keys are released\n at the end of the function. For more information about modifier keys, see\n \u003ca\u003ehttp://code.google.com/p/selenium/wiki/JsonWireProtocol#/session/:sessionId/element/:id/value\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "sendKeys",
           "package": "webdriver",
@@ -7154,6 +7433,7 @@
         "index": {
           "description": "Send sequence of keystrokes to an element All modifier keys are released at the end of the function For more information about modifier keys see http code.google.com selenium wiki JsonWireProtocol session sessionId element id value",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "sendKeys",
           "normalized": "Text-\u003eElement-\u003ea()",
@@ -7170,6 +7450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to sendKeys, but doesn't implicitly release modifier keys\n afterwards. This allows you to combine modifiers with mouse clicks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "sendRawKeys",
           "package": "webdriver",
@@ -7180,6 +7461,7 @@
         "index": {
           "description": "Similar to sendKeys but doesn implicitly release modifier keys afterwards This allows you to combine modifiers with mouse clicks",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "sendRawKeys",
           "normalized": "Text-\u003eElement-\u003ea()",
@@ -7196,6 +7478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information from the server as a JSON \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e. For more information\n about this object see\n \u003ca\u003ehttp://code.google.com/p/selenium/wiki/JsonWireProtocol#/status\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "serverStatus",
           "package": "webdriver",
@@ -7206,6 +7489,7 @@
         "index": {
           "description": "Get information from the server as JSON Object For more information about this object see http code.google.com selenium wiki JsonWireProtocol status",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "serverStatus",
           "package": "webdriver",
@@ -7220,6 +7504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a list of active sessions and their \u003ccode\u003e\u003ca\u003eCapabilities\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "sessions",
           "package": "webdriver",
@@ -7230,6 +7515,7 @@
         "index": {
           "description": "Retrieve list of active sessions and their Capabilities",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "sessions",
           "normalized": "a[(SessionId,Capabilities)]",
@@ -7245,6 +7531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a cookie. If the cookie path is not specified, it will default to \"/\".\n Likewise, if the domain is omitted, it will default to the current page's\n domain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "setCookie",
           "package": "webdriver",
@@ -7255,6 +7542,7 @@
         "index": {
           "description": "Set cookie If the cookie path is not specified it will default to Likewise if the domain is omitted it will default to the current page domain",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "setCookie",
           "normalized": "Cookie-\u003ea()",
@@ -7271,6 +7559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the amount of time we implicitly wait when searching for elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "setImplicitWait",
           "package": "webdriver",
@@ -7281,6 +7570,7 @@
         "index": {
           "description": "Sets the amount of time we implicitly wait when searching for elements",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "setImplicitWait",
           "normalized": "Integer-\u003ea()",
@@ -7297,6 +7587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a key in the given web storage area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "setKey",
           "package": "webdriver",
@@ -7307,6 +7598,7 @@
         "index": {
           "description": "Set key in the given web storage area",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "setKey",
           "normalized": "WebStorageType-\u003eText-\u003eText-\u003ea Text",
@@ -7323,6 +7615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current geographical location of the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "setLocation",
           "package": "webdriver",
@@ -7333,6 +7626,7 @@
         "index": {
           "description": "Set the current geographical location of the device",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "setLocation",
           "normalized": "(Int,Int,Int)-\u003ea()",
@@ -7349,6 +7643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current screen orientation for rotatable display devices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "setOrientation",
           "package": "webdriver",
@@ -7359,6 +7654,7 @@
         "index": {
           "description": "Set the current screen orientation for rotatable display devices",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "setOrientation",
           "normalized": "Orientation-\u003ea()",
@@ -7375,6 +7671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the amount of time to wait for a page to finish loading before throwing a \u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "setPageLoadTimeout",
           "package": "webdriver",
@@ -7385,6 +7682,7 @@
         "index": {
           "description": "Sets the amount of time to wait for page to finish loading before throwing Timeout exception",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "setPageLoadTimeout",
           "normalized": "Integer-\u003ea()",
@@ -7401,6 +7699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the amount of time we wait for an asynchronous script to return a\n result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "setScriptTimeout",
           "package": "webdriver",
@@ -7411,6 +7710,7 @@
         "index": {
           "description": "Sets the amount of time we wait for an asynchronous script to return result",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "setScriptTimeout",
           "normalized": "Integer-\u003ea()",
@@ -7427,6 +7727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the coordinates of the current window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "setWindowPos",
           "package": "webdriver",
@@ -7437,6 +7738,7 @@
         "index": {
           "description": "Set the coordinates of the current window",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "setWindowPos",
           "normalized": "(Int,Int)-\u003ea()",
@@ -7453,6 +7755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the dimensions of the current window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "setWindowSize",
           "package": "webdriver",
@@ -7463,6 +7766,7 @@
         "index": {
           "description": "Set the dimensions of the current window",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "setWindowSize",
           "normalized": "(Word,Word)-\u003ea()",
@@ -7479,6 +7783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current number of keys in a web storage area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "storageSize",
           "package": "webdriver",
@@ -7489,6 +7794,7 @@
         "index": {
           "description": "Get the current number of keys in web storage area",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "storageSize",
           "normalized": "WebStorageType-\u003ea Integer",
@@ -7505,6 +7811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubmit a form element. This may be applied to descendents of a form element\n as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "submit",
           "package": "webdriver",
@@ -7515,6 +7822,7 @@
         "index": {
           "description": "Submit form element This may be applied to descendents of form element as well",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "submit",
           "normalized": "Element-\u003ea()",
@@ -7530,6 +7838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the tag name of the given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "tagName",
           "package": "webdriver",
@@ -7540,6 +7849,7 @@
         "index": {
           "description": "Return the tag name of the given element",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "tagName",
           "normalized": "Element-\u003ea Text",
@@ -7556,6 +7866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle tap on the touch screen at the given element's location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "touchClick",
           "package": "webdriver",
@@ -7566,6 +7877,7 @@
         "index": {
           "description": "Single tap on the touch screen at the given element location",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "touchClick",
           "normalized": "Element-\u003ea()",
@@ -7582,6 +7894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmulate a double click on a touch device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "touchDoubleClick",
           "package": "webdriver",
@@ -7592,6 +7905,7 @@
         "index": {
           "description": "Emulate double click on touch device",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "touchDoubleClick",
           "normalized": "Element-\u003ea()",
@@ -7608,6 +7922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmulates pressing a finger down on the screen at the given location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "touchDown",
           "package": "webdriver",
@@ -7618,6 +7933,7 @@
         "index": {
           "description": "Emulates pressing finger down on the screen at the given location",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "touchDown",
           "normalized": "(Int,Int)-\u003ea()",
@@ -7634,6 +7950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmulate a flick on the touch screen. The coordinates indicate x and y\n velocity, respectively. Use this function if you don't care where the\n flick starts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "touchFlick",
           "package": "webdriver",
@@ -7644,6 +7961,7 @@
         "index": {
           "description": "Emulate flick on the touch screen The coordinates indicate and velocity respectively Use this function if you don care where the flick starts",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "touchFlick",
           "normalized": "(Int,Int)-\u003ea()",
@@ -7660,6 +7978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmulate a flick on the touch screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "touchFlickFrom",
           "package": "webdriver",
@@ -7669,6 +7988,7 @@
         "index": {
           "description": "Emulate flick on the touch screen",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "touchFlickFrom",
           "normalized": "Int-\u003e(Int,Int)-\u003eElement-\u003ea()",
@@ -7685,6 +8005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmulate a long click on a touch device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "touchLongClick",
           "package": "webdriver",
@@ -7695,6 +8016,7 @@
         "index": {
           "description": "Emulate long click on touch device",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "touchLongClick",
           "normalized": "Element-\u003ea()",
@@ -7711,6 +8033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmulates moving a finger on the screen to the given location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "touchMove",
           "package": "webdriver",
@@ -7721,6 +8044,7 @@
         "index": {
           "description": "Emulates moving finger on the screen to the given location",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "touchMove",
           "normalized": "(Int,Int)-\u003ea()",
@@ -7737,6 +8061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmulate finger-based touch scroll. Use this function if you don't care where\n the scroll begins\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "touchScroll",
           "package": "webdriver",
@@ -7747,6 +8072,7 @@
         "index": {
           "description": "Emulate finger-based touch scroll Use this function if you don care where the scroll begins",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "touchScroll",
           "normalized": "(Int,Int)-\u003ea()",
@@ -7763,6 +8089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmulate finger-based touch scroll, starting from the given location relative\n to the given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "touchScrollFrom",
           "package": "webdriver",
@@ -7773,6 +8100,7 @@
         "index": {
           "description": "Emulate finger-based touch scroll starting from the given location relative to the given element",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "touchScrollFrom",
           "normalized": "(Int,Int)-\u003eElement-\u003ea()",
@@ -7789,6 +8117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmulates removing a finger from the screen at the given location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "touchUp",
           "package": "webdriver",
@@ -7799,6 +8128,7 @@
         "index": {
           "description": "Emulates removing finger from the screen at the given location",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "touchUp",
           "normalized": "(Int,Int)-\u003ea()",
@@ -7815,6 +8145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUploads a file from the local filesystem by its file path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "uploadFile",
           "package": "webdriver",
@@ -7825,6 +8156,7 @@
         "index": {
           "description": "Uploads file from the local filesystem by its file path",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "uploadFile",
           "normalized": "FilePath-\u003ea()",
@@ -7841,6 +8173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUploads a raw bytestring with associated file info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "uploadRawFile",
           "package": "webdriver",
@@ -7850,6 +8183,7 @@
         "index": {
           "description": "Uploads raw bytestring with associated file info",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "uploadRawFile",
           "normalized": "FilePath-\u003eInteger-\u003eByteString-\u003ea()",
@@ -7866,6 +8200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLowest level interface to the file uploading mechanism.\n This allows you to specify the exact details of\n the zip entry sent across network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "uploadZipEntry",
           "package": "webdriver",
@@ -7876,6 +8211,7 @@
         "index": {
           "description": "Lowest level interface to the file uploading mechanism This allows you to specify the exact details of the zip entry sent across network",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "uploadZipEntry",
           "normalized": "Entry-\u003ea()",
@@ -7892,6 +8228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all windows available to the session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "windows",
           "package": "webdriver",
@@ -7902,6 +8239,7 @@
         "index": {
           "description": "Returns list of all windows available to the session",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "windows",
           "normalized": "a[WindowHandle]",
@@ -7917,6 +8255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform the given action with the left mouse button held down. The mouse\n is automatically released afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Commands",
           "name": "withMouseDown",
           "package": "webdriver",
@@ -7927,6 +8266,7 @@
         "index": {
           "description": "Perform the given action with the left mouse button held down The mouse is automatically released afterwards",
           "hierarchy": "Test WebDriver Commands",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Commands",
           "name": "withMouseDown",
           "normalized": "a b-\u003ea b",
@@ -7943,6 +8283,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA type for profile preferences. These preference values are used by both\n Firefox and Opera profiles.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Common.Profile",
           "name": "Profile",
           "package": "webdriver",
@@ -7952,6 +8293,7 @@
         "index": {
           "description": "type for profile preferences These preference values are used by both Firefox and Opera profiles",
           "hierarchy": "Test WebDriver Common Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Common.Profile",
           "name": "Profile",
           "package": "webdriver",
@@ -7966,6 +8308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a profile that has been prepared for\n network transmission. The profile cannot be modified in this form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Common.Profile",
           "name": "PreparedProfile",
           "package": "webdriver",
@@ -7975,6 +8318,7 @@
         "index": {
           "description": "Represents profile that has been prepared for network transmission The profile cannot be modified in this form",
           "hierarchy": "Test WebDriver Common Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Common.Profile",
           "name": "PreparedProfile",
           "package": "webdriver",
@@ -7989,6 +8333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis structure allows you to construct and manipulate profiles in pure code,\n deferring execution of IO operations until the profile is \"prepared\". This\n type is shared by both Firefox and Opera profiles; when a distinction\n must be made, the phantom type parameter is used to differentiate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Common.Profile",
           "name": "Profile",
           "package": "webdriver",
@@ -7998,6 +8343,7 @@
         "index": {
           "description": "This structure allows you to construct and manipulate profiles in pure code deferring execution of IO operations until the profile is prepared This type is shared by both Firefox and Opera profiles when distinction must be made the phantom type parameter is used to differentiate",
           "hierarchy": "Test WebDriver Common Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Common.Profile",
           "name": "Profile",
           "package": "webdriver",
@@ -8012,6 +8358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error occured while attempting to parse a profile's preference file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Common.Profile",
           "name": "ProfileParseError",
           "package": "webdriver",
@@ -8021,6 +8368,7 @@
         "index": {
           "description": "An error occured while attempting to parse profile preference file",
           "hierarchy": "Test WebDriver Common Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Common.Profile",
           "name": "ProfileParseError",
           "package": "webdriver",
@@ -8035,6 +8383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA profile preference value. This is the subset of JSON values that excludes\n arrays, objects, and null.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Common.Profile",
           "name": "ProfilePref",
           "package": "webdriver",
@@ -8044,6 +8393,7 @@
         "index": {
           "description": "profile preference value This is the subset of JSON values that excludes arrays objects and null",
           "hierarchy": "Test WebDriver Common Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Common.Profile",
           "name": "ProfilePref",
           "package": "webdriver",
@@ -8058,6 +8408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typeclass to convert types to profile preference values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Common.Profile",
           "name": "ToPref",
           "package": "webdriver",
@@ -8067,6 +8418,7 @@
         "index": {
           "description": "typeclass to convert types to profile preference values",
           "hierarchy": "Test WebDriver Common Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Common.Profile",
           "name": "ToPref",
           "package": "webdriver",
@@ -8172,6 +8524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Common.Profile",
           "name": "PreparedProfile",
           "package": "webdriver",
@@ -8181,6 +8534,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Common Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Common.Profile",
           "name": "PreparedProfile",
           "package": "webdriver",
@@ -8695,6 +9049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Common.Profile",
           "name": "toPref",
           "package": "webdriver",
@@ -8704,6 +9059,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Common Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Common.Profile",
           "name": "toPref",
           "normalized": "a-\u003eProfilePref",
@@ -8746,6 +9102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Exceptions",
           "name": "Exceptions",
           "package": "webdriver",
@@ -8754,6 +9111,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Exceptions",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Exceptions",
           "name": "Exceptions",
           "package": "webdriver",
@@ -8768,6 +9126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error occured when parsing a JSON value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Exceptions",
           "name": "BadJSON",
           "package": "webdriver",
@@ -8777,6 +9136,7 @@
         "index": {
           "description": "An error occured when parsing JSON value",
           "hierarchy": "Test WebDriver Exceptions",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Exceptions",
           "name": "BadJSON",
           "package": "webdriver",
@@ -8791,6 +9151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis exception encapsulates a broad variety of exceptions that can\n occur when a command fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Exceptions",
           "name": "FailedCommand",
           "package": "webdriver",
@@ -8800,6 +9161,7 @@
         "index": {
           "description": "This exception encapsulates broad variety of exceptions that can occur when command fails",
           "hierarchy": "Test WebDriver Exceptions",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Exceptions",
           "name": "FailedCommand",
           "package": "webdriver",
@@ -8814,6 +9176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetailed information about the failed command provided by the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Exceptions",
           "name": "FailedCommandInfo",
           "package": "webdriver",
@@ -8823,6 +9186,7 @@
         "index": {
           "description": "Detailed information about the failed command provided by the server",
           "hierarchy": "Test WebDriver Exceptions",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Exceptions",
           "name": "FailedCommandInfo",
           "package": "webdriver",
@@ -8837,6 +9201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of failed command exception that occured.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Exceptions",
           "name": "FailedCommandType",
           "package": "webdriver",
@@ -8846,6 +9211,7 @@
         "index": {
           "description": "The type of failed command exception that occured",
           "hierarchy": "Test WebDriver Exceptions",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Exceptions",
           "name": "FailedCommandType",
           "package": "webdriver",
@@ -8860,6 +9226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP connection errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Exceptions",
           "name": "HTTPConnError",
           "package": "webdriver",
@@ -8869,6 +9236,7 @@
         "index": {
           "description": "HTTP connection errors",
           "hierarchy": "Test WebDriver Exceptions",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Exceptions",
           "name": "HTTPConnError",
           "package": "webdriver",
@@ -8883,6 +9251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unexpected HTTP status was sent by the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Exceptions",
           "name": "HTTPStatusUnknown",
           "package": "webdriver",
@@ -8892,6 +9261,7 @@
         "index": {
           "description": "An unexpected HTTP status was sent by the server",
           "hierarchy": "Test WebDriver Exceptions",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Exceptions",
           "name": "HTTPStatusUnknown",
           "package": "webdriver",
@@ -8906,6 +9276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid URL was given\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Exceptions",
           "name": "InvalidURL",
           "package": "webdriver",
@@ -8915,6 +9286,7 @@
         "index": {
           "description": "An invalid URL was given",
           "hierarchy": "Test WebDriver Exceptions",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Exceptions",
           "name": "InvalidURL",
           "package": "webdriver",
@@ -8929,6 +9301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command requiring a session ID was attempted when no session ID was\n available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Exceptions",
           "name": "NoSessionId",
           "package": "webdriver",
@@ -8938,6 +9311,7 @@
         "index": {
           "description": "command requiring session ID was attempted when no session ID was available",
           "hierarchy": "Test WebDriver Exceptions",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Exceptions",
           "name": "NoSessionId",
           "package": "webdriver",
@@ -8952,6 +9326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA server-side exception occured\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Exceptions",
           "name": "ServerError",
           "package": "webdriver",
@@ -8961,6 +9336,7 @@
         "index": {
           "description": "server-side exception occured",
           "hierarchy": "Test WebDriver Exceptions",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Exceptions",
           "name": "ServerError",
           "package": "webdriver",
@@ -8975,6 +9351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn individual stack frame from the stack trace provided by the server\n during a FailedCommand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Exceptions",
           "name": "StackFrame",
           "package": "webdriver",
@@ -8984,6 +9361,7 @@
         "index": {
           "description": "An individual stack frame from the stack trace provided by the server during FailedCommand",
           "hierarchy": "Test WebDriver Exceptions",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Exceptions",
           "name": "StackFrame",
           "package": "webdriver",
@@ -8998,6 +9376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command was sent to the WebDriver server that it didn't recognize.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Exceptions",
           "name": "UnknownCommand",
           "package": "webdriver",
@@ -9007,6 +9386,7 @@
         "index": {
           "description": "command was sent to the WebDriver server that it didn recognize",
           "hierarchy": "Test WebDriver Exceptions",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Exceptions",
           "name": "UnknownCommand",
           "package": "webdriver",
@@ -10101,6 +10481,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for working with Firefox profiles. Firefox profiles are manipulated\n in pure code and then \"prepared\" for network transmission.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "Profile",
           "package": "webdriver",
@@ -10110,6 +10491,7 @@
         "index": {
           "description": "module for working with Firefox profiles Firefox profiles are manipulated in pure code and then prepared for network transmission",
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "Profile",
           "package": "webdriver",
@@ -10124,6 +10506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type used in the parameters of \u003ccode\u003e\u003ca\u003eProfile\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePreparedProfile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "Firefox",
           "package": "webdriver",
@@ -10133,6 +10516,7 @@
         "index": {
           "description": "Phantom type used in the parameters of Profile and PreparedProfile",
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "Firefox",
           "package": "webdriver",
@@ -10147,6 +10531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a profile that has been prepared for\n network transmission. The profile cannot be modified in this form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "PreparedProfile",
           "package": "webdriver",
@@ -10156,6 +10541,7 @@
         "index": {
           "description": "Represents profile that has been prepared for network transmission The profile cannot be modified in this form",
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "PreparedProfile",
           "package": "webdriver",
@@ -10170,6 +10556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis structure allows you to construct and manipulate profiles in pure code,\n deferring execution of IO operations until the profile is \"prepared\". This\n type is shared by both Firefox and Opera profiles; when a distinction\n must be made, the phantom type parameter is used to differentiate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "Profile",
           "package": "webdriver",
@@ -10179,6 +10566,7 @@
         "index": {
           "description": "This structure allows you to construct and manipulate profiles in pure code deferring execution of IO operations until the profile is prepared This type is shared by both Firefox and Opera profiles when distinction must be made the phantom type parameter is used to differentiate",
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "Profile",
           "package": "webdriver",
@@ -10193,6 +10581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error occured while attempting to parse a profile's preference file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "ProfileParseError",
           "package": "webdriver",
@@ -10202,6 +10591,7 @@
         "index": {
           "description": "An error occured while attempting to parse profile preference file",
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "ProfileParseError",
           "package": "webdriver",
@@ -10216,6 +10606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA profile preference value. This is the subset of JSON values that excludes\n arrays, objects, and null.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "ProfilePref",
           "package": "webdriver",
@@ -10225,6 +10616,7 @@
         "index": {
           "description": "profile preference value This is the subset of JSON values that excludes arrays objects and null",
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "ProfilePref",
           "package": "webdriver",
@@ -10239,6 +10631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typeclass to convert types to profile preference values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "ToPref",
           "package": "webdriver",
@@ -10248,6 +10641,7 @@
         "index": {
           "description": "typeclass to convert types to profile preference values",
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "ToPref",
           "package": "webdriver",
@@ -10262,6 +10656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault Firefox Profile, used when no profile is supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "defaultProfile",
           "package": "webdriver",
@@ -10272,6 +10667,7 @@
         "index": {
           "description": "Default Firefox Profile used when no profile is supplied",
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "defaultProfile",
           "package": "webdriver",
@@ -10286,6 +10682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad an existing profile from the file system. Any prepared changes made to\n the \u003ccode\u003e\u003ca\u003eProfile\u003c/a\u003e\u003c/code\u003e will have no effect to the profile on disk.\n\u003c/p\u003e\u003cp\u003eTo make automated browser run smoothly, preferences found in\n \u003ccode\u003e\u003ca\u003edefaultProfile\u003c/a\u003e\u003c/code\u003e are automatically merged into the preferences of the on-disk-- profile. The on-disk profile's preference will override those found in the\n default profile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "loadProfile",
           "package": "webdriver",
@@ -10296,6 +10693,7 @@
         "index": {
           "description": "Load an existing profile from the file system Any prepared changes made to the Profile will have no effect to the profile on disk To make automated browser run smoothly preferences found in defaultProfile are automatically merged into the preferences of the on-disk profile The on-disk profile preference will override those found in the default profile",
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "loadProfile",
           "normalized": "FilePath-\u003ea(Profile Firefox)",
@@ -10312,6 +10710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function to load an existing Firefox profile from disk, apply\n a handler function, and then prepare the result for network transmission.\n\u003c/p\u003e\u003cp\u003eNOTE: like \u003ccode\u003e\u003ca\u003eprepareProfile\u003c/a\u003e\u003c/code\u003e, the same caveat about large profiles applies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "prepareLoadedProfile",
           "package": "webdriver",
@@ -10322,6 +10721,7 @@
         "index": {
           "description": "Convenience function to load an existing Firefox profile from disk apply handler function and then prepare the result for network transmission NOTE like prepareProfile the same caveat about large profiles applies",
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "prepareLoadedProfile",
           "normalized": "FilePath-\u003e(Profile Firefox-\u003eProfile Firefox)-\u003ea(PreparedProfile Firefox)",
@@ -10338,6 +10738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare a firefox profile for network transmission.\n Internally, this function constructs a Firefox profile within a temp\n directory, archives it as a zip file, and then base64 encodes the zipped\n data. The temporary directory is deleted afterwards.\n\u003c/p\u003e\u003cp\u003eNOTE: because this function has to copy the profile files into a\n a temp directory before zip archiving them, this operation is likely to be slow\n for large profiles. In such a case, consider using \u003ccode\u003e\u003ca\u003eprepareLoadedProfile_\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eprepareZippedProfile\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "prepareProfile",
           "package": "webdriver",
@@ -10348,6 +10749,7 @@
         "index": {
           "description": "Prepare firefox profile for network transmission Internally this function constructs Firefox profile within temp directory archives it as zip file and then base64 encodes the zipped data The temporary directory is deleted afterwards NOTE because this function has to copy the profile files into temp directory before zip archiving them this operation is likely to be slow for large profiles In such case consider using prepareLoadedProfile or prepareZippedProfile instead",
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "prepareProfile",
           "normalized": "Profile Firefox-\u003ea(PreparedProfile Firefox)",
@@ -10364,6 +10766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function on a default profile, and\n prepare the result. The Profile passed to the handler function is\n the default profile used by sessions when Nothing is specified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "prepareTempProfile",
           "package": "webdriver",
@@ -10374,6 +10777,7 @@
         "index": {
           "description": "Apply function on default profile and prepare the result The Profile passed to the handler function is the default profile used by sessions when Nothing is specified",
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "prepareTempProfile",
           "normalized": "(Profile Firefox-\u003eProfile Firefox)-\u003ea(PreparedProfile Firefox)",
@@ -10389,6 +10793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "toPref",
           "package": "webdriver",
@@ -10398,6 +10803,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Firefox Profile",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Firefox.Profile",
           "name": "toPref",
           "normalized": "a-\u003eProfilePref",
@@ -10414,6 +10820,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA collection of convenience functions for using and parsing JSON values\n within \u003ccode\u003eWD\u003c/code\u003e. All monadic parse errors are converted to asynchronous\n \u003ccode\u003e\u003ca\u003eBadJSON\u003c/a\u003e\u003c/code\u003e exceptions.\n\u003c/p\u003e\u003cp\u003eThese functions are used internally to implement webdriver commands, and may\n be useful for implementing non-standard commands.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "JSON",
           "package": "webdriver",
@@ -10423,6 +10830,7 @@
         "index": {
           "description": "collection of convenience functions for using and parsing JSON values within WD All monadic parse errors are converted to asynchronous BadJSON exceptions These functions are used internally to implement webdriver commands and may be useful for implementing non-standard commands",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "JSON",
           "package": "webdriver",
@@ -10437,6 +10845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error occured when parsing a JSON value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "BadJSON",
           "package": "webdriver",
@@ -10446,6 +10855,7 @@
         "index": {
           "description": "An error occured when parsing JSON value",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "BadJSON",
           "package": "webdriver",
@@ -10460,6 +10870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type indicating that we expect no return value from the webdriver request.\n Its FromJSON instance parses successfully for any values that indicate lack of\n a return value (a notion that varies from server to server).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "NoReturn",
           "package": "webdriver",
@@ -10469,6 +10880,7 @@
         "index": {
           "description": "type indicating that we expect no return value from the webdriver request Its FromJSON instance parses successfully for any values that indicate lack of return value notion that varies from server to server",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "NoReturn",
           "package": "webdriver",
@@ -10483,6 +10895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis operator is a wrapper over Aeson's \u003ccode\u003e\u003ca\u003e.:\u003c/a\u003e\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "(!:)",
           "package": "webdriver",
@@ -10493,6 +10906,7 @@
         "index": {
           "description": "This operator is wrapper over Aeson operator",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "(!:) !:",
           "normalized": "Object-\u003eText-\u003ea b",
@@ -10507,6 +10921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "NoReturn",
           "package": "webdriver",
@@ -10516,6 +10931,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "NoReturn",
           "package": "webdriver",
@@ -10530,6 +10946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an Aeson parser result to \u003ccode\u003eWD\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "aesonResultToWD",
           "package": "webdriver",
@@ -10540,6 +10957,7 @@
         "index": {
           "description": "Convert an Aeson parser result to WD",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "aesonResultToWD",
           "normalized": "Result a-\u003eb a",
@@ -10556,6 +10974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an attoparsec parser result to \u003ccode\u003eWD\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "apResultToWD",
           "package": "webdriver",
@@ -10566,6 +10985,7 @@
         "index": {
           "description": "Convert an attoparsec parser result to WD",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "apResultToWD",
           "normalized": "Result Value-\u003ea b",
@@ -10582,6 +11002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a JSON \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e to an instance of \u003ccode\u003e\u003ca\u003eFromJSON\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "fromJSON'",
           "package": "webdriver",
@@ -10592,6 +11013,7 @@
         "index": {
           "description": "Convert JSON Value to an instance of FromJSON",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "fromJSON'",
           "normalized": "Value-\u003ea b",
@@ -10608,6 +11030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a 2-element JSON \u003ccode\u003e\u003ca\u003eobject\u003c/a\u003e\u003c/code\u003e from a pair of keys and a pair of\n values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "pair",
           "package": "webdriver",
@@ -10618,6 +11041,7 @@
         "index": {
           "description": "Construct element JSON object from pair of keys and pair of values",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "pair",
           "normalized": "(Text,Text)-\u003e(a,b)-\u003eValue",
@@ -10633,6 +11057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e as a top-level JSON \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e, then convert it to an\n instance of \u003ccode\u003e\u003ca\u003eFromJSON\u003c/a\u003e\u003c/code\u003e..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "parseJSON'",
           "package": "webdriver",
@@ -10643,6 +11068,7 @@
         "index": {
           "description": "Parse lazy ByteString as top-level JSON Value then convert it to an instance of FromJSON",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "parseJSON'",
           "normalized": "ByteString-\u003ea b",
@@ -10659,6 +11085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a JSON \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e as a pair. The first two string arguments specify the\n keys to extract from the object. The third string is the name of the\n calling function, for better error reporting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "parsePair",
           "package": "webdriver",
@@ -10669,6 +11096,7 @@
         "index": {
           "description": "Parse JSON Object as pair The first two string arguments specify the keys to extract from the object The third string is the name of the calling function for better error reporting",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "parsePair",
           "normalized": "String-\u003eString-\u003eString-\u003eValue-\u003ea(b,c)",
@@ -10685,6 +11113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a JSON Object as a triple. The first three string arguments\n specify the keys to extract from the object. The fourth string is the name\n of the calling function, for better error reporting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "parseTriple",
           "package": "webdriver",
@@ -10695,6 +11124,7 @@
         "index": {
           "description": "Parse JSON Object as triple The first three string arguments specify the keys to extract from the object The fourth string is the name of the calling function for better error reporting",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "parseTriple",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eValue-\u003ea(b,c,d)",
@@ -10711,6 +11141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a singleton JSON \u003ccode\u003e\u003ca\u003eobject\u003c/a\u003e\u003c/code\u003e from a key and value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "single",
           "package": "webdriver",
@@ -10721,6 +11152,7 @@
         "index": {
           "description": "Construct singleton JSON object from key and value",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "single",
           "normalized": "Text-\u003ea-\u003eValue",
@@ -10736,6 +11168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a 3-element JSON \u003ccode\u003e\u003ca\u003eobject\u003c/a\u003e\u003c/code\u003e from a triple of keys and a triple of\n values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.JSON",
           "name": "triple",
           "package": "webdriver",
@@ -10746,6 +11179,7 @@
         "index": {
           "description": "Construct element JSON object from triple of keys and triple of values",
           "hierarchy": "Test WebDriver JSON",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.JSON",
           "name": "triple",
           "normalized": "(Text,Text,Text)-\u003e(a,b,c)-\u003eValue",
@@ -10760,6 +11194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Monad",
           "name": "Monad",
           "package": "webdriver",
@@ -10768,6 +11203,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Monad",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Monad",
           "name": "Monad",
           "package": "webdriver",
@@ -10782,6 +11218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monadic interface to the WebDriver server. This monad is simply a\n    state monad transformer over \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e, threading session information between sequential webdriver commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Monad",
           "name": "WD",
           "package": "webdriver",
@@ -10791,6 +11228,7 @@
         "index": {
           "description": "monadic interface to the WebDriver server This monad is simply state monad transformer over IO threading session information between sequential webdriver commands",
           "hierarchy": "Test WebDriver Monad",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Monad",
           "name": "WD",
           "package": "webdriver",
@@ -10962,6 +11400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "Types",
           "package": "webdriver",
@@ -10970,6 +11409,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "Types",
           "package": "webdriver",
@@ -10983,6 +11423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "ApplicationCacheStatus",
           "package": "webdriver",
@@ -10991,6 +11432,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "ApplicationCacheStatus",
           "package": "webdriver",
@@ -11005,6 +11447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error occured when parsing a JSON value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "BadJSON",
           "package": "webdriver",
@@ -11014,6 +11457,7 @@
         "index": {
           "description": "An error occured when parsing JSON value",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "BadJSON",
           "package": "webdriver",
@@ -11028,6 +11472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis constructor simultaneously specifies which browser the session will\n use, while also providing browser-specific configuration. Default\n configuration is provided for each browser by \u003ccode\u003e\u003ca\u003efirefox\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003echrome\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eopera\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eie\u003c/a\u003e\u003c/code\u003e, etc.\n\u003c/p\u003e\u003cp\u003eThis library uses \u003ccode\u003e\u003ca\u003efirefox\u003c/a\u003e\u003c/code\u003e as its \u003ccode\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/code\u003e browser configuration, when no\n browser choice is specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "Browser",
           "package": "webdriver",
@@ -11037,6 +11482,7 @@
         "index": {
           "description": "This constructor simultaneously specifies which browser the session will use while also providing browser-specific configuration Default configuration is provided for each browser by firefox chrome opera ie etc This library uses firefox as its Default browser configuration when no browser choice is specified",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "Browser",
           "package": "webdriver",
@@ -11051,6 +11497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure describing the capabilities of a session. This record\nserves dual roles.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e It's used to specify the desired capabilities for a session before\nit's created. In this usage, fields that are set to Nothing indicate\nthat we have no preference for that capability.\n\u003c/li\u003e\u003cli\u003e When received from the server , it's used to\ndescribe the actual capabilities given to us by the WebDriver\nserver. Here a value of Nothing indicates that the server doesn't\nsupport the capability. Thus, for Maybe Bool fields, both Nothing and\nJust False indicate a lack of support for the desired capability.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "Capabilities",
           "package": "webdriver",
@@ -11060,6 +11507,7 @@
         "index": {
           "description": "structure describing the capabilities of session This record serves dual roles It used to specify the desired capabilities for session before it created In this usage fields that are set to Nothing indicate that we have no preference for that capability When received from the server it used to describe the actual capabilities given to us by the WebDriver server Here value of Nothing indicates that the server doesn support the capability Thus for Maybe Bool fields both Nothing and Just False indicate lack of support for the desired capability",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "Capabilities",
           "package": "webdriver",
@@ -11074,6 +11522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCookies are delicious delicacies. When sending cookies to the server, a value\n of Nothing indicates that the server should use a default value. When receiving\n cookies from the server, a value of Nothing indicates that the server is unable\n to specify the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "Cookie",
           "package": "webdriver",
@@ -11083,6 +11532,7 @@
         "index": {
           "description": "Cookies are delicious delicacies When sending cookies to the server value of Nothing indicates that the server should use default value When receiving cookies from the server value of Nothing indicates that the server is unable to specify the value",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "Cookie",
           "package": "webdriver",
@@ -11097,6 +11547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque identifier for a web page element. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "Element",
           "package": "webdriver",
@@ -11106,6 +11557,7 @@
         "index": {
           "description": "An opaque identifier for web page element",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "Element",
           "package": "webdriver",
@@ -11120,6 +11572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis exception encapsulates a broad variety of exceptions that can\n occur when a command fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "FailedCommand",
           "package": "webdriver",
@@ -11129,6 +11582,7 @@
         "index": {
           "description": "This exception encapsulates broad variety of exceptions that can occur when command fails",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "FailedCommand",
           "package": "webdriver",
@@ -11143,6 +11597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetailed information about the failed command provided by the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "FailedCommandInfo",
           "package": "webdriver",
@@ -11152,6 +11607,7 @@
         "index": {
           "description": "Detailed information about the failed command provided by the server",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "FailedCommandInfo",
           "package": "webdriver",
@@ -11166,6 +11622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of failed command exception that occured.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "FailedCommandType",
           "package": "webdriver",
@@ -11175,6 +11632,7 @@
         "index": {
           "description": "The type of failed command exception that occured",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "FailedCommandType",
           "package": "webdriver",
@@ -11189,6 +11647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the frame used by \u003ccode\u003e\u003ca\u003efocusFrame\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "FrameSelector",
           "package": "webdriver",
@@ -11198,6 +11657,7 @@
         "index": {
           "description": "Specifies the frame used by focusFrame",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "FrameSelector",
           "package": "webdriver",
@@ -11212,6 +11672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP connection errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "HTTPConnError",
           "package": "webdriver",
@@ -11221,6 +11682,7 @@
         "index": {
           "description": "HTTP connection errors",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "HTTPConnError",
           "package": "webdriver",
@@ -11235,6 +11697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unexpected HTTP status was sent by the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "HTTPStatusUnknown",
           "package": "webdriver",
@@ -11244,6 +11707,7 @@
         "index": {
           "description": "An unexpected HTTP status was sent by the server",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "HTTPStatusUnknown",
           "package": "webdriver",
@@ -11258,6 +11722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies how elements scroll into the viewport. (see \u003ccode\u003e\u003ca\u003eieElementScrollBehavior\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "IEElementScrollBehavior",
           "package": "webdriver",
@@ -11267,6 +11732,7 @@
         "index": {
           "description": "Specifies how elements scroll into the viewport see ieElementScrollBehavior",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "IEElementScrollBehavior",
           "package": "webdriver",
@@ -11281,6 +11747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogging levels for Internet Explorer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "IELogLevel",
           "package": "webdriver",
@@ -11290,6 +11757,7 @@
         "index": {
           "description": "Logging levels for Internet Explorer",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "IELogLevel",
           "package": "webdriver",
@@ -11304,6 +11772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid URL was given\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "InvalidURL",
           "package": "webdriver",
@@ -11313,6 +11782,7 @@
         "index": {
           "description": "An invalid URL was given",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "InvalidURL",
           "package": "webdriver",
@@ -11327,6 +11797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existential wrapper for any \u003ccode\u003e\u003ca\u003eToJSON\u003c/a\u003e\u003c/code\u003e instance. This allows us to pass\n parameters of many different types to Javascript code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "JSArg",
           "package": "webdriver",
@@ -11336,6 +11807,7 @@
         "index": {
           "description": "An existential wrapper for any ToJSON instance This allows us to pass parameters of many different types to Javascript code",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "JSArg",
           "package": "webdriver",
@@ -11350,6 +11822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA record that represents a single log entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "LogEntry",
           "package": "webdriver",
@@ -11359,6 +11832,7 @@
         "index": {
           "description": "record that represents single log entry",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "LogEntry",
           "package": "webdriver",
@@ -11373,6 +11847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates a log verbosity level. Used in \u003ccode\u003e\u003ca\u003eFirefox\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOpera\u003c/a\u003e\u003c/code\u003e configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "LogLevel",
           "package": "webdriver",
@@ -11382,6 +11857,7 @@
         "index": {
           "description": "Indicates log verbosity level Used in Firefox and Opera configuration",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "LogLevel",
           "package": "webdriver",
@@ -11395,6 +11871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "LogType",
           "package": "webdriver",
@@ -11403,6 +11880,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "LogType",
           "package": "webdriver",
@@ -11417,6 +11895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mouse button\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "MouseButton",
           "package": "webdriver",
@@ -11426,6 +11905,7 @@
         "index": {
           "description": "mouse button",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "MouseButton",
           "package": "webdriver",
@@ -11440,6 +11920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command requiring a session ID was attempted when no session ID was\n available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "NoSessionId",
           "package": "webdriver",
@@ -11449,6 +11930,7 @@
         "index": {
           "description": "command requiring session ID was attempted when no session ID was available",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "NoSessionId",
           "package": "webdriver",
@@ -11463,6 +11945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA screen orientation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "Orientation",
           "package": "webdriver",
@@ -11472,6 +11955,7 @@
         "index": {
           "description": "screen orientation",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "Orientation",
           "package": "webdriver",
@@ -11486,6 +11970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents platform options supported by WebDriver. The value Any represents\n no preference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "Platform",
           "package": "webdriver",
@@ -11495,6 +11980,7 @@
         "index": {
           "description": "Represents platform options supported by WebDriver The value Any represents no preference",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "Platform",
           "package": "webdriver",
@@ -11509,6 +11995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable settings for the proxy \u003ccode\u003e\u003ca\u003eCapabilities\u003c/a\u003e\u003c/code\u003e field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "ProxyType",
           "package": "webdriver",
@@ -11518,6 +12005,7 @@
         "index": {
           "description": "Available settings for the proxy Capabilities field",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "ProxyType",
           "package": "webdriver",
@@ -11532,6 +12020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies element(s) within a DOM tree using various selection methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "Selector",
           "package": "webdriver",
@@ -11541,6 +12030,7 @@
         "index": {
           "description": "Specifies element within DOM tree using various selection methods",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "Selector",
           "package": "webdriver",
@@ -11555,6 +12045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA server-side exception occured\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "ServerError",
           "package": "webdriver",
@@ -11564,6 +12055,7 @@
         "index": {
           "description": "server-side exception occured",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "ServerError",
           "package": "webdriver",
@@ -11578,6 +12070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque identifier for a WebDriver session. These handles are produced by\nthe server on session creation, and act to identify a session in progress. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "SessionId",
           "package": "webdriver",
@@ -11587,6 +12080,7 @@
         "index": {
           "description": "An opaque identifier for WebDriver session These handles are produced by the server on session creation and act to identify session in progress",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "SessionId",
           "package": "webdriver",
@@ -11601,6 +12095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn individual stack frame from the stack trace provided by the server\n during a FailedCommand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "StackFrame",
           "package": "webdriver",
@@ -11610,6 +12105,7 @@
         "index": {
           "description": "An individual stack frame from the stack trace provided by the server during FailedCommand",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "StackFrame",
           "package": "webdriver",
@@ -11623,6 +12119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "UnexpectedAlertBehavior",
           "package": "webdriver",
@@ -11631,6 +12128,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "UnexpectedAlertBehavior",
           "package": "webdriver",
@@ -11645,6 +12143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command was sent to the WebDriver server that it didn't recognize.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "UnknownCommand",
           "package": "webdriver",
@@ -11654,6 +12153,7 @@
         "index": {
           "description": "command was sent to the WebDriver server that it didn recognize",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "UnknownCommand",
           "package": "webdriver",
@@ -11668,6 +12168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monadic interface to the WebDriver server. This monad is simply a\n    state monad transformer over \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e, threading session information between sequential webdriver commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "WD",
           "package": "webdriver",
@@ -11677,6 +12178,7 @@
         "index": {
           "description": "monadic interface to the WebDriver server This monad is simply state monad transformer over IO threading session information between sequential webdriver commands",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "WD",
           "package": "webdriver",
@@ -11691,6 +12193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a WebDriver session. This structure is passed\nimplicitly through all \u003ccode\u003eWD\u003c/code\u003e computations, and is also used to configure the \u003ccode\u003eWD\u003c/code\u003e\nmonad before execution. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "WDSession",
           "package": "webdriver",
@@ -11700,6 +12203,7 @@
         "index": {
           "description": "Information about WebDriver session This structure is passed implicitly through all WD computations and is also used to configure the WD monad before execution",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "WDSession",
           "package": "webdriver",
@@ -11714,6 +12218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTML 5 storage type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "WebStorageType",
           "package": "webdriver",
@@ -11723,6 +12228,7 @@
         "index": {
           "description": "An HTML storage type",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "WebStorageType",
           "package": "webdriver",
@@ -11737,6 +12243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque identifier for a browser window \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Types",
           "name": "WindowHandle",
           "package": "webdriver",
@@ -11746,6 +12253,7 @@
         "index": {
           "description": "An opaque identifier for browser window",
           "hierarchy": "Test WebDriver Types",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Types",
           "name": "WindowHandle",
           "package": "webdriver",
@@ -11759,6 +12267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Utils",
           "name": "Utils",
           "package": "webdriver",
@@ -11767,6 +12276,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Utils",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Utils",
           "name": "Utils",
           "package": "webdriver",
@@ -11780,6 +12290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver.Utils",
           "name": "urlEncode",
           "package": "webdriver",
@@ -11789,6 +12300,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Utils",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver.Utils",
           "name": "urlEncode",
           "normalized": "Text-\u003eText",
@@ -11805,6 +12317,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module serves as the top-level interface to the Haskell WebDriver bindings,\nproviding most of the functionality you're likely to want.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver",
           "name": "WebDriver",
           "package": "webdriver",
@@ -11814,6 +12327,7 @@
         "index": {
           "description": "This module serves as the top-level interface to the Haskell WebDriver bindings providing most of the functionality you re likely to want",
           "hierarchy": "Test WebDriver",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver",
           "name": "WebDriver",
           "package": "webdriver",
@@ -11828,6 +12342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis constructor simultaneously specifies which browser the session will\n use, while also providing browser-specific configuration. Default\n configuration is provided for each browser by \u003ccode\u003e\u003ca\u003efirefox\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003echrome\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eopera\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eie\u003c/a\u003e\u003c/code\u003e, etc.\n\u003c/p\u003e\u003cp\u003eThis library uses \u003ccode\u003e\u003ca\u003efirefox\u003c/a\u003e\u003c/code\u003e as its \u003ccode\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/code\u003e browser configuration, when no\n browser choice is specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver",
           "name": "Browser",
           "package": "webdriver",
@@ -11837,6 +12352,7 @@
         "index": {
           "description": "This constructor simultaneously specifies which browser the session will use while also providing browser-specific configuration Default configuration is provided for each browser by firefox chrome opera ie etc This library uses firefox as its Default browser configuration when no browser choice is specified",
           "hierarchy": "Test WebDriver",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver",
           "name": "Browser",
           "package": "webdriver",
@@ -11851,6 +12367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure describing the capabilities of a session. This record\nserves dual roles.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e It's used to specify the desired capabilities for a session before\nit's created. In this usage, fields that are set to Nothing indicate\nthat we have no preference for that capability.\n\u003c/li\u003e\u003cli\u003e When received from the server , it's used to\ndescribe the actual capabilities given to us by the WebDriver\nserver. Here a value of Nothing indicates that the server doesn't\nsupport the capability. Thus, for Maybe Bool fields, both Nothing and\nJust False indicate a lack of support for the desired capability.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver",
           "name": "Capabilities",
           "package": "webdriver",
@@ -11860,6 +12377,7 @@
         "index": {
           "description": "structure describing the capabilities of session This record serves dual roles It used to specify the desired capabilities for session before it created In this usage fields that are set to Nothing indicate that we have no preference for that capability When received from the server it used to describe the actual capabilities given to us by the WebDriver server Here value of Nothing indicates that the server doesn support the capability Thus for Maybe Bool fields both Nothing and Just False indicate lack of support for the desired capability",
           "hierarchy": "Test WebDriver",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver",
           "name": "Capabilities",
           "package": "webdriver",
@@ -11874,6 +12392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates a log verbosity level. Used in \u003ccode\u003e\u003ca\u003eFirefox\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOpera\u003c/a\u003e\u003c/code\u003e configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver",
           "name": "LogLevel",
           "package": "webdriver",
@@ -11883,6 +12402,7 @@
         "index": {
           "description": "Indicates log verbosity level Used in Firefox and Opera configuration",
           "hierarchy": "Test WebDriver",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver",
           "name": "LogLevel",
           "package": "webdriver",
@@ -11897,6 +12417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents platform options supported by WebDriver. The value Any represents\n no preference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver",
           "name": "Platform",
           "package": "webdriver",
@@ -11906,6 +12427,7 @@
         "index": {
           "description": "Represents platform options supported by WebDriver The value Any represents no preference",
           "hierarchy": "Test WebDriver",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver",
           "name": "Platform",
           "package": "webdriver",
@@ -11920,6 +12442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable settings for the proxy \u003ccode\u003e\u003ca\u003eCapabilities\u003c/a\u003e\u003c/code\u003e field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver",
           "name": "ProxyType",
           "package": "webdriver",
@@ -11929,6 +12452,7 @@
         "index": {
           "description": "Available settings for the proxy Capabilities field",
           "hierarchy": "Test WebDriver",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver",
           "name": "ProxyType",
           "package": "webdriver",
@@ -11943,6 +12467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque identifier for a WebDriver session. These handles are produced by\nthe server on session creation, and act to identify a session in progress. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver",
           "name": "SessionId",
           "package": "webdriver",
@@ -11952,6 +12477,7 @@
         "index": {
           "description": "An opaque identifier for WebDriver session These handles are produced by the server on session creation and act to identify session in progress",
           "hierarchy": "Test WebDriver",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver",
           "name": "SessionId",
           "package": "webdriver",
@@ -11966,6 +12492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monadic interface to the WebDriver server. This monad is simply a\n    state monad transformer over \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e, threading session information between sequential webdriver commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver",
           "name": "WD",
           "package": "webdriver",
@@ -11975,6 +12502,7 @@
         "index": {
           "description": "monadic interface to the WebDriver server This monad is simply state monad transformer over IO threading session information between sequential webdriver commands",
           "hierarchy": "Test WebDriver",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver",
           "name": "WD",
           "package": "webdriver",
@@ -11989,6 +12517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a WebDriver session. This structure is passed\nimplicitly through all \u003ccode\u003eWD\u003c/code\u003e computations, and is also used to configure the \u003ccode\u003eWD\u003c/code\u003e\nmonad before execution. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:10 UTC 2014",
           "module": "Test.WebDriver",
           "name": "WDSession",
           "package": "webdriver",
@@ -11998,6 +12527,7 @@
         "index": {
           "description": "Information about WebDriver session This structure is passed implicitly through all WD computations and is also used to configure the WD monad before execution",
           "hierarchy": "Test WebDriver",
+          "indexed": "2014-03-11T20:38:10",
           "module": "Test.WebDriver",
           "name": "WDSession",
           "package": "webdriver",

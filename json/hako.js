@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hako"
+        "phrase": "hako",
+        "type": "phrase"
       },
       "type": "context"
     }

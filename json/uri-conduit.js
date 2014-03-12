@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uri-conduit"
+        "phrase": "uri-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit.File",
           "name": "File",
           "package": "uri-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit File",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit.File",
           "name": "File",
           "package": "uri-conduit",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a string, such as a command-line argument, into a URI. First\n tries to parse as an absolute URI. If this fails, it interprets as a\n relative or absolute filepath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit.File",
           "name": "decodeString",
           "package": "uri-conduit",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Converts string such as command-line argument into URI First tries to parse as an absolute URI If this fails it interprets as relative or absolute filepath",
           "hierarchy": "Network URI Conduit File",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit.File",
           "name": "decodeString",
           "normalized": "String-\u003eIO URI",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit.File",
           "name": "fileScheme",
           "package": "uri-conduit",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit File",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit.File",
           "name": "fileScheme",
           "package": "uri-conduit",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit.File",
           "name": "toFilePath",
           "package": "uri-conduit",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit File",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit.File",
           "name": "toFilePath",
           "normalized": "URI-\u003eFilePath",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "Conduit",
           "package": "uri-conduit",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "Conduit",
           "package": "uri-conduit",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "Scheme",
           "package": "uri-conduit",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "Scheme",
           "package": "uri-conduit",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "SchemeMap",
           "package": "uri-conduit",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "SchemeMap",
           "package": "uri-conduit",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "URI",
           "package": "uri-conduit",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "URI",
           "package": "uri-conduit",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "URIAuth",
           "package": "uri-conduit",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "URIAuth",
           "package": "uri-conduit",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "URIException",
           "package": "uri-conduit",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "URIException",
           "package": "uri-conduit",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "InvalidRelativeReference",
           "package": "uri-conduit",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "InvalidRelativeReference",
           "package": "uri-conduit",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "InvalidURI",
           "package": "uri-conduit",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "InvalidURI",
           "package": "uri-conduit",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "Scheme",
           "package": "uri-conduit",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "Scheme",
           "package": "uri-conduit",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "URI",
           "package": "uri-conduit",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "URI",
           "package": "uri-conduit",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "URIAuth",
           "package": "uri-conduit",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "URIAuth",
           "package": "uri-conduit",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "UnknownReadScheme",
           "package": "uri-conduit",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "UnknownReadScheme",
           "package": "uri-conduit",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "UnknownWriteScheme",
           "package": "uri-conduit",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "UnknownWriteScheme",
           "package": "uri-conduit",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "copyURI",
           "package": "uri-conduit",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "copyURI",
           "normalized": "SchemeMap-\u003eURI-\u003eURI-\u003ea()",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "fromNetworkURI",
           "package": "uri-conduit",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "fromNetworkURI",
           "normalized": "URI-\u003eURI",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "hasExtension",
           "package": "uri-conduit",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "hasExtension",
           "normalized": "URI-\u003eText-\u003eBool",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "nullURI",
           "package": "uri-conduit",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "nullURI",
           "package": "uri-conduit",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "parseRelativeReference",
           "package": "uri-conduit",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "parseRelativeReference",
           "normalized": "Text-\u003ea URI",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "parseURI",
           "package": "uri-conduit",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "parseURI",
           "normalized": "Text-\u003ea URI",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "parseURIReference",
           "package": "uri-conduit",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "parseURIReference",
           "normalized": "Text-\u003ea URI",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "readURI",
           "package": "uri-conduit",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "readURI",
           "normalized": "SchemeMap-\u003eURI-\u003eProducer a ByteString",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "relativeTo",
           "package": "uri-conduit",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "relativeTo",
           "normalized": "URI-\u003eURI-\u003eMaybe URI",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "schemeNames",
           "package": "uri-conduit",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "schemeNames",
           "package": "uri-conduit",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "schemeReader",
           "package": "uri-conduit",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "schemeReader",
           "normalized": "Maybe(URI-\u003eConduit a b ByteString)",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "schemeWriter",
           "package": "uri-conduit",
@@ -660,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "schemeWriter",
           "normalized": "Maybe(URI-\u003eConduit ByteString a b)",
@@ -675,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "toNetworkURI",
           "package": "uri-conduit",
@@ -684,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "toNetworkURI",
           "normalized": "URI-\u003eURI",
@@ -699,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "toSchemeMap",
           "package": "uri-conduit",
@@ -708,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "toSchemeMap",
           "normalized": "[Scheme]-\u003eSchemeMap",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "uriAuthority",
           "package": "uri-conduit",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "uriAuthority",
           "package": "uri-conduit",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "uriFragment",
           "package": "uri-conduit",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "uriFragment",
           "package": "uri-conduit",
@@ -767,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "uriPath",
           "package": "uri-conduit",
@@ -776,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "uriPath",
           "package": "uri-conduit",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "uriPort",
           "package": "uri-conduit",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "uriPort",
           "package": "uri-conduit",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "uriQuery",
           "package": "uri-conduit",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "uriQuery",
           "package": "uri-conduit",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "uriRegName",
           "package": "uri-conduit",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "uriRegName",
           "package": "uri-conduit",
@@ -855,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "uriScheme",
           "package": "uri-conduit",
@@ -864,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "uriScheme",
           "package": "uri-conduit",
@@ -877,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "uriUserInfo",
           "package": "uri-conduit",
@@ -886,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "uriUserInfo",
           "package": "uri-conduit",
@@ -899,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:31 UTC 2014",
           "module": "Network.URI.Conduit",
           "name": "writeURI",
           "package": "uri-conduit",
@@ -908,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Network URI Conduit",
+          "indexed": "2014-03-11T20:31:31",
           "module": "Network.URI.Conduit",
           "name": "writeURI",
           "normalized": "SchemeMap-\u003eURI-\u003eConsumer ByteString a()",

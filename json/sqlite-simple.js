@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sqlite-simple"
+        "phrase": "sqlite-simple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFromField\u003c/a\u003e\u003c/code\u003e typeclass, for converting a single value in a row\n returned by a SQL query into a more useful Haskell representation.\n\u003c/p\u003e\u003cp\u003eA Haskell numeric type is considered to be compatible with all\n SQLite numeric types that are less accurate than it. For instance,\n the Haskell \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e type is compatible with the SQLite's 32-bit\n \u003ccode\u003eInt\u003c/code\u003e type because it can represent a \u003ccode\u003eInt\u003c/code\u003e exactly. On the other hand,\n since a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e might lose precision if representing a 64-bit \u003ccode\u003eBigInt\u003c/code\u003e,\n the two are \u003cem\u003enot\u003c/em\u003e considered compatible.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "FromField",
           "package": "sqlite-simple",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The FromField typeclass for converting single value in row returned by SQL query into more useful Haskell representation Haskell numeric type is considered to be compatible with all SQLite numeric types that are less accurate than it For instance the Haskell Double type is compatible with the SQLite bit Int type because it can represent Int exactly On the other hand since Double might lose precision if representing bit BigInt the two are not considered compatible",
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "FromField",
           "package": "sqlite-simple",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Field represents metadata about a particular field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "Field",
           "package": "sqlite-simple",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Field represents metadata about particular field",
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "Field",
           "package": "sqlite-simple",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "FieldParser",
           "package": "sqlite-simple",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "FieldParser",
           "package": "sqlite-simple",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that may be converted from a SQL type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "FromField",
           "package": "sqlite-simple",
@@ -95,6 +102,7 @@
         "index": {
           "description": "type that may be converted from SQL type",
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "FromField",
           "package": "sqlite-simple",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown if conversion from a SQL value to a Haskell\n value fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "ResultError",
           "package": "sqlite-simple",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Exception thrown if conversion from SQL value to Haskell value fails",
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "ResultError",
           "package": "sqlite-simple",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SQL value could not be parsed, or could not\n be represented as a valid Haskell value, or an\n unexpected low-level error occurred (e.g. mismatch\n between metadata and actual data in a row).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "ConversionFailed",
           "package": "sqlite-simple",
@@ -142,6 +153,7 @@
         "index": {
           "description": "The SQL value could not be parsed or could not be represented as valid Haskell value or an unexpected low-level error occurred e.g mismatch between metadata and actual data in row",
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "ConversionFailed",
           "package": "sqlite-simple",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SQL and Haskell types are not compatible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "Incompatible",
           "package": "sqlite-simple",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The SQL and Haskell types are not compatible",
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "Incompatible",
           "package": "sqlite-simple",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SQL \u003ccode\u003eNULL\u003c/code\u003e was encountered when the Haskell\n type did not permit it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "UnexpectedNull",
           "package": "sqlite-simple",
@@ -190,6 +205,7 @@
         "index": {
           "description": "SQL NULL was encountered when the Haskell type did not permit it",
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "UnexpectedNull",
           "package": "sqlite-simple",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "errHaskellType",
           "package": "sqlite-simple",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "errHaskellType",
           "package": "sqlite-simple",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "errMessage",
           "package": "sqlite-simple",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "errMessage",
           "package": "sqlite-simple",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "errSQLType",
           "package": "sqlite-simple",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "errSQLType",
           "package": "sqlite-simple",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the actual SQL data for a database field.  This allows\n user-defined \u003ccode\u003e\u003ca\u003eFromField\u003c/a\u003e\u003c/code\u003e instances to access the SQL data\n associated with a field being parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "fieldData",
           "package": "sqlite-simple",
@@ -280,6 +303,7 @@
         "index": {
           "description": "Return the actual SQL data for database field This allows user-defined FromField instances to access the SQL data associated with field being parsed",
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "fieldData",
           "normalized": "Field-\u003eSQLData",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a SQL value to a Haskell value.\n\u003c/p\u003e\u003cp\u003eReturns a list of exceptions if the conversion fails.  In the case of\n library instances,  this will usually be a single \u003ccode\u003e\u003ca\u003eResultError\u003c/a\u003e\u003c/code\u003e,  but\n may be a \u003ccode\u003eUnicodeException\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eImplementations of \u003ccode\u003e\u003ca\u003efromField\u003c/a\u003e\u003c/code\u003e should not retain any references to\n the \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e nor the \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e arguments after the result has\n been evaluated to WHNF.  Such a reference causes the entire\n \u003ccode\u003eLibPQ.\u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e to be retained.\n\u003c/p\u003e\u003cp\u003eFor example,  the instance for \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e uses \u003ccode\u003e\u003ca\u003ecopy\u003c/a\u003e\u003c/code\u003e to avoid\n such a reference,  and that using bytestring functions such as \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e alone will also trigger this memory leak.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "fromField",
           "package": "sqlite-simple",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Convert SQL value to Haskell value Returns list of exceptions if the conversion fails In the case of library instances this will usually be single ResultError but may be UnicodeException Implementations of fromField should not retain any references to the Field nor the ByteString arguments after the result has been evaluated to WHNF Such reference causes the entire LibPQ Result to be retained For example the instance for ByteString uses copy to avoid such reference and that using bytestring functions such as drop and takeWhile alone will also trigger this memory leak",
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "fromField",
           "package": "sqlite-simple",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven one of the constructors from \u003ccode\u003e\u003ca\u003eResultError\u003c/a\u003e\u003c/code\u003e,  the field,\n   and an \u003ccode\u003e\u003ca\u003eerrMessage\u003c/a\u003e\u003c/code\u003e,  this fills in the other fields in the\n   exception value and returns it in a 'Left . SomeException'\n   constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromField",
           "name": "returnError",
           "package": "sqlite-simple",
@@ -330,6 +357,7 @@
         "index": {
           "description": "Given one of the constructors from ResultError the field and an errMessage this fills in the other fields in the exception value and returns it in Left SomeException constructor",
           "hierarchy": "Database SQLite Simple FromField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromField",
           "name": "returnError",
           "normalized": "(String-\u003eString-\u003eString-\u003ea)-\u003eField-\u003eString-\u003eOk b",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFromRow\u003c/a\u003e\u003c/code\u003e typeclass, for converting a row of results\n returned by a SQL query into a more useful Haskell representation.\n\u003c/p\u003e\u003cp\u003ePredefined instances are provided for tuples containing up to ten\n elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromRow",
           "name": "FromRow",
           "package": "sqlite-simple",
@@ -355,6 +384,7 @@
         "index": {
           "description": "The FromRow typeclass for converting row of results returned by SQL query into more useful Haskell representation Predefined instances are provided for tuples containing up to ten elements",
           "hierarchy": "Database SQLite Simple FromRow",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromRow",
           "name": "FromRow",
           "package": "sqlite-simple",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection type that can be converted from a sequence of fields.\n Instances are provided for tuples up to 10 elements and lists of any length.\n\u003c/p\u003e\u003cp\u003eNote that instances can defined outside of sqlite-simple,  which is\n often useful.   For example, here's an instance for a user-defined pair:\n\u003c/p\u003e\u003cpre\u003edata User = User { name :: String, fileQuota :: Int }\n\ninstance \u003ccode\u003e\u003ca\u003eFromRow\u003c/a\u003e\u003c/code\u003e User where\n     fromRow = User \u003c$\u003e \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e \u003c*\u003e \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eThe number of calls to \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e must match the number of fields returned\n in a single row of the query result.  Otherwise,  a \u003ccode\u003e\u003ca\u003eConversionFailed\u003c/a\u003e\u003c/code\u003e\n exception will be thrown.\n\u003c/p\u003e\u003cp\u003eNote the caveats associated with user-defined implementations of\n \u003ccode\u003e\u003ca\u003efromRow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromRow",
           "name": "FromRow",
           "package": "sqlite-simple",
@@ -378,6 +409,7 @@
         "index": {
           "description": "collection type that can be converted from sequence of fields Instances are provided for tuples up to elements and lists of any length Note that instances can defined outside of sqlite-simple which is often useful For example here an instance for user-defined pair data User User name String fileQuota Int instance FromRow User where fromRow User field field The number of calls to field must match the number of fields returned in single row of the query result Otherwise ConversionFailed exception will be thrown Note the caveats associated with user-defined implementations of fromRow",
           "hierarchy": "Database SQLite Simple FromRow",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromRow",
           "name": "FromRow",
           "package": "sqlite-simple",
@@ -391,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromRow",
           "name": "RowParser",
           "package": "sqlite-simple",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple FromRow",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromRow",
           "name": "RowParser",
           "package": "sqlite-simple",
@@ -434,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromRow",
           "name": "fieldWith",
           "package": "sqlite-simple",
@@ -443,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple FromRow",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromRow",
           "name": "fieldWith",
           "normalized": "FieldParser a-\u003eRowParser a",
@@ -458,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromRow",
           "name": "fromRow",
           "package": "sqlite-simple",
@@ -467,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple FromRow",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromRow",
           "name": "fromRow",
           "package": "sqlite-simple",
@@ -480,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.FromRow",
           "name": "numFieldsRemaining",
           "package": "sqlite-simple",
@@ -489,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple FromRow",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.FromRow",
           "name": "numFieldsRemaining",
           "package": "sqlite-simple",
@@ -503,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal bits.  This interface is less stable and can change at any time.\n In particular this means that while the rest of the sqlite-simple\n package endeavors to follow the package versioning policy,  this module\n does not.  Also, at the moment there are things in here that aren't\n particularly internal and are exported elsewhere;  these will eventually\n disappear from this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "Internal",
           "package": "sqlite-simple",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Internal bits This interface is less stable and can change at any time In particular this means that while the rest of the sqlite-simple package endeavors to follow the package versioning policy this module does not Also at the moment there are things in here that aren particularly internal and are exported elsewhere these will eventually disappear from this module",
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "Internal",
           "package": "sqlite-simple",
@@ -525,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "ColumnOutOfBounds",
           "package": "sqlite-simple",
@@ -533,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "ColumnOutOfBounds",
           "package": "sqlite-simple",
@@ -547,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection to an open database.\n\u003c/p\u003e\u003cp\u003eYou can use \u003ccode\u003e\u003ca\u003econnectionHandle\u003c/a\u003e\u003c/code\u003e to gain access to the underlying\n \u003ca\u003ehttp://hackage.haskell.org/package/direct-sqlite\u003c/a\u003e connection.\n This may be useful if you need to access some direct-sqlite\n functionality that's not exposed in the sqlite-simple API.  This\n should be a safe thing to do although mixing both APIs is\n discouraged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "Connection",
           "package": "sqlite-simple",
@@ -556,6 +601,7 @@
         "index": {
           "description": "Connection to an open database You can use connectionHandle to gain access to the underlying http hackage.haskell.org package direct-sqlite connection This may be useful if you need to access some direct-sqlite functionality that not exposed in the sqlite-simple API This should be safe thing to do although mixing both APIs is discouraged",
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "Connection",
           "package": "sqlite-simple",
@@ -570,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Field represents metadata about a particular field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "Field",
           "package": "sqlite-simple",
@@ -579,6 +626,7 @@
         "index": {
           "description": "Field represents metadata about particular field",
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "Field",
           "package": "sqlite-simple",
@@ -592,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "RowParseRO",
           "package": "sqlite-simple",
@@ -600,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "RowParseRO",
           "package": "sqlite-simple",
@@ -613,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "RowParser",
           "package": "sqlite-simple",
@@ -621,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "RowParser",
           "package": "sqlite-simple",
@@ -634,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "ColumnOutOfBounds",
           "package": "sqlite-simple",
@@ -643,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "ColumnOutOfBounds",
           "package": "sqlite-simple",
@@ -679,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "Field",
           "package": "sqlite-simple",
@@ -688,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "Field",
           "package": "sqlite-simple",
@@ -701,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "RP",
           "package": "sqlite-simple",
@@ -710,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "RP",
           "package": "sqlite-simple",
@@ -723,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "RowParseRO",
           "package": "sqlite-simple",
@@ -732,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "RowParseRO",
           "package": "sqlite-simple",
@@ -745,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "column",
           "package": "sqlite-simple",
@@ -754,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "column",
           "package": "sqlite-simple",
@@ -789,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "errorColumnIndex",
           "package": "sqlite-simple",
@@ -798,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "errorColumnIndex",
           "package": "sqlite-simple",
@@ -811,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "gettypename",
           "package": "sqlite-simple",
@@ -820,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "gettypename",
           "normalized": "SQLData-\u003eByteString",
@@ -834,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "nColumns",
           "package": "sqlite-simple",
@@ -843,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "nColumns",
           "package": "sqlite-simple",
@@ -856,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "result",
           "package": "sqlite-simple",
@@ -865,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "result",
           "package": "sqlite-simple",
@@ -877,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Internal",
           "name": "unRP",
           "package": "sqlite-simple",
@@ -886,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Internal",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Internal",
           "name": "unRP",
           "normalized": "ReaderT RowParseRO(StateT(Int,[SQLData])Ok)a",
@@ -902,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eOk\u003c/a\u003e\u003c/code\u003e type is a simple error handler,  basically equivalent to\n \u003ccode\u003eEither [SomeException]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eOne of the primary reasons why this type  was introduced is that\n \u003ccode\u003eEither SomeException\u003c/code\u003e had not been provided an instance for \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e,\n and it would have been a bad idea to provide an orphaned instance for a\n commonly-used type and typeclass included in \u003ccode\u003ebase\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExtending the failure case to a list of \u003ccode\u003e\u003ca\u003eSomeException\u003c/a\u003e\u003c/code\u003es enables a\n more sensible \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance definitions:   \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e concatinates\n the list of exceptions when both cases fail,  and \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e is defined as\n 'Errors []'.   Though \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e one could pick one of two exceptions, and\n throw away the other,  and have \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e provide a generic exception,\n this avoids cases where \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e overrides a more informative exception\n and allows you to see all the different ways your computation has failed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Ok",
           "name": "Ok",
           "package": "sqlite-simple",
@@ -911,6 +984,7 @@
         "index": {
           "description": "The Ok type is simple error handler basically equivalent to Either SomeException One of the primary reasons why this type was introduced is that Either SomeException had not been provided an instance for Alternative and it would have been bad idea to provide an orphaned instance for commonly-used type and typeclass included in base Extending the failure case to list of SomeException enables more sensible Alternative instance definitions concatinates the list of exceptions when both cases fail and empty is defined as Errors Though one could pick one of two exceptions and throw away the other and have empty provide generic exception this avoids cases where empty overrides more informative exception and allows you to see all the different ways your computation has failed",
           "hierarchy": "Database SQLite Simple Ok",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Ok",
           "name": "Ok",
           "package": "sqlite-simple",
@@ -925,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea way to reify a list of exceptions into a single exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Ok",
           "name": "ManyErrors",
           "package": "sqlite-simple",
@@ -934,6 +1009,7 @@
         "index": {
           "description": "way to reify list of exceptions into single exception",
           "hierarchy": "Database SQLite Simple Ok",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Ok",
           "name": "ManyErrors",
           "package": "sqlite-simple",
@@ -947,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Ok",
           "name": "Ok",
           "package": "sqlite-simple",
@@ -955,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Ok",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Ok",
           "name": "Ok",
           "package": "sqlite-simple",
@@ -968,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Ok",
           "name": "Errors",
           "package": "sqlite-simple",
@@ -977,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Ok",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Ok",
           "name": "Errors",
           "normalized": "Errors[SomeException]",
@@ -992,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Ok",
           "name": "ManyErrors",
           "package": "sqlite-simple",
@@ -1001,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Ok",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Ok",
           "name": "ManyErrors",
           "normalized": "ManyErrors[SomeException]",
@@ -1016,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Ok",
           "name": "Ok",
           "package": "sqlite-simple",
@@ -1025,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Ok",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Ok",
           "name": "Ok",
           "package": "sqlite-simple",
@@ -1039,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdapted from Leon P Smith's code for SQLite.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://sqlite.org/lang_datefunc.html\u003c/a\u003e for date formats used in SQLite.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "Implementation",
           "package": "sqlite-simple",
@@ -1048,6 +1133,7 @@
         "index": {
           "description": "Adapted from Leon Smith code for SQLite See http sqlite.org lang datefunc.html for date formats used in SQLite",
           "hierarchy": "Database SQLite Simple Time Implementation",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "Implementation",
           "package": "sqlite-simple",
@@ -1061,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "dayToBuilder",
           "package": "sqlite-simple",
@@ -1070,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Time Implementation",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "dayToBuilder",
           "normalized": "Day-\u003eBuilder",
@@ -1085,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "parseDay",
           "package": "sqlite-simple",
@@ -1094,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Time Implementation",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "parseDay",
           "normalized": "Text-\u003eEither String Day",
@@ -1109,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "parseUTCTime",
           "package": "sqlite-simple",
@@ -1118,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Time Implementation",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "parseUTCTime",
           "normalized": "Text-\u003eEither String UTCTime",
@@ -1133,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "timeOfDayToBuilder",
           "package": "sqlite-simple",
@@ -1142,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Time Implementation",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "timeOfDayToBuilder",
           "normalized": "TimeOfDay-\u003eBuilder",
@@ -1157,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "timeZoneToBuilder",
           "package": "sqlite-simple",
@@ -1166,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Time Implementation",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "timeZoneToBuilder",
           "normalized": "TimeZone-\u003eBuilder",
@@ -1182,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput YYYY-MM-DD HH:MM:SS with an optional .SSS fraction part.\n Explicit timezone attribute is not appended as per SQLite3's\n datetime conventions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "utcTimeToBuilder",
           "package": "sqlite-simple",
@@ -1192,6 +1289,7 @@
         "index": {
           "description": "Output YYYY-MM-DD HH MM SS with an optional SSS fraction part Explicit timezone attribute is not appended as per SQLite3 datetime conventions",
           "hierarchy": "Database SQLite Simple Time Implementation",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Time.Implementation",
           "name": "utcTimeToBuilder",
           "normalized": "UTCTime-\u003eBuilder",
@@ -1208,6 +1306,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversions to/from Haskell \u003ccode\u003eUTCTime\u003c/code\u003e and \u003ccode\u003eDay\u003c/code\u003e types for SQLite3.\n Offers better performance than direct use of time package's\n 'read'/'show' functionality.\n\u003c/p\u003e\u003cp\u003eThe parsers are heavily adapted for the specific variant of ISO 8601 that\n SQLite uses,  and the printers attempt to duplicate this syntax.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Time",
           "name": "Time",
           "package": "sqlite-simple",
@@ -1217,6 +1316,7 @@
         "index": {
           "description": "Conversions to from Haskell UTCTime and Day types for SQLite3 Offers better performance than direct use of time package read show functionality The parsers are heavily adapted for the specific variant of ISO that SQLite uses and the printers attempt to duplicate this syntax",
           "hierarchy": "Database SQLite Simple Time",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Time",
           "name": "Time",
           "package": "sqlite-simple",
@@ -1231,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eToField\u003c/a\u003e\u003c/code\u003e typeclass, for rendering a parameter to an SQLite\n value to be bound as a SQL query parameter.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.ToField",
           "name": "ToField",
           "package": "sqlite-simple",
@@ -1240,6 +1341,7 @@
         "index": {
           "description": "The ToField typeclass for rendering parameter to an SQLite value to be bound as SQL query parameter",
           "hierarchy": "Database SQLite Simple ToField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.ToField",
           "name": "ToField",
           "package": "sqlite-simple",
@@ -1254,6 +1356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that may be used as a single parameter to a SQL query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.ToField",
           "name": "ToField",
           "package": "sqlite-simple",
@@ -1263,6 +1366,7 @@
         "index": {
           "description": "type that may be used as single parameter to SQL query",
           "hierarchy": "Database SQLite Simple ToField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.ToField",
           "name": "ToField",
           "package": "sqlite-simple",
@@ -1277,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare a value for substitution into a query string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.ToField",
           "name": "toField",
           "package": "sqlite-simple",
@@ -1287,6 +1392,7 @@
         "index": {
           "description": "Prepare value for substitution into query string",
           "hierarchy": "Database SQLite Simple ToField",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.ToField",
           "name": "toField",
           "normalized": "a-\u003eSQLData",
@@ -1303,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eToRow\u003c/a\u003e\u003c/code\u003e typeclass, for rendering a collection of\n parameters to a SQL query.\n\u003c/p\u003e\u003cp\u003ePredefined instances are provided for tuples containing up to ten\n elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.ToRow",
           "name": "ToRow",
           "package": "sqlite-simple",
@@ -1312,6 +1419,7 @@
         "index": {
           "description": "The ToRow typeclass for rendering collection of parameters to SQL query Predefined instances are provided for tuples containing up to ten elements",
           "hierarchy": "Database SQLite Simple ToRow",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.ToRow",
           "name": "ToRow",
           "package": "sqlite-simple",
@@ -1326,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection type that can be turned into a list of SQLData\n elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.ToRow",
           "name": "ToRow",
           "package": "sqlite-simple",
@@ -1335,6 +1444,7 @@
         "index": {
           "description": "collection type that can be turned into list of SQLData elements",
           "hierarchy": "Database SQLite Simple ToRow",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.ToRow",
           "name": "ToRow",
           "package": "sqlite-simple",
@@ -1349,6 +1459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToField a collection of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.ToRow",
           "name": "toRow",
           "package": "sqlite-simple",
@@ -1359,6 +1470,7 @@
         "index": {
           "description": "ToField collection of values",
           "hierarchy": "Database SQLite Simple ToRow",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.ToRow",
           "name": "toRow",
           "normalized": "a-\u003e[SQLData]",
@@ -1375,6 +1487,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTop-level module for sqlite-simple.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Types",
           "name": "Types",
           "package": "sqlite-simple",
@@ -1384,6 +1497,7 @@
         "index": {
           "description": "Top-level module for sqlite-simple",
           "hierarchy": "Database SQLite Simple Types",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Types",
           "name": "Types",
           "package": "sqlite-simple",
@@ -1398,6 +1512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA composite type to parse your custom data structures without\n having to define dummy newtype wrappers every time.\n\u003c/p\u003e\u003cpre\u003e instance FromRow MyData where ...\n\u003c/pre\u003e\u003cpre\u003e instance FromRow MyData2 where ...\n\u003c/pre\u003e\u003cp\u003ethen I can do the following for free:\n\u003c/p\u003e\u003cpre\u003e\n res \u003c- query' c \u003ca\u003e...\u003c/a\u003e\n forM res $ \\(MyData{..} :. MyData2{..}) -\u003e do\n   ....\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Types",
           "name": ":.",
           "package": "sqlite-simple",
@@ -1407,6 +1522,7 @@
         "index": {
           "description": "composite type to parse your custom data structures without having to define dummy newtype wrappers every time instance FromRow MyData where instance FromRow MyData2 where then can do the following for free res query forM res MyData MyData2 do",
           "hierarchy": "Database SQLite Simple Types",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Types",
           "name": ":.",
           "package": "sqlite-simple",
@@ -1420,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA placeholder for the SQL \u003ccode\u003eNULL\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Types",
           "name": "Null",
           "package": "sqlite-simple",
@@ -1429,6 +1546,7 @@
         "index": {
           "description": "placeholder for the SQL NULL value",
           "hierarchy": "Database SQLite Simple Types",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Types",
           "name": "Null",
           "package": "sqlite-simple",
@@ -1443,6 +1561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single-value \"collection\".\n\u003c/p\u003e\u003cp\u003eThis is useful if you need to supply a single parameter to a SQL\n query, or extract a single column from a SQL result.\n\u003c/p\u003e\u003cp\u003eParameter example:\n\u003c/p\u003e\u003cpre\u003equery c \"select x from scores where x \u003e ?\" (\u003ccode\u003e\u003ca\u003eOnly\u003c/a\u003e\u003c/code\u003e (42::Int))\u003c/pre\u003e\u003cp\u003eResult example:\n\u003c/p\u003e\u003cpre\u003exs \u003c- query_ c \"select id from users\"\nforM_ xs $ \\(\u003ccode\u003e\u003ca\u003eOnly\u003c/a\u003e\u003c/code\u003e id) -\u003e {- ... -}\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Types",
           "name": "Only",
           "package": "sqlite-simple",
@@ -1452,6 +1571,7 @@
         "index": {
           "description": "single-value collection This is useful if you need to supply single parameter to SQL query or extract single column from SQL result Parameter example query select from scores where Only Int Result example xs query select id from users forM xs Only id",
           "hierarchy": "Database SQLite Simple Types",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Types",
           "name": "Only",
           "package": "sqlite-simple",
@@ -1466,6 +1586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA query string. This type is intended to make it difficult to\n construct a SQL query by concatenating string fragments, as that is\n an extremely common way to accidentally introduce SQL injection\n vulnerabilities into an application.\n\u003c/p\u003e\u003cp\u003eThis type is an instance of \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e, so the easiest way to\n construct a query is to enable the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language\n extension and then simply write the query in double quotes.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n\n import Database.SQLite.Simple\n\n q :: Query\n q = \"select ?\"\n\u003c/pre\u003e\u003cp\u003eThe underlying type is a \u003ccode\u003eText\u003c/code\u003e, and literal Haskell strings that\n contain Unicode characters will be correctly transformed to UTF-8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Types",
           "name": "Query",
           "package": "sqlite-simple",
@@ -1475,6 +1596,7 @@
         "index": {
           "description": "query string This type is intended to make it difficult to construct SQL query by concatenating string fragments as that is an extremely common way to accidentally introduce SQL injection vulnerabilities into an application This type is an instance of IsString so the easiest way to construct query is to enable the OverloadedStrings language extension and then simply write the query in double quotes LANGUAGE OverloadedStrings import Database.SQLite.Simple Query select The underlying type is Text and literal Haskell strings that contain Unicode characters will be correctly transformed to UTF-8",
           "hierarchy": "Database SQLite Simple Types",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Types",
           "name": "Query",
           "package": "sqlite-simple",
@@ -1510,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple.Types",
           "name": "Null",
           "package": "sqlite-simple",
@@ -1519,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple Types",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple.Types",
           "name": "Null",
           "package": "sqlite-simple",
@@ -1624,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "Simple",
           "package": "sqlite-simple",
@@ -1632,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "Simple",
           "package": "sqlite-simple",
@@ -1646,6 +1772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA composite type to parse your custom data structures without\n having to define dummy newtype wrappers every time.\n\u003c/p\u003e\u003cpre\u003e instance FromRow MyData where ...\n\u003c/pre\u003e\u003cpre\u003e instance FromRow MyData2 where ...\n\u003c/pre\u003e\u003cp\u003ethen I can do the following for free:\n\u003c/p\u003e\u003cpre\u003e\n res \u003c- query' c \u003ca\u003e...\u003c/a\u003e\n forM res $ \\(MyData{..} :. MyData2{..}) -\u003e do\n   ....\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": ":.",
           "package": "sqlite-simple",
@@ -1655,6 +1782,7 @@
         "index": {
           "description": "composite type to parse your custom data structures without having to define dummy newtype wrappers every time instance FromRow MyData where instance FromRow MyData2 where then can do the following for free res query forM res MyData MyData2 do",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": ":.",
           "package": "sqlite-simple",
@@ -1668,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of a column in a result set. Column indices start from 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "ColumnIndex",
           "package": "sqlite-simple",
@@ -1677,6 +1806,7 @@
         "index": {
           "description": "Index of column in result set Column indices start from",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "ColumnIndex",
           "package": "sqlite-simple",
@@ -1691,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection to an open database.\n\u003c/p\u003e\u003cp\u003eYou can use \u003ccode\u003e\u003ca\u003econnectionHandle\u003c/a\u003e\u003c/code\u003e to gain access to the underlying\n \u003ca\u003ehttp://hackage.haskell.org/package/direct-sqlite\u003c/a\u003e connection.\n This may be useful if you need to access some direct-sqlite\n functionality that's not exposed in the sqlite-simple API.  This\n should be a safe thing to do although mixing both APIs is\n discouraged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "Connection",
           "package": "sqlite-simple",
@@ -1700,6 +1831,7 @@
         "index": {
           "description": "Connection to an open database You can use connectionHandle to gain access to the underlying http hackage.haskell.org package direct-sqlite connection This may be useful if you need to access some direct-sqlite functionality that not exposed in the sqlite-simple API This should be safe thing to do although mixing both APIs is discouraged",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "Connection",
           "package": "sqlite-simple",
@@ -1714,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown if a \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e was malformed.\n This may occur if the number of '\u003ccode\u003e?\u003c/code\u003e' characters in the query\n string does not match the number of parameters provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "FormatError",
           "package": "sqlite-simple",
@@ -1723,6 +1856,7 @@
         "index": {
           "description": "Exception thrown if Query was malformed This may occur if the number of characters in the query string does not match the number of parameters provided",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "FormatError",
           "package": "sqlite-simple",
@@ -1737,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection type that can be converted from a sequence of fields.\n Instances are provided for tuples up to 10 elements and lists of any length.\n\u003c/p\u003e\u003cp\u003eNote that instances can defined outside of sqlite-simple,  which is\n often useful.   For example, here's an instance for a user-defined pair:\n\u003c/p\u003e\u003cpre\u003edata User = User { name :: String, fileQuota :: Int }\n\ninstance \u003ccode\u003e\u003ca\u003eFromRow\u003c/a\u003e\u003c/code\u003e User where\n     fromRow = User \u003c$\u003e \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e \u003c*\u003e \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eThe number of calls to \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e must match the number of fields returned\n in a single row of the query result.  Otherwise,  a \u003ccode\u003e\u003ca\u003eConversionFailed\u003c/a\u003e\u003c/code\u003e\n exception will be thrown.\n\u003c/p\u003e\u003cp\u003eNote the caveats associated with user-defined implementations of\n \u003ccode\u003e\u003ca\u003efromRow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "FromRow",
           "package": "sqlite-simple",
@@ -1746,6 +1881,7 @@
         "index": {
           "description": "collection type that can be converted from sequence of fields Instances are provided for tuples up to elements and lists of any length Note that instances can defined outside of sqlite-simple which is often useful For example here an instance for user-defined pair data User User name String fileQuota Int instance FromRow User where fromRow User field field The number of calls to field must match the number of fields returned in single row of the query result Otherwise ConversionFailed exception will be thrown Note the caveats associated with user-defined implementations of fromRow",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "FromRow",
           "package": "sqlite-simple",
@@ -1760,6 +1896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single-value \"collection\".\n\u003c/p\u003e\u003cp\u003eThis is useful if you need to supply a single parameter to a SQL\n query, or extract a single column from a SQL result.\n\u003c/p\u003e\u003cp\u003eParameter example:\n\u003c/p\u003e\u003cpre\u003equery c \"select x from scores where x \u003e ?\" (\u003ccode\u003e\u003ca\u003eOnly\u003c/a\u003e\u003c/code\u003e (42::Int))\u003c/pre\u003e\u003cp\u003eResult example:\n\u003c/p\u003e\u003cpre\u003exs \u003c- query_ c \"select id from users\"\nforM_ xs $ \\(\u003ccode\u003e\u003ca\u003eOnly\u003c/a\u003e\u003c/code\u003e id) -\u003e {- ... -}\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "Only",
           "package": "sqlite-simple",
@@ -1769,6 +1906,7 @@
         "index": {
           "description": "single-value collection This is useful if you need to supply single parameter to SQL query or extract single column from SQL result Parameter example query select from scores where Only Int Result example xs query select id from users forM xs Only id",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "Only",
           "package": "sqlite-simple",
@@ -1783,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA query string. This type is intended to make it difficult to\n construct a SQL query by concatenating string fragments, as that is\n an extremely common way to accidentally introduce SQL injection\n vulnerabilities into an application.\n\u003c/p\u003e\u003cp\u003eThis type is an instance of \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e, so the easiest way to\n construct a query is to enable the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language\n extension and then simply write the query in double quotes.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n\n import Database.SQLite.Simple\n\n q :: Query\n q = \"select ?\"\n\u003c/pre\u003e\u003cp\u003eThe underlying type is a \u003ccode\u003eText\u003c/code\u003e, and literal Haskell strings that\n contain Unicode characters will be correctly transformed to UTF-8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "Query",
           "package": "sqlite-simple",
@@ -1792,6 +1931,7 @@
         "index": {
           "description": "query string This type is intended to make it difficult to construct SQL query by concatenating string fragments as that is an extremely common way to accidentally introduce SQL injection vulnerabilities into an application This type is an instance of IsString so the easiest way to construct query is to enable the OverloadedStrings language extension and then simply write the query in double quotes LANGUAGE OverloadedStrings import Database.SQLite.Simple Query select The underlying type is Text and literal Haskell strings that contain Unicode characters will be correctly transformed to UTF-8",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "Query",
           "package": "sqlite-simple",
@@ -1806,6 +1946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown if conversion from a SQL value to a Haskell\n value fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "ResultError",
           "package": "sqlite-simple",
@@ -1815,6 +1956,7 @@
         "index": {
           "description": "Exception thrown if conversion from SQL value to Haskell value fails",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "ResultError",
           "package": "sqlite-simple",
@@ -1828,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "SQLData",
           "package": "sqlite-simple",
@@ -1835,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "SQLData",
           "package": "sqlite-simple",
@@ -1849,6 +1993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn SQLite prepared statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "Statement",
           "package": "sqlite-simple",
@@ -1858,6 +2003,7 @@
         "index": {
           "description": "An SQLite prepared statement",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "Statement",
           "package": "sqlite-simple",
@@ -1872,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection type that can be turned into a list of SQLData\n elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "ToRow",
           "package": "sqlite-simple",
@@ -1881,6 +2028,7 @@
         "index": {
           "description": "collection type that can be turned into list of SQLData elements",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "ToRow",
           "package": "sqlite-simple",
@@ -1894,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "ColumnIndex",
           "package": "sqlite-simple",
@@ -1903,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "ColumnIndex",
           "package": "sqlite-simple",
@@ -1916,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "SQLBlob",
           "package": "sqlite-simple",
@@ -1924,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "SQLBlob",
           "package": "sqlite-simple",
@@ -1937,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "SQLFloat",
           "package": "sqlite-simple",
@@ -1945,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "SQLFloat",
           "package": "sqlite-simple",
@@ -1958,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "SQLInteger",
           "package": "sqlite-simple",
@@ -1966,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "SQLInteger",
           "package": "sqlite-simple",
@@ -1979,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "SQLNull",
           "package": "sqlite-simple",
@@ -1987,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "SQLNull",
           "package": "sqlite-simple",
@@ -2000,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "SQLText",
           "package": "sqlite-simple",
@@ -2008,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "SQLText",
           "package": "sqlite-simple",
@@ -2022,6 +2182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinds parameters to a prepared statement. Once \u003ccode\u003e\u003ca\u003enextRow\u003c/a\u003e\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e,\n the statement must be reset with the \u003ccode\u003e\u003ca\u003ereset\u003c/a\u003e\u003c/code\u003e function before it can be\n executed again by calling \u003ccode\u003e\u003ca\u003enextRow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "bind",
           "package": "sqlite-simple",
@@ -2032,6 +2193,7 @@
         "index": {
           "description": "Binds parameters to prepared statement Once nextRow returns Nothing the statement must be reset with the reset function before it can be executed again by calling nextRow",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "bind",
           "normalized": "Statement-\u003ea-\u003eIO()",
@@ -2047,6 +2209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a database connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "close",
           "package": "sqlite-simple",
@@ -2057,6 +2220,7 @@
         "index": {
           "description": "Close database connection",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "close",
           "normalized": "Connection-\u003eIO()",
@@ -2072,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses a prepared statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "closeStatement",
           "package": "sqlite-simple",
@@ -2082,6 +2247,7 @@
         "index": {
           "description": "Closes prepared statement",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "closeStatement",
           "normalized": "Statement-\u003eIO()",
@@ -2098,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the name of a a particular column in the result set of a\n \u003ccode\u003e\u003ca\u003eStatement\u003c/a\u003e\u003c/code\u003e.  Throws an \u003ccode\u003e\u003ca\u003eArrayException\u003c/a\u003e\u003c/code\u003e if the colum index is out\n of bounds.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/column_name.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "columnName",
           "package": "sqlite-simple",
@@ -2108,6 +2275,7 @@
         "index": {
           "description": "Return the name of particular column in the result set of Statement Throws an ArrayException if the colum index is out of bounds http www.sqlite.org c3ref column name.html",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "columnName",
           "normalized": "Statement-\u003eColumnIndex-\u003eIO Text",
@@ -2124,6 +2292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an \u003ccode\u003eINSERT\u003c/code\u003e, \u003ccode\u003eUPDATE\u003c/code\u003e, or other SQL query that is not\n expected to return results.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eFormatError\u003c/a\u003e\u003c/code\u003e if the query could not be formatted correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "execute",
           "package": "sqlite-simple",
@@ -2134,6 +2303,7 @@
         "index": {
           "description": "Execute an INSERT UPDATE or other SQL query that is not expected to return results Throws FormatError if the query could not be formatted correctly",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "execute",
           "normalized": "Connection-\u003eQuery-\u003ea-\u003eIO()",
@@ -2149,6 +2319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e that does not perform query substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "execute_",
           "package": "sqlite-simple",
@@ -2159,6 +2330,7 @@
         "index": {
           "description": "version of execute that does not perform query substitution",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "execute_",
           "normalized": "Connection-\u003eQuery-\u003eIO()",
@@ -2174,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a \u003ccode\u003eSELECT\u003c/code\u003e or other SQL query that is expected to return results.\n Results are converted and fed into the \u003ccode\u003eaction\u003c/code\u003e callback as they are being\n retrieved from the database.\n\u003c/p\u003e\u003cp\u003eThis allows gives the possibility of processing results in constant space\n (for instance writing them to disk).\n\u003c/p\u003e\u003cp\u003eExceptions that may be thrown:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFormatError\u003c/a\u003e\u003c/code\u003e: the query string mismatched with given arguments.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eResultError\u003c/a\u003e\u003c/code\u003e: result conversion failed.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "fold",
           "package": "sqlite-simple",
@@ -2184,6 +2357,7 @@
         "index": {
           "description": "Perform SELECT or other SQL query that is expected to return results Results are converted and fed into the action callback as they are being retrieved from the database This allows gives the possibility of processing results in constant space for instance writing them to disk Exceptions that may be thrown FormatError the query string mismatched with given arguments ResultError result conversion failed",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "fold",
           "normalized": "Connection-\u003eQuery-\u003ea-\u003eb-\u003e(b-\u003ec-\u003eIO b)-\u003eIO b",
@@ -2199,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e which does not perform parameter substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "fold_",
           "package": "sqlite-simple",
@@ -2209,6 +2384,7 @@
         "index": {
           "description": "version of fold which does not perform parameter substitution",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "fold_",
           "normalized": "Connection-\u003eQuery-\u003ea-\u003e(a-\u003eb-\u003eIO a)-\u003eIO a",
@@ -2223,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "fromRow",
           "package": "sqlite-simple",
@@ -2232,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "fromRow",
           "package": "sqlite-simple",
@@ -2246,6 +2424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the rowid of the most recent successful INSERT on the\n given database connection.\n\u003c/p\u003e\u003cp\u003eSee also \u003ca\u003ehttp://www.sqlite.org/c3ref/last_insert_rowid.html\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "lastInsertRowId",
           "package": "sqlite-simple",
@@ -2256,6 +2435,7 @@
         "index": {
           "description": "Returns the rowid of the most recent successful INSERT on the given database connection See also http www.sqlite.org c3ref last insert rowid.html",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "lastInsertRowId",
           "normalized": "Connection-\u003eIO Int",
@@ -2272,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the next row from the prepared statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "nextRow",
           "package": "sqlite-simple",
@@ -2282,6 +2463,7 @@
         "index": {
           "description": "Extracts the next row from the prepared statement",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "nextRow",
           "normalized": "Statement-\u003eIO(Maybe a)",
@@ -2298,6 +2480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a database connection to a given file.  Will throw an\n exception if it cannot connect.\n\u003c/p\u003e\u003cp\u003eEvery \u003ccode\u003e\u003ca\u003eopen\u003c/a\u003e\u003c/code\u003e must be closed with a call to \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf you specify \":memory:\" or an empty string as the input filename,\n then a private, temporary in-memory database is created for the\n connection.  This database will vanish when you close the\n connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "open",
           "package": "sqlite-simple",
@@ -2308,6 +2491,7 @@
         "index": {
           "description": "Open database connection to given file Will throw an exception if it cannot connect Every open must be closed with call to close If you specify memory or an empty string as the input filename then private temporary in-memory database is created for the connection This database will vanish when you close the connection",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "open",
           "normalized": "String-\u003eIO Connection",
@@ -2323,6 +2507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a prepared statement. A prepared statement must always be closed with\n a corresponding call to \u003ccode\u003e\u003ca\u003ecloseStatement\u003c/a\u003e\u003c/code\u003e before closing the connection. Use\n \u003ccode\u003e\u003ca\u003enextRow\u003c/a\u003e\u003c/code\u003e to iterate on the values returned. Once \u003ccode\u003e\u003ca\u003enextRow\u003c/a\u003e\u003c/code\u003e returns\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, you need to invoke \u003ccode\u003e\u003ca\u003ereset\u003c/a\u003e\u003c/code\u003e before reexecuting the statement again\n with \u003ccode\u003e\u003ca\u003enextRow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "openStatement",
           "package": "sqlite-simple",
@@ -2333,6 +2518,7 @@
         "index": {
           "description": "Opens prepared statement prepared statement must always be closed with corresponding call to closeStatement before closing the connection Use nextRow to iterate on the values returned Once nextRow returns Nothing you need to invoke reset before reexecuting the statement again with nextRow",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "openStatement",
           "normalized": "Connection-\u003eQuery-\u003eIO Statement",
@@ -2349,6 +2535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a \u003ccode\u003eSELECT\u003c/code\u003e or other SQL query that is expected to return\n results. All results are retrieved and converted before this\n function returns.\n\u003c/p\u003e\u003cp\u003eWhen processing large results, this function will consume a lot of\n client-side memory.  Consider using \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eExceptions that may be thrown:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFormatError\u003c/a\u003e\u003c/code\u003e: the query string mismatched with given arguments.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eResultError\u003c/a\u003e\u003c/code\u003e: result conversion failed.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "query",
           "package": "sqlite-simple",
@@ -2359,6 +2546,7 @@
         "index": {
           "description": "Perform SELECT or other SQL query that is expected to return results All results are retrieved and converted before this function returns When processing large results this function will consume lot of client-side memory Consider using fold instead Exceptions that may be thrown FormatError the query string mismatched with given arguments ResultError result conversion failed",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "query",
           "normalized": "Connection-\u003eQuery-\u003ea-\u003eIO[b]",
@@ -2374,6 +2562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e that does not perform query substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "query_",
           "package": "sqlite-simple",
@@ -2384,6 +2573,7 @@
         "index": {
           "description": "version of query that does not perform query substitution",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "query_",
           "normalized": "Connection-\u003eQuery-\u003eIO[a]",
@@ -2399,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResets a statement. This does not reset bound parameters, if any, but\n allows the statement to be reexecuted again by invoking \u003ccode\u003e\u003ca\u003enextRow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "reset",
           "package": "sqlite-simple",
@@ -2409,6 +2600,7 @@
         "index": {
           "description": "Resets statement This does not reset bound parameters if any but allows the statement to be reexecuted again by invoking nextRow",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "reset",
           "normalized": "Statement-\u003eIO()",
@@ -2424,6 +2616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/profile.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eEnable/disable tracing of SQL execution.  Tracing can be disabled\n by setting \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as the logger callback.\n\u003c/p\u003e\u003cp\u003eWarning: If the logger callback throws an exception, your whole\n program may crash.  Enable only for debugging!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "setTrace",
           "package": "sqlite-simple",
@@ -2434,6 +2627,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref profile.html Enable disable tracing of SQL execution Tracing can be disabled by setting Nothing as the logger callback Warning If the logger callback throws an exception your whole program may crash Enable only for debugging",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "setTrace",
           "normalized": "Connection-\u003eMaybe(Text-\u003eIO())-\u003eIO()",
@@ -2450,6 +2644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToField a collection of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "toRow",
           "package": "sqlite-simple",
@@ -2460,6 +2655,7 @@
         "index": {
           "description": "ToField collection of values",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "toRow",
           "normalized": "a-\u003e[SQLData]",
@@ -2476,6 +2672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinds parameters to a prepared statement, and \u003ccode\u003e\u003ca\u003ereset\u003c/a\u003e\u003c/code\u003es the statement when\n the callback completes, even in the presence of exceptions.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003ewithBind\u003c/a\u003e\u003c/code\u003e to reuse prepared statements.  Because it \u003ccode\u003e\u003ca\u003ereset\u003c/a\u003e\u003c/code\u003es the\n statement \u003cem\u003eafter\u003c/em\u003e each usage, it avoids a pitfall involving implicit\n transactions.  SQLite creates an implicit transaction if you don't say\n \u003ccode\u003eBEGIN\u003c/code\u003e explicitly, and does not commit it until all active statements are\n finished with either \u003ccode\u003e\u003ca\u003ereset\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ecloseStatement\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "withBind",
           "package": "sqlite-simple",
@@ -2486,6 +2683,7 @@
         "index": {
           "description": "Binds parameters to prepared statement and reset the statement when the callback completes even in the presence of exceptions Use withBind to reuse prepared statements Because it reset the statement after each usage it avoids pitfall involving implicit transactions SQLite creates an implicit transaction if you don say BEGIN explicitly and does not commit it until all active statements are finished with either reset or closeStatement",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "withBind",
           "normalized": "Statement-\u003ea-\u003eIO b-\u003eIO b",
@@ -2502,6 +2700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a database connection, executes an action using this connection, and\n closes the connection, even in the presence of exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "withConnection",
           "package": "sqlite-simple",
@@ -2512,6 +2711,7 @@
         "index": {
           "description": "Opens database connection executes an action using this connection and closes the connection even in the presence of exceptions",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "withConnection",
           "normalized": "String-\u003e(Connection-\u003eIO a)-\u003eIO a",
@@ -2528,6 +2728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a prepared statement, executes an action using this statement, and\n closes the statement, even in the presence of exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:03 UTC 2014",
           "module": "Database.SQLite.Simple",
           "name": "withStatement",
           "package": "sqlite-simple",
@@ -2538,6 +2739,7 @@
         "index": {
           "description": "Opens prepared statement executes an action using this statement and closes the statement even in the presence of exceptions",
           "hierarchy": "Database SQLite Simple",
+          "indexed": "2014-03-11T20:09:03",
           "module": "Database.SQLite.Simple",
           "name": "withStatement",
           "normalized": "Connection-\u003eQuery-\u003e(Statement-\u003eIO a)-\u003eIO a",

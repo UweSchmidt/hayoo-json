@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "WebCont"
+        "phrase": "WebCont",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWebConts allow simple continuation based behavior in Happstack applications through the use of cookies\n    and an IntMap on the server mapping cookie names to continuations. \n    It is based on the paste \u003ca\u003ehttp://gist.github.com/260052\u003c/a\u003e. For the arc challenge:\n\u003c/p\u003e\u003cpre\u003e    arc = do\n        name \u003c- doform' frm\n        display $ samelink \"click here\"\n        display $ \"you said\" ++ name\n\u003c/pre\u003e\u003cp\u003eA more complicated example, creating a User datatype with a different page for each field:\n\u003c/p\u003e\u003cpre\u003e   data User = User {age:: Int, name::String, dead::Bool} deriving (Show)\n   makeUser = liftM3 User age name dead \u003e\u003e= (display . show) where\n       age = doform' $ label \"Age: \" *\u003e frm\n       name = doform' $ label \"Name: \" *\u003e frm\n       dead = doform' $ label \"Dead?: \" *\u003e frm\n\u003c/pre\u003e\u003cp\u003eTo run the continuations in Happstack, use \u003ccode\u003e\u003ca\u003erunStateless\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erunWithState\u003c/a\u003e\u003c/code\u003e, giving each continuation in a list\n    as a parameter, depending on whether you want MACID support enabled:\n\u003c/p\u003e\u003cpre\u003e   runStateless nullConf [arc, makeUser] []\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "WebCont",
           "package": "WebCont",
@@ -28,6 +29,7 @@
         "index": {
           "description": "WebConts allow simple continuation based behavior in Happstack applications through the use of cookies and an IntMap on the server mapping cookie names to continuations It is based on the paste http gist.github.com For the arc challenge arc do name doform frm display samelink click here display you said name more complicated example creating User datatype with different page for each field data User User age Int name String dead Bool deriving Show makeUser liftM3 User age name dead display show where age doform label Age frm name doform label Name frm dead doform label Dead frm To run the continuations in Happstack use runStateless or runWithState giving each continuation in list as parameter depending on whether you want MACID support enabled runStateless nullConf arc makeUser",
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "WebCont",
           "package": "WebCont",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "ContForm",
           "package": "WebCont",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "ContForm",
           "package": "WebCont",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines a normal form style to use for a given type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "DefaultForm",
           "package": "WebCont",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Defines normal form style to use for given type",
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "DefaultForm",
           "package": "WebCont",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "Result",
           "package": "WebCont",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "Result",
           "package": "WebCont",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA WebCont is a function from \u003ccode\u003e\u003ca\u003eEnv\u003c/a\u003e\u003c/code\u003e to a value of a,\n   displaying a response of r. Both r and a must be\n   Html for runnable continuations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "WebCont",
           "package": "WebCont",
@@ -116,6 +125,7 @@
         "index": {
           "description": "WebCont is function from Env to value of displaying response of Both and must be Html for runnable continuations",
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "WebCont",
           "package": "WebCont",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "Done",
           "package": "WebCont",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "Done",
           "package": "WebCont",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "Via",
           "package": "WebCont",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "Via",
           "package": "WebCont",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "WebCont",
           "package": "WebCont",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "WebCont",
           "package": "WebCont",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton with an associated value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "button",
           "package": "WebCont",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Button with an associated value",
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "button",
           "normalized": "String-\u003ea-\u003eWebCont Html a",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a page, ignoring the value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "display",
           "package": "WebCont",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Display page ignoring the value",
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "display",
           "normalized": "a-\u003eWebCont Html()",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a form into the WebCont monad using a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "doform",
           "package": "WebCont",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Lift form into the WebCont monad using function",
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "doform",
           "normalized": "(Html-\u003ea)-\u003e([String]-\u003eHtml-\u003ea)-\u003eContForm b-\u003eWebCont a b",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a form into the WebCont monad without embellishment, displaying errors inline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "doform'",
           "package": "WebCont",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Lift form into the WebCont monad without embellishment displaying errors inline",
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "doform'",
           "normalized": "ContForm a-\u003eWebCont Html a",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "frm",
           "package": "WebCont",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "frm",
           "package": "WebCont",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink with an associated value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "link",
           "package": "WebCont",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Link with an associated value",
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "link",
           "normalized": "a-\u003eb-\u003eWebCont Html b",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault configuration contains no validator and the port is set to 8000\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "nullConf",
           "package": "WebCont",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Default configuration contains no validator and the port is set to",
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "nullConf",
           "package": "WebCont",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry point for the continuation server: starts the server without MACID support\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "runStateless",
           "package": "WebCont",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Entry point for the continuation server starts the server without MACID support",
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "runStateless",
           "normalized": "Conf-\u003e[WebCont Html()]-\u003e[ServerPartT IO Response]-\u003eIO()",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "runWeb",
           "package": "WebCont",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "runWeb",
           "normalized": "Env-\u003eResult a b",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry point for the continuation server: sets up continuation table, MACID state,\n   and a chron job to add a checkpoint daily\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "runWithState",
           "package": "WebCont",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Entry point for the continuation server sets up continuation table MACID state and chron job to add checkpoint daily",
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "runWithState",
           "normalized": "Conf-\u003eProxy a-\u003e[WebCont Html()]-\u003e[ServerPartT IO Response]-\u003eIO()",
@@ -441,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinks to the same page, leading to the next step in a continuation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:24 UTC 2014",
           "module": "WebCont",
           "name": "samelink",
           "package": "WebCont",
@@ -451,6 +488,7 @@
         "index": {
           "description": "Links to the same page leading to the next step in continuation",
           "hierarchy": "WebCont",
+          "indexed": "2014-03-11T17:04:24",
           "module": "WebCont",
           "name": "samelink",
           "normalized": "a-\u003eHotLink",

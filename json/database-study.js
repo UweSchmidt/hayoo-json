@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "database-study"
+        "phrase": "database-study",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "Company",
           "package": "database-study",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "Company",
           "package": "database-study",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "Dept",
           "package": "database-study",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "Dept",
           "package": "database-study",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "DeptNo",
           "package": "database-study",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "DeptNo",
           "package": "database-study",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "DeptNoField",
           "package": "database-study",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "DeptNoField",
           "package": "database-study",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "Emp",
           "package": "database-study",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "Emp",
           "package": "database-study",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "EmpNo",
           "package": "database-study",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "EmpNo",
           "package": "database-study",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "Job",
           "package": "database-study",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "Job",
           "package": "database-study",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "Analyst",
           "package": "database-study",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "Analyst",
           "package": "database-study",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "Clerk",
           "package": "database-study",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "Clerk",
           "package": "database-study",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "Dept",
           "package": "database-study",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "Dept",
           "package": "database-study",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "DeptNo",
           "package": "database-study",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "DeptNo",
           "package": "database-study",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "Emp",
           "package": "database-study",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "Emp",
           "package": "database-study",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "EmpNo",
           "package": "database-study",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "EmpNo",
           "package": "database-study",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "Manager",
           "package": "database-study",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "Manager",
           "package": "database-study",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "President",
           "package": "database-study",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "President",
           "package": "database-study",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "Salesman",
           "package": "database-study",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "Salesman",
           "package": "database-study",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "dept",
           "package": "database-study",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "dept",
           "normalized": "[Dept]",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "deptno",
           "package": "database-study",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "deptno",
           "normalized": "a-\u003eDeptNo",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "deptnoDept",
           "package": "database-study",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "deptnoDept",
           "package": "database-study",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "deptnoEmp",
           "package": "database-study",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "deptnoEmp",
           "package": "database-study",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "dname",
           "package": "database-study",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "dname",
           "package": "database-study",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "emp",
           "package": "database-study",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "emp",
           "normalized": "[Emp]",
@@ -497,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "empno",
           "package": "database-study",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "empno",
           "package": "database-study",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "ename",
           "package": "database-study",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "ename",
           "package": "database-study",
@@ -539,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "job",
           "package": "database-study",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "job",
           "package": "database-study",
@@ -560,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "loc",
           "package": "database-study",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "loc",
           "package": "database-study",
@@ -581,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "mgr",
           "package": "database-study",
@@ -590,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "mgr",
           "package": "database-study",
@@ -602,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Company",
           "name": "sal",
           "package": "database-study",
@@ -611,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Company",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Company",
           "name": "sal",
           "package": "database-study",
@@ -624,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003esome queries implemented using the list monad\n\u003c/p\u003e\u003cp\u003eA special Table type instead of plain lists\ncould provide an efficient implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "QueryMonad",
           "package": "database-study",
@@ -633,6 +690,7 @@
         "index": {
           "description": "some queries implemented using the list monad special Table type instead of plain lists could provide an efficient implementation",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "QueryMonad",
           "package": "database-study",
@@ -647,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaverage salary in each department\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "averageSalariesInDepartments",
           "package": "database-study",
@@ -657,6 +716,7 @@
         "index": {
           "description": "average salary in each department",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "averageSalariesInDepartments",
           "normalized": "[(String,Int)]",
@@ -673,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall clerks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "clerks",
           "package": "database-study",
@@ -683,6 +744,7 @@
         "index": {
           "description": "all clerks",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "clerks",
           "normalized": "[Emp]",
@@ -698,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall employees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "employees",
           "package": "database-study",
@@ -708,6 +771,7 @@
         "index": {
           "description": "all employees",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "employees",
           "normalized": "[Emp]",
@@ -723,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emanager with most employees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "managerOfLargestTeam",
           "package": "database-study",
@@ -733,6 +798,7 @@
         "index": {
           "description": "manager with most employees",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "managerOfLargestTeam",
           "normalized": "(String,Int)",
@@ -749,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enames of all employees and their managers\nif the employee has a manager so far\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "managers",
           "package": "database-study",
@@ -759,6 +826,7 @@
         "index": {
           "description": "names of all employees and their managers if the employee has manager so far",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "managers",
           "normalized": "[(String,String)]",
@@ -774,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enames of all employees and their managers;\nif the employee has no manager, return an empty string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "managers0",
           "package": "database-study",
@@ -784,6 +853,7 @@
         "index": {
           "description": "names of all employees and their managers if the employee has no manager return an empty string",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "managers0",
           "normalized": "[(String,String)]",
@@ -799,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaximum salary amongst all employees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "maximumSalary",
           "package": "database-study",
@@ -809,6 +880,7 @@
         "index": {
           "description": "maximum salary amongst all employees",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "maximumSalary",
           "package": "database-study",
@@ -823,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enames of managers that have at least one employee\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "realManagers",
           "package": "database-study",
@@ -833,6 +906,7 @@
         "index": {
           "description": "names of managers that have at least one employee",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "realManagers",
           "normalized": "[String]",
@@ -849,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emanagers that have at least one employee\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "realManagersFull",
           "package": "database-study",
@@ -859,6 +934,7 @@
         "index": {
           "description": "managers that have at least one employee",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "realManagersFull",
           "normalized": "[Emp]",
@@ -875,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emanagers that have at least one employee, sorted by their names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "realManagersSortedFull",
           "package": "database-study",
@@ -885,6 +962,7 @@
         "index": {
           "description": "managers that have at least one employee sorted by their names",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "realManagersSortedFull",
           "normalized": "[Emp]",
@@ -901,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall employees in research department\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "researchers",
           "package": "database-study",
@@ -911,6 +990,7 @@
         "index": {
           "description": "all employees in research department",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "researchers",
           "normalized": "[Emp]",
@@ -925,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "researchers0",
           "package": "database-study",
@@ -934,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "researchers0",
           "normalized": "[Emp]",
@@ -949,6 +1031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall clerks with salary at least 1000\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "richClerks",
           "package": "database-study",
@@ -959,6 +1042,7 @@
         "index": {
           "description": "all clerks with salary at least",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "richClerks",
           "normalized": "[Emp]",
@@ -975,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eemployee with maximum salary without a back-join\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "richestEmployee",
           "package": "database-study",
@@ -985,6 +1070,7 @@
         "index": {
           "description": "employee with maximum salary without back-join",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "richestEmployee",
           "package": "database-study",
@@ -998,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "teamSalaries",
           "package": "database-study",
@@ -1007,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "teamSalaries",
           "normalized": "[(String,Int)]",
@@ -1023,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA recursive query:\nCompute the total salary for each manager\nand the total set of employees he conducts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "teamSalaries0",
           "package": "database-study",
@@ -1033,6 +1122,7 @@
         "index": {
           "description": "recursive query Compute the total salary for each manager and the total set of employees he conducts",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "teamSalaries0",
           "normalized": "[(String,Int)]",
@@ -1049,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eemployees grouped by their managers\nimplemented with a sub-query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "teams",
           "package": "database-study",
@@ -1059,6 +1150,7 @@
         "index": {
           "description": "employees grouped by their managers implemented with sub-query",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "teams",
           "normalized": "[(String,[String])]",
@@ -1074,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eemployees grouped by their managers\nimplemented with a GROUP BY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.QueryMonad",
           "name": "teams0",
           "package": "database-study",
@@ -1084,6 +1177,7 @@
         "index": {
           "description": "employees grouped by their managers implemented with GROUP BY",
           "hierarchy": "Example QueryMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.QueryMonad",
           "name": "teams0",
           "normalized": "[(String,[String])]",
@@ -1099,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003esome queries implemented using operations from relational algebra\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.RelationalAlgebra",
           "name": "RelationalAlgebra",
           "package": "database-study",
@@ -1108,6 +1203,7 @@
         "index": {
           "description": "some queries implemented using operations from relational algebra",
           "hierarchy": "Example RelationalAlgebra",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.RelationalAlgebra",
           "name": "RelationalAlgebra",
           "package": "database-study",
@@ -1122,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall clerks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.RelationalAlgebra",
           "name": "clerks",
           "package": "database-study",
@@ -1132,6 +1229,7 @@
         "index": {
           "description": "all clerks",
           "hierarchy": "Example RelationalAlgebra",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.RelationalAlgebra",
           "name": "clerks",
           "normalized": "[Emp]",
@@ -1147,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall employees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.RelationalAlgebra",
           "name": "employees",
           "package": "database-study",
@@ -1157,6 +1256,7 @@
         "index": {
           "description": "all employees",
           "hierarchy": "Example RelationalAlgebra",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.RelationalAlgebra",
           "name": "employees",
           "normalized": "[Emp]",
@@ -1171,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.RelationalAlgebra",
           "name": "hierarchy",
           "package": "database-study",
@@ -1180,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Example RelationalAlgebra",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.RelationalAlgebra",
           "name": "hierarchy",
           "package": "database-study",
@@ -1192,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.RelationalAlgebra",
           "name": "hierarchyFast",
           "package": "database-study",
@@ -1201,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Example RelationalAlgebra",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.RelationalAlgebra",
           "name": "hierarchyFast",
           "package": "database-study",
@@ -1215,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall employees in research department\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.RelationalAlgebra",
           "name": "researchers",
           "package": "database-study",
@@ -1225,6 +1330,7 @@
         "index": {
           "description": "all employees in research department",
           "hierarchy": "Example RelationalAlgebra",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.RelationalAlgebra",
           "name": "researchers",
           "normalized": "[Emp]",
@@ -1239,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.RelationalAlgebra",
           "name": "researchers0",
           "package": "database-study",
@@ -1248,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Example RelationalAlgebra",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.RelationalAlgebra",
           "name": "researchers0",
           "normalized": "[Emp]",
@@ -1263,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall clerks with salary at least 1000\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.RelationalAlgebra",
           "name": "richClerks",
           "package": "database-study",
@@ -1273,6 +1382,7 @@
         "index": {
           "description": "all clerks with salary at least",
           "hierarchy": "Example RelationalAlgebra",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.RelationalAlgebra",
           "name": "richClerks",
           "normalized": "[Emp]",
@@ -1289,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA recursive query:\nCompute the total salary for each manager\nand the total set of employees he conducts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.RelationalAlgebra",
           "name": "teamSalaries",
           "package": "database-study",
@@ -1299,6 +1410,7 @@
         "index": {
           "description": "recursive query Compute the total salary for each manager and the total set of employees he conducts",
           "hierarchy": "Example RelationalAlgebra",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.RelationalAlgebra",
           "name": "teamSalaries",
           "normalized": "[(String,Int)]",
@@ -1315,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003edemonstrate mutable tables\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.UpdateMonad",
           "name": "UpdateMonad",
           "package": "database-study",
@@ -1324,6 +1437,7 @@
         "index": {
           "description": "demonstrate mutable tables",
           "hierarchy": "Example UpdateMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.UpdateMonad",
           "name": "UpdateMonad",
           "package": "database-study",
@@ -1337,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Example.UpdateMonad",
           "name": "main",
           "package": "database-study",
@@ -1346,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Example UpdateMonad",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Example.UpdateMonad",
           "name": "main",
           "normalized": "IO()",
@@ -1360,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Query",
           "name": "Query",
           "package": "database-study",
@@ -1368,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Query",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Query",
           "name": "Query",
           "package": "database-study",
@@ -1381,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Query",
           "name": "average",
           "package": "database-study",
@@ -1390,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Query",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Query",
           "name": "average",
           "normalized": "[a]-\u003ea",
@@ -1404,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Query",
           "name": "averageInt",
           "package": "database-study",
@@ -1413,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Query",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Query",
           "name": "averageInt",
           "normalized": "[a]-\u003ea",
@@ -1428,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Query",
           "name": "cross",
           "package": "database-study",
@@ -1437,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Query",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Query",
           "name": "cross",
           "normalized": "[a]-\u003e[b]-\u003e[(a,b)]",
@@ -1451,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Query",
           "name": "groupBy",
           "package": "database-study",
@@ -1460,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Query",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Query",
           "name": "groupBy",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[(b,[a])]",
@@ -1475,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Query",
           "name": "join",
           "package": "database-study",
@@ -1484,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Query",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Query",
           "name": "join",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e[a]-\u003e[c]-\u003e[(a,c)]",
@@ -1498,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Query",
           "name": "showTable",
           "package": "database-study",
@@ -1507,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Query",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Query",
           "name": "showTable",
           "normalized": "[a]-\u003eIO()",
@@ -1522,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Table",
           "name": "Table",
           "package": "database-study",
@@ -1530,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Table",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Table",
           "name": "Table",
           "package": "database-study",
@@ -1543,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Table",
           "name": "create",
           "package": "database-study",
@@ -1552,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Table",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Table",
           "name": "create",
           "normalized": "a-\u003eIO(IORef a)",
@@ -1566,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Table",
           "name": "delete",
           "package": "database-study",
@@ -1575,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Table",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Table",
           "name": "delete",
           "normalized": "IORef[a]-\u003e(a-\u003eBool)-\u003eIO()",
@@ -1589,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Table",
           "name": "from",
           "package": "database-study",
@@ -1598,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Table",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Table",
           "name": "from",
           "normalized": "IORef a-\u003eIO a",
@@ -1612,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Table",
           "name": "insert",
           "package": "database-study",
@@ -1621,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Table",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Table",
           "name": "insert",
           "normalized": "IORef[a]-\u003ea-\u003eIO()",
@@ -1635,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Table",
           "name": "update",
           "package": "database-study",
@@ -1644,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Table",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Table",
           "name": "update",
           "normalized": "IORef[a]-\u003e(a-\u003ea)-\u003eIO()",
@@ -1658,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:17 UTC 2014",
           "module": "Table",
           "name": "updateWhere",
           "package": "database-study",
@@ -1667,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Table",
+          "indexed": "2014-03-11T17:50:17",
           "module": "Table",
           "name": "updateWhere",
           "normalized": "IORef[a]-\u003e(a-\u003ea)-\u003e(a-\u003eBool)-\u003eIO()",

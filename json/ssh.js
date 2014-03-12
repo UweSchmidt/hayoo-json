@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ssh"
+        "phrase": "ssh",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Channel",
           "package": "ssh",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Channel",
           "package": "ssh",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Channel",
           "package": "ssh",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Channel",
           "package": "ssh",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "ChannelConfig",
           "package": "ssh",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "ChannelConfig",
           "package": "ssh",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "ChannelMessage",
           "package": "ssh",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "ChannelMessage",
           "package": "ssh",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "ChannelRequest",
           "package": "ssh",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "ChannelRequest",
           "package": "ssh",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "ChannelState",
           "package": "ssh",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "ChannelState",
           "package": "ssh",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Process",
           "package": "ssh",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Process",
           "package": "ssh",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "ChannelConfig",
           "package": "ssh",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "ChannelConfig",
           "package": "ssh",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "ChannelState",
           "package": "ssh",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "ChannelState",
           "package": "ssh",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Data",
           "package": "ssh",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Data",
           "package": "ssh",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "EOF",
           "package": "ssh",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "EOF",
           "package": "ssh",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Environment",
           "package": "ssh",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Environment",
           "package": "ssh",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Execute",
           "package": "ssh",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Execute",
           "package": "ssh",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "ExitSignal",
           "package": "ssh",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "ExitSignal",
           "package": "ssh",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "ExitStatus",
           "package": "ssh",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "ExitStatus",
           "package": "ssh",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "FlowControl",
           "package": "ssh",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "FlowControl",
           "package": "ssh",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Interrupt",
           "package": "ssh",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Interrupt",
           "package": "ssh",
@@ -385,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Process",
           "package": "ssh",
@@ -394,6 +429,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Process",
           "package": "ssh",
@@ -407,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "PseudoTerminal",
           "package": "ssh",
@@ -416,6 +453,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "PseudoTerminal",
           "package": "ssh",
@@ -429,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Request",
           "package": "ssh",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Request",
           "package": "ssh",
@@ -451,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Shell",
           "package": "ssh",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Shell",
           "package": "ssh",
@@ -473,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Signal",
           "package": "ssh",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Signal",
           "package": "ssh",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Subsystem",
           "package": "ssh",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Subsystem",
           "package": "ssh",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "Unknown",
           "package": "ssh",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "Unknown",
           "package": "ssh",
@@ -539,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "WindowChange",
           "package": "ssh",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "WindowChange",
           "package": "ssh",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "X11Forwarding",
           "package": "ssh",
@@ -570,6 +621,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "X11Forwarding",
           "package": "ssh",
@@ -583,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "ccRequestHandler",
           "package": "ssh",
@@ -592,6 +645,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "ccRequestHandler",
           "normalized": "Bool-\u003eChannelRequest-\u003eChannel()",
@@ -607,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "chanLoop",
           "package": "ssh",
@@ -616,6 +671,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "chanLoop",
           "normalized": "Chan ChannelMessage-\u003eChannel()",
@@ -631,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "channelDone",
           "package": "ssh",
@@ -640,6 +697,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "channelDone",
           "normalized": "Channel()",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "channelError",
           "package": "ssh",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "channelError",
           "normalized": "String-\u003eChannel()",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "channelFail",
           "package": "ssh",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "channelFail",
           "normalized": "Channel()",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "channelMessage",
           "package": "ssh",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "channelMessage",
           "normalized": "String-\u003eChannel()",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "channelSuccess",
           "package": "ssh",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "channelSuccess",
           "normalized": "Channel()",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "csConfig",
           "package": "ssh",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "csConfig",
           "package": "ssh",
@@ -773,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "csDataReceived",
           "package": "ssh",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "csDataReceived",
           "package": "ssh",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "csID",
           "package": "ssh",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "csID",
           "package": "ssh",
@@ -817,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "csMaxPacket",
           "package": "ssh",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "csMaxPacket",
           "package": "ssh",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "csProcess",
           "package": "ssh",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "csProcess",
           "package": "ssh",
@@ -861,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "csRedirector",
           "package": "ssh",
@@ -870,6 +947,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "csRedirector",
           "package": "ssh",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "csSend",
           "package": "ssh",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "csSend",
           "normalized": "SenderMessage-\u003eIO()",
@@ -907,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "csTheirID",
           "package": "ssh",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "csTheirID",
           "package": "ssh",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "csTheirWindowSize",
           "package": "ssh",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "csTheirWindowSize",
           "package": "ssh",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "csUser",
           "package": "ssh",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "csUser",
           "package": "ssh",
@@ -973,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "csWindowSize",
           "package": "ssh",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "csWindowSize",
           "package": "ssh",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "defaultChannelConfig",
           "package": "ssh",
@@ -1004,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "defaultChannelConfig",
           "package": "ssh",
@@ -1017,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "newChannel",
           "package": "ssh",
@@ -1026,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "newChannel",
           "normalized": "ChannelConfig-\u003e(SenderMessage-\u003eIO())-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eString-\u003eIO(Chan ChannelMessage)",
@@ -1041,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "pError",
           "package": "ssh",
@@ -1050,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "pError",
           "package": "ssh",
@@ -1063,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "pHandle",
           "package": "ssh",
@@ -1072,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "pHandle",
           "package": "ssh",
@@ -1085,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "pIn",
           "package": "ssh",
@@ -1094,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "pIn",
           "package": "ssh",
@@ -1107,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "pOut",
           "package": "ssh",
@@ -1116,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "pOut",
           "package": "ssh",
@@ -1129,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "redirectHandle",
           "package": "ssh",
@@ -1138,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "redirectHandle",
           "normalized": "Chan()-\u003ePacket()-\u003eHandle-\u003eChannel()",
@@ -1153,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "sendChunks",
           "package": "ssh",
@@ -1162,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "sendChunks",
           "normalized": "a-\u003ePacket()-\u003eString-\u003eChannel()",
@@ -1177,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Channel",
           "name": "spawnProcess",
           "package": "ssh",
@@ -1186,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "SSH Channel",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Channel",
           "name": "spawnProcess",
           "normalized": "IO(Handle,Handle,Handle,ProcessHandle)-\u003eChannel()",
@@ -1201,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "Crypto",
           "package": "ssh",
@@ -1209,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "Crypto",
           "package": "ssh",
@@ -1222,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "Cipher",
           "package": "ssh",
@@ -1230,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "Cipher",
           "package": "ssh",
@@ -1243,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "CipherMode",
           "package": "ssh",
@@ -1251,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "CipherMode",
           "package": "ssh",
@@ -1264,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "CipherType",
           "package": "ssh",
@@ -1272,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "CipherType",
           "package": "ssh",
@@ -1285,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "HMAC",
           "package": "ssh",
@@ -1293,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "HMAC",
           "package": "ssh",
@@ -1306,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "KeyPair",
           "package": "ssh",
@@ -1314,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "KeyPair",
           "package": "ssh",
@@ -1327,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "PublicKey",
           "package": "ssh",
@@ -1335,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "PublicKey",
           "package": "ssh",
@@ -1348,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "AES",
           "package": "ssh",
@@ -1357,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "AES",
           "package": "ssh",
@@ -1370,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "CBC",
           "package": "ssh",
@@ -1379,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "CBC",
           "package": "ssh",
@@ -1392,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "Cipher",
           "package": "ssh",
@@ -1401,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "Cipher",
           "package": "ssh",
@@ -1414,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "DSAKeyPair",
           "package": "ssh",
@@ -1423,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "DSAKeyPair",
           "package": "ssh",
@@ -1436,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "DSAPublicKey",
           "package": "ssh",
@@ -1445,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "DSAPublicKey",
           "package": "ssh",
@@ -1458,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "HMAC",
           "package": "ssh",
@@ -1467,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "HMAC",
           "package": "ssh",
@@ -1480,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "RSAKeyPair",
           "package": "ssh",
@@ -1489,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "RSAKeyPair",
           "package": "ssh",
@@ -1502,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "RSAPublicKey",
           "package": "ssh",
@@ -1511,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "RSAPublicKey",
           "package": "ssh",
@@ -1524,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "blob",
           "package": "ssh",
@@ -1533,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "blob",
           "normalized": "PublicKey-\u003eByteString",
@@ -1547,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "blobToKey",
           "package": "ssh",
@@ -1556,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "blobToKey",
           "normalized": "ByteString-\u003ePublicKey",
@@ -1571,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "cBlockSize",
           "package": "ssh",
@@ -1580,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "cBlockSize",
           "package": "ssh",
@@ -1593,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "cKeySize",
           "package": "ssh",
@@ -1602,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "cKeySize",
           "package": "ssh",
@@ -1615,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "cMode",
           "package": "ssh",
@@ -1624,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "cMode",
           "package": "ssh",
@@ -1637,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "cType",
           "package": "ssh",
@@ -1646,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "cType",
           "package": "ssh",
@@ -1659,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "dprivPub",
           "package": "ssh",
@@ -1668,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "dprivPub",
           "package": "ssh",
@@ -1681,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "dprivX",
           "package": "ssh",
@@ -1690,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "dprivX",
           "package": "ssh",
@@ -1702,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "dpubG",
           "package": "ssh",
@@ -1711,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "dpubG",
           "package": "ssh",
@@ -1723,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "dpubP",
           "package": "ssh",
@@ -1732,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "dpubP",
           "package": "ssh",
@@ -1744,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "dpubQ",
           "package": "ssh",
@@ -1753,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "dpubQ",
           "package": "ssh",
@@ -1765,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "dpubY",
           "package": "ssh",
@@ -1774,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "dpubY",
           "package": "ssh",
@@ -1786,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "fromBlocks",
           "package": "ssh",
@@ -1795,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "fromBlocks",
           "normalized": "[ByteString]-\u003eByteString",
@@ -1810,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "generator",
           "package": "ssh",
@@ -1819,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "generator",
           "package": "ssh",
@@ -1831,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "hDigestSize",
           "package": "ssh",
@@ -1840,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "hDigestSize",
           "package": "ssh",
@@ -1853,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "hFunction",
           "package": "ssh",
@@ -1862,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "hFunction",
           "normalized": "ByteString-\u003eByteString",
@@ -1877,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "modexp",
           "package": "ssh",
@@ -1886,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "modexp",
           "normalized": "Integer-\u003eInteger-\u003eInteger-\u003eInteger",
@@ -1900,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "rprivD",
           "package": "ssh",
@@ -1909,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "rprivD",
           "package": "ssh",
@@ -1921,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "rprivPub",
           "package": "ssh",
@@ -1930,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "rprivPub",
           "package": "ssh",
@@ -1943,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "rpubE",
           "package": "ssh",
@@ -1952,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "rpubE",
           "package": "ssh",
@@ -1964,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "rpubN",
           "package": "ssh",
@@ -1973,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "rpubN",
           "package": "ssh",
@@ -1985,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "rsaKeyPairFromFile",
           "package": "ssh",
@@ -1994,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "rsaKeyPairFromFile",
           "normalized": "FilePath-\u003eIO KeyPair",
@@ -2009,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "safePrime",
           "package": "ssh",
@@ -2018,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "safePrime",
           "package": "ssh",
@@ -2031,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "sign",
           "package": "ssh",
@@ -2040,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "sign",
           "normalized": "KeyPair-\u003eByteString-\u003eIO ByteString",
@@ -2054,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Crypto",
           "name": "toBlocks",
           "package": "ssh",
@@ -2063,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "SSH Crypto",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Crypto",
           "name": "toBlocks",
           "normalized": "a-\u003eByteString-\u003e[ByteString]",
@@ -2078,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.NetReader",
           "name": "NetReader",
           "package": "ssh",
@@ -2086,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "SSH NetReader",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.NetReader",
           "name": "NetReader",
           "package": "ssh",
@@ -2099,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.NetReader",
           "name": "NetReader",
           "package": "ssh",
@@ -2107,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "SSH NetReader",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.NetReader",
           "name": "NetReader",
           "package": "ssh",
@@ -2120,6 +2310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.NetReader",
           "name": "readBool",
           "package": "ssh",
@@ -2129,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "SSH NetReader",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.NetReader",
           "name": "readBool",
           "package": "ssh",
@@ -2142,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.NetReader",
           "name": "readByte",
           "package": "ssh",
@@ -2151,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "SSH NetReader",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.NetReader",
           "name": "readByte",
           "package": "ssh",
@@ -2164,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.NetReader",
           "name": "readBytes",
           "package": "ssh",
@@ -2173,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "SSH NetReader",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.NetReader",
           "name": "readBytes",
           "normalized": "Int-\u003eNetReader ByteString",
@@ -2188,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.NetReader",
           "name": "readInteger",
           "package": "ssh",
@@ -2197,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "SSH NetReader",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.NetReader",
           "name": "readInteger",
           "package": "ssh",
@@ -2210,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.NetReader",
           "name": "readLBS",
           "package": "ssh",
@@ -2219,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "SSH NetReader",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.NetReader",
           "name": "readLBS",
           "package": "ssh",
@@ -2232,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.NetReader",
           "name": "readLong",
           "package": "ssh",
@@ -2241,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "SSH NetReader",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.NetReader",
           "name": "readLong",
           "package": "ssh",
@@ -2254,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.NetReader",
           "name": "readString",
           "package": "ssh",
@@ -2263,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "SSH NetReader",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.NetReader",
           "name": "readString",
           "package": "ssh",
@@ -2276,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.NetReader",
           "name": "readULong",
           "package": "ssh",
@@ -2285,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "SSH NetReader",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.NetReader",
           "name": "readULong",
           "package": "ssh",
@@ -2298,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "Packet",
           "package": "ssh",
@@ -2306,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "Packet",
           "package": "ssh",
@@ -2319,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "Packet",
           "package": "ssh",
@@ -2327,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "Packet",
           "package": "ssh",
@@ -2340,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "byte",
           "package": "ssh",
@@ -2349,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "byte",
           "normalized": "Word-\u003ePacket()",
@@ -2363,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "byteString",
           "package": "ssh",
@@ -2372,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "byteString",
           "normalized": "ByteString-\u003ePacket()",
@@ -2387,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "doPacket",
           "package": "ssh",
@@ -2396,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "doPacket",
           "normalized": "Packet a-\u003eByteString",
@@ -2411,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "integer",
           "package": "ssh",
@@ -2420,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "integer",
           "normalized": "Integer-\u003ePacket()",
@@ -2434,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "io",
           "package": "ssh",
@@ -2443,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "io",
           "normalized": "IO a-\u003eb a",
@@ -2457,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "long",
           "package": "ssh",
@@ -2466,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "long",
           "normalized": "Word-\u003ePacket()",
@@ -2480,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "makeKey",
           "package": "ssh",
@@ -2489,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "makeKey",
           "normalized": "Integer-\u003eByteString-\u003eChar-\u003eByteString",
@@ -2504,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "mpint",
           "package": "ssh",
@@ -2513,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "mpint",
           "normalized": "Integer-\u003eByteString",
@@ -2527,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "netLBS",
           "package": "ssh",
@@ -2536,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "netLBS",
           "normalized": "ByteString-\u003eByteString",
@@ -2551,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "netString",
           "package": "ssh",
@@ -2560,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "netString",
           "normalized": "String-\u003eByteString",
@@ -2575,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "packetLength",
           "package": "ssh",
@@ -2584,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "packetLength",
           "normalized": "Packet()-\u003eInt",
@@ -2599,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "raw",
           "package": "ssh",
@@ -2608,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "raw",
           "normalized": "ByteString-\u003ePacket()",
@@ -2622,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "rawString",
           "package": "ssh",
@@ -2631,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "rawString",
           "normalized": "String-\u003ePacket()",
@@ -2646,6 +2882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "string",
           "package": "ssh",
@@ -2655,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "string",
           "normalized": "String-\u003ePacket()",
@@ -2669,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Packet",
           "name": "unmpint",
           "package": "ssh",
@@ -2678,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "SSH Packet",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Packet",
           "name": "unmpint",
           "normalized": "ByteString-\u003eInteger",
@@ -2692,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "Sender",
           "package": "ssh",
@@ -2700,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "Sender",
           "package": "ssh",
@@ -2713,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "Sender",
           "package": "ssh",
@@ -2721,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "Sender",
           "package": "ssh",
@@ -2734,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "SenderMessage",
           "package": "ssh",
@@ -2742,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "SenderMessage",
           "package": "ssh",
@@ -2755,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "SenderState",
           "package": "ssh",
@@ -2763,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "SenderState",
           "package": "ssh",
@@ -2776,6 +3024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "GotKeys",
           "package": "ssh",
@@ -2785,6 +3034,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "GotKeys",
           "package": "ssh",
@@ -2798,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "NoKeys",
           "package": "ssh",
@@ -2807,6 +3058,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "NoKeys",
           "package": "ssh",
@@ -2820,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "Prepare",
           "package": "ssh",
@@ -2829,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "Prepare",
           "package": "ssh",
@@ -2842,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "Send",
           "package": "ssh",
@@ -2851,6 +3106,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "Send",
           "package": "ssh",
@@ -2864,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "StartEncrypting",
           "package": "ssh",
@@ -2873,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "StartEncrypting",
           "package": "ssh",
@@ -2886,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "Stop",
           "package": "ssh",
@@ -2895,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "Stop",
           "package": "ssh",
@@ -2908,6 +3168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "encrypt",
           "package": "ssh",
@@ -2917,6 +3178,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "encrypt",
           "normalized": "Cipher-\u003eByteString-\u003eByteString-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -2931,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "send",
           "package": "ssh",
@@ -2940,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "send",
           "normalized": "SenderMessage-\u003ea()",
@@ -2954,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "sendPacket",
           "package": "ssh",
@@ -2963,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "sendPacket",
           "normalized": "Packet()-\u003ea()",
@@ -2978,6 +3244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "sender",
           "package": "ssh",
@@ -2987,6 +3254,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "sender",
           "normalized": "Chan SenderMessage-\u003eSenderState-\u003eIO()",
@@ -3001,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "senderCipher",
           "package": "ssh",
@@ -3010,6 +3279,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "senderCipher",
           "package": "ssh",
@@ -3023,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "senderEncrypting",
           "package": "ssh",
@@ -3032,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "senderEncrypting",
           "package": "ssh",
@@ -3045,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "senderHMAC",
           "package": "ssh",
@@ -3054,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "senderHMAC",
           "package": "ssh",
@@ -3067,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "senderKey",
           "package": "ssh",
@@ -3076,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "senderKey",
           "package": "ssh",
@@ -3089,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "senderOutSeq",
           "package": "ssh",
@@ -3098,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "senderOutSeq",
           "package": "ssh",
@@ -3111,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "senderThem",
           "package": "ssh",
@@ -3120,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "senderThem",
           "package": "ssh",
@@ -3133,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Sender",
           "name": "senderVector",
           "package": "ssh",
@@ -3142,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "SSH Sender",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Sender",
           "name": "senderVector",
           "package": "ssh",
@@ -3155,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "Session",
           "package": "ssh",
@@ -3163,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "Session",
           "package": "ssh",
@@ -3176,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "Authorize",
           "package": "ssh",
@@ -3184,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "Authorize",
           "package": "ssh",
@@ -3197,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "Session",
           "package": "ssh",
@@ -3205,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "Session",
           "package": "ssh",
@@ -3218,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "SessionConfig",
           "package": "ssh",
@@ -3226,6 +3515,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "SessionConfig",
           "package": "ssh",
@@ -3239,6 +3529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "SessionState",
           "package": "ssh",
@@ -3247,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "SessionState",
           "package": "ssh",
@@ -3260,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "Final",
           "package": "ssh",
@@ -3269,6 +3562,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "Final",
           "package": "ssh",
@@ -3282,6 +3576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "GotKEXInit",
           "package": "ssh",
@@ -3291,6 +3586,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "GotKEXInit",
           "package": "ssh",
@@ -3304,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "Initial",
           "package": "ssh",
@@ -3313,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "Initial",
           "package": "ssh",
@@ -3326,6 +3624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "Password",
           "package": "ssh",
@@ -3335,6 +3634,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "Password",
           "package": "ssh",
@@ -3348,6 +3648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "PublicKey",
           "package": "ssh",
@@ -3357,6 +3658,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "PublicKey",
           "package": "ssh",
@@ -3370,6 +3672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "SessionConfig",
           "package": "ssh",
@@ -3379,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "SessionConfig",
           "package": "ssh",
@@ -3392,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "decrypt",
           "package": "ssh",
@@ -3401,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "decrypt",
           "normalized": "ByteString-\u003eSession ByteString",
@@ -3415,6 +3721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "defaultSessionConfig",
           "package": "ssh",
@@ -3424,6 +3731,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "defaultSessionConfig",
           "package": "ssh",
@@ -3437,6 +3745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "getChannel",
           "package": "ssh",
@@ -3446,6 +3755,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "getChannel",
           "normalized": "Word-\u003eSession(Chan ChannelMessage)",
@@ -3461,6 +3771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "getPacket",
           "package": "ssh",
@@ -3470,6 +3781,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "getPacket",
           "normalized": "Session()",
@@ -3485,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "net",
           "package": "ssh",
@@ -3494,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "net",
           "normalized": "NetReader a-\u003eSession a",
@@ -3508,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "newChannelID",
           "package": "ssh",
@@ -3517,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "newChannelID",
           "package": "ssh",
@@ -3530,6 +3846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "scAuthMethods",
           "package": "ssh",
@@ -3539,6 +3856,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "scAuthMethods",
           "normalized": "[String]",
@@ -3554,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "scAuthorize",
           "package": "ssh",
@@ -3563,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "scAuthorize",
           "normalized": "Authorize-\u003eSession Bool",
@@ -3578,6 +3898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "scKeyPair",
           "package": "ssh",
@@ -3587,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "scKeyPair",
           "package": "ssh",
@@ -3600,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssChannelConfig",
           "package": "ssh",
@@ -3609,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssChannelConfig",
           "package": "ssh",
@@ -3622,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssChannels",
           "package": "ssh",
@@ -3631,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssChannels",
           "package": "ssh",
@@ -3644,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssConfig",
           "package": "ssh",
@@ -3653,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssConfig",
           "package": "ssh",
@@ -3666,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssGotNEWKEYS",
           "package": "ssh",
@@ -3675,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssGotNEWKEYS",
           "package": "ssh",
@@ -3688,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssID",
           "package": "ssh",
@@ -3697,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssID",
           "package": "ssh",
@@ -3710,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssInCipher",
           "package": "ssh",
@@ -3719,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssInCipher",
           "package": "ssh",
@@ -3732,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssInHMAC",
           "package": "ssh",
@@ -3741,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssInHMAC",
           "package": "ssh",
@@ -3754,6 +4090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssInHMACPrep",
           "package": "ssh",
@@ -3763,6 +4100,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssInHMACPrep",
           "normalized": "ByteString-\u003eHMAC",
@@ -3778,6 +4116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssInKey",
           "package": "ssh",
@@ -3787,6 +4126,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssInKey",
           "package": "ssh",
@@ -3800,6 +4140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssInSeq",
           "package": "ssh",
@@ -3809,6 +4150,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssInSeq",
           "package": "ssh",
@@ -3822,6 +4164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssInVector",
           "package": "ssh",
@@ -3831,6 +4174,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssInVector",
           "package": "ssh",
@@ -3844,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssOurKEXInit",
           "package": "ssh",
@@ -3853,6 +4198,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssOurKEXInit",
           "package": "ssh",
@@ -3866,6 +4212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssOutCipher",
           "package": "ssh",
@@ -3875,6 +4222,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssOutCipher",
           "package": "ssh",
@@ -3888,6 +4236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssOutHMACPrep",
           "package": "ssh",
@@ -3897,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssOutHMACPrep",
           "normalized": "ByteString-\u003eHMAC",
@@ -3912,6 +4262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssPayload",
           "package": "ssh",
@@ -3921,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssPayload",
           "package": "ssh",
@@ -3934,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssSend",
           "package": "ssh",
@@ -3943,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssSend",
           "normalized": "SenderMessage-\u003eIO()",
@@ -3958,6 +4312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssTheirKEXInit",
           "package": "ssh",
@@ -3967,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssTheirKEXInit",
           "package": "ssh",
@@ -3980,6 +4336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssTheirVersion",
           "package": "ssh",
@@ -3989,6 +4346,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssTheirVersion",
           "package": "ssh",
@@ -4002,6 +4360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssThem",
           "package": "ssh",
@@ -4011,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssThem",
           "package": "ssh",
@@ -4024,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH.Session",
           "name": "ssUser",
           "package": "ssh",
@@ -4033,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "SSH Session",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH.Session",
           "name": "ssUser",
           "package": "ssh",
@@ -4046,6 +4408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "SSH",
           "package": "ssh",
@@ -4054,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "SSH",
           "package": "ssh",
@@ -4067,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "channelOpen",
           "package": "ssh",
@@ -4076,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "channelOpen",
           "normalized": "Session()",
@@ -4091,6 +4457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "channelRequest",
           "package": "ssh",
@@ -4100,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "channelRequest",
           "normalized": "Session()",
@@ -4115,6 +4483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "dataReceived",
           "package": "ssh",
@@ -4124,6 +4493,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "dataReceived",
           "normalized": "Session()",
@@ -4139,6 +4509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "eofReceived",
           "package": "ssh",
@@ -4148,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "eofReceived",
           "normalized": "Session()",
@@ -4163,6 +4535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "kexDHInit",
           "package": "ssh",
@@ -4172,6 +4545,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "kexDHInit",
           "normalized": "Session()",
@@ -4187,6 +4561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "kexInit",
           "package": "ssh",
@@ -4196,6 +4571,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "kexInit",
           "normalized": "Session()",
@@ -4211,6 +4587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "newKeys",
           "package": "ssh",
@@ -4220,6 +4597,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "newKeys",
           "normalized": "Session()",
@@ -4235,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "readLoop",
           "package": "ssh",
@@ -4244,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "readLoop",
           "normalized": "Session()",
@@ -4259,6 +4639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "serviceRequest",
           "package": "ssh",
@@ -4268,6 +4649,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "serviceRequest",
           "normalized": "Session()",
@@ -4283,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "start",
           "package": "ssh",
@@ -4292,6 +4675,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "start",
           "normalized": "SessionConfig-\u003eChannelConfig-\u003ePortNumber-\u003eIO()",
@@ -4306,6 +4690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "supportedCiphers",
           "package": "ssh",
@@ -4315,6 +4700,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "supportedCiphers",
           "normalized": "[(String,Cipher)]",
@@ -4330,6 +4716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "supportedCompression",
           "package": "ssh",
@@ -4339,6 +4726,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "supportedCompression",
           "package": "ssh",
@@ -4352,6 +4740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "supportedKeyAlgorithms",
           "package": "ssh",
@@ -4361,6 +4750,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "supportedKeyAlgorithms",
           "normalized": "[String]",
@@ -4376,6 +4766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "supportedKeyExchanges",
           "package": "ssh",
@@ -4385,6 +4776,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "supportedKeyExchanges",
           "normalized": "[String]",
@@ -4400,6 +4792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "supportedLanguages",
           "package": "ssh",
@@ -4409,6 +4802,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "supportedLanguages",
           "package": "ssh",
@@ -4422,6 +4816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "supportedMACs",
           "package": "ssh",
@@ -4431,6 +4826,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "supportedMACs",
           "normalized": "[(String,ByteString-\u003eHMAC)]",
@@ -4446,6 +4842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "userAuthRequest",
           "package": "ssh",
@@ -4455,6 +4852,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "userAuthRequest",
           "normalized": "Session()",
@@ -4470,6 +4868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "version",
           "package": "ssh",
@@ -4479,6 +4878,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "version",
           "package": "ssh",
@@ -4491,6 +4891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:18 UTC 2014",
           "module": "SSH",
           "name": "waitLoop",
           "package": "ssh",
@@ -4500,6 +4901,7 @@
         },
         "index": {
           "hierarchy": "SSH",
+          "indexed": "2014-03-11T20:09:18",
           "module": "SSH",
           "name": "waitLoop",
           "normalized": "SessionConfig-\u003eChannelConfig-\u003eSocket-\u003eIO()",

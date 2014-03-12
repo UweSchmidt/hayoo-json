@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CMCompare"
+        "phrase": "CMCompare",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis program compares two Infernal covariance models with each other.\n Based on the Infernal CM scoring mechanism, a Link sequence and Link score\n are calculated. The Link sequence is defined as the sequence scoring highest\n in both models simultanuously.\n\u003c/p\u003e\u003cp\u003eThe complete algorithm is described in:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eChristian H&#246;ner zu Siederdissen, and Ivo L. Hofacker. 2010. Discriminatory\n power of RNA family models. Bioinformatics 26, no. 18: 453&#8211;59.\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://bioinformatics.oxfordjournals.org/content/26/18/i453.long\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eNOTE always use coverage analysis to find out, if we really used all code\n paths (in long models, if a path is not taken, there is a bug)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:35 UTC 2014",
           "module": "BioInf.CMCompare",
           "name": "CMCompare",
           "package": "CMCompare",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This program compares two Infernal covariance models with each other Based on the Infernal CM scoring mechanism Link sequence and Link score are calculated The Link sequence is defined as the sequence scoring highest in both models simultanuously The complete algorithm is described in Christian ner zu Siederdissen and Ivo Hofacker Discriminatory power of RNA family models Bioinformatics no http bioinformatics.oxfordjournals.org content i453.long NOTE always use coverage analysis to find out if we really used all code paths in long models if path is not taken there is bug",
           "hierarchy": "BioInf CMCompare",
+          "indexed": "2014-03-11T16:35:35",
           "module": "BioInf.CMCompare",
           "name": "CMCompare",
           "package": "CMCompare",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the optimization functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:35 UTC 2014",
           "module": "BioInf.CMCompare",
           "name": "Opt",
           "package": "CMCompare",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type of the optimization functions",
           "hierarchy": "BioInf CMCompare",
+          "indexed": "2014-03-11T16:35:35",
           "module": "BioInf.CMCompare",
           "name": "Opt",
           "package": "CMCompare",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlgebra product operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:35 UTC 2014",
           "module": "BioInf.CMCompare",
           "name": "(\u003c*\u003e)",
           "package": "CMCompare",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Algebra product operation",
           "hierarchy": "BioInf CMCompare",
+          "indexed": "2014-03-11T16:35:35",
           "module": "BioInf.CMCompare",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "Opt a-\u003eOpt b-\u003eOpt(a,b)",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the cyk optimal score over both models.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:35 UTC 2014",
           "module": "BioInf.CMCompare",
           "name": "cykMaxiMin",
           "package": "CMCompare",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Calculates the cyk optimal score over both models",
           "hierarchy": "BioInf CMCompare",
+          "indexed": "2014-03-11T16:35:35",
           "module": "BioInf.CMCompare",
           "name": "cykMaxiMin",
           "package": "CMCompare",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDotbracket notation, again with an endmarker, to see the secondary\n structure corresponding to the rnastring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:35 UTC 2014",
           "module": "BioInf.CMCompare",
           "name": "dotBracket",
           "package": "CMCompare",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Dotbracket notation again with an endmarker to see the secondary structure corresponding to the rnastring",
           "hierarchy": "BioInf CMCompare",
+          "indexed": "2014-03-11T16:35:35",
           "module": "BioInf.CMCompare",
           "name": "dotBracket",
           "normalized": "Bool-\u003eOpt String",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetailed output of the different states, that were visited.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:35 UTC 2014",
           "module": "BioInf.CMCompare",
           "name": "extendedOutput",
           "package": "CMCompare",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Detailed output of the different states that were visited",
           "hierarchy": "BioInf CMCompare",
+          "indexed": "2014-03-11T16:35:35",
           "module": "BioInf.CMCompare",
           "name": "extendedOutput",
           "package": "CMCompare",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursion in two CMs simultanously.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:35 UTC 2014",
           "module": "BioInf.CMCompare",
           "name": "recurse",
           "package": "CMCompare",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Recursion in two CMs simultanously",
           "hierarchy": "BioInf CMCompare",
+          "indexed": "2014-03-11T16:35:35",
           "module": "BioInf.CMCompare",
           "name": "recurse",
           "normalized": "Bool-\u003eOpt a-\u003eCM-\u003eCM-\u003eArray(StateID,StateID)[(a,a)]",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the nucleotide sequence leading to the score. uses an optional\n endmarker to denote end states. the string is the same for both models. this\n is the only Opt function, currently, for which this is true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:35 UTC 2014",
           "module": "BioInf.CMCompare",
           "name": "rnaString",
           "package": "CMCompare",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Return the nucleotide sequence leading to the score uses an optional endmarker to denote end states the string is the same for both models this is the only Opt function currently for which this is true",
           "hierarchy": "BioInf CMCompare",
+          "indexed": "2014-03-11T16:35:35",
           "module": "BioInf.CMCompare",
           "name": "rnaString",
           "normalized": "Bool-\u003eOpt[Char]",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the nodes which were visited to get the score. the last node can\n occur multiple times. if it does, local end transitions were used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:35 UTC 2014",
           "module": "BioInf.CMCompare",
           "name": "visitedNodes",
           "package": "CMCompare",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Show the nodes which were visited to get the score the last node can occur multiple times if it does local end transitions were used",
           "hierarchy": "BioInf CMCompare",
+          "indexed": "2014-03-11T16:35:35",
           "module": "BioInf.CMCompare",
           "name": "visitedNodes",
           "normalized": "Opt[NodeID]",

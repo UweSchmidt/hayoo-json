@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-twitterarchiver"
+        "phrase": "hs-twitterarchiver",
+        "type": "phrase"
       },
       "type": "context"
     }

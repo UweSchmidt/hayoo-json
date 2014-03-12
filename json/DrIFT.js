@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DrIFT"
+        "phrase": "DrIFT",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:17 UTC 2014",
           "module": "DrIFT.Version",
           "name": "Version",
           "package": "DrIFT",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Version",
+          "indexed": "2014-03-11T16:39:17",
           "module": "DrIFT.Version",
           "name": "Version",
           "package": "DrIFT",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:17 UTC 2014",
           "module": "DrIFT.Version",
           "name": "fullName",
           "package": "DrIFT",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Version",
+          "indexed": "2014-03-11T16:39:17",
           "module": "DrIFT.Version",
           "name": "fullName",
           "package": "DrIFT",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:17 UTC 2014",
           "module": "DrIFT.Version",
           "name": "package",
           "package": "DrIFT",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Version",
+          "indexed": "2014-03-11T16:39:17",
           "module": "DrIFT.Version",
           "name": "package",
           "package": "DrIFT",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:17 UTC 2014",
           "module": "DrIFT.Version",
           "name": "version",
           "package": "DrIFT",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Version",
+          "indexed": "2014-03-11T16:39:17",
           "module": "DrIFT.Version",
           "name": "version",
           "package": "DrIFT",

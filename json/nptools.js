@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nptools"
+        "phrase": "nptools",
+        "type": "phrase"
       },
       "type": "context"
     }

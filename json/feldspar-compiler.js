@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "feldspar-compiler"
+        "phrase": "feldspar-compiler",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "CodeGeneration",
           "package": "feldspar-compiler",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "CodeGeneration",
           "package": "feldspar-compiler",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "ToC",
           "package": "feldspar-compiler",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "ToC",
           "package": "feldspar-compiler",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "arrayTypeName",
           "package": "feldspar-compiler",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "arrayTypeName",
           "package": "feldspar-compiler",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "codeGenerationError",
           "package": "feldspar-compiler",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "codeGenerationError",
           "normalized": "ErrorClass-\u003eString-\u003ea",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "decrArrayDepth",
           "package": "feldspar-compiler",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "decrArrayDepth",
           "normalized": "Type-\u003eType",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "defaultMemberName",
           "package": "feldspar-compiler",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "defaultMemberName",
           "package": "feldspar-compiler",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "getStructFieldType",
           "package": "feldspar-compiler",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "getStructFieldType",
           "normalized": "String-\u003eType-\u003eType",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "getStructTypeName",
           "package": "feldspar-compiler",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "getStructTypeName",
           "normalized": "Options-\u003ePlace-\u003eType-\u003eString",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "ind",
           "package": "feldspar-compiler",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "ind",
           "normalized": "(a-\u003eString)-\u003ea-\u003eString",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "ivarTypeName",
           "package": "feldspar-compiler",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "ivarTypeName",
           "package": "feldspar-compiler",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "listprint",
           "package": "feldspar-compiler",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "listprint",
           "normalized": "(a-\u003eString)-\u003eString-\u003e[a]-\u003eString",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "passByReference",
           "package": "feldspar-compiler",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "passByReference",
           "normalized": "Type-\u003eBool",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "showName",
           "package": "feldspar-compiler",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "showName",
           "normalized": "VariableRole-\u003ePlace-\u003eType-\u003eString-\u003eString",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "showType",
           "package": "feldspar-compiler",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "showType",
           "normalized": "Options-\u003eVariableRole-\u003ePlace-\u003eType-\u003eIsRestrict-\u003eString",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "showVariable",
           "package": "feldspar-compiler",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "showVariable",
           "normalized": "Options-\u003ePlace-\u003eVariableRole-\u003eType-\u003eString-\u003eString",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "structFieldNotFound",
           "package": "feldspar-compiler",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "structFieldNotFound",
           "normalized": "String-\u003ea",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "toC",
           "package": "feldspar-compiler",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C CodeGeneration",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.CodeGeneration",
           "name": "toC",
           "normalized": "Options-\u003ePlace-\u003ea-\u003eString",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "Library",
           "package": "feldspar-compiler",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "Library",
           "package": "feldspar-compiler",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "AllocationInfo",
           "package": "feldspar-compiler",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "AllocationInfo",
           "package": "feldspar-compiler",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "CompilationMode",
           "package": "feldspar-compiler",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "CompilationMode",
           "package": "feldspar-compiler",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "Interactive",
           "package": "feldspar-compiler",
@@ -483,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "Interactive",
           "package": "feldspar-compiler",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "Standalone",
           "package": "feldspar-compiler",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "Standalone",
           "package": "feldspar-compiler",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "fixFunctionName",
           "package": "feldspar-compiler",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "fixFunctionName",
           "normalized": "String-\u003eString",
@@ -542,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "makeCFileName",
           "package": "feldspar-compiler",
@@ -551,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "makeCFileName",
           "normalized": "String-\u003eString",
@@ -566,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "makeDebugCFileName",
           "package": "feldspar-compiler",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "makeDebugCFileName",
           "normalized": "String-\u003eString",
@@ -590,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "makeDebugHFileName",
           "package": "feldspar-compiler",
@@ -599,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "makeDebugHFileName",
           "normalized": "String-\u003eString",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "makeHFileName",
           "package": "feldspar-compiler",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "makeHFileName",
           "normalized": "String-\u003eString",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "newName",
           "package": "feldspar-compiler",
@@ -647,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "newName",
           "normalized": "String-\u003eStateT Integer a String",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "replace",
           "package": "feldspar-compiler",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "replace",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "withColor",
           "package": "feldspar-compiler",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Library",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Library",
           "name": "withColor",
           "normalized": "Color-\u003eIO()-\u003eIO()",
@@ -709,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Options",
           "package": "feldspar-compiler",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Options",
           "package": "feldspar-compiler",
@@ -730,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Action",
           "package": "feldspar-compiler",
@@ -738,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Action",
           "package": "feldspar-compiler",
@@ -751,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "DebugOption",
           "package": "feldspar-compiler",
@@ -759,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "DebugOption",
           "package": "feldspar-compiler",
@@ -772,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "IsRestrict",
           "package": "feldspar-compiler",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "IsRestrict",
           "package": "feldspar-compiler",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Options",
           "package": "feldspar-compiler",
@@ -801,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Options",
           "package": "feldspar-compiler",
@@ -814,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Platform",
           "package": "feldspar-compiler",
@@ -822,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Platform",
           "package": "feldspar-compiler",
@@ -835,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Rule",
           "package": "feldspar-compiler",
@@ -843,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Rule",
           "package": "feldspar-compiler",
@@ -856,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "ShowValue",
           "package": "feldspar-compiler",
@@ -864,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "ShowValue",
           "package": "feldspar-compiler",
@@ -877,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "UnrollStrategy",
           "package": "feldspar-compiler",
@@ -885,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "UnrollStrategy",
           "package": "feldspar-compiler",
@@ -898,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "NoDebug",
           "package": "feldspar-compiler",
@@ -907,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "NoDebug",
           "package": "feldspar-compiler",
@@ -920,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "NoPrimitiveInstructionHandling",
           "package": "feldspar-compiler",
@@ -929,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "NoPrimitiveInstructionHandling",
           "package": "feldspar-compiler",
@@ -942,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "NoRestrict",
           "package": "feldspar-compiler",
@@ -951,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "NoRestrict",
           "package": "feldspar-compiler",
@@ -964,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "NoUnroll",
           "package": "feldspar-compiler",
@@ -973,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "NoUnroll",
           "package": "feldspar-compiler",
@@ -986,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Options",
           "package": "feldspar-compiler",
@@ -995,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Options",
           "package": "feldspar-compiler",
@@ -1008,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Platform",
           "package": "feldspar-compiler",
@@ -1017,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Platform",
           "package": "feldspar-compiler",
@@ -1030,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Propagate",
           "package": "feldspar-compiler",
@@ -1039,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Propagate",
           "package": "feldspar-compiler",
@@ -1052,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Replace",
           "package": "feldspar-compiler",
@@ -1061,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Replace",
           "package": "feldspar-compiler",
@@ -1074,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Restrict",
           "package": "feldspar-compiler",
@@ -1083,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Restrict",
           "package": "feldspar-compiler",
@@ -1096,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Rule",
           "package": "feldspar-compiler",
@@ -1105,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Rule",
           "normalized": "(a-\u003e[Action a])-\u003eRule",
@@ -1120,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Unroll",
           "package": "feldspar-compiler",
@@ -1129,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "Unroll",
           "package": "feldspar-compiler",
@@ -1142,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "WithId",
           "package": "feldspar-compiler",
@@ -1151,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "WithId",
           "normalized": "WithId(Int-\u003e[Action a])",
@@ -1166,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "WithOptions",
           "package": "feldspar-compiler",
@@ -1175,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "WithOptions",
           "normalized": "WithOptions(Options-\u003e[Action a])",
@@ -1190,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "debug",
           "package": "feldspar-compiler",
@@ -1199,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "debug",
           "package": "feldspar-compiler",
@@ -1211,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "includes",
           "package": "feldspar-compiler",
@@ -1220,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "includes",
           "normalized": "[String]",
@@ -1234,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "isRestrict",
           "package": "feldspar-compiler",
@@ -1243,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "isRestrict",
           "package": "feldspar-compiler",
@@ -1256,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "memoryInfoVisible",
           "package": "feldspar-compiler",
@@ -1265,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "memoryInfoVisible",
           "package": "feldspar-compiler",
@@ -1278,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "name",
           "package": "feldspar-compiler",
@@ -1287,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "name",
           "package": "feldspar-compiler",
@@ -1299,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "platform",
           "package": "feldspar-compiler",
@@ -1308,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "platform",
           "package": "feldspar-compiler",
@@ -1320,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "platformRules",
           "package": "feldspar-compiler",
@@ -1329,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "platformRules",
           "normalized": "[Rule]",
@@ -1344,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "propagate",
           "package": "feldspar-compiler",
@@ -1353,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "propagate",
           "normalized": "(a-\u003e[Action(Repr a)])-\u003eAction b",
@@ -1367,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "replaceWith",
           "package": "feldspar-compiler",
@@ -1376,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "replaceWith",
           "normalized": "a-\u003eAction(Repr a)",
@@ -1391,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "rule",
           "package": "feldspar-compiler",
@@ -1400,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "rule",
           "normalized": "(a-\u003e[Action(Repr a)])-\u003eRule",
@@ -1414,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "rules",
           "package": "feldspar-compiler",
@@ -1423,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "rules",
           "normalized": "[Rule]",
@@ -1437,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "types",
           "package": "feldspar-compiler",
@@ -1446,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "types",
           "normalized": "[(Type,String,String)]",
@@ -1460,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "unroll",
           "package": "feldspar-compiler",
@@ -1469,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "unroll",
           "package": "feldspar-compiler",
@@ -1481,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "values",
           "package": "feldspar-compiler",
@@ -1490,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Options",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Options",
           "name": "values",
           "normalized": "[(Type,ShowValue)]",
@@ -1504,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "Platforms",
           "package": "feldspar-compiler",
@@ -1512,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Platforms",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "Platforms",
           "package": "feldspar-compiler",
@@ -1525,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "availablePlatforms",
           "package": "feldspar-compiler",
@@ -1534,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Platforms",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "availablePlatforms",
           "normalized": "[Platform]",
@@ -1549,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "c99",
           "package": "feldspar-compiler",
@@ -1558,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Platforms",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "c99",
           "package": "feldspar-compiler",
@@ -1570,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "c99Rules",
           "package": "feldspar-compiler",
@@ -1579,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Platforms",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "c99Rules",
           "normalized": "[Rule]",
@@ -1594,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "tic64x",
           "package": "feldspar-compiler",
@@ -1603,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Platforms",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "tic64x",
           "package": "feldspar-compiler",
@@ -1615,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "tic64xRules",
           "package": "feldspar-compiler",
@@ -1624,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Platforms",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "tic64xRules",
           "normalized": "[Rule]",
@@ -1639,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "traceRules",
           "package": "feldspar-compiler",
@@ -1648,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Platforms",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Platforms",
           "name": "traceRules",
           "normalized": "[Rule]",
@@ -1663,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.BlockProgramHandler",
           "name": "BlockProgramHandler",
           "package": "feldspar-compiler",
@@ -1671,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin BlockProgramHandler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.BlockProgramHandler",
           "name": "BlockProgramHandler",
           "package": "feldspar-compiler",
@@ -1684,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.BlockProgramHandler",
           "name": "BlockProgramHandler",
           "package": "feldspar-compiler",
@@ -1692,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin BlockProgramHandler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.BlockProgramHandler",
           "name": "BlockProgramHandler",
           "package": "feldspar-compiler",
@@ -1705,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.BlockProgramHandler",
           "name": "BlockProgramHandler",
           "package": "feldspar-compiler",
@@ -1714,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin BlockProgramHandler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.BlockProgramHandler",
           "name": "BlockProgramHandler",
           "package": "feldspar-compiler",
@@ -1727,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "Locator",
           "package": "feldspar-compiler",
@@ -1735,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "Locator",
           "package": "feldspar-compiler",
@@ -1748,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgAssign",
           "package": "feldspar-compiler",
@@ -1756,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgAssign",
           "package": "feldspar-compiler",
@@ -1769,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgBranch",
           "package": "feldspar-compiler",
@@ -1777,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgBranch",
           "package": "feldspar-compiler",
@@ -1790,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgParLoop",
           "package": "feldspar-compiler",
@@ -1798,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgParLoop",
           "package": "feldspar-compiler",
@@ -1811,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgProcCall",
           "package": "feldspar-compiler",
@@ -1819,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgProcCall",
           "package": "feldspar-compiler",
@@ -1832,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgSeqLoop",
           "package": "feldspar-compiler",
@@ -1840,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgSeqLoop",
           "package": "feldspar-compiler",
@@ -1853,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgAssign",
           "package": "feldspar-compiler",
@@ -1862,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgAssign",
           "package": "feldspar-compiler",
@@ -1875,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgBranch",
           "package": "feldspar-compiler",
@@ -1884,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgBranch",
           "package": "feldspar-compiler",
@@ -1897,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgParLoop",
           "package": "feldspar-compiler",
@@ -1906,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgParLoop",
           "package": "feldspar-compiler",
@@ -1919,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgProcCall",
           "package": "feldspar-compiler",
@@ -1928,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgProcCall",
           "package": "feldspar-compiler",
@@ -1941,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgSeqLoop",
           "package": "feldspar-compiler",
@@ -1950,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "GetPrgSeqLoop",
           "package": "feldspar-compiler",
@@ -1963,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "contains",
           "package": "feldspar-compiler",
@@ -1972,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "contains",
           "normalized": "(a,b)-\u003e((a,b),(a,b))-\u003eBool",
@@ -1986,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "getPrgAssign",
           "package": "feldspar-compiler",
@@ -1995,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "getPrgAssign",
           "normalized": "(Int,Int)-\u003eModule DebugToCSemanticInfo-\u003e(Bool,Program DebugToCSemanticInfo)",
@@ -2010,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "getPrgBranch",
           "package": "feldspar-compiler",
@@ -2019,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "getPrgBranch",
           "normalized": "(Int,Int)-\u003eModule DebugToCSemanticInfo-\u003e(Bool,Program DebugToCSemanticInfo)",
@@ -2034,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "getPrgParLoop",
           "package": "feldspar-compiler",
@@ -2043,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "getPrgParLoop",
           "normalized": "(Int,Int)-\u003eModule DebugToCSemanticInfo-\u003e(Bool,Program DebugToCSemanticInfo)",
@@ -2058,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "getPrgProcCall",
           "package": "feldspar-compiler",
@@ -2067,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "getPrgProcCall",
           "normalized": "(Int,Int)-\u003eModule DebugToCSemanticInfo-\u003e(Bool,Program DebugToCSemanticInfo)",
@@ -2082,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "getPrgSeqLoop",
           "package": "feldspar-compiler",
@@ -2091,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "getPrgSeqLoop",
           "normalized": "(Int,Int)-\u003eModule DebugToCSemanticInfo-\u003e(Bool,Program DebugToCSemanticInfo)",
@@ -2106,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "myShow",
           "package": "feldspar-compiler",
@@ -2115,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "myShow",
           "normalized": "Program DebugToCSemanticInfo-\u003eString",
@@ -2130,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "myShowB",
           "package": "feldspar-compiler",
@@ -2139,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Locator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Locator",
           "name": "myShowB",
           "normalized": "Block DebugToCSemanticInfo-\u003eString",
@@ -2154,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "PrettyPrint",
           "package": "feldspar-compiler",
@@ -2162,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "PrettyPrint",
           "package": "feldspar-compiler",
@@ -2175,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "DebugToC",
           "package": "feldspar-compiler",
@@ -2183,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "DebugToC",
           "package": "feldspar-compiler",
@@ -2196,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "DebugToCSemanticInfo",
           "package": "feldspar-compiler",
@@ -2204,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "DebugToCSemanticInfo",
           "package": "feldspar-compiler",
@@ -2217,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "DebugToC",
           "package": "feldspar-compiler",
@@ -2226,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "DebugToC",
           "package": "feldspar-compiler",
@@ -2239,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "addIndent",
           "package": "feldspar-compiler",
@@ -2248,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "addIndent",
           "normalized": "Int-\u003eInt",
@@ -2263,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "code",
           "package": "feldspar-compiler",
@@ -2272,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "code",
           "normalized": "[Char]-\u003ea()",
@@ -2286,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "compToC",
           "package": "feldspar-compiler",
@@ -2295,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "compToC",
           "normalized": "((Options,Place),Int)-\u003eModule()-\u003e(String,(Int,Int))",
@@ -2310,6 +2514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "compToCWithInfos",
           "package": "feldspar-compiler",
@@ -2319,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "compToCWithInfos",
           "normalized": "((Options,Place),Int)-\u003eModule()-\u003e(Module DebugToCSemanticInfo,(String,(Int,Int)))",
@@ -2334,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "complexTransform",
           "package": "feldspar-compiler",
@@ -2343,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "complexTransform",
           "normalized": "a-\u003eDown a-\u003eb(From a)-\u003ec(Result a b)",
@@ -2358,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "defaultState",
           "package": "feldspar-compiler",
@@ -2367,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "defaultState",
           "normalized": "Int-\u003eInt-\u003e(String,Int,Int)",
@@ -2382,6 +2592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "displayComment",
           "package": "feldspar-compiler",
@@ -2391,6 +2602,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "displayComment",
           "normalized": "Int-\u003e[String]-\u003eString",
@@ -2406,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "displayMemInfo",
           "package": "feldspar-compiler",
@@ -2415,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "displayMemInfo",
           "normalized": "String-\u003e[Type]-\u003eString",
@@ -2430,6 +2644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "displayType",
           "package": "feldspar-compiler",
@@ -2439,6 +2654,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "displayType",
           "normalized": "Type-\u003eString",
@@ -2454,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "indenter",
           "package": "feldspar-compiler",
@@ -2463,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "indenter",
           "normalized": "Int-\u003ea()",
@@ -2477,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "monadicListTransform'",
           "package": "feldspar-compiler",
@@ -2486,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "monadicListTransform'",
           "normalized": "a-\u003eDown a-\u003eb(c(From a))-\u003ed(Result a b c)",
@@ -2501,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "monadicTransform'",
           "package": "feldspar-compiler",
@@ -2510,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "monadicTransform'",
           "normalized": "a-\u003eDown a-\u003eb(From a)-\u003ec(Result a b)",
@@ -2525,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "putIndent",
           "package": "feldspar-compiler",
@@ -2534,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "putIndent",
           "normalized": "Int-\u003eString",
@@ -2549,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "transform1'",
           "package": "feldspar-compiler",
@@ -2558,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "transform1'",
           "normalized": "a-\u003e(a,Int)-\u003e(a,a,a)-\u003e[b(From a)]-\u003e[Char]-\u003ea-\u003eResult a[]b",
@@ -2572,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "transformActParam",
           "package": "feldspar-compiler",
@@ -2581,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "transformActParam",
           "normalized": "a-\u003e(Int,Int)-\u003e(Options,a,a)-\u003eActualParameter(From a)-\u003ea-\u003eResult a ActualParameter",
@@ -2596,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "transformConst",
           "package": "feldspar-compiler",
@@ -2605,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "transformConst",
           "normalized": "a-\u003e(Int,Int)-\u003e(Options,a,a)-\u003eConstant()-\u003eString-\u003eResult a Constant",
@@ -2620,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "transformFuncCall",
           "package": "feldspar-compiler",
@@ -2629,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin PrettyPrint",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.PrettyPrint",
           "name": "transformFuncCall",
           "normalized": "a-\u003e(Int,Int)-\u003e(a,a,a)-\u003eExpression(From a)-\u003e[Char]-\u003e[Char]-\u003e[Char]-\u003eResult a Expression",
@@ -2644,6 +2876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Rule",
           "name": "Rule",
           "package": "feldspar-compiler",
@@ -2652,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Rule",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Rule",
           "name": "Rule",
           "package": "feldspar-compiler",
@@ -2665,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Rule",
           "name": "RulePlugin",
           "package": "feldspar-compiler",
@@ -2673,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Rule",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Rule",
           "name": "RulePlugin",
           "package": "feldspar-compiler",
@@ -2686,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Rule",
           "name": "RulePlugin",
           "package": "feldspar-compiler",
@@ -2695,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin Rule",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.Rule",
           "name": "RulePlugin",
           "package": "feldspar-compiler",
@@ -2708,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCorrector",
           "package": "feldspar-compiler",
@@ -2716,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCorrector",
           "package": "feldspar-compiler",
@@ -2729,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "GlobalCollector",
           "package": "feldspar-compiler",
@@ -2737,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "GlobalCollector",
           "package": "feldspar-compiler",
@@ -2750,6 +2992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCatalog",
           "package": "feldspar-compiler",
@@ -2758,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCatalog",
           "package": "feldspar-compiler",
@@ -2771,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCheck",
           "package": "feldspar-compiler",
@@ -2779,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCheck",
           "package": "feldspar-compiler",
@@ -2792,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCheckDown",
           "package": "feldspar-compiler",
@@ -2800,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCheckDown",
           "package": "feldspar-compiler",
@@ -2813,6 +3061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCorrector",
           "package": "feldspar-compiler",
@@ -2821,6 +3070,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCorrector",
           "package": "feldspar-compiler",
@@ -2834,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "GlobalCollector",
           "package": "feldspar-compiler",
@@ -2843,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "GlobalCollector",
           "package": "feldspar-compiler",
@@ -2856,6 +3108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCheck",
           "package": "feldspar-compiler",
@@ -2865,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCheck",
           "package": "feldspar-compiler",
@@ -2878,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCheckDown",
           "package": "feldspar-compiler",
@@ -2887,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCheckDown",
           "package": "feldspar-compiler",
@@ -2900,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCorrector",
           "package": "feldspar-compiler",
@@ -2909,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "TypeCorrector",
           "package": "feldspar-compiler",
@@ -2922,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "globals",
           "package": "feldspar-compiler",
@@ -2931,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "globals",
           "package": "feldspar-compiler",
@@ -2943,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "inDecl",
           "package": "feldspar-compiler",
@@ -2952,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "inDecl",
           "normalized": "TypeCheckDown-\u003eBool-\u003eTypeCheckDown",
@@ -2967,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "inDeclaration",
           "package": "feldspar-compiler",
@@ -2976,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "inDeclaration",
           "package": "feldspar-compiler",
@@ -2989,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "select",
           "package": "feldspar-compiler",
@@ -2998,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "select",
           "normalized": "Type-\u003eType-\u003eType",
@@ -3012,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "typeCorrectorError",
           "package": "feldspar-compiler",
@@ -3021,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeCorrector",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeCorrector",
           "name": "typeCorrectorError",
           "normalized": "String-\u003ea",
@@ -3036,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeDefinitionGenerator",
           "name": "TypeDefinitionGenerator",
           "package": "feldspar-compiler",
@@ -3044,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeDefinitionGenerator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeDefinitionGenerator",
           "name": "TypeDefinitionGenerator",
           "package": "feldspar-compiler",
@@ -3057,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeDefinitionGenerator",
           "name": "TypeDefinitionGenerator",
           "package": "feldspar-compiler",
@@ -3065,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeDefinitionGenerator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeDefinitionGenerator",
           "name": "TypeDefinitionGenerator",
           "package": "feldspar-compiler",
@@ -3078,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeDefinitionGenerator",
           "name": "TypeDefinitionGenerator",
           "package": "feldspar-compiler",
@@ -3087,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeDefinitionGenerator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeDefinitionGenerator",
           "name": "TypeDefinitionGenerator",
           "package": "feldspar-compiler",
@@ -3100,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeDefinitionGenerator",
           "name": "getTypes",
           "package": "feldspar-compiler",
@@ -3109,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeDefinitionGenerator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeDefinitionGenerator",
           "name": "getTypes",
           "normalized": "Options-\u003eType-\u003e[Entity()]",
@@ -3124,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeDefinitionGenerator",
           "name": "typeDefGenError",
           "package": "feldspar-compiler",
@@ -3133,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin TypeDefinitionGenerator",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.TypeDefinitionGenerator",
           "name": "typeDefGenError",
           "normalized": "ErrorClass-\u003eString-\u003ea",
@@ -3148,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "VariableRoleAssigner",
           "package": "feldspar-compiler",
@@ -3156,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin VariableRoleAssigner",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "VariableRoleAssigner",
           "package": "feldspar-compiler",
@@ -3169,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "Parameters",
           "package": "feldspar-compiler",
@@ -3177,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin VariableRoleAssigner",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "Parameters",
           "package": "feldspar-compiler",
@@ -3190,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "VariableRoleAssigner",
           "package": "feldspar-compiler",
@@ -3198,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin VariableRoleAssigner",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "VariableRoleAssigner",
           "package": "feldspar-compiler",
@@ -3211,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "Parameters",
           "package": "feldspar-compiler",
@@ -3220,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin VariableRoleAssigner",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "Parameters",
           "package": "feldspar-compiler",
@@ -3233,6 +3519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "VariableRoleAssigner",
           "package": "feldspar-compiler",
@@ -3242,6 +3529,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin VariableRoleAssigner",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "VariableRoleAssigner",
           "package": "feldspar-compiler",
@@ -3255,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "inParametersVRA",
           "package": "feldspar-compiler",
@@ -3264,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin VariableRoleAssigner",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "inParametersVRA",
           "normalized": "[String]",
@@ -3279,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "isComposite",
           "package": "feldspar-compiler",
@@ -3288,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin VariableRoleAssigner",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "isComposite",
           "normalized": "Variable()-\u003eBool",
@@ -3303,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "outParametersVRA",
           "package": "feldspar-compiler",
@@ -3312,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Backend C Plugin VariableRoleAssigner",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Backend.C.Plugin.VariableRoleAssigner",
           "name": "outParametersVRA",
           "normalized": "[String]",
@@ -3327,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "Compiler",
           "package": "feldspar-compiler",
@@ -3335,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "Compiler",
           "package": "feldspar-compiler",
@@ -3348,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "CompToCCoreResult",
           "package": "feldspar-compiler",
@@ -3356,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "CompToCCoreResult",
           "package": "feldspar-compiler",
@@ -3369,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "ExternalInfoCollection",
           "package": "feldspar-compiler",
@@ -3377,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "ExternalInfoCollection",
           "package": "feldspar-compiler",
@@ -3390,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "IncludesNeeded",
           "package": "feldspar-compiler",
@@ -3398,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "IncludesNeeded",
           "package": "feldspar-compiler",
@@ -3411,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "Position",
           "package": "feldspar-compiler",
@@ -3419,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "Position",
           "package": "feldspar-compiler",
@@ -3432,6 +3736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "SomeCompilable",
           "package": "feldspar-compiler",
@@ -3440,6 +3745,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "SomeCompilable",
           "package": "feldspar-compiler",
@@ -3453,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "SplitCompToCCoreResult",
           "package": "feldspar-compiler",
@@ -3461,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "SplitCompToCCoreResult",
           "package": "feldspar-compiler",
@@ -3474,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "SplitModuleDescriptor",
           "package": "feldspar-compiler",
@@ -3482,6 +3791,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "SplitModuleDescriptor",
           "package": "feldspar-compiler",
@@ -3495,6 +3805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "CompToCCoreResult",
           "package": "feldspar-compiler",
@@ -3504,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "CompToCCoreResult",
           "package": "feldspar-compiler",
@@ -3517,6 +3829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "ExternalInfoCollection",
           "package": "feldspar-compiler",
@@ -3526,6 +3839,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "ExternalInfoCollection",
           "package": "feldspar-compiler",
@@ -3539,6 +3853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "IncludesNeeded",
           "package": "feldspar-compiler",
@@ -3548,6 +3863,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "IncludesNeeded",
           "package": "feldspar-compiler",
@@ -3561,6 +3877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "NoIncludesNeeded",
           "package": "feldspar-compiler",
@@ -3570,6 +3887,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "NoIncludesNeeded",
           "package": "feldspar-compiler",
@@ -3583,6 +3901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "SomeCompilable",
           "package": "feldspar-compiler",
@@ -3592,6 +3911,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "SomeCompilable",
           "package": "feldspar-compiler",
@@ -3605,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "SplitCompToCCoreResult",
           "package": "feldspar-compiler",
@@ -3614,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "SplitCompToCCoreResult",
           "package": "feldspar-compiler",
@@ -3627,6 +3949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "SplitModuleDescriptor",
           "package": "feldspar-compiler",
@@ -3636,6 +3959,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "SplitModuleDescriptor",
           "package": "feldspar-compiler",
@@ -3673,6 +3997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiler core\n This functionality should not be duplicated. Instead, everything should call this and only do a trivial interface adaptation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "compileToCCore",
           "package": "feldspar-compiler",
@@ -3683,6 +4008,7 @@
         "index": {
           "description": "Compiler core This functionality should not be duplicated Instead everything should call this and only do trivial interface adaptation",
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "compileToCCore",
           "normalized": "CompilationMode-\u003ea-\u003eMaybe String-\u003eIncludesNeeded-\u003eOriginalFunctionSignature-\u003eOptions-\u003eSplitCompToCCoreResult",
@@ -3698,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "debugModule",
           "package": "feldspar-compiler",
@@ -3707,6 +4034,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "debugModule",
           "package": "feldspar-compiler",
@@ -3745,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "endPosition",
           "package": "feldspar-compiler",
@@ -3754,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "endPosition",
           "package": "feldspar-compiler",
@@ -3767,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "executePluginChain",
           "package": "feldspar-compiler",
@@ -3776,6 +4107,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "executePluginChain",
           "normalized": "CompilationMode-\u003ea-\u003eOriginalFunctionSignature-\u003eOptions-\u003eSplitModuleDescriptor",
@@ -3791,6 +4123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "executePluginChain'",
           "package": "feldspar-compiler",
@@ -3800,6 +4133,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "executePluginChain'",
           "normalized": "CompilationMode-\u003ea-\u003eOriginalFunctionSignature-\u003eOptions-\u003eModule()",
@@ -3815,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "genIncludeLines",
           "package": "feldspar-compiler",
@@ -3824,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "genIncludeLines",
           "normalized": "Options-\u003eMaybe String-\u003e(String,Int)",
@@ -3839,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "genIncludeLinesCore",
           "package": "feldspar-compiler",
@@ -3848,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "genIncludeLinesCore",
           "normalized": "[String]-\u003e(String,Int)",
@@ -3863,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "incneedLineNum",
           "package": "feldspar-compiler",
@@ -3872,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "incneedLineNum",
           "package": "feldspar-compiler",
@@ -3885,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "moduleSplitter",
           "package": "feldspar-compiler",
@@ -3894,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "moduleSplitter",
           "normalized": "Module()-\u003eSplitModuleDescriptor",
@@ -3909,6 +4251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "moduleToCCore",
           "package": "feldspar-compiler",
@@ -3918,6 +4261,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "moduleToCCore",
           "normalized": "IncludesNeeded-\u003eOptions-\u003eModule()-\u003eCompToCCoreResult",
@@ -3980,6 +4324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlugin system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "pluginChain",
           "package": "feldspar-compiler",
@@ -3990,6 +4335,7 @@
         "index": {
           "description": "Plugin system",
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "pluginChain",
           "normalized": "ExternalInfoCollection-\u003eModule()-\u003eModule()",
@@ -4005,6 +4351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "precompilationExternalInfo",
           "package": "feldspar-compiler",
@@ -4014,6 +4361,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "precompilationExternalInfo",
           "package": "feldspar-compiler",
@@ -4027,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "primitivesExternalInfo",
           "package": "feldspar-compiler",
@@ -4036,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "primitivesExternalInfo",
           "package": "feldspar-compiler",
@@ -4049,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "ruleExternalInfo",
           "package": "feldspar-compiler",
@@ -4058,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "ruleExternalInfo",
           "package": "feldspar-compiler",
@@ -4071,6 +4423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "sctccrHeader",
           "package": "feldspar-compiler",
@@ -4080,6 +4433,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "sctccrHeader",
           "package": "feldspar-compiler",
@@ -4093,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "sctccrSource",
           "package": "feldspar-compiler",
@@ -4102,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "sctccrSource",
           "package": "feldspar-compiler",
@@ -4115,6 +4471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "separateAndCompileToCCore",
           "package": "feldspar-compiler",
@@ -4124,6 +4481,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "separateAndCompileToCCore",
           "normalized": "(Module()-\u003e[Module()])-\u003eCompilationMode-\u003ea-\u003eIncludesNeeded-\u003eOriginalFunctionSignature-\u003eOptions-\u003e[(CompToCCoreResult,Module())]",
@@ -4139,6 +4497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "smdHeader",
           "package": "feldspar-compiler",
@@ -4148,6 +4507,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "smdHeader",
           "normalized": "Module()",
@@ -4163,6 +4523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "smdSource",
           "package": "feldspar-compiler",
@@ -4172,6 +4533,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "smdSource",
           "normalized": "Module()",
@@ -4187,6 +4549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "sourceCode",
           "package": "feldspar-compiler",
@@ -4196,6 +4559,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "sourceCode",
           "package": "feldspar-compiler",
@@ -4232,6 +4596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "typeCorrectorExternalInfo",
           "package": "feldspar-compiler",
@@ -4241,6 +4606,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "typeCorrectorExternalInfo",
           "package": "feldspar-compiler",
@@ -4254,6 +4620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "typeDefinitionGeneratorExternalInfo",
           "package": "feldspar-compiler",
@@ -4263,6 +4630,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "typeDefinitionGeneratorExternalInfo",
           "package": "feldspar-compiler",
@@ -4276,6 +4644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "unrollExternalInfo",
           "package": "feldspar-compiler",
@@ -4285,6 +4654,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "unrollExternalInfo",
           "package": "feldspar-compiler",
@@ -4321,6 +4691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Compiler",
           "name": "variableRoleAssignerExternalInfo",
           "package": "feldspar-compiler",
@@ -4330,6 +4701,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Compiler",
           "name": "variableRoleAssignerExternalInfo",
           "package": "feldspar-compiler",
@@ -4343,6 +4715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Error",
           "name": "Error",
           "package": "feldspar-compiler",
@@ -4351,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Error",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Error",
           "name": "Error",
           "package": "feldspar-compiler",
@@ -4364,6 +4738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Error",
           "name": "ErrorClass",
           "package": "feldspar-compiler",
@@ -4372,6 +4747,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Error",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Error",
           "name": "ErrorClass",
           "package": "feldspar-compiler",
@@ -4385,6 +4761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Error",
           "name": "InternalError",
           "package": "feldspar-compiler",
@@ -4394,6 +4771,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Error",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Error",
           "name": "InternalError",
           "package": "feldspar-compiler",
@@ -4407,6 +4785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Error",
           "name": "InvariantViolation",
           "package": "feldspar-compiler",
@@ -4416,6 +4795,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Error",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Error",
           "name": "InvariantViolation",
           "package": "feldspar-compiler",
@@ -4429,6 +4809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Error",
           "name": "Warning",
           "package": "feldspar-compiler",
@@ -4438,6 +4819,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Error",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Error",
           "name": "Warning",
           "package": "feldspar-compiler",
@@ -4451,6 +4833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Error",
           "name": "handleError",
           "package": "feldspar-compiler",
@@ -4460,6 +4843,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Error",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Error",
           "name": "handleError",
           "normalized": "String-\u003eErrorClass-\u003eString-\u003ea",
@@ -4475,6 +4859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "Interface",
           "package": "feldspar-compiler",
@@ -4483,6 +4868,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "Interface",
           "package": "feldspar-compiler",
@@ -4496,6 +4882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "PrgType",
           "package": "feldspar-compiler",
@@ -4504,6 +4891,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "PrgType",
           "package": "feldspar-compiler",
@@ -4517,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "AssignType",
           "package": "feldspar-compiler",
@@ -4526,6 +4915,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "AssignType",
           "package": "feldspar-compiler",
@@ -4539,6 +4929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "ForType",
           "package": "feldspar-compiler",
@@ -4548,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "ForType",
           "package": "feldspar-compiler",
@@ -4561,6 +4953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "IfType",
           "package": "feldspar-compiler",
@@ -4570,6 +4963,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "IfType",
           "package": "feldspar-compiler",
@@ -4583,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "assignPrg",
           "package": "feldspar-compiler",
@@ -4592,6 +4987,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "assignPrg",
           "package": "feldspar-compiler",
@@ -4605,6 +5001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "compile",
           "package": "feldspar-compiler",
@@ -4614,6 +5011,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "compile",
           "normalized": "a-\u003eFilePath-\u003eString-\u003eOptions-\u003eIO()",
@@ -4628,6 +5026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "forPrg",
           "package": "feldspar-compiler",
@@ -4637,6 +5036,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "forPrg",
           "package": "feldspar-compiler",
@@ -4650,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "getProgram",
           "package": "feldspar-compiler",
@@ -4659,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "getProgram",
           "normalized": "(Int,Int)-\u003ePrgType-\u003eModule DebugToCSemanticInfo-\u003eIO()",
@@ -4674,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "icompile",
           "package": "feldspar-compiler",
@@ -4683,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "icompile",
           "normalized": "a-\u003eIO()",
@@ -4697,6 +5101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "icompile'",
           "package": "feldspar-compiler",
@@ -4706,6 +5111,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "icompile'",
           "normalized": "a-\u003eString-\u003eOptions-\u003eIO()",
@@ -4720,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "icompileWithInfos",
           "package": "feldspar-compiler",
@@ -4729,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "icompileWithInfos",
           "normalized": "a-\u003eString-\u003eOptions-\u003eSplitCompToCCoreResult",
@@ -4744,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "ifPrg",
           "package": "feldspar-compiler",
@@ -4753,6 +5162,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Frontend Interactive Interface",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Frontend.Interactive.Interface",
           "name": "ifPrg",
           "package": "feldspar-compiler",
@@ -4766,6 +5176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Array",
           "name": "Array",
           "package": "feldspar-compiler",
@@ -4774,6 +5185,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Array",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Array",
           "name": "Array",
           "package": "feldspar-compiler",
@@ -4787,6 +5199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Binding",
           "name": "Binding",
           "package": "feldspar-compiler",
@@ -4795,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Binding",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Binding",
           "name": "Binding",
           "package": "feldspar-compiler",
@@ -4808,6 +5222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Binding",
           "name": "compileLet",
           "package": "feldspar-compiler",
@@ -4817,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Binding",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Binding",
           "name": "compileLet",
           "normalized": "ASTF(Decor Info a)b-\u003eInfo(b-\u003ec)-\u003eVarId-\u003eCodeWriter()",
@@ -4832,6 +5248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Condition",
           "name": "Condition",
           "package": "feldspar-compiler",
@@ -4840,6 +5257,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Condition",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Condition",
           "name": "Condition",
           "package": "feldspar-compiler",
@@ -4853,6 +5271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.ConditionM",
           "name": "ConditionM",
           "package": "feldspar-compiler",
@@ -4861,6 +5280,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore ConditionM",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.ConditionM",
           "name": "ConditionM",
           "package": "feldspar-compiler",
@@ -4874,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Error",
           "name": "Error",
           "package": "feldspar-compiler",
@@ -4882,6 +5303,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Error",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Error",
           "name": "Error",
           "package": "feldspar-compiler",
@@ -4895,6 +5317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Error",
           "name": "compileAssert",
           "package": "feldspar-compiler",
@@ -4904,6 +5327,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Error",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Error",
           "name": "compileAssert",
           "normalized": "ASTF(Decor Info a)b-\u003eString-\u003eCodeWriter()",
@@ -4919,6 +5343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.FFI",
           "name": "FFI",
           "package": "feldspar-compiler",
@@ -4927,6 +5352,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore FFI",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.FFI",
           "name": "FFI",
           "package": "feldspar-compiler",
@@ -4940,6 +5366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Future",
           "name": "Future",
           "package": "feldspar-compiler",
@@ -4948,6 +5375,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Future",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Future",
           "name": "Future",
           "package": "feldspar-compiler",
@@ -4961,6 +5389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Interpretation",
           "package": "feldspar-compiler",
@@ -4969,6 +5398,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Interpretation",
           "package": "feldspar-compiler",
@@ -4983,6 +5413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCode generation monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "CodeWriter",
           "package": "feldspar-compiler",
@@ -4992,6 +5423,7 @@
         "index": {
           "description": "Code generation monad",
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "CodeWriter",
           "package": "feldspar-compiler",
@@ -5006,6 +5438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA minimal complete instance has to define either \u003ccode\u003e\u003ca\u003ecompileProgSym\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003ecompileExprSym\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Compile",
           "package": "feldspar-compiler",
@@ -5015,6 +5448,7 @@
         "index": {
           "description": "minimal complete instance has to define either compileProgSym or compileExprSym",
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Compile",
           "package": "feldspar-compiler",
@@ -5029,6 +5463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere to place the program result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Location",
           "package": "feldspar-compiler",
@@ -5038,6 +5473,7 @@
         "index": {
           "description": "Where to place the program result",
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Location",
           "package": "feldspar-compiler",
@@ -5051,6 +5487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Readers",
           "package": "feldspar-compiler",
@@ -5059,6 +5496,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Readers",
           "package": "feldspar-compiler",
@@ -5072,6 +5510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "States",
           "package": "feldspar-compiler",
@@ -5080,6 +5519,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "States",
           "package": "feldspar-compiler",
@@ -5093,6 +5533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Task",
           "package": "feldspar-compiler",
@@ -5101,6 +5542,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Task",
           "package": "feldspar-compiler",
@@ -5114,6 +5556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Writers",
           "package": "feldspar-compiler",
@@ -5122,6 +5565,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Writers",
           "package": "feldspar-compiler",
@@ -5135,6 +5579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Readers",
           "package": "feldspar-compiler",
@@ -5144,6 +5589,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Readers",
           "package": "feldspar-compiler",
@@ -5157,6 +5603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "States",
           "package": "feldspar-compiler",
@@ -5166,6 +5613,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "States",
           "package": "feldspar-compiler",
@@ -5179,6 +5627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Writers",
           "package": "feldspar-compiler",
@@ -5188,6 +5637,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "Writers",
           "package": "feldspar-compiler",
@@ -5202,6 +5652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable aliasing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "alias",
           "package": "feldspar-compiler",
@@ -5212,6 +5663,7 @@
         "index": {
           "description": "variable aliasing",
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "alias",
           "normalized": "[(VarId,Expr)]",
@@ -5226,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "assign",
           "package": "feldspar-compiler",
@@ -5235,6 +5688,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "assign",
           "normalized": "Location-\u003eExpr-\u003eCodeWriter()",
@@ -5250,6 +5704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecollects code within one block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "block",
           "package": "feldspar-compiler",
@@ -5260,6 +5715,7 @@
         "index": {
           "description": "collects code within one block",
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "block",
           "package": "feldspar-compiler",
@@ -5272,6 +5728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileExpr",
           "package": "feldspar-compiler",
@@ -5281,6 +5738,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileExpr",
           "normalized": "ASTF(Decor Info a)b-\u003eCodeWriter Expr",
@@ -5296,6 +5754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileExprDecor",
           "package": "feldspar-compiler",
@@ -5305,6 +5764,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileExprDecor",
           "normalized": "Decor Info a b-\u003eArgs(AST(Decor Info a))b-\u003eCodeWriter Expr",
@@ -5321,6 +5781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of \u003ccode\u003e\u003ca\u003ecompileExprSym\u003c/a\u003e\u003c/code\u003e that assigns an expression to the given\n location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileExprLoc",
           "package": "feldspar-compiler",
@@ -5331,6 +5792,7 @@
         "index": {
           "description": "Implementation of compileExprSym that assigns an expression to the given location",
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileExprLoc",
           "normalized": "a b-\u003eInfo(DenResult b)-\u003eLocation-\u003eArgs(AST(Decor Info c))b-\u003eCodeWriter()",
@@ -5346,6 +5808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileExprSym",
           "package": "feldspar-compiler",
@@ -5355,6 +5818,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileExprSym",
           "normalized": "a b-\u003eInfo(DenResult b)-\u003eArgs(AST(Decor Info c))b-\u003eCodeWriter Expr",
@@ -5370,6 +5834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileExprVar",
           "package": "feldspar-compiler",
@@ -5379,6 +5844,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileExprVar",
           "normalized": "ASTF(Decor Info a)b-\u003eCodeWriter Expr",
@@ -5394,6 +5860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileNumType",
           "package": "feldspar-compiler",
@@ -5403,6 +5870,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileNumType",
           "normalized": "Signedness a-\u003eBitWidth b-\u003eType",
@@ -5418,6 +5886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileProg",
           "package": "feldspar-compiler",
@@ -5427,6 +5896,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileProg",
           "normalized": "Location-\u003eASTF(Decor Info a)b-\u003eCodeWriter()",
@@ -5442,6 +5912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileProgDecor",
           "package": "feldspar-compiler",
@@ -5451,6 +5922,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileProgDecor",
           "normalized": "Location-\u003eDecor Info a b-\u003eArgs(AST(Decor Info a))b-\u003eCodeWriter()",
@@ -5467,6 +5939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of \u003ccode\u003e\u003ca\u003ecompileProgSym\u003c/a\u003e\u003c/code\u003e that generates code into a fresh\n variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileProgFresh",
           "package": "feldspar-compiler",
@@ -5477,6 +5950,7 @@
         "index": {
           "description": "Implementation of compileProgSym that generates code into fresh variable",
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileProgFresh",
           "normalized": "a b-\u003eInfo(DenResult b)-\u003eArgs(AST(Decor Info c))b-\u003eCodeWriter Expr",
@@ -5492,6 +5966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileProgSym",
           "package": "feldspar-compiler",
@@ -5501,6 +5976,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileProgSym",
           "normalized": "a b-\u003eInfo(DenResult b)-\u003eLocation-\u003eArgs(AST(Decor Info c))b-\u003eCodeWriter()",
@@ -5516,6 +5992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileTypeRep",
           "package": "feldspar-compiler",
@@ -5525,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "compileTypeRep",
           "normalized": "TypeRep a-\u003eSize a-\u003eType",
@@ -5541,6 +6019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003elisten\u003c/a\u003e\u003c/code\u003e, but also prevents the program from being written in the\n monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "confiscateBlock",
           "package": "feldspar-compiler",
@@ -5551,6 +6030,7 @@
         "index": {
           "description": "Like listen but also prevents the program from being written in the monad",
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "confiscateBlock",
           "normalized": "CodeWriter a-\u003eCodeWriter(a,Block)",
@@ -5566,6 +6046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "declare",
           "package": "feldspar-compiler",
@@ -5575,6 +6056,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "declare",
           "normalized": "Expr-\u003eCodeWriter()",
@@ -5590,6 +6072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecollects top level definitions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "def",
           "package": "feldspar-compiler",
@@ -5600,6 +6083,7 @@
         "index": {
           "description": "collects top level definitions",
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "def",
           "normalized": "[Ent]",
@@ -5615,6 +6099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first fresh variable id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "fresh",
           "package": "feldspar-compiler",
@@ -5625,6 +6110,7 @@
         "index": {
           "description": "The first fresh variable id",
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "fresh",
           "package": "feldspar-compiler",
@@ -5637,6 +6123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "freshId",
           "package": "feldspar-compiler",
@@ -5646,6 +6133,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "freshId",
           "package": "feldspar-compiler",
@@ -5659,6 +6147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "freshVar",
           "package": "feldspar-compiler",
@@ -5668,6 +6157,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "freshVar",
           "normalized": "String-\u003eTypeRep a-\u003eSize a-\u003eCodeWriter Expr",
@@ -5683,6 +6173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "initReader",
           "package": "feldspar-compiler",
@@ -5692,6 +6183,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "initReader",
           "package": "feldspar-compiler",
@@ -5705,6 +6197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "initState",
           "package": "feldspar-compiler",
@@ -5714,6 +6207,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "initState",
           "package": "feldspar-compiler",
@@ -5727,6 +6221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "isVariableOrLiteral",
           "package": "feldspar-compiler",
@@ -5736,6 +6231,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "isVariableOrLiteral",
           "normalized": "AST(Decor a b)c-\u003eBool",
@@ -5751,6 +6247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "mkLength",
           "package": "feldspar-compiler",
@@ -5760,6 +6257,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "mkLength",
           "normalized": "ASTF(Decor Info a)b-\u003eCodeWriter Expr",
@@ -5775,6 +6273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "mkVar",
           "package": "feldspar-compiler",
@@ -5784,6 +6283,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "mkVar",
           "normalized": "Type-\u003eVarId-\u003eExpr",
@@ -5799,6 +6299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "mkVarName",
           "package": "feldspar-compiler",
@@ -5808,6 +6309,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "mkVarName",
           "normalized": "VarId-\u003eString",
@@ -5823,6 +6325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "mkVariable",
           "package": "feldspar-compiler",
@@ -5832,6 +6335,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "mkVariable",
           "normalized": "Type-\u003eVarId-\u003eVar",
@@ -5848,6 +6352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSurrounding source info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "sourceInfo",
           "package": "feldspar-compiler",
@@ -5858,6 +6363,7 @@
         "index": {
           "description": "Surrounding source info",
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "sourceInfo",
           "package": "feldspar-compiler",
@@ -5871,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "tellDecl",
           "package": "feldspar-compiler",
@@ -5880,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "tellDecl",
           "normalized": "[Def]-\u003eCodeWriter()",
@@ -5895,6 +6403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "tellDef",
           "package": "feldspar-compiler",
@@ -5904,6 +6413,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "tellDef",
           "normalized": "[Ent]-\u003eCodeWriter()",
@@ -5919,6 +6429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "tellProg",
           "package": "feldspar-compiler",
@@ -5928,6 +6439,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "tellProg",
           "normalized": "[Prog]-\u003eCodeWriter()",
@@ -5943,6 +6455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "withAlias",
           "package": "feldspar-compiler",
@@ -5952,6 +6465,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Interpretation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Interpretation",
           "name": "withAlias",
           "normalized": "VarId-\u003eExpr-\u003eCodeWriter a-\u003eCodeWriter a",
@@ -5967,6 +6481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Literal",
           "name": "Literal",
           "package": "feldspar-compiler",
@@ -5975,6 +6490,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Literal",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Literal",
           "name": "Literal",
           "package": "feldspar-compiler",
@@ -5988,6 +6504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Literal",
           "name": "literal",
           "package": "feldspar-compiler",
@@ -5997,6 +6514,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Literal",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Literal",
           "name": "literal",
           "normalized": "TypeRep a-\u003eSize a-\u003ea-\u003eCodeWriter Expr",
@@ -6011,6 +6529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Literal",
           "name": "literalLoc",
           "package": "feldspar-compiler",
@@ -6020,6 +6539,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Literal",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Literal",
           "name": "literalLoc",
           "normalized": "Location-\u003eTypeRep a-\u003eSize a-\u003ea-\u003eCodeWriter()",
@@ -6035,6 +6555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Loop",
           "name": "Loop",
           "package": "feldspar-compiler",
@@ -6043,6 +6564,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Loop",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Loop",
           "name": "Loop",
           "package": "feldspar-compiler",
@@ -6056,6 +6578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Mutable",
           "name": "Mutable",
           "package": "feldspar-compiler",
@@ -6064,6 +6587,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Mutable",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Mutable",
           "name": "Mutable",
           "package": "feldspar-compiler",
@@ -6077,6 +6601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.MutableToPure",
           "name": "MutableToPure",
           "package": "feldspar-compiler",
@@ -6085,6 +6610,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore MutableToPure",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.MutableToPure",
           "name": "MutableToPure",
           "package": "feldspar-compiler",
@@ -6098,6 +6624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.NoInline",
           "name": "NoInline",
           "package": "feldspar-compiler",
@@ -6106,6 +6633,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore NoInline",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.NoInline",
           "name": "NoInline",
           "package": "feldspar-compiler",
@@ -6119,6 +6647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Par",
           "name": "Par",
           "package": "feldspar-compiler",
@@ -6127,6 +6656,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Par",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Par",
           "name": "Par",
           "package": "feldspar-compiler",
@@ -6140,6 +6670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Primitive",
           "name": "Primitive",
           "package": "feldspar-compiler",
@@ -6148,6 +6679,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Primitive",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Primitive",
           "name": "Primitive",
           "package": "feldspar-compiler",
@@ -6162,6 +6694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient implementation of \u003ccode\u003e\u003ca\u003ecompileExprSym\u003c/a\u003e\u003c/code\u003e for primitive functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Primitive",
           "name": "compilePrim",
           "package": "feldspar-compiler",
@@ -6172,6 +6705,7 @@
         "index": {
           "description": "Convenient implementation of compileExprSym for primitive functions",
           "hierarchy": "Feldspar Compiler Imperative FromCore Primitive",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Primitive",
           "name": "compilePrim",
           "normalized": "(a Type)b-\u003eInfo(DenResult b)-\u003eArgs(AST(Decor Info c))b-\u003eCodeWriter Expr",
@@ -6187,6 +6721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Save",
           "name": "Save",
           "package": "feldspar-compiler",
@@ -6195,6 +6730,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Save",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Save",
           "name": "Save",
           "package": "feldspar-compiler",
@@ -6208,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.SizeProp",
           "name": "SizeProp",
           "package": "feldspar-compiler",
@@ -6216,6 +6753,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore SizeProp",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.SizeProp",
           "name": "SizeProp",
           "package": "feldspar-compiler",
@@ -6229,6 +6767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.SourceInfo",
           "name": "SourceInfo",
           "package": "feldspar-compiler",
@@ -6237,6 +6776,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore SourceInfo",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.SourceInfo",
           "name": "SourceInfo",
           "package": "feldspar-compiler",
@@ -6250,6 +6790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore.Tuple",
           "name": "Tuple",
           "package": "feldspar-compiler",
@@ -6258,6 +6799,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore Tuple",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore.Tuple",
           "name": "Tuple",
           "package": "feldspar-compiler",
@@ -6271,6 +6813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore",
           "name": "FromCore",
           "package": "feldspar-compiler",
@@ -6279,6 +6822,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore",
           "name": "FromCore",
           "package": "feldspar-compiler",
@@ -6292,6 +6836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore",
           "name": "Compilable",
           "package": "feldspar-compiler",
@@ -6300,6 +6845,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore",
           "name": "Compilable",
           "package": "feldspar-compiler",
@@ -6314,6 +6860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a list where each element represents the number of variables needed\n to as arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore",
           "name": "buildInParamDescriptor",
           "package": "feldspar-compiler",
@@ -6324,6 +6871,7 @@
         "index": {
           "description": "Create list where each element represents the number of variables needed to as arguments",
           "hierarchy": "Feldspar Compiler Imperative FromCore",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore",
           "name": "buildInParamDescriptor",
           "normalized": "a-\u003e[Int]",
@@ -6339,6 +6887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore",
           "name": "compileProgTop",
           "package": "feldspar-compiler",
@@ -6348,6 +6897,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore",
           "name": "compileProgTop",
           "normalized": "String-\u003e[Var]-\u003eASTF(Decor Info a)b-\u003eMod",
@@ -6363,6 +6913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore",
           "name": "fromCore",
           "package": "feldspar-compiler",
@@ -6372,6 +6923,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore",
           "name": "fromCore",
           "normalized": "String-\u003ea-\u003eModule()",
@@ -6387,6 +6939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.FromCore",
           "name": "numArgs",
           "package": "feldspar-compiler",
@@ -6396,6 +6949,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative FromCore",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.FromCore",
           "name": "numArgs",
           "normalized": "a-\u003eInt",
@@ -6411,6 +6965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Frontend",
           "package": "feldspar-compiler",
@@ -6419,6 +6974,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Frontend",
           "package": "feldspar-compiler",
@@ -6432,6 +6988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Block",
           "package": "feldspar-compiler",
@@ -6440,6 +6997,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Block",
           "package": "feldspar-compiler",
@@ -6453,6 +7011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Def",
           "package": "feldspar-compiler",
@@ -6461,6 +7020,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Def",
           "package": "feldspar-compiler",
@@ -6474,6 +7034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Ent",
           "package": "feldspar-compiler",
@@ -6482,6 +7043,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Ent",
           "package": "feldspar-compiler",
@@ -6495,6 +7057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Expr",
           "package": "feldspar-compiler",
@@ -6503,6 +7066,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Expr",
           "package": "feldspar-compiler",
@@ -6516,6 +7080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Interface",
           "package": "feldspar-compiler",
@@ -6524,6 +7089,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Interface",
           "package": "feldspar-compiler",
@@ -6537,6 +7103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Mod",
           "package": "feldspar-compiler",
@@ -6545,6 +7112,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Mod",
           "package": "feldspar-compiler",
@@ -6558,6 +7126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Named",
           "package": "feldspar-compiler",
@@ -6566,6 +7135,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Named",
           "package": "feldspar-compiler",
@@ -6579,6 +7149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Param",
           "package": "feldspar-compiler",
@@ -6587,6 +7158,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Param",
           "package": "feldspar-compiler",
@@ -6600,6 +7172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Prog",
           "package": "feldspar-compiler",
@@ -6608,6 +7181,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Prog",
           "package": "feldspar-compiler",
@@ -6621,6 +7195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Type",
           "package": "feldspar-compiler",
@@ -6629,6 +7204,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Type",
           "package": "feldspar-compiler",
@@ -6642,6 +7218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Var",
           "package": "feldspar-compiler",
@@ -6650,6 +7227,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Var",
           "package": "feldspar-compiler",
@@ -6663,6 +7241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": ":!:",
           "package": "feldspar-compiler",
@@ -6672,6 +7251,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": ":!:",
           "package": "feldspar-compiler",
@@ -6684,6 +7264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": ":=",
           "package": "feldspar-compiler",
@@ -6693,6 +7274,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": ":=",
           "package": "feldspar-compiler",
@@ -6705,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": ":.:",
           "package": "feldspar-compiler",
@@ -6714,6 +7297,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": ":.:",
           "package": "feldspar-compiler",
@@ -6726,6 +7310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Array",
           "package": "feldspar-compiler",
@@ -6735,6 +7320,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Array",
           "package": "feldspar-compiler",
@@ -6748,6 +7334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "BComment",
           "package": "feldspar-compiler",
@@ -6757,6 +7344,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "BComment",
           "package": "feldspar-compiler",
@@ -6770,6 +7358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Binop",
           "package": "feldspar-compiler",
@@ -6779,6 +7368,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Binop",
           "normalized": "Binop Type String[Expr]",
@@ -6794,6 +7384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Bit",
           "package": "feldspar-compiler",
@@ -6803,6 +7394,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Bit",
           "package": "feldspar-compiler",
@@ -6816,6 +7408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Bl",
           "package": "feldspar-compiler",
@@ -6825,6 +7418,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Bl",
           "normalized": "Bl[Def]Prog",
@@ -6840,6 +7434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Block",
           "package": "feldspar-compiler",
@@ -6849,6 +7444,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Block",
           "normalized": "Block[Def]Prog",
@@ -6864,6 +7460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Boolean",
           "package": "feldspar-compiler",
@@ -6873,6 +7470,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Boolean",
           "package": "feldspar-compiler",
@@ -6886,6 +7484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Call",
           "package": "feldspar-compiler",
@@ -6895,6 +7494,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Call",
           "normalized": "Call String[Param]",
@@ -6910,6 +7510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Cast",
           "package": "feldspar-compiler",
@@ -6919,6 +7520,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Cast",
           "package": "feldspar-compiler",
@@ -6932,6 +7534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Comment",
           "package": "feldspar-compiler",
@@ -6941,6 +7544,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Comment",
           "package": "feldspar-compiler",
@@ -6954,6 +7558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Complex",
           "package": "feldspar-compiler",
@@ -6963,6 +7568,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Complex",
           "package": "feldspar-compiler",
@@ -6976,6 +7582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Def",
           "package": "feldspar-compiler",
@@ -6985,6 +7592,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Def",
           "package": "feldspar-compiler",
@@ -6998,6 +7606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Fl",
           "package": "feldspar-compiler",
@@ -7007,6 +7616,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Fl",
           "package": "feldspar-compiler",
@@ -7020,6 +7630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Floating",
           "package": "feldspar-compiler",
@@ -7029,6 +7640,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Floating",
           "package": "feldspar-compiler",
@@ -7042,6 +7654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Fn",
           "package": "feldspar-compiler",
@@ -7051,6 +7664,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Fn",
           "package": "feldspar-compiler",
@@ -7064,6 +7678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "FnAddr",
           "package": "feldspar-compiler",
@@ -7073,6 +7688,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "FnAddr",
           "package": "feldspar-compiler",
@@ -7086,6 +7702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "For",
           "package": "feldspar-compiler",
@@ -7095,6 +7712,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "For",
           "package": "feldspar-compiler",
@@ -7108,6 +7726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Fun",
           "package": "feldspar-compiler",
@@ -7117,6 +7736,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Fun",
           "normalized": "Fun Type String[Expr]",
@@ -7132,6 +7752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "I16",
           "package": "feldspar-compiler",
@@ -7141,6 +7762,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "I16",
           "package": "feldspar-compiler",
@@ -7153,6 +7775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "I32",
           "package": "feldspar-compiler",
@@ -7162,6 +7785,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "I32",
           "package": "feldspar-compiler",
@@ -7174,6 +7798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "I40",
           "package": "feldspar-compiler",
@@ -7183,6 +7808,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "I40",
           "package": "feldspar-compiler",
@@ -7195,6 +7821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "I64",
           "package": "feldspar-compiler",
@@ -7204,6 +7831,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "I64",
           "package": "feldspar-compiler",
@@ -7216,6 +7844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "I8",
           "package": "feldspar-compiler",
@@ -7225,6 +7854,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "I8",
           "package": "feldspar-compiler",
@@ -7237,6 +7867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "IVar",
           "package": "feldspar-compiler",
@@ -7246,6 +7877,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "IVar",
           "package": "feldspar-compiler",
@@ -7259,6 +7891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "If",
           "package": "feldspar-compiler",
@@ -7268,6 +7901,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "If",
           "package": "feldspar-compiler",
@@ -7281,6 +7915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "In",
           "package": "feldspar-compiler",
@@ -7290,6 +7925,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "In",
           "package": "feldspar-compiler",
@@ -7303,6 +7939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Init",
           "package": "feldspar-compiler",
@@ -7312,6 +7949,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Init",
           "package": "feldspar-compiler",
@@ -7325,6 +7963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "LitC",
           "package": "feldspar-compiler",
@@ -7334,6 +7973,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "LitC",
           "package": "feldspar-compiler",
@@ -7347,6 +7987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "LitF",
           "package": "feldspar-compiler",
@@ -7356,6 +7997,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "LitF",
           "package": "feldspar-compiler",
@@ -7369,6 +8011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "LitI",
           "package": "feldspar-compiler",
@@ -7378,6 +8021,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "LitI",
           "package": "feldspar-compiler",
@@ -7391,6 +8035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Mod",
           "package": "feldspar-compiler",
@@ -7400,6 +8045,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Mod",
           "normalized": "Mod[Ent]",
@@ -7415,6 +8061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Out",
           "package": "feldspar-compiler",
@@ -7424,6 +8071,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Out",
           "package": "feldspar-compiler",
@@ -7437,6 +8085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Pointer",
           "package": "feldspar-compiler",
@@ -7446,6 +8095,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Pointer",
           "package": "feldspar-compiler",
@@ -7459,6 +8109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "ProcDcl",
           "package": "feldspar-compiler",
@@ -7468,6 +8119,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "ProcDcl",
           "normalized": "ProcDcl String[Var][Var]",
@@ -7483,6 +8135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "ProcDf",
           "package": "feldspar-compiler",
@@ -7492,6 +8145,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "ProcDf",
           "normalized": "ProcDf String[Var][Var]Prog",
@@ -7507,6 +8161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Ptr",
           "package": "feldspar-compiler",
@@ -7516,6 +8171,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Ptr",
           "package": "feldspar-compiler",
@@ -7529,6 +8185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Seq",
           "package": "feldspar-compiler",
@@ -7538,6 +8195,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Seq",
           "normalized": "Seq[Prog]",
@@ -7553,6 +8211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "SizedArray",
           "package": "feldspar-compiler",
@@ -7562,6 +8221,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "SizedArray",
           "package": "feldspar-compiler",
@@ -7575,6 +8235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "SizeofE",
           "package": "feldspar-compiler",
@@ -7584,6 +8245,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "SizeofE",
           "package": "feldspar-compiler",
@@ -7597,6 +8259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "SizeofT",
           "package": "feldspar-compiler",
@@ -7606,6 +8269,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "SizeofT",
           "package": "feldspar-compiler",
@@ -7619,6 +8283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Skip",
           "package": "feldspar-compiler",
@@ -7628,6 +8293,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Skip",
           "package": "feldspar-compiler",
@@ -7641,6 +8307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Struct",
           "package": "feldspar-compiler",
@@ -7650,6 +8317,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Struct",
           "normalized": "Struct[(String,Type)]",
@@ -7665,6 +8333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "StructD",
           "package": "feldspar-compiler",
@@ -7674,6 +8343,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "StructD",
           "normalized": "StructD String[(String,Type)]",
@@ -7689,6 +8359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Tr",
           "package": "feldspar-compiler",
@@ -7698,6 +8369,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Tr",
           "package": "feldspar-compiler",
@@ -7711,6 +8383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "TypAuto",
           "package": "feldspar-compiler",
@@ -7720,6 +8393,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "TypAuto",
           "package": "feldspar-compiler",
@@ -7733,6 +8407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "TypScalar",
           "package": "feldspar-compiler",
@@ -7742,6 +8417,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "TypScalar",
           "package": "feldspar-compiler",
@@ -7755,6 +8431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "U16",
           "package": "feldspar-compiler",
@@ -7764,6 +8441,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "U16",
           "package": "feldspar-compiler",
@@ -7776,6 +8454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "U32",
           "package": "feldspar-compiler",
@@ -7785,6 +8464,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "U32",
           "package": "feldspar-compiler",
@@ -7797,6 +8477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "U40",
           "package": "feldspar-compiler",
@@ -7806,6 +8487,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "U40",
           "package": "feldspar-compiler",
@@ -7818,6 +8500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "U64",
           "package": "feldspar-compiler",
@@ -7827,6 +8510,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "U64",
           "package": "feldspar-compiler",
@@ -7839,6 +8523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "U8",
           "package": "feldspar-compiler",
@@ -7848,6 +8533,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "U8",
           "package": "feldspar-compiler",
@@ -7860,6 +8546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "UserType",
           "package": "feldspar-compiler",
@@ -7869,6 +8556,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "UserType",
           "package": "feldspar-compiler",
@@ -7882,6 +8570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Var",
           "package": "feldspar-compiler",
@@ -7891,6 +8580,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Var",
           "package": "feldspar-compiler",
@@ -7904,6 +8594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Variable",
           "package": "feldspar-compiler",
@@ -7913,6 +8604,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Variable",
           "package": "feldspar-compiler",
@@ -7926,6 +8618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Void",
           "package": "feldspar-compiler",
@@ -7935,6 +8628,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "Void",
           "package": "feldspar-compiler",
@@ -7948,6 +8642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "While",
           "package": "feldspar-compiler",
@@ -7957,6 +8652,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "While",
           "package": "feldspar-compiler",
@@ -7970,6 +8666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "arrayLength",
           "package": "feldspar-compiler",
@@ -7979,6 +8676,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "arrayLength",
           "normalized": "Expr-\u003eExpr",
@@ -7994,6 +8692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "assignProg",
           "package": "feldspar-compiler",
@@ -8003,6 +8702,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "assignProg",
           "normalized": "Expr-\u003eExpr-\u003eProg",
@@ -8018,6 +8718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "boolToExpr",
           "package": "feldspar-compiler",
@@ -8027,6 +8728,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "boolToExpr",
           "normalized": "Bool-\u003eExpr",
@@ -8042,6 +8744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "copyProg",
           "package": "feldspar-compiler",
@@ -8051,6 +8754,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "copyProg",
           "normalized": "Expr-\u003eExpr-\u003eProg",
@@ -8066,6 +8770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "copyProgLen",
           "package": "feldspar-compiler",
@@ -8075,6 +8780,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "copyProgLen",
           "normalized": "Expr-\u003eExpr-\u003eExpr-\u003eProg",
@@ -8090,6 +8796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "copyProgPos",
           "package": "feldspar-compiler",
@@ -8099,6 +8806,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "copyProgPos",
           "normalized": "Expr-\u003eExpr-\u003eExpr-\u003eProg",
@@ -8114,6 +8822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "freeArray",
           "package": "feldspar-compiler",
@@ -8123,6 +8832,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "freeArray",
           "normalized": "Var-\u003eProg",
@@ -8138,6 +8848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "fromInterface",
           "package": "feldspar-compiler",
@@ -8147,6 +8858,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "fromInterface",
           "normalized": "a-\u003eRepr a",
@@ -8162,6 +8874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "getName",
           "package": "feldspar-compiler",
@@ -8171,6 +8884,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "getName",
           "normalized": "a-\u003eString",
@@ -8186,6 +8900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "iVarGet",
           "package": "feldspar-compiler",
@@ -8195,6 +8910,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "iVarGet",
           "normalized": "Expr-\u003eExpr-\u003eProg",
@@ -8210,6 +8926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "iVarInit",
           "package": "feldspar-compiler",
@@ -8219,6 +8936,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "iVarInit",
           "normalized": "Expr-\u003eProg",
@@ -8234,6 +8952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "iVarPut",
           "package": "feldspar-compiler",
@@ -8243,6 +8962,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "iVarPut",
           "normalized": "Expr-\u003eExpr-\u003eProg",
@@ -8258,6 +8978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "initArray",
           "package": "feldspar-compiler",
@@ -8267,6 +8988,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "initArray",
           "normalized": "Expr-\u003eExpr-\u003eProg",
@@ -8282,6 +9004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "intSigned",
           "package": "feldspar-compiler",
@@ -8291,6 +9014,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "intSigned",
           "normalized": "Type-\u003eMaybe Bool",
@@ -8306,6 +9030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "intWidth",
           "package": "feldspar-compiler",
@@ -8315,6 +9040,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "intWidth",
           "normalized": "Type-\u003eMaybe Integer",
@@ -8330,6 +9056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "isArray",
           "package": "feldspar-compiler",
@@ -8339,6 +9066,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "isArray",
           "normalized": "Type-\u003eBool",
@@ -8354,6 +9082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "lName",
           "package": "feldspar-compiler",
@@ -8363,6 +9092,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "lName",
           "normalized": "Expr-\u003eString",
@@ -8378,6 +9108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "litB",
           "package": "feldspar-compiler",
@@ -8387,6 +9118,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "litB",
           "normalized": "Bool-\u003eExpr",
@@ -8401,6 +9133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "run",
           "package": "feldspar-compiler",
@@ -8410,6 +9143,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "run",
           "normalized": "String-\u003e[Var]-\u003eProg",
@@ -8424,6 +9158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "setLength",
           "package": "feldspar-compiler",
@@ -8433,6 +9168,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "setLength",
           "normalized": "Expr-\u003eExpr-\u003eProg",
@@ -8448,6 +9184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "spawn",
           "package": "feldspar-compiler",
@@ -8457,6 +9194,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "spawn",
           "normalized": "String-\u003e[Var]-\u003eProg",
@@ -8471,6 +9209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "toBlock",
           "package": "feldspar-compiler",
@@ -8480,6 +9219,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "toBlock",
           "normalized": "Prog-\u003eBlock()",
@@ -8495,6 +9235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "toInterface",
           "package": "feldspar-compiler",
@@ -8504,6 +9245,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "toInterface",
           "normalized": "Repr a-\u003ea",
@@ -8519,6 +9261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "toProg",
           "package": "feldspar-compiler",
@@ -8528,6 +9271,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "toProg",
           "normalized": "Block()-\u003eProg",
@@ -8543,6 +9287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "vName",
           "package": "feldspar-compiler",
@@ -8552,6 +9297,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "vName",
           "normalized": "Var-\u003eString",
@@ -8567,6 +9313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "vType",
           "package": "feldspar-compiler",
@@ -8576,6 +9323,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "vType",
           "normalized": "Var-\u003eType",
@@ -8591,6 +9339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "varToExpr",
           "package": "feldspar-compiler",
@@ -8600,6 +9349,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Frontend",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Frontend",
           "name": "varToExpr",
           "normalized": "Var-\u003eExpr",
@@ -8615,6 +9365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.CollectFreeVars",
           "name": "CollectFreeVars",
           "package": "feldspar-compiler",
@@ -8623,6 +9374,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin CollectFreeVars",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.CollectFreeVars",
           "name": "CollectFreeVars",
           "package": "feldspar-compiler",
@@ -8636,6 +9388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.CollectFreeVars",
           "name": "Collect",
           "package": "feldspar-compiler",
@@ -8644,6 +9397,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin CollectFreeVars",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.CollectFreeVars",
           "name": "Collect",
           "package": "feldspar-compiler",
@@ -8657,6 +9411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.CollectFreeVars",
           "name": "Collection",
           "package": "feldspar-compiler",
@@ -8665,6 +9420,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin CollectFreeVars",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.CollectFreeVars",
           "name": "Collection",
           "package": "feldspar-compiler",
@@ -8678,6 +9434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.CollectFreeVars",
           "name": "Collect",
           "package": "feldspar-compiler",
@@ -8687,6 +9444,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin CollectFreeVars",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.CollectFreeVars",
           "name": "Collect",
           "package": "feldspar-compiler",
@@ -8700,6 +9458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.ConstantFolding",
           "name": "ConstantFolding",
           "package": "feldspar-compiler",
@@ -8708,6 +9467,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin ConstantFolding",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.ConstantFolding",
           "name": "ConstantFolding",
           "package": "feldspar-compiler",
@@ -8721,6 +9481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.ConstantFolding",
           "name": "ConstantFolding",
           "package": "feldspar-compiler",
@@ -8729,6 +9490,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin ConstantFolding",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.ConstantFolding",
           "name": "ConstantFolding",
           "package": "feldspar-compiler",
@@ -8742,6 +9504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.ConstantFolding",
           "name": "ConstantFolding",
           "package": "feldspar-compiler",
@@ -8751,6 +9514,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin ConstantFolding",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.ConstantFolding",
           "name": "ConstantFolding",
           "package": "feldspar-compiler",
@@ -8764,6 +9528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Free",
           "name": "Free",
           "package": "feldspar-compiler",
@@ -8772,6 +9537,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Free",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Free",
           "name": "Free",
           "package": "feldspar-compiler",
@@ -8785,6 +9551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Free",
           "name": "Free",
           "package": "feldspar-compiler",
@@ -8793,6 +9560,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Free",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Free",
           "name": "Free",
           "package": "feldspar-compiler",
@@ -8806,6 +9574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Free",
           "name": "Free",
           "package": "feldspar-compiler",
@@ -8815,6 +9584,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Free",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Free",
           "name": "Free",
           "package": "feldspar-compiler",
@@ -8828,6 +9598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.IVars",
           "name": "IVars",
           "package": "feldspar-compiler",
@@ -8836,6 +9607,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin IVars",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.IVars",
           "name": "IVars",
           "package": "feldspar-compiler",
@@ -8849,6 +9621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.IVars",
           "name": "IVarPlugin",
           "package": "feldspar-compiler",
@@ -8857,6 +9630,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin IVars",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.IVars",
           "name": "IVarPlugin",
           "package": "feldspar-compiler",
@@ -8870,6 +9644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.IVars",
           "name": "IVarPlugin",
           "package": "feldspar-compiler",
@@ -8879,6 +9654,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin IVars",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.IVars",
           "name": "IVarPlugin",
           "package": "feldspar-compiler",
@@ -8892,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "Naming",
           "package": "feldspar-compiler",
@@ -8900,6 +9677,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "Naming",
           "package": "feldspar-compiler",
@@ -8913,6 +9691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "Precompilation",
           "package": "feldspar-compiler",
@@ -8921,6 +9700,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "Precompilation",
           "package": "feldspar-compiler",
@@ -8934,6 +9714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "PrecompilationExternalInfo",
           "package": "feldspar-compiler",
@@ -8942,6 +9723,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "PrecompilationExternalInfo",
           "package": "feldspar-compiler",
@@ -8955,6 +9737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "SignatureInformation",
           "package": "feldspar-compiler",
@@ -8963,6 +9746,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "SignatureInformation",
           "package": "feldspar-compiler",
@@ -8976,6 +9760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "Precompilation",
           "package": "feldspar-compiler",
@@ -8985,6 +9770,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "Precompilation",
           "package": "feldspar-compiler",
@@ -8998,6 +9784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "PrecompilationExternalInfo",
           "package": "feldspar-compiler",
@@ -9007,6 +9794,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "PrecompilationExternalInfo",
           "package": "feldspar-compiler",
@@ -9020,6 +9808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "SignatureInformation",
           "package": "feldspar-compiler",
@@ -9029,6 +9818,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "SignatureInformation",
           "package": "feldspar-compiler",
@@ -9042,6 +9832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "addPostfixNumberToMaybeString",
           "package": "feldspar-compiler",
@@ -9051,6 +9842,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "addPostfixNumberToMaybeString",
           "normalized": "(Maybe String,Int)-\u003eMaybe String",
@@ -9066,6 +9858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "compilationMode",
           "package": "feldspar-compiler",
@@ -9075,6 +9868,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "compilationMode",
           "package": "feldspar-compiler",
@@ -9088,6 +9882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "generatedImperativeParameterNames",
           "package": "feldspar-compiler",
@@ -9097,6 +9892,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "generatedImperativeParameterNames",
           "normalized": "[String]",
@@ -9112,6 +9908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "getVariableName",
           "package": "feldspar-compiler",
@@ -9121,6 +9918,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "getVariableName",
           "normalized": "SignatureInformation-\u003eString-\u003eMaybe String",
@@ -9136,6 +9934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "inflate",
           "package": "feldspar-compiler",
@@ -9145,6 +9944,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "inflate",
           "normalized": "Int-\u003e[Maybe String]-\u003e[Maybe String]",
@@ -9159,6 +9959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "inputParametersDescriptor",
           "package": "feldspar-compiler",
@@ -9168,6 +9969,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "inputParametersDescriptor",
           "normalized": "[Int]",
@@ -9183,6 +9985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "maybeStr2Str",
           "package": "feldspar-compiler",
@@ -9192,6 +9995,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "maybeStr2Str",
           "normalized": "Maybe String-\u003eString",
@@ -9207,6 +10011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "numberOfFunctionArguments",
           "package": "feldspar-compiler",
@@ -9216,6 +10021,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "numberOfFunctionArguments",
           "package": "feldspar-compiler",
@@ -9229,6 +10035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "originalFunctionName",
           "package": "feldspar-compiler",
@@ -9238,6 +10045,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "originalFunctionName",
           "package": "feldspar-compiler",
@@ -9251,6 +10059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "originalFunctionSignature",
           "package": "feldspar-compiler",
@@ -9260,6 +10069,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "originalFunctionSignature",
           "package": "feldspar-compiler",
@@ -9273,6 +10083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "originalParameterNames",
           "package": "feldspar-compiler",
@@ -9282,6 +10093,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "originalParameterNames",
           "normalized": "Maybe[Maybe String]",
@@ -9297,6 +10109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "parameterNameListConsolidator",
           "package": "feldspar-compiler",
@@ -9306,6 +10119,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "parameterNameListConsolidator",
           "normalized": "PrecompilationExternalInfo-\u003e[Maybe String]",
@@ -9321,6 +10135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "precompilationError",
           "package": "feldspar-compiler",
@@ -9330,6 +10145,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "precompilationError",
           "normalized": "ErrorClass-\u003eString-\u003ea",
@@ -9345,6 +10161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "prefix",
           "package": "feldspar-compiler",
@@ -9354,6 +10171,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "prefix",
           "normalized": "SignatureInformation-\u003eString-\u003eString",
@@ -9368,6 +10186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "proceduresToPrefix",
           "package": "feldspar-compiler",
@@ -9377,6 +10196,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Naming",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Naming",
           "name": "proceduresToPrefix",
           "normalized": "[String]",
@@ -9392,6 +10212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "Unroll",
           "package": "feldspar-compiler",
@@ -9400,6 +10221,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "Unroll",
           "package": "feldspar-compiler",
@@ -9413,6 +10235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "SemInfPrg",
           "package": "feldspar-compiler",
@@ -9421,6 +10244,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "SemInfPrg",
           "package": "feldspar-compiler",
@@ -9434,6 +10258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "Unroll1",
           "package": "feldspar-compiler",
@@ -9442,6 +10267,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "Unroll1",
           "package": "feldspar-compiler",
@@ -9455,6 +10281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "Unroll2",
           "package": "feldspar-compiler",
@@ -9463,6 +10290,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "Unroll2",
           "package": "feldspar-compiler",
@@ -9476,6 +10304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "UnrollPlugin",
           "package": "feldspar-compiler",
@@ -9484,6 +10313,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "UnrollPlugin",
           "package": "feldspar-compiler",
@@ -9497,6 +10327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "UnrollSemInf",
           "package": "feldspar-compiler",
@@ -9505,6 +10336,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "UnrollSemInf",
           "package": "feldspar-compiler",
@@ -9518,6 +10350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "SemInfPrg",
           "package": "feldspar-compiler",
@@ -9527,6 +10360,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "SemInfPrg",
           "package": "feldspar-compiler",
@@ -9540,6 +10374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "Unroll1",
           "package": "feldspar-compiler",
@@ -9549,6 +10384,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "Unroll1",
           "package": "feldspar-compiler",
@@ -9562,6 +10398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "Unroll2",
           "package": "feldspar-compiler",
@@ -9571,6 +10408,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "Unroll2",
           "package": "feldspar-compiler",
@@ -9584,6 +10422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "UnrollPlugin",
           "package": "feldspar-compiler",
@@ -9593,6 +10432,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "UnrollPlugin",
           "package": "feldspar-compiler",
@@ -9606,6 +10446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "getVarNameDecl",
           "package": "feldspar-compiler",
@@ -9615,6 +10456,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "getVarNameDecl",
           "normalized": "Declaration a-\u003eString",
@@ -9630,6 +10472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "isJust",
           "package": "feldspar-compiler",
@@ -9639,6 +10482,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "isJust",
           "normalized": "Maybe a-\u003eBool",
@@ -9654,6 +10498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "loopVar",
           "package": "feldspar-compiler",
@@ -9663,6 +10508,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "loopVar",
           "package": "feldspar-compiler",
@@ -9676,6 +10522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "position",
           "package": "feldspar-compiler",
@@ -9685,6 +10532,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "position",
           "package": "feldspar-compiler",
@@ -9697,6 +10545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "renameDeclaration",
           "package": "feldspar-compiler",
@@ -9706,6 +10555,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "renameDeclaration",
           "normalized": "Declaration a-\u003eString-\u003eDeclaration a",
@@ -9721,6 +10571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "renameVariable",
           "package": "feldspar-compiler",
@@ -9730,6 +10581,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "renameVariable",
           "normalized": "Variable a-\u003eString-\u003eVariable a",
@@ -9745,6 +10597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "varNames",
           "package": "feldspar-compiler",
@@ -9754,6 +10607,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Plugin Unroll",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Plugin.Unroll",
           "name": "varNames",
           "normalized": "[String]",
@@ -9769,6 +10623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Representation",
           "package": "feldspar-compiler",
@@ -9777,6 +10632,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Representation",
           "package": "feldspar-compiler",
@@ -9790,6 +10646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ActualParameter",
           "package": "feldspar-compiler",
@@ -9798,6 +10655,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ActualParameter",
           "package": "feldspar-compiler",
@@ -9811,6 +10669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Annotation",
           "package": "feldspar-compiler",
@@ -9819,6 +10678,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Annotation",
           "package": "feldspar-compiler",
@@ -9832,6 +10692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ArrayConst",
           "package": "feldspar-compiler",
@@ -9840,6 +10701,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ArrayConst",
           "package": "feldspar-compiler",
@@ -9853,6 +10715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ArrayElem",
           "package": "feldspar-compiler",
@@ -9861,6 +10724,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ArrayElem",
           "package": "feldspar-compiler",
@@ -9874,6 +10738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Assign",
           "package": "feldspar-compiler",
@@ -9882,6 +10747,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Assign",
           "package": "feldspar-compiler",
@@ -9895,6 +10761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Block",
           "package": "feldspar-compiler",
@@ -9903,6 +10770,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Block",
           "package": "feldspar-compiler",
@@ -9916,6 +10784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "BoolConst",
           "package": "feldspar-compiler",
@@ -9924,6 +10793,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "BoolConst",
           "package": "feldspar-compiler",
@@ -9937,6 +10807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Branch",
           "package": "feldspar-compiler",
@@ -9945,6 +10816,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Branch",
           "package": "feldspar-compiler",
@@ -9958,6 +10830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Cast",
           "package": "feldspar-compiler",
@@ -9966,6 +10839,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Cast",
           "package": "feldspar-compiler",
@@ -9979,6 +10853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Comment",
           "package": "feldspar-compiler",
@@ -9987,6 +10862,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Comment",
           "package": "feldspar-compiler",
@@ -10000,6 +10876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ComplexConst",
           "package": "feldspar-compiler",
@@ -10008,6 +10885,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ComplexConst",
           "package": "feldspar-compiler",
@@ -10021,6 +10899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Constant",
           "package": "feldspar-compiler",
@@ -10029,6 +10908,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Constant",
           "package": "feldspar-compiler",
@@ -10042,6 +10922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Declaration",
           "package": "feldspar-compiler",
@@ -10050,6 +10931,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Declaration",
           "package": "feldspar-compiler",
@@ -10063,6 +10945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Empty",
           "package": "feldspar-compiler",
@@ -10071,6 +10954,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Empty",
           "package": "feldspar-compiler",
@@ -10084,6 +10968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Entity",
           "package": "feldspar-compiler",
@@ -10092,6 +10977,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Entity",
           "package": "feldspar-compiler",
@@ -10105,6 +10991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "EqLabel",
           "package": "feldspar-compiler",
@@ -10113,6 +11000,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "EqLabel",
           "package": "feldspar-compiler",
@@ -10126,6 +11014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Expression",
           "package": "feldspar-compiler",
@@ -10134,6 +11023,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Expression",
           "package": "feldspar-compiler",
@@ -10147,6 +11037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FloatConst",
           "package": "feldspar-compiler",
@@ -10155,6 +11046,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FloatConst",
           "package": "feldspar-compiler",
@@ -10168,6 +11060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Function",
           "package": "feldspar-compiler",
@@ -10176,6 +11069,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Function",
           "package": "feldspar-compiler",
@@ -10189,6 +11083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FunctionCall",
           "package": "feldspar-compiler",
@@ -10197,6 +11092,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FunctionCall",
           "package": "feldspar-compiler",
@@ -10210,6 +11106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FunctionMode",
           "package": "feldspar-compiler",
@@ -10218,6 +11115,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FunctionMode",
           "package": "feldspar-compiler",
@@ -10231,6 +11129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "HasType",
           "package": "feldspar-compiler",
@@ -10239,6 +11138,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "HasType",
           "package": "feldspar-compiler",
@@ -10252,6 +11152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "IntConst",
           "package": "feldspar-compiler",
@@ -10260,6 +11161,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "IntConst",
           "package": "feldspar-compiler",
@@ -10273,6 +11175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Labeled",
           "package": "feldspar-compiler",
@@ -10281,6 +11184,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Labeled",
           "package": "feldspar-compiler",
@@ -10294,6 +11198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "LeftFunCall",
           "package": "feldspar-compiler",
@@ -10302,6 +11207,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "LeftFunCall",
           "package": "feldspar-compiler",
@@ -10315,6 +11221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Length",
           "package": "feldspar-compiler",
@@ -10323,6 +11230,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Length",
           "package": "feldspar-compiler",
@@ -10336,6 +11244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Module",
           "package": "feldspar-compiler",
@@ -10344,6 +11253,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Module",
           "package": "feldspar-compiler",
@@ -10357,6 +11267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ParLoop",
           "package": "feldspar-compiler",
@@ -10365,6 +11276,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ParLoop",
           "package": "feldspar-compiler",
@@ -10378,6 +11290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Place",
           "package": "feldspar-compiler",
@@ -10386,6 +11299,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Place",
           "package": "feldspar-compiler",
@@ -10399,6 +11313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ProcDecl",
           "package": "feldspar-compiler",
@@ -10407,6 +11322,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ProcDecl",
           "package": "feldspar-compiler",
@@ -10420,6 +11336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ProcDef",
           "package": "feldspar-compiler",
@@ -10428,6 +11345,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ProcDef",
           "package": "feldspar-compiler",
@@ -10441,6 +11359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ProcedureCall",
           "package": "feldspar-compiler",
@@ -10449,6 +11368,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ProcedureCall",
           "package": "feldspar-compiler",
@@ -10462,6 +11382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Program",
           "package": "feldspar-compiler",
@@ -10470,6 +11391,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Program",
           "package": "feldspar-compiler",
@@ -10483,6 +11405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Run",
           "package": "feldspar-compiler",
@@ -10491,6 +11414,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Run",
           "package": "feldspar-compiler",
@@ -10504,6 +11428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "SeqLoop",
           "package": "feldspar-compiler",
@@ -10512,6 +11437,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "SeqLoop",
           "package": "feldspar-compiler",
@@ -10525,6 +11451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Sequence",
           "package": "feldspar-compiler",
@@ -10533,6 +11460,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Sequence",
           "package": "feldspar-compiler",
@@ -10546,6 +11474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ShowLabel",
           "package": "feldspar-compiler",
@@ -10554,6 +11483,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ShowLabel",
           "package": "feldspar-compiler",
@@ -10567,6 +11497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Signedness",
           "package": "feldspar-compiler",
@@ -10575,6 +11506,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Signedness",
           "package": "feldspar-compiler",
@@ -10588,6 +11520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Size",
           "package": "feldspar-compiler",
@@ -10596,6 +11529,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Size",
           "package": "feldspar-compiler",
@@ -10609,6 +11543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "SizeOf",
           "package": "feldspar-compiler",
@@ -10617,6 +11552,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "SizeOf",
           "package": "feldspar-compiler",
@@ -10630,6 +11566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Spawn",
           "package": "feldspar-compiler",
@@ -10638,6 +11575,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Spawn",
           "package": "feldspar-compiler",
@@ -10651,6 +11589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Struct",
           "package": "feldspar-compiler",
@@ -10659,6 +11598,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Struct",
           "package": "feldspar-compiler",
@@ -10672,6 +11612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "StructField",
           "package": "feldspar-compiler",
@@ -10680,6 +11621,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "StructField",
           "package": "feldspar-compiler",
@@ -10693,6 +11635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "StructMember",
           "package": "feldspar-compiler",
@@ -10701,6 +11644,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "StructMember",
           "package": "feldspar-compiler",
@@ -10714,6 +11658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Type",
           "package": "feldspar-compiler",
@@ -10722,6 +11667,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Type",
           "package": "feldspar-compiler",
@@ -10735,6 +11681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "TypeParameterMode",
           "package": "feldspar-compiler",
@@ -10743,6 +11690,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "TypeParameterMode",
           "package": "feldspar-compiler",
@@ -10756,6 +11704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Variable",
           "package": "feldspar-compiler",
@@ -10764,6 +11713,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Variable",
           "package": "feldspar-compiler",
@@ -10777,6 +11727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "VariableRole",
           "package": "feldspar-compiler",
@@ -10785,6 +11736,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "VariableRole",
           "package": "feldspar-compiler",
@@ -10798,6 +11750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "AddressNeed_pl",
           "package": "feldspar-compiler",
@@ -10807,6 +11760,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "AddressNeed_pl",
           "package": "feldspar-compiler",
@@ -10820,6 +11774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Alias",
           "package": "feldspar-compiler",
@@ -10829,6 +11784,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Alias",
           "package": "feldspar-compiler",
@@ -10842,6 +11798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ArrayElem",
           "package": "feldspar-compiler",
@@ -10851,6 +11808,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ArrayElem",
           "package": "feldspar-compiler",
@@ -10864,6 +11822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ArrayType",
           "package": "feldspar-compiler",
@@ -10873,6 +11832,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ArrayType",
           "package": "feldspar-compiler",
@@ -10886,6 +11846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Assign",
           "package": "feldspar-compiler",
@@ -10895,6 +11856,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Assign",
           "package": "feldspar-compiler",
@@ -10908,6 +11870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Auto",
           "package": "feldspar-compiler",
@@ -10917,6 +11880,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Auto",
           "package": "feldspar-compiler",
@@ -10930,6 +11894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "BitType",
           "package": "feldspar-compiler",
@@ -10939,6 +11904,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "BitType",
           "package": "feldspar-compiler",
@@ -10952,6 +11918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Block",
           "package": "feldspar-compiler",
@@ -10961,6 +11928,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Block",
           "package": "feldspar-compiler",
@@ -10974,6 +11942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "BlockProgram",
           "package": "feldspar-compiler",
@@ -10983,6 +11952,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "BlockProgram",
           "package": "feldspar-compiler",
@@ -10996,6 +11966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "BoolConst",
           "package": "feldspar-compiler",
@@ -11005,6 +11976,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "BoolConst",
           "package": "feldspar-compiler",
@@ -11018,6 +11990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "BoolType",
           "package": "feldspar-compiler",
@@ -11027,6 +12000,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "BoolType",
           "package": "feldspar-compiler",
@@ -11040,6 +12014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Branch",
           "package": "feldspar-compiler",
@@ -11049,6 +12024,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Branch",
           "package": "feldspar-compiler",
@@ -11062,6 +12038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Cast",
           "package": "feldspar-compiler",
@@ -11071,6 +12048,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Cast",
           "package": "feldspar-compiler",
@@ -11084,6 +12062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Comment",
           "package": "feldspar-compiler",
@@ -11093,6 +12072,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Comment",
           "package": "feldspar-compiler",
@@ -11106,6 +12086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ComplexConst",
           "package": "feldspar-compiler",
@@ -11115,6 +12096,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ComplexConst",
           "package": "feldspar-compiler",
@@ -11128,6 +12110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ComplexType",
           "package": "feldspar-compiler",
@@ -11137,6 +12120,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ComplexType",
           "package": "feldspar-compiler",
@@ -11150,6 +12134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ConstExpr",
           "package": "feldspar-compiler",
@@ -11159,6 +12144,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ConstExpr",
           "package": "feldspar-compiler",
@@ -11172,6 +12158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Declaration",
           "package": "feldspar-compiler",
@@ -11181,6 +12168,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Declaration",
           "package": "feldspar-compiler",
@@ -11194,6 +12182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Declaration_pl",
           "package": "feldspar-compiler",
@@ -11203,6 +12192,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Declaration_pl",
           "package": "feldspar-compiler",
@@ -11216,6 +12206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Empty",
           "package": "feldspar-compiler",
@@ -11225,6 +12216,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Empty",
           "package": "feldspar-compiler",
@@ -11238,6 +12230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FloatConst",
           "package": "feldspar-compiler",
@@ -11247,6 +12240,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FloatConst",
           "package": "feldspar-compiler",
@@ -11260,6 +12254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FloatType",
           "package": "feldspar-compiler",
@@ -11269,6 +12264,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FloatType",
           "package": "feldspar-compiler",
@@ -11282,6 +12278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FunParameter",
           "package": "feldspar-compiler",
@@ -11291,6 +12288,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FunParameter",
           "package": "feldspar-compiler",
@@ -11304,6 +12302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Function",
           "package": "feldspar-compiler",
@@ -11313,6 +12312,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Function",
           "package": "feldspar-compiler",
@@ -11326,6 +12326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FunctionCall",
           "package": "feldspar-compiler",
@@ -11335,6 +12336,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FunctionCall",
           "package": "feldspar-compiler",
@@ -11348,6 +12350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FunctionCallIn_pl",
           "package": "feldspar-compiler",
@@ -11357,6 +12360,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "FunctionCallIn_pl",
           "package": "feldspar-compiler",
@@ -11370,6 +12374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "IVarType",
           "package": "feldspar-compiler",
@@ -11379,6 +12384,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "IVarType",
           "package": "feldspar-compiler",
@@ -11392,6 +12398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "In",
           "package": "feldspar-compiler",
@@ -11401,6 +12408,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "In",
           "package": "feldspar-compiler",
@@ -11414,6 +12422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Infix",
           "package": "feldspar-compiler",
@@ -11423,6 +12432,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Infix",
           "package": "feldspar-compiler",
@@ -11436,6 +12446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "IntConst",
           "package": "feldspar-compiler",
@@ -11445,6 +12456,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "IntConst",
           "package": "feldspar-compiler",
@@ -11458,6 +12470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "LiteralLen",
           "package": "feldspar-compiler",
@@ -11467,6 +12480,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "LiteralLen",
           "package": "feldspar-compiler",
@@ -11480,6 +12494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "MainParameter_pl",
           "package": "feldspar-compiler",
@@ -11489,6 +12504,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "MainParameter_pl",
           "package": "feldspar-compiler",
@@ -11502,6 +12518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Module",
           "package": "feldspar-compiler",
@@ -11511,6 +12528,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Module",
           "package": "feldspar-compiler",
@@ -11524,6 +12542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "NumType",
           "package": "feldspar-compiler",
@@ -11533,6 +12552,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "NumType",
           "package": "feldspar-compiler",
@@ -11546,6 +12566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Out",
           "package": "feldspar-compiler",
@@ -11555,6 +12576,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Out",
           "package": "feldspar-compiler",
@@ -11568,6 +12590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ParLoop",
           "package": "feldspar-compiler",
@@ -11577,6 +12600,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ParLoop",
           "package": "feldspar-compiler",
@@ -11590,6 +12614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Pointer",
           "package": "feldspar-compiler",
@@ -11599,6 +12624,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Pointer",
           "package": "feldspar-compiler",
@@ -11612,6 +12638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Prefix",
           "package": "feldspar-compiler",
@@ -11621,6 +12648,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Prefix",
           "package": "feldspar-compiler",
@@ -11634,6 +12662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ProcDecl",
           "package": "feldspar-compiler",
@@ -11643,6 +12672,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ProcDecl",
           "package": "feldspar-compiler",
@@ -11656,6 +12686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ProcDef",
           "package": "feldspar-compiler",
@@ -11665,6 +12696,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ProcDef",
           "package": "feldspar-compiler",
@@ -11678,6 +12710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ProcedureCall",
           "package": "feldspar-compiler",
@@ -11687,6 +12720,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ProcedureCall",
           "package": "feldspar-compiler",
@@ -11700,6 +12734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "S16",
           "package": "feldspar-compiler",
@@ -11709,6 +12744,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "S16",
           "package": "feldspar-compiler",
@@ -11721,6 +12757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "S32",
           "package": "feldspar-compiler",
@@ -11730,6 +12767,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "S32",
           "package": "feldspar-compiler",
@@ -11742,6 +12780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "S40",
           "package": "feldspar-compiler",
@@ -11751,6 +12790,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "S40",
           "package": "feldspar-compiler",
@@ -11763,6 +12803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "S64",
           "package": "feldspar-compiler",
@@ -11772,6 +12813,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "S64",
           "package": "feldspar-compiler",
@@ -11784,6 +12826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "S8",
           "package": "feldspar-compiler",
@@ -11793,6 +12836,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "S8",
           "package": "feldspar-compiler",
@@ -11805,6 +12849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Scalar",
           "package": "feldspar-compiler",
@@ -11814,6 +12859,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Scalar",
           "package": "feldspar-compiler",
@@ -11827,6 +12873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "SeqLoop",
           "package": "feldspar-compiler",
@@ -11836,6 +12883,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "SeqLoop",
           "package": "feldspar-compiler",
@@ -11849,6 +12897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Sequence",
           "package": "feldspar-compiler",
@@ -11858,6 +12907,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Sequence",
           "package": "feldspar-compiler",
@@ -11871,6 +12921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Signed",
           "package": "feldspar-compiler",
@@ -11880,6 +12931,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Signed",
           "package": "feldspar-compiler",
@@ -11893,6 +12945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "SizeOf",
           "package": "feldspar-compiler",
@@ -11902,6 +12955,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "SizeOf",
           "package": "feldspar-compiler",
@@ -11915,6 +12969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "StructDef",
           "package": "feldspar-compiler",
@@ -11924,6 +12979,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "StructDef",
           "package": "feldspar-compiler",
@@ -11937,6 +12993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "StructField",
           "package": "feldspar-compiler",
@@ -11946,6 +13003,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "StructField",
           "package": "feldspar-compiler",
@@ -11959,6 +13017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "StructMember",
           "package": "feldspar-compiler",
@@ -11968,6 +13027,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "StructMember",
           "package": "feldspar-compiler",
@@ -11981,6 +13041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "StructType",
           "package": "feldspar-compiler",
@@ -11990,6 +13051,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "StructType",
           "normalized": "StructType[(String,Type)]",
@@ -12005,6 +13067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "TypeDef",
           "package": "feldspar-compiler",
@@ -12014,6 +13077,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "TypeDef",
           "package": "feldspar-compiler",
@@ -12027,6 +13091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "TypeParameter",
           "package": "feldspar-compiler",
@@ -12036,6 +13101,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "TypeParameter",
           "package": "feldspar-compiler",
@@ -12049,6 +13115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "UndefinedLen",
           "package": "feldspar-compiler",
@@ -12058,6 +13125,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "UndefinedLen",
           "package": "feldspar-compiler",
@@ -12071,6 +13139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Unsigned",
           "package": "feldspar-compiler",
@@ -12080,6 +13149,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Unsigned",
           "package": "feldspar-compiler",
@@ -12093,6 +13163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "UserType",
           "package": "feldspar-compiler",
@@ -12102,6 +13173,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "UserType",
           "package": "feldspar-compiler",
@@ -12115,6 +13187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Value",
           "package": "feldspar-compiler",
@@ -12124,6 +13197,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Value",
           "package": "feldspar-compiler",
@@ -12137,6 +13211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ValueNeed_pl",
           "package": "feldspar-compiler",
@@ -12146,6 +13221,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "ValueNeed_pl",
           "package": "feldspar-compiler",
@@ -12159,6 +13235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "VarExpr",
           "package": "feldspar-compiler",
@@ -12168,6 +13245,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "VarExpr",
           "package": "feldspar-compiler",
@@ -12181,6 +13259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Variable",
           "package": "feldspar-compiler",
@@ -12190,6 +13269,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "Variable",
           "package": "feldspar-compiler",
@@ -12203,6 +13283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "VoidType",
           "package": "feldspar-compiler",
@@ -12212,6 +13293,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "VoidType",
           "package": "feldspar-compiler",
@@ -12225,6 +13307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "actParamLabel",
           "package": "feldspar-compiler",
@@ -12234,6 +13317,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "actParamLabel",
           "package": "feldspar-compiler",
@@ -12247,6 +13331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "actualType",
           "package": "feldspar-compiler",
@@ -12256,6 +13341,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "actualType",
           "package": "feldspar-compiler",
@@ -12269,6 +13355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "addressNeeded",
           "package": "feldspar-compiler",
@@ -12278,6 +13365,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "addressNeeded",
           "package": "feldspar-compiler",
@@ -12291,6 +13379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "array",
           "package": "feldspar-compiler",
@@ -12300,6 +13389,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "array",
           "package": "feldspar-compiler",
@@ -12312,6 +13402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "arrayIndex",
           "package": "feldspar-compiler",
@@ -12321,6 +13412,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "arrayIndex",
           "package": "feldspar-compiler",
@@ -12334,6 +13426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "arrayLabel",
           "package": "feldspar-compiler",
@@ -12343,6 +13436,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "arrayLabel",
           "package": "feldspar-compiler",
@@ -12356,6 +13450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "assignLabel",
           "package": "feldspar-compiler",
@@ -12365,6 +13460,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "assignLabel",
           "package": "feldspar-compiler",
@@ -12378,6 +13474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "blockBody",
           "package": "feldspar-compiler",
@@ -12387,6 +13484,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "blockBody",
           "package": "feldspar-compiler",
@@ -12400,6 +13498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "blockLabel",
           "package": "feldspar-compiler",
@@ -12409,6 +13508,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "blockLabel",
           "package": "feldspar-compiler",
@@ -12422,6 +13522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "blockProgram",
           "package": "feldspar-compiler",
@@ -12431,6 +13532,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "blockProgram",
           "package": "feldspar-compiler",
@@ -12444,6 +13546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "boolConstLabel",
           "package": "feldspar-compiler",
@@ -12453,6 +13556,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "boolConstLabel",
           "package": "feldspar-compiler",
@@ -12466,6 +13570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "boolValue",
           "package": "feldspar-compiler",
@@ -12475,6 +13580,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "boolValue",
           "package": "feldspar-compiler",
@@ -12488,6 +13594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "branchCond",
           "package": "feldspar-compiler",
@@ -12497,6 +13604,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "branchCond",
           "package": "feldspar-compiler",
@@ -12510,6 +13618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "branchLabel",
           "package": "feldspar-compiler",
@@ -12519,6 +13628,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "branchLabel",
           "package": "feldspar-compiler",
@@ -12532,6 +13642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "castExpr",
           "package": "feldspar-compiler",
@@ -12541,6 +13652,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "castExpr",
           "package": "feldspar-compiler",
@@ -12554,6 +13666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "castLabel",
           "package": "feldspar-compiler",
@@ -12563,6 +13676,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "castLabel",
           "package": "feldspar-compiler",
@@ -12576,6 +13690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "castType",
           "package": "feldspar-compiler",
@@ -12585,6 +13700,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "castType",
           "package": "feldspar-compiler",
@@ -12598,6 +13714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "commentLabel",
           "package": "feldspar-compiler",
@@ -12607,6 +13724,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "commentLabel",
           "package": "feldspar-compiler",
@@ -12620,6 +13738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "commentValue",
           "package": "feldspar-compiler",
@@ -12629,6 +13748,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "commentValue",
           "package": "feldspar-compiler",
@@ -12642,6 +13762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "complexConstLabel",
           "package": "feldspar-compiler",
@@ -12651,6 +13772,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "complexConstLabel",
           "package": "feldspar-compiler",
@@ -12664,6 +13786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "constExpr",
           "package": "feldspar-compiler",
@@ -12673,6 +13796,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "constExpr",
           "package": "feldspar-compiler",
@@ -12686,6 +13810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "constLabel",
           "package": "feldspar-compiler",
@@ -12695,6 +13820,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "constLabel",
           "package": "feldspar-compiler",
@@ -12708,6 +13834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "declLabel",
           "package": "feldspar-compiler",
@@ -12717,6 +13844,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "declLabel",
           "package": "feldspar-compiler",
@@ -12730,6 +13858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "declVar",
           "package": "feldspar-compiler",
@@ -12739,6 +13868,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "declVar",
           "package": "feldspar-compiler",
@@ -12752,6 +13882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "definitionLabel",
           "package": "feldspar-compiler",
@@ -12761,6 +13892,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "definitionLabel",
           "package": "feldspar-compiler",
@@ -12774,6 +13906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "elseBlock",
           "package": "feldspar-compiler",
@@ -12783,6 +13916,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "elseBlock",
           "package": "feldspar-compiler",
@@ -12796,6 +13930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "emptyLabel",
           "package": "feldspar-compiler",
@@ -12805,6 +13940,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "emptyLabel",
           "package": "feldspar-compiler",
@@ -12818,6 +13954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "entities",
           "package": "feldspar-compiler",
@@ -12827,6 +13964,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "entities",
           "normalized": "[Entity a]",
@@ -12841,6 +13979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "exprLabel",
           "package": "feldspar-compiler",
@@ -12850,6 +13989,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "exprLabel",
           "package": "feldspar-compiler",
@@ -12863,6 +14003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "fieldName",
           "package": "feldspar-compiler",
@@ -12872,6 +14013,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "fieldName",
           "package": "feldspar-compiler",
@@ -12885,6 +14027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "floatConstLabel",
           "package": "feldspar-compiler",
@@ -12894,6 +14037,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "floatConstLabel",
           "package": "feldspar-compiler",
@@ -12907,6 +14051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "floatValue",
           "package": "feldspar-compiler",
@@ -12916,6 +14061,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "floatValue",
           "package": "feldspar-compiler",
@@ -12929,6 +14075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "funCallLabel",
           "package": "feldspar-compiler",
@@ -12938,6 +14085,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "funCallLabel",
           "package": "feldspar-compiler",
@@ -12951,6 +14099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "funCallParams",
           "package": "feldspar-compiler",
@@ -12960,6 +14109,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "funCallParams",
           "normalized": "[Expression a]",
@@ -12975,6 +14125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "funMode",
           "package": "feldspar-compiler",
@@ -12984,6 +14135,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "funMode",
           "package": "feldspar-compiler",
@@ -12997,6 +14149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "funName",
           "package": "feldspar-compiler",
@@ -13006,6 +14159,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "funName",
           "package": "feldspar-compiler",
@@ -13019,6 +14173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "funParamName",
           "package": "feldspar-compiler",
@@ -13028,6 +14183,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "funParamName",
           "package": "feldspar-compiler",
@@ -13041,6 +14197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "function",
           "package": "feldspar-compiler",
@@ -13050,6 +14207,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "function",
           "package": "feldspar-compiler",
@@ -13062,6 +14220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "imagPartComplexValue",
           "package": "feldspar-compiler",
@@ -13071,6 +14230,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "imagPartComplexValue",
           "package": "feldspar-compiler",
@@ -13084,6 +14244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "inParam",
           "package": "feldspar-compiler",
@@ -13093,6 +14254,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "inParam",
           "package": "feldspar-compiler",
@@ -13106,6 +14268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "inParams",
           "package": "feldspar-compiler",
@@ -13115,6 +14278,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "inParams",
           "normalized": "[Variable a]",
@@ -13130,6 +14294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "initVal",
           "package": "feldspar-compiler",
@@ -13139,6 +14304,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "initVal",
           "package": "feldspar-compiler",
@@ -13152,6 +14318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "intConstLabel",
           "package": "feldspar-compiler",
@@ -13161,6 +14328,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "intConstLabel",
           "package": "feldspar-compiler",
@@ -13174,6 +14342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "intType",
           "package": "feldspar-compiler",
@@ -13183,6 +14352,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "intType",
           "package": "feldspar-compiler",
@@ -13196,6 +14366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "intValue",
           "package": "feldspar-compiler",
@@ -13205,6 +14376,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "intValue",
           "package": "feldspar-compiler",
@@ -13218,6 +14390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "isBlockComment",
           "package": "feldspar-compiler",
@@ -13227,6 +14400,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "isBlockComment",
           "package": "feldspar-compiler",
@@ -13240,6 +14414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "label",
           "package": "feldspar-compiler",
@@ -13249,6 +14424,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "label",
           "normalized": "a b-\u003eLabel b a",
@@ -13263,6 +14439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "lhs",
           "package": "feldspar-compiler",
@@ -13272,6 +14449,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "lhs",
           "package": "feldspar-compiler",
@@ -13284,6 +14462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "locals",
           "package": "feldspar-compiler",
@@ -13293,6 +14472,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "locals",
           "normalized": "[Declaration a]",
@@ -13307,6 +14487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "moduleLabel",
           "package": "feldspar-compiler",
@@ -13316,6 +14497,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "moduleLabel",
           "package": "feldspar-compiler",
@@ -13329,6 +14511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "outParam",
           "package": "feldspar-compiler",
@@ -13338,6 +14521,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "outParam",
           "package": "feldspar-compiler",
@@ -13351,6 +14535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "outParams",
           "package": "feldspar-compiler",
@@ -13360,6 +14545,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "outParams",
           "normalized": "[Variable a]",
@@ -13375,6 +14561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "pLoopBlock",
           "package": "feldspar-compiler",
@@ -13384,6 +14571,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "pLoopBlock",
           "package": "feldspar-compiler",
@@ -13397,6 +14585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "pLoopBound",
           "package": "feldspar-compiler",
@@ -13406,6 +14595,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "pLoopBound",
           "package": "feldspar-compiler",
@@ -13419,6 +14609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "pLoopCounter",
           "package": "feldspar-compiler",
@@ -13428,6 +14619,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "pLoopCounter",
           "package": "feldspar-compiler",
@@ -13441,6 +14633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "pLoopLabel",
           "package": "feldspar-compiler",
@@ -13450,6 +14643,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "pLoopLabel",
           "package": "feldspar-compiler",
@@ -13463,6 +14657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "pLoopStep",
           "package": "feldspar-compiler",
@@ -13472,6 +14667,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "pLoopStep",
           "package": "feldspar-compiler",
@@ -13485,6 +14681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procBody",
           "package": "feldspar-compiler",
@@ -13494,6 +14691,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procBody",
           "package": "feldspar-compiler",
@@ -13507,6 +14705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procCallLabel",
           "package": "feldspar-compiler",
@@ -13516,6 +14715,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procCallLabel",
           "package": "feldspar-compiler",
@@ -13529,6 +14729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procCallName",
           "package": "feldspar-compiler",
@@ -13538,6 +14739,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procCallName",
           "package": "feldspar-compiler",
@@ -13551,6 +14753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procCallParams",
           "package": "feldspar-compiler",
@@ -13560,6 +14763,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procCallParams",
           "normalized": "[ActualParameter a]",
@@ -13575,6 +14779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procDeclLabel",
           "package": "feldspar-compiler",
@@ -13584,6 +14789,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procDeclLabel",
           "package": "feldspar-compiler",
@@ -13597,6 +14803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procDefLabel",
           "package": "feldspar-compiler",
@@ -13606,6 +14813,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procDefLabel",
           "package": "feldspar-compiler",
@@ -13619,6 +14827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procName",
           "package": "feldspar-compiler",
@@ -13628,6 +14837,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "procName",
           "package": "feldspar-compiler",
@@ -13641,6 +14851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "programLabel",
           "package": "feldspar-compiler",
@@ -13650,6 +14861,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "programLabel",
           "package": "feldspar-compiler",
@@ -13663,6 +14875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "realPartComplexValue",
           "package": "feldspar-compiler",
@@ -13672,6 +14885,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "realPartComplexValue",
           "package": "feldspar-compiler",
@@ -13685,6 +14899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "reprError",
           "package": "feldspar-compiler",
@@ -13694,6 +14909,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "reprError",
           "normalized": "a b ErrorClass-\u003eString-\u003ec",
@@ -13709,6 +14925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "returnType",
           "package": "feldspar-compiler",
@@ -13718,6 +14935,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "returnType",
           "package": "feldspar-compiler",
@@ -13731,6 +14949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "rhs",
           "package": "feldspar-compiler",
@@ -13740,6 +14959,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "rhs",
           "package": "feldspar-compiler",
@@ -13752,6 +14972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sLoopBlock",
           "package": "feldspar-compiler",
@@ -13761,6 +14982,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sLoopBlock",
           "package": "feldspar-compiler",
@@ -13774,6 +14996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sLoopCond",
           "package": "feldspar-compiler",
@@ -13783,6 +15006,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sLoopCond",
           "package": "feldspar-compiler",
@@ -13796,6 +15020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sLoopCondCalc",
           "package": "feldspar-compiler",
@@ -13805,6 +15030,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sLoopCondCalc",
           "package": "feldspar-compiler",
@@ -13818,6 +15044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sLoopLabel",
           "package": "feldspar-compiler",
@@ -13827,6 +15054,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sLoopLabel",
           "package": "feldspar-compiler",
@@ -13840,6 +15068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sequenceLabel",
           "package": "feldspar-compiler",
@@ -13849,6 +15078,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sequenceLabel",
           "package": "feldspar-compiler",
@@ -13862,6 +15092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sequenceProgs",
           "package": "feldspar-compiler",
@@ -13871,6 +15102,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sequenceProgs",
           "normalized": "[Program a]",
@@ -13886,6 +15118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "setLabel",
           "package": "feldspar-compiler",
@@ -13895,6 +15128,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "setLabel",
           "normalized": "a b-\u003eLabel b a-\u003ea b",
@@ -13910,6 +15144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sizeOf",
           "package": "feldspar-compiler",
@@ -13919,6 +15154,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sizeOf",
           "package": "feldspar-compiler",
@@ -13932,6 +15168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sizeOfLabel",
           "package": "feldspar-compiler",
@@ -13941,6 +15178,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "sizeOfLabel",
           "package": "feldspar-compiler",
@@ -13954,6 +15192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "struct",
           "package": "feldspar-compiler",
@@ -13963,6 +15202,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "struct",
           "package": "feldspar-compiler",
@@ -13975,6 +15215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structFieldLabel",
           "package": "feldspar-compiler",
@@ -13984,6 +15225,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structFieldLabel",
           "package": "feldspar-compiler",
@@ -13997,6 +15239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structLabel",
           "package": "feldspar-compiler",
@@ -14006,6 +15249,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structLabel",
           "package": "feldspar-compiler",
@@ -14019,6 +15263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structMemberLabel",
           "package": "feldspar-compiler",
@@ -14028,6 +15273,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structMemberLabel",
           "package": "feldspar-compiler",
@@ -14041,6 +15287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structMemberName",
           "package": "feldspar-compiler",
@@ -14050,6 +15297,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structMemberName",
           "package": "feldspar-compiler",
@@ -14063,6 +15311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structMemberType",
           "package": "feldspar-compiler",
@@ -14072,6 +15321,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structMemberType",
           "package": "feldspar-compiler",
@@ -14085,6 +15335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structMembers",
           "package": "feldspar-compiler",
@@ -14094,6 +15345,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structMembers",
           "normalized": "[StructMember a]",
@@ -14109,6 +15361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structName",
           "package": "feldspar-compiler",
@@ -14118,6 +15371,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "structName",
           "package": "feldspar-compiler",
@@ -14131,6 +15385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "thenBlock",
           "package": "feldspar-compiler",
@@ -14140,6 +15395,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "thenBlock",
           "package": "feldspar-compiler",
@@ -14153,6 +15409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "typeName",
           "package": "feldspar-compiler",
@@ -14162,6 +15419,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "typeName",
           "package": "feldspar-compiler",
@@ -14175,6 +15433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "typeParam",
           "package": "feldspar-compiler",
@@ -14184,6 +15443,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "typeParam",
           "package": "feldspar-compiler",
@@ -14197,6 +15457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "typeParamMode",
           "package": "feldspar-compiler",
@@ -14206,6 +15467,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "typeParamMode",
           "package": "feldspar-compiler",
@@ -14219,6 +15481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "typeof",
           "package": "feldspar-compiler",
@@ -14228,6 +15491,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "typeof",
           "normalized": "a-\u003eTypeOf a",
@@ -14242,6 +15506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "var",
           "package": "feldspar-compiler",
@@ -14251,6 +15516,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "var",
           "package": "feldspar-compiler",
@@ -14263,6 +15529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "varLabel",
           "package": "feldspar-compiler",
@@ -14272,6 +15539,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "varLabel",
           "package": "feldspar-compiler",
@@ -14285,6 +15553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "varName",
           "package": "feldspar-compiler",
@@ -14294,6 +15563,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "varName",
           "package": "feldspar-compiler",
@@ -14307,6 +15577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "varRole",
           "package": "feldspar-compiler",
@@ -14316,6 +15587,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "varRole",
           "package": "feldspar-compiler",
@@ -14329,6 +15601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "varType",
           "package": "feldspar-compiler",
@@ -14338,6 +15611,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative Representation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.Representation",
           "name": "varType",
           "package": "feldspar-compiler",
@@ -14351,6 +15625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.TransformationInstance",
           "name": "TransformationInstance",
           "package": "feldspar-compiler",
@@ -14359,6 +15634,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative TransformationInstance",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.TransformationInstance",
           "name": "TransformationInstance",
           "package": "feldspar-compiler",
@@ -14372,6 +15648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler.Imperative.TransformationInstance",
           "name": "Conversion",
           "package": "feldspar-compiler",
@@ -14380,6 +15657,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler Imperative TransformationInstance",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler.Imperative.TransformationInstance",
           "name": "Conversion",
           "package": "feldspar-compiler",
@@ -14393,6 +15671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Compiler",
           "name": "Compiler",
           "package": "feldspar-compiler",
@@ -14401,6 +15680,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Compiler",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Compiler",
           "name": "Compiler",
           "package": "feldspar-compiler",
@@ -14414,6 +15694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "NameExtractor",
           "package": "feldspar-compiler",
@@ -14422,6 +15703,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "NameExtractor",
           "package": "feldspar-compiler",
@@ -14435,6 +15717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "OriginalFunctionSignature",
           "package": "feldspar-compiler",
@@ -14443,6 +15726,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "OriginalFunctionSignature",
           "package": "feldspar-compiler",
@@ -14456,6 +15740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "OriginalFunctionSignature",
           "package": "feldspar-compiler",
@@ -14465,6 +15750,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "OriginalFunctionSignature",
           "package": "feldspar-compiler",
@@ -14478,6 +15764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "customizedParse",
           "package": "feldspar-compiler",
@@ -14487,6 +15774,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "customizedParse",
           "normalized": "FilePath-\u003eFilePath-\u003eParseResult Module",
@@ -14502,6 +15790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "functionNameNeeded",
           "package": "feldspar-compiler",
@@ -14511,6 +15800,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "functionNameNeeded",
           "normalized": "String-\u003eBool",
@@ -14526,6 +15816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "getDeclarationList",
           "package": "feldspar-compiler",
@@ -14535,6 +15826,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "getDeclarationList",
           "normalized": "FilePath-\u003eString-\u003e[String]",
@@ -14550,6 +15842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "getExtendedDeclarationList",
           "package": "feldspar-compiler",
@@ -14559,6 +15852,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "getExtendedDeclarationList",
           "normalized": "FilePath-\u003eString-\u003e[OriginalFunctionSignature]",
@@ -14574,6 +15868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "getFullDeclarationListWithParameterList",
           "package": "feldspar-compiler",
@@ -14583,6 +15878,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "getFullDeclarationListWithParameterList",
           "normalized": "FilePath-\u003eString-\u003e[OriginalFunctionSignature]",
@@ -14598,6 +15894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "getModuleName",
           "package": "feldspar-compiler",
@@ -14607,6 +15904,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "getModuleName",
           "normalized": "FilePath-\u003eString-\u003eString",
@@ -14622,6 +15920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "getParameterList",
           "package": "feldspar-compiler",
@@ -14631,6 +15930,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "getParameterList",
           "normalized": "FilePath-\u003eString-\u003eIO[Maybe String]",
@@ -14646,6 +15946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "getParameterListOld",
           "package": "feldspar-compiler",
@@ -14655,6 +15956,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "getParameterListOld",
           "normalized": "FilePath-\u003eString-\u003eString-\u003e[Maybe String]",
@@ -14670,6 +15972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "getParseOutput",
           "package": "feldspar-compiler",
@@ -14679,6 +15982,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "getParseOutput",
           "normalized": "FilePath-\u003eIO(ParseResult Module)",
@@ -14694,6 +15998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "ignore",
           "package": "feldspar-compiler",
@@ -14703,6 +16008,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "ignore",
           "package": "feldspar-compiler",
@@ -14715,6 +16021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "nameExtractorError",
           "package": "feldspar-compiler",
@@ -14724,6 +16031,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "nameExtractorError",
           "normalized": "ErrorClass-\u003eString-\u003ea",
@@ -14739,6 +16047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "neutralName",
           "package": "feldspar-compiler",
@@ -14748,6 +16057,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "neutralName",
           "package": "feldspar-compiler",
@@ -14761,6 +16071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "originalFunctionName",
           "package": "feldspar-compiler",
@@ -14770,6 +16081,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "originalFunctionName",
           "package": "feldspar-compiler",
@@ -14783,6 +16095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "originalParameterNames",
           "package": "feldspar-compiler",
@@ -14792,6 +16105,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "originalParameterNames",
           "normalized": "[Maybe String]",
@@ -14807,6 +16121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "printDeclarationList",
           "package": "feldspar-compiler",
@@ -14816,6 +16131,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "printDeclarationList",
           "normalized": "FilePath-\u003eIO(String-\u003e[String])",
@@ -14831,6 +16147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "printDeclarationListWithParameterList",
           "package": "feldspar-compiler",
@@ -14840,6 +16157,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "printDeclarationListWithParameterList",
           "normalized": "FilePath-\u003eIO()",
@@ -14855,6 +16173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "printParameterListOfFunction",
           "package": "feldspar-compiler",
@@ -14864,6 +16183,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "printParameterListOfFunction",
           "normalized": "FilePath-\u003eString-\u003eIO[Maybe String]",
@@ -14879,6 +16199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "stripFunBind",
           "package": "feldspar-compiler",
@@ -14888,6 +16209,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "stripFunBind",
           "normalized": "Decl-\u003eOriginalFunctionSignature",
@@ -14903,6 +16225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "stripModule",
           "package": "feldspar-compiler",
@@ -14912,6 +16235,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "stripModule",
           "normalized": "Module-\u003e[Decl]",
@@ -14927,6 +16251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "stripModule2",
           "package": "feldspar-compiler",
@@ -14936,6 +16261,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "stripModule2",
           "normalized": "Module-\u003eModuleName",
@@ -14951,6 +16277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "stripModuleName",
           "package": "feldspar-compiler",
@@ -14960,6 +16287,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "stripModuleName",
           "normalized": "ModuleName-\u003eString",
@@ -14975,6 +16303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "stripName",
           "package": "feldspar-compiler",
@@ -14984,6 +16313,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "stripName",
           "normalized": "Name-\u003eString",
@@ -14999,6 +16329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "stripPattern",
           "package": "feldspar-compiler",
@@ -15008,6 +16339,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "stripPattern",
           "normalized": "Pat-\u003eMaybe String",
@@ -15023,6 +16355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "stripUnnecessary",
           "package": "feldspar-compiler",
@@ -15032,6 +16365,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "stripUnnecessary",
           "normalized": "[String]-\u003e[String]",
@@ -15047,6 +16381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "usedExtensions",
           "package": "feldspar-compiler",
@@ -15056,6 +16391,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "usedExtensions",
           "normalized": "[Extension]",
@@ -15071,6 +16407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.NameExtractor",
           "name": "warning",
           "package": "feldspar-compiler",
@@ -15080,6 +16417,7 @@
         },
         "index": {
           "hierarchy": "Feldspar NameExtractor",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.NameExtractor",
           "name": "warning",
           "normalized": "String-\u003ea-\u003ea",
@@ -15094,6 +16432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "Framework",
           "package": "feldspar-compiler",
@@ -15102,6 +16441,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "Framework",
           "package": "feldspar-compiler",
@@ -15115,6 +16455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "Combine",
           "package": "feldspar-compiler",
@@ -15123,6 +16464,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "Combine",
           "package": "feldspar-compiler",
@@ -15136,6 +16478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "Convert",
           "package": "feldspar-compiler",
@@ -15144,6 +16487,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "Convert",
           "package": "feldspar-compiler",
@@ -15157,6 +16501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "Default",
           "package": "feldspar-compiler",
@@ -15165,6 +16510,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "Default",
           "package": "feldspar-compiler",
@@ -15178,6 +16524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "DefaultTransformable",
           "package": "feldspar-compiler",
@@ -15186,6 +16533,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "DefaultTransformable",
           "package": "feldspar-compiler",
@@ -15199,6 +16547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "DefaultTransformable1",
           "package": "feldspar-compiler",
@@ -15207,6 +16556,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "DefaultTransformable1",
           "package": "feldspar-compiler",
@@ -15220,6 +16570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "Result",
           "package": "feldspar-compiler",
@@ -15228,6 +16579,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "Result",
           "package": "feldspar-compiler",
@@ -15241,6 +16593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "Result1",
           "package": "feldspar-compiler",
@@ -15249,6 +16602,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "Result1",
           "package": "feldspar-compiler",
@@ -15262,6 +16616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "Transformable",
           "package": "feldspar-compiler",
@@ -15270,6 +16625,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "Transformable",
           "package": "feldspar-compiler",
@@ -15283,6 +16639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "Transformable1",
           "package": "feldspar-compiler",
@@ -15291,6 +16648,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "Transformable1",
           "package": "feldspar-compiler",
@@ -15304,6 +16662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "Transformation",
           "package": "feldspar-compiler",
@@ -15312,6 +16671,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "Transformation",
           "package": "feldspar-compiler",
@@ -15325,6 +16685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "Result",
           "package": "feldspar-compiler",
@@ -15334,6 +16695,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "Result",
           "package": "feldspar-compiler",
@@ -15347,6 +16709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "Result1",
           "package": "feldspar-compiler",
@@ -15356,6 +16719,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "Result1",
           "package": "feldspar-compiler",
@@ -15369,6 +16733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "combine",
           "package": "feldspar-compiler",
@@ -15378,6 +16743,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "combine",
           "normalized": "a-\u003ea-\u003ea",
@@ -15392,6 +16758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "convert",
           "package": "feldspar-compiler",
@@ -15401,6 +16768,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "convert",
           "normalized": "a-\u003eb",
@@ -15415,6 +16783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "def",
           "package": "feldspar-compiler",
@@ -15424,6 +16793,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "def",
           "package": "feldspar-compiler",
@@ -15436,6 +16806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "defaultTransform",
           "package": "feldspar-compiler",
@@ -15445,6 +16816,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "defaultTransform",
           "normalized": "a-\u003eState a-\u003eDown a-\u003eb(From a)-\u003eResult a b",
@@ -15460,6 +16832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "defaultTransform1",
           "package": "feldspar-compiler",
@@ -15469,6 +16842,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "defaultTransform1",
           "normalized": "a-\u003eState a-\u003eDown a-\u003eb(c(From a))-\u003eResult a b c",
@@ -15484,6 +16858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "result",
           "package": "feldspar-compiler",
@@ -15493,6 +16868,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "result",
           "package": "feldspar-compiler",
@@ -15505,6 +16881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "result1",
           "package": "feldspar-compiler",
@@ -15514,6 +16891,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "result1",
           "package": "feldspar-compiler",
@@ -15526,6 +16904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "state",
           "package": "feldspar-compiler",
@@ -15535,6 +16914,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "state",
           "package": "feldspar-compiler",
@@ -15547,6 +16927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "state1",
           "package": "feldspar-compiler",
@@ -15556,6 +16937,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "state1",
           "package": "feldspar-compiler",
@@ -15568,6 +16950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "transform",
           "package": "feldspar-compiler",
@@ -15577,6 +16960,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "transform",
           "normalized": "a-\u003eState a-\u003eDown a-\u003eb(From a)-\u003eResult a b",
@@ -15591,6 +16975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "transform1",
           "package": "feldspar-compiler",
@@ -15600,6 +16985,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "transform1",
           "normalized": "a-\u003eState a-\u003eDown a-\u003eb(c(From a))-\u003eResult a b c",
@@ -15614,6 +17000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "transformationError",
           "package": "feldspar-compiler",
@@ -15623,6 +17010,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "transformationError",
           "normalized": "String-\u003ea",
@@ -15638,6 +17026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "up",
           "package": "feldspar-compiler",
@@ -15647,6 +17036,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "up",
           "package": "feldspar-compiler",
@@ -15659,6 +17049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation.Framework",
           "name": "up1",
           "package": "feldspar-compiler",
@@ -15668,6 +17059,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation Framework",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation.Framework",
           "name": "up1",
           "package": "feldspar-compiler",
@@ -15680,6 +17072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation",
           "name": "Transformation",
           "package": "feldspar-compiler",
@@ -15688,6 +17081,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation",
           "name": "Transformation",
           "package": "feldspar-compiler",
@@ -15701,6 +17095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation",
           "name": "Plugin",
           "package": "feldspar-compiler",
@@ -15709,6 +17104,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation",
           "name": "Plugin",
           "package": "feldspar-compiler",
@@ -15722,6 +17118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:49 UTC 2014",
           "module": "Feldspar.Transformation",
           "name": "executePlugin",
           "package": "feldspar-compiler",
@@ -15731,6 +17128,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Transformation",
+          "indexed": "2014-03-11T18:07:49",
           "module": "Feldspar.Transformation",
           "name": "executePlugin",
           "normalized": "a-\u003eExternalInfo a-\u003eModule(From a)-\u003eModule(To a)",

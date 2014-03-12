@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "phybin"
+        "phrase": "phybin",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the code that does the tree normalization and binning.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "Binning",
           "package": "phybin",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains the code that does the tree normalization and binning",
           "hierarchy": "Bio Phylogeny PhyBin Binning",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "Binning",
           "package": "phybin",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex the results of binning by topology-only stripped trees\n   that have their decorations removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "BinResults",
           "package": "phybin",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Index the results of binning by topology-only stripped trees that have their decorations removed",
           "hierarchy": "Bio Phylogeny PhyBin Binning",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "BinResults",
           "package": "phybin",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen binning, the members of a OneCluster are isomorphic trees.  When clustering\n based on robinson-foulds distance they are merely similar trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "OneCluster",
           "package": "phybin",
@@ -74,6 +79,7 @@
         "index": {
           "description": "When binning the members of OneCluster are isomorphic trees When clustering based on robinson-foulds distance they are merely similar trees",
           "hierarchy": "Bio Phylogeny PhyBin Binning",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "OneCluster",
           "package": "phybin",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore metadata (but keep weights) for the purpose of binning\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "StrippedTree",
           "package": "phybin",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Ignore metadata but keep weights for the purpose of binning",
           "hierarchy": "Bio Phylogeny PhyBin Binning",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "StrippedTree",
           "package": "phybin",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "OneCluster",
           "package": "phybin",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin Binning",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "OneCluster",
           "package": "phybin",
@@ -160,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor binning. Remove branch lengths and labels but leave weights.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "anonymize_annotated",
           "package": "phybin",
@@ -170,6 +181,7 @@
         "index": {
           "description": "For binning Remove branch lengths and labels but leave weights",
           "hierarchy": "Bio Phylogeny PhyBin Binning",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "anonymize_annotated",
           "normalized": "AnnotatedTree-\u003eStrippedTree",
@@ -210,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "clustMembers",
           "package": "phybin",
@@ -219,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin Binning",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "clustMembers",
           "normalized": "[FullTree a]",
@@ -261,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "get_weight",
           "package": "phybin",
@@ -270,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin Binning",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "get_weight",
           "normalized": "AnnotatedTree-\u003eInt",
@@ -311,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version lifted to operate over full trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "normalizeFT",
           "package": "phybin",
@@ -321,6 +338,7 @@
         "index": {
           "description": "version lifted to operate over full trees",
           "hierarchy": "Bio Phylogeny PhyBin Binning",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Binning",
           "name": "normalizeFT",
           "normalized": "FullTree StandardDecor-\u003eFullTree StandardDecor",
@@ -359,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "CoreTypes",
           "package": "phybin",
@@ -367,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "CoreTypes",
           "package": "phybin",
@@ -381,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditionally includes some scratch data that is used by the binning algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "AnnotatedTree",
           "package": "phybin",
@@ -390,6 +411,7 @@
         "index": {
           "description": "Additionally includes some scratch data that is used by the binning algorithm",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "AnnotatedTree",
           "package": "phybin",
@@ -403,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "ClustMode",
           "package": "phybin",
@@ -411,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "ClustMode",
           "package": "phybin",
@@ -425,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe barebones default decorator for NewickTrees contains BOOTSTRAP and\n BRANCHLENGTH.  The bootstrap values, if present, will range in [0..100]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "DefDecor",
           "package": "phybin",
@@ -434,6 +459,7 @@
         "index": {
           "description": "The barebones default decorator for NewickTrees contains BOOTSTRAP and BRANCHLENGTH The bootstrap values if present will range in",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "DefDecor",
           "package": "phybin",
@@ -448,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA common type of tree contains the standard decorator and also a table for\n restoring the human-readable node names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "FullTree",
           "package": "phybin",
@@ -457,6 +484,7 @@
         "index": {
           "description": "common type of tree contains the standard decorator and also table for restoring the human-readable node names",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "FullTree",
           "package": "phybin",
@@ -470,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "HasBranchLen",
           "package": "phybin",
@@ -478,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "HasBranchLen",
           "package": "phybin",
@@ -492,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabels are inexpensive unique integers.  The table is necessary for converting them back.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "Label",
           "package": "phybin",
@@ -501,6 +532,7 @@
         "index": {
           "description": "Labels are inexpensive unique integers The table is necessary for converting them back",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "Label",
           "package": "phybin",
@@ -515,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap labels back onto meaningful names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "LabelTable",
           "package": "phybin",
@@ -524,6 +557,7 @@
         "index": {
           "description": "Map labels back onto meaningful names",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "LabelTable",
           "package": "phybin",
@@ -538,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEven though the Newick format allows it, here we ignore interior node\n   labels. (They are not commonly used.)\n\u003c/p\u003e\u003cp\u003eNote that these trees are rooted.  The \u003ccode\u003enormalize\u003c/code\u003e function ensures that a\n   single, canonical rooted representation is chosen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "NewickTree",
           "package": "phybin",
@@ -547,6 +582,7 @@
         "index": {
           "description": "Even though the Newick format allows it here we ignore interior node labels They are not commonly used Note that these trees are rooted The normalize function ensures that single canonical rooted representation is chosen",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "NewickTree",
           "package": "phybin",
@@ -561,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many taxa should we expect in the incoming dataset?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "NumTaxa",
           "package": "phybin",
@@ -570,6 +607,7 @@
         "index": {
           "description": "How many taxa should we expect in the incoming dataset",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "NumTaxa",
           "package": "phybin",
@@ -584,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDue to the number of configuration options for the driver, we pack them into a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "PhyBinConfig",
           "package": "phybin",
@@ -593,6 +632,7 @@
         "index": {
           "description": "Due to the number of configuration options for the driver we pack them into record",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "PhyBinConfig",
           "package": "phybin",
@@ -607,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard decoration includes everything in \u003ccode\u003e\u003ca\u003eDefDecor\u003c/a\u003e\u003c/code\u003e plus\n   some extra cached data:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e branch length from parent to \u003ca\u003ethis\u003c/a\u003e node\n  (2) bootstrap values for the node\n\u003c/li\u003e\u003cli\u003e subtree weights for future use\n      (defined as number of LEAVES, not counting intermediate nodes)\n  (4) sorted lists of labels for symmetry breaking\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "StandardDecor",
           "package": "phybin",
@@ -616,6 +657,7 @@
         "index": {
           "description": "The standard decoration includes everything in DefDecor plus some extra cached data branch length from parent to this node bootstrap values for the node subtree weights for future use defined as number of LEAVES not counting intermediate nodes sorted lists of labels for symmetry breaking",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "StandardDecor",
           "package": "phybin",
@@ -629,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "TreeName",
           "package": "phybin",
@@ -637,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "TreeName",
           "package": "phybin",
@@ -651,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported modes for computing RFDistance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "WhichRFMode",
           "package": "phybin",
@@ -660,6 +705,7 @@
         "index": {
           "description": "Supported modes for computing RFDistance",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "WhichRFMode",
           "package": "phybin",
@@ -673,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "BinThem",
           "package": "phybin",
@@ -682,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "BinThem",
           "package": "phybin",
@@ -695,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "ClusterThem",
           "package": "phybin",
@@ -704,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "ClusterThem",
           "package": "phybin",
@@ -718,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupplied by the user.  Committed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "Expected",
           "package": "phybin",
@@ -728,6 +779,7 @@
         "index": {
           "description": "Supplied by the user Committed",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "Expected",
           "package": "phybin",
@@ -741,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "FullTree",
           "package": "phybin",
@@ -750,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "FullTree",
           "package": "phybin",
@@ -763,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "HashRF",
           "package": "phybin",
@@ -772,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "HashRF",
           "package": "phybin",
@@ -785,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "NTInterior",
           "package": "phybin",
@@ -794,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "NTInterior",
           "normalized": "NTInterior a[NewickTree a]",
@@ -809,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "NTLeaf",
           "package": "phybin",
@@ -818,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "NTLeaf",
           "package": "phybin",
@@ -831,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "PBC",
           "package": "phybin",
@@ -840,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "PBC",
           "package": "phybin",
@@ -853,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "StandardDecor",
           "package": "phybin",
@@ -862,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "StandardDecor",
           "package": "phybin",
@@ -875,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "TolerantNaive",
           "package": "phybin",
@@ -884,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "TolerantNaive",
           "package": "phybin",
@@ -898,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the future we may automatically pick a behavior.  Now this one is usually an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "Unknown",
           "package": "phybin",
@@ -908,6 +975,7 @@
         "index": {
           "description": "In the future we may automatically pick behavior Now this one is usually an error",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "Unknown",
           "package": "phybin",
@@ -922,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplicitly ignore this setting in favor of comparing all trees\n   (even if some are missing taxa).  This only works with certain modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "Variable",
           "package": "phybin",
@@ -932,6 +1001,7 @@
         "index": {
           "description": "Explicitly ignore this setting in favor of comparing all trees even if some are missing taxa This only works with certain modes",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "Variable",
           "package": "phybin",
@@ -946,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all the labels contained in the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "all_labels",
           "package": "phybin",
@@ -956,6 +1027,7 @@
         "index": {
           "description": "Return all the labels contained in the tree",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "all_labels",
           "normalized": "NewickTree a-\u003e[Label]",
@@ -971,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAverage branch length across all branches in all all trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "avg_branchlen",
           "package": "phybin",
@@ -981,6 +1054,7 @@
         "index": {
           "description": "Average branch length across all branches in all all trees",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "avg_branchlen",
           "normalized": "[NewickTree a]-\u003eDouble",
@@ -995,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "bootStrap",
           "package": "phybin",
@@ -1004,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "bootStrap",
           "package": "phybin",
@@ -1018,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBootStrap values less than this result in the intermediate node being collapsed.        \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "bootstrap_collapse_thresh",
           "package": "phybin",
@@ -1028,6 +1105,7 @@
         "index": {
           "description": "BootStrap values less than this result in the intermediate node being collapsed",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "bootstrap_collapse_thresh",
           "package": "phybin",
@@ -1040,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "branchLen",
           "package": "phybin",
@@ -1049,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "branchLen",
           "package": "phybin",
@@ -1063,6 +1143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBranches less than this length are collapsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "branch_collapse_thresh",
           "package": "phybin",
@@ -1073,6 +1154,7 @@
         "index": {
           "description": "Branches less than this length are collapsed",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "branch_collapse_thresh",
           "package": "phybin",
@@ -1085,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "clust_mode",
           "package": "phybin",
@@ -1094,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "clust_mode",
           "package": "phybin",
@@ -1107,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default phybin configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "default_phybin_config",
           "package": "phybin",
@@ -1117,6 +1202,7 @@
         "index": {
           "description": "The default phybin configuration",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "default_phybin_config",
           "package": "phybin",
@@ -1130,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a tree WITH the bootstrap and branch lengths.\n   This prints in NEWICK format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "displayDefaultTree",
           "package": "phybin",
@@ -1140,6 +1227,7 @@
         "index": {
           "description": "Display tree WITH the bootstrap and branch lengths This prints in NEWICK format",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "displayDefaultTree",
           "normalized": "FullTree DefDecor-\u003eDoc",
@@ -1156,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same, except with no bootstrap or branch lengths.  Any tree annotations\n ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "displayStrippedTree",
           "package": "phybin",
@@ -1166,6 +1255,7 @@
         "index": {
           "description": "The same except with no bootstrap or branch lengths Any tree annotations ignored",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "displayStrippedTree",
           "normalized": "FullTree a-\u003eDoc",
@@ -1181,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "dist_thresh",
           "package": "phybin",
@@ -1190,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "dist_thresh",
           "package": "phybin",
@@ -1202,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "do_draw",
           "package": "phybin",
@@ -1211,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "do_draw",
           "package": "phybin",
@@ -1223,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "do_graph",
           "package": "phybin",
@@ -1232,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "do_graph",
           "package": "phybin",
@@ -1245,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function allows one to collapse multiple trees while looking\n only at the \u003ca\u003ehorizontal slice\u003c/a\u003e of all the annotations *at a given\n position* in the tree.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eIsomorphic\u003c/a\u003e must apply both to the shape and the name labels or it\n is an error to apply this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "foldIsomorphicTrees",
           "package": "phybin",
@@ -1255,6 +1352,7 @@
         "index": {
           "description": "This function allows one to collapse multiple trees while looking only at the horizontal slice of all the annotations at given position in the tree Isomorphic must apply both to the shape and the name labels or it is an error to apply this function",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "foldIsomorphicTrees",
           "normalized": "([a]-\u003eb)-\u003e[NewickTree a]-\u003eNewickTree b",
@@ -1270,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "getBranchLen",
           "package": "phybin",
@@ -1279,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "getBranchLen",
           "normalized": "a-\u003eBranchLen",
@@ -1295,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve all the bootstraps values actually present in a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "get_bootstraps",
           "package": "phybin",
@@ -1305,6 +1406,7 @@
         "index": {
           "description": "Retrieve all the bootstraps values actually present in tree",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "get_bootstraps",
           "normalized": "NewickTree StandardDecor-\u003e[Int]",
@@ -1319,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "get_children",
           "package": "phybin",
@@ -1328,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "get_children",
           "normalized": "NewickTree a-\u003e[NewickTree a]",
@@ -1342,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "get_dec",
           "package": "phybin",
@@ -1351,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "get_dec",
           "normalized": "NewickTree a-\u003ea",
@@ -1365,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "highlights",
           "package": "phybin",
@@ -1374,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "highlights",
           "normalized": "[FilePath]",
@@ -1388,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "inputs",
           "package": "phybin",
@@ -1397,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "inputs",
           "normalized": "[String]",
@@ -1411,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "labelTable",
           "package": "phybin",
@@ -1420,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "labelTable",
           "package": "phybin",
@@ -1433,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "liftFT",
           "package": "phybin",
@@ -1442,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "liftFT",
           "normalized": "(NewickTree a-\u003eNewickTree b)-\u003eFullTree a-\u003eFullTree b",
@@ -1457,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "linkage",
           "package": "phybin",
@@ -1466,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "linkage",
           "package": "phybin",
@@ -1479,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to all the *labels* (leaf names) in a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "map_labels",
           "package": "phybin",
@@ -1489,6 +1606,7 @@
         "index": {
           "description": "Apply function to all the labels leaf names in tree",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "map_labels",
           "normalized": "(Label-\u003eLabel)-\u003eNewickTree a-\u003eNewickTree a",
@@ -1503,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "name_hack",
           "package": "phybin",
@@ -1512,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "name_hack",
           "normalized": "String-\u003eString",
@@ -1527,6 +1647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis counts only leaf nodes, which should include all taxa.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "numLeaves",
           "package": "phybin",
@@ -1537,6 +1658,7 @@
         "index": {
           "description": "This counts only leaf nodes which should include all taxa",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "numLeaves",
           "normalized": "NewickTree a-\u003eInt",
@@ -1552,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "num_taxa",
           "package": "phybin",
@@ -1561,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "num_taxa",
           "package": "phybin",
@@ -1573,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "nwtree",
           "package": "phybin",
@@ -1582,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "nwtree",
           "package": "phybin",
@@ -1594,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "output_dir",
           "package": "phybin",
@@ -1603,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "output_dir",
           "package": "phybin",
@@ -1615,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "preprune_labels",
           "package": "phybin",
@@ -1624,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "preprune_labels",
           "normalized": "Maybe[String]",
@@ -1638,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "print_rfmatrix",
           "package": "phybin",
@@ -1647,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "print_rfmatrix",
           "package": "phybin",
@@ -1659,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "rfmode",
           "package": "phybin",
@@ -1668,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "rfmode",
           "package": "phybin",
@@ -1680,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "set_dec",
           "package": "phybin",
@@ -1689,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "set_dec",
           "normalized": "a-\u003eNewickTree b-\u003eNewickTree a",
@@ -1703,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "show_interior_consensus",
           "package": "phybin",
@@ -1712,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "show_interior_consensus",
           "package": "phybin",
@@ -1724,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "show_trees_in_dendro",
           "package": "phybin",
@@ -1733,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "show_trees_in_dendro",
           "package": "phybin",
@@ -1745,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "sortedLabels",
           "package": "phybin",
@@ -1754,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "sortedLabels",
           "normalized": "[Label]",
@@ -1769,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "subtreeWeight",
           "package": "phybin",
@@ -1778,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "subtreeWeight",
           "package": "phybin",
@@ -1792,6 +1936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many nodes (leaves and interior) are contained in a NewickTree?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "treeSize",
           "package": "phybin",
@@ -1802,6 +1947,7 @@
         "index": {
           "description": "How many nodes leaves and interior are contained in NewickTree",
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "treeSize",
           "normalized": "NewickTree a-\u003eInt",
@@ -1817,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "treename",
           "package": "phybin",
@@ -1826,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "treename",
           "package": "phybin",
@@ -1838,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "verbose",
           "package": "phybin",
@@ -1847,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin CoreTypes",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.CoreTypes",
           "name": "verbose",
           "package": "phybin",
@@ -1859,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Parser",
           "name": "Parser",
           "package": "phybin",
@@ -1867,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin Parser",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Parser",
           "name": "Parser",
           "package": "phybin",
@@ -1881,6 +2033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser ASSUMES that whitespace has been prefiltered from the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Parser",
           "name": "newick_parser",
           "package": "phybin",
@@ -1891,6 +2044,7 @@
         "index": {
           "description": "This parser ASSUMES that whitespace has been prefiltered from the input",
           "hierarchy": "Bio Phylogeny PhyBin Parser",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Parser",
           "name": "newick_parser",
           "normalized": "NameHack-\u003eParser TempTree",
@@ -1906,6 +2060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a bytestring into a NewickTree with branch lengths.  The\n   first argument is file from which the data came and is just for\n   better error messages.\n\u003c/p\u003e\u003cp\u003eIf the single bytestring contains more than one tree, then a number is appended to\n the tree names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Parser",
           "name": "parseNewick",
           "package": "phybin",
@@ -1916,6 +2071,7 @@
         "index": {
           "description": "Parse bytestring into NewickTree with branch lengths The first argument is file from which the data came and is just for better error messages If the single bytestring contains more than one tree then number is appended to the tree names",
           "hierarchy": "Bio Phylogeny PhyBin Parser",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Parser",
           "name": "parseNewick",
           "normalized": "LabelTable-\u003eNameHack-\u003eString-\u003eByteString-\u003e(LabelTable,[NewickTree DefDecor])",
@@ -1932,6 +2088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a list of trees, starting with an empty map of labels and accumulating a final map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Parser",
           "name": "parseNewickFiles",
           "package": "phybin",
@@ -1942,6 +2099,7 @@
         "index": {
           "description": "Parse list of trees starting with an empty map of labels and accumulating final map",
           "hierarchy": "Bio Phylogeny PhyBin Parser",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Parser",
           "name": "parseNewickFiles",
           "normalized": "NameHack-\u003e[String]-\u003eIO(LabelTable,[FullTree DefDecor])",
@@ -1958,6 +2116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version which takes in-memory trees as ByteStrings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Parser",
           "name": "parseNewicks",
           "package": "phybin",
@@ -1968,6 +2127,7 @@
         "index": {
           "description": "version which takes in-memory trees as ByteStrings",
           "hierarchy": "Bio Phylogeny PhyBin Parser",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Parser",
           "name": "parseNewicks",
           "normalized": "NameHack-\u003e[(String,ByteString)]-\u003e(LabelTable,[FullTree DefDecor])",
@@ -1983,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Parser",
           "name": "unitTests",
           "package": "phybin",
@@ -1992,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin Parser",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Parser",
           "name": "unitTests",
           "package": "phybin",
@@ -2006,6 +2168,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a preprocessor which can (optionally) be invoked to\n collapse short branch lengths.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.PreProcessor",
           "name": "PreProcessor",
           "package": "phybin",
@@ -2015,6 +2178,7 @@
         "index": {
           "description": "This is preprocessor which can optionally be invoked to collapse short branch lengths",
           "hierarchy": "Bio Phylogeny PhyBin PreProcessor",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.PreProcessor",
           "name": "PreProcessor",
           "package": "phybin",
@@ -2029,6 +2193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA common configuration.  Collapse branches based on bootstrap values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.PreProcessor",
           "name": "collapseBranchBootStrapThresh",
           "package": "phybin",
@@ -2039,6 +2204,7 @@
         "index": {
           "description": "common configuration Collapse branches based on bootstrap values",
           "hierarchy": "Bio Phylogeny PhyBin PreProcessor",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.PreProcessor",
           "name": "collapseBranchBootStrapThresh",
           "normalized": "Int-\u003eNewickTree DefDecor-\u003eNewickTree DefDecor",
@@ -2055,6 +2221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA common configuration.  Collapse branches based on a length threshold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.PreProcessor",
           "name": "collapseBranchLenThresh",
           "package": "phybin",
@@ -2065,6 +2232,7 @@
         "index": {
           "description": "common configuration Collapse branches based on length threshold",
           "hierarchy": "Bio Phylogeny PhyBin PreProcessor",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.PreProcessor",
           "name": "collapseBranchLenThresh",
           "normalized": "Double-\u003eNewickTree DefDecor-\u003eNewickTree DefDecor",
@@ -2081,6 +2249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves branches that do not meet a predicate, leaving a shallower, \u003ca\u003ebushier\u003c/a\u003e\n   tree.  This does NOT change the set of leaves (taxa), it only removes interior\n   nodes.\n\u003c/p\u003e\u003cp\u003e`collapseBranches pred collapser tree` uses \u003ccode\u003e\u003ca\u003epred\u003c/a\u003e\u003c/code\u003e to test the meta-data to see\n   if collapsing the intermediate node below the branch is necessary, and if it is,\n   it uses \u003ccode\u003ecollapser\u003c/code\u003e to reduce all the metadata for the collapsed branches into a\n   single piece of metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.PreProcessor",
           "name": "collapseBranches",
           "package": "phybin",
@@ -2091,6 +2260,7 @@
         "index": {
           "description": "Removes branches that do not meet predicate leaving shallower bushier tree This does NOT change the set of leaves taxa it only removes interior nodes collapseBranches pred collapser tree uses pred to test the meta-data to see if collapsing the intermediate node below the branch is necessary and if it is it uses collapser to reduce all the metadata for the collapsed branches into single piece of metadata",
           "hierarchy": "Bio Phylogeny PhyBin PreProcessor",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.PreProcessor",
           "name": "collapseBranches",
           "normalized": "a b(c-\u003eBool)-\u003e(c-\u003ec-\u003ec)-\u003eNewickTree c-\u003eNewickTree c",
@@ -2107,6 +2277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrune the leaves of the tree to only those leaves in the provided set.\n\u003c/p\u003e\u003cp\u003eIf ALL leaves are pruned from the set, this function returns nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.PreProcessor",
           "name": "pruneTreeLeaves",
           "package": "phybin",
@@ -2117,6 +2288,7 @@
         "index": {
           "description": "Prune the leaves of the tree to only those leaves in the provided set If ALL leaves are pruned from the set this function returns nothing",
           "hierarchy": "Bio Phylogeny PhyBin PreProcessor",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.PreProcessor",
           "name": "pruneTreeLeaves",
           "normalized": "Set Label-\u003eNewickTree DefDecor-\u003eMaybe(NewickTree DefDecor)",
@@ -2132,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "RFDistance",
           "package": "phybin",
@@ -2140,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "RFDistance",
           "package": "phybin",
@@ -2154,6 +2328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDense sets of taxa, aka Bipartitions or BiPs\n   We assume that taxa labels have been mapped onto a dense, contiguous range of integers [0,N).\n\u003c/p\u003e\u003cp\u003eRule: Bipartitions are really two disjoint sets.  But as long as\n   the parent set (the union of the partitions, aka \u003ca\u003eall taxa\u003c/a\u003e) then a bipartition\n   can be represented just by *one* subset.  Yet we must choose WHICH subset for\n   consistency.  We use the rule that we always choose the SMALLER.  Thus the\n   DenseLabelSet should always be half the size or less, compared to the total\n   number of taxa.\n\u003c/p\u003e\u003cp\u003eA set that is more than a majority of the taxa can be normalized by \u003ca\u003eflipping\u003c/a\u003e,\n   i.e. taking the taxa that are NOT in that set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "DenseLabelSet",
           "package": "phybin",
@@ -2163,6 +2338,7 @@
         "index": {
           "description": "Dense sets of taxa aka Bipartitions or BiPs We assume that taxa labels have been mapped onto dense contiguous range of integers Rule Bipartitions are really two disjoint sets But as long as the parent set the union of the partitions aka all taxa then bipartition can be represented just by one subset Yet we must choose WHICH subset for consistency We use the rule that we always choose the SMALLER Thus the DenseLabelSet should always be half the size or less compared to the total number of taxa set that is more than majority of the taxa can be normalized by flipping i.e taking the taxa that are NOT in that set",
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "DenseLabelSet",
           "package": "phybin",
@@ -2176,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "DistanceMatrix",
           "package": "phybin",
@@ -2184,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "DistanceMatrix",
           "package": "phybin",
@@ -2198,6 +2376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all non-singleton BiPs implied by a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "allBips",
           "package": "phybin",
@@ -2208,6 +2387,7 @@
         "index": {
           "description": "Get all non-singleton BiPs implied by tree",
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "allBips",
           "normalized": "NewickTree a-\u003eSet DenseLabelSet",
@@ -2223,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "bipSize",
           "package": "phybin",
@@ -2232,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "bipSize",
           "normalized": "DenseLabelSet-\u003eInt",
@@ -2248,6 +2430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from bipartitions BACK to a single tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "bipsToTree",
           "package": "phybin",
@@ -2258,6 +2441,7 @@
         "index": {
           "description": "Convert from bipartitions BACK to single tree",
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "bipsToTree",
           "normalized": "Int-\u003eSet DenseLabelSet-\u003eNewickTree()",
@@ -2274,6 +2458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e`compatibleWith consensus tree` -- Is a tree compatible with a consensus?\n   This is more efficient if partially applied then used repeatedly.\n\u003c/p\u003e\u003cp\u003eNote, tree compatibility is not the same as an exact match.  It's\n like (\u003c=) rather than (==).  The \u003ca\u003estar topology\u003c/a\u003e is consistent with the\n all trees, because it induces the empty set of bipartitions.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "compatibleWith",
           "package": "phybin",
@@ -2284,6 +2469,7 @@
         "index": {
           "description": "compatibleWith consensus tree Is tree compatible with consensus This is more efficient if partially applied then used repeatedly Note tree compatibility is not the same as an exact match It like rather than The star topology is consistent with the all trees because it induces the empty set of bipartitions",
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "compatibleWith",
           "normalized": "NewickTree a-\u003eNewickTree b-\u003eBool",
@@ -2300,6 +2486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake only the bipartitions that are agreed on by all trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "consensusTree",
           "package": "phybin",
@@ -2310,6 +2497,7 @@
         "index": {
           "description": "Take only the bipartitions that are agreed on by all trees",
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "consensusTree",
           "normalized": "Int-\u003e[NewickTree a]-\u003eNewickTree()",
@@ -2325,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "denseDiff",
           "package": "phybin",
@@ -2334,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "denseDiff",
           "normalized": "IntSet-\u003eIntSet-\u003eIntSet",
@@ -2349,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "denseUnions",
           "package": "phybin",
@@ -2358,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "denseUnions",
           "normalized": "Int-\u003e[DenseLabelSet]-\u003eDenseLabelSet",
@@ -2374,6 +2566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a BiPartition in a pretty form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "dispBip",
           "package": "phybin",
@@ -2384,6 +2577,7 @@
         "index": {
           "description": "Print BiPartition in pretty form",
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "dispBip",
           "normalized": "LabelTable-\u003eDenseLabelSet-\u003eString",
@@ -2400,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich of a set of trees are compatible with a consensus?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "filterCompatible",
           "package": "phybin",
@@ -2410,6 +2605,7 @@
         "index": {
           "description": "Which of set of trees are compatible with consensus",
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "filterCompatible",
           "normalized": "NewickTree a-\u003e[NewickTree b]-\u003e[NewickTree b]",
@@ -2425,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "foldBips",
           "package": "phybin",
@@ -2434,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "foldBips",
           "normalized": "(DenseLabelSet-\u003ea)-\u003eNewickTree b-\u003ea",
@@ -2450,6 +2648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis version slices the problem a different way.  A single pass over the trees\n populates the table of bipartitions.  Then the table can be processed (locally) to\n produce (non-localized) increments to a distance matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "hashRF",
           "package": "phybin",
@@ -2460,6 +2659,7 @@
         "index": {
           "description": "This version slices the problem different way single pass over the trees populates the table of bipartitions Then the table can be processed locally to produce non-localized increments to distance matrix",
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "hashRF",
           "normalized": "Int-\u003e[NewickTree a]-\u003eDistanceMatrix",
@@ -2476,6 +2676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssume that total taxa are 0..N-1, invert membership:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "invertDense",
           "package": "phybin",
@@ -2486,6 +2687,7 @@
         "index": {
           "description": "Assume that total taxa are N-1 invert membership",
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "invertDense",
           "normalized": "Int-\u003eDenseLabelSet-\u003eDenseLabelSet",
@@ -2501,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "markLabel",
           "package": "phybin",
@@ -2510,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "markLabel",
           "normalized": "Label-\u003eDenseLabelSet-\u003eDenseLabelSet",
@@ -2525,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "mkEmptyDense",
           "package": "phybin",
@@ -2534,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "mkEmptyDense",
           "normalized": "Int-\u003eDenseLabelSet",
@@ -2549,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "mkSingleDense",
           "package": "phybin",
@@ -2558,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "mkSingleDense",
           "normalized": "Int-\u003eLabel-\u003eDenseLabelSet",
@@ -2574,6 +2782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a triangular distance matrix encoded as a vector.\n   Also return the set-of-BIPs representation for each tree.\n\u003c/p\u003e\u003cp\u003eThis uses a naive method, directly computing the pairwise\n   distance between each pair of trees.\n\u003c/p\u003e\u003cp\u003eThis method is TOLERANT of differences in the laba/taxa sets between two trees.\n   It simply prunes to the intersection before doing the distance comparison.\n   Other scoring methods may be added in the future.  (For example, penalizing for\n   missing taxa.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "naiveDistMatrix",
           "package": "phybin",
@@ -2584,6 +2793,7 @@
         "index": {
           "description": "Returns triangular distance matrix encoded as vector Also return the set-of-BIPs representation for each tree This uses naive method directly computing the pairwise distance between each pair of trees This method is TOLERANT of differences in the laba taxa sets between two trees It simply prunes to the intersection before doing the distance comparison Other scoring methods may be added in the future For example penalizing for missing taxa",
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "naiveDistMatrix",
           "normalized": "[NewickTree DefDecor]-\u003e(DistanceMatrix,Vector(Set DenseLabelSet))",
@@ -2599,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "printDistMat",
           "package": "phybin",
@@ -2608,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin RFDistance",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.RFDistance",
           "name": "printDistMat",
           "normalized": "Handle-\u003eVector(Vector Int)-\u003eIO()",
@@ -2624,6 +2836,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains misc bits used by (multiple) other modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Util",
           "name": "Util",
           "package": "phybin",
@@ -2633,6 +2846,7 @@
         "index": {
           "description": "This module contains misc bits used by multiple other modules",
           "hierarchy": "Bio Phylogeny PhyBin Util",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Util",
           "name": "Util",
           "package": "phybin",
@@ -2673,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Util",
           "name": "is_regular_file",
           "package": "phybin",
@@ -2682,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin Util",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Util",
           "name": "is_regular_file",
           "normalized": "FilePath-\u003eIO Bool",
@@ -2697,6 +2913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep carefully in case of cycles (argh).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Util",
           "name": "safePrintDendro",
           "package": "phybin",
@@ -2707,6 +2924,7 @@
         "index": {
           "description": "Step carefully in case of cycles argh",
           "hierarchy": "Bio Phylogeny PhyBin Util",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Util",
           "name": "safePrintDendro",
           "normalized": "DotGraph Node-\u003eIO(Maybe Text)",
@@ -2722,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Util",
           "name": "sanityCheck",
           "package": "phybin",
@@ -2731,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin Util",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Util",
           "name": "sanityCheck",
           "normalized": "Dendrogram(FullTree DefDecor)-\u003eIO()",
@@ -2746,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "Visualize",
           "package": "phybin",
@@ -2754,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Bio Phylogeny PhyBin Visualize",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "Visualize",
           "package": "phybin",
@@ -2768,6 +2990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a graph using TreeNames for node labels and edit-distance for edge labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "dendrogramToGraph",
           "package": "phybin",
@@ -2778,6 +3001,7 @@
         "index": {
           "description": "Create graph using TreeNames for node labels and edit-distance for edge labels",
           "hierarchy": "Bio Phylogeny PhyBin Visualize",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "dendrogramToGraph",
           "normalized": "Int-\u003eDendrogram(FullTree a)-\u003eDendroGraph",
@@ -2794,6 +3018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a dotGraph.  Some duplicated code with dotNewickTree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "dotDendrogram",
           "package": "phybin",
@@ -2804,6 +3029,7 @@
         "index": {
           "description": "Convert to dotGraph Some duplicated code with dotNewickTree",
           "hierarchy": "Bio Phylogeny PhyBin Visualize",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "dotDendrogram",
           "normalized": "PhyBinConfig-\u003eString-\u003eDouble-\u003eDendrogram(FullTree a)-\u003eMaybe(Map TreeName Int)-\u003e[[NewickTree()]]-\u003eDotGraph Node",
@@ -2820,6 +3046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a NewickTree to a graphviz Dot graph representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "dotNewickTree",
           "package": "phybin",
@@ -2830,6 +3057,7 @@
         "index": {
           "description": "Convert NewickTree to graphviz Dot graph representation",
           "hierarchy": "Bio Phylogeny PhyBin Visualize",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "dotNewickTree",
           "normalized": "String-\u003eDouble-\u003eFullTree StandardDecor-\u003eDotGraph Node",
@@ -2846,6 +3074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis version shows the ordered/rooted structure of the normalized tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "dotNewickTree_debug",
           "package": "phybin",
@@ -2856,6 +3085,7 @@
         "index": {
           "description": "This version shows the ordered rooted structure of the normalized tree",
           "hierarchy": "Bio Phylogeny PhyBin Visualize",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "dotNewickTree_debug",
           "normalized": "String-\u003eFullTree StandardDecor-\u003eDotGraph Node",
@@ -2872,6 +3102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a .dot file to .pdf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "dotToPDF",
           "package": "phybin",
@@ -2882,6 +3113,7 @@
         "index": {
           "description": "Convert dot file to pdf",
           "hierarchy": "Bio Phylogeny PhyBin Visualize",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "dotToPDF",
           "normalized": "DotGraph Node-\u003eFilePath-\u003eIO(Maybe FilePath)",
@@ -2898,6 +3130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a GUI window to displaya tree.\n\u003c/p\u003e\u003cp\u003eFork a thread that then runs graphviz.\n   The channel retuned will carry a single message to signal\n   completion of the subprocess.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "viewNewickTree",
           "package": "phybin",
@@ -2908,6 +3141,7 @@
         "index": {
           "description": "Open GUI window to displaya tree Fork thread that then runs graphviz The channel retuned will carry single message to signal completion of the subprocess",
           "hierarchy": "Bio Phylogeny PhyBin Visualize",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin.Visualize",
           "name": "viewNewickTree",
           "normalized": "String-\u003eFullTree StandardDecor-\u003eIO(Chan(),FullTree StandardDecor)",
@@ -2924,6 +3158,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the code that does the tree normalization and binning.\n   It's the heart of the program.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin",
           "name": "PhyBin",
           "package": "phybin",
@@ -2933,6 +3168,7 @@
         "index": {
           "description": "This module contains the code that does the tree normalization and binning It the heart of the program",
           "hierarchy": "Bio Phylogeny PhyBin",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin",
           "name": "PhyBin",
           "package": "phybin",
@@ -2947,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDriver to put all the pieces together (parse, normalize, bin)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin",
           "name": "driver",
           "package": "phybin",
@@ -2957,6 +3194,7 @@
         "index": {
           "description": "Driver to put all the pieces together parse normalize bin",
           "hierarchy": "Bio Phylogeny PhyBin",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin",
           "name": "driver",
           "normalized": "PhyBinConfig-\u003eIO()",
@@ -2972,6 +3210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a predicate that tests trees for consistency with the set of --highlight\n (consensus) trees.\n\u003c/p\u003e\u003cp\u003eNote, tree consistency is not the same as an exact match.  It's\n like (\u003c=) rather than (==).  All trees are consistent with the\n \u003ca\u003estar topology\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin",
           "name": "matchAnyHighlight",
           "package": "phybin",
@@ -2982,6 +3221,7 @@
         "index": {
           "description": "Create predicate that tests trees for consistency with the set of highlight consensus trees Note tree consistency is not the same as an exact match It like rather than All trees are consistent with the star topology",
           "hierarchy": "Bio Phylogeny PhyBin",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin",
           "name": "matchAnyHighlight",
           "normalized": "[[NewickTree()]]-\u003eNewickTree()-\u003eBool",
@@ -2998,6 +3238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse extra trees in addition to the main inputs (for --highlight).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:34 UTC 2014",
           "module": "Bio.Phylogeny.PhyBin",
           "name": "retrieveHighlights",
           "package": "phybin",
@@ -3008,6 +3249,7 @@
         "index": {
           "description": "Parse extra trees in addition to the main inputs for highlight",
           "hierarchy": "Bio Phylogeny PhyBin",
+          "indexed": "2014-03-11T19:38:34",
           "module": "Bio.Phylogeny.PhyBin",
           "name": "retrieveHighlights",
           "normalized": "(String-\u003eString)-\u003eLabelTable-\u003e[FilePath]-\u003eIO[[NewickTree()]]",

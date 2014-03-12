@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-ran"
+        "phrase": "monad-ran",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "Codensity",
           "package": "monad-ran",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "Codensity",
           "package": "monad-ran",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "G",
           "package": "monad-ran",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "G",
           "package": "monad-ran",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "H",
           "package": "monad-ran",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "H",
           "package": "monad-ran",
@@ -79,6 +85,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "Ran",
           "package": "monad-ran",
@@ -87,6 +94,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "Ran",
           "package": "monad-ran",
@@ -100,6 +108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "Yoneda",
           "package": "monad-ran",
@@ -108,6 +117,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "Yoneda",
           "package": "monad-ran",
@@ -121,6 +131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "RanApplicative",
           "package": "monad-ran",
@@ -129,6 +140,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "RanApplicative",
           "package": "monad-ran",
@@ -142,6 +154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "RanFunctor",
           "package": "monad-ran",
@@ -150,6 +163,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "RanFunctor",
           "package": "monad-ran",
@@ -163,6 +177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "RanMonad",
           "package": "monad-ran",
@@ -171,6 +186,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "RanMonad",
           "package": "monad-ran",
@@ -184,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "RanTrans",
           "package": "monad-ran",
@@ -192,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "RanTrans",
           "package": "monad-ran",
@@ -205,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "apRanCodensity",
           "package": "monad-ran",
@@ -214,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "apRanCodensity",
           "normalized": "Ran a(b-\u003ec)-\u003eRan a b-\u003eRan a c",
@@ -229,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "bindRanCodensity",
           "package": "monad-ran",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "bindRanCodensity",
           "normalized": "Ran a b-\u003e(b-\u003eRan a c)-\u003eRan a c",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "codensityRan",
           "package": "monad-ran",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "codensityRan",
           "normalized": "Codensity a b-\u003eRan(Codensity a)b",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "inRan",
           "package": "monad-ran",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "inRan",
           "normalized": "a(Ran b)c-\u003eRan(a b)c",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "liftRan",
           "package": "monad-ran",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "liftRan",
           "normalized": "a b-\u003eRan a b",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "liftRanCodensity",
           "package": "monad-ran",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "liftRanCodensity",
           "normalized": "G a b-\u003eRan a b",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "liftRanT",
           "package": "monad-ran",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "liftRanT",
           "normalized": "Ran a b-\u003eRan(c a)b",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "liftRanWorld",
           "package": "monad-ran",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "liftRanWorld",
           "normalized": "(State # a-\u003e(#State # a,b #))-\u003eRan c b",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "lowerCodensity",
           "package": "monad-ran",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "lowerCodensity",
           "normalized": "Codensity a b-\u003ea b",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "lowerCodensityApp",
           "package": "monad-ran",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "lowerCodensityApp",
           "normalized": "Codensity a b-\u003ea b",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "lowerRan",
           "package": "monad-ran",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "lowerRan",
           "normalized": "Ran a b-\u003ea b",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "lowerRanCodensity",
           "package": "monad-ran",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "lowerRanCodensity",
           "normalized": "Ran a b-\u003eG a b",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "lowerRanWorld",
           "package": "monad-ran",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "lowerRanWorld",
           "normalized": "Ran a b-\u003eState # c-\u003e(#State # c,b #)",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "lowerYoneda",
           "package": "monad-ran",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "lowerYoneda",
           "normalized": "Yoneda a b-\u003ea b",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "outRan",
           "package": "monad-ran",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "outRan",
           "normalized": "Ran(a b)c-\u003ea(Ran b)c",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "ranCodensity",
           "package": "monad-ran",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "ranCodensity",
           "normalized": "Ran(Codensity a)b-\u003eCodensity a b",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:32 UTC 2014",
           "module": "Control.Monad.Ran",
           "name": "returnRanCodensity",
           "package": "monad-ran",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ran",
+          "indexed": "2014-03-11T19:20:32",
           "module": "Control.Monad.Ran",
           "name": "returnRanCodensity",
           "normalized": "a-\u003eRan b a",

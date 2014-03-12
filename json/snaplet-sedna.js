@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-sedna"
+        "phrase": "snaplet-sedna",
+        "type": "phrase"
       },
       "type": "context"
     }

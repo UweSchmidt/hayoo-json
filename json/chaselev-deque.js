@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "chaselev-deque"
+        "phrase": "chaselev-deque",
+        "type": "phrase"
       },
       "type": "context"
     }

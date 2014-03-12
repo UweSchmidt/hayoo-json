@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "enumerable"
+        "phrase": "enumerable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable.ControversialFunctionEquality",
           "name": "ControversialFunctionEquality",
           "package": "enumerable",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable ControversialFunctionEquality",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable.ControversialFunctionEquality",
           "name": "ControversialFunctionEquality",
           "package": "enumerable",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable.FunctionEquality",
           "name": "FunctionEquality",
           "package": "enumerable",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable FunctionEquality",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable.FunctionEquality",
           "name": "FunctionEquality",
           "package": "enumerable",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "Enumerable",
           "package": "enumerable",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "Enumerable",
           "package": "enumerable",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "Cardinal",
           "package": "enumerable",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "Cardinal",
           "package": "enumerable",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "Enumerable",
           "package": "enumerable",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "Enumerable",
           "package": "enumerable",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "FinitelyEnumerable",
           "package": "enumerable",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "FinitelyEnumerable",
           "package": "enumerable",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "Partial",
           "package": "enumerable",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "Partial",
           "package": "enumerable",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "Aleph",
           "package": "enumerable",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "Aleph",
           "package": "enumerable",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "Finite",
           "package": "enumerable",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "Finite",
           "package": "enumerable",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "Partial",
           "package": "enumerable",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "Partial",
           "package": "enumerable",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "cardinality",
           "package": "enumerable",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "cardinality",
           "package": "enumerable",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "enumerate",
           "package": "enumerable",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "enumerate",
           "normalized": "[a]",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "enumerateInterleaved",
           "package": "enumerable",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "enumerateInterleaved",
           "normalized": "[a]",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "enumeratePartial",
           "package": "enumerable",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "enumeratePartial",
           "normalized": "[a]",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "enumerateTotal",
           "package": "enumerable",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "enumerateTotal",
           "normalized": "[a]",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:39 UTC 2014",
           "module": "Data.Enumerable",
           "name": "isPartial",
           "package": "enumerable",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerable",
+          "indexed": "2014-03-11T18:02:39",
           "module": "Data.Enumerable",
           "name": "isPartial",
           "package": "enumerable",

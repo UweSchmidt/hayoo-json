@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BiobaseInfernal"
+        "phrase": "BiobaseInfernal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParses text-based covariance-model descriptions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "Import",
           "package": "BiobaseInfernal",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parses text-based covariance-model descriptions",
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "Import",
           "package": "BiobaseInfernal",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "finishedHeader",
           "package": "BiobaseInfernal",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "finishedHeader",
           "normalized": "Maybe ByteString-\u003eBool",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "fromFile",
           "package": "BiobaseInfernal",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "fromFile",
           "normalized": "FilePath-\u003eIO[CM]",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if a line is a node line (\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e). If yes, we'll get the node\n type as string and the node identifier, too.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "isNode",
           "package": "BiobaseInfernal",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Determine if line is node line Just If yes we ll get the node type as string and the node identifier too",
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "isNode",
           "normalized": "Maybe ByteString-\u003eMaybe(NodeType,NodeID)",
@@ -115,6 +123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "lineParser",
           "package": "BiobaseInfernal",
@@ -124,6 +133,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "lineParser",
           "normalized": "Parser a-\u003ePipe b ByteString c d e a",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-level parser for Infernal 1.0 and 1.1 human-readable covariance\n models. Reads all lines first, then builds up the CM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "parseCM1x",
           "package": "BiobaseInfernal",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Top-level parser for Infernal and human-readable covariance models Reads all lines first then builds up the CM",
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "parseCM1x",
           "package": "BiobaseInfernal",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "parseHeader",
           "package": "BiobaseInfernal",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "parseHeader",
           "package": "BiobaseInfernal",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfernal 1.0 header parser. Greps all lines until the \u003ca\u003eMODEL:\u003c/a\u003e line, then\n return lines to top-level parser. Parses three lines at once in case of\n \u003ca\u003eFT-\u003c/a\u003e lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "parseHeaders",
           "package": "BiobaseInfernal",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Infernal header parser Greps all lines until the MODEL line then return lines to top-level parser Parses three lines at once in case of FT lines",
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "parseHeaders",
           "normalized": "[ByteString]-\u003ePipe a ByteString b c d(Map ByteString ByteString)",
@@ -211,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "parseNodes",
           "package": "BiobaseInfernal",
@@ -220,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "parseNodes",
           "normalized": "CMVersion-\u003e[(NodeType,NodeID,[State])]-\u003ePipe ByteString ByteString a b c[(NodeType,NodeID,[State])]",
@@ -235,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "parseState",
           "package": "BiobaseInfernal",
@@ -244,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "parseState",
           "normalized": "CMVersion-\u003eNodeType-\u003eNodeID-\u003eByteString-\u003eState",
@@ -259,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "parseStates",
           "package": "BiobaseInfernal",
@@ -268,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "parseStates",
           "normalized": "CMVersion-\u003eNodeType-\u003eNodeID-\u003e[State]-\u003ePipe ByteString ByteString a b c[State]",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "readAccession",
           "package": "BiobaseInfernal",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "readAccession",
           "normalized": "ByteString-\u003ea",
@@ -307,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "readBS",
           "package": "BiobaseInfernal",
@@ -316,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "readBS",
           "normalized": "ByteString-\u003ea",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "readBitScore",
           "package": "BiobaseInfernal",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "readBitScore",
           "normalized": "ByteString-\u003eBitScore",
@@ -355,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM.Import",
           "name": "test",
           "package": "BiobaseInfernal",
@@ -364,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM.Import",
           "name": "test",
           "normalized": "IO()",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInfernal CMs.\n\u003c/p\u003e\u003cp\u003eTODO order of nucleotides? ACGU?\n\u003c/p\u003e\u003cp\u003eTODO \u003ca\u003efastCM :: CM -\u003e FastCM\u003c/a\u003e to make a data structure that is suitable for\n high-performance applications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "CM",
           "package": "BiobaseInfernal",
@@ -388,6 +419,7 @@
         "index": {
           "description": "Infernal CMs TODO order of nucleotides ACGU TODO fastCM CM FastCM to make data structure that is suitable for high-performance applications",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "CM",
           "package": "BiobaseInfernal",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap of model accession numbers to individual CMs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "AC2CM",
           "package": "BiobaseInfernal",
@@ -411,6 +444,7 @@
         "index": {
           "description": "Map of model accession numbers to individual CMs",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "AC2CM",
           "package": "BiobaseInfernal",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an Infernal covariance model. We have a number of blocks:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e basic information like the name of the CM, accession number, etc.\n\u003c/li\u003e\u003cli\u003e advanced information: nodes and their states, and the states themselves.\n\u003c/li\u003e\u003cli\u003e unsorted information from the header / blasic block\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eCM\u003c/a\u003e\u003c/code\u003e data structure is not suitable for high-performance applications.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e score inequalities: trusted (lowest seed score) \u003e= gathering (lowest full\n score) \u003e= noise (random strings)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eLocal entries into the CM.\n\u003c/p\u003e\u003cp\u003eThe \u003ca\u003elocalBegin\u003c/a\u003e lens returns a map of state id's. We either have just the\n root node (with the \u003ca\u003eS\u003c/a\u003e state), or a set of states with type: MP,ML,MR,B.\n\u003c/p\u003e\u003cp\u003eThe \u003ca\u003elocalEnd\u003c/a\u003e lens on the other hand is the set of possible early exits\n from the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "CM",
           "package": "BiobaseInfernal",
@@ -434,6 +469,7 @@
         "index": {
           "description": "This is an Infernal covariance model We have number of blocks basic information like the name of the CM accession number etc advanced information nodes and their states and the states themselves unsorted information from the header blasic block The CM data structure is not suitable for high-performance applications score inequalities trusted lowest seed score gathering lowest full score noise random strings Local entries into the CM The localBegin lens returns map of state id We either have just the root node with the state or set of states with type MP ML MR The localEnd lens on the other hand is the set of possible early exits from the model",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "CM",
           "package": "BiobaseInfernal",
@@ -448,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the CM versions we can parse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "CMVersion",
           "package": "BiobaseInfernal",
@@ -457,6 +494,7 @@
         "index": {
           "description": "Encode the CM versions we can parse",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "CMVersion",
           "package": "BiobaseInfernal",
@@ -471,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCertain states (IL,IR,ML,MR) emit a single nucleotide, one state emits a\n pair (MP), other states emit nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "Emits",
           "package": "BiobaseInfernal",
@@ -480,6 +519,7 @@
         "index": {
           "description": "Certain states IL IR ML MR emit single nucleotide one state emits pair MP other states emit nothing",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "Emits",
           "package": "BiobaseInfernal",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap of model names to individual CMs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "ID2CM",
           "package": "BiobaseInfernal",
@@ -503,6 +544,7 @@
         "index": {
           "description": "Map of model names to individual CMs",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "ID2CM",
           "package": "BiobaseInfernal",
@@ -517,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode IDs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "NodeID",
           "package": "BiobaseInfernal",
@@ -526,6 +569,7 @@
         "index": {
           "description": "Node IDs",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "NodeID",
           "package": "BiobaseInfernal",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode CM node types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "NodeType",
           "package": "BiobaseInfernal",
@@ -549,6 +594,7 @@
         "index": {
           "description": "Encode CM node types",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "NodeType",
           "package": "BiobaseInfernal",
@@ -563,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "State",
           "package": "BiobaseInfernal",
@@ -572,6 +619,7 @@
         "index": {
           "description": "single state",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "State",
           "package": "BiobaseInfernal",
@@ -586,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState IDs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "StateID",
           "package": "BiobaseInfernal",
@@ -595,6 +644,7 @@
         "index": {
           "description": "State IDs",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "StateID",
           "package": "BiobaseInfernal",
@@ -609,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode CM state types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "StateType",
           "package": "BiobaseInfernal",
@@ -618,6 +669,7 @@
         "index": {
           "description": "Encode CM state types",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "StateType",
           "package": "BiobaseInfernal",
@@ -631,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "B",
           "package": "BiobaseInfernal",
@@ -640,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "B",
           "package": "BiobaseInfernal",
@@ -652,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "BEGL",
           "package": "BiobaseInfernal",
@@ -661,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "BEGL",
           "package": "BiobaseInfernal",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "BEGR",
           "package": "BiobaseInfernal",
@@ -683,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "BEGR",
           "package": "BiobaseInfernal",
@@ -696,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "BIF",
           "package": "BiobaseInfernal",
@@ -705,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "BIF",
           "package": "BiobaseInfernal",
@@ -718,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "CM",
           "package": "BiobaseInfernal",
@@ -727,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "CM",
           "package": "BiobaseInfernal",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "D",
           "package": "BiobaseInfernal",
@@ -749,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "D",
           "package": "BiobaseInfernal",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "E",
           "package": "BiobaseInfernal",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "E",
           "package": "BiobaseInfernal",
@@ -782,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "EL",
           "package": "BiobaseInfernal",
@@ -791,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "EL",
           "package": "BiobaseInfernal",
@@ -804,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "END",
           "package": "BiobaseInfernal",
@@ -813,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "END",
           "package": "BiobaseInfernal",
@@ -826,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "EmitNothing",
           "package": "BiobaseInfernal",
@@ -835,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "EmitNothing",
           "package": "BiobaseInfernal",
@@ -848,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "EmitsPair",
           "package": "BiobaseInfernal",
@@ -857,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "EmitsPair",
           "package": "BiobaseInfernal",
@@ -870,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "EmitsSingle",
           "package": "BiobaseInfernal",
@@ -879,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "EmitsSingle",
           "package": "BiobaseInfernal",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "IL",
           "package": "BiobaseInfernal",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "IL",
           "package": "BiobaseInfernal",
@@ -914,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "IR",
           "package": "BiobaseInfernal",
@@ -923,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "IR",
           "package": "BiobaseInfernal",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "Infernal10",
           "package": "BiobaseInfernal",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "Infernal10",
           "package": "BiobaseInfernal",
@@ -958,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "Infernal11",
           "package": "BiobaseInfernal",
@@ -967,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "Infernal11",
           "package": "BiobaseInfernal",
@@ -980,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "MATL",
           "package": "BiobaseInfernal",
@@ -989,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "MATL",
           "package": "BiobaseInfernal",
@@ -1002,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "MATP",
           "package": "BiobaseInfernal",
@@ -1011,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "MATP",
           "package": "BiobaseInfernal",
@@ -1024,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "MATR",
           "package": "BiobaseInfernal",
@@ -1033,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "MATR",
           "package": "BiobaseInfernal",
@@ -1046,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "ML",
           "package": "BiobaseInfernal",
@@ -1055,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "ML",
           "package": "BiobaseInfernal",
@@ -1068,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "MP",
           "package": "BiobaseInfernal",
@@ -1077,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "MP",
           "package": "BiobaseInfernal",
@@ -1090,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "MR",
           "package": "BiobaseInfernal",
@@ -1099,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "MR",
           "package": "BiobaseInfernal",
@@ -1112,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "NodeID",
           "package": "BiobaseInfernal",
@@ -1121,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "NodeID",
           "package": "BiobaseInfernal",
@@ -1134,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "ROOT",
           "package": "BiobaseInfernal",
@@ -1143,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "ROOT",
           "package": "BiobaseInfernal",
@@ -1156,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "S",
           "package": "BiobaseInfernal",
@@ -1165,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "S",
           "package": "BiobaseInfernal",
@@ -1177,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "State",
           "package": "BiobaseInfernal",
@@ -1186,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "State",
           "package": "BiobaseInfernal",
@@ -1199,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "StateID",
           "package": "BiobaseInfernal",
@@ -1208,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "StateID",
           "package": "BiobaseInfernal",
@@ -1222,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRFxxxxx identification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_accession",
           "package": "BiobaseInfernal",
@@ -1232,6 +1339,7 @@
         "index": {
           "description": "RFxxxxx identification",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_accession",
           "package": "BiobaseInfernal",
@@ -1245,6 +1353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edo we emit characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_emits",
           "package": "BiobaseInfernal",
@@ -1255,6 +1364,7 @@
         "index": {
           "description": "do we emit characters",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_emits",
           "package": "BiobaseInfernal",
@@ -1268,6 +1378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall scores at or above \u003ccode\u003e\u003ca\u003egathering\u003c/a\u003e\u003c/code\u003e score are in the \u003ca\u003efull\u003c/a\u003e alignment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_gathering",
           "package": "BiobaseInfernal",
@@ -1278,6 +1389,7 @@
         "index": {
           "description": "all scores at or above gathering score are in the full alignment",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_gathering",
           "package": "BiobaseInfernal",
@@ -1290,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_hmm",
           "package": "BiobaseInfernal",
@@ -1299,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_hmm",
           "package": "BiobaseInfernal",
@@ -1312,6 +1426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntries into the CM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_localBegin",
           "package": "BiobaseInfernal",
@@ -1322,6 +1437,7 @@
         "index": {
           "description": "Entries into the CM",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_localBegin",
           "package": "BiobaseInfernal",
@@ -1336,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExits out of the CM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_localEnd",
           "package": "BiobaseInfernal",
@@ -1346,6 +1463,7 @@
         "index": {
           "description": "Exits out of the CM",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_localEnd",
           "package": "BiobaseInfernal",
@@ -1360,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of model as in \u003ca\u003etRNA\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_name",
           "package": "BiobaseInfernal",
@@ -1370,6 +1489,7 @@
         "index": {
           "description": "name of model as in tRNA",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_name",
           "package": "BiobaseInfernal",
@@ -1383,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eto which node does this state belong\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_nodeID",
           "package": "BiobaseInfernal",
@@ -1393,6 +1514,7 @@
         "index": {
           "description": "to which node does this state belong",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_nodeID",
           "package": "BiobaseInfernal",
@@ -1407,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enode type for this state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_nodeType",
           "package": "BiobaseInfernal",
@@ -1417,6 +1540,7 @@
         "index": {
           "description": "node type for this state",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_nodeType",
           "package": "BiobaseInfernal",
@@ -1431,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeach node has a set of states\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_nodes",
           "package": "BiobaseInfernal",
@@ -1441,6 +1566,7 @@
         "index": {
           "description": "each node has set of states",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_nodes",
           "normalized": "Map NodeID(NodeType,[StateID])",
@@ -1456,6 +1582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehighest score NOT included as member\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_noiseCutoff",
           "package": "BiobaseInfernal",
@@ -1466,6 +1593,7 @@
         "index": {
           "description": "highest score NOT included as member",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_noiseCutoff",
           "package": "BiobaseInfernal",
@@ -1480,6 +1608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNull-model: categorical distribution on ACGU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_nullModel",
           "package": "BiobaseInfernal",
@@ -1490,6 +1619,7 @@
         "index": {
           "description": "Null-model categorical distribution on ACGU",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_nullModel",
           "package": "BiobaseInfernal",
@@ -1503,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_pair",
           "package": "BiobaseInfernal",
@@ -1512,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_pair",
           "normalized": "[(Char,Char,BitScore)]",
@@ -1526,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_single",
           "package": "BiobaseInfernal",
@@ -1535,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_single",
           "normalized": "[(Char,BitScore)]",
@@ -1550,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ID of this state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_stateID",
           "package": "BiobaseInfernal",
@@ -1560,6 +1695,7 @@
         "index": {
           "description": "The ID of this state",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_stateID",
           "package": "BiobaseInfernal",
@@ -1574,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of the state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_stateType",
           "package": "BiobaseInfernal",
@@ -1584,6 +1721,7 @@
         "index": {
           "description": "type of the state",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_stateType",
           "package": "BiobaseInfernal",
@@ -1598,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeach state has a type, some emit characters, and some have children\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_states",
           "package": "BiobaseInfernal",
@@ -1608,6 +1747,7 @@
         "index": {
           "description": "each state has type some emit characters and some have children",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_states",
           "package": "BiobaseInfernal",
@@ -1621,6 +1761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhich transitions, id and bitscore\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_transitions",
           "package": "BiobaseInfernal",
@@ -1631,6 +1772,7 @@
         "index": {
           "description": "which transitions id and bitscore",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_transitions",
           "normalized": "[(StateID,BitScore)]",
@@ -1646,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elowest score of any seed member\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_trustedCutoff",
           "package": "BiobaseInfernal",
@@ -1656,6 +1799,7 @@
         "index": {
           "description": "lowest score of any seed member",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_trustedCutoff",
           "package": "BiobaseInfernal",
@@ -1670,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall lines that are not handled. Multiline entries are key-\u003emulti-line entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_unsorted",
           "package": "BiobaseInfernal",
@@ -1680,6 +1825,7 @@
         "index": {
           "description": "all lines that are not handled Multiline entries are key multi-line entry",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_unsorted",
           "package": "BiobaseInfernal",
@@ -1693,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe can parse version 1.0 and 1.1 CMs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "_version",
           "package": "BiobaseInfernal",
@@ -1703,6 +1850,7 @@
         "index": {
           "description": "We can parse version and CMs",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "_version",
           "package": "BiobaseInfernal",
@@ -1715,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "accession",
           "package": "BiobaseInfernal",
@@ -1724,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "accession",
           "package": "BiobaseInfernal",
@@ -1736,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "emits",
           "package": "BiobaseInfernal",
@@ -1745,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "emits",
           "package": "BiobaseInfernal",
@@ -1757,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "gathering",
           "package": "BiobaseInfernal",
@@ -1766,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "gathering",
           "package": "BiobaseInfernal",
@@ -1778,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "hmm",
           "package": "BiobaseInfernal",
@@ -1787,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "hmm",
           "package": "BiobaseInfernal",
@@ -1799,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "illegalState",
           "package": "BiobaseInfernal",
@@ -1808,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "illegalState",
           "package": "BiobaseInfernal",
@@ -1821,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "localBegin",
           "package": "BiobaseInfernal",
@@ -1830,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "localBegin",
           "package": "BiobaseInfernal",
@@ -1843,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "localEnd",
           "package": "BiobaseInfernal",
@@ -1852,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "localEnd",
           "package": "BiobaseInfernal",
@@ -1866,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a CM have local start/end behaviour, with \u003ca\u003epbegin\u003c/a\u003e and \u003ca\u003epend\u003c/a\u003e\n probabilities given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "makeLocal",
           "package": "BiobaseInfernal",
@@ -1876,6 +2039,7 @@
         "index": {
           "description": "Make CM have local start end behaviour with pbegin and pend probabilities given",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "makeLocal",
           "normalized": "Double-\u003eDouble-\u003eCM-\u003eCM",
@@ -1892,6 +2056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert all legal local beginnings, disable root node (and root states).\n The \u003ccode\u003epbegin\u003c/code\u003e probability the the total probability for local begins. The\n remaining \u003ca\u003e1-pbegin\u003c/a\u003e is the probability to start with node 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "makeLocalBegin",
           "package": "BiobaseInfernal",
@@ -1902,6 +2067,7 @@
         "index": {
           "description": "Insert all legal local beginnings disable root node and root states The pbegin probability the the total probability for local begins The remaining pbegin is the probability to start with node",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "makeLocalBegin",
           "normalized": "Double-\u003eCM-\u003eCM",
@@ -1918,6 +2084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert all legal local ends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "makeLocalEnd",
           "package": "BiobaseInfernal",
@@ -1928,6 +2095,7 @@
         "index": {
           "description": "Insert all legal local ends",
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "makeLocalEnd",
           "normalized": "Double-\u003eCM-\u003eCM",
@@ -1943,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "name",
           "package": "BiobaseInfernal",
@@ -1952,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "name",
           "package": "BiobaseInfernal",
@@ -1964,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "nodeID",
           "package": "BiobaseInfernal",
@@ -1973,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "nodeID",
           "package": "BiobaseInfernal",
@@ -1986,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "nodeType",
           "package": "BiobaseInfernal",
@@ -1995,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "nodeType",
           "package": "BiobaseInfernal",
@@ -2008,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "nodes",
           "package": "BiobaseInfernal",
@@ -2017,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "nodes",
           "normalized": "Lens' CM(Map NodeID(NodeType,[StateID]))",
@@ -2031,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "noiseCutoff",
           "package": "BiobaseInfernal",
@@ -2040,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "noiseCutoff",
           "package": "BiobaseInfernal",
@@ -2053,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "nullModel",
           "package": "BiobaseInfernal",
@@ -2062,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "nullModel",
           "package": "BiobaseInfernal",
@@ -2075,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "pair",
           "package": "BiobaseInfernal",
@@ -2084,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "pair",
           "normalized": "Traversal' Emits[(Char,Char,BitScore)]",
@@ -2098,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "single",
           "package": "BiobaseInfernal",
@@ -2107,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "single",
           "normalized": "Traversal' Emits[(Char,BitScore)]",
@@ -2121,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "stateID",
           "package": "BiobaseInfernal",
@@ -2130,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "stateID",
           "package": "BiobaseInfernal",
@@ -2143,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "stateType",
           "package": "BiobaseInfernal",
@@ -2152,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "stateType",
           "package": "BiobaseInfernal",
@@ -2165,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "states",
           "package": "BiobaseInfernal",
@@ -2174,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "states",
           "package": "BiobaseInfernal",
@@ -2186,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "transitions",
           "package": "BiobaseInfernal",
@@ -2195,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "transitions",
           "normalized": "Lens' State[(StateID,BitScore)]",
@@ -2209,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "trustedCutoff",
           "package": "BiobaseInfernal",
@@ -2218,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "trustedCutoff",
           "package": "BiobaseInfernal",
@@ -2231,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "unNodeID",
           "package": "BiobaseInfernal",
@@ -2240,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "unNodeID",
           "package": "BiobaseInfernal",
@@ -2253,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "unStateID",
           "package": "BiobaseInfernal",
@@ -2262,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "unStateID",
           "package": "BiobaseInfernal",
@@ -2275,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "unsorted",
           "package": "BiobaseInfernal",
@@ -2284,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "unsorted",
           "package": "BiobaseInfernal",
@@ -2296,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.CM",
           "name": "version",
           "package": "BiobaseInfernal",
@@ -2305,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab CM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.CM",
           "name": "version",
           "package": "BiobaseInfernal",
@@ -2318,6 +2520,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImport HMMER3 HMM models.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "Import",
           "package": "BiobaseInfernal",
@@ -2327,6 +2530,7 @@
         "index": {
           "description": "Import HMMER3 HMM models",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "Import",
           "package": "BiobaseInfernal",
@@ -2341,6 +2545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the optional COMPO line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "compoLine",
           "package": "BiobaseInfernal",
@@ -2351,6 +2556,7 @@
         "index": {
           "description": "Read the optional COMPO line",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "compoLine",
           "normalized": "Pipe ByteString ByteString a b c[NegLogProb]",
@@ -2367,6 +2573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the header lines until we see \u003ca\u003eHMM\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "headerLines",
           "package": "BiobaseInfernal",
@@ -2377,6 +2584,7 @@
         "index": {
           "description": "All the header lines until we see HMM",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "headerLines",
           "normalized": "Pipe ByteString ByteString a b c[ByteString]",
@@ -2393,6 +2601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate associative map of the key/value data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "headerMap",
           "package": "BiobaseInfernal",
@@ -2403,6 +2612,7 @@
         "index": {
           "description": "create associative map of the key value data",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "headerMap",
           "normalized": "[ByteString]-\u003eMap ByteString ByteString",
@@ -2419,6 +2629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck, if we have a legal HMMER3 model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "legalHMM",
           "package": "BiobaseInfernal",
@@ -2429,6 +2640,7 @@
         "index": {
           "description": "Check if we have legal HMMER3 model",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "legalHMM",
           "normalized": "Maybe ByteString-\u003eBool",
@@ -2445,6 +2657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the two beginning lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "parseBegin",
           "package": "BiobaseInfernal",
@@ -2455,6 +2668,7 @@
         "index": {
           "description": "Parse the two beginning lines",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "parseBegin",
           "normalized": "a-\u003ePipe b ByteString c d e Node",
@@ -2471,6 +2685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO not everything is currently being parsed. Notably the rf,cs,alignmap\n annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "parseHMM3",
           "package": "BiobaseInfernal",
@@ -2481,6 +2696,7 @@
         "index": {
           "description": "TODO not everything is currently being parsed Notably the rf cs alignmap annotations",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "parseHMM3",
           "package": "BiobaseInfernal",
@@ -2495,6 +2711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse all individual nodes, except the first one, which uses \u003ccode\u003e\u003ca\u003eparseBegin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "parseNodes",
           "package": "BiobaseInfernal",
@@ -2505,6 +2722,7 @@
         "index": {
           "description": "Parse all individual nodes except the first one which uses parseBegin",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "parseNodes",
           "normalized": "Int-\u003ePipe ByteString ByteString a b c[Node]",
@@ -2521,6 +2739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine which alphabet is in use by the HMM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "readAlph",
           "package": "BiobaseInfernal",
@@ -2531,6 +2750,7 @@
         "index": {
           "description": "Determine which alphabet is in use by the HMM",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "readAlph",
           "normalized": "ByteString-\u003eAlphabet",
@@ -2547,6 +2767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead from a bytestring into a structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "readBS",
           "package": "BiobaseInfernal",
@@ -2557,6 +2778,7 @@
         "index": {
           "description": "Read from bytestring into structure",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "readBS",
           "normalized": "ByteString-\u003ea",
@@ -2573,6 +2795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead boolean flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "readBoolean",
           "package": "BiobaseInfernal",
@@ -2583,6 +2806,7 @@
         "index": {
           "description": "Read boolean flags",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "readBoolean",
           "normalized": "ByteString-\u003eBool",
@@ -2599,6 +2823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a HMMER negated log-probability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "readNLP",
           "package": "BiobaseInfernal",
@@ -2609,6 +2834,7 @@
         "index": {
           "description": "Read HMMER negated log-probability",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "readNLP",
           "normalized": "String-\u003eNegLogProb",
@@ -2625,6 +2851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the alphabet and transition lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "sathLines",
           "package": "BiobaseInfernal",
@@ -2635,6 +2862,7 @@
         "index": {
           "description": "Read the alphabet and transition lines",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "sathLines",
           "normalized": "Pipe a ByteString b c d([ByteString],[ByteString])",
@@ -2651,6 +2879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple test for the HMMer parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM.Import",
           "name": "test",
           "package": "BiobaseInfernal",
@@ -2661,6 +2890,7 @@
         "index": {
           "description": "Simple test for the HMMer parser",
           "hierarchy": "Biobase SElab HMM Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM.Import",
           "name": "test",
           "normalized": "IO()",
@@ -2675,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "HMM",
           "package": "BiobaseInfernal",
@@ -2683,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "HMM",
           "package": "BiobaseInfernal",
@@ -2696,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "Alphabet",
           "package": "BiobaseInfernal",
@@ -2704,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "Alphabet",
           "package": "BiobaseInfernal",
@@ -2717,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "HMM",
           "package": "BiobaseInfernal",
@@ -2725,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "HMM",
           "package": "BiobaseInfernal",
@@ -2739,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HMM3 data structure in ``slow mode''.\n\u003c/p\u003e\u003cp\u003eTODO shouldn't this be \u003ca\u003eIdentification Pfam\u003c/a\u003e ?\n\u003c/p\u003e\u003cp\u003eTODO maybe redo the whole \u003ca\u003eidd\u003c/a\u003e idea and just keep the string?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "HMM3",
           "package": "BiobaseInfernal",
@@ -2748,6 +2985,7 @@
         "index": {
           "description": "The HMM3 data structure in slow mode TODO shouldn this be Identification Pfam TODO maybe redo the whole idd idea and just keep the string",
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "HMM3",
           "package": "BiobaseInfernal",
@@ -2762,6 +3000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegated natural logarithm of probability.\n\u003c/p\u003e\u003cp\u003eTODO put into types stuff\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "NegLogProb",
           "package": "BiobaseInfernal",
@@ -2771,6 +3010,7 @@
         "index": {
           "description": "Negated natural logarithm of probability TODO put into types stuff",
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "NegLogProb",
           "package": "BiobaseInfernal",
@@ -2785,6 +3025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe nodes in an HMM. Starting with Node \u003ca\u003e0\u003c/a\u003e for BEGIN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "Node",
           "package": "BiobaseInfernal",
@@ -2794,6 +3035,7 @@
         "index": {
           "description": "The nodes in an HMM Starting with Node for BEGIN",
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "Node",
           "package": "BiobaseInfernal",
@@ -2807,6 +3049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "Amino",
           "package": "BiobaseInfernal",
@@ -2816,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "Amino",
           "package": "BiobaseInfernal",
@@ -2829,6 +3073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "Coins",
           "package": "BiobaseInfernal",
@@ -2838,6 +3083,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "Coins",
           "package": "BiobaseInfernal",
@@ -2851,6 +3097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "Custom",
           "package": "BiobaseInfernal",
@@ -2860,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "Custom",
           "package": "BiobaseInfernal",
@@ -2873,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "DNA",
           "package": "BiobaseInfernal",
@@ -2882,6 +3131,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "DNA",
           "package": "BiobaseInfernal",
@@ -2895,6 +3145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "Dice",
           "package": "BiobaseInfernal",
@@ -2904,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "Dice",
           "package": "BiobaseInfernal",
@@ -2917,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "HMM3",
           "package": "BiobaseInfernal",
@@ -2926,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "HMM3",
           "package": "BiobaseInfernal",
@@ -2939,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "NLP",
           "package": "BiobaseInfernal",
@@ -2948,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "NLP",
           "package": "BiobaseInfernal",
@@ -2961,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "Node",
           "package": "BiobaseInfernal",
@@ -2970,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "Node",
           "package": "BiobaseInfernal",
@@ -2983,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "RNA",
           "package": "BiobaseInfernal",
@@ -2992,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "RNA",
           "package": "BiobaseInfernal",
@@ -3005,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_acc",
           "package": "BiobaseInfernal",
@@ -3014,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_acc",
           "package": "BiobaseInfernal",
@@ -3026,6 +3288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_alignMap",
           "package": "BiobaseInfernal",
@@ -3035,6 +3298,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_alignMap",
           "package": "BiobaseInfernal",
@@ -3048,6 +3312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_alph",
           "package": "BiobaseInfernal",
@@ -3057,6 +3322,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_alph",
           "package": "BiobaseInfernal",
@@ -3069,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_compo",
           "package": "BiobaseInfernal",
@@ -3078,6 +3345,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_compo",
           "normalized": "[NegLogProb]",
@@ -3092,6 +3360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_cs",
           "package": "BiobaseInfernal",
@@ -3101,6 +3370,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_cs",
           "package": "BiobaseInfernal",
@@ -3113,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_date",
           "package": "BiobaseInfernal",
@@ -3122,6 +3393,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_date",
           "package": "BiobaseInfernal",
@@ -3134,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_description",
           "package": "BiobaseInfernal",
@@ -3143,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_description",
           "package": "BiobaseInfernal",
@@ -3155,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_idd",
           "package": "BiobaseInfernal",
@@ -3164,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_idd",
           "package": "BiobaseInfernal",
@@ -3176,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_insertE",
           "package": "BiobaseInfernal",
@@ -3185,6 +3462,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_insertE",
           "normalized": "[NegLogProb]",
@@ -3199,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_leng",
           "package": "BiobaseInfernal",
@@ -3208,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_leng",
           "package": "BiobaseInfernal",
@@ -3220,6 +3500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_matchE",
           "package": "BiobaseInfernal",
@@ -3229,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_matchE",
           "normalized": "[NegLogProb]",
@@ -3243,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_nid",
           "package": "BiobaseInfernal",
@@ -3252,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_nid",
           "package": "BiobaseInfernal",
@@ -3264,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_nodes",
           "package": "BiobaseInfernal",
@@ -3273,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_nodes",
           "normalized": "[Node]",
@@ -3287,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_rf",
           "package": "BiobaseInfernal",
@@ -3296,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_rf",
           "package": "BiobaseInfernal",
@@ -3308,6 +3596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_symAlph",
           "package": "BiobaseInfernal",
@@ -3317,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_symAlph",
           "normalized": "[ByteString]",
@@ -3332,6 +3622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_trans",
           "package": "BiobaseInfernal",
@@ -3341,6 +3632,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_trans",
           "normalized": "[NegLogProb]",
@@ -3355,6 +3647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_transHeaders",
           "package": "BiobaseInfernal",
@@ -3364,6 +3657,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_transHeaders",
           "normalized": "[ByteString]",
@@ -3379,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "_version",
           "package": "BiobaseInfernal",
@@ -3388,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "_version",
           "normalized": "(ByteString,ByteString)",
@@ -3402,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "acc",
           "package": "BiobaseInfernal",
@@ -3411,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "acc",
           "package": "BiobaseInfernal",
@@ -3423,6 +3721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "alignMap",
           "package": "BiobaseInfernal",
@@ -3432,6 +3731,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "alignMap",
           "package": "BiobaseInfernal",
@@ -3445,6 +3745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "alph",
           "package": "BiobaseInfernal",
@@ -3454,6 +3755,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "alph",
           "package": "BiobaseInfernal",
@@ -3466,6 +3768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "compo",
           "package": "BiobaseInfernal",
@@ -3475,6 +3778,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "compo",
           "normalized": "Lens' HMM[NegLogProb]",
@@ -3489,6 +3793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "cs",
           "package": "BiobaseInfernal",
@@ -3498,6 +3803,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "cs",
           "package": "BiobaseInfernal",
@@ -3510,6 +3816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "date",
           "package": "BiobaseInfernal",
@@ -3519,6 +3826,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "date",
           "package": "BiobaseInfernal",
@@ -3531,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "description",
           "package": "BiobaseInfernal",
@@ -3540,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "description",
           "package": "BiobaseInfernal",
@@ -3552,6 +3862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "idd",
           "package": "BiobaseInfernal",
@@ -3561,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "idd",
           "package": "BiobaseInfernal",
@@ -3573,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "insertE",
           "package": "BiobaseInfernal",
@@ -3582,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "insertE",
           "normalized": "Lens' Node[NegLogProb]",
@@ -3596,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "leng",
           "package": "BiobaseInfernal",
@@ -3605,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "leng",
           "package": "BiobaseInfernal",
@@ -3617,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "matchE",
           "package": "BiobaseInfernal",
@@ -3626,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "matchE",
           "normalized": "Lens' Node[NegLogProb]",
@@ -3640,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "nid",
           "package": "BiobaseInfernal",
@@ -3649,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "nid",
           "package": "BiobaseInfernal",
@@ -3661,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "nodes",
           "package": "BiobaseInfernal",
@@ -3670,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "nodes",
           "normalized": "Lens' HMM[Node]",
@@ -3684,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "rf",
           "package": "BiobaseInfernal",
@@ -3693,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "rf",
           "package": "BiobaseInfernal",
@@ -3705,6 +4029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "symAlph",
           "package": "BiobaseInfernal",
@@ -3714,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "symAlph",
           "normalized": "Lens' HMM[ByteString]",
@@ -3729,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "trans",
           "package": "BiobaseInfernal",
@@ -3738,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "trans",
           "normalized": "Lens' Node[NegLogProb]",
@@ -3752,6 +4080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "transHeaders",
           "package": "BiobaseInfernal",
@@ -3761,6 +4090,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "transHeaders",
           "normalized": "Lens' HMM[ByteString]",
@@ -3776,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.HMM",
           "name": "version",
           "package": "BiobaseInfernal",
@@ -3785,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab HMM",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.HMM",
           "name": "version",
           "normalized": "Lens' HMM(ByteString,ByteString)",
@@ -3799,6 +4131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames.Import",
           "name": "Import",
           "package": "BiobaseInfernal",
@@ -3807,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames.Import",
           "name": "Import",
           "package": "BiobaseInfernal",
@@ -3820,6 +4154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames.Import",
           "name": "fromFile",
           "package": "BiobaseInfernal",
@@ -3829,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames.Import",
           "name": "fromFile",
           "normalized": "String-\u003eIO(Map(Identification Rfam)[ModelNames],Map(Accession Rfam)[ModelNames])",
@@ -3844,6 +4180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames.Import",
           "name": "mapAcRfamNames",
           "package": "BiobaseInfernal",
@@ -3853,6 +4190,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames.Import",
           "name": "mapAcRfamNames",
           "normalized": "Pipe a ModelNames b c d(Map(Accession Rfam)[ModelNames])",
@@ -3868,6 +4206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames.Import",
           "name": "mapIdRfamNames",
           "package": "BiobaseInfernal",
@@ -3877,6 +4216,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames.Import",
           "name": "mapIdRfamNames",
           "normalized": "Pipe a ModelNames b c d(Map(Identification Rfam)[ModelNames])",
@@ -3892,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames.Import",
           "name": "mkRfamName",
           "package": "BiobaseInfernal",
@@ -3901,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames.Import",
           "name": "mkRfamName",
           "package": "BiobaseInfernal",
@@ -3914,6 +4256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames.Import",
           "name": "parse",
           "package": "BiobaseInfernal",
@@ -3923,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames.Import",
           "name": "parse",
           "normalized": "Sink ByteString a(Map(Identification Rfam)[ModelNames],Map(Accession Rfam)[ModelNames])",
@@ -3938,6 +4282,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe database of Rfam \u003ca\u003enames\u003c/a\u003e. For each model, we get to know which\n sequences it is built of, what the AC of the species is, and its name (or\n ID).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames",
           "name": "RfamNames",
           "package": "BiobaseInfernal",
@@ -3947,6 +4292,7 @@
         "index": {
           "description": "The database of Rfam names For each model we get to know which sequences it is built of what the AC of the species is and its name or ID",
           "hierarchy": "Biobase SElab RfamNames",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames",
           "name": "RfamNames",
           "package": "BiobaseInfernal",
@@ -3960,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames",
           "name": "ModelNames",
           "package": "BiobaseInfernal",
@@ -3968,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames",
           "name": "ModelNames",
           "package": "BiobaseInfernal",
@@ -3981,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames",
           "name": "ModelNames",
           "package": "BiobaseInfernal",
@@ -3990,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames",
           "name": "ModelNames",
           "package": "BiobaseInfernal",
@@ -4003,6 +4353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames",
           "name": "_modelAC",
           "package": "BiobaseInfernal",
@@ -4012,6 +4363,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames",
           "name": "_modelAC",
           "package": "BiobaseInfernal",
@@ -4025,6 +4377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames",
           "name": "_modelID",
           "package": "BiobaseInfernal",
@@ -4034,6 +4387,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames",
           "name": "_modelID",
           "package": "BiobaseInfernal",
@@ -4047,6 +4401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames",
           "name": "_speciesAC",
           "package": "BiobaseInfernal",
@@ -4056,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames",
           "name": "_speciesAC",
           "package": "BiobaseInfernal",
@@ -4069,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames",
           "name": "_speciesID",
           "package": "BiobaseInfernal",
@@ -4078,6 +4435,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames",
           "name": "_speciesID",
           "package": "BiobaseInfernal",
@@ -4091,6 +4449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames",
           "name": "modelAC",
           "package": "BiobaseInfernal",
@@ -4100,6 +4459,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames",
           "name": "modelAC",
           "package": "BiobaseInfernal",
@@ -4113,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames",
           "name": "modelID",
           "package": "BiobaseInfernal",
@@ -4122,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames",
           "name": "modelID",
           "package": "BiobaseInfernal",
@@ -4135,6 +4497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames",
           "name": "speciesAC",
           "package": "BiobaseInfernal",
@@ -4144,6 +4507,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames",
           "name": "speciesAC",
           "package": "BiobaseInfernal",
@@ -4157,6 +4521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.RfamNames",
           "name": "speciesID",
           "package": "BiobaseInfernal",
@@ -4166,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab RfamNames",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.RfamNames",
           "name": "speciesID",
           "package": "BiobaseInfernal",
@@ -4180,6 +4546,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIteratee-based importer. Provides a simple \u003ca\u003efromFile\u003c/a\u003e function that\n produces both maps in one pass.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy.Import",
           "name": "Import",
           "package": "BiobaseInfernal",
@@ -4189,6 +4556,7 @@
         "index": {
           "description": "Iteratee-based importer Provides simple fromFile function that produces both maps in one pass",
           "hierarchy": "Biobase SElab Taxonomy Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy.Import",
           "name": "Import",
           "package": "BiobaseInfernal",
@@ -4202,6 +4570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy.Import",
           "name": "fromFile",
           "package": "BiobaseInfernal",
@@ -4211,6 +4580,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Taxonomy Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy.Import",
           "name": "fromFile",
           "normalized": "String-\u003eIO(Map(Identification Species)Taxonomy,Map(Accession Species)Taxonomy)",
@@ -4226,6 +4596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy.Import",
           "name": "mapAcTaxonomy",
           "package": "BiobaseInfernal",
@@ -4235,6 +4606,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Taxonomy Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy.Import",
           "name": "mapAcTaxonomy",
           "package": "BiobaseInfernal",
@@ -4248,6 +4620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy.Import",
           "name": "mapIdTaxonomy",
           "package": "BiobaseInfernal",
@@ -4257,6 +4630,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Taxonomy Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy.Import",
           "name": "mapIdTaxonomy",
           "package": "BiobaseInfernal",
@@ -4270,6 +4644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy.Import",
           "name": "mkTaxonomy",
           "package": "BiobaseInfernal",
@@ -4279,6 +4654,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Taxonomy Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy.Import",
           "name": "mkTaxonomy",
           "package": "BiobaseInfernal",
@@ -4292,6 +4668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy.Import",
           "name": "parse",
           "package": "BiobaseInfernal",
@@ -4301,6 +4678,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Taxonomy Import",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy.Import",
           "name": "parse",
           "normalized": "Sink ByteString a(Map(Identification Species)Taxonomy,Map(Accession Species)Taxonomy)",
@@ -4316,6 +4694,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInfernal contains a taxonomy database. This is a simple module reflecting\n said database.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy",
           "name": "Taxonomy",
           "package": "BiobaseInfernal",
@@ -4325,6 +4704,7 @@
         "index": {
           "description": "Infernal contains taxonomy database This is simple module reflecting said database",
           "hierarchy": "Biobase SElab Taxonomy",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy",
           "name": "Taxonomy",
           "package": "BiobaseInfernal",
@@ -4339,6 +4719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor each species, we store the name and a classification list from most\n general (head) to most specific (last). The database comes with the NCBI\n taxon identifier (taxid).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy",
           "name": "Taxonomy",
           "package": "BiobaseInfernal",
@@ -4348,6 +4729,7 @@
         "index": {
           "description": "For each species we store the name and classification list from most general head to most specific last The database comes with the NCBI taxon identifier taxid",
           "hierarchy": "Biobase SElab Taxonomy",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy",
           "name": "Taxonomy",
           "package": "BiobaseInfernal",
@@ -4361,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy",
           "name": "Taxonomy",
           "package": "BiobaseInfernal",
@@ -4370,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Taxonomy",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy",
           "name": "Taxonomy",
           "package": "BiobaseInfernal",
@@ -4383,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy",
           "name": "_accession",
           "package": "BiobaseInfernal",
@@ -4392,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Taxonomy",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy",
           "name": "_accession",
           "package": "BiobaseInfernal",
@@ -4404,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy",
           "name": "_classification",
           "package": "BiobaseInfernal",
@@ -4413,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Taxonomy",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy",
           "name": "_classification",
           "normalized": "[Classification]",
@@ -4427,6 +4815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy",
           "name": "_name",
           "package": "BiobaseInfernal",
@@ -4436,6 +4825,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Taxonomy",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy",
           "name": "_name",
           "package": "BiobaseInfernal",
@@ -4448,6 +4838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy",
           "name": "accession",
           "package": "BiobaseInfernal",
@@ -4457,6 +4848,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Taxonomy",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy",
           "name": "accession",
           "package": "BiobaseInfernal",
@@ -4469,6 +4861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy",
           "name": "classification",
           "package": "BiobaseInfernal",
@@ -4478,6 +4871,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Taxonomy",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy",
           "name": "classification",
           "normalized": "Lens' Taxonomy[Classification]",
@@ -4492,6 +4886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy",
           "name": "name",
           "package": "BiobaseInfernal",
@@ -4501,6 +4896,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Taxonomy",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy",
           "name": "name",
           "package": "BiobaseInfernal",
@@ -4514,6 +4910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a name such as \u003ca\u003eDrosophila Melanogaster\u003c/a\u003e, returns \u003ca\u003ed.melanogaster\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Taxonomy",
           "name": "shortenName",
           "package": "BiobaseInfernal",
@@ -4524,6 +4921,7 @@
         "index": {
           "description": "Given name such as Drosophila Melanogaster returns d.melanogaster",
           "hierarchy": "Biobase SElab Taxonomy",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Taxonomy",
           "name": "shortenName",
           "normalized": "Identification Species-\u003eIdentification Species",
@@ -4540,6 +4938,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInfernal Stockholm files and covariance models, and other related files\n use a bunch of different identifiers. We provide newtypes for more type\n safety.\n\u003c/p\u003e\u003cp\u003eTODO Use (Bio.Core.Sequence.Offset) instead of Int for sequence info\n\u003c/p\u003e\u003cp\u003eTODO move \u003ccode\u003e\u003ca\u003eBitScore\u003c/a\u003e\u003c/code\u003es, null models, probabilities into its own library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "Types",
           "package": "BiobaseInfernal",
@@ -4549,6 +4948,7 @@
         "index": {
           "description": "Infernal Stockholm files and covariance models and other related files use bunch of different identifiers We provide newtypes for more type safety TODO Use Bio.Core.Sequence.Offset instead of Int for sequence info TODO move BitScore null models probabilities into its own library",
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "Types",
           "package": "BiobaseInfernal",
@@ -4563,6 +4963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccession number, in the format of RFxxxxx, PFxxxxx, or CLxxxxx. We keep\n only the Int-part. A phantom type specifies which kind of accession number\n this is. For Species, we just have an index, it seems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "Accession",
           "package": "BiobaseInfernal",
@@ -4572,6 +4973,7 @@
         "index": {
           "description": "Accession number in the format of RFxxxxx PFxxxxx or CLxxxxx We keep only the Int-part phantom type specifies which kind of accession number this is For Species we just have an index it seems",
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "Accession",
           "package": "BiobaseInfernal",
@@ -4586,6 +4988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfernal bit score. Behaves like a double (deriving Num).\n\u003c/p\u003e\u003cp\u003eInfernal users guide, p.42: log-odds score in log_2 (aka bits).\n\u003c/p\u003e\u003cp\u003eS = log_2 (P(seq|CM) / P(seq|null))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "BitScore",
           "package": "BiobaseInfernal",
@@ -4595,6 +4998,7 @@
         "index": {
           "description": "Infernal bit score Behaves like double deriving Num Infernal users guide p.42 log-odds score in log aka bits log seq CM seq null",
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "BitScore",
           "package": "BiobaseInfernal",
@@ -4609,6 +5013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag as being a clan.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "Clan",
           "package": "BiobaseInfernal",
@@ -4618,6 +5023,7 @@
         "index": {
           "description": "Tag as being clan",
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "Clan",
           "package": "BiobaseInfernal",
@@ -4632,6 +5038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassification names (taxonomic classification)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "Classification",
           "package": "BiobaseInfernal",
@@ -4641,6 +5048,7 @@
         "index": {
           "description": "Classification names taxonomic classification",
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "Classification",
           "package": "BiobaseInfernal",
@@ -4655,6 +5063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne word name for the family or clan. Phantom-typed with the correct type\n of model. Can be a longer name for species.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "Identification",
           "package": "BiobaseInfernal",
@@ -4664,6 +5073,7 @@
         "index": {
           "description": "One word name for the family or clan Phantom-typed with the correct type of model Can be longer name for species",
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "Identification",
           "package": "BiobaseInfernal",
@@ -4678,6 +5088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag as being a Pfam model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "Pfam",
           "package": "BiobaseInfernal",
@@ -4687,6 +5098,7 @@
         "index": {
           "description": "Tag as being Pfam model",
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "Pfam",
           "package": "BiobaseInfernal",
@@ -4701,6 +5113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag as being an Rfam model. Used for Stockholm and CM files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "Rfam",
           "package": "BiobaseInfernal",
@@ -4710,6 +5123,7 @@
         "index": {
           "description": "Tag as being an Rfam model Used for Stockholm and CM files",
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "Rfam",
           "package": "BiobaseInfernal",
@@ -4724,6 +5138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecies have an accession number, too.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "Species",
           "package": "BiobaseInfernal",
@@ -4733,6 +5148,7 @@
         "index": {
           "description": "Species have an accession number too",
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "Species",
           "package": "BiobaseInfernal",
@@ -4746,6 +5162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "ACC",
           "package": "BiobaseInfernal",
@@ -4755,6 +5172,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "ACC",
           "package": "BiobaseInfernal",
@@ -4768,6 +5186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "BitScore",
           "package": "BiobaseInfernal",
@@ -4777,6 +5196,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "BitScore",
           "package": "BiobaseInfernal",
@@ -4790,6 +5210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "Classification",
           "package": "BiobaseInfernal",
@@ -4799,6 +5220,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "Classification",
           "package": "BiobaseInfernal",
@@ -4812,6 +5234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "IDD",
           "package": "BiobaseInfernal",
@@ -4821,6 +5244,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "IDD",
           "package": "BiobaseInfernal",
@@ -4835,6 +5259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a null model and a probability, calculate the corresponding\n \u003ccode\u003e\u003ca\u003eBitScore\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "prob2Score",
           "package": "BiobaseInfernal",
@@ -4845,6 +5270,7 @@
         "index": {
           "description": "Given null model and probability calculate the corresponding BitScore",
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "prob2Score",
           "normalized": "Double-\u003eDouble-\u003eBitScore",
@@ -4861,6 +5287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a null model and a \u003ccode\u003e\u003ca\u003eBitScore\u003c/a\u003e\u003c/code\u003e return the corresponding probability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "score2Prob",
           "package": "BiobaseInfernal",
@@ -4871,6 +5298,7 @@
         "index": {
           "description": "Given null model and BitScore return the corresponding probability",
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "score2Prob",
           "normalized": "Double-\u003eBitScore-\u003eDouble",
@@ -4886,6 +5314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "unACC",
           "package": "BiobaseInfernal",
@@ -4895,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "unACC",
           "package": "BiobaseInfernal",
@@ -4908,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "unBitScore",
           "package": "BiobaseInfernal",
@@ -4917,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "unBitScore",
           "package": "BiobaseInfernal",
@@ -4930,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "unClassification",
           "package": "BiobaseInfernal",
@@ -4939,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "unClassification",
           "package": "BiobaseInfernal",
@@ -4952,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:27 UTC 2014",
           "module": "Biobase.SElab.Types",
           "name": "unIDD",
           "package": "BiobaseInfernal",
@@ -4961,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "Biobase SElab Types",
+          "indexed": "2014-03-11T16:34:27",
           "module": "Biobase.SElab.Types",
           "name": "unIDD",
           "package": "BiobaseInfernal",

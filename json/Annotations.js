@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Annotations"
+        "phrase": "Annotations",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes and utility functions for expression text selections.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "Bounds",
           "package": "Annotations",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Types and utility functions for expression text selections",
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "Bounds",
           "package": "Annotations",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structural selection expressed as a textual selection. The margins\n indicate the whitespace directly around the selected structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "Bounds",
           "package": "Annotations",
@@ -51,6 +54,7 @@
         "index": {
           "description": "structural selection expressed as textual selection The margins indicate the whitespace directly around the selected structure",
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "Bounds",
           "package": "Annotations",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple textual selection: starting offset and ending offset,\n respectively. Offsets are 0-based.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "Range",
           "package": "Annotations",
@@ -74,6 +79,7 @@
         "index": {
           "description": "simple textual selection starting offset and ending offset respectively Offsets are based",
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "Range",
           "package": "Annotations",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "Bounds",
           "package": "Annotations",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "Bounds",
           "package": "Annotations",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA measure for the dissimilarity between two ranges.\n\u003c/p\u003e\u003cpre\u003edistRange (l1, r1) (l2, r2) = |l1 - l2| + |r1 - r2|\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "distRange",
           "package": "Annotations",
@@ -120,6 +129,7 @@
         "index": {
           "description": "measure for the dissimilarity between two ranges distRange l1 r1 l2 r2 l1 l2 r1 r2",
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "distRange",
           "normalized": "Range-\u003eRange-\u003eInt",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eBounds\u003c/code\u003e' inner range does not include the whitespace around the selected structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "innerRange",
           "package": "Annotations",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Bounds inner range does not include the whitespace around the selected structure",
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "innerRange",
           "normalized": "Bounds-\u003eRange",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "leftMargin",
           "package": "Annotations",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "leftMargin",
           "package": "Annotations",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eBounds\u003c/code\u003e' outer range includes the whitespace around the selected structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "outerRange",
           "package": "Annotations",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Bounds outer range includes the whitespace around the selected structure",
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "outerRange",
           "normalized": "Bounds-\u003eRange",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTells whether the offset falls within the given range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "posInRange",
           "package": "Annotations",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Tells whether the offset falls within the given range",
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "posInRange",
           "normalized": "Int-\u003eRange-\u003eBool",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA range is within certain bounds if its left offset is within the bounds' \n left margin and its right offset is within the bounds' right margin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "rangeInBounds",
           "package": "Annotations",
@@ -246,6 +265,7 @@
         "index": {
           "description": "range is within certain bounds if its left offset is within the bounds left margin and its right offset is within the bounds right margin",
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "rangeInBounds",
           "normalized": "Range-\u003eBounds-\u003eBool",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTells whether the first range is enclosed by the second range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "rangeInRange",
           "package": "Annotations",
@@ -272,6 +293,7 @@
         "index": {
           "description": "Tells whether the first range is enclosed by the second range",
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "rangeInRange",
           "normalized": "Range-\u003eRange-\u003eBool",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erangesInBounds b\u003c/code\u003e yields all those ranges \u003ccode\u003er\u003c/code\u003e for which\n \u003ccode\u003erangeInBounds r b\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "rangesInBounds",
           "package": "Annotations",
@@ -298,6 +321,7 @@
         "index": {
           "description": "rangesInBounds yields all those ranges for which rangeInBounds",
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "rangesInBounds",
           "normalized": "Bounds-\u003e[Range]",
@@ -313,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Bounds",
           "name": "rightMargin",
           "package": "Annotations",
@@ -322,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Annotations Bounds",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Bounds",
           "name": "rightMargin",
           "package": "Annotations",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Parsec parser type that parses \u003ccode\u003e\u003ca\u003eSymbol\u003c/a\u003e\u003c/code\u003es and keeps track of the \n position within the input stream. Unlike Parsec's default position \n tracking, this parser keeps track of the range of whitespace between two \n tokens.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.BoundsParser",
           "name": "BoundsParser",
           "package": "Annotations",
@@ -345,6 +372,7 @@
         "index": {
           "description": "Parsec parser type that parses Symbol and keeps track of the position within the input stream Unlike Parsec default position tracking this parser keeps track of the range of whitespace between two tokens",
           "hierarchy": "Annotations BoundsParser",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.BoundsParser",
           "name": "BoundsParser",
           "package": "Annotations",
@@ -359,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser that works on symbols coupled with token information. The state maintains the current position in the stream. This position is the range of whitespace between two tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.BoundsParser",
           "name": "P",
           "package": "Annotations",
@@ -368,6 +397,7 @@
         "index": {
           "description": "parser that works on symbols coupled with token information The state maintains the current position in the stream This position is the range of whitespace between two tokens",
           "hierarchy": "Annotations BoundsParser",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.BoundsParser",
           "name": "P",
           "package": "Annotations",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymbols form input for parsers. Minimal complete definition: \u003ccode\u003e\u003ca\u003eunparse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.BoundsParser",
           "name": "Symbol",
           "package": "Annotations",
@@ -390,6 +421,7 @@
         "index": {
           "description": "Symbols form input for parsers Minimal complete definition unparse",
           "hierarchy": "Annotations BoundsParser",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.BoundsParser",
           "name": "Symbol",
           "package": "Annotations",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a predicate that tells what tokens to discard, keeps only the meaningful tokens and couples them with position information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.BoundsParser",
           "name": "collapse",
           "package": "Annotations",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Given predicate that tells what tokens to discard keeps only the meaningful tokens and couples them with position information",
           "hierarchy": "Annotations BoundsParser",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.BoundsParser",
           "name": "collapse",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[(a,Bounds)]",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the current position in the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.BoundsParser",
           "name": "getPos",
           "package": "Annotations",
@@ -439,6 +474,7 @@
         "index": {
           "description": "Yield the current position in the input",
           "hierarchy": "Annotations BoundsParser",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.BoundsParser",
           "name": "getPos",
           "package": "Annotations",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecognise a specific symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.BoundsParser",
           "name": "pToken",
           "package": "Annotations",
@@ -463,6 +500,7 @@
         "index": {
           "description": "Recognise specific symbol",
           "hierarchy": "Annotations BoundsParser",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.BoundsParser",
           "name": "pToken",
           "normalized": "a-\u003eP a b a",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecognise a symbol matching a predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.BoundsParser",
           "name": "satisfy",
           "package": "Annotations",
@@ -489,6 +528,7 @@
         "index": {
           "description": "Recognise symbol matching predicate",
           "hierarchy": "Annotations BoundsParser",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.BoundsParser",
           "name": "satisfy",
           "normalized": "(a-\u003eBool)-\u003eP a b a",
@@ -504,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the size of a symbol. Default implementation is \u003ccode\u003elength . unparse\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.BoundsParser",
           "name": "symbolSize",
           "package": "Annotations",
@@ -514,6 +555,7 @@
         "index": {
           "description": "Yields the size of symbol Default implementation is length unparse",
           "hierarchy": "Annotations BoundsParser",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.BoundsParser",
           "name": "symbolSize",
           "normalized": "a-\u003eInt",
@@ -530,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnparses a symbol, converting it back to text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.BoundsParser",
           "name": "unparse",
           "package": "Annotations",
@@ -540,6 +583,7 @@
         "index": {
           "description": "Unparses symbol converting it back to text",
           "hierarchy": "Annotations BoundsParser",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.BoundsParser",
           "name": "unparse",
           "normalized": "a-\u003eString",
@@ -555,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eExcept\u003c/a\u003e\u003c/code\u003e datatype captures monoidal exceptions in applicative \n computations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Except",
           "name": "Except",
           "package": "Annotations",
@@ -564,6 +609,7 @@
         "index": {
           "description": "The Except datatype captures monoidal exceptions in applicative computations",
           "hierarchy": "Annotations Except",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Except",
           "name": "Except",
           "package": "Annotations",
@@ -578,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eExcept\u003c/code\u003e is like \u003ccode\u003eEither\u003c/code\u003e but is meant to be used only in applicative \n computations. When two exceptions are sequenced, their sum (using \n \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e) is computed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Except",
           "name": "Except",
           "package": "Annotations",
@@ -587,6 +634,7 @@
         "index": {
           "description": "Except is like Either but is meant to be used only in applicative computations When two exceptions are sequenced their sum using mappend is computed",
           "hierarchy": "Annotations Except",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Except",
           "name": "Except",
           "package": "Annotations",
@@ -600,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Except",
           "name": "Failed",
           "package": "Annotations",
@@ -609,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Annotations Except",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Except",
           "name": "Failed",
           "package": "Annotations",
@@ -622,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.Except",
           "name": "OK",
           "package": "Annotations",
@@ -631,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Annotations Except",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.Except",
           "name": "OK",
           "package": "Annotations",
@@ -644,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.ExploreHints",
           "name": "ExploreHints",
           "package": "Annotations",
@@ -652,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Annotations ExploreHints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.ExploreHints",
           "name": "ExploreHints",
           "package": "Annotations",
@@ -666,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCaptures hints for the exploration of annotated trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.ExploreHints",
           "name": "ExploreHints",
           "package": "Annotations",
@@ -675,6 +730,7 @@
         "index": {
           "description": "Captures hints for the exploration of annotated trees",
           "hierarchy": "Annotations ExploreHints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.ExploreHints",
           "name": "ExploreHints",
           "package": "Annotations",
@@ -688,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.ExploreHints",
           "name": "ExploreHints",
           "package": "Annotations",
@@ -697,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Annotations ExploreHints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.ExploreHints",
           "name": "ExploreHints",
           "package": "Annotations",
@@ -711,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to explore the children.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.ExploreHints",
           "name": "exploreDown",
           "package": "Annotations",
@@ -721,6 +780,7 @@
         "index": {
           "description": "Whether to explore the children",
           "hierarchy": "Annotations ExploreHints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.ExploreHints",
           "name": "exploreDown",
           "package": "Annotations",
@@ -735,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to explore further to the right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.ExploreHints",
           "name": "exploreRight",
           "package": "Annotations",
@@ -745,6 +806,7 @@
         "index": {
           "description": "Whether to explore further to the right",
           "hierarchy": "Annotations ExploreHints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.ExploreHints",
           "name": "exploreRight",
           "package": "Annotations",
@@ -759,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the current focus matches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.ExploreHints",
           "name": "matchHere",
           "package": "Annotations",
@@ -769,6 +832,7 @@
         "index": {
           "description": "Whether the current focus matches",
           "hierarchy": "Annotations ExploreHints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.ExploreHints",
           "name": "matchHere",
           "package": "Annotations",
@@ -782,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Annotated",
           "name": "Annotated",
           "package": "Annotations",
@@ -790,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Annotations F Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Annotated",
           "name": "Annotated",
           "package": "Annotations",
@@ -804,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted annotation of functors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Annotated",
           "name": "Ann",
           "package": "Annotations",
@@ -813,6 +880,7 @@
         "index": {
           "description": "Lifted annotation of functors",
           "hierarchy": "Annotations F Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Annotated",
           "name": "Ann",
           "package": "Annotations",
@@ -827,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fully annotated tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Annotated",
           "name": "AnnFix",
           "package": "Annotations",
@@ -836,6 +905,7 @@
         "index": {
           "description": "fully annotated tree",
           "hierarchy": "Annotations F Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Annotated",
           "name": "AnnFix",
           "package": "Annotations",
@@ -850,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA functor with fully annotated children.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Annotated",
           "name": "AnnFix1",
           "package": "Annotations",
@@ -859,6 +930,7 @@
         "index": {
           "description": "functor with fully annotated children",
           "hierarchy": "Annotations F Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Annotated",
           "name": "AnnFix1",
           "package": "Annotations",
@@ -872,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Annotated",
           "name": "Ann",
           "package": "Annotations",
@@ -881,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Annotations F Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Annotated",
           "name": "Ann",
           "package": "Annotations",
@@ -895,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduces a tree to a value according to the algebra, collecting potential\n   errors. The errors are combined with the annotations in the tree at the\n   positions at which the errors occurred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Annotated",
           "name": "errorCata",
           "package": "Annotations",
@@ -905,6 +980,7 @@
         "index": {
           "description": "Reduces tree to value according to the algebra collecting potential errors The errors are combined with the annotations in the tree at the positions at which the errors occurred",
           "hierarchy": "Annotations F Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Annotated",
           "name": "errorCata",
           "normalized": "ErrorAlgebra a b c-\u003eAnnFix d a-\u003eExcept[(b,d)]c",
@@ -921,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplore an annotated tree. Starting with the root of the tree, at each \n position the annotation at that position is matched against the \n \u003ccode\u003e\u003ca\u003eExploreHints\u003c/a\u003e\u003c/code\u003e predicates and all the selections where \u003ccode\u003e\u003ca\u003ematchHere\u003c/a\u003e\u003c/code\u003e was \n positive are collected. The \u003ccode\u003e\u003ca\u003eexploreRight\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eexploreDown\u003c/a\u003e\u003c/code\u003e allow pruning \n of the tree, preventing entire parts from being visited.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Annotated",
           "name": "explore",
           "package": "Annotations",
@@ -931,6 +1008,7 @@
         "index": {
           "description": "Explore an annotated tree Starting with the root of the tree at each position the annotation at that position is matched against the ExploreHints predicates and all the selections where matchHere was positive are collected The exploreRight and exploreDown allow pruning of the tree preventing entire parts from being visited",
           "hierarchy": "Annotations F Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Annotated",
           "name": "explore",
           "normalized": "(a-\u003eExploreHints)-\u003eAnnFix a b-\u003e[Zipper(AnnFix a b)]",
@@ -946,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the deepest node in an annotated tree that matches the predicate.\n Starting with the root, the predicate tells whether a node's annotation\n matches. If so, the search continues at the node's children and the node's\n siblings to the right are excluded from further exploration. If no child\n matches, the node itself is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Annotated",
           "name": "findLeftmostDeepest",
           "package": "Annotations",
@@ -956,6 +1035,7 @@
         "index": {
           "description": "Find the deepest node in an annotated tree that matches the predicate Starting with the root the predicate tells whether node annotation matches If so the search continues at the node children and the node siblings to the right are excluded from further exploration If no child matches the node itself is returned",
           "hierarchy": "Annotations F Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Annotated",
           "name": "findLeftmostDeepest",
           "normalized": "(a-\u003eBool)-\u003eAnnFix a b-\u003eMaybe(Zipper(AnnFix a b))",
@@ -972,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply a tree with an annotation at the top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Annotated",
           "name": "mkAnnFix",
           "package": "Annotations",
@@ -982,6 +1063,7 @@
         "index": {
           "description": "Supply tree with an annotation at the top level",
           "hierarchy": "Annotations F Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Annotated",
           "name": "mkAnnFix",
           "normalized": "a-\u003eAnnFix a b-\u003eAnnFix a b",
@@ -998,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the annotation at the root of the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Annotated",
           "name": "rootAnn",
           "package": "Annotations",
@@ -1008,6 +1091,7 @@
         "index": {
           "description": "Yields the annotation at the root of the tree",
           "hierarchy": "Annotations F Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Annotated",
           "name": "rootAnn",
           "normalized": "AnnFix a b-\u003ea",
@@ -1024,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively discard annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Annotated",
           "name": "unannotate",
           "package": "Annotations",
@@ -1034,6 +1119,7 @@
         "index": {
           "description": "Recursively discard annotations",
           "hierarchy": "Annotations F Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Annotated",
           "name": "unannotate",
           "normalized": "AnnFix a b-\u003eFix b",
@@ -1048,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Fixpoints",
           "name": "Fixpoints",
           "package": "Annotations",
@@ -1056,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Annotations F Fixpoints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Fixpoints",
           "name": "Fixpoints",
           "package": "Annotations",
@@ -1070,6 +1158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlgebras for catamorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Fixpoints",
           "name": "Algebra",
           "package": "Annotations",
@@ -1079,6 +1168,7 @@
         "index": {
           "description": "Algebras for catamorphisms",
           "hierarchy": "Annotations F Fixpoints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Fixpoints",
           "name": "Algebra",
           "package": "Annotations",
@@ -1093,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoalgebras for anamorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Fixpoints",
           "name": "Coalgebra",
           "package": "Annotations",
@@ -1102,6 +1193,7 @@
         "index": {
           "description": "Coalgebras for anamorphisms",
           "hierarchy": "Annotations F Fixpoints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Fixpoints",
           "name": "Coalgebra",
           "package": "Annotations",
@@ -1116,6 +1208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlgebras for error catamorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Fixpoints",
           "name": "ErrorAlgebra",
           "package": "Annotations",
@@ -1125,6 +1218,7 @@
         "index": {
           "description": "Algebras for error catamorphisms",
           "hierarchy": "Annotations F Fixpoints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Fixpoints",
           "name": "ErrorAlgebra",
           "package": "Annotations",
@@ -1139,6 +1233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixpoint of functors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Fixpoints",
           "name": "Fix",
           "package": "Annotations",
@@ -1148,6 +1243,7 @@
         "index": {
           "description": "Fixpoint of functors",
           "hierarchy": "Annotations F Fixpoints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Fixpoints",
           "name": "Fix",
           "package": "Annotations",
@@ -1161,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Fixpoints",
           "name": "In",
           "package": "Annotations",
@@ -1170,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Annotations F Fixpoints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Fixpoints",
           "name": "In",
           "package": "Annotations",
@@ -1184,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a tree from a value according to the coalgebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Fixpoints",
           "name": "ana",
           "package": "Annotations",
@@ -1194,6 +1293,7 @@
         "index": {
           "description": "Constructs tree from value according to the coalgebra",
           "hierarchy": "Annotations F Fixpoints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Fixpoints",
           "name": "ana",
           "normalized": "Coalgebra a b-\u003eb-\u003eFix a",
@@ -1209,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduces a tree to a value according to the algebra, propagating potential errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Fixpoints",
           "name": "cascade",
           "package": "Annotations",
@@ -1219,6 +1320,7 @@
         "index": {
           "description": "Reduces tree to value according to the algebra propagating potential errors",
           "hierarchy": "Annotations F Fixpoints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Fixpoints",
           "name": "cascade",
           "normalized": "ErrorAlgebra a b c-\u003eAlgebra a(Except b c)",
@@ -1234,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduces a tree to a value according to the algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Fixpoints",
           "name": "cata",
           "package": "Annotations",
@@ -1244,6 +1347,7 @@
         "index": {
           "description": "Reduces tree to value according to the algebra",
           "hierarchy": "Annotations F Fixpoints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Fixpoints",
           "name": "cata",
           "normalized": "Algebra a b-\u003eFix a-\u003eb",
@@ -1259,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation to a tree's direct children.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Fixpoints",
           "name": "compos",
           "package": "Annotations",
@@ -1269,6 +1374,7 @@
         "index": {
           "description": "Apply transformation to tree direct children",
           "hierarchy": "Annotations F Fixpoints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Fixpoints",
           "name": "compos",
           "normalized": "(Fix a-\u003eFix a)-\u003eFix a-\u003eFix a",
@@ -1283,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Fixpoints",
           "name": "out",
           "package": "Annotations",
@@ -1292,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Annotations F Fixpoints",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Fixpoints",
           "name": "out",
           "package": "Annotations",
@@ -1304,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.ParserCombinators",
           "name": "ParserCombinators",
           "package": "Annotations",
@@ -1312,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Annotations F ParserCombinators",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.ParserCombinators",
           "name": "ParserCombinators",
           "package": "Annotations",
@@ -1326,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse left-recursive structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.ParserCombinators",
           "name": "chainl",
           "package": "Annotations",
@@ -1336,6 +1447,7 @@
         "index": {
           "description": "Parse left-recursive structures",
           "hierarchy": "Annotations F ParserCombinators",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.ParserCombinators",
           "name": "chainl",
           "normalized": "P a b(AnnFix Bounds c)-\u003eP a b(AnnFix Bounds c-\u003eAnnFix Bounds c-\u003eAnnFix Bounds c)-\u003eP a b(AnnFix Bounds c)",
@@ -1351,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse right-recursive structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.ParserCombinators",
           "name": "chainr",
           "package": "Annotations",
@@ -1361,6 +1474,7 @@
         "index": {
           "description": "Parse right-recursive structures",
           "hierarchy": "Annotations F ParserCombinators",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.ParserCombinators",
           "name": "chainr",
           "normalized": "P a b(AnnFix Bounds c)-\u003eP a b(AnnFix Bounds c-\u003eAnnFix Bounds c-\u003eAnnFix Bounds c)-\u003eP a b(AnnFix Bounds c)",
@@ -1376,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the left margin of a structure, asks the parser for the right\n   margin and wraps the position information around the root of the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.ParserCombinators",
           "name": "mkBounded",
           "package": "Annotations",
@@ -1386,6 +1501,7 @@
         "index": {
           "description": "Given the left margin of structure asks the parser for the right margin and wraps the position information around the root of the tree",
           "hierarchy": "Annotations F ParserCombinators",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.ParserCombinators",
           "name": "mkBounded",
           "normalized": "Range-\u003eAnnFix Bounds a-\u003eP b c(AnnFix Bounds a)",
@@ -1402,6 +1518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap an unnotated tree with position information from the parse state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.ParserCombinators",
           "name": "unit",
           "package": "Annotations",
@@ -1412,6 +1529,7 @@
         "index": {
           "description": "Wrap an unnotated tree with position information from the parse state",
           "hierarchy": "Annotations F ParserCombinators",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.ParserCombinators",
           "name": "unit",
           "normalized": "P a b(AnnFix Bounds c)-\u003eP a b(AnnFix Bounds c)",
@@ -1427,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQueries on trees annotated with position information.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Positional",
           "name": "Positional",
           "package": "Annotations",
@@ -1436,6 +1555,7 @@
         "index": {
           "description": "Queries on trees annotated with position information",
           "hierarchy": "Annotations F Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Positional",
           "name": "Positional",
           "package": "Annotations",
@@ -1450,6 +1570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove around in a tree according to the \u003ccode\u003e\u003ca\u003eNav\u003c/a\u003e\u003c/code\u003e, expressed in tree selections. Although a \u003ccode\u003e\u003ca\u003eRange\u003c/a\u003e\u003c/code\u003e is required as input, a \u003ccode\u003e\u003ca\u003eBounds\u003c/a\u003e\u003c/code\u003e is returned, providing information about all the valid text selections that would select the particular tree node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Positional",
           "name": "moveSelection",
           "package": "Annotations",
@@ -1460,6 +1581,7 @@
         "index": {
           "description": "Move around in tree according to the Nav expressed in tree selections Although Range is required as input Bounds is returned providing information about all the valid text selections that would select the particular tree node",
           "hierarchy": "Annotations F Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Positional",
           "name": "moveSelection",
           "normalized": "AnnFix Bounds a-\u003eNav-\u003eRange-\u003eMaybe Bounds",
@@ -1476,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefined as \u003ccode\u003e\u003ccode\u003e\u003ca\u003erepairBy\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edistRange\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Positional",
           "name": "repair",
           "package": "Annotations",
@@ -1486,6 +1609,7 @@
         "index": {
           "description": "Defined as repairBy distRange",
           "hierarchy": "Annotations F Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Positional",
           "name": "repair",
           "normalized": "AnnFix Bounds a-\u003eRange-\u003eBounds",
@@ -1501,6 +1625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erepairBy cost tree range\u003c/code\u003e finds the the closest valid text selection to \u003ccode\u003erange\u003c/code\u003e, where ''closest'' is determined by the specified cost function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Positional",
           "name": "repairBy",
           "package": "Annotations",
@@ -1511,6 +1636,7 @@
         "index": {
           "description": "repairBy cost tree range finds the the closest valid text selection to range where closest is determined by the specified cost function",
           "hierarchy": "Annotations F Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Positional",
           "name": "repairBy",
           "normalized": "(Range-\u003eRange-\u003ea)-\u003eAnnFix Bounds b-\u003eRange-\u003eBounds",
@@ -1527,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the deepest node whose bounds contain the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Positional",
           "name": "selectByPos",
           "package": "Annotations",
@@ -1537,6 +1664,7 @@
         "index": {
           "description": "Find the deepest node whose bounds contain the given position",
           "hierarchy": "Annotations F Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Positional",
           "name": "selectByPos",
           "normalized": "Int-\u003eAnnFix Bounds a-\u003eMaybe(Zipper(AnnFix Bounds a))",
@@ -1553,6 +1681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the deepest node whose bounds match the given range. See \u003ccode\u003e\u003ca\u003erangeInBounds\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Positional",
           "name": "selectByRange",
           "package": "Annotations",
@@ -1563,6 +1692,7 @@
         "index": {
           "description": "Find the deepest node whose bounds match the given range See rangeInBounds",
           "hierarchy": "Annotations F Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Positional",
           "name": "selectByRange",
           "normalized": "Range-\u003eAnnFix Bounds a-\u003eMaybe(Zipper(AnnFix Bounds a))",
@@ -1579,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all selections in the tree and return their bounds. The tree is traversed in preorder. Consequently, the bounds are returned in lexicographical order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Positional",
           "name": "validBounds",
           "package": "Annotations",
@@ -1589,6 +1720,7 @@
         "index": {
           "description": "Find all selections in the tree and return their bounds The tree is traversed in preorder Consequently the bounds are returned in lexicographical order",
           "hierarchy": "Annotations F Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Positional",
           "name": "validBounds",
           "normalized": "AnnFix Bounds a-\u003e[Bounds]",
@@ -1604,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "Zipper",
           "package": "Annotations",
@@ -1612,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "Zipper",
           "package": "Annotations",
@@ -1626,6 +1760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCaptures navigation steps in a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e. Its \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance specifies the identity step (\u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e) and step composition (\u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "Nav",
           "package": "Annotations",
@@ -1635,6 +1770,7 @@
         "index": {
           "description": "Captures navigation steps in Zipper Its Monoid instance specifies the identity step mempty and step composition mappend",
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "Nav",
           "package": "Annotations",
@@ -1649,6 +1785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quasi-zipper, meant for O(1), fixed-memory stepping through a tree structure, but not meant for updates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "Zipper",
           "package": "Annotations",
@@ -1658,6 +1795,7 @@
         "index": {
           "description": "quasi-zipper meant for fixed-memory stepping through tree structure but not meant for updates",
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "Zipper",
           "package": "Annotations",
@@ -1671,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "Nav",
           "package": "Annotations",
@@ -1680,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "Nav",
           "package": "Annotations",
@@ -1693,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "Zipper",
           "package": "Annotations",
@@ -1702,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "Zipper",
           "package": "Annotations",
@@ -1716,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses the tree in preorder, yielding all possible tree selections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "allFoci",
           "package": "Annotations",
@@ -1726,6 +1869,7 @@
         "index": {
           "description": "Traverses the tree in preorder yielding all possible tree selections",
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "allFoci",
           "normalized": "Fix a-\u003e[Zipper(Fix a)]",
@@ -1742,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove down into a specific child.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "child",
           "package": "Annotations",
@@ -1752,6 +1897,7 @@
         "index": {
           "description": "Move down into specific child",
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "child",
           "normalized": "Int-\u003eZipper a-\u003eMaybe(Zipper a)",
@@ -1767,6 +1913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove into the root of the fixed point. The returned zipper builds a data structure with optimal sharing and fixed memory usage. For example, \u003ccode\u003ezLeft \u003e=\u003e zRight\u003c/code\u003e (if successful) returns to the same node in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "enter",
           "package": "Annotations",
@@ -1777,6 +1924,7 @@
         "index": {
           "description": "Move into the root of the fixed point The returned zipper builds data structure with optimal sharing and fixed memory usage For example zLeft zRight if successful returns to the same node in memory",
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "enter",
           "normalized": "Fix a-\u003eZipper(Fix a)",
@@ -1792,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWalk back up to the root of the fixed point and leave the zipper structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "leave",
           "package": "Annotations",
@@ -1802,6 +1951,7 @@
         "index": {
           "description": "Walk back up to the root of the fixed point and leave the zipper structure",
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "leave",
           "normalized": "Zipper a-\u003ea",
@@ -1816,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "nav",
           "package": "Annotations",
@@ -1825,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "nav",
           "normalized": "a b Zipper c-\u003eMaybe(Zipper c)",
@@ -1840,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove down into the leftmost child.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "zDown",
           "package": "Annotations",
@@ -1850,6 +2003,7 @@
         "index": {
           "description": "Move down into the leftmost child",
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "zDown",
           "package": "Annotations",
@@ -1864,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current focus of this zipper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "zFocus",
           "package": "Annotations",
@@ -1874,6 +2029,7 @@
         "index": {
           "description": "The current focus of this zipper",
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "zFocus",
           "package": "Annotations",
@@ -1888,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove to the left sibling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "zLeft",
           "package": "Annotations",
@@ -1898,6 +2055,7 @@
         "index": {
           "description": "Move to the left sibling",
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "zLeft",
           "package": "Annotations",
@@ -1912,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove to the right sibling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "zRight",
           "package": "Annotations",
@@ -1922,6 +2081,7 @@
         "index": {
           "description": "Move to the right sibling",
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "zRight",
           "package": "Annotations",
@@ -1936,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove up to the parent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.F.Zipper",
           "name": "zUp",
           "package": "Annotations",
@@ -1946,6 +2107,7 @@
         "index": {
           "description": "Move up to the parent",
           "hierarchy": "Annotations F Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.F.Zipper",
           "name": "zUp",
           "package": "Annotations",
@@ -1959,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "Annotated",
           "package": "Annotations",
@@ -1967,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "Annotated",
           "package": "Annotations",
@@ -1981,6 +2145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fully annotated tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "AnnFix",
           "package": "Annotations",
@@ -1990,6 +2155,7 @@
         "index": {
           "description": "fully annotated tree",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "AnnFix",
           "package": "Annotations",
@@ -2004,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA functor with fully annotated children.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "AnnFix1",
           "package": "Annotations",
@@ -2013,6 +2180,7 @@
         "index": {
           "description": "functor with fully annotated children",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "AnnFix1",
           "package": "Annotations",
@@ -2026,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "AnnZipper",
           "package": "Annotations",
@@ -2034,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "AnnZipper",
           "package": "Annotations",
@@ -2048,6 +2218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fixpoint of a data family \u003ccode\u003es\u003c/code\u003e annotated with an \u003ccode\u003ex\u003c/code\u003e at every recursive position, with existentially quantified top-level index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "AnyAnnFix",
           "package": "Annotations",
@@ -2057,6 +2228,7 @@
         "index": {
           "description": "fixpoint of data family annotated with an at every recursive position with existentially quantified top-level index",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "AnyAnnFix",
           "package": "Annotations",
@@ -2071,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively yield all annotations in the tree in preorder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "allAnnotations",
           "package": "Annotations",
@@ -2081,6 +2254,7 @@
         "index": {
           "description": "Recursively yield all annotations in the tree in preorder",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "allAnnotations",
           "normalized": "a b-\u003eAnnFix c a b-\u003e[c]",
@@ -2097,6 +2271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollects the direct children of a functor in a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "children",
           "package": "Annotations",
@@ -2107,6 +2282,7 @@
         "index": {
           "description": "Collects the direct children of functor in list",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "children",
           "normalized": "a b-\u003ec d b-\u003e[AnyF a d]",
@@ -2122,6 +2298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten an annotated tree and print all subtrees to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "debugFlatten",
           "package": "Annotations",
@@ -2132,6 +2309,7 @@
         "index": {
           "description": "Flatten an annotated tree and print all subtrees to stdout",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "debugFlatten",
           "normalized": "a b-\u003eAnnFix c a b-\u003eIO()",
@@ -2148,6 +2326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplore an annotated tree. Starting with the root of the tree, at each \n position the annotation at that position is matched against the \n \u003ccode\u003e\u003ca\u003eExploreHints\u003c/a\u003e\u003c/code\u003e predicates and all the selections where \u003ccode\u003e\u003ca\u003ematchHere\u003c/a\u003e\u003c/code\u003e was \n positive are collected. The \u003ccode\u003e\u003ca\u003eexploreRight\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eexploreDown\u003c/a\u003e\u003c/code\u003e allow pruning \n of the tree, preventing entire parts from being visited.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "explore",
           "package": "Annotations",
@@ -2158,6 +2337,7 @@
         "index": {
           "description": "Explore an annotated tree Starting with the root of the tree at each position the annotation at that position is matched against the ExploreHints predicates and all the selections where matchHere was positive are collected The exploreRight and exploreDown allow pruning of the tree preventing entire parts from being visited",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "explore",
           "normalized": "a b-\u003e(c-\u003eExploreHints)-\u003eAnnFix c a b-\u003e[AnnZipper a c b]",
@@ -2173,6 +2353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield all subtrees whose annotation matches the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "filterAnnFix",
           "package": "Annotations",
@@ -2183,6 +2364,7 @@
         "index": {
           "description": "Yield all subtrees whose annotation matches the predicate",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "filterAnnFix",
           "normalized": "a b-\u003e(c-\u003eBool)-\u003eAnnFix c a b-\u003e[(c,Any a)]",
@@ -2199,6 +2381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the deepest node in an annotated tree that matches the predicate.\n Starting with the root, the predicate tells whether a node's annotation\n matches. If so, the search continues at the node's children and the node's\n siblings to the right are excluded from further exploration. If no child\n matches, the node itself is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "findLeftmostDeepest",
           "package": "Annotations",
@@ -2209,6 +2392,7 @@
         "index": {
           "description": "Find the deepest node in an annotated tree that matches the predicate Starting with the root the predicate tells whether node annotation matches If so the search continues at the node children and the node siblings to the right are excluded from further exploration If no child matches the node itself is returned",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "findLeftmostDeepest",
           "normalized": "a b-\u003e(c-\u003eBool)-\u003eAnnFix c a b-\u003eMaybe(AnnZipper a c b)",
@@ -2225,6 +2409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten an annotated tree to a list of subtrees coupled with their annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "flatten",
           "package": "Annotations",
@@ -2235,6 +2420,7 @@
         "index": {
           "description": "Flatten an annotated tree to list of subtrees coupled with their annotations",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "flatten",
           "normalized": "a b-\u003eAnnFix c a b-\u003e[(c,Any a)]",
@@ -2250,6 +2436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the annotation of the current focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "focusAnn",
           "package": "Annotations",
@@ -2260,6 +2447,7 @@
         "index": {
           "description": "Extract the annotation of the current focus",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "focusAnn",
           "normalized": "Loc a b(HFix(K c*d))e-\u003ec",
@@ -2276,6 +2464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply a tree with an annotation at the top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "mkAnnFix",
           "package": "Annotations",
@@ -2286,6 +2475,7 @@
         "index": {
           "description": "Supply tree with an annotation at the top level",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "mkAnnFix",
           "normalized": "a-\u003eAnnFix a b c-\u003eAnnFix a b c",
@@ -2302,6 +2492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves all annotations from a recursively annotated fixpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Annotated",
           "name": "unannotate",
           "package": "Annotations",
@@ -2312,6 +2503,7 @@
         "index": {
           "description": "Removes all annotations from recursively annotated fixpoint",
           "hierarchy": "Annotations MultiRec Annotated",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Annotated",
           "name": "unannotate",
           "normalized": "a b-\u003eAnnFix c a b-\u003eHFix(PF a)b",
@@ -2327,6 +2519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePattern functors existentially quantified in their top-level index type \u003ccode\u003eix\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Any",
           "name": "Any",
           "package": "Annotations",
@@ -2336,6 +2529,7 @@
         "index": {
           "description": "Pattern functors existentially quantified in their top-level index type ix",
           "hierarchy": "Annotations MultiRec Any",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Any",
           "name": "Any",
           "package": "Annotations",
@@ -2350,6 +2544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of some type in data family \u003ccode\u003es\u003c/code\u003e, together with its witness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Any",
           "name": "Any",
           "package": "Annotations",
@@ -2359,6 +2554,7 @@
         "index": {
           "description": "value of some type in data family together with its witness",
           "hierarchy": "Annotations MultiRec Any",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Any",
           "name": "Any",
           "package": "Annotations",
@@ -2373,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of some type in data family \u003ccode\u003es\u003c/code\u003e wrapped in an \u003ccode\u003ef\u003c/code\u003e, together with its witness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Any",
           "name": "AnyF",
           "package": "Annotations",
@@ -2382,6 +2579,7 @@
         "index": {
           "description": "value of some type in data family wrapped in an together with its witness",
           "hierarchy": "Annotations MultiRec Any",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Any",
           "name": "AnyF",
           "package": "Annotations",
@@ -2396,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap an \u003ccode\u003e\u003ca\u003eAnyF\u003c/a\u003e\u003c/code\u003e and pass it to a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Any",
           "name": "($?)",
           "package": "Annotations",
@@ -2406,6 +2605,7 @@
         "index": {
           "description": "Unwrap an AnyF and pass it to function",
           "hierarchy": "Annotations MultiRec Any",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Any",
           "name": "($?) $?",
           "normalized": "(a b c d-\u003ee d-\u003ef)-\u003eAnyF c e-\u003ef",
@@ -2420,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Any",
           "name": "Any",
           "package": "Annotations",
@@ -2429,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Any",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Any",
           "name": "Any",
           "normalized": "a b-\u003eb-\u003eAny a",
@@ -2444,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Any",
           "name": "AnyF",
           "package": "Annotations",
@@ -2453,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Any",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Any",
           "name": "AnyF",
           "normalized": "a b-\u003ec b-\u003eAnyF a c",
@@ -2469,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnify an \u003ccode\u003e\u003ca\u003eAny\u003c/a\u003e\u003c/code\u003e with an \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Any",
           "name": "matchAny",
           "package": "Annotations",
@@ -2479,6 +2684,7 @@
         "index": {
           "description": "Unify an Any with an",
           "hierarchy": "Annotations MultiRec Any",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Any",
           "name": "matchAny",
           "normalized": "a b-\u003eAny a-\u003eMaybe b",
@@ -2495,6 +2701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnify an \u003ccode\u003e\u003ca\u003eAnyF\u003c/a\u003e\u003c/code\u003e with an \u003ccode\u003ef a\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Any",
           "name": "matchAnyF",
           "package": "Annotations",
@@ -2505,6 +2712,7 @@
         "index": {
           "description": "Unify an AnyF with an",
           "hierarchy": "Annotations MultiRec Any",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Any",
           "name": "matchAnyF",
           "normalized": "a b-\u003eAnyF a c-\u003eMaybe(c b)",
@@ -2521,6 +2729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Any",
           "name": "mkAny",
           "package": "Annotations",
@@ -2531,6 +2740,7 @@
         "index": {
           "description": "Helper constructor",
           "hierarchy": "Annotations MultiRec Any",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Any",
           "name": "mkAny",
           "normalized": "a-\u003eAny b",
@@ -2547,6 +2757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Any",
           "name": "mkAnyF",
           "package": "Annotations",
@@ -2557,6 +2768,7 @@
         "index": {
           "description": "Helper constructor",
           "hierarchy": "Annotations MultiRec Any",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Any",
           "name": "mkAnyF",
           "normalized": "a b-\u003eAnyF c a",
@@ -2573,6 +2785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the value from its functor \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Any",
           "name": "unwrapAnyF",
           "package": "Annotations",
@@ -2583,6 +2796,7 @@
         "index": {
           "description": "Removes the value from its functor",
           "hierarchy": "Annotations MultiRec Any",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Any",
           "name": "unwrapAnyF",
           "normalized": "(a b c d-\u003ed)-\u003eAnyF e c-\u003eAny e",
@@ -2598,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "ErrorAlg",
           "package": "Annotations",
@@ -2606,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec ErrorAlg",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "ErrorAlg",
           "package": "Annotations",
@@ -2620,6 +2836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType family that converts pattern functors to convenient algebra types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "ErrorAlg",
           "package": "Annotations",
@@ -2629,6 +2846,7 @@
         "index": {
           "description": "Type family that converts pattern functors to convenient algebra types",
           "hierarchy": "Annotations MultiRec ErrorAlg",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "ErrorAlg",
           "package": "Annotations",
@@ -2643,6 +2861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error algebra over pattern functors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "ErrorAlg_PF",
           "package": "Annotations",
@@ -2652,6 +2871,7 @@
         "index": {
           "description": "An error algebra over pattern functors",
           "hierarchy": "Annotations MultiRec ErrorAlg",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "ErrorAlg_PF",
           "package": "Annotations",
@@ -2666,6 +2886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts convenient algebras to algebras that are able to work with\n pattern functors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "MkErrorAlg",
           "package": "Annotations",
@@ -2675,6 +2896,7 @@
         "index": {
           "description": "Converts convenient algebras to algebras that are able to work with pattern functors",
           "hierarchy": "Annotations MultiRec ErrorAlg",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "MkErrorAlg",
           "package": "Annotations",
@@ -2689,6 +2911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor constructing algebras that are made of nested pairs rather\n   than n-ary tuples, it is helpful to use this pairing combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "(&)",
           "package": "Annotations",
@@ -2699,6 +2922,7 @@
         "index": {
           "description": "For constructing algebras that are made of nested pairs rather than n-ary tuples it is helpful to use this pairing combinator",
           "hierarchy": "Annotations MultiRec ErrorAlg",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "(&) &",
           "normalized": "a-\u003eb-\u003e(a,b)",
@@ -2714,6 +2938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduces a tree to a value according to the algebra, collecting potential\n   errors. The errors are combined with the annotations in the tree at the\n   positions at which the errors occurred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "errorCata",
           "package": "Annotations",
@@ -2724,6 +2949,7 @@
         "index": {
           "description": "Reduces tree to value according to the algebra collecting potential errors The errors are combined with the annotations in the tree at the positions at which the errors occurred",
           "hierarchy": "Annotations MultiRec ErrorAlg",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "errorCata",
           "normalized": "ErrorAlg_PF a b c-\u003ed e-\u003eHFix(K f*a)e-\u003eExcept[(b,f)]c",
@@ -2739,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "mkErrorAlg",
           "package": "Annotations",
@@ -2748,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec ErrorAlg",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ErrorAlg",
           "name": "mkErrorAlg",
           "normalized": "ErrorAlg a b c-\u003eErrorAlg_PF a b c",
@@ -2763,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ParserCombinators",
           "name": "ParserCombinators",
           "package": "Annotations",
@@ -2771,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec ParserCombinators",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ParserCombinators",
           "name": "ParserCombinators",
           "package": "Annotations",
@@ -2785,6 +3015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser that yields its components, annotated with \u003ccode\u003e\u003ca\u003eBounds\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ParserCombinators",
           "name": "YP",
           "package": "Annotations",
@@ -2794,6 +3025,7 @@
         "index": {
           "description": "parser that yields its components annotated with Bounds",
           "hierarchy": "Annotations MultiRec ParserCombinators",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ParserCombinators",
           "name": "YP",
           "package": "Annotations",
@@ -2808,6 +3040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse left-recursive structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ParserCombinators",
           "name": "chainl",
           "package": "Annotations",
@@ -2818,6 +3051,7 @@
         "index": {
           "description": "Parse left-recursive structures",
           "hierarchy": "Annotations MultiRec ParserCombinators",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ParserCombinators",
           "name": "chainl",
           "normalized": "a b-\u003eYP c a d b-\u003eYP c a d(b-\u003eb-\u003eb)-\u003eYP c a d b",
@@ -2833,6 +3067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse right-recursive structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ParserCombinators",
           "name": "chainr",
           "package": "Annotations",
@@ -2843,6 +3078,7 @@
         "index": {
           "description": "Parse right-recursive structures",
           "hierarchy": "Annotations MultiRec ParserCombinators",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ParserCombinators",
           "name": "chainr",
           "normalized": "a b-\u003eYP c a d b-\u003eYP c a d(b-\u003eb-\u003eb)-\u003eYP c a d b",
@@ -2858,6 +3094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the left margin of a structure, asks the parser for the right\n   margin and wraps the position information around the root of the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ParserCombinators",
           "name": "mkBounded",
           "package": "Annotations",
@@ -2868,6 +3105,7 @@
         "index": {
           "description": "Given the left margin of structure asks the parser for the right margin and wraps the position information around the root of the tree",
           "hierarchy": "Annotations MultiRec ParserCombinators",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ParserCombinators",
           "name": "mkBounded",
           "normalized": "a b-\u003eRange-\u003eb-\u003eYP c a d b",
@@ -2884,6 +3122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap an unnotated tree with position information from the parse state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ParserCombinators",
           "name": "unit",
           "package": "Annotations",
@@ -2894,6 +3133,7 @@
         "index": {
           "description": "Wrap an unnotated tree with position information from the parse state",
           "hierarchy": "Annotations MultiRec ParserCombinators",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ParserCombinators",
           "name": "unit",
           "normalized": "a b-\u003eYP c a d b-\u003eYP c a d b",
@@ -2908,6 +3148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Positional",
           "name": "Positional",
           "package": "Annotations",
@@ -2916,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Positional",
           "name": "Positional",
           "package": "Annotations",
@@ -2930,6 +3172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove around in a tree according to the \u003ccode\u003e\u003ca\u003eNav\u003c/a\u003e\u003c/code\u003e, expressed in tree selections. Although a \u003ccode\u003e\u003ca\u003eRange\u003c/a\u003e\u003c/code\u003e is required as input, a \u003ccode\u003e\u003ca\u003eBounds\u003c/a\u003e\u003c/code\u003e is returned, providing information about all the valid text selections that would select the particular tree node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Positional",
           "name": "moveSelection",
           "package": "Annotations",
@@ -2940,6 +3183,7 @@
         "index": {
           "description": "Move around in tree according to the Nav expressed in tree selections Although Range is required as input Bounds is returned providing information about all the valid text selections that would select the particular tree node",
           "hierarchy": "Annotations MultiRec Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Positional",
           "name": "moveSelection",
           "normalized": "a b-\u003eAnnFix Bounds a b-\u003eNav-\u003eRange-\u003eMaybe Bounds",
@@ -2956,6 +3200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefined as \u003ccode\u003e\u003ccode\u003e\u003ca\u003erepairBy\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edistRange\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Positional",
           "name": "repair",
           "package": "Annotations",
@@ -2966,6 +3211,7 @@
         "index": {
           "description": "Defined as repairBy distRange",
           "hierarchy": "Annotations MultiRec Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Positional",
           "name": "repair",
           "normalized": "a b-\u003eAnnFix Bounds a b-\u003eRange-\u003eBounds",
@@ -2980,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Positional",
           "name": "repairBy",
           "package": "Annotations",
@@ -2989,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Positional",
           "name": "repairBy",
           "normalized": "a b-\u003e(Range-\u003eRange-\u003ec)-\u003eAnnFix Bounds a b-\u003eRange-\u003eBounds",
@@ -3004,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Positional",
           "name": "selectByPos",
           "package": "Annotations",
@@ -3013,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Positional",
           "name": "selectByPos",
           "normalized": "a b-\u003eInt-\u003eAnnFix Bounds a b-\u003eMaybe(AnnZipper a Bounds b)",
@@ -3029,6 +3279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the deepest node whose bounds match the given range. See \u003ccode\u003e\u003ca\u003erangeInBounds\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Positional",
           "name": "selectByRange",
           "package": "Annotations",
@@ -3039,6 +3290,7 @@
         "index": {
           "description": "Find the deepest node whose bounds match the given range See rangeInBounds",
           "hierarchy": "Annotations MultiRec Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Positional",
           "name": "selectByRange",
           "normalized": "a b-\u003eRange-\u003eAnnFix Bounds a b-\u003eMaybe(AnnZipper a Bounds b)",
@@ -3054,6 +3306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Positional",
           "name": "sortOn",
           "package": "Annotations",
@@ -3063,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Positional",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Positional",
           "name": "sortOn",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[a]",
@@ -3079,6 +3333,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Show-like type class for families of data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ShowFam",
           "name": "ShowFam",
           "package": "Annotations",
@@ -3088,6 +3343,7 @@
         "index": {
           "description": "Show-like type class for families of data types",
           "hierarchy": "Annotations MultiRec ShowFam",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ShowFam",
           "name": "ShowFam",
           "package": "Annotations",
@@ -3101,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ShowFam",
           "name": "ShowFam",
           "package": "Annotations",
@@ -3109,6 +3366,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec ShowFam",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ShowFam",
           "name": "ShowFam",
           "package": "Annotations",
@@ -3123,6 +3381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a witness, convert the value of that type to String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ShowFam",
           "name": "showFam",
           "package": "Annotations",
@@ -3133,6 +3392,7 @@
         "index": {
           "description": "Given witness convert the value of that type to String",
           "hierarchy": "Annotations MultiRec ShowFam",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ShowFam",
           "name": "showFam",
           "normalized": "a b-\u003eb-\u003eString",
@@ -3148,6 +3408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Yield",
           "name": "Yield",
           "package": "Annotations",
@@ -3156,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Yield",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Yield",
           "name": "Yield",
           "package": "Annotations",
@@ -3170,6 +3432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads that allow yielding recursively annotated values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Yield",
           "name": "MonadYield",
           "package": "Annotations",
@@ -3179,6 +3442,7 @@
         "index": {
           "description": "Monads that allow yielding recursively annotated values",
           "hierarchy": "Annotations MultiRec Yield",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Yield",
           "name": "MonadYield",
           "package": "Annotations",
@@ -3193,6 +3457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield over the identity monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Yield",
           "name": "Yield",
           "package": "Annotations",
@@ -3202,6 +3467,7 @@
         "index": {
           "description": "Yield over the identity monad",
           "hierarchy": "Annotations MultiRec Yield",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Yield",
           "name": "Yield",
           "package": "Annotations",
@@ -3216,6 +3482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Yield transformer. Allows yielding generic values in family \u003ccode\u003efam\u003c/code\u003e with annotations of type \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Yield",
           "name": "YieldT",
           "package": "Annotations",
@@ -3225,6 +3492,7 @@
         "index": {
           "description": "The Yield transformer Allows yielding generic values in family fam with annotations of type",
           "hierarchy": "Annotations MultiRec Yield",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Yield",
           "name": "YieldT",
           "package": "Annotations",
@@ -3238,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Yield",
           "name": "runYield",
           "package": "Annotations",
@@ -3247,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Yield",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Yield",
           "name": "runYield",
           "normalized": "a b-\u003eYield c a b-\u003eMaybe(AnnFix c a b)",
@@ -3262,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Yield",
           "name": "runYieldG",
           "package": "Annotations",
@@ -3271,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Yield",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Yield",
           "name": "runYieldG",
           "normalized": "Yield a b c-\u003e(c,Maybe(AnyAnnFix a b))",
@@ -3286,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Yield",
           "name": "runYieldT",
           "package": "Annotations",
@@ -3295,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Yield",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Yield",
           "name": "runYieldT",
           "normalized": "a b-\u003eYieldT c a d b-\u003ed(Maybe(AnnFix c a b))",
@@ -3310,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Yield",
           "name": "runYieldTG",
           "package": "Annotations",
@@ -3319,6 +3594,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Yield",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Yield",
           "name": "runYieldTG",
           "normalized": "YieldT a b c d-\u003ec(d,Maybe(AnyAnnFix a b))",
@@ -3335,6 +3611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields a value with its annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Yield",
           "name": "yield",
           "package": "Annotations",
@@ -3345,6 +3622,7 @@
         "index": {
           "description": "Yields value with its annotation",
           "hierarchy": "Annotations MultiRec Yield",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Yield",
           "name": "yield",
           "normalized": "YieldFam a b-\u003eAnnType a-\u003eb-\u003ea b",
@@ -3360,6 +3638,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe generic zipper.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Zipper",
           "package": "Annotations",
@@ -3369,6 +3648,7 @@
         "index": {
           "description": "The generic zipper",
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Zipper",
           "package": "Annotations",
@@ -3383,6 +3663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type of context frames. Not required for the high-level\n navigation functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Ctx",
           "package": "Annotations",
@@ -3392,6 +3673,7 @@
         "index": {
           "description": "Abstract type of context frames Not required for the high-level navigation functions",
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Ctx",
           "package": "Annotations",
@@ -3405,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Ctxs",
           "package": "Annotations",
@@ -3413,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Ctxs",
           "package": "Annotations",
@@ -3427,6 +3711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type of locations. A location contains the current focus\n and its context. A location is parameterized over the family of\n datatypes and over the type of the complete value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Loc",
           "package": "Annotations",
@@ -3436,6 +3721,7 @@
         "index": {
           "description": "Abstract type of locations location contains the current focus and its context location is parameterized over the family of datatypes and over the type of the complete value",
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Loc",
           "package": "Annotations",
@@ -3450,6 +3736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is in general not necessary to use the generic navigation\n functions directly. The functions listed in the `\u003ccode\u003eInterface'\u003c/code\u003e section\n below are more user-friendly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Zipper",
           "package": "Annotations",
@@ -3459,6 +3746,7 @@
         "index": {
           "description": "It is in general not necessary to use the generic navigation functions directly The functions listed in the Interface section below are more user-friendly",
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Zipper",
           "package": "Annotations",
@@ -3472,6 +3760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Empty",
           "package": "Annotations",
@@ -3481,6 +3770,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Empty",
           "package": "Annotations",
@@ -3494,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Loc",
           "package": "Annotations",
@@ -3503,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Loc",
           "normalized": "a b-\u003ec b-\u003eCtxs a d b c e-\u003eLoc a d c e",
@@ -3518,6 +3810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Push",
           "package": "Annotations",
@@ -3527,6 +3820,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "Push",
           "normalized": "a b-\u003eCtx c d e b-\u003eCtxs a c b e f-\u003eCtxs a c d e f",
@@ -3542,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "cmapA",
           "package": "Annotations",
@@ -3551,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "cmapA",
           "normalized": "(a b c d-\u003ee d-\u003ef(g d))-\u003ec d-\u003eCtx h i e d-\u003ef(Ctx h i g d)",
@@ -3566,6 +3862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart navigating a datastructure. Returns a location that\n focuses the entire value and has an empty context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "enter",
           "package": "Annotations",
@@ -3576,6 +3873,7 @@
         "index": {
           "description": "Start navigating datastructure Returns location that focuses the entire value and has an empty context",
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "enter",
           "normalized": "a b-\u003ec b-\u003eLoc a d c b",
@@ -3590,6 +3888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "fill",
           "package": "Annotations",
@@ -3599,6 +3898,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "fill",
           "normalized": "a b-\u003eCtx c b d e-\u003ed b-\u003ec d e",
@@ -3613,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "first",
           "package": "Annotations",
@@ -3622,6 +3923,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "first",
           "normalized": "(a b c d-\u003ee d-\u003eCtx f d e g-\u003eh)-\u003ef e g-\u003eMaybe h",
@@ -3636,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "next",
           "package": "Annotations",
@@ -3645,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "next",
           "normalized": "(a b c d-\u003ee d-\u003eCtx f d e g-\u003eh)-\u003ec d-\u003eCtx f d e g-\u003ee d-\u003eMaybe h",
@@ -3660,6 +3964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperate on the current focus. This function can be used to\n extract the current point of focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "on",
           "package": "Annotations",
@@ -3670,6 +3975,7 @@
         "index": {
           "description": "Operate on the current focus This function can be used to extract the current point of focus",
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "on",
           "normalized": "(a b c d-\u003ee d-\u003ef)-\u003eLoc c g e h-\u003ef",
@@ -3685,6 +3991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the current focus without changing its type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.Zipper",
           "name": "update",
           "package": "Annotations",
@@ -3695,6 +4002,7 @@
         "index": {
           "description": "Update the current focus without changing its type",
           "hierarchy": "Annotations MultiRec Zipper",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.Zipper",
           "name": "update",
           "normalized": "(a b c d-\u003ee d-\u003ee d)-\u003eLoc c f e g-\u003eLoc c f e g",
@@ -3710,6 +4018,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eZipper functions specialised to work on fixpoints of pattern functors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "ZipperFix",
           "package": "Annotations",
@@ -3719,6 +4028,7 @@
         "index": {
           "description": "Zipper functions specialised to work on fixpoints of pattern functors",
           "hierarchy": "Annotations MultiRec ZipperFix",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "ZipperFix",
           "package": "Annotations",
@@ -3733,6 +4043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA location within a fixpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "FixZipper",
           "package": "Annotations",
@@ -3742,6 +4053,7 @@
         "index": {
           "description": "location within fixpoint",
           "hierarchy": "Annotations MultiRec ZipperFix",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "FixZipper",
           "package": "Annotations",
@@ -3756,6 +4068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA navigation step in a fixpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "Nav",
           "package": "Annotations",
@@ -3765,6 +4078,7 @@
         "index": {
           "description": "navigation step in fixpoint",
           "hierarchy": "Annotations MultiRec ZipperFix",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "Nav",
           "package": "Annotations",
@@ -3779,6 +4093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove through all positions in depth-first left-to-right order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "dfnext",
           "package": "Annotations",
@@ -3789,6 +4104,7 @@
         "index": {
           "description": "Move through all positions in depth-first left-to-right order",
           "hierarchy": "Annotations MultiRec ZipperFix",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "dfnext",
           "package": "Annotations",
@@ -3802,6 +4118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove through all positions in depth-first right-to-left order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "dfprev",
           "package": "Annotations",
@@ -3812,6 +4129,7 @@
         "index": {
           "description": "Move through all positions in depth-first right-to-left order",
           "hierarchy": "Annotations MultiRec ZipperFix",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "dfprev",
           "package": "Annotations",
@@ -3825,6 +4143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove down to the leftmost child. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n current focus is a leaf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "down",
           "package": "Annotations",
@@ -3835,6 +4154,7 @@
         "index": {
           "description": "Move down to the leftmost child Returns Nothing if the current focus is leaf",
           "hierarchy": "Annotations MultiRec ZipperFix",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "down",
           "package": "Annotations",
@@ -3848,6 +4168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove down to the rightmost child. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n current focus is a leaf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "down'",
           "package": "Annotations",
@@ -3858,6 +4179,7 @@
         "index": {
           "description": "Move down to the rightmost child Returns Nothing if the current focus is leaf",
           "hierarchy": "Annotations MultiRec ZipperFix",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "down'",
           "package": "Annotations",
@@ -3871,6 +4193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the entire value, independent of the current focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "leave",
           "package": "Annotations",
@@ -3881,6 +4204,7 @@
         "index": {
           "description": "Return the entire value independent of the current focus",
           "hierarchy": "Annotations MultiRec ZipperFix",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "leave",
           "normalized": "Loc a b(HFix b)c-\u003eHFix b c",
@@ -3896,6 +4220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove to the left sibling. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the current\n focus is the leftmost sibling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "left",
           "package": "Annotations",
@@ -3906,6 +4231,7 @@
         "index": {
           "description": "Move to the left sibling Returns Nothing if the current focus is the leftmost sibling",
           "hierarchy": "Annotations MultiRec ZipperFix",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "left",
           "package": "Annotations",
@@ -3919,6 +4245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove to the right sibling. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the current\n focus is the rightmost sibling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "right",
           "package": "Annotations",
@@ -3929,6 +4256,7 @@
         "index": {
           "description": "Move to the right sibling Returns Nothing if the current focus is the rightmost sibling",
           "hierarchy": "Annotations MultiRec ZipperFix",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "right",
           "package": "Annotations",
@@ -3942,6 +4270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove up to the parent. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the current\n focus is the root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:26 UTC 2014",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "up",
           "package": "Annotations",
@@ -3952,6 +4281,7 @@
         "index": {
           "description": "Move up to the parent Returns Nothing if the current focus is the root",
           "hierarchy": "Annotations MultiRec ZipperFix",
+          "indexed": "2014-03-11T16:33:26",
           "module": "Annotations.MultiRec.ZipperFix",
           "name": "up",
           "package": "Annotations",

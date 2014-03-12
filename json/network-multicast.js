@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-multicast"
+        "phrase": "network-multicast",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ca\u003eNetwork.Multicast\u003c/a\u003e module is for sending UDP datagrams over multicast\n (class D) addresses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:12 UTC 2014",
           "module": "Network.Multicast",
           "name": "Multicast",
           "package": "network-multicast",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Network.Multicast module is for sending UDP datagrams over multicast class addresses",
           "hierarchy": "Network Multicast",
+          "indexed": "2014-03-11T19:28:12",
           "module": "Network.Multicast",
           "name": "Multicast",
           "package": "network-multicast",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:12 UTC 2014",
           "module": "Network.Multicast",
           "name": "LoopbackMode",
           "package": "network-multicast",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Multicast",
+          "indexed": "2014-03-11T19:28:12",
           "module": "Network.Multicast",
           "name": "LoopbackMode",
           "package": "network-multicast",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:12 UTC 2014",
           "module": "Network.Multicast",
           "name": "TimeToLive",
           "package": "network-multicast",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network Multicast",
+          "indexed": "2014-03-11T19:28:12",
           "module": "Network.Multicast",
           "name": "TimeToLive",
           "package": "network-multicast",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake the socket listen on multicast datagrams sent by the specified \u003ccode\u003e\u003ca\u003eHostName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:12 UTC 2014",
           "module": "Network.Multicast",
           "name": "addMembership",
           "package": "network-multicast",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Make the socket listen on multicast datagrams sent by the specified HostName",
           "hierarchy": "Network Multicast",
+          "indexed": "2014-03-11T19:28:12",
           "module": "Network.Multicast",
           "name": "addMembership",
           "normalized": "Socket-\u003eHostName-\u003eIO()",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop the socket from listening on multicast datagrams sent by the specified \u003ccode\u003e\u003ca\u003eHostName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:12 UTC 2014",
           "module": "Network.Multicast",
           "name": "dropMembership",
           "package": "network-multicast",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Stop the socket from listening on multicast datagrams sent by the specified HostName",
           "hierarchy": "Network Multicast",
+          "indexed": "2014-03-11T19:28:12",
           "module": "Network.Multicast",
           "name": "dropMembership",
           "normalized": "Socket-\u003eHostName-\u003eIO()",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:12 UTC 2014",
           "module": "Network.Multicast",
           "name": "enableLoopback",
           "package": "network-multicast",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Network Multicast",
+          "indexed": "2014-03-11T19:28:12",
           "module": "Network.Multicast",
           "name": "enableLoopback",
           "package": "network-multicast",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalling \u003ccode\u003e\u003ca\u003emulticastReceiver\u003c/a\u003e\u003c/code\u003e creates and binds a UDP socket for listening\n multicast datagrams on the specified host and port.\n\u003c/p\u003e\u003cp\u003eMinimal example:\n\u003c/p\u003e\u003cpre\u003e import Network.Socket\n import Network.Multicast\n main = withSocketsDo $ do\n     sock \u003c- multicastReceiver \"224.0.0.99\" 9999\n     let loop = do\n         (msg, _, addr) \u003c- recvFrom sock 1024\n         print (msg, addr) in loop\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:28:12 UTC 2014",
           "module": "Network.Multicast",
           "name": "multicastReceiver",
           "package": "network-multicast",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Calling multicastReceiver creates and binds UDP socket for listening multicast datagrams on the specified host and port Minimal example import Network.Socket import Network.Multicast main withSocketsDo do sock multicastReceiver let loop do msg addr recvFrom sock print msg addr in loop",
           "hierarchy": "Network Multicast",
+          "indexed": "2014-03-11T19:28:12",
           "module": "Network.Multicast",
           "name": "multicastReceiver",
           "normalized": "HostName-\u003ePortNumber-\u003eIO Socket",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalling \u003ccode\u003e\u003ca\u003emulticastSender\u003c/a\u003e\u003c/code\u003e creates a client side UDP socket for sending\n multicast datagrams to the specified host and port.\n\u003c/p\u003e\u003cp\u003eMinimal example:\n\u003c/p\u003e\u003cpre\u003e import Network.Socket\n import Network.Multicast\n main = withSocketsDo $ do\n     (sock, addr) \u003c- multicastSender \"224.0.0.99\" 9999\n     let loop = do\n         sendTo sock \"Hello, world\" addr\n         loop in loop\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:28:12 UTC 2014",
           "module": "Network.Multicast",
           "name": "multicastSender",
           "package": "network-multicast",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Calling multicastSender creates client side UDP socket for sending multicast datagrams to the specified host and port Minimal example import Network.Socket import Network.Multicast main withSocketsDo do sock addr multicastSender let loop do sendTo sock Hello world addr loop in loop",
           "hierarchy": "Network Multicast",
+          "indexed": "2014-03-11T19:28:12",
           "module": "Network.Multicast",
           "name": "multicastSender",
           "normalized": "HostName-\u003ePortNumber-\u003eIO(Socket,SockAddr)",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:12 UTC 2014",
           "module": "Network.Multicast",
           "name": "noLoopback",
           "package": "network-multicast",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Network Multicast",
+          "indexed": "2014-03-11T19:28:12",
           "module": "Network.Multicast",
           "name": "noLoopback",
           "package": "network-multicast",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the outgoing interface address of the multicast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:12 UTC 2014",
           "module": "Network.Multicast",
           "name": "setInterface",
           "package": "network-multicast",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Set the outgoing interface address of the multicast",
           "hierarchy": "Network Multicast",
+          "indexed": "2014-03-11T19:28:12",
           "module": "Network.Multicast",
           "name": "setInterface",
           "normalized": "Socket-\u003eHostName-\u003eIO()",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable or disable the loopback mode on a socket created by \u003ccode\u003e\u003ca\u003emulticastSender\u003c/a\u003e\u003c/code\u003e.\n Loopback is enabled by default; disabling it may improve performance a little bit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:12 UTC 2014",
           "module": "Network.Multicast",
           "name": "setLoopbackMode",
           "package": "network-multicast",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Enable or disable the loopback mode on socket created by multicastSender Loopback is enabled by default disabling it may improve performance little bit",
           "hierarchy": "Network Multicast",
+          "indexed": "2014-03-11T19:28:12",
           "module": "Network.Multicast",
           "name": "setLoopbackMode",
           "normalized": "Socket-\u003eLoopbackMode-\u003eIO()",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Time-to-Live of the multicast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:12 UTC 2014",
           "module": "Network.Multicast",
           "name": "setTimeToLive",
           "package": "network-multicast",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Set the Time-to-Live of the multicast",
           "hierarchy": "Network Multicast",
+          "indexed": "2014-03-11T19:28:12",
           "module": "Network.Multicast",
           "name": "setTimeToLive",
           "normalized": "Socket-\u003eTimeToLive-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "parsec-extra"
+        "phrase": "parsec-extra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:50 UTC 2014",
           "module": "Text.Parsec.Extra",
           "name": "Extra",
           "package": "parsec-extra",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Extra",
+          "indexed": "2014-03-11T19:34:50",
           "module": "Text.Parsec.Extra",
           "name": "Extra",
           "package": "parsec-extra",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the given character, or the same character in another case\n (upper or lower).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:50 UTC 2014",
           "module": "Text.Parsec.Extra",
           "name": "caseInsensitiveChar",
           "package": "parsec-extra",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Parse the given character or the same character in another case upper or lower",
           "hierarchy": "Text Parsec Extra",
+          "indexed": "2014-03-11T19:34:50",
           "module": "Text.Parsec.Extra",
           "name": "caseInsensitiveChar",
           "normalized": "Char-\u003eGenParser Char a Char",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the given string, but with any combination of upper and lower case\n characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:50 UTC 2014",
           "module": "Text.Parsec.Extra",
           "name": "caseInsensitiveString",
           "package": "parsec-extra",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Parse the given string but with any combination of upper and lower case characters",
           "hierarchy": "Text Parsec Extra",
+          "indexed": "2014-03-11T19:34:50",
           "module": "Text.Parsec.Extra",
           "name": "caseInsensitiveString",
           "normalized": "String-\u003eGenParser Char a String",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA decimal digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:50 UTC 2014",
           "module": "Text.Parsec.Extra",
           "name": "digit",
           "package": "parsec-extra",
@@ -102,6 +109,7 @@
         "index": {
           "description": "decimal digit",
           "hierarchy": "Text Parsec Extra",
+          "indexed": "2014-03-11T19:34:50",
           "module": "Text.Parsec.Extra",
           "name": "digit",
           "package": "parsec-extra",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse \"end of line\": one of \"\\n\", \"\\r\\n\", or \"\\r\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:50 UTC 2014",
           "module": "Text.Parsec.Extra",
           "name": "eol",
           "package": "parsec-extra",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Parse end of line one of or",
           "hierarchy": "Text Parsec Extra",
+          "indexed": "2014-03-11T19:34:50",
           "module": "Text.Parsec.Extra",
           "name": "eol",
           "normalized": "GenParser Char a()",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn integer number, in decimal notation (possibly prefixed with \"-\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:50 UTC 2014",
           "module": "Text.Parsec.Extra",
           "name": "integer",
           "package": "parsec-extra",
@@ -150,6 +161,7 @@
         "index": {
           "description": "An integer number in decimal notation possibly prefixed with",
           "hierarchy": "Text Parsec Extra",
+          "indexed": "2014-03-11T19:34:50",
           "module": "Text.Parsec.Extra",
           "name": "integer",
           "package": "parsec-extra",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA natural (i.e. non-negative integer) number, in decimal notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:50 UTC 2014",
           "module": "Text.Parsec.Extra",
           "name": "natural",
           "package": "parsec-extra",
@@ -173,6 +186,7 @@
         "index": {
           "description": "natural i.e non-negative integer number in decimal notation",
           "hierarchy": "Text Parsec Extra",
+          "indexed": "2014-03-11T19:34:50",
           "module": "Text.Parsec.Extra",
           "name": "natural",
           "package": "parsec-extra",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing function. Uses the \u003ccode\u003e\u003ca\u003eMonadError\u003c/a\u003e\u003c/code\u003e class to throw a monadic error\n when parsing fails. (Useful in a stack of monad transformers from the\n transformers package \u003ca\u003ehttp://hackage.haskell.org/package/transformers\u003c/a\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:50 UTC 2014",
           "module": "Text.Parsec.Extra",
           "name": "parseM",
           "package": "parsec-extra",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Parsing function Uses the MonadError class to throw monadic error when parsing fails Useful in stack of monad transformers from the transformers package http hackage.haskell.org package transformers",
           "hierarchy": "Text Parsec Extra",
+          "indexed": "2014-03-11T19:34:50",
           "module": "Text.Parsec.Extra",
           "name": "parseM",
           "normalized": "GenParser a()b-\u003eString-\u003e[a]-\u003ec b",

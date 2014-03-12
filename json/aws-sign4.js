@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aws-sign4"
+        "phrase": "aws-sign4",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "Sign4",
           "package": "aws-sign4",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "Sign4",
           "package": "aws-sign4",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature v4 generator parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "Sign4",
           "package": "aws-sign4",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Signature v4 generator parameters",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "Sign4",
           "package": "aws-sign4",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "Sign4",
           "package": "aws-sign4",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "Sign4",
           "package": "aws-sign4",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "iso8601BasicUtcDate",
           "package": "aws-sign4",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "iso8601BasicUtcDate",
           "package": "aws-sign4",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate authorization header (s4Authz) and intermediate steps for\n diagnostics and validation (s4StringToSign,s4canonicalRequest) from the\n Sign4 parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4Authz",
           "package": "aws-sign4",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Generate authorization header s4Authz and intermediate steps for diagnostics and validation s4StringToSign s4canonicalRequest from the Sign4 parameters",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4Authz",
           "normalized": "Sign-\u003eByteString",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBody of request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4Body",
           "package": "aws-sign4",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Body of request",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4Body",
           "package": "aws-sign4",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate authorization header (s4Authz) and intermediate steps for\n diagnostics and validation (s4StringToSign,s4canonicalRequest) from the\n Sign4 parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4CanonicalRequest",
           "package": "aws-sign4",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Generate authorization header s4Authz and intermediate steps for diagnostics and validation s4StringToSign s4canonicalRequest from the Sign4 parameters",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4CanonicalRequest",
           "normalized": "Sign-\u003eByteString",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanonical headers (internally calculated)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4CnclHeaders",
           "package": "aws-sign4",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Canonical headers internally calculated",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4CnclHeaders",
           "package": "aws-sign4",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAWS credentials used to sign the request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4Credentials",
           "package": "aws-sign4",
@@ -217,6 +234,7 @@
         "index": {
           "description": "AWS credentials used to sign the request",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4Credentials",
           "package": "aws-sign4",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edate/time stamp for request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4Date",
           "package": "aws-sign4",
@@ -241,6 +260,7 @@
         "index": {
           "description": "date time stamp for request",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4Date",
           "package": "aws-sign4",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eservice id: \u003ca\u003eets\u003c/a\u003e for Elastic Transcode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4Endpoint",
           "package": "aws-sign4",
@@ -265,6 +286,7 @@
         "index": {
           "description": "service id ets for Elastic Transcode",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4Endpoint",
           "package": "aws-sign4",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe request headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4Headers",
           "package": "aws-sign4",
@@ -289,6 +312,7 @@
         "index": {
           "description": "The request headers",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4Headers",
           "package": "aws-sign4",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP request method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4Method",
           "package": "aws-sign4",
@@ -313,6 +338,7 @@
         "index": {
           "description": "HTTP request method",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4Method",
           "package": "aws-sign4",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURI path component (excluding host & query)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4Path",
           "package": "aws-sign4",
@@ -337,6 +364,7 @@
         "index": {
           "description": "URI path component excluding host query",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4Path",
           "package": "aws-sign4",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsed query string information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4Query",
           "package": "aws-sign4",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Parsed query string information",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4Query",
           "package": "aws-sign4",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eservice id: ets =\u003e Elastic Transcode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4Service",
           "package": "aws-sign4",
@@ -385,6 +416,7 @@
         "index": {
           "description": "service id ets Elastic Transcode",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4Service",
           "package": "aws-sign4",
@@ -399,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigned headers    (internally calculated)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4SgndHeaders",
           "package": "aws-sign4",
@@ -409,6 +442,7 @@
         "index": {
           "description": "Signed headers internally calculated",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4SgndHeaders",
           "package": "aws-sign4",
@@ -423,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate authorization header (s4Authz) and intermediate steps for\n diagnostics and validation (s4StringToSign,s4canonicalRequest) from the\n Sign4 parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:56 UTC 2014",
           "module": "Aws.Sign4",
           "name": "s4StringToSign",
           "package": "aws-sign4",
@@ -433,6 +468,7 @@
         "index": {
           "description": "Generate authorization header s4Authz and intermediate steps for diagnostics and validation s4StringToSign s4canonicalRequest from the Sign4 parameters",
           "hierarchy": "Aws Sign4",
+          "indexed": "2014-03-11T17:15:56",
           "module": "Aws.Sign4",
           "name": "s4StringToSign",
           "normalized": "Sign-\u003eByteString",

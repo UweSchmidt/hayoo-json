@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "permutation"
+        "phrase": "permutation",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMutable combinations in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.IO",
           "name": "IO",
           "package": "permutation",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Mutable combinations in the IO monad",
           "hierarchy": "Data Choose IO",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.IO",
           "name": "IO",
           "package": "permutation",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable combination that can be manipulated in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.IO",
           "name": "IOChoose",
           "package": "permutation",
@@ -51,6 +54,7 @@
         "index": {
           "description": "mutable combination that can be manipulated in the IO monad",
           "hierarchy": "Data Choose IO",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.IO",
           "name": "IOChoose",
           "package": "permutation",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn overloaded interface to mutable combinations. For combination types which \n can be used with this interface, see \u003ca\u003eData.Choose.IO\u003c/a\u003e and \u003ca\u003eData.Choose.ST\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "MChoose",
           "package": "permutation",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An overloaded interface to mutable combinations For combination types which can be used with this interface see Data.Choose.IO and Data.Choose.ST",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "MChoose",
           "package": "permutation",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for representing a mutable combination.  The type is parameterized\n over the type of the monad, \u003ccode\u003em\u003c/code\u003e, in which the mutable combination will be\n manipulated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "MChoose",
           "package": "permutation",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Class for representing mutable combination The type is parameterized over the type of the monad in which the mutable combination will be manipulated",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "MChoose",
           "package": "permutation",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecopyChoose dst src\u003c/code\u003e copies the elements of the combination \u003ccode\u003esrc\u003c/code\u003e\n into the combination \u003ccode\u003edst\u003c/code\u003e.  The two combinations must have the same\n size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "copyChoose",
           "package": "permutation",
@@ -121,6 +130,7 @@
         "index": {
           "description": "copyChoose dst src copies the elements of the combination src into the combination dst The two combinations must have the same size",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "copyChoose",
           "normalized": "a-\u003ea-\u003eb()",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a mutable combination to an immutable one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "freeze",
           "package": "permutation",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Convert mutable combination to an immutable one",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "freeze",
           "normalized": "a-\u003eb Choose",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a lazy list of the elements in the complement of a combination.\n If the combination is a subset of \u003ccode\u003ek\u003c/code\u003e outcomes from \u003ccode\u003en\u003c/code\u003e possibilities, then\n the returned list will be sorted and of length \u003ccode\u003en-k\u003c/code\u003e.  \n Due to the laziness, you should be careful when using this function if you\n are also modifying the combination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "getComplElems",
           "package": "permutation",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Return lazy list of the elements in the complement of combination If the combination is subset of outcomes from possibilities then the returned list will be sorted and of length n-k Due to the laziness you should be careful when using this function if you are also modifying the combination",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "getComplElems",
           "normalized": "a-\u003eb[Int]",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the complement of a combination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "getComplement",
           "package": "permutation",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Compute the complement of combination",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "getComplement",
           "normalized": "a-\u003eb a",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetElem c i\u003c/code\u003e gets the value of the \u003ccode\u003ei\u003c/code\u003eth element of the combination\n \u003ccode\u003ec\u003c/code\u003e.  The index \u003ccode\u003ei\u003c/code\u003e must be in the range \u003ccode\u003e0..k-1\u003c/code\u003e, where \u003ccode\u003en\u003c/code\u003e is the\n size of the combination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "getElem",
           "package": "permutation",
@@ -224,6 +241,7 @@
         "index": {
           "description": "getElem gets the value of the th element of the combination The index must be in the range k-1 where is the size of the combination",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "getElem",
           "normalized": "a-\u003eInt-\u003eb Int",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a lazy list of the combination elements.  The laziness makes this\n function slightly dangerous if you are modifying the combination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "getElems",
           "package": "permutation",
@@ -250,6 +269,7 @@
         "index": {
           "description": "Get lazy list of the combination elements The laziness makes this function slightly dangerous if you are modifying the combination",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "getElems",
           "normalized": "a-\u003eb[Int]",
@@ -266,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of possibilities, \u003ccode\u003en\u003c/code\u003e in the combination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "getPossible",
           "package": "permutation",
@@ -276,6 +297,7 @@
         "index": {
           "description": "Get the number of possibilities in the combination",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "getPossible",
           "normalized": "a-\u003eb Int",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of outcomes, \u003ccode\u003ek\u003c/code\u003e in the combination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "getSize",
           "package": "permutation",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Get the number of outcomes in the combination",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "getSize",
           "normalized": "a-\u003eb Int",
@@ -318,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the combination is valid.  For it to be valid,\n the elements must all be unique, they must be in sorted order, and they\n all must be in the range \u003ccode\u003e0 .. n-1\u003c/code\u003e, where \u003ccode\u003en\u003c/code\u003e is the number of \n possibilies in the combination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "isValid",
           "package": "permutation",
@@ -328,6 +353,7 @@
         "index": {
           "description": "Returns whether or not the combination is valid For it to be valid the elements must all be unique they must be in sorted order and they all must be in the range n-1 where is the number of possibilies in the combination",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "isValid",
           "normalized": "a-\u003eb Bool",
@@ -344,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enewChoose n k\u003c/code\u003e creates a new combination of \u003ccode\u003ek\u003c/code\u003e outcomes from \u003ccode\u003en\u003c/code\u003e \n possibilites initialized to the subset \u003ccode\u003e{ 0, ..., k-1 }\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "newChoose",
           "package": "permutation",
@@ -354,6 +381,7 @@
         "index": {
           "description": "newChoose creates new combination of outcomes from possibilites initialized to the subset k-1",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "newChoose",
           "normalized": "Int-\u003eInt-\u003ea b",
@@ -370,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enewChoose n k\u003c/code\u003e allocates a new combination of \u003ccode\u003ek\u003c/code\u003e outcomes from\n \u003ccode\u003en\u003c/code\u003e possibilities but does not initialize it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "newChoose_",
           "package": "permutation",
@@ -380,6 +409,7 @@
         "index": {
           "description": "newChoose allocates new combination of outcomes from possibilities but does not initialize it",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "newChoose_",
           "normalized": "Int-\u003eInt-\u003ea b",
@@ -396,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new combination by copying another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "newCopyChoose",
           "package": "permutation",
@@ -406,6 +437,7 @@
         "index": {
           "description": "Construct new combination by copying another",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "newCopyChoose",
           "normalized": "a-\u003eb a",
@@ -422,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a combination from a list of elements.  \n \u003ccode\u003enewListChoose n k is\u003c/code\u003e creates a combination of \u003ccode\u003ek\u003c/code\u003e outcomes from \u003ccode\u003en\u003c/code\u003e\n possibilities initialized to have the \u003ccode\u003ei\u003c/code\u003eth element equal to \u003ccode\u003eis !! i\u003c/code\u003e.  \n For the combination to be valid, the elements must all be unique, they \n must be in sorted order, and they all must be in the range \u003ccode\u003e0 .. n-1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "newListChoose",
           "package": "permutation",
@@ -432,6 +465,7 @@
         "index": {
           "description": "Construct combination from list of elements newListChoose is creates combination of outcomes from possibilities initialized to have the th element equal to is For the combination to be valid the elements must all be unique they must be in sorted order and they all must be in the range n-1",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "newListChoose",
           "normalized": "Int-\u003eInt-\u003e[Int]-\u003ea b",
@@ -448,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetElem c i x\u003c/code\u003e sets the value of the \u003ccode\u003ei\u003c/code\u003eth element of the combination\n \u003ccode\u003ec\u003c/code\u003e.  The index \u003ccode\u003ei\u003c/code\u003e must be in the range \u003ccode\u003e0..k-1\u003c/code\u003e, where \u003ccode\u003ek\u003c/code\u003e is the\n size of the combination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "setElem",
           "package": "permutation",
@@ -458,6 +493,7 @@
         "index": {
           "description": "setElem sets the value of the th element of the combination The index must be in the range k-1 where is the size of the combination",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "setElem",
           "normalized": "a-\u003eInt-\u003eInt-\u003eb()",
@@ -474,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet all the values of a combination from a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "setElems",
           "package": "permutation",
@@ -484,6 +521,7 @@
         "index": {
           "description": "Set all the values of combination from list of elements",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "setElems",
           "normalized": "a-\u003e[Int]-\u003eb()",
@@ -500,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a combination to be the first subset of its size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "setFirst",
           "package": "permutation",
@@ -510,6 +549,7 @@
         "index": {
           "description": "Set combination to be the first subset of its size",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "setFirst",
           "normalized": "a-\u003eb()",
@@ -526,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdvance a combination to the next in lexicogrphic order and return \u003ccode\u003eTrue\u003c/code\u003e. \n  If no further combinations are available, return \u003ccode\u003eFalse\u003c/code\u003e and leave the \n combination unmodified.  Starting with \u003ccode\u003e[ 0 .. k-1 ]\u003c/code\u003e and repeatedly\n calling \u003ccode\u003esetNext\u003c/code\u003e will iterate through all subsets of size \u003ccode\u003ek\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "setNext",
           "package": "permutation",
@@ -536,6 +577,7 @@
         "index": {
           "description": "Advance combination to the next in lexicogrphic order and return True If no further combinations are available return False and leave the combination unmodified Starting with k-1 and repeatedly calling setNext will iterate through all subsets of size",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "setNext",
           "normalized": "a-\u003eb Bool",
@@ -552,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep backwards to the previous combination in lexicographic order and\n return \u003ccode\u003eTrue\u003c/code\u003e.  If there is no previous combination, return \u003ccode\u003eFalse\u003c/code\u003e and\n leave the combination unmodified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "setPrev",
           "package": "permutation",
@@ -562,6 +605,7 @@
         "index": {
           "description": "Step backwards to the previous combination in lexicographic order and return True If there is no previous combination return False and leave the combination unmodified",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "setPrev",
           "normalized": "a-\u003eb Bool",
@@ -578,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an immutable combination to a mutable one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "thaw",
           "package": "permutation",
@@ -588,6 +633,7 @@
         "index": {
           "description": "Convert an immutable combination to mutable one",
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "thaw",
           "normalized": "Choose-\u003ea b",
@@ -602,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "unsafeFreeze",
           "package": "permutation",
@@ -611,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "unsafeFreeze",
           "normalized": "a-\u003eb Choose",
@@ -626,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "unsafeGetElem",
           "package": "permutation",
@@ -635,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "unsafeGetElem",
           "normalized": "a-\u003eInt-\u003eb Int",
@@ -650,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "unsafeNewListChoose",
           "package": "permutation",
@@ -659,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "unsafeNewListChoose",
           "normalized": "Int-\u003eInt-\u003e[Int]-\u003ea b",
@@ -674,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "unsafeSetElem",
           "package": "permutation",
@@ -683,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "unsafeSetElem",
           "normalized": "a-\u003eInt-\u003eInt-\u003eb()",
@@ -698,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.MChoose",
           "name": "unsafeThaw",
           "package": "permutation",
@@ -707,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Data Choose MChoose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.MChoose",
           "name": "unsafeThaw",
           "normalized": "Choose-\u003ea b",
@@ -723,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMutable combinations in the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.ST",
           "name": "ST",
           "package": "permutation",
@@ -732,6 +789,7 @@
         "index": {
           "description": "Mutable combinations in the ST monad",
           "hierarchy": "Data Choose ST",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.ST",
           "name": "ST",
           "package": "permutation",
@@ -746,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable combination that can be manipulated in the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad. The\n type argument \u003ccode\u003es\u003c/code\u003e is the state variable argument for the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.ST",
           "name": "STChoose",
           "package": "permutation",
@@ -755,6 +814,7 @@
         "index": {
           "description": "mutable combination that can be manipulated in the ST monad The type argument is the state variable argument for the ST type",
           "hierarchy": "Data Choose ST",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.ST",
           "name": "STChoose",
           "package": "permutation",
@@ -769,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA safe way to create and work with a mutable combination before returning \n an immutable one for later perusal. This function avoids copying the \n combination before returning it - it uses unsafeFreeze internally, but this \n wrapper is a safe interface to that function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose.ST",
           "name": "runSTChoose",
           "package": "permutation",
@@ -779,6 +840,7 @@
         "index": {
           "description": "safe way to create and work with mutable combination before returning an immutable one for later perusal This function avoids copying the combination before returning it it uses unsafeFreeze internally but this wrapper is safe interface to that function",
           "hierarchy": "Data Choose ST",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose.ST",
           "name": "runSTChoose",
           "normalized": "(a b ST c(STChoose c))-\u003eChoose",
@@ -795,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImmutable combinations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "Choose",
           "package": "permutation",
@@ -804,6 +867,7 @@
         "index": {
           "description": "Immutable combinations",
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "Choose",
           "package": "permutation",
@@ -818,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe immutable combination data type.  A way of representing \u003ccode\u003ek\u003c/code\u003e\n unordered outcomes from \u003ccode\u003en\u003c/code\u003e possiblities.  The possibilites are\n represented as the indices \u003ccode\u003e0, ..., n-1\u003c/code\u003e, and the outcomes are\n given as a subset of size \u003ccode\u003ek\u003c/code\u003e.  The subset is stored with the indices\n in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "Choose",
           "package": "permutation",
@@ -827,6 +892,7 @@
         "index": {
           "description": "The immutable combination data type way of representing unordered outcomes from possiblities The possibilites are represented as the indices n-1 and the outcomes are given as subset of size The subset is stored with the indices in ascending order",
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "Choose",
           "package": "permutation",
@@ -841,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eat c i\u003c/code\u003e gets the value of the \u003ccode\u003ei\u003c/code\u003eth element of the combination\n \u003ccode\u003ec\u003c/code\u003e.  The index \u003ccode\u003ei\u003c/code\u003e must be in the range \u003ccode\u003e0..(k-1)\u003c/code\u003e, where \u003ccode\u003ek\u003c/code\u003e is the\n size of the combination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "at",
           "package": "permutation",
@@ -851,6 +918,7 @@
         "index": {
           "description": "at gets the value of the th element of the combination The index must be in the range k-1 where is the size of the combination",
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "at",
           "normalized": "Choose-\u003eInt-\u003eInt",
@@ -866,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003echoose n k\u003c/code\u003e returns the first combination of \u003ccode\u003ek\u003c/code\u003e outcomes from \u003ccode\u003en\u003c/code\u003e\n possibilites, namely the subset \u003ccode\u003e{ 0, ..., k-1 }\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "choose",
           "package": "permutation",
@@ -876,6 +945,7 @@
         "index": {
           "description": "choose returns the first combination of outcomes from possibilites namely the subset k-1",
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "choose",
           "normalized": "Int-\u003eInt-\u003eChoose",
@@ -891,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of the elements in the complement of a combination.\n If the combination is a subset of \u003ccode\u003ek\u003c/code\u003e outcomes from \u003ccode\u003en\u003c/code\u003e possibilities, then\n the returned list will be sorted and of length \u003ccode\u003en-k\u003c/code\u003e.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "complElems",
           "package": "permutation",
@@ -901,6 +972,7 @@
         "index": {
           "description": "Get list of the elements in the complement of combination If the combination is subset of outcomes from possibilities then the returned list will be sorted and of length n-k",
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "complElems",
           "normalized": "Choose-\u003e[Int]",
@@ -917,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the inverse of a combination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "complement",
           "package": "permutation",
@@ -927,6 +1000,7 @@
         "index": {
           "description": "Get the inverse of combination",
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "complement",
           "normalized": "Choose-\u003eChoose",
@@ -942,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of the \u003ccode\u003ek\u003c/code\u003e outcomes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "elems",
           "package": "permutation",
@@ -952,6 +1027,7 @@
         "index": {
           "description": "Get list of the outcomes",
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "elems",
           "normalized": "Choose-\u003e[Int]",
@@ -967,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a combination from a list of elements.  \n \u003ccode\u003elistChoose n k is\u003c/code\u003e creates a combination of \u003ccode\u003ek\u003c/code\u003e outcomes from \u003ccode\u003en\u003c/code\u003e\n possibilities initialized to have the \u003ccode\u003ei\u003c/code\u003eth element equal to \u003ccode\u003eis !! i\u003c/code\u003e.  \n For the combination to be valid, the elements must all be unique, they \n must be in sorted order, and they all must be in the range \u003ccode\u003e0 .. n-1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "listChoose",
           "package": "permutation",
@@ -977,6 +1054,7 @@
         "index": {
           "description": "Construct combination from list of elements listChoose is creates combination of outcomes from possibilities initialized to have the th element equal to is For the combination to be valid the elements must all be unique they must be in sorted order and they all must be in the range n-1",
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "listChoose",
           "normalized": "Int-\u003eInt-\u003e[Int]-\u003eChoose",
@@ -993,6 +1071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the next combination in lexicographic order, or \u003ccode\u003eNothing\u003c/code\u003e if\n there are no further combinations.  Starting with the first combination\n and repeatedly calling this function will iterate through all combinations\n of a given order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "next",
           "package": "permutation",
@@ -1003,6 +1082,7 @@
         "index": {
           "description": "Return the next combination in lexicographic order or Nothing if there are no further combinations Starting with the first combination and repeatedly calling this function will iterate through all combinations of given order",
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "next",
           "normalized": "Choose-\u003eMaybe Choose",
@@ -1018,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of possibilities, \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "possible",
           "package": "permutation",
@@ -1028,6 +1109,7 @@
         "index": {
           "description": "Get the number of possibilities",
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "possible",
           "normalized": "Choose-\u003eInt",
@@ -1043,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the previous combination in lexicographic order, or \u003ccode\u003eNothing\u003c/code\u003e\n if such combination exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "prev",
           "package": "permutation",
@@ -1053,6 +1136,7 @@
         "index": {
           "description": "Return the previous combination in lexicographic order or Nothing if such combination exists",
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "prev",
           "normalized": "Choose-\u003eMaybe Choose",
@@ -1068,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of outcomes, \u003ccode\u003ek\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "size",
           "package": "permutation",
@@ -1078,6 +1163,7 @@
         "index": {
           "description": "Get the number of outcomes",
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "size",
           "normalized": "Choose-\u003eInt",
@@ -1092,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Choose",
           "name": "unsafeAt",
           "package": "permutation",
@@ -1101,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Data Choose",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Choose",
           "name": "unsafeAt",
           "normalized": "Choose-\u003eInt-\u003eInt",
@@ -1117,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMutable permutations in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.IO",
           "name": "IO",
           "package": "permutation",
@@ -1126,6 +1215,7 @@
         "index": {
           "description": "Mutable permutations in the IO monad",
           "hierarchy": "Data Permute IO",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.IO",
           "name": "IO",
           "package": "permutation",
@@ -1140,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable permutation that can be manipulated in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.IO",
           "name": "IOPermute",
           "package": "permutation",
@@ -1149,6 +1240,7 @@
         "index": {
           "description": "mutable permutation that can be manipulated in the IO monad",
           "hierarchy": "Data Permute IO",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.IO",
           "name": "IOPermute",
           "package": "permutation",
@@ -1163,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn overloaded interface to mutable permutations. For permutation types which \n can be used with this interface, see \u003ca\u003eData.Permute.IO\u003c/a\u003e and \u003ca\u003eData.Permute.ST\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "MPermute",
           "package": "permutation",
@@ -1172,6 +1265,7 @@
         "index": {
           "description": "An overloaded interface to mutable permutations For permutation types which can be used with this interface see Data.Permute.IO and Data.Permute.ST",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "MPermute",
           "package": "permutation",
@@ -1186,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for representing a mutable permutation.  The type is parameterized\n over the type of the monad, \u003ccode\u003em\u003c/code\u003e, in which the mutable permutation will be\n manipulated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "MPermute",
           "package": "permutation",
@@ -1195,6 +1290,7 @@
         "index": {
           "description": "Class for representing mutable permutation The type is parameterized over the type of the monad in which the mutable permutation will be manipulated",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "MPermute",
           "package": "permutation",
@@ -1209,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet one permutation to be the inverse of another.  \n \u003ccode\u003ecopyInverse inv p\u003c/code\u003e computes the inverse of \u003ccode\u003ep\u003c/code\u003e and stores it in \u003ccode\u003einv\u003c/code\u003e.\n The two permutations must have the same size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "copyInverse",
           "package": "permutation",
@@ -1219,6 +1316,7 @@
         "index": {
           "description": "Set one permutation to be the inverse of another copyInverse inv computes the inverse of and stores it in inv The two permutations must have the same size",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "copyInverse",
           "normalized": "a-\u003ea-\u003eb()",
@@ -1235,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecopyPermute dst src\u003c/code\u003e copies the elements of the permutation \u003ccode\u003esrc\u003c/code\u003e\n into the permutation \u003ccode\u003edst\u003c/code\u003e.  The two permutations must have the same\n size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "copyPermute",
           "package": "permutation",
@@ -1245,6 +1344,7 @@
         "index": {
           "description": "copyPermute dst src copies the elements of the permutation src into the permutation dst The two permutations must have the same size",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "copyPermute",
           "normalized": "a-\u003ea-\u003eb()",
@@ -1261,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a mutable permutation to an immutable one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "freeze",
           "package": "permutation",
@@ -1271,6 +1372,7 @@
         "index": {
           "description": "Convert mutable permutation to an immutable one",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "freeze",
           "normalized": "a-\u003eb Permute",
@@ -1286,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetCycleFrom p i\u003c/code\u003e gets the list of elements reachable from \u003ccode\u003ei\u003c/code\u003e\n by repeated application of \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getCycleFrom",
           "package": "permutation",
@@ -1296,6 +1399,7 @@
         "index": {
           "description": "getCycleFrom gets the list of elements reachable from by repeated application of",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getCycleFrom",
           "normalized": "a-\u003eInt-\u003eb[Int]",
@@ -1312,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetCycles p\u003c/code\u003e returns the list of disjoin cycles in \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getCycles",
           "package": "permutation",
@@ -1322,6 +1427,7 @@
         "index": {
           "description": "getCycles returns the list of disjoin cycles in",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getCycles",
           "normalized": "a-\u003eb[[Int]]",
@@ -1338,6 +1444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetElem p i\u003c/code\u003e gets the value of the \u003ccode\u003ei\u003c/code\u003eth element of the permutation\n \u003ccode\u003ep\u003c/code\u003e.  The index \u003ccode\u003ei\u003c/code\u003e must be in the range \u003ccode\u003e0..(n-1)\u003c/code\u003e, where \u003ccode\u003en\u003c/code\u003e is the\n size of the permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getElem",
           "package": "permutation",
@@ -1348,6 +1455,7 @@
         "index": {
           "description": "getElem gets the value of the th element of the permutation The index must be in the range n-1 where is the size of the permutation",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getElem",
           "normalized": "a-\u003eInt-\u003eb Int",
@@ -1364,6 +1472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a lazy list of the permutation elements.  The laziness makes this\n function slightly dangerous if you are modifying the permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getElems",
           "package": "permutation",
@@ -1374,6 +1483,7 @@
         "index": {
           "description": "Get lazy list of the permutation elements The laziness makes this function slightly dangerous if you are modifying the permutation",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getElems",
           "normalized": "a-\u003eb[Int]",
@@ -1390,6 +1500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetIndexOf p x\u003c/code\u003e returns \u003ccode\u003ei\u003c/code\u003e sutch that \u003ccode\u003egetElem p i\u003c/code\u003e equals \u003ccode\u003ex\u003c/code\u003e.  This\n is a linear-time operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getIndexOf",
           "package": "permutation",
@@ -1400,6 +1511,7 @@
         "index": {
           "description": "getIndexOf returns sutch that getElem equals This is linear-time operation",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getIndexOf",
           "normalized": "a-\u003eInt-\u003eb Int",
@@ -1416,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a lazy list of swaps equivalent to the inverse of a permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getInvSwaps",
           "package": "permutation",
@@ -1426,6 +1539,7 @@
         "index": {
           "description": "Get lazy list of swaps equivalent to the inverse of permutation",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getInvSwaps",
           "normalized": "a-\u003eb[(Int,Int)]",
@@ -1442,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the inverse of a permutation.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getInverse",
           "package": "permutation",
@@ -1452,6 +1567,7 @@
         "index": {
           "description": "Compute the inverse of permutation",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getInverse",
           "normalized": "a-\u003eb a",
@@ -1468,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not the permutation is made from an even number of swaps\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getIsEven",
           "package": "permutation",
@@ -1478,6 +1595,7 @@
         "index": {
           "description": "Whether or not the permutation is made from an even number of swaps",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getIsEven",
           "normalized": "a-\u003eb Bool",
@@ -1494,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetOrder n xs\u003c/code\u003e returns a permutation which rearranges the first \u003ccode\u003en\u003c/code\u003e\n elements of \u003ccode\u003exs\u003c/code\u003e into ascending order. The results are undefined if \u003ccode\u003en\u003c/code\u003e is \n greater than the length of \u003ccode\u003exs\u003c/code\u003e.  This is a special case of \u003ccode\u003e\u003ca\u003egetOrderBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getOrder",
           "package": "permutation",
@@ -1504,6 +1623,7 @@
         "index": {
           "description": "getOrder xs returns permutation which rearranges the first elements of xs into ascending order The results are undefined if is greater than the length of xs This is special case of getOrderBy",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getOrder",
           "normalized": "Int-\u003e[a]-\u003eb c",
@@ -1519,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getOrderBy",
           "package": "permutation",
@@ -1528,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getOrderBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eInt-\u003e[a]-\u003eb c",
@@ -1544,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetPeriod p\u003c/code\u003e - The first power of \u003ccode\u003ep\u003c/code\u003e that is the identity permutation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getPeriod",
           "package": "permutation",
@@ -1554,6 +1677,7 @@
         "index": {
           "description": "getPeriod The first power of that is the identity permutation",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getPeriod",
           "normalized": "a-\u003eb Integer",
@@ -1570,6 +1694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetRank n xs\u003c/code\u003e eturns a permutation, the inverse of which rearranges the \n first \u003ccode\u003en\u003c/code\u003e elements of \u003ccode\u003exs\u003c/code\u003e into ascending order. The returned permutation, \n \u003ccode\u003ep\u003c/code\u003e, has the property that \u003ccode\u003ep[i]\u003c/code\u003e is the rank of the \u003ccode\u003ei\u003c/code\u003eth element of \u003ccode\u003exs\u003c/code\u003e. \n The results are undefined if \u003ccode\u003en\u003c/code\u003e is greater than the length of \u003ccode\u003exs\u003c/code\u003e.\n This is a special case of \u003ccode\u003e\u003ca\u003egetRankBy\u003c/a\u003e\u003c/code\u003e.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getRank",
           "package": "permutation",
@@ -1580,6 +1705,7 @@
         "index": {
           "description": "getRank xs eturns permutation the inverse of which rearranges the first elements of xs into ascending order The returned permutation has the property that is the rank of the th element of xs The results are undefined if is greater than the length of xs This is special case of getRankBy",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getRank",
           "normalized": "Int-\u003e[a]-\u003eb c",
@@ -1595,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getRankBy",
           "package": "permutation",
@@ -1604,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getRankBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eInt-\u003e[a]-\u003eb c",
@@ -1620,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of a permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getSize",
           "package": "permutation",
@@ -1630,6 +1759,7 @@
         "index": {
           "description": "Get the size of permutation",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getSize",
           "normalized": "a-\u003eb Int",
@@ -1646,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetSort n xs\u003c/code\u003e sorts the first \u003ccode\u003en\u003c/code\u003e elements of \u003ccode\u003exs\u003c/code\u003e and returns a \n permutation which transforms \u003ccode\u003exs\u003c/code\u003e into sorted order.  The results are\n undefined if \u003ccode\u003en\u003c/code\u003e is greater than the length of \u003ccode\u003exs\u003c/code\u003e.  This is a special \n case of \u003ccode\u003e\u003ca\u003egetSortBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getSort",
           "package": "permutation",
@@ -1656,6 +1787,7 @@
         "index": {
           "description": "getSort xs sorts the first elements of xs and returns permutation which transforms xs into sorted order The results are undefined if is greater than the length of xs This is special case of getSortBy",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getSort",
           "normalized": "Int-\u003e[a]-\u003eb([a],c)",
@@ -1671,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getSortBy",
           "package": "permutation",
@@ -1680,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getSortBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eInt-\u003e[a]-\u003eb([a],c)",
@@ -1696,6 +1830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a lazy list of swaps equivalent to the permutation.  A result of\n \u003ccode\u003e[ (i0,j0), (i1,j1), ..., (ik,jk) ]\u003c/code\u003e means swap \u003ccode\u003ei0 \u003c-\u003e j0\u003c/code\u003e, \n then \u003ccode\u003ei1 \u003c-\u003e j1\u003c/code\u003e, and so on until \u003ccode\u003eik \u003c-\u003e jk\u003c/code\u003e.  The laziness makes this\n function slightly dangerous if you are modifying the permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "getSwaps",
           "package": "permutation",
@@ -1706,6 +1841,7 @@
         "index": {
           "description": "Get lazy list of swaps equivalent to the permutation result of i0 j0 i1 j1 ik jk means swap i0 j0 then i1 j1 and so on until ik jk The laziness makes this function slightly dangerous if you are modifying the permutation",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "getSwaps",
           "normalized": "a-\u003eb[(Int,Int)]",
@@ -1722,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the permutation is valid.  For it to be valid,\n the numbers \u003ccode\u003e0,...,(n-1)\u003c/code\u003e must all appear exactly once in the stored\n values \u003ccode\u003ep[0],...,p[n-1]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "isValid",
           "package": "permutation",
@@ -1732,6 +1869,7 @@
         "index": {
           "description": "Returns whether or not the permutation is valid For it to be valid the numbers n-1 must all appear exactly once in the stored values n-1",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "isValid",
           "normalized": "a-\u003eb Bool",
@@ -1748,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new permutation by copying another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "newCopyPermute",
           "package": "permutation",
@@ -1758,6 +1897,7 @@
         "index": {
           "description": "Construct new permutation by copying another",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "newCopyPermute",
           "normalized": "a-\u003eb a",
@@ -1774,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a permutation from a list of disjoint cycles.\n \u003ccode\u003enewCyclesPermute n cs\u003c/code\u003e creates a permutation of size \u003ccode\u003en\u003c/code\u003e which is the\n composition of the cycles \u003ccode\u003ecs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "newCyclesPermute",
           "package": "permutation",
@@ -1784,6 +1925,7 @@
         "index": {
           "description": "Construct permutation from list of disjoint cycles newCyclesPermute cs creates permutation of size which is the composition of the cycles cs",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "newCyclesPermute",
           "normalized": "Int-\u003e[[Int]]-\u003ea b",
@@ -1800,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a permutation from a list of elements.  \n \u003ccode\u003enewListPermute n is\u003c/code\u003e creates a permutation of size \u003ccode\u003en\u003c/code\u003e with\n the \u003ccode\u003ei\u003c/code\u003eth element equal to \u003ccode\u003eis !! i\u003c/code\u003e.  For the permutation to be valid,\n the list \u003ccode\u003eis\u003c/code\u003e must have length \u003ccode\u003en\u003c/code\u003e and contain the indices \u003ccode\u003e0..(n-1)\u003c/code\u003e \n exactly once each.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "newListPermute",
           "package": "permutation",
@@ -1810,6 +1953,7 @@
         "index": {
           "description": "Construct permutation from list of elements newListPermute is creates permutation of size with the th element equal to is For the permutation to be valid the list is must have length and contain the indices n-1 exactly once each",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "newListPermute",
           "normalized": "Int-\u003e[Int]-\u003ea b",
@@ -1826,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new permutation initialized to be the identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "newPermute",
           "package": "permutation",
@@ -1836,6 +1981,7 @@
         "index": {
           "description": "Create new permutation initialized to be the identity",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "newPermute",
           "normalized": "Int-\u003ea b",
@@ -1852,6 +1998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a new permutation but do not initialize it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "newPermute_",
           "package": "permutation",
@@ -1862,6 +2009,7 @@
         "index": {
           "description": "Allocate new permutation but do not initialize it",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "newPermute_",
           "normalized": "Int-\u003ea b",
@@ -1878,6 +2026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a permutation from a list of swaps.\n \u003ccode\u003enewSwapsPermute n ss\u003c/code\u003e creates a permutation of size \u003ccode\u003en\u003c/code\u003e given a\n sequence of swaps.\n If \u003ccode\u003ess\u003c/code\u003e is \u003ccode\u003e[(i0,j0), (i1,j1), ..., (ik,jk)]\u003c/code\u003e, the\n sequence of swaps is\n \u003ccode\u003ei0 \u003c-\u003e j0\u003c/code\u003e, then \n \u003ccode\u003ei1 \u003c-\u003e j1\u003c/code\u003e, and so on until\n \u003ccode\u003eik \u003c-\u003e jk\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "newSwapsPermute",
           "package": "permutation",
@@ -1888,6 +2037,7 @@
         "index": {
           "description": "Construct permutation from list of swaps newSwapsPermute ss creates permutation of size given sequence of swaps If ss is i0 j0 i1 j1 ik jk the sequence of swaps is i0 j0 then i1 j1 and so on until ik jk",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "newSwapsPermute",
           "normalized": "Int-\u003e[(Int,Int)]-\u003ea b",
@@ -1904,6 +2054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetElem p i x\u003c/code\u003e sets the value of the \u003ccode\u003ei\u003c/code\u003eth element of the permutation\n \u003ccode\u003ep\u003c/code\u003e.  The index \u003ccode\u003ei\u003c/code\u003e must be in the range \u003ccode\u003e0..(n-1)\u003c/code\u003e, where \u003ccode\u003en\u003c/code\u003e is the\n size of the permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "setElem",
           "package": "permutation",
@@ -1914,6 +2065,7 @@
         "index": {
           "description": "setElem sets the value of the th element of the permutation The index must be in the range n-1 where is the size of the permutation",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "setElem",
           "normalized": "a-\u003eInt-\u003eInt-\u003eb()",
@@ -1930,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet all the values of a permutation from a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "setElems",
           "package": "permutation",
@@ -1940,6 +2093,7 @@
         "index": {
           "description": "Set all the values of permutation from list of elements",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "setElems",
           "normalized": "a-\u003e[Int]-\u003eb()",
@@ -1956,6 +2110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a permutation to the identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "setIdentity",
           "package": "permutation",
@@ -1966,6 +2121,7 @@
         "index": {
           "description": "Set permutation to the identity",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "setIdentity",
           "normalized": "a-\u003eb()",
@@ -1982,6 +2138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdvance a permutation to the next permutation in lexicogrphic order and\n return \u003ccode\u003eTrue\u003c/code\u003e.  If no further permutaitons are available, return \u003ccode\u003eFalse\u003c/code\u003e and\n leave the permutation unmodified.  Starting with the idendity permutation \n and repeatedly calling \u003ccode\u003esetNext\u003c/code\u003e will iterate through all permutations of a \n given size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "setNext",
           "package": "permutation",
@@ -1992,6 +2149,7 @@
         "index": {
           "description": "Advance permutation to the next permutation in lexicogrphic order and return True If no further permutaitons are available return False and leave the permutation unmodified Starting with the idendity permutation and repeatedly calling setNext will iterate through all permutations of given size",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "setNext",
           "normalized": "a-\u003eb Bool",
@@ -2008,6 +2166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep backwards to the previous permutation in lexicographic order and\n return \u003ccode\u003eTrue\u003c/code\u003e.  If there is no previous permutation, return \u003ccode\u003eFalse\u003c/code\u003e and\n leave the permutation unmodified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "setPrev",
           "package": "permutation",
@@ -2018,6 +2177,7 @@
         "index": {
           "description": "Step backwards to the previous permutation in lexicographic order and return True If there is no previous permutation return False and leave the permutation unmodified",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "setPrev",
           "normalized": "a-\u003eb Bool",
@@ -2034,6 +2194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eswapElems p i j\u003c/code\u003e exchanges the \u003ccode\u003ei\u003c/code\u003eth and \u003ccode\u003ej\u003c/code\u003eth elements of the \n permutation \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "swapElems",
           "package": "permutation",
@@ -2044,6 +2205,7 @@
         "index": {
           "description": "swapElems exchanges the th and th elements of the permutation",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "swapElems",
           "normalized": "a-\u003eInt-\u003eInt-\u003eb()",
@@ -2060,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an immutable permutation to a mutable one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "thaw",
           "package": "permutation",
@@ -2070,6 +2233,7 @@
         "index": {
           "description": "Convert an immutable permutation to mutable one",
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "thaw",
           "normalized": "Permute-\u003ea b",
@@ -2084,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "unsafeFreeze",
           "package": "permutation",
@@ -2093,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "unsafeFreeze",
           "normalized": "a-\u003eb Permute",
@@ -2108,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "unsafeGetElem",
           "package": "permutation",
@@ -2117,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "unsafeGetElem",
           "normalized": "a-\u003eInt-\u003eb Int",
@@ -2132,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "unsafeNewCyclesPermute",
           "package": "permutation",
@@ -2141,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "unsafeNewCyclesPermute",
           "normalized": "Int-\u003e[[Int]]-\u003ea b",
@@ -2156,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "unsafeNewListPermute",
           "package": "permutation",
@@ -2165,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "unsafeNewListPermute",
           "normalized": "Int-\u003e[Int]-\u003ea b",
@@ -2180,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "unsafeNewSwapsPermute",
           "package": "permutation",
@@ -2189,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "unsafeNewSwapsPermute",
           "normalized": "Int-\u003e[(Int,Int)]-\u003ea b",
@@ -2204,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "unsafeSetElem",
           "package": "permutation",
@@ -2213,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "unsafeSetElem",
           "normalized": "a-\u003eInt-\u003eInt-\u003eb()",
@@ -2228,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "unsafeSwapElems",
           "package": "permutation",
@@ -2237,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "unsafeSwapElems",
           "normalized": "a-\u003eInt-\u003eInt-\u003eb()",
@@ -2252,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.MPermute",
           "name": "unsafeThaw",
           "package": "permutation",
@@ -2261,6 +2440,7 @@
         },
         "index": {
           "hierarchy": "Data Permute MPermute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.MPermute",
           "name": "unsafeThaw",
           "normalized": "Permute-\u003ea b",
@@ -2277,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMutable permutations in the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.ST",
           "name": "ST",
           "package": "permutation",
@@ -2286,6 +2467,7 @@
         "index": {
           "description": "Mutable permutations in the ST monad",
           "hierarchy": "Data Permute ST",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.ST",
           "name": "ST",
           "package": "permutation",
@@ -2300,6 +2482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable permutation that can be manipulated in the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad. The\n type argument \u003ccode\u003es\u003c/code\u003e is the state variable argument for the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.ST",
           "name": "STPermute",
           "package": "permutation",
@@ -2309,6 +2492,7 @@
         "index": {
           "description": "mutable permutation that can be manipulated in the ST monad The type argument is the state variable argument for the ST type",
           "hierarchy": "Data Permute ST",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.ST",
           "name": "STPermute",
           "package": "permutation",
@@ -2323,6 +2507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA safe way to create and work with a mutable permutation before returning \n an immutable one for later perusal. This function avoids copying the \n permutation before returning it - it uses unsafeFreeze internally, but this \n wrapper is a safe interface to that function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute.ST",
           "name": "runSTPermute",
           "package": "permutation",
@@ -2333,6 +2518,7 @@
         "index": {
           "description": "safe way to create and work with mutable permutation before returning an immutable one for later perusal This function avoids copying the permutation before returning it it uses unsafeFreeze internally but this wrapper is safe interface to that function",
           "hierarchy": "Data Permute ST",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute.ST",
           "name": "runSTPermute",
           "normalized": "(a b ST c(STPermute c))-\u003ePermute",
@@ -2349,6 +2535,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImmutable permutations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "Permute",
           "package": "permutation",
@@ -2358,6 +2545,7 @@
         "index": {
           "description": "Immutable permutations",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "Permute",
           "package": "permutation",
@@ -2372,6 +2560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe immutable permutation data type.\n Internally, a permutation of size \u003ccode\u003en\u003c/code\u003e is stored as an\n \u003ccode\u003e0\u003c/code\u003e-based array of \u003ccode\u003en\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.  The permutation represents a reordering of\n the integers \u003ccode\u003e0, ..., (n-1)\u003c/code\u003e.  The permutation sents the value p[i] to \n \u003ccode\u003ei\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "Permute",
           "package": "permutation",
@@ -2381,6 +2570,7 @@
         "index": {
           "description": "The immutable permutation data type Internally permutation of size is stored as an based array of Int The permutation represents reordering of the integers n-1 The permutation sents the value to",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "Permute",
           "package": "permutation",
@@ -2395,6 +2585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eat p i\u003c/code\u003e gets the value of the \u003ccode\u003ei\u003c/code\u003eth element of the permutation\n \u003ccode\u003ep\u003c/code\u003e.  The index \u003ccode\u003ei\u003c/code\u003e must be in the range \u003ccode\u003e0..(n-1)\u003c/code\u003e, where \u003ccode\u003en\u003c/code\u003e is the\n size of the permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "at",
           "package": "permutation",
@@ -2405,6 +2596,7 @@
         "index": {
           "description": "at gets the value of the th element of the permutation The index must be in the range n-1 where is the size of the permutation",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "at",
           "normalized": "Permute-\u003eInt-\u003eInt",
@@ -2420,6 +2612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecycleFrom p i\u003c/code\u003e gets the list of elements reachable from \u003ccode\u003ei\u003c/code\u003e by\n repeated application of \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "cycleFrom",
           "package": "permutation",
@@ -2430,6 +2623,7 @@
         "index": {
           "description": "cycleFrom gets the list of elements reachable from by repeated application of",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "cycleFrom",
           "normalized": "Permute-\u003eInt-\u003e[Int]",
@@ -2446,6 +2640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecycles p\u003c/code\u003e returns the list of disjoin cycles in \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "cycles",
           "package": "permutation",
@@ -2456,6 +2651,7 @@
         "index": {
           "description": "cycles returns the list of disjoin cycles in",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "cycles",
           "normalized": "Permute-\u003e[[Int]]",
@@ -2471,6 +2667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a permutation from a list of disjoint cycles.\n \u003ccode\u003ecyclesPermute n cs\u003c/code\u003e creates a permutation of size \u003ccode\u003en\u003c/code\u003e which is the\n composition of the cycles \u003ccode\u003ecs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "cyclesPermute",
           "package": "permutation",
@@ -2481,6 +2678,7 @@
         "index": {
           "description": "Construct permutation from list of disjoint cycles cyclesPermute cs creates permutation of size which is the composition of the cycles cs",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "cyclesPermute",
           "normalized": "Int-\u003e[[Int]]-\u003ePermute",
@@ -2497,6 +2695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of the permutation elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "elems",
           "package": "permutation",
@@ -2507,6 +2706,7 @@
         "index": {
           "description": "Get list of the permutation elements",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "elems",
           "normalized": "Permute-\u003e[Int]",
@@ -2522,6 +2722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eindexOf p x\u003c/code\u003e gets an index \u003ccode\u003ei\u003c/code\u003e such that \u003ccode\u003eat p i\u003c/code\u003e equals \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "indexOf",
           "package": "permutation",
@@ -2532,6 +2733,7 @@
         "index": {
           "description": "indexOf gets an index such that at equals",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "indexOf",
           "normalized": "Permute-\u003eInt-\u003eInt",
@@ -2548,6 +2750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of swaps equivalent to the inverse of permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "invSwaps",
           "package": "permutation",
@@ -2558,6 +2761,7 @@
         "index": {
           "description": "Get list of swaps equivalent to the inverse of permutation",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "invSwaps",
           "normalized": "Permute-\u003e[(Int,Int)]",
@@ -2574,6 +2778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the inverse of a permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "inverse",
           "package": "permutation",
@@ -2584,6 +2789,7 @@
         "index": {
           "description": "Get the inverse of permutation",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "inverse",
           "normalized": "Permute-\u003ePermute",
@@ -2599,6 +2805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not the permutation is made from an even number of swaps\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "isEven",
           "package": "permutation",
@@ -2609,6 +2816,7 @@
         "index": {
           "description": "Whether or not the permutation is made from an even number of swaps",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "isEven",
           "normalized": "Permute-\u003eBool",
@@ -2625,6 +2833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a permutation from a list of elements.  \n \u003ccode\u003elistPermute n is\u003c/code\u003e creates a permutation of size \u003ccode\u003en\u003c/code\u003e with\n the \u003ccode\u003ei\u003c/code\u003eth element equal to \u003ccode\u003eis !! i\u003c/code\u003e.  For the permutation to be valid,\n the list \u003ccode\u003eis\u003c/code\u003e must have length \u003ccode\u003en\u003c/code\u003e and contain the indices \u003ccode\u003e0..(n-1)\u003c/code\u003e \n exactly once each.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "listPermute",
           "package": "permutation",
@@ -2635,6 +2844,7 @@
         "index": {
           "description": "Construct permutation from list of elements listPermute is creates permutation of size with the th element equal to is For the permutation to be valid the list is must have length and contain the indices n-1 exactly once each",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "listPermute",
           "normalized": "Int-\u003e[Int]-\u003ePermute",
@@ -2651,6 +2861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the next permutation in lexicographic order, or \u003ccode\u003eNothing\u003c/code\u003e if\n there are no further permutations.  Starting with the identity permutation\n and repeatedly calling this function will iterate through all permutations\n of a given order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "next",
           "package": "permutation",
@@ -2661,6 +2872,7 @@
         "index": {
           "description": "Return the next permutation in lexicographic order or Nothing if there are no further permutations Starting with the identity permutation and repeatedly calling this function will iterate through all permutations of given order",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "next",
           "normalized": "Permute-\u003eMaybe Permute",
@@ -2676,6 +2888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eorder n xs\u003c/code\u003e returns a permutation which rearranges the first \u003ccode\u003en\u003c/code\u003e\n elements of \u003ccode\u003exs\u003c/code\u003e into ascending order. The results are undefined if \u003ccode\u003en\u003c/code\u003e is \n greater than the length of \u003ccode\u003exs\u003c/code\u003e.  This is a special case of \u003ccode\u003e\u003ca\u003eorderBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "order",
           "package": "permutation",
@@ -2686,6 +2899,7 @@
         "index": {
           "description": "order xs returns permutation which rearranges the first elements of xs into ascending order The results are undefined if is greater than the length of xs This is special case of orderBy",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "order",
           "normalized": "Int-\u003e[a]-\u003ePermute",
@@ -2700,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "orderBy",
           "package": "permutation",
@@ -2709,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "orderBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eInt-\u003e[a]-\u003ePermute",
@@ -2725,6 +2941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eperiod p\u003c/code\u003e - The first power of \u003ccode\u003ep\u003c/code\u003e that is the identity permutation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "period",
           "package": "permutation",
@@ -2735,6 +2952,7 @@
         "index": {
           "description": "period The first power of that is the identity permutation",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "period",
           "normalized": "Permute-\u003eInteger",
@@ -2750,6 +2968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an identity permutation of the given size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "permute",
           "package": "permutation",
@@ -2760,6 +2979,7 @@
         "index": {
           "description": "Construct an identity permutation of the given size",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "permute",
           "normalized": "Int-\u003ePermute",
@@ -2775,6 +2995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the previous permutation in lexicographic order, or \u003ccode\u003eNothing\u003c/code\u003e\n if no such permutation exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "prev",
           "package": "permutation",
@@ -2785,6 +3006,7 @@
         "index": {
           "description": "Return the previous permutation in lexicographic order or Nothing if no such permutation exists",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "prev",
           "normalized": "Permute-\u003eMaybe Permute",
@@ -2800,6 +3022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erank n xs\u003c/code\u003e eturns a permutation, the inverse of which rearranges the \n first \u003ccode\u003en\u003c/code\u003e elements of \u003ccode\u003exs\u003c/code\u003e into ascending order. The returned permutation, \n \u003ccode\u003ep\u003c/code\u003e, has the property that \u003ccode\u003ep[i]\u003c/code\u003e is the rank of the \u003ccode\u003ei\u003c/code\u003eth element of \u003ccode\u003exs\u003c/code\u003e. \n The results are undefined if \u003ccode\u003en\u003c/code\u003e is greater than the length of \u003ccode\u003exs\u003c/code\u003e.\n This is a special case of \u003ccode\u003e\u003ca\u003erankBy\u003c/a\u003e\u003c/code\u003e.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "rank",
           "package": "permutation",
@@ -2810,6 +3033,7 @@
         "index": {
           "description": "rank xs eturns permutation the inverse of which rearranges the first elements of xs into ascending order The returned permutation has the property that is the rank of the th element of xs The results are undefined if is greater than the length of xs This is special case of rankBy",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "rank",
           "normalized": "Int-\u003e[a]-\u003ePermute",
@@ -2824,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "rankBy",
           "package": "permutation",
@@ -2833,6 +3058,7 @@
         },
         "index": {
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "rankBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eInt-\u003e[a]-\u003ePermute",
@@ -2849,6 +3075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of the permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "size",
           "package": "permutation",
@@ -2859,6 +3086,7 @@
         "index": {
           "description": "Get the size of the permutation",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "size",
           "normalized": "Permute-\u003eInt",
@@ -2874,6 +3102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esort n xs\u003c/code\u003e sorts the first \u003ccode\u003en\u003c/code\u003e elements of \u003ccode\u003exs\u003c/code\u003e and returns a \n permutation which transforms \u003ccode\u003exs\u003c/code\u003e into sorted order.  The results are\n undefined if \u003ccode\u003en\u003c/code\u003e is greater than the length of \u003ccode\u003exs\u003c/code\u003e.  This is a special \n case of \u003ccode\u003e\u003ca\u003esortBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "sort",
           "package": "permutation",
@@ -2884,6 +3113,7 @@
         "index": {
           "description": "sort xs sorts the first elements of xs and returns permutation which transforms xs into sorted order The results are undefined if is greater than the length of xs This is special case of sortBy",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "sort",
           "normalized": "Int-\u003e[a]-\u003e([a],Permute)",
@@ -2898,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "sortBy",
           "package": "permutation",
@@ -2907,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "sortBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eInt-\u003e[a]-\u003e([a],Permute)",
@@ -2923,6 +3155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of swaps equivalent to the permutation.  A result of\n \u003ccode\u003e[ (i0,j0), (i1,j1), ..., (ik,jk) ]\u003c/code\u003e means swap \u003ccode\u003ei0 \u003c-\u003e j0\u003c/code\u003e, \n then \u003ccode\u003ei1 \u003c-\u003e j1\u003c/code\u003e, and so on until \u003ccode\u003eik \u003c-\u003e jk\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "swaps",
           "package": "permutation",
@@ -2933,6 +3166,7 @@
         "index": {
           "description": "Get list of swaps equivalent to the permutation result of i0 j0 i1 j1 ik jk means swap i0 j0 then i1 j1 and so on until ik jk",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "swaps",
           "normalized": "Permute-\u003e[(Int,Int)]",
@@ -2948,6 +3182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a permutation from a list of swaps.\n \u003ccode\u003eswapsPermute n ss\u003c/code\u003e creats a permutation of size \u003ccode\u003en\u003c/code\u003e given by a\n sequence of swaps.\n If \u003ccode\u003ess\u003c/code\u003e is \u003ccode\u003e[(i0,j0), (i1,j1), ..., (ik,jk)]\u003c/code\u003e, the\n sequence of swaps is\n \u003ccode\u003ei0 \u003c-\u003e j0\u003c/code\u003e, then \n \u003ccode\u003ei1 \u003c-\u003e j1\u003c/code\u003e, and so on until\n \u003ccode\u003eik \u003c-\u003e jk\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "swapsPermute",
           "package": "permutation",
@@ -2958,6 +3193,7 @@
         "index": {
           "description": "Construct permutation from list of swaps swapsPermute ss creats permutation of size given by sequence of swaps If ss is i0 j0 i1 j1 ik jk the sequence of swaps is i0 j0 then i1 j1 and so on until ik jk",
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "swapsPermute",
           "normalized": "Int-\u003e[(Int,Int)]-\u003ePermute",
@@ -2973,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:28 UTC 2014",
           "module": "Data.Permute",
           "name": "unsafeAt",
           "package": "permutation",
@@ -2982,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Data Permute",
+          "indexed": "2014-03-11T19:37:28",
           "module": "Data.Permute",
           "name": "unsafeAt",
           "normalized": "Permute-\u003eInt-\u003eInt",

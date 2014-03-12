@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Capabilities"
+        "phrase": "Capabilities",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "OpenVGRaw"
+        "phrase": "OpenVGRaw",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "quick-generator"
+        "phrase": "quick-generator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:14 UTC 2014",
           "module": "Testing.QuickGenerator",
           "name": "QuickGenerator",
           "package": "quick-generator",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Testing QuickGenerator",
+          "indexed": "2014-03-11T19:47:14",
           "module": "Testing.QuickGenerator",
           "name": "QuickGenerator",
           "package": "quick-generator",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e sample $ ['a'..'z'] ??* (0,2) ?* (3,3)\n   [\"zc\",\"jf\",\"gwgob\",\"uc\",\"rll\",\"jnxjjr\",\"bycd\",\"s\",\"nja\",\"cm\",\"tu\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:47:14 UTC 2014",
           "module": "Testing.QuickGenerator",
           "name": "(?*)",
           "package": "quick-generator",
@@ -50,6 +53,7 @@
         "index": {
           "description": "sample zc jf gwgob uc rll jnxjjr bycd nja cm tu",
           "hierarchy": "Testing QuickGenerator",
+          "indexed": "2014-03-11T19:47:14",
           "module": "Testing.QuickGenerator",
           "name": "(?*) ?*",
           "normalized": "Gen[a]-\u003e(Int,Int)-\u003eGen[a]",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e sample $ \"abcd\" ??* (0,2)\n  [\"\",\"da\",\"\",\"\",\"c\",\"bc\",\"d\",\"d\",\"\",\"ab\",\"c\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:47:14 UTC 2014",
           "module": "Testing.QuickGenerator",
           "name": "(??*)",
           "package": "quick-generator",
@@ -75,6 +80,7 @@
         "index": {
           "description": "sample abcd da bc ab",
           "hierarchy": "Testing QuickGenerator",
+          "indexed": "2014-03-11T19:47:14",
           "module": "Testing.QuickGenerator",
           "name": "(??*) ??*",
           "normalized": "[a]-\u003e(Int,Int)-\u003eGen[a]",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOr .\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:14 UTC 2014",
           "module": "Testing.QuickGenerator",
           "name": "(.|)",
           "package": "quick-generator",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Or",
           "hierarchy": "Testing QuickGenerator",
+          "indexed": "2014-03-11T19:47:14",
           "module": "Testing.QuickGenerator",
           "name": "(.|) .|",
           "normalized": "Gen a-\u003eGen a-\u003eGen a",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatetion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:14 UTC 2014",
           "module": "Testing.QuickGenerator",
           "name": "(.++)",
           "package": "quick-generator",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Concatetion",
           "hierarchy": "Testing QuickGenerator",
+          "indexed": "2014-03-11T19:47:14",
           "module": "Testing.QuickGenerator",
           "name": "(.++) .++",
           "normalized": "Gen[a]-\u003eGen[a]-\u003eGen[a]",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCastom \u003ccode\u003e\u003ca\u003eelements\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e el xs =  (\\x -\u003e [x]) `fmap` elements xs   \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:47:14 UTC 2014",
           "module": "Testing.QuickGenerator",
           "name": "el",
           "package": "quick-generator",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Castom elements el xs fmap elements xs",
           "hierarchy": "Testing QuickGenerator",
+          "indexed": "2014-03-11T19:47:14",
           "module": "Testing.QuickGenerator",
           "name": "el",
           "normalized": "[a]-\u003eGen[a]",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erepeatWithInter  g i (min, max)\u003c/code\u003e\n   repeat \u003ccode\u003eg\u003c/code\u003e with inset \u003ccode\u003ei\u003c/code\u003e from \u003ccode\u003emin\u003c/code\u003e to \u003ccode\u003emax\u003c/code\u003e times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:14 UTC 2014",
           "module": "Testing.QuickGenerator",
           "name": "repeatWithInter",
           "package": "quick-generator",
@@ -175,6 +188,7 @@
         "index": {
           "description": "repeatWithInter min max repeat with inset from min to max times",
           "hierarchy": "Testing QuickGenerator",
+          "indexed": "2014-03-11T19:47:14",
           "module": "Testing.QuickGenerator",
           "name": "repeatWithInter",
           "normalized": "Gen[a]-\u003eGen[a]-\u003e(Int,Int)-\u003eGen[a]",

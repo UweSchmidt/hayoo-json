@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsc3-graphs"
+        "phrase": "hsc3-graphs",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HAppS-Server"
+        "phrase": "HAppS-Server",
+        "type": "phrase"
       },
       "type": "context"
     }

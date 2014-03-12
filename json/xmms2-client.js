@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xmms2-client"
+        "phrase": "xmms2-client",
+        "type": "phrase"
       },
       "type": "context"
     }

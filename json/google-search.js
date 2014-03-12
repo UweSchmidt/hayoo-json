@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "google-search"
+        "phrase": "google-search",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttps://support.google.com/mail/answer/7190\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Mail",
           "package": "google-search",
@@ -28,6 +29,7 @@
         "index": {
           "description": "https support.google.com mail answer",
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Mail",
           "package": "google-search",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCategories for the \u003ccode\u003ecategory:\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Category",
           "package": "google-search",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Categories for the category operator",
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Category",
           "package": "google-search",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeatures for the \u003ccode\u003ehas:\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Feature",
           "package": "google-search",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Features for the has operator",
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Feature",
           "package": "google-search",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocations for the \u003ccode\u003ein:\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Location",
           "package": "google-search",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Locations for the in operator",
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Location",
           "package": "google-search",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean combinations of GMail operators or \u003ccode\u003e\u003ca\u003ePlain\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eSimple\u003c/a\u003e\u003c/code\u003e terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Mail",
           "package": "google-search",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Boolean combinations of GMail operators or Plain Simple terms",
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Mail",
           "package": "google-search",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGMail search operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "MailOp",
           "package": "google-search",
@@ -143,6 +154,7 @@
         "index": {
           "description": "GMail search operators",
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "MailOp",
           "package": "google-search",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatuses for the \u003ccode\u003eis:\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Status",
           "package": "google-search",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Statuses for the is operator",
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Status",
           "package": "google-search",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "After",
           "package": "google-search",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "After",
           "package": "google-search",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Anywhere",
           "package": "google-search",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Anywhere",
           "package": "google-search",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Attachment",
           "package": "google-search",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Attachment",
           "package": "google-search",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Bcc",
           "package": "google-search",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Bcc",
           "package": "google-search",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Before",
           "package": "google-search",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Before",
           "package": "google-search",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "BlueInfo",
           "package": "google-search",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "BlueInfo",
           "package": "google-search",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "BlueStar",
           "package": "google-search",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "BlueStar",
           "package": "google-search",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Category",
           "package": "google-search",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Category",
           "package": "google-search",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Cc",
           "package": "google-search",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Cc",
           "package": "google-search",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Chat",
           "package": "google-search",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Chat",
           "package": "google-search",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Circle",
           "package": "google-search",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Circle",
           "package": "google-search",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "DeliveredTo",
           "package": "google-search",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "DeliveredTo",
           "package": "google-search",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Filename",
           "package": "google-search",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Filename",
           "package": "google-search",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Forums",
           "package": "google-search",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Forums",
           "package": "google-search",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "From",
           "package": "google-search",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "From",
           "package": "google-search",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "FromCircle",
           "package": "google-search",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "FromCircle",
           "package": "google-search",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "GreenCheck",
           "package": "google-search",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "GreenCheck",
           "package": "google-search",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "GreenStar",
           "package": "google-search",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "GreenStar",
           "package": "google-search",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Has",
           "package": "google-search",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Has",
           "package": "google-search",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Important",
           "package": "google-search",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Important",
           "package": "google-search",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "In",
           "package": "google-search",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "In",
           "package": "google-search",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Inbox",
           "package": "google-search",
@@ -650,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Inbox",
           "package": "google-search",
@@ -663,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Is",
           "package": "google-search",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Is",
           "package": "google-search",
@@ -685,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Label",
           "package": "google-search",
@@ -694,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Label",
           "package": "google-search",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Larger",
           "package": "google-search",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Larger",
           "package": "google-search",
@@ -729,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "List",
           "package": "google-search",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "List",
           "package": "google-search",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Newer",
           "package": "google-search",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Newer",
           "package": "google-search",
@@ -773,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "NoUserLabels",
           "package": "google-search",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "NoUserLabels",
           "package": "google-search",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Older",
           "package": "google-search",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Older",
           "package": "google-search",
@@ -817,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "OrangeGuillemet",
           "package": "google-search",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "OrangeGuillemet",
           "package": "google-search",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "OrangeStar",
           "package": "google-search",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "OrangeStar",
           "package": "google-search",
@@ -861,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Personal",
           "package": "google-search",
@@ -870,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Personal",
           "package": "google-search",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Plain",
           "package": "google-search",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Plain",
           "package": "google-search",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Promotions",
           "package": "google-search",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Promotions",
           "package": "google-search",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "PurpleQuestion",
           "package": "google-search",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "PurpleQuestion",
           "package": "google-search",
@@ -949,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "PurpleStar",
           "package": "google-search",
@@ -958,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "PurpleStar",
           "package": "google-search",
@@ -971,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "RFC822MsgId",
           "package": "google-search",
@@ -980,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "RFC822MsgId",
           "package": "google-search",
@@ -993,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Read",
           "package": "google-search",
@@ -1002,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Read",
           "package": "google-search",
@@ -1015,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "RedBang",
           "package": "google-search",
@@ -1024,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "RedBang",
           "package": "google-search",
@@ -1037,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "RedStar",
           "package": "google-search",
@@ -1046,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "RedStar",
           "package": "google-search",
@@ -1059,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Smaller",
           "package": "google-search",
@@ -1068,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Smaller",
           "package": "google-search",
@@ -1081,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Social",
           "package": "google-search",
@@ -1090,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Social",
           "package": "google-search",
@@ -1103,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Spam",
           "package": "google-search",
@@ -1112,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Spam",
           "package": "google-search",
@@ -1125,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Starred",
           "package": "google-search",
@@ -1134,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Starred",
           "package": "google-search",
@@ -1147,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Subject",
           "package": "google-search",
@@ -1156,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Subject",
           "package": "google-search",
@@ -1169,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "To",
           "package": "google-search",
@@ -1178,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "To",
           "package": "google-search",
@@ -1191,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Trash",
           "package": "google-search",
@@ -1200,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Trash",
           "package": "google-search",
@@ -1213,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Unread",
           "package": "google-search",
@@ -1222,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Unread",
           "package": "google-search",
@@ -1235,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "Updates",
           "package": "google-search",
@@ -1244,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "Updates",
           "package": "google-search",
@@ -1257,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "UserLabels",
           "package": "google-search",
@@ -1266,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "UserLabels",
           "package": "google-search",
@@ -1279,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "YellowBang",
           "package": "google-search",
@@ -1288,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "YellowBang",
           "package": "google-search",
@@ -1301,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Mail",
           "name": "YellowStar",
           "package": "google-search",
@@ -1310,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Mail",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Mail",
           "name": "YellowStar",
           "package": "google-search",
@@ -1324,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn orphan lives in this module,\n\u003c/p\u003e\u003cpre\u003e\n instance (\u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e f, \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e a) =\u003e \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eFree\u003c/a\u003e\u003c/code\u003e f a)\n\u003c/pre\u003e\u003cp\u003eso that we can write \u003ccode\u003e\"simple queries\" :: \u003ccode\u003e\u003ca\u003eSimple\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Simple",
           "package": "google-search",
@@ -1333,6 +1452,7 @@
         "index": {
           "description": "An orphan lives in this module instance Functor IsString IsString Free so that we can write simple queries Simple",
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Simple",
           "package": "google-search",
@@ -1347,6 +1467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe shape of Boolean expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "BooleanF",
           "package": "google-search",
@@ -1356,6 +1477,7 @@
         "index": {
           "description": "The shape of Boolean expressions",
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "BooleanF",
           "package": "google-search",
@@ -1370,6 +1492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe free Boolean-shaped monad. No refunds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "BooleanM",
           "package": "google-search",
@@ -1379,6 +1502,7 @@
         "index": {
           "description": "The free Boolean-shaped monad No refunds",
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "BooleanM",
           "package": "google-search",
@@ -1392,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Complement",
           "package": "google-search",
@@ -1400,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Complement",
           "package": "google-search",
@@ -1413,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "ComplementF",
           "package": "google-search",
@@ -1421,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "ComplementF",
           "package": "google-search",
@@ -1434,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Conjunct",
           "package": "google-search",
@@ -1442,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Conjunct",
           "package": "google-search",
@@ -1455,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "ConjunctF",
           "package": "google-search",
@@ -1463,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "ConjunctF",
           "package": "google-search",
@@ -1476,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Disjunct",
           "package": "google-search",
@@ -1484,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Disjunct",
           "package": "google-search",
@@ -1497,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "DisjunctF",
           "package": "google-search",
@@ -1505,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "DisjunctF",
           "package": "google-search",
@@ -1518,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Duration",
           "package": "google-search",
@@ -1526,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Duration",
           "package": "google-search",
@@ -1540,6 +1678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e with precedence, though ambiguous associativity.\n (But that's okay because Google doesn't mind which way you lean.)\n\u003c/p\u003e\u003cp\u003eNote that at Google \u003ccode\u003eOR\u003c/code\u003e binds tighter than conjunction, which is flipped\n in contrast to everywhere else. We take the analogous Haskell fixities\n when building search expressions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 11: atomic tokens or parenthesised expressions\n\u003c/li\u003e\u003cli\u003e 10: complementation, search operators (cf. Haskell prefix application)\n\u003c/li\u003e\u003cli\u003e 3: disjunction (\u003ccode\u003eOR\u003c/code\u003e or \u003ccode\u003e|\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e 2: conjunction (by juxtaposition)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "PrecBuilder",
           "package": "google-search",
@@ -1549,6 +1688,7 @@
         "index": {
           "description": "Builder with precedence though ambiguous associativity But that okay because Google doesn mind which way you lean Note that at Google OR binds tighter than conjunction which is flipped in contrast to everywhere else We take the analogous Haskell fixities when building search expressions atomic tokens or parenthesised expressions complementation search operators cf Haskell prefix application disjunction OR or conjunction by juxtaposition",
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "PrecBuilder",
           "package": "google-search",
@@ -1563,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a search expression using Google search syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "SearchBuilder",
           "package": "google-search",
@@ -1572,6 +1713,7 @@
         "index": {
           "description": "Render search expression using Google search syntax",
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "SearchBuilder",
           "package": "google-search",
@@ -1586,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple Boolean combinations of \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Simple",
           "package": "google-search",
@@ -1595,6 +1738,7 @@
         "index": {
           "description": "Simple Boolean combinations of Term",
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Simple",
           "package": "google-search",
@@ -1608,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Size",
           "package": "google-search",
@@ -1616,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Size",
           "package": "google-search",
@@ -1630,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigher-order version of \u003ccode\u003e\u003ca\u003eSearchBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "SyntaxBuilder",
           "package": "google-search",
@@ -1639,6 +1786,7 @@
         "index": {
           "description": "Higher-order version of SearchBuilder",
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "SyntaxBuilder",
           "package": "google-search",
@@ -1653,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFuzzy\u003c/a\u003e\u003c/code\u003e terms are grouped with parentheses (if necessary), while\n \u003ccode\u003e\u003ca\u003eExact\u003c/a\u003e\u003c/code\u003e terms are always &#8220;double-quoted&#8221;. The \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e instance\n defaults to \u003ccode\u003e\u003ca\u003eFuzzy\u003c/a\u003e\u003c/code\u003e, so just writing \u003ccode\u003e\"literal string\" &#8759; \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n is acceptable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Term",
           "package": "google-search",
@@ -1662,6 +1811,7 @@
         "index": {
           "description": "Fuzzy terms are grouped with parentheses if necessary while Exact terms are always double-quoted The IsString instance defaults to Fuzzy so just writing literal string Term Text is acceptable",
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Term",
           "package": "google-search",
@@ -1675,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "(/\\)",
           "package": "google-search",
@@ -1684,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "(/\\) /\\",
           "normalized": "a-\u003ea-\u003ea",
@@ -1698,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "(\\/)",
           "package": "google-search",
@@ -1707,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "(\\/) \\/",
           "normalized": "a-\u003ea-\u003ea",
@@ -1721,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "AndB",
           "package": "google-search",
@@ -1730,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "AndB",
           "package": "google-search",
@@ -1743,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Bytes",
           "package": "google-search",
@@ -1752,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Bytes",
           "package": "google-search",
@@ -1765,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Days",
           "package": "google-search",
@@ -1774,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Days",
           "package": "google-search",
@@ -1787,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Exact",
           "package": "google-search",
@@ -1796,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Exact",
           "package": "google-search",
@@ -1809,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Fuzzy",
           "package": "google-search",
@@ -1818,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Fuzzy",
           "package": "google-search",
@@ -1831,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "KBytes",
           "package": "google-search",
@@ -1840,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "KBytes",
           "package": "google-search",
@@ -1853,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "MBytes",
           "package": "google-search",
@@ -1862,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "MBytes",
           "package": "google-search",
@@ -1875,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Months",
           "package": "google-search",
@@ -1884,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Months",
           "package": "google-search",
@@ -1897,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "NotB",
           "package": "google-search",
@@ -1906,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "NotB",
           "package": "google-search",
@@ -1919,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "OrB",
           "package": "google-search",
@@ -1928,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "OrB",
           "package": "google-search",
@@ -1941,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "PrecBuilder",
           "package": "google-search",
@@ -1950,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "PrecBuilder",
           "package": "google-search",
@@ -1963,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "Years",
           "package": "google-search",
@@ -1972,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "Years",
           "package": "google-search",
@@ -1986,6 +2164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eandB\u003c/a\u003e\u003c/code\u003e is to \u003ccode\u003e\u003ca\u003e/\\\u003c/a\u003e\u003c/code\u003e what \u003ccode\u003e\u003ca\u003eand\u003c/a\u003e\u003c/code\u003e is to \u003ccode\u003e\u003ca\u003e&&\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "andB",
           "package": "google-search",
@@ -1996,6 +2175,7 @@
         "index": {
           "description": "andB is to what and is to",
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "andB",
           "normalized": "[a]-\u003ea",
@@ -2010,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "complementF",
           "package": "google-search",
@@ -2019,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "complementF",
           "normalized": "a-\u003eb a",
@@ -2033,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "conjunctF",
           "package": "google-search",
@@ -2042,6 +2225,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "conjunctF",
           "normalized": "a-\u003ea-\u003eb a",
@@ -2056,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "disjunctF",
           "package": "google-search",
@@ -2065,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "disjunctF",
           "normalized": "a-\u003ea-\u003eb a",
@@ -2079,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "notB",
           "package": "google-search",
@@ -2088,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "notB",
           "normalized": "a-\u003ea",
@@ -2103,6 +2291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eorB\u003c/a\u003e\u003c/code\u003e is to \u003ccode\u003e\u003ca\u003e\\/\u003c/a\u003e\u003c/code\u003e what \u003ccode\u003e\u003ca\u003eor\u003c/a\u003e\u003c/code\u003e is to \u003ccode\u003e\u003ca\u003e||\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "orB",
           "package": "google-search",
@@ -2113,6 +2302,7 @@
         "index": {
           "description": "orB is to what or is to",
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "orB",
           "normalized": "[a]-\u003ea",
@@ -2128,6 +2318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive me the precedence of the piece of syntax you're building, and I'll\n give you a function that parenthesise any sub-expressions when necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "parentheses",
           "package": "google-search",
@@ -2138,6 +2329,7 @@
         "index": {
           "description": "Give me the precedence of the piece of syntax you re building and ll give you function that parenthesise any sub-expressions when necessary",
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "parentheses",
           "normalized": "Int-\u003e((PrecBuilder-\u003eBuilder)-\u003eBuilder)-\u003ePrecBuilder",
@@ -2152,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "searchBuilder",
           "package": "google-search",
@@ -2161,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "searchBuilder",
           "normalized": "a-\u003ePrecBuilder",
@@ -2176,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:15 UTC 2014",
           "module": "Language.Google.Search.Simple",
           "name": "syntaxBuilder",
           "package": "google-search",
@@ -2185,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Language Google Search Simple",
+          "indexed": "2014-03-11T18:19:15",
           "module": "Language.Google.Search.Simple",
           "name": "syntaxBuilder",
           "normalized": "a PrecBuilder-\u003ePrecBuilder",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hpc"
+        "phrase": "hpc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatypes and file-access routines for the per-module (.mix)\n indexes used by Hpc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "Mix",
           "package": "hpc",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Datatypes and file-access routines for the per-module mix indexes used by Hpc",
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "Mix",
           "package": "hpc",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "BoxLabel",
           "package": "hpc",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "BoxLabel",
           "package": "hpc",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "CondBox",
           "package": "hpc",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "CondBox",
           "package": "hpc",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMix\u003c/a\u003e\u003c/code\u003e is the information about a modules static properties, like\n location of Tix's in a file.\n tab stops are the size of a tab in the provided line:colunm values.\n  * In GHC, this is 1 (a tab is just a character)\n  * With hpc-tracer, this is 8 (a tab represents several spaces).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "Mix",
           "package": "hpc",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Mix is the information about modules static properties like location of Tix in file tab stops are the size of tab in the provided line colunm values In GHC this is tab is just character With hpc-tracer this is tab represents several spaces",
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "Mix",
           "package": "hpc",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "MixEntry",
           "package": "hpc",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "MixEntry",
           "package": "hpc",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "MixEntryDom",
           "package": "hpc",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "MixEntryDom",
           "package": "hpc",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "BinBox",
           "package": "hpc",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "BinBox",
           "package": "hpc",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "CondBinBox",
           "package": "hpc",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "CondBinBox",
           "package": "hpc",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "ExpBox",
           "package": "hpc",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "ExpBox",
           "package": "hpc",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "GuardBinBox",
           "package": "hpc",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "GuardBinBox",
           "package": "hpc",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "LocalBox",
           "package": "hpc",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "LocalBox",
           "normalized": "LocalBox[String]",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "Mix",
           "package": "hpc",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "Mix",
           "normalized": "Mix FilePath UTCTime Hash Int[MixEntry]",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "QualBinBox",
           "package": "hpc",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "QualBinBox",
           "package": "hpc",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "TopLevelBox",
           "package": "hpc",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "TopLevelBox",
           "normalized": "TopLevelBox[String]",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "createMixEntryDom",
           "package": "hpc",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "createMixEntryDom",
           "normalized": "[(HpcPos,a)]-\u003e[MixEntryDom[a]]",
@@ -355,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate is mix file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "mixCreate",
           "package": "hpc",
@@ -364,6 +395,7 @@
         "index": {
           "description": "Create is mix file",
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "mixCreate",
           "normalized": "String-\u003eString-\u003eMix-\u003eIO()",
@@ -380,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a mix file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Mix",
           "name": "readMix",
           "package": "hpc",
@@ -389,6 +422,7 @@
         "index": {
           "description": "Read mix file",
           "hierarchy": "Trace Hpc Mix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Mix",
           "name": "readMix",
           "normalized": "[String]-\u003eEither String TixModule-\u003eIO Mix",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Reflect",
           "name": "Reflect",
           "package": "hpc",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Reflect",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Reflect",
           "name": "Reflect",
           "package": "hpc",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Reflect",
           "name": "clearTix",
           "package": "hpc",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Reflect",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Reflect",
           "name": "clearTix",
           "normalized": "IO()",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Reflect",
           "name": "examineTix",
           "package": "hpc",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Reflect",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Reflect",
           "name": "examineTix",
           "package": "hpc",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Reflect",
           "name": "updateTix",
           "package": "hpc",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Reflect",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Reflect",
           "name": "updateTix",
           "normalized": "Tix-\u003eIO()",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatypes and file-access routines for the tick data file \n used by HPC. (.tix)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Tix",
           "name": "Tix",
           "package": "hpc",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Datatypes and file-access routines for the tick data file used by HPC tix",
           "hierarchy": "Trace Hpc Tix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Tix",
           "name": "Tix",
           "package": "hpc",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Tix",
           "name": "Tix",
           "package": "hpc",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Tix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Tix",
           "name": "Tix",
           "package": "hpc",
@@ -539,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Tix",
           "name": "TixModule",
           "package": "hpc",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Tix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Tix",
           "name": "TixModule",
           "package": "hpc",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Tix",
           "name": "Tix",
           "package": "hpc",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Tix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Tix",
           "name": "Tix",
           "normalized": "Tix[TixModule]",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Tix",
           "name": "TixModule",
           "package": "hpc",
@@ -593,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Tix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Tix",
           "name": "TixModule",
           "normalized": "TixModule String Hash Int[Integer]",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Tix",
           "name": "getTixFileName",
           "package": "hpc",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Tix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Tix",
           "name": "getTixFileName",
           "normalized": "String-\u003eString",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Tix",
           "name": "readTix",
           "package": "hpc",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Tix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Tix",
           "name": "readTix",
           "normalized": "String-\u003eIO(Maybe Tix)",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Tix",
           "name": "tixModuleHash",
           "package": "hpc",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Tix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Tix",
           "name": "tixModuleHash",
           "normalized": "TixModule-\u003eHash",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Tix",
           "name": "tixModuleName",
           "package": "hpc",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Tix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Tix",
           "name": "tixModuleName",
           "normalized": "TixModule-\u003eString",
@@ -704,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Tix",
           "name": "tixModuleTixs",
           "package": "hpc",
@@ -713,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Tix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Tix",
           "name": "tixModuleTixs",
           "normalized": "TixModule-\u003e[Integer]",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Tix",
           "name": "writeTix",
           "package": "hpc",
@@ -737,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Tix",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Tix",
           "name": "writeTix",
           "normalized": "String-\u003eTix-\u003eIO()",
@@ -753,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMinor utilities for the HPC tools.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Util",
           "name": "Util",
           "package": "hpc",
@@ -762,6 +827,7 @@
         "index": {
           "description": "Minor utilities for the HPC tools",
           "hierarchy": "Trace Hpc Util",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Util",
           "name": "Util",
           "package": "hpc",
@@ -775,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Util",
           "name": "Hash",
           "package": "hpc",
@@ -783,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Util",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Util",
           "name": "Hash",
           "package": "hpc",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Util",
           "name": "HpcHash",
           "package": "hpc",
@@ -804,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Util",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Util",
           "name": "HpcHash",
           "package": "hpc",
@@ -818,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHpcPos\u003c/a\u003e\u003c/code\u003e is an Hpc local rendition of a Span. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Util",
           "name": "HpcPos",
           "package": "hpc",
@@ -827,6 +898,7 @@
         "index": {
           "description": "HpcPos is an Hpc local rendition of Span",
           "hierarchy": "Trace Hpc Util",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Util",
           "name": "HpcPos",
           "package": "hpc",
@@ -840,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Util",
           "name": "catchIO",
           "package": "hpc",
@@ -849,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Util",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Util",
           "name": "catchIO",
           "normalized": "IO a-\u003e(IOException-\u003eIO a)-\u003eIO a",
@@ -865,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efromHpcPos\u003c/a\u003e\u003c/code\u003e explodes the HpcPos into line:column-line:colunm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Util",
           "name": "fromHpcPos",
           "package": "hpc",
@@ -875,6 +950,7 @@
         "index": {
           "description": "fromHpcPos explodes the HpcPos into line column-line colunm",
           "hierarchy": "Trace Hpc Util",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Util",
           "name": "fromHpcPos",
           "normalized": "HpcPos-\u003e(Int,Int,Int,Int)",
@@ -891,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003easks the question, is the first argument inside the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Util",
           "name": "insideHpcPos",
           "package": "hpc",
@@ -901,6 +978,7 @@
         "index": {
           "description": "asks the question is the first argument inside the second argument",
           "hierarchy": "Trace Hpc Util",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Util",
           "name": "insideHpcPos",
           "normalized": "HpcPos-\u003eHpcPos-\u003eBool",
@@ -916,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Util",
           "name": "toHash",
           "package": "hpc",
@@ -925,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Trace Hpc Util",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Util",
           "name": "toHash",
           "normalized": "a-\u003eHash",
@@ -941,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etoHpcPos\u003c/a\u003e\u003c/code\u003e implodes to HpcPos, from line:column-line:colunm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:56 UTC 2014",
           "module": "Trace.Hpc.Util",
           "name": "toHpcPos",
           "package": "hpc",
@@ -951,6 +1032,7 @@
         "index": {
           "description": "toHpcPos implodes to HpcPos from line column-line colunm",
           "hierarchy": "Trace Hpc Util",
+          "indexed": "2014-03-11T18:44:56",
           "module": "Trace.Hpc.Util",
           "name": "toHpcPos",
           "normalized": "(Int,Int,Int,Int)-\u003eHpcPos",

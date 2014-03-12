@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-client-conduit"
+        "phrase": "http-client-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFrontend support for using http-client with conduit. Intended for use with\n higher-level libraries like http-conduit.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:16 UTC 2014",
           "module": "Network.HTTP.Client.Conduit",
           "name": "Conduit",
           "package": "http-client-conduit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Frontend support for using http-client with conduit Intended for use with higher-level libraries like http-conduit",
           "hierarchy": "Network HTTP Client Conduit",
+          "indexed": "2014-03-11T18:52:16",
           "module": "Network.HTTP.Client.Conduit",
           "name": "Conduit",
           "package": "http-client-conduit",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:16 UTC 2014",
           "module": "Network.HTTP.Client.Conduit",
           "name": "bodyReaderSource",
           "package": "http-client-conduit",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Conduit",
+          "indexed": "2014-03-11T18:52:16",
           "module": "Network.HTTP.Client.Conduit",
           "name": "bodyReaderSource",
           "normalized": "BodyReader-\u003eProducer a ByteString",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:16 UTC 2014",
           "module": "Network.HTTP.Client.Conduit",
           "name": "http",
           "package": "http-client-conduit",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Conduit",
+          "indexed": "2014-03-11T18:52:16",
           "module": "Network.HTTP.Client.Conduit",
           "name": "http",
           "normalized": "Request-\u003eManager-\u003ea(Response(ResumableSource a ByteString))",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:16 UTC 2014",
           "module": "Network.HTTP.Client.Conduit",
           "name": "requestBodySource",
           "package": "http-client-conduit",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Conduit",
+          "indexed": "2014-03-11T18:52:16",
           "module": "Network.HTTP.Client.Conduit",
           "name": "requestBodySource",
           "normalized": "Int-\u003eSource(ResourceT IO)ByteString-\u003eRequestBody",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:16 UTC 2014",
           "module": "Network.HTTP.Client.Conduit",
           "name": "requestBodySourceChunked",
           "package": "http-client-conduit",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Conduit",
+          "indexed": "2014-03-11T18:52:16",
           "module": "Network.HTTP.Client.Conduit",
           "name": "requestBodySourceChunked",
           "normalized": "Source(ResourceT IO)ByteString-\u003eRequestBody",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:16 UTC 2014",
           "module": "Network.HTTP.Client.Conduit",
           "name": "requestBodySourceChunkedIO",
           "package": "http-client-conduit",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Conduit",
+          "indexed": "2014-03-11T18:52:16",
           "module": "Network.HTTP.Client.Conduit",
           "name": "requestBodySourceChunkedIO",
           "normalized": "Source IO ByteString-\u003eRequestBody",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:16 UTC 2014",
           "module": "Network.HTTP.Client.Conduit",
           "name": "requestBodySourceIO",
           "package": "http-client-conduit",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Conduit",
+          "indexed": "2014-03-11T18:52:16",
           "module": "Network.HTTP.Client.Conduit",
           "name": "requestBodySourceIO",
           "normalized": "Int-\u003eSource IO ByteString-\u003eRequestBody",

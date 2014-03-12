@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-fancy"
+        "phrase": "network-fancy",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "Fancy",
           "package": "network-fancy",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "Fancy",
           "package": "network-fancy",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "Address",
           "package": "network-fancy",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "Address",
           "package": "network-fancy",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "HostName",
           "package": "network-fancy",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "HostName",
           "package": "network-fancy",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "Reverse",
           "package": "network-fancy",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "Reverse",
           "package": "network-fancy",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "ServerSpec",
           "package": "network-fancy",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "ServerSpec",
           "package": "network-fancy",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "Socket",
           "package": "network-fancy",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "Socket",
           "package": "network-fancy",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "StringLike",
           "package": "network-fancy",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "StringLike",
           "package": "network-fancy",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "Threading",
           "package": "network-fancy",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "Threading",
           "package": "network-fancy",
@@ -187,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name and port, either IPv4 or IPv6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "IP",
           "package": "network-fancy",
@@ -197,6 +214,7 @@
         "index": {
           "description": "Host name and port either IPv4 or IPv6",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "IP",
           "package": "network-fancy",
@@ -211,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name and port, only IPv4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "IPv4",
           "package": "network-fancy",
@@ -221,6 +240,7 @@
         "index": {
           "description": "Host name and port only IPv4",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "IPv4",
           "package": "network-fancy",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name and port, only IPv6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "IPv6",
           "package": "network-fancy",
@@ -245,6 +266,7 @@
         "index": {
           "description": "Host name and port only IPv6",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "IPv6",
           "package": "network-fancy",
@@ -259,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun each request inline inside the request loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "Inline",
           "package": "network-fancy",
@@ -269,6 +292,7 @@
         "index": {
           "description": "Run each request inline inside the request loop",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "Inline",
           "package": "network-fancy",
@@ -283,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve reverse names if possible for peers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "ReverseName",
           "package": "network-fancy",
@@ -293,6 +318,7 @@
         "index": {
           "description": "Resolve reverse names if possible for peers",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "ReverseName",
           "package": "network-fancy",
@@ -307,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse numeric addresses for peers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "ReverseNumeric",
           "package": "network-fancy",
@@ -317,6 +344,7 @@
         "index": {
           "description": "Use numeric addresses for peers",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "ReverseNumeric",
           "package": "network-fancy",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "ServerSpec",
           "package": "network-fancy",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "ServerSpec",
           "package": "network-fancy",
@@ -353,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun each request in a separate thread without blocking the server loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "Threaded",
           "package": "network-fancy",
@@ -363,6 +394,7 @@
         "index": {
           "description": "Run each request in separate thread without blocking the server loop",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "Threaded",
           "package": "network-fancy",
@@ -377,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal unix socket, not supported on Windows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "Unix",
           "package": "network-fancy",
@@ -387,6 +420,7 @@
         "index": {
           "description": "Local unix socket not supported on Windows",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "Unix",
           "package": "network-fancy",
@@ -401,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddress for the server. Use hostname \"\" to bind to all interfaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "address",
           "package": "network-fancy",
@@ -411,6 +446,7 @@
         "index": {
           "description": "Address for the server Use hostname to bind to all interfaces",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "address",
           "package": "network-fancy",
@@ -424,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the client connection automatically after the ServerFun finishes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "closeConnection",
           "package": "network-fancy",
@@ -434,6 +471,7 @@
         "index": {
           "description": "Close the client connection automatically after the ServerFun finishes",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "closeConnection",
           "package": "network-fancy",
@@ -448,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the socket specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "closeSocket",
           "package": "network-fancy",
@@ -458,6 +497,7 @@
         "index": {
           "description": "Close the socket specified",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "closeSocket",
           "normalized": "Socket-\u003eIO()",
@@ -474,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a datagram (udp) socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "connectDgram",
           "package": "network-fancy",
@@ -484,6 +525,7 @@
         "index": {
           "description": "Open datagram udp socket",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "connectDgram",
           "normalized": "Address-\u003eIO Socket",
@@ -500,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a stream (tcp) socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "connectStream",
           "package": "network-fancy",
@@ -510,6 +553,7 @@
         "index": {
           "description": "Open stream tcp socket",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "connectStream",
           "normalized": "Address-\u003eIO Handle",
@@ -526,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a datagram (udp) server. The function does not block, use sleepForever if that is desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "dgramServer",
           "package": "network-fancy",
@@ -535,6 +580,7 @@
         "index": {
           "description": "Run datagram udp server The function does not block use sleepForever if that is desired",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "dgramServer",
           "normalized": "ServerSpec-\u003e(a-\u003eAddress-\u003eIO[a])-\u003eIO[ThreadId]",
@@ -551,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current hostname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "getCurrentHost",
           "package": "network-fancy",
@@ -561,6 +608,7 @@
         "index": {
           "description": "Get the current hostname",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "getCurrentHost",
           "package": "network-fancy",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive one chunk with given maximum size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "recv",
           "package": "network-fancy",
@@ -585,6 +634,7 @@
         "index": {
           "description": "Receive one chunk with given maximum size",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "recv",
           "normalized": "Socket-\u003eInt-\u003eIO a",
@@ -600,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer size for receiving datagrams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "recvSize",
           "package": "network-fancy",
@@ -610,6 +661,7 @@
         "index": {
           "description": "Buffer size for receiving datagrams",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "recvSize",
           "package": "network-fancy",
@@ -624,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould the address of connecting clients be suplied numerically or as a name to server function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "reverseAddress",
           "package": "network-fancy",
@@ -634,6 +687,7 @@
         "index": {
           "description": "Should the address of connecting clients be suplied numerically or as name to server function",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "reverseAddress",
           "package": "network-fancy",
@@ -648,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend the string as one chunk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "send",
           "package": "network-fancy",
@@ -658,6 +713,7 @@
         "index": {
           "description": "Send the string as one chunk",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "send",
           "normalized": "Socket-\u003ea-\u003eIO()",
@@ -673,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault server specification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "serverSpec",
           "package": "network-fancy",
@@ -683,6 +740,7 @@
         "index": {
           "description": "Default server specification",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "serverSpec",
           "package": "network-fancy",
@@ -697,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleep forever. Useful after a server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "sleepForever",
           "package": "network-fancy",
@@ -707,6 +766,7 @@
         "index": {
           "description": "Sleep forever Useful after server",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "sleepForever",
           "normalized": "IO()",
@@ -723,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a stream (tcp) server. The function does not block, use sleepForever if that is desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "streamServer",
           "package": "network-fancy",
@@ -733,6 +794,7 @@
         "index": {
           "description": "Run stream tcp server The function does not block use sleepForever if that is desired",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "streamServer",
           "normalized": "ServerSpec-\u003e(Handle-\u003eAddress-\u003eIO())-\u003eIO[ThreadId]",
@@ -749,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle requests Inline or Threaded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "threading",
           "package": "network-fancy",
@@ -759,6 +822,7 @@
         "index": {
           "description": "Handle requests Inline or Threaded",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "threading",
           "package": "network-fancy",
@@ -772,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a datagram (udp) socket for the given block and close it afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "withDgram",
           "package": "network-fancy",
@@ -782,6 +847,7 @@
         "index": {
           "description": "Open datagram udp socket for the given block and close it afterwards",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "withDgram",
           "normalized": "Address-\u003e(Socket-\u003eIO a)-\u003eIO a",
@@ -798,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a stream (tcp) socket for the given block and close it afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:52 UTC 2014",
           "module": "Network.Fancy",
           "name": "withStream",
           "package": "network-fancy",
@@ -808,6 +875,7 @@
         "index": {
           "description": "Open stream tcp socket for the given block and close it afterwards",
           "hierarchy": "Network Fancy",
+          "indexed": "2014-03-11T19:27:52",
           "module": "Network.Fancy",
           "name": "withStream",
           "normalized": "Address-\u003e(Handle-\u003eIO a)-\u003eIO a",

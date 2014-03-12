@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "compdata"
+        "phrase": "compdata",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the notion of algebras and catamorphisms, and their\n generalizations to e.g. monadic versions and other (co)recursion schemes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "Algebra",
           "package": "compdata",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines the notion of algebras and catamorphisms and their generalizations to e.g monadic versions and other co recursion schemes",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "Algebra",
           "package": "compdata",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents an algebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier\n\u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "Alg",
           "package": "compdata",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This type represents an algebra over functor and carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "Alg",
           "package": "compdata",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic algebra. It is similar to \u003ccode\u003e\u003ca\u003eAlg\u003c/a\u003e\u003c/code\u003e but\nthe return type is monadic.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "AlgM",
           "package": "compdata",
@@ -74,6 +79,7 @@
         "index": {
           "description": "This type represents monadic algebra It is similar to Alg but the return type is monadic",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "AlgM",
           "package": "compdata",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a cv-algebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "CVAlg",
           "package": "compdata",
@@ -97,6 +104,7 @@
         "index": {
           "description": "This type represents cv-algebra over functor and carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "CVAlg",
           "package": "compdata",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic cv-algebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier\n  \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "CVAlgM",
           "package": "compdata",
@@ -120,6 +129,7 @@
         "index": {
           "description": "This type represents monadic cv-algebra over functor and carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "CVAlgM",
           "package": "compdata",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a cv-coalgebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "CVCoalg",
           "package": "compdata",
@@ -143,6 +154,7 @@
         "index": {
           "description": "This type represents cv-coalgebra over functor and carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "CVCoalg",
           "package": "compdata",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a generalised cv-coalgebra over a functor \u003ccode\u003ef\u003c/code\u003e and\n  carrier \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "CVCoalg'",
           "package": "compdata",
@@ -166,6 +179,7 @@
         "index": {
           "description": "This type represents generalised cv-coalgebra over functor and carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "CVCoalg'",
           "package": "compdata",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic cv-coalgebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier\n  \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "CVCoalgM",
           "package": "compdata",
@@ -189,6 +204,7 @@
         "index": {
           "description": "This type represents monadic cv-coalgebra over functor and carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "CVCoalgM",
           "package": "compdata",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a coalgebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "Coalg",
           "package": "compdata",
@@ -212,6 +229,7 @@
         "index": {
           "description": "This type represents coalgebra over functor and carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "Coalg",
           "package": "compdata",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic coalgebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier\n  \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "CoalgM",
           "package": "compdata",
@@ -235,6 +254,7 @@
         "index": {
           "description": "This type represents monadic coalgebra over functor and carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "CoalgM",
           "package": "compdata",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a context function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "CxtFun",
           "package": "compdata",
@@ -258,6 +279,7 @@
         "index": {
           "description": "This type represents context function",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "CxtFun",
           "package": "compdata",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic context function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "CxtFunM",
           "package": "compdata",
@@ -281,6 +304,7 @@
         "index": {
           "description": "This type represents monadic context function",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "CxtFunM",
           "package": "compdata",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a term homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "Hom",
           "package": "compdata",
@@ -304,6 +329,7 @@
         "index": {
           "description": "This type represents term homomorphism",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "Hom",
           "package": "compdata",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic term homomorphism.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "HomM",
           "package": "compdata",
@@ -327,6 +354,7 @@
         "index": {
           "description": "This type represents monadic term homomorphism",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "HomM",
           "package": "compdata",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic term homomorphism. It is similar to\n\u003ccode\u003e\u003ca\u003eHomM\u003c/a\u003e\u003c/code\u003e but has monadic values also in the domain. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "HomMD",
           "package": "compdata",
@@ -350,6 +379,7 @@
         "index": {
           "description": "This type represents monadic term homomorphism It is similar to HomM but has monadic values also in the domain",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "HomMD",
           "package": "compdata",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents an r-algebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "RAlg",
           "package": "compdata",
@@ -373,6 +404,7 @@
         "index": {
           "description": "This type represents an r-algebra over functor and carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "RAlg",
           "package": "compdata",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic r-algebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier\n  \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "RAlgM",
           "package": "compdata",
@@ -396,6 +429,7 @@
         "index": {
           "description": "This type represents monadic r-algebra over functor and carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "RAlgM",
           "package": "compdata",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents an r-coalgebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "RCoalg",
           "package": "compdata",
@@ -419,6 +454,7 @@
         "index": {
           "description": "This type represents an r-coalgebra over functor and carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "RCoalg",
           "package": "compdata",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic r-coalgebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier\n  \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "RCoalgM",
           "package": "compdata",
@@ -442,6 +479,7 @@
         "index": {
           "description": "This type represents monadic r-coalgebra over functor and carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "RCoalgM",
           "package": "compdata",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a signature function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "SigFun",
           "package": "compdata",
@@ -465,6 +504,7 @@
         "index": {
           "description": "This type represents signature function",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "SigFun",
           "package": "compdata",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic signature function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "SigFunM",
           "package": "compdata",
@@ -488,6 +529,7 @@
         "index": {
           "description": "This type represents monadic signature function",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "SigFunM",
           "package": "compdata",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic signature function.  It is similar\nto \u003ccode\u003e\u003ca\u003eSigFunM\u003c/a\u003e\u003c/code\u003e but has monadic values also in the domain. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "SigFunMD",
           "package": "compdata",
@@ -511,6 +554,7 @@
         "index": {
           "description": "This type represents monadic signature function It is similar to SigFunM but has monadic values also in the domain",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "SigFunMD",
           "package": "compdata",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a monadic algebra into an ordinary algebra with a monadic\n  carrier. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "algM",
           "package": "compdata",
@@ -535,6 +580,7 @@
         "index": {
           "description": "Convert monadic algebra into an ordinary algebra with monadic carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "algM",
           "normalized": "AlgM a b c-\u003eAlg b(a c)",
@@ -550,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an anamorphism from the given coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "ana",
           "package": "compdata",
@@ -560,6 +607,7 @@
         "index": {
           "description": "Construct an anamorphism from the given coalgebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "ana",
           "normalized": "Coalg a b-\u003eb-\u003eTerm a",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut fusion variant of \u003ccode\u003e\u003ca\u003eana\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "ana'",
           "package": "compdata",
@@ -585,6 +634,7 @@
         "index": {
           "description": "Shortcut fusion variant of ana",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "ana'",
           "normalized": "Coalg a b-\u003eb-\u003eTerm a",
@@ -600,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic anamorphism from the given monadic coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "anaM",
           "package": "compdata",
@@ -610,6 +661,7 @@
         "index": {
           "description": "Construct monadic anamorphism from the given monadic coalgebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "anaM",
           "normalized": "CoalgM a b c-\u003ec-\u003ea(Term b)",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an apomorphism from the given r-coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "apo",
           "package": "compdata",
@@ -635,6 +688,7 @@
         "index": {
           "description": "Construct an apomorphism from the given r-coalgebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "apo",
           "normalized": "RCoalg a b-\u003eb-\u003eTerm a",
@@ -650,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic apomorphism from the given monadic r-coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "apoM",
           "package": "compdata",
@@ -660,6 +715,7 @@
         "index": {
           "description": "Construct monadic apomorphism from the given monadic r-coalgebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "apoM",
           "normalized": "RCoalgM a b c-\u003ec-\u003ea(Term b)",
@@ -675,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a whole context into another context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "appCxt",
           "package": "compdata",
@@ -685,6 +742,7 @@
         "index": {
           "description": "This function applies whole context into another context",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "appCxt",
           "normalized": "Context a(Cxt b a c)-\u003eCxt b a c",
@@ -701,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies the given term homomorphism to a\nterm/context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "appHom",
           "package": "compdata",
@@ -711,6 +770,7 @@
         "index": {
           "description": "This function applies the given term homomorphism to term context",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "appHom",
           "normalized": "Hom a b-\u003eCxtFun a b",
@@ -727,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a term homomorphism recursively to a term/context. This is\n a top-down variant of \u003ccode\u003e\u003ca\u003eappHom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "appHom'",
           "package": "compdata",
@@ -737,6 +798,7 @@
         "index": {
           "description": "Apply term homomorphism recursively to term context This is top-down variant of appHom",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "appHom'",
           "normalized": "Hom a b-\u003eCxtFun a b",
@@ -753,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic term homomorphism recursively to a term/context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "appHomM",
           "package": "compdata",
@@ -763,6 +826,7 @@
         "index": {
           "description": "Apply monadic term homomorphism recursively to term context",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "appHomM",
           "normalized": "HomM a b c-\u003eCxtFunM a b c",
@@ -779,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic term homomorphism recursively to a\n term/context. This a top-down variant of \u003ccode\u003e\u003ca\u003eappHomM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "appHomM'",
           "package": "compdata",
@@ -789,6 +854,7 @@
         "index": {
           "description": "Apply monadic term homomorphism recursively to term context This top-down variant of appHomM",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "appHomM'",
           "normalized": "HomM a b c-\u003eCxtFunM a b c",
@@ -805,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a signature function to the given context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "appSigFun",
           "package": "compdata",
@@ -815,6 +882,7 @@
         "index": {
           "description": "This function applies signature function to the given context",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "appSigFun",
           "normalized": "SigFun a b-\u003eCxtFun a b",
@@ -831,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a signature function to the given\n context. This is a top-down variant of \u003ccode\u003e\u003ca\u003eappSigFun\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "appSigFun'",
           "package": "compdata",
@@ -841,6 +910,7 @@
         "index": {
           "description": "This function applies signature function to the given context This is top-down variant of appSigFun",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "appSigFun'",
           "normalized": "SigFun a b-\u003eCxtFun a b",
@@ -857,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a monadic signature function to the given context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "appSigFunM",
           "package": "compdata",
@@ -867,6 +938,7 @@
         "index": {
           "description": "This function applies monadic signature function to the given context",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "appSigFunM",
           "normalized": "SigFunM a b c-\u003eCxtFunM a b c",
@@ -883,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a monadic signature function to the given\n context. This is a top-down variant of \u003ccode\u003e\u003ca\u003eappSigFunM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "appSigFunM'",
           "package": "compdata",
@@ -893,6 +966,7 @@
         "index": {
           "description": "This function applies monadic signature function to the given context This is top-down variant of appSigFunM",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "appSigFunM'",
           "normalized": "SigFunM a b c-\u003eCxtFunM a b c",
@@ -909,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a signature function to the given context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "appSigFunMD",
           "package": "compdata",
@@ -919,6 +994,7 @@
         "index": {
           "description": "This function applies signature function to the given context",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "appSigFunMD",
           "normalized": "SigFunMD a b c-\u003eCxtFunM a b c",
@@ -935,6 +1011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a catamorphism from the given algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "cata",
           "package": "compdata",
@@ -945,6 +1022,7 @@
         "index": {
           "description": "Construct catamorphism from the given algebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "cata",
           "normalized": "Alg a b-\u003eTerm a-\u003eb",
@@ -960,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalisation of \u003ccode\u003e\u003ca\u003ecata\u003c/a\u003e\u003c/code\u003e from terms over \u003ccode\u003ef\u003c/code\u003e to contexts over \u003ccode\u003ef\u003c/code\u003e, where\n  the holes have the type of the algebra carrier. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "cata'",
           "package": "compdata",
@@ -970,6 +1049,7 @@
         "index": {
           "description": "generalisation of cata from terms over to contexts over where the holes have the type of the algebra carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "cata'",
           "normalized": "Alg a b-\u003eCxt c a b-\u003eb",
@@ -985,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic catamorphism from the given monadic algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "cataM",
           "package": "compdata",
@@ -995,6 +1076,7 @@
         "index": {
           "description": "Construct monadic catamorphism from the given monadic algebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "cataM",
           "normalized": "AlgM a b c-\u003eTerm b-\u003ea c",
@@ -1010,6 +1092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalisation of \u003ccode\u003e\u003ca\u003ecataM\u003c/a\u003e\u003c/code\u003e from terms over \u003ccode\u003ef\u003c/code\u003e to contexts over \u003ccode\u003ef\u003c/code\u003e, where\n  the holes have the type of the monadic algebra carrier. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "cataM'",
           "package": "compdata",
@@ -1020,6 +1103,7 @@
         "index": {
           "description": "generalisation of cataM from terms over to contexts over where the holes have the type of the monadic algebra carrier",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "cataM'",
           "normalized": "AlgM a b c-\u003eCxt d b c-\u003ea c",
@@ -1036,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose an algebra with a term homomorphism to get a new algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compAlg",
           "package": "compdata",
@@ -1046,6 +1131,7 @@
         "index": {
           "description": "Compose an algebra with term homomorphism to get new algebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compAlg",
           "normalized": "Alg a b-\u003eHom c a-\u003eAlg c b",
@@ -1062,6 +1148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a monadic algebra with a monadic term homomorphism to get a new\n  monadic algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compAlgM",
           "package": "compdata",
@@ -1072,6 +1159,7 @@
         "index": {
           "description": "Compose monadic algebra with monadic term homomorphism to get new monadic algebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compAlgM",
           "normalized": "AlgM a b c-\u003eHomM a d b-\u003eAlgM a d c",
@@ -1088,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a monadic algebra with a term homomorphism to get a new monadic\n  algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compAlgM'",
           "package": "compdata",
@@ -1098,6 +1187,7 @@
         "index": {
           "description": "Compose monadic algebra with term homomorphism to get new monadic algebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compAlgM'",
           "normalized": "AlgM a b c-\u003eHom d b-\u003eAlgM a d c",
@@ -1114,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes an algebra with a signature function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compAlgSigFun",
           "package": "compdata",
@@ -1124,6 +1215,7 @@
         "index": {
           "description": "This function composes an algebra with signature function",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compAlgSigFun",
           "normalized": "Alg a b-\u003eSigFun c a-\u003eAlg c b",
@@ -1140,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two monadic signature functions.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compAlgSigFunM",
           "package": "compdata",
@@ -1150,6 +1243,7 @@
         "index": {
           "description": "This function composes two monadic signature functions",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compAlgSigFunM",
           "normalized": "AlgM a b c-\u003eSigFunM a d b-\u003eAlgM a d c",
@@ -1166,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a term homomorphism with a cv-coalgebra to get a new cv-coalgebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compCVCoalg",
           "package": "compdata",
@@ -1176,6 +1271,7 @@
         "index": {
           "description": "Compose term homomorphism with cv-coalgebra to get new cv-coalgebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compCVCoalg",
           "normalized": "Hom a b-\u003eCVCoalg' a c-\u003eCVCoalg' b c",
@@ -1192,6 +1288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a term homomorphism with a coalgebra to get a cv-coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compCoalg",
           "package": "compdata",
@@ -1202,6 +1299,7 @@
         "index": {
           "description": "Compose term homomorphism with coalgebra to get cv-coalgebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compCoalg",
           "normalized": "Hom a b-\u003eCoalg a c-\u003eCVCoalg' b c",
@@ -1218,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two term homomorphisms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compHom",
           "package": "compdata",
@@ -1228,6 +1327,7 @@
         "index": {
           "description": "Compose two term homomorphisms",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compHom",
           "normalized": "Hom a b-\u003eHom c a-\u003eHom c b",
@@ -1244,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two monadic term homomorphisms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compHomM",
           "package": "compdata",
@@ -1254,6 +1355,7 @@
         "index": {
           "description": "Compose two monadic term homomorphisms",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compHomM",
           "normalized": "HomM a b c-\u003eHomM a d b-\u003eHomM a d c",
@@ -1270,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a term homomorphism with a signature function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compHomSigFun",
           "package": "compdata",
@@ -1280,6 +1383,7 @@
         "index": {
           "description": "This function composes term homomorphism with signature function",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compHomSigFun",
           "normalized": "Hom a b-\u003eSigFun c a-\u003eHom c b",
@@ -1296,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two monadic signature functions.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compHomSigFunM",
           "package": "compdata",
@@ -1306,6 +1411,7 @@
         "index": {
           "description": "This function composes two monadic signature functions",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compHomSigFunM",
           "normalized": "HomM a b c-\u003eSigFunM a d b-\u003eHomM a d c",
@@ -1322,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two signature functions. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compSigFun",
           "package": "compdata",
@@ -1332,6 +1439,7 @@
         "index": {
           "description": "This function composes two signature functions",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compSigFun",
           "normalized": "SigFun a b-\u003eSigFun c a-\u003eSigFun c b",
@@ -1348,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a signature function with a term\n homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compSigFunHom",
           "package": "compdata",
@@ -1358,6 +1467,7 @@
         "index": {
           "description": "This function composes signature function with term homomorphism",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compSigFunHom",
           "normalized": "SigFun a b-\u003eHom c a-\u003eHom c b",
@@ -1373,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compSigFunHomM",
           "package": "compdata",
@@ -1382,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compSigFunHomM",
           "normalized": "SigFunM a b c-\u003eHomM a d b-\u003eHomM a d c",
@@ -1398,6 +1510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two monadic signature functions.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "compSigFunM",
           "package": "compdata",
@@ -1408,6 +1521,7 @@
         "index": {
           "description": "This function composes two monadic signature functions",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "compSigFunM",
           "normalized": "SigFunM a b c-\u003eSigFunM a d b-\u003eSigFunM a d c",
@@ -1424,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a catamorphism for contexts over \u003ccode\u003ef\u003c/code\u003e with holes of type \u003ccode\u003ea\u003c/code\u003e, from\n  the given algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "free",
           "package": "compdata",
@@ -1434,6 +1549,7 @@
         "index": {
           "description": "Construct catamorphism for contexts over with holes of type from the given algebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "free",
           "normalized": "Alg a b-\u003e(c-\u003eb)-\u003eCxt d a c-\u003eb",
@@ -1449,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic catamorphism for contexts over \u003ccode\u003ef\u003c/code\u003e with holes of type\n  \u003ccode\u003ea\u003c/code\u003e, from the given monadic algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "freeM",
           "package": "compdata",
@@ -1459,6 +1576,7 @@
         "index": {
           "description": "Construct monadic catamorphism for contexts over with holes of type from the given monadic algebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "freeM",
           "normalized": "AlgM a b c-\u003e(d-\u003ea c)-\u003eCxt e b d-\u003ea c",
@@ -1474,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a futumorphism from the given cv-coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "futu",
           "package": "compdata",
@@ -1484,6 +1603,7 @@
         "index": {
           "description": "Construct futumorphism from the given cv-coalgebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "futu",
           "normalized": "CVCoalg a b-\u003eb-\u003eTerm a",
@@ -1499,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a futumorphism from the given generalised cv-coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "futu'",
           "package": "compdata",
@@ -1509,6 +1630,7 @@
         "index": {
           "description": "Construct futumorphism from the given generalised cv-coalgebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "futu'",
           "normalized": "CVCoalg' a b-\u003eb-\u003eTerm a",
@@ -1524,6 +1646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic futumorphism from the given monadic cv-coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "futuM",
           "package": "compdata",
@@ -1534,6 +1657,7 @@
         "index": {
           "description": "Construct monadic futumorphism from the given monadic cv-coalgebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "futuM",
           "normalized": "CVCoalgM a b c-\u003ec-\u003ea(Term b)",
@@ -1549,6 +1673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a histomorphism from the given cv-algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "histo",
           "package": "compdata",
@@ -1559,6 +1684,7 @@
         "index": {
           "description": "Construct histomorphism from the given cv-algebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "histo",
           "normalized": "CVAlg a b c-\u003eTerm a-\u003eb",
@@ -1574,6 +1700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic histomorphism from the given monadic cv-algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "histoM",
           "package": "compdata",
@@ -1584,6 +1711,7 @@
         "index": {
           "description": "Construct monadic histomorphism from the given monadic cv-algebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "histoM",
           "normalized": "CVAlgM a b c d-\u003eTerm b-\u003ea c",
@@ -1599,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts the given signature function to the canonical term\n homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "hom",
           "package": "compdata",
@@ -1609,6 +1738,7 @@
         "index": {
           "description": "Lifts the given signature function to the canonical term homomorphism",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "hom",
           "normalized": "SigFun a b-\u003eHom a b",
@@ -1624,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift the give monadic signature function to a monadic term homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "hom'",
           "package": "compdata",
@@ -1634,6 +1765,7 @@
         "index": {
           "description": "Lift the give monadic signature function to monadic term homomorphism",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "hom'",
           "normalized": "SigFunM a b c-\u003eHomM a b c",
@@ -1649,6 +1781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift the given signature function to a monadic term homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "homM",
           "package": "compdata",
@@ -1659,6 +1792,7 @@
         "index": {
           "description": "Lift the given signature function to monadic term homomorphism",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "homM",
           "normalized": "SigFunM a b c-\u003eHomM a b c",
@@ -1674,6 +1808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs the unique monadic homomorphism from the\ninitial term algebra to the given term algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "homMD",
           "package": "compdata",
@@ -1684,6 +1819,7 @@
         "index": {
           "description": "This function constructs the unique monadic homomorphism from the initial term algebra to the given term algebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "homMD",
           "normalized": "HomMD a b c-\u003eCxtFunM a b c",
@@ -1700,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a paramorphism from the given r-algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "para",
           "package": "compdata",
@@ -1710,6 +1847,7 @@
         "index": {
           "description": "Construct paramorphism from the given r-algebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "para",
           "normalized": "RAlg a b-\u003eTerm a-\u003eb",
@@ -1725,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic paramorphism from the given monadic r-algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "paraM",
           "package": "compdata",
@@ -1735,6 +1874,7 @@
         "index": {
           "description": "Construct monadic paramorphism from the given monadic r-algebra",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "paraM",
           "normalized": "RAlgM a b c-\u003eTerm b-\u003ea c",
@@ -1750,6 +1890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift the given signature function to a monadic signature function. Note that\n  term homomorphisms are instances of signature functions. Hence this function\n  also applies to term homomorphisms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Algebra",
           "name": "sigFunM",
           "package": "compdata",
@@ -1760,6 +1901,7 @@
         "index": {
           "description": "Lift the given signature function to monadic signature function Note that term homomorphisms are instances of signature functions Hence this function also applies to term homomorphisms",
           "hierarchy": "Data Comp Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Algebra",
           "name": "sigFunM",
           "normalized": "SigFun a b-\u003eSigFunM c a b",
@@ -1776,6 +1918,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines annotations on signatures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "Annotation",
           "package": "compdata",
@@ -1785,6 +1928,7 @@
         "index": {
           "description": "This module defines annotations on signatures",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "Annotation",
           "package": "compdata",
@@ -1799,6 +1943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type adds a constant product (annotation) to a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": ":&:",
           "package": "compdata",
@@ -1808,6 +1953,7 @@
         "index": {
           "description": "This data type adds constant product annotation to signature",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": ":&:",
           "package": "compdata",
@@ -1821,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal product of signatures (functors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": ":*:",
           "package": "compdata",
@@ -1830,6 +1977,7 @@
         "index": {
           "description": "Formal product of signatures functors",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": ":*:",
           "package": "compdata",
@@ -1843,6 +1991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class defines how to distribute an annotation over a sum of\nsignatures. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "DistAnn",
           "package": "compdata",
@@ -1852,6 +2001,7 @@
         "index": {
           "description": "This class defines how to distribute an annotation over sum of signatures",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "DistAnn",
           "package": "compdata",
@@ -1865,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "RemA",
           "package": "compdata",
@@ -1873,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "RemA",
           "package": "compdata",
@@ -1931,6 +2083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate each node of a term with a constant value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "ann",
           "package": "compdata",
@@ -1941,6 +2094,7 @@
         "index": {
           "description": "Annotate each node of term with constant value",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "ann",
           "normalized": "a-\u003eCxtFun b c",
@@ -1956,6 +2110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject an annotation over a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "injectA",
           "package": "compdata",
@@ -1966,6 +2121,7 @@
         "index": {
           "description": "Inject an annotation over signature",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "injectA",
           "normalized": "a-\u003eb c-\u003ed c",
@@ -1981,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a function with a domain constructed from a functor to a function\n with a domain constructed with the same functor, but with an additional\n annotation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "liftA",
           "package": "compdata",
@@ -1991,6 +2148,7 @@
         "index": {
           "description": "Transform function with domain constructed from functor to function with domain constructed with the same functor but with an additional annotation",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "liftA",
           "normalized": "(a b-\u003ec)-\u003ed b-\u003ec",
@@ -2006,6 +2164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a function with a domain constructed from a functor to a function\n  with a domain constructed with the same functor, but with an additional\n  annotation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "liftA'",
           "package": "compdata",
@@ -2016,6 +2175,7 @@
         "index": {
           "description": "Transform function with domain constructed from functor to function with domain constructed with the same functor but with an additional annotation",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "liftA'",
           "normalized": "(a b-\u003eCxt c a b)-\u003ed b-\u003eCxt c d b",
@@ -2032,6 +2192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function adds unique annotations to a term/context. Each\n node in the term/context is annotated with its path from the root,\n which is represented as an integer list. It is implemented as a\n DTT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "pathAnn",
           "package": "compdata",
@@ -2042,6 +2203,7 @@
         "index": {
           "description": "This function adds unique annotations to term context Each node in the term context is annotated with its path from the root which is represented as an integer list It is implemented as DTT",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "pathAnn",
           "normalized": "CxtFun a(a[Int])",
@@ -2058,6 +2220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is similar to \u003ccode\u003e\u003ca\u003eproject\u003c/a\u003e\u003c/code\u003e but applies to signatures\nwith an annotation which is then ignored. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "project'",
           "package": "compdata",
@@ -2068,6 +2231,7 @@
         "index": {
           "description": "This function is similar to project but applies to signatures with an annotation which is then ignored",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "project'",
           "normalized": "Cxt a b c-\u003eMaybe(d(Cxt a b c))",
@@ -2083,6 +2247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject an annotation from a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "projectA",
           "package": "compdata",
@@ -2093,6 +2258,7 @@
         "index": {
           "description": "Project an annotation from signature",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "projectA",
           "normalized": "a b-\u003e(c b,d)",
@@ -2108,6 +2274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a term homomorphism over signatures \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e to a term homomorphism\n over the same signatures, but extended with annotations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "propAnn",
           "package": "compdata",
@@ -2118,6 +2285,7 @@
         "index": {
           "description": "Lift term homomorphism over signatures and to term homomorphism over the same signatures but extended with annotations",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "propAnn",
           "normalized": "Hom a b-\u003eHom c d",
@@ -2134,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a top-down tree transducer over signatures \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e to a\n top-down tree transducer over the same signatures, but extended\n with annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "propAnnDown",
           "package": "compdata",
@@ -2144,6 +2313,7 @@
         "index": {
           "description": "Lift top-down tree transducer over signatures and to top-down tree transducer over the same signatures but extended with annotations",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "propAnnDown",
           "normalized": "DownTrans a b c-\u003eDownTrans d b e",
@@ -2160,6 +2330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a monadic term homomorphism over signatures \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e to a monadic\n  term homomorphism over the same signatures, but extended with annotations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "propAnnM",
           "package": "compdata",
@@ -2170,6 +2341,7 @@
         "index": {
           "description": "Lift monadic term homomorphism over signatures and to monadic term homomorphism over the same signatures but extended with annotations",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "propAnnM",
           "normalized": "HomM a b c-\u003eHomM a d e",
@@ -2186,6 +2358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a macro tree transducer over signatures \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e to a\n macro tree transducer over the same signatures, but extended\n with annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "propAnnMacro",
           "package": "compdata",
@@ -2196,6 +2369,7 @@
         "index": {
           "description": "Lift macro tree transducer over signatures and to macro tree transducer over the same signatures but extended with annotations",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "propAnnMacro",
           "normalized": "MacroTrans a b c-\u003eMacroTrans d b e",
@@ -2212,6 +2386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a macro tree transducer with regular look-ahead over\n signatures \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e to a macro tree transducer with regular\n look-ahead over the same signatures, but extended with annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "propAnnMacroLA",
           "package": "compdata",
@@ -2222,6 +2397,7 @@
         "index": {
           "description": "Lift macro tree transducer with regular look-ahead over signatures and to macro tree transducer with regular look-ahead over the same signatures but extended with annotations",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "propAnnMacroLA",
           "normalized": "MacroTransLA a b c d-\u003eMacroTransLA e b c f",
@@ -2238,6 +2414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a stateful term homomorphism over signatures \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e to\n a stateful term homomorphism over the same signatures, but extended with\n annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "propAnnQ",
           "package": "compdata",
@@ -2248,6 +2425,7 @@
         "index": {
           "description": "Lift stateful term homomorphism over signatures and to stateful term homomorphism over the same signatures but extended with annotations",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "propAnnQ",
           "normalized": "QHom a b c-\u003eQHom d b e",
@@ -2264,6 +2442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a bottom-up tree transducer over signatures \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e to a\n bottom-up tree transducer over the same signatures, but extended\n with annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "propAnnUp",
           "package": "compdata",
@@ -2274,6 +2453,7 @@
         "index": {
           "description": "Lift bottom-up tree transducer over signatures and to bottom-up tree transducer over the same signatures but extended with annotations",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "propAnnUp",
           "normalized": "UpTrans a b c-\u003eUpTrans d b e",
@@ -2290,6 +2470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove annotations from a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "remA",
           "package": "compdata",
@@ -2300,6 +2481,7 @@
         "index": {
           "description": "Remove annotations from signature",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "remA",
           "normalized": "a b-\u003ec b",
@@ -2315,6 +2497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the annotations from a term over a functor with annotations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Annotation",
           "name": "stripA",
           "package": "compdata",
@@ -2325,6 +2508,7 @@
         "index": {
           "description": "Strip the annotations from term over functor with annotations",
           "hierarchy": "Data Comp Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Annotation",
           "name": "stripA",
           "package": "compdata",
@@ -2338,6 +2522,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines generation of arbitrary values for signatures, which\n lifts to generating arbitrary terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Arbitrary",
           "name": "Arbitrary",
           "package": "compdata",
@@ -2347,6 +2532,7 @@
         "index": {
           "description": "This module defines generation of arbitrary values for signatures which lifts to generating arbitrary terms",
           "hierarchy": "Data Comp Arbitrary",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Arbitrary",
           "name": "Arbitrary",
           "package": "compdata",
@@ -2361,6 +2547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature arbitration. An instance \u003ccode\u003eArbitraryF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eArbitrary (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Arbitrary",
           "name": "ArbitraryF",
           "package": "compdata",
@@ -2370,6 +2557,7 @@
         "index": {
           "description": "Signature arbitration An instance ArbitraryF gives rise to an instance Arbitrary Term",
           "hierarchy": "Data Comp Arbitrary",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Arbitrary",
           "name": "ArbitraryF",
           "package": "compdata",
@@ -2383,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Arbitrary",
           "name": "arbitraryF",
           "package": "compdata",
@@ -2392,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Arbitrary",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Arbitrary",
           "name": "arbitraryF",
           "package": "compdata",
@@ -2404,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Arbitrary",
           "name": "arbitraryF'",
           "package": "compdata",
@@ -2413,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Arbitrary",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Arbitrary",
           "name": "arbitraryF'",
           "normalized": "[(Int,Gen(a b))]",
@@ -2428,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Arbitrary",
           "name": "shrinkF",
           "package": "compdata",
@@ -2437,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Arbitrary",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Arbitrary",
           "name": "shrinkF",
           "normalized": "a b-\u003e[a b]",
@@ -2451,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata.Product",
           "name": "Product",
           "package": "compdata",
@@ -2459,6 +2654,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Automata Product",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata.Product",
           "name": "Product",
           "package": "compdata",
@@ -2473,6 +2669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance \u003ccode\u003ea :\u003c b\u003c/code\u003e means that \u003ccode\u003ea\u003c/code\u003e is a component of \u003ccode\u003eb\u003c/code\u003e. \u003ccode\u003ea\u003c/code\u003e\n can be extracted from \u003ccode\u003eb\u003c/code\u003e via the method \u003ccode\u003e\u003ca\u003epr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata.Product",
           "name": ":\u003c",
           "package": "compdata",
@@ -2482,6 +2679,7 @@
         "index": {
           "description": "An instance means that is component of can be extracted from via the method pr",
           "hierarchy": "Data Comp Automata Product",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata.Product",
           "name": ":\u003c",
           "package": "compdata",
@@ -2494,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata.Product",
           "name": "pr",
           "package": "compdata",
@@ -2503,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Automata Product",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata.Product",
           "name": "pr",
           "normalized": "a-\u003eb",
@@ -2518,6 +2718,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines stateful term homomorphisms. This (slightly\n oxymoronic) notion extends per se stateless term homomorphisms with\n a state that is maintained separately by a bottom-up or top-down\n state transformation. Additionally, this module also provides\n combinators to run state transformations themselves.\n\u003c/p\u003e\u003cp\u003eLike regular term homomorphisms also stateful homomorphisms (as\n well as transducers) can be lifted to annotated signatures\n (cf. \u003ca\u003eData.Comp.Annotation\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eThe recursion schemes provided in this module are derived from tree\n automata. They allow for a higher degree of modularity and make it\n possible to apply fusion. The implementation is based on the paper\n \u003cem\u003eModular Tree Automata\u003c/em\u003e (Mathematics of Program Construction,\n 263-299, 2012, \u003ca\u003ehttp://dx.doi.org/10.1007/978-3-642-31113-0_14\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "Automata",
           "package": "compdata",
@@ -2527,6 +2728,7 @@
         "index": {
           "description": "This module defines stateful term homomorphisms This slightly oxymoronic notion extends per se stateless term homomorphisms with state that is maintained separately by bottom-up or top-down state transformation Additionally this module also provides combinators to run state transformations themselves Like regular term homomorphisms also stateful homomorphisms as well as transducers can be lifted to annotated signatures cf Data.Comp.Annotation The recursion schemes provided in this module are derived from tree automata They allow for higher degree of modularity and make it possible to apply fusion The implementation is based on the paper Modular Tree Automata Mathematics of Program Construction http dx.doi.org",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "Automata",
           "package": "compdata",
@@ -2541,6 +2743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents transition functions of generalised\n deterministic top-down tree acceptors (GDTAs) which have access\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "DDownState",
           "package": "compdata",
@@ -2550,6 +2753,7 @@
         "index": {
           "description": "This type represents transition functions of generalised deterministic top-down tree acceptors GDTAs which have access",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "DDownState",
           "package": "compdata",
@@ -2564,6 +2768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents transition functions of generalised\n deterministic bottom-up tree acceptors (GUTAs) which have access\n to an extended state space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "DUpState",
           "package": "compdata",
@@ -2573,6 +2778,7 @@
         "index": {
           "description": "This type represents transition functions of generalised deterministic bottom-up tree acceptors GUTAs which have access to an extended state space",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "DUpState",
           "package": "compdata",
@@ -2587,6 +2793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents transition functions of total, deterministic\n top-down tree acceptors (DTAs).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "DownState",
           "package": "compdata",
@@ -2596,6 +2803,7 @@
         "index": {
           "description": "This type represents transition functions of total deterministic top-down tree acceptors DTAs",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "DownState",
           "package": "compdata",
@@ -2610,6 +2818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents transition functions of total deterministic\n top-down tree transducers (DTTs).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "DownTrans",
           "package": "compdata",
@@ -2619,6 +2828,7 @@
         "index": {
           "description": "This type represents transition functions of total deterministic top-down tree transducers DTTs",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "DownTrans",
           "package": "compdata",
@@ -2633,6 +2843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a variant of the \u003ccode\u003e\u003ca\u003eDownTrans\u003c/a\u003e\u003c/code\u003e type that makes it easier to\n define DTTs as it avoids the explicit use of \u003ccode\u003e\u003ca\u003eHole\u003c/a\u003e\u003c/code\u003e to inject\n placeholders into the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "DownTrans'",
           "package": "compdata",
@@ -2642,6 +2853,7 @@
         "index": {
           "description": "This is variant of the DownTrans type that makes it easier to define DTTs as it avoids the explicit use of Hole to inject placeholders into the result",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "DownTrans'",
           "package": "compdata",
@@ -2656,6 +2868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents stateful term homomorphisms. Stateful term\n homomorphisms have access to a state that is provided (separately)\n by a bottom-up or top-down state transformation function (or both).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "QHom",
           "package": "compdata",
@@ -2665,6 +2878,7 @@
         "index": {
           "description": "This type represents stateful term homomorphisms Stateful term homomorphisms have access to state that is provided separately by bottom-up or top-down state transformation function or both",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "QHom",
           "package": "compdata",
@@ -2679,6 +2893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents transition functions of total, deterministic\n bottom-up tree acceptors (UTAs).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "UpState",
           "package": "compdata",
@@ -2688,6 +2903,7 @@
         "index": {
           "description": "This type represents transition functions of total deterministic bottom-up tree acceptors UTAs",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "UpState",
           "package": "compdata",
@@ -2702,6 +2918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents transition functions of total, deterministic\n bottom-up tree transducers (UTTs).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "UpTrans",
           "package": "compdata",
@@ -2711,6 +2928,7 @@
         "index": {
           "description": "This type represents transition functions of total deterministic bottom-up tree transducers UTTs",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "UpTrans",
           "package": "compdata",
@@ -2725,6 +2943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a variant of the \u003ccode\u003e\u003ca\u003eUpTrans\u003c/a\u003e\u003c/code\u003e type that makes it easier to\n define UTTs as it avoids the explicit use of \u003ccode\u003e\u003ca\u003eHole\u003c/a\u003e\u003c/code\u003e to inject\n placeholders into the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "UpTrans'",
           "package": "compdata",
@@ -2734,6 +2953,7 @@
         "index": {
           "description": "This is variant of the UpTrans type that makes it easier to define UTTs as it avoids the explicit use of Hole to inject placeholders into the result",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "UpTrans'",
           "package": "compdata",
@@ -2748,6 +2968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis operator constructs a singleton mapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "(|-\u003e)",
           "package": "compdata",
@@ -2758,6 +2979,7 @@
         "index": {
           "description": "This operator constructs singleton mapping",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "(|-\u003e) |-\u003e",
           "normalized": "a-\u003eb-\u003eMap a b",
@@ -2773,6 +2995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleft-biased union of two mappings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "(&)",
           "package": "compdata",
@@ -2783,6 +3006,7 @@
         "index": {
           "description": "left-biased union of two mappings",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "(&) &",
           "normalized": "Map a b-\u003eMap a b-\u003eMap a b",
@@ -2797,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "(\u003c*\u003e)",
           "package": "compdata",
@@ -2806,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "DUpState a b c-\u003eDUpState a b d-\u003eDUpState a b(c,d)",
@@ -2821,6 +3047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a synonym for \u003ccode\u003e\u003ca\u003eprodDDownState\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "(\u003e*\u003c)",
           "package": "compdata",
@@ -2831,6 +3058,7 @@
         "index": {
           "description": "This is synonym for prodDDownState",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "(\u003e*\u003c) \u003e*\u003c",
           "normalized": "DDownState a b c-\u003eDDownState a b d-\u003eDDownState a b(c,d)",
@@ -2846,6 +3074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function provides access to components of the state from\n \u003ca\u003eabove\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "above",
           "package": "compdata",
@@ -2856,6 +3085,7 @@
         "index": {
           "description": "This function provides access to components of the state from above",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "above",
           "package": "compdata",
@@ -2869,6 +3099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function provides access to components of the states from\n \u003ca\u003ebelow\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "below",
           "package": "compdata",
@@ -2879,6 +3110,7 @@
         "index": {
           "description": "This function provides access to components of the states from below",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "below",
           "normalized": "a-\u003eb",
@@ -2894,6 +3126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a UTT with an algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "compAlgUpTrans",
           "package": "compdata",
@@ -2904,6 +3137,7 @@
         "index": {
           "description": "This function composes UTT with an algebra",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "compAlgUpTrans",
           "normalized": "Alg a b-\u003eUpTrans c d a-\u003eAlg c(d,b)",
@@ -2920,6 +3154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two DTTs. (see W.C. Rounds /Mappings and\n grammars on trees/, Theorem 2.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "compDownTrans",
           "package": "compdata",
@@ -2930,6 +3165,7 @@
         "index": {
           "description": "This function composes two DTTs see W.C Rounds Mappings and grammars on trees Theorem",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "compDownTrans",
           "normalized": "DownTrans a b c-\u003eDownTrans d e a-\u003eDownTrans d(e,b)c",
@@ -2946,6 +3182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a DTT after a homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "compDownTransHom",
           "package": "compdata",
@@ -2956,6 +3193,7 @@
         "index": {
           "description": "This function composes DTT after homomorphism",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "compDownTransHom",
           "normalized": "DownTrans a b c-\u003eHom d a-\u003eDownTrans d b c",
@@ -2972,6 +3210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a DTT after a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "compDownTransSig",
           "package": "compdata",
@@ -2982,6 +3221,7 @@
         "index": {
           "description": "This function composes DTT after function",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "compDownTransSig",
           "normalized": "DownTrans a b c-\u003eSigFun d a-\u003eDownTrans d b c",
@@ -2998,6 +3238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a homomorphism after a DTT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "compHomDownTrans",
           "package": "compdata",
@@ -3008,6 +3249,7 @@
         "index": {
           "description": "This function composes homomorphism after DTT",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "compHomDownTrans",
           "normalized": "Hom a b-\u003eDownTrans c d a-\u003eDownTrans c d b",
@@ -3024,6 +3266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator composes a UTT followed by a homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "compHomUpTrans",
           "package": "compdata",
@@ -3034,6 +3277,7 @@
         "index": {
           "description": "This combinator composes UTT followed by homomorphism",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "compHomUpTrans",
           "normalized": "Hom a b-\u003eUpTrans c d a-\u003eUpTrans c d b",
@@ -3050,6 +3294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a signature function after a DTT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "compSigDownTrans",
           "package": "compdata",
@@ -3060,6 +3305,7 @@
         "index": {
           "description": "This function composes signature function after DTT",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "compSigDownTrans",
           "normalized": "SigFun a b-\u003eDownTrans c d a-\u003eDownTrans c d b",
@@ -3076,6 +3322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator composes a UTT followed by a signature function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "compSigUpTrans",
           "package": "compdata",
@@ -3086,6 +3333,7 @@
         "index": {
           "description": "This combinator composes UTT followed by signature function",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "compSigUpTrans",
           "normalized": "SigFun a b-\u003eUpTrans c d a-\u003eUpTrans c d b",
@@ -3102,6 +3350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two UTTs. (see TATA, Theorem 6.4.5)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "compUpTrans",
           "package": "compdata",
@@ -3112,6 +3361,7 @@
         "index": {
           "description": "This function composes two UTTs see TATA Theorem",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "compUpTrans",
           "normalized": "UpTrans a b c-\u003eUpTrans d e a-\u003eUpTrans d(e,b)c",
@@ -3128,6 +3378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator composes a homomorphism followed by a UTT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "compUpTransHom",
           "package": "compdata",
@@ -3138,6 +3389,7 @@
         "index": {
           "description": "This combinator composes homomorphism followed by UTT",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "compUpTransHom",
           "normalized": "UpTrans a b c-\u003eHom d a-\u003eUpTrans d b c",
@@ -3154,6 +3406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator composes a signature function followed by a UTT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "compUpTransSig",
           "package": "compdata",
@@ -3164,6 +3417,7 @@
         "index": {
           "description": "This combinator composes signature function followed by UTT",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "compUpTransSig",
           "normalized": "UpTrans a b c-\u003eSigFun d a-\u003eUpTrans d b c",
@@ -3180,6 +3434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator turns an arbitrary DTA into a GDTA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "dDownState",
           "package": "compdata",
@@ -3190,6 +3445,7 @@
         "index": {
           "description": "This combinator turns an arbitrary DTA into GDTA",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "dDownState",
           "normalized": "DownState a b-\u003eDDownState a c b",
@@ -3206,6 +3462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator turns an arbitrary UTA into a GUTA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "dUpState",
           "package": "compdata",
@@ -3216,6 +3473,7 @@
         "index": {
           "description": "This combinator turns an arbitrary UTA into GUTA",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "dUpState",
           "normalized": "UpState a b-\u003eDUpState a c b",
@@ -3232,6 +3490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator turns a GDTA with the smallest possible state\n space into a DTA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "downState",
           "package": "compdata",
@@ -3242,6 +3501,7 @@
         "index": {
           "description": "This combinator turns GDTA with the smallest possible state space into DTA",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "downState",
           "normalized": "DDownState a b b-\u003eDownState a b",
@@ -3258,6 +3518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs a DTT from a given stateful term--\n homomorphism with the state propagated by the given DTA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "downTrans",
           "package": "compdata",
@@ -3268,6 +3529,7 @@
         "index": {
           "description": "This function constructs DTT from given stateful term homomorphism with the state propagated by the given DTA",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "downTrans",
           "normalized": "DownState a b-\u003eQHom a b c-\u003eDownTrans a b c",
@@ -3284,6 +3546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function turns a DTT defined using the type \u003ccode\u003e\u003ca\u003eDownTrans'\u003c/a\u003e\u003c/code\u003e in\n to the canonical form of type \u003ccode\u003e\u003ca\u003eDownTrans\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "mkDownTrans",
           "package": "compdata",
@@ -3294,6 +3557,7 @@
         "index": {
           "description": "This function turns DTT defined using the type DownTrans in to the canonical form of type DownTrans",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "mkDownTrans",
           "normalized": "DownTrans' a b c-\u003eDownTrans a b c",
@@ -3310,6 +3574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function turns a UTT defined using the type \u003ccode\u003e\u003ca\u003eUpTrans'\u003c/a\u003e\u003c/code\u003e in\n to the canonical form of type \u003ccode\u003e\u003ca\u003eUpTrans\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "mkUpTrans",
           "package": "compdata",
@@ -3320,6 +3585,7 @@
         "index": {
           "description": "This function turns UTT defined using the type UpTrans in to the canonical form of type UpTrans",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "mkUpTrans",
           "normalized": "UpTrans' a b c-\u003eUpTrans a b c",
@@ -3336,6 +3602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the empty mapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "o",
           "package": "compdata",
@@ -3346,6 +3613,7 @@
         "index": {
           "description": "This is the empty mapping",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "o",
           "package": "compdata",
@@ -3359,6 +3627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator constructs the product of two dependant top-down\n state transformations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "prodDDownState",
           "package": "compdata",
@@ -3369,6 +3638,7 @@
         "index": {
           "description": "This combinator constructs the product of two dependant top-down state transformations",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "prodDDownState",
           "normalized": "DDownState a b c-\u003eDDownState a b d-\u003eDDownState a b(c,d)",
@@ -3385,6 +3655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator constructs the product of two GUTA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "prodDUpState",
           "package": "compdata",
@@ -3395,6 +3666,7 @@
         "index": {
           "description": "This combinator constructs the product of two GUTA",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "prodDUpState",
           "normalized": "DUpState a b c-\u003eDUpState a b d-\u003eDUpState a b(c,d)",
@@ -3411,6 +3683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs the product DTA of the given two DTAs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "prodDownState",
           "package": "compdata",
@@ -3421,6 +3694,7 @@
         "index": {
           "description": "This function constructs the product DTA of the given two DTAs",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "prodDownState",
           "normalized": "DownState a b-\u003eDownState a c-\u003eDownState a(b,c)",
@@ -3437,6 +3711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function combines the product UTA of the two given UTAs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "prodUpState",
           "package": "compdata",
@@ -3447,6 +3722,7 @@
         "index": {
           "description": "This function combines the product UTA of the two given UTAs",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "prodUpState",
           "normalized": "UpState a b-\u003eUpState a c-\u003eUpState a(b,c)",
@@ -3463,6 +3739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function turns a stateful homomorphism with a fully\n polymorphic state type into a (stateless) homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "pureHom",
           "package": "compdata",
@@ -3473,6 +3750,7 @@
         "index": {
           "description": "This function turns stateful homomorphism with fully polymorphic state type into stateless homomorphism",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "pureHom",
           "normalized": "(a b QHom c d e)-\u003eHom c e",
@@ -3489,6 +3767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator combines a bottom-up and a top-down state\n transformations. Both state transformations can depend mutually\n recursive on each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "runDState",
           "package": "compdata",
@@ -3499,6 +3778,7 @@
         "index": {
           "description": "This combinator combines bottom-up and top-down state transformations Both state transformations can depend mutually recursive on each other",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "runDState",
           "normalized": "DUpState a(b,c)b-\u003eDDownState a(b,c)c-\u003ec-\u003eTerm a-\u003eb",
@@ -3515,6 +3795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator runs a GUTA on a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "runDUpState",
           "package": "compdata",
@@ -3525,6 +3806,7 @@
         "index": {
           "description": "This combinator runs GUTA on term",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "runDUpState",
           "normalized": "DUpState a b b-\u003eTerm a-\u003eb",
@@ -3541,6 +3823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a given stateful term homomorphism with a\n state space propagated by the given DTA to a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "runDownHom",
           "package": "compdata",
@@ -3551,6 +3834,7 @@
         "index": {
           "description": "This function applies given stateful term homomorphism with state space propagated by the given DTA to term",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "runDownHom",
           "normalized": "DownState a b-\u003eQHom a b c-\u003eb-\u003eTerm a-\u003eTerm c",
@@ -3567,6 +3851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThsis function runs the given DTT on the given tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "runDownTrans",
           "package": "compdata",
@@ -3577,6 +3862,7 @@
         "index": {
           "description": "Thsis function runs the given DTT on the given tree",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "runDownTrans",
           "normalized": "DownTrans a b c-\u003eb-\u003eCxt d a e-\u003eCxt d c e",
@@ -3593,6 +3879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator runs a stateful term homomorphisms with a state\n space produced both on a bottom-up and a top-down state\n transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "runQHom",
           "package": "compdata",
@@ -3603,6 +3890,7 @@
         "index": {
           "description": "This combinator runs stateful term homomorphisms with state space produced both on bottom-up and top-down state transformation",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "runQHom",
           "normalized": "DUpState a(b,c)b-\u003eDDownState a(b,c)c-\u003eQHom a(b,c)d-\u003ec-\u003eTerm a-\u003e(b,Term d)",
@@ -3619,6 +3907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a given stateful term homomorphism with\n a state space propagated by the given UTA to a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "runUpHom",
           "package": "compdata",
@@ -3629,6 +3918,7 @@
         "index": {
           "description": "This function applies given stateful term homomorphism with state space propagated by the given UTA to term",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "runUpHom",
           "normalized": "UpState a b-\u003eQHom a b c-\u003eTerm a-\u003eTerm c",
@@ -3645,6 +3935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a variant of \u003ccode\u003e\u003ca\u003erunUpHom\u003c/a\u003e\u003c/code\u003e that also returns the final state\n of the run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "runUpHomSt",
           "package": "compdata",
@@ -3655,6 +3946,7 @@
         "index": {
           "description": "This is variant of runUpHom that also returns the final state of the run",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "runUpHomSt",
           "normalized": "UpState a b-\u003eQHom a b c-\u003eTerm a-\u003e(b,Term c)",
@@ -3671,6 +3963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator runs the given UTA on a term returning the final\n state of the run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "runUpState",
           "package": "compdata",
@@ -3681,6 +3974,7 @@
         "index": {
           "description": "This combinator runs the given UTA on term returning the final state of the run",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "runUpState",
           "normalized": "UpState a b-\u003eTerm a-\u003eb",
@@ -3697,6 +3991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function runs the given UTT on the given term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "runUpTrans",
           "package": "compdata",
@@ -3707,6 +4002,7 @@
         "index": {
           "description": "This function runs the given UTT on the given term",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "runUpTrans",
           "normalized": "UpTrans a b c-\u003eTerm a-\u003eTerm c",
@@ -3723,6 +4019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the state space of the DTA using the given isomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "tagDownState",
           "package": "compdata",
@@ -3733,6 +4030,7 @@
         "index": {
           "description": "Changes the state space of the DTA using the given isomorphism",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "tagDownState",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eDownState c a-\u003eDownState c b",
@@ -3749,6 +4047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the state space of the UTA using the given isomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "tagUpState",
           "package": "compdata",
@@ -3759,6 +4058,7 @@
         "index": {
           "description": "Changes the state space of the UTA using the given isomorphism",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "tagUpState",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eUpState c a-\u003eUpState c b",
@@ -3775,6 +4075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator turns a GUTA with the smallest possible state\n space into a UTA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "upState",
           "package": "compdata",
@@ -3785,6 +4086,7 @@
         "index": {
           "description": "This combinator turns GUTA with the smallest possible state space into UTA",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "upState",
           "normalized": "DUpState a b b-\u003eUpState a b",
@@ -3801,6 +4103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs a UTT from a given stateful term\n homomorphism with the state propagated by the given UTA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Automata",
           "name": "upTrans",
           "package": "compdata",
@@ -3811,6 +4114,7 @@
         "index": {
           "description": "This function constructs UTT from given stateful term homomorphism with the state propagated by the given UTA",
           "hierarchy": "Data Comp Automata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Automata",
           "name": "upTrans",
           "normalized": "UpState a b-\u003eQHom a b c-\u003eUpTrans a b c",
@@ -3827,6 +4131,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements the decomposition of terms into function\n symbols and arguments resp. variables.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Decompose",
           "name": "Decompose",
           "package": "compdata",
@@ -3836,6 +4141,7 @@
         "index": {
           "description": "This module implements the decomposition of terms into function symbols and arguments resp variables",
           "hierarchy": "Data Comp Decompose",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Decompose",
           "name": "Decompose",
           "package": "compdata",
@@ -3850,6 +4156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents decompositions of functorial values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Decompose",
           "name": "Decomp",
           "package": "compdata",
@@ -3859,6 +4166,7 @@
         "index": {
           "description": "This type represents decompositions of functorial values",
           "hierarchy": "Data Comp Decompose",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Decompose",
           "name": "Decomp",
           "package": "compdata",
@@ -3873,6 +4181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents decompositions of terms.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Decompose",
           "name": "DecompTerm",
           "package": "compdata",
@@ -3882,6 +4191,7 @@
         "index": {
           "description": "This type represents decompositions of terms",
           "hierarchy": "Data Comp Decompose",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Decompose",
           "name": "DecompTerm",
           "package": "compdata",
@@ -3896,6 +4206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class specifies the decomposability of a functorial value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Decompose",
           "name": "Decompose",
           "package": "compdata",
@@ -3905,6 +4216,7 @@
         "index": {
           "description": "This class specifies the decomposability of functorial value",
           "hierarchy": "Data Comp Decompose",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Decompose",
           "name": "Decompose",
           "package": "compdata",
@@ -3918,6 +4230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Decompose",
           "name": "Fun",
           "package": "compdata",
@@ -3927,6 +4240,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Decompose",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Decompose",
           "name": "Fun",
           "normalized": "Fun(Const a)[b]",
@@ -3942,6 +4256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Decompose",
           "name": "Var",
           "package": "compdata",
@@ -3951,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Decompose",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Decompose",
           "name": "Var",
           "package": "compdata",
@@ -3965,6 +4281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes the arguments of a functorial value.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Decompose",
           "name": "arguments",
           "package": "compdata",
@@ -3975,6 +4292,7 @@
         "index": {
           "description": "This function computes the arguments of functorial value",
           "hierarchy": "Data Comp Decompose",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Decompose",
           "name": "arguments",
           "normalized": "a b-\u003e[b]",
@@ -3990,6 +4308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function decomposes a functorial value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Decompose",
           "name": "decomp",
           "package": "compdata",
@@ -4000,6 +4319,7 @@
         "index": {
           "description": "This function decomposes functorial value",
           "hierarchy": "Data Comp Decompose",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Decompose",
           "name": "decomp",
           "normalized": "a b-\u003eDecomp a c b",
@@ -4015,6 +4335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function decomposes a term. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Decompose",
           "name": "decompose",
           "package": "compdata",
@@ -4025,6 +4346,7 @@
         "index": {
           "description": "This function decomposes term",
           "hierarchy": "Data Comp Decompose",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Decompose",
           "name": "decompose",
           "normalized": "Term a-\u003eDecompTerm a b",
@@ -4040,6 +4362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes the structure of a functorial value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Decompose",
           "name": "structure",
           "package": "compdata",
@@ -4050,6 +4373,7 @@
         "index": {
           "description": "This function computes the structure of functorial value",
           "hierarchy": "Data Comp Decompose",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Decompose",
           "name": "structure",
           "normalized": "a b-\u003eConst a",
@@ -4065,6 +4389,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines full evaluation of signatures, which lifts to full\n evaluation of terms and contexts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.DeepSeq",
           "name": "DeepSeq",
           "package": "compdata",
@@ -4074,6 +4399,7 @@
         "index": {
           "description": "This module defines full evaluation of signatures which lifts to full evaluation of terms and contexts",
           "hierarchy": "Data Comp DeepSeq",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.DeepSeq",
           "name": "DeepSeq",
           "package": "compdata",
@@ -4088,6 +4414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature normal form. An instance \u003ccode\u003eNFDataF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eNFData (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.DeepSeq",
           "name": "NFDataF",
           "package": "compdata",
@@ -4097,6 +4424,7 @@
         "index": {
           "description": "Signature normal form An instance NFDataF gives rise to an instance NFData Term",
           "hierarchy": "Data Comp DeepSeq",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.DeepSeq",
           "name": "NFDataF",
           "package": "compdata",
@@ -4110,6 +4438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.DeepSeq",
           "name": "rnfF",
           "package": "compdata",
@@ -4119,6 +4448,7 @@
         },
         "index": {
           "hierarchy": "Data Comp DeepSeq",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.DeepSeq",
           "name": "rnfF",
           "normalized": "a b-\u003e()",
@@ -4134,6 +4464,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functionality for automatically deriving boilerplate\n code using Template Haskell. Examples include instances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "Derive",
           "package": "compdata",
@@ -4143,6 +4474,7 @@
         "index": {
           "description": "This module contains functionality for automatically deriving boilerplate code using Template Haskell Examples include instances of Functor Foldable and Traversable",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "Derive",
           "package": "compdata",
@@ -4157,6 +4489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom generation and shrinking of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "Arbitrary",
           "package": "compdata",
@@ -4165,6 +4498,7 @@
         "index": {
           "description": "Random generation and shrinking of values",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "Arbitrary",
           "package": "compdata",
@@ -4179,6 +4513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature arbitration. An instance \u003ccode\u003eArbitraryF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eArbitrary (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "ArbitraryF",
           "package": "compdata",
@@ -4188,6 +4523,7 @@
         "index": {
           "description": "Signature arbitration An instance ArbitraryF gives rise to an instance Arbitrary Term",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "ArbitraryF",
           "package": "compdata",
@@ -4202,6 +4538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature equality. An instance \u003ccode\u003eEqF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eEq (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "EqF",
           "package": "compdata",
@@ -4211,6 +4548,7 @@
         "index": {
           "description": "Signature equality An instance EqF gives rise to an instance Eq Term",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "EqF",
           "package": "compdata",
@@ -4225,6 +4563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structures that can be folded.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example, given a data type\n\u003c/p\u003e\u003cpre\u003e data Tree a = Empty | Leaf a | Node (Tree a) a (Tree a)\n\u003c/pre\u003e\u003cp\u003ea suitable instance would be\n\u003c/p\u003e\u003cpre\u003e instance Foldable Tree where\n    foldMap f Empty = mempty\n    foldMap f (Leaf x) = f x\n    foldMap f (Node l k r) = foldMap f l `mappend` f k `mappend` foldMap f r\n\u003c/pre\u003e\u003cp\u003eThis is suitable even for abstract types, as the monoid is assumed\n to satisfy the monoid laws.  Alternatively, one could define \u003ccode\u003efoldr\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e instance Foldable Tree where\n    foldr f z Empty = z\n    foldr f z (Leaf x) = f x z\n    foldr f z (Node l k r) = foldr f (f k (foldr f z r)) l\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "Foldable",
           "package": "compdata",
@@ -4233,6 +4572,7 @@
         "index": {
           "description": "Data structures that can be folded Minimal complete definition foldMap or foldr For example given data type data Tree Empty Leaf Node Tree Tree suitable instance would be instance Foldable Tree where foldMap Empty mempty foldMap Leaf foldMap Node foldMap mappend mappend foldMap This is suitable even for abstract types as the monoid is assumed to satisfy the monoid laws Alternatively one could define foldr instance Foldable Tree where foldr Empty foldr Leaf foldr Node foldr foldr",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "Foldable",
           "package": "compdata",
@@ -4247,6 +4587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e class is used for types that can be mapped over.\nInstances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e should satisfy the following laws:\n\u003c/p\u003e\u003cpre\u003e fmap id  ==  id\n fmap (f . g)  ==  fmap f . fmap g\n\u003c/pre\u003e\u003cp\u003eThe instances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e for lists, \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\nsatisfy these laws.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "Functor",
           "package": "compdata",
@@ -4255,6 +4596,7 @@
         "index": {
           "description": "The Functor class is used for types that can be mapped over Instances of Functor should satisfy the following laws fmap id id fmap fmap fmap The instances of Functor for lists Maybe and IO satisfy these laws",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "Functor",
           "package": "compdata",
@@ -4269,6 +4611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of types that can be fully evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "NFData",
           "package": "compdata",
@@ -4277,6 +4620,7 @@
         "index": {
           "description": "class of types that can be fully evaluated",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "NFData",
           "package": "compdata",
@@ -4291,6 +4635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature normal form. An instance \u003ccode\u003eNFDataF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eNFData (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "NFDataF",
           "package": "compdata",
@@ -4300,6 +4645,7 @@
         "index": {
           "description": "Signature normal form An instance NFDataF gives rise to an instance NFData Term",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "NFDataF",
           "package": "compdata",
@@ -4314,6 +4660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature ordering. An instance \u003ccode\u003eOrdF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eOrd (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "OrdF",
           "package": "compdata",
@@ -4323,6 +4670,7 @@
         "index": {
           "description": "Signature ordering An instance OrdF gives rise to an instance Ord Term",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "OrdF",
           "package": "compdata",
@@ -4337,6 +4685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature printing. An instance \u003ccode\u003eShowF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eShow (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "ShowF",
           "package": "compdata",
@@ -4346,6 +4695,7 @@
         "index": {
           "description": "Signature printing An instance ShowF gives rise to an instance Show Term",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "ShowF",
           "package": "compdata",
@@ -4360,6 +4710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctors representing data structures that can be traversed from\n left to right.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003etraverse\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003esequenceA\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInstances are similar to \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, e.g. given a data type\n\u003c/p\u003e\u003cpre\u003e data Tree a = Empty | Leaf a | Node (Tree a) a (Tree a)\n\u003c/pre\u003e\u003cp\u003ea suitable instance would be\n\u003c/p\u003e\u003cpre\u003e instance Traversable Tree where\n    traverse f Empty = pure Empty\n    traverse f (Leaf x) = Leaf \u003c$\u003e f x\n    traverse f (Node l k r) = Node \u003c$\u003e traverse f l \u003c*\u003e f k \u003c*\u003e traverse f r\n\u003c/pre\u003e\u003cp\u003eThis is suitable even for abstract types, as the laws for \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e\n imply a form of associativity.\n\u003c/p\u003e\u003cp\u003eThe superclass instances should satisfy the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e In the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e instance, \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e should be equivalent to traversal\n    with the identity applicative functor (\u003ccode\u003e\u003ca\u003efmapDefault\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e In the \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e instance, \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e should be\n    equivalent to traversal with a constant applicative functor\n    (\u003ccode\u003e\u003ca\u003efoldMapDefault\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "Traversable",
           "package": "compdata",
@@ -4368,6 +4719,7 @@
         "index": {
           "description": "Functors representing data structures that can be traversed from left to right Minimal complete definition traverse or sequenceA Instances are similar to Functor e.g given data type data Tree Empty Leaf Node Tree Tree suitable instance would be instance Traversable Tree where traverse Empty pure Empty traverse Leaf Leaf traverse Node Node traverse traverse This is suitable even for abstract types as the laws for imply form of associativity The superclass instances should satisfy the following In the Functor instance fmap should be equivalent to traversal with the identity applicative functor fmapDefault In the Foldable instance foldMap should be equivalent to traversal with constant applicative functor foldMapDefault",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "Traversable",
           "package": "compdata",
@@ -4382,6 +4734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generator for values of the given type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "arbitrary",
           "package": "compdata",
@@ -4391,6 +4744,7 @@
         "index": {
           "description": "generator for values of the given type",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "arbitrary",
           "package": "compdata",
@@ -4403,6 +4757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "arbitraryF",
           "package": "compdata",
@@ -4412,6 +4767,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "arbitraryF",
           "package": "compdata",
@@ -4424,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "arbitraryF'",
           "package": "compdata",
@@ -4433,6 +4790,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "arbitraryF'",
           "normalized": "[(Int,Gen(a b))]",
@@ -4448,6 +4806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "compareF",
           "package": "compdata",
@@ -4457,6 +4816,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "compareF",
           "normalized": "a b-\u003ea b-\u003eOrdering",
@@ -4497,6 +4857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "eqF",
           "package": "compdata",
@@ -4506,6 +4867,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "eqF",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -4520,6 +4882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "haskellStrict",
           "package": "compdata",
@@ -4529,6 +4892,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "haskellStrict",
           "normalized": "a(TermT b c)-\u003eTermT b c",
@@ -4544,6 +4908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "haskellStrict'",
           "package": "compdata",
@@ -4553,6 +4918,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "haskellStrict'",
           "normalized": "a(TermT b c)-\u003eTermT b c",
@@ -4569,6 +4935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the name of a type class, where the first parameter is a functor,\n  lift it to sums of functors. Example: \u003ccode\u003eclass ShowF f where ...\u003c/code\u003e is lifted\n  as \u003ccode\u003einstance (ShowF f, ShowF g) =\u003e ShowF (f :+: g) where ... \u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "liftSum",
           "package": "compdata",
@@ -4579,6 +4946,7 @@
         "index": {
           "description": "Given the name of type class where the first parameter is functor lift it to sums of functors Example class ShowF where is lifted as instance ShowF ShowF ShowF where",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "liftSum",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4595,6 +4963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eArbitrary\u003c/a\u003e\u003c/code\u003e for a type constructor. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "makeArbitrary",
           "package": "compdata",
@@ -4605,6 +4974,7 @@
         "index": {
           "description": "Derive an instance of Arbitrary for type constructor",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "makeArbitrary",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4621,6 +4991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eArbitraryF\u003c/a\u003e\u003c/code\u003e for a type constructor of any\n  first-order kind taking at least one argument. It is necessary that\n  all types that are used by the data type definition are themselves\n  instances of \u003ccode\u003e\u003ca\u003eArbitrary\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "makeArbitraryF",
           "package": "compdata",
@@ -4631,6 +5002,7 @@
         "index": {
           "description": "Derive an instance of ArbitraryF for type constructor of any first-order kind taking at least one argument It is necessary that all types that are used by the data type definition are themselves instances of Arbitrary",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "makeArbitraryF",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4647,6 +5019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eEqF\u003c/a\u003e\u003c/code\u003e for a type constructor of any first-order kind\n  taking at least one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "makeEqF",
           "package": "compdata",
@@ -4657,6 +5030,7 @@
         "index": {
           "description": "Derive an instance of EqF for type constructor of any first-order kind taking at least one argument",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "makeEqF",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4673,6 +5047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e for a type constructor of any first-order\n  kind taking at least one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "makeFoldable",
           "package": "compdata",
@@ -4683,6 +5058,7 @@
         "index": {
           "description": "Derive an instance of Foldable for type constructor of any first-order kind taking at least one argument",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "makeFoldable",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4699,6 +5075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e for a type constructor of any first-order\n  kind taking at least one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "makeFunctor",
           "package": "compdata",
@@ -4709,6 +5086,7 @@
         "index": {
           "description": "Derive an instance of Functor for type constructor of any first-order kind taking at least one argument",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "makeFunctor",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4725,6 +5103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003eHaskellStrict\u003c/code\u003e for a type constructor of any\n  first-order kind taking at least one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "makeHaskellStrict",
           "package": "compdata",
@@ -4735,6 +5114,7 @@
         "index": {
           "description": "Derive an instance of HaskellStrict for type constructor of any first-order kind taking at least one argument",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "makeHaskellStrict",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4751,6 +5131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eNFData\u003c/a\u003e\u003c/code\u003e for a type constructor. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "makeNFData",
           "package": "compdata",
@@ -4761,6 +5142,7 @@
         "index": {
           "description": "Derive an instance of NFData for type constructor",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "makeNFData",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4777,6 +5159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eNFDataF\u003c/a\u003e\u003c/code\u003e for a type constructor of any first-order\n  kind taking at least one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "makeNFDataF",
           "package": "compdata",
@@ -4787,6 +5170,7 @@
         "index": {
           "description": "Derive an instance of NFDataF for type constructor of any first-order kind taking at least one argument",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "makeNFDataF",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4803,6 +5187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eOrdF\u003c/a\u003e\u003c/code\u003e for a type constructor of any first-order kind\n  taking at least one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "makeOrdF",
           "package": "compdata",
@@ -4813,6 +5198,7 @@
         "index": {
           "description": "Derive an instance of OrdF for type constructor of any first-order kind taking at least one argument",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "makeOrdF",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4829,6 +5215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eShowF\u003c/a\u003e\u003c/code\u003e for a type constructor of any first-order kind\n  taking at least one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "makeShowF",
           "package": "compdata",
@@ -4839,6 +5226,7 @@
         "index": {
           "description": "Derive an instance of ShowF for type constructor of any first-order kind taking at least one argument",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "makeShowF",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4855,6 +5243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e for a type constructor of any\n  first-order kind taking at least one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "makeTraversable",
           "package": "compdata",
@@ -4865,6 +5254,7 @@
         "index": {
           "description": "Derive an instance of Traversable for type constructor of any first-order kind taking at least one argument",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "makeTraversable",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4881,6 +5271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ernf should reduce its argument to normal form (that is, fully\n evaluate all sub-components), and then return '()'.\n\u003c/p\u003e\u003cp\u003eThe default implementation of \u003ccode\u003e\u003ca\u003ernf\u003c/a\u003e\u003c/code\u003e is \n\u003c/p\u003e\u003cpre\u003e rnf a = a `seq` ()\n\u003c/pre\u003e\u003cp\u003ewhich may be convenient when defining instances for data types with\n no unevaluated fields (e.g. enumerations).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "rnf",
           "package": "compdata",
@@ -4890,6 +5281,7 @@
         "index": {
           "description": "rnf should reduce its argument to normal form that is fully evaluate all sub-components and then return The default implementation of rnf is rnf seq which may be convenient when defining instances for data types with no unevaluated fields e.g enumerations",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "rnf",
           "normalized": "a-\u003e()",
@@ -4904,6 +5296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "rnfF",
           "package": "compdata",
@@ -4913,6 +5306,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "rnfF",
           "normalized": "a b-\u003e()",
@@ -4927,6 +5321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "showF",
           "package": "compdata",
@@ -4936,6 +5331,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "showF",
           "normalized": "a String-\u003eString",
@@ -4951,6 +5347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces a (possibly) empty list of all the possible\n immediate shrinks of the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "shrink",
           "package": "compdata",
@@ -4960,6 +5357,7 @@
         "index": {
           "description": "Produces possibly empty list of all the possible immediate shrinks of the given value",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "shrink",
           "normalized": "a-\u003e[a]",
@@ -4974,6 +5372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "shrinkF",
           "package": "compdata",
@@ -4983,6 +5382,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "shrinkF",
           "normalized": "a b-\u003e[a b]",
@@ -4998,6 +5398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive smart constructors with products for a type constructor of any\n  parametric kind taking at least one argument. The smart constructors are\n  similar to the ordinary constructors, but an \u003ccode\u003e\u003ca\u003einjectA\u003c/a\u003e\u003c/code\u003e is automatically\n  inserted. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "smartAConstructors",
           "package": "compdata",
@@ -5008,6 +5409,7 @@
         "index": {
           "description": "Derive smart constructors with products for type constructor of any parametric kind taking at least one argument The smart constructors are similar to the ordinary constructors but an injectA is automatically inserted",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "smartAConstructors",
           "normalized": "Name-\u003eQ[Dec]",
@@ -5024,6 +5426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive smart constructors for a type constructor of any first-order kind\n taking at least one argument. The smart constructors are similar to the\n ordinary constructors, but an \u003ccode\u003e\u003ca\u003einject\u003c/a\u003e\u003c/code\u003e is automatically inserted. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Derive",
           "name": "smartConstructors",
           "package": "compdata",
@@ -5034,6 +5437,7 @@
         "index": {
           "description": "Derive smart constructors for type constructor of any first-order kind taking at least one argument The smart constructors are similar to the ordinary constructors but an inject is automatically inserted",
           "hierarchy": "Data Comp Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Derive",
           "name": "smartConstructors",
           "normalized": "Name-\u003eQ[Dec]",
@@ -5050,6 +5454,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules defines the \u003ccode\u003e\u003ca\u003eDesugar\u003c/a\u003e\u003c/code\u003e type class for desugaring of terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -5059,6 +5464,7 @@
         "index": {
           "description": "This modules defines the Desugar type class for desugaring of terms",
           "hierarchy": "Data Comp Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -5073,6 +5479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe desugaring term homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -5082,6 +5489,7 @@
         "index": {
           "description": "The desugaring term homomorphism",
           "hierarchy": "Data Comp Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -5095,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Desugar",
           "name": "desugHom",
           "package": "compdata",
@@ -5104,6 +5513,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Desugar",
           "name": "desugHom",
           "package": "compdata",
@@ -5117,6 +5527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Desugar",
           "name": "desugHom'",
           "package": "compdata",
@@ -5126,6 +5537,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Desugar",
           "name": "desugHom'",
           "package": "compdata",
@@ -5140,6 +5552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Desugar",
           "name": "desugar",
           "package": "compdata",
@@ -5150,6 +5563,7 @@
         "index": {
           "description": "Desugar term",
           "hierarchy": "Data Comp Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Desugar",
           "name": "desugar",
           "normalized": "Term a-\u003eTerm b",
@@ -5165,6 +5579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift desugaring to annotated terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Desugar",
           "name": "desugarA",
           "package": "compdata",
@@ -5175,6 +5590,7 @@
         "index": {
           "description": "Lift desugaring to annotated terms",
           "hierarchy": "Data Comp Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Desugar",
           "name": "desugarA",
           "normalized": "Term a-\u003eTerm b",
@@ -5190,6 +5606,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines equality for signatures, which lifts to equality for\n terms and contexts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Equality",
           "name": "Equality",
           "package": "compdata",
@@ -5199,6 +5616,7 @@
         "index": {
           "description": "This module defines equality for signatures which lifts to equality for terms and contexts",
           "hierarchy": "Data Comp Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Equality",
           "name": "Equality",
           "package": "compdata",
@@ -5213,6 +5631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature equality. An instance \u003ccode\u003eEqF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eEq (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Equality",
           "name": "EqF",
           "package": "compdata",
@@ -5222,6 +5641,7 @@
         "index": {
           "description": "Signature equality An instance EqF gives rise to an instance Eq Term",
           "hierarchy": "Data Comp Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Equality",
           "name": "EqF",
           "package": "compdata",
@@ -5235,6 +5655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Equality",
           "name": "eqF",
           "package": "compdata",
@@ -5244,6 +5665,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Equality",
           "name": "eqF",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -5259,6 +5681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function implements equality of values of type \u003ccode\u003ef a\u003c/code\u003e modulo\nthe equality of \u003ccode\u003ea\u003c/code\u003e itself. If two functorial values are equal in this\nsense, \u003ccode\u003e\u003ca\u003eeqMod\u003c/a\u003e\u003c/code\u003e returns a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e value containing a list of pairs\nconsisting of corresponding components of the two functorial\nvalues. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Equality",
           "name": "eqMod",
           "package": "compdata",
@@ -5269,6 +5692,7 @@
         "index": {
           "description": "This function implements equality of values of type modulo the equality of itself If two functorial values are equal in this sense eqMod returns Just value containing list of pairs consisting of corresponding components of the two functorial values",
           "hierarchy": "Data Comp Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Equality",
           "name": "eqMod",
           "normalized": "a b-\u003ea c-\u003eMaybe[(b,c)]",
@@ -5285,6 +5709,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines type generic functions and recursive schemes\n along the lines of the Uniplate library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Generic",
           "name": "Generic",
           "package": "compdata",
@@ -5294,6 +5719,7 @@
         "index": {
           "description": "This module defines type generic functions and recursive schemes along the lines of the Uniplate library",
           "hierarchy": "Data Comp Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Generic",
           "name": "Generic",
           "package": "compdata",
@@ -5308,6 +5734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function returns the subterm of a given term at the position\n specified by the given path or \u003ccode\u003eNothing\u003c/code\u003e if the input term has no\n such subterm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Generic",
           "name": "getSubterm",
           "package": "compdata",
@@ -5318,6 +5745,7 @@
         "index": {
           "description": "This function returns the subterm of given term at the position specified by the given path or Nothing if the input term has no such subterm",
           "hierarchy": "Data Comp Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Generic",
           "name": "getSubterm",
           "normalized": "[Int]-\u003eTerm a-\u003eMaybe(Term a)",
@@ -5334,6 +5762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function returns the subterm of a given term at the position\n specified by the given path. This function is a variant of\n \u003ccode\u003e\u003ca\u003egetSubterm\u003c/a\u003e\u003c/code\u003e which fails if there is no subterm at the given\n position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Generic",
           "name": "getSubterm'",
           "package": "compdata",
@@ -5344,6 +5773,7 @@
         "index": {
           "description": "This function returns the subterm of given term at the position specified by the given path This function is variant of getSubterm which fails if there is no subterm at the given position",
           "hierarchy": "Data Comp Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Generic",
           "name": "getSubterm'",
           "normalized": "[Int]-\u003eTerm a-\u003eTerm a",
@@ -5359,6 +5789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Generic",
           "name": "gsize",
           "package": "compdata",
@@ -5368,6 +5799,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Generic",
           "name": "gsize",
           "normalized": "Term a-\u003eInt",
@@ -5383,6 +5815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes the generic height of the given term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Generic",
           "name": "height",
           "package": "compdata",
@@ -5393,6 +5826,7 @@
         "index": {
           "description": "This function computes the generic height of the given term",
           "hierarchy": "Data Comp Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Generic",
           "name": "height",
           "normalized": "Cxt a b c-\u003eInt",
@@ -5407,6 +5841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Generic",
           "name": "query",
           "package": "compdata",
@@ -5416,6 +5851,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Generic",
           "name": "query",
           "normalized": "(Term a-\u003eb)-\u003e(b-\u003eb-\u003eb)-\u003eTerm a-\u003eb",
@@ -5431,6 +5867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes the generic size of the given term,\n i.e. the its number of subterm occurrences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Generic",
           "name": "size",
           "package": "compdata",
@@ -5441,6 +5878,7 @@
         "index": {
           "description": "This function computes the generic size of the given term i.e the its number of subterm occurrences",
           "hierarchy": "Data Comp Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Generic",
           "name": "size",
           "normalized": "Cxt a b c-\u003eInt",
@@ -5456,6 +5894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function returns a list of all subterms of the given\n term. This function is similar to Uniplate's \u003ccode\u003euniverse\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Generic",
           "name": "subterms",
           "package": "compdata",
@@ -5466,6 +5905,7 @@
         "index": {
           "description": "This function returns list of all subterms of the given term This function is similar to Uniplate universe function",
           "hierarchy": "Data Comp Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Generic",
           "name": "subterms",
           "normalized": "Term a-\u003e[Term a]",
@@ -5481,6 +5921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function returns a list of all subterms of the given term\n that are constructed from a particular functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Generic",
           "name": "subterms'",
           "package": "compdata",
@@ -5491,6 +5932,7 @@
         "index": {
           "description": "This function returns list of all subterms of the given term that are constructed from particular functor",
           "hierarchy": "Data Comp Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Generic",
           "name": "subterms'",
           "normalized": "Term a-\u003e[b(Term a)]",
@@ -5506,6 +5948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function transforms every subterm according to the given\n function in a bottom-up manner. This function is similar to\n Uniplate's \u003ccode\u003etransform\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Generic",
           "name": "transform",
           "package": "compdata",
@@ -5516,6 +5959,7 @@
         "index": {
           "description": "This function transforms every subterm according to the given function in bottom-up manner This function is similar to Uniplate transform function",
           "hierarchy": "Data Comp Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Generic",
           "name": "transform",
           "normalized": "(Term a-\u003eTerm a)-\u003eTerm a-\u003eTerm a",
@@ -5530,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Generic",
           "name": "transform'",
           "package": "compdata",
@@ -5539,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Generic",
           "name": "transform'",
           "normalized": "(Term a-\u003eMaybe(Term a))-\u003eTerm a-\u003eTerm a",
@@ -5554,6 +6000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003etransform\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Generic",
           "name": "transformM",
           "package": "compdata",
@@ -5564,6 +6011,7 @@
         "index": {
           "description": "Monadic version of transform",
           "hierarchy": "Data Comp Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Generic",
           "name": "transformM",
           "normalized": "(Term a-\u003eb(Term a))-\u003eTerm a-\u003eb(Term a)",
@@ -5579,6 +6027,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines macro tree transducers (MTTs). It provides\n functions to run MTTs and to compose them with top down tree\n transducers. It also defines MTTs with regular look-ahead which\n combines MTTs with bottom-up tree acceptors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroAutomata",
           "package": "compdata",
@@ -5588,6 +6037,7 @@
         "index": {
           "description": "This module defines macro tree transducers MTTs It provides functions to run MTTs and to compose them with top down tree transducers It also defines MTTs with regular look-ahead which combines MTTs with bottom-up tree acceptors",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroAutomata",
           "package": "compdata",
@@ -5602,6 +6052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type constructor is used to define the state space of an MTT\n that is obtained by composing an MTT followed by a DTT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": ":^:",
           "package": "compdata",
@@ -5611,6 +6062,7 @@
         "index": {
           "description": "This type constructor is used to define the state space of an MTT that is obtained by composing an MTT followed by DTT",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": ":^:",
           "package": "compdata",
@@ -5624,6 +6076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity Functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "I",
           "package": "compdata",
@@ -5633,6 +6086,7 @@
         "index": {
           "description": "The identity Functor",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "I",
           "package": "compdata",
@@ -5646,6 +6100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents total deterministic macro tree transducers\n (MTTs).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroTrans",
           "package": "compdata",
@@ -5655,6 +6110,7 @@
         "index": {
           "description": "This type represents total deterministic macro tree transducers MTTs",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroTrans",
           "package": "compdata",
@@ -5669,6 +6125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a variant of the type \u003ccode\u003e\u003ca\u003eMacroTrans\u003c/a\u003e\u003c/code\u003e that makes it easier\n to define MTTs as it avoids the explicit use of \u003ccode\u003e\u003ca\u003eHole\u003c/a\u003e\u003c/code\u003e when using\n placeholders in the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroTrans'",
           "package": "compdata",
@@ -5678,6 +6135,7 @@
         "index": {
           "description": "This is variant of the type MacroTrans that makes it easier to define MTTs as it avoids the explicit use of Hole when using placeholders in the result",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroTrans'",
           "package": "compdata",
@@ -5692,6 +6150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is an instantiation of the \u003ccode\u003e\u003ca\u003eMacroTrans\u003c/a\u003e\u003c/code\u003e type to a state\n space with only a single state with a single accumulation parameter\n (i.e. the state space is the identity functor).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroTransId",
           "package": "compdata",
@@ -5701,6 +6160,7 @@
         "index": {
           "description": "This type is an instantiation of the MacroTrans type to state space with only single state with single accumulation parameter i.e the state space is the identity functor",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroTransId",
           "package": "compdata",
@@ -5715,6 +6175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is a variant of the \u003ccode\u003e\u003ca\u003eMacroTransId\u003c/a\u003e\u003c/code\u003e which is more\n convenient to work with as it avoids the explicit use of \u003ccode\u003e\u003ca\u003eHole\u003c/a\u003e\u003c/code\u003e to\n embed placeholders into the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroTransId'",
           "package": "compdata",
@@ -5724,6 +6185,7 @@
         "index": {
           "description": "This type is variant of the MacroTransId which is more convenient to work with as it avoids the explicit use of Hole to embed placeholders into the result",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroTransId'",
           "package": "compdata",
@@ -5738,6 +6200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents MTTs with regular look-ahead, i.e. MTTs that\n have access to information that is generated by a separate UTA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroTransLA",
           "package": "compdata",
@@ -5747,6 +6210,7 @@
         "index": {
           "description": "This type represents MTTs with regular look-ahead i.e MTTs that have access to information that is generated by separate UTA",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroTransLA",
           "package": "compdata",
@@ -5761,6 +6225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is a more convenient variant of \u003ccode\u003e\u003ca\u003eMacroTransLA\u003c/a\u003e\u003c/code\u003e with\n which one can avoid using \u003ccode\u003e\u003ca\u003eHole\u003c/a\u003e\u003c/code\u003e explicitly when injecting\n placeholders in the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroTransLA'",
           "package": "compdata",
@@ -5770,6 +6235,7 @@
         "index": {
           "description": "This type is more convenient variant of MacroTransLA with which one can avoid using Hole explicitly when injecting placeholders in the result",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "MacroTransLA'",
           "package": "compdata",
@@ -5783,6 +6249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": ":^:",
           "package": "compdata",
@@ -5792,6 +6259,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": ":^:",
           "normalized": "(a(b-\u003ec))b",
@@ -5829,6 +6297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes an MTT followed by a DTT. The resulting\n MTT's semantics is equivalent to first running the original MTT and\n then the DTT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "compDownMacro",
           "package": "compdata",
@@ -5839,6 +6308,7 @@
         "index": {
           "description": "This function composes an MTT followed by DTT The resulting MTT semantics is equivalent to first running the original MTT and then the DTT",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "compDownMacro",
           "normalized": "DownTrans a b c-\u003eMacroTrans d e a-\u003eMacroTrans d(e b)c",
@@ -5855,6 +6325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes an MTT with regular look-ahead followed by\n a DTT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "compDownMacroLA",
           "package": "compdata",
@@ -5865,6 +6336,7 @@
         "index": {
           "description": "This function composes an MTT with regular look-ahead followed by DTT",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "compDownMacroLA",
           "normalized": "DownTrans a b c-\u003eMacroTransLA d b e a-\u003eMacroTransLA d(b b)e c",
@@ -5881,6 +6353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a DTT followed by an MTT. The resulting\n MTT's semantics is equivalent to the function composition of the\n semantics of the original MTT and DTT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "compMacroDown",
           "package": "compdata",
@@ -5891,6 +6364,7 @@
         "index": {
           "description": "This function composes DTT followed by an MTT The resulting MTT semantics is equivalent to the function composition of the semantics of the original MTT and DTT",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "compMacroDown",
           "normalized": "MacroTrans a b c-\u003eDownTrans d e a-\u003eMacroTrans d(b e)c",
@@ -5907,6 +6381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function transforms an MTT of type |MacroTransId| into the\n canonical type such that it can be run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "fromMacroTransId",
           "package": "compdata",
@@ -5917,6 +6392,7 @@
         "index": {
           "description": "This function transforms an MTT of type MacroTransId into the canonical type such that it can be run",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "fromMacroTransId",
           "normalized": "MacroTransId a b-\u003eMacroTrans a I b",
@@ -5933,6 +6409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function transforms an MTT of type |MacroTransId'| into the\n canonical type such that it can be run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "fromMacroTransId'",
           "package": "compdata",
@@ -5943,6 +6420,7 @@
         "index": {
           "description": "This function transforms an MTT of type MacroTransId into the canonical type such that it can be run",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "fromMacroTransId'",
           "normalized": "MacroTransId' a b-\u003eMacroTrans a I b",
@@ -5959,6 +6437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function turns an MTT defined using the more convenient type\n \u003ccode\u003e\u003ca\u003eMacroTrans'\u003c/a\u003e\u003c/code\u003e into its canonical form of type \u003ccode\u003e\u003ca\u003eMacroTrans\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "mkMacroTrans",
           "package": "compdata",
@@ -5969,6 +6448,7 @@
         "index": {
           "description": "This function turns an MTT defined using the more convenient type MacroTrans into its canonical form of type MacroTrans",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "mkMacroTrans",
           "normalized": "MacroTrans' a b c-\u003eMacroTrans a b c",
@@ -5985,6 +6465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function turns an MTT with regular look-ahead defined using\n the more convenient type |MacroTransLA'| into its canonical form of\n type |MacroTransLA|.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "mkMacroTransLA",
           "package": "compdata",
@@ -5995,6 +6476,7 @@
         "index": {
           "description": "This function turns an MTT with regular look-ahead defined using the more convenient type MacroTransLA into its canonical form of type MacroTransLA",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "mkMacroTransLA",
           "normalized": "MacroTransLA' a b c d-\u003eMacroTransLA a b c d",
@@ -6011,6 +6493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function defines the semantics of MTTs. It applies a given\n MTT to an input with and an initial state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "runMacroTrans",
           "package": "compdata",
@@ -6021,6 +6504,7 @@
         "index": {
           "description": "This function defines the semantics of MTTs It applies given MTT to an input with and an initial state",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "runMacroTrans",
           "normalized": "MacroTrans a b c-\u003eb(Cxt d c e)-\u003eCxt d a e-\u003eCxt d c e",
@@ -6037,6 +6521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function defines the semantics of MTTs with regular\n look-ahead. It applies a given MTT with regular look-ahead\n (including an accompanying bottom-up state transition function) to\n an input with and an initial state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MacroAutomata",
           "name": "runMacroTransLA",
           "package": "compdata",
@@ -6047,6 +6532,7 @@
         "index": {
           "description": "This function defines the semantics of MTTs with regular look-ahead It applies given MTT with regular look-ahead including an accompanying bottom-up state transition function to an input with and an initial state",
           "hierarchy": "Data Comp MacroAutomata",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MacroAutomata",
           "name": "runMacroTransLA",
           "normalized": "UpState a b-\u003eMacroTransLA a c b d-\u003ec(Term d)-\u003eTerm a-\u003eTerm d",
@@ -6085,6 +6571,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements matching of contexts or terms with variables againts terms\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Matching",
           "name": "Matching",
           "package": "compdata",
@@ -6094,6 +6581,7 @@
         "index": {
           "description": "This module implements matching of contexts or terms with variables againts terms",
           "hierarchy": "Data Comp Matching",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Matching",
           "name": "Matching",
           "package": "compdata",
@@ -6108,6 +6596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function takes a context \u003ccode\u003ec\u003c/code\u003e as the first argument and tries\nto match it against the term \u003ccode\u003et\u003c/code\u003e (or in general a context with holes\nin \u003ccode\u003ea\u003c/code\u003e). The context \u003ccode\u003ec\u003c/code\u003e matches the term \u003ccode\u003et\u003c/code\u003e if there is a\n\u003cem\u003ematching substitution\u003c/em\u003e \u003ccode\u003es\u003c/code\u003e that maps holes to terms (resp. contexts in general)\nsuch that if the holes in the context \u003ccode\u003ec\u003c/code\u003e are replaced according to\nthe substitution \u003ccode\u003es\u003c/code\u003e, the term \u003ccode\u003et\u003c/code\u003e is obtained. Note that the context\n\u003ccode\u003ec\u003c/code\u003e might be non-linear, i.e. has multiple holes that are\nequal. According to the above definition this means that holes with\nequal holes have to be instantiated by equal terms! \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Matching",
           "name": "matchCxt",
           "package": "compdata",
@@ -6118,6 +6607,7 @@
         "index": {
           "description": "This function takes context as the first argument and tries to match it against the term or in general context with holes in The context matches the term if there is matching substitution that maps holes to terms resp contexts in general such that if the holes in the context are replaced according to the substitution the term is obtained Note that the context might be non-linear i.e has multiple holes that are equal According to the above definition this means that holes with equal holes have to be instantiated by equal terms",
           "hierarchy": "Data Comp Matching",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Matching",
           "name": "matchCxt",
           "normalized": "Context a b-\u003eCxt c a d-\u003eMaybe(CxtSubst c d a b)",
@@ -6134,6 +6624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is similar to \u003ccode\u003e\u003ca\u003ematchCxt\u003c/a\u003e\u003c/code\u003e but instead of a context it\nmatches a term with variables against a context.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Matching",
           "name": "matchTerm",
           "package": "compdata",
@@ -6144,6 +6635,7 @@
         "index": {
           "description": "This function is similar to matchCxt but instead of context it matches term with variables against context",
           "hierarchy": "Data Comp Matching",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Matching",
           "name": "matchTerm",
           "normalized": "Term a-\u003eCxt b a c-\u003eMaybe(CxtSubst b c a d)",
@@ -6160,6 +6652,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the notion of algebras and catamorphisms, and their\n generalizations to e.g. monadic versions and other (co)recursion schemes.\n All definitions are generalised versions of those in \u003ca\u003eData.Comp.Algebra\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "Algebra",
           "package": "compdata",
@@ -6169,6 +6662,7 @@
         "index": {
           "description": "This module defines the notion of algebras and catamorphisms and their generalizations to e.g monadic versions and other co recursion schemes All definitions are generalised versions of those in Data.Comp.Algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "Algebra",
           "package": "compdata",
@@ -6183,6 +6677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents multisorted \u003ccode\u003ef\u003c/code\u003e-algebras with a family \u003ccode\u003ee\u003c/code\u003e\n of carriers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "Alg",
           "package": "compdata",
@@ -6192,6 +6687,7 @@
         "index": {
           "description": "This type represents multisorted algebras with family of carriers",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "Alg",
           "package": "compdata",
@@ -6206,6 +6702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic algebra. It is similar to \u003ccode\u003e\u003ca\u003eAlg\u003c/a\u003e\u003c/code\u003e\n but the return type is monadic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "AlgM",
           "package": "compdata",
@@ -6215,6 +6712,7 @@
         "index": {
           "description": "This type represents monadic algebra It is similar to Alg but the return type is monadic",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "AlgM",
           "package": "compdata",
@@ -6229,6 +6727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents cv-coalgebras over functor \u003ccode\u003ef\u003c/code\u003e and with domain\n \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "CVCoalg",
           "package": "compdata",
@@ -6238,6 +6737,7 @@
         "index": {
           "description": "This type represents cv-coalgebras over functor and with domain",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "CVCoalg",
           "package": "compdata",
@@ -6252,6 +6752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents monadic cv-coalgebras over monad \u003ccode\u003em\u003c/code\u003e and\n functor \u003ccode\u003ef\u003c/code\u003e, and with domain \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "CVCoalgM",
           "package": "compdata",
@@ -6261,6 +6762,7 @@
         "index": {
           "description": "This type represents monadic cv-coalgebras over monad and functor and with domain",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "CVCoalgM",
           "package": "compdata",
@@ -6274,6 +6776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "Coalg",
           "package": "compdata",
@@ -6282,6 +6785,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "Coalg",
           "package": "compdata",
@@ -6295,6 +6799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "CoalgM",
           "package": "compdata",
@@ -6303,6 +6808,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "CoalgM",
           "package": "compdata",
@@ -6317,6 +6823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents context function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "CxtFun",
           "package": "compdata",
@@ -6326,6 +6833,7 @@
         "index": {
           "description": "This type represents context function",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "CxtFun",
           "package": "compdata",
@@ -6340,6 +6848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents monadic context function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "CxtFunM",
           "package": "compdata",
@@ -6349,6 +6858,7 @@
         "index": {
           "description": "This type represents monadic context function",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "CxtFunM",
           "package": "compdata",
@@ -6363,6 +6873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents term homomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "Hom",
           "package": "compdata",
@@ -6372,6 +6883,7 @@
         "index": {
           "description": "This type represents term homomorphisms",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "Hom",
           "package": "compdata",
@@ -6386,6 +6898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents monadic term algebras.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "HomM",
           "package": "compdata",
@@ -6395,6 +6908,7 @@
         "index": {
           "description": "This type represents monadic term algebras",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "HomM",
           "package": "compdata",
@@ -6409,6 +6923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents r-algebras over functor \u003ccode\u003ef\u003c/code\u003e and with domain\n \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "RAlg",
           "package": "compdata",
@@ -6418,6 +6933,7 @@
         "index": {
           "description": "This type represents r-algebras over functor and with domain",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "RAlg",
           "package": "compdata",
@@ -6432,6 +6948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents monadic r-algebras over monad \u003ccode\u003em\u003c/code\u003e and\n functor \u003ccode\u003ef\u003c/code\u003e and with domain \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "RAlgM",
           "package": "compdata",
@@ -6441,6 +6958,7 @@
         "index": {
           "description": "This type represents monadic r-algebras over monad and functor and with domain",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "RAlgM",
           "package": "compdata",
@@ -6455,6 +6973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents r-coalgebras over functor \u003ccode\u003ef\u003c/code\u003e and with\n domain \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "RCoalg",
           "package": "compdata",
@@ -6464,6 +6983,7 @@
         "index": {
           "description": "This type represents r-coalgebras over functor and with domain",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "RCoalg",
           "package": "compdata",
@@ -6478,6 +6998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents monadic r-coalgebras over monad \u003ccode\u003em\u003c/code\u003e and\n functor \u003ccode\u003ef\u003c/code\u003e with domain \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "RCoalgM",
           "package": "compdata",
@@ -6487,6 +7008,7 @@
         "index": {
           "description": "This type represents monadic r-coalgebras over monad and functor with domain",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "RCoalgM",
           "package": "compdata",
@@ -6501,6 +7023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents uniform signature function specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "SigFun",
           "package": "compdata",
@@ -6510,6 +7033,7 @@
         "index": {
           "description": "This type represents uniform signature function specification",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "SigFun",
           "package": "compdata",
@@ -6524,6 +7048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents monadic signature functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "SigFunM",
           "package": "compdata",
@@ -6533,6 +7058,7 @@
         "index": {
           "description": "This type represents monadic signature functions",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "SigFunM",
           "package": "compdata",
@@ -6547,6 +7073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function unfolds the given value to a term using the given\nunravelling function. This is the unique homomorphism \u003ccode\u003ea -\u003e Term f\u003c/code\u003e\nfrom the given coalgebra of type \u003ccode\u003ea -\u003e f a\u003c/code\u003e to the final coalgebra\n\u003ccode\u003eTerm f\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "ana",
           "package": "compdata",
@@ -6557,6 +7084,7 @@
         "index": {
           "description": "This function unfolds the given value to term using the given unravelling function This is the unique homomorphism Term from the given coalgebra of type to the final coalgebra Term",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "ana",
           "normalized": "Coalg a b-\u003eb-\u003eTerm a",
@@ -6572,6 +7100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function unfolds the given value to a term using the given\n monadic unravelling function. This is the unique homomorphism \u003ccode\u003ea -\u003e\n Term f\u003c/code\u003e from the given coalgebra of type \u003ccode\u003ea -\u003e f a\u003c/code\u003e to the final\n coalgebra \u003ccode\u003eTerm f\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "anaM",
           "package": "compdata",
@@ -6582,6 +7111,7 @@
         "index": {
           "description": "This function unfolds the given value to term using the given monadic unravelling function This is the unique homomorphism Term from the given coalgebra of type to the final coalgebra Term",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "anaM",
           "normalized": "CoalgM a b c-\u003eNatM a c(Term b)",
@@ -6597,6 +7127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs an apomorphism from the given\n r-coalgebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "apo",
           "package": "compdata",
@@ -6607,6 +7138,7 @@
         "index": {
           "description": "This function constructs an apomorphism from the given r-coalgebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "apo",
           "normalized": "RCoalg a b-\u003eb-\u003eTerm a",
@@ -6622,6 +7154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs a monadic apomorphism from the given\n monadic r-coalgebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "apoM",
           "package": "compdata",
@@ -6632,6 +7165,7 @@
         "index": {
           "description": "This function constructs monadic apomorphism from the given monadic r-coalgebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "apoM",
           "normalized": "RCoalgM a b c-\u003eNatM a c(Term b)",
@@ -6647,6 +7181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a whole context into another context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appCxt",
           "package": "compdata",
@@ -6657,6 +7192,7 @@
         "index": {
           "description": "This function applies whole context into another context",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appCxt",
           "normalized": "Context a(Cxt b a c)-\u003eCxt b a c",
@@ -6673,6 +7209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies the given term homomorphism to a\n term/context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appHom",
           "package": "compdata",
@@ -6683,6 +7220,7 @@
         "index": {
           "description": "This function applies the given term homomorphism to term context",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appHom",
           "normalized": "Hom a b-\u003eCxtFun a b",
@@ -6699,6 +7237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies the given term homomorphism to a\n term/context. This is the top-down variant of \u003ccode\u003e\u003ca\u003eappHom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appHom'",
           "package": "compdata",
@@ -6709,6 +7248,7 @@
         "index": {
           "description": "This function applies the given term homomorphism to term context This is the top-down variant of appHom",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appHom'",
           "normalized": "Hom a b-\u003eCxtFun a b",
@@ -6725,6 +7265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies the given monadic term homomorphism to the\n given term/context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appHomM",
           "package": "compdata",
@@ -6735,6 +7276,7 @@
         "index": {
           "description": "This function applies the given monadic term homomorphism to the given term context",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appHomM",
           "normalized": "HomM a b c-\u003eCxtFunM a b c",
@@ -6751,6 +7293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies the given monadic term homomorphism to the\n given term/context. This is a top-down variant of \u003ccode\u003e\u003ca\u003eappHomM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appHomM'",
           "package": "compdata",
@@ -6761,6 +7304,7 @@
         "index": {
           "description": "This function applies the given monadic term homomorphism to the given term context This is top-down variant of appHomM",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appHomM'",
           "normalized": "HomM a b c-\u003eCxtFunM a b c",
@@ -6777,6 +7321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a signature function to the given context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appSigFun",
           "package": "compdata",
@@ -6787,6 +7332,7 @@
         "index": {
           "description": "This function applies signature function to the given context",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appSigFun",
           "normalized": "SigFun a b-\u003eCxtFun a b",
@@ -6803,6 +7349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a signature function to the given\n context. This is the top-down variant of \u003ccode\u003e\u003ca\u003eappSigFun\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appSigFun'",
           "package": "compdata",
@@ -6813,6 +7360,7 @@
         "index": {
           "description": "This function applies signature function to the given context This is the top-down variant of appSigFun",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appSigFun'",
           "normalized": "SigFun a b-\u003eCxtFun a b",
@@ -6829,6 +7377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies the given monadic signature function to the\n given context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appSigFunM",
           "package": "compdata",
@@ -6839,6 +7388,7 @@
         "index": {
           "description": "This function applies the given monadic signature function to the given context",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appSigFunM",
           "normalized": "SigFunM a b c-\u003eCxtFunM a b c",
@@ -6855,6 +7405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies the given monadic signature function to the\n given context. This is a top-down variant of \u003ccode\u003e\u003ca\u003eappSigFunM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appSigFunM'",
           "package": "compdata",
@@ -6865,6 +7416,7 @@
         "index": {
           "description": "This function applies the given monadic signature function to the given context This is top-down variant of appSigFunM",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "appSigFunM'",
           "normalized": "SigFunM a b c-\u003eCxtFunM a b c",
@@ -6881,6 +7433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a catamorphism from the given algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "cata",
           "package": "compdata",
@@ -6891,6 +7444,7 @@
         "index": {
           "description": "Construct catamorphism from the given algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "cata",
           "normalized": "Alg a b-\u003eTerm a-\u003eb",
@@ -6906,6 +7460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalisation of \u003ccode\u003e\u003ca\u003ecata\u003c/a\u003e\u003c/code\u003e from terms over \u003ccode\u003ef\u003c/code\u003e to contexts over\n \u003ccode\u003ef\u003c/code\u003e, where the holes have the type of the algebra carrier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "cata'",
           "package": "compdata",
@@ -6916,6 +7471,7 @@
         "index": {
           "description": "generalisation of cata from terms over to contexts over where the holes have the type of the algebra carrier",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "cata'",
           "normalized": "Alg a b-\u003eCxt c a b-\u003eb",
@@ -6931,6 +7487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a monadic version of \u003ccode\u003e\u003ca\u003ecata\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "cataM",
           "package": "compdata",
@@ -6941,6 +7498,7 @@
         "index": {
           "description": "This is monadic version of cata",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "cataM",
           "normalized": "AlgM a b c-\u003eNatM a(Term b)c",
@@ -6955,6 +7513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "cataM'",
           "package": "compdata",
@@ -6964,6 +7523,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "cataM'",
           "normalized": "AlgM a b c-\u003eNatM a(Cxt d b c)c",
@@ -6980,6 +7540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a term algebra with an algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compAlg",
           "package": "compdata",
@@ -6990,6 +7551,7 @@
         "index": {
           "description": "This function composes term algebra with an algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compAlg",
           "normalized": "Alg a b-\u003eHom c a-\u003eAlg c b",
@@ -7006,6 +7568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a monadic term algebra with a monadic algebra \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compAlgM",
           "package": "compdata",
@@ -7016,6 +7579,7 @@
         "index": {
           "description": "This function composes monadic term algebra with monadic algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compAlgM",
           "normalized": "AlgM a b c-\u003eHomM a d b-\u003eAlgM a d c",
@@ -7032,6 +7596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a monadic term algebra with a monadic\n algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compAlgM'",
           "package": "compdata",
@@ -7042,6 +7607,7 @@
         "index": {
           "description": "This function composes monadic term algebra with monadic algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compAlgM'",
           "normalized": "AlgM a b c-\u003eHom d b-\u003eAlgM a d c",
@@ -7058,6 +7624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two term algebras.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compHom",
           "package": "compdata",
@@ -7068,6 +7635,7 @@
         "index": {
           "description": "This function composes two term algebras",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compHom",
           "normalized": "Hom a b-\u003eHom c a-\u003eHom c b",
@@ -7084,6 +7652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two monadic term algebras.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compHomM",
           "package": "compdata",
@@ -7094,6 +7663,7 @@
         "index": {
           "description": "This function composes two monadic term algebras",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compHomM",
           "normalized": "HomM a b c-\u003eHomM a d b-\u003eHomM a d c",
@@ -7110,6 +7680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two signature functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compSigFun",
           "package": "compdata",
@@ -7120,6 +7691,7 @@
         "index": {
           "description": "This function composes two signature functions",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compSigFun",
           "normalized": "SigFun a b-\u003eSigFun c a-\u003eSigFun c b",
@@ -7136,6 +7708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two monadic signature functions.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compSigFunM",
           "package": "compdata",
@@ -7146,6 +7719,7 @@
         "index": {
           "description": "This function composes two monadic signature functions",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "compSigFunM",
           "normalized": "SigFunM a b c-\u003eSigFunM a d b-\u003eSigFunM a d c",
@@ -7162,6 +7736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a catamorphism for contexts over \u003ccode\u003ef\u003c/code\u003e with holes of type\n \u003ccode\u003eb\u003c/code\u003e, from the given algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "free",
           "package": "compdata",
@@ -7172,6 +7747,7 @@
         "index": {
           "description": "Construct catamorphism for contexts over with holes of type from the given algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "free",
           "normalized": "Alg a b-\u003e(c-\u003eb)-\u003eCxt d a c-\u003eb",
@@ -7187,6 +7763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic catamorphism for contexts over \u003ccode\u003ef\u003c/code\u003e with holes\n of type \u003ccode\u003eb\u003c/code\u003e, from the given monadic algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "freeM",
           "package": "compdata",
@@ -7197,6 +7774,7 @@
         "index": {
           "description": "Construct monadic catamorphism for contexts over with holes of type from the given monadic algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "freeM",
           "normalized": "AlgM a b c-\u003eNatM a d c-\u003eNatM a(Cxt e b d)c",
@@ -7212,6 +7790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs the unique futumorphism from the given\n cv-coalgebra to the term algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "futu",
           "package": "compdata",
@@ -7222,6 +7801,7 @@
         "index": {
           "description": "This function constructs the unique futumorphism from the given cv-coalgebra to the term algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "futu",
           "normalized": "CVCoalg a b-\u003eb-\u003eTerm a",
@@ -7237,6 +7817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs the unique monadic futumorphism from the\n given monadic cv-coalgebra to the term algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "futuM",
           "package": "compdata",
@@ -7247,6 +7828,7 @@
         "index": {
           "description": "This function constructs the unique monadic futumorphism from the given monadic cv-coalgebra to the term algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "futuM",
           "normalized": "CVCoalgM a b c-\u003eNatM a c(Term b)",
@@ -7262,6 +7844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts the given signature function to the canonical term homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "hom",
           "package": "compdata",
@@ -7272,6 +7855,7 @@
         "index": {
           "description": "Lifts the given signature function to the canonical term homomorphism",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "hom",
           "normalized": "SigFun a b-\u003eHom a b",
@@ -7287,6 +7871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function lifts the give monadic signature function to a\n monadic term algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "hom'",
           "package": "compdata",
@@ -7297,6 +7882,7 @@
         "index": {
           "description": "This function lifts the give monadic signature function to monadic term algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "hom'",
           "normalized": "SigFunM a b c-\u003eHomM a b c",
@@ -7312,6 +7898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function lifts the given signature function to a monadic\n term algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "homM",
           "package": "compdata",
@@ -7322,6 +7909,7 @@
         "index": {
           "description": "This function lifts the given signature function to monadic term algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "homM",
           "normalized": "SigFun a b-\u003eHomM c a b",
@@ -7337,6 +7925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function lifts a many-sorted algebra to a monadic domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "liftMAlg",
           "package": "compdata",
@@ -7347,6 +7936,7 @@
         "index": {
           "description": "This function lifts many-sorted algebra to monadic domain",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "liftMAlg",
           "normalized": "Alg a I-\u003eAlg a b",
@@ -7363,6 +7953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs a paramorphism from the given r-algebra\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "para",
           "package": "compdata",
@@ -7373,6 +7964,7 @@
         "index": {
           "description": "This function constructs paramorphism from the given r-algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "para",
           "normalized": "RAlg a b-\u003eTerm a-\u003eb",
@@ -7388,6 +7980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs a monadic paramorphism from the given\n monadic r-algebra\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "paraM",
           "package": "compdata",
@@ -7398,6 +7991,7 @@
         "index": {
           "description": "This function constructs monadic paramorphism from the given monadic r-algebra",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "paraM",
           "normalized": "RAlgM a b c-\u003eNatM a(Term b)c",
@@ -7413,6 +8007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function lifts the given signature function to a monadic\n signature function. Note that term algebras are instances of\n signature functions. Hence this function also applies to term\n algebras.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Algebra",
           "name": "sigFunM",
           "package": "compdata",
@@ -7423,6 +8018,7 @@
         "index": {
           "description": "This function lifts the given signature function to monadic signature function Note that term algebras are instances of signature functions Hence this function also applies to term algebras",
           "hierarchy": "Data Comp Multi Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Algebra",
           "name": "sigFunM",
           "normalized": "SigFun a b-\u003eSigFunM c a b",
@@ -7439,6 +8035,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines annotations on signatures. All definitions are\n generalised versions of those in \u003ca\u003eData.Comp.Annotation\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": "Annotation",
           "package": "compdata",
@@ -7448,6 +8045,7 @@
         "index": {
           "description": "This module defines annotations on signatures All definitions are generalised versions of those in Data.Comp.Annotation",
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": "Annotation",
           "package": "compdata",
@@ -7462,6 +8060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type adds a constant product to a\n signature. Alternatively, this could have also been defined as\n\u003c/p\u003e\u003cpre\u003edata (f :&: a) (g ::  * -\u003e *) e = f g e :&: a e\u003c/pre\u003e\u003cp\u003eThis is too general, however, for example for \u003ccode\u003eproductHHom\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": ":&:",
           "package": "compdata",
@@ -7471,6 +8070,7 @@
         "index": {
           "description": "This data type adds constant product to signature Alternatively this could have also been defined as data This is too general however for example for productHHom",
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": ":&:",
           "package": "compdata",
@@ -7484,6 +8084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class defines how to distribute an annotation over a sum of\n signatures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": "DistAnn",
           "package": "compdata",
@@ -7493,6 +8094,7 @@
         "index": {
           "description": "This class defines how to distribute an annotation over sum of signatures",
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": "DistAnn",
           "package": "compdata",
@@ -7506,6 +8108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": "RemA",
           "package": "compdata",
@@ -7514,6 +8117,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": "RemA",
           "package": "compdata",
@@ -7550,6 +8154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function annotates each sub term of the given term with the\n given value (of type a).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": "ann",
           "package": "compdata",
@@ -7560,6 +8165,7 @@
         "index": {
           "description": "This function annotates each sub term of the given term with the given value of type",
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": "ann",
           "normalized": "a-\u003eCxtFun b c",
@@ -7575,6 +8181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function injects an annotation over a signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": "injectA",
           "package": "compdata",
@@ -7585,6 +8192,7 @@
         "index": {
           "description": "This function injects an annotation over signature",
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": "injectA",
           "normalized": "a-\u003eb c-\u003ed c",
@@ -7600,6 +8208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function transforms a function with a domain constructed\n from a functor to a function with a domain constructed with the\n same functor but with an additional annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": "liftA",
           "package": "compdata",
@@ -7610,6 +8219,7 @@
         "index": {
           "description": "This function transforms function with domain constructed from functor to function with domain constructed with the same functor but with an additional annotation",
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": "liftA",
           "normalized": "(a b-\u003ec)-\u003ed b-\u003ec",
@@ -7625,6 +8235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function transforms a function with a domain constructed\n from a functor to a function with a domain constructed with the\n same functor but with an additional annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": "liftA'",
           "package": "compdata",
@@ -7635,6 +8246,7 @@
         "index": {
           "description": "This function transforms function with domain constructed from functor to function with domain constructed with the same functor but with an additional annotation",
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": "liftA'",
           "normalized": "(a b-\u003eCxt c a b)-\u003ed b-\u003eCxt c d b",
@@ -7651,6 +8263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is similar to \u003ccode\u003e\u003ca\u003eproject\u003c/a\u003e\u003c/code\u003e but applies to signatures\n with an annotation which is then ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": "project'",
           "package": "compdata",
@@ -7661,6 +8274,7 @@
         "index": {
           "description": "This function is similar to project but applies to signatures with an annotation which is then ignored",
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": "project'",
           "normalized": "Cxt a b c d-\u003eMaybe(e(Cxt a b c)d)",
@@ -7675,6 +8289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": "projectA",
           "package": "compdata",
@@ -7684,6 +8299,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": "projectA",
           "normalized": "a b-\u003e(c b d)",
@@ -7698,6 +8314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": "propAnn",
           "package": "compdata",
@@ -7707,6 +8324,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": "propAnn",
           "normalized": "Hom a b-\u003eHom c d",
@@ -7722,6 +8340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": "remA",
           "package": "compdata",
@@ -7731,6 +8350,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": "remA",
           "normalized": "a b-\u003ec b",
@@ -7746,6 +8366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function strips the annotations from a term over a\nfunctor with annotations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Annotation",
           "name": "stripA",
           "package": "compdata",
@@ -7756,6 +8377,7 @@
         "index": {
           "description": "This function strips the annotations from term over functor with annotations",
           "hierarchy": "Data Comp Multi Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Annotation",
           "name": "stripA",
           "package": "compdata",
@@ -7769,6 +8391,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functionality for automatically deriving boilerplate\n code using Template Haskell. Examples include instances of \u003ccode\u003e\u003ca\u003eHFunctor\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eHFoldable\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eHTraversable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "Derive",
           "package": "compdata",
@@ -7778,6 +8401,7 @@
         "index": {
           "description": "This module contains functionality for automatically deriving boilerplate code using Template Haskell Examples include instances of HFunctor HFoldable and HTraversable",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "Derive",
           "package": "compdata",
@@ -7792,6 +8416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature equality. An instance \u003ccode\u003eEqHF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eKEq (HTerm f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "EqHF",
           "package": "compdata",
@@ -7801,6 +8426,7 @@
         "index": {
           "description": "Signature equality An instance EqHF gives rise to an instance KEq HTerm",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "EqHF",
           "package": "compdata",
@@ -7815,6 +8441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigher-order functors that can be folded.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003ehfoldMap\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ehfoldr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "HFoldable",
           "package": "compdata",
@@ -7824,6 +8451,7 @@
         "index": {
           "description": "Higher-order functors that can be folded Minimal complete definition hfoldMap or hfoldr",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "HFoldable",
           "package": "compdata",
@@ -7838,6 +8466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class represents higher-order functors (Johann, Ghani, POPL\n '08) which are endofunctors on the category of endofunctors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "HFunctor",
           "package": "compdata",
@@ -7847,6 +8476,7 @@
         "index": {
           "description": "This class represents higher-order functors Johann Ghani POPL which are endofunctors on the category of endofunctors",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "HFunctor",
           "package": "compdata",
@@ -7860,6 +8490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "HTraversable",
           "package": "compdata",
@@ -7868,6 +8499,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "HTraversable",
           "package": "compdata",
@@ -7881,6 +8513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "KEq",
           "package": "compdata",
@@ -7889,6 +8522,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "KEq",
           "package": "compdata",
@@ -7902,6 +8536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "KShow",
           "package": "compdata",
@@ -7910,6 +8545,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "KShow",
           "package": "compdata",
@@ -7924,6 +8560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature ordering. An instance \u003ccode\u003eOrdHF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eOrd (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "OrdHF",
           "package": "compdata",
@@ -7933,6 +8570,7 @@
         "index": {
           "description": "Signature ordering An instance OrdHF gives rise to an instance Ord Term",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "OrdHF",
           "package": "compdata",
@@ -7947,6 +8585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature printing. An instance \u003ccode\u003eShowHF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eKShow (HTerm f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "ShowHF",
           "package": "compdata",
@@ -7956,6 +8595,7 @@
         "index": {
           "description": "Signature printing An instance ShowHF gives rise to an instance KShow HTerm",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "ShowHF",
           "package": "compdata",
@@ -7969,6 +8609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "compareHF",
           "package": "compdata",
@@ -7978,6 +8619,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "compareHF",
           "normalized": "a b c-\u003ea b d-\u003eOrdering",
@@ -7993,6 +8635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "eqHF",
           "package": "compdata",
@@ -8002,6 +8645,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "eqHF",
           "normalized": "a b c-\u003ea b d-\u003eBool",
@@ -8017,6 +8661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "keq",
           "package": "compdata",
@@ -8026,6 +8671,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "keq",
           "normalized": "a b-\u003ea c-\u003eBool",
@@ -8040,6 +8686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "kshow",
           "package": "compdata",
@@ -8049,6 +8696,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "kshow",
           "normalized": "a b-\u003eK String b",
@@ -8064,6 +8712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the name of a type class, where the first parameter is a higher-order\n  functor, lift it to sums of higher-order. Example: \u003ccode\u003eclass HShowF f where ...\u003c/code\u003e\n  is lifted as \u003ccode\u003einstance (HShowF f, HShowF g) =\u003e HShowF (f :+: g) where ... \u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "liftSum",
           "package": "compdata",
@@ -8074,6 +8723,7 @@
         "index": {
           "description": "Given the name of type class where the first parameter is higher-order functor lift it to sums of higher-order Example class HShowF where is lifted as instance HShowF HShowF HShowF where",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "liftSum",
           "normalized": "Name-\u003eQ[Dec]",
@@ -8090,6 +8740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eEqHF\u003c/a\u003e\u003c/code\u003e for a type constructor of any higher-order\n  kind taking at least two arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "makeEqHF",
           "package": "compdata",
@@ -8100,6 +8751,7 @@
         "index": {
           "description": "Derive an instance of EqHF for type constructor of any higher-order kind taking at least two arguments",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "makeEqHF",
           "normalized": "Name-\u003eQ[Dec]",
@@ -8116,6 +8768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eHFoldable\u003c/a\u003e\u003c/code\u003e for a type constructor of any higher-order\n  kind taking at least two arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "makeHFoldable",
           "package": "compdata",
@@ -8126,6 +8779,7 @@
         "index": {
           "description": "Derive an instance of HFoldable for type constructor of any higher-order kind taking at least two arguments",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "makeHFoldable",
           "normalized": "Name-\u003eQ[Dec]",
@@ -8142,6 +8796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eHFunctor\u003c/a\u003e\u003c/code\u003e for a type constructor of any higher-order\n  kind taking at least two arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "makeHFunctor",
           "package": "compdata",
@@ -8152,6 +8807,7 @@
         "index": {
           "description": "Derive an instance of HFunctor for type constructor of any higher-order kind taking at least two arguments",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "makeHFunctor",
           "normalized": "Name-\u003eQ[Dec]",
@@ -8168,6 +8824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eHTraversable\u003c/a\u003e\u003c/code\u003e for a type constructor of any\n  higher-order kind taking at least two arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "makeHTraversable",
           "package": "compdata",
@@ -8178,6 +8835,7 @@
         "index": {
           "description": "Derive an instance of HTraversable for type constructor of any higher-order kind taking at least two arguments",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "makeHTraversable",
           "normalized": "Name-\u003eQ[Dec]",
@@ -8194,6 +8852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eOrdHF\u003c/a\u003e\u003c/code\u003e for a type constructor of any parametric\n  kind taking at least three arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "makeOrdHF",
           "package": "compdata",
@@ -8204,6 +8863,7 @@
         "index": {
           "description": "Derive an instance of OrdHF for type constructor of any parametric kind taking at least three arguments",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "makeOrdHF",
           "normalized": "Name-\u003eQ[Dec]",
@@ -8220,6 +8880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eShowHF\u003c/a\u003e\u003c/code\u003e for a type constructor of any higher-order\n  kind taking at least two arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "makeShowHF",
           "package": "compdata",
@@ -8230,6 +8891,7 @@
         "index": {
           "description": "Derive an instance of ShowHF for type constructor of any higher-order kind taking at least two arguments",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "makeShowHF",
           "normalized": "Name-\u003eQ[Dec]",
@@ -8245,6 +8907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "showHF",
           "package": "compdata",
@@ -8254,6 +8917,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "showHF",
           "package": "compdata",
@@ -8267,6 +8931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "showHF'",
           "package": "compdata",
@@ -8276,6 +8941,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "showHF'",
           "package": "compdata",
@@ -8290,6 +8956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive smart constructors with products for a type constructor of any\n  parametric kind taking at least two arguments. The smart constructors are\n  similar to the ordinary constructors, but an \u003ccode\u003e\u003ca\u003einjectA\u003c/a\u003e\u003c/code\u003e is automatically\n  inserted. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "smartAConstructors",
           "package": "compdata",
@@ -8300,6 +8967,7 @@
         "index": {
           "description": "Derive smart constructors with products for type constructor of any parametric kind taking at least two arguments The smart constructors are similar to the ordinary constructors but an injectA is automatically inserted",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "smartAConstructors",
           "normalized": "Name-\u003eQ[Dec]",
@@ -8316,6 +8984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive smart constructors for a type constructor of any higher-order kind\n taking at least two arguments. The smart constructors are similar to the\n ordinary constructors, but an \u003ccode\u003e\u003ca\u003einject\u003c/a\u003e\u003c/code\u003e is automatically inserted. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Derive",
           "name": "smartConstructors",
           "package": "compdata",
@@ -8326,6 +8995,7 @@
         "index": {
           "description": "Derive smart constructors for type constructor of any higher-order kind taking at least two arguments The smart constructors are similar to the ordinary constructors but an inject is automatically inserted",
           "hierarchy": "Data Comp Multi Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Derive",
           "name": "smartConstructors",
           "normalized": "Name-\u003eQ[Dec]",
@@ -8342,6 +9012,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules defines the \u003ccode\u003e\u003ca\u003eDesugar\u003c/a\u003e\u003c/code\u003e type class for desugaring of terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -8351,6 +9022,7 @@
         "index": {
           "description": "This modules defines the Desugar type class for desugaring of terms",
           "hierarchy": "Data Comp Multi Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -8365,6 +9037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe desugaring term homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -8374,6 +9047,7 @@
         "index": {
           "description": "The desugaring term homomorphism",
           "hierarchy": "Data Comp Multi Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -8387,6 +9061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Desugar",
           "name": "desugHom",
           "package": "compdata",
@@ -8396,6 +9071,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Desugar",
           "name": "desugHom",
           "package": "compdata",
@@ -8409,6 +9085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Desugar",
           "name": "desugHom'",
           "package": "compdata",
@@ -8418,6 +9095,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Desugar",
           "name": "desugHom'",
           "package": "compdata",
@@ -8432,6 +9110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Desugar",
           "name": "desugar",
           "package": "compdata",
@@ -8442,6 +9121,7 @@
         "index": {
           "description": "Desugar term",
           "hierarchy": "Data Comp Multi Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Desugar",
           "name": "desugar",
           "normalized": "Term a-\u003eTerm b",
@@ -8457,6 +9137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift desugaring to annotated terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Desugar",
           "name": "desugarA",
           "package": "compdata",
@@ -8467,6 +9148,7 @@
         "index": {
           "description": "Lift desugaring to annotated terms",
           "hierarchy": "Data Comp Multi Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Desugar",
           "name": "desugarA",
           "normalized": "Term a-\u003eTerm b",
@@ -8482,6 +9164,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines equality for (higher-order) signatures, which lifts to\n equality for (higher-order) terms and contexts. All definitions are\n generalised versions of those in \u003ca\u003eData.Comp.Equality\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Equality",
           "name": "Equality",
           "package": "compdata",
@@ -8491,6 +9174,7 @@
         "index": {
           "description": "This module defines equality for higher-order signatures which lifts to equality for higher-order terms and contexts All definitions are generalised versions of those in Data.Comp.Equality",
           "hierarchy": "Data Comp Multi Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Equality",
           "name": "Equality",
           "package": "compdata",
@@ -8505,6 +9189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature equality. An instance \u003ccode\u003eEqHF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eKEq (HTerm f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Equality",
           "name": "EqHF",
           "package": "compdata",
@@ -8514,6 +9199,7 @@
         "index": {
           "description": "Signature equality An instance EqHF gives rise to an instance KEq HTerm",
           "hierarchy": "Data Comp Multi Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Equality",
           "name": "EqHF",
           "package": "compdata",
@@ -8527,6 +9213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Equality",
           "name": "KEq",
           "package": "compdata",
@@ -8535,6 +9222,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Equality",
           "name": "KEq",
           "package": "compdata",
@@ -8548,6 +9236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Equality",
           "name": "eqHF",
           "package": "compdata",
@@ -8557,6 +9246,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Equality",
           "name": "eqHF",
           "normalized": "a b c-\u003ea b d-\u003eBool",
@@ -8573,6 +9263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function implements equality of values of type \u003ccode\u003ef a\u003c/code\u003e modulo\nthe equality of \u003ccode\u003ea\u003c/code\u003e itself. If two functorial values are equal in this\nsense, \u003ccode\u003eeqMod\u003c/code\u003e returns a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e value containing a list of pairs\nconsisting of corresponding components of the two functorial\nvalues. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Equality",
           "name": "heqMod",
           "package": "compdata",
@@ -8583,6 +9274,7 @@
         "index": {
           "description": "This function implements equality of values of type modulo the equality of itself If two functorial values are equal in this sense eqMod returns Just value containing list of pairs consisting of corresponding components of the two functorial values",
           "hierarchy": "Data Comp Multi Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Equality",
           "name": "heqMod",
           "normalized": "a b c-\u003ea d c-\u003eMaybe[(E b,E d)]",
@@ -8598,6 +9290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Equality",
           "name": "keq",
           "package": "compdata",
@@ -8607,6 +9300,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Equality",
           "name": "keq",
           "normalized": "a b-\u003ea c-\u003eBool",
@@ -8622,6 +9316,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines type generic functions and recursive schemes\n along the lines of the Uniplate library. All definitions are\n generalised versions of those in \u003ca\u003eData.Comp.Generic\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Generic",
           "name": "Generic",
           "package": "compdata",
@@ -8631,6 +9326,7 @@
         "index": {
           "description": "This module defines type generic functions and recursive schemes along the lines of the Uniplate library All definitions are generalised versions of those in Data.Comp.Generic",
           "hierarchy": "Data Comp Multi Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Generic",
           "name": "Generic",
           "package": "compdata",
@@ -8645,6 +9341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes the generic depth of the given term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Generic",
           "name": "depth",
           "package": "compdata",
@@ -8655,6 +9352,7 @@
         "index": {
           "description": "This function computes the generic depth of the given term",
           "hierarchy": "Data Comp Multi Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Generic",
           "name": "depth",
           "package": "compdata",
@@ -8667,6 +9365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Generic",
           "name": "query",
           "package": "compdata",
@@ -8676,6 +9375,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Generic",
           "name": "query",
           "package": "compdata",
@@ -8689,6 +9389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes the generic size of the given term,\n i.e. the its number of subterm occurrences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Generic",
           "name": "size",
           "package": "compdata",
@@ -8699,6 +9400,7 @@
         "index": {
           "description": "This function computes the generic size of the given term i.e the its number of subterm occurrences",
           "hierarchy": "Data Comp Multi Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Generic",
           "name": "size",
           "package": "compdata",
@@ -8711,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Generic",
           "name": "subs",
           "package": "compdata",
@@ -8720,6 +9423,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Generic",
           "name": "subs",
           "normalized": "[E(Term a)]",
@@ -8734,6 +9438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Generic",
           "name": "subs'",
           "package": "compdata",
@@ -8743,6 +9448,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Generic",
           "name": "subs'",
           "normalized": "[E(a(Term b))]",
@@ -8758,6 +9464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function returns a list of all subterms of the given\n term. This function is similar to Uniplate's \u003ccode\u003euniverse\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Generic",
           "name": "subterms",
           "package": "compdata",
@@ -8768,6 +9475,7 @@
         "index": {
           "description": "This function returns list of all subterms of the given term This function is similar to Uniplate universe function",
           "hierarchy": "Data Comp Multi Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Generic",
           "name": "subterms",
           "normalized": "[E(Term a)]",
@@ -8783,6 +9491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function returns a list of all subterms of the given term\n that are constructed from a particular functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Generic",
           "name": "subterms'",
           "package": "compdata",
@@ -8793,6 +9502,7 @@
         "index": {
           "description": "This function returns list of all subterms of the given term that are constructed from particular functor",
           "hierarchy": "Data Comp Multi Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Generic",
           "name": "subterms'",
           "normalized": "[E(a(Term b))]",
@@ -8808,6 +9518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function transforms every subterm according to the given\n function in a bottom-up manner. This function is similar to\n Uniplate's \u003ccode\u003etransform\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Generic",
           "name": "transform",
           "package": "compdata",
@@ -8818,6 +9529,7 @@
         "index": {
           "description": "This function transforms every subterm according to the given function in bottom-up manner This function is similar to Uniplate transform function",
           "hierarchy": "Data Comp Multi Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Generic",
           "name": "transform",
           "normalized": "(Term a-\u003eTerm a)-\u003eTerm a-\u003eTerm a",
@@ -8833,6 +9545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003etransform\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Generic",
           "name": "transformM",
           "package": "compdata",
@@ -8843,6 +9556,7 @@
         "index": {
           "description": "Monadic version of transform",
           "hierarchy": "Data Comp Multi Generic",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Generic",
           "name": "transformM",
           "normalized": "NatM a(Term b)(Term b)-\u003eNatM a(Term b)(Term b)",
@@ -8858,6 +9572,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines higher-order foldable functors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "HFoldable",
           "package": "compdata",
@@ -8867,6 +9582,7 @@
         "index": {
           "description": "This module defines higher-order foldable functors",
           "hierarchy": "Data Comp Multi HFoldable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "HFoldable",
           "package": "compdata",
@@ -8881,6 +9597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigher-order functors that can be folded.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003ehfoldMap\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ehfoldr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "HFoldable",
           "package": "compdata",
@@ -8890,6 +9607,7 @@
         "index": {
           "description": "Higher-order functors that can be folded Minimal complete definition hfoldMap or hfoldr",
           "hierarchy": "Data Comp Multi HFoldable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "HFoldable",
           "package": "compdata",
@@ -8903,6 +9621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "hfold",
           "package": "compdata",
@@ -8912,6 +9631,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFoldable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "hfold",
           "package": "compdata",
@@ -8924,6 +9644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "hfoldMap",
           "package": "compdata",
@@ -8933,6 +9654,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFoldable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "hfoldMap",
           "package": "compdata",
@@ -8946,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "hfoldl",
           "package": "compdata",
@@ -8955,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFoldable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "hfoldl",
           "package": "compdata",
@@ -8967,6 +9691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "hfoldl1",
           "package": "compdata",
@@ -8976,6 +9701,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFoldable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "hfoldl1",
           "package": "compdata",
@@ -8988,6 +9714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "hfoldr",
           "package": "compdata",
@@ -8997,6 +9724,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFoldable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "hfoldr",
           "package": "compdata",
@@ -9009,6 +9737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "hfoldr1",
           "package": "compdata",
@@ -9018,6 +9747,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFoldable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "hfoldr1",
           "package": "compdata",
@@ -9030,6 +9760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "htoList",
           "package": "compdata",
@@ -9039,6 +9770,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFoldable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "htoList",
           "normalized": "[E a]",
@@ -9054,6 +9786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "kfoldl",
           "package": "compdata",
@@ -9063,6 +9796,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFoldable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "kfoldl",
           "package": "compdata",
@@ -9075,6 +9809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "kfoldr",
           "package": "compdata",
@@ -9084,6 +9819,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFoldable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFoldable",
           "name": "kfoldr",
           "package": "compdata",
@@ -9097,6 +9833,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines higher-order functors (Johann, Ghani, POPL\n '08), i.e. endofunctors on the category of endofunctors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "HFunctor",
           "package": "compdata",
@@ -9106,6 +9843,7 @@
         "index": {
           "description": "This module defines higher-order functors Johann Ghani POPL i.e endofunctors on the category of endofunctors",
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "HFunctor",
           "package": "compdata",
@@ -9120,6 +9858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents natural transformations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": ":-\u003e",
           "package": "compdata",
@@ -9129,6 +9868,7 @@
         "index": {
           "description": "This type represents natural transformations",
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": ":-\u003e",
           "package": "compdata",
@@ -9142,6 +9882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents co-cones from \u003ccode\u003ef\u003c/code\u003e to \u003ccode\u003ea\u003c/code\u003e. \u003ccode\u003ef :=\u003e a\u003c/code\u003e is\n isomorphic to f :-\u003e K a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": ":=\u003e",
           "package": "compdata",
@@ -9151,6 +9892,7 @@
         "index": {
           "description": "This type represents co-cones from to is isomorphic to",
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": ":=\u003e",
           "package": "compdata",
@@ -9164,6 +9906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type denotes the composition of two functor families.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": ":.:",
           "package": "compdata",
@@ -9173,6 +9916,7 @@
         "index": {
           "description": "This data type denotes the composition of two functor families",
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": ":.:",
           "package": "compdata",
@@ -9185,6 +9929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "A",
           "package": "compdata",
@@ -9193,6 +9938,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "A",
           "package": "compdata",
@@ -9205,6 +9951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "E",
           "package": "compdata",
@@ -9213,6 +9960,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "E",
           "package": "compdata",
@@ -9226,6 +9974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class represents higher-order functors (Johann, Ghani, POPL\n '08) which are endofunctors on the category of endofunctors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "HFunctor",
           "package": "compdata",
@@ -9235,6 +9984,7 @@
         "index": {
           "description": "This class represents higher-order functors Johann Ghani POPL which are endofunctors on the category of endofunctors",
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "HFunctor",
           "package": "compdata",
@@ -9249,6 +9999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity Functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "I",
           "package": "compdata",
@@ -9258,6 +10009,7 @@
         "index": {
           "description": "The identity Functor",
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "I",
           "package": "compdata",
@@ -9271,6 +10023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parametrised constant functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "K",
           "package": "compdata",
@@ -9280,6 +10033,7 @@
         "index": {
           "description": "The parametrised constant functor",
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "K",
           "package": "compdata",
@@ -9292,6 +10046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "NatM",
           "package": "compdata",
@@ -9300,6 +10055,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "NatM",
           "package": "compdata",
@@ -9335,6 +10091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "Comp",
           "package": "compdata",
@@ -9344,6 +10101,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "Comp",
           "package": "compdata",
@@ -9402,6 +10160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA higher-order functor \u003ccode\u003ef\u003c/code\u003e also maps a natural transformation\n \u003ccode\u003eg :-\u003e h\u003c/code\u003e to a natural transformation \u003ccode\u003ef g :-\u003e f h\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "hfmap",
           "package": "compdata",
@@ -9412,6 +10171,7 @@
         "index": {
           "description": "higher-order functor also maps natural transformation to natural transformation",
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "hfmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -9426,6 +10186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "runE",
           "package": "compdata",
@@ -9435,6 +10196,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HFunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HFunctor",
           "name": "runE",
           "normalized": "a)-\u003eE b-\u003ea",
@@ -9516,6 +10278,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines higher-order traversable functors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HTraversable",
           "name": "HTraversable",
           "package": "compdata",
@@ -9525,6 +10288,7 @@
         "index": {
           "description": "This module defines higher-order traversable functors",
           "hierarchy": "Data Comp Multi HTraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HTraversable",
           "name": "HTraversable",
           "package": "compdata",
@@ -9538,6 +10302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HTraversable",
           "name": "HTraversable",
           "package": "compdata",
@@ -9546,6 +10311,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HTraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HTraversable",
           "name": "HTraversable",
           "package": "compdata",
@@ -9560,6 +10326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap each element of a structure to a monadic action, evaluate\n these actions from left to right, and collect the results.\n\u003c/p\u003e\u003cp\u003eAlternative type in terms of natural transformations using\n functor composition \u003ccode\u003e:.:\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003ehmapM :: Monad m =\u003e (a :-\u003e m :.: b) -\u003e t a :-\u003e m :.: (t b)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HTraversable",
           "name": "hmapM",
           "package": "compdata",
@@ -9570,6 +10337,7 @@
         "index": {
           "description": "Map each element of structure to monadic action evaluate these actions from left to right and collect the results Alternative type in terms of natural transformations using functor composition hmapM Monad",
           "hierarchy": "Data Comp Multi HTraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HTraversable",
           "name": "hmapM",
           "normalized": "NatM a b c-\u003eNatM a(d b)(d c)",
@@ -9584,6 +10352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.HTraversable",
           "name": "htraverse",
           "package": "compdata",
@@ -9593,6 +10362,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi HTraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.HTraversable",
           "name": "htraverse",
           "normalized": "NatM a b c-\u003eNatM a(d b)(d c)",
@@ -9608,6 +10378,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functionality to number the components of a\n functorial value with consecutive integers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Number",
           "name": "Number",
           "package": "compdata",
@@ -9617,6 +10388,7 @@
         "index": {
           "description": "This module provides functionality to number the components of functorial value with consecutive integers",
           "hierarchy": "Data Comp Multi Number",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Number",
           "name": "Number",
           "package": "compdata",
@@ -9630,6 +10402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Number",
           "name": "HTraversable",
           "package": "compdata",
@@ -9638,6 +10411,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Number",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Number",
           "name": "HTraversable",
           "package": "compdata",
@@ -9652,6 +10426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used for numbering components of a functorial value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Number",
           "name": "Numbered",
           "package": "compdata",
@@ -9661,6 +10436,7 @@
         "index": {
           "description": "This type is used for numbering components of functorial value",
           "hierarchy": "Data Comp Multi Number",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Number",
           "name": "Numbered",
           "package": "compdata",
@@ -9674,6 +10450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Number",
           "name": "Numbered",
           "package": "compdata",
@@ -9683,6 +10460,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Number",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Number",
           "name": "Numbered",
           "normalized": "Numbered(Int,a b)",
@@ -9699,6 +10477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function numbers the components of the given functorial\n value with consecutive integers starting at 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Number",
           "name": "number",
           "package": "compdata",
@@ -9709,6 +10488,7 @@
         "index": {
           "description": "This function numbers the components of the given functorial value with consecutive integers starting at",
           "hierarchy": "Data Comp Multi Number",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Number",
           "name": "number",
           "normalized": "a b-\u003ea(Numbered b)",
@@ -9723,6 +10503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Number",
           "name": "unNumbered",
           "package": "compdata",
@@ -9732,6 +10513,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Number",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Number",
           "name": "unNumbered",
           "normalized": "Numbered a-\u003ea",
@@ -9748,6 +10530,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides operators on higher-order functors. All definitions are\n generalised versions of those in \u003ca\u003eData.Comp.Ops\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": "Ops",
           "package": "compdata",
@@ -9757,6 +10540,7 @@
         "index": {
           "description": "This module provides operators on higher-order functors All definitions are generalised versions of those in Data.Comp.Ops",
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": "Ops",
           "package": "compdata",
@@ -9771,6 +10555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type adds a constant product to a\n signature. Alternatively, this could have also been defined as\n\u003c/p\u003e\u003cpre\u003edata (f :&: a) (g ::  * -\u003e *) e = f g e :&: a e\u003c/pre\u003e\u003cp\u003eThis is too general, however, for example for \u003ccode\u003eproductHHom\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": ":&:",
           "package": "compdata",
@@ -9780,6 +10565,7 @@
         "index": {
           "description": "This data type adds constant product to signature Alternatively this could have also been defined as data This is too general however for example for productHHom",
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": ":&:",
           "package": "compdata",
@@ -9792,6 +10578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": ":*:",
           "package": "compdata",
@@ -9800,6 +10587,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": ":*:",
           "package": "compdata",
@@ -9813,6 +10601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type defining coproducts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": ":+:",
           "package": "compdata",
@@ -9822,6 +10611,7 @@
         "index": {
           "description": "Data type defining coproducts",
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": ":+:",
           "package": "compdata",
@@ -9835,6 +10625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe subsumption relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": ":\u003c:",
           "package": "compdata",
@@ -9844,6 +10635,7 @@
         "index": {
           "description": "The subsumption relation",
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": ":\u003c:",
           "package": "compdata",
@@ -9857,6 +10649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class defines how to distribute an annotation over a sum of\n signatures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": "DistAnn",
           "package": "compdata",
@@ -9866,6 +10659,7 @@
         "index": {
           "description": "This class defines how to distribute an annotation over sum of signatures",
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": "DistAnn",
           "package": "compdata",
@@ -9879,6 +10673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": "RemA",
           "package": "compdata",
@@ -9887,6 +10682,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": "RemA",
           "package": "compdata",
@@ -9900,6 +10696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": ":*:",
           "package": "compdata",
@@ -9909,6 +10706,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": ":*:",
           "package": "compdata",
@@ -9921,6 +10719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": "Inl",
           "package": "compdata",
@@ -9930,6 +10729,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": "Inl",
           "package": "compdata",
@@ -9943,6 +10743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": "Inr",
           "package": "compdata",
@@ -9952,6 +10753,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": "Inr",
           "package": "compdata",
@@ -9991,6 +10793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": "fst",
           "package": "compdata",
@@ -10000,6 +10803,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": "fst",
           "normalized": "(a*b)c-\u003ea c",
@@ -10014,6 +10818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": "inj",
           "package": "compdata",
@@ -10023,6 +10828,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": "inj",
           "normalized": "a b-\u003ec b",
@@ -10038,6 +10844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function injects an annotation over a signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": "injectA",
           "package": "compdata",
@@ -10048,6 +10855,7 @@
         "index": {
           "description": "This function injects an annotation over signature",
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": "injectA",
           "normalized": "a-\u003eb c-\u003ed c",
@@ -10062,6 +10870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": "proj",
           "package": "compdata",
@@ -10071,6 +10880,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": "proj",
           "package": "compdata",
@@ -10083,6 +10893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": "projectA",
           "package": "compdata",
@@ -10092,6 +10903,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": "projectA",
           "normalized": "a b-\u003e(c b d)",
@@ -10106,6 +10918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": "remA",
           "package": "compdata",
@@ -10115,6 +10928,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": "remA",
           "normalized": "a b-\u003ec b",
@@ -10129,6 +10943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ops",
           "name": "snd",
           "package": "compdata",
@@ -10138,6 +10953,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ops",
           "name": "snd",
           "normalized": "(a*b)c-\u003eb c",
@@ -10153,6 +10969,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines ordering of signatures, which lifts to ordering of\n terms and contexts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ordering",
           "name": "Ordering",
           "package": "compdata",
@@ -10162,6 +10979,7 @@
         "index": {
           "description": "This module defines ordering of signatures which lifts to ordering of terms and contexts",
           "hierarchy": "Data Comp Multi Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ordering",
           "name": "Ordering",
           "package": "compdata",
@@ -10175,6 +10993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ordering",
           "name": "KOrd",
           "package": "compdata",
@@ -10183,6 +11002,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ordering",
           "name": "KOrd",
           "package": "compdata",
@@ -10197,6 +11017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature ordering. An instance \u003ccode\u003eOrdHF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eOrd (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ordering",
           "name": "OrdHF",
           "package": "compdata",
@@ -10206,6 +11027,7 @@
         "index": {
           "description": "Signature ordering An instance OrdHF gives rise to an instance Ord Term",
           "hierarchy": "Data Comp Multi Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ordering",
           "name": "OrdHF",
           "package": "compdata",
@@ -10219,6 +11041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ordering",
           "name": "compareHF",
           "package": "compdata",
@@ -10228,6 +11051,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ordering",
           "name": "compareHF",
           "normalized": "a b c-\u003ea b d-\u003eOrdering",
@@ -10243,6 +11067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Ordering",
           "name": "kcompare",
           "package": "compdata",
@@ -10252,6 +11077,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Ordering",
           "name": "kcompare",
           "normalized": "a b-\u003ea c-\u003eOrdering",
@@ -10267,6 +11093,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines showing of (higher-order) signatures, which lifts to\n showing of (higher-order) terms and contexts. All definitions are\n generalised versions of those in \u003ca\u003eData.Comp.Show\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Show",
           "name": "Show",
           "package": "compdata",
@@ -10276,6 +11103,7 @@
         "index": {
           "description": "This module defines showing of higher-order signatures which lifts to showing of higher-order terms and contexts All definitions are generalised versions of those in Data.Comp.Show",
           "hierarchy": "Data Comp Multi Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Show",
           "name": "Show",
           "package": "compdata",
@@ -10290,6 +11118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature printing. An instance \u003ccode\u003eShowHF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eKShow (HTerm f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Show",
           "name": "ShowHF",
           "package": "compdata",
@@ -10299,6 +11128,7 @@
         "index": {
           "description": "Signature printing An instance ShowHF gives rise to an instance KShow HTerm",
           "hierarchy": "Data Comp Multi Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Show",
           "name": "ShowHF",
           "package": "compdata",
@@ -10312,6 +11142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Show",
           "name": "showHF",
           "package": "compdata",
@@ -10321,6 +11152,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Show",
           "name": "showHF",
           "package": "compdata",
@@ -10334,6 +11166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Show",
           "name": "showHF'",
           "package": "compdata",
@@ -10343,6 +11176,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Show",
           "name": "showHF'",
           "package": "compdata",
@@ -10357,6 +11191,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines sums on signatures. All definitions are\n generalised versions of those in \u003ca\u003eData.Comp.Sum\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "Sum",
           "package": "compdata",
@@ -10366,6 +11201,7 @@
         "index": {
           "description": "This module defines sums on signatures All definitions are generalised versions of those in Data.Comp.Sum",
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "Sum",
           "package": "compdata",
@@ -10380,6 +11216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type defining coproducts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": ":+:",
           "package": "compdata",
@@ -10389,6 +11226,7 @@
         "index": {
           "description": "Data type defining coproducts",
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": ":+:",
           "package": "compdata",
@@ -10402,6 +11240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe subsumption relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": ":\u003c:",
           "package": "compdata",
@@ -10411,6 +11250,7 @@
         "index": {
           "description": "The subsumption relation",
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": ":\u003c:",
           "package": "compdata",
@@ -10424,6 +11264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a term over a sub signature to a term over larger signature. If the\n signature \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003edeepInject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e\n instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject",
           "package": "compdata",
@@ -10434,6 +11275,7 @@
         "index": {
           "description": "Inject term over sub signature to term over larger signature If the signature is compound of atomic signatures use deepInject instead",
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject",
           "package": "compdata",
@@ -10447,6 +11289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject10",
           "package": "compdata",
@@ -10456,6 +11299,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject10",
           "package": "compdata",
@@ -10469,6 +11313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject2",
           "package": "compdata",
@@ -10478,6 +11323,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject2",
           "package": "compdata",
@@ -10491,6 +11337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject3",
           "package": "compdata",
@@ -10500,6 +11347,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject3",
           "package": "compdata",
@@ -10513,6 +11361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject4",
           "package": "compdata",
@@ -10522,6 +11371,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject4",
           "package": "compdata",
@@ -10535,6 +11385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject5",
           "package": "compdata",
@@ -10544,6 +11395,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject5",
           "package": "compdata",
@@ -10557,6 +11409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject6",
           "package": "compdata",
@@ -10566,6 +11419,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject6",
           "package": "compdata",
@@ -10579,6 +11433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject7",
           "package": "compdata",
@@ -10588,6 +11443,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject7",
           "package": "compdata",
@@ -10601,6 +11457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject8",
           "package": "compdata",
@@ -10610,6 +11467,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject8",
           "package": "compdata",
@@ -10623,6 +11481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject9",
           "package": "compdata",
@@ -10632,6 +11491,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepInject9",
           "package": "compdata",
@@ -10646,6 +11506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to coerce a term\u003cem\u003econtext to a term\u003c/em\u003econtext over a sub-signature. If\n the signature \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use\n \u003ccode\u003edeepProject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject",
           "package": "compdata",
@@ -10656,6 +11517,7 @@
         "index": {
           "description": "Tries to coerce term context to term context over sub-signature If the signature is compound of atomic signatures use deepProject instead",
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject",
           "package": "compdata",
@@ -10669,6 +11531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject10",
           "package": "compdata",
@@ -10678,6 +11541,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject10",
           "package": "compdata",
@@ -10691,6 +11555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject2",
           "package": "compdata",
@@ -10700,6 +11565,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject2",
           "package": "compdata",
@@ -10713,6 +11579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject3",
           "package": "compdata",
@@ -10722,6 +11589,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject3",
           "package": "compdata",
@@ -10735,6 +11603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject4",
           "package": "compdata",
@@ -10744,6 +11613,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject4",
           "package": "compdata",
@@ -10757,6 +11627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject5",
           "package": "compdata",
@@ -10766,6 +11637,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject5",
           "package": "compdata",
@@ -10779,6 +11651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject6",
           "package": "compdata",
@@ -10788,6 +11661,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject6",
           "package": "compdata",
@@ -10801,6 +11675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject7",
           "package": "compdata",
@@ -10810,6 +11685,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject7",
           "package": "compdata",
@@ -10823,6 +11699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject8",
           "package": "compdata",
@@ -10832,6 +11709,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject8",
           "package": "compdata",
@@ -10845,6 +11723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject9",
           "package": "compdata",
@@ -10854,6 +11733,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "deepProject9",
           "package": "compdata",
@@ -10867,6 +11747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj",
           "package": "compdata",
@@ -10876,6 +11757,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj",
           "normalized": "a b-\u003ec b",
@@ -10890,6 +11772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj10",
           "package": "compdata",
@@ -10899,6 +11782,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj10",
           "normalized": "a(a(a(a(a(a(a(a(a a))))))))b c-\u003ed b c",
@@ -10913,6 +11797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj2",
           "package": "compdata",
@@ -10922,6 +11807,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj2",
           "normalized": "a a b c-\u003ed b c",
@@ -10936,6 +11822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj3",
           "package": "compdata",
@@ -10945,6 +11832,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj3",
           "normalized": "a(a a)b c-\u003ed b c",
@@ -10959,6 +11847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj4",
           "package": "compdata",
@@ -10968,6 +11857,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj4",
           "normalized": "a(a(a a))b c-\u003ed b c",
@@ -10982,6 +11872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj5",
           "package": "compdata",
@@ -10991,6 +11882,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj5",
           "normalized": "a(a(a(a a)))b c-\u003ed b c",
@@ -11005,6 +11897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj6",
           "package": "compdata",
@@ -11014,6 +11907,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj6",
           "normalized": "a(a(a(a(a a))))b c-\u003ed b c",
@@ -11028,6 +11922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj7",
           "package": "compdata",
@@ -11037,6 +11932,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj7",
           "normalized": "a(a(a(a(a(a a)))))b c-\u003ed b c",
@@ -11051,6 +11947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj8",
           "package": "compdata",
@@ -11060,6 +11957,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj8",
           "normalized": "a(a(a(a(a(a(a a))))))b c-\u003ed b c",
@@ -11074,6 +11972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj9",
           "package": "compdata",
@@ -11083,6 +11982,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inj9",
           "normalized": "a(a(a(a(a(a(a(a a)))))))b c-\u003ed b c",
@@ -11098,6 +11998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a term where the outermost layer is a sub signature. If the signature\n \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003einject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject",
           "package": "compdata",
@@ -11108,6 +12009,7 @@
         "index": {
           "description": "Inject term where the outermost layer is sub signature If the signature is compound of atomic signatures use inject instead",
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject",
           "normalized": "a(Cxt b c d)-\u003eCxt b c d",
@@ -11122,6 +12024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject10",
           "package": "compdata",
@@ -11131,6 +12034,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject10",
           "normalized": "a(a(a(a(a(a(a(a(a a))))))))(Cxt b c d)e-\u003eCxt b c d e",
@@ -11145,6 +12049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject2",
           "package": "compdata",
@@ -11154,6 +12059,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject2",
           "normalized": "a a(Cxt b c d)e-\u003eCxt b c d e",
@@ -11168,6 +12074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject3",
           "package": "compdata",
@@ -11177,6 +12084,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject3",
           "normalized": "a(a a)(Cxt b c d)e-\u003eCxt b c d e",
@@ -11191,6 +12099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject4",
           "package": "compdata",
@@ -11200,6 +12109,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject4",
           "normalized": "a(a(a a))(Cxt b c d)e-\u003eCxt b c d e",
@@ -11214,6 +12124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject5",
           "package": "compdata",
@@ -11223,6 +12134,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject5",
           "normalized": "a(a(a(a a)))(Cxt b c d)e-\u003eCxt b c d e",
@@ -11237,6 +12149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject6",
           "package": "compdata",
@@ -11246,6 +12159,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject6",
           "normalized": "a(a(a(a(a a))))(Cxt b c d)e-\u003eCxt b c d e",
@@ -11260,6 +12174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject7",
           "package": "compdata",
@@ -11269,6 +12184,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject7",
           "normalized": "a(a(a(a(a(a a)))))(Cxt b c d)e-\u003eCxt b c d e",
@@ -11283,6 +12199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject8",
           "package": "compdata",
@@ -11292,6 +12209,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject8",
           "normalized": "a(a(a(a(a(a(a a))))))(Cxt b c d)e-\u003eCxt b c d e",
@@ -11306,6 +12224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject9",
           "package": "compdata",
@@ -11315,6 +12234,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "inject9",
           "normalized": "a(a(a(a(a(a(a(a a)))))))(Cxt b c d)e-\u003eCxt b c d e",
@@ -11329,6 +12249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "injectConst",
           "package": "compdata",
@@ -11338,6 +12259,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "injectConst",
           "normalized": "Const a-\u003eCxt b c d",
@@ -11353,6 +12275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "injectConst2",
           "package": "compdata",
@@ -11362,6 +12285,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "injectConst2",
           "normalized": "Const(a a)-\u003eCxt b c d",
@@ -11377,6 +12301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "injectConst3",
           "package": "compdata",
@@ -11386,6 +12311,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "injectConst3",
           "normalized": "Const(a(a a))-\u003eCxt b c d",
@@ -11402,6 +12328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function injects a whole context into another context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "injectCxt",
           "package": "compdata",
@@ -11412,6 +12339,7 @@
         "index": {
           "description": "This function injects whole context into another context",
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "injectCxt",
           "normalized": "Cxt a b(Cxt c d e)-\u003eCxt c d e",
@@ -11428,6 +12356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function lifts the given functor to a context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "liftCxt",
           "package": "compdata",
@@ -11438,6 +12367,7 @@
         "index": {
           "description": "This function lifts the given functor to context",
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "liftCxt",
           "normalized": "a b-\u003eContext c b",
@@ -11453,6 +12383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj",
           "package": "compdata",
@@ -11462,6 +12393,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj",
           "package": "compdata",
@@ -11474,6 +12406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj10",
           "package": "compdata",
@@ -11483,6 +12416,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj10",
           "normalized": "a b c-\u003eMaybe(d(d(d(d(d(d(d(d(d d))))))))b c)",
@@ -11497,6 +12431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj2",
           "package": "compdata",
@@ -11506,6 +12441,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj2",
           "normalized": "a b c-\u003eMaybe(d d b c)",
@@ -11520,6 +12456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj3",
           "package": "compdata",
@@ -11529,6 +12466,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj3",
           "normalized": "a b c-\u003eMaybe(d(d d)b c)",
@@ -11543,6 +12481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj4",
           "package": "compdata",
@@ -11552,6 +12491,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj4",
           "normalized": "a b c-\u003eMaybe(d(d(d d))b c)",
@@ -11566,6 +12506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj5",
           "package": "compdata",
@@ -11575,6 +12516,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj5",
           "normalized": "a b c-\u003eMaybe(d(d(d(d d)))b c)",
@@ -11589,6 +12531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj6",
           "package": "compdata",
@@ -11598,6 +12541,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj6",
           "normalized": "a b c-\u003eMaybe(d(d(d(d(d d))))b c)",
@@ -11612,6 +12556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj7",
           "package": "compdata",
@@ -11621,6 +12566,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj7",
           "normalized": "a b c-\u003eMaybe(d(d(d(d(d(d d)))))b c)",
@@ -11635,6 +12581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj8",
           "package": "compdata",
@@ -11644,6 +12591,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj8",
           "normalized": "a b c-\u003eMaybe(d(d(d(d(d(d(d d))))))b c)",
@@ -11658,6 +12606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj9",
           "package": "compdata",
@@ -11667,6 +12616,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "proj9",
           "normalized": "a b c-\u003eMaybe(d(d(d(d(d(d(d(d d)))))))b c)",
@@ -11682,6 +12632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject the outermost layer of a term to a sub signature. If the signature\n \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003eproject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "project",
           "package": "compdata",
@@ -11692,6 +12643,7 @@
         "index": {
           "description": "Project the outermost layer of term to sub signature If the signature is compound of atomic signatures use project instead",
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "project",
           "package": "compdata",
@@ -11704,6 +12656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "project10",
           "package": "compdata",
@@ -11713,6 +12666,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "project10",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e(e(e(e(e(e(e e))))))))(Cxt a b c)d)",
@@ -11727,6 +12681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "project2",
           "package": "compdata",
@@ -11736,6 +12691,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "project2",
           "normalized": "Cxt a b c d-\u003eMaybe(e e(Cxt a b c)d)",
@@ -11750,6 +12706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "project3",
           "package": "compdata",
@@ -11759,6 +12716,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "project3",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e e)(Cxt a b c)d)",
@@ -11773,6 +12731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "project4",
           "package": "compdata",
@@ -11782,6 +12741,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "project4",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e e))(Cxt a b c)d)",
@@ -11796,6 +12756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "project5",
           "package": "compdata",
@@ -11805,6 +12766,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "project5",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e(e e)))(Cxt a b c)d)",
@@ -11819,6 +12781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "project6",
           "package": "compdata",
@@ -11828,6 +12791,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "project6",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e(e(e e))))(Cxt a b c)d)",
@@ -11842,6 +12806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "project7",
           "package": "compdata",
@@ -11851,6 +12816,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "project7",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e(e(e(e e)))))(Cxt a b c)d)",
@@ -11865,6 +12831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "project8",
           "package": "compdata",
@@ -11874,6 +12841,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "project8",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e(e(e(e(e e))))))(Cxt a b c)d)",
@@ -11888,6 +12856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "project9",
           "package": "compdata",
@@ -11897,6 +12866,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "project9",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e(e(e(e(e(e e)))))))(Cxt a b c)d)",
@@ -11911,6 +12881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "projectConst",
           "package": "compdata",
@@ -11920,6 +12891,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "projectConst",
           "package": "compdata",
@@ -11934,6 +12906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies the given context with hole type \u003ccode\u003ea\u003c/code\u003e to a\n family \u003ccode\u003ef\u003c/code\u003e of contexts (possibly terms) indexed by \u003ccode\u003ea\u003c/code\u003e. That is,\n each hole \u003ccode\u003eh\u003c/code\u003e is replaced by the context \u003ccode\u003ef h\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Sum",
           "name": "substHoles",
           "package": "compdata",
@@ -11944,6 +12917,7 @@
         "index": {
           "description": "This function applies the given context with hole type to family of contexts possibly terms indexed by That is each hole is replaced by the context",
           "hierarchy": "Data Comp Multi Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Sum",
           "name": "substHoles",
           "normalized": "(a-\u003eCxt b c d)-\u003eCxt e f a-\u003eCxt b c d",
@@ -11960,6 +12934,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the central notion of mutual recursive (or, higher-order)\n \u003cem\u003eterms\u003c/em\u003e and its generalisation to (higher-order) contexts. All definitions\n are generalised versions of those in \u003ca\u003eData.Comp.Term\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "Term",
           "package": "compdata",
@@ -11969,6 +12944,7 @@
         "index": {
           "description": "This module defines the central notion of mutual recursive or higher-order terms and its generalisation to higher-order contexts All definitions are generalised versions of those in Data.Comp.Term",
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "Term",
           "package": "compdata",
@@ -11982,6 +12958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "Const",
           "package": "compdata",
@@ -11990,6 +12967,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "Const",
           "package": "compdata",
@@ -12004,6 +12982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA context might contain holes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "Context",
           "package": "compdata",
@@ -12013,6 +12992,7 @@
         "index": {
           "description": "context might contain holes",
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "Context",
           "package": "compdata",
@@ -12027,6 +13007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type represents contexts over a signature. Contexts are\n terms containing zero or more holes. The first type parameter is\n supposed to be one of the phantom types \u003ccode\u003e\u003ca\u003eHole\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNoHole\u003c/a\u003e\u003c/code\u003e. The\n second parameter is the signature of the context. The third\n parameter is the type family of the holes. The last parameter is\n the index/label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "Cxt",
           "package": "compdata",
@@ -12036,6 +13017,7 @@
         "index": {
           "description": "This data type represents contexts over signature Contexts are terms containing zero or more holes The first type parameter is supposed to be one of the phantom types Hole and NoHole The second parameter is the signature of the context The third parameter is the type family of the holes The last parameter is the index label",
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "Cxt",
           "package": "compdata",
@@ -12050,6 +13032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type that signals that a \u003ccode\u003e\u003ca\u003eCxt\u003c/a\u003e\u003c/code\u003e might contain holes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "Hole",
           "package": "compdata",
@@ -12059,6 +13042,7 @@
         "index": {
           "description": "Phantom type that signals that Cxt might contain holes",
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "Hole",
           "package": "compdata",
@@ -12073,6 +13057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type that signals that a \u003ccode\u003e\u003ca\u003eCxt\u003c/a\u003e\u003c/code\u003e does not contain holes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "NoHole",
           "package": "compdata",
@@ -12082,6 +13067,7 @@
         "index": {
           "description": "Phantom type that signals that Cxt does not contain holes",
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "NoHole",
           "package": "compdata",
@@ -12096,6 +13082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (higher-order) term is a context with no holes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "Term",
           "package": "compdata",
@@ -12105,6 +13092,7 @@
         "index": {
           "description": "higher-order term is context with no holes",
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "Term",
           "package": "compdata",
@@ -12118,6 +13106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "Hole",
           "package": "compdata",
@@ -12127,6 +13116,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "Hole",
           "normalized": "a b-\u003eCxt Hole c a b",
@@ -12142,6 +13132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "Term",
           "package": "compdata",
@@ -12151,6 +13142,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "Term",
           "normalized": "a(Cxt b a c)d-\u003eCxt b a c d",
@@ -12167,6 +13159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function converts a constant to a term. This assumes that\n the argument is indeed a constant, i.e. does not have a value for\n the argument type of the functor f.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "constTerm",
           "package": "compdata",
@@ -12177,6 +13170,7 @@
         "index": {
           "description": "This function converts constant to term This assumes that the argument is indeed constant i.e does not have value for the argument type of the functor",
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "constTerm",
           "normalized": "Const a-\u003eTerm a",
@@ -12192,6 +13186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "simpCxt",
           "package": "compdata",
@@ -12201,6 +13196,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "simpCxt",
           "normalized": "a b c-\u003eContext a b c",
@@ -12217,6 +13213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast a term over a signature to a context over the same signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "toCxt",
           "package": "compdata",
@@ -12227,6 +13224,7 @@
         "index": {
           "description": "Cast term over signature to context over the same signature",
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "toCxt",
           "normalized": "Term a-\u003eContext a b",
@@ -12243,6 +13241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function unravels the given term at the topmost layer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Term",
           "name": "unTerm",
           "package": "compdata",
@@ -12253,6 +13252,7 @@
         "index": {
           "description": "This function unravels the given term at the topmost layer",
           "hierarchy": "Data Comp Multi Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Term",
           "name": "unTerm",
           "normalized": "Term a b-\u003ea(Term a)b",
@@ -12269,6 +13269,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines an abstract notion of (bound) variables in compositional\n data types, and scoped substitution. Capture-avoidance is \u003cem\u003enot\u003c/em\u003e taken into\n account. All definitions are generalised versions of those in\n \u003ca\u003eData.Comp.Variables\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "Variables",
           "package": "compdata",
@@ -12278,6 +13279,7 @@
         "index": {
           "description": "This module defines an abstract notion of bound variables in compositional data types and scoped substitution Capture-avoidance is not taken into account All definitions are generalised versions of those in Data.Comp.Variables",
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "Variables",
           "package": "compdata",
@@ -12291,6 +13293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "CxtSubst",
           "package": "compdata",
@@ -12299,6 +13302,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "CxtSubst",
           "package": "compdata",
@@ -12312,6 +13316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "GSubst",
           "package": "compdata",
@@ -12320,6 +13325,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "GSubst",
           "package": "compdata",
@@ -12334,6 +13340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis multiparameter class defines functors with variables. An instance\n  \u003ccode\u003eHasVar f v\u003c/code\u003e denotes that values over \u003ccode\u003ef\u003c/code\u003e might contain and bind variables of\n  type \u003ccode\u003ev\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "HasVars",
           "package": "compdata",
@@ -12343,6 +13350,7 @@
         "index": {
           "description": "This multiparameter class defines functors with variables An instance HasVar denotes that values over might contain and bind variables of type",
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "HasVars",
           "package": "compdata",
@@ -12356,6 +13364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "Subst",
           "package": "compdata",
@@ -12364,6 +13373,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "Subst",
           "package": "compdata",
@@ -12377,6 +13387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "appSubst",
           "package": "compdata",
@@ -12386,6 +13397,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "appSubst",
           "normalized": "GSubst a b-\u003ec-\u003ec",
@@ -12402,6 +13414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates the set of variables bound by the \u003ccode\u003ef\u003c/code\u003e constructor\n for each argument of the constructor. For example for a\n non-recursive let binding:\n \u003ccode\u003e\n data Let i e = Let Var (e i) (e i)\n instance HasVars Let Var where\n   bindsVars (Let v x y) = Map.fromList [(y, (Set.singleton v))]\n \u003c/code\u003e\n If, instead, the let binding is recursive, the methods has to\n be implemented like this:\n \u003ccode\u003e\n   bindsVars (Let v x y) = Map.fromList [(x, (Set.singleton v)),\n                                         (y, (Set.singleton v))]\n \u003c/code\u003e\n This indicates that the scope of the bound variable also\n extends to the right-hand side of the variable binding.\n\u003c/p\u003e\u003cp\u003eThe default implementation returns the empty map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "bindsVars",
           "package": "compdata",
@@ -12412,6 +13425,7 @@
         "index": {
           "description": "Indicates the set of variables bound by the constructor for each argument of the constructor For example for non-recursive let binding data Let Let Var instance HasVars Let Var where bindsVars Let Map.fromList Set.singleton If instead the let binding is recursive the methods has to be implemented like this bindsVars Let Map.fromList Set.singleton Set.singleton This indicates that the scope of the bound variable also extends to the right-hand side of the variable binding The default implementation returns the empty map",
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "bindsVars",
           "package": "compdata",
@@ -12426,6 +13440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two substitutions \u003ccode\u003es1\u003c/code\u003e and \u003ccode\u003es2\u003c/code\u003e. That is,\napplying the resulting substitution is equivalent to first applying\n\u003ccode\u003es2\u003c/code\u003e and then \u003ccode\u003es1\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "compSubst",
           "package": "compdata",
@@ -12436,6 +13451,7 @@
         "index": {
           "description": "This function composes two substitutions s1 and s2 That is applying the resulting substitution is equivalent to first applying s2 and then s1",
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "compSubst",
           "normalized": "CxtSubst a b c d-\u003eCxtSubst a b c d-\u003eCxtSubst a b c d",
@@ -12452,6 +13468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function checks whether a variable is contained in a context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "containsVar",
           "package": "compdata",
@@ -12462,6 +13479,7 @@
         "index": {
           "description": "This function checks whether variable is contained in context",
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "containsVar",
           "package": "compdata",
@@ -12476,6 +13494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator pairs every argument of a given constructor with\n the set of (newly) bound variables according to the corresponding\n \u003ccode\u003e\u003ca\u003eHasVars\u003c/a\u003e\u003c/code\u003e type class instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "getBoundVars",
           "package": "compdata",
@@ -12486,6 +13505,7 @@
         "index": {
           "description": "This combinator pairs every argument of given constructor with the set of newly bound variables according to the corresponding HasVars type class instance",
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "getBoundVars",
           "normalized": "a b c-\u003ea(b*K(Set d))c",
@@ -12502,6 +13522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether the \u003ccode\u003ef\u003c/code\u003e constructor is a variable. The\n default implementation returns \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "isVar",
           "package": "compdata",
@@ -12512,6 +13533,7 @@
         "index": {
           "description": "Indicates whether the constructor is variable The default implementation returns Nothing",
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "isVar",
           "package": "compdata",
@@ -12526,6 +13548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes the list of variables occurring in a context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "variableList",
           "package": "compdata",
@@ -12536,6 +13559,7 @@
         "index": {
           "description": "This function computes the list of variables occurring in context",
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "variableList",
           "normalized": "[a]",
@@ -12552,6 +13576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes the set of variables occurring in a context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "variables",
           "package": "compdata",
@@ -12562,6 +13587,7 @@
         "index": {
           "description": "This function computes the set of variables occurring in context",
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "variables",
           "package": "compdata",
@@ -12575,6 +13601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes the set of variables occurring in a context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "variables'",
           "package": "compdata",
@@ -12585,6 +13612,7 @@
         "index": {
           "description": "This function computes the set of variables occurring in context",
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "variables'",
           "package": "compdata",
@@ -12597,6 +13625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi.Variables",
           "name": "varsToHoles",
           "package": "compdata",
@@ -12606,6 +13635,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Multi Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi.Variables",
           "name": "varsToHoles",
           "normalized": "Term a-\u003eContext a(K b)",
@@ -12622,6 +13652,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the infrastructure necessary to use\n \u003cem\u003eGeneralised Compositional Data Types\u003c/em\u003e. Generalised Compositional Data Types \n is an extension of Compositional Data Types with mutually recursive\n data types, and more generally GADTs. Examples of usage are bundled with the\n package in the library \u003ccode\u003eexamples/Examples/Multi\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Multi",
           "name": "Multi",
           "package": "compdata",
@@ -12631,6 +13662,7 @@
         "index": {
           "description": "This module defines the infrastructure necessary to use Generalised Compositional Data Types Generalised Compositional Data Types is an extension of Compositional Data Types with mutually recursive data types and more generally GADTs Examples of usage are bundled with the package in the library examples Examples Multi",
           "hierarchy": "Data Comp Multi",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Multi",
           "name": "Multi",
           "package": "compdata",
@@ -12645,6 +13677,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the notion of algebras and catamorphisms, and their\n generalizations to e.g. monadic versions and other (co)recursion schemes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "Algebra",
           "package": "compdata",
@@ -12654,6 +13687,7 @@
         "index": {
           "description": "This module defines the notion of algebras and catamorphisms and their generalizations to e.g monadic versions and other co recursion schemes",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "Algebra",
           "package": "compdata",
@@ -12668,6 +13702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents an algebra over a difunctor \u003ccode\u003ef\u003c/code\u003e and carrier \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "Alg",
           "package": "compdata",
@@ -12677,6 +13712,7 @@
         "index": {
           "description": "This type represents an algebra over difunctor and carrier",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "Alg",
           "package": "compdata",
@@ -12691,6 +13727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic algebra. It is similar to \u003ccode\u003e\u003ca\u003eAlg\u003c/a\u003e\u003c/code\u003e but\n  the return type is monadic. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "AlgM",
           "package": "compdata",
@@ -12700,6 +13737,7 @@
         "index": {
           "description": "This type represents monadic algebra It is similar to Alg but the return type is monadic",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "AlgM",
           "package": "compdata",
@@ -12714,6 +13752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic algebra, but where the covariant argument is\n  also a monadic computation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "AlgM'",
           "package": "compdata",
@@ -12723,6 +13762,7 @@
         "index": {
           "description": "This type represents monadic algebra but where the covariant argument is also monadic computation",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "AlgM'",
           "package": "compdata",
@@ -12736,6 +13776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "Compose",
           "package": "compdata",
@@ -12743,6 +13784,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "Compose",
           "package": "compdata",
@@ -12757,6 +13799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a context function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "CxtFun",
           "package": "compdata",
@@ -12766,6 +13809,7 @@
         "index": {
           "description": "This type represents context function",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "CxtFun",
           "package": "compdata",
@@ -12780,6 +13824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic context function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "CxtFunM",
           "package": "compdata",
@@ -12789,6 +13834,7 @@
         "index": {
           "description": "This type represents monadic context function",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "CxtFunM",
           "package": "compdata",
@@ -12803,6 +13849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a term homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "Hom",
           "package": "compdata",
@@ -12812,6 +13859,7 @@
         "index": {
           "description": "This type represents term homomorphism",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "Hom",
           "package": "compdata",
@@ -12826,6 +13874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic term homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "HomM",
           "package": "compdata",
@@ -12835,6 +13884,7 @@
         "index": {
           "description": "This type represents monadic term homomorphism",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "HomM",
           "package": "compdata",
@@ -12849,6 +13899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a signature function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "SigFun",
           "package": "compdata",
@@ -12858,6 +13909,7 @@
         "index": {
           "description": "This type represents signature function",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "SigFun",
           "package": "compdata",
@@ -12872,6 +13924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic signature function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "SigFunM",
           "package": "compdata",
@@ -12881,6 +13934,7 @@
         "index": {
           "description": "This type represents monadic signature function",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "SigFunM",
           "package": "compdata",
@@ -12894,6 +13948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "Compose",
           "package": "compdata",
@@ -12902,6 +13957,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "Compose",
           "package": "compdata",
@@ -12916,6 +13972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a whole context into another context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appCxt",
           "package": "compdata",
@@ -12926,6 +13983,7 @@
         "index": {
           "description": "This function applies whole context into another context",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appCxt",
           "normalized": "Cxt Hole a b(Cxt c a b d)-\u003eCxt c a b d",
@@ -12942,6 +14000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a term homomorphism recursively to a term/context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appHom",
           "package": "compdata",
@@ -12952,6 +14011,7 @@
         "index": {
           "description": "Apply term homomorphism recursively to term context",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appHom",
           "normalized": "Hom a b-\u003eCxtFun a b",
@@ -12968,6 +14028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a term homomorphism recursively to a term/context. This is\n a top-down variant of \u003ccode\u003e\u003ca\u003eappHom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appHom'",
           "package": "compdata",
@@ -12978,6 +14039,7 @@
         "index": {
           "description": "Apply term homomorphism recursively to term context This is top-down variant of appHom",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appHom'",
           "normalized": "Hom a b-\u003eCxtFun a b",
@@ -12994,6 +14056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic term homomorphism recursively to a term/context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appHomM",
           "package": "compdata",
@@ -13004,6 +14067,7 @@
         "index": {
           "description": "Apply monadic term homomorphism recursively to term context",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appHomM",
           "normalized": "HomM a b c-\u003eCxtFunM a b c",
@@ -13020,6 +14084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic term homomorphism recursively to a\n term/context. This is a top-down variant of \u003ccode\u003e\u003ca\u003eappHomM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appHomM'",
           "package": "compdata",
@@ -13030,6 +14095,7 @@
         "index": {
           "description": "Apply monadic term homomorphism recursively to term context This is top-down variant of appHomM",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appHomM'",
           "normalized": "HomM a b c-\u003eCxtFunM a b c",
@@ -13046,6 +14112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a signature function to the given context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appSigFun",
           "package": "compdata",
@@ -13056,6 +14123,7 @@
         "index": {
           "description": "This function applies signature function to the given context",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appSigFun",
           "normalized": "SigFun a b-\u003eCxtFun a b",
@@ -13072,6 +14140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a signature function to the given context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appSigFun'",
           "package": "compdata",
@@ -13082,6 +14151,7 @@
         "index": {
           "description": "This function applies signature function to the given context",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appSigFun'",
           "normalized": "SigFun a b-\u003eCxtFun a b",
@@ -13098,6 +14168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a monadic signature function to the given context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appSigFunM",
           "package": "compdata",
@@ -13108,6 +14179,7 @@
         "index": {
           "description": "This function applies monadic signature function to the given context",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appSigFunM",
           "normalized": "SigFunM a b c-\u003eCxtFunM a b c",
@@ -13124,6 +14196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a monadic signature function to the given\n context. This is a top-down variant of \u003ccode\u003e\u003ca\u003eappSigFunM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appSigFunM'",
           "package": "compdata",
@@ -13134,6 +14207,7 @@
         "index": {
           "description": "This function applies monadic signature function to the given context This is top-down variant of appSigFunM",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appSigFunM'",
           "normalized": "SigFunM a b c-\u003eCxtFunM a b c",
@@ -13150,6 +14224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA restricted form of |appHomM| which only works for terms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appTHomM",
           "package": "compdata",
@@ -13160,6 +14235,7 @@
         "index": {
           "description": "restricted form of appHomM which only works for terms",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appTHomM",
           "normalized": "HomM a b c-\u003eTerm b d-\u003ea(Term c d)",
@@ -13176,6 +14252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA restricted form of |appHomM'| which only works for terms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appTHomM'",
           "package": "compdata",
@@ -13186,6 +14263,7 @@
         "index": {
           "description": "restricted form of appHomM which only works for terms",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appTHomM'",
           "normalized": "HomM a b c-\u003eTerm b d-\u003ea(Term c d)",
@@ -13202,6 +14280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA restricted form of |appSigFunM| which only works for terms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appTSigFunM",
           "package": "compdata",
@@ -13212,6 +14291,7 @@
         "index": {
           "description": "restricted form of appSigFunM which only works for terms",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appTSigFunM",
           "normalized": "SigFunM a b c-\u003eTerm b d-\u003ea(Term c d)",
@@ -13228,6 +14308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA restricted form of |appSigFunM'| which only works for terms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appTSigFunM'",
           "package": "compdata",
@@ -13238,6 +14319,7 @@
         "index": {
           "description": "restricted form of appSigFunM which only works for terms",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "appTSigFunM'",
           "normalized": "SigFunM a b c-\u003eTerm b d-\u003ea(Term c d)",
@@ -13254,6 +14336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a catamorphism from the given algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "cata",
           "package": "compdata",
@@ -13264,6 +14347,7 @@
         "index": {
           "description": "Construct catamorphism from the given algebra",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "cata",
           "normalized": "Alg a b-\u003eTerm a-\u003eb",
@@ -13279,6 +14363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalisation of \u003ccode\u003e\u003ca\u003ecata\u003c/a\u003e\u003c/code\u003e from terms over \u003ccode\u003ef\u003c/code\u003e to contexts over \u003ccode\u003ef\u003c/code\u003e, where\n  the holes have the type of the algebra carrier. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "cata'",
           "package": "compdata",
@@ -13289,6 +14374,7 @@
         "index": {
           "description": "generalisation of cata from terms over to contexts over where the holes have the type of the algebra carrier",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "cata'",
           "normalized": "Alg a b-\u003eCxt c a b b-\u003eb",
@@ -13304,6 +14390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic catamorphism from the given monadic algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "cataM",
           "package": "compdata",
@@ -13314,6 +14401,7 @@
         "index": {
           "description": "Construct monadic catamorphism from the given monadic algebra",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "cataM",
           "normalized": "AlgM a b c-\u003eNatM a(Term b)c",
@@ -13329,6 +14417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic catamorphism from the given monadic algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "cataM'",
           "package": "compdata",
@@ -13339,6 +14428,7 @@
         "index": {
           "description": "Construct monadic catamorphism from the given monadic algebra",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "cataM'",
           "normalized": "AlgM' a b c-\u003eNatM a(Term b)c",
@@ -13355,6 +14445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose an algebra with a term homomorphism to get a new algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compAlg",
           "package": "compdata",
@@ -13365,6 +14456,7 @@
         "index": {
           "description": "Compose an algebra with term homomorphism to get new algebra",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compAlg",
           "normalized": "Alg a b-\u003eHom c a-\u003eAlg c b",
@@ -13381,6 +14473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a monadic algebra with a monadic term homomorphism to get a new\n  monadic algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compAlgM",
           "package": "compdata",
@@ -13391,6 +14484,7 @@
         "index": {
           "description": "Compose monadic algebra with monadic term homomorphism to get new monadic algebra",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compAlgM",
           "normalized": "AlgM a b c-\u003eHomM a d b-\u003eAlgM a d c",
@@ -13407,6 +14501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a monadic algebra with a term homomorphism to get a new monadic\n  algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compAlgM'",
           "package": "compdata",
@@ -13417,6 +14512,7 @@
         "index": {
           "description": "Compose monadic algebra with term homomorphism to get new monadic algebra",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compAlgM'",
           "normalized": "AlgM a b c-\u003eHom d b-\u003eAlgM a d c",
@@ -13433,6 +14529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two term homomorphisms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compHom",
           "package": "compdata",
@@ -13443,6 +14540,7 @@
         "index": {
           "description": "Compose two term homomorphisms",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compHom",
           "normalized": "Hom a b-\u003eHom c a-\u003eHom c b",
@@ -13459,6 +14557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two monadic term homomorphisms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compHomM",
           "package": "compdata",
@@ -13469,6 +14568,7 @@
         "index": {
           "description": "Compose two monadic term homomorphisms",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compHomM",
           "normalized": "HomM a b c-\u003eHomM a d b-\u003eHomM a d c",
@@ -13485,6 +14585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two signature functions. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compSigFun",
           "package": "compdata",
@@ -13495,6 +14596,7 @@
         "index": {
           "description": "This function composes two signature functions",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compSigFun",
           "normalized": "SigFun a b-\u003eSigFun c a-\u003eSigFun c b",
@@ -13511,6 +14613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two monadic signature functions. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compSigFunM",
           "package": "compdata",
@@ -13521,6 +14624,7 @@
         "index": {
           "description": "This function composes two monadic signature functions",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "compSigFunM",
           "normalized": "SigFunM a b c-\u003eSigFunM a d b-\u003eSigFunM a d c",
@@ -13537,6 +14641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a catamorphism for contexts over \u003ccode\u003ef\u003c/code\u003e with holes of type \u003ccode\u003eb\u003c/code\u003e, from\n  the given algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "free",
           "package": "compdata",
@@ -13547,6 +14652,7 @@
         "index": {
           "description": "Construct catamorphism for contexts over with holes of type from the given algebra",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "free",
           "normalized": "Alg a b-\u003e(c-\u003eb)-\u003eCxt d a b c-\u003eb",
@@ -13562,6 +14668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic catamorphism for contexts over \u003ccode\u003ef\u003c/code\u003e with holes of type\n  \u003ccode\u003eb\u003c/code\u003e, from the given monadic algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "freeM",
           "package": "compdata",
@@ -13572,6 +14679,7 @@
         "index": {
           "description": "Construct monadic catamorphism for contexts over with holes of type from the given monadic algebra",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "freeM",
           "normalized": "AlgM a b c-\u003eNatM a d c-\u003eNatM a(Cxt e b c d)c",
@@ -13587,6 +14695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic catamorphism for contexts over \u003ccode\u003ef\u003c/code\u003e with holes of type\n  \u003ccode\u003eb\u003c/code\u003e, from the given monadic algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "freeM'",
           "package": "compdata",
@@ -13597,6 +14706,7 @@
         "index": {
           "description": "Construct monadic catamorphism for contexts over with holes of type from the given monadic algebra",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "freeM'",
           "normalized": "AlgM' a b c-\u003eNatM a d c-\u003eNatM a(Cxt e b c d)c",
@@ -13612,6 +14722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "getCompose",
           "package": "compdata",
@@ -13620,6 +14731,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "getCompose",
           "package": "compdata",
@@ -13634,6 +14746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts the given signature function to the canonical term homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "hom",
           "package": "compdata",
@@ -13644,6 +14757,7 @@
         "index": {
           "description": "Lifts the given signature function to the canonical term homomorphism",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "hom",
           "normalized": "SigFun a b-\u003eHom a b",
@@ -13659,6 +14773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift the give monadic signature function to a monadic term homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "hom'",
           "package": "compdata",
@@ -13669,6 +14784,7 @@
         "index": {
           "description": "Lift the give monadic signature function to monadic term homomorphism",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "hom'",
           "normalized": "SigFunM a b c-\u003eHomM a b c",
@@ -13684,6 +14800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift the given signature function to a monadic term homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "homM",
           "package": "compdata",
@@ -13694,6 +14811,7 @@
         "index": {
           "description": "Lift the given signature function to monadic term homomorphism",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "homM",
           "normalized": "SigFun a b-\u003eHomM c a b",
@@ -13709,6 +14827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift the given signature function to a monadic signature function. Note that\n  term homomorphisms are instances of signature functions. Hence this function\n  also applies to term homomorphisms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "sigFunM",
           "package": "compdata",
@@ -13719,6 +14838,7 @@
         "index": {
           "description": "Lift the given signature function to monadic signature function Note that term homomorphisms are instances of signature functions Hence this function also applies to term homomorphisms",
           "hierarchy": "Data Comp MultiParam Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Algebra",
           "name": "sigFunM",
           "normalized": "SigFun a b-\u003eSigFunM c a b",
@@ -13735,6 +14855,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines annotations on signatures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "Annotation",
           "package": "compdata",
@@ -13744,6 +14865,7 @@
         "index": {
           "description": "This module defines annotations on signatures",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "Annotation",
           "package": "compdata",
@@ -13758,6 +14880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type adds a constant product to a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": ":&:",
           "package": "compdata",
@@ -13767,6 +14890,7 @@
         "index": {
           "description": "This data type adds constant product to signature",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": ":&:",
           "package": "compdata",
@@ -13780,6 +14904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal product of signatures (higher-order difunctors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": ":*:",
           "package": "compdata",
@@ -13789,6 +14914,7 @@
         "index": {
           "description": "Formal product of signatures higher-order difunctors",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": ":*:",
           "package": "compdata",
@@ -13802,6 +14928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class defines how to distribute an annotation over a sum of\n  signatures. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "DistAnn",
           "package": "compdata",
@@ -13811,6 +14938,7 @@
         "index": {
           "description": "This class defines how to distribute an annotation over sum of signatures",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "DistAnn",
           "package": "compdata",
@@ -13824,6 +14952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "RemA",
           "package": "compdata",
@@ -13832,6 +14961,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "RemA",
           "package": "compdata",
@@ -13890,6 +15020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate each node of a term with a constant value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "ann",
           "package": "compdata",
@@ -13900,6 +15031,7 @@
         "index": {
           "description": "Annotate each node of term with constant value",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "ann",
           "normalized": "a-\u003eCxtFun b c",
@@ -13915,6 +15047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject an annotation over a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "injectA",
           "package": "compdata",
@@ -13925,6 +15058,7 @@
         "index": {
           "description": "Inject an annotation over signature",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "injectA",
           "normalized": "a-\u003eb c d-\u003ee c d",
@@ -13940,6 +15074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a function with a domain constructed from a higher-order difunctor\n  to a function with a domain constructed with the same higher-order difunctor,\n  but with an additional annotation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "liftA",
           "package": "compdata",
@@ -13950,6 +15085,7 @@
         "index": {
           "description": "Transform function with domain constructed from higher-order difunctor to function with domain constructed with the same higher-order difunctor but with an additional annotation",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "liftA",
           "normalized": "(a b c-\u003ed)-\u003ee b c-\u003ed",
@@ -13965,6 +15101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a function with a domain constructed from a higher-order difunctor\n  to a function with a domain constructed with the same higher-order difunctor,\n  but with an additional annotation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "liftA'",
           "package": "compdata",
@@ -13975,6 +15112,7 @@
         "index": {
           "description": "Transform function with domain constructed from higher-order difunctor to function with domain constructed with the same higher-order difunctor but with an additional annotation",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "liftA'",
           "normalized": "(a b c-\u003eCxt d a e f)-\u003eg b c-\u003eCxt d g e f",
@@ -13991,6 +15129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is similar to \u003ccode\u003e\u003ca\u003eproject\u003c/a\u003e\u003c/code\u003e but applies to signatures\n  with an annotation which is then ignored. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "project'",
           "package": "compdata",
@@ -14001,6 +15140,7 @@
         "index": {
           "description": "This function is similar to project but applies to signatures with an annotation which is then ignored",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "project'",
           "normalized": "Cxt a b c d e-\u003eMaybe(f c(Cxt a b c d)e)",
@@ -14016,6 +15156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject an annotation from a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "projectA",
           "package": "compdata",
@@ -14026,6 +15167,7 @@
         "index": {
           "description": "Project an annotation from signature",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "projectA",
           "normalized": "a b c-\u003e(d b c e)",
@@ -14041,6 +15183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a term homomorphism over signatures \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e to a term homomorphism\n over the same signatures, but extended with annotations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "propAnn",
           "package": "compdata",
@@ -14051,6 +15194,7 @@
         "index": {
           "description": "Lift term homomorphism over signatures and to term homomorphism over the same signatures but extended with annotations",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "propAnn",
           "normalized": "Hom a b-\u003eHom c d",
@@ -14067,6 +15211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a monadic term homomorphism over signatures \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e to a monadic\n  term homomorphism over the same signatures, but extended with annotations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "propAnnM",
           "package": "compdata",
@@ -14077,6 +15222,7 @@
         "index": {
           "description": "Lift monadic term homomorphism over signatures and to monadic term homomorphism over the same signatures but extended with annotations",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "propAnnM",
           "normalized": "HomM a b c-\u003eHomM a d e",
@@ -14093,6 +15239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove annotations from a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "remA",
           "package": "compdata",
@@ -14103,6 +15250,7 @@
         "index": {
           "description": "Remove annotations from signature",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "remA",
           "normalized": "a b c-\u003ed b c",
@@ -14118,6 +15266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the annotations from a term over a higher-order difunctor with\n  annotations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "stripA",
           "package": "compdata",
@@ -14128,6 +15277,7 @@
         "index": {
           "description": "Strip the annotations from term over higher-order difunctor with annotations",
           "hierarchy": "Data Comp MultiParam Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Annotation",
           "name": "stripA",
           "package": "compdata",
@@ -14141,6 +15291,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functionality for automatically deriving boilerplate\n code using Template Haskell. Examples include instances of \u003ccode\u003e\u003ca\u003eHDifunctor\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eShowHD\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eEqHD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "Derive",
           "package": "compdata",
@@ -14150,6 +15301,7 @@
         "index": {
           "description": "This module contains functionality for automatically deriving boilerplate code using Template Haskell Examples include instances of HDifunctor ShowHD and EqHD",
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "Derive",
           "package": "compdata",
@@ -14164,6 +15316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature equality. An instance \u003ccode\u003eEqHD f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eEq (Term f i)\u003c/code\u003e. The equality test is performed inside the \u003ccode\u003e\u003ca\u003eFreshM\u003c/a\u003e\u003c/code\u003e monad for\n  generating fresh identifiers. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "EqHD",
           "package": "compdata",
@@ -14173,6 +15326,7 @@
         "index": {
           "description": "Signature equality An instance EqHD gives rise to an instance Eq Term The equality test is performed inside the FreshM monad for generating fresh identifiers",
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "EqHD",
           "package": "compdata",
@@ -14187,6 +15341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class represents higher-order difunctors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "HDifunctor",
           "package": "compdata",
@@ -14196,6 +15351,7 @@
         "index": {
           "description": "This class represents higher-order difunctors",
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "HDifunctor",
           "package": "compdata",
@@ -14210,6 +15366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature ordering. An instance \u003ccode\u003eOrdHD f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eOrd (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "OrdHD",
           "package": "compdata",
@@ -14219,6 +15376,7 @@
         "index": {
           "description": "Signature ordering An instance OrdHD gives rise to an instance Ord Term",
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "OrdHD",
           "package": "compdata",
@@ -14233,6 +15391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature printing. An instance \u003ccode\u003eShowHD f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eShow (Term f i)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "ShowHD",
           "package": "compdata",
@@ -14242,6 +15401,7 @@
         "index": {
           "description": "Signature printing An instance ShowHD gives rise to an instance Show Term",
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "ShowHD",
           "package": "compdata",
@@ -14255,6 +15415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "compareHD",
           "package": "compdata",
@@ -14264,6 +15425,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "compareHD",
           "normalized": "a Name b c-\u003ea Name b d-\u003eFreshM Ordering",
@@ -14279,6 +15441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "eqHD",
           "package": "compdata",
@@ -14288,6 +15451,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "eqHD",
           "normalized": "a Name b c-\u003ea Name b d-\u003eFreshM Bool",
@@ -14304,6 +15468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the name of a type class, where the first parameter is a higher-order\n  difunctor, lift it to sums of higher-order difunctors. Example:\n  \u003ccode\u003eclass ShowHD f where ...\u003c/code\u003e is lifted as\n  \u003ccode\u003einstance (ShowHD f, ShowHD g) =\u003e ShowHD (f :+: g) where ... \u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "liftSum",
           "package": "compdata",
@@ -14314,6 +15479,7 @@
         "index": {
           "description": "Given the name of type class where the first parameter is higher-order difunctor lift it to sums of higher-order difunctors Example class ShowHD where is lifted as instance ShowHD ShowHD ShowHD where",
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "liftSum",
           "normalized": "Name-\u003eQ[Dec]",
@@ -14330,6 +15496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eEqHD\u003c/a\u003e\u003c/code\u003e for a type constructor of any parametric\n  kind taking at least three arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "makeEqHD",
           "package": "compdata",
@@ -14340,6 +15507,7 @@
         "index": {
           "description": "Derive an instance of EqHD for type constructor of any parametric kind taking at least three arguments",
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "makeEqHD",
           "normalized": "Name-\u003eQ[Dec]",
@@ -14356,6 +15524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eHDifunctor\u003c/a\u003e\u003c/code\u003e for a type constructor of any parametric\n  kind taking at least three arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "makeHDifunctor",
           "package": "compdata",
@@ -14366,6 +15535,7 @@
         "index": {
           "description": "Derive an instance of HDifunctor for type constructor of any parametric kind taking at least three arguments",
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "makeHDifunctor",
           "normalized": "Name-\u003eQ[Dec]",
@@ -14382,6 +15552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eOrdHD\u003c/a\u003e\u003c/code\u003e for a type constructor of any parametric\n  kind taking at least three arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "makeOrdHD",
           "package": "compdata",
@@ -14392,6 +15563,7 @@
         "index": {
           "description": "Derive an instance of OrdHD for type constructor of any parametric kind taking at least three arguments",
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "makeOrdHD",
           "normalized": "Name-\u003eQ[Dec]",
@@ -14408,6 +15580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eShowHD\u003c/a\u003e\u003c/code\u003e for a type constructor of any parametric\n  kind taking at least three arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "makeShowHD",
           "package": "compdata",
@@ -14418,6 +15591,7 @@
         "index": {
           "description": "Derive an instance of ShowHD for type constructor of any parametric kind taking at least three arguments",
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "makeShowHD",
           "normalized": "Name-\u003eQ[Dec]",
@@ -14433,6 +15607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "showHD",
           "package": "compdata",
@@ -14442,6 +15617,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "showHD",
           "normalized": "a Name(K(FreshM String))b-\u003eFreshM String",
@@ -14458,6 +15634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive smart constructors with annotations for a higher-order difunctor. The\n smart constructors are similar to the ordinary constructors, but a\n 'injectA . hdimap Var id' is automatically inserted. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "smartAConstructors",
           "package": "compdata",
@@ -14468,6 +15645,7 @@
         "index": {
           "description": "Derive smart constructors with annotations for higher-order difunctor The smart constructors are similar to the ordinary constructors but injectA hdimap Var id is automatically inserted",
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "smartAConstructors",
           "normalized": "Name-\u003eQ[Dec]",
@@ -14484,6 +15662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive smart constructors for a higher-order difunctor. The smart\n constructors are similar to the ordinary constructors, but a\n 'inject . hdimap Var id' is automatically inserted. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "smartConstructors",
           "package": "compdata",
@@ -14494,6 +15673,7 @@
         "index": {
           "description": "Derive smart constructors for higher-order difunctor The smart constructors are similar to the ordinary constructors but inject hdimap Var id is automatically inserted",
           "hierarchy": "Data Comp MultiParam Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Derive",
           "name": "smartConstructors",
           "normalized": "Name-\u003eQ[Dec]",
@@ -14510,6 +15690,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules defines the \u003ccode\u003e\u003ca\u003eDesugar\u003c/a\u003e\u003c/code\u003e type class for desugaring of terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -14519,6 +15700,7 @@
         "index": {
           "description": "This modules defines the Desugar type class for desugaring of terms",
           "hierarchy": "Data Comp MultiParam Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -14533,6 +15715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe desugaring term homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -14542,6 +15725,7 @@
         "index": {
           "description": "The desugaring term homomorphism",
           "hierarchy": "Data Comp MultiParam Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -14555,6 +15739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Desugar",
           "name": "desugHom",
           "package": "compdata",
@@ -14564,6 +15749,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Desugar",
           "name": "desugHom",
           "package": "compdata",
@@ -14577,6 +15763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Desugar",
           "name": "desugHom'",
           "package": "compdata",
@@ -14586,6 +15773,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Desugar",
           "name": "desugHom'",
           "normalized": "a b(Cxt c d b e)-\u003eCxt c d b e",
@@ -14602,6 +15790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Desugar",
           "name": "desugar",
           "package": "compdata",
@@ -14612,6 +15801,7 @@
         "index": {
           "description": "Desugar term",
           "hierarchy": "Data Comp MultiParam Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Desugar",
           "name": "desugar",
           "normalized": "Term a-\u003eTerm b",
@@ -14627,6 +15817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift desugaring to annotated terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Desugar",
           "name": "desugarA",
           "package": "compdata",
@@ -14637,6 +15828,7 @@
         "index": {
           "description": "Lift desugaring to annotated terms",
           "hierarchy": "Data Comp MultiParam Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Desugar",
           "name": "desugarA",
           "normalized": "Term a-\u003eTerm b",
@@ -14652,6 +15844,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines equality for signatures, which lifts to equality for\n terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Equality",
           "name": "Equality",
           "package": "compdata",
@@ -14661,6 +15854,7 @@
         "index": {
           "description": "This module defines equality for signatures which lifts to equality for terms",
           "hierarchy": "Data Comp MultiParam Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Equality",
           "name": "Equality",
           "package": "compdata",
@@ -14675,6 +15869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature equality. An instance \u003ccode\u003eEqHD f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eEq (Term f i)\u003c/code\u003e. The equality test is performed inside the \u003ccode\u003e\u003ca\u003eFreshM\u003c/a\u003e\u003c/code\u003e monad for\n  generating fresh identifiers. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Equality",
           "name": "EqHD",
           "package": "compdata",
@@ -14684,6 +15879,7 @@
         "index": {
           "description": "Signature equality An instance EqHD gives rise to an instance Eq Term The equality test is performed inside the FreshM monad for generating fresh identifiers",
           "hierarchy": "Data Comp MultiParam Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Equality",
           "name": "EqHD",
           "package": "compdata",
@@ -14698,6 +15894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality on parametric values. The equality test is performed inside the\n \u003ccode\u003e\u003ca\u003eFreshM\u003c/a\u003e\u003c/code\u003e monad for generating fresh identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Equality",
           "name": "PEq",
           "package": "compdata",
@@ -14707,6 +15904,7 @@
         "index": {
           "description": "Equality on parametric values The equality test is performed inside the FreshM monad for generating fresh identifiers",
           "hierarchy": "Data Comp MultiParam Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Equality",
           "name": "PEq",
           "package": "compdata",
@@ -14720,6 +15918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Equality",
           "name": "eqHD",
           "package": "compdata",
@@ -14729,6 +15928,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Equality",
           "name": "eqHD",
           "normalized": "a Name b c-\u003ea Name b d-\u003eFreshM Bool",
@@ -14744,6 +15944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Equality",
           "name": "peq",
           "package": "compdata",
@@ -14753,6 +15954,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Equality",
           "name": "peq",
           "normalized": "a b-\u003ea c-\u003eFreshM Bool",
@@ -14768,6 +15970,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a monad for generating fresh, abstract names, useful\n e.g. for defining equality on terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.FreshM",
           "name": "FreshM",
           "package": "compdata",
@@ -14777,6 +15980,7 @@
         "index": {
           "description": "This module defines monad for generating fresh abstract names useful e.g for defining equality on terms",
           "hierarchy": "Data Comp MultiParam FreshM",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.FreshM",
           "name": "FreshM",
           "package": "compdata",
@@ -14791,6 +15995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad for generating fresh (abstract) names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.FreshM",
           "name": "FreshM",
           "package": "compdata",
@@ -14800,6 +16005,7 @@
         "index": {
           "description": "Monad for generating fresh abstract names",
           "hierarchy": "Data Comp MultiParam FreshM",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.FreshM",
           "name": "FreshM",
           "package": "compdata",
@@ -14814,6 +16020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract notion of a name (the constructor is hidden).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.FreshM",
           "name": "Name",
           "package": "compdata",
@@ -14823,6 +16030,7 @@
         "index": {
           "description": "Abstract notion of name the constructor is hidden",
           "hierarchy": "Data Comp MultiParam FreshM",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.FreshM",
           "name": "Name",
           "package": "compdata",
@@ -14837,6 +16045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a computation that uses fresh names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.FreshM",
           "name": "evalFreshM",
           "package": "compdata",
@@ -14847,6 +16056,7 @@
         "index": {
           "description": "Evaluate computation that uses fresh names",
           "hierarchy": "Data Comp MultiParam FreshM",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.FreshM",
           "name": "evalFreshM",
           "normalized": "FreshM a-\u003ea",
@@ -14863,6 +16073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the type tag of a name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.FreshM",
           "name": "nameCoerce",
           "package": "compdata",
@@ -14873,6 +16084,7 @@
         "index": {
           "description": "Change the type tag of name",
           "hierarchy": "Data Comp MultiParam FreshM",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.FreshM",
           "name": "nameCoerce",
           "normalized": "Name a-\u003eName b",
@@ -14889,6 +16101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the given computation with the next available name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.FreshM",
           "name": "withName",
           "package": "compdata",
@@ -14899,6 +16112,7 @@
         "index": {
           "description": "Run the given computation with the next available name",
           "hierarchy": "Data Comp MultiParam FreshM",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.FreshM",
           "name": "withName",
           "normalized": "(Name a-\u003eFreshM b)-\u003eFreshM b",
@@ -14915,6 +16129,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines higher-order difunctors, a hybrid between higher-order\n functors (Johann, Ghani, POPL '08), and difunctors (Meijer, Hutton, FPCA\n '95). Higher-order difunctors are used to define signatures for\n compositional parametric generalised data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "HDifunctor",
           "package": "compdata",
@@ -14924,6 +16139,7 @@
         "index": {
           "description": "This module defines higher-order difunctors hybrid between higher-order functors Johann Ghani POPL and difunctors Meijer Hutton FPCA Higher-order difunctors are used to define signatures for compositional parametric generalised data types",
           "hierarchy": "Data Comp MultiParam HDifunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "HDifunctor",
           "package": "compdata",
@@ -14938,6 +16154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents natural transformations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": ":-\u003e",
           "package": "compdata",
@@ -14947,6 +16164,7 @@
         "index": {
           "description": "This type represents natural transformations",
           "hierarchy": "Data Comp MultiParam HDifunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": ":-\u003e",
           "package": "compdata",
@@ -14959,6 +16177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "A",
           "package": "compdata",
@@ -14967,6 +16186,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam HDifunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "A",
           "package": "compdata",
@@ -14979,6 +16199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "E",
           "package": "compdata",
@@ -14987,6 +16208,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam HDifunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "E",
           "package": "compdata",
@@ -15000,6 +16222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class represents higher-order difunctors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "HDifunctor",
           "package": "compdata",
@@ -15009,6 +16232,7 @@
         "index": {
           "description": "This class represents higher-order difunctors",
           "hierarchy": "Data Comp MultiParam HDifunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "HDifunctor",
           "package": "compdata",
@@ -15023,6 +16247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class represents higher-order functors (Johann, Ghani, POPL\n '08) which are endofunctors on the category of endofunctors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "HFunctor",
           "package": "compdata",
@@ -15032,6 +16257,7 @@
         "index": {
           "description": "This class represents higher-order functors Johann Ghani POPL which are endofunctors on the category of endofunctors",
           "hierarchy": "Data Comp MultiParam HDifunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "HFunctor",
           "package": "compdata",
@@ -15046,6 +16272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity Functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "I",
           "package": "compdata",
@@ -15055,6 +16282,7 @@
         "index": {
           "description": "The identity Functor",
           "hierarchy": "Data Comp MultiParam HDifunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "I",
           "package": "compdata",
@@ -15068,6 +16296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parametrised constant functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "K",
           "package": "compdata",
@@ -15077,6 +16306,7 @@
         "index": {
           "description": "The parametrised constant functor",
           "hierarchy": "Data Comp MultiParam HDifunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "K",
           "package": "compdata",
@@ -15089,6 +16319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "NatM",
           "package": "compdata",
@@ -15097,6 +16328,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam HDifunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "NatM",
           "package": "compdata",
@@ -15110,6 +16342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "hdimap",
           "package": "compdata",
@@ -15119,6 +16352,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam HDifunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "hdimap",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee b c-\u003ee a d",
@@ -15134,6 +16368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA higher-order functor \u003ccode\u003ef\u003c/code\u003e also maps a natural transformation\n \u003ccode\u003eg :-\u003e h\u003c/code\u003e to a natural transformation \u003ccode\u003ef g :-\u003e f h\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "hfmap",
           "package": "compdata",
@@ -15144,6 +16379,7 @@
         "index": {
           "description": "higher-order functor also maps natural transformation to natural transformation",
           "hierarchy": "Data Comp MultiParam HDifunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDifunctor",
           "name": "hfmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -15159,6 +16395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines traversable higher-order difunctors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDitraversable",
           "name": "HDitraversable",
           "package": "compdata",
@@ -15168,6 +16405,7 @@
         "index": {
           "description": "This module defines traversable higher-order difunctors",
           "hierarchy": "Data Comp MultiParam HDitraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDitraversable",
           "name": "HDitraversable",
           "package": "compdata",
@@ -15182,6 +16420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHDifunctors representing data structures that can be traversed from left to\n  right. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDitraversable",
           "name": "HDitraversable",
           "package": "compdata",
@@ -15191,6 +16430,7 @@
         "index": {
           "description": "HDifunctors representing data structures that can be traversed from left to right",
           "hierarchy": "Data Comp MultiParam HDitraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDitraversable",
           "name": "HDitraversable",
           "package": "compdata",
@@ -15204,6 +16444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDitraversable",
           "name": "HTraversable",
           "package": "compdata",
@@ -15212,6 +16453,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam HDitraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDitraversable",
           "name": "HTraversable",
           "package": "compdata",
@@ -15225,6 +16467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDitraversable",
           "name": "hdimapM",
           "package": "compdata",
@@ -15234,6 +16477,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam HDitraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDitraversable",
           "name": "hdimapM",
           "normalized": "NatM a b c-\u003eNatM a(d e b)(d e c)",
@@ -15249,6 +16493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap each element of a structure to a monadic action, evaluate\n these actions from left to right, and collect the results.\n\u003c/p\u003e\u003cp\u003eAlternative type in terms of natural transformations using\n functor composition \u003ccode\u003e:.:\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003ehmapM :: Monad m =\u003e (a :-\u003e m :.: b) -\u003e t a :-\u003e m :.: (t b)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDitraversable",
           "name": "hmapM",
           "package": "compdata",
@@ -15259,6 +16504,7 @@
         "index": {
           "description": "Map each element of structure to monadic action evaluate these actions from left to right and collect the results Alternative type in terms of natural transformations using functor composition hmapM Monad",
           "hierarchy": "Data Comp MultiParam HDitraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDitraversable",
           "name": "hmapM",
           "normalized": "NatM a b c-\u003eNatM a(d b)(d c)",
@@ -15273,6 +16519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.HDitraversable",
           "name": "htraverse",
           "package": "compdata",
@@ -15282,6 +16529,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam HDitraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.HDitraversable",
           "name": "htraverse",
           "normalized": "NatM a b c-\u003eNatM a(d b)(d c)",
@@ -15297,6 +16545,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides operators on higher-order difunctors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "Ops",
           "package": "compdata",
@@ -15306,6 +16555,7 @@
         "index": {
           "description": "This module provides operators on higher-order difunctors",
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "Ops",
           "package": "compdata",
@@ -15320,6 +16570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type adds a constant product to a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": ":&:",
           "package": "compdata",
@@ -15329,6 +16580,7 @@
         "index": {
           "description": "This data type adds constant product to signature",
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": ":&:",
           "package": "compdata",
@@ -15342,6 +16594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal product of signatures (higher-order difunctors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": ":*:",
           "package": "compdata",
@@ -15351,6 +16604,7 @@
         "index": {
           "description": "Formal product of signatures higher-order difunctors",
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": ":*:",
           "package": "compdata",
@@ -15364,6 +16618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal sum of signatures (difunctors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": ":+:",
           "package": "compdata",
@@ -15373,6 +16628,7 @@
         "index": {
           "description": "Formal sum of signatures difunctors",
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": ":+:",
           "package": "compdata",
@@ -15386,6 +16642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature containment relation for automatic injections. The left-hand must\n be an atomic signature, where as the right-hand side must have a list-like\n structure. Examples include \u003ccode\u003ef :\u003c: f :+: g\u003c/code\u003e and \u003ccode\u003eg :\u003c: f :+: (g :+: h)\u003c/code\u003e,\n non-examples include \u003ccode\u003ef :+: g :\u003c: f :+: (g :+: h)\u003c/code\u003e and\n \u003ccode\u003ef :\u003c: (f :+: g) :+: h\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": ":\u003c:",
           "package": "compdata",
@@ -15395,6 +16652,7 @@
         "index": {
           "description": "Signature containment relation for automatic injections The left-hand must be an atomic signature where as the right-hand side must have list-like structure Examples include and non-examples include and",
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": ":\u003c:",
           "package": "compdata",
@@ -15408,6 +16666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class defines how to distribute an annotation over a sum of\n  signatures. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "DistAnn",
           "package": "compdata",
@@ -15417,6 +16676,7 @@
         "index": {
           "description": "This class defines how to distribute an annotation over sum of signatures",
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "DistAnn",
           "package": "compdata",
@@ -15430,6 +16690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "RemA",
           "package": "compdata",
@@ -15438,6 +16699,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "RemA",
           "package": "compdata",
@@ -15451,6 +16713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "Inl",
           "package": "compdata",
@@ -15460,6 +16723,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "Inl",
           "package": "compdata",
@@ -15473,6 +16737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "Inr",
           "package": "compdata",
@@ -15482,6 +16747,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "Inr",
           "package": "compdata",
@@ -15522,6 +16788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "ffst",
           "package": "compdata",
@@ -15531,6 +16798,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "ffst",
           "normalized": "(a*b)c d-\u003ea c d",
@@ -15545,6 +16813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "fsnd",
           "package": "compdata",
@@ -15554,6 +16823,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "fsnd",
           "normalized": "(a*b)c d-\u003eb c d",
@@ -15568,6 +16838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "inj",
           "package": "compdata",
@@ -15577,6 +16848,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "inj",
           "normalized": "a b c-\u003ed b c",
@@ -15592,6 +16864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject an annotation over a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "injectA",
           "package": "compdata",
@@ -15602,6 +16875,7 @@
         "index": {
           "description": "Inject an annotation over signature",
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "injectA",
           "normalized": "a-\u003eb c d-\u003ee c d",
@@ -15616,6 +16890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "proj",
           "package": "compdata",
@@ -15625,6 +16900,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "proj",
           "package": "compdata",
@@ -15638,6 +16914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject an annotation from a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "projectA",
           "package": "compdata",
@@ -15648,6 +16925,7 @@
         "index": {
           "description": "Project an annotation from signature",
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "projectA",
           "normalized": "a b c-\u003e(d b c e)",
@@ -15663,6 +16941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove annotations from a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "remA",
           "package": "compdata",
@@ -15673,6 +16952,7 @@
         "index": {
           "description": "Remove annotations from signature",
           "hierarchy": "Data Comp MultiParam Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ops",
           "name": "remA",
           "normalized": "a b c-\u003ed b c",
@@ -15688,6 +16968,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines ordering of signatures, which lifts to ordering of\n terms and contexts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ordering",
           "name": "Ordering",
           "package": "compdata",
@@ -15697,6 +16978,7 @@
         "index": {
           "description": "This module defines ordering of signatures which lifts to ordering of terms and contexts",
           "hierarchy": "Data Comp MultiParam Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ordering",
           "name": "Ordering",
           "package": "compdata",
@@ -15711,6 +16993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature ordering. An instance \u003ccode\u003eOrdHD f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eOrd (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ordering",
           "name": "OrdHD",
           "package": "compdata",
@@ -15720,6 +17003,7 @@
         "index": {
           "description": "Signature ordering An instance OrdHD gives rise to an instance Ord Term",
           "hierarchy": "Data Comp MultiParam Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ordering",
           "name": "OrdHD",
           "package": "compdata",
@@ -15734,6 +17018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdering of parametric values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ordering",
           "name": "POrd",
           "package": "compdata",
@@ -15743,6 +17028,7 @@
         "index": {
           "description": "Ordering of parametric values",
           "hierarchy": "Data Comp MultiParam Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ordering",
           "name": "POrd",
           "package": "compdata",
@@ -15756,6 +17042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ordering",
           "name": "compareHD",
           "package": "compdata",
@@ -15765,6 +17052,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ordering",
           "name": "compareHD",
           "normalized": "a Name b c-\u003ea Name b d-\u003eFreshM Ordering",
@@ -15780,6 +17068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Ordering",
           "name": "pcompare",
           "package": "compdata",
@@ -15789,6 +17078,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Ordering",
           "name": "pcompare",
           "normalized": "a b-\u003ea c-\u003eFreshM Ordering",
@@ -15804,6 +17094,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines showing of signatures, which lifts to showing of terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Show",
           "name": "Show",
           "package": "compdata",
@@ -15813,6 +17104,7 @@
         "index": {
           "description": "This module defines showing of signatures which lifts to showing of terms",
           "hierarchy": "Data Comp MultiParam Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Show",
           "name": "Show",
           "package": "compdata",
@@ -15827,6 +17119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature printing. An instance \u003ccode\u003eShowHD f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eShow (Term f i)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Show",
           "name": "ShowHD",
           "package": "compdata",
@@ -15836,6 +17129,7 @@
         "index": {
           "description": "Signature printing An instance ShowHD gives rise to an instance Show Term",
           "hierarchy": "Data Comp MultiParam Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Show",
           "name": "ShowHD",
           "package": "compdata",
@@ -15849,6 +17143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Show",
           "name": "showHD",
           "package": "compdata",
@@ -15858,6 +17153,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Show",
           "name": "showHD",
           "normalized": "a Name(K(FreshM String))b-\u003eFreshM String",
@@ -15874,6 +17170,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the infrastructure to extend signatures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "Sum",
           "package": "compdata",
@@ -15883,6 +17180,7 @@
         "index": {
           "description": "This module provides the infrastructure to extend signatures",
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "Sum",
           "package": "compdata",
@@ -15897,6 +17195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal sum of signatures (difunctors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": ":+:",
           "package": "compdata",
@@ -15906,6 +17205,7 @@
         "index": {
           "description": "Formal sum of signatures difunctors",
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": ":+:",
           "package": "compdata",
@@ -15919,6 +17219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature containment relation for automatic injections. The left-hand must\n be an atomic signature, where as the right-hand side must have a list-like\n structure. Examples include \u003ccode\u003ef :\u003c: f :+: g\u003c/code\u003e and \u003ccode\u003eg :\u003c: f :+: (g :+: h)\u003c/code\u003e,\n non-examples include \u003ccode\u003ef :+: g :\u003c: f :+: (g :+: h)\u003c/code\u003e and\n \u003ccode\u003ef :\u003c: (f :+: g) :+: h\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": ":\u003c:",
           "package": "compdata",
@@ -15928,6 +17229,7 @@
         "index": {
           "description": "Signature containment relation for automatic injections The left-hand must be an atomic signature where as the right-hand side must have list-like structure Examples include and non-examples include and",
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": ":\u003c:",
           "package": "compdata",
@@ -15941,6 +17243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a term over a sub signature to a term over larger signature. If the\n signature \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003edeepInject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e\n instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject",
           "package": "compdata",
@@ -15951,6 +17254,7 @@
         "index": {
           "description": "Inject term over sub signature to term over larger signature If the signature is compound of atomic signatures use deepInject instead",
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject",
           "package": "compdata",
@@ -15964,6 +17268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject10",
           "package": "compdata",
@@ -15973,6 +17278,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject10",
           "package": "compdata",
@@ -15986,6 +17292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject2",
           "package": "compdata",
@@ -15995,6 +17302,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject2",
           "package": "compdata",
@@ -16008,6 +17316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject3",
           "package": "compdata",
@@ -16017,6 +17326,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject3",
           "package": "compdata",
@@ -16030,6 +17340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject4",
           "package": "compdata",
@@ -16039,6 +17350,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject4",
           "package": "compdata",
@@ -16052,6 +17364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject5",
           "package": "compdata",
@@ -16061,6 +17374,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject5",
           "package": "compdata",
@@ -16074,6 +17388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject6",
           "package": "compdata",
@@ -16083,6 +17398,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject6",
           "package": "compdata",
@@ -16096,6 +17412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject7",
           "package": "compdata",
@@ -16105,6 +17422,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject7",
           "package": "compdata",
@@ -16118,6 +17436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject8",
           "package": "compdata",
@@ -16127,6 +17446,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject8",
           "package": "compdata",
@@ -16140,6 +17460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject9",
           "package": "compdata",
@@ -16149,6 +17470,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepInject9",
           "package": "compdata",
@@ -16163,6 +17485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to coerce a term\u003cem\u003econtext to a term\u003c/em\u003econtext over a sub-signature. If\n the signature \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use\n \u003ccode\u003edeepProject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject",
           "package": "compdata",
@@ -16173,6 +17496,7 @@
         "index": {
           "description": "Tries to coerce term context to term context over sub-signature If the signature is compound of atomic signatures use deepProject instead",
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject",
           "normalized": "Term a b-\u003eMaybe(Term c b)",
@@ -16188,6 +17512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject10",
           "package": "compdata",
@@ -16197,6 +17522,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject10",
           "normalized": "Term a b-\u003eMaybe(Term(c(c(c(c(c(c(c(c(c c)))))))))b)",
@@ -16212,6 +17538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject2",
           "package": "compdata",
@@ -16221,6 +17548,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject2",
           "normalized": "Term a b-\u003eMaybe(Term(c c)b)",
@@ -16236,6 +17564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject3",
           "package": "compdata",
@@ -16245,6 +17574,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject3",
           "normalized": "Term a b-\u003eMaybe(Term(c(c c))b)",
@@ -16260,6 +17590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject4",
           "package": "compdata",
@@ -16269,6 +17600,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject4",
           "normalized": "Term a b-\u003eMaybe(Term(c(c(c c)))b)",
@@ -16284,6 +17616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject5",
           "package": "compdata",
@@ -16293,6 +17626,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject5",
           "normalized": "Term a b-\u003eMaybe(Term(c(c(c(c c))))b)",
@@ -16308,6 +17642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject6",
           "package": "compdata",
@@ -16317,6 +17652,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject6",
           "normalized": "Term a b-\u003eMaybe(Term(c(c(c(c(c c)))))b)",
@@ -16332,6 +17668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject7",
           "package": "compdata",
@@ -16341,6 +17678,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject7",
           "normalized": "Term a b-\u003eMaybe(Term(c(c(c(c(c(c c))))))b)",
@@ -16356,6 +17694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject8",
           "package": "compdata",
@@ -16365,6 +17704,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject8",
           "normalized": "Term a b-\u003eMaybe(Term(c(c(c(c(c(c(c c)))))))b)",
@@ -16380,6 +17720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject9",
           "package": "compdata",
@@ -16389,6 +17730,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "deepProject9",
           "normalized": "Term a b-\u003eMaybe(Term(c(c(c(c(c(c(c(c c))))))))b)",
@@ -16404,6 +17746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj",
           "package": "compdata",
@@ -16413,6 +17756,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj",
           "normalized": "a b c-\u003ed b c",
@@ -16427,6 +17771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj10",
           "package": "compdata",
@@ -16436,6 +17781,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj10",
           "normalized": "a(a(a(a(a(a(a(a(a a))))))))b c d-\u003ee b c d",
@@ -16450,6 +17796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj2",
           "package": "compdata",
@@ -16459,6 +17806,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj2",
           "normalized": "a a b c d-\u003ee b c d",
@@ -16473,6 +17821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj3",
           "package": "compdata",
@@ -16482,6 +17831,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj3",
           "normalized": "a(a a)b c d-\u003ee b c d",
@@ -16496,6 +17846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj4",
           "package": "compdata",
@@ -16505,6 +17856,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj4",
           "normalized": "a(a(a a))b c d-\u003ee b c d",
@@ -16519,6 +17871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj5",
           "package": "compdata",
@@ -16528,6 +17881,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj5",
           "normalized": "a(a(a(a a)))b c d-\u003ee b c d",
@@ -16542,6 +17896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj6",
           "package": "compdata",
@@ -16551,6 +17906,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj6",
           "normalized": "a(a(a(a(a a))))b c d-\u003ee b c d",
@@ -16565,6 +17921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj7",
           "package": "compdata",
@@ -16574,6 +17931,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj7",
           "normalized": "a(a(a(a(a(a a)))))b c d-\u003ee b c d",
@@ -16588,6 +17946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj8",
           "package": "compdata",
@@ -16597,6 +17956,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj8",
           "normalized": "a(a(a(a(a(a(a a))))))b c d-\u003ee b c d",
@@ -16611,6 +17971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj9",
           "package": "compdata",
@@ -16620,6 +17981,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inj9",
           "normalized": "a(a(a(a(a(a(a(a a)))))))b c d-\u003ee b c d",
@@ -16635,6 +17997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a term where the outermost layer is a sub signature. If the signature\n \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003einject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject",
           "package": "compdata",
@@ -16645,6 +18008,7 @@
         "index": {
           "description": "Inject term where the outermost layer is sub signature If the signature is compound of atomic signatures use inject instead",
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject",
           "normalized": "a b(Cxt c d b e)-\u003eCxt c d b e",
@@ -16659,6 +18023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject10",
           "package": "compdata",
@@ -16668,6 +18033,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject10",
           "normalized": "a(a(a(a(a(a(a(a(a a))))))))b(Cxt c d b e)f-\u003eCxt c d b e f",
@@ -16682,6 +18048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject2",
           "package": "compdata",
@@ -16691,6 +18058,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject2",
           "normalized": "a a b(Cxt c d b e)f-\u003eCxt c d b e f",
@@ -16705,6 +18073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject3",
           "package": "compdata",
@@ -16714,6 +18083,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject3",
           "normalized": "a(a a)b(Cxt c d b e)f-\u003eCxt c d b e f",
@@ -16728,6 +18098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject4",
           "package": "compdata",
@@ -16737,6 +18108,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject4",
           "normalized": "a(a(a a))b(Cxt c d b e)f-\u003eCxt c d b e f",
@@ -16751,6 +18123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject5",
           "package": "compdata",
@@ -16760,6 +18133,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject5",
           "normalized": "a(a(a(a a)))b(Cxt c d b e)f-\u003eCxt c d b e f",
@@ -16774,6 +18148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject6",
           "package": "compdata",
@@ -16783,6 +18158,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject6",
           "normalized": "a(a(a(a(a a))))b(Cxt c d b e)f-\u003eCxt c d b e f",
@@ -16797,6 +18173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject7",
           "package": "compdata",
@@ -16806,6 +18183,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject7",
           "normalized": "a(a(a(a(a(a a)))))b(Cxt c d b e)f-\u003eCxt c d b e f",
@@ -16820,6 +18198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject8",
           "package": "compdata",
@@ -16829,6 +18208,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject8",
           "normalized": "a(a(a(a(a(a(a a))))))b(Cxt c d b e)f-\u003eCxt c d b e f",
@@ -16843,6 +18223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject9",
           "package": "compdata",
@@ -16852,6 +18233,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "inject9",
           "normalized": "a(a(a(a(a(a(a(a a)))))))b(Cxt c d b e)f-\u003eCxt c d b e f",
@@ -16867,6 +18249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function injects a whole context into another context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "injectCxt",
           "package": "compdata",
@@ -16877,6 +18260,7 @@
         "index": {
           "description": "This function injects whole context into another context",
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "injectCxt",
           "normalized": "Cxt a b c(Cxt a d c e)-\u003eCxt a d c e",
@@ -16893,6 +18277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function lifts the given functor to a context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "liftCxt",
           "package": "compdata",
@@ -16903,6 +18288,7 @@
         "index": {
           "description": "This function lifts the given functor to context",
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "liftCxt",
           "normalized": "a b c-\u003eCxt Hole d b c",
@@ -16918,6 +18304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj",
           "package": "compdata",
@@ -16927,6 +18314,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj",
           "package": "compdata",
@@ -16939,6 +18327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj10",
           "package": "compdata",
@@ -16948,6 +18337,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj10",
           "normalized": "a b c d-\u003eMaybe(e(e(e(e(e(e(e(e(e e))))))))b c d)",
@@ -16962,6 +18352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj2",
           "package": "compdata",
@@ -16971,6 +18362,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj2",
           "normalized": "a b c d-\u003eMaybe(e e b c d)",
@@ -16985,6 +18377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj3",
           "package": "compdata",
@@ -16994,6 +18387,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj3",
           "normalized": "a b c d-\u003eMaybe(e(e e)b c d)",
@@ -17008,6 +18402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj4",
           "package": "compdata",
@@ -17017,6 +18412,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj4",
           "normalized": "a b c d-\u003eMaybe(e(e(e e))b c d)",
@@ -17031,6 +18427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj5",
           "package": "compdata",
@@ -17040,6 +18437,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj5",
           "normalized": "a b c d-\u003eMaybe(e(e(e(e e)))b c d)",
@@ -17054,6 +18452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj6",
           "package": "compdata",
@@ -17063,6 +18462,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj6",
           "normalized": "a b c d-\u003eMaybe(e(e(e(e(e e))))b c d)",
@@ -17077,6 +18477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj7",
           "package": "compdata",
@@ -17086,6 +18487,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj7",
           "normalized": "a b c d-\u003eMaybe(e(e(e(e(e(e e)))))b c d)",
@@ -17100,6 +18502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj8",
           "package": "compdata",
@@ -17109,6 +18512,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj8",
           "normalized": "a b c d-\u003eMaybe(e(e(e(e(e(e(e e))))))b c d)",
@@ -17123,6 +18527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj9",
           "package": "compdata",
@@ -17132,6 +18537,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "proj9",
           "normalized": "a b c d-\u003eMaybe(e(e(e(e(e(e(e(e e)))))))b c d)",
@@ -17147,6 +18553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject the outermost layer of a term to a sub signature. If the signature\n \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003eproject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project",
           "package": "compdata",
@@ -17157,6 +18564,7 @@
         "index": {
           "description": "Project the outermost layer of term to sub signature If the signature is compound of atomic signatures use project instead",
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project",
           "package": "compdata",
@@ -17169,6 +18577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project10",
           "package": "compdata",
@@ -17178,6 +18587,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project10",
           "normalized": "Cxt a b c d e-\u003eMaybe(f(f(f(f(f(f(f(f(f f))))))))c(Cxt a b c d)e)",
@@ -17192,6 +18602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project2",
           "package": "compdata",
@@ -17201,6 +18612,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project2",
           "normalized": "Cxt a b c d e-\u003eMaybe(f f c(Cxt a b c d)e)",
@@ -17215,6 +18627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project3",
           "package": "compdata",
@@ -17224,6 +18637,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project3",
           "normalized": "Cxt a b c d e-\u003eMaybe(f(f f)c(Cxt a b c d)e)",
@@ -17238,6 +18652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project4",
           "package": "compdata",
@@ -17247,6 +18662,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project4",
           "normalized": "Cxt a b c d e-\u003eMaybe(f(f(f f))c(Cxt a b c d)e)",
@@ -17261,6 +18677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project5",
           "package": "compdata",
@@ -17270,6 +18687,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project5",
           "normalized": "Cxt a b c d e-\u003eMaybe(f(f(f(f f)))c(Cxt a b c d)e)",
@@ -17284,6 +18702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project6",
           "package": "compdata",
@@ -17293,6 +18712,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project6",
           "normalized": "Cxt a b c d e-\u003eMaybe(f(f(f(f(f f))))c(Cxt a b c d)e)",
@@ -17307,6 +18727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project7",
           "package": "compdata",
@@ -17316,6 +18737,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project7",
           "normalized": "Cxt a b c d e-\u003eMaybe(f(f(f(f(f(f f)))))c(Cxt a b c d)e)",
@@ -17330,6 +18752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project8",
           "package": "compdata",
@@ -17339,6 +18762,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project8",
           "normalized": "Cxt a b c d e-\u003eMaybe(f(f(f(f(f(f(f f))))))c(Cxt a b c d)e)",
@@ -17353,6 +18777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project9",
           "package": "compdata",
@@ -17362,6 +18787,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Sum",
           "name": "project9",
           "normalized": "Cxt a b c d e-\u003eMaybe(f(f(f(f(f(f(f(f f)))))))c(Cxt a b c d)e)",
@@ -17377,6 +18803,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the central notion of \u003cem\u003egeneralised parametrised terms\u003c/em\u003e\n and their generalisation to generalised parametrised contexts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Term",
           "package": "compdata",
@@ -17386,6 +18813,7 @@
         "index": {
           "description": "This module defines the central notion of generalised parametrised terms and their generalisation to generalised parametrised contexts",
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Term",
           "package": "compdata",
@@ -17400,6 +18828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA context may contain holes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Context",
           "package": "compdata",
@@ -17409,6 +18838,7 @@
         "index": {
           "description": "context may contain holes",
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Context",
           "package": "compdata",
@@ -17423,6 +18853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type represents contexts over a signature. Contexts are terms\n  containing zero or more holes, and zero or more parameters. The first\n  parameter is a phantom type indicating whether the context has holes. The\n  second paramater is the signature of the context, in the form of a\n  \u003ca\u003eData.Comp.MultiParam.HDifunctor\u003c/a\u003e. The third parameter is the type of\n  parameters, the fourth parameter is the type of holes, and the fifth\n  parameter is the GADT type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Cxt",
           "package": "compdata",
@@ -17432,6 +18863,7 @@
         "index": {
           "description": "This data type represents contexts over signature Contexts are terms containing zero or more holes and zero or more parameters The first parameter is phantom type indicating whether the context has holes The second paramater is the signature of the context in the form of Data.Comp.MultiParam.HDifunctor The third parameter is the type of parameters the fourth parameter is the type of holes and the fifth parameter is the GADT type",
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Cxt",
           "package": "compdata",
@@ -17446,6 +18878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type used to define \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Hole",
           "package": "compdata",
@@ -17455,6 +18888,7 @@
         "index": {
           "description": "Phantom type used to define Context",
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Hole",
           "package": "compdata",
@@ -17469,6 +18903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type used to define \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "NoHole",
           "package": "compdata",
@@ -17478,6 +18913,7 @@
         "index": {
           "description": "Phantom type used to define Term",
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "NoHole",
           "package": "compdata",
@@ -17492,6 +18928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads for which embedded \u003ccode\u003eTrm\u003c/code\u003e values, which are parametric at top level,\n  can be made into monadic \u003ccode\u003eTerm\u003c/code\u003e values, i.e. \"pushing the parametricity\n  inwards\". \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "ParamFunctor",
           "package": "compdata",
@@ -17501,6 +18938,7 @@
         "index": {
           "description": "Monads for which embedded Trm values which are parametric at top level can be made into monadic Term values i.e pushing the parametricity inwards",
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "ParamFunctor",
           "package": "compdata",
@@ -17515,6 +18953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA term is a context with no holes, where all occurrences of the\n  contravariant parameter is fully parametric. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Term",
           "package": "compdata",
@@ -17524,6 +18963,7 @@
         "index": {
           "description": "term is context with no holes where all occurrences of the contravariant parameter is fully parametric",
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Term",
           "package": "compdata",
@@ -17538,6 +18978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Preterms\" |\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Trm",
           "package": "compdata",
@@ -17547,6 +18988,7 @@
         "index": {
           "description": "Preterms",
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Trm",
           "package": "compdata",
@@ -17560,6 +19002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Hole",
           "package": "compdata",
@@ -17569,6 +19012,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Hole",
           "normalized": "a b-\u003eCxt Hole c d a b",
@@ -17584,6 +19028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "In",
           "package": "compdata",
@@ -17593,6 +19038,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "In",
           "normalized": "a b(Cxt c a b d)e-\u003eCxt c a b d e",
@@ -17608,6 +19054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Term",
           "package": "compdata",
@@ -17617,6 +19064,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Term",
           "package": "compdata",
@@ -17630,6 +19078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Var",
           "package": "compdata",
@@ -17639,6 +19088,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "Var",
           "normalized": "a b-\u003eCxt c d a e b",
@@ -17655,6 +19105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an instance of \u003ccode\u003e\u003ca\u003ehdimapM\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eCxt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "hdimapMCxt",
           "package": "compdata",
@@ -17665,6 +19116,7 @@
         "index": {
           "description": "This is an instance of hdimapM for Cxt",
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "hdimapMCxt",
           "normalized": "NatM a b c-\u003eNatM a(Cxt d e f b)(Cxt d e f c)",
@@ -17681,6 +19133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an instance of \u003ccode\u003e\u003ca\u003ehfmap\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eCxt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "hfmapCxt",
           "package": "compdata",
@@ -17691,6 +19144,7 @@
         "index": {
           "description": "This is an instance of hfmap for Cxt",
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "hfmapCxt",
           "normalized": "(a-\u003eb)-\u003eCxt c d e a-\u003eCxt c d e b",
@@ -17707,6 +19161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a difunctorial value into a context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "simpCxt",
           "package": "compdata",
@@ -17717,6 +19172,7 @@
         "index": {
           "description": "Convert difunctorial value into context",
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "simpCxt",
           "normalized": "a b c-\u003eCxt Hole a b c",
@@ -17732,6 +19188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "termM",
           "package": "compdata",
@@ -17741,6 +19198,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "termM",
           "normalized": "(a b c(Trm d e f))-\u003ec(Term d f)",
@@ -17755,6 +19213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "toCxt",
           "package": "compdata",
@@ -17764,6 +19223,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "toCxt",
           "normalized": "Trm a b-\u003eCxt c a b d",
@@ -17779,6 +19239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam.Term",
           "name": "unTerm",
           "package": "compdata",
@@ -17788,6 +19249,7 @@
         },
         "index": {
           "hierarchy": "Data Comp MultiParam Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam.Term",
           "name": "unTerm",
           "package": "compdata",
@@ -17802,6 +19264,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the infrastructure necessary to use\n \u003cem\u003eGeneralised Parametric Compositional Data Types\u003c/em\u003e. Generalised Parametric\n Compositional Data Types is an extension of Compositional Data Types with\n parametric higher-order abstract syntax (PHOAS) for usage with binders, and\n GADTs. Generalised Parametric Compositional Data Types combines Generalised\n Compositional Data Types (\u003ca\u003eData.Comp.Multi\u003c/a\u003e) and Parametric Compositional\n Data Types (\u003ca\u003eData.Comp.Param\u003c/a\u003e). Examples of usage are bundled with the\n package in the library \u003ccode\u003eexamples/Examples/MultiParam\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.MultiParam",
           "name": "MultiParam",
           "package": "compdata",
@@ -17811,6 +19274,7 @@
         "index": {
           "description": "This module defines the infrastructure necessary to use Generalised Parametric Compositional Data Types Generalised Parametric Compositional Data Types is an extension of Compositional Data Types with parametric higher-order abstract syntax PHOAS for usage with binders and GADTs Generalised Parametric Compositional Data Types combines Generalised Compositional Data Types Data.Comp.Multi and Parametric Compositional Data Types Data.Comp.Param Examples of usage are bundled with the package in the library examples Examples MultiParam",
           "hierarchy": "Data Comp MultiParam",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.MultiParam",
           "name": "MultiParam",
           "package": "compdata",
@@ -17825,6 +19289,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functionality to number the components of a\n functorial value with consecutive integers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Number",
           "name": "Number",
           "package": "compdata",
@@ -17834,6 +19299,7 @@
         "index": {
           "description": "This module provides functionality to number the components of functorial value with consecutive integers",
           "hierarchy": "Data Comp Number",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Number",
           "name": "Number",
           "package": "compdata",
@@ -17848,6 +19314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used for numbering components of a functorial value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Number",
           "name": "Numbered",
           "package": "compdata",
@@ -17857,6 +19324,7 @@
         "index": {
           "description": "This type is used for numbering components of functorial value",
           "hierarchy": "Data Comp Number",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Number",
           "name": "Numbered",
           "package": "compdata",
@@ -17871,6 +19339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctors representing data structures that can be traversed from\n left to right.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003etraverse\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003esequenceA\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInstances are similar to \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, e.g. given a data type\n\u003c/p\u003e\u003cpre\u003e data Tree a = Empty | Leaf a | Node (Tree a) a (Tree a)\n\u003c/pre\u003e\u003cp\u003ea suitable instance would be\n\u003c/p\u003e\u003cpre\u003e instance Traversable Tree where\n    traverse f Empty = pure Empty\n    traverse f (Leaf x) = Leaf \u003c$\u003e f x\n    traverse f (Node l k r) = Node \u003c$\u003e traverse f l \u003c*\u003e f k \u003c*\u003e traverse f r\n\u003c/pre\u003e\u003cp\u003eThis is suitable even for abstract types, as the laws for \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e\n imply a form of associativity.\n\u003c/p\u003e\u003cp\u003eThe superclass instances should satisfy the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e In the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e instance, \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e should be equivalent to traversal\n    with the identity applicative functor (\u003ccode\u003e\u003ca\u003efmapDefault\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e In the \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e instance, \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e should be\n    equivalent to traversal with a constant applicative functor\n    (\u003ccode\u003e\u003ca\u003efoldMapDefault\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Number",
           "name": "Traversable",
           "package": "compdata",
@@ -17879,6 +19348,7 @@
         "index": {
           "description": "Functors representing data structures that can be traversed from left to right Minimal complete definition traverse or sequenceA Instances are similar to Functor e.g given data type data Tree Empty Leaf Node Tree Tree suitable instance would be instance Traversable Tree where traverse Empty pure Empty traverse Leaf Leaf traverse Node Node traverse traverse This is suitable even for abstract types as the laws for imply form of associativity The superclass instances should satisfy the following In the Functor instance fmap should be equivalent to traversal with the identity applicative functor fmapDefault In the Foldable instance foldMap should be equivalent to traversal with constant applicative functor foldMapDefault",
           "hierarchy": "Data Comp Number",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Number",
           "name": "Traversable",
           "package": "compdata",
@@ -17892,6 +19362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Number",
           "name": "Numbered",
           "package": "compdata",
@@ -17901,6 +19372,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Number",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Number",
           "name": "Numbered",
           "normalized": "Numbered(Int,a)",
@@ -17917,6 +19389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function numbers the components of the given functorial\n value with consecutive integers starting at 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Number",
           "name": "number",
           "package": "compdata",
@@ -17927,6 +19400,7 @@
         "index": {
           "description": "This function numbers the components of the given functorial value with consecutive integers starting at",
           "hierarchy": "Data Comp Number",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Number",
           "name": "number",
           "normalized": "a b-\u003ea(Numbered b)",
@@ -17941,6 +19415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Number",
           "name": "unNumbered",
           "package": "compdata",
@@ -17950,6 +19425,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Number",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Number",
           "name": "unNumbered",
           "normalized": "Numbered a-\u003ea",
@@ -17966,6 +19442,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides operators on functors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": "Ops",
           "package": "compdata",
@@ -17975,6 +19452,7 @@
         "index": {
           "description": "This module provides operators on functors",
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": "Ops",
           "package": "compdata",
@@ -17989,6 +19467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type adds a constant product (annotation) to a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": ":&:",
           "package": "compdata",
@@ -17998,6 +19477,7 @@
         "index": {
           "description": "This data type adds constant product annotation to signature",
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": ":&:",
           "package": "compdata",
@@ -18011,6 +19491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal product of signatures (functors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": ":*:",
           "package": "compdata",
@@ -18020,6 +19501,7 @@
         "index": {
           "description": "Formal product of signatures functors",
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": ":*:",
           "package": "compdata",
@@ -18033,6 +19515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal sum of signatures (functors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": ":+:",
           "package": "compdata",
@@ -18042,6 +19525,7 @@
         "index": {
           "description": "Formal sum of signatures functors",
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": ":+:",
           "package": "compdata",
@@ -18055,6 +19539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature containment relation for automatic injections. The left-hand must\n be an atomic signature, where as the right-hand side must have a list-like\n structure. Examples include \u003ccode\u003ef :\u003c: f :+: g\u003c/code\u003e and \u003ccode\u003eg :\u003c: f :+: (g :+: h)\u003c/code\u003e,\n non-examples include \u003ccode\u003ef :+: g :\u003c: f :+: (g :+: h)\u003c/code\u003e and\n \u003ccode\u003ef :\u003c: (f :+: g) :+: h\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": ":\u003c:",
           "package": "compdata",
@@ -18064,6 +19549,7 @@
         "index": {
           "description": "Signature containment relation for automatic injections The left-hand must be an atomic signature where as the right-hand side must have list-like structure Examples include and non-examples include and",
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": ":\u003c:",
           "package": "compdata",
@@ -18077,6 +19563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class defines how to distribute an annotation over a sum of\nsignatures. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": "DistAnn",
           "package": "compdata",
@@ -18086,6 +19573,7 @@
         "index": {
           "description": "This class defines how to distribute an annotation over sum of signatures",
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": "DistAnn",
           "package": "compdata",
@@ -18099,6 +19587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": "RemA",
           "package": "compdata",
@@ -18107,6 +19596,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": "RemA",
           "package": "compdata",
@@ -18120,6 +19610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": "Inl",
           "package": "compdata",
@@ -18129,6 +19620,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": "Inl",
           "package": "compdata",
@@ -18142,6 +19634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": "Inr",
           "package": "compdata",
@@ -18151,6 +19644,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": "Inr",
           "package": "compdata",
@@ -18190,6 +19684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": "ffst",
           "package": "compdata",
@@ -18199,6 +19694,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": "ffst",
           "normalized": "(a*b)c-\u003ea c",
@@ -18213,6 +19709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": "fsnd",
           "package": "compdata",
@@ -18222,6 +19719,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": "fsnd",
           "normalized": "(a*b)c-\u003eb c",
@@ -18236,6 +19734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": "inj",
           "package": "compdata",
@@ -18245,6 +19744,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": "inj",
           "normalized": "a b-\u003ec b",
@@ -18260,6 +19760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject an annotation over a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": "injectA",
           "package": "compdata",
@@ -18270,6 +19771,7 @@
         "index": {
           "description": "Inject an annotation over signature",
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": "injectA",
           "normalized": "a-\u003eb c-\u003ed c",
@@ -18284,6 +19786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": "proj",
           "package": "compdata",
@@ -18293,6 +19796,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": "proj",
           "normalized": "a b-\u003eMaybe(c b)",
@@ -18308,6 +19812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject an annotation from a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": "projectA",
           "package": "compdata",
@@ -18318,6 +19823,7 @@
         "index": {
           "description": "Project an annotation from signature",
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": "projectA",
           "normalized": "a b-\u003e(c b,d)",
@@ -18333,6 +19839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove annotations from a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ops",
           "name": "remA",
           "package": "compdata",
@@ -18343,6 +19850,7 @@
         "index": {
           "description": "Remove annotations from signature",
           "hierarchy": "Data Comp Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ops",
           "name": "remA",
           "normalized": "a b-\u003ec b",
@@ -18358,6 +19866,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines ordering of signatures, which lifts to ordering of\n terms and contexts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ordering",
           "name": "Ordering",
           "package": "compdata",
@@ -18367,6 +19876,7 @@
         "index": {
           "description": "This module defines ordering of signatures which lifts to ordering of terms and contexts",
           "hierarchy": "Data Comp Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ordering",
           "name": "Ordering",
           "package": "compdata",
@@ -18381,6 +19891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature ordering. An instance \u003ccode\u003eOrdF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eOrd (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ordering",
           "name": "OrdF",
           "package": "compdata",
@@ -18390,6 +19901,7 @@
         "index": {
           "description": "Signature ordering An instance OrdF gives rise to an instance Ord Term",
           "hierarchy": "Data Comp Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ordering",
           "name": "OrdF",
           "package": "compdata",
@@ -18403,6 +19915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Ordering",
           "name": "compareF",
           "package": "compdata",
@@ -18412,6 +19925,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Ordering",
           "name": "compareF",
           "normalized": "a b-\u003ea b-\u003eOrdering",
@@ -18427,6 +19941,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the notion of algebras and catamorphisms, and their\n generalizations to e.g. monadic versions and other (co)recursion schemes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "Algebra",
           "package": "compdata",
@@ -18436,6 +19951,7 @@
         "index": {
           "description": "This module defines the notion of algebras and catamorphisms and their generalizations to e.g monadic versions and other co recursion schemes",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "Algebra",
           "package": "compdata",
@@ -18450,6 +19966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents an algebra over a difunctor \u003ccode\u003ef\u003c/code\u003e and carrier \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "Alg",
           "package": "compdata",
@@ -18459,6 +19976,7 @@
         "index": {
           "description": "This type represents an algebra over difunctor and carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "Alg",
           "package": "compdata",
@@ -18473,6 +19991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic algebra. It is similar to \u003ccode\u003e\u003ca\u003eAlg\u003c/a\u003e\u003c/code\u003e but\n  the return type is monadic. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "AlgM",
           "package": "compdata",
@@ -18482,6 +20001,7 @@
         "index": {
           "description": "This type represents monadic algebra It is similar to Alg but the return type is monadic",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "AlgM",
           "package": "compdata",
@@ -18496,6 +20016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a cv-algebra over a difunctor \u003ccode\u003ef\u003c/code\u003e and carrier \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "CVAlg",
           "package": "compdata",
@@ -18505,6 +20026,7 @@
         "index": {
           "description": "This type represents cv-algebra over difunctor and carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "CVAlg",
           "package": "compdata",
@@ -18519,6 +20041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic cv-algebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier\n  \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "CVAlgM",
           "package": "compdata",
@@ -18528,6 +20051,7 @@
         "index": {
           "description": "This type represents monadic cv-algebra over functor and carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "CVAlgM",
           "package": "compdata",
@@ -18542,6 +20066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a cv-coalgebra over a difunctor \u003ccode\u003ef\u003c/code\u003e and carrier \u003ccode\u003ea\u003c/code\u003e.\n  The list of \u003ccode\u003e(a,b)\u003c/code\u003es represent the parameters that may occur in the\n  constructed value. The first component represents the seed of the parameter,\n  and the second component is the (polymorphic) parameter itself. If \u003ccode\u003ef\u003c/code\u003e is\n  itself a binder, then the parameters bound by \u003ccode\u003ef\u003c/code\u003e can be passed to the\n  covariant argument, thereby making them available to sub terms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "CVCoalg",
           "package": "compdata",
@@ -18551,6 +20076,7 @@
         "index": {
           "description": "This type represents cv-coalgebra over difunctor and carrier The list of represent the parameters that may occur in the constructed value The first component represents the seed of the parameter and the second component is the polymorphic parameter itself If is itself binder then the parameters bound by can be passed to the covariant argument thereby making them available to sub terms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "CVCoalg",
           "package": "compdata",
@@ -18565,6 +20091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a generalised cv-coalgebra over a difunctor \u003ccode\u003ef\u003c/code\u003e and\n  carrier \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "CVCoalg'",
           "package": "compdata",
@@ -18574,6 +20101,7 @@
         "index": {
           "description": "This type represents generalised cv-coalgebra over difunctor and carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "CVCoalg'",
           "package": "compdata",
@@ -18588,6 +20116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic cv-coalgebra over a difunctor \u003ccode\u003ef\u003c/code\u003e and carrier\n  \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "CVCoalgM",
           "package": "compdata",
@@ -18597,6 +20126,7 @@
         "index": {
           "description": "This type represents monadic cv-coalgebra over difunctor and carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "CVCoalgM",
           "package": "compdata",
@@ -18611,6 +20141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a coalgebra over a difunctor \u003ccode\u003ef\u003c/code\u003e and carrier \u003ccode\u003ea\u003c/code\u003e. The\n  list of \u003ccode\u003e(a,b)\u003c/code\u003es represent the parameters that may occur in the constructed\n  value. The first component represents the seed of the parameter,\n  and the second component is the (polymorphic) parameter itself. If \u003ccode\u003ef\u003c/code\u003e is\n  itself a binder, then the parameters bound by \u003ccode\u003ef\u003c/code\u003e can be passed to the\n  covariant argument, thereby making them available to sub terms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "Coalg",
           "package": "compdata",
@@ -18620,6 +20151,7 @@
         "index": {
           "description": "This type represents coalgebra over difunctor and carrier The list of represent the parameters that may occur in the constructed value The first component represents the seed of the parameter and the second component is the polymorphic parameter itself If is itself binder then the parameters bound by can be passed to the covariant argument thereby making them available to sub terms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "Coalg",
           "package": "compdata",
@@ -18634,6 +20166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic coalgebra over a difunctor \u003ccode\u003ef\u003c/code\u003e and carrier\n  \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "CoalgM",
           "package": "compdata",
@@ -18643,6 +20176,7 @@
         "index": {
           "description": "This type represents monadic coalgebra over difunctor and carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "CoalgM",
           "package": "compdata",
@@ -18657,6 +20191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a context function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "CxtFun",
           "package": "compdata",
@@ -18666,6 +20201,7 @@
         "index": {
           "description": "This type represents context function",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "CxtFun",
           "package": "compdata",
@@ -18680,6 +20216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic context function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "CxtFunM",
           "package": "compdata",
@@ -18689,6 +20226,7 @@
         "index": {
           "description": "This type represents monadic context function",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "CxtFunM",
           "package": "compdata",
@@ -18703,6 +20241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a term homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "Hom",
           "package": "compdata",
@@ -18712,6 +20251,7 @@
         "index": {
           "description": "This type represents term homomorphism",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "Hom",
           "package": "compdata",
@@ -18726,6 +20266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic term homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "HomM",
           "package": "compdata",
@@ -18735,6 +20276,7 @@
         "index": {
           "description": "This type represents monadic term homomorphism",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "HomM",
           "package": "compdata",
@@ -18749,6 +20291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic term homomorphism. It is similar to\n  \u003ccode\u003e\u003ca\u003eHomM\u003c/a\u003e\u003c/code\u003e but has monadic values also in the domain. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "HomMD",
           "package": "compdata",
@@ -18758,6 +20301,7 @@
         "index": {
           "description": "This type represents monadic term homomorphism It is similar to HomM but has monadic values also in the domain",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "HomMD",
           "package": "compdata",
@@ -18772,6 +20316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents an r-algebra over a difunctor \u003ccode\u003ef\u003c/code\u003e and carrier \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "RAlg",
           "package": "compdata",
@@ -18781,6 +20326,7 @@
         "index": {
           "description": "This type represents an r-algebra over difunctor and carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "RAlg",
           "package": "compdata",
@@ -18795,6 +20341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic r-algebra over a difunctor \u003ccode\u003ef\u003c/code\u003e and carrier\n  \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "RAlgM",
           "package": "compdata",
@@ -18804,6 +20351,7 @@
         "index": {
           "description": "This type represents monadic r-algebra over difunctor and carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "RAlgM",
           "package": "compdata",
@@ -18818,6 +20366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents an r-coalgebra over a difunctor \u003ccode\u003ef\u003c/code\u003e and carrier \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "RCoalg",
           "package": "compdata",
@@ -18827,6 +20376,7 @@
         "index": {
           "description": "This type represents an r-coalgebra over difunctor and carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "RCoalg",
           "package": "compdata",
@@ -18841,6 +20391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic r-coalgebra over a functor \u003ccode\u003ef\u003c/code\u003e and carrier\n  \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "RCoalgM",
           "package": "compdata",
@@ -18850,6 +20401,7 @@
         "index": {
           "description": "This type represents monadic r-coalgebra over functor and carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "RCoalgM",
           "package": "compdata",
@@ -18864,6 +20416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a signature function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "SigFun",
           "package": "compdata",
@@ -18873,6 +20426,7 @@
         "index": {
           "description": "This type represents signature function",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "SigFun",
           "package": "compdata",
@@ -18887,6 +20441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic signature function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "SigFunM",
           "package": "compdata",
@@ -18896,6 +20451,7 @@
         "index": {
           "description": "This type represents monadic signature function",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "SigFunM",
           "package": "compdata",
@@ -18910,6 +20466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a monadic signature function. It is similar to\n  \u003ccode\u003e\u003ca\u003eSigFunM\u003c/a\u003e\u003c/code\u003e but has monadic values also in the domain. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "SigFunMD",
           "package": "compdata",
@@ -18919,6 +20476,7 @@
         "index": {
           "description": "This type represents monadic signature function It is similar to SigFunM but has monadic values also in the domain",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "SigFunMD",
           "package": "compdata",
@@ -18933,6 +20491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a monadic algebra into an ordinary algebra with a monadic\n  carrier. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "algM",
           "package": "compdata",
@@ -18943,6 +20502,7 @@
         "index": {
           "description": "Convert monadic algebra into an ordinary algebra with monadic carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "algM",
           "normalized": "AlgM a b c-\u003eAlg b(a c)",
@@ -18958,6 +20518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an anamorphism from the given coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "ana",
           "package": "compdata",
@@ -18968,6 +20529,7 @@
         "index": {
           "description": "Construct an anamorphism from the given coalgebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "ana",
           "normalized": "Coalg a b-\u003eb-\u003eTerm a",
@@ -18983,6 +20545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic anamorphism from the given monadic coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "anaM",
           "package": "compdata",
@@ -18993,6 +20556,7 @@
         "index": {
           "description": "Construct monadic anamorphism from the given monadic coalgebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "anaM",
           "normalized": "CoalgM a b c-\u003ec-\u003ed e a(Trm b c)",
@@ -19008,6 +20572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an apomorphism from the given r-coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "apo",
           "package": "compdata",
@@ -19018,6 +20583,7 @@
         "index": {
           "description": "Construct an apomorphism from the given r-coalgebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "apo",
           "normalized": "RCoalg a b-\u003eb-\u003eTerm a",
@@ -19033,6 +20599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic apomorphism from the given monadic r-coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "apoM",
           "package": "compdata",
@@ -19043,6 +20610,7 @@
         "index": {
           "description": "Construct monadic apomorphism from the given monadic r-coalgebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "apoM",
           "normalized": "RCoalgM a b c-\u003ec-\u003ed e a(Trm b c)",
@@ -19058,6 +20626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a whole context into another context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appCxt",
           "package": "compdata",
@@ -19068,6 +20637,7 @@
         "index": {
           "description": "This function applies whole context into another context",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appCxt",
           "normalized": "Context a b(Cxt c a b d)-\u003eCxt c a b d",
@@ -19084,6 +20654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a term homomorphism recursively to a term/context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appHom",
           "package": "compdata",
@@ -19094,6 +20665,7 @@
         "index": {
           "description": "Apply term homomorphism recursively to term context",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appHom",
           "normalized": "Hom a b-\u003eCxtFun a b",
@@ -19110,6 +20682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a term homomorphism recursively to a term/context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appHom'",
           "package": "compdata",
@@ -19120,6 +20693,7 @@
         "index": {
           "description": "Apply term homomorphism recursively to term context",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appHom'",
           "normalized": "Hom a b-\u003eCxtFun a b",
@@ -19136,6 +20710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic term homomorphism recursively to a\n term/context. The monad is sequenced bottom-up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appHomM",
           "package": "compdata",
@@ -19146,6 +20721,7 @@
         "index": {
           "description": "Apply monadic term homomorphism recursively to term context The monad is sequenced bottom-up",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appHomM",
           "normalized": "HomM a b c-\u003eCxtFunM a b c",
@@ -19162,6 +20738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic term homomorphism recursively to a\n term/context. The monad is sequence top-down.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appHomM'",
           "package": "compdata",
@@ -19172,6 +20749,7 @@
         "index": {
           "description": "Apply monadic term homomorphism recursively to term context The monad is sequence top-down",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appHomM'",
           "normalized": "HomM a b c-\u003eCxtFunM a b c",
@@ -19188,6 +20766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a signature function to the given context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appSigFun",
           "package": "compdata",
@@ -19198,6 +20777,7 @@
         "index": {
           "description": "This function applies signature function to the given context",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appSigFun",
           "normalized": "SigFun a b-\u003eCxtFun a b",
@@ -19214,6 +20794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a signature function to the given\n context. This is a top-bottom variant of \u003ccode\u003e\u003ca\u003eappSigFun\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appSigFun'",
           "package": "compdata",
@@ -19224,6 +20805,7 @@
         "index": {
           "description": "This function applies signature function to the given context This is top-bottom variant of appSigFun",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appSigFun'",
           "normalized": "SigFun a b-\u003eCxtFun a b",
@@ -19240,6 +20822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a monadic signature function to the given context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appSigFunM",
           "package": "compdata",
@@ -19250,6 +20833,7 @@
         "index": {
           "description": "This function applies monadic signature function to the given context",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appSigFunM",
           "normalized": "SigFunM a b c-\u003eCxtFunM a b c",
@@ -19266,6 +20850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a monadic signature function to the given\n context. This is a 'top-down variant of \u003ccode\u003e\u003ca\u003eappSigFunM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appSigFunM'",
           "package": "compdata",
@@ -19276,6 +20861,7 @@
         "index": {
           "description": "This function applies monadic signature function to the given context This is top-down variant of appSigFunM",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appSigFunM'",
           "normalized": "SigFunM a b c-\u003eCxtFunM a b c",
@@ -19292,6 +20878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a signature function to the given context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appSigFunMD",
           "package": "compdata",
@@ -19302,6 +20889,7 @@
         "index": {
           "description": "This function applies signature function to the given context",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appSigFunMD",
           "normalized": "SigFunMD a b c-\u003eCxtFunM a b c",
@@ -19318,6 +20906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA restricted form of |appHomM| which only works for terms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appTHomM",
           "package": "compdata",
@@ -19328,6 +20917,7 @@
         "index": {
           "description": "restricted form of appHomM which only works for terms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appTHomM",
           "normalized": "HomM a b c-\u003eTerm b-\u003ea(Term c)",
@@ -19344,6 +20934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA restricted form of |appHomM'| which only works for terms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appTHomM'",
           "package": "compdata",
@@ -19354,6 +20945,7 @@
         "index": {
           "description": "restricted form of appHomM which only works for terms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appTHomM'",
           "normalized": "HomM a b c-\u003eTerm b-\u003ea(Term c)",
@@ -19370,6 +20962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA restricted form of |appSigFunM| which only works for terms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appTSigFunM",
           "package": "compdata",
@@ -19380,6 +20973,7 @@
         "index": {
           "description": "restricted form of appSigFunM which only works for terms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appTSigFunM",
           "normalized": "SigFunM a b c-\u003eTerm b-\u003ea(Term c)",
@@ -19396,6 +20990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA restricted form of |appSigFunM'| which only works for terms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appTSigFunM'",
           "package": "compdata",
@@ -19406,6 +21001,7 @@
         "index": {
           "description": "restricted form of appSigFunM which only works for terms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appTSigFunM'",
           "normalized": "SigFunM a b c-\u003eTerm b-\u003ea(Term c)",
@@ -19422,6 +21018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA restricted form of |appSigFunMD| which only works for terms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "appTSigFunMD",
           "package": "compdata",
@@ -19432,6 +21029,7 @@
         "index": {
           "description": "restricted form of appSigFunMD which only works for terms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "appTSigFunMD",
           "normalized": "SigFunMD a b c-\u003eTerm b-\u003ea(Term c)",
@@ -19448,6 +21046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a catamorphism from the given algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "cata",
           "package": "compdata",
@@ -19458,6 +21057,7 @@
         "index": {
           "description": "Construct catamorphism from the given algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "cata",
           "normalized": "Alg a b-\u003eTerm a-\u003eb",
@@ -19473,6 +21073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalisation of \u003ccode\u003e\u003ca\u003ecata\u003c/a\u003e\u003c/code\u003e from terms over \u003ccode\u003ef\u003c/code\u003e to contexts over \u003ccode\u003ef\u003c/code\u003e, where\n  the holes have the type of the algebra carrier. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "cata'",
           "package": "compdata",
@@ -19483,6 +21084,7 @@
         "index": {
           "description": "generalisation of cata from terms over to contexts over where the holes have the type of the algebra carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "cata'",
           "normalized": "Alg a b-\u003eCxt c a b b-\u003eb",
@@ -19498,6 +21100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic catamorphism from the given monadic algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "cataM",
           "package": "compdata",
@@ -19508,6 +21111,7 @@
         "index": {
           "description": "Construct monadic catamorphism from the given monadic algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "cataM",
           "normalized": "AlgM a b c-\u003eTerm b-\u003ea c",
@@ -19523,6 +21127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalisation of \u003ccode\u003e\u003ca\u003ecataM\u003c/a\u003e\u003c/code\u003e from terms over \u003ccode\u003ef\u003c/code\u003e to contexts over \u003ccode\u003ef\u003c/code\u003e, where\n  the holes have the type of the monadic algebra carrier. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "cataM'",
           "package": "compdata",
@@ -19533,6 +21138,7 @@
         "index": {
           "description": "generalisation of cataM from terms over to contexts over where the holes have the type of the monadic algebra carrier",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "cataM'",
           "normalized": "AlgM a b c-\u003eCxt d b c(a c)-\u003ea c",
@@ -19549,6 +21155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose an algebra with a term homomorphism to get a new algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compAlg",
           "package": "compdata",
@@ -19559,6 +21166,7 @@
         "index": {
           "description": "Compose an algebra with term homomorphism to get new algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compAlg",
           "normalized": "Alg a b-\u003eHom c a-\u003eAlg c b",
@@ -19575,6 +21183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a monadic algebra with a monadic term homomorphism to get a new\n  monadic algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compAlgM",
           "package": "compdata",
@@ -19585,6 +21194,7 @@
         "index": {
           "description": "Compose monadic algebra with monadic term homomorphism to get new monadic algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compAlgM",
           "normalized": "AlgM a b c-\u003eHomM a d b-\u003eAlgM a d c",
@@ -19601,6 +21211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a monadic algebra with a term homomorphism to get a new monadic\n  algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compAlgM'",
           "package": "compdata",
@@ -19611,6 +21222,7 @@
         "index": {
           "description": "Compose monadic algebra with term homomorphism to get new monadic algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compAlgM'",
           "normalized": "AlgM a b c-\u003eHom d b-\u003eAlgM a d c",
@@ -19626,6 +21238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compAlgSigFun",
           "package": "compdata",
@@ -19635,6 +21248,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compAlgSigFun",
           "normalized": "Alg a b-\u003eSigFun c a-\u003eAlg c b",
@@ -19651,6 +21265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a monadic algebra with a monadic signature function to get a new\n  monadic algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compAlgSigFunM",
           "package": "compdata",
@@ -19661,6 +21276,7 @@
         "index": {
           "description": "Compose monadic algebra with monadic signature function to get new monadic algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compAlgSigFunM",
           "normalized": "AlgM a b c-\u003eSigFunM a d b-\u003eAlgM a d c",
@@ -19677,6 +21293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a monadic algebra with a signature function to get a new monadic\n  algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compAlgSigFunM'",
           "package": "compdata",
@@ -19687,6 +21304,7 @@
         "index": {
           "description": "Compose monadic algebra with signature function to get new monadic algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compAlgSigFunM'",
           "normalized": "AlgM a b c-\u003eSigFun d b-\u003eAlgM a d c",
@@ -19703,6 +21321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two term homomorphisms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compHom",
           "package": "compdata",
@@ -19713,6 +21332,7 @@
         "index": {
           "description": "Compose two term homomorphisms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compHom",
           "normalized": "Hom a b-\u003eHom c a-\u003eHom c b",
@@ -19729,6 +21349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two monadic term homomorphisms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compHomM",
           "package": "compdata",
@@ -19739,6 +21360,7 @@
         "index": {
           "description": "Compose two monadic term homomorphisms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compHomM",
           "normalized": "HomM a b c-\u003eHomM a d b-\u003eHomM a d c",
@@ -19755,6 +21377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two monadic term homomorphisms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compHomM'",
           "package": "compdata",
@@ -19765,6 +21388,7 @@
         "index": {
           "description": "Compose two monadic term homomorphisms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compHomM'",
           "normalized": "HomM a b c-\u003eHomM a d b-\u003eHomM a d c",
@@ -19781,6 +21405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a term homomorphism and a signature function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compHomSigFun",
           "package": "compdata",
@@ -19791,6 +21416,7 @@
         "index": {
           "description": "This function composes term homomorphism and signature function",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compHomSigFun",
           "normalized": "Hom a b-\u003eSigFun c a-\u003eHom c b",
@@ -19807,6 +21433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two signature functions. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compSigFun",
           "package": "compdata",
@@ -19817,6 +21444,7 @@
         "index": {
           "description": "This function composes two signature functions",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compSigFun",
           "normalized": "SigFun a b-\u003eSigFun c a-\u003eSigFun c b",
@@ -19833,6 +21461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a term homomorphism and a signature function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compSigFunHom",
           "package": "compdata",
@@ -19843,6 +21472,7 @@
         "index": {
           "description": "This function composes term homomorphism and signature function",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compSigFunHom",
           "normalized": "SigFun a b-\u003eHom c a-\u003eHom c b",
@@ -19859,6 +21489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two monadic term homomorphisms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compSigFunHomM",
           "package": "compdata",
@@ -19869,6 +21500,7 @@
         "index": {
           "description": "Compose two monadic term homomorphisms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compSigFunHomM",
           "normalized": "SigFunM a b c-\u003eHomM a d b-\u003eHomM a d c",
@@ -19885,6 +21517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two monadic term homomorphisms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compSigFunHomM'",
           "package": "compdata",
@@ -19895,6 +21528,7 @@
         "index": {
           "description": "Compose two monadic term homomorphisms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compSigFunHomM'",
           "normalized": "SigFunM a b c-\u003eHomM a d b-\u003eHomM a d c",
@@ -19911,6 +21545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two monadic signature functions. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "compSigFunM",
           "package": "compdata",
@@ -19921,6 +21556,7 @@
         "index": {
           "description": "This function composes two monadic signature functions",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "compSigFunM",
           "normalized": "SigFunM a b c-\u003eSigFunM a d b-\u003eSigFunM a d c",
@@ -19937,6 +21573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a catamorphism for contexts over \u003ccode\u003ef\u003c/code\u003e with holes of type \u003ccode\u003eb\u003c/code\u003e, from\n  the given algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "free",
           "package": "compdata",
@@ -19947,6 +21584,7 @@
         "index": {
           "description": "Construct catamorphism for contexts over with holes of type from the given algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "free",
           "normalized": "Alg a b-\u003e(c-\u003eb)-\u003eCxt d a b c-\u003eb",
@@ -19962,6 +21600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic catamorphism for contexts over \u003ccode\u003ef\u003c/code\u003e with holes of type\n  \u003ccode\u003eb\u003c/code\u003e, from the given monadic algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "freeM",
           "package": "compdata",
@@ -19972,6 +21611,7 @@
         "index": {
           "description": "Construct monadic catamorphism for contexts over with holes of type from the given monadic algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "freeM",
           "normalized": "AlgM a b c-\u003e(d-\u003ea c)-\u003eCxt e b c d-\u003ea c",
@@ -19987,6 +21627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a futumorphism from the given cv-coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "futu",
           "package": "compdata",
@@ -19997,6 +21638,7 @@
         "index": {
           "description": "Construct futumorphism from the given cv-coalgebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "futu",
           "normalized": "CVCoalg a b-\u003eb-\u003eTerm a",
@@ -20012,6 +21654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a futumorphism from the given generalised cv-coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "futu'",
           "package": "compdata",
@@ -20022,6 +21665,7 @@
         "index": {
           "description": "Construct futumorphism from the given generalised cv-coalgebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "futu'",
           "normalized": "CVCoalg' a b-\u003eb-\u003eTerm a",
@@ -20037,6 +21681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic futumorphism from the given monadic cv-coalgebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "futuM",
           "package": "compdata",
@@ -20047,6 +21692,7 @@
         "index": {
           "description": "Construct monadic futumorphism from the given monadic cv-coalgebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "futuM",
           "normalized": "CVCoalgM a b c-\u003ec-\u003ed e a(Trm b c)",
@@ -20062,6 +21708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a histomorphism from the given cv-algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "histo",
           "package": "compdata",
@@ -20072,6 +21719,7 @@
         "index": {
           "description": "Construct histomorphism from the given cv-algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "histo",
           "normalized": "CVAlg a b c-\u003eTerm a-\u003eb",
@@ -20087,6 +21735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic histomorphism from the given monadic cv-algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "histoM",
           "package": "compdata",
@@ -20097,6 +21746,7 @@
         "index": {
           "description": "Construct monadic histomorphism from the given monadic cv-algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "histoM",
           "normalized": "CVAlgM a b c d-\u003eTerm b-\u003ea c",
@@ -20112,6 +21762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts the given signature function to the canonical term homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "hom",
           "package": "compdata",
@@ -20122,6 +21773,7 @@
         "index": {
           "description": "Lifts the given signature function to the canonical term homomorphism",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "hom",
           "normalized": "SigFun a b-\u003eHom a b",
@@ -20137,6 +21789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift the given signature function to a monadic term homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "homM",
           "package": "compdata",
@@ -20147,6 +21800,7 @@
         "index": {
           "description": "Lift the given signature function to monadic term homomorphism",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "homM",
           "normalized": "SigFunM a b c-\u003eHomM a b c",
@@ -20162,6 +21816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs the unique monadic homomorphism from the\n  initial term algebra to the given term algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "homMD",
           "package": "compdata",
@@ -20172,6 +21827,7 @@
         "index": {
           "description": "This function constructs the unique monadic homomorphism from the initial term algebra to the given term algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "homMD",
           "normalized": "HomMD a b c-\u003eCxtFunM a b c",
@@ -20188,6 +21844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a paramorphism from the given r-algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "para",
           "package": "compdata",
@@ -20198,6 +21855,7 @@
         "index": {
           "description": "Construct paramorphism from the given r-algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "para",
           "normalized": "RAlg a b-\u003eTerm a-\u003eb",
@@ -20213,6 +21871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monadic paramorphism from the given monadic r-algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "paraM",
           "package": "compdata",
@@ -20223,6 +21882,7 @@
         "index": {
           "description": "Construct monadic paramorphism from the given monadic r-algebra",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "paraM",
           "normalized": "RAlgM a b c-\u003eTerm b-\u003ea c",
@@ -20238,6 +21898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift the given signature function to a monadic signature function. Note that\n  term homomorphisms are instances of signature functions. Hence this function\n  also applies to term homomorphisms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Algebra",
           "name": "sigFunM",
           "package": "compdata",
@@ -20248,6 +21909,7 @@
         "index": {
           "description": "Lift the given signature function to monadic signature function Note that term homomorphisms are instances of signature functions Hence this function also applies to term homomorphisms",
           "hierarchy": "Data Comp Param Algebra",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Algebra",
           "name": "sigFunM",
           "normalized": "SigFun a b-\u003eSigFunM c a b",
@@ -20264,6 +21926,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines annotations on signatures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "Annotation",
           "package": "compdata",
@@ -20273,6 +21936,7 @@
         "index": {
           "description": "This module defines annotations on signatures",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "Annotation",
           "package": "compdata",
@@ -20287,6 +21951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type adds a constant product to a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": ":&:",
           "package": "compdata",
@@ -20296,6 +21961,7 @@
         "index": {
           "description": "This data type adds constant product to signature",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": ":&:",
           "package": "compdata",
@@ -20309,6 +21975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal product of signatures (difunctors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": ":*:",
           "package": "compdata",
@@ -20318,6 +21985,7 @@
         "index": {
           "description": "Formal product of signatures difunctors",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": ":*:",
           "package": "compdata",
@@ -20331,6 +21999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class defines how to distribute an annotation over a sum of\n  signatures. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "DistAnn",
           "package": "compdata",
@@ -20340,6 +22009,7 @@
         "index": {
           "description": "This class defines how to distribute an annotation over sum of signatures",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "DistAnn",
           "package": "compdata",
@@ -20353,6 +22023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "RemA",
           "package": "compdata",
@@ -20361,6 +22032,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "RemA",
           "package": "compdata",
@@ -20419,6 +22091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate each node of a term with a constant value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "ann",
           "package": "compdata",
@@ -20429,6 +22102,7 @@
         "index": {
           "description": "Annotate each node of term with constant value",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "ann",
           "normalized": "a-\u003eCxtFun b c",
@@ -20444,6 +22118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject an annotation over a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "injectA",
           "package": "compdata",
@@ -20454,6 +22129,7 @@
         "index": {
           "description": "Inject an annotation over signature",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "injectA",
           "normalized": "a-\u003eb c d-\u003ee c d",
@@ -20469,6 +22145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a function with a domain constructed from a functor to a function\n with a domain constructed with the same functor, but with an additional\n annotation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "liftA",
           "package": "compdata",
@@ -20479,6 +22156,7 @@
         "index": {
           "description": "Transform function with domain constructed from functor to function with domain constructed with the same functor but with an additional annotation",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "liftA",
           "normalized": "(a b c-\u003ed)-\u003ee b c-\u003ed",
@@ -20494,6 +22172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a function with a domain constructed from a functor to a function\n  with a domain constructed with the same functor, but with an additional\n  annotation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "liftA'",
           "package": "compdata",
@@ -20504,6 +22183,7 @@
         "index": {
           "description": "Transform function with domain constructed from functor to function with domain constructed with the same functor but with an additional annotation",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "liftA'",
           "normalized": "(a b c-\u003eCxt d a e f)-\u003eg b c-\u003eCxt d g e f",
@@ -20520,6 +22200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is similar to \u003ccode\u003e\u003ca\u003eproject\u003c/a\u003e\u003c/code\u003e but applies to signatures\nwith an annotation which is then ignored. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "project'",
           "package": "compdata",
@@ -20530,6 +22211,7 @@
         "index": {
           "description": "This function is similar to project but applies to signatures with an annotation which is then ignored",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "project'",
           "normalized": "Cxt a b c d-\u003eMaybe(e c(Cxt a b c d))",
@@ -20545,6 +22227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject an annotation from a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "projectA",
           "package": "compdata",
@@ -20555,6 +22238,7 @@
         "index": {
           "description": "Project an annotation from signature",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "projectA",
           "normalized": "a b c-\u003e(d b c,e)",
@@ -20570,6 +22254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a term homomorphism over signatures \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e to a term homomorphism\n over the same signatures, but extended with annotations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "propAnn",
           "package": "compdata",
@@ -20580,6 +22265,7 @@
         "index": {
           "description": "Lift term homomorphism over signatures and to term homomorphism over the same signatures but extended with annotations",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "propAnn",
           "normalized": "Hom a b-\u003eHom c d",
@@ -20596,6 +22282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a monadic term homomorphism over signatures \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e to a monadic\n  term homomorphism over the same signatures, but extended with annotations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "propAnnM",
           "package": "compdata",
@@ -20606,6 +22293,7 @@
         "index": {
           "description": "Lift monadic term homomorphism over signatures and to monadic term homomorphism over the same signatures but extended with annotations",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "propAnnM",
           "normalized": "HomM a b c-\u003eHomM a d e",
@@ -20622,6 +22310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove annotations from a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "remA",
           "package": "compdata",
@@ -20632,6 +22321,7 @@
         "index": {
           "description": "Remove annotations from signature",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "remA",
           "normalized": "a b c-\u003ed b c",
@@ -20647,6 +22337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the annotations from a term over a functor with annotations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Annotation",
           "name": "stripA",
           "package": "compdata",
@@ -20657,6 +22348,7 @@
         "index": {
           "description": "Strip the annotations from term over functor with annotations",
           "hierarchy": "Data Comp Param Annotation",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Annotation",
           "name": "stripA",
           "package": "compdata",
@@ -20670,6 +22362,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functionality for automatically deriving boilerplate\n code using Template Haskell. Examples include instances of \u003ccode\u003e\u003ca\u003eDifunctor\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003eDifoldable\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eDitraversable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "Derive",
           "package": "compdata",
@@ -20679,6 +22372,7 @@
         "index": {
           "description": "This module contains functionality for automatically deriving boilerplate code using Template Haskell Examples include instances of Difunctor Difoldable and Ditraversable",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "Derive",
           "package": "compdata",
@@ -20693,6 +22387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class represents difunctors, i.e. binary type constructors that are\n contravariant in the first argument and covariant in the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "Difunctor",
           "package": "compdata",
@@ -20702,6 +22397,7 @@
         "index": {
           "description": "This class represents difunctors i.e binary type constructors that are contravariant in the first argument and covariant in the second argument",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "Difunctor",
           "package": "compdata",
@@ -20716,6 +22412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifunctors representing data structures that can be traversed from left to\n  right. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "Ditraversable",
           "package": "compdata",
@@ -20725,6 +22422,7 @@
         "index": {
           "description": "Difunctors representing data structures that can be traversed from left to right",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "Ditraversable",
           "package": "compdata",
@@ -20739,6 +22437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature equality. An instance \u003ccode\u003eEqD f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eEq (Term f)\u003c/code\u003e. The equality test is performed inside the \u003ccode\u003e\u003ca\u003eFreshM\u003c/a\u003e\u003c/code\u003e monad for\n  generating fresh identifiers. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "EqD",
           "package": "compdata",
@@ -20748,6 +22447,7 @@
         "index": {
           "description": "Signature equality An instance EqD gives rise to an instance Eq Term The equality test is performed inside the FreshM monad for generating fresh identifiers",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "EqD",
           "package": "compdata",
@@ -20762,6 +22462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature ordering. An instance \u003ccode\u003eOrdD f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eOrd (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "OrdD",
           "package": "compdata",
@@ -20771,6 +22472,7 @@
         "index": {
           "description": "Signature ordering An instance OrdD gives rise to an instance Ord Term",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "OrdD",
           "package": "compdata",
@@ -20785,6 +22487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature printing. An instance \u003ccode\u003eShowD f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eShow (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "ShowD",
           "package": "compdata",
@@ -20794,6 +22497,7 @@
         "index": {
           "description": "Signature printing An instance ShowD gives rise to an instance Show Term",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "ShowD",
           "package": "compdata",
@@ -20807,6 +22511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "compareD",
           "package": "compdata",
@@ -20816,6 +22521,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "compareD",
           "normalized": "a Name b-\u003ea Name b-\u003eFreshM Ordering",
@@ -20830,6 +22536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "eqD",
           "package": "compdata",
@@ -20839,6 +22546,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "eqD",
           "normalized": "a Name b-\u003ea Name b-\u003eFreshM Bool",
@@ -20854,6 +22562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the name of a type class, where the first parameter is a difunctor,\n  lift it to sums of difunctors. Example: \u003ccode\u003eclass ShowD f where ...\u003c/code\u003e is lifted\n  as \u003ccode\u003einstance (ShowD f, ShowD g) =\u003e ShowD (f :+: g) where ... \u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "liftSum",
           "package": "compdata",
@@ -20864,6 +22573,7 @@
         "index": {
           "description": "Given the name of type class where the first parameter is difunctor lift it to sums of difunctors Example class ShowD where is lifted as instance ShowD ShowD ShowD where",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "liftSum",
           "normalized": "Name-\u003eQ[Dec]",
@@ -20880,6 +22590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eDifunctor\u003c/a\u003e\u003c/code\u003e for a type constructor of any parametric\n  kind taking at least two arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "makeDifunctor",
           "package": "compdata",
@@ -20890,6 +22601,7 @@
         "index": {
           "description": "Derive an instance of Difunctor for type constructor of any parametric kind taking at least two arguments",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "makeDifunctor",
           "normalized": "Name-\u003eQ[Dec]",
@@ -20906,6 +22618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003eTraversable\u003c/code\u003e for a type constructor of any\n  first-order kind taking at least one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "makeDitraversable",
           "package": "compdata",
@@ -20916,6 +22629,7 @@
         "index": {
           "description": "Derive an instance of Traversable for type constructor of any first-order kind taking at least one argument",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "makeDitraversable",
           "normalized": "Name-\u003eQ[Dec]",
@@ -20932,6 +22646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eEqD\u003c/a\u003e\u003c/code\u003e for a type constructor of any parametric\n  kind taking at least two arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "makeEqD",
           "package": "compdata",
@@ -20942,6 +22657,7 @@
         "index": {
           "description": "Derive an instance of EqD for type constructor of any parametric kind taking at least two arguments",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "makeEqD",
           "normalized": "Name-\u003eQ[Dec]",
@@ -20958,6 +22674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eOrdD\u003c/a\u003e\u003c/code\u003e for a type constructor of any parametric\n  kind taking at least two arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "makeOrdD",
           "package": "compdata",
@@ -20968,6 +22685,7 @@
         "index": {
           "description": "Derive an instance of OrdD for type constructor of any parametric kind taking at least two arguments",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "makeOrdD",
           "normalized": "Name-\u003eQ[Dec]",
@@ -20984,6 +22702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of \u003ccode\u003e\u003ca\u003eShowD\u003c/a\u003e\u003c/code\u003e for a type constructor of any parametric\n  kind taking at least two arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "makeShowD",
           "package": "compdata",
@@ -20994,6 +22713,7 @@
         "index": {
           "description": "Derive an instance of ShowD for type constructor of any parametric kind taking at least two arguments",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "makeShowD",
           "normalized": "Name-\u003eQ[Dec]",
@@ -21009,6 +22729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "showD",
           "package": "compdata",
@@ -21018,6 +22739,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "showD",
           "normalized": "a Name(FreshM String)-\u003eFreshM String",
@@ -21033,6 +22755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive smart constructors with annotations for a difunctor. The smart\n constructors are similar to the ordinary constructors, but a\n 'injectA . dimap Var id' is automatically inserted. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "smartAConstructors",
           "package": "compdata",
@@ -21043,6 +22766,7 @@
         "index": {
           "description": "Derive smart constructors with annotations for difunctor The smart constructors are similar to the ordinary constructors but injectA dimap Var id is automatically inserted",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "smartAConstructors",
           "normalized": "Name-\u003eQ[Dec]",
@@ -21059,6 +22783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive smart constructors for a difunctor. The smart constructors are\n similar to the ordinary constructors, but a 'inject . dimap Var id' is\n automatically inserted. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Derive",
           "name": "smartConstructors",
           "package": "compdata",
@@ -21069,6 +22794,7 @@
         "index": {
           "description": "Derive smart constructors for difunctor The smart constructors are similar to the ordinary constructors but inject dimap Var id is automatically inserted",
           "hierarchy": "Data Comp Param Derive",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Derive",
           "name": "smartConstructors",
           "normalized": "Name-\u003eQ[Dec]",
@@ -21085,6 +22811,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules defines the \u003ccode\u003e\u003ca\u003eDesugar\u003c/a\u003e\u003c/code\u003e type class for desugaring of terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -21094,6 +22821,7 @@
         "index": {
           "description": "This modules defines the Desugar type class for desugaring of terms",
           "hierarchy": "Data Comp Param Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -21108,6 +22836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe desugaring term homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -21117,6 +22846,7 @@
         "index": {
           "description": "The desugaring term homomorphism",
           "hierarchy": "Data Comp Param Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Desugar",
           "name": "Desugar",
           "package": "compdata",
@@ -21130,6 +22860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Desugar",
           "name": "desugHom",
           "package": "compdata",
@@ -21139,6 +22870,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Desugar",
           "name": "desugHom",
           "package": "compdata",
@@ -21152,6 +22884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Desugar",
           "name": "desugHom'",
           "package": "compdata",
@@ -21161,6 +22894,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Desugar",
           "name": "desugHom'",
           "normalized": "a b(Cxt c d b e)-\u003eCxt c d b e",
@@ -21177,6 +22911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Desugar",
           "name": "desugar",
           "package": "compdata",
@@ -21187,6 +22922,7 @@
         "index": {
           "description": "Desugar term",
           "hierarchy": "Data Comp Param Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Desugar",
           "name": "desugar",
           "normalized": "Term a-\u003eTerm b",
@@ -21202,6 +22938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift desugaring to annotated terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Desugar",
           "name": "desugarA",
           "package": "compdata",
@@ -21212,6 +22949,7 @@
         "index": {
           "description": "Lift desugaring to annotated terms",
           "hierarchy": "Data Comp Param Desugar",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Desugar",
           "name": "desugarA",
           "normalized": "Term a-\u003eTerm b",
@@ -21227,6 +22965,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines difunctors (Meijer, Hutton, FPCA '95), i.e. binary type\n constructors that are contravariant in the first argument and covariant in\n the second argument.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Difunctor",
           "name": "Difunctor",
           "package": "compdata",
@@ -21236,6 +22975,7 @@
         "index": {
           "description": "This module defines difunctors Meijer Hutton FPCA i.e binary type constructors that are contravariant in the first argument and covariant in the second argument",
           "hierarchy": "Data Comp Param Difunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Difunctor",
           "name": "Difunctor",
           "package": "compdata",
@@ -21250,6 +22990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class represents difunctors, i.e. binary type constructors that are\n contravariant in the first argument and covariant in the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Difunctor",
           "name": "Difunctor",
           "package": "compdata",
@@ -21259,6 +23000,7 @@
         "index": {
           "description": "This class represents difunctors i.e binary type constructors that are contravariant in the first argument and covariant in the second argument",
           "hierarchy": "Data Comp Param Difunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Difunctor",
           "name": "Difunctor",
           "package": "compdata",
@@ -21272,6 +23014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Difunctor",
           "name": "difmap",
           "package": "compdata",
@@ -21281,6 +23024,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Difunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Difunctor",
           "name": "difmap",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -21295,6 +23039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Difunctor",
           "name": "dimap",
           "package": "compdata",
@@ -21304,6 +23049,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Difunctor",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Difunctor",
           "name": "dimap",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee b c-\u003ee a d",
@@ -21319,6 +23065,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines traversable difunctors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ditraversable",
           "name": "Ditraversable",
           "package": "compdata",
@@ -21328,6 +23075,7 @@
         "index": {
           "description": "This module defines traversable difunctors",
           "hierarchy": "Data Comp Param Ditraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ditraversable",
           "name": "Ditraversable",
           "package": "compdata",
@@ -21342,6 +23090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifunctors representing data structures that can be traversed from left to\n  right. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ditraversable",
           "name": "Ditraversable",
           "package": "compdata",
@@ -21351,6 +23100,7 @@
         "index": {
           "description": "Difunctors representing data structures that can be traversed from left to right",
           "hierarchy": "Data Comp Param Ditraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ditraversable",
           "name": "Ditraversable",
           "package": "compdata",
@@ -21364,6 +23114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ditraversable",
           "name": "dimapM",
           "package": "compdata",
@@ -21373,6 +23124,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Ditraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ditraversable",
           "name": "dimapM",
           "normalized": "(a-\u003eb c)-\u003ed e a-\u003eb(d e c)",
@@ -21387,6 +23139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ditraversable",
           "name": "disequence",
           "package": "compdata",
@@ -21396,6 +23149,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Ditraversable",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ditraversable",
           "name": "disequence",
           "normalized": "a b(c d)-\u003ec(a b d)",
@@ -21411,6 +23165,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines equality for signatures, which lifts to equality for\n terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Equality",
           "name": "Equality",
           "package": "compdata",
@@ -21420,6 +23175,7 @@
         "index": {
           "description": "This module defines equality for signatures which lifts to equality for terms",
           "hierarchy": "Data Comp Param Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Equality",
           "name": "Equality",
           "package": "compdata",
@@ -21434,6 +23190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature equality. An instance \u003ccode\u003eEqD f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eEq (Term f)\u003c/code\u003e. The equality test is performed inside the \u003ccode\u003e\u003ca\u003eFreshM\u003c/a\u003e\u003c/code\u003e monad for\n  generating fresh identifiers. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Equality",
           "name": "EqD",
           "package": "compdata",
@@ -21443,6 +23200,7 @@
         "index": {
           "description": "Signature equality An instance EqD gives rise to an instance Eq Term The equality test is performed inside the FreshM monad for generating fresh identifiers",
           "hierarchy": "Data Comp Param Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Equality",
           "name": "EqD",
           "package": "compdata",
@@ -21457,6 +23215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality on parametric values. The equality test is performed inside the\n \u003ccode\u003e\u003ca\u003eFreshM\u003c/a\u003e\u003c/code\u003e monad for generating fresh identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Equality",
           "name": "PEq",
           "package": "compdata",
@@ -21466,6 +23225,7 @@
         "index": {
           "description": "Equality on parametric values The equality test is performed inside the FreshM monad for generating fresh identifiers",
           "hierarchy": "Data Comp Param Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Equality",
           "name": "PEq",
           "package": "compdata",
@@ -21479,6 +23239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Equality",
           "name": "eqD",
           "package": "compdata",
@@ -21488,6 +23249,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Equality",
           "name": "eqD",
           "normalized": "a Name b-\u003ea Name b-\u003eFreshM Bool",
@@ -21502,6 +23264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Equality",
           "name": "peq",
           "package": "compdata",
@@ -21511,6 +23274,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Equality",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Equality",
           "name": "peq",
           "normalized": "a-\u003ea-\u003eFreshM Bool",
@@ -21526,6 +23290,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a monad for generating fresh, abstract names, useful\n e.g. for defining equality on terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.FreshM",
           "name": "FreshM",
           "package": "compdata",
@@ -21535,6 +23300,7 @@
         "index": {
           "description": "This module defines monad for generating fresh abstract names useful e.g for defining equality on terms",
           "hierarchy": "Data Comp Param FreshM",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.FreshM",
           "name": "FreshM",
           "package": "compdata",
@@ -21549,6 +23315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad for generating fresh (abstract) names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.FreshM",
           "name": "FreshM",
           "package": "compdata",
@@ -21558,6 +23325,7 @@
         "index": {
           "description": "Monad for generating fresh abstract names",
           "hierarchy": "Data Comp Param FreshM",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.FreshM",
           "name": "FreshM",
           "package": "compdata",
@@ -21572,6 +23340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract notion of a name (the constructor is hidden).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.FreshM",
           "name": "Name",
           "package": "compdata",
@@ -21581,6 +23350,7 @@
         "index": {
           "description": "Abstract notion of name the constructor is hidden",
           "hierarchy": "Data Comp Param FreshM",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.FreshM",
           "name": "Name",
           "package": "compdata",
@@ -21595,6 +23365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a computation that uses fresh names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.FreshM",
           "name": "evalFreshM",
           "package": "compdata",
@@ -21605,6 +23376,7 @@
         "index": {
           "description": "Evaluate computation that uses fresh names",
           "hierarchy": "Data Comp Param FreshM",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.FreshM",
           "name": "evalFreshM",
           "normalized": "FreshM a-\u003ea",
@@ -21621,6 +23393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the given computation with the next available name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.FreshM",
           "name": "withName",
           "package": "compdata",
@@ -21631,6 +23404,7 @@
         "index": {
           "description": "Run the given computation with the next available name",
           "hierarchy": "Data Comp Param FreshM",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.FreshM",
           "name": "withName",
           "normalized": "(Name-\u003eFreshM a)-\u003eFreshM a",
@@ -21647,6 +23421,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides operators on difunctors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": "Ops",
           "package": "compdata",
@@ -21656,6 +23431,7 @@
         "index": {
           "description": "This module provides operators on difunctors",
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": "Ops",
           "package": "compdata",
@@ -21670,6 +23446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type adds a constant product to a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": ":&:",
           "package": "compdata",
@@ -21679,6 +23456,7 @@
         "index": {
           "description": "This data type adds constant product to signature",
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": ":&:",
           "package": "compdata",
@@ -21692,6 +23470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal product of signatures (difunctors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": ":*:",
           "package": "compdata",
@@ -21701,6 +23480,7 @@
         "index": {
           "description": "Formal product of signatures difunctors",
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": ":*:",
           "package": "compdata",
@@ -21714,6 +23494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal sum of signatures (difunctors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": ":+:",
           "package": "compdata",
@@ -21723,6 +23504,7 @@
         "index": {
           "description": "Formal sum of signatures difunctors",
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": ":+:",
           "package": "compdata",
@@ -21736,6 +23518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature containment relation for automatic injections. The left-hand must\n be an atomic signature, where as the right-hand side must have a list-like\n structure. Examples include \u003ccode\u003ef :\u003c: f :+: g\u003c/code\u003e and \u003ccode\u003eg :\u003c: f :+: (g :+: h)\u003c/code\u003e,\n non-examples include \u003ccode\u003ef :+: g :\u003c: f :+: (g :+: h)\u003c/code\u003e and\n \u003ccode\u003ef :\u003c: (f :+: g) :+: h\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": ":\u003c:",
           "package": "compdata",
@@ -21745,6 +23528,7 @@
         "index": {
           "description": "Signature containment relation for automatic injections The left-hand must be an atomic signature where as the right-hand side must have list-like structure Examples include and non-examples include and",
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": ":\u003c:",
           "package": "compdata",
@@ -21758,6 +23542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class defines how to distribute an annotation over a sum of\n  signatures. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": "DistAnn",
           "package": "compdata",
@@ -21767,6 +23552,7 @@
         "index": {
           "description": "This class defines how to distribute an annotation over sum of signatures",
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": "DistAnn",
           "package": "compdata",
@@ -21780,6 +23566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": "RemA",
           "package": "compdata",
@@ -21788,6 +23575,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": "RemA",
           "package": "compdata",
@@ -21801,6 +23589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": "Inl",
           "package": "compdata",
@@ -21810,6 +23599,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": "Inl",
           "package": "compdata",
@@ -21823,6 +23613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": "Inr",
           "package": "compdata",
@@ -21832,6 +23623,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": "Inr",
           "package": "compdata",
@@ -21871,6 +23663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": "ffst",
           "package": "compdata",
@@ -21880,6 +23673,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": "ffst",
           "normalized": "(a*b)c d-\u003ea c d",
@@ -21894,6 +23688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": "fsnd",
           "package": "compdata",
@@ -21903,6 +23698,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": "fsnd",
           "normalized": "(a*b)c d-\u003eb c d",
@@ -21917,6 +23713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": "inj",
           "package": "compdata",
@@ -21926,6 +23723,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": "inj",
           "normalized": "a b c-\u003ed b c",
@@ -21941,6 +23739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject an annotation over a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": "injectA",
           "package": "compdata",
@@ -21951,6 +23750,7 @@
         "index": {
           "description": "Inject an annotation over signature",
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": "injectA",
           "normalized": "a-\u003eb c d-\u003ee c d",
@@ -21965,6 +23765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": "proj",
           "package": "compdata",
@@ -21974,6 +23775,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": "proj",
           "normalized": "a b c-\u003eMaybe(d b c)",
@@ -21989,6 +23791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject an annotation from a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": "projectA",
           "package": "compdata",
@@ -21999,6 +23802,7 @@
         "index": {
           "description": "Project an annotation from signature",
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": "projectA",
           "normalized": "a b c-\u003e(d b c,e)",
@@ -22014,6 +23818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove annotations from a signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ops",
           "name": "remA",
           "package": "compdata",
@@ -22024,6 +23829,7 @@
         "index": {
           "description": "Remove annotations from signature",
           "hierarchy": "Data Comp Param Ops",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ops",
           "name": "remA",
           "normalized": "a b c-\u003ed b c",
@@ -22039,6 +23845,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines ordering of signatures, which lifts to ordering of\n terms and contexts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ordering",
           "name": "Ordering",
           "package": "compdata",
@@ -22048,6 +23855,7 @@
         "index": {
           "description": "This module defines ordering of signatures which lifts to ordering of terms and contexts",
           "hierarchy": "Data Comp Param Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ordering",
           "name": "Ordering",
           "package": "compdata",
@@ -22062,6 +23870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature ordering. An instance \u003ccode\u003eOrdD f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eOrd (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ordering",
           "name": "OrdD",
           "package": "compdata",
@@ -22071,6 +23880,7 @@
         "index": {
           "description": "Signature ordering An instance OrdD gives rise to an instance Ord Term",
           "hierarchy": "Data Comp Param Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ordering",
           "name": "OrdD",
           "package": "compdata",
@@ -22085,6 +23895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdering of parametric values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ordering",
           "name": "POrd",
           "package": "compdata",
@@ -22094,6 +23905,7 @@
         "index": {
           "description": "Ordering of parametric values",
           "hierarchy": "Data Comp Param Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ordering",
           "name": "POrd",
           "package": "compdata",
@@ -22107,6 +23919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ordering",
           "name": "compList",
           "package": "compdata",
@@ -22116,6 +23929,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ordering",
           "name": "compList",
           "normalized": "[Ordering]-\u003eOrdering",
@@ -22131,6 +23945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ordering",
           "name": "compareD",
           "package": "compdata",
@@ -22140,6 +23955,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ordering",
           "name": "compareD",
           "normalized": "a Name b-\u003ea Name b-\u003eFreshM Ordering",
@@ -22154,6 +23970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Ordering",
           "name": "pcompare",
           "package": "compdata",
@@ -22163,6 +23980,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Ordering",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Ordering",
           "name": "pcompare",
           "normalized": "a-\u003ea-\u003eFreshM Ordering",
@@ -22178,6 +23996,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines showing of signatures, which lifts to showing of terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Show",
           "name": "Show",
           "package": "compdata",
@@ -22187,6 +24006,7 @@
         "index": {
           "description": "This module defines showing of signatures which lifts to showing of terms",
           "hierarchy": "Data Comp Param Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Show",
           "name": "Show",
           "package": "compdata",
@@ -22201,6 +24021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature printing. An instance \u003ccode\u003eShowD f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eShow (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Show",
           "name": "ShowD",
           "package": "compdata",
@@ -22210,6 +24031,7 @@
         "index": {
           "description": "Signature printing An instance ShowD gives rise to an instance Show Term",
           "hierarchy": "Data Comp Param Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Show",
           "name": "ShowD",
           "package": "compdata",
@@ -22223,6 +24045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Show",
           "name": "showD",
           "package": "compdata",
@@ -22232,6 +24055,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Show",
           "name": "showD",
           "normalized": "a Name(FreshM String)-\u003eFreshM String",
@@ -22247,6 +24071,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the infrastructure to extend signatures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "Sum",
           "package": "compdata",
@@ -22256,6 +24081,7 @@
         "index": {
           "description": "This module provides the infrastructure to extend signatures",
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "Sum",
           "package": "compdata",
@@ -22270,6 +24096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal sum of signatures (difunctors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": ":+:",
           "package": "compdata",
@@ -22279,6 +24106,7 @@
         "index": {
           "description": "Formal sum of signatures difunctors",
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": ":+:",
           "package": "compdata",
@@ -22292,6 +24120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature containment relation for automatic injections. The left-hand must\n be an atomic signature, where as the right-hand side must have a list-like\n structure. Examples include \u003ccode\u003ef :\u003c: f :+: g\u003c/code\u003e and \u003ccode\u003eg :\u003c: f :+: (g :+: h)\u003c/code\u003e,\n non-examples include \u003ccode\u003ef :+: g :\u003c: f :+: (g :+: h)\u003c/code\u003e and\n \u003ccode\u003ef :\u003c: (f :+: g) :+: h\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": ":\u003c:",
           "package": "compdata",
@@ -22301,6 +24130,7 @@
         "index": {
           "description": "Signature containment relation for automatic injections The left-hand must be an atomic signature where as the right-hand side must have list-like structure Examples include and non-examples include and",
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": ":\u003c:",
           "package": "compdata",
@@ -22314,6 +24144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a term over a sub signature to a term over larger signature. If the\n signature \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003edeepInject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e\n instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject",
           "package": "compdata",
@@ -22324,6 +24155,7 @@
         "index": {
           "description": "Inject term over sub signature to term over larger signature If the signature is compound of atomic signatures use deepInject instead",
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject",
           "normalized": "Term a-\u003eTerm b",
@@ -22339,6 +24171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject10",
           "package": "compdata",
@@ -22348,6 +24181,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject10",
           "package": "compdata",
@@ -22361,6 +24195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject2",
           "package": "compdata",
@@ -22370,6 +24205,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject2",
           "package": "compdata",
@@ -22383,6 +24219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject3",
           "package": "compdata",
@@ -22392,6 +24229,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject3",
           "package": "compdata",
@@ -22405,6 +24243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject4",
           "package": "compdata",
@@ -22414,6 +24253,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject4",
           "package": "compdata",
@@ -22427,6 +24267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject5",
           "package": "compdata",
@@ -22436,6 +24277,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject5",
           "package": "compdata",
@@ -22449,6 +24291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject6",
           "package": "compdata",
@@ -22458,6 +24301,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject6",
           "package": "compdata",
@@ -22471,6 +24315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject7",
           "package": "compdata",
@@ -22480,6 +24325,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject7",
           "package": "compdata",
@@ -22493,6 +24339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject8",
           "package": "compdata",
@@ -22502,6 +24349,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject8",
           "package": "compdata",
@@ -22515,6 +24363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject9",
           "package": "compdata",
@@ -22524,6 +24373,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepInject9",
           "package": "compdata",
@@ -22538,6 +24388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to coerce a term\u003cem\u003econtext to a term\u003c/em\u003econtext over a sub-signature. If\n the signature \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use\n \u003ccode\u003edeepProject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject",
           "package": "compdata",
@@ -22548,6 +24399,7 @@
         "index": {
           "description": "Tries to coerce term context to term context over sub-signature If the signature is compound of atomic signatures use deepProject instead",
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject",
           "normalized": "Term a-\u003eMaybe(Term b)",
@@ -22563,6 +24415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject10",
           "package": "compdata",
@@ -22572,6 +24425,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject10",
           "normalized": "Term a-\u003eMaybe(Term(b(b(b(b(b(b(b(b(b b))))))))))",
@@ -22587,6 +24441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject2",
           "package": "compdata",
@@ -22596,6 +24451,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject2",
           "normalized": "Term a-\u003eMaybe(Term(b b))",
@@ -22611,6 +24467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject3",
           "package": "compdata",
@@ -22620,6 +24477,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject3",
           "normalized": "Term a-\u003eMaybe(Term(b(b b)))",
@@ -22635,6 +24493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject4",
           "package": "compdata",
@@ -22644,6 +24503,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject4",
           "normalized": "Term a-\u003eMaybe(Term(b(b(b b))))",
@@ -22659,6 +24519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject5",
           "package": "compdata",
@@ -22668,6 +24529,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject5",
           "normalized": "Term a-\u003eMaybe(Term(b(b(b(b b)))))",
@@ -22683,6 +24545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject6",
           "package": "compdata",
@@ -22692,6 +24555,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject6",
           "normalized": "Term a-\u003eMaybe(Term(b(b(b(b(b b))))))",
@@ -22707,6 +24571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject7",
           "package": "compdata",
@@ -22716,6 +24581,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject7",
           "normalized": "Term a-\u003eMaybe(Term(b(b(b(b(b(b b)))))))",
@@ -22731,6 +24597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject8",
           "package": "compdata",
@@ -22740,6 +24607,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject8",
           "normalized": "Term a-\u003eMaybe(Term(b(b(b(b(b(b(b b))))))))",
@@ -22755,6 +24623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject9",
           "package": "compdata",
@@ -22764,6 +24633,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "deepProject9",
           "normalized": "Term a-\u003eMaybe(Term(b(b(b(b(b(b(b(b b)))))))))",
@@ -22779,6 +24649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inj",
           "package": "compdata",
@@ -22788,6 +24659,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inj",
           "normalized": "a b c-\u003ed b c",
@@ -22802,6 +24674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inj10",
           "package": "compdata",
@@ -22811,6 +24684,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inj10",
           "normalized": "a(a(a(a(a(a(a(a(a a))))))))b c-\u003ed b c",
@@ -22825,6 +24699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inj2",
           "package": "compdata",
@@ -22834,6 +24709,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inj2",
           "normalized": "a a b c-\u003ed b c",
@@ -22848,6 +24724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inj3",
           "package": "compdata",
@@ -22857,6 +24734,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inj3",
           "normalized": "a(a a)b c-\u003ed b c",
@@ -22871,6 +24749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inj4",
           "package": "compdata",
@@ -22880,6 +24759,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inj4",
           "normalized": "a(a(a a))b c-\u003ed b c",
@@ -22894,6 +24774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inj5",
           "package": "compdata",
@@ -22903,6 +24784,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inj5",
           "normalized": "a(a(a(a a)))b c-\u003ed b c",
@@ -22917,6 +24799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inj6",
           "package": "compdata",
@@ -22926,6 +24809,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inj6",
           "normalized": "a(a(a(a(a a))))b c-\u003ed b c",
@@ -22940,6 +24824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inj7",
           "package": "compdata",
@@ -22949,6 +24834,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inj7",
           "normalized": "a(a(a(a(a(a a)))))b c-\u003ed b c",
@@ -22963,6 +24849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inj8",
           "package": "compdata",
@@ -22972,6 +24859,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inj8",
           "normalized": "a(a(a(a(a(a(a a))))))b c-\u003ed b c",
@@ -22986,6 +24874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inj9",
           "package": "compdata",
@@ -22995,6 +24884,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inj9",
           "normalized": "a(a(a(a(a(a(a(a a)))))))b c-\u003ed b c",
@@ -23010,6 +24900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a term where the outermost layer is a sub signature. If the signature\n \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003einject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inject",
           "package": "compdata",
@@ -23020,6 +24911,7 @@
         "index": {
           "description": "Inject term where the outermost layer is sub signature If the signature is compound of atomic signatures use inject instead",
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inject",
           "normalized": "a b(Cxt c d b e)-\u003eCxt c d b e",
@@ -23035,6 +24927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a term where the outermost layer is a sub signature. If the signature\n \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003einject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inject'",
           "package": "compdata",
@@ -23045,6 +24938,7 @@
         "index": {
           "description": "Inject term where the outermost layer is sub signature If the signature is compound of atomic signatures use inject instead",
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inject'",
           "normalized": "a(Cxt b c d e)(Cxt b c d e)-\u003eCxt b c d e",
@@ -23059,6 +24953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inject10",
           "package": "compdata",
@@ -23068,6 +24963,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inject10",
           "normalized": "a(a(a(a(a(a(a(a(a a))))))))b(Cxt c d b e)-\u003eCxt c d b e",
@@ -23082,6 +24978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inject2",
           "package": "compdata",
@@ -23091,6 +24988,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inject2",
           "normalized": "a a b(Cxt c d b e)-\u003eCxt c d b e",
@@ -23105,6 +25003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inject3",
           "package": "compdata",
@@ -23114,6 +25013,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inject3",
           "normalized": "a(a a)b(Cxt c d b e)-\u003eCxt c d b e",
@@ -23128,6 +25028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inject4",
           "package": "compdata",
@@ -23137,6 +25038,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inject4",
           "normalized": "a(a(a a))b(Cxt c d b e)-\u003eCxt c d b e",
@@ -23151,6 +25053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inject5",
           "package": "compdata",
@@ -23160,6 +25063,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inject5",
           "normalized": "a(a(a(a a)))b(Cxt c d b e)-\u003eCxt c d b e",
@@ -23174,6 +25078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inject6",
           "package": "compdata",
@@ -23183,6 +25088,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inject6",
           "normalized": "a(a(a(a(a a))))b(Cxt c d b e)-\u003eCxt c d b e",
@@ -23197,6 +25103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inject7",
           "package": "compdata",
@@ -23206,6 +25113,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inject7",
           "normalized": "a(a(a(a(a(a a)))))b(Cxt c d b e)-\u003eCxt c d b e",
@@ -23220,6 +25128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inject8",
           "package": "compdata",
@@ -23229,6 +25138,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inject8",
           "normalized": "a(a(a(a(a(a(a a))))))b(Cxt c d b e)-\u003eCxt c d b e",
@@ -23243,6 +25153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "inject9",
           "package": "compdata",
@@ -23252,6 +25163,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "inject9",
           "normalized": "a(a(a(a(a(a(a(a a)))))))b(Cxt c d b e)-\u003eCxt c d b e",
@@ -23267,6 +25179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function injects a whole context into another context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "injectCxt",
           "package": "compdata",
@@ -23277,6 +25190,7 @@
         "index": {
           "description": "This function injects whole context into another context",
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "injectCxt",
           "normalized": "Cxt a b c(Cxt a d c e)-\u003eCxt a d c e",
@@ -23293,6 +25207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function lifts the given functor to a context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "liftCxt",
           "package": "compdata",
@@ -23303,6 +25218,7 @@
         "index": {
           "description": "This function lifts the given functor to context",
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "liftCxt",
           "normalized": "a b c-\u003eCxt Hole d b c",
@@ -23318,6 +25234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "proj",
           "package": "compdata",
@@ -23327,6 +25244,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "proj",
           "normalized": "a b c-\u003eMaybe(d b c)",
@@ -23341,6 +25259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "proj10",
           "package": "compdata",
@@ -23350,6 +25269,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "proj10",
           "normalized": "a b c-\u003eMaybe(d(d(d(d(d(d(d(d(d d))))))))b c)",
@@ -23364,6 +25284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "proj2",
           "package": "compdata",
@@ -23373,6 +25294,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "proj2",
           "normalized": "a b c-\u003eMaybe(d d b c)",
@@ -23387,6 +25309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "proj3",
           "package": "compdata",
@@ -23396,6 +25319,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "proj3",
           "normalized": "a b c-\u003eMaybe(d(d d)b c)",
@@ -23410,6 +25334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "proj4",
           "package": "compdata",
@@ -23419,6 +25344,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "proj4",
           "normalized": "a b c-\u003eMaybe(d(d(d d))b c)",
@@ -23433,6 +25359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "proj5",
           "package": "compdata",
@@ -23442,6 +25369,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "proj5",
           "normalized": "a b c-\u003eMaybe(d(d(d(d d)))b c)",
@@ -23456,6 +25384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "proj6",
           "package": "compdata",
@@ -23465,6 +25394,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "proj6",
           "normalized": "a b c-\u003eMaybe(d(d(d(d(d d))))b c)",
@@ -23479,6 +25409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "proj7",
           "package": "compdata",
@@ -23488,6 +25419,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "proj7",
           "normalized": "a b c-\u003eMaybe(d(d(d(d(d(d d)))))b c)",
@@ -23502,6 +25434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "proj8",
           "package": "compdata",
@@ -23511,6 +25444,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "proj8",
           "normalized": "a b c-\u003eMaybe(d(d(d(d(d(d(d d))))))b c)",
@@ -23525,6 +25459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "proj9",
           "package": "compdata",
@@ -23534,6 +25469,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "proj9",
           "normalized": "a b c-\u003eMaybe(d(d(d(d(d(d(d(d d)))))))b c)",
@@ -23549,6 +25485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject the outermost layer of a term to a sub signature. If the signature\n \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003eproject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "project",
           "package": "compdata",
@@ -23559,6 +25496,7 @@
         "index": {
           "description": "Project the outermost layer of term to sub signature If the signature is compound of atomic signatures use project instead",
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "project",
           "normalized": "Cxt a b c d-\u003eMaybe(e c(Cxt a b c d))",
@@ -23573,6 +25511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "project10",
           "package": "compdata",
@@ -23582,6 +25521,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "project10",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e(e(e(e(e(e(e e))))))))c(Cxt a b c d))",
@@ -23596,6 +25536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "project2",
           "package": "compdata",
@@ -23605,6 +25546,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "project2",
           "normalized": "Cxt a b c d-\u003eMaybe(e e c(Cxt a b c d))",
@@ -23619,6 +25561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "project3",
           "package": "compdata",
@@ -23628,6 +25571,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "project3",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e e)c(Cxt a b c d))",
@@ -23642,6 +25586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "project4",
           "package": "compdata",
@@ -23651,6 +25596,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "project4",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e e))c(Cxt a b c d))",
@@ -23665,6 +25611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "project5",
           "package": "compdata",
@@ -23674,6 +25621,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "project5",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e(e e)))c(Cxt a b c d))",
@@ -23688,6 +25636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "project6",
           "package": "compdata",
@@ -23697,6 +25646,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "project6",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e(e(e e))))c(Cxt a b c d))",
@@ -23711,6 +25661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "project7",
           "package": "compdata",
@@ -23720,6 +25671,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "project7",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e(e(e(e e)))))c(Cxt a b c d))",
@@ -23734,6 +25686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "project8",
           "package": "compdata",
@@ -23743,6 +25696,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "project8",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e(e(e(e(e e))))))c(Cxt a b c d))",
@@ -23757,6 +25711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Sum",
           "name": "project9",
           "package": "compdata",
@@ -23766,6 +25721,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Sum",
           "name": "project9",
           "normalized": "Cxt a b c d-\u003eMaybe(e(e(e(e(e(e(e(e e)))))))c(Cxt a b c d))",
@@ -23781,6 +25737,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the central notion of \u003cem\u003eparametrised terms\u003c/em\u003e and their\n generalisation to parametrised contexts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "Term",
           "package": "compdata",
@@ -23790,6 +25747,7 @@
         "index": {
           "description": "This module defines the central notion of parametrised terms and their generalisation to parametrised contexts",
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "Term",
           "package": "compdata",
@@ -23804,6 +25762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA context may contain holes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "Context",
           "package": "compdata",
@@ -23813,6 +25772,7 @@
         "index": {
           "description": "context may contain holes",
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "Context",
           "package": "compdata",
@@ -23827,6 +25787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type represents contexts over a signature. Contexts are terms\n  containing zero or more holes, and zero or more parameters. The first\n  parameter is a phantom type indicating whether the context has holes. The\n  second paramater is the signature of the context, in the form of a\n  \u003ca\u003eData.Comp.Param.Difunctor\u003c/a\u003e. The third parameter is the type of parameters,\n  and the fourth parameter is the type of holes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "Cxt",
           "package": "compdata",
@@ -23836,6 +25797,7 @@
         "index": {
           "description": "This data type represents contexts over signature Contexts are terms containing zero or more holes and zero or more parameters The first parameter is phantom type indicating whether the context has holes The second paramater is the signature of the context in the form of Data.Comp.Param.Difunctor The third parameter is the type of parameters and the fourth parameter is the type of holes",
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "Cxt",
           "package": "compdata",
@@ -23850,6 +25812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type used to define \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "Hole",
           "package": "compdata",
@@ -23859,6 +25822,7 @@
         "index": {
           "description": "Phantom type used to define Context",
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "Hole",
           "package": "compdata",
@@ -23873,6 +25837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type used to define \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "NoHole",
           "package": "compdata",
@@ -23882,6 +25847,7 @@
         "index": {
           "description": "Phantom type used to define Term",
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "NoHole",
           "package": "compdata",
@@ -23896,6 +25862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads for which embedded \u003ccode\u003eTrm\u003c/code\u003e values, which are parametric at top level,\n  can be made into monadic \u003ccode\u003eTerm\u003c/code\u003e values, i.e. \"pushing the parametricity\n  inwards\". \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "ParamFunctor",
           "package": "compdata",
@@ -23905,6 +25872,7 @@
         "index": {
           "description": "Monads for which embedded Trm values which are parametric at top level can be made into monadic Term values i.e pushing the parametricity inwards",
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "ParamFunctor",
           "package": "compdata",
@@ -23919,6 +25887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA term is a context with no holes, where all occurrences of the\n  contravariant parameter is fully parametric. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "Term",
           "package": "compdata",
@@ -23928,6 +25897,7 @@
         "index": {
           "description": "term is context with no holes where all occurrences of the contravariant parameter is fully parametric",
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "Term",
           "package": "compdata",
@@ -23942,6 +25912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Preterms\" \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "Trm",
           "package": "compdata",
@@ -23951,6 +25922,7 @@
         "index": {
           "description": "Preterms",
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "Trm",
           "package": "compdata",
@@ -23964,6 +25936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "Hole",
           "package": "compdata",
@@ -23973,6 +25946,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "Hole",
           "normalized": "a-\u003eCxt Hole b c a",
@@ -23988,6 +25962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "In",
           "package": "compdata",
@@ -23997,6 +25972,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "In",
           "normalized": "a b(Cxt c a b d)-\u003eCxt c a b d",
@@ -24012,6 +25988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "Term",
           "package": "compdata",
@@ -24021,6 +25998,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "Term",
           "package": "compdata",
@@ -24034,6 +26012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "Var",
           "package": "compdata",
@@ -24043,6 +26022,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "Var",
           "normalized": "a-\u003eCxt b c a d",
@@ -24059,6 +26039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator maps a function over a context by applying the\n function to each hole.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "cxtMap",
           "package": "compdata",
@@ -24069,6 +26050,7 @@
         "index": {
           "description": "This combinator maps function over context by applying the function to each hole",
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "cxtMap",
           "normalized": "(a-\u003eb)-\u003eContext c d a-\u003eContext c d b",
@@ -24085,6 +26067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a difunctorial value into a context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "simpCxt",
           "package": "compdata",
@@ -24095,6 +26078,7 @@
         "index": {
           "description": "Convert difunctorial value into context",
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "simpCxt",
           "normalized": "a b c-\u003eCxt Hole a b c",
@@ -24110,6 +26094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "termM",
           "package": "compdata",
@@ -24119,6 +26104,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "termM",
           "normalized": "(a b c(Trm d e))-\u003ec(Term d)",
@@ -24133,6 +26119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "toCxt",
           "package": "compdata",
@@ -24142,6 +26129,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "toCxt",
           "normalized": "Trm a b-\u003eCxt c a b d",
@@ -24157,6 +26145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Term",
           "name": "unTerm",
           "package": "compdata",
@@ -24166,6 +26155,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Term",
           "name": "unTerm",
           "package": "compdata",
@@ -24180,6 +26170,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules defines terms & contexts with thunks, with deferred\n monadic computations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "Thunk",
           "package": "compdata",
@@ -24189,6 +26180,7 @@
         "index": {
           "description": "This modules defines terms contexts with thunks with deferred monadic computations",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "Thunk",
           "package": "compdata",
@@ -24203,6 +26195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents algebras which have terms with thunks as\n carrier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "AlgT",
           "package": "compdata",
@@ -24212,6 +26205,7 @@
         "index": {
           "description": "This type represents algebras which have terms with thunks as carrier",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "AlgT",
           "package": "compdata",
@@ -24226,6 +26220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents contexts with thunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "CxtT",
           "package": "compdata",
@@ -24235,6 +26230,7 @@
         "index": {
           "description": "This type represents contexts with thunks",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "CxtT",
           "package": "compdata",
@@ -24249,6 +26245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents terms with thunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "TermT",
           "package": "compdata",
@@ -24258,6 +26255,7 @@
         "index": {
           "description": "This type represents terms with thunks",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "TermT",
           "package": "compdata",
@@ -24271,6 +26269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "Thunk",
           "package": "compdata",
@@ -24279,6 +26278,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "Thunk",
           "package": "compdata",
@@ -24293,6 +26293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents terms with thunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "TrmT",
           "package": "compdata",
@@ -24302,6 +26303,7 @@
         "index": {
           "description": "This type represents terms with thunks",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "TrmT",
           "package": "compdata",
@@ -24315,6 +26317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "evalStrict",
           "package": "compdata",
@@ -24324,6 +26327,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "evalStrict",
           "normalized": "(a(TrmT b c d)(c d(TrmT b c d))-\u003eTrmT b c d)-\u003ea(TrmT b c d)(TrmT b c d)-\u003eTrmT b c d",
@@ -24340,6 +26344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function evaluates all thunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "nf",
           "package": "compdata",
@@ -24350,6 +26355,7 @@
         "index": {
           "description": "This function evaluates all thunks",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "nf",
           "normalized": "TrmT a b c-\u003ea(Trm b c)",
@@ -24365,6 +26371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function evaluates all thunks while simultaneously\n projecting the term to a smaller signature. Failure to do the\n projection is signalled as a failure in the monad as in \u003ccode\u003e\u003ca\u003ewhnfPr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "nfPr",
           "package": "compdata",
@@ -24375,6 +26382,7 @@
         "index": {
           "description": "This function evaluates all thunks while simultaneously projecting the term to smaller signature Failure to do the projection is signalled as failure in the monad as in whnfPr",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "nfPr",
           "normalized": "TrmT a b c-\u003ea(Trm d c)",
@@ -24391,6 +26399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function evaluates all thunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "nfT",
           "package": "compdata",
@@ -24401,6 +26410,7 @@
         "index": {
           "description": "This function evaluates all thunks",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "nfT",
           "normalized": "TermT a b-\u003ea(Term b)",
@@ -24416,6 +26426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function evaluates all thunks while simultaneously\n projecting the term to a smaller signature. Failure to do the\n projection is signalled as a failure in the monad as in \u003ccode\u003e\u003ca\u003ewhnfPr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "nfTPr",
           "package": "compdata",
@@ -24426,6 +26437,7 @@
         "index": {
           "description": "This function evaluates all thunks while simultaneously projecting the term to smaller signature Failure to do the projection is signalled as failure in the monad as in whnfPr",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "nfTPr",
           "normalized": "TermT a b-\u003ea(Term c)",
@@ -24442,6 +26454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator makes the evaluation of the given functor\n application strict by evaluating all thunks of immediate subterms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "strict",
           "package": "compdata",
@@ -24452,6 +26465,7 @@
         "index": {
           "description": "This combinator makes the evaluation of the given functor application strict by evaluating all thunks of immediate subterms",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "strict",
           "normalized": "a b(TrmT c d b)-\u003eTrmT c d b",
@@ -24467,6 +26481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator makes the evaluation of the given functor\n application strict by evaluating all thunks of immediate subterms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "strict'",
           "package": "compdata",
@@ -24477,6 +26492,7 @@
         "index": {
           "description": "This combinator makes the evaluation of the given functor application strict by evaluating all thunks of immediate subterms",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "strict'",
           "normalized": "a(TrmT b c d)(TrmT b c d)-\u003eTrmT b c d",
@@ -24492,6 +26508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function turns a monadic computation into a thunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "thunk",
           "package": "compdata",
@@ -24502,6 +26519,7 @@
         "index": {
           "description": "This function turns monadic computation into thunk",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "thunk",
           "normalized": "a(Cxt b c d e)-\u003eCxt b c d e",
@@ -24517,6 +26535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function evaluates all thunks until a non-thunk node is\n found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "whnf",
           "package": "compdata",
@@ -24527,6 +26546,7 @@
         "index": {
           "description": "This function evaluates all thunks until non-thunk node is found",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "whnf",
           "normalized": "TrmT a b c-\u003ea(Either c(b c(TrmT a b c)))",
@@ -24541,6 +26561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "whnf'",
           "package": "compdata",
@@ -24550,6 +26571,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "whnf'",
           "normalized": "TrmT a b c-\u003ea(TrmT a b c)",
@@ -24565,6 +26587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function first evaluates the argument term into whnf via\n \u003ccode\u003e\u003ca\u003ewhnf\u003c/a\u003e\u003c/code\u003e and then projects the top-level signature to the desired\n subsignature. Failure to do the projection is signalled as a\n failure in the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param.Thunk",
           "name": "whnfPr",
           "package": "compdata",
@@ -24575,6 +26598,7 @@
         "index": {
           "description": "This function first evaluates the argument term into whnf via whnf and then projects the top-level signature to the desired subsignature Failure to do the projection is signalled as failure in the monad",
           "hierarchy": "Data Comp Param Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param.Thunk",
           "name": "whnfPr",
           "normalized": "TrmT a b c-\u003ea(d c(TrmT a b c))",
@@ -24591,6 +26615,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the infrastructure necessary to use\n \u003cem\u003eParametric Compositional Data Types\u003c/em\u003e. Parametric Compositional Data Types \n is an extension of Compositional Data Types with parametric\n higher-order abstract syntax (PHOAS) for usage with binders. Examples of\n usage are bundled with the package in the library\n \u003ccode\u003eexamples/Examples/Param\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Param",
           "name": "Param",
           "package": "compdata",
@@ -24600,6 +26625,7 @@
         "index": {
           "description": "This module defines the infrastructure necessary to use Parametric Compositional Data Types Parametric Compositional Data Types is an extension of Compositional Data Types with parametric higher-order abstract syntax PHOAS for usage with binders Examples of usage are bundled with the package in the library examples Examples Param",
           "hierarchy": "Data Comp Param",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Param",
           "name": "Param",
           "package": "compdata",
@@ -24614,6 +26640,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines showing of signatures, which lifts to showing of\n terms and contexts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Show",
           "name": "Show",
           "package": "compdata",
@@ -24623,6 +26650,7 @@
         "index": {
           "description": "This module defines showing of signatures which lifts to showing of terms and contexts",
           "hierarchy": "Data Comp Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Show",
           "name": "Show",
           "package": "compdata",
@@ -24637,6 +26665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature printing. An instance \u003ccode\u003eShowF f\u003c/code\u003e gives rise to an instance\n  \u003ccode\u003eShow (Term f)\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Show",
           "name": "ShowF",
           "package": "compdata",
@@ -24646,6 +26675,7 @@
         "index": {
           "description": "Signature printing An instance ShowF gives rise to an instance Show Term",
           "hierarchy": "Data Comp Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Show",
           "name": "ShowF",
           "package": "compdata",
@@ -24659,6 +26689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Show",
           "name": "showF",
           "package": "compdata",
@@ -24668,6 +26699,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Show",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Show",
           "name": "showF",
           "normalized": "a String-\u003eString",
@@ -24683,6 +26715,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the infrastructure to extend signatures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "Sum",
           "package": "compdata",
@@ -24692,6 +26725,7 @@
         "index": {
           "description": "This module provides the infrastructure to extend signatures",
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "Sum",
           "package": "compdata",
@@ -24706,6 +26740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal sum of signatures (functors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": ":+:",
           "package": "compdata",
@@ -24715,6 +26750,7 @@
         "index": {
           "description": "Formal sum of signatures functors",
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": ":+:",
           "package": "compdata",
@@ -24728,6 +26764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature containment relation for automatic injections. The left-hand must\n be an atomic signature, where as the right-hand side must have a list-like\n structure. Examples include \u003ccode\u003ef :\u003c: f :+: g\u003c/code\u003e and \u003ccode\u003eg :\u003c: f :+: (g :+: h)\u003c/code\u003e,\n non-examples include \u003ccode\u003ef :+: g :\u003c: f :+: (g :+: h)\u003c/code\u003e and\n \u003ccode\u003ef :\u003c: (f :+: g) :+: h\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": ":\u003c:",
           "package": "compdata",
@@ -24737,6 +26774,7 @@
         "index": {
           "description": "Signature containment relation for automatic injections The left-hand must be an atomic signature where as the right-hand side must have list-like structure Examples include and non-examples include and",
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": ":\u003c:",
           "package": "compdata",
@@ -24750,6 +26788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a term over a sub signature to a term over larger signature. If the\n signature \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003edeepInject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e\n instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepInject",
           "package": "compdata",
@@ -24760,6 +26799,7 @@
         "index": {
           "description": "Inject term over sub signature to term over larger signature If the signature is compound of atomic signatures use deepInject instead",
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepInject",
           "package": "compdata",
@@ -24773,6 +26813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepInject10",
           "package": "compdata",
@@ -24782,6 +26823,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepInject10",
           "package": "compdata",
@@ -24795,6 +26837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepInject2",
           "package": "compdata",
@@ -24804,6 +26847,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepInject2",
           "package": "compdata",
@@ -24817,6 +26861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepInject3",
           "package": "compdata",
@@ -24826,6 +26871,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepInject3",
           "package": "compdata",
@@ -24839,6 +26885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepInject4",
           "package": "compdata",
@@ -24848,6 +26895,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepInject4",
           "package": "compdata",
@@ -24861,6 +26909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepInject5",
           "package": "compdata",
@@ -24870,6 +26919,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepInject5",
           "package": "compdata",
@@ -24883,6 +26933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepInject6",
           "package": "compdata",
@@ -24892,6 +26943,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepInject6",
           "package": "compdata",
@@ -24905,6 +26957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepInject7",
           "package": "compdata",
@@ -24914,6 +26967,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepInject7",
           "package": "compdata",
@@ -24927,6 +26981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepInject8",
           "package": "compdata",
@@ -24936,6 +26991,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepInject8",
           "package": "compdata",
@@ -24949,6 +27005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepInject9",
           "package": "compdata",
@@ -24958,6 +27015,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepInject9",
           "package": "compdata",
@@ -24972,6 +27030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to coerce a term\u003cem\u003econtext to a term\u003c/em\u003econtext over a sub-signature. If\n the signature \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use\n \u003ccode\u003edeepProject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepProject",
           "package": "compdata",
@@ -24982,6 +27041,7 @@
         "index": {
           "description": "Tries to coerce term context to term context over sub-signature If the signature is compound of atomic signatures use deepProject instead",
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepProject",
           "package": "compdata",
@@ -24995,6 +27055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepProject10",
           "package": "compdata",
@@ -25004,6 +27065,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepProject10",
           "package": "compdata",
@@ -25017,6 +27079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepProject2",
           "package": "compdata",
@@ -25026,6 +27089,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepProject2",
           "package": "compdata",
@@ -25039,6 +27103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepProject3",
           "package": "compdata",
@@ -25048,6 +27113,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepProject3",
           "package": "compdata",
@@ -25061,6 +27127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepProject4",
           "package": "compdata",
@@ -25070,6 +27137,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepProject4",
           "package": "compdata",
@@ -25083,6 +27151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepProject5",
           "package": "compdata",
@@ -25092,6 +27161,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepProject5",
           "package": "compdata",
@@ -25105,6 +27175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepProject6",
           "package": "compdata",
@@ -25114,6 +27185,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepProject6",
           "package": "compdata",
@@ -25127,6 +27199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepProject7",
           "package": "compdata",
@@ -25136,6 +27209,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepProject7",
           "package": "compdata",
@@ -25149,6 +27223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepProject8",
           "package": "compdata",
@@ -25158,6 +27233,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepProject8",
           "package": "compdata",
@@ -25171,6 +27247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "deepProject9",
           "package": "compdata",
@@ -25180,6 +27257,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "deepProject9",
           "package": "compdata",
@@ -25193,6 +27271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inj",
           "package": "compdata",
@@ -25202,6 +27281,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inj",
           "normalized": "a b-\u003ec b",
@@ -25216,6 +27296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inj10",
           "package": "compdata",
@@ -25225,6 +27306,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inj10",
           "normalized": "a(a(a(a(a(a(a(a(a a))))))))b-\u003ec b",
@@ -25239,6 +27321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inj2",
           "package": "compdata",
@@ -25248,6 +27331,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inj2",
           "normalized": "a a b-\u003ec b",
@@ -25262,6 +27346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inj3",
           "package": "compdata",
@@ -25271,6 +27356,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inj3",
           "normalized": "a(a a)b-\u003ec b",
@@ -25285,6 +27371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inj4",
           "package": "compdata",
@@ -25294,6 +27381,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inj4",
           "normalized": "a(a(a a))b-\u003ec b",
@@ -25308,6 +27396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inj5",
           "package": "compdata",
@@ -25317,6 +27406,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inj5",
           "normalized": "a(a(a(a a)))b-\u003ec b",
@@ -25331,6 +27421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inj6",
           "package": "compdata",
@@ -25340,6 +27431,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inj6",
           "normalized": "a(a(a(a(a a))))b-\u003ec b",
@@ -25354,6 +27446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inj7",
           "package": "compdata",
@@ -25363,6 +27456,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inj7",
           "normalized": "a(a(a(a(a(a a)))))b-\u003ec b",
@@ -25377,6 +27471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inj8",
           "package": "compdata",
@@ -25386,6 +27481,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inj8",
           "normalized": "a(a(a(a(a(a(a a))))))b-\u003ec b",
@@ -25400,6 +27496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inj9",
           "package": "compdata",
@@ -25409,6 +27506,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inj9",
           "normalized": "a(a(a(a(a(a(a(a a)))))))b-\u003ec b",
@@ -25424,6 +27522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a term where the outermost layer is a sub signature. If the signature\n \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003einject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inject",
           "package": "compdata",
@@ -25434,6 +27533,7 @@
         "index": {
           "description": "Inject term where the outermost layer is sub signature If the signature is compound of atomic signatures use inject instead",
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inject",
           "normalized": "a(Cxt b c d)-\u003eCxt b c d",
@@ -25448,6 +27548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inject10",
           "package": "compdata",
@@ -25457,6 +27558,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inject10",
           "normalized": "a(a(a(a(a(a(a(a(a a))))))))(Cxt b c d)-\u003eCxt b c d",
@@ -25471,6 +27573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inject2",
           "package": "compdata",
@@ -25480,6 +27583,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inject2",
           "normalized": "a a(Cxt b c d)-\u003eCxt b c d",
@@ -25494,6 +27598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inject3",
           "package": "compdata",
@@ -25503,6 +27608,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inject3",
           "normalized": "a(a a)(Cxt b c d)-\u003eCxt b c d",
@@ -25517,6 +27623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inject4",
           "package": "compdata",
@@ -25526,6 +27633,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inject4",
           "normalized": "a(a(a a))(Cxt b c d)-\u003eCxt b c d",
@@ -25540,6 +27648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inject5",
           "package": "compdata",
@@ -25549,6 +27658,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inject5",
           "normalized": "a(a(a(a a)))(Cxt b c d)-\u003eCxt b c d",
@@ -25563,6 +27673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inject6",
           "package": "compdata",
@@ -25572,6 +27683,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inject6",
           "normalized": "a(a(a(a(a a))))(Cxt b c d)-\u003eCxt b c d",
@@ -25586,6 +27698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inject7",
           "package": "compdata",
@@ -25595,6 +27708,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inject7",
           "normalized": "a(a(a(a(a(a a)))))(Cxt b c d)-\u003eCxt b c d",
@@ -25609,6 +27723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inject8",
           "package": "compdata",
@@ -25618,6 +27733,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inject8",
           "normalized": "a(a(a(a(a(a(a a))))))(Cxt b c d)-\u003eCxt b c d",
@@ -25632,6 +27748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "inject9",
           "package": "compdata",
@@ -25641,6 +27758,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "inject9",
           "normalized": "a(a(a(a(a(a(a(a a)))))))(Cxt b c d)-\u003eCxt b c d",
@@ -25655,6 +27773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "injectConst",
           "package": "compdata",
@@ -25664,6 +27783,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "injectConst",
           "normalized": "Const a-\u003eCxt b c d",
@@ -25679,6 +27799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "injectConst2",
           "package": "compdata",
@@ -25688,6 +27809,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "injectConst2",
           "normalized": "Const(a a)-\u003eCxt b c d",
@@ -25703,6 +27825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "injectConst3",
           "package": "compdata",
@@ -25712,6 +27835,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "injectConst3",
           "normalized": "Const(a(a a))-\u003eCxt b c d",
@@ -25728,6 +27852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function injects a whole context into another context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "injectCxt",
           "package": "compdata",
@@ -25738,6 +27863,7 @@
         "index": {
           "description": "This function injects whole context into another context",
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "injectCxt",
           "normalized": "Cxt a b(Cxt c d e)-\u003eCxt c d e",
@@ -25754,6 +27880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function lifts the given functor to a context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "liftCxt",
           "package": "compdata",
@@ -25764,6 +27891,7 @@
         "index": {
           "description": "This function lifts the given functor to context",
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "liftCxt",
           "normalized": "a b-\u003eContext c b",
@@ -25779,6 +27907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "proj",
           "package": "compdata",
@@ -25788,6 +27917,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "proj",
           "normalized": "a b-\u003eMaybe(c b)",
@@ -25802,6 +27932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "proj10",
           "package": "compdata",
@@ -25811,6 +27942,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "proj10",
           "normalized": "a b-\u003eMaybe(c(c(c(c(c(c(c(c(c c))))))))b)",
@@ -25825,6 +27957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "proj2",
           "package": "compdata",
@@ -25834,6 +27967,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "proj2",
           "normalized": "a b-\u003eMaybe(c c b)",
@@ -25848,6 +27982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "proj3",
           "package": "compdata",
@@ -25857,6 +27992,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "proj3",
           "normalized": "a b-\u003eMaybe(c(c c)b)",
@@ -25871,6 +28007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "proj4",
           "package": "compdata",
@@ -25880,6 +28017,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "proj4",
           "normalized": "a b-\u003eMaybe(c(c(c c))b)",
@@ -25894,6 +28032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "proj5",
           "package": "compdata",
@@ -25903,6 +28042,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "proj5",
           "normalized": "a b-\u003eMaybe(c(c(c(c c)))b)",
@@ -25917,6 +28057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "proj6",
           "package": "compdata",
@@ -25926,6 +28067,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "proj6",
           "normalized": "a b-\u003eMaybe(c(c(c(c(c c))))b)",
@@ -25940,6 +28082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "proj7",
           "package": "compdata",
@@ -25949,6 +28092,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "proj7",
           "normalized": "a b-\u003eMaybe(c(c(c(c(c(c c)))))b)",
@@ -25963,6 +28107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "proj8",
           "package": "compdata",
@@ -25972,6 +28117,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "proj8",
           "normalized": "a b-\u003eMaybe(c(c(c(c(c(c(c c))))))b)",
@@ -25986,6 +28132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "proj9",
           "package": "compdata",
@@ -25995,6 +28142,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "proj9",
           "normalized": "a b-\u003eMaybe(c(c(c(c(c(c(c(c c)))))))b)",
@@ -26010,6 +28158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject the outermost layer of a term to a sub signature. If the signature\n \u003ccode\u003eg\u003c/code\u003e is compound of \u003cem\u003en\u003c/em\u003e atomic signatures, use \u003ccode\u003eproject\u003c/code\u003e\u003cem\u003en\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "project",
           "package": "compdata",
@@ -26020,6 +28169,7 @@
         "index": {
           "description": "Project the outermost layer of term to sub signature If the signature is compound of atomic signatures use project instead",
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "project",
           "normalized": "Cxt a b c-\u003eMaybe(d(Cxt a b c))",
@@ -26034,6 +28184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "project10",
           "package": "compdata",
@@ -26043,6 +28194,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "project10",
           "normalized": "Cxt a b c-\u003eMaybe(d(d(d(d(d(d(d(d(d d))))))))(Cxt a b c))",
@@ -26057,6 +28209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "project2",
           "package": "compdata",
@@ -26066,6 +28219,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "project2",
           "normalized": "Cxt a b c-\u003eMaybe(d d(Cxt a b c))",
@@ -26080,6 +28234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "project3",
           "package": "compdata",
@@ -26089,6 +28244,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "project3",
           "normalized": "Cxt a b c-\u003eMaybe(d(d d)(Cxt a b c))",
@@ -26103,6 +28259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "project4",
           "package": "compdata",
@@ -26112,6 +28269,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "project4",
           "normalized": "Cxt a b c-\u003eMaybe(d(d(d d))(Cxt a b c))",
@@ -26126,6 +28284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "project5",
           "package": "compdata",
@@ -26135,6 +28294,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "project5",
           "normalized": "Cxt a b c-\u003eMaybe(d(d(d(d d)))(Cxt a b c))",
@@ -26149,6 +28309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "project6",
           "package": "compdata",
@@ -26158,6 +28319,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "project6",
           "normalized": "Cxt a b c-\u003eMaybe(d(d(d(d(d d))))(Cxt a b c))",
@@ -26172,6 +28334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "project7",
           "package": "compdata",
@@ -26181,6 +28344,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "project7",
           "normalized": "Cxt a b c-\u003eMaybe(d(d(d(d(d(d d)))))(Cxt a b c))",
@@ -26195,6 +28359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "project8",
           "package": "compdata",
@@ -26204,6 +28369,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "project8",
           "normalized": "Cxt a b c-\u003eMaybe(d(d(d(d(d(d(d d))))))(Cxt a b c))",
@@ -26218,6 +28384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "project9",
           "package": "compdata",
@@ -26227,6 +28394,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "project9",
           "normalized": "Cxt a b c-\u003eMaybe(d(d(d(d(d(d(d(d d)))))))(Cxt a b c))",
@@ -26241,6 +28409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "projectConst",
           "package": "compdata",
@@ -26250,6 +28419,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "projectConst",
           "normalized": "Cxt a b c-\u003eMaybe(Const d)",
@@ -26266,6 +28436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies the given context with hole type \u003ccode\u003ea\u003c/code\u003e to a\nfamily \u003ccode\u003ef\u003c/code\u003e of contexts (possibly terms) indexed by \u003ccode\u003ea\u003c/code\u003e. That is, each\nhole \u003ccode\u003eh\u003c/code\u003e is replaced by the context \u003ccode\u003ef h\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "substHoles",
           "package": "compdata",
@@ -26276,6 +28447,7 @@
         "index": {
           "description": "This function applies the given context with hole type to family of contexts possibly terms indexed by That is each hole is replaced by the context",
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "substHoles",
           "normalized": "Cxt a b c-\u003e(c-\u003eCxt d e f)-\u003eCxt d e f",
@@ -26291,6 +28463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Sum",
           "name": "substHoles'",
           "package": "compdata",
@@ -26300,6 +28473,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Sum",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Sum",
           "name": "substHoles'",
           "normalized": "Cxt a b c-\u003eMap c(Cxt d e f)-\u003eCxt d e f",
@@ -26316,6 +28490,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the central notion of \u003cem\u003eterms\u003c/em\u003e and its\n generalisation to contexts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "Term",
           "package": "compdata",
@@ -26325,6 +28500,7 @@
         "index": {
           "description": "This module defines the central notion of terms and its generalisation to contexts",
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "Term",
           "package": "compdata",
@@ -26338,6 +28514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "Const",
           "package": "compdata",
@@ -26346,6 +28523,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "Const",
           "package": "compdata",
@@ -26359,6 +28537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "Context",
           "package": "compdata",
@@ -26367,6 +28546,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "Context",
           "package": "compdata",
@@ -26381,6 +28561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type represents contexts over a signature. Contexts are\nterms containing zero or more holes. The first type parameter is\nsupposed to be one of the phantom types \u003ccode\u003e\u003ca\u003eHole\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNoHole\u003c/a\u003e\u003c/code\u003e. The\nsecond parameter is the signature of the context. The third parameter\nis the type of the holes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "Cxt",
           "package": "compdata",
@@ -26390,6 +28571,7 @@
         "index": {
           "description": "This data type represents contexts over signature Contexts are terms containing zero or more holes The first type parameter is supposed to be one of the phantom types Hole and NoHole The second parameter is the signature of the context The third parameter is the type of the holes",
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "Cxt",
           "package": "compdata",
@@ -26404,6 +28586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type that signals that a \u003ccode\u003e\u003ca\u003eCxt\u003c/a\u003e\u003c/code\u003e might contain holes.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "Hole",
           "package": "compdata",
@@ -26413,6 +28596,7 @@
         "index": {
           "description": "Phantom type that signals that Cxt might contain holes",
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "Hole",
           "package": "compdata",
@@ -26427,6 +28611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type that signals that a \u003ccode\u003e\u003ca\u003eCxt\u003c/a\u003e\u003c/code\u003e does not contain holes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "NoHole",
           "package": "compdata",
@@ -26436,6 +28621,7 @@
         "index": {
           "description": "Phantom type that signals that Cxt does not contain holes",
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "NoHole",
           "package": "compdata",
@@ -26450,6 +28636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolymorphic definition of a term. This formulation is more\n natural than \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003e, it leads to impredicative types in some cases,\n though.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "PTerm",
           "package": "compdata",
@@ -26459,6 +28646,7 @@
         "index": {
           "description": "Polymorphic definition of term This formulation is more natural than Term it leads to impredicative types in some cases though",
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "PTerm",
           "package": "compdata",
@@ -26473,6 +28661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA term is a context with no holes.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "Term",
           "package": "compdata",
@@ -26482,6 +28671,7 @@
         "index": {
           "description": "term is context with no holes",
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "Term",
           "package": "compdata",
@@ -26495,6 +28685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "Hole",
           "package": "compdata",
@@ -26504,6 +28695,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "Hole",
           "normalized": "a-\u003eCxt Hole b a",
@@ -26519,6 +28711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "Term",
           "package": "compdata",
@@ -26528,6 +28721,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "Term",
           "normalized": "a(Cxt b a c)-\u003eCxt b a c",
@@ -26544,6 +28738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function converts a constant to a term. This assumes that the\nargument is indeed a constant, i.e. does not have a value for the\nargument type of the functor \u003ccode\u003ef\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "constTerm",
           "package": "compdata",
@@ -26554,6 +28749,7 @@
         "index": {
           "description": "This function converts constant to term This assumes that the argument is indeed constant i.e does not have value for the argument type of the functor",
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "constTerm",
           "normalized": "Const a-\u003eTerm a",
@@ -26570,6 +28766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a functorial value into a context.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "simpCxt",
           "package": "compdata",
@@ -26580,6 +28777,7 @@
         "index": {
           "description": "Convert functorial value into context",
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "simpCxt",
           "normalized": "a b-\u003eContext a b",
@@ -26596,6 +28794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast a term over a signature to a context over the same signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "toCxt",
           "package": "compdata",
@@ -26606,6 +28805,7 @@
         "index": {
           "description": "Cast term over signature to context over the same signature",
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "toCxt",
           "normalized": "Term a-\u003eCxt b a c",
@@ -26622,6 +28822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function unravels the given term at the topmost layer.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Term",
           "name": "unTerm",
           "package": "compdata",
@@ -26632,6 +28833,7 @@
         "index": {
           "description": "This function unravels the given term at the topmost layer",
           "hierarchy": "Data Comp Term",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Term",
           "name": "unTerm",
           "normalized": "Cxt NoHole a b-\u003ea(Cxt NoHole a b)",
@@ -26648,6 +28850,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines term rewriting systems (TRSs) using compositional data\n types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "TermRewriting",
           "package": "compdata",
@@ -26657,6 +28860,7 @@
         "index": {
           "description": "This module defines term rewriting systems TRSs using compositional data types",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "TermRewriting",
           "package": "compdata",
@@ -26671,6 +28875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a potential single step reduction from any\n input. If there is no single step then the return value is the\n input together with \u003ccode\u003eFalse\u003c/code\u003e. Otherwise, the successor is returned\n together with \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "BStep",
           "package": "compdata",
@@ -26680,6 +28885,7 @@
         "index": {
           "description": "This type represents potential single step reduction from any input If there is no single step then the return value is the input together with False Otherwise the successor is returned together with True",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "BStep",
           "package": "compdata",
@@ -26694,6 +28900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents \u003cem\u003erecursive program schemes\u003c/em\u003e.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "RPS",
           "package": "compdata",
@@ -26703,6 +28910,7 @@
         "index": {
           "description": "This type represents recursive program schemes",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "RPS",
           "package": "compdata",
@@ -26717,6 +28925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents term rewrite rules from signature \u003ccode\u003ef\u003c/code\u003e to\nsignature \u003ccode\u003eg\u003c/code\u003e over variables of type \u003ccode\u003ev\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "Rule",
           "package": "compdata",
@@ -26726,6 +28935,7 @@
         "index": {
           "description": "This type represents term rewrite rules from signature to signature over variables of type",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "Rule",
           "package": "compdata",
@@ -26740,6 +28950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a potential single step reduction from any\n input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "Step",
           "package": "compdata",
@@ -26749,6 +28960,7 @@
         "index": {
           "description": "This type represents potential single step reduction from any input",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "Step",
           "package": "compdata",
@@ -26763,6 +28975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents term rewriting systems (TRSs) from signature\n\u003ccode\u003ef\u003c/code\u003e to signature \u003ccode\u003eg\u003c/code\u003e over variables of type \u003ccode\u003ev\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "TRS",
           "package": "compdata",
@@ -26772,6 +28985,7 @@
         "index": {
           "description": "This type represents term rewriting systems TRSs from signature to signature over variables of type",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "TRS",
           "package": "compdata",
@@ -26786,6 +29000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "Var",
           "package": "compdata",
@@ -26795,6 +29010,7 @@
         "index": {
           "description": "This type represents variables",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "Var",
           "package": "compdata",
@@ -26809,6 +29025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function tries to apply the given rule at the root of the\ngiven term (resp. context in general). If successful, the function\nreturns the result term of the rewrite step; otherwise \u003ccode\u003eNothing\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "appRule",
           "package": "compdata",
@@ -26819,6 +29036,7 @@
         "index": {
           "description": "This function tries to apply the given rule at the root of the given term resp context in general If successful the function returns the result term of the rewrite step otherwise Nothing",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "appRule",
           "normalized": "Rule a a b-\u003eStep(Cxt c a d)",
@@ -26835,6 +29053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function tries to apply one of the rules in the given TRS at\nthe root of the given term (resp. context in general) by trying each\nrule one by one using \u003ccode\u003e\u003ca\u003eappRule\u003c/a\u003e\u003c/code\u003e until one rule is applicable. If no\nrule is applicable \u003ccode\u003eNothing\u003c/code\u003e is returned. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "appTRS",
           "package": "compdata",
@@ -26845,6 +29064,7 @@
         "index": {
           "description": "This function tries to apply one of the rules in the given TRS at the root of the given term resp context in general by trying each rule one by one using appRule until one rule is applicable If no rule is applicable Nothing is returned",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "appTRS",
           "normalized": "TRS a a b-\u003eStep(Cxt c a d)",
@@ -26861,6 +29081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an auxiliary function that turns function \u003ccode\u003ef\u003c/code\u003e of type\n  \u003ccode\u003e(t -\u003e Maybe t)\u003c/code\u003e into functions \u003ccode\u003ef'\u003c/code\u003e of type \u003ccode\u003et -\u003e (t,Bool)\u003c/code\u003e. \u003ccode\u003ef' x\u003c/code\u003e\n  evaluates to \u003ccode\u003e(y,True)\u003c/code\u003e if \u003ccode\u003ef x\u003c/code\u003e evaluates to \u003ccode\u003eJust y\u003c/code\u003e, and to\n  \u003ccode\u003e(x,False)\u003c/code\u003e if \u003ccode\u003ef x\u003c/code\u003e evaluates to \u003ccode\u003eNothing\u003c/code\u003e. This function is useful\n  to change the output of functions that apply rules such as \u003ccode\u003e\u003ca\u003eappTRS\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "bStep",
           "package": "compdata",
@@ -26871,6 +29092,7 @@
         "index": {
           "description": "This is an auxiliary function that turns function of type Maybe into functions of type Bool evaluates to True if evaluates to Just and to False if evaluates to Nothing This function is useful to change the output of functions that apply rules such as appTRS",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "bStep",
           "normalized": "Step a-\u003eBStep a",
@@ -26887,6 +29109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function tries to match the given rule against the given term\n(resp. context in general) at the root. If successful, the function\nreturns the right hand side of the rule and the matching\nsubstitution. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "matchRule",
           "package": "compdata",
@@ -26897,6 +29120,7 @@
         "index": {
           "description": "This function tries to match the given rule against the given term resp context in general at the root If successful the function returns the right hand side of the rule and the matching substitution",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "matchRule",
           "normalized": "Rule a b c-\u003eCxt d a e-\u003eMaybe(Context b c,Map c(Cxt d a e))",
@@ -26913,6 +29137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function tries to match the rules of the given TRS against\n the given term (resp. context in general) at the root. The first\n rule in the TRS that matches is then used and the corresponding\n right-hand side as well the matching substitution is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "matchRules",
           "package": "compdata",
@@ -26923,6 +29148,7 @@
         "index": {
           "description": "This function tries to match the rules of the given TRS against the given term resp context in general at the root The first rule in the TRS that matches is then used and the corresponding right-hand side as well the matching substitution is returned",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "matchRules",
           "normalized": "TRS a b c-\u003eCxt d a e-\u003eMaybe(Context b c,Map c(Cxt d a e))",
@@ -26939,6 +29165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function performs a parallel reduction step by trying to\napply rules of the given system to all outermost redexes. If the given\nterm contains no redexes, \u003ccode\u003eNothing\u003c/code\u003e is returned. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "parTopStep",
           "package": "compdata",
@@ -26949,6 +29176,7 @@
         "index": {
           "description": "This function performs parallel reduction step by trying to apply rules of the given system to all outermost redexes If the given term contains no redexes Nothing is returned",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "parTopStep",
           "normalized": "TRS a a b-\u003eStep(Cxt c a d)",
@@ -26965,6 +29193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function performs a parallel reduction step by trying to\napply rules of the given system to all outermost redexes and then\nrecursively in the variable positions of the redexes. If the given\nterm does not contain any redexes, \u003ccode\u003eNothing\u003c/code\u003e is returned. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "parallelStep",
           "package": "compdata",
@@ -26975,6 +29204,7 @@
         "index": {
           "description": "This function performs parallel reduction step by trying to apply rules of the given system to all outermost redexes and then recursively in the variable positions of the redexes If the given term does not contain any redexes Nothing is returned",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "parallelStep",
           "normalized": "TRS a a b-\u003eStep(Cxt c a d)",
@@ -26991,6 +29221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies the given reduction step repeatedly until a\nnormal form is reached. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.TermRewriting",
           "name": "reduce",
           "package": "compdata",
@@ -27001,6 +29232,7 @@
         "index": {
           "description": "This function applies the given reduction step repeatedly until normal form is reached",
           "hierarchy": "Data Comp TermRewriting",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.TermRewriting",
           "name": "reduce",
           "normalized": "Step a-\u003ea-\u003ea",
@@ -27016,6 +29248,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules defines terms & contexts with thunks, with deferred\n monadic computations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "Thunk",
           "package": "compdata",
@@ -27025,6 +29258,7 @@
         "index": {
           "description": "This modules defines terms contexts with thunks with deferred monadic computations",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "Thunk",
           "package": "compdata",
@@ -27039,6 +29273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents algebras which have terms with thunks as\n carrier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "AlgT",
           "package": "compdata",
@@ -27048,6 +29283,7 @@
         "index": {
           "description": "This type represents algebras which have terms with thunks as carrier",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "AlgT",
           "package": "compdata",
@@ -27062,6 +29298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents contexts with thunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "CxtT",
           "package": "compdata",
@@ -27071,6 +29308,7 @@
         "index": {
           "description": "This type represents contexts with thunks",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "CxtT",
           "package": "compdata",
@@ -27085,6 +29323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents terms with thunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "TermT",
           "package": "compdata",
@@ -27094,6 +29333,7 @@
         "index": {
           "description": "This type represents terms with thunks",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "TermT",
           "package": "compdata",
@@ -27108,6 +29348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eeval\u003c/a\u003e\u003c/code\u003e with flipped argument positions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "(#\u003e)",
           "package": "compdata",
@@ -27118,6 +29359,7 @@
         "index": {
           "description": "Variant of eval with flipped argument positions",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "(#\u003e) #\u003e",
           "normalized": "TermT a b-\u003e(b(TermT a b)-\u003eTermT a b)-\u003eTermT a b",
@@ -27133,6 +29375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003edeepEval\u003c/a\u003e\u003c/code\u003e with flipped argument positions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "(#\u003e\u003e)",
           "package": "compdata",
@@ -27143,6 +29386,7 @@
         "index": {
           "description": "Variant of deepEval with flipped argument positions",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "(#\u003e\u003e) #\u003e\u003e",
           "normalized": "TermT a b-\u003e(Term b-\u003eTermT a b)-\u003eTermT a b",
@@ -27158,6 +29402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator runs a catamorphism on a term with thunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "cataT",
           "package": "compdata",
@@ -27168,6 +29413,7 @@
         "index": {
           "description": "This combinator runs catamorphism on term with thunks",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "cataT",
           "normalized": "Alg a b-\u003eTermT c a-\u003ec b",
@@ -27183,6 +29429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator runs a monadic catamorphism on a term with thunks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "cataTM",
           "package": "compdata",
@@ -27193,6 +29440,7 @@
         "index": {
           "description": "This combinator runs monadic catamorphism on term with thunks",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "cataTM",
           "normalized": "AlgM a b c-\u003eTermT a b-\u003ea c",
@@ -27209,6 +29457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function inspects a term (using \u003ccode\u003e\u003ca\u003enf\u003c/a\u003e\u003c/code\u003e) according to the\n given function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "deepEval",
           "package": "compdata",
@@ -27219,6 +29468,7 @@
         "index": {
           "description": "This function inspects term using nf according to the given function",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "deepEval",
           "normalized": "(Term a-\u003eTermT b a)-\u003eTermT b a-\u003eTermT b a",
@@ -27235,6 +29485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function inspects two terms (using \u003ccode\u003e\u003ca\u003enf\u003c/a\u003e\u003c/code\u003e) according\n to the given function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "deepEval2",
           "package": "compdata",
@@ -27245,6 +29496,7 @@
         "index": {
           "description": "This function inspects two terms using nf according to the given function",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "deepEval2",
           "normalized": "(Term a-\u003eTerm a-\u003eTermT b a)-\u003eTermT b a-\u003eTermT b a-\u003eTermT b a",
@@ -27261,6 +29513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function decides equality of terms with thunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "eqT",
           "package": "compdata",
@@ -27271,6 +29524,7 @@
         "index": {
           "description": "This function decides equality of terms with thunks",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "eqT",
           "normalized": "TermT a b-\u003eTermT a b-\u003ea Bool",
@@ -27286,6 +29540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function inspects the topmost non-thunk node (using\n \u003ccode\u003e\u003ca\u003ewhnf\u003c/a\u003e\u003c/code\u003e) according to the given function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "eval",
           "package": "compdata",
@@ -27296,6 +29551,7 @@
         "index": {
           "description": "This function inspects the topmost non-thunk node using whnf according to the given function",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "eval",
           "normalized": "(a(TermT b a)-\u003eTermT b a)-\u003eTermT b a-\u003eTermT b a",
@@ -27311,6 +29567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function inspects the topmost non-thunk nodes of two terms\n (using \u003ccode\u003e\u003ca\u003ewhnf\u003c/a\u003e\u003c/code\u003e) according to the given function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "eval2",
           "package": "compdata",
@@ -27321,6 +29578,7 @@
         "index": {
           "description": "This function inspects the topmost non-thunk nodes of two terms using whnf according to the given function",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "eval2",
           "normalized": "(a(TermT b a)-\u003ea(TermT b a)-\u003eTermT b a)-\u003eTermT b a-\u003eTermT b a-\u003eTermT b a",
@@ -27336,6 +29594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function evaluates all thunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "nf",
           "package": "compdata",
@@ -27346,6 +29605,7 @@
         "index": {
           "description": "This function evaluates all thunks",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "nf",
           "normalized": "TermT a b-\u003ea(Term b)",
@@ -27361,6 +29621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function evaluates all thunks while simultaneously\n projecting the term to a smaller signature. Failure to do the\n projection is signalled as a failure in the monad as in \u003ccode\u003e\u003ca\u003ewhnfPr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "nfPr",
           "package": "compdata",
@@ -27371,6 +29632,7 @@
         "index": {
           "description": "This function evaluates all thunks while simultaneously projecting the term to smaller signature Failure to do the projection is signalled as failure in the monad as in whnfPr",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "nfPr",
           "normalized": "TermT a b-\u003ea(Term c)",
@@ -27387,6 +29649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator makes the evaluation of the given functor\n application strict by evaluating all thunks of immediate subterms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "strict",
           "package": "compdata",
@@ -27397,6 +29660,7 @@
         "index": {
           "description": "This combinator makes the evaluation of the given functor application strict by evaluating all thunks of immediate subterms",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "strict",
           "normalized": "a(TermT b c)-\u003eTermT b c",
@@ -27412,6 +29676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator is a variant of \u003ccode\u003e\u003ca\u003estrict\u003c/a\u003e\u003c/code\u003e that only makes a subset\n of the arguments of a functor application strict. The first\n argument of this combinator specifies which positions are supposed\n to be strict.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "strictAt",
           "package": "compdata",
@@ -27422,6 +29687,7 @@
         "index": {
           "description": "This combinator is variant of strict that only makes subset of the arguments of functor application strict The first argument of this combinator specifies which positions are supposed to be strict",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "strictAt",
           "normalized": "Pos a-\u003ea(TermT b c)-\u003eTermT b c",
@@ -27438,6 +29704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function turns a monadic computation into a thunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "thunk",
           "package": "compdata",
@@ -27448,6 +29715,7 @@
         "index": {
           "description": "This function turns monadic computation into thunk",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "thunk",
           "normalized": "a(Cxt b c d)-\u003eCxt b c d",
@@ -27463,6 +29731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function evaluates all thunks until a non-thunk node is\n found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "whnf",
           "package": "compdata",
@@ -27473,6 +29742,7 @@
         "index": {
           "description": "This function evaluates all thunks until non-thunk node is found",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "whnf",
           "normalized": "TermT a b-\u003ea(b(TermT a b))",
@@ -27487,6 +29757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "whnf'",
           "package": "compdata",
@@ -27496,6 +29767,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "whnf'",
           "normalized": "TermT a b-\u003ea(TermT a b)",
@@ -27511,6 +29783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function first evaluates the argument term into whnf via\n \u003ccode\u003e\u003ca\u003ewhnf\u003c/a\u003e\u003c/code\u003e and then projects the top-level signature to the desired\n subsignature. Failure to do the projection is signalled as a\n failure in the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Thunk",
           "name": "whnfPr",
           "package": "compdata",
@@ -27521,6 +29794,7 @@
         "index": {
           "description": "This function first evaluates the argument term into whnf via whnf and then projects the top-level signature to the desired subsignature Failure to do the projection is signalled as failure in the monad",
           "hierarchy": "Data Comp Thunk",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Thunk",
           "name": "whnfPr",
           "normalized": "TermT a b-\u003ea(c(TermT a b))",
@@ -27537,6 +29811,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a simple unification algorithm using compositional\n data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "Unification",
           "package": "compdata",
@@ -27546,6 +29821,7 @@
         "index": {
           "description": "This module implements simple unification algorithm using compositional data types",
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "Unification",
           "package": "compdata",
@@ -27560,6 +29836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents equations between terms over a specific\nsignature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "Equation",
           "package": "compdata",
@@ -27569,6 +29846,7 @@
         "index": {
           "description": "This type represents equations between terms over specific signature",
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "Equation",
           "package": "compdata",
@@ -27583,6 +29861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents list of equations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "Equations",
           "package": "compdata",
@@ -27592,6 +29871,7 @@
         "index": {
           "description": "This type represents list of equations",
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "Equations",
           "package": "compdata",
@@ -27606,6 +29886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents errors that might occur during the\nunification.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "UnifError",
           "package": "compdata",
@@ -27615,6 +29896,7 @@
         "index": {
           "description": "This type represents errors that might occur during the unification",
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "UnifError",
           "package": "compdata",
@@ -27629,6 +29911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the unification monad that is used to run the unification\n algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "UnifyM",
           "package": "compdata",
@@ -27638,6 +29921,7 @@
         "index": {
           "description": "This is the unification monad that is used to run the unification algorithm",
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "UnifyM",
           "package": "compdata",
@@ -27652,6 +29936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents the state for the unification algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "UnifyState",
           "package": "compdata",
@@ -27661,6 +29946,7 @@
         "index": {
           "description": "This type represents the state for the unification algorithm",
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "UnifyState",
           "package": "compdata",
@@ -27674,6 +29960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "FailedOccursCheck",
           "package": "compdata",
@@ -27683,6 +29970,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "FailedOccursCheck",
           "package": "compdata",
@@ -27696,6 +29984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "HeadSymbolMismatch",
           "package": "compdata",
@@ -27705,6 +29994,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "HeadSymbolMismatch",
           "package": "compdata",
@@ -27718,6 +30008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "UnifError",
           "package": "compdata",
@@ -27727,6 +30018,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "UnifError",
           "package": "compdata",
@@ -27740,6 +30032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "UnifyState",
           "package": "compdata",
@@ -27749,6 +30042,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "UnifyState",
           "package": "compdata",
@@ -27763,6 +30057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a substitution to each term in a list of\n equations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "appSubstEq",
           "package": "compdata",
@@ -27773,6 +30068,7 @@
         "index": {
           "description": "This function applies substitution to each term in list of equations",
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "appSubstEq",
           "normalized": "Subst a b-\u003eEquation a-\u003eEquation a",
@@ -27789,6 +30085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used in order to signal a failed occurs check during\n unification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "failedOccursCheck",
           "package": "compdata",
@@ -27799,6 +30096,7 @@
         "index": {
           "description": "This is used in order to signal failed occurs check during unification",
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "failedOccursCheck",
           "normalized": "a-\u003eTerm b-\u003ec d",
@@ -27815,6 +30113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used in order to signal a head symbol mismatch during\n unification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "headSymbolMismatch",
           "package": "compdata",
@@ -27825,6 +30124,7 @@
         "index": {
           "description": "This is used in order to signal head symbol mismatch during unification",
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "headSymbolMismatch",
           "normalized": "Term a-\u003eTerm a-\u003eb c",
@@ -27840,6 +30140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "putBinding",
           "package": "compdata",
@@ -27849,6 +30150,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "putBinding",
           "normalized": "(a,Term b)-\u003eUnifyM b a c()",
@@ -27864,6 +30166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "putEqs",
           "package": "compdata",
@@ -27873,6 +30176,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "putEqs",
           "normalized": "Equations a-\u003eUnifyM a b c()",
@@ -27888,6 +30192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "runUnify",
           "package": "compdata",
@@ -27897,6 +30202,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "runUnify",
           "normalized": "UnifyM a b c()",
@@ -27913,6 +30219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function runs a unification monad with the given initial\n list of equations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "runUnifyM",
           "package": "compdata",
@@ -27923,6 +30230,7 @@
         "index": {
           "description": "This function runs unification monad with the given initial list of equations",
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "runUnifyM",
           "normalized": "UnifyM a b c d-\u003eEquations a-\u003ec(Subst a b)",
@@ -27939,6 +30247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function returns the most general unifier of the given\nequations using the algorithm of Martelli and Montanari. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "unify",
           "package": "compdata",
@@ -27949,6 +30258,7 @@
         "index": {
           "description": "This function returns the most general unifier of the given equations using the algorithm of Martelli and Montanari",
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "unify",
           "normalized": "Equations a-\u003eb(Subst a c)",
@@ -27963,6 +30273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "unifyStep",
           "package": "compdata",
@@ -27972,6 +30283,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "unifyStep",
           "normalized": "Equation a-\u003eUnifyM a b c()",
@@ -27987,6 +30299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "usEqs",
           "package": "compdata",
@@ -27996,6 +30309,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "usEqs",
           "package": "compdata",
@@ -28009,6 +30323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "usSubst",
           "package": "compdata",
@@ -28018,6 +30333,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "usSubst",
           "package": "compdata",
@@ -28031,6 +30347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Unification",
           "name": "withNextEq",
           "package": "compdata",
@@ -28040,6 +30357,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Unification",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Unification",
           "name": "withNextEq",
           "normalized": "(Equation a-\u003eUnifyM a b c())-\u003eUnifyM a b c()",
@@ -28056,6 +30374,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines an abstract notion of (bound) variables in compositional\n data types, and scoped substitution. Capture-avoidance is \u003cem\u003enot\u003c/em\u003e taken into\n account.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "Variables",
           "package": "compdata",
@@ -28065,6 +30384,7 @@
         "index": {
           "description": "This module defines an abstract notion of bound variables in compositional data types and scoped substitution Capture-avoidance is not taken into account",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "Variables",
           "package": "compdata",
@@ -28079,6 +30399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents substitutions of contexts, i.e. finite\n mappings from variables to contexts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "CxtSubst",
           "package": "compdata",
@@ -28088,6 +30409,7 @@
         "index": {
           "description": "This type represents substitutions of contexts i.e finite mappings from variables to contexts",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "CxtSubst",
           "package": "compdata",
@@ -28102,6 +30424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis multiparameter class defines functors with variables. An instance\n  \u003ccode\u003eHasVar f v\u003c/code\u003e denotes that values over \u003ccode\u003ef\u003c/code\u003e might contain and bind variables of\n  type \u003ccode\u003ev\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "HasVars",
           "package": "compdata",
@@ -28111,6 +30434,7 @@
         "index": {
           "description": "This multiparameter class defines functors with variables An instance HasVar denotes that values over might contain and bind variables of type",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "HasVars",
           "package": "compdata",
@@ -28125,6 +30449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents substitutions of terms, i.e. finite mappings\n from variables to terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "Subst",
           "package": "compdata",
@@ -28134,6 +30459,7 @@
         "index": {
           "description": "This type represents substitutions of terms i.e finite mappings from variables to terms",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "Subst",
           "package": "compdata",
@@ -28148,6 +30474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the given substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "appSubst",
           "package": "compdata",
@@ -28158,6 +30485,7 @@
         "index": {
           "description": "Apply the given substitution",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "appSubst",
           "normalized": "Map a b-\u003ec-\u003ec",
@@ -28174,6 +30502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates the set of variables bound by the \u003ccode\u003ef\u003c/code\u003e constructor\n for each argument of the constructor. For example for a\n non-recursive let binding:\n \u003ccode\u003e\n data Let e = Let Var e e\n instance HasVars Let Var where\n   bindsVars (Let v x y) = Map.fromList [(y, (Set.singleton v))]\n \u003c/code\u003e\n If, instead, the let binding is recursive, the methods has to\n be implemented like this:\n \u003ccode\u003e\n   bindsVars (Let v x y) = Map.fromList [(x, (Set.singleton v)),\n                                         (y, (Set.singleton v))]\n \u003c/code\u003e\n This indicates that the scope of the bound variable also\n extends to the right-hand side of the variable binding.\n\u003c/p\u003e\u003cp\u003eThe default implementation returns the empty map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "bindsVars",
           "package": "compdata",
@@ -28184,6 +30513,7 @@
         "index": {
           "description": "Indicates the set of variables bound by the constructor for each argument of the constructor For example for non-recursive let binding data Let Let Var instance HasVars Let Var where bindsVars Let Map.fromList Set.singleton If instead the let binding is recursive the methods has to be implemented like this bindsVars Let Map.fromList Set.singleton Set.singleton This indicates that the scope of the bound variable also extends to the right-hand side of the variable binding The default implementation returns the empty map",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "bindsVars",
           "normalized": "a b-\u003eMap b(Set c)",
@@ -28200,6 +30530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes two substitutions \u003ccode\u003es1\u003c/code\u003e and \u003ccode\u003es2\u003c/code\u003e. That is,\napplying the resulting substitution is equivalent to first applying\n\u003ccode\u003es2\u003c/code\u003e and then \u003ccode\u003es1\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "compSubst",
           "package": "compdata",
@@ -28210,6 +30541,7 @@
         "index": {
           "description": "This function composes two substitutions s1 and s2 That is applying the resulting substitution is equivalent to first applying s2 and then s1",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "compSubst",
           "normalized": "CxtSubst a b c d-\u003eCxtSubst a b c d-\u003eCxtSubst a b c d",
@@ -28226,6 +30558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function checks whether a variable is contained in a context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "containsVar",
           "package": "compdata",
@@ -28236,6 +30569,7 @@
         "index": {
           "description": "This function checks whether variable is contained in context",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "containsVar",
           "normalized": "a-\u003eCxt b c d-\u003eBool",
@@ -28252,6 +30586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis combinator pairs every argument of a given constructor with\n the set of (newly) bound variables according to the corresponding\n \u003ccode\u003e\u003ca\u003eHasVars\u003c/a\u003e\u003c/code\u003e type class instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "getBoundVars",
           "package": "compdata",
@@ -28262,6 +30597,7 @@
         "index": {
           "description": "This combinator pairs every argument of given constructor with the set of newly bound variables according to the corresponding HasVars type class instance",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "getBoundVars",
           "normalized": "a b-\u003ea(Set c,b)",
@@ -28278,6 +30614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether the \u003ccode\u003ef\u003c/code\u003e constructor is a variable. The\n default implementation returns \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "isVar",
           "package": "compdata",
@@ -28288,6 +30625,7 @@
         "index": {
           "description": "Indicates whether the constructor is variable The default implementation returns Nothing",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "isVar",
           "normalized": "a b-\u003eMaybe c",
@@ -28303,6 +30641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "substVars",
           "package": "compdata",
@@ -28312,6 +30651,7 @@
         },
         "index": {
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "substVars",
           "normalized": "(a-\u003eMaybe b)-\u003ec-\u003ec",
@@ -28328,6 +30668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes the list of variables occurring in a context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "variableList",
           "package": "compdata",
@@ -28338,6 +30679,7 @@
         "index": {
           "description": "This function computes the list of variables occurring in context",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "variableList",
           "normalized": "Cxt a b c-\u003e[d]",
@@ -28354,6 +30696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes the set of variables occurring in a context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "variables",
           "package": "compdata",
@@ -28364,6 +30707,7 @@
         "index": {
           "description": "This function computes the set of variables occurring in context",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "variables",
           "normalized": "Cxt a b c-\u003eSet d",
@@ -28379,6 +30723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function computes the set of variables occurring in a constant. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "variables'",
           "package": "compdata",
@@ -28389,6 +30734,7 @@
         "index": {
           "description": "This function computes the set of variables occurring in constant",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "variables'",
           "normalized": "Const a-\u003eSet b",
@@ -28404,6 +30750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert variables to holes, except those that are bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp.Variables",
           "name": "varsToHoles",
           "package": "compdata",
@@ -28414,6 +30761,7 @@
         "index": {
           "description": "Convert variables to holes except those that are bound",
           "hierarchy": "Data Comp Variables",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp.Variables",
           "name": "varsToHoles",
           "normalized": "Term a-\u003eContext a b",
@@ -28430,6 +30778,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the infrastructure necessary to use\n \u003cem\u003eCompositional Data Types\u003c/em\u003e. Compositional Data Types is an extension of\n Wouter Swierstra's Functional Pearl: \u003cem\u003eData types a la carte\u003c/em\u003e. Examples of\n usage are bundled with the package in the library \u003ccode\u003eexamples/Examples\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:09 UTC 2014",
           "module": "Data.Comp",
           "name": "Comp",
           "package": "compdata",
@@ -28439,6 +30788,7 @@
         "index": {
           "description": "This module defines the infrastructure necessary to use Compositional Data Types Compositional Data Types is an extension of Wouter Swierstra Functional Pearl Data types la carte Examples of usage are bundled with the package in the library examples Examples",
           "hierarchy": "Data Comp",
+          "indexed": "2014-03-11T17:37:09",
           "module": "Data.Comp",
           "name": "Comp",
           "package": "compdata",

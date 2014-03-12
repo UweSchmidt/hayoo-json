@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "atmos"
+        "phrase": "atmos",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "Atmosphere",
           "package": "atmos",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "Atmosphere",
           "package": "atmos",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "Atmos",
           "package": "atmos",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "Atmos",
           "package": "atmos",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "Atmos",
           "package": "atmos",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "Atmos",
           "package": "atmos",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "atmosDensity",
           "package": "atmos",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "atmosDensity",
           "package": "atmos",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "atmosKinematicViscosity",
           "package": "atmos",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "atmosKinematicViscosity",
           "package": "atmos",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "atmosPressure",
           "package": "atmos",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "atmosPressure",
           "package": "atmos",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "atmosSpeedOfSound",
           "package": "atmos",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "atmosSpeedOfSound",
           "package": "atmos",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "atmosTemperature",
           "package": "atmos",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "atmosTemperature",
           "package": "atmos",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "atmosViscosity",
           "package": "atmos",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "atmosViscosity",
           "package": "atmos",
@@ -215,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eatmosphere in SI units\n\u003c/p\u003e\u003cp\u003eInput: altitude in meters\n\u003c/p\u003e\u003cp\u003eOutput: (pressure, density, speed of sound, viscosity, kinematic viscosity)\n\u003c/p\u003e\u003cpre\u003e pressure            - N/m^2\n density             - kg/m^3\n speed of sound      - m/s\n viscosity           - N-s/m^2\n kinematic viscosity - m^2/s\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "siAtmosphere",
           "package": "atmos",
@@ -225,6 +244,7 @@
         "index": {
           "description": "atmosphere in SI units Input altitude in meters Output pressure density speed of sound viscosity kinematic viscosity pressure density kg speed of sound viscosity N-s kinematic viscosity",
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "siAtmosphere",
           "normalized": "a-\u003e(a,a,a,a,a,a)",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eatmosphere in SI units with ADT output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "siAtmosphere'",
           "package": "atmos",
@@ -251,6 +272,7 @@
         "index": {
           "description": "atmosphere in SI units with ADT output",
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "siAtmosphere'",
           "normalized": "a-\u003eAtmos a",
@@ -267,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eatmosphere in imperial units\n\u003c/p\u003e\u003cp\u003eInput: altitude in ft\n\u003c/p\u003e\u003cp\u003eOutput: (pressure, density, speed of sound, viscosity, kinematic viscosity)\n\u003c/p\u003e\u003cpre\u003e pressure            - lb/ft^2\n density             - slugs/ft^3\n speed of sound      - ft/s\n viscosity           - slugs/(ft-s)\n kinematic viscosity - ft^2/s\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "usAtmosphere",
           "package": "atmos",
@@ -277,6 +300,7 @@
         "index": {
           "description": "atmosphere in imperial units Input altitude in ft Output pressure density speed of sound viscosity kinematic viscosity pressure lb ft density slugs ft speed of sound ft viscosity slugs ft-s kinematic viscosity ft",
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "usAtmosphere",
           "normalized": "a-\u003e(a,a,a,a,a,a)",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eatmosphere in imperial units with ADT output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:01 UTC 2014",
           "module": "Atmosphere",
           "name": "usAtmosphere'",
           "package": "atmos",
@@ -303,6 +328,7 @@
         "index": {
           "description": "atmosphere in imperial units with ADT output",
           "hierarchy": "Atmosphere",
+          "indexed": "2014-03-11T17:14:01",
           "module": "Atmosphere",
           "name": "usAtmosphere'",
           "normalized": "a-\u003eAtmos a",

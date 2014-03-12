@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PageIO"
+        "phrase": "PageIO",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "Area",
           "package": "PageIO",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "Area",
           "package": "PageIO",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "BlockResult",
           "package": "PageIO",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "BlockResult",
           "package": "PageIO",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "Bound",
           "package": "PageIO",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "Bound",
           "package": "PageIO",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "SheetResult",
           "package": "PageIO",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "SheetResult",
           "package": "PageIO",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "checkPattern",
           "package": "PageIO",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "checkPattern",
           "normalized": "Page-\u003ePattern-\u003eBool",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "crop",
           "package": "PageIO",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "crop",
           "normalized": "Box-\u003ePage-\u003ePage",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "extractBlock",
           "package": "PageIO",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "extractBlock",
           "normalized": "Block-\u003ePage-\u003eMaybe BlockResult",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "extractBlocks",
           "package": "PageIO",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "extractBlocks",
           "normalized": "LabelMap Block-\u003ePage-\u003e[(Label,BlockResult)]",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "extractField",
           "package": "PageIO",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "extractField",
           "normalized": "Page-\u003eField-\u003eBound",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "extractPage",
           "package": "PageIO",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "extractPage",
           "normalized": "Sheet-\u003ePage-\u003eMaybe SheetResult",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "fieldLen",
           "package": "PageIO",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "fieldLen",
           "normalized": "Field-\u003eInt",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "pageVal",
           "package": "PageIO",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "pageVal",
           "normalized": "Page-\u003eValue",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Extract",
           "name": "prettyEntry",
           "package": "PageIO",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Extract",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Extract",
           "name": "prettyEntry",
           "normalized": "(Label,a)-\u003eString",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Index",
           "name": "blockProduct",
           "package": "PageIO",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Index",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Index",
           "name": "blockProduct",
           "normalized": "[(Area,LabelMap Bound)]-\u003eBlockResult-\u003e[(Area,LabelMap Bound)]",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Index",
           "name": "fromYMD",
           "package": "PageIO",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Index",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Index",
           "name": "fromYMD",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eString",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Index",
           "name": "indexDocs",
           "package": "PageIO",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Index",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Index",
           "name": "indexDocs",
           "normalized": "Sheet-\u003e[Doc]-\u003eIO()",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Infer",
           "name": "DateMatch",
           "package": "PageIO",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Infer",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Infer",
           "name": "DateMatch",
           "package": "PageIO",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Infer",
           "name": "dateMatchToFields",
           "package": "PageIO",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Infer",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Infer",
           "name": "dateMatchToFields",
           "normalized": "DateMatch-\u003e[(Label,Field)]",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Infer",
           "name": "datePattern",
           "package": "PageIO",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Infer",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Infer",
           "name": "datePattern",
           "package": "PageIO",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Infer",
           "name": "inferPageDateFields",
           "package": "PageIO",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Infer",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Infer",
           "name": "inferPageDateFields",
           "normalized": "Page-\u003e[(Label,Field)]",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Infer",
           "name": "inferPageNameField",
           "package": "PageIO",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Infer",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Infer",
           "name": "inferPageNameField",
           "normalized": "Page-\u003e(Label,Field)",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Infer",
           "name": "inferSheet",
           "package": "PageIO",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Infer",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Infer",
           "name": "inferSheet",
           "normalized": "FilePath-\u003e[Page]-\u003eSheet",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Infer",
           "name": "mkField",
           "package": "PageIO",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Infer",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Infer",
           "name": "mkField",
           "normalized": "String-\u003eCol-\u003eRow-\u003eCol-\u003eRow-\u003e(Label,Field)",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Infer",
           "name": "namePattern",
           "package": "PageIO",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Infer",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Infer",
           "name": "namePattern",
           "package": "PageIO",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Infer",
           "name": "tryMatchDate",
           "package": "PageIO",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Infer",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Infer",
           "name": "tryMatchDate",
           "normalized": "(Int,Value)-\u003e[DateMatch]",
@@ -598,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Infer",
           "name": "tryMatchName",
           "package": "PageIO",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Infer",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Infer",
           "name": "tryMatchName",
           "normalized": "(Int,Value)-\u003e[(Label,Field)]",
@@ -622,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Infer",
           "name": "validateMatch",
           "package": "PageIO",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Infer",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Infer",
           "name": "validateMatch",
           "normalized": "MatchText Value-\u003eMaybe DateMatch",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "Label",
           "package": "PageIO",
@@ -654,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "Label",
           "package": "PageIO",
@@ -667,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "LabelMap",
           "package": "PageIO",
@@ -675,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "LabelMap",
           "package": "PageIO",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "elems",
           "package": "PageIO",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "elems",
           "normalized": "LabelMap a-\u003e[a]",
@@ -711,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "filter",
           "package": "PageIO",
@@ -720,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eLabelMap a-\u003eLabelMap a",
@@ -734,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "fromLabel",
           "package": "PageIO",
@@ -743,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "fromLabel",
           "normalized": "Label-\u003ea",
@@ -758,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "fromList",
           "package": "PageIO",
@@ -767,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "fromList",
           "normalized": "[(Label,a)]-\u003eLabelMap a",
@@ -782,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "fromListWith",
           "package": "PageIO",
@@ -791,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "fromListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(Label,a)]-\u003eLabelMap a",
@@ -806,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "insert",
           "package": "PageIO",
@@ -815,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "insert",
           "normalized": "Label-\u003ea-\u003eLabelMap a-\u003eLabelMap a",
@@ -829,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "insertWith",
           "package": "PageIO",
@@ -838,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eLabel-\u003ea-\u003eLabelMap a-\u003eLabelMap a",
@@ -853,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "intersection",
           "package": "PageIO",
@@ -862,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "intersection",
           "normalized": "LabelMap a-\u003eLabelMap b-\u003eLabelMap a",
@@ -876,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "keyToLabel",
           "package": "PageIO",
@@ -885,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "keyToLabel",
           "normalized": "Key-\u003eLabel",
@@ -900,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "keys",
           "package": "PageIO",
@@ -909,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "keys",
           "normalized": "LabelMap a-\u003e[Label]",
@@ -923,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "lookup",
           "package": "PageIO",
@@ -932,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "lookup",
           "normalized": "Label-\u003eLabelMap a-\u003eMaybe a",
@@ -946,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "mapMaybe",
           "package": "PageIO",
@@ -955,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eLabelMap a-\u003eLabelMap b",
@@ -970,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "mapMaybeWithKey",
           "package": "PageIO",
@@ -979,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "mapMaybeWithKey",
           "normalized": "(Label-\u003ea-\u003eMaybe b)-\u003eLabelMap a-\u003eLabelMap b",
@@ -994,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "mapWithKey",
           "package": "PageIO",
@@ -1003,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "mapWithKey",
           "normalized": "(Label-\u003ea-\u003eb)-\u003eLabelMap a-\u003eLabelMap b",
@@ -1018,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "member",
           "package": "PageIO",
@@ -1027,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "member",
           "normalized": "Label-\u003eLabelMap a-\u003eBool",
@@ -1041,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "null",
           "package": "PageIO",
@@ -1050,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "null",
           "normalized": "LabelMap a-\u003eBool",
@@ -1064,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "toLabel",
           "package": "PageIO",
@@ -1073,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "toLabel",
           "normalized": "a-\u003eLabel",
@@ -1088,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "toList",
           "package": "PageIO",
@@ -1097,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "toList",
           "normalized": "LabelMap a-\u003e[(Label,a)]",
@@ -1112,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "union",
           "package": "PageIO",
@@ -1121,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "union",
           "normalized": "LabelMap a-\u003eLabelMap a-\u003eLabelMap a",
@@ -1135,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "unionWith",
           "package": "PageIO",
@@ -1144,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eLabelMap a-\u003eLabelMap a-\u003eLabelMap a",
@@ -1159,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "unions",
           "package": "PageIO",
@@ -1168,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "unions",
           "normalized": "[LabelMap a]-\u003eLabelMap a",
@@ -1182,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.LabelMap",
           "name": "unionsWith",
           "package": "PageIO",
@@ -1191,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO LabelMap",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.LabelMap",
           "name": "unionsWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[LabelMap a]-\u003eLabelMap a",
@@ -1206,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "\u003c$$\u003e",
           "package": "PageIO",
@@ -1215,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "\u003c$$\u003e",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -1229,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "bareLabel",
           "package": "PageIO",
@@ -1238,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "bareLabel",
           "package": "PageIO",
@@ -1251,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "between",
           "package": "PageIO",
@@ -1260,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "between",
           "normalized": "Parser a-\u003eParser b-\u003eParser c-\u003eParser c",
@@ -1274,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "block",
           "package": "PageIO",
@@ -1283,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "block",
           "normalized": "Parser(Label,Block)",
@@ -1297,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "boxNumbers",
           "package": "PageIO",
@@ -1306,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "boxNumbers",
           "package": "PageIO",
@@ -1319,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "choice",
           "package": "PageIO",
@@ -1328,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "choice",
           "normalized": "[a b]-\u003ea b",
@@ -1342,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "commaSep",
           "package": "PageIO",
@@ -1351,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "commaSep",
           "normalized": "Parser a-\u003eParser[a]",
@@ -1366,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "field",
           "package": "PageIO",
@@ -1375,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "field",
           "normalized": "Parser(Label,Field)",
@@ -1389,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "frame",
           "package": "PageIO",
@@ -1398,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "frame",
           "package": "PageIO",
@@ -1410,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "functionVariable",
           "package": "PageIO",
@@ -1419,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "functionVariable",
           "package": "PageIO",
@@ -1432,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "labelStr",
           "package": "PageIO",
@@ -1441,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "labelStr",
           "package": "PageIO",
@@ -1454,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "liftA4",
           "package": "PageIO",
@@ -1463,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "liftA4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003ef a-\u003ef b-\u003ef c-\u003ef d-\u003ef e",
@@ -1477,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "liftA5",
           "package": "PageIO",
@@ -1486,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "liftA5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eg a-\u003eg b-\u003eg c-\u003eg d-\u003eg e-\u003eg f",
@@ -1500,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "literalStr",
           "package": "PageIO",
@@ -1509,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "literalStr",
           "package": "PageIO",
@@ -1522,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "literalVariable",
           "package": "PageIO",
@@ -1531,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "literalVariable",
           "package": "PageIO",
@@ -1544,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "many1",
           "package": "PageIO",
@@ -1553,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "many1",
           "normalized": "a b-\u003ea[b]",
@@ -1567,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "matchStr",
           "package": "PageIO",
@@ -1576,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "matchStr",
           "package": "PageIO",
@@ -1589,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "maybeBy",
           "package": "PageIO",
@@ -1598,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "maybeBy",
           "normalized": "String-\u003eParser(Maybe[Label])",
@@ -1613,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "maybeFieldFormat",
           "package": "PageIO",
@@ -1622,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "maybeFieldFormat",
           "package": "PageIO",
@@ -1635,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "maybeFieldVariable",
           "package": "PageIO",
@@ -1644,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "maybeFieldVariable",
           "package": "PageIO",
@@ -1657,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "maybeFilters",
           "package": "PageIO",
@@ -1666,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "maybeFilters",
           "normalized": "Parser(Maybe[Filter])",
@@ -1681,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "maybeOrderBys",
           "package": "PageIO",
@@ -1690,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "maybeOrderBys",
           "normalized": "Parser(Maybe[OrderBy Label])",
@@ -1705,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "maybeRule",
           "package": "PageIO",
@@ -1714,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "maybeRule",
           "normalized": "Parser(Maybe a)-\u003eParser(Maybe a)",
@@ -1729,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "mkMatch",
           "package": "PageIO",
@@ -1738,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "mkMatch",
           "normalized": "Value-\u003eMatch",
@@ -1753,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "noneOf",
           "package": "PageIO",
@@ -1762,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "noneOf",
           "normalized": "[Char]-\u003eParser Char",
@@ -1777,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "num",
           "package": "PageIO",
@@ -1786,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "num",
           "package": "PageIO",
@@ -1798,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "oneOf",
           "package": "PageIO",
@@ -1807,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "oneOf",
           "normalized": "[Char]-\u003eParser Char",
@@ -1822,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "operator",
           "package": "PageIO",
@@ -1831,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "operator",
           "package": "PageIO",
@@ -1843,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "packLBS",
           "package": "PageIO",
@@ -1852,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "packLBS",
           "normalized": "ByteString-\u003eByteString",
@@ -1867,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "parseFilter",
           "package": "PageIO",
@@ -1876,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "parseFilter",
           "package": "PageIO",
@@ -1889,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "parseFromFile",
           "package": "PageIO",
@@ -1898,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "parseFromFile",
           "normalized": "Parser a-\u003eString-\u003eIO(Either ParseError a)",
@@ -1913,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "parseLabel",
           "package": "PageIO",
@@ -1922,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "parseLabel",
           "package": "PageIO",
@@ -1935,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "parseMaybe",
           "package": "PageIO",
@@ -1944,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "parseMaybe",
           "normalized": "Parser a-\u003eParser(Maybe a)",
@@ -1959,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "pattern",
           "package": "PageIO",
@@ -1968,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "pattern",
           "normalized": "Parser(Label,Pattern)",
@@ -1982,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "quotedValue",
           "package": "PageIO",
@@ -1991,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "quotedValue",
           "package": "PageIO",
@@ -2004,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "r",
           "package": "PageIO",
@@ -2013,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "r",
           "normalized": "Parser a-\u003eParser a",
@@ -2027,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "readSheet",
           "package": "PageIO",
@@ -2036,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "readSheet",
           "normalized": "FilePath-\u003eIO Sheet",
@@ -2051,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "replaceVariable",
           "package": "PageIO",
@@ -2060,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "replaceVariable",
           "package": "PageIO",
@@ -2073,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "retLabel",
           "package": "PageIO",
@@ -2082,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "retLabel",
           "normalized": "Label-\u003ea-\u003eParser(Label,a)",
@@ -2097,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "sepEndBy",
           "package": "PageIO",
@@ -2106,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "sepEndBy",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -2121,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "sepEndBy1",
           "package": "PageIO",
@@ -2130,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "sepEndBy1",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -2145,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "sheet",
           "package": "PageIO",
@@ -2154,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "sheet",
           "package": "PageIO",
@@ -2166,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "sp",
           "package": "PageIO",
@@ -2175,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "sp",
           "normalized": "Parser()",
@@ -2189,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "str",
           "package": "PageIO",
@@ -2198,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "str",
           "package": "PageIO",
@@ -2210,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "substrVariable",
           "package": "PageIO",
@@ -2219,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "substrVariable",
           "package": "PageIO",
@@ -2232,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Parser",
           "name": "sym",
           "package": "PageIO",
@@ -2241,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Parser",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Parser",
           "name": "sym",
           "normalized": "String-\u003eParser()",
@@ -2255,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Run",
           "name": "hReadPages",
           "package": "PageIO",
@@ -2264,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Run",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Run",
           "name": "hReadPages",
           "normalized": "Handle-\u003eIO[Page]",
@@ -2279,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Run",
           "name": "hReadPagesLazy",
           "package": "PageIO",
@@ -2288,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Run",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Run",
           "name": "hReadPagesLazy",
           "normalized": "Handle-\u003eIO[Page]",
@@ -2303,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Run",
           "name": "hReadPagesStrict",
           "package": "PageIO",
@@ -2312,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Run",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Run",
           "name": "hReadPagesStrict",
           "normalized": "Handle-\u003eInt-\u003eIO[Page]",
@@ -2327,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Run",
           "name": "putPage",
           "package": "PageIO",
@@ -2336,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Run",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Run",
           "name": "putPage",
           "normalized": "Page-\u003eIO()",
@@ -2351,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Run",
           "name": "readPages",
           "package": "PageIO",
@@ -2360,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Run",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Run",
           "name": "readPages",
           "normalized": "FilePath-\u003eIO[Page]",
@@ -2375,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "AppliedVariable",
           "package": "PageIO",
@@ -2383,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "AppliedVariable",
           "package": "PageIO",
@@ -2396,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "BlockData",
           "package": "PageIO",
@@ -2404,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "BlockData",
           "package": "PageIO",
@@ -2417,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "Doc",
           "package": "PageIO",
@@ -2425,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "Doc",
           "package": "PageIO",
@@ -2438,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "DocBinding",
           "package": "PageIO",
@@ -2446,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "DocBinding",
           "package": "PageIO",
@@ -2459,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "FieldBinding",
           "package": "PageIO",
@@ -2467,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "FieldBinding",
           "package": "PageIO",
@@ -2480,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "FitAttempt",
           "package": "PageIO",
@@ -2488,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "FitAttempt",
           "package": "PageIO",
@@ -2501,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "Ordered",
           "package": "PageIO",
@@ -2509,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "Ordered",
           "package": "PageIO",
@@ -2522,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "PageBinding",
           "package": "PageIO",
@@ -2530,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "PageBinding",
           "package": "PageIO",
@@ -2543,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "PageCapacity",
           "package": "PageIO",
@@ -2551,6 +2772,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "PageCapacity",
           "package": "PageIO",
@@ -2564,6 +2786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "Slot",
           "package": "PageIO",
@@ -2572,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "Slot",
           "package": "PageIO",
@@ -2585,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "ValueMap",
           "package": "PageIO",
@@ -2593,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "ValueMap",
           "package": "PageIO",
@@ -2606,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "areaRows",
           "package": "PageIO",
@@ -2615,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "areaRows",
           "normalized": "Area-\u003eRow",
@@ -2630,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "bindDoc",
           "package": "PageIO",
@@ -2639,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "bindDoc",
           "normalized": "Sheet-\u003e[Page]-\u003e[SheetResult]-\u003e[DocBinding]",
@@ -2654,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "clearArea",
           "package": "PageIO",
@@ -2663,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "clearArea",
           "normalized": "Box-\u003ePage-\u003ePage",
@@ -2678,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "constToPattern",
           "package": "PageIO",
@@ -2687,6 +2920,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "constToPattern",
           "normalized": "Sheet-\u003eSheet",
@@ -2702,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "doAttempt",
           "package": "PageIO",
@@ -2711,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "doAttempt",
           "normalized": "LabelMap[OrderBy Label]-\u003eFitAttempt-\u003eSheetResult-\u003eFitAttempt",
@@ -2726,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "doCapacity",
           "package": "PageIO",
@@ -2735,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "doCapacity",
           "normalized": "Sheet-\u003e[PageCapacity]-\u003eSheetResult-\u003e[PageCapacity]",
@@ -2750,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "doExpandFields",
           "package": "PageIO",
@@ -2759,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "doExpandFields",
           "normalized": "LabelMap Field-\u003eOrdered FieldBinding-\u003eOrdered FieldBinding",
@@ -2774,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "doGroupArea",
           "package": "PageIO",
@@ -2783,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "doGroupArea",
           "normalized": "[Label]-\u003eLabelMap Field-\u003e[Ordered FieldBinding]-\u003e[Ordered FieldBinding]",
@@ -2798,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "doGroupBlockData",
           "package": "PageIO",
@@ -2807,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "doGroupBlockData",
           "normalized": "LabelMap[Label]-\u003eLabelMap(LabelMap Field)-\u003eLabel-\u003eBlockData-\u003eBlockData",
@@ -2822,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "doGroupBy",
           "package": "PageIO",
@@ -2831,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "doGroupBy",
           "normalized": "[(Block,LabelMap Bound)]-\u003e[(Block,LabelMap Bound)]",
@@ -2846,6 +3092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "doGroupRows",
           "package": "PageIO",
@@ -2855,6 +3102,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "doGroupRows",
           "normalized": "LabelMap Field-\u003e[Ordered FieldBinding]-\u003eOrdered FieldBinding",
@@ -2870,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "emitDoc",
           "package": "PageIO",
@@ -2879,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "emitDoc",
           "normalized": "[(SheetResult,Page)]-\u003eDoc",
@@ -2894,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "fillArea",
           "package": "PageIO",
@@ -2903,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "fillArea",
           "normalized": "Row-\u003eCol-\u003eArea-\u003ePage-\u003ePage",
@@ -2918,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "fillLine",
           "package": "PageIO",
@@ -2927,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "fillLine",
           "normalized": "Col-\u003e(Value,Value)-\u003eValue",
@@ -2942,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "fillPageVariables",
           "package": "PageIO",
@@ -2951,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "fillPageVariables",
           "normalized": "LabelMap AppliedVariable-\u003ePage-\u003ePage",
@@ -2966,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "fillVariables",
           "package": "PageIO",
@@ -2975,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "fillVariables",
           "normalized": "Sheet-\u003e[SheetResult]-\u003e[Page]-\u003e[Page]",
@@ -2990,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "fitOnePage",
           "package": "PageIO",
@@ -2999,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "fitOnePage",
           "normalized": "[Slot]-\u003e(PageBinding,FitAttempt)-\u003e(PageBinding,FitAttempt)",
@@ -3014,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "fitOneSlot",
           "package": "PageIO",
@@ -3023,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "fitOneSlot",
           "normalized": "Slot-\u003e(PageBinding,FitAttempt)-\u003e(PageBinding,FitAttempt)",
@@ -3038,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "formatFloat",
           "package": "PageIO",
@@ -3047,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "formatFloat",
           "normalized": "Int-\u003eInt-\u003eValue",
@@ -3062,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "formatInt",
           "package": "PageIO",
@@ -3071,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "formatInt",
           "normalized": "Int-\u003eInt-\u003eValue",
@@ -3086,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "gatherForSheetBlock",
           "package": "PageIO",
@@ -3095,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "gatherForSheetBlock",
           "normalized": "(Block-\u003ea)-\u003eSheet-\u003eLabelMap a",
@@ -3110,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "makeDoc",
           "package": "PageIO",
@@ -3119,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "makeDoc",
           "normalized": "Sheet-\u003e[DocBinding]-\u003eDoc",
@@ -3134,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "makePage",
           "package": "PageIO",
@@ -3143,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "makePage",
           "normalized": "Sheet-\u003ePageBinding-\u003ePage-\u003ePage",
@@ -3158,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "makeValueMap",
           "package": "PageIO",
@@ -3167,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "makeValueMap",
           "normalized": "SheetResult-\u003eValueMap",
@@ -3182,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "packPages",
           "package": "PageIO",
@@ -3191,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "packPages",
           "normalized": "[Page]-\u003eByteString",
@@ -3206,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "parsePages",
           "package": "PageIO",
@@ -3215,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "parsePages",
           "normalized": "Sheet-\u003e[Page]-\u003e[Doc]",
@@ -3230,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "repeatTails",
           "package": "PageIO",
@@ -3239,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "repeatTails",
           "normalized": "[a]-\u003e[[a]]",
@@ -3254,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "replaceArea",
           "package": "PageIO",
@@ -3263,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "replaceArea",
           "normalized": "Box-\u003e[Area]-\u003ePage-\u003ePage",
@@ -3278,6 +3560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "replacePage",
           "package": "PageIO",
@@ -3287,6 +3570,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "replacePage",
           "normalized": "(Page,Box)-\u003e(Block,LabelMap Bound)-\u003e(Page,Box)",
@@ -3302,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "replaceWith",
           "package": "PageIO",
@@ -3311,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "replaceWith",
           "normalized": "Value-\u003eValue-\u003eValue-\u003eValue",
@@ -3326,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "sheetBlockFields",
           "package": "PageIO",
@@ -3335,6 +3622,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "sheetBlockFields",
           "normalized": "Sheet-\u003eLabelMap(LabelMap Field)",
@@ -3350,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "sheetBlockGroupBys",
           "package": "PageIO",
@@ -3359,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "sheetBlockGroupBys",
           "normalized": "Sheet-\u003eLabelMap[Label]",
@@ -3374,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "sheetBlockOrderBys",
           "package": "PageIO",
@@ -3383,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "sheetBlockOrderBys",
           "normalized": "Sheet-\u003eLabelMap[OrderBy Label]",
@@ -3398,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "sheetVariableFields",
           "package": "PageIO",
@@ -3407,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "sheetVariableFields",
           "normalized": "Sheet-\u003e(LabelMap Field,LabelMap Field)",
@@ -3422,6 +3716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "transformPages",
           "package": "PageIO",
@@ -3431,6 +3726,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "transformPages",
           "normalized": "Sheet-\u003e[Page]-\u003eSheet-\u003e[Page]-\u003e[Doc]",
@@ -3446,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "tryFit",
           "package": "PageIO",
@@ -3455,6 +3752,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "tryFit",
           "normalized": "[PageCapacity]-\u003eFitAttempt-\u003eMaybe[PageBinding]",
@@ -3470,6 +3768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Transform",
           "name": "valueToArea",
           "package": "PageIO",
@@ -3479,6 +3778,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Transform",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Transform",
           "name": "valueToArea",
           "normalized": "Value-\u003eArea",
@@ -3494,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Block",
           "package": "PageIO",
@@ -3502,6 +3803,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Block",
           "package": "PageIO",
@@ -3515,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Box",
           "package": "PageIO",
@@ -3523,6 +3826,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Box",
           "package": "PageIO",
@@ -3536,6 +3840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Col",
           "package": "PageIO",
@@ -3544,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Col",
           "package": "PageIO",
@@ -3557,6 +3863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Field",
           "package": "PageIO",
@@ -3565,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Field",
           "package": "PageIO",
@@ -3578,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "FieldFormat",
           "package": "PageIO",
@@ -3586,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "FieldFormat",
           "package": "PageIO",
@@ -3599,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Filter",
           "package": "PageIO",
@@ -3607,6 +3918,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Filter",
           "package": "PageIO",
@@ -3620,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "FractionDigits",
           "package": "PageIO",
@@ -3628,6 +3941,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "FractionDigits",
           "package": "PageIO",
@@ -3641,6 +3955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Frame",
           "package": "PageIO",
@@ -3649,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Frame",
           "package": "PageIO",
@@ -3662,6 +3978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Match",
           "package": "PageIO",
@@ -3670,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Match",
           "package": "PageIO",
@@ -3683,6 +4001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Operator",
           "package": "PageIO",
@@ -3691,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Operator",
           "package": "PageIO",
@@ -3704,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "OrderBy",
           "package": "PageIO",
@@ -3712,6 +4033,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "OrderBy",
           "package": "PageIO",
@@ -3725,6 +4047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Page",
           "package": "PageIO",
@@ -3733,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Page",
           "package": "PageIO",
@@ -3746,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Pattern",
           "package": "PageIO",
@@ -3754,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Pattern",
           "package": "PageIO",
@@ -3767,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Row",
           "package": "PageIO",
@@ -3775,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Row",
           "package": "PageIO",
@@ -3788,6 +4116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Scope",
           "package": "PageIO",
@@ -3796,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Scope",
           "package": "PageIO",
@@ -3809,6 +4139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Sheet",
           "package": "PageIO",
@@ -3817,6 +4148,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Sheet",
           "package": "PageIO",
@@ -3830,6 +4162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Value",
           "package": "PageIO",
@@ -3838,6 +4171,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Value",
           "package": "PageIO",
@@ -3851,6 +4185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "Variable",
           "package": "PageIO",
@@ -3859,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "Variable",
           "package": "PageIO",
@@ -3872,6 +4208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "matchSubstring",
           "package": "PageIO",
@@ -3881,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "matchSubstring",
           "normalized": "Value-\u003eMatch-\u003eMaybe Int",
@@ -3896,6 +4234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "matches",
           "package": "PageIO",
@@ -3905,6 +4244,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "matches",
           "normalized": "Value-\u003eMatch-\u003eBool",
@@ -3919,6 +4259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "valToInt",
           "package": "PageIO",
@@ -3928,6 +4269,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "valToInt",
           "normalized": "Value-\u003eInt",
@@ -3943,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:30 UTC 2014",
           "module": "Text.PageIO.Types",
           "name": "valToIntVal",
           "package": "PageIO",
@@ -3952,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Text PageIO Types",
+          "indexed": "2014-03-11T16:56:30",
           "module": "Text.PageIO.Types",
           "name": "valToIntVal",
           "normalized": "Value-\u003eValue",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmm"
+        "phrase": "hmm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData.HMM is a library for using Hidden Markov Models (HMMs) with Haskell.  HMMs are a common method of machine learning.  All of the most frequently used algorithms---the forward and backwards algorithms, Viterbi, and Baum-Welch---are implemented in this library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "HMM",
           "package": "hmm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Data.HMM is library for using Hidden Markov Models HMMs with Haskell HMMs are common method of machine learning All of the most frequently used algorithms---the forward and backwards algorithms Viterbi and Baum-Welch---are implemented in this library",
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "HMM",
           "package": "hmm",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data types for our HMM.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "HMM",
           "package": "hmm",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The data types for our HMM",
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "HMM",
           "package": "hmm",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "Prob",
           "package": "hmm",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "Prob",
           "package": "hmm",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "HMM",
           "package": "hmm",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "HMM",
           "package": "hmm",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebackwards algorithm does the same thing as the forward algorithm, just a different implementation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "backward",
           "package": "hmm",
@@ -118,6 +127,7 @@
         "index": {
           "description": "backwards algorithm does the same thing as the forward algorithm just different implementation",
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "backward",
           "normalized": "HMM a b-\u003e[b]-\u003eProb",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBaum-Welch is used to train an HMM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "baumWelch",
           "package": "hmm",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Baum-Welch is used to train an HMM",
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "baumWelch",
           "normalized": "HMM a b-\u003eArray Int b-\u003eInt-\u003eHMM a b",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "baumWelchItr",
           "package": "hmm",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "baumWelchItr",
           "normalized": "HMM a b-\u003eArray Int b-\u003eHMM a b",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "events",
           "package": "hmm",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "events",
           "normalized": "[a]",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eforward algorithm determines the probability that a given event array would be emitted by our HMM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "forward",
           "package": "hmm",
@@ -216,6 +233,7 @@
         "index": {
           "description": "forward algorithm determines the probability that given event array would be emitted by our HMM",
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "forward",
           "normalized": "HMM a b-\u003e[b]-\u003eProb",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoins 2 HMMs by connecting every state in the first HMM to every state in the second, and vice versa, with probabilities based on the join ratio\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "hmmJoin",
           "package": "hmm",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Joins HMMs by connecting every state in the first HMM to every state in the second and vice versa with probabilities based on the join ratio",
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "hmmJoin",
           "normalized": "HMM a b-\u003eHMM a b-\u003eProb-\u003eHMM(Int,a)b",
@@ -256,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "initProbs",
           "package": "hmm",
@@ -265,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "initProbs",
           "normalized": "a-\u003eProb",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "loadHMM",
           "package": "hmm",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "loadHMM",
           "normalized": "FilePath-\u003eIO(HMM a b)",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "outMatrix",
           "package": "hmm",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "outMatrix",
           "normalized": "a-\u003eb-\u003eProb",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esaves the HMM to a file for later retrieval.  HMMs can take a long time to calculate, so this is very useful\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "saveHMM",
           "package": "hmm",
@@ -339,6 +366,7 @@
         "index": {
           "description": "saves the HMM to file for later retrieval HMMs can take long time to calculate so this is very useful",
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "saveHMM",
           "normalized": "String-\u003eHMM a b-\u003eIO()",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse simpleHMM to create an untrained hidden Markov model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "simpleHMM",
           "package": "hmm",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Use simpleHMM to create an untrained hidden Markov model",
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "simpleHMM",
           "normalized": "[a]-\u003e[b]-\u003eHMM a b",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse simpleMM to create an untrained standard Markov model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "simpleMM",
           "package": "hmm",
@@ -391,6 +422,7 @@
         "index": {
           "description": "Use simpleMM to create an untrained standard Markov model",
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "simpleMM",
           "normalized": "[a]-\u003ea-\u003eHMM[a]a",
@@ -406,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "states",
           "package": "hmm",
@@ -415,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "states",
           "normalized": "[a]",
@@ -429,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "transMatrix",
           "package": "hmm",
@@ -438,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "transMatrix",
           "normalized": "a-\u003ea-\u003eProb",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einitProbs should always equal 1; the others should equal the number of states\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "verifyhmm",
           "package": "hmm",
@@ -464,6 +501,7 @@
         "index": {
           "description": "initProbs should always equal the others should equal the number of states",
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "verifyhmm",
           "normalized": "HMM a b-\u003eIO()",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eViterbi's algorithm calculates the most probable path through our states given an event array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:22 UTC 2014",
           "module": "Data.HMM",
           "name": "viterbi",
           "package": "hmm",
@@ -489,6 +528,7 @@
         "index": {
           "description": "Viterbi algorithm calculates the most probable path through our states given an event array",
           "hierarchy": "Data HMM",
+          "indexed": "2014-03-11T18:42:22",
           "module": "Data.HMM",
           "name": "viterbi",
           "normalized": "HMM a b-\u003eArray Int b-\u003e[a]",

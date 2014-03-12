@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lens-time"
+        "phrase": "lens-time",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "Lens",
           "package": "lens-time",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T19:07:45",
           "module": "Data.Time.Lens",
           "name": "Lens",
           "package": "lens-time",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "HasDate",
           "package": "lens-time",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T19:07:45",
           "module": "Data.Time.Lens",
           "name": "HasDate",
           "package": "lens-time",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "HasTime",
           "package": "lens-time",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T19:07:45",
           "module": "Data.Time.Lens",
           "name": "HasTime",
           "package": "lens-time",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "date",
           "package": "lens-time",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T19:07:45",
           "module": "Data.Time.Lens",
           "name": "date",
           "package": "lens-time",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "dateLens",
           "package": "lens-time",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T19:07:45",
           "module": "Data.Time.Lens",
           "name": "dateLens",
           "normalized": "((a-\u003eAccessor a a)-\u003e(Integer,Int,Int)-\u003eAccessor a(Integer,Int,Int))-\u003e(a-\u003eDay-\u003eDay)-\u003e(a-\u003eb a)-\u003ec-\u003eb c",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "day",
           "package": "lens-time",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T19:07:45",
           "module": "Data.Time.Lens",
           "name": "day",
           "package": "lens-time",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "hour",
           "package": "lens-time",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T19:07:45",
           "module": "Data.Time.Lens",
           "name": "hour",
           "package": "lens-time",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "minutes",
           "package": "lens-time",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T19:07:45",
           "module": "Data.Time.Lens",
           "name": "minutes",
           "package": "lens-time",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "month",
           "package": "lens-time",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T19:07:45",
           "module": "Data.Time.Lens",
           "name": "month",
           "package": "lens-time",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "seconds",
           "package": "lens-time",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T19:07:45",
           "module": "Data.Time.Lens",
           "name": "seconds",
           "package": "lens-time",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "time",
           "package": "lens-time",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T19:07:45",
           "module": "Data.Time.Lens",
           "name": "time",
           "package": "lens-time",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "year",
           "package": "lens-time",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T19:07:45",
           "module": "Data.Time.Lens",
           "name": "year",
           "package": "lens-time",

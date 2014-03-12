@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BiobaseFR3D"
+        "phrase": "BiobaseFR3D",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImporting of FR3D data. Both \u003ca\u003ebasepairs\u003c/a\u003e and \u003ca\u003enear interactions\u003c/a\u003e are\n currently supported. More parsers will come if required.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D.Import",
           "name": "Import",
           "package": "BiobaseFR3D",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Importing of FR3D data Both basepairs and near interactions are currently supported More parsers will come if required",
           "hierarchy": "Biobase FR3D Import",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D.Import",
           "name": "Import",
           "package": "BiobaseFR3D",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function turning a bytestring line into a basepair entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D.Import",
           "name": "bs2basepair",
           "package": "BiobaseFR3D",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Helper function turning bytestring line into basepair entry",
           "hierarchy": "Biobase FR3D Import",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D.Import",
           "name": "bs2basepair",
           "normalized": "ByteString-\u003eBasepair",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnd this one the \u003ca\u003ebasepairs\u003c/a\u003e (this one you normally want).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D.Import",
           "name": "fromDir",
           "package": "BiobaseFR3D",
@@ -77,6 +82,7 @@
         "index": {
           "description": "And this one the basepairs this one you normally want",
           "hierarchy": "Biobase FR3D Import",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D.Import",
           "name": "fromDir",
           "normalized": "FilePath-\u003eIO[FR D]",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis one select the \u003ca\u003enear interactions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D.Import",
           "name": "fromDirNear",
           "package": "BiobaseFR3D",
@@ -103,6 +110,7 @@
         "index": {
           "description": "This one select the near interactions",
           "hierarchy": "Biobase FR3D Import",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D.Import",
           "name": "fromDirNear",
           "normalized": "FilePath-\u003eIO[FR D]",
@@ -119,6 +127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function: given a directory name, extracts a list of all FR3D\n entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D.Import",
           "name": "fromDirSelect",
           "package": "BiobaseFR3D",
@@ -129,6 +138,7 @@
         "index": {
           "description": "Convenience function given directory name extracts list of all FR3D entries",
           "hierarchy": "Biobase FR3D Import",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D.Import",
           "name": "fromDirSelect",
           "normalized": "String-\u003eFilePath-\u003eIO[FR D]",
@@ -145,6 +155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Iteratee from a bytestring to one FR3D entry. Since each file contains\n exactly one entry, this is no problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D.Import",
           "name": "iFR3D",
           "package": "BiobaseFR3D",
@@ -155,6 +166,7 @@
         "index": {
           "description": "An Iteratee from bytestring to one FR3D entry Since each file contains exactly one entry this is no problem",
           "hierarchy": "Biobase FR3D Import",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D.Import",
           "name": "iFR3D",
           "package": "BiobaseFR3D",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFR3D provides a very convenient library of explored RNA structures. We are\n mostly interested in the \u003ca\u003ebasepairs\u003c/a\u003e files. In contrast to the RNAstrand\n library or melting experiments, these data sets provide non-canonical RNA\n pairing.\n\u003c/p\u003e\u003cp\u003eNOTE that FR3D entries contain basepairs both in (i,j) as well as (j,i)\n orientation (with i\u003cj).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "FR3D",
           "package": "BiobaseFR3D",
@@ -178,6 +191,7 @@
         "index": {
           "description": "FR3D provides very convenient library of explored RNA structures We are mostly interested in the basepairs files In contrast to the RNAstrand library or melting experiments these data sets provide non-canonical RNA pairing NOTE that FR3D entries contain basepairs both in as well as orientation with",
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "FR3D",
           "package": "BiobaseFR3D",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single basepair in a basepair system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "Basepair",
           "package": "BiobaseFR3D",
@@ -201,6 +216,7 @@
         "index": {
           "description": "single basepair in basepair system",
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "Basepair",
           "package": "BiobaseFR3D",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulates all the \u003ca\u003ebasepairs\u003c/a\u003e information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "FR3D",
           "package": "BiobaseFR3D",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Encapsulates all the basepairs information",
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "FR3D",
           "package": "BiobaseFR3D",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinearized FR3D format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "LinFR3D",
           "package": "BiobaseFR3D",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Linearized FR3D format",
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "LinFR3D",
           "package": "BiobaseFR3D",
@@ -260,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "RemoveDuplicatePairs",
           "package": "BiobaseFR3D",
@@ -268,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "RemoveDuplicatePairs",
           "package": "BiobaseFR3D",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "TriPair",
           "package": "BiobaseFR3D",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "TriPair",
           "package": "BiobaseFR3D",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "Basepair",
           "package": "BiobaseFR3D",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "Basepair",
           "package": "BiobaseFR3D",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "FR3D",
           "package": "BiobaseFR3D",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "FR3D",
           "package": "BiobaseFR3D",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "LinFR3D",
           "package": "BiobaseFR3D",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "LinFR3D",
           "package": "BiobaseFR3D",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "basepairs",
           "package": "BiobaseFR3D",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "basepairs",
           "normalized": "[Basepair]",
@@ -391,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "chain1",
           "package": "BiobaseFR3D",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "chain1",
           "package": "BiobaseFR3D",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "chain2",
           "package": "BiobaseFR3D",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "chain2",
           "package": "BiobaseFR3D",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "chains",
           "package": "BiobaseFR3D",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "chains",
           "normalized": "[(ByteString,ByteString)]",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks an FR3D file for correctness. Returns either a Left on errors or\n Right FR3D if correct.\n\u003c/p\u003e\u003cp\u003eTODO chain existence check\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "checkFR3D",
           "package": "BiobaseFR3D",
@@ -467,6 +506,7 @@
         "index": {
           "description": "Checks an FR3D file for correctness Returns either Left on errors or Right FR3D if correct TODO chain existence check",
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "checkFR3D",
           "normalized": "FR D-\u003eEither(FR D,[Basepair])FR D",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "checkLinFR3D",
           "package": "BiobaseFR3D",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "checkLinFR3D",
           "normalized": "LinFR D-\u003eEither(LinFR D,[TriPair])LinFR D",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "interaction",
           "package": "BiobaseFR3D",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "interaction",
           "package": "BiobaseFR3D",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default format is a bit unwieldy; Linearization assumes that all\n sequences are in 5'-\u003e3' order; then produces one sequence with \u003ca\u003e&\u003c/a\u003e\n separating the sequences and pairs reduced to (Int,Int,cWW).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "linearizeFR3D",
           "package": "BiobaseFR3D",
@@ -538,6 +583,7 @@
         "index": {
           "description": "The default format is bit unwieldy Linearization assumes that all sequences are in order then produces one sequence with separating the sequences and pairs reduced to Int Int cWW",
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "linearizeFR3D",
           "normalized": "FR D-\u003eLinFR D",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "nucleotide1",
           "package": "BiobaseFR3D",
@@ -562,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "nucleotide1",
           "package": "BiobaseFR3D",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "nucleotide2",
           "package": "BiobaseFR3D",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "nucleotide2",
           "package": "BiobaseFR3D",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "pairs",
           "package": "BiobaseFR3D",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "pairs",
           "normalized": "[TriPair]",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "pdbID",
           "package": "BiobaseFR3D",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "pdbID",
           "package": "BiobaseFR3D",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "pdbid",
           "package": "BiobaseFR3D",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "pdbid",
           "package": "BiobaseFR3D",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "pdbnumber1",
           "package": "BiobaseFR3D",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "pdbnumber1",
           "package": "BiobaseFR3D",
@@ -682,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "pdbnumber2",
           "package": "BiobaseFR3D",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "pdbnumber2",
           "package": "BiobaseFR3D",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "removeDuplicatePairs",
           "package": "BiobaseFR3D",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "removeDuplicatePairs",
           "normalized": "a-\u003ea",
@@ -727,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "seqpos1",
           "package": "BiobaseFR3D",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "seqpos1",
           "package": "BiobaseFR3D",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "seqpos2",
           "package": "BiobaseFR3D",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "seqpos2",
           "package": "BiobaseFR3D",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:23 UTC 2014",
           "module": "Biobase.FR3D",
           "name": "sequence",
           "package": "BiobaseFR3D",
@@ -778,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Biobase FR3D",
+          "indexed": "2014-03-11T16:34:23",
           "module": "Biobase.FR3D",
           "name": "sequence",
           "package": "BiobaseFR3D",

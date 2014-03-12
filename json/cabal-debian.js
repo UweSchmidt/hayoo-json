@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-debian"
+        "phrase": "cabal-debian",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Data.Algorithm.Diff.Context",
           "name": "Context",
           "package": "cabal-debian",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Algorithm Diff Context",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Data.Algorithm.Diff.Context",
           "name": "Context",
           "package": "cabal-debian",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo a grouped diff and then turn it into a list of hunks, where\n each hunk is a grouped diff with at most N elements of common\n context around each one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Data.Algorithm.Diff.Context",
           "name": "contextDiff",
           "package": "cabal-debian",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Do grouped diff and then turn it into list of hunks where each hunk is grouped diff with at most elements of common context around each one",
           "hierarchy": "Data Algorithm Diff Context",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Data.Algorithm.Diff.Context",
           "name": "contextDiff",
           "normalized": "Int-\u003e[a]-\u003e[a]-\u003e[[Diff[a]]]",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup the elements whose adjacent pairs satisfy the predicate.\n Differs from groupBy because the predicate does not have to define\n a total ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Data.Algorithm.Diff.Context",
           "name": "groups",
           "package": "cabal-debian",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Group the elements whose adjacent pairs satisfy the predicate Differs from groupBy because the predicate does not have to define total ordering",
           "hierarchy": "Data Algorithm Diff Context",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Data.Algorithm.Diff.Context",
           "name": "groups",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Data.Algorithm.Diff.Pretty",
           "name": "Pretty",
           "package": "cabal-debian",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Data Algorithm Diff Pretty",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Data.Algorithm.Diff.Pretty",
           "name": "Pretty",
           "package": "cabal-debian",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat the output of \u003ccode\u003econtextDiff\u003c/code\u003e to look approximately like the\n output of the unix diff command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Data.Algorithm.Diff.Pretty",
           "name": "prettyDiff",
           "package": "cabal-debian",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Format the output of contextDiff to look approximately like the output of the unix diff command",
           "hierarchy": "Data Algorithm Diff Pretty",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Data.Algorithm.Diff.Pretty",
           "name": "prettyDiff",
           "normalized": "a-\u003eb-\u003e[[Diff[c]]]-\u003eDoc",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompute the debianization of a cabal package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.BuildDependencies",
           "name": "BuildDependencies",
           "package": "cabal-debian",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Compute the debianization of cabal package",
           "hierarchy": "Debian Debianize BuildDependencies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.BuildDependencies",
           "name": "BuildDependencies",
           "package": "cabal-debian",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.BuildDependencies",
           "name": "debianBuildDeps",
           "package": "cabal-debian",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize BuildDependencies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.BuildDependencies",
           "name": "debianBuildDeps",
           "normalized": "PackageDescription-\u003eDebT a Relations",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.BuildDependencies",
           "name": "debianBuildDepsIndep",
           "package": "cabal-debian",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize BuildDependencies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.BuildDependencies",
           "name": "debianBuildDepsIndep",
           "normalized": "PackageDescription-\u003eDebT a Relations",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDetermine whether a specific version of a Haskell package is\n bundled with into this particular version of the given compiler.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Bundled",
           "name": "Bundled",
           "package": "cabal-debian",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Determine whether specific version of Haskell package is bundled with into this particular version of the given compiler",
           "hierarchy": "Debian Debianize Bundled",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Bundled",
           "name": "Bundled",
           "package": "cabal-debian",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Bundled",
           "name": "ghcBuiltIn",
           "package": "cabal-debian",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Bundled",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Bundled",
           "name": "ghcBuiltIn",
           "normalized": "CompilerId-\u003ePackageName-\u003eBool",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Changelog",
           "name": "Changelog",
           "package": "cabal-debian",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Changelog",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Changelog",
           "name": "Changelog",
           "package": "cabal-debian",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter out versions newer than the given one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Changelog",
           "name": "dropFutureEntries",
           "package": "cabal-debian",
@@ -287,6 +310,7 @@
         "index": {
           "description": "Filter out versions newer than the given one",
           "hierarchy": "Debian Debianize Changelog",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Changelog",
           "name": "dropFutureEntries",
           "normalized": "DebianVersion-\u003eChangeLog-\u003eChangeLog",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a filter to the version numbers of the changelog entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Changelog",
           "name": "filterEntries",
           "package": "cabal-debian",
@@ -313,6 +338,7 @@
         "index": {
           "description": "Apply filter to the version numbers of the changelog entries",
           "hierarchy": "Debian Debianize Changelog",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Changelog",
           "name": "filterEntries",
           "normalized": "(DebianVersion-\u003eBool)-\u003eChangeLog-\u003eChangeLog",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the log entry with the given version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Changelog",
           "name": "findChangelogEntry",
           "package": "cabal-debian",
@@ -339,6 +366,7 @@
         "index": {
           "description": "Find the log entry with the given version",
           "hierarchy": "Debian Debianize Changelog",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Changelog",
           "name": "findChangelogEntry",
           "normalized": "DebianVersion-\u003eChangeLog-\u003eMaybe ChangeLogEntry",
@@ -354,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Changelog",
           "name": "mergeChangelogEntries",
           "package": "cabal-debian",
@@ -363,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Changelog",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Changelog",
           "name": "mergeChangelogEntries",
           "normalized": "ChangeLogEntry-\u003eChangeLogEntry-\u003eChangeLogEntry",
@@ -378,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.DebianName",
           "name": "DebianName",
           "package": "cabal-debian",
@@ -386,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize DebianName",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.DebianName",
           "name": "DebianName",
           "package": "cabal-debian",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild the Debian package name for a given package type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.DebianName",
           "name": "debianName",
           "package": "cabal-debian",
@@ -410,6 +443,7 @@
         "index": {
           "description": "Build the Debian package name for given package type",
           "hierarchy": "Debian Debianize DebianName",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.DebianName",
           "name": "debianName",
           "normalized": "PackageType-\u003eDebT a b",
@@ -453,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a debian package name from a cabal package name and a\n debian package type.  Unfortunately, this does not enforce the\n correspondence between the PackageType value and the name type, so\n it can return nonsense like (SrcPkgName \u003ca\u003elibghc-debian-dev\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.DebianName",
           "name": "mkPkgName",
           "package": "cabal-debian",
@@ -463,6 +498,7 @@
         "index": {
           "description": "Build debian package name from cabal package name and debian package type Unfortunately this does not enforce the correspondence between the PackageType value and the name type so it can return nonsense like SrcPkgName libghc-debian-dev",
           "hierarchy": "Debian Debianize DebianName",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.DebianName",
           "name": "mkPkgName",
           "normalized": "PackageName-\u003ePackageType-\u003ea",
@@ -478,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.DebianName",
           "name": "mkPkgName'",
           "package": "cabal-debian",
@@ -487,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize DebianName",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.DebianName",
           "name": "mkPkgName'",
           "normalized": "String-\u003ePackageType-\u003ea",
@@ -529,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Details",
           "name": "Details",
           "package": "cabal-debian",
@@ -537,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Details",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Details",
           "name": "Details",
           "package": "cabal-debian",
@@ -601,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert a Debianization into a list of files that can then be\n written out.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Files",
           "name": "Files",
           "package": "cabal-debian",
@@ -610,6 +651,7 @@
         "index": {
           "description": "Convert Debianization into list of files that can then be written out",
           "hierarchy": "Debian Debianize Files",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Files",
           "name": "Files",
           "package": "cabal-debian",
@@ -624,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn the Debianization into a list of files, making sure the text\n associated with each path is unique.  Assumes that\n finalizeDebianization has already been called.  (Yes, I'm\n considering building one into the other, but it is handy to look at\n the Debianization produced by finalizeDebianization in the unit\n tests.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Files",
           "name": "debianizationFileMap",
           "package": "cabal-debian",
@@ -634,6 +677,7 @@
         "index": {
           "description": "Turn the Debianization into list of files making sure the text associated with each path is unique Assumes that finalizeDebianization has already been called Yes considering building one into the other but it is handy to look at the Debianization produced by finalizeDebianization in the unit tests",
           "hierarchy": "Debian Debianize Files",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Files",
           "name": "debianizationFileMap",
           "package": "cabal-debian",
@@ -648,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompute the debianization of a cabal package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Finalize",
           "name": "Finalize",
           "package": "cabal-debian",
@@ -657,6 +702,7 @@
         "index": {
           "description": "Compute the debianization of cabal package",
           "hierarchy": "Debian Debianize Finalize",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Finalize",
           "name": "Finalize",
           "package": "cabal-debian",
@@ -697,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo some light IO and call finalizeDebianization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Finalize",
           "name": "finalizeDebianization'",
           "package": "cabal-debian",
@@ -707,6 +754,7 @@
         "index": {
           "description": "Do some light IO and call finalizeDebianization",
           "hierarchy": "Debian Debianize Finalize",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Finalize",
           "name": "finalizeDebianization'",
           "normalized": "DebT a()",
@@ -723,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThings that seem like they could be clients of this library, but\n are instead included as part of the library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Goodies",
           "name": "Goodies",
           "package": "cabal-debian",
@@ -732,6 +781,7 @@
         "index": {
           "description": "Things that seem like they could be clients of this library but are instead included as part of the library",
           "hierarchy": "Debian Debianize Goodies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Goodies",
           "name": "Goodies",
           "package": "cabal-debian",
@@ -745,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Goodies",
           "name": "backupAtoms",
           "package": "cabal-debian",
@@ -754,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Goodies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Goodies",
           "name": "backupAtoms",
           "normalized": "BinPkgName-\u003eString-\u003eAtoms-\u003eAtoms",
@@ -769,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Goodies",
           "name": "describe",
           "package": "cabal-debian",
@@ -778,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Goodies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Goodies",
           "name": "describe",
           "normalized": "BinPkgName-\u003eDebT a Text",
@@ -900,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Goodies",
           "name": "execAtoms",
           "package": "cabal-debian",
@@ -909,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Goodies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Goodies",
           "name": "execAtoms",
           "normalized": "BinPkgName-\u003eInstallFile-\u003eAtoms-\u003eAtoms",
@@ -925,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a suitable value for the head of the rules file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Goodies",
           "name": "makeRulesHead",
           "package": "cabal-debian",
@@ -935,6 +992,7 @@
         "index": {
           "description": "Build suitable value for the head of the rules file",
           "hierarchy": "Debian Debianize Goodies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Goodies",
           "name": "makeRulesHead",
           "package": "cabal-debian",
@@ -948,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Goodies",
           "name": "oldClckwrksServerFlags",
           "package": "cabal-debian",
@@ -957,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Goodies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Goodies",
           "name": "oldClckwrksServerFlags",
           "normalized": "Server-\u003e[String]",
@@ -972,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Goodies",
           "name": "oldClckwrksSiteFlags",
           "package": "cabal-debian",
@@ -981,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Goodies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Goodies",
           "name": "oldClckwrksSiteFlags",
           "normalized": "Site-\u003e[String]",
@@ -996,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Goodies",
           "name": "serverAtoms",
           "package": "cabal-debian",
@@ -1005,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Goodies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Goodies",
           "name": "serverAtoms",
           "normalized": "BinPkgName-\u003eServer-\u003eBool-\u003eAtoms-\u003eAtoms",
@@ -1020,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Goodies",
           "name": "siteAtoms",
           "package": "cabal-debian",
@@ -1029,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Goodies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Goodies",
           "name": "siteAtoms",
           "normalized": "BinPkgName-\u003eSite-\u003eAtoms-\u003eAtoms",
@@ -1071,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Goodies",
           "name": "watchAtom",
           "package": "cabal-debian",
@@ -1080,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Goodies",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Goodies",
           "name": "watchAtom",
           "normalized": "PackageName-\u003eText",
@@ -1096,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead an existing Debianization from a directory file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Input",
           "name": "Input",
           "package": "cabal-debian",
@@ -1105,6 +1174,7 @@
         "index": {
           "description": "Read an existing Debianization from directory file",
           "hierarchy": "Debian Debianize Input",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Input",
           "name": "Input",
           "package": "cabal-debian",
@@ -1119,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the Cabal data directory for a Linux install from a Cabal\n package description.  This needs to match the path cabal assigns to\n datadir in the dist\u003cem\u003ebuild\u003c/em\u003eautogen/Paths_packagename.hs module, or\n perhaps the path in the cabal_debian_datadir environment variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Input",
           "name": "dataDir",
           "package": "cabal-debian",
@@ -1129,6 +1200,7 @@
         "index": {
           "description": "Compute the Cabal data directory for Linux install from Cabal package description This needs to match the path cabal assigns to datadir in the dist build autogen Paths packagename.hs module or perhaps the path in the cabal debian datadir environment variable",
           "hierarchy": "Debian Debianize Input",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Input",
           "name": "dataDir",
           "normalized": "PackageDescription-\u003eFilePath",
@@ -1144,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Input",
           "name": "inputCabalization",
           "package": "cabal-debian",
@@ -1153,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Input",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Input",
           "name": "inputCabalization",
           "normalized": "Top-\u003eDebT a()",
@@ -1168,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Input",
           "name": "inputCabalization'",
           "package": "cabal-debian",
@@ -1177,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Input",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Input",
           "name": "inputCabalization'",
           "normalized": "Top-\u003eVerbosity-\u003eCompilerId-\u003eSet(FlagName,Bool)-\u003eIO(Either[Dependency]PackageDescription)",
@@ -1217,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Input",
           "name": "inputCompiler",
           "package": "cabal-debian",
@@ -1226,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Input",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Input",
           "name": "inputCompiler",
           "normalized": "Top-\u003eDebT a CompilerId",
@@ -1242,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the compiler version specified by Cabal, optionally\n changing the version number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Input",
           "name": "inputCompiler'",
           "package": "cabal-debian",
@@ -1252,6 +1331,7 @@
         "index": {
           "description": "Read the compiler version specified by Cabal optionally changing the version number",
           "hierarchy": "Debian Debianize Input",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Input",
           "name": "inputCompiler'",
           "normalized": "Top-\u003eVerbosity-\u003eMaybe Version-\u003eIO CompilerId",
@@ -1347,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA class used while converting Cabal dependencies into Debian\n dependencies.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Interspersed",
           "name": "Interspersed",
           "package": "cabal-debian",
@@ -1356,6 +1437,7 @@
         "index": {
           "description": "class used while converting Cabal dependencies into Debian dependencies",
           "hierarchy": "Debian Debianize Interspersed",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Interspersed",
           "name": "Interspersed",
           "package": "cabal-debian",
@@ -1370,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of Bs insterspersed with Cs.  It is used when converting\n the cabal dependencies to debian, where the \u003ca\u003earound\u003c/a\u003e type is the\n binary package name and the \u003ca\u003ebetween\u003c/a\u003e type is the version number.\n\u003c/p\u003e\u003cp\u003eMinimum implementation is a method to return the leftmost B, and\n another to return the following (C,B) pairs.  Its unfortunate to\n require lists in the implementation, a fold function would be\n better (though I find implementing such folds to be a pain in the\n you-know-what.)\n\u003c/p\u003e\u003cp\u003eThe class provides implementations of three folds, each of which\n exposes slightly different views of the data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Interspersed",
           "name": "Interspersed",
           "package": "cabal-debian",
@@ -1379,6 +1462,7 @@
         "index": {
           "description": "class of Bs insterspersed with Cs It is used when converting the cabal dependencies to debian where the around type is the binary package name and the between type is the version number Minimum implementation is method to return the leftmost and another to return the following pairs Its unfortunate to require lists in the implementation fold function would be better though find implementing such folds to be pain in the you-know-what The class provides implementations of three folds each of which exposes slightly different views of the data",
           "hierarchy": "Debian Debianize Interspersed",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Interspersed",
           "name": "Interspersed",
           "package": "cabal-debian",
@@ -1392,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Interspersed",
           "name": "foldArounds",
           "package": "cabal-debian",
@@ -1401,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Interspersed",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Interspersed",
           "name": "foldArounds",
           "normalized": "(a-\u003ea-\u003eb-\u003eb)-\u003eb-\u003ec-\u003eb",
@@ -1416,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Interspersed",
           "name": "foldBetweens",
           "package": "cabal-debian",
@@ -1425,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Interspersed",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Interspersed",
           "name": "foldBetweens",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec-\u003eb",
@@ -1440,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Interspersed",
           "name": "foldInverted",
           "package": "cabal-debian",
@@ -1449,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Interspersed",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Interspersed",
           "name": "foldInverted",
           "normalized": "(Maybe a-\u003eb-\u003eMaybe a-\u003ec-\u003ec)-\u003ec-\u003ed-\u003ec",
@@ -1464,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Interspersed",
           "name": "foldTriples",
           "package": "cabal-debian",
@@ -1473,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Interspersed",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Interspersed",
           "name": "foldTriples",
           "normalized": "(a-\u003eb-\u003ea-\u003ec-\u003ec)-\u003ec-\u003ed-\u003ec",
@@ -1488,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Interspersed",
           "name": "leftmost",
           "package": "cabal-debian",
@@ -1497,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Interspersed",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Interspersed",
           "name": "leftmost",
           "normalized": "a-\u003eb",
@@ -1511,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Interspersed",
           "name": "pairs",
           "package": "cabal-debian",
@@ -1520,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Interspersed",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Interspersed",
           "name": "pairs",
           "normalized": "a-\u003e[(b,c)]",
@@ -1534,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Monad",
           "name": "Monad",
           "package": "cabal-debian",
@@ -1542,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Monad",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Monad",
           "name": "Monad",
           "package": "cabal-debian",
@@ -1556,6 +1654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBits and pieces of information about the mapping from cabal package\n names and versions to debian package names and versions.  In essence,\n an \u003ccode\u003e\u003ca\u003eAtoms\u003c/a\u003e\u003c/code\u003e value represents a package's debianization.  The lenses in\n this module are used to get and set the values hidden in this Atoms\n value.  Many of the values should be left alone to be set when the\n debianization is finalized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Monad",
           "name": "Atoms",
           "package": "cabal-debian",
@@ -1565,6 +1664,7 @@
         "index": {
           "description": "Bits and pieces of information about the mapping from cabal package names and versions to debian package names and versions In essence an Atoms value represents package debianization The lenses in this module are used to get and set the values hidden in this Atoms value Many of the values should be left alone to be set when the debianization is finalized",
           "hierarchy": "Debian Debianize Monad",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Monad",
           "name": "Atoms",
           "package": "cabal-debian",
@@ -1578,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Monad",
           "name": "DebM",
           "package": "cabal-debian",
@@ -1586,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Monad",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Monad",
           "name": "DebM",
           "package": "cabal-debian",
@@ -1599,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Monad",
           "name": "DebT",
           "package": "cabal-debian",
@@ -1607,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Monad",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Monad",
           "name": "DebT",
           "package": "cabal-debian",
@@ -1770,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Options",
           "name": "Options",
           "package": "cabal-debian",
@@ -1778,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Options",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Options",
           "name": "Options",
           "package": "cabal-debian",
@@ -1816,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Options",
           "name": "compileCommandlineArgs",
           "package": "cabal-debian",
@@ -1825,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Options",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Options",
           "name": "compileCommandlineArgs",
           "normalized": "DebT IO()",
@@ -1840,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Options",
           "name": "compileEnvironmentArgs",
           "package": "cabal-debian",
@@ -1849,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Options",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Options",
           "name": "compileEnvironmentArgs",
           "normalized": "DebT IO()",
@@ -1865,6 +1975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions that modify other atoms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Options",
           "name": "options",
           "package": "cabal-debian",
@@ -1875,6 +1986,7 @@
         "index": {
           "description": "Options that modify other atoms",
           "hierarchy": "Debian Debianize Options",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Options",
           "name": "options",
           "normalized": "[OptDescr(DebT IO())]",
@@ -1890,6 +2002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a value for CABALDEBIAN into the environment that the\n withEnvironment* functions above will find and use.  E.g.\n putEnvironmentFlags [\u003ca\u003e--dry-run\u003c/a\u003e, \u003ca\u003e--validate\u003c/a\u003e] (debianize defaultFlags)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Options",
           "name": "putEnvironmentArgs",
           "package": "cabal-debian",
@@ -1900,6 +2013,7 @@
         "index": {
           "description": "Insert value for CABALDEBIAN into the environment that the withEnvironment functions above will find and use E.g putEnvironmentFlags dry-run validate debianize defaultFlags",
           "hierarchy": "Debian Debianize Options",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Options",
           "name": "putEnvironmentArgs",
           "normalized": "[String]-\u003eIO()",
@@ -1916,6 +2030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value out of the CABALDEBIAN environment variable which is\n the result of applying show to a [String].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Options",
           "name": "withEnvironmentArgs",
           "package": "cabal-debian",
@@ -1926,6 +2041,7 @@
         "index": {
           "description": "Read value out of the CABALDEBIAN environment variable which is the result of applying show to String",
           "hierarchy": "Debian Debianize Options",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Options",
           "name": "withEnvironmentArgs",
           "normalized": "([String]-\u003eDebT IO a)-\u003eDebT IO a",
@@ -1942,6 +2058,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWrappers around the debianization function to perform various\n tasks - output, describe, validate a debianization, run an external\n script to produce a debianization.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Output",
           "name": "Output",
           "package": "cabal-debian",
@@ -1951,6 +2068,7 @@
         "index": {
           "description": "Wrappers around the debianization function to perform various tasks output describe validate debianization run an external script to produce debianization",
           "hierarchy": "Debian Debianize Output",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Output",
           "name": "Output",
           "package": "cabal-debian",
@@ -2125,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions and instances used by but not related to cabal-debian.\n These could conceivably be moved into more general libraries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "Prelude",
           "package": "cabal-debian",
@@ -2134,6 +2253,7 @@
         "index": {
           "description": "Functions and instances used by but not related to cabal-debian These could conceivably be moved into more general libraries",
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "Prelude",
           "package": "cabal-debian",
@@ -2147,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "DebMap",
           "package": "cabal-debian",
@@ -2155,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "DebMap",
           "package": "cabal-debian",
@@ -2168,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "Pretty",
           "package": "cabal-debian",
@@ -2175,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "Pretty",
           "package": "cabal-debian",
@@ -2240,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "(!)",
           "package": "cabal-debian",
@@ -2249,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "(!) !",
           "normalized": "DebMap-\u003eBinPkgName-\u003eDebianVersion",
@@ -2392,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "cond",
           "package": "cabal-debian",
@@ -2401,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "cond",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -2415,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "curry3",
           "package": "cabal-debian",
@@ -2424,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "curry3",
           "normalized": "((a,b,c)-\u003ed)-\u003ea-\u003eb-\u003ec-\u003ed",
@@ -2465,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "diffFile",
           "package": "cabal-debian",
@@ -2474,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "diffFile",
           "normalized": "FilePath-\u003eText-\u003eIO(Maybe String)",
@@ -2514,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "foldEmpty",
           "package": "cabal-debian",
@@ -2523,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "foldEmpty",
           "normalized": "a-\u003e([b]-\u003ea)-\u003e[b]-\u003ea",
@@ -2538,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "fromEmpty",
           "package": "cabal-debian",
@@ -2547,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "fromEmpty",
           "normalized": "Set a-\u003eSet a-\u003eSet a",
@@ -2562,6 +2698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "fromSingleton",
           "package": "cabal-debian",
@@ -2571,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "fromSingleton",
           "normalized": "a-\u003e([a]-\u003ea)-\u003eSet a-\u003ea",
@@ -2587,6 +2725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet directory contents minus dot files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "getDirectoryContents'",
           "package": "cabal-debian",
@@ -2597,6 +2736,7 @@
         "index": {
           "description": "Get directory contents minus dot files",
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "getDirectoryContents'",
           "normalized": "FilePath-\u003eIO[FilePath]",
@@ -2612,6 +2752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "indent",
           "package": "cabal-debian",
@@ -2621,6 +2762,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "indent",
           "normalized": "[Char]-\u003eString-\u003eString",
@@ -2636,6 +2778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003eintToVerbosity\u003c/a\u003e\u003c/code\u003e that first\n clamps its argument to the acceptable range (0-3).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "intToVerbosity'",
           "package": "cabal-debian",
@@ -2646,6 +2789,7 @@
         "index": {
           "description": "Version of intToVerbosity that first clamps its argument to the acceptable range",
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "intToVerbosity'",
           "normalized": "Int-\u003eVerbosity",
@@ -2661,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "listElemLens",
           "package": "cabal-debian",
@@ -2670,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "listElemLens",
           "normalized": "(a-\u003eBool)-\u003eLens[a](Maybe a)",
@@ -2686,6 +2832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the current value of getL x is Nothing, replace it with f.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "maybeL",
           "package": "cabal-debian",
@@ -2696,6 +2843,7 @@
         "index": {
           "description": "If the current value of getL is Nothing replace it with",
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "maybeL",
           "normalized": "Lens a(Maybe b)-\u003eMaybe b-\u003ea-\u003ea",
@@ -2710,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "maybeLens",
           "package": "cabal-debian",
@@ -2719,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "maybeLens",
           "normalized": "a-\u003eLens a b-\u003eLens(Maybe a)b",
@@ -2734,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "maybeRead",
           "package": "cabal-debian",
@@ -2743,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "maybeRead",
           "normalized": "String-\u003eMaybe a",
@@ -2759,6 +2911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the new file contents from the old.  If f returns Nothing\n do not write.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "modifyFile",
           "package": "cabal-debian",
@@ -2769,6 +2922,7 @@
         "index": {
           "description": "Compute the new file contents from the old If returns Nothing do not write",
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "modifyFile",
           "normalized": "FilePath-\u003e(String-\u003eIO(Maybe String))-\u003eIO()",
@@ -2784,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "modifyM",
           "package": "cabal-debian",
@@ -2793,6 +2948,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "modifyM",
           "normalized": "(a-\u003eb a)-\u003eb()",
@@ -2807,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "pretty",
           "package": "cabal-debian",
@@ -2815,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -2829,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "read'",
           "package": "cabal-debian",
@@ -2838,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "read'",
           "normalized": "(String-\u003ea)-\u003eString-\u003ea",
@@ -2852,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "readFile'",
           "package": "cabal-debian",
@@ -2861,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "readFile'",
           "normalized": "FilePath-\u003eIO Text",
@@ -2876,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "readFileMaybe",
           "package": "cabal-debian",
@@ -2885,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "readFileMaybe",
           "normalized": "FilePath-\u003eIO(Maybe Text)",
@@ -2900,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "removeIfExists",
           "package": "cabal-debian",
@@ -2909,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "removeIfExists",
           "normalized": "FilePath-\u003eIO()",
@@ -2925,6 +3091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a file which we might still be reading from in\n order to compute the text argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "replaceFile",
           "package": "cabal-debian",
@@ -2935,6 +3102,7 @@
         "index": {
           "description": "Write file which we might still be reading from in order to compute the text argument",
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "replaceFile",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -2950,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "setMapMaybe",
           "package": "cabal-debian",
@@ -2959,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "setMapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eSet a-\u003eSet b",
@@ -2974,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "showDeps",
           "package": "cabal-debian",
@@ -2983,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "showDeps",
           "normalized": "[[Relation]]-\u003eString",
@@ -2998,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "showDeps'",
           "package": "cabal-debian",
@@ -3007,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "showDeps'",
           "normalized": "[a]-\u003e[[Relation]]-\u003eString",
@@ -3022,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "strictReadF",
           "package": "cabal-debian",
@@ -3031,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "strictReadF",
           "normalized": "(Text-\u003ea)-\u003eFilePath-\u003eIO a",
@@ -3046,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "trim",
           "package": "cabal-debian",
@@ -3055,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "trim",
           "normalized": "String-\u003eString",
@@ -3096,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Prelude",
           "name": "zipMaps",
           "package": "cabal-debian",
@@ -3105,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Prelude",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Prelude",
           "name": "zipMaps",
           "normalized": "(a-\u003eMaybe b-\u003eMaybe c-\u003eMaybe d)-\u003eMap a b-\u003eMap a c-\u003eMap a d",
@@ -3121,6 +3301,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for generating Debianization from Cabal data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.SubstVars",
           "name": "SubstVars",
           "package": "cabal-debian",
@@ -3130,6 +3311,7 @@
         "index": {
           "description": "Support for generating Debianization from Cabal data",
           "hierarchy": "Debian Debianize SubstVars",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.SubstVars",
           "name": "SubstVars",
           "package": "cabal-debian",
@@ -3169,6 +3351,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module holds a long list of lenses that access the Atoms\n record, the record that holds the input data from which the\n debianization is to be constructed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Atoms",
           "package": "cabal-debian",
@@ -3178,6 +3361,7 @@
         "index": {
           "description": "This module holds long list of lenses that access the Atoms record the record that holds the input data from which the debianization is to be constructed",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Atoms",
           "package": "cabal-debian",
@@ -3192,6 +3376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBits and pieces of information about the mapping from cabal package\n names and versions to debian package names and versions.  In essence,\n an \u003ccode\u003e\u003ca\u003eAtoms\u003c/a\u003e\u003c/code\u003e value represents a package's debianization.  The lenses in\n this module are used to get and set the values hidden in this Atoms\n value.  Many of the values should be left alone to be set when the\n debianization is finalized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Atoms",
           "package": "cabal-debian",
@@ -3201,6 +3386,7 @@
         "index": {
           "description": "Bits and pieces of information about the mapping from cabal package names and versions to debian package names and versions In essence an Atoms value represents package debianization The lenses in this module are used to get and set the values hidden in this Atoms value Many of the values should be left alone to be set when the debianization is finalized",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Atoms",
           "package": "cabal-debian",
@@ -3214,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "DebAction",
           "package": "cabal-debian",
@@ -3222,6 +3409,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "DebAction",
           "package": "cabal-debian",
@@ -3236,6 +3424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA redundant data type, too lazy to expunge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "DebType",
           "package": "cabal-debian",
@@ -3245,6 +3434,7 @@
         "index": {
           "description": "redundant data type too lazy to expunge",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "DebType",
           "package": "cabal-debian",
@@ -3259,6 +3449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis record supplies information about the task we want done -\n debianization, validataion, help message, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Flags",
           "package": "cabal-debian",
@@ -3268,6 +3459,7 @@
         "index": {
           "description": "This record supplies information about the task we want done debianization validataion help message etc",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Flags",
           "package": "cabal-debian",
@@ -3281,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "InstallFile",
           "package": "cabal-debian",
@@ -3289,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "InstallFile",
           "package": "cabal-debian",
@@ -3302,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "PackageInfo",
           "package": "cabal-debian",
@@ -3310,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "PackageInfo",
           "package": "cabal-debian",
@@ -3324,6 +3520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the server we are packaging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Server",
           "package": "cabal-debian",
@@ -3333,6 +3530,7 @@
         "index": {
           "description": "Information about the server we are packaging",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Server",
           "package": "cabal-debian",
@@ -3347,6 +3545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the web site we are packaging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Site",
           "package": "cabal-debian",
@@ -3356,6 +3555,7 @@
         "index": {
           "description": "Information about the web site we are packaging",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Site",
           "package": "cabal-debian",
@@ -3369,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Atoms",
           "package": "cabal-debian",
@@ -3378,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Atoms",
           "package": "cabal-debian",
@@ -3391,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Debianize",
           "package": "cabal-debian",
@@ -3400,6 +3603,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Debianize",
           "package": "cabal-debian",
@@ -3413,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Dev",
           "package": "cabal-debian",
@@ -3422,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Dev",
           "package": "cabal-debian",
@@ -3435,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Doc",
           "package": "cabal-debian",
@@ -3444,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Doc",
           "package": "cabal-debian",
@@ -3457,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Flags",
           "package": "cabal-debian",
@@ -3466,6 +3675,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Flags",
           "package": "cabal-debian",
@@ -3479,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "InstallFile",
           "package": "cabal-debian",
@@ -3488,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "InstallFile",
           "package": "cabal-debian",
@@ -3501,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "PackageInfo",
           "package": "cabal-debian",
@@ -3510,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "PackageInfo",
           "package": "cabal-debian",
@@ -3523,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Prof",
           "package": "cabal-debian",
@@ -3532,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Prof",
           "package": "cabal-debian",
@@ -3545,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Server",
           "package": "cabal-debian",
@@ -3554,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Server",
           "package": "cabal-debian",
@@ -3567,6 +3785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Site",
           "package": "cabal-debian",
@@ -3576,6 +3795,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Site",
           "package": "cabal-debian",
@@ -3589,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "SubstVar",
           "package": "cabal-debian",
@@ -3598,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "SubstVar",
           "package": "cabal-debian",
@@ -3611,6 +3833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Usage",
           "package": "cabal-debian",
@@ -3620,6 +3843,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "Usage",
           "package": "cabal-debian",
@@ -3661,6 +3885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHave Apache configure a site using PACKAGE, DOMAIN, LOGDIR, and APACHECONFIGFILE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "apacheSite_",
           "package": "cabal-debian",
@@ -3671,6 +3896,7 @@
         "index": {
           "description": "Have Apache configure site using PACKAGE DOMAIN LOGDIR and APACHECONFIGFILE",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "apacheSite_",
           "normalized": "Map BinPkgName(String,FilePath,Text)",
@@ -3711,6 +3937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfigure the executable to do incremental backups\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "backups_",
           "package": "cabal-debian",
@@ -3721,6 +3948,7 @@
         "index": {
           "description": "Configure the executable to do incremental backups",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "backups_",
           "package": "cabal-debian",
@@ -3734,6 +3962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Architecture field of a binary package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "binaryArchitectures_",
           "package": "cabal-debian",
@@ -3744,6 +3973,7 @@
         "index": {
           "description": "Set the Architecture field of binary package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "binaryArchitectures_",
           "package": "cabal-debian",
@@ -3758,6 +3988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Priority field of a binary package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "binaryPriorities_",
           "package": "cabal-debian",
@@ -3768,6 +3999,7 @@
         "index": {
           "description": "Set the Priority field of binary package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "binaryPriorities_",
           "package": "cabal-debian",
@@ -3782,6 +4014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Section field of a binary package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "binarySections_",
           "package": "cabal-debian",
@@ -3792,6 +4025,7 @@
         "index": {
           "description": "Set the Section field of binary package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "binarySections_",
           "package": "cabal-debian",
@@ -3831,6 +4065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe build directory used by cabal, typically dist/build when\n building manually or dist-ghc/build when building using GHC and\n haskell-devscripts.  This value is used to locate files\n produced by cabal so we can move them into the deb.  Note that\n the --builddir option of runhaskell Setup appends the \u003ca\u003e/build\u003c/a\u003e\n to the value it receives, so, yes, try not to get confused.\n FIXME: make this FilePath or Maybe FilePath\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "buildDir_",
           "package": "cabal-debian",
@@ -3841,6 +4076,7 @@
         "index": {
           "description": "The build directory used by cabal typically dist build when building manually or dist-ghc build when building using GHC and haskell-devscripts This value is used to locate files produced by cabal so we can move them into the deb Note that the builddir option of runhaskell Setup appends the build to the value it receives so yes try not to get confused FIXME make this FilePath or Maybe FilePath",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "buildDir_",
           "package": "cabal-debian",
@@ -3882,6 +4118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags to pass to Cabal function finalizePackageDescription,\n this can be used to control the flags in the cabal file.  It\n can be supplied to the cabal-debian binary using the --flags\n option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "cabalFlagAssignments_",
           "package": "cabal-debian",
@@ -3892,6 +4129,7 @@
         "index": {
           "description": "Flags to pass to Cabal function finalizePackageDescription this can be used to control the flags in the cabal file It can be supplied to the cabal-debian binary using the flags option",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "cabalFlagAssignments_",
           "normalized": "Set(FlagName,Bool)",
@@ -3907,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "cabalName",
           "package": "cabal-debian",
@@ -3916,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "cabalName",
           "package": "cabal-debian",
@@ -3954,6 +4194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe changelog, first entry contains the source package name and version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "changelog_",
           "package": "cabal-debian",
@@ -3964,6 +4205,7 @@
         "index": {
           "description": "The changelog first entry contains the source package name and version",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "changelog_",
           "package": "cabal-debian",
@@ -4003,6 +4245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach element is a comment to be added to the changelog, where the\n element's text elements are the lines of the comment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "comments_",
           "package": "cabal-debian",
@@ -4013,6 +4256,7 @@
         "index": {
           "description": "Each element is comment to be added to the changelog where the element text elements are the lines of the comment",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "comments_",
           "normalized": "Maybe[[Text]]",
@@ -4052,6 +4296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe debhelper compatibility level, from debian/compat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "compat_",
           "package": "cabal-debian",
@@ -4062,6 +4307,7 @@
         "index": {
           "description": "The debhelper compatibility level from debian compat",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "compat_",
           "package": "cabal-debian",
@@ -4124,6 +4370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the version number of the GHC compiler in the build\n environment.  The default is to assume that version is the same\n as the one in the environment where cabal-debian is running.\n This is used to look up hard coded lists of packages bundled\n with the compiler and their version numbers.  (This could\n certainly be done in a more beautiful way.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "compilerVersion_",
           "package": "cabal-debian",
@@ -4134,6 +4381,7 @@
         "index": {
           "description": "Specify the version number of the GHC compiler in the build environment The default is to assume that version is the same as the one in the environment where cabal-debian is running This is used to look up hard coded lists of packages bundled with the compiler and their version numbers This could certainly be done in more beautiful way",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "compilerVersion_",
           "package": "cabal-debian",
@@ -4148,6 +4396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compiler value from cabal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "compiler_",
           "package": "cabal-debian",
@@ -4158,6 +4407,7 @@
         "index": {
           "description": "The compiler value from cabal",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "compiler_",
           "package": "cabal-debian",
@@ -4195,6 +4445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parsed contents of the control file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "control_",
           "package": "cabal-debian",
@@ -4205,6 +4456,7 @@
         "index": {
           "description": "The parsed contents of the control file",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "control_",
           "package": "cabal-debian",
@@ -4242,6 +4494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopyright information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "copyright_",
           "package": "cabal-debian",
@@ -4252,6 +4505,7 @@
         "index": {
           "description": "Copyright information",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "copyright_",
           "package": "cabal-debian",
@@ -4290,6 +4544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do - Usage, Debianize or Substvar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "debAction_",
           "package": "cabal-debian",
@@ -4300,6 +4555,7 @@
         "index": {
           "description": "What to do Usage Debianize or Substvar",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "debAction_",
           "package": "cabal-debian",
@@ -4339,6 +4595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the exact debian version of the resulting package,\n including epoch.  One use case is to work around the the\n \u003ca\u003ebuildN\u003c/a\u003e versions that are often uploaded to the debian and\n ubuntu repositories.  Say the latest cabal version of\n transformers is 0.3.0.0, but the debian repository contains\n version 0.3.0.0-1build3, we need to specify\n debVersion=\u003ca\u003e0.3.0.0-1build3\u003c/a\u003e or the version we produce will\n look older than the one already available upstream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "debVersion_",
           "package": "cabal-debian",
@@ -4349,6 +4606,7 @@
         "index": {
           "description": "Specify the exact debian version of the resulting package including epoch One use case is to work around the the buildN versions that are often uploaded to the debian and ubuntu repositories Say the latest cabal version of transformers is but the debian repository contains version build3 we need to specify debVersion build3 or the version we produce will look older than the one already available upstream",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "debVersion_",
           "package": "cabal-debian",
@@ -4388,6 +4646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from cabal package name and version to debian source\n package name.  This allows different ranges of cabal versions to\n map to different debian source package names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "debianNameMap_",
           "package": "cabal-debian",
@@ -4398,6 +4657,7 @@
         "index": {
           "description": "Mapping from cabal package name and version to debian source package name This allows different ranges of cabal versions to map to different debian source package names",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "debianNameMap_",
           "package": "cabal-debian",
@@ -4411,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "defaultFlags",
           "package": "cabal-debian",
@@ -4420,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "defaultFlags",
           "package": "cabal-debian",
@@ -4434,6 +4696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhere to put it, default is usr\u003cem\u003ebin\u003c/em\u003e\u003ca\u003eexecName\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "destDir",
           "package": "cabal-debian",
@@ -4444,6 +4707,7 @@
         "index": {
           "description": "where to put it default is usr bin execName",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "destDir",
           "package": "cabal-debian",
@@ -4458,6 +4722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename to give installed executable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "destName",
           "package": "cabal-debian",
@@ -4468,6 +4733,7 @@
         "index": {
           "description": "name to give installed executable",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "destName",
           "package": "cabal-debian",
@@ -4481,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "devDeb",
           "package": "cabal-debian",
@@ -4490,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "devDeb",
           "normalized": "Maybe(BinPkgName,DebianVersion)",
@@ -4505,6 +4773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "docDeb",
           "package": "cabal-debian",
@@ -4514,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "docDeb",
           "normalized": "Maybe(BinPkgName,DebianVersion)",
@@ -4530,6 +4800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe domain name assigned to the server.\n An apache configuration will be generated to\n redirect requests from this domain to hostname:port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "domain",
           "package": "cabal-debian",
@@ -4540,6 +4811,7 @@
         "index": {
           "description": "The domain name assigned to the server An apache configuration will be generated to redirect requests from this domain to hostname port",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "domain",
           "package": "cabal-debian",
@@ -4578,6 +4850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDon't write any files or create any directories, just explain\n what would have been done.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "dryRun_",
           "package": "cabal-debian",
@@ -4588,6 +4861,7 @@
         "index": {
           "description": "Don write any files or create any directories just explain what would have been done",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "dryRun_",
           "package": "cabal-debian",
@@ -4627,6 +4901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify epoch numbers for the debian package generated from a\n cabal package.  Example: \u003ccode\u003eEpochMapping (PackageName \u003ca\u003eHTTP\u003c/a\u003e) 1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "epochMap_",
           "package": "cabal-debian",
@@ -4637,6 +4912,7 @@
         "index": {
           "description": "Specify epoch numbers for the debian package generated from cabal package Example EpochMapping PackageName HTTP",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "epochMap_",
           "package": "cabal-debian",
@@ -4676,6 +4952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a cabal Build-Tool name to a debian binary package name,\n e.g. \u003ccode\u003eExecMapping \u003ca\u003etrhsx\u003c/a\u003e \u003ca\u003ehaskell-hsx-utils\u003c/a\u003e\u003c/code\u003e adds a build\n dependency on \u003ccode\u003ehaskell-hsx-utils\u003c/code\u003e to any package that has \u003ccode\u003etrhsx\u003c/code\u003e in its\n cabal build-tool list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "execMap_",
           "package": "cabal-debian",
@@ -4686,6 +4963,7 @@
         "index": {
           "description": "Map cabal Build-Tool name to debian binary package name e.g ExecMapping trhsx haskell-hsx-utils adds build dependency on haskell-hsx-utils to any package that has trhsx in its cabal build-tool list",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "execMap_",
           "package": "cabal-debian",
@@ -4700,6 +4978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the executable file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "execName",
           "package": "cabal-debian",
@@ -4710,6 +4989,7 @@
         "index": {
           "description": "The name of the executable file",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "execName",
           "package": "cabal-debian",
@@ -4748,6 +5028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a binary package to hold a cabal executable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "executable_",
           "package": "cabal-debian",
@@ -4758,6 +5039,7 @@
         "index": {
           "description": "Create binary package to hold cabal executable",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "executable_",
           "package": "cabal-debian",
@@ -4796,6 +5078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimited version of Depends, put a dependency on the dev library package.  The only\n reason to use this is because we don't yet know the name of the dev library package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "extraDevDeps_",
           "package": "cabal-debian",
@@ -4806,6 +5089,7 @@
         "index": {
           "description": "Limited version of Depends put dependency on the dev library package The only reason to use this is because we don yet know the name of the dev library package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "extraDevDeps_",
           "package": "cabal-debian",
@@ -4845,6 +5129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a cabal Extra-Library name to a debian binary package name,\n e.g. \u003ccode\u003eExtraLibMapping extraLibMap \u003ca\u003ecryptopp\u003c/a\u003e \u003ca\u003elibcrypto-dev\u003c/a\u003e\u003c/code\u003e adds a\n build dependency *and* a regular dependency on \u003ccode\u003elibcrypto-dev\u003c/code\u003e to\n any package that has \u003ccode\u003ecryptopp\u003c/code\u003e in its cabal Extra-Library list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "extraLibMap_",
           "package": "cabal-debian",
@@ -4855,6 +5140,7 @@
         "index": {
           "description": "Map cabal Extra-Library name to debian binary package name e.g ExtraLibMapping extraLibMap cryptopp libcrypto-dev adds build dependency and regular dependency on libcrypto-dev to any package that has cryptopp in its cabal Extra-Library list",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "extraLibMap_",
           "package": "cabal-debian",
@@ -4895,6 +5181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a file with the given text at the given path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "file_",
           "package": "cabal-debian",
@@ -4905,6 +5192,7 @@
         "index": {
           "description": "Create file with the given text at the given path",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "file_",
           "normalized": "Map BinPkgName(Set(FilePath,Text))",
@@ -4944,6 +5232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation regarding mode of operation - verbosity, dry-run, usage, etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "flags_",
           "package": "cabal-debian",
@@ -4954,6 +5243,7 @@
         "index": {
           "description": "Information regarding mode of operation verbosity dry-run usage etc",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "flags_",
           "package": "cabal-debian",
@@ -4967,6 +5257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comment that will be inserted to\n explain how the file was generated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "headerMessage",
           "package": "cabal-debian",
@@ -4977,6 +5268,7 @@
         "index": {
           "description": "comment that will be inserted to explain how the file was generated",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "headerMessage",
           "package": "cabal-debian",
@@ -4991,6 +5283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost on which the server will run\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "hostname",
           "package": "cabal-debian",
@@ -5001,6 +5294,7 @@
         "index": {
           "description": "Host on which the server will run",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "hostname",
           "package": "cabal-debian",
@@ -5094,6 +5388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstall a cabal executable into the binary package at an exact location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installCabalExecTo_",
           "package": "cabal-debian",
@@ -5104,6 +5399,7 @@
         "index": {
           "description": "Install cabal executable into the binary package at an exact location",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installCabalExecTo_",
           "normalized": "Map BinPkgName(Set(String,FilePath))",
@@ -5120,6 +5416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstall a cabal executable into the binary package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installCabalExec_",
           "package": "cabal-debian",
@@ -5130,6 +5427,7 @@
         "index": {
           "description": "Install cabal executable into the binary package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installCabalExec_",
           "normalized": "Map BinPkgName(Set(String,FilePath))",
@@ -5173,6 +5471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDHInstallTo somewhere relative to DataDir (see above)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installData_",
           "package": "cabal-debian",
@@ -5183,6 +5482,7 @@
         "index": {
           "description": "DHInstallTo somewhere relative to DataDir see above",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installData_",
           "normalized": "Map BinPkgName(Set(FilePath,FilePath))",
@@ -5224,6 +5524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a directory in the binary package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installDir_",
           "package": "cabal-debian",
@@ -5234,6 +5535,7 @@
         "index": {
           "description": "Create directory in the binary package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installDir_",
           "package": "cabal-debian",
@@ -5248,6 +5550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hint to install the server executable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installFile",
           "package": "cabal-debian",
@@ -5258,6 +5561,7 @@
         "index": {
           "description": "The hint to install the server executable",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installFile",
           "package": "cabal-debian",
@@ -5297,6 +5601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an init.d file to the binary package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installInit_",
           "package": "cabal-debian",
@@ -5307,6 +5612,7 @@
         "index": {
           "description": "Add an init.d file to the binary package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installInit_",
           "package": "cabal-debian",
@@ -5348,6 +5654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstall a build file into the binary package at an exact location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installTo_",
           "package": "cabal-debian",
@@ -5358,6 +5665,7 @@
         "index": {
           "description": "Install build file into the binary package at an exact location",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "installTo_",
           "normalized": "Map BinPkgName(Set(FilePath,FilePath))",
@@ -5374,6 +5682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstall a build file into the binary package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "install_",
           "package": "cabal-debian",
@@ -5384,6 +5693,7 @@
         "index": {
           "description": "Install build file into the binary package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "install_",
           "normalized": "Map BinPkgName(Set(FilePath,FilePath))",
@@ -5426,6 +5736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut this text into a file with the given name in the debianization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "intermediateFiles_",
           "package": "cabal-debian",
@@ -5436,6 +5747,7 @@
         "index": {
           "description": "Put this text into file with the given name in the debianization",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "intermediateFiles_",
           "normalized": "Set(FilePath,Text)",
@@ -5501,6 +5813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe contents of the file specified in the cabal license-file: field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "licenseFile_",
           "package": "cabal-debian",
@@ -5511,6 +5824,7 @@
         "index": {
           "description": "The contents of the file specified in the cabal license-file field",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "licenseFile_",
           "package": "cabal-debian",
@@ -5525,6 +5839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLicense information Cabal License value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "license_",
           "package": "cabal-debian",
@@ -5535,6 +5850,7 @@
         "index": {
           "description": "License information Cabal License value",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "license_",
           "package": "cabal-debian",
@@ -5574,6 +5890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a symbolic link in the binary package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "link_",
           "package": "cabal-debian",
@@ -5584,6 +5901,7 @@
         "index": {
           "description": "Create symbolic link in the binary package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "link_",
           "normalized": "Map BinPkgName(Set(FilePath,FilePath))",
@@ -5624,6 +5942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a stanza of a logrotate file to the binary package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "logrotateStanza_",
           "package": "cabal-debian",
@@ -5634,6 +5953,7 @@
         "index": {
           "description": "Add stanza of logrotate file to the binary package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "logrotateStanza_",
           "package": "cabal-debian",
@@ -5648,6 +5968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue for the maintainer field in the control file.  Note that\n the cabal maintainer field can have multiple addresses, but debian\n only one.  If this is not explicitly set, it is obtained from the\n cabal file, and if it is not there then from the environment.  As a\n last resort, there is a hard coded string in here somewhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "maintainerOld_",
           "package": "cabal-debian",
@@ -5658,6 +5979,7 @@
         "index": {
           "description": "Value for the maintainer field in the control file Note that the cabal maintainer field can have multiple addresses but debian only one If this is not explicitly set it is obtained from the cabal file and if it is not there then from the environment As last resort there is hard coded string in here somewhere",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "maintainerOld_",
           "package": "cabal-debian",
@@ -5697,6 +6019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLets cabal-debian know that a package it might expect to exist\n actually does not, so omit all uses in resulting debianization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "missingDependencies_",
           "package": "cabal-debian",
@@ -5707,6 +6030,7 @@
         "index": {
           "description": "Lets cabal-debian know that package it might expect to exist actually does not so omit all uses in resulting debianization",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "missingDependencies_",
           "package": "cabal-debian",
@@ -5720,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "newAtoms",
           "package": "cabal-debian",
@@ -5729,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "newAtoms",
           "package": "cabal-debian",
@@ -5768,6 +6094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not produce a libghc-foo-doc package.  FIXME: make this Bool or Maybe Bool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "noDocumentationLibrary_",
           "package": "cabal-debian",
@@ -5778,6 +6105,7 @@
         "index": {
           "description": "Do not produce libghc-foo-doc package FIXME make this Bool or Maybe Bool",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "noDocumentationLibrary_",
           "package": "cabal-debian",
@@ -5817,6 +6145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not produce a libghc-foo-prof package.  FIXME: make this Bool or Maybe Bool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "noProfilingLibrary_",
           "package": "cabal-debian",
@@ -5827,6 +6156,7 @@
         "index": {
           "description": "Do not produce libghc-foo-prof package FIXME make this Bool or Maybe Bool",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "noProfilingLibrary_",
           "package": "cabal-debian",
@@ -5866,6 +6196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf present, don't generate the \u003c\u003c dependency when we see a cabal\n equals dependency.  (The implementation of this was somehow lost.)\n FIXME: make this Bool or Maybe Bool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "omitLTDeps_",
           "package": "cabal-debian",
@@ -5876,6 +6207,7 @@
         "index": {
           "description": "If present don generate the dependency when we see cabal equals dependency The implementation of this was somehow lost FIXME make this Bool or Maybe Bool",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "omitLTDeps_",
           "package": "cabal-debian",
@@ -5915,6 +6247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of reading a cabal configuration file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "packageDescription_",
           "package": "cabal-debian",
@@ -5925,6 +6258,7 @@
         "index": {
           "description": "The result of reading cabal configuration file",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "packageDescription_",
           "package": "cabal-debian",
@@ -5964,6 +6298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply some info about a cabal package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "packageInfo_",
           "package": "cabal-debian",
@@ -5974,6 +6309,7 @@
         "index": {
           "description": "Supply some info about cabal package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "packageInfo_",
           "package": "cabal-debian",
@@ -5988,6 +6324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort on which the server will run.\n Obviously, this must assign each and\n every server package to a different\n port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "port",
           "package": "cabal-debian",
@@ -5998,6 +6335,7 @@
         "index": {
           "description": "Port on which the server will run Obviously this must assign each and every server package to different port",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "port",
           "package": "cabal-debian",
@@ -6036,6 +6374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScript to run after install, should contain \u003ca name=\"DEBHELPER\"/\u003e line before exit 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "postInst_",
           "package": "cabal-debian",
@@ -6046,6 +6385,7 @@
         "index": {
           "description": "Script to run after install should contain line before exit",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "postInst_",
           "package": "cabal-debian",
@@ -6085,6 +6425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScript to run after remove, should contain \u003ca name=\"DEBHELPER\"/\u003e line before exit 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "postRm_",
           "package": "cabal-debian",
@@ -6095,6 +6436,7 @@
         "index": {
           "description": "Script to run after remove should contain line before exit",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "postRm_",
           "package": "cabal-debian",
@@ -6134,6 +6476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScript to run before install, should contain \u003ca name=\"DEBHELPER\"/\u003e line before exit 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "preInst_",
           "package": "cabal-debian",
@@ -6144,6 +6487,7 @@
         "index": {
           "description": "Script to run before install should contain line before exit",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "preInst_",
           "package": "cabal-debian",
@@ -6183,6 +6527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScript to run before remove, should contain \u003ca name=\"DEBHELPER\"/\u003e line before exit 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "preRm_",
           "package": "cabal-debian",
@@ -6193,6 +6538,7 @@
         "index": {
           "description": "Script to run before remove should contain line before exit",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "preRm_",
           "package": "cabal-debian",
@@ -6206,6 +6552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "profDeb",
           "package": "cabal-debian",
@@ -6215,6 +6562,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "profDeb",
           "normalized": "Maybe(BinPkgName,DebianVersion)",
@@ -6231,6 +6579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart-stop-daemon --retry argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "retry",
           "package": "cabal-debian",
@@ -6241,6 +6590,7 @@
         "index": {
           "description": "start-stop-daemon retry argument",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "retry",
           "package": "cabal-debian",
@@ -6278,6 +6628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the revision string to use when converting the\n cabal version to debian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "revision_",
           "package": "cabal-debian",
@@ -6288,6 +6639,7 @@
         "index": {
           "description": "Specify the revision string to use when converting the cabal version to debian",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "revision_",
           "package": "cabal-debian",
@@ -6326,6 +6678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Fragment of debian/rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "rulesFragments_",
           "package": "cabal-debian",
@@ -6336,6 +6689,7 @@
         "index": {
           "description": "Fragment of debian rules",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "rulesFragments_",
           "package": "cabal-debian",
@@ -6375,6 +6729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe header of the debian/rules file.  The remainder is assembled\n from DebRulesFragment values in the atom list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "rulesHead_",
           "package": "cabal-debian",
@@ -6385,6 +6740,7 @@
         "index": {
           "description": "The header of the debian rules file The remainder is assembled from DebRulesFragment values in the atom list",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "rulesHead_",
           "package": "cabal-debian",
@@ -6399,6 +6755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hint to install the server job\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "server",
           "package": "cabal-debian",
@@ -6409,6 +6766,7 @@
         "index": {
           "description": "The hint to install the server job",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "server",
           "package": "cabal-debian",
@@ -6422,6 +6780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApache ServerAdmin parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "serverAdmin",
           "package": "cabal-debian",
@@ -6432,6 +6791,7 @@
         "index": {
           "description": "Apache ServerAdmin parameter",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "serverAdmin",
           "package": "cabal-debian",
@@ -6446,6 +6806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra flags to pass to the server via the init script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "serverFlags",
           "package": "cabal-debian",
@@ -6456,6 +6817,7 @@
         "index": {
           "description": "Extra flags to pass to the server via the init script",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "serverFlags",
           "normalized": "[String]",
@@ -6497,6 +6859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike DHExecutable, but configure the executable as a server process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "serverInfo_",
           "package": "cabal-debian",
@@ -6507,6 +6870,7 @@
         "index": {
           "description": "Like DHExecutable but configure the executable as server process",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "serverInfo_",
           "package": "cabal-debian",
@@ -6520,6 +6884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "showAtoms",
           "package": "cabal-debian",
@@ -6529,6 +6894,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "showAtoms",
           "normalized": "Atoms-\u003eIO()",
@@ -6545,6 +6911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Architecture field of the source package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "sourceArchitecture_",
           "package": "cabal-debian",
@@ -6555,6 +6922,7 @@
         "index": {
           "description": "Set the Architecture field of the source package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "sourceArchitecture_",
           "package": "cabal-debian",
@@ -6594,6 +6962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhere to find it, default is dist\u003cem\u003ebuild\u003c/em\u003e\u003ca\u003eexecName\u003c/a\u003e/\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "sourceDir",
           "package": "cabal-debian",
@@ -6604,6 +6973,7 @@
         "index": {
           "description": "where to find it default is dist build execName",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "sourceDir",
           "package": "cabal-debian",
@@ -6643,6 +7013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite debian\u003cem\u003esource\u003c/em\u003eformat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "sourceFormat_",
           "package": "cabal-debian",
@@ -6653,6 +7024,7 @@
         "index": {
           "description": "Write debian source format",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "sourceFormat_",
           "package": "cabal-debian",
@@ -6692,6 +7064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName to give to the debian source package.  If not supplied\n the name is constructed from the cabal package name.  Note that\n DebianNameMap could encode this information if we already knew\n the cabal package name, but we can't assume that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "sourcePackageName_",
           "package": "cabal-debian",
@@ -6702,6 +7075,7 @@
         "index": {
           "description": "Name to give to the debian source package If not supplied the name is constructed from the cabal package name Note that DebianNameMap could encode this information if we already knew the cabal package name but we can assume that",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "sourcePackageName_",
           "package": "cabal-debian",
@@ -6716,6 +7090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Priority field of the source package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "sourcePriority_",
           "package": "cabal-debian",
@@ -6726,6 +7101,7 @@
         "index": {
           "description": "Set the Priority field of the source package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "sourcePriority_",
           "package": "cabal-debian",
@@ -6740,6 +7116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Section field of the source package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "sourceSection_",
           "package": "cabal-debian",
@@ -6750,6 +7127,7 @@
         "index": {
           "description": "Set the Section field of the source package",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "sourceSection_",
           "package": "cabal-debian",
@@ -6789,6 +7167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of a package that will get left-over data files and executables.\n If there are more than one, each package will get those files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "utilsPackageNames_",
           "package": "cabal-debian",
@@ -6799,6 +7178,7 @@
         "index": {
           "description": "Name of package that will get left-over data files and executables If there are more than one each package will get those files",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "utilsPackageNames_",
           "package": "cabal-debian",
@@ -6837,6 +7217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail if the debianization already present doesn't match the\n one we are going to generate closely enough that it is safe to\n debianize during the run of dpkg-buildpackage, when Setup\n configure is run.  Specifically, the version number in the top\n changelog entry must match, and the sets of package names in\n the control file must match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "validate_",
           "package": "cabal-debian",
@@ -6847,6 +7228,7 @@
         "index": {
           "description": "Fail if the debianization already present doesn match the one we are going to generate closely enough that it is safe to debianize during the run of dpkg-buildpackage when Setup configure is run Specifically the version number in the top changelog entry must match and the sets of package names in the control file must match",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "validate_",
           "package": "cabal-debian",
@@ -6884,6 +7266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun with progress messages at the given level of verboseness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "verbosity_",
           "package": "cabal-debian",
@@ -6894,6 +7277,7 @@
         "index": {
           "description": "Run with progress messages at the given level of verboseness",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "verbosity_",
           "package": "cabal-debian",
@@ -6931,6 +7315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA warning to be reported later\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "warning_",
           "package": "cabal-debian",
@@ -6941,6 +7326,7 @@
         "index": {
           "description": "warning to be reported later",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "warning_",
           "package": "cabal-debian",
@@ -6978,6 +7364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite debian/watch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "watch_",
           "package": "cabal-debian",
@@ -6988,6 +7375,7 @@
         "index": {
           "description": "Write debian watch",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "watch_",
           "package": "cabal-debian",
@@ -7025,6 +7413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike DHServer, but configure the server as a web server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "website_",
           "package": "cabal-debian",
@@ -7035,6 +7424,7 @@
         "index": {
           "description": "Like DHServer but configure the server as web server",
           "hierarchy": "Debian Debianize Types Atoms",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.Atoms",
           "name": "website_",
           "package": "cabal-debian",
@@ -7047,6 +7437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "BinaryDebDescription",
           "package": "cabal-debian",
@@ -7055,6 +7446,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "BinaryDebDescription",
           "package": "cabal-debian",
@@ -7069,6 +7461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a section of the control file other than the\n first, which in turn represent one of the binary packages or debs\n produced by this debianization.\n\u003c/p\u003e\u003cp\u003eThe different types of binary debs we can produce from a haskell package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "BinaryDebDescription",
           "package": "cabal-debian",
@@ -7078,6 +7471,7 @@
         "index": {
           "description": "This type represents section of the control file other than the first which in turn represent one of the binary packages or debs produced by this debianization The different types of binary debs we can produce from haskell package",
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "BinaryDebDescription",
           "package": "cabal-debian",
@@ -7091,6 +7485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "PackageRelations",
           "package": "cabal-debian",
@@ -7099,6 +7494,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "PackageRelations",
           "package": "cabal-debian",
@@ -7113,6 +7509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackage interrelationship information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "PackageType",
           "package": "cabal-debian",
@@ -7122,6 +7519,7 @@
         "index": {
           "description": "Package interrelationship information",
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "PackageType",
           "package": "cabal-debian",
@@ -7136,6 +7534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used to construct the value for\n DEB_CABAL_PACKAGE in the rules file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Cabal",
           "package": "cabal-debian",
@@ -7146,6 +7545,7 @@
         "index": {
           "description": "This is used to construct the value for DEB CABAL PACKAGE in the rules file",
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Cabal",
           "package": "cabal-debian",
@@ -7160,6 +7560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe libghc-foo-dev package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Development",
           "package": "cabal-debian",
@@ -7170,6 +7571,7 @@
         "index": {
           "description": "The libghc-foo-dev package",
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Development",
           "package": "cabal-debian",
@@ -7184,6 +7586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe libghc-foo-doc package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Documentation",
           "package": "cabal-debian",
@@ -7194,6 +7597,7 @@
         "index": {
           "description": "The libghc-foo-doc package",
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Documentation",
           "package": "cabal-debian",
@@ -7208,6 +7612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA package related to a particular executable, perhaps\n but not necessarily a server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Exec",
           "package": "cabal-debian",
@@ -7218,6 +7623,7 @@
         "index": {
           "description": "package related to particular executable perhaps but not necessarily server",
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Exec",
           "package": "cabal-debian",
@@ -7232,6 +7638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe libghc-foo-prof package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Profiling",
           "package": "cabal-debian",
@@ -7242,6 +7649,7 @@
         "index": {
           "description": "The libghc-foo-prof package",
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Profiling",
           "package": "cabal-debian",
@@ -7256,6 +7664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe source package (not a binary deb actually.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Source'",
           "package": "cabal-debian",
@@ -7266,6 +7675,7 @@
         "index": {
           "description": "The source package not binary deb actually",
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Source'",
           "package": "cabal-debian",
@@ -7280,6 +7690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA package that holds the package's data files\n and any executables not assigned to other\n packages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Utilities",
           "package": "cabal-debian",
@@ -7290,6 +7701,7 @@
         "index": {
           "description": "package that holds the package data files and any executables not assigned to other packages",
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "Utilities",
           "package": "cabal-debian",
@@ -7303,6 +7715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "architecture",
           "package": "cabal-debian",
@@ -7312,6 +7725,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "architecture",
           "package": "cabal-debian",
@@ -7324,6 +7738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "binaryPriority",
           "package": "cabal-debian",
@@ -7333,6 +7748,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "binaryPriority",
           "package": "cabal-debian",
@@ -7346,6 +7762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "binarySection",
           "package": "cabal-debian",
@@ -7355,6 +7772,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "binarySection",
           "package": "cabal-debian",
@@ -7368,6 +7786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "breaks",
           "package": "cabal-debian",
@@ -7377,6 +7796,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "breaks",
           "package": "cabal-debian",
@@ -7389,6 +7809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "builtUsing",
           "package": "cabal-debian",
@@ -7398,6 +7819,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "builtUsing",
           "package": "cabal-debian",
@@ -7411,6 +7833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "conflicts",
           "package": "cabal-debian",
@@ -7420,6 +7843,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "conflicts",
           "package": "cabal-debian",
@@ -7432,6 +7856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "depends",
           "package": "cabal-debian",
@@ -7441,6 +7866,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "depends",
           "package": "cabal-debian",
@@ -7453,6 +7879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "description",
           "package": "cabal-debian",
@@ -7462,6 +7889,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "description",
           "package": "cabal-debian",
@@ -7474,6 +7902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "essential",
           "package": "cabal-debian",
@@ -7483,6 +7912,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "essential",
           "package": "cabal-debian",
@@ -7495,6 +7925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "newBinaryDebDescription",
           "package": "cabal-debian",
@@ -7504,6 +7935,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "newBinaryDebDescription",
           "normalized": "BinPkgName-\u003eBinaryDebDescription",
@@ -7519,6 +7951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "newPackageRelations",
           "package": "cabal-debian",
@@ -7528,6 +7961,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "newPackageRelations",
           "package": "cabal-debian",
@@ -7541,6 +7975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "package",
           "package": "cabal-debian",
@@ -7550,6 +7985,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "package",
           "package": "cabal-debian",
@@ -7562,6 +7998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "packageType",
           "package": "cabal-debian",
@@ -7571,6 +8008,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "packageType",
           "package": "cabal-debian",
@@ -7584,6 +8022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "preDepends",
           "package": "cabal-debian",
@@ -7593,6 +8032,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "preDepends",
           "package": "cabal-debian",
@@ -7606,6 +8046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "provides",
           "package": "cabal-debian",
@@ -7615,6 +8056,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "provides",
           "package": "cabal-debian",
@@ -7627,6 +8069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "recommends",
           "package": "cabal-debian",
@@ -7636,6 +8079,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "recommends",
           "package": "cabal-debian",
@@ -7648,6 +8092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "relations",
           "package": "cabal-debian",
@@ -7657,6 +8102,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "relations",
           "package": "cabal-debian",
@@ -7669,6 +8115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "replaces",
           "package": "cabal-debian",
@@ -7678,6 +8125,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "replaces",
           "package": "cabal-debian",
@@ -7690,6 +8138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "suggests",
           "package": "cabal-debian",
@@ -7699,6 +8148,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types BinaryDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.BinaryDebDescription",
           "name": "suggests",
           "package": "cabal-debian",
@@ -7711,6 +8161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "SourceDebDescription",
           "package": "cabal-debian",
@@ -7719,6 +8170,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "SourceDebDescription",
           "package": "cabal-debian",
@@ -7733,6 +8185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents the debian/control file, which is the core\n of the source package debianization.  It includes the information\n that goes in the first, or source, section, and then a list of the\n succeeding binary package sections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "SourceDebDescription",
           "package": "cabal-debian",
@@ -7742,6 +8195,7 @@
         "index": {
           "description": "This type represents the debian control file which is the core of the source package debianization It includes the information that goes in the first or source section and then list of the succeeding binary package sections",
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "SourceDebDescription",
           "package": "cabal-debian",
@@ -7755,6 +8209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VersionControlSpec",
           "package": "cabal-debian",
@@ -7763,6 +8218,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VersionControlSpec",
           "package": "cabal-debian",
@@ -7777,6 +8233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser defined fields.  Parse the line \u003ca\u003eXBS-Comment: I stand\n between the candle and the star.\u003c/a\u003e to get XField (fromList \u003ca\u003eBS\u003c/a\u003e)\n \u003ca\u003eComment\u003c/a\u003e \u003ca\u003e I stand between the candle and the star.\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "XField",
           "package": "cabal-debian",
@@ -7786,6 +8243,7 @@
         "index": {
           "description": "User defined fields Parse the line XBS-Comment stand between the candle and the star to get XField fromList BS Comment stand between the candle and the star",
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "XField",
           "package": "cabal-debian",
@@ -7799,6 +8257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "XFieldDest",
           "package": "cabal-debian",
@@ -7807,6 +8266,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "XFieldDest",
           "package": "cabal-debian",
@@ -7821,6 +8281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField will be copied to the binary packgae control files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "B",
           "package": "cabal-debian",
@@ -7831,6 +8292,7 @@
         "index": {
           "description": "Field will be copied to the binary packgae control files",
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "B",
           "package": "cabal-debian",
@@ -7844,6 +8306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField will be copied to the upload control (.changes) file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "C",
           "package": "cabal-debian",
@@ -7854,6 +8317,7 @@
         "index": {
           "description": "Field will be copied to the upload control changes file",
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "C",
           "package": "cabal-debian",
@@ -7867,6 +8331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField will be copied to the source packgae control files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "S",
           "package": "cabal-debian",
@@ -7877,6 +8342,7 @@
         "index": {
           "description": "Field will be copied to the source packgae control files",
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "S",
           "package": "cabal-debian",
@@ -7889,6 +8355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSArch",
           "package": "cabal-debian",
@@ -7898,6 +8365,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSArch",
           "package": "cabal-debian",
@@ -7911,6 +8379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSBrowser",
           "package": "cabal-debian",
@@ -7920,6 +8389,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSBrowser",
           "package": "cabal-debian",
@@ -7933,6 +8403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSBzr",
           "package": "cabal-debian",
@@ -7942,6 +8413,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSBzr",
           "package": "cabal-debian",
@@ -7955,6 +8427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSCvs",
           "package": "cabal-debian",
@@ -7964,6 +8437,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSCvs",
           "package": "cabal-debian",
@@ -7977,6 +8451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSDarcs",
           "package": "cabal-debian",
@@ -7986,6 +8461,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSDarcs",
           "package": "cabal-debian",
@@ -7999,6 +8475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSGit",
           "package": "cabal-debian",
@@ -8008,6 +8485,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSGit",
           "package": "cabal-debian",
@@ -8021,6 +8499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSHg",
           "package": "cabal-debian",
@@ -8030,6 +8509,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSHg",
           "package": "cabal-debian",
@@ -8043,6 +8523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSMtn",
           "package": "cabal-debian",
@@ -8052,6 +8533,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSMtn",
           "package": "cabal-debian",
@@ -8065,6 +8547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSSvn",
           "package": "cabal-debian",
@@ -8074,6 +8557,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "VCSSvn",
           "package": "cabal-debian",
@@ -8087,6 +8571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "XField",
           "package": "cabal-debian",
@@ -8096,6 +8581,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "XField",
           "package": "cabal-debian",
@@ -8109,6 +8595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "binaryPackages",
           "package": "cabal-debian",
@@ -8118,6 +8605,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "binaryPackages",
           "normalized": "Lens SourceDebDescription[BinaryDebDescription]",
@@ -8133,6 +8621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "buildConflicts",
           "package": "cabal-debian",
@@ -8142,6 +8631,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "buildConflicts",
           "package": "cabal-debian",
@@ -8155,6 +8645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "buildConflictsIndep",
           "package": "cabal-debian",
@@ -8164,6 +8655,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "buildConflictsIndep",
           "package": "cabal-debian",
@@ -8177,6 +8669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "buildDepends",
           "package": "cabal-debian",
@@ -8186,6 +8679,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "buildDepends",
           "package": "cabal-debian",
@@ -8199,6 +8693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "buildDependsIndep",
           "package": "cabal-debian",
@@ -8208,6 +8703,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "buildDependsIndep",
           "package": "cabal-debian",
@@ -8221,6 +8717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "changedBy",
           "package": "cabal-debian",
@@ -8230,6 +8727,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "changedBy",
           "package": "cabal-debian",
@@ -8243,6 +8741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "dmUploadAllowed",
           "package": "cabal-debian",
@@ -8252,6 +8751,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "dmUploadAllowed",
           "package": "cabal-debian",
@@ -8265,6 +8765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "homepage",
           "package": "cabal-debian",
@@ -8274,6 +8775,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "homepage",
           "package": "cabal-debian",
@@ -8286,6 +8788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "maintainer",
           "package": "cabal-debian",
@@ -8295,6 +8798,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "maintainer",
           "package": "cabal-debian",
@@ -8307,6 +8811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "newSourceDebDescription",
           "package": "cabal-debian",
@@ -8316,6 +8821,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "newSourceDebDescription",
           "package": "cabal-debian",
@@ -8329,6 +8835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "newSourceDebDescription'",
           "package": "cabal-debian",
@@ -8338,6 +8845,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "newSourceDebDescription'",
           "normalized": "SrcPkgName-\u003eNameAddr-\u003eSourceDebDescription",
@@ -8353,6 +8861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "priority",
           "package": "cabal-debian",
@@ -8362,6 +8871,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "priority",
           "package": "cabal-debian",
@@ -8374,6 +8884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "section",
           "package": "cabal-debian",
@@ -8383,6 +8894,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "section",
           "package": "cabal-debian",
@@ -8395,6 +8907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "source",
           "package": "cabal-debian",
@@ -8404,6 +8917,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "source",
           "package": "cabal-debian",
@@ -8416,6 +8930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "standardsVersion",
           "package": "cabal-debian",
@@ -8425,6 +8940,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "standardsVersion",
           "package": "cabal-debian",
@@ -8438,6 +8954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "uploaders",
           "package": "cabal-debian",
@@ -8447,6 +8964,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "uploaders",
           "normalized": "Lens SourceDebDescription[NameAddr]",
@@ -8461,6 +8979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "vcsFields",
           "package": "cabal-debian",
@@ -8470,6 +8989,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "vcsFields",
           "package": "cabal-debian",
@@ -8483,6 +9003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "xFields",
           "package": "cabal-debian",
@@ -8492,6 +9013,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types SourceDebDescription",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types.SourceDebDescription",
           "name": "xFields",
           "package": "cabal-debian",
@@ -8505,6 +9027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "Types",
           "package": "cabal-debian",
@@ -8513,6 +9036,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "Types",
           "package": "cabal-debian",
@@ -8527,6 +9051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a special filepath that represents the top of a directory\n tree.  For a cabal package this directory would contain the .cabal\n file, for a debian package it would contain the debian directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "Top",
           "package": "cabal-debian",
@@ -8536,6 +9061,7 @@
         "index": {
           "description": "This is special filepath that represents the top of directory tree For cabal package this directory would contain the cabal file for debian package it would contain the debian directory",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "Top",
           "package": "cabal-debian",
@@ -8549,6 +9075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "Top",
           "package": "cabal-debian",
@@ -8558,6 +9085,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "Top",
           "package": "cabal-debian",
@@ -8572,6 +9100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe architectures supported by a binary package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "binaryArchitectures",
           "package": "cabal-debian",
@@ -8582,6 +9111,7 @@
         "index": {
           "description": "The architectures supported by binary package",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "binaryArchitectures",
           "normalized": "BinPkgName-\u003eLens Atoms(Maybe PackageArchitectures)",
@@ -8597,6 +9127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "binaryPackages",
           "package": "cabal-debian",
@@ -8606,6 +9137,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "binaryPackages",
           "normalized": "Lens Atoms[BinaryDebDescription]",
@@ -8622,6 +9154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap of the binary package priorities (FIXME: redundant with BinaryDebDescription)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "binaryPriority",
           "package": "cabal-debian",
@@ -8632,6 +9165,7 @@
         "index": {
           "description": "Map of the binary package priorities FIXME redundant with BinaryDebDescription",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "binaryPriority",
           "normalized": "BinPkgName-\u003eLens Atoms(Maybe PackagePriority)",
@@ -8648,6 +9182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap of the binary deb section assignments (FIXME: redundant with BinaryDebDescription)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "binarySection",
           "package": "cabal-debian",
@@ -8658,6 +9193,7 @@
         "index": {
           "description": "Map of the binary deb section assignments FIXME redundant with BinaryDebDescription",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "binarySection",
           "normalized": "BinPkgName-\u003eLens Atoms(Maybe Section)",
@@ -8674,6 +9210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Breaks: relations for each binary deb - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s5.6.10\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "breaks",
           "package": "cabal-debian",
@@ -8684,6 +9221,7 @@
         "index": {
           "description": "The Breaks relations for each binary deb http www.debian.org doc debian-policy ch-controlfields.html s5.6.10",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "breaks",
           "normalized": "BinPkgName-\u003eLens Atoms Relations",
@@ -8699,6 +9237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-relationships.html#s-sourcebinarydeps\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "buildConflicts",
           "package": "cabal-debian",
@@ -8709,6 +9248,7 @@
         "index": {
           "description": "http www.debian.org doc debian-policy ch-relationships.html s-sourcebinarydeps",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "buildConflicts",
           "package": "cabal-debian",
@@ -8723,6 +9263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-relationships.html#s-sourcebinarydeps\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "buildConflictsIndep",
           "package": "cabal-debian",
@@ -8733,6 +9274,7 @@
         "index": {
           "description": "http www.debian.org doc debian-policy ch-relationships.html s-sourcebinarydeps",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "buildConflictsIndep",
           "package": "cabal-debian",
@@ -8747,6 +9289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-relationships.html#s-sourcebinarydeps\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "buildDepends",
           "package": "cabal-debian",
@@ -8757,6 +9300,7 @@
         "index": {
           "description": "http www.debian.org doc debian-policy ch-relationships.html s-sourcebinarydeps",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "buildDepends",
           "package": "cabal-debian",
@@ -8771,6 +9315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-relationships.html#s-sourcebinarydeps\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "buildDependsIndep",
           "package": "cabal-debian",
@@ -8781,6 +9326,7 @@
         "index": {
           "description": "http www.debian.org doc debian-policy ch-relationships.html s-sourcebinarydeps",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "buildDependsIndep",
           "package": "cabal-debian",
@@ -8795,6 +9341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTHe Built-Using: relations for each binary deb - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s5.6.10\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "builtUsing",
           "package": "cabal-debian",
@@ -8805,6 +9352,7 @@
         "index": {
           "description": "THe Built-Using relations for each binary deb http www.debian.org doc debian-policy ch-controlfields.html s5.6.10",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "builtUsing",
           "normalized": "BinPkgName-\u003eLens Atoms Relations",
@@ -8821,6 +9369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Changed-By\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "changedBy",
           "package": "cabal-debian",
@@ -8831,6 +9380,7 @@
         "index": {
           "description": "http www.debian.org doc debian-policy ch-controlfields.html s-f-Changed-By",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "changedBy",
           "package": "cabal-debian",
@@ -8845,6 +9395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Conflicts: relations for each binary deb - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s5.6.10\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "conflicts",
           "package": "cabal-debian",
@@ -8855,6 +9406,7 @@
         "index": {
           "description": "The Conflicts relations for each binary deb http www.debian.org doc debian-policy ch-controlfields.html s5.6.10",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "conflicts",
           "normalized": "BinPkgName-\u003eLens Atoms Relations",
@@ -8870,6 +9422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens into the description field of a BinaryDebDescription.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "debianDescription",
           "package": "cabal-debian",
@@ -8880,6 +9433,7 @@
         "index": {
           "description": "Lens into the description field of BinaryDebDescription",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "debianDescription",
           "normalized": "BinPkgName-\u003eLens Atoms(Maybe Text)",
@@ -8896,6 +9450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Depends: relations for each binary deb - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s5.6.10\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "depends",
           "package": "cabal-debian",
@@ -8906,6 +9461,7 @@
         "index": {
           "description": "The Depends relations for each binary deb http www.debian.org doc debian-policy ch-controlfields.html s5.6.10",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "depends",
           "normalized": "BinPkgName-\u003eLens Atoms Relations",
@@ -8921,6 +9477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObsolete - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-DM-Upload-Allowed\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "dmUploadAllowed",
           "package": "cabal-debian",
@@ -8931,6 +9488,7 @@
         "index": {
           "description": "Obsolete http www.debian.org doc debian-policy ch-controlfields.html s-f-DM-Upload-Allowed",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "dmUploadAllowed",
           "package": "cabal-debian",
@@ -8945,6 +9503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Essential\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "essential",
           "package": "cabal-debian",
@@ -8955,6 +9514,7 @@
         "index": {
           "description": "http www.debian.org doc debian-policy ch-controlfields.html s-f-Essential",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "essential",
           "normalized": "BinPkgName-\u003eLens Atoms(Maybe Bool)",
@@ -8970,6 +9530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Homepage\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "homepage",
           "package": "cabal-debian",
@@ -8980,6 +9541,7 @@
         "index": {
           "description": "http www.debian.org doc debian-policy ch-controlfields.html s-f-Homepage",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "homepage",
           "package": "cabal-debian",
@@ -8993,6 +9555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaintainer field.  Overrides any value found in the cabal file, or\n in the DEBIANMAINTAINER environment variable.\n \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Maintainer\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "maintainer",
           "package": "cabal-debian",
@@ -9003,6 +9566,7 @@
         "index": {
           "description": "Maintainer field Overrides any value found in the cabal file or in the DEBIANMAINTAINER environment variable http www.debian.org doc debian-policy ch-controlfields.html s-f-Maintainer",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "maintainer",
           "package": "cabal-debian",
@@ -9016,6 +9580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens onto one of several \u003ccode\u003e\u003ca\u003ePackageType\u003c/a\u003e\u003c/code\u003e values of which we have\n specific knowledge how to package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "packageType",
           "package": "cabal-debian",
@@ -9026,6 +9591,7 @@
         "index": {
           "description": "Lens onto one of several PackageType values of which we have specific knowledge how to package",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "packageType",
           "normalized": "BinPkgName-\u003eLens Atoms(Maybe PackageType)",
@@ -9042,6 +9608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Pre-Depends: relations for each binary deb - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s5.6.10\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "preDepends",
           "package": "cabal-debian",
@@ -9052,6 +9619,7 @@
         "index": {
           "description": "The Pre-Depends relations for each binary deb http www.debian.org doc debian-policy ch-controlfields.html s5.6.10",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "preDepends",
           "normalized": "BinPkgName-\u003eLens Atoms Relations",
@@ -9068,6 +9636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Provides: relations for each binary deb - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s5.6.10\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "provides",
           "package": "cabal-debian",
@@ -9078,6 +9647,7 @@
         "index": {
           "description": "The Provides relations for each binary deb http www.debian.org doc debian-policy ch-controlfields.html s5.6.10",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "provides",
           "normalized": "BinPkgName-\u003eLens Atoms Relations",
@@ -9093,6 +9663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Recommends: relations for each binary deb - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s5.6.10\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "recommends",
           "package": "cabal-debian",
@@ -9103,6 +9674,7 @@
         "index": {
           "description": "The Recommends relations for each binary deb http www.debian.org doc debian-policy ch-controlfields.html s5.6.10",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "recommends",
           "normalized": "BinPkgName-\u003eLens Atoms Relations",
@@ -9118,6 +9690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Replaces: relations for each binary deb - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s5.6.10\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "replaces",
           "package": "cabal-debian",
@@ -9128,6 +9701,7 @@
         "index": {
           "description": "The Replaces relations for each binary deb http www.debian.org doc debian-policy ch-controlfields.html s5.6.10",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "replaces",
           "normalized": "BinPkgName-\u003eLens Atoms Relations",
@@ -9143,6 +9717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Source\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "source",
           "package": "cabal-debian",
@@ -9153,6 +9728,7 @@
         "index": {
           "description": "http www.debian.org doc debian-policy ch-controlfields.html s-f-Source",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "source",
           "package": "cabal-debian",
@@ -9166,6 +9742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe source package priority - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Priority\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "sourcePriority",
           "package": "cabal-debian",
@@ -9176,6 +9753,7 @@
         "index": {
           "description": "The source package priority http www.debian.org doc debian-policy ch-controlfields.html s-f-Priority",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "sourcePriority",
           "package": "cabal-debian",
@@ -9190,6 +9768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe source package's section assignment - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Section\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "sourceSection",
           "package": "cabal-debian",
@@ -9200,6 +9779,7 @@
         "index": {
           "description": "The source package section assignment http www.debian.org doc debian-policy ch-controlfields.html s-f-Section",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "sourceSection",
           "package": "cabal-debian",
@@ -9213,6 +9793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "standardsVersion",
           "package": "cabal-debian",
@@ -9222,6 +9803,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "standardsVersion",
           "package": "cabal-debian",
@@ -9236,6 +9818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Suggests: relations for each binary deb - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s5.6.10\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "suggests",
           "package": "cabal-debian",
@@ -9246,6 +9829,7 @@
         "index": {
           "description": "The Suggests relations for each binary deb http www.debian.org doc debian-policy ch-controlfields.html s5.6.10",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "suggests",
           "normalized": "BinPkgName-\u003eLens Atoms Relations",
@@ -9260,6 +9844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "unTop",
           "package": "cabal-debian",
@@ -9269,6 +9854,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "unTop",
           "package": "cabal-debian",
@@ -9283,6 +9869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Uploaders\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "uploaders",
           "package": "cabal-debian",
@@ -9293,6 +9880,7 @@
         "index": {
           "description": "http www.debian.org doc debian-policy ch-controlfields.html s-f-Uploaders",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "uploaders",
           "normalized": "Lens Atoms[NameAddr]",
@@ -9308,6 +9896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion control system field - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-VCS-fields\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "vcsFields",
           "package": "cabal-debian",
@@ -9318,6 +9907,7 @@
         "index": {
           "description": "Version control system field http www.debian.org doc debian-policy ch-controlfields.html s-f-VCS-fields",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "vcsFields",
           "package": "cabal-debian",
@@ -9332,6 +9922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser defined fields - \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s5.7\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.Types",
           "name": "xFields",
           "package": "cabal-debian",
@@ -9342,6 +9933,7 @@
         "index": {
           "description": "User defined fields http www.debian.org doc debian-policy ch-controlfields.html s5.7",
           "hierarchy": "Debian Debianize Types",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.Types",
           "name": "xFields",
           "package": "cabal-debian",
@@ -9355,6 +9947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.VersionSplits",
           "name": "VersionSplits",
           "package": "cabal-debian",
@@ -9363,6 +9956,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize VersionSplits",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.VersionSplits",
           "name": "VersionSplits",
           "package": "cabal-debian",
@@ -9377,6 +9971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes a mapping from cabal package name and version to debian\n package names.  For example, versions of the cabal QuickCheck\n package less than 2 are mapped to \u003ca\u003equickcheck1\u003c/a\u003e, while version 2 or\n greater is mapped to \u003ca\u003equickcheck2\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.VersionSplits",
           "name": "VersionSplits",
           "package": "cabal-debian",
@@ -9386,6 +9981,7 @@
         "index": {
           "description": "Describes mapping from cabal package name and version to debian package names For example versions of the cabal QuickCheck package less than are mapped to quickcheck1 while version or greater is mapped to quickcheck2",
           "hierarchy": "Debian Debianize VersionSplits",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.VersionSplits",
           "name": "VersionSplits",
           "package": "cabal-debian",
@@ -9399,6 +9995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.VersionSplits",
           "name": "doSplits",
           "package": "cabal-debian",
@@ -9408,6 +10005,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize VersionSplits",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.VersionSplits",
           "name": "doSplits",
           "normalized": "VersionSplits-\u003eMaybe VersionReq-\u003eString",
@@ -9424,6 +10022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit the version range and give the older packages a new name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.VersionSplits",
           "name": "insertSplit",
           "package": "cabal-debian",
@@ -9434,6 +10033,7 @@
         "index": {
           "description": "Split the version range and give the older packages new name",
           "hierarchy": "Debian Debianize VersionSplits",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.VersionSplits",
           "name": "insertSplit",
           "normalized": "Version-\u003eString-\u003eVersionSplits-\u003eVersionSplits",
@@ -9450,6 +10050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese are the instances of debian names changing that I know\n about.  I know they really shouldn't be hard coded.  Send a patch.\n Note that this inherits the lack of type safety of the mkPkgName\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.VersionSplits",
           "name": "knownVersionSplits",
           "package": "cabal-debian",
@@ -9460,6 +10061,7 @@
         "index": {
           "description": "These are the instances of debian names changing that know about know they really shouldn be hard coded Send patch Note that this inherits the lack of type safety of the mkPkgName function",
           "hierarchy": "Debian Debianize VersionSplits",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.VersionSplits",
           "name": "knownVersionSplits",
           "package": "cabal-debian",
@@ -9473,6 +10075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.VersionSplits",
           "name": "makePackage",
           "package": "cabal-debian",
@@ -9482,6 +10085,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize VersionSplits",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.VersionSplits",
           "name": "makePackage",
           "normalized": "String-\u003eVersionSplits",
@@ -9497,6 +10101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize.VersionSplits",
           "name": "packageRangesFromVersionSplits",
           "package": "cabal-debian",
@@ -9506,6 +10111,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize VersionSplits",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize.VersionSplits",
           "name": "packageRangesFromVersionSplits",
           "normalized": "VersionSplits-\u003e[(String,VersionRange)]",
@@ -9522,6 +10128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003cem\u003eQUICK START:\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eYou can either run the \u003ccode\u003ecabal-debian --debianize\u003c/code\u003e, or\n for more power and flexibility you can put a \u003ccode\u003eDebianize.hs\u003c/code\u003e script in\n the package's \u003ccode\u003edebian\u003c/code\u003e subdirectory.\n \u003ccode\u003e\u003ca\u003eAtoms\u003c/a\u003e\u003c/code\u003e value and pass it to the\n \u003ccode\u003e\u003ca\u003edebianize\u003c/a\u003e\u003c/code\u003e function.  The\n \u003ccode\u003e\u003ca\u003ecallDebianize\u003c/a\u003e\u003c/code\u003e function retrieves extra arguments\n from the \u003ccode\u003eCABALDEBIAN\u003c/code\u003e environment variable and calls\n \u003ccode\u003e\u003ca\u003edebianize\u003c/a\u003e\u003c/code\u003e with the build directory set as it\n would be when the packages is built by \u003ccode\u003edpkg-buildpackage\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo see what your debianization would produce, or how it differs\n from the debianization already present:\n\u003c/p\u003e\u003cpre\u003e % cabal-debian --debianize -n\n\u003c/pre\u003e\u003cp\u003eThis is equivalent to the library call\n\u003c/p\u003e\u003cpre\u003e % ghc -e 'Debian.Debianize.callDebianize [\"-n\"]'\n\u003c/pre\u003e\u003cp\u003eTo actually create the debianization and then build the debs,\n\u003c/p\u003e\u003cpre\u003e % ghc -e 'Debian.Debianize.callDebianize []'\n % sudo dpkg-buildpackage\n\u003c/pre\u003e\u003cp\u003eAt this point you may need to modify Cabal.defaultFlags to achieve\n specific packaging goals.  Create a module for this in debian/Debianize.hs:\n\u003c/p\u003e\u003cpre\u003e import Data.Lens.Lazy\n import Data.Map as Map (insertWith)\n import Data.Set as Set (union, singleton)\n import Debian.Relation (BinPkgName(BinPkgName), Relation(Rel))\n import Debian.Debianize (defaultAtoms, depends, debianization, writeDebianization)\n main = debianization \".\" defaultAtoms \u003e\u003e=\n        return . modL depends (insertWith union (BinPkgName \"cabal-debian\") (singleton (Rel (BinPkgName \"debian-policy\") Nothing Nothing))) \u003e\u003e=\n        writeDebianization \".\"\n\u003c/pre\u003e\u003cp\u003eThen to test it,\n\u003c/p\u003e\u003cpre\u003e % CABALDEBIAN='[\"-n\"]' runhaskell debian/Debianize.hs\n\u003c/pre\u003e\u003cp\u003eor equivalently\n\u003c/p\u003e\u003cpre\u003e % ghc -e 'Debian.Debianize.runDebianize [\"-n\"]'\n\u003c/pre\u003e\u003cp\u003eand to run it for real:\n\u003c/p\u003e\u003cpre\u003e % runhaskell debian/Debianize.hs\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003e\u003cem\u003eDESIGN OVERVIEW\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe three phases of the operation of the system are Input -\u003e Finalization -\u003e Output.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003eInput\u003c/dt\u003e\u003cdd\u003e Module \u003ca\u003eDebian.Debianize.Input\u003c/a\u003e - gather inputs using IO\n    operations and customization functions, from the .cabal file, an\n    existing debianization, and so on.  This information results in\n    a value of type \u003ccode\u003eAtoms\u003c/code\u003e.  Modules \u003ccode\u003eTypes\u003c/code\u003e, \u003ccode\u003eLenses\u003c/code\u003e, \u003ccode\u003eInputs\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003eCustomize\u003c/dt\u003e\u003cdd\u003e Make modifications to the input values\n\u003c/dd\u003e\u003cdt\u003eFinalization\u003c/dt\u003e\u003cdd\u003e Module \u003ca\u003eDebian.Debianize.Finalize\u003c/a\u003e - Fill in any\n    information missing from \u003ccode\u003eAtoms\u003c/code\u003e that is required to build the\n    debianization based on the inputs and our policy decisions.\n\u003c/dd\u003e\u003cdt\u003eDebianize\u003c/dt\u003e\u003cdd\u003e Module \u003ca\u003eDebian.Debianize.Files\u003c/a\u003e - Compute the paths\n    and files of the debianization from the Atoms value.\n\u003c/dd\u003e\u003cdt\u003eOutput\u003c/dt\u003e\u003cdd\u003e Module \u003ca\u003eDebian.Debianize.Output\u003c/a\u003e - Perform a variety of\n    output operations on the debianzation - writing or updating the\n    files in a debian directory, comparing two debianizations,\n    validate a debianization (ensure two debianizations match in\n    source and binary package names), or describe a debianization.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThere is also a high level function to run a script that runs this\n entire pipeline when it finds from a script found in a\n debian/Debianize.hs file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize",
           "name": "Debianize",
           "package": "cabal-debian",
@@ -9531,6 +10138,7 @@
         "index": {
           "description": "QUICK START You can either run the cabal-debian debianize or for more power and flexibility you can put Debianize.hs script in the package debian subdirectory Atoms value and pass it to the debianize function The callDebianize function retrieves extra arguments from the CABALDEBIAN environment variable and calls debianize with the build directory set as it would be when the packages is built by dpkg-buildpackage To see what your debianization would produce or how it differs from the debianization already present cabal-debian debianize This is equivalent to the library call ghc Debian.Debianize.callDebianize To actually create the debianization and then build the debs ghc Debian.Debianize.callDebianize sudo dpkg-buildpackage At this point you may need to modify Cabal.defaultFlags to achieve specific packaging goals Create module for this in debian Debianize.hs import Data.Lens.Lazy import Data.Map as Map insertWith import Data.Set as Set union singleton import Debian.Relation BinPkgName BinPkgName Relation Rel import Debian.Debianize defaultAtoms depends debianization writeDebianization main debianization defaultAtoms return modL depends insertWith union BinPkgName cabal-debian singleton Rel BinPkgName debian-policy Nothing Nothing writeDebianization Then to test it CABALDEBIAN runhaskell debian Debianize.hs or equivalently ghc Debian.Debianize.runDebianize and to run it for real runhaskell debian Debianize.hs DESIGN OVERVIEW The three phases of the operation of the system are Input Finalization Output Input Module Debian.Debianize.Input gather inputs using IO operations and customization functions from the cabal file an existing debianization and so on This information results in value of type Atoms Modules Types Lenses Inputs Customize Make modifications to the input values Finalization Module Debian.Debianize.Finalize Fill in any information missing from Atoms that is required to build the debianization based on the inputs and our policy decisions Debianize Module Debian.Debianize.Files Compute the paths and files of the debianization from the Atoms value Output Module Debian.Debianize.Output Perform variety of output operations on the debianzation writing or updating the files in debian directory comparing two debianizations validate debianization ensure two debianizations match in source and binary package names or describe debianization There is also high level function to run script that runs this entire pipeline when it finds from script found in debian Debianize.hs file",
           "hierarchy": "Debian Debianize",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize",
           "name": "Debianize",
           "package": "cabal-debian",
@@ -9544,6 +10152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize",
           "name": "DebM",
           "package": "cabal-debian",
@@ -9552,6 +10161,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize",
           "name": "DebM",
           "package": "cabal-debian",
@@ -9565,6 +10175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Debianize",
           "name": "DebT",
           "package": "cabal-debian",
@@ -9573,6 +10184,7 @@
         },
         "index": {
           "hierarchy": "Debian Debianize",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Debianize",
           "name": "DebT",
           "package": "cabal-debian",
@@ -9587,6 +10199,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode pulled out of cabal-debian that straightforwardly implements\n parts of the Debian policy manual, or other bits of Linux standards.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Policy",
           "package": "cabal-debian",
@@ -9596,6 +10209,7 @@
         "index": {
           "description": "Code pulled out of cabal-debian that straightforwardly implements parts of the Debian policy manual or other bits of Linux standards",
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Policy",
           "package": "cabal-debian",
@@ -9609,6 +10223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Area",
           "package": "cabal-debian",
@@ -9617,6 +10232,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Area",
           "package": "cabal-debian",
@@ -9631,6 +10247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe architectures for which a binary deb can be built.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "PackageArchitectures",
           "package": "cabal-debian",
@@ -9640,6 +10257,7 @@
         "index": {
           "description": "The architectures for which binary deb can be built",
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "PackageArchitectures",
           "package": "cabal-debian",
@@ -9653,6 +10271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "PackagePriority",
           "package": "cabal-debian",
@@ -9661,6 +10280,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "PackagePriority",
           "package": "cabal-debian",
@@ -9674,6 +10294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Section",
           "package": "cabal-debian",
@@ -9682,6 +10303,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Section",
           "package": "cabal-debian",
@@ -9695,6 +10317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "SourceFormat",
           "package": "cabal-debian",
@@ -9703,6 +10326,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "SourceFormat",
           "package": "cabal-debian",
@@ -9716,6 +10340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "StandardsVersion",
           "package": "cabal-debian",
@@ -9724,6 +10349,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "StandardsVersion",
           "package": "cabal-debian",
@@ -9738,6 +10364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe package is architecture independenct\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "All",
           "package": "cabal-debian",
@@ -9748,6 +10375,7 @@
         "index": {
           "description": "The package is architecture independenct",
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "All",
           "package": "cabal-debian",
@@ -9762,6 +10390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe package can be built for any architecture\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Any",
           "package": "cabal-debian",
@@ -9772,6 +10401,7 @@
         "index": {
           "description": "The package can be built for any architecture",
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Any",
           "package": "cabal-debian",
@@ -9785,6 +10415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "AreaSection",
           "package": "cabal-debian",
@@ -9794,6 +10425,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "AreaSection",
           "package": "cabal-debian",
@@ -9807,6 +10439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Contrib",
           "package": "cabal-debian",
@@ -9816,6 +10449,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Contrib",
           "package": "cabal-debian",
@@ -9829,6 +10463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Extra",
           "package": "cabal-debian",
@@ -9838,6 +10473,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Extra",
           "package": "cabal-debian",
@@ -9851,6 +10487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Important",
           "package": "cabal-debian",
@@ -9860,6 +10497,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Important",
           "package": "cabal-debian",
@@ -9873,6 +10511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Main",
           "package": "cabal-debian",
@@ -9882,6 +10521,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Main",
           "package": "cabal-debian",
@@ -9895,6 +10535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "MainSection",
           "package": "cabal-debian",
@@ -9904,6 +10545,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "MainSection",
           "package": "cabal-debian",
@@ -9918,6 +10560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of suitable architectures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Names",
           "package": "cabal-debian",
@@ -9928,6 +10571,7 @@
         "index": {
           "description": "The list of suitable architectures",
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Names",
           "normalized": "Names[String]",
@@ -9943,6 +10587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Native3",
           "package": "cabal-debian",
@@ -9952,6 +10597,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Native3",
           "package": "cabal-debian",
@@ -9965,6 +10611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "NonFree",
           "package": "cabal-debian",
@@ -9974,6 +10621,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "NonFree",
           "package": "cabal-debian",
@@ -9987,6 +10635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Optional",
           "package": "cabal-debian",
@@ -9996,6 +10645,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Optional",
           "package": "cabal-debian",
@@ -10009,6 +10659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Quilt3",
           "package": "cabal-debian",
@@ -10018,6 +10669,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Quilt3",
           "package": "cabal-debian",
@@ -10031,6 +10683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Required",
           "package": "cabal-debian",
@@ -10040,6 +10693,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Required",
           "package": "cabal-debian",
@@ -10053,6 +10707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "Standard",
           "package": "cabal-debian",
@@ -10062,6 +10717,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "Standard",
           "package": "cabal-debian",
@@ -10075,6 +10731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "StandardsVersion",
           "package": "cabal-debian",
@@ -10084,6 +10741,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "StandardsVersion",
           "package": "cabal-debian",
@@ -10097,6 +10755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "accessLogBaseName",
           "package": "cabal-debian",
@@ -10106,6 +10765,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "accessLogBaseName",
           "package": "cabal-debian",
@@ -10119,6 +10779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "apacheAccessLog",
           "package": "cabal-debian",
@@ -10128,6 +10789,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "apacheAccessLog",
           "normalized": "BinPkgName-\u003eString",
@@ -10143,6 +10805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "apacheErrorLog",
           "package": "cabal-debian",
@@ -10152,6 +10815,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "apacheErrorLog",
           "normalized": "BinPkgName-\u003eString",
@@ -10167,6 +10831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "apacheLogDirectory",
           "package": "cabal-debian",
@@ -10176,6 +10841,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "apacheLogDirectory",
           "normalized": "BinPkgName-\u003eString",
@@ -10191,6 +10857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "appLogBaseName",
           "package": "cabal-debian",
@@ -10200,6 +10867,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "appLogBaseName",
           "package": "cabal-debian",
@@ -10213,6 +10881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "databaseDirectory",
           "package": "cabal-debian",
@@ -10222,6 +10891,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "databaseDirectory",
           "normalized": "BinPkgName-\u003eString",
@@ -10237,6 +10907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "debianPackageVersion",
           "package": "cabal-debian",
@@ -10246,6 +10917,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "debianPackageVersion",
           "normalized": "String-\u003eIO(Maybe DebianVersion)",
@@ -10261,6 +10933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "errorLogBaseName",
           "package": "cabal-debian",
@@ -10270,6 +10943,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "errorLogBaseName",
           "package": "cabal-debian",
@@ -10284,6 +10958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe version number of the installed debhelper package is the\n highest acceptable value for compat in a debian/control file.  If\n the package doesn't explicitly set an (acceptable) compat value we\n can use the value returned by this function, assuming debhelper is\n installed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "getDebhelperCompatLevel",
           "package": "cabal-debian",
@@ -10294,6 +10969,7 @@
         "index": {
           "description": "The version number of the installed debhelper package is the highest acceptable value for compat in debian control file If the package doesn explicitly set an acceptable compat value we can use the value returned by this function assuming debhelper is installed",
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "getDebhelperCompatLevel",
           "package": "cabal-debian",
@@ -10307,6 +10983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "getDebianMaintainer",
           "package": "cabal-debian",
@@ -10316,6 +10993,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "getDebianMaintainer",
           "package": "cabal-debian",
@@ -10330,6 +11008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssumes debian-policy is installed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "getDebianStandardsVersion",
           "package": "cabal-debian",
@@ -10340,6 +11019,7 @@
         "index": {
           "description": "Assumes debian-policy is installed",
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "getDebianStandardsVersion",
           "package": "cabal-debian",
@@ -10353,6 +11033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "haskellMaintainer",
           "package": "cabal-debian",
@@ -10362,6 +11043,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "haskellMaintainer",
           "package": "cabal-debian",
@@ -10376,6 +11058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string containing a single NameAddr value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "parseMaintainer",
           "package": "cabal-debian",
@@ -10386,6 +11069,7 @@
         "index": {
           "description": "Parse string containing single NameAddr value",
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "parseMaintainer",
           "normalized": "String-\u003eEither String NameAddr",
@@ -10401,6 +11085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "parsePackageArchitectures",
           "package": "cabal-debian",
@@ -10410,6 +11095,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "parsePackageArchitectures",
           "normalized": "String-\u003ePackageArchitectures",
@@ -10425,6 +11111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "parseStandardsVersion",
           "package": "cabal-debian",
@@ -10434,6 +11121,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "parseStandardsVersion",
           "normalized": "String-\u003eStandardsVersion",
@@ -10450,6 +11138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn the uploaders field of a cabal package into a list of\n RFC2822 NameAddr values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "parseUploaders",
           "package": "cabal-debian",
@@ -10460,6 +11149,7 @@
         "index": {
           "description": "Turn the uploaders field of cabal package into list of RFC2822 NameAddr values",
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "parseUploaders",
           "normalized": "String-\u003eEither String[NameAddr]",
@@ -10475,6 +11165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "readPriority",
           "package": "cabal-debian",
@@ -10484,6 +11175,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "readPriority",
           "normalized": "String-\u003ePackagePriority",
@@ -10499,6 +11191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "readSection",
           "package": "cabal-debian",
@@ -10508,6 +11201,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "readSection",
           "normalized": "String-\u003eSection",
@@ -10523,6 +11217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "readSourceFormat",
           "package": "cabal-debian",
@@ -10532,6 +11227,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "readSourceFormat",
           "normalized": "Text-\u003eEither Text SourceFormat",
@@ -10547,6 +11243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "serverAccessLog",
           "package": "cabal-debian",
@@ -10556,6 +11253,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "serverAccessLog",
           "normalized": "BinPkgName-\u003eString",
@@ -10571,6 +11269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "serverAppLog",
           "package": "cabal-debian",
@@ -10580,6 +11279,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "serverAppLog",
           "normalized": "BinPkgName-\u003eString",
@@ -10595,6 +11295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Debian.Policy",
           "name": "serverLogDirectory",
           "package": "cabal-debian",
@@ -10604,6 +11305,7 @@
         },
         "index": {
           "hierarchy": "Debian Policy",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Debian.Policy",
           "name": "serverLogDirectory",
           "normalized": "BinPkgName-\u003eString",
@@ -10619,6 +11321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Distribution.Version.Invert",
           "name": "Invert",
           "package": "cabal-debian",
@@ -10627,6 +11330,7 @@
         },
         "index": {
           "hierarchy": "Distribution Version Invert",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Distribution.Version.Invert",
           "name": "Invert",
           "package": "cabal-debian",
@@ -10640,6 +11344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Distribution.Version.Invert",
           "name": "invertVersionIntervals",
           "package": "cabal-debian",
@@ -10649,6 +11354,7 @@
         },
         "index": {
           "hierarchy": "Distribution Version Invert",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Distribution.Version.Invert",
           "name": "invertVersionIntervals",
           "normalized": "[(LowerBound,UpperBound)]-\u003e[(LowerBound,UpperBound)]",
@@ -10665,6 +11371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function belongs in Cabal, see http:\u003cem/\u003ehackage.haskell.org\u003cem\u003etrac\u003c/em\u003ehackage\u003cem\u003eticket\u003c/em\u003e935.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:49 UTC 2014",
           "module": "Distribution.Version.Invert",
           "name": "invertVersionRange",
           "package": "cabal-debian",
@@ -10675,6 +11382,7 @@
         "index": {
           "description": "This function belongs in Cabal see http hackage.haskell.org trac hackage ticket",
           "hierarchy": "Distribution Version Invert",
+          "indexed": "2014-03-11T17:27:49",
           "module": "Distribution.Version.Invert",
           "name": "invertVersionRange",
           "normalized": "VersionRange-\u003eVersionRange",

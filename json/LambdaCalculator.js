@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "LambdaCalculator"
+        "phrase": "LambdaCalculator",
+        "type": "phrase"
       },
       "type": "context"
     }

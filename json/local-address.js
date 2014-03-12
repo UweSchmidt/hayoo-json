@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "local-address"
+        "phrase": "local-address",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package includes small functions to get local interface address.\n Following method is traditional technique to getSockName without sending packet.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:11:38 UTC 2014",
           "module": "Network.Socket.LocalAddress",
           "name": "LocalAddress",
           "package": "local-address",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This package includes small functions to get local interface address Following method is traditional technique to getSockName without sending packet",
           "hierarchy": "Network Socket LocalAddress",
+          "indexed": "2014-03-11T19:11:38",
           "module": "Network.Socket.LocalAddress",
           "name": "LocalAddress",
           "package": "local-address",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet IPv4 local address corresponding to remote IPv4 address \n     without sending any packet. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:38 UTC 2014",
           "module": "Network.Socket.LocalAddress",
           "name": "localAddress",
           "package": "local-address",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Get IPv4 local address corresponding to remote IPv4 address without sending any packet",
           "hierarchy": "Network Socket LocalAddress",
+          "indexed": "2014-03-11T19:11:38",
           "module": "Network.Socket.LocalAddress",
           "name": "localAddress",
           "normalized": "HostAddress-\u003eIO(Maybe HostAddress)",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet IPv4 local address string corresponding to \n     remote IPv4 address string without sending any packet. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:38 UTC 2014",
           "module": "Network.Socket.LocalAddress",
           "name": "localAddressString",
           "package": "local-address",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Get IPv4 local address string corresponding to remote IPv4 address string without sending any packet",
           "hierarchy": "Network Socket LocalAddress",
+          "indexed": "2014-03-11T19:11:38",
           "module": "Network.Socket.LocalAddress",
           "name": "localAddressString",
           "normalized": "String-\u003eIO(Maybe String)",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet local address corresponding to remote address \n     without sending any packet. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:38 UTC 2014",
           "module": "Network.Socket.LocalAddress",
           "name": "localSockAddr",
           "package": "local-address",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Get local address corresponding to remote address without sending any packet",
           "hierarchy": "Network Socket LocalAddress",
+          "indexed": "2014-03-11T19:11:38",
           "module": "Network.Socket.LocalAddress",
           "name": "localSockAddr",
           "normalized": "SockAddr-\u003eIO SockAddr",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet local address and datagram socket corresponding to remote address\n     without sending any packet. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:38 UTC 2014",
           "module": "Network.Socket.LocalAddress",
           "name": "localSockAddr'",
           "package": "local-address",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Get local address and datagram socket corresponding to remote address without sending any packet",
           "hierarchy": "Network Socket LocalAddress",
+          "indexed": "2014-03-11T19:11:38",
           "module": "Network.Socket.LocalAddress",
           "name": "localSockAddr'",
           "normalized": "SockAddr-\u003eIO(SockAddr,Socket)",

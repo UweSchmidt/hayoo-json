@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ref"
+        "phrase": "ref",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref.CAS",
           "name": "CAS",
           "package": "ref",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Ref CAS",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref.CAS",
           "name": "CAS",
           "package": "ref",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms a machine-level compare and swap operation on an\n \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e. Returns a tuple containing a \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e which is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when a\n swap is performed, along with the \u003ccode\u003ecurrent\u003c/code\u003e value from the \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote \"compare\" here means pointer equality in the sense of\n \u003ccode\u003e\u003ca\u003ereallyUnsafePtrEquality#\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref.CAS",
           "name": "casIORef",
           "package": "ref",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Performs machine-level compare and swap operation on an IORef Returns tuple containing Bool which is True when swap is performed along with the current value from the IORef Note compare here means pointer equality in the sense of reallyUnsafePtrEquality",
           "hierarchy": "Data Ref CAS",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref.CAS",
           "name": "casIORef",
           "normalized": "IORef a-\u003ea-\u003ea-\u003eIO(Bool,a)",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms a machine-level compare and swap operation on an\n \u003ccode\u003e\u003ca\u003eSTRef\u003c/a\u003e\u003c/code\u003e. Returns a tuple containing a \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e which is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when a\n swap is performed, along with the \u003ccode\u003ecurrent\u003c/code\u003e value from the \u003ccode\u003e\u003ca\u003eSTRef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote \"compare\" here means pointer equality in the sense of\n \u003ccode\u003e\u003ca\u003ereallyUnsafePtrEquality#\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref.CAS",
           "name": "casSTRef",
           "package": "ref",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Performs machine-level compare and swap operation on an STRef Returns tuple containing Bool which is True when swap is performed along with the current value from the STRef Note compare here means pointer equality in the sense of reallyUnsafePtrEquality",
           "hierarchy": "Data Ref CAS",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref.CAS",
           "name": "casSTRef",
           "normalized": "STRef a b-\u003eb-\u003eb-\u003eST a(Bool,b)",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref",
           "name": "Ref",
           "package": "ref",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref",
           "name": "Ref",
           "package": "ref",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref",
           "name": "Ref",
           "package": "ref",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref",
           "name": "Ref",
           "package": "ref",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref",
           "name": "modifyRef",
           "package": "ref",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref",
           "name": "modifyRef",
           "normalized": "a b-\u003e(b-\u003eb)-\u003eRefM a()",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref",
           "name": "modifyRef'",
           "package": "ref",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref",
           "name": "modifyRef'",
           "normalized": "a b-\u003e(b-\u003eb)-\u003eRefM a()",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref",
           "name": "newRef",
           "package": "ref",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref",
           "name": "newRef",
           "normalized": "a-\u003eRefM b(b a)",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref",
           "name": "newRef'",
           "package": "ref",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref",
           "name": "newRef'",
           "normalized": "a-\u003eRefM b(b a)",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref",
           "name": "readRef",
           "package": "ref",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref",
           "name": "readRef",
           "normalized": "a b-\u003eRefM a b",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref",
           "name": "readRef'",
           "package": "ref",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref",
           "name": "readRef'",
           "normalized": "a b-\u003eRefM a b",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref",
           "name": "writeRef",
           "package": "ref",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref",
           "name": "writeRef",
           "normalized": "a b-\u003eb-\u003eRefM a()",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:23 UTC 2014",
           "module": "Data.Ref",
           "name": "writeRef'",
           "package": "ref",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T19:50:23",
           "module": "Data.Ref",
           "name": "writeRef'",
           "normalized": "a b-\u003eb-\u003eRefM a()",

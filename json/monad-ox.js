@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-ox"
+        "phrase": "monad-ox",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePopular transformation functions for the \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e observation type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.String",
           "name": "String",
           "package": "monad-ox",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Popular transformation functions for the String observation type",
           "hierarchy": "Control Monad Ox String",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.String",
           "name": "String",
           "package": "monad-ox",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack the string, that is remove all adjacent repetitions,\n for example \u003cem\u003eaabcccdde -\u003e abcde\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.String",
           "name": "pack",
           "package": "monad-ox",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Pack the string that is remove all adjacent repetitions for example aabcccdde abcde",
           "hierarchy": "Control Monad Ox String",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.String",
           "name": "pack",
           "normalized": "String-\u003eString",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix of the given size or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the size exceeds the\n length of the string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.String",
           "name": "prefix",
           "package": "monad-ox",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Prefix of the given size or Nothing if the size exceeds the length of the string",
           "hierarchy": "Control Monad Ox String",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.String",
           "name": "prefix",
           "normalized": "Int-\u003eString-\u003eMaybe String",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShape of the string.  All lower-case characters are mapped to \u003ccode\u003el\u003c/code\u003e,\n upper-case characters to \u003ccode\u003eu\u003c/code\u003e, digits to \u003ccode\u003ed\u003c/code\u003e and rest of characters\n to \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.String",
           "name": "shape",
           "package": "monad-ox",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Shape of the string All lower-case characters are mapped to upper-case characters to digits to and rest of characters to",
           "hierarchy": "Control Monad Ox String",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.String",
           "name": "shape",
           "normalized": "String-\u003eString",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll substrings of the given size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.String",
           "name": "substr",
           "package": "monad-ox",
@@ -127,6 +136,7 @@
         "index": {
           "description": "All substrings of the given size",
           "hierarchy": "Control Monad Ox String",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.String",
           "name": "substr",
           "normalized": "Int-\u003eString-\u003e[String]",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuffix of the given size or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the size exceeds the\n length of the string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.String",
           "name": "suffix",
           "package": "monad-ox",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Suffix of the given size or Nothing if the size exceeds the length of the string",
           "hierarchy": "Control Monad Ox String",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.String",
           "name": "suffix",
           "normalized": "Int-\u003eString-\u003eMaybe String",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePopular transformation functions for the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e observation type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.Text.Lazy",
           "name": "Lazy",
           "package": "monad-ox",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Popular transformation functions for the Text observation type",
           "hierarchy": "Control Monad Ox Text Lazy",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.Text.Lazy",
           "name": "Lazy",
           "package": "monad-ox",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack the text, that is remove all adjacent repetitions,\n for example \u003cem\u003eaabcccdde -\u003e abcde\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.Text.Lazy",
           "name": "pack",
           "package": "monad-ox",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Pack the text that is remove all adjacent repetitions for example aabcccdde abcde",
           "hierarchy": "Control Monad Ox Text Lazy",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.Text.Lazy",
           "name": "pack",
           "normalized": "Text-\u003eText",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix of the given size or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the size exceeds the\n length of the text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.Text.Lazy",
           "name": "prefix",
           "package": "monad-ox",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Prefix of the given size or Nothing if the size exceeds the length of the text",
           "hierarchy": "Control Monad Ox Text Lazy",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.Text.Lazy",
           "name": "prefix",
           "normalized": "Int-\u003eText-\u003eMaybe Text",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShape of the text.  All lower-case characters are mapped to \u003ccode\u003el\u003c/code\u003e,\n upper-case characters to \u003ccode\u003eu\u003c/code\u003e, digits to \u003ccode\u003ed\u003c/code\u003e and rest of characters\n to \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.Text.Lazy",
           "name": "shape",
           "package": "monad-ox",
@@ -250,6 +269,7 @@
         "index": {
           "description": "Shape of the text All lower-case characters are mapped to upper-case characters to digits to and rest of characters to",
           "hierarchy": "Control Monad Ox Text Lazy",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.Text.Lazy",
           "name": "shape",
           "normalized": "Text-\u003eText",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll substrings of the given size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.Text.Lazy",
           "name": "substr",
           "package": "monad-ox",
@@ -275,6 +296,7 @@
         "index": {
           "description": "All substrings of the given size",
           "hierarchy": "Control Monad Ox Text Lazy",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.Text.Lazy",
           "name": "substr",
           "normalized": "Int-\u003eText-\u003e[Text]",
@@ -290,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuffix of the given size or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the size exceeds the\n length of the text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.Text.Lazy",
           "name": "suffix",
           "package": "monad-ox",
@@ -300,6 +323,7 @@
         "index": {
           "description": "Suffix of the given size or Nothing if the size exceeds the length of the text",
           "hierarchy": "Control Monad Ox Text Lazy",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.Text.Lazy",
           "name": "suffix",
           "normalized": "Int-\u003eText-\u003eMaybe Text",
@@ -315,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePopular transformation functions for the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e observation type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.Text",
           "name": "Text",
           "package": "monad-ox",
@@ -324,6 +349,7 @@
         "index": {
           "description": "Popular transformation functions for the Text observation type",
           "hierarchy": "Control Monad Ox Text",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.Text",
           "name": "Text",
           "package": "monad-ox",
@@ -338,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack the text, that is remove all adjacent repetitions,\n for example \u003cem\u003eaabcccdde -\u003e abcde\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.Text",
           "name": "pack",
           "package": "monad-ox",
@@ -348,6 +375,7 @@
         "index": {
           "description": "Pack the text that is remove all adjacent repetitions for example aabcccdde abcde",
           "hierarchy": "Control Monad Ox Text",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.Text",
           "name": "pack",
           "normalized": "Text-\u003eText",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix of the given size or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the size exceeds the\n length of the text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.Text",
           "name": "prefix",
           "package": "monad-ox",
@@ -373,6 +402,7 @@
         "index": {
           "description": "Prefix of the given size or Nothing if the size exceeds the length of the text",
           "hierarchy": "Control Monad Ox Text",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.Text",
           "name": "prefix",
           "normalized": "Int-\u003eText-\u003eMaybe Text",
@@ -388,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShape of the text.  All lower-case characters are mapped to \u003ccode\u003el\u003c/code\u003e,\n upper-case characters to \u003ccode\u003eu\u003c/code\u003e, digits to \u003ccode\u003ed\u003c/code\u003e and rest of characters\n to \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.Text",
           "name": "shape",
           "package": "monad-ox",
@@ -398,6 +429,7 @@
         "index": {
           "description": "Shape of the text All lower-case characters are mapped to upper-case characters to digits to and rest of characters to",
           "hierarchy": "Control Monad Ox Text",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.Text",
           "name": "shape",
           "normalized": "Text-\u003eText",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll substrings of the given size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.Text",
           "name": "substr",
           "package": "monad-ox",
@@ -423,6 +456,7 @@
         "index": {
           "description": "All substrings of the given size",
           "hierarchy": "Control Monad Ox Text",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.Text",
           "name": "substr",
           "normalized": "Int-\u003eText-\u003e[Text]",
@@ -438,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuffix of the given size or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the size exceeds the\n length of the text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox.Text",
           "name": "suffix",
           "package": "monad-ox",
@@ -448,6 +483,7 @@
         "index": {
           "description": "Suffix of the given size or Nothing if the size exceeds the length of the text",
           "hierarchy": "Control Monad Ox Text",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox.Text",
           "name": "suffix",
           "normalized": "Int-\u003eText-\u003eMaybe Text",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Ox monad facilitates writing functional expressions over the\n input sentence with arbitrary type of sentence token.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox",
           "name": "Ox",
           "package": "monad-ox",
@@ -472,6 +509,7 @@
         "index": {
           "description": "The Ox monad facilitates writing functional expressions over the input sentence with arbitrary type of sentence token",
           "hierarchy": "Control Monad Ox",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox",
           "name": "Ox",
           "package": "monad-ox",
@@ -486,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObservation type identifier.  It consists of a list of\n integers, each integer representing a state of the Ox\n monad on the particular level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox",
           "name": "Id",
           "package": "monad-ox",
@@ -495,6 +534,7 @@
         "index": {
           "description": "Observation type identifier It consists of list of integers each integer representing state of the Ox monad on the particular level",
           "hierarchy": "Control Monad Ox",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox",
           "name": "Id",
           "package": "monad-ox",
@@ -509,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Ox is a monad stack with observation type identifier handled by\n the state monad and the resulting observation values paired with identifiers\n printed using the writer monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox",
           "name": "Ox",
           "package": "monad-ox",
@@ -518,6 +559,7 @@
         "index": {
           "description": "The Ox is monad stack with observation type identifier handled by the state monad and the resulting observation values paired with identifiers printed using the writer monad",
           "hierarchy": "Control Monad Ox",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox",
           "name": "Ox",
           "package": "monad-ox",
@@ -532,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of the 't -\u003e a' function with respect to the given sentence\n and sentence position.  Return Nothing if the position is out of\n bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox",
           "name": "atWith",
           "package": "monad-ox",
@@ -542,6 +585,7 @@
         "index": {
           "description": "Value of the function with respect to the given sentence and sentence position Return Nothing if the position is out of bounds",
           "hierarchy": "Control Monad Ox",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox",
           "name": "atWith",
           "normalized": "Vector a-\u003e(a-\u003eb)-\u003eInt-\u003eMaybe b",
@@ -558,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of the 't -\u003e [a]' function with respect to the given sentence\n and sentence position.  Return empty list if the position is out of\n bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox",
           "name": "atsWith",
           "package": "monad-ox",
@@ -568,6 +613,7 @@
         "index": {
           "description": "Value of the function with respect to the given sentence and sentence position Return empty list if the position is out of bounds",
           "hierarchy": "Control Monad Ox",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox",
           "name": "atsWith",
           "normalized": "Vector a-\u003e(a-\u003e[b])-\u003eInt-\u003e[b]",
@@ -584,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the Ox monad and retrieve the saved (with the \u003ccode\u003e\u003ca\u003esave\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003esaves\u003c/a\u003e\u003c/code\u003e functions) results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox",
           "name": "execOx",
           "package": "monad-ox",
@@ -594,6 +641,7 @@
         "index": {
           "description": "Execute the Ox monad and retrieve the saved with the save and saves functions results",
           "hierarchy": "Control Monad Ox",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox",
           "name": "execOx",
           "normalized": "Ox a b-\u003e[(Id,a)]",
@@ -610,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake all embedded observations to be indistinguishable with respect\n to their top-most identifier components.\n TODO: Perhaps should set only the current level, not the deeper ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox",
           "name": "group",
           "package": "monad-ox",
@@ -620,6 +669,7 @@
         "index": {
           "description": "Make all embedded observations to be indistinguishable with respect to their top-most identifier components TODO Perhaps should set only the current level not the deeper ones",
           "hierarchy": "Control Monad Ox",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox",
           "name": "group",
           "normalized": "Ox a b-\u003eOx a b",
@@ -635,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave the observation value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox",
           "name": "save",
           "package": "monad-ox",
@@ -645,6 +696,7 @@
         "index": {
           "description": "Save the observation value",
           "hierarchy": "Control Monad Ox",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox",
           "name": "save",
           "normalized": "Maybe a-\u003eOx a()",
@@ -660,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave observation values in the writer monad of the Ox stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox",
           "name": "saves",
           "package": "monad-ox",
@@ -670,6 +723,7 @@
         "index": {
           "description": "Save observation values in the writer monad of the Ox stack",
           "hierarchy": "Control Monad Ox",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox",
           "name": "saves",
           "normalized": "[a]-\u003eOx a()",
@@ -685,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform the Ox action only when the \u003ccode\u003econd\u003c/code\u003e is True.  It works like\n the standard \u003ccode\u003e\u003ca\u003ewhen\u003c/a\u003e\u003c/code\u003e function but also changes the current\n identifier value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox",
           "name": "when",
           "package": "monad-ox",
@@ -695,6 +750,7 @@
         "index": {
           "description": "Perform the Ox action only when the cond is True It works like the standard when function but also changes the current identifier value",
           "hierarchy": "Control Monad Ox",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox",
           "name": "when",
           "normalized": "Bool-\u003eOx a b-\u003eOx a(Maybe b)",
@@ -710,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform the action only when the given condition is equal to Just True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:13 UTC 2014",
           "module": "Control.Monad.Ox",
           "name": "whenJT",
           "package": "monad-ox",
@@ -720,6 +777,7 @@
         "index": {
           "description": "Perform the action only when the given condition is equal to Just True",
           "hierarchy": "Control Monad Ox",
+          "indexed": "2014-03-11T19:20:13",
           "module": "Control.Monad.Ox",
           "name": "whenJT",
           "normalized": "Maybe Bool-\u003eOx a b-\u003eOx a(Maybe b)",

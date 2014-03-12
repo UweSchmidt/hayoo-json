@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "strict"
+        "phrase": "strict",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict \u003ccode\u003eEither\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSame as the standard Haskell \u003ccode\u003eEither\u003c/code\u003e, but \u003ccode\u003eLeft _|_ = Right _|_ = _|_\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Either",
           "name": "Either",
           "package": "strict",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Strict Either Same as the standard Haskell Either but Left Right",
           "hierarchy": "Data Strict Either",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Either",
           "name": "Either",
           "package": "strict",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strict choice type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Either",
           "name": "Either",
           "package": "strict",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The strict choice type",
           "hierarchy": "Data Strict Either",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Either",
           "name": "Either",
           "package": "strict",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Either",
           "name": "Left",
           "package": "strict",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Strict Either",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Either",
           "name": "Left",
           "package": "strict",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Either",
           "name": "Right",
           "package": "strict",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Strict Either",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Either",
           "name": "Right",
           "package": "strict",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase analysis: if the value is \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e, apply the first function to \u003ccode\u003ea\u003c/code\u003e;\n if it is \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e b\u003c/code\u003e, apply the second function to \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Either",
           "name": "either",
           "package": "strict",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Case analysis if the value is Left apply the first function to if it is Right apply the second function to",
           "hierarchy": "Data Strict Either",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Either",
           "name": "either",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eEither a c-\u003eb",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the element out of a \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e and throws an error if the argument\n is a \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Either",
           "name": "fromLeft",
           "package": "strict",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Extracts the element out of Left and throws an error if the argument is Right",
           "hierarchy": "Data Strict Either",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Either",
           "name": "fromLeft",
           "normalized": "Either a b-\u003ea",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the element out of a \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e and throws an error if the argument\n is a \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Either",
           "name": "fromRight",
           "package": "strict",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Extracts the element out of Right and throws an error if the argument is Left",
           "hierarchy": "Data Strict Either",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Either",
           "name": "fromRight",
           "normalized": "Either a b-\u003eb",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the argument is of the form \u003ccode\u003eLeft _\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Either",
           "name": "isLeft",
           "package": "strict",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Yields True iff the argument is of the form Left",
           "hierarchy": "Data Strict Either",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Either",
           "name": "isLeft",
           "normalized": "Either a b-\u003eBool",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the argument is of the form \u003ccode\u003eRight _\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Either",
           "name": "isRight",
           "package": "strict",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Yields True iff the argument is of the form Right",
           "hierarchy": "Data Strict Either",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Either",
           "name": "isRight",
           "normalized": "Either a b-\u003eBool",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict \u003ccode\u003eMaybe\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSame as the standard Haskell \u003ccode\u003eMaybe\u003c/code\u003e, but \u003ccode\u003eJust _|_ = _|_\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eNote that strict \u003ccode\u003eMaybe\u003c/code\u003e is not a monad since\n \u003ccode\u003e return _|_ \u003e\u003e= f = _|_ \u003c/code\u003e\n which is not necessarily the same as \u003ccode\u003ef _|_\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Maybe",
           "name": "Maybe",
           "package": "strict",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Strict Maybe Same as the standard Haskell Maybe but Just Note that strict Maybe is not monad since return which is not necessarily the same as",
           "hierarchy": "Data Strict Maybe",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Maybe",
           "name": "Maybe",
           "package": "strict",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of strict optional values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Maybe",
           "name": "Maybe",
           "package": "strict",
@@ -270,6 +291,7 @@
         "index": {
           "description": "The type of strict optional values",
           "hierarchy": "Data Strict Maybe",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Maybe",
           "name": "Maybe",
           "package": "strict",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Maybe",
           "name": "Just",
           "package": "strict",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Data Strict Maybe",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Maybe",
           "name": "Just",
           "package": "strict",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Maybe",
           "name": "Nothing",
           "package": "strict",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Data Strict Maybe",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Maybe",
           "name": "Nothing",
           "package": "strict",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the element out of a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e and throws an error if the argument\n is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Maybe",
           "name": "fromJust",
           "package": "strict",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Extracts the element out of Just and throws an error if the argument is Nothing",
           "hierarchy": "Data Strict Maybe",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Maybe",
           "name": "fromJust",
           "normalized": "Maybe a-\u003ea",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a default value and a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e, yield the default value if the\n \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e argument is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e and extract the value out of the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e\n otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Maybe",
           "name": "fromMaybe",
           "package": "strict",
@@ -364,6 +393,7 @@
         "index": {
           "description": "Given default value and Maybe yield the default value if the Maybe argument is Nothing and extract the value out of the Just otherwise",
           "hierarchy": "Data Strict Maybe",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Maybe",
           "name": "fromMaybe",
           "normalized": "a-\u003eMaybe a-\u003ea",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the argument is of the form \u003ccode\u003eJust _\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Maybe",
           "name": "isJust",
           "package": "strict",
@@ -390,6 +421,7 @@
         "index": {
           "description": "Yields True iff the argument is of the form Just",
           "hierarchy": "Data Strict Maybe",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Maybe",
           "name": "isJust",
           "normalized": "Maybe a-\u003eBool",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the argument is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Maybe",
           "name": "isNothing",
           "package": "strict",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Yields True iff the argument is Nothing",
           "hierarchy": "Data Strict Maybe",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Maybe",
           "name": "isNothing",
           "normalized": "Maybe a-\u003eBool",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a default value, a function and a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e value, yields the default\n value if the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e value is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e and applies the function to the\n value stored in the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Maybe",
           "name": "maybe",
           "package": "strict",
@@ -442,6 +477,7 @@
         "index": {
           "description": "Given default value function and Maybe value yields the default value if the Maybe value is Nothing and applies the function to the value stored in the Just otherwise",
           "hierarchy": "Data Strict Maybe",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Maybe",
           "name": "maybe",
           "normalized": "a-\u003e(b-\u003ea)-\u003eMaybe b-\u003ea",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict pairs.\n\u003c/p\u003e\u003cp\u003eSame as regular Haskell pairs, but \u003ccode\u003e(x :*: _|_) = (_|_ :*: y) = _|_\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Tuple",
           "name": "Tuple",
           "package": "strict",
@@ -466,6 +503,7 @@
         "index": {
           "description": "Strict pairs Same as regular Haskell pairs but",
           "hierarchy": "Data Strict Tuple",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Tuple",
           "name": "Tuple",
           "package": "strict",
@@ -479,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Tuple",
           "name": ":!:",
           "package": "strict",
@@ -487,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Data Strict Tuple",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Tuple",
           "name": ":!:",
           "package": "strict",
@@ -500,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of strict pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Tuple",
           "name": "Pair",
           "package": "strict",
@@ -509,6 +550,7 @@
         "index": {
           "description": "The type of strict pairs",
           "hierarchy": "Data Strict Tuple",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Tuple",
           "name": "Pair",
           "package": "strict",
@@ -522,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Tuple",
           "name": ":!:",
           "package": "strict",
@@ -531,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Data Strict Tuple",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Tuple",
           "name": ":!:",
           "package": "strict",
@@ -544,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurry a function on strict pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Tuple",
           "name": "curry",
           "package": "strict",
@@ -554,6 +599,7 @@
         "index": {
           "description": "Curry function on strict pairs",
           "hierarchy": "Data Strict Tuple",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Tuple",
           "name": "curry",
           "normalized": "(Pair a b-\u003ec)-\u003ea-\u003eb-\u003ec",
@@ -569,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the first component of a strict pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Tuple",
           "name": "fst",
           "package": "strict",
@@ -579,6 +626,7 @@
         "index": {
           "description": "Extract the first component of strict pair",
           "hierarchy": "Data Strict Tuple",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Tuple",
           "name": "fst",
           "normalized": "Pair a b-\u003ea",
@@ -594,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the second component of a strict pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Tuple",
           "name": "snd",
           "package": "strict",
@@ -604,6 +653,7 @@
         "index": {
           "description": "Extract the second component of strict pair",
           "hierarchy": "Data Strict Tuple",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Tuple",
           "name": "snd",
           "normalized": "Pair a b-\u003eb",
@@ -619,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a curried function to a function on strict pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict.Tuple",
           "name": "uncurry",
           "package": "strict",
@@ -629,6 +680,7 @@
         "index": {
           "description": "Convert curried function to function on strict pairs",
           "hierarchy": "Data Strict Tuple",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict.Tuple",
           "name": "uncurry",
           "normalized": "(a-\u003eb-\u003ec)-\u003ePair a b-\u003ec",
@@ -644,6 +696,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict versions of some standard Haskell types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "Data.Strict",
           "name": "Strict",
           "package": "strict",
@@ -653,6 +706,7 @@
         "index": {
           "description": "Strict versions of some standard Haskell types",
           "hierarchy": "Data Strict",
+          "indexed": "2014-03-11T20:12:11",
           "module": "Data.Strict",
           "name": "Strict",
           "package": "strict",
@@ -667,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe standard IO input functions using strict IO.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "System.IO.Strict",
           "name": "Strict",
           "package": "strict",
@@ -676,6 +731,7 @@
         "index": {
           "description": "The standard IO input functions using strict IO",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:11",
           "module": "System.IO.Strict",
           "name": "Strict",
           "package": "strict",
@@ -690,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e operation returns all user input as a single string,\n which is read stirctly (same as \u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e \u003ccode\u003estdin\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "System.IO.Strict",
           "name": "getContents",
           "package": "strict",
@@ -700,6 +757,7 @@
         "index": {
           "description": "The getContents operation returns all user input as single string which is read stirctly same as hGetContents stdin",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:11",
           "module": "System.IO.Strict",
           "name": "getContents",
           "package": "strict",
@@ -714,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e returns the list of characters\n corresponding to the unread portion of the channel or file managed\n by \u003ccode\u003ehdl\u003c/code\u003e, which is immediate closed.\n\u003c/p\u003e\u003cp\u003eItems are read strictly from the input Handle.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eisEOFError\u003c/code\u003e if the end of file has been reached.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hGetContents",
           "package": "strict",
@@ -724,6 +783,7 @@
         "index": {
           "description": "Computation hGetContents hdl returns the list of characters corresponding to the unread portion of the channel or file managed by hdl which is immediate closed Items are read strictly from the input Handle This operation may fail with isEOFError if the end of file has been reached",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:11",
           "module": "System.IO.Strict",
           "name": "hGetContents",
           "normalized": "Handle-\u003eIO String",
@@ -740,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003einteract\u003c/a\u003e\u003c/code\u003e function takes a function of type \u003ccode\u003eString-\u003eString\u003c/code\u003e\n as its argument.  The entire input from the standard input device is\n passed to this function as its argument, and the resulting string is\n output on the standard output device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "System.IO.Strict",
           "name": "interact",
           "package": "strict",
@@ -750,6 +811,7 @@
         "index": {
           "description": "The interact function takes function of type String String as its argument The entire input from the standard input device is passed to this function as its argument and the resulting string is output on the standard output device",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:11",
           "module": "System.IO.Strict",
           "name": "interact",
           "normalized": "(String-\u003eString)-\u003eIO()",
@@ -765,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e function reads a file and\n returns the contents of the file as a string.\n The file is read strictly, as with \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:11 UTC 2014",
           "module": "System.IO.Strict",
           "name": "readFile",
           "package": "strict",
@@ -775,6 +838,7 @@
         "index": {
           "description": "The readFile function reads file and returns the contents of the file as string The file is read strictly as with getContents",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:11",
           "module": "System.IO.Strict",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO String",

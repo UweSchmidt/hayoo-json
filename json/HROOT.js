@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HROOT"
+        "phrase": "HROOT",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.Deletable",
           "name": "Deletable",
           "package": "HROOT",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class Deletable",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.Deletable",
           "name": "Deletable",
           "package": "HROOT",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.Deletable",
           "name": "IDeletable",
           "package": "HROOT",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class Deletable",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.Deletable",
           "name": "IDeletable",
           "package": "HROOT",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.Deletable",
           "name": "delete",
           "package": "HROOT",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class Deletable",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.Deletable",
           "name": "delete",
           "normalized": "a-\u003eIO()",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TApplication",
           "name": "TApplication",
           "package": "HROOT",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TApplication",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TApplication",
           "name": "TApplication",
           "package": "HROOT",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TApplication",
           "name": "ITApplication",
           "package": "HROOT",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TApplication",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TApplication",
           "name": "ITApplication",
           "package": "HROOT",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TApplication",
           "name": "TApplication",
           "package": "HROOT",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TApplication",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TApplication",
           "name": "TApplication",
           "package": "HROOT",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TApplication",
           "name": "TApplication",
           "package": "HROOT",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TApplication",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TApplication",
           "name": "TApplication",
           "package": "HROOT",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TApplication",
           "name": "newTApplication",
           "package": "HROOT",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TApplication",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TApplication",
           "name": "newTApplication",
           "normalized": "String-\u003e[Int]-\u003e[String]-\u003eIO TApplication",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TApplication",
           "name": "run",
           "package": "HROOT",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TApplication",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TApplication",
           "name": "run",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TApplication",
           "name": "upcastTApplication",
           "package": "HROOT",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TApplication",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TApplication",
           "name": "upcastTApplication",
           "normalized": "a-\u003eTApplication",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArc",
           "name": "TArc",
           "package": "HROOT",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArc",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArc",
           "name": "TArc",
           "package": "HROOT",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArc",
           "name": "ITArc",
           "package": "HROOT",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArc",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArc",
           "name": "ITArc",
           "package": "HROOT",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArc",
           "name": "TArc",
           "package": "HROOT",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArc",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArc",
           "name": "TArc",
           "package": "HROOT",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArc",
           "name": "TArc",
           "package": "HROOT",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArc",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArc",
           "name": "TArc",
           "package": "HROOT",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArc",
           "name": "newTArc",
           "package": "HROOT",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArc",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArc",
           "name": "newTArc",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TArc",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArc",
           "name": "upcastTArc",
           "package": "HROOT",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArc",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArc",
           "name": "upcastTArc",
           "normalized": "a-\u003eTArc",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArray",
           "name": "TArray",
           "package": "HROOT",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArray",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArray",
           "name": "TArray",
           "package": "HROOT",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArray",
           "name": "ITArray",
           "package": "HROOT",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArray",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArray",
           "name": "ITArray",
           "package": "HROOT",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArray",
           "name": "TArray",
           "package": "HROOT",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArray",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArray",
           "name": "TArray",
           "package": "HROOT",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArray",
           "name": "TArray",
           "package": "HROOT",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArray",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArray",
           "name": "TArray",
           "package": "HROOT",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArray",
           "name": "upcastTArray",
           "package": "HROOT",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArray",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArray",
           "name": "upcastTArray",
           "normalized": "a-\u003eTArray",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayC",
           "name": "TArrayC",
           "package": "HROOT",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayC",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayC",
           "name": "TArrayC",
           "package": "HROOT",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayC",
           "name": "ITArrayC",
           "package": "HROOT",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayC",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayC",
           "name": "ITArrayC",
           "package": "HROOT",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayC",
           "name": "TArrayC",
           "package": "HROOT",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayC",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayC",
           "name": "TArrayC",
           "package": "HROOT",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayC",
           "name": "TArrayC",
           "package": "HROOT",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayC",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayC",
           "name": "TArrayC",
           "package": "HROOT",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayC",
           "name": "upcastTArrayC",
           "package": "HROOT",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayC",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayC",
           "name": "upcastTArrayC",
           "normalized": "a-\u003eTArrayC",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayD",
           "name": "TArrayD",
           "package": "HROOT",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayD",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayD",
           "name": "TArrayD",
           "package": "HROOT",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayD",
           "name": "ITArrayD",
           "package": "HROOT",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayD",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayD",
           "name": "ITArrayD",
           "package": "HROOT",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayD",
           "name": "TArrayD",
           "package": "HROOT",
@@ -640,6 +697,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayD",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayD",
           "name": "TArrayD",
           "package": "HROOT",
@@ -653,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayD",
           "name": "TArrayD",
           "package": "HROOT",
@@ -662,6 +721,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayD",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayD",
           "name": "TArrayD",
           "package": "HROOT",
@@ -675,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayD",
           "name": "upcastTArrayD",
           "package": "HROOT",
@@ -684,6 +745,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayD",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayD",
           "name": "upcastTArrayD",
           "normalized": "a-\u003eTArrayD",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayF",
           "name": "TArrayF",
           "package": "HROOT",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayF",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayF",
           "name": "TArrayF",
           "package": "HROOT",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayF",
           "name": "ITArrayF",
           "package": "HROOT",
@@ -728,6 +793,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayF",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayF",
           "name": "ITArrayF",
           "package": "HROOT",
@@ -741,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayF",
           "name": "TArrayF",
           "package": "HROOT",
@@ -749,6 +816,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayF",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayF",
           "name": "TArrayF",
           "package": "HROOT",
@@ -762,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayF",
           "name": "TArrayF",
           "package": "HROOT",
@@ -771,6 +840,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayF",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayF",
           "name": "TArrayF",
           "package": "HROOT",
@@ -784,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayF",
           "name": "upcastTArrayF",
           "package": "HROOT",
@@ -793,6 +864,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayF",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayF",
           "name": "upcastTArrayF",
           "normalized": "a-\u003eTArrayF",
@@ -808,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayI",
           "name": "TArrayI",
           "package": "HROOT",
@@ -816,6 +889,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayI",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayI",
           "name": "TArrayI",
           "package": "HROOT",
@@ -829,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayI",
           "name": "ITArrayI",
           "package": "HROOT",
@@ -837,6 +912,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayI",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayI",
           "name": "ITArrayI",
           "package": "HROOT",
@@ -850,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayI",
           "name": "TArrayI",
           "package": "HROOT",
@@ -858,6 +935,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayI",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayI",
           "name": "TArrayI",
           "package": "HROOT",
@@ -871,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayI",
           "name": "TArrayI",
           "package": "HROOT",
@@ -880,6 +959,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayI",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayI",
           "name": "TArrayI",
           "package": "HROOT",
@@ -893,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayI",
           "name": "upcastTArrayI",
           "package": "HROOT",
@@ -902,6 +983,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayI",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayI",
           "name": "upcastTArrayI",
           "normalized": "a-\u003eTArrayI",
@@ -917,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayL",
           "name": "TArrayL",
           "package": "HROOT",
@@ -925,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayL",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayL",
           "name": "TArrayL",
           "package": "HROOT",
@@ -938,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayL",
           "name": "ITArrayL",
           "package": "HROOT",
@@ -946,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayL",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayL",
           "name": "ITArrayL",
           "package": "HROOT",
@@ -959,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayL",
           "name": "TArrayL",
           "package": "HROOT",
@@ -967,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayL",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayL",
           "name": "TArrayL",
           "package": "HROOT",
@@ -980,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayL",
           "name": "TArrayL",
           "package": "HROOT",
@@ -989,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayL",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayL",
           "name": "TArrayL",
           "package": "HROOT",
@@ -1002,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayL",
           "name": "upcastTArrayL",
           "package": "HROOT",
@@ -1011,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayL",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayL",
           "name": "upcastTArrayL",
           "normalized": "a-\u003eTArrayL",
@@ -1026,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayL64",
           "name": "TArrayL64",
           "package": "HROOT",
@@ -1034,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayL64",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayL64",
           "name": "TArrayL64",
           "package": "HROOT",
@@ -1047,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayL64",
           "name": "ITArrayL64",
           "package": "HROOT",
@@ -1055,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayL64",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayL64",
           "name": "ITArrayL64",
           "package": "HROOT",
@@ -1068,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayL64",
           "name": "TArrayL64",
           "package": "HROOT",
@@ -1076,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayL64",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayL64",
           "name": "TArrayL64",
           "package": "HROOT",
@@ -1089,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayL64",
           "name": "TArrayL64",
           "package": "HROOT",
@@ -1098,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayL64",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayL64",
           "name": "TArrayL64",
           "package": "HROOT",
@@ -1111,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayL64",
           "name": "upcastTArrayL64",
           "package": "HROOT",
@@ -1120,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayL64",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayL64",
           "name": "upcastTArrayL64",
           "normalized": "a-\u003eTArrayL",
@@ -1135,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayS",
           "name": "TArrayS",
           "package": "HROOT",
@@ -1143,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayS",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayS",
           "name": "TArrayS",
           "package": "HROOT",
@@ -1156,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayS",
           "name": "ITArrayS",
           "package": "HROOT",
@@ -1164,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayS",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayS",
           "name": "ITArrayS",
           "package": "HROOT",
@@ -1177,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayS",
           "name": "TArrayS",
           "package": "HROOT",
@@ -1185,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayS",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayS",
           "name": "TArrayS",
           "package": "HROOT",
@@ -1198,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayS",
           "name": "TArrayS",
           "package": "HROOT",
@@ -1207,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayS",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayS",
           "name": "TArrayS",
           "package": "HROOT",
@@ -1220,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrayS",
           "name": "upcastTArrayS",
           "package": "HROOT",
@@ -1229,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrayS",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrayS",
           "name": "upcastTArrayS",
           "normalized": "a-\u003eTArrayS",
@@ -1244,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrow",
           "name": "TArrow",
           "package": "HROOT",
@@ -1252,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrow",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrow",
           "name": "TArrow",
           "package": "HROOT",
@@ -1265,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrow",
           "name": "ITArrow",
           "package": "HROOT",
@@ -1273,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrow",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrow",
           "name": "ITArrow",
           "package": "HROOT",
@@ -1286,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrow",
           "name": "TArrow",
           "package": "HROOT",
@@ -1294,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrow",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrow",
           "name": "TArrow",
           "package": "HROOT",
@@ -1307,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrow",
           "name": "TArrow",
           "package": "HROOT",
@@ -1316,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrow",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrow",
           "name": "TArrow",
           "package": "HROOT",
@@ -1329,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrow",
           "name": "newTArrow",
           "package": "HROOT",
@@ -1338,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrow",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrow",
           "name": "newTArrow",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eString-\u003eIO TArrow",
@@ -1353,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TArrow",
           "name": "upcastTArrow",
           "package": "HROOT",
@@ -1362,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TArrow",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TArrow",
           "name": "upcastTArrow",
           "normalized": "a-\u003eTArrow",
@@ -1377,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAtt3D",
           "name": "TAtt3D",
           "package": "HROOT",
@@ -1385,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAtt3D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAtt3D",
           "name": "TAtt3D",
           "package": "HROOT",
@@ -1398,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAtt3D",
           "name": "ITAtt3D",
           "package": "HROOT",
@@ -1406,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAtt3D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAtt3D",
           "name": "ITAtt3D",
           "package": "HROOT",
@@ -1419,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAtt3D",
           "name": "TAtt3D",
           "package": "HROOT",
@@ -1427,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAtt3D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAtt3D",
           "name": "TAtt3D",
           "package": "HROOT",
@@ -1440,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAtt3D",
           "name": "TAtt3D",
           "package": "HROOT",
@@ -1449,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAtt3D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAtt3D",
           "name": "TAtt3D",
           "package": "HROOT",
@@ -1462,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAtt3D",
           "name": "upcastTAtt3D",
           "package": "HROOT",
@@ -1471,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAtt3D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAtt3D",
           "name": "upcastTAtt3D",
           "normalized": "a-\u003eTAtt D",
@@ -1486,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "TAttAxis",
           "package": "HROOT",
@@ -1494,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "TAttAxis",
           "package": "HROOT",
@@ -1507,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "ITAttAxis",
           "package": "HROOT",
@@ -1515,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "ITAttAxis",
           "package": "HROOT",
@@ -1528,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "TAttAxis",
           "package": "HROOT",
@@ -1536,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "TAttAxis",
           "package": "HROOT",
@@ -1549,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "TAttAxis",
           "package": "HROOT",
@@ -1558,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "TAttAxis",
           "package": "HROOT",
@@ -1571,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "getAxisColor",
           "package": "HROOT",
@@ -1580,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "getAxisColor",
           "normalized": "a-\u003eIO Int",
@@ -1595,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "getLabelColor",
           "package": "HROOT",
@@ -1604,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "getLabelColor",
           "normalized": "a-\u003eIO Int",
@@ -1619,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "getLabelFont",
           "package": "HROOT",
@@ -1628,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "getLabelFont",
           "normalized": "a-\u003eIO Int",
@@ -1643,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "getLabelOffset",
           "package": "HROOT",
@@ -1652,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "getLabelOffset",
           "normalized": "a-\u003eIO Double",
@@ -1667,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "getLabelSize",
           "package": "HROOT",
@@ -1676,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "getLabelSize",
           "normalized": "a-\u003eIO Double",
@@ -1691,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "getNdivisions",
           "package": "HROOT",
@@ -1700,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "getNdivisions",
           "normalized": "a-\u003eIO Int",
@@ -1715,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "getTickLength",
           "package": "HROOT",
@@ -1724,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "getTickLength",
           "normalized": "a-\u003eIO Double",
@@ -1739,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "getTitleFont",
           "package": "HROOT",
@@ -1748,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "getTitleFont",
           "normalized": "a-\u003eIO Int",
@@ -1763,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "getTitleOffset",
           "package": "HROOT",
@@ -1772,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "getTitleOffset",
           "normalized": "a-\u003eIO Double",
@@ -1787,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "getTitleSize",
           "package": "HROOT",
@@ -1796,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "getTitleSize",
           "normalized": "a-\u003eIO Double",
@@ -1811,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "newTAttAxis",
           "package": "HROOT",
@@ -1820,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "newTAttAxis",
           "package": "HROOT",
@@ -1833,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "setAxisColor",
           "package": "HROOT",
@@ -1842,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "setAxisColor",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -1857,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "setLabelColor",
           "package": "HROOT",
@@ -1866,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "setLabelColor",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -1881,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "setLabelFont",
           "package": "HROOT",
@@ -1890,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "setLabelFont",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -1905,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "setLabelOffset",
           "package": "HROOT",
@@ -1914,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "setLabelOffset",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -1929,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "setLabelSize",
           "package": "HROOT",
@@ -1938,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "setLabelSize",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -1953,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "setNdivisions",
           "package": "HROOT",
@@ -1962,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "setNdivisions",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO()",
@@ -1977,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "setTickLength",
           "package": "HROOT",
@@ -1986,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "setTickLength",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -2001,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "setTitleColor",
           "package": "HROOT",
@@ -2010,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "setTitleColor",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -2025,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "setTitleFont",
           "package": "HROOT",
@@ -2034,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "setTitleFont",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -2049,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "setTitleOffset",
           "package": "HROOT",
@@ -2058,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "setTitleOffset",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -2073,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "setTitleSize",
           "package": "HROOT",
@@ -2082,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "setTitleSize",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -2097,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttAxis",
           "name": "upcastTAttAxis",
           "package": "HROOT",
@@ -2106,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttAxis",
           "name": "upcastTAttAxis",
           "normalized": "a-\u003eTAttAxis",
@@ -2121,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttBBox",
           "name": "TAttBBox",
           "package": "HROOT",
@@ -2129,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttBBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttBBox",
           "name": "TAttBBox",
           "package": "HROOT",
@@ -2142,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttBBox",
           "name": "ITAttBBox",
           "package": "HROOT",
@@ -2150,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttBBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttBBox",
           "name": "ITAttBBox",
           "package": "HROOT",
@@ -2163,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttBBox",
           "name": "TAttBBox",
           "package": "HROOT",
@@ -2171,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttBBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttBBox",
           "name": "TAttBBox",
           "package": "HROOT",
@@ -2184,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttBBox",
           "name": "TAttBBox",
           "package": "HROOT",
@@ -2193,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttBBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttBBox",
           "name": "TAttBBox",
           "package": "HROOT",
@@ -2206,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttBBox",
           "name": "upcastTAttBBox",
           "package": "HROOT",
@@ -2215,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttBBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttBBox",
           "name": "upcastTAttBBox",
           "normalized": "a-\u003eTAttBBox",
@@ -2230,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttCanvas",
           "name": "TAttCanvas",
           "package": "HROOT",
@@ -2238,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttCanvas",
           "name": "TAttCanvas",
           "package": "HROOT",
@@ -2251,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttCanvas",
           "name": "ITAttCanvas",
           "package": "HROOT",
@@ -2259,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttCanvas",
           "name": "ITAttCanvas",
           "package": "HROOT",
@@ -2272,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttCanvas",
           "name": "TAttCanvas",
           "package": "HROOT",
@@ -2280,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttCanvas",
           "name": "TAttCanvas",
           "package": "HROOT",
@@ -2293,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttCanvas",
           "name": "TAttCanvas",
           "package": "HROOT",
@@ -2302,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttCanvas",
           "name": "TAttCanvas",
           "package": "HROOT",
@@ -2315,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttCanvas",
           "name": "newTAttCanvas",
           "package": "HROOT",
@@ -2324,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttCanvas",
           "name": "newTAttCanvas",
           "package": "HROOT",
@@ -2337,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttCanvas",
           "name": "upcastTAttCanvas",
           "package": "HROOT",
@@ -2346,6 +2555,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttCanvas",
           "name": "upcastTAttCanvas",
           "normalized": "a-\u003eTAttCanvas",
@@ -2361,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttFill",
           "name": "TAttFill",
           "package": "HROOT",
@@ -2369,6 +2580,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttFill",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttFill",
           "name": "TAttFill",
           "package": "HROOT",
@@ -2382,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttFill",
           "name": "ITAttFill",
           "package": "HROOT",
@@ -2390,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttFill",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttFill",
           "name": "ITAttFill",
           "package": "HROOT",
@@ -2403,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttFill",
           "name": "TAttFill",
           "package": "HROOT",
@@ -2411,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttFill",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttFill",
           "name": "TAttFill",
           "package": "HROOT",
@@ -2424,6 +2640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttFill",
           "name": "TAttFill",
           "package": "HROOT",
@@ -2433,6 +2650,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttFill",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttFill",
           "name": "TAttFill",
           "package": "HROOT",
@@ -2446,6 +2664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttFill",
           "name": "newTAttFill",
           "package": "HROOT",
@@ -2455,6 +2674,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttFill",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttFill",
           "name": "newTAttFill",
           "normalized": "Int-\u003eInt-\u003eIO TAttFill",
@@ -2470,6 +2690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttFill",
           "name": "setFillColor",
           "package": "HROOT",
@@ -2479,6 +2700,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttFill",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttFill",
           "name": "setFillColor",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -2494,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttFill",
           "name": "setFillStyle",
           "package": "HROOT",
@@ -2503,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttFill",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttFill",
           "name": "setFillStyle",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -2518,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttFill",
           "name": "upcastTAttFill",
           "package": "HROOT",
@@ -2527,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttFill",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttFill",
           "name": "upcastTAttFill",
           "normalized": "a-\u003eTAttFill",
@@ -2542,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttImage",
           "name": "TAttImage",
           "package": "HROOT",
@@ -2550,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttImage",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttImage",
           "name": "TAttImage",
           "package": "HROOT",
@@ -2563,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttImage",
           "name": "ITAttImage",
           "package": "HROOT",
@@ -2571,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttImage",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttImage",
           "name": "ITAttImage",
           "package": "HROOT",
@@ -2584,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttImage",
           "name": "TAttImage",
           "package": "HROOT",
@@ -2592,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttImage",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttImage",
           "name": "TAttImage",
           "package": "HROOT",
@@ -2605,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttImage",
           "name": "TAttImage",
           "package": "HROOT",
@@ -2614,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttImage",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttImage",
           "name": "TAttImage",
           "package": "HROOT",
@@ -2627,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttImage",
           "name": "upcastTAttImage",
           "package": "HROOT",
@@ -2636,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttImage",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttImage",
           "name": "upcastTAttImage",
           "normalized": "a-\u003eTAttImage",
@@ -2651,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "TAttLine",
           "package": "HROOT",
@@ -2659,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "TAttLine",
           "package": "HROOT",
@@ -2672,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "ITAttLine",
           "package": "HROOT",
@@ -2680,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "ITAttLine",
           "package": "HROOT",
@@ -2693,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "TAttLine",
           "package": "HROOT",
@@ -2701,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "TAttLine",
           "package": "HROOT",
@@ -2714,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "TAttLine",
           "package": "HROOT",
@@ -2723,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "TAttLine",
           "package": "HROOT",
@@ -2736,6 +2980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "getLineColor",
           "package": "HROOT",
@@ -2745,6 +2990,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "getLineColor",
           "normalized": "a-\u003eIO Int",
@@ -2760,6 +3006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "getLineStyle",
           "package": "HROOT",
@@ -2769,6 +3016,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "getLineStyle",
           "normalized": "a-\u003eIO Int",
@@ -2784,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "getLineWidth",
           "package": "HROOT",
@@ -2793,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "getLineWidth",
           "normalized": "a-\u003eIO Int",
@@ -2808,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "newTAttLine",
           "package": "HROOT",
@@ -2817,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "newTAttLine",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eIO TAttLine",
@@ -2832,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "resetAttLine",
           "package": "HROOT",
@@ -2841,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "resetAttLine",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -2856,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "setLineAttributes",
           "package": "HROOT",
@@ -2865,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "setLineAttributes",
           "normalized": "a-\u003eIO()",
@@ -2880,6 +3136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "setLineColor",
           "package": "HROOT",
@@ -2889,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "setLineColor",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -2904,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "setLineStyle",
           "package": "HROOT",
@@ -2913,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "setLineStyle",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -2928,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "setLineWidth",
           "package": "HROOT",
@@ -2937,6 +3198,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "setLineWidth",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -2952,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "tAttLineDistancetoLine",
           "package": "HROOT",
@@ -2961,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "tAttLineDistancetoLine",
           "normalized": "TAttLine-\u003eInt-\u003eInt-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO Int",
@@ -2976,6 +3240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttLine",
           "name": "upcastTAttLine",
           "package": "HROOT",
@@ -2985,6 +3250,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttLine",
           "name": "upcastTAttLine",
           "normalized": "a-\u003eTAttLine",
@@ -3000,6 +3266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "TAttMarker",
           "package": "HROOT",
@@ -3008,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "TAttMarker",
           "package": "HROOT",
@@ -3021,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "ITAttMarker",
           "package": "HROOT",
@@ -3029,6 +3298,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "ITAttMarker",
           "package": "HROOT",
@@ -3042,6 +3312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "TAttMarker",
           "package": "HROOT",
@@ -3050,6 +3321,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "TAttMarker",
           "package": "HROOT",
@@ -3063,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "TAttMarker",
           "package": "HROOT",
@@ -3072,6 +3345,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "TAttMarker",
           "package": "HROOT",
@@ -3085,6 +3359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "getMarkerColor",
           "package": "HROOT",
@@ -3094,6 +3369,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "getMarkerColor",
           "normalized": "a-\u003eIO Int",
@@ -3109,6 +3385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "getMarkerSize",
           "package": "HROOT",
@@ -3118,6 +3395,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "getMarkerSize",
           "normalized": "a-\u003eIO Double",
@@ -3133,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "getMarkerStyle",
           "package": "HROOT",
@@ -3142,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "getMarkerStyle",
           "normalized": "a-\u003eIO Int",
@@ -3157,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "newTAttMarker",
           "package": "HROOT",
@@ -3166,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "newTAttMarker",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eIO TAttMarker",
@@ -3181,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "resetAttMarker",
           "package": "HROOT",
@@ -3190,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "resetAttMarker",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -3205,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "setMarkerAttributes",
           "package": "HROOT",
@@ -3214,6 +3499,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "setMarkerAttributes",
           "normalized": "a-\u003eIO()",
@@ -3229,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "setMarkerColor",
           "package": "HROOT",
@@ -3238,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "setMarkerColor",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -3253,6 +3541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "setMarkerSize",
           "package": "HROOT",
@@ -3262,6 +3551,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "setMarkerSize",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -3277,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "setMarkerStyle",
           "package": "HROOT",
@@ -3286,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "setMarkerStyle",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -3301,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttMarker",
           "name": "upcastTAttMarker",
           "package": "HROOT",
@@ -3310,6 +3603,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttMarker",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttMarker",
           "name": "upcastTAttMarker",
           "normalized": "a-\u003eTAttMarker",
@@ -3325,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "TAttPad",
           "package": "HROOT",
@@ -3333,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "TAttPad",
           "package": "HROOT",
@@ -3346,6 +3642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "ITAttPad",
           "package": "HROOT",
@@ -3354,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "ITAttPad",
           "package": "HROOT",
@@ -3367,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "TAttPad",
           "package": "HROOT",
@@ -3375,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "TAttPad",
           "package": "HROOT",
@@ -3388,6 +3688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "TAttPad",
           "package": "HROOT",
@@ -3397,6 +3698,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "TAttPad",
           "package": "HROOT",
@@ -3410,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "newTAttPad",
           "package": "HROOT",
@@ -3419,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "newTAttPad",
           "package": "HROOT",
@@ -3432,6 +3736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "resetAttPad",
           "package": "HROOT",
@@ -3441,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "resetAttPad",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -3456,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "setAfile",
           "package": "HROOT",
@@ -3465,6 +3772,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "setAfile",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -3480,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "setAstat",
           "package": "HROOT",
@@ -3489,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "setAstat",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -3504,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "setBottomMargin",
           "package": "HROOT",
@@ -3513,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "setBottomMargin",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -3528,6 +3840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "setLeftMargin",
           "package": "HROOT",
@@ -3537,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "setLeftMargin",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -3552,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "setMargin",
           "package": "HROOT",
@@ -3561,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "setMargin",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -3576,6 +3892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "setRightMargin",
           "package": "HROOT",
@@ -3585,6 +3902,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "setRightMargin",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -3600,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "setTopMargin",
           "package": "HROOT",
@@ -3609,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "setTopMargin",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -3624,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "setXfile",
           "package": "HROOT",
@@ -3633,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "setXfile",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -3648,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "setXstat",
           "package": "HROOT",
@@ -3657,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "setXstat",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -3672,6 +3996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "setYfile",
           "package": "HROOT",
@@ -3681,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "setYfile",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -3696,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "setYstat",
           "package": "HROOT",
@@ -3705,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "setYstat",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -3720,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetAfile",
           "package": "HROOT",
@@ -3729,6 +4058,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetAfile",
           "normalized": "TAttPad-\u003eIO Double",
@@ -3744,6 +4074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetAstat",
           "package": "HROOT",
@@ -3753,6 +4084,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetAstat",
           "normalized": "TAttPad-\u003eIO Double",
@@ -3768,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetBottomMargin",
           "package": "HROOT",
@@ -3777,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetBottomMargin",
           "normalized": "TAttPad-\u003eIO Double",
@@ -3792,6 +4126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameBorderMode",
           "package": "HROOT",
@@ -3801,6 +4136,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameBorderMode",
           "normalized": "TAttPad-\u003eIO Int",
@@ -3816,6 +4152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameBorderSize",
           "package": "HROOT",
@@ -3825,6 +4162,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameBorderSize",
           "normalized": "TAttPad-\u003eIO Int",
@@ -3840,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameFillColor",
           "package": "HROOT",
@@ -3849,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameFillColor",
           "normalized": "TAttPad-\u003eIO Int",
@@ -3864,6 +4204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameFillStyle",
           "package": "HROOT",
@@ -3873,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameFillStyle",
           "normalized": "TAttPad-\u003eIO Int",
@@ -3888,6 +4230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameLineColor",
           "package": "HROOT",
@@ -3897,6 +4240,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameLineColor",
           "normalized": "TAttPad-\u003eIO Int",
@@ -3912,6 +4256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameLineStyle",
           "package": "HROOT",
@@ -3921,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameLineStyle",
           "normalized": "TAttPad-\u003eIO Int",
@@ -3936,6 +4282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameLineWidth",
           "package": "HROOT",
@@ -3945,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetFrameLineWidth",
           "normalized": "TAttPad-\u003eIO Int",
@@ -3960,6 +4308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetLeftMargin",
           "package": "HROOT",
@@ -3969,6 +4318,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetLeftMargin",
           "normalized": "TAttPad-\u003eIO Double",
@@ -3984,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetRightMargin",
           "package": "HROOT",
@@ -3993,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetRightMargin",
           "normalized": "TAttPad-\u003eIO Double",
@@ -4008,6 +4360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetTopMargin",
           "package": "HROOT",
@@ -4017,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetTopMargin",
           "normalized": "TAttPad-\u003eIO Double",
@@ -4032,6 +4386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetXfile",
           "package": "HROOT",
@@ -4041,6 +4396,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetXfile",
           "normalized": "TAttPad-\u003eIO Double",
@@ -4056,6 +4412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetXstat",
           "package": "HROOT",
@@ -4065,6 +4422,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetXstat",
           "normalized": "TAttPad-\u003eIO Double",
@@ -4080,6 +4438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetYfile",
           "package": "HROOT",
@@ -4089,6 +4448,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetYfile",
           "normalized": "TAttPad-\u003eIO Double",
@@ -4104,6 +4464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetYstat",
           "package": "HROOT",
@@ -4113,6 +4474,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadGetYstat",
           "normalized": "TAttPad-\u003eIO Double",
@@ -4128,6 +4490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameBorderMode",
           "package": "HROOT",
@@ -4137,6 +4500,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameBorderMode",
           "normalized": "TAttPad-\u003eInt-\u003eIO()",
@@ -4152,6 +4516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameBorderSize",
           "package": "HROOT",
@@ -4161,6 +4526,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameBorderSize",
           "normalized": "TAttPad-\u003eInt-\u003eIO()",
@@ -4176,6 +4542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameFillColor",
           "package": "HROOT",
@@ -4185,6 +4552,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameFillColor",
           "normalized": "TAttPad-\u003eInt-\u003eIO()",
@@ -4200,6 +4568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameFillStyle",
           "package": "HROOT",
@@ -4209,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameFillStyle",
           "normalized": "TAttPad-\u003eInt-\u003eIO()",
@@ -4224,6 +4594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameLineColor",
           "package": "HROOT",
@@ -4233,6 +4604,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameLineColor",
           "normalized": "TAttPad-\u003eInt-\u003eIO()",
@@ -4248,6 +4620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameLineStyle",
           "package": "HROOT",
@@ -4257,6 +4630,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameLineStyle",
           "normalized": "TAttPad-\u003eInt-\u003eIO()",
@@ -4272,6 +4646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameLineWidth",
           "package": "HROOT",
@@ -4281,6 +4656,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "tAttPadSetFrameLineWidth",
           "normalized": "TAttPad-\u003eInt-\u003eIO()",
@@ -4296,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttPad",
           "name": "upcastTAttPad",
           "package": "HROOT",
@@ -4305,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttPad",
           "name": "upcastTAttPad",
           "normalized": "a-\u003eTAttPad",
@@ -4320,6 +4698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttParticle",
           "name": "TAttParticle",
           "package": "HROOT",
@@ -4328,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttParticle",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttParticle",
           "name": "TAttParticle",
           "package": "HROOT",
@@ -4341,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttParticle",
           "name": "ITAttParticle",
           "package": "HROOT",
@@ -4349,6 +4730,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttParticle",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttParticle",
           "name": "ITAttParticle",
           "package": "HROOT",
@@ -4362,6 +4744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttParticle",
           "name": "TAttParticle",
           "package": "HROOT",
@@ -4370,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttParticle",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttParticle",
           "name": "TAttParticle",
           "package": "HROOT",
@@ -4383,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttParticle",
           "name": "TAttParticle",
           "package": "HROOT",
@@ -4392,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttParticle",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttParticle",
           "name": "TAttParticle",
           "package": "HROOT",
@@ -4405,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttParticle",
           "name": "upcastTAttParticle",
           "package": "HROOT",
@@ -4414,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttParticle",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttParticle",
           "name": "upcastTAttParticle",
           "normalized": "a-\u003eTAttParticle",
@@ -4429,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "TAttText",
           "package": "HROOT",
@@ -4437,6 +4826,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "TAttText",
           "package": "HROOT",
@@ -4450,6 +4840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "ITAttText",
           "package": "HROOT",
@@ -4458,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "ITAttText",
           "package": "HROOT",
@@ -4471,6 +4863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "TAttText",
           "package": "HROOT",
@@ -4479,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "TAttText",
           "package": "HROOT",
@@ -4492,6 +4886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "TAttText",
           "package": "HROOT",
@@ -4501,6 +4896,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "TAttText",
           "package": "HROOT",
@@ -4514,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "getTextAlign",
           "package": "HROOT",
@@ -4523,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "getTextAlign",
           "normalized": "a-\u003eIO Int",
@@ -4538,6 +4936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "getTextAngle",
           "package": "HROOT",
@@ -4547,6 +4946,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "getTextAngle",
           "normalized": "a-\u003eIO Double",
@@ -4562,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "getTextColor",
           "package": "HROOT",
@@ -4571,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "getTextColor",
           "normalized": "a-\u003eIO Int",
@@ -4586,6 +4988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "getTextFont",
           "package": "HROOT",
@@ -4595,6 +4998,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "getTextFont",
           "normalized": "a-\u003eIO Int",
@@ -4610,6 +5014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "getTextSize",
           "package": "HROOT",
@@ -4619,6 +5024,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "getTextSize",
           "normalized": "a-\u003eIO Double",
@@ -4634,6 +5040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "newTAttText",
           "package": "HROOT",
@@ -4643,6 +5050,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "newTAttText",
           "normalized": "Int-\u003eDouble-\u003eInt-\u003eInt-\u003eDouble-\u003eIO TAttText",
@@ -4658,6 +5066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "resetAttText",
           "package": "HROOT",
@@ -4667,6 +5076,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "resetAttText",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -4682,6 +5092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "setTextAlign",
           "package": "HROOT",
@@ -4691,6 +5102,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "setTextAlign",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -4706,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "setTextAngle",
           "package": "HROOT",
@@ -4715,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "setTextAngle",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -4730,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "setTextAttributes",
           "package": "HROOT",
@@ -4739,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "setTextAttributes",
           "normalized": "a-\u003eIO()",
@@ -4754,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "setTextColor",
           "package": "HROOT",
@@ -4763,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "setTextColor",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -4778,6 +5196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "setTextFont",
           "package": "HROOT",
@@ -4787,6 +5206,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "setTextFont",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -4802,6 +5222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "setTextSize",
           "package": "HROOT",
@@ -4811,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "setTextSize",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -4826,6 +5248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "setTextSizePixels",
           "package": "HROOT",
@@ -4835,6 +5258,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "setTextSizePixels",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -4850,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAttText",
           "name": "upcastTAttText",
           "package": "HROOT",
@@ -4859,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAttText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAttText",
           "name": "upcastTAttText",
           "normalized": "a-\u003eTAttText",
@@ -4874,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "TAxis",
           "package": "HROOT",
@@ -4882,6 +5309,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "TAxis",
           "package": "HROOT",
@@ -4895,6 +5323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "ITAxis",
           "package": "HROOT",
@@ -4903,6 +5332,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "ITAxis",
           "package": "HROOT",
@@ -4916,6 +5346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "TAxis",
           "package": "HROOT",
@@ -4924,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "TAxis",
           "package": "HROOT",
@@ -4937,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "TAxis",
           "package": "HROOT",
@@ -4946,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "TAxis",
           "package": "HROOT",
@@ -4959,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "findBinTAxis",
           "package": "HROOT",
@@ -4968,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "findBinTAxis",
           "normalized": "a-\u003eDouble-\u003eIO Int",
@@ -4983,6 +5419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "findFixBinTAxis",
           "package": "HROOT",
@@ -4992,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "findFixBinTAxis",
           "normalized": "a-\u003eDouble-\u003eIO Int",
@@ -5007,6 +5445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "getBinCenterLog",
           "package": "HROOT",
@@ -5016,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "getBinCenterLog",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -5031,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "getBinCenterTAxis",
           "package": "HROOT",
@@ -5040,6 +5481,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "getBinCenterTAxis",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -5055,6 +5497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "getBinUpEdge",
           "package": "HROOT",
@@ -5064,6 +5507,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "getBinUpEdge",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -5079,6 +5523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "newTAxis",
           "package": "HROOT",
@@ -5088,6 +5533,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "newTAxis",
           "normalized": "Int-\u003eDouble-\u003eDouble-\u003eIO TAxis",
@@ -5103,6 +5549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "setTimeDisplay",
           "package": "HROOT",
@@ -5112,6 +5559,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "setTimeDisplay",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -5127,6 +5575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "setTimeFormat",
           "package": "HROOT",
@@ -5136,6 +5585,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "setTimeFormat",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -5151,6 +5601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "setTimeOffset",
           "package": "HROOT",
@@ -5160,6 +5611,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "setTimeOffset",
           "normalized": "a-\u003eDouble-\u003eString-\u003eIO()",
@@ -5175,6 +5627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "tAxisGetCenterLabels",
           "package": "HROOT",
@@ -5184,6 +5637,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "tAxisGetCenterLabels",
           "normalized": "TAxis-\u003eIO Int",
@@ -5199,6 +5653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "tAxisGetCenterTitle",
           "package": "HROOT",
@@ -5208,6 +5663,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "tAxisGetCenterTitle",
           "normalized": "TAxis-\u003eIO Int",
@@ -5223,6 +5679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TAxis",
           "name": "upcastTAxis",
           "package": "HROOT",
@@ -5232,6 +5689,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TAxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TAxis",
           "name": "upcastTAxis",
           "normalized": "a-\u003eTAxis",
@@ -5247,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBRIK",
           "name": "TBRIK",
           "package": "HROOT",
@@ -5255,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBRIK",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBRIK",
           "name": "TBRIK",
           "package": "HROOT",
@@ -5268,6 +5728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBRIK",
           "name": "ITBRIK",
           "package": "HROOT",
@@ -5276,6 +5737,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBRIK",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBRIK",
           "name": "ITBRIK",
           "package": "HROOT",
@@ -5289,6 +5751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBRIK",
           "name": "TBRIK",
           "package": "HROOT",
@@ -5297,6 +5760,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBRIK",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBRIK",
           "name": "TBRIK",
           "package": "HROOT",
@@ -5310,6 +5774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBRIK",
           "name": "TBRIK",
           "package": "HROOT",
@@ -5319,6 +5784,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBRIK",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBRIK",
           "name": "TBRIK",
           "package": "HROOT",
@@ -5332,6 +5798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBRIK",
           "name": "newTBRIK",
           "package": "HROOT",
@@ -5341,6 +5808,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBRIK",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBRIK",
           "name": "newTBRIK",
           "normalized": "String-\u003eString-\u003eString-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TBRIK",
@@ -5356,6 +5824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBRIK",
           "name": "upcastTBRIK",
           "package": "HROOT",
@@ -5365,6 +5834,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBRIK",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBRIK",
           "name": "upcastTBRIK",
           "normalized": "a-\u003eTBRIK",
@@ -5380,6 +5850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBox",
           "name": "TBox",
           "package": "HROOT",
@@ -5388,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBox",
           "name": "TBox",
           "package": "HROOT",
@@ -5401,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBox",
           "name": "ITBox",
           "package": "HROOT",
@@ -5409,6 +5882,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBox",
           "name": "ITBox",
           "package": "HROOT",
@@ -5422,6 +5896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBox",
           "name": "TBox",
           "package": "HROOT",
@@ -5430,6 +5905,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBox",
           "name": "TBox",
           "package": "HROOT",
@@ -5443,6 +5919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBox",
           "name": "TBox",
           "package": "HROOT",
@@ -5452,6 +5929,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBox",
           "name": "TBox",
           "package": "HROOT",
@@ -5465,6 +5943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBox",
           "name": "newTBox",
           "package": "HROOT",
@@ -5474,6 +5953,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBox",
           "name": "newTBox",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TBox",
@@ -5489,6 +5969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBox",
           "name": "upcastTBox",
           "package": "HROOT",
@@ -5498,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBox",
           "name": "upcastTBox",
           "normalized": "a-\u003eTBox",
@@ -5513,6 +5995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBranch",
           "name": "TBranch",
           "package": "HROOT",
@@ -5521,6 +6004,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBranch",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBranch",
           "name": "TBranch",
           "package": "HROOT",
@@ -5534,6 +6018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBranch",
           "name": "ITBranch",
           "package": "HROOT",
@@ -5542,6 +6027,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBranch",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBranch",
           "name": "ITBranch",
           "package": "HROOT",
@@ -5555,6 +6041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBranch",
           "name": "TBranch",
           "package": "HROOT",
@@ -5563,6 +6050,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBranch",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBranch",
           "name": "TBranch",
           "package": "HROOT",
@@ -5576,6 +6064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBranch",
           "name": "TBranch",
           "package": "HROOT",
@@ -5585,6 +6074,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBranch",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBranch",
           "name": "TBranch",
           "package": "HROOT",
@@ -5598,6 +6088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TBranch",
           "name": "upcastTBranch",
           "package": "HROOT",
@@ -5607,6 +6098,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TBranch",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TBranch",
           "name": "upcastTBranch",
           "normalized": "a-\u003eTBranch",
@@ -5622,6 +6114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TButton",
           "name": "TButton",
           "package": "HROOT",
@@ -5630,6 +6123,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TButton",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TButton",
           "name": "TButton",
           "package": "HROOT",
@@ -5643,6 +6137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TButton",
           "name": "ITButton",
           "package": "HROOT",
@@ -5651,6 +6146,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TButton",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TButton",
           "name": "ITButton",
           "package": "HROOT",
@@ -5664,6 +6160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TButton",
           "name": "TButton",
           "package": "HROOT",
@@ -5672,6 +6169,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TButton",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TButton",
           "name": "TButton",
           "package": "HROOT",
@@ -5685,6 +6183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TButton",
           "name": "TButton",
           "package": "HROOT",
@@ -5694,6 +6193,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TButton",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TButton",
           "name": "TButton",
           "package": "HROOT",
@@ -5707,6 +6207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TButton",
           "name": "upcastTButton",
           "package": "HROOT",
@@ -5716,6 +6217,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TButton",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TButton",
           "name": "upcastTButton",
           "normalized": "a-\u003eTButton",
@@ -5731,6 +6233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCanvas",
           "name": "TCanvas",
           "package": "HROOT",
@@ -5739,6 +6242,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCanvas",
           "name": "TCanvas",
           "package": "HROOT",
@@ -5752,6 +6256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCanvas",
           "name": "ITCanvas",
           "package": "HROOT",
@@ -5760,6 +6265,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCanvas",
           "name": "ITCanvas",
           "package": "HROOT",
@@ -5773,6 +6279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCanvas",
           "name": "TCanvas",
           "package": "HROOT",
@@ -5781,6 +6288,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCanvas",
           "name": "TCanvas",
           "package": "HROOT",
@@ -5794,6 +6302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCanvas",
           "name": "TCanvas",
           "package": "HROOT",
@@ -5803,6 +6312,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCanvas",
           "name": "TCanvas",
           "package": "HROOT",
@@ -5816,6 +6326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCanvas",
           "name": "newTCanvas",
           "package": "HROOT",
@@ -5825,6 +6336,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCanvas",
           "name": "newTCanvas",
           "normalized": "String-\u003eString-\u003eInt-\u003eInt-\u003eIO TCanvas",
@@ -5840,6 +6352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCanvas",
           "name": "upcastTCanvas",
           "package": "HROOT",
@@ -5849,6 +6362,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCanvas",
           "name": "upcastTCanvas",
           "normalized": "a-\u003eTCanvas",
@@ -5864,6 +6378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TChain",
           "name": "TChain",
           "package": "HROOT",
@@ -5872,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TChain",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TChain",
           "name": "TChain",
           "package": "HROOT",
@@ -5885,6 +6401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TChain",
           "name": "ITChain",
           "package": "HROOT",
@@ -5893,6 +6410,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TChain",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TChain",
           "name": "ITChain",
           "package": "HROOT",
@@ -5906,6 +6424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TChain",
           "name": "TChain",
           "package": "HROOT",
@@ -5914,6 +6433,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TChain",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TChain",
           "name": "TChain",
           "package": "HROOT",
@@ -5927,6 +6447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TChain",
           "name": "TChain",
           "package": "HROOT",
@@ -5936,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TChain",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TChain",
           "name": "TChain",
           "package": "HROOT",
@@ -5949,6 +6471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TChain",
           "name": "newTChain",
           "package": "HROOT",
@@ -5958,6 +6481,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TChain",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TChain",
           "name": "newTChain",
           "normalized": "String-\u003eString-\u003eIO TChain",
@@ -5973,6 +6497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TChain",
           "name": "upcastTChain",
           "package": "HROOT",
@@ -5982,6 +6507,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TChain",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TChain",
           "name": "upcastTChain",
           "normalized": "a-\u003eTChain",
@@ -5997,6 +6523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TClass",
           "name": "TClass",
           "package": "HROOT",
@@ -6005,6 +6532,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TClass",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TClass",
           "name": "TClass",
           "package": "HROOT",
@@ -6018,6 +6546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TClass",
           "name": "ITClass",
           "package": "HROOT",
@@ -6026,6 +6555,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TClass",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TClass",
           "name": "ITClass",
           "package": "HROOT",
@@ -6039,6 +6569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TClass",
           "name": "TClass",
           "package": "HROOT",
@@ -6047,6 +6578,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TClass",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TClass",
           "name": "TClass",
           "package": "HROOT",
@@ -6060,6 +6592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TClass",
           "name": "TClass",
           "package": "HROOT",
@@ -6069,6 +6602,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TClass",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TClass",
           "name": "TClass",
           "package": "HROOT",
@@ -6082,6 +6616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TClass",
           "name": "upcastTClass",
           "package": "HROOT",
@@ -6091,6 +6626,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TClass",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TClass",
           "name": "upcastTClass",
           "normalized": "a-\u003eTClass",
@@ -6106,6 +6642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCollection",
           "name": "TCollection",
           "package": "HROOT",
@@ -6114,6 +6651,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCollection",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCollection",
           "name": "TCollection",
           "package": "HROOT",
@@ -6127,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCollection",
           "name": "ITCollection",
           "package": "HROOT",
@@ -6135,6 +6674,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCollection",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCollection",
           "name": "ITCollection",
           "package": "HROOT",
@@ -6148,6 +6688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCollection",
           "name": "TCollection",
           "package": "HROOT",
@@ -6156,6 +6697,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCollection",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCollection",
           "name": "TCollection",
           "package": "HROOT",
@@ -6169,6 +6711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCollection",
           "name": "TCollection",
           "package": "HROOT",
@@ -6178,6 +6721,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCollection",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCollection",
           "name": "TCollection",
           "package": "HROOT",
@@ -6191,6 +6735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCollection",
           "name": "upcastTCollection",
           "package": "HROOT",
@@ -6200,6 +6745,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCollection",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCollection",
           "name": "upcastTCollection",
           "normalized": "a-\u003eTCollection",
@@ -6215,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCrown",
           "name": "TCrown",
           "package": "HROOT",
@@ -6223,6 +6770,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCrown",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCrown",
           "name": "TCrown",
           "package": "HROOT",
@@ -6236,6 +6784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCrown",
           "name": "ITCrown",
           "package": "HROOT",
@@ -6244,6 +6793,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCrown",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCrown",
           "name": "ITCrown",
           "package": "HROOT",
@@ -6257,6 +6807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCrown",
           "name": "TCrown",
           "package": "HROOT",
@@ -6265,6 +6816,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCrown",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCrown",
           "name": "TCrown",
           "package": "HROOT",
@@ -6278,6 +6830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCrown",
           "name": "TCrown",
           "package": "HROOT",
@@ -6287,6 +6840,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCrown",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCrown",
           "name": "TCrown",
           "package": "HROOT",
@@ -6300,6 +6854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCrown",
           "name": "newTCrown",
           "package": "HROOT",
@@ -6309,6 +6864,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCrown",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCrown",
           "name": "newTCrown",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TCrown",
@@ -6324,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCrown",
           "name": "upcastTCrown",
           "package": "HROOT",
@@ -6333,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCrown",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCrown",
           "name": "upcastTCrown",
           "normalized": "a-\u003eTCrown",
@@ -6348,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCurlyArc",
           "name": "TCurlyArc",
           "package": "HROOT",
@@ -6356,6 +6915,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCurlyArc",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCurlyArc",
           "name": "TCurlyArc",
           "package": "HROOT",
@@ -6369,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCurlyArc",
           "name": "ITCurlyArc",
           "package": "HROOT",
@@ -6377,6 +6938,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCurlyArc",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCurlyArc",
           "name": "ITCurlyArc",
           "package": "HROOT",
@@ -6390,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCurlyArc",
           "name": "TCurlyArc",
           "package": "HROOT",
@@ -6398,6 +6961,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCurlyArc",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCurlyArc",
           "name": "TCurlyArc",
           "package": "HROOT",
@@ -6411,6 +6975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCurlyArc",
           "name": "TCurlyArc",
           "package": "HROOT",
@@ -6420,6 +6985,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCurlyArc",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCurlyArc",
           "name": "TCurlyArc",
           "package": "HROOT",
@@ -6433,6 +6999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCurlyArc",
           "name": "newTCurlyArc",
           "package": "HROOT",
@@ -6442,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCurlyArc",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCurlyArc",
           "name": "newTCurlyArc",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TCurlyArc",
@@ -6457,6 +7025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCurlyArc",
           "name": "upcastTCurlyArc",
           "package": "HROOT",
@@ -6466,6 +7035,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCurlyArc",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCurlyArc",
           "name": "upcastTCurlyArc",
           "normalized": "a-\u003eTCurlyArc",
@@ -6481,6 +7051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCurlyLine",
           "name": "TCurlyLine",
           "package": "HROOT",
@@ -6489,6 +7060,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCurlyLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCurlyLine",
           "name": "TCurlyLine",
           "package": "HROOT",
@@ -6502,6 +7074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCurlyLine",
           "name": "ITCurlyLine",
           "package": "HROOT",
@@ -6510,6 +7083,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCurlyLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCurlyLine",
           "name": "ITCurlyLine",
           "package": "HROOT",
@@ -6523,6 +7097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCurlyLine",
           "name": "TCurlyLine",
           "package": "HROOT",
@@ -6531,6 +7106,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCurlyLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCurlyLine",
           "name": "TCurlyLine",
           "package": "HROOT",
@@ -6544,6 +7120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCurlyLine",
           "name": "TCurlyLine",
           "package": "HROOT",
@@ -6553,6 +7130,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCurlyLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCurlyLine",
           "name": "TCurlyLine",
           "package": "HROOT",
@@ -6566,6 +7144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCurlyLine",
           "name": "newTCurlyLine",
           "package": "HROOT",
@@ -6575,6 +7154,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCurlyLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCurlyLine",
           "name": "newTCurlyLine",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TCurlyLine",
@@ -6590,6 +7170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCurlyLine",
           "name": "upcastTCurlyLine",
           "package": "HROOT",
@@ -6599,6 +7180,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCurlyLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCurlyLine",
           "name": "upcastTCurlyLine",
           "normalized": "a-\u003eTCurlyLine",
@@ -6614,6 +7196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCutG",
           "name": "TCutG",
           "package": "HROOT",
@@ -6622,6 +7205,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCutG",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCutG",
           "name": "TCutG",
           "package": "HROOT",
@@ -6635,6 +7219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCutG",
           "name": "ITCutG",
           "package": "HROOT",
@@ -6643,6 +7228,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCutG",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCutG",
           "name": "ITCutG",
           "package": "HROOT",
@@ -6656,6 +7242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCutG",
           "name": "TCutG",
           "package": "HROOT",
@@ -6664,6 +7251,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCutG",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCutG",
           "name": "TCutG",
           "package": "HROOT",
@@ -6677,6 +7265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCutG",
           "name": "TCutG",
           "package": "HROOT",
@@ -6686,6 +7275,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCutG",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCutG",
           "name": "TCutG",
           "package": "HROOT",
@@ -6699,6 +7289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCutG",
           "name": "newTCutG",
           "package": "HROOT",
@@ -6708,6 +7299,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCutG",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCutG",
           "name": "newTCutG",
           "normalized": "String-\u003eInt-\u003e[Double]-\u003e[Double]-\u003eIO TCutG",
@@ -6723,6 +7315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TCutG",
           "name": "upcastTCutG",
           "package": "HROOT",
@@ -6732,6 +7325,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TCutG",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TCutG",
           "name": "upcastTCutG",
           "normalized": "a-\u003eTCutG",
@@ -6747,6 +7341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "TDatime",
           "package": "HROOT",
@@ -6755,6 +7350,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "TDatime",
           "package": "HROOT",
@@ -6768,6 +7364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "ITDatime",
           "package": "HROOT",
@@ -6776,6 +7373,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "ITDatime",
           "package": "HROOT",
@@ -6789,6 +7387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "TDatime",
           "package": "HROOT",
@@ -6797,6 +7396,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "TDatime",
           "package": "HROOT",
@@ -6810,6 +7410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "TDatime",
           "package": "HROOT",
@@ -6819,6 +7420,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "TDatime",
           "package": "HROOT",
@@ -6832,6 +7434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "convert",
           "package": "HROOT",
@@ -6841,6 +7444,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "convert",
           "normalized": "a-\u003eInt-\u003eIO Word",
@@ -6855,6 +7459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "newTDatime",
           "package": "HROOT",
@@ -6864,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "newTDatime",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eIO TDatime",
@@ -6879,6 +7485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "setTDatime",
           "package": "HROOT",
@@ -6888,6 +7495,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "setTDatime",
           "normalized": "a-\u003eWord-\u003eIO()",
@@ -6903,6 +7511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "tDatimeGetDay",
           "package": "HROOT",
@@ -6912,6 +7521,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "tDatimeGetDay",
           "normalized": "TDatime-\u003eIO Int",
@@ -6927,6 +7537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "tDatimeGetHour",
           "package": "HROOT",
@@ -6936,6 +7547,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "tDatimeGetHour",
           "normalized": "TDatime-\u003eIO Int",
@@ -6951,6 +7563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "tDatimeGetMinute",
           "package": "HROOT",
@@ -6960,6 +7573,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "tDatimeGetMinute",
           "normalized": "TDatime-\u003eIO Int",
@@ -6975,6 +7589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "tDatimeGetMonth",
           "package": "HROOT",
@@ -6984,6 +7599,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "tDatimeGetMonth",
           "normalized": "TDatime-\u003eIO Int",
@@ -6999,6 +7615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "tDatimeGetSecond",
           "package": "HROOT",
@@ -7008,6 +7625,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "tDatimeGetSecond",
           "normalized": "TDatime-\u003eIO Int",
@@ -7023,6 +7641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "tDatimeGetYear",
           "package": "HROOT",
@@ -7032,6 +7651,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "tDatimeGetYear",
           "normalized": "TDatime-\u003eIO Int",
@@ -7047,6 +7667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDatime",
           "name": "upcastTDatime",
           "package": "HROOT",
@@ -7056,6 +7677,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDatime",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDatime",
           "name": "upcastTDatime",
           "normalized": "a-\u003eTDatime",
@@ -7071,6 +7693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDialogCanvas",
           "name": "TDialogCanvas",
           "package": "HROOT",
@@ -7079,6 +7702,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDialogCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDialogCanvas",
           "name": "TDialogCanvas",
           "package": "HROOT",
@@ -7092,6 +7716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDialogCanvas",
           "name": "ITDialogCanvas",
           "package": "HROOT",
@@ -7100,6 +7725,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDialogCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDialogCanvas",
           "name": "ITDialogCanvas",
           "package": "HROOT",
@@ -7113,6 +7739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDialogCanvas",
           "name": "TDialogCanvas",
           "package": "HROOT",
@@ -7121,6 +7748,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDialogCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDialogCanvas",
           "name": "TDialogCanvas",
           "package": "HROOT",
@@ -7134,6 +7762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDialogCanvas",
           "name": "TDialogCanvas",
           "package": "HROOT",
@@ -7143,6 +7772,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDialogCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDialogCanvas",
           "name": "TDialogCanvas",
           "package": "HROOT",
@@ -7156,6 +7786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDialogCanvas",
           "name": "upcastTDialogCanvas",
           "package": "HROOT",
@@ -7165,6 +7796,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDialogCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDialogCanvas",
           "name": "upcastTDialogCanvas",
           "normalized": "a-\u003eTDialogCanvas",
@@ -7180,6 +7812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDiamond",
           "name": "TDiamond",
           "package": "HROOT",
@@ -7188,6 +7821,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDiamond",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDiamond",
           "name": "TDiamond",
           "package": "HROOT",
@@ -7201,6 +7835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDiamond",
           "name": "ITDiamond",
           "package": "HROOT",
@@ -7209,6 +7844,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDiamond",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDiamond",
           "name": "ITDiamond",
           "package": "HROOT",
@@ -7222,6 +7858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDiamond",
           "name": "TDiamond",
           "package": "HROOT",
@@ -7230,6 +7867,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDiamond",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDiamond",
           "name": "TDiamond",
           "package": "HROOT",
@@ -7243,6 +7881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDiamond",
           "name": "TDiamond",
           "package": "HROOT",
@@ -7252,6 +7891,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDiamond",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDiamond",
           "name": "TDiamond",
           "package": "HROOT",
@@ -7265,6 +7905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDiamond",
           "name": "newTDiamond",
           "package": "HROOT",
@@ -7274,6 +7915,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDiamond",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDiamond",
           "name": "newTDiamond",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TDiamond",
@@ -7289,6 +7931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDiamond",
           "name": "upcastTDiamond",
           "package": "HROOT",
@@ -7298,6 +7941,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDiamond",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDiamond",
           "name": "upcastTDiamond",
           "normalized": "a-\u003eTDiamond",
@@ -7313,6 +7957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDictionary",
           "name": "TDictionary",
           "package": "HROOT",
@@ -7321,6 +7966,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDictionary",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDictionary",
           "name": "TDictionary",
           "package": "HROOT",
@@ -7334,6 +7980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDictionary",
           "name": "ITDictionary",
           "package": "HROOT",
@@ -7342,6 +7989,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDictionary",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDictionary",
           "name": "ITDictionary",
           "package": "HROOT",
@@ -7355,6 +8003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectory",
           "name": "TDirectory",
           "package": "HROOT",
@@ -7363,6 +8012,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectory",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectory",
           "name": "TDirectory",
           "package": "HROOT",
@@ -7376,6 +8026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectory",
           "name": "ITDirectory",
           "package": "HROOT",
@@ -7384,6 +8035,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectory",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectory",
           "name": "ITDirectory",
           "package": "HROOT",
@@ -7397,6 +8049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectory",
           "name": "TDirectory",
           "package": "HROOT",
@@ -7405,6 +8058,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectory",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectory",
           "name": "TDirectory",
           "package": "HROOT",
@@ -7418,6 +8072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectory",
           "name": "TDirectory",
           "package": "HROOT",
@@ -7427,6 +8082,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectory",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectory",
           "name": "TDirectory",
           "package": "HROOT",
@@ -7440,6 +8096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectory",
           "name": "addD",
           "package": "HROOT",
@@ -7449,6 +8106,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectory",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectory",
           "name": "addD",
           "normalized": "a-\u003eb-\u003eInt-\u003eIO()",
@@ -7463,6 +8121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectory",
           "name": "append",
           "package": "HROOT",
@@ -7472,6 +8131,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectory",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectory",
           "name": "append",
           "normalized": "a-\u003eb-\u003eInt-\u003eIO()",
@@ -7486,6 +8146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectory",
           "name": "appendKey",
           "package": "HROOT",
@@ -7495,6 +8156,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectory",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectory",
           "name": "appendKey",
           "normalized": "a-\u003eb-\u003eIO Int",
@@ -7510,6 +8172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectory",
           "name": "close",
           "package": "HROOT",
@@ -7519,6 +8182,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectory",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectory",
           "name": "close",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -7533,6 +8197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectory",
           "name": "get",
           "package": "HROOT",
@@ -7542,6 +8207,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectory",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectory",
           "name": "get",
           "normalized": "a-\u003eString-\u003eIO TObject",
@@ -7556,6 +8222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectory",
           "name": "upcastTDirectory",
           "package": "HROOT",
@@ -7565,6 +8232,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectory",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectory",
           "name": "upcastTDirectory",
           "normalized": "a-\u003eTDirectory",
@@ -7580,6 +8248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectoryFile",
           "name": "TDirectoryFile",
           "package": "HROOT",
@@ -7588,6 +8257,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectoryFile",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectoryFile",
           "name": "TDirectoryFile",
           "package": "HROOT",
@@ -7601,6 +8271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectoryFile",
           "name": "ITDirectoryFile",
           "package": "HROOT",
@@ -7609,6 +8280,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectoryFile",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectoryFile",
           "name": "ITDirectoryFile",
           "package": "HROOT",
@@ -7622,6 +8294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectoryFile",
           "name": "TDirectoryFile",
           "package": "HROOT",
@@ -7630,6 +8303,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectoryFile",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectoryFile",
           "name": "TDirectoryFile",
           "package": "HROOT",
@@ -7643,6 +8317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectoryFile",
           "name": "TDirectoryFile",
           "package": "HROOT",
@@ -7652,6 +8327,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectoryFile",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectoryFile",
           "name": "TDirectoryFile",
           "package": "HROOT",
@@ -7665,6 +8341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectoryFile",
           "name": "getListOfKeys",
           "package": "HROOT",
@@ -7674,6 +8351,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectoryFile",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectoryFile",
           "name": "getListOfKeys",
           "normalized": "a-\u003eIO TList",
@@ -7689,6 +8367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TDirectoryFile",
           "name": "upcastTDirectoryFile",
           "package": "HROOT",
@@ -7698,6 +8377,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TDirectoryFile",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TDirectoryFile",
           "name": "upcastTDirectoryFile",
           "normalized": "a-\u003eTDirectoryFile",
@@ -7713,6 +8393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEfficiency",
           "name": "TEfficiency",
           "package": "HROOT",
@@ -7721,6 +8402,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEfficiency",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEfficiency",
           "name": "TEfficiency",
           "package": "HROOT",
@@ -7734,6 +8416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEfficiency",
           "name": "ITEfficiency",
           "package": "HROOT",
@@ -7742,6 +8425,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEfficiency",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEfficiency",
           "name": "ITEfficiency",
           "package": "HROOT",
@@ -7755,6 +8439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEfficiency",
           "name": "TEfficiency",
           "package": "HROOT",
@@ -7763,6 +8448,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEfficiency",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEfficiency",
           "name": "TEfficiency",
           "package": "HROOT",
@@ -7776,6 +8462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEfficiency",
           "name": "TEfficiency",
           "package": "HROOT",
@@ -7785,6 +8472,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEfficiency",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEfficiency",
           "name": "TEfficiency",
           "package": "HROOT",
@@ -7798,6 +8486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEfficiency",
           "name": "upcastTEfficiency",
           "package": "HROOT",
@@ -7807,6 +8496,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEfficiency",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEfficiency",
           "name": "upcastTEfficiency",
           "normalized": "a-\u003eTEfficiency",
@@ -7822,6 +8512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEllipse",
           "name": "TEllipse",
           "package": "HROOT",
@@ -7830,6 +8521,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEllipse",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEllipse",
           "name": "TEllipse",
           "package": "HROOT",
@@ -7843,6 +8535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEllipse",
           "name": "ITEllipse",
           "package": "HROOT",
@@ -7851,6 +8544,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEllipse",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEllipse",
           "name": "ITEllipse",
           "package": "HROOT",
@@ -7864,6 +8558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEllipse",
           "name": "TEllipse",
           "package": "HROOT",
@@ -7872,6 +8567,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEllipse",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEllipse",
           "name": "TEllipse",
           "package": "HROOT",
@@ -7885,6 +8581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEllipse",
           "name": "TEllipse",
           "package": "HROOT",
@@ -7894,6 +8591,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEllipse",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEllipse",
           "name": "TEllipse",
           "package": "HROOT",
@@ -7907,6 +8605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEllipse",
           "name": "newTEllipse",
           "package": "HROOT",
@@ -7916,6 +8615,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEllipse",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEllipse",
           "name": "newTEllipse",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TEllipse",
@@ -7931,6 +8631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEllipse",
           "name": "upcastTEllipse",
           "package": "HROOT",
@@ -7940,6 +8641,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEllipse",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEllipse",
           "name": "upcastTEllipse",
           "normalized": "a-\u003eTEllipse",
@@ -7955,6 +8657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEvePad",
           "name": "TEvePad",
           "package": "HROOT",
@@ -7963,6 +8666,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEvePad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEvePad",
           "name": "TEvePad",
           "package": "HROOT",
@@ -7976,6 +8680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEvePad",
           "name": "ITEvePad",
           "package": "HROOT",
@@ -7984,6 +8689,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEvePad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEvePad",
           "name": "ITEvePad",
           "package": "HROOT",
@@ -7997,6 +8703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEvePad",
           "name": "TEvePad",
           "package": "HROOT",
@@ -8005,6 +8712,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEvePad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEvePad",
           "name": "TEvePad",
           "package": "HROOT",
@@ -8018,6 +8726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEvePad",
           "name": "TEvePad",
           "package": "HROOT",
@@ -8027,6 +8736,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEvePad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEvePad",
           "name": "TEvePad",
           "package": "HROOT",
@@ -8040,6 +8750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TEvePad",
           "name": "upcastTEvePad",
           "package": "HROOT",
@@ -8049,6 +8760,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TEvePad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TEvePad",
           "name": "upcastTEvePad",
           "normalized": "a-\u003eTEvePad",
@@ -8064,6 +8776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "TF1",
           "package": "HROOT",
@@ -8072,6 +8785,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "TF1",
           "package": "HROOT",
@@ -8085,6 +8799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "ITF1",
           "package": "HROOT",
@@ -8093,6 +8808,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "ITF1",
           "package": "HROOT",
@@ -8106,6 +8822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "TF1",
           "package": "HROOT",
@@ -8114,6 +8831,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "TF1",
           "package": "HROOT",
@@ -8127,6 +8845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "TF1",
           "package": "HROOT",
@@ -8136,6 +8855,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "TF1",
           "package": "HROOT",
@@ -8149,6 +8869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "centralMoment",
           "package": "HROOT",
@@ -8158,6 +8879,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "centralMoment",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003e[Double]-\u003eDouble-\u003eIO Double",
@@ -8173,6 +8895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "derivative",
           "package": "HROOT",
@@ -8182,6 +8905,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "derivative",
           "normalized": "a-\u003eDouble-\u003e[Double]-\u003eDouble-\u003eIO Double",
@@ -8196,6 +8920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "derivative2",
           "package": "HROOT",
@@ -8205,6 +8930,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "derivative2",
           "normalized": "a-\u003eDouble-\u003e[Double]-\u003eDouble-\u003eIO Double",
@@ -8219,6 +8945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "derivative3",
           "package": "HROOT",
@@ -8228,6 +8955,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "derivative3",
           "normalized": "a-\u003eDouble-\u003e[Double]-\u003eDouble-\u003eIO Double",
@@ -8242,6 +8970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "drawCopyTF1",
           "package": "HROOT",
@@ -8251,6 +8980,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "drawCopyTF1",
           "normalized": "a-\u003eString-\u003eIO a",
@@ -8266,6 +8996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "drawDerivative",
           "package": "HROOT",
@@ -8275,6 +9006,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "drawDerivative",
           "normalized": "a-\u003eString-\u003eIO TObject",
@@ -8290,6 +9022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "drawF1",
           "package": "HROOT",
@@ -8299,6 +9032,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "drawF1",
           "normalized": "a-\u003eString-\u003eDouble-\u003eDouble-\u003eString-\u003eIO()",
@@ -8313,6 +9047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "drawIntegral",
           "package": "HROOT",
@@ -8322,6 +9057,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "drawIntegral",
           "normalized": "a-\u003eString-\u003eIO TObject",
@@ -8337,6 +9073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "fixParameter",
           "package": "HROOT",
@@ -8346,6 +9083,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "fixParameter",
           "normalized": "a-\u003eInt-\u003eDouble-\u003eIO()",
@@ -8361,6 +9099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getMaximumTF1",
           "package": "HROOT",
@@ -8370,6 +9109,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getMaximumTF1",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eIO Double",
@@ -8385,6 +9125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getMaximumX",
           "package": "HROOT",
@@ -8394,6 +9135,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getMaximumX",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eIO Double",
@@ -8409,6 +9151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getMinimumTF1",
           "package": "HROOT",
@@ -8418,6 +9161,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getMinimumTF1",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eIO Double",
@@ -8433,6 +9177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getMinimumX",
           "package": "HROOT",
@@ -8442,6 +9187,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getMinimumX",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eIO Double",
@@ -8457,6 +9203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getNDF",
           "package": "HROOT",
@@ -8466,6 +9213,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getNDF",
           "normalized": "a-\u003eIO Int",
@@ -8481,6 +9229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getNpx",
           "package": "HROOT",
@@ -8490,6 +9239,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getNpx",
           "normalized": "a-\u003eIO Int",
@@ -8505,6 +9255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getNumberFitPoints",
           "package": "HROOT",
@@ -8514,6 +9265,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getNumberFitPoints",
           "normalized": "a-\u003eIO Int",
@@ -8529,6 +9281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getNumberFreeParameters",
           "package": "HROOT",
@@ -8538,6 +9291,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getNumberFreeParameters",
           "normalized": "a-\u003eIO Int",
@@ -8553,6 +9307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getParError",
           "package": "HROOT",
@@ -8562,6 +9317,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getParError",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -8577,6 +9333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getProb",
           "package": "HROOT",
@@ -8586,6 +9343,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getProb",
           "normalized": "a-\u003eIO Double",
@@ -8601,6 +9359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getQuantilesTF1",
           "package": "HROOT",
@@ -8610,6 +9369,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getQuantilesTF1",
           "normalized": "a-\u003eInt-\u003e[Double]-\u003e[Double]-\u003eIO Int",
@@ -8625,6 +9385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getRandomTF1",
           "package": "HROOT",
@@ -8634,6 +9395,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getRandomTF1",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eIO Double",
@@ -8649,6 +9411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getSave",
           "package": "HROOT",
@@ -8658,6 +9421,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getSave",
           "normalized": "a-\u003e[Double]-\u003eIO Double",
@@ -8673,6 +9437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getX",
           "package": "HROOT",
@@ -8682,6 +9447,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getX",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eIO Double",
@@ -8696,6 +9462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getXmax",
           "package": "HROOT",
@@ -8705,6 +9472,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getXmax",
           "normalized": "a-\u003eIO Double",
@@ -8720,6 +9488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "getXmin",
           "package": "HROOT",
@@ -8729,6 +9498,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "getXmin",
           "normalized": "a-\u003eIO Double",
@@ -8744,6 +9514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "gradientPar",
           "package": "HROOT",
@@ -8753,6 +9524,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "gradientPar",
           "normalized": "a-\u003eInt-\u003e[Double]-\u003eDouble-\u003eIO Double",
@@ -8768,6 +9540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "initArgs",
           "package": "HROOT",
@@ -8777,6 +9550,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "initArgs",
           "normalized": "a-\u003e[Double]-\u003e[Double]-\u003eIO()",
@@ -8792,6 +9566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "integralError",
           "package": "HROOT",
@@ -8801,6 +9576,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "integralError",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003e[Double]-\u003e[Double]-\u003eDouble-\u003eIO Double",
@@ -8816,6 +9592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "integralFast",
           "package": "HROOT",
@@ -8825,6 +9602,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "integralFast",
           "normalized": "a-\u003eInt-\u003e[Double]-\u003e[Double]-\u003eDouble-\u003eDouble-\u003e[Double]-\u003eDouble-\u003eIO Double",
@@ -8840,6 +9618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "integralTF1",
           "package": "HROOT",
@@ -8849,6 +9628,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "integralTF1",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003e[Double]-\u003eDouble-\u003eIO Double",
@@ -8864,6 +9644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "isInside",
           "package": "HROOT",
@@ -8873,6 +9654,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "isInside",
           "normalized": "a-\u003e[Double]-\u003eIO Int",
@@ -8888,6 +9670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "mean",
           "package": "HROOT",
@@ -8897,6 +9680,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "mean",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003e[Double]-\u003eDouble-\u003eIO Double",
@@ -8911,6 +9695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "moment",
           "package": "HROOT",
@@ -8920,6 +9705,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "moment",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003e[Double]-\u003eDouble-\u003eIO Double",
@@ -8934,6 +9720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "newTF1",
           "package": "HROOT",
@@ -8943,6 +9730,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "newTF1",
           "normalized": "String-\u003eString-\u003eDouble-\u003eDouble-\u003eIO TF",
@@ -8958,6 +9746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "releaseParameter",
           "package": "HROOT",
@@ -8967,6 +9756,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "releaseParameter",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -8982,6 +9772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setChisquare",
           "package": "HROOT",
@@ -8991,6 +9782,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setChisquare",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -9006,6 +9798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setMaximumTF1",
           "package": "HROOT",
@@ -9015,6 +9808,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setMaximumTF1",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -9030,6 +9824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setMinimumTF1",
           "package": "HROOT",
@@ -9039,6 +9834,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setMinimumTF1",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -9054,6 +9850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setNDF",
           "package": "HROOT",
@@ -9063,6 +9860,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setNDF",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -9078,6 +9876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setNpx",
           "package": "HROOT",
@@ -9087,6 +9886,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setNpx",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -9102,6 +9902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setNumberFitPoints",
           "package": "HROOT",
@@ -9111,6 +9912,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setNumberFitPoints",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -9126,6 +9928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setParError",
           "package": "HROOT",
@@ -9135,6 +9938,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setParError",
           "normalized": "a-\u003eInt-\u003eDouble-\u003eIO()",
@@ -9150,6 +9954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setParErrors",
           "package": "HROOT",
@@ -9159,6 +9964,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setParErrors",
           "normalized": "a-\u003e[Double]-\u003eIO()",
@@ -9174,6 +9980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setParLimits",
           "package": "HROOT",
@@ -9183,6 +9990,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setParLimits",
           "normalized": "a-\u003eInt-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -9198,6 +10006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setParent",
           "package": "HROOT",
@@ -9207,6 +10016,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setParent",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -9222,6 +10032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setRange1",
           "package": "HROOT",
@@ -9231,6 +10042,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setRange1",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -9246,6 +10058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setRange2",
           "package": "HROOT",
@@ -9255,6 +10068,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setRange2",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -9270,6 +10084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setRange3",
           "package": "HROOT",
@@ -9279,6 +10094,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setRange3",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -9294,6 +10110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "setSavedPoint",
           "package": "HROOT",
@@ -9303,6 +10120,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "setSavedPoint",
           "normalized": "a-\u003eInt-\u003eDouble-\u003eIO()",
@@ -9318,6 +10136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "tF1GetChisquare",
           "package": "HROOT",
@@ -9327,6 +10146,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "tF1GetChisquare",
           "normalized": "TF-\u003eIO Double",
@@ -9342,6 +10162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "tF1GetHistogram",
           "package": "HROOT",
@@ -9351,6 +10172,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "tF1GetHistogram",
           "normalized": "TF-\u003eIO TH",
@@ -9366,6 +10188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "tF1GetParent",
           "package": "HROOT",
@@ -9375,6 +10198,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "tF1GetParent",
           "normalized": "TF-\u003eIO TObject",
@@ -9390,6 +10214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "tF1GetXaxis",
           "package": "HROOT",
@@ -9399,6 +10224,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "tF1GetXaxis",
           "normalized": "TF-\u003eIO TAxis",
@@ -9414,6 +10240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "tF1GetYaxis",
           "package": "HROOT",
@@ -9423,6 +10250,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "tF1GetYaxis",
           "normalized": "TF-\u003eIO TAxis",
@@ -9438,6 +10266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "tF1GetZaxis",
           "package": "HROOT",
@@ -9447,6 +10276,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "tF1GetZaxis",
           "normalized": "TF-\u003eIO TAxis",
@@ -9462,6 +10292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "upcastTF1",
           "package": "HROOT",
@@ -9471,6 +10302,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "upcastTF1",
           "normalized": "a-\u003eTF",
@@ -9486,6 +10318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TF1",
           "name": "variance",
           "package": "HROOT",
@@ -9495,6 +10328,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TF1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TF1",
           "name": "variance",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003e[Double]-\u003eDouble-\u003eIO Double",
@@ -9509,6 +10343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFile",
           "name": "TFile",
           "package": "HROOT",
@@ -9517,6 +10352,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFile",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFile",
           "name": "TFile",
           "package": "HROOT",
@@ -9530,6 +10366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFile",
           "name": "ITFile",
           "package": "HROOT",
@@ -9538,6 +10375,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFile",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFile",
           "name": "ITFile",
           "package": "HROOT",
@@ -9551,6 +10389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFile",
           "name": "TFile",
           "package": "HROOT",
@@ -9559,6 +10398,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFile",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFile",
           "name": "TFile",
           "package": "HROOT",
@@ -9572,6 +10412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFile",
           "name": "TFile",
           "package": "HROOT",
@@ -9581,6 +10422,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFile",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFile",
           "name": "TFile",
           "package": "HROOT",
@@ -9594,6 +10436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFile",
           "name": "newTFile",
           "package": "HROOT",
@@ -9603,6 +10446,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFile",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFile",
           "name": "newTFile",
           "normalized": "String-\u003eString-\u003eString-\u003eInt-\u003eIO TFile",
@@ -9618,6 +10462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFile",
           "name": "upcastTFile",
           "package": "HROOT",
@@ -9627,6 +10472,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFile",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFile",
           "name": "upcastTFile",
           "normalized": "a-\u003eTFile",
@@ -9642,6 +10488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "TFormula",
           "package": "HROOT",
@@ -9650,6 +10497,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "TFormula",
           "package": "HROOT",
@@ -9663,6 +10511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "ITFormula",
           "package": "HROOT",
@@ -9671,6 +10520,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "ITFormula",
           "package": "HROOT",
@@ -9684,6 +10534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "TFormula",
           "package": "HROOT",
@@ -9692,6 +10543,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "TFormula",
           "package": "HROOT",
@@ -9705,6 +10557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "TFormula",
           "package": "HROOT",
@@ -9714,6 +10567,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "TFormula",
           "package": "HROOT",
@@ -9727,6 +10581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "clear",
           "package": "HROOT",
@@ -9736,6 +10591,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "clear",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -9750,6 +10606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "compile",
           "package": "HROOT",
@@ -9759,6 +10616,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "compile",
           "normalized": "a-\u003eString-\u003eIO Int",
@@ -9773,6 +10631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "definedValue",
           "package": "HROOT",
@@ -9782,6 +10641,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "definedValue",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -9797,6 +10657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "eval",
           "package": "HROOT",
@@ -9806,6 +10667,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "eval",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO Double",
@@ -9820,6 +10682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "evalPar",
           "package": "HROOT",
@@ -9829,6 +10692,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "evalPar",
           "normalized": "a-\u003e[Double]-\u003e[Double]-\u003eIO Double",
@@ -9844,6 +10708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "evalParOld",
           "package": "HROOT",
@@ -9853,6 +10718,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "evalParOld",
           "normalized": "a-\u003e[Double]-\u003e[Double]-\u003eIO Double",
@@ -9868,6 +10734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "getNdim",
           "package": "HROOT",
@@ -9877,6 +10744,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "getNdim",
           "normalized": "a-\u003eIO Int",
@@ -9892,6 +10760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "getNpar",
           "package": "HROOT",
@@ -9901,6 +10770,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "getNpar",
           "normalized": "a-\u003eIO Int",
@@ -9916,6 +10786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "getNumber",
           "package": "HROOT",
@@ -9925,6 +10796,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "getNumber",
           "normalized": "a-\u003eIO Int",
@@ -9940,6 +10812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "getParNumber",
           "package": "HROOT",
@@ -9949,6 +10822,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "getParNumber",
           "normalized": "a-\u003eString-\u003eIO Int",
@@ -9964,6 +10838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "isLinear",
           "package": "HROOT",
@@ -9973,6 +10848,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "isLinear",
           "normalized": "a-\u003eIO Int",
@@ -9988,6 +10864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "isNormalized",
           "package": "HROOT",
@@ -9997,6 +10874,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "isNormalized",
           "normalized": "a-\u003eIO Int",
@@ -10012,6 +10890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "newTFormula",
           "package": "HROOT",
@@ -10021,6 +10900,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "newTFormula",
           "normalized": "String-\u003eString-\u003eIO TFormula",
@@ -10036,6 +10916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "setNumber",
           "package": "HROOT",
@@ -10045,6 +10926,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "setNumber",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -10060,6 +10942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "setParName",
           "package": "HROOT",
@@ -10069,6 +10952,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "setParName",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO()",
@@ -10084,6 +10968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "setParNames",
           "package": "HROOT",
@@ -10093,6 +10978,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "setParNames",
           "normalized": "a-\u003eString-\u003eString-\u003eString-\u003eString-\u003eString-\u003eString-\u003eString-\u003eString-\u003eString-\u003eString-\u003eString-\u003eIO()",
@@ -10108,6 +10994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "setParameter",
           "package": "HROOT",
@@ -10117,6 +11004,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "setParameter",
           "normalized": "a-\u003eString-\u003eDouble-\u003eIO()",
@@ -10132,6 +11020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "setParameters",
           "package": "HROOT",
@@ -10141,6 +11030,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "setParameters",
           "normalized": "a-\u003e[Double]-\u003eIO()",
@@ -10156,6 +11046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "tFormulaGetParameter",
           "package": "HROOT",
@@ -10165,6 +11056,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "tFormulaGetParameter",
           "normalized": "TFormula-\u003eString-\u003eIO Double",
@@ -10180,6 +11072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "tFormulaOptimize",
           "package": "HROOT",
@@ -10189,6 +11082,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "tFormulaOptimize",
           "normalized": "TFormula-\u003eIO()",
@@ -10204,6 +11098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "upcastTFormula",
           "package": "HROOT",
@@ -10213,6 +11108,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "upcastTFormula",
           "normalized": "a-\u003eTFormula",
@@ -10228,6 +11124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFormula",
           "name": "update",
           "package": "HROOT",
@@ -10237,6 +11134,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFormula",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFormula",
           "name": "update",
           "normalized": "a-\u003eIO()",
@@ -10251,6 +11149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFrame",
           "name": "TFrame",
           "package": "HROOT",
@@ -10259,6 +11158,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFrame",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFrame",
           "name": "TFrame",
           "package": "HROOT",
@@ -10272,6 +11172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFrame",
           "name": "ITFrame",
           "package": "HROOT",
@@ -10280,6 +11181,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFrame",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFrame",
           "name": "ITFrame",
           "package": "HROOT",
@@ -10293,6 +11195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFrame",
           "name": "TFrame",
           "package": "HROOT",
@@ -10301,6 +11204,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFrame",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFrame",
           "name": "TFrame",
           "package": "HROOT",
@@ -10314,6 +11218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFrame",
           "name": "TFrame",
           "package": "HROOT",
@@ -10323,6 +11228,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFrame",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFrame",
           "name": "TFrame",
           "package": "HROOT",
@@ -10336,6 +11242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFrame",
           "name": "newTFrame",
           "package": "HROOT",
@@ -10345,6 +11252,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFrame",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFrame",
           "name": "newTFrame",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TFrame",
@@ -10360,6 +11268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TFrame",
           "name": "upcastTFrame",
           "package": "HROOT",
@@ -10369,6 +11278,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TFrame",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TFrame",
           "name": "upcastTFrame",
           "normalized": "a-\u003eTFrame",
@@ -10384,6 +11294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGaxis",
           "name": "TGaxis",
           "package": "HROOT",
@@ -10392,6 +11303,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGaxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGaxis",
           "name": "TGaxis",
           "package": "HROOT",
@@ -10405,6 +11317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGaxis",
           "name": "ITGaxis",
           "package": "HROOT",
@@ -10413,6 +11326,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGaxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGaxis",
           "name": "ITGaxis",
           "package": "HROOT",
@@ -10426,6 +11340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGaxis",
           "name": "TGaxis",
           "package": "HROOT",
@@ -10434,6 +11349,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGaxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGaxis",
           "name": "TGaxis",
           "package": "HROOT",
@@ -10447,6 +11363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGaxis",
           "name": "TGaxis",
           "package": "HROOT",
@@ -10456,6 +11373,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGaxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGaxis",
           "name": "TGaxis",
           "package": "HROOT",
@@ -10469,6 +11387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGaxis",
           "name": "newTGaxis",
           "package": "HROOT",
@@ -10478,6 +11397,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGaxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGaxis",
           "name": "newTGaxis",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eString-\u003eDouble-\u003eIO TGaxis",
@@ -10493,6 +11413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGaxis",
           "name": "upcastTGaxis",
           "package": "HROOT",
@@ -10502,6 +11423,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGaxis",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGaxis",
           "name": "upcastTGaxis",
           "normalized": "a-\u003eTGaxis",
@@ -10517,6 +11439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "TGraph",
           "package": "HROOT",
@@ -10525,6 +11448,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "TGraph",
           "package": "HROOT",
@@ -10538,6 +11462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "ITGraph",
           "package": "HROOT",
@@ -10546,6 +11471,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "ITGraph",
           "package": "HROOT",
@@ -10559,6 +11485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "TGraph",
           "package": "HROOT",
@@ -10567,6 +11494,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "TGraph",
           "package": "HROOT",
@@ -10580,6 +11508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "TGraph",
           "package": "HROOT",
@@ -10589,6 +11518,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "TGraph",
           "package": "HROOT",
@@ -10602,6 +11532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "apply",
           "package": "HROOT",
@@ -10611,6 +11542,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "apply",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -10625,6 +11557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "chisquare",
           "package": "HROOT",
@@ -10634,6 +11567,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "chisquare",
           "normalized": "a-\u003eb-\u003eIO Double",
@@ -10648,6 +11582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "drawGraph",
           "package": "HROOT",
@@ -10657,6 +11592,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "drawGraph",
           "normalized": "a-\u003eInt-\u003e[Double]-\u003e[Double]-\u003eString-\u003eIO()",
@@ -10672,6 +11608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "drawPanelTGraph",
           "package": "HROOT",
@@ -10681,6 +11618,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "drawPanelTGraph",
           "normalized": "a-\u003eIO()",
@@ -10696,6 +11634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "expand",
           "package": "HROOT",
@@ -10705,6 +11644,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "expand",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO()",
@@ -10719,6 +11659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "fitPanelTGraph",
           "package": "HROOT",
@@ -10728,6 +11669,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "fitPanelTGraph",
           "normalized": "a-\u003eIO()",
@@ -10743,6 +11685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "getCorrelationFactorTGraph",
           "package": "HROOT",
@@ -10752,6 +11695,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "getCorrelationFactorTGraph",
           "normalized": "a-\u003eIO Double",
@@ -10767,6 +11711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "getCovarianceTGraph",
           "package": "HROOT",
@@ -10776,6 +11721,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "getCovarianceTGraph",
           "normalized": "a-\u003eIO Double",
@@ -10791,6 +11737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "getErrorX",
           "package": "HROOT",
@@ -10800,6 +11747,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "getErrorX",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -10815,6 +11763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "getErrorXhigh",
           "package": "HROOT",
@@ -10824,6 +11773,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "getErrorXhigh",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -10839,6 +11789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "getErrorXlow",
           "package": "HROOT",
@@ -10848,6 +11799,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "getErrorXlow",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -10863,6 +11815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "getErrorY",
           "package": "HROOT",
@@ -10872,6 +11825,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "getErrorY",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -10887,6 +11841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "getErrorYhigh",
           "package": "HROOT",
@@ -10896,6 +11851,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "getErrorYhigh",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -10911,6 +11867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "getErrorYlow",
           "package": "HROOT",
@@ -10920,6 +11877,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "getErrorYlow",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -10935,6 +11893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "getMeanTGraph",
           "package": "HROOT",
@@ -10944,6 +11903,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "getMeanTGraph",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -10959,6 +11919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "getRMSTGraph",
           "package": "HROOT",
@@ -10968,6 +11929,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "getRMSTGraph",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -10983,6 +11945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "initExpo",
           "package": "HROOT",
@@ -10992,6 +11955,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "initExpo",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -11007,6 +11971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "initGaus",
           "package": "HROOT",
@@ -11016,6 +11981,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "initGaus",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -11031,6 +11997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "initPolynom",
           "package": "HROOT",
@@ -11040,6 +12007,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "initPolynom",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -11055,6 +12023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "insertPoint",
           "package": "HROOT",
@@ -11064,6 +12033,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "insertPoint",
           "normalized": "a-\u003eIO Int",
@@ -11079,6 +12049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "integralTGraph",
           "package": "HROOT",
@@ -11088,6 +12059,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "integralTGraph",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO Double",
@@ -11103,6 +12075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "isEditable",
           "package": "HROOT",
@@ -11112,6 +12085,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "isEditable",
           "normalized": "a-\u003eIO Int",
@@ -11127,6 +12101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "isInsideTGraph",
           "package": "HROOT",
@@ -11136,6 +12111,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "isInsideTGraph",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eIO Int",
@@ -11151,6 +12127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "leastSquareFit",
           "package": "HROOT",
@@ -11160,6 +12137,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "leastSquareFit",
           "normalized": "a-\u003eInt-\u003e[Double]-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -11175,6 +12153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "newTGraph",
           "package": "HROOT",
@@ -11184,6 +12163,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "newTGraph",
           "normalized": "Int-\u003e[Double]-\u003e[Double]-\u003eIO TGraph",
@@ -11199,6 +12179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "paintStats",
           "package": "HROOT",
@@ -11208,6 +12189,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "paintStats",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -11223,6 +12205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "removePoint",
           "package": "HROOT",
@@ -11232,6 +12215,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "removePoint",
           "normalized": "a-\u003eInt-\u003eIO Int",
@@ -11247,6 +12231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "set",
           "package": "HROOT",
@@ -11256,6 +12241,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "set",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -11270,6 +12256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "setEditable",
           "package": "HROOT",
@@ -11279,6 +12266,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "setEditable",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -11294,6 +12282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "setHistogram",
           "package": "HROOT",
@@ -11303,6 +12292,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "setHistogram",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -11318,6 +12308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "setMaximumTGraph",
           "package": "HROOT",
@@ -11327,6 +12318,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "setMaximumTGraph",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -11342,6 +12334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "setMinimumTGraph",
           "package": "HROOT",
@@ -11351,6 +12344,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "setMinimumTGraph",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -11366,6 +12360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "setPoint",
           "package": "HROOT",
@@ -11375,6 +12370,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "setPoint",
           "normalized": "a-\u003eInt-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -11390,6 +12386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetEditable",
           "package": "HROOT",
@@ -11399,6 +12396,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetEditable",
           "normalized": "TGraph-\u003eIO Int",
@@ -11414,6 +12412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetFunction",
           "package": "HROOT",
@@ -11423,6 +12422,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetFunction",
           "normalized": "TGraph-\u003eString-\u003eIO TF",
@@ -11438,6 +12438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetHistogram",
           "package": "HROOT",
@@ -11447,6 +12448,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetHistogram",
           "normalized": "TGraph-\u003eIO TH F",
@@ -11462,6 +12464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetListOfFunctions",
           "package": "HROOT",
@@ -11471,6 +12474,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetListOfFunctions",
           "normalized": "TGraph-\u003eIO TList",
@@ -11486,6 +12490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetMaxSize",
           "package": "HROOT",
@@ -11495,6 +12500,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetMaxSize",
           "normalized": "TGraph-\u003eIO Int",
@@ -11510,6 +12516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetMaximum",
           "package": "HROOT",
@@ -11519,6 +12526,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetMaximum",
           "normalized": "TGraph-\u003eIO Double",
@@ -11534,6 +12542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetMinimum",
           "package": "HROOT",
@@ -11543,6 +12552,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetMinimum",
           "normalized": "TGraph-\u003eIO Double",
@@ -11558,6 +12568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetN",
           "package": "HROOT",
@@ -11567,6 +12578,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetN",
           "normalized": "TGraph-\u003eIO Int",
@@ -11582,6 +12594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetXaxis",
           "package": "HROOT",
@@ -11591,6 +12604,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetXaxis",
           "normalized": "TGraph-\u003eIO TAxis",
@@ -11606,6 +12620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetYaxis",
           "package": "HROOT",
@@ -11615,6 +12630,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphGetYaxis",
           "normalized": "TGraph-\u003eIO TAxis",
@@ -11630,6 +12646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphPaintGrapHist",
           "package": "HROOT",
@@ -11639,6 +12656,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphPaintGrapHist",
           "normalized": "TGraph-\u003eInt-\u003e[Double]-\u003e[Double]-\u003eString-\u003eIO()",
@@ -11654,6 +12672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphPaintGraph",
           "package": "HROOT",
@@ -11663,6 +12682,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "tGraphPaintGraph",
           "normalized": "TGraph-\u003eInt-\u003e[Double]-\u003e[Double]-\u003eString-\u003eIO()",
@@ -11678,6 +12698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraph",
           "name": "upcastTGraph",
           "package": "HROOT",
@@ -11687,6 +12708,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraph",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraph",
           "name": "upcastTGraph",
           "normalized": "a-\u003eTGraph",
@@ -11702,6 +12724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphAsymmErrors",
           "name": "TGraphAsymmErrors",
           "package": "HROOT",
@@ -11710,6 +12733,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphAsymmErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphAsymmErrors",
           "name": "TGraphAsymmErrors",
           "package": "HROOT",
@@ -11723,6 +12747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphAsymmErrors",
           "name": "ITGraphAsymmErrors",
           "package": "HROOT",
@@ -11731,6 +12756,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphAsymmErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphAsymmErrors",
           "name": "ITGraphAsymmErrors",
           "package": "HROOT",
@@ -11744,6 +12770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphAsymmErrors",
           "name": "TGraphAsymmErrors",
           "package": "HROOT",
@@ -11752,6 +12779,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphAsymmErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphAsymmErrors",
           "name": "TGraphAsymmErrors",
           "package": "HROOT",
@@ -11765,6 +12793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphAsymmErrors",
           "name": "TGraphAsymmErrors",
           "package": "HROOT",
@@ -11774,6 +12803,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphAsymmErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphAsymmErrors",
           "name": "TGraphAsymmErrors",
           "package": "HROOT",
@@ -11787,6 +12817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphAsymmErrors",
           "name": "newTGraphAsymmErrors",
           "package": "HROOT",
@@ -11796,6 +12827,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphAsymmErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphAsymmErrors",
           "name": "newTGraphAsymmErrors",
           "normalized": "Int-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003eIO TGraphAsymmErrors",
@@ -11811,6 +12843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphAsymmErrors",
           "name": "upcastTGraphAsymmErrors",
           "package": "HROOT",
@@ -11820,6 +12853,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphAsymmErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphAsymmErrors",
           "name": "upcastTGraphAsymmErrors",
           "normalized": "a-\u003eTGraphAsymmErrors",
@@ -11835,6 +12869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphBentErrors",
           "name": "TGraphBentErrors",
           "package": "HROOT",
@@ -11843,6 +12878,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphBentErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphBentErrors",
           "name": "TGraphBentErrors",
           "package": "HROOT",
@@ -11856,6 +12892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphBentErrors",
           "name": "ITGraphBentErrors",
           "package": "HROOT",
@@ -11864,6 +12901,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphBentErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphBentErrors",
           "name": "ITGraphBentErrors",
           "package": "HROOT",
@@ -11877,6 +12915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphBentErrors",
           "name": "TGraphBentErrors",
           "package": "HROOT",
@@ -11885,6 +12924,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphBentErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphBentErrors",
           "name": "TGraphBentErrors",
           "package": "HROOT",
@@ -11898,6 +12938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphBentErrors",
           "name": "TGraphBentErrors",
           "package": "HROOT",
@@ -11907,6 +12948,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphBentErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphBentErrors",
           "name": "TGraphBentErrors",
           "package": "HROOT",
@@ -11920,6 +12962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphBentErrors",
           "name": "newTGraphBentErrors",
           "package": "HROOT",
@@ -11929,6 +12972,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphBentErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphBentErrors",
           "name": "newTGraphBentErrors",
           "normalized": "Int-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003eIO TGraphBentErrors",
@@ -11944,6 +12988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphBentErrors",
           "name": "upcastTGraphBentErrors",
           "package": "HROOT",
@@ -11953,6 +12998,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphBentErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphBentErrors",
           "name": "upcastTGraphBentErrors",
           "normalized": "a-\u003eTGraphBentErrors",
@@ -11968,6 +13014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphErrors",
           "name": "TGraphErrors",
           "package": "HROOT",
@@ -11976,6 +13023,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphErrors",
           "name": "TGraphErrors",
           "package": "HROOT",
@@ -11989,6 +13037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphErrors",
           "name": "ITGraphErrors",
           "package": "HROOT",
@@ -11997,6 +13046,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphErrors",
           "name": "ITGraphErrors",
           "package": "HROOT",
@@ -12010,6 +13060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphErrors",
           "name": "TGraphErrors",
           "package": "HROOT",
@@ -12018,6 +13069,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphErrors",
           "name": "TGraphErrors",
           "package": "HROOT",
@@ -12031,6 +13083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphErrors",
           "name": "TGraphErrors",
           "package": "HROOT",
@@ -12040,6 +13093,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphErrors",
           "name": "TGraphErrors",
           "package": "HROOT",
@@ -12053,6 +13107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphErrors",
           "name": "newTGraphErrors",
           "package": "HROOT",
@@ -12062,6 +13117,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphErrors",
           "name": "newTGraphErrors",
           "normalized": "Int-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003eIO TGraphErrors",
@@ -12077,6 +13133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphErrors",
           "name": "upcastTGraphErrors",
           "package": "HROOT",
@@ -12086,6 +13143,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphErrors",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphErrors",
           "name": "upcastTGraphErrors",
           "normalized": "a-\u003eTGraphErrors",
@@ -12101,6 +13159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphPolar",
           "name": "TGraphPolar",
           "package": "HROOT",
@@ -12109,6 +13168,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphPolar",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphPolar",
           "name": "TGraphPolar",
           "package": "HROOT",
@@ -12122,6 +13182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphPolar",
           "name": "ITGraphPolar",
           "package": "HROOT",
@@ -12130,6 +13191,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphPolar",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphPolar",
           "name": "ITGraphPolar",
           "package": "HROOT",
@@ -12143,6 +13205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphPolar",
           "name": "TGraphPolar",
           "package": "HROOT",
@@ -12151,6 +13214,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphPolar",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphPolar",
           "name": "TGraphPolar",
           "package": "HROOT",
@@ -12164,6 +13228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphPolar",
           "name": "TGraphPolar",
           "package": "HROOT",
@@ -12173,6 +13238,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphPolar",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphPolar",
           "name": "TGraphPolar",
           "package": "HROOT",
@@ -12186,6 +13252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphPolar",
           "name": "newTGraphPolar",
           "package": "HROOT",
@@ -12195,6 +13262,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphPolar",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphPolar",
           "name": "newTGraphPolar",
           "normalized": "Int-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003eIO TGraphPolar",
@@ -12210,6 +13278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphPolar",
           "name": "upcastTGraphPolar",
           "package": "HROOT",
@@ -12219,6 +13288,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphPolar",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphPolar",
           "name": "upcastTGraphPolar",
           "normalized": "a-\u003eTGraphPolar",
@@ -12234,6 +13304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphQQ",
           "name": "TGraphQQ",
           "package": "HROOT",
@@ -12242,6 +13313,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphQQ",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphQQ",
           "name": "TGraphQQ",
           "package": "HROOT",
@@ -12255,6 +13327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphQQ",
           "name": "ITGraphQQ",
           "package": "HROOT",
@@ -12263,6 +13336,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphQQ",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphQQ",
           "name": "ITGraphQQ",
           "package": "HROOT",
@@ -12276,6 +13350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphQQ",
           "name": "TGraphQQ",
           "package": "HROOT",
@@ -12284,6 +13359,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphQQ",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphQQ",
           "name": "TGraphQQ",
           "package": "HROOT",
@@ -12297,6 +13373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphQQ",
           "name": "TGraphQQ",
           "package": "HROOT",
@@ -12306,6 +13383,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphQQ",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphQQ",
           "name": "TGraphQQ",
           "package": "HROOT",
@@ -12319,6 +13397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphQQ",
           "name": "newTGraphQQ",
           "package": "HROOT",
@@ -12328,6 +13407,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphQQ",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphQQ",
           "name": "newTGraphQQ",
           "normalized": "Int-\u003e[Double]-\u003eInt-\u003e[Double]-\u003eIO TGraphQQ",
@@ -12343,6 +13423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGraphQQ",
           "name": "upcastTGraphQQ",
           "package": "HROOT",
@@ -12352,6 +13433,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGraphQQ",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGraphQQ",
           "name": "upcastTGraphQQ",
           "normalized": "a-\u003eTGraphQQ",
@@ -12367,6 +13449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGroupButton",
           "name": "TGroupButton",
           "package": "HROOT",
@@ -12375,6 +13458,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGroupButton",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGroupButton",
           "name": "TGroupButton",
           "package": "HROOT",
@@ -12388,6 +13472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGroupButton",
           "name": "ITGroupButton",
           "package": "HROOT",
@@ -12396,6 +13481,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGroupButton",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGroupButton",
           "name": "ITGroupButton",
           "package": "HROOT",
@@ -12409,6 +13495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGroupButton",
           "name": "TGroupButton",
           "package": "HROOT",
@@ -12417,6 +13504,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGroupButton",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGroupButton",
           "name": "TGroupButton",
           "package": "HROOT",
@@ -12430,6 +13518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGroupButton",
           "name": "TGroupButton",
           "package": "HROOT",
@@ -12439,6 +13528,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGroupButton",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGroupButton",
           "name": "TGroupButton",
           "package": "HROOT",
@@ -12452,6 +13542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TGroupButton",
           "name": "upcastTGroupButton",
           "package": "HROOT",
@@ -12461,6 +13552,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TGroupButton",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TGroupButton",
           "name": "upcastTGroupButton",
           "normalized": "a-\u003eTGroupButton",
@@ -12476,6 +13568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "TH1",
           "package": "HROOT",
@@ -12484,6 +13577,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "TH1",
           "package": "HROOT",
@@ -12498,6 +13592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe TH1 class : the mother class of all histogram classes \n\u003c/p\u003e\u003cpre\u003e class TH1 : TNamed, TAttLine, TAttFill, TAttMarker\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "ITH1",
           "package": "HROOT",
@@ -12507,6 +13602,7 @@
         "index": {
           "description": "the TH1 class the mother class of all histogram classes class TH1 TNamed TAttLine TAttFill TAttMarker",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "ITH1",
           "package": "HROOT",
@@ -12520,6 +13616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "TH1",
           "package": "HROOT",
@@ -12528,6 +13625,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "TH1",
           "package": "HROOT",
@@ -12541,6 +13639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "TH1",
           "package": "HROOT",
@@ -12550,6 +13649,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "TH1",
           "package": "HROOT",
@@ -12564,6 +13664,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void TH1::Add( TH1* h1, Double_t c1 ) \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "add",
           "package": "HROOT",
@@ -12574,6 +13675,7 @@
         "index": {
           "description": "void TH1 Add TH1 h1 Double c1",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "add",
           "normalized": "a-\u003eb-\u003eDouble-\u003eIO()",
@@ -12589,6 +13691,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void TH1::AddBinContent( Int_t bin, Double_t w )\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "addBinContent",
           "package": "HROOT",
@@ -12599,6 +13702,7 @@
         "index": {
           "description": "void TH1 AddBinContent Int bin Double",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "addBinContent",
           "normalized": "a-\u003eInt-\u003eDouble-\u003eIO()",
@@ -12614,6 +13718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "bufferEmpty",
           "package": "HROOT",
@@ -12623,6 +13728,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "bufferEmpty",
           "normalized": "a-\u003eInt-\u003eIO Int",
@@ -12639,6 +13745,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Double_t TH1::Chi2Test( const TH1* h2, Option_t* option=\"UU\", Double_t* res=0 ) const\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "chi2Test",
           "package": "HROOT",
@@ -12649,6 +13756,7 @@
         "index": {
           "description": "Double TH1 Chi2Test const TH1 h2 Option option UU Double res const",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "chi2Test",
           "normalized": "a-\u003eb-\u003eString-\u003e[Double]-\u003eIO Double",
@@ -12665,6 +13773,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Double_t TH1::ComputeIntegral ()\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "computeIntegral",
           "package": "HROOT",
@@ -12675,6 +13784,7 @@
         "index": {
           "description": "Double TH1 ComputeIntegral",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "computeIntegral",
           "normalized": "a-\u003eIO Double",
@@ -12691,6 +13801,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void TH1::DirectoryAutoAdd(TDirectory* )\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "directoryAutoAdd",
           "package": "HROOT",
@@ -12701,6 +13812,7 @@
         "index": {
           "description": "void TH1 DirectoryAutoAdd TDirectory",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "directoryAutoAdd",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -12717,6 +13829,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void TH1::Divide(const TH1* h1, const TH1* h2, Double_t c1=1, Double_t c2=1, Option_t* option=\"\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "divide",
           "package": "HROOT",
@@ -12727,6 +13840,7 @@
         "index": {
           "description": "void TH1 Divide const TH1 h1 const TH1 h2 Double c1 Double c2 Option option",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "divide",
           "normalized": "a-\u003eb-\u003eb-\u003eDouble-\u003eDouble-\u003eString-\u003eIO()",
@@ -12741,6 +13855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "drawCopyTH1",
           "package": "HROOT",
@@ -12750,6 +13865,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "drawCopyTH1",
           "normalized": "a-\u003eString-\u003eIO a",
@@ -12766,6 +13882,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e TH1* TH1::DrawNormalized (Option_t* option=\"\", Double_t norm=1) const\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "drawNormalized",
           "package": "HROOT",
@@ -12776,6 +13893,7 @@
         "index": {
           "description": "TH1 TH1 DrawNormalized Option option Double norm const",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "drawNormalized",
           "normalized": "a-\u003eString-\u003eDouble-\u003eIO TH",
@@ -12791,6 +13909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "drawPanelTH1",
           "package": "HROOT",
@@ -12800,6 +13919,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "drawPanelTH1",
           "normalized": "a-\u003eIO()",
@@ -12815,6 +13935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "evalF",
           "package": "HROOT",
@@ -12824,6 +13945,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "evalF",
           "normalized": "a-\u003eb-\u003eString-\u003eIO()",
@@ -12838,6 +13960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "fFT",
           "package": "HROOT",
@@ -12847,6 +13970,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "fFT",
           "normalized": "a-\u003eb-\u003eString-\u003eIO TH",
@@ -12862,6 +13986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "fill1",
           "package": "HROOT",
@@ -12871,6 +13996,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "fill1",
           "normalized": "a-\u003eDouble-\u003eIO Int",
@@ -12885,6 +14011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "fill1w",
           "package": "HROOT",
@@ -12894,6 +14021,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "fill1w",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eIO Int",
@@ -12908,6 +14036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "fillN1",
           "package": "HROOT",
@@ -12917,6 +14046,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "fillN1",
           "normalized": "a-\u003eInt-\u003e[Double]-\u003e[Double]-\u003eInt-\u003eIO()",
@@ -12931,6 +14061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "fillRandom",
           "package": "HROOT",
@@ -12940,6 +14071,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "fillRandom",
           "normalized": "a-\u003eb-\u003eInt-\u003eIO()",
@@ -12955,6 +14087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "findBin",
           "package": "HROOT",
@@ -12964,6 +14097,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "findBin",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO Int",
@@ -12979,6 +14113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "findFirstBinAbove",
           "package": "HROOT",
@@ -12988,6 +14123,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "findFirstBinAbove",
           "normalized": "a-\u003eDouble-\u003eInt-\u003eIO Int",
@@ -13003,6 +14139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "findFixBin",
           "package": "HROOT",
@@ -13012,6 +14149,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "findFixBin",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO Int",
@@ -13027,6 +14165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "findLastBinAbove",
           "package": "HROOT",
@@ -13036,6 +14175,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "findLastBinAbove",
           "normalized": "a-\u003eDouble-\u003eInt-\u003eIO Int",
@@ -13051,6 +14191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "fitPanelTH1",
           "package": "HROOT",
@@ -13060,6 +14201,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "fitPanelTH1",
           "normalized": "a-\u003eIO()",
@@ -13075,6 +14217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getAxisColorA",
           "package": "HROOT",
@@ -13084,6 +14227,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getAxisColorA",
           "normalized": "a-\u003eString-\u003eIO Int",
@@ -13099,6 +14243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getBarOffset",
           "package": "HROOT",
@@ -13108,6 +14253,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getBarOffset",
           "normalized": "a-\u003eIO Double",
@@ -13123,6 +14269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getBarWidth",
           "package": "HROOT",
@@ -13132,6 +14279,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getBarWidth",
           "normalized": "a-\u003eIO Double",
@@ -13147,6 +14295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getBin",
           "package": "HROOT",
@@ -13156,6 +14305,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getBin",
           "normalized": "a-\u003eInt-\u003eInt-\u003eInt-\u003eIO Int",
@@ -13171,6 +14321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getBinCenter",
           "package": "HROOT",
@@ -13180,6 +14331,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getBinCenter",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -13195,6 +14347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getBinContent1",
           "package": "HROOT",
@@ -13204,6 +14357,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getBinContent1",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -13219,6 +14373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getBinContent2",
           "package": "HROOT",
@@ -13228,6 +14383,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getBinContent2",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO Double",
@@ -13243,6 +14399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getBinContent3",
           "package": "HROOT",
@@ -13252,6 +14409,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getBinContent3",
           "normalized": "a-\u003eInt-\u003eInt-\u003eInt-\u003eIO Double",
@@ -13267,6 +14425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getBinError1",
           "package": "HROOT",
@@ -13276,6 +14435,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getBinError1",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -13291,6 +14451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getBinError2",
           "package": "HROOT",
@@ -13300,6 +14461,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getBinError2",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO Double",
@@ -13315,6 +14477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getBinError3",
           "package": "HROOT",
@@ -13324,6 +14487,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getBinError3",
           "normalized": "a-\u003eInt-\u003eInt-\u003eInt-\u003eIO Double",
@@ -13339,6 +14503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getBinLowEdge",
           "package": "HROOT",
@@ -13348,6 +14513,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getBinLowEdge",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -13363,6 +14529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getBinWidth",
           "package": "HROOT",
@@ -13372,6 +14539,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getBinWidth",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -13387,6 +14555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getCellContent",
           "package": "HROOT",
@@ -13396,6 +14565,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getCellContent",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO Double",
@@ -13411,6 +14581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getCellError",
           "package": "HROOT",
@@ -13420,6 +14591,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getCellError",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO Double",
@@ -13435,6 +14607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getContour",
           "package": "HROOT",
@@ -13444,6 +14617,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getContour",
           "normalized": "a-\u003e[Double]-\u003eIO Int",
@@ -13459,6 +14633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getContourLevel",
           "package": "HROOT",
@@ -13468,6 +14643,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getContourLevel",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -13483,6 +14659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getContourLevelPad",
           "package": "HROOT",
@@ -13492,6 +14669,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getContourLevelPad",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -13507,6 +14685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getDimension",
           "package": "HROOT",
@@ -13516,6 +14695,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getDimension",
           "normalized": "a-\u003eIO Int",
@@ -13531,6 +14711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getEffectiveEntries",
           "package": "HROOT",
@@ -13540,6 +14721,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getEffectiveEntries",
           "normalized": "a-\u003eIO Double",
@@ -13555,6 +14737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getEntries",
           "package": "HROOT",
@@ -13564,6 +14747,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getEntries",
           "normalized": "a-\u003eIO Double",
@@ -13579,6 +14763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getFunction",
           "package": "HROOT",
@@ -13588,6 +14773,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getFunction",
           "normalized": "a-\u003eString-\u003eIO TF",
@@ -13603,6 +14789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getKurtosis",
           "package": "HROOT",
@@ -13612,6 +14799,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getKurtosis",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -13627,6 +14815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getLabelColorA",
           "package": "HROOT",
@@ -13636,6 +14825,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getLabelColorA",
           "normalized": "a-\u003eString-\u003eIO Int",
@@ -13651,6 +14841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getLabelFontA",
           "package": "HROOT",
@@ -13660,6 +14851,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getLabelFontA",
           "normalized": "a-\u003eString-\u003eIO Int",
@@ -13675,6 +14867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getLabelOffsetA",
           "package": "HROOT",
@@ -13684,6 +14877,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getLabelOffsetA",
           "normalized": "a-\u003eString-\u003eIO Double",
@@ -13699,6 +14893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getLabelSizeA",
           "package": "HROOT",
@@ -13708,6 +14903,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getLabelSizeA",
           "normalized": "a-\u003eString-\u003eIO Double",
@@ -13723,6 +14919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getLowEdge",
           "package": "HROOT",
@@ -13732,6 +14929,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getLowEdge",
           "normalized": "a-\u003e[Double]-\u003eIO()",
@@ -13747,6 +14945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getMaximumBin",
           "package": "HROOT",
@@ -13756,6 +14955,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getMaximumBin",
           "normalized": "a-\u003eIO Int",
@@ -13771,6 +14971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getMaximumStored",
           "package": "HROOT",
@@ -13780,6 +14981,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getMaximumStored",
           "normalized": "a-\u003eIO Double",
@@ -13795,6 +14997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getMaximumTH1",
           "package": "HROOT",
@@ -13804,6 +15007,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getMaximumTH1",
           "normalized": "a-\u003eDouble-\u003eIO Double",
@@ -13819,6 +15023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getMean",
           "package": "HROOT",
@@ -13828,6 +15033,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getMean",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -13843,6 +15049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getMeanError",
           "package": "HROOT",
@@ -13852,6 +15059,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getMeanError",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -13867,6 +15075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getMinimumBin",
           "package": "HROOT",
@@ -13876,6 +15085,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getMinimumBin",
           "normalized": "a-\u003eIO Int",
@@ -13891,6 +15101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getMinimumStored",
           "package": "HROOT",
@@ -13900,6 +15111,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getMinimumStored",
           "normalized": "a-\u003eIO Double",
@@ -13915,6 +15127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getMinimumTH1",
           "package": "HROOT",
@@ -13924,6 +15137,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getMinimumTH1",
           "normalized": "a-\u003eDouble-\u003eIO Double",
@@ -13939,6 +15153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getNbinsX",
           "package": "HROOT",
@@ -13948,6 +15163,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getNbinsX",
           "normalized": "a-\u003eIO Double",
@@ -13963,6 +15179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getNbinsY",
           "package": "HROOT",
@@ -13972,6 +15189,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getNbinsY",
           "normalized": "a-\u003eIO Double",
@@ -13987,6 +15205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getNbinsZ",
           "package": "HROOT",
@@ -13996,6 +15215,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getNbinsZ",
           "normalized": "a-\u003eIO Double",
@@ -14011,6 +15231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getNdivisionA",
           "package": "HROOT",
@@ -14020,6 +15241,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getNdivisionA",
           "normalized": "a-\u003eString-\u003eIO Int",
@@ -14035,6 +15257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getQuantilesTH1",
           "package": "HROOT",
@@ -14044,6 +15267,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getQuantilesTH1",
           "normalized": "a-\u003eInt-\u003e[Double]-\u003e[Double]-\u003eIO Int",
@@ -14059,6 +15283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getRMS",
           "package": "HROOT",
@@ -14068,6 +15293,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getRMS",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -14083,6 +15309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getRMSError",
           "package": "HROOT",
@@ -14092,6 +15319,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getRMSError",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -14107,6 +15335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getRandom",
           "package": "HROOT",
@@ -14116,6 +15345,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getRandom",
           "normalized": "a-\u003eIO Double",
@@ -14131,6 +15361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getSkewness",
           "package": "HROOT",
@@ -14140,6 +15371,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getSkewness",
           "normalized": "a-\u003eInt-\u003eIO Double",
@@ -14156,6 +15388,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     GetStats(Double_t *stats) const;\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getStats",
           "package": "HROOT",
@@ -14166,6 +15399,7 @@
         "index": {
           "description": "void GetStats Double stats const",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getStats",
           "normalized": "a-\u003e[Double]-\u003eIO()",
@@ -14181,6 +15415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getSumOfWeights",
           "package": "HROOT",
@@ -14190,6 +15425,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getSumOfWeights",
           "normalized": "a-\u003eIO Double",
@@ -14205,6 +15441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getSumw2",
           "package": "HROOT",
@@ -14214,6 +15451,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getSumw2",
           "normalized": "a-\u003eIO TArrayD",
@@ -14229,6 +15467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getSumw2N",
           "package": "HROOT",
@@ -14238,6 +15477,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getSumw2N",
           "normalized": "a-\u003eIO Int",
@@ -14253,6 +15493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getTickLengthA",
           "package": "HROOT",
@@ -14262,6 +15503,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getTickLengthA",
           "normalized": "a-\u003eString-\u003eIO Double",
@@ -14277,6 +15519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getTitleFontA",
           "package": "HROOT",
@@ -14286,6 +15529,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getTitleFontA",
           "normalized": "a-\u003eString-\u003eIO Int",
@@ -14301,6 +15545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getTitleOffsetA",
           "package": "HROOT",
@@ -14310,6 +15555,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getTitleOffsetA",
           "normalized": "a-\u003eString-\u003eIO Double",
@@ -14325,6 +15571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "getTitleSizeA",
           "package": "HROOT",
@@ -14334,6 +15581,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "getTitleSizeA",
           "normalized": "a-\u003eString-\u003eIO Double",
@@ -14349,6 +15597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "integral1",
           "package": "HROOT",
@@ -14358,6 +15607,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "integral1",
           "normalized": "a-\u003eInt-\u003eInt-\u003eString-\u003eIO Double",
@@ -14373,6 +15623,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Double_t Interpolate(Double_t x)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "interpolate1",
           "package": "HROOT",
@@ -14383,6 +15634,7 @@
         "index": {
           "description": "Double Interpolate Double",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "interpolate1",
           "normalized": "a-\u003eDouble-\u003eIO Double",
@@ -14398,6 +15650,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Double_t Interpolate(Double_t x, Double_t y)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "interpolate2",
           "package": "HROOT",
@@ -14408,6 +15661,7 @@
         "index": {
           "description": "Double Interpolate Double Double",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "interpolate2",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eIO Double",
@@ -14423,6 +15677,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Double_t Interpolate(Double_t x, Double_t y, Double_t z)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "interpolate3",
           "package": "HROOT",
@@ -14433,6 +15688,7 @@
         "index": {
           "description": "Double Interpolate Double Double Double",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "interpolate3",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO Double",
@@ -14448,6 +15704,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Double_t KolmogorovTest(const TH1 *h2, Option_t *option=\"\") const\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "kolmogorovTest",
           "package": "HROOT",
@@ -14458,6 +15715,7 @@
         "index": {
           "description": "Double KolmogorovTest const TH1 h2 Option option const",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "kolmogorovTest",
           "normalized": "a-\u003eb-\u003eString-\u003eIO Double",
@@ -14474,6 +15732,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     LabelsDeflate(Option_t *axis=\"X\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "labelsDeflate",
           "package": "HROOT",
@@ -14484,6 +15743,7 @@
         "index": {
           "description": "void LabelsDeflate Option axis",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "labelsDeflate",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -14500,6 +15760,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     LabelsInflate(Option_t *axis=\"X\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "labelsInflate",
           "package": "HROOT",
@@ -14510,6 +15771,7 @@
         "index": {
           "description": "void LabelsInflate Option axis",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "labelsInflate",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -14526,6 +15788,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     LabelsOption(Option_t *option=\"h\", Option_t *axis=\"X\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "labelsOption",
           "package": "HROOT",
@@ -14536,6 +15799,7 @@
         "index": {
           "description": "void LabelsOption Option option Option axis",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "labelsOption",
           "normalized": "a-\u003eString-\u003eString-\u003eIO()",
@@ -14551,6 +15815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "multiflyF",
           "package": "HROOT",
@@ -14560,6 +15825,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "multiflyF",
           "normalized": "a-\u003eb-\u003eDouble-\u003eIO()",
@@ -14575,6 +15841,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     Multiply(const TH1 *h1, const TH1 *h2, Double_t c1=1, Double_t c2=1, Option_t *option=\"\"); // *MENU*\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "multiply",
           "package": "HROOT",
@@ -14585,6 +15852,7 @@
         "index": {
           "description": "void Multiply const TH1 h1 const TH1 h2 Double c1 Double c2 Option option MENU",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "multiply",
           "normalized": "a-\u003eb-\u003eb-\u003eDouble-\u003eDouble-\u003eString-\u003eIO()",
@@ -14600,6 +15868,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     PutStats(Double_t *stats)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "putStats",
           "package": "HROOT",
@@ -14610,6 +15879,7 @@
         "index": {
           "description": "void PutStats Double stats",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "putStats",
           "normalized": "a-\u003e[Double]-\u003eIO()",
@@ -14626,6 +15896,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e TH1     *Rebin(Int_t ngroup=2, const char*newname=\"\", const Double_t *xbins=0);  // *MENU*\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "rebin",
           "package": "HROOT",
@@ -14636,6 +15907,7 @@
         "index": {
           "description": "TH1 Rebin Int ngroup const char newname const Double xbins MENU",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "rebin",
           "normalized": "a-\u003eInt-\u003eString-\u003e[Double]-\u003eIO TH",
@@ -14651,6 +15923,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     RebinAxis(Double_t x, TAxis *axis)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "rebinAxis",
           "package": "HROOT",
@@ -14661,6 +15934,7 @@
         "index": {
           "description": "void RebinAxis Double TAxis axis",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "rebinAxis",
           "normalized": "a-\u003eDouble-\u003eb-\u003eIO()",
@@ -14677,6 +15951,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     Rebuild(Option_t *option=\"\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "rebuild",
           "package": "HROOT",
@@ -14687,6 +15962,7 @@
         "index": {
           "description": "void Rebuild Option option",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "rebuild",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -14702,6 +15978,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     Reset(Option_t *option=\"\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "reset",
           "package": "HROOT",
@@ -14712,6 +15989,7 @@
         "index": {
           "description": "void Reset Option option",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "reset",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -14727,6 +16005,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     ResetStats()\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "resetStats",
           "package": "HROOT",
@@ -14737,6 +16016,7 @@
         "index": {
           "description": "void ResetStats",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "resetStats",
           "normalized": "a-\u003eIO()",
@@ -14753,6 +16033,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     Scale(Double_t c1=1, Option_t *option=\"\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "scale",
           "package": "HROOT",
@@ -14763,6 +16044,7 @@
         "index": {
           "description": "void Scale Double c1 Option option",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "scale",
           "normalized": "a-\u003eDouble-\u003eString-\u003eIO()",
@@ -14778,6 +16060,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     SetAxisColor(Color_t color=1, Option_t *axis=\"X\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setAxisColorA",
           "package": "HROOT",
@@ -14788,6 +16071,7 @@
         "index": {
           "description": "void SetAxisColor Color color Option axis",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setAxisColorA",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO()",
@@ -14804,6 +16088,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     SetAxisRange(Double_t xmin, Double_t xmax, Option_t *axis=\"X\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setAxisRange",
           "package": "HROOT",
@@ -14814,6 +16099,7 @@
         "index": {
           "description": "void SetAxisRange Double xmin Double xmax Option axis",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setAxisRange",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eString-\u003eIO()",
@@ -14830,6 +16116,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     SetBarOffset(Float_t offset=0.25)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBarOffset",
           "package": "HROOT",
@@ -14840,6 +16127,7 @@
         "index": {
           "description": "void SetBarOffset Float offset",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBarOffset",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -14856,6 +16144,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     SetBarWidth(Float_t width=0.5) \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBarWidth",
           "package": "HROOT",
@@ -14866,6 +16155,7 @@
         "index": {
           "description": "void SetBarWidth Float width",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBarWidth",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -14882,6 +16172,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     SetBinContent(Int_t bin, Double_t content)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBinContent1",
           "package": "HROOT",
@@ -14892,6 +16183,7 @@
         "index": {
           "description": "void SetBinContent Int bin Double content",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBinContent1",
           "normalized": "a-\u003eInt-\u003eDouble-\u003eIO()",
@@ -14908,6 +16200,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     SetBinContent(Int_t binx, Int_t biny, Double_t content)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBinContent2",
           "package": "HROOT",
@@ -14918,6 +16211,7 @@
         "index": {
           "description": "void SetBinContent Int binx Int biny Double content",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBinContent2",
           "normalized": "a-\u003eInt-\u003eInt-\u003eDouble-\u003eIO()",
@@ -14934,6 +16228,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     SetBinContent(Int_t binx, Int_t biny, Int_t binz, Double_t content)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBinContent3",
           "package": "HROOT",
@@ -14944,6 +16239,7 @@
         "index": {
           "description": "void SetBinContent Int binx Int biny Int binz Double content",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBinContent3",
           "normalized": "a-\u003eInt-\u003eInt-\u003eInt-\u003eDouble-\u003eIO()",
@@ -14959,6 +16255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBinError1",
           "package": "HROOT",
@@ -14968,6 +16265,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBinError1",
           "normalized": "a-\u003eInt-\u003eDouble-\u003eIO()",
@@ -14983,6 +16281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBinError2",
           "package": "HROOT",
@@ -14992,6 +16291,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBinError2",
           "normalized": "a-\u003eInt-\u003eInt-\u003eDouble-\u003eIO()",
@@ -15007,6 +16307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBinError3",
           "package": "HROOT",
@@ -15016,6 +16317,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBinError3",
           "normalized": "a-\u003eInt-\u003eInt-\u003eInt-\u003eDouble-\u003eIO()",
@@ -15031,6 +16333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBins1",
           "package": "HROOT",
@@ -15040,6 +16343,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBins1",
           "normalized": "a-\u003eInt-\u003e[Double]-\u003eIO()",
@@ -15055,6 +16359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBins2",
           "package": "HROOT",
@@ -15064,6 +16369,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBins2",
           "normalized": "a-\u003eInt-\u003e[Double]-\u003eInt-\u003e[Double]-\u003eIO()",
@@ -15079,6 +16385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBins3",
           "package": "HROOT",
@@ -15088,6 +16395,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBins3",
           "normalized": "a-\u003eInt-\u003e[Double]-\u003eInt-\u003e[Double]-\u003eInt-\u003e[Double]-\u003eIO()",
@@ -15103,6 +16411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBinsLength",
           "package": "HROOT",
@@ -15112,6 +16421,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBinsLength",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -15127,6 +16437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setBuffer",
           "package": "HROOT",
@@ -15136,6 +16447,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setBuffer",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO()",
@@ -15151,6 +16463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setCellContent",
           "package": "HROOT",
@@ -15160,6 +16473,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setCellContent",
           "normalized": "a-\u003eInt-\u003eInt-\u003eDouble-\u003eIO()",
@@ -15175,6 +16489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setContent",
           "package": "HROOT",
@@ -15184,6 +16499,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setContent",
           "normalized": "a-\u003e[Double]-\u003eIO()",
@@ -15199,6 +16515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setContour",
           "package": "HROOT",
@@ -15208,6 +16525,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setContour",
           "normalized": "a-\u003eInt-\u003e[Double]-\u003eIO()",
@@ -15223,6 +16541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setContourLevel",
           "package": "HROOT",
@@ -15232,6 +16551,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setContourLevel",
           "normalized": "a-\u003eInt-\u003eDouble-\u003eIO()",
@@ -15247,6 +16567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setDirectory",
           "package": "HROOT",
@@ -15256,6 +16577,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setDirectory",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -15271,6 +16593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setEntries",
           "package": "HROOT",
@@ -15280,6 +16603,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setEntries",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -15295,6 +16619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setError",
           "package": "HROOT",
@@ -15304,6 +16629,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setError",
           "normalized": "a-\u003e[Double]-\u003eIO()",
@@ -15319,6 +16645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setLabelColorA",
           "package": "HROOT",
@@ -15328,6 +16655,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setLabelColorA",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO()",
@@ -15343,6 +16671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setLabelFontA",
           "package": "HROOT",
@@ -15352,6 +16681,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setLabelFontA",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO()",
@@ -15367,6 +16697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setLabelOffsetA",
           "package": "HROOT",
@@ -15376,6 +16707,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setLabelOffsetA",
           "normalized": "a-\u003eDouble-\u003eString-\u003eIO()",
@@ -15391,6 +16723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setLabelSizeA",
           "package": "HROOT",
@@ -15400,6 +16733,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setLabelSizeA",
           "normalized": "a-\u003eDouble-\u003eString-\u003eIO()",
@@ -15415,6 +16749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setMaximum",
           "package": "HROOT",
@@ -15424,6 +16759,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setMaximum",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -15439,6 +16775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setMinimum",
           "package": "HROOT",
@@ -15448,6 +16785,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setMinimum",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -15463,6 +16801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setNormFactor",
           "package": "HROOT",
@@ -15472,6 +16811,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setNormFactor",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -15487,6 +16827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setOption",
           "package": "HROOT",
@@ -15496,6 +16837,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setOption",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -15511,6 +16853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setStats",
           "package": "HROOT",
@@ -15520,6 +16863,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setStats",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -15535,6 +16879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setXTitle",
           "package": "HROOT",
@@ -15544,6 +16889,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setXTitle",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -15559,6 +16905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setYTitle",
           "package": "HROOT",
@@ -15568,6 +16915,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setYTitle",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -15583,6 +16931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "setZTitle",
           "package": "HROOT",
@@ -15592,6 +16941,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "setZTitle",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -15608,6 +16958,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e TH1     *ShowBackground(Int_t niter=20, Option_t *option=\"same\");\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "showBackground",
           "package": "HROOT",
@@ -15618,6 +16969,7 @@
         "index": {
           "description": "TH1 ShowBackground Int niter Option option same",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "showBackground",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO TH",
@@ -15634,6 +16986,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Int_t    ShowPeaks(Double_t sigma=2, Option_t *option=\"\", Double_t threshold=0.05); // *MENU*\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "showPeaks",
           "package": "HROOT",
@@ -15644,6 +16997,7 @@
         "index": {
           "description": "Int ShowPeaks Double sigma Option option Double threshold MENU",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "showPeaks",
           "normalized": "a-\u003eDouble-\u003eString-\u003eDouble-\u003eIO Int",
@@ -15660,6 +17014,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     Smooth(Int_t ntimes=1, Option_t *option=\"\"); // *MENU*\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "smooth",
           "package": "HROOT",
@@ -15670,6 +17025,7 @@
         "index": {
           "description": "void Smooth Int ntimes Option option MENU",
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "smooth",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO()",
@@ -15684,6 +17040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "sumw2",
           "package": "HROOT",
@@ -15693,6 +17050,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "sumw2",
           "normalized": "a-\u003eIO()",
@@ -15707,6 +17065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetAsymmetry",
           "package": "HROOT",
@@ -15716,6 +17075,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetAsymmetry",
           "normalized": "TH-\u003eTH-\u003eDouble-\u003eDouble-\u003eIO TH",
@@ -15731,6 +17091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetBufferLength",
           "package": "HROOT",
@@ -15740,6 +17101,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetBufferLength",
           "normalized": "TH-\u003eIO Int",
@@ -15755,6 +17117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetBufferSize",
           "package": "HROOT",
@@ -15764,6 +17127,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetBufferSize",
           "normalized": "TH-\u003eIO Int",
@@ -15779,6 +17143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetDirectory",
           "package": "HROOT",
@@ -15788,6 +17153,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetDirectory",
           "normalized": "TH-\u003eIO TDirectory",
@@ -15803,6 +17169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetXaxis",
           "package": "HROOT",
@@ -15812,6 +17179,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetXaxis",
           "normalized": "TH-\u003eIO TAxis",
@@ -15827,6 +17195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetYaxis",
           "package": "HROOT",
@@ -15836,6 +17205,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetYaxis",
           "normalized": "TH-\u003eIO TAxis",
@@ -15851,6 +17221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetZaxis",
           "package": "HROOT",
@@ -15860,6 +17231,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "tH1GetZaxis",
           "normalized": "TH-\u003eIO TAxis",
@@ -15875,6 +17247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "tH1IsBinOverflow",
           "package": "HROOT",
@@ -15884,6 +17257,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "tH1IsBinOverflow",
           "normalized": "TH-\u003eInt-\u003eIO Int",
@@ -15899,6 +17273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "tH1IsBinUnderflow",
           "package": "HROOT",
@@ -15908,6 +17283,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "tH1IsBinUnderflow",
           "normalized": "TH-\u003eInt-\u003eIO Int",
@@ -15923,6 +17299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "tH1UseCurrentStyle",
           "package": "HROOT",
@@ -15932,6 +17309,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "tH1UseCurrentStyle",
           "normalized": "TH-\u003eIO()",
@@ -15947,6 +17325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1",
           "name": "upcastTH1",
           "package": "HROOT",
@@ -15956,6 +17335,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1",
           "name": "upcastTH1",
           "normalized": "a-\u003eTH",
@@ -15971,6 +17351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1C",
           "name": "TH1C",
           "package": "HROOT",
@@ -15979,6 +17360,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1C",
           "name": "TH1C",
           "package": "HROOT",
@@ -15992,6 +17374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1C",
           "name": "ITH1C",
           "package": "HROOT",
@@ -16000,6 +17383,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1C",
           "name": "ITH1C",
           "package": "HROOT",
@@ -16013,6 +17397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1C",
           "name": "TH1C",
           "package": "HROOT",
@@ -16021,6 +17406,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1C",
           "name": "TH1C",
           "package": "HROOT",
@@ -16034,6 +17420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1C",
           "name": "TH1C",
           "package": "HROOT",
@@ -16043,6 +17430,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1C",
           "name": "TH1C",
           "package": "HROOT",
@@ -16056,6 +17444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1C",
           "name": "upcastTH1C",
           "package": "HROOT",
@@ -16065,6 +17454,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1C",
           "name": "upcastTH1C",
           "normalized": "a-\u003eTH C",
@@ -16080,6 +17470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1D",
           "name": "TH1D",
           "package": "HROOT",
@@ -16088,6 +17479,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1D",
           "name": "TH1D",
           "package": "HROOT",
@@ -16101,6 +17493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1D",
           "name": "ITH1D",
           "package": "HROOT",
@@ -16109,6 +17502,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1D",
           "name": "ITH1D",
           "package": "HROOT",
@@ -16122,6 +17516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1D",
           "name": "TH1D",
           "package": "HROOT",
@@ -16130,6 +17525,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1D",
           "name": "TH1D",
           "package": "HROOT",
@@ -16143,6 +17539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1D",
           "name": "TH1D",
           "package": "HROOT",
@@ -16152,6 +17549,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1D",
           "name": "TH1D",
           "package": "HROOT",
@@ -16165,6 +17563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1D",
           "name": "newTH1D",
           "package": "HROOT",
@@ -16174,6 +17573,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1D",
           "name": "newTH1D",
           "normalized": "String-\u003eString-\u003eInt-\u003eDouble-\u003eDouble-\u003eIO TH D",
@@ -16189,6 +17589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1D",
           "name": "upcastTH1D",
           "package": "HROOT",
@@ -16198,6 +17599,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1D",
           "name": "upcastTH1D",
           "normalized": "a-\u003eTH D",
@@ -16213,6 +17615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1F",
           "name": "TH1F",
           "package": "HROOT",
@@ -16221,6 +17624,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1F",
           "name": "TH1F",
           "package": "HROOT",
@@ -16234,6 +17638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1F",
           "name": "ITH1F",
           "package": "HROOT",
@@ -16242,6 +17647,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1F",
           "name": "ITH1F",
           "package": "HROOT",
@@ -16255,6 +17661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1F",
           "name": "TH1F",
           "package": "HROOT",
@@ -16263,6 +17670,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1F",
           "name": "TH1F",
           "package": "HROOT",
@@ -16276,6 +17684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1F",
           "name": "TH1F",
           "package": "HROOT",
@@ -16285,6 +17694,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1F",
           "name": "TH1F",
           "package": "HROOT",
@@ -16298,6 +17708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1F",
           "name": "newTH1F",
           "package": "HROOT",
@@ -16307,6 +17718,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1F",
           "name": "newTH1F",
           "normalized": "String-\u003eString-\u003eInt-\u003eDouble-\u003eDouble-\u003eIO TH F",
@@ -16322,6 +17734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1F",
           "name": "upcastTH1F",
           "package": "HROOT",
@@ -16331,6 +17744,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1F",
           "name": "upcastTH1F",
           "normalized": "a-\u003eTH F",
@@ -16346,6 +17760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1I",
           "name": "TH1I",
           "package": "HROOT",
@@ -16354,6 +17769,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1I",
           "name": "TH1I",
           "package": "HROOT",
@@ -16367,6 +17783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1I",
           "name": "ITH1I",
           "package": "HROOT",
@@ -16375,6 +17792,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1I",
           "name": "ITH1I",
           "package": "HROOT",
@@ -16388,6 +17806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1I",
           "name": "TH1I",
           "package": "HROOT",
@@ -16396,6 +17815,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1I",
           "name": "TH1I",
           "package": "HROOT",
@@ -16409,6 +17829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1I",
           "name": "TH1I",
           "package": "HROOT",
@@ -16418,6 +17839,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1I",
           "name": "TH1I",
           "package": "HROOT",
@@ -16431,6 +17853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1I",
           "name": "upcastTH1I",
           "package": "HROOT",
@@ -16440,6 +17863,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1I",
           "name": "upcastTH1I",
           "normalized": "a-\u003eTH I",
@@ -16455,6 +17879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1S",
           "name": "TH1S",
           "package": "HROOT",
@@ -16463,6 +17888,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1S",
           "name": "TH1S",
           "package": "HROOT",
@@ -16476,6 +17902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1S",
           "name": "ITH1S",
           "package": "HROOT",
@@ -16484,6 +17911,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1S",
           "name": "ITH1S",
           "package": "HROOT",
@@ -16497,6 +17925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1S",
           "name": "TH1S",
           "package": "HROOT",
@@ -16505,6 +17934,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1S",
           "name": "TH1S",
           "package": "HROOT",
@@ -16518,6 +17948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1S",
           "name": "TH1S",
           "package": "HROOT",
@@ -16527,6 +17958,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1S",
           "name": "TH1S",
           "package": "HROOT",
@@ -16540,6 +17972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH1S",
           "name": "upcastTH1S",
           "package": "HROOT",
@@ -16549,6 +17982,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH1S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH1S",
           "name": "upcastTH1S",
           "normalized": "a-\u003eTH S",
@@ -16564,6 +17998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "TH2",
           "package": "HROOT",
@@ -16572,6 +18007,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "TH2",
           "package": "HROOT",
@@ -16585,6 +18021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "ITH2",
           "package": "HROOT",
@@ -16593,6 +18030,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "ITH2",
           "package": "HROOT",
@@ -16606,6 +18044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "TH2",
           "package": "HROOT",
@@ -16614,6 +18053,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "TH2",
           "package": "HROOT",
@@ -16627,6 +18067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "TH2",
           "package": "HROOT",
@@ -16636,6 +18077,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "TH2",
           "package": "HROOT",
@@ -16650,6 +18092,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Int_t    Fill(Double_t x, Double_t y);\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "fill2",
           "package": "HROOT",
@@ -16660,6 +18103,7 @@
         "index": {
           "description": "Int Fill Double Double",
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "fill2",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eIO Int",
@@ -16674,6 +18118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "fill2w",
           "package": "HROOT",
@@ -16683,6 +18128,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "fill2w",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO Int",
@@ -16697,6 +18143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "fillN2",
           "package": "HROOT",
@@ -16706,6 +18153,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "fillN2",
           "normalized": "a-\u003eInt-\u003e[Double]-\u003e[Double]-\u003e[Double]-\u003eInt-\u003eIO()",
@@ -16721,6 +18169,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     FillRandom(TH1 *h, Int_t ntimes=5000);\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "fillRandom2",
           "package": "HROOT",
@@ -16731,6 +18180,7 @@
         "index": {
           "description": "void FillRandom TH1 Int ntimes",
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "fillRandom2",
           "normalized": "a-\u003eb-\u003eInt-\u003eIO()",
@@ -16747,6 +18197,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Int_t    FindFirstBinAbove(Double_t threshold=0, Int_t axis=1) const;\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "findFirstBinAbove2",
           "package": "HROOT",
@@ -16757,6 +18208,7 @@
         "index": {
           "description": "Int FindFirstBinAbove Double threshold Int axis const",
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "findFirstBinAbove2",
           "normalized": "a-\u003eDouble-\u003eInt-\u003eIO Int",
@@ -16773,6 +18225,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Int_t    FindLastBinAbove (Double_t threshold=0, Int_t axis=1) const;\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "findLastBinAbove2",
           "package": "HROOT",
@@ -16783,6 +18236,7 @@
         "index": {
           "description": "Int FindLastBinAbove Double threshold Int axis const",
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "findLastBinAbove2",
           "normalized": "a-\u003eDouble-\u003eInt-\u003eIO Int",
@@ -16799,6 +18253,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     FitSlicesX(TF1 *f1=0,Int_t firstybin=0, Int_t lastybin=-1, Int_t cut=0, Option_t *option=\"QNR\", TObjArray* arr = 0); // *MENU*\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "fitSlicesX",
           "package": "HROOT",
@@ -16809,6 +18264,7 @@
         "index": {
           "description": "void FitSlicesX TF1 f1 Int firstybin Int lastybin Int cut Option option QNR TObjArray arr MENU",
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "fitSlicesX",
           "normalized": "a-\u003eb-\u003eInt-\u003eInt-\u003eInt-\u003eString-\u003eb-\u003eIO()",
@@ -16825,6 +18281,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     FitSlicesY(TF1 *f1=0,Int_t firstxbin=0, Int_t lastxbin=-1, Int_t cut=0, Option_t *option=\"QNR\", TObjArray* arr = 0); // *MENU*\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "fitSlicesY",
           "package": "HROOT",
@@ -16835,6 +18292,7 @@
         "index": {
           "description": "void FitSlicesY TF1 f1 Int firstxbin Int lastxbin Int cut Option option QNR TObjArray arr MENU",
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "fitSlicesY",
           "normalized": "a-\u003eb-\u003eInt-\u003eInt-\u003eInt-\u003eString-\u003eb-\u003eIO()",
@@ -16850,6 +18308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "getCorrelationFactor2",
           "package": "HROOT",
@@ -16859,6 +18318,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "getCorrelationFactor2",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO Double",
@@ -16874,6 +18334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "getCovariance2",
           "package": "HROOT",
@@ -16883,6 +18344,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "getCovariance2",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO Double",
@@ -16898,6 +18360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "integral2",
           "package": "HROOT",
@@ -16907,6 +18370,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "integral2",
           "normalized": "a-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eString-\u003eIO Double",
@@ -16922,6 +18386,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e TH2     *Rebin2D(Int_t nxgroup=2, Int_t nygroup=2, const char *newname=\"\");     \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "rebin2D",
           "package": "HROOT",
@@ -16932,6 +18397,7 @@
         "index": {
           "description": "TH2 Rebin2D Int nxgroup Int nygroup const char newname",
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "rebin2D",
           "normalized": "a-\u003eInt-\u003eInt-\u003eString-\u003eIO TH",
@@ -16946,6 +18412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "rebinX2",
           "package": "HROOT",
@@ -16955,6 +18422,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "rebinX2",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO TH",
@@ -16969,6 +18437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "rebinY2",
           "package": "HROOT",
@@ -16978,6 +18447,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "rebinY2",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO TH",
@@ -16993,6 +18463,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     SetShowProjectionX(Int_t nbins);  // *MENU*\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "setShowProjectionX",
           "package": "HROOT",
@@ -17003,6 +18474,7 @@
         "index": {
           "description": "void SetShowProjectionX Int nbins MENU",
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "setShowProjectionX",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -17019,6 +18491,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     SetShowProjectionY(Int_t nbins);  // *MENU*\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "setShowProjectionY",
           "package": "HROOT",
@@ -17029,6 +18502,7 @@
         "index": {
           "description": "void SetShowProjectionY Int nbins MENU",
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "setShowProjectionY",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -17044,6 +18518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "tH2ProjectionX",
           "package": "HROOT",
@@ -17053,6 +18528,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "tH2ProjectionX",
           "normalized": "TH-\u003eString-\u003eInt-\u003eInt-\u003eString-\u003eIO TH D",
@@ -17068,6 +18544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "tH2ProjectionY",
           "package": "HROOT",
@@ -17077,6 +18554,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "tH2ProjectionY",
           "normalized": "TH-\u003eString-\u003eInt-\u003eInt-\u003eString-\u003eIO TH D",
@@ -17092,6 +18570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2",
           "name": "upcastTH2",
           "package": "HROOT",
@@ -17101,6 +18580,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2",
           "name": "upcastTH2",
           "normalized": "a-\u003eTH",
@@ -17116,6 +18596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2C",
           "name": "TH2C",
           "package": "HROOT",
@@ -17124,6 +18605,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2C",
           "name": "TH2C",
           "package": "HROOT",
@@ -17137,6 +18619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2C",
           "name": "ITH2C",
           "package": "HROOT",
@@ -17145,6 +18628,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2C",
           "name": "ITH2C",
           "package": "HROOT",
@@ -17158,6 +18642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2C",
           "name": "TH2C",
           "package": "HROOT",
@@ -17166,6 +18651,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2C",
           "name": "TH2C",
           "package": "HROOT",
@@ -17179,6 +18665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2C",
           "name": "TH2C",
           "package": "HROOT",
@@ -17188,6 +18675,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2C",
           "name": "TH2C",
           "package": "HROOT",
@@ -17201,6 +18689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2C",
           "name": "upcastTH2C",
           "package": "HROOT",
@@ -17210,6 +18699,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2C",
           "name": "upcastTH2C",
           "normalized": "a-\u003eTH C",
@@ -17225,6 +18715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2D",
           "name": "TH2D",
           "package": "HROOT",
@@ -17233,6 +18724,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2D",
           "name": "TH2D",
           "package": "HROOT",
@@ -17246,6 +18738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2D",
           "name": "ITH2D",
           "package": "HROOT",
@@ -17254,6 +18747,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2D",
           "name": "ITH2D",
           "package": "HROOT",
@@ -17267,6 +18761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2D",
           "name": "TH2D",
           "package": "HROOT",
@@ -17275,6 +18770,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2D",
           "name": "TH2D",
           "package": "HROOT",
@@ -17288,6 +18784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2D",
           "name": "TH2D",
           "package": "HROOT",
@@ -17297,6 +18794,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2D",
           "name": "TH2D",
           "package": "HROOT",
@@ -17310,6 +18808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2D",
           "name": "newTH2D",
           "package": "HROOT",
@@ -17319,6 +18818,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2D",
           "name": "newTH2D",
           "normalized": "String-\u003eString-\u003eInt-\u003eDouble-\u003eDouble-\u003eInt-\u003eDouble-\u003eDouble-\u003eIO TH D",
@@ -17334,6 +18834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2D",
           "name": "upcastTH2D",
           "package": "HROOT",
@@ -17343,6 +18844,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2D",
           "name": "upcastTH2D",
           "normalized": "a-\u003eTH D",
@@ -17358,6 +18860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2F",
           "name": "TH2F",
           "package": "HROOT",
@@ -17366,6 +18869,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2F",
           "name": "TH2F",
           "package": "HROOT",
@@ -17379,6 +18883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2F",
           "name": "ITH2F",
           "package": "HROOT",
@@ -17387,6 +18892,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2F",
           "name": "ITH2F",
           "package": "HROOT",
@@ -17400,6 +18906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2F",
           "name": "TH2F",
           "package": "HROOT",
@@ -17408,6 +18915,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2F",
           "name": "TH2F",
           "package": "HROOT",
@@ -17421,6 +18929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2F",
           "name": "TH2F",
           "package": "HROOT",
@@ -17430,6 +18939,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2F",
           "name": "TH2F",
           "package": "HROOT",
@@ -17443,6 +18953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2F",
           "name": "newTH2F",
           "package": "HROOT",
@@ -17452,6 +18963,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2F",
           "name": "newTH2F",
           "normalized": "String-\u003eString-\u003eInt-\u003eDouble-\u003eDouble-\u003eInt-\u003eDouble-\u003eDouble-\u003eIO TH F",
@@ -17467,6 +18979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2F",
           "name": "upcastTH2F",
           "package": "HROOT",
@@ -17476,6 +18989,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2F",
           "name": "upcastTH2F",
           "normalized": "a-\u003eTH F",
@@ -17491,6 +19005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2I",
           "name": "TH2I",
           "package": "HROOT",
@@ -17499,6 +19014,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2I",
           "name": "TH2I",
           "package": "HROOT",
@@ -17512,6 +19028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2I",
           "name": "ITH2I",
           "package": "HROOT",
@@ -17520,6 +19037,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2I",
           "name": "ITH2I",
           "package": "HROOT",
@@ -17533,6 +19051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2I",
           "name": "TH2I",
           "package": "HROOT",
@@ -17541,6 +19060,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2I",
           "name": "TH2I",
           "package": "HROOT",
@@ -17554,6 +19074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2I",
           "name": "TH2I",
           "package": "HROOT",
@@ -17563,6 +19084,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2I",
           "name": "TH2I",
           "package": "HROOT",
@@ -17576,6 +19098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2I",
           "name": "upcastTH2I",
           "package": "HROOT",
@@ -17585,6 +19108,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2I",
           "name": "upcastTH2I",
           "normalized": "a-\u003eTH I",
@@ -17600,6 +19124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2Poly",
           "name": "TH2Poly",
           "package": "HROOT",
@@ -17608,6 +19133,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2Poly",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2Poly",
           "name": "TH2Poly",
           "package": "HROOT",
@@ -17621,6 +19147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2Poly",
           "name": "ITH2Poly",
           "package": "HROOT",
@@ -17629,6 +19156,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2Poly",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2Poly",
           "name": "ITH2Poly",
           "package": "HROOT",
@@ -17642,6 +19170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2Poly",
           "name": "TH2Poly",
           "package": "HROOT",
@@ -17650,6 +19179,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2Poly",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2Poly",
           "name": "TH2Poly",
           "package": "HROOT",
@@ -17663,6 +19193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2Poly",
           "name": "TH2Poly",
           "package": "HROOT",
@@ -17672,6 +19203,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2Poly",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2Poly",
           "name": "TH2Poly",
           "package": "HROOT",
@@ -17685,6 +19217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2Poly",
           "name": "upcastTH2Poly",
           "package": "HROOT",
@@ -17694,6 +19227,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2Poly",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2Poly",
           "name": "upcastTH2Poly",
           "normalized": "a-\u003eTH Poly",
@@ -17709,6 +19243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2S",
           "name": "TH2S",
           "package": "HROOT",
@@ -17717,6 +19252,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2S",
           "name": "TH2S",
           "package": "HROOT",
@@ -17730,6 +19266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2S",
           "name": "ITH2S",
           "package": "HROOT",
@@ -17738,6 +19275,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2S",
           "name": "ITH2S",
           "package": "HROOT",
@@ -17751,6 +19289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2S",
           "name": "TH2S",
           "package": "HROOT",
@@ -17759,6 +19298,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2S",
           "name": "TH2S",
           "package": "HROOT",
@@ -17772,6 +19312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2S",
           "name": "TH2S",
           "package": "HROOT",
@@ -17781,6 +19322,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2S",
           "name": "TH2S",
           "package": "HROOT",
@@ -17794,6 +19336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH2S",
           "name": "upcastTH2S",
           "package": "HROOT",
@@ -17803,6 +19346,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH2S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH2S",
           "name": "upcastTH2S",
           "normalized": "a-\u003eTH S",
@@ -17818,6 +19362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "TH3",
           "package": "HROOT",
@@ -17826,6 +19371,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "TH3",
           "package": "HROOT",
@@ -17839,6 +19385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "ITH3",
           "package": "HROOT",
@@ -17847,6 +19394,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "ITH3",
           "package": "HROOT",
@@ -17860,6 +19408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "TH3",
           "package": "HROOT",
@@ -17868,6 +19417,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "TH3",
           "package": "HROOT",
@@ -17881,6 +19431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "TH3",
           "package": "HROOT",
@@ -17890,6 +19441,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "TH3",
           "package": "HROOT",
@@ -17903,6 +19455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "fill3",
           "package": "HROOT",
@@ -17912,6 +19465,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "fill3",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO Int",
@@ -17926,6 +19480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "fill3w",
           "package": "HROOT",
@@ -17935,6 +19490,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "fill3w",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO Int",
@@ -17949,6 +19505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "fitSlicesZ",
           "package": "HROOT",
@@ -17958,6 +19515,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "fitSlicesZ",
           "normalized": "a-\u003eb-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eString-\u003eIO()",
@@ -17973,6 +19531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "getCorrelationFactor3",
           "package": "HROOT",
@@ -17982,6 +19541,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "getCorrelationFactor3",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO Double",
@@ -17997,6 +19557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "getCovariance3",
           "package": "HROOT",
@@ -18006,6 +19567,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "getCovariance3",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO Double",
@@ -18021,6 +19583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "rebin3D",
           "package": "HROOT",
@@ -18030,6 +19593,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "rebin3D",
           "normalized": "a-\u003eInt-\u003eInt-\u003eInt-\u003eString-\u003eIO TH",
@@ -18044,6 +19608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "rebinX3",
           "package": "HROOT",
@@ -18053,6 +19618,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "rebinX3",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO TH",
@@ -18067,6 +19633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "rebinY3",
           "package": "HROOT",
@@ -18076,6 +19643,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "rebinY3",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO TH",
@@ -18090,6 +19658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "rebinZ3",
           "package": "HROOT",
@@ -18099,6 +19668,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "rebinZ3",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO TH",
@@ -18113,6 +19683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "tH3Project3D",
           "package": "HROOT",
@@ -18122,6 +19693,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "tH3Project3D",
           "normalized": "TH-\u003eString-\u003eIO TH",
@@ -18137,6 +19709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "tH3ProjectionX",
           "package": "HROOT",
@@ -18146,6 +19719,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "tH3ProjectionX",
           "normalized": "TH-\u003eString-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eString-\u003eIO TH D",
@@ -18161,6 +19735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "tH3ProjectionY",
           "package": "HROOT",
@@ -18170,6 +19745,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "tH3ProjectionY",
           "normalized": "TH-\u003eString-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eString-\u003eIO TH D",
@@ -18185,6 +19761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "tH3ProjectionZ",
           "package": "HROOT",
@@ -18194,6 +19771,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "tH3ProjectionZ",
           "normalized": "TH-\u003eString-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eString-\u003eIO TH D",
@@ -18209,6 +19787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3",
           "name": "upcastTH3",
           "package": "HROOT",
@@ -18218,6 +19797,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3",
           "name": "upcastTH3",
           "normalized": "a-\u003eTH",
@@ -18233,6 +19813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3C",
           "name": "TH3C",
           "package": "HROOT",
@@ -18241,6 +19822,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3C",
           "name": "TH3C",
           "package": "HROOT",
@@ -18254,6 +19836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3C",
           "name": "ITH3C",
           "package": "HROOT",
@@ -18262,6 +19845,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3C",
           "name": "ITH3C",
           "package": "HROOT",
@@ -18275,6 +19859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3C",
           "name": "TH3C",
           "package": "HROOT",
@@ -18283,6 +19868,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3C",
           "name": "TH3C",
           "package": "HROOT",
@@ -18296,6 +19882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3C",
           "name": "TH3C",
           "package": "HROOT",
@@ -18305,6 +19892,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3C",
           "name": "TH3C",
           "package": "HROOT",
@@ -18318,6 +19906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3C",
           "name": "upcastTH3C",
           "package": "HROOT",
@@ -18327,6 +19916,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3C",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3C",
           "name": "upcastTH3C",
           "normalized": "a-\u003eTH C",
@@ -18342,6 +19932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3D",
           "name": "TH3D",
           "package": "HROOT",
@@ -18350,6 +19941,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3D",
           "name": "TH3D",
           "package": "HROOT",
@@ -18363,6 +19955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3D",
           "name": "ITH3D",
           "package": "HROOT",
@@ -18371,6 +19964,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3D",
           "name": "ITH3D",
           "package": "HROOT",
@@ -18384,6 +19978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3D",
           "name": "TH3D",
           "package": "HROOT",
@@ -18392,6 +19987,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3D",
           "name": "TH3D",
           "package": "HROOT",
@@ -18405,6 +20001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3D",
           "name": "TH3D",
           "package": "HROOT",
@@ -18414,6 +20011,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3D",
           "name": "TH3D",
           "package": "HROOT",
@@ -18427,6 +20025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3D",
           "name": "upcastTH3D",
           "package": "HROOT",
@@ -18436,6 +20035,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3D",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3D",
           "name": "upcastTH3D",
           "normalized": "a-\u003eTH D",
@@ -18451,6 +20051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3F",
           "name": "TH3F",
           "package": "HROOT",
@@ -18459,6 +20060,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3F",
           "name": "TH3F",
           "package": "HROOT",
@@ -18472,6 +20074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3F",
           "name": "ITH3F",
           "package": "HROOT",
@@ -18480,6 +20083,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3F",
           "name": "ITH3F",
           "package": "HROOT",
@@ -18493,6 +20097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3F",
           "name": "TH3F",
           "package": "HROOT",
@@ -18501,6 +20106,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3F",
           "name": "TH3F",
           "package": "HROOT",
@@ -18514,6 +20120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3F",
           "name": "TH3F",
           "package": "HROOT",
@@ -18523,6 +20130,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3F",
           "name": "TH3F",
           "package": "HROOT",
@@ -18536,6 +20144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3F",
           "name": "upcastTH3F",
           "package": "HROOT",
@@ -18545,6 +20154,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3F",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3F",
           "name": "upcastTH3F",
           "normalized": "a-\u003eTH F",
@@ -18560,6 +20170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3I",
           "name": "TH3I",
           "package": "HROOT",
@@ -18568,6 +20179,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3I",
           "name": "TH3I",
           "package": "HROOT",
@@ -18581,6 +20193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3I",
           "name": "ITH3I",
           "package": "HROOT",
@@ -18589,6 +20202,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3I",
           "name": "ITH3I",
           "package": "HROOT",
@@ -18602,6 +20216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3I",
           "name": "TH3I",
           "package": "HROOT",
@@ -18610,6 +20225,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3I",
           "name": "TH3I",
           "package": "HROOT",
@@ -18623,6 +20239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3I",
           "name": "TH3I",
           "package": "HROOT",
@@ -18632,6 +20249,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3I",
           "name": "TH3I",
           "package": "HROOT",
@@ -18645,6 +20263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3I",
           "name": "upcastTH3I",
           "package": "HROOT",
@@ -18654,6 +20273,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3I",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3I",
           "name": "upcastTH3I",
           "normalized": "a-\u003eTH I",
@@ -18669,6 +20289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3S",
           "name": "TH3S",
           "package": "HROOT",
@@ -18677,6 +20298,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3S",
           "name": "TH3S",
           "package": "HROOT",
@@ -18690,6 +20312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3S",
           "name": "ITH3S",
           "package": "HROOT",
@@ -18698,6 +20321,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3S",
           "name": "ITH3S",
           "package": "HROOT",
@@ -18711,6 +20335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3S",
           "name": "TH3S",
           "package": "HROOT",
@@ -18719,6 +20344,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3S",
           "name": "TH3S",
           "package": "HROOT",
@@ -18732,6 +20358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3S",
           "name": "TH3S",
           "package": "HROOT",
@@ -18741,6 +20368,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3S",
           "name": "TH3S",
           "package": "HROOT",
@@ -18754,6 +20382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TH3S",
           "name": "upcastTH3S",
           "package": "HROOT",
@@ -18763,6 +20392,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TH3S",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TH3S",
           "name": "upcastTH3S",
           "normalized": "a-\u003eTH S",
@@ -18778,6 +20408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.THStack",
           "name": "THStack",
           "package": "HROOT",
@@ -18786,6 +20417,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class THStack",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.THStack",
           "name": "THStack",
           "package": "HROOT",
@@ -18799,6 +20431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.THStack",
           "name": "ITHStack",
           "package": "HROOT",
@@ -18807,6 +20440,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class THStack",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.THStack",
           "name": "ITHStack",
           "package": "HROOT",
@@ -18820,6 +20454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.THStack",
           "name": "THStack",
           "package": "HROOT",
@@ -18828,6 +20463,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class THStack",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.THStack",
           "name": "THStack",
           "package": "HROOT",
@@ -18841,6 +20477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.THStack",
           "name": "THStack",
           "package": "HROOT",
@@ -18850,6 +20487,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class THStack",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.THStack",
           "name": "THStack",
           "package": "HROOT",
@@ -18863,6 +20501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.THStack",
           "name": "newTHStack",
           "package": "HROOT",
@@ -18872,6 +20511,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class THStack",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.THStack",
           "name": "newTHStack",
           "normalized": "String-\u003eString-\u003eIO THStack",
@@ -18887,6 +20527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.THStack",
           "name": "upcastTHStack",
           "package": "HROOT",
@@ -18896,6 +20537,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class THStack",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.THStack",
           "name": "upcastTHStack",
           "normalized": "a-\u003eTHStack",
@@ -18911,6 +20553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TInspectCanvas",
           "name": "TInspectCanvas",
           "package": "HROOT",
@@ -18919,6 +20562,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TInspectCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TInspectCanvas",
           "name": "TInspectCanvas",
           "package": "HROOT",
@@ -18932,6 +20576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TInspectCanvas",
           "name": "ITInspectCanvas",
           "package": "HROOT",
@@ -18940,6 +20585,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TInspectCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TInspectCanvas",
           "name": "ITInspectCanvas",
           "package": "HROOT",
@@ -18953,6 +20599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TInspectCanvas",
           "name": "TInspectCanvas",
           "package": "HROOT",
@@ -18961,6 +20608,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TInspectCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TInspectCanvas",
           "name": "TInspectCanvas",
           "package": "HROOT",
@@ -18974,6 +20622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TInspectCanvas",
           "name": "TInspectCanvas",
           "package": "HROOT",
@@ -18983,6 +20632,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TInspectCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TInspectCanvas",
           "name": "TInspectCanvas",
           "package": "HROOT",
@@ -18996,6 +20646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TInspectCanvas",
           "name": "upcastTInspectCanvas",
           "package": "HROOT",
@@ -19005,6 +20656,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TInspectCanvas",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TInspectCanvas",
           "name": "upcastTInspectCanvas",
           "normalized": "a-\u003eTInspectCanvas",
@@ -19020,6 +20672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TKey",
           "name": "TKey",
           "package": "HROOT",
@@ -19028,6 +20681,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TKey",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TKey",
           "name": "TKey",
           "package": "HROOT",
@@ -19041,6 +20695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TKey",
           "name": "ITKey",
           "package": "HROOT",
@@ -19049,6 +20704,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TKey",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TKey",
           "name": "ITKey",
           "package": "HROOT",
@@ -19062,6 +20718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TKey",
           "name": "TKey",
           "package": "HROOT",
@@ -19070,6 +20727,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TKey",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TKey",
           "name": "TKey",
           "package": "HROOT",
@@ -19083,6 +20741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TKey",
           "name": "TKey",
           "package": "HROOT",
@@ -19092,6 +20751,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TKey",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TKey",
           "name": "TKey",
           "package": "HROOT",
@@ -19105,6 +20765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TKey",
           "name": "upcastTKey",
           "package": "HROOT",
@@ -19114,6 +20775,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TKey",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TKey",
           "name": "upcastTKey",
           "normalized": "a-\u003eTKey",
@@ -19129,6 +20791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLatex",
           "name": "TLatex",
           "package": "HROOT",
@@ -19137,6 +20800,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLatex",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLatex",
           "name": "TLatex",
           "package": "HROOT",
@@ -19150,6 +20814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLatex",
           "name": "ITLatex",
           "package": "HROOT",
@@ -19158,6 +20823,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLatex",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLatex",
           "name": "ITLatex",
           "package": "HROOT",
@@ -19171,6 +20837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLatex",
           "name": "TLatex",
           "package": "HROOT",
@@ -19179,6 +20846,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLatex",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLatex",
           "name": "TLatex",
           "package": "HROOT",
@@ -19192,6 +20860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLatex",
           "name": "TLatex",
           "package": "HROOT",
@@ -19201,6 +20870,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLatex",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLatex",
           "name": "TLatex",
           "package": "HROOT",
@@ -19214,6 +20884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLatex",
           "name": "newTLatex",
           "package": "HROOT",
@@ -19223,6 +20894,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLatex",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLatex",
           "name": "newTLatex",
           "normalized": "Double-\u003eDouble-\u003eString-\u003eIO TLatex",
@@ -19238,6 +20910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLatex",
           "name": "tLatexDrawLatex",
           "package": "HROOT",
@@ -19247,6 +20920,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLatex",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLatex",
           "name": "tLatexDrawLatex",
           "normalized": "TLatex-\u003eDouble-\u003eDouble-\u003eString-\u003eIO TLatex",
@@ -19262,6 +20936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLatex",
           "name": "upcastTLatex",
           "package": "HROOT",
@@ -19271,6 +20946,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLatex",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLatex",
           "name": "upcastTLatex",
           "normalized": "a-\u003eTLatex",
@@ -19286,6 +20962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLegend",
           "name": "TLegend",
           "package": "HROOT",
@@ -19294,6 +20971,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLegend",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLegend",
           "name": "TLegend",
           "package": "HROOT",
@@ -19307,6 +20985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLegend",
           "name": "ITLegend",
           "package": "HROOT",
@@ -19315,6 +20994,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLegend",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLegend",
           "name": "ITLegend",
           "package": "HROOT",
@@ -19328,6 +21008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLegend",
           "name": "TLegend",
           "package": "HROOT",
@@ -19336,6 +21017,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLegend",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLegend",
           "name": "TLegend",
           "package": "HROOT",
@@ -19349,6 +21031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLegend",
           "name": "TLegend",
           "package": "HROOT",
@@ -19358,6 +21041,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLegend",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLegend",
           "name": "TLegend",
           "package": "HROOT",
@@ -19371,6 +21055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLegend",
           "name": "addEntry",
           "package": "HROOT",
@@ -19380,6 +21065,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLegend",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLegend",
           "name": "addEntry",
           "normalized": "a-\u003eb-\u003eString-\u003eString-\u003eIO TLegendEntry",
@@ -19395,6 +21081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLegend",
           "name": "newTLegend",
           "package": "HROOT",
@@ -19404,6 +21091,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLegend",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLegend",
           "name": "newTLegend",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eString-\u003eString-\u003eIO TLegend",
@@ -19419,6 +21107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLegend",
           "name": "upcastTLegend",
           "package": "HROOT",
@@ -19428,6 +21117,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLegend",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLegend",
           "name": "upcastTLegend",
           "normalized": "a-\u003eTLegend",
@@ -19443,6 +21133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLegendEntry",
           "name": "TLegendEntry",
           "package": "HROOT",
@@ -19451,6 +21142,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLegendEntry",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLegendEntry",
           "name": "TLegendEntry",
           "package": "HROOT",
@@ -19464,6 +21156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLegendEntry",
           "name": "ITLegendEntry",
           "package": "HROOT",
@@ -19472,6 +21165,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLegendEntry",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLegendEntry",
           "name": "ITLegendEntry",
           "package": "HROOT",
@@ -19485,6 +21179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLegendEntry",
           "name": "TLegendEntry",
           "package": "HROOT",
@@ -19493,6 +21188,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLegendEntry",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLegendEntry",
           "name": "TLegendEntry",
           "package": "HROOT",
@@ -19506,6 +21202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLegendEntry",
           "name": "TLegendEntry",
           "package": "HROOT",
@@ -19515,6 +21212,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLegendEntry",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLegendEntry",
           "name": "TLegendEntry",
           "package": "HROOT",
@@ -19528,6 +21226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLegendEntry",
           "name": "upcastTLegendEntry",
           "package": "HROOT",
@@ -19537,6 +21236,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLegendEntry",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLegendEntry",
           "name": "upcastTLegendEntry",
           "normalized": "a-\u003eTLegendEntry",
@@ -19552,6 +21252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "TLine",
           "package": "HROOT",
@@ -19560,6 +21261,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "TLine",
           "package": "HROOT",
@@ -19573,6 +21275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "ITLine",
           "package": "HROOT",
@@ -19581,6 +21284,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "ITLine",
           "package": "HROOT",
@@ -19594,6 +21298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "TLine",
           "package": "HROOT",
@@ -19602,6 +21307,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "TLine",
           "package": "HROOT",
@@ -19615,6 +21321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "TLine",
           "package": "HROOT",
@@ -19624,6 +21331,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "TLine",
           "package": "HROOT",
@@ -19637,6 +21345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "drawLine",
           "package": "HROOT",
@@ -19646,6 +21355,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "drawLine",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TLine",
@@ -19661,6 +21371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "drawLineNDC",
           "package": "HROOT",
@@ -19670,6 +21381,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "drawLineNDC",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TLine",
@@ -19685,6 +21397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "newTLine",
           "package": "HROOT",
@@ -19694,6 +21407,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "newTLine",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TLine",
@@ -19709,6 +21423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "paintLine",
           "package": "HROOT",
@@ -19718,6 +21433,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "paintLine",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -19733,6 +21449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "paintLineNDC",
           "package": "HROOT",
@@ -19742,6 +21459,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "paintLineNDC",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -19757,6 +21475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "setX1",
           "package": "HROOT",
@@ -19766,6 +21485,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "setX1",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -19780,6 +21500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "setX2",
           "package": "HROOT",
@@ -19789,6 +21510,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "setX2",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -19803,6 +21525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "setY1",
           "package": "HROOT",
@@ -19812,6 +21535,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "setY1",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -19826,6 +21550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "setY2",
           "package": "HROOT",
@@ -19835,6 +21560,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "setY2",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -19849,6 +21575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "tLineGetX1",
           "package": "HROOT",
@@ -19858,6 +21585,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "tLineGetX1",
           "normalized": "TLine-\u003eIO Double",
@@ -19873,6 +21601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "tLineGetX2",
           "package": "HROOT",
@@ -19882,6 +21611,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "tLineGetX2",
           "normalized": "TLine-\u003eIO Double",
@@ -19897,6 +21627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "tLineGetY1",
           "package": "HROOT",
@@ -19906,6 +21637,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "tLineGetY1",
           "normalized": "TLine-\u003eIO Double",
@@ -19921,6 +21653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "tLineGetY2",
           "package": "HROOT",
@@ -19930,6 +21663,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "tLineGetY2",
           "normalized": "TLine-\u003eIO Double",
@@ -19945,6 +21679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "tLineIsHorizontal",
           "package": "HROOT",
@@ -19954,6 +21689,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "tLineIsHorizontal",
           "normalized": "TLine-\u003eIO Int",
@@ -19969,6 +21705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "tLineIsVertical",
           "package": "HROOT",
@@ -19978,6 +21715,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "tLineIsVertical",
           "normalized": "TLine-\u003eIO Int",
@@ -19993,6 +21731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "tLineSetHorizontal",
           "package": "HROOT",
@@ -20002,6 +21741,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "tLineSetHorizontal",
           "normalized": "TLine-\u003eInt-\u003eIO()",
@@ -20017,6 +21757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "tLineSetVertical",
           "package": "HROOT",
@@ -20026,6 +21767,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "tLineSetVertical",
           "normalized": "TLine-\u003eInt-\u003eIO()",
@@ -20041,6 +21783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TLine",
           "name": "upcastTLine",
           "package": "HROOT",
@@ -20050,6 +21793,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TLine",
           "name": "upcastTLine",
           "normalized": "a-\u003eTLine",
@@ -20065,6 +21809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TList",
           "name": "TList",
           "package": "HROOT",
@@ -20073,6 +21818,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TList",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TList",
           "name": "TList",
           "package": "HROOT",
@@ -20086,6 +21832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TList",
           "name": "ITList",
           "package": "HROOT",
@@ -20094,6 +21841,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TList",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TList",
           "name": "ITList",
           "package": "HROOT",
@@ -20107,6 +21855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TList",
           "name": "TList",
           "package": "HROOT",
@@ -20115,6 +21864,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TList",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TList",
           "name": "TList",
           "package": "HROOT",
@@ -20128,6 +21878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TList",
           "name": "TList",
           "package": "HROOT",
@@ -20137,6 +21888,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TList",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TList",
           "name": "TList",
           "package": "HROOT",
@@ -20150,6 +21902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TList",
           "name": "upcastTList",
           "package": "HROOT",
@@ -20159,6 +21912,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TList",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TList",
           "name": "upcastTList",
           "normalized": "a-\u003eTList",
@@ -20174,6 +21928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNamed",
           "name": "TNamed",
           "package": "HROOT",
@@ -20182,6 +21937,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNamed",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNamed",
           "name": "TNamed",
           "package": "HROOT",
@@ -20196,6 +21952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass TNamed\n   reference : http:\u003cem/\u003eroot.cern.ch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNamed",
           "name": "ITNamed",
           "package": "HROOT",
@@ -20205,6 +21962,7 @@
         "index": {
           "description": "Class TNamed reference http root.cern.ch",
           "hierarchy": "HROOT Class TNamed",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNamed",
           "name": "ITNamed",
           "package": "HROOT",
@@ -20218,6 +21976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNamed",
           "name": "TNamed",
           "package": "HROOT",
@@ -20226,6 +21985,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNamed",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNamed",
           "name": "TNamed",
           "package": "HROOT",
@@ -20239,6 +21999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNamed",
           "name": "TNamed",
           "package": "HROOT",
@@ -20248,6 +22009,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNamed",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNamed",
           "name": "TNamed",
           "package": "HROOT",
@@ -20262,6 +22024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstructor : \n\u003c/p\u003e\u003cpre\u003e TNamed( char* name, char* title) \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNamed",
           "name": "newTNamed",
           "package": "HROOT",
@@ -20272,6 +22035,7 @@
         "index": {
           "description": "constructor TNamed char name char title",
           "hierarchy": "HROOT Class TNamed",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNamed",
           "name": "newTNamed",
           "normalized": "String-\u003eString-\u003eIO TNamed",
@@ -20287,6 +22051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNamed",
           "name": "setName",
           "package": "HROOT",
@@ -20296,6 +22061,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNamed",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNamed",
           "name": "setName",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -20311,6 +22077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNamed",
           "name": "setNameTitle",
           "package": "HROOT",
@@ -20320,6 +22087,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNamed",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNamed",
           "name": "setNameTitle",
           "normalized": "a-\u003eString-\u003eString-\u003eIO()",
@@ -20336,6 +22104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetTitle method\n\u003c/p\u003e\u003cpre\u003e SetTitle( char* name, char* title ) \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNamed",
           "name": "setTitle",
           "package": "HROOT",
@@ -20346,6 +22115,7 @@
         "index": {
           "description": "SetTitle method SetTitle char name char title",
           "hierarchy": "HROOT Class TNamed",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNamed",
           "name": "setTitle",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -20361,6 +22131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNamed",
           "name": "upcastTNamed",
           "package": "HROOT",
@@ -20370,6 +22141,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNamed",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNamed",
           "name": "upcastTNamed",
           "normalized": "a-\u003eTNamed",
@@ -20385,6 +22157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNtuple",
           "name": "TNtuple",
           "package": "HROOT",
@@ -20393,6 +22166,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNtuple",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNtuple",
           "name": "TNtuple",
           "package": "HROOT",
@@ -20406,6 +22180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNtuple",
           "name": "ITNtuple",
           "package": "HROOT",
@@ -20414,6 +22189,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNtuple",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNtuple",
           "name": "ITNtuple",
           "package": "HROOT",
@@ -20427,6 +22203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNtuple",
           "name": "TNtuple",
           "package": "HROOT",
@@ -20435,6 +22212,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNtuple",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNtuple",
           "name": "TNtuple",
           "package": "HROOT",
@@ -20448,6 +22226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNtuple",
           "name": "TNtuple",
           "package": "HROOT",
@@ -20457,6 +22236,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNtuple",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNtuple",
           "name": "TNtuple",
           "package": "HROOT",
@@ -20470,6 +22250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNtuple",
           "name": "newTNtuple",
           "package": "HROOT",
@@ -20479,6 +22260,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNtuple",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNtuple",
           "name": "newTNtuple",
           "normalized": "String-\u003eString-\u003eString-\u003eInt-\u003eIO TNtuple",
@@ -20494,6 +22276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNtuple",
           "name": "upcastTNtuple",
           "package": "HROOT",
@@ -20503,6 +22286,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNtuple",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNtuple",
           "name": "upcastTNtuple",
           "normalized": "a-\u003eTNtuple",
@@ -20518,6 +22302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNtupleD",
           "name": "TNtupleD",
           "package": "HROOT",
@@ -20526,6 +22311,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNtupleD",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNtupleD",
           "name": "TNtupleD",
           "package": "HROOT",
@@ -20539,6 +22325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNtupleD",
           "name": "ITNtupleD",
           "package": "HROOT",
@@ -20547,6 +22334,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNtupleD",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNtupleD",
           "name": "ITNtupleD",
           "package": "HROOT",
@@ -20560,6 +22348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNtupleD",
           "name": "TNtupleD",
           "package": "HROOT",
@@ -20568,6 +22357,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNtupleD",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNtupleD",
           "name": "TNtupleD",
           "package": "HROOT",
@@ -20581,6 +22371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNtupleD",
           "name": "TNtupleD",
           "package": "HROOT",
@@ -20590,6 +22381,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNtupleD",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNtupleD",
           "name": "TNtupleD",
           "package": "HROOT",
@@ -20603,6 +22395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNtupleD",
           "name": "newTNtupleD",
           "package": "HROOT",
@@ -20612,6 +22405,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNtupleD",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNtupleD",
           "name": "newTNtupleD",
           "normalized": "String-\u003eString-\u003eString-\u003eInt-\u003eIO TNtupleD",
@@ -20627,6 +22421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TNtupleD",
           "name": "upcastTNtupleD",
           "package": "HROOT",
@@ -20636,6 +22431,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TNtupleD",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TNtupleD",
           "name": "upcastTNtupleD",
           "normalized": "a-\u003eTNtupleD",
@@ -20651,6 +22447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObjArray",
           "name": "TObjArray",
           "package": "HROOT",
@@ -20659,6 +22456,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObjArray",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObjArray",
           "name": "TObjArray",
           "package": "HROOT",
@@ -20672,6 +22470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObjArray",
           "name": "ITObjArray",
           "package": "HROOT",
@@ -20680,6 +22479,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObjArray",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObjArray",
           "name": "ITObjArray",
           "package": "HROOT",
@@ -20693,6 +22493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObjArray",
           "name": "TObjArray",
           "package": "HROOT",
@@ -20701,6 +22502,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObjArray",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObjArray",
           "name": "TObjArray",
           "package": "HROOT",
@@ -20714,6 +22516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObjArray",
           "name": "TObjArray",
           "package": "HROOT",
@@ -20723,6 +22526,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObjArray",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObjArray",
           "name": "TObjArray",
           "package": "HROOT",
@@ -20736,6 +22540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObjArray",
           "name": "upcastTObjArray",
           "package": "HROOT",
@@ -20745,6 +22550,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObjArray",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObjArray",
           "name": "upcastTObjArray",
           "normalized": "a-\u003eTObjArray",
@@ -20760,6 +22566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "TObject",
           "package": "HROOT",
@@ -20768,6 +22575,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "TObject",
           "package": "HROOT",
@@ -20781,6 +22589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "ITObject",
           "package": "HROOT",
@@ -20789,6 +22598,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "ITObject",
           "package": "HROOT",
@@ -20802,6 +22612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "TObject",
           "package": "HROOT",
@@ -20810,6 +22621,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "TObject",
           "package": "HROOT",
@@ -20823,6 +22635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "TObject",
           "package": "HROOT",
@@ -20832,6 +22645,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "TObject",
           "package": "HROOT",
@@ -20846,6 +22660,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void TObject::Draw( char* option )\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "draw",
           "package": "HROOT",
@@ -20856,6 +22671,7 @@
         "index": {
           "description": "void TObject Draw char option",
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "draw",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -20871,6 +22687,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e TObject* TObject::FindObject( char* name )\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "findObject",
           "package": "HROOT",
@@ -20881,6 +22698,7 @@
         "index": {
           "description": "TObject TObject FindObject char name",
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "findObject",
           "normalized": "a-\u003eString-\u003eIO TObject",
@@ -20897,6 +22715,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e char* TObject::GetName()\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "getName",
           "package": "HROOT",
@@ -20907,6 +22726,7 @@
         "index": {
           "description": "char TObject GetName",
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "getName",
           "normalized": "a-\u003eIO String",
@@ -20922,6 +22742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "isA",
           "package": "HROOT",
@@ -20931,6 +22752,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "isA",
           "normalized": "a-\u003eIO TClass",
@@ -20945,6 +22767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "isEqual",
           "package": "HROOT",
@@ -20954,6 +22777,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "isEqual",
           "normalized": "a-\u003eb-\u003eIO Int",
@@ -20969,6 +22793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "isFolder",
           "package": "HROOT",
@@ -20978,6 +22803,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "isFolder",
           "normalized": "a-\u003eIO Int",
@@ -20993,6 +22819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "isSortable",
           "package": "HROOT",
@@ -21002,6 +22829,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "isSortable",
           "normalized": "a-\u003eIO Int",
@@ -21017,6 +22845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "newTObject",
           "package": "HROOT",
@@ -21026,6 +22855,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "newTObject",
           "package": "HROOT",
@@ -21040,6 +22870,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     Paint(Option_t *option=\"\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "paint",
           "package": "HROOT",
@@ -21050,6 +22881,7 @@
         "index": {
           "description": "void Paint Option option",
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "paint",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -21064,6 +22896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "printObj",
           "package": "HROOT",
@@ -21073,6 +22906,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "printObj",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -21089,6 +22923,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e void     RecursiveRemove(TObject *obj)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "recursiveRemove",
           "package": "HROOT",
@@ -21099,6 +22934,7 @@
         "index": {
           "description": "void RecursiveRemove TObject obj",
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "recursiveRemove",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -21114,6 +22950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "saveAs",
           "package": "HROOT",
@@ -21123,6 +22960,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "saveAs",
           "normalized": "a-\u003eString-\u003eString-\u003eIO()",
@@ -21138,6 +22976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "tObjectIsOnHeap",
           "package": "HROOT",
@@ -21147,6 +22986,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "tObjectIsOnHeap",
           "normalized": "TObject-\u003eIO Int",
@@ -21162,6 +23002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "tObjectIsZombie",
           "package": "HROOT",
@@ -21171,6 +23012,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "tObjectIsZombie",
           "normalized": "TObject-\u003eIO Int",
@@ -21186,6 +23028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "upcastTObject",
           "package": "HROOT",
@@ -21195,6 +23038,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "upcastTObject",
           "normalized": "a-\u003eTObject",
@@ -21210,6 +23054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "useCurrentStyle",
           "package": "HROOT",
@@ -21219,6 +23064,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "useCurrentStyle",
           "normalized": "a-\u003eIO()",
@@ -21234,6 +23080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TObject",
           "name": "write",
           "package": "HROOT",
@@ -21243,6 +23090,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TObject",
           "name": "write",
           "normalized": "a-\u003eString-\u003eInt-\u003eInt-\u003eIO Int",
@@ -21257,6 +23105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPCON",
           "name": "TPCON",
           "package": "HROOT",
@@ -21265,6 +23114,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPCON",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPCON",
           "name": "TPCON",
           "package": "HROOT",
@@ -21278,6 +23128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPCON",
           "name": "ITPCON",
           "package": "HROOT",
@@ -21286,6 +23137,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPCON",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPCON",
           "name": "ITPCON",
           "package": "HROOT",
@@ -21299,6 +23151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPCON",
           "name": "TPCON",
           "package": "HROOT",
@@ -21307,6 +23160,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPCON",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPCON",
           "name": "TPCON",
           "package": "HROOT",
@@ -21320,6 +23174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPCON",
           "name": "TPCON",
           "package": "HROOT",
@@ -21329,6 +23184,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPCON",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPCON",
           "name": "TPCON",
           "package": "HROOT",
@@ -21342,6 +23198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPCON",
           "name": "newTPCON",
           "package": "HROOT",
@@ -21351,6 +23208,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPCON",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPCON",
           "name": "newTPCON",
           "normalized": "String-\u003eString-\u003eString-\u003eDouble-\u003eDouble-\u003eInt-\u003eIO TPCON",
@@ -21366,6 +23224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPCON",
           "name": "upcastTPCON",
           "package": "HROOT",
@@ -21375,6 +23234,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPCON",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPCON",
           "name": "upcastTPCON",
           "normalized": "a-\u003eTPCON",
@@ -21390,6 +23250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPad",
           "name": "TPad",
           "package": "HROOT",
@@ -21398,6 +23259,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPad",
           "name": "TPad",
           "package": "HROOT",
@@ -21411,6 +23273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPad",
           "name": "ITPad",
           "package": "HROOT",
@@ -21419,6 +23282,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPad",
           "name": "ITPad",
           "package": "HROOT",
@@ -21432,6 +23296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPad",
           "name": "TPad",
           "package": "HROOT",
@@ -21440,6 +23305,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPad",
           "name": "TPad",
           "package": "HROOT",
@@ -21453,6 +23319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPad",
           "name": "TPad",
           "package": "HROOT",
@@ -21462,6 +23329,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPad",
           "name": "TPad",
           "package": "HROOT",
@@ -21475,6 +23343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPad",
           "name": "upcastTPad",
           "package": "HROOT",
@@ -21484,6 +23353,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPad",
           "name": "upcastTPad",
           "normalized": "a-\u003eTPad",
@@ -21499,6 +23369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPave",
           "name": "TPave",
           "package": "HROOT",
@@ -21507,6 +23378,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPave",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPave",
           "name": "TPave",
           "package": "HROOT",
@@ -21520,6 +23392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPave",
           "name": "ITPave",
           "package": "HROOT",
@@ -21528,6 +23401,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPave",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPave",
           "name": "ITPave",
           "package": "HROOT",
@@ -21541,6 +23415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPave",
           "name": "TPave",
           "package": "HROOT",
@@ -21549,6 +23424,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPave",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPave",
           "name": "TPave",
           "package": "HROOT",
@@ -21562,6 +23438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPave",
           "name": "TPave",
           "package": "HROOT",
@@ -21571,6 +23448,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPave",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPave",
           "name": "TPave",
           "package": "HROOT",
@@ -21584,6 +23462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPave",
           "name": "newTPave",
           "package": "HROOT",
@@ -21593,6 +23472,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPave",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPave",
           "name": "newTPave",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eString-\u003eIO TPave",
@@ -21608,6 +23488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPave",
           "name": "upcastTPave",
           "package": "HROOT",
@@ -21617,6 +23498,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPave",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPave",
           "name": "upcastTPave",
           "normalized": "a-\u003eTPave",
@@ -21632,6 +23514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveClass",
           "name": "TPaveClass",
           "package": "HROOT",
@@ -21640,6 +23523,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveClass",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveClass",
           "name": "TPaveClass",
           "package": "HROOT",
@@ -21653,6 +23537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveClass",
           "name": "ITPaveClass",
           "package": "HROOT",
@@ -21661,6 +23546,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveClass",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveClass",
           "name": "ITPaveClass",
           "package": "HROOT",
@@ -21674,6 +23560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveClass",
           "name": "TPaveClass",
           "package": "HROOT",
@@ -21682,6 +23569,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveClass",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveClass",
           "name": "TPaveClass",
           "package": "HROOT",
@@ -21695,6 +23583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveClass",
           "name": "TPaveClass",
           "package": "HROOT",
@@ -21704,6 +23593,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveClass",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveClass",
           "name": "TPaveClass",
           "package": "HROOT",
@@ -21717,6 +23607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveClass",
           "name": "upcastTPaveClass",
           "package": "HROOT",
@@ -21726,6 +23617,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveClass",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveClass",
           "name": "upcastTPaveClass",
           "normalized": "a-\u003eTPaveClass",
@@ -21741,6 +23633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveLabel",
           "name": "TPaveLabel",
           "package": "HROOT",
@@ -21749,6 +23642,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveLabel",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveLabel",
           "name": "TPaveLabel",
           "package": "HROOT",
@@ -21762,6 +23656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveLabel",
           "name": "ITPaveLabel",
           "package": "HROOT",
@@ -21770,6 +23665,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveLabel",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveLabel",
           "name": "ITPaveLabel",
           "package": "HROOT",
@@ -21783,6 +23679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveLabel",
           "name": "TPaveLabel",
           "package": "HROOT",
@@ -21791,6 +23688,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveLabel",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveLabel",
           "name": "TPaveLabel",
           "package": "HROOT",
@@ -21804,6 +23702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveLabel",
           "name": "TPaveLabel",
           "package": "HROOT",
@@ -21813,6 +23712,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveLabel",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveLabel",
           "name": "TPaveLabel",
           "package": "HROOT",
@@ -21826,6 +23726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveLabel",
           "name": "newTPaveLabel",
           "package": "HROOT",
@@ -21835,6 +23736,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveLabel",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveLabel",
           "name": "newTPaveLabel",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eString-\u003eString-\u003eIO TPaveLabel",
@@ -21850,6 +23752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveLabel",
           "name": "upcastTPaveLabel",
           "package": "HROOT",
@@ -21859,6 +23762,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveLabel",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveLabel",
           "name": "upcastTPaveLabel",
           "normalized": "a-\u003eTPaveLabel",
@@ -21874,6 +23778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveStats",
           "name": "TPaveStats",
           "package": "HROOT",
@@ -21882,6 +23787,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveStats",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveStats",
           "name": "TPaveStats",
           "package": "HROOT",
@@ -21895,6 +23801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveStats",
           "name": "ITPaveStats",
           "package": "HROOT",
@@ -21903,6 +23810,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveStats",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveStats",
           "name": "ITPaveStats",
           "package": "HROOT",
@@ -21916,6 +23824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveStats",
           "name": "TPaveStats",
           "package": "HROOT",
@@ -21924,6 +23833,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveStats",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveStats",
           "name": "TPaveStats",
           "package": "HROOT",
@@ -21937,6 +23847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveStats",
           "name": "TPaveStats",
           "package": "HROOT",
@@ -21946,6 +23857,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveStats",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveStats",
           "name": "TPaveStats",
           "package": "HROOT",
@@ -21959,6 +23871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveStats",
           "name": "newTPaveStats",
           "package": "HROOT",
@@ -21968,6 +23881,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveStats",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveStats",
           "name": "newTPaveStats",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eString-\u003eIO TPaveStats",
@@ -21983,6 +23897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveStats",
           "name": "upcastTPaveStats",
           "package": "HROOT",
@@ -21992,6 +23907,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveStats",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveStats",
           "name": "upcastTPaveStats",
           "normalized": "a-\u003eTPaveStats",
@@ -22007,6 +23923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveText",
           "name": "TPaveText",
           "package": "HROOT",
@@ -22015,6 +23932,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveText",
           "name": "TPaveText",
           "package": "HROOT",
@@ -22028,6 +23946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveText",
           "name": "ITPaveText",
           "package": "HROOT",
@@ -22036,6 +23955,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveText",
           "name": "ITPaveText",
           "package": "HROOT",
@@ -22049,6 +23969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveText",
           "name": "TPaveText",
           "package": "HROOT",
@@ -22057,6 +23978,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveText",
           "name": "TPaveText",
           "package": "HROOT",
@@ -22070,6 +23992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveText",
           "name": "TPaveText",
           "package": "HROOT",
@@ -22079,6 +24002,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveText",
           "name": "TPaveText",
           "package": "HROOT",
@@ -22092,6 +24016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveText",
           "name": "newTPaveText",
           "package": "HROOT",
@@ -22101,6 +24026,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveText",
           "name": "newTPaveText",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eString-\u003eIO TPaveText",
@@ -22116,6 +24042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPaveText",
           "name": "upcastTPaveText",
           "package": "HROOT",
@@ -22125,6 +24052,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPaveText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPaveText",
           "name": "upcastTPaveText",
           "normalized": "a-\u003eTPaveText",
@@ -22140,6 +24068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPavesText",
           "name": "TPavesText",
           "package": "HROOT",
@@ -22148,6 +24077,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPavesText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPavesText",
           "name": "TPavesText",
           "package": "HROOT",
@@ -22161,6 +24091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPavesText",
           "name": "ITPavesText",
           "package": "HROOT",
@@ -22169,6 +24100,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPavesText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPavesText",
           "name": "ITPavesText",
           "package": "HROOT",
@@ -22182,6 +24114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPavesText",
           "name": "TPavesText",
           "package": "HROOT",
@@ -22190,6 +24123,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPavesText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPavesText",
           "name": "TPavesText",
           "package": "HROOT",
@@ -22203,6 +24137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPavesText",
           "name": "TPavesText",
           "package": "HROOT",
@@ -22212,6 +24147,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPavesText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPavesText",
           "name": "TPavesText",
           "package": "HROOT",
@@ -22225,6 +24161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPavesText",
           "name": "newTPavesText",
           "package": "HROOT",
@@ -22234,6 +24171,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPavesText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPavesText",
           "name": "newTPavesText",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eString-\u003eIO TPavesText",
@@ -22249,6 +24187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPavesText",
           "name": "upcastTPavesText",
           "package": "HROOT",
@@ -22258,6 +24197,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPavesText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPavesText",
           "name": "upcastTPavesText",
           "normalized": "a-\u003eTPavesText",
@@ -22273,6 +24213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPolyLine",
           "name": "TPolyLine",
           "package": "HROOT",
@@ -22281,6 +24222,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPolyLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPolyLine",
           "name": "TPolyLine",
           "package": "HROOT",
@@ -22294,6 +24236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPolyLine",
           "name": "ITPolyLine",
           "package": "HROOT",
@@ -22302,6 +24245,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPolyLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPolyLine",
           "name": "ITPolyLine",
           "package": "HROOT",
@@ -22315,6 +24259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPolyLine",
           "name": "TPolyLine",
           "package": "HROOT",
@@ -22323,6 +24268,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPolyLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPolyLine",
           "name": "TPolyLine",
           "package": "HROOT",
@@ -22336,6 +24282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPolyLine",
           "name": "TPolyLine",
           "package": "HROOT",
@@ -22345,6 +24292,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPolyLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPolyLine",
           "name": "TPolyLine",
           "package": "HROOT",
@@ -22358,6 +24306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPolyLine",
           "name": "newTPolyLine",
           "package": "HROOT",
@@ -22367,6 +24316,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPolyLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPolyLine",
           "name": "newTPolyLine",
           "normalized": "Int-\u003e[Double]-\u003e[Double]-\u003eString-\u003eIO TPolyLine",
@@ -22382,6 +24332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TPolyLine",
           "name": "upcastTPolyLine",
           "package": "HROOT",
@@ -22391,6 +24342,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TPolyLine",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TPolyLine",
           "name": "upcastTPolyLine",
           "normalized": "a-\u003eTPolyLine",
@@ -22406,6 +24358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TQObject",
           "name": "TQObject",
           "package": "HROOT",
@@ -22414,6 +24367,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TQObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TQObject",
           "name": "TQObject",
           "package": "HROOT",
@@ -22427,6 +24381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TQObject",
           "name": "ITQObject",
           "package": "HROOT",
@@ -22435,6 +24390,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TQObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TQObject",
           "name": "ITQObject",
           "package": "HROOT",
@@ -22448,6 +24404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TQObject",
           "name": "TQObject",
           "package": "HROOT",
@@ -22456,6 +24413,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TQObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TQObject",
           "name": "TQObject",
           "package": "HROOT",
@@ -22469,6 +24427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TQObject",
           "name": "TQObject",
           "package": "HROOT",
@@ -22478,6 +24437,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TQObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TQObject",
           "name": "TQObject",
           "package": "HROOT",
@@ -22491,6 +24451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TQObject",
           "name": "upcastTQObject",
           "package": "HROOT",
@@ -22500,6 +24461,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TQObject",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TQObject",
           "name": "upcastTQObject",
           "normalized": "a-\u003eTQObject",
@@ -22515,6 +24477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "TROOT",
           "package": "HROOT",
@@ -22523,6 +24486,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "TROOT",
           "package": "HROOT",
@@ -22536,6 +24500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "ITROOT",
           "package": "HROOT",
@@ -22544,6 +24509,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "ITROOT",
           "package": "HROOT",
@@ -22557,6 +24523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "TROOT",
           "package": "HROOT",
@@ -22565,6 +24532,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "TROOT",
           "package": "HROOT",
@@ -22578,6 +24546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "TROOT",
           "package": "HROOT",
@@ -22587,6 +24556,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "TROOT",
           "package": "HROOT",
@@ -22600,6 +24570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfBrowsers",
           "package": "HROOT",
@@ -22609,6 +24580,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfBrowsers",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22624,6 +24596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfCanvases",
           "package": "HROOT",
@@ -22633,6 +24606,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfCanvases",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22648,6 +24622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfCleanups",
           "package": "HROOT",
@@ -22657,6 +24632,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfCleanups",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22672,6 +24648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfClosedObjects",
           "package": "HROOT",
@@ -22681,6 +24658,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfClosedObjects",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22696,6 +24674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfColors",
           "package": "HROOT",
@@ -22705,6 +24684,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfColors",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22720,6 +24700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfFiles",
           "package": "HROOT",
@@ -22729,6 +24710,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfFiles",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22744,6 +24726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfFunctions",
           "package": "HROOT",
@@ -22753,6 +24736,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfFunctions",
           "normalized": "TROOT-\u003eIO TCollection",
@@ -22768,6 +24752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfGeometries",
           "package": "HROOT",
@@ -22777,6 +24762,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfGeometries",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22792,6 +24778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfGlobalFunctions",
           "package": "HROOT",
@@ -22801,6 +24788,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfGlobalFunctions",
           "normalized": "TROOT-\u003eInt-\u003eIO TCollection",
@@ -22816,6 +24804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfGlobals",
           "package": "HROOT",
@@ -22825,6 +24814,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfGlobals",
           "normalized": "TROOT-\u003eInt-\u003eIO TCollection",
@@ -22840,6 +24830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfMappedFiles",
           "package": "HROOT",
@@ -22849,6 +24840,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfMappedFiles",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22864,6 +24856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfSockets",
           "package": "HROOT",
@@ -22873,6 +24866,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfSockets",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22888,6 +24882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfSpecials",
           "package": "HROOT",
@@ -22897,6 +24892,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfSpecials",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22912,6 +24908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfStreamerInfo",
           "package": "HROOT",
@@ -22921,6 +24918,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfStreamerInfo",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22936,6 +24934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfStyles",
           "package": "HROOT",
@@ -22945,6 +24944,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfStyles",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22960,6 +24960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfTasks",
           "package": "HROOT",
@@ -22969,6 +24970,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfTasks",
           "normalized": "TROOT-\u003eIO TSeqCollection",
@@ -22984,6 +24986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfTypes",
           "package": "HROOT",
@@ -22993,6 +24996,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "tROOTGetListOfTypes",
           "normalized": "TROOT-\u003eInt-\u003eIO TCollection",
@@ -23008,6 +25012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TROOT",
           "name": "upcastTROOT",
           "package": "HROOT",
@@ -23017,6 +25022,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TROOT",
           "name": "upcastTROOT",
           "normalized": "a-\u003eTROOT",
@@ -23032,6 +25038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRandom",
           "name": "TRandom",
           "package": "HROOT",
@@ -23040,6 +25047,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRandom",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRandom",
           "name": "TRandom",
           "package": "HROOT",
@@ -23053,6 +25061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRandom",
           "name": "ITRandom",
           "package": "HROOT",
@@ -23061,6 +25070,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRandom",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRandom",
           "name": "ITRandom",
           "package": "HROOT",
@@ -23074,6 +25084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRandom",
           "name": "TRandom",
           "package": "HROOT",
@@ -23082,6 +25093,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRandom",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRandom",
           "name": "TRandom",
           "package": "HROOT",
@@ -23095,6 +25107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRandom",
           "name": "TRandom",
           "package": "HROOT",
@@ -23104,6 +25117,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRandom",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRandom",
           "name": "TRandom",
           "package": "HROOT",
@@ -23117,6 +25131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRandom",
           "name": "gaus",
           "package": "HROOT",
@@ -23126,6 +25141,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRandom",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRandom",
           "name": "gaus",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eIO Double",
@@ -23140,6 +25156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRandom",
           "name": "newTRandom",
           "package": "HROOT",
@@ -23149,6 +25166,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRandom",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRandom",
           "name": "newTRandom",
           "normalized": "Int-\u003eIO TRandom",
@@ -23164,6 +25182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRandom",
           "name": "uniform",
           "package": "HROOT",
@@ -23173,6 +25192,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRandom",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRandom",
           "name": "uniform",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eIO Double",
@@ -23187,6 +25207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRandom",
           "name": "upcastTRandom",
           "package": "HROOT",
@@ -23196,6 +25217,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRandom",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRandom",
           "name": "upcastTRandom",
           "normalized": "a-\u003eTRandom",
@@ -23211,6 +25233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRint",
           "name": "TRint",
           "package": "HROOT",
@@ -23219,6 +25242,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRint",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRint",
           "name": "TRint",
           "package": "HROOT",
@@ -23232,6 +25256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRint",
           "name": "ITRint",
           "package": "HROOT",
@@ -23240,6 +25265,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRint",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRint",
           "name": "ITRint",
           "package": "HROOT",
@@ -23253,6 +25279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRint",
           "name": "TRint",
           "package": "HROOT",
@@ -23261,6 +25288,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRint",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRint",
           "name": "TRint",
           "package": "HROOT",
@@ -23274,6 +25302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRint",
           "name": "TRint",
           "package": "HROOT",
@@ -23283,6 +25312,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRint",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRint",
           "name": "TRint",
           "package": "HROOT",
@@ -23296,6 +25326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRint",
           "name": "newTRint",
           "package": "HROOT",
@@ -23305,6 +25336,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRint",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRint",
           "name": "newTRint",
           "normalized": "String-\u003e[Int]-\u003e[String]-\u003eIO TRint",
@@ -23320,6 +25352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TRint",
           "name": "upcastTRint",
           "package": "HROOT",
@@ -23329,6 +25362,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TRint",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TRint",
           "name": "upcastTRint",
           "normalized": "a-\u003eTRint",
@@ -23344,6 +25378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSPHE",
           "name": "TSPHE",
           "package": "HROOT",
@@ -23352,6 +25387,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSPHE",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSPHE",
           "name": "TSPHE",
           "package": "HROOT",
@@ -23365,6 +25401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSPHE",
           "name": "ITSPHE",
           "package": "HROOT",
@@ -23373,6 +25410,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSPHE",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSPHE",
           "name": "ITSPHE",
           "package": "HROOT",
@@ -23386,6 +25424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSPHE",
           "name": "TSPHE",
           "package": "HROOT",
@@ -23394,6 +25433,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSPHE",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSPHE",
           "name": "TSPHE",
           "package": "HROOT",
@@ -23407,6 +25447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSPHE",
           "name": "TSPHE",
           "package": "HROOT",
@@ -23416,6 +25457,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSPHE",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSPHE",
           "name": "TSPHE",
           "package": "HROOT",
@@ -23429,6 +25471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSPHE",
           "name": "newTSPHE",
           "package": "HROOT",
@@ -23438,6 +25481,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSPHE",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSPHE",
           "name": "newTSPHE",
           "normalized": "String-\u003eString-\u003eString-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TSPHE",
@@ -23453,6 +25497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSPHE",
           "name": "upcastTSPHE",
           "package": "HROOT",
@@ -23462,6 +25507,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSPHE",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSPHE",
           "name": "upcastTSPHE",
           "normalized": "a-\u003eTSPHE",
@@ -23477,6 +25523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSeqCollection",
           "name": "TSeqCollection",
           "package": "HROOT",
@@ -23485,6 +25532,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSeqCollection",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSeqCollection",
           "name": "TSeqCollection",
           "package": "HROOT",
@@ -23498,6 +25546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSeqCollection",
           "name": "ITSeqCollection",
           "package": "HROOT",
@@ -23506,6 +25555,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSeqCollection",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSeqCollection",
           "name": "ITSeqCollection",
           "package": "HROOT",
@@ -23519,6 +25569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSeqCollection",
           "name": "TSeqCollection",
           "package": "HROOT",
@@ -23527,6 +25578,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSeqCollection",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSeqCollection",
           "name": "TSeqCollection",
           "package": "HROOT",
@@ -23540,6 +25592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSeqCollection",
           "name": "TSeqCollection",
           "package": "HROOT",
@@ -23549,6 +25602,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSeqCollection",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSeqCollection",
           "name": "TSeqCollection",
           "package": "HROOT",
@@ -23562,6 +25616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSeqCollection",
           "name": "upcastTSeqCollection",
           "package": "HROOT",
@@ -23571,6 +25626,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSeqCollection",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSeqCollection",
           "name": "upcastTSeqCollection",
           "normalized": "a-\u003eTSeqCollection",
@@ -23586,6 +25642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TShape",
           "name": "TShape",
           "package": "HROOT",
@@ -23594,6 +25651,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TShape",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TShape",
           "name": "TShape",
           "package": "HROOT",
@@ -23607,6 +25665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TShape",
           "name": "ITShape",
           "package": "HROOT",
@@ -23615,6 +25674,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TShape",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TShape",
           "name": "ITShape",
           "package": "HROOT",
@@ -23628,6 +25688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TShape",
           "name": "TShape",
           "package": "HROOT",
@@ -23636,6 +25697,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TShape",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TShape",
           "name": "TShape",
           "package": "HROOT",
@@ -23649,6 +25711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TShape",
           "name": "TShape",
           "package": "HROOT",
@@ -23658,6 +25721,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TShape",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TShape",
           "name": "TShape",
           "package": "HROOT",
@@ -23671,6 +25735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TShape",
           "name": "newTShape",
           "package": "HROOT",
@@ -23680,6 +25745,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TShape",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TShape",
           "name": "newTShape",
           "normalized": "String-\u003eString-\u003eString-\u003eIO TShape",
@@ -23695,6 +25761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TShape",
           "name": "upcastTShape",
           "package": "HROOT",
@@ -23704,6 +25771,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TShape",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TShape",
           "name": "upcastTShape",
           "normalized": "a-\u003eTShape",
@@ -23719,6 +25787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSlider",
           "name": "TSlider",
           "package": "HROOT",
@@ -23727,6 +25796,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSlider",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSlider",
           "name": "TSlider",
           "package": "HROOT",
@@ -23740,6 +25810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSlider",
           "name": "ITSlider",
           "package": "HROOT",
@@ -23748,6 +25819,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSlider",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSlider",
           "name": "ITSlider",
           "package": "HROOT",
@@ -23761,6 +25833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSlider",
           "name": "TSlider",
           "package": "HROOT",
@@ -23769,6 +25842,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSlider",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSlider",
           "name": "TSlider",
           "package": "HROOT",
@@ -23782,6 +25856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSlider",
           "name": "TSlider",
           "package": "HROOT",
@@ -23791,6 +25866,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSlider",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSlider",
           "name": "TSlider",
           "package": "HROOT",
@@ -23804,6 +25880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSlider",
           "name": "upcastTSlider",
           "package": "HROOT",
@@ -23813,6 +25890,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSlider",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSlider",
           "name": "upcastTSlider",
           "normalized": "a-\u003eTSlider",
@@ -23828,6 +25906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSliderBox",
           "name": "TSliderBox",
           "package": "HROOT",
@@ -23836,6 +25915,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSliderBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSliderBox",
           "name": "TSliderBox",
           "package": "HROOT",
@@ -23849,6 +25929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSliderBox",
           "name": "ITSliderBox",
           "package": "HROOT",
@@ -23857,6 +25938,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSliderBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSliderBox",
           "name": "ITSliderBox",
           "package": "HROOT",
@@ -23870,6 +25952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSliderBox",
           "name": "TSliderBox",
           "package": "HROOT",
@@ -23878,6 +25961,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSliderBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSliderBox",
           "name": "TSliderBox",
           "package": "HROOT",
@@ -23891,6 +25975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSliderBox",
           "name": "TSliderBox",
           "package": "HROOT",
@@ -23900,6 +25985,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSliderBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSliderBox",
           "name": "TSliderBox",
           "package": "HROOT",
@@ -23913,6 +25999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSliderBox",
           "name": "newTSliderBox",
           "package": "HROOT",
@@ -23922,6 +26009,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSliderBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSliderBox",
           "name": "newTSliderBox",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eInt-\u003eInt-\u003eIO TSliderBox",
@@ -23937,6 +26025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TSliderBox",
           "name": "upcastTSliderBox",
           "package": "HROOT",
@@ -23946,6 +26035,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TSliderBox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TSliderBox",
           "name": "upcastTSliderBox",
           "normalized": "a-\u003eTSliderBox",
@@ -23961,6 +26051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTUBE",
           "name": "TTUBE",
           "package": "HROOT",
@@ -23969,6 +26060,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTUBE",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTUBE",
           "name": "TTUBE",
           "package": "HROOT",
@@ -23982,6 +26074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTUBE",
           "name": "ITTUBE",
           "package": "HROOT",
@@ -23990,6 +26083,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTUBE",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTUBE",
           "name": "ITTUBE",
           "package": "HROOT",
@@ -24003,6 +26097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTUBE",
           "name": "TTUBE",
           "package": "HROOT",
@@ -24011,6 +26106,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTUBE",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTUBE",
           "name": "TTUBE",
           "package": "HROOT",
@@ -24024,6 +26120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTUBE",
           "name": "TTUBE",
           "package": "HROOT",
@@ -24033,6 +26130,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTUBE",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTUBE",
           "name": "TTUBE",
           "package": "HROOT",
@@ -24046,6 +26144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTUBE",
           "name": "newTTUBE",
           "package": "HROOT",
@@ -24055,6 +26154,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTUBE",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTUBE",
           "name": "newTTUBE",
           "normalized": "String-\u003eString-\u003eString-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO TTUBE",
@@ -24070,6 +26170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTUBE",
           "name": "upcastTTUBE",
           "package": "HROOT",
@@ -24079,6 +26180,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTUBE",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTUBE",
           "name": "upcastTTUBE",
           "normalized": "a-\u003eTTUBE",
@@ -24094,6 +26196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TText",
           "name": "TText",
           "package": "HROOT",
@@ -24102,6 +26205,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TText",
           "name": "TText",
           "package": "HROOT",
@@ -24115,6 +26219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TText",
           "name": "ITText",
           "package": "HROOT",
@@ -24123,6 +26228,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TText",
           "name": "ITText",
           "package": "HROOT",
@@ -24136,6 +26242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TText",
           "name": "TText",
           "package": "HROOT",
@@ -24144,6 +26251,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TText",
           "name": "TText",
           "package": "HROOT",
@@ -24157,6 +26265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TText",
           "name": "TText",
           "package": "HROOT",
@@ -24166,6 +26275,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TText",
           "name": "TText",
           "package": "HROOT",
@@ -24179,6 +26289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TText",
           "name": "drawText",
           "package": "HROOT",
@@ -24188,6 +26299,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TText",
           "name": "drawText",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eString-\u003eIO TText",
@@ -24203,6 +26315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TText",
           "name": "drawTextNDC",
           "package": "HROOT",
@@ -24212,6 +26325,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TText",
           "name": "drawTextNDC",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eString-\u003eIO TText",
@@ -24227,6 +26341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TText",
           "name": "getControlBox",
           "package": "HROOT",
@@ -24236,6 +26351,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TText",
           "name": "getControlBox",
           "normalized": "a-\u003eInt-\u003eInt-\u003eInt-\u003e[Int]-\u003e[Int]-\u003eIO()",
@@ -24251,6 +26367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TText",
           "name": "newTText",
           "package": "HROOT",
@@ -24260,6 +26377,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TText",
           "name": "newTText",
           "normalized": "Double-\u003eDouble-\u003eString-\u003eIO TText",
@@ -24275,6 +26393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TText",
           "name": "setText",
           "package": "HROOT",
@@ -24284,6 +26403,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TText",
           "name": "setText",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eString-\u003eIO()",
@@ -24299,6 +26419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TText",
           "name": "upcastTText",
           "package": "HROOT",
@@ -24308,6 +26429,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TText",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TText",
           "name": "upcastTText",
           "normalized": "a-\u003eTText",
@@ -24323,6 +26445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTree",
           "name": "TTree",
           "package": "HROOT",
@@ -24331,6 +26454,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTree",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTree",
           "name": "TTree",
           "package": "HROOT",
@@ -24344,6 +26468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTree",
           "name": "ITTree",
           "package": "HROOT",
@@ -24352,6 +26477,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTree",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTree",
           "name": "ITTree",
           "package": "HROOT",
@@ -24365,6 +26491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTree",
           "name": "TTree",
           "package": "HROOT",
@@ -24373,6 +26500,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTree",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTree",
           "name": "TTree",
           "package": "HROOT",
@@ -24386,6 +26514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTree",
           "name": "TTree",
           "package": "HROOT",
@@ -24395,6 +26524,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTree",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTree",
           "name": "TTree",
           "package": "HROOT",
@@ -24408,6 +26538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTree",
           "name": "newTTree",
           "package": "HROOT",
@@ -24417,6 +26548,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTree",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTree",
           "name": "newTTree",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO TTree",
@@ -24432,6 +26564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTree",
           "name": "upcastTTree",
           "package": "HROOT",
@@ -24441,6 +26574,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTree",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTree",
           "name": "upcastTTree",
           "normalized": "a-\u003eTTree",
@@ -24456,6 +26590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTreePlayer",
           "name": "TTreePlayer",
           "package": "HROOT",
@@ -24464,6 +26599,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTreePlayer",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTreePlayer",
           "name": "TTreePlayer",
           "package": "HROOT",
@@ -24477,6 +26613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTreePlayer",
           "name": "ITTreePlayer",
           "package": "HROOT",
@@ -24485,6 +26622,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTreePlayer",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTreePlayer",
           "name": "ITTreePlayer",
           "package": "HROOT",
@@ -24498,6 +26636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTreePlayer",
           "name": "TTreePlayer",
           "package": "HROOT",
@@ -24506,6 +26645,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTreePlayer",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTreePlayer",
           "name": "TTreePlayer",
           "package": "HROOT",
@@ -24519,6 +26659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTreePlayer",
           "name": "TTreePlayer",
           "package": "HROOT",
@@ -24528,6 +26669,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTreePlayer",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTreePlayer",
           "name": "TTreePlayer",
           "package": "HROOT",
@@ -24541,6 +26683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTreePlayer",
           "name": "upcastTTreePlayer",
           "package": "HROOT",
@@ -24550,6 +26693,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTreePlayer",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTreePlayer",
           "name": "upcastTTreePlayer",
           "normalized": "a-\u003eTTreePlayer",
@@ -24565,6 +26709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTreeSQL",
           "name": "TTreeSQL",
           "package": "HROOT",
@@ -24573,6 +26718,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTreeSQL",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTreeSQL",
           "name": "TTreeSQL",
           "package": "HROOT",
@@ -24586,6 +26732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTreeSQL",
           "name": "ITTreeSQL",
           "package": "HROOT",
@@ -24594,6 +26741,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTreeSQL",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTreeSQL",
           "name": "ITTreeSQL",
           "package": "HROOT",
@@ -24607,6 +26755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTreeSQL",
           "name": "TTreeSQL",
           "package": "HROOT",
@@ -24615,6 +26764,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTreeSQL",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTreeSQL",
           "name": "TTreeSQL",
           "package": "HROOT",
@@ -24628,6 +26778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTreeSQL",
           "name": "TTreeSQL",
           "package": "HROOT",
@@ -24637,6 +26788,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTreeSQL",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTreeSQL",
           "name": "TTreeSQL",
           "package": "HROOT",
@@ -24650,6 +26802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TTreeSQL",
           "name": "upcastTTreeSQL",
           "package": "HROOT",
@@ -24659,6 +26812,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TTreeSQL",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TTreeSQL",
           "name": "upcastTTreeSQL",
           "normalized": "a-\u003eTTreeSQL",
@@ -24674,6 +26828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualHistPainter",
           "name": "TVirtualHistPainter",
           "package": "HROOT",
@@ -24682,6 +26837,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualHistPainter",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualHistPainter",
           "name": "TVirtualHistPainter",
           "package": "HROOT",
@@ -24695,6 +26851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualHistPainter",
           "name": "ITVirtualHistPainter",
           "package": "HROOT",
@@ -24703,6 +26860,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualHistPainter",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualHistPainter",
           "name": "ITVirtualHistPainter",
           "package": "HROOT",
@@ -24716,6 +26874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualPad",
           "name": "TVirtualPad",
           "package": "HROOT",
@@ -24724,6 +26883,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualPad",
           "name": "TVirtualPad",
           "package": "HROOT",
@@ -24737,6 +26897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualPad",
           "name": "ITVirtualPad",
           "package": "HROOT",
@@ -24745,6 +26906,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualPad",
           "name": "ITVirtualPad",
           "package": "HROOT",
@@ -24758,6 +26920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualPad",
           "name": "TVirtualPad",
           "package": "HROOT",
@@ -24766,6 +26929,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualPad",
           "name": "TVirtualPad",
           "package": "HROOT",
@@ -24779,6 +26943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualPad",
           "name": "TVirtualPad",
           "package": "HROOT",
@@ -24788,6 +26953,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualPad",
           "name": "TVirtualPad",
           "package": "HROOT",
@@ -24801,6 +26967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualPad",
           "name": "cd",
           "package": "HROOT",
@@ -24810,6 +26977,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualPad",
           "name": "cd",
           "normalized": "a-\u003eInt-\u003eIO TVirtualPad",
@@ -24824,6 +26992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualPad",
           "name": "getFrame",
           "package": "HROOT",
@@ -24833,6 +27002,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualPad",
           "name": "getFrame",
           "normalized": "a-\u003eIO TFrame",
@@ -24848,6 +27018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualPad",
           "name": "modified",
           "package": "HROOT",
@@ -24857,6 +27028,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualPad",
           "name": "modified",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -24871,6 +27043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualPad",
           "name": "range",
           "package": "HROOT",
@@ -24880,6 +27053,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualPad",
           "name": "range",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -24894,6 +27068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualPad",
           "name": "upcastTVirtualPad",
           "package": "HROOT",
@@ -24903,6 +27078,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualPad",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualPad",
           "name": "upcastTVirtualPad",
           "normalized": "a-\u003eTVirtualPad",
@@ -24918,6 +27094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualTreePlayer",
           "name": "TVirtualTreePlayer",
           "package": "HROOT",
@@ -24926,6 +27103,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualTreePlayer",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualTreePlayer",
           "name": "TVirtualTreePlayer",
           "package": "HROOT",
@@ -24939,6 +27117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualTreePlayer",
           "name": "ITVirtualTreePlayer",
           "package": "HROOT",
@@ -24947,6 +27126,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualTreePlayer",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualTreePlayer",
           "name": "ITVirtualTreePlayer",
           "package": "HROOT",
@@ -24960,6 +27140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualTreePlayer",
           "name": "TVirtualTreePlayer",
           "package": "HROOT",
@@ -24968,6 +27149,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualTreePlayer",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualTreePlayer",
           "name": "TVirtualTreePlayer",
           "package": "HROOT",
@@ -24981,6 +27163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualTreePlayer",
           "name": "TVirtualTreePlayer",
           "package": "HROOT",
@@ -24990,6 +27173,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualTreePlayer",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualTreePlayer",
           "name": "TVirtualTreePlayer",
           "package": "HROOT",
@@ -25003,6 +27187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TVirtualTreePlayer",
           "name": "upcastTVirtualTreePlayer",
           "package": "HROOT",
@@ -25012,6 +27197,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TVirtualTreePlayer",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TVirtualTreePlayer",
           "name": "upcastTVirtualTreePlayer",
           "normalized": "a-\u003eTVirtualTreePlayer",
@@ -25027,6 +27213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TWbox",
           "name": "TWbox",
           "package": "HROOT",
@@ -25035,6 +27222,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TWbox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TWbox",
           "name": "TWbox",
           "package": "HROOT",
@@ -25048,6 +27236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TWbox",
           "name": "ITWbox",
           "package": "HROOT",
@@ -25056,6 +27245,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TWbox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TWbox",
           "name": "ITWbox",
           "package": "HROOT",
@@ -25069,6 +27259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TWbox",
           "name": "TWbox",
           "package": "HROOT",
@@ -25077,6 +27268,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TWbox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TWbox",
           "name": "TWbox",
           "package": "HROOT",
@@ -25090,6 +27282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TWbox",
           "name": "TWbox",
           "package": "HROOT",
@@ -25099,6 +27292,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TWbox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TWbox",
           "name": "TWbox",
           "package": "HROOT",
@@ -25112,6 +27306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TWbox",
           "name": "newTWbox",
           "package": "HROOT",
@@ -25121,6 +27316,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TWbox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TWbox",
           "name": "newTWbox",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eInt-\u003eInt-\u003eIO TWbox",
@@ -25136,6 +27332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TWbox",
           "name": "setBorderMode",
           "package": "HROOT",
@@ -25145,6 +27342,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TWbox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TWbox",
           "name": "setBorderMode",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -25160,6 +27358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TWbox",
           "name": "upcastTWbox",
           "package": "HROOT",
@@ -25169,6 +27368,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TWbox",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TWbox",
           "name": "upcastTWbox",
           "normalized": "a-\u003eTWbox",
@@ -25184,6 +27384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TXTRU",
           "name": "TXTRU",
           "package": "HROOT",
@@ -25192,6 +27393,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TXTRU",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TXTRU",
           "name": "TXTRU",
           "package": "HROOT",
@@ -25205,6 +27407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TXTRU",
           "name": "ITXTRU",
           "package": "HROOT",
@@ -25213,6 +27416,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TXTRU",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TXTRU",
           "name": "ITXTRU",
           "package": "HROOT",
@@ -25226,6 +27430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TXTRU",
           "name": "TXTRU",
           "package": "HROOT",
@@ -25234,6 +27439,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TXTRU",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TXTRU",
           "name": "TXTRU",
           "package": "HROOT",
@@ -25247,6 +27453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TXTRU",
           "name": "TXTRU",
           "package": "HROOT",
@@ -25256,6 +27463,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TXTRU",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TXTRU",
           "name": "TXTRU",
           "package": "HROOT",
@@ -25269,6 +27477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TXTRU",
           "name": "newTXTRU",
           "package": "HROOT",
@@ -25278,6 +27487,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TXTRU",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TXTRU",
           "name": "newTXTRU",
           "normalized": "String-\u003eString-\u003eString-\u003eInt-\u003eInt-\u003eIO TXTRU",
@@ -25293,6 +27503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.Class.TXTRU",
           "name": "upcastTXTRU",
           "package": "HROOT",
@@ -25302,6 +27513,7 @@
         },
         "index": {
           "hierarchy": "HROOT Class TXTRU",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.Class.TXTRU",
           "name": "upcastTXTRU",
           "normalized": "a-\u003eTXTRU",
@@ -25317,6 +27529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "TypeCast",
           "package": "HROOT",
@@ -25325,6 +27538,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "TypeCast",
           "package": "HROOT",
@@ -25338,6 +27552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "BottomType",
           "package": "HROOT",
@@ -25346,6 +27561,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "BottomType",
           "package": "HROOT",
@@ -25359,6 +27575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "Castable",
           "package": "HROOT",
@@ -25367,6 +27584,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "Castable",
           "package": "HROOT",
@@ -25380,6 +27598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "Existable",
           "package": "HROOT",
@@ -25388,6 +27607,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "Existable",
           "package": "HROOT",
@@ -25401,6 +27621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "FPtr",
           "package": "HROOT",
@@ -25409,6 +27630,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "FPtr",
           "package": "HROOT",
@@ -25422,6 +27644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "GADTTypeable",
           "package": "HROOT",
@@ -25430,6 +27653,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "GADTTypeable",
           "package": "HROOT",
@@ -25443,6 +27667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "cast",
           "package": "HROOT",
@@ -25452,6 +27677,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "cast",
           "normalized": "a-\u003eb",
@@ -25466,6 +27692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "cast_fptr_to_obj",
           "package": "HROOT",
@@ -25475,6 +27702,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "cast_fptr_to_obj",
           "normalized": "ForeignPtr(Raw a)-\u003ea",
@@ -25489,6 +27717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "get_fptr",
           "package": "HROOT",
@@ -25498,6 +27727,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "get_fptr",
           "normalized": "a-\u003eForeignPtr(Raw a)",
@@ -25512,6 +27742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "uncast",
           "package": "HROOT",
@@ -25521,6 +27752,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "uncast",
           "normalized": "a-\u003eb",
@@ -25535,6 +27767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xform0",
           "package": "HROOT",
@@ -25544,6 +27777,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xform0",
           "normalized": "(a-\u003eIO b)-\u003ec-\u003eIO d",
@@ -25558,6 +27792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xform1",
           "package": "HROOT",
@@ -25567,6 +27802,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xform1",
           "normalized": "(a-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003eIO f",
@@ -25581,6 +27817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xform10",
           "package": "HROOT",
@@ -25590,6 +27827,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xform10",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -25604,6 +27842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xform11",
           "package": "HROOT",
@@ -25613,6 +27852,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xform11",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -25627,6 +27867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xform2",
           "package": "HROOT",
@@ -25636,6 +27877,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xform2",
           "normalized": "(a-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003eIO f",
@@ -25650,6 +27892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xform3",
           "package": "HROOT",
@@ -25659,6 +27902,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xform3",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -25673,6 +27917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xform4",
           "package": "HROOT",
@@ -25682,6 +27927,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xform4",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -25696,6 +27942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xform5",
           "package": "HROOT",
@@ -25705,6 +27952,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xform5",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -25719,6 +27967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xform6",
           "package": "HROOT",
@@ -25728,6 +27977,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xform6",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -25742,6 +27992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xform7",
           "package": "HROOT",
@@ -25751,6 +28002,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xform7",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -25765,6 +28017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xform8",
           "package": "HROOT",
@@ -25774,6 +28027,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xform8",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -25788,6 +28042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xform9",
           "package": "HROOT",
@@ -25797,6 +28052,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xform9",
           "normalized": "(a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eIO c)-\u003ed-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003ee-\u003eIO f",
@@ -25811,6 +28067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT.TypeCast",
           "name": "xformnull",
           "package": "HROOT",
@@ -25820,6 +28077,7 @@
         },
         "index": {
           "hierarchy": "HROOT TypeCast",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT.TypeCast",
           "name": "xformnull",
           "normalized": "IO a-\u003eIO b",
@@ -25835,6 +28093,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003eHROOT\u003c/code\u003e: a low-level binding to ROOT in haskell. \n\u003c/p\u003e\u003cp\u003eFor \u003ccode\u003eROOT\u003c/code\u003e, please refer to \u003ca\u003ehttp://root.cern.ch\u003c/a\u003e.\n The following is a copy of its description in \u003ccode\u003eROOT\u003c/code\u003e homepage.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The \u003ccode\u003eROOT\u003c/code\u003e system provides a set of OO frameworks with all the functionality needed to handle and analyze large amounts of data in a very efficient way. Having the data defined as a set of objects, specialized storage methods are used to get direct access to the separate attributes of the selected objects, without having to touch the bulk of the data. Included are histograming methods in an arbitrary number of dimensions, curve fitting, function evaluation, minimization, graphics and visualization classes to allow the easy setup of an analysis system that can query and process the data interactively or in batch mode, as well as a general parallel processing framework, \u003ccode\u003ePROOF\u003c/code\u003e, that can considerably speed up an analysis.\n Thanks to the built-in \u003ccode\u003eCINT\u003c/code\u003e C++ interpreter the command language, the scripting, or macro, language and the programming language are all C++. The interpreter allows for fast prototyping of the macros since it removes the, time consuming, compile/link cycle. It also provides a good environment to learn C++. If more performance is needed the interactively developed macros can be compiled using a C++ compiler via a machine independent transparent compiler interface called \u003ccode\u003eACliC\u003c/code\u003e.\n The system has been designed in such a way that it can query its databases in parallel on clusters of workstations or many-core machines. \u003ccode\u003eROOT\u003c/code\u003eza is an open system that can be dynamically extended by linking external libraries. This makes \u003ccode\u003eROOT\u003c/code\u003e a premier platform on which to build data acquisition, simulation and data analysis systems.\n \u003ccode\u003eROOT\u003c/code\u003e is available under the \u003ccode\u003eLGPL\u003c/code\u003e license.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eYou can download \u003ccode\u003eROOT\u003c/code\u003e package and install in your local directory or \n   in global directory. For local installation, \n   You need to set environmental variable \u003ccode\u003eROOTSYS\u003c/code\u003e to the home directory\n   of ROOT and include \u003ccode\u003e$ROOTSYS\u003cem\u003ebin@ and @$ROOTSYS\u003c/em\u003elib\u003c/code\u003e in your \u003ccode\u003ePATH\u003c/code\u003e and \n   \u003ccode\u003eLD_LIBRARY_PATH\u003c/code\u003e or \u003ccode\u003eDYLD_LIBRARY_PATH\u003c/code\u003e for \u003ccode\u003eROOT\u003c/code\u003e to work, respectively. \n\u003c/p\u003e\u003cp\u003eHROOT package can be installed without ROOT, but it won't work. \n   Examples are in example directory in the package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:17 UTC 2014",
           "module": "HROOT",
           "name": "HROOT",
           "package": "HROOT",
@@ -25844,6 +28103,7 @@
         "index": {
           "description": "HROOT low-level binding to ROOT in haskell For ROOT please refer to http root.cern.ch The following is copy of its description in ROOT homepage The ROOT system provides set of OO frameworks with all the functionality needed to handle and analyze large amounts of data in very efficient way Having the data defined as set of objects specialized storage methods are used to get direct access to the separate attributes of the selected objects without having to touch the bulk of the data Included are histograming methods in an arbitrary number of dimensions curve fitting function evaluation minimization graphics and visualization classes to allow the easy setup of an analysis system that can query and process the data interactively or in batch mode as well as general parallel processing framework PROOF that can considerably speed up an analysis Thanks to the built-in CINT interpreter the command language the scripting or macro language and the programming language are all The interpreter allows for fast prototyping of the macros since it removes the time consuming compile link cycle It also provides good environment to learn If more performance is needed the interactively developed macros can be compiled using compiler via machine independent transparent compiler interface called ACliC The system has been designed in such way that it can query its databases in parallel on clusters of workstations or many-core machines ROOT za is an open system that can be dynamically extended by linking external libraries This makes ROOT premier platform on which to build data acquisition simulation and data analysis systems ROOT is available under the LGPL license You can download ROOT package and install in your local directory or in global directory For local installation You need to set environmental variable ROOTSYS to the home directory of ROOT and include ROOTSYS bin and ROOTSYS lib in your PATH and LD LIBRARY PATH or DYLD LIBRARY PATH for ROOT to work respectively HROOT package can be installed without ROOT but it won work Examples are in example directory in the package",
           "hierarchy": "HROOT",
+          "indexed": "2014-03-11T16:46:17",
           "module": "HROOT",
           "name": "HROOT",
           "package": "HROOT",

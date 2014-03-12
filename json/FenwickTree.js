@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FenwickTree"
+        "phrase": "FenwickTree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:50 UTC 2014",
           "module": "Data.Tree.Fenwick",
           "name": "Fenwick",
           "package": "FenwickTree",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Tree Fenwick",
+          "indexed": "2014-03-11T16:40:50",
           "module": "Data.Tree.Fenwick",
           "name": "Fenwick",
           "package": "FenwickTree",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMother structure holds functions\n   that allow to get a value to be summed and comparison function.\n   Below there is a tree of \u003ccode\u003eFNode\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:50 UTC 2014",
           "module": "Data.Tree.Fenwick",
           "name": "FTree",
           "package": "FenwickTree",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Mother structure holds functions that allow to get value to be summed and comparison function Below there is tree of FNode",
           "hierarchy": "Data Tree Fenwick",
+          "indexed": "2014-03-11T16:40:50",
           "module": "Data.Tree.Fenwick",
           "name": "FTree",
           "package": "FenwickTree",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a maximum depth of a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:50 UTC 2014",
           "module": "Data.Tree.Fenwick",
           "name": "depth",
           "package": "FenwickTree",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Returns maximum depth of tree",
           "hierarchy": "Data Tree Fenwick",
+          "indexed": "2014-03-11T16:40:50",
           "module": "Data.Tree.Fenwick",
           "name": "depth",
           "normalized": "FTree a-\u003eInt",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an empty Fenwick tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:50 UTC 2014",
           "module": "Data.Tree.Fenwick",
           "name": "empty",
           "package": "FenwickTree",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Creates an empty Fenwick tree",
           "hierarchy": "Data Tree Fenwick",
+          "indexed": "2014-03-11T16:40:50",
           "module": "Data.Tree.Fenwick",
           "name": "empty",
           "normalized": "(a-\u003eDouble)-\u003e(a-\u003ea-\u003eOrdering)-\u003eFTree a",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a tree from a list and helper functions: compare, and value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:50 UTC 2014",
           "module": "Data.Tree.Fenwick",
           "name": "fromList",
           "package": "FenwickTree",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Creates tree from list and helper functions compare and value",
           "hierarchy": "Data Tree Fenwick",
+          "indexed": "2014-03-11T16:40:50",
           "module": "Data.Tree.Fenwick",
           "name": "fromList",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e(a-\u003eVal)-\u003e[a]-\u003eFTree a",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a value into a Fenwick tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:50 UTC 2014",
           "module": "Data.Tree.Fenwick",
           "name": "insert",
           "package": "FenwickTree",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Inserts value into Fenwick tree",
           "hierarchy": "Data Tree Fenwick",
+          "indexed": "2014-03-11T16:40:50",
           "module": "Data.Tree.Fenwick",
           "name": "insert",
           "normalized": "a-\u003eFTree a-\u003eFTree a",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds a node corresponding to a given cumulative sum,\n   convenient for sampling quantile function of a distribution.\n   NOTE: returns an answer only up to a cumulative sum\n   of a whole tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:50 UTC 2014",
           "module": "Data.Tree.Fenwick",
           "name": "invQuery",
           "package": "FenwickTree",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Finds node corresponding to given cumulative sum convenient for sampling quantile function of distribution NOTE returns an answer only up to cumulative sum of whole tree",
           "hierarchy": "Data Tree Fenwick",
+          "indexed": "2014-03-11T16:40:50",
           "module": "Data.Tree.Fenwick",
           "name": "invQuery",
           "normalized": "Val-\u003eFTree a-\u003eMaybe a",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds a cumulative sum up to a given node of a Fenwick tree.\n   Note: if the node is not found, a sum at point corresponding to this\n   node is still returned. (Convenient for finding CDF value at a given point.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:50 UTC 2014",
           "module": "Data.Tree.Fenwick",
           "name": "query",
           "package": "FenwickTree",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Finds cumulative sum up to given node of Fenwick tree Note if the node is not found sum at point corresponding to this node is still returned Convenient for finding CDF value at given point",
           "hierarchy": "Data Tree Fenwick",
+          "indexed": "2014-03-11T16:40:50",
           "module": "Data.Tree.Fenwick",
           "name": "query",
           "normalized": "a-\u003eFTree a-\u003eVal",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns number of elements in a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:50 UTC 2014",
           "module": "Data.Tree.Fenwick",
           "name": "size",
           "package": "FenwickTree",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Returns number of elements in tree",
           "hierarchy": "Data Tree Fenwick",
+          "indexed": "2014-03-11T16:40:50",
           "module": "Data.Tree.Fenwick",
           "name": "size",
           "normalized": "FTree a-\u003eInt",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a sorted list of cumulative sums, and corresponding\n   objects from the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:50 UTC 2014",
           "module": "Data.Tree.Fenwick",
           "name": "toFreqList",
           "package": "FenwickTree",
@@ -250,6 +269,7 @@
         "index": {
           "description": "Extract sorted list of cumulative sums and corresponding objects from the tree",
           "hierarchy": "Data Tree Fenwick",
+          "indexed": "2014-03-11T16:40:50",
           "module": "Data.Tree.Fenwick",
           "name": "toFreqList",
           "normalized": "FTree a-\u003e[(Double,a)]",
@@ -266,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a sorted list of inserted values from the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:50 UTC 2014",
           "module": "Data.Tree.Fenwick",
           "name": "toList",
           "package": "FenwickTree",
@@ -276,6 +297,7 @@
         "index": {
           "description": "Extract sorted list of inserted values from the tree",
           "hierarchy": "Data Tree Fenwick",
+          "indexed": "2014-03-11T16:40:50",
           "module": "Data.Tree.Fenwick",
           "name": "toList",
           "normalized": "FTree a-\u003e[a]",

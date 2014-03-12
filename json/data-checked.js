@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-checked"
+        "phrase": "data-checked",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003eChecked\u003c/a\u003e\u003c/code\u003e that requires client code to provide\n   a non-bottom value of the property index type to use \u003ccode\u003etrust*\u003c/code\u003e\n   functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked.Strict",
           "name": "Strict",
           "package": "data-checked",
@@ -28,6 +29,7 @@
         "index": {
           "description": "version of Checked that requires client code to provide non-bottom value of the property index type to use trust functions",
           "hierarchy": "Data Checked Strict",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked.Strict",
           "name": "Strict",
           "package": "data-checked",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper-evidence for property \u003cem\u003ep\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked.Strict",
           "name": "Checked",
           "package": "data-checked",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Wrapper-evidence for property",
           "hierarchy": "Data Checked Strict",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked.Strict",
           "name": "Checked",
           "package": "data-checked",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked.Strict",
           "name": "Property",
           "package": "data-checked",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Checked Strict",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked.Strict",
           "name": "Property",
           "package": "data-checked",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap the value if the property holds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked.Strict",
           "name": "check",
           "package": "data-checked",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Wrap the value if the property holds",
           "hierarchy": "Data Checked Strict",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked.Strict",
           "name": "check",
           "normalized": "a-\u003eMaybe(Checked b a)",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap the checked value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked.Strict",
           "name": "checked",
           "package": "data-checked",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Unwrap the checked value",
           "hierarchy": "Data Checked Strict",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked.Strict",
           "name": "checked",
           "normalized": "Checked a b-\u003eb",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the property holds for the given value.\n   The first argument is supposed to be ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked.Strict",
           "name": "holds",
           "package": "data-checked",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Test if the property holds for the given value The first argument is supposed to be ignored",
           "hierarchy": "Data Checked Strict",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked.Strict",
           "name": "holds",
           "normalized": "a-\u003eb-\u003eBool",
@@ -188,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrap a value into the less strict \u003ccode\u003e\u003ca\u003eChecked\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked.Strict",
           "name": "relax",
           "package": "data-checked",
@@ -198,6 +211,7 @@
         "index": {
           "description": "Rewrap value into the less strict Checked type",
           "hierarchy": "Data Checked Strict",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked.Strict",
           "name": "relax",
           "normalized": "Checked a b-\u003eChecked a b",
@@ -213,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a fuction that preserves the property to the checked value.\n   Note that \u003cem\u003ep\u003c/em\u003e is evaluated to WHNF, so you can't use \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked.Strict",
           "name": "trustMap",
           "package": "data-checked",
@@ -223,6 +238,7 @@
         "index": {
           "description": "Apply fuction that preserves the property to the checked value Note that is evaluated to WHNF so you can use undefined",
           "hierarchy": "Data Checked Strict",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked.Strict",
           "name": "trustMap",
           "normalized": "a-\u003e(b-\u003eb)-\u003eChecked a b-\u003eChecked a b",
@@ -239,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse when the property can be deduced without a runtime check.\n   Note that \u003cem\u003ep\u003c/em\u003e is evaluated to WHNF, so you can't use \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked.Strict",
           "name": "trustThat",
           "package": "data-checked",
@@ -249,6 +266,7 @@
         "index": {
           "description": "Use when the property can be deduced without runtime check Note that is evaluated to WHNF so you can use undefined",
           "hierarchy": "Data Checked Strict",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked.Strict",
           "name": "trustThat",
           "normalized": "a-\u003eb-\u003eChecked a b",
@@ -265,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-indexed runtime-checked properties.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked",
           "name": "Checked",
           "package": "data-checked",
@@ -274,6 +293,7 @@
         "index": {
           "description": "Type-indexed runtime-checked properties",
           "hierarchy": "Data Checked",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked",
           "name": "Checked",
           "package": "data-checked",
@@ -288,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper-evidence for property \u003cem\u003ep\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked",
           "name": "Checked",
           "package": "data-checked",
@@ -297,6 +318,7 @@
         "index": {
           "description": "Wrapper-evidence for property",
           "hierarchy": "Data Checked",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked",
           "name": "Checked",
           "package": "data-checked",
@@ -310,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked",
           "name": "Property",
           "package": "data-checked",
@@ -318,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data Checked",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked",
           "name": "Property",
           "package": "data-checked",
@@ -332,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap the value if the property holds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked",
           "name": "check",
           "package": "data-checked",
@@ -342,6 +367,7 @@
         "index": {
           "description": "Wrap the value if the property holds",
           "hierarchy": "Data Checked",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked",
           "name": "check",
           "normalized": "a-\u003eMaybe(Checked b a)",
@@ -357,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap the checked value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked",
           "name": "checked",
           "package": "data-checked",
@@ -367,6 +394,7 @@
         "index": {
           "description": "Unwrap the checked value",
           "hierarchy": "Data Checked",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked",
           "name": "checked",
           "normalized": "Checked a b-\u003eb",
@@ -382,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the property holds for the given value.\n   The first argument is supposed to be ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked",
           "name": "holds",
           "package": "data-checked",
@@ -392,6 +421,7 @@
         "index": {
           "description": "Test if the property holds for the given value The first argument is supposed to be ignored",
           "hierarchy": "Data Checked",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked",
           "name": "holds",
           "normalized": "a-\u003eb-\u003eBool",
@@ -407,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a fuction that preserves the property to the checked value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked",
           "name": "trustMap",
           "package": "data-checked",
@@ -417,6 +448,7 @@
         "index": {
           "description": "Apply fuction that preserves the property to the checked value",
           "hierarchy": "Data Checked",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked",
           "name": "trustMap",
           "normalized": "(a-\u003ea)-\u003eChecked b a-\u003eChecked b a",
@@ -433,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse when the property can be deduced without a runtime check.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked",
           "name": "trustMe",
           "package": "data-checked",
@@ -443,6 +476,7 @@
         "index": {
           "description": "Use when the property can be deduced without runtime check",
           "hierarchy": "Data Checked",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked",
           "name": "trustMe",
           "normalized": "a-\u003eChecked b a",
@@ -459,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse when the property can be deduced without a runtime check.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:40 UTC 2014",
           "module": "Data.Checked",
           "name": "trustThat",
           "package": "data-checked",
@@ -469,6 +504,7 @@
         "index": {
           "description": "Use when the property can be deduced without runtime check",
           "hierarchy": "Data Checked",
+          "indexed": "2014-03-11T17:47:40",
           "module": "Data.Checked",
           "name": "trustThat",
           "normalized": "a-\u003eb-\u003eChecked a b",

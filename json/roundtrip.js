@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "roundtrip"
+        "phrase": "roundtrip",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "Constructors",
           "package": "roundtrip",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "Constructors",
           "package": "roundtrip",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "cons",
           "package": "roundtrip",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "cons",
           "normalized": "Iso(a,[a])[a]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "just",
           "package": "roundtrip",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "just",
           "package": "roundtrip",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "left",
           "package": "roundtrip",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "left",
           "package": "roundtrip",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "listCases",
           "package": "roundtrip",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "listCases",
           "normalized": "Iso(Either()(a,[a]))[a]",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "nil",
           "package": "roundtrip",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "nil",
           "normalized": "Iso()[a]",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "nothing",
           "package": "roundtrip",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "nothing",
           "normalized": "Iso()(Maybe a)",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "right",
           "package": "roundtrip",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "right",
           "package": "roundtrip",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Derived",
           "name": "Derived",
           "package": "roundtrip",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Derived",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Derived",
           "name": "Derived",
           "package": "roundtrip",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Derived",
           "name": "fixedValue",
           "package": "roundtrip",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Derived",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Derived",
           "name": "fixedValue",
           "normalized": "a-\u003eIso a()",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Derived",
           "name": "foldl",
           "package": "roundtrip",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Derived",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Derived",
           "name": "foldl",
           "normalized": "Iso(a,b)a-\u003eIso(a,[b])a",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Derived",
           "name": "swap23",
           "package": "roundtrip",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Derived",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Derived",
           "name": "swap23",
           "normalized": "Iso(a,(b,c))(a,(c,b))",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "Iso",
           "package": "roundtrip",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "Iso",
           "package": "roundtrip",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "Iso",
           "package": "roundtrip",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "Iso",
           "package": "roundtrip",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoFailedErrorMessageL",
           "package": "roundtrip",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoFailedErrorMessageL",
           "normalized": "Iso a b-\u003ea-\u003eString",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoFailedErrorMessageR",
           "package": "roundtrip",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoFailedErrorMessageR",
           "normalized": "Iso a b-\u003eb-\u003eString",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoLR",
           "package": "roundtrip",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoLR",
           "normalized": "Iso a b-\u003ea-\u003eMaybe b",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoName",
           "package": "roundtrip",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoName",
           "normalized": "Iso a b-\u003eString",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoRL",
           "package": "roundtrip",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoRL",
           "normalized": "Iso a b-\u003eb-\u003eMaybe a",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoShowL",
           "package": "roundtrip",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoShowL",
           "normalized": "Iso a b-\u003eMaybe(a-\u003eString)",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoShowR",
           "package": "roundtrip",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoShowR",
           "normalized": "Iso a b-\u003eMaybe(b-\u003eString)",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoShowSL",
           "package": "roundtrip",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoShowSL",
           "normalized": "Iso a b-\u003eMaybe(a-\u003eShowS)",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoShowSR",
           "package": "roundtrip",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "isoShowSR",
           "normalized": "Iso a b-\u003eMaybe(b-\u003eShowS)",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "unsafeMakeIso",
           "package": "roundtrip",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "unsafeMakeIso",
           "normalized": "(a-\u003eMaybe b)-\u003e(b-\u003eMaybe a)-\u003eIso a b",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "unsafeMakeIso'",
           "package": "roundtrip",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "unsafeMakeIso'",
           "normalized": "String-\u003eMaybe(a-\u003eShowS)-\u003eMaybe(b-\u003eShowS)-\u003e(a-\u003eMaybe b)-\u003e(b-\u003eMaybe a)-\u003eIso a b",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "unsafeMakeNamedIso",
           "package": "roundtrip",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "unsafeMakeNamedIso",
           "normalized": "String-\u003e(a-\u003eMaybe b)-\u003e(b-\u003eMaybe a)-\u003eIso a b",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "unsafeMakeNamedIsoL",
           "package": "roundtrip",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "unsafeMakeNamedIsoL",
           "normalized": "String-\u003e(a-\u003eMaybe b)-\u003e(b-\u003eMaybe a)-\u003eIso a b",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "unsafeMakeNamedIsoLR",
           "package": "roundtrip",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "unsafeMakeNamedIsoLR",
           "normalized": "String-\u003e(a-\u003eMaybe b)-\u003e(b-\u003eMaybe a)-\u003eIso a b",
@@ -664,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "unsafeMakeNamedIsoR",
           "package": "roundtrip",
@@ -673,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Iso",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Iso",
           "name": "unsafeMakeNamedIsoR",
           "normalized": "String-\u003e(a-\u003eMaybe b)-\u003e(b-\u003eMaybe a)-\u003eIso a b",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "Prim",
           "package": "roundtrip",
@@ -696,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "Prim",
           "package": "roundtrip",
@@ -709,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "IsoFunctor",
           "package": "roundtrip",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "IsoFunctor",
           "package": "roundtrip",
@@ -731,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mediating arrow for sums constructed with \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e.\n This is not a proper partial isomorphism because of \u003ccode\u003e\u003ca\u003emplus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "(|||)",
           "package": "roundtrip",
@@ -741,6 +804,7 @@
         "index": {
           "description": "The mediating arrow for sums constructed with Either This is not proper partial isomorphism because of mplus",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "(|||) |||",
           "normalized": "Iso a b-\u003eIso c b-\u003eIso(Either a c)b",
@@ -756,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe product type constructor `(,)` is a bifunctor from\n \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e $times$ \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e, so that we have the\n bifunctorial map \u003ccode\u003e\u003ca\u003e***\u003c/a\u003e\u003c/code\u003e which allows two separate isomorphisms\n to work on the two components of a tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "(***)",
           "package": "roundtrip",
@@ -766,6 +831,7 @@
         "index": {
           "description": "the product type constructor is bifunctor from Iso times Iso to Iso so that we have the bifunctorial map which allows two separate isomorphisms to work on the two components of tuple",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "(***) ***",
           "normalized": "Iso a b-\u003eIso c d-\u003eIso(a,c)(b,d)",
@@ -780,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "(\u003c$\u003e)",
           "package": "roundtrip",
@@ -789,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "Iso a b-\u003ec a-\u003ec b",
@@ -803,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "apply",
           "package": "roundtrip",
@@ -812,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "apply",
           "normalized": "Iso a b-\u003ea-\u003eMaybe b",
@@ -827,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNested products associate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "associate",
           "package": "roundtrip",
@@ -837,6 +908,7 @@
         "index": {
           "description": "Nested products associate",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "associate",
           "normalized": "Iso(a,(b,c))((a,b),c)",
@@ -852,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProducts commute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "commute",
           "package": "roundtrip",
@@ -862,6 +935,7 @@
         "index": {
           "description": "Products commute",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "commute",
           "normalized": "Iso(a,b)(b,a)",
@@ -877,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProducts distribute over sums.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "distribute",
           "package": "roundtrip",
@@ -887,6 +962,7 @@
         "index": {
           "description": "Products distribute over sums",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "distribute",
           "normalized": "Iso(a,Either b c)(Either(a,b)(a,c))",
@@ -902,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e`element x` is the partial isomorphism between `()` and the\n singleton set which contains just \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "element",
           "package": "roundtrip",
@@ -912,6 +989,7 @@
         "index": {
           "description": "element is the partial isomorphism between and the singleton set which contains just",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "element",
           "normalized": "a-\u003eIso()a",
@@ -926,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "idIso",
           "package": "roundtrip",
@@ -935,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "idIso",
           "package": "roundtrip",
@@ -948,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "ignore",
           "package": "roundtrip",
@@ -957,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "ignore",
           "normalized": "a-\u003eIso a()",
@@ -971,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "inverse",
           "package": "roundtrip",
@@ -980,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "inverse",
           "normalized": "Iso a b-\u003eIso b a",
@@ -994,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "iterateIso",
           "package": "roundtrip",
@@ -1003,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "iterateIso",
           "normalized": "Iso a a-\u003eIso a a",
@@ -1018,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "lazyStrictTextIso",
           "package": "roundtrip",
@@ -1027,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "lazyStrictTextIso",
           "package": "roundtrip",
@@ -1040,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "listMapIso",
           "package": "roundtrip",
@@ -1049,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "listMapIso",
           "normalized": "Iso[(a,b)](Map a b)",
@@ -1064,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "maybeUnitBoolIso",
           "package": "roundtrip",
@@ -1073,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "maybeUnitBoolIso",
           "normalized": "Iso(Maybe())Bool",
@@ -1088,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "namedSubset",
           "package": "roundtrip",
@@ -1097,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "namedSubset",
           "normalized": "String-\u003e(a-\u003eBool)-\u003eIso a a",
@@ -1112,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "readShowIso",
           "package": "roundtrip",
@@ -1121,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "readShowIso",
           "package": "roundtrip",
@@ -1134,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "readShowTextIso",
           "package": "roundtrip",
@@ -1143,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "readShowTextIso",
           "package": "roundtrip",
@@ -1157,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a predicate \u003ccode\u003ep\u003c/code\u003e, `subset p` is the identity isomorphism\n restricted to elements matching the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "subset",
           "package": "roundtrip",
@@ -1167,6 +1266,7 @@
         "index": {
           "description": "For predicate subset is the identity isomorphism restricted to elements matching the predicate",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "subset",
           "normalized": "(a-\u003eBool)-\u003eIso a a",
@@ -1181,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "textStringIso",
           "package": "roundtrip",
@@ -1190,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "textStringIso",
           "package": "roundtrip",
@@ -1203,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "unapply",
           "package": "roundtrip",
@@ -1212,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "unapply",
           "normalized": "Iso a b-\u003eb-\u003eMaybe a",
@@ -1227,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e`()` is the unit element for products.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "unit",
           "package": "roundtrip",
@@ -1237,6 +1342,7 @@
         "index": {
           "description": "is the unit element for products",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "unit",
           "normalized": "Iso a(a,())",
@@ -1251,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.TH",
           "name": "TH",
           "package": "roundtrip",
@@ -1259,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial TH",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.TH",
           "name": "TH",
           "package": "roundtrip",
@@ -1272,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.TH",
           "name": "defineIsomorphisms",
           "package": "roundtrip",
@@ -1281,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial TH",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.TH",
           "name": "defineIsomorphisms",
           "normalized": "Name-\u003eQ[Dec]",
@@ -1296,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial.TH",
           "name": "defineIsomorphisms'",
           "package": "roundtrip",
@@ -1305,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial TH",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial.TH",
           "name": "defineIsomorphisms'",
           "normalized": "Name-\u003e(String-\u003eString)-\u003eQ[Dec]",
@@ -1320,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Control.Isomorphism.Partial",
           "name": "Partial",
           "package": "roundtrip",
@@ -1328,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Control.Isomorphism.Partial",
           "name": "Partial",
           "package": "roundtrip",
@@ -1341,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "Classes",
           "package": "roundtrip",
@@ -1349,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "Classes",
           "package": "roundtrip",
@@ -1362,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "Alternative",
           "package": "roundtrip",
@@ -1370,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "Alternative",
           "package": "roundtrip",
@@ -1383,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "Attribute",
           "package": "roundtrip",
@@ -1391,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "Attribute",
           "package": "roundtrip",
@@ -1404,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "ProductFunctor",
           "package": "roundtrip",
@@ -1412,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "ProductFunctor",
           "package": "roundtrip",
@@ -1425,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "StringSyntax",
           "package": "roundtrip",
@@ -1433,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "StringSyntax",
           "package": "roundtrip",
@@ -1446,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "Syntax",
           "package": "roundtrip",
@@ -1454,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "Syntax",
           "package": "roundtrip",
@@ -1467,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "XmlSyntax",
           "package": "roundtrip",
@@ -1475,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "XmlSyntax",
           "package": "roundtrip",
@@ -1488,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "(\u003c||\u003e)",
           "package": "roundtrip",
@@ -1497,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1511,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "(\u003c|\u003e)",
           "package": "roundtrip",
@@ -1520,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1534,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "(\u003c*\u003e)",
           "package": "roundtrip",
@@ -1543,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -1557,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "anyToken",
           "package": "roundtrip",
@@ -1566,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "anyToken",
           "package": "roundtrip",
@@ -1579,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "empty",
           "package": "roundtrip",
@@ -1588,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "empty",
           "package": "roundtrip",
@@ -1600,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "pure",
           "package": "roundtrip",
@@ -1609,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "pure",
           "normalized": "a-\u003eb a",
@@ -1623,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "rule",
           "package": "roundtrip",
@@ -1632,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "rule",
           "normalized": "String-\u003ea b-\u003ea c-\u003ea c",
@@ -1646,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "ruleInfix",
           "package": "roundtrip",
@@ -1655,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "ruleInfix",
           "normalized": "String-\u003ea b-\u003ea c-\u003ea d-\u003ea d",
@@ -1670,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "token",
           "package": "roundtrip",
@@ -1679,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "token",
           "normalized": "(Char-\u003eBool)-\u003ea Char",
@@ -1693,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "xmlAttrValue",
           "package": "roundtrip",
@@ -1702,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "xmlAttrValue",
           "normalized": "Name-\u003ea Text",
@@ -1717,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "xmlBeginDoc",
           "package": "roundtrip",
@@ -1726,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "xmlBeginDoc",
           "normalized": "a()",
@@ -1741,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "xmlBeginElem",
           "package": "roundtrip",
@@ -1750,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "xmlBeginElem",
           "normalized": "Name-\u003ea()",
@@ -1765,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "xmlEndDoc",
           "package": "roundtrip",
@@ -1774,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "xmlEndDoc",
           "normalized": "a()",
@@ -1789,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "xmlEndElem",
           "package": "roundtrip",
@@ -1798,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "xmlEndElem",
           "normalized": "Name-\u003ea()",
@@ -1813,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Classes",
           "name": "xmlTextNotEmpty",
           "package": "roundtrip",
@@ -1822,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Classes",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Classes",
           "name": "xmlTextNotEmpty",
           "package": "roundtrip",
@@ -1835,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "Combinators",
           "package": "roundtrip",
@@ -1843,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "Combinators",
           "package": "roundtrip",
@@ -1857,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis variant of \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e ignores its left result.\n In contrast to its counterpart derived from the \u003ccode\u003eApplicative\u003c/code\u003e class, the ignored\n parts have type `delta ()` rather than `delta beta` because otherwise information relevant\n for pretty-printing would be lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "(*\u003e)",
           "package": "roundtrip",
@@ -1867,6 +2028,7 @@
         "index": {
           "description": "This variant of ignores its left result In contrast to its counterpart derived from the Applicative class the ignored parts have type delta rather than delta beta because otherwise information relevant for pretty-printing would be lost",
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "(*\u003e) *\u003e",
           "normalized": "a()-\u003ea b-\u003ea b",
@@ -1882,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis variant of \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e ignores its right result.\n In contrast to its counterpart derived from the \u003ccode\u003eApplicative\u003c/code\u003e class, the ignored\n parts have type `delta ()` rather than `delta beta` because otherwise information relevant\n for pretty-printing would be lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "(\u003c*)",
           "package": "roundtrip",
@@ -1892,6 +2055,7 @@
         "index": {
           "description": "This variant of ignores its right result In contrast to its counterpart derived from the Applicative class the ignored parts have type delta rather than delta beta because otherwise information relevant for pretty-printing would be lost",
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "(\u003c*) \u003c*",
           "normalized": "a b-\u003ea()-\u003ea b",
@@ -1906,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "(\u003c+\u003e)",
           "package": "roundtrip",
@@ -1915,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a b-\u003ea c-\u003ea(Either b c)",
@@ -1930,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ebetween\u003c/a\u003e\u003c/code\u003e function combines \u003ccode\u003e\u003ca\u003e*\u003e\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003c*\u003c/a\u003e\u003c/code\u003e in the obvious way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "between",
           "package": "roundtrip",
@@ -1940,6 +2107,7 @@
         "index": {
           "description": "The between function combines and in the obvious way",
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "between",
           "normalized": "a()-\u003ea()-\u003ea b-\u003ea b",
@@ -1955,6 +2123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003echainl1\u003c/a\u003e\u003c/code\u003e combinator is used to parse a\n left-associative chain of infix operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "chainl1",
           "package": "roundtrip",
@@ -1965,6 +2134,7 @@
         "index": {
           "description": "The chainl1 combinator is used to parse left-associative chain of infix operators",
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "chainl1",
           "normalized": "a b-\u003ea c-\u003eIso(b,(c,b))b-\u003ea b",
@@ -1979,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "char",
           "package": "roundtrip",
@@ -1988,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "char",
           "normalized": "Char-\u003ea()",
@@ -2002,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "char'",
           "package": "roundtrip",
@@ -2011,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "char'",
           "normalized": "Char-\u003ea Char",
@@ -2025,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "comma",
           "package": "roundtrip",
@@ -2034,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "comma",
           "normalized": "a()",
@@ -2048,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "dot",
           "package": "roundtrip",
@@ -2057,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "dot",
           "normalized": "a()",
@@ -2071,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "many",
           "package": "roundtrip",
@@ -2080,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "many",
           "normalized": "a b-\u003ea[b]",
@@ -2094,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "many1",
           "package": "roundtrip",
@@ -2103,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "many1",
           "normalized": "a b-\u003ea[b]",
@@ -2118,6 +2300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eoptSpace\u003c/a\u003e\u003c/code\u003e marks a position where whitespace is desired to occur.\n It accepts arbitrary space while parsing, and produces a\n single space character while printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "optSpace",
           "package": "roundtrip",
@@ -2128,6 +2311,7 @@
         "index": {
           "description": "optSpace marks position where whitespace is desired to occur It accepts arbitrary space while parsing and produces single space character while printing",
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "optSpace",
           "normalized": "a()",
@@ -2143,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "optional",
           "package": "roundtrip",
@@ -2152,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "optional",
           "normalized": "a b-\u003ea(Maybe b)",
@@ -2166,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "optionalBool",
           "package": "roundtrip",
@@ -2175,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "optionalBool",
           "normalized": "a()-\u003ea Bool",
@@ -2190,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "optionalWithDefault",
           "package": "roundtrip",
@@ -2199,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "optionalWithDefault",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -2214,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "sepBy",
           "package": "roundtrip",
@@ -2223,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "sepBy",
           "normalized": "a b-\u003ea()-\u003ea[b]",
@@ -2239,6 +2431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esepSpace\u003c/a\u003e\u003c/code\u003e marks a position where whitespace is required to\n occur. It requires one or more space characters while parsing,\n and produces a single space character while printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "sepSpace",
           "package": "roundtrip",
@@ -2249,6 +2442,7 @@
         "index": {
           "description": "sepSpace marks position where whitespace is required to occur It requires one or more space characters while parsing and produces single space character while printing",
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "sepSpace",
           "normalized": "a()",
@@ -2265,6 +2459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eskipSpace\u003c/a\u003e\u003c/code\u003e marks a position where whitespace is allowed to\n occur. It accepts arbitrary space while parsing, and produces\n no space while printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "skipSpace",
           "package": "roundtrip",
@@ -2275,6 +2470,7 @@
         "index": {
           "description": "skipSpace marks position where whitespace is allowed to occur It accepts arbitrary space while parsing and produces no space while printing",
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "skipSpace",
           "normalized": "a()",
@@ -2291,6 +2487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e parses/prints a fixed text and consumes/produces a unit value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "string",
           "package": "roundtrip",
@@ -2301,6 +2498,7 @@
         "index": {
           "description": "string parses prints fixed text and consumes produces unit value",
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "string",
           "normalized": "String-\u003ea()",
@@ -2315,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "xmlAttr",
           "package": "roundtrip",
@@ -2324,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "xmlAttr",
           "normalized": "Name-\u003eIso Text a-\u003eb a",
@@ -2339,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "xmlEatWhiteSpace",
           "package": "roundtrip",
@@ -2348,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "xmlEatWhiteSpace",
           "normalized": "a()",
@@ -2363,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "xmlElem",
           "package": "roundtrip",
@@ -2372,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "xmlElem",
           "normalized": "Name-\u003ea b-\u003ea b",
@@ -2387,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "xmlFixedAttr",
           "package": "roundtrip",
@@ -2396,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "xmlFixedAttr",
           "normalized": "Name-\u003eText-\u003ea()",
@@ -2411,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "xmlString",
           "package": "roundtrip",
@@ -2420,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "xmlString",
           "package": "roundtrip",
@@ -2433,6 +2641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.Combinators",
           "name": "xmlText",
           "package": "roundtrip",
@@ -2442,6 +2651,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Combinators",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.Combinators",
           "name": "xmlText",
           "package": "roundtrip",
@@ -2455,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.SpecPrinter",
           "name": "SpecPrinter",
           "package": "roundtrip",
@@ -2463,6 +2674,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip SpecPrinter",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.SpecPrinter",
           "name": "SpecPrinter",
           "package": "roundtrip",
@@ -2476,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.SpecPrinter",
           "name": "SpecPrinter",
           "package": "roundtrip",
@@ -2484,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip SpecPrinter",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.SpecPrinter",
           "name": "SpecPrinter",
           "package": "roundtrip",
@@ -2497,6 +2711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.SpecPrinter",
           "name": "runSpecPrinter",
           "package": "roundtrip",
@@ -2506,6 +2721,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip SpecPrinter",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.SpecPrinter",
           "name": "runSpecPrinter",
           "normalized": "SpecPrinter a-\u003eString",
@@ -2521,6 +2737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip.SpecPrinter",
           "name": "specPrinter",
           "package": "roundtrip",
@@ -2530,6 +2747,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip SpecPrinter",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip.SpecPrinter",
           "name": "specPrinter",
           "normalized": "Doc-\u003eSpecPrinter a",
@@ -2545,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:17 UTC 2014",
           "module": "Text.Roundtrip",
           "name": "Roundtrip",
           "package": "roundtrip",
@@ -2553,6 +2772,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip",
+          "indexed": "2014-03-11T19:55:17",
           "module": "Text.Roundtrip",
           "name": "Roundtrip",
           "package": "roundtrip",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "halipeto"
+        "phrase": "halipeto",
+        "type": "phrase"
       },
       "type": "context"
     }

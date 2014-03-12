@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "synthesizer-dimensional"
+        "phrase": "synthesizer-dimensional",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "Analysis",
           "package": "synthesizer-dimensional",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "Analysis",
           "package": "synthesizer-dimensional",
@@ -63,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "beginningPrimitive",
           "package": "synthesizer-dimensional",
@@ -72,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "beginningPrimitive",
           "normalized": "a-\u003eT b c(d a)-\u003ea",
@@ -87,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "compare",
           "package": "synthesizer-dimensional",
@@ -96,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "compare",
           "normalized": "R a b c d-\u003eR a b c d-\u003eT(Phantom a)Abstract(T Ordering)",
@@ -111,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires finite length.\nThis is identical to the arithmetic mean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "directCurrentOffset",
           "package": "synthesizer-dimensional",
@@ -121,6 +128,7 @@
         "index": {
           "description": "Requires finite length This is identical to the arithmetic mean",
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "directCurrentOffset",
           "normalized": "SignalRateInd a b c c-\u003eT b c",
@@ -160,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "endPrimitive",
           "package": "synthesizer-dimensional",
@@ -169,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "endPrimitive",
           "normalized": "a-\u003eT b c(d a)-\u003ea",
@@ -185,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetect thresholds with a hysteresis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "flipFlopHysteresis",
           "package": "synthesizer-dimensional",
@@ -195,6 +206,7 @@
         "index": {
           "description": "Detect thresholds with hysteresis",
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "flipFlopHysteresis",
           "normalized": "(T a b,T a b)-\u003eBool-\u003eSignalRateInd c a b b-\u003eT c Abstract(T Bool)",
@@ -210,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "lessOrEqual",
           "package": "synthesizer-dimensional",
@@ -219,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "lessOrEqual",
           "normalized": "R a b c d-\u003eR a b c d-\u003eT(Phantom a)Abstract(T Bool)",
@@ -234,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "rectify",
           "package": "synthesizer-dimensional",
@@ -243,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "rectify",
           "normalized": "T a b(T c)-\u003eT a b(T c)",
@@ -258,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVolume based on Energy norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "volumeEuclidean",
           "package": "synthesizer-dimensional",
@@ -268,6 +285,7 @@
         "index": {
           "description": "Volume based on Energy norm",
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "volumeEuclidean",
           "normalized": "SignalRateInd a b c c-\u003eT b c",
@@ -284,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVolume based on Manhattan norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "volumeMaximum",
           "package": "synthesizer-dimensional",
@@ -294,6 +313,7 @@
         "index": {
           "description": "Volume based on Manhattan norm",
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "volumeMaximum",
           "normalized": "SignalRateInd a b c c-\u003eT b c",
@@ -310,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVolume based on Sum norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "volumeSum",
           "package": "synthesizer-dimensional",
@@ -320,6 +341,7 @@
         "index": {
           "description": "Volume based on Sum norm",
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "volumeSum",
           "normalized": "SignalRateInd a b c c-\u003eT b c",
@@ -336,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVolume based on Energy norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "volumeVectorEuclidean",
           "package": "synthesizer-dimensional",
@@ -346,6 +369,7 @@
         "index": {
           "description": "Volume based on Energy norm",
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "volumeVectorEuclidean",
           "normalized": "SignalRateInd a b c d-\u003eT b c",
@@ -362,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVolume based on Manhattan norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "volumeVectorMaximum",
           "package": "synthesizer-dimensional",
@@ -372,6 +397,7 @@
         "index": {
           "description": "Volume based on Manhattan norm",
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "volumeVectorMaximum",
           "normalized": "SignalRateInd a b c d-\u003eT b c",
@@ -388,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVolume based on Sum norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "volumeVectorSum",
           "package": "synthesizer-dimensional",
@@ -398,6 +425,7 @@
         "index": {
           "description": "Volume based on Sum norm",
           "hierarchy": "Synthesizer Dimensional Amplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Analysis",
           "name": "volumeVectorSum",
           "normalized": "SignalRateInd a b c d-\u003eT b c",
@@ -414,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eControl curves which can be used\nas envelopes, for controlling filter parameters and so on.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Control",
           "name": "Control",
           "package": "synthesizer-dimensional",
@@ -423,6 +452,7 @@
         "index": {
           "description": "Control curves which can be used as envelopes for controlling filter parameters and so on",
           "hierarchy": "Synthesizer Dimensional Amplitude Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Control",
           "name": "Control",
           "package": "synthesizer-dimensional",
@@ -436,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Control",
           "name": "constant",
           "package": "synthesizer-dimensional",
@@ -444,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Control",
           "name": "constant",
           "normalized": "T a b-\u003eR c a b b",
@@ -459,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amplitude must be positive!\nThis is not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Control",
           "name": "constantVector",
           "package": "synthesizer-dimensional",
@@ -468,6 +501,7 @@
         "index": {
           "description": "The amplitude must be positive This is not checked",
           "hierarchy": "Synthesizer Dimensional Amplitude Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Control",
           "name": "constantVector",
           "normalized": "T a b-\u003ec-\u003eR d a b c",
@@ -483,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "Cut",
           "package": "synthesizer-dimensional",
@@ -491,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "Cut",
           "package": "synthesizer-dimensional",
@@ -504,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "append",
           "package": "synthesizer-dimensional",
@@ -513,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "append",
           "normalized": "Signal a b c d e-\u003eSignal a b c d e-\u003eSignal a b c d e",
@@ -527,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "appendPrimitive",
           "package": "synthesizer-dimensional",
@@ -536,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "appendPrimitive",
           "normalized": "T(Phantom a)b c-\u003eT(Phantom a)b c-\u003eT(Phantom a)b c",
@@ -551,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "appendVolume",
           "package": "synthesizer-dimensional",
@@ -560,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "appendVolume",
           "normalized": "T a b-\u003eSignal c a b d e-\u003eSignal c a b d e-\u003eSignal c a b d e",
@@ -576,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003efoldr1 append\u003c/code\u003e but more efficient and accurate,\nbecause it reduces the number of amplifications.\nDoes not work for infinite lists,\nbecause no maximum amplitude can be computed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "concat",
           "package": "synthesizer-dimensional",
@@ -586,6 +629,7 @@
         "index": {
           "description": "Similar to foldr1 append but more efficient and accurate because it reduces the number of amplifications Does not work for infinite lists because no maximum amplitude can be computed",
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "concat",
           "normalized": "[Signal a b c d e]-\u003eSignal a b c d e",
@@ -600,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "concatPrimitive",
           "package": "synthesizer-dimensional",
@@ -609,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "concatPrimitive",
           "normalized": "[T(Phantom a)b c]-\u003eT(Phantom a)b c",
@@ -625,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive the output volume explicitly.\nDoes also work for infinite lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "concatVolume",
           "package": "synthesizer-dimensional",
@@ -635,6 +682,7 @@
         "index": {
           "description": "Give the output volume explicitly Does also work for infinite lists",
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "concatVolume",
           "normalized": "T a b-\u003e[Signal c a b d e]-\u003eSignal c a b d e",
@@ -650,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "dropWhile",
           "package": "synthesizer-dimensional",
@@ -659,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "dropWhile",
           "normalized": "T a b-\u003e(c-\u003eBool)-\u003eT d(Dimensional a b)(e c)-\u003eT d(Dimensional a b)(e c)",
@@ -674,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "dropWhilePrimitive",
           "package": "synthesizer-dimensional",
@@ -683,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "dropWhilePrimitive",
           "normalized": "(a-\u003eBool)-\u003eT b c(d a)-\u003eT b c(d a)",
@@ -698,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "leftFromStereo",
           "package": "synthesizer-dimensional",
@@ -707,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "leftFromStereo",
           "normalized": "R a b c(T d)-\u003eR a b c d",
@@ -722,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "mergeStereo",
           "package": "synthesizer-dimensional",
@@ -731,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "mergeStereo",
           "normalized": "Signal a b c d e-\u003eSignal a b c d e-\u003eSignal a b c d(T e)",
@@ -746,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "mergeStereoPrimitive",
           "package": "synthesizer-dimensional",
@@ -755,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "mergeStereoPrimitive",
           "normalized": "T(Phantom a)b(c d)-\u003eT(Phantom a)b(c d)-\u003eT(Phantom a)b(c(T d))",
@@ -770,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "mergeStereoVolume",
           "package": "synthesizer-dimensional",
@@ -779,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "mergeStereoVolume",
           "normalized": "T a b-\u003eSignal c a b d e-\u003eSignal c a b d e-\u003eSignal c a b d(T e)",
@@ -794,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "reverse",
           "package": "synthesizer-dimensional",
@@ -803,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "reverse",
           "normalized": "T a b(c d)-\u003eT a b(c d)",
@@ -817,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "rightFromStereo",
           "package": "synthesizer-dimensional",
@@ -826,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "rightFromStereo",
           "normalized": "R a b c(T d)-\u003eR a b c d",
@@ -841,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "selectBool",
           "package": "synthesizer-dimensional",
@@ -849,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "selectBool",
           "normalized": "Signal a b c d e-\u003eSignal a b c d e-\u003eT(Phantom a)Abstract(d Bool)-\u003eSignal a b c d e",
@@ -864,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "span",
           "package": "synthesizer-dimensional",
@@ -873,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "span",
           "normalized": "T a b-\u003e(c-\u003eBool)-\u003eT d(Dimensional a b)(e c)-\u003e(T d(Dimensional a b)(e c),T d(Dimensional a b)(e c))",
@@ -887,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "spanPrimitive",
           "package": "synthesizer-dimensional",
@@ -896,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "spanPrimitive",
           "normalized": "(a-\u003eBool)-\u003eT b c(d a)-\u003e(T b c(d a),T b c(d a))",
@@ -911,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "takeWhile",
           "package": "synthesizer-dimensional",
@@ -920,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "takeWhile",
           "normalized": "T a b-\u003e(c-\u003eBool)-\u003eT d(Dimensional a b)(e c)-\u003eT d(Dimensional a b)(e c)",
@@ -935,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "takeWhilePrimitive",
           "package": "synthesizer-dimensional",
@@ -944,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "takeWhilePrimitive",
           "normalized": "(a-\u003eBool)-\u003eT b c(d a)-\u003eT b c(d a)",
@@ -959,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "unzip",
           "package": "synthesizer-dimensional",
@@ -968,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "unzip",
           "normalized": "T a b(c(d,d))-\u003e(T a b(c d),T a b(c d))",
@@ -982,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "unzip3",
           "package": "synthesizer-dimensional",
@@ -991,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "unzip3",
           "normalized": "T a b(c(d,d,d))-\u003e(T a b(c d),T a b(c d),T a b(c d))",
@@ -1005,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "zip",
           "package": "synthesizer-dimensional",
@@ -1014,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "zip",
           "normalized": "Signal a b c d e-\u003eSignal a b c d e-\u003eSignal a b c d(e,e)",
@@ -1028,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "zip3",
           "package": "synthesizer-dimensional",
@@ -1037,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "zip3",
           "normalized": "Signal a b c d e-\u003eSignal a b c d e-\u003eSignal a b c d e-\u003eSignal a b c d(e,e,e)",
@@ -1051,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "zip3Volume",
           "package": "synthesizer-dimensional",
@@ -1060,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "zip3Volume",
           "normalized": "T a b-\u003eSignal c a b d e-\u003eSignal c a b d e-\u003eSignal c a b d e-\u003eSignal c a b d(e,e,e)",
@@ -1075,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "zipVolume",
           "package": "synthesizer-dimensional",
@@ -1084,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Cut",
           "name": "zipVolume",
           "normalized": "T a b-\u003eSignal c a b d e-\u003eSignal c a b d e-\u003eSignal c a b d(e,e)",
@@ -1099,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "Displacement",
           "package": "synthesizer-dimensional",
@@ -1107,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "Displacement",
           "package": "synthesizer-dimensional",
@@ -1121,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistort the signal using a flat function.\nThe first signal gives the scaling of the function.\nIf the scaling is c and the input sample is y,\nthen \u003ccode\u003ec * f(y/c)\u003c/code\u003e is output.\nThis way we can use an (efficient) flat function\nand have a simple, yet dimension conform, way of controlling the distortion.\nE.g. if the distortion function is \u003ccode\u003etanh\u003c/code\u003e\nthen the value \u003ccode\u003ec\u003c/code\u003e controls the saturation level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "distort",
           "package": "synthesizer-dimensional",
@@ -1131,6 +1220,7 @@
         "index": {
           "description": "Distort the signal using flat function The first signal gives the scaling of the function If the scaling is and the input sample is then is output This way we can use an efficient flat function and have simple yet dimension conform way of controlling the distortion E.g if the distortion function is tanh then the value controls the saturation level",
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "distort",
           "normalized": "(a-\u003ea)-\u003eR b c d d-\u003eR b c d a-\u003eR b c d a",
@@ -1145,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "inflate",
           "package": "synthesizer-dimensional",
@@ -1154,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "inflate",
           "normalized": "a-\u003eT b(Flat c)d-\u003eT b(Numeric a)d",
@@ -1169,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI suspect that this function will most oftenly not the right choice.\nWhen the amplitude is Flat, better use \u003ccode\u003e\u003ca\u003einflate\u003c/a\u003e\u003c/code\u003e.\nWhen the amplitude is Numeric, better use \u003ccode\u003eFilter.amplifyScalarDimension\u003c/code\u003e\nsince this will not modify signal values\nbut only the global amplitude.\nThis is both more efficient and ensures boundedness of signal values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "inflateGeneric",
           "package": "synthesizer-dimensional",
@@ -1179,6 +1272,7 @@
         "index": {
           "description": "suspect that this function will most oftenly not the right choice When the amplitude is Flat better use inflate When the amplitude is Numeric better use Filter.amplifyScalarDimension since this will not modify signal values but only the global amplitude This is both more efficient and ensures boundedness of signal values",
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "inflateGeneric",
           "normalized": "a-\u003eT b c(d e)-\u003eT b(Numeric a)(d e)",
@@ -1194,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "map",
           "package": "synthesizer-dimensional",
@@ -1203,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "map",
           "normalized": "(a-\u003ea)-\u003eT b c(T a)-\u003eT b c(T a)",
@@ -1217,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mapExponential",
           "package": "synthesizer-dimensional",
@@ -1226,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mapExponential",
           "normalized": "a-\u003eT b c-\u003eT d e(T a)-\u003eT d(Dimensional b c)(T a)",
@@ -1242,6 +1340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a control curve without amplitude unit\nby a linear (affine) function with a unit.\nThis is a combination of \u003ccode\u003e\u003ca\u003eraise\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003eamplify\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mapLinear",
           "package": "synthesizer-dimensional",
@@ -1252,6 +1351,7 @@
         "index": {
           "description": "Map control curve without amplitude unit by linear affine function with unit This is combination of raise and amplify",
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mapLinear",
           "normalized": "a-\u003eT b a-\u003eT c d(T a)-\u003eT c(Dimensional b a)(T a)",
@@ -1267,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mapLinearDimension",
           "package": "synthesizer-dimensional",
@@ -1275,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mapLinearDimension",
           "normalized": "T a b-\u003eT(Mul a c)b-\u003eT d(Dimensional c b)(T b)-\u003eT d(Dimensional(Mul a c)b)(T b)",
@@ -1291,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix two signals.\nIn contrast to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e the result has the length of the longer signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mix",
           "package": "synthesizer-dimensional",
@@ -1301,6 +1404,7 @@
         "index": {
           "description": "Mix two signals In contrast to zipWith the result has the length of the longer signal",
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mix",
           "normalized": "R a b c d-\u003eR a b c d-\u003eR a b c d",
@@ -1316,6 +1420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix one or more signals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mixMulti",
           "package": "synthesizer-dimensional",
@@ -1326,6 +1431,7 @@
         "index": {
           "description": "Mix one or more signals",
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mixMulti",
           "normalized": "[R a b c d]-\u003eR a b c d",
@@ -1341,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mixMultiVolume",
           "package": "synthesizer-dimensional",
@@ -1350,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mixMultiVolume",
           "normalized": "T a b-\u003e[R c a b d]-\u003eR c a b d",
@@ -1365,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mixVolume",
           "package": "synthesizer-dimensional",
@@ -1374,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "mixVolume",
           "normalized": "T a b-\u003eR c a b d-\u003eR c a b d-\u003eR c a b d",
@@ -1390,6 +1500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a number to all of the signal values.\nThis is useful for adjusting the center of a modulation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "raise",
           "package": "synthesizer-dimensional",
@@ -1400,6 +1511,7 @@
         "index": {
           "description": "Add number to all of the signal values This is useful for adjusting the center of modulation",
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "raise",
           "normalized": "T a b-\u003eT c(Dimensional a b)(T b)-\u003eT c(Dimensional a b)(T b)",
@@ -1414,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "raiseVector",
           "package": "synthesizer-dimensional",
@@ -1423,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Displacement",
           "name": "raiseVector",
           "normalized": "T a b-\u003ec-\u003eT d(Dimensional a b)(T c)-\u003eT d(Dimensional a b)(T c)",
@@ -1438,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "Filter",
           "package": "synthesizer-dimensional",
@@ -1446,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "Filter",
           "package": "synthesizer-dimensional",
@@ -1460,6 +1576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amplification factor must be positive. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "amplify",
           "package": "synthesizer-dimensional",
@@ -1470,6 +1587,7 @@
         "index": {
           "description": "The amplification factor must be positive",
           "hierarchy": "Synthesizer Dimensional Amplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "amplify",
           "normalized": "a-\u003eT b(Dimensional c a)d-\u003eT b(Dimensional c a)d",
@@ -1484,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "amplifyDimension",
           "package": "synthesizer-dimensional",
@@ -1493,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "amplifyDimension",
           "normalized": "T a b-\u003eT c(Dimensional d b)e-\u003eT c(Dimensional(Mul a d)b)e",
@@ -1508,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "amplifyScalarDimension",
           "package": "synthesizer-dimensional",
@@ -1517,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "amplifyScalarDimension",
           "normalized": "T a b-\u003eT c(Dimensional Scalar b)d-\u003eT c(Dimensional a b)d",
@@ -1532,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "envelope",
           "package": "synthesizer-dimensional",
@@ -1540,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "envelope",
           "normalized": "T(Phantom a)b(T c)-\u003eT(Phantom a)d(T c)-\u003eT(Phantom a)d(T c)",
@@ -1555,6 +1679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is like \u003ccode\u003e\u003ca\u003eenvelope\u003c/a\u003e\u003c/code\u003e but it does not require\nprior conversion to a flat signal,\nwhat might violate the sample range (-1,1).\nInstead the global amplitudes are multiplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "envelopeScalarDimension",
           "package": "synthesizer-dimensional",
@@ -1564,6 +1689,7 @@
         "index": {
           "description": "This is like envelope but it does not require prior conversion to flat signal what might violate the sample range Instead the global amplitudes are multiplied",
           "hierarchy": "Synthesizer Dimensional Amplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "envelopeScalarDimension",
           "normalized": "R a Scalar b b-\u003eR a c b b-\u003eR a c b b",
@@ -1579,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "envelopeVector",
           "package": "synthesizer-dimensional",
@@ -1587,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "envelopeVector",
           "normalized": "T(Phantom a)b(T c)-\u003eT(Phantom a)d(T e)-\u003eT(Phantom a)d(T e)",
@@ -1602,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "envelopeVectorDimension",
           "package": "synthesizer-dimensional",
@@ -1610,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "envelopeVectorDimension",
           "normalized": "R a b c c-\u003eR a d c e-\u003eR a(Mul b d)c e",
@@ -1625,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "negate",
           "package": "synthesizer-dimensional",
@@ -1634,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Filter",
           "name": "negate",
           "normalized": "T a b(c d)-\u003eT a b(c d)",
@@ -1649,6 +1781,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA class that allows unified handling of\n\u003ccode\u003eAmplitude.Flat\u003c/code\u003e and \u003ccode\u003eAmplitude.Dimensional Dim.Scalar\u003c/code\u003e\nwhich is often used for control curves.\nHowever, I'm thinking about whether this is more abuse than use.\nSo this class may disappear in future.\nAmplitude.Flat might become a synonym for \u003ccode\u003eDN.scalar one\u003c/code\u003e.\nSometimes, using Flat instead of DN.Scalar has the advantage\nof internally saving a multiplication with one,\nbut I think the compiler should optimize that away.\nThe optimization however is more complicated\nif a whole StorableVector is multiplied element-wise by one.\nE.g. the concatenation of flat (storable) signals\ncan be done without copying the entire data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Flat",
           "name": "Flat",
           "package": "synthesizer-dimensional",
@@ -1658,6 +1791,7 @@
         "index": {
           "description": "class that allows unified handling of Amplitude.Flat and Amplitude.Dimensional Dim.Scalar which is often used for control curves However thinking about whether this is more abuse than use So this class may disappear in future Amplitude.Flat might become synonym for DN.scalar one Sometimes using Flat instead of DN.Scalar has the advantage of internally saving multiplication with one but think the compiler should optimize that away The optimization however is more complicated if whole StorableVector is multiplied element-wise by one E.g the concatenation of flat storable signals can be done without copying the entire data",
           "hierarchy": "Synthesizer Dimensional Amplitude Flat",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Flat",
           "name": "Flat",
           "package": "synthesizer-dimensional",
@@ -1671,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Flat",
           "name": "C",
           "package": "synthesizer-dimensional",
@@ -1679,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Flat",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Flat",
           "name": "C",
           "package": "synthesizer-dimensional",
@@ -1691,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Flat",
           "name": "amplifySample",
           "package": "synthesizer-dimensional",
@@ -1700,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Flat",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Flat",
           "name": "amplifySample",
           "normalized": "a-\u003eb-\u003eb",
@@ -1715,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Flat",
           "name": "canonicalize",
           "package": "synthesizer-dimensional",
@@ -1724,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Flat",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Flat",
           "name": "canonicalize",
           "normalized": "T a b(c d)-\u003eT a(Flat d)(c d)",
@@ -1738,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude.Flat",
           "name": "toSamples",
           "package": "synthesizer-dimensional",
@@ -1747,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude Flat",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude.Flat",
           "name": "toSamples",
           "normalized": "T a b(c d)-\u003ec d",
@@ -1762,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Amplitude",
           "package": "synthesizer-dimensional",
@@ -1770,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Amplitude",
           "package": "synthesizer-dimensional",
@@ -1784,6 +1928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan be used as amplitude value for enumeration types\nsuch as \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOrdering\u003c/a\u003e\u003c/code\u003e\nand other types, where a numeric amplitude makes no sense.\nIt is essential in \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e.\nIt would be a bad idea to omit the \u003ccode\u003eAbstract\u003c/code\u003e parameter\nin dimensional causal processes\nsince the correspondence between amplitude type and sample type would be lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Abstract",
           "package": "synthesizer-dimensional",
@@ -1793,6 +1938,7 @@
         "index": {
           "description": "Can be used as amplitude value for enumeration types such as Bool and Ordering and other types where numeric amplitude makes no sense It is essential in It would be bad idea to omit the Abstract parameter in dimensional causal processes since the correspondence between amplitude type and sample type would be lost",
           "hierarchy": "Synthesizer Dimensional Amplitude",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Abstract",
           "package": "synthesizer-dimensional",
@@ -1807,6 +1953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is used to make \u003ccode\u003e\u003ca\u003emapAmplitude\u003c/a\u003e\u003c/code\u003e\nboth flexible and a bit safe.\nIts instances are dimensional numbers \u003ccode\u003e\u003ca\u003eNumeric\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eAbstract\u003c/a\u003e\u003c/code\u003e.\nIt should not be necessary to add more instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "C",
           "package": "synthesizer-dimensional",
@@ -1816,6 +1963,7 @@
         "index": {
           "description": "This class is used to make mapAmplitude both flexible and bit safe Its instances are dimensional numbers Numeric and Abstract It should not be necessary to add more instances",
           "hierarchy": "Synthesizer Dimensional Amplitude",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "C",
           "package": "synthesizer-dimensional",
@@ -1828,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Dimensional",
           "package": "synthesizer-dimensional",
@@ -1836,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Dimensional",
           "package": "synthesizer-dimensional",
@@ -1850,6 +2000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eFlat y\u003c/code\u003e is quite the same as \u003ccode\u003eDimensional Dim.Scalar y\u003c/code\u003e\nbut in some cases it allows a little more efficient processing.\nIt should not be mixed up with \u003ccode\u003eAbstract\u003c/code\u003e.\n\u003ccode\u003eFlat y\u003c/code\u003e is reserved for numeric amplitudes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Flat",
           "package": "synthesizer-dimensional",
@@ -1859,6 +2010,7 @@
         "index": {
           "description": "Flat is quite the same as Dimensional Dim.Scalar but in some cases it allows little more efficient processing It should not be mixed up with Abstract Flat is reserved for numeric amplitudes",
           "hierarchy": "Synthesizer Dimensional Amplitude",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Flat",
           "package": "synthesizer-dimensional",
@@ -1872,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Numeric",
           "package": "synthesizer-dimensional",
@@ -1880,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Numeric",
           "package": "synthesizer-dimensional",
@@ -1894,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is used for \u003ccode\u003e\u003ca\u003eappend\u003c/a\u003e\u003c/code\u003e\nand \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e\nthat expect that the amplitude value\ndoes carry not more information than that expressed by the type.\nIt should not be necessary to add more instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Primitive",
           "package": "synthesizer-dimensional",
@@ -1903,6 +2058,7 @@
         "index": {
           "description": "This class is used for append and map that expect that the amplitude value does carry not more information than that expressed by the type It should not be necessary to add more instances",
           "hierarchy": "Synthesizer Dimensional Amplitude",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Primitive",
           "package": "synthesizer-dimensional",
@@ -1916,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Abstract",
           "package": "synthesizer-dimensional",
@@ -1925,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Abstract",
           "package": "synthesizer-dimensional",
@@ -1938,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Flat",
           "package": "synthesizer-dimensional",
@@ -1947,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Flat",
           "package": "synthesizer-dimensional",
@@ -1960,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Numeric",
           "package": "synthesizer-dimensional",
@@ -1969,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "Numeric",
           "package": "synthesizer-dimensional",
@@ -1982,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "primitive",
           "package": "synthesizer-dimensional",
@@ -1991,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Amplitude",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Amplitude",
           "name": "primitive",
           "package": "synthesizer-dimensional",
@@ -2004,6 +2168,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA wrapper around \u003ccode\u003e(-\u003e)\u003c/code\u003e or \u003ccode\u003eCausal.Process\u003c/code\u003e\nthat adds amplitude handling to the Arrow paradigm.\nThis wrapper unifies \u003ca\u003eSynthesizer.Dimensional.Map\u003c/a\u003e\nand \u003ca\u003eSynthesizer.Dimensional.Causal.Process\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "Arrow",
           "package": "synthesizer-dimensional",
@@ -2013,6 +2178,7 @@
         "index": {
           "description": "wrapper around or Causal.Process that adds amplitude handling to the Arrow paradigm This wrapper unifies Synthesizer.Dimensional.Map and Synthesizer.Dimensional.Causal.Process",
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "Arrow",
           "package": "synthesizer-dimensional",
@@ -2026,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "Applicable",
           "package": "synthesizer-dimensional",
@@ -2034,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "Applicable",
           "package": "synthesizer-dimensional",
@@ -2047,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "Single",
           "package": "synthesizer-dimensional",
@@ -2055,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "Single",
           "package": "synthesizer-dimensional",
@@ -2069,6 +2239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sample type parameters\ncan be arbitrarily nested tuples of \u003ccode\u003eSamples\u003c/code\u003e.\nType functions are used for untangling amplitudes and displacements.\nWe use this approach in order to be able to match\n(as good as possible) the Arrow type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -2078,6 +2249,7 @@
         "index": {
           "description": "The sample type parameters can be arbitrarily nested tuples of Samples Type functions are used for untangling amplitudes and displacements We use this approach in order to be able to match as good as possible the Arrow type class",
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -2090,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "($/-)",
           "package": "synthesizer-dimensional",
@@ -2099,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "($/-) $/-",
           "normalized": "a(Single b(Numeric c)c d e)-\u003ec-\u003ea(T(Phantom f)c(T e))",
@@ -2113,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "($/:)",
           "package": "synthesizer-dimensional",
@@ -2122,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "($/:) $/:",
           "normalized": "a(Single b c c d d)-\u003ea(T e c(f d))-\u003ea(T e c(f d))",
@@ -2136,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "Cons",
           "package": "synthesizer-dimensional",
@@ -2145,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "Cons",
           "normalized": "Cons(Amplitude a-\u003e(b(Displacement a)(Displacement a),Amplitude a))",
@@ -2160,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "apply",
           "package": "synthesizer-dimensional",
@@ -2169,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "apply",
           "normalized": "T a b b-\u003eT c(Amplitude b)(d(Displacement b))-\u003eT c(Amplitude b)(d(Displacement b))",
@@ -2183,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "applyConst",
           "package": "synthesizer-dimensional",
@@ -2192,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "applyConst",
           "normalized": "Single a(Numeric b)b c d-\u003eb-\u003eT(Phantom e)b(T d)",
@@ -2207,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "applyFlat",
           "package": "synthesizer-dimensional",
@@ -2216,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "applyFlat",
           "normalized": "Single a(Flat b)c b b-\u003eT d c(e b)-\u003eT d c(e b)",
@@ -2232,6 +2416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis implementation would work for all \u003ccode\u003ef\u003c/code\u003es\nwhere the output amplitude does not depend on the input displacement.\nThis is true for all shuffling operations\nthat are needed in the translation of the arrow syntax.\nHowever, for the implementation we would need type constraints\nof the function passed to \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e\nand this is not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "arr",
           "package": "synthesizer-dimensional",
@@ -2242,6 +2427,7 @@
         "index": {
           "description": "This implementation would work for all where the output amplitude does not depend on the input displacement This is true for all shuffling operations that are needed in the translation of the arrow syntax However for the implementation we would need type constraints of the function passed to arr and this is not allowed",
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "arr",
           "normalized": "(a-\u003ea)-\u003eT b a a",
@@ -2256,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "canonicalizeFlat",
           "package": "synthesizer-dimensional",
@@ -2265,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "canonicalizeFlat",
           "package": "synthesizer-dimensional",
@@ -2302,6 +2490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "double",
           "package": "synthesizer-dimensional",
@@ -2311,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "double",
           "normalized": "T a b(b,b)",
@@ -2373,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "forceDimensionalAmplitude",
           "package": "synthesizer-dimensional",
@@ -2382,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "forceDimensionalAmplitude",
           "normalized": "T a b-\u003eSingle c(Dimensional a b)(Dimensional a b)d d",
@@ -2397,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "id",
           "package": "synthesizer-dimensional",
@@ -2406,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "id",
           "package": "synthesizer-dimensional",
@@ -2418,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "independentMap",
           "package": "synthesizer-dimensional",
@@ -2427,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "independentMap",
           "normalized": "(Amplitude a-\u003eAmplitude a)-\u003e(Displacement a-\u003eDisplacement a)-\u003eT b a a",
@@ -2468,6 +2664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "loop2Volume",
           "package": "synthesizer-dimensional",
@@ -2477,6 +2674,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Arrow",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Arrow",
           "name": "loop2Volume",
           "normalized": "(T a b,T a b)-\u003eT c(d,(T(Dimensional a b)e,T(Dimensional a b)e))(f,(T(Dimensional a b)e,T(Dimensional a b)e))-\u003eT c d f",
@@ -2565,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Analysis",
           "name": "Analysis",
           "package": "synthesizer-dimensional",
@@ -2573,6 +2772,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Analysis",
           "name": "Analysis",
           "package": "synthesizer-dimensional",
@@ -2586,6 +2786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Analysis",
           "name": "deltaSigmaModulationPositive",
           "package": "synthesizer-dimensional",
@@ -2595,6 +2796,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Analysis",
           "name": "deltaSigmaModulationPositive",
           "normalized": "T a b c(T a(DNS(Mul b d)c c,DNS d c c)(DNS d c c))",
@@ -2611,6 +2813,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic definitions for causal signal processors\nthat are controlled by another signal.\nE.g. a Moog lowpass filter is controlled\nby the cut-off frequency and the resonance.\nHowever internally the Moog filter uses some feed-back factors.\nThe translation from cut-off frequency and resonance\n(we call them external parameters)\nto the feed-back factors\n(we call them internal parameters)\ndepends on the sampling rate.\nThe problem we want to tackle is,\nthat computation of internal filter parameters\nis expensive, but application of filters is not.\nThus we wish to compute internal filter parameters at a lower rate\nthan the sampling rate of the input and output\n(refered to as audio rate, here).\n\u003c/p\u003e\u003cp\u003eOther digital sound synthesis systems solve it this way:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Csound, SuperCollider:\n  They distinguish between audio rate (say 44100 Hz),\n  control rate (say 4410 Hz)\n  and note rate (irregular, but usually less then 100 Hz).\n  The control rate is globally equal and constant.\n\u003c/li\u003e\u003cli\u003e ChucK: It updates internal filter parameters when external filter parameters change,\n  that is, it updates by demand.\n  In terms of control rates this means,\n  that multiple control rates exist and they can be irregular.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAfter playing around with several approaches in this library,\nthe following one appeals me most:\nWe reveal the existence of internal filter parameters to the user,\nbut we hide the details of that parameters.\nFor every filter, we provide two functions:\nOne that computes internal filter parameters from external ones\nand one for actual filtering of the audio data.\nWe provide a type class that selects a filter\naccording to the type of the internal filter parameters.\nThat is, the user only has to choose a filter parameter computation,\nas found in \u003ca\u003eSynthesizer.Dimensional.Causal.FilterParameter\u003c/a\u003e.\nFor globally constant filter parameters,\nsuch as the filter order, we use the signal amplitude.\nYou might call this abuse, but in future we may revise the notion\nof amplitude to that of a global signal parameter.\n\u003c/p\u003e\u003cp\u003eAdditionally we provide functions that perform the full filtering process\ngiven only the filter parameter generator. There are two modes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Synchronous:\n  The filter parameters are computed at audio rate.\n\u003c/li\u003e\u003cli\u003e Asynchronous:\n  The filter parameters are computed at a rate that can differ from audio rate.\n  You can choose the control rate individually for every filter application.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis approach has several advantages:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A filter only has to treat inputs of the same sampling rate.\n  We do not have to duplicate the code for coping with input\n  at rates different from the sample rate.\n\u003c/li\u003e\u003cli\u003e We can provide different ways of specifying filter parameters,\n  e.g. the resonance of a lowpass filter can be controlled\n  either by the slope or by the amplification of the resonant frequency.\n\u003c/li\u003e\u003cli\u003e We can use different control rates in the same program.\n\u003c/li\u003e\u003cli\u003e We can even adapt the speed of filter parameter generation\n  to the speed of changes in the control signal.\n\u003c/li\u003e\u003cli\u003e For a sinusoidal controlled filter sweep we can setup a table\n  of filter parameters for logarithmically equally spaced cut-off frequencies\n  and traverse this table at varying rates according to arcus sine.\n\u003c/li\u003e\u003cli\u003e Classical handling of control rate filter parameter computation\n  can be considered as resampling of filter parameters with constant interpolation.\n  If there is only a small number of internal filter parameters\n  then we may resample with linear interpolation of the filter parameters.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "ControlledProcess",
           "package": "synthesizer-dimensional",
@@ -2620,6 +2823,7 @@
         "index": {
           "description": "Basic definitions for causal signal processors that are controlled by another signal E.g Moog lowpass filter is controlled by the cut-off frequency and the resonance However internally the Moog filter uses some feed-back factors The translation from cut-off frequency and resonance we call them external parameters to the feed-back factors we call them internal parameters depends on the sampling rate The problem we want to tackle is that computation of internal filter parameters is expensive but application of filters is not Thus we wish to compute internal filter parameters at lower rate than the sampling rate of the input and output refered to as audio rate here Other digital sound synthesis systems solve it this way Csound SuperCollider They distinguish between audio rate say Hz control rate say Hz and note rate irregular but usually less then Hz The control rate is globally equal and constant ChucK It updates internal filter parameters when external filter parameters change that is it updates by demand In terms of control rates this means that multiple control rates exist and they can be irregular After playing around with several approaches in this library the following one appeals me most We reveal the existence of internal filter parameters to the user but we hide the details of that parameters For every filter we provide two functions One that computes internal filter parameters from external ones and one for actual filtering of the audio data We provide type class that selects filter according to the type of the internal filter parameters That is the user only has to choose filter parameter computation as found in Synthesizer.Dimensional.Causal.FilterParameter For globally constant filter parameters such as the filter order we use the signal amplitude You might call this abuse but in future we may revise the notion of amplitude to that of global signal parameter Additionally we provide functions that perform the full filtering process given only the filter parameter generator There are two modes Synchronous The filter parameters are computed at audio rate Asynchronous The filter parameters are computed at rate that can differ from audio rate You can choose the control rate individually for every filter application This approach has several advantages filter only has to treat inputs of the same sampling rate We do not have to duplicate the code for coping with input at rates different from the sample rate We can provide different ways of specifying filter parameters e.g the resonance of lowpass filter can be controlled either by the slope or by the amplification of the resonant frequency We can use different control rates in the same program We can even adapt the speed of filter parameter generation to the speed of changes in the control signal For sinusoidal controlled filter sweep we can setup table of filter parameters for logarithmically equally spaced cut-off frequencies and traverse this table at varying rates according to arcus sine Classical handling of control rate filter parameter computation can be considered as resampling of filter parameters with constant interpolation If there is only small number of internal filter parameters then we may resample with linear interpolation of the filter parameters",
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "ControlledProcess",
           "package": "synthesizer-dimensional",
@@ -2634,6 +2838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect a filter process according to the filter parameter type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "C",
           "package": "synthesizer-dimensional",
@@ -2643,6 +2848,7 @@
         "index": {
           "description": "Select filter process according to the filter parameter type",
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "C",
           "package": "synthesizer-dimensional",
@@ -2656,6 +2862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type tags an internal filter parameter\nwith the sampling rate for which it was generated.\nBe aware, that in asynchronous application\nthe internal filter parameters are computed at control rate,\nbut the internal filter parameters must correspond\nto the sampling rate of the target audio signal.\nThe type parameter \u003ccode\u003es\u003c/code\u003e corresponds to that target audio rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "RateDep",
           "package": "synthesizer-dimensional",
@@ -2665,6 +2872,7 @@
         "index": {
           "description": "This type tags an internal filter parameter with the sampling rate for which it was generated Be aware that in asynchronous application the internal filter parameters are computed at control rate but the internal filter parameters must correspond to the sampling rate of the target audio signal The type parameter corresponds to that target audio rate",
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "RateDep",
           "package": "synthesizer-dimensional",
@@ -2678,6 +2886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "RateDep",
           "package": "synthesizer-dimensional",
@@ -2687,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "RateDep",
           "package": "synthesizer-dimensional",
@@ -2700,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "process",
           "package": "synthesizer-dimensional",
@@ -2709,6 +2920,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "process",
           "normalized": "T a b c(T a(T d(RateDep a e),f)g)",
@@ -2723,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "processAsynchronous1",
           "package": "synthesizer-dimensional",
@@ -2732,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "processAsynchronous1",
           "normalized": "T a(RateDep b c)-\u003eT b d a(T(T e f)(T g(RateDep b c)))-\u003eT(Recip d)a-\u003e(h i T j d a(Signal j e f))-\u003eT b d a(T b k l)",
@@ -2748,6 +2962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function will be more commonly used than \u003ccode\u003e\u003ca\u003erunAsynchronous2\u003c/a\u003e\u003c/code\u003e,\nbut it disallows sharing of control signals.\nIt can be easily defined in terms of \u003ccode\u003e\u003ca\u003erunAsynchronous2\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erender\u003c/a\u003e\u003c/code\u003e,\nbut the implementation here does not need the check for equal sample rates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "processAsynchronous2",
           "package": "synthesizer-dimensional",
@@ -2758,6 +2973,7 @@
         "index": {
           "description": "This function will be more commonly used than runAsynchronous2 but it disallows sharing of control signals It can be easily defined in terms of runAsynchronous2 and render but the implementation here does not need the check for equal sample rates",
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "processAsynchronous2",
           "normalized": "T a(RateDep b c)-\u003eT b d a(T(T e f,T e f)(T g(RateDep b c)))-\u003eT(Recip d)a-\u003e(h i T j d a(Signal j e f))-\u003e(h i T j d a(Signal j e f))-\u003eT b d a(T b k l)",
@@ -2774,6 +2990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis buffers internal control parameters before interpolation.\nThis should be faster, since interpolation needs frequent look-ahead,\nand this is faster on a buffered signal than on a plain stateful signal generator.\n\u003c/p\u003e\u003cp\u003eSince the look-ahead is constant,\nit is interesting whether interpolation can be made more efficient\nwithout the inefficient intermediate list structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "processAsynchronousBuffered2",
           "package": "synthesizer-dimensional",
@@ -2784,6 +3001,7 @@
         "index": {
           "description": "This buffers internal control parameters before interpolation This should be faster since interpolation needs frequent look-ahead and this is faster on buffered signal than on plain stateful signal generator Since the look-ahead is constant it is interesting whether interpolation can be made more efficient without the inefficient intermediate list structure",
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "processAsynchronousBuffered2",
           "normalized": "T a(RateDep b c)-\u003eT b d a(T(T e f,T e f)(T g(RateDep b c)))-\u003eT(Recip d)a-\u003e(h i T j d a(Signal j e f))-\u003e(h i T j d a(Signal j e f))-\u003eT b d a(T b k l)",
@@ -2799,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "runAsynchronous1",
           "package": "synthesizer-dimensional",
@@ -2808,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "runAsynchronous1",
           "normalized": "T a(RateDep b c)-\u003eT b d a(T(T e f)(T g(RateDep b c)))-\u003eT(Dimensional d a)e(T f)-\u003eT b d a(T b h i)",
@@ -2824,6 +3044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing two \u003ccode\u003eSigP.T\u003c/code\u003e's as input has the disadvantage\nthat their rates must be compared dynamically.\nIt is not possible with our data structures\nto use one rate for multiple signals.\nWe could also allow the input of a Rate.T and two Proc.T's,\nsince this is the form we get from the computation routines.\nBut this way we lose sharing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "runAsynchronous2",
           "package": "synthesizer-dimensional",
@@ -2834,6 +3055,7 @@
         "index": {
           "description": "Using two SigP.T as input has the disadvantage that their rates must be compared dynamically It is not possible with our data structures to use one rate for multiple signals We could also allow the input of Rate.T and two Proc.T since this is the form we get from the computation routines But this way we lose sharing",
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "runAsynchronous2",
           "normalized": "T a(RateDep b c)-\u003eT b d a(T(T e f,T e f)(T g(RateDep b c)))-\u003eT(Dimensional d a)e(T f)-\u003eT(Dimensional d a)e(T f)-\u003eT b d a(T b h i)",
@@ -2849,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "runAsynchronousBuffered1",
           "package": "synthesizer-dimensional",
@@ -2858,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "runAsynchronousBuffered1",
           "normalized": "T a(RateDep b c)-\u003eT b d a(T(T e f)(T g(RateDep b c)))-\u003eT(Dimensional d a)e(T f)-\u003eT b d a(T b h i)",
@@ -2873,6 +3097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "runSynchronous1",
           "package": "synthesizer-dimensional",
@@ -2882,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "runSynchronous1",
           "normalized": "T a b c(T(T d e)(T f(RateDep a g)))-\u003eT a b c(Signal a d e-\u003eT a h i)",
@@ -2897,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "runSynchronous2",
           "package": "synthesizer-dimensional",
@@ -2906,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "runSynchronous2",
           "normalized": "T a b c(T(T d e,T d e)(T f(RateDep a g)))-\u003eT a b c(Signal a d e-\u003eSignal a d e-\u003eT a h i)",
@@ -2921,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "unRateDep",
           "package": "synthesizer-dimensional",
@@ -2930,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal ControlledProcess",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.ControlledProcess",
           "name": "unRateDep",
           "package": "synthesizer-dimensional",
@@ -2943,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "Displacement",
           "package": "synthesizer-dimensional",
@@ -2951,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "Displacement",
           "package": "synthesizer-dimensional",
@@ -2964,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "distort",
           "package": "synthesizer-dimensional",
@@ -2973,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "distort",
           "normalized": "(a-\u003ea)-\u003eT b c d(T b(DNS e f f,DNS e f a)(DNS e f a))",
@@ -2987,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "fanoutAndMixMulti",
           "package": "synthesizer-dimensional",
@@ -2996,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "fanoutAndMixMulti",
           "normalized": "[T a b c(T a d(DNS e f g))]-\u003eT a b c(T a d(DNS e f g))",
@@ -3011,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "fanoutAndMixMultiVolume",
           "package": "synthesizer-dimensional",
@@ -3020,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "fanoutAndMixMultiVolume",
           "normalized": "T a b-\u003e[T c d e(T c f(DNS a b g))]-\u003eT c d e(T c f(DNS a b g))",
@@ -3035,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "mix",
           "package": "synthesizer-dimensional",
@@ -3044,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "mix",
           "normalized": "T a b c(T a(DNS d e f,DNS d e f)(DNS d e f))",
@@ -3058,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "mixVolume",
           "package": "synthesizer-dimensional",
@@ -3067,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "mixVolume",
           "normalized": "T a b-\u003eT c d e(T c(DNS a b f,DNS a b f)(DNS a b f))",
@@ -3082,6 +3324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "raise",
           "package": "synthesizer-dimensional",
@@ -3091,6 +3334,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Displacement",
           "name": "raise",
           "normalized": "T a b-\u003ec-\u003eT d e f(T d(DNS a b c)(DNS a b c))",
@@ -3105,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "Filter",
           "package": "synthesizer-dimensional",
@@ -3113,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "Filter",
           "package": "synthesizer-dimensional",
@@ -3127,6 +3373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amplification factor must be positive. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "amplify",
           "package": "synthesizer-dimensional",
@@ -3137,6 +3384,7 @@
         "index": {
           "description": "The amplification factor must be positive",
           "hierarchy": "Synthesizer Dimensional Causal Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "amplify",
           "normalized": "a-\u003eT b c d(Single b(Numeric e)(Numeric e)f f)",
@@ -3151,6 +3399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "amplifyDimension",
           "package": "synthesizer-dimensional",
@@ -3160,6 +3409,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "amplifyDimension",
           "normalized": "T a b-\u003eT c d e(Single c(Dimensional a b)(Dimensional(Mul a a)b)f f)",
@@ -3175,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "amplifyScalarDimension",
           "package": "synthesizer-dimensional",
@@ -3184,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "amplifyScalarDimension",
           "normalized": "T a b-\u003eT c d e(Single c(Dimensional Scalar b)(Dimensional a b)f f)",
@@ -3199,6 +3451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "differentiate",
           "package": "synthesizer-dimensional",
@@ -3208,6 +3461,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "differentiate",
           "package": "synthesizer-dimensional",
@@ -3220,6 +3474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "envelope",
           "package": "synthesizer-dimensional",
@@ -3229,6 +3484,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "envelope",
           "normalized": "T a b c(T a(Flat d,Numeric e d)(Numeric e d))",
@@ -3243,6 +3499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "envelopeScalarDimension",
           "package": "synthesizer-dimensional",
@@ -3252,6 +3509,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "envelopeScalarDimension",
           "normalized": "T a b c(T a(Dimensional Scalar d d,Dimensional e d d)(Dimensional e d d))",
@@ -3267,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "envelopeVector",
           "package": "synthesizer-dimensional",
@@ -3276,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "envelopeVector",
           "normalized": "T a b c(T a(Flat d,e)e)",
@@ -3291,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "envelopeVectorDimension",
           "package": "synthesizer-dimensional",
@@ -3300,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "envelopeVectorDimension",
           "normalized": "T a b c(T a(Dimensional d e e,Dimensional d e f)(Dimensional(Mul d d)e f))",
@@ -3315,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "integrate",
           "package": "synthesizer-dimensional",
@@ -3324,6 +3587,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "integrate",
           "package": "synthesizer-dimensional",
@@ -3336,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "negate",
           "package": "synthesizer-dimensional",
@@ -3345,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Filter",
           "name": "negate",
           "package": "synthesizer-dimensional",
@@ -3357,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "FilterParameter",
           "package": "synthesizer-dimensional",
@@ -3365,6 +3632,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "FilterParameter",
           "package": "synthesizer-dimensional",
@@ -3378,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "AllpassCascadeGlobal",
           "package": "synthesizer-dimensional",
@@ -3386,6 +3655,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "AllpassCascadeGlobal",
           "package": "synthesizer-dimensional",
@@ -3399,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "AllpassPhaserGlobal",
           "package": "synthesizer-dimensional",
@@ -3407,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "AllpassPhaserGlobal",
           "package": "synthesizer-dimensional",
@@ -3420,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "FirstOrderGlobal",
           "package": "synthesizer-dimensional",
@@ -3428,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "FirstOrderGlobal",
           "package": "synthesizer-dimensional",
@@ -3441,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "MoogLowpassGlobal",
           "package": "synthesizer-dimensional",
@@ -3449,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "MoogLowpassGlobal",
           "package": "synthesizer-dimensional",
@@ -3462,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "SecondOrderCascadeGlobal",
           "package": "synthesizer-dimensional",
@@ -3470,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "SecondOrderCascadeGlobal",
           "package": "synthesizer-dimensional",
@@ -3483,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "UniversalGlobal",
           "package": "synthesizer-dimensional",
@@ -3491,6 +3770,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "UniversalGlobal",
           "package": "synthesizer-dimensional",
@@ -3504,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "allpassCascade",
           "package": "synthesizer-dimensional",
@@ -3512,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "allpassCascade",
           "normalized": "Int-\u003ea-\u003eT b c a(T d(Dimensional(Recip c)a a)(T AllpassCascadeGlobal(RateDep b(Parameter a))))",
@@ -3550,6 +3832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "allpassPhaser",
           "package": "synthesizer-dimensional",
@@ -3558,6 +3841,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "allpassPhaser",
           "normalized": "Int-\u003eT a b c(T d(Dimensional Scalar c c,Dimensional(Recip b)c c)(T AllpassPhaserGlobal(RateDep a(c,Parameter c))))",
@@ -3573,6 +3857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "bandlimitFromUniversal",
           "package": "synthesizer-dimensional",
@@ -3582,6 +3867,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "bandlimitFromUniversal",
           "package": "synthesizer-dimensional",
@@ -3595,6 +3881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "bandpassFromUniversal",
           "package": "synthesizer-dimensional",
@@ -3604,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "bandpassFromUniversal",
           "package": "synthesizer-dimensional",
@@ -3617,6 +3905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "butterworthHighpass",
           "package": "synthesizer-dimensional",
@@ -3625,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "butterworthHighpass",
           "normalized": "Int-\u003eSecondOrderCascade a b c d",
@@ -3640,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "butterworthLowpass",
           "package": "synthesizer-dimensional",
@@ -3648,6 +3939,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "butterworthLowpass",
           "normalized": "Int-\u003eSecondOrderCascade a b c d",
@@ -3663,6 +3955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "chebyshevAHighpass",
           "package": "synthesizer-dimensional",
@@ -3672,6 +3965,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "chebyshevAHighpass",
           "normalized": "Int-\u003eSecondOrderCascade a b c d",
@@ -3687,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "chebyshevALowpass",
           "package": "synthesizer-dimensional",
@@ -3696,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "chebyshevALowpass",
           "normalized": "Int-\u003eSecondOrderCascade a b c d",
@@ -3711,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "chebyshevBHighpass",
           "package": "synthesizer-dimensional",
@@ -3720,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "chebyshevBHighpass",
           "normalized": "Int-\u003eSecondOrderCascade a b c d",
@@ -3735,6 +4033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "chebyshevBLowpass",
           "package": "synthesizer-dimensional",
@@ -3744,6 +4043,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "chebyshevBLowpass",
           "normalized": "Int-\u003eSecondOrderCascade a b c d",
@@ -3759,6 +4059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "firstOrder",
           "package": "synthesizer-dimensional",
@@ -3768,6 +4069,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "firstOrder",
           "package": "synthesizer-dimensional",
@@ -3781,6 +4083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "highpassFromFirstOrder",
           "package": "synthesizer-dimensional",
@@ -3790,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "highpassFromFirstOrder",
           "package": "synthesizer-dimensional",
@@ -3803,6 +4107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "highpassFromUniversal",
           "package": "synthesizer-dimensional",
@@ -3812,6 +4117,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "highpassFromUniversal",
           "package": "synthesizer-dimensional",
@@ -3825,6 +4131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "lowpassFromFirstOrder",
           "package": "synthesizer-dimensional",
@@ -3834,6 +4141,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "lowpassFromFirstOrder",
           "package": "synthesizer-dimensional",
@@ -3847,6 +4155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "lowpassFromUniversal",
           "package": "synthesizer-dimensional",
@@ -3856,6 +4165,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "lowpassFromUniversal",
           "package": "synthesizer-dimensional",
@@ -3870,6 +4180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe returned arrow has intentionally no \u003ccode\u003es\u003c/code\u003e type parameter,\nin order to let you apply the parameter generator\nto control signals with control sampling rate\nthat is different from the one target audio sampling rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "moogLowpass",
           "package": "synthesizer-dimensional",
@@ -3880,6 +4191,7 @@
         "index": {
           "description": "The returned arrow has intentionally no type parameter in order to let you apply the parameter generator to control signals with control sampling rate that is different from the one target audio sampling rate",
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "moogLowpass",
           "normalized": "Int-\u003eT a b c(T d(Dimensional Scalar c c,Dimensional(Recip b)c c)(T MoogLowpassGlobal(RateDep a(Parameter c))))",
@@ -3895,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "universal",
           "package": "synthesizer-dimensional",
@@ -3904,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal FilterParameter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.FilterParameter",
           "name": "universal",
           "normalized": "T a b c(T d(Dimensional Scalar c c,Dimensional(Recip b)c c)(T UniversalGlobal(RateDep a(Parameter c))))",
@@ -3919,6 +4233,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTurn frequency information into signals of phases.\nThis is mainly the fundament for implementation of oscillators\nbut you may also use it for generating coherent waves of different form.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "Core",
           "package": "synthesizer-dimensional",
@@ -3928,6 +4243,7 @@
         "index": {
           "description": "Turn frequency information into signals of phases This is mainly the fundament for implementation of oscillators but you may also use it for generating coherent waves of different form",
           "hierarchy": "Synthesizer Dimensional Causal Oscillator Core",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "Core",
           "package": "synthesizer-dimensional",
@@ -3941,6 +4257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "Frequency",
           "package": "synthesizer-dimensional",
@@ -3949,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Oscillator Core",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "Frequency",
           "package": "synthesizer-dimensional",
@@ -3962,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "SampleFrequency",
           "package": "synthesizer-dimensional",
@@ -3970,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Oscillator Core",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "SampleFrequency",
           "package": "synthesizer-dimensional",
@@ -3983,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "freqMod",
           "package": "synthesizer-dimensional",
@@ -3991,6 +4312,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Oscillator Core",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "freqMod",
           "normalized": "T a-\u003eT b c a(T b(SampleFrequency c a)(SamplePhase a))",
@@ -4006,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "phaseFreqMod",
           "package": "synthesizer-dimensional",
@@ -4015,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Oscillator Core",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "phaseFreqMod",
           "normalized": "T a b c(T a(Flat c,SampleFrequency b c)(SamplePhase c))",
@@ -4030,6 +4354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "phaseMod",
           "package": "synthesizer-dimensional",
@@ -4038,6 +4363,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Oscillator Core",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "phaseMod",
           "normalized": "T(Recip a)b-\u003eT c a b(T c(Flat b)(SamplePhase b))",
@@ -4053,6 +4379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "static",
           "package": "synthesizer-dimensional",
@@ -4061,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Oscillator Core",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator.Core",
           "name": "static",
           "normalized": "T a-\u003eT(Recip b)a-\u003eT c b a(T(Phantom c)Abstract(T(T a)))",
@@ -4075,6 +4403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "Oscillator",
           "package": "synthesizer-dimensional",
@@ -4083,6 +4412,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "Oscillator",
           "package": "synthesizer-dimensional",
@@ -4097,6 +4427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with a functional waveform with modulated frequency \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "freqMod",
           "package": "synthesizer-dimensional",
@@ -4106,6 +4437,7 @@
         "index": {
           "description": "oscillator with functional waveform with modulated frequency",
           "hierarchy": "Synthesizer Dimensional Causal Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "freqMod",
           "normalized": "T a b-\u003eT a-\u003eT c d a(T c(SampleFrequency d a)b)",
@@ -4122,6 +4454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with a functional waveform with modulated phase and frequency \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "phaseFreqMod",
           "package": "synthesizer-dimensional",
@@ -4131,6 +4464,7 @@
         "index": {
           "description": "oscillator with functional waveform with modulated phase and frequency",
           "hierarchy": "Synthesizer Dimensional Causal Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "phaseFreqMod",
           "normalized": "T a b-\u003eT c d a(T c(Flat a,SampleFrequency d a)b)",
@@ -4147,6 +4481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with modulated phase \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "phaseMod",
           "package": "synthesizer-dimensional",
@@ -4156,6 +4491,7 @@
         "index": {
           "description": "oscillator with modulated phase",
           "hierarchy": "Synthesizer Dimensional Causal Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "phaseMod",
           "normalized": "T a b-\u003eT(Recip c)a-\u003eT d c a(T d(Flat a)b)",
@@ -4172,6 +4508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with both shape and frequency modulation \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "shapeFreqMod",
           "package": "synthesizer-dimensional",
@@ -4181,6 +4518,7 @@
         "index": {
           "description": "oscillator with both shape and frequency modulation",
           "hierarchy": "Synthesizer Dimensional Causal Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "shapeFreqMod",
           "normalized": "T a b c-\u003eT b-\u003eT d e b(T d(a,SampleFrequency e b)c)",
@@ -4196,6 +4534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "shapeFreqModFromSampledTone",
           "package": "synthesizer-dimensional",
@@ -4204,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "shapeFreqModFromSampledTone",
           "normalized": "T a b-\u003eT a b-\u003eT(Recip c)a-\u003eT(Dimensional c a)d(e b)-\u003ea-\u003eT a-\u003eT f c a(T f(Flat a,SampleFrequency c a)(T d b))",
@@ -4220,6 +4560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with modulated shape \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "shapeMod",
           "package": "synthesizer-dimensional",
@@ -4229,6 +4570,7 @@
         "index": {
           "description": "oscillator with modulated shape",
           "hierarchy": "Synthesizer Dimensional Causal Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "shapeMod",
           "normalized": "T a b c-\u003eT b-\u003eT(Recip d)b-\u003eT e d b(T e a c)",
@@ -4244,6 +4586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "shapePhaseFreqModFromSampledTone",
           "package": "synthesizer-dimensional",
@@ -4252,6 +4595,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Oscillator",
           "name": "shapePhaseFreqModFromSampledTone",
           "normalized": "T a b-\u003eT a b-\u003eT(Recip c)a-\u003eT(Dimensional c a)d(e b)-\u003ea-\u003eT a-\u003eT f c a(T f(Flat a,Flat a,SampleFrequency c a)(T d b))",
@@ -4267,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "Process",
           "package": "synthesizer-dimensional",
@@ -4275,6 +4620,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "Process",
           "package": "synthesizer-dimensional",
@@ -4288,6 +4634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "Core",
           "package": "synthesizer-dimensional",
@@ -4296,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "Core",
           "package": "synthesizer-dimensional",
@@ -4309,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "Single",
           "package": "synthesizer-dimensional",
@@ -4317,6 +4666,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "Single",
           "package": "synthesizer-dimensional",
@@ -4331,6 +4681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that \u003ccode\u003eamp\u003c/code\u003e can also be a pair of amplitudes\nor a more complicated ensemble of amplitudes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -4340,6 +4691,7 @@
         "index": {
           "description": "Note that amp can also be pair of amplitudes or more complicated ensemble of amplitudes",
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -4352,6 +4704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "($/-)",
           "package": "synthesizer-dimensional",
@@ -4361,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "($/-) $/-",
           "normalized": "a(Single b(Numeric c)c d e)-\u003ec-\u003ea(T(Phantom b)c(T e))",
@@ -4375,6 +4729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "($/:)",
           "package": "synthesizer-dimensional",
@@ -4384,6 +4739,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "($/:) $/:",
           "normalized": "a(Single b c c d d)-\u003ea(T(Phantom b)c(e d))-\u003ea(T(Phantom b)c(e d))",
@@ -4399,6 +4755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFanout: send the input to both argument arrows and combine\n   their output.\n\u003c/p\u003e\u003cp\u003eThe default definition may be overridden with a more efficient\n   version if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(&&&)",
           "package": "synthesizer-dimensional",
@@ -4408,6 +4765,7 @@
         "index": {
           "description": "Fanout send the input to both argument arrows and combine their output The default definition may be overridden with more efficient version if desired",
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(&&&) &&&",
           "normalized": "a b c d e b c-\u003ee b f-\u003ee b(c,f)",
@@ -4423,6 +4781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit the input between the two argument arrows and combine\n   their output.  Note that this is in general not a functor.\n\u003c/p\u003e\u003cp\u003eThe default definition may be overridden with a more efficient\n   version if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(***)",
           "package": "synthesizer-dimensional",
@@ -4432,6 +4791,7 @@
         "index": {
           "description": "Split the input between the two argument arrows and combine their output Note that this is in general not functor The default definition may be overridden with more efficient version if desired",
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(***) ***",
           "normalized": "a b c d e f b c-\u003ef d g-\u003ef(b,d)(c,g)",
@@ -4447,6 +4807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-to-left composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(\u003c\u003c\u003c)",
           "package": "synthesizer-dimensional",
@@ -4456,6 +4817,7 @@
         "index": {
           "description": "Right-to-left composition",
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(\u003c\u003c\u003c) \u003c\u003c\u003c",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -4471,6 +4833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrecomposition with a pure function (right-to-left variant).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(\u003c\u003c^)",
           "package": "synthesizer-dimensional",
@@ -4481,6 +4844,7 @@
         "index": {
           "description": "Precomposition with pure function right-to-left variant",
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(\u003c\u003c^) \u003c\u003c^",
           "normalized": "T a b b-\u003eT b b-\u003eT a b b",
@@ -4496,6 +4860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-to-right composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(\u003e\u003e\u003e)",
           "package": "synthesizer-dimensional",
@@ -4505,6 +4870,7 @@
         "index": {
           "description": "Left-to-right composition",
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(\u003e\u003e\u003e) \u003e\u003e\u003e",
           "normalized": "a b c-\u003ea c d-\u003ea b d",
@@ -4520,6 +4886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostcomposition with a pure function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(\u003e\u003e^)",
           "package": "synthesizer-dimensional",
@@ -4530,6 +4897,7 @@
         "index": {
           "description": "Postcomposition with pure function",
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(\u003e\u003e^) \u003e\u003e^",
           "normalized": "T a b b-\u003eT b b-\u003eT a b b",
@@ -4545,6 +4913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostcomposition with a pure function (right-to-left variant).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(^\u003c\u003c)",
           "package": "synthesizer-dimensional",
@@ -4555,6 +4924,7 @@
         "index": {
           "description": "Postcomposition with pure function right-to-left variant",
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(^\u003c\u003c) ^\u003c\u003c",
           "normalized": "T a a-\u003eT b a a-\u003eT b a a",
@@ -4570,6 +4940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrecomposition with a pure function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(^\u003e\u003e)",
           "package": "synthesizer-dimensional",
@@ -4580,6 +4951,7 @@
         "index": {
           "description": "Precomposition with pure function",
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "(^\u003e\u003e) ^\u003e\u003e",
           "normalized": "T a a-\u003eT b a a-\u003eT b a a",
@@ -4594,6 +4966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "Core",
           "package": "synthesizer-dimensional",
@@ -4603,6 +4976,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "Core",
           "package": "synthesizer-dimensional",
@@ -4616,6 +4990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "apply",
           "package": "synthesizer-dimensional",
@@ -4625,6 +5000,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "apply",
           "normalized": "Single a b b c c-\u003eT(Phantom a)b(d c)-\u003eT(Phantom a)b(d c)",
@@ -4639,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "applyConst",
           "package": "synthesizer-dimensional",
@@ -4648,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "applyConst",
           "normalized": "Single a(Numeric b)b c d-\u003eb-\u003eT(Phantom a)b(T d)",
@@ -4663,6 +5041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "applyFlat",
           "package": "synthesizer-dimensional",
@@ -4672,6 +5051,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "applyFlat",
           "normalized": "Single a(Flat b)c b b-\u003eT(Phantom a)c(d b)-\u003eT(Phantom a)c(d b)",
@@ -4687,6 +5067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "applyFlatFst",
           "package": "synthesizer-dimensional",
@@ -4696,6 +5077,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "applyFlatFst",
           "normalized": "T a(T(Flat b)b,c)d-\u003eT(Phantom a)e(f b)-\u003eT a c d",
@@ -4711,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "applyFst",
           "package": "synthesizer-dimensional",
@@ -4720,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "applyFst",
           "normalized": "T a(T b c,d)e-\u003eT(Phantom a)b(f c)-\u003eT a d e",
@@ -4735,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "applySnd",
           "package": "synthesizer-dimensional",
@@ -4744,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "applySnd",
           "normalized": "T a(b,T c d)e-\u003eT(Phantom a)c(f d)-\u003eT a b e",
@@ -4759,6 +5145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "canonicalizeFlat",
           "package": "synthesizer-dimensional",
@@ -4768,6 +5155,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "canonicalizeFlat",
           "package": "synthesizer-dimensional",
@@ -4781,6 +5169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "consFlip",
           "package": "synthesizer-dimensional",
@@ -4790,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "consFlip",
           "normalized": "(Amplitude a-\u003e(Amplitude a,T(Displacement a)(Displacement a)))-\u003eT b a a",
@@ -4805,6 +5195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "feedFst",
           "package": "synthesizer-dimensional",
@@ -4814,6 +5205,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "feedFst",
           "normalized": "T(Phantom a)b(c d)-\u003eT a e(T b d,e)",
@@ -4829,6 +5221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "feedSnd",
           "package": "synthesizer-dimensional",
@@ -4838,6 +5231,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "feedSnd",
           "normalized": "T(Phantom a)b(c d)-\u003eT a e(e,T b d)",
@@ -4854,6 +5248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a low-level homogeneous process to a dimensional one.\n\u003c/p\u003e\u003cp\u003eNote that the \u003ccode\u003eamp\u003c/code\u003e type variable is unrestricted.\nThis way we show, that the amplitude is not touched,\nwhich also means that the underlying low-level process must be homogeneous.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "homogeneous",
           "package": "synthesizer-dimensional",
@@ -4864,6 +5259,7 @@
         "index": {
           "description": "Lift low-level homogeneous process to dimensional one Note that the amp type variable is unrestricted This way we show that the amplitude is not touched which also means that the underlying low-level process must be homogeneous",
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "homogeneous",
           "normalized": "T a a-\u003eSingle b c c a a",
@@ -4878,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "id",
           "package": "synthesizer-dimensional",
@@ -4887,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "id",
           "package": "synthesizer-dimensional",
@@ -4899,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "loop2Volume",
           "package": "synthesizer-dimensional",
@@ -4908,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "loop2Volume",
           "normalized": "(T a b,T a b)-\u003eT c(d,(T(Dimensional a b)e,T(Dimensional a b)e))(f,(T(Dimensional a b)e,T(Dimensional a b)e))-\u003eT c d f",
@@ -4923,6 +5323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "map",
           "package": "synthesizer-dimensional",
@@ -4932,6 +5333,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Causal Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Causal.Process",
           "name": "map",
           "normalized": "T a a-\u003eT b a a",
@@ -4946,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.ChunkySize.Cut",
           "name": "Cut",
           "package": "synthesizer-dimensional",
@@ -4954,6 +5357,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional ChunkySize Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.ChunkySize.Cut",
           "name": "Cut",
           "package": "synthesizer-dimensional",
@@ -4967,6 +5371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.ChunkySize.Cut",
           "name": "drop",
           "package": "synthesizer-dimensional",
@@ -4976,6 +5381,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional ChunkySize Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.ChunkySize.Cut",
           "name": "drop",
           "normalized": "Size a-\u003eSignal a b c-\u003eSignal a b c",
@@ -4991,6 +5397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo avoid recomputation,\ndon't use this directly on State signals\nbut only after buffering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.ChunkySize.Cut",
           "name": "splitAt",
           "package": "synthesizer-dimensional",
@@ -5001,6 +5408,7 @@
         "index": {
           "description": "To avoid recomputation don use this directly on State signals but only after buffering",
           "hierarchy": "Synthesizer Dimensional ChunkySize Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.ChunkySize.Cut",
           "name": "splitAt",
           "normalized": "Size a-\u003eSignal a b c-\u003e(Signal a b c,Signal a b c)",
@@ -5016,6 +5424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.ChunkySize.Cut",
           "name": "take",
           "package": "synthesizer-dimensional",
@@ -5025,6 +5434,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional ChunkySize Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.ChunkySize.Cut",
           "name": "take",
           "normalized": "Size a-\u003eSignal a b c-\u003eSignal a b c",
@@ -5039,6 +5449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.ChunkySize.Signal",
           "name": "Signal",
           "package": "synthesizer-dimensional",
@@ -5047,6 +5458,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional ChunkySize Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.ChunkySize.Signal",
           "name": "Signal",
           "package": "synthesizer-dimensional",
@@ -5060,6 +5472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.ChunkySize.Signal",
           "name": "length",
           "package": "synthesizer-dimensional",
@@ -5069,6 +5482,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional ChunkySize Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.ChunkySize.Signal",
           "name": "length",
           "normalized": "Signal a b c-\u003eSize a",
@@ -5083,6 +5497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.ChunkySize.Signal",
           "name": "store",
           "package": "synthesizer-dimensional",
@@ -5092,6 +5507,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional ChunkySize Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.ChunkySize.Signal",
           "name": "store",
           "normalized": "Size a-\u003eSignal a b(T c)-\u003eSignal a b(d c)",
@@ -5106,6 +5522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Cyclic.Analysis",
           "name": "Analysis",
           "package": "synthesizer-dimensional",
@@ -5114,6 +5531,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Cyclic Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Cyclic.Analysis",
           "name": "Analysis",
           "package": "synthesizer-dimensional",
@@ -5128,6 +5546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFourier synthesis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Cyclic.Analysis",
           "name": "fromFrequencySpectrum",
           "package": "synthesizer-dimensional",
@@ -5138,6 +5557,7 @@
         "index": {
           "description": "Fourier synthesis",
           "hierarchy": "Synthesizer Dimensional Cyclic Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Cyclic.Analysis",
           "name": "fromFrequencySpectrum",
           "normalized": "T(Dimensional(Recip a)b)(Dimensional(Mul a c)b)(T(d(T b)))-\u003eT(Dimensional a b)(Dimensional c b)(T(d(T b)))",
@@ -5154,6 +5574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFourier analysis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Cyclic.Analysis",
           "name": "toFrequencySpectrum",
           "package": "synthesizer-dimensional",
@@ -5164,6 +5585,7 @@
         "index": {
           "description": "Fourier analysis",
           "hierarchy": "Synthesizer Dimensional Cyclic Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Cyclic.Analysis",
           "name": "toFrequencySpectrum",
           "normalized": "T(Dimensional a b)(Dimensional c b)(T(d(T b)))-\u003eT(Dimensional(Recip a)b)(Dimensional(Mul a c)b)(T(d(T b)))",
@@ -5180,6 +5602,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTreat a signal as period of a cyclic signal.\n\u003c/p\u003e\u003cp\u003eToDo:\nIn principle this module does no longer belong to dimensional package\nbut could be moved to synthesizer-core.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "Signal",
           "package": "synthesizer-dimensional",
@@ -5189,6 +5612,7 @@
         "index": {
           "description": "Treat signal as period of cyclic signal ToDo In principle this module does no longer belong to dimensional package but could be moved to synthesizer-core",
           "hierarchy": "Synthesizer Dimensional Cyclic Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "Signal",
           "package": "synthesizer-dimensional",
@@ -5202,6 +5626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -5210,6 +5635,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Cyclic Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -5222,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "Cons",
           "package": "synthesizer-dimensional",
@@ -5231,6 +5658,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Cyclic Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "Cons",
           "package": "synthesizer-dimensional",
@@ -5244,6 +5672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "fromPeriod",
           "package": "synthesizer-dimensional",
@@ -5253,6 +5682,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Cyclic Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "fromPeriod",
           "normalized": "a-\u003eT a",
@@ -5269,6 +5699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeriodization of a straight signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "fromSignal",
           "package": "synthesizer-dimensional",
@@ -5279,6 +5710,7 @@
         "index": {
           "description": "Periodization of straight signal",
           "hierarchy": "Synthesizer Dimensional Cyclic Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "fromSignal",
           "normalized": "Int-\u003ea b-\u003eT(a b)",
@@ -5294,6 +5726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "processPeriod",
           "package": "synthesizer-dimensional",
@@ -5303,6 +5736,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Cyclic Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "processPeriod",
           "normalized": "(a-\u003ea)-\u003eT a-\u003eT a",
@@ -5319,6 +5753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe sampled values \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "toPeriod",
           "package": "synthesizer-dimensional",
@@ -5329,6 +5764,7 @@
         "index": {
           "description": "the sampled values",
           "hierarchy": "Synthesizer Dimensional Cyclic Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "toPeriod",
           "package": "synthesizer-dimensional",
@@ -5343,6 +5779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a cyclic signal to a straight signal containing a loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "toSignal",
           "package": "synthesizer-dimensional",
@@ -5353,6 +5790,7 @@
         "index": {
           "description": "Convert cyclic signal to straight signal containing loop",
           "hierarchy": "Synthesizer Dimensional Cyclic Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Cyclic.Signal",
           "name": "toSignal",
           "normalized": "T a-\u003ea",
@@ -5368,6 +5806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "Displacement",
           "package": "synthesizer-dimensional",
@@ -5376,6 +5815,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "Displacement",
           "package": "synthesizer-dimensional",
@@ -5390,6 +5830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistort the signal using a flat function.\nThe first signal gives the scaling of the function.\nIf the scaling is \u003ccode\u003ec\u003c/code\u003e and the input sample is \u003ccode\u003ey\u003c/code\u003e,\nthen \u003ccode\u003ec * f(y/c)\u003c/code\u003e is emitted.\nThis way we can use an (efficient) flat function\nand have a simple, yet dimension conform, way of controlling the distortion.\nE.g. if the distortion function is \u003ccode\u003etanh\u003c/code\u003e\nthen the value \u003ccode\u003ec\u003c/code\u003e controls the saturation level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "distort",
           "package": "synthesizer-dimensional",
@@ -5400,6 +5841,7 @@
         "index": {
           "description": "Distort the signal using flat function The first signal gives the scaling of the function If the scaling is and the input sample is then is emitted This way we can use an efficient flat function and have simple yet dimension conform way of controlling the distortion E.g if the distortion function is tanh then the value controls the saturation level",
           "hierarchy": "Synthesizer Dimensional Map Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "distort",
           "normalized": "(a-\u003ea)-\u003eT b(DNS c d d,DNS c d a)(DNS c d a)",
@@ -5415,6 +5857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix one or more signals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "fanoutAndMixMulti",
           "package": "synthesizer-dimensional",
@@ -5425,6 +5868,7 @@
         "index": {
           "description": "Mix one or more signals",
           "hierarchy": "Synthesizer Dimensional Map Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "fanoutAndMixMulti",
           "normalized": "[T a b(DNS c d e)]-\u003eT a b(DNS c d e)",
@@ -5441,6 +5885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix zero or more signals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "fanoutAndMixMultiVolume",
           "package": "synthesizer-dimensional",
@@ -5451,6 +5896,7 @@
         "index": {
           "description": "Mix zero or more signals",
           "hierarchy": "Synthesizer Dimensional Map Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "fanoutAndMixMultiVolume",
           "normalized": "T a b-\u003e[T c d(DNS a b e)]-\u003eT c d(DNS a b e)",
@@ -5466,6 +5912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "mapExponential",
           "package": "synthesizer-dimensional",
@@ -5475,6 +5922,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "mapExponential",
           "normalized": "a-\u003eT b c-\u003eT d(T e a)(DNS b c a)",
@@ -5491,6 +5939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a control curve without amplitude unit\nby a linear (affine) function with a unit.\nThis is a combination of \u003ccode\u003e\u003ca\u003eraise\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003eamplify\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt is not quite correct in the sense,\nthat it does not produce low-level sample values in the range (-1,1).\nInstead it generates values around 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "mapLinear",
           "package": "synthesizer-dimensional",
@@ -5501,6 +5950,7 @@
         "index": {
           "description": "Map control curve without amplitude unit by linear affine function with unit This is combination of raise and amplify It is not quite correct in the sense that it does not produce low-level sample values in the range Instead it generates values around",
           "hierarchy": "Synthesizer Dimensional Map Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "mapLinear",
           "normalized": "a-\u003eT b a-\u003eT c(T d a)(DNS b a a)",
@@ -5516,6 +5966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "mapLinearDimension",
           "package": "synthesizer-dimensional",
@@ -5524,6 +5975,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "mapLinearDimension",
           "normalized": "T a b-\u003eT(Mul a c)b-\u003eT d(DNS c b b)(DNS(Mul a c)b b)",
@@ -5540,6 +5992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix two signals.\nIn contrast to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e the result has the length of the longer signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "mix",
           "package": "synthesizer-dimensional",
@@ -5550,6 +6003,7 @@
         "index": {
           "description": "Mix two signals In contrast to zipWith the result has the length of the longer signal",
           "hierarchy": "Synthesizer Dimensional Map Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "mix",
           "normalized": "T a(DNS b c d,DNS b c d)(DNS b c d)",
@@ -5564,6 +6018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "mixVolume",
           "package": "synthesizer-dimensional",
@@ -5573,6 +6028,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "mixVolume",
           "normalized": "T a b-\u003eT c(DNS a b d,DNS a b d)(DNS a b d)",
@@ -5589,6 +6045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a number to all of the signal values.\nThis is useful for adjusting the center of a modulation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "raise",
           "package": "synthesizer-dimensional",
@@ -5599,6 +6056,7 @@
         "index": {
           "description": "Add number to all of the signal values This is useful for adjusting the center of modulation",
           "hierarchy": "Synthesizer Dimensional Map Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Displacement",
           "name": "raise",
           "normalized": "T a b-\u003ec-\u003eT d(DNS a b c)(DNS a b c)",
@@ -5613,6 +6071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "Filter",
           "package": "synthesizer-dimensional",
@@ -5621,6 +6080,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "Filter",
           "package": "synthesizer-dimensional",
@@ -5635,6 +6095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amplification factor must be positive. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "amplify",
           "package": "synthesizer-dimensional",
@@ -5645,6 +6106,7 @@
         "index": {
           "description": "The amplification factor must be positive",
           "hierarchy": "Synthesizer Dimensional Map Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "amplify",
           "normalized": "a-\u003eSingle b(Numeric c)(Numeric c)d d",
@@ -5659,6 +6121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "amplifyDimension",
           "package": "synthesizer-dimensional",
@@ -5668,6 +6131,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "amplifyDimension",
           "normalized": "T a b-\u003eSingle c(Dimensional a b)(Dimensional(Mul a a)b)d d",
@@ -5683,6 +6147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "amplifyScalarDimension",
           "package": "synthesizer-dimensional",
@@ -5692,6 +6157,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "amplifyScalarDimension",
           "normalized": "T a b-\u003eSingle c(Dimensional Scalar b)(Dimensional a b)d d",
@@ -5707,6 +6173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "envelope",
           "package": "synthesizer-dimensional",
@@ -5716,6 +6183,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "envelope",
           "normalized": "T a(Flat b,Numeric c b)(Numeric c b)",
@@ -5730,6 +6198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "envelopeScalarDimension",
           "package": "synthesizer-dimensional",
@@ -5739,6 +6208,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "envelopeScalarDimension",
           "normalized": "T a(Dimensional Scalar b b,Dimensional c b b)(Dimensional c b b)",
@@ -5754,6 +6224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "envelopeVector",
           "package": "synthesizer-dimensional",
@@ -5763,6 +6234,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "envelopeVector",
           "normalized": "T a(Flat b,c)c",
@@ -5778,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "envelopeVectorDimension",
           "package": "synthesizer-dimensional",
@@ -5787,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "envelopeVectorDimension",
           "normalized": "T a(Dimensional b c c,Dimensional b c d)(Dimensional(Mul b b)c d)",
@@ -5802,6 +6276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "negate",
           "package": "synthesizer-dimensional",
@@ -5811,6 +6286,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map.Filter",
           "name": "negate",
           "package": "synthesizer-dimensional",
@@ -5824,6 +6300,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaps that handle pairs of amplitudes and sampled values.\nThey are a special form of arrows.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "Map",
           "package": "synthesizer-dimensional",
@@ -5833,6 +6310,7 @@
         "index": {
           "description": "Maps that handle pairs of amplitudes and sampled values They are special form of arrows",
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "Map",
           "package": "synthesizer-dimensional",
@@ -5846,6 +6324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "Single",
           "package": "synthesizer-dimensional",
@@ -5854,6 +6333,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "Single",
           "package": "synthesizer-dimensional",
@@ -5868,6 +6348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type shall ensure, that you do not accidentally\nbring amplitudes and the corresponding low-level signal values out of sync.\nWe also use it for generation of internal control parameters\nin \u003ca\u003eSynthesizer.Dimensional.Causal.ControlledProcess\u003c/a\u003e.\nIn principle this could also be \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e,\nbut maps are not bound to a sampling rate,\nand thus do not need the \u003ccode\u003es\u003c/code\u003e type parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -5877,6 +6358,7 @@
         "index": {
           "description": "This type shall ensure that you do not accidentally bring amplitudes and the corresponding low-level signal values out of sync We also use it for generation of internal control parameters in Synthesizer.Dimensional.Causal.ControlledProcess In principle this could also be but maps are not bound to sampling rate and thus do not need the type parameter",
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -5889,6 +6371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "apply",
           "package": "synthesizer-dimensional",
@@ -5898,6 +6381,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "apply",
           "normalized": "Single a a b b-\u003eT c a(d b)-\u003eT c a(d b)",
@@ -5912,6 +6396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "applyFlat",
           "package": "synthesizer-dimensional",
@@ -5921,6 +6406,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "applyFlat",
           "normalized": "Single(Flat a)b a a-\u003eT c b(d a)-\u003eT c b(d a)",
@@ -5936,6 +6422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "balanceLeft",
           "package": "synthesizer-dimensional",
@@ -5945,6 +6432,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "balanceLeft",
           "normalized": "T a(b,(b,b))((b,b),b)",
@@ -5960,6 +6448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "balanceRight",
           "package": "synthesizer-dimensional",
@@ -5969,6 +6458,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "balanceRight",
           "normalized": "T a((b,b),b)(b,(b,b))",
@@ -5984,6 +6474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "consFlip",
           "package": "synthesizer-dimensional",
@@ -5993,6 +6484,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "consFlip",
           "normalized": "(Amplitude a-\u003e(Amplitude a,Displacement a-\u003eDisplacement a))-\u003eT a a",
@@ -6008,6 +6500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "double",
           "package": "synthesizer-dimensional",
@@ -6017,6 +6510,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "double",
           "normalized": "T a b(b,b)",
@@ -6031,6 +6525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "forceDimensionalAmplitude",
           "package": "synthesizer-dimensional",
@@ -6040,6 +6535,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "forceDimensionalAmplitude",
           "normalized": "T a b-\u003eSingle c(Dimensional a b)(Dimensional a b)d d",
@@ -6055,6 +6551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "forcePrimitiveAmplitude",
           "package": "synthesizer-dimensional",
@@ -6064,6 +6561,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "forcePrimitiveAmplitude",
           "package": "synthesizer-dimensional",
@@ -6077,6 +6575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "fst",
           "package": "synthesizer-dimensional",
@@ -6086,6 +6585,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "fst",
           "normalized": "T a(b,b)b",
@@ -6100,6 +6600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "id",
           "package": "synthesizer-dimensional",
@@ -6109,6 +6610,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "id",
           "package": "synthesizer-dimensional",
@@ -6122,6 +6624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function can be abused to bring the amplitudes out of order.\nSo be careful!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "independent",
           "package": "synthesizer-dimensional",
@@ -6132,6 +6635,7 @@
         "index": {
           "description": "This function can be abused to bring the amplitudes out of order So be careful",
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "independent",
           "normalized": "(Amplitude a-\u003eAmplitude a)-\u003e(Displacement a-\u003eDisplacement a)-\u003eT b a a",
@@ -6147,6 +6651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe restrict the amplitude types to those of class \u003ccode\u003eAmplitude\u003c/code\u003e.\nOtherwise \u003ccode\u003e\u003ca\u003emapAmplitude\u003c/a\u003e\u003c/code\u003e could be abused\nfor bringing amplitudes and respective sample values out of sync.\nFor mapping amplitudes that are nested in some pairs,\nuse it in combination with \u003ccode\u003efirst\u003c/code\u003e and \u003ccode\u003esecond\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFIXME:\nUsing this function is however still unsafe,\nsince normally it should not be observable\nhow the volume is balanced between amplitude and signal.\nThis function allows to replace an actual amplitude by \u003ccode\u003eFlat\u003c/code\u003e,\nwhich is also unsafe.\nThis may only be used for proportional mappings.\nSee \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "mapAmplitude",
           "package": "synthesizer-dimensional",
@@ -6157,6 +6662,7 @@
         "index": {
           "description": "We restrict the amplitude types to those of class Amplitude Otherwise mapAmplitude could be abused for bringing amplitudes and respective sample values out of sync For mapping amplitudes that are nested in some pairs use it in combination with first and second FIXME Using this function is however still unsafe since normally it should not be observable how the volume is balanced between amplitude and signal This function allows to replace an actual amplitude by Flat which is also unsafe This may only be used for proportional mappings See",
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "mapAmplitude",
           "normalized": "(a-\u003ea)-\u003eSingle b a a c c",
@@ -6173,6 +6679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFIXME: This function is unsafe.\nOnly use it for proportional mappings.\nSee \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "mapAmplitudeSameType",
           "package": "synthesizer-dimensional",
@@ -6183,6 +6690,7 @@
         "index": {
           "description": "FIXME This function is unsafe Only use it for proportional mappings See",
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "mapAmplitudeSameType",
           "normalized": "(Amplitude a-\u003eAmplitude a)-\u003eT b a a",
@@ -6198,6 +6706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "packTriple",
           "package": "synthesizer-dimensional",
@@ -6207,6 +6716,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "packTriple",
           "normalized": "T a(b,(b,b))(b,b,b)",
@@ -6222,6 +6732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "snd",
           "package": "synthesizer-dimensional",
@@ -6231,6 +6742,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "snd",
           "normalized": "T a(b,b)b",
@@ -6245,6 +6757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "swap",
           "package": "synthesizer-dimensional",
@@ -6254,6 +6767,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "swap",
           "normalized": "T a(b,b)(b,b)",
@@ -6268,6 +6782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Map",
           "name": "unpackTriple",
           "package": "synthesizer-dimensional",
@@ -6277,6 +6792,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Map",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Map",
           "name": "unpackTriple",
           "normalized": "T a(b,b,b)(b,(b,b))",
@@ -6293,6 +6809,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLight-weight sample parameter inference which will fit most needs.\nWe only do \"poor man's inference\", only for sample rates.\nThe sample rate will be provided as an argument of a special type \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e.\nThis argument will almost never be passed explicitly\nbut should be handled by operators analogous to '($)' and '(.)'.\n\u003c/p\u003e\u003cp\u003eIn contrast to the run-time inference approach,\nwe have the static guarantee that the sample rate is fixed\nbefore passing a signal to the outside world.\nHowever we still need to make it safe that signals\nthat are rendered for one sample rate\nare not processed with another sample rate.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "Process",
           "package": "synthesizer-dimensional",
@@ -6302,6 +6819,7 @@
         "index": {
           "description": "Light-weight sample parameter inference which will fit most needs We only do poor man inference only for sample rates The sample rate will be provided as an argument of special type This argument will almost never be passed explicitly but should be handled by operators analogous to and In contrast to the run-time inference approach we have the static guarantee that the sample rate is fixed before passing signal to the outside world However we still need to make it safe that signals that are rendered for one sample rate are not processed with another sample rate",
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "Process",
           "package": "synthesizer-dimensional",
@@ -6315,6 +6833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "DimensionGradient",
           "package": "synthesizer-dimensional",
@@ -6323,6 +6842,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "DimensionGradient",
           "package": "synthesizer-dimensional",
@@ -6337,6 +6857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis wraps a function which computes a sample rate dependent result.\nSample rate tells how many values per unit are stored\nfor representation of a signal.\n\u003c/p\u003e\u003cp\u003eThe process is labeled with a type variable \u003ccode\u003es\u003c/code\u003e which is part the signals.\nThis way we can ensure that signals are only used\nwith the sample rate they are created for.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -6346,6 +6867,7 @@
         "index": {
           "description": "This wraps function which computes sample rate dependent result Sample rate tells how many values per unit are stored for representation of signal The process is labeled with type variable which is part the signals This way we can ensure that signals are only used with the sample rate they are created for",
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -6358,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "($#)",
           "package": "synthesizer-dimensional",
@@ -6366,6 +6889,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "($#) $#",
           "normalized": "a(b-\u003ec)-\u003eb-\u003ea c",
@@ -6380,6 +6904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "($^)",
           "package": "synthesizer-dimensional",
@@ -6388,6 +6913,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "($^) $^",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -6402,6 +6928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "($:)",
           "package": "synthesizer-dimensional",
@@ -6410,6 +6937,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "($:) $:",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -6424,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "($::)",
           "package": "synthesizer-dimensional",
@@ -6432,6 +6961,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "($::) $::",
           "normalized": "a(b c-\u003ed)-\u003eb(a c)-\u003ea d",
@@ -6446,6 +6976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "(.^)",
           "package": "synthesizer-dimensional",
@@ -6454,6 +6985,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "(.^) .^",
           "normalized": "a b c-\u003ed(a e b)-\u003ed(a e c)",
@@ -6468,6 +7000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "(.:)",
           "package": "synthesizer-dimensional",
@@ -6476,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "(.:) .:",
           "normalized": "a(b c d)-\u003ea(b e c)-\u003ea(b e d)",
@@ -6490,6 +7024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "Cons",
           "package": "synthesizer-dimensional",
@@ -6499,6 +7034,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "Cons",
           "package": "synthesizer-dimensional",
@@ -6512,6 +7048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "getSampleRate",
           "package": "synthesizer-dimensional",
@@ -6521,6 +7058,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "getSampleRate",
           "package": "synthesizer-dimensional",
@@ -6534,6 +7072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "intFromTime",
           "package": "synthesizer-dimensional",
@@ -6543,6 +7082,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "intFromTime",
           "normalized": "String-\u003eT a b-\u003eT c a b Int",
@@ -6558,6 +7098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "intFromTime98",
           "package": "synthesizer-dimensional",
@@ -6567,6 +7108,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "intFromTime98",
           "normalized": "String-\u003eT a b-\u003eT c a b Int",
@@ -6582,6 +7124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "liftP",
           "package": "synthesizer-dimensional",
@@ -6590,6 +7133,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "liftP",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -6604,6 +7148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "liftP2",
           "package": "synthesizer-dimensional",
@@ -6612,6 +7157,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "liftP2",
           "normalized": "a(b-\u003ec-\u003ed)-\u003ea b-\u003ea c-\u003ea d",
@@ -6626,6 +7172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "liftP3",
           "package": "synthesizer-dimensional",
@@ -6634,6 +7181,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "liftP3",
           "normalized": "a(b-\u003ec-\u003ed-\u003ee)-\u003ea b-\u003ea c-\u003ea d-\u003ea e",
@@ -6648,6 +7196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "liftP4",
           "package": "synthesizer-dimensional",
@@ -6656,6 +7205,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "liftP4",
           "normalized": "a(b-\u003ec-\u003ed-\u003ee-\u003ef)-\u003ea b-\u003ea c-\u003ea d-\u003ea e-\u003ea f",
@@ -6670,6 +7220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "loop",
           "package": "synthesizer-dimensional",
@@ -6678,6 +7229,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "loop",
           "normalized": "a(b-\u003eb)-\u003ea b",
@@ -6692,6 +7244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "process",
           "package": "synthesizer-dimensional",
@@ -6701,6 +7254,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "process",
           "normalized": "T(Recip a)b-\u003ec",
@@ -6715,6 +7269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "pure",
           "package": "synthesizer-dimensional",
@@ -6724,6 +7279,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "pure",
           "normalized": "a-\u003eT b c d a",
@@ -6739,6 +7295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet results from the Process monad.\nYou can obtain only signals (or other values)\nthat do not implicitly depend on the sample rate,\nthat is value without the \u003ccode\u003es\u003c/code\u003e type parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "run",
           "package": "synthesizer-dimensional",
@@ -6749,6 +7306,7 @@
         "index": {
           "description": "Get results from the Process monad You can obtain only signals or other values that do not implicitly depend on the sample rate that is value without the type parameter",
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "run",
           "normalized": "T(Recip a)b-\u003e(c d T e a b f)-\u003ef",
@@ -6763,6 +7321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "toFrequencyDimension",
           "package": "synthesizer-dimensional",
@@ -6772,6 +7331,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "toFrequencyDimension",
           "normalized": "a-\u003eT b c a(T(Recip c)a)",
@@ -6787,6 +7347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "toFrequencyScalar",
           "package": "synthesizer-dimensional",
@@ -6796,6 +7357,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "toFrequencyScalar",
           "normalized": "T(Recip a)b-\u003eT c a b b",
@@ -6811,6 +7373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "toGradientScalar",
           "package": "synthesizer-dimensional",
@@ -6820,6 +7383,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "toGradientScalar",
           "normalized": "T a b-\u003eT(DimensionGradient c a)b-\u003eT d c b b",
@@ -6835,6 +7399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "toTimeDimension",
           "package": "synthesizer-dimensional",
@@ -6844,6 +7409,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "toTimeDimension",
           "normalized": "a-\u003eT b c a(T c a)",
@@ -6859,6 +7425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "toTimeScalar",
           "package": "synthesizer-dimensional",
@@ -6868,6 +7435,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "toTimeScalar",
           "normalized": "T a b-\u003eT c a b b",
@@ -6883,6 +7451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Process",
           "name": "withParam",
           "package": "synthesizer-dimensional",
@@ -6892,6 +7461,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Process",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Process",
           "name": "withParam",
           "normalized": "(a-\u003eT b c d e)-\u003eT b c d(a-\u003ee)",
@@ -6907,6 +7477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Analysis",
           "name": "Analysis",
           "package": "synthesizer-dimensional",
@@ -6915,6 +7486,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Analysis",
           "name": "Analysis",
           "package": "synthesizer-dimensional",
@@ -6977,6 +7549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eControl curves which can be used\nas envelopes, for controlling filter parameters and so on.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Control",
           "name": "Control",
           "package": "synthesizer-dimensional",
@@ -6986,6 +7559,7 @@
         "index": {
           "description": "Control curves which can be used as envelopes for controlling filter parameters and so on",
           "hierarchy": "Synthesizer Dimensional Rate Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Control",
           "name": "Control",
           "package": "synthesizer-dimensional",
@@ -6999,6 +7573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Control",
           "name": "constant",
           "package": "synthesizer-dimensional",
@@ -7008,6 +7583,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Control",
           "name": "constant",
           "package": "synthesizer-dimensional",
@@ -7020,6 +7596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Control",
           "name": "exponential",
           "package": "synthesizer-dimensional",
@@ -7028,6 +7605,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Control",
           "name": "exponential",
           "normalized": "T a b-\u003eT c a b(Signal c b)",
@@ -7042,6 +7620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Control",
           "name": "exponential2",
           "package": "synthesizer-dimensional",
@@ -7050,6 +7629,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Control",
           "name": "exponential2",
           "normalized": "T a b-\u003eT c a b(Signal c b)",
@@ -7065,6 +7645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCaution: This control curve can contain samples\nwith an absolute value greater than 1.\nThe linear curve starts with zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Control",
           "name": "linear",
           "package": "synthesizer-dimensional",
@@ -7074,6 +7655,7 @@
         "index": {
           "description": "Caution This control curve can contain samples with an absolute value greater than The linear curve starts with zero",
           "hierarchy": "Synthesizer Dimensional Rate Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Control",
           "name": "linear",
           "normalized": "T a b-\u003eT c a b(Signal c b)",
@@ -7088,6 +7670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Cut",
           "name": "Cut",
           "package": "synthesizer-dimensional",
@@ -7096,6 +7679,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Cut",
           "name": "Cut",
           "package": "synthesizer-dimensional",
@@ -7109,6 +7693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Cut",
           "name": "append",
           "package": "synthesizer-dimensional",
@@ -7118,6 +7703,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Cut",
           "name": "append",
           "normalized": "T a b c(Signal a d e-\u003eSignal a d e-\u003eSignal a d e)",
@@ -7132,6 +7718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Cut",
           "name": "concat",
           "package": "synthesizer-dimensional",
@@ -7141,6 +7728,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Cut",
           "name": "concat",
           "normalized": "T a b c([Signal a d e]-\u003eSignal a d e)",
@@ -7155,6 +7743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Cut",
           "name": "drop",
           "package": "synthesizer-dimensional",
@@ -7164,6 +7753,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Cut",
           "name": "drop",
           "normalized": "T a b-\u003eT c a b(Signal c d e-\u003eSignal c d e)",
@@ -7179,6 +7769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo avoid recomputation,\ndon't use this directly on State signals\nbut only after buffering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Cut",
           "name": "splitAt",
           "package": "synthesizer-dimensional",
@@ -7189,6 +7780,7 @@
         "index": {
           "description": "To avoid recomputation don use this directly on State signals but only after buffering",
           "hierarchy": "Synthesizer Dimensional Rate Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Cut",
           "name": "splitAt",
           "normalized": "T a b-\u003eT c a b(Signal c d e-\u003e(Signal c d e,Signal c d e))",
@@ -7204,6 +7796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Cut",
           "name": "take",
           "package": "synthesizer-dimensional",
@@ -7213,6 +7806,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Cut",
           "name": "take",
           "normalized": "T a b-\u003eT c a b(Signal c d e-\u003eSignal c d e)",
@@ -7227,6 +7821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Dirac",
           "name": "Dirac",
           "package": "synthesizer-dimensional",
@@ -7235,6 +7830,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Dirac",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Dirac",
           "name": "Dirac",
           "package": "synthesizer-dimensional",
@@ -7249,6 +7845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe want to represent streams of discrete events\nin a manner that is more safe than plain \u003ccode\u003e[Bool]\u003c/code\u003e.\nEach peak can be imagined as a Dirac impulse.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e[Bool]\u003c/code\u003e could be used accidentally for \u003ccode\u003e\u003ca\u003eselectBool\u003c/a\u003e\u003c/code\u003e,\nwhere \u003ccode\u003eselectBool\u003c/code\u003e is intended for piecewise constant control curves.\n\u003c/p\u003e\u003cp\u003eYou may think that a type like \u003ccode\u003ePeak = Peak Bool\u003c/code\u003e as sample type\nin \u003ccode\u003eT s Peak\u003c/code\u003e would also do the job.\nActually, this wouldn't be a good idea\nsince you can apply constant interpolation on it,\nwhich obviously fools the idea of a peak.\n\u003c/p\u003e\u003cp\u003eThis type is so level that it could be moved to Synthesizer.Generic.Dirac.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Dirac",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -7258,6 +7855,7 @@
         "index": {
           "description": "We want to represent streams of discrete events in manner that is more safe than plain Bool Each peak can be imagined as Dirac impulse Bool could be used accidentally for selectBool where selectBool is intended for piecewise constant control curves You may think that type like Peak Peak Bool as sample type in Peak would also do the job Actually this wouldn be good idea since you can apply constant interpolation on it which obviously fools the idea of peak This type is so level that it could be moved to Synthesizer.Generic.Dirac",
           "hierarchy": "Synthesizer Dimensional Rate Dirac",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Dirac",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -7270,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Dirac",
           "name": "Cons",
           "package": "synthesizer-dimensional",
@@ -7279,6 +7878,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Dirac",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Dirac",
           "name": "Cons",
           "package": "synthesizer-dimensional",
@@ -7292,6 +7892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Dirac",
           "name": "decons",
           "package": "synthesizer-dimensional",
@@ -7301,6 +7902,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Dirac",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Dirac",
           "name": "decons",
           "package": "synthesizer-dimensional",
@@ -7314,6 +7916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the most frequently needed transformation\nof a stream of peaks, if not the only one.\nIt converts to a signal of peaks with area 1.\nThis convention is especially useful for smoothing filters\nthat produce frequency progress curves from zero crossings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Dirac",
           "name": "toAmplitudeSignal",
           "package": "synthesizer-dimensional",
@@ -7324,6 +7927,7 @@
         "index": {
           "description": "This is the most frequently needed transformation of stream of peaks if not the only one It converts to signal of peaks with area This convention is especially useful for smoothing filters that produce frequency progress curves from zero crossings",
           "hierarchy": "Synthesizer Dimensional Rate Dirac",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Dirac",
           "name": "toAmplitudeSignal",
           "normalized": "T a b c(T a d-\u003eT(Phantom a)(Numeric(T(Recip b)c))(d c))",
@@ -7339,6 +7943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "Filter",
           "package": "synthesizer-dimensional",
@@ -7347,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "Filter",
           "package": "synthesizer-dimensional",
@@ -7360,6 +7966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "allpassCascade",
           "package": "synthesizer-dimensional",
@@ -7368,6 +7975,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "allpassCascade",
           "normalized": "Int-\u003ea-\u003eT b c a(R b(Recip c)a a-\u003eSignal b d e-\u003eSignal b d e)",
@@ -7383,6 +7991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "bandlimitFromUniversal",
           "package": "synthesizer-dimensional",
@@ -7392,6 +8001,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "bandlimitFromUniversal",
           "normalized": "Signal a b(Result c)-\u003eSignal a b c",
@@ -7407,6 +8017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "bandpassFromUniversal",
           "package": "synthesizer-dimensional",
@@ -7416,6 +8027,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "bandpassFromUniversal",
           "normalized": "Signal a b(Result c)-\u003eSignal a b c",
@@ -7431,6 +8043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "butterworthHighpass",
           "package": "synthesizer-dimensional",
@@ -7439,6 +8052,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "butterworthHighpass",
           "normalized": "Int-\u003eT a b c(Signal a d c-\u003eR a(Recip b)c c-\u003eSignal a e f-\u003eSignal a e f)",
@@ -7454,6 +8068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "butterworthLowpass",
           "package": "synthesizer-dimensional",
@@ -7462,6 +8077,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "butterworthLowpass",
           "normalized": "Int-\u003eT a b c(Signal a d c-\u003eR a(Recip b)c c-\u003eSignal a e f-\u003eSignal a e f)",
@@ -7477,6 +8093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "chebyshevAHighpass",
           "package": "synthesizer-dimensional",
@@ -7485,6 +8102,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "chebyshevAHighpass",
           "normalized": "Int-\u003eT a b c(Signal a d c-\u003eR a(Recip b)c c-\u003eSignal a e f-\u003eSignal a e f)",
@@ -7500,6 +8118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "chebyshevALowpass",
           "package": "synthesizer-dimensional",
@@ -7508,6 +8127,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "chebyshevALowpass",
           "normalized": "Int-\u003eT a b c(Signal a d c-\u003eR a(Recip b)c c-\u003eSignal a e f-\u003eSignal a e f)",
@@ -7523,6 +8143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "chebyshevBHighpass",
           "package": "synthesizer-dimensional",
@@ -7531,6 +8152,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "chebyshevBHighpass",
           "normalized": "Int-\u003eT a b c(Signal a d c-\u003eR a(Recip b)c c-\u003eSignal a e f-\u003eSignal a e f)",
@@ -7546,6 +8168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "chebyshevBLowpass",
           "package": "synthesizer-dimensional",
@@ -7554,6 +8177,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "chebyshevBLowpass",
           "normalized": "Int-\u003eT a b c(Signal a d c-\u003eR a(Recip b)c c-\u003eSignal a e f-\u003eSignal a e f)",
@@ -7570,6 +8194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinitely many equi-delayed exponentially decaying echos. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "comb",
           "package": "synthesizer-dimensional",
@@ -7580,6 +8205,7 @@
         "index": {
           "description": "Infinitely many equi-delayed exponentially decaying echos",
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "comb",
           "normalized": "T a b-\u003ec-\u003eT d a b(Signal d e f-\u003eSignal d e f)",
@@ -7594,6 +8220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "convolveVector",
           "package": "synthesizer-dimensional",
@@ -7603,6 +8230,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "convolveVector",
           "normalized": "T a b c(R a(Recip b)c c-\u003eSignal a d e-\u003eSignal a d e)",
@@ -7618,6 +8246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "delay",
           "package": "synthesizer-dimensional",
@@ -7627,6 +8256,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "delay",
           "normalized": "T a b-\u003eT c a b(T(Phantom c)d(e f)-\u003eT(Phantom c)d(e f))",
@@ -7641,6 +8271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "envelope",
           "package": "synthesizer-dimensional",
@@ -7650,6 +8281,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "envelope",
           "normalized": "T a b c(Signal a d e-\u003eSignal a f e-\u003eSignal a f e)",
@@ -7664,6 +8296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "envelopeVector",
           "package": "synthesizer-dimensional",
@@ -7673,6 +8306,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "envelopeVector",
           "normalized": "T a b c(Signal a d e-\u003eSignal a f g-\u003eSignal a f g)",
@@ -7688,6 +8322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "firstOrderHighpass",
           "package": "synthesizer-dimensional",
@@ -7697,6 +8332,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "firstOrderHighpass",
           "normalized": "T a b c(R a(Recip b)c c-\u003eSignal a d e-\u003eSignal a d e)",
@@ -7712,6 +8348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "firstOrderLowpass",
           "package": "synthesizer-dimensional",
@@ -7721,6 +8358,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "firstOrderLowpass",
           "normalized": "T a b c(R a(Recip b)c c-\u003eSignal a d e-\u003eSignal a d e)",
@@ -7736,6 +8374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "frequencyModulation",
           "package": "synthesizer-dimensional",
@@ -7745,6 +8384,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "frequencyModulation",
           "normalized": "T a b-\u003eT c d a(Signal c e a-\u003eSignal c f b-\u003eSignal c f b)",
@@ -7761,6 +8401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrequency modulation where the input signal can have a sample rate\ndifferent from the output.\n(The sample rate values can differ, the unit must be the same.\nWe could lift that restriction,\nbut then the unit handling becomes more complicated,\nand I didn't have a use for it so far.)\n\u003c/p\u003e\u003cp\u003eThe function can be used for resampling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "frequencyModulationDecoupled",
           "package": "synthesizer-dimensional",
@@ -7771,6 +8412,7 @@
         "index": {
           "description": "Frequency modulation where the input signal can have sample rate different from the output The sample rate values can differ the unit must be the same We could lift that restriction but then the unit handling becomes more complicated and didn have use for it so far The function can be used for resampling",
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "frequencyModulationDecoupled",
           "normalized": "T a b-\u003eT(Dimensional c a)d(T b)-\u003eT e c a(Signal e f a-\u003eSignal e d b)",
@@ -7786,6 +8428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "highpassFromUniversal",
           "package": "synthesizer-dimensional",
@@ -7795,6 +8438,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "highpassFromUniversal",
           "normalized": "Signal a b(Result c)-\u003eSignal a b c",
@@ -7810,6 +8454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "interpolateMultiRelativeZeroPad",
           "package": "synthesizer-dimensional",
@@ -7819,6 +8464,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "interpolateMultiRelativeZeroPad",
           "normalized": "T a b-\u003eT a-\u003eT b-\u003eT b",
@@ -7834,6 +8480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "lowpassFromUniversal",
           "package": "synthesizer-dimensional",
@@ -7843,6 +8490,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "lowpassFromUniversal",
           "normalized": "Signal a b(Result c)-\u003eSignal a b c",
@@ -7859,6 +8507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eneeds a better handling of boundaries, yet \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "mean",
           "package": "synthesizer-dimensional",
@@ -7868,6 +8517,7 @@
         "index": {
           "description": "needs better handling of boundaries yet",
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "mean",
           "normalized": "T(Recip a)b-\u003eT c a b(R c(Recip a)b b-\u003eSignal c d e-\u003eSignal c d e)",
@@ -7883,6 +8533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eneeds a better handling of boundaries, yet \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "meanStatic",
           "package": "synthesizer-dimensional",
@@ -7892,6 +8543,7 @@
         "index": {
           "description": "needs better handling of boundaries yet",
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "meanStatic",
           "normalized": "T(Recip a)b-\u003eT c a b(Signal c d e-\u003eSignal c d e)",
@@ -7907,6 +8559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "moogLowpass",
           "package": "synthesizer-dimensional",
@@ -7916,6 +8569,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "moogLowpass",
           "normalized": "Int-\u003eT a b c(Signal a d c-\u003eR a(Recip b)c c-\u003eSignal a e f-\u003eSignal a e f)",
@@ -7931,6 +8585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "negate",
           "package": "synthesizer-dimensional",
@@ -7940,6 +8595,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "negate",
           "normalized": "T a b c(Signal a d e-\u003eSignal a d e)",
@@ -7954,6 +8610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "phaseModulation",
           "package": "synthesizer-dimensional",
@@ -7962,6 +8619,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "phaseModulation",
           "normalized": "T a b-\u003eT c a-\u003eT c a-\u003eT d c a(R d c a a-\u003eSignal d e b-\u003eSignal d e b)",
@@ -7978,6 +8636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymmetric phaser \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "phaser",
           "package": "synthesizer-dimensional",
@@ -7987,6 +8646,7 @@
         "index": {
           "description": "symmetric phaser",
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "phaser",
           "normalized": "T a b-\u003eT c a-\u003eT d c a(R d c a a-\u003eSignal d e b-\u003eSignal d e b)",
@@ -8001,6 +8661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "phaserStereo",
           "package": "synthesizer-dimensional",
@@ -8009,6 +8670,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "phaserStereo",
           "normalized": "T a b-\u003eT c a-\u003eT d c a(R d c a a-\u003eSignal d e b-\u003eSignal d e(T b))",
@@ -8024,6 +8686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "universal",
           "package": "synthesizer-dimensional",
@@ -8032,6 +8695,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Filter",
           "name": "universal",
           "normalized": "T a b c(Signal a d c-\u003eR a(Recip b)c c-\u003eSignal a e f-\u003eSignal a e(Result f))",
@@ -8047,6 +8711,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains various oscillators that respect physical dimensions.\nBy using the type variable \u003ccode\u003eamp\u003c/code\u003e we show,\nthat the oscillators are homogeneous functions.\nBut since there are even no restrictions on the sample type,\nwe even show that values from the waveform\ngo untouched to the output signal.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "Oscillator",
           "package": "synthesizer-dimensional",
@@ -8056,6 +8721,7 @@
         "index": {
           "description": "This module contains various oscillators that respect physical dimensions By using the type variable amp we show that the oscillators are homogeneous functions But since there are even no restrictions on the sample type we even show that values from the waveform go untouched to the output signal",
           "hierarchy": "Synthesizer Dimensional Rate Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "Oscillator",
           "package": "synthesizer-dimensional",
@@ -8070,6 +8736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with a functional waveform with modulated frequency \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "freqMod",
           "package": "synthesizer-dimensional",
@@ -8079,6 +8746,7 @@
         "index": {
           "description": "oscillator with functional waveform with modulated frequency",
           "hierarchy": "Synthesizer Dimensional Rate Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "freqMod",
           "normalized": "T a(T b c)-\u003eT a-\u003eT d e a(R d(Recip e)a a-\u003eSignal d b c)",
@@ -8095,6 +8763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with a sampled waveform with modulated frequency\nShould behave homogenously for different types of interpolation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "freqModSample",
           "package": "synthesizer-dimensional",
@@ -8104,6 +8773,7 @@
         "index": {
           "description": "oscillator with sampled waveform with modulated frequency Should behave homogenously for different types of interpolation",
           "hierarchy": "Synthesizer Dimensional Rate Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "freqModSample",
           "normalized": "T a b-\u003eT c d(T(T b))-\u003eT a-\u003eT e f a(R e(Recip f)a a-\u003eSignal e d b)",
@@ -8120,6 +8790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with a functional waveform with modulated phase and frequency \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "phaseFreqMod",
           "package": "synthesizer-dimensional",
@@ -8129,6 +8800,7 @@
         "index": {
           "description": "oscillator with functional waveform with modulated phase and frequency",
           "hierarchy": "Synthesizer Dimensional Rate Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "phaseFreqMod",
           "normalized": "T a(T b c)-\u003eT d e a(Signal d f a-\u003eR d(Recip e)a a-\u003eSignal d b c)",
@@ -8145,6 +8817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with modulated phase \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "phaseMod",
           "package": "synthesizer-dimensional",
@@ -8154,6 +8827,7 @@
         "index": {
           "description": "oscillator with modulated phase",
           "hierarchy": "Synthesizer Dimensional Rate Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "phaseMod",
           "normalized": "T a(T b c)-\u003eT(Recip d)a-\u003eT e d a(Signal e f a-\u003eSignal e b c)",
@@ -8170,6 +8844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with both shape and frequency modulation \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "shapeFreqMod",
           "package": "synthesizer-dimensional",
@@ -8179,6 +8854,7 @@
         "index": {
           "description": "oscillator with both shape and frequency modulation",
           "hierarchy": "Synthesizer Dimensional Rate Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "shapeFreqMod",
           "normalized": "T(T a b)c(T d e)-\u003eT c-\u003eT f g c(Signal f a b-\u003eR f(Recip g)c c-\u003eSignal f d e)",
@@ -8194,6 +8870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "shapeFreqModFromSampledTone",
           "package": "synthesizer-dimensional",
@@ -8202,6 +8879,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "shapeFreqModFromSampledTone",
           "normalized": "T a b-\u003eT a b-\u003eT(Recip c)a-\u003eT(Dimensional c a)d(T b)-\u003ea-\u003eT a-\u003eT e c a(Signal e f a-\u003eR e(Recip c)a a-\u003eSignal e d b)",
@@ -8218,6 +8896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with modulated shape \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "shapeMod",
           "package": "synthesizer-dimensional",
@@ -8227,6 +8906,7 @@
         "index": {
           "description": "oscillator with modulated shape",
           "hierarchy": "Synthesizer Dimensional Rate Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "shapeMod",
           "normalized": "T(T a b)c(T d e)-\u003eT c-\u003eT(Recip f)c-\u003eT g f c(Signal g a b-\u003eSignal g d e)",
@@ -8242,6 +8922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "shapePhaseFreqModFromSampledTone",
           "package": "synthesizer-dimensional",
@@ -8250,6 +8931,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "shapePhaseFreqModFromSampledTone",
           "normalized": "T a b-\u003eT a b-\u003eT(Recip c)a-\u003eT(Dimensional c a)d(T b)-\u003ea-\u003eT a-\u003eT e c a(Signal e f a-\u003eSignal e g a-\u003eR e(Recip c)a a-\u003eSignal e d b)",
@@ -8266,6 +8948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with a functional waveform with constant frequency \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "static",
           "package": "synthesizer-dimensional",
@@ -8275,6 +8958,7 @@
         "index": {
           "description": "oscillator with functional waveform with constant frequency",
           "hierarchy": "Synthesizer Dimensional Rate Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "static",
           "normalized": "T a(T b c)-\u003eT a-\u003eT(Recip d)a-\u003eT e d a(Signal e b c)",
@@ -8290,6 +8974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoscillator with a sampled waveform with constant frequency\nThis is essentially an interpolation with cyclic padding.\nYou can also achieve this with a waveform constructed by \u003ccode\u003e\u003ca\u003esample\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "staticSample",
           "package": "synthesizer-dimensional",
@@ -8299,6 +8984,7 @@
         "index": {
           "description": "oscillator with sampled waveform with constant frequency This is essentially an interpolation with cyclic padding You can also achieve this with waveform constructed by sample",
           "hierarchy": "Synthesizer Dimensional Rate Oscillator",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate.Oscillator",
           "name": "staticSample",
           "normalized": "T a b-\u003eT c d(T(T b))-\u003eT a-\u003eT(Recip e)a-\u003eT f e a(Signal f d b)",
@@ -8315,6 +9001,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains types that may be used\nas sample rate type in a dimensional signal.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "Rate",
           "package": "synthesizer-dimensional",
@@ -8324,6 +9011,7 @@
         "index": {
           "description": "This module contains types that may be used as sample rate type in dimensional signal",
           "hierarchy": "Synthesizer Dimensional Rate",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "Rate",
           "package": "synthesizer-dimensional",
@@ -8338,6 +9026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore the sample rate that a signal is sampled with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "Actual",
           "package": "synthesizer-dimensional",
@@ -8347,6 +9036,7 @@
         "index": {
           "description": "Store the sample rate that signal is sampled with",
           "hierarchy": "Synthesizer Dimensional Rate",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "Actual",
           "package": "synthesizer-dimensional",
@@ -8360,6 +9050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "Dimensional",
           "package": "synthesizer-dimensional",
@@ -8368,6 +9059,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "Dimensional",
           "package": "synthesizer-dimensional",
@@ -8382,6 +9074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type does not store a sample rate.\nIt just provides a phantom type parameter\nwhich asserts a common sample rate among several signals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "Phantom",
           "package": "synthesizer-dimensional",
@@ -8391,6 +9084,7 @@
         "index": {
           "description": "This type does not store sample rate It just provides phantom type parameter which asserts common sample rate among several signals",
           "hierarchy": "Synthesizer Dimensional Rate",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "Phantom",
           "package": "synthesizer-dimensional",
@@ -8404,6 +9098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "Actual",
           "package": "synthesizer-dimensional",
@@ -8413,6 +9108,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "Actual",
           "package": "synthesizer-dimensional",
@@ -8426,6 +9122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "Phantom",
           "package": "synthesizer-dimensional",
@@ -8435,6 +9132,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "Phantom",
           "package": "synthesizer-dimensional",
@@ -8448,6 +9146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "common",
           "package": "synthesizer-dimensional",
@@ -8457,6 +9156,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Rate",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Rate",
           "name": "common",
           "normalized": "String-\u003ea-\u003ea-\u003ea",
@@ -8471,6 +9171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "Analysis",
           "package": "synthesizer-dimensional",
@@ -8479,6 +9180,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "Analysis",
           "package": "synthesizer-dimensional",
@@ -8492,6 +9194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "histogram",
           "package": "synthesizer-dimensional",
@@ -8501,6 +9204,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "histogram",
           "normalized": "Signal a b c b b-\u003eT d c b(Int,R d(DimensionGradient c a)b b)",
@@ -8516,6 +9220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquare of energy norm.\n\u003c/p\u003e\u003cp\u003eCould also be called \u003ccode\u003evariance\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normEuclideanSqr",
           "package": "synthesizer-dimensional",
@@ -8526,6 +9231,7 @@
         "index": {
           "description": "Square of energy norm Could also be called variance",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normEuclideanSqr",
           "normalized": "Signal a b c b b-\u003eT(Mul a(Sqr c))b",
@@ -8542,6 +9248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquare of energy norm.\n\u003c/p\u003e\u003cp\u003eCould also be called \u003ccode\u003evariance\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normEuclideanSqrProc",
           "package": "synthesizer-dimensional",
@@ -8552,6 +9259,7 @@
         "index": {
           "description": "Square of energy norm Could also be called variance",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normEuclideanSqrProc",
           "normalized": "T a b c(R a d c c-\u003eT(Mul b(Sqr d))c)",
@@ -8568,6 +9276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eManhattan norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normMaximum",
           "package": "synthesizer-dimensional",
@@ -8578,6 +9287,7 @@
         "index": {
           "description": "Manhattan norm",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normMaximum",
           "normalized": "Signal a b c d d-\u003eT c d",
@@ -8594,6 +9304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eManhattan norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normMaximumProc",
           "package": "synthesizer-dimensional",
@@ -8604,6 +9315,7 @@
         "index": {
           "description": "Manhattan norm",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normMaximumProc",
           "normalized": "T a b c(R a d c c-\u003eT d c)",
@@ -8620,6 +9332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normSum",
           "package": "synthesizer-dimensional",
@@ -8630,6 +9343,7 @@
         "index": {
           "description": "Sum norm",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normSum",
           "normalized": "Signal a b c b b-\u003eT(Mul a c)b",
@@ -8646,6 +9360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normSumProc",
           "package": "synthesizer-dimensional",
@@ -8656,6 +9371,7 @@
         "index": {
           "description": "Sum norm",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normSumProc",
           "normalized": "T a b c(R a d c c-\u003eT(Mul b d)c)",
@@ -8672,6 +9388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnergy norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normVectorEuclideanSqr",
           "package": "synthesizer-dimensional",
@@ -8682,6 +9399,7 @@
         "index": {
           "description": "Energy norm",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normVectorEuclideanSqr",
           "normalized": "Signal a b c b d-\u003eT(Mul a(Sqr c))b",
@@ -8698,6 +9416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnergy norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normVectorEuclideanSqrProc",
           "package": "synthesizer-dimensional",
@@ -8708,6 +9427,7 @@
         "index": {
           "description": "Energy norm",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normVectorEuclideanSqrProc",
           "normalized": "T a b c(R a d c e-\u003eT(Mul b(Sqr d))c)",
@@ -8724,6 +9444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eManhattan norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normVectorMaximum",
           "package": "synthesizer-dimensional",
@@ -8734,6 +9455,7 @@
         "index": {
           "description": "Manhattan norm",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normVectorMaximum",
           "normalized": "Signal a b c b d-\u003eT c b",
@@ -8750,6 +9472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eManhattan norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normVectorMaximumProc",
           "package": "synthesizer-dimensional",
@@ -8760,6 +9483,7 @@
         "index": {
           "description": "Manhattan norm",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normVectorMaximumProc",
           "normalized": "T a b c(R a d c e-\u003eT d c)",
@@ -8776,6 +9500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normVectorSum",
           "package": "synthesizer-dimensional",
@@ -8786,6 +9511,7 @@
         "index": {
           "description": "Sum norm",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normVectorSum",
           "normalized": "Signal a b c b d-\u003eT(Mul a c)b",
@@ -8802,6 +9528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum norm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normVectorSumProc",
           "package": "synthesizer-dimensional",
@@ -8812,6 +9539,7 @@
         "index": {
           "description": "Sum norm",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "normVectorSumProc",
           "normalized": "T a b c(R a d c e-\u003eT(Mul b d)c)",
@@ -8828,6 +9556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetects zeros (sign changes) in a signal.\nThis can be used as a simple measure of the portion\nof high frequencies or noise in the signal.\nThe result has a frequency as amplitude.\nIf you smooth it, you will get a curve that represents a frequency progress.\nIt ca be used as voiced/unvoiced detector in a vocoder.\n\u003c/p\u003e\u003cp\u003eThe result will be one value shorter than the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "zeros",
           "package": "synthesizer-dimensional",
@@ -8838,6 +9567,7 @@
         "index": {
           "description": "Detects zeros sign changes in signal This can be used as simple measure of the portion of high frequencies or noise in the signal The result has frequency as amplitude If you smooth it you will get curve that represents frequency progress It ca be used as voiced unvoiced detector in vocoder The result will be one value shorter than the input",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Analysis",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Analysis",
           "name": "zeros",
           "normalized": "T a b c(R a d c c-\u003eR a(Recip b)c c)",
@@ -8853,6 +9583,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eControl curves which can be used\nas envelopes, for controlling filter parameters and so on.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "Control",
           "package": "synthesizer-dimensional",
@@ -8862,6 +9593,7 @@
         "index": {
           "description": "Control curves which can be used as envelopes for controlling filter parameters and so on",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "Control",
           "package": "synthesizer-dimensional",
@@ -8875,6 +9607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "constant",
           "package": "synthesizer-dimensional",
@@ -8883,6 +9616,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "constant",
           "normalized": "T a b-\u003eT c d e(R c a b b)",
@@ -8898,6 +9632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amplitude must be positive!\nThis is not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "constantVector",
           "package": "synthesizer-dimensional",
@@ -8907,6 +9642,7 @@
         "index": {
           "description": "The amplitude must be positive This is not checked",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "constantVector",
           "normalized": "T a b-\u003ec-\u003eT d e f(R d a b c)",
@@ -8922,6 +9658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "cubicHermite",
           "package": "synthesizer-dimensional",
@@ -8931,6 +9668,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "cubicHermite",
           "normalized": "(T a b,(T c b,T(DimensionGradient a c)b))-\u003e(T a b,(T c b,T(DimensionGradient a c)b))-\u003eT d a b(R d c b b)",
@@ -8946,6 +9684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "exponential",
           "package": "synthesizer-dimensional",
@@ -8954,6 +9693,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "exponential",
           "normalized": "T a b-\u003eT c b-\u003eT d a b(R d c b b)",
@@ -8968,6 +9708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "exponential2",
           "package": "synthesizer-dimensional",
@@ -8976,6 +9717,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "exponential2",
           "normalized": "T a b-\u003eT c b-\u003eT d a b(R d c b b)",
@@ -8991,6 +9733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an exponential curve through two nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "exponentialFromTo",
           "package": "synthesizer-dimensional",
@@ -9000,6 +9743,7 @@
         "index": {
           "description": "Generate an exponential curve through two nodes",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "exponentialFromTo",
           "normalized": "T a b-\u003e(T c b,T c b)-\u003eT d a b(R d c b b)",
@@ -9016,6 +9760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a finite ramp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "line",
           "package": "synthesizer-dimensional",
@@ -9025,6 +9770,7 @@
         "index": {
           "description": "Generates finite ramp",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "line",
           "normalized": "T a b-\u003e(T c b,T c b)-\u003eT d a b(R d c b b)",
@@ -9040,6 +9786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCaution: This control curve can contain samples\nwith an absolute value greater than 1.\n\u003c/p\u003e\u003cp\u003eLinear curves starting with zero are impossible.\nMaybe you prefer using \u003ccode\u003e\u003ca\u003eline\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "linear",
           "package": "synthesizer-dimensional",
@@ -9049,6 +9796,7 @@
         "index": {
           "description": "Caution This control curve can contain samples with an absolute value greater than Linear curves starting with zero are impossible Maybe you prefer using line",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Control",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Control",
           "name": "linear",
           "normalized": "T(DimensionGradient a b)c-\u003eT b c-\u003eT d a c(R d b c c)",
@@ -9063,6 +9811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "Cut",
           "package": "synthesizer-dimensional",
@@ -9071,6 +9820,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "Cut",
           "package": "synthesizer-dimensional",
@@ -9084,6 +9834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "append",
           "package": "synthesizer-dimensional",
@@ -9093,6 +9844,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "append",
           "normalized": "T a b c(R a d e f-\u003eR a d e f-\u003eR a d e f)",
@@ -9107,6 +9859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "appendVolume",
           "package": "synthesizer-dimensional",
@@ -9116,6 +9869,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "appendVolume",
           "normalized": "T a b-\u003eT c d e(R c a b f-\u003eR c a b f-\u003eR c a b f)",
@@ -9132,6 +9886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses maximum input volume as output volume.\nDoes not work for infinite schedules,\nbecause no maximum amplitude can be computed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "arrange",
           "package": "synthesizer-dimensional",
@@ -9141,6 +9896,7 @@
         "index": {
           "description": "Uses maximum input volume as output volume Does not work for infinite schedules because no maximum amplitude can be computed",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "arrange",
           "normalized": "T a b-\u003eT a b-\u003eT c a b(T(T b)(R c d e f)-\u003eR c d e f)",
@@ -9155,6 +9911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "arrangeStorableVolume",
           "package": "synthesizer-dimensional",
@@ -9163,6 +9920,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "arrangeStorableVolume",
           "normalized": "T a b-\u003eT c d-\u003eT a b-\u003eT e a b(T(T b)(T(Phantom e)(Dimensional c d)(T f))-\u003eT(Phantom e)(Dimensional c d)(T f))",
@@ -9179,6 +9937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of signals with time stamps,\nmix them into one signal as they occur in time.\nIdeal for composing music.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "arrangeVolume",
           "package": "synthesizer-dimensional",
@@ -9188,6 +9947,7 @@
         "index": {
           "description": "Given list of signals with time stamps mix them into one signal as they occur in time Ideal for composing music",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "arrangeVolume",
           "normalized": "T a b-\u003eT c d-\u003eT a b-\u003eT e a b(T(T b)(R e c d f)-\u003eR e c d f)",
@@ -9204,6 +9964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003efoldr1 append\u003c/code\u003e but more efficient and accurate,\nbecause it reduces the number of amplifications.\nDoes not work for infinite lists,\nbecause no maximum amplitude can be computed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "concat",
           "package": "synthesizer-dimensional",
@@ -9214,6 +9975,7 @@
         "index": {
           "description": "Similar to foldr1 append but more efficient and accurate because it reduces the number of amplifications Does not work for infinite lists because no maximum amplitude can be computed",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "concat",
           "normalized": "T a b c([R a d e f]-\u003eR a d e f)",
@@ -9229,6 +9991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive the output volume explicitly.\nDoes also work for infinite lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "concatVolume",
           "package": "synthesizer-dimensional",
@@ -9239,6 +10002,7 @@
         "index": {
           "description": "Give the output volume explicitly Does also work for infinite lists",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "concatVolume",
           "normalized": "T a b-\u003eT c d e([R c a b f]-\u003eR c a b f)",
@@ -9254,6 +10018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "drop",
           "package": "synthesizer-dimensional",
@@ -9263,6 +10028,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "drop",
           "normalized": "T a b-\u003eT c a b(R c d e f-\u003eR c d e f)",
@@ -9277,6 +10043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "leftFromStereo",
           "package": "synthesizer-dimensional",
@@ -9286,6 +10053,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "leftFromStereo",
           "normalized": "T a b c(R a b d(T e)-\u003eR a b d e)",
@@ -9301,6 +10069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "mergeStereo",
           "package": "synthesizer-dimensional",
@@ -9310,6 +10079,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "mergeStereo",
           "normalized": "T a b c(R a d e f-\u003eR a d e f-\u003eR a d e(T f))",
@@ -9325,6 +10095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "mergeStereoVolume",
           "package": "synthesizer-dimensional",
@@ -9334,6 +10105,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "mergeStereoVolume",
           "normalized": "T a b-\u003eT c d e(R c a b f-\u003eR c a b f-\u003eR c a b(T f))",
@@ -9349,6 +10121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "rightFromStereo",
           "package": "synthesizer-dimensional",
@@ -9358,6 +10131,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "rightFromStereo",
           "normalized": "T a b c(R a b d(T e)-\u003eR a b d e)",
@@ -9373,6 +10147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "splitAt",
           "package": "synthesizer-dimensional",
@@ -9382,6 +10157,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "splitAt",
           "normalized": "T a b-\u003eT c a b(R c d e f-\u003e(R c d e f,R c d e f))",
@@ -9397,6 +10173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "take",
           "package": "synthesizer-dimensional",
@@ -9406,6 +10183,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "take",
           "normalized": "T a b-\u003eT c a b(R c d e f-\u003eR c d e f)",
@@ -9420,6 +10198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "takeUntilPause",
           "package": "synthesizer-dimensional",
@@ -9429,6 +10208,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "takeUntilPause",
           "normalized": "T a b-\u003eT c d-\u003eT e c d(R e a b f-\u003eR e a b f)",
@@ -9444,6 +10224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "unzip",
           "package": "synthesizer-dimensional",
@@ -9453,6 +10234,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "unzip",
           "normalized": "T a b c(R a d e(f,f)-\u003e(R a d e f,R a d e f))",
@@ -9467,6 +10249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "unzip3",
           "package": "synthesizer-dimensional",
@@ -9476,6 +10259,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "unzip3",
           "normalized": "T a b c(R a d e(f,f,f)-\u003e(R a d e f,R a d e f,R a d e f))",
@@ -9490,6 +10274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "zip",
           "package": "synthesizer-dimensional",
@@ -9499,6 +10284,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "zip",
           "normalized": "T a b c(R a d e f-\u003eR a d e f-\u003eR a d e(f,f))",
@@ -9513,6 +10299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "zip3",
           "package": "synthesizer-dimensional",
@@ -9522,6 +10309,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "zip3",
           "normalized": "T a b c(R a d e f-\u003eR a d e f-\u003eR a d e f-\u003eR a d e(f,f,f))",
@@ -9536,6 +10324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "zip3Volume",
           "package": "synthesizer-dimensional",
@@ -9545,6 +10334,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "zip3Volume",
           "normalized": "T a b-\u003eT c d e(R c a b f-\u003eR c a b f-\u003eR c a b f-\u003eR c a b(f,f,f))",
@@ -9560,6 +10350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "zipVolume",
           "package": "synthesizer-dimensional",
@@ -9569,6 +10360,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Cut",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Cut",
           "name": "zipVolume",
           "normalized": "T a b-\u003eT c d e(R c a b f-\u003eR c a b f-\u003eR c a b(f,f))",
@@ -9584,6 +10376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "Displacement",
           "package": "synthesizer-dimensional",
@@ -9592,6 +10385,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "Displacement",
           "package": "synthesizer-dimensional",
@@ -9606,6 +10400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistort the signal using a flat function.\nThe first signal gives the scaling of the function.\nIf the scaling is c and the input sample is y,\nthen \u003ccode\u003ec * f(y/c)\u003c/code\u003e is output.\nThis way we can use an (efficient) flat function\nand have a simple, yet dimension conform, way of controlling the distortion.\nE.g. if the distortion function is \u003ccode\u003etanh\u003c/code\u003e\nthen the value \u003ccode\u003ec\u003c/code\u003e controls the saturation level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "distort",
           "package": "synthesizer-dimensional",
@@ -9616,6 +10411,7 @@
         "index": {
           "description": "Distort the signal using flat function The first signal gives the scaling of the function If the scaling is and the input sample is then is output This way we can use an efficient flat function and have simple yet dimension conform way of controlling the distortion E.g if the distortion function is tanh then the value controls the saturation level",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "distort",
           "normalized": "(a-\u003ea)-\u003eT b c d(R b e f f-\u003eR b e f a-\u003eR b e f a)",
@@ -9631,6 +10427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix two signals.\n    In opposition to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e the result has the length of the longer signal. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "mix",
           "package": "synthesizer-dimensional",
@@ -9641,6 +10438,7 @@
         "index": {
           "description": "Mix two signals In opposition to zipWith the result has the length of the longer signal",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "mix",
           "normalized": "T a b c(R a d e f-\u003eR a d e f-\u003eR a d e f)",
@@ -9656,6 +10454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix one or more signals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "mixMulti",
           "package": "synthesizer-dimensional",
@@ -9666,6 +10465,7 @@
         "index": {
           "description": "Mix one or more signals",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "mixMulti",
           "normalized": "T a b c([R a d e f]-\u003eR a d e f)",
@@ -9681,6 +10481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "mixMultiVolume",
           "package": "synthesizer-dimensional",
@@ -9690,6 +10491,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "mixMultiVolume",
           "normalized": "T a b-\u003eT c d e([R c a b f]-\u003eR c a b f)",
@@ -9705,6 +10507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "mixVolume",
           "package": "synthesizer-dimensional",
@@ -9714,6 +10517,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "mixVolume",
           "normalized": "T a b-\u003eT c d e(R c a b f-\u003eR c a b f-\u003eR c a b f)",
@@ -9730,6 +10534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a number to all of the signal values.\nThis is useful for adjusting the center of a modulation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "raise",
           "package": "synthesizer-dimensional",
@@ -9740,6 +10545,7 @@
         "index": {
           "description": "Add number to all of the signal values This is useful for adjusting the center of modulation",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "raise",
           "normalized": "T a b-\u003eT c d e(R c a b b-\u003eR c a b b)",
@@ -9754,6 +10560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "raiseVector",
           "package": "synthesizer-dimensional",
@@ -9763,6 +10570,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Displacement",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Displacement",
           "name": "raiseVector",
           "normalized": "T a b-\u003ec-\u003eT d e f(R d a b c-\u003eR d a b c)",
@@ -9778,6 +10586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "File",
           "package": "synthesizer-dimensional",
@@ -9786,6 +10595,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude File",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "File",
           "package": "synthesizer-dimensional",
@@ -9799,6 +10609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "renderTimeVoltageMonoDoubleToInt16",
           "package": "synthesizer-dimensional",
@@ -9808,6 +10619,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude File",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "renderTimeVoltageMonoDoubleToInt16",
           "normalized": "T Frequency Double-\u003eFilePath-\u003e(a b T c Time Double(R c Voltage Double Double))-\u003eIO ExitCode",
@@ -9823,6 +10635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "renderTimeVoltageStereoDoubleToInt16",
           "package": "synthesizer-dimensional",
@@ -9832,6 +10645,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude File",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "renderTimeVoltageStereoDoubleToInt16",
           "normalized": "T Frequency Double-\u003eFilePath-\u003e(a b T c Time Double(R c Voltage Double(T Double)))-\u003eIO ExitCode",
@@ -9848,6 +10662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe output format is determined by SoX by the file name extension.\nThe sample precision is determined by the provided \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e import qualified Data.StorableVector.Lazy.Builder as Builder\n\n write (DN.frequency one) (DN.voltage one) (\\i -\u003e Builder.put (i::Int16)) \"test.aiff\" sound\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "write",
           "package": "synthesizer-dimensional",
@@ -9858,6 +10673,7 @@
         "index": {
           "description": "The output format is determined by SoX by the file name extension The sample precision is determined by the provided Builder function Example import qualified Data.StorableVector.Lazy.Builder as Builder write DN.frequency one DN.voltage one Builder.put Int16 test.aiff sound",
           "hierarchy": "Synthesizer Dimensional RateAmplitude File",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "write",
           "normalized": "T(Recip a)b-\u003eT c d-\u003e(e-\u003eBuilder e)-\u003eFilePath-\u003eSignal a b c d f-\u003eIO ExitCode",
@@ -9872,6 +10688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "writeTimeVoltage",
           "package": "synthesizer-dimensional",
@@ -9881,6 +10698,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude File",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "writeTimeVoltage",
           "normalized": "(a-\u003eBuilder a)-\u003eFilePath-\u003eSignal Time b Voltage c d-\u003eIO ExitCode",
@@ -9896,6 +10714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "writeTimeVoltageMonoDoubleToInt16",
           "package": "synthesizer-dimensional",
@@ -9905,6 +10724,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude File",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "writeTimeVoltageMonoDoubleToInt16",
           "normalized": "FilePath-\u003eSignal Time Double Voltage Double Double-\u003eIO ExitCode",
@@ -9920,6 +10740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "writeTimeVoltageStereoDoubleToInt16",
           "package": "synthesizer-dimensional",
@@ -9929,6 +10750,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude File",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.File",
           "name": "writeTimeVoltageStereoDoubleToInt16",
           "normalized": "FilePath-\u003eSignal Time Double Voltage Double(T Double)-\u003eIO ExitCode",
@@ -9944,6 +10766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "Filter",
           "package": "synthesizer-dimensional",
@@ -9952,6 +10775,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "Filter",
           "package": "synthesizer-dimensional",
@@ -9966,6 +10790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amplification factor must be positive. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "amplify",
           "package": "synthesizer-dimensional",
@@ -9976,6 +10801,7 @@
         "index": {
           "description": "The amplification factor must be positive",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "amplify",
           "normalized": "a-\u003eT b c d(R b e a f-\u003eR b e a f)",
@@ -9990,6 +10816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "amplifyDimension",
           "package": "synthesizer-dimensional",
@@ -9999,6 +10826,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "amplifyDimension",
           "normalized": "T a b-\u003eT c d e(R c a b f-\u003eR c(Mul a a)b f)",
@@ -10015,6 +10843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinitely many equi-delayed exponentially decaying echos. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "comb",
           "package": "synthesizer-dimensional",
@@ -10025,6 +10854,7 @@
         "index": {
           "description": "Infinitely many equi-delayed exponentially decaying echos",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "comb",
           "normalized": "T a b-\u003ec-\u003eT d a b(R d e c f-\u003eR d e c f)",
@@ -10040,6 +10870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinitely many equi-delayed echos processed by an arbitrary time-preserving signal processor. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "combProc",
           "package": "synthesizer-dimensional",
@@ -10050,6 +10881,7 @@
         "index": {
           "description": "Infinitely many equi-delayed echos processed by an arbitrary time-preserving signal processor",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "combProc",
           "normalized": "T a b-\u003eT c a b(R c d e f-\u003eR c d e f)-\u003eT c a b(R c d e f-\u003eR c d e f)",
@@ -10065,6 +10897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "differentiate",
           "package": "synthesizer-dimensional",
@@ -10074,6 +10907,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "differentiate",
           "normalized": "T a b c(R a d c e-\u003eR a(DimensionGradient b d)c e)",
@@ -10088,6 +10922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "envelope",
           "package": "synthesizer-dimensional",
@@ -10097,6 +10932,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "envelope",
           "normalized": "T a b c(FlatSignal a d e-\u003eR a f e e-\u003eR a f e e)",
@@ -10111,6 +10947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "envelopeVector",
           "package": "synthesizer-dimensional",
@@ -10120,6 +10957,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "envelopeVector",
           "normalized": "T a b c(FlatSignal a d e-\u003eR a f e g-\u003eR a f e g)",
@@ -10135,6 +10973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "envelopeVectorDimension",
           "package": "synthesizer-dimensional",
@@ -10144,6 +10983,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "envelopeVectorDimension",
           "normalized": "T a b c(R a d e e-\u003eR a d e f-\u003eR a(Mul d d)e f)",
@@ -10159,6 +10999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "negate",
           "package": "synthesizer-dimensional",
@@ -10168,6 +11009,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Filter",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Filter",
           "name": "negate",
           "normalized": "T a b c(R a d e f-\u003eR a d e f)",
@@ -10182,6 +11024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "Instrument",
           "package": "synthesizer-dimensional",
@@ -10190,6 +11033,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "Instrument",
           "package": "synthesizer-dimensional",
@@ -10203,6 +11047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "accumulatedSaws",
           "package": "synthesizer-dimensional",
@@ -10212,6 +11057,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "accumulatedSaws",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10227,6 +11073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "accumulationParameters",
           "package": "synthesizer-dimensional",
@@ -10236,6 +11083,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "accumulationParameters",
           "normalized": "[(T a,a,T a,T Frequency a)]",
@@ -10251,6 +11099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "allpassDown",
           "package": "synthesizer-dimensional",
@@ -10260,6 +11109,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "allpassDown",
           "normalized": "Int-\u003eT Time a-\u003eT Frequency a-\u003eT Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10275,6 +11125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "bassDrum",
           "package": "synthesizer-dimensional",
@@ -10284,6 +11135,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "bassDrum",
           "package": "synthesizer-dimensional",
@@ -10297,6 +11149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "bell",
           "package": "synthesizer-dimensional",
@@ -10306,6 +11159,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "bell",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10320,6 +11174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "bellHarmonic",
           "package": "synthesizer-dimensional",
@@ -10329,6 +11184,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "bellHarmonic",
           "normalized": "a-\u003eT Time a-\u003eT Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10344,6 +11200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "brass",
           "package": "synthesizer-dimensional",
@@ -10353,6 +11210,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "brass",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10367,6 +11225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "choir",
           "package": "synthesizer-dimensional",
@@ -10376,6 +11235,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "choir",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10391,6 +11251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrum sound using the Karplus-Strong-Algorithm\nThis is a Noise.white enveloped by an exponential2\nwhich is piped through the Karplus-Strong machine\nfor generating some frequency.\nThe whole thing is then frequency modulated\nto give a falling frequency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "electroTom",
           "package": "synthesizer-dimensional",
@@ -10401,6 +11262,7 @@
         "index": {
           "description": "Drum sound using the Karplus-Strong-Algorithm This is Noise.white enveloped by an exponential2 which is piped through the Karplus-Strong machine for generating some frequency The whole thing is then frequency modulated to give falling frequency",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "electroTom",
           "package": "synthesizer-dimensional",
@@ -10414,6 +11276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fastBell",
           "package": "synthesizer-dimensional",
@@ -10423,6 +11286,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fastBell",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10438,6 +11302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fatPad",
           "package": "synthesizer-dimensional",
@@ -10447,6 +11312,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fatPad",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10462,6 +11328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fatSaw",
           "package": "synthesizer-dimensional",
@@ -10471,6 +11338,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fatSaw",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10486,6 +11354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fatSawChord",
           "package": "synthesizer-dimensional",
@@ -10495,6 +11364,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fatSawChord",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10510,6 +11380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fatSawChordFilter",
           "package": "synthesizer-dimensional",
@@ -10519,6 +11390,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fatSawChordFilter",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10534,6 +11406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "filterDown",
           "package": "synthesizer-dimensional",
@@ -10543,6 +11416,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "filterDown",
           "package": "synthesizer-dimensional",
@@ -10556,6 +11430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "filterSaw",
           "package": "synthesizer-dimensional",
@@ -10565,6 +11440,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "filterSaw",
           "normalized": "T Frequency a-\u003eT Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10581,6 +11457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elow pass with resonance \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "filterSweep",
           "package": "synthesizer-dimensional",
@@ -10591,6 +11468,7 @@
         "index": {
           "description": "low pass with resonance",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "filterSweep",
           "normalized": "T a-\u003eT b Time a(R b Voltage a c-\u003eR b Voltage a c)",
@@ -10606,6 +11484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fmBell",
           "package": "synthesizer-dimensional",
@@ -10615,6 +11494,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fmBell",
           "normalized": "a-\u003ea-\u003eT Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10631,6 +11511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhase modulation using a ring modulated signal.\nMay be used as some kind of e-guitar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fmRing",
           "package": "synthesizer-dimensional",
@@ -10641,6 +11522,7 @@
         "index": {
           "description": "Phase modulation using ring modulated signal May be used as some kind of e-guitar",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "fmRing",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10657,6 +11539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaccumulate multiple similar saw sounds and observe the increase of volume\n    The oscillator \u003ccode\u003eosc\u003c/code\u003e must accept relative frequencies. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "modulatedWave",
           "package": "synthesizer-dimensional",
@@ -10667,6 +11550,7 @@
         "index": {
           "description": "accumulate multiple similar saw sounds and observe the increase of volume The oscillator osc must accept relative frequencies",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "modulatedWave",
           "normalized": "T a b c(R a(Recip b)c c-\u003eR a Voltage c c)-\u003eT(Recip b)c-\u003ec-\u003eT c-\u003eT(Recip b)c-\u003eT a b c(R a Voltage c c)",
@@ -10682,6 +11566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "moogDown",
           "package": "synthesizer-dimensional",
@@ -10691,6 +11576,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "moogDown",
           "normalized": "Int-\u003eT Time a-\u003eT Frequency a-\u003eT Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10706,6 +11592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "moogGuitar",
           "package": "synthesizer-dimensional",
@@ -10715,6 +11602,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "moogGuitar",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10730,6 +11618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "moogGuitarSoft",
           "package": "synthesizer-dimensional",
@@ -10739,6 +11628,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "moogGuitarSoft",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10754,6 +11644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "moogReso",
           "package": "synthesizer-dimensional",
@@ -10763,6 +11654,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "moogReso",
           "normalized": "Int-\u003eT Time a-\u003eT Frequency a-\u003eT Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10778,6 +11670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "noiseBass",
           "package": "synthesizer-dimensional",
@@ -10787,6 +11680,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "noiseBass",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10802,6 +11696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "noisePerc",
           "package": "synthesizer-dimensional",
@@ -10811,6 +11706,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "noisePerc",
           "package": "synthesizer-dimensional",
@@ -10825,6 +11721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a saw sound from its harmonics and modulate it.\nDifferent to normal modulation\nI modulate each harmonic with the same depth rather than a proportional one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "osciAbsModSaw",
           "package": "synthesizer-dimensional",
@@ -10835,6 +11732,7 @@
         "index": {
           "description": "Build saw sound from its harmonics and modulate it Different to normal modulation modulate each harmonic with the same depth rather than proportional one",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "osciAbsModSaw",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10850,6 +11748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "osciDoubleSaw",
           "package": "synthesizer-dimensional",
@@ -10859,6 +11758,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "osciDoubleSaw",
           "normalized": "T a b c(R a(Recip b)c c-\u003eR a Voltage c c)",
@@ -10875,6 +11775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tone with a waveform with roughly the dependency \u003ccode\u003ex -\u003e x^?p\u003c/code\u003e,\nwhere the waveform is normalized to constant quadratic norm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "osciSharp",
           "package": "synthesizer-dimensional",
@@ -10885,6 +11786,7 @@
         "index": {
           "description": "tone with waveform with roughly the dependency where the waveform is normalized to constant quadratic norm",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "osciSharp",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10901,6 +11803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort pulsed Noise.white,\ni.e. Noise.white amplified with pulses of varying H/L ratio.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "pulsedNoise",
           "package": "synthesizer-dimensional",
@@ -10910,6 +11813,7 @@
         "index": {
           "description": "Short pulsed Noise.white i.e Noise.white amplified with pulses of varying ratio",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "pulsedNoise",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10925,6 +11829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "sampledWave",
           "package": "synthesizer-dimensional",
@@ -10934,6 +11839,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "sampledWave",
           "normalized": "T a b-\u003ec-\u003e[b]-\u003eT a(Numeric c b)",
@@ -10949,6 +11855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "simpleSaw",
           "package": "synthesizer-dimensional",
@@ -10958,6 +11865,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "simpleSaw",
           "normalized": "T(Recip a)b-\u003eT c a b(R c Voltage d b)",
@@ -10973,6 +11881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "squareBell",
           "package": "synthesizer-dimensional",
@@ -10982,6 +11891,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "squareBell",
           "normalized": "T Frequency a-\u003eT b Time a(R b Voltage a a)",
@@ -10998,6 +11908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sound of a slightly changed frequency\n    just as needed for a simple stereo sound. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "stereoPhaser",
           "package": "synthesizer-dimensional",
@@ -11007,6 +11918,7 @@
         "index": {
           "description": "Create sound of slightly changed frequency just as needed for simple stereo sound",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "stereoPhaser",
           "normalized": "(T Frequency a-\u003eT b Time a(R b c d d))-\u003ea-\u003eT Frequency a-\u003eT b Time a(R b c d d)",
@@ -11023,6 +11935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA good choice is \u003ccode\u003efreq = DN.frequency 110\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "wasp",
           "package": "synthesizer-dimensional",
@@ -11033,6 +11946,7 @@
         "index": {
           "description": "good choice is freq DN.frequency",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Instrument",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Instrument",
           "name": "wasp",
           "normalized": "T(Recip a)b-\u003eT c a b(R c Voltage b b)",
@@ -11047,6 +11961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "Noise",
           "package": "synthesizer-dimensional",
@@ -11055,6 +11970,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Noise",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "Noise",
           "package": "synthesizer-dimensional",
@@ -11068,6 +11984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "randomPeeks",
           "package": "synthesizer-dimensional",
@@ -11076,6 +11993,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Noise",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "randomPeeks",
           "normalized": "T a b c(R a(Recip b)c c-\u003eR a(Recip b)c c)",
@@ -11091,6 +12009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "randomPeeksGen",
           "package": "synthesizer-dimensional",
@@ -11099,6 +12018,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Noise",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "randomPeeksGen",
           "normalized": "a-\u003eT b c d(R b(Recip c)d d-\u003eR b(Recip c)d d)",
@@ -11114,6 +12034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "white",
           "package": "synthesizer-dimensional",
@@ -11122,6 +12043,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Noise",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "white",
           "normalized": "T(Recip a)b-\u003eT c b-\u003eT d a b(R d c b e)",
@@ -11136,6 +12058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "whiteBandEnergy",
           "package": "synthesizer-dimensional",
@@ -11144,6 +12067,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Noise",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "whiteBandEnergy",
           "normalized": "T(Mul a(Sqr b))c-\u003eT d a c(R d b c e)",
@@ -11159,6 +12083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "whiteBandEnergyGen",
           "package": "synthesizer-dimensional",
@@ -11167,6 +12092,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Noise",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "whiteBandEnergyGen",
           "normalized": "a-\u003eT(Mul b(Sqr c))d-\u003eT e b d(R e c d f)",
@@ -11182,6 +12108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "whiteGen",
           "package": "synthesizer-dimensional",
@@ -11190,6 +12117,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Noise",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Noise",
           "name": "whiteGen",
           "normalized": "a-\u003eT(Recip b)c-\u003eT d c-\u003eT e b c(R e d c f)",
@@ -11205,6 +12133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "Piece",
           "package": "synthesizer-dimensional",
@@ -11213,6 +12142,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "Piece",
           "package": "synthesizer-dimensional",
@@ -11226,6 +12156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "FlatPosition",
           "package": "synthesizer-dimensional",
@@ -11233,6 +12164,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "FlatPosition",
           "package": "synthesizer-dimensional",
@@ -11246,6 +12178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "Sequence",
           "package": "synthesizer-dimensional",
@@ -11254,6 +12187,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "Sequence",
           "package": "synthesizer-dimensional",
@@ -11267,6 +12201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -11275,6 +12210,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -11287,6 +12223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "(|#)",
           "package": "synthesizer-dimensional",
@@ -11295,6 +12232,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "(|#) |#",
           "normalized": "a-\u003e(PieceDist b a c,T b a c)-\u003eT b a c",
@@ -11309,6 +12247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "(#|)",
           "package": "synthesizer-dimensional",
@@ -11317,6 +12256,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "(#|) #|",
           "normalized": "(a,Piece a b c)-\u003eb-\u003e(PieceDist a b c,T a b c)",
@@ -11331,6 +12271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "(#|-)",
           "package": "synthesizer-dimensional",
@@ -11339,6 +12280,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "(#|-) #|-",
           "normalized": "(a,Piece a b c)-\u003e(PieceRightSingle b,T a b c)-\u003e(PieceDist a b c,T a b c)",
@@ -11353,6 +12295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "(#|=)",
           "package": "synthesizer-dimensional",
@@ -11361,6 +12304,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "(#|=) #|=",
           "normalized": "(a,Piece a b c)-\u003e(PieceRightDouble b,T a b c)-\u003e(PieceDist a b c,T a b c)",
@@ -11375,6 +12319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "(-|#)",
           "package": "synthesizer-dimensional",
@@ -11383,6 +12328,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "(-|#) -|#",
           "normalized": "a-\u003e(PieceDist b a c,T b a c)-\u003e(PieceRightSingle a,T b a c)",
@@ -11397,6 +12343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "(=|#)",
           "package": "synthesizer-dimensional",
@@ -11405,6 +12352,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "(=|#) =|#",
           "normalized": "(a,a)-\u003e(PieceDist b a c,T b a c)-\u003e(PieceRightDouble a,T b a c)",
@@ -11419,6 +12367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "FlatLeft",
           "package": "synthesizer-dimensional",
@@ -11427,6 +12376,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "FlatLeft",
           "package": "synthesizer-dimensional",
@@ -11440,6 +12390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "FlatRight",
           "package": "synthesizer-dimensional",
@@ -11448,6 +12399,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "FlatRight",
           "package": "synthesizer-dimensional",
@@ -11461,6 +12413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "cosine",
           "package": "synthesizer-dimensional",
@@ -11470,6 +12423,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "cosine",
           "package": "synthesizer-dimensional",
@@ -11482,6 +12436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "cubic",
           "package": "synthesizer-dimensional",
@@ -11491,6 +12446,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "cubic",
           "normalized": "T(DimensionGradient a b)c-\u003eT(DimensionGradient a b)c-\u003eT d a b e c",
@@ -11505,6 +12461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "exponential",
           "package": "synthesizer-dimensional",
@@ -11514,6 +12471,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "exponential",
           "normalized": "T a b-\u003eT c d a e b",
@@ -11528,6 +12486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "halfSine",
           "package": "synthesizer-dimensional",
@@ -11537,6 +12496,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "halfSine",
           "normalized": "FlatPosition-\u003eT a b c d e",
@@ -11552,6 +12512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "linear",
           "package": "synthesizer-dimensional",
@@ -11561,6 +12522,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "linear",
           "package": "synthesizer-dimensional",
@@ -11574,6 +12536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince this function looks for the maximum node value,\nand since the signal parameter inference phase must be completed before signal processing,\ninfinite descriptions cannot be used here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "run",
           "package": "synthesizer-dimensional",
@@ -11584,6 +12547,7 @@
         "index": {
           "description": "Since this function looks for the maximum node value and since the signal parameter inference phase must be completed before signal processing infinite descriptions cannot be used here",
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "run",
           "normalized": "T a b-\u003eSequence c a d e b-\u003eT c a b(T(Phantom c)(Dimensional d b)(e b))",
@@ -11598,6 +12562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "runState",
           "package": "synthesizer-dimensional",
@@ -11607,6 +12572,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "runState",
           "normalized": "Sequence a b c T d-\u003eT a b d(R a c d d)",
@@ -11622,6 +12588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "runStateVolume",
           "package": "synthesizer-dimensional",
@@ -11631,6 +12598,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "runStateVolume",
           "normalized": "Sequence a b c T d-\u003eT c d-\u003eT a b d(R a c d d)",
@@ -11646,6 +12614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "runVolume",
           "package": "synthesizer-dimensional",
@@ -11655,6 +12624,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "runVolume",
           "normalized": "T a b-\u003eSequence c a d e b-\u003eT d b-\u003eT c a b(T(Phantom c)(Dimensional d b)(e b))",
@@ -11670,6 +12640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "step",
           "package": "synthesizer-dimensional",
@@ -11679,6 +12650,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Piece",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Piece",
           "name": "step",
           "package": "synthesizer-dimensional",
@@ -11691,6 +12663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "Play",
           "package": "synthesizer-dimensional",
@@ -11699,6 +12672,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Play",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "Play",
           "package": "synthesizer-dimensional",
@@ -11712,6 +12686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "auto",
           "package": "synthesizer-dimensional",
@@ -11721,6 +12696,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Play",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "auto",
           "normalized": "T(Recip a)b-\u003eT c d-\u003e(e-\u003eBuilder e)-\u003eSignal a b c d f-\u003eIO ExitCode",
@@ -11735,6 +12711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "renderTimeVoltage",
           "package": "synthesizer-dimensional",
@@ -11744,6 +12721,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Play",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "renderTimeVoltage",
           "normalized": "(a-\u003eBuilder a)-\u003eT Frequency b-\u003e(c d T e Time b(R e Voltage f g))-\u003eIO ExitCode",
@@ -11759,6 +12737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "renderTimeVoltageMonoDoubleToInt16",
           "package": "synthesizer-dimensional",
@@ -11768,6 +12747,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Play",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "renderTimeVoltageMonoDoubleToInt16",
           "normalized": "T Frequency Double-\u003e(a b T c Time Double(R c Voltage Double Double))-\u003eIO ExitCode",
@@ -11783,6 +12763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "renderTimeVoltageStereoDoubleToInt16",
           "package": "synthesizer-dimensional",
@@ -11792,6 +12773,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Play",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "renderTimeVoltageStereoDoubleToInt16",
           "normalized": "T Frequency Double-\u003e(a b T c Time Double(R c Voltage Double(T Double)))-\u003eIO ExitCode",
@@ -11807,6 +12789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "timeVoltage",
           "package": "synthesizer-dimensional",
@@ -11816,6 +12799,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Play",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "timeVoltage",
           "normalized": "(a-\u003eBuilder a)-\u003eSignal Time b Voltage c d-\u003eIO ExitCode",
@@ -11831,6 +12815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "timeVoltageMonoDoubleToInt16",
           "package": "synthesizer-dimensional",
@@ -11840,6 +12825,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Play",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "timeVoltageMonoDoubleToInt16",
           "normalized": "Signal Time Double Voltage Double Double-\u003eIO ExitCode",
@@ -11855,6 +12841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "timeVoltageStereoDoubleToInt16",
           "package": "synthesizer-dimensional",
@@ -11864,6 +12851,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional RateAmplitude Play",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.RateAmplitude.Play",
           "name": "timeVoltageStereoDoubleToInt16",
           "normalized": "Signal Time Double Voltage Double(T Double)-\u003eIO ExitCode",
@@ -11879,6 +12867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Sample",
           "package": "synthesizer-dimensional",
@@ -11887,6 +12876,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Sample",
           "package": "synthesizer-dimensional",
@@ -11900,6 +12890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Abstract",
           "package": "synthesizer-dimensional",
@@ -11908,6 +12899,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Abstract",
           "package": "synthesizer-dimensional",
@@ -11922,6 +12914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen you define additional instances,\ntake care that displacements and amplitudes cannot be brought out of order!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Amplitude",
           "package": "synthesizer-dimensional",
@@ -11931,6 +12924,7 @@
         "index": {
           "description": "When you define additional instances take care that displacements and amplitudes cannot be brought out of order",
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Amplitude",
           "package": "synthesizer-dimensional",
@@ -11944,6 +12938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Build",
           "package": "synthesizer-dimensional",
@@ -11952,6 +12947,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Build",
           "package": "synthesizer-dimensional",
@@ -11965,6 +12961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Dimensional",
           "package": "synthesizer-dimensional",
@@ -11973,6 +12970,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Dimensional",
           "package": "synthesizer-dimensional",
@@ -11986,6 +12984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Displacement",
           "package": "synthesizer-dimensional",
@@ -11994,6 +12993,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Displacement",
           "package": "synthesizer-dimensional",
@@ -12007,6 +13007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Flat",
           "package": "synthesizer-dimensional",
@@ -12015,6 +13016,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Flat",
           "package": "synthesizer-dimensional",
@@ -12028,6 +13030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Inspect",
           "package": "synthesizer-dimensional",
@@ -12036,6 +13039,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Inspect",
           "package": "synthesizer-dimensional",
@@ -12049,6 +13053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Numeric",
           "package": "synthesizer-dimensional",
@@ -12057,6 +13062,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Numeric",
           "package": "synthesizer-dimensional",
@@ -12071,6 +13077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe constructor is only needed for \u003ccode\u003earr\u003c/code\u003e,\nwhich is a kind of a hack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -12080,6 +13087,7 @@
         "index": {
           "description": "The constructor is only needed for arr which is kind of hack",
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -12092,6 +13100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Cons",
           "package": "synthesizer-dimensional",
@@ -12101,6 +13110,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "Cons",
           "package": "synthesizer-dimensional",
@@ -12114,6 +13124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "amplitude",
           "package": "synthesizer-dimensional",
@@ -12123,6 +13134,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "amplitude",
           "normalized": "a-\u003eAmplitude a",
@@ -12137,6 +13149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "build",
           "package": "synthesizer-dimensional",
@@ -12146,6 +13159,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "build",
           "normalized": "Amplitude a-\u003eDisplacement a-\u003ea",
@@ -12160,6 +13174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "cons",
           "package": "synthesizer-dimensional",
@@ -12169,6 +13184,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "cons",
           "normalized": "a-\u003eb-\u003eT a b",
@@ -12183,6 +13199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "displacement",
           "package": "synthesizer-dimensional",
@@ -12192,6 +13209,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Sample",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Sample",
           "name": "displacement",
           "normalized": "a-\u003eDisplacement a",
@@ -12207,6 +13225,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSignals equipped with volume and sample rate information that may carry a unit.\nKind of volume and sample rate is configurable by types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "Private",
           "package": "synthesizer-dimensional",
@@ -12216,6 +13235,7 @@
         "index": {
           "description": "Signals equipped with volume and sample rate information that may carry unit Kind of volume and sample rate is configurable by types",
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "Private",
           "package": "synthesizer-dimensional",
@@ -12229,6 +13249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "R",
           "package": "synthesizer-dimensional",
@@ -12237,6 +13258,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "R",
           "package": "synthesizer-dimensional",
@@ -12250,6 +13272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal value 0.5 at global amplitude 1\nand signal value 1 at global amplitude 0.5\nshall represent the same signal.\nThus it is unsafe to observe the amplitude.\n\u003c/p\u003e\u003cp\u003eCyclic nature such as needed for Fourier transform\nmust be expressend in the body.\nIt would be nice to use the data type for waveforms, too,\nbut for waveforms the \u003ccode\u003erate\u003c/code\u003e parameter makes no sense.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -12259,6 +13282,7 @@
         "index": {
           "description": "signal value at global amplitude and signal value at global amplitude shall represent the same signal Thus it is unsafe to observe the amplitude Cyclic nature such as needed for Fourier transform must be expressend in the body It would be nice to use the data type for waveforms too but for waveforms the rate parameter makes no sense",
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -12271,6 +13295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "Cons",
           "package": "synthesizer-dimensional",
@@ -12280,6 +13305,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "Cons",
           "package": "synthesizer-dimensional",
@@ -12293,6 +13319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "abstractFromBody",
           "package": "synthesizer-dimensional",
@@ -12302,6 +13329,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "abstractFromBody",
           "normalized": "a-\u003eT(Phantom b)Abstract a",
@@ -12317,6 +13345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "actualAmplitude",
           "package": "synthesizer-dimensional",
@@ -12326,6 +13355,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "actualAmplitude",
           "normalized": "T a(Numeric b)c-\u003eb",
@@ -12341,6 +13371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "actualSampleRate",
           "package": "synthesizer-dimensional",
@@ -12350,6 +13381,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "actualSampleRate",
           "normalized": "T(Actual a)b c-\u003ea",
@@ -12365,6 +13397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "amplitude",
           "package": "synthesizer-dimensional",
@@ -12374,6 +13407,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "amplitude",
           "package": "synthesizer-dimensional",
@@ -12460,6 +13494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "body",
           "package": "synthesizer-dimensional",
@@ -12469,6 +13504,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "body",
           "package": "synthesizer-dimensional",
@@ -12505,6 +13541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "defaultChunkSize",
           "package": "synthesizer-dimensional",
@@ -12514,6 +13551,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "defaultChunkSize",
           "package": "synthesizer-dimensional",
@@ -12527,6 +13565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "embedSampleRate",
           "package": "synthesizer-dimensional",
@@ -12536,6 +13575,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "embedSampleRate",
           "normalized": "T a b c(T(Phantom a)d e-\u003eT(Dimensional b c)d e)",
@@ -12551,6 +13591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "flatFromBody",
           "package": "synthesizer-dimensional",
@@ -12560,6 +13601,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "flatFromBody",
           "normalized": "a-\u003eT(Phantom b)(Flat c)a",
@@ -12575,6 +13617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "fromBody",
           "package": "synthesizer-dimensional",
@@ -12584,6 +13627,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "fromBody",
           "normalized": "a-\u003eb-\u003eT(Phantom c)(Numeric a)b",
@@ -12599,6 +13643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "primitiveFromBody",
           "package": "synthesizer-dimensional",
@@ -12608,6 +13653,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "primitiveFromBody",
           "normalized": "a-\u003eT(Phantom b)c a",
@@ -12623,6 +13669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "processBody",
           "package": "synthesizer-dimensional",
@@ -12632,6 +13679,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "processBody",
           "normalized": "(a-\u003ea)-\u003eT b c a-\u003eT b c a",
@@ -12671,6 +13719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "replaceBody",
           "package": "synthesizer-dimensional",
@@ -12680,6 +13729,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "replaceBody",
           "normalized": "a-\u003eT b c a-\u003eT b c a",
@@ -12719,6 +13769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "rewriteAmplitudeDimension",
           "package": "synthesizer-dimensional",
@@ -12728,6 +13779,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "rewriteAmplitudeDimension",
           "normalized": "(a-\u003ea)-\u003eT b(Dimensional a c)d-\u003eT b(Dimensional a c)d",
@@ -12743,6 +13795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "sampleRate",
           "package": "synthesizer-dimensional",
@@ -12752,6 +13805,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "sampleRate",
           "package": "synthesizer-dimensional",
@@ -12765,6 +13819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "scalarSamples",
           "package": "synthesizer-dimensional",
@@ -12774,6 +13829,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "scalarSamples",
           "normalized": "(a-\u003eb)-\u003eT c(Numeric a)(d b)-\u003ed b",
@@ -12837,6 +13893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "toAmplitudeScalar",
           "package": "synthesizer-dimensional",
@@ -12846,6 +13903,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "toAmplitudeScalar",
           "normalized": "T a(Dimensional b c)d-\u003eT b c-\u003ec",
@@ -12861,6 +13919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "toStorableInt16Mono",
           "package": "synthesizer-dimensional",
@@ -12870,6 +13929,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "toStorableInt16Mono",
           "normalized": "T a(Dimensional Voltage b)(T b)-\u003eT Int",
@@ -12885,6 +13945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "toStorableInt16Stereo",
           "package": "synthesizer-dimensional",
@@ -12894,6 +13955,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "toStorableInt16Stereo",
           "normalized": "T a(Dimensional Voltage b)(T(T b))-\u003eT(T Int)",
@@ -12909,6 +13971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "vectorSamples",
           "package": "synthesizer-dimensional",
@@ -12918,6 +13981,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "vectorSamples",
           "normalized": "(a-\u003eb)-\u003eT c(Numeric a)(d e)-\u003ed e",
@@ -12933,6 +13997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "zip",
           "package": "synthesizer-dimensional",
@@ -12942,6 +14007,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal Private",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal.Private",
           "name": "zip",
           "normalized": "T(Phantom a)b(c d)-\u003eT(Phantom a)b(c d)-\u003eT(Phantom a)(b,b)(c(d,d))",
@@ -12957,6 +14023,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSignals equipped with volume and sample rate information that may carry a unit.\nKind of volume and sample rate is configurable by types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "Signal",
           "package": "synthesizer-dimensional",
@@ -12966,6 +14033,7 @@
         "index": {
           "description": "Signals equipped with volume and sample rate information that may carry unit Kind of volume and sample rate is configurable by types",
           "hierarchy": "Synthesizer Dimensional Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "Signal",
           "package": "synthesizer-dimensional",
@@ -12979,6 +14047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "R",
           "package": "synthesizer-dimensional",
@@ -12987,6 +14056,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "R",
           "package": "synthesizer-dimensional",
@@ -13000,6 +14070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal value 0.5 at global amplitude 1\nand signal value 1 at global amplitude 0.5\nshall represent the same signal.\nThus it is unsafe to observe the amplitude.\n\u003c/p\u003e\u003cp\u003eCyclic nature such as needed for Fourier transform\nmust be expressend in the body.\nIt would be nice to use the data type for waveforms, too,\nbut for waveforms the \u003ccode\u003erate\u003c/code\u003e parameter makes no sense.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -13009,6 +14080,7 @@
         "index": {
           "description": "signal value at global amplitude and signal value at global amplitude shall represent the same signal Thus it is unsafe to observe the amplitude Cyclic nature such as needed for Fourier transform must be expressend in the body It would be nice to use the data type for waveforms too but for waveforms the rate parameter makes no sense",
           "hierarchy": "Synthesizer Dimensional Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -13021,6 +14093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "($&)",
           "package": "synthesizer-dimensional",
@@ -13030,6 +14103,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "($&) $&",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -13045,6 +14119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a scalar argument where a process expects a signal.\nOnly possible for non-negative values so far.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "($-)",
           "package": "synthesizer-dimensional",
@@ -13055,6 +14130,7 @@
         "index": {
           "description": "Take scalar argument where process expects signal Only possible for non-negative values so far",
           "hierarchy": "Synthesizer Dimensional Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "($-) $-",
           "normalized": "T a b c(R a d e e-\u003ef)-\u003eT d e-\u003eT a b c f",
@@ -13069,6 +14145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "(&*\u003e^)",
           "package": "synthesizer-dimensional",
@@ -13078,6 +14155,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "(&*\u003e^) &*\u003e^",
           "normalized": "a-\u003eT b c d(T e(Flat f)g)-\u003eT b c d(T e(Numeric a)g)",
@@ -13092,6 +14170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "(&*^)",
           "package": "synthesizer-dimensional",
@@ -13101,6 +14180,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Signal",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Signal",
           "name": "(&*^) &*^",
           "normalized": "a-\u003eT b c d(T e f(g h))-\u003eT b c d(T e(Numeric a)(g h))",
@@ -13115,6 +14195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "Controlled",
           "package": "synthesizer-dimensional",
@@ -13123,6 +14204,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave Controlled",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "Controlled",
           "package": "synthesizer-dimensional",
@@ -13137,6 +14219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe define a dimensional parametrized waveform in terms of a Map.\nThis allows any kind and number of control parameters\nand distortion of waveforms using \u003ccode\u003e(distortion \u003c\u003c\u003c)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -13146,6 +14229,7 @@
         "index": {
           "description": "We define dimensional parametrized waveform in terms of Map This allows any kind and number of control parameters and distortion of waveforms using distortion",
           "hierarchy": "Synthesizer Dimensional Wave Controlled",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -13158,6 +14242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "abstract",
           "package": "synthesizer-dimensional",
@@ -13167,6 +14252,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave Controlled",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "abstract",
           "normalized": "(a-\u003eT b c)-\u003eT(T d a)b(Abstract c)",
@@ -13181,6 +14267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "amplified",
           "package": "synthesizer-dimensional",
@@ -13190,6 +14277,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave Controlled",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "amplified",
           "normalized": "T a b-\u003e(c-\u003eT d b)-\u003eT(T e c)d(Dimensional a b b)",
@@ -13204,6 +14292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "flat",
           "package": "synthesizer-dimensional",
@@ -13213,6 +14302,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave Controlled",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "flat",
           "normalized": "(a-\u003eT b c)-\u003eT(T d a)b(Flat c)",
@@ -13227,6 +14317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "mapExponential",
           "package": "synthesizer-dimensional",
@@ -13236,6 +14327,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave Controlled",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "mapExponential",
           "normalized": "a-\u003eT b a-\u003e(c-\u003eT d a)-\u003eT(T e c)d(Dimensional b a a)",
@@ -13251,6 +14343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "mapLinear",
           "package": "synthesizer-dimensional",
@@ -13260,6 +14353,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave Controlled",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "mapLinear",
           "normalized": "a-\u003eT b a-\u003e(c-\u003eT d a)-\u003eT(T e c)d(Dimensional b a a)",
@@ -13276,6 +14370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpolate first within waves and then across waves,\nwhich is simpler but maybe less efficient for lists.\nHowever for types with fast indexing/drop like StorableVector this is optimal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "sampledTone",
           "package": "synthesizer-dimensional",
@@ -13286,6 +14381,7 @@
         "index": {
           "description": "Interpolate first within waves and then across waves which is simpler but maybe less efficient for lists However for types with fast indexing drop like StorableVector this is optimal",
           "hierarchy": "Synthesizer Dimensional Wave Controlled",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "sampledTone",
           "normalized": "T a b-\u003eT a b-\u003eT c a-\u003eT(Dimensional c a)d(e b)-\u003eT(Flat a)a(T d b)",
@@ -13301,6 +14397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "simple",
           "package": "synthesizer-dimensional",
@@ -13310,6 +14407,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave Controlled",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave.Controlled",
           "name": "simple",
           "normalized": "a-\u003e(b-\u003eT c d)-\u003eT(T e b)c(T a d)",
@@ -13324,6 +14422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "Wave",
           "package": "synthesizer-dimensional",
@@ -13332,6 +14431,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "Wave",
           "package": "synthesizer-dimensional",
@@ -13345,6 +14445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "SamplePhase",
           "package": "synthesizer-dimensional",
@@ -13353,6 +14454,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "SamplePhase",
           "package": "synthesizer-dimensional",
@@ -13367,6 +14469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe define a dimensional waveform in terms of a Map.\nThis allows any kind and number of result samples\nand distortion of waveforms using \u003ccode\u003e(distortion \u003c\u003c\u003c)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -13376,6 +14479,7 @@
         "index": {
           "description": "We define dimensional waveform in terms of Map This allows any kind and number of result samples and distortion of waveforms using distortion",
           "hierarchy": "Synthesizer Dimensional Wave",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "T",
           "package": "synthesizer-dimensional",
@@ -13388,6 +14492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "(&*~)",
           "package": "synthesizer-dimensional",
@@ -13397,6 +14502,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "(&*~) &*~",
           "normalized": "a-\u003eT b c-\u003eT b(Numeric a c)",
@@ -13411,6 +14517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "abstract",
           "package": "synthesizer-dimensional",
@@ -13420,6 +14527,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "abstract",
           "normalized": "T a b-\u003eT a(Abstract b)",
@@ -13434,6 +14542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "amplified",
           "package": "synthesizer-dimensional",
@@ -13443,6 +14552,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "amplified",
           "normalized": "a-\u003eT b c-\u003eT b(Numeric a c)",
@@ -13457,6 +14567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "flat",
           "package": "synthesizer-dimensional",
@@ -13466,6 +14577,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "flat",
           "normalized": "T a b-\u003eT a(Flat b)",
@@ -13480,6 +14592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "mapExponential",
           "package": "synthesizer-dimensional",
@@ -13489,6 +14602,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "mapExponential",
           "normalized": "a-\u003eT b a-\u003eT c a-\u003eT c(Dimensional b a a)",
@@ -13504,6 +14618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "mapLinear",
           "package": "synthesizer-dimensional",
@@ -13513,6 +14628,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "mapLinear",
           "normalized": "a-\u003eT b a-\u003eT c a-\u003eT c(Dimensional b a a)",
@@ -13528,6 +14644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "sample",
           "package": "synthesizer-dimensional",
@@ -13537,6 +14654,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "sample",
           "normalized": "T a b-\u003eT c d(e b)-\u003eT a(T d b)",
@@ -13551,6 +14669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:26 UTC 2014",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "simple",
           "package": "synthesizer-dimensional",
@@ -13560,6 +14679,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer Dimensional Wave",
+          "indexed": "2014-03-11T20:15:26",
           "module": "Synthesizer.Dimensional.Wave",
           "name": "simple",
           "normalized": "a-\u003eT b c-\u003eT b(T a c)",

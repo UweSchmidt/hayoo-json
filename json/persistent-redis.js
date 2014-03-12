@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "persistent-redis"
+        "phrase": "persistent-redis",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "Redis",
           "package": "persistent-redis",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "Redis",
           "package": "persistent-redis",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA threadsafe pool of network connections to a Redis server. Use the\n  \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e function to create one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "Connection",
           "package": "persistent-redis",
@@ -48,6 +51,7 @@
         "index": {
           "description": "threadsafe pool of network connections to Redis server Use the connect function to create one",
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "Connection",
           "package": "persistent-redis",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "PortID",
           "package": "persistent-redis",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "PortID",
           "package": "persistent-redis",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext for normal command execution, outside of transactions. Use\n  \u003ccode\u003e\u003ca\u003erunRedis\u003c/a\u003e\u003c/code\u003e to run actions of this type.\n\u003c/p\u003e\u003cp\u003eIn this context, each result is wrapped in an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e to account for the\n  possibility of Redis returning an \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e reply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "Redis",
           "package": "persistent-redis",
@@ -90,6 +97,7 @@
         "index": {
           "description": "Context for normal command execution outside of transactions Use runRedis to run actions of this type In this context each result is wrapped in an Either to account for the possibility of Redis returning an Error reply",
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "Redis",
           "package": "persistent-redis",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "RedisAuth",
           "package": "persistent-redis",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "RedisAuth",
           "package": "persistent-redis",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "RedisBackend",
           "package": "persistent-redis",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "RedisBackend",
           "package": "persistent-redis",
@@ -146,6 +158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation required to connect to a Redis server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "RedisConf",
           "package": "persistent-redis",
@@ -155,6 +168,7 @@
         "index": {
           "description": "Information required to connect to Redis server",
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "RedisConf",
           "package": "persistent-redis",
@@ -169,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class captures the following behaviour: In a context \u003ccode\u003em\u003c/code\u003e, a command\n  will return it's result wrapped in a \"container\" of type \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003ePlease refer to the Command Type Signatures section of this page for more\n  information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "RedisCtx",
           "package": "persistent-redis",
@@ -177,6 +192,7 @@
         "index": {
           "description": "This class captures the following behaviour In context command will return it result wrapped in container of type Please refer to the Command Type Signatures section of this page for more information",
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "RedisCtx",
           "package": "persistent-redis",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad reader transformer keeping Redis connection through out the work\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "RedisT",
           "package": "persistent-redis",
@@ -200,6 +217,7 @@
         "index": {
           "description": "Monad reader transformer keeping Redis connection through out the work",
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "RedisT",
           "package": "persistent-redis",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "PortNumber",
           "package": "persistent-redis",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "PortNumber",
           "package": "persistent-redis",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "RedisAuth",
           "package": "persistent-redis",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "RedisAuth",
           "package": "persistent-redis",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "RedisConf",
           "package": "persistent-redis",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "RedisConf",
           "package": "persistent-redis",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "RedisT",
           "package": "persistent-redis",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "RedisT",
           "package": "persistent-redis",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "Service",
           "package": "persistent-redis",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "Service",
           "package": "persistent-redis",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "UnixSocket",
           "package": "persistent-redis",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "UnixSocket",
           "package": "persistent-redis",
@@ -343,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute Redis transaction inside RedisT monad transformer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "execRedisT",
           "package": "persistent-redis",
@@ -353,6 +384,7 @@
         "index": {
           "description": "Execute Redis transaction inside RedisT monad transformer",
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "execRedisT",
           "normalized": "RedisTx(Queued a)-\u003eRedisT b a",
@@ -369,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuth info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "rdAuth",
           "package": "persistent-redis",
@@ -379,6 +412,7 @@
         "index": {
           "description": "Auth info",
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "rdAuth",
           "package": "persistent-redis",
@@ -393,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "rdHost",
           "package": "persistent-redis",
@@ -403,6 +438,7 @@
         "index": {
           "description": "Host",
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "rdHost",
           "package": "persistent-redis",
@@ -417,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum number of connections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "rdMaxConn",
           "package": "persistent-redis",
@@ -427,6 +464,7 @@
         "index": {
           "description": "Maximum number of connections",
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "rdMaxConn",
           "package": "persistent-redis",
@@ -441,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "rdPort",
           "package": "persistent-redis",
@@ -451,6 +490,7 @@
         "index": {
           "description": "Port",
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "rdPort",
           "package": "persistent-redis",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "runRedisPool",
           "package": "persistent-redis",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "runRedisPool",
           "normalized": "RedisT a b-\u003eConnection-\u003ea b",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "runRedisT",
           "package": "persistent-redis",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "runRedisT",
           "package": "persistent-redis",
@@ -511,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts connection from RedisT monad transformer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "thisConnection",
           "package": "persistent-redis",
@@ -521,6 +566,7 @@
         "index": {
           "description": "Extracts connection from RedisT monad transformer",
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "thisConnection",
           "package": "persistent-redis",
@@ -535,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a connection reader function against a Redis configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:56 UTC 2014",
           "module": "Database.Persist.Redis",
           "name": "withRedisConn",
           "package": "persistent-redis",
@@ -545,6 +592,7 @@
         "index": {
           "description": "Run connection reader function against Redis configuration",
           "hierarchy": "Database Persist Redis",
+          "indexed": "2014-03-11T19:37:56",
           "module": "Database.Persist.Redis",
           "name": "withRedisConn",
           "normalized": "RedisConf-\u003e(Connection-\u003ea b)-\u003ea b",

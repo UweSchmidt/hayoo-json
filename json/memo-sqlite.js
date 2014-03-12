@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "memo-sqlite"
+        "phrase": "memo-sqlite",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMemoize functions in a SQLite3 database.\n\u003c/p\u003e\u003cp\u003eThe functions memoized while having type \u003ccode\u003ef :: k -\u003e IO v\u003c/code\u003e must result in\nthe same output given the same input, otherwise all kinds of wrongness\nwill result.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003ecleanup\u003c/code\u003e action returned by the memoizers must not be called if you\nare going to use the memoized function again; beware.\n\u003c/p\u003e\u003cp\u003eAn example program (included in the examples directory) might look like:\n\u003c/p\u003e\u003cpre\u003e -- fib.hs\n import Data.Memo.Sqlite (memoRec', readShow, table)\n\n import Control.Monad (liftM2)\n import System.Environment (getArgs)\n\n fib :: (Integer -\u003e IO Integer) -\u003e Integer -\u003e IO Integer\n fib _fib' n@0 = print n \u003e\u003e return 0\n fib _fib' n@1 = print n \u003e\u003e return 1\n fib  fib' n   = print n \u003e\u003e liftM2 (+) (fib' (n - 1)) (fib' (n - 2))\n\n main :: IO ()\n main = do\n   [file, ts, ns] \u003c- getArgs\n   let Just t = table ts\n       n = read ns\n   (cleanup, fib') \u003c- memoRec' readShow file t fib\n   fib' n \u003e\u003e= \\nth -\u003e putStrLn $ \"fib(\" ++ show n ++ \") = \" ++ show nth\n   cleanup\n\u003c/pre\u003e\u003cp\u003eExample usage:\n\u003c/p\u003e\u003cpre\u003e ghc --make fib.hs\n ./fib fibs.sqlite3 fibs 10\n ./fib fibs.sqlite3 fibs 10\n ./fib fibs.sqlite3 fibs 100\n ./fib fibs.sqlite3 fibs 100\n\u003c/pre\u003e\u003cp\u003eSee also:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e the \u003ccode\u003edata-memocombinators\u003c/code\u003e package for pure in-memory memoization.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "Sqlite",
           "package": "memo-sqlite",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Memoize functions in SQLite3 database The functions memoized while having type IO must result in the same output given the same input otherwise all kinds of wrongness will result The cleanup action returned by the memoizers must not be called if you are going to use the memoized function again beware An example program included in the examples directory might look like fib.hs import Data.Memo.Sqlite memoRec readShow table import Control.Monad liftM2 import System.Environment getArgs fib Integer IO Integer Integer IO Integer fib fib n@0 print return fib fib n@1 print return fib fib print liftM2 fib fib main IO main do file ts ns getArgs let Just table ts read ns cleanup fib memoRec readShow file fib fib nth putStrLn fib show show nth cleanup Example usage ghc make fib.hs fib fibs.sqlite3 fibs fib fibs.sqlite3 fibs fib fibs.sqlite3 fibs fib fibs.sqlite3 fibs See also the data-memocombinators package for pure in-memory memoization",
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "Sqlite",
           "package": "memo-sqlite",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "Memo",
           "package": "memo-sqlite",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "Memo",
           "package": "memo-sqlite",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "MemoRec",
           "package": "memo-sqlite",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "MemoRec",
           "package": "memo-sqlite",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "MkMemo",
           "package": "memo-sqlite",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "MkMemo",
           "package": "memo-sqlite",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "MkMemoRec",
           "package": "memo-sqlite",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "MkMemoRec",
           "package": "memo-sqlite",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse Read and Show for database (de)serialization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "ReadShow",
           "package": "memo-sqlite",
@@ -135,6 +146,7 @@
         "index": {
           "description": "Use Read and Show for database de serialization",
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "ReadShow",
           "package": "memo-sqlite",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "SQLData",
           "package": "memo-sqlite",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "SQLData",
           "package": "memo-sqlite",
@@ -169,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatabase (de)serialization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "Sqlite",
           "package": "memo-sqlite",
@@ -178,6 +193,7 @@
         "index": {
           "description": "Database de serialization",
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "Sqlite",
           "package": "memo-sqlite",
@@ -192,6 +208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA valid SQLite3 table name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "Table",
           "package": "memo-sqlite",
@@ -201,6 +218,7 @@
         "index": {
           "description": "valid SQLite3 table name",
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "Table",
           "package": "memo-sqlite",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "Unwrap",
           "package": "memo-sqlite",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "Unwrap",
           "package": "memo-sqlite",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "Wrap",
           "package": "memo-sqlite",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "Wrap",
           "package": "memo-sqlite",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "Wrapper",
           "package": "memo-sqlite",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "Wrapper",
           "package": "memo-sqlite",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "SQLBlob",
           "package": "memo-sqlite",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "SQLBlob",
           "package": "memo-sqlite",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "SQLFloat",
           "package": "memo-sqlite",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "SQLFloat",
           "package": "memo-sqlite",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "SQLInteger",
           "package": "memo-sqlite",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "SQLInteger",
           "package": "memo-sqlite",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "SQLNull",
           "package": "memo-sqlite",
@@ -348,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "SQLNull",
           "package": "memo-sqlite",
@@ -361,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "SQLText",
           "package": "memo-sqlite",
@@ -369,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "SQLText",
           "package": "memo-sqlite",
@@ -383,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize from SQLite3 data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "fromSqlite",
           "package": "memo-sqlite",
@@ -393,6 +428,7 @@
         "index": {
           "description": "Deserialize from SQLite3 data",
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "fromSqlite",
           "normalized": "SQLData-\u003ea",
@@ -409,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a function using an SQLite3 database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "memo",
           "package": "memo-sqlite",
@@ -419,6 +456,7 @@
         "index": {
           "description": "Memoize function using an SQLite3 database",
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "memo",
           "package": "memo-sqlite",
@@ -432,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a function using an SQLite3 database, using the supplied wrapper for control of (de)serialization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "memo'",
           "package": "memo-sqlite",
@@ -442,6 +481,7 @@
         "index": {
           "description": "Memoize function using an SQLite3 database using the supplied wrapper for control of de serialization",
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "memo'",
           "normalized": "Wrapper a b c d-\u003eMkMemo c d",
@@ -457,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a recursive function using an SQLite3 database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "memoRec",
           "package": "memo-sqlite",
@@ -467,6 +508,7 @@
         "index": {
           "description": "Memoize recursive function using an SQLite3 database",
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "memoRec",
           "package": "memo-sqlite",
@@ -481,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a recursive function using an SQLite3 database, using the supplied wrapper for control of (de)serialization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "memoRec'",
           "package": "memo-sqlite",
@@ -491,6 +534,7 @@
         "index": {
           "description": "Memoize recursive function using an SQLite3 database using the supplied wrapper for control of de serialization",
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "memoRec'",
           "normalized": "Wrapper a b c d-\u003eMkMemoRec c d",
@@ -507,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper using Read and Show for (de)serialization of both keys and values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "readShow",
           "package": "memo-sqlite",
@@ -517,6 +562,7 @@
         "index": {
           "description": "Wrapper using Read and Show for de serialization of both keys and values",
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "readShow",
           "package": "memo-sqlite",
@@ -531,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a table name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "table",
           "package": "memo-sqlite",
@@ -541,6 +588,7 @@
         "index": {
           "description": "Construct table name",
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "table",
           "normalized": "String-\u003eMaybe Table",
@@ -556,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize to SQLite3 data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:16:13 UTC 2014",
           "module": "Data.Memo.Sqlite",
           "name": "toSqlite",
           "package": "memo-sqlite",
@@ -566,6 +615,7 @@
         "index": {
           "description": "Serialize to SQLite3 data",
           "hierarchy": "Data Memo Sqlite",
+          "indexed": "2014-03-11T19:16:13",
           "module": "Data.Memo.Sqlite",
           "name": "toSqlite",
           "normalized": "a-\u003eSQLData",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "itanium-abi"
+        "phrase": "itanium-abi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Itanium",
           "package": "itanium-abi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Itanium",
           "package": "itanium-abi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "CVQualifier",
           "package": "itanium-abi",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "CVQualifier",
           "package": "itanium-abi",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "CXXType",
           "package": "itanium-abi",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "CXXType",
           "package": "itanium-abi",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "CallOffset",
           "package": "itanium-abi",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "CallOffset",
           "package": "itanium-abi",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "CtorDtor",
           "package": "itanium-abi",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "CtorDtor",
           "package": "itanium-abi",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "DecodedName",
           "package": "itanium-abi",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "DecodedName",
           "package": "itanium-abi",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Expression",
           "package": "itanium-abi",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Expression",
           "package": "itanium-abi",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Name",
           "package": "itanium-abi",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Name",
           "package": "itanium-abi",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Operator",
           "package": "itanium-abi",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Operator",
           "package": "itanium-abi",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Prefix",
           "package": "itanium-abi",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Prefix",
           "package": "itanium-abi",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Substitution",
           "package": "itanium-abi",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Substitution",
           "package": "itanium-abi",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UName",
           "package": "itanium-abi",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UName",
           "package": "itanium-abi",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UnqualifiedName",
           "package": "itanium-abi",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UnqualifiedName",
           "package": "itanium-abi",
@@ -292,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eint[I + 1], expresions due to templates.  The\n dimension is not optional here; if it was it would\n just be an ArrayTypeN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "ArrayTypeE",
           "package": "itanium-abi",
@@ -302,6 +329,7 @@
         "index": {
           "description": "int expresions due to templates The dimension is not optional here if it was it would just be an ArrayTypeN",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "ArrayTypeE",
           "package": "itanium-abi",
@@ -316,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eint[5], normal array parameters.  The dimension is\n elided for C99 VLAs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "ArrayTypeN",
           "package": "itanium-abi",
@@ -326,6 +355,7 @@
         "index": {
           "description": "int normal array parameters The dimension is elided for C99 VLAs",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "ArrayTypeN",
           "package": "itanium-abi",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "AutoType",
           "package": "itanium-abi",
@@ -348,6 +379,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "AutoType",
           "package": "itanium-abi",
@@ -361,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "BoolType",
           "package": "itanium-abi",
@@ -370,6 +403,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "BoolType",
           "package": "itanium-abi",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "C1",
           "package": "itanium-abi",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "C1",
           "package": "itanium-abi",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "C2",
           "package": "itanium-abi",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "C2",
           "package": "itanium-abi",
@@ -425,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "C3",
           "package": "itanium-abi",
@@ -434,6 +473,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "C3",
           "package": "itanium-abi",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Char16Type",
           "package": "itanium-abi",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Char16Type",
           "package": "itanium-abi",
@@ -468,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Char32Type",
           "package": "itanium-abi",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Char32Type",
           "package": "itanium-abi",
@@ -490,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "CharType",
           "package": "itanium-abi",
@@ -499,6 +544,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "CharType",
           "package": "itanium-abi",
@@ -512,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "ClassEnumType",
           "package": "itanium-abi",
@@ -521,6 +568,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "ClassEnumType",
           "package": "itanium-abi",
@@ -534,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "ComplexPairType",
           "package": "itanium-abi",
@@ -543,6 +592,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "ComplexPairType",
           "package": "itanium-abi",
@@ -556,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Const",
           "package": "itanium-abi",
@@ -565,6 +616,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Const",
           "package": "itanium-abi",
@@ -578,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "CtorDtorName",
           "package": "itanium-abi",
@@ -587,6 +640,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "CtorDtorName",
           "package": "itanium-abi",
@@ -600,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "D0",
           "package": "itanium-abi",
@@ -609,6 +664,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "D0",
           "package": "itanium-abi",
@@ -621,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "D1",
           "package": "itanium-abi",
@@ -630,6 +687,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "D1",
           "package": "itanium-abi",
@@ -642,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "D2",
           "package": "itanium-abi",
@@ -651,6 +710,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "D2",
           "package": "itanium-abi",
@@ -663,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Data",
           "package": "itanium-abi",
@@ -672,6 +733,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Data",
           "package": "itanium-abi",
@@ -685,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "DataMemberPrefix",
           "package": "itanium-abi",
@@ -694,6 +757,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "DataMemberPrefix",
           "package": "itanium-abi",
@@ -707,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "DoubleType",
           "package": "itanium-abi",
@@ -716,6 +781,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "DoubleType",
           "package": "itanium-abi",
@@ -729,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "EllipsisType",
           "package": "itanium-abi",
@@ -738,6 +805,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "EllipsisType",
           "package": "itanium-abi",
@@ -751,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Expression",
           "package": "itanium-abi",
@@ -760,6 +829,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Expression",
           "package": "itanium-abi",
@@ -773,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "ExternCFunctionType",
           "package": "itanium-abi",
@@ -782,6 +853,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "ExternCFunctionType",
           "normalized": "ExternCFunctionType[CXXType]",
@@ -797,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Float128Type",
           "package": "itanium-abi",
@@ -806,6 +879,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Float128Type",
           "package": "itanium-abi",
@@ -819,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "FloatType",
           "package": "itanium-abi",
@@ -828,6 +903,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "FloatType",
           "package": "itanium-abi",
@@ -841,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Function",
           "package": "itanium-abi",
@@ -850,6 +927,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Function",
           "normalized": "Function Name[CXXType]",
@@ -865,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "FunctionType",
           "package": "itanium-abi",
@@ -874,6 +953,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "FunctionType",
           "normalized": "FunctionType[CXXType]",
@@ -889,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "GuardVariable",
           "package": "itanium-abi",
@@ -898,6 +979,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "GuardVariable",
           "package": "itanium-abi",
@@ -911,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "ImaginaryType",
           "package": "itanium-abi",
@@ -920,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "ImaginaryType",
           "package": "itanium-abi",
@@ -933,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Int128Type",
           "package": "itanium-abi",
@@ -942,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Int128Type",
           "package": "itanium-abi",
@@ -955,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "IntType",
           "package": "itanium-abi",
@@ -964,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "IntType",
           "package": "itanium-abi",
@@ -977,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "LongDoubleType",
           "package": "itanium-abi",
@@ -986,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "LongDoubleType",
           "package": "itanium-abi",
@@ -999,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "LongLongType",
           "package": "itanium-abi",
@@ -1008,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "LongLongType",
           "package": "itanium-abi",
@@ -1021,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "LongType",
           "package": "itanium-abi",
@@ -1030,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "LongType",
           "package": "itanium-abi",
@@ -1043,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "NestedName",
           "package": "itanium-abi",
@@ -1052,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "NestedName",
           "normalized": "NestedName[CVQualifier][Prefix]UnqualifiedName",
@@ -1067,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "NestedTemplateName",
           "package": "itanium-abi",
@@ -1076,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "NestedTemplateName",
           "normalized": "NestedTemplateName[CVQualifier][Prefix][TemplateArg]",
@@ -1091,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "NonVirtualOffset",
           "package": "itanium-abi",
@@ -1100,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "NonVirtualOffset",
           "package": "itanium-abi",
@@ -1113,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "NullPtrType",
           "package": "itanium-abi",
@@ -1122,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "NullPtrType",
           "package": "itanium-abi",
@@ -1136,6 +1238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e& (unary)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpAddressOf",
           "package": "itanium-abi",
@@ -1146,6 +1249,7 @@
         "index": {
           "description": "unary",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpAddressOf",
           "package": "itanium-abi",
@@ -1159,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpAlignofExpr",
           "package": "itanium-abi",
@@ -1168,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpAlignofExpr",
           "package": "itanium-abi",
@@ -1181,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpAlignofType",
           "package": "itanium-abi",
@@ -1190,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpAlignofType",
           "package": "itanium-abi",
@@ -1203,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpAnd",
           "package": "itanium-abi",
@@ -1212,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpAnd",
           "package": "itanium-abi",
@@ -1225,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpAndAssign",
           "package": "itanium-abi",
@@ -1234,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpAndAssign",
           "package": "itanium-abi",
@@ -1247,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpArrow",
           "package": "itanium-abi",
@@ -1256,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpArrow",
           "package": "itanium-abi",
@@ -1269,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpArrowStar",
           "package": "itanium-abi",
@@ -1278,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpArrowStar",
           "package": "itanium-abi",
@@ -1292,6 +1408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e=\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpAssign",
           "package": "itanium-abi",
@@ -1301,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpAssign",
           "package": "itanium-abi",
@@ -1315,6 +1433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpBitAnd",
           "package": "itanium-abi",
@@ -1324,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpBitAnd",
           "package": "itanium-abi",
@@ -1338,6 +1458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e~\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpBitNot",
           "package": "itanium-abi",
@@ -1347,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpBitNot",
           "package": "itanium-abi",
@@ -1361,6 +1483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpBitOr",
           "package": "itanium-abi",
@@ -1370,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpBitOr",
           "package": "itanium-abi",
@@ -1384,6 +1508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e^\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpBitXor",
           "package": "itanium-abi",
@@ -1393,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpBitXor",
           "package": "itanium-abi",
@@ -1406,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpCall",
           "package": "itanium-abi",
@@ -1415,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpCall",
           "package": "itanium-abi",
@@ -1428,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpCast",
           "package": "itanium-abi",
@@ -1437,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpCast",
           "package": "itanium-abi",
@@ -1450,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpComma",
           "package": "itanium-abi",
@@ -1459,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpComma",
           "package": "itanium-abi",
@@ -1473,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpDelete",
           "package": "itanium-abi",
@@ -1483,6 +1616,7 @@
         "index": {
           "description": "delete",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpDelete",
           "package": "itanium-abi",
@@ -1497,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete[]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpDeleteArray",
           "package": "itanium-abi",
@@ -1507,6 +1642,7 @@
         "index": {
           "description": "delete",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpDeleteArray",
           "package": "itanium-abi",
@@ -1521,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e (unary)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpDeref",
           "package": "itanium-abi",
@@ -1531,6 +1668,7 @@
         "index": {
           "description": "unary",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpDeref",
           "package": "itanium-abi",
@@ -1545,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e/\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpDiv",
           "package": "itanium-abi",
@@ -1554,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpDiv",
           "package": "itanium-abi",
@@ -1567,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpDivAssign",
           "package": "itanium-abi",
@@ -1576,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpDivAssign",
           "package": "itanium-abi",
@@ -1589,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpEquals",
           "package": "itanium-abi",
@@ -1598,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpEquals",
           "package": "itanium-abi",
@@ -1611,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpGt",
           "package": "itanium-abi",
@@ -1620,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpGt",
           "package": "itanium-abi",
@@ -1633,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpGte",
           "package": "itanium-abi",
@@ -1642,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpGte",
           "package": "itanium-abi",
@@ -1655,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpIndex",
           "package": "itanium-abi",
@@ -1664,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpIndex",
           "package": "itanium-abi",
@@ -1677,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpLt",
           "package": "itanium-abi",
@@ -1686,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpLt",
           "package": "itanium-abi",
@@ -1699,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpLte",
           "package": "itanium-abi",
@@ -1708,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpLte",
           "package": "itanium-abi",
@@ -1722,6 +1876,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpMinus",
           "package": "itanium-abi",
@@ -1731,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpMinus",
           "package": "itanium-abi",
@@ -1744,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpMinusAssign",
           "package": "itanium-abi",
@@ -1753,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpMinusAssign",
           "package": "itanium-abi",
@@ -1766,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpMinusMinus",
           "package": "itanium-abi",
@@ -1775,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpMinusMinus",
           "package": "itanium-abi",
@@ -1789,6 +1949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e%\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpMod",
           "package": "itanium-abi",
@@ -1798,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpMod",
           "package": "itanium-abi",
@@ -1811,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpModAssign",
           "package": "itanium-abi",
@@ -1820,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpModAssign",
           "package": "itanium-abi",
@@ -1834,6 +1998,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpMul",
           "package": "itanium-abi",
@@ -1843,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpMul",
           "package": "itanium-abi",
@@ -1856,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpMulAssign",
           "package": "itanium-abi",
@@ -1865,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpMulAssign",
           "package": "itanium-abi",
@@ -1879,6 +2047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enew\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpNew",
           "package": "itanium-abi",
@@ -1889,6 +2058,7 @@
         "index": {
           "description": "new",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpNew",
           "package": "itanium-abi",
@@ -1903,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enew[]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpNewArray",
           "package": "itanium-abi",
@@ -1913,6 +2084,7 @@
         "index": {
           "description": "new",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpNewArray",
           "package": "itanium-abi",
@@ -1926,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpNot",
           "package": "itanium-abi",
@@ -1935,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpNot",
           "package": "itanium-abi",
@@ -1948,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpNotEquals",
           "package": "itanium-abi",
@@ -1957,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpNotEquals",
           "package": "itanium-abi",
@@ -1970,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpOr",
           "package": "itanium-abi",
@@ -1979,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpOr",
           "package": "itanium-abi",
@@ -1992,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpOrAssign",
           "package": "itanium-abi",
@@ -2001,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpOrAssign",
           "package": "itanium-abi",
@@ -2015,6 +2195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e+\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpPlus",
           "package": "itanium-abi",
@@ -2024,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpPlus",
           "package": "itanium-abi",
@@ -2037,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpPlusAssign",
           "package": "itanium-abi",
@@ -2046,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpPlusAssign",
           "package": "itanium-abi",
@@ -2059,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpPlusPlus",
           "package": "itanium-abi",
@@ -2068,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpPlusPlus",
           "package": "itanium-abi",
@@ -2081,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpQuestion",
           "package": "itanium-abi",
@@ -2090,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpQuestion",
           "package": "itanium-abi",
@@ -2103,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpShl",
           "package": "itanium-abi",
@@ -2112,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpShl",
           "package": "itanium-abi",
@@ -2125,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpShlAssign",
           "package": "itanium-abi",
@@ -2134,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpShlAssign",
           "package": "itanium-abi",
@@ -2147,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpShr",
           "package": "itanium-abi",
@@ -2156,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpShr",
           "package": "itanium-abi",
@@ -2169,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpShrAssign",
           "package": "itanium-abi",
@@ -2178,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpShrAssign",
           "package": "itanium-abi",
@@ -2191,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpSizeofExpr",
           "package": "itanium-abi",
@@ -2200,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpSizeofExpr",
           "package": "itanium-abi",
@@ -2213,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpSizeofType",
           "package": "itanium-abi",
@@ -2222,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpSizeofType",
           "package": "itanium-abi",
@@ -2236,6 +2436,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e (unary)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpUMinus",
           "package": "itanium-abi",
@@ -2246,6 +2447,7 @@
         "index": {
           "description": "unary",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpUMinus",
           "package": "itanium-abi",
@@ -2260,6 +2462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e+ (unary)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpUPlus",
           "package": "itanium-abi",
@@ -2270,6 +2473,7 @@
         "index": {
           "description": "unary",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpUPlus",
           "package": "itanium-abi",
@@ -2283,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpVendor",
           "package": "itanium-abi",
@@ -2292,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpVendor",
           "package": "itanium-abi",
@@ -2305,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OpXorAssign",
           "package": "itanium-abi",
@@ -2314,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OpXorAssign",
           "package": "itanium-abi",
@@ -2327,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OperatorName",
           "package": "itanium-abi",
@@ -2336,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OperatorName",
           "package": "itanium-abi",
@@ -2349,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OverrideThunk",
           "package": "itanium-abi",
@@ -2358,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OverrideThunk",
           "package": "itanium-abi",
@@ -2371,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "OverrideThunkCovariant",
           "package": "itanium-abi",
@@ -2380,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "OverrideThunkCovariant",
           "package": "itanium-abi",
@@ -2393,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "ParameterPack",
           "package": "itanium-abi",
@@ -2402,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "ParameterPack",
           "package": "itanium-abi",
@@ -2415,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "PointerToType",
           "package": "itanium-abi",
@@ -2424,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "PointerToType",
           "package": "itanium-abi",
@@ -2438,6 +2656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass type, member type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "PtrToMemberType",
           "package": "itanium-abi",
@@ -2448,6 +2667,7 @@
         "index": {
           "description": "Class type member type",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "PtrToMemberType",
           "package": "itanium-abi",
@@ -2461,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "QualifiedType",
           "package": "itanium-abi",
@@ -2470,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "QualifiedType",
           "normalized": "QualifiedType[CVQualifier]CXXType",
@@ -2485,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "RValueReferenceToType",
           "package": "itanium-abi",
@@ -2494,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "RValueReferenceToType",
           "package": "itanium-abi",
@@ -2507,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "ReferenceToType",
           "package": "itanium-abi",
@@ -2516,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "ReferenceToType",
           "package": "itanium-abi",
@@ -2529,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Restrict",
           "package": "itanium-abi",
@@ -2538,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Restrict",
           "package": "itanium-abi",
@@ -2551,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "ShortType",
           "package": "itanium-abi",
@@ -2560,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "ShortType",
           "package": "itanium-abi",
@@ -2573,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "SignedCharType",
           "package": "itanium-abi",
@@ -2582,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "SignedCharType",
           "package": "itanium-abi",
@@ -2595,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "SourceName",
           "package": "itanium-abi",
@@ -2604,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "SourceName",
           "package": "itanium-abi",
@@ -2617,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "SubBasicIostream",
           "package": "itanium-abi",
@@ -2626,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "SubBasicIostream",
           "package": "itanium-abi",
@@ -2639,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "SubBasicIstream",
           "package": "itanium-abi",
@@ -2648,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "SubBasicIstream",
           "package": "itanium-abi",
@@ -2661,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "SubBasicOstream",
           "package": "itanium-abi",
@@ -2670,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "SubBasicOstream",
           "package": "itanium-abi",
@@ -2683,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "SubBasicString",
           "package": "itanium-abi",
@@ -2692,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "SubBasicString",
           "package": "itanium-abi",
@@ -2705,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "SubBasicStringArgs",
           "package": "itanium-abi",
@@ -2714,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "SubBasicStringArgs",
           "package": "itanium-abi",
@@ -2727,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "SubStdAllocator",
           "package": "itanium-abi",
@@ -2736,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "SubStdAllocator",
           "package": "itanium-abi",
@@ -2749,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "SubStdNamespace",
           "package": "itanium-abi",
@@ -2758,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "SubStdNamespace",
           "package": "itanium-abi",
@@ -2771,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Substitution",
           "package": "itanium-abi",
@@ -2780,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Substitution",
           "package": "itanium-abi",
@@ -2793,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "SubstitutionPrefix",
           "package": "itanium-abi",
@@ -2802,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "SubstitutionPrefix",
           "package": "itanium-abi",
@@ -2815,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "SubstitutionType",
           "package": "itanium-abi",
@@ -2824,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "SubstitutionType",
           "package": "itanium-abi",
@@ -2837,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "TemplateArgsPrefix",
           "package": "itanium-abi",
@@ -2846,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "TemplateArgsPrefix",
           "normalized": "TemplateArgsPrefix[TemplateArg]",
@@ -2861,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "TemplateParamPrefix",
           "package": "itanium-abi",
@@ -2870,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "TemplateParamPrefix",
           "package": "itanium-abi",
@@ -2883,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "TemplateParamType",
           "package": "itanium-abi",
@@ -2892,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "TemplateParamType",
           "package": "itanium-abi",
@@ -2905,6 +3165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "TemplateTemplateParamSubstitutionType",
           "package": "itanium-abi",
@@ -2914,6 +3175,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "TemplateTemplateParamSubstitutionType",
           "normalized": "TemplateTemplateParamSubstitutionType Substitution[TemplateArg]",
@@ -2929,6 +3191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "TemplateTemplateParamType",
           "package": "itanium-abi",
@@ -2938,6 +3201,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "TemplateTemplateParamType",
           "normalized": "TemplateTemplateParamType TemplateParam[TemplateArg]",
@@ -2953,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "TypeInfo",
           "package": "itanium-abi",
@@ -2962,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "TypeInfo",
           "package": "itanium-abi",
@@ -2975,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "TypeInfoName",
           "package": "itanium-abi",
@@ -2984,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "TypeInfoName",
           "package": "itanium-abi",
@@ -2997,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UName",
           "package": "itanium-abi",
@@ -3006,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UName",
           "package": "itanium-abi",
@@ -3019,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UStdName",
           "package": "itanium-abi",
@@ -3028,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UStdName",
           "package": "itanium-abi",
@@ -3041,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UnqualifiedPrefix",
           "package": "itanium-abi",
@@ -3050,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UnqualifiedPrefix",
           "package": "itanium-abi",
@@ -3063,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UnscopedName",
           "package": "itanium-abi",
@@ -3072,6 +3347,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UnscopedName",
           "package": "itanium-abi",
@@ -3085,6 +3361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UnscopedTemplateName",
           "package": "itanium-abi",
@@ -3094,6 +3371,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UnscopedTemplateName",
           "normalized": "UnscopedTemplateName UName[TemplateArg]",
@@ -3109,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UnscopedTemplateSubstitution",
           "package": "itanium-abi",
@@ -3118,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UnscopedTemplateSubstitution",
           "normalized": "UnscopedTemplateSubstitution Substitution[TemplateArg]",
@@ -3133,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UnsignedCharType",
           "package": "itanium-abi",
@@ -3142,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UnsignedCharType",
           "package": "itanium-abi",
@@ -3155,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UnsignedInt128Type",
           "package": "itanium-abi",
@@ -3164,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UnsignedInt128Type",
           "package": "itanium-abi",
@@ -3177,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UnsignedIntType",
           "package": "itanium-abi",
@@ -3186,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UnsignedIntType",
           "package": "itanium-abi",
@@ -3199,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UnsignedLongLongType",
           "package": "itanium-abi",
@@ -3208,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UnsignedLongLongType",
           "package": "itanium-abi",
@@ -3221,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UnsignedLongType",
           "package": "itanium-abi",
@@ -3230,6 +3519,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UnsignedLongType",
           "package": "itanium-abi",
@@ -3243,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "UnsignedShortType",
           "package": "itanium-abi",
@@ -3252,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "UnsignedShortType",
           "package": "itanium-abi",
@@ -3265,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "VTTStructure",
           "package": "itanium-abi",
@@ -3274,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "VTTStructure",
           "package": "itanium-abi",
@@ -3287,6 +3581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "VendorBuiltinType",
           "package": "itanium-abi",
@@ -3296,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "VendorBuiltinType",
           "package": "itanium-abi",
@@ -3310,6 +3606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclTypeExpression \u003ca\u003eexpression\u003c/a\u003e\n | DeclTypeOther \u003ca\u003eexpression\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "VendorTypeQualifier",
           "package": "itanium-abi",
@@ -3320,6 +3617,7 @@
         "index": {
           "description": "DeclTypeExpression expression DeclTypeOther expression",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "VendorTypeQualifier",
           "package": "itanium-abi",
@@ -3333,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "VirtualOffset",
           "package": "itanium-abi",
@@ -3342,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "VirtualOffset",
           "package": "itanium-abi",
@@ -3355,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "VirtualTable",
           "package": "itanium-abi",
@@ -3364,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "VirtualTable",
           "package": "itanium-abi",
@@ -3377,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "VoidType",
           "package": "itanium-abi",
@@ -3386,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "VoidType",
           "package": "itanium-abi",
@@ -3399,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Volatile",
           "package": "itanium-abi",
@@ -3408,6 +3713,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Volatile",
           "package": "itanium-abi",
@@ -3421,6 +3727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "Wchar_tType",
           "package": "itanium-abi",
@@ -3430,6 +3737,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "Wchar_tType",
           "package": "itanium-abi",
@@ -3443,6 +3751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "cxxNameToString",
           "package": "itanium-abi",
@@ -3452,6 +3761,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "cxxNameToString",
           "normalized": "DecodedName-\u003eString",
@@ -3467,6 +3777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "cxxNameToText",
           "package": "itanium-abi",
@@ -3476,6 +3787,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "cxxNameToText",
           "normalized": "DecodedName-\u003eText",
@@ -3492,6 +3804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemangle a name into a structured representation (or an error\n string)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "demangleName",
           "package": "itanium-abi",
@@ -3502,6 +3815,7 @@
         "index": {
           "description": "Demangle name into structured representation or an error string",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "demangleName",
           "normalized": "String-\u003eEither String DecodedName",
@@ -3518,6 +3832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRe-mangle a name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "mangleName",
           "package": "itanium-abi",
@@ -3528,6 +3843,7 @@
         "index": {
           "description": "Re-mangle name",
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "mangleName",
           "normalized": "DecodedName-\u003eMaybe String",
@@ -3543,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "rConst",
           "package": "itanium-abi",
@@ -3552,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "rConst",
           "package": "itanium-abi",
@@ -3565,6 +3883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "rNestedName",
           "package": "itanium-abi",
@@ -3574,6 +3893,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "rNestedName",
           "normalized": "a b c d Boomerang c b([CVQualifier]([Prefix](UnqualifiedName e)))(Name e)",
@@ -3589,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "rSourceName",
           "package": "itanium-abi",
@@ -3598,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "rSourceName",
           "package": "itanium-abi",
@@ -3611,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "rUName",
           "package": "itanium-abi",
@@ -3620,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "rUName",
           "package": "itanium-abi",
@@ -3633,6 +3957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "rUnqualifiedPrefix",
           "package": "itanium-abi",
@@ -3642,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "rUnqualifiedPrefix",
           "package": "itanium-abi",
@@ -3655,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:04 UTC 2014",
           "module": "ABI.Itanium",
           "name": "rUnscopedName",
           "package": "itanium-abi",
@@ -3664,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "ABI Itanium",
+          "indexed": "2014-03-11T19:00:04",
           "module": "ABI.Itanium",
           "name": "rUnscopedName",
           "package": "itanium-abi",

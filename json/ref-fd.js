@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ref-fd"
+        "phrase": "ref-fd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:25 UTC 2014",
           "module": "Control.Monad.Ref",
           "name": "Ref",
           "package": "ref-fd",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ref",
+          "indexed": "2014-03-11T19:50:25",
           "module": "Control.Monad.Ref",
           "name": "Ref",
           "package": "ref-fd",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:25 UTC 2014",
           "module": "Control.Monad.Ref",
           "name": "MonadAtomicRef",
           "package": "ref-fd",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ref",
+          "indexed": "2014-03-11T19:50:25",
           "module": "Control.Monad.Ref",
           "name": "MonadAtomicRef",
           "package": "ref-fd",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonadRef\u003c/a\u003e\u003c/code\u003e type class abstracts over the details of manipulating\n references, allowing one to write code that uses references and can operate\n in any monad that supports reference operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:25 UTC 2014",
           "module": "Control.Monad.Ref",
           "name": "MonadRef",
           "package": "ref-fd",
@@ -70,6 +75,7 @@
         "index": {
           "description": "The MonadRef type class abstracts over the details of manipulating references allowing one to write code that uses references and can operate in any monad that supports reference operations",
           "hierarchy": "Control Monad Ref",
+          "indexed": "2014-03-11T19:50:25",
           "module": "Control.Monad.Ref",
           "name": "MonadRef",
           "package": "ref-fd",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomically mutate the contents of a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:25 UTC 2014",
           "module": "Control.Monad.Ref",
           "name": "atomicModifyRef",
           "package": "ref-fd",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Atomically mutate the contents of reference",
           "hierarchy": "Control Monad Ref",
+          "indexed": "2014-03-11T19:50:25",
           "module": "Control.Monad.Ref",
           "name": "atomicModifyRef",
           "normalized": "a b-\u003e(b-\u003e(b,c))-\u003ed c",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutate the contents of a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:25 UTC 2014",
           "module": "Control.Monad.Ref",
           "name": "modifyRef",
           "package": "ref-fd",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Mutate the contents of reference",
           "hierarchy": "Control Monad Ref",
+          "indexed": "2014-03-11T19:50:25",
           "module": "Control.Monad.Ref",
           "name": "modifyRef",
           "normalized": "a b-\u003e(b-\u003eb)-\u003ec()",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:25 UTC 2014",
           "module": "Control.Monad.Ref",
           "name": "newRef",
           "package": "ref-fd",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Create new reference",
           "hierarchy": "Control Monad Ref",
+          "indexed": "2014-03-11T19:50:25",
           "module": "Control.Monad.Ref",
           "name": "newRef",
           "normalized": "a-\u003eb(c a)",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the value of a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:25 UTC 2014",
           "module": "Control.Monad.Ref",
           "name": "readRef",
           "package": "ref-fd",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Read the value of reference",
           "hierarchy": "Control Monad Ref",
+          "indexed": "2014-03-11T19:50:25",
           "module": "Control.Monad.Ref",
           "name": "readRef",
           "normalized": "a b-\u003ec b",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a new value to a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:25 UTC 2014",
           "module": "Control.Monad.Ref",
           "name": "writeRef",
           "package": "ref-fd",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Write new value to reference",
           "hierarchy": "Control Monad Ref",
+          "indexed": "2014-03-11T19:50:25",
           "module": "Control.Monad.Ref",
           "name": "writeRef",
           "normalized": "a b-\u003eb-\u003ec()",

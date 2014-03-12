@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-excelx"
+        "phrase": "hs-excelx",
+        "type": "phrase"
       },
       "type": "context"
     }

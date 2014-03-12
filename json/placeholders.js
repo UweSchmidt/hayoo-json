@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "placeholders"
+        "phrase": "placeholders",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines placeholders that you can use while coding to\n allow incomplete code to compile. They work just like \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e,\n but with improved error messages and compile-time warnings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:39:57 UTC 2014",
           "module": "Development.Placeholders",
           "name": "Placeholders",
           "package": "placeholders",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines placeholders that you can use while coding to allow incomplete code to compile They work just like undefined but with improved error messages and compile-time warnings",
           "hierarchy": "Development Placeholders",
+          "indexed": "2014-03-11T19:39:57",
           "module": "Development.Placeholders",
           "name": "Placeholders",
           "package": "placeholders",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrown when attempting to evaluate a placeholder at runtime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:57 UTC 2014",
           "module": "Development.Placeholders",
           "name": "PlaceholderException",
           "package": "placeholders",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Thrown when attempting to evaluate placeholder at runtime",
           "hierarchy": "Development Placeholders",
+          "indexed": "2014-03-11T19:39:57",
           "module": "Development.Placeholders",
           "name": "PlaceholderException",
           "package": "placeholders",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:57 UTC 2014",
           "module": "Development.Placeholders",
           "name": "PlaceholderException",
           "package": "placeholders",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Development Placeholders",
+          "indexed": "2014-03-11T19:39:57",
           "module": "Development.Placeholders",
           "name": "PlaceholderException",
           "package": "placeholders",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates that this piece of code has not yet been implemented.\n\u003c/p\u003e\u003cpre\u003e$notImplemented = $(placeholder \"Unimplemented feature\")\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:39:57 UTC 2014",
           "module": "Development.Placeholders",
           "name": "notImplemented",
           "package": "placeholders",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Indicates that this piece of code has not yet been implemented notImplemented placeholder Unimplemented feature",
           "hierarchy": "Development Placeholders",
+          "indexed": "2014-03-11T19:39:57",
           "module": "Development.Placeholders",
           "name": "notImplemented",
           "package": "placeholders",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates an expression of any type that, if evaluated at runtime will\n throw a \u003ccode\u003e\u003ca\u003ePlaceholderException\u003c/a\u003e\u003c/code\u003e. It is therefore similar to \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e, except\n that the source location is automatically included. Also, a warning is\n generated at compile time so you won't forget to replace placeholders\n before packaging your code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:57 UTC 2014",
           "module": "Development.Placeholders",
           "name": "placeholder",
           "package": "placeholders",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Generates an expression of any type that if evaluated at runtime will throw PlaceholderException It is therefore similar to error except that the source location is automatically included Also warning is generated at compile time so you won forget to replace placeholders before packaging your code",
           "hierarchy": "Development Placeholders",
+          "indexed": "2014-03-11T19:39:57",
           "module": "Development.Placeholders",
           "name": "placeholder",
           "normalized": "String-\u003eQ Exp",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eplaceholder\u003c/a\u003e\u003c/code\u003e, but does not generate a compiler warning. Use\n with care!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:57 UTC 2014",
           "module": "Development.Placeholders",
           "name": "placeholderNoWarning",
           "package": "placeholders",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Similar to placeholder but does not generate compiler warning Use with care",
           "hierarchy": "Development Placeholders",
+          "indexed": "2014-03-11T19:39:57",
           "module": "Development.Placeholders",
           "name": "placeholderNoWarning",
           "normalized": "String-\u003eQ Exp",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates unimplemented code or a known bug with a custom message.\n\u003c/p\u003e\u003cpre\u003e$(todo msg) = $(placeholder (\"TODO: \" ++ msg))\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:39:57 UTC 2014",
           "module": "Development.Placeholders",
           "name": "todo",
           "package": "placeholders",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Indicates unimplemented code or known bug with custom message todo msg placeholder TODO msg",
           "hierarchy": "Development Placeholders",
+          "indexed": "2014-03-11T19:39:57",
           "module": "Development.Placeholders",
           "name": "todo",
           "normalized": "String-\u003eQ Exp",

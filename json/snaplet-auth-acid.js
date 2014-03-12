@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-auth-acid"
+        "phrase": "snaplet-auth-acid",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "Acid",
           "package": "snaplet-auth-acid",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "Acid",
           "package": "snaplet-auth-acid",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "AllLogins",
           "package": "snaplet-auth-acid",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "AllLogins",
           "package": "snaplet-auth-acid",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "ByLogin",
           "package": "snaplet-auth-acid",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "ByLogin",
           "package": "snaplet-auth-acid",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "ByRememberToken",
           "package": "snaplet-auth-acid",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "ByRememberToken",
           "package": "snaplet-auth-acid",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "ByUserId",
           "package": "snaplet-auth-acid",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "ByUserId",
           "package": "snaplet-auth-acid",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "DestroyU",
           "package": "snaplet-auth-acid",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "DestroyU",
           "package": "snaplet-auth-acid",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "RToken",
           "package": "snaplet-auth-acid",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "RToken",
           "package": "snaplet-auth-acid",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "SaveAuthUser",
           "package": "snaplet-auth-acid",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "SaveAuthUser",
           "package": "snaplet-auth-acid",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "UserLogin",
           "package": "snaplet-auth-acid",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "UserLogin",
           "package": "snaplet-auth-acid",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "UserStore",
           "package": "snaplet-auth-acid",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "UserStore",
           "package": "snaplet-auth-acid",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "AllLogins",
           "package": "snaplet-auth-acid",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "AllLogins",
           "package": "snaplet-auth-acid",
@@ -250,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "ByLogin",
           "package": "snaplet-auth-acid",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "ByLogin",
           "package": "snaplet-auth-acid",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "ByRememberToken",
           "package": "snaplet-auth-acid",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "ByRememberToken",
           "package": "snaplet-auth-acid",
@@ -294,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "ByUserId",
           "package": "snaplet-auth-acid",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "ByUserId",
           "package": "snaplet-auth-acid",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "DestroyU",
           "package": "snaplet-auth-acid",
@@ -325,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "DestroyU",
           "package": "snaplet-auth-acid",
@@ -338,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "SaveAuthUser",
           "package": "snaplet-auth-acid",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "SaveAuthUser",
           "package": "snaplet-auth-acid",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "UserStore",
           "package": "snaplet-auth-acid",
@@ -369,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "UserStore",
           "package": "snaplet-auth-acid",
@@ -382,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "_loginIndex",
           "package": "snaplet-auth-acid",
@@ -391,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "_loginIndex",
           "package": "snaplet-auth-acid",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "_nextUserId",
           "package": "snaplet-auth-acid",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "_nextUserId",
           "package": "snaplet-auth-acid",
@@ -426,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "_tokenIndex",
           "package": "snaplet-auth-acid",
@@ -435,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "_tokenIndex",
           "package": "snaplet-auth-acid",
@@ -448,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "_users",
           "package": "snaplet-auth-acid",
@@ -457,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "_users",
           "package": "snaplet-auth-acid",
@@ -469,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "acidSave",
           "package": "snaplet-auth-acid",
@@ -478,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "acidSave",
           "normalized": "AcidState UserStore-\u003eAuthUser-\u003eIO(Either AuthFailure AuthUser)",
@@ -493,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "allLogins",
           "package": "snaplet-auth-acid",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "allLogins",
           "normalized": "Query UserStore[UserLogin]",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "byLogin",
           "package": "snaplet-auth-acid",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "byLogin",
           "normalized": "UserLogin-\u003eQuery UserStore(Maybe AuthUser)",
@@ -541,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "byRememberToken",
           "package": "snaplet-auth-acid",
@@ -550,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "byRememberToken",
           "normalized": "RToken-\u003eQuery UserStore(Maybe AuthUser)",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "byUserId",
           "package": "snaplet-auth-acid",
@@ -574,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "byUserId",
           "normalized": "UserId-\u003eQuery UserStore(Maybe AuthUser)",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "deleteIfJust",
           "package": "snaplet-auth-acid",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "deleteIfJust",
           "normalized": "Maybe a-\u003eHashMap a b-\u003eHashMap a b",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "destroyU",
           "package": "snaplet-auth-acid",
@@ -622,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "destroyU",
           "normalized": "AuthUser-\u003eUpdate UserStore()",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "emptyUS",
           "package": "snaplet-auth-acid",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "emptyUS",
           "package": "snaplet-auth-acid",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "getAllLogins",
           "package": "snaplet-auth-acid",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "getAllLogins",
           "normalized": "AcidState UserStore-\u003eHandler a(AuthManager b)[Text]",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "initAcidAuthManager",
           "package": "snaplet-auth-acid",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "initAcidAuthManager",
           "normalized": "AuthSettings-\u003eSnapletLens a SessionManager-\u003eSnapletInit a(AuthManager a)",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "loginIndex",
           "package": "snaplet-auth-acid",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "loginIndex",
           "package": "snaplet-auth-acid",
@@ -728,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "nextUserId",
           "package": "snaplet-auth-acid",
@@ -737,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "nextUserId",
           "package": "snaplet-auth-acid",
@@ -750,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "removeIfExists",
           "package": "snaplet-auth-acid",
@@ -759,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "removeIfExists",
           "normalized": "FilePath-\u003eIO()",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "removeResourceLockOnUnload",
           "package": "snaplet-auth-acid",
@@ -783,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "removeResourceLockOnUnload",
           "normalized": "Initializer a b()",
@@ -798,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "saveAuthUser",
           "package": "snaplet-auth-acid",
@@ -807,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "saveAuthUser",
           "normalized": "AuthUser-\u003eUTCTime-\u003eUpdate UserStore(Either AuthFailure AuthUser)",
@@ -822,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "saveExistingUser",
           "package": "snaplet-auth-acid",
@@ -831,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "saveExistingUser",
           "normalized": "AuthUser-\u003eUserId-\u003eUTCTime-\u003eUpdate UserStore(Either AuthFailure AuthUser)",
@@ -846,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "saveNewUser",
           "package": "snaplet-auth-acid",
@@ -855,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "saveNewUser",
           "normalized": "AuthUser-\u003eUTCTime-\u003eUpdate UserStore(Either AuthFailure AuthUser)",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "tokenIndex",
           "package": "snaplet-auth-acid",
@@ -879,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "tokenIndex",
           "package": "snaplet-auth-acid",
@@ -892,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "updateLoginCache",
           "package": "snaplet-auth-acid",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "updateLoginCache",
           "normalized": "Text-\u003eUserId-\u003ea()",
@@ -916,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "updateTokenCache",
           "package": "snaplet-auth-acid",
@@ -925,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "updateTokenCache",
           "normalized": "Maybe Text-\u003eUserId-\u003ea()",
@@ -940,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "updateUserCache",
           "package": "snaplet-auth-acid",
@@ -949,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "updateUserCache",
           "normalized": "AuthUser-\u003eUserId-\u003ea()",
@@ -964,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:32 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "users",
           "package": "snaplet-auth-acid",
@@ -973,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Acid",
+          "indexed": "2014-03-11T20:05:32",
           "module": "Snap.Snaplet.Auth.Backends.Acid",
           "name": "users",
           "package": "snaplet-auth-acid",

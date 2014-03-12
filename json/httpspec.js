@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "httpspec"
+        "phrase": "httpspec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.EncodingHelper",
           "name": "EncodingHelper",
           "package": "httpspec",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec EncodingHelper",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.EncodingHelper",
           "name": "EncodingHelper",
           "package": "httpspec",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.EncodingHelper",
           "name": "encodingFromContentType",
           "package": "httpspec",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec EncodingHelper",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.EncodingHelper",
           "name": "encodingFromContentType",
           "normalized": "String-\u003eMaybe DynEncoding",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.EncodingHelper",
           "name": "encodingName",
           "package": "httpspec",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec EncodingHelper",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.EncodingHelper",
           "name": "encodingName",
           "normalized": "a-\u003eString",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.EncodingHelper",
           "name": "xmlEncoding",
           "package": "httpspec",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec EncodingHelper",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.EncodingHelper",
           "name": "xmlEncoding",
           "normalized": "ByteString-\u003ea DynEncoding",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpTypes",
           "package": "httpspec",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpTypes",
           "package": "httpspec",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpBody",
           "package": "httpspec",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpBody",
           "package": "httpspec",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpCode",
           "package": "httpspec",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpCode",
           "package": "httpspec",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpData",
           "package": "httpspec",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpData",
           "package": "httpspec",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpHeader",
           "package": "httpspec",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpHeader",
           "package": "httpspec",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpHeaderName",
           "package": "httpspec",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpHeaderName",
           "package": "httpspec",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpHeaderValue",
           "package": "httpspec",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpHeaderValue",
           "package": "httpspec",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpHeaders",
           "package": "httpspec",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpHeaders",
           "package": "httpspec",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpMethod",
           "package": "httpspec",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpMethod",
           "package": "httpspec",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpParamName",
           "package": "httpspec",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpParamName",
           "package": "httpspec",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpParamValue",
           "package": "httpspec",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpParamValue",
           "package": "httpspec",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpParams",
           "package": "httpspec",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpParams",
           "package": "httpspec",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpReason",
           "package": "httpspec",
@@ -370,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpReason",
           "package": "httpspec",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpUrl",
           "package": "httpspec",
@@ -391,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpUrl",
           "package": "httpspec",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "IsHttp",
           "package": "httpspec",
@@ -412,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "IsHttp",
           "package": "httpspec",
@@ -425,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "IsReq",
           "package": "httpspec",
@@ -433,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "IsReq",
           "package": "httpspec",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "IsRes",
           "package": "httpspec",
@@ -454,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "IsRes",
           "package": "httpspec",
@@ -467,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ReqIn",
           "package": "httpspec",
@@ -475,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ReqIn",
           "package": "httpspec",
@@ -488,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ReqOut",
           "package": "httpspec",
@@ -496,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ReqOut",
           "package": "httpspec",
@@ -509,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ResIn",
           "package": "httpspec",
@@ -517,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ResIn",
           "package": "httpspec",
@@ -530,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ResOut",
           "package": "httpspec",
@@ -538,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ResOut",
           "package": "httpspec",
@@ -551,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpData",
           "package": "httpspec",
@@ -560,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "HttpData",
           "package": "httpspec",
@@ -573,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ReqIn",
           "package": "httpspec",
@@ -582,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ReqIn",
           "package": "httpspec",
@@ -595,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ReqOut",
           "package": "httpspec",
@@ -604,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ReqOut",
           "package": "httpspec",
@@ -617,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ResIn",
           "package": "httpspec",
@@ -626,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ResIn",
           "package": "httpspec",
@@ -639,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ResOut",
           "package": "httpspec",
@@ -648,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "ResOut",
           "package": "httpspec",
@@ -661,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "completeReq",
           "package": "httpspec",
@@ -670,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "completeReq",
           "normalized": "a-\u003ea",
@@ -685,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "completeRes",
           "package": "httpspec",
@@ -694,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "completeRes",
           "normalized": "a-\u003ea",
@@ -709,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpBody",
           "package": "httpspec",
@@ -718,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpBody",
           "normalized": "a-\u003eHttpBody",
@@ -733,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpData",
           "package": "httpspec",
@@ -742,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpData",
           "normalized": "a-\u003eHttpData",
@@ -757,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpGetHeader",
           "package": "httpspec",
@@ -766,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpGetHeader",
           "normalized": "HttpHeaderName-\u003ea-\u003eMaybe HttpHeaderValue",
@@ -781,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpHasHeader",
           "package": "httpspec",
@@ -790,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpHasHeader",
           "normalized": "HttpHeaderName-\u003ea-\u003eBool",
@@ -805,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpHeaders",
           "package": "httpspec",
@@ -814,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpHeaders",
           "normalized": "a-\u003eHttpHeaders",
@@ -829,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpSetBody",
           "package": "httpspec",
@@ -838,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpSetBody",
           "normalized": "HttpBody-\u003ea-\u003ea",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpSetData",
           "package": "httpspec",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpSetData",
           "normalized": "a-\u003eHttpData-\u003ea",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpSetHeader",
           "package": "httpspec",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpSetHeader",
           "normalized": "HttpHeaderName-\u003eHttpHeaderValue-\u003ea-\u003ea",
@@ -901,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpSetHeaders",
           "package": "httpspec",
@@ -910,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "httpSetHeaders",
           "normalized": "HttpHeaders-\u003ea-\u003ea",
@@ -925,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "http_body",
           "package": "httpspec",
@@ -934,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "http_body",
           "package": "httpspec",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "http_headers",
           "package": "httpspec",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "http_headers",
           "package": "httpspec",
@@ -967,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "mkHeaderName",
           "package": "httpspec",
@@ -976,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "mkHeaderName",
           "normalized": "String-\u003eHttpHeaderName",
@@ -991,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqAddUrlParam",
           "package": "httpspec",
@@ -1000,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqAddUrlParam",
           "normalized": "HttpParamName-\u003eHttpParamValue-\u003ea-\u003ea",
@@ -1015,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqAppendUrlPath",
           "package": "httpspec",
@@ -1024,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqAppendUrlPath",
           "normalized": "HttpPath-\u003ea-\u003ea",
@@ -1039,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqIn_body",
           "package": "httpspec",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqIn_body",
           "normalized": "ReqIn-\u003eHttpBody",
@@ -1063,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqIn_data",
           "package": "httpspec",
@@ -1072,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqIn_data",
           "package": "httpspec",
@@ -1085,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqIn_fullUrl",
           "package": "httpspec",
@@ -1094,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqIn_fullUrl",
           "package": "httpspec",
@@ -1107,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqIn_headers",
           "package": "httpspec",
@@ -1116,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqIn_headers",
           "normalized": "ReqIn-\u003eHttpHeaders",
@@ -1131,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqIn_method",
           "package": "httpspec",
@@ -1140,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqIn_method",
           "package": "httpspec",
@@ -1153,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqIn_progUrl",
           "package": "httpspec",
@@ -1162,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqIn_progUrl",
           "package": "httpspec",
@@ -1175,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqMethod",
           "package": "httpspec",
@@ -1184,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqMethod",
           "normalized": "a-\u003eHttpMethod",
@@ -1199,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqOut_body",
           "package": "httpspec",
@@ -1208,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqOut_body",
           "normalized": "ReqOut-\u003eHttpBody",
@@ -1223,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqOut_data",
           "package": "httpspec",
@@ -1232,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqOut_data",
           "package": "httpspec",
@@ -1245,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqOut_headers",
           "package": "httpspec",
@@ -1254,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqOut_headers",
           "normalized": "ReqOut-\u003eHttpHeaders",
@@ -1269,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqOut_method",
           "package": "httpspec",
@@ -1278,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqOut_method",
           "package": "httpspec",
@@ -1291,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqOut_url",
           "package": "httpspec",
@@ -1300,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqOut_url",
           "package": "httpspec",
@@ -1313,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqSetMethod",
           "package": "httpspec",
@@ -1322,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqSetMethod",
           "normalized": "HttpMethod-\u003ea-\u003ea",
@@ -1337,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqSetUrl",
           "package": "httpspec",
@@ -1346,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqSetUrl",
           "normalized": "HttpUrl-\u003ea-\u003ea",
@@ -1361,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqSetUrlPath",
           "package": "httpspec",
@@ -1370,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqSetUrlPath",
           "normalized": "HttpPath-\u003ea-\u003ea",
@@ -1385,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqUrl",
           "package": "httpspec",
@@ -1394,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqUrl",
           "normalized": "a-\u003eHttpUrl",
@@ -1409,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqUrlPath",
           "package": "httpspec",
@@ -1418,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "reqUrlPath",
           "normalized": "a-\u003eHttpPath",
@@ -1433,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resCode",
           "package": "httpspec",
@@ -1442,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resCode",
           "normalized": "a-\u003eHttpCode",
@@ -1457,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resIn_body",
           "package": "httpspec",
@@ -1466,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resIn_body",
           "normalized": "ResIn-\u003eHttpBody",
@@ -1481,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resIn_code",
           "package": "httpspec",
@@ -1490,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resIn_code",
           "package": "httpspec",
@@ -1503,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resIn_data",
           "package": "httpspec",
@@ -1512,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resIn_data",
           "package": "httpspec",
@@ -1525,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resIn_headers",
           "package": "httpspec",
@@ -1534,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resIn_headers",
           "normalized": "ResIn-\u003eHttpHeaders",
@@ -1549,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resIn_reason",
           "package": "httpspec",
@@ -1558,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resIn_reason",
           "package": "httpspec",
@@ -1571,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resOut_body",
           "package": "httpspec",
@@ -1580,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resOut_body",
           "normalized": "ResOut-\u003eHttpBody",
@@ -1595,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resOut_code",
           "package": "httpspec",
@@ -1604,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resOut_code",
           "package": "httpspec",
@@ -1617,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resOut_data",
           "package": "httpspec",
@@ -1626,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resOut_data",
           "package": "httpspec",
@@ -1639,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resOut_headers",
           "package": "httpspec",
@@ -1648,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resOut_headers",
           "normalized": "ResOut-\u003eHttpHeaders",
@@ -1663,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resOut_reason",
           "package": "httpspec",
@@ -1672,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resOut_reason",
           "package": "httpspec",
@@ -1685,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resReason",
           "package": "httpspec",
@@ -1694,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resReason",
           "normalized": "a-\u003eHttpReason",
@@ -1709,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resSetStatus",
           "package": "httpspec",
@@ -1718,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "resSetStatus",
           "normalized": "HttpCode-\u003eMaybe HttpReason-\u003ea-\u003ea",
@@ -1733,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "url",
           "package": "httpspec",
@@ -1742,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "url",
           "normalized": "String-\u003eHttpUrl",
@@ -1756,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "urlMatchPrefix",
           "package": "httpspec",
@@ -1765,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "urlMatchPrefix",
           "normalized": "HttpPath-\u003eHttpUrl-\u003eMaybe HttpUrl",
@@ -1780,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "urlMatchPrefix'",
           "package": "httpspec",
@@ -1789,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "urlMatchPrefix'",
           "normalized": "HttpUrl-\u003eHttpUrl-\u003eMaybe HttpUrl",
@@ -1804,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "urlParams",
           "package": "httpspec",
@@ -1813,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "urlParams",
           "normalized": "HttpUrl-\u003eHttpParams",
@@ -1828,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "urlSplit",
           "package": "httpspec",
@@ -1837,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec HttpTypes",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.HttpTypes",
           "name": "urlSplit",
           "normalized": "HttpUrl-\u003ea(HttpPath,HttpUrl)",
@@ -1852,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.Pretty",
           "name": "Pretty",
           "package": "httpspec",
@@ -1860,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec Pretty",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.Pretty",
           "name": "Pretty",
           "package": "httpspec",
@@ -1873,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.Pretty",
           "name": "Pretty",
           "package": "httpspec",
@@ -1881,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec Pretty",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.Pretty",
           "name": "Pretty",
           "package": "httpspec",
@@ -1894,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.Pretty",
           "name": "ppr",
           "package": "httpspec",
@@ -1903,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec Pretty",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.Pretty",
           "name": "ppr",
           "normalized": "a-\u003eDoc",
@@ -1917,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec.Pretty",
           "name": "pprString",
           "package": "httpspec",
@@ -1926,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec Pretty",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec.Pretty",
           "name": "pprString",
           "normalized": "a-\u003eString",
@@ -1941,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "HttpSpec",
           "package": "httpspec",
@@ -1949,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "HttpSpec",
           "package": "httpspec",
@@ -1962,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "HasReqSpec",
           "package": "httpspec",
@@ -1970,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "HasReqSpec",
           "package": "httpspec",
@@ -1983,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "HasResSpec",
           "package": "httpspec",
@@ -1991,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "HasResSpec",
           "package": "httpspec",
@@ -2004,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "HttpSpec",
           "package": "httpspec",
@@ -2012,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "HttpSpec",
           "package": "httpspec",
@@ -2025,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "ReqSpec",
           "package": "httpspec",
@@ -2033,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "ReqSpec",
           "package": "httpspec",
@@ -2046,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "ResSpec",
           "package": "httpspec",
@@ -2054,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "ResSpec",
           "package": "httpspec",
@@ -2067,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "TextEncoding",
           "package": "httpspec",
@@ -2075,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "TextEncoding",
           "package": "httpspec",
@@ -2088,6 +2272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebComm",
           "package": "httpspec",
@@ -2096,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebComm",
           "package": "httpspec",
@@ -2109,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErr",
           "package": "httpspec",
@@ -2117,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErr",
           "package": "httpspec",
@@ -2130,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebExc",
           "package": "httpspec",
@@ -2138,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebExc",
           "package": "httpspec",
@@ -2151,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebIn",
           "package": "httpspec",
@@ -2159,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebIn",
           "package": "httpspec",
@@ -2172,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebOut",
           "package": "httpspec",
@@ -2180,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebOut",
           "package": "httpspec",
@@ -2193,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebCommIn",
           "package": "httpspec",
@@ -2202,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebCommIn",
           "package": "httpspec",
@@ -2215,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebCommOut",
           "package": "httpspec",
@@ -2224,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebCommOut",
           "package": "httpspec",
@@ -2237,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErrCustomMsg",
           "package": "httpspec",
@@ -2246,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErrCustomMsg",
           "package": "httpspec",
@@ -2259,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErrEmptyContent",
           "package": "httpspec",
@@ -2268,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErrEmptyContent",
           "package": "httpspec",
@@ -2281,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErrInvalidHeaderValue",
           "package": "httpspec",
@@ -2290,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErrInvalidHeaderValue",
           "package": "httpspec",
@@ -2303,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErrInvalidMethod",
           "package": "httpspec",
@@ -2312,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErrInvalidMethod",
           "package": "httpspec",
@@ -2325,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErrInvalidStatus",
           "package": "httpspec",
@@ -2334,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErrInvalidStatus",
           "package": "httpspec",
@@ -2347,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErrInvalidUrl",
           "package": "httpspec",
@@ -2356,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErrInvalidUrl",
           "package": "httpspec",
@@ -2369,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErrMissingContentType",
           "package": "httpspec",
@@ -2378,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErrMissingContentType",
           "package": "httpspec",
@@ -2391,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErrMissingHeader",
           "package": "httpspec",
@@ -2400,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErrMissingHeader",
           "package": "httpspec",
@@ -2413,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErrMissingParam",
           "package": "httpspec",
@@ -2422,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErrMissingParam",
           "package": "httpspec",
@@ -2435,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErrNoMatch",
           "package": "httpspec",
@@ -2444,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErrNoMatch",
           "package": "httpspec",
@@ -2457,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErrNotImplemented",
           "package": "httpspec",
@@ -2466,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErrNotImplemented",
           "package": "httpspec",
@@ -2479,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebErrUnexpectedContentType",
           "package": "httpspec",
@@ -2488,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebErrUnexpectedContentType",
           "package": "httpspec",
@@ -2501,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebExc",
           "package": "httpspec",
@@ -2510,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebExc",
           "package": "httpspec",
@@ -2523,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebIn",
           "package": "httpspec",
@@ -2532,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebIn",
           "package": "httpspec",
@@ -2545,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "WebOut",
           "package": "httpspec",
@@ -2554,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "WebOut",
           "package": "httpspec",
@@ -2567,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "genReqOut",
           "package": "httpspec",
@@ -2576,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "genReqOut",
           "normalized": "ReqSpec a-\u003eHttpUrl-\u003ea-\u003eb ReqOut",
@@ -2591,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "genResOut",
           "package": "httpspec",
@@ -2600,6 +2831,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "genResOut",
           "normalized": "ResSpec a-\u003ea-\u003eb ResOut",
@@ -2615,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "parseReqIn",
           "package": "httpspec",
@@ -2624,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "parseReqIn",
           "normalized": "ReqSpec a-\u003eReqIn-\u003eb a",
@@ -2639,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "parseResIn",
           "package": "httpspec",
@@ -2648,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "parseResIn",
           "normalized": "ResSpec a-\u003eResIn-\u003eb a",
@@ -2663,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "reqSpec",
           "package": "httpspec",
@@ -2672,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "reqSpec",
           "package": "httpspec",
@@ -2685,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "resSpec",
           "package": "httpspec",
@@ -2694,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "resSpec",
           "package": "httpspec",
@@ -2707,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsBody",
           "package": "httpspec",
@@ -2716,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsBody",
           "package": "httpspec",
@@ -2729,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsContentType",
           "package": "httpspec",
@@ -2738,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsContentType",
           "normalized": "String-\u003eHttpSpec a b c-\u003eHttpSpec a b c",
@@ -2753,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsEncodingFixed",
           "package": "httpspec",
@@ -2762,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsEncodingFixed",
           "normalized": "a-\u003eSpec b c d ByteString-\u003eSpec b c d String",
@@ -2777,6 +3023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsHeader",
           "package": "httpspec",
@@ -2786,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsHeader",
           "normalized": "HttpHeaderName-\u003eHttpSpec a b HttpHeaderValue",
@@ -2801,6 +3049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsHeaderFixed",
           "package": "httpspec",
@@ -2810,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsHeaderFixed",
           "normalized": "HttpHeader-\u003eHttpSpec a b c-\u003eHttpSpec a b c",
@@ -2825,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsMeth",
           "package": "httpspec",
@@ -2834,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsMeth",
           "normalized": "HttpMethod-\u003eReqSpec a-\u003eReqSpec a",
@@ -2849,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsParam",
           "package": "httpspec",
@@ -2858,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsParam",
           "normalized": "HttpParamName-\u003eReqSpec HttpParamValue",
@@ -2873,6 +3127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsPath",
           "package": "httpspec",
@@ -2882,6 +3137,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsPath",
           "package": "httpspec",
@@ -2895,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsPathFixed",
           "package": "httpspec",
@@ -2904,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsPathFixed",
           "normalized": "String-\u003eReqSpec a-\u003eReqSpec a",
@@ -2919,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsPathSegment",
           "package": "httpspec",
@@ -2928,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsPathSegment",
           "normalized": "ReqSpec a-\u003eReqSpec(String,a)",
@@ -2943,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsStatus",
           "package": "httpspec",
@@ -2952,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsStatus",
           "normalized": "Int-\u003eResSpec a-\u003eResSpec a",
@@ -2967,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsTextEncoding",
           "package": "httpspec",
@@ -2976,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsTextEncoding",
           "normalized": "Spec a b c String-\u003eSpec a b c TextEncoding",
@@ -2991,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsValidXml",
           "package": "httpspec",
@@ -3000,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsValidXml",
           "normalized": "XmlEncoding-\u003eXmlValidator-\u003ePU a-\u003eSpec b c d ByteString-\u003eSpec b c d a",
@@ -3015,6 +3281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsWithBody",
           "package": "httpspec",
@@ -3024,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsWithBody",
           "normalized": "(HttpSpec a b ByteString-\u003eHttpSpec a b c)-\u003eHttpSpec a b c",
@@ -3039,6 +3307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsXml",
           "package": "httpspec",
@@ -3048,6 +3317,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsXml",
           "normalized": "XmlEncoding-\u003ePU a-\u003eSpec b c d ByteString-\u003eSpec b c d a",
@@ -3063,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsXmlBody",
           "package": "httpspec",
@@ -3072,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsXmlBody",
           "normalized": "PU a-\u003eHttpSpec b c a",
@@ -3087,6 +3359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsXmlEncoding",
           "package": "httpspec",
@@ -3096,6 +3369,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsXmlEncoding",
           "normalized": "Spec a b c String-\u003eSpec a b c XmlEncoding",
@@ -3111,6 +3385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "rsXmlString",
           "package": "httpspec",
@@ -3120,6 +3395,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "rsXmlString",
           "normalized": "PU a-\u003eSpec b c d String-\u003eSpec b c d a",
@@ -3135,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "webExcSetReqIn",
           "package": "httpspec",
@@ -3144,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "webExcSetReqIn",
           "normalized": "ReqIn-\u003eWebExc-\u003eWebExc",
@@ -3159,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "webExcSetReqOut",
           "package": "httpspec",
@@ -3168,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "webExcSetReqOut",
           "normalized": "ReqOut-\u003eWebExc-\u003eWebExc",
@@ -3183,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "webExcSetResIn",
           "package": "httpspec",
@@ -3192,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "webExcSetResIn",
           "normalized": "ResIn-\u003eWebExc-\u003eWebExc",
@@ -3207,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "webExcSetResOut",
           "package": "httpspec",
@@ -3216,6 +3499,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "webExcSetResOut",
           "normalized": "ResOut-\u003eWebExc-\u003eWebExc",
@@ -3231,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "webExc_comm",
           "package": "httpspec",
@@ -3240,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "webExc_comm",
           "package": "httpspec",
@@ -3253,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "webExc_err",
           "package": "httpspec",
@@ -3262,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "webExc_err",
           "package": "httpspec",
@@ -3275,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "webIn_req",
           "package": "httpspec",
@@ -3284,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "webIn_req",
           "package": "httpspec",
@@ -3297,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "webIn_res",
           "package": "httpspec",
@@ -3306,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "webIn_res",
           "package": "httpspec",
@@ -3319,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "webOut_req",
           "package": "httpspec",
@@ -3328,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "webOut_req",
           "package": "httpspec",
@@ -3341,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:13 UTC 2014",
           "module": "Data.HttpSpec",
           "name": "webOut_res",
           "package": "httpspec",
@@ -3350,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Data HttpSpec",
+          "indexed": "2014-03-11T18:53:13",
           "module": "Data.HttpSpec",
           "name": "webOut_res",
           "package": "httpspec",

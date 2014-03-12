@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cse-ghc-plugin"
+        "phrase": "cse-ghc-plugin",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:21 UTC 2014",
           "module": "CSE.Plugin",
           "name": "Plugin",
           "package": "cse-ghc-plugin",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "CSE Plugin",
+          "indexed": "2014-03-11T17:44:21",
           "module": "CSE.Plugin",
           "name": "Plugin",
           "package": "cse-ghc-plugin",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:21 UTC 2014",
           "module": "CSE.Plugin",
           "name": "plugin",
           "package": "cse-ghc-plugin",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "CSE Plugin",
+          "indexed": "2014-03-11T17:44:21",
           "module": "CSE.Plugin",
           "name": "plugin",
           "package": "cse-ghc-plugin",

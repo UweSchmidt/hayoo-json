@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bluetile"
+        "phrase": "bluetile",
+        "type": "phrase"
       },
       "type": "context"
     }

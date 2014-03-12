@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mutable-iter"
+        "phrase": "mutable-iter",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIteratees for parsing binary data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.Binary",
           "name": "Binary",
           "package": "mutable-iter",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Iteratees for parsing binary data",
           "hierarchy": "Data MutableIter Binary",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.Binary",
           "name": "Binary",
           "package": "mutable-iter",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicate endian-ness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.Binary",
           "name": "Endian",
           "package": "mutable-iter",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Indicate endian-ness",
           "hierarchy": "Data MutableIter Binary",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.Binary",
           "name": "Endian",
           "package": "mutable-iter",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeast Significan Byte is first (little-endian)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.Binary",
           "name": "LSB",
           "package": "mutable-iter",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Least Significan Byte is first little-endian",
           "hierarchy": "Data MutableIter Binary",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.Binary",
           "name": "LSB",
           "package": "mutable-iter",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMost Significant Byte is first (big-endian)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.Binary",
           "name": "MSB",
           "package": "mutable-iter",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Most Significant Byte is first big-endian",
           "hierarchy": "Data MutableIter Binary",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.Binary",
           "name": "MSB",
           "package": "mutable-iter",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.Binary",
           "name": "endianRead2",
           "package": "mutable-iter",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter Binary",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.Binary",
           "name": "endianRead2",
           "normalized": "Endian-\u003eMIteratee(IOBuffer a Word)b Word",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread 3 bytes in an endian manner.  If the first bit is set (negative),\n set the entire first byte so the Word32 can be properly set negative as\n well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.Binary",
           "name": "endianRead3",
           "package": "mutable-iter",
@@ -144,6 +155,7 @@
         "index": {
           "description": "read bytes in an endian manner If the first bit is set negative set the entire first byte so the Word32 can be properly set negative as well",
           "hierarchy": "Data MutableIter Binary",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.Binary",
           "name": "endianRead3",
           "normalized": "Endian-\u003eMIteratee(IOBuffer a Word)b Word",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.Binary",
           "name": "endianRead4",
           "package": "mutable-iter",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter Binary",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.Binary",
           "name": "endianRead4",
           "normalized": "Endian-\u003eMIteratee(IOBuffer a Word)b Word",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "IOBuffer",
           "package": "mutable-iter",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "IOBuffer",
           "package": "mutable-iter",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable buffer to hold storable elements.  This data type supports\n memory recycling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "IOBuffer",
           "package": "mutable-iter",
@@ -214,6 +231,7 @@
         "index": {
           "description": "mutable buffer to hold storable elements This data type supports memory recycling",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "IOBuffer",
           "package": "mutable-iter",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend two buffers.  Copies data from both into a new buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "append",
           "package": "mutable-iter",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Append two buffers Copies data from both into new buffer",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "append",
           "normalized": "IOBuffer a b-\u003eIOBuffer a b-\u003eIO(IOBuffer a b)",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast a buffer to a different type.  Any extra data is truncated.\n This is not safe unless the buffer offset is 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "castBuffer",
           "package": "mutable-iter",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Cast buffer to different type Any extra data is truncated This is not safe unless the buffer offset is",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "castBuffer",
           "normalized": "IOBuffer a b-\u003eIO(IOBuffer a c)",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy data from one buffer to another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "copyBuffer",
           "package": "mutable-iter",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Copy data from one buffer to another",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "copyBuffer",
           "normalized": "IOBuffer a b-\u003eIO(IOBuffer a b)",
@@ -332,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new buffer of every \u003ccode\u003enth\u003c/code\u003e element.  The original buffer is\n   not altered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "decimate",
           "package": "mutable-iter",
@@ -342,6 +367,7 @@
         "index": {
           "description": "Create new buffer of every nth element The original buffer is not altered",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "decimate",
           "normalized": "Int-\u003eIOBuffer a b-\u003eIO(IOBuffer a b)",
@@ -357,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop n elements from the front of the buffer.\n if the buffer has fewer elements, all are dropped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "drop",
           "package": "mutable-iter",
@@ -367,6 +394,7 @@
         "index": {
           "description": "Drop elements from the front of the buffer if the buffer has fewer elements all are dropped",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "drop",
           "normalized": "Int-\u003eIOBuffer a b-\u003eIO()",
@@ -381,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "dropWhile",
           "package": "mutable-iter",
@@ -390,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eIOBuffer b a-\u003eIO()",
@@ -406,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "empty",
           "package": "mutable-iter",
@@ -416,6 +447,7 @@
         "index": {
           "description": "Empty buffer",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "empty",
           "package": "mutable-iter",
@@ -428,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "foldl'",
           "package": "mutable-iter",
@@ -437,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eIOBuffer c b-\u003eIO a",
@@ -452,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafely convert an IOBuffer to a Vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "freeze",
           "package": "mutable-iter",
@@ -462,6 +497,7 @@
         "index": {
           "description": "Safely convert an IOBuffer to Vector",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "freeze",
           "normalized": "IOBuffer a b-\u003eIO(c b)",
@@ -477,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite out the contents of the IOBuffer to a handle.  This operation\n drains the buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "hPut",
           "package": "mutable-iter",
@@ -487,6 +524,7 @@
         "index": {
           "description": "Write out the contents of the IOBuffer to handle This operation drains the buffer",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "hPut",
           "normalized": "Handle-\u003eIOBuffer a b-\u003eIO()",
@@ -502,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "hopfoldM",
           "package": "mutable-iter",
@@ -511,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "hopfoldM",
           "normalized": "Int-\u003e(a-\u003eb-\u003eIO a)-\u003ea-\u003eIOBuffer c b-\u003eIO a",
@@ -525,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "hopfoldl'",
           "package": "mutable-iter",
@@ -534,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "hopfoldl'",
           "normalized": "Int-\u003e(a-\u003eb-\u003ea)-\u003ea-\u003eIOBuffer c b-\u003eIO a",
@@ -549,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIOBuffer length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "length",
           "package": "mutable-iter",
@@ -559,6 +602,7 @@
         "index": {
           "description": "IOBuffer length",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "length",
           "normalized": "IOBuffer a b-\u003eIO Int",
@@ -574,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the first element, if it exists.\n This function does not advance the buffer pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "lookAtHead",
           "package": "mutable-iter",
@@ -584,6 +629,7 @@
         "index": {
           "description": "Retrieve the first element if it exists This function does not advance the buffer pointer",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "lookAtHead",
           "normalized": "IOBuffer a b-\u003eIO(Maybe b)",
@@ -599,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "mapAccumBuffer",
           "package": "mutable-iter",
@@ -608,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "mapAccumBuffer",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003eForeignPtr Int-\u003eForeignPtr c-\u003ea-\u003eIOBuffer d b-\u003eIO(a,IOBuffer d c)",
@@ -624,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecopy data from one buffer to another with the specified map function.\n this operation drains the original buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "mapBuffer",
           "package": "mutable-iter",
@@ -634,6 +683,7 @@
         "index": {
           "description": "copy data from one buffer to another with the specified map function this operation drains the original buffer",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "mapBuffer",
           "normalized": "(a-\u003eb)-\u003eForeignPtr Int-\u003eForeignPtr b-\u003eIOBuffer c a-\u003eIO(IOBuffer c b)",
@@ -650,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the buffer is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "null",
           "package": "mutable-iter",
@@ -660,6 +711,7 @@
         "index": {
           "description": "Check if the buffer is empty",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "null",
           "normalized": "IOBuffer a b-\u003eIO Bool",
@@ -675,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the front element from the buffer and advance the internal pointer.\n It is an error to call this on an empty buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "pop",
           "package": "mutable-iter",
@@ -685,6 +738,7 @@
         "index": {
           "description": "Retrieve the front element from the buffer and advance the internal pointer It is an error to call this on an empty buffer",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "pop",
           "normalized": "IOBuffer a b-\u003eIO b",
@@ -700,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit one buffer to two, sharing storage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "splitAt",
           "package": "mutable-iter",
@@ -710,6 +765,7 @@
         "index": {
           "description": "Split one buffer to two sharing storage",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "splitAt",
           "normalized": "IOBuffer a b-\u003eInt-\u003eIO(IOBuffer a b,IOBuffer a b)",
@@ -726,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new buffer from the first n elements, sharing data.\n This function advances the pointer of the original buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "take",
           "package": "mutable-iter",
@@ -736,6 +793,7 @@
         "index": {
           "description": "Create new buffer from the first elements sharing data This function advances the pointer of the original buffer",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "take",
           "normalized": "IOBuffer a b-\u003eInt-\u003eIO(IOBuffer a b)",
@@ -751,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafely convert a Vector to an IOBuffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "thaw",
           "package": "mutable-iter",
@@ -761,6 +820,7 @@
         "index": {
           "description": "Safely convert Vector to an IOBuffer",
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "thaw",
           "normalized": "a b-\u003eIO(IOBuffer c b)",
@@ -775,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter.IOBuffer",
           "name": "unsafeToForeignPtr",
           "package": "mutable-iter",
@@ -784,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter IOBuffer",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter.IOBuffer",
           "name": "unsafeToForeignPtr",
           "normalized": "IOBuffer a b-\u003e(Int,ForeignPtr Int,ForeignPtr b)",
@@ -799,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "MutableIter",
           "package": "mutable-iter",
@@ -807,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "MutableIter",
           "package": "mutable-iter",
@@ -821,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable buffer to hold storable elements.  This data type supports\n memory recycling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "IOBuffer",
           "package": "mutable-iter",
@@ -830,6 +895,7 @@
         "index": {
           "description": "mutable buffer to hold storable elements This data type supports memory recycling",
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "IOBuffer",
           "package": "mutable-iter",
@@ -843,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "MEnumeratee",
           "package": "mutable-iter",
@@ -851,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "MEnumeratee",
           "package": "mutable-iter",
@@ -864,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "MEnumerator",
           "package": "mutable-iter",
@@ -872,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "MEnumerator",
           "package": "mutable-iter",
@@ -885,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "MIteratee",
           "package": "mutable-iter",
@@ -893,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "MIteratee",
           "package": "mutable-iter",
@@ -906,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "MIteratee",
           "package": "mutable-iter",
@@ -915,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "MIteratee",
           "package": "mutable-iter",
@@ -928,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "chunk",
           "package": "mutable-iter",
@@ -937,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "chunk",
           "package": "mutable-iter",
@@ -949,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "convStream",
           "package": "mutable-iter",
@@ -958,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "convStream",
           "normalized": "MIteratee(IOBuffer a b)c(IOBuffer a d)-\u003eMEnumeratee(IOBuffer a b)(IOBuffer a d)c e",
@@ -973,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "drop",
           "package": "mutable-iter",
@@ -982,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "drop",
           "normalized": "Int-\u003eMIteratee(IOBuffer a b)c()",
@@ -996,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "dropWhile",
           "package": "mutable-iter",
@@ -1005,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eMIteratee(IOBuffer b a)c()",
@@ -1020,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "enumHandleRandom",
           "package": "mutable-iter",
@@ -1028,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "enumHandleRandom",
           "normalized": "Int-\u003eHandle-\u003eMIteratee(IOBuffer a b)c d-\u003ec(MIteratee(IOBuffer a b)c d)",
@@ -1043,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "fileDriverRandom",
           "package": "mutable-iter",
@@ -1052,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "fileDriverRandom",
           "normalized": "Int-\u003e(a b MIteratee(IOBuffer c d)e f)-\u003eFilePath-\u003ee f",
@@ -1067,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "foldl'",
           "package": "mutable-iter",
@@ -1076,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eMIteratee(IOBuffer c b)d a",
@@ -1091,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Vector iteratee to an MIteratee.  Slower but convenient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "fromUVector",
           "package": "mutable-iter",
@@ -1101,6 +1190,7 @@
         "index": {
           "description": "Convert Vector iteratee to an MIteratee Slower but convenient",
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "fromUVector",
           "normalized": "Iteratee(Vector a)b c-\u003eMIteratee(IOBuffer d a)b c",
@@ -1117,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimate a stream by taking every n'th element, starting at element \u003ca\u003em\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "getChannel",
           "package": "mutable-iter",
@@ -1127,6 +1218,7 @@
         "index": {
           "description": "Decimate stream by taking every th element starting at element",
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "getChannel",
           "normalized": "Int-\u003eInt-\u003eMEnumeratee(IOBuffer a b)(IOBuffer a b)c d",
@@ -1142,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "guardNull",
           "package": "mutable-iter",
@@ -1151,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "guardNull",
           "normalized": "IOBuffer a b-\u003eMIteratee(IOBuffer a b)c d-\u003eMIteratee(IOBuffer a b)c d-\u003eMIteratee(IOBuffer a b)c d",
@@ -1166,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "head",
           "package": "mutable-iter",
@@ -1175,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "head",
           "package": "mutable-iter",
@@ -1187,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "heads",
           "package": "mutable-iter",
@@ -1196,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "heads",
           "normalized": "[a]-\u003eMIteratee(IOBuffer b a)c Int",
@@ -1210,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "hopfoldl'",
           "package": "mutable-iter",
@@ -1219,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "hopfoldl'",
           "normalized": "Int-\u003e(a-\u003eb-\u003ea)-\u003ea-\u003eMIteratee(IOBuffer c b)d a",
@@ -1233,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "icont",
           "package": "mutable-iter",
@@ -1242,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "icont",
           "normalized": "(Stream a-\u003eMIteratee a b c)-\u003eMaybe SomeException-\u003eMIteratee a b c",
@@ -1256,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "idone",
           "package": "mutable-iter",
@@ -1265,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "idone",
           "normalized": "a-\u003eStream b-\u003eMIteratee b c a",
@@ -1279,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "isStreamFinished",
           "package": "mutable-iter",
@@ -1288,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "isStreamFinished",
           "package": "mutable-iter",
@@ -1301,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "joinIM",
           "package": "mutable-iter",
@@ -1310,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "joinIM",
           "normalized": "a(MIteratee(IOBuffer b c)a d)-\u003eMIteratee(IOBuffer b c)a d",
@@ -1325,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "joinIob",
           "package": "mutable-iter",
@@ -1334,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "joinIob",
           "normalized": "MIteratee(IOBuffer a b)c(MIteratee d c e)-\u003eMIteratee(IOBuffer a b)c e",
@@ -1349,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "liftI",
           "package": "mutable-iter",
@@ -1358,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "liftI",
           "normalized": "(Stream a-\u003eMIteratee a b c)-\u003eMIteratee a b c",
@@ -1372,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "mapAccum",
           "package": "mutable-iter",
@@ -1381,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "mapAccum",
           "normalized": "Int-\u003e(a-\u003eb-\u003e(a,c))-\u003ea-\u003eMEnumeratee(IOBuffer d b)(IOBuffer d c)e f",
@@ -1396,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "mapChunk",
           "package": "mutable-iter",
@@ -1405,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "mapChunk",
           "normalized": "(IOBuffer a b-\u003ec d)-\u003eMEnumeratee(IOBuffer a b)d c e",
@@ -1420,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "mapStream",
           "package": "mutable-iter",
@@ -1429,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "mapStream",
           "normalized": "Int-\u003e(a-\u003eb)-\u003eMEnumeratee(IOBuffer c a)(IOBuffer c b)d e",
@@ -1444,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "newFp",
           "package": "mutable-iter",
@@ -1453,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "newFp",
           "normalized": "a-\u003eIO(ForeignPtr a)",
@@ -1468,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "peek",
           "package": "mutable-iter",
@@ -1477,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "peek",
           "package": "mutable-iter",
@@ -1489,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "takeUpTo",
           "package": "mutable-iter",
@@ -1498,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "takeUpTo",
           "normalized": "Int-\u003eMEnumeratee(IOBuffer a b)(IOBuffer a b)c d",
@@ -1514,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most general stream converter.  Given a function to produce iteratee\n transformers and an initial state, convert the stream using iteratees\n generated by the function while continually updating the internal state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "unfoldConvStream",
           "package": "mutable-iter",
@@ -1524,6 +1649,7 @@
         "index": {
           "description": "The most general stream converter Given function to produce iteratee transformers and an initial state convert the stream using iteratees generated by the function while continually updating the internal state",
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "unfoldConvStream",
           "normalized": "(a-\u003eMIteratee(IOBuffer b c)d(a,IOBuffer b e))-\u003ea-\u003eMEnumeratee(IOBuffer b c)(IOBuffer b e)d f",
@@ -1539,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "unwrap",
           "package": "mutable-iter",
@@ -1548,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "unwrap",
           "package": "mutable-iter",
@@ -1560,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:02 UTC 2014",
           "module": "Data.MutableIter",
           "name": "wrapEnum",
           "package": "mutable-iter",
@@ -1569,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Data MutableIter",
+          "indexed": "2014-03-11T19:25:02",
           "module": "Data.MutableIter",
           "name": "wrapEnum",
           "normalized": "Enumerator a b c-\u003eMEnumerator a b c",

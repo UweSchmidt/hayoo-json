@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "numtype-tf"
+        "phrase": "numtype-tf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Module provides unary type-level representations, hereafter\n  referred to as \u003ccode\u003e\u003ca\u003eNumType\u003c/a\u003e\u003c/code\u003es, of the (positive and negative) integers\n  and basic operations (addition, subtraction, multiplication, division)\n  on these. While functions are provided for the operations \u003ccode\u003e\u003ca\u003eNumType\u003c/a\u003e\u003c/code\u003es\n  exist solely at the type level and their only value is \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThere are similarities with the HNats of the HList library,\n  which was indeed a source of inspiration. Occasionally references\n  are made to the HNats. The main addition in this module is negative\n  numbers.\n\u003c/p\u003e\u003cp\u003eThe practical size of the \u003ccode\u003e\u003ca\u003eNumType\u003c/a\u003e\u003c/code\u003es is limited by the type checker\n  stack. If the \u003ccode\u003e\u003ca\u003eNumType\u003c/a\u003e\u003c/code\u003es grow too large (which can happen quickly\n  with multiplication) an error message similar to the following will\n  be emitted:\n\u003c/p\u003e\u003cpre\u003e\n  Context reduction stack overflow; size = 20\n  Use -fcontext-stack=N to increase stack size to N\n\u003c/pre\u003e\u003cp\u003eThis situation could concievably be mitigated significantly by using\n  e.g. a binary representation of integers rather than Peano numbers.\n\u003c/p\u003e\u003cp\u003ePlease refer to the literate Haskell code for a narrative of \n  the implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "TF",
           "package": "numtype-tf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This Module provides unary type-level representations hereafter referred to as NumType of the positive and negative integers and basic operations addition subtraction multiplication division on these While functions are provided for the operations NumType exist solely at the type level and their only value is undefined There are similarities with the HNats of the HList library which was indeed source of inspiration Occasionally references are made to the HNats The main addition in this module is negative numbers The practical size of the NumType is limited by the type checker stack If the NumType grow too large which can happen quickly with multiplication an error message similar to the following will be emitted Context reduction stack overflow size Use fcontext-stack to increase stack size to This situation could concievably be mitigated significantly by using e.g binary representation of integers rather than Peano numbers Please refer to the literate Haskell code for narrative of the implementation",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "TF",
           "package": "numtype-tf",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition (\u003ccode\u003ea + b\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Add",
           "package": "numtype-tf",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Addition",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Add",
           "package": "numtype-tf",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision (\u003ccode\u003ea / b\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Div",
           "package": "numtype-tf",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Division",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Div",
           "package": "numtype-tf",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication (\u003ccode\u003ea * b\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Mul",
           "package": "numtype-tf",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Multiplication",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Mul",
           "package": "numtype-tf",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation type, used to represent negative numbers by negating\n type level naturals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "N",
           "package": "numtype-tf",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Negation type used to represent negative numbers by negating type level naturals",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "N",
           "package": "numtype-tf",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Neg1",
           "package": "numtype-tf",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Neg1",
           "package": "numtype-tf",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Neg2",
           "package": "numtype-tf",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Neg2",
           "package": "numtype-tf",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Neg3",
           "package": "numtype-tf",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Neg3",
           "package": "numtype-tf",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Neg4",
           "package": "numtype-tf",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Neg4",
           "package": "numtype-tf",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Neg5",
           "package": "numtype-tf",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Neg5",
           "package": "numtype-tf",
@@ -238,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass encompassing all valid type level integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "NumType",
           "package": "numtype-tf",
@@ -247,6 +268,7 @@
         "index": {
           "description": "Class encompassing all valid type level integers",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "NumType",
           "package": "numtype-tf",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Pos1",
           "package": "numtype-tf",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Pos1",
           "package": "numtype-tf",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Pos2",
           "package": "numtype-tf",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Pos2",
           "package": "numtype-tf",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Pos3",
           "package": "numtype-tf",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Pos3",
           "package": "numtype-tf",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Pos4",
           "package": "numtype-tf",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Pos4",
           "package": "numtype-tf",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Pos5",
           "package": "numtype-tf",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Pos5",
           "package": "numtype-tf",
@@ -366,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccessor type for building type level natural numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "S",
           "package": "numtype-tf",
@@ -375,6 +408,7 @@
         "index": {
           "description": "Successor type for building type level natural numbers",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "S",
           "package": "numtype-tf",
@@ -388,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtraction (\u003ccode\u003ea - b\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Sub",
           "package": "numtype-tf",
@@ -397,6 +432,7 @@
         "index": {
           "description": "Subtraction",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Sub",
           "package": "numtype-tf",
@@ -411,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Z",
           "package": "numtype-tf",
@@ -420,6 +457,7 @@
         "index": {
           "description": "Type level zero",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Z",
           "package": "numtype-tf",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "Zero",
           "package": "numtype-tf",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "Zero",
           "package": "numtype-tf",
@@ -454,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply two \u003ccode\u003e\u003ca\u003eNumType\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "(*)",
           "package": "numtype-tf",
@@ -464,6 +505,7 @@
         "index": {
           "description": "Multiply two NumType",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "(*) *",
           "normalized": "a-\u003eb-\u003eMul a b",
@@ -479,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two \u003ccode\u003e\u003ca\u003eNumType\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "(+)",
           "package": "numtype-tf",
@@ -489,6 +532,7 @@
         "index": {
           "description": "Add two NumType",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "(+) +",
           "normalized": "a-\u003eb-\u003eAdd a b",
@@ -504,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract the second \u003ccode\u003e\u003ca\u003eNumType\u003c/a\u003e\u003c/code\u003e from the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "(-)",
           "package": "numtype-tf",
@@ -514,6 +559,7 @@
         "index": {
           "description": "Subtract the second NumType from the first",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "(-) -",
           "normalized": "a-\u003eb-\u003eSub a b",
@@ -529,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivide the first \u003ccode\u003e\u003ca\u003eNumType\u003c/a\u003e\u003c/code\u003e by the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "(/)",
           "package": "numtype-tf",
@@ -539,6 +586,7 @@
         "index": {
           "description": "Divide the first NumType by the second",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "(/) /",
           "normalized": "a-\u003eb-\u003eDiv a b",
@@ -554,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrement a \u003ccode\u003e\u003ca\u003eNumType\u003c/a\u003e\u003c/code\u003e by one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "decr",
           "package": "numtype-tf",
@@ -564,6 +613,7 @@
         "index": {
           "description": "Decrement NumType by one",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "decr",
           "normalized": "a-\u003ePred a",
@@ -579,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement a \u003ccode\u003e\u003ca\u003eNumType\u003c/a\u003e\u003c/code\u003e by one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "incr",
           "package": "numtype-tf",
@@ -589,6 +640,7 @@
         "index": {
           "description": "Increment NumType by one",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "incr",
           "normalized": "a-\u003eSucc a",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "neg1",
           "package": "numtype-tf",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "neg1",
           "package": "numtype-tf",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "neg2",
           "package": "numtype-tf",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "neg2",
           "package": "numtype-tf",
@@ -645,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "neg3",
           "package": "numtype-tf",
@@ -654,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "neg3",
           "package": "numtype-tf",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "neg4",
           "package": "numtype-tf",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "neg4",
           "package": "numtype-tf",
@@ -687,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "neg5",
           "package": "numtype-tf",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "neg5",
           "package": "numtype-tf",
@@ -709,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate a \u003ccode\u003e\u003ca\u003eNumType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "negate",
           "package": "numtype-tf",
@@ -719,6 +782,7 @@
         "index": {
           "description": "Negate NumType",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "negate",
           "normalized": "a-\u003eNegate a",
@@ -733,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "pos1",
           "package": "numtype-tf",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "pos1",
           "package": "numtype-tf",
@@ -754,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "pos2",
           "package": "numtype-tf",
@@ -763,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "pos2",
           "package": "numtype-tf",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "pos3",
           "package": "numtype-tf",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "pos3",
           "package": "numtype-tf",
@@ -796,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "pos4",
           "package": "numtype-tf",
@@ -805,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "pos4",
           "package": "numtype-tf",
@@ -817,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "pos5",
           "package": "numtype-tf",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "pos5",
           "package": "numtype-tf",
@@ -839,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a type level integer to an instance of \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "toNum",
           "package": "numtype-tf",
@@ -849,6 +924,7 @@
         "index": {
           "description": "Convert type level integer to an instance of Num",
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "toNum",
           "normalized": "a-\u003eb",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:54 UTC 2014",
           "module": "Numeric.NumType.TF",
           "name": "zero",
           "package": "numtype-tf",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Numeric NumType TF",
+          "indexed": "2014-03-11T19:30:54",
           "module": "Numeric.NumType.TF",
           "name": "zero",
           "package": "numtype-tf",

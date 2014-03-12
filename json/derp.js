@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "derp"
+        "phrase": "derp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "Derp",
           "package": "derp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "Derp",
           "package": "derp",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents both a formal context-free language and the\n   reduction of a member of that language to a value of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "Parser",
           "package": "derp",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Represents both formal context-free language and the reduction of member of that language to value of type",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "Parser",
           "package": "derp",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "Token",
           "package": "derp",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "Token",
           "package": "derp",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "(\u003c|\u003e)",
           "package": "derp",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Alternation",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "Parser a b-\u003eParser a b-\u003eParser a b",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "(\u003c~\u003e)",
           "package": "derp",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Concatenation",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "(\u003c~\u003e) \u003c~\u003e",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a(b,c)",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "(==\u003e)",
           "package": "derp",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Reduction",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "(==\u003e) ==\u003e",
           "normalized": "Parser a b-\u003e(b-\u003ec)-\u003eParser a c",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "Token",
           "package": "derp",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "Token",
           "package": "derp",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "amb",
           "package": "derp",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "amb",
           "normalized": "()-\u003eParser String String",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "ambIn",
           "package": "derp",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "ambIn",
           "normalized": "[Token String]",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe optimization step of the algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "compact",
           "package": "derp",
@@ -238,6 +257,7 @@
         "index": {
           "description": "The optimization step of the algorithm",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "compact",
           "normalized": "Parser a b-\u003eParser a b",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specified number of compactions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "compactNum",
           "package": "derp",
@@ -263,6 +284,7 @@
         "index": {
           "description": "specified number of compactions",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "compactNum",
           "normalized": "Int-\u003eParser a b-\u003eParser a b",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of compact steps that usually keeps a parser constant in size\n   while parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "defaultCompactSteps",
           "package": "derp",
@@ -289,6 +312,7 @@
         "index": {
           "description": "The number of compact steps that usually keeps parser constant in size while parsing",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "defaultCompactSteps",
           "package": "derp",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main derivative function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "derive",
           "package": "derp",
@@ -313,6 +338,7 @@
         "index": {
           "description": "The main derivative function",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "derive",
           "normalized": "Parser a b-\u003eToken a-\u003eParser a b",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerivation followed by the default number of compactions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "deriveStep",
           "package": "derp",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Derivation followed by the default number of compactions",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "deriveStep",
           "normalized": "Parser a b-\u003eToken a-\u003eParser a b",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerivation followed by a specified number of compactions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "deriveStepNum",
           "package": "derp",
@@ -364,6 +393,7 @@
         "index": {
           "description": "Derivation followed by specified number of compactions",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "deriveStepNum",
           "normalized": "Int-\u003eParser a b-\u003eToken a-\u003eParser a b",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "emp",
           "package": "derp",
@@ -390,6 +421,7 @@
         "index": {
           "description": "The empty language",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "emp",
           "package": "derp",
@@ -403,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEpsilon/empty-string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "eps",
           "package": "derp",
@@ -413,6 +446,7 @@
         "index": {
           "description": "Epsilon empty-string",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "eps",
           "normalized": "a-\u003eParser b a",
@@ -428,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNull-parse extraction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "nul",
           "package": "derp",
@@ -438,6 +473,7 @@
         "index": {
           "description": "Null-parse extraction",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "nul",
           "normalized": "Parser a b-\u003eParser a b",
@@ -452,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "parens",
           "package": "derp",
@@ -461,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "parens",
           "normalized": "()-\u003eParser String String",
@@ -475,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "parensIn",
           "package": "derp",
@@ -484,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "parensIn",
           "normalized": "[Token String]",
@@ -500,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the parse-null set of a parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "parseNull",
           "package": "derp",
@@ -510,6 +551,7 @@
         "index": {
           "description": "Extract the parse-null set of parser",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "parseNull",
           "normalized": "Parser a b-\u003eSet b",
@@ -526,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse using the default number of intermediate compactions.  This is the\n   main parsing function.  Examples:\n\u003c/p\u003e\u003cpre\u003e let e =     ter \"num\"\n         \u003c|\u003e e \u003c~\u003e ter \"+\" \u003c~\u003e e ==\u003e (\\(x1,(o,x2)) -\u003e \"(\" ++ x1 ++ o ++ x2 ++ \")\")\n in runParse e [Token \"num\" \"1\", Token \"+\" \"+\", Token \"num\" 3\", Token \"+\" \"+\", Token \"num\" \"5\"]\n\u003c/pre\u003e\u003cp\u003eevaluates to:\n\u003c/p\u003e\u003cpre\u003e Set.fromList [\"((1+3)+5)\", \"(1+(3+5))\"]\n\u003c/pre\u003e\u003cpre\u003e let e =     ter \"num\" ==\u003e read \n         \u003c|\u003e e \u003c~\u003e ter \"+\" \u003c~\u003e e ==\u003e (\\(x1,(_,x2)) -\u003e x1 + x2)\n in runParse e [Token \"num\" \"1\", Token \"+\" \"+\", Token \"num\" 3\", Token \"+\" \"+\", Token \"num\" \"5\"]\n\u003c/pre\u003e\u003cp\u003eevaluates to:\n\u003c/p\u003e\u003cpre\u003e Set.fromList [9]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "runParse",
           "package": "derp",
@@ -536,6 +579,7 @@
         "index": {
           "description": "Parse using the default number of intermediate compactions This is the main parsing function Examples let ter num ter x1 x2 x1 x2 in runParse Token num Token Token num Token Token num evaluates to Set.fromList let ter num read ter x1 x2 x1 x2 in runParse Token num Token Token num Token Token num evaluates to Set.fromList",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "runParse",
           "normalized": "Parser a b-\u003e[Token a]-\u003eSet b",
@@ -551,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "runParseLongestMatch",
           "package": "derp",
@@ -560,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "runParseLongestMatch",
           "normalized": "Parser a b-\u003e[Token a]-\u003eMaybe(Int,Set b,[Token a])",
@@ -575,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "runParseLongestMatchNum",
           "package": "derp",
@@ -584,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "runParseLongestMatchNum",
           "normalized": "Int-\u003eParser a b-\u003e[Token a]-\u003eMaybe(Int,Set b,[Token a])",
@@ -600,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse using a specified number of intermediate compactions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "runParseNum",
           "package": "derp",
@@ -610,6 +659,7 @@
         "index": {
           "description": "Parse using specified number of intermediate compactions",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "runParseNum",
           "normalized": "Int-\u003eParser a b-\u003e[Token a]-\u003eSet b",
@@ -625,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "runParseStages",
           "package": "derp",
@@ -634,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "runParseStages",
           "normalized": "Parser a b-\u003e[Token a]-\u003e[(Parser a b,Set b,[Token a])]",
@@ -649,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "runParseStagesNum",
           "package": "derp",
@@ -658,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "runParseStagesNum",
           "normalized": "Int-\u003eParser a b-\u003e[Token a]-\u003e[(Parser a b,Set b,[Token a])]",
@@ -673,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "sexp",
           "package": "derp",
@@ -682,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "sexp",
           "normalized": "()-\u003eParser String String",
@@ -696,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "sexpIn",
           "package": "derp",
@@ -705,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "sexpIn",
           "normalized": "[Token String]",
@@ -720,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "someStuff",
           "package": "derp",
@@ -729,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "someStuff",
           "normalized": "[Token String]",
@@ -744,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "someStuffG",
           "package": "derp",
@@ -753,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "someStuffG",
           "normalized": "()-\u003eParser String String",
@@ -769,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "ter",
           "package": "derp",
@@ -779,6 +842,7 @@
         "index": {
           "description": "Terminal",
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "ter",
           "normalized": "a-\u003eParser a String",
@@ -793,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "tokenClass",
           "package": "derp",
@@ -802,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "tokenClass",
           "package": "derp",
@@ -815,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "tokenValue",
           "package": "derp",
@@ -824,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "tokenValue",
           "package": "derp",
@@ -837,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "xsIn",
           "package": "derp",
@@ -846,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "xsIn",
           "normalized": "[Token String]",
@@ -861,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "xsL",
           "package": "derp",
@@ -870,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "xsL",
           "normalized": "()-\u003eParser String String",
@@ -884,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:30 UTC 2014",
           "module": "Text.Derp",
           "name": "xsR",
           "package": "derp",
@@ -893,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Text Derp",
+          "indexed": "2014-03-11T17:53:30",
           "module": "Text.Derp",
           "name": "xsR",
           "normalized": "()-\u003eParser String String",

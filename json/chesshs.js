@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "chesshs"
+        "phrase": "chesshs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.FEN",
           "name": "FEN",
           "package": "chesshs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Chess FEN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.FEN",
           "name": "FEN",
           "package": "chesshs",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.FEN",
           "name": "defaultBoard",
           "package": "chesshs",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Chess FEN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.FEN",
           "name": "defaultBoard",
           "package": "chesshs",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.FEN",
           "name": "defaultFEN",
           "package": "chesshs",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Chess FEN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.FEN",
           "name": "defaultFEN",
           "package": "chesshs",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.FEN",
           "name": "fromFEN",
           "package": "chesshs",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Chess FEN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.FEN",
           "name": "fromFEN",
           "normalized": "String-\u003eMaybe Board",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.FEN",
           "name": "toFEN",
           "package": "chesshs",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Chess FEN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.FEN",
           "name": "toFEN",
           "normalized": "Board-\u003eString",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "PGN",
           "package": "chesshs",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "PGN",
           "package": "chesshs",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "GameResult",
           "package": "chesshs",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "GameResult",
           "package": "chesshs",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "PGN",
           "package": "chesshs",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "PGN",
           "package": "chesshs",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "BlackWon",
           "package": "chesshs",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "BlackWon",
           "package": "chesshs",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "Draw",
           "package": "chesshs",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "Draw",
           "package": "chesshs",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "PGN",
           "package": "chesshs",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "PGN",
           "package": "chesshs",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "WhiteWon",
           "package": "chesshs",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "WhiteWon",
           "package": "chesshs",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "blackPlayer",
           "package": "chesshs",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "blackPlayer",
           "package": "chesshs",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "date",
           "package": "chesshs",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "date",
           "package": "chesshs",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "event",
           "package": "chesshs",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "event",
           "package": "chesshs",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "initialPosition",
           "package": "chesshs",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "initialPosition",
           "package": "chesshs",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "moves",
           "package": "chesshs",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "moves",
           "normalized": "[Move]",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "pgnParser",
           "package": "chesshs",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "pgnParser",
           "normalized": "Parser ByteString[PGN]",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "result",
           "package": "chesshs",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "result",
           "package": "chesshs",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "round",
           "package": "chesshs",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "round",
           "package": "chesshs",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "site",
           "package": "chesshs",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "site",
           "package": "chesshs",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess.PGN",
           "name": "whitePlayer",
           "package": "chesshs",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Chess PGN",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess.PGN",
           "name": "whitePlayer",
           "package": "chesshs",
@@ -501,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main move validation module. FEN parsing code is in Chess.FEN and PGN parsing is in Chess.PGN\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "Chess",
           "package": "chesshs",
@@ -510,6 +555,7 @@
         "index": {
           "description": "The main move validation module FEN parsing code is in Chess.FEN and PGN parsing is in Chess.PGN",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "Chess",
           "package": "chesshs",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "Board",
           "package": "chesshs",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "Board",
           "package": "chesshs",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "Color",
           "package": "chesshs",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "Color",
           "package": "chesshs",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "MoveError",
           "package": "chesshs",
@@ -573,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "MoveError",
           "package": "chesshs",
@@ -586,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "Piece",
           "package": "chesshs",
@@ -594,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "Piece",
           "package": "chesshs",
@@ -607,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "PieceType",
           "package": "chesshs",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "PieceType",
           "package": "chesshs",
@@ -628,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "Bishop",
           "package": "chesshs",
@@ -637,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "Bishop",
           "package": "chesshs",
@@ -650,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "Black",
           "package": "chesshs",
@@ -659,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "Black",
           "package": "chesshs",
@@ -672,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "Board",
           "package": "chesshs",
@@ -681,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "Board",
           "package": "chesshs",
@@ -695,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis move captures one of your own pieces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "CapturesOwn",
           "package": "chesshs",
@@ -705,6 +768,7 @@
         "index": {
           "description": "This move captures one of your own pieces",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "CapturesOwn",
           "package": "chesshs",
@@ -719,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAfter this move your king would be checked\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "CausesCheck",
           "package": "chesshs",
@@ -729,6 +794,7 @@
         "index": {
           "description": "After this move your king would be checked",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "CausesCheck",
           "package": "chesshs",
@@ -743,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is not how that piece works\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "InvalidMove",
           "package": "chesshs",
@@ -753,6 +820,7 @@
         "index": {
           "description": "This is not how that piece works",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "InvalidMove",
           "package": "chesshs",
@@ -767,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYour king is checked and this move doesn't solve that\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "IsCheck",
           "package": "chesshs",
@@ -777,6 +846,7 @@
         "index": {
           "description": "Your king is checked and this move doesn solve that",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "IsCheck",
           "package": "chesshs",
@@ -790,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "King",
           "package": "chesshs",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "King",
           "package": "chesshs",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "Knight",
           "package": "chesshs",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "Knight",
           "package": "chesshs",
@@ -835,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI don't understand what you mean\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "NoParse",
           "package": "chesshs",
@@ -845,6 +920,7 @@
         "index": {
           "description": "don understand what you mean",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "NoParse",
           "package": "chesshs",
@@ -859,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere is no piece at the \u003ca\u003efrom\u003c/a\u003e position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "NoPiece",
           "package": "chesshs",
@@ -869,6 +946,7 @@
         "index": {
           "description": "There is no piece at the from position",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "NoPiece",
           "package": "chesshs",
@@ -883,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou cannot move over other pieces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "OverPiece",
           "package": "chesshs",
@@ -893,6 +972,7 @@
         "index": {
           "description": "You cannot move over other pieces",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "OverPiece",
           "package": "chesshs",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "Pawn",
           "package": "chesshs",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "Pawn",
           "package": "chesshs",
@@ -928,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "Piece",
           "package": "chesshs",
@@ -937,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "Piece",
           "package": "chesshs",
@@ -950,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "Queen",
           "package": "chesshs",
@@ -959,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "Queen",
           "package": "chesshs",
@@ -972,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "Rook",
           "package": "chesshs",
@@ -981,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "Rook",
           "package": "chesshs",
@@ -994,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "White",
           "package": "chesshs",
@@ -1003,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "White",
           "package": "chesshs",
@@ -1017,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt's not your turn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "WrongTurn",
           "package": "chesshs",
@@ -1027,6 +1118,7 @@
         "index": {
           "description": "It not your turn",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "WrongTurn",
           "package": "chesshs",
@@ -1040,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "board",
           "package": "chesshs",
@@ -1049,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "board",
           "normalized": "Array(Int,Int)(Maybe Piece)",
@@ -1063,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "castlingAvail",
           "package": "chesshs",
@@ -1072,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "castlingAvail",
           "package": "chesshs",
@@ -1086,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the player of the given colour check?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "check",
           "package": "chesshs",
@@ -1096,6 +1193,7 @@
         "index": {
           "description": "Is the player of the given colour check",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "check",
           "normalized": "Color-\u003eBoard-\u003eBool",
@@ -1110,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "clr",
           "package": "chesshs",
@@ -1119,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "clr",
           "package": "chesshs",
@@ -1131,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "enpassant",
           "package": "chesshs",
@@ -1140,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "enpassant",
           "normalized": "Maybe(Int,Int)",
@@ -1155,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the player with the given colour checkmate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "mate",
           "package": "chesshs",
@@ -1165,6 +1268,7 @@
         "index": {
           "description": "Is the player with the given colour checkmate",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "mate",
           "normalized": "Color-\u003eBoard-\u003eBool",
@@ -1180,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a move on the board in coordinate notation like \u003ca\u003ee2e4\u003c/a\u003e, returning either the new board or an error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "move",
           "package": "chesshs",
@@ -1190,6 +1295,7 @@
         "index": {
           "description": "Perform move on the board in coordinate notation like e2e4 returning either the new board or an error",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "move",
           "normalized": "[Char]-\u003eBoard-\u003eEither MoveError Board",
@@ -1205,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a move in SAN notation on the board and return either the new board or an error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "moveSAN",
           "package": "chesshs",
@@ -1215,6 +1322,7 @@
         "index": {
           "description": "Perform move in SAN notation on the board and return either the new board or an error",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "moveSAN",
           "normalized": "[Char]-\u003eBoard-\u003eEither MoveError Board",
@@ -1230,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "piece",
           "package": "chesshs",
@@ -1239,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "piece",
           "package": "chesshs",
@@ -1252,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003epieceAtStr\u003c/a\u003e\u003c/code\u003e, but with coordinates instead of a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "pieceAt",
           "package": "chesshs",
@@ -1262,6 +1373,7 @@
         "index": {
           "description": "Like pieceAtStr but with coordinates instead of string",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "pieceAt",
           "normalized": "Int-\u003eInt-\u003eBoard-\u003eMaybe Piece",
@@ -1278,6 +1390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat piece is currently at this position on the board?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "pieceAtStr",
           "package": "chesshs",
@@ -1288,6 +1401,7 @@
         "index": {
           "description": "What piece is currently at this position on the board",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "pieceAtStr",
           "normalized": "String-\u003eBoard-\u003eMaybe Piece",
@@ -1304,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan the player of the given colour make any move?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "stalemate",
           "package": "chesshs",
@@ -1314,6 +1429,7 @@
         "index": {
           "description": "Can the player of the given colour make any move",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "stalemate",
           "normalized": "Color-\u003eBoard-\u003eBool",
@@ -1329,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a position like \u003ca\u003ea5\u003c/a\u003e and returns the coordinates (0,4)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "strToPos",
           "package": "chesshs",
@@ -1339,6 +1456,7 @@
         "index": {
           "description": "Takes position like a5 and returns the coordinates",
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "strToPos",
           "normalized": "String-\u003e(Int,Int)",
@@ -1354,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:09 UTC 2014",
           "module": "Chess",
           "name": "turn",
           "package": "chesshs",
@@ -1363,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Chess",
+          "indexed": "2014-03-11T17:32:09",
           "module": "Chess",
           "name": "turn",
           "package": "chesshs",

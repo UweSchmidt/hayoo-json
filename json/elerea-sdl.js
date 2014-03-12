@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "elerea-sdl"
+        "phrase": "elerea-sdl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:54 UTC 2014",
           "module": "FRP.Elerea.SDL",
           "name": "SDL",
           "package": "elerea-sdl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "FRP Elerea SDL",
+          "indexed": "2014-03-11T18:01:54",
           "module": "FRP.Elerea.SDL",
           "name": "SDL",
           "package": "elerea-sdl",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSDL Ticks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:54 UTC 2014",
           "module": "FRP.Elerea.SDL",
           "name": "Ticks",
           "package": "elerea-sdl",
@@ -49,6 +52,7 @@
         "index": {
           "description": "SDL Ticks",
           "hierarchy": "FRP Elerea SDL",
+          "indexed": "2014-03-11T18:01:54",
           "module": "FRP.Elerea.SDL",
           "name": "Ticks",
           "package": "elerea-sdl",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain SDL event loop (with framerate)\n\u003c/p\u003e\u003cp\u003eProduces an \u003ca\u003einfinite\u003c/a\u003e list of network samples\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:54 UTC 2014",
           "module": "FRP.Elerea.SDL",
           "name": "sdlLoop",
           "package": "elerea-sdl",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Main SDL event loop with framerate Produces an infinite list of network samples",
           "hierarchy": "FRP Elerea SDL",
+          "indexed": "2014-03-11T18:01:54",
           "module": "FRP.Elerea.SDL",
           "name": "sdlLoop",
           "normalized": "Ticks-\u003e(SignalGen a(Signal[Event])-\u003eSignalGen Ticks(Signal b))-\u003eIO[b]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "udcode"
+        "phrase": "udcode",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUDCode: a naive Haskell implementation of Mark Jason Dominus'\n uniquely-decodable code algorhythm, as described in\n http:\u003cem/\u003eblog.plover.com\u003cem\u003eCS\u003c/em\u003eudcodes.html entry. For more documentation,\n see the blog entry directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:38 UTC 2014",
           "module": "Data.UDCode",
           "name": "UDCode",
           "package": "udcode",
@@ -28,6 +29,7 @@
         "index": {
           "description": "UDCode naive Haskell implementation of Mark Jason Dominus uniquely-decodable code algorhythm as described in http blog.plover.com CS udcodes.html entry For more documentation see the blog entry directly",
           "hierarchy": "Data UDCode",
+          "indexed": "2014-03-11T20:28:38",
           "module": "Data.UDCode",
           "name": "UDCode",
           "package": "udcode",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:38 UTC 2014",
           "module": "Data.UDCode",
           "name": "is_udcode",
           "package": "udcode",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data UDCode",
+          "indexed": "2014-03-11T20:28:38",
           "module": "Data.UDCode",
           "name": "is_udcode",
           "normalized": "[[a]]-\u003eBool",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:38 UTC 2014",
           "module": "Data.UDCode",
           "name": "ud_pair",
           "package": "udcode",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data UDCode",
+          "indexed": "2014-03-11T20:28:38",
           "module": "Data.UDCode",
           "name": "ud_pair",
           "normalized": "[[a]]-\u003eMaybe([[a]],[[a]])",

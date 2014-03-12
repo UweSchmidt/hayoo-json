@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "peparser"
+        "phrase": "peparser",
+        "type": "phrase"
       },
       "type": "context"
     }

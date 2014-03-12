@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snippet-extractor"
+        "phrase": "snippet-extractor",
+        "type": "phrase"
       },
       "type": "context"
     }

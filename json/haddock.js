@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haddock"
+        "phrase": "haddock",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Haddock API: A rudimentory, highly experimental API exposing some of\n the internals of Haddock. Don't expect it to be stable.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Haddock",
           "package": "haddock",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Haddock API rudimentory highly experimental API exposing some of the internals of Haddock Don expect it to be stable",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Haddock",
           "package": "haddock",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "AliasMap",
           "package": "haddock",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "AliasMap",
           "package": "haddock",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ArgMap",
           "package": "haddock",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ArgMap",
           "package": "haddock",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Doc",
           "package": "haddock",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Doc",
           "package": "haddock",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocForDecl",
           "package": "haddock",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocForDecl",
           "package": "haddock",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance head that may have documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocInstance",
           "package": "haddock",
@@ -135,6 +146,7 @@
         "index": {
           "description": "An instance head that may have documentation",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocInstance",
           "package": "haddock",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocMap",
           "package": "haddock",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocMap",
           "package": "haddock",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocMarkup",
           "package": "haddock",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocMarkup",
           "package": "haddock",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtends \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e with cross-reference information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocName",
           "package": "haddock",
@@ -200,6 +217,7 @@
         "index": {
           "description": "Extends Name with cross-reference information",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocName",
           "package": "haddock",
@@ -214,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource-level options for controlling the documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocOption",
           "package": "haddock",
@@ -223,6 +242,7 @@
         "index": {
           "description": "Source-level options for controlling the documentation",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocOption",
           "package": "haddock",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Documentation",
           "package": "haddock",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Documentation",
           "package": "haddock",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Example",
           "package": "haddock",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Example",
           "package": "haddock",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ExportItem",
           "package": "haddock",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ExportItem",
           "package": "haddock",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag",
           "package": "haddock",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag",
           "package": "haddock",
@@ -321,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArguments and result are indexed by Int, zero-based from the left,\n because that's the easiest to use when recursing over types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "FnArgsDoc",
           "package": "haddock",
@@ -330,6 +359,7 @@
         "index": {
           "description": "Arguments and result are indexed by Int zero-based from the left because that the easiest to use when recursing over types",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "FnArgsDoc",
           "package": "haddock",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "HaddockModInfo",
           "package": "haddock",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "HaddockModInfo",
           "package": "haddock",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Hyperlink",
           "package": "haddock",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Hyperlink",
           "package": "haddock",
@@ -386,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe head of an instance. Consists of a context, a class name and a list\n of instance types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "InstHead",
           "package": "haddock",
@@ -395,6 +430,7 @@
         "index": {
           "description": "The head of an instance Consists of context class name and list of instance types",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "InstHead",
           "package": "haddock",
@@ -409,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA subset of the fields of \u003ccode\u003e\u003ca\u003eInterface\u003c/a\u003e\u003c/code\u003e that we store in the interface\n files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "InstalledInterface",
           "package": "haddock",
@@ -418,6 +455,7 @@
         "index": {
           "description": "subset of the fields of Interface that we store in the interface files",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "InstalledInterface",
           "package": "haddock",
@@ -432,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInterface\u003c/a\u003e\u003c/code\u003e holds all information used to render a single Haddock page.\n It represents the \u003cem\u003einterface\u003c/em\u003e of a module. The core business of Haddock\n lies in creating this structure. Note that the record contains some fields\n that are only used to create the final record, and that are not used by the\n backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Interface",
           "package": "haddock",
@@ -441,6 +480,7 @@
         "index": {
           "description": "Interface holds all information used to render single Haddock page It represents the interface of module The core business of Haddock lies in creating this structure Note that the record contains some fields that are only used to create the final record and that are not used by the backends",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Interface",
           "package": "haddock",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "InterfaceFile",
           "package": "haddock",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "InterfaceFile",
           "package": "haddock",
@@ -476,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of environment used to cross-reference identifiers in the syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "LinkEnv",
           "package": "haddock",
@@ -485,6 +528,7 @@
         "index": {
           "description": "Type of environment used to cross-reference identifiers in the syntax",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "LinkEnv",
           "package": "haddock",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "NameCacheAccessor",
           "package": "haddock",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "NameCacheAccessor",
           "package": "haddock",
@@ -519,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "WarningMap",
           "package": "haddock",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "WarningMap",
           "package": "haddock",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocAName",
           "package": "haddock",
@@ -549,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocAName",
           "package": "haddock",
@@ -562,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocAppend",
           "package": "haddock",
@@ -571,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocAppend",
           "package": "haddock",
@@ -584,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocCodeBlock",
           "package": "haddock",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocCodeBlock",
           "package": "haddock",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocDefList",
           "package": "haddock",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocDefList",
           "normalized": "DocDefList[(Doc a,Doc a)]",
@@ -630,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocEmphasis",
           "package": "haddock",
@@ -639,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocEmphasis",
           "package": "haddock",
@@ -652,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocEmpty",
           "package": "haddock",
@@ -661,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocEmpty",
           "package": "haddock",
@@ -674,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocExamples",
           "package": "haddock",
@@ -683,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocExamples",
           "normalized": "DocExamples[Example]",
@@ -698,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocHyperlink",
           "package": "haddock",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocHyperlink",
           "package": "haddock",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocIdentifier",
           "package": "haddock",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocIdentifier",
           "package": "haddock",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocIdentifierUnchecked",
           "package": "haddock",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocIdentifierUnchecked",
           "normalized": "DocIdentifierUnchecked(ModuleName,OccName)",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocModule",
           "package": "haddock",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocModule",
           "package": "haddock",
@@ -788,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocMonospaced",
           "package": "haddock",
@@ -797,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocMonospaced",
           "package": "haddock",
@@ -810,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocOrderedList",
           "package": "haddock",
@@ -819,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocOrderedList",
           "normalized": "DocOrderedList[Doc a]",
@@ -834,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocParagraph",
           "package": "haddock",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocParagraph",
           "package": "haddock",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocPic",
           "package": "haddock",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocPic",
           "package": "haddock",
@@ -878,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocProperty",
           "package": "haddock",
@@ -887,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocProperty",
           "package": "haddock",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocString",
           "package": "haddock",
@@ -909,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocString",
           "package": "haddock",
@@ -922,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocUnorderedList",
           "package": "haddock",
@@ -931,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocUnorderedList",
           "normalized": "DocUnorderedList[Doc a]",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "DocWarning",
           "package": "haddock",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "DocWarning",
           "package": "haddock",
@@ -968,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Documentation",
           "package": "haddock",
@@ -977,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Documentation",
           "package": "haddock",
@@ -991,6 +1079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis thing is part of the (existing or resulting)\n documentation. The \u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e is the preferred place\n in the documentation to refer to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Documented",
           "package": "haddock",
@@ -1001,6 +1090,7 @@
         "index": {
           "description": "This thing is part of the existing or resulting documentation The Module is the preferred place in the documentation to refer to",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Documented",
           "package": "haddock",
@@ -1014,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Example",
           "package": "haddock",
@@ -1023,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Example",
           "package": "haddock",
@@ -1037,6 +1129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exported declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ExportDecl",
           "package": "haddock",
@@ -1047,6 +1140,7 @@
         "index": {
           "description": "An exported declaration",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ExportDecl",
           "package": "haddock",
@@ -1061,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ExportDoc",
           "package": "haddock",
@@ -1071,6 +1166,7 @@
         "index": {
           "description": "Some documentation",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ExportDoc",
           "package": "haddock",
@@ -1085,6 +1181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA section heading. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ExportGroup",
           "package": "haddock",
@@ -1095,6 +1192,7 @@
         "index": {
           "description": "section heading",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ExportGroup",
           "package": "haddock",
@@ -1109,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cross-reference to another module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ExportModule",
           "package": "haddock",
@@ -1119,6 +1218,7 @@
         "index": {
           "description": "cross-reference to another module",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ExportModule",
           "package": "haddock",
@@ -1133,6 +1233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exported entity for which we have no documentation (perhaps because it\n resides in another package).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ExportNoDecl",
           "package": "haddock",
@@ -1143,6 +1244,7 @@
         "index": {
           "description": "An exported entity for which we have no documentation perhaps because it resides in another package",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ExportNoDecl",
           "package": "haddock",
@@ -1156,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_BuiltInThemes",
           "package": "haddock",
@@ -1165,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_BuiltInThemes",
           "package": "haddock",
@@ -1178,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_CSS",
           "package": "haddock",
@@ -1187,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_CSS",
           "package": "haddock",
@@ -1200,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_DumpInterface",
           "package": "haddock",
@@ -1209,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_DumpInterface",
           "package": "haddock",
@@ -1222,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_GenContents",
           "package": "haddock",
@@ -1231,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_GenContents",
           "package": "haddock",
@@ -1244,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_GenIndex",
           "package": "haddock",
@@ -1253,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_GenIndex",
           "package": "haddock",
@@ -1266,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_GhcLibDir",
           "package": "haddock",
@@ -1275,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_GhcLibDir",
           "package": "haddock",
@@ -1288,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_GhcVersion",
           "package": "haddock",
@@ -1297,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_GhcVersion",
           "package": "haddock",
@@ -1310,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_Heading",
           "package": "haddock",
@@ -1319,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_Heading",
           "package": "haddock",
@@ -1332,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_Help",
           "package": "haddock",
@@ -1341,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_Help",
           "package": "haddock",
@@ -1354,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_HideModule",
           "package": "haddock",
@@ -1363,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_HideModule",
           "package": "haddock",
@@ -1376,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_Hoogle",
           "package": "haddock",
@@ -1385,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_Hoogle",
           "package": "haddock",
@@ -1398,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_Html",
           "package": "haddock",
@@ -1407,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_Html",
           "package": "haddock",
@@ -1420,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_IgnoreAllExports",
           "package": "haddock",
@@ -1429,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_IgnoreAllExports",
           "package": "haddock",
@@ -1442,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_InterfaceVersion",
           "package": "haddock",
@@ -1451,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_InterfaceVersion",
           "package": "haddock",
@@ -1464,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_LaTeX",
           "package": "haddock",
@@ -1473,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_LaTeX",
           "package": "haddock",
@@ -1486,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_LaTeXStyle",
           "package": "haddock",
@@ -1495,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_LaTeXStyle",
           "package": "haddock",
@@ -1508,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_Lib",
           "package": "haddock",
@@ -1517,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_Lib",
           "package": "haddock",
@@ -1530,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_NoTmpCompDir",
           "package": "haddock",
@@ -1539,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_NoTmpCompDir",
           "package": "haddock",
@@ -1552,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_NoWarnings",
           "package": "haddock",
@@ -1561,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_NoWarnings",
           "package": "haddock",
@@ -1574,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_OptGhc",
           "package": "haddock",
@@ -1583,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_OptGhc",
           "package": "haddock",
@@ -1596,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_OutputDir",
           "package": "haddock",
@@ -1605,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_OutputDir",
           "package": "haddock",
@@ -1618,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_PrettyHtml",
           "package": "haddock",
@@ -1627,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_PrettyHtml",
           "package": "haddock",
@@ -1640,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_PrintGhcLibDir",
           "package": "haddock",
@@ -1649,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_PrintGhcLibDir",
           "package": "haddock",
@@ -1662,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_PrintGhcPath",
           "package": "haddock",
@@ -1671,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_PrintGhcPath",
           "package": "haddock",
@@ -1684,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_Prologue",
           "package": "haddock",
@@ -1693,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_Prologue",
           "package": "haddock",
@@ -1706,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_Qualification",
           "package": "haddock",
@@ -1715,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_Qualification",
           "package": "haddock",
@@ -1728,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_ReadInterface",
           "package": "haddock",
@@ -1737,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_ReadInterface",
           "package": "haddock",
@@ -1750,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_SourceBaseURL",
           "package": "haddock",
@@ -1759,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_SourceBaseURL",
           "package": "haddock",
@@ -1772,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_SourceEntityURL",
           "package": "haddock",
@@ -1781,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_SourceEntityURL",
           "package": "haddock",
@@ -1794,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_SourceModuleURL",
           "package": "haddock",
@@ -1803,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_SourceModuleURL",
           "package": "haddock",
@@ -1816,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_UseContents",
           "package": "haddock",
@@ -1825,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_UseContents",
           "package": "haddock",
@@ -1838,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_UseIndex",
           "package": "haddock",
@@ -1847,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_UseIndex",
           "package": "haddock",
@@ -1860,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_UseUnicode",
           "package": "haddock",
@@ -1869,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_UseUnicode",
           "package": "haddock",
@@ -1882,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_Verbosity",
           "package": "haddock",
@@ -1891,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_Verbosity",
           "package": "haddock",
@@ -1904,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_Version",
           "package": "haddock",
@@ -1913,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_Version",
           "package": "haddock",
@@ -1926,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_WikiBaseURL",
           "package": "haddock",
@@ -1935,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_WikiBaseURL",
           "package": "haddock",
@@ -1948,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_WikiEntityURL",
           "package": "haddock",
@@ -1957,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_WikiEntityURL",
           "package": "haddock",
@@ -1970,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Flag_WikiModuleURL",
           "package": "haddock",
@@ -1979,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Flag_WikiModuleURL",
           "package": "haddock",
@@ -1992,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "HaddockModInfo",
           "package": "haddock",
@@ -2001,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "HaddockModInfo",
           "package": "haddock",
@@ -2014,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Hyperlink",
           "package": "haddock",
@@ -2023,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Hyperlink",
           "package": "haddock",
@@ -2036,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "InstalledInterface",
           "package": "haddock",
@@ -2045,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "InstalledInterface",
           "package": "haddock",
@@ -2058,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Interface",
           "package": "haddock",
@@ -2067,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Interface",
           "package": "haddock",
@@ -2080,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "InterfaceFile",
           "package": "haddock",
@@ -2089,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "InterfaceFile",
           "package": "haddock",
@@ -2102,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Markup",
           "package": "haddock",
@@ -2111,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Markup",
           "package": "haddock",
@@ -2125,6 +2315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis module should not appear in the docs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "OptHide",
           "package": "haddock",
@@ -2135,6 +2326,7 @@
         "index": {
           "description": "This module should not appear in the docs",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "OptHide",
           "package": "haddock",
@@ -2149,6 +2341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretend everything is exported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "OptIgnoreExports",
           "package": "haddock",
@@ -2159,6 +2352,7 @@
         "index": {
           "description": "Pretend everything is exported",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "OptIgnoreExports",
           "package": "haddock",
@@ -2173,6 +2367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot the best place to get docs for things\n exported by this module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "OptNotHome",
           "package": "haddock",
@@ -2183,6 +2378,7 @@
         "index": {
           "description": "Not the best place to get docs for things exported by this module",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "OptNotHome",
           "package": "haddock",
@@ -2196,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "OptPrune",
           "package": "haddock",
@@ -2205,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "OptPrune",
           "package": "haddock",
@@ -2219,6 +2417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis thing is not part of the (existing or resulting)\n documentation, as far as Haddock knows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "Undocumented",
           "package": "haddock",
@@ -2229,6 +2428,7 @@
         "index": {
           "description": "This thing is not part of the existing or resulting documentation as far as Haddock knows",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "Undocumented",
           "package": "haddock",
@@ -2243,6 +2443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate \u003ccode\u003e\u003ca\u003eInterface\u003c/a\u003e\u003c/code\u003e structures from a given list of Haddock command-line\n flags and file or module names (as accepted by \u003ccode\u003e\u003ca\u003ehaddock\u003c/a\u003e\u003c/code\u003e executable).  Flags\n that control documentation generation or show help or version information\n are ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "createInterfaces",
           "package": "haddock",
@@ -2252,6 +2453,7 @@
         "index": {
           "description": "Create Interface structures from given list of Haddock command-line flags and file or module names as accepted by haddock executable Flags that control documentation generation or show help or version information are ignored",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "createInterfaces",
           "normalized": "[Flag]-\u003e[String]-\u003eIO[Interface]",
@@ -2267,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "documentationDoc",
           "package": "haddock",
@@ -2276,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "documentationDoc",
           "package": "haddock",
@@ -2289,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "documentationWarning",
           "package": "haddock",
@@ -2298,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "documentationWarning",
           "package": "haddock",
@@ -2311,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "exampleExpression",
           "package": "haddock",
@@ -2320,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "exampleExpression",
           "package": "haddock",
@@ -2333,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "exampleResult",
           "package": "haddock",
@@ -2342,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "exampleResult",
           "normalized": "[String]",
@@ -2358,6 +2568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "expItemDecl",
           "package": "haddock",
@@ -2368,6 +2579,7 @@
         "index": {
           "description": "declaration",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "expItemDecl",
           "package": "haddock",
@@ -2382,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances relevant to this declaration, possibly with\n documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "expItemInstances",
           "package": "haddock",
@@ -2392,6 +2605,7 @@
         "index": {
           "description": "Instances relevant to this declaration possibly with documentation",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "expItemInstances",
           "normalized": "[DocInstance a]",
@@ -2408,6 +2622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe a doc comment, and possibly docs for arguments (if this\n decl is a function or type-synonym).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "expItemMbDoc",
           "package": "haddock",
@@ -2418,6 +2633,7 @@
         "index": {
           "description": "Maybe doc comment and possibly docs for arguments if this decl is function or type-synonym",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "expItemMbDoc",
           "package": "haddock",
@@ -2431,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "expItemName",
           "package": "haddock",
@@ -2440,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "expItemName",
           "package": "haddock",
@@ -2454,6 +2672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSection id (for hyperlinks).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "expItemSectionId",
           "package": "haddock",
@@ -2464,6 +2683,7 @@
         "index": {
           "description": "Section id for hyperlinks",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "expItemSectionId",
           "package": "haddock",
@@ -2478,6 +2698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSection level (1, 2, 3, ...).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "expItemSectionLevel",
           "package": "haddock",
@@ -2488,6 +2709,7 @@
         "index": {
           "description": "Section level",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "expItemSectionLevel",
           "package": "haddock",
@@ -2502,6 +2724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSection heading text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "expItemSectionText",
           "package": "haddock",
@@ -2512,6 +2735,7 @@
         "index": {
           "description": "Section heading text",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "expItemSectionText",
           "package": "haddock",
@@ -2526,6 +2750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubordinate names, possibly with documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "expItemSubDocs",
           "package": "haddock",
@@ -2536,6 +2761,7 @@
         "index": {
           "description": "Subordinate names possibly with documentation",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "expItemSubDocs",
           "normalized": "[(a,DocForDecl a)]",
@@ -2552,6 +2778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubordinate names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "expItemSubs",
           "package": "haddock",
@@ -2562,6 +2789,7 @@
         "index": {
           "description": "Subordinate names",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "expItemSubs",
           "normalized": "[a]",
@@ -2577,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "freshNameCache",
           "package": "haddock",
@@ -2586,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "freshNameCache",
           "package": "haddock",
@@ -2600,6 +2830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun Haddock with given list of arguments.\n\u003c/p\u003e\u003cp\u003eHaddock's own main function is defined in terms of this:\n\u003c/p\u003e\u003cpre\u003e main = getArgs \u003e\u003e= haddock\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "haddock",
           "package": "haddock",
@@ -2610,6 +2841,7 @@
         "index": {
           "description": "Run Haddock with given list of arguments Haddock own main function is defined in terms of this main getArgs haddock",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "haddock",
           "normalized": "[String]-\u003eIO()",
@@ -2624,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "hmi_description",
           "package": "haddock",
@@ -2633,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "hmi_description",
           "package": "haddock",
@@ -2645,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "hmi_maintainer",
           "package": "haddock",
@@ -2654,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "hmi_maintainer",
           "package": "haddock",
@@ -2666,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "hmi_portability",
           "package": "haddock",
@@ -2675,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "hmi_portability",
           "package": "haddock",
@@ -2687,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "hmi_safety",
           "package": "haddock",
@@ -2696,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "hmi_safety",
           "package": "haddock",
@@ -2708,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "hmi_stability",
           "package": "haddock",
@@ -2717,6 +2958,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "hmi_stability",
           "package": "haddock",
@@ -2729,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "hyperlinkLabel",
           "package": "haddock",
@@ -2738,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "hyperlinkLabel",
           "package": "haddock",
@@ -2751,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "hyperlinkUrl",
           "package": "haddock",
@@ -2760,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "hyperlinkUrl",
           "package": "haddock",
@@ -2773,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifInstalledIfaces",
           "package": "haddock",
@@ -2782,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifInstalledIfaces",
           "normalized": "[InstalledInterface]",
@@ -2797,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifLinkEnv",
           "package": "haddock",
@@ -2806,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifLinkEnv",
           "package": "haddock",
@@ -2819,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceArgMap",
           "package": "haddock",
@@ -2828,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceArgMap",
           "package": "haddock",
@@ -2842,6 +3094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclarations originating from the module. Excludes declarations without\n names (instances and stand-alone documentation comments). Includes\n names of subordinate declarations mapped to their parent declarations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceDeclMap",
           "package": "haddock",
@@ -2852,6 +3105,7 @@
         "index": {
           "description": "Declarations originating from the module Excludes declarations without names instances and stand-alone documentation comments Includes names of subordinate declarations mapped to their parent declarations",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceDeclMap",
           "normalized": "(Map Name[LHsDecl Name])",
@@ -2868,6 +3122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocumentation header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceDoc",
           "package": "haddock",
@@ -2878,6 +3133,7 @@
         "index": {
           "description": "Documentation header",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceDoc",
           "package": "haddock",
@@ -2892,6 +3148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocumentation of declarations originating from the module (including\n subordinates).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceDocMap",
           "package": "haddock",
@@ -2902,6 +3159,7 @@
         "index": {
           "description": "Documentation of declarations originating from the module including subordinates",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceDocMap",
           "package": "haddock",
@@ -2915,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceExportItems",
           "package": "haddock",
@@ -2924,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceExportItems",
           "normalized": "[ExportItem Name]",
@@ -2940,6 +3200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll names exported by the module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceExports",
           "package": "haddock",
@@ -2950,6 +3211,7 @@
         "index": {
           "description": "All names exported by the module",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceExports",
           "normalized": "[Name]",
@@ -2966,6 +3228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of haddockable and haddocked items in the module, as a\n tuple. Haddockable items are the exports and the module itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceHaddockCoverage",
           "package": "haddock",
@@ -2976,6 +3239,7 @@
         "index": {
           "description": "The number of haddockable and haddocked items in the module as tuple Haddockable items are the exports and the module itself",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceHaddockCoverage",
           "normalized": "(Int,Int)",
@@ -2992,6 +3256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTextual information about the module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceInfo",
           "package": "haddock",
@@ -3002,6 +3267,7 @@
         "index": {
           "description": "Textual information about the module",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceInfo",
           "package": "haddock",
@@ -3016,6 +3282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances exported by the module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceInstances",
           "package": "haddock",
@@ -3026,6 +3293,7 @@
         "index": {
           "description": "Instances exported by the module",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceInstances",
           "normalized": "[ClsInst]",
@@ -3042,6 +3310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe module behind this interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceMod",
           "package": "haddock",
@@ -3052,6 +3321,7 @@
         "index": {
           "description": "The module behind this interface",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceMod",
           "package": "haddock",
@@ -3066,6 +3336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAliases of module imports as in \u003ccode\u003eimport A.B.C as C\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceModuleAliases",
           "package": "haddock",
@@ -3076,6 +3347,7 @@
         "index": {
           "description": "Aliases of module imports as in import A.B.C as",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceModuleAliases",
           "package": "haddock",
@@ -3090,6 +3362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaddock options for this module (prune, ignore-exports, etc).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceOptions",
           "package": "haddock",
@@ -3100,6 +3373,7 @@
         "index": {
           "description": "Haddock options for this module prune ignore-exports etc",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceOptions",
           "normalized": "[DocOption]",
@@ -3116,6 +3390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal file name of the module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceOrigFilename",
           "package": "haddock",
@@ -3126,6 +3401,7 @@
         "index": {
           "description": "Original file name of the module",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceOrigFilename",
           "package": "haddock",
@@ -3139,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceRnArgMap",
           "package": "haddock",
@@ -3148,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceRnArgMap",
           "package": "haddock",
@@ -3162,6 +3440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocumentation header with cross-reference information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceRnDoc",
           "package": "haddock",
@@ -3172,6 +3451,7 @@
         "index": {
           "description": "Documentation header with cross-reference information",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceRnDoc",
           "package": "haddock",
@@ -3186,6 +3466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocumentation of declarations originating from the module (including\n subordinates).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceRnDocMap",
           "package": "haddock",
@@ -3196,6 +3477,7 @@
         "index": {
           "description": "Documentation of declarations originating from the module including subordinates",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceRnDocMap",
           "package": "haddock",
@@ -3209,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceRnExportItems",
           "package": "haddock",
@@ -3218,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceRnExportItems",
           "normalized": "[ExportItem DocName]",
@@ -3233,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceSubMap",
           "package": "haddock",
@@ -3242,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceSubMap",
           "normalized": "(Map Name[Name])",
@@ -3258,6 +3544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \"visible\" names exported by the module.\n A visible name is a name that will show up in the documentation of the\n module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceVisibleExports",
           "package": "haddock",
@@ -3268,6 +3555,7 @@
         "index": {
           "description": "All visible names exported by the module visible name is name that will show up in the documentation of the module",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceVisibleExports",
           "normalized": "[Name]",
@@ -3284,6 +3572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarnings for things defined in this module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "ifaceWarningMap",
           "package": "haddock",
@@ -3294,6 +3583,7 @@
         "index": {
           "description": "Warnings for things defined in this module",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "ifaceWarningMap",
           "package": "haddock",
@@ -3307,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "instArgMap",
           "package": "haddock",
@@ -3316,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "instArgMap",
           "package": "haddock",
@@ -3330,6 +3622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocumentation of declarations originating from the module (including\n subordinates).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "instDocMap",
           "package": "haddock",
@@ -3340,6 +3633,7 @@
         "index": {
           "description": "Documentation of declarations originating from the module including subordinates",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "instDocMap",
           "package": "haddock",
@@ -3354,6 +3648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll names exported by this module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "instExports",
           "package": "haddock",
@@ -3364,6 +3659,7 @@
         "index": {
           "description": "All names exported by this module",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "instExports",
           "normalized": "[Name]",
@@ -3380,6 +3676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTextual information about the module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "instInfo",
           "package": "haddock",
@@ -3390,6 +3687,7 @@
         "index": {
           "description": "Textual information about the module",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "instInfo",
           "package": "haddock",
@@ -3404,6 +3702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe module represented by this interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "instMod",
           "package": "haddock",
@@ -3414,6 +3713,7 @@
         "index": {
           "description": "The module represented by this interface",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "instMod",
           "package": "haddock",
@@ -3428,6 +3728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaddock options for this module (prune, ignore-exports, etc).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "instOptions",
           "package": "haddock",
@@ -3438,6 +3739,7 @@
         "index": {
           "description": "Haddock options for this module prune ignore-exports etc",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "instOptions",
           "normalized": "[DocOption]",
@@ -3453,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "instSubMap",
           "package": "haddock",
@@ -3462,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "instSubMap",
           "normalized": "Map Name[Name]",
@@ -3478,6 +3782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \"visible\" names exported by the module.\n A visible name is a name that will show up in the documentation of the\n module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "instVisibleExports",
           "package": "haddock",
@@ -3488,6 +3793,7 @@
         "index": {
           "description": "All visible names exported by the module visible name is name that will show up in the documentation of the module",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "instVisibleExports",
           "normalized": "[Name]",
@@ -3503,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markup",
           "package": "haddock",
@@ -3512,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markup",
           "normalized": "DocMarkup a b-\u003eDoc a-\u003eb",
@@ -3526,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupAName",
           "package": "haddock",
@@ -3535,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupAName",
           "normalized": "String-\u003ea",
@@ -3550,6 +3860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupAppend",
           "package": "haddock",
@@ -3559,6 +3870,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupAppend",
           "normalized": "a-\u003ea-\u003ea",
@@ -3574,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupCodeBlock",
           "package": "haddock",
@@ -3583,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupCodeBlock",
           "normalized": "a-\u003ea",
@@ -3598,6 +3912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupDefList",
           "package": "haddock",
@@ -3607,6 +3922,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupDefList",
           "normalized": "[(a,a)]-\u003ea",
@@ -3622,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupEmphasis",
           "package": "haddock",
@@ -3631,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupEmphasis",
           "normalized": "a-\u003ea",
@@ -3646,6 +3964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupEmpty",
           "package": "haddock",
@@ -3655,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupEmpty",
           "package": "haddock",
@@ -3668,6 +3988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupExample",
           "package": "haddock",
@@ -3677,6 +3998,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupExample",
           "normalized": "[Example]-\u003ea",
@@ -3692,6 +4014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupHyperlink",
           "package": "haddock",
@@ -3701,6 +4024,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupHyperlink",
           "normalized": "Hyperlink-\u003ea",
@@ -3716,6 +4040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupIdentifier",
           "package": "haddock",
@@ -3725,6 +4050,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupIdentifier",
           "normalized": "a-\u003eb",
@@ -3740,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupIdentifierUnchecked",
           "package": "haddock",
@@ -3749,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupIdentifierUnchecked",
           "normalized": "(ModuleName,OccName)-\u003ea",
@@ -3764,6 +4092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupModule",
           "package": "haddock",
@@ -3773,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupModule",
           "normalized": "String-\u003ea",
@@ -3788,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupMonospaced",
           "package": "haddock",
@@ -3797,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupMonospaced",
           "normalized": "a-\u003ea",
@@ -3812,6 +4144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupOrderedList",
           "package": "haddock",
@@ -3821,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupOrderedList",
           "normalized": "[a]-\u003ea",
@@ -3836,6 +4170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupParagraph",
           "package": "haddock",
@@ -3845,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupParagraph",
           "normalized": "a-\u003ea",
@@ -3860,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupPic",
           "package": "haddock",
@@ -3869,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupPic",
           "normalized": "String-\u003ea",
@@ -3884,6 +4222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupProperty",
           "package": "haddock",
@@ -3893,6 +4232,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupProperty",
           "normalized": "String-\u003ea",
@@ -3908,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupString",
           "package": "haddock",
@@ -3917,6 +4258,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupString",
           "normalized": "String-\u003ea",
@@ -3932,6 +4274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupUnorderedList",
           "package": "haddock",
@@ -3941,6 +4284,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupUnorderedList",
           "normalized": "[a]-\u003ea",
@@ -3956,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "markupWarning",
           "package": "haddock",
@@ -3965,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "markupWarning",
           "normalized": "a-\u003ea",
@@ -3980,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "nameCacheFromGhc",
           "package": "haddock",
@@ -3989,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "nameCacheFromGhc",
           "package": "haddock",
@@ -4003,6 +4351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate \u003ccode\u003e\u003ca\u003eInterface\u003c/a\u003e\u003c/code\u003es and a link environment by typechecking the list of\n modules using the GHC API and processing the resulting syntax trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "processModules",
           "package": "haddock",
@@ -4012,6 +4361,7 @@
         "index": {
           "description": "Create Interface and link environment by typechecking the list of modules using the GHC API and processing the resulting syntax trees",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "processModules",
           "normalized": "Verbosity-\u003e[String]-\u003e[Flag]-\u003e[InterfaceFile]-\u003eGhc([Interface],LinkEnv)",
@@ -4028,6 +4378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a Haddock (\u003ccode\u003e.haddock\u003c/code\u003e) interface file. Return either an \n \u003ccode\u003e\u003ca\u003eInterfaceFile\u003c/a\u003e\u003c/code\u003e or an error message.\n\u003c/p\u003e\u003cp\u003eThis function can be called in two ways.  Within a GHC session it will\n update the use and update the session's name cache.  Outside a GHC session\n a new empty name cache is used.  The function is therefore generic in the\n monad being used.  The exact monad is whichever monad the first\n argument, the getter and setter of the name cache, requires.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:38 UTC 2014",
           "module": "Documentation.Haddock",
           "name": "readInterfaceFile",
           "package": "haddock",
@@ -4038,6 +4389,7 @@
         "index": {
           "description": "Read Haddock haddock interface file Return either an InterfaceFile or an error message This function can be called in two ways Within GHC session it will update the use and update the session name cache Outside GHC session new empty name cache is used The function is therefore generic in the monad being used The exact monad is whichever monad the first argument the getter and setter of the name cache requires",
           "hierarchy": "Documentation Haddock",
+          "indexed": "2014-03-11T18:26:38",
           "module": "Documentation.Haddock",
           "name": "readInterfaceFile",
           "normalized": "NameCacheAccessor a-\u003eFilePath-\u003ea(Either String InterfaceFile)",

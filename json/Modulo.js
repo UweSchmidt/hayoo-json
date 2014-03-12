@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Modulo"
+        "phrase": "Modulo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:00 UTC 2014",
           "module": "Number.Modulo",
           "name": "Modulo",
           "package": "Modulo",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Number Modulo",
+          "indexed": "2014-03-11T16:53:00",
           "module": "Number.Modulo",
           "name": "Modulo",
           "package": "Modulo",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:00 UTC 2014",
           "module": "Number.Modulo",
           "name": "Mod",
           "package": "Modulo",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Number Modulo",
+          "indexed": "2014-03-11T16:53:00",
           "module": "Number.Modulo",
           "name": "Mod",
           "package": "Modulo",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:00 UTC 2014",
           "module": "Number.Modulo",
           "name": "(===)",
           "package": "Modulo",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Number Modulo",
+          "indexed": "2014-03-11T16:53:00",
           "module": "Number.Modulo",
           "name": "(===) ===",
           "normalized": "a-\u003ea-\u003e(a-\u003eb)-\u003eBool",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:00 UTC 2014",
           "module": "Number.Modulo",
           "name": "Mod",
           "package": "Modulo",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Number Modulo",
+          "indexed": "2014-03-11T16:53:00",
           "module": "Number.Modulo",
           "name": "Mod",
           "normalized": "Mod(a-\u003ea)",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:00 UTC 2014",
           "module": "Number.Modulo",
           "name": "ex1",
           "package": "Modulo",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Number Modulo",
+          "indexed": "2014-03-11T16:53:00",
           "module": "Number.Modulo",
           "name": "ex1",
           "package": "Modulo",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:00 UTC 2014",
           "module": "Number.Modulo",
           "name": "ex2",
           "package": "Modulo",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Number Modulo",
+          "indexed": "2014-03-11T16:53:00",
           "module": "Number.Modulo",
           "name": "ex2",
           "package": "Modulo",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate x modulo n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:00 UTC 2014",
           "module": "Number.Modulo",
           "name": "modulo",
           "package": "Modulo",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Calculate modulo",
           "hierarchy": "Number Modulo",
+          "indexed": "2014-03-11T16:53:00",
           "module": "Number.Modulo",
           "name": "modulo",
           "normalized": "Mod a-\u003ea-\u003ea",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamples\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:00 UTC 2014",
           "module": "Number.Modulo",
           "name": "n",
           "package": "Modulo",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Examples",
           "hierarchy": "Number Modulo",
+          "indexed": "2014-03-11T16:53:00",
           "module": "Number.Modulo",
           "name": "n",
           "package": "Modulo",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:00 UTC 2014",
           "module": "Number.Modulo",
           "name": "pow",
           "package": "Modulo",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Number Modulo",
+          "indexed": "2014-03-11T16:53:00",
           "module": "Number.Modulo",
           "name": "pow",
           "normalized": "(a-\u003eb-\u003eb)-\u003e(a-\u003ea)-\u003ea-\u003eb-\u003eb",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:00 UTC 2014",
           "module": "Number.Modulo",
           "name": "sq",
           "package": "Modulo",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Number Modulo",
+          "indexed": "2014-03-11T16:53:00",
           "module": "Number.Modulo",
           "name": "sq",
           "normalized": "a-\u003ea-\u003ea",

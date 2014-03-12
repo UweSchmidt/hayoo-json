@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "toktok"
+        "phrase": "toktok",
+        "type": "phrase"
       },
       "type": "context"
     }

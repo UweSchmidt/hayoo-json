@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "infix"
+        "phrase": "infix",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:46 UTC 2014",
           "module": "Language.Haskell.Infix",
           "name": "Infix",
           "package": "infix",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Infix",
+          "indexed": "2014-03-11T18:57:46",
           "module": "Language.Haskell.Infix",
           "name": "Infix",
           "package": "infix",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:46 UTC 2014",
           "module": "Language.Haskell.Infix",
           "name": "Fixity",
           "package": "infix",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Infix",
+          "indexed": "2014-03-11T18:57:46",
           "module": "Language.Haskell.Infix",
           "name": "Fixity",
           "package": "infix",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:46 UTC 2014",
           "module": "Language.Haskell.Infix",
           "name": "InfixMap",
           "package": "infix",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Infix",
+          "indexed": "2014-03-11T18:57:46",
           "module": "Language.Haskell.Infix",
           "name": "InfixMap",
           "package": "infix",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:46 UTC 2014",
           "module": "Language.Haskell.Infix",
           "name": "Fixity",
           "package": "infix",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Infix",
+          "indexed": "2014-03-11T18:57:46",
           "module": "Language.Haskell.Infix",
           "name": "Fixity",
           "package": "infix",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:46 UTC 2014",
           "module": "Language.Haskell.Infix",
           "name": "emptyInfixMap",
           "package": "infix",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Infix",
+          "indexed": "2014-03-11T18:57:46",
           "module": "Language.Haskell.Infix",
           "name": "emptyInfixMap",
           "package": "infix",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:46 UTC 2014",
           "module": "Language.Haskell.Infix",
           "name": "fixity_assoc",
           "package": "infix",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Infix",
+          "indexed": "2014-03-11T18:57:46",
           "module": "Language.Haskell.Infix",
           "name": "fixity_assoc",
           "package": "infix",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:46 UTC 2014",
           "module": "Language.Haskell.Infix",
           "name": "fixity_prec",
           "package": "infix",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Infix",
+          "indexed": "2014-03-11T18:57:46",
           "module": "Language.Haskell.Infix",
           "name": "fixity_prec",
           "package": "infix",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:46 UTC 2014",
           "module": "Language.Haskell.Infix",
           "name": "infixMapToList",
           "package": "infix",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Infix",
+          "indexed": "2014-03-11T18:57:46",
           "module": "Language.Haskell.Infix",
           "name": "infixMapToList",
           "normalized": "InfixMap-\u003e[(HsQName,Fixity)]",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:46 UTC 2014",
           "module": "Language.Haskell.Infix",
           "name": "infixer",
           "package": "infix",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Infix",
+          "indexed": "2014-03-11T18:57:46",
           "module": "Language.Haskell.Infix",
           "name": "infixer",
           "normalized": "InfixMap-\u003e[HsDecl]-\u003e[HsDecl]",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:46 UTC 2014",
           "module": "Language.Haskell.Infix",
           "name": "insertTopInfixDecls",
           "package": "infix",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Infix",
+          "indexed": "2014-03-11T18:57:46",
           "module": "Language.Haskell.Infix",
           "name": "insertTopInfixDecls",
           "normalized": "Module-\u003eInfixMap-\u003e[HsDecl]-\u003eInfixMap",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:46 UTC 2014",
           "module": "Language.Haskell.Infix",
           "name": "plusInfixMap",
           "package": "infix",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Infix",
+          "indexed": "2014-03-11T18:57:46",
           "module": "Language.Haskell.Infix",
           "name": "plusInfixMap",
           "normalized": "InfixMap-\u003eInfixMap-\u003eInfixMap",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:46 UTC 2014",
           "module": "Language.Haskell.Infix",
           "name": "showInfixMap",
           "package": "infix",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Infix",
+          "indexed": "2014-03-11T18:57:46",
           "module": "Language.Haskell.Infix",
           "name": "showInfixMap",
           "normalized": "InfixMap-\u003eString",

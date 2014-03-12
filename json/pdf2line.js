@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pdf2line"
+        "phrase": "pdf2line",
+        "type": "phrase"
       },
       "type": "context"
     }

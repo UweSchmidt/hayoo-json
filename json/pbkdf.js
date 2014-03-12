@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pbkdf"
+        "phrase": "pbkdf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.ByteString",
           "name": "ByteString",
           "package": "pbkdf",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF ByteString",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.ByteString",
           "name": "ByteString",
           "package": "pbkdf",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.ByteString",
           "name": "sha1PBKDF1",
           "package": "pbkdf",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF ByteString",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.ByteString",
           "name": "sha1PBKDF1",
           "normalized": "ByteString-\u003eByteString-\u003eInt-\u003eByteString",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.ByteString",
           "name": "sha1PBKDF2",
           "package": "pbkdf",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF ByteString",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.ByteString",
           "name": "sha1PBKDF2",
           "normalized": "ByteString-\u003eByteString-\u003eInt-\u003eInt-\u003eByteString",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.ByteString",
           "name": "sha256PBKDF1",
           "package": "pbkdf",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF ByteString",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.ByteString",
           "name": "sha256PBKDF1",
           "normalized": "ByteString-\u003eByteString-\u003eInt-\u003eByteString",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.ByteString",
           "name": "sha256PBKDF2",
           "package": "pbkdf",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF ByteString",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.ByteString",
           "name": "sha256PBKDF2",
           "normalized": "ByteString-\u003eByteString-\u003eInt-\u003eInt-\u003eByteString",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.ByteString",
           "name": "sha512PBKDF1",
           "package": "pbkdf",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF ByteString",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.ByteString",
           "name": "sha512PBKDF1",
           "normalized": "ByteString-\u003eByteString-\u003eInt-\u003eByteString",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.ByteString",
           "name": "sha512PBKDF2",
           "package": "pbkdf",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF ByteString",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.ByteString",
           "name": "sha512PBKDF2",
           "normalized": "ByteString-\u003eByteString-\u003eInt-\u003eInt-\u003eByteString",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "Core",
           "package": "pbkdf",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "Core",
           "package": "pbkdf",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe parameter block for the key generators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "PBKDF",
           "package": "pbkdf",
@@ -208,6 +225,7 @@
         "index": {
           "description": "the parameter block for the key generators",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "PBKDF",
           "package": "pbkdf",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtains the HMAC function and its underlying HASH function, along with\n the size of the hashes it generates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "PRF",
           "package": "pbkdf",
@@ -231,6 +250,7 @@
         "index": {
           "description": "contains the HMAC function and its underlying HASH function along with the size of the hashes it generates",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "PRF",
           "package": "pbkdf",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "PBKDF",
           "package": "pbkdf",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "PBKDF",
           "package": "pbkdf",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "PRF",
           "package": "pbkdf",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "PRF",
           "package": "pbkdf",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct a PBKDF parameter block for the key generators (String edition)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf",
           "package": "pbkdf",
@@ -299,6 +324,7 @@
         "index": {
           "description": "construct PBKDF parameter block for the key generators String edition",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf",
           "normalized": "PRF-\u003eString-\u003eString-\u003eInt-\u003eInt-\u003ePBKDF",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe pbkdf1 key derivation function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf1",
           "package": "pbkdf",
@@ -324,6 +351,7 @@
         "index": {
           "description": "the pbkdf1 key derivation function",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf1",
           "normalized": "PBKDF-\u003eByteString",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe pbkdf2 key derivation function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf2",
           "package": "pbkdf",
@@ -349,6 +378,7 @@
         "index": {
           "description": "the pbkdf2 key derivation function",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf2",
           "normalized": "PBKDF-\u003eByteString",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe password (will be UTF-8 encoded)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf_P",
           "package": "pbkdf",
@@ -374,6 +405,7 @@
         "index": {
           "description": "the password will be UTF-8 encoded",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf_P",
           "package": "pbkdf",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe psuedo-random (i.e., HMAC) function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf_PRF",
           "package": "pbkdf",
@@ -397,6 +430,7 @@
         "index": {
           "description": "the psuedo-random i.e HMAC function",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf_PRF",
           "package": "pbkdf",
@@ -411,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe salt     (will be UTF-8 encoded)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf_S",
           "package": "pbkdf",
@@ -421,6 +456,7 @@
         "index": {
           "description": "the salt will be UTF-8 encoded",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf_S",
           "package": "pbkdf",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eiteration count for applying the HMAC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf_c",
           "package": "pbkdf",
@@ -444,6 +481,7 @@
         "index": {
           "description": "iteration count for applying the HMAC",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf_c",
           "package": "pbkdf",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe length of the o/p derived key \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf_dkLen",
           "package": "pbkdf",
@@ -467,6 +506,7 @@
         "index": {
           "description": "the length of the derived key",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "pbkdf_dkLen",
           "package": "pbkdf",
@@ -481,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of octets in o/p hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "prf_hLen",
           "package": "pbkdf",
@@ -491,6 +532,7 @@
         "index": {
           "description": "number of octets in hash",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "prf_hLen",
           "package": "pbkdf",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe underlying hash function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "prf_hash",
           "package": "pbkdf",
@@ -515,6 +558,7 @@
         "index": {
           "description": "the underlying hash function",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "prf_hash",
           "normalized": "ByteString-\u003eByteString",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe PR/HMAC function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "prf_hmac",
           "package": "pbkdf",
@@ -540,6 +585,7 @@
         "index": {
           "description": "the PR HMAC function",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "prf_hmac",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",
@@ -555,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a SHA-1 parameter blocks (String edition)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "sha1PBKDF",
           "package": "pbkdf",
@@ -565,6 +612,7 @@
         "index": {
           "description": "make SHA-1 parameter blocks String edition",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "sha1PBKDF",
           "normalized": "String-\u003eString-\u003eInt-\u003eInt-\u003ePBKDF",
@@ -581,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a SHA-1 parameter blocks (ByteString edition)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "sha1PBKDF'",
           "package": "pbkdf",
@@ -591,6 +640,7 @@
         "index": {
           "description": "make SHA-1 parameter blocks ByteString edition",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "sha1PBKDF'",
           "normalized": "ByteString-\u003eByteString-\u003eInt-\u003eInt-\u003ePBKDF",
@@ -607,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a SHA-256 parameter blocks (String edition)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "sha256PBKDF",
           "package": "pbkdf",
@@ -617,6 +668,7 @@
         "index": {
           "description": "make SHA-256 parameter blocks String edition",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "sha256PBKDF",
           "normalized": "String-\u003eString-\u003eInt-\u003eInt-\u003ePBKDF",
@@ -633,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a SHA-256 parameter blocks (ByteString edition)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "sha256PBKDF'",
           "package": "pbkdf",
@@ -643,6 +696,7 @@
         "index": {
           "description": "make SHA-256 parameter blocks ByteString edition",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "sha256PBKDF'",
           "normalized": "ByteString-\u003eByteString-\u003eInt-\u003eInt-\u003ePBKDF",
@@ -659,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a SHA-512 parameter blocks (String edition)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "sha512PBKDF",
           "package": "pbkdf",
@@ -669,6 +724,7 @@
         "index": {
           "description": "make SHA-512 parameter blocks String edition",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "sha512PBKDF",
           "normalized": "String-\u003eString-\u003eInt-\u003eInt-\u003ePBKDF",
@@ -685,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a SHA-512 parameter blocks (ByteString edition)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF.Core",
           "name": "sha512PBKDF'",
           "package": "pbkdf",
@@ -695,6 +752,7 @@
         "index": {
           "description": "make SHA-512 parameter blocks ByteString edition",
           "hierarchy": "Crypto PBKDF Core",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF.Core",
           "name": "sha512PBKDF'",
           "normalized": "ByteString-\u003eByteString-\u003eInt-\u003eInt-\u003ePBKDF",
@@ -710,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF",
           "name": "PBKDF",
           "package": "pbkdf",
@@ -718,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF",
           "name": "PBKDF",
           "package": "pbkdf",
@@ -731,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF",
           "name": "sha1PBKDF1",
           "package": "pbkdf",
@@ -739,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF",
           "name": "sha1PBKDF1",
           "normalized": "String-\u003eString-\u003eInt-\u003eString",
@@ -754,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF",
           "name": "sha1PBKDF2",
           "package": "pbkdf",
@@ -762,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF",
           "name": "sha1PBKDF2",
           "normalized": "String-\u003eString-\u003eInt-\u003eInt-\u003eString",
@@ -777,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF",
           "name": "sha256PBKDF1",
           "package": "pbkdf",
@@ -785,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF",
           "name": "sha256PBKDF1",
           "normalized": "String-\u003eString-\u003eInt-\u003eString",
@@ -800,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF",
           "name": "sha256PBKDF2",
           "package": "pbkdf",
@@ -808,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF",
           "name": "sha256PBKDF2",
           "normalized": "String-\u003eString-\u003eInt-\u003eInt-\u003eString",
@@ -823,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF",
           "name": "sha512PBKDF1",
           "package": "pbkdf",
@@ -831,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF",
           "name": "sha512PBKDF1",
           "normalized": "String-\u003eString-\u003eInt-\u003eString",
@@ -846,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:08 UTC 2014",
           "module": "Crypto.PBKDF",
           "name": "sha512PBKDF2",
           "package": "pbkdf",
@@ -854,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Crypto PBKDF",
+          "indexed": "2014-03-11T19:36:08",
           "module": "Crypto.PBKDF",
           "name": "sha512PBKDF2",
           "normalized": "String-\u003eString-\u003eInt-\u003eInt-\u003eString",

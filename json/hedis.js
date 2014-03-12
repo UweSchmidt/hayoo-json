@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hedis"
+        "phrase": "hedis",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Redis",
           "package": "hedis",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Redis",
           "package": "hedis",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Aggregate",
           "package": "hedis",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Aggregate",
           "package": "hedis",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation for connnecting to a Redis server.\n\u003c/p\u003e\u003cp\u003eIt is recommended to not use the \u003ccode\u003e\u003ca\u003eConnInfo\u003c/a\u003e\u003c/code\u003e data constructor directly.\n Instead use \u003ccode\u003e\u003ca\u003edefaultConnectInfo\u003c/a\u003e\u003c/code\u003e and update it with record syntax. For\n example to connect to a password protected Redis server running on localhost\n and listening to the default port:\n\u003c/p\u003e\u003cpre\u003e\n myConnectInfo :: ConnectInfo\n myConnectInfo = defaultConnectInfo {connectAuth = Just \"secret\"}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "ConnectInfo",
           "package": "hedis",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Information for connnecting to Redis server It is recommended to not use the ConnInfo data constructor directly Instead use defaultConnectInfo and update it with record syntax For example to connect to password protected Redis server running on localhost and listening to the default port myConnectInfo ConnectInfo myConnectInfo defaultConnectInfo connectAuth Just secret",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "ConnectInfo",
           "package": "hedis",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA threadsafe pool of network connections to a Redis server. Use the\n  \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e function to create one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Connection",
           "package": "hedis",
@@ -93,6 +100,7 @@
         "index": {
           "description": "threadsafe pool of network connections to Redis server Use the connect function to create one",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Connection",
           "package": "hedis",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "ConnectionLostException",
           "package": "hedis",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "ConnectionLostException",
           "package": "hedis",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither a host name e.g., \u003ccode\u003e\"haskell.org\"\u003c/code\u003e or a numeric host\n address string consisting of a dotted decimal IPv4 address or an\n IPv6 address e.g., \u003ccode\u003e\"192.168.0.1\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "HostName",
           "package": "hedis",
@@ -136,6 +147,7 @@
         "index": {
           "description": "Either host name e.g haskell.org or numeric host address string consisting of dotted decimal IPv4 address or an IPv6 address e.g",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "HostName",
           "package": "hedis",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Message",
           "package": "hedis",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Message",
           "package": "hedis",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "MonadRedis",
           "package": "hedis",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "MonadRedis",
           "package": "hedis",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "PortID",
           "package": "hedis",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "PortID",
           "package": "hedis",
@@ -212,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulates subscription changes. Use \u003ccode\u003e\u003ca\u003esubscribe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunsubscribe\u003c/a\u003e\u003c/code\u003e,\n  \u003ccode\u003e\u003ca\u003epsubscribe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epunsubscribe\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e to construct a value. Combine\n  values by using the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e interface, i.e. \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "PubSub",
           "package": "hedis",
@@ -221,6 +240,7 @@
         "index": {
           "description": "Encapsulates subscription changes Use subscribe unsubscribe psubscribe punsubscribe or mempty to construct value Combine values by using the Monoid interface i.e mappend and mconcat",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "PubSub",
           "package": "hedis",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eQueued\u003c/a\u003e\u003c/code\u003e value represents the result of a command inside a transaction. It\n  is a proxy object for the \u003cem\u003eactual\u003c/em\u003e result, which will only be available\n  after returning from a \u003ccode\u003e\u003ca\u003emultiExec\u003c/a\u003e\u003c/code\u003e transaction.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eQueued\u003c/a\u003e\u003c/code\u003e values are composable by utilizing the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e or\n  \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e interfaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Queued",
           "package": "hedis",
@@ -244,6 +265,7 @@
         "index": {
           "description": "Queued value represents the result of command inside transaction It is proxy object for the actual result which will only be available after returning from multiExec transaction Queued values are composable by utilizing the Functor Applicative or Monad interfaces",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Queued",
           "package": "hedis",
@@ -258,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext for normal command execution, outside of transactions. Use\n  \u003ccode\u003e\u003ca\u003erunRedis\u003c/a\u003e\u003c/code\u003e to run actions of this type.\n\u003c/p\u003e\u003cp\u003eIn this context, each result is wrapped in an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e to account for the\n  possibility of Redis returning an \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e reply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Redis",
           "package": "hedis",
@@ -267,6 +290,7 @@
         "index": {
           "description": "Context for normal command execution outside of transactions Use runRedis to run actions of this type In this context each result is wrapped in an Either to account for the possibility of Redis returning an Error reply",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Redis",
           "package": "hedis",
@@ -281,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class captures the following behaviour: In a context \u003ccode\u003em\u003c/code\u003e, a command\n  will return it's result wrapped in a \"container\" of type \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003ePlease refer to the Command Type Signatures section of this page for more\n  information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "RedisCtx",
           "package": "hedis",
@@ -290,6 +315,7 @@
         "index": {
           "description": "This class captures the following behaviour In context command will return it result wrapped in container of type Please refer to the Command Type Signatures section of this page for more information",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "RedisCtx",
           "package": "hedis",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "RedisResult",
           "package": "hedis",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "RedisResult",
           "package": "hedis",
@@ -325,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand-context inside of MULTI/EXEC transactions. Use \u003ccode\u003e\u003ca\u003emultiExec\u003c/a\u003e\u003c/code\u003e to run\n  actions of this type.\n\u003c/p\u003e\u003cp\u003eIn the \u003ccode\u003e\u003ca\u003eRedisTx\u003c/a\u003e\u003c/code\u003e context, all commands return a \u003ccode\u003e\u003ca\u003eQueued\u003c/a\u003e\u003c/code\u003e value. It is a\n  proxy object for the \u003cem\u003eactual\u003c/em\u003e result, which will only be available after\n  finishing the transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "RedisTx",
           "package": "hedis",
@@ -334,6 +363,7 @@
         "index": {
           "description": "Command-context inside of MULTI EXEC transactions Use multiExec to run actions of this type In the RedisTx context all commands return Queued value It is proxy object for the actual result which will only be available after finishing the transaction",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "RedisTx",
           "package": "hedis",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "RedisType",
           "package": "hedis",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "RedisType",
           "package": "hedis",
@@ -369,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level representation of replies from the Redis server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Reply",
           "package": "hedis",
@@ -378,6 +411,7 @@
         "index": {
           "description": "Low-level representation of replies from the Redis server",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Reply",
           "package": "hedis",
@@ -392,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single entry from the slowlog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Slowlog",
           "package": "hedis",
@@ -401,6 +436,7 @@
         "index": {
           "description": "single entry from the slowlog",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Slowlog",
           "package": "hedis",
@@ -415,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for the \u003ccode\u003e\u003ca\u003esort\u003c/a\u003e\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "SortOpts",
           "package": "hedis",
@@ -424,6 +461,7 @@
         "index": {
           "description": "Options for the sort command",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "SortOpts",
           "package": "hedis",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "SortOrder",
           "package": "hedis",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "SortOrder",
           "package": "hedis",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Status",
           "package": "hedis",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Status",
           "package": "hedis",
@@ -480,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of a \u003ccode\u003e\u003ca\u003emultiExec\u003c/a\u003e\u003c/code\u003e transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "TxResult",
           "package": "hedis",
@@ -489,6 +532,7 @@
         "index": {
           "description": "Result of multiExec transaction",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "TxResult",
           "package": "hedis",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Asc",
           "package": "hedis",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Asc",
           "package": "hedis",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Bulk",
           "package": "hedis",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Bulk",
           "package": "hedis",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "ConnInfo",
           "package": "hedis",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "ConnInfo",
           "package": "hedis",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "ConnectionLost",
           "package": "hedis",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "ConnectionLost",
           "package": "hedis",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Desc",
           "package": "hedis",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Desc",
           "package": "hedis",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Error",
           "package": "hedis",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Error",
           "package": "hedis",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Hash",
           "package": "hedis",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Hash",
           "package": "hedis",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Integer",
           "package": "hedis",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Integer",
           "package": "hedis",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "List",
           "package": "hedis",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "List",
           "package": "hedis",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Max",
           "package": "hedis",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Max",
           "package": "hedis",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Message",
           "package": "hedis",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Message",
           "package": "hedis",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Min",
           "package": "hedis",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Min",
           "package": "hedis",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "MultiBulk",
           "package": "hedis",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "MultiBulk",
           "normalized": "MultiBulk(Maybe[Reply])",
@@ -790,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "None",
           "package": "hedis",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "None",
           "package": "hedis",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Ok",
           "package": "hedis",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Ok",
           "package": "hedis",
@@ -834,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "PMessage",
           "package": "hedis",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "PMessage",
           "package": "hedis",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Pong",
           "package": "hedis",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Pong",
           "package": "hedis",
@@ -878,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "PortNumber",
           "package": "hedis",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "PortNumber",
           "package": "hedis",
@@ -899,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Service",
           "package": "hedis",
@@ -907,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Service",
           "package": "hedis",
@@ -920,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Set",
           "package": "hedis",
@@ -929,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Set",
           "package": "hedis",
@@ -942,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "SingleLine",
           "package": "hedis",
@@ -951,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "SingleLine",
           "package": "hedis",
@@ -964,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Slowlog",
           "package": "hedis",
@@ -973,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Slowlog",
           "package": "hedis",
@@ -986,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "SortOpts",
           "package": "hedis",
@@ -995,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "SortOpts",
           "package": "hedis",
@@ -1008,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Status",
           "package": "hedis",
@@ -1017,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Status",
           "package": "hedis",
@@ -1030,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "String",
           "package": "hedis",
@@ -1039,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "String",
           "package": "hedis",
@@ -1052,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "Sum",
           "package": "hedis",
@@ -1061,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "Sum",
           "package": "hedis",
@@ -1075,6 +1171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransaction aborted due to an earlier \u003ccode\u003e\u003ca\u003ewatch\u003c/a\u003e\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "TxAborted",
           "package": "hedis",
@@ -1085,6 +1182,7 @@
         "index": {
           "description": "Transaction aborted due to an earlier watch command",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "TxAborted",
           "package": "hedis",
@@ -1099,6 +1197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt least one of the commands returned an \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e reply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "TxError",
           "package": "hedis",
@@ -1109,6 +1208,7 @@
         "index": {
           "description": "At least one of the commands returned an Error reply",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "TxError",
           "package": "hedis",
@@ -1123,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransaction completed successfully. The wrapped value corresponds to\n   the \u003ccode\u003e\u003ca\u003eQueued\u003c/a\u003e\u003c/code\u003e value returned from the \u003ccode\u003e\u003ca\u003emultiExec\u003c/a\u003e\u003c/code\u003e argument action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "TxSuccess",
           "package": "hedis",
@@ -1133,6 +1234,7 @@
         "index": {
           "description": "Transaction completed successfully The wrapped value corresponds to the Queued value returned from the multiExec argument action",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "TxSuccess",
           "package": "hedis",
@@ -1146,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "UnixSocket",
           "package": "hedis",
@@ -1154,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "UnixSocket",
           "package": "hedis",
@@ -1167,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "ZSet",
           "package": "hedis",
@@ -1176,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "ZSet",
           "package": "hedis",
@@ -1189,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "append",
           "package": "hedis",
@@ -1197,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "append",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Integer)",
@@ -1211,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "auth",
           "package": "hedis",
@@ -1219,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "auth",
           "normalized": "ByteString-\u003eRedis(Either Reply Status)",
@@ -1233,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "bgrewriteaof",
           "package": "hedis",
@@ -1242,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "bgrewriteaof",
           "package": "hedis",
@@ -1254,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "bgsave",
           "package": "hedis",
@@ -1263,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "bgsave",
           "package": "hedis",
@@ -1275,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "bitcount",
           "package": "hedis",
@@ -1283,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "bitcount",
           "normalized": "ByteString-\u003ea(b Integer)",
@@ -1297,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "bitcountRange",
           "package": "hedis",
@@ -1305,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "bitcountRange",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea(b Integer)",
@@ -1320,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "bitopAnd",
           "package": "hedis",
@@ -1328,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "bitopAnd",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b Integer)",
@@ -1343,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "bitopNot",
           "package": "hedis",
@@ -1351,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "bitopNot",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Integer)",
@@ -1366,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "bitopOr",
           "package": "hedis",
@@ -1374,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "bitopOr",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b Integer)",
@@ -1389,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "bitopXor",
           "package": "hedis",
@@ -1397,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "bitopXor",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b Integer)",
@@ -1412,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "blpop",
           "package": "hedis",
@@ -1420,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "blpop",
           "normalized": "[ByteString]-\u003eInteger-\u003ea(b(Maybe(ByteString,ByteString)))",
@@ -1434,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "brpop",
           "package": "hedis",
@@ -1442,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "brpop",
           "normalized": "[ByteString]-\u003eInteger-\u003ea(b(Maybe(ByteString,ByteString)))",
@@ -1456,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "brpoplpush",
           "package": "hedis",
@@ -1464,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "brpoplpush",
           "normalized": "ByteString-\u003eByteString-\u003eInteger-\u003ea(b(Maybe ByteString))",
@@ -1478,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "configGet",
           "package": "hedis",
@@ -1486,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "configGet",
           "normalized": "ByteString-\u003ea(b[(ByteString,ByteString)])",
@@ -1501,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "configResetstat",
           "package": "hedis",
@@ -1510,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "configResetstat",
           "package": "hedis",
@@ -1523,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "configSet",
           "package": "hedis",
@@ -1531,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "configSet",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Status)",
@@ -1547,6 +1685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e to a Redis server designated by the given\n  \u003ccode\u003e\u003ca\u003eConnectInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "connect",
           "package": "hedis",
@@ -1557,6 +1696,7 @@
         "index": {
           "description": "Opens Connection to Redis server designated by the given ConnectInfo",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "connect",
           "normalized": "ConnectInfo-\u003eIO Connection",
@@ -1572,6 +1712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the server is protected by a password, set \u003ccode\u003e\u003ca\u003econnectAuth\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e\n   the password. Each connection will then authenticate by the \u003ccode\u003e\u003ca\u003eauth\u003c/a\u003e\u003c/code\u003e\n   command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "connectAuth",
           "package": "hedis",
@@ -1582,6 +1723,7 @@
         "index": {
           "description": "When the server is protected by password set connectAuth to Just the password Each connection will then authenticate by the auth command",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "connectAuth",
           "package": "hedis",
@@ -1596,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach connection will \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e the database with the given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "connectDatabase",
           "package": "hedis",
@@ -1606,6 +1749,7 @@
         "index": {
           "description": "Each connection will select the database with the given index",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "connectDatabase",
           "package": "hedis",
@@ -1619,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "connectHost",
           "package": "hedis",
@@ -1628,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "connectHost",
           "package": "hedis",
@@ -1642,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum number of connections to keep open. The smallest acceptable\n   value is 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "connectMaxConnections",
           "package": "hedis",
@@ -1652,6 +1799,7 @@
         "index": {
           "description": "Maximum number of connections to keep open The smallest acceptable value is",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "connectMaxConnections",
           "package": "hedis",
@@ -1666,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAmount of time for which an unused connection is kept open. The\n   smallest acceptable value is 0.5 seconds. If the \u003ccode\u003etimeout\u003c/code\u003e value in\n   your redis.conf file is non-zero, it should be larger than\n   \u003ccode\u003e\u003ca\u003econnectMaxIdleTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "connectMaxIdleTime",
           "package": "hedis",
@@ -1676,6 +1825,7 @@
         "index": {
           "description": "Amount of time for which an unused connection is kept open The smallest acceptable value is seconds If the timeout value in your redis.conf file is non-zero it should be larger than connectMaxIdleTime",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "connectMaxIdleTime",
           "package": "hedis",
@@ -1689,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "connectPort",
           "package": "hedis",
@@ -1698,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "connectPort",
           "package": "hedis",
@@ -1711,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "dbsize",
           "package": "hedis",
@@ -1720,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "dbsize",
           "package": "hedis",
@@ -1732,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "debugObject",
           "package": "hedis",
@@ -1740,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "debugObject",
           "normalized": "ByteString-\u003ea(b ByteString)",
@@ -1755,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "decode",
           "package": "hedis",
@@ -1764,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "decode",
           "normalized": "Reply-\u003eEither Reply a",
@@ -1778,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "decr",
           "package": "hedis",
@@ -1786,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "decr",
           "normalized": "ByteString-\u003ea(b Integer)",
@@ -1800,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "decrby",
           "package": "hedis",
@@ -1808,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "decrby",
           "normalized": "ByteString-\u003eInteger-\u003ea(b Integer)",
@@ -1823,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault information for connecting:\n\u003c/p\u003e\u003cpre\u003e\n  connectHost           = \"localhost\"\n  connectPort           = PortNumber 6379 -- Redis default port\n  connectAuth           = Nothing         -- No password\n  connectDatabase       = 0               -- SELECT database 0\n  connectMaxConnections = 50              -- Up to 50 connections\n  connectMaxIdleTime    = 30              -- Keep open for 30 seconds\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "defaultConnectInfo",
           "package": "hedis",
@@ -1833,6 +1996,7 @@
         "index": {
           "description": "Default information for connecting connectHost localhost connectPort PortNumber Redis default port connectAuth Nothing No password connectDatabase SELECT database connectMaxConnections Up to connections connectMaxIdleTime Keep open for seconds",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "defaultConnectInfo",
           "package": "hedis",
@@ -1847,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedis default \u003ccode\u003e\u003ca\u003eSortOpts\u003c/a\u003e\u003c/code\u003e. Equivalent to omitting all optional parameters.\n\u003c/p\u003e\u003cpre\u003e\n SortOpts\n     { sortBy    = Nothing -- omit the BY option\n     , sortLimit = (0,-1)  -- return entire collection\n     , sortGet   = []      -- omit the GET option\n     , sortOrder = Asc     -- sort in ascending order\n     , sortAlpha = False   -- sort numerically, not lexicographically\n     }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "defaultSortOpts",
           "package": "hedis",
@@ -1857,6 +2022,7 @@
         "index": {
           "description": "Redis default SortOpts Equivalent to omitting all optional parameters SortOpts sortBy Nothing omit the BY option sortLimit return entire collection sortGet omit the GET option sortOrder Asc sort in ascending order sortAlpha False sort numerically not lexicographically",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "defaultSortOpts",
           "package": "hedis",
@@ -1870,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "del",
           "package": "hedis",
@@ -1878,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "del",
           "normalized": "[ByteString]-\u003ea(b Integer)",
@@ -1892,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "dump",
           "package": "hedis",
@@ -1900,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "dump",
           "normalized": "ByteString-\u003ea(b ByteString)",
@@ -1914,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "echo",
           "package": "hedis",
@@ -1922,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "echo",
           "normalized": "ByteString-\u003ea(b ByteString)",
@@ -1936,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "eval",
           "package": "hedis",
@@ -1944,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "eval",
           "normalized": "ByteString-\u003e[ByteString]-\u003e[ByteString]-\u003ea(b c)",
@@ -1958,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "evalsha",
           "package": "hedis",
@@ -1966,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "evalsha",
           "normalized": "ByteString-\u003e[ByteString]-\u003e[ByteString]-\u003ea(b c)",
@@ -1980,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "exists",
           "package": "hedis",
@@ -1988,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "exists",
           "normalized": "ByteString-\u003ea(b Bool)",
@@ -2002,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "expire",
           "package": "hedis",
@@ -2010,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "expire",
           "normalized": "ByteString-\u003eInteger-\u003ea(b Bool)",
@@ -2024,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "expireat",
           "package": "hedis",
@@ -2032,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "expireat",
           "normalized": "ByteString-\u003eInteger-\u003ea(b Bool)",
@@ -2046,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "flushall",
           "package": "hedis",
@@ -2055,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "flushall",
           "package": "hedis",
@@ -2067,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "flushdb",
           "package": "hedis",
@@ -2076,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "flushdb",
           "package": "hedis",
@@ -2088,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "get",
           "package": "hedis",
@@ -2096,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "get",
           "normalized": "ByteString-\u003ea(b(Maybe ByteString))",
@@ -2110,6 +2298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "getType",
           "package": "hedis",
@@ -2118,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "getType",
           "normalized": "ByteString-\u003ea(b RedisType)",
@@ -2133,6 +2323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "getbit",
           "package": "hedis",
@@ -2141,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "getbit",
           "normalized": "ByteString-\u003eInteger-\u003ea(b Integer)",
@@ -2155,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "getrange",
           "package": "hedis",
@@ -2163,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "getrange",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea(b ByteString)",
@@ -2177,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "getset",
           "package": "hedis",
@@ -2185,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "getset",
           "normalized": "ByteString-\u003eByteString-\u003ea(b(Maybe ByteString))",
@@ -2199,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hdel",
           "package": "hedis",
@@ -2207,6 +2404,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hdel",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b Integer)",
@@ -2221,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hexists",
           "package": "hedis",
@@ -2229,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hexists",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Bool)",
@@ -2243,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hget",
           "package": "hedis",
@@ -2251,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hget",
           "normalized": "ByteString-\u003eByteString-\u003ea(b(Maybe ByteString))",
@@ -2265,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hgetall",
           "package": "hedis",
@@ -2273,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hgetall",
           "normalized": "ByteString-\u003ea(b[(ByteString,ByteString)])",
@@ -2287,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hincrby",
           "package": "hedis",
@@ -2295,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hincrby",
           "normalized": "ByteString-\u003eByteString-\u003eInteger-\u003ea(b Integer)",
@@ -2309,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hincrbyfloat",
           "package": "hedis",
@@ -2317,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hincrbyfloat",
           "normalized": "ByteString-\u003eByteString-\u003eDouble-\u003ea(b Double)",
@@ -2331,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hkeys",
           "package": "hedis",
@@ -2339,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hkeys",
           "normalized": "ByteString-\u003ea(b[ByteString])",
@@ -2353,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hlen",
           "package": "hedis",
@@ -2361,6 +2572,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hlen",
           "normalized": "ByteString-\u003ea(b Integer)",
@@ -2375,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hmget",
           "package": "hedis",
@@ -2383,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hmget",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b[Maybe ByteString])",
@@ -2397,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hmset",
           "package": "hedis",
@@ -2405,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hmset",
           "normalized": "ByteString-\u003e[(ByteString,ByteString)]-\u003ea(b Status)",
@@ -2419,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hset",
           "package": "hedis",
@@ -2427,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hset",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003ea(b Bool)",
@@ -2441,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hsetnx",
           "package": "hedis",
@@ -2449,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hsetnx",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003ea(b Bool)",
@@ -2463,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "hvals",
           "package": "hedis",
@@ -2471,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "hvals",
           "normalized": "ByteString-\u003ea(b[ByteString])",
@@ -2485,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "incr",
           "package": "hedis",
@@ -2493,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "incr",
           "normalized": "ByteString-\u003ea(b Integer)",
@@ -2507,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "incrby",
           "package": "hedis",
@@ -2515,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "incrby",
           "normalized": "ByteString-\u003eInteger-\u003ea(b Integer)",
@@ -2529,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "incrbyfloat",
           "package": "hedis",
@@ -2537,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "incrbyfloat",
           "normalized": "ByteString-\u003eDouble-\u003ea(b Double)",
@@ -2551,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "info",
           "package": "hedis",
@@ -2560,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "info",
           "package": "hedis",
@@ -2572,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "keys",
           "package": "hedis",
@@ -2580,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "keys",
           "normalized": "ByteString-\u003ea(b[ByteString])",
@@ -2594,6 +2826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "lastsave",
           "package": "hedis",
@@ -2603,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "lastsave",
           "package": "hedis",
@@ -2615,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "lindex",
           "package": "hedis",
@@ -2623,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "lindex",
           "normalized": "ByteString-\u003eInteger-\u003ea(b(Maybe ByteString))",
@@ -2637,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "linsertAfter",
           "package": "hedis",
@@ -2645,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "linsertAfter",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003ea(b Integer)",
@@ -2660,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "linsertBefore",
           "package": "hedis",
@@ -2668,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "linsertBefore",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003ea(b Integer)",
@@ -2683,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "llen",
           "package": "hedis",
@@ -2691,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "llen",
           "normalized": "ByteString-\u003ea(b Integer)",
@@ -2705,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "lpop",
           "package": "hedis",
@@ -2713,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "lpop",
           "normalized": "ByteString-\u003ea(b(Maybe ByteString))",
@@ -2727,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "lpush",
           "package": "hedis",
@@ -2735,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "lpush",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b Integer)",
@@ -2749,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "lpushx",
           "package": "hedis",
@@ -2757,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "lpushx",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Integer)",
@@ -2771,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "lrange",
           "package": "hedis",
@@ -2779,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "lrange",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea(b[ByteString])",
@@ -2793,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "lrem",
           "package": "hedis",
@@ -2801,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "lrem",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea(b Integer)",
@@ -2815,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "lset",
           "package": "hedis",
@@ -2823,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "lset",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea(b Status)",
@@ -2837,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "ltrim",
           "package": "hedis",
@@ -2845,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "ltrim",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea(b Status)",
@@ -2859,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "mget",
           "package": "hedis",
@@ -2867,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "mget",
           "normalized": "[ByteString]-\u003ea(b[Maybe ByteString])",
@@ -2881,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "migrate",
           "package": "hedis",
@@ -2889,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "migrate",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eInteger-\u003eInteger-\u003ea(b Status)",
@@ -2903,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "move",
           "package": "hedis",
@@ -2911,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "move",
           "normalized": "ByteString-\u003eInteger-\u003ea(b Bool)",
@@ -2925,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "mset",
           "package": "hedis",
@@ -2933,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "mset",
           "normalized": "[(ByteString,ByteString)]-\u003ea(b Status)",
@@ -2947,6 +3211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "msetnx",
           "package": "hedis",
@@ -2955,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "msetnx",
           "normalized": "[(ByteString,ByteString)]-\u003ea(b Bool)",
@@ -2969,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "msgChannel",
           "package": "hedis",
@@ -2978,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "msgChannel",
           "package": "hedis",
@@ -2991,6 +3259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "msgMessage",
           "package": "hedis",
@@ -3000,6 +3269,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "msgMessage",
           "package": "hedis",
@@ -3013,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "msgPattern",
           "package": "hedis",
@@ -3022,6 +3293,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "msgPattern",
           "package": "hedis",
@@ -3036,6 +3308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun commands inside a transaction. For documentation on the semantics of\n  Redis transaction see \u003ca\u003ehttp://redis.io/topics/transactions\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eInside the transaction block, command functions return their result wrapped\n  in a \u003ccode\u003e\u003ca\u003eQueued\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eQueued\u003c/a\u003e\u003c/code\u003e result is a proxy object for the actual\n  command's result, which will only be available after \u003ccode\u003eEXEC\u003c/code\u003eing the\n  transaction.\n\u003c/p\u003e\u003cp\u003eExample usage (note how \u003ccode\u003e\u003ca\u003eQueued\u003c/a\u003e\u003c/code\u003e 's \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e instance is used to\n  combine the two individual results):\n\u003c/p\u003e\u003cpre\u003e\n  runRedis conn $ do\n      set \"hello\" \"hello\"\n      set \"world\" \"world\"\n      helloworld \u003c- \u003ccode\u003e\u003ca\u003emultiExec\u003c/a\u003e\u003c/code\u003e $ do\n          hello \u003c- get \"hello\"\n          world \u003c- get \"world\"\n          return $ (,) \u003c$\u003e hello \u003c*\u003e world\n      liftIO (print helloworld)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "multiExec",
           "package": "hedis",
@@ -3046,6 +3319,7 @@
         "index": {
           "description": "Run commands inside transaction For documentation on the semantics of Redis transaction see http redis.io topics transactions Inside the transaction block command functions return their result wrapped in Queued The Queued result is proxy object for the actual command result which will only be available after EXEC ing the transaction Example usage note how Queued Applicative instance is used to combine the two individual results runRedis conn do set hello hello set world world helloworld multiExec do hello get hello world get world return hello world liftIO print helloworld",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "multiExec",
           "normalized": "RedisTx(Queued a)-\u003eRedis(TxResult a)",
@@ -3061,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "objectEncoding",
           "package": "hedis",
@@ -3069,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "objectEncoding",
           "normalized": "ByteString-\u003ea(b ByteString)",
@@ -3084,6 +3360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "objectIdletime",
           "package": "hedis",
@@ -3092,6 +3369,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "objectIdletime",
           "normalized": "ByteString-\u003ea(b Integer)",
@@ -3107,6 +3385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "objectRefcount",
           "package": "hedis",
@@ -3115,6 +3394,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "objectRefcount",
           "normalized": "ByteString-\u003ea(b Integer)",
@@ -3130,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "persist",
           "package": "hedis",
@@ -3138,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "persist",
           "normalized": "ByteString-\u003ea(b Bool)",
@@ -3152,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "pexpire",
           "package": "hedis",
@@ -3160,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "pexpire",
           "normalized": "ByteString-\u003eInteger-\u003ea(b Bool)",
@@ -3174,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "pexpireat",
           "package": "hedis",
@@ -3182,6 +3467,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "pexpireat",
           "normalized": "ByteString-\u003eInteger-\u003ea(b Bool)",
@@ -3196,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "ping",
           "package": "hedis",
@@ -3205,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "ping",
           "package": "hedis",
@@ -3217,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "psetex",
           "package": "hedis",
@@ -3225,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "psetex",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea(b Status)",
@@ -3240,6 +3530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eListen for messages published to channels matching the given patterns \n  (\u003ca\u003ehttp://redis.io/commands/psubscribe\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "psubscribe",
           "package": "hedis",
@@ -3249,6 +3540,7 @@
         "index": {
           "description": "Listen for messages published to channels matching the given patterns http redis.io commands psubscribe",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "psubscribe",
           "normalized": "[ByteString]-\u003ePubSub",
@@ -3263,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "pttl",
           "package": "hedis",
@@ -3271,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "pttl",
           "normalized": "ByteString-\u003ea(b Integer)",
@@ -3286,6 +3580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eListens to published messages on subscribed channels and channels matching\n  the subscribed patterns. For documentation on the semantics of Redis\n  Pub/Sub see \u003ca\u003ehttp://redis.io/topics/pubsub\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThe given callback function is called for each received message. \n  Subscription changes are triggered by the returned \u003ccode\u003e\u003ca\u003ePubSub\u003c/a\u003e\u003c/code\u003e. To keep\n  subscriptions unchanged, the callback can return \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample: Subscribe to the \"news\" channel indefinitely.\n\u003c/p\u003e\u003cpre\u003e\n  pubSub (subscribe [\"news\"]) $ \\msg -\u003e do\n      putStrLn $ \"Message from \" ++ show (msgChannel msg)\n      return mempty\n\u003c/pre\u003e\u003cp\u003eExample: Receive a single message from the \"chat\" channel.\n\u003c/p\u003e\u003cpre\u003e\n  pubSub (subscribe [\"chat\"]) $ \\msg -\u003e do\n      putStrLn $ \"Message from \" ++ show (msgChannel msg)\n      return $ unsubscribe [\"chat\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "pubSub",
           "package": "hedis",
@@ -3295,6 +3590,7 @@
         "index": {
           "description": "Listens to published messages on subscribed channels and channels matching the subscribed patterns For documentation on the semantics of Redis Pub Sub see http redis.io topics pubsub The given callback function is called for each received message Subscription changes are triggered by the returned PubSub To keep subscriptions unchanged the callback can return mempty Example Subscribe to the news channel indefinitely pubSub subscribe news msg do putStrLn Message from show msgChannel msg return mempty Example Receive single message from the chat channel pubSub subscribe chat msg do putStrLn Message from show msgChannel msg return unsubscribe chat",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "pubSub",
           "normalized": "PubSub-\u003e(Message-\u003eIO PubSub)-\u003eRedis()",
@@ -3311,6 +3607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePost a message to a channel (\u003ca\u003ehttp://redis.io/commands/publish\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "publish",
           "package": "hedis",
@@ -3320,6 +3617,7 @@
         "index": {
           "description": "Post message to channel http redis.io commands publish",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "publish",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Integer)",
@@ -3335,6 +3633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop listening for messages posted to channels matching the given patterns \n  (\u003ca\u003ehttp://redis.io/commands/punsubscribe\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "punsubscribe",
           "package": "hedis",
@@ -3344,6 +3643,7 @@
         "index": {
           "description": "Stop listening for messages posted to channels matching the given patterns http redis.io commands punsubscribe",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "punsubscribe",
           "normalized": "[ByteString]-\u003ePubSub",
@@ -3358,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "quit",
           "package": "hedis",
@@ -3367,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "quit",
           "package": "hedis",
@@ -3379,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "randomkey",
           "package": "hedis",
@@ -3388,6 +3691,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "randomkey",
           "package": "hedis",
@@ -3400,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "rename",
           "package": "hedis",
@@ -3408,6 +3713,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "rename",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Status)",
@@ -3422,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "renamenx",
           "package": "hedis",
@@ -3430,6 +3737,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "renamenx",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Bool)",
@@ -3444,6 +3752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "restore",
           "package": "hedis",
@@ -3452,6 +3761,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "restore",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea(b Status)",
@@ -3466,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "rpop",
           "package": "hedis",
@@ -3474,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "rpop",
           "normalized": "ByteString-\u003ea(b(Maybe ByteString))",
@@ -3488,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "rpoplpush",
           "package": "hedis",
@@ -3496,6 +3809,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "rpoplpush",
           "normalized": "ByteString-\u003eByteString-\u003ea(b(Maybe ByteString))",
@@ -3510,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "rpush",
           "package": "hedis",
@@ -3518,6 +3833,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "rpush",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b Integer)",
@@ -3532,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "rpushx",
           "package": "hedis",
@@ -3540,6 +3857,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "rpushx",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Integer)",
@@ -3555,6 +3873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteract with a Redis datastore specified by the given \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEach call of \u003ccode\u003e\u003ca\u003erunRedis\u003c/a\u003e\u003c/code\u003e takes a network connection from the \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e\n  pool and runs the given \u003ccode\u003e\u003ca\u003eRedis\u003c/a\u003e\u003c/code\u003e action. Calls to \u003ccode\u003e\u003ca\u003erunRedis\u003c/a\u003e\u003c/code\u003e may thus block\n  while all connections from the pool are in use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "runRedis",
           "package": "hedis",
@@ -3565,6 +3884,7 @@
         "index": {
           "description": "Interact with Redis datastore specified by the given Connection Each call of runRedis takes network connection from the Connection pool and runs the given Redis action Calls to runRedis may thus block while all connections from the pool are in use",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "runRedis",
           "normalized": "Connection-\u003eRedis a-\u003eIO a",
@@ -3580,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sadd",
           "package": "hedis",
@@ -3588,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sadd",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b Integer)",
@@ -3602,6 +3924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "save",
           "package": "hedis",
@@ -3611,6 +3934,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "save",
           "package": "hedis",
@@ -3623,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "scard",
           "package": "hedis",
@@ -3631,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "scard",
           "normalized": "ByteString-\u003ea(b Integer)",
@@ -3645,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "scriptExists",
           "package": "hedis",
@@ -3653,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "scriptExists",
           "normalized": "[ByteString]-\u003ea(b[Bool])",
@@ -3668,6 +3996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "scriptFlush",
           "package": "hedis",
@@ -3677,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "scriptFlush",
           "package": "hedis",
@@ -3690,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "scriptKill",
           "package": "hedis",
@@ -3699,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "scriptKill",
           "package": "hedis",
@@ -3712,6 +4044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "scriptLoad",
           "package": "hedis",
@@ -3720,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "scriptLoad",
           "normalized": "ByteString-\u003ea(b ByteString)",
@@ -3735,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sdiff",
           "package": "hedis",
@@ -3743,6 +4078,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sdiff",
           "normalized": "[ByteString]-\u003ea(b[ByteString])",
@@ -3757,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sdiffstore",
           "package": "hedis",
@@ -3765,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sdiffstore",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b Integer)",
@@ -3779,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "select",
           "package": "hedis",
@@ -3787,6 +4126,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "select",
           "normalized": "Integer-\u003ea(b Status)",
@@ -3802,6 +4142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esendRequest\u003c/a\u003e\u003c/code\u003e can be used to implement commands from experimental\n  versions of Redis. An example of how to implement a command is given\n  below.\n\u003c/p\u003e\u003cpre\u003e\n -- |Redis DEBUG OBJECT command\n debugObject :: ByteString -\u003e \u003ccode\u003e\u003ca\u003eRedis\u003c/a\u003e\u003c/code\u003e (Either \u003ccode\u003e\u003ca\u003eReply\u003c/a\u003e\u003c/code\u003e ByteString)\n debugObject key = \u003ccode\u003e\u003ca\u003esendRequest\u003c/a\u003e\u003c/code\u003e [\"DEBUG\", \"OBJECT\", key]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sendRequest",
           "package": "hedis",
@@ -3812,6 +4153,7 @@
         "index": {
           "description": "sendRequest can be used to implement commands from experimental versions of Redis An example of how to implement command is given below Redis DEBUG OBJECT command debugObject ByteString Redis Either Reply ByteString debugObject key sendRequest DEBUG OBJECT key",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sendRequest",
           "normalized": "[ByteString]-\u003ea(b c)",
@@ -3827,6 +4169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "set",
           "package": "hedis",
@@ -3835,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "set",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Status)",
@@ -3849,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "setbit",
           "package": "hedis",
@@ -3857,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "setbit",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea(b Integer)",
@@ -3871,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "setex",
           "package": "hedis",
@@ -3879,6 +4226,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "setex",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea(b Status)",
@@ -3893,6 +4241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "setnx",
           "package": "hedis",
@@ -3901,6 +4250,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "setnx",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Bool)",
@@ -3915,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "setrange",
           "package": "hedis",
@@ -3923,6 +4274,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "setrange",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea(b Integer)",
@@ -3937,6 +4289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sinter",
           "package": "hedis",
@@ -3945,6 +4298,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sinter",
           "normalized": "[ByteString]-\u003ea(b[ByteString])",
@@ -3959,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sinterstore",
           "package": "hedis",
@@ -3967,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sinterstore",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b Integer)",
@@ -3981,6 +4337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sismember",
           "package": "hedis",
@@ -3989,6 +4346,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sismember",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Bool)",
@@ -4003,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "slaveof",
           "package": "hedis",
@@ -4011,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "slaveof",
           "normalized": "ByteString-\u003eByteString-\u003ea(b Status)",
@@ -4026,6 +4386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe command and it's arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "slowlogCmd",
           "package": "hedis",
@@ -4036,6 +4397,7 @@
         "index": {
           "description": "The command and it arguments",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "slowlogCmd",
           "normalized": "[ByteString]",
@@ -4051,6 +4413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "slowlogGet",
           "package": "hedis",
@@ -4059,6 +4422,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "slowlogGet",
           "normalized": "Integer-\u003ea(b[Slowlog])",
@@ -4075,6 +4439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unique progressive identifier for every slow log entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "slowlogId",
           "package": "hedis",
@@ -4085,6 +4450,7 @@
         "index": {
           "description": "unique progressive identifier for every slow log entry",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "slowlogId",
           "package": "hedis",
@@ -4098,6 +4464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "slowlogLen",
           "package": "hedis",
@@ -4107,6 +4474,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "slowlogLen",
           "package": "hedis",
@@ -4121,6 +4489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amount of time needed for its execution, in microseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "slowlogMicros",
           "package": "hedis",
@@ -4131,6 +4500,7 @@
         "index": {
           "description": "The amount of time needed for its execution in microseconds",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "slowlogMicros",
           "package": "hedis",
@@ -4144,6 +4514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "slowlogReset",
           "package": "hedis",
@@ -4153,6 +4524,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "slowlogReset",
           "package": "hedis",
@@ -4167,6 +4539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unix timestamp at which the logged command was processed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "slowlogTimestamp",
           "package": "hedis",
@@ -4177,6 +4550,7 @@
         "index": {
           "description": "The unix timestamp at which the logged command was processed",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "slowlogTimestamp",
           "package": "hedis",
@@ -4190,6 +4564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "smembers",
           "package": "hedis",
@@ -4198,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "smembers",
           "normalized": "ByteString-\u003ea(b[ByteString])",
@@ -4212,6 +4588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "smove",
           "package": "hedis",
@@ -4220,6 +4597,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "smove",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003ea(b Bool)",
@@ -4234,6 +4612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sort",
           "package": "hedis",
@@ -4242,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sort",
           "normalized": "ByteString-\u003eSortOpts-\u003ea(b[ByteString])",
@@ -4256,6 +4636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sortAlpha",
           "package": "hedis",
@@ -4265,6 +4646,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sortAlpha",
           "package": "hedis",
@@ -4278,6 +4660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sortBy",
           "package": "hedis",
@@ -4287,6 +4670,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sortBy",
           "package": "hedis",
@@ -4300,6 +4684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sortGet",
           "package": "hedis",
@@ -4309,6 +4694,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sortGet",
           "normalized": "[ByteString]",
@@ -4324,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sortLimit",
           "package": "hedis",
@@ -4333,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sortLimit",
           "normalized": "(Integer,Integer)",
@@ -4348,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sortOrder",
           "package": "hedis",
@@ -4357,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sortOrder",
           "package": "hedis",
@@ -4370,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sortStore",
           "package": "hedis",
@@ -4378,6 +4769,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sortStore",
           "normalized": "ByteString-\u003eByteString-\u003eSortOpts-\u003ea(b Integer)",
@@ -4393,6 +4785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "spop",
           "package": "hedis",
@@ -4401,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "spop",
           "normalized": "ByteString-\u003ea(b(Maybe ByteString))",
@@ -4415,6 +4809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "srandmember",
           "package": "hedis",
@@ -4423,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "srandmember",
           "normalized": "ByteString-\u003ea(b(Maybe ByteString))",
@@ -4437,6 +4833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "srem",
           "package": "hedis",
@@ -4445,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "srem",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b Integer)",
@@ -4459,6 +4857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "strlen",
           "package": "hedis",
@@ -4467,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "strlen",
           "normalized": "ByteString-\u003ea(b Integer)",
@@ -4482,6 +4882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eListen for messages published to the given channels\n  (\u003ca\u003ehttp://redis.io/commands/subscribe\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "subscribe",
           "package": "hedis",
@@ -4491,6 +4892,7 @@
         "index": {
           "description": "Listen for messages published to the given channels http redis.io commands subscribe",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "subscribe",
           "normalized": "[ByteString]-\u003ePubSub",
@@ -4505,6 +4907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sunion",
           "package": "hedis",
@@ -4513,6 +4916,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sunion",
           "normalized": "[ByteString]-\u003ea(b[ByteString])",
@@ -4527,6 +4931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "sunionstore",
           "package": "hedis",
@@ -4535,6 +4940,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "sunionstore",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b Integer)",
@@ -4549,6 +4955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "time",
           "package": "hedis",
@@ -4558,6 +4965,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "time",
           "normalized": "a(b(Integer,Integer))",
@@ -4572,6 +4980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "ttl",
           "package": "hedis",
@@ -4580,6 +4989,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "ttl",
           "normalized": "ByteString-\u003ea(b Integer)",
@@ -4595,6 +5005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop listening for messages posted to the given channels\n  (\u003ca\u003ehttp://redis.io/commands/unsubscribe\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "unsubscribe",
           "package": "hedis",
@@ -4604,6 +5015,7 @@
         "index": {
           "description": "Stop listening for messages posted to the given channels http redis.io commands unsubscribe",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "unsubscribe",
           "normalized": "[ByteString]-\u003ePubSub",
@@ -4619,6 +5031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget about all watched keys (\u003ca\u003ehttp://redis.io/commands/unwatch\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "unwatch",
           "package": "hedis",
@@ -4629,6 +5042,7 @@
         "index": {
           "description": "Forget about all watched keys http redis.io commands unwatch",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "unwatch",
           "package": "hedis",
@@ -4642,6 +5056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWatch the given keys to determine execution of the MULTI/EXEC block\n  (\u003ca\u003ehttp://redis.io/commands/watch\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "watch",
           "package": "hedis",
@@ -4651,6 +5066,7 @@
         "index": {
           "description": "Watch the given keys to determine execution of the MULTI EXEC block http redis.io commands watch",
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "watch",
           "normalized": "[ByteString]-\u003eRedis(Either Reply Status)",
@@ -4665,6 +5081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zadd",
           "package": "hedis",
@@ -4673,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zadd",
           "normalized": "ByteString-\u003e[(Double,ByteString)]-\u003ea(b Integer)",
@@ -4687,6 +5105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zcard",
           "package": "hedis",
@@ -4695,6 +5114,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zcard",
           "normalized": "ByteString-\u003ea(b Integer)",
@@ -4709,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zcount",
           "package": "hedis",
@@ -4717,6 +5138,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zcount",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003ea(b Integer)",
@@ -4731,6 +5153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zincrby",
           "package": "hedis",
@@ -4739,6 +5162,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zincrby",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea(b Double)",
@@ -4753,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zinterstore",
           "package": "hedis",
@@ -4761,6 +5186,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zinterstore",
           "normalized": "ByteString-\u003e[ByteString]-\u003eAggregate-\u003ea(b Integer)",
@@ -4775,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zinterstoreWeights",
           "package": "hedis",
@@ -4783,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zinterstoreWeights",
           "normalized": "ByteString-\u003e[(ByteString,Double)]-\u003eAggregate-\u003ea(b Integer)",
@@ -4798,6 +5226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrange",
           "package": "hedis",
@@ -4806,6 +5235,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrange",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea(b[ByteString])",
@@ -4820,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrangeWithscores",
           "package": "hedis",
@@ -4828,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrangeWithscores",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea(b[(ByteString,Double)])",
@@ -4843,6 +5275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrangebyscore",
           "package": "hedis",
@@ -4851,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrangebyscore",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003ea(b[ByteString])",
@@ -4865,6 +5299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrangebyscoreLimit",
           "package": "hedis",
@@ -4873,6 +5308,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrangebyscoreLimit",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003eInteger-\u003eInteger-\u003ea(b[ByteString])",
@@ -4888,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrangebyscoreWithscores",
           "package": "hedis",
@@ -4896,6 +5333,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrangebyscoreWithscores",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003ea(b[(ByteString,Double)])",
@@ -4911,6 +5349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrangebyscoreWithscoresLimit",
           "package": "hedis",
@@ -4919,6 +5358,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrangebyscoreWithscoresLimit",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003eInteger-\u003eInteger-\u003ea(b[(ByteString,Double)])",
@@ -4934,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrank",
           "package": "hedis",
@@ -4942,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrank",
           "normalized": "ByteString-\u003eByteString-\u003ea(b(Maybe Integer))",
@@ -4956,6 +5398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrem",
           "package": "hedis",
@@ -4964,6 +5407,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrem",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea(b Integer)",
@@ -4978,6 +5422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zremrangebyrank",
           "package": "hedis",
@@ -4986,6 +5431,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zremrangebyrank",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea(b Integer)",
@@ -5000,6 +5446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zremrangebyscore",
           "package": "hedis",
@@ -5008,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zremrangebyscore",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003ea(b Integer)",
@@ -5022,6 +5470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrevrange",
           "package": "hedis",
@@ -5030,6 +5479,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrevrange",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea(b[ByteString])",
@@ -5044,6 +5494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrevrangeWithscores",
           "package": "hedis",
@@ -5052,6 +5503,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrevrangeWithscores",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea(b[(ByteString,Double)])",
@@ -5067,6 +5519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrevrangebyscore",
           "package": "hedis",
@@ -5075,6 +5528,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrevrangebyscore",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003ea(b[ByteString])",
@@ -5089,6 +5543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrevrangebyscoreLimit",
           "package": "hedis",
@@ -5097,6 +5552,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrevrangebyscoreLimit",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003eInteger-\u003eInteger-\u003ea(b[ByteString])",
@@ -5112,6 +5568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrevrangebyscoreWithscores",
           "package": "hedis",
@@ -5120,6 +5577,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrevrangebyscoreWithscores",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003ea(b[(ByteString,Double)])",
@@ -5135,6 +5593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrevrangebyscoreWithscoresLimit",
           "package": "hedis",
@@ -5143,6 +5602,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrevrangebyscoreWithscoresLimit",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003eInteger-\u003eInteger-\u003ea(b[(ByteString,Double)])",
@@ -5158,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zrevrank",
           "package": "hedis",
@@ -5166,6 +5627,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zrevrank",
           "normalized": "ByteString-\u003eByteString-\u003ea(b(Maybe Integer))",
@@ -5180,6 +5642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zscore",
           "package": "hedis",
@@ -5188,6 +5651,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zscore",
           "normalized": "ByteString-\u003eByteString-\u003ea(b(Maybe Double))",
@@ -5202,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zunionstore",
           "package": "hedis",
@@ -5210,6 +5675,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zunionstore",
           "normalized": "ByteString-\u003e[ByteString]-\u003eAggregate-\u003ea(b Integer)",
@@ -5224,6 +5690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:15 UTC 2014",
           "module": "Database.Redis",
           "name": "zunionstoreWeights",
           "package": "hedis",
@@ -5232,6 +5699,7 @@
         },
         "index": {
           "hierarchy": "Database Redis",
+          "indexed": "2014-03-11T18:36:15",
           "module": "Database.Redis",
           "name": "zunionstoreWeights",
           "normalized": "ByteString-\u003e[(ByteString,Double)]-\u003eAggregate-\u003ea(b Integer)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-dir"
+        "phrase": "cabal-dir",
+        "type": "phrase"
       },
       "type": "context"
     }

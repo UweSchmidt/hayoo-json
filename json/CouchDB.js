@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CouchDB"
+        "phrase": "CouchDB",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenient functions for parsing JSON responses.  Use these\n functions to write the \u003ccode\u003e\u003ca\u003ereadJSON\u003c/a\u003e\u003c/code\u003e method of the \u003ccode\u003e\u003ca\u003eJSON\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB.JSON",
           "name": "JSON",
           "package": "CouchDB",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Convenient functions for parsing JSON responses Use these functions to write the readJSON method of the JSON class",
           "hierarchy": "Database CouchDB JSON",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB.JSON",
           "name": "JSON",
           "package": "CouchDB",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB.JSON",
           "name": "jsonBool",
           "package": "CouchDB",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB JSON",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB.JSON",
           "name": "jsonBool",
           "normalized": "JSValue-\u003eResult Bool",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a field as a value of type \u003ccode\u003ea\u003c/code\u003e.  If the field does not\n exist or cannot be parsed as type \u003ccode\u003ea\u003c/code\u003e, fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB.JSON",
           "name": "jsonField",
           "package": "CouchDB",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Extract field as value of type If the field does not exist or cannot be parsed as type fail",
           "hierarchy": "Database CouchDB JSON",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB.JSON",
           "name": "jsonField",
           "normalized": "String-\u003e[(String,JSValue)]-\u003eResult a",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB.JSON",
           "name": "jsonInt",
           "package": "CouchDB",
@@ -100,6 +107,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB JSON",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB.JSON",
           "name": "jsonInt",
           "normalized": "JSValue-\u003eResult a",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when the field is defined and is true.  Otherwise, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB.JSON",
           "name": "jsonIsTrue",
           "package": "CouchDB",
@@ -126,6 +135,7 @@
         "index": {
           "description": "True when the field is defined and is true Otherwise False",
           "hierarchy": "Database CouchDB JSON",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB.JSON",
           "name": "jsonIsTrue",
           "normalized": "String-\u003e[(String,JSValue)]-\u003eResult Bool",
@@ -141,6 +151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB.JSON",
           "name": "jsonObject",
           "package": "CouchDB",
@@ -150,6 +161,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB JSON",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB.JSON",
           "name": "jsonObject",
           "normalized": "JSValue-\u003eResult[(String,JSValue)]",
@@ -165,6 +177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB.JSON",
           "name": "jsonString",
           "package": "CouchDB",
@@ -174,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB JSON",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB.JSON",
           "name": "jsonString",
           "normalized": "JSValue-\u003eResult String",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to CouchDB.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "CouchDB",
           "package": "CouchDB",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Interface to CouchDB",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "CouchDB",
           "package": "CouchDB",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes a connection to a CouchDB database.  This type is\n encapsulated by \u003ccode\u003e\u003ca\u003eCouchMonad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "CouchConn",
           "package": "CouchDB",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Describes connection to CouchDB database This type is encapsulated by CouchMonad",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "CouchConn",
           "package": "CouchDB",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA computation that interacts with a CouchDB database.  This monad\n encapsulates the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad, a persistent HTTP connnection  to a\n CouchDB database and enough information to re-open the connection\n if it is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "CouchMonad",
           "package": "CouchDB",
@@ -245,6 +264,7 @@
         "index": {
           "description": "computation that interacts with CouchDB database This monad encapsulates the IO monad persistent HTTP connnection to CouchDB database and enough information to re-open the connection if it is closed",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "CouchMonad",
           "package": "CouchDB",
@@ -258,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "CouchView",
           "package": "CouchDB",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "CouchView",
           "package": "CouchDB",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatabase name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "DB",
           "package": "CouchDB",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Database name",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "DB",
           "package": "CouchDB",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "Doc",
           "package": "CouchDB",
@@ -312,6 +337,7 @@
         "index": {
           "description": "Document name",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "Doc",
           "package": "CouchDB",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument revision number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "Rev",
           "package": "CouchDB",
@@ -335,6 +362,7 @@
         "index": {
           "description": "Document revision number",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "Rev",
           "package": "CouchDB",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "ViewMap",
           "package": "CouchDB",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "ViewMap",
           "package": "CouchDB",
@@ -370,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "ViewMapReduce",
           "package": "CouchDB",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "ViewMapReduce",
           "package": "CouchDB",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "bulkUpdateDocs",
           "package": "CouchDB",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "bulkUpdateDocs",
           "normalized": "DB-\u003e[a]-\u003eCouchMonad(Maybe[Either String(Doc,Rev)])",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses an open CouchDB connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "closeCouchConn",
           "package": "CouchDB",
@@ -426,6 +461,7 @@
         "index": {
           "description": "Closes an open CouchDB connection",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "closeCouchConn",
           "normalized": "CouchConn-\u003eIO()",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a CouchDB connection for use with runCouchDBWith.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "createCouchConn",
           "package": "CouchDB",
@@ -451,6 +488,7 @@
         "index": {
           "description": "Create CouchDB connection for use with runCouchDBWith",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "createCouchConn",
           "normalized": "String-\u003eInt-\u003eIO CouchConn",
@@ -467,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a CouchDB from an URI connection for use with runCouchDBWith.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "createCouchConnFromURI",
           "package": "CouchDB",
@@ -476,6 +515,7 @@
         "index": {
           "description": "Create CouchDB from an URI connection for use with runCouchDBWith",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "createCouchConnFromURI",
           "normalized": "URI-\u003eIO CouchConn",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new database.  Throws an exception if the database already\n exists. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "createDB",
           "package": "CouchDB",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Creates new database Throws an exception if the database already exists",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "createDB",
           "normalized": "String-\u003eCouchMonad()",
@@ -518,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a safe database name.  Signals an error if the name is\n invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "db",
           "package": "CouchDB",
@@ -528,6 +571,7 @@
         "index": {
           "description": "Returns safe database name Signals an error if the name is invalid",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "db",
           "normalized": "String-\u003eDB",
@@ -542,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "deleteDoc",
           "package": "CouchDB",
@@ -550,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "deleteDoc",
           "normalized": "DB-\u003e(Doc,Rev)-\u003eCouchMonad Bool",
@@ -566,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a safe document name.  Signals an error if the name is\n invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "doc",
           "package": "CouchDB",
@@ -576,6 +623,7 @@
         "index": {
           "description": "Returns safe document name Signals an error if the name is invalid",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "doc",
           "normalized": "String-\u003eDoc",
@@ -590,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "dropDB",
           "package": "CouchDB",
@@ -598,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "dropDB",
           "normalized": "String-\u003eCouchMonad Bool",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a doc by document identifier (revision number not needed).  This\n operation first retreives the document to get its revision number.  It fails\n if the document doesn't exist or there is a conflict.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "forceDeleteDoc",
           "package": "CouchDB",
@@ -623,6 +674,7 @@
         "index": {
           "description": "Delete doc by document identifier revision number not needed This operation first retreives the document to get its revision number It fails if the document doesn exist or there is conflict",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "forceDeleteDoc",
           "normalized": "DB-\u003eDoc-\u003eCouchMonad Bool",
@@ -638,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "getAllDBs",
           "package": "CouchDB",
@@ -647,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "getAllDBs",
           "normalized": "CouchMonad[DB]",
@@ -662,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "getAllDocIds",
           "package": "CouchDB",
@@ -670,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "getAllDocIds",
           "normalized": "DB-\u003eCouchMonad[Doc]",
@@ -685,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "getAllDocs",
           "package": "CouchDB",
@@ -693,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "getAllDocs",
           "normalized": "DB-\u003e[(String,JSValue)]-\u003eCouchMonad[(Doc,a)]",
@@ -708,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "getAndUpdateDoc",
           "package": "CouchDB",
@@ -716,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "getAndUpdateDoc",
           "normalized": "DB-\u003eDoc-\u003e(a-\u003eIO a)-\u003eCouchMonad(Maybe Rev)",
@@ -731,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "getDoc",
           "package": "CouchDB",
@@ -739,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "getDoc",
           "normalized": "DB-\u003eDoc-\u003eCouchMonad(Maybe(Doc,Rev,a))",
@@ -755,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a document as a raw JSON value.  Returns the document id,\n revision and value as a \u003ccode\u003e\u003ca\u003eJSObject\u003c/a\u003e\u003c/code\u003e.  These fields are queried lazily,\n and may fail later if the response from the server is malformed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "getDocPrim",
           "package": "CouchDB",
@@ -764,6 +827,7 @@
         "index": {
           "description": "Gets document as raw JSON value Returns the document id revision and value as JSObject These fields are queried lazily and may fail later if the response from the server is malformed",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "getDocPrim",
           "normalized": "DB-\u003eDoc-\u003eCouchMonad(Maybe(Doc,Rev,[(String,JSValue)]))",
@@ -779,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "getDocRaw",
           "package": "CouchDB",
@@ -788,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "getDocRaw",
           "normalized": "DB-\u003eDoc-\u003eCouchMonad(Maybe String)",
@@ -803,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "isDBString",
           "package": "CouchDB",
@@ -812,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "isDBString",
           "normalized": "String-\u003eBool",
@@ -827,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "isDocString",
           "package": "CouchDB",
@@ -836,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "isDocString",
           "normalized": "String-\u003eBool",
@@ -851,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "newDoc",
           "package": "CouchDB",
@@ -859,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "newDoc",
           "normalized": "DB-\u003ea-\u003eCouchMonad(Doc,Rev)",
@@ -874,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "newNamedDoc",
           "package": "CouchDB",
@@ -882,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "newNamedDoc",
           "normalized": "DB-\u003eDoc-\u003ea-\u003eCouchMonad(Either String Rev)",
@@ -897,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "newView",
           "package": "CouchDB",
@@ -905,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "newView",
           "normalized": "String-\u003eString-\u003e[CouchView]-\u003eCouchMonad()",
@@ -920,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "queryView",
           "package": "CouchDB",
@@ -928,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "queryView",
           "normalized": "DB-\u003eDoc-\u003eDoc-\u003e[(String,JSValue)]-\u003eCouchMonad[(Doc,a)]",
@@ -944,6 +1022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003equeryView\u003c/a\u003e\u003c/code\u003e, but only returns the keys.  Use this for key-only\n views where the value is completely ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "queryViewKeys",
           "package": "CouchDB",
@@ -953,6 +1032,7 @@
         "index": {
           "description": "Like queryView but only returns the keys Use this for key-only views where the value is completely ignored",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "queryViewKeys",
           "normalized": "DB-\u003eDoc-\u003eDoc-\u003e[(String,JSValue)]-\u003eCouchMonad[Doc]",
@@ -969,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a Rev\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "rev",
           "package": "CouchDB",
@@ -979,6 +1060,7 @@
         "index": {
           "description": "Returns Rev",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "rev",
           "normalized": "String-\u003eRev",
@@ -993,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "runCouchDB",
           "package": "CouchDB",
@@ -1001,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "runCouchDB",
           "normalized": "String-\u003eInt-\u003eCouchMonad a-\u003eIO a",
@@ -1017,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnects to the CouchDB server at localhost:5984.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "runCouchDB'",
           "package": "CouchDB",
@@ -1027,6 +1112,7 @@
         "index": {
           "description": "Connects to the CouchDB server at localhost",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "runCouchDB'",
           "normalized": "CouchMonad a-\u003eIO a",
@@ -1042,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "runCouchDBURI",
           "package": "CouchDB",
@@ -1050,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "runCouchDBURI",
           "normalized": "URI-\u003eCouchMonad a-\u003eIO a",
@@ -1066,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a CouchDB computation with an existing CouchDB connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "runCouchDBWith",
           "package": "CouchDB",
@@ -1076,6 +1165,7 @@
         "index": {
           "description": "Run CouchDB computation with an existing CouchDB connection",
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "runCouchDBWith",
           "normalized": "CouchConn-\u003eCouchMonad a-\u003eIO a",
@@ -1091,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:43 UTC 2014",
           "module": "Database.CouchDB",
           "name": "updateDoc",
           "package": "CouchDB",
@@ -1099,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB",
+          "indexed": "2014-03-11T16:37:43",
           "module": "Database.CouchDB",
           "name": "updateDoc",
           "normalized": "DB-\u003e(Doc,Rev)-\u003ea-\u003eCouchMonad(Maybe(Doc,Rev))",

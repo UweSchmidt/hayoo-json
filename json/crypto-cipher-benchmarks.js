@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crypto-cipher-benchmarks"
+        "phrase": "crypto-cipher-benchmarks",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ebenchmarks for symmetric ciphers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:34 UTC 2014",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "Benchmarks",
           "package": "crypto-cipher-benchmarks",
@@ -28,6 +29,7 @@
         "index": {
           "description": "benchmarks for symmetric ciphers",
           "hierarchy": "Crypto Cipher Benchmarks",
+          "indexed": "2014-03-11T17:43:34",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "Benchmarks",
           "package": "crypto-cipher-benchmarks",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric Block cipher that wrap a specific block cipher.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:34 UTC 2014",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "GBlockCipher",
           "package": "crypto-cipher-benchmarks",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Generic Block cipher that wrap specific block cipher",
           "hierarchy": "Crypto Cipher Benchmarks",
+          "indexed": "2014-03-11T17:43:34",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "GBlockCipher",
           "package": "crypto-cipher-benchmarks",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny generic cipher (block or stream)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:34 UTC 2014",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "GCipher",
           "package": "crypto-cipher-benchmarks",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Any generic cipher block or stream",
           "hierarchy": "Crypto Cipher Benchmarks",
+          "indexed": "2014-03-11T17:43:34",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "GCipher",
           "package": "crypto-cipher-benchmarks",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric Stream cipher that wrap a specific stream cipher.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:34 UTC 2014",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "GStreamCipher",
           "package": "crypto-cipher-benchmarks",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Generic Stream cipher that wrap specific stream cipher",
           "hierarchy": "Crypto Cipher Benchmarks",
+          "indexed": "2014-03-11T17:43:34",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "GStreamCipher",
           "package": "crypto-cipher-benchmarks",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:34 UTC 2014",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "Block",
           "package": "crypto-cipher-benchmarks",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Benchmarks",
+          "indexed": "2014-03-11T17:43:34",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "Block",
           "package": "crypto-cipher-benchmarks",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:34 UTC 2014",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "GBlockCipher",
           "package": "crypto-cipher-benchmarks",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Benchmarks",
+          "indexed": "2014-03-11T17:43:34",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "GBlockCipher",
           "package": "crypto-cipher-benchmarks",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:34 UTC 2014",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "GStreamCipher",
           "package": "crypto-cipher-benchmarks",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Benchmarks",
+          "indexed": "2014-03-11T17:43:34",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "GStreamCipher",
           "package": "crypto-cipher-benchmarks",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:34 UTC 2014",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "Stream",
           "package": "crypto-cipher-benchmarks",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Benchmarks",
+          "indexed": "2014-03-11T17:43:34",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "Stream",
           "package": "crypto-cipher-benchmarks",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaultMain: parse command line arguments, run benchmarks\n and report\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:34 UTC 2014",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "defaultMain",
           "package": "crypto-cipher-benchmarks",
@@ -209,6 +226,7 @@
         "index": {
           "description": "DefaultMain parse command line arguments run benchmarks and report",
           "hierarchy": "Crypto Cipher Benchmarks",
+          "indexed": "2014-03-11T17:43:34",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "defaultMain",
           "normalized": "[GBlockCipher]-\u003eIO()",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaultMain: parse command line arguments, run benchmarks\n and report\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:34 UTC 2014",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "defaultMainAll",
           "package": "crypto-cipher-benchmarks",
@@ -235,6 +254,7 @@
         "index": {
           "description": "DefaultMain parse command line arguments run benchmarks and report",
           "hierarchy": "Crypto Cipher Benchmarks",
+          "indexed": "2014-03-11T17:43:34",
           "module": "Crypto.Cipher.Benchmarks",
           "name": "defaultMainAll",
           "normalized": "[GCipher]-\u003eIO()",

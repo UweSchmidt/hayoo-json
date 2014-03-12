@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sourcemap"
+        "phrase": "sourcemap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for the source maps.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "Types",
           "package": "sourcemap",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Types for the source maps",
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "Types",
           "package": "sourcemap",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "Mapping",
           "package": "sourcemap",
@@ -51,6 +54,7 @@
         "index": {
           "description": "mapping",
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "Mapping",
           "package": "sourcemap",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "Pos",
           "package": "sourcemap",
@@ -74,6 +79,7 @@
         "index": {
           "description": "source position",
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "Pos",
           "package": "sourcemap",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe source mapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "SourceMapping",
           "package": "sourcemap",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The source mapping",
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "SourceMapping",
           "package": "sourcemap",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "Mapping",
           "package": "sourcemap",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "Mapping",
           "package": "sourcemap",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "Pos",
           "package": "sourcemap",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "Pos",
           "package": "sourcemap",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "SourceMapping",
           "package": "sourcemap",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "SourceMapping",
           "package": "sourcemap",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "mapGenerated",
           "package": "sourcemap",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "mapGenerated",
           "package": "sourcemap",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "mapName",
           "package": "sourcemap",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "mapName",
           "package": "sourcemap",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "mapOriginal",
           "package": "sourcemap",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "mapOriginal",
           "package": "sourcemap",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "mapSourceFile",
           "package": "sourcemap",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "mapSourceFile",
           "package": "sourcemap",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "posColumn",
           "package": "sourcemap",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "posColumn",
           "package": "sourcemap",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "posLine",
           "package": "sourcemap",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "posLine",
           "package": "sourcemap",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "smFile",
           "package": "sourcemap",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "smFile",
           "package": "sourcemap",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "smMappings",
           "package": "sourcemap",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "smMappings",
           "normalized": "[Mapping]",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap.Types",
           "name": "smSourceRoot",
           "package": "sourcemap",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "SourceMap Types",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap.Types",
           "name": "smSourceRoot",
           "package": "sourcemap",
@@ -377,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGenerate JSON from a source mapping.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap",
           "name": "SourceMap",
           "package": "sourcemap",
@@ -386,6 +419,7 @@
         "index": {
           "description": "Generate JSON from source mapping",
           "hierarchy": "SourceMap",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap",
           "name": "SourceMap",
           "package": "sourcemap",
@@ -400,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the JSON from a source mapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:25 UTC 2014",
           "module": "SourceMap",
           "name": "generate",
           "package": "sourcemap",
@@ -410,6 +445,7 @@
         "index": {
           "description": "Generate the JSON from source mapping",
           "hierarchy": "SourceMap",
+          "indexed": "2014-03-11T20:07:25",
           "module": "SourceMap",
           "name": "generate",
           "normalized": "SourceMapping-\u003eValue",

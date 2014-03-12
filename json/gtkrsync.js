@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtkrsync"
+        "phrase": "gtkrsync",
+        "type": "phrase"
       },
       "type": "context"
     }

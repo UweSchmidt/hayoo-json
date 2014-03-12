@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "generators"
+        "phrase": "generators",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:48 UTC 2014",
           "module": "System.Random.Generators",
           "name": "Generators",
           "package": "generators",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Random Generators",
+          "indexed": "2014-03-11T18:14:48",
           "module": "System.Random.Generators",
           "name": "Generators",
           "package": "generators",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:48 UTC 2014",
           "module": "System.Random.Generators",
           "name": "Generator",
           "package": "generators",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Random Generators",
+          "indexed": "2014-03-11T18:14:48",
           "module": "System.Random.Generators",
           "name": "Generator",
           "package": "generators",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:48 UTC 2014",
           "module": "System.Random.Generators",
           "name": "constantG",
           "package": "generators",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "System Random Generators",
+          "indexed": "2014-03-11T18:14:48",
           "module": "System.Random.Generators",
           "name": "constantG",
           "normalized": "a-\u003eGenerator a",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:48 UTC 2014",
           "module": "System.Random.Generators",
           "name": "listG",
           "package": "generators",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "System Random Generators",
+          "indexed": "2014-03-11T18:14:48",
           "module": "System.Random.Generators",
           "name": "listG",
           "normalized": "[a]-\u003eGenerator a",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:48 UTC 2014",
           "module": "System.Random.Generators",
           "name": "randomG",
           "package": "generators",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "System Random Generators",
+          "indexed": "2014-03-11T18:14:48",
           "module": "System.Random.Generators",
           "name": "randomG",
           "package": "generators",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:48 UTC 2014",
           "module": "System.Random.Generators",
           "name": "rangeG",
           "package": "generators",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "System Random Generators",
+          "indexed": "2014-03-11T18:14:48",
           "module": "System.Random.Generators",
           "name": "rangeG",
           "normalized": "(a,a)-\u003eGenerator a",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:48 UTC 2014",
           "module": "System.Random.Generators",
           "name": "runGenerator",
           "package": "generators",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "System Random Generators",
+          "indexed": "2014-03-11T18:14:48",
           "module": "System.Random.Generators",
           "name": "runGenerator",
           "normalized": "Int-\u003eGenerator a-\u003e[a]",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:48 UTC 2014",
           "module": "System.Random.Generators",
           "name": "runGeneratorWith",
           "package": "generators",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "System Random Generators",
+          "indexed": "2014-03-11T18:14:48",
           "module": "System.Random.Generators",
           "name": "runGeneratorWith",
           "normalized": "StdGen-\u003eGenerator a-\u003e[a]",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:48 UTC 2014",
           "module": "System.Random.Generators",
           "name": "weightedG",
           "package": "generators",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "System Random Generators",
+          "indexed": "2014-03-11T18:14:48",
           "module": "System.Random.Generators",
           "name": "weightedG",
           "normalized": "[(Float,a)]-\u003eGenerator a",

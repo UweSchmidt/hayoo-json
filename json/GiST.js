@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GiST"
+        "phrase": "GiST",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple implementation of the B+ tree predicate. A containment predicate is a tuple of two integers\nrepresenting an open interval, while the equality predicate is simply an interger value.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.BTree",
           "name": "BTree",
           "package": "GiST",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple implementation of the tree predicate containment predicate is tuple of two integers representing an open interval while the equality predicate is simply an interger value",
           "hierarchy": "Data GiST BTree",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.BTree",
           "name": "BTree",
           "package": "GiST",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.BTree",
           "name": "Predicate",
           "package": "GiST",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data GiST BTree",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.BTree",
           "name": "Predicate",
           "package": "GiST",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtainment predicate (interval)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.BTree",
           "name": "Contains",
           "package": "GiST",
@@ -73,6 +78,7 @@
         "index": {
           "description": "containment predicate interval",
           "hierarchy": "Data GiST BTree",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.BTree",
           "name": "Contains",
           "normalized": "Contains(a,a)",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eequality predicate (integer value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.BTree",
           "name": "Equals",
           "package": "GiST",
@@ -99,6 +106,7 @@
         "index": {
           "description": "equality predicate integer value",
           "hierarchy": "Data GiST BTree",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.BTree",
           "name": "Equals",
           "package": "GiST",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests if a value is between two others\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.BTree",
           "name": "between",
           "package": "GiST",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Tests if value is between two others",
           "hierarchy": "Data GiST BTree",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.BTree",
           "name": "between",
           "normalized": "a-\u003ea-\u003ea-\u003eBool",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe implementation of the basic GiST operations. The behaviour\nof the operations is largely influenced by the predicate used, allowing the GiST to behave\nlike a different type of balanced search tree for a different predicate. Although the operations\nare influenced by the predicate, it is always ensured that the tree stays balanced after an \ninsertion or deletion, regardless of the predicate used. It is also recommended that the minimum\nand maximum fill factor for the tree are constant throughout the whole program to ensure optimal\nbehaviour\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "GiST",
           "package": "GiST",
@@ -147,6 +158,7 @@
         "index": {
           "description": "The implementation of the basic GiST operations The behaviour of the operations is largely influenced by the predicate used allowing the GiST to behave like different type of balanced search tree for different predicate Although the operations are influenced by the predicate it is always ensured that the tree stays balanced after an insertion or deletion regardless of the predicate used It is also recommended that the minimum and maximum fill factor for the tree are constant throughout the whole program to ensure optimal behaviour",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "GiST",
           "package": "GiST",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA general entry type for the gist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "Entry",
           "package": "GiST",
@@ -170,6 +183,7 @@
         "index": {
           "description": "general entry type for the gist",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "Entry",
           "package": "GiST",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data structure used for building the GiST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "GiST",
           "package": "GiST",
@@ -193,6 +208,7 @@
         "index": {
           "description": "The data structure used for building the GiST",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "GiST",
           "package": "GiST",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA leaf entry has a predicate and data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "LeafEntry",
           "package": "GiST",
@@ -216,6 +233,7 @@
         "index": {
           "description": "leaf entry has predicate and data",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "LeafEntry",
           "package": "GiST",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA node entry has a predicate and a subtree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "NodeEntry",
           "package": "GiST",
@@ -239,6 +258,7 @@
         "index": {
           "description": "node entry has predicate and subtree",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "NodeEntry",
           "package": "GiST",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "Penalty",
           "package": "GiST",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "Penalty",
           "package": "GiST",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe predicate class that can be instanced by the user to create new types\n of balanced search trees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "Predicates",
           "package": "GiST",
@@ -283,6 +306,7 @@
         "index": {
           "description": "The predicate class that can be instanced by the user to create new types of balanced search trees",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "Predicates",
           "package": "GiST",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "LeafEntry",
           "package": "GiST",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "LeafEntry",
           "package": "GiST",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "NodeEntry",
           "package": "GiST",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "NodeEntry",
           "package": "GiST",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the given entry is consistent with a given predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "consistent",
           "package": "GiST",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Checks if the given entry is consistent with given predicate",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "consistent",
           "normalized": "a b-\u003eEntry a b-\u003eBool",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes a leaf entry from the tree, rebalancing the tree if necessary. \n Rebalancing is done to satisfy the minimum and maximum fill factor\n of the tree (represented as an integer tuple)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "delete",
           "package": "GiST",
@@ -376,6 +407,7 @@
         "index": {
           "description": "Deletes leaf entry from the tree rebalancing the tree if necessary Rebalancing is done to satisfy the minimum and maximum fill factor of the tree represented as an integer tuple",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "delete",
           "normalized": "LeafEntry a b-\u003e(Int,Int)-\u003eGiST a b-\u003eGiST a b",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new empty GiST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "empty",
           "package": "GiST",
@@ -401,6 +434,7 @@
         "index": {
           "description": "Create new empty GiST",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "empty",
           "package": "GiST",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the predicate of this entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "entryPredicate",
           "package": "GiST",
@@ -424,6 +459,7 @@
         "index": {
           "description": "Returns the predicate of this entry",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "entryPredicate",
           "normalized": "Entry a b-\u003ea b",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all the data stored in a GiST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "getData",
           "package": "GiST",
@@ -450,6 +487,7 @@
         "index": {
           "description": "Returns all the data stored in GiST",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "getData",
           "normalized": "GiST a b-\u003e[b]",
@@ -466,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts an entry into the tree, rebalancing the tree if necessary.\n Rebalancing is done to satisfy the minimum and maximum fill factor\n of the tree (represented as an integer tuple)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "insert",
           "package": "GiST",
@@ -476,6 +515,7 @@
         "index": {
           "description": "Inserts an entry into the tree rebalancing the tree if necessary Rebalancing is done to satisfy the minimum and maximum fill factor of the tree represented as an integer tuple",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "insert",
           "normalized": "LeafEntry a b-\u003e(Int,Int)-\u003eGiST a b-\u003eGiST a b",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads a GiST from file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "load",
           "package": "GiST",
@@ -501,6 +542,7 @@
         "index": {
           "description": "Loads GiST from file",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "load",
           "normalized": "FilePath-\u003eIO(GiST a b)",
@@ -516,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates a numerical penalty for inserting the entry containing the first predicate \n into a subtree rooted at an entry containing the second predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "penalty",
           "package": "GiST",
@@ -526,6 +569,7 @@
         "index": {
           "description": "Calculates numerical penalty for inserting the entry containing the first predicate into subtree rooted at an entry containing the second predicate",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "penalty",
           "normalized": "a b-\u003ea b-\u003ePenalty",
@@ -541,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of entries, returns two disjunct subsets that contain the entries in the list.\n Focus is on minimising the overlap between the splitted entries' predicates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "pickSplit",
           "package": "GiST",
@@ -551,6 +596,7 @@
         "index": {
           "description": "Given list of entries returns two disjunct subsets that contain the entries in the list Focus is on minimising the overlap between the splitted entries predicates",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "pickSplit",
           "normalized": "[Entry a b]-\u003e([Entry a b],[Entry a b])",
@@ -567,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves the GiST to file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "save",
           "package": "GiST",
@@ -577,6 +624,7 @@
         "index": {
           "description": "Saves the GiST to file",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "save",
           "normalized": "GiST a b-\u003eFilePath-\u003eIO()",
@@ -592,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches the GiST for leaf nodes that satisfy the given search predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "search",
           "package": "GiST",
@@ -602,6 +651,7 @@
         "index": {
           "description": "Searches the GiST for leaf nodes that satisfy the given search predicate",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "search",
           "normalized": "a b-\u003eGiST a b-\u003e[b]",
@@ -617,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of values in a GiST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "size",
           "package": "GiST",
@@ -627,6 +678,7 @@
         "index": {
           "description": "Return the number of values in GiST",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "size",
           "normalized": "GiST a b-\u003eInt",
@@ -642,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a predicate that is the union of all predicates of the given list of entries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.GiST",
           "name": "union",
           "package": "GiST",
@@ -652,6 +705,7 @@
         "index": {
           "description": "Returns predicate that is the union of all predicates of the given list of entries",
           "hierarchy": "Data GiST GiST",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.GiST",
           "name": "union",
           "normalized": "[a b]-\u003ea b",
@@ -667,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple implementation of the R-Tree predicate. A containment predicate is a tuple of two points\nrepresenting a rectangle with the first tuple (minx,maxy) being the upper left corner of the rectangle\nand the second (maxx,miny) being the lower right corner of the rectangle, while the equality predicate \nis simply a 2D point (tuple of two integers).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.RTree",
           "name": "RTree",
           "package": "GiST",
@@ -676,6 +731,7 @@
         "index": {
           "description": "simple implementation of the R-Tree predicate containment predicate is tuple of two points representing rectangle with the first tuple minx maxy being the upper left corner of the rectangle and the second maxx miny being the lower right corner of the rectangle while the equality predicate is simply point tuple of two integers",
           "hierarchy": "Data GiST RTree",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.RTree",
           "name": "RTree",
           "package": "GiST",
@@ -689,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.RTree",
           "name": "Predicate",
           "package": "GiST",
@@ -697,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Data GiST RTree",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.RTree",
           "name": "Predicate",
           "package": "GiST",
@@ -711,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtainment predicate (rectangle)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.RTree",
           "name": "Contains",
           "package": "GiST",
@@ -721,6 +780,7 @@
         "index": {
           "description": "containment predicate rectangle",
           "hierarchy": "Data GiST RTree",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.RTree",
           "name": "Contains",
           "normalized": "Contains(a,a)",
@@ -737,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eequality predicate (2D point)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:11 UTC 2014",
           "module": "Data.GiST.RTree",
           "name": "Equals",
           "package": "GiST",
@@ -747,6 +808,7 @@
         "index": {
           "description": "equality predicate point",
           "hierarchy": "Data GiST RTree",
+          "indexed": "2014-03-11T16:43:11",
           "module": "Data.GiST.RTree",
           "name": "Equals",
           "package": "GiST",

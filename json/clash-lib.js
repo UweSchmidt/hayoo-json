@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clash-lib"
+        "phrase": "clash-lib",
+        "type": "phrase"
       },
       "type": "context"
     }

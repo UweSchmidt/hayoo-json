@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "optimusprime"
+        "phrase": "optimusprime",
+        "type": "phrase"
       },
       "type": "context"
     }

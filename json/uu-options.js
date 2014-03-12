@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uu-options"
+        "phrase": "uu-options",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "Interleaved",
           "package": "uu-options",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "Interleaved",
           "package": "uu-options",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "BaseEntry",
           "package": "uu-options",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "BaseEntry",
           "package": "uu-options",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "Entry",
           "package": "uu-options",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "Entry",
           "package": "uu-options",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "EntryVal",
           "package": "uu-options",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "EntryVal",
           "package": "uu-options",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "EntryVals",
           "package": "uu-options",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "EntryVals",
           "package": "uu-options",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "Option",
           "package": "uu-options",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "Option",
           "package": "uu-options",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "OptionParser",
           "package": "uu-options",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "OptionParser",
           "package": "uu-options",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "OptionResult",
           "package": "uu-options",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "OptionResult",
           "package": "uu-options",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "ShowParserType",
           "package": "uu-options",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "ShowParserType",
           "package": "uu-options",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "Help",
           "package": "uu-options",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "Help",
           "package": "uu-options",
@@ -229,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "Succes",
           "package": "uu-options",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "Succes",
           "package": "uu-options",
@@ -252,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e entry is an optional \u003ccode\u003e\u003ca\u003echange\u003c/a\u003e\u003c/code\u003e entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "change",
           "package": "uu-options",
@@ -262,6 +285,7 @@
         "index": {
           "description": "choose entry is an optional change entry",
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "change",
           "package": "uu-options",
@@ -275,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e entry introduces a list of choices for the specific entry; at least one should be given\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "choose",
           "package": "uu-options",
@@ -285,6 +310,7 @@
         "index": {
           "description": "choose entry introduces list of choices for the specific entry at least one should be given",
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "choose",
           "package": "uu-options",
@@ -298,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e entry introduces a collection of options which are used to set fields in a sub-record of the main record \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "field",
           "package": "uu-options",
@@ -308,6 +335,7 @@
         "index": {
           "description": "field entry introduces collection of options which are used to set fields in sub-record of the main record",
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "field",
           "normalized": "(a()-\u003eStateT b Identity c)-\u003e(d(e-\u003ee),f)-\u003e(d(b-\u003eb),f)",
@@ -323,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eflag\u003c/a\u003e\u003c/code\u003e entry sets   a filed to a specific value when encountered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "flag",
           "package": "uu-options",
@@ -333,6 +362,7 @@
         "index": {
           "description": "flag entry sets filed to specific value when encountered",
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "flag",
           "package": "uu-options",
@@ -346,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eflags\u003c/a\u003e\u003c/code\u003e entry introduces a list of possible parameters, each with a value to which the field should be set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "flags",
           "package": "uu-options",
@@ -356,6 +387,7 @@
         "index": {
           "description": "flags entry introduces list of possible parameters each with value to which the field should be set",
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "flags",
           "package": "uu-options",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "lexeme",
           "package": "uu-options",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "lexeme",
           "normalized": "P(Str Char a b)c-\u003eP(Str Char a b)c",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "oG",
           "package": "uu-options",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "oG",
           "normalized": "a(b-\u003eb)-\u003e(c()-\u003eStateT d Identity e)-\u003eGram a(d-\u003ed)",
@@ -415,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean \u003ccode\u003e\u003ca\u003eoption\u003c/a\u003e\u003c/code\u003e entry specied an enetry which may  be provided; if absent the default value is taken\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "option",
           "package": "uu-options",
@@ -425,6 +462,7 @@
         "index": {
           "description": "an option entry specied an enetry which may be provided if absent the default value is taken",
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "option",
           "package": "uu-options",
@@ -438,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eoptions\u003c/a\u003e\u003c/code\u003e entry specifies an element which may occur more than once. The final value contains the list of all the values encountered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "options",
           "package": "uu-options",
@@ -448,6 +487,7 @@
         "index": {
           "description": "An options entry specifies an element which may occur more than once The final value contains the list of all the values encountered",
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "options",
           "normalized": "Entry[a]a",
@@ -463,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003eoptionf\u003c/code\u003e entry specifies an element which may occur more than once. The first one encountered is taken\n optionsf :: Entry a a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "optionsf",
           "package": "uu-options",
@@ -473,6 +514,7 @@
         "index": {
           "description": "An optionf entry specifies an element which may occur more than once The first one encountered is taken optionsf Entry",
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "optionsf",
           "normalized": "(a()-\u003eStateT[b]Identity c)-\u003e([Char],P(Str Char String Int)d,[Char])-\u003e(Gram(P(Str Char String Int))([b]-\u003eb),[Char])",
@@ -488,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003eoptionl\u003c/code\u003e entry specifies an element which may occur more than once. The last one encountered is taken\n optionsl :: Entry a a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "optionsl",
           "package": "uu-options",
@@ -498,6 +541,7 @@
         "index": {
           "description": "An optionl entry specifies an element which may occur more than once The last one encountered is taken optionsl Entry",
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "optionsl",
           "normalized": "(a()-\u003eStateT[b]Identity c)-\u003e([Char],P(Str Char String Int)d,[Char])-\u003e(Gram(P(Str Char String Int))([b]-\u003eb),[Char])",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "pBool",
           "package": "uu-options",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "pBool",
           "package": "uu-options",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "pString",
           "package": "uu-options",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "pString",
           "normalized": "P(Str Char a b)[Char]",
@@ -559,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003erequired\u003c/a\u003e\u003c/code\u003e entry specied an entry which has to be provided; in the recrod containing the default values one may put \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "required",
           "package": "uu-options",
@@ -569,6 +618,7 @@
         "index": {
           "description": "required entry specied an entry which has to be provided in the recrod containing the default values one may put undefined",
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "required",
           "package": "uu-options",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "required_",
           "package": "uu-options",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "required_",
           "normalized": "(a()-\u003eStateT b Identity c)-\u003e([Char],OptionParser(d-\u003ed),String,String,String)-\u003e(Gram(P(Str Char String Int))(b-\u003eb),[Char])",
@@ -605,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e equips the given option specification with an option to ask for \u003ccode\u003e--help\u003c/code\u003e. It concatenates the files coming from the command line and terminates them with an EOT. \n   Make sure your command line arguments do not contain an EOT. It parses the command line arguments and updates the `default` record passed to it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "run",
           "package": "uu-options",
@@ -614,6 +667,7 @@
         "index": {
           "description": "The function run equips the given option specification with an option to ask for help It concatenates the files coming from the command line and terminates them with an EOT Make sure your command line arguments do not contain an EOT It parses the command line arguments and updates the default record passed to it",
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "run",
           "normalized": "a-\u003e(Gram(P(Str Char String Int))(a-\u003ea),String)-\u003eString-\u003eEither(OptionResult a)[Char]",
@@ -629,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e entry introduces a required entry, which sets a spcific value; it is used in \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e and probably not very useful by itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "set",
           "package": "uu-options",
@@ -639,6 +694,7 @@
         "index": {
           "description": "set entry introduces required entry which sets spcific value it is used in choose and probably not very useful by itself",
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "set",
           "package": "uu-options",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:23 UTC 2014",
           "module": "Options.UU.Interleaved",
           "name": "showType",
           "package": "uu-options",
@@ -660,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Options UU Interleaved",
+          "indexed": "2014-03-11T20:32:23",
           "module": "Options.UU.Interleaved",
           "name": "showType",
           "normalized": "OptionParser a-\u003eString",

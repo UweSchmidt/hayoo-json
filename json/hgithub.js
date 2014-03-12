@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hgithub"
+        "phrase": "hgithub",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides bindings to the GitHub API v3.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "GitHub",
           "package": "hgithub",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides bindings to the GitHub API v3",
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "GitHub",
           "package": "hgithub",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData needed to create a new repository.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "CreateRepository",
           "package": "hgithub",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Data needed to create new repository",
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "CreateRepository",
           "package": "hgithub",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a repository. TODO add missing fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "Repository",
           "package": "hgithub",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Represent repository TODO add missing fields",
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "Repository",
           "package": "hgithub",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "CreateRepository",
           "package": "hgithub",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "CreateRepository",
           "package": "hgithub",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "Repository",
           "package": "hgithub",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "Repository",
           "package": "hgithub",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a GET agains the specified URI (e.g. `/user/repos`) using the\n supplied `username:password` and parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "apiGet",
           "package": "hgithub",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Execute GET agains the specified URI e.g user repos using the supplied username password and parameters",
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "apiGet",
           "normalized": "String-\u003eString-\u003e[(CI ByteString,ByteString)]-\u003eIO(Maybe a)",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a request from a `username:password` bytestring (suitable for a\n Basic Auth scheme), a URI (starting with a \u003ccode\u003e\u003ca\u003e/\u003c/a\u003e\u003c/code\u003e, e.g. `/user/repos`), and a\n list of parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "apiGetRequest",
           "package": "hgithub",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Construct request from username password bytestring suitable for Basic Auth scheme URI starting with e.g user repos and list of parameters",
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "apiGetRequest",
           "normalized": "ByteString-\u003eString-\u003e[(CI ByteString,ByteString)]-\u003eIO(Request IO)",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a POST agains the specified URI (e.g. `/user/repos`) using the\n supplied `username:password` and body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "apiPost",
           "package": "hgithub",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Execute POST agains the specified URI e.g user repos using the supplied username password and body",
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "apiPost",
           "normalized": "String-\u003eString-\u003eByteString-\u003eIO(Maybe a)",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a request from a `username:password` bytestring (suitable for a\n Basic Auth scheme), a URI (starting with a \u003ccode\u003e\u003ca\u003e/\u003c/a\u003e\u003c/code\u003e, e.g. `/user/repos`), and a\n body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "apiPostRequest",
           "package": "hgithub",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Construct request from username password bytestring suitable for Basic Auth scheme URI starting with e.g user repos and body",
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "apiPostRequest",
           "normalized": "ByteString-\u003eString-\u003eByteString-\u003eIO(Request IO)",
@@ -235,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "createRepositoryDescription",
           "package": "hgithub",
@@ -244,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "createRepositoryDescription",
           "package": "hgithub",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "createRepositoryName",
           "package": "hgithub",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "createRepositoryName",
           "package": "hgithub",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new repository from a given name and description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "repositoryCreate",
           "package": "hgithub",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Create new repository from given name and description",
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "repositoryCreate",
           "normalized": "String-\u003eString-\u003eMaybe String-\u003eIO(Maybe Repository)",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "repositoryDescription",
           "package": "hgithub",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "repositoryDescription",
           "package": "hgithub",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the list of repositories for a given `username:password` string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "repositoryList",
           "package": "hgithub",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Return the list of repositories for given username password string",
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "repositoryList",
           "normalized": "String-\u003eIO(Maybe[Repository])",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:36 UTC 2014",
           "module": "Network.GitHub",
           "name": "repositoryName",
           "package": "hgithub",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Network GitHub",
+          "indexed": "2014-03-11T18:38:36",
           "module": "Network.GitHub",
           "name": "repositoryName",
           "package": "hgithub",

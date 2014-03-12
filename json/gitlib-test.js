@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gitlib-test"
+        "phrase": "gitlib-test",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "Smoke",
           "package": "gitlib-test",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "Smoke",
           "package": "gitlib-test",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "Kind",
           "package": "gitlib-test",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "Kind",
           "package": "gitlib-test",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "TreeitException",
           "package": "gitlib-test",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "TreeitException",
           "package": "gitlib-test",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "Bl",
           "package": "gitlib-test",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "Bl",
           "package": "gitlib-test",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "Tr",
           "package": "gitlib-test",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "Tr",
           "package": "gitlib-test",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "TreeitException",
           "package": "gitlib-test",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "TreeitException",
           "package": "gitlib-test",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "doTreeit",
           "package": "gitlib-test",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "doTreeit",
           "normalized": "String-\u003eRepositoryFactory a b c-\u003e[Kind]-\u003eTreeT c a d-\u003eb()",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "isBlobKind",
           "package": "gitlib-test",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "isBlobKind",
           "normalized": "Kind-\u003eBool",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "kindPath",
           "package": "gitlib-test",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "kindPath",
           "normalized": "Kind-\u003eTreeFilePath",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "mkBlob",
           "package": "gitlib-test",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "mkBlob",
           "normalized": "TreeFilePath-\u003eTreeT a b()",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "sampleCommit",
           "package": "gitlib-test",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "sampleCommit",
           "normalized": "TreeOid a-\u003eSignature-\u003eb(Commit a)",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "smokeTestSpec",
           "package": "gitlib-test",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "smokeTestSpec",
           "normalized": "RepositoryFactory a IO b-\u003eRepositoryFactory c a d-\u003eSpec",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "treeit",
           "package": "gitlib-test",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "treeit",
           "normalized": "String-\u003eRepositoryFactory a b c-\u003e[Kind]-\u003eTreeT c a d-\u003eSpec",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:44 UTC 2014",
           "module": "Git.Smoke",
           "name": "treeitFail",
           "package": "gitlib-test",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Git Smoke",
+          "indexed": "2014-03-11T18:17:44",
           "module": "Git.Smoke",
           "name": "treeitFail",
           "normalized": "String-\u003eRepositoryFactory a IO b-\u003e[Kind]-\u003eTreeT b a c-\u003eSpec",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "base32-bytestring"
+        "phrase": "base32-bytestring",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficient encoding and decoding of base32hex encoded bytestring\n   according to RFC 4648. \u003ca\u003ehttp://tools.ietf.org/html/rfc4648\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis module recommended to be imported as \u003ccode\u003eimport\n   Data.ByteString.Base32.Hex as Base32Hex\u003c/code\u003e to avoid name clashes\n   with \u003ccode\u003eData.ByteString.Base32\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:06 UTC 2014",
           "module": "Data.ByteString.Base32.Hex",
           "name": "Hex",
           "package": "base32-bytestring",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Efficient encoding and decoding of base32hex encoded bytestring according to RFC http tools.ietf.org html rfc4648 This module recommended to be imported as import Data.ByteString.Base32.Hex as Base32Hex to avoid name clashes with Data.ByteString.Base32",
           "hierarchy": "Data ByteString Base32 Hex",
+          "indexed": "2014-03-11T17:17:06",
           "module": "Data.ByteString.Base32.Hex",
           "name": "Hex",
           "package": "base32-bytestring",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase32Hex encoded bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:06 UTC 2014",
           "module": "Data.ByteString.Base32.Hex",
           "name": "Base32Hex",
           "package": "base32-bytestring",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Base32Hex encoded bytestring",
           "hierarchy": "Data ByteString Base32 Hex",
+          "indexed": "2014-03-11T17:17:06",
           "module": "Data.ByteString.Base32.Hex",
           "name": "Base32Hex",
           "package": "base32-bytestring",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a base32hex encoded bytestring. This functions is\n case-insensitive and do not requires correct padding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:06 UTC 2014",
           "module": "Data.ByteString.Base32.Hex",
           "name": "decode",
           "package": "base32-bytestring",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Decode base32hex encoded bytestring This functions is case-insensitive and do not requires correct padding",
           "hierarchy": "Data ByteString Base32 Hex",
+          "indexed": "2014-03-11T17:17:06",
           "module": "Data.ByteString.Base32.Hex",
           "name": "decode",
           "normalized": "Base Hex-\u003eEither String BS.ByteString",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e but with additional leniency: decodeLenient\n will skip non-alphabet characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:06 UTC 2014",
           "module": "Data.ByteString.Base32.Hex",
           "name": "decodeLenient",
           "package": "base32-bytestring",
@@ -100,6 +107,7 @@
         "index": {
           "description": "The same as decode but with additional leniency decodeLenient will skip non-alphabet characters",
           "hierarchy": "Data ByteString Base32 Hex",
+          "indexed": "2014-03-11T17:17:06",
           "module": "Data.ByteString.Base32.Hex",
           "name": "decodeLenient",
           "normalized": "Base Hex-\u003eEither String BS.ByteString",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an arbitrary bytestring into (upper case) base32hex form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:06 UTC 2014",
           "module": "Data.ByteString.Base32.Hex",
           "name": "encode",
           "package": "base32-bytestring",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Encode an arbitrary bytestring into upper case base32hex form",
           "hierarchy": "Data ByteString Base32 Hex",
+          "indexed": "2014-03-11T17:17:06",
           "module": "Data.ByteString.Base32.Hex",
           "name": "encode",
           "normalized": "BS.ByteString-\u003eBase Hex",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficient encoding and decoding of base32 encoded bytestring\n   according to RFC 4648. \u003ca\u003ehttp://tools.ietf.org/html/rfc4648\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis module recommended to be imported as\n   \u003ccode\u003eimport Data.ByteString.Base32 as Base32\u003c/code\u003e to avoid name clashes\n   with \u003ccode\u003eData.Binary\u003c/code\u003e or \u003ccode\u003eData.ByteString.Base64\u003c/code\u003e modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:06 UTC 2014",
           "module": "Data.ByteString.Base32",
           "name": "Base32",
           "package": "base32-bytestring",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Efficient encoding and decoding of base32 encoded bytestring according to RFC http tools.ietf.org html rfc4648 This module recommended to be imported as import Data.ByteString.Base32 as Base32 to avoid name clashes with Data.Binary or Data.ByteString.Base64 modules",
           "hierarchy": "Data ByteString Base32",
+          "indexed": "2014-03-11T17:17:06",
           "module": "Data.ByteString.Base32",
           "name": "Base32",
           "package": "base32-bytestring",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase32 encoded bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:06 UTC 2014",
           "module": "Data.ByteString.Base32",
           "name": "Base32",
           "package": "base32-bytestring",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Base32 encoded bytestring",
           "hierarchy": "Data ByteString Base32",
+          "indexed": "2014-03-11T17:17:06",
           "module": "Data.ByteString.Base32",
           "name": "Base32",
           "package": "base32-bytestring",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a base32 encoded bytestring. This functions is\n case-insensitive and do not require correct padding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:06 UTC 2014",
           "module": "Data.ByteString.Base32",
           "name": "decode",
           "package": "base32-bytestring",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Decode base32 encoded bytestring This functions is case-insensitive and do not require correct padding",
           "hierarchy": "Data ByteString Base32",
+          "indexed": "2014-03-11T17:17:06",
           "module": "Data.ByteString.Base32",
           "name": "decode",
           "normalized": "Base-\u003eEither String BS.ByteString",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e but with additional leniency: decodeLenient\n will skip non-alphabet characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:06 UTC 2014",
           "module": "Data.ByteString.Base32",
           "name": "decodeLenient",
           "package": "base32-bytestring",
@@ -222,6 +239,7 @@
         "index": {
           "description": "The same as decode but with additional leniency decodeLenient will skip non-alphabet characters",
           "hierarchy": "Data ByteString Base32",
+          "indexed": "2014-03-11T17:17:06",
           "module": "Data.ByteString.Base32",
           "name": "decodeLenient",
           "normalized": "Base-\u003eEither String BS.ByteString",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an arbitrary bytestring into (upper case) base32 form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:06 UTC 2014",
           "module": "Data.ByteString.Base32",
           "name": "encode",
           "package": "base32-bytestring",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Encode an arbitrary bytestring into upper case base32 form",
           "hierarchy": "Data ByteString Base32",
+          "indexed": "2014-03-11T17:17:06",
           "module": "Data.ByteString.Base32",
           "name": "encode",
           "normalized": "BS.ByteString-\u003eBase",

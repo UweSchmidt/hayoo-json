@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gsasl"
+        "phrase": "gsasl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GNU",
           "package": "gsasl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GNU",
           "package": "gsasl",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Error",
           "package": "gsasl",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Error",
           "package": "gsasl",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Mechanism",
           "package": "gsasl",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Mechanism",
           "package": "gsasl",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Progress",
           "package": "gsasl",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Progress",
           "package": "gsasl",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Property",
           "package": "gsasl",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Property",
           "package": "gsasl",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "SASL",
           "package": "gsasl",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "SASL",
           "package": "gsasl",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Session",
           "package": "gsasl",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Session",
           "package": "gsasl",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "AuthenticationError",
           "package": "gsasl",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "AuthenticationError",
           "package": "gsasl",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Base64Error",
           "package": "gsasl",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Base64Error",
           "package": "gsasl",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Complete",
           "package": "gsasl",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Complete",
           "package": "gsasl",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "CryptoError",
           "package": "gsasl",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "CryptoError",
           "package": "gsasl",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_AcceptSecContextError",
           "package": "gsasl",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_AcceptSecContextError",
           "package": "gsasl",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_AquireCredError",
           "package": "gsasl",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_AquireCredError",
           "package": "gsasl",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_DecapsulateTokenError",
           "package": "gsasl",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_DecapsulateTokenError",
           "package": "gsasl",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_DisplayNameError",
           "package": "gsasl",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_DisplayNameError",
           "package": "gsasl",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_EncapsulateTokenError",
           "package": "gsasl",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_EncapsulateTokenError",
           "package": "gsasl",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_ImportNameError",
           "package": "gsasl",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_ImportNameError",
           "package": "gsasl",
@@ -385,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_InitSecContextError",
           "package": "gsasl",
@@ -394,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_InitSecContextError",
           "package": "gsasl",
@@ -407,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_InquireMechForSASLNameError",
           "package": "gsasl",
@@ -416,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_InquireMechForSASLNameError",
           "package": "gsasl",
@@ -429,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_ReleaseBufferError",
           "package": "gsasl",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_ReleaseBufferError",
           "package": "gsasl",
@@ -451,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_ReleaseOIDSetError",
           "package": "gsasl",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_ReleaseOIDSetError",
           "package": "gsasl",
@@ -473,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_TestOIDSetMemberError",
           "package": "gsasl",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_TestOIDSetMemberError",
           "package": "gsasl",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_UnsupportedProtectionError",
           "package": "gsasl",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_UnsupportedProtectionError",
           "package": "gsasl",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_UnwrapError",
           "package": "gsasl",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_UnwrapError",
           "package": "gsasl",
@@ -539,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_WrapError",
           "package": "gsasl",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "GSSAPI_WrapError",
           "package": "gsasl",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "IntegrityError",
           "package": "gsasl",
@@ -570,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "IntegrityError",
           "package": "gsasl",
@@ -583,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "KerberosV5_InitError",
           "package": "gsasl",
@@ -592,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "KerberosV5_InitError",
           "package": "gsasl",
@@ -605,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "KerberosV5_InternalError",
           "package": "gsasl",
@@ -614,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "KerberosV5_InternalError",
           "package": "gsasl",
@@ -627,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "MallocError",
           "package": "gsasl",
@@ -636,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "MallocError",
           "package": "gsasl",
@@ -649,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Mechanism",
           "package": "gsasl",
@@ -658,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "Mechanism",
           "package": "gsasl",
@@ -671,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "MechanismCalledTooManyTimes",
           "package": "gsasl",
@@ -680,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "MechanismCalledTooManyTimes",
           "package": "gsasl",
@@ -693,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "MechanismParseError",
           "package": "gsasl",
@@ -702,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "MechanismParseError",
           "package": "gsasl",
@@ -715,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NeedsMore",
           "package": "gsasl",
@@ -724,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NeedsMore",
           "package": "gsasl",
@@ -737,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoAnonymousToken",
           "package": "gsasl",
@@ -746,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoAnonymousToken",
           "package": "gsasl",
@@ -759,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoAuthID",
           "package": "gsasl",
@@ -768,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoAuthID",
           "package": "gsasl",
@@ -781,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoAuthzID",
           "package": "gsasl",
@@ -790,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoAuthzID",
           "package": "gsasl",
@@ -803,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoCallback",
           "package": "gsasl",
@@ -812,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoCallback",
           "package": "gsasl",
@@ -825,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoClientCode",
           "package": "gsasl",
@@ -834,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoClientCode",
           "package": "gsasl",
@@ -847,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoHostname",
           "package": "gsasl",
@@ -856,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoHostname",
           "package": "gsasl",
@@ -869,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoPIN",
           "package": "gsasl",
@@ -878,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoPIN",
           "package": "gsasl",
@@ -891,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoPasscode",
           "package": "gsasl",
@@ -900,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoPasscode",
           "package": "gsasl",
@@ -913,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoPassword",
           "package": "gsasl",
@@ -922,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoPassword",
           "package": "gsasl",
@@ -935,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoServerCode",
           "package": "gsasl",
@@ -944,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoServerCode",
           "package": "gsasl",
@@ -957,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoService",
           "package": "gsasl",
@@ -966,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "NoService",
           "package": "gsasl",
@@ -979,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyAnonymousToken",
           "package": "gsasl",
@@ -988,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyAnonymousToken",
           "package": "gsasl",
@@ -1001,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyAuthID",
           "package": "gsasl",
@@ -1010,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyAuthID",
           "package": "gsasl",
@@ -1023,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyAuthzID",
           "package": "gsasl",
@@ -1032,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyAuthzID",
           "package": "gsasl",
@@ -1045,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyDigestMD5HashedPassword",
           "package": "gsasl",
@@ -1054,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyDigestMD5HashedPassword",
           "package": "gsasl",
@@ -1067,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyGSSAPIDisplayName",
           "package": "gsasl",
@@ -1076,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyGSSAPIDisplayName",
           "package": "gsasl",
@@ -1089,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyHostname",
           "package": "gsasl",
@@ -1098,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyHostname",
           "package": "gsasl",
@@ -1111,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyPIN",
           "package": "gsasl",
@@ -1120,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyPIN",
           "package": "gsasl",
@@ -1133,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyPasscode",
           "package": "gsasl",
@@ -1142,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyPasscode",
           "package": "gsasl",
@@ -1155,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyPassword",
           "package": "gsasl",
@@ -1164,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyPassword",
           "package": "gsasl",
@@ -1177,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyQOP",
           "package": "gsasl",
@@ -1186,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyQOP",
           "package": "gsasl",
@@ -1199,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyQOPS",
           "package": "gsasl",
@@ -1208,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyQOPS",
           "package": "gsasl",
@@ -1221,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyRealm",
           "package": "gsasl",
@@ -1230,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyRealm",
           "package": "gsasl",
@@ -1243,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyScramIter",
           "package": "gsasl",
@@ -1252,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyScramIter",
           "package": "gsasl",
@@ -1265,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyScramSalt",
           "package": "gsasl",
@@ -1274,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyScramSalt",
           "package": "gsasl",
@@ -1287,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyScramSaltedPassword",
           "package": "gsasl",
@@ -1296,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyScramSaltedPassword",
           "package": "gsasl",
@@ -1309,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyService",
           "package": "gsasl",
@@ -1318,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertyService",
           "package": "gsasl",
@@ -1331,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertySuggestedPIN",
           "package": "gsasl",
@@ -1340,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "PropertySuggestedPIN",
           "package": "gsasl",
@@ -1353,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "SASLPrepError",
           "package": "gsasl",
@@ -1362,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "SASLPrepError",
           "package": "gsasl",
@@ -1375,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "SecurID_ServerNeedAdditionalPasscode",
           "package": "gsasl",
@@ -1384,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "SecurID_ServerNeedAdditionalPasscode",
           "package": "gsasl",
@@ -1397,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "SecurID_ServerNeedNewPIN",
           "package": "gsasl",
@@ -1406,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "SecurID_ServerNeedNewPIN",
           "package": "gsasl",
@@ -1419,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "UnknownMechanism",
           "package": "gsasl",
@@ -1428,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "UnknownMechanism",
           "package": "gsasl",
@@ -1441,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "ValidateAnonymous",
           "package": "gsasl",
@@ -1450,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "ValidateAnonymous",
           "package": "gsasl",
@@ -1463,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "ValidateExternal",
           "package": "gsasl",
@@ -1472,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "ValidateExternal",
           "package": "gsasl",
@@ -1485,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "ValidateGSSAPI",
           "package": "gsasl",
@@ -1494,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "ValidateGSSAPI",
           "package": "gsasl",
@@ -1507,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "ValidateSecurID",
           "package": "gsasl",
@@ -1516,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "ValidateSecurID",
           "package": "gsasl",
@@ -1529,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "ValidateSimple",
           "package": "gsasl",
@@ -1538,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "ValidateSimple",
           "package": "gsasl",
@@ -1551,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "catch",
           "package": "gsasl",
@@ -1560,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "catch",
           "normalized": "Session a-\u003e(Error-\u003eSession a)-\u003eSession a",
@@ -1575,6 +1717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the header and library versions are compatible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "checkVersion",
           "package": "gsasl",
@@ -1585,6 +1728,7 @@
         "index": {
           "description": "Whether the header and library versions are compatible",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "checkVersion",
           "package": "gsasl",
@@ -1599,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of \u003ccode\u003e\u003ca\u003eMechanism\u003c/a\u003e\u003c/code\u003es supported by the \u003ccode\u003elibgsasl\u003c/code\u003e client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "clientMechanisms",
           "package": "gsasl",
@@ -1609,6 +1754,7 @@
         "index": {
           "description": "list of Mechanism supported by the libgsasl client",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "clientMechanisms",
           "normalized": "SASL[Mechanism]",
@@ -1625,6 +1771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of \u003ccode\u003e\u003ca\u003eMechanism\u003c/a\u003e\u003c/code\u003es, suggest which to use (or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if\n no supported \u003ccode\u003e\u003ca\u003eMechanism\u003c/a\u003e\u003c/code\u003e is found).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "clientSuggestMechanism",
           "package": "gsasl",
@@ -1635,6 +1782,7 @@
         "index": {
           "description": "Given list of Mechanism suggest which to use or Nothing if no supported Mechanism is found",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "clientSuggestMechanism",
           "normalized": "[Mechanism]-\u003eSASL(Maybe Mechanism)",
@@ -1651,6 +1799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether there is client-side support for a specified \u003ccode\u003e\u003ca\u003eMechanism\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "clientSupports",
           "package": "gsasl",
@@ -1661,6 +1810,7 @@
         "index": {
           "description": "Whether there is client-side support for specified Mechanism",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "clientSupports",
           "normalized": "Mechanism-\u003eSASL Bool",
@@ -1677,6 +1827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode data according to the negotiated SASL mechanism. This might mean\n the data is integrity or privacy protected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "decode",
           "package": "gsasl",
@@ -1687,6 +1838,7 @@
         "index": {
           "description": "Decode data according to the negotiated SASL mechanism This might mean the data is integrity or privacy protected",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "decode",
           "normalized": "ByteString-\u003eSession ByteString",
@@ -1702,6 +1854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode data according to the negotiated SASL mechanism. This might mean\n the data is integrity or privacy protected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "encode",
           "package": "gsasl",
@@ -1712,6 +1865,7 @@
         "index": {
           "description": "Encode data according to the negotiated SASL mechanism This might mean the data is integrity or privacy protected",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "encode",
           "normalized": "ByteString-\u003eSession ByteString",
@@ -1726,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "fromBase64",
           "package": "gsasl",
@@ -1735,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "fromBase64",
           "normalized": "ByteString-\u003eByteString",
@@ -1751,6 +1907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the data stored in the session for the given property,\n possibly invoking the current callback to get the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "getProperty",
           "package": "gsasl",
@@ -1761,6 +1918,7 @@
         "index": {
           "description": "Retrieve the data stored in the session for the given property possibly invoking the current callback to get the value",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "getProperty",
           "normalized": "Property-\u003eSession(Maybe ByteString)",
@@ -1777,6 +1935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the data stored in the session for the given property,\n without invoking the current callback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "getPropertyFast",
           "package": "gsasl",
@@ -1787,6 +1946,7 @@
         "index": {
           "description": "Retrieve the data stored in the session for the given property without invoking the current callback",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "getPropertyFast",
           "normalized": "Property-\u003eSession(Maybe ByteString)",
@@ -1802,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "handle",
           "package": "gsasl",
@@ -1811,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "handle",
           "normalized": "(Error-\u003eSession a)-\u003eSession a-\u003eSession a",
@@ -1826,6 +1988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich version of \u003ccode\u003egsasl.h\u003c/code\u003e this module was compiled against\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "headerVersion",
           "package": "gsasl",
@@ -1836,6 +1999,7 @@
         "index": {
           "description": "Which version of gsasl.h this module was compiled against",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "headerVersion",
           "normalized": "(Integer,Integer,Integer)",
@@ -1851,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "hmacMD5",
           "package": "gsasl",
@@ -1859,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "hmacMD5",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",
@@ -1874,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "hmacSHA1",
           "package": "gsasl",
@@ -1882,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "hmacSHA1",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",
@@ -1898,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich version of \u003ccode\u003elibgsasl.so\u003c/code\u003e is loaded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "libraryVersion",
           "package": "gsasl",
@@ -1908,6 +2077,7 @@
         "index": {
           "description": "Which version of libgsasl.so is loaded",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "libraryVersion",
           "normalized": "IO(Integer,Integer,Integer)",
@@ -1923,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "md5",
           "package": "gsasl",
@@ -1932,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "md5",
           "normalized": "ByteString-\u003eByteString",
@@ -1947,6 +2119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the session's SASL mechanism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "mechanismName",
           "package": "gsasl",
@@ -1957,6 +2130,7 @@
         "index": {
           "description": "The name of the session SASL mechanism",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "mechanismName",
           "package": "gsasl",
@@ -1971,6 +2145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns unpredictable data of a given size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "nonce",
           "package": "gsasl",
@@ -1981,6 +2156,7 @@
         "index": {
           "description": "Returns unpredictable data of given size",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "nonce",
           "normalized": "Integer-\u003eIO ByteString",
@@ -1996,6 +2172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns cryptographically strong random data of a given size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "random",
           "package": "gsasl",
@@ -2006,6 +2183,7 @@
         "index": {
           "description": "Returns cryptographically strong random data of given size",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "random",
           "normalized": "Integer-\u003eIO ByteString",
@@ -2021,6 +2199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the current callback; the property indicates what action the\n callback is expected to perform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "runCallback",
           "package": "gsasl",
@@ -2031,6 +2210,7 @@
         "index": {
           "description": "Run the current callback the property indicates what action the callback is expected to perform",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "runCallback",
           "normalized": "Property-\u003eSession Progress",
@@ -2047,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a session using the \u003ccode\u003elibgsasl\u003c/code\u003e client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "runClient",
           "package": "gsasl",
@@ -2057,6 +2238,7 @@
         "index": {
           "description": "Run session using the libgsasl client",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "runClient",
           "normalized": "Mechanism-\u003eSession a-\u003eSASL(Either Error a)",
@@ -2072,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "runSASL",
           "package": "gsasl",
@@ -2081,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "runSASL",
           "normalized": "SASL a-\u003eIO a",
@@ -2097,6 +2281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a session using the \u003ccode\u003elibgsasl\u003c/code\u003e server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "runServer",
           "package": "gsasl",
@@ -2107,6 +2292,7 @@
         "index": {
           "description": "Run session using the libgsasl server",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "runServer",
           "normalized": "Mechanism-\u003eSession a-\u003eSASL(Either Error a)",
@@ -2123,6 +2309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of \u003ccode\u003e\u003ca\u003eMechanism\u003c/a\u003e\u003c/code\u003es supported by the \u003ccode\u003elibgsasl\u003c/code\u003e server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "serverMechanisms",
           "package": "gsasl",
@@ -2133,6 +2320,7 @@
         "index": {
           "description": "list of Mechanism supported by the libgsasl server",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "serverMechanisms",
           "normalized": "SASL[Mechanism]",
@@ -2149,6 +2337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether there is server-side support for a specified \u003ccode\u003e\u003ca\u003eMechanism\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "serverSupports",
           "package": "gsasl",
@@ -2159,6 +2348,7 @@
         "index": {
           "description": "Whether there is server-side support for specified Mechanism",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "serverSupports",
           "normalized": "Mechanism-\u003eSASL Bool",
@@ -2175,6 +2365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current SASL callback. The callback will be used by mechanisms\n to discover various parameters, such as usernames and passwords.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "setCallback",
           "package": "gsasl",
@@ -2185,6 +2376,7 @@
         "index": {
           "description": "Set the current SASL callback The callback will be used by mechanisms to discover various parameters such as usernames and passwords",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "setCallback",
           "normalized": "(Property-\u003eSession Progress)-\u003eSASL()",
@@ -2201,6 +2393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore some data in the session for the given property. The data must\n be \u003ccode\u003eNULL\u003c/code\u003e-terminated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "setProperty",
           "package": "gsasl",
@@ -2211,6 +2404,7 @@
         "index": {
           "description": "Store some data in the session for the given property The data must be NULL terminated",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "setProperty",
           "normalized": "Property-\u003eByteString-\u003eSession()",
@@ -2226,6 +2420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "sha1",
           "package": "gsasl",
@@ -2235,6 +2430,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "sha1",
           "normalized": "ByteString-\u003eByteString",
@@ -2250,6 +2446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform one step of SASL authentication. This reads data from the other\n end, processes it (potentially running the callback), and returns data\n to be sent back.\n\u003c/p\u003e\u003cp\u003eAlso returns \u003ccode\u003e\u003ca\u003eNeedsMore\u003c/a\u003e\u003c/code\u003e if authentication is not yet complete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "step",
           "package": "gsasl",
@@ -2260,6 +2457,7 @@
         "index": {
           "description": "Perform one step of SASL authentication This reads data from the other end processes it potentially running the callback and returns data to be sent back Also returns NeedsMore if authentication is not yet complete",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "step",
           "normalized": "ByteString-\u003eSession(ByteString,Progress)",
@@ -2275,6 +2473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple wrapper around \u003ccode\u003e\u003ca\u003estep\u003c/a\u003e\u003c/code\u003e which uses base64 to decode the input\n and encode the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "step64",
           "package": "gsasl",
@@ -2285,6 +2484,7 @@
         "index": {
           "description": "simple wrapper around step which uses base64 to decode the input and encode the output",
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "step64",
           "normalized": "ByteString-\u003eSession(ByteString,Progress)",
@@ -2299,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "throw",
           "package": "gsasl",
@@ -2308,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "throw",
           "normalized": "Error-\u003eSession a",
@@ -2322,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "toBase64",
           "package": "gsasl",
@@ -2331,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "toBase64",
           "normalized": "ByteString-\u003eByteString",
@@ -2346,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:56 UTC 2014",
           "module": "Network.Protocol.SASL.GNU",
           "name": "try",
           "package": "gsasl",
@@ -2355,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol SASL GNU",
+          "indexed": "2014-03-11T18:21:56",
           "module": "Network.Protocol.SASL.GNU",
           "name": "try",
           "normalized": "Session a-\u003eSession(Either Error a)",

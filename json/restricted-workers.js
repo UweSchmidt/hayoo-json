@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "restricted-workers"
+        "phrase": "restricted-workers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe implementation of security restrictions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Limits",
           "name": "Limits",
           "package": "restricted-workers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The implementation of security restrictions",
           "hierarchy": "System Restricted Limits",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Limits",
           "name": "Limits",
           "package": "restricted-workers",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the uid of the current process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Limits",
           "name": "changeUserID",
           "package": "restricted-workers",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Change the uid of the current process",
           "hierarchy": "System Restricted Limits",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Limits",
           "name": "changeUserID",
           "normalized": "UserID-\u003eIO()",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the chroot jail\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Limits",
           "name": "chroot",
           "package": "restricted-workers",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Set the chroot jail",
           "hierarchy": "System Restricted Limits",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Limits",
           "name": "chroot",
           "normalized": "FilePath-\u003eIO()",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWaits for a certain period of time\n and then kills the process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Limits",
           "name": "processTimeout",
           "package": "restricted-workers",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Waits for certain period of time and then kills the process",
           "hierarchy": "System Restricted Limits",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Limits",
           "name": "processTimeout",
           "normalized": "ProcessID-\u003eInt-\u003eIO()",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a process to a cgroup\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Limits",
           "name": "setCGroup",
           "package": "restricted-workers",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Add process to cgroup",
           "hierarchy": "System Restricted Limits",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Limits",
           "name": "setCGroup",
           "normalized": "LimitSettings-\u003eProcessID-\u003eIO()",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the \u003ccode\u003e\u003ca\u003eLimitSettings\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Limits",
           "name": "setLimits",
           "package": "restricted-workers",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Apply the LimitSettings",
           "hierarchy": "System Restricted Limits",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Limits",
           "name": "setLimits",
           "normalized": "LimitSettings-\u003eIO()",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet rlimits using setrlimit syscall\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Limits",
           "name": "setRLimits",
           "package": "restricted-workers",
@@ -179,6 +192,7 @@
         "index": {
           "description": "Set rlimits using setrlimit syscall",
           "hierarchy": "System Restricted Limits",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Limits",
           "name": "setRLimits",
           "normalized": "RLimits-\u003eIO()",
@@ -195,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the security context.\n To be more precise, it only sets up the type.\n Example usage:\n\u003c/p\u003e\u003cpre\u003e setupSELinuxCntx \"my_restricted_t\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Limits",
           "name": "setupSELinuxCntx",
           "package": "restricted-workers",
@@ -205,6 +220,7 @@
         "index": {
           "description": "Set the security context To be more precise it only sets up the type Example usage setupSELinuxCntx my restricted",
           "hierarchy": "System Restricted Limits",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Limits",
           "name": "setupSELinuxCntx",
           "normalized": "SecurityContext-\u003eIO()",
@@ -220,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "Types",
           "package": "restricted-workers",
@@ -228,6 +245,7 @@
         },
         "index": {
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "Types",
           "package": "restricted-workers",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatastructure that holds the information about restrictions and\n   limitations for the worker process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "LimitSettings",
           "package": "restricted-workers",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Datastructure that holds the information about restrictions and limitations for the worker process",
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "LimitSettings",
           "package": "restricted-workers",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResource limits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "RLimits",
           "package": "restricted-workers",
@@ -274,6 +295,7 @@
         "index": {
           "description": "Resource limits",
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "RLimits",
           "package": "restricted-workers",
@@ -287,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "LimitSettings",
           "package": "restricted-workers",
@@ -296,6 +319,7 @@
         },
         "index": {
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "LimitSettings",
           "package": "restricted-workers",
@@ -309,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "RLimits",
           "package": "restricted-workers",
@@ -318,6 +343,7 @@
         },
         "index": {
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "RLimits",
           "package": "restricted-workers",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA filepath to the \u003ccode\u003etasks\u003c/code\u003e file for the desired cgroup.\n\u003c/p\u003e\u003cp\u003eFor example, if I have mounted the \u003ccode\u003ecpu\u003c/code\u003e controller at\n \u003ccode\u003e\u003cem\u003ecgroups\u003c/em\u003ecpu/\u003c/code\u003e and I want the evaluator to be running in the\n cgroup \u003ccode\u003eidiaworkers\u003c/code\u003e then the \u003ccode\u003e\u003ca\u003ecgroupPath\u003c/a\u003e\u003c/code\u003e would be\n \u003ccode\u003e\u003cem\u003ecgroups\u003c/em\u003ecpu/idiaworkers\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "cgroupPath",
           "package": "restricted-workers",
@@ -342,6 +369,7 @@
         "index": {
           "description": "filepath to the tasks file for the desired cgroup For example if have mounted the cpu controller at cgroups cpu and want the evaluator to be running in the cgroup idiaworkers then the cgroupPath would be cgroups cpu idiaworkers",
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "cgroupPath",
           "package": "restricted-workers",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe directory that the evaluator process will be \u003ccode\u003echroot\u003c/code\u003eed\n into. Please note that if chroot is applied, all the pathes\n in \u003ccode\u003eEvalSettings\u003c/code\u003e will be calculated relatively to this\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "chrootPath",
           "package": "restricted-workers",
@@ -366,6 +395,7 @@
         "index": {
           "description": "The directory that the evaluator process will be chroot ed into Please note that if chroot is applied all the pathes in EvalSettings will be calculated relatively to this value",
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "chrootPath",
           "package": "restricted-workers",
@@ -379,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "coreFileSizeLimit",
           "package": "restricted-workers",
@@ -388,6 +419,7 @@
         },
         "index": {
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "coreFileSizeLimit",
           "package": "restricted-workers",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "cpuTimeLimit",
           "package": "restricted-workers",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "cpuTimeLimit",
           "package": "restricted-workers",
@@ -423,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "dataSizeLimit",
           "package": "restricted-workers",
@@ -432,6 +467,7 @@
         },
         "index": {
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "dataSizeLimit",
           "package": "restricted-workers",
@@ -446,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault \u003ccode\u003e\u003ca\u003eLimitSettings\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "defaultLimits",
           "package": "restricted-workers",
@@ -456,6 +493,7 @@
         "index": {
           "description": "Default LimitSettings",
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "defaultLimits",
           "package": "restricted-workers",
@@ -469,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "fileSizeLimit",
           "package": "restricted-workers",
@@ -478,6 +517,7 @@
         },
         "index": {
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "fileSizeLimit",
           "package": "restricted-workers",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess priority for the \u003ccode\u003enice\u003c/code\u003e syscall.\n -20 is the highest, 20 is the lowest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "niceness",
           "package": "restricted-workers",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Process priority for the nice syscall is the highest is the lowest",
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "niceness",
           "package": "restricted-workers",
@@ -514,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "openFilesLimit",
           "package": "restricted-workers",
@@ -523,6 +566,7 @@
         },
         "index": {
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "openFilesLimit",
           "package": "restricted-workers",
@@ -537,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe UID that will be set after the call to chroot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "processUid",
           "package": "restricted-workers",
@@ -547,6 +592,7 @@
         "index": {
           "description": "The UID that will be set after the call to chroot",
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "processUid",
           "package": "restricted-workers",
@@ -561,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResource limits for the \u003ccode\u003esetrlimit\u003c/code\u003e syscall\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "rlimits",
           "package": "restricted-workers",
@@ -571,6 +618,7 @@
         "index": {
           "description": "Resource limits for the setrlimit syscall",
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "rlimits",
           "package": "restricted-workers",
@@ -584,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSELinux security context under which the worker\n process will be running.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "secontext",
           "package": "restricted-workers",
@@ -594,6 +643,7 @@
         "index": {
           "description": "SELinux security context under which the worker process will be running",
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "secontext",
           "package": "restricted-workers",
@@ -606,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "stackSizeLimit",
           "package": "restricted-workers",
@@ -615,6 +666,7 @@
         },
         "index": {
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "stackSizeLimit",
           "package": "restricted-workers",
@@ -629,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum time for which the code is allowed to run\n (in seconds)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "timeout",
           "package": "restricted-workers",
@@ -639,6 +692,7 @@
         "index": {
           "description": "Maximum time for which the code is allowed to run in seconds",
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "timeout",
           "package": "restricted-workers",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Types",
           "name": "totalMemoryLimit",
           "package": "restricted-workers",
@@ -660,6 +715,7 @@
         },
         "index": {
           "hierarchy": "System Restricted Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Types",
           "name": "totalMemoryLimit",
           "package": "restricted-workers",
@@ -674,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLibrary exposing internal functions uses by \u003ccode\u003e\u003ca\u003eWorker\u003c/a\u003e\u003c/code\u003e\n useful work writing your own workers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Internal",
           "name": "Internal",
           "package": "restricted-workers",
@@ -683,6 +740,7 @@
         "index": {
           "description": "Library exposing internal functions uses by Worker useful work writing your own workers",
           "hierarchy": "System Restricted Worker Internal",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Internal",
           "name": "Internal",
           "package": "restricted-workers",
@@ -724,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork a worker process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Internal",
           "name": "forkWorker",
           "package": "restricted-workers",
@@ -733,6 +792,7 @@
         "index": {
           "description": "Fork worker process",
           "hierarchy": "System Restricted Worker Internal",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Internal",
           "name": "forkWorker",
           "normalized": "Worker a-\u003eMaybe(IO Handle)-\u003e(Socket-\u003eIO())-\u003eIO ProcessID",
@@ -776,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new unix socket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Internal",
           "name": "mkSock",
           "package": "restricted-workers",
@@ -786,6 +847,7 @@
         "index": {
           "description": "Create new unix socket",
           "hierarchy": "System Restricted Worker Internal",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Internal",
           "name": "mkSock",
           "normalized": "FilePath-\u003eIO Socket",
@@ -802,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether the process is alive\n \u003cem\u003ehacky\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Internal",
           "name": "processAlive",
           "package": "restricted-workers",
@@ -812,6 +875,7 @@
         "index": {
           "description": "Checks whether the process is alive hacky",
           "hierarchy": "System Restricted Worker Internal",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Internal",
           "name": "processAlive",
           "normalized": "ProcessID-\u003eIO Bool",
@@ -828,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a file if it exists. Should be thread-safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Internal",
           "name": "removeFileIfExists",
           "package": "restricted-workers",
@@ -838,6 +903,7 @@
         "index": {
           "description": "Remove file if it exists Should be thread-safe",
           "hierarchy": "System Restricted Worker Internal",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Internal",
           "name": "removeFileIfExists",
           "normalized": "FilePath-\u003eIO()",
@@ -881,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWaits for a certain period of time\n and then kills the worker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Internal",
           "name": "workerTimeout",
           "package": "restricted-workers",
@@ -890,6 +957,7 @@
         "index": {
           "description": "Waits for certain period of time and then kills the worker",
           "hierarchy": "System Restricted Worker Internal",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Internal",
           "name": "workerTimeout",
           "normalized": "Worker a-\u003eInt-\u003eIO(Worker a)",
@@ -906,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA non-stripped pooling abstraction that restarts workers\n Some got has been taken from \u003ccode\u003e\u003ca\u003ePool\u003c/a\u003e\u003c/code\u003e by bos\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Pool",
           "name": "Pool",
           "package": "restricted-workers",
@@ -915,6 +984,7 @@
         "index": {
           "description": "non-stripped pooling abstraction that restarts workers Some got has been taken from Pool by bos",
           "hierarchy": "System Restricted Worker Pool",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Pool",
           "name": "Pool",
           "package": "restricted-workers",
@@ -929,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple pool for workers. Workers are restarted from time to time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Pool",
           "name": "WorkersPool",
           "package": "restricted-workers",
@@ -938,6 +1009,7 @@
         "index": {
           "description": "simple pool for workers Workers are restarted from time to time",
           "hierarchy": "System Restricted Worker Pool",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Pool",
           "name": "WorkersPool",
           "package": "restricted-workers",
@@ -952,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroy a worker. Frees up space in the pool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Pool",
           "name": "destroyWorker",
           "package": "restricted-workers",
@@ -962,6 +1035,7 @@
         "index": {
           "description": "Destroy worker Frees up space in the pool",
           "hierarchy": "System Restricted Worker Pool",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Pool",
           "name": "destroyWorker",
           "normalized": "WorkersPool a-\u003eWorker a-\u003eIO()",
@@ -978,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new workers pool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Pool",
           "name": "mkPool",
           "package": "restricted-workers",
@@ -987,6 +1062,7 @@
         "index": {
           "description": "Create new workers pool",
           "hierarchy": "System Restricted Worker Pool",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Pool",
           "name": "mkPool",
           "normalized": "(Int-\u003eWMonad a(Worker a,RestartWorker IO a))-\u003eInt-\u003eInt-\u003eWMonad a(WorkersPool a)",
@@ -1003,6 +1079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut the worker back in pool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Pool",
           "name": "putWorker",
           "package": "restricted-workers",
@@ -1013,6 +1090,7 @@
         "index": {
           "description": "Put the worker back in pool",
           "hierarchy": "System Restricted Worker Pool",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Pool",
           "name": "putWorker",
           "normalized": "WorkersPool a-\u003e(Worker a,RestartWorker IO a)-\u003eIO()",
@@ -1029,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake worker from the pool.\n The caller is responsible for putting the worker back into the pool\n or destroying it with \u003ccode\u003e\u003ca\u003edestroyWorker\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Pool",
           "name": "takeWorker",
           "package": "restricted-workers",
@@ -1039,6 +1118,7 @@
         "index": {
           "description": "Take worker from the pool The caller is responsible for putting the worker back into the pool or destroying it with destroyWorker",
           "hierarchy": "System Restricted Worker Pool",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Pool",
           "name": "takeWorker",
           "normalized": "WorkersPool a-\u003eWMonad a(Worker a,RestartWorker IO a)",
@@ -1055,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etakeWorker\u003c/a\u003e\u003c/code\u003e + \u003ccode\u003e\u003ca\u003eputWorker\u003c/a\u003e\u003c/code\u003e but takes care of the exception handling for you\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Pool",
           "name": "withWorker",
           "package": "restricted-workers",
@@ -1065,6 +1146,7 @@
         "index": {
           "description": "Like takeWorker putWorker but takes care of the exception handling for you",
           "hierarchy": "System Restricted Worker Pool",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Pool",
           "name": "withWorker",
           "normalized": "WorkersPool a-\u003e((Worker a,RestartWorker IO a)-\u003eb c)-\u003eb c",
@@ -1081,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple protocol for sending serializable data over handles\n\u003c/p\u003e\u003cp\u003ePlease note that this is a very simple implementation that works\n fine for most of that data, however, the size of the data you might\n send at one go is limited to MAX_WORD32 bytes. We use \u003ccode\u003ecereal\u003c/code\u003e for\n serialization.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Protocol",
           "name": "Protocol",
           "package": "restricted-workers",
@@ -1090,6 +1173,7 @@
         "index": {
           "description": "simple protocol for sending serializable data over handles Please note that this is very simple implementation that works fine for most of that data however the size of the data you might send at one go is limited to MAX WORD32 bytes We use cereal for serialization",
           "hierarchy": "System Restricted Worker Protocol",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Protocol",
           "name": "Protocol",
           "package": "restricted-workers",
@@ -1104,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of the deserialization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Protocol",
           "name": "DecodeResult",
           "package": "restricted-workers",
@@ -1113,6 +1198,7 @@
         "index": {
           "description": "Result of the deserialization",
           "hierarchy": "System Restricted Worker Protocol",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Protocol",
           "name": "DecodeResult",
           "package": "restricted-workers",
@@ -1127,6 +1213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception type used by \u003ccode\u003e\u003ca\u003eProtocol\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Protocol",
           "name": "ProtocolException",
           "package": "restricted-workers",
@@ -1136,6 +1223,7 @@
         "index": {
           "description": "An exception type used by Protocol",
           "hierarchy": "System Restricted Worker Protocol",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Protocol",
           "name": "ProtocolException",
           "package": "restricted-workers",
@@ -1200,6 +1288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the data from a handle and deserialize it.\n May throw \u003ccode\u003e\u003ca\u003eProtocolException\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Protocol",
           "name": "getData",
           "package": "restricted-workers",
@@ -1210,6 +1299,7 @@
         "index": {
           "description": "Read the data from handle and deserialize it May throw ProtocolException",
           "hierarchy": "System Restricted Worker Protocol",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Protocol",
           "name": "getData",
           "normalized": "Handle-\u003eIO a",
@@ -1226,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafe version of \u003ccode\u003e\u003ca\u003egetData\u003c/a\u003e\u003c/code\u003e that doesn't throw \u003ccode\u003e\u003ca\u003eProtocolException\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Protocol",
           "name": "getDataSafe",
           "package": "restricted-workers",
@@ -1236,6 +1327,7 @@
         "index": {
           "description": "Safe version of getData that doesn throw ProtocolException",
           "hierarchy": "System Restricted Worker Protocol",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Protocol",
           "name": "getDataSafe",
           "normalized": "Handle-\u003eIO(DecodeResult a)",
@@ -1252,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend some serialiazable data over a handle.\n Returns \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e representing the encoded data. May throw\n \u003ccode\u003e\u003ca\u003eProtocolException\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Protocol",
           "name": "sendData",
           "package": "restricted-workers",
@@ -1262,6 +1355,7 @@
         "index": {
           "description": "Send some serialiazable data over handle Returns ByteString representing the encoded data May throw ProtocolException",
           "hierarchy": "System Restricted Worker Protocol",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Protocol",
           "name": "sendData",
           "normalized": "Handle-\u003ea-\u003eIO ByteString",
@@ -1278,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWorker can be in one of three states\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003eUninitialized\u003c/dt\u003e\u003cdd\u003e Uninitialized worker is a worker that has a name,\n    a socket, possibly \u003ccode\u003e\u003ca\u003eWData\u003c/a\u003e\u003c/code\u003e but has not been forker\n\u003c/dd\u003e\u003cdt\u003eInitialized\u003c/dt\u003e\u003cdd\u003e Initialized worker has an associated forker process.\n\u003c/dd\u003e\u003cdt\u003eActive\u003c/dt\u003e\u003cdd\u003e A worker is active if it's initialized and it's being used\n    a client. Active/inactive workers are managed by a \u003ccode\u003eWorkersPool\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Types",
           "name": "Types",
           "package": "restricted-workers",
@@ -1287,6 +1382,7 @@
         "index": {
           "description": "Worker can be in one of three states Uninitialized Uninitialized worker is worker that has name socket possibly WData but has not been forker Initialized Initialized worker has an associated forker process Active worker is active if it initialized and it being used client Active inactive workers are managed by WorkersPool",
           "hierarchy": "System Restricted Worker Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Types",
           "name": "Types",
           "package": "restricted-workers",
@@ -1301,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple type of worker that executes IO actions\n\u003c/p\u003e\u003cp\u003eThe definition of the \u003ccode\u003e\u003ca\u003eWorkerData\u003c/a\u003e\u003c/code\u003e instance for IOWorker looks like this:\n\u003c/p\u003e\u003cpre\u003e\n  instance WorkerData IOWorker where\n      type WData IOWorker = ()\n      type WMonad IOWorker = IO\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Types",
           "name": "IOWorker",
           "package": "restricted-workers",
@@ -1310,6 +1407,7 @@
         "index": {
           "description": "simple type of worker that executes IO actions The definition of the WorkerData instance for IOWorker looks like this instance WorkerData IOWorker where type WData IOWorker type WMonad IOWorker IO",
           "hierarchy": "System Restricted Worker Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Types",
           "name": "IOWorker",
           "package": "restricted-workers",
@@ -1324,6 +1422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception type used by \u003ccode\u003e\u003ca\u003eProtocol\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Types",
           "name": "ProtocolException",
           "package": "restricted-workers",
@@ -1333,6 +1432,7 @@
         "index": {
           "description": "An exception type used by Protocol",
           "hierarchy": "System Restricted Worker Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Types",
           "name": "ProtocolException",
           "package": "restricted-workers",
@@ -1347,6 +1447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA worker restarting function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Types",
           "name": "RestartWorker",
           "package": "restricted-workers",
@@ -1356,6 +1457,7 @@
         "index": {
           "description": "worker restarting function",
           "hierarchy": "System Restricted Worker Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Types",
           "name": "RestartWorker",
           "package": "restricted-workers",
@@ -1370,6 +1472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype representing a worker of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Types",
           "name": "Worker",
           "package": "restricted-workers",
@@ -1379,6 +1482,7 @@
         "index": {
           "description": "datatype representing worker of type",
           "hierarchy": "System Restricted Worker Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Types",
           "name": "Worker",
           "package": "restricted-workers",
@@ -1393,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of data attached to a worker.\n This might be a configuration file, a size of the packet, session data, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Types",
           "name": "WorkerData",
           "package": "restricted-workers",
@@ -1402,6 +1507,7 @@
         "index": {
           "description": "Types of data attached to worker This might be configuration file size of the packet session data etc",
           "hierarchy": "System Restricted Worker Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Types",
           "name": "WorkerData",
           "package": "restricted-workers",
@@ -1415,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Types",
           "name": "Worker",
           "package": "restricted-workers",
@@ -1424,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "System Restricted Worker Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Types",
           "name": "Worker",
           "package": "restricted-workers",
@@ -1438,6 +1546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the worker is initialized\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Types",
           "name": "initialized",
           "package": "restricted-workers",
@@ -1448,6 +1557,7 @@
         "index": {
           "description": "Check whether the worker is initialized",
           "hierarchy": "System Restricted Worker Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Types",
           "name": "initialized",
           "normalized": "Worker a-\u003eBool",
@@ -1463,6 +1573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecurity restrictions for the worker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Types",
           "name": "workerLimits",
           "package": "restricted-workers",
@@ -1473,6 +1584,7 @@
         "index": {
           "description": "Security restrictions for the worker",
           "hierarchy": "System Restricted Worker Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Types",
           "name": "workerLimits",
           "package": "restricted-workers",
@@ -1487,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the worker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Types",
           "name": "workerName",
           "package": "restricted-workers",
@@ -1497,6 +1610,7 @@
         "index": {
           "description": "Name of the worker",
           "hierarchy": "System Restricted Worker Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Types",
           "name": "workerName",
           "package": "restricted-workers",
@@ -1511,6 +1625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'Just pid' if the worker's process ID is \u003ccode\u003epid\u003c/code\u003e,\n Nothing' if the worker is not active/initialized\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Types",
           "name": "workerPid",
           "package": "restricted-workers",
@@ -1521,6 +1636,7 @@
         "index": {
           "description": "Just pid if the worker process ID is pid Nothing if the worker is not active initialized",
           "hierarchy": "System Restricted Worker Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Types",
           "name": "workerPid",
           "package": "restricted-workers",
@@ -1535,6 +1651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA filepath to the Unix socket that will be\n used for communicating with the worker.\n If the file is already present it will be unliked\n during the initializatin step\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker.Types",
           "name": "workerSocket",
           "package": "restricted-workers",
@@ -1545,6 +1662,7 @@
         "index": {
           "description": "filepath to the Unix socket that will be used for communicating with the worker If the file is already present it will be unliked during the initializatin step",
           "hierarchy": "System Restricted Worker Types",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker.Types",
           "name": "workerSocket",
           "package": "restricted-workers",
@@ -1559,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain entry point of the library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker",
           "name": "Worker",
           "package": "restricted-workers",
@@ -1568,6 +1687,7 @@
         "index": {
           "description": "Main entry point of the library",
           "hierarchy": "System Restricted Worker",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker",
           "name": "Worker",
           "package": "restricted-workers",
@@ -1582,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an uninitialized worker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker",
           "name": "mkDefaultWorker",
           "package": "restricted-workers",
@@ -1592,6 +1713,7 @@
         "index": {
           "description": "Create an uninitialized worker",
           "hierarchy": "System Restricted Worker",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker",
           "name": "mkDefaultWorker",
           "normalized": "String-\u003eFilePath-\u003eLimitSettings-\u003eWorker a",
@@ -1608,6 +1730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a worker of type \u003ccode\u003e\u003ca\u003eIOWorker\u003c/a\u003e\u003c/code\u003e\n The callback function is called every time a connectino is established\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003estartIOWorker \"test\" \"/tmp/test.sock\" $ \\h -\u003e hPutStrLn h \"hello, world\"\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker",
           "name": "startIOWorker",
           "package": "restricted-workers",
@@ -1617,6 +1740,7 @@
         "index": {
           "description": "Start worker of type IOWorker The callback function is called every time connectino is established startIOWorker test tmp test.sock hPutStrLn hello world",
           "hierarchy": "System Restricted Worker",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker",
           "name": "startIOWorker",
           "normalized": "String-\u003eLimitSettings-\u003eFilePath-\u003e(Handle-\u003eIO())-\u003eIO(Worker IOWorker,RestartWorker IO IOWorker)",
@@ -1633,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a general type of worker.\n\u003c/p\u003e\u003cp\u003eThe pre-forking action is a monadic action that will be run prior to\n  calling \u003ccode\u003e\u003ca\u003eforkWorker\u003c/a\u003e\u003c/code\u003e. It might be some initialization code, running the\n  DB query, anything you want. The resulting \u003ccode\u003e\u003ca\u003eWData\u003c/a\u003e\u003c/code\u003e will be passed to\n  the callback.\n\u003c/p\u003e\u003cp\u003eThe socket that is passed to the callback is a server socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:50 UTC 2014",
           "module": "System.Restricted.Worker",
           "name": "startWorker",
           "package": "restricted-workers",
@@ -1642,6 +1767,7 @@
         "index": {
           "description": "Start general type of worker The pre-forking action is monadic action that will be run prior to calling forkWorker It might be some initialization code running the DB query anything you want The resulting WData will be passed to the callback The socket that is passed to the callback is server socket",
           "hierarchy": "System Restricted Worker",
+          "indexed": "2014-03-11T19:53:50",
           "module": "System.Restricted.Worker",
           "name": "startWorker",
           "normalized": "String-\u003eFilePath-\u003eMaybe(IO Handle)-\u003eLimitSettings-\u003eWMonad a(WData a)-\u003e(WData a-\u003eSocket-\u003eIO())-\u003eWMonad a(Worker a,RestartWorker b a)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tasty-hunit"
+        "phrase": "tasty-hunit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows to use HUnit tests in tasty.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:30 UTC 2014",
           "module": "Test.Tasty.HUnit",
           "name": "HUnit",
           "package": "tasty-hunit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module allows to use HUnit tests in tasty",
           "hierarchy": "Test Tasty HUnit",
+          "indexed": "2014-03-11T20:17:30",
           "module": "Test.Tasty.HUnit",
           "name": "HUnit",
           "package": "tasty-hunit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003eTest\u003c/code\u003e for a HUnit \u003ccode\u003e\u003ca\u003eAssertion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:30 UTC 2014",
           "module": "Test.Tasty.HUnit",
           "name": "testCase",
           "package": "tasty-hunit",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Create Test for HUnit Assertion",
           "hierarchy": "Test Tasty HUnit",
+          "indexed": "2014-03-11T20:17:30",
           "module": "Test.Tasty.HUnit",
           "name": "testCase",
           "normalized": "TestName-\u003eAssertion-\u003eTestTree",

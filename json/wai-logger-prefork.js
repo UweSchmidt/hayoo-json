@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-logger-prefork"
+        "phrase": "wai-logger-prefork",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "Prefork",
           "package": "wai-logger-prefork",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "Prefork",
           "package": "wai-logger-prefork",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe spec for logging files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "FileLogSpec",
           "package": "wai-logger-prefork",
@@ -48,6 +51,7 @@
         "index": {
           "description": "The spec for logging files",
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "FileLogSpec",
           "package": "wai-logger-prefork",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "LogController",
           "package": "wai-logger-prefork",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "LogController",
           "package": "wai-logger-prefork",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "LogFlusher",
           "package": "wai-logger-prefork",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "LogFlusher",
           "package": "wai-logger-prefork",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "LogType",
           "package": "wai-logger-prefork",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "LogType",
           "package": "wai-logger-prefork",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "FileLogSpec",
           "package": "wai-logger-prefork",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "FileLogSpec",
           "package": "wai-logger-prefork",
@@ -146,6 +158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSignal\u003c/a\u003e\u003c/code\u003e is used to tell child processes to reopen a log file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "LogFile",
           "package": "wai-logger-prefork",
@@ -156,6 +169,7 @@
         "index": {
           "description": "Signal is used to tell child processes to reopen log file",
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "LogFile",
           "package": "wai-logger-prefork",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "LogNone",
           "package": "wai-logger-prefork",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "LogNone",
           "package": "wai-logger-prefork",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "LogStdout",
           "package": "wai-logger-prefork",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "LogStdout",
           "package": "wai-logger-prefork",
@@ -214,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking if a log file can be written if \u003ccode\u003e\u003ca\u003eLogType\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eLogFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "logCheck",
           "package": "wai-logger-prefork",
@@ -224,6 +243,7 @@
         "index": {
           "description": "Checking if log file can be written if LogType is LogFile",
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "logCheck",
           "normalized": "LogType-\u003eIO()",
@@ -240,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating a log controller against child processes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "logController",
           "package": "wai-logger-prefork",
@@ -250,6 +271,7 @@
         "index": {
           "description": "Creating log controller against child processes",
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "logController",
           "normalized": "LogType-\u003eLogController",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating \u003ccode\u003e\u003ca\u003eApacheLogger\u003c/a\u003e\u003c/code\u003e according to \u003ccode\u003e\u003ca\u003eLogType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "logInit",
           "package": "wai-logger-prefork",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Creating ApacheLogger according to LogType",
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "logInit",
           "normalized": "IPAddrSource-\u003eLogType-\u003eIO(ApacheLogger,LogFlusher)",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "log_backup_number",
           "package": "wai-logger-prefork",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "log_backup_number",
           "package": "wai-logger-prefork",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "log_file",
           "package": "wai-logger-prefork",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "log_file",
           "package": "wai-logger-prefork",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:29 UTC 2014",
           "module": "Network.Wai.Logger.Prefork",
           "name": "log_file_size",
           "package": "wai-logger-prefork",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger Prefork",
+          "indexed": "2014-03-11T20:36:29",
           "module": "Network.Wai.Logger.Prefork",
           "name": "log_file_size",
           "package": "wai-logger-prefork",

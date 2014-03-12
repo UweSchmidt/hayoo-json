@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskoon"
+        "phrase": "haskoon",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccess",
           "name": "RqAccess",
           "package": "haskoon",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccess",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccess",
           "name": "RqAccess",
           "package": "haskoon",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccess",
           "name": "FromRq",
           "package": "haskoon",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccess",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccess",
           "name": "FromRq",
           "package": "haskoon",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccess",
           "name": "RqAccess",
           "package": "haskoon",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccess",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccess",
           "name": "RqAccess",
           "package": "haskoon",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccess",
           "name": "checkMethod",
           "package": "haskoon",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccess",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccess",
           "name": "checkMethod",
           "normalized": "(String-\u003eBool)-\u003ea String",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccess",
           "name": "cookie",
           "package": "haskoon",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccess",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccess",
           "name": "cookie",
           "normalized": "String-\u003ea String",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccess",
           "name": "fromRq",
           "package": "haskoon",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccess",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccess",
           "name": "fromRq",
           "package": "haskoon",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccess",
           "name": "header",
           "package": "haskoon",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccess",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccess",
           "name": "header",
           "normalized": "String-\u003ea String",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccess",
           "name": "param",
           "package": "haskoon",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccess",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccess",
           "name": "param",
           "normalized": "String-\u003ea String",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccess",
           "name": "repl",
           "package": "haskoon",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccess",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccess",
           "name": "repl",
           "normalized": "Int-\u003ea String",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "RqAccessM",
           "package": "haskoon",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "RqAccessM",
           "package": "haskoon",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "RqAccess",
           "package": "haskoon",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "RqAccess",
           "package": "haskoon",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "RqAccessM",
           "package": "haskoon",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "RqAccessM",
           "package": "haskoon",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "RqData",
           "package": "haskoon",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "RqData",
           "package": "haskoon",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "RqAccessM",
           "package": "haskoon",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "RqAccessM",
           "package": "haskoon",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "RqData",
           "package": "haskoon",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "RqData",
           "package": "haskoon",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "checkMethod",
           "package": "haskoon",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "checkMethod",
           "normalized": "(String-\u003eBool)-\u003ea String",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "cookie",
           "package": "haskoon",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "cookie",
           "normalized": "String-\u003ea String",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "header",
           "package": "haskoon",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "header",
           "normalized": "String-\u003ea String",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "param",
           "package": "haskoon",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "param",
           "normalized": "String-\u003ea String",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "repl",
           "package": "haskoon",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "repl",
           "normalized": "Int-\u003ea String",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "rqd_cookies",
           "package": "haskoon",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "rqd_cookies",
           "normalized": "[(String,String)]",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "rqd_headers",
           "package": "haskoon",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "rqd_headers",
           "normalized": "[(String,String)]",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "rqd_method",
           "package": "haskoon",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "rqd_method",
           "package": "haskoon",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "rqd_params",
           "package": "haskoon",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "rqd_params",
           "normalized": "[(String,String)]",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "rqd_repls",
           "package": "haskoon",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "rqd_repls",
           "normalized": "[String]",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "runRqAccessM",
           "package": "haskoon",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon RqAccessM",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.RqAccessM",
           "name": "runRqAccessM",
           "normalized": "RqAccessM a-\u003eRqData-\u003eEither String a",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "Web",
           "package": "haskoon",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "Web",
           "package": "haskoon",
@@ -622,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains all information about a cookie set by the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "Cookie",
           "package": "haskoon",
@@ -630,6 +685,7 @@
         "index": {
           "description": "Contains all information about cookie set by the server",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "Cookie",
           "package": "haskoon",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "FromRq",
           "package": "haskoon",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "FromRq",
           "package": "haskoon",
@@ -664,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "ToWebRes",
           "package": "haskoon",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "ToWebRes",
           "package": "haskoon",
@@ -686,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou may either define \u003ccode\u003ewebRec\u003c/code\u003e or all of \u003ccode\u003ewebDocumentRoot\u003c/code\u003e,\n \u003ccode\u003ewebContainerUri\u003c/code\u003e, \u003ccode\u003ewebPathInfo\u003c/code\u003e, \u003ccode\u003ewebMethod\u003c/code\u003e, \u003ccode\u003ewebGetBody\u003c/code\u003e,\n \u003ccode\u003ewebGetParams\u003c/code\u003e, \u003ccode\u003ewebGetHeaders\u003c/code\u003e, \u003ccode\u003ewebGetCookies\u003c/code\u003e, \u003ccode\u003ewebSetStatus\u003c/code\u003e,\n \u003ccode\u003ewebSendBSL\u003c/code\u003e, \u003ccode\u003ewebSetHeader\u003c/code\u003e, \u003ccode\u003ewebSetCookie\u003c/code\u003e, \u003ccode\u003ewebUnsetCookie\u003c/code\u003e,\n \u003ccode\u003ewebLog\u003c/code\u003e and \u003ccode\u003ewebGetRepls\u003c/code\u003e, \u003ccode\u003ewebWithRepls\u003c/code\u003e and \u003ccode\u003ewebFail\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "Web",
           "package": "haskoon",
@@ -695,6 +756,7 @@
         "index": {
           "description": "You may either define webRec or all of webDocumentRoot webContainerUri webPathInfo webMethod webGetBody webGetParams webGetHeaders webGetCookies webSetStatus webSendBSL webSetHeader webSetCookie webUnsetCookie webLog and webGetRepls webWithRepls and webFail",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "Web",
           "package": "haskoon",
@@ -708,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "WebIO",
           "package": "haskoon",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "WebIO",
           "package": "haskoon",
@@ -729,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "WebRec",
           "package": "haskoon",
@@ -737,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "WebRec",
           "package": "haskoon",
@@ -750,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "WebWebRes",
           "package": "haskoon",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "WebWebRes",
           "package": "haskoon",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "Cookie",
           "package": "haskoon",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "Cookie",
           "package": "haskoon",
@@ -792,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "WebRec",
           "package": "haskoon",
@@ -801,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "WebRec",
           "package": "haskoon",
@@ -815,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe domain suffix to which this cookie will be sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "cookieDomain",
           "package": "haskoon",
@@ -824,6 +897,7 @@
         "index": {
           "description": "The domain suffix to which this cookie will be sent",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "cookieDomain",
           "package": "haskoon",
@@ -838,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpiry date of the cookie. If \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, the\n   cookie expires when the browser sessions ends.\n   If the date is in the past, the client should\n   delete the cookie immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "cookieExpires",
           "package": "haskoon",
@@ -847,6 +922,7 @@
         "index": {
           "description": "Expiry date of the cookie If Nothing the cookie expires when the browser sessions ends If the date is in the past the client should delete the cookie immediately",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "cookieExpires",
           "package": "haskoon",
@@ -861,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "cookieName",
           "package": "haskoon",
@@ -870,6 +947,7 @@
         "index": {
           "description": "Name of the cookie",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "cookieName",
           "package": "haskoon",
@@ -884,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe path to which this cookie will be sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "cookiePath",
           "package": "haskoon",
@@ -893,6 +972,7 @@
         "index": {
           "description": "The path to which this cookie will be sent",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "cookiePath",
           "package": "haskoon",
@@ -907,6 +987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if this cookie should only be sent using\n   secure means.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "cookieSecure",
           "package": "haskoon",
@@ -916,6 +997,7 @@
         "index": {
           "description": "True if this cookie should only be sent using secure means",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "cookieSecure",
           "package": "haskoon",
@@ -930,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of the cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "cookieValue",
           "package": "haskoon",
@@ -939,6 +1022,7 @@
         "index": {
           "description": "Value of the cookie",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "cookieValue",
           "package": "haskoon",
@@ -953,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a cookie from the client by setting the cookie expiry date\n   to a date in the past.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "deleteCookie",
           "package": "haskoon",
@@ -962,6 +1047,7 @@
         "index": {
           "description": "Delete cookie from the client by setting the cookie expiry date to date in the past",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "deleteCookie",
           "normalized": "Cookie-\u003eCookie",
@@ -978,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of a cookie from a string on the form\n   \u003ccode\u003e\"cookieName1=cookieValue1;...;cookieName2=cookieValue2\"\u003c/code\u003e.\n   This is the format of the \u003ccode\u003eCookie\u003c/code\u003e HTTP header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "findCookie",
           "package": "haskoon",
@@ -987,6 +1074,7 @@
         "index": {
           "description": "Get the value of cookie from string on the form cookieName1 cookieValue1 cookieName2 cookieValue2 This is the format of the Cookie HTTP header",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "findCookie",
           "normalized": "String-\u003eString-\u003eMaybe String",
@@ -1002,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "fromRq",
           "package": "haskoon",
@@ -1011,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "fromRq",
           "package": "haskoon",
@@ -1025,6 +1115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a cookie with only name and value set.\n   This client will expire when the browser sessions ends,\n   will only be sent to the server and path which set it\n   and may be sent using any means.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "newCookie",
           "package": "haskoon",
@@ -1034,6 +1125,7 @@
         "index": {
           "description": "Construct cookie with only name and value set This client will expire when the browser sessions ends will only be sent to the server and path which set it and may be sent using any means",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "newCookie",
           "normalized": "String-\u003eString-\u003eCookie",
@@ -1049,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "notEmpty",
           "package": "haskoon",
@@ -1058,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "notEmpty",
           "normalized": "a String-\u003ea String",
@@ -1073,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "optional",
           "package": "haskoon",
@@ -1082,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "optional",
           "normalized": "a b-\u003ea(Maybe b)",
@@ -1097,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all the cookies from a Cookie: header value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "readCookies",
           "package": "haskoon",
@@ -1106,6 +1203,7 @@
         "index": {
           "description": "Gets all the cookies from Cookie header value",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "readCookies",
           "normalized": "String-\u003e[(String,String)]",
@@ -1122,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a cookie on the format used as the value of the Set-Cookie header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "showCookie",
           "package": "haskoon",
@@ -1131,6 +1230,7 @@
         "index": {
           "description": "Show cookie on the format used as the value of the Set-Cookie header",
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "showCookie",
           "normalized": "Cookie-\u003eString",
@@ -1146,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "toWebBody",
           "package": "haskoon",
@@ -1155,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "toWebBody",
           "normalized": "a-\u003eByteString",
@@ -1170,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "toWebContentType",
           "package": "haskoon",
@@ -1179,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "toWebContentType",
           "normalized": "a-\u003eString",
@@ -1194,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "toWebRes",
           "package": "haskoon",
@@ -1203,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "toWebRes",
           "normalized": "a-\u003eb(WebRes b)",
@@ -1218,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webBadRequest",
           "package": "haskoon",
@@ -1227,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webBadRequest",
           "normalized": "[Char]-\u003ea(WebRes a)",
@@ -1242,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webCheckData",
           "package": "haskoon",
@@ -1251,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webCheckData",
           "normalized": "(a-\u003eb(WebRes b))-\u003e(String-\u003eb(WebRes b))-\u003eb(WebRes b)",
@@ -1266,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webContainerUri",
           "package": "haskoon",
@@ -1275,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webContainerUri",
           "package": "haskoon",
@@ -1288,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webDocumentRoot",
           "package": "haskoon",
@@ -1297,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webDocumentRoot",
           "package": "haskoon",
@@ -1310,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webFail",
           "package": "haskoon",
@@ -1319,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webFail",
           "normalized": "String-\u003ea b",
@@ -1334,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webFileNotFound",
           "package": "haskoon",
@@ -1343,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webFileNotFound",
           "normalized": "[Char]-\u003ea(WebRes a)",
@@ -1358,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webGetBody",
           "package": "haskoon",
@@ -1367,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webGetBody",
           "package": "haskoon",
@@ -1380,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webGetCookie",
           "package": "haskoon",
@@ -1389,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webGetCookie",
           "normalized": "String-\u003ea(Maybe String)",
@@ -1404,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webGetCookies",
           "package": "haskoon",
@@ -1413,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webGetCookies",
           "package": "haskoon",
@@ -1426,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webGetHeader",
           "package": "haskoon",
@@ -1435,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webGetHeader",
           "normalized": "String-\u003ea(Maybe String)",
@@ -1450,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webGetHeaders",
           "package": "haskoon",
@@ -1459,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webGetHeaders",
           "package": "haskoon",
@@ -1472,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webGetParam",
           "package": "haskoon",
@@ -1481,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webGetParam",
           "normalized": "String-\u003ea(Maybe String)",
@@ -1496,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webGetParams",
           "package": "haskoon",
@@ -1505,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webGetParams",
           "package": "haskoon",
@@ -1518,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webGetRepls",
           "package": "haskoon",
@@ -1527,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webGetRepls",
           "normalized": "a[String]",
@@ -1542,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webLog",
           "package": "haskoon",
@@ -1551,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webLog",
           "normalized": "String-\u003ePriority-\u003eString-\u003ea()",
@@ -1566,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webLogDebug",
           "package": "haskoon",
@@ -1575,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webLogDebug",
           "normalized": "String-\u003ea()",
@@ -1590,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webLogNotice",
           "package": "haskoon",
@@ -1599,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webLogNotice",
           "normalized": "String-\u003ea()",
@@ -1614,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webLogTrace",
           "package": "haskoon",
@@ -1623,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webLogTrace",
           "normalized": "String-\u003ea()",
@@ -1638,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webMethod",
           "package": "haskoon",
@@ -1647,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webMethod",
           "package": "haskoon",
@@ -1660,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webNotFound",
           "package": "haskoon",
@@ -1669,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webNotFound",
           "normalized": "[Char]-\u003ea(WebRes a)",
@@ -1684,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webOk",
           "package": "haskoon",
@@ -1693,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webOk",
           "normalized": "a-\u003eb(WebRes b)",
@@ -1708,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webPathInfo",
           "package": "haskoon",
@@ -1717,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webPathInfo",
           "package": "haskoon",
@@ -1730,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webRec",
           "package": "haskoon",
@@ -1739,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webRec",
           "package": "haskoon",
@@ -1752,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webRedirect",
           "package": "haskoon",
@@ -1761,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webRedirect",
           "normalized": "Bool-\u003eString-\u003ea(WebRes a)",
@@ -1776,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webRepl",
           "package": "haskoon",
@@ -1785,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webRepl",
           "normalized": "Int-\u003ea String",
@@ -1800,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webRequestUri",
           "package": "haskoon",
@@ -1809,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webRequestUri",
           "package": "haskoon",
@@ -1822,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webRunFromRq",
           "package": "haskoon",
@@ -1831,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webRunFromRq",
           "package": "haskoon",
@@ -1844,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webSendBSL",
           "package": "haskoon",
@@ -1853,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webSendBSL",
           "normalized": "ByteString-\u003ea(WebRes a)",
@@ -1868,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webSendError",
           "package": "haskoon",
@@ -1877,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webSendError",
           "normalized": "Int-\u003eString-\u003ea(WebRes a)",
@@ -1892,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webSendFile",
           "package": "haskoon",
@@ -1901,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webSendFile",
           "normalized": "FilePath-\u003ea(WebRes a)",
@@ -1916,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webSendString",
           "package": "haskoon",
@@ -1925,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webSendString",
           "normalized": "String-\u003ea(WebRes a)",
@@ -1940,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webSetCookie",
           "package": "haskoon",
@@ -1949,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webSetCookie",
           "normalized": "Cookie-\u003ea()",
@@ -1964,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webSetHeader",
           "package": "haskoon",
@@ -1973,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webSetHeader",
           "normalized": "String-\u003eString-\u003ea()",
@@ -1988,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webSetStatus",
           "package": "haskoon",
@@ -1997,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webSetStatus",
           "normalized": "Int-\u003eMaybe String-\u003ea()",
@@ -2012,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webUnsetCookie",
           "package": "haskoon",
@@ -2021,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webUnsetCookie",
           "normalized": "Cookie-\u003ea()",
@@ -2036,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webWithData",
           "package": "haskoon",
@@ -2045,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webWithData",
           "normalized": "(a-\u003eb(WebRes b))-\u003eb(WebRes b)",
@@ -2060,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "webWithRepls",
           "package": "haskoon",
@@ -2069,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "webWithRepls",
           "normalized": "[String]-\u003ea b-\u003ea b",
@@ -2084,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_containerUri",
           "package": "haskoon",
@@ -2093,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_containerUri",
           "package": "haskoon",
@@ -2106,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_documentRoot",
           "package": "haskoon",
@@ -2115,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_documentRoot",
           "package": "haskoon",
@@ -2128,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_fail",
           "package": "haskoon",
@@ -2137,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_fail",
           "normalized": "a b String-\u003ec d",
@@ -2151,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_getBody",
           "package": "haskoon",
@@ -2160,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_getBody",
           "package": "haskoon",
@@ -2173,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_getCookies",
           "package": "haskoon",
@@ -2182,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_getCookies",
           "package": "haskoon",
@@ -2195,6 +2385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_getHeaders",
           "package": "haskoon",
@@ -2204,6 +2395,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_getHeaders",
           "package": "haskoon",
@@ -2217,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_getParams",
           "package": "haskoon",
@@ -2226,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_getParams",
           "package": "haskoon",
@@ -2239,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_getRepls",
           "package": "haskoon",
@@ -2248,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_getRepls",
           "normalized": "a[String]",
@@ -2263,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_log",
           "package": "haskoon",
@@ -2272,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_log",
           "normalized": "String-\u003ePriority-\u003eString-\u003ea()",
@@ -2286,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_method",
           "package": "haskoon",
@@ -2295,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_method",
           "package": "haskoon",
@@ -2307,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_pathInfo",
           "package": "haskoon",
@@ -2316,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_pathInfo",
           "package": "haskoon",
@@ -2329,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_requestUri",
           "package": "haskoon",
@@ -2338,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_requestUri",
           "package": "haskoon",
@@ -2351,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_sendBSL",
           "package": "haskoon",
@@ -2360,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_sendBSL",
           "normalized": "ByteString-\u003ea(WebRes a)",
@@ -2375,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_setCookie",
           "package": "haskoon",
@@ -2384,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_setCookie",
           "normalized": "Cookie-\u003ea()",
@@ -2399,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_setHeader",
           "package": "haskoon",
@@ -2408,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_setHeader",
           "normalized": "String-\u003eString-\u003ea()",
@@ -2423,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_setStatus",
           "package": "haskoon",
@@ -2432,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_setStatus",
           "normalized": "Int-\u003eMaybe String-\u003ea()",
@@ -2447,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_unsetCookie",
           "package": "haskoon",
@@ -2456,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_unsetCookie",
           "normalized": "Cookie-\u003ea()",
@@ -2471,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.Web",
           "name": "web_withRepls",
           "package": "haskoon",
@@ -2480,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon Web",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.Web",
           "name": "web_withRepls",
           "normalized": "a b[String]-\u003ec d-\u003ec d",
@@ -2495,6 +2711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebCGI",
           "name": "WebCGI",
           "package": "haskoon",
@@ -2503,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebCGI",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebCGI",
           "name": "WebCGI",
           "package": "haskoon",
@@ -2516,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebCGI",
           "name": "WebCGI",
           "package": "haskoon",
@@ -2524,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebCGI",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebCGI",
           "name": "WebCGI",
           "package": "haskoon",
@@ -2537,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebCGI",
           "name": "runFastCgi",
           "package": "haskoon",
@@ -2546,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebCGI",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebCGI",
           "name": "runFastCgi",
           "normalized": "String-\u003eCGIT IO CGIResult-\u003eIO()",
@@ -2561,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebCGI",
           "name": "runFastWebCGI",
           "package": "haskoon",
@@ -2570,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebCGI",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebCGI",
           "name": "runFastWebCGI",
           "normalized": "String-\u003eWebWebRes(WebCGI(CGIT IO))-\u003eIO()",
@@ -2585,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebCGI",
           "name": "runWebCGI",
           "package": "haskoon",
@@ -2594,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebCGI",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebCGI",
           "name": "runWebCGI",
           "normalized": "WebCGI a b-\u003ea(Either String b)",
@@ -2609,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebCGI",
           "name": "runWebCGIResult",
           "package": "haskoon",
@@ -2618,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebCGI",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebCGI",
           "name": "runWebCGIResult",
           "normalized": "WebCGI a(WebRes(WebCGI a))-\u003ea CGIResult",
@@ -2633,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHelper",
           "name": "WebHelper",
           "package": "haskoon",
@@ -2641,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHelper",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHelper",
           "name": "WebHelper",
           "package": "haskoon",
@@ -2654,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHelper",
           "name": "statusCodeMessageMap",
           "package": "haskoon",
@@ -2663,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHelper",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHelper",
           "name": "statusCodeMessageMap",
           "normalized": "[(Int,String)]",
@@ -2678,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHsp",
           "name": "WebHsp",
           "package": "haskoon",
@@ -2686,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHsp",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHsp",
           "name": "WebHsp",
           "package": "haskoon",
@@ -2699,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHsp",
           "name": "Attr",
           "package": "haskoon",
@@ -2706,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHsp",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHsp",
           "name": "Attr",
           "package": "haskoon",
@@ -2719,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHsp",
           "name": "Child",
           "package": "haskoon",
@@ -2727,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHsp",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHsp",
           "name": "Child",
           "package": "haskoon",
@@ -2740,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHsp",
           "name": "HSPT",
           "package": "haskoon",
@@ -2747,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHsp",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHsp",
           "name": "HSPT",
           "package": "haskoon",
@@ -2761,6 +3001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe XML datatype representation. Is either an Element or CDATA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHsp",
           "name": "XML",
           "package": "haskoon",
@@ -2769,6 +3010,7 @@
         "index": {
           "description": "The XML datatype representation Is either an Element or CDATA",
           "hierarchy": "Factis Haskoon WebHsp",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHsp",
           "name": "XML",
           "package": "haskoon",
@@ -2782,6 +3024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHsp",
           "name": ":=",
           "package": "haskoon",
@@ -2790,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHsp",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHsp",
           "name": ":=",
           "package": "haskoon",
@@ -2802,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHsp",
           "name": "asAttr",
           "package": "haskoon",
@@ -2810,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHsp",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHsp",
           "name": "asAttr",
           "normalized": "a-\u003eGenAttributeList b",
@@ -2825,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHsp",
           "name": "asChild",
           "package": "haskoon",
@@ -2833,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHsp",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHsp",
           "name": "asChild",
           "normalized": "a-\u003eGenChildList b",
@@ -2848,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHsp",
           "name": "genEElement",
           "package": "haskoon",
@@ -2856,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHsp",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHsp",
           "name": "genEElement",
           "normalized": "Name-\u003e[XMLGenT a[Attribute a]]-\u003eXMLGenT a(XML a)",
@@ -2871,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHsp",
           "name": "genElement",
           "package": "haskoon",
@@ -2879,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHsp",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHsp",
           "name": "genElement",
           "normalized": "Name-\u003e[XMLGenT a[Attribute a]]-\u003e[XMLGenT a[Child a]]-\u003eXMLGenT a(XML a)",
@@ -2894,6 +3146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHsp",
           "name": "webHspHtml",
           "package": "haskoon",
@@ -2903,6 +3156,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHsp",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHsp",
           "name": "webHspHtml",
           "normalized": "HSPT a XML-\u003ea(WebRes a)",
@@ -2918,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebHsp",
           "name": "webToHsp",
           "package": "haskoon",
@@ -2927,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebHsp",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebHsp",
           "name": "webToHsp",
           "normalized": "a b-\u003eHSPT a b",
@@ -2942,6 +3198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebIdT",
           "name": "WebIdT",
           "package": "haskoon",
@@ -2950,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebIdT",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebIdT",
           "name": "WebIdT",
           "package": "haskoon",
@@ -2963,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebIdT",
           "name": "WebIdT",
           "package": "haskoon",
@@ -2971,6 +3230,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebIdT",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebIdT",
           "name": "WebIdT",
           "package": "haskoon",
@@ -2984,6 +3244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebIdT",
           "name": "WebTrans",
           "package": "haskoon",
@@ -2992,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebIdT",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebIdT",
           "name": "WebTrans",
           "package": "haskoon",
@@ -3005,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebIdT",
           "name": "WebIdT",
           "package": "haskoon",
@@ -3014,6 +3277,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebIdT",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebIdT",
           "name": "WebIdT",
           "package": "haskoon",
@@ -3027,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebIdT",
           "name": "liftWeb",
           "package": "haskoon",
@@ -3036,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebIdT",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebIdT",
           "name": "liftWeb",
           "normalized": "a b-\u003ec a b",
@@ -3051,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebIdT",
           "name": "liftWebFun",
           "package": "haskoon",
@@ -3060,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebIdT",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebIdT",
           "name": "liftWebFun",
           "normalized": "(a b c d-\u003ec d)-\u003ee c f-\u003ee c f",
@@ -3075,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebIdT",
           "name": "runWebIdT",
           "package": "haskoon",
@@ -3084,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebIdT",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebIdT",
           "name": "runWebIdT",
           "package": "haskoon",
@@ -3097,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebReaderT",
           "name": "WebReaderT",
           "package": "haskoon",
@@ -3105,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebReaderT",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebReaderT",
           "name": "WebReaderT",
           "package": "haskoon",
@@ -3118,6 +3390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebReaderT",
           "name": "WebReaderT",
           "package": "haskoon",
@@ -3126,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebReaderT",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebReaderT",
           "name": "WebReaderT",
           "package": "haskoon",
@@ -3139,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebReaderT",
           "name": "runWebReaderT",
           "package": "haskoon",
@@ -3148,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebReaderT",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebReaderT",
           "name": "runWebReaderT",
           "normalized": "WebReaderT a b c-\u003ea-\u003eb c",
@@ -3163,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "WebSitemap",
           "package": "haskoon",
@@ -3171,6 +3448,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSitemap",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "WebSitemap",
           "package": "haskoon",
@@ -3184,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "Sitemap",
           "package": "haskoon",
@@ -3192,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSitemap",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "Sitemap",
           "package": "haskoon",
@@ -3205,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "SitemapT",
           "package": "haskoon",
@@ -3213,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSitemap",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "SitemapT",
           "package": "haskoon",
@@ -3226,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "fromSitemapT",
           "package": "haskoon",
@@ -3235,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSitemap",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "fromSitemapT",
           "normalized": "SitemapT a(WebRes a)-\u003ea(WebRes a)-\u003ea(WebRes a)",
@@ -3250,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "liftMaybe",
           "package": "haskoon",
@@ -3259,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSitemap",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "liftMaybe",
           "normalized": "a(Maybe b)-\u003eSitemapT a b",
@@ -3274,6 +3560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "matchFirst",
           "package": "haskoon",
@@ -3283,6 +3570,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSitemap",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "matchFirst",
           "normalized": "[SitemapT a(WebRes a)]-\u003eSitemapT a(WebRes a)",
@@ -3298,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "matchMeth",
           "package": "haskoon",
@@ -3307,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSitemap",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "matchMeth",
           "normalized": "String-\u003eSitemapT a b-\u003eSitemapT a b",
@@ -3322,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "matchPath",
           "package": "haskoon",
@@ -3331,6 +3622,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSitemap",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "matchPath",
           "normalized": "String-\u003eSitemapT a(WebRes a)-\u003eSitemapT a(WebRes a)",
@@ -3346,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "matchRegex",
           "package": "haskoon",
@@ -3355,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSitemap",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "matchRegex",
           "normalized": "String-\u003eSitemapT a(WebRes a)-\u003eSitemapT a(WebRes a)",
@@ -3370,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "runSitemap",
           "package": "haskoon",
@@ -3379,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSitemap",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "runSitemap",
           "normalized": "Sitemap a-\u003ea(WebRes a)",
@@ -3394,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "runSitemapT",
           "package": "haskoon",
@@ -3403,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSitemap",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "runSitemapT",
           "normalized": "SitemapT a b-\u003ea(Maybe b)",
@@ -3418,6 +3716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "runWithSitemap",
           "package": "haskoon",
@@ -3427,6 +3726,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSitemap",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebSitemap",
           "name": "runWithSitemap",
           "normalized": "(a(WebRes a)-\u003eb)-\u003eSitemap a-\u003eb",
@@ -3442,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebTrans",
           "name": "WebTrans",
           "package": "haskoon",
@@ -3450,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebTrans",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebTrans",
           "name": "WebTrans",
           "package": "haskoon",
@@ -3463,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebTrans",
           "name": "WebTrans",
           "package": "haskoon",
@@ -3471,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebTrans",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebTrans",
           "name": "WebTrans",
           "package": "haskoon",
@@ -3484,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebTrans",
           "name": "liftWeb",
           "package": "haskoon",
@@ -3493,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebTrans",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebTrans",
           "name": "liftWeb",
           "normalized": "a b-\u003ec a b",
@@ -3508,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebTrans",
           "name": "liftWebFun",
           "package": "haskoon",
@@ -3517,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebTrans",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebTrans",
           "name": "liftWebFun",
           "normalized": "(a b c d-\u003ec d)-\u003ee c f-\u003ee c f",
@@ -3532,6 +3840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:33 UTC 2014",
           "module": "Factis.Haskoon.WebTrans",
           "name": "liftWebRec",
           "package": "haskoon",
@@ -3541,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebTrans",
+          "indexed": "2014-03-11T18:33:33",
           "module": "Factis.Haskoon.WebTrans",
           "name": "liftWebRec",
           "normalized": "(a(WebRes a)-\u003ea(WebRes(b a)))-\u003eWebRec a-\u003eWebRec(b a)",

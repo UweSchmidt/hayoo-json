@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Win32-services-wrapper"
+        "phrase": "Win32-services-wrapper",
+        "type": "phrase"
       },
       "type": "context"
     }

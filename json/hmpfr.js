@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmpfr"
+        "phrase": "hmpfr",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines instances \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eReal\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFloating\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eMPFR\u003c/a\u003e\u003c/code\u003e.\n  Operations are rounded with \u003ccode\u003e\u003ca\u003eRoundMode\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDown\u003c/a\u003e\u003c/code\u003e and computed with maximum precision of two \n  operands or with the precision of the operand. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Instances.Down",
           "name": "Down",
           "package": "hmpfr",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines instances Num Real Fractional Floating and RealFrac of MPFR Operations are rounded with RoundMode Down and computed with maximum precision of two operands or with the precision of the operand",
           "hierarchy": "Data Number MPFR Instances Down",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Instances.Down",
           "name": "Down",
           "package": "hmpfr",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines instances \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eReal\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFloating\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eMPFR\u003c/a\u003e\u003c/code\u003e.\n  Operations are rounded with \u003ccode\u003e\u003ca\u003eRoundMode\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eNear\u003c/a\u003e\u003c/code\u003e and computed with maximum precision of two \n  operands or with the precision of the operand.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Instances.Near",
           "name": "Near",
           "package": "hmpfr",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This module defines instances Num Real Fractional Floating and RealFrac of MPFR Operations are rounded with RoundMode Near and computed with maximum precision of two operands or with the precision of the operand",
           "hierarchy": "Data Number MPFR Instances Near",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Instances.Near",
           "name": "Near",
           "package": "hmpfr",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines instances \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eReal\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFloating\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eMPFR\u003c/a\u003e\u003c/code\u003e.\n  Operations are rounded with \u003ccode\u003e\u003ca\u003eRoundMode\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eUp\u003c/a\u003e\u003c/code\u003e and computed with maximum precision of two \n  operands or with the precision of the operand.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Instances.Up",
           "name": "Up",
           "package": "hmpfr",
@@ -74,6 +79,7 @@
         "index": {
           "description": "This module defines instances Num Real Fractional Floating and RealFrac of MPFR Operations are rounded with RoundMode Up and computed with maximum precision of two operands or with the precision of the operand",
           "hierarchy": "Data Number MPFR Instances Up",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Instances.Up",
           "name": "Up",
           "package": "hmpfr",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines instances \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eReal\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFloating\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eMPFR\u003c/a\u003e\u003c/code\u003e.\n  Operations are rounded with \u003ccode\u003e\u003ca\u003eRoundMode\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eZero\u003c/a\u003e\u003c/code\u003e and computed with maximum precision of two \n  operands or with the precision of the operand.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Instances.Zero",
           "name": "Zero",
           "package": "hmpfr",
@@ -97,6 +104,7 @@
         "index": {
           "description": "This module defines instances Num Real Fractional Floating and RealFrac of MPFR Operations are rounded with RoundMode Zero and computed with maximum precision of two operands or with the precision of the operand",
           "hierarchy": "Data Number MPFR Instances Zero",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Instances.Zero",
           "name": "Zero",
           "package": "hmpfr",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a \"mutable\" interface to the MPFR library. Functions i\nthis module should have very little overhead over the original \u003ccode\u003eC\u003c/code\u003e functions.\n\u003c/p\u003e\u003cp\u003eType signatures of functions should be self-explanatory. Order of arguments\nis identical to the one in \u003ccode\u003eC\u003c/code\u003e functions. See MPFR manual for documentation\non particular functions.\n\u003c/p\u003e\u003cp\u003eAll operations are performed in the \u003ccode\u003eST\u003c/code\u003e monad so safe transition between mutable\nand immutable interface is possible with \u003ccode\u003erunST\u003c/code\u003e. For example mutable interface \ncould be used in inner loops or in local calculations with temporary variables,\nhelping reduce allocation overhead of the pure interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "Mutable",
           "package": "hmpfr",
@@ -120,6 +129,7 @@
         "index": {
           "description": "This module provides mutable interface to the MPFR library Functions this module should have very little overhead over the original functions Type signatures of functions should be self-explanatory Order of arguments is identical to the one in functions See MPFR manual for documentation on particular functions All operations are performed in the ST monad so safe transition between mutable and immutable interface is possible with runST For example mutable interface could be used in inner loops or in local calculations with temporary variables helping reduce allocation overhead of the pure interface",
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "Mutable",
           "package": "hmpfr",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable MPFR. Currently this is just a newtype wrapped STRef to\n a MPFR but this may change in the future for a more efficient implementation.\n Type argument \u003ccode\u003es\u003c/code\u003e is the state variable argument for the \u003ccode\u003eST\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "MMPFR",
           "package": "hmpfr",
@@ -143,6 +154,7 @@
         "index": {
           "description": "mutable MPFR Currently this is just newtype wrapped STRef to MPFR but this may change in the future for more efficient implementation Type argument is the state variable argument for the ST type",
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "MMPFR",
           "package": "hmpfr",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "absD",
           "package": "hmpfr",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "absD",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "acos",
           "package": "hmpfr",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "acos",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "acosh",
           "package": "hmpfr",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "acosh",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "add",
           "package": "hmpfr",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "add",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "addd",
           "package": "hmpfr",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "addd",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eDouble-\u003eRoundMode-\u003eST a Int",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "addi",
           "package": "hmpfr",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "addi",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eInt-\u003eRoundMode-\u003eST a Int",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "addw",
           "package": "hmpfr",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "addw",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eWord-\u003eRoundMode-\u003eST a Int",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "agm",
           "package": "hmpfr",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "agm",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "asin",
           "package": "hmpfr",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "asin",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "asinh",
           "package": "hmpfr",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "asinh",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "atan",
           "package": "hmpfr",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "atan",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "atan2",
           "package": "hmpfr",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "atan2",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "atanh",
           "package": "hmpfr",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "atanh",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "cbrt",
           "package": "hmpfr",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "cbrt",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "ceil",
           "package": "hmpfr",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "ceil",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eST a Int",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "cos",
           "package": "hmpfr",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "cos",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "cosh",
           "package": "hmpfr",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "cosh",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "cot",
           "package": "hmpfr",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "cot",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "coth",
           "package": "hmpfr",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "coth",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "csc",
           "package": "hmpfr",
@@ -602,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "csc",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "csch",
           "package": "hmpfr",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "csch",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "ddiv",
           "package": "hmpfr",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "ddiv",
           "normalized": "MMPFR a-\u003eDouble-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "dim",
           "package": "hmpfr",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "dim",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "div",
           "package": "hmpfr",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "div",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -708,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "div2i",
           "package": "hmpfr",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "div2i",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eInt-\u003eRoundMode-\u003eST a Int",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "div2w",
           "package": "hmpfr",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "div2w",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eWord-\u003eRoundMode-\u003eST a Int",
@@ -754,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "divd",
           "package": "hmpfr",
@@ -763,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "divd",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eDouble-\u003eRoundMode-\u003eST a Int",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "divi",
           "package": "hmpfr",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "divi",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eInt-\u003eRoundMode-\u003eST a Int",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "divw",
           "package": "hmpfr",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "divw",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eWord-\u003eRoundMode-\u003eST a Int",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "dsub",
           "package": "hmpfr",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "dsub",
           "normalized": "MMPFR a-\u003eDouble-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -846,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "eint",
           "package": "hmpfr",
@@ -855,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "eint",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "erf",
           "package": "hmpfr",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "erf",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "erfc",
           "package": "hmpfr",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "erfc",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "exp",
           "package": "hmpfr",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "exp",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "exp10",
           "package": "hmpfr",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "exp10",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -961,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "exp2",
           "package": "hmpfr",
@@ -970,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "exp2",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "expm1",
           "package": "hmpfr",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "expm1",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1007,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "facw",
           "package": "hmpfr",
@@ -1016,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "facw",
           "normalized": "MMPFR a-\u003eWord-\u003eRoundMode-\u003eST a Int",
@@ -1030,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "floor",
           "package": "hmpfr",
@@ -1039,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "floor",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eST a Int",
@@ -1053,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "fma",
           "package": "hmpfr",
@@ -1062,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "fma",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "fmod",
           "package": "hmpfr",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "fmod",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "fms",
           "package": "hmpfr",
@@ -1108,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "fms",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1122,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "frac",
           "package": "hmpfr",
@@ -1131,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "frac",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1146,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a mutable MPFR to an immutable one, making a complete copy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "freeze",
           "package": "hmpfr",
@@ -1156,6 +1255,7 @@
         "index": {
           "description": "Convert mutable MPFR to an immutable one making complete copy",
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "freeze",
           "normalized": "MMPFR a-\u003eST a MPFR",
@@ -1170,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "gamma",
           "package": "hmpfr",
@@ -1179,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "gamma",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1193,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "getExp",
           "package": "hmpfr",
@@ -1202,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "getExp",
           "normalized": "MMPFR a-\u003eST a Exp",
@@ -1217,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "getPrec",
           "package": "hmpfr",
@@ -1226,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "getPrec",
           "normalized": "MMPFR a-\u003eST a Precision",
@@ -1241,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "hypot",
           "package": "hmpfr",
@@ -1250,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "hypot",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1264,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "idiv",
           "package": "hmpfr",
@@ -1273,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "idiv",
           "normalized": "MMPFR a-\u003eInt-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1287,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "isub",
           "package": "hmpfr",
@@ -1296,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "isub",
           "normalized": "MMPFR a-\u003eInt-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1310,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "j0",
           "package": "hmpfr",
@@ -1319,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "j0",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1333,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "j1",
           "package": "hmpfr",
@@ -1342,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "j1",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1356,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "jn",
           "package": "hmpfr",
@@ -1365,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "jn",
           "normalized": "MMPFR a-\u003eWord-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1379,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "li2",
           "package": "hmpfr",
@@ -1388,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "li2",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1402,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "lngamma",
           "package": "hmpfr",
@@ -1411,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "lngamma",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1425,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "log",
           "package": "hmpfr",
@@ -1434,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "log",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1448,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "log10",
           "package": "hmpfr",
@@ -1457,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "log10",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1471,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "log1p",
           "package": "hmpfr",
@@ -1480,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "log1p",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1494,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "log2",
           "package": "hmpfr",
@@ -1503,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "log2",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1517,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "max",
           "package": "hmpfr",
@@ -1526,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "max",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1540,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "min",
           "package": "hmpfr",
@@ -1549,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "min",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1563,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "modf",
           "package": "hmpfr",
@@ -1572,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "modf",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1586,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "mul",
           "package": "hmpfr",
@@ -1595,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "mul",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1609,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "mul2i",
           "package": "hmpfr",
@@ -1618,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "mul2i",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eInt-\u003eRoundMode-\u003eST a Int",
@@ -1632,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "mul2w",
           "package": "hmpfr",
@@ -1641,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "mul2w",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eWord-\u003eRoundMode-\u003eST a Int",
@@ -1655,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "muld",
           "package": "hmpfr",
@@ -1664,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "muld",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eDouble-\u003eRoundMode-\u003eST a Int",
@@ -1678,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "muli",
           "package": "hmpfr",
@@ -1687,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "muli",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eInt-\u003eRoundMode-\u003eST a Int",
@@ -1701,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "mulw",
           "package": "hmpfr",
@@ -1710,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "mulw",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eWord-\u003eRoundMode-\u003eST a Int",
@@ -1724,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "neg",
           "package": "hmpfr",
@@ -1733,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "neg",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1747,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "nextAbove",
           "package": "hmpfr",
@@ -1756,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "nextAbove",
           "normalized": "MMPFR a-\u003eST a()",
@@ -1771,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "nextbelow",
           "package": "hmpfr",
@@ -1780,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "nextbelow",
           "normalized": "MMPFR a-\u003eST a()",
@@ -1794,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "pow",
           "package": "hmpfr",
@@ -1803,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "pow",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1817,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "powi",
           "package": "hmpfr",
@@ -1826,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "powi",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eInt-\u003eRoundMode-\u003eST a Int",
@@ -1840,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "poww",
           "package": "hmpfr",
@@ -1849,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "poww",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eWord-\u003eRoundMode-\u003eST a Int",
@@ -1863,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "recSqrt",
           "package": "hmpfr",
@@ -1872,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "recSqrt",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1887,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "remainder",
           "package": "hmpfr",
@@ -1896,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "remainder",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1910,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "rint",
           "package": "hmpfr",
@@ -1919,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "rint",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1933,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "rintCeil",
           "package": "hmpfr",
@@ -1942,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "rintCeil",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1957,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "rintFloor",
           "package": "hmpfr",
@@ -1966,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "rintFloor",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -1981,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "rintRound",
           "package": "hmpfr",
@@ -1990,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "rintRound",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2005,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "rintTrunc",
           "package": "hmpfr",
@@ -2014,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "rintTrunc",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2029,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "root",
           "package": "hmpfr",
@@ -2038,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "root",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eWord-\u003eRoundMode-\u003eST a Int",
@@ -2052,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "round",
           "package": "hmpfr",
@@ -2061,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "round",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eST a Int",
@@ -2075,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sec",
           "package": "hmpfr",
@@ -2084,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sec",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2098,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sech",
           "package": "hmpfr",
@@ -2107,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sech",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2121,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sin",
           "package": "hmpfr",
@@ -2130,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sin",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2144,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sincos",
           "package": "hmpfr",
@@ -2153,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sincos",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2167,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sinh",
           "package": "hmpfr",
@@ -2176,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sinh",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2190,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sinhcosh",
           "package": "hmpfr",
@@ -2199,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sinhcosh",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2213,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sqr",
           "package": "hmpfr",
@@ -2222,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sqr",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2236,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sqrt",
           "package": "hmpfr",
@@ -2245,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sqrt",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2259,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sqrtw",
           "package": "hmpfr",
@@ -2268,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sqrtw",
           "normalized": "MMPFR a-\u003eWord-\u003eRoundMode-\u003eST a Int",
@@ -2282,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sub",
           "package": "hmpfr",
@@ -2291,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "sub",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2305,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "subd",
           "package": "hmpfr",
@@ -2314,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "subd",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eDouble-\u003eRoundMode-\u003eST a Int",
@@ -2328,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "subi",
           "package": "hmpfr",
@@ -2337,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "subi",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eInt-\u003eRoundMode-\u003eST a Int",
@@ -2351,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "subw",
           "package": "hmpfr",
@@ -2360,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "subw",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eWord-\u003eRoundMode-\u003eST a Int",
@@ -2374,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "tan",
           "package": "hmpfr",
@@ -2383,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "tan",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2397,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "tanh",
           "package": "hmpfr",
@@ -2406,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "tanh",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2421,6 +2629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an immutable MPFR to a mutable one, making a complete copy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "thaw",
           "package": "hmpfr",
@@ -2431,6 +2640,7 @@
         "index": {
           "description": "Convert an immutable MPFR to mutable one making complete copy",
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "thaw",
           "normalized": "MPFR-\u003eST a(MMPFR a)",
@@ -2445,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "trunc",
           "package": "hmpfr",
@@ -2454,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "trunc",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eST a Int",
@@ -2469,6 +2681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a mutable MPFR to an immutable one. The unsafe prefix comes from\n the fact that limbs of the MPFR are not copied so any further modifications\n on the mutable MPFR will reflect on the \"frozen\" one. If mutable MPFR will\n not be modified afterwards, it is perfectly safe to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "unsafeFreeze",
           "package": "hmpfr",
@@ -2479,6 +2692,7 @@
         "index": {
           "description": "Convert mutable MPFR to an immutable one The unsafe prefix comes from the fact that limbs of the MPFR are not copied so any further modifications on the mutable MPFR will reflect on the frozen one If mutable MPFR will not be modified afterwards it is perfectly safe to use",
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "unsafeFreeze",
           "normalized": "MMPFR a-\u003eST a MPFR",
@@ -2495,6 +2709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an immutable MPFR to a mutable one. The unsafe prefix comes from\n the fact that limbs of the MPFR are not copied so any modifications done on\n on the mutable MPFR will reflect on the original. If the original will not be\n used or limbs of the mutable not modified, then it is safe to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "unsafeThaw",
           "package": "hmpfr",
@@ -2505,6 +2720,7 @@
         "index": {
           "description": "Convert an immutable MPFR to mutable one The unsafe prefix comes from the fact that limbs of the MPFR are not copied so any modifications done on on the mutable MPFR will reflect on the original If the original will not be used or limbs of the mutable not modified then it is safe to use",
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "unsafeThaw",
           "normalized": "MPFR-\u003eST a(MMPFR a)",
@@ -2521,6 +2737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the state of the mutable MPFR with a new one. The actual limbs are\n not copied, so any further modifications on the mutable MPFR will reflect on\n the MPFR given in as the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "unsafeWriteMMPFR",
           "package": "hmpfr",
@@ -2531,6 +2748,7 @@
         "index": {
           "description": "Replace the state of the mutable MPFR with new one The actual limbs are not copied so any further modifications on the mutable MPFR will reflect on the MPFR given in as the second argument",
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "unsafeWriteMMPFR",
           "normalized": "MMPFR a-\u003eMPFR-\u003eST a()",
@@ -2546,6 +2764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "wdiv",
           "package": "hmpfr",
@@ -2555,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "wdiv",
           "normalized": "MMPFR a-\u003eWord-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2569,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "wpow",
           "package": "hmpfr",
@@ -2578,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "wpow",
           "normalized": "MMPFR a-\u003eWord-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2593,6 +2815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the state of the mutable MPFR with a new one,\n making a complete copy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "writeMMPFR",
           "package": "hmpfr",
@@ -2603,6 +2826,7 @@
         "index": {
           "description": "Replace the state of the mutable MPFR with new one making complete copy",
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "writeMMPFR",
           "normalized": "MMPFR a-\u003eMPFR-\u003eST a()",
@@ -2618,6 +2842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "wsub",
           "package": "hmpfr",
@@ -2627,6 +2852,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "wsub",
           "normalized": "MMPFR a-\u003eWord-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2641,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "y0",
           "package": "hmpfr",
@@ -2650,6 +2877,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "y0",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2664,6 +2892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "y1",
           "package": "hmpfr",
@@ -2673,6 +2902,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "y1",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2687,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "yn",
           "package": "hmpfr",
@@ -2696,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "yn",
           "normalized": "MMPFR a-\u003eWord-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2710,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "zeta",
           "package": "hmpfr",
@@ -2719,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "zeta",
           "normalized": "MMPFR a-\u003eMMPFR a-\u003eRoundMode-\u003eST a Int",
@@ -2733,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR.Mutable",
           "name": "zetaw",
           "package": "hmpfr",
@@ -2742,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR Mutable",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR.Mutable",
           "name": "zetaw",
           "normalized": "MMPFR a-\u003eWord-\u003eRoundMode-\u003eST a Int",
@@ -2757,6 +2993,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports a pure interface to the MPFR library functions. Functions\nreturn new \u003ccode\u003e\u003ca\u003eMPFR\u003c/a\u003e\u003c/code\u003e structures instead of modifying existing ones and so all\nfunctions which produce a new MPFR structure take one more parameter than\ntheir original \u003ccode\u003eC\u003c/code\u003e counterparts. This parameter, \u003ccode\u003e\u003ca\u003ePrecision\u003c/a\u003e\u003c/code\u003e, is the precision\nof the resulting \u003ccode\u003e\u003ca\u003eMPFR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is naturally slower than modifying in-place, especially when dealing\nwith lower precisions, so a \"mutable\" interface is provided in \n\u003ca\u003eData.Number.MPFR.Mutable\u003c/a\u003e module.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNaming conventions\u003c/em\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e functions ending with _ (underscore) usually return a pair \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eMPFR\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e, where\n      \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e is a return value of a corresponding \u003ccode\u003empfr_\u003c/code\u003e function. See the MPFR manual for \n      a description of return values.\n\u003c/li\u003e\u003cli\u003e the same functions without the _ return just the \u003ccode\u003e\u003ca\u003eMPFR\u003c/a\u003e\u003c/code\u003e. \n\u003c/li\u003e\u003cli\u003e \u003ccode\u003empfr_\u003c/code\u003e prefix in functions is removed\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e_ui\u003c/code\u003e and \u003ccode\u003eui_\u003c/code\u003e in function becomes \u003ccode\u003ew\u003c/code\u003e (stands for \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e).\n      For example \u003ccode\u003empfr_sub_ui\u003c/code\u003e becomes \u003ccode\u003e\u003ccode\u003e\u003ca\u003esubw\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \u003ccode\u003empfr_ui_sub\u003c/code\u003e becomes \u003ccode\u003e\u003ca\u003ewsub\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003esi_\u003c/code\u003e and \u003ccode\u003e_si\u003c/code\u003e in functions becomes \u003ccode\u003ei\u003c/code\u003e (stands for \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e).\n      For example \u003ccode\u003empfr_sub_si\u003c/code\u003e becomes \u003ccode\u003e\u003ccode\u003e\u003ca\u003esubi\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \u003ccode\u003empfr_si_sub\u003c/code\u003e becomes \u003ccode\u003e\u003ca\u003eisub\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e comparison functions which have \u003ccode\u003e_p\u003c/code\u003e appended loose it.\n      For example \u003ccode\u003empfr_less_p\u003c/code\u003e becomes \u003ccode\u003e\u003ccode\u003e\u003ca\u003eless\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003cem\u003eInstances\u003c/em\u003e\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cul\u003e\u003cli\u003e NaN /= NaN,\n\u003c/li\u003e\u003cli\u003e Infinity = Infinity, \n\u003c/li\u003e\u003cli\u003e -Infinity = -Infinity\n\u003c/li\u003e\u003cli\u003e otherwise normal comparison \n\u003c/li\u003e\u003c/ul\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cul\u003e\u003cli\u003e compare NaN _ = \u003ccode\u003e\u003ca\u003eGT\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e compare _ NaN = \u003ccode\u003e\u003ca\u003eGT\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e infinity \u003c _ = \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e -infinity \u003e _ = \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e NaN [\u003c,\u003e,\u003e=,\u003c=] _ = \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis mimics the behaviour of built in Haskell \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf you need instances of numeric typeclasses import one of the \nData.Number.MPFR.Instances.* modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "MPFR",
           "package": "hmpfr",
@@ -2766,6 +3003,7 @@
         "index": {
           "description": "This module exports pure interface to the MPFR library functions Functions return new MPFR structures instead of modifying existing ones and so all functions which produce new MPFR structure take one more parameter than their original counterparts This parameter Precision is the precision of the resulting MPFR This is naturally slower than modifying in-place especially when dealing with lower precisions so mutable interface is provided in Data.Number.MPFR.Mutable module Naming conventions functions ending with underscore usually return pair MPFR Int where Int is return value of corresponding mpfr function See the MPFR manual for description of return values the same functions without the return just the MPFR mpfr prefix in functions is removed ui and ui in function becomes stands for Word For example mpfr sub ui becomes subw and mpfr ui sub becomes wsub si and si in functions becomes stands for Int For example mpfr sub si becomes subi and mpfr si sub becomes isub comparison functions which have appended loose it For example mpfr less becomes less Instances Eq NaN NaN Infinity Infinity Infinity Infinity otherwise normal comparison Ord compare NaN GT compare NaN GT infinity False infinity False NaN False This mimics the behaviour of built in Haskell Float and Double If you need instances of numeric typeclasses import one of the Data.Number.MPFR.Instances modules",
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "MPFR",
           "package": "hmpfr",
@@ -2779,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "Exp",
           "package": "hmpfr",
@@ -2787,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "Exp",
           "package": "hmpfr",
@@ -2800,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "MPFR",
           "package": "hmpfr",
@@ -2808,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "MPFR",
           "package": "hmpfr",
@@ -2821,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "MpSize",
           "package": "hmpfr",
@@ -2829,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "MpSize",
           "package": "hmpfr",
@@ -2842,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "Precision",
           "package": "hmpfr",
@@ -2850,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "Precision",
           "package": "hmpfr",
@@ -2863,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "RoundMode",
           "package": "hmpfr",
@@ -2871,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "RoundMode",
           "package": "hmpfr",
@@ -2884,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "Down",
           "package": "hmpfr",
@@ -2893,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "Down",
           "package": "hmpfr",
@@ -2906,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "Near",
           "package": "hmpfr",
@@ -2915,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "Near",
           "package": "hmpfr",
@@ -2928,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "Up",
           "package": "hmpfr",
@@ -2937,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "Up",
           "package": "hmpfr",
@@ -2950,6 +3204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "Zero",
           "package": "hmpfr",
@@ -2959,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "Zero",
           "package": "hmpfr",
@@ -2972,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "absD",
           "package": "hmpfr",
@@ -2981,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "absD",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -2995,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "absD_",
           "package": "hmpfr",
@@ -3004,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "absD_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3018,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "acos",
           "package": "hmpfr",
@@ -3027,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "acos",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -3041,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "acos_",
           "package": "hmpfr",
@@ -3050,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "acos_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3064,6 +3328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "acosh",
           "package": "hmpfr",
@@ -3073,6 +3338,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "acosh",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -3087,6 +3353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "acosh_",
           "package": "hmpfr",
@@ -3096,6 +3363,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "acosh_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3110,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "add",
           "package": "hmpfr",
@@ -3119,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "add",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -3133,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "add_",
           "package": "hmpfr",
@@ -3142,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "add_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3156,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "addd",
           "package": "hmpfr",
@@ -3165,6 +3438,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "addd",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eDouble-\u003eMPFR",
@@ -3179,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "addd_",
           "package": "hmpfr",
@@ -3188,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "addd_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eDouble-\u003e(MPFR,Int)",
@@ -3202,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "addi",
           "package": "hmpfr",
@@ -3211,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "addi",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003eMPFR",
@@ -3225,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "addi_",
           "package": "hmpfr",
@@ -3234,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "addi_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003e(MPFR,Int)",
@@ -3248,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "addw",
           "package": "hmpfr",
@@ -3257,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "addw",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003eMPFR",
@@ -3271,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "addw_",
           "package": "hmpfr",
@@ -3280,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "addw_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003e(MPFR,Int)",
@@ -3294,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "agm",
           "package": "hmpfr",
@@ -3303,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "agm",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -3317,6 +3603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "agm_",
           "package": "hmpfr",
@@ -3326,6 +3613,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "agm_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3340,6 +3628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "asin",
           "package": "hmpfr",
@@ -3349,6 +3638,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "asin",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -3363,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "asin_",
           "package": "hmpfr",
@@ -3372,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "asin_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3386,6 +3678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "asinh",
           "package": "hmpfr",
@@ -3395,6 +3688,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "asinh",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -3409,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "asinh_",
           "package": "hmpfr",
@@ -3418,6 +3713,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "asinh_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3432,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "atan",
           "package": "hmpfr",
@@ -3441,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "atan",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -3455,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "atan2",
           "package": "hmpfr",
@@ -3464,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "atan2",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -3478,6 +3778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "atan2_",
           "package": "hmpfr",
@@ -3487,6 +3788,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "atan2_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3501,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "atan_",
           "package": "hmpfr",
@@ -3510,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "atan_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3524,6 +3828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "atanh",
           "package": "hmpfr",
@@ -3533,6 +3838,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "atanh",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -3547,6 +3853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "atanh_",
           "package": "hmpfr",
@@ -3556,6 +3863,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "atanh_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3570,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "bitsInInteger",
           "package": "hmpfr",
@@ -3579,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "bitsInInteger",
           "normalized": "Integer-\u003ea",
@@ -3594,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "catalan",
           "package": "hmpfr",
@@ -3603,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "catalan",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR",
@@ -3617,6 +3929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "catalan_",
           "package": "hmpfr",
@@ -3626,6 +3939,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "catalan_",
           "normalized": "RoundMode-\u003ePrecision-\u003e(MPFR,Int)",
@@ -3640,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cbrt",
           "package": "hmpfr",
@@ -3649,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cbrt",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -3663,6 +3979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cbrt_",
           "package": "hmpfr",
@@ -3672,6 +3989,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cbrt_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3686,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "ceil",
           "package": "hmpfr",
@@ -3695,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "ceil",
           "normalized": "Precision-\u003eMPFR-\u003eMPFR",
@@ -3709,6 +4029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "ceil_",
           "package": "hmpfr",
@@ -3718,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "ceil_",
           "normalized": "Precision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3732,6 +4054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cmp",
           "package": "hmpfr",
@@ -3741,6 +4064,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cmp",
           "normalized": "MPFR-\u003eMPFR-\u003eMaybe Ordering",
@@ -3755,6 +4079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cmp2i",
           "package": "hmpfr",
@@ -3764,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cmp2i",
           "normalized": "MPFR-\u003eInt-\u003eExp-\u003eMaybe Ordering",
@@ -3778,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cmp2w",
           "package": "hmpfr",
@@ -3787,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cmp2w",
           "normalized": "MPFR-\u003eWord-\u003eExp-\u003eMaybe Ordering",
@@ -3801,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cmpabs",
           "package": "hmpfr",
@@ -3810,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cmpabs",
           "normalized": "MPFR-\u003eMPFR-\u003eMaybe Ordering",
@@ -3824,6 +4154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cmpd",
           "package": "hmpfr",
@@ -3833,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cmpd",
           "normalized": "MPFR-\u003eDouble-\u003eMaybe Ordering",
@@ -3847,6 +4179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cmpi",
           "package": "hmpfr",
@@ -3856,6 +4189,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cmpi",
           "normalized": "MPFR-\u003eInt-\u003eMaybe Ordering",
@@ -3870,6 +4204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cmpw",
           "package": "hmpfr",
@@ -3879,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cmpw",
           "normalized": "MPFR-\u003eWord-\u003eMaybe Ordering",
@@ -3893,6 +4229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "compose",
           "package": "hmpfr",
@@ -3902,6 +4239,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "compose",
           "normalized": "RoundMode-\u003ePrecision-\u003e(Integer,Int)-\u003eMPFR",
@@ -3916,6 +4254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cos",
           "package": "hmpfr",
@@ -3925,6 +4264,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cos",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -3939,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cos_",
           "package": "hmpfr",
@@ -3948,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cos_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -3962,6 +4304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cosh",
           "package": "hmpfr",
@@ -3971,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cosh",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -3985,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cosh_",
           "package": "hmpfr",
@@ -3994,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cosh_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4008,6 +4354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cot",
           "package": "hmpfr",
@@ -4017,6 +4364,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cot",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -4031,6 +4379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cot_",
           "package": "hmpfr",
@@ -4040,6 +4389,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "cot_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4054,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "coth",
           "package": "hmpfr",
@@ -4063,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "coth",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -4077,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "coth_",
           "package": "hmpfr",
@@ -4086,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "coth_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4100,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "csc",
           "package": "hmpfr",
@@ -4109,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "csc",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -4123,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "csc_",
           "package": "hmpfr",
@@ -4132,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "csc_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4146,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "csch",
           "package": "hmpfr",
@@ -4155,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "csch",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -4169,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "csch_",
           "package": "hmpfr",
@@ -4178,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "csch_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4192,6 +4554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "ddiv",
           "package": "hmpfr",
@@ -4201,6 +4564,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "ddiv",
           "normalized": "RoundMode-\u003ePrecision-\u003eDouble-\u003eMPFR-\u003eMPFR",
@@ -4215,6 +4579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "ddiv_",
           "package": "hmpfr",
@@ -4224,6 +4589,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "ddiv_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDouble-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4238,6 +4604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "decompose",
           "package": "hmpfr",
@@ -4247,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "decompose",
           "normalized": "MPFR-\u003e(Integer,Exp)",
@@ -4261,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "dim",
           "package": "hmpfr",
@@ -4270,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "dim",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -4284,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "dim_",
           "package": "hmpfr",
@@ -4293,6 +4664,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "dim_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4307,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "div",
           "package": "hmpfr",
@@ -4316,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "div",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -4330,6 +4704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "div2i",
           "package": "hmpfr",
@@ -4339,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "div2i",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003eMPFR",
@@ -4353,6 +4729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "div2i_",
           "package": "hmpfr",
@@ -4362,6 +4739,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "div2i_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003e(MPFR,Int)",
@@ -4376,6 +4754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "div2w",
           "package": "hmpfr",
@@ -4385,6 +4764,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "div2w",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003eMPFR",
@@ -4399,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "div2w_",
           "package": "hmpfr",
@@ -4408,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "div2w_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003e(MPFR,Int)",
@@ -4422,6 +4804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "div_",
           "package": "hmpfr",
@@ -4431,6 +4814,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "div_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4445,6 +4829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "divd",
           "package": "hmpfr",
@@ -4454,6 +4839,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "divd",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eDouble-\u003eMPFR",
@@ -4468,6 +4854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "divd_",
           "package": "hmpfr",
@@ -4477,6 +4864,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "divd_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eDouble-\u003e(MPFR,Int)",
@@ -4491,6 +4879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "divi",
           "package": "hmpfr",
@@ -4500,6 +4889,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "divi",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003eMPFR",
@@ -4514,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "divi_",
           "package": "hmpfr",
@@ -4523,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "divi_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003e(MPFR,Int)",
@@ -4537,6 +4929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "divw",
           "package": "hmpfr",
@@ -4546,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "divw",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003eMPFR",
@@ -4560,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "divw_",
           "package": "hmpfr",
@@ -4569,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "divw_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003e(MPFR,Int)",
@@ -4583,6 +4979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "dsub",
           "package": "hmpfr",
@@ -4592,6 +4989,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "dsub",
           "normalized": "RoundMode-\u003ePrecision-\u003eDouble-\u003eMPFR-\u003eMPFR",
@@ -4606,6 +5004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "dsub_",
           "package": "hmpfr",
@@ -4615,6 +5014,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "dsub_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDouble-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4629,6 +5029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "eint",
           "package": "hmpfr",
@@ -4638,6 +5039,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "eint",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -4652,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "eint_",
           "package": "hmpfr",
@@ -4661,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "eint_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4675,6 +5079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "equal",
           "package": "hmpfr",
@@ -4684,6 +5089,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "equal",
           "normalized": "MPFR-\u003eMPFR-\u003eBool",
@@ -4698,6 +5104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "erf",
           "package": "hmpfr",
@@ -4707,6 +5114,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "erf",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -4721,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "erf_",
           "package": "hmpfr",
@@ -4730,6 +5139,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "erf_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4744,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "erfc",
           "package": "hmpfr",
@@ -4753,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "erfc",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -4767,6 +5179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "erfc_",
           "package": "hmpfr",
@@ -4776,6 +5189,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "erfc_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4790,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "euler",
           "package": "hmpfr",
@@ -4799,6 +5214,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "euler",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR",
@@ -4813,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "euler_",
           "package": "hmpfr",
@@ -4822,6 +5239,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "euler_",
           "normalized": "RoundMode-\u003ePrecision-\u003e(MPFR,Int)",
@@ -4836,6 +5254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "exp",
           "package": "hmpfr",
@@ -4845,6 +5264,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "exp",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -4859,6 +5279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "exp10",
           "package": "hmpfr",
@@ -4868,6 +5289,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "exp10",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -4882,6 +5304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "exp10_",
           "package": "hmpfr",
@@ -4891,6 +5314,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "exp10_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4905,6 +5329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "exp2",
           "package": "hmpfr",
@@ -4914,6 +5339,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "exp2",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -4928,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "exp2_",
           "package": "hmpfr",
@@ -4937,6 +5364,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "exp2_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4951,6 +5379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "exp_",
           "package": "hmpfr",
@@ -4960,6 +5389,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "exp_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -4974,6 +5404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "expm1",
           "package": "hmpfr",
@@ -4983,6 +5414,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "expm1",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -4997,6 +5429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "expm1_",
           "package": "hmpfr",
@@ -5006,6 +5439,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "expm1_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -5020,6 +5454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "facw",
           "package": "hmpfr",
@@ -5029,6 +5464,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "facw",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eMPFR",
@@ -5043,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "facw_",
           "package": "hmpfr",
@@ -5052,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "facw_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003e(MPFR,Int)",
@@ -5066,6 +5504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fitsSInt",
           "package": "hmpfr",
@@ -5075,6 +5514,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fitsSInt",
           "normalized": "RoundMode-\u003eMPFR-\u003eBool",
@@ -5090,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fitsSLong",
           "package": "hmpfr",
@@ -5099,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fitsSLong",
           "normalized": "RoundMode-\u003eMPFR-\u003eBool",
@@ -5114,6 +5556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fitsSShort",
           "package": "hmpfr",
@@ -5123,6 +5566,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fitsSShort",
           "normalized": "RoundMode-\u003eMPFR-\u003eBool",
@@ -5138,6 +5582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fitsUInt",
           "package": "hmpfr",
@@ -5147,6 +5592,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fitsUInt",
           "normalized": "RoundMode-\u003eMPFR-\u003eBool",
@@ -5162,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fitsULong",
           "package": "hmpfr",
@@ -5171,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fitsULong",
           "normalized": "RoundMode-\u003eMPFR-\u003eBool",
@@ -5186,6 +5634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fitsUShort",
           "package": "hmpfr",
@@ -5195,6 +5644,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fitsUShort",
           "normalized": "RoundMode-\u003eMPFR-\u003eBool",
@@ -5210,6 +5660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "floor",
           "package": "hmpfr",
@@ -5219,6 +5670,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "floor",
           "normalized": "Precision-\u003eMPFR-\u003eMPFR",
@@ -5233,6 +5685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "floor_",
           "package": "hmpfr",
@@ -5242,6 +5695,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "floor_",
           "normalized": "Precision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -5256,6 +5710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fma",
           "package": "hmpfr",
@@ -5265,6 +5720,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fma",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -5279,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fma_",
           "package": "hmpfr",
@@ -5288,6 +5745,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fma_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -5302,6 +5760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fmod",
           "package": "hmpfr",
@@ -5311,6 +5770,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fmod",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -5325,6 +5785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fmod_",
           "package": "hmpfr",
@@ -5334,6 +5795,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fmod_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -5348,6 +5810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fms",
           "package": "hmpfr",
@@ -5357,6 +5820,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fms",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -5371,6 +5835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fms_",
           "package": "hmpfr",
@@ -5380,6 +5845,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fms_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -5394,6 +5860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "frac",
           "package": "hmpfr",
@@ -5403,6 +5870,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "frac",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -5417,6 +5885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "frac_",
           "package": "hmpfr",
@@ -5426,6 +5895,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "frac_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -5440,6 +5910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "freeCache",
           "package": "hmpfr",
@@ -5449,6 +5920,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "freeCache",
           "normalized": "IO()",
@@ -5464,6 +5936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromDouble",
           "package": "hmpfr",
@@ -5473,6 +5946,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fromDouble",
           "normalized": "RoundMode-\u003ePrecision-\u003eDouble-\u003eMPFR",
@@ -5488,6 +5962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromDouble_",
           "package": "hmpfr",
@@ -5497,6 +5972,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fromDouble_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDouble-\u003e(MPFR,Int)",
@@ -5512,6 +5988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromInt",
           "package": "hmpfr",
@@ -5521,6 +5998,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fromInt",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eMPFR",
@@ -5536,6 +6014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromInt_",
           "package": "hmpfr",
@@ -5545,6 +6024,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fromInt_",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003e(MPFR,Int)",
@@ -5560,6 +6040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromIntegerA",
           "package": "hmpfr",
@@ -5569,6 +6050,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fromIntegerA",
           "normalized": "RoundMode-\u003ePrecision-\u003eInteger-\u003eMPFR",
@@ -5585,6 +6067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003estringToMPFR\u003c/a\u003e\u003c/code\u003e with default rounding to Near.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromString",
           "package": "hmpfr",
@@ -5595,6 +6078,7 @@
         "index": {
           "description": "stringToMPFR with default rounding to Near",
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fromString",
           "normalized": "String-\u003ePrecision-\u003eWord-\u003eMPFR",
@@ -5610,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromWord",
           "package": "hmpfr",
@@ -5619,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fromWord",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eMPFR",
@@ -5634,6 +6120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromWord_",
           "package": "hmpfr",
@@ -5643,6 +6130,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "fromWord_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003e(MPFR,Int)",
@@ -5658,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "gamma",
           "package": "hmpfr",
@@ -5667,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "gamma",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -5681,6 +6171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "gamma_",
           "package": "hmpfr",
@@ -5690,6 +6181,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "gamma_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -5704,6 +6196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "getExp",
           "package": "hmpfr",
@@ -5713,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "getExp",
           "normalized": "MPFR-\u003eExp",
@@ -5729,6 +6223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egetMantissa and getExp return values such that\n\u003c/p\u003e\u003cpre\u003e d = getMantissa d * 2^(getExp d - ceiling ((getPrec d) / bitsPerMPLimb)* bitsPerMPLimb )\n\u003c/pre\u003e\u003cp\u003eIn case of \u003ccode\u003e0\u003c/code\u003e, \u003ccode\u003eNaN\u003c/code\u003e or \u003ccode\u003e+-Inf\u003c/code\u003e getMantissa will return \u003ccode\u003e0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "getMantissa",
           "package": "hmpfr",
@@ -5739,6 +6234,7 @@
         "index": {
           "description": "getMantissa and getExp return values such that getMantissa getExp ceiling getPrec bitsPerMPLimb bitsPerMPLimb In case of NaN or Inf getMantissa will return",
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "getMantissa",
           "normalized": "MPFR-\u003eInteger",
@@ -5754,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "getPrec",
           "package": "hmpfr",
@@ -5763,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "getPrec",
           "normalized": "MPFR-\u003ePrecision",
@@ -5778,6 +6276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "greater",
           "package": "hmpfr",
@@ -5787,6 +6286,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "greater",
           "normalized": "MPFR-\u003eMPFR-\u003eBool",
@@ -5801,6 +6301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "greatereq",
           "package": "hmpfr",
@@ -5810,6 +6311,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "greatereq",
           "normalized": "MPFR-\u003eMPFR-\u003eBool",
@@ -5824,6 +6326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "hypot",
           "package": "hmpfr",
@@ -5833,6 +6336,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "hypot",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -5847,6 +6351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "hypot_",
           "package": "hmpfr",
@@ -5856,6 +6361,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "hypot_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -5870,6 +6376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "idiv",
           "package": "hmpfr",
@@ -5879,6 +6386,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "idiv",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eMPFR-\u003eMPFR",
@@ -5893,6 +6401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "idiv_",
           "package": "hmpfr",
@@ -5902,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "idiv_",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eMPFR-\u003e(MPFR,Int)",
@@ -5917,6 +6427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ex * 2 ^ y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "int2i",
           "package": "hmpfr",
@@ -5926,6 +6437,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "int2i",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eInt-\u003eMPFR",
@@ -5940,6 +6452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "int2i_",
           "package": "hmpfr",
@@ -5949,6 +6462,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "int2i_",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eInt-\u003e(MPFR,Int)",
@@ -5964,6 +6478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ex * 2 ^ y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "int2w",
           "package": "hmpfr",
@@ -5973,6 +6488,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "int2w",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eInt-\u003eMPFR",
@@ -5987,6 +6503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "int2w_",
           "package": "hmpfr",
@@ -5996,6 +6513,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "int2w_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eInt-\u003e(MPFR,Int)",
@@ -6010,6 +6528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isInfinite",
           "package": "hmpfr",
@@ -6019,6 +6538,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "isInfinite",
           "normalized": "MPFR-\u003eBool",
@@ -6034,6 +6554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isInteger",
           "package": "hmpfr",
@@ -6043,6 +6564,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "isInteger",
           "normalized": "MPFR-\u003eBool",
@@ -6058,6 +6580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isNaN",
           "package": "hmpfr",
@@ -6067,6 +6590,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "isNaN",
           "normalized": "MPFR-\u003eBool",
@@ -6082,6 +6606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isNumber",
           "package": "hmpfr",
@@ -6091,6 +6616,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "isNumber",
           "normalized": "MPFR-\u003eBool",
@@ -6106,6 +6632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isZero",
           "package": "hmpfr",
@@ -6115,6 +6642,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "isZero",
           "normalized": "MPFR-\u003eBool",
@@ -6130,6 +6658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isub",
           "package": "hmpfr",
@@ -6139,6 +6668,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "isub",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eMPFR-\u003eMPFR",
@@ -6153,6 +6683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isub_",
           "package": "hmpfr",
@@ -6162,6 +6693,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "isub_",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6176,6 +6708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "j0",
           "package": "hmpfr",
@@ -6185,6 +6718,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "j0",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -6199,6 +6733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "j0_",
           "package": "hmpfr",
@@ -6208,6 +6743,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "j0_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6222,6 +6758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "j1",
           "package": "hmpfr",
@@ -6231,6 +6768,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "j1",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -6245,6 +6783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "j1_",
           "package": "hmpfr",
@@ -6254,6 +6793,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "j1_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6268,6 +6808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "jn",
           "package": "hmpfr",
@@ -6277,6 +6818,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "jn",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eMPFR-\u003eMPFR",
@@ -6291,6 +6833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "jn_",
           "package": "hmpfr",
@@ -6300,6 +6843,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "jn_",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6314,6 +6858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "less",
           "package": "hmpfr",
@@ -6323,6 +6868,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "less",
           "normalized": "MPFR-\u003eMPFR-\u003eBool",
@@ -6337,6 +6883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "lesseq",
           "package": "hmpfr",
@@ -6346,6 +6893,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "lesseq",
           "normalized": "MPFR-\u003eMPFR-\u003eBool",
@@ -6360,6 +6908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "lessgreater",
           "package": "hmpfr",
@@ -6369,6 +6918,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "lessgreater",
           "normalized": "MPFR-\u003eMPFR-\u003eMaybe Bool",
@@ -6383,6 +6933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "lgamma",
           "package": "hmpfr",
@@ -6392,6 +6943,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "lgamma",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6406,6 +6958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "lgamma_",
           "package": "hmpfr",
@@ -6415,6 +6968,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "lgamma_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int,Int)",
@@ -6429,6 +6983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "li2",
           "package": "hmpfr",
@@ -6438,6 +6993,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "li2",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -6452,6 +7008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "li2_",
           "package": "hmpfr",
@@ -6461,6 +7018,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "li2_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6475,6 +7033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "lngamma",
           "package": "hmpfr",
@@ -6484,6 +7043,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "lngamma",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -6498,6 +7058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "lngamma_",
           "package": "hmpfr",
@@ -6507,6 +7068,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "lngamma_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6521,6 +7083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log",
           "package": "hmpfr",
@@ -6530,6 +7093,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "log",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -6544,6 +7108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log10",
           "package": "hmpfr",
@@ -6553,6 +7118,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "log10",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -6567,6 +7133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log10_",
           "package": "hmpfr",
@@ -6576,6 +7143,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "log10_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6590,6 +7158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log1p",
           "package": "hmpfr",
@@ -6599,6 +7168,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "log1p",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -6613,6 +7183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log1p_",
           "package": "hmpfr",
@@ -6622,6 +7193,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "log1p_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6636,6 +7208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log2",
           "package": "hmpfr",
@@ -6645,6 +7218,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "log2",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -6659,6 +7233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log2_",
           "package": "hmpfr",
@@ -6668,6 +7243,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "log2_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6682,6 +7258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log2c",
           "package": "hmpfr",
@@ -6691,6 +7268,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "log2c",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR",
@@ -6705,6 +7283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log2c_",
           "package": "hmpfr",
@@ -6714,6 +7293,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "log2c_",
           "normalized": "RoundMode-\u003ePrecision-\u003e(MPFR,Int)",
@@ -6728,6 +7308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log_",
           "package": "hmpfr",
@@ -6737,6 +7318,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "log_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6751,6 +7333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "maxD",
           "package": "hmpfr",
@@ -6760,6 +7343,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "maxD",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -6774,6 +7358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "maxD_",
           "package": "hmpfr",
@@ -6783,6 +7368,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "maxD_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6797,6 +7383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "maxPrec",
           "package": "hmpfr",
@@ -6806,6 +7393,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "maxPrec",
           "normalized": "MPFR-\u003eMPFR-\u003ePrecision",
@@ -6821,6 +7409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "minD",
           "package": "hmpfr",
@@ -6830,6 +7419,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "minD",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -6844,6 +7434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "minD_",
           "package": "hmpfr",
@@ -6853,6 +7444,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "minD_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -6867,6 +7459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "modf",
           "package": "hmpfr",
@@ -6875,6 +7468,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "modf",
           "normalized": "RoundMode-\u003ePrecision-\u003ePrecision-\u003eMPFR-\u003e(MPFR,MPFR)",
@@ -6889,6 +7483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "modf_",
           "package": "hmpfr",
@@ -6897,6 +7492,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "modf_",
           "normalized": "RoundMode-\u003ePrecision-\u003ePrecision-\u003eMPFR-\u003e(MPFR,MPFR,Int)",
@@ -6911,6 +7507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mpfrToString",
           "package": "hmpfr",
@@ -6919,6 +7516,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "mpfrToString",
           "normalized": "RoundMode-\u003eWord-\u003eWord-\u003eMPFR-\u003e(String,Exp)",
@@ -6934,6 +7532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mul",
           "package": "hmpfr",
@@ -6943,6 +7542,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "mul",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -6957,6 +7557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mul2i",
           "package": "hmpfr",
@@ -6966,6 +7567,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "mul2i",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003eMPFR",
@@ -6980,6 +7582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mul2i_",
           "package": "hmpfr",
@@ -6989,6 +7592,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "mul2i_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003e(MPFR,Int)",
@@ -7003,6 +7607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mul2w",
           "package": "hmpfr",
@@ -7012,6 +7617,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "mul2w",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003eMPFR",
@@ -7026,6 +7632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mul2w_",
           "package": "hmpfr",
@@ -7035,6 +7642,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "mul2w_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003e(MPFR,Int)",
@@ -7049,6 +7657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mul_",
           "package": "hmpfr",
@@ -7058,6 +7667,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "mul_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -7072,6 +7682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "muld",
           "package": "hmpfr",
@@ -7081,6 +7692,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "muld",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eDouble-\u003eMPFR",
@@ -7095,6 +7707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "muld_",
           "package": "hmpfr",
@@ -7104,6 +7717,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "muld_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eDouble-\u003e(MPFR,Int)",
@@ -7118,6 +7732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "muli",
           "package": "hmpfr",
@@ -7127,6 +7742,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "muli",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003eMPFR",
@@ -7141,6 +7757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "muli_",
           "package": "hmpfr",
@@ -7150,6 +7767,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "muli_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003e(MPFR,Int)",
@@ -7164,6 +7782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mulw",
           "package": "hmpfr",
@@ -7173,6 +7792,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "mulw",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003eMPFR",
@@ -7187,6 +7807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mulw_",
           "package": "hmpfr",
@@ -7196,6 +7817,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "mulw_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003e(MPFR,Int)",
@@ -7210,6 +7832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "neg",
           "package": "hmpfr",
@@ -7219,6 +7842,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "neg",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -7233,6 +7857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "neg_",
           "package": "hmpfr",
@@ -7242,6 +7867,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "neg_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -7256,6 +7882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "newRandomStatePointer",
           "package": "hmpfr",
@@ -7265,6 +7892,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "newRandomStatePointer",
           "package": "hmpfr",
@@ -7278,6 +7906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "nextAbove",
           "package": "hmpfr",
@@ -7287,6 +7916,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "nextAbove",
           "normalized": "MPFR-\u003eMPFR",
@@ -7302,6 +7932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "nextBelow",
           "package": "hmpfr",
@@ -7311,6 +7942,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "nextBelow",
           "normalized": "MPFR-\u003eMPFR",
@@ -7326,6 +7958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "nextToward",
           "package": "hmpfr",
@@ -7335,6 +7968,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "nextToward",
           "normalized": "MPFR-\u003eMPFR-\u003eMPFR",
@@ -7350,6 +7984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "one",
           "package": "hmpfr",
@@ -7359,6 +7994,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "one",
           "package": "hmpfr",
@@ -7371,6 +8007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "pi",
           "package": "hmpfr",
@@ -7380,6 +8017,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "pi",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR",
@@ -7394,6 +8032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "pi_",
           "package": "hmpfr",
@@ -7403,6 +8042,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "pi_",
           "normalized": "RoundMode-\u003ePrecision-\u003e(MPFR,Int)",
@@ -7417,6 +8057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "pow",
           "package": "hmpfr",
@@ -7426,6 +8067,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "pow",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -7440,6 +8082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "pow_",
           "package": "hmpfr",
@@ -7449,6 +8092,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "pow_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -7463,6 +8107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "powi",
           "package": "hmpfr",
@@ -7472,6 +8117,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "powi",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003eMPFR",
@@ -7486,6 +8132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "powi_",
           "package": "hmpfr",
@@ -7495,6 +8142,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "powi_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003e(MPFR,Int)",
@@ -7509,6 +8157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "poww",
           "package": "hmpfr",
@@ -7518,6 +8167,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "poww",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003eMPFR",
@@ -7532,6 +8182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "poww_",
           "package": "hmpfr",
@@ -7541,6 +8192,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "poww_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003e(MPFR,Int)",
@@ -7555,6 +8207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "recSqrt",
           "package": "hmpfr",
@@ -7564,6 +8217,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "recSqrt",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -7579,6 +8233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "recSqrt_",
           "package": "hmpfr",
@@ -7588,6 +8243,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "recSqrt_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -7603,6 +8259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "remainder",
           "package": "hmpfr",
@@ -7612,6 +8269,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "remainder",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -7626,6 +8284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "remainder_",
           "package": "hmpfr",
@@ -7635,6 +8294,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "remainder_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -7649,6 +8309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "remquo",
           "package": "hmpfr",
@@ -7658,6 +8319,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "remquo",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -7672,6 +8334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "remquo_",
           "package": "hmpfr",
@@ -7681,6 +8344,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "remquo_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int,Int)",
@@ -7695,6 +8359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "rint",
           "package": "hmpfr",
@@ -7704,6 +8369,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "rint",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -7718,6 +8384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "rintCeil",
           "package": "hmpfr",
@@ -7727,6 +8394,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "rintCeil",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -7742,6 +8410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "rintCeil_",
           "package": "hmpfr",
@@ -7751,6 +8420,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "rintCeil_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -7766,6 +8436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "rintFloor",
           "package": "hmpfr",
@@ -7775,6 +8446,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "rintFloor",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -7790,6 +8462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "rintFloor_",
           "package": "hmpfr",
@@ -7799,6 +8472,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "rintFloor_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -7814,6 +8488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "rintRound",
           "package": "hmpfr",
@@ -7823,6 +8498,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "rintRound",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -7838,6 +8514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "rintRound_",
           "package": "hmpfr",
@@ -7847,6 +8524,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "rintRound_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -7862,6 +8540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "rintTrunc",
           "package": "hmpfr",
@@ -7871,6 +8550,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "rintTrunc",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -7886,6 +8566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "rintTrunc_",
           "package": "hmpfr",
@@ -7895,6 +8576,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "rintTrunc_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -7910,6 +8592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "rint_",
           "package": "hmpfr",
@@ -7919,6 +8602,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "rint_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -7933,6 +8617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "root",
           "package": "hmpfr",
@@ -7942,6 +8627,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "root",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003eMPFR",
@@ -7956,6 +8642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "root_",
           "package": "hmpfr",
@@ -7965,6 +8652,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "root_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003e(MPFR,Int)",
@@ -7979,6 +8667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "round",
           "package": "hmpfr",
@@ -7988,6 +8677,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "round",
           "normalized": "Precision-\u003eMPFR-\u003eMPFR",
@@ -8002,6 +8692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "round_",
           "package": "hmpfr",
@@ -8011,6 +8702,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "round_",
           "normalized": "Precision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -8025,6 +8717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sec",
           "package": "hmpfr",
@@ -8034,6 +8727,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sec",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -8048,6 +8742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sec_",
           "package": "hmpfr",
@@ -8057,6 +8752,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sec_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -8071,6 +8767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sech",
           "package": "hmpfr",
@@ -8080,6 +8777,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sech",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -8094,6 +8792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sech_",
           "package": "hmpfr",
@@ -8103,6 +8802,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sech_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -8117,6 +8817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "set",
           "package": "hmpfr",
@@ -8126,6 +8827,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "set",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -8140,6 +8842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "setExp",
           "package": "hmpfr",
@@ -8149,6 +8852,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "setExp",
           "normalized": "MPFR-\u003eExp-\u003eMPFR",
@@ -8164,6 +8868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "setInf",
           "package": "hmpfr",
@@ -8173,6 +8878,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "setInf",
           "normalized": "Precision-\u003eInt-\u003eMPFR",
@@ -8188,6 +8894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "setNaN",
           "package": "hmpfr",
@@ -8197,6 +8904,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "setNaN",
           "normalized": "Precision-\u003eMPFR",
@@ -8212,6 +8920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "set_",
           "package": "hmpfr",
@@ -8221,6 +8930,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "set_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -8235,6 +8945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sgn",
           "package": "hmpfr",
@@ -8244,6 +8955,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sgn",
           "normalized": "MPFR-\u003eMaybe Int",
@@ -8258,6 +8970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "signbit",
           "package": "hmpfr",
@@ -8267,6 +8980,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "signbit",
           "normalized": "MPFR-\u003eBool",
@@ -8281,6 +8995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sin",
           "package": "hmpfr",
@@ -8290,6 +9005,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sin",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -8304,6 +9020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sin_",
           "package": "hmpfr",
@@ -8313,6 +9030,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sin_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -8327,6 +9045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sincos",
           "package": "hmpfr",
@@ -8335,6 +9054,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sincos",
           "normalized": "RoundMode-\u003ePrecision-\u003ePrecision-\u003eMPFR-\u003e(MPFR,MPFR)",
@@ -8349,6 +9069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sincos_",
           "package": "hmpfr",
@@ -8357,6 +9078,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sincos_",
           "normalized": "RoundMode-\u003ePrecision-\u003ePrecision-\u003eMPFR-\u003e(MPFR,MPFR,Int)",
@@ -8371,6 +9093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sinh",
           "package": "hmpfr",
@@ -8380,6 +9103,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sinh",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -8394,6 +9118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sinh_",
           "package": "hmpfr",
@@ -8403,6 +9128,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sinh_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -8417,6 +9143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sinhcosh",
           "package": "hmpfr",
@@ -8425,6 +9152,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sinhcosh",
           "normalized": "RoundMode-\u003ePrecision-\u003ePrecision-\u003eMPFR-\u003e(MPFR,MPFR)",
@@ -8439,6 +9167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sinhcosh_",
           "package": "hmpfr",
@@ -8447,6 +9176,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sinhcosh_",
           "normalized": "RoundMode-\u003ePrecision-\u003ePrecision-\u003eMPFR-\u003e(MPFR,MPFR,Int)",
@@ -8461,6 +9191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sqr",
           "package": "hmpfr",
@@ -8470,6 +9201,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sqr",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -8484,6 +9216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sqr_",
           "package": "hmpfr",
@@ -8493,6 +9226,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sqr_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -8507,6 +9241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sqrt",
           "package": "hmpfr",
@@ -8516,6 +9251,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sqrt",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -8530,6 +9266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sqrt_",
           "package": "hmpfr",
@@ -8539,6 +9276,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sqrt_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -8553,6 +9291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sqrtw",
           "package": "hmpfr",
@@ -8562,6 +9301,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sqrtw",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eMPFR",
@@ -8576,6 +9316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sqrtw_",
           "package": "hmpfr",
@@ -8585,6 +9326,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sqrtw_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003e(MPFR,Int)",
@@ -8599,6 +9341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "stringToMPFR",
           "package": "hmpfr",
@@ -8607,6 +9350,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "stringToMPFR",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eString-\u003eMPFR",
@@ -8622,6 +9366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "stringToMPFR_",
           "package": "hmpfr",
@@ -8630,6 +9375,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "stringToMPFR_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eString-\u003e(MPFR,Int)",
@@ -8645,6 +9391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "strtofr",
           "package": "hmpfr",
@@ -8653,6 +9400,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "strtofr",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eString-\u003e(MPFR,String)",
@@ -8667,6 +9415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "strtofr_",
           "package": "hmpfr",
@@ -8675,6 +9424,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "strtofr_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eString-\u003e(MPFR,String,Int)",
@@ -8689,6 +9439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sub",
           "package": "hmpfr",
@@ -8698,6 +9449,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sub",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003eMPFR",
@@ -8712,6 +9464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sub_",
           "package": "hmpfr",
@@ -8721,6 +9474,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "sub_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR-\u003e(MPFR,Int)",
@@ -8735,6 +9489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "subd",
           "package": "hmpfr",
@@ -8744,6 +9499,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "subd",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eDouble-\u003eMPFR",
@@ -8758,6 +9514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "subd_",
           "package": "hmpfr",
@@ -8767,6 +9524,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "subd_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eDouble-\u003e(MPFR,Int)",
@@ -8781,6 +9539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "subi",
           "package": "hmpfr",
@@ -8790,6 +9549,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "subi",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003eMPFR",
@@ -8804,6 +9564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "subi_",
           "package": "hmpfr",
@@ -8813,6 +9574,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "subi_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eInt-\u003e(MPFR,Int)",
@@ -8827,6 +9589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "subw",
           "package": "hmpfr",
@@ -8836,6 +9599,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "subw",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003eMPFR",
@@ -8850,6 +9614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "subw_",
           "package": "hmpfr",
@@ -8859,6 +9624,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "subw_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eWord-\u003e(MPFR,Int)",
@@ -8873,6 +9639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "tan",
           "package": "hmpfr",
@@ -8882,6 +9649,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "tan",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -8896,6 +9664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "tan_",
           "package": "hmpfr",
@@ -8905,6 +9674,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "tan_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -8919,6 +9689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "tanh",
           "package": "hmpfr",
@@ -8928,6 +9699,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "tanh",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -8942,6 +9714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "tanh_",
           "package": "hmpfr",
@@ -8951,6 +9724,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "tanh_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -8965,6 +9739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "toDouble",
           "package": "hmpfr",
@@ -8974,6 +9749,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "toDouble",
           "normalized": "RoundMode-\u003eMPFR-\u003eDouble",
@@ -8989,6 +9765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "toDouble2exp",
           "package": "hmpfr",
@@ -8998,6 +9775,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "toDouble2exp",
           "normalized": "RoundMode-\u003eMPFR-\u003e(Double,Int)",
@@ -9013,6 +9791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "toInt",
           "package": "hmpfr",
@@ -9022,6 +9801,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "toInt",
           "normalized": "RoundMode-\u003eMPFR-\u003eInt",
@@ -9038,6 +9818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a string in base 10 rounded to Near. The difference from \u003ccode\u003etoStringExp\u003c/code\u003e is that\n it won't output in exponential form if it is sensible to do so.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "toString",
           "package": "hmpfr",
@@ -9048,6 +9829,7 @@
         "index": {
           "description": "Output string in base rounded to Near The difference from toStringExp is that it won output in exponential form if it is sensible to do so",
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "toString",
           "normalized": "Word-\u003eMPFR-\u003eString",
@@ -9064,6 +9846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a string in base 10 rounded to Near in exponential form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "toStringExp",
           "package": "hmpfr",
@@ -9073,6 +9856,7 @@
         "index": {
           "description": "Output string in base rounded to Near in exponential form",
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "toStringExp",
           "normalized": "Word-\u003eMPFR-\u003eString",
@@ -9088,6 +9872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "toWord",
           "package": "hmpfr",
@@ -9097,6 +9882,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "toWord",
           "normalized": "RoundMode-\u003eMPFR-\u003eWord",
@@ -9112,6 +9898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "trunc",
           "package": "hmpfr",
@@ -9121,6 +9908,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "trunc",
           "normalized": "Precision-\u003eMPFR-\u003eMPFR",
@@ -9135,6 +9923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "trunc_",
           "package": "hmpfr",
@@ -9144,6 +9933,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "trunc_",
           "normalized": "Precision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -9158,6 +9948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "unordered",
           "package": "hmpfr",
@@ -9167,6 +9958,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "unordered",
           "normalized": "MPFR-\u003eMPFR-\u003eMaybe Bool",
@@ -9181,6 +9973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "urandomb",
           "package": "hmpfr",
@@ -9190,6 +9983,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "urandomb",
           "normalized": "Ptr GmpRandState-\u003ePrecision-\u003eMPFR",
@@ -9204,6 +9998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wdiv",
           "package": "hmpfr",
@@ -9213,6 +10008,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "wdiv",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eMPFR-\u003eMPFR",
@@ -9227,6 +10023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wdiv_",
           "package": "hmpfr",
@@ -9236,6 +10033,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "wdiv_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eMPFR-\u003e(MPFR,Int)",
@@ -9250,6 +10048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wpow",
           "package": "hmpfr",
@@ -9259,6 +10058,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "wpow",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eMPFR-\u003eMPFR",
@@ -9273,6 +10073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wpow_",
           "package": "hmpfr",
@@ -9282,6 +10083,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "wpow_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eMPFR-\u003e(MPFR,Int)",
@@ -9296,6 +10098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wpoww",
           "package": "hmpfr",
@@ -9305,6 +10108,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "wpoww",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eWord-\u003eMPFR",
@@ -9319,6 +10123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wpoww_",
           "package": "hmpfr",
@@ -9328,6 +10133,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "wpoww_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eWord-\u003e(MPFR,Int)",
@@ -9342,6 +10148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wsub",
           "package": "hmpfr",
@@ -9351,6 +10158,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "wsub",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eMPFR-\u003eMPFR",
@@ -9365,6 +10173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wsub_",
           "package": "hmpfr",
@@ -9374,6 +10183,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "wsub_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eMPFR-\u003e(MPFR,Int)",
@@ -9388,6 +10198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "y0",
           "package": "hmpfr",
@@ -9397,6 +10208,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "y0",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -9411,6 +10223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "y0_",
           "package": "hmpfr",
@@ -9420,6 +10233,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "y0_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -9434,6 +10248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "y1",
           "package": "hmpfr",
@@ -9443,6 +10258,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "y1",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -9457,6 +10273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "y1_",
           "package": "hmpfr",
@@ -9466,6 +10283,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "y1_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -9480,6 +10298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "yn",
           "package": "hmpfr",
@@ -9489,6 +10308,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "yn",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eMPFR-\u003eMPFR",
@@ -9503,6 +10323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "yn_",
           "package": "hmpfr",
@@ -9512,6 +10333,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "yn_",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eMPFR-\u003e(MPFR,Int)",
@@ -9526,6 +10348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "zero",
           "package": "hmpfr",
@@ -9535,6 +10358,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "zero",
           "package": "hmpfr",
@@ -9547,6 +10371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "zeta",
           "package": "hmpfr",
@@ -9556,6 +10381,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "zeta",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003eMPFR",
@@ -9570,6 +10396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "zeta_",
           "package": "hmpfr",
@@ -9579,6 +10406,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "zeta_",
           "normalized": "RoundMode-\u003ePrecision-\u003eMPFR-\u003e(MPFR,Int)",
@@ -9593,6 +10421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "zetaw",
           "package": "hmpfr",
@@ -9602,6 +10431,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "zetaw",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eMPFR",
@@ -9616,6 +10446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:27 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "zetaw_",
           "package": "hmpfr",
@@ -9625,6 +10456,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T18:42:27",
           "module": "Data.Number.MPFR",
           "name": "zetaw_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003e(MPFR,Int)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "every-bit-counts"
+        "phrase": "every-bit-counts",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BadGames",
           "name": "BadGames",
           "package": "every-bit-counts",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BadGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BadGames",
           "name": "BadGames",
           "package": "every-bit-counts",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BadGames",
           "name": "badBoolGame",
           "package": "every-bit-counts",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "BadGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BadGames",
           "name": "badBoolGame",
           "package": "every-bit-counts",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BadGames",
           "name": "badBoolGame3",
           "package": "every-bit-counts",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "BadGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BadGames",
           "name": "badBoolGame3",
           "package": "every-bit-counts",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BadGames",
           "name": "badNatGame",
           "package": "every-bit-counts",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "BadGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BadGames",
           "name": "badNatGame",
           "package": "every-bit-counts",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BadGames",
           "name": "voidGame",
           "package": "every-bit-counts",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "BadGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BadGames",
           "name": "voidGame",
           "package": "every-bit-counts",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "BasicGames",
           "package": "every-bit-counts",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "BasicGames",
           "package": "every-bit-counts",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "binNatGame",
           "package": "every-bit-counts",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "binNatGame",
           "package": "every-bit-counts",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "boolGame",
           "package": "every-bit-counts",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "boolGame",
           "package": "every-bit-counts",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "constGame",
           "package": "every-bit-counts",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "constGame",
           "normalized": "a-\u003eGame a",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "depGame",
           "package": "every-bit-counts",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "depGame",
           "normalized": "Game a-\u003e(a-\u003eGame b)-\u003eGame(a,b)",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "flipGame",
           "package": "every-bit-counts",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "flipGame",
           "normalized": "Game a-\u003eGame a",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "geNatGame",
           "package": "every-bit-counts",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "geNatGame",
           "normalized": "Nat-\u003eGame Nat",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "ilGame",
           "package": "every-bit-counts",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "ilGame",
           "normalized": "Game a-\u003eGame b-\u003eGame(a,b)",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "listGame",
           "package": "every-bit-counts",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "listGame",
           "normalized": "Game a-\u003eGame[a]",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "listGame'",
           "package": "every-bit-counts",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "listGame'",
           "normalized": "Game a-\u003eGame[a]",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "prodGame",
           "package": "every-bit-counts",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "prodGame",
           "normalized": "Game a-\u003eGame b-\u003eGame(a,b)",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "rangeGame",
           "package": "every-bit-counts",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "rangeGame",
           "normalized": "Nat-\u003eNat-\u003eGame Nat",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "sumGame",
           "package": "every-bit-counts",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "sumGame",
           "normalized": "Game a-\u003eGame b-\u003eGame(Either a b)",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "unaryNatGame",
           "package": "every-bit-counts",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "unaryNatGame",
           "package": "every-bit-counts",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "unitGame",
           "package": "every-bit-counts",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "unitGame",
           "normalized": "Game()",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "BasicGames",
           "name": "vecGame",
           "package": "every-bit-counts",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "BasicGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "BasicGames",
           "name": "vecGame",
           "normalized": "Game a-\u003eNat-\u003eGame[a]",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "FilterGames",
           "name": "FilterGames",
           "package": "every-bit-counts",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "FilterGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "FilterGames",
           "name": "FilterGames",
           "package": "every-bit-counts",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "FilterGames",
           "name": "filterFinGame",
           "package": "every-bit-counts",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "FilterGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "FilterGames",
           "name": "filterFinGame",
           "normalized": "(a-\u003eBool)-\u003eGame a-\u003eMaybe(Game a)",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "FilterGames",
           "name": "filterGame",
           "package": "every-bit-counts",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "FilterGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "FilterGames",
           "name": "filterGame",
           "normalized": "(a-\u003eBool)-\u003eGame a-\u003eGame a",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "FilterGames",
           "name": "filterGameOpt",
           "package": "every-bit-counts",
@@ -580,6 +629,7 @@
         },
         "index": {
           "hierarchy": "FilterGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "FilterGames",
           "name": "filterGameOpt",
           "normalized": "(a-\u003eBool)-\u003eGame a-\u003eMaybe(Game a)",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "FilterGames",
           "name": "filterInfGame",
           "package": "every-bit-counts",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "FilterGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "FilterGames",
           "name": "filterInfGame",
           "normalized": "(a-\u003eBool)-\u003eGame a-\u003eGame a",
@@ -619,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "FilterGames",
           "name": "find",
           "package": "every-bit-counts",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "FilterGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "FilterGames",
           "name": "find",
           "normalized": "a b Game c-\u003eEither(c,Game c)(Game c)",
@@ -642,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "FilterGames",
           "name": "pre_filterGame_inf",
           "package": "every-bit-counts",
@@ -651,6 +706,7 @@
         },
         "index": {
           "hierarchy": "FilterGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "FilterGames",
           "name": "pre_filterGame_inf",
           "normalized": "Game a-\u003e(a-\u003eBool)-\u003eGame a",
@@ -666,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "FilterGames",
           "name": "shufflePartition",
           "package": "every-bit-counts",
@@ -675,6 +732,7 @@
         },
         "index": {
           "hierarchy": "FilterGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "FilterGames",
           "name": "shufflePartition",
           "normalized": "a b Game c-\u003eGame c",
@@ -690,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "FilterGames",
           "name": "unfoldOne",
           "package": "every-bit-counts",
@@ -699,6 +758,7 @@
         },
         "index": {
           "hierarchy": "FilterGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "FilterGames",
           "name": "unfoldOne",
           "normalized": "a b Game c-\u003eGame c",
@@ -714,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "FilterGames",
           "name": "unfoldUntil",
           "package": "every-bit-counts",
@@ -723,6 +784,7 @@
         },
         "index": {
           "hierarchy": "FilterGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "FilterGames",
           "name": "unfoldUntil",
           "normalized": "Game a-\u003e(a,Game a)",
@@ -738,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "FilterGames",
           "name": "voidGame",
           "package": "every-bit-counts",
@@ -747,6 +810,7 @@
         },
         "index": {
           "hierarchy": "FilterGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "FilterGames",
           "name": "voidGame",
           "package": "every-bit-counts",
@@ -760,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "Games",
           "package": "every-bit-counts",
@@ -768,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "Games",
           "package": "every-bit-counts",
@@ -781,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "Bit",
           "package": "every-bit-counts",
@@ -789,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "Bit",
           "package": "every-bit-counts",
@@ -802,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "Game",
           "package": "every-bit-counts",
@@ -810,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "Game",
           "package": "every-bit-counts",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "(+\u003e)",
           "package": "every-bit-counts",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "(+\u003e) +\u003e",
           "normalized": "Game a-\u003eISO b a-\u003eGame b",
@@ -846,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "I",
           "package": "every-bit-counts",
@@ -855,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "I",
           "package": "every-bit-counts",
@@ -867,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "O",
           "package": "every-bit-counts",
@@ -876,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "O",
           "package": "every-bit-counts",
@@ -888,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "Single",
           "package": "every-bit-counts",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "Single",
           "normalized": "ISO a()-\u003eGame a",
@@ -912,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "Split",
           "package": "every-bit-counts",
@@ -921,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "Split",
           "normalized": "ISO a(Either a a)-\u003eGame a-\u003eGame a-\u003eGame a",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "dec",
           "package": "every-bit-counts",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "dec",
           "normalized": "Game a-\u003e[Bit]-\u003e(a,[Bit])",
@@ -959,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "decOpt",
           "package": "every-bit-counts",
@@ -968,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "decOpt",
           "normalized": "Game a-\u003e[Bit]-\u003eMaybe(a,[Bit])",
@@ -983,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "decRand",
           "package": "every-bit-counts",
@@ -992,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "decRand",
           "normalized": "Int-\u003eGame a-\u003ea",
@@ -1007,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "decRandAux",
           "package": "every-bit-counts",
@@ -1016,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "decRandAux",
           "normalized": "a-\u003eGame b-\u003eb",
@@ -1031,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "enc",
           "package": "every-bit-counts",
@@ -1040,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "enc",
           "normalized": "Game a-\u003ea-\u003e[Bit]",
@@ -1054,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Games",
           "name": "testGame",
           "package": "every-bit-counts",
@@ -1063,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Games",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Games",
           "name": "testGame",
           "normalized": "Game a-\u003ea-\u003e(a,[Bit])",
@@ -1078,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "Huffman",
           "package": "every-bit-counts",
@@ -1086,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "Huffman",
           "package": "every-bit-counts",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "PQ",
           "package": "every-bit-counts",
@@ -1107,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "PQ",
           "package": "every-bit-counts",
@@ -1120,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "Set",
           "package": "every-bit-counts",
@@ -1128,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "Set",
           "package": "every-bit-counts",
@@ -1141,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "addItem",
           "package": "every-bit-counts",
@@ -1150,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "addItem",
           "normalized": "Int-\u003ea-\u003ePQ a-\u003ePQ a",
@@ -1165,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "charHuffGame",
           "package": "every-bit-counts",
@@ -1174,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "charHuffGame",
           "package": "every-bit-counts",
@@ -1187,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "dHuffGame",
           "package": "every-bit-counts",
@@ -1196,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "dHuffGame",
           "normalized": "PQ Char-\u003eGame[Char]",
@@ -1211,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "huff",
           "package": "every-bit-counts",
@@ -1220,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "huff",
           "normalized": "PQ(Set a,Game a)-\u003eGame a",
@@ -1234,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "huffGame",
           "package": "every-bit-counts",
@@ -1243,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "huffGame",
           "normalized": "PQ a-\u003eGame a",
@@ -1258,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "lengthHuffGame",
           "package": "every-bit-counts",
@@ -1267,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "lengthHuffGame",
           "normalized": "PQ Char-\u003eGame(Nat,[Char])",
@@ -1282,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "prodPQ",
           "package": "every-bit-counts",
@@ -1291,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "prodPQ",
           "normalized": "PQ a-\u003ePQ b-\u003ePQ(a,b)",
@@ -1306,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "sHuffGame",
           "package": "every-bit-counts",
@@ -1315,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "sHuffGame",
           "normalized": "PQ Char-\u003eGame[Char]",
@@ -1330,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "updPQ",
           "package": "every-bit-counts",
@@ -1339,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "updPQ",
           "normalized": "PQ a-\u003ea-\u003ePQ a",
@@ -1354,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Huffman",
           "name": "vecHuffGame",
           "package": "every-bit-counts",
@@ -1363,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Huffman",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Huffman",
           "name": "vecHuffGame",
           "normalized": "Nat-\u003ePQ Char-\u003eGame[Char]",
@@ -1378,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "Iso",
           "package": "every-bit-counts",
@@ -1386,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "Iso",
           "package": "every-bit-counts",
@@ -1399,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "ISO",
           "package": "every-bit-counts",
@@ -1407,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "ISO",
           "package": "every-bit-counts",
@@ -1420,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "Nat",
           "package": "every-bit-counts",
@@ -1428,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "Nat",
           "package": "every-bit-counts",
@@ -1441,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "Iso",
           "package": "every-bit-counts",
@@ -1450,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "Iso",
           "package": "every-bit-counts",
@@ -1463,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "assocProdI",
           "package": "every-bit-counts",
@@ -1472,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "assocProdI",
           "normalized": "ISO(a,(b,c))((a,b),c)",
@@ -1487,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "assocSumI",
           "package": "every-bit-counts",
@@ -1496,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "assocSumI",
           "package": "every-bit-counts",
@@ -1509,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "boolIso",
           "package": "every-bit-counts",
@@ -1518,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "boolIso",
           "normalized": "ISO Bool(Either()())",
@@ -1533,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "depListIso",
           "package": "every-bit-counts",
@@ -1542,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "depListIso",
           "normalized": "ISO[a](Nat,[a])",
@@ -1557,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "from",
           "package": "every-bit-counts",
@@ -1566,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "from",
           "normalized": "a-\u003eb",
@@ -1580,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "idI",
           "package": "every-bit-counts",
@@ -1589,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "idI",
           "package": "every-bit-counts",
@@ -1601,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "invI",
           "package": "every-bit-counts",
@@ -1610,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "invI",
           "normalized": "ISO a b-\u003eISO b a",
@@ -1624,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "listIso",
           "package": "every-bit-counts",
@@ -1633,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "listIso",
           "normalized": "ISO[a](Either()(a,[a]))",
@@ -1648,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "parityIso",
           "package": "every-bit-counts",
@@ -1657,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "parityIso",
           "package": "every-bit-counts",
@@ -1670,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "prodI",
           "package": "every-bit-counts",
@@ -1679,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "prodI",
           "normalized": "ISO a b-\u003eISO c d-\u003eISO(a,c)(b,d)",
@@ -1693,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "prodLSumI",
           "package": "every-bit-counts",
@@ -1702,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "prodLSumI",
           "normalized": "ISO(Either a b,c)(Either(a,c)(b,c))",
@@ -1717,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "prodLUnitI",
           "package": "every-bit-counts",
@@ -1726,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "prodLUnitI",
           "normalized": "ISO((),a)a",
@@ -1741,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "prodRSumI",
           "package": "every-bit-counts",
@@ -1750,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "prodRSumI",
           "normalized": "ISO(a,Either b c)(Either(a,b)(a,c))",
@@ -1765,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "prodRUnitI",
           "package": "every-bit-counts",
@@ -1774,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "prodRUnitI",
           "normalized": "ISO(a,())a",
@@ -1789,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "seqI",
           "package": "every-bit-counts",
@@ -1798,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "seqI",
           "normalized": "ISO a b-\u003eISO b c-\u003eISO a c",
@@ -1812,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "singleIso",
           "package": "every-bit-counts",
@@ -1821,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "singleIso",
           "normalized": "a-\u003eISO a()",
@@ -1836,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "splitIso",
           "package": "every-bit-counts",
@@ -1845,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "splitIso",
           "normalized": "(a-\u003eBool)-\u003eISO a(Either a a)",
@@ -1860,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "succIso",
           "package": "every-bit-counts",
@@ -1869,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "succIso",
           "normalized": "ISO Nat(Either()Nat)",
@@ -1884,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "sumI",
           "package": "every-bit-counts",
@@ -1893,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "sumI",
           "normalized": "ISO a b-\u003eISO c d-\u003eISO(Either a c)(Either b d)",
@@ -1907,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "swapProdI",
           "package": "every-bit-counts",
@@ -1916,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "swapProdI",
           "normalized": "ISO(a,b)(b,a)",
@@ -1931,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "swapSumI",
           "package": "every-bit-counts",
@@ -1940,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "swapSumI",
           "package": "every-bit-counts",
@@ -1953,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "Iso",
           "name": "to",
           "package": "every-bit-counts",
@@ -1962,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Iso",
+          "indexed": "2014-03-11T18:04:27",
           "module": "Iso",
           "name": "to",
           "normalized": "a-\u003eb",
@@ -1976,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "NatGames",
           "name": "NatGames",
           "package": "every-bit-counts",
@@ -1984,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "NatGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "NatGames",
           "name": "NatGames",
           "package": "every-bit-counts",
@@ -1997,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "NatGames",
           "name": "Pos",
           "package": "every-bit-counts",
@@ -2005,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "NatGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "NatGames",
           "name": "Pos",
           "package": "every-bit-counts",
@@ -2018,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "NatGames",
           "name": "binaryIso",
           "package": "every-bit-counts",
@@ -2027,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "NatGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "NatGames",
           "name": "binaryIso",
           "normalized": "ISO Pos(Nat,Pos)",
@@ -2042,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "NatGames",
           "name": "eliasGame",
           "package": "every-bit-counts",
@@ -2051,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "NatGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "NatGames",
           "name": "eliasGame",
           "normalized": "Game Nat-\u003eGame Pos",
@@ -2066,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "NatGames",
           "name": "factGame",
           "package": "every-bit-counts",
@@ -2075,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "NatGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "NatGames",
           "name": "factGame",
           "package": "every-bit-counts",
@@ -2088,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "NatGames",
           "name": "factIso",
           "package": "every-bit-counts",
@@ -2097,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "NatGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "NatGames",
           "name": "factIso",
           "normalized": "[Int]-\u003eISO Int(Either Int Int)",
@@ -2112,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "NatGames",
           "name": "isOneIso",
           "package": "every-bit-counts",
@@ -2121,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "NatGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "NatGames",
           "name": "isOneIso",
           "normalized": "ISO Pos(Either()Pos)",
@@ -2136,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "PGames",
           "package": "every-bit-counts",
@@ -2144,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "PGames",
           "package": "every-bit-counts",
@@ -2157,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "Bit",
           "package": "every-bit-counts",
@@ -2165,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "Bit",
           "package": "every-bit-counts",
@@ -2178,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "EInterval",
           "package": "every-bit-counts",
@@ -2186,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "EInterval",
           "package": "every-bit-counts",
@@ -2199,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "Game",
           "package": "every-bit-counts",
@@ -2207,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "Game",
           "package": "every-bit-counts",
@@ -2220,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "GamesOver",
           "package": "every-bit-counts",
@@ -2228,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "GamesOver",
           "package": "every-bit-counts",
@@ -2241,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "Interval",
           "package": "every-bit-counts",
@@ -2249,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "Interval",
           "package": "every-bit-counts",
@@ -2262,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "MInterval",
           "package": "every-bit-counts",
@@ -2270,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "MInterval",
           "package": "every-bit-counts",
@@ -2283,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "Void",
           "package": "every-bit-counts",
@@ -2291,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "Void",
           "package": "every-bit-counts",
@@ -2304,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "(+\u003e)",
           "package": "every-bit-counts",
@@ -2313,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "(+\u003e) +\u003e",
           "normalized": "Game a-\u003eISO b a-\u003eGame b",
@@ -2327,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "ConsGames",
           "package": "every-bit-counts",
@@ -2336,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "ConsGames",
           "normalized": "Int-\u003eGame a-\u003eGamesOver b-\u003eGamesOver(Either a b)",
@@ -2351,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "NilGames",
           "package": "every-bit-counts",
@@ -2360,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "NilGames",
           "package": "every-bit-counts",
@@ -2373,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "Single",
           "package": "every-bit-counts",
@@ -2382,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "Single",
           "normalized": "ISO a()-\u003eGame a",
@@ -2397,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "Split",
           "package": "every-bit-counts",
@@ -2406,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "Split",
           "normalized": "ISO a b-\u003eGamesOver b-\u003eGame a",
@@ -2421,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "arithEncAux",
           "package": "every-bit-counts",
@@ -2430,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "arithEncAux",
           "normalized": "EInterval-\u003eGame a-\u003ea-\u003e[Bit]",
@@ -2445,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "bits",
           "package": "every-bit-counts",
@@ -2454,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "bits",
           "normalized": "Int-\u003eBit-\u003e[Bit]",
@@ -2468,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "decode",
           "package": "every-bit-counts",
@@ -2477,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "decode",
           "normalized": "EInterval-\u003e[Bit]-\u003eGame a-\u003ea",
@@ -2491,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "destream",
           "package": "every-bit-counts",
@@ -2500,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "destream",
           "normalized": "EInterval-\u003e(Int,[Bit])-\u003eGame a-\u003ea",
@@ -2514,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "e",
           "package": "every-bit-counts",
@@ -2523,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "e",
           "package": "every-bit-counts",
@@ -2535,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "enarrow",
           "package": "every-bit-counts",
@@ -2544,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "enarrow",
           "normalized": "EInterval-\u003eMInterval-\u003eEInterval",
@@ -2558,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "enc",
           "package": "every-bit-counts",
@@ -2567,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "enc",
           "normalized": "Game a-\u003ea-\u003e[Bit]",
@@ -2581,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "encodeSyms",
           "package": "every-bit-counts",
@@ -2590,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "encodeSyms",
           "normalized": "Game a-\u003ea-\u003e[MInterval]",
@@ -2605,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "expand",
           "package": "every-bit-counts",
@@ -2614,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "expand",
           "normalized": "EInterval-\u003eEInterval",
@@ -2628,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "flat2",
           "package": "every-bit-counts",
@@ -2637,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "flat2",
           "normalized": "ISO a(Either a a)-\u003eISO a(Either a(Either a Void))",
@@ -2651,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "flat3",
           "package": "every-bit-counts",
@@ -2660,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "flat3",
           "normalized": "ISO a(Either a(Either a a))-\u003eISO a(Either a(Either a(Either a Void)))",
@@ -2674,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "fscale",
           "package": "every-bit-counts",
@@ -2683,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "fscale",
           "normalized": "(Int,(Int,[Bit]))-\u003eInt",
@@ -2697,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "narrow",
           "package": "every-bit-counts",
@@ -2706,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "narrow",
           "normalized": "Interval-\u003eMInterval-\u003eInterval",
@@ -2720,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "nextBits",
           "package": "every-bit-counts",
@@ -2729,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "nextBits",
           "normalized": "EInterval-\u003eMaybe([Bit],EInterval)",
@@ -2744,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "ominus",
           "package": "every-bit-counts",
@@ -2753,6 +2992,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "ominus",
           "normalized": "(Int,[Bit])-\u003e[Bit]-\u003e(Int,[Bit])",
@@ -2767,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "split",
           "package": "every-bit-counts",
@@ -2776,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "split",
           "normalized": "ISO a(Either a a)-\u003eGame a-\u003eGame a-\u003eGame a",
@@ -2790,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "split2",
           "package": "every-bit-counts",
@@ -2799,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "split2",
           "normalized": "ISO a(Either a a)-\u003eInt-\u003eGame a-\u003eInt-\u003eGame a-\u003eGame a",
@@ -2813,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "split3",
           "package": "every-bit-counts",
@@ -2822,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "split3",
           "normalized": "ISO a(Either a(Either a(Either a Void)))-\u003eInt-\u003eGame a-\u003eInt-\u003eGame a-\u003eInt-\u003eGame a-\u003eGame a",
@@ -2836,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "stream",
           "package": "every-bit-counts",
@@ -2845,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "stream",
           "normalized": "EInterval-\u003e[MInterval]-\u003e[Bit]",
@@ -2859,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "testGame",
           "package": "every-bit-counts",
@@ -2868,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "testGame",
           "normalized": "Game a-\u003ea-\u003ea",
@@ -2883,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "totalWeight",
           "package": "every-bit-counts",
@@ -2892,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "totalWeight",
           "normalized": "GamesOver a-\u003eInt",
@@ -2907,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "unit",
           "package": "every-bit-counts",
@@ -2916,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "unit",
           "package": "every-bit-counts",
@@ -2928,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "w1",
           "package": "every-bit-counts",
@@ -2937,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "w1",
           "package": "every-bit-counts",
@@ -2949,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "w2",
           "package": "every-bit-counts",
@@ -2958,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "w2",
           "package": "every-bit-counts",
@@ -2970,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "w3",
           "package": "every-bit-counts",
@@ -2979,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "w3",
           "package": "every-bit-counts",
@@ -2991,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "PGames",
           "name": "w4",
           "package": "every-bit-counts",
@@ -3000,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "PGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "PGames",
           "name": "w4",
           "package": "every-bit-counts",
@@ -3012,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "STLC",
           "package": "every-bit-counts",
@@ -3020,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "STLC",
           "package": "every-bit-counts",
@@ -3033,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "Env",
           "package": "every-bit-counts",
@@ -3041,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "Env",
           "package": "every-bit-counts",
@@ -3054,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "Exp",
           "package": "every-bit-counts",
@@ -3062,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "Exp",
           "package": "every-bit-counts",
@@ -3075,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "Pat",
           "package": "every-bit-counts",
@@ -3083,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "Pat",
           "package": "every-bit-counts",
@@ -3096,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "Ty",
           "package": "every-bit-counts",
@@ -3104,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "Ty",
           "package": "every-bit-counts",
@@ -3117,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "Any",
           "package": "every-bit-counts",
@@ -3126,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "Any",
           "package": "every-bit-counts",
@@ -3139,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "App",
           "package": "every-bit-counts",
@@ -3148,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "App",
           "package": "every-bit-counts",
@@ -3161,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "Lam",
           "package": "every-bit-counts",
@@ -3170,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "Lam",
           "package": "every-bit-counts",
@@ -3183,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "PArr",
           "package": "every-bit-counts",
@@ -3192,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "PArr",
           "package": "every-bit-counts",
@@ -3205,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "TyArr",
           "package": "every-bit-counts",
@@ -3214,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "TyArr",
           "package": "every-bit-counts",
@@ -3227,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "TyNat",
           "package": "every-bit-counts",
@@ -3236,6 +3519,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "TyNat",
           "package": "every-bit-counts",
@@ -3249,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "Var",
           "package": "every-bit-counts",
@@ -3258,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "Var",
           "package": "every-bit-counts",
@@ -3271,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "expGame",
           "package": "every-bit-counts",
@@ -3280,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "expGame",
           "normalized": "Env-\u003ePat-\u003eGame Exp",
@@ -3295,6 +3583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "expGameCheck",
           "package": "every-bit-counts",
@@ -3304,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "expGameCheck",
           "normalized": "Env-\u003eTy-\u003eGame Exp",
@@ -3319,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "listsOfLength",
           "package": "every-bit-counts",
@@ -3328,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "listsOfLength",
           "normalized": "Int-\u003e[[Bit]]",
@@ -3343,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "matches",
           "package": "every-bit-counts",
@@ -3352,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "matches",
           "normalized": "Pat-\u003eTy-\u003eBool",
@@ -3366,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "progGame",
           "package": "every-bit-counts",
@@ -3375,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "progGame",
           "package": "every-bit-counts",
@@ -3388,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "tyG",
           "package": "every-bit-counts",
@@ -3397,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "tyG",
           "package": "every-bit-counts",
@@ -3409,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "typeOf",
           "package": "every-bit-counts",
@@ -3418,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "typeOf",
           "normalized": "Env-\u003eExp-\u003eTy",
@@ -3433,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "STLC",
           "name": "varGame",
           "package": "every-bit-counts",
@@ -3442,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "STLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "STLC",
           "name": "varGame",
           "normalized": "(Ty-\u003eBool)-\u003eEnv-\u003eMaybe(Game Nat)",
@@ -3457,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "SetGames",
           "name": "SetGames",
           "package": "every-bit-counts",
@@ -3465,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "SetGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "SetGames",
           "name": "SetGames",
           "package": "every-bit-counts",
@@ -3478,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "SetGames",
           "name": "compareByGame",
           "package": "every-bit-counts",
@@ -3487,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "SetGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "SetGames",
           "name": "compareByGame",
           "normalized": "Game a-\u003ea-\u003ea-\u003eOrdering",
@@ -3502,6 +3808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "SetGames",
           "name": "multisetGame",
           "package": "every-bit-counts",
@@ -3511,6 +3818,7 @@
         },
         "index": {
           "hierarchy": "SetGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "SetGames",
           "name": "multisetGame",
           "normalized": "Game a-\u003eGame[a]",
@@ -3526,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "SetGames",
           "name": "natMultisetGame",
           "package": "every-bit-counts",
@@ -3535,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "SetGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "SetGames",
           "name": "natMultisetGame",
           "normalized": "Game Nat-\u003eGame[Nat]",
@@ -3550,6 +3860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "SetGames",
           "name": "natSetGame",
           "package": "every-bit-counts",
@@ -3559,6 +3870,7 @@
         },
         "index": {
           "hierarchy": "SetGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "SetGames",
           "name": "natSetGame",
           "normalized": "Game Nat-\u003eGame[Nat]",
@@ -3574,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "SetGames",
           "name": "removeEQ",
           "package": "every-bit-counts",
@@ -3583,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "SetGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "SetGames",
           "name": "removeEQ",
           "normalized": "Game a-\u003ea-\u003eMaybe(Game a)",
@@ -3598,6 +3912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "SetGames",
           "name": "removeLE",
           "package": "every-bit-counts",
@@ -3607,6 +3922,7 @@
         },
         "index": {
           "hierarchy": "SetGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "SetGames",
           "name": "removeLE",
           "normalized": "Game a-\u003ea-\u003eMaybe(Game a)",
@@ -3622,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "SetGames",
           "name": "removeLT",
           "package": "every-bit-counts",
@@ -3631,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "SetGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "SetGames",
           "name": "removeLT",
           "normalized": "Game a-\u003ea-\u003eGame a",
@@ -3646,6 +3964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "SetGames",
           "name": "setGame",
           "package": "every-bit-counts",
@@ -3655,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "SetGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "SetGames",
           "name": "setGame",
           "normalized": "Game a-\u003eGame[a]",
@@ -3670,6 +3990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "SetGames",
           "name": "sortByGame",
           "package": "every-bit-counts",
@@ -3679,6 +4000,7 @@
         },
         "index": {
           "hierarchy": "SetGames",
+          "indexed": "2014-03-11T18:04:27",
           "module": "SetGames",
           "name": "sortByGame",
           "normalized": "Game a-\u003e[a]-\u003e[a]",
@@ -3694,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "UTLC",
           "name": "UTLC",
           "package": "every-bit-counts",
@@ -3702,6 +4025,7 @@
         },
         "index": {
           "hierarchy": "UTLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "UTLC",
           "name": "UTLC",
           "package": "every-bit-counts",
@@ -3715,6 +4039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "UTLC",
           "name": "Exp",
           "package": "every-bit-counts",
@@ -3723,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "UTLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "UTLC",
           "name": "Exp",
           "package": "every-bit-counts",
@@ -3736,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "UTLC",
           "name": "App",
           "package": "every-bit-counts",
@@ -3745,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "UTLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "UTLC",
           "name": "App",
           "package": "every-bit-counts",
@@ -3758,6 +4086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "UTLC",
           "name": "Lam",
           "package": "every-bit-counts",
@@ -3767,6 +4096,7 @@
         },
         "index": {
           "hierarchy": "UTLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "UTLC",
           "name": "Lam",
           "package": "every-bit-counts",
@@ -3780,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "UTLC",
           "name": "Var",
           "package": "every-bit-counts",
@@ -3789,6 +4120,7 @@
         },
         "index": {
           "hierarchy": "UTLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "UTLC",
           "name": "Var",
           "package": "every-bit-counts",
@@ -3802,6 +4134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:27 UTC 2014",
           "module": "UTLC",
           "name": "expGame",
           "package": "every-bit-counts",
@@ -3811,6 +4144,7 @@
         },
         "index": {
           "hierarchy": "UTLC",
+          "indexed": "2014-03-11T18:04:27",
           "module": "UTLC",
           "name": "expGame",
           "normalized": "Nat-\u003eGame Exp",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lvmlib"
+        "phrase": "lvmlib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Data",
           "package": "lvmlib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Data",
           "package": "lvmlib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Alt",
           "package": "lvmlib",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Alt",
           "package": "lvmlib",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "AsmDecl",
           "package": "lvmlib",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "AsmDecl",
           "package": "lvmlib",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "AsmModule",
           "package": "lvmlib",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "AsmModule",
           "package": "lvmlib",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Atom",
           "package": "lvmlib",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Atom",
           "package": "lvmlib",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Con",
           "package": "lvmlib",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Con",
           "package": "lvmlib",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Expr",
           "package": "lvmlib",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Expr",
           "package": "lvmlib",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Lit",
           "package": "lvmlib",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Lit",
           "package": "lvmlib",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Note",
           "package": "lvmlib",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Note",
           "package": "lvmlib",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Occur",
           "package": "lvmlib",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Occur",
           "package": "lvmlib",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Pat",
           "package": "lvmlib",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Pat",
           "package": "lvmlib",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Top",
           "package": "lvmlib",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Top",
           "package": "lvmlib",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Alt",
           "package": "lvmlib",
@@ -279,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Alt",
           "package": "lvmlib",
@@ -292,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Ap",
           "package": "lvmlib",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Ap",
           "normalized": "Ap Id[Atom]",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Con",
           "package": "lvmlib",
@@ -325,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Con",
           "normalized": "Con(Con Atom)[Atom]",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "ConId",
           "package": "lvmlib",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "ConId",
           "package": "lvmlib",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "ConTag",
           "package": "lvmlib",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "ConTag",
           "package": "lvmlib",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Eval",
           "package": "lvmlib",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Eval",
           "package": "lvmlib",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Let",
           "package": "lvmlib",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Let",
           "package": "lvmlib",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "LetRec",
           "package": "lvmlib",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "LetRec",
           "normalized": "LetRec[(Id,Atom)]Expr",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Lit",
           "package": "lvmlib",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Lit",
           "package": "lvmlib",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "LitBytes",
           "package": "lvmlib",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "LitBytes",
           "package": "lvmlib",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "LitFloat",
           "package": "lvmlib",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "LitFloat",
           "package": "lvmlib",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "LitInt",
           "package": "lvmlib",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "LitInt",
           "package": "lvmlib",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Many",
           "package": "lvmlib",
@@ -549,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Many",
           "package": "lvmlib",
@@ -562,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Match",
           "package": "lvmlib",
@@ -571,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Match",
           "normalized": "Match Id[Alt]",
@@ -586,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Never",
           "package": "lvmlib",
@@ -595,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Never",
           "package": "lvmlib",
@@ -608,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Note",
           "package": "lvmlib",
@@ -617,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Note",
           "package": "lvmlib",
@@ -630,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Occur",
           "package": "lvmlib",
@@ -639,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Occur",
           "package": "lvmlib",
@@ -652,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Once",
           "package": "lvmlib",
@@ -661,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Once",
           "package": "lvmlib",
@@ -674,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "PatCon",
           "package": "lvmlib",
@@ -683,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "PatCon",
           "normalized": "PatCon(Con Int)[Id]",
@@ -698,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "PatLit",
           "package": "lvmlib",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "PatLit",
           "package": "lvmlib",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "PatVar",
           "package": "lvmlib",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "PatVar",
           "package": "lvmlib",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Prim",
           "package": "lvmlib",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Prim",
           "normalized": "Prim Id[Atom]",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Data",
           "name": "Top",
           "package": "lvmlib",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Data",
           "name": "Top",
           "normalized": "Top[Id]Expr",
@@ -790,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Inline",
           "name": "Inline",
           "package": "lvmlib",
@@ -798,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Inline",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Inline",
           "name": "Inline",
           "package": "lvmlib",
@@ -811,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Inline",
           "name": "asmInline",
           "package": "lvmlib",
@@ -820,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Inline",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Inline",
           "name": "asmInline",
           "normalized": "AsmModule-\u003eAsmModule",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Occur",
           "name": "Occur",
           "package": "lvmlib",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Occur",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Occur",
           "name": "Occur",
           "package": "lvmlib",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.Occur",
           "name": "asmOccur",
           "package": "lvmlib",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm Occur",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.Occur",
           "name": "asmOccur",
           "normalized": "AsmModule-\u003eAsmModule",
@@ -880,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.ToLvm",
           "name": "ToLvm",
           "package": "lvmlib",
@@ -888,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm ToLvm",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.ToLvm",
           "name": "ToLvm",
           "package": "lvmlib",
@@ -901,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Asm.ToLvm",
           "name": "asmToLvm",
           "package": "lvmlib",
@@ -910,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Lvm Asm ToLvm",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Asm.ToLvm",
           "name": "asmToLvm",
           "normalized": "AsmModule-\u003eLvmModule",
@@ -925,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "Byte",
           "package": "lvmlib",
@@ -933,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "Byte",
           "package": "lvmlib",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "Byte",
           "package": "lvmlib",
@@ -954,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "Byte",
           "package": "lvmlib",
@@ -967,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "Bytes",
           "package": "lvmlib",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "Bytes",
           "package": "lvmlib",
@@ -989,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of monoids (types with an associative binary operation that\n has an identity).  Instances should satisfy the following laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003emappend mempty x = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x mempty = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x (mappend y z) = mappend (mappend x y) z\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emconcat = \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e mappend mempty\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe method names refer to the monoid of lists under concatenation,\n but there are many other instances.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSome types can be viewed as a monoid in more than one way,\n e.g. both addition and multiplication on numbers.\n In such cases we often define \u003ccode\u003enewtype\u003c/code\u003es and make those instances\n of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, e.g. \u003ccode\u003e\u003ca\u003eSum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eProduct\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "Monoid",
           "package": "lvmlib",
@@ -997,6 +1086,7 @@
         "index": {
           "description": "The class of monoids types with an associative binary operation that has an identity Instances should satisfy the following laws mappend mempty mappend mempty mappend mappend mappend mappend mconcat foldr mappend mempty The method names refer to the monoid of lists under concatenation but there are many other instances Minimal complete definition mempty and mappend Some types can be viewed as monoid in more than one way e.g both addition and multiplication on numbers In such cases we often define newtype and make those instances of Monoid e.g Sum and Product",
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "Monoid",
           "package": "lvmlib",
@@ -1010,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "byteFromInt8",
           "package": "lvmlib",
@@ -1019,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "byteFromInt8",
           "normalized": "Int-\u003eByte",
@@ -1034,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "bytesFromByteList",
           "package": "lvmlib",
@@ -1043,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "bytesFromByteList",
           "normalized": "[Byte]-\u003eBytes",
@@ -1058,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "bytesFromInt32",
           "package": "lvmlib",
@@ -1067,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "bytesFromInt32",
           "normalized": "Int-\u003eBytes",
@@ -1082,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "bytesFromList",
           "package": "lvmlib",
@@ -1091,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "bytesFromList",
           "normalized": "[Byte]-\u003eBytes",
@@ -1106,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "bytesFromString",
           "package": "lvmlib",
@@ -1115,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "bytesFromString",
           "normalized": "String-\u003eBytes",
@@ -1130,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "bytesLength",
           "package": "lvmlib",
@@ -1139,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "bytesLength",
           "normalized": "Bytes-\u003eInt",
@@ -1154,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "int32FromByteList",
           "package": "lvmlib",
@@ -1163,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "int32FromByteList",
           "normalized": "[Byte]-\u003e(Int,[Byte])",
@@ -1178,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "isEmpty",
           "package": "lvmlib",
@@ -1187,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "isEmpty",
           "normalized": "Bytes-\u003eBool",
@@ -1202,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "listFromBytes",
           "package": "lvmlib",
@@ -1211,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "listFromBytes",
           "normalized": "Bytes-\u003e[Byte]",
@@ -1227,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "mappend",
           "package": "lvmlib",
@@ -1236,6 +1345,7 @@
         "index": {
           "description": "An associative operation",
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "mappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -1251,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a list using the monoid.\n For most types, the default definition for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e will be\n used, but the function is included in the class definition so\n that an optimized version can be provided for specific types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "mconcat",
           "package": "lvmlib",
@@ -1260,6 +1371,7 @@
         "index": {
           "description": "Fold list using the monoid For most types the default definition for mconcat will be used but the function is included in the class definition so that an optimized version can be provided for specific types",
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "mconcat",
           "normalized": "[a]-\u003ea",
@@ -1275,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "mempty",
           "package": "lvmlib",
@@ -1284,6 +1397,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "mempty",
           "package": "lvmlib",
@@ -1296,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "readByteList",
           "package": "lvmlib",
@@ -1305,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "readByteList",
           "normalized": "FilePath-\u003eIO[Byte]",
@@ -1320,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "stringFromByteList",
           "package": "lvmlib",
@@ -1329,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "stringFromByteList",
           "normalized": "[Byte]-\u003eString",
@@ -1344,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "stringFromBytes",
           "package": "lvmlib",
@@ -1353,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "stringFromBytes",
           "normalized": "Bytes-\u003eString",
@@ -1368,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "unit",
           "package": "lvmlib",
@@ -1377,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "unit",
           "normalized": "Byte-\u003eBytes",
@@ -1391,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Byte",
           "name": "writeBytes",
           "package": "lvmlib",
@@ -1400,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Byte",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Byte",
           "name": "writeBytes",
           "normalized": "FilePath-\u003eBytes-\u003eIO()",
@@ -1415,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "Id",
           "package": "lvmlib",
@@ -1423,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "Id",
           "package": "lvmlib",
@@ -1436,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "Id",
           "package": "lvmlib",
@@ -1444,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "Id",
           "package": "lvmlib",
@@ -1457,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "NameSupply",
           "package": "lvmlib",
@@ -1465,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "NameSupply",
           "package": "lvmlib",
@@ -1478,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "dummyId",
           "package": "lvmlib",
@@ -1487,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "dummyId",
           "package": "lvmlib",
@@ -1500,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "freshId",
           "package": "lvmlib",
@@ -1509,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "freshId",
           "normalized": "NameSupply-\u003e(Id,NameSupply)",
@@ -1524,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "freshIdFromId",
           "package": "lvmlib",
@@ -1533,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "freshIdFromId",
           "normalized": "Id-\u003eNameSupply-\u003e(Id,NameSupply)",
@@ -1548,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "getNameSpace",
           "package": "lvmlib",
@@ -1557,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "getNameSpace",
           "normalized": "Id-\u003ea",
@@ -1572,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "idFromInt",
           "package": "lvmlib",
@@ -1581,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "idFromInt",
           "normalized": "Int-\u003eId",
@@ -1596,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "idFromString",
           "package": "lvmlib",
@@ -1605,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "idFromString",
           "normalized": "String-\u003eId",
@@ -1620,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "idFromStringEx",
           "package": "lvmlib",
@@ -1629,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "idFromStringEx",
           "normalized": "a-\u003eString-\u003eId",
@@ -1644,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "intFromId",
           "package": "lvmlib",
@@ -1653,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "intFromId",
           "normalized": "Id-\u003eInt",
@@ -1668,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "mapWithSupply",
           "package": "lvmlib",
@@ -1677,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "mapWithSupply",
           "normalized": "(NameSupply-\u003ea-\u003eb)-\u003eNameSupply-\u003e[a]-\u003e[b]",
@@ -1692,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "newNameSupply",
           "package": "lvmlib",
@@ -1701,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "newNameSupply",
           "package": "lvmlib",
@@ -1714,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "setNameSpace",
           "package": "lvmlib",
@@ -1723,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "setNameSpace",
           "normalized": "a-\u003eId-\u003eId",
@@ -1738,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "splitNameSupplies",
           "package": "lvmlib",
@@ -1747,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "splitNameSupplies",
           "normalized": "NameSupply-\u003e[NameSupply]",
@@ -1762,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "splitNameSupply",
           "package": "lvmlib",
@@ -1771,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "splitNameSupply",
           "normalized": "NameSupply-\u003e(NameSupply,NameSupply)",
@@ -1786,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.Id",
           "name": "stringFromId",
           "package": "lvmlib",
@@ -1795,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common Id",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.Id",
           "name": "stringFromId",
           "normalized": "Id-\u003eString",
@@ -1810,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "IdMap",
           "package": "lvmlib",
@@ -1818,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "IdMap",
           "package": "lvmlib",
@@ -1831,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "Id",
           "package": "lvmlib",
@@ -1839,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "Id",
           "package": "lvmlib",
@@ -1852,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "IdMap",
           "package": "lvmlib",
@@ -1860,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "IdMap",
           "package": "lvmlib",
@@ -1873,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "deleteMap",
           "package": "lvmlib",
@@ -1882,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "deleteMap",
           "normalized": "Id-\u003eIdMap a-\u003eIdMap a",
@@ -1897,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "diffMap",
           "package": "lvmlib",
@@ -1906,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "diffMap",
           "normalized": "IdMap a-\u003eIdMap a-\u003eIdMap a",
@@ -1921,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "elemMap",
           "package": "lvmlib",
@@ -1930,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "elemMap",
           "normalized": "Id-\u003eIdMap a-\u003eBool",
@@ -1945,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "emptyMap",
           "package": "lvmlib",
@@ -1954,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "emptyMap",
           "package": "lvmlib",
@@ -1967,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "extendMap",
           "package": "lvmlib",
@@ -1976,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "extendMap",
           "normalized": "Id-\u003ea-\u003eIdMap a-\u003eIdMap a",
@@ -1991,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "filterMap",
           "package": "lvmlib",
@@ -2000,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "filterMap",
           "normalized": "(a-\u003eBool)-\u003eIdMap a-\u003eIdMap a",
@@ -2015,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "filterMapWithId",
           "package": "lvmlib",
@@ -2024,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "filterMapWithId",
           "normalized": "(Id-\u003ea-\u003eBool)-\u003eIdMap a-\u003eIdMap a",
@@ -2039,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "findMap",
           "package": "lvmlib",
@@ -2048,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "findMap",
           "normalized": "Id-\u003eIdMap a-\u003ea",
@@ -2063,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "foldMap",
           "package": "lvmlib",
@@ -2072,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "foldMap",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eIdMap a-\u003eb",
@@ -2087,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "foldMapWithId",
           "package": "lvmlib",
@@ -2096,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "foldMapWithId",
           "normalized": "(Id-\u003ea-\u003eb-\u003eb)-\u003eb-\u003eIdMap a-\u003eb",
@@ -2111,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "insertMap",
           "package": "lvmlib",
@@ -2120,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "insertMap",
           "normalized": "Id-\u003ea-\u003eIdMap a-\u003eIdMap a",
@@ -2135,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "insertMapWith",
           "package": "lvmlib",
@@ -2144,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "insertMapWith",
           "normalized": "Id-\u003ea-\u003e(a-\u003ea)-\u003eIdMap a-\u003eIdMap a",
@@ -2159,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "isEmptyMap",
           "package": "lvmlib",
@@ -2168,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "isEmptyMap",
           "normalized": "IdMap a-\u003eBool",
@@ -2183,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "listFromMap",
           "package": "lvmlib",
@@ -2192,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "listFromMap",
           "normalized": "IdMap a-\u003e[(Id,a)]",
@@ -2207,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "lookupMap",
           "package": "lvmlib",
@@ -2216,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "lookupMap",
           "normalized": "Id-\u003eIdMap a-\u003eMaybe a",
@@ -2231,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "mapFromList",
           "package": "lvmlib",
@@ -2240,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "mapFromList",
           "normalized": "[(Id,a)]-\u003eIdMap a",
@@ -2255,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "mapMap",
           "package": "lvmlib",
@@ -2264,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "mapMap",
           "normalized": "(a-\u003eb)-\u003eIdMap a-\u003eIdMap b",
@@ -2279,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "mapMapWithId",
           "package": "lvmlib",
@@ -2288,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "mapMapWithId",
           "normalized": "(Id-\u003ea-\u003eb)-\u003eIdMap a-\u003eIdMap b",
@@ -2303,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "singleMap",
           "package": "lvmlib",
@@ -2312,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "singleMap",
           "normalized": "Id-\u003ea-\u003eIdMap a",
@@ -2327,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "sizeMap",
           "package": "lvmlib",
@@ -2336,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "sizeMap",
           "normalized": "IdMap a-\u003eInt",
@@ -2351,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "unionMap",
           "package": "lvmlib",
@@ -2360,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "unionMap",
           "normalized": "IdMap a-\u003eIdMap a-\u003eIdMap a",
@@ -2375,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "unionMapWith",
           "package": "lvmlib",
@@ -2384,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "unionMapWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eIdMap a-\u003eIdMap a-\u003eIdMap a",
@@ -2399,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "unionMaps",
           "package": "lvmlib",
@@ -2408,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "unionMaps",
           "normalized": "[IdMap a]-\u003eIdMap a",
@@ -2423,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "unionlMap",
           "package": "lvmlib",
@@ -2432,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "unionlMap",
           "normalized": "IdMap a-\u003eIdMap a-\u003eIdMap a",
@@ -2447,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdMap",
           "name": "updateMap",
           "package": "lvmlib",
@@ -2456,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdMap",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdMap",
           "name": "updateMap",
           "normalized": "Id-\u003ea-\u003eIdMap a-\u003eIdMap a",
@@ -2471,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "IdSet",
           "package": "lvmlib",
@@ -2479,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "IdSet",
           "package": "lvmlib",
@@ -2492,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "Id",
           "package": "lvmlib",
@@ -2500,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "Id",
           "package": "lvmlib",
@@ -2513,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "IdSet",
           "package": "lvmlib",
@@ -2521,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "IdSet",
           "package": "lvmlib",
@@ -2534,6 +2754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "deleteSet",
           "package": "lvmlib",
@@ -2543,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "deleteSet",
           "normalized": "Id-\u003eIdSet-\u003eIdSet",
@@ -2558,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "diffSet",
           "package": "lvmlib",
@@ -2567,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "diffSet",
           "normalized": "IdSet-\u003eIdSet-\u003eIdSet",
@@ -2582,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "elemSet",
           "package": "lvmlib",
@@ -2591,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "elemSet",
           "normalized": "Id-\u003eIdSet-\u003eBool",
@@ -2606,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "emptySet",
           "package": "lvmlib",
@@ -2615,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "emptySet",
           "package": "lvmlib",
@@ -2628,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "filterSet",
           "package": "lvmlib",
@@ -2637,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "filterSet",
           "normalized": "(Id-\u003eBool)-\u003eIdSet-\u003eIdSet",
@@ -2652,6 +2882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "foldSet",
           "package": "lvmlib",
@@ -2661,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "foldSet",
           "normalized": "(Id-\u003ea-\u003ea)-\u003ea-\u003eIdSet-\u003ea",
@@ -2676,6 +2908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "insertSet",
           "package": "lvmlib",
@@ -2685,6 +2918,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "insertSet",
           "normalized": "Id-\u003eIdSet-\u003eIdSet",
@@ -2700,6 +2934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "isEmptySet",
           "package": "lvmlib",
@@ -2709,6 +2944,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "isEmptySet",
           "normalized": "IdSet-\u003eBool",
@@ -2724,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "listFromSet",
           "package": "lvmlib",
@@ -2733,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "listFromSet",
           "normalized": "IdSet-\u003e[Id]",
@@ -2748,6 +2986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "setFromList",
           "package": "lvmlib",
@@ -2757,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "setFromList",
           "normalized": "[Id]-\u003eIdSet",
@@ -2772,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "singleSet",
           "package": "lvmlib",
@@ -2781,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "singleSet",
           "normalized": "Id-\u003eIdSet",
@@ -2796,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "sizeSet",
           "package": "lvmlib",
@@ -2805,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "sizeSet",
           "normalized": "IdSet-\u003eInt",
@@ -2820,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "unionSet",
           "package": "lvmlib",
@@ -2829,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "unionSet",
           "normalized": "IdSet-\u003eIdSet-\u003eIdSet",
@@ -2844,6 +3090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Common.IdSet",
           "name": "unionSets",
           "package": "lvmlib",
@@ -2853,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "Lvm Common IdSet",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Common.IdSet",
           "name": "unionSets",
           "normalized": "[IdSet]-\u003eIdSet",
@@ -2868,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Expr",
           "package": "lvmlib",
@@ -2876,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Expr",
           "package": "lvmlib",
@@ -2889,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Alt",
           "package": "lvmlib",
@@ -2897,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Alt",
           "package": "lvmlib",
@@ -2910,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Alts",
           "package": "lvmlib",
@@ -2918,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Alts",
           "package": "lvmlib",
@@ -2931,6 +3185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Bind",
           "package": "lvmlib",
@@ -2939,6 +3194,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Bind",
           "package": "lvmlib",
@@ -2952,6 +3208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Binds",
           "package": "lvmlib",
@@ -2960,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Binds",
           "package": "lvmlib",
@@ -2973,6 +3231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Con",
           "package": "lvmlib",
@@ -2981,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Con",
           "package": "lvmlib",
@@ -2994,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "CoreDecl",
           "package": "lvmlib",
@@ -3002,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "CoreDecl",
           "package": "lvmlib",
@@ -3015,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "CoreModule",
           "package": "lvmlib",
@@ -3023,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "CoreModule",
           "package": "lvmlib",
@@ -3036,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Expr",
           "package": "lvmlib",
@@ -3044,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Expr",
           "package": "lvmlib",
@@ -3057,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Literal",
           "package": "lvmlib",
@@ -3065,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Literal",
           "package": "lvmlib",
@@ -3078,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Pat",
           "package": "lvmlib",
@@ -3086,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Pat",
           "package": "lvmlib",
@@ -3099,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Alt",
           "package": "lvmlib",
@@ -3108,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Alt",
           "package": "lvmlib",
@@ -3121,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Ap",
           "package": "lvmlib",
@@ -3130,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Ap",
           "package": "lvmlib",
@@ -3143,6 +3417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Bind",
           "package": "lvmlib",
@@ -3152,6 +3427,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Bind",
           "package": "lvmlib",
@@ -3165,6 +3441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Con",
           "package": "lvmlib",
@@ -3174,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Con",
           "package": "lvmlib",
@@ -3187,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "ConId",
           "package": "lvmlib",
@@ -3196,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "ConId",
           "package": "lvmlib",
@@ -3209,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "ConTag",
           "package": "lvmlib",
@@ -3218,6 +3499,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "ConTag",
           "package": "lvmlib",
@@ -3231,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Lam",
           "package": "lvmlib",
@@ -3240,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Lam",
           "package": "lvmlib",
@@ -3253,6 +3537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Let",
           "package": "lvmlib",
@@ -3262,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Let",
           "package": "lvmlib",
@@ -3275,6 +3561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Lit",
           "package": "lvmlib",
@@ -3284,6 +3571,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Lit",
           "package": "lvmlib",
@@ -3297,6 +3585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "LitBytes",
           "package": "lvmlib",
@@ -3306,6 +3595,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "LitBytes",
           "package": "lvmlib",
@@ -3319,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "LitDouble",
           "package": "lvmlib",
@@ -3328,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "LitDouble",
           "package": "lvmlib",
@@ -3341,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "LitInt",
           "package": "lvmlib",
@@ -3350,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "LitInt",
           "package": "lvmlib",
@@ -3363,6 +3657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Match",
           "package": "lvmlib",
@@ -3372,6 +3667,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Match",
           "package": "lvmlib",
@@ -3385,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "NonRec",
           "package": "lvmlib",
@@ -3394,6 +3691,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "NonRec",
           "package": "lvmlib",
@@ -3407,6 +3705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "PatCon",
           "package": "lvmlib",
@@ -3416,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "PatCon",
           "normalized": "PatCon(Con Tag)[Id]",
@@ -3431,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "PatDefault",
           "package": "lvmlib",
@@ -3440,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "PatDefault",
           "package": "lvmlib",
@@ -3453,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "PatLit",
           "package": "lvmlib",
@@ -3462,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "PatLit",
           "package": "lvmlib",
@@ -3475,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Rec",
           "package": "lvmlib",
@@ -3484,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Rec",
           "normalized": "Rec[Bind]",
@@ -3499,6 +3805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Strict",
           "package": "lvmlib",
@@ -3508,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Strict",
           "package": "lvmlib",
@@ -3521,6 +3829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Expr",
           "name": "Var",
           "package": "lvmlib",
@@ -3530,6 +3839,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Expr",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Expr",
           "name": "Var",
           "package": "lvmlib",
@@ -3543,6 +3853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.FreeVar",
           "name": "FreeVar",
           "package": "lvmlib",
@@ -3551,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core FreeVar",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.FreeVar",
           "name": "FreeVar",
           "package": "lvmlib",
@@ -3564,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.FreeVar",
           "name": "Binder",
           "package": "lvmlib",
@@ -3572,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core FreeVar",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.FreeVar",
           "name": "Binder",
           "package": "lvmlib",
@@ -3585,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.FreeVar",
           "name": "FreeVar",
           "package": "lvmlib",
@@ -3593,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core FreeVar",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.FreeVar",
           "name": "FreeVar",
           "package": "lvmlib",
@@ -3606,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.FreeVar",
           "name": "binder",
           "package": "lvmlib",
@@ -3615,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core FreeVar",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.FreeVar",
           "name": "binder",
           "normalized": "a-\u003eIdSet",
@@ -3629,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.FreeVar",
           "name": "freeVar",
           "package": "lvmlib",
@@ -3638,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core FreeVar",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.FreeVar",
           "name": "freeVar",
           "normalized": "a-\u003eIdSet",
@@ -3653,6 +3973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.LetSort",
           "name": "LetSort",
           "package": "lvmlib",
@@ -3661,6 +3982,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core LetSort",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.LetSort",
           "name": "LetSort",
           "package": "lvmlib",
@@ -3674,6 +3996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.LetSort",
           "name": "coreLetSort",
           "package": "lvmlib",
@@ -3683,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core LetSort",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.LetSort",
           "name": "coreLetSort",
           "normalized": "CoreModule-\u003eCoreModule",
@@ -3698,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Lift",
           "name": "Lift",
           "package": "lvmlib",
@@ -3706,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Lift",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Lift",
           "name": "Lift",
           "package": "lvmlib",
@@ -3719,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Lift",
           "name": "coreLift",
           "package": "lvmlib",
@@ -3728,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Lift",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Lift",
           "name": "coreLift",
           "normalized": "CoreModule-\u003eCoreModule",
@@ -3743,6 +4071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Module",
           "package": "lvmlib",
@@ -3751,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Module",
           "package": "lvmlib",
@@ -3764,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Access",
           "package": "lvmlib",
@@ -3772,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Access",
           "package": "lvmlib",
@@ -3785,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Arity",
           "package": "lvmlib",
@@ -3793,6 +4126,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Arity",
           "package": "lvmlib",
@@ -3806,6 +4140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "CallConv",
           "package": "lvmlib",
@@ -3814,6 +4149,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "CallConv",
           "package": "lvmlib",
@@ -3827,6 +4163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Custom",
           "package": "lvmlib",
@@ -3835,6 +4172,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Custom",
           "package": "lvmlib",
@@ -3848,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Decl",
           "package": "lvmlib",
@@ -3856,6 +4195,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Decl",
           "package": "lvmlib",
@@ -3869,6 +4209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclKind",
           "package": "lvmlib",
@@ -3877,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclKind",
           "package": "lvmlib",
@@ -3890,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "ExternName",
           "package": "lvmlib",
@@ -3898,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "ExternName",
           "package": "lvmlib",
@@ -3911,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "LinkConv",
           "package": "lvmlib",
@@ -3919,6 +4264,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "LinkConv",
           "package": "lvmlib",
@@ -3932,6 +4278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Module",
           "package": "lvmlib",
@@ -3940,6 +4287,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Module",
           "package": "lvmlib",
@@ -3953,6 +4301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Tag",
           "package": "lvmlib",
@@ -3961,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Tag",
           "package": "lvmlib",
@@ -3974,6 +4324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "CallC",
           "package": "lvmlib",
@@ -3983,6 +4334,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "CallC",
           "package": "lvmlib",
@@ -3996,6 +4348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "CallInstr",
           "package": "lvmlib",
@@ -4005,6 +4358,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "CallInstr",
           "package": "lvmlib",
@@ -4018,6 +4372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "CallStd",
           "package": "lvmlib",
@@ -4027,6 +4382,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "CallStd",
           "package": "lvmlib",
@@ -4040,6 +4396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "CustomBytes",
           "package": "lvmlib",
@@ -4049,6 +4406,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "CustomBytes",
           "package": "lvmlib",
@@ -4062,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "CustomDecl",
           "package": "lvmlib",
@@ -4071,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "CustomDecl",
           "normalized": "CustomDecl DeclKind[Custom]",
@@ -4086,6 +4446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "CustomInt",
           "package": "lvmlib",
@@ -4095,6 +4456,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "CustomInt",
           "package": "lvmlib",
@@ -4108,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "CustomLink",
           "package": "lvmlib",
@@ -4117,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "CustomLink",
           "package": "lvmlib",
@@ -4130,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "CustomName",
           "package": "lvmlib",
@@ -4139,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "CustomName",
           "package": "lvmlib",
@@ -4152,6 +4518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "CustomNothing",
           "package": "lvmlib",
@@ -4161,6 +4528,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "CustomNothing",
           "package": "lvmlib",
@@ -4174,6 +4542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclAbstract",
           "package": "lvmlib",
@@ -4183,6 +4552,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclAbstract",
           "package": "lvmlib",
@@ -4196,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclCon",
           "package": "lvmlib",
@@ -4205,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclCon",
           "package": "lvmlib",
@@ -4218,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclCustom",
           "package": "lvmlib",
@@ -4227,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclCustom",
           "package": "lvmlib",
@@ -4240,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclExtern",
           "package": "lvmlib",
@@ -4249,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclExtern",
           "package": "lvmlib",
@@ -4262,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclImport",
           "package": "lvmlib",
@@ -4271,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclImport",
           "package": "lvmlib",
@@ -4284,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclKindBytes",
           "package": "lvmlib",
@@ -4293,6 +4672,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclKindBytes",
           "package": "lvmlib",
@@ -4306,6 +4686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclKindCode",
           "package": "lvmlib",
@@ -4315,6 +4696,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclKindCode",
           "package": "lvmlib",
@@ -4328,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclKindCon",
           "package": "lvmlib",
@@ -4337,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclKindCon",
           "package": "lvmlib",
@@ -4350,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclKindCustom",
           "package": "lvmlib",
@@ -4359,6 +4744,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclKindCustom",
           "package": "lvmlib",
@@ -4372,6 +4758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclKindExtern",
           "package": "lvmlib",
@@ -4381,6 +4768,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclKindExtern",
           "package": "lvmlib",
@@ -4394,6 +4782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclKindExternType",
           "package": "lvmlib",
@@ -4403,6 +4792,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclKindExternType",
           "package": "lvmlib",
@@ -4416,6 +4806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclKindImport",
           "package": "lvmlib",
@@ -4425,6 +4816,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclKindImport",
           "package": "lvmlib",
@@ -4438,6 +4830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclKindKind",
           "package": "lvmlib",
@@ -4447,6 +4840,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclKindKind",
           "package": "lvmlib",
@@ -4460,6 +4854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclKindModule",
           "package": "lvmlib",
@@ -4469,6 +4864,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclKindModule",
           "package": "lvmlib",
@@ -4482,6 +4878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclKindName",
           "package": "lvmlib",
@@ -4491,6 +4888,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclKindName",
           "package": "lvmlib",
@@ -4504,6 +4902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclKindValue",
           "package": "lvmlib",
@@ -4513,6 +4912,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclKindValue",
           "package": "lvmlib",
@@ -4526,6 +4926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "DeclValue",
           "package": "lvmlib",
@@ -4535,6 +4936,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "DeclValue",
           "package": "lvmlib",
@@ -4548,6 +4950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Decorate",
           "package": "lvmlib",
@@ -4557,6 +4960,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Decorate",
           "package": "lvmlib",
@@ -4570,6 +4974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Defined",
           "package": "lvmlib",
@@ -4579,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Defined",
           "package": "lvmlib",
@@ -4592,6 +4998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Imported",
           "package": "lvmlib",
@@ -4601,6 +5008,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Imported",
           "package": "lvmlib",
@@ -4614,6 +5022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "LinkDynamic",
           "package": "lvmlib",
@@ -4623,6 +5032,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "LinkDynamic",
           "package": "lvmlib",
@@ -4636,6 +5046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "LinkRuntime",
           "package": "lvmlib",
@@ -4645,6 +5056,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "LinkRuntime",
           "package": "lvmlib",
@@ -4658,6 +5070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "LinkStatic",
           "package": "lvmlib",
@@ -4667,6 +5080,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "LinkStatic",
           "package": "lvmlib",
@@ -4680,6 +5094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Module",
           "package": "lvmlib",
@@ -4689,6 +5104,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Module",
           "package": "lvmlib",
@@ -4702,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Ordinal",
           "package": "lvmlib",
@@ -4711,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Ordinal",
           "package": "lvmlib",
@@ -4724,6 +5142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "Plain",
           "package": "lvmlib",
@@ -4733,6 +5152,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "Plain",
           "package": "lvmlib",
@@ -4746,6 +5166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "accessPublic",
           "package": "lvmlib",
@@ -4755,6 +5176,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "accessPublic",
           "package": "lvmlib",
@@ -4768,6 +5190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "conTag",
           "package": "lvmlib",
@@ -4777,6 +5200,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "conTag",
           "package": "lvmlib",
@@ -4790,6 +5214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "customData",
           "package": "lvmlib",
@@ -4799,6 +5224,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "customData",
           "package": "lvmlib",
@@ -4812,6 +5238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "customDeclKind",
           "package": "lvmlib",
@@ -4821,6 +5248,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "customDeclKind",
           "normalized": "String-\u003eDeclKind",
@@ -4836,6 +5264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "customTypeDecl",
           "package": "lvmlib",
@@ -4845,6 +5274,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "customTypeDecl",
           "package": "lvmlib",
@@ -4858,6 +5288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "declAccess",
           "package": "lvmlib",
@@ -4867,6 +5298,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "declAccess",
           "package": "lvmlib",
@@ -4880,6 +5312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "declArity",
           "package": "lvmlib",
@@ -4889,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "declArity",
           "package": "lvmlib",
@@ -4902,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "declCustoms",
           "package": "lvmlib",
@@ -4911,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "declCustoms",
           "normalized": "[Custom]",
@@ -4926,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "declKind",
           "package": "lvmlib",
@@ -4935,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "declKind",
           "package": "lvmlib",
@@ -4948,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "declKindFromDecl",
           "package": "lvmlib",
@@ -4957,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "declKindFromDecl",
           "normalized": "Decl a-\u003eDeclKind",
@@ -4972,6 +5412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "declName",
           "package": "lvmlib",
@@ -4981,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "declName",
           "package": "lvmlib",
@@ -4994,6 +5436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "externCall",
           "package": "lvmlib",
@@ -5003,6 +5446,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "externCall",
           "package": "lvmlib",
@@ -5016,6 +5460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "externLib",
           "package": "lvmlib",
@@ -5025,6 +5470,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "externLib",
           "package": "lvmlib",
@@ -5038,6 +5484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "externLink",
           "package": "lvmlib",
@@ -5047,6 +5494,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "externLink",
           "package": "lvmlib",
@@ -5060,6 +5508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "externName",
           "package": "lvmlib",
@@ -5069,6 +5518,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "externName",
           "package": "lvmlib",
@@ -5082,6 +5532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "externNames",
           "package": "lvmlib",
@@ -5091,6 +5542,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "externNames",
           "normalized": "Module a-\u003eIdSet",
@@ -5106,6 +5558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "externType",
           "package": "lvmlib",
@@ -5115,6 +5568,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "externType",
           "package": "lvmlib",
@@ -5128,6 +5582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "filterPublic",
           "package": "lvmlib",
@@ -5137,6 +5592,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "filterPublic",
           "normalized": "Module a-\u003eModule a",
@@ -5152,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "globalNames",
           "package": "lvmlib",
@@ -5161,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "globalNames",
           "normalized": "Module a-\u003eIdSet",
@@ -5176,6 +5634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "importKind",
           "package": "lvmlib",
@@ -5185,6 +5644,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "importKind",
           "package": "lvmlib",
@@ -5198,6 +5658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "importMajorVer",
           "package": "lvmlib",
@@ -5207,6 +5668,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "importMajorVer",
           "package": "lvmlib",
@@ -5220,6 +5682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "importMinorVer",
           "package": "lvmlib",
@@ -5229,6 +5692,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "importMinorVer",
           "package": "lvmlib",
@@ -5242,6 +5706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "importModule",
           "package": "lvmlib",
@@ -5251,6 +5716,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "importModule",
           "package": "lvmlib",
@@ -5264,6 +5730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "importName",
           "package": "lvmlib",
@@ -5273,6 +5740,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "importName",
           "package": "lvmlib",
@@ -5286,6 +5754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "isDeclAbstract",
           "package": "lvmlib",
@@ -5295,6 +5764,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "isDeclAbstract",
           "normalized": "Decl a-\u003eBool",
@@ -5310,6 +5780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "isDeclCon",
           "package": "lvmlib",
@@ -5319,6 +5790,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "isDeclCon",
           "normalized": "Decl a-\u003eBool",
@@ -5334,6 +5806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "isDeclExtern",
           "package": "lvmlib",
@@ -5343,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "isDeclExtern",
           "normalized": "Decl a-\u003eBool",
@@ -5358,6 +5832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "isDeclGlobal",
           "package": "lvmlib",
@@ -5367,6 +5842,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "isDeclGlobal",
           "normalized": "Decl a-\u003eBool",
@@ -5382,6 +5858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "isDeclImport",
           "package": "lvmlib",
@@ -5391,6 +5868,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "isDeclImport",
           "normalized": "Decl a-\u003eBool",
@@ -5406,6 +5884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "isDeclValue",
           "package": "lvmlib",
@@ -5415,6 +5894,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "isDeclValue",
           "normalized": "Decl a-\u003eBool",
@@ -5430,6 +5910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "makeDeclKind",
           "package": "lvmlib",
@@ -5439,6 +5920,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "makeDeclKind",
           "normalized": "Id-\u003eDeclKind",
@@ -5454,6 +5936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "mapDecls",
           "package": "lvmlib",
@@ -5463,6 +5946,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "mapDecls",
           "normalized": "(Decl a-\u003eDecl b)-\u003eModule a-\u003eModule b",
@@ -5478,6 +5962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "moduleDecls",
           "package": "lvmlib",
@@ -5487,6 +5972,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "moduleDecls",
           "normalized": "[Decl a]",
@@ -5502,6 +5988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "moduleMajorVer",
           "package": "lvmlib",
@@ -5511,6 +5998,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "moduleMajorVer",
           "package": "lvmlib",
@@ -5524,6 +6012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "moduleMinorVer",
           "package": "lvmlib",
@@ -5533,6 +6022,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "moduleMinorVer",
           "package": "lvmlib",
@@ -5546,6 +6036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "moduleName",
           "package": "lvmlib",
@@ -5555,6 +6046,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "moduleName",
           "package": "lvmlib",
@@ -5568,6 +6060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "modulePublic",
           "package": "lvmlib",
@@ -5577,6 +6070,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "modulePublic",
           "normalized": "Bool-\u003e(IdSet,IdSet,IdSet,IdSet,IdSet)-\u003eModule a-\u003eModule a",
@@ -5592,6 +6086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "private",
           "package": "lvmlib",
@@ -5601,6 +6096,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "private",
           "package": "lvmlib",
@@ -5613,6 +6109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "public",
           "package": "lvmlib",
@@ -5622,6 +6119,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "public",
           "package": "lvmlib",
@@ -5634,6 +6132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "shallowKindFromDecl",
           "package": "lvmlib",
@@ -5643,6 +6142,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "shallowKindFromDecl",
           "normalized": "Decl a-\u003eDeclKind",
@@ -5658,6 +6158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "valueEnc",
           "package": "lvmlib",
@@ -5667,6 +6168,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "valueEnc",
           "package": "lvmlib",
@@ -5680,6 +6182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Module",
           "name": "valueValue",
           "package": "lvmlib",
@@ -5689,6 +6192,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Module",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Module",
           "name": "valueValue",
           "package": "lvmlib",
@@ -5702,6 +6206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.NoShadow",
           "name": "NoShadow",
           "package": "lvmlib",
@@ -5710,6 +6215,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core NoShadow",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.NoShadow",
           "name": "NoShadow",
           "package": "lvmlib",
@@ -5723,6 +6229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.NoShadow",
           "name": "coreNoShadow",
           "package": "lvmlib",
@@ -5732,6 +6239,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core NoShadow",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.NoShadow",
           "name": "coreNoShadow",
           "normalized": "NameSupply-\u003eCoreModule-\u003eCoreModule",
@@ -5747,6 +6255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.NoShadow",
           "name": "coreRename",
           "package": "lvmlib",
@@ -5756,6 +6265,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core NoShadow",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.NoShadow",
           "name": "coreRename",
           "normalized": "NameSupply-\u003eCoreModule-\u003eCoreModule",
@@ -5771,6 +6281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Normalize",
           "name": "Normalize",
           "package": "lvmlib",
@@ -5779,6 +6290,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Normalize",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Normalize",
           "name": "Normalize",
           "package": "lvmlib",
@@ -5792,6 +6304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Normalize",
           "name": "coreNormalize",
           "package": "lvmlib",
@@ -5801,6 +6314,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Normalize",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Normalize",
           "name": "coreNormalize",
           "normalized": "NameSupply-\u003eCoreModule-\u003eCoreModule",
@@ -5816,6 +6330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Layout",
           "name": "Layout",
           "package": "lvmlib",
@@ -5824,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Layout",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Layout",
           "name": "Layout",
           "package": "lvmlib",
@@ -5837,6 +6353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Layout",
           "name": "layout",
           "package": "lvmlib",
@@ -5846,6 +6363,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Layout",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Layout",
           "name": "layout",
           "normalized": "[Token]-\u003e[Token]",
@@ -5860,6 +6378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Lexer",
           "name": "Lexer",
           "package": "lvmlib",
@@ -5868,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Lexer",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Lexer",
           "name": "Lexer",
           "package": "lvmlib",
@@ -5881,6 +6401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Lexer",
           "name": "lexer",
           "package": "lvmlib",
@@ -5890,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Lexer",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Lexer",
           "name": "lexer",
           "package": "lvmlib",
@@ -5902,6 +6424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Parser",
           "name": "Parser",
           "package": "lvmlib",
@@ -5910,6 +6433,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Parser",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Parser",
           "name": "Parser",
           "package": "lvmlib",
@@ -5923,6 +6447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Parser",
           "name": "parseModule",
           "package": "lvmlib",
@@ -5932,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Parser",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Parser",
           "name": "parseModule",
           "normalized": "FilePath-\u003e[Token]-\u003eIO CoreModule",
@@ -5947,6 +6473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Parser",
           "name": "parseModuleExport",
           "package": "lvmlib",
@@ -5956,6 +6483,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Parser",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Parser",
           "name": "parseModuleExport",
           "normalized": "FilePath-\u003e[Token]-\u003eIO(CoreModule,Bool,(IdSet,IdSet,IdSet,IdSet,IdSet))",
@@ -5971,6 +6499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "Token",
           "package": "lvmlib",
@@ -5979,6 +6508,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "Token",
           "package": "lvmlib",
@@ -5992,6 +6522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "Lexeme",
           "package": "lvmlib",
@@ -6000,6 +6531,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "Lexeme",
           "package": "lvmlib",
@@ -6013,6 +6545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "Pos",
           "package": "lvmlib",
@@ -6021,6 +6554,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "Pos",
           "package": "lvmlib",
@@ -6034,6 +6568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "Token",
           "package": "lvmlib",
@@ -6042,6 +6577,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "Token",
           "package": "lvmlib",
@@ -6055,6 +6591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexABSTRACT",
           "package": "lvmlib",
@@ -6064,6 +6601,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexABSTRACT",
           "package": "lvmlib",
@@ -6077,6 +6615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexARROW",
           "package": "lvmlib",
@@ -6086,6 +6625,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexARROW",
           "package": "lvmlib",
@@ -6099,6 +6639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexASG",
           "package": "lvmlib",
@@ -6108,6 +6649,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexASG",
           "package": "lvmlib",
@@ -6121,6 +6663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexAT",
           "package": "lvmlib",
@@ -6130,6 +6673,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexAT",
           "package": "lvmlib",
@@ -6143,6 +6687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexBAR",
           "package": "lvmlib",
@@ -6152,6 +6697,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexBAR",
           "package": "lvmlib",
@@ -6165,6 +6711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexBSLASH",
           "package": "lvmlib",
@@ -6174,6 +6721,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexBSLASH",
           "package": "lvmlib",
@@ -6187,6 +6735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCASE",
           "package": "lvmlib",
@@ -6196,6 +6745,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCASE",
           "package": "lvmlib",
@@ -6209,6 +6759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCCALL",
           "package": "lvmlib",
@@ -6218,6 +6769,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCCALL",
           "package": "lvmlib",
@@ -6231,6 +6783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCOLCOL",
           "package": "lvmlib",
@@ -6240,6 +6793,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCOLCOL",
           "package": "lvmlib",
@@ -6253,6 +6807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCOLON",
           "package": "lvmlib",
@@ -6262,6 +6817,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCOLON",
           "package": "lvmlib",
@@ -6275,6 +6831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCOMMA",
           "package": "lvmlib",
@@ -6284,6 +6841,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCOMMA",
           "package": "lvmlib",
@@ -6297,6 +6855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCON",
           "package": "lvmlib",
@@ -6306,6 +6865,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCON",
           "package": "lvmlib",
@@ -6319,6 +6879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCUSTOM",
           "package": "lvmlib",
@@ -6328,6 +6889,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCUSTOM",
           "package": "lvmlib",
@@ -6341,6 +6903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexChar",
           "package": "lvmlib",
@@ -6350,6 +6913,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexChar",
           "package": "lvmlib",
@@ -6363,6 +6927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCon",
           "package": "lvmlib",
@@ -6372,6 +6937,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexCon",
           "package": "lvmlib",
@@ -6385,6 +6951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexConOp",
           "package": "lvmlib",
@@ -6394,6 +6961,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexConOp",
           "package": "lvmlib",
@@ -6407,6 +6975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDASH",
           "package": "lvmlib",
@@ -6416,6 +6985,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDASH",
           "package": "lvmlib",
@@ -6429,6 +6999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDATA",
           "package": "lvmlib",
@@ -6438,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDATA",
           "package": "lvmlib",
@@ -6451,6 +7023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDECORATE",
           "package": "lvmlib",
@@ -6460,6 +7033,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDECORATE",
           "package": "lvmlib",
@@ -6473,6 +7047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDEFAULT",
           "package": "lvmlib",
@@ -6482,6 +7057,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDEFAULT",
           "package": "lvmlib",
@@ -6495,6 +7071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDO",
           "package": "lvmlib",
@@ -6504,6 +7081,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDO",
           "package": "lvmlib",
@@ -6517,6 +7095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDOT",
           "package": "lvmlib",
@@ -6526,6 +7105,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDOT",
           "package": "lvmlib",
@@ -6539,6 +7119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDOTDOT",
           "package": "lvmlib",
@@ -6548,6 +7129,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDOTDOT",
           "package": "lvmlib",
@@ -6561,6 +7143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDYNAMIC",
           "package": "lvmlib",
@@ -6570,6 +7153,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexDYNAMIC",
           "package": "lvmlib",
@@ -6583,6 +7167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexELSE",
           "package": "lvmlib",
@@ -6592,6 +7177,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexELSE",
           "package": "lvmlib",
@@ -6605,6 +7191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexEOF",
           "package": "lvmlib",
@@ -6614,6 +7201,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexEOF",
           "package": "lvmlib",
@@ -6627,6 +7215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexEXCL",
           "package": "lvmlib",
@@ -6636,6 +7225,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexEXCL",
           "package": "lvmlib",
@@ -6649,6 +7239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexEXTERN",
           "package": "lvmlib",
@@ -6658,6 +7249,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexEXTERN",
           "package": "lvmlib",
@@ -6671,6 +7263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexError",
           "package": "lvmlib",
@@ -6680,6 +7273,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexError",
           "package": "lvmlib",
@@ -6693,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexFloat",
           "package": "lvmlib",
@@ -6702,6 +7297,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexFloat",
           "package": "lvmlib",
@@ -6715,6 +7311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexIF",
           "package": "lvmlib",
@@ -6724,6 +7321,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexIF",
           "package": "lvmlib",
@@ -6737,6 +7335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexIMPORT",
           "package": "lvmlib",
@@ -6746,6 +7345,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexIMPORT",
           "package": "lvmlib",
@@ -6759,6 +7359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexIN",
           "package": "lvmlib",
@@ -6768,6 +7369,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexIN",
           "package": "lvmlib",
@@ -6781,6 +7383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexINSTR",
           "package": "lvmlib",
@@ -6790,6 +7393,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexINSTR",
           "package": "lvmlib",
@@ -6803,6 +7407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexINSTRCALL",
           "package": "lvmlib",
@@ -6812,6 +7417,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexINSTRCALL",
           "package": "lvmlib",
@@ -6825,6 +7431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexId",
           "package": "lvmlib",
@@ -6834,6 +7441,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexId",
           "package": "lvmlib",
@@ -6847,6 +7455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexInt",
           "package": "lvmlib",
@@ -6856,6 +7465,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexInt",
           "package": "lvmlib",
@@ -6869,6 +7479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexLARROW",
           "package": "lvmlib",
@@ -6878,6 +7489,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexLARROW",
           "package": "lvmlib",
@@ -6891,6 +7503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexLBRACE",
           "package": "lvmlib",
@@ -6900,6 +7513,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexLBRACE",
           "package": "lvmlib",
@@ -6913,6 +7527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexLBRACKET",
           "package": "lvmlib",
@@ -6922,6 +7537,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexLBRACKET",
           "package": "lvmlib",
@@ -6935,6 +7551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexLET",
           "package": "lvmlib",
@@ -6944,6 +7561,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexLET",
           "package": "lvmlib",
@@ -6957,6 +7575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexLETSTRICT",
           "package": "lvmlib",
@@ -6966,6 +7585,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexLETSTRICT",
           "package": "lvmlib",
@@ -6979,6 +7599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexLPAREN",
           "package": "lvmlib",
@@ -6988,6 +7609,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexLPAREN",
           "package": "lvmlib",
@@ -7001,6 +7623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexMATCH",
           "package": "lvmlib",
@@ -7010,6 +7633,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexMATCH",
           "package": "lvmlib",
@@ -7023,6 +7647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexMODULE",
           "package": "lvmlib",
@@ -7032,6 +7657,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexMODULE",
           "package": "lvmlib",
@@ -7045,6 +7671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexNOTHING",
           "package": "lvmlib",
@@ -7054,6 +7681,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexNOTHING",
           "package": "lvmlib",
@@ -7067,6 +7695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexOF",
           "package": "lvmlib",
@@ -7076,6 +7705,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexOF",
           "package": "lvmlib",
@@ -7089,6 +7719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexORDINAL",
           "package": "lvmlib",
@@ -7098,6 +7729,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexORDINAL",
           "package": "lvmlib",
@@ -7111,6 +7743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexOp",
           "package": "lvmlib",
@@ -7120,6 +7753,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexOp",
           "package": "lvmlib",
@@ -7133,6 +7767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexPRIVATE",
           "package": "lvmlib",
@@ -7142,6 +7777,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexPRIVATE",
           "package": "lvmlib",
@@ -7155,6 +7791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexPUBLIC",
           "package": "lvmlib",
@@ -7164,6 +7801,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexPUBLIC",
           "package": "lvmlib",
@@ -7177,6 +7815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexQUOTE",
           "package": "lvmlib",
@@ -7186,6 +7825,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexQUOTE",
           "package": "lvmlib",
@@ -7199,6 +7839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexQualCon",
           "package": "lvmlib",
@@ -7208,6 +7849,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexQualCon",
           "package": "lvmlib",
@@ -7221,6 +7863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexQualId",
           "package": "lvmlib",
@@ -7230,6 +7873,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexQualId",
           "package": "lvmlib",
@@ -7243,6 +7887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexRARROW",
           "package": "lvmlib",
@@ -7252,6 +7897,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexRARROW",
           "package": "lvmlib",
@@ -7265,6 +7911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexRBRACE",
           "package": "lvmlib",
@@ -7274,6 +7921,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexRBRACE",
           "package": "lvmlib",
@@ -7287,6 +7935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexRBRACKET",
           "package": "lvmlib",
@@ -7296,6 +7945,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexRBRACKET",
           "package": "lvmlib",
@@ -7309,6 +7959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexRPAREN",
           "package": "lvmlib",
@@ -7318,6 +7969,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexRPAREN",
           "package": "lvmlib",
@@ -7331,6 +7983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexRUNTIME",
           "package": "lvmlib",
@@ -7340,6 +7993,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexRUNTIME",
           "package": "lvmlib",
@@ -7353,6 +8007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexSEMI",
           "package": "lvmlib",
@@ -7362,6 +8017,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexSEMI",
           "package": "lvmlib",
@@ -7375,6 +8031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexSTATIC",
           "package": "lvmlib",
@@ -7384,6 +8041,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexSTATIC",
           "package": "lvmlib",
@@ -7397,6 +8055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexSTDCALL",
           "package": "lvmlib",
@@ -7406,6 +8065,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexSTDCALL",
           "package": "lvmlib",
@@ -7419,6 +8079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexString",
           "package": "lvmlib",
@@ -7428,6 +8089,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexString",
           "package": "lvmlib",
@@ -7441,6 +8103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexTHEN",
           "package": "lvmlib",
@@ -7450,6 +8113,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexTHEN",
           "package": "lvmlib",
@@ -7463,6 +8127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexTILDE",
           "package": "lvmlib",
@@ -7472,6 +8137,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexTILDE",
           "package": "lvmlib",
@@ -7485,6 +8151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexTYPE",
           "package": "lvmlib",
@@ -7494,6 +8161,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexTYPE",
           "package": "lvmlib",
@@ -7507,6 +8175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexUnknown",
           "package": "lvmlib",
@@ -7516,6 +8185,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexUnknown",
           "package": "lvmlib",
@@ -7529,6 +8199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexWHERE",
           "package": "lvmlib",
@@ -7538,6 +8209,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexWHERE",
           "package": "lvmlib",
@@ -7551,6 +8223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexWITH",
           "package": "lvmlib",
@@ -7560,6 +8233,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "LexWITH",
           "package": "lvmlib",
@@ -7573,6 +8247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "incpos",
           "package": "lvmlib",
@@ -7582,6 +8257,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "incpos",
           "normalized": "Pos-\u003eInt-\u003ePos",
@@ -7596,6 +8272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Parsing.Token",
           "name": "newpos",
           "package": "lvmlib",
@@ -7605,6 +8282,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Parsing Token",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Parsing.Token",
           "name": "newpos",
           "normalized": "Pos-\u003eChar-\u003ePos",
@@ -7619,6 +8297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.PrettyId",
           "name": "PrettyId",
           "package": "lvmlib",
@@ -7627,6 +8306,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core PrettyId",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.PrettyId",
           "name": "PrettyId",
           "package": "lvmlib",
@@ -7640,6 +8320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.PrettyId",
           "name": "ppConId",
           "package": "lvmlib",
@@ -7649,6 +8330,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core PrettyId",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.PrettyId",
           "name": "ppConId",
           "normalized": "Id-\u003eDoc",
@@ -7664,6 +8346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.PrettyId",
           "name": "ppId",
           "package": "lvmlib",
@@ -7673,6 +8356,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core PrettyId",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.PrettyId",
           "name": "ppId",
           "normalized": "Id-\u003eDoc",
@@ -7688,6 +8372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.PrettyId",
           "name": "ppQualCon",
           "package": "lvmlib",
@@ -7697,6 +8382,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core PrettyId",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.PrettyId",
           "name": "ppQualCon",
           "normalized": "Id-\u003eId-\u003eDoc",
@@ -7712,6 +8398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.PrettyId",
           "name": "ppQualId",
           "package": "lvmlib",
@@ -7721,6 +8408,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core PrettyId",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.PrettyId",
           "name": "ppQualId",
           "normalized": "Id-\u003eId-\u003eDoc",
@@ -7736,6 +8424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.PrettyId",
           "name": "ppString",
           "package": "lvmlib",
@@ -7745,6 +8434,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core PrettyId",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.PrettyId",
           "name": "ppString",
           "normalized": "String-\u003eDoc",
@@ -7760,6 +8450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.PrettyId",
           "name": "ppVarId",
           "package": "lvmlib",
@@ -7769,6 +8460,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core PrettyId",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.PrettyId",
           "name": "ppVarId",
           "normalized": "Id-\u003eDoc",
@@ -7784,6 +8476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.RemoveDead",
           "name": "RemoveDead",
           "package": "lvmlib",
@@ -7792,6 +8485,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core RemoveDead",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.RemoveDead",
           "name": "RemoveDead",
           "package": "lvmlib",
@@ -7805,6 +8499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.RemoveDead",
           "name": "coreRemoveDead",
           "package": "lvmlib",
@@ -7814,6 +8509,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core RemoveDead",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.RemoveDead",
           "name": "coreRemoveDead",
           "normalized": "CoreModule-\u003eCoreModule",
@@ -7829,6 +8525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Saturate",
           "name": "Saturate",
           "package": "lvmlib",
@@ -7837,6 +8534,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Saturate",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Saturate",
           "name": "Saturate",
           "package": "lvmlib",
@@ -7850,6 +8548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Saturate",
           "name": "coreSaturate",
           "package": "lvmlib",
@@ -7859,6 +8558,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Saturate",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Saturate",
           "name": "coreSaturate",
           "normalized": "NameSupply-\u003eCoreModule-\u003eCoreModule",
@@ -7874,6 +8574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.ToAsm",
           "name": "ToAsm",
           "package": "lvmlib",
@@ -7882,6 +8583,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core ToAsm",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.ToAsm",
           "name": "ToAsm",
           "package": "lvmlib",
@@ -7895,6 +8597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.ToAsm",
           "name": "coreToAsm",
           "package": "lvmlib",
@@ -7904,6 +8607,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core ToAsm",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.ToAsm",
           "name": "coreToAsm",
           "normalized": "NameSupply-\u003eCoreModule-\u003eAsmModule",
@@ -7919,6 +8623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "Type",
           "package": "lvmlib",
@@ -7927,6 +8632,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "Type",
           "package": "lvmlib",
@@ -7940,6 +8646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "Kind",
           "package": "lvmlib",
@@ -7948,6 +8655,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "Kind",
           "package": "lvmlib",
@@ -7961,6 +8669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "Type",
           "package": "lvmlib",
@@ -7969,6 +8678,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "Type",
           "package": "lvmlib",
@@ -7982,6 +8692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "KFun",
           "package": "lvmlib",
@@ -7991,6 +8702,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "KFun",
           "package": "lvmlib",
@@ -8004,6 +8716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "KStar",
           "package": "lvmlib",
@@ -8013,6 +8726,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "KStar",
           "package": "lvmlib",
@@ -8026,6 +8740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "KString",
           "package": "lvmlib",
@@ -8035,6 +8750,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "KString",
           "package": "lvmlib",
@@ -8048,6 +8764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "TAny",
           "package": "lvmlib",
@@ -8057,6 +8774,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "TAny",
           "package": "lvmlib",
@@ -8070,6 +8788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "TAp",
           "package": "lvmlib",
@@ -8079,6 +8798,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "TAp",
           "package": "lvmlib",
@@ -8092,6 +8812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "TCon",
           "package": "lvmlib",
@@ -8101,6 +8822,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "TCon",
           "package": "lvmlib",
@@ -8114,6 +8836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "TExist",
           "package": "lvmlib",
@@ -8123,6 +8846,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "TExist",
           "package": "lvmlib",
@@ -8136,6 +8860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "TForall",
           "package": "lvmlib",
@@ -8145,6 +8870,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "TForall",
           "package": "lvmlib",
@@ -8158,6 +8884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "TFun",
           "package": "lvmlib",
@@ -8167,6 +8894,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "TFun",
           "package": "lvmlib",
@@ -8180,6 +8908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "TStrict",
           "package": "lvmlib",
@@ -8189,6 +8918,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "TStrict",
           "package": "lvmlib",
@@ -8202,6 +8932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "TString",
           "package": "lvmlib",
@@ -8211,6 +8942,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "TString",
           "package": "lvmlib",
@@ -8224,6 +8956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "TVar",
           "package": "lvmlib",
@@ -8233,6 +8966,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "TVar",
           "package": "lvmlib",
@@ -8246,6 +8980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "addForall",
           "package": "lvmlib",
@@ -8255,6 +8990,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "addForall",
           "normalized": "Type-\u003eType",
@@ -8270,6 +9006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "arityFromType",
           "package": "lvmlib",
@@ -8279,6 +9016,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "arityFromType",
           "normalized": "Type-\u003eInt",
@@ -8294,6 +9032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "kind1",
           "package": "lvmlib",
@@ -8303,6 +9042,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "kind1",
           "package": "lvmlib",
@@ -8315,6 +9055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "kind2",
           "package": "lvmlib",
@@ -8324,6 +9065,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "kind2",
           "package": "lvmlib",
@@ -8336,6 +9078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Type",
           "name": "kindString",
           "package": "lvmlib",
@@ -8345,6 +9088,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Type",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Type",
           "name": "kindString",
           "package": "lvmlib",
@@ -8358,6 +9102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Utils",
           "name": "Utils",
           "package": "lvmlib",
@@ -8366,6 +9111,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Utils",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Utils",
           "name": "Utils",
           "package": "lvmlib",
@@ -8379,6 +9125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Utils",
           "name": "listFromBinds",
           "package": "lvmlib",
@@ -8388,6 +9135,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Utils",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Utils",
           "name": "listFromBinds",
           "normalized": "Binds-\u003e[Bind]",
@@ -8403,6 +9151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Utils",
           "name": "mapAccum",
           "package": "lvmlib",
@@ -8412,6 +9161,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Utils",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Utils",
           "name": "mapAccum",
           "normalized": "(a-\u003eb-\u003e(c,a))-\u003ea-\u003e[b]-\u003e([c],a)",
@@ -8427,6 +9177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Utils",
           "name": "mapAccumBinds",
           "package": "lvmlib",
@@ -8436,6 +9187,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Utils",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Utils",
           "name": "mapAccumBinds",
           "normalized": "(a-\u003eId-\u003eExpr-\u003e(Bind,a))-\u003ea-\u003eBinds-\u003e(Binds,a)",
@@ -8451,6 +9203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Utils",
           "name": "mapAlts",
           "package": "lvmlib",
@@ -8460,6 +9213,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Utils",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Utils",
           "name": "mapAlts",
           "normalized": "(Pat-\u003eExpr-\u003eAlt)-\u003eAlts-\u003eAlts",
@@ -8475,6 +9229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Utils",
           "name": "mapBinds",
           "package": "lvmlib",
@@ -8484,6 +9239,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Utils",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Utils",
           "name": "mapBinds",
           "normalized": "(Id-\u003eExpr-\u003eBind)-\u003eBinds-\u003eBinds",
@@ -8499,6 +9255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Utils",
           "name": "mapExprWithSupply",
           "package": "lvmlib",
@@ -8508,6 +9265,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Utils",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Utils",
           "name": "mapExprWithSupply",
           "normalized": "(NameSupply-\u003eExpr-\u003eExpr)-\u003eNameSupply-\u003eCoreModule-\u003eCoreModule",
@@ -8523,6 +9281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Utils",
           "name": "unzipBinds",
           "package": "lvmlib",
@@ -8532,6 +9291,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Utils",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Utils",
           "name": "unzipBinds",
           "normalized": "[Bind]-\u003e([Id],[Expr])",
@@ -8547,6 +9307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Utils",
           "name": "zipAltsWith",
           "package": "lvmlib",
@@ -8556,6 +9317,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Utils",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Utils",
           "name": "zipAltsWith",
           "normalized": "(a-\u003ePat-\u003eExpr-\u003eAlt)-\u003e[a]-\u003eAlts-\u003eAlts",
@@ -8571,6 +9333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Core.Utils",
           "name": "zipBindsWith",
           "package": "lvmlib",
@@ -8580,6 +9343,7 @@
         },
         "index": {
           "hierarchy": "Lvm Core Utils",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Core.Utils",
           "name": "zipBindsWith",
           "normalized": "(a-\u003eId-\u003eExpr-\u003eBind)-\u003e[a]-\u003eBinds-\u003eBinds",
@@ -8595,6 +9359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Data",
           "name": "Data",
           "package": "lvmlib",
@@ -8603,6 +9368,7 @@
         },
         "index": {
           "hierarchy": "Lvm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Data",
           "name": "Data",
           "package": "lvmlib",
@@ -8616,6 +9382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Data",
           "name": "LvmDecl",
           "package": "lvmlib",
@@ -8624,6 +9391,7 @@
         },
         "index": {
           "hierarchy": "Lvm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Data",
           "name": "LvmDecl",
           "package": "lvmlib",
@@ -8637,6 +9405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Data",
           "name": "LvmModule",
           "package": "lvmlib",
@@ -8645,6 +9414,7 @@
         },
         "index": {
           "hierarchy": "Lvm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Data",
           "name": "LvmModule",
           "package": "lvmlib",
@@ -8658,6 +9428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Data",
           "name": "recFooter",
           "package": "lvmlib",
@@ -8667,6 +9438,7 @@
         },
         "index": {
           "hierarchy": "Lvm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Data",
           "name": "recFooter",
           "package": "lvmlib",
@@ -8680,6 +9452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Data",
           "name": "recHeader",
           "package": "lvmlib",
@@ -8689,6 +9462,7 @@
         },
         "index": {
           "hierarchy": "Lvm Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Data",
           "name": "recHeader",
           "package": "lvmlib",
@@ -8702,6 +9476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Import",
           "name": "Import",
           "package": "lvmlib",
@@ -8710,6 +9485,7 @@
         },
         "index": {
           "hierarchy": "Lvm Import",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Import",
           "name": "Import",
           "package": "lvmlib",
@@ -8723,6 +9499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Import",
           "name": "lvmImport",
           "package": "lvmlib",
@@ -8732,6 +9509,7 @@
         },
         "index": {
           "hierarchy": "Lvm Import",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Import",
           "name": "lvmImport",
           "normalized": "(Id-\u003eIO FilePath)-\u003eModule a-\u003eIO(Module a)",
@@ -8747,6 +9525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Import",
           "name": "lvmImportDecls",
           "package": "lvmlib",
@@ -8756,6 +9535,7 @@
         },
         "index": {
           "hierarchy": "Lvm Import",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Import",
           "name": "lvmImportDecls",
           "normalized": "(Id-\u003eIO FilePath)-\u003e[Decl a]-\u003eIO[[Decl a]]",
@@ -8771,6 +9551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Data",
           "package": "lvmlib",
@@ -8779,6 +9560,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Data",
           "package": "lvmlib",
@@ -8792,6 +9574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Alt",
           "package": "lvmlib",
@@ -8800,6 +9583,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Alt",
           "package": "lvmlib",
@@ -8813,6 +9597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Arity",
           "package": "lvmlib",
@@ -8821,6 +9606,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Arity",
           "package": "lvmlib",
@@ -8834,6 +9620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Con",
           "package": "lvmlib",
@@ -8842,6 +9629,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Con",
           "package": "lvmlib",
@@ -8855,6 +9643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Depth",
           "package": "lvmlib",
@@ -8863,6 +9652,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Depth",
           "package": "lvmlib",
@@ -8876,6 +9666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Global",
           "package": "lvmlib",
@@ -8884,6 +9675,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Global",
           "package": "lvmlib",
@@ -8897,6 +9689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Index",
           "package": "lvmlib",
@@ -8905,6 +9698,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Index",
           "package": "lvmlib",
@@ -8918,6 +9712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Instr",
           "package": "lvmlib",
@@ -8926,6 +9721,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Instr",
           "package": "lvmlib",
@@ -8939,6 +9735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Offset",
           "package": "lvmlib",
@@ -8947,6 +9744,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Offset",
           "package": "lvmlib",
@@ -8960,6 +9758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Pat",
           "package": "lvmlib",
@@ -8968,6 +9767,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Pat",
           "package": "lvmlib",
@@ -8981,6 +9781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Tag",
           "package": "lvmlib",
@@ -8989,6 +9790,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Tag",
           "package": "lvmlib",
@@ -9002,6 +9804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Var",
           "package": "lvmlib",
@@ -9010,6 +9813,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Var",
           "package": "lvmlib",
@@ -9023,6 +9827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "ADDFLOAT",
           "package": "lvmlib",
@@ -9032,6 +9837,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "ADDFLOAT",
           "package": "lvmlib",
@@ -9045,6 +9851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "ADDINT",
           "package": "lvmlib",
@@ -9054,6 +9861,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "ADDINT",
           "package": "lvmlib",
@@ -9067,6 +9875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "ALLOC",
           "package": "lvmlib",
@@ -9076,6 +9885,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "ALLOC",
           "package": "lvmlib",
@@ -9089,6 +9899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "ALLOCAP",
           "package": "lvmlib",
@@ -9098,6 +9909,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "ALLOCAP",
           "package": "lvmlib",
@@ -9111,6 +9923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "ALLOCCON",
           "package": "lvmlib",
@@ -9120,6 +9933,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "ALLOCCON",
           "package": "lvmlib",
@@ -9133,6 +9947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "ANDINT",
           "package": "lvmlib",
@@ -9142,6 +9957,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "ANDINT",
           "package": "lvmlib",
@@ -9155,6 +9971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "ARGCHK",
           "package": "lvmlib",
@@ -9164,6 +9981,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "ARGCHK",
           "package": "lvmlib",
@@ -9177,6 +9995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "ATOM",
           "package": "lvmlib",
@@ -9186,6 +10005,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "ATOM",
           "normalized": "ATOM[Instr]",
@@ -9201,6 +10021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Alt",
           "package": "lvmlib",
@@ -9210,6 +10031,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Alt",
           "normalized": "Alt Pat[Instr]",
@@ -9225,6 +10047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "CALL",
           "package": "lvmlib",
@@ -9234,6 +10057,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "CALL",
           "package": "lvmlib",
@@ -9247,6 +10071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "CATCH",
           "package": "lvmlib",
@@ -9256,6 +10081,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "CATCH",
           "normalized": "CATCH[Instr]",
@@ -9271,6 +10097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Con",
           "package": "lvmlib",
@@ -9280,6 +10107,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Con",
           "package": "lvmlib",
@@ -9293,6 +10121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "DIVFLOAT",
           "package": "lvmlib",
@@ -9302,6 +10131,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "DIVFLOAT",
           "package": "lvmlib",
@@ -9315,6 +10145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "DIVINT",
           "package": "lvmlib",
@@ -9324,6 +10155,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "DIVINT",
           "package": "lvmlib",
@@ -9337,6 +10169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "ENTER",
           "package": "lvmlib",
@@ -9346,6 +10179,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "ENTER",
           "package": "lvmlib",
@@ -9359,6 +10193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "ENTERCODE",
           "package": "lvmlib",
@@ -9368,6 +10203,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "ENTERCODE",
           "package": "lvmlib",
@@ -9381,6 +10217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "EQFLOAT",
           "package": "lvmlib",
@@ -9390,6 +10227,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "EQFLOAT",
           "package": "lvmlib",
@@ -9403,6 +10241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "EQINT",
           "package": "lvmlib",
@@ -9412,6 +10251,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "EQINT",
           "package": "lvmlib",
@@ -9425,6 +10265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "EVAL",
           "package": "lvmlib",
@@ -9434,6 +10275,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "EVAL",
           "normalized": "EVAL Depth[Instr]",
@@ -9449,6 +10291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "EVALVAR",
           "package": "lvmlib",
@@ -9458,6 +10301,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "EVALVAR",
           "package": "lvmlib",
@@ -9471,6 +10315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "GEFLOAT",
           "package": "lvmlib",
@@ -9480,6 +10325,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "GEFLOAT",
           "package": "lvmlib",
@@ -9493,6 +10339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "GEINT",
           "package": "lvmlib",
@@ -9502,6 +10349,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "GEINT",
           "package": "lvmlib",
@@ -9515,6 +10363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "GETFIELD",
           "package": "lvmlib",
@@ -9524,6 +10373,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "GETFIELD",
           "package": "lvmlib",
@@ -9537,6 +10387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "GETSIZE",
           "package": "lvmlib",
@@ -9546,6 +10397,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "GETSIZE",
           "package": "lvmlib",
@@ -9559,6 +10411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "GETTAG",
           "package": "lvmlib",
@@ -9568,6 +10421,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "GETTAG",
           "package": "lvmlib",
@@ -9581,6 +10435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "GTFLOAT",
           "package": "lvmlib",
@@ -9590,6 +10445,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "GTFLOAT",
           "package": "lvmlib",
@@ -9603,6 +10459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "GTINT",
           "package": "lvmlib",
@@ -9612,6 +10469,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "GTINT",
           "package": "lvmlib",
@@ -9625,6 +10483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Global",
           "package": "lvmlib",
@@ -9634,6 +10493,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Global",
           "package": "lvmlib",
@@ -9647,6 +10507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "INIT",
           "package": "lvmlib",
@@ -9656,6 +10517,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "INIT",
           "normalized": "INIT[Instr]",
@@ -9671,6 +10533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "LEFLOAT",
           "package": "lvmlib",
@@ -9680,6 +10543,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "LEFLOAT",
           "package": "lvmlib",
@@ -9693,6 +10557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "LEINT",
           "package": "lvmlib",
@@ -9702,6 +10567,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "LEINT",
           "package": "lvmlib",
@@ -9715,6 +10581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "LTFLOAT",
           "package": "lvmlib",
@@ -9724,6 +10591,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "LTFLOAT",
           "package": "lvmlib",
@@ -9737,6 +10605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "LTINT",
           "package": "lvmlib",
@@ -9746,6 +10615,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "LTINT",
           "package": "lvmlib",
@@ -9759,6 +10629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "MATCH",
           "package": "lvmlib",
@@ -9768,6 +10639,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "MATCH",
           "normalized": "MATCH[Alt]",
@@ -9783,6 +10655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "MATCHCON",
           "package": "lvmlib",
@@ -9792,6 +10665,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "MATCHCON",
           "normalized": "MATCHCON[Alt]",
@@ -9807,6 +10681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "MATCHINT",
           "package": "lvmlib",
@@ -9816,6 +10691,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "MATCHINT",
           "normalized": "MATCHINT[Alt]",
@@ -9831,6 +10707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "MODINT",
           "package": "lvmlib",
@@ -9840,6 +10717,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "MODINT",
           "package": "lvmlib",
@@ -9853,6 +10731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "MULFLOAT",
           "package": "lvmlib",
@@ -9862,6 +10741,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "MULFLOAT",
           "package": "lvmlib",
@@ -9875,6 +10755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "MULINT",
           "package": "lvmlib",
@@ -9884,6 +10765,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "MULINT",
           "package": "lvmlib",
@@ -9897,6 +10779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEFLOAT",
           "package": "lvmlib",
@@ -9906,6 +10789,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEFLOAT",
           "package": "lvmlib",
@@ -9919,6 +10803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEGFLOAT",
           "package": "lvmlib",
@@ -9928,6 +10813,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEGFLOAT",
           "package": "lvmlib",
@@ -9941,6 +10827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEGINT",
           "package": "lvmlib",
@@ -9950,6 +10837,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEGINT",
           "package": "lvmlib",
@@ -9963,6 +10851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEINT",
           "package": "lvmlib",
@@ -9972,6 +10861,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEINT",
           "package": "lvmlib",
@@ -9985,6 +10875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEW",
           "package": "lvmlib",
@@ -9994,6 +10885,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEW",
           "package": "lvmlib",
@@ -10007,6 +10899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWAP",
           "package": "lvmlib",
@@ -10016,6 +10909,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWAP",
           "package": "lvmlib",
@@ -10029,6 +10923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWAP2",
           "package": "lvmlib",
@@ -10038,6 +10933,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWAP2",
           "package": "lvmlib",
@@ -10051,6 +10947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWAP3",
           "package": "lvmlib",
@@ -10060,6 +10957,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWAP3",
           "package": "lvmlib",
@@ -10073,6 +10971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWAP4",
           "package": "lvmlib",
@@ -10082,6 +10981,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWAP4",
           "package": "lvmlib",
@@ -10095,6 +10995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWCON",
           "package": "lvmlib",
@@ -10104,6 +11005,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWCON",
           "package": "lvmlib",
@@ -10117,6 +11019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWCON0",
           "package": "lvmlib",
@@ -10126,6 +11029,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWCON0",
           "package": "lvmlib",
@@ -10139,6 +11043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWCON1",
           "package": "lvmlib",
@@ -10148,6 +11053,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWCON1",
           "package": "lvmlib",
@@ -10161,6 +11067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWCON2",
           "package": "lvmlib",
@@ -10170,6 +11077,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWCON2",
           "package": "lvmlib",
@@ -10183,6 +11091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWCON3",
           "package": "lvmlib",
@@ -10192,6 +11101,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWCON3",
           "package": "lvmlib",
@@ -10205,6 +11115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWNAP",
           "package": "lvmlib",
@@ -10214,6 +11125,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWNAP",
           "package": "lvmlib",
@@ -10227,6 +11139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWNAP2",
           "package": "lvmlib",
@@ -10236,6 +11149,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWNAP2",
           "package": "lvmlib",
@@ -10249,6 +11163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWNAP3",
           "package": "lvmlib",
@@ -10258,6 +11173,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWNAP3",
           "package": "lvmlib",
@@ -10271,6 +11187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NEWNAP4",
           "package": "lvmlib",
@@ -10280,6 +11197,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NEWNAP4",
           "package": "lvmlib",
@@ -10293,6 +11211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "NOP",
           "package": "lvmlib",
@@ -10302,6 +11221,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "NOP",
           "package": "lvmlib",
@@ -10315,6 +11235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "ORINT",
           "package": "lvmlib",
@@ -10324,6 +11245,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "ORINT",
           "package": "lvmlib",
@@ -10337,6 +11259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PACK",
           "package": "lvmlib",
@@ -10346,6 +11269,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PACK",
           "package": "lvmlib",
@@ -10359,6 +11283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PACKAP",
           "package": "lvmlib",
@@ -10368,6 +11293,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PACKAP",
           "package": "lvmlib",
@@ -10381,6 +11307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PACKCON",
           "package": "lvmlib",
@@ -10390,6 +11317,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PACKCON",
           "package": "lvmlib",
@@ -10403,6 +11331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PACKNAP",
           "package": "lvmlib",
@@ -10412,6 +11341,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PACKNAP",
           "package": "lvmlib",
@@ -10425,6 +11355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PARAM",
           "package": "lvmlib",
@@ -10434,6 +11365,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PARAM",
           "package": "lvmlib",
@@ -10447,6 +11379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHBYTES",
           "package": "lvmlib",
@@ -10456,6 +11389,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHBYTES",
           "package": "lvmlib",
@@ -10469,6 +11403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHCATCH",
           "package": "lvmlib",
@@ -10478,6 +11413,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHCATCH",
           "package": "lvmlib",
@@ -10491,6 +11427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHCODE",
           "package": "lvmlib",
@@ -10500,6 +11437,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHCODE",
           "package": "lvmlib",
@@ -10513,6 +11451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHCONT",
           "package": "lvmlib",
@@ -10522,6 +11461,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHCONT",
           "package": "lvmlib",
@@ -10535,6 +11475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHFLOAT",
           "package": "lvmlib",
@@ -10544,6 +11485,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHFLOAT",
           "package": "lvmlib",
@@ -10557,6 +11499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHINT",
           "package": "lvmlib",
@@ -10566,6 +11509,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHINT",
           "package": "lvmlib",
@@ -10579,6 +11523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVAR",
           "package": "lvmlib",
@@ -10588,6 +11533,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVAR",
           "package": "lvmlib",
@@ -10601,6 +11547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVAR0",
           "package": "lvmlib",
@@ -10610,6 +11557,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVAR0",
           "package": "lvmlib",
@@ -10623,6 +11571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVAR1",
           "package": "lvmlib",
@@ -10632,6 +11581,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVAR1",
           "package": "lvmlib",
@@ -10645,6 +11595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVAR2",
           "package": "lvmlib",
@@ -10654,6 +11605,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVAR2",
           "package": "lvmlib",
@@ -10667,6 +11619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVAR3",
           "package": "lvmlib",
@@ -10676,6 +11629,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVAR3",
           "package": "lvmlib",
@@ -10689,6 +11643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVAR4",
           "package": "lvmlib",
@@ -10698,6 +11653,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVAR4",
           "package": "lvmlib",
@@ -10711,6 +11667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVARS2",
           "package": "lvmlib",
@@ -10720,6 +11677,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PUSHVARS2",
           "package": "lvmlib",
@@ -10733,6 +11691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PatCon",
           "package": "lvmlib",
@@ -10742,6 +11701,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PatCon",
           "package": "lvmlib",
@@ -10755,6 +11715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PatDefault",
           "package": "lvmlib",
@@ -10764,6 +11725,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PatDefault",
           "package": "lvmlib",
@@ -10777,6 +11739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PatInt",
           "package": "lvmlib",
@@ -10786,6 +11749,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PatInt",
           "package": "lvmlib",
@@ -10799,6 +11763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "PatTag",
           "package": "lvmlib",
@@ -10808,6 +11773,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "PatTag",
           "package": "lvmlib",
@@ -10821,6 +11787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "QUOTINT",
           "package": "lvmlib",
@@ -10830,6 +11797,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "QUOTINT",
           "package": "lvmlib",
@@ -10843,6 +11811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "RAISE",
           "package": "lvmlib",
@@ -10852,6 +11821,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "RAISE",
           "package": "lvmlib",
@@ -10865,6 +11835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "REMINT",
           "package": "lvmlib",
@@ -10874,6 +11845,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "REMINT",
           "package": "lvmlib",
@@ -10887,6 +11859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "RESULT",
           "package": "lvmlib",
@@ -10896,6 +11869,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "RESULT",
           "normalized": "RESULT[Instr]",
@@ -10911,6 +11885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "RETURN",
           "package": "lvmlib",
@@ -10920,6 +11895,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "RETURN",
           "package": "lvmlib",
@@ -10933,6 +11909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "RETURNCON",
           "package": "lvmlib",
@@ -10942,6 +11919,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "RETURNCON",
           "package": "lvmlib",
@@ -10955,6 +11933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "RETURNCON0",
           "package": "lvmlib",
@@ -10964,6 +11943,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "RETURNCON0",
           "package": "lvmlib",
@@ -10977,6 +11957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "RETURNINT",
           "package": "lvmlib",
@@ -10986,6 +11967,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "RETURNINT",
           "package": "lvmlib",
@@ -10999,6 +11981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "SETFIELD",
           "package": "lvmlib",
@@ -11008,6 +11991,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "SETFIELD",
           "package": "lvmlib",
@@ -11021,6 +12005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "SHLINT",
           "package": "lvmlib",
@@ -11030,6 +12015,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "SHLINT",
           "package": "lvmlib",
@@ -11043,6 +12029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "SHRINT",
           "package": "lvmlib",
@@ -11052,6 +12039,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "SHRINT",
           "package": "lvmlib",
@@ -11065,6 +12053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "SHRNAT",
           "package": "lvmlib",
@@ -11074,6 +12063,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "SHRNAT",
           "package": "lvmlib",
@@ -11087,6 +12077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "SLIDE",
           "package": "lvmlib",
@@ -11096,6 +12087,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "SLIDE",
           "package": "lvmlib",
@@ -11109,6 +12101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "STUB",
           "package": "lvmlib",
@@ -11118,6 +12111,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "STUB",
           "package": "lvmlib",
@@ -11131,6 +12125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "SUBFLOAT",
           "package": "lvmlib",
@@ -11140,6 +12135,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "SUBFLOAT",
           "package": "lvmlib",
@@ -11153,6 +12149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "SUBINT",
           "package": "lvmlib",
@@ -11162,6 +12159,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "SUBINT",
           "package": "lvmlib",
@@ -11175,6 +12173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "SWITCHCON",
           "package": "lvmlib",
@@ -11184,6 +12183,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "SWITCHCON",
           "normalized": "SWITCHCON[Alt]",
@@ -11199,6 +12199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "UNPACK",
           "package": "lvmlib",
@@ -11208,6 +12209,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "UNPACK",
           "package": "lvmlib",
@@ -11221,6 +12223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "UPDFIELD",
           "package": "lvmlib",
@@ -11230,6 +12233,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "UPDFIELD",
           "package": "lvmlib",
@@ -11243,6 +12247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "USE",
           "package": "lvmlib",
@@ -11252,6 +12257,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "USE",
           "package": "lvmlib",
@@ -11265,6 +12271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "VAR",
           "package": "lvmlib",
@@ -11274,6 +12281,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "VAR",
           "package": "lvmlib",
@@ -11287,6 +12295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "Var",
           "package": "lvmlib",
@@ -11296,6 +12305,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "Var",
           "package": "lvmlib",
@@ -11309,6 +12319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "XORINT",
           "package": "lvmlib",
@@ -11318,6 +12329,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "XORINT",
           "package": "lvmlib",
@@ -11331,6 +12343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "arityFromCon",
           "package": "lvmlib",
@@ -11340,6 +12353,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "arityFromCon",
           "package": "lvmlib",
@@ -11353,6 +12367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "arityFromGlobal",
           "package": "lvmlib",
@@ -11362,6 +12377,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "arityFromGlobal",
           "package": "lvmlib",
@@ -11375,6 +12391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "depthFromVar",
           "package": "lvmlib",
@@ -11384,6 +12401,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "depthFromVar",
           "package": "lvmlib",
@@ -11397,6 +12415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "idFromCon",
           "package": "lvmlib",
@@ -11406,6 +12425,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "idFromCon",
           "package": "lvmlib",
@@ -11419,6 +12439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "idFromGlobal",
           "package": "lvmlib",
@@ -11428,6 +12449,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "idFromGlobal",
           "package": "lvmlib",
@@ -11441,6 +12463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "idFromVar",
           "package": "lvmlib",
@@ -11450,6 +12473,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "idFromVar",
           "package": "lvmlib",
@@ -11463,6 +12487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "indexFromCon",
           "package": "lvmlib",
@@ -11472,6 +12497,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "indexFromCon",
           "package": "lvmlib",
@@ -11485,6 +12511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "indexFromGlobal",
           "package": "lvmlib",
@@ -11494,6 +12521,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "indexFromGlobal",
           "package": "lvmlib",
@@ -11507,6 +12535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "instrFromName",
           "package": "lvmlib",
@@ -11516,6 +12545,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "instrFromName",
           "normalized": "String-\u003eInstr",
@@ -11531,6 +12561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "instrFromOpcode",
           "package": "lvmlib",
@@ -11540,6 +12571,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "instrFromOpcode",
           "normalized": "Int-\u003eInstr",
@@ -11555,6 +12587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "isCATCH",
           "package": "lvmlib",
@@ -11564,6 +12597,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "isCATCH",
           "normalized": "Instr-\u003eBool",
@@ -11579,6 +12613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "nameFromInstr",
           "package": "lvmlib",
@@ -11588,6 +12623,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "nameFromInstr",
           "normalized": "Instr-\u003eString",
@@ -11603,6 +12639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "offsetFromVar",
           "package": "lvmlib",
@@ -11612,6 +12649,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "offsetFromVar",
           "package": "lvmlib",
@@ -11625,6 +12663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "opcodeFromInstr",
           "package": "lvmlib",
@@ -11634,6 +12673,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "opcodeFromInstr",
           "normalized": "Instr-\u003eInt",
@@ -11649,6 +12689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "strictResult",
           "package": "lvmlib",
@@ -11658,6 +12699,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "strictResult",
           "normalized": "Instr-\u003eBool",
@@ -11673,6 +12715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Data",
           "name": "tagFromCon",
           "package": "lvmlib",
@@ -11682,6 +12725,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Data",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Data",
           "name": "tagFromCon",
           "package": "lvmlib",
@@ -11695,6 +12739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Resolve",
           "name": "Resolve",
           "package": "lvmlib",
@@ -11703,6 +12748,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Resolve",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Resolve",
           "name": "Resolve",
           "package": "lvmlib",
@@ -11716,6 +12762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Resolve",
           "name": "instrResolve",
           "package": "lvmlib",
@@ -11725,6 +12772,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Resolve",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Resolve",
           "name": "instrResolve",
           "normalized": "[Instr]-\u003e[Instr]",
@@ -11740,6 +12788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Rewrite",
           "name": "Rewrite",
           "package": "lvmlib",
@@ -11748,6 +12797,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Rewrite",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Rewrite",
           "name": "Rewrite",
           "package": "lvmlib",
@@ -11761,6 +12811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Instr.Rewrite",
           "name": "instrRewrite",
           "package": "lvmlib",
@@ -11770,6 +12821,7 @@
         },
         "index": {
           "hierarchy": "Lvm Instr Rewrite",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Instr.Rewrite",
           "name": "instrRewrite",
           "normalized": "[Instr]-\u003e[Instr]",
@@ -11785,6 +12837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Path",
           "name": "Path",
           "package": "lvmlib",
@@ -11793,6 +12846,7 @@
         },
         "index": {
           "hierarchy": "Lvm Path",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Path",
           "name": "Path",
           "package": "lvmlib",
@@ -11806,6 +12860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Path",
           "name": "getLvmPath",
           "package": "lvmlib",
@@ -11815,6 +12870,7 @@
         },
         "index": {
           "hierarchy": "Lvm Path",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Path",
           "name": "getLvmPath",
           "normalized": "IO[String]",
@@ -11830,6 +12886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Path",
           "name": "searchPath",
           "package": "lvmlib",
@@ -11839,6 +12896,7 @@
         },
         "index": {
           "hierarchy": "Lvm Path",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Path",
           "name": "searchPath",
           "normalized": "[String]-\u003eString-\u003eString-\u003eIO String",
@@ -11854,6 +12912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Path",
           "name": "searchPathMaybe",
           "package": "lvmlib",
@@ -11863,6 +12922,7 @@
         },
         "index": {
           "hierarchy": "Lvm Path",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Path",
           "name": "searchPathMaybe",
           "normalized": "[String]-\u003eString-\u003eString-\u003eIO(Maybe String)",
@@ -11878,6 +12938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Path",
           "name": "splitPath",
           "package": "lvmlib",
@@ -11887,6 +12948,7 @@
         },
         "index": {
           "hierarchy": "Lvm Path",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Path",
           "name": "splitPath",
           "normalized": "String-\u003e[String]",
@@ -11902,6 +12964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Read",
           "name": "Read",
           "package": "lvmlib",
@@ -11910,6 +12973,7 @@
         },
         "index": {
           "hierarchy": "Lvm Read",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Read",
           "name": "Read",
           "package": "lvmlib",
@@ -11923,6 +12987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Read",
           "name": "lvmRead",
           "package": "lvmlib",
@@ -11932,6 +12997,7 @@
         },
         "index": {
           "hierarchy": "Lvm Read",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Read",
           "name": "lvmRead",
           "normalized": "NameSupply-\u003eFilePath-\u003e[Byte]-\u003eModule a",
@@ -11947,6 +13013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Read",
           "name": "lvmReadFile",
           "package": "lvmlib",
@@ -11956,6 +13023,7 @@
         },
         "index": {
           "hierarchy": "Lvm Read",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Read",
           "name": "lvmReadFile",
           "normalized": "FilePath-\u003eIO(Module a)",
@@ -11971,6 +13039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Write",
           "name": "Write",
           "package": "lvmlib",
@@ -11979,6 +13048,7 @@
         },
         "index": {
           "hierarchy": "Lvm Write",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Write",
           "name": "Write",
           "package": "lvmlib",
@@ -11992,6 +13062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Write",
           "name": "lvmToBytes",
           "package": "lvmlib",
@@ -12001,6 +13072,7 @@
         },
         "index": {
           "hierarchy": "Lvm Write",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Write",
           "name": "lvmToBytes",
           "normalized": "LvmModule-\u003eBytes",
@@ -12016,6 +13088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:11 UTC 2014",
           "module": "Lvm.Write",
           "name": "lvmWriteFile",
           "package": "lvmlib",
@@ -12025,6 +13098,7 @@
         },
         "index": {
           "hierarchy": "Lvm Write",
+          "indexed": "2014-03-11T19:13:11",
           "module": "Lvm.Write",
           "name": "lvmWriteFile",
           "normalized": "FilePath-\u003eLvmModule-\u003eIO()",

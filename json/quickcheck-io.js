@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "quickcheck-io"
+        "phrase": "quickcheck-io",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:21 UTC 2014",
           "module": "Test.QuickCheck.IO",
           "name": "IO",
           "package": "quickcheck-io",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck IO",
+          "indexed": "2014-03-11T19:47:21",
           "module": "Test.QuickCheck.IO",
           "name": "IO",
           "package": "quickcheck-io",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:21 UTC 2014",
           "module": "Test.QuickCheck.IO",
           "name": "propertyIO",
           "package": "quickcheck-io",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck IO",
+          "indexed": "2014-03-11T19:47:21",
           "module": "Test.QuickCheck.IO",
           "name": "propertyIO",
           "normalized": "Assertion-\u003eProperty",

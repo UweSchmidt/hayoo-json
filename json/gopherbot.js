@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gopherbot"
+        "phrase": "gopherbot",
+        "type": "phrase"
       },
       "type": "context"
     }

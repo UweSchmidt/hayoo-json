@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "generic-storable"
+        "phrase": "generic-storable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "Generic",
           "package": "generic-storable",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "Generic",
           "package": "generic-storable",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric Storable class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "GStorable",
           "package": "generic-storable",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Generic Storable class",
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "GStorable",
           "package": "generic-storable",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "StorableWrapper",
           "package": "generic-storable",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "StorableWrapper",
           "package": "generic-storable",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "StorableWrapper",
           "package": "generic-storable",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "StorableWrapper",
           "package": "generic-storable",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "alignmentDefault",
           "package": "generic-storable",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "alignmentDefault",
           "normalized": "a-\u003eInt",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "galignment",
           "package": "generic-storable",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "galignment",
           "normalized": "a b-\u003eInt",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "gpeek",
           "package": "generic-storable",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "gpeek",
           "normalized": "Ptr(a b)-\u003eIO(a b)",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "gpeekByteOff",
           "package": "generic-storable",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "gpeekByteOff",
           "normalized": "Ptr(a b)-\u003eInt-\u003eIO(a b)",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "gpeekElemOff",
           "package": "generic-storable",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "gpeekElemOff",
           "normalized": "Ptr(a b)-\u003eInt-\u003eIO(a b)",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "gpoke",
           "package": "generic-storable",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "gpoke",
           "normalized": "Ptr(a b)-\u003ea b-\u003eIO()",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "gpokeByteOff",
           "package": "generic-storable",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "gpokeByteOff",
           "normalized": "Ptr(a b)-\u003eInt-\u003ea b-\u003eIO()",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "gpokeElemOff",
           "package": "generic-storable",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "gpokeElemOff",
           "normalized": "Ptr(a b)-\u003eInt-\u003ea b-\u003eIO()",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "gsizeOf",
           "package": "generic-storable",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "gsizeOf",
           "normalized": "a b-\u003eInt",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "peekByteOffDefault",
           "package": "generic-storable",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "peekByteOffDefault",
           "normalized": "Ptr a-\u003eInt-\u003eIO a",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "peekDefault",
           "package": "generic-storable",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "peekDefault",
           "normalized": "Ptr a-\u003eIO a",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "peekElemOffDefault",
           "package": "generic-storable",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "peekElemOffDefault",
           "normalized": "Ptr a-\u003eInt-\u003eIO a",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "pokeByteOffDefault",
           "package": "generic-storable",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "pokeByteOffDefault",
           "normalized": "Ptr a-\u003eInt-\u003ea-\u003eIO()",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "pokeDefault",
           "package": "generic-storable",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "pokeDefault",
           "normalized": "Ptr a-\u003ea-\u003eIO()",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "pokeElemOffDefault",
           "package": "generic-storable",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "pokeElemOffDefault",
           "normalized": "Ptr a-\u003eInt-\u003ea-\u003eIO()",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "sizeOfDefault",
           "package": "generic-storable",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "sizeOfDefault",
           "normalized": "a-\u003eInt",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:00 UTC 2014",
           "module": "Foreign.Storable.Generic",
           "name": "unStorableWrapper",
           "package": "generic-storable",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Generic",
+          "indexed": "2014-03-11T18:15:00",
           "module": "Foreign.Storable.Generic",
           "name": "unStorableWrapper",
           "package": "generic-storable",

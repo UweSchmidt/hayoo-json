@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "WordNet"
+        "phrase": "WordNet",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the top level module to the Haskell WordNet interface.\n\u003c/p\u003e\u003cp\u003eThis module is maintained at:\n    \u003ca\u003ehttp://www.isi.edu/~hdaume/HWordNet/\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis is the only module in the WordNet package you need to import.\n The others provide utility functions and primitives that this\n module is based on.\n\u003c/p\u003e\u003cp\u003eMore information about WordNet is available at:\n    \u003ca\u003ehttp://http://www.cogsci.princeton.edu/~wn/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "WordNet",
           "package": "WordNet",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is the top level module to the Haskell WordNet interface This module is maintained at http www.isi.edu hdaume HWordNet This is the only module in the WordNet package you need to import The others provide utility functions and primitives that this module is based on More information about WordNet is available at http http www.cogsci.princeton.edu wn",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "WordNet",
           "package": "WordNet",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple bag class for our \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Bag",
           "package": "WordNet",
@@ -51,6 +54,7 @@
         "index": {
           "description": "simple bag class for our meet implementation",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Bag",
           "package": "WordNet",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different types of relations which can hold between WordNet Synsets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Form",
           "package": "WordNet",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The different types of relations which can hold between WordNet Synsets",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Form",
           "package": "WordNet",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e is a simple pointer into the database, which can be\n followed using \u003ccode\u003elookupKey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Key",
           "package": "WordNet",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Key is simple pointer into the database which can be followed using lookupKey",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Key",
           "package": "WordNet",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eOverview\u003c/a\u003e\u003c/code\u003e type is the return type which gives you an\n overview of a word, for all sense and for all parts of speech.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Overview",
           "package": "WordNet",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The Overview type is the return type which gives you an overview of word for all sense and for all parts of speech",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Overview",
           "package": "WordNet",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic part of speech type, either a \u003ccode\u003e\u003ca\u003eNoun\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eVerb\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eAdj\u003c/a\u003e\u003c/code\u003eective or \u003ccode\u003e\u003ca\u003eAdv\u003c/a\u003e\u003c/code\u003eerb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "POS",
           "package": "WordNet",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The basic part of speech type either Noun Verb Adj ective or Adv erb",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "POS",
           "package": "WordNet",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic type which holds search results.  Its \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance simply\n shows the string corresponding to the associated WordNet synset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "SearchResult",
           "package": "WordNet",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The basic type which holds search results Its Show instance simply shows the string corresponding to the associated WordNet synset",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "SearchResult",
           "package": "WordNet",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSenseType\u003c/a\u003e\u003c/code\u003e is a way of controlling search.  Either you specify\n a certain sense (using \u003ccode\u003eSenseNumber n\u003c/code\u003e, or, since \u003ccode\u003e\u003ca\u003eSenseType\u003c/a\u003e\u003c/code\u003e is an\n instance of \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e, you can juse use \u003ccode\u003en\u003c/code\u003e) or by searching using all\n senses, through \u003ccode\u003e\u003ca\u003eAllSenses\u003c/a\u003e\u003c/code\u003e.  The \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e instance performs standard\n arithmetic on \u003ccode\u003e\u003ca\u003eSenseNumber\u003c/a\u003e\u003c/code\u003es, and \u003ccode\u003e\u003ca\u003efromInteger\u003c/a\u003e\u003c/code\u003e yields a \u003ccode\u003e\u003ca\u003eSenseNumber\u003c/a\u003e\u003c/code\u003e (always),\n but any arithmetic involving \u003ccode\u003e\u003ca\u003eAllSenses\u003c/a\u003e\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eAllSenses\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "SenseType",
           "package": "WordNet",
@@ -189,6 +204,7 @@
         "index": {
           "description": "SenseType is way of controlling search Either you specify certain sense using SenseNumber or since SenseType is an instance of Num you can juse use or by searching using all senses through AllSenses The Num instance performs standard arithmetic on SenseNumber and fromInteger yields SenseNumber always but any arithmetic involving AllSenses returns AllSenses",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "SenseType",
           "package": "WordNet",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn actuality this type is:\n\u003c/p\u003e\u003cpre\u003e type WN a = (?wne :: WordNetEnv) =\u003e a\n\u003c/pre\u003e\u003cp\u003ebut Haddock cannot parse this at this time.\n type WN a = a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "WN",
           "package": "WordNet",
@@ -212,6 +229,7 @@
         "index": {
           "description": "In actuality this type is type WN wne WordNetEnv but Haddock cannot parse this at this time type WN",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "WN",
           "package": "WordNet",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Word is just a String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Word",
           "package": "WordNet",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Word is just String",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Word",
           "package": "WordNet",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "WordNetEnv",
           "package": "WordNet",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "WordNetEnv",
           "package": "WordNet",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Adj",
           "package": "WordNet",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Adj",
           "package": "WordNet",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Adv",
           "package": "WordNet",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Adv",
           "package": "WordNet",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "AllSenses",
           "package": "WordNet",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "AllSenses",
           "package": "WordNet",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Antonym",
           "package": "WordNet",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Antonym",
           "package": "WordNet",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Attribute",
           "package": "WordNet",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Attribute",
           "package": "WordNet",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "CauseTo",
           "package": "WordNet",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "CauseTo",
           "package": "WordNet",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Class",
           "package": "WordNet",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Class",
           "package": "WordNet",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Classification",
           "package": "WordNet",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Classification",
           "package": "WordNet",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Coords",
           "package": "WordNet",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Coords",
           "package": "WordNet",
@@ -467,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Derivation",
           "package": "WordNet",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Derivation",
           "package": "WordNet",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Entailment",
           "package": "WordNet",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Entailment",
           "package": "WordNet",
@@ -511,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Frames",
           "package": "WordNet",
@@ -520,6 +565,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Frames",
           "package": "WordNet",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Freq",
           "package": "WordNet",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Freq",
           "package": "WordNet",
@@ -555,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "HHolonym",
           "package": "WordNet",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "HHolonym",
           "package": "WordNet",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "HMeronym",
           "package": "WordNet",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "HMeronym",
           "package": "WordNet",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "HasMember",
           "package": "WordNet",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "HasMember",
           "package": "WordNet",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "HasPart",
           "package": "WordNet",
@@ -630,6 +685,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "HasPart",
           "package": "WordNet",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "HasStuff",
           "package": "WordNet",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "HasStuff",
           "package": "WordNet",
@@ -665,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Holonym",
           "package": "WordNet",
@@ -674,6 +733,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Holonym",
           "package": "WordNet",
@@ -687,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Hypernym",
           "package": "WordNet",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Hypernym",
           "package": "WordNet",
@@ -709,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Hyponym",
           "package": "WordNet",
@@ -718,6 +781,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Hyponym",
           "package": "WordNet",
@@ -731,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "IsMember",
           "package": "WordNet",
@@ -740,6 +805,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "IsMember",
           "package": "WordNet",
@@ -753,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "IsPart",
           "package": "WordNet",
@@ -762,6 +829,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "IsPart",
           "package": "WordNet",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "IsStuff",
           "package": "WordNet",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "IsStuff",
           "package": "WordNet",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Meronym",
           "package": "WordNet",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Meronym",
           "package": "WordNet",
@@ -819,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Nominalization",
           "package": "WordNet",
@@ -828,6 +901,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Nominalization",
           "package": "WordNet",
@@ -841,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Noun",
           "package": "WordNet",
@@ -850,6 +925,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Noun",
           "package": "WordNet",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "OverviewForm",
           "package": "WordNet",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "OverviewForm",
           "package": "WordNet",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "PPL",
           "package": "WordNet",
@@ -894,6 +973,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "PPL",
           "package": "WordNet",
@@ -907,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Relatives",
           "package": "WordNet",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Relatives",
           "package": "WordNet",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "SeeAlso",
           "package": "WordNet",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "SeeAlso",
           "package": "WordNet",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "SenseNumber",
           "package": "WordNet",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "SenseNumber",
           "package": "WordNet",
@@ -973,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Similar",
           "package": "WordNet",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Similar",
           "package": "WordNet",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Syns",
           "package": "WordNet",
@@ -1004,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Syns",
           "package": "WordNet",
@@ -1017,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Unknown",
           "package": "WordNet",
@@ -1026,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Unknown",
           "package": "WordNet",
@@ -1039,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "Verb",
           "package": "WordNet",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "Verb",
           "package": "WordNet",
@@ -1061,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "VerbGroup",
           "package": "WordNet",
@@ -1070,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "VerbGroup",
           "package": "WordNet",
@@ -1083,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "WNGrep",
           "package": "WordNet",
@@ -1092,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "WNGrep",
           "package": "WordNet",
@@ -1105,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "addListToBag",
           "package": "WordNet",
@@ -1114,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "addListToBag",
           "normalized": "a b-\u003e[b]-\u003ea b",
@@ -1129,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "addToBag",
           "package": "WordNet",
@@ -1138,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "addToBag",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -1154,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses all the handles associated with the \u003ccode\u003e\u003ca\u003eWordNetEnv\u003c/a\u003e\u003c/code\u003e.  Since\n the functions provided in the \u003ca\u003eNLP.WordNet.WordNet\u003c/a\u003e module\n are \u003cem\u003elazy\u003c/em\u003e, you shouldn't do this until you're really done.\n Or perhaps not at all (GC will eventually kick in).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "closeWordNet",
           "package": "WordNet",
@@ -1164,6 +1267,7 @@
         "index": {
           "description": "Closes all the handles associated with the WordNetEnv Since the functions provided in the NLP.WordNet.WordNet module are lazy you shouldn do this until you re really done Or perhaps not at all GC will eventually kick in",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "closeWordNet",
           "normalized": "WordNetEnv-\u003eIO()",
@@ -1180,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a utility function to build lazy trees from a function and a root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "closure",
           "package": "WordNet",
@@ -1190,6 +1295,7 @@
         "index": {
           "description": "This is utility function to build lazy trees from function and root",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "closure",
           "normalized": "(a-\u003e[a])-\u003ea-\u003eTree a",
@@ -1205,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis enables \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e-based trees to be built.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e take 5 $ flatten $ closureOn Antonym (head (search \"happy\" Adj AllSenses)))\n [\u003chappy\u003e,\u003cunhappy\u003e,\u003chappy\u003e,\u003cunhappy\u003e,\u003chappy\u003e]\n\u003c/pre\u003e\u003cpre\u003e closureOn Hypernym (head (search \"dog\" Noun 1)))\n - \u003cdog domestic_dog Canis_familiaris\u003e --- \u003ccanine canid\u003e --- \u003ccarnivore\u003e\\-- \u003e   --- \u003cplacental placental_mammal eutherian eutherian_mammal\u003e --- \u003cmammal\u003e\\-- \u003e   --- \u003cvertebrate craniate\u003e --- \u003cchordate\u003e --- \u003canimal animate_being beast\\-- \u003e   brute creature fauna\u003e --- \u003corganism being\u003e --- \u003cliving_thing animate_thing\u003e\\-- \u003e   --- \u003cobject physical_object\u003e --- \u003centity\u003e \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "closureOn",
           "package": "WordNet",
@@ -1215,6 +1322,7 @@
         "index": {
           "description": "This enables Form based trees to be built For example take flatten closureOn Antonym head search happy Adj AllSenses happy unhappy happy unhappy happy closureOn Hypernym head search dog Noun dog domestic dog Canis familiaris canine canid carnivore placental placental mammal eutherian eutherian mammal mammal vertebrate craniate chordate animal animate being beast brute creature fauna organism being living thing animate thing object physical object entity",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "closureOn",
           "normalized": "WN(Form-\u003eSearchResult-\u003eTree SearchResult)",
@@ -1230,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "emptyBag",
           "package": "WordNet",
@@ -1239,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "emptyBag",
           "package": "WordNet",
@@ -1253,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "emptyQueue",
           "package": "WordNet",
@@ -1263,6 +1374,7 @@
         "index": {
           "description": "An empty queue",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "emptyQueue",
           "package": "WordNet",
@@ -1277,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "emptyStack",
           "package": "WordNet",
@@ -1287,6 +1400,7 @@
         "index": {
           "description": "An empty stack",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "emptyStack",
           "normalized": "[a]",
@@ -1303,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis will give you the directory from which the databases are being read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "getDataDirectory",
           "package": "WordNet",
@@ -1313,6 +1428,7 @@
         "index": {
           "description": "This will give you the directory from which the databases are being read",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "getDataDirectory",
           "package": "WordNet",
@@ -1327,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis takes a word and returns an \u003ccode\u003e\u003ca\u003eOverview\u003c/a\u003e\u003c/code\u003e of all its senses\n for all parts of speech.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "getOverview",
           "package": "WordNet",
@@ -1337,6 +1454,7 @@
         "index": {
           "description": "This takes word and returns an Overview of all its senses for all parts of speech",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "getOverview",
           "normalized": "WN(Word-\u003eOverview)",
@@ -1353,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis will give you the current release of the WordNet databases\n we are using (if we know).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "getReleaseVersion",
           "package": "WordNet",
@@ -1363,6 +1482,7 @@
         "index": {
           "description": "This will give you the current release of the WordNet databases we are using if we know",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "getReleaseVersion",
           "package": "WordNet",
@@ -1377,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives you a \u003ccode\u003e\u003ca\u003eWordNetEnv\u003c/a\u003e\u003c/code\u003e which can be passed to \u003ccode\u003e\u003ca\u003eruns\u003c/a\u003e\u003c/code\u003e or used\n as the implicit parameter to the other WordNet functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "initializeWordNet",
           "package": "WordNet",
@@ -1387,6 +1508,7 @@
         "index": {
           "description": "Gives you WordNetEnv which can be passed to runs or used as the implicit parameter to the other WordNet functions",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "initializeWordNet",
           "package": "WordNet",
@@ -1401,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a FilePath to the directory holding WordNet and\n a function to do with warnings, initializes \n the environment and returns a \u003ccode\u003e\u003ca\u003eWordNetEnv\u003c/a\u003e\u003c/code\u003e as in \u003ccode\u003e\u003ca\u003einitializeWordNet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "initializeWordNetWithOptions",
           "package": "WordNet",
@@ -1411,6 +1534,7 @@
         "index": {
           "description": "Takes FilePath to the directory holding WordNet and function to do with warnings initializes the environment and returns WordNetEnv as in initializeWordNet",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "initializeWordNetWithOptions",
           "normalized": "Maybe FilePath-\u003eMaybe(String-\u003eSomeException-\u003eIO())-\u003eIO WordNetEnv",
@@ -1426,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "isEmptyBag",
           "package": "WordNet",
@@ -1435,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "isEmptyBag",
           "normalized": "a b-\u003eBool",
@@ -1451,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis takes a \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003esrToKey\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esrFormKeys\u003c/a\u003e\u003c/code\u003e) and looks it\n up in the databse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "lookupKey",
           "package": "WordNet",
@@ -1461,6 +1588,7 @@
         "index": {
           "description": "This takes Key see srToKey and srFormKeys and looks it up in the databse",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "lookupKey",
           "normalized": "WN(Key-\u003eSearchResult)",
@@ -1477,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function takes an empty bag (in particular, this is to specify\n what type of search to perform), and the results of two search.\n It returns (maybe) the lowest point at which the two terms\n meet in the WordNet hierarchy.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e meet emptyQueue (head $ search \"cat\" Noun 1) (head $ search \"dog\" Noun 1)\n Just \u003ccarnivore\u003e\n\u003c/pre\u003e\u003cpre\u003e meet emptyQueue (head $ search \"run\" Verb 1) (head $ search \"walk\" Verb 1)\n Just \u003ctravel go move locomote\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "meet",
           "package": "WordNet",
@@ -1487,6 +1616,7 @@
         "index": {
           "description": "This function takes an empty bag in particular this is to specify what type of search to perform and the results of two search It returns maybe the lowest point at which the two terms meet in the WordNet hierarchy For example meet emptyQueue head search cat Noun head search dog Noun Just carnivore meet emptyQueue head search run Verb head search walk Verb Just travel go move locomote",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "meet",
           "normalized": "WN(a(Tree SearchResult)-\u003eSearchResult-\u003eSearchResult-\u003eMaybe SearchResult)",
@@ -1502,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function takes an empty bag (see \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e), and the results of two searches.\n It returns (maybe) the lowest point at which the two terms\n meet in the WordNet hierarchy, as well as the paths leading from each\n term to this common term.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e meetPaths emptyQueue (head $ search \"cat\" Noun 1) (head $ search \"dog\" Noun 1)\n Just ([\u003ccat true_cat\u003e,\u003cfeline felid\u003e],\u003ccarnivore\u003e,[\u003ccanine canid\u003e,\u003cdog domestic_dog Canis_familiaris\u003e])\n\u003c/pre\u003e\u003cpre\u003e meetPaths emptyQueue (head $ search \"run\" Verb 1) (head $ search \"walk\" Verb 1)\n Just ([\u003crun\u003e,\u003ctravel_rapidly speed hurry zip\u003e],\u003ctravel go move locomote\u003e,[\u003cwalk\u003e])\n\u003c/pre\u003e\u003cp\u003eThis is marginally less efficient than just using \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e, since it uses\n linear-time lookup for the visited sets, whereas \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e uses log-time\n lookup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "meetPaths",
           "package": "WordNet",
@@ -1512,6 +1643,7 @@
         "index": {
           "description": "This function takes an empty bag see meet and the results of two searches It returns maybe the lowest point at which the two terms meet in the WordNet hierarchy as well as the paths leading from each term to this common term For example meetPaths emptyQueue head search cat Noun head search dog Noun Just cat true cat feline felid carnivore canine canid dog domestic dog Canis familiaris meetPaths emptyQueue head search run Verb head search walk Verb Just run travel rapidly speed hurry zip travel go move locomote walk This is marginally less efficient than just using meet since it uses linear-time lookup for the visited sets whereas meet uses log-time lookup",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "meetPaths",
           "normalized": "WN(a(Tree SearchResult)-\u003eSearchResult-\u003eSearchResult-\u003eMaybe([SearchResult],SearchResult,[SearchResult]))",
@@ -1527,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "meetSearchPaths",
           "package": "WordNet",
@@ -1536,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "meetSearchPaths",
           "normalized": "a(Tree SearchResult)-\u003eTree SearchResult-\u003eTree SearchResult-\u003eMaybe([SearchResult],SearchResult,[SearchResult])",
@@ -1552,6 +1686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an \u003ccode\u003e\u003ca\u003eOverview\u003c/a\u003e\u003c/code\u003e, this will tell you how many adjective senses the searched-for word has.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "numAdjSenses",
           "package": "WordNet",
@@ -1562,6 +1697,7 @@
         "index": {
           "description": "Given an Overview this will tell you how many adjective senses the searched-for word has",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "numAdjSenses",
           "normalized": "Overview-\u003eInt",
@@ -1578,6 +1714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an \u003ccode\u003e\u003ca\u003eOverview\u003c/a\u003e\u003c/code\u003e, this will tell you how many adverb senses the searched-for word has.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "numAdvSenses",
           "package": "WordNet",
@@ -1588,6 +1725,7 @@
         "index": {
           "description": "Given an Overview this will tell you how many adverb senses the searched-for word has",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "numAdvSenses",
           "normalized": "Overview-\u003eInt",
@@ -1604,6 +1742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an \u003ccode\u003e\u003ca\u003eOverview\u003c/a\u003e\u003c/code\u003e, this will tell you how many noun senses the searched-for word has.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "numNounSenses",
           "package": "WordNet",
@@ -1614,6 +1753,7 @@
         "index": {
           "description": "Given an Overview this will tell you how many noun senses the searched-for word has",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "numNounSenses",
           "normalized": "Overview-\u003eInt",
@@ -1630,6 +1770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an \u003ccode\u003e\u003ca\u003eOverview\u003c/a\u003e\u003c/code\u003e, this will tell you how many verb senses the searched-for word has.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "numVerbSenses",
           "package": "WordNet",
@@ -1640,6 +1781,7 @@
         "index": {
           "description": "Given an Overview this will tell you how many verb senses the searched-for word has",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "numVerbSenses",
           "normalized": "Overview-\u003eInt",
@@ -1656,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis takes a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eSearchResult\u003c/a\u003e\u003c/code\u003e and returns all\n \u003ccode\u003e\u003ca\u003eSearchResult\u003c/a\u003e\u003c/code\u003e related to the given one by the given \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e relatedBy Antonym (head (search \"happy\" Adj 1))\n [\u003cunhappy\u003e]\n\n relatedBy Hypernym (head (search \"dog\" Noun 1))\n [\u003ccanine canid\u003e]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "relatedBy",
           "package": "WordNet",
@@ -1666,6 +1809,7 @@
         "index": {
           "description": "This takes Form and SearchResult and returns all SearchResult related to the given one by the given Form For example relatedBy Antonym head search happy Adj unhappy relatedBy Hypernym head search dog Noun canine canid",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "relatedBy",
           "normalized": "WN(Form-\u003eSearchResult-\u003e[SearchResult])",
@@ -1682,6 +1826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a WordNet command, initializes the environment\n and returns the results in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.  WordNet\n warnings are printed to stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "runWordNet",
           "package": "WordNet",
@@ -1692,6 +1837,7 @@
         "index": {
           "description": "Takes WordNet command initializes the environment and returns the results in the IO monad WordNet warnings are printed to stderr",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "runWordNet",
           "normalized": "WN a-\u003eIO a",
@@ -1708,6 +1854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a WordNet command, initializes the environment\n and returns the results in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.  WordNet\n warnings are ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "runWordNetQuiet",
           "package": "WordNet",
@@ -1718,6 +1865,7 @@
         "index": {
           "description": "Takes WordNet command initializes the environment and returns the results in the IO monad WordNet warnings are ignored",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "runWordNetQuiet",
           "normalized": "WN a-\u003eIO a",
@@ -1734,6 +1882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a FilePath to the directory holding WordNet and\n a function to do with warnings and a WordNet command, initializes \n the environment and returns the results in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "runWordNetWithOptions",
           "package": "WordNet",
@@ -1744,6 +1893,7 @@
         "index": {
           "description": "Takes FilePath to the directory holding WordNet and function to do with warnings and WordNet command initializes the environment and returns the results in the IO monad",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "runWordNetWithOptions",
           "normalized": "Maybe FilePath-\u003eMaybe(String-\u003eSomeException-\u003eIO())-\u003eWN a-\u003eIO a",
@@ -1760,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis simply takes a \u003ccode\u003e\u003ca\u003eWordNetEnv\u003c/a\u003e\u003c/code\u003e and provides it as the\n implicit parameter to the WordNet command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "runs",
           "package": "WordNet",
@@ -1770,6 +1921,7 @@
         "index": {
           "description": "This simply takes WordNetEnv and provides it as the implicit parameter to the WordNet command",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "runs",
           "normalized": "WordNetEnv-\u003eWN a-\u003ea",
@@ -1785,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis takes a \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e, a \u003ccode\u003e\u003ca\u003ePOS\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eSenseType\u003c/a\u003e\u003c/code\u003e and returns\n the equivalent of first running \u003ccode\u003e\u003ca\u003egetOverview\u003c/a\u003e\u003c/code\u003e and then \u003ccode\u003e\u003ca\u003esearchByOverview\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "search",
           "package": "WordNet",
@@ -1795,6 +1948,7 @@
         "index": {
           "description": "This takes Word POS and SenseType and returns the equivalent of first running getOverview and then searchByOverview",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "search",
           "normalized": "WN(Word-\u003ePOS-\u003eSenseType-\u003e[SearchResult])",
@@ -1810,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis takes an \u003ccode\u003e\u003ca\u003eOverview\u003c/a\u003e\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003egetOverview\u003c/a\u003e\u003c/code\u003e), a \u003ccode\u003e\u003ca\u003ePOS\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eSenseType\u003c/a\u003e\u003c/code\u003e and returns\n a list of search results.  If \u003ccode\u003e\u003ca\u003eSenseType\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eAllSenses\u003c/a\u003e\u003c/code\u003e, there will be one\n \u003ccode\u003e\u003ca\u003eSearchResult\u003c/a\u003e\u003c/code\u003e in the results for each valid sense.  If \u003ccode\u003e\u003ca\u003eSenseType\u003c/a\u003e\u003c/code\u003e is\n a single sense number, there will be at most one element in the result list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "searchByOverview",
           "package": "WordNet",
@@ -1820,6 +1975,7 @@
         "index": {
           "description": "This takes an Overview see getOverview POS and SenseType and returns list of search results If SenseType is AllSenses there will be one SearchResult in the results for each valid sense If SenseType is single sense number there will be at most one element in the result list",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "searchByOverview",
           "normalized": "WN(Overview-\u003ePOS-\u003eSenseType-\u003e[SearchResult])",
@@ -1835,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "splitBag",
           "package": "WordNet",
@@ -1844,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "splitBag",
           "normalized": "a b-\u003e(b,a b)",
@@ -1860,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis gives the definition of the sense of a word in a \u003ccode\u003e\u003ca\u003eSearchResult\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "srDefinition",
           "package": "WordNet",
@@ -1870,6 +2029,7 @@
         "index": {
           "description": "This gives the definition of the sense of word in SearchResult",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "srDefinition",
           "normalized": "SearchResult-\u003eString",
@@ -1886,6 +2046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis provides a \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e (which can be searched for using \u003ccode\u003elookupKey\u003c/code\u003e) for\n a \u003ccode\u003e\u003ca\u003eSearchResult\u003c/a\u003e\u003c/code\u003e under a given form.  For instance, it can be used to\n get all \u003ccode\u003e\u003ca\u003eHypernym\u003c/a\u003e\u003c/code\u003es of a given word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "srFormKeys",
           "package": "WordNet",
@@ -1896,6 +2057,7 @@
         "index": {
           "description": "This provides Key which can be searched for using lookupKey for SearchResult under given form For instance it can be used to get all Hypernym of given word",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "srFormKeys",
           "normalized": "SearchResult-\u003eForm-\u003e[Key]",
@@ -1912,6 +2074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis gives all the \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003es a word has (i.e., what sort of relations hold between\n it and other words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "srForms",
           "package": "WordNet",
@@ -1922,6 +2085,7 @@
         "index": {
           "description": "This gives all the Form word has i.e what sort of relations hold between it and other words",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "srForms",
           "normalized": "SearchResult-\u003e[Form]",
@@ -1938,6 +2102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis provides (maybe) the associated overview for a SearchResult.\n The \u003ccode\u003e\u003ca\u003eOverview\u003c/a\u003e\u003c/code\u003e is only available if this \u003ccode\u003e\u003ca\u003eSearchResult\u003c/a\u003e\u003c/code\u003e was\n derived from a real search, rather than \u003ccode\u003elookupKey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "srOverview",
           "package": "WordNet",
@@ -1948,6 +2113,7 @@
         "index": {
           "description": "This provides maybe the associated overview for SearchResult The Overview is only available if this SearchResult was derived from real search rather than lookupKey",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "srOverview",
           "normalized": "SearchResult-\u003eMaybe Overview",
@@ -1964,6 +2130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis gives the part of speech of a \u003ccode\u003e\u003ca\u003eSearchResult\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "srPOS",
           "package": "WordNet",
@@ -1974,6 +2141,7 @@
         "index": {
           "description": "This gives the part of speech of SearchResult",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "srPOS",
           "normalized": "SearchResult-\u003ePOS",
@@ -1990,6 +2158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis provides (maybe) the associated sense number for a SearchResult.\n The \u003ccode\u003e\u003ca\u003eSenseType\u003c/a\u003e\u003c/code\u003e is only available if this \u003ccode\u003e\u003ca\u003eSearchResult\u003c/a\u003e\u003c/code\u003e was\n derived from a real search, rather than \u003ccode\u003elookupKey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "srSenseNum",
           "package": "WordNet",
@@ -2000,6 +2169,7 @@
         "index": {
           "description": "This provides maybe the associated sense number for SearchResult The SenseType is only available if this SearchResult was derived from real search rather than lookupKey",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "srSenseNum",
           "normalized": "SearchResult-\u003eMaybe SenseType",
@@ -2016,6 +2186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis gives a list of senses the word has.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "srSenses",
           "package": "WordNet",
@@ -2026,6 +2197,7 @@
         "index": {
           "description": "This gives list of senses the word has",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "srSenses",
           "normalized": "SearchResult-\u003e[SenseType]",
@@ -2042,6 +2214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis converts a \u003ccode\u003e\u003ca\u003eSearchResult\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "srToKey",
           "package": "WordNet",
@@ -2052,6 +2225,7 @@
         "index": {
           "description": "This converts SearchResult into Key",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "srToKey",
           "normalized": "SearchResult-\u003eKey",
@@ -2068,6 +2242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis gives the actual words used to describe the Synset of a search result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "srWords",
           "package": "WordNet",
@@ -2078,6 +2253,7 @@
         "index": {
           "description": "This gives the actual words used to describe the Synset of search result",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "srWords",
           "normalized": "SearchResult-\u003eSenseType-\u003e[Word]",
@@ -2094,6 +2270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an \u003ccode\u003e\u003ca\u003eOverview\u003c/a\u003e\u003c/code\u003e, this will tell you how many times this word was tagged as an adjective.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "taggedCountAdjSenses",
           "package": "WordNet",
@@ -2104,6 +2281,7 @@
         "index": {
           "description": "Given an Overview this will tell you how many times this word was tagged as an adjective",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "taggedCountAdjSenses",
           "normalized": "Overview-\u003eInt",
@@ -2120,6 +2298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an \u003ccode\u003e\u003ca\u003eOverview\u003c/a\u003e\u003c/code\u003e, this will tell you how many times this word was tagged as an adverb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "taggedCountAdvSenses",
           "package": "WordNet",
@@ -2130,6 +2309,7 @@
         "index": {
           "description": "Given an Overview this will tell you how many times this word was tagged as an adverb",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "taggedCountAdvSenses",
           "normalized": "Overview-\u003eInt",
@@ -2146,6 +2326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an \u003ccode\u003e\u003ca\u003eOverview\u003c/a\u003e\u003c/code\u003e, this will tell you how many times this word was tagged as a noun.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "taggedCountNounSenses",
           "package": "WordNet",
@@ -2156,6 +2337,7 @@
         "index": {
           "description": "Given an Overview this will tell you how many times this word was tagged as noun",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "taggedCountNounSenses",
           "normalized": "Overview-\u003eInt",
@@ -2172,6 +2354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an \u003ccode\u003e\u003ca\u003eOverview\u003c/a\u003e\u003c/code\u003e, this will tell you how many times this word was tagged as a verb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:52 UTC 2014",
           "module": "NLP.WordNet",
           "name": "taggedCountVerbSenses",
           "package": "WordNet",
@@ -2182,6 +2365,7 @@
         "index": {
           "description": "Given an Overview this will tell you how many times this word was tagged as verb",
           "hierarchy": "NLP WordNet",
+          "indexed": "2014-03-11T17:04:52",
           "module": "NLP.WordNet",
           "name": "taggedCountVerbSenses",
           "normalized": "Overview-\u003eInt",

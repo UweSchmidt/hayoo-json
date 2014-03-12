@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "packer"
+        "phrase": "packer",
+        "type": "phrase"
       },
       "type": "context"
     }

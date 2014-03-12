@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-fay"
+        "phrase": "yesod-fay",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule to be shared between server and client.\n\u003c/p\u003e\u003cp\u003eThis module must be valid for both GHC and Fay.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Language.Fay.Yesod",
           "name": "Yesod",
           "package": "yesod-fay",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module to be shared between server and client This module must be valid for both GHC and Fay",
           "hierarchy": "Language Fay Yesod",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Language.Fay.Yesod",
           "name": "Yesod",
           "package": "yesod-fay",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proxy type for specifying what type a command should return. The final\n field for each data constructor in a command datatype should be \u003ccode\u003eReturns\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Language.Fay.Yesod",
           "name": "Returns",
           "package": "yesod-fay",
@@ -51,6 +54,7 @@
         "index": {
           "description": "proxy type for specifying what type command should return The final field for each data constructor in command datatype should be Returns",
           "hierarchy": "Language Fay Yesod",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Language.Fay.Yesod",
           "name": "Returns",
           "package": "yesod-fay",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Language.Fay.Yesod",
           "name": "Text",
           "package": "yesod-fay",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Language Fay Yesod",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Language.Fay.Yesod",
           "name": "Text",
           "package": "yesod-fay",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Language.Fay.Yesod",
           "name": "Returns",
           "package": "yesod-fay",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Language Fay Yesod",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Language.Fay.Yesod",
           "name": "Returns",
           "package": "yesod-fay",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the AJAX command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Language.Fay.Yesod",
           "name": "ajaxCommand",
           "package": "yesod-fay",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Run the AJAX command",
           "hierarchy": "Language Fay Yesod",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Language.Fay.Yesod",
           "name": "ajaxCommand",
           "normalized": "Automatic a-\u003e(Automatic b-\u003eFay())-\u003eFay()",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the AJAX command, handling errors as well\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Language.Fay.Yesod",
           "name": "ajaxCommandWithErrorHandling",
           "package": "yesod-fay",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Run the AJAX command handling errors as well",
           "hierarchy": "Language Fay Yesod",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Language.Fay.Yesod",
           "name": "ajaxCommandWithErrorHandling",
           "normalized": "Automatic a-\u003e(Automatic b-\u003eFay())-\u003eFay()-\u003eFay()",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Language.Fay.Yesod",
           "name": "call",
           "package": "yesod-fay",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Call command",
           "hierarchy": "Language Fay Yesod",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Language.Fay.Yesod",
           "name": "call",
           "normalized": "(Returns a-\u003eb)-\u003e(a-\u003eFay())-\u003eFay()",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Language.Fay.Yesod",
           "name": "callWithErrorHandling",
           "package": "yesod-fay",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Language Fay Yesod",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Language.Fay.Yesod",
           "name": "callWithErrorHandling",
           "normalized": "(Returns a-\u003eb)-\u003e(a-\u003eFay())-\u003eFay()-\u003eFay()",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Language.Fay.Yesod",
           "name": "fromString",
           "package": "yesod-fay",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Language Fay Yesod",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Language.Fay.Yesod",
           "name": "fromString",
           "normalized": "String-\u003eText",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Language.Fay.Yesod",
           "name": "toString",
           "package": "yesod-fay",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Language Fay Yesod",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Language.Fay.Yesod",
           "name": "toString",
           "normalized": "Text-\u003eString",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions for using Fay from a Yesod application.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be used from your Yesod application, not from\n your Fay programs.\n\u003c/p\u003e\u003cp\u003eWe assume a specific file structure, namely that there is a \u003ccode\u003efay\u003c/code\u003e folder\n containing client-side code, and \u003ccode\u003efay-shared\u003c/code\u003e containing code to be used by\n both the client and server.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eLanguage.Fay.Yesod\u003c/code\u003e module (part of this package) is\n required by both client and server code. However, since Fay does not\n currently have package management support, we use a bit of a hack: the TH\n calls in this package will automatically create the necessary\n \u003ccode\u003efay/Language/Fay/Yesod.hs\u003c/code\u003e file.  Ultimately, we will use a more elegant\n solution.\n\u003c/p\u003e\u003cp\u003eIn the future, if this package proves popular enough, Fay support will\n likely be built into the scaffolding. In the meantime, you must manually\n integrate it. In order to take advantage of this module, you should modify\n your Yesod application as follows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Modify your \u003ccode\u003ecabal\u003c/code\u003e file to include the \u003ccode\u003efay-shared\u003c/code\u003e folder when\n   compiling. This can be done by adding a \u003ccode\u003ehs-source-dirs: ., fay-shared\u003c/code\u003e line\n   to your library section.\n\u003c/li\u003e\u003cli\u003e Create the module \u003ccode\u003eSharedTypes\u003c/code\u003e in \u003ccode\u003efay-shared\u003c/code\u003e and create a \u003ccode\u003eCommand\u003c/code\u003e\n   datatype. For an example of what this file should look like, see\n   \u003ca\u003ehttps://github.com/snoyberg/yesod-fay/blob/master/sample/fay-shared/SharedTypes.hs\u003c/a\u003e.\n\u003c/li\u003e\u003cli\u003e Add the function \u003ccode\u003efayFile\u003c/code\u003e to your \u003ccode\u003eImport\u003c/code\u003e module. See\n   \u003ca\u003ehttps://github.com/snoyberg/yesod-fay/blob/master/sample/Import.hs\u003c/a\u003e for an\n   example.\n\u003c/li\u003e\u003cli\u003e Add a new route at for the Fay subsite. Generally, it will look like\n   \u003ccode\u003e/fay-command FaySiteR FaySite getFaySite\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Import the \u003ccode\u003eSharedTypes\u003c/code\u003e and \u003ccode\u003eYesod.Fay\u003c/code\u003e modules into your \u003ccode\u003eFoundation.hs\u003c/code\u003e\n   module. Add an instance of \u003ccode\u003eYesodFay\u003c/code\u003e for your application. You should set\n   the \u003ccode\u003eYesodFayCommand\u003c/code\u003e associated type to the \u003ccode\u003eCommand\u003c/code\u003e datatype you created.\n   (You may also need to add a \u003ccode\u003eYesodJquery\u003c/code\u003e instance.) Note that this instance\n   must appear after your \u003ccode\u003eparseRoutes\u003c/code\u003e. Set the method \u003ccode\u003efayRoute\u003c/code\u003e to\n   \u003ccode\u003eFaySiteR\u003c/code\u003e (or whatever you called the subsite route), and implement\n   \u003ccode\u003eyesodFayCommand\u003c/code\u003e. It will generally look something like \u003ccode\u003eyesodFayCommand\n   render command = case command of { ... }\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e In order to use Fay, add \u003ccode\u003e$(fayFile \"MyModule\")\u003c/code\u003e to a widget, and then\n   write the corresponding \u003ccode\u003efay/MyModule.hs\u003c/code\u003e file. For an example, see\n   \u003ca\u003ehttps://github.com/snoyberg/yesod-fay/blob/master/sample/fay/Home.hs\u003c/a\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "Fay",
           "package": "yesod-fay",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Utility functions for using Fay from Yesod application This module is intended to be used from your Yesod application not from your Fay programs We assume specific file structure namely that there is fay folder containing client-side code and fay-shared containing code to be used by both the client and server The Language.Fay.Yesod module part of this package is required by both client and server code However since Fay does not currently have package management support we use bit of hack the TH calls in this package will automatically create the necessary fay Language Fay Yesod.hs file Ultimately we will use more elegant solution In the future if this package proves popular enough Fay support will likely be built into the scaffolding In the meantime you must manually integrate it In order to take advantage of this module you should modify your Yesod application as follows Modify your cabal file to include the fay-shared folder when compiling This can be done by adding hs-source-dirs fay-shared line to your library section Create the module SharedTypes in fay-shared and create Command datatype For an example of what this file should look like see https github.com snoyberg yesod-fay blob master sample fay-shared SharedTypes.hs Add the function fayFile to your Import module See https github.com snoyberg yesod-fay blob master sample Import.hs for an example Add new route at for the Fay subsite Generally it will look like fay-command FaySiteR FaySite getFaySite Import the SharedTypes and Yesod.Fay modules into your Foundation.hs module Add an instance of YesodFay for your application You should set the YesodFayCommand associated type to the Command datatype you created You may also need to add YesodJquery instance Note that this instance must appear after your parseRoutes Set the method fayRoute to FaySiteR or whatever you called the subsite route and implement yesodFayCommand It will generally look something like yesodFayCommand render command case command of In order to use Fay add fayFile MyModule to widget and then write the corresponding fay MyModule.hs file For an example see https github.com snoyberg yesod-fay blob master sample fay Home.hs",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "Fay",
           "package": "yesod-fay",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function provided by the developer describing how to answer individual\n commands from client-side code.\n\u003c/p\u003e\u003cp\u003eDue to restrictions of the type system in Fay, we use a relatively simple\n approach for encoding the return type. In order to specify this, an extra\n parameter- \u003ccode\u003eReturns\u003c/code\u003e- is passed around, with a phantom type variable stating\n the expected return type.\n\u003c/p\u003e\u003cp\u003eThe first argument to your function is the \"respond\" function: it takes\n the extra \u003ccode\u003eReturns\u003c/code\u003e parameter as well as the actual value to be returned,\n and produces the expected result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "CommandHandler",
           "package": "yesod-fay",
@@ -285,6 +308,7 @@
         "index": {
           "description": "function provided by the developer describing how to answer individual commands from client-side code Due to restrictions of the type system in Fay we use relatively simple approach for encoding the return type In order to specify this an extra parameter Returns is passed around with phantom type variable stating the expected return type The first argument to your function is the respond function it takes the extra Returns parameter as well as the actual value to be returned and produces the expected result",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "CommandHandler",
           "package": "yesod-fay",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that takes a String giving the Fay module name, and returns an\n TH splice that generates a \u003ccode\u003eWidget\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "FayFile",
           "package": "yesod-fay",
@@ -308,6 +333,7 @@
         "index": {
           "description": "function that takes String giving the Fay module name and returns an TH splice that generates Widget",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "FayFile",
           "package": "yesod-fay",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Fay subsite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "FaySite",
           "package": "yesod-fay",
@@ -331,6 +358,7 @@
         "index": {
           "description": "The Fay subsite",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "FaySite",
           "package": "yesod-fay",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proxy type for specifying what type a command should return. The final\n field for each data constructor in a command datatype should be \u003ccode\u003eReturns\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "Returns",
           "package": "yesod-fay",
@@ -354,6 +383,7 @@
         "index": {
           "description": "proxy type for specifying what type command should return The final field for each data constructor in command datatype should be Returns",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "Returns",
           "package": "yesod-fay",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type-safe URLs associated with a site argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "Route",
           "package": "yesod-fay",
@@ -377,6 +408,7 @@
         "index": {
           "description": "The type-safe URLs associated with site argument",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "Route",
           "package": "yesod-fay",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for applications using Fay.\n\u003c/p\u003e\u003cp\u003eWe depend on \u003ccode\u003eYesodJquery\u003c/code\u003e since the generated client-side code uses jQuery\n for making Ajax calls. We have an associated type stating the command\n datatype. Since this datatype must be used by both the client and server,\n you should place its definition in the \u003ccode\u003efay-shared\u003c/code\u003e folder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "YesodFay",
           "package": "yesod-fay",
@@ -400,6 +433,7 @@
         "index": {
           "description": "Type class for applications using Fay We depend on YesodJquery since the generated client-side code uses jQuery for making Ajax calls We have an associated type stating the command datatype Since this datatype must be used by both the client and server you should place its definition in the fay-shared folder",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "YesodFay",
           "package": "yesod-fay",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA setttings data type for indicating whether the generated Javascript\n should contain a copy of the Fay runtime or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "YesodFaySettings",
           "package": "yesod-fay",
@@ -423,6 +458,7 @@
         "index": {
           "description": "setttings data type for indicating whether the generated Javascript should contain copy of the Fay runtime or not",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "YesodFaySettings",
           "package": "yesod-fay",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "YesodJquery",
           "package": "yesod-fay",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "YesodJquery",
           "package": "yesod-fay",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "YesodFaySettings",
           "package": "yesod-fay",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "YesodFaySettings",
           "package": "yesod-fay",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a full compile of the Fay code via GHC for type checking, and then\n embeds the Fay-generated Javascript as a static string. File changes during\n runtime will not be reflected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "fayFileProd",
           "package": "yesod-fay",
@@ -489,6 +530,7 @@
         "index": {
           "description": "Does full compile of the Fay code via GHC for type checking and then embeds the Fay-generated Javascript as static string File changes during runtime will not be reflected",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "fayFileProd",
           "normalized": "YesodFaySettings-\u003eQ Exp",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms no type checking on the Fay code. Each time the widget is\n requested, the Fay code will be compiled from scratch to Javascript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "fayFileReload",
           "package": "yesod-fay",
@@ -515,6 +558,7 @@
         "index": {
           "description": "Performs no type checking on the Fay code Each time the widget is requested the Fay code will be compiled from scratch to Javascript",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "fayFileReload",
           "normalized": "YesodFaySettings-\u003eQ Exp",
@@ -531,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere in the routing tree our Fay subsite is located. This is\n generally named \u003ccode\u003eFaySiteR\u003c/code\u003e, e.g.:\n\u003c/p\u003e\u003cpre\u003e mkYesod \"YourSite\" [parseRoutes\n ...\n /fay-command FaySiteR FaySite getFaySite\n |]\n\n instance YesodFay YourSite where\n     fayRoute = FaySiteR\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "fayRoute",
           "package": "yesod-fay",
@@ -541,6 +586,7 @@
         "index": {
           "description": "Where in the routing tree our Fay subsite is located This is generally named FaySiteR e.g mkYesod YourSite parseRoutes fay-command FaySiteR FaySite getFaySite instance YesodFay YourSite where fayRoute FaySiteR",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "fayRoute",
           "normalized": "Route FaySite-\u003eRoute a",
@@ -557,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo be used from your routing declarations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "getFaySite",
           "package": "yesod-fay",
@@ -567,6 +614,7 @@
         "index": {
           "description": "To be used from your routing declarations",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "getFaySite",
           "normalized": "a-\u003eFaySite",
@@ -583,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe jQuery Javascript file. Note that in upgrades to this library, the\n version of jQuery referenced, or where it is downloaded from, may be\n changed without warning. If you are relying on a specific version of\n jQuery, you should give an explicit URL instead of relying on the\n default value.\n\u003c/p\u003e\u003cp\u003eCurrently, the default value is jQuery 1.7 from Google's CDN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "urlJqueryJs",
           "package": "yesod-fay",
@@ -592,6 +641,7 @@
         "index": {
           "description": "The jQuery Javascript file Note that in upgrades to this library the version of jQuery referenced or where it is downloaded from may be changed without warning If you are relying on specific version of jQuery you should give an explicit URL instead of relying on the default value Currently the default value is jQuery from Google CDN",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "urlJqueryJs",
           "normalized": "a-\u003eEither(Route a)Text",
@@ -608,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe jQuery UI 1.8 CSS file; defaults to cupertino theme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "urlJqueryUiCss",
           "package": "yesod-fay",
@@ -617,6 +668,7 @@
         "index": {
           "description": "The jQuery UI CSS file defaults to cupertino theme",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "urlJqueryUiCss",
           "normalized": "a-\u003eEither(Route a)Text",
@@ -633,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejQuery UI time picker add-on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "urlJqueryUiDateTimePicker",
           "package": "yesod-fay",
@@ -642,6 +695,7 @@
         "index": {
           "description": "jQuery UI time picker add-on",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "urlJqueryUiDateTimePicker",
           "normalized": "a-\u003eEither(Route a)Text",
@@ -658,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe jQuery UI 1.8 Javascript file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "urlJqueryUiJs",
           "package": "yesod-fay",
@@ -667,6 +722,7 @@
         "index": {
           "description": "The jQuery UI Javascript file",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "urlJqueryUiJs",
           "normalized": "a-\u003eEither(Route a)Text",
@@ -683,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser-defined function specifying how to respond to commands. Using the\n above datatype, this might look like:\n\u003c/p\u003e\u003cpre\u003e yesodFayCommand render command =\n     case command of\n         GetFib index r = render r $ fibs !! index\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "yesodFayCommand",
           "package": "yesod-fay",
@@ -693,6 +750,7 @@
         "index": {
           "description": "User-defined function specifying how to respond to commands Using the above datatype this might look like yesodFayCommand render command case command of GetFib index render fibs index",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "yesodFayCommand",
           "package": "yesod-fay",
@@ -706,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "yesodFaySettings",
           "package": "yesod-fay",
@@ -715,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "yesodFaySettings",
           "normalized": "String-\u003eYesodFaySettings",
@@ -730,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "yfsExternal",
           "package": "yesod-fay",
@@ -739,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "yfsExternal",
           "normalized": "Maybe(FilePath,Exp)",
@@ -754,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "yfsModuleName",
           "package": "yesod-fay",
@@ -763,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "yfsModuleName",
           "package": "yesod-fay",
@@ -776,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "yfsPostProcess",
           "package": "yesod-fay",
@@ -785,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "yfsPostProcess",
           "normalized": "String-\u003eIO String",
@@ -801,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that the server call functions provided for your Fay code require\n jQuery to be present. If you disable this option and still use the\n provided server call functions, your code will break.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "yfsRequireJQuery",
           "package": "yesod-fay",
@@ -811,6 +878,7 @@
         "index": {
           "description": "Note that the server call functions provided for your Fay code require jQuery to be present If you disable this option and still use the provided server call functions your code will break",
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "yfsRequireJQuery",
           "package": "yesod-fay",
@@ -824,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:48 UTC 2014",
           "module": "Yesod.Fay",
           "name": "yfsSeparateRuntime",
           "package": "yesod-fay",
@@ -833,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Yesod Fay",
+          "indexed": "2014-03-11T20:45:48",
           "module": "Yesod.Fay",
           "name": "yfsSeparateRuntime",
           "normalized": "Maybe(FilePath,Exp)",

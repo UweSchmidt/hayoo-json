@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "codepad"
+        "phrase": "codepad",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple pasting API for CodePad.org.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "Codepad",
           "package": "codepad",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple pasting API for CodePad.org",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "Codepad",
           "package": "codepad",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCode to be pasted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "Code",
           "package": "codepad",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Code to be pasted",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "Code",
           "package": "codepad",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for supported CodePad languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "LangName",
           "package": "codepad",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Alias for supported CodePad languages",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "LangName",
           "package": "codepad",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CodePad paste id e.g. HZPquoIO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "PasteId",
           "package": "codepad",
@@ -97,6 +104,7 @@
         "index": {
           "description": "CodePad paste id e.g HZPquoIO",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "PasteId",
           "package": "codepad",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePaste output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "PasteOutput",
           "package": "codepad",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Paste output",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "PasteOutput",
           "package": "codepad",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "URL",
           "package": "codepad",
@@ -143,6 +154,7 @@
         "index": {
           "description": "URL",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "URL",
           "package": "codepad",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CodePad URL of a page containing a list of supported languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "codepadLangsURL",
           "package": "codepad",
@@ -167,6 +180,7 @@
         "index": {
           "description": "CodePad URL of page containing list of supported languages",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "codepadLangsURL",
           "package": "codepad",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCodePad's domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "codepadUrl",
           "package": "codepad",
@@ -191,6 +206,7 @@
         "index": {
           "description": "CodePad domain",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "codepadUrl",
           "package": "codepad",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the available languages from the CodePad page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "parseLangs",
           "package": "codepad",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Extract the available languages from the CodePad page",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "parseLangs",
           "normalized": "String-\u003e[LangName]",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the paste output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "parseOutput",
           "package": "codepad",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Get the paste output",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "parseOutput",
           "normalized": "String-\u003eMaybe PasteOutput",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePaste some code and get the run output too.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "pasteAndRun",
           "package": "codepad",
@@ -264,6 +285,7 @@
         "index": {
           "description": "Paste some code and get the run output too",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "pasteAndRun",
           "normalized": "Code-\u003eLangName-\u003eBool-\u003ea(Maybe(PasteId,PasteOutput))",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a paste.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "pasteCode",
           "package": "codepad",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Perform paste",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "pasteCode",
           "normalized": "Code-\u003eLangName-\u003eBool-\u003eBool-\u003ea(Maybe PasteId)",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the run output for a paste id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "pasteOutput",
           "package": "codepad",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Get the run output for paste id",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "pasteOutput",
           "normalized": "PasteId-\u003ea(Maybe PasteOutput)",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a CodePad URL for the given paste id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "pasteURL",
           "package": "codepad",
@@ -339,6 +366,7 @@
         "index": {
           "description": "Make CodePad URL for the given paste id",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "pasteURL",
           "normalized": "PasteId-\u003eURL",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of supported languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:27 UTC 2014",
           "module": "Web.Codepad",
           "name": "supportedLangs",
           "package": "codepad",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Get the list of supported languages",
           "hierarchy": "Web Codepad",
+          "indexed": "2014-03-11T17:35:27",
           "module": "Web.Codepad",
           "name": "supportedLangs",
           "normalized": "a(Maybe[LangName])",

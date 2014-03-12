@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Haskelloids"
+        "phrase": "Haskelloids",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tilings"
+        "phrase": "tilings",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSubstitution tiling API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "Class",
           "package": "tilings",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Substitution tiling API",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "Class",
           "package": "tilings",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn axis-aligned rectangle with \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e coordinates.\n\u003c/p\u003e\u003cp\u003eInvariant:\n\u003c/p\u003e\u003cpre\u003e westEdge r \u003c= eastEdge r && southEdge r \u003c= northEdge r\n\u003c/pre\u003e\u003cp\u003eFor substitution tilings that contain irrational lengths and/or scale\n   factors, the intention is that the implementations of \u003ccode\u003e\u003ca\u003eexterior\u003c/a\u003e\u003c/code\u003e\n   and \u003ccode\u003e\u003ca\u003einterior\u003c/a\u003e\u003c/code\u003e provide reasonably tight bounds, within a percent\n   or two, say, while the data type maintains full precision internally\n   (perhaps using algebraic field extensions over \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "Rectangle",
           "package": "tilings",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An axis-aligned rectangle with Rational coordinates Invariant westEdge eastEdge southEdge northEdge For substitution tilings that contain irrational lengths and or scale factors the intention is that the implementations of exterior and interior provide reasonably tight bounds within percent or two say while the data type maintains full precision internally perhaps using algebraic field extensions over Rational",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "Rectangle",
           "package": "tilings",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitution tilings.  Instances must obey the following laws:\n\u003c/p\u003e\u003cpre\u003e parent root == Nothing\n all (== Just t) . map parent . children $ t\n t `inside`   exterior t\n t `encloses` interior t\n interior t `insideR` exterior t\n t `inside` r  ==\u003e  t `overlaps` r\n t `encloses` r  ==\u003e  t `overlaps` r\n t `overlaps` r  ==\u003e not (t `outside` r)\n t `encloses` r && n \u003e= 0  ==\u003e  not $ any (`outside` r) (tile t r n)\n\u003c/pre\u003e\u003cp\u003eMinimal complete definition: all except \u003ccode\u003e\u003ca\u003etile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "Tiling",
           "package": "tilings",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Substitution tilings Instances must obey the following laws parent root Nothing all Just map parent children inside exterior encloses interior interior insideR exterior inside overlaps encloses overlaps overlaps not outside encloses not any outside tile Minimal complete definition all except tile",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "Tiling",
           "package": "tilings",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "Rectangle",
           "package": "tilings",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "Rectangle",
           "package": "tilings",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe smaller children of a tile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "children",
           "package": "tilings",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The smaller children of tile",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "children",
           "normalized": "a-\u003e[a]",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "eastEdge",
           "package": "tilings",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "eastEdge",
           "package": "tilings",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a rectangle is completely enclosed by the tile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "encloses",
           "package": "tilings",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Test if rectangle is completely enclosed by the tile",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "encloses",
           "normalized": "a-\u003eRectangle-\u003eBool",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangle that completely encloses the tile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "exterior",
           "package": "tilings",
@@ -192,6 +207,7 @@
         "index": {
           "description": "rectangle that completely encloses the tile",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "exterior",
           "normalized": "a-\u003eRectangle",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a rectangle completely encloses the tile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "inside",
           "package": "tilings",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Test if rectangle completely encloses the tile",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "inside",
           "normalized": "a-\u003eRectangle-\u003eBool",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a rectangle is inside another rectangle.  The comparison\n   is not strict, so that a rectangle is inside itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "insideR",
           "package": "tilings",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Check if rectangle is inside another rectangle The comparison is not strict so that rectangle is inside itself",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "insideR",
           "normalized": "Rectangle-\u003eRectangle-\u003eBool",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangle that is completely enclosed by the tile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "interior",
           "package": "tilings",
@@ -267,6 +288,7 @@
         "index": {
           "description": "rectangle that is completely enclosed by the tile",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "interior",
           "normalized": "a-\u003eRectangle",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "northEdge",
           "package": "tilings",
@@ -290,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "northEdge",
           "package": "tilings",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a rectangle is completely disjoint from the tile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "outside",
           "package": "tilings",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Test if rectangle is completely disjoint from the tile",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "outside",
           "normalized": "a-\u003eRectangle-\u003eBool",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a rectangle is disjoint from another rectangle.  The comparison\n   is strict, so that neighbouring rectangles that share an edge will\n   not be outside each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "outsideR",
           "package": "tilings",
@@ -339,6 +366,7 @@
         "index": {
           "description": "Check if rectangle is disjoint from another rectangle The comparison is strict so that neighbouring rectangles that share an edge will not be outside each other",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "outsideR",
           "normalized": "Rectangle-\u003eRectangle-\u003eBool",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a rectangle has any overlap with the tile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "overlaps",
           "package": "tilings",
@@ -364,6 +393,7 @@
         "index": {
           "description": "Test if rectangle has any overlap with the tile",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "overlaps",
           "normalized": "a-\u003eRectangle-\u003eBool",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a rectangle overlaps with another rectangle.  The comparison\n   is not strict, so that neighbouring rectangles that share an edge\n   will overlap each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "overlapsR",
           "package": "tilings",
@@ -389,6 +420,7 @@
         "index": {
           "description": "Check if rectangle overlaps with another rectangle The comparison is not strict so that neighbouring rectangles that share an edge will overlap each other",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "overlapsR",
           "normalized": "Rectangle-\u003eRectangle-\u003eBool",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unique parent of a tile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "parent",
           "package": "tilings",
@@ -414,6 +447,7 @@
         "index": {
           "description": "The unique parent of tile",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "parent",
           "normalized": "a-\u003eMaybe a",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a valid rectangle, sorting the edges to meet the invariant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "rectangle",
           "package": "tilings",
@@ -438,6 +473,7 @@
         "index": {
           "description": "Create valid rectangle sorting the edges to meet the invariant",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "rectangle",
           "normalized": "Rational-\u003eRational-\u003eRational-\u003eRational-\u003eRectangle",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe largest tile to start from.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "root",
           "package": "tilings",
@@ -463,6 +500,7 @@
         "index": {
           "description": "The largest tile to start from",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "root",
           "package": "tilings",
@@ -475,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "southEdge",
           "package": "tilings",
@@ -484,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "southEdge",
           "package": "tilings",
@@ -498,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a tiling that completely fills the given rectangle.\n\u003c/p\u003e\u003cp\u003ePreconditions:\n\u003c/p\u003e\u003cpre\u003e t `encloses` r\n n \u003e= 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "tile",
           "package": "tilings",
@@ -508,6 +549,7 @@
         "index": {
           "description": "Generate tiling that completely fills the given rectangle Preconditions encloses",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "tile",
           "normalized": "a-\u003eRectangle-\u003eInt-\u003e[a]",
@@ -523,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault implementation for \u003ccode\u003e\u003ca\u003etile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "tileDefault",
           "package": "tilings",
@@ -533,6 +576,7 @@
         "index": {
           "description": "Default implementation for tile",
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "tileDefault",
           "normalized": "a-\u003eRectangle-\u003eInt-\u003e[a]",
@@ -548,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Class",
           "name": "westEdge",
           "package": "tilings",
@@ -557,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Class",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Class",
           "name": "westEdge",
           "package": "tilings",
@@ -571,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple substitution tiling with each square divided into four quadrants\n(with no rotation).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "Quad",
           "package": "tilings",
@@ -580,6 +627,7 @@
         "index": {
           "description": "Simple substitution tiling with each square divided into four quadrants with no rotation",
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "Quad",
           "package": "tilings",
@@ -594,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA square tile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "Quad",
           "package": "tilings",
@@ -603,6 +652,7 @@
         "index": {
           "description": "square tile",
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "Quad",
           "package": "tilings",
@@ -617,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich quadrant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "Quadrant",
           "package": "tilings",
@@ -626,6 +677,7 @@
         "index": {
           "description": "Which quadrant",
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "Quadrant",
           "package": "tilings",
@@ -639,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "NorthEast",
           "package": "tilings",
@@ -648,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "NorthEast",
           "package": "tilings",
@@ -661,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "NorthWest",
           "package": "tilings",
@@ -670,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "NorthWest",
           "package": "tilings",
@@ -683,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "Quad",
           "package": "tilings",
@@ -692,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "Quad",
           "package": "tilings",
@@ -705,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "SouthEast",
           "package": "tilings",
@@ -714,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "SouthEast",
           "package": "tilings",
@@ -727,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "SouthWest",
           "package": "tilings",
@@ -736,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "SouthWest",
           "package": "tilings",
@@ -749,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "isEast",
           "package": "tilings",
@@ -758,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "isEast",
           "normalized": "Quadrant-\u003eBool",
@@ -773,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "isNorth",
           "package": "tilings",
@@ -782,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "isNorth",
           "normalized": "Quadrant-\u003eBool",
@@ -797,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "isSouth",
           "package": "tilings",
@@ -806,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "isSouth",
           "normalized": "Quadrant-\u003eBool",
@@ -821,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "isWest",
           "package": "tilings",
@@ -830,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "isWest",
           "normalized": "Quadrant-\u003eBool",
@@ -846,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe child tile at a given quadrant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "quadChild",
           "package": "tilings",
@@ -856,6 +927,7 @@
         "index": {
           "description": "The child tile at given quadrant",
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "quadChild",
           "normalized": "Quadrant-\u003eQuad-\u003eQuad",
@@ -872,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuggested file system location for data pertaining to a \u003ccode\u003e\u003ca\u003eQuad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "quadFile",
           "package": "tilings",
@@ -882,6 +955,7 @@
         "index": {
           "description": "Suggested file system location for data pertaining to Quad",
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "quadFile",
           "normalized": "Quad-\u003eMaybe([FilePath],FilePath)",
@@ -897,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "quadLevel",
           "package": "tilings",
@@ -906,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "quadLevel",
           "package": "tilings",
@@ -919,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "quadNorth",
           "package": "tilings",
@@ -928,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "quadNorth",
           "package": "tilings",
@@ -942,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parent with quadrant information for the tile.  Satisfies:\n\u003c/p\u003e\u003cpre\u003e quadParent (quadChild c q) == Just (c, q)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "quadParent",
           "package": "tilings",
@@ -952,6 +1031,7 @@
         "index": {
           "description": "The parent with quadrant information for the tile Satisfies quadParent quadChild Just",
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "quadParent",
           "normalized": "Quad-\u003eMaybe(Quadrant,Quad)",
@@ -968,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe path from this tile to the root.  Satisfies:\n\u003c/p\u003e\u003cpre\u003e foldr quadChild root (quadPath q) == q\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "quadPath",
           "package": "tilings",
@@ -978,6 +1059,7 @@
         "index": {
           "description": "The path from this tile to the root Satisfies foldr quadChild root quadPath",
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "quadPath",
           "normalized": "Quad-\u003e[Quadrant]",
@@ -993,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "quadWest",
           "package": "tilings",
@@ -1002,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "quadWest",
           "package": "tilings",
@@ -1016,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll quadrants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling.Quad",
           "name": "quadrants",
           "package": "tilings",
@@ -1026,6 +1111,7 @@
         "index": {
           "description": "All quadrants",
           "hierarchy": "Data Tiling Quad",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling.Quad",
           "name": "quadrants",
           "normalized": "[Quadrant]",
@@ -1041,6 +1127,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSubstitution tilings.  The term substitution, in connection with tilings,\ndescribes a simple but powerful method to produce tilings with many\ninteresting properties.\n\u003c/p\u003e\u003cp\u003eThe main idea is to use a finite set of building blocks called prototiles,\nan expanding linear map (the inflation factor), and a rule how to dissect\neach scaled tile into copies of the original prototiles.\n\u003c/p\u003e\u003cp\u003eFor some examples of substitution tilings, and a glossary of terminology,\nsee the \u003cem\u003etilings encyclopedia\u003c/em\u003e\nat \u003ca\u003ehttp://tilings.math.uni-bielefeld.de/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:25 UTC 2014",
           "module": "Data.Tiling",
           "name": "Tiling",
           "package": "tilings",
@@ -1050,6 +1137,7 @@
         "index": {
           "description": "Substitution tilings The term substitution in connection with tilings describes simple but powerful method to produce tilings with many interesting properties The main idea is to use finite set of building blocks called prototiles an expanding linear map the inflation factor and rule how to dissect each scaled tile into copies of the original prototiles For some examples of substitution tilings and glossary of terminology see the tilings encyclopedia at http tilings.math.uni-bielefeld.de",
           "hierarchy": "Data Tiling",
+          "indexed": "2014-03-11T20:22:25",
           "module": "Data.Tiling",
           "name": "Tiling",
           "package": "tilings",

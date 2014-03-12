@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "peakachu"
+        "phrase": "peakachu",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Control.Concurrent.MVar.YC",
           "name": "YC",
           "package": "peakachu",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar YC",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Control.Concurrent.MVar.YC",
           "name": "YC",
           "package": "peakachu",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Control.Concurrent.MVar.YC",
           "name": "modifyMVarPure",
           "package": "peakachu",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar YC",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Control.Concurrent.MVar.YC",
           "name": "modifyMVarPure",
           "normalized": "MVar a-\u003e(a-\u003ea)-\u003eIO()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Control.Concurrent.MVar.YC",
           "name": "writeMVar",
           "package": "peakachu",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar YC",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Control.Concurrent.MVar.YC",
           "name": "writeMVar",
           "normalized": "MVar a-\u003ea-\u003eIO()",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA FilterCategory is a Category that supports mapMaybeC.\n\u003c/p\u003e\u003cp\u003eIn Peakachu, both Program and Backend are instances of FilterCategory.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Control.FilterCategory",
           "name": "FilterCategory",
           "package": "peakachu",
@@ -97,6 +104,7 @@
         "index": {
           "description": "FilterCategory is Category that supports mapMaybeC In Peakachu both Program and Backend are instances of FilterCategory",
           "hierarchy": "Control FilterCategory",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Control.FilterCategory",
           "name": "FilterCategory",
           "package": "peakachu",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Control.FilterCategory",
           "name": "FilterCategory",
           "package": "peakachu",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Control FilterCategory",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Control.FilterCategory",
           "name": "FilterCategory",
           "package": "peakachu",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Control.FilterCategory",
           "name": "arrC",
           "package": "peakachu",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Control FilterCategory",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Control.FilterCategory",
           "name": "arrC",
           "normalized": "(a-\u003eb)-\u003ec a b",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Control.FilterCategory",
           "name": "filterC",
           "package": "peakachu",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Control FilterCategory",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Control.FilterCategory",
           "name": "filterC",
           "normalized": "(a-\u003eBool)-\u003eb a a",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Control.FilterCategory",
           "name": "flattenC",
           "package": "peakachu",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Control FilterCategory",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Control.FilterCategory",
           "name": "flattenC",
           "normalized": "a[b]b",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Control.FilterCategory",
           "name": "genericFlattenC",
           "package": "peakachu",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Control FilterCategory",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Control.FilterCategory",
           "name": "genericFlattenC",
           "package": "peakachu",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Control.FilterCategory",
           "name": "mapMaybeC",
           "package": "peakachu",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Control FilterCategory",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Control.FilterCategory",
           "name": "mapMaybeC",
           "normalized": "(a-\u003eMaybe b)-\u003ec a b",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eADT getters generation with Template Haskell\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE TemplateHaskell #-}\n data Blah a = NoBlah | YesBlah a | ManyBlah a Int\n $(mkADTGetters ''Blah)\n\u003c/pre\u003e\u003cp\u003eGenerates\n\u003c/p\u003e\u003cpre\u003e gNoBlah :: Blah a -\u003e Maybe ()\n gYesBlah :: Blah a -\u003e Maybe a\n gManyBlah :: Blah a -\u003e Maybe (a, Int)\n\u003c/pre\u003e\u003cp\u003eWhere\n\u003c/p\u003e\u003cpre\u003e gYesBlah (YesBlah a) = Just a\n gYesBlah _ = Nothing\n\u003c/pre\u003e\u003cp\u003eetc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Data.ADT.Getters",
           "name": "Getters",
           "package": "peakachu",
@@ -256,6 +277,7 @@
         "index": {
           "description": "ADT getters generation with Template Haskell Example LANGUAGE TemplateHaskell data Blah NoBlah YesBlah ManyBlah Int mkADTGetters Blah Generates gNoBlah Blah Maybe gYesBlah Blah Maybe gManyBlah Blah Maybe Int Where gYesBlah YesBlah Just gYesBlah Nothing etc",
           "hierarchy": "Data ADT Getters",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Data.ADT.Getters",
           "name": "Getters",
           "package": "peakachu",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Data.ADT.Getters",
           "name": "mkADTGetters",
           "package": "peakachu",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data ADT Getters",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Data.ADT.Getters",
           "name": "mkADTGetters",
           "normalized": "Name-\u003eQ[Dec]",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn/with newtype functions generation with Template Haskell.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE TemplateHaskell #-}\n import Control.Applicative (Applicative(..), ZipList(..))\n import Data.Newtype (mkWithNewTypeFuncs)\n\n $(mkWithNewtypeFuncs [2] ''ZipList)\n\n \u003e withZipList2 (\u003c*\u003e) [(+3), (*3)] [6, 7]\n [9, 21]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Data.Newtype",
           "name": "Newtype",
           "package": "peakachu",
@@ -303,6 +328,7 @@
         "index": {
           "description": "In with newtype functions generation with Template Haskell Example LANGUAGE TemplateHaskell import Control.Applicative Applicative ZipList import Data.Newtype mkWithNewTypeFuncs mkWithNewtypeFuncs ZipList withZipList2",
           "hierarchy": "Data Newtype",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Data.Newtype",
           "name": "Newtype",
           "package": "peakachu",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Data.Newtype",
           "name": "mkInNewtypeFuncs",
           "package": "peakachu",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Data Newtype",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Data.Newtype",
           "name": "mkInNewtypeFuncs",
           "normalized": "[Int]-\u003eName-\u003eQ[Dec]",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "Data.Newtype",
           "name": "mkWithNewtypeFuncs",
           "package": "peakachu",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data Newtype",
+          "indexed": "2014-03-11T19:36:48",
           "module": "Data.Newtype",
           "name": "mkWithNewtypeFuncs",
           "normalized": "[Int]-\u003eName-\u003eQ[Dec]",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.File",
           "name": "File",
           "package": "peakachu",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend File",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.File",
           "name": "File",
           "package": "peakachu",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.File",
           "name": "FileToProgram",
           "package": "peakachu",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend File",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.File",
           "name": "FileToProgram",
           "package": "peakachu",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.File",
           "name": "ProgramToFile",
           "package": "peakachu",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend File",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.File",
           "name": "ProgramToFile",
           "package": "peakachu",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.File",
           "name": "FileData",
           "package": "peakachu",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend File",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.File",
           "name": "FileData",
           "package": "peakachu",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.File",
           "name": "FileError",
           "package": "peakachu",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend File",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.File",
           "name": "FileError",
           "package": "peakachu",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.File",
           "name": "ReadFile",
           "package": "peakachu",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend File",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.File",
           "name": "ReadFile",
           "package": "peakachu",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.File",
           "name": "WriteFile",
           "package": "peakachu",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend File",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.File",
           "name": "WriteFile",
           "package": "peakachu",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.File",
           "name": "fileB",
           "package": "peakachu",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend File",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.File",
           "name": "fileB",
           "package": "peakachu",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.File",
           "name": "gFileData",
           "package": "peakachu",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend File",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.File",
           "name": "gFileData",
           "normalized": "a b[c]FileToProgram b[c]-\u003eMaybe(String,b[c])",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.File",
           "name": "gFileError",
           "package": "peakachu",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend File",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.File",
           "name": "gFileError",
           "normalized": "a b[c]FileToProgram b[c]-\u003eMaybe b[c]",
@@ -585,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eADT getter functions for GLUT data types.\n\u003c/p\u003e\u003cp\u003eUseful for filtering GLUT events in the Maybe monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT.Getters",
           "name": "Getters",
           "package": "peakachu",
@@ -594,6 +645,7 @@
         "index": {
           "description": "ADT getter functions for GLUT data types Useful for filtering GLUT events in the Maybe monad",
           "hierarchy": "FRP Peakachu Backend GLUT Getters",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT.Getters",
           "name": "Getters",
           "package": "peakachu",
@@ -607,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT.Getters",
           "name": "gChar",
           "package": "peakachu",
@@ -616,6 +669,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT Getters",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT.Getters",
           "name": "gChar",
           "normalized": "Key-\u003eMaybe Char",
@@ -631,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT.Getters",
           "name": "gDown",
           "package": "peakachu",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT Getters",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT.Getters",
           "name": "gDown",
           "normalized": "KeyState-\u003eMaybe()",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT.Getters",
           "name": "gMouseButton",
           "package": "peakachu",
@@ -664,6 +721,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT Getters",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT.Getters",
           "name": "gMouseButton",
           "normalized": "Key-\u003eMaybe MouseButton",
@@ -679,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT.Getters",
           "name": "gSpecialKey",
           "package": "peakachu",
@@ -688,6 +747,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT Getters",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT.Getters",
           "name": "gSpecialKey",
           "normalized": "Key-\u003eMaybe SpecialKey",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT.Getters",
           "name": "gUp",
           "package": "peakachu",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT Getters",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT.Getters",
           "name": "gUp",
           "normalized": "KeyState-\u003eMaybe()",
@@ -727,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "GLUT",
           "package": "peakachu",
@@ -735,6 +798,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "GLUT",
           "package": "peakachu",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "GlutToProgram",
           "package": "peakachu",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "GlutToProgram",
           "package": "peakachu",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "Image",
           "package": "peakachu",
@@ -777,6 +844,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "Image",
           "package": "peakachu",
@@ -790,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "ProgramToGlut",
           "package": "peakachu",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "ProgramToGlut",
           "package": "peakachu",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "DrawImage",
           "package": "peakachu",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "DrawImage",
           "package": "peakachu",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "IdleEvent",
           "package": "peakachu",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "IdleEvent",
           "package": "peakachu",
@@ -855,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "Image",
           "package": "peakachu",
@@ -864,6 +939,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "Image",
           "package": "peakachu",
@@ -877,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "KeyboardMouseEvent",
           "package": "peakachu",
@@ -886,6 +963,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "KeyboardMouseEvent",
           "package": "peakachu",
@@ -899,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "MouseMotionEvent",
           "package": "peakachu",
@@ -908,6 +987,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "MouseMotionEvent",
           "package": "peakachu",
@@ -921,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "SetTimer",
           "package": "peakachu",
@@ -930,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "SetTimer",
           "package": "peakachu",
@@ -943,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "TimerEvent",
           "package": "peakachu",
@@ -952,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "TimerEvent",
           "package": "peakachu",
@@ -965,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "gIdleEvent",
           "package": "peakachu",
@@ -974,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "gIdleEvent",
           "normalized": "a b[c W]GlutToProgram b[c W]-\u003eMaybe()",
@@ -989,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "gKeyboardMouseEvent",
           "package": "peakachu",
@@ -998,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "gKeyboardMouseEvent",
           "normalized": "a b[c W]GlutToProgram b[c W]-\u003eMaybe(Key,KeyState,Modifiers,Position)",
@@ -1013,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "gMouseMotionEvent",
           "package": "peakachu",
@@ -1022,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "gMouseMotionEvent",
           "normalized": "a b[c W]GlutToProgram b[c W]-\u003eMaybe(GLfloat,GLfloat)",
@@ -1037,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "gTimerEvent",
           "package": "peakachu",
@@ -1046,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "gTimerEvent",
           "normalized": "a b[c W]GlutToProgram b[c W]-\u003eMaybe b[c W]",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "glut",
           "package": "peakachu",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "glut",
           "package": "peakachu",
@@ -1082,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "runImage",
           "package": "peakachu",
@@ -1091,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend GLUT",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.GLUT",
           "name": "runImage",
           "normalized": "IO()",
@@ -1106,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "Internal",
           "package": "peakachu",
@@ -1114,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "Internal",
           "package": "peakachu",
@@ -1127,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "MainLoop",
           "package": "peakachu",
@@ -1135,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "MainLoop",
           "package": "peakachu",
@@ -1148,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "ParallelIO",
           "package": "peakachu",
@@ -1156,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "ParallelIO",
           "package": "peakachu",
@@ -1169,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "Sink",
           "package": "peakachu",
@@ -1177,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "Sink",
           "package": "peakachu",
@@ -1190,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "MainLoop",
           "package": "peakachu",
@@ -1199,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "MainLoop",
           "package": "peakachu",
@@ -1212,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "ParIO",
           "package": "peakachu",
@@ -1221,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "ParIO",
           "package": "peakachu",
@@ -1234,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "Sink",
           "package": "peakachu",
@@ -1243,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "Sink",
           "package": "peakachu",
@@ -1256,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "mlInit",
           "package": "peakachu",
@@ -1265,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "mlInit",
           "normalized": "IO()",
@@ -1280,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "mlQuit",
           "package": "peakachu",
@@ -1289,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "mlQuit",
           "normalized": "IO()",
@@ -1304,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "mlRun",
           "package": "peakachu",
@@ -1313,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "mlRun",
           "package": "peakachu",
@@ -1326,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "runParIO",
           "package": "peakachu",
@@ -1335,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "runParIO",
           "normalized": "IO()",
@@ -1350,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "sinkConsume",
           "package": "peakachu",
@@ -1359,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "sinkConsume",
           "normalized": "a-\u003eIO()",
@@ -1374,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "sinkMainLoop",
           "package": "peakachu",
@@ -1383,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Internal",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Internal",
           "name": "sinkMainLoop",
           "package": "peakachu",
@@ -1397,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Peakachu backend to write output to the console\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.StdIO",
           "name": "StdIO",
           "package": "peakachu",
@@ -1406,6 +1529,7 @@
         "index": {
           "description": "Peakachu backend to write output to the console",
           "hierarchy": "FRP Peakachu Backend StdIO",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.StdIO",
           "name": "StdIO",
           "package": "peakachu",
@@ -1420,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Peakachu equivalent to \u003ccode\u003e\u003ca\u003einteract\u003c/a\u003e\u003c/code\u003e.\n Prints all output lines from the program, and feeds\n input lines from the user to the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.StdIO",
           "name": "interactB",
           "package": "peakachu",
@@ -1430,6 +1555,7 @@
         "index": {
           "description": "The Peakachu equivalent to interact Prints all output lines from the program and feeds input lines from the user to the program",
           "hierarchy": "FRP Peakachu Backend StdIO",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.StdIO",
           "name": "interactB",
           "package": "peakachu",
@@ -1442,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.StdIO",
           "name": "stdoutB",
           "package": "peakachu",
@@ -1451,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend StdIO",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.StdIO",
           "name": "stdoutB",
           "normalized": "Backend String()",
@@ -1466,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Peakachu backend to get the time\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Time",
           "name": "Time",
           "package": "peakachu",
@@ -1475,6 +1604,7 @@
         "index": {
           "description": "Peakachu backend to get the time",
           "hierarchy": "FRP Peakachu Backend Time",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Time",
           "name": "Time",
           "package": "peakachu",
@@ -1488,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend.Time",
           "name": "getTimeB",
           "package": "peakachu",
@@ -1497,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend Time",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend.Time",
           "name": "getTimeB",
           "normalized": "Backend a(UTCTime,a)",
@@ -1512,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend",
           "name": "Backend",
           "package": "peakachu",
@@ -1520,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend",
           "name": "Backend",
           "package": "peakachu",
@@ -1533,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend",
           "name": "Backend",
           "package": "peakachu",
@@ -1541,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend",
           "name": "Backend",
           "package": "peakachu",
@@ -1554,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend",
           "name": "Backend",
           "package": "peakachu",
@@ -1563,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend",
           "name": "Backend",
           "package": "peakachu",
@@ -1576,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Backend",
           "name": "runBackend",
           "package": "peakachu",
@@ -1585,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Backend",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Backend",
           "name": "runBackend",
           "normalized": "(a-\u003eIO())-\u003eIO(Sink b)",
@@ -1601,6 +1741,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003eProgram a b\u003c/code\u003e is a pure representation of a computer program,\n which accepts inputs of type \u003ccode\u003ea\u003c/code\u003e, and outputs values of type \u003ccode\u003eb\u003c/code\u003e.\n It may also terminate. It can output zero or more \u003ccode\u003eb\u003c/code\u003e values after each \u003ccode\u003ea\u003c/code\u003e input.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A simple stateless input-output-loop can be created from a function\n   with \u003ccode\u003e\u003ca\u003earrC\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e A simple stateful input-output-loop can be created using \u003ccode\u003e\u003ca\u003escanlP\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Outputs can be filtered using \u003ccode\u003efilterC\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003ePrograms may also be composed together in several ways using common type-classes\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eCategory\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eProgram a b -\u003e Program b c -\u003e Program a c\u003c/code\u003e. One program's outputs are fed\n   to another program as input.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eProgram a b -\u003e Program a b -\u003e Program a b\u003c/code\u003e. Both programs run in parallel processing the same input. Resulting Program outputs both's outputs.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eProgram a (b -\u003e c) -\u003e Program a b -\u003e Program a c\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Alternative \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003e\u003ca\u003eAppendProgram\u003c/a\u003e\u003c/code\u003e is a newtype wrapper whose \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance runs one program after the other finishes (like \u003ccode\u003eZipList\u003c/code\u003e offers an alternative \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e instance for lists). It's also a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e ant its monadic bind allows us to invoke inner programs based on an outer program's outputs.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "Program",
           "package": "peakachu",
@@ -1610,6 +1751,7 @@
         "index": {
           "description": "Program is pure representation of computer program which accepts inputs of type and outputs values of type It may also terminate It can output zero or more values after each input simple stateless input-output-loop can be created from function with arrC simple stateful input-output-loop can be created using scanlP Outputs can be filtered using filterC Programs may also be composed together in several ways using common type-classes Category Program Program Program One program outputs are fed to another program as input Monoid Program Program Program Both programs run in parallel processing the same input Resulting Program outputs both outputs Applicative Program Program Program Alternative MonadPlus AppendProgram is newtype wrapper whose Monoid instance runs one program after the other finishes like ZipList offers an alternative Applicative instance for lists It also Monad ant its monadic bind allows us to invoke inner programs based on an outer program outputs",
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "Program",
           "package": "peakachu",
@@ -1623,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "AppendProgram",
           "package": "peakachu",
@@ -1631,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "AppendProgram",
           "package": "peakachu",
@@ -1645,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA computer program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "Program",
           "package": "peakachu",
@@ -1654,6 +1799,7 @@
         "index": {
           "description": "computer program",
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "Program",
           "package": "peakachu",
@@ -1667,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "AppendProg",
           "package": "peakachu",
@@ -1676,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "AppendProg",
           "package": "peakachu",
@@ -1689,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "Program",
           "package": "peakachu",
@@ -1698,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "Program",
           "package": "peakachu",
@@ -1712,6 +1862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay the outputs of a \u003ccode\u003e\u003ca\u003eProgram\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "delayP",
           "package": "peakachu",
@@ -1722,6 +1873,7 @@
         "index": {
           "description": "Delay the outputs of Program",
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "delayP",
           "normalized": "a-\u003eProgram b b",
@@ -1737,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA program that terminates immediately\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "emptyP",
           "package": "peakachu",
@@ -1747,6 +1900,7 @@
         "index": {
           "description": "program that terminates immediately",
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "emptyP",
           "package": "peakachu",
@@ -1760,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed some outputs of a \u003ccode\u003e\u003ca\u003eProgram\u003c/a\u003e\u003c/code\u003e to itself\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "loopbackP",
           "package": "peakachu",
@@ -1770,6 +1925,7 @@
         "index": {
           "description": "Feed some outputs of Program to itself",
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "loopbackP",
           "normalized": "Program a(Either a b)-\u003eProgram a b",
@@ -1785,6 +1941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a partial function \u003ccode\u003e(a -\u003e Maybe b)\u003c/code\u003e, output its most recent result on an input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "lstP",
           "package": "peakachu",
@@ -1795,6 +1952,7 @@
         "index": {
           "description": "Given partial function Maybe output its most recent result on an input",
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "lstP",
           "normalized": "(a-\u003eMaybe b)-\u003eProgram a b",
@@ -1810,6 +1968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a partial function \u003ccode\u003e(a -\u003e Maybe b)\u003c/code\u003e and a start value, output its most recent result on an input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "lstPs",
           "package": "peakachu",
@@ -1820,6 +1979,7 @@
         "index": {
           "description": "Given partial function Maybe and start value output its most recent result on an input",
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "lstPs",
           "normalized": "Maybe a-\u003e(b-\u003eMaybe a)-\u003eProgram b a",
@@ -1835,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "progMore",
           "package": "peakachu",
@@ -1844,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "progMore",
           "normalized": "Maybe(a-\u003eProgram a b)",
@@ -1859,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "progVals",
           "package": "peakachu",
@@ -1868,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "progVals",
           "normalized": "[a]",
@@ -1883,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "runAppendProg",
           "package": "peakachu",
@@ -1892,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "runAppendProg",
           "package": "peakachu",
@@ -1906,6 +2072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a stateful input-output-loop from a simple function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "scanlP",
           "package": "peakachu",
@@ -1916,6 +2083,7 @@
         "index": {
           "description": "Create stateful input-output-loop from simple function",
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "scanlP",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eProgram b a",
@@ -1931,6 +2099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA program that outputs a value and immediately terminates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "singleValueP",
           "package": "peakachu",
@@ -1941,6 +2110,7 @@
         "index": {
           "description": "program that outputs value and immediately terminates",
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "singleValueP",
           "normalized": "Program a()",
@@ -1957,6 +2127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerminate when a predicate on input fails\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "takeWhileP",
           "package": "peakachu",
@@ -1967,6 +2138,7 @@
         "index": {
           "description": "Terminate when predicate on input fails",
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "takeWhileP",
           "normalized": "(a-\u003eBool)-\u003eProgram a a",
@@ -1982,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "withAppendProgram1",
           "package": "peakachu",
@@ -1991,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "withAppendProgram1",
           "normalized": "a b c b c(AppendProgram b c-\u003eAppendProgram b c)-\u003eProgram b c-\u003eProgram b c",
@@ -2006,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu.Program",
           "name": "withAppendProgram2",
           "package": "peakachu",
@@ -2015,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu Program",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu.Program",
           "name": "withAppendProgram2",
           "normalized": "a b c b c b c(AppendProgram b c-\u003eAppendProgram b c-\u003eAppendProgram b c)-\u003eProgram b c-\u003eProgram b c-\u003eProgram b c",
@@ -2030,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu",
           "name": "Peakachu",
           "package": "peakachu",
@@ -2038,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu",
           "name": "Peakachu",
           "package": "peakachu",
@@ -2051,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu",
           "name": "processList",
           "package": "peakachu",
@@ -2060,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu",
           "name": "processList",
           "normalized": "Program a b-\u003ec a-\u003ec b",
@@ -2076,6 +2256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003eVerbose\u003c/a\u003e version of \u003ccode\u003e\u003ca\u003eprocessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe program's outputs after each input are grouped together\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu",
           "name": "processListV",
           "package": "peakachu",
@@ -2086,6 +2267,7 @@
         "index": {
           "description": "Verbose version of processList The program outputs after each input are grouped together",
           "hierarchy": "FRP Peakachu",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu",
           "name": "processListV",
           "normalized": "Program a b-\u003ec a-\u003ec[b]",
@@ -2101,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:48 UTC 2014",
           "module": "FRP.Peakachu",
           "name": "runProgram",
           "package": "peakachu",
@@ -2110,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "FRP Peakachu",
+          "indexed": "2014-03-11T19:36:48",
           "module": "FRP.Peakachu",
           "name": "runProgram",
           "normalized": "Backend a b-\u003eProgram b a-\u003eIO()",

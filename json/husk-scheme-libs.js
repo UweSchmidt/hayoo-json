@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "husk-scheme-libs"
+        "phrase": "husk-scheme-libs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis file implements an interface to Text.JSON that may\nbe called directly from husk using the FFI.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:53:49 UTC 2014",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "JSON",
           "package": "husk-scheme-libs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This file implements an interface to Text.JSON that may be called directly from husk using the FFI",
           "hierarchy": "Language Scheme Plugins JSON",
+          "indexed": "2014-03-11T18:53:49",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "JSON",
           "package": "husk-scheme-libs",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:49 UTC 2014",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "_test",
           "package": "husk-scheme-libs",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Language Scheme Plugins JSON",
+          "indexed": "2014-03-11T18:53:49",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "_test",
           "normalized": "IO()",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:49 UTC 2014",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "_testDecodeEncode",
           "package": "husk-scheme-libs",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Language Scheme Plugins JSON",
+          "indexed": "2014-03-11T18:53:49",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "_testDecodeEncode",
           "normalized": "String-\u003eIO()",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for Text.JSON.decode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:49 UTC 2014",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "jsDecode",
           "package": "husk-scheme-libs",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Wrapper for Text.JSON.decode",
           "hierarchy": "Language Scheme Plugins JSON",
+          "indexed": "2014-03-11T18:53:49",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "jsDecode",
           "normalized": "[LispVal]-\u003eIOThrowsError LispVal",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for Text.JSON.decodeStrict\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:49 UTC 2014",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "jsDecodeStrict",
           "package": "husk-scheme-libs",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Wrapper for Text.JSON.decodeStrict",
           "hierarchy": "Language Scheme Plugins JSON",
+          "indexed": "2014-03-11T18:53:49",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "jsDecodeStrict",
           "normalized": "[LispVal]-\u003eIOThrowsError LispVal",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for Text.JSON.encode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:49 UTC 2014",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "jsEncode",
           "package": "husk-scheme-libs",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Wrapper for Text.JSON.encode",
           "hierarchy": "Language Scheme Plugins JSON",
+          "indexed": "2014-03-11T18:53:49",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "jsEncode",
           "normalized": "[LispVal]-\u003eIOThrowsError LispVal",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for Text.JSON.encodeStrict\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:49 UTC 2014",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "jsEncodeStrict",
           "package": "husk-scheme-libs",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Wrapper for Text.JSON.encodeStrict",
           "hierarchy": "Language Scheme Plugins JSON",
+          "indexed": "2014-03-11T18:53:49",
           "module": "Language.Scheme.Plugins.JSON",
           "name": "jsEncodeStrict",
           "normalized": "[LispVal]-\u003eIOThrowsError LispVal",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monadic-arrays"
+        "phrase": "monadic-arrays",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Control.Monad.Array.Class",
           "name": "Class",
           "package": "monadic-arrays",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Array Class",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Control.Monad.Array.Class",
           "name": "Class",
           "package": "monadic-arrays",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArr m serves as a canonical choice of boxed MArray\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Control.Monad.Array.Class",
           "name": "MonadArray",
           "package": "monadic-arrays",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Arr serves as canonical choice of boxed MArray",
           "hierarchy": "Control Monad Array Class",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Control.Monad.Array.Class",
           "name": "MonadArray",
           "package": "monadic-arrays",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUArr m provides unboxed arrays, and can be used on the primitive data types:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt8\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIt can be used via \u003ccode\u003e\u003ca\u003eMArray1\u003c/a\u003e\u003c/code\u003e to store values of types \u003ccode\u003e\u003ccode\u003e\u003ca\u003eStablePtr\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFunPtr\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e and \u003ccode\u003e'Ptr a'\u003c/code\u003e as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Control.Monad.Array.Class",
           "name": "MonadUArray",
           "package": "monadic-arrays",
@@ -72,6 +77,7 @@
         "index": {
           "description": "UArr provides unboxed arrays and can be used on the primitive data types Bool Char Int Word Double Float Int8 Int16 Int32 Int64 Word8 Word16 Word32 and Word64 It can be used via MArray1 to store values of types StablePtr FunPtr and Ptr as well",
           "hierarchy": "Control Monad Array Class",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Control.Monad.Array.Class",
           "name": "MonadUArray",
           "package": "monadic-arrays",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Control.Monad.Array.Class",
           "name": "getBoundsM",
           "package": "monadic-arrays",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Array Class",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Control.Monad.Array.Class",
           "name": "getBoundsM",
           "normalized": "Arr a b c-\u003ea(b,b)",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Control.Monad.Array.Class",
           "name": "getNumElementsM",
           "package": "monadic-arrays",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Array Class",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Control.Monad.Array.Class",
           "name": "getNumElementsM",
           "normalized": "Arr a b c-\u003ea Int",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Control.Monad.Array.Class",
           "name": "newArrayM",
           "package": "monadic-arrays",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Array Class",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Control.Monad.Array.Class",
           "name": "newArrayM",
           "normalized": "(a,a)-\u003eb-\u003ec(Arr c a b)",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Control.Monad.Array.Class",
           "name": "newArrayM_",
           "package": "monadic-arrays",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Array Class",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Control.Monad.Array.Class",
           "name": "newArrayM_",
           "normalized": "(a,a)-\u003eb(Arr b a c)",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Control.Monad.Array.Class",
           "name": "unsafeNewArrayM_",
           "package": "monadic-arrays",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Array Class",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Control.Monad.Array.Class",
           "name": "unsafeNewArrayM_",
           "normalized": "(a,a)-\u003eb(Arr b a c)",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Control.Monad.Array.Class",
           "name": "unsafeReadM",
           "package": "monadic-arrays",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Array Class",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Control.Monad.Array.Class",
           "name": "unsafeReadM",
           "normalized": "Arr a b c-\u003eInt-\u003ea c",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Control.Monad.Array.Class",
           "name": "unsafeWriteM",
           "package": "monadic-arrays",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Array Class",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Control.Monad.Array.Class",
           "name": "unsafeWriteM",
           "normalized": "Arr a b c-\u003eInt-\u003ec-\u003ea()",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA higher-order MArray class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Data.Array.MArray.Extras",
           "name": "Extras",
           "package": "monadic-arrays",
@@ -263,6 +284,7 @@
         "index": {
           "description": "higher-order MArray class",
           "hierarchy": "Data Array MArray Extras",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Data.Array.MArray.Extras",
           "name": "Extras",
           "package": "monadic-arrays",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Data.Array.MArray.Extras",
           "name": "MArray1",
           "package": "monadic-arrays",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Data Array MArray Extras",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Data.Array.MArray.Extras",
           "name": "MArray1",
           "package": "monadic-arrays",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Data.Array.MArray.Extras",
           "name": "getBounds1",
           "package": "monadic-arrays",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Data Array MArray Extras",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Data.Array.MArray.Extras",
           "name": "getBounds1",
           "normalized": "a b(c d)-\u003ee(b,b)",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Data.Array.MArray.Extras",
           "name": "getNumElements1",
           "package": "monadic-arrays",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data Array MArray Extras",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Data.Array.MArray.Extras",
           "name": "getNumElements1",
           "normalized": "a b(c d)-\u003ee Int",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Data.Array.MArray.Extras",
           "name": "newArray1",
           "package": "monadic-arrays",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Data Array MArray Extras",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Data.Array.MArray.Extras",
           "name": "newArray1",
           "normalized": "(a,a)-\u003eb c-\u003ed(e a(b c))",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Data.Array.MArray.Extras",
           "name": "newArray1_",
           "package": "monadic-arrays",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Data Array MArray Extras",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Data.Array.MArray.Extras",
           "name": "newArray1_",
           "normalized": "(a,a)-\u003eb(c a(d e))",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Data.Array.MArray.Extras",
           "name": "unsafeNewArray1_",
           "package": "monadic-arrays",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Data Array MArray Extras",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Data.Array.MArray.Extras",
           "name": "unsafeNewArray1_",
           "normalized": "(a,a)-\u003eb(c a(d e))",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Data.Array.MArray.Extras",
           "name": "unsafeRead1",
           "package": "monadic-arrays",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Data Array MArray Extras",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Data.Array.MArray.Extras",
           "name": "unsafeRead1",
           "normalized": "a b(c d)-\u003eInt-\u003ee(c d)",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:21 UTC 2014",
           "module": "Data.Array.MArray.Extras",
           "name": "unsafeWrite1",
           "package": "monadic-arrays",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Data Array MArray Extras",
+          "indexed": "2014-03-11T19:21:21",
           "module": "Data.Array.MArray.Extras",
           "name": "unsafeWrite1",
           "normalized": "a b(c d)-\u003eInt-\u003ec d-\u003ee()",

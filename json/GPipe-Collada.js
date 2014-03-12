@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GPipe-Collada"
+        "phrase": "GPipe-Collada",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides an axis aligned bounding box based on \u003ccode\u003e\u003ca\u003eVec\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Data.Vec.AABB",
           "name": "AABB",
           "package": "GPipe-Collada",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides an axis aligned bounding box based on Vec",
           "hierarchy": "Data Vec AABB",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Data.Vec.AABB",
           "name": "AABB",
           "package": "GPipe-Collada",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn axis aligned bounding box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Data.Vec.AABB",
           "name": "AABB",
           "package": "GPipe-Collada",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An axis aligned bounding box",
           "hierarchy": "Data Vec AABB",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Data.Vec.AABB",
           "name": "AABB",
           "package": "GPipe-Collada",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Data.Vec.AABB",
           "name": "Intersection",
           "package": "GPipe-Collada",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Vec AABB",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Data.Vec.AABB",
           "name": "Intersection",
           "package": "GPipe-Collada",
@@ -108,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Data.Vec.AABB",
           "name": "Inside",
           "package": "GPipe-Collada",
@@ -117,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Vec AABB",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Data.Vec.AABB",
           "name": "Inside",
           "package": "GPipe-Collada",
@@ -130,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Data.Vec.AABB",
           "name": "Intersecting",
           "package": "GPipe-Collada",
@@ -139,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Vec AABB",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Data.Vec.AABB",
           "name": "Intersecting",
           "package": "GPipe-Collada",
@@ -152,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Data.Vec.AABB",
           "name": "Outside",
           "package": "GPipe-Collada",
@@ -161,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Vec AABB",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Data.Vec.AABB",
           "name": "Outside",
           "package": "GPipe-Collada",
@@ -221,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms an 'AABB* using a 4x4 matrix. Note that this may grow the AABB and is not associative with matrix multiplication, i.e.\n\u003c/p\u003e\u003cpre\u003e (m2 `multmm` m1) `aabbTransform` aabb\n\u003c/pre\u003e\u003cp\u003eis usually not the same as\n\u003c/p\u003e\u003cpre\u003e m2 `aabbTransform` (m1 `aabbTransform` aabb)\n\u003c/pre\u003e\u003cp\u003e(The former is preferred as it minimizes the growing of the AABB).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Data.Vec.AABB",
           "name": "aabbTransform",
           "package": "GPipe-Collada",
@@ -231,6 +244,7 @@
         "index": {
           "description": "Transforms an AABB using x4 matrix Note that this may grow the AABB and is not associative with matrix multiplication i.e m2 multmm m1 aabbTransform aabb is usually not the same as m2 aabbTransform m1 aabbTransform aabb The former is preferred as it minimizes the growing of the AABB",
           "hierarchy": "Data Vec AABB",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Data.Vec.AABB",
           "name": "aabbTransform",
           "normalized": "Mat Float-\u003eAABB-\u003eAABB",
@@ -247,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry if an \u003ccode\u003e\u003ca\u003eAABB\u003c/a\u003e\u003c/code\u003e is inside a projection frustum. The AABB must be defined in the same vector space as the matrix, e.g. use the model-view-projection matrix for model-local aabb's.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Data.Vec.AABB",
           "name": "testAABBprojection",
           "package": "GPipe-Collada",
@@ -257,6 +272,7 @@
         "index": {
           "description": "Try if an AABB is inside projection frustum The AABB must be defined in the same vector space as the matrix e.g use the model-view-projection matrix for model-local aabb",
           "hierarchy": "Data Vec AABB",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Data.Vec.AABB",
           "name": "testAABBprojection",
           "normalized": "Mat Float-\u003eAABB-\u003eIntersection",
@@ -273,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the means to load Collada scene graphs from Collada (dae) files.\n\u003c/p\u003e\u003cp\u003eThe parser supports Collada 1.5 core elements, including cameras lights and triangle meshes. Other elements such as animations, controllers or materials are ignored. Other meshes than\n triangles, trifans and tristrips are ignored. Only float_arrays are supported and others will be ignored. The parser only support local links and will ignore external ones.\n The parser supports parsing infinitely recursive structures into constant memory.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Parse",
           "name": "Parse",
           "package": "GPipe-Collada",
@@ -282,6 +299,7 @@
         "index": {
           "description": "This module provides the means to load Collada scene graphs from Collada dae files The parser supports Collada core elements including cameras lights and triangle meshes Other elements such as animations controllers or materials are ignored Other meshes than triangles trifans and tristrips are ignored Only float arrays are supported and others will be ignored The parser only support local links and will ignore external ones The parser supports parsing infinitely recursive structures into constant memory",
           "hierarchy": "Graphics GPipe Collada Parse",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Parse",
           "name": "Parse",
           "package": "GPipe-Collada",
@@ -296,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string containing a collada document and return \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e an error message or the parsed Collada \u003ccode\u003e\u003ca\u003eScene\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Parse",
           "name": "readCollada",
           "package": "GPipe-Collada",
@@ -306,6 +325,7 @@
         "index": {
           "description": "Parse string containing collada document and return Either an error message or the parsed Collada Scene",
           "hierarchy": "Graphics GPipe Collada Parse",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Parse",
           "name": "readCollada",
           "normalized": "String-\u003eEither String Scene",
@@ -322,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a Collada file and parse its contents and return a Collada \u003ccode\u003e\u003ca\u003eScene\u003c/a\u003e\u003c/code\u003e. Errors are thrown as \u003ccode\u003e\u003ca\u003euserError\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Parse",
           "name": "readColladaFile",
           "package": "GPipe-Collada",
@@ -332,6 +353,7 @@
         "index": {
           "description": "Open Collada file and parse its contents and return Collada Scene Errors are thrown as userError",
           "hierarchy": "Graphics GPipe Collada Parse",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Parse",
           "name": "readColladaFile",
           "normalized": "FilePath-\u003eIO Scene",
@@ -348,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the data types of the Collada scene graph.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "Utils",
           "package": "GPipe-Collada",
@@ -357,6 +380,7 @@
         "index": {
           "description": "This module contains the data types of the Collada scene graph",
           "hierarchy": "Graphics GPipe Collada Utils",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "Utils",
           "package": "GPipe-Collada",
@@ -371,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA path where the first string in the list is the closest ID and the rest is all SIDs found in order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "SIDPath",
           "package": "GPipe-Collada",
@@ -380,6 +405,7 @@
         "index": {
           "description": "path where the first string in the list is the closest ID and the rest is all SIDs found in order",
           "hierarchy": "Graphics GPipe Collada Utils",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "SIDPath",
           "package": "GPipe-Collada",
@@ -394,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor each \u003ccode\u003e\u003ca\u003eSID\u003c/a\u003e\u003c/code\u003e-attributed element in a list, apply the provided function. The elements where the function evaluates to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e are removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "alterSID",
           "package": "GPipe-Collada",
@@ -404,6 +431,7 @@
         "index": {
           "description": "For each SID attributed element in list apply the provided function The elements where the function evaluates to Nothing are removed",
           "hierarchy": "Graphics GPipe Collada Utils",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "alterSID",
           "normalized": "(String-\u003ea-\u003eMaybe a)-\u003e[(SID,a)]-\u003e[(SID,a)]",
@@ -420,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse a Tree bottom up, much like \u003ccode\u003emapAccumR\u003c/code\u003e. The function recieves the accumulators of all its children and generates one that is passed up to its parent.\n   Useful for accumulating AABBs, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "bottomUp",
           "package": "GPipe-Collada",
@@ -430,6 +459,7 @@
         "index": {
           "description": "Traverse Tree bottom up much like mapAccumR The function recieves the accumulators of all its children and generates one that is passed up to its parent Useful for accumulating AABBs etc",
           "hierarchy": "Graphics GPipe Collada Utils",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "bottomUp",
           "normalized": "([a]-\u003eb-\u003e(a,c))-\u003eTree b-\u003e(a,Tree c)",
@@ -446,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the value of a specific semantic from the \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e. If the semantic is not found or the type is wrong, it evaluates to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "dynVertex",
           "package": "GPipe-Collada",
@@ -456,6 +487,7 @@
         "index": {
           "description": "Extract the value of specific semantic from the Map If the semantic is not found or the type is wrong it evaluates to Nothing",
           "hierarchy": "Graphics GPipe Collada Utils",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "dynVertex",
           "normalized": "Map Semantic Dynamic-\u003eSemantic-\u003eMaybe a",
@@ -472,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e where the \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e contains the semantic with the same type as the last argument (which is not evaluated and prefferably is a monotyped \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "hasDynVertex",
           "package": "GPipe-Collada",
@@ -482,6 +515,7 @@
         "index": {
           "description": "Evaluates to True where the Map contains the semantic with the same type as the last argument which is not evaluated and prefferably is monotyped undefined",
           "hierarchy": "Graphics GPipe Collada Utils",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "hasDynVertex",
           "normalized": "Map Semantic TypeRep-\u003eSemantic-\u003ea-\u003eBool",
@@ -498,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the first element in the list that is attributed with the provided SID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "lookupSID",
           "package": "GPipe-Collada",
@@ -508,6 +543,7 @@
         "index": {
           "description": "Find the first element in the list that is attributed with the provided SID",
           "hierarchy": "Graphics GPipe Collada Utils",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "lookupSID",
           "normalized": "String-\u003e[(SID,a)]-\u003eMaybe a",
@@ -524,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove branches of a tree where the function evaluates to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e. Useful for selecting LODs, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "prune",
           "package": "GPipe-Collada",
@@ -534,6 +571,7 @@
         "index": {
           "description": "Remove branches of tree where the function evaluates to True Useful for selecting LODs etc",
           "hierarchy": "Graphics GPipe Collada Utils",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "prune",
           "normalized": "(a-\u003eBool)-\u003eTree a-\u003eMaybe(Tree a)",
@@ -549,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse a Tree top down, much like \u003ccode\u003emapAccumL\u003c/code\u003e. The function recieves an accumulator from its parent and generates one that is passed down to its children.\n   Useful for accumulating transformations, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "topDown",
           "package": "GPipe-Collada",
@@ -559,6 +598,7 @@
         "index": {
           "description": "Traverse Tree top down much like mapAccumL The function recieves an accumulator from its parent and generates one that is passed down to its children Useful for accumulating transformations etc",
           "hierarchy": "Graphics GPipe Collada Utils",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "topDown",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003eTree b-\u003eTree c",
@@ -575,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse a tree top down accumulating the \u003ccode\u003e\u003ca\u003eSIDPath\u003c/a\u003e\u003c/code\u003e for each node. The projection function enables this to be used on trees that are not \u003ccode\u003e\u003ca\u003eScene\u003c/a\u003e\u003c/code\u003es.\n   The accumulated \u003ccode\u003e\u003ca\u003eSIDPath\u003c/a\u003e\u003c/code\u003e for a node will include the node's \u003ccode\u003e\u003ca\u003eSID\u003c/a\u003e\u003c/code\u003e at the end, but not its \u003ccode\u003e\u003ca\u003eID\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eID\u003c/a\u003e\u003c/code\u003e will however be the first \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e in the\n   \u003ccode\u003e\u003ca\u003eSIDPath\u003c/a\u003e\u003c/code\u003es of the children, and the nodes \u003ccode\u003e\u003ca\u003eSID\u003c/a\u003e\u003c/code\u003e won't be included in this case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "topDownSIDPath",
           "package": "GPipe-Collada",
@@ -585,6 +626,7 @@
         "index": {
           "description": "Traverse tree top down accumulating the SIDPath for each node The projection function enables this to be used on trees that are not Scene The accumulated SIDPath for node will include the node SID at the end but not its ID The ID will however be the first String in the SIDPath of the children and the nodes SID won be included in this case",
           "hierarchy": "Graphics GPipe Collada Utils",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "topDownSIDPath",
           "normalized": "(a-\u003e(SID,Maybe ID))-\u003eTree a-\u003eTree(SIDPath,a)",
@@ -601,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse a tree top down accumulating the absolute transform for each node. The projection function enables this to be used on trees that are not \u003ccode\u003e\u003ca\u003eScene\u003c/a\u003e\u003c/code\u003es.\n   Use \u003ccode\u003e\u003ca\u003enodeMat\u003c/a\u003e\u003c/code\u003e to get the \u003ccode\u003eMat44 Float\u003c/code\u003e from a node. The accumulated matrix for each node will contain the node's own transforms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "topDownTransform",
           "package": "GPipe-Collada",
@@ -611,6 +654,7 @@
         "index": {
           "description": "Traverse tree top down accumulating the absolute transform for each node The projection function enables this to be used on trees that are not Scene Use nodeMat to get the Mat44 Float from node The accumulated matrix for each node will contain the node own transforms",
           "hierarchy": "Graphics GPipe Collada Utils",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "topDownTransform",
           "normalized": "(a-\u003eMat Float)-\u003eTree a-\u003eTree(Mat Float,a)",
@@ -627,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the scene using a simple shading technique through the first camera found, or through a defult camera if the scene doesn't contain any cameras. The scene's lights aren't\n   used in the rendering. The source of this function can also serve as an example of how a Collada \u003ccode\u003e\u003ca\u003eScene\u003c/a\u003e\u003c/code\u003e can be processed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "viewScene",
           "package": "GPipe-Collada",
@@ -637,6 +682,7 @@
         "index": {
           "description": "Render the scene using simple shading technique through the first camera found or through defult camera if the scene doesn contain any cameras The scene lights aren used in the rendering The source of this function can also serve as an example of how Collada Scene can be processed",
           "hierarchy": "Graphics GPipe Collada Utils",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada.Utils",
           "name": "viewScene",
           "normalized": "Scene-\u003eVec Int-\u003eFrameBuffer RGBFormat DepthFormat()",
@@ -653,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the data types of the Collada scene graph.\n\u003c/p\u003e\u003cp\u003eOrphan TypeableX instances are also provided for \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e and \u003ca\u003eData.Vec\u003c/a\u003e vectors (:.) .\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Collada",
           "package": "GPipe-Collada",
@@ -662,6 +709,7 @@
         "index": {
           "description": "This module contains the data types of the Collada scene graph Orphan TypeableX instances are also provided for Vertex and Data.Vec vectors",
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Collada",
           "package": "GPipe-Collada",
@@ -676,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn axis aligned bounding box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "AABB",
           "package": "GPipe-Collada",
@@ -685,6 +734,7 @@
         "index": {
           "description": "An axis aligned bounding box",
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "AABB",
           "package": "GPipe-Collada",
@@ -698,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Attenuation",
           "package": "GPipe-Collada",
@@ -706,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Attenuation",
           "package": "GPipe-Collada",
@@ -719,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Camera",
           "package": "GPipe-Collada",
@@ -727,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Camera",
           "package": "GPipe-Collada",
@@ -740,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Geometry",
           "package": "GPipe-Collada",
@@ -748,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Geometry",
           "package": "GPipe-Collada",
@@ -761,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "ID",
           "package": "GPipe-Collada",
@@ -769,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "ID",
           "package": "GPipe-Collada",
@@ -782,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Light",
           "package": "GPipe-Collada",
@@ -790,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Light",
           "package": "GPipe-Collada",
@@ -803,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Mesh",
           "package": "GPipe-Collada",
@@ -811,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Mesh",
           "package": "GPipe-Collada",
@@ -824,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Node",
           "package": "GPipe-Collada",
@@ -832,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Node",
           "package": "GPipe-Collada",
@@ -845,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "SID",
           "package": "GPipe-Collada",
@@ -853,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "SID",
           "package": "GPipe-Collada",
@@ -866,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Scene",
           "package": "GPipe-Collada",
@@ -874,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Scene",
           "package": "GPipe-Collada",
@@ -887,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Semantic",
           "package": "GPipe-Collada",
@@ -895,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Semantic",
           "package": "GPipe-Collada",
@@ -908,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Transform",
           "package": "GPipe-Collada",
@@ -916,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Transform",
           "package": "GPipe-Collada",
@@ -929,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "ViewSize",
           "package": "GPipe-Collada",
@@ -937,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "ViewSize",
           "package": "GPipe-Collada",
@@ -950,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Z",
           "package": "GPipe-Collada",
@@ -958,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Z",
           "package": "GPipe-Collada",
@@ -970,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Ambient",
           "package": "GPipe-Collada",
@@ -979,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Ambient",
           "package": "GPipe-Collada",
@@ -992,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Attenuation",
           "package": "GPipe-Collada",
@@ -1001,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Attenuation",
           "package": "GPipe-Collada",
@@ -1014,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Directional",
           "package": "GPipe-Collada",
@@ -1023,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Directional",
           "package": "GPipe-Collada",
@@ -1036,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "LookAt",
           "package": "GPipe-Collada",
@@ -1045,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "LookAt",
           "package": "GPipe-Collada",
@@ -1058,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Matrix",
           "package": "GPipe-Collada",
@@ -1067,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Matrix",
           "package": "GPipe-Collada",
@@ -1080,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Mesh",
           "package": "GPipe-Collada",
@@ -1089,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Mesh",
           "package": "GPipe-Collada",
@@ -1102,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Node",
           "package": "GPipe-Collada",
@@ -1111,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Node",
           "package": "GPipe-Collada",
@@ -1124,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Orthographic",
           "package": "GPipe-Collada",
@@ -1133,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Orthographic",
           "package": "GPipe-Collada",
@@ -1146,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Perspective",
           "package": "GPipe-Collada",
@@ -1155,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Perspective",
           "package": "GPipe-Collada",
@@ -1168,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Point",
           "package": "GPipe-Collada",
@@ -1177,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Point",
           "package": "GPipe-Collada",
@@ -1190,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Rotate",
           "package": "GPipe-Collada",
@@ -1199,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Rotate",
           "package": "GPipe-Collada",
@@ -1212,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Scale",
           "package": "GPipe-Collada",
@@ -1221,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Scale",
           "package": "GPipe-Collada",
@@ -1234,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Skew",
           "package": "GPipe-Collada",
@@ -1243,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Skew",
           "package": "GPipe-Collada",
@@ -1256,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Spot",
           "package": "GPipe-Collada",
@@ -1265,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Spot",
           "package": "GPipe-Collada",
@@ -1278,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Translate",
           "package": "GPipe-Collada",
@@ -1287,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Translate",
           "package": "GPipe-Collada",
@@ -1300,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "TriangleMesh",
           "package": "GPipe-Collada",
@@ -1309,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "TriangleMesh",
           "package": "GPipe-Collada",
@@ -1322,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "ViewSizeX",
           "package": "GPipe-Collada",
@@ -1331,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "ViewSizeX",
           "package": "GPipe-Collada",
@@ -1344,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "ViewSizeXY",
           "package": "GPipe-Collada",
@@ -1353,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "ViewSizeXY",
           "package": "GPipe-Collada",
@@ -1366,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "ViewSizeY",
           "package": "GPipe-Collada",
@@ -1375,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "ViewSizeY",
           "package": "GPipe-Collada",
@@ -1388,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "Z",
           "package": "GPipe-Collada",
@@ -1397,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "Z",
           "package": "GPipe-Collada",
@@ -1409,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "ambientColor",
           "package": "GPipe-Collada",
@@ -1418,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "ambientColor",
           "package": "GPipe-Collada",
@@ -1431,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "ambientID",
           "package": "GPipe-Collada",
@@ -1440,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "ambientID",
           "package": "GPipe-Collada",
@@ -1453,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "attenuationConstant",
           "package": "GPipe-Collada",
@@ -1462,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "attenuationConstant",
           "package": "GPipe-Collada",
@@ -1475,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "attenuationLinear",
           "package": "GPipe-Collada",
@@ -1484,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "attenuationLinear",
           "package": "GPipe-Collada",
@@ -1497,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "attenuationQuadratic",
           "package": "GPipe-Collada",
@@ -1506,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "attenuationQuadratic",
           "package": "GPipe-Collada",
@@ -1520,6 +1646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the projection matrix of a \u003ccode\u003e\u003ca\u003eCamera\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "cameraMat",
           "package": "GPipe-Collada",
@@ -1530,6 +1657,7 @@
         "index": {
           "description": "Gets the projection matrix of Camera element",
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "cameraMat",
           "normalized": "Float-\u003eCamera-\u003eMat Float",
@@ -1545,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "directionalColor",
           "package": "GPipe-Collada",
@@ -1554,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "directionalColor",
           "package": "GPipe-Collada",
@@ -1567,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "directionalID",
           "package": "GPipe-Collada",
@@ -1576,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "directionalID",
           "package": "GPipe-Collada",
@@ -1589,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "lookAtEye",
           "package": "GPipe-Collada",
@@ -1598,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "lookAtEye",
           "package": "GPipe-Collada",
@@ -1611,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "lookAtInterest",
           "package": "GPipe-Collada",
@@ -1620,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "lookAtInterest",
           "package": "GPipe-Collada",
@@ -1633,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "lookAtUp",
           "package": "GPipe-Collada",
@@ -1642,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "lookAtUp",
           "package": "GPipe-Collada",
@@ -1655,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "meshAABB",
           "package": "GPipe-Collada",
@@ -1664,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "meshAABB",
           "package": "GPipe-Collada",
@@ -1677,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "meshDescription",
           "package": "GPipe-Collada",
@@ -1686,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "meshDescription",
           "package": "GPipe-Collada",
@@ -1699,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "meshID",
           "package": "GPipe-Collada",
@@ -1708,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "meshID",
           "package": "GPipe-Collada",
@@ -1721,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "meshMaterial",
           "package": "GPipe-Collada",
@@ -1730,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "meshMaterial",
           "package": "GPipe-Collada",
@@ -1743,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "meshPrimitiveStream",
           "package": "GPipe-Collada",
@@ -1752,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "meshPrimitiveStream",
           "package": "GPipe-Collada",
@@ -1765,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "meshPrimitives",
           "package": "GPipe-Collada",
@@ -1774,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "meshPrimitives",
           "normalized": "[Mesh]",
@@ -1790,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe smallest \u003ccode\u003e\u003ca\u003eAABB\u003c/a\u003e\u003c/code\u003e that contains all \u003ccode\u003e\u003ca\u003eGeometry\u003c/a\u003e\u003c/code\u003e elements in a node. Note: This is not transformed using the nodes \u003ccode\u003e\u003ca\u003eTransform\u003c/a\u003e\u003c/code\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeAABB",
           "package": "GPipe-Collada",
@@ -1800,6 +1951,7 @@
         "index": {
           "description": "The smallest AABB that contains all Geometry elements in node Note This is not transformed using the nodes Transform elements",
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeAABB",
           "normalized": "Node-\u003eAABB",
@@ -1815,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeCameras",
           "package": "GPipe-Collada",
@@ -1824,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeCameras",
           "normalized": "[(SID,Camera)]",
@@ -1839,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeGeometries",
           "package": "GPipe-Collada",
@@ -1848,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeGeometries",
           "normalized": "[(SID,Geometry)]",
@@ -1863,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeId",
           "package": "GPipe-Collada",
@@ -1872,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeId",
           "package": "GPipe-Collada",
@@ -1885,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeLayers",
           "package": "GPipe-Collada",
@@ -1894,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeLayers",
           "normalized": "[String]",
@@ -1909,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeLights",
           "package": "GPipe-Collada",
@@ -1918,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeLights",
           "normalized": "[(SID,Light)]",
@@ -1934,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe complete transform matrix of all \u003ccode\u003e\u003ca\u003eTransform\u003c/a\u003e\u003c/code\u003e elements in a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeMat",
           "package": "GPipe-Collada",
@@ -1944,6 +2107,7 @@
         "index": {
           "description": "The complete transform matrix of all Transform elements in node",
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeMat",
           "normalized": "Node-\u003eMat Float",
@@ -1959,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeTransformations",
           "package": "GPipe-Collada",
@@ -1968,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "nodeTransformations",
           "normalized": "[(SID,Transform)]",
@@ -1983,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "orthographicID",
           "package": "GPipe-Collada",
@@ -1992,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "orthographicID",
           "package": "GPipe-Collada",
@@ -2005,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "orthographicViewSize",
           "package": "GPipe-Collada",
@@ -2014,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "orthographicViewSize",
           "package": "GPipe-Collada",
@@ -2027,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "orthographicZ",
           "package": "GPipe-Collada",
@@ -2036,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "orthographicZ",
           "package": "GPipe-Collada",
@@ -2048,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "perspectiveFov",
           "package": "GPipe-Collada",
@@ -2057,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "perspectiveFov",
           "package": "GPipe-Collada",
@@ -2070,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "perspectiveID",
           "package": "GPipe-Collada",
@@ -2079,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "perspectiveID",
           "package": "GPipe-Collada",
@@ -2092,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "perspectiveZ",
           "package": "GPipe-Collada",
@@ -2101,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "perspectiveZ",
           "package": "GPipe-Collada",
@@ -2113,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "pointAttenuation",
           "package": "GPipe-Collada",
@@ -2122,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "pointAttenuation",
           "package": "GPipe-Collada",
@@ -2135,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "pointColor",
           "package": "GPipe-Collada",
@@ -2144,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "pointColor",
           "package": "GPipe-Collada",
@@ -2157,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "pointID",
           "package": "GPipe-Collada",
@@ -2166,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "pointID",
           "package": "GPipe-Collada",
@@ -2179,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "skewAngle",
           "package": "GPipe-Collada",
@@ -2188,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "skewAngle",
           "package": "GPipe-Collada",
@@ -2201,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "skewRotation",
           "package": "GPipe-Collada",
@@ -2210,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "skewRotation",
           "package": "GPipe-Collada",
@@ -2223,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "skewTranslation",
           "package": "GPipe-Collada",
@@ -2232,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "skewTranslation",
           "package": "GPipe-Collada",
@@ -2245,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "spotAttenuation",
           "package": "GPipe-Collada",
@@ -2254,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "spotAttenuation",
           "package": "GPipe-Collada",
@@ -2267,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "spotColor",
           "package": "GPipe-Collada",
@@ -2276,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "spotColor",
           "package": "GPipe-Collada",
@@ -2289,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "spotFallOffAngle",
           "package": "GPipe-Collada",
@@ -2298,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "spotFallOffAngle",
           "package": "GPipe-Collada",
@@ -2311,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "spotFallOffExponent",
           "package": "GPipe-Collada",
@@ -2320,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "spotFallOffExponent",
           "package": "GPipe-Collada",
@@ -2333,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "spotID",
           "package": "GPipe-Collada",
@@ -2342,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "spotID",
           "package": "GPipe-Collada",
@@ -2356,6 +2556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the transformation matrix of a \u003ccode\u003e\u003ca\u003eTransform\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "transformMat",
           "package": "GPipe-Collada",
@@ -2366,6 +2567,7 @@
         "index": {
           "description": "Gets the transformation matrix of Transform element",
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "transformMat",
           "normalized": "Transform-\u003eMat Float",
@@ -2382,6 +2584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the total transformation matrix of a list of \u003ccode\u003e\u003ca\u003eTransform\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "transformsMat",
           "package": "GPipe-Collada",
@@ -2392,6 +2595,7 @@
         "index": {
           "description": "Gets the total transformation matrix of list of Transform element",
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "transformsMat",
           "normalized": "[Transform]-\u003eMat Float",
@@ -2407,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "zFar",
           "package": "GPipe-Collada",
@@ -2416,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "zFar",
           "package": "GPipe-Collada",
@@ -2429,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:39 UTC 2014",
           "module": "Graphics.GPipe.Collada",
           "name": "zNear",
           "package": "GPipe-Collada",
@@ -2438,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Graphics GPipe Collada",
+          "indexed": "2014-03-11T16:42:39",
           "module": "Graphics.GPipe.Collada",
           "name": "zNear",
           "package": "GPipe-Collada",

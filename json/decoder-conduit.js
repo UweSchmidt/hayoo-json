@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "decoder-conduit"
+        "phrase": "decoder-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:21 UTC 2014",
           "module": "Data.Conduit.Decoder",
           "name": "Decoder",
           "package": "decoder-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Decoder",
+          "indexed": "2014-03-11T17:52:21",
           "module": "Data.Conduit.Decoder",
           "name": "Decoder",
           "package": "decoder-conduit",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic decoder exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:21 UTC 2014",
           "module": "Data.Conduit.Decoder",
           "name": "BinaryDecodeException",
           "package": "decoder-conduit",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Basic decoder exception",
           "hierarchy": "Data Conduit Decoder",
+          "indexed": "2014-03-11T17:52:21",
           "module": "Data.Conduit.Decoder",
           "name": "BinaryDecodeException",
           "package": "decoder-conduit",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:21 UTC 2014",
           "module": "Data.Conduit.Decoder",
           "name": "BinaryDecodeException",
           "package": "decoder-conduit",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Decoder",
+          "indexed": "2014-03-11T17:52:21",
           "module": "Data.Conduit.Decoder",
           "name": "BinaryDecodeException",
           "package": "decoder-conduit",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrementally reads ByteStrings and builds from supplied Get monad.\n Will throw an exception if there was an error parsing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:21 UTC 2014",
           "module": "Data.Conduit.Decoder",
           "name": "conduitDecoder",
           "package": "decoder-conduit",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Incrementally reads ByteStrings and builds from supplied Get monad Will throw an exception if there was an error parsing",
           "hierarchy": "Data Conduit Decoder",
+          "indexed": "2014-03-11T17:52:21",
           "module": "Data.Conduit.Decoder",
           "name": "conduitDecoder",
           "normalized": "Get a-\u003eConduit ByteString b a",

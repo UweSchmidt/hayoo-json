@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsc3-sf"
+        "phrase": "hsc3-sf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDecoder for audio data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Decode",
           "name": "Decode",
           "package": "hsc3-sf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Decoder for audio data",
           "hierarchy": "Sound File Decode",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Decode",
           "name": "Decode",
           "package": "hsc3-sf",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an \u003ccode\u003e\u003ca\u003eEncoding\u003c/a\u003e\u003c/code\u003e and the number of channels, decode\n a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to set of \u003ccode\u003e\u003ca\u003edeinterleave\u003c/a\u003e\u003c/code\u003ed channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Decode",
           "name": "decode",
           "package": "hsc3-sf",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Given an Encoding and the number of channels decode ByteString to set of deinterleave channels",
           "hierarchy": "Sound File Decode",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Decode",
           "name": "decode",
           "normalized": "Encoding-\u003eInt-\u003eByteString-\u003e[[a]]",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven channel count, deinterleave list to set of channels.\n\u003c/p\u003e\u003cpre\u003e deinterleave 2 [0..9] == [[0,2,4,6,8],[1,3,5,7,9]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Decode",
           "name": "deinterleave",
           "package": "hsc3-sf",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Given channel count deinterleave list to set of channels deinterleave",
           "hierarchy": "Sound File Decode",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Decode",
           "name": "deinterleave",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEncode audio data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Encode",
           "name": "Encode",
           "package": "hsc3-sf",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Encode audio data",
           "hierarchy": "Sound File Encode",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Encode",
           "name": "Encode",
           "package": "hsc3-sf",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003ccode\u003e\u003ca\u003eEncoding\u003c/a\u003e\u003c/code\u003e and a set of channels, \u003ccode\u003e\u003ca\u003einterleave\u003c/a\u003e\u003c/code\u003e and encode\n as \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Encode",
           "name": "encode",
           "package": "hsc3-sf",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Given Encoding and set of channels interleave and encode as ByteString",
           "hierarchy": "Sound File Encode",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Encode",
           "name": "encode",
           "normalized": "Encoding-\u003e[[a]]-\u003eByteString",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterleave channel data, ie. \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003etranspose\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e interleave [[0,2..8],[1,3..9]] == [0,1,2,3,4,5,6,7,8,9]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Encode",
           "name": "interleave",
           "package": "hsc3-sf",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Interleave channel data ie concat transpose interleave",
           "hierarchy": "Sound File Encode",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Encode",
           "name": "interleave",
           "normalized": "[[a]]-\u003e[a]",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAudio data encodings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Encoding",
           "name": "Encoding",
           "package": "hsc3-sf",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Audio data encodings",
           "hierarchy": "Sound File Encoding",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Encoding",
           "name": "Encoding",
           "package": "hsc3-sf",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnemeration of valid audio data encodings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Encoding",
           "name": "Encoding",
           "package": "hsc3-sf",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Enemeration of valid audio data encodings",
           "hierarchy": "Sound File Encoding",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Encoding",
           "name": "Encoding",
           "package": "hsc3-sf",
@@ -210,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Encoding",
           "name": "Double",
           "package": "hsc3-sf",
@@ -219,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Sound File Encoding",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Encoding",
           "name": "Double",
           "package": "hsc3-sf",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Encoding",
           "name": "Float",
           "package": "hsc3-sf",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Sound File Encoding",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Encoding",
           "name": "Float",
           "package": "hsc3-sf",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Encoding",
           "name": "Linear16",
           "package": "hsc3-sf",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Sound File Encoding",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Encoding",
           "name": "Linear16",
           "package": "hsc3-sf",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Encoding",
           "name": "Linear32",
           "package": "hsc3-sf",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Sound File Encoding",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Encoding",
           "name": "Linear32",
           "package": "hsc3-sf",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Encoding",
           "name": "Linear8",
           "package": "hsc3-sf",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Sound File Encoding",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Encoding",
           "name": "Linear8",
           "package": "hsc3-sf",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBytes per sample at \u003ccode\u003e\u003ca\u003eEncoding\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.Encoding",
           "name": "sizeOf",
           "package": "hsc3-sf",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Bytes per sample at Encoding",
           "hierarchy": "Sound File Encoding",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.Encoding",
           "name": "sizeOf",
           "normalized": "Encoding-\u003eInt",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead and write NeXT/Sun format sound files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "NeXT",
           "package": "hsc3-sf",
@@ -356,6 +385,7 @@
         "index": {
           "description": "Read and write NeXT Sun format sound files",
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "NeXT",
           "package": "hsc3-sf",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of channels at \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "ChannelCount",
           "package": "hsc3-sf",
@@ -379,6 +410,7 @@
         "index": {
           "description": "Number of channels at Header",
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "ChannelCount",
           "package": "hsc3-sf",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of frames at \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "FrameCount",
           "package": "hsc3-sf",
@@ -402,6 +435,7 @@
         "index": {
           "description": "Number of frames at Header",
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "FrameCount",
           "package": "hsc3-sf",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type encapsulating sound file meta data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "Header",
           "package": "hsc3-sf",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Data type encapsulating sound file meta data",
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "Header",
           "package": "hsc3-sf",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample rate at \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "SampleRate",
           "package": "hsc3-sf",
@@ -448,6 +485,7 @@
         "index": {
           "description": "Sample rate at Header",
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "SampleRate",
           "package": "hsc3-sf",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "Header",
           "package": "hsc3-sf",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "Header",
           "package": "hsc3-sf",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "channelCount",
           "package": "hsc3-sf",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "channelCount",
           "package": "hsc3-sf",
@@ -505,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "encoding",
           "package": "hsc3-sf",
@@ -514,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "encoding",
           "package": "hsc3-sf",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "frameCount",
           "package": "hsc3-sf",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "frameCount",
           "package": "hsc3-sf",
@@ -549,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead sound file meta data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "header",
           "package": "hsc3-sf",
@@ -559,6 +606,7 @@
         "index": {
           "description": "Read sound file meta data",
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "header",
           "normalized": "FilePath-\u003eIO Header",
@@ -574,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead sound file, data is interleaved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "read",
           "package": "hsc3-sf",
@@ -584,6 +633,7 @@
         "index": {
           "description": "Read sound file data is interleaved",
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "read",
           "normalized": "FilePath-\u003eIO(Header,[[a]])",
@@ -598,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "sampleRate",
           "package": "hsc3-sf",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "sampleRate",
           "package": "hsc3-sf",
@@ -621,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite sound file, data is non-interleaved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:35 UTC 2014",
           "module": "Sound.File.NeXT",
           "name": "write",
           "package": "hsc3-sf",
@@ -631,6 +684,7 @@
         "index": {
           "description": "Write sound file data is non-interleaved",
           "hierarchy": "Sound File NeXT",
+          "indexed": "2014-03-11T18:47:35",
           "module": "Sound.File.NeXT",
           "name": "write",
           "normalized": "FilePath-\u003eHeader-\u003e[[a]]-\u003eIO()",

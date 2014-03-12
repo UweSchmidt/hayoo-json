@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-html-conduit-lens"
+        "phrase": "xml-html-conduit-lens",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLenses and Prisms Template Haskell could handle\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "LowLevel",
           "package": "xml-html-conduit-lens",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Lenses and Prisms Template Haskell could handle",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "LowLevel",
           "package": "xml-html-conduit-lens",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eMiscComment\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_MiscComment",
           "package": "xml-html-conduit-lens",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Prism into MiscComment",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_MiscComment",
           "package": "xml-html-conduit-lens",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eMiscInstruction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_MiscInstruction",
           "package": "xml-html-conduit-lens",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Prism into MiscInstruction",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_MiscInstruction",
           "package": "xml-html-conduit-lens",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eNodeComment\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_NodeComment",
           "package": "xml-html-conduit-lens",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Prism into NodeComment",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_NodeComment",
           "package": "xml-html-conduit-lens",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eNodeContent\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_NodeContent",
           "package": "xml-html-conduit-lens",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Prism into NodeContent",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_NodeContent",
           "package": "xml-html-conduit-lens",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eNodeElement\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_NodeElement",
           "package": "xml-html-conduit-lens",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Prism into NodeElement",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_NodeElement",
           "package": "xml-html-conduit-lens",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eNodeInstruction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_NodeInstruction",
           "package": "xml-html-conduit-lens",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Prism into NodeInstruction",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_NodeInstruction",
           "package": "xml-html-conduit-lens",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eSystemID\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_PublicID",
           "package": "xml-html-conduit-lens",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Prism into SystemID",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_PublicID",
           "normalized": "Prism' ExternalID(Text,Text)",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eSystemID\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_SystemID",
           "package": "xml-html-conduit-lens",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Prism into SystemID",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "_SystemID",
           "package": "xml-html-conduit-lens",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003edoctypeID\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "doctypeID",
           "package": "xml-html-conduit-lens",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Lens into doctypeID",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "doctypeID",
           "package": "xml-html-conduit-lens",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003edoctypeName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "doctypeName",
           "package": "xml-html-conduit-lens",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Lens into doctypeName",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "doctypeName",
           "package": "xml-html-conduit-lens",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003edocumentEpilogue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "documentEpilogue",
           "package": "xml-html-conduit-lens",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Lens into documentEpilogue",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "documentEpilogue",
           "normalized": "Lens' Document[Miscellaneous]",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003edocumentPrologue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "documentPrologue",
           "package": "xml-html-conduit-lens",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Lens into documentPrologue",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "documentPrologue",
           "package": "xml-html-conduit-lens",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003edocumentRoot\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "documentRoot",
           "package": "xml-html-conduit-lens",
@@ -344,6 +371,7 @@
         "index": {
           "description": "Lens into documentRoot",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "documentRoot",
           "package": "xml-html-conduit-lens",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003eelementAttributes\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "elementAttributes",
           "package": "xml-html-conduit-lens",
@@ -368,6 +397,7 @@
         "index": {
           "description": "Lens into elementAttributes",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "elementAttributes",
           "package": "xml-html-conduit-lens",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003eelementName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "elementName",
           "package": "xml-html-conduit-lens",
@@ -392,6 +423,7 @@
         "index": {
           "description": "Lens into elementName",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "elementName",
           "package": "xml-html-conduit-lens",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003eelementNodes\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "elementNodes",
           "package": "xml-html-conduit-lens",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Lens into elementNodes",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "elementNodes",
           "normalized": "Lens' Element[Node]",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003einstructionData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "instructionData",
           "package": "xml-html-conduit-lens",
@@ -442,6 +477,7 @@
         "index": {
           "description": "Lens into instructionData",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "instructionData",
           "package": "xml-html-conduit-lens",
@@ -456,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003einstructionTarget\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "instructionTarget",
           "package": "xml-html-conduit-lens",
@@ -466,6 +503,7 @@
         "index": {
           "description": "Lens into instructionTarget",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "instructionTarget",
           "package": "xml-html-conduit-lens",
@@ -480,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003enameLocalName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "nameLocalName",
           "package": "xml-html-conduit-lens",
@@ -490,6 +529,7 @@
         "index": {
           "description": "Lens into nameLocalName",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "nameLocalName",
           "package": "xml-html-conduit-lens",
@@ -504,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003enameNamespace\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "nameNamespace",
           "package": "xml-html-conduit-lens",
@@ -514,6 +555,7 @@
         "index": {
           "description": "Lens into nameNamespace",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "nameNamespace",
           "package": "xml-html-conduit-lens",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003enamePrefix\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "namePrefix",
           "package": "xml-html-conduit-lens",
@@ -538,6 +581,7 @@
         "index": {
           "description": "Lens into namePrefix",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "namePrefix",
           "package": "xml-html-conduit-lens",
@@ -552,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003eprologueAfter\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "prologueAfter",
           "package": "xml-html-conduit-lens",
@@ -562,6 +607,7 @@
         "index": {
           "description": "Lens into prologueAfter",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "prologueAfter",
           "normalized": "Lens' Prologue[Miscellaneous]",
@@ -578,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003eprologueBefore\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "prologueBefore",
           "package": "xml-html-conduit-lens",
@@ -588,6 +635,7 @@
         "index": {
           "description": "Lens into prologueBefore",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "prologueBefore",
           "normalized": "Lens' Prologue[Miscellaneous]",
@@ -604,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003eprologueDoctype\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "prologueDoctype",
           "package": "xml-html-conduit-lens",
@@ -614,6 +663,7 @@
         "index": {
           "description": "Lens into prologueDoctype",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "prologueDoctype",
           "package": "xml-html-conduit-lens",
@@ -628,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003ersPretty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "psDecodeEntities",
           "package": "xml-html-conduit-lens",
@@ -638,6 +689,7 @@
         "index": {
           "description": "Lens into rsPretty",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "psDecodeEntities",
           "package": "xml-html-conduit-lens",
@@ -652,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003ersAttrOrder\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "rsAttrOrder",
           "package": "xml-html-conduit-lens",
@@ -662,6 +715,7 @@
         "index": {
           "description": "Lens into rsAttrOrder",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "rsAttrOrder",
           "normalized": "Lens' RenderSettings(Name-\u003eMap Name Text-\u003e[(Name,Text)])",
@@ -678,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003ersNamespaces\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "rsNamespaces",
           "package": "xml-html-conduit-lens",
@@ -688,6 +743,7 @@
         "index": {
           "description": "Lens into rsNamespaces",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "rsNamespaces",
           "normalized": "Lens' RenderSettings[(Text,Text)]",
@@ -704,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into \u003ccode\u003e\u003ca\u003ersPretty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "rsPretty",
           "package": "xml-html-conduit-lens",
@@ -714,6 +771,7 @@
         "index": {
           "description": "Lens into rsPretty",
           "hierarchy": "Text Xml Lens LowLevel",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens.LowLevel",
           "name": "rsPretty",
           "package": "xml-html-conduit-lens",
@@ -728,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOptics for xml-conduit and html-conduit\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "Lens",
           "package": "xml-html-conduit-lens",
@@ -737,6 +796,7 @@
         "index": {
           "description": "Optics for xml-conduit and html-conduit",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "Lens",
           "package": "xml-html-conduit-lens",
@@ -751,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML document parsing overloading\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "AsHtmlDocument",
           "package": "xml-html-conduit-lens",
@@ -760,6 +821,7 @@
         "index": {
           "description": "HTML document parsing overloading",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "AsHtmlDocument",
           "package": "xml-html-conduit-lens",
@@ -774,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exml-conduit\u003c/code\u003e XML parsing exceptions overloading\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "AsInvalidEventStream",
           "package": "xml-html-conduit-lens",
@@ -783,6 +846,7 @@
         "index": {
           "description": "xml-conduit XML parsing exceptions overloading",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "AsInvalidEventStream",
           "package": "xml-html-conduit-lens",
@@ -797,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exml-conduit\u003c/code\u003e entity resolving exceptions overloading\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "AsUnresolvedEntityException",
           "package": "xml-html-conduit-lens",
@@ -806,6 +871,7 @@
         "index": {
           "description": "xml-conduit entity resolving exceptions overloading",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "AsUnresolvedEntityException",
           "package": "xml-html-conduit-lens",
@@ -820,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exml-conduit\u003c/code\u003e general XML exception overloading\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "AsXMLException",
           "package": "xml-html-conduit-lens",
@@ -829,6 +896,7 @@
         "index": {
           "description": "xml-conduit general XML exception overloading",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "AsXMLException",
           "package": "xml-html-conduit-lens",
@@ -843,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML document parsing and rendering overloading\n\u003c/p\u003e\u003cp\u003eThis is a general version; for parsing/rendering with the\n default options see \u003ccode\u003e\u003ca\u003e_XmlDocument\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "AsXmlDocument",
           "package": "xml-html-conduit-lens",
@@ -852,6 +921,7 @@
         "index": {
           "description": "XML document parsing and rendering overloading This is general version for parsing rendering with the default options see XmlDocument",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "AsXmlDocument",
           "package": "xml-html-conduit-lens",
@@ -866,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote: due to the incredible complexity of DTDs, this type only supports\n external subsets. I've tried adding internal subset types, but they\n quickly gain more code than the rest of this module put together.\n\u003c/p\u003e\u003cp\u003eIt is possible that some future version of this library might support\n internal subsets, but I am no longer actively working on adding them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "Doctype",
           "package": "xml-html-conduit-lens",
@@ -874,6 +945,7 @@
         "index": {
           "description": "Note due to the incredible complexity of DTDs this type only supports external subsets ve tried adding internal subset types but they quickly gain more code than the rest of this module put together It is possible that some future version of this library might support internal subsets but am no longer actively working on adding them",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "Doctype",
           "package": "xml-html-conduit-lens",
@@ -887,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "Document",
           "package": "xml-html-conduit-lens",
@@ -894,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "Document",
           "package": "xml-html-conduit-lens",
@@ -907,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "Element",
           "package": "xml-html-conduit-lens",
@@ -914,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "Element",
           "package": "xml-html-conduit-lens",
@@ -928,6 +1004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnything that has comments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "HasComments",
           "package": "xml-html-conduit-lens",
@@ -937,6 +1014,7 @@
         "index": {
           "description": "Anything that has comments",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "HasComments",
           "package": "xml-html-conduit-lens",
@@ -951,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnything that has processing instructions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "HasInstructions",
           "package": "xml-html-conduit-lens",
@@ -960,6 +1039,7 @@
         "index": {
           "description": "Anything that has processing instructions",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "HasInstructions",
           "package": "xml-html-conduit-lens",
@@ -974,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnything that has a name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "HasName",
           "package": "xml-html-conduit-lens",
@@ -983,6 +1064,7 @@
         "index": {
           "description": "Anything that has name",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "HasName",
           "package": "xml-html-conduit-lens",
@@ -996,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "Instruction",
           "package": "xml-html-conduit-lens",
@@ -1003,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "Instruction",
           "package": "xml-html-conduit-lens",
@@ -1017,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fully qualified name.\n\u003c/p\u003e\u003cp\u003ePrefixes are not semantically important; they are included only to\n simplify pass-through parsing. When comparing names with \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e\n methods, prefixes are ignored.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eIsString\u003c/code\u003e instance supports Clark notation; see\n \u003ca\u003ehttp://www.jclark.com/xml/xmlns.htm\u003c/a\u003e and\n \u003ca\u003ehttp://infohost.nmt.edu/tcc/help/pubs/pylxml/etree-QName.html\u003c/a\u003e. Use\n the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension for very simple \u003ccode\u003eName\u003c/code\u003e\n construction:\n\u003c/p\u003e\u003cpre\u003e myname :: Name\n myname = \"{http://example.com/ns/my-namespace}my-name\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "Name",
           "package": "xml-html-conduit-lens",
@@ -1025,6 +1110,7 @@
         "index": {
           "description": "fully qualified name Prefixes are not semantically important they are included only to simplify pass-through parsing When comparing names with Eq or Ord methods prefixes are ignored The IsString instance supports Clark notation see http www.jclark.com xml xmlns.htm and http infohost.nmt.edu tcc help pubs pylxml etree-QName.html Use the OverloadedStrings language extension for very simple Name construction myname Name myname http example.com ns my-namespace my-name",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "Name",
           "package": "xml-html-conduit-lens",
@@ -1038,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "UnresolvedEntityException",
           "package": "xml-html-conduit-lens",
@@ -1045,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "UnresolvedEntityException",
           "package": "xml-html-conduit-lens",
@@ -1058,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "XMLException",
           "package": "xml-html-conduit-lens",
@@ -1065,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "XMLException",
           "package": "xml-html-conduit-lens",
@@ -1079,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eContentAfterRoot\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "_ContentAfterRoot",
           "package": "xml-html-conduit-lens",
@@ -1089,6 +1180,7 @@
         "index": {
           "description": "Prism into ContentAfterRoot",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "_ContentAfterRoot",
           "package": "xml-html-conduit-lens",
@@ -1102,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "_HtmlDocument",
           "package": "xml-html-conduit-lens",
@@ -1111,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "_HtmlDocument",
           "package": "xml-html-conduit-lens",
@@ -1124,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "_InvalidEventStream",
           "package": "xml-html-conduit-lens",
@@ -1133,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "_InvalidEventStream",
           "package": "xml-html-conduit-lens",
@@ -1147,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eInvalidInlineDoctype\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "_InvalidInlineDoctype",
           "package": "xml-html-conduit-lens",
@@ -1157,6 +1254,7 @@
         "index": {
           "description": "Prism into InvalidInlineDoctype",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "_InvalidInlineDoctype",
           "package": "xml-html-conduit-lens",
@@ -1171,6 +1269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eMissingEndElement\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "_MissingEndElement",
           "package": "xml-html-conduit-lens",
@@ -1181,6 +1280,7 @@
         "index": {
           "description": "Prism into MissingEndElement",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "_MissingEndElement",
           "normalized": "Prism' a(Name,Maybe EventPos)",
@@ -1197,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eMissingRootElement\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "_MissingRootElement",
           "package": "xml-html-conduit-lens",
@@ -1207,6 +1308,7 @@
         "index": {
           "description": "Prism into MissingRootElement",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "_MissingRootElement",
           "normalized": "Prism' a()",
@@ -1222,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "_Name",
           "package": "xml-html-conduit-lens",
@@ -1231,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "_Name",
           "package": "xml-html-conduit-lens",
@@ -1244,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "_UnresolvedEntityException",
           "package": "xml-html-conduit-lens",
@@ -1253,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "_UnresolvedEntityException",
           "package": "xml-html-conduit-lens",
@@ -1267,6 +1373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eUnterminatedInlineDoctype\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "_UnterminatedInlineDoctype",
           "package": "xml-html-conduit-lens",
@@ -1277,6 +1384,7 @@
         "index": {
           "description": "Prism into UnterminatedInlineDoctype",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "_UnterminatedInlineDoctype",
           "normalized": "Prism' a()",
@@ -1292,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "_XMLException",
           "package": "xml-html-conduit-lens",
@@ -1301,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "_XMLException",
           "package": "xml-html-conduit-lens",
@@ -1315,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML document parsing and rendering with the default settings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "_XmlDocument",
           "package": "xml-html-conduit-lens",
@@ -1325,6 +1436,7 @@
         "index": {
           "description": "XML document parsing and rendering with the default settings",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "_XmlDocument",
           "package": "xml-html-conduit-lens",
@@ -1338,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "_XmlDocumentWith",
           "package": "xml-html-conduit-lens",
@@ -1347,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "_XmlDocumentWith",
           "normalized": "ParseSettings-\u003eRenderSettings-\u003ePrism' a Document",
@@ -1363,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into nodes after XML DOCTYPE declaration\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet doc = \"\u003c!--foo--\u003e\u003c!DOCTYPE bar\u003e\u003c!--baz--\u003e\u003croot/\u003e\" :: TL.Text\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^? prolog.afterDoctype.folded.comments\n\u003c/code\u003e\u003c/strong\u003eJust \"baz\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc & prolog.afterDoctype.traverse.comments %~ Text.toUpper\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003c!--foo--\u003e\u003c!DOCTYPE bar\u003e\u003c!--BAZ--\u003e\u003croot/\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "afterDoctype",
           "package": "xml-html-conduit-lens",
@@ -1373,6 +1488,7 @@
         "index": {
           "description": "Lens into nodes after XML DOCTYPE declaration let doc foo DOCTYPE bar baz root TL.Text doc prolog.afterDoctype.folded.comments Just baz doc prolog.afterDoctype.traverse.comments Text.toUpper xml version encoding UTF-8 foo DOCTYPE bar BAZ root",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "afterDoctype",
           "normalized": "Lens' Prologue[Miscellaneous]",
@@ -1389,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse node attributes with a specific name\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet doc = \"\u003croot\u003e\u003cfoo bar=\\\"baz\\\" qux=\\\"quux\\\"/\u003e\u003cfoo qux=\\\"xyzzy\\\"/\u003e\u003c/root\u003e\" :: TL.Text\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^.. xml...attr \"qux\"\n\u003c/code\u003e\u003c/strong\u003e[\"quux\",\"xyzzy\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^.. xml...attr \"bar\"\n\u003c/code\u003e\u003c/strong\u003e[\"baz\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc & xml...attr \"qux\" %~ Text.reverse\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003croot\u003e\u003cfoo bar=\\\"baz\\\" qux=\\\"xuuq\\\"/\u003e\u003cfoo qux=\\\"yzzyx\\\"/\u003e\u003c/root\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "attr",
           "package": "xml-html-conduit-lens",
@@ -1399,6 +1516,7 @@
         "index": {
           "description": "Traverse node attributes with specific name let doc root foo bar baz qux quux foo qux xyzzy root TL.Text doc xml...attr qux quux xyzzy doc xml...attr bar baz doc xml...attr qux Text.reverse xml version encoding UTF-8 root foo bar baz qux xuuq foo qux yzzyx root",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "attr",
           "normalized": "Name-\u003eTraversal' Element Text",
@@ -1414,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect nodes by attributes' values\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet doc = \"\u003croot\u003e\u003cfoo bar=\\\"baz\\\"\u003e4\u003c/foo\u003e\u003cfoo bar=\\\"quux\\\"\u003e7\u003c/foo\u003e\u003cbar bar=\\\"baz\\\"\u003e11\u003c/bar\u003e\u003c/root\u003e\" :: TL.Text\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^.. xml...attributed (ix \"bar\".only \"baz\").text\n\u003c/code\u003e\u003c/strong\u003e[\"4\",\"11\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^? xml...attributed (folded.to Text.length.only 4).text\n\u003c/code\u003e\u003c/strong\u003eJust \"7\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "attributed",
           "package": "xml-html-conduit-lens",
@@ -1424,6 +1543,7 @@
         "index": {
           "description": "Select nodes by attributes values let doc root foo bar baz foo foo bar quux foo bar bar baz bar root TL.Text doc xml...attributed ix bar only baz text doc xml...attributed folded.to Text.length.only text Just",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "attributed",
           "normalized": "Fold(Map Name Text)a-\u003eTraversal' Element Element",
@@ -1439,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse node attributes\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet doc = \"\u003croot\u003e\u003cfoo bar=\\\"baz\\\" qux=\\\"zap\\\"/\u003e\u003cfoo quux=\\\"xyzzy\\\"/\u003e\u003c/root\u003e\" :: TL.Text\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^.. xml...attrs.indices (has (name.unpacked.prefixed \"qu\"))\n\u003c/code\u003e\u003c/strong\u003e[\"zap\",\"xyzzy\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc & xml...attrs %~ Text.toUpper\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003croot\u003e\u003cfoo bar=\\\"BAZ\\\" qux=\\\"ZAP\\\"/\u003e\u003cfoo quux=\\\"XYZZY\\\"/\u003e\u003c/root\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "attrs",
           "package": "xml-html-conduit-lens",
@@ -1449,6 +1570,7 @@
         "index": {
           "description": "Traverse node attributes let doc root foo bar baz qux zap foo quux xyzzy root TL.Text doc xml...attrs.indices has name.unpacked.prefixed qu zap xyzzy doc xml...attrs Text.toUpper xml version encoding UTF-8 root foo bar BAZ qux ZAP foo quux XYZZY root",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "attrs",
           "package": "xml-html-conduit-lens",
@@ -1462,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into nodes before XML DOCTYPE declaration\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet doc = \"\u003c!--foo--\u003e\u003c!DOCTYPE bar\u003e\u003c!--baz--\u003e\u003croot/\u003e\" :: TL.Text\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^? prolog.beforeDoctype.folded.comments\n\u003c/code\u003e\u003c/strong\u003eJust \"foo\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc & prolog.beforeDoctype.traverse.comments %~ Text.toUpper\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003c!--FOO--\u003e\u003c!DOCTYPE bar\u003e\u003c!--baz--\u003e\u003croot/\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "beforeDoctype",
           "package": "xml-html-conduit-lens",
@@ -1472,6 +1595,7 @@
         "index": {
           "description": "Lens into nodes before XML DOCTYPE declaration let doc foo DOCTYPE bar baz root TL.Text doc prolog.beforeDoctype.folded.comments Just foo doc prolog.beforeDoctype.traverse.comments Text.toUpper xml version encoding UTF-8 FOO DOCTYPE bar baz root",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "beforeDoctype",
           "normalized": "Lens' Prologue[Miscellaneous]",
@@ -1487,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "comments",
           "package": "xml-html-conduit-lens",
@@ -1496,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "comments",
           "package": "xml-html-conduit-lens",
@@ -1509,6 +1635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcessing instruction data\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet doc = \"\u003croot\u003e\u003c?foo bar?\u003e\u003c/root\u003e\" :: TL.Text\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^? xml.instructions.data_\n\u003c/code\u003e\u003c/strong\u003eJust \"bar\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc & xml.instructions.data_ .~ \"hoo\"\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003croot\u003e\u003c?foo hoo?\u003e\u003c/root\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "data_",
           "package": "xml-html-conduit-lens",
@@ -1519,6 +1646,7 @@
         "index": {
           "description": "Processing instruction data let doc root foo bar root TL.Text doc xml.instructions.data Just bar doc xml.instructions.data hoo xml version encoding UTF-8 root foo hoo root",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "data_",
           "package": "xml-html-conduit-lens",
@@ -1532,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into XML DOCTYPE declaration\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet doc = \"\u003c!DOCTYPE foo\u003e\u003croot/\u003e\" :: TL.Text\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^? prolog.doctype.folded.doctypeName\n\u003c/code\u003e\u003c/strong\u003eJust \"foo\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc & prolog.doctype.traverse.doctypeName .~ \"moo\"\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003c!DOCTYPE moo\u003e\u003croot/\u003e\"\n\u003c/pre\u003e\u003cp\u003eSince \u003ccode\u003edoctype\u003c/code\u003e's a Lens, it's possible to attach DOCTYPE declaration\n to an XML document which didn't have it before:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003croot/\u003e\" :: TL.Text) & prolog.doctype ?~ XML.Doctype \"moo\" Nothing\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003c!DOCTYPE moo\u003e\u003croot/\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "doctype",
           "package": "xml-html-conduit-lens",
@@ -1542,6 +1671,7 @@
         "index": {
           "description": "Lens into XML DOCTYPE declaration let doc DOCTYPE foo root TL.Text doc prolog.doctype.folded.doctypeName Just foo doc prolog.doctype.traverse.doctypeName moo xml version encoding UTF-8 DOCTYPE moo root Since doctype Lens it possible to attach DOCTYPE declaration to an XML document which didn have it before root TL.Text prolog.doctype XML.Doctype moo Nothing xml version encoding UTF-8 DOCTYPE moo root",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "doctype",
           "package": "xml-html-conduit-lens",
@@ -1555,6 +1685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Traversal into XML epilog\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet doc = \"\u003croot/\u003e\u003c!--qux--\u003e\u003c?foo bar?\u003e\u003c!--quux--\u003e\" :: TL.Text\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^.. epilog.folded.comments\n\u003c/code\u003e\u003c/strong\u003e[\"qux\",\"quux\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^.. epilog.folded.instructions.target\n\u003c/code\u003e\u003c/strong\u003e[\"foo\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc & epilog .~ []\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003croot/\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "epilog",
           "package": "xml-html-conduit-lens",
@@ -1565,6 +1696,7 @@
         "index": {
           "description": "Traversal into XML epilog let doc root qux foo bar quux TL.Text doc epilog.folded.comments qux quux doc epilog.folded.instructions.target foo doc epilog xml version encoding UTF-8 root",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "epilog",
           "normalized": "Traversal' a[Miscellaneous]",
@@ -1580,6 +1712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Fold into HTML document root node\n\u003c/p\u003e\u003cp\u003eNot every parseable HTML document is a valid XML document:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet quasiXml = \"\u003chtml\u003e\u003cbr\u003e\u003cbr\u003e\u003c/html\u003e\" :: BL.ByteString\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003equasiXml ^.. html...name\n\u003c/code\u003e\u003c/strong\u003e[\"br\",\"br\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003equasiXml ^? xml...name\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "html",
           "package": "xml-html-conduit-lens",
@@ -1590,6 +1723,7 @@
         "index": {
           "description": "Fold into HTML document root node Not every parseable HTML document is valid XML document let quasiXml html br br html BL.ByteString quasiXml html...name br br quasiXml xml...name Nothing",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "html",
           "package": "xml-html-conduit-lens",
@@ -1602,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "instructions",
           "package": "xml-html-conduit-lens",
@@ -1611,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "instructions",
           "package": "xml-html-conduit-lens",
@@ -1624,6 +1760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into node name\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003croot/\u003e\" :: TL.Text) ^. xml.name\n\u003c/code\u003e\u003c/strong\u003e\"root\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003croot\u003e\u003cfoo/\u003e\u003cbar/\u003e\u003cbaz/\u003e\u003c/root\u003e\" :: TL.Text) ^.. xml...name\n\u003c/code\u003e\u003c/strong\u003e[\"foo\",\"bar\",\"baz\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003croot\u003e\u003cfoo/\u003e\u003cbar/\u003e\u003cbaz\u003e\u003c/root\u003e\" :: TL.Text) & xml.partsOf (plate.name) .~ [\"boo\", \"hoo\", \"moo\"]\n\u003c/code\u003e\u003c/strong\u003e\"\u003croot\u003e\u003cfoo/\u003e\u003cbar/\u003e\u003cbaz\u003e\u003c/root\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "name",
           "package": "xml-html-conduit-lens",
@@ -1634,6 +1771,7 @@
         "index": {
           "description": "Lens into node name root TL.Text xml.name root root foo bar baz root TL.Text xml...name foo bar baz root foo bar baz root TL.Text xml.partsOf plate.name boo hoo moo root foo bar baz root",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "name",
           "package": "xml-html-conduit-lens",
@@ -1647,6 +1785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect nodes by name\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet doc = \"\u003croot\u003e\u003cfoo\u003e4\u003c/foo\u003e\u003cfoo\u003e7\u003c/foo\u003e\u003cbar\u003e11\u003c/bar\u003e\u003cbar xmlns=\\\"zap\\\"\u003e28\u003c/bar\u003e\u003c/root\u003e\" :: TL.Text\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^.. xml...named (only \"foo\").name\n\u003c/code\u003e\u003c/strong\u003e[\"foo\",\"foo\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^? xml...named (namespace.traverse.only \"zap\").text\n\u003c/code\u003e\u003c/strong\u003eJust \"28\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^? xml...named (only \"baz\").name\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "named",
           "package": "xml-html-conduit-lens",
@@ -1657,6 +1796,7 @@
         "index": {
           "description": "Select nodes by name let doc root foo foo foo foo bar bar bar xmlns zap bar root TL.Text doc xml...named only foo name foo foo doc xml...named namespace.traverse.only zap text Just doc xml...named only baz name Nothing",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "named",
           "normalized": "Fold Name a-\u003eTraversal' Element Element",
@@ -1672,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into node namespace\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003croot/\u003e\" :: TL.Text) ^. xml.namespace\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003croot/\u003e\" :: TL.Text) & xml.namespace ?~ \"foo\"\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003croot xmlns=\\\"foo\\\"/\u003e\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003croot xmlns=\\\"foo\\\"/\u003e\" :: TL.Text) & xml.namespace .~ Nothing\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003croot/\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "namespace",
           "package": "xml-html-conduit-lens",
@@ -1682,6 +1823,7 @@
         "index": {
           "description": "Lens into node namespace root TL.Text xml.namespace Nothing root TL.Text xml.namespace foo xml version encoding UTF-8 root xmlns foo root xmlns foo TL.Text xml.namespace Nothing xml version encoding UTF-8 root",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "namespace",
           "package": "xml-html-conduit-lens",
@@ -1695,6 +1837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse immediate children with a specific name\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet doc = \"\u003croot\u003e\u003cfoo\u003eboo\u003c/foo\u003e\u003cfoo\u003ehoo\u003c/foo\u003e\u003cbar\u003emoo\u003c/bar\u003e\u003c/root\u003e\" :: TL.Text\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^. xml.node \"foo\".text\n\u003c/code\u003e\u003c/strong\u003e\"boohoo\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^? xml.node \"bar\".text\n\u003c/code\u003e\u003c/strong\u003eJust \"moo\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^? xml.node \"baz\".text\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "node",
           "package": "xml-html-conduit-lens",
@@ -1705,6 +1848,7 @@
         "index": {
           "description": "Traverse immediate children with specific name let doc root foo boo foo foo hoo foo bar moo bar root TL.Text doc xml.node foo text boohoo doc xml.node bar text Just moo doc xml.node baz text Nothing",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "node",
           "normalized": "Name-\u003eTraversal' Element Element",
@@ -1720,6 +1864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lens into node namespace\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003croot/\u003e\" :: TL.Text) ^. xml.prefix\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003croot/\u003e\" :: TL.Text) & xml.prefix ?~ \"foo\"\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003croot/\u003e\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003croot xmlns=\\\"foo\\\"/\u003e\" :: TL.Text) & xml.prefix ?~ \"foo\"\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003cfoo:root xmlns:foo=\\\"foo\\\"/\u003e\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003cfoo:root xmlns:foo=\\\"foo\\\"/\u003e\" :: TL.Text) & xml.prefix .~ Nothing\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003croot xmlns=\\\"foo\\\"/\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "prefix",
           "package": "xml-html-conduit-lens",
@@ -1730,6 +1875,7 @@
         "index": {
           "description": "Lens into node namespace root TL.Text xml.prefix Nothing root TL.Text xml.prefix foo xml version encoding UTF-8 root root xmlns foo TL.Text xml.prefix foo xml version encoding UTF-8 foo root xmlns foo foo xml version encoding UTF-8 foo root xmlns foo foo TL.Text xml.prefix Nothing xml version encoding UTF-8 root xmlns foo",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "prefix",
           "package": "xml-html-conduit-lens",
@@ -1743,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Traversal into XML prolog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "prolog",
           "package": "xml-html-conduit-lens",
@@ -1753,6 +1900,7 @@
         "index": {
           "description": "Traversal into XML prolog",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "prolog",
           "package": "xml-html-conduit-lens",
@@ -1766,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003exml\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "root",
           "package": "xml-html-conduit-lens",
@@ -1776,6 +1925,7 @@
         "index": {
           "description": "An alias for xml",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "root",
           "package": "xml-html-conduit-lens",
@@ -1789,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcessing instruction target\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet doc = \"\u003croot\u003e\u003c?foo bar?\u003e\u003c/root\u003e\" :: TL.Text\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^? xml.instructions.target\n\u003c/code\u003e\u003c/strong\u003eJust \"foo\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc & xml.instructions.target .~ \"boo\"\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003croot\u003e\u003c?boo bar?\u003e\u003c/root\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "target",
           "package": "xml-html-conduit-lens",
@@ -1799,6 +1950,7 @@
         "index": {
           "description": "Processing instruction target let doc root foo bar root TL.Text doc xml.instructions.target Just foo doc xml.instructions.target boo xml version encoding UTF-8 root boo bar root",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "target",
           "package": "xml-html-conduit-lens",
@@ -1812,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse node text contents\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet doc = \"\u003croot\u003eboo\u003c/root\u003e\" :: TL.Text\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc ^? xml.text\n\u003c/code\u003e\u003c/strong\u003eJust \"boo\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edoc & xml.text \u003c\u003e~ \"hoo\"\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003croot\u003eboohoo\u003c/root\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "text",
           "package": "xml-html-conduit-lens",
@@ -1822,6 +1975,7 @@
         "index": {
           "description": "Traverse node text contents let doc root boo root TL.Text doc xml.text Just boo doc xml.text hoo xml version encoding UTF-8 root boohoo root",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "text",
           "package": "xml-html-conduit-lens",
@@ -1835,6 +1989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Traversal into XML document root node\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003cfoo/\u003e\" :: TL.Text) ^? xml.name\n\u003c/code\u003e\u003c/strong\u003eJust \"foo\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003cfoo\u003e\u003cbar/\u003e\u003cbaz/\u003e\u003c/foo\u003e\" :: TL.Text) ^? xml.name\n\u003c/code\u003e\u003c/strong\u003eJust \"foo\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"\u003cfoo/\u003e\" :: TL.Text) & xml.name .~ \"boo\"\n\u003c/code\u003e\u003c/strong\u003e\"\u003c?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?\u003e\u003cboo/\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:22 UTC 2014",
           "module": "Text.Xml.Lens",
           "name": "xml",
           "package": "xml-html-conduit-lens",
@@ -1845,6 +2000,7 @@
         "index": {
           "description": "Traversal into XML document root node foo TL.Text xml.name Just foo foo bar baz foo TL.Text xml.name Just foo foo TL.Text xml.name boo xml version encoding UTF-8 boo",
           "hierarchy": "Text Xml Lens",
+          "indexed": "2014-03-11T20:42:22",
           "module": "Text.Xml.Lens",
           "name": "xml",
           "package": "xml-html-conduit-lens",

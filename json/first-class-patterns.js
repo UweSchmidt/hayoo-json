@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "first-class-patterns"
+        "phrase": "first-class-patterns",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious types defined inductively as type families or data families\n on type-lists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base.Tuple",
           "name": "Tuple",
           "package": "first-class-patterns",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Various types defined inductively as type families or data families on type-lists",
           "hierarchy": "Data Pattern Base Tuple",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base.Tuple",
           "name": "Tuple",
           "package": "first-class-patterns",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base.Tuple",
           "name": "Distribute",
           "package": "first-class-patterns",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Pattern Base Tuple",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base.Tuple",
           "name": "Distribute",
           "package": "first-class-patterns",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurried functions. We have\n\u003c/p\u003e\u003cpre\u003eFun '[x1, ..., xn] r   =   x1 -\u003e ... -\u003e xn -\u003e r\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base.Tuple",
           "name": "Fun",
           "package": "first-class-patterns",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Curried functions We have Fun x1 xn x1 xn",
           "hierarchy": "Data Pattern Base Tuple",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base.Tuple",
           "name": "Fun",
           "package": "first-class-patterns",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base.Tuple",
           "name": "Map",
           "package": "first-class-patterns",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Pattern Base Tuple",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base.Tuple",
           "name": "Map",
           "package": "first-class-patterns",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuples with types given by \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base.Tuple",
           "name": "Tuple",
           "package": "first-class-patterns",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Tuples with types given by xs",
           "hierarchy": "Data Pattern Base Tuple",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base.Tuple",
           "name": "Tuple",
           "package": "first-class-patterns",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation of tuples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base.Tuple",
           "name": "(\u003c\u003e)",
           "package": "first-class-patterns",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Concatenation of tuples",
           "hierarchy": "Data Pattern Base Tuple",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base.Tuple",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Tuple a-\u003eTuple b-\u003eTuple(a b)",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base.Tuple",
           "name": "distribute",
           "package": "first-class-patterns",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Pattern Base Tuple",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base.Tuple",
           "name": "distribute",
           "normalized": "a(Tuple b)-\u003eTuple(Map a b)",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe singleton tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base.Tuple",
           "name": "oneT",
           "package": "first-class-patterns",
@@ -188,6 +203,7 @@
         "index": {
           "description": "The singleton tuple",
           "hierarchy": "Data Pattern Base Tuple",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base.Tuple",
           "name": "oneT",
           "normalized": "a-\u003eTuple[a]",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a tuple by applying it to a curried function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base.Tuple",
           "name": "runTuple",
           "package": "first-class-patterns",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Runs tuple by applying it to curried function",
           "hierarchy": "Data Pattern Base Tuple",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base.Tuple",
           "name": "runTuple",
           "normalized": "Tuple a-\u003eFun a b-\u003eb",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base.Tuple",
           "name": "zeroT",
           "package": "first-class-patterns",
@@ -239,6 +258,7 @@
         "index": {
           "description": "The empty tuple",
           "hierarchy": "Data Pattern Base Tuple",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base.Tuple",
           "name": "zeroT",
           "normalized": "Tuple[]",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level lists. These lists only describe the types, but contain\n no data. That is, they are phantom types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base.TypeList",
           "name": "TypeList",
           "package": "first-class-patterns",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Type-level lists These lists only describe the types but contain no data That is they are phantom types",
           "hierarchy": "Data Pattern Base TypeList",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base.TypeList",
           "name": "TypeList",
           "package": "first-class-patterns",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation of lists. Instances:\n\u003c/p\u003e\u003cpre\u003e type instance Nil     :++: xs = xs\n type instance (h:*:t) :++: xs = h :*: (t :++: xs)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base.TypeList",
           "name": ":++:",
           "package": "first-class-patterns",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Concatenation of lists Instances type instance Nil xs xs type instance xs xs",
           "hierarchy": "Data Pattern Base TypeList",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base.TypeList",
           "name": ":++:",
           "package": "first-class-patterns",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main types used in the implementation of first-class patterns:\n \u003ccode\u003e\u003ca\u003ePattern\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eClause\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base",
           "name": "Base",
           "package": "first-class-patterns",
@@ -308,6 +333,7 @@
         "index": {
           "description": "The main types used in the implementation of first-class patterns Pattern and Clause",
           "hierarchy": "Data Pattern Base",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base",
           "name": "Base",
           "package": "first-class-patterns",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePattern-match clauses. Typically something of the form\n\u003c/p\u003e\u003cpre\u003epattern \u003ccode\u003e\u003ca\u003e-\u003e\u003e\u003c/a\u003e\u003c/code\u003e function\u003c/pre\u003e\u003cp\u003ewhere the function takes one argument for each variable bound by\n   the pattern.\n\u003c/p\u003e\u003cp\u003eClauses can be constructed with \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e-\u003e\u003e\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e, run with \u003ccode\u003etryMatch\u003c/code\u003e,\n   and manipulated by the \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e instances. In\n   particular, the \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e operator from the \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e class\n   is the way to list multiple cases in a pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base",
           "name": "Clause",
           "package": "first-class-patterns",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Pattern-match clauses Typically something of the form pattern function where the function takes one argument for each variable bound by the pattern Clauses can be constructed with run with tryMatch and manipulated by the Monad and MonadPlus instances In particular the operator from the Alternative class is the way to list multiple cases in pattern",
           "hierarchy": "Data Pattern Base",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base",
           "name": "Clause",
           "package": "first-class-patterns",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe pattern type. A value of type \u003ccode\u003ePattern vars a\u003c/code\u003e is a pattern\n   which matches values of type \u003ccode\u003ea\u003c/code\u003e and binds variables with types\n   given by the type-list \u003ccode\u003evars\u003c/code\u003e.  For example, something of type\n\u003c/p\u003e\u003cpre\u003e Pattern (a :*: c :*: Nil) (a,b,c)\n\u003c/pre\u003e\u003cp\u003eis a pattern which matches against a triple and binds values of\n   types \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003ec\u003c/code\u003e. (A pattern of this type can be constructed as\n   \u003ccode\u003etup3 var __ var\u003c/code\u003e.)\n\u003c/p\u003e\u003cp\u003eMany \"normal\" patterns can be conveniently defined using \u003ccode\u003emk0\u003c/code\u003e,\n   \u003ccode\u003emk1\u003c/code\u003e, \u003ccode\u003emk2\u003c/code\u003e, and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base",
           "name": "Pattern",
           "package": "first-class-patterns",
@@ -354,6 +383,7 @@
         "index": {
           "description": "The pattern type value of type Pattern vars is pattern which matches values of type and binds variables with types given by the type-list vars For example something of type Pattern Nil is pattern which matches against triple and binds values of types and pattern of this type can be constructed as tup3 var var Many normal patterns can be conveniently defined using mk0 mk1 mk2 and so on",
           "hierarchy": "Data Pattern Base",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base",
           "name": "Pattern",
           "package": "first-class-patterns",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eClause\u003c/a\u003e\u003c/code\u003e from a pattern and a function which takes\n   one argument for each variable bound by the pattern. For example,\n\u003c/p\u003e\u003cpre\u003e pair __ nothing     -\u003e\u003e 3\n pair var nothing    -\u003e\u003e \\x -\u003e x + 3\n pair var (just var) -\u003e\u003e \\x y -\u003e x + y + 3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base",
           "name": "(-\u003e\u003e)",
           "package": "first-class-patterns",
@@ -378,6 +409,7 @@
         "index": {
           "description": "Construct Clause from pattern and function which takes one argument for each variable bound by the pattern For example pair nothing pair var nothing pair var just var",
           "hierarchy": "Data Pattern Base",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base",
           "name": "(-\u003e\u003e) -\u003e\u003e",
           "normalized": "Pattern a b-\u003eFun a c-\u003eClause b c",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative binary operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base",
           "name": "(\u003c|\u003e)",
           "package": "first-class-patterns",
@@ -402,6 +435,7 @@
         "index": {
           "description": "An associative binary operation",
           "hierarchy": "Data Pattern Base",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "a b c d-\u003ec d-\u003ec d",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base",
           "name": "Pattern",
           "package": "first-class-patterns",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Data Pattern Base",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base",
           "name": "Pattern",
           "package": "first-class-patterns",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the underlying computation\n constituting a \u003ccode\u003e\u003ca\u003eClause\u003c/a\u003e\u003c/code\u003e. This\n function is not intended to be used\n directly; instead, see \u003ccode\u003ematch\u003c/code\u003e,\n \u003ccode\u003etryMatch\u003c/code\u003e, \u003ccode\u003emmatch\u003c/code\u003e, and \u003ccode\u003eelim\u003c/code\u003e from\n \u003ca\u003eData.Pattern.Common\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base",
           "name": "runClause",
           "package": "first-class-patterns",
@@ -449,6 +486,7 @@
         "index": {
           "description": "Extract the underlying computation constituting Clause This function is not intended to be used directly instead see match tryMatch mmatch and elim from Data.Pattern.Common",
           "hierarchy": "Data Pattern Base",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base",
           "name": "runClause",
           "normalized": "Clause a b-\u003eReaderT a Maybe b",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Base",
           "name": "runPattern",
           "package": "first-class-patterns",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Data Pattern Base",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Base",
           "name": "runPattern",
           "normalized": "a-\u003eMaybe(Tuple b)",
@@ -489,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA collection of useful pattern combinators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "Common",
           "package": "first-class-patterns",
@@ -498,6 +539,7 @@
         "index": {
           "description": "collection of useful pattern combinators",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "Common",
           "package": "first-class-patterns",
@@ -512,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient infix synonym for \u003ccode\u003e\u003ca\u003eview\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "(--\u003e)",
           "package": "first-class-patterns",
@@ -522,6 +565,7 @@
         "index": {
           "description": "Convenient infix synonym for view",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "(--\u003e) --\u003e",
           "normalized": "(a-\u003eb)-\u003ePattern c b-\u003ePattern c a",
@@ -537,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient infix synonym for \u003ccode\u003e\u003ca\u003etryView\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "(-?\u003e)",
           "package": "first-class-patterns",
@@ -547,6 +592,7 @@
         "index": {
           "description": "Convenient infix synonym for tryView",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "(-?\u003e) -?\u003e",
           "normalized": "(a-\u003eMaybe b)-\u003ePattern c b-\u003ePattern c a",
@@ -562,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunctive (and) pattern: matches a value against two patterns,\n   and succeeds only if both succeed, binding variables from both.\n\u003c/p\u003e\u003cpre\u003e(/\\) = \u003ccode\u003e\u003ca\u003emk2\u003c/a\u003e\u003c/code\u003e (\\a -\u003e Just (a,a))\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "(/\\)",
           "package": "first-class-patterns",
@@ -572,6 +619,7 @@
         "index": {
           "description": "Conjunctive and pattern matches value against two patterns and succeeds only if both succeed binding variables from both mk2 Just",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "(/\\) /\\",
           "normalized": "Pattern a b-\u003ePattern a b-\u003ePattern(a a)b",
@@ -587,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunctive (or) pattern: matches a value against the first\n   pattern, or against the second pattern if the first one fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "(\\/)",
           "package": "first-class-patterns",
@@ -597,6 +646,7 @@
         "index": {
           "description": "Disjunctive or pattern matches value against the first pattern or against the second pattern if the first one fails",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "(\\/) \\/",
           "normalized": "Pattern a b-\u003ePattern a b-\u003ePattern a b",
@@ -612,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWildcard pattern: always succeeds, binding no variables. (This is\n   written as two underscores.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "__",
           "package": "first-class-patterns",
@@ -622,6 +673,7 @@
         "index": {
           "description": "Wildcard pattern always succeeds binding no variables This is written as two underscores",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "__",
           "normalized": "Pattern[]a",
@@ -637,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a cons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "cons",
           "package": "first-class-patterns",
@@ -647,6 +700,7 @@
         "index": {
           "description": "Match cons",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "cons",
           "normalized": "Pattern a b-\u003ePattern a[b]-\u003ePattern(a a)[b]",
@@ -662,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant pattern: test for equality to the given constant.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ecst x = is (==x)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "cst",
           "package": "first-class-patterns",
@@ -672,6 +727,7 @@
         "index": {
           "description": "Constant pattern test for equality to the given constant cst is",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "cst",
           "normalized": "a-\u003ePattern[]a",
@@ -687,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eelim = flip \u003ccode\u003e\u003ca\u003ematch\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eUseful for anonymous matching (or for building \"eliminators\",\n like \u003ccode\u003e\u003ca\u003emaybe\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eeither\u003c/a\u003e\u003c/code\u003e). For example:\n\u003c/p\u003e\u003cpre\u003e either withLeft withRight = elim $\n              left  var -\u003e\u003e withLeft\n          \u003c|\u003e right var -\u003e\u003e withRight\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "elim",
           "package": "first-class-patterns",
@@ -697,6 +754,7 @@
         "index": {
           "description": "elim flip match Useful for anonymous matching or for building eliminators like maybe and either For example either withLeft withRight elim left var withLeft right var withRight",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "elim",
           "normalized": "Clause a b-\u003ea-\u003eb",
@@ -712,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch \u003ccode\u003eFalse\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "false",
           "package": "first-class-patterns",
@@ -722,6 +781,7 @@
         "index": {
           "description": "Match False",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "false",
           "normalized": "Pattern[]Bool",
@@ -737,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egive b\u003c/code\u003e always succeeds, ignoring the matched value and\n   providing the value \u003ccode\u003eb\u003c/code\u003e instead.  Useful in conjunction with\n   \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e/\\\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e for providing default values in cases that would otherwise\n   not bind any values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "give",
           "package": "first-class-patterns",
@@ -747,6 +808,7 @@
         "index": {
           "description": "give always succeeds ignoring the matched value and providing the value instead Useful in conjunction with for providing default values in cases that would otherwise not bind any values",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "give",
           "normalized": "a-\u003ePattern[a]b",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate pattern. Succeeds if the given predicate yields \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e,\n   fails otherwise.\n\u003c/p\u003e\u003cp\u003eCan be used with \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e/\\\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e for some uses similar to pattern guards:\n\u003c/p\u003e\u003cpre\u003e match a $\n      left (var /\\ is even) -\u003e\u003e id\n  \u003c|\u003e left  __              -\u003e\u003e const 0\n  \u003c|\u003e right __              -\u003e\u003e const 1\n\u003c/pre\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003eis\u003c/a\u003e\u003c/code\u003e is like \u003ccode\u003e\u003ca\u003emk0\u003c/a\u003e\u003c/code\u003e but with \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e\n ()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "is",
           "package": "first-class-patterns",
@@ -772,6 +835,7 @@
         "index": {
           "description": "Predicate pattern Succeeds if the given predicate yields True fails otherwise Can be used with for some uses similar to pattern guards match left var is even id left const right const Note that is is like mk0 but with Bool instead of Maybe",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "is",
           "normalized": "(a-\u003eBool)-\u003ePattern[]a",
@@ -787,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e constructor of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "just",
           "package": "first-class-patterns",
@@ -797,6 +862,7 @@
         "index": {
           "description": "Match the Just constructor of Maybe",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "just",
           "normalized": "Pattern a b-\u003ePattern a(Maybe b)",
@@ -812,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e constructor of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "left",
           "package": "first-class-patterns",
@@ -822,6 +889,7 @@
         "index": {
           "description": "Match the Left constructor of Either",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "left",
           "normalized": "Pattern a b-\u003ePattern a(Either b c)",
@@ -837,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ematch\u003c/a\u003e\u003c/code\u003e satisfies the identity \u003ccode\u003ematch a c = fromJust (tryMatch a c)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "match",
           "package": "first-class-patterns",
@@ -847,6 +916,7 @@
         "index": {
           "description": "match satisfies the identity match fromJust tryMatch",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "match",
           "normalized": "a-\u003eClause a b-\u003eb",
@@ -861,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "mk0",
           "package": "first-class-patterns",
@@ -870,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "mk0",
           "normalized": "(a-\u003eMaybe())-\u003ePattern[]a",
@@ -884,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "mk1",
           "package": "first-class-patterns",
@@ -893,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "mk1",
           "normalized": "(a-\u003eMaybe b)-\u003ePattern c b-\u003ePattern c a",
@@ -907,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "mk2",
           "package": "first-class-patterns",
@@ -916,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "mk2",
           "normalized": "(a-\u003eMaybe(b,c))-\u003ePattern d b-\u003ePattern d c-\u003ePattern(d d)a",
@@ -930,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "mk3",
           "package": "first-class-patterns",
@@ -939,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "mk3",
           "normalized": "(a-\u003eMaybe(b,c,d))-\u003ePattern e b-\u003ePattern e c-\u003ePattern e d-\u003ePattern(e(e e))a",
@@ -953,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "mk4",
           "package": "first-class-patterns",
@@ -962,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "mk4",
           "normalized": "(a-\u003eMaybe(b,c,d,e))-\u003ePattern f b-\u003ePattern f c-\u003ePattern f d-\u003ePattern f e-\u003ePattern(f(f(f f)))a",
@@ -976,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "mk5",
           "package": "first-class-patterns",
@@ -985,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "mk5",
           "normalized": "(a-\u003eMaybe(b,c,d,e,f))-\u003ePattern g b-\u003ePattern g c-\u003ePattern g d-\u003ePattern g e-\u003ePattern g f-\u003ePattern(g(g(g(g g))))a",
@@ -1000,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003emmatch m p = m \u003e\u003e= \u003ccode\u003e\u003ca\u003eelim\u003c/a\u003e\u003c/code\u003e p\u003c/pre\u003e\u003cp\u003eUseful for applicative-looking monadic pattern matching, as in\n\u003c/p\u003e\u003cpre\u003e ex7 :: IO ()\n ex7 = mmatch getLine $\n       cst \"\" -\u003e\u003e return ()\n   \u003c|\u003e var    -\u003e\u003e putStrLn . (\"You said \" ++)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "mmatch",
           "package": "first-class-patterns",
@@ -1010,6 +1093,7 @@
         "index": {
           "description": "mmatch elim Useful for applicative-looking monadic pattern matching as in ex7 IO ex7 mmatch getLine cst return var putStrLn You said",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "mmatch",
           "normalized": "a b-\u003eClause b(a c)-\u003ea c",
@@ -1025,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "nil",
           "package": "first-class-patterns",
@@ -1035,6 +1120,7 @@
         "index": {
           "description": "Match the empty list",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "nil",
           "normalized": "Pattern[][a]",
@@ -1050,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e constructor of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "nothing",
           "package": "first-class-patterns",
@@ -1060,6 +1147,7 @@
         "index": {
           "description": "Match the Nothing constructor of Maybe",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "nothing",
           "normalized": "Pattern[](Maybe a)",
@@ -1075,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pattern match against a pair from a pair of patterns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "pair",
           "package": "first-class-patterns",
@@ -1085,6 +1174,7 @@
         "index": {
           "description": "Construct pattern match against pair from pair of patterns",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "pair",
           "normalized": "Pattern a b-\u003ePattern a c-\u003ePattern(a a)(b,c)",
@@ -1100,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailure pattern: never succeeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "pfail",
           "package": "first-class-patterns",
@@ -1110,6 +1201,7 @@
         "index": {
           "description": "Failure pattern never succeeds",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "pfail",
           "normalized": "Pattern[]a",
@@ -1125,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epfilter p\u003c/code\u003e matches every element of a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e data structure\n   against the pattern \u003ccode\u003ep\u003c/code\u003e, discarding elements that do not match.\n   From the matching elements, binds a list of values corresponding\n   to each pattern variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "pfilter",
           "package": "first-class-patterns",
@@ -1135,6 +1228,7 @@
         "index": {
           "description": "pfilter matches every element of Foldable data structure against the pattern discarding elements that do not match From the matching elements binds list of values corresponding to each pattern variable",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "pfilter",
           "normalized": "Pattern a b-\u003ePattern(Map[]a)(c b)",
@@ -1150,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epfoldr p f b\u003c/code\u003e matches every element of a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e data\n   structure against the pattern \u003ccode\u003ep\u003c/code\u003e, discarding elements that do\n   not match.  Folds over the bindings produced by the matching\n   elements to produce a summary value.\n\u003c/p\u003e\u003cp\u003eThe same functionality could be achieved by matching with\n   \u003ccode\u003epfilter p\u003c/code\u003e and then appropriately combining and folding the\n   resulting lists of bound values.  In particular, if \u003ccode\u003ep\u003c/code\u003e binds\n   only one value we have\n\u003c/p\u003e\u003cpre\u003e match t (pfoldr p f b -\u003e\u003e id) === match t (pfilter p -\u003e\u003e foldr f b)\n\u003c/pre\u003e\u003cp\u003eHowever, when \u003ccode\u003ep\u003c/code\u003e binds more than one value, it can be convenient\n   to be able to process the bindings from each match together,\n   rather than having to deal with them once they are separated out\n   into separate lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "pfoldr",
           "package": "first-class-patterns",
@@ -1160,6 +1255,7 @@
         "index": {
           "description": "pfoldr matches every element of Foldable data structure against the pattern discarding elements that do not match Folds over the bindings produced by the matching elements to produce summary value The same functionality could be achieved by matching with pfilter and then appropriately combining and folding the resulting lists of bound values In particular if binds only one value we have match pfoldr id match pfilter foldr However when binds more than one value it can be convenient to be able to process the bindings from each match together rather than having to deal with them once they are separated out into separate lists",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "pfoldr",
           "normalized": "Pattern a b-\u003eFun a(c-\u003ec)-\u003ec-\u003ePattern[c](d b)",
@@ -1175,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epmap p\u003c/code\u003e matches every element of a \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e data\n   structure against the pattern \u003ccode\u003ep\u003c/code\u003e.  The entire match fails if any\n   of the elements fail to match \u003ccode\u003ep\u003c/code\u003e.  If all the elements match,\n   binds a \u003ccode\u003et\u003c/code\u003e-structure full of bound values corresponding to each\n   variable bound in \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "pmap",
           "package": "first-class-patterns",
@@ -1185,6 +1282,7 @@
         "index": {
           "description": "pmap matches every element of Traversable data structure against the pattern The entire match fails if any of the elements fail to match If all the elements match binds structure full of bound values corresponding to each variable bound in",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "pmap",
           "normalized": "Pattern a b-\u003ePattern(Map c a)(c b)",
@@ -1200,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e constructor of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "right",
           "package": "first-class-patterns",
@@ -1210,6 +1309,7 @@
         "index": {
           "description": "Match the Right constructor of Either",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "right",
           "normalized": "Pattern a b-\u003ePattern a(Either c b)",
@@ -1225,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a natural number which is the successor of another natural\n   (and match the predecessor with a nested pattern).  Together,\n   \u003ccode\u003e\u003ca\u003ezero\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esuc\u003c/a\u003e\u003c/code\u003e allow viewing \u003ccode\u003eIntegral\u003c/code\u003e types as Peano numbers.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003esuc\u003c/a\u003e\u003c/code\u003e never matches negative numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "suc",
           "package": "first-class-patterns",
@@ -1235,6 +1336,7 @@
         "index": {
           "description": "Match natural number which is the successor of another natural and match the predecessor with nested pattern Together zero and suc allow viewing Integral types as Peano numbers Note that suc never matches negative numbers",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "suc",
           "normalized": "Pattern a b-\u003ePattern a b",
@@ -1250,6 +1352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "true",
           "package": "first-class-patterns",
@@ -1260,6 +1363,7 @@
         "index": {
           "description": "Match True",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "true",
           "normalized": "Pattern[]Bool",
@@ -1275,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Runs\" a \u003ccode\u003e\u003ca\u003eClause\u003c/a\u003e\u003c/code\u003e, by matching it against a value and returning\n   a result if it matches, or \u003ccode\u003eNothing\u003c/code\u003e if the match fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "tryMatch",
           "package": "first-class-patterns",
@@ -1285,6 +1390,7 @@
         "index": {
           "description": "Runs Clause by matching it against value and returning result if it matches or Nothing if the match fails",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "tryMatch",
           "normalized": "a-\u003eClause a b-\u003eMaybe b",
@@ -1301,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial view pattern: do some (possibly failing) computation,\n   then pattern match on the result if the computation is successful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "tryView",
           "package": "first-class-patterns",
@@ -1311,6 +1418,7 @@
         "index": {
           "description": "Partial view pattern do some possibly failing computation then pattern match on the result if the computation is successful",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "tryView",
           "normalized": "(a-\u003eMaybe b)-\u003ePattern c b-\u003ePattern c a",
@@ -1327,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym for \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "tup0",
           "package": "first-class-patterns",
@@ -1337,6 +1446,7 @@
         "index": {
           "description": "synonym for unit",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "tup0",
           "normalized": "Pattern[]()",
@@ -1352,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym for \u003ccode\u003e\u003ca\u003epair\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "tup2",
           "package": "first-class-patterns",
@@ -1362,6 +1473,7 @@
         "index": {
           "description": "synonym for pair",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "tup2",
           "normalized": "Pattern a b-\u003ePattern a c-\u003ePattern(a a)(b,c)",
@@ -1377,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a 3-tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "tup3",
           "package": "first-class-patterns",
@@ -1387,6 +1500,7 @@
         "index": {
           "description": "Match tuple",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "tup3",
           "normalized": "Pattern a b-\u003ePattern a c-\u003ePattern a d-\u003ePattern(a(a a))(b,c,d)",
@@ -1402,6 +1516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a 4-tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "tup4",
           "package": "first-class-patterns",
@@ -1412,6 +1527,7 @@
         "index": {
           "description": "Match tuple",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "tup4",
           "normalized": "Pattern a b-\u003ePattern a c-\u003ePattern a d-\u003ePattern a e-\u003ePattern(a(a(a a)))(b,c,d,e)",
@@ -1427,6 +1543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a 5-tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "tup5",
           "package": "first-class-patterns",
@@ -1437,6 +1554,7 @@
         "index": {
           "description": "Match tuple",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "tup5",
           "normalized": "Pattern a b-\u003ePattern a c-\u003ePattern a d-\u003ePattern a e-\u003ePattern a f-\u003ePattern(a(a(a(a a))))(b,c,d,e,f)",
@@ -1452,6 +1570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict match on the unit value \u003ccode\u003e()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "unit",
           "package": "first-class-patterns",
@@ -1462,6 +1581,7 @@
         "index": {
           "description": "strict match on the unit value",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "unit",
           "normalized": "Pattern[]()",
@@ -1477,6 +1597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable pattern: always succeeds, and binds the value to a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "var",
           "package": "first-class-patterns",
@@ -1487,6 +1608,7 @@
         "index": {
           "description": "Variable pattern always succeeds and binds the value to variable",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "var",
           "normalized": "Pattern[a]a",
@@ -1502,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView pattern: do some computation, then pattern match on the\n   result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "view",
           "package": "first-class-patterns",
@@ -1512,6 +1635,7 @@
         "index": {
           "description": "View pattern do some computation then pattern match on the result",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "view",
           "normalized": "(a-\u003eb)-\u003ePattern c b-\u003ePattern c a",
@@ -1527,6 +1651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern.Common",
           "name": "zero",
           "package": "first-class-patterns",
@@ -1537,6 +1662,7 @@
         "index": {
           "description": "Match zero",
           "hierarchy": "Data Pattern Common",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern.Common",
           "name": "zero",
           "normalized": "Pattern[]a",
@@ -1552,6 +1678,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main module for first-class-patterns; to use the library it\n should suffice to import this module.  For a quick start using the\n library, see the examples below.\n\u003c/p\u003e\u003cp\u003eIf you want to read further, start with \u003ca\u003eData.Pattern.Base\u003c/a\u003e, which\n defines the basic pattern type and some basic combinators.  Then\n read \u003ca\u003eData.Pattern.Common\u003c/a\u003e, which defines a number of convenient\n combinators for constructing various sorts of patterns.\n\u003c/p\u003e\u003cp\u003eAs an example, the following functions, \u003ccode\u003eex1\u003c/code\u003e and \u003ccode\u003eex2\u003c/code\u003e, are\n semantically equivalent:\n\u003c/p\u003e\u003cpre\u003e\n  ex1, ex2 :: Num a =\u003e Either a (a, a) -\u003e a\n  ex1 a = \u003ccode\u003e\u003ca\u003ematch\u003c/a\u003e\u003c/code\u003e a $\n            \u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ecst\u003c/a\u003e\u003c/code\u003e 4)         \u003ccode\u003e\u003ca\u003e-\u003e\u003e\u003c/a\u003e\u003c/code\u003e 0\n        \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003evar\u003c/a\u003e\u003c/code\u003e             \u003ccode\u003e\u003ca\u003e-\u003e\u003e\u003c/a\u003e\u003c/code\u003e id\n        \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eright\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003etup2\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003evar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003evar\u003c/a\u003e\u003c/code\u003e) \u003ccode\u003e\u003ca\u003e-\u003e\u003e\u003c/a\u003e\u003c/code\u003e (+)\n  ex2 a = case a of\n            Left 4      -\u003e 0\n            Left x      -\u003e x\n            Right (x,y) -\u003e x+y\n\u003c/pre\u003e\u003cp\u003eAlso, when optimisation is turned on, GHC will compile them to the\n same code.\n\u003c/p\u003e\u003cp\u003eXXX add more examples here.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:25 UTC 2014",
           "module": "Data.Pattern",
           "name": "Pattern",
           "package": "first-class-patterns",
@@ -1561,6 +1688,7 @@
         "index": {
           "description": "The main module for first-class-patterns to use the library it should suffice to import this module For quick start using the library see the examples below If you want to read further start with Data.Pattern.Base which defines the basic pattern type and some basic combinators Then read Data.Pattern.Common which defines number of convenient combinators for constructing various sorts of patterns As an example the following functions ex1 and ex2 are semantically equivalent ex1 ex2 Num Either ex1 match left cst left var id right tup2 var var ex2 case of Left Left Right Also when optimisation is turned on GHC will compile them to the same code XXX add more examples here",
           "hierarchy": "Data Pattern",
+          "indexed": "2014-03-11T18:09:25",
           "module": "Data.Pattern",
           "name": "Pattern",
           "package": "first-class-patterns",

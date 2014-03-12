@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "flexiwrap"
+        "phrase": "flexiwrap",
+        "type": "phrase"
       },
       "type": "context"
     }

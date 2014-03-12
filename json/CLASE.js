@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CLASE"
+        "phrase": "CLASE",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Bound",
           "name": "Bound",
           "package": "CLASE",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Bound",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Bound",
           "name": "Bound",
           "package": "CLASE",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Bound",
           "name": "Bound",
           "package": "CLASE",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Bound",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Bound",
           "name": "Bound",
           "package": "CLASE",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Bound",
           "name": "bindingHook",
           "package": "CLASE",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Bound",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Bound",
           "name": "bindingHook",
           "normalized": "Context a b c-\u003ed-\u003ed",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Bound",
           "name": "inBindingScope",
           "package": "CLASE",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Bound",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Bound",
           "name": "inBindingScope",
           "normalized": "(a-\u003eb)-\u003eCursor c d a-\u003eb",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Gen.Adapters",
           "name": "Adapters",
           "package": "CLASE",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Gen Adapters",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Gen.Adapters",
           "name": "Adapters",
           "package": "CLASE",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Gen.Adapters",
           "name": "adapterGen",
           "package": "CLASE",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Gen Adapters",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Gen.Adapters",
           "name": "adapterGen",
           "normalized": "[String]-\u003eName-\u003e[Name]-\u003eString-\u003eQ[Dec]",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Gen.Language",
           "name": "Language",
           "package": "CLASE",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Gen Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Gen.Language",
           "name": "Language",
           "package": "CLASE",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Gen.Language",
           "name": "languageGen",
           "package": "CLASE",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Gen Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Gen.Language",
           "name": "languageGen",
           "normalized": "[String]-\u003eName-\u003e[Name]-\u003eQ[Dec]",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Gen.Persistence",
           "name": "Persistence",
           "package": "CLASE",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Gen Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Gen.Persistence",
           "name": "Persistence",
           "package": "CLASE",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Gen.Persistence",
           "name": "persistenceGen",
           "package": "CLASE",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Gen Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Gen.Persistence",
           "name": "persistenceGen",
           "normalized": "[String]-\u003eName-\u003e[Name]-\u003eString-\u003eQ[Dec]",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Language",
           "package": "CLASE",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Language",
           "package": "CLASE",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Cursor",
           "package": "CLASE",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Cursor",
           "package": "CLASE",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "CursorWithMovement",
           "package": "CLASE",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "CursorWithMovement",
           "package": "CLASE",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "DirectionT",
           "package": "CLASE",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "DirectionT",
           "package": "CLASE",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Down",
           "package": "CLASE",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Down",
           "package": "CLASE",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "ExistsR",
           "package": "CLASE",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "ExistsR",
           "package": "CLASE",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Invert",
           "package": "CLASE",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Invert",
           "package": "CLASE",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Language",
           "package": "CLASE",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Language",
           "package": "CLASE",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Path",
           "package": "CLASE",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Path",
           "package": "CLASE",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Reify",
           "package": "CLASE",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Reify",
           "package": "CLASE",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Route",
           "package": "CLASE",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Route",
           "package": "CLASE",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Up",
           "package": "CLASE",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Up",
           "package": "CLASE",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "CWM",
           "package": "CLASE",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "CWM",
           "normalized": "Cursor a b c-\u003eMovement a d e c-\u003eCursorWithMovement a d b e",
@@ -519,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Cursor",
           "package": "CLASE",
@@ -528,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Cursor",
           "package": "CLASE",
@@ -541,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "DownT",
           "package": "CLASE",
@@ -550,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "DownT",
           "package": "CLASE",
@@ -563,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "ExistsR",
           "package": "CLASE",
@@ -572,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "ExistsR",
           "normalized": "a b-\u003eExistsR c a",
@@ -587,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Route",
           "package": "CLASE",
@@ -596,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Route",
           "normalized": "Path a(Movement a Up)b c-\u003ePath a(Movement a Down)c d-\u003eRoute a b d",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Step",
           "package": "CLASE",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Step",
           "normalized": "a b c-\u003ePath d a c e-\u003ePath d a b e",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Stop",
           "package": "CLASE",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "Stop",
           "package": "CLASE",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "UpT",
           "package": "CLASE",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "UpT",
           "package": "CLASE",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "appendRoute",
           "package": "CLASE",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "appendRoute",
           "normalized": "Route a b c-\u003eRoute a c d-\u003eRoute a b d",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "applyMovement",
           "package": "CLASE",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "applyMovement",
           "normalized": "Movement a b c d-\u003eCursor a e c-\u003eMaybe(Cursor a e d)",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "buildOne",
           "package": "CLASE",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "buildOne",
           "normalized": "Context a b c-\u003eb-\u003ec",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "contextMovementEq",
           "package": "CLASE",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "contextMovementEq",
           "normalized": "Context a b c-\u003eMovement a Up b d-\u003eMaybe(TyEq c d)",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "contextToMovement",
           "package": "CLASE",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "contextToMovement",
           "normalized": "Context a b c-\u003eMovement a Up b c",
@@ -799,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "ctx",
           "package": "CLASE",
@@ -808,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "ctx",
           "package": "CLASE",
@@ -820,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "downMoves",
           "package": "CLASE",
@@ -829,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "downMoves",
           "normalized": "TypeRep a b-\u003e[ExistsR a(Movement a Down b)]",
@@ -844,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "foldPath",
           "package": "CLASE",
@@ -853,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "foldPath",
           "normalized": "a b c-\u003eb-\u003ec)-\u003ed-\u003ePath e a d f-\u003ef",
@@ -868,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "followRoute",
           "package": "CLASE",
@@ -877,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "followRoute",
           "normalized": "Cursor a b c-\u003eRoute a c d-\u003eMaybe(Cursor a b d)",
@@ -892,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "genericMoveDown",
           "package": "CLASE",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "genericMoveDown",
           "normalized": "Cursor a b c-\u003eMaybe(CursorWithMovement a Down b c)",
@@ -916,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "genericMoveLeft",
           "package": "CLASE",
@@ -925,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "genericMoveLeft",
           "normalized": "Cursor a b c-\u003eMaybe(ExistsR a(Cursor a b))",
@@ -940,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "genericMoveRight",
           "package": "CLASE",
@@ -949,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "genericMoveRight",
           "normalized": "Cursor a b c-\u003eMaybe(ExistsR a(Cursor a b))",
@@ -964,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "genericMoveSideways",
           "package": "CLASE",
@@ -973,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "genericMoveSideways",
           "normalized": "(a b c Movement d Down b e-\u003eMaybe(ExistsR d(Movement d Down b)))-\u003eCursor d f b-\u003eMaybe(ExistsR d(Cursor d f))",
@@ -988,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "genericMoveUp",
           "package": "CLASE",
@@ -997,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "genericMoveUp",
           "normalized": "Cursor a b c-\u003eMaybe(CursorWithMovement a Up b c)",
@@ -1012,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "invertMovement",
           "package": "CLASE",
@@ -1021,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "invertMovement",
           "normalized": "Movement a b c d-\u003eMovement a(Invert b)d c",
@@ -1036,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "it",
           "package": "CLASE",
@@ -1045,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "it",
           "package": "CLASE",
@@ -1057,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "log",
           "package": "CLASE",
@@ -1066,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "log",
           "package": "CLASE",
@@ -1078,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "moveLeft",
           "package": "CLASE",
@@ -1087,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "moveLeft",
           "normalized": "Movement a Down b c-\u003eMaybe(ExistsR a(Movement a Down b))",
@@ -1102,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "moveRight",
           "package": "CLASE",
@@ -1111,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "moveRight",
           "normalized": "Movement a Down b c-\u003eMaybe(ExistsR a(Movement a Down b))",
@@ -1126,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "moveToRoot",
           "package": "CLASE",
@@ -1135,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "moveToRoot",
           "normalized": "Cursor a b c-\u003eCursor a b a",
@@ -1150,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "movementEq",
           "package": "CLASE",
@@ -1159,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "movementEq",
           "normalized": "Movement a b c d-\u003eMovement a b c e-\u003eMaybe(TyEq d e)",
@@ -1174,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "rebuild",
           "package": "CLASE",
@@ -1183,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "rebuild",
           "normalized": "Cursor a b c-\u003ea",
@@ -1197,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "reify",
           "package": "CLASE",
@@ -1206,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "reify",
           "normalized": "a-\u003eTypeRep b a",
@@ -1220,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "reifyDirection",
           "package": "CLASE",
@@ -1229,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "reifyDirection",
           "normalized": "Movement a b c d-\u003eDirectionT b",
@@ -1244,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "resetLog",
           "package": "CLASE",
@@ -1253,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "resetLog",
           "normalized": "Cursor a b c-\u003eCursor a c c",
@@ -1268,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "route_invariant",
           "package": "CLASE",
@@ -1277,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "route_invariant",
           "normalized": "Route a b c-\u003eBool",
@@ -1291,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "unbuildOne",
           "package": "CLASE",
@@ -1300,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "unbuildOne",
           "normalized": "Movement a Down b c-\u003eb-\u003eMaybe(Context a c b,c)",
@@ -1315,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Language",
           "name": "updateRoute",
           "package": "CLASE",
@@ -1324,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Language",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Language",
           "name": "updateRoute",
           "normalized": "Movement a b c d-\u003eRoute a c e-\u003eRoute a d e",
@@ -1339,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "Persistence",
           "package": "CLASE",
@@ -1347,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "Persistence",
           "package": "CLASE",
@@ -1360,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "Persistable",
           "package": "CLASE",
@@ -1368,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "Persistable",
           "package": "CLASE",
@@ -1381,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "PersistenceAdapter",
           "package": "CLASE",
@@ -1389,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "PersistenceAdapter",
           "package": "CLASE",
@@ -1402,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "RestoredCursor",
           "package": "CLASE",
@@ -1410,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "RestoredCursor",
           "package": "CLASE",
@@ -1423,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "RestoredPath",
           "package": "CLASE",
@@ -1431,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "RestoredPath",
           "package": "CLASE",
@@ -1444,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "RestoredRoute",
           "package": "CLASE",
@@ -1452,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "RestoredRoute",
           "package": "CLASE",
@@ -1465,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "RestoredCursor",
           "package": "CLASE",
@@ -1474,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "RestoredCursor",
           "normalized": "Cursor a b c-\u003eRestoredCursor a",
@@ -1489,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "RestoredPath",
           "package": "CLASE",
@@ -1498,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "RestoredPath",
           "normalized": "Path a b c d-\u003eRestoredPath a b c",
@@ -1513,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "RestoredRoute",
           "package": "CLASE",
@@ -1522,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "RestoredRoute",
           "normalized": "Route a b c-\u003eRestoredRoute a b",
@@ -1537,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "movementParser",
           "package": "CLASE",
@@ -1546,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "movementParser",
           "normalized": "DirectionT a-\u003eParser(ExistsR b(Movement b a c))",
@@ -1561,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "parseCursor",
           "package": "CLASE",
@@ -1570,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "parseCursor",
           "normalized": "String-\u003eMaybe(RestoredCursor a)",
@@ -1585,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "parseL",
           "package": "CLASE",
@@ -1594,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "parseL",
           "package": "CLASE",
@@ -1606,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "parseRoute",
           "package": "CLASE",
@@ -1615,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "parseRoute",
           "normalized": "Bool-\u003eString-\u003eMaybe(RestoredRoute a b)",
@@ -1630,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "readParser",
           "package": "CLASE",
@@ -1639,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "readParser",
           "normalized": "Bool-\u003eParser a",
@@ -1654,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "showCursor",
           "package": "CLASE",
@@ -1663,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "showCursor",
           "normalized": "Cursor a b c-\u003eString",
@@ -1678,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "showL",
           "package": "CLASE",
@@ -1687,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "showL",
           "normalized": "a-\u003eString",
@@ -1701,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "showMovement",
           "package": "CLASE",
@@ -1710,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "showMovement",
           "normalized": "Movement a b c d-\u003eString",
@@ -1725,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "showRoute",
           "package": "CLASE",
@@ -1734,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "showRoute",
           "normalized": "Route a b c-\u003eString",
@@ -1749,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "showTypeRep",
           "package": "CLASE",
@@ -1758,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "showTypeRep",
           "normalized": "TypeRep a b-\u003eString",
@@ -1773,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "typeRepEq",
           "package": "CLASE",
@@ -1782,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "typeRepEq",
           "normalized": "TypeRep a b-\u003eTypeRep a c-\u003eMaybe(TyEq b c)",
@@ -1797,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "typeRepParser",
           "package": "CLASE",
@@ -1806,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Persistence",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Persistence",
           "name": "typeRepParser",
           "package": "CLASE",
@@ -1819,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Traversal",
           "name": "Traversal",
           "package": "CLASE",
@@ -1827,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Traversal",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Traversal",
           "name": "Traversal",
           "package": "CLASE",
@@ -1840,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Traversal",
           "name": "Traversal",
           "package": "CLASE",
@@ -1848,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Traversal",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Traversal",
           "name": "Traversal",
           "package": "CLASE",
@@ -1861,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Traversal",
           "name": "completeTraversal",
           "package": "CLASE",
@@ -1870,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Traversal",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Traversal",
           "name": "completeTraversal",
           "normalized": "Cursor a b c-\u003ed",
@@ -1885,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Traversal",
           "name": "cursor",
           "package": "CLASE",
@@ -1894,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Traversal",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Traversal",
           "name": "cursor",
           "normalized": "a-\u003eb-\u003eb",
@@ -1908,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Traversal",
           "name": "visitPartial",
           "package": "CLASE",
@@ -1917,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Traversal",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Traversal",
           "name": "visitPartial",
           "normalized": "Movement a Down b c-\u003ed)-\u003ed",
@@ -1932,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Traversal",
           "name": "visitStep",
           "package": "CLASE",
@@ -1941,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Traversal",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Traversal",
           "name": "visitStep",
           "normalized": "Movement a Down b c-\u003ed)-\u003ed",
@@ -1956,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Util",
           "name": "Util",
           "package": "CLASE",
@@ -1964,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Util",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Util",
           "name": "Util",
           "package": "CLASE",
@@ -1977,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Util",
           "name": "Exists",
           "package": "CLASE",
@@ -1985,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Util",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Util",
           "name": "Exists",
           "package": "CLASE",
@@ -1998,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Util",
           "name": "Id",
           "package": "CLASE",
@@ -2006,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Util",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Util",
           "name": "Id",
           "package": "CLASE",
@@ -2019,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Util",
           "name": "TyEq",
           "package": "CLASE",
@@ -2027,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Util",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Util",
           "name": "TyEq",
           "package": "CLASE",
@@ -2040,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Util",
           "name": "Eq",
           "package": "CLASE",
@@ -2049,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Util",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Util",
           "name": "Eq",
           "package": "CLASE",
@@ -2062,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Util",
           "name": "Exists",
           "package": "CLASE",
@@ -2071,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Util",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Util",
           "name": "Exists",
           "normalized": "a b-\u003eExists a",
@@ -2086,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Util",
           "name": "Id",
           "package": "CLASE",
@@ -2095,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Util",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Util",
           "name": "Id",
           "normalized": "a-\u003eId a",
@@ -2110,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:33 UTC 2014",
           "module": "Data.Cursor.CLASE.Util",
           "name": "if'",
           "package": "CLASE",
@@ -2119,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Data Cursor CLASE Util",
+          "indexed": "2014-03-11T16:35:33",
           "module": "Data.Cursor.CLASE.Util",
           "name": "if'",
           "normalized": "Bool-\u003ea-\u003ea-\u003ea",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AC-Terminal"
+        "phrase": "AC-Terminal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the basic features of the package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "Core",
           "package": "AC-Terminal",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides the basic features of the package",
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "Core",
           "package": "AC-Terminal",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible terminal colours. (D for Dark, L for Light.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "Colour",
           "package": "AC-Terminal",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Possible terminal colours for Dark for Light",
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "Colour",
           "package": "AC-Terminal",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "DBlack",
           "package": "AC-Terminal",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "DBlack",
           "package": "AC-Terminal",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "DBlue",
           "package": "AC-Terminal",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "DBlue",
           "package": "AC-Terminal",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "DCyan",
           "package": "AC-Terminal",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "DCyan",
           "package": "AC-Terminal",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "DGreen",
           "package": "AC-Terminal",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "DGreen",
           "package": "AC-Terminal",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "DMagenta",
           "package": "AC-Terminal",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "DMagenta",
           "package": "AC-Terminal",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "DRed",
           "package": "AC-Terminal",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "DRed",
           "package": "AC-Terminal",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "DWhite",
           "package": "AC-Terminal",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "DWhite",
           "package": "AC-Terminal",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "DYellow",
           "package": "AC-Terminal",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "DYellow",
           "package": "AC-Terminal",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "LBlack",
           "package": "AC-Terminal",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "LBlack",
           "package": "AC-Terminal",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "LBlue",
           "package": "AC-Terminal",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "LBlue",
           "package": "AC-Terminal",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "LCyan",
           "package": "AC-Terminal",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "LCyan",
           "package": "AC-Terminal",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "LGreen",
           "package": "AC-Terminal",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "LGreen",
           "package": "AC-Terminal",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "LMagenta",
           "package": "AC-Terminal",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "LMagenta",
           "package": "AC-Terminal",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "LRed",
           "package": "AC-Terminal",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "LRed",
           "package": "AC-Terminal",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "LWhite",
           "package": "AC-Terminal",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "LWhite",
           "package": "AC-Terminal",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "LYellow",
           "package": "AC-Terminal",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "LYellow",
           "package": "AC-Terminal",
@@ -417,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet terminal forground and background colours.\n\u003c/p\u003e\u003cp\u003eNote that under Windows, the change in colour takes place\n  immediately. You may need to flush \u003ccode\u003estdout\u003c/code\u003e before calling\n  this function. (This is not necessary under Unix, but it's\n  probably good practise to do it for portability's sake.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "set_colours",
           "package": "AC-Terminal",
@@ -427,6 +464,7 @@
         "index": {
           "description": "Set terminal forground and background colours Note that under Windows the change in colour takes place immediately You may need to flush stdout before calling this function This is not necessary under Unix but it probably good practise to do it for portability sake",
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "set_colours",
           "normalized": "Colour-\u003eColour-\u003eIO()",
@@ -442,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the title of the [virtual] terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Core",
           "name": "set_title",
           "package": "AC-Terminal",
@@ -452,6 +491,7 @@
         "index": {
           "description": "Change the title of the virtual terminal",
           "hierarchy": "System Terminal Core",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Core",
           "name": "set_title",
           "normalized": "String-\u003eIO()",
@@ -467,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides various utilities and short-cuts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Utility",
           "name": "Utility",
           "package": "AC-Terminal",
@@ -476,6 +517,7 @@
         "index": {
           "description": "This module provides various utilities and short-cuts",
           "hierarchy": "System Terminal Utility",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Utility",
           "name": "Utility",
           "package": "AC-Terminal",
@@ -490,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default top-level exception handler, for exceptions that\n  fail to be caught before reaching the top level.\n\u003c/p\u003e\u003cp\u003eIn a properly designed application, exceptions should be\n  anticipated, caught and handled in the correct place.\n  (E.g., if you try to open a file, you should anticipate\n  the possibility of an I/O exception and catch/process this\n  appropriately.) Thus an exception reaching the top-level\n  of the program would indicate a programming bug, and the\n  generated error message reflects this. On a crash, the text\n\u003c/p\u003e\u003cpre\u003e An internal program malfunction has occurred.\n Please report this as a bug to the program developers.\n\u003c/pre\u003e\u003cp\u003ewill be emitted on \u003ccode\u003estderr\u003c/code\u003e, coloured bright yellow on a\n  bright red background. The exception is then re-thrown\n  (presumably halting the program).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Utility",
           "name": "default_exception_handler",
           "package": "AC-Terminal",
@@ -500,6 +543,7 @@
         "index": {
           "description": "default top-level exception handler for exceptions that fail to be caught before reaching the top level In properly designed application exceptions should be anticipated caught and handled in the correct place E.g if you try to open file you should anticipate the possibility of an exception and catch process this appropriately Thus an exception reaching the top-level of the program would indicate programming bug and the generated error message reflects this On crash the text An internal program malfunction has occurred Please report this as bug to the program developers will be emitted on stderr coloured bright yellow on bright red background The exception is then re-thrown presumably halting the program",
           "hierarchy": "System Terminal Utility",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Utility",
           "name": "default_exception_handler",
           "normalized": "a-\u003eIO b",
@@ -515,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a single line of text, with a given character\n  highlighted in colour. Useful for, say, highlighting the\n  location of a syntax error in an expression.\n\u003c/p\u003e\u003cp\u003eThe tuple consists of three colour pairs. Each pair is\n  a foreground/background pair. The first pair applies to\n  the next before the nominated position, the second pair\n  applies to the nominated position itself, and the\n  third pair applies to any text after the nominated\n  position.\n\u003c/p\u003e\u003cp\u003eThe nominated position is given by the \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e argument,\n  with 0 being the very first character of the string.\n  Note that if the position is off the end of the\n  string, a blank space will be added to the end of the\n  string and \u003cem\u003ethat\u003c/em\u003e will be highlighted.\n\u003c/p\u003e\u003cp\u003eNote that no newline is written. If you want one, you\n  must output it yourself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Utility",
           "name": "highlight",
           "package": "AC-Terminal",
@@ -525,6 +570,7 @@
         "index": {
           "description": "Print single line of text with given character highlighted in colour Useful for say highlighting the location of syntax error in an expression The tuple consists of three colour pairs Each pair is foreground background pair The first pair applies to the next before the nominated position the second pair applies to the nominated position itself and the third pair applies to any text after the nominated position The nominated position is given by the Int argument with being the very first character of the string Note that if the position is off the end of the string blank space will be added to the end of the string and that will be highlighted Note that no newline is written If you want one you must output it yourself",
           "hierarchy": "System Terminal Utility",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Utility",
           "name": "highlight",
           "normalized": "((Colour,Colour),(Colour,Colour),(Colour,Colour))-\u003eInt-\u003eString-\u003eIO()",
@@ -540,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003ehighlight\u003c/a\u003e\u003c/code\u003e that outputs a newline after\n  the final character of text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Utility",
           "name": "highlightLN",
           "package": "AC-Terminal",
@@ -550,6 +597,7 @@
         "index": {
           "description": "version of highlight that outputs newline after the final character of text",
           "hierarchy": "System Terminal Utility",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Utility",
           "name": "highlightLN",
           "normalized": "((Colour,Colour),(Colour,Colour),(Colour,Colour))-\u003eInt-\u003eString-\u003eIO()",
@@ -566,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a pair of text strings on a single line, with different\n  [foreground] text colours.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Utility",
           "name": "putPairLn",
           "package": "AC-Terminal",
@@ -576,6 +625,7 @@
         "index": {
           "description": "Write pair of text strings on single line with different foreground text colours",
           "hierarchy": "System Terminal Utility",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Utility",
           "name": "putPairLn",
           "normalized": "(Colour,String)-\u003e(Colour,String)-\u003eIO()",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet terminal [foreground] colour and then \u003ccode\u003e\u003ca\u003eputStrLn\u003c/a\u003e\u003c/code\u003e a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Utility",
           "name": "putStrLnC",
           "package": "AC-Terminal",
@@ -602,6 +653,7 @@
         "index": {
           "description": "Set terminal foreground colour and then putStrLn string",
           "hierarchy": "System Terminal Utility",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Utility",
           "name": "putStrLnC",
           "normalized": "Colour-\u003eString-\u003eIO()",
@@ -618,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet terminal foreground colour (background is set to black).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Utility",
           "name": "set_colour",
           "package": "AC-Terminal",
@@ -628,6 +681,7 @@
         "index": {
           "description": "Set terminal foreground colour background is set to black",
           "hierarchy": "System Terminal Utility",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Utility",
           "name": "set_colour",
           "normalized": "Colour-\u003eIO()",
@@ -643,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet default terminal colours (DWhite on DBlack).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Utility",
           "name": "set_colours_default",
           "package": "AC-Terminal",
@@ -653,6 +708,7 @@
         "index": {
           "description": "Set default terminal colours DWhite on DBlack",
           "hierarchy": "System Terminal Utility",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Utility",
           "name": "set_colours_default",
           "normalized": "IO()",
@@ -668,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action, and run it with the\n  \u003ccode\u003e\u003ca\u003edefault_exception_handler\u003c/a\u003e\u003c/code\u003e installed. Typically you would\n  do something like\n\u003c/p\u003e\u003cpre\u003e main = with_default_exception_handler main2\n\n main2 = do ...\n\u003c/pre\u003e\u003cp\u003eNow all unhandled exceptions in your program will cause a\n  suitable message to be written to \u003ccode\u003estderr\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal.Utility",
           "name": "with_default_exception_handler",
           "package": "AC-Terminal",
@@ -678,6 +735,7 @@
         "index": {
           "description": "Take an IO action and run it with the default exception handler installed Typically you would do something like main with default exception handler main2 main2 do Now all unhandled exceptions in your program will cause suitable message to be written to stderr",
           "hierarchy": "System Terminal Utility",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal.Utility",
           "name": "with_default_exception_handler",
           "normalized": "IO a-\u003eIO a",
@@ -692,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:55 UTC 2014",
           "module": "System.Terminal",
           "name": "Terminal",
           "package": "AC-Terminal",
@@ -700,6 +759,7 @@
         },
         "index": {
           "hierarchy": "System Terminal",
+          "indexed": "2014-03-11T16:31:55",
           "module": "System.Terminal",
           "name": "Terminal",
           "package": "AC-Terminal",

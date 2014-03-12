@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "progression"
+        "phrase": "progression",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module exposing the configuration for progression.\n\u003c/p\u003e\u003cp\u003eEach item is either a Maybe type or a list.  The values Nothing or the empty\n list indicate a lack of preference and will be over-ridden by the other setting\n in an mappend; settings can be joined together using their monoid instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "Config",
           "package": "progression",
@@ -28,6 +29,7 @@
         "index": {
           "description": "module exposing the configuration for progression Each item is either Maybe type or list The values Nothing or the empty list indicate lack of preference and will be over-ridden by the other setting in an mappend settings can be joined together using their monoid instances",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "Config",
           "package": "progression",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that holds the value for a mean with bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "BoundedMean",
           "package": "progression",
@@ -51,6 +54,7 @@
         "index": {
           "description": "type that holds the value for mean with bounds",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "BoundedMean",
           "package": "progression",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mode (RunAndGraph, by default), the run settings and the graph settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "Config",
           "package": "progression",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The mode RunAndGraph by default the run settings and the graph settings",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "Config",
           "package": "progression",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "Definite",
           "package": "progression",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The identity functor",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "Definite",
           "package": "progression",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome data that is ready to graph.  There are the group labels (groups on the\n x-axis) which will be plotted in the order given in the list, sub-group labels\n (either bar colours or lines), and a function that gets the data for a given\n group label and sub-group label.\n\u003c/p\u003e\u003cp\u003eIt is expected that \u003ccode\u003e\u003ca\u003egraphData\u003c/a\u003e\u003c/code\u003e will only ever be called with combinations of\n the labels in the attached lists, but that it should return a sensible (i.e.\n non-bottom) value in all these cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "GraphData",
           "package": "progression",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Some data that is ready to graph There are the group labels groups on the x-axis which will be plotted in the order given in the list sub-group labels either bar colours or lines and function that gets the data for given group label and sub-group label It is expected that graphData will only ever be called with combinations of the labels in the attached lists but that it should return sensible i.e non-bottom value in all these cases",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "GraphData",
           "package": "progression",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function for mapping raw data (i.e. read from CSV files) into data arranged\n for plotting.\n\u003c/p\u003e\u003cp\u003eThe first parameter is the name of the version most recently recorded, or\n (if just graphing is taking place) the name of the first version listed by the\n user.\n\u003c/p\u003e\u003cp\u003eThe second parameter is a map from version name (e.g. fused-memo) to: a map from benchmark name\n (e.g. calculate-primes) to the recorded mean.\n\u003c/p\u003e\u003cp\u003eThe return is the arranged \u003ccode\u003e\u003ca\u003eGraphData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe default is a composition of \u003ccode\u003e\u003ca\u003egroupBench\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003enormalise\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "GraphDataMapping",
           "package": "progression",
@@ -143,6 +154,7 @@
         "index": {
           "description": "function for mapping raw data i.e read from CSV files into data arranged for plotting The first parameter is the name of the version most recently recorded or if just graphing is taking place the name of the first version listed by the user The second parameter is map from version name e.g fused-memo to map from benchmark name e.g calculate-primes to the recorded mean The return is the arranged GraphData The default is composition of groupBench and normalise",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "GraphDataMapping",
           "package": "progression",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe settings for plotting graphs; which labels (besides the one created by\n the current run, if applicable) to feature in the graph, and where to store\n the file (plot.png, by default).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "GraphSettings",
           "package": "progression",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The settings for plotting graphs which labels besides the one created by the current run if applicable to feature in the graph and where to store the file plot.png by default",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "GraphSettings",
           "package": "progression",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a graph; lines or bars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "GraphType",
           "package": "progression",
@@ -189,6 +204,7 @@
         "index": {
           "description": "The type of graph lines or bars",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "GraphType",
           "package": "progression",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a particular group on the x-axis; depending on your choice, this\n could be a benchmark name or a version name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "GroupName",
           "package": "progression",
@@ -212,6 +229,7 @@
         "index": {
           "description": "The name of particular group on the x-axis depending on your choice this could be benchmark name or version name",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "GroupName",
           "package": "progression",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mode; just running and recording a benchmark, just graphing existing results,\n or running a benchmark and produce a graph (the default).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "Mode",
           "package": "progression",
@@ -235,6 +254,7 @@
         "index": {
           "description": "The mode just running and recording benchmark just graphing existing results or running benchmark and produce graph the default",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "Mode",
           "package": "progression",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe settings for running benchmarks; which prefixes to run (empty list means\n no preference, i.e. all -- not none) and where to put the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "RunSettings",
           "package": "progression",
@@ -258,6 +279,7 @@
         "index": {
           "description": "The settings for running benchmarks which prefixes to run empty list means no preference i.e all not none and where to put the result",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "RunSettings",
           "package": "progression",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a particular element of a group (for line graphs this is the name\n of the line; for bar charts this is a particular recurring bar colour).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "SubGroupName",
           "package": "progression",
@@ -281,6 +304,7 @@
         "index": {
           "description": "The name of particular element of group for line graphs this is the name of the line for bar charts this is particular recurring bar colour",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "SubGroupName",
           "package": "progression",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "BoundedMean",
           "package": "progression",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "BoundedMean",
           "package": "progression",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "Config",
           "package": "progression",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "Config",
           "package": "progression",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "Definite",
           "package": "progression",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "Definite",
           "package": "progression",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "GraphData",
           "package": "progression",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "GraphData",
           "package": "progression",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "GraphSettings",
           "package": "progression",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "GraphSettings",
           "package": "progression",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "GraphTypeBars",
           "package": "progression",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "GraphTypeBars",
           "package": "progression",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "GraphTypeLines",
           "package": "progression",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "GraphTypeLines",
           "package": "progression",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "GroupName",
           "package": "progression",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "GroupName",
           "package": "progression",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "JustGraph",
           "package": "progression",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "JustGraph",
           "package": "progression",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "JustRun",
           "package": "progression",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "JustRun",
           "package": "progression",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "RunAndGraph",
           "package": "progression",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "RunAndGraph",
           "package": "progression",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "RunSettings",
           "package": "progression",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "RunSettings",
           "package": "progression",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "SubGroupName",
           "package": "progression",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "SubGroupName",
           "package": "progression",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "cfgGraph",
           "package": "progression",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "cfgGraph",
           "package": "progression",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "cfgMode",
           "package": "progression",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "cfgMode",
           "package": "progression",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "cfgRun",
           "package": "progression",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "cfgRun",
           "package": "progression",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "definite",
           "package": "progression",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "definite",
           "package": "progression",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "graphCompareTo",
           "package": "progression",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "graphCompareTo",
           "normalized": "a[String]",
@@ -691,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "graphData",
           "package": "progression",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "graphData",
           "normalized": "GroupName-\u003eSubGroupName-\u003eBoundedMean",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "graphFilename",
           "package": "progression",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "graphFilename",
           "package": "progression",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "graphGroup",
           "package": "progression",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "graphGroup",
           "package": "progression",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "graphLogY",
           "package": "progression",
@@ -768,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "graphLogY",
           "package": "progression",
@@ -781,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "graphSize",
           "package": "progression",
@@ -790,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "graphSize",
           "normalized": "a(Int,Int)",
@@ -805,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "graphType",
           "package": "progression",
@@ -814,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "graphType",
           "package": "progression",
@@ -828,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that turns benchmarks into major groups, versions into sub-groups,\n and brings the name of the latest version to the head of the sub-group list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "groupBench",
           "package": "progression",
@@ -838,6 +911,7 @@
         "index": {
           "description": "function that turns benchmarks into major groups versions into sub-groups and brings the name of the latest version to the head of the sub-group list",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "groupBench",
           "package": "progression",
@@ -851,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "groupLabels",
           "package": "progression",
@@ -860,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "groupLabels",
           "normalized": "[GroupName]",
@@ -875,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "groupName",
           "package": "progression",
@@ -884,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "groupName",
           "package": "progression",
@@ -898,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that turns versions into major groups, benchmarks into sub-groups,\n and brings the name of the latest version to the head of the group list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "groupVersion",
           "package": "progression",
@@ -908,6 +987,7 @@
         "index": {
           "description": "function that turns versions into major groups benchmarks into sub-groups and brings the name of the latest version to the head of the group list",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "groupVersion",
           "package": "progression",
@@ -921,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "mean",
           "package": "progression",
@@ -930,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "mean",
           "package": "progression",
@@ -942,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "meanLB",
           "package": "progression",
@@ -951,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "meanLB",
           "package": "progression",
@@ -964,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "meanUB",
           "package": "progression",
@@ -973,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "meanUB",
           "package": "progression",
@@ -987,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that normalises the given data (second parameter) by dividing by the time taken by\n the given version (first parameter).  Benchmarks where the divisor is zero or\n missing have their times left untouched.\n\u003c/p\u003e\u003cp\u003eThis is intended to be applied before \u003ccode\u003e\u003ca\u003egroupBench\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003egroupVersion\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "normalise",
           "package": "progression",
@@ -997,6 +1084,7 @@
         "index": {
           "description": "function that normalises the given data second parameter by dividing by the time taken by the given version first parameter Benchmarks where the divisor is zero or missing have their times left untouched This is intended to be applied before groupBench or groupVersion",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "normalise",
           "normalized": "String-\u003eMap String(Map String BoundedMean)-\u003eMap String(Map String BoundedMean)",
@@ -1011,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "override",
           "package": "progression",
@@ -1020,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "override",
           "normalized": "GraphSettings Definite-\u003eGraphSettings Maybe-\u003eGraphSettings Definite",
@@ -1035,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcesses the given arguments (got from getArgs, typically) to adjust the\n given default configuration, returning the resulting configuration.  Exits the\n whole program with an error if there is a problem, or if the user specified\n \u003ccode\u003e-h\u003c/code\u003e (in which case it exits after printing the options).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "processArgs",
           "package": "progression",
@@ -1045,6 +1136,7 @@
         "index": {
           "description": "Processes the given arguments got from getArgs typically to adjust the given default configuration returning the resulting configuration Exits the whole program with an error if there is problem or if the user specified in which case it exits after printing the options",
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "processArgs",
           "normalized": "Config-\u003e[String]-\u003eIO Config",
@@ -1060,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "runPrefixes",
           "package": "progression",
@@ -1069,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "runPrefixes",
           "normalized": "[String]",
@@ -1084,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "runStoreAs",
           "package": "progression",
@@ -1093,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "runStoreAs",
           "package": "progression",
@@ -1106,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "subGroupLabels",
           "package": "progression",
@@ -1115,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "subGroupLabels",
           "normalized": "[SubGroupName]",
@@ -1130,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Config",
           "name": "subGroupName",
           "package": "progression",
@@ -1139,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Progression Config",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Config",
           "name": "subGroupName",
           "package": "progression",
@@ -1153,6 +1253,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome helper functions for dealing with the results (CSV) files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Files",
           "name": "Files",
           "package": "progression",
@@ -1162,6 +1263,7 @@
         "index": {
           "description": "Some helper functions for dealing with the results CSV files",
           "hierarchy": "Progression Files",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Files",
           "name": "Files",
           "package": "progression",
@@ -1176,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds all the results files in the working directory, and returns a list of\n their labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Files",
           "name": "findResultFiles",
           "package": "progression",
@@ -1186,6 +1289,7 @@
         "index": {
           "description": "Finds all the results files in the working directory and returns list of their labels",
           "hierarchy": "Progression Files",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Files",
           "name": "findResultFiles",
           "normalized": "IO[String]",
@@ -1202,6 +1306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a label for a result-set, turns it into a CSV file name.\n\u003c/p\u003e\u003cp\u003eCurrently this is done by prepending \"bench-\" and appending \".csv\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Files",
           "name": "makeFileName",
           "package": "progression",
@@ -1212,6 +1317,7 @@
         "index": {
           "description": "Given label for result-set turns it into CSV file name Currently this is done by prepending bench and appending csv",
           "hierarchy": "Progression Files",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Files",
           "name": "makeFileName",
           "normalized": "String-\u003eFilePath",
@@ -1228,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe primary module in Progression; contains methods that you can use as the\n main method of your wrapper program.  Typically, to use Progression, you create\n a Haskell program that defines/imports the benchmarks, and passes them to the\n \u003ccode\u003e\u003ca\u003edefaultMain\u003c/a\u003e\u003c/code\u003e method below.  You then compile that program and run it to record\n and graph your benchmarks.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Main",
           "name": "Main",
           "package": "progression",
@@ -1237,6 +1344,7 @@
         "index": {
           "description": "The primary module in Progression contains methods that you can use as the main method of your wrapper program Typically to use Progression you create Haskell program that defines imports the benchmarks and passes them to the defaultMain method below You then compile that program and run it to record and graph your benchmarks",
           "hierarchy": "Progression Main",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Main",
           "name": "Main",
           "package": "progression",
@@ -1251,6 +1359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the given benchmark (which is likely a benchmark group) and runs it\n as part of Progression, recording the results and producing graphs.  The Benchmark\n type is imported from the Criterion library, so see the documentation for Criterion\n to find out what can be benchmarked and any issues that might arise in the benchmarking.\n\u003c/p\u003e\u003cp\u003eThis function will process the command-line arguments of the program, consuming\n any progression arguments, and passing any arguments that occur after a \"--\"\n argument on to Criterion.  If you want to perform further argument processing,\n it is best to do this before the call, and wrap the call in \u003ccode\u003e\u003ca\u003ewithArgs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Main",
           "name": "defaultMain",
           "package": "progression",
@@ -1261,6 +1370,7 @@
         "index": {
           "description": "Takes the given benchmark which is likely benchmark group and runs it as part of Progression recording the results and producing graphs The Benchmark type is imported from the Criterion library so see the documentation for Criterion to find out what can be benchmarked and any issues that might arise in the benchmarking This function will process the command-line arguments of the program consuming any progression arguments and passing any arguments that occur after argument on to Criterion If you want to perform further argument processing it is best to do this before the call and wrap the call in withArgs",
           "hierarchy": "Progression Main",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Main",
           "name": "defaultMain",
           "normalized": "Benchmark-\u003eIO()",
@@ -1277,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003edefaultMain\u003c/a\u003e\u003c/code\u003e but you can specify the default configuration.  Command-line\n argument processing is still performed, and command-line settings will take\n precedence over the config passed in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Main",
           "name": "defaultMainWith",
           "package": "progression",
@@ -1287,6 +1398,7 @@
         "index": {
           "description": "Like defaultMain but you can specify the default configuration Command-line argument processing is still performed and command-line settings will take precedence over the config passed in",
           "hierarchy": "Progression Main",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Main",
           "name": "defaultMainWith",
           "normalized": "Config-\u003eBenchmark-\u003eIO()",
@@ -1303,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA helper module for plotting.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Plot",
           "name": "Plot",
           "package": "progression",
@@ -1312,6 +1425,7 @@
         "index": {
           "description": "helper module for plotting",
           "hierarchy": "Progression Plot",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Plot",
           "name": "Plot",
           "package": "progression",
@@ -1326,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlots to the given destination file (using its extension as the terminal type),\n the given list of labels in the settings.  The first parameter is the one passed\n to the \u003ccode\u003e\u003ca\u003egraphData\u003c/a\u003e\u003c/code\u003e function (the most recent benchmark).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:04 UTC 2014",
           "module": "Progression.Plot",
           "name": "plotMulti",
           "package": "progression",
@@ -1336,6 +1451,7 @@
         "index": {
           "description": "Plots to the given destination file using its extension as the terminal type the given list of labels in the settings The first parameter is the one passed to the graphData function the most recent benchmark",
           "hierarchy": "Progression Plot",
+          "indexed": "2014-03-11T19:45:04",
           "module": "Progression.Plot",
           "name": "plotMulti",
           "normalized": "String-\u003eGraphSettings Definite-\u003eIO()",

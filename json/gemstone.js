@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gemstone"
+        "phrase": "gemstone",
+        "type": "phrase"
       },
       "type": "context"
     }

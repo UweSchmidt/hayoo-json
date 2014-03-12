@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "function-combine"
+        "phrase": "function-combine",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:21 UTC 2014",
           "module": "Control.Combine",
           "name": "Combine",
           "package": "function-combine",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Combine",
+          "indexed": "2014-03-11T18:13:21",
           "module": "Control.Combine",
           "name": "Combine",
           "package": "function-combine",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:21 UTC 2014",
           "module": "Control.Combine",
           "name": "C",
           "package": "function-combine",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Combine",
+          "indexed": "2014-03-11T18:13:21",
           "module": "Control.Combine",
           "name": "C",
           "package": "function-combine",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:21 UTC 2014",
           "module": "Control.Combine",
           "name": "Compose",
           "package": "function-combine",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Control Combine",
+          "indexed": "2014-03-11T18:13:21",
           "module": "Control.Combine",
           "name": "Compose",
           "package": "function-combine",
@@ -80,6 +86,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:21 UTC 2014",
           "module": "Control.Combine",
           "name": "ComposeType",
           "package": "function-combine",
@@ -88,6 +95,7 @@
         },
         "index": {
           "hierarchy": "Control Combine",
+          "indexed": "2014-03-11T18:13:21",
           "module": "Control.Combine",
           "name": "ComposeType",
           "package": "function-combine",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:21 UTC 2014",
           "module": "Control.Combine",
           "name": "FlipType",
           "package": "function-combine",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "Control Combine",
+          "indexed": "2014-03-11T18:13:21",
           "module": "Control.Combine",
           "name": "FlipType",
           "package": "function-combine",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:21 UTC 2014",
           "module": "Control.Combine",
           "name": "R",
           "package": "function-combine",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "Control Combine",
+          "indexed": "2014-03-11T18:13:21",
           "module": "Control.Combine",
           "name": "R",
           "package": "function-combine",
@@ -142,6 +154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:21 UTC 2014",
           "module": "Control.Combine",
           "name": "Rot",
           "package": "function-combine",
@@ -150,6 +163,7 @@
         },
         "index": {
           "hierarchy": "Control Combine",
+          "indexed": "2014-03-11T18:13:21",
           "module": "Control.Combine",
           "name": "Rot",
           "package": "function-combine",
@@ -163,6 +177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:21 UTC 2014",
           "module": "Control.Combine",
           "name": "RotType",
           "package": "function-combine",
@@ -171,6 +186,7 @@
         },
         "index": {
           "hierarchy": "Control Combine",
+          "indexed": "2014-03-11T18:13:21",
           "module": "Control.Combine",
           "name": "RotType",
           "package": "function-combine",
@@ -184,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:21 UTC 2014",
           "module": "Control.Combine",
           "name": "compose",
           "package": "function-combine",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Control Combine",
+          "indexed": "2014-03-11T18:13:21",
           "module": "Control.Combine",
           "name": "compose",
           "normalized": "a-\u003eb-\u003ec-\u003ed",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:21 UTC 2014",
           "module": "Control.Combine",
           "name": "rot",
           "package": "function-combine",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Control Combine",
+          "indexed": "2014-03-11T18:13:21",
           "module": "Control.Combine",
           "name": "rot",
           "normalized": "a-\u003eb-\u003ec",

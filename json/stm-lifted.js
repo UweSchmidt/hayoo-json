@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stm-lifted"
+        "phrase": "stm-lifted",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TBQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "isEmptyTBQueueIO",
           "package": "stm-lifted",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TBQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "isEmptyTBQueueIO",
           "normalized": "TBQueue a-\u003eb Bool",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "newTBQueueIO",
           "package": "stm-lifted",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TBQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "newTBQueueIO",
           "normalized": "Int-\u003ea(TBQueue b)",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "peekTBQueueIO",
           "package": "stm-lifted",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TBQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "peekTBQueueIO",
           "normalized": "TBQueue a-\u003eb a",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "readTBQueueIO",
           "package": "stm-lifted",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TBQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "readTBQueueIO",
           "normalized": "TBQueue a-\u003eb a",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "tryPeekTBQueueIO",
           "package": "stm-lifted",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TBQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "tryPeekTBQueueIO",
           "normalized": "TBQueue a-\u003eb(Maybe a)",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "tryReadTBQueueIO",
           "package": "stm-lifted",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TBQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "tryReadTBQueueIO",
           "normalized": "TBQueue a-\u003eb(Maybe a)",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "unGetTBQueueIO",
           "package": "stm-lifted",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TBQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "unGetTBQueueIO",
           "normalized": "TBQueue a-\u003ea-\u003eb()",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "writeTBQueueIO",
           "package": "stm-lifted",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TBQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TBQueue.Lifted",
           "name": "writeTBQueueIO",
           "normalized": "TBQueue a-\u003ea-\u003eb()",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "cloneTChanIO",
           "package": "stm-lifted",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "cloneTChanIO",
           "normalized": "TChan a-\u003eb(TChan a)",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "dupTChanIO",
           "package": "stm-lifted",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "dupTChanIO",
           "normalized": "TChan a-\u003eb(TChan a)",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "isEmptyTChanIO",
           "package": "stm-lifted",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "isEmptyTChanIO",
           "normalized": "TChan a-\u003eb Bool",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "newBroadcastTChanIO",
           "package": "stm-lifted",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "newBroadcastTChanIO",
           "package": "stm-lifted",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "newTChanIO",
           "package": "stm-lifted",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "newTChanIO",
           "package": "stm-lifted",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "peekTChanIO",
           "package": "stm-lifted",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "peekTChanIO",
           "normalized": "TChan a-\u003eb a",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "readTChanIO",
           "package": "stm-lifted",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "readTChanIO",
           "normalized": "TChan a-\u003eb a",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "tryPeekTChanIO",
           "package": "stm-lifted",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "tryPeekTChanIO",
           "normalized": "TChan a-\u003eb(Maybe a)",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "tryReadTChanIO",
           "package": "stm-lifted",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "tryReadTChanIO",
           "normalized": "TChan a-\u003eb(Maybe a)",
@@ -485,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "unGetTChanIO",
           "package": "stm-lifted",
@@ -494,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "unGetTChanIO",
           "normalized": "TChan a-\u003ea-\u003eb()",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "writeTChanIO",
           "package": "stm-lifted",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TChan.Lifted",
           "name": "writeTChanIO",
           "normalized": "TChan a-\u003ea-\u003eb()",
@@ -533,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -541,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -554,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "isEmptyTMVarIO",
           "package": "stm-lifted",
@@ -563,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "isEmptyTMVarIO",
           "normalized": "TMVar a-\u003eb Bool",
@@ -578,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "newEmptyTMVarIO",
           "package": "stm-lifted",
@@ -587,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "newEmptyTMVarIO",
           "package": "stm-lifted",
@@ -600,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "newTMVarIO",
           "package": "stm-lifted",
@@ -609,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "newTMVarIO",
           "normalized": "a-\u003eb(TMVar a)",
@@ -624,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "putTMVarIO",
           "package": "stm-lifted",
@@ -633,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "putTMVarIO",
           "normalized": "TMVar a-\u003ea-\u003eb()",
@@ -648,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "readTMVarIO",
           "package": "stm-lifted",
@@ -657,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "readTMVarIO",
           "normalized": "TMVar a-\u003eb a",
@@ -672,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "swapTMVarIO",
           "package": "stm-lifted",
@@ -681,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "swapTMVarIO",
           "normalized": "TMVar a-\u003ea-\u003eb a",
@@ -696,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "takeTMVarIO",
           "package": "stm-lifted",
@@ -705,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "takeTMVarIO",
           "normalized": "TMVar a-\u003eb a",
@@ -720,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "tryPutTMVarIO",
           "package": "stm-lifted",
@@ -729,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "tryPutTMVarIO",
           "normalized": "TMVar a-\u003ea-\u003eb Bool",
@@ -744,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "tryReadTMVarIO",
           "package": "stm-lifted",
@@ -753,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "tryReadTMVarIO",
           "normalized": "TMVar a-\u003eb(Maybe a)",
@@ -768,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "tryTakeTMVarIO",
           "package": "stm-lifted",
@@ -777,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TMVar.Lifted",
           "name": "tryTakeTMVarIO",
           "normalized": "TMVar a-\u003eb(Maybe a)",
@@ -792,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -800,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -813,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "isEmptyTQueueIO",
           "package": "stm-lifted",
@@ -822,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "isEmptyTQueueIO",
           "normalized": "TQueue a-\u003eb Bool",
@@ -837,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "newTQueueIO",
           "package": "stm-lifted",
@@ -846,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "newTQueueIO",
           "package": "stm-lifted",
@@ -859,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "peekTQueueIO",
           "package": "stm-lifted",
@@ -868,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "peekTQueueIO",
           "normalized": "TQueue a-\u003eb a",
@@ -883,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "readTQueueIO",
           "package": "stm-lifted",
@@ -892,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "readTQueueIO",
           "normalized": "TQueue a-\u003eb a",
@@ -907,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "tryPeekTQueueIO",
           "package": "stm-lifted",
@@ -916,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "tryPeekTQueueIO",
           "normalized": "TQueue a-\u003eb(Maybe a)",
@@ -931,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "tryReadTQueueIO",
           "package": "stm-lifted",
@@ -940,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "tryReadTQueueIO",
           "normalized": "TQueue a-\u003eb(Maybe a)",
@@ -955,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "unGetTQueueIO",
           "package": "stm-lifted",
@@ -964,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "unGetTQueueIO",
           "normalized": "TQueue a-\u003ea-\u003eb()",
@@ -979,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "writeTQueueIO",
           "package": "stm-lifted",
@@ -988,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TQueue Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TQueue.Lifted",
           "name": "writeTQueueIO",
           "normalized": "TQueue a-\u003ea-\u003eb()",
@@ -1003,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TSem.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -1011,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TSem Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TSem.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -1024,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TSem.Lifted",
           "name": "newTSemIO",
           "package": "stm-lifted",
@@ -1033,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TSem Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TSem.Lifted",
           "name": "newTSemIO",
           "normalized": "Int-\u003ea TSem",
@@ -1048,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TSem.Lifted",
           "name": "signalTSemIO",
           "package": "stm-lifted",
@@ -1057,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TSem Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TSem.Lifted",
           "name": "signalTSemIO",
           "normalized": "TSem-\u003ea()",
@@ -1072,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TSem.Lifted",
           "name": "waitTSemIO",
           "package": "stm-lifted",
@@ -1081,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TSem Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TSem.Lifted",
           "name": "waitTSemIO",
           "normalized": "TSem-\u003ea()",
@@ -1096,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -1104,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "Lifted",
           "package": "stm-lifted",
@@ -1118,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-strict version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "modifyTVarIO",
           "package": "stm-lifted",
@@ -1128,6 +1223,7 @@
         "index": {
           "description": "Non-strict version",
           "hierarchy": "Control Concurrent STM TVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "modifyTVarIO",
           "normalized": "TVar a-\u003e(a-\u003ea)-\u003eb()",
@@ -1144,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "modifyTVarIO'",
           "package": "stm-lifted",
@@ -1154,6 +1251,7 @@
         "index": {
           "description": "Strict version",
           "hierarchy": "Control Concurrent STM TVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "modifyTVarIO'",
           "normalized": "TVar a-\u003e(a-\u003ea)-\u003eb()",
@@ -1169,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "newTVarIO",
           "package": "stm-lifted",
@@ -1178,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "newTVarIO",
           "normalized": "a-\u003eb(TVar a)",
@@ -1193,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "readTVarIO",
           "package": "stm-lifted",
@@ -1202,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "readTVarIO",
           "normalized": "TVar a-\u003eb a",
@@ -1217,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "swapTVarIO",
           "package": "stm-lifted",
@@ -1226,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "swapTVarIO",
           "normalized": "TVar a-\u003ea-\u003eb a",
@@ -1241,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "writeTVarIO",
           "package": "stm-lifted",
@@ -1250,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar Lifted",
+          "indexed": "2014-03-11T20:11:06",
           "module": "Control.Concurrent.STM.TVar.Lifted",
           "name": "writeTVarIO",
           "normalized": "TVar a-\u003ea-\u003eb()",

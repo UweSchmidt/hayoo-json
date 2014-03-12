@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsSqlite3"
+        "phrase": "hsSqlite3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "Db",
           "package": "hsSqlite3",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "Db",
           "package": "hsSqlite3",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "DbError",
           "package": "hsSqlite3",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "DbError",
           "package": "hsSqlite3",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "MonadDb",
           "package": "hsSqlite3",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "MonadDb",
           "package": "hsSqlite3",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "bindDouble",
           "package": "hsSqlite3",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "bindDouble",
           "normalized": "Int-\u003eDouble-\u003eDb()",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "bindInt",
           "package": "hsSqlite3",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "bindInt",
           "normalized": "Int-\u003eInt-\u003eDb()",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "bindText",
           "package": "hsSqlite3",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "bindText",
           "normalized": "Int-\u003eString-\u003eDb()",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "castErr",
           "package": "hsSqlite3",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "castErr",
           "normalized": "a-\u003eMaybe CInt",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "cleanDb",
           "package": "hsSqlite3",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "cleanDb",
           "normalized": "a()",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "cleanSt",
           "package": "hsSqlite3",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "cleanSt",
           "normalized": "a()",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "close",
           "package": "hsSqlite3",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "close",
           "normalized": "Db()",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "columnBlob",
           "package": "hsSqlite3",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "columnBlob",
           "normalized": "Int-\u003eDb ByteString",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "columnBytes",
           "package": "hsSqlite3",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "columnBytes",
           "normalized": "Int-\u003eDb Int",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "columnCount",
           "package": "hsSqlite3",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "columnCount",
           "package": "hsSqlite3",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "columnDouble",
           "package": "hsSqlite3",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "columnDouble",
           "normalized": "Int-\u003eDb Double",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "columnInt",
           "package": "hsSqlite3",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "columnInt",
           "normalized": "Int-\u003eDb Int",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "columnType",
           "package": "hsSqlite3",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "columnType",
           "normalized": "Int-\u003eDb Int",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "err",
           "package": "hsSqlite3",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "err",
           "normalized": "CInt-\u003eDb()",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "finalize",
           "package": "hsSqlite3",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "finalize",
           "normalized": "Db()",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "getDb",
           "package": "hsSqlite3",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "getDb",
           "package": "hsSqlite3",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "getSt",
           "package": "hsSqlite3",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "getSt",
           "package": "hsSqlite3",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "isDbReady",
           "package": "hsSqlite3",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "isDbReady",
           "package": "hsSqlite3",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "isStReady",
           "package": "hsSqlite3",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "isStReady",
           "package": "hsSqlite3",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "makeErr",
           "package": "hsSqlite3",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "makeErr",
           "normalized": "CInt-\u003ea",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "newCString",
           "package": "hsSqlite3",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "newCString",
           "normalized": "String-\u003eIO CString",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "open",
           "package": "hsSqlite3",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "open",
           "normalized": "String-\u003eDb()",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "prepare",
           "package": "hsSqlite3",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "prepare",
           "normalized": "String-\u003eDb()",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "putDb",
           "package": "hsSqlite3",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "putDb",
           "normalized": "Ptr C'sqlite-\u003ea()",
@@ -642,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "putSt",
           "package": "hsSqlite3",
@@ -651,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "putSt",
           "normalized": "Ptr C'sqlite a-\u003eb()",
@@ -666,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "reset",
           "package": "hsSqlite3",
@@ -675,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "reset",
           "normalized": "Db()",
@@ -689,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3.Middle",
           "name": "step",
           "package": "hsSqlite3",
@@ -698,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3 Middle",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3.Middle",
           "name": "step",
           "package": "hsSqlite3",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3",
           "name": ":.",
           "package": "hsSqlite3",
@@ -718,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3",
           "name": ":.",
           "package": "hsSqlite3",
@@ -730,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3",
           "name": "Nil",
           "package": "hsSqlite3",
@@ -738,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3",
           "name": "Nil",
           "package": "hsSqlite3",
@@ -751,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3",
           "name": "Stack",
           "package": "hsSqlite3",
@@ -759,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3",
           "name": "Stack",
           "package": "hsSqlite3",
@@ -772,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3",
           "name": "Cell",
           "package": "hsSqlite3",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3",
           "name": "Cell",
           "package": "hsSqlite3",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3",
           "name": "bind",
           "package": "hsSqlite3",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3",
           "name": "bind",
           "normalized": "String-\u003e[Stack a]-\u003eDb()",
@@ -816,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3",
           "name": "bindT",
           "package": "hsSqlite3",
@@ -825,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3",
           "name": "bindT",
           "normalized": "Int-\u003ea-\u003eDb()",
@@ -839,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3",
           "name": "columnT",
           "package": "hsSqlite3",
@@ -848,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3",
           "name": "columnT",
           "normalized": "Int-\u003eDb a",
@@ -862,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3",
           "name": "idT",
           "package": "hsSqlite3",
@@ -871,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3",
           "name": "idT",
           "normalized": "a-\u003eInt",
@@ -885,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3",
           "name": "runSimpleDb",
           "package": "hsSqlite3",
@@ -894,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3",
           "name": "runSimpleDb",
           "normalized": "SimpleDb a-\u003eIO a",
@@ -909,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:28 UTC 2014",
           "module": "Database.Sqlite3",
           "name": "sql",
           "package": "hsSqlite3",
@@ -918,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite3",
+          "indexed": "2014-03-11T18:46:28",
           "module": "Database.Sqlite3",
           "name": "sql",
           "normalized": "String-\u003eDb()",

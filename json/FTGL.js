@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FTGL"
+        "phrase": "FTGL",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cul\u003e\u003cli\u003e Author: Jefferson Heard (jefferson.r.heard at gmail.com)\n\u003c/li\u003e\u003cli\u003e Copyright 2008 Renaissance Computing Institute \u003ca\u003e http://www.renci.org \u003c/a\u003e \n\u003c/li\u003e\u003cli\u003e License: GNU LGPL \n\u003c/li\u003e\u003cli\u003e Compatibility GHC (I could change the data declarations to not be empty and that would make it more generally compatible, I believe)\n\u003c/li\u003e\u003cli\u003e Description: \n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eUse FreeType 2 Fonts in OpenGL.  Requires the FTGL library and FreeType libraries.\n  available at \u003ca\u003e http://ftgl.wiki.sourceforge.net/ \u003c/a\u003e . The most important functions for\n  everyday use are renderFont and the create*Font family of functions.  To render a \n  simple string inside OpenGL, assuming you have OpenGL initialized and a current \n  pen color, all you need is:\n\u003c/p\u003e\u003cpre\u003e do font \u003c- createTextureFont \"Font.ttf\"\n   setFontFaceSize font 24 72\n   renderFont font \"Hello world!\"\n\u003c/pre\u003e\u003cp\u003eFonts are rendered so that a single point is an OpenGL unit, and a point is 1:72 of\n an inch.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "FTGL",
           "package": "FTGL",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Author Jefferson Heard jefferson.r.heard at gmail.com Copyright Renaissance Computing Institute http www.renci.org License GNU LGPL Compatibility GHC could change the data declarations to not be empty and that would make it more generally compatible believe Description Use FreeType Fonts in OpenGL Requires the FTGL library and FreeType libraries available at http ftgl.wiki.sourceforge.net The most important functions for everyday use are renderFont and the create Font family of functions To render simple string inside OpenGL assuming you have OpenGL initialized and current pen color all you need is do font createTextureFont Font.ttf setFontFaceSize font renderFont font Hello world Fonts are rendered so that single point is an OpenGL unit and point is of an inch",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "FTGL",
           "package": "FTGL",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "CharMap",
           "package": "FTGL",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "CharMap",
           "package": "FTGL",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "Font",
           "package": "FTGL",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "Font",
           "package": "FTGL",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque type encapsulating a font in C.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "Font_Opaque",
           "package": "FTGL",
@@ -93,6 +100,7 @@
         "index": {
           "description": "An opaque type encapsulating font in",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "Font_Opaque",
           "package": "FTGL",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "Glyph",
           "package": "FTGL",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "Glyph",
           "package": "FTGL",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque type encapsulating a glyph in C.  Currently the glyph functions are unimplemented in Haskell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "Glyph_Opaque",
           "package": "FTGL",
@@ -137,6 +148,7 @@
         "index": {
           "description": "An opaque type encapsulating glyph in Currently the glyph functions are unimplemented in Haskell",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "Glyph_Opaque",
           "package": "FTGL",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "Layout",
           "package": "FTGL",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "Layout",
           "package": "FTGL",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque type encapsulating a layout in C\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "Layout_Opaque",
           "package": "FTGL",
@@ -181,6 +196,7 @@
         "index": {
           "description": "An opaque type encapsulating layout in",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "Layout_Opaque",
           "package": "FTGL",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet any errors associated with a layout.\n\u003c/p\u003e\u003cp\u003eWhether or not in polygonal or extrusion mode, the font will render equally front and back\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "RenderMode",
           "package": "FTGL",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Get any errors associated with layout Whether or not in polygonal or extrusion mode the font will render equally front and back",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "RenderMode",
           "package": "FTGL",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn a Layout directed render, the layout mode of the text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "TextAlignment",
           "package": "FTGL",
@@ -227,6 +246,7 @@
         "index": {
           "description": "In Layout directed render the layout mode of the text",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "TextAlignment",
           "package": "FTGL",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "AlignCenter",
           "package": "FTGL",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "AlignCenter",
           "package": "FTGL",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "AlignLeft",
           "package": "FTGL",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "AlignLeft",
           "package": "FTGL",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "AlignRight",
           "package": "FTGL",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "AlignRight",
           "package": "FTGL",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "All",
           "package": "FTGL",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "All",
           "package": "FTGL",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "Back",
           "package": "FTGL",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "Back",
           "package": "FTGL",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingAdobeCustom",
           "package": "FTGL",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingAdobeCustom",
           "package": "FTGL",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingAdobeExpert",
           "package": "FTGL",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingAdobeExpert",
           "package": "FTGL",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingAdobeLatin1",
           "package": "FTGL",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingAdobeLatin1",
           "package": "FTGL",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingAdobeStandard",
           "package": "FTGL",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingAdobeStandard",
           "package": "FTGL",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingAppleRoman",
           "package": "FTGL",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingAppleRoman",
           "package": "FTGL",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingBig5",
           "package": "FTGL",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingBig5",
           "package": "FTGL",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingGB2312",
           "package": "FTGL",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingGB2312",
           "package": "FTGL",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingJohab",
           "package": "FTGL",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingJohab",
           "package": "FTGL",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingMSSymbol",
           "package": "FTGL",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingMSSymbol",
           "package": "FTGL",
@@ -548,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingNone",
           "package": "FTGL",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingNone",
           "package": "FTGL",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingOldLatin2",
           "package": "FTGL",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingOldLatin2",
           "package": "FTGL",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingSJIS",
           "package": "FTGL",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingSJIS",
           "package": "FTGL",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingUnicode",
           "package": "FTGL",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingUnicode",
           "package": "FTGL",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingWanSung",
           "package": "FTGL",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "EncodingWanSung",
           "package": "FTGL",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "Front",
           "package": "FTGL",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "Front",
           "package": "FTGL",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "Justify",
           "package": "FTGL",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "Justify",
           "package": "FTGL",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "Side",
           "package": "FTGL",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "Side",
           "package": "FTGL",
@@ -725,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach some external data (often kerning) to the font\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "attachData",
           "package": "FTGL",
@@ -735,6 +800,7 @@
         "index": {
           "description": "Attach some external data often kerning to the font",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "attachData",
           "normalized": "Font-\u003ePtr()-\u003eIO()",
@@ -751,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach a metadata file to a font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "attachFile",
           "package": "FTGL",
@@ -761,6 +828,7 @@
         "index": {
           "description": "Attach metadata file to font",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "attachFile",
           "normalized": "Font-\u003eString-\u003eIO()",
@@ -777,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a bitmapped version of a TrueType font.  Bitmapped versions will not\n | respond to matrix transformations, but rather must be transformed using the\n | raster positioning functions in OpenGL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "createBitmapFont",
           "package": "FTGL",
@@ -787,6 +856,7 @@
         "index": {
           "description": "Create bitmapped version of TrueType font Bitmapped versions will not respond to matrix transformations but rather must be transformed using the raster positioning functions in OpenGL",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "createBitmapFont",
           "normalized": "String-\u003eIO Font",
@@ -803,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a buffered version of a TrueType font. This stores the entirety of\n | a string in a texture, \u003ca\u003ebuffering\u003c/a\u003e it before rendering.  Very fast if you\n | will be repeatedly rendering the same strings over and over.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "createBufferFont",
           "package": "FTGL",
@@ -813,6 +884,7 @@
         "index": {
           "description": "Create buffered version of TrueType font This stores the entirety of string in texture buffering it before rendering Very fast if you will be repeatedly rendering the same strings over and over",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "createBufferFont",
           "normalized": "String-\u003eIO Font",
@@ -829,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a 3D extruded font.  This is the only way of creating 3D fonts \n | within FTGL.  Could be fun to use a geometry shader to get different\n | effects by warping the otherwise square nature of the font.  Polygonal.\n | Scales without losing quality.  Slower than all other fonts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "createExtrudeFont",
           "package": "FTGL",
@@ -839,6 +912,7 @@
         "index": {
           "description": "Create extruded font This is the only way of creating fonts within FTGL Could be fun to use geometry shader to get different effects by warping the otherwise square nature of the font Polygonal Scales without losing quality Slower than all other fonts",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "createExtrudeFont",
           "normalized": "String-\u003eIO Font",
@@ -855,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an outline version of a TrueType font. This uses actual geometry\n | and will scale independently without loss of quality.  Faster than polygons\n | but slower than texture or buffer fonts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "createOutlineFont",
           "package": "FTGL",
@@ -865,6 +940,7 @@
         "index": {
           "description": "Create an outline version of TrueType font This uses actual geometry and will scale independently without loss of quality Faster than polygons but slower than texture or buffer fonts",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "createOutlineFont",
           "normalized": "String-\u003eIO Font",
@@ -881,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a pixmap version of a TrueType font.  Higher quality than the bitmap\n | font without losing any performance.  Use this if you don't mind using\n | set and get RasterPosition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "createPixmapFont",
           "package": "FTGL",
@@ -891,6 +968,7 @@
         "index": {
           "description": "Create pixmap version of TrueType font Higher quality than the bitmap font without losing any performance Use this if you don mind using set and get RasterPosition",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "createPixmapFont",
           "normalized": "String-\u003eIO Font",
@@ -907,6 +985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate polygonal display list fonts.  These scale independently without\n | losing quality, unlike texture or buffer fonts, but can be impractical\n | for large amounts of text because of the high number of polygons needed.\n | Additionally, they do not, unlike the textured fonts, create artifacts\n | within the square formed at the edge of each character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "createPolygonFont",
           "package": "FTGL",
@@ -917,6 +996,7 @@
         "index": {
           "description": "Create polygonal display list fonts These scale independently without losing quality unlike texture or buffer fonts but can be impractical for large amounts of text because of the high number of polygons needed Additionally they do not unlike the textured fonts create artifacts within the square formed at the edge of each character",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "createPolygonFont",
           "normalized": "String-\u003eIO Font",
@@ -933,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a simple layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "createSimpleLayout",
           "package": "FTGL",
@@ -943,6 +1024,7 @@
         "index": {
           "description": "Create simple layout",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "createSimpleLayout",
           "package": "FTGL",
@@ -957,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate textured display list fonts.  These can scale somewhat well, \n | but lose quality quickly.  They are much faster than polygonal fonts, \n | though, so are suitable for large quantities of text.  Especially suited\n | well to text that changes with most frames, because it doesn't incur the\n | (normally helpful) overhead of buffering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "createTextureFont",
           "package": "FTGL",
@@ -967,6 +1050,7 @@
         "index": {
           "description": "Create textured display list fonts These can scale somewhat well but lose quality quickly They are much faster than polygonal fonts though so are suitable for large quantities of text Especially suited well to text that changes with most frames because it doesn incur the normally helpful overhead of buffering",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "createTextureFont",
           "normalized": "String-\u003eIO Font",
@@ -983,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroy a font\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "destroyFont",
           "package": "FTGL",
@@ -993,6 +1078,7 @@
         "index": {
           "description": "Destroy font",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "destroyFont",
           "normalized": "Font-\u003eIO()",
@@ -1008,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "destroyLayout",
           "package": "FTGL",
@@ -1017,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "destroyLayout",
           "normalized": "Layout-\u003eIO()",
@@ -1032,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "encodeTag",
           "package": "FTGL",
@@ -1041,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "encodeTag",
           "normalized": "Char-\u003eChar-\u003eChar-\u003eChar-\u003eCInt",
@@ -1056,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fattachFile",
           "package": "FTGL",
@@ -1065,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fattachFile",
           "normalized": "Font-\u003eCString-\u003eIO()",
@@ -1080,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreateBitmapFont",
           "package": "FTGL",
@@ -1089,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreateBitmapFont",
           "normalized": "CString-\u003eIO Font",
@@ -1104,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreateBufferFont",
           "package": "FTGL",
@@ -1113,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreateBufferFont",
           "normalized": "CString-\u003eIO Font",
@@ -1128,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreateExtrudeFont",
           "package": "FTGL",
@@ -1137,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreateExtrudeFont",
           "normalized": "CString-\u003eIO Font",
@@ -1152,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreateOutlineFont",
           "package": "FTGL",
@@ -1161,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreateOutlineFont",
           "normalized": "CString-\u003eIO Font",
@@ -1176,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreatePixmapFont",
           "package": "FTGL",
@@ -1185,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreatePixmapFont",
           "normalized": "CString-\u003eIO Font",
@@ -1200,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreatePolygonFont",
           "package": "FTGL",
@@ -1209,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreatePolygonFont",
           "normalized": "CString-\u003eIO Font",
@@ -1224,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreateTextureFont",
           "package": "FTGL",
@@ -1233,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fcreateTextureFont",
           "normalized": "CString-\u003eIO Font",
@@ -1248,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontAdvance",
           "package": "FTGL",
@@ -1257,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontAdvance",
           "normalized": "Font-\u003eCString-\u003eIO CFloat",
@@ -1272,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontAscender",
           "package": "FTGL",
@@ -1281,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontAscender",
           "normalized": "Font-\u003eCFloat",
@@ -1296,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontBBox",
           "package": "FTGL",
@@ -1305,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontBBox",
           "normalized": "Font-\u003eCString-\u003eInt-\u003ePtr CFloat-\u003eIO()",
@@ -1320,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontCharMapCount",
           "package": "FTGL",
@@ -1329,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontCharMapCount",
           "normalized": "Font-\u003eIO CInt",
@@ -1344,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontCharMapList",
           "package": "FTGL",
@@ -1353,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontCharMapList",
           "normalized": "Font-\u003eIO(Ptr CInt)",
@@ -1368,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontDescender",
           "package": "FTGL",
@@ -1377,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontDescender",
           "normalized": "Font-\u003eCFloat",
@@ -1392,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontError",
           "package": "FTGL",
@@ -1401,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontError",
           "normalized": "Font-\u003eIO CInt",
@@ -1416,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontFaceSize",
           "package": "FTGL",
@@ -1425,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontFaceSize",
           "normalized": "Font-\u003eIO CInt",
@@ -1440,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontLineHeight",
           "package": "FTGL",
@@ -1449,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetFontLineHeight",
           "normalized": "Font-\u003eCFloat",
@@ -1465,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the layout alignment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetLayoutAlignment",
           "package": "FTGL",
@@ -1475,6 +1600,7 @@
         "index": {
           "description": "Set the layout alignment",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetLayoutAlignment",
           "normalized": "Layout-\u003eIO CInt",
@@ -1491,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a string of text within a layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetLayoutError",
           "package": "FTGL",
@@ -1501,6 +1628,7 @@
         "index": {
           "description": "Render string of text within layout",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetLayoutError",
           "normalized": "Layout-\u003eIO CInt",
@@ -1516,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetLayoutFont",
           "package": "FTGL",
@@ -1525,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetLayoutFont",
           "normalized": "Layout-\u003eIO Font",
@@ -1540,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetLayoutLineLength",
           "package": "FTGL",
@@ -1549,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fgetLayoutLineLength",
           "normalized": "Layout-\u003eIO CFloat",
@@ -1564,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "frenderFont",
           "package": "FTGL",
@@ -1573,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "frenderFont",
           "normalized": "Font-\u003eCString-\u003eCInt-\u003eIO()",
@@ -1588,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "frenderLayout",
           "package": "FTGL",
@@ -1597,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "frenderLayout",
           "normalized": "Layout-\u003eCString-\u003eIO()",
@@ -1613,6 +1749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the font's character map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fsetFontCharMap",
           "package": "FTGL",
@@ -1623,6 +1760,7 @@
         "index": {
           "description": "Set the font character map",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fsetFontCharMap",
           "normalized": "Font-\u003eCInt-\u003eIO()",
@@ -1638,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fsetFontDepth",
           "package": "FTGL",
@@ -1647,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fsetFontDepth",
           "normalized": "Font-\u003eCFloat-\u003eIO()",
@@ -1663,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the different character mappings available in this font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fsetFontFaceSize",
           "package": "FTGL",
@@ -1673,6 +1814,7 @@
         "index": {
           "description": "Get the different character mappings available in this font",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fsetFontFaceSize",
           "normalized": "Font-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -1688,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fsetFontOutset",
           "package": "FTGL",
@@ -1697,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fsetFontOutset",
           "normalized": "Font-\u003eCFloat-\u003eCFloat-\u003eIO()",
@@ -1712,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fsetLayoutAlignment",
           "package": "FTGL",
@@ -1721,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fsetLayoutAlignment",
           "normalized": "Layout-\u003eCInt-\u003eIO()",
@@ -1737,6 +1883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the alignment of text in this layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "fsetLayoutLineSpacing",
           "package": "FTGL",
@@ -1747,6 +1894,7 @@
         "index": {
           "description": "Get the alignment of text in this layout",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "fsetLayoutLineSpacing",
           "normalized": "Layout-\u003eCFloat-\u003eIO()",
@@ -1763,6 +1911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the horizontal span of a string of text using the current font.  Input as the xcoord\n | in any translate operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontAdvance",
           "package": "FTGL",
@@ -1773,6 +1922,7 @@
         "index": {
           "description": "Get the horizontal span of string of text using the current font Input as the xcoord in any translate operation",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontAdvance",
           "normalized": "Font-\u003eString-\u003eIO Float",
@@ -1789,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the global ascender height for the face. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontAscender",
           "package": "FTGL",
@@ -1799,6 +1950,7 @@
         "index": {
           "description": "Get the global ascender height for the face",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontAscender",
           "normalized": "Font-\u003eFloat",
@@ -1815,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the text extents of a string as a list of (llx,lly,lly,urx,ury,urz)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontBBox",
           "package": "FTGL",
@@ -1825,6 +1978,7 @@
         "index": {
           "description": "Get the text extents of string as list of llx lly lly urx ury urz",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontBBox",
           "normalized": "Font-\u003eString-\u003eIO[Float]",
@@ -1841,6 +1995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of characters loaded into the current charmap for the font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontCharMapCount",
           "package": "FTGL",
@@ -1851,6 +2006,7 @@
         "index": {
           "description": "Get the number of characters loaded into the current charmap for the font",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontCharMapCount",
           "normalized": "Font-\u003eInt",
@@ -1867,6 +2023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the global descender height for the face. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontDescender",
           "package": "FTGL",
@@ -1877,6 +2034,7 @@
         "index": {
           "description": "Gets the global descender height for the face",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontDescender",
           "normalized": "Font-\u003eFloat",
@@ -1893,6 +2051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet any errors associated with loading a font. FIXME return should be a type, not an Int.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontError",
           "package": "FTGL",
@@ -1903,6 +2062,7 @@
         "index": {
           "description": "Get any errors associated with loading font FIXME return should be type not an Int",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontError",
           "normalized": "Font-\u003eIO Int",
@@ -1919,6 +2079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current font face size in points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontFaceSize",
           "package": "FTGL",
@@ -1929,6 +2090,7 @@
         "index": {
           "description": "Get the current font face size in points",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontFaceSize",
           "normalized": "Font-\u003eIO Int",
@@ -1945,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the global line spacing for the face. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontLineHeight",
           "package": "FTGL",
@@ -1955,6 +2118,7 @@
         "index": {
           "description": "Gets the global line spacing for the face",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "getFontLineHeight",
           "normalized": "Font-\u003eFloat",
@@ -1971,6 +2135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the line length in points (1:72in) of lines in the layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "getLayoutLineLength",
           "package": "FTGL",
@@ -1981,6 +2146,7 @@
         "index": {
           "description": "Get the line length in points in of lines in the layout",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "getLayoutLineLength",
           "normalized": "Layout-\u003eIO Float",
@@ -1996,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "marshalRenderMode",
           "package": "FTGL",
@@ -2005,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "marshalRenderMode",
           "normalized": "RenderMode-\u003eCInt",
@@ -2020,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "marshalTextAlignment",
           "package": "FTGL",
@@ -2029,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "marshalTextAlignment",
           "normalized": "TextAlignment-\u003eCInt",
@@ -2044,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "readTextAlignment",
           "package": "FTGL",
@@ -2053,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "readTextAlignment",
           "normalized": "CInt-\u003eTextAlignment",
@@ -2069,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a string of text in the current font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "renderFont",
           "package": "FTGL",
@@ -2079,6 +2252,7 @@
         "index": {
           "description": "Render string of text in the current font",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "renderFont",
           "normalized": "Font-\u003eString-\u003eRenderMode-\u003eIO()",
@@ -2094,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "setCharMap",
           "package": "FTGL",
@@ -2103,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "setCharMap",
           "normalized": "Font-\u003eCharMap-\u003eIO()",
@@ -2118,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "setFontDepth",
           "package": "FTGL",
@@ -2127,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "setFontDepth",
           "normalized": "Font-\u003eFloat-\u003eIO()",
@@ -2142,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "setFontFaceSize",
           "package": "FTGL",
@@ -2151,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "setFontFaceSize",
           "normalized": "Font-\u003eInt-\u003eInt-\u003eIO CInt",
@@ -2166,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "setFontOutset",
           "package": "FTGL",
@@ -2175,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "setFontOutset",
           "normalized": "Font-\u003eFloat-\u003eFloat-\u003eIO()",
@@ -2191,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the layout's font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "setLayoutFont",
           "package": "FTGL",
@@ -2201,6 +2384,7 @@
         "index": {
           "description": "Set the layout font",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "setLayoutFont",
           "normalized": "Layout-\u003eFont-\u003eIO()",
@@ -2217,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the embedded font from the Layout\n\u003c/p\u003e\u003cp\u003eSet the line length, I believe in OpenGL units, although I'm not sure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "setLayoutLineLength",
           "package": "FTGL",
@@ -2227,6 +2412,7 @@
         "index": {
           "description": "Get the embedded font from the Layout Set the line length believe in OpenGL units although not sure",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "setLayoutLineLength",
           "normalized": "Layout-\u003eCFloat-\u003eIO()",
@@ -2243,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet layout line spacing in OpenGL units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:40 UTC 2014",
           "module": "Graphics.Rendering.FTGL",
           "name": "setLayoutLineSpacing",
           "package": "FTGL",
@@ -2253,6 +2440,7 @@
         "index": {
           "description": "Set layout line spacing in OpenGL units",
           "hierarchy": "Graphics Rendering FTGL",
+          "indexed": "2014-03-11T16:40:40",
           "module": "Graphics.Rendering.FTGL",
           "name": "setLayoutLineSpacing",
           "normalized": "Layout-\u003eFloat-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hascat-system"
+        "phrase": "hascat-system",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "App",
           "package": "hascat-system",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "App",
           "package": "hascat-system",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "defaultDone",
           "package": "hascat-system",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "defaultDone",
           "package": "hascat-system",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "defaultInit",
           "package": "hascat-system",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "defaultInit",
           "normalized": "InitHandler()",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "hasContextPath",
           "package": "hascat-system",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "hasContextPath",
           "normalized": "ContextPath-\u003eApp-\u003eBool",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "isPaused",
           "package": "hascat-system",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "isPaused",
           "normalized": "App-\u003eBool",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "isRunning",
           "package": "hascat-system",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "isRunning",
           "normalized": "App-\u003eBool",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "loadFromModule",
           "package": "hascat-system",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "loadFromModule",
           "normalized": "PluginLoader-\u003eFilePath-\u003eString-\u003eIO(Module,a)",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "pause",
           "package": "hascat-system",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "pause",
           "normalized": "App-\u003eIO App",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "reload",
           "package": "hascat-system",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "reload",
           "normalized": "App-\u003eIO App",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "reloadFromModule",
           "package": "hascat-system",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "reloadFromModule",
           "normalized": "Module-\u003eString-\u003eIO(Module,a)",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "resume",
           "package": "hascat-system",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "resume",
           "normalized": "App-\u003eIO App",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "start",
           "package": "hascat-system",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "start",
           "normalized": "App-\u003eIO App",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "stop",
           "package": "hascat-system",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "stop",
           "normalized": "App-\u003eIO App",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.App",
           "name": "use",
           "package": "hascat-system",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Hascat System App",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.App",
           "name": "use",
           "normalized": "App-\u003eServletRequest-\u003eIO(Response ByteString)",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "Controller",
           "package": "hascat-system",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "Controller",
           "package": "hascat-system",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "State",
           "package": "hascat-system",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "State",
           "package": "hascat-system",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "StateVar",
           "package": "hascat-system",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "StateVar",
           "package": "hascat-system",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "State",
           "package": "hascat-system",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "State",
           "package": "hascat-system",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "findApp",
           "package": "hascat-system",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "findApp",
           "normalized": "[App]-\u003e(App-\u003eBool)-\u003eMaybe App",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "insertApp",
           "package": "hascat-system",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "insertApp",
           "normalized": "StateVar-\u003eApp-\u003eIO StateVar",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "loadApp",
           "package": "hascat-system",
@@ -483,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "loadApp",
           "normalized": "StateVar-\u003eAppConfig-\u003eIO StateVar",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "pauseApp",
           "package": "hascat-system",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "pauseApp",
           "normalized": "StateVar-\u003eContextPath-\u003eIO StateVar",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "reloadApp",
           "package": "hascat-system",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "reloadApp",
           "normalized": "StateVar-\u003eContextPath-\u003eIO StateVar",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "resumeApp",
           "package": "hascat-system",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "resumeApp",
           "normalized": "StateVar-\u003eContextPath-\u003eIO StateVar",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "stApps",
           "package": "hascat-system",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "stApps",
           "normalized": "[App]",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "stGeneral",
           "package": "hascat-system",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "stGeneral",
           "package": "hascat-system",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "stProcessID",
           "package": "hascat-system",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "stProcessID",
           "package": "hascat-system",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "startApp",
           "package": "hascat-system",
@@ -647,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "startApp",
           "normalized": "StateVar-\u003eContextPath-\u003eIO StateVar",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "stopApp",
           "package": "hascat-system",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "stopApp",
           "normalized": "StateVar-\u003eContextPath-\u003eIO StateVar",
@@ -686,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:49 UTC 2014",
           "module": "Hascat.System.Controller",
           "name": "undeployApp",
           "package": "hascat-system",
@@ -695,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Hascat System Controller",
+          "indexed": "2014-03-11T18:29:49",
           "module": "Hascat.System.Controller",
           "name": "undeployApp",
           "normalized": "StateVar-\u003eContextPath-\u003eIO StateVar",

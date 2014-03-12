@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "not-in-base"
+        "phrase": "not-in-base",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.List",
           "name": "List",
           "package": "not-in-base",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "NIB List",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.List",
           "name": "List",
           "package": "not-in-base",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert first element in list\n\u003c/p\u003e\u003cpre\u003e convertFirst (toUpper) \"fO0\" == \"FO0\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.List",
           "name": "convertFirst",
           "package": "not-in-base",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Convert first element in list convertFirst toUpper fO0 FO0",
           "hierarchy": "NIB List",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.List",
           "name": "convertFirst",
           "normalized": "(a-\u003ea)-\u003e[a]-\u003e[a]",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a list \u003ccode\u003ex\u003c/code\u003e of \u003ccode\u003ea\u003c/code\u003e into a list of lists of \u003ccode\u003ea\u003c/code\u003e at every \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e  \"splitBy \"foo,bar\" \"',' == [\"foo\",\"bar\"] ' \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.List",
           "name": "splitBy",
           "package": "not-in-base",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Splits list of into list of lists of at every splitBy foo bar foo bar",
           "hierarchy": "NIB List",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.List",
           "name": "splitBy",
           "normalized": "a-\u003e[a]-\u003e[[a]]",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrims every element satisfying \u003ccode\u003ec\u003c/code\u003e from the beginning or end of the list.\n\u003c/p\u003e\u003cpre\u003e trim (==' ') \"  foo   \" == \"foo\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.List",
           "name": "trim",
           "package": "not-in-base",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Trims every element satisfying from the beginning or end of the list trim foo foo",
           "hierarchy": "NIB List",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.List",
           "name": "trim",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -116,6 +124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "Pointfree",
           "package": "not-in-base",
@@ -124,6 +133,7 @@
         },
         "index": {
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "Pointfree",
           "package": "not-in-base",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLambdifies '(||)'.\n\u003c/p\u003e\u003cpre\u003e isBlankOrCommaChecker = (==' ') ||* (==',')\n isBlankOrComma = isBlankOrCommaChecker 'j'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "(||*)",
           "package": "not-in-base",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Lambdifies isBlankOrCommaChecker isBlankOrComma isBlankOrCommaChecker",
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "(||*) ||*",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eBool)-\u003ea-\u003eBool",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLambdifies '(&&)'.\n\u003c/p\u003e\u003cpre\u003e isInRangeChecker = (\u003e9) &&* (\u003c30)\n isInRange = isInRangeChecker 17\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "(&&*)",
           "package": "not-in-base",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Lambdifies isInRangeChecker isInRange isInRangeChecker",
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "(&&*) &&*",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eBool)-\u003ea-\u003eBool",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePipes a monadic return through a non-monadic transformation function.\n | liftM with arguments flipped.\n\u003c/p\u003e\u003cpre\u003e readIO \u003e\u003e* toUpper\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "(\u003e\u003e*)",
           "package": "not-in-base",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Pipes monadic return through non-monadic transformation function liftM with arguments flipped readIO toUpper",
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "(\u003e\u003e*) \u003e\u003e*",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2-point-free operator. Similar to \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e, but where\n | the second function takes two (2) arguments instead of one (1).\n\u003c/p\u003e\u003cpre\u003e multAndSquare (^2) .^.. (*)\n 36 == multAndSqare 2 3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "(^..)",
           "package": "not-in-base",
@@ -223,6 +240,7 @@
         "index": {
           "description": "point-free operator Similar to but where the second function takes two arguments instead of one multAndSquare multAndSqare",
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "(^..) ^..",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed-\u003ea)-\u003ec-\u003ed-\u003eb",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3-point-free operator. See '(^..)'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "(^...)",
           "package": "not-in-base",
@@ -248,6 +267,7 @@
         "index": {
           "description": "point-free operator See",
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "(^...) ^...",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed-\u003ee-\u003ea)-\u003ec-\u003ed-\u003ee-\u003eb",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a 2-tuple \u003ccode\u003ex\u003c/code\u003e into a 2-stack and pass it to \u003ccode\u003ef\u003c/code\u003e.\n | The same as uncurry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "(..%)",
           "package": "not-in-base",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Split tuple into stack and pass it to The same as uncurry",
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "(..%) ..%",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(a,b)-\u003ec",
@@ -287,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "(..%..)",
           "package": "not-in-base",
@@ -296,6 +319,7 @@
         },
         "index": {
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "(..%..) ..%..",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(d-\u003ee-\u003e(a,b))-\u003ed-\u003ee-\u003ec",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egives `(9, 21)`, i.e. `(2 + 9, 3 * 7)`.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "(..@)",
           "package": "not-in-base",
@@ -321,6 +346,7 @@
         "index": {
           "description": "gives i.e",
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "(..@) ..@",
           "normalized": "(a-\u003eb,a-\u003ec)-\u003ea-\u003e(b,c)",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a 3-tuple \u003ccode\u003ex\u003c/code\u003e into a 3-stack and pass it to \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "(...%)",
           "package": "not-in-base",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Split tuple into stack and pass it to",
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "(...%) ...%",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e(a,b,c)-\u003ed",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003e..@\u003c/a\u003e\u003c/code\u003e, but with a 3-tuple. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "(...@)",
           "package": "not-in-base",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Same as but with tuple",
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "(...@) ...@",
           "normalized": "(a-\u003eb,a-\u003ec,a-\u003ed)-\u003ea-\u003e(b,c,d)",
@@ -385,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "fst3",
           "package": "not-in-base",
@@ -394,6 +425,7 @@
         },
         "index": {
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -409,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLambdifies a function. See '(||*)' and '(&&*)' for uses of \u003ccode\u003e\u003ca\u003elambdify\u003c/a\u003e\u003c/code\u003e.\n | Used in order to make operators capable of operating on functions that later on\n | are supplied some value that all functions operate on.\n\u003c/p\u003e\u003cpre\u003e (+*) = lambdify (+)\n fourTwo = (*4) +* (*2)\n 42 == fourTwo 7\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "lambdify",
           "package": "not-in-base",
@@ -419,6 +452,7 @@
         "index": {
           "description": "Lambdifies function See and for uses of lambdify Used in order to make operators capable of operating on functions that later on are supplied some value that all functions operate on lambdify fourTwo fourTwo",
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "lambdify",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(d-\u003ea)-\u003e(d-\u003eb)-\u003ed-\u003ec",
@@ -433,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "snd3",
           "package": "not-in-base",
@@ -442,6 +477,7 @@
         },
         "index": {
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -456,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.Pointfree",
           "name": "trd3",
           "package": "not-in-base",
@@ -465,6 +502,7 @@
         },
         "index": {
           "hierarchy": "NIB Pointfree",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.Pointfree",
           "name": "trd3",
           "normalized": "(a,b,c)-\u003ec",
@@ -480,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains useful generic functions not found elsewhere.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.String",
           "name": "String",
           "package": "not-in-base",
@@ -489,6 +528,7 @@
         "index": {
           "description": "Contains useful generic functions not found elsewhere",
           "hierarchy": "NIB String",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.String",
           "name": "String",
           "package": "not-in-base",
@@ -502,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.String",
           "name": "ToString",
           "package": "not-in-base",
@@ -510,6 +551,7 @@
         },
         "index": {
           "hierarchy": "NIB String",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.String",
           "name": "ToString",
           "package": "not-in-base",
@@ -524,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert first character in String to lower.\n\u003c/p\u003e\u003cpre\u003e lowerFirst \"Foo\" == \"foo\"\n lowerFirst \"BaR\" == \"baR\"\n lowerFirst \"g0O\" == \"g0O\".'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.String",
           "name": "lowerFirst",
           "package": "not-in-base",
@@ -534,6 +577,7 @@
         "index": {
           "description": "Convert first character in String to lower lowerFirst Foo foo lowerFirst BaR baR lowerFirst g0O g0O",
           "hierarchy": "NIB String",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.String",
           "name": "lowerFirst",
           "normalized": "String-\u003eString",
@@ -550,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all line breaks in a string\n\u003c/p\u003e\u003cpre\u003e \"testtest\" == removeBreak \"test\\n\\rtest\\r\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.String",
           "name": "removeBreak",
           "package": "not-in-base",
@@ -560,6 +605,7 @@
         "index": {
           "description": "Remove all line breaks in string testtest removeBreak test rtest",
           "hierarchy": "NIB String",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.String",
           "name": "removeBreak",
           "normalized": "String-\u003eString",
@@ -576,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert every space (' ') in a string to a blank ('_') instead. \n\u003c/p\u003e\u003cpre\u003e spaceToBlank \" \" == \"_\"\n spaceToBlank \" foo  \" == \"_foo__\"\n spaceToBlank \"b a r\" == \"b_a_r\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.String",
           "name": "spaceToBlank",
           "package": "not-in-base",
@@ -586,6 +633,7 @@
         "index": {
           "description": "Convert every space in string to blank instead spaceToBlank spaceToBlank foo foo spaceToBlank",
           "hierarchy": "NIB String",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.String",
           "name": "spaceToBlank",
           "normalized": "String-\u003eString",
@@ -601,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.String",
           "name": "toString",
           "package": "not-in-base",
@@ -610,6 +659,7 @@
         },
         "index": {
           "hierarchy": "NIB String",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.String",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -626,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrims whitespace from the beginning or end.\n\u003c/p\u003e\u003cpre\u003e trimWs \"  foo  \" == \"foo\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.String",
           "name": "trimWs",
           "package": "not-in-base",
@@ -636,6 +687,7 @@
         "index": {
           "description": "Trims whitespace from the beginning or end trimWs foo foo",
           "hierarchy": "NIB String",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.String",
           "name": "trimWs",
           "normalized": "String-\u003eString",
@@ -652,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert first character in String to upper.\n\u003c/p\u003e\u003cpre\u003e upperFirst \"foo\" == \"Foo\"\n upperFirst \"bAr\" == \"BAr\"\n upperFirst \"G0O\" == \"G0O\".'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:58 UTC 2014",
           "module": "NIB.String",
           "name": "upperFirst",
           "package": "not-in-base",
@@ -662,6 +715,7 @@
         "index": {
           "description": "Convert first character in String to upper upperFirst foo Foo upperFirst bAr BAr upperFirst G0O G0O",
           "hierarchy": "NIB String",
+          "indexed": "2014-03-11T19:29:58",
           "module": "NIB.String",
           "name": "upperFirst",
           "normalized": "String-\u003eString",

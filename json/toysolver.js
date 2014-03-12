@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "toysolver"
+        "phrase": "toysolver",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType classes for lattices and boolean algebras.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algebra.Lattice.Boolean",
           "name": "Boolean",
           "package": "toysolver",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Type classes for lattices and boolean algebras",
           "hierarchy": "Algebra Lattice Boolean",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algebra.Lattice.Boolean",
           "name": "Boolean",
           "package": "toysolver",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etypes that can be combined with boolean operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algebra.Lattice.Boolean",
           "name": "Boolean",
           "package": "toysolver",
@@ -51,6 +54,7 @@
         "index": {
           "description": "types that can be combined with boolean operations",
           "hierarchy": "Algebra Lattice Boolean",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algebra.Lattice.Boolean",
           "name": "Boolean",
           "package": "toysolver",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etypes that can be negated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algebra.Lattice.Boolean",
           "name": "Complement",
           "package": "toysolver",
@@ -74,6 +79,7 @@
         "index": {
           "description": "types that can be negated",
           "hierarchy": "Algebra Lattice Boolean",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algebra.Lattice.Boolean",
           "name": "Complement",
           "package": "toysolver",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealias of \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algebra.Lattice.Boolean",
           "name": "(.||.)",
           "package": "toysolver",
@@ -98,6 +105,7 @@
         "index": {
           "description": "alias of join",
           "hierarchy": "Algebra Lattice Boolean",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algebra.Lattice.Boolean",
           "name": "(.||.) .||.",
           "normalized": "a-\u003ea-\u003ea",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealias of \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algebra.Lattice.Boolean",
           "name": "(.&&.)",
           "package": "toysolver",
@@ -123,6 +132,7 @@
         "index": {
           "description": "alias of meet",
           "hierarchy": "Algebra Lattice Boolean",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algebra.Lattice.Boolean",
           "name": "(.&&.) .&&.",
           "normalized": "a-\u003ea-\u003ea",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algebra.Lattice.Boolean",
           "name": "(.=\u003e.)",
           "package": "toysolver",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice Boolean",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algebra.Lattice.Boolean",
           "name": "(.=\u003e.) .=\u003e.",
           "normalized": "a-\u003ea-\u003ea",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealias of \u003ccode\u003e\u003ca\u003emeets\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algebra.Lattice.Boolean",
           "name": "andB",
           "package": "toysolver",
@@ -171,6 +184,7 @@
         "index": {
           "description": "alias of meets",
           "hierarchy": "Algebra Lattice Boolean",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algebra.Lattice.Boolean",
           "name": "andB",
           "normalized": "[a]-\u003ea",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealias of \u003ccode\u003e\u003ca\u003ebottom\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algebra.Lattice.Boolean",
           "name": "false",
           "package": "toysolver",
@@ -196,6 +211,7 @@
         "index": {
           "description": "alias of bottom",
           "hierarchy": "Algebra Lattice Boolean",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algebra.Lattice.Boolean",
           "name": "false",
           "package": "toysolver",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algebra.Lattice.Boolean",
           "name": "notB",
           "package": "toysolver",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice Boolean",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algebra.Lattice.Boolean",
           "name": "notB",
           "normalized": "a-\u003ea",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealias of \u003ccode\u003e\u003ca\u003ejoins\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algebra.Lattice.Boolean",
           "name": "orB",
           "package": "toysolver",
@@ -242,6 +261,7 @@
         "index": {
           "description": "alias of joins",
           "hierarchy": "Algebra Lattice Boolean",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algebra.Lattice.Boolean",
           "name": "orB",
           "normalized": "[a]-\u003ea",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealias of \u003ccode\u003e\u003ca\u003etop\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algebra.Lattice.Boolean",
           "name": "true",
           "package": "toysolver",
@@ -267,6 +288,7 @@
         "index": {
           "description": "alias of top",
           "hierarchy": "Algebra Lattice Boolean",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algebra.Lattice.Boolean",
           "name": "true",
           "package": "toysolver",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTightening variable bounds by constraint propagation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.BoundsInference",
           "name": "BoundsInference",
           "package": "toysolver",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Tightening variable bounds by constraint propagation",
           "hierarchy": "Algorithm BoundsInference",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.BoundsInference",
           "name": "BoundsInference",
           "package": "toysolver",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.BoundsInference",
           "name": "BoundsEnv",
           "package": "toysolver",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Algorithm BoundsInference",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.BoundsInference",
           "name": "BoundsEnv",
           "package": "toysolver",
@@ -351,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etightening variable bounds by constraint propagation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.BoundsInference",
           "name": "inferBounds",
           "package": "toysolver",
@@ -360,6 +387,7 @@
         "index": {
           "description": "tightening variable bounds by constraint propagation",
           "hierarchy": "Algorithm BoundsInference",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.BoundsInference",
           "name": "inferBounds",
           "normalized": "BoundsEnv a-\u003e[Atom a]-\u003eVarSet-\u003eInt-\u003eBoundsEnv a",
@@ -376,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e  Christian Michaux and Adem Ozturk.\n    Quantifier Elimination following Muchnik\n    \u003ca\u003ehttps://math.umons.ac.be/preprints/src/Ozturk020411.pdf\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e  Arnab Bhattacharyya.\n    Something you should know about: Quantifier Elimination (Part I)\n    \u003ca\u003ehttp://cstheory.blogoverflow.com/2011/11/something-you-should-know-about-quantifier-elimination-part-i/\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e  Arnab Bhattacharyya.\n    Something you should know about: Quantifier Elimination (Part II)\n    \u003ca\u003ehttp://cstheory.blogoverflow.com/2012/02/something-you-should-know-about-quantifier-elimination-part-ii/\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "CAD",
           "package": "toysolver",
@@ -385,6 +414,7 @@
         "index": {
           "description": "References Christian Michaux and Adem Ozturk Quantifier Elimination following Muchnik https math.umons.ac.be preprints src Ozturk020411.pdf Arnab Bhattacharyya Something you should know about Quantifier Elimination Part http cstheory.blogoverflow.com something-you-should-know-about-quantifier-elimination-part-i Arnab Bhattacharyya Something you should know about Quantifier Elimination Part II http cstheory.blogoverflow.com something-you-should-know-about-quantifier-elimination-part-ii",
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "CAD",
           "package": "toysolver",
@@ -398,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "Cell",
           "package": "toysolver",
@@ -406,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "Cell",
           "package": "toysolver",
@@ -419,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "Model",
           "package": "toysolver",
@@ -427,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "Model",
           "package": "toysolver",
@@ -440,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "Point",
           "package": "toysolver",
@@ -448,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "Point",
           "package": "toysolver",
@@ -461,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "Interval",
           "package": "toysolver",
@@ -470,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "Interval",
           "package": "toysolver",
@@ -483,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "NegInf",
           "package": "toysolver",
@@ -492,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "NegInf",
           "package": "toysolver",
@@ -505,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "Point",
           "package": "toysolver",
@@ -514,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "Point",
           "package": "toysolver",
@@ -527,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "PosInf",
           "package": "toysolver",
@@ -536,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "PosInf",
           "package": "toysolver",
@@ -549,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "RootOf",
           "package": "toysolver",
@@ -558,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "RootOf",
           "package": "toysolver",
@@ -571,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "evalCell",
           "package": "toysolver",
@@ -580,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "evalCell",
           "normalized": "Model a-\u003eCell(Polynomial Rational a)-\u003eCell Rational",
@@ -595,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "evalPoint",
           "package": "toysolver",
@@ -604,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "evalPoint",
           "normalized": "Model a-\u003ePoint(Polynomial Rational a)-\u003ePoint Rational",
@@ -619,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "findSample",
           "package": "toysolver",
@@ -628,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "findSample",
           "normalized": "Model a-\u003eCell(Polynomial Rational a)-\u003eMaybe AReal",
@@ -643,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "project",
           "package": "toysolver",
@@ -652,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "project",
           "normalized": "[(UPolynomial(Polynomial Rational a),[Sign])]-\u003e[([(Polynomial Rational a,[Sign])],[Cell(Polynomial Rational a)])]",
@@ -666,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "solve",
           "package": "toysolver",
@@ -675,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "solve",
           "normalized": "Set a-\u003e[Rel(Polynomial Rational a)]-\u003eMaybe(Model a)",
@@ -689,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CAD",
           "name": "solve'",
           "package": "toysolver",
@@ -698,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CAD",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CAD",
           "name": "solve'",
           "normalized": "Set a-\u003e[(Polynomial Rational a,[Sign])]-\u003eMaybe(Model a)",
@@ -713,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e R. Nieuwenhuis and A. Oliveras, \u003ca\u003eFast congruence closure and extensions,\u003c/a\u003e\n   Information and Computation, vol. 205, no. 4, pp. 557-580, Apr. 2007.\n   \u003ca\u003ehttp://www.lsi.upc.edu/~oliveras/espai/papers/IC.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CongruenceClosure",
           "name": "CongruenceClosure",
           "package": "toysolver",
@@ -722,6 +781,7 @@
         "index": {
           "description": "References Nieuwenhuis and Oliveras Fast congruence closure and extensions Information and Computation vol no pp Apr http www.lsi.upc.edu oliveras espai papers IC.pdf",
           "hierarchy": "Algorithm CongruenceClosure",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CongruenceClosure",
           "name": "CongruenceClosure",
           "package": "toysolver",
@@ -735,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CongruenceClosure",
           "name": "FlatTerm",
           "package": "toysolver",
@@ -743,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CongruenceClosure",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CongruenceClosure",
           "name": "FlatTerm",
           "package": "toysolver",
@@ -756,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CongruenceClosure",
           "name": "Solver",
           "package": "toysolver",
@@ -764,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CongruenceClosure",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CongruenceClosure",
           "name": "Solver",
           "package": "toysolver",
@@ -777,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CongruenceClosure",
           "name": "Var",
           "package": "toysolver",
@@ -785,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CongruenceClosure",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CongruenceClosure",
           "name": "Var",
           "package": "toysolver",
@@ -798,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CongruenceClosure",
           "name": "FTApp",
           "package": "toysolver",
@@ -807,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CongruenceClosure",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CongruenceClosure",
           "name": "FTApp",
           "package": "toysolver",
@@ -820,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CongruenceClosure",
           "name": "FTConst",
           "package": "toysolver",
@@ -829,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CongruenceClosure",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CongruenceClosure",
           "name": "FTConst",
           "package": "toysolver",
@@ -842,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CongruenceClosure",
           "name": "areCongruent",
           "package": "toysolver",
@@ -851,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CongruenceClosure",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CongruenceClosure",
           "name": "areCongruent",
           "normalized": "Solver-\u003eFlatTerm-\u003eFlatTerm-\u003eIO Bool",
@@ -866,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CongruenceClosure",
           "name": "merge",
           "package": "toysolver",
@@ -875,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CongruenceClosure",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CongruenceClosure",
           "name": "merge",
           "normalized": "Solver-\u003e(FlatTerm,Var)-\u003eIO()",
@@ -889,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CongruenceClosure",
           "name": "newSolver",
           "package": "toysolver",
@@ -898,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CongruenceClosure",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CongruenceClosure",
           "name": "newSolver",
           "package": "toysolver",
@@ -911,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.CongruenceClosure",
           "name": "newVar",
           "package": "toysolver",
@@ -920,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Algorithm CongruenceClosure",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.CongruenceClosure",
           "name": "newVar",
           "normalized": "Solver-\u003eIO Var",
@@ -936,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e P. Conti and C. Traverso, \u003ca\u003eBuchberger algorithm and integer programming,\u003c/a\u003e\n   Applied Algebra, Algebraic Algorithms and Error-Correcting Codes,\n   Lecture Notes in Computer Science Volume 539, 1991, pp 130-139\n   \u003ca\u003ehttp://dx.doi.org/10.1007/3-540-54522-0_102\u003c/a\u003e\n   \u003ca\u003ehttp://posso.dm.unipi.it/users/traverso/conti-traverso-ip.ps\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e IKEGAMI Daisuke, \u003ca\u003e&#25968;&#21015;&#12392;&#22810;&#38917;&#24335;&#12398;&#24859;&#12375;&#12356;&#38306;&#20418;,\u003c/a\u003e 2011,\n   \u003ca\u003ehttp://madscientist.jp/~ikegami/articles/IntroSequencePolynomial.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e &#20234;&#34276;&#38597;&#21490;, , &#24179;&#26519; &#38534;&#19968;, \u003ca\u003e&#25972;&#25968;&#35336;&#30011;&#21839;&#38988;&#12398;&#12383;&#12417;&#12398; b-Gr&#246;bner &#22522;&#24213;&#22793;&#25563;&#12450;&#12523;&#12468;&#12522;&#12474;&#12512;,\u003c/a\u003e\n   \u003ca\u003ehttp://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1295-27.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.ContiTraverso",
           "name": "ContiTraverso",
           "package": "toysolver",
@@ -945,6 +1024,7 @@
         "index": {
           "description": "References Conti and Traverso Buchberger algorithm and integer programming Applied Algebra Algebraic Algorithms and Error-Correcting Codes Lecture Notes in Computer Science Volume pp http dx.doi.org http posso.dm.unipi.it users traverso conti-traverso-ip.ps IKEGAMI Daisuke http madscientist.jp ikegami articles IntroSequencePolynomial.html b-Gr bner http www.kurims.kyoto-u.ac.jp kyodo kokyuroku contents pdf pdf",
           "hierarchy": "Algorithm ContiTraverso",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.ContiTraverso",
           "name": "ContiTraverso",
           "package": "toysolver",
@@ -958,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.ContiTraverso",
           "name": "solve",
           "package": "toysolver",
@@ -967,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Algorithm ContiTraverso",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.ContiTraverso",
           "name": "solve",
           "normalized": "MonomialOrder Var-\u003eVarSet-\u003eOptDir-\u003eExpr Rational-\u003e[Atom Rational]-\u003eMaybe(Model Integer)",
@@ -981,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.ContiTraverso",
           "name": "solve'",
           "package": "toysolver",
@@ -990,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Algorithm ContiTraverso",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.ContiTraverso",
           "name": "solve'",
           "normalized": "MonomialOrder Var-\u003eVarSet-\u003eExpr Integer-\u003e[(Expr Integer,Integer)]-\u003eMaybe(Model Integer)",
@@ -1005,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNaive implementation of Cooper's algorithm\n\u003c/p\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://hagi.is.s.u-tokyo.ac.jp/pub/staff/hagiya/kougiroku/ronri/5.txt\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.cs.cmu.edu/~emc/spring06/home1_files/Presburger%20Arithmetic.ppt\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSee also:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://hackage.haskell.org/package/presburger\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Cooper.Core",
           "name": "Core",
           "package": "toysolver",
@@ -1014,6 +1099,7 @@
         "index": {
           "description": "Naive implementation of Cooper algorithm Reference http hagi.is.s.u-tokyo.ac.jp pub staff hagiya kougiroku ronri txt http www.cs.cmu.edu emc spring06 home1 files Presburger Arithmetic.ppt See also http hackage.haskell.org package presburger",
           "hierarchy": "Algorithm Cooper Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Cooper.Core",
           "name": "Core",
           "package": "toysolver",
@@ -1028,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear arithmetic expression over integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Cooper.Core",
           "name": "ExprZ",
           "package": "toysolver",
@@ -1037,6 +1124,7 @@
         "index": {
           "description": "Linear arithmetic expression over integers",
           "hierarchy": "Algorithm Cooper Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Cooper.Core",
           "name": "ExprZ",
           "package": "toysolver",
@@ -1051,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ePos e\u003c/code\u003e means \u003ccode\u003ee \u003e 0\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eDivisible True d e\u003c/code\u003e means \u003ccode\u003ee\u003c/code\u003e can be divided by \u003ccode\u003ed\u003c/code\u003e (i.e. \u003ccode\u003ed|e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eDivisible False d e\u003c/code\u003e means \u003ccode\u003ee\u003c/code\u003e can not be divided by \u003ccode\u003ed\u003c/code\u003e (i.e. \u003ccode\u003e&#172;(d|e)\u003c/code\u003e)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Cooper.Core",
           "name": "Lit",
           "package": "toysolver",
@@ -1060,6 +1149,7 @@
         "index": {
           "description": "Literal Pos means Divisible True means can be divided by i.e Divisible False means can not be divided by i.e",
           "hierarchy": "Algorithm Cooper Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Cooper.Core",
           "name": "Lit",
           "package": "toysolver",
@@ -1074,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equantifier-free negation normal form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Cooper.Core",
           "name": "QFFormula",
           "package": "toysolver",
@@ -1083,6 +1174,7 @@
         "index": {
           "description": "quantifier-free negation normal form",
           "hierarchy": "Algorithm Cooper Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Cooper.Core",
           "name": "QFFormula",
           "package": "toysolver",
@@ -1281,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Cooper.Core",
           "name": "evalLit",
           "package": "toysolver",
@@ -1290,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Cooper Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Cooper.Core",
           "name": "evalLit",
           "normalized": "Model Integer-\u003eLit-\u003eBool",
@@ -1305,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Cooper.Core",
           "name": "evalQFFormula",
           "package": "toysolver",
@@ -1314,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Cooper Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Cooper.Core",
           "name": "evalQFFormula",
           "normalized": "Model Integer-\u003eQFFormula-\u003eBool",
@@ -1428,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Cooper.Core",
           "name": "projectN",
           "package": "toysolver",
@@ -1437,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Cooper Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Cooper.Core",
           "name": "projectN",
           "normalized": "VarSet-\u003eQFFormula-\u003e(QFFormula,Model Integer-\u003eModel Integer)",
@@ -1529,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Cooper.FOL",
           "name": "FOL",
           "package": "toysolver",
@@ -1537,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Cooper FOL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Cooper.FOL",
           "name": "FOL",
           "package": "toysolver",
@@ -1603,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNaive implementation of Cooper's algorithm\n\u003c/p\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://hagi.is.s.u-tokyo.ac.jp/pub/staff/hagiya/kougiroku/ronri/5.txt\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.cs.cmu.edu/~emc/spring06/home1_files/Presburger%20Arithmetic.ppt\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSee also:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://hackage.haskell.org/package/presburger\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Cooper",
           "name": "Cooper",
           "package": "toysolver",
@@ -1612,6 +1713,7 @@
         "index": {
           "description": "Naive implementation of Cooper algorithm Reference http hagi.is.s.u-tokyo.ac.jp pub staff hagiya kougiroku ronri txt http www.cs.cmu.edu emc spring06 home1 files Presburger Arithmetic.ppt See also http hackage.haskell.org package presburger",
           "hierarchy": "Algorithm Cooper",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Cooper",
           "name": "Cooper",
           "package": "toysolver",
@@ -1626,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear arithmetic expression over integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Cooper",
           "name": "ExprZ",
           "package": "toysolver",
@@ -1635,6 +1738,7 @@
         "index": {
           "description": "Linear arithmetic expression over integers",
           "hierarchy": "Algorithm Cooper",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Cooper",
           "name": "ExprZ",
           "package": "toysolver",
@@ -1649,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ePos e\u003c/code\u003e means \u003ccode\u003ee \u003e 0\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eDivisible True d e\u003c/code\u003e means \u003ccode\u003ee\u003c/code\u003e can be divided by \u003ccode\u003ed\u003c/code\u003e (i.e. \u003ccode\u003ed|e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eDivisible False d e\u003c/code\u003e means \u003ccode\u003ee\u003c/code\u003e can not be divided by \u003ccode\u003ed\u003c/code\u003e (i.e. \u003ccode\u003e&#172;(d|e)\u003c/code\u003e)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Cooper",
           "name": "Lit",
           "package": "toysolver",
@@ -1658,6 +1763,7 @@
         "index": {
           "description": "Literal Pos means Divisible True means can be divided by i.e Divisible False means can not be divided by i.e",
           "hierarchy": "Algorithm Cooper",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Cooper",
           "name": "Lit",
           "package": "toysolver",
@@ -1672,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equantifier-free negation normal form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Cooper",
           "name": "QFFormula",
           "package": "toysolver",
@@ -1681,6 +1788,7 @@
         "index": {
           "description": "quantifier-free negation normal form",
           "hierarchy": "Algorithm Cooper",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Cooper",
           "name": "QFFormula",
           "package": "toysolver",
@@ -1695,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple model finder.\n\u003c/p\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Koen Claessen and Niklas S&#246;rensson.\n   New Techniques that Improve MACE-style Finite Model Finding.\n   CADE-19. 2003.\n   \u003ca\u003ehttp://www.cs.miami.edu/~geoff/Conferences/CADE/Archive/CADE-19/WS4/04.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "FOLModelFinder",
           "package": "toysolver",
@@ -1704,6 +1813,7 @@
         "index": {
           "description": "simple model finder References Koen Claessen and Niklas rensson New Techniques that Improve MACE-style Finite Model Finding CADE-19 http www.cs.miami.edu geoff Conferences CADE Archive CADE-19 WS4 pdf",
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "FOLModelFinder",
           "package": "toysolver",
@@ -1717,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Atom",
           "package": "toysolver",
@@ -1725,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Atom",
           "package": "toysolver",
@@ -1738,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Clause",
           "package": "toysolver",
@@ -1746,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Clause",
           "package": "toysolver",
@@ -1760,6 +1874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement of model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Entity",
           "package": "toysolver",
@@ -1769,6 +1884,7 @@
         "index": {
           "description": "Element of model",
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Entity",
           "package": "toysolver",
@@ -1783,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction Symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "FSym",
           "package": "toysolver",
@@ -1792,6 +1909,7 @@
         "index": {
           "description": "Function Symbol",
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "FSym",
           "package": "toysolver",
@@ -1805,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Formula",
           "package": "toysolver",
@@ -1813,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Formula",
           "package": "toysolver",
@@ -1826,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "GenFormula",
           "package": "toysolver",
@@ -1834,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "GenFormula",
           "package": "toysolver",
@@ -1848,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized literal type parameterized by atom type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "GenLit",
           "package": "toysolver",
@@ -1857,6 +1980,7 @@
         "index": {
           "description": "Generalized literal type parameterized by atom type",
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "GenLit",
           "package": "toysolver",
@@ -1870,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Lit",
           "package": "toysolver",
@@ -1878,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Lit",
           "package": "toysolver",
@@ -1891,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Model",
           "package": "toysolver",
@@ -1899,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Model",
           "package": "toysolver",
@@ -1913,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate Symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "PSym",
           "package": "toysolver",
@@ -1922,6 +2051,7 @@
         "index": {
           "description": "Predicate Symbol",
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "PSym",
           "package": "toysolver",
@@ -1936,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Term",
           "package": "toysolver",
@@ -1945,6 +2076,7 @@
         "index": {
           "description": "Term",
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Term",
           "package": "toysolver",
@@ -1959,6 +2091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Var",
           "package": "toysolver",
@@ -1968,6 +2101,7 @@
         "index": {
           "description": "Variable",
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Var",
           "package": "toysolver",
@@ -1981,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "And",
           "package": "toysolver",
@@ -1990,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "And",
           "package": "toysolver",
@@ -2003,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Atom",
           "package": "toysolver",
@@ -2012,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Atom",
           "package": "toysolver",
@@ -2025,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Equiv",
           "package": "toysolver",
@@ -2034,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Equiv",
           "package": "toysolver",
@@ -2047,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Exists",
           "package": "toysolver",
@@ -2056,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Exists",
           "package": "toysolver",
@@ -2069,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "F",
           "package": "toysolver",
@@ -2078,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "F",
           "package": "toysolver",
@@ -2090,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Forall",
           "package": "toysolver",
@@ -2099,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Forall",
           "package": "toysolver",
@@ -2112,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Imply",
           "package": "toysolver",
@@ -2121,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Imply",
           "package": "toysolver",
@@ -2134,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Model",
           "package": "toysolver",
@@ -2143,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Model",
           "package": "toysolver",
@@ -2156,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Neg",
           "package": "toysolver",
@@ -2165,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Neg",
           "package": "toysolver",
@@ -2178,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Not",
           "package": "toysolver",
@@ -2187,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Not",
           "package": "toysolver",
@@ -2200,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Or",
           "package": "toysolver",
@@ -2209,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Or",
           "package": "toysolver",
@@ -2222,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "PApp",
           "package": "toysolver",
@@ -2231,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "PApp",
           "normalized": "PApp PSym[Term]",
@@ -2246,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "Pos",
           "package": "toysolver",
@@ -2255,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "Pos",
           "package": "toysolver",
@@ -2268,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "T",
           "package": "toysolver",
@@ -2277,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "T",
           "package": "toysolver",
@@ -2289,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "TmApp",
           "package": "toysolver",
@@ -2298,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "TmApp",
           "normalized": "TmApp FSym[Term]",
@@ -2313,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "TmVar",
           "package": "toysolver",
@@ -2322,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "TmVar",
           "package": "toysolver",
@@ -2335,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "findModel",
           "package": "toysolver",
@@ -2344,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "findModel",
           "normalized": "Int-\u003e[Clause]-\u003eIO(Maybe Model)",
@@ -2359,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "mFunctions",
           "package": "toysolver",
@@ -2368,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "mFunctions",
           "normalized": "Map FSym[([Entity],Entity)]",
@@ -2383,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "mRelations",
           "package": "toysolver",
@@ -2392,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "mRelations",
           "normalized": "Map PSym[[Entity]]",
@@ -2407,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "mUniverse",
           "package": "toysolver",
@@ -2416,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "mUniverse",
           "normalized": "[Entity]",
@@ -2432,6 +2606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprint entity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "showEntity",
           "package": "toysolver",
@@ -2442,6 +2617,7 @@
         "index": {
           "description": "print entity",
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "showEntity",
           "normalized": "Entity-\u003eString",
@@ -2457,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "showModel",
           "package": "toysolver",
@@ -2466,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "showModel",
           "normalized": "Model-\u003e[String]",
@@ -2482,6 +2660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enormalize a formula into a skolem normal form.\n\u003c/p\u003e\u003cp\u003eTODO:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Tseitin encoding\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FOLModelFinder",
           "name": "toSkolemNF",
           "package": "toysolver",
@@ -2492,6 +2671,7 @@
         "index": {
           "description": "normalize formula into skolem normal form TODO Tseitin encoding",
           "hierarchy": "Algorithm FOLModelFinder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FOLModelFinder",
           "name": "toSkolemNF",
           "normalized": "(String-\u003eInt-\u003ea FSym)-\u003eFormula-\u003ea[Clause]",
@@ -2508,6 +2688,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNa&#239;ve implementation of Fourier-Motzkin Variable Elimination\n\u003c/p\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://users.cecs.anu.edu.au/~michaeln/pubs/arithmetic-dps.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "Core",
           "package": "toysolver",
@@ -2517,6 +2698,7 @@
         "index": {
           "description": "Na ve implementation of Fourier-Motzkin Variable Elimination Reference http users.cecs.anu.edu.au michaeln pubs arithmetic-dps.pdf",
           "hierarchy": "Algorithm FourierMotzkin Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "Core",
           "package": "toysolver",
@@ -2530,6 +2712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "ExprZ",
           "package": "toysolver",
@@ -2538,6 +2721,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FourierMotzkin Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "ExprZ",
           "package": "toysolver",
@@ -2552,6 +2736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "Lit",
           "package": "toysolver",
@@ -2561,6 +2746,7 @@
         "index": {
           "description": "Literal",
           "hierarchy": "Algorithm FourierMotzkin Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "Lit",
           "package": "toysolver",
@@ -2575,6 +2761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(t,c) represents t/c, and c must be \u003e0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "Rat",
           "package": "toysolver",
@@ -2584,6 +2771,7 @@
         "index": {
           "description": "represents and must be",
           "hierarchy": "Algorithm FourierMotzkin Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "Rat",
           "package": "toysolver",
@@ -2643,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "fromLAAtom",
           "package": "toysolver",
@@ -2652,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FourierMotzkin Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "fromLAAtom",
           "normalized": "Atom Rational-\u003eDNF Lit",
@@ -2667,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "fromRat",
           "package": "toysolver",
@@ -2676,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FourierMotzkin Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "fromRat",
           "normalized": "Rat-\u003eExpr Rational",
@@ -2715,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "project'",
           "package": "toysolver",
@@ -2724,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FourierMotzkin Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "project'",
           "normalized": "Var-\u003e[Lit]-\u003e[([Lit],Model Rational-\u003eModel Rational)]",
@@ -2762,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "projectN'",
           "package": "toysolver",
@@ -2771,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FourierMotzkin Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "projectN'",
           "normalized": "VarSet-\u003e[Lit]-\u003e[([Lit],Model Rational-\u003eModel Rational)]",
@@ -2810,6 +3006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "solve'",
           "package": "toysolver",
@@ -2819,6 +3016,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FourierMotzkin Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "solve'",
           "normalized": "VarSet-\u003e[Lit]-\u003eMaybe(Model Rational)",
@@ -2833,6 +3031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "toLAAtom",
           "package": "toysolver",
@@ -2842,6 +3041,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FourierMotzkin Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "toLAAtom",
           "normalized": "Lit-\u003eAtom Rational",
@@ -2857,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "toRat",
           "package": "toysolver",
@@ -2866,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FourierMotzkin Core",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.Core",
           "name": "toRat",
           "normalized": "Expr Rational-\u003eRat",
@@ -2881,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.FOL",
           "name": "FOL",
           "package": "toysolver",
@@ -2889,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FourierMotzkin FOL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.FOL",
           "name": "FOL",
           "package": "toysolver",
@@ -2927,6 +3131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin.FOL",
           "name": "eliminateQuantifiers'",
           "package": "toysolver",
@@ -2936,6 +3141,7 @@
         },
         "index": {
           "hierarchy": "Algorithm FourierMotzkin FOL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin.FOL",
           "name": "eliminateQuantifiers'",
           "normalized": "Formula(Atom Rational)-\u003eMaybe(DNF Lit)",
@@ -2977,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNa&#239;ve implementation of Fourier-Motzkin Variable Elimination\n\u003c/p\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://users.cecs.anu.edu.au/~michaeln/pubs/arithmetic-dps.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin",
           "name": "FourierMotzkin",
           "package": "toysolver",
@@ -2986,6 +3193,7 @@
         "index": {
           "description": "Na ve implementation of Fourier-Motzkin Variable Elimination Reference http users.cecs.anu.edu.au michaeln pubs arithmetic-dps.pdf",
           "hierarchy": "Algorithm FourierMotzkin",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin",
           "name": "FourierMotzkin",
           "package": "toysolver",
@@ -3000,6 +3208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.FourierMotzkin",
           "name": "Lit",
           "package": "toysolver",
@@ -3009,6 +3218,7 @@
         "index": {
           "description": "Literal",
           "hierarchy": "Algorithm FourierMotzkin",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.FourierMotzkin",
           "name": "Lit",
           "package": "toysolver",
@@ -3023,6 +3233,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNa&#239;ve implementation of Simplex method\n\u003c/p\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.math.cuhk.edu.hk/~wei/lpch3.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "LPSolver",
           "package": "toysolver",
@@ -3032,6 +3243,7 @@
         "index": {
           "description": "Na ve implementation of Simplex method Reference http www.math.cuhk.edu.hk wei lpch3.pdf",
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "LPSolver",
           "package": "toysolver",
@@ -3045,6 +3257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "LP",
           "package": "toysolver",
@@ -3053,6 +3266,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "LP",
           "package": "toysolver",
@@ -3066,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "Solver",
           "package": "toysolver",
@@ -3074,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "Solver",
           "package": "toysolver",
@@ -3087,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "addArtificialVariable",
           "package": "toysolver",
@@ -3096,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "addArtificialVariable",
           "normalized": "Var-\u003eLP a()",
@@ -3111,6 +3329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "addConstraint",
           "package": "toysolver",
@@ -3120,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "addConstraint",
           "normalized": "Atom a-\u003eLP a()",
@@ -3135,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "addConstraint2",
           "package": "toysolver",
@@ -3144,6 +3365,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "addConstraint2",
           "normalized": "Atom a-\u003eLP a()",
@@ -3159,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "clearArtificialVariables",
           "package": "toysolver",
@@ -3168,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "clearArtificialVariables",
           "normalized": "LP a()",
@@ -3183,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "collectNonnegVars",
           "package": "toysolver",
@@ -3192,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "collectNonnegVars",
           "normalized": "[Atom a]-\u003eVarSet-\u003e(VarSet,[Atom a])",
@@ -3207,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "define",
           "package": "toysolver",
@@ -3216,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "define",
           "normalized": "Var-\u003eExpr a-\u003eLP a()",
@@ -3230,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "dualSimplex",
           "package": "toysolver",
@@ -3239,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "dualSimplex",
           "normalized": "OptDir-\u003eExpr a-\u003eLP a Bool",
@@ -3254,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "emptySolver",
           "package": "toysolver",
@@ -3263,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "emptySolver",
           "normalized": "VarSet-\u003eSolver a",
@@ -3278,6 +3510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "expandDefs",
           "package": "toysolver",
@@ -3287,6 +3520,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "expandDefs",
           "normalized": "Expr a-\u003eLP a(Expr a)",
@@ -3302,6 +3536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "expandDefs'",
           "package": "toysolver",
@@ -3311,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "expandDefs'",
           "normalized": "Atom a-\u003eLP a(Atom a)",
@@ -3326,6 +3562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "gensym",
           "package": "toysolver",
@@ -3335,6 +3572,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "gensym",
           "package": "toysolver",
@@ -3347,6 +3585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "getArtificialVariables",
           "package": "toysolver",
@@ -3356,6 +3595,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "getArtificialVariables",
           "package": "toysolver",
@@ -3369,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "getDefs",
           "package": "toysolver",
@@ -3378,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "getDefs",
           "package": "toysolver",
@@ -3391,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "getModel",
           "package": "toysolver",
@@ -3400,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "getModel",
           "normalized": "VarSet-\u003eLP a(Model a)",
@@ -3415,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "getTableau",
           "package": "toysolver",
@@ -3424,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "getTableau",
           "package": "toysolver",
@@ -3437,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "normalizeConstraint",
           "package": "toysolver",
@@ -3446,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "normalizeConstraint",
           "normalized": "Atom a-\u003e(Expr a,RelOp,a)",
@@ -3461,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "phaseI",
           "package": "toysolver",
@@ -3470,6 +3719,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "phaseI",
           "package": "toysolver",
@@ -3482,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "putTableau",
           "package": "toysolver",
@@ -3491,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "putTableau",
           "normalized": "Tableau a-\u003eLP a()",
@@ -3506,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "simplex",
           "package": "toysolver",
@@ -3515,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "simplex",
           "normalized": "OptDir-\u003eExpr a-\u003eLP a Bool",
@@ -3529,6 +3783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolver",
           "name": "tableau",
           "package": "toysolver",
@@ -3538,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolver",
           "name": "tableau",
           "normalized": "[Atom a]-\u003eLP a()",
@@ -3553,6 +3809,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigh-Level API for LPSolver.hs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolverHL",
           "name": "LPSolverHL",
           "package": "toysolver",
@@ -3562,6 +3819,7 @@
         "index": {
           "description": "High-Level API for LPSolver.hs",
           "hierarchy": "Algorithm LPSolverHL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolverHL",
           "name": "LPSolverHL",
           "package": "toysolver",
@@ -3576,6 +3834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresults of optimization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolverHL",
           "name": "OptResult",
           "package": "toysolver",
@@ -3585,6 +3844,7 @@
         "index": {
           "description": "results of optimization",
           "hierarchy": "Algorithm LPSolverHL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolverHL",
           "name": "OptResult",
           "package": "toysolver",
@@ -3667,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolverHL",
           "name": "maximize",
           "package": "toysolver",
@@ -3676,6 +3937,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolverHL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolverHL",
           "name": "maximize",
           "normalized": "Expr a-\u003e[Atom a]-\u003eOptResult a",
@@ -3690,6 +3952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolverHL",
           "name": "minimize",
           "package": "toysolver",
@@ -3699,6 +3962,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolverHL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolverHL",
           "name": "minimize",
           "normalized": "Expr a-\u003e[Atom a]-\u003eOptResult a",
@@ -3713,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolverHL",
           "name": "optimize",
           "package": "toysolver",
@@ -3722,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolverHL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolverHL",
           "name": "optimize",
           "normalized": "OptDir-\u003eExpr a-\u003e[Atom a]-\u003eOptResult a",
@@ -3736,6 +4002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPSolverHL",
           "name": "solve",
           "package": "toysolver",
@@ -3745,6 +4012,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPSolverHL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPSolverHL",
           "name": "solve",
           "normalized": "[Atom a]-\u003eMaybe(Model a)",
@@ -3759,6 +4027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPUtil",
           "name": "LPUtil",
           "package": "toysolver",
@@ -3767,6 +4036,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPUtil",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPUtil",
           "name": "LPUtil",
           "package": "toysolver",
@@ -3780,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPUtil",
           "name": "toStandardForm",
           "package": "toysolver",
@@ -3789,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPUtil",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPUtil",
           "name": "toStandardForm",
           "normalized": "(Expr Rational,[Rel(Expr Rational)])-\u003e((Expr Rational,[(Expr Rational,Rational)]),Model Rational-\u003eModel Rational)",
@@ -3804,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.LPUtil",
           "name": "toStandardForm'",
           "package": "toysolver",
@@ -3813,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Algorithm LPUtil",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.LPUtil",
           "name": "toStandardForm'",
           "normalized": "(Expr Rational,[Rel(Expr Rational)])-\u003e((Expr Rational,[(Expr Rational,Rational)]),VarMap(Expr Rational))",
@@ -3829,6 +4103,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNa&#239;ve implementation of MIP solver based on Simplex2 module\n\u003c/p\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.math.cuhk.edu.hk/~wei/lpch3.pdf\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Ralph E. Gomory.\n   \"An Algorithm for the Mixed Integer Problem\", Technical Report\n   RM-2597, 1960, The Rand Corporation, Santa Monica, CA.\n   \u003ca\u003ehttp://www.rand.org/pubs/research_memoranda/RM2597.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Ralph E. Gomory.\n   \"Outline of an algorithm for integer solutions to linear programs\".\n   Bull. Amer. Math. Soc., Vol. 64, No. 5. (1958), pp. 275-278.\n   \u003ca\u003ehttp://projecteuclid.org/euclid.bams/1183522679\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e R. C. Daniel and Martyn Jeffreys.\n   \"Unboundedness in Integer and Discrete Programming L.P. Relaxations\"\n   The Journal of the Operational Research Society, Vol. 30, No. 12. (1979)\n   \u003ca\u003ehttp://www.jstor.org/stable/3009435\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolver2",
           "name": "MIPSolver2",
           "package": "toysolver",
@@ -3838,6 +4113,7 @@
         "index": {
           "description": "Na ve implementation of MIP solver based on Simplex2 module Reference http www.math.cuhk.edu.hk wei lpch3.pdf Ralph Gomory An Algorithm for the Mixed Integer Problem Technical Report RM-2597 The Rand Corporation Santa Monica CA http www.rand.org pubs research memoranda RM2597.html Ralph Gomory Outline of an algorithm for integer solutions to linear programs Bull Amer Math Soc Vol No pp http projecteuclid.org euclid.bams Daniel and Martyn Jeffreys Unboundedness in Integer and Discrete Programming L.P Relaxations The Journal of the Operational Research Society Vol No http www.jstor.org stable",
           "hierarchy": "Algorithm MIPSolver2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolver2",
           "name": "MIPSolver2",
           "package": "toysolver",
@@ -3851,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolver2",
           "name": "Solver",
           "package": "toysolver",
@@ -3859,6 +4136,7 @@
         },
         "index": {
           "hierarchy": "Algorithm MIPSolver2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolver2",
           "name": "Solver",
           "package": "toysolver",
@@ -3872,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolver2",
           "name": "getObjValue",
           "package": "toysolver",
@@ -3881,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Algorithm MIPSolver2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolver2",
           "name": "getObjValue",
           "normalized": "Solver-\u003eIO Rational",
@@ -3896,6 +4176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolver2",
           "name": "model",
           "package": "toysolver",
@@ -3905,6 +4186,7 @@
         },
         "index": {
           "hierarchy": "Algorithm MIPSolver2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolver2",
           "name": "model",
           "normalized": "Solver-\u003eIO Model",
@@ -3919,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolver2",
           "name": "newSolver",
           "package": "toysolver",
@@ -3928,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Algorithm MIPSolver2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolver2",
           "name": "newSolver",
           "normalized": "Solver-\u003eIntSet-\u003eIO Solver",
@@ -3943,6 +4227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolver2",
           "name": "optimize",
           "package": "toysolver",
@@ -3952,6 +4237,7 @@
         },
         "index": {
           "hierarchy": "Algorithm MIPSolver2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolver2",
           "name": "optimize",
           "normalized": "Solver-\u003e(Model-\u003eRational-\u003eIO())-\u003eIO OptResult",
@@ -3967,6 +4253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset callback function for receiving messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolver2",
           "name": "setLogger",
           "package": "toysolver",
@@ -3977,6 +4264,7 @@
         "index": {
           "description": "set callback function for receiving messages",
           "hierarchy": "Algorithm MIPSolver2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolver2",
           "name": "setLogger",
           "normalized": "Solver-\u003e(String-\u003eIO())-\u003eIO()",
@@ -3992,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolver2",
           "name": "setNThread",
           "package": "toysolver",
@@ -4001,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Algorithm MIPSolver2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolver2",
           "name": "setNThread",
           "normalized": "Solver-\u003eInt-\u003eIO()",
@@ -4016,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolver2",
           "name": "setShowRational",
           "package": "toysolver",
@@ -4025,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "Algorithm MIPSolver2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolver2",
           "name": "setShowRational",
           "normalized": "Solver-\u003eBool-\u003eIO()",
@@ -4041,6 +4333,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e [Gomory1960]\n   Ralph E. Gomory.\n   An Algorithm for the Mixed Integer Problem, Technical Report\n   RM-2597, 1960, The Rand Corporation, Santa Monica, CA.\n   \u003ca\u003ehttp://www.rand.org/pubs/research_memoranda/RM2597.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e [Gomory1958]\n   Ralph E. Gomory.\n   Outline of an algorithm for integer solutions to linear programs.\n   Bull. Amer. Math. Soc., Vol. 64, No. 5. (1958), pp. 275-278.\n   \u003ca\u003ehttp://projecteuclid.org/euclid.bams/1183522679\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolverHL",
           "name": "MIPSolverHL",
           "package": "toysolver",
@@ -4050,6 +4343,7 @@
         "index": {
           "description": "References Gomory1960 Ralph Gomory An Algorithm for the Mixed Integer Problem Technical Report RM-2597 The Rand Corporation Santa Monica CA http www.rand.org pubs research memoranda RM2597.html Gomory1958 Ralph Gomory Outline of an algorithm for integer solutions to linear programs Bull Amer Math Soc Vol No pp http projecteuclid.org euclid.bams",
           "hierarchy": "Algorithm MIPSolverHL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolverHL",
           "name": "MIPSolverHL",
           "package": "toysolver",
@@ -4064,6 +4358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresults of optimization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolverHL",
           "name": "OptResult",
           "package": "toysolver",
@@ -4073,6 +4368,7 @@
         "index": {
           "description": "results of optimization",
           "hierarchy": "Algorithm MIPSolverHL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolverHL",
           "name": "OptResult",
           "package": "toysolver",
@@ -4086,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolverHL",
           "name": "maximize",
           "package": "toysolver",
@@ -4095,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "Algorithm MIPSolverHL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolverHL",
           "name": "maximize",
           "normalized": "Expr a-\u003e[Atom a]-\u003eVarSet-\u003eOptResult a",
@@ -4109,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolverHL",
           "name": "minimize",
           "package": "toysolver",
@@ -4118,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "Algorithm MIPSolverHL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolverHL",
           "name": "minimize",
           "normalized": "Expr a-\u003e[Atom a]-\u003eVarSet-\u003eOptResult a",
@@ -4132,6 +4432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.MIPSolverHL",
           "name": "optimize",
           "package": "toysolver",
@@ -4141,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "Algorithm MIPSolverHL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.MIPSolverHL",
           "name": "optimize",
           "normalized": "OptDir-\u003eExpr a-\u003e[Atom a]-\u003eVarSet-\u003eOptResult a",
@@ -4155,6 +4457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest.Misc",
           "name": "Misc",
           "package": "toysolver",
@@ -4163,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "Algorithm OmegaTest Misc",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest.Misc",
           "name": "Misc",
           "package": "toysolver",
@@ -4176,6 +4480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest.Misc",
           "name": "checkRealByCAD",
           "package": "toysolver",
@@ -4185,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Algorithm OmegaTest Misc",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest.Misc",
           "name": "checkRealByCAD",
           "normalized": "VarSet-\u003e[Atom Rational]-\u003eBool",
@@ -4200,6 +4506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest.Misc",
           "name": "checkRealBySimplex",
           "package": "toysolver",
@@ -4209,6 +4516,7 @@
         },
         "index": {
           "hierarchy": "Algorithm OmegaTest Misc",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest.Misc",
           "name": "checkRealBySimplex",
           "normalized": "VarSet-\u003e[Atom Rational]-\u003eBool",
@@ -4225,6 +4533,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e(incomplete) implementation of Omega Test\n\u003c/p\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e William Pugh. The Omega test: a fast and practical integer\n   programming algorithm for dependence analysis. In Proceedings of\n   the 1991 ACM/IEEE conference on Supercomputing (1991), pp. 4-13.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://users.cecs.anu.edu.au/~michaeln/pubs/arithmetic-dps.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSee also:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://hackage.haskell.org/package/Omega\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest",
           "name": "OmegaTest",
           "package": "toysolver",
@@ -4234,6 +4543,7 @@
         "index": {
           "description": "incomplete implementation of Omega Test References William Pugh The Omega test fast and practical integer programming algorithm for dependence analysis In Proceedings of the ACM IEEE conference on Supercomputing pp http users.cecs.anu.edu.au michaeln pubs arithmetic-dps.pdf See also http hackage.haskell.org package Omega",
           "hierarchy": "Algorithm OmegaTest",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest",
           "name": "OmegaTest",
           "package": "toysolver",
@@ -4248,6 +4558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eModel\u003c/code\u003e is a map from variables to values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest",
           "name": "Model",
           "package": "toysolver",
@@ -4257,6 +4568,7 @@
         "index": {
           "description": "Model is map from variables to values",
           "hierarchy": "Algorithm OmegaTest",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest",
           "name": "Model",
           "package": "toysolver",
@@ -4270,6 +4582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest",
           "name": "Options",
           "package": "toysolver",
@@ -4278,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Algorithm OmegaTest",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest",
           "name": "Options",
           "package": "toysolver",
@@ -4291,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest",
           "name": "Options",
           "package": "toysolver",
@@ -4300,6 +4615,7 @@
         },
         "index": {
           "hierarchy": "Algorithm OmegaTest",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest",
           "name": "Options",
           "package": "toysolver",
@@ -4313,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest",
           "name": "checkRealByFM",
           "package": "toysolver",
@@ -4322,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "Algorithm OmegaTest",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest",
           "name": "checkRealByFM",
           "normalized": "VarSet-\u003e[Atom Rational]-\u003eBool",
@@ -4337,6 +4655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest",
           "name": "checkRealNoCheck",
           "package": "toysolver",
@@ -4346,6 +4665,7 @@
         },
         "index": {
           "hierarchy": "Algorithm OmegaTest",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest",
           "name": "checkRealNoCheck",
           "normalized": "VarSet-\u003e[Atom Rational]-\u003eBool",
@@ -4361,6 +4681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -4370,6 +4691,7 @@
         },
         "index": {
           "hierarchy": "Algorithm OmegaTest",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -4383,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest",
           "name": "optCheckReal",
           "package": "toysolver",
@@ -4392,6 +4715,7 @@
         },
         "index": {
           "hierarchy": "Algorithm OmegaTest",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest",
           "name": "optCheckReal",
           "normalized": "VarSet-\u003e[Atom Rational]-\u003eBool",
@@ -4407,6 +4731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest",
           "name": "solve",
           "package": "toysolver",
@@ -4416,6 +4741,7 @@
         },
         "index": {
           "hierarchy": "Algorithm OmegaTest",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest",
           "name": "solve",
           "normalized": "Options-\u003eVarSet-\u003e[Atom Rational]-\u003eMaybe(Model Integer)",
@@ -4430,6 +4756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.OmegaTest",
           "name": "solveQFLA",
           "package": "toysolver",
@@ -4439,6 +4766,7 @@
         },
         "index": {
           "hierarchy": "Algorithm OmegaTest",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.OmegaTest",
           "name": "solveQFLA",
           "normalized": "Options-\u003eVarSet-\u003e[Atom Rational]-\u003eVarSet-\u003eMaybe(Model Rational)",
@@ -4455,6 +4783,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNa&#239;ve implementation of Simplex method\n\u003c/p\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.math.cuhk.edu.hk/~wei/lpch3.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "Simplex",
           "package": "toysolver",
@@ -4464,6 +4793,7 @@
         "index": {
           "description": "Na ve implementation of Simplex method Reference http www.math.cuhk.edu.hk wei lpch3.pdf",
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "Simplex",
           "package": "toysolver",
@@ -4477,6 +4807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "ColIndex",
           "package": "toysolver",
@@ -4485,6 +4816,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "ColIndex",
           "package": "toysolver",
@@ -4498,6 +4830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "PivotResult",
           "package": "toysolver",
@@ -4506,6 +4839,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "PivotResult",
           "package": "toysolver",
@@ -4519,6 +4853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "Row",
           "package": "toysolver",
@@ -4527,6 +4862,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "Row",
           "package": "toysolver",
@@ -4540,6 +4876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "RowIndex",
           "package": "toysolver",
@@ -4548,6 +4885,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "RowIndex",
           "package": "toysolver",
@@ -4561,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "Tableau",
           "package": "toysolver",
@@ -4569,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "Tableau",
           "package": "toysolver",
@@ -4582,6 +4922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "currentObjValue",
           "package": "toysolver",
@@ -4591,6 +4932,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "currentObjValue",
           "normalized": "Tableau a-\u003ea",
@@ -4606,6 +4948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "dualSimplex",
           "package": "toysolver",
@@ -4615,6 +4958,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "dualSimplex",
           "normalized": "OptDir-\u003eTableau a-\u003e(Bool,Tableau a)",
@@ -4630,6 +4974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "lookupRow",
           "package": "toysolver",
@@ -4639,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "lookupRow",
           "normalized": "RowIndex-\u003eTableau a-\u003eRow a",
@@ -4654,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "objRow",
           "package": "toysolver",
@@ -4663,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "objRow",
           "package": "toysolver",
@@ -4676,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "phaseI",
           "package": "toysolver",
@@ -4685,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "phaseI",
           "normalized": "Tableau a-\u003eVarSet-\u003e(Bool,Tableau a)",
@@ -4699,6 +5049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "pivot",
           "package": "toysolver",
@@ -4708,6 +5059,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "pivot",
           "normalized": "RowIndex-\u003eColIndex-\u003eTableau a-\u003eTableau a",
@@ -4722,6 +5074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "setObjFun",
           "package": "toysolver",
@@ -4731,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "setObjFun",
           "normalized": "Tableau a-\u003eExpr a-\u003eTableau a",
@@ -4746,6 +5100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "setRow",
           "package": "toysolver",
@@ -4755,6 +5110,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "setRow",
           "normalized": "RowIndex-\u003eTableau a-\u003eRow a-\u003eTableau a",
@@ -4770,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "simplex",
           "package": "toysolver",
@@ -4779,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "simplex",
           "normalized": "OptDir-\u003eTableau a-\u003e(Bool,Tableau a)",
@@ -4793,6 +5151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex",
           "name": "toCSV",
           "package": "toysolver",
@@ -4802,6 +5161,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex",
           "name": "toCSV",
           "normalized": "(a-\u003eString)-\u003eTableau a-\u003eString",
@@ -4818,6 +5178,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNa&#239;ve implementation of Simplex method\n\u003c/p\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.math.cuhk.edu.hk/~wei/lpch3.pdf\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Bruno Dutertre and Leonardo de Moura.\n   A Fast Linear-Arithmetic Solver for DPLL(T).\n   Computer Aided Verification In Computer Aided Verification, Vol. 4144 (2006), pp. 81-94.\n   \u003ca\u003ehttp://yices.csl.sri.com/cav06.pdf\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Bruno Dutertre and Leonardo de Moura.\n   Integrating Simplex with DPLL(T).\n   CSL Technical Report SRI-CSL-06-01. 2006.\n   \u003ca\u003ehttp://yices.csl.sri.com/sri-csl-06-01.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "Simplex2",
           "package": "toysolver",
@@ -4827,6 +5188,7 @@
         "index": {
           "description": "Na ve implementation of Simplex method Reference http www.math.cuhk.edu.hk wei lpch3.pdf Bruno Dutertre and Leonardo de Moura Fast Linear-Arithmetic Solver for DPLL Computer Aided Verification In Computer Aided Verification Vol pp http yices.csl.sri.com cav06.pdf Bruno Dutertre and Leonardo de Moura Integrating Simplex with DPLL CSL Technical Report SRI-CSL-06-01 http yices.csl.sri.com sri-csl-06-01.pdf",
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "Simplex2",
           "package": "toysolver",
@@ -4841,6 +5203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic Formula of Linear Arithmetics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "Atom",
           "package": "toysolver",
@@ -4850,6 +5213,7 @@
         "index": {
           "description": "Atomic Formula of Linear Arithmetics",
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "Atom",
           "package": "toysolver",
@@ -4863,6 +5227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "GenericSolver",
           "package": "toysolver",
@@ -4871,6 +5236,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "GenericSolver",
           "package": "toysolver",
@@ -4884,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "Model",
           "package": "toysolver",
@@ -4892,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "Model",
           "package": "toysolver",
@@ -4906,6 +5274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eOptDir\u003c/a\u003e\u003c/code\u003e type represents optimization directions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "OptDir",
           "package": "toysolver",
@@ -4914,6 +5283,7 @@
         "index": {
           "description": "The OptDir type represents optimization directions",
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "OptDir",
           "package": "toysolver",
@@ -4928,6 +5298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresults of optimization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "OptResult",
           "package": "toysolver",
@@ -4937,6 +5308,7 @@
         "index": {
           "description": "results of optimization",
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "OptResult",
           "package": "toysolver",
@@ -4950,6 +5322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "Options",
           "package": "toysolver",
@@ -4958,6 +5331,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "Options",
           "package": "toysolver",
@@ -4971,6 +5345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "PivotStrategy",
           "package": "toysolver",
@@ -4979,6 +5354,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "PivotStrategy",
           "package": "toysolver",
@@ -4992,6 +5368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "RawModel",
           "package": "toysolver",
@@ -5000,6 +5377,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "RawModel",
           "package": "toysolver",
@@ -5014,6 +5392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelational operators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "RelOp",
           "package": "toysolver",
@@ -5023,6 +5402,7 @@
         "index": {
           "description": "relational operators",
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "RelOp",
           "package": "toysolver",
@@ -5036,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "Solver",
           "package": "toysolver",
@@ -5044,6 +5425,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "Solver",
           "package": "toysolver",
@@ -5057,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "SolverValue",
           "package": "toysolver",
@@ -5065,6 +5448,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "SolverValue",
           "package": "toysolver",
@@ -5078,6 +5462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "Var",
           "package": "toysolver",
@@ -5086,6 +5471,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "Var",
           "package": "toysolver",
@@ -5367,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "ObjLimit",
           "package": "toysolver",
@@ -5376,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "ObjLimit",
           "package": "toysolver",
@@ -5437,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "Optimum",
           "package": "toysolver",
@@ -5446,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "Optimum",
           "package": "toysolver",
@@ -5459,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "Options",
           "package": "toysolver",
@@ -5468,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "Options",
           "package": "toysolver",
@@ -5481,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "PivotStrategyBlandRule",
           "package": "toysolver",
@@ -5490,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "PivotStrategyBlandRule",
           "package": "toysolver",
@@ -5503,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "PivotStrategyLargestCoefficient",
           "package": "toysolver",
@@ -5512,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "PivotStrategyLargestCoefficient",
           "package": "toysolver",
@@ -5525,6 +5921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "Unbounded",
           "package": "toysolver",
@@ -5534,6 +5931,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "Unbounded",
           "package": "toysolver",
@@ -5547,6 +5945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "Unsat",
           "package": "toysolver",
@@ -5556,6 +5955,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "Unsat",
           "package": "toysolver",
@@ -5569,6 +5969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "assertAtom",
           "package": "toysolver",
@@ -5578,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "assertAtom",
           "normalized": "Solver-\u003eAtom Rational-\u003eIO()",
@@ -5593,6 +5995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "assertAtomEx",
           "package": "toysolver",
@@ -5602,6 +6005,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "assertAtomEx",
           "normalized": "GenericSolver(Delta Rational)-\u003eAtom Rational-\u003eIO()",
@@ -5617,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "assertLower",
           "package": "toysolver",
@@ -5626,6 +6031,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "assertLower",
           "normalized": "GenericSolver a-\u003eVar-\u003ea-\u003eIO()",
@@ -5641,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "assertUpper",
           "package": "toysolver",
@@ -5650,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "assertUpper",
           "normalized": "GenericSolver a-\u003eVar-\u003ea-\u003eIO()",
@@ -5665,6 +6073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "check",
           "package": "toysolver",
@@ -5674,6 +6083,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "check",
           "normalized": "GenericSolver a-\u003eIO Bool",
@@ -5688,6 +6098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "clearLogger",
           "package": "toysolver",
@@ -5697,6 +6108,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "clearLogger",
           "normalized": "GenericSolver a-\u003eIO()",
@@ -5712,6 +6124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "cloneSolver",
           "package": "toysolver",
@@ -5721,6 +6134,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "cloneSolver",
           "normalized": "GenericSolver a-\u003eIO(GenericSolver a)",
@@ -5736,6 +6150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -5745,6 +6160,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -5758,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "dualSimplex",
           "package": "toysolver",
@@ -5767,6 +6184,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "dualSimplex",
           "normalized": "Solver-\u003eOptions-\u003eIO OptResult",
@@ -5782,6 +6200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "dump",
           "package": "toysolver",
@@ -5791,6 +6210,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "dump",
           "normalized": "GenericSolver a-\u003eIO()",
@@ -5805,6 +6225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "getCoeff",
           "package": "toysolver",
@@ -5814,6 +6235,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "getCoeff",
           "normalized": "GenericSolver a-\u003eVar-\u003eVar-\u003eIO Rational",
@@ -5829,6 +6251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "getCol",
           "package": "toysolver",
@@ -5838,6 +6261,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "getCol",
           "normalized": "GenericSolver a-\u003eVar-\u003eIO(IntMap Rational)",
@@ -5853,6 +6277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "getLB",
           "package": "toysolver",
@@ -5862,6 +6287,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "getLB",
           "normalized": "GenericSolver a-\u003eVar-\u003eIO(Maybe a)",
@@ -5877,6 +6303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "getObj",
           "package": "toysolver",
@@ -5886,6 +6313,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "getObj",
           "normalized": "GenericSolver a-\u003eIO(Expr Rational)",
@@ -5901,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "getObjValue",
           "package": "toysolver",
@@ -5910,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "getObjValue",
           "normalized": "GenericSolver a-\u003eIO a",
@@ -5925,6 +6355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "getOptDir",
           "package": "toysolver",
@@ -5934,6 +6365,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "getOptDir",
           "normalized": "GenericSolver a-\u003eIO OptDir",
@@ -5949,6 +6381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "getRow",
           "package": "toysolver",
@@ -5958,6 +6391,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "getRow",
           "normalized": "GenericSolver a-\u003eVar-\u003eIO(Expr Rational)",
@@ -5973,6 +6407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "getTableau",
           "package": "toysolver",
@@ -5982,6 +6417,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "getTableau",
           "normalized": "GenericSolver a-\u003eIO(IntMap(Expr Rational))",
@@ -5997,6 +6433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "getUB",
           "package": "toysolver",
@@ -6006,6 +6443,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "getUB",
           "normalized": "GenericSolver a-\u003eVar-\u003eIO(Maybe a)",
@@ -6021,6 +6459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "getValue",
           "package": "toysolver",
@@ -6030,6 +6469,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "getValue",
           "normalized": "GenericSolver a-\u003eVar-\u003eIO a",
@@ -6045,6 +6485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "isBasicVariable",
           "package": "toysolver",
@@ -6054,6 +6495,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "isBasicVariable",
           "normalized": "GenericSolver a-\u003eVar-\u003eIO Bool",
@@ -6069,6 +6511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "isFeasible",
           "package": "toysolver",
@@ -6078,6 +6521,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "isFeasible",
           "normalized": "GenericSolver a-\u003eIO Bool",
@@ -6093,6 +6537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "isNonBasicVariable",
           "package": "toysolver",
@@ -6102,6 +6547,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "isNonBasicVariable",
           "normalized": "GenericSolver a-\u003eVar-\u003eIO Bool",
@@ -6117,6 +6563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "isOptimal",
           "package": "toysolver",
@@ -6126,6 +6573,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "isOptimal",
           "normalized": "GenericSolver a-\u003eIO Bool",
@@ -6141,6 +6589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "model",
           "package": "toysolver",
@@ -6150,6 +6599,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "model",
           "normalized": "GenericSolver a-\u003eIO Model",
@@ -6164,6 +6614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "nVars",
           "package": "toysolver",
@@ -6173,6 +6624,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "nVars",
           "normalized": "GenericSolver a-\u003eIO Int",
@@ -6188,6 +6640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "newSolver",
           "package": "toysolver",
@@ -6197,6 +6650,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "newSolver",
           "package": "toysolver",
@@ -6210,6 +6664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "newVar",
           "package": "toysolver",
@@ -6219,6 +6674,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "newVar",
           "normalized": "GenericSolver a-\u003eIO Var",
@@ -6234,6 +6690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "objLimit",
           "package": "toysolver",
@@ -6243,6 +6700,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "objLimit",
           "package": "toysolver",
@@ -6256,6 +6714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "optimize",
           "package": "toysolver",
@@ -6265,6 +6724,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "optimize",
           "normalized": "Solver-\u003eOptions-\u003eIO OptResult",
@@ -6279,6 +6739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "rawModel",
           "package": "toysolver",
@@ -6288,6 +6749,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "rawModel",
           "normalized": "GenericSolver a-\u003eIO(RawModel a)",
@@ -6304,6 +6766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset callback function for receiving messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "setLogger",
           "package": "toysolver",
@@ -6314,6 +6777,7 @@
         "index": {
           "description": "set callback function for receiving messages",
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "setLogger",
           "normalized": "GenericSolver a-\u003e(String-\u003eIO())-\u003eIO()",
@@ -6329,6 +6793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "setObj",
           "package": "toysolver",
@@ -6338,6 +6803,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "setObj",
           "normalized": "GenericSolver a-\u003eExpr Rational-\u003eIO()",
@@ -6353,6 +6819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "setOptDir",
           "package": "toysolver",
@@ -6362,6 +6829,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "setOptDir",
           "normalized": "GenericSolver a-\u003eOptDir-\u003eIO()",
@@ -6377,6 +6845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "setPivotStrategy",
           "package": "toysolver",
@@ -6386,6 +6855,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "setPivotStrategy",
           "normalized": "GenericSolver a-\u003ePivotStrategy-\u003eIO()",
@@ -6401,6 +6871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "showValue",
           "package": "toysolver",
@@ -6410,6 +6881,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "showValue",
           "normalized": "Bool-\u003ea-\u003eString",
@@ -6425,6 +6897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Algorithm.Simplex2",
           "name": "toValue",
           "package": "toysolver",
@@ -6434,6 +6907,7 @@
         },
         "index": {
           "hierarchy": "Algorithm Simplex2",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Algorithm.Simplex2",
           "name": "toValue",
           "normalized": "Rational-\u003ea",
@@ -6449,6 +6923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.LP2SMT",
           "name": "LP2SMT",
           "package": "toysolver",
@@ -6457,6 +6932,7 @@
         },
         "index": {
           "hierarchy": "Converter LP2SMT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.LP2SMT",
           "name": "LP2SMT",
           "package": "toysolver",
@@ -6470,6 +6946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.LP2SMT",
           "name": "Language",
           "package": "toysolver",
@@ -6478,6 +6955,7 @@
         },
         "index": {
           "hierarchy": "Converter LP2SMT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.LP2SMT",
           "name": "Language",
           "package": "toysolver",
@@ -6491,6 +6969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.LP2SMT",
           "name": "Options",
           "package": "toysolver",
@@ -6499,6 +6978,7 @@
         },
         "index": {
           "hierarchy": "Converter LP2SMT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.LP2SMT",
           "name": "Options",
           "package": "toysolver",
@@ -6512,6 +6992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.LP2SMT",
           "name": "Options",
           "package": "toysolver",
@@ -6521,6 +7002,7 @@
         },
         "index": {
           "hierarchy": "Converter LP2SMT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.LP2SMT",
           "name": "Options",
           "package": "toysolver",
@@ -6534,6 +7016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.LP2SMT",
           "name": "SMTLIB2",
           "package": "toysolver",
@@ -6543,6 +7026,7 @@
         },
         "index": {
           "hierarchy": "Converter LP2SMT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.LP2SMT",
           "name": "SMTLIB2",
           "package": "toysolver",
@@ -6556,6 +7040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.LP2SMT",
           "name": "YICES",
           "package": "toysolver",
@@ -6565,6 +7050,7 @@
         },
         "index": {
           "hierarchy": "Converter LP2SMT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.LP2SMT",
           "name": "YICES",
           "package": "toysolver",
@@ -6578,6 +7064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.LP2SMT",
           "name": "convert",
           "package": "toysolver",
@@ -6587,6 +7074,7 @@
         },
         "index": {
           "hierarchy": "Converter LP2SMT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.LP2SMT",
           "name": "convert",
           "normalized": "Options-\u003eLP-\u003eShowS",
@@ -6601,6 +7089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.LP2SMT",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -6610,6 +7099,7 @@
         },
         "index": {
           "hierarchy": "Converter LP2SMT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.LP2SMT",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -6623,6 +7113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.LP2SMT",
           "name": "optCheckSAT",
           "package": "toysolver",
@@ -6632,6 +7123,7 @@
         },
         "index": {
           "hierarchy": "Converter LP2SMT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.LP2SMT",
           "name": "optCheckSAT",
           "package": "toysolver",
@@ -6645,6 +7137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.LP2SMT",
           "name": "optLanguage",
           "package": "toysolver",
@@ -6654,6 +7147,7 @@
         },
         "index": {
           "hierarchy": "Converter LP2SMT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.LP2SMT",
           "name": "optLanguage",
           "package": "toysolver",
@@ -6667,6 +7161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.LP2SMT",
           "name": "optOptimize",
           "package": "toysolver",
@@ -6676,6 +7171,7 @@
         },
         "index": {
           "hierarchy": "Converter LP2SMT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.LP2SMT",
           "name": "optOptimize",
           "package": "toysolver",
@@ -6689,6 +7185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.LP2SMT",
           "name": "optProduceModel",
           "package": "toysolver",
@@ -6698,6 +7195,7 @@
         },
         "index": {
           "hierarchy": "Converter LP2SMT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.LP2SMT",
           "name": "optProduceModel",
           "package": "toysolver",
@@ -6711,6 +7209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.MaxSAT2LP",
           "name": "MaxSAT2LP",
           "package": "toysolver",
@@ -6719,6 +7218,7 @@
         },
         "index": {
           "hierarchy": "Converter MaxSAT2LP",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.MaxSAT2LP",
           "name": "MaxSAT2LP",
           "package": "toysolver",
@@ -6732,6 +7232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.MaxSAT2LP",
           "name": "convert",
           "package": "toysolver",
@@ -6741,6 +7242,7 @@
         },
         "index": {
           "hierarchy": "Converter MaxSAT2LP",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.MaxSAT2LP",
           "name": "convert",
           "normalized": "Bool-\u003eWCNF-\u003e(LP,Map Var Rational-\u003eModel)",
@@ -6755,6 +7257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.MaxSAT2NLPB",
           "name": "MaxSAT2NLPB",
           "package": "toysolver",
@@ -6763,6 +7266,7 @@
         },
         "index": {
           "hierarchy": "Converter MaxSAT2NLPB",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.MaxSAT2NLPB",
           "name": "MaxSAT2NLPB",
           "package": "toysolver",
@@ -6776,6 +7280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.MaxSAT2NLPB",
           "name": "convert",
           "package": "toysolver",
@@ -6785,6 +7290,7 @@
         },
         "index": {
           "hierarchy": "Converter MaxSAT2NLPB",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.MaxSAT2NLPB",
           "name": "convert",
           "normalized": "WCNF-\u003eFormula",
@@ -6799,6 +7305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.MaxSAT2WBO",
           "name": "MaxSAT2WBO",
           "package": "toysolver",
@@ -6807,6 +7314,7 @@
         },
         "index": {
           "hierarchy": "Converter MaxSAT2WBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.MaxSAT2WBO",
           "name": "MaxSAT2WBO",
           "package": "toysolver",
@@ -6820,6 +7328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.MaxSAT2WBO",
           "name": "convert",
           "package": "toysolver",
@@ -6829,6 +7338,7 @@
         },
         "index": {
           "hierarchy": "Converter MaxSAT2WBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.MaxSAT2WBO",
           "name": "convert",
           "normalized": "WCNF-\u003eSoftFormula",
@@ -6843,6 +7353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.ObjType",
           "name": "ObjType",
           "package": "toysolver",
@@ -6851,6 +7362,7 @@
         },
         "index": {
           "hierarchy": "Converter ObjType",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.ObjType",
           "name": "ObjType",
           "package": "toysolver",
@@ -6864,6 +7376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.ObjType",
           "name": "ObjType",
           "package": "toysolver",
@@ -6872,6 +7385,7 @@
         },
         "index": {
           "hierarchy": "Converter ObjType",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.ObjType",
           "name": "ObjType",
           "package": "toysolver",
@@ -6954,6 +7468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.PB2LP",
           "name": "PB2LP",
           "package": "toysolver",
@@ -6962,6 +7477,7 @@
         },
         "index": {
           "hierarchy": "Converter PB2LP",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.PB2LP",
           "name": "PB2LP",
           "package": "toysolver",
@@ -6975,6 +7491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.PB2LP",
           "name": "convert",
           "package": "toysolver",
@@ -6984,6 +7501,7 @@
         },
         "index": {
           "hierarchy": "Converter PB2LP",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.PB2LP",
           "name": "convert",
           "normalized": "Formula-\u003e(LP,Map Var Rational-\u003eModel)",
@@ -6998,6 +7516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.PB2LP",
           "name": "convertWBO",
           "package": "toysolver",
@@ -7007,6 +7526,7 @@
         },
         "index": {
           "hierarchy": "Converter PB2LP",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.PB2LP",
           "name": "convertWBO",
           "normalized": "Bool-\u003eSoftFormula-\u003e(LP,Map Var Rational-\u003eModel)",
@@ -7022,6 +7542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.PB2LSP",
           "name": "PB2LSP",
           "package": "toysolver",
@@ -7030,6 +7551,7 @@
         },
         "index": {
           "hierarchy": "Converter PB2LSP",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.PB2LSP",
           "name": "PB2LSP",
           "package": "toysolver",
@@ -7043,6 +7565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.PB2LSP",
           "name": "convert",
           "package": "toysolver",
@@ -7052,6 +7575,7 @@
         },
         "index": {
           "hierarchy": "Converter PB2LSP",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.PB2LSP",
           "name": "convert",
           "normalized": "Formula-\u003eShowS",
@@ -7066,6 +7590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.PB2SMP",
           "name": "PB2SMP",
           "package": "toysolver",
@@ -7074,6 +7599,7 @@
         },
         "index": {
           "hierarchy": "Converter PB2SMP",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.PB2SMP",
           "name": "PB2SMP",
           "package": "toysolver",
@@ -7087,6 +7613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.PB2SMP",
           "name": "convert",
           "package": "toysolver",
@@ -7096,6 +7623,7 @@
         },
         "index": {
           "hierarchy": "Converter PB2SMP",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.PB2SMP",
           "name": "convert",
           "normalized": "Bool-\u003eFormula-\u003eShowS",
@@ -7111,6 +7639,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Improving Unsatisfiability-based Algorithms for Boolean Optimization\n   \u003ca\u003ehttp://sat.inesc-id.pt/~ruben/talks/sat10-talk.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.PB2WBO",
           "name": "PB2WBO",
           "package": "toysolver",
@@ -7120,6 +7649,7 @@
         "index": {
           "description": "References Improving Unsatisfiability-based Algorithms for Boolean Optimization http sat.inesc-id.pt ruben talks sat10-talk.pdf",
           "hierarchy": "Converter PB2WBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.PB2WBO",
           "name": "PB2WBO",
           "package": "toysolver",
@@ -7133,6 +7663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.PB2WBO",
           "name": "convert",
           "package": "toysolver",
@@ -7142,6 +7673,7 @@
         },
         "index": {
           "hierarchy": "Converter PB2WBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.PB2WBO",
           "name": "convert",
           "normalized": "Formula-\u003eSoftFormula",
@@ -7156,6 +7688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.PBSetObj",
           "name": "PBSetObj",
           "package": "toysolver",
@@ -7164,6 +7697,7 @@
         },
         "index": {
           "hierarchy": "Converter PBSetObj",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.PBSetObj",
           "name": "PBSetObj",
           "package": "toysolver",
@@ -7177,6 +7711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.PBSetObj",
           "name": "ObjType",
           "package": "toysolver",
@@ -7185,6 +7720,7 @@
         },
         "index": {
           "hierarchy": "Converter PBSetObj",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.PBSetObj",
           "name": "ObjType",
           "package": "toysolver",
@@ -7198,6 +7734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.PBSetObj",
           "name": "setObj",
           "package": "toysolver",
@@ -7207,6 +7744,7 @@
         },
         "index": {
           "hierarchy": "Converter PBSetObj",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.PBSetObj",
           "name": "setObj",
           "normalized": "ObjType-\u003eFormula-\u003eFormula",
@@ -7222,6 +7760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.SAT2LP",
           "name": "SAT2LP",
           "package": "toysolver",
@@ -7230,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Converter SAT2LP",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.SAT2LP",
           "name": "SAT2LP",
           "package": "toysolver",
@@ -7243,6 +7783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.SAT2LP",
           "name": "convert",
           "package": "toysolver",
@@ -7252,6 +7793,7 @@
         },
         "index": {
           "hierarchy": "Converter SAT2LP",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.SAT2LP",
           "name": "convert",
           "normalized": "CNF-\u003e(LP,Map Var Rational-\u003eModel)",
@@ -7266,6 +7808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.SAT2PB",
           "name": "SAT2PB",
           "package": "toysolver",
@@ -7274,6 +7817,7 @@
         },
         "index": {
           "hierarchy": "Converter SAT2PB",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.SAT2PB",
           "name": "SAT2PB",
           "package": "toysolver",
@@ -7287,6 +7831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.SAT2PB",
           "name": "convert",
           "package": "toysolver",
@@ -7296,6 +7841,7 @@
         },
         "index": {
           "hierarchy": "Converter SAT2PB",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.SAT2PB",
           "name": "convert",
           "normalized": "CNF-\u003eFormula",
@@ -7310,6 +7856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.WBO2PB",
           "name": "WBO2PB",
           "package": "toysolver",
@@ -7318,6 +7865,7 @@
         },
         "index": {
           "hierarchy": "Converter WBO2PB",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.WBO2PB",
           "name": "WBO2PB",
           "package": "toysolver",
@@ -7331,6 +7879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Converter.WBO2PB",
           "name": "convert",
           "package": "toysolver",
@@ -7340,6 +7889,7 @@
         },
         "index": {
           "hierarchy": "Converter WBO2PB",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Converter.WBO2PB",
           "name": "convert",
           "normalized": "SoftFormula-\u003e(Formula,Model-\u003eModel)",
@@ -7355,6 +7905,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlgebraic reals\n\u003c/p\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Why the concept of a field extension is a natural one\n   \u003ca\u003ehttp://www.dpmms.cam.ac.uk/~wtg10/galois.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "Real",
           "package": "toysolver",
@@ -7364,6 +7915,7 @@
         "index": {
           "description": "Algebraic reals Reference Why the concept of field extension is natural one http www.dpmms.cam.ac.uk wtg10 galois.html",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "Real",
           "package": "toysolver",
@@ -7378,6 +7930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlgebraic real numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "AReal",
           "package": "toysolver",
@@ -7387,6 +7940,7 @@
         "index": {
           "description": "Algebraic real numbers",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "AReal",
           "package": "toysolver",
@@ -7401,6 +7955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns approximate rational value such that \u003ccode\u003eabs (a - approx a epsilon) \u003c= epsilon\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "approx",
           "package": "toysolver",
@@ -7410,6 +7965,7 @@
         "index": {
           "description": "Returns approximate rational value such that abs approx epsilon epsilon",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "approx",
           "normalized": "AReal-\u003eRational-\u003eRational",
@@ -7425,6 +7981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns approximate interval such that \u003ccode\u003ewidth (approxInterval a epsilon) \u003c= epsilon\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "approxInterval",
           "package": "toysolver",
@@ -7434,6 +7991,7 @@
         "index": {
           "description": "Returns approximate interval such that width approxInterval epsilon epsilon",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "approxInterval",
           "normalized": "AReal-\u003eRational-\u003eInterval Rational",
@@ -7450,6 +8008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGolden ratio \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "goldenRatio",
           "package": "toysolver",
@@ -7460,6 +8019,7 @@
         "index": {
           "description": "Golden ratio",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "goldenRatio",
           "package": "toysolver",
@@ -7474,6 +8034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeight of the algebraic number.\n\u003c/p\u003e\u003cp\u003eThe height of an algebraic number is the greatest absolute value of the\n coefficients of the irreducible and primitive polynomial with integral\n rational coefficients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "height",
           "package": "toysolver",
@@ -7484,6 +8045,7 @@
         "index": {
           "description": "Height of the algebraic number The height of an algebraic number is the greatest absolute value of the coefficients of the irreducible and primitive polynomial with integral rational coefficients",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "height",
           "normalized": "AReal-\u003eInteger",
@@ -7499,6 +8061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the algebraic number is a root of a polynomial with integer\n coefficients with leading coefficient \u003ccode\u003e1\u003c/code\u003e (a monic polynomial).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "isAlgebraicInteger",
           "package": "toysolver",
@@ -7509,6 +8072,7 @@
         "index": {
           "description": "Whether the algebraic number is root of polynomial with integer coefficients with leading coefficient monic polynomial",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "isAlgebraicInteger",
           "normalized": "AReal-\u003eBool",
@@ -7525,6 +8089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the algebraic number is a rational.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "isRational",
           "package": "toysolver",
@@ -7535,6 +8100,7 @@
         "index": {
           "description": "Whether the algebraic number is rational",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "isRational",
           "normalized": "AReal-\u003eBool",
@@ -7551,6 +8117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe polynomial of which the algebraic number is root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "minimalPolynomial",
           "package": "toysolver",
@@ -7561,6 +8128,7 @@
         "index": {
           "description": "The polynomial of which the algebraic number is root",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "minimalPolynomial",
           "normalized": "AReal-\u003eUPolynomial Rational",
@@ -7577,6 +8145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003en\u003c/code\u003eth root of \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "nthRoot",
           "package": "toysolver",
@@ -7587,6 +8156,7 @@
         "index": {
           "description": "The th root of",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "nthRoot",
           "normalized": "Integer-\u003eAReal-\u003eAReal",
@@ -7603,6 +8173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal roots of the polynomial in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "realRoots",
           "package": "toysolver",
@@ -7613,6 +8184,7 @@
         "index": {
           "description": "Real roots of the polynomial in ascending order",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "realRoots",
           "normalized": "UPolynomial Rational-\u003e[AReal]",
@@ -7629,6 +8201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal roots of the polynomial in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "realRootsEx",
           "package": "toysolver",
@@ -7639,6 +8212,7 @@
         "index": {
           "description": "Real roots of the polynomial in ascending order",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "realRootsEx",
           "normalized": "UPolynomial AReal-\u003e[AReal]",
@@ -7655,6 +8229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eroot index, satisfying\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003erealRoots\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eminimalPolynomial\u003c/a\u003e\u003c/code\u003e a) !! rootIndex a == a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "rootIndex",
           "package": "toysolver",
@@ -7665,6 +8240,7 @@
         "index": {
           "description": "root index satisfying realRoots minimalPolynomial rootIndex",
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "rootIndex",
           "normalized": "AReal-\u003eInt",
@@ -7680,6 +8256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Real",
           "name": "simpARealPoly",
           "package": "toysolver",
@@ -7689,6 +8266,7 @@
         },
         "index": {
           "hierarchy": "Data AlgebraicNumber Real",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Real",
           "name": "simpARealPoly",
           "normalized": "UPolynomial AReal-\u003eUPolynomial Rational",
@@ -7705,6 +8283,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManipulating polynomials for corresponding operations for algebraic numbers.\n\u003c/p\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.dpmms.cam.ac.uk/~wtg10/galois.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Root",
           "name": "Root",
           "package": "toysolver",
@@ -7714,6 +8293,7 @@
         "index": {
           "description": "Manipulating polynomials for corresponding operations for algebraic numbers Reference http www.dpmms.cam.ac.uk wtg10 galois.html",
           "hierarchy": "Data AlgebraicNumber Root",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Root",
           "name": "Root",
           "package": "toysolver",
@@ -7727,6 +8307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Root",
           "name": "Var",
           "package": "toysolver",
@@ -7735,6 +8316,7 @@
         },
         "index": {
           "hierarchy": "Data AlgebraicNumber Root",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Root",
           "name": "Var",
           "package": "toysolver",
@@ -7748,6 +8330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Root",
           "name": "findPoly",
           "package": "toysolver",
@@ -7757,6 +8340,7 @@
         },
         "index": {
           "hierarchy": "Data AlgebraicNumber Root",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Root",
           "name": "findPoly",
           "normalized": "Polynomial Rational Var-\u003e[Polynomial Rational Var]-\u003eUPolynomial Rational",
@@ -7772,6 +8356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Root",
           "name": "lift2",
           "package": "toysolver",
@@ -7781,6 +8366,7 @@
         },
         "index": {
           "hierarchy": "Data AlgebraicNumber Root",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Root",
           "name": "lift2",
           "normalized": "a-\u003ea-\u003ea)-\u003eUPolynomial Rational-\u003eUPolynomial Rational-\u003eUPolynomial Rational",
@@ -7795,6 +8381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Root",
           "name": "normalizePoly",
           "package": "toysolver",
@@ -7804,6 +8391,7 @@
         },
         "index": {
           "hierarchy": "Data AlgebraicNumber Root",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Root",
           "name": "normalizePoly",
           "normalized": "UPolynomial Rational-\u003eUPolynomial Rational",
@@ -7819,6 +8407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootAdd",
           "package": "toysolver",
@@ -7828,6 +8417,7 @@
         },
         "index": {
           "hierarchy": "Data AlgebraicNumber Root",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootAdd",
           "normalized": "UPolynomial Rational-\u003eUPolynomial Rational-\u003eUPolynomial Rational",
@@ -7843,6 +8433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootMul",
           "package": "toysolver",
@@ -7852,6 +8443,7 @@
         },
         "index": {
           "hierarchy": "Data AlgebraicNumber Root",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootMul",
           "normalized": "UPolynomial Rational-\u003eUPolynomial Rational-\u003eUPolynomial Rational",
@@ -7867,6 +8459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootNthRoot",
           "package": "toysolver",
@@ -7876,6 +8469,7 @@
         },
         "index": {
           "hierarchy": "Data AlgebraicNumber Root",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootNthRoot",
           "normalized": "Integer-\u003eUPolynomial Rational-\u003eUPolynomial Rational",
@@ -7891,6 +8485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootRecip",
           "package": "toysolver",
@@ -7900,6 +8495,7 @@
         },
         "index": {
           "hierarchy": "Data AlgebraicNumber Root",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootRecip",
           "normalized": "UPolynomial Rational-\u003eUPolynomial Rational",
@@ -7915,6 +8511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootScale",
           "package": "toysolver",
@@ -7924,6 +8521,7 @@
         },
         "index": {
           "hierarchy": "Data AlgebraicNumber Root",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootScale",
           "normalized": "Rational-\u003eUPolynomial Rational-\u003eUPolynomial Rational",
@@ -7939,6 +8537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootShift",
           "package": "toysolver",
@@ -7948,6 +8547,7 @@
         },
         "index": {
           "hierarchy": "Data AlgebraicNumber Root",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootShift",
           "normalized": "Rational-\u003eUPolynomial Rational-\u003eUPolynomial Rational",
@@ -7963,6 +8563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootSimpPoly",
           "package": "toysolver",
@@ -7972,6 +8573,7 @@
         },
         "index": {
           "hierarchy": "Data AlgebraicNumber Root",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.AlgebraicNumber.Root",
           "name": "rootSimpPoly",
           "normalized": "(a-\u003eUPolynomial Rational)-\u003eUPolynomial a-\u003eUPolynomial Rational",
@@ -7988,6 +8590,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArithmetic relations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.ArithRel",
           "name": "ArithRel",
           "package": "toysolver",
@@ -7997,6 +8600,7 @@
         "index": {
           "description": "Arithmetic relations",
           "hierarchy": "Data ArithRel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.ArithRel",
           "name": "ArithRel",
           "package": "toysolver",
@@ -8011,6 +8615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype class for constructing relational formula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.ArithRel",
           "name": "IsRel",
           "package": "toysolver",
@@ -8020,6 +8625,7 @@
         "index": {
           "description": "type class for constructing relational formula",
           "hierarchy": "Data ArithRel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.ArithRel",
           "name": "IsRel",
           "package": "toysolver",
@@ -8034,6 +8640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic formula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.ArithRel",
           "name": "Rel",
           "package": "toysolver",
@@ -8043,6 +8650,7 @@
         "index": {
           "description": "Atomic formula",
           "hierarchy": "Data ArithRel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.ArithRel",
           "name": "Rel",
           "package": "toysolver",
@@ -8057,6 +8665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelational operators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.ArithRel",
           "name": "RelOp",
           "package": "toysolver",
@@ -8066,6 +8675,7 @@
         "index": {
           "description": "relational operators",
           "hierarchy": "Data ArithRel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.ArithRel",
           "name": "RelOp",
           "package": "toysolver",
@@ -8080,6 +8690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstructing relational formula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.ArithRel",
           "name": "(./=.)",
           "package": "toysolver",
@@ -8090,6 +8701,7 @@
         "index": {
           "description": "constructing relational formula",
           "hierarchy": "Data ArithRel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.ArithRel",
           "name": "(./=.) ./=.",
           "normalized": "a-\u003ea-\u003eb",
@@ -8104,6 +8716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.ArithRel",
           "name": "Rel",
           "package": "toysolver",
@@ -8113,6 +8726,7 @@
         },
         "index": {
           "hierarchy": "Data ArithRel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.ArithRel",
           "name": "Rel",
           "package": "toysolver",
@@ -8127,6 +8741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluate an operator into a comparision function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.ArithRel",
           "name": "evalOp",
           "package": "toysolver",
@@ -8137,6 +8752,7 @@
         "index": {
           "description": "evaluate an operator into comparision function",
           "hierarchy": "Data ArithRel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.ArithRel",
           "name": "evalOp",
           "normalized": "RelOp-\u003ea-\u003ea-\u003eBool",
@@ -8153,6 +8769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflipping relational operator\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003erel (flipOp op) a b\u003c/code\u003e is equivalent to \u003ccode\u003erel op b a\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.ArithRel",
           "name": "flipOp",
           "package": "toysolver",
@@ -8163,6 +8780,7 @@
         "index": {
           "description": "flipping relational operator rel flipOp op is equivalent to rel op",
           "hierarchy": "Data ArithRel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.ArithRel",
           "name": "flipOp",
           "normalized": "RelOp-\u003eRelOp",
@@ -8179,6 +8797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enegating relational operator\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003erel (negOp op) a b\u003c/code\u003e is equivalent to \u003ccode\u003enotB (rel op a b)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.ArithRel",
           "name": "negOp",
           "package": "toysolver",
@@ -8189,6 +8808,7 @@
         "index": {
           "description": "negating relational operator rel negOp op is equivalent to notB rel op",
           "hierarchy": "Data ArithRel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.ArithRel",
           "name": "negOp",
           "normalized": "RelOp-\u003eRelOp",
@@ -8204,6 +8824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.ArithRel",
           "name": "rel",
           "package": "toysolver",
@@ -8213,6 +8834,7 @@
         },
         "index": {
           "hierarchy": "Data ArithRel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.ArithRel",
           "name": "rel",
           "normalized": "RelOp-\u003ea-\u003ea-\u003eb",
@@ -8228,6 +8850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoperator symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.ArithRel",
           "name": "showOp",
           "package": "toysolver",
@@ -8238,6 +8861,7 @@
         "index": {
           "description": "operator symbol",
           "hierarchy": "Data ArithRel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.ArithRel",
           "name": "showOp",
           "normalized": "RelOp-\u003eString",
@@ -8254,6 +8878,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisjunctive Normal Form\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.DNF",
           "name": "DNF",
           "package": "toysolver",
@@ -8263,6 +8888,7 @@
         "index": {
           "description": "Disjunctive Normal Form",
           "hierarchy": "Data DNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.DNF",
           "name": "DNF",
           "package": "toysolver",
@@ -8277,6 +8903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunctive normal form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.DNF",
           "name": "DNF",
           "package": "toysolver",
@@ -8286,6 +8913,7 @@
         "index": {
           "description": "Disjunctive normal form",
           "hierarchy": "Data DNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.DNF",
           "name": "DNF",
           "package": "toysolver",
@@ -8299,6 +8927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.DNF",
           "name": "DNF",
           "package": "toysolver",
@@ -8308,6 +8937,7 @@
         },
         "index": {
           "hierarchy": "Data DNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.DNF",
           "name": "DNF",
           "package": "toysolver",
@@ -8322,6 +8952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of conjunction of literals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.DNF",
           "name": "unDNF",
           "package": "toysolver",
@@ -8332,6 +8963,7 @@
         "index": {
           "description": "list of conjunction of literals",
           "hierarchy": "Data DNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.DNF",
           "name": "unDNF",
           "normalized": "[[a]]",
@@ -8348,6 +8980,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAugmenting number types with infinitesimal parameter &#948;.\n\u003c/p\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Bruno Dutertre and Leonardo de Moura,\n   \"\u003cem\u003eA Fast Linear-Arithmetic Solver for DPLL(T)\u003c/em\u003e\",\n   Computer Aided Verification In Computer Aided Verification, Vol. 4144\n   (2006), pp. 81-94.\n   \u003ca\u003ehttp://dx.doi.org/10.1007/11817963_11\u003c/a\u003e\n   \u003ca\u003ehttp://yices.csl.sri.com/cav06.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Delta",
           "name": "Delta",
           "package": "toysolver",
@@ -8357,6 +8990,7 @@
         "index": {
           "description": "Augmenting number types with infinitesimal parameter Reference Bruno Dutertre and Leonardo de Moura Fast Linear-Arithmetic Solver for DPLL Computer Aided Verification In Computer Aided Verification Vol pp http dx.doi.org http yices.csl.sri.com cav06.pdf",
           "hierarchy": "Data Delta",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Delta",
           "name": "Delta",
           "package": "toysolver",
@@ -8371,6 +9005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eDelta r k\u003c/code\u003e represents r + k&#948; for symbolic infinitesimal parameter &#948;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Delta",
           "name": "Delta",
           "package": "toysolver",
@@ -8380,6 +9015,7 @@
         "index": {
           "description": "Delta represents for symbolic infinitesimal parameter",
           "hierarchy": "Data Delta",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Delta",
           "name": "Delta",
           "package": "toysolver",
@@ -8393,6 +9029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Delta",
           "name": "Delta",
           "package": "toysolver",
@@ -8402,6 +9039,7 @@
         },
         "index": {
           "hierarchy": "Data Delta",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Delta",
           "name": "Delta",
           "package": "toysolver",
@@ -8416,6 +9054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDelta\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003eceiling\u003c/a\u003e\u003c/code\u003e.\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eceiling'\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e returns the least integer not less than \u003ccode\u003ex\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Delta",
           "name": "ceiling'",
           "package": "toysolver",
@@ -8426,6 +9065,7 @@
         "index": {
           "description": "Delta version of ceiling ceiling returns the least integer not less than",
           "hierarchy": "Data Delta",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Delta",
           "name": "ceiling'",
           "normalized": "Delta a-\u003eb",
@@ -8441,6 +9081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymbolic infinitesimal parameter &#948;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Delta",
           "name": "delta",
           "package": "toysolver",
@@ -8451,6 +9092,7 @@
         "index": {
           "description": "symbolic infinitesimal parameter",
           "hierarchy": "Data Delta",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Delta",
           "name": "delta",
           "package": "toysolver",
@@ -8464,6 +9106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the &#948; part..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Delta",
           "name": "deltaPart",
           "package": "toysolver",
@@ -8474,6 +9117,7 @@
         "index": {
           "description": "Extracts the part",
           "hierarchy": "Data Delta",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Delta",
           "name": "deltaPart",
           "normalized": "Delta a-\u003ea",
@@ -8490,6 +9134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDelta\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003efloor\u003c/a\u003e\u003c/code\u003e.\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003efloor'\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e returns the greatest integer not greater than \u003ccode\u003ex\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Delta",
           "name": "floor'",
           "package": "toysolver",
@@ -8500,6 +9145,7 @@
         "index": {
           "description": "Delta version of floor floor returns the greatest integer not greater than",
           "hierarchy": "Data Delta",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Delta",
           "name": "floor'",
           "normalized": "Delta a-\u003eb",
@@ -8515,6 +9161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from a base \u003ccode\u003er\u003c/code\u003e value to \u003ccode\u003eDelta r\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Delta",
           "name": "fromReal",
           "package": "toysolver",
@@ -8525,6 +9172,7 @@
         "index": {
           "description": "Conversion from base value to Delta",
           "hierarchy": "Data Delta",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Delta",
           "name": "fromReal",
           "normalized": "a-\u003eDelta a",
@@ -8541,6 +9189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this a integer?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Delta",
           "name": "isInteger'",
           "package": "toysolver",
@@ -8551,6 +9200,7 @@
         "index": {
           "description": "Is this integer",
           "hierarchy": "Data Delta",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Delta",
           "name": "isInteger'",
           "normalized": "Delta a-\u003eBool",
@@ -8567,6 +9217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the real part..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Delta",
           "name": "realPart",
           "package": "toysolver",
@@ -8577,6 +9228,7 @@
         "index": {
           "description": "Extracts the real part",
           "hierarchy": "Data Delta",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Delta",
           "name": "realPart",
           "normalized": "Delta a-\u003ea",
@@ -8593,6 +9245,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArithmetic language (not limited to linear ones).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": "Arith",
           "package": "toysolver",
@@ -8602,6 +9255,7 @@
         "index": {
           "description": "Arithmetic language not limited to linear ones",
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": "Arith",
           "package": "toysolver",
@@ -8616,6 +9270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic formula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": "Atom",
           "package": "toysolver",
@@ -8625,6 +9280,7 @@
         "index": {
           "description": "Atomic formula",
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": "Atom",
           "package": "toysolver",
@@ -8639,6 +9295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArithmetic expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": "Expr",
           "package": "toysolver",
@@ -8648,6 +9305,7 @@
         "index": {
           "description": "Arithmetic expressions",
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": "Expr",
           "package": "toysolver",
@@ -8662,6 +9320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresults of satisfiability checking\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": "SatResult",
           "package": "toysolver",
@@ -8671,6 +9330,7 @@
         "index": {
           "description": "results of satisfiability checking",
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": "SatResult",
           "package": "toysolver",
@@ -8684,6 +9344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": ":*:",
           "package": "toysolver",
@@ -8693,6 +9354,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": ":*:",
           "package": "toysolver",
@@ -8705,6 +9367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": ":+:",
           "package": "toysolver",
@@ -8714,6 +9377,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": ":+:",
           "package": "toysolver",
@@ -8726,6 +9390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": ":/:",
           "package": "toysolver",
@@ -8735,6 +9400,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": ":/:",
           "package": "toysolver",
@@ -8747,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": "Const",
           "package": "toysolver",
@@ -8756,6 +9423,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": "Const",
           "package": "toysolver",
@@ -8769,6 +9437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": "Sat",
           "package": "toysolver",
@@ -8778,6 +9447,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": "Sat",
           "package": "toysolver",
@@ -8791,6 +9461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": "Unknown",
           "package": "toysolver",
@@ -8800,6 +9471,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": "Unknown",
           "package": "toysolver",
@@ -8813,6 +9485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": "Unsat",
           "package": "toysolver",
@@ -8822,6 +9495,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": "Unsat",
           "package": "toysolver",
@@ -8835,6 +9509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": "Var",
           "package": "toysolver",
@@ -8844,6 +9519,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": "Var",
           "package": "toysolver",
@@ -8857,6 +9533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": "evalAtom",
           "package": "toysolver",
@@ -8866,6 +9543,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": "evalAtom",
           "normalized": "Model a-\u003eAtom a-\u003eBool",
@@ -8882,6 +9560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluate an \u003ccode\u003e\u003ca\u003eExpr\u003c/a\u003e\u003c/code\u003e with respect to a \u003ccode\u003e\u003ca\u003eModel\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": "evalExpr",
           "package": "toysolver",
@@ -8892,6 +9571,7 @@
         "index": {
           "description": "evaluate an Expr with respect to Model",
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": "evalExpr",
           "normalized": "Model a-\u003eExpr a-\u003ea",
@@ -8908,6 +9588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esingle variable expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Arith",
           "name": "var",
           "package": "toysolver",
@@ -8918,6 +9599,7 @@
         "index": {
           "description": "single variable expression",
           "hierarchy": "Data FOL Arith",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Arith",
           "name": "var",
           "normalized": "Var-\u003eExpr a",
@@ -8933,6 +9615,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormula of first order logic.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "Formula",
           "package": "toysolver",
@@ -8942,6 +9625,7 @@
         "index": {
           "description": "Formula of first order logic",
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "Formula",
           "package": "toysolver",
@@ -8956,6 +9640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformulas of first order logic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "Formula",
           "package": "toysolver",
@@ -8965,6 +9650,7 @@
         "index": {
           "description": "formulas of first order logic",
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "Formula",
           "package": "toysolver",
@@ -8978,6 +9664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "And",
           "package": "toysolver",
@@ -8987,6 +9674,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "And",
           "package": "toysolver",
@@ -9000,6 +9688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "Atom",
           "package": "toysolver",
@@ -9009,6 +9698,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "Atom",
           "package": "toysolver",
@@ -9022,6 +9712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "Equiv",
           "package": "toysolver",
@@ -9031,6 +9722,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "Equiv",
           "package": "toysolver",
@@ -9044,6 +9736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "Exists",
           "package": "toysolver",
@@ -9053,6 +9746,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "Exists",
           "package": "toysolver",
@@ -9066,6 +9760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "F",
           "package": "toysolver",
@@ -9075,6 +9770,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "F",
           "package": "toysolver",
@@ -9087,6 +9783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "Forall",
           "package": "toysolver",
@@ -9096,6 +9793,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "Forall",
           "package": "toysolver",
@@ -9109,6 +9807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "Imply",
           "package": "toysolver",
@@ -9118,6 +9817,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "Imply",
           "package": "toysolver",
@@ -9131,6 +9831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "Not",
           "package": "toysolver",
@@ -9140,6 +9841,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "Not",
           "package": "toysolver",
@@ -9153,6 +9855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "Or",
           "package": "toysolver",
@@ -9162,6 +9865,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "Or",
           "package": "toysolver",
@@ -9175,6 +9879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "T",
           "package": "toysolver",
@@ -9184,6 +9889,7 @@
         },
         "index": {
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "T",
           "package": "toysolver",
@@ -9197,6 +9903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a formula into negation normal form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.FOL.Formula",
           "name": "pushNot",
           "package": "toysolver",
@@ -9207,6 +9914,7 @@
         "index": {
           "description": "convert formula into negation normal form",
           "hierarchy": "Data FOL Formula",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.FOL.Formula",
           "name": "pushNot",
           "normalized": "Formula a-\u003eFormula a",
@@ -9222,6 +9930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA.FOL",
           "name": "FOL",
           "package": "toysolver",
@@ -9230,6 +9939,7 @@
         },
         "index": {
           "hierarchy": "Data LA FOL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA.FOL",
           "name": "FOL",
           "package": "toysolver",
@@ -9243,6 +9953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA.FOL",
           "name": "fromFOLAtom",
           "package": "toysolver",
@@ -9252,6 +9963,7 @@
         },
         "index": {
           "hierarchy": "Data LA FOL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA.FOL",
           "name": "fromFOLAtom",
           "normalized": "Atom a-\u003eMaybe(Atom a)",
@@ -9267,6 +9979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA.FOL",
           "name": "fromFOLExpr",
           "package": "toysolver",
@@ -9276,6 +9989,7 @@
         },
         "index": {
           "hierarchy": "Data LA FOL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA.FOL",
           "name": "fromFOLExpr",
           "normalized": "Expr a-\u003eMaybe(Expr a)",
@@ -9291,6 +10005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA.FOL",
           "name": "toFOLExpr",
           "package": "toysolver",
@@ -9300,6 +10015,7 @@
         },
         "index": {
           "hierarchy": "Data LA FOL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA.FOL",
           "name": "toFOLExpr",
           "normalized": "Expr a-\u003eExpr a",
@@ -9315,6 +10031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA.FOL",
           "name": "toFOLFormula",
           "package": "toysolver",
@@ -9324,6 +10041,7 @@
         },
         "index": {
           "hierarchy": "Data LA FOL",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA.FOL",
           "name": "toFOLFormula",
           "normalized": "Atom a-\u003eFormula(Atom a)",
@@ -9340,6 +10058,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome definition for Theory of Linear Arithmetics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "LA",
           "package": "toysolver",
@@ -9349,6 +10068,7 @@
         "index": {
           "description": "Some definition for Theory of Linear Arithmetics",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "LA",
           "package": "toysolver",
@@ -9363,6 +10083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic Formula of Linear Arithmetics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "Atom",
           "package": "toysolver",
@@ -9372,6 +10093,7 @@
         "index": {
           "description": "Atomic Formula of Linear Arithmetics",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "Atom",
           "package": "toysolver",
@@ -9385,6 +10107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "BoundsEnv",
           "package": "toysolver",
@@ -9393,6 +10116,7 @@
         },
         "index": {
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "BoundsEnv",
           "package": "toysolver",
@@ -9407,6 +10131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear combination of variables and constants.\n Non-negative keys are used for variables's coefficients.\n key \u003ccode\u003e\u003ca\u003eunitVar\u003c/a\u003e\u003c/code\u003e is used for constants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "Expr",
           "package": "toysolver",
@@ -9416,6 +10141,7 @@
         "index": {
           "description": "Linear combination of variables and constants Non-negative keys are used for variables coefficients key unitVar is used for constants",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "Expr",
           "package": "toysolver",
@@ -9429,6 +10155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "applySubst",
           "package": "toysolver",
@@ -9438,6 +10165,7 @@
         },
         "index": {
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "applySubst",
           "normalized": "VarMap(Expr a)-\u003eExpr a-\u003eExpr a",
@@ -9454,6 +10182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplySubst1 x e e1 == e1[e/x]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "applySubst1",
           "package": "toysolver",
@@ -9464,6 +10193,7 @@
         "index": {
           "description": "applySubst1 e1 e1",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "applySubst1",
           "normalized": "Var-\u003eExpr a-\u003eExpr a-\u003eExpr a",
@@ -9479,6 +10209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "asConst",
           "package": "toysolver",
@@ -9488,6 +10219,7 @@
         },
         "index": {
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "asConst",
           "normalized": "Expr a-\u003eMaybe a",
@@ -9504,6 +10236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elookup a coefficient of the variable.\n \u003ccode\u003e\n   coeff v e == fst (extract v e)\n \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "coeff",
           "package": "toysolver",
@@ -9514,6 +10247,7 @@
         "index": {
           "description": "lookup coefficient of the variable coeff fst extract",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "coeff",
           "normalized": "Var-\u003eExpr a-\u003ea",
@@ -9529,6 +10263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea mapping from variables to coefficients\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "coeffMap",
           "package": "toysolver",
@@ -9539,6 +10274,7 @@
         "index": {
           "description": "mapping from variables to coefficients",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "coeffMap",
           "normalized": "Expr a-\u003eIntMap a",
@@ -9555,6 +10291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "constant",
           "package": "toysolver",
@@ -9565,6 +10302,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "constant",
           "normalized": "a-\u003eExpr a",
@@ -9580,6 +10318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluate the formula under the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "evalAtom",
           "package": "toysolver",
@@ -9590,6 +10329,7 @@
         "index": {
           "description": "evaluate the formula under the model",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "evalAtom",
           "normalized": "Model a-\u003eAtom a-\u003eBool",
@@ -9606,6 +10346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluate the expression under the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "evalExpr",
           "package": "toysolver",
@@ -9616,6 +10357,7 @@
         "index": {
           "description": "evaluate the expression under the model",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "evalExpr",
           "normalized": "Model a-\u003eExpr a-\u003ea",
@@ -9632,6 +10374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluate the expression under the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "evalLinear",
           "package": "toysolver",
@@ -9642,6 +10385,7 @@
         "index": {
           "description": "evaluate the expression under the model",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "evalLinear",
           "normalized": "Model a-\u003ea-\u003eExpr(Scalar a)-\u003ea",
@@ -9658,6 +10402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eextract v e\u003c/code\u003e returns \u003ccode\u003e(c, e')\u003c/code\u003e such that \u003ccode\u003ee == c *^ v ^+^ e'\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "extract",
           "package": "toysolver",
@@ -9668,6 +10413,7 @@
         "index": {
           "description": "extract returns such that",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "extract",
           "normalized": "Var-\u003eExpr a-\u003e(a,Expr a)",
@@ -9683,6 +10429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eextractMaybe v e\u003c/code\u003e returns \u003ccode\u003eJust (c, e')\u003c/code\u003e such that \u003ccode\u003ee == c *^ v ^+^ e'\u003c/code\u003e\n if \u003ccode\u003ee\u003c/code\u003e contains v, and returns \u003ccode\u003eNothing\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "extractMaybe",
           "package": "toysolver",
@@ -9693,6 +10440,7 @@
         "index": {
           "description": "extractMaybe returns Just such that if contains and returns Nothing otherwise",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "extractMaybe",
           "normalized": "Var-\u003eExpr a-\u003eMaybe(a,Expr a)",
@@ -9709,6 +10457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003eExpr\u003c/code\u003e from a mapping from variables to coefficients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "fromCoeffMap",
           "package": "toysolver",
@@ -9719,6 +10468,7 @@
         "index": {
           "description": "Create Expr from mapping from variables to coefficients",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "fromCoeffMap",
           "normalized": "IntMap a-\u003eExpr a",
@@ -9735,6 +10485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003eExpr\u003c/code\u003e from a list of terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "fromTerms",
           "package": "toysolver",
@@ -9745,6 +10496,7 @@
         "index": {
           "description": "Create Expr from list of terms",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "fromTerms",
           "normalized": "[(a,Var)]-\u003eExpr a",
@@ -9760,6 +10512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "lift1",
           "package": "toysolver",
@@ -9769,6 +10522,7 @@
         },
         "index": {
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "lift1",
           "normalized": "a-\u003e(Var-\u003ea)-\u003eExpr(Scalar a)-\u003ea",
@@ -9784,6 +10538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elookup a coefficient of the variable.\n It returns \u003ccode\u003eNothing\u003c/code\u003e if the expression does not contain \u003ccode\u003ev\u003c/code\u003e.\n \u003ccode\u003e\n   lookupCoeff v e == fmap fst (extractMaybe v e)\n \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "lookupCoeff",
           "package": "toysolver",
@@ -9794,6 +10549,7 @@
         "index": {
           "description": "lookup coefficient of the variable It returns Nothing if the expression does not contain lookupCoeff fmap fst extractMaybe",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "lookupCoeff",
           "normalized": "Var-\u003eExpr a-\u003eMaybe a",
@@ -9810,6 +10566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emap coefficients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "mapCoeff",
           "package": "toysolver",
@@ -9820,6 +10577,7 @@
         "index": {
           "description": "map coefficients",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "mapCoeff",
           "normalized": "(a-\u003eb)-\u003eExpr a-\u003eExpr b",
@@ -9836,6 +10594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emap coefficients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "mapCoeffWithVar",
           "package": "toysolver",
@@ -9846,6 +10605,7 @@
         "index": {
           "description": "map coefficients",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "mapCoeffWithVar",
           "normalized": "(a-\u003eVar-\u003eb)-\u003eExpr a-\u003eExpr b",
@@ -9861,6 +10621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "showAtom",
           "package": "toysolver",
@@ -9870,6 +10631,7 @@
         },
         "index": {
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "showAtom",
           "normalized": "Atom a-\u003eString",
@@ -9885,6 +10647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "showExpr",
           "package": "toysolver",
@@ -9894,6 +10657,7 @@
         },
         "index": {
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "showExpr",
           "normalized": "Expr a-\u003eString",
@@ -9910,6 +10674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve linear (in)equation for the given variable.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003esolveFor a v\u003c/code\u003e returns \u003ccode\u003eJust (op, e)\u003c/code\u003e such that \u003ccode\u003eAtom v op e\u003c/code\u003e\n is equivalent to \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "solveFor",
           "package": "toysolver",
@@ -9920,6 +10685,7 @@
         "index": {
           "description": "Solve linear in equation for the given variable solveFor returns Just op such that Atom op is equivalent to",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "solveFor",
           "normalized": "Atom a-\u003eVar-\u003eMaybe(RelOp,Expr a)",
@@ -9936,6 +10702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eterms contained in the expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "terms",
           "package": "toysolver",
@@ -9946,6 +10713,7 @@
         "index": {
           "description": "terms contained in the expression",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "terms",
           "normalized": "Expr a-\u003e[(a,Var)]",
@@ -9961,6 +10729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial variable that should always be evaluated to 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "unitVar",
           "package": "toysolver",
@@ -9971,6 +10740,7 @@
         "index": {
           "description": "Special variable that should always be evaluated to",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "unitVar",
           "package": "toysolver",
@@ -9985,6 +10755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LA",
           "name": "var",
           "package": "toysolver",
@@ -9995,6 +10766,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Data LA",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LA",
           "name": "var",
           "normalized": "Var-\u003eExpr a",
@@ -10010,6 +10782,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLifted boolean type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LBool",
           "name": "LBool",
           "package": "toysolver",
@@ -10019,6 +10792,7 @@
         "index": {
           "description": "Lifted boolean type",
           "hierarchy": "Data LBool",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LBool",
           "name": "LBool",
           "package": "toysolver",
@@ -10033,6 +10807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted Bool type. It has three values \u003ccode\u003e\u003ca\u003elTrue\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elFalse\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elUndef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LBool",
           "name": "LBool",
           "package": "toysolver",
@@ -10042,6 +10817,7 @@
         "index": {
           "description": "Lifted Bool type It has three values lTrue lFalse lUndef",
           "hierarchy": "Data LBool",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LBool",
           "name": "LBool",
           "package": "toysolver",
@@ -10056,6 +10832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elifted false value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LBool",
           "name": "lFalse",
           "package": "toysolver",
@@ -10066,6 +10843,7 @@
         "index": {
           "description": "lifted false value",
           "hierarchy": "Data LBool",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LBool",
           "name": "lFalse",
           "package": "toysolver",
@@ -10080,6 +10858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elifted true value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LBool",
           "name": "lTrue",
           "package": "toysolver",
@@ -10090,6 +10869,7 @@
         "index": {
           "description": "lifted true value",
           "hierarchy": "Data LBool",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LBool",
           "name": "lTrue",
           "package": "toysolver",
@@ -10104,6 +10884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eundefined truth value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LBool",
           "name": "lUndef",
           "package": "toysolver",
@@ -10114,6 +10895,7 @@
         "index": {
           "description": "undefined truth value",
           "hierarchy": "Data LBool",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LBool",
           "name": "lUndef",
           "package": "toysolver",
@@ -10128,6 +10910,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n   liftBool True == lTrue\n   liftBool False == lFalse\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LBool",
           "name": "liftBool",
           "package": "toysolver",
@@ -10138,6 +10921,7 @@
         "index": {
           "description": "liftBool True lTrue liftBool False lFalse",
           "hierarchy": "Data LBool",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LBool",
           "name": "liftBool",
           "normalized": "Bool-\u003eLBool",
@@ -10154,6 +10938,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n   lnot lTrue == lFalse\n   lnot lFalse == lTrue\n   lnot lUndef == lUndef\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LBool",
           "name": "lnot",
           "package": "toysolver",
@@ -10164,6 +10949,7 @@
         "index": {
           "description": "lnot lTrue lFalse lnot lFalse lTrue lnot lUndef lUndef",
           "hierarchy": "Data LBool",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LBool",
           "name": "lnot",
           "normalized": "LBool-\u003eLBool",
@@ -10179,6 +10965,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n   unliftBool lTrue == Just True\n   unliftBool lFalse == Just False\n   unliftBool lUndef == Nothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.LBool",
           "name": "unliftBool",
           "package": "toysolver",
@@ -10189,6 +10976,7 @@
         "index": {
           "description": "unliftBool lTrue Just True unliftBool lFalse Just False unliftBool lUndef Nothing",
           "hierarchy": "Data LBool",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.LBool",
           "name": "unliftBool",
           "normalized": "LBool-\u003eMaybe Bool",
@@ -10205,6 +10993,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFactoriation of polynomial over a finite field.\n\u003c/p\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://en.wikipedia.org/wiki/Factorization_of_polynomials_over_a_finite_field_and_irreducibility_tests\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://en.wikipedia.org/wiki/Berlekamp%27s_algorithm\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Martin Kreuzer and Lorenzo Robbiano. Computational Commutative Algebra 1. Springer Verlag, 2000.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.FiniteField",
           "name": "FiniteField",
           "package": "toysolver",
@@ -10214,6 +11003,7 @@
         "index": {
           "description": "Factoriation of polynomial over finite field References http en.wikipedia.org wiki Factorization of polynomials over finite field and irreducibility tests http en.wikipedia.org wiki Berlekamp algorithm Martin Kreuzer and Lorenzo Robbiano Computational Commutative Algebra Springer Verlag",
           "hierarchy": "Data Polynomial Factorization FiniteField",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.FiniteField",
           "name": "FiniteField",
           "package": "toysolver",
@@ -10227,6 +11017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.FiniteField",
           "name": "basisOfBerlekampSubalgebra",
           "package": "toysolver",
@@ -10236,6 +11027,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial Factorization FiniteField",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.FiniteField",
           "name": "basisOfBerlekampSubalgebra",
           "normalized": "UPolynomial a-\u003e[UPolynomial a]",
@@ -10252,6 +11044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBerlekamp algorithm for polynomial factorization.\n\u003c/p\u003e\u003cp\u003eInput polynomial is assumed to be monic and square-free.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.FiniteField",
           "name": "berlekamp",
           "package": "toysolver",
@@ -10262,6 +11055,7 @@
         "index": {
           "description": "Berlekamp algorithm for polynomial factorization Input polynomial is assumed to be monic and square-free",
           "hierarchy": "Data Polynomial Factorization FiniteField",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.FiniteField",
           "name": "berlekamp",
           "normalized": "UPolynomial a-\u003e[UPolynomial a]",
@@ -10276,6 +11070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.FiniteField",
           "name": "factor",
           "package": "toysolver",
@@ -10285,6 +11080,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial Factorization FiniteField",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.FiniteField",
           "name": "factor",
           "normalized": "UPolynomial a-\u003e[(UPolynomial a,Integer)]",
@@ -10300,6 +11096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquare-free decomposition of univariate polynomials over a finite field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.FiniteField",
           "name": "sqfree",
           "package": "toysolver",
@@ -10310,6 +11107,7 @@
         "index": {
           "description": "Square-free decomposition of univariate polynomials over finite field",
           "hierarchy": "Data Polynomial Factorization FiniteField",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.FiniteField",
           "name": "sqfree",
           "normalized": "UPolynomial a-\u003e[(UPolynomial a,Integer)]",
@@ -10325,6 +11123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.math.kobe-u.ac.jp/Asir/ca.pdf\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www14.in.tum.de/konferenzen/Jass07/courses/1/Bulwahn/Buhlwahn_Paper.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.Hensel",
           "name": "Hensel",
           "package": "toysolver",
@@ -10334,6 +11133,7 @@
         "index": {
           "description": "References http www.math.kobe-u.ac.jp Asir ca.pdf http www14.in.tum.de konferenzen Jass07 courses Bulwahn Buhlwahn Paper.pdf",
           "hierarchy": "Data Polynomial Factorization Hensel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.Hensel",
           "name": "Hensel",
           "package": "toysolver",
@@ -10347,6 +11147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.Hensel",
           "name": "hensel",
           "package": "toysolver",
@@ -10356,6 +11157,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial Factorization Hensel",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.Hensel",
           "name": "hensel",
           "normalized": "UPolynomial Integer-\u003e[UPolynomial(PrimeField a)]-\u003eInteger-\u003e[UPolynomial Integer]",
@@ -10370,6 +11172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.Integer",
           "name": "Integer",
           "package": "toysolver",
@@ -10378,6 +11181,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial Factorization Integer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.Integer",
           "name": "Integer",
           "package": "toysolver",
@@ -10392,6 +11196,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFactoriation of integer-coefficient polynomial using Kronecker's method.\n\u003c/p\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://en.wikipedia.org/wiki/Polynomial_factorization\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.Kronecker",
           "name": "Kronecker",
           "package": "toysolver",
@@ -10401,6 +11206,7 @@
         "index": {
           "description": "Factoriation of integer-coefficient polynomial using Kronecker method References http en.wikipedia.org wiki Polynomial factorization",
           "hierarchy": "Data Polynomial Factorization Kronecker",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.Kronecker",
           "name": "Kronecker",
           "package": "toysolver",
@@ -10414,6 +11220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.Kronecker",
           "name": "factor",
           "package": "toysolver",
@@ -10423,6 +11230,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial Factorization Kronecker",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.Kronecker",
           "name": "factor",
           "normalized": "UPolynomial Integer-\u003e[(UPolynomial Integer,Integer)]",
@@ -10437,6 +11245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.Rational",
           "name": "Rational",
           "package": "toysolver",
@@ -10445,6 +11254,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial Factorization Rational",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.Rational",
           "name": "Rational",
           "package": "toysolver",
@@ -10459,6 +11269,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.math.kobe-u.ac.jp/Asir/ca.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.SquareFree",
           "name": "SquareFree",
           "package": "toysolver",
@@ -10468,6 +11279,7 @@
         "index": {
           "description": "References http www.math.kobe-u.ac.jp Asir ca.pdf",
           "hierarchy": "Data Polynomial Factorization SquareFree",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.SquareFree",
           "name": "SquareFree",
           "package": "toysolver",
@@ -10482,6 +11294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquare-free decomposition of univariate polynomials over a field of characteristic 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.SquareFree",
           "name": "sqfreeChar0",
           "package": "toysolver",
@@ -10492,6 +11305,7 @@
         "index": {
           "description": "Square-free decomposition of univariate polynomials over field of characteristic",
           "hierarchy": "Data Polynomial Factorization SquareFree",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.SquareFree",
           "name": "sqfreeChar0",
           "normalized": "UPolynomial a-\u003e[(UPolynomial a,Integer)]",
@@ -10508,6 +11322,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFactoriation of integer-coefficient polynomial using Zassenhaus algorithm.\n\u003c/p\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.math.kobe-u.ac.jp/Asir/ca.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.Zassenhaus",
           "name": "Zassenhaus",
           "package": "toysolver",
@@ -10517,6 +11332,7 @@
         "index": {
           "description": "Factoriation of integer-coefficient polynomial using Zassenhaus algorithm References http www.math.kobe-u.ac.jp Asir ca.pdf",
           "hierarchy": "Data Polynomial Factorization Zassenhaus",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.Zassenhaus",
           "name": "Zassenhaus",
           "package": "toysolver",
@@ -10530,6 +11346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Factorization.Zassenhaus",
           "name": "factor",
           "package": "toysolver",
@@ -10539,6 +11356,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial Factorization Zassenhaus",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Factorization.Zassenhaus",
           "name": "factor",
           "normalized": "UPolynomial Integer-\u003e[(UPolynomial Integer,Integer)]",
@@ -10554,6 +11372,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGr&#246;bner basis\n\u003c/p\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Monomial order \u003ca\u003ehttp://en.wikipedia.org/wiki/Monomial_order\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Gr&#246;bner basis \u003ca\u003ehttp://en.wikipedia.org/wiki/Gr%C3%B6bner_basis\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e &#12464;&#12524;&#12502;&#12490;&#12540;&#22522;&#24213; \u003ca\u003ehttp://d.hatena.ne.jp/keyword/%A5%B0%A5%EC%A5%D6%A5%CA%A1%BC%B4%F0%C4%EC\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Gr&#246;bner Bases and Buchberger&#8217;s Algorithm \u003ca\u003ehttp://math.rice.edu/~cbruun/vigre/vigreHW6.pdf\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Docon \u003ca\u003ehttp://www.haskell.org/docon/\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "GroebnerBasis",
           "package": "toysolver",
@@ -10563,6 +11382,7 @@
         "index": {
           "description": "Gr bner basis References Monomial order http en.wikipedia.org wiki Monomial order Gr bner basis http en.wikipedia.org wiki Gr C3 B6bner basis http d.hatena.ne.jp keyword A5 B0 A5 EC A5 D6 A5 CA A1 BC B4 F0 C4 EC Gr bner Bases and Buchberger Algorithm http math.rice.edu cbruun vigre vigreHW6.pdf Docon http www.haskell.org docon",
           "hierarchy": "Data Polynomial GroebnerBasis",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "GroebnerBasis",
           "package": "toysolver",
@@ -10576,6 +11396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "Options",
           "package": "toysolver",
@@ -10584,6 +11405,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial GroebnerBasis",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "Options",
           "package": "toysolver",
@@ -10597,6 +11419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "Strategy",
           "package": "toysolver",
@@ -10605,6 +11428,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial GroebnerBasis",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "Strategy",
           "package": "toysolver",
@@ -10618,6 +11442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "NormalStrategy",
           "package": "toysolver",
@@ -10627,6 +11452,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial GroebnerBasis",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "NormalStrategy",
           "package": "toysolver",
@@ -10640,6 +11466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "Options",
           "package": "toysolver",
@@ -10649,6 +11476,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial GroebnerBasis",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "Options",
           "package": "toysolver",
@@ -10663,6 +11491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esugar strategy (not implemented yet)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "SugarStrategy",
           "package": "toysolver",
@@ -10673,6 +11502,7 @@
         "index": {
           "description": "sugar strategy not implemented yet",
           "hierarchy": "Data Polynomial GroebnerBasis",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "SugarStrategy",
           "package": "toysolver",
@@ -10686,6 +11516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "basis",
           "package": "toysolver",
@@ -10695,6 +11526,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial GroebnerBasis",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "basis",
           "normalized": "MonomialOrder a-\u003e[Polynomial b a]-\u003e[Polynomial b a]",
@@ -10709,6 +11541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "basis'",
           "package": "toysolver",
@@ -10718,6 +11551,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial GroebnerBasis",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "basis'",
           "normalized": "Options-\u003eMonomialOrder a-\u003e[Polynomial b a]-\u003e[Polynomial b a]",
@@ -10732,6 +11566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -10741,6 +11576,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial GroebnerBasis",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -10754,6 +11590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "optStrategy",
           "package": "toysolver",
@@ -10763,6 +11600,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial GroebnerBasis",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "optStrategy",
           "package": "toysolver",
@@ -10776,6 +11614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "reduceGBasis",
           "package": "toysolver",
@@ -10785,6 +11624,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial GroebnerBasis",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "reduceGBasis",
           "normalized": "MonomialOrder a-\u003e[Polynomial b a]-\u003e[Polynomial b a]",
@@ -10800,6 +11640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "spolynomial",
           "package": "toysolver",
@@ -10809,6 +11650,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial GroebnerBasis",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.GroebnerBasis",
           "name": "spolynomial",
           "normalized": "MonomialOrder a-\u003ePolynomial b a-\u003ePolynomial b a-\u003ePolynomial b a",
@@ -10823,6 +11665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Interpolation.Lagrange",
           "name": "Lagrange",
           "package": "toysolver",
@@ -10831,6 +11674,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial Interpolation Lagrange",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Interpolation.Lagrange",
           "name": "Lagrange",
           "package": "toysolver",
@@ -10844,6 +11688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.Interpolation.Lagrange",
           "name": "interpolate",
           "package": "toysolver",
@@ -10853,6 +11698,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial Interpolation Lagrange",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.Interpolation.Lagrange",
           "name": "interpolate",
           "normalized": "[(a,a)]-\u003eUPolynomial a",
@@ -10868,6 +11714,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGraeffe's Method\n\u003c/p\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://mathworld.wolfram.com/GraeffesMethod.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://en.wikipedia.org/wiki/Graeffe's_method\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Graeffe",
           "name": "Graeffe",
           "package": "toysolver",
@@ -10877,6 +11724,7 @@
         "index": {
           "description": "Graeffe Method Reference http mathworld.wolfram.com GraeffesMethod.html http en.wikipedia.org wiki Graeffe method",
           "hierarchy": "Data Polynomial RootSeparation Graeffe",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Graeffe",
           "name": "Graeffe",
           "package": "toysolver",
@@ -10890,6 +11738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Graeffe",
           "name": "NthRoot",
           "package": "toysolver",
@@ -10898,6 +11747,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial RootSeparation Graeffe",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Graeffe",
           "name": "NthRoot",
           "package": "toysolver",
@@ -10911,6 +11761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Graeffe",
           "name": "NthRoot",
           "package": "toysolver",
@@ -10920,6 +11771,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial RootSeparation Graeffe",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Graeffe",
           "name": "NthRoot",
           "package": "toysolver",
@@ -10933,6 +11785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Graeffe",
           "name": "graeffesMethod",
           "package": "toysolver",
@@ -10942,6 +11795,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial RootSeparation Graeffe",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Graeffe",
           "name": "graeffesMethod",
           "normalized": "UPolynomial Rational-\u003eInt-\u003e[NthRoot]",
@@ -10958,6 +11812,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \"\u003cem\u003eSturm's theorem\u003c/em\u003e.\" Wikipedia, The Free Encyclopedia. Wikimedia Foundation, Inc.\n   2012-06-23. \u003ca\u003ehttp://en.wikipedia.org/wiki/Sturm%27s_theorem\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Weisstein, Eric W. \"\u003cem\u003eSturm Function\u003c/em\u003e.\" From MathWorld--A Wolfram Web Resource.\n   \u003ca\u003ehttp://mathworld.wolfram.com/SturmFunction.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "Sturm",
           "package": "toysolver",
@@ -10967,6 +11822,7 @@
         "index": {
           "description": "Reference Sturm theorem Wikipedia The Free Encyclopedia Wikimedia Foundation Inc http en.wikipedia.org wiki Sturm theorem Weisstein Eric Sturm Function From MathWorld--A Wolfram Web Resource http mathworld.wolfram.com SturmFunction.html",
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "Sturm",
           "package": "toysolver",
@@ -10981,6 +11837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSturm's chain (Sturm's sequence)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "SturmChain",
           "package": "toysolver",
@@ -10990,6 +11847,7 @@
         "index": {
           "description": "Sturm chain Sturm sequence",
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "SturmChain",
           "package": "toysolver",
@@ -11003,6 +11861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "approx",
           "package": "toysolver",
@@ -11012,6 +11871,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "approx",
           "normalized": "UPolynomial Rational-\u003eInterval Rational-\u003eRational-\u003eRational",
@@ -11026,6 +11886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "approx'",
           "package": "toysolver",
@@ -11035,6 +11896,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "approx'",
           "normalized": "SturmChain-\u003eInterval Rational-\u003eRational-\u003eRational",
@@ -11049,6 +11911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "halve",
           "package": "toysolver",
@@ -11058,6 +11921,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "halve",
           "normalized": "UPolynomial Rational-\u003eInterval Rational-\u003eInterval Rational",
@@ -11072,6 +11936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "halve'",
           "package": "toysolver",
@@ -11081,6 +11946,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "halve'",
           "normalized": "SturmChain-\u003eInterval Rational-\u003eInterval Rational",
@@ -11095,6 +11961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "narrow",
           "package": "toysolver",
@@ -11104,6 +11971,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "narrow",
           "normalized": "UPolynomial Rational-\u003eInterval Rational-\u003eRational-\u003eInterval Rational",
@@ -11118,6 +11986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "narrow'",
           "package": "toysolver",
@@ -11127,6 +11996,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "narrow'",
           "normalized": "SturmChain-\u003eInterval Rational-\u003eRational-\u003eInterval Rational",
@@ -11142,6 +12012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of distinct real roots of \u003ccode\u003ep\u003c/code\u003e in a given interval\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "numRoots",
           "package": "toysolver",
@@ -11152,6 +12023,7 @@
         "index": {
           "description": "The number of distinct real roots of in given interval",
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "numRoots",
           "normalized": "UPolynomial Rational-\u003eInterval Rational-\u003eInt",
@@ -11168,6 +12040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of distinct real roots of \u003ccode\u003ep\u003c/code\u003e in a given interval.\n This function takes \u003ccode\u003ep\u003c/code\u003e's sturm chain instead of \u003ccode\u003ep\u003c/code\u003e itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "numRoots'",
           "package": "toysolver",
@@ -11178,6 +12051,7 @@
         "index": {
           "description": "The number of distinct real roots of in given interval This function takes sturm chain instead of itself",
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "numRoots'",
           "normalized": "SturmChain-\u003eInterval Rational-\u003eInt",
@@ -11194,6 +12068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjoint intervals each of which contains exactly one real roots of the given polynoimal \u003ccode\u003ep\u003c/code\u003e.\n The intervals can be further narrowed by \u003ccode\u003e\u003ca\u003enarrow\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003enarrow'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "separate",
           "package": "toysolver",
@@ -11204,6 +12079,7 @@
         "index": {
           "description": "Disjoint intervals each of which contains exactly one real roots of the given polynoimal The intervals can be further narrowed by narrow or narrow",
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "separate",
           "normalized": "UPolynomial Rational-\u003e[Interval Rational]",
@@ -11219,6 +12095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjoint intervals each of which contains exactly one real roots of the given polynoimal \u003ccode\u003ep\u003c/code\u003e.\n The intervals can be further narrowed by \u003ccode\u003e\u003ca\u003enarrow\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003enarrow'\u003c/a\u003e\u003c/code\u003e.\n This function takes \u003ccode\u003ep\u003c/code\u003e's sturm chain instead of \u003ccode\u003ep\u003c/code\u003e itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "separate'",
           "package": "toysolver",
@@ -11229,6 +12106,7 @@
         "index": {
           "description": "Disjoint intervals each of which contains exactly one real roots of the given polynoimal The intervals can be further narrowed by narrow or narrow This function takes sturm chain instead of itself",
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "separate'",
           "normalized": "SturmChain-\u003e[Interval Rational]",
@@ -11244,6 +12122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSturm's sequence of a polynomial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "sturmChain",
           "package": "toysolver",
@@ -11254,6 +12133,7 @@
         "index": {
           "description": "Sturm sequence of polynomial",
           "hierarchy": "Data Polynomial RootSeparation Sturm",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial.RootSeparation.Sturm",
           "name": "sturmChain",
           "normalized": "UPolynomial Rational-\u003eSturmChain",
@@ -11270,6 +12150,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePolynomials\n\u003c/p\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Monomial order \u003ca\u003ehttp://en.wikipedia.org/wiki/Monomial_order\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Polynomial class for Ruby \u003ca\u003ehttp://www.math.kobe-u.ac.jp/~kodama/tips-RubyPoly.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e constructive-algebra package \u003ca\u003ehttp://hackage.haskell.org/package/constructive-algebra\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "Polynomial",
           "package": "toysolver",
@@ -11279,6 +12160,7 @@
         "index": {
           "description": "Polynomials References Monomial order http en.wikipedia.org wiki Monomial order Polynomial class for Ruby http www.math.kobe-u.ac.jp kodama tips-RubyPoly.html constructive-algebra package http hackage.haskell.org package constructive-algebra",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "Polynomial",
           "package": "toysolver",
@@ -11292,6 +12174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "ContPP",
           "package": "toysolver",
@@ -11300,6 +12183,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "ContPP",
           "package": "toysolver",
@@ -11314,6 +12198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etotal degree of a given polynomial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "Degree",
           "package": "toysolver",
@@ -11323,6 +12208,7 @@
         "index": {
           "description": "total degree of given polynomial",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "Degree",
           "package": "toysolver",
@@ -11337,6 +12223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFactorization of polynomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "Factor",
           "package": "toysolver",
@@ -11346,6 +12233,7 @@
         "index": {
           "description": "Factorization of polynomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "Factor",
           "package": "toysolver",
@@ -11360,6 +12248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonic monomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "Monomial",
           "package": "toysolver",
@@ -11369,6 +12258,7 @@
         "index": {
           "description": "Monic monomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "Monomial",
           "package": "toysolver",
@@ -11382,6 +12272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "MonomialOrder",
           "package": "toysolver",
@@ -11390,6 +12281,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "MonomialOrder",
           "package": "toysolver",
@@ -11404,6 +12296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolynomial over commutative ring r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "Polynomial",
           "package": "toysolver",
@@ -11413,6 +12306,7 @@
         "index": {
           "description": "Polynomial over commutative ring",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "Polynomial",
           "package": "toysolver",
@@ -11426,6 +12320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "PrettyCoeff",
           "package": "toysolver",
@@ -11434,6 +12329,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "PrettyCoeff",
           "package": "toysolver",
@@ -11447,6 +12343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "PrettyVar",
           "package": "toysolver",
@@ -11455,6 +12352,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "PrettyVar",
           "package": "toysolver",
@@ -11468,6 +12366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "PrintOptions",
           "package": "toysolver",
@@ -11476,6 +12375,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "PrintOptions",
           "package": "toysolver",
@@ -11490,6 +12390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquare-free factorization of polynomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "SQFree",
           "package": "toysolver",
@@ -11499,6 +12400,7 @@
         "index": {
           "description": "Square-free factorization of polynomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "SQFree",
           "package": "toysolver",
@@ -11512,6 +12414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "Term",
           "package": "toysolver",
@@ -11520,6 +12423,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "Term",
           "package": "toysolver",
@@ -11533,6 +12437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "UMonomial",
           "package": "toysolver",
@@ -11541,6 +12446,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "UMonomial",
           "package": "toysolver",
@@ -11555,6 +12461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnivariate polynomials over commutative ring r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "UPolynomial",
           "package": "toysolver",
@@ -11564,6 +12471,7 @@
         "index": {
           "description": "Univariate polynomials over commutative ring",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "UPolynomial",
           "package": "toysolver",
@@ -11577,6 +12485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "UTerm",
           "package": "toysolver",
@@ -11585,6 +12494,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "UTerm",
           "package": "toysolver",
@@ -11598,6 +12508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "Var",
           "package": "toysolver",
@@ -11606,6 +12517,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "Var",
           "package": "toysolver",
@@ -11619,6 +12531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "Vars",
           "package": "toysolver",
@@ -11627,6 +12540,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "Vars",
           "package": "toysolver",
@@ -11640,6 +12554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "X",
           "package": "toysolver",
@@ -11648,6 +12563,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "X",
           "package": "toysolver",
@@ -11660,6 +12576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "PrintOptions",
           "package": "toysolver",
@@ -11669,6 +12586,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "PrintOptions",
           "package": "toysolver",
@@ -11682,6 +12600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "X",
           "package": "toysolver",
@@ -11691,6 +12610,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "X",
           "package": "toysolver",
@@ -11703,6 +12623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "coeff",
           "package": "toysolver",
@@ -11712,6 +12633,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "coeff",
           "normalized": "Monomial a-\u003ePolynomial b a-\u003eb",
@@ -11726,6 +12648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "coeffMap",
           "package": "toysolver",
@@ -11735,6 +12658,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "coeffMap",
           "normalized": "Polynomial a b-\u003eMap(Monomial b)a",
@@ -11751,6 +12675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct a polynomial from a constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "constant",
           "package": "toysolver",
@@ -11761,6 +12686,7 @@
         "index": {
           "description": "construct polynomial from constant",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "constant",
           "normalized": "a-\u003ePolynomial a b",
@@ -11776,6 +12702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContent of a polynomial  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "cont",
           "package": "toysolver",
@@ -11786,6 +12713,7 @@
         "index": {
           "description": "Content of polynomial",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "cont",
           "normalized": "Polynomial a b-\u003ea",
@@ -11800,6 +12728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "defaultPrintOptions",
           "package": "toysolver",
@@ -11809,6 +12738,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "defaultPrintOptions",
           "package": "toysolver",
@@ -11822,6 +12752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "deg",
           "package": "toysolver",
@@ -11831,6 +12762,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "deg",
           "normalized": "a-\u003eInteger",
@@ -11846,6 +12778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal derivative of polynomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "deriv",
           "package": "toysolver",
@@ -11856,6 +12789,7 @@
         "index": {
           "description": "Formal derivative of polynomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "deriv",
           "normalized": "Polynomial a b-\u003eb-\u003ePolynomial a b",
@@ -11871,6 +12805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edivision of univariate polynomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "div",
           "package": "toysolver",
@@ -11881,6 +12816,7 @@
         "index": {
           "description": "division of univariate polynomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "div",
           "normalized": "UPolynomial a-\u003eUPolynomial a-\u003eUPolynomial a",
@@ -11896,6 +12832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edivision of univariate polynomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "divMod",
           "package": "toysolver",
@@ -11906,6 +12843,7 @@
         "index": {
           "description": "division of univariate polynomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "divMod",
           "normalized": "UPolynomial a-\u003eUPolynomial a-\u003e(UPolynomial a,UPolynomial a)",
@@ -11922,6 +12860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultivariate division algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "divModMP",
           "package": "toysolver",
@@ -11932,6 +12871,7 @@
         "index": {
           "description": "Multivariate division algorithm",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "divModMP",
           "normalized": "MonomialOrder a-\u003ePolynomial b a-\u003e[Polynomial b a]-\u003e([Polynomial b a],Polynomial b a)",
@@ -11947,6 +12887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "divides",
           "package": "toysolver",
@@ -11956,6 +12897,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "divides",
           "normalized": "UPolynomial a-\u003eUPolynomial a-\u003eBool",
@@ -11971,6 +12913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "eval",
           "package": "toysolver",
@@ -11981,6 +12924,7 @@
         "index": {
           "description": "Evaluation",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "eval",
           "normalized": "(a-\u003eb)-\u003ePolynomial b a-\u003eb",
@@ -11996,6 +12940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtended GCD algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "exgcd",
           "package": "toysolver",
@@ -12006,6 +12951,7 @@
         "index": {
           "description": "Extended GCD algorithm",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "exgcd",
           "normalized": "UPolynomial a-\u003eUPolynomial a-\u003e(UPolynomial a,UPolynomial a,UPolynomial a)",
@@ -12021,6 +12967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efactor a polynomial \u003ccode\u003ep\u003c/code\u003e into \u003ccode\u003ep1 ^ n1 + p2 ^ n2 + ..\u003c/code\u003e and\n return a list \u003ccode\u003e[(p1,n1), (p2,n2), ..]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "factor",
           "package": "toysolver",
@@ -12031,6 +12978,7 @@
         "index": {
           "description": "factor polynomial into p1 n1 p2 n2 and return list p1 n1 p2 n2",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "factor",
           "normalized": "a-\u003e[(a,Integer)]",
@@ -12045,6 +12993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "fromCoeffMap",
           "package": "toysolver",
@@ -12054,6 +13003,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "fromCoeffMap",
           "normalized": "Map(Monomial a)b-\u003ePolynomial b a",
@@ -12070,6 +13020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct a polynomial from a monomial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "fromTerm",
           "package": "toysolver",
@@ -12080,6 +13031,7 @@
         "index": {
           "description": "construct polynomial from monomial",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "fromTerm",
           "normalized": "Term a b-\u003ePolynomial a b",
@@ -12096,6 +13048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct a polynomial from a list of monomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "fromTerms",
           "package": "toysolver",
@@ -12106,6 +13059,7 @@
         "index": {
           "description": "construct polynomial from list of monomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "fromTerms",
           "normalized": "[Term a b]-\u003ePolynomial a b",
@@ -12122,6 +13076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGCD of univariate polynomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "gcd",
           "package": "toysolver",
@@ -12132,6 +13087,7 @@
         "index": {
           "description": "GCD of univariate polynomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "gcd",
           "normalized": "UPolynomial a-\u003eUPolynomial a-\u003eUPolynomial a",
@@ -12147,6 +13103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGCD of univariate polynomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "gcd'",
           "package": "toysolver",
@@ -12157,6 +13114,7 @@
         "index": {
           "description": "GCD of univariate polynomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "gcd'",
           "normalized": "UPolynomial a-\u003eUPolynomial a-\u003eUPolynomial a",
@@ -12172,6 +13130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraded reverse lexicographic order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "grevlex",
           "package": "toysolver",
@@ -12182,6 +13141,7 @@
         "index": {
           "description": "Graded reverse lexicographic order",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "grevlex",
           "package": "toysolver",
@@ -12195,6 +13155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraded lexicographic order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "grlex",
           "package": "toysolver",
@@ -12205,6 +13166,7 @@
         "index": {
           "description": "Graded lexicographic order",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "grlex",
           "package": "toysolver",
@@ -12218,6 +13180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal integral of polynomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "integral",
           "package": "toysolver",
@@ -12228,6 +13191,7 @@
         "index": {
           "description": "Formal integral of polynomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "integral",
           "normalized": "Polynomial a b-\u003eb-\u003ePolynomial a b",
@@ -12242,6 +13206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "isNegativeCoeff",
           "package": "toysolver",
@@ -12251,6 +13216,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "isNegativeCoeff",
           "normalized": "a-\u003eBool",
@@ -12266,6 +13232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "isPrimitive",
           "package": "toysolver",
@@ -12275,6 +13242,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "isPrimitive",
           "normalized": "Polynomial a b-\u003eBool",
@@ -12290,6 +13258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "isRootOf",
           "package": "toysolver",
@@ -12299,6 +13268,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "isRootOf",
           "normalized": "a-\u003eUPolynomial a-\u003eBool",
@@ -12314,6 +13284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "isSquareFree",
           "package": "toysolver",
@@ -12323,6 +13294,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "isSquareFree",
           "normalized": "UPolynomial a-\u003eBool",
@@ -12339,6 +13311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleading coefficient with respect to a given monomial order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "lc",
           "package": "toysolver",
@@ -12349,6 +13322,7 @@
         "index": {
           "description": "leading coefficient with respect to given monomial order",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "lc",
           "normalized": "MonomialOrder a-\u003ePolynomial b a-\u003eb",
@@ -12364,6 +13338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLCM of univariate polynomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "lcm",
           "package": "toysolver",
@@ -12374,6 +13349,7 @@
         "index": {
           "description": "LCM of univariate polynomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "lcm",
           "normalized": "UPolynomial a-\u003eUPolynomial a-\u003eUPolynomial a",
@@ -12389,6 +13365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexicographic order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "lex",
           "package": "toysolver",
@@ -12399,6 +13376,7 @@
         "index": {
           "description": "Lexicographic order",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "lex",
           "package": "toysolver",
@@ -12412,6 +13390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleading monomial with respect to a given monomial order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "lm",
           "package": "toysolver",
@@ -12422,6 +13401,7 @@
         "index": {
           "description": "leading monomial with respect to given monomial order",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "lm",
           "normalized": "MonomialOrder a-\u003ePolynomial b a-\u003eMonomial a",
@@ -12436,6 +13416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "lookupCoeff",
           "package": "toysolver",
@@ -12445,6 +13426,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "lookupCoeff",
           "normalized": "Monomial a-\u003ePolynomial b a-\u003eMaybe b",
@@ -12461,6 +13443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleading term with respect to a given monomial order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "lt",
           "package": "toysolver",
@@ -12471,6 +13454,7 @@
         "index": {
           "description": "leading term with respect to given monomial order",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "lt",
           "normalized": "MonomialOrder a-\u003ePolynomial b a-\u003eTerm b a",
@@ -12485,6 +13469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mapCoeff",
           "package": "toysolver",
@@ -12494,6 +13479,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mapCoeff",
           "normalized": "(a-\u003ea)-\u003ePolynomial a b-\u003ePolynomial a b",
@@ -12509,6 +13495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mcoprime",
           "package": "toysolver",
@@ -12518,6 +13505,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mcoprime",
           "normalized": "Monomial a-\u003eMonomial a-\u003eBool",
@@ -12532,6 +13520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mderiv",
           "package": "toysolver",
@@ -12541,6 +13530,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mderiv",
           "normalized": "Monomial a-\u003ea-\u003e(Integer,Monomial a)",
@@ -12555,6 +13545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mdiv",
           "package": "toysolver",
@@ -12564,6 +13555,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mdiv",
           "normalized": "Monomial a-\u003eMonomial a-\u003eMonomial a",
@@ -12578,6 +13570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mdivides",
           "package": "toysolver",
@@ -12587,6 +13580,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mdivides",
           "normalized": "Monomial a-\u003eMonomial a-\u003eBool",
@@ -12601,6 +13595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mfromIndices",
           "package": "toysolver",
@@ -12610,6 +13605,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mfromIndices",
           "normalized": "[(a,Integer)]-\u003eMonomial a",
@@ -12625,6 +13621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mfromIndicesMap",
           "package": "toysolver",
@@ -12634,6 +13631,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mfromIndicesMap",
           "normalized": "Map a Integer-\u003eMonomial a",
@@ -12649,6 +13647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mgcd",
           "package": "toysolver",
@@ -12658,6 +13657,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mgcd",
           "normalized": "Monomial a-\u003eMonomial a-\u003eMonomial a",
@@ -12672,6 +13672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mindices",
           "package": "toysolver",
@@ -12681,6 +13682,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mindices",
           "normalized": "Monomial a-\u003e[(a,Integer)]",
@@ -12695,6 +13697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mindicesMap",
           "package": "toysolver",
@@ -12704,6 +13707,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mindicesMap",
           "normalized": "Monomial a-\u003eMap a Integer",
@@ -12719,6 +13723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mintegral",
           "package": "toysolver",
@@ -12728,6 +13733,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mintegral",
           "normalized": "Monomial a-\u003ea-\u003e(Rational,Monomial a)",
@@ -12742,6 +13748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mlcm",
           "package": "toysolver",
@@ -12751,6 +13758,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mlcm",
           "normalized": "Monomial a-\u003eMonomial a-\u003eMonomial a",
@@ -12765,6 +13773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mmult",
           "package": "toysolver",
@@ -12774,6 +13783,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mmult",
           "normalized": "Monomial a-\u003eMonomial a-\u003eMonomial a",
@@ -12789,6 +13799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edivision of univariate polynomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mod",
           "package": "toysolver",
@@ -12799,6 +13810,7 @@
         "index": {
           "description": "division of univariate polynomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mod",
           "normalized": "UPolynomial a-\u003eUPolynomial a-\u003eUPolynomial a",
@@ -12813,6 +13825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mone",
           "package": "toysolver",
@@ -12822,6 +13835,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mone",
           "package": "toysolver",
@@ -12834,6 +13848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "mpow",
           "package": "toysolver",
@@ -12843,6 +13858,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "mpow",
           "normalized": "Monomial a-\u003eInteger-\u003eMonomial a",
@@ -12857,6 +13873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "pOptIsNegativeCoeff",
           "package": "toysolver",
@@ -12866,6 +13883,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "pOptIsNegativeCoeff",
           "normalized": "a-\u003eBool",
@@ -12881,6 +13899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "pOptMonomialOrder",
           "package": "toysolver",
@@ -12890,6 +13909,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "pOptMonomialOrder",
           "package": "toysolver",
@@ -12903,6 +13923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "pOptPrintCoeff",
           "package": "toysolver",
@@ -12912,6 +13933,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "pOptPrintCoeff",
           "normalized": "PrettyLevel-\u003eRational-\u003ea-\u003eDoc",
@@ -12927,6 +13949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "pOptPrintVar",
           "package": "toysolver",
@@ -12936,6 +13959,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "pOptPrintVar",
           "normalized": "PrettyLevel-\u003eRational-\u003ea-\u003eDoc",
@@ -12951,6 +13975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "pPrintCoeff",
           "package": "toysolver",
@@ -12960,6 +13985,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "pPrintCoeff",
           "normalized": "PrettyLevel-\u003eRational-\u003ea-\u003eDoc",
@@ -12975,6 +14001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "pPrintVar",
           "package": "toysolver",
@@ -12984,6 +14011,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "pPrintVar",
           "normalized": "PrettyLevel-\u003eRational-\u003ea-\u003eDoc",
@@ -13000,6 +14028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epseudo quotient\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "pdiv",
           "package": "toysolver",
@@ -13010,6 +14039,7 @@
         "index": {
           "description": "pseudo quotient",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "pdiv",
           "normalized": "UPolynomial a-\u003eUPolynomial a-\u003eUPolynomial a",
@@ -13025,6 +14055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epseudo division\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "pdivMod",
           "package": "toysolver",
@@ -13035,6 +14066,7 @@
         "index": {
           "description": "pseudo division",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "pdivMod",
           "normalized": "UPolynomial a-\u003eUPolynomial a-\u003e(a,UPolynomial a,UPolynomial a)",
@@ -13051,6 +14083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epseudo reminder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "pmod",
           "package": "toysolver",
@@ -13061,6 +14094,7 @@
         "index": {
           "description": "pseudo reminder",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "pmod",
           "normalized": "UPolynomial a-\u003eUPolynomial a-\u003eUPolynomial a",
@@ -13076,6 +14110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive part of a polynomial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "pp",
           "package": "toysolver",
@@ -13086,6 +14121,7 @@
         "index": {
           "description": "Primitive part of polynomial",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "pp",
           "normalized": "Polynomial a b-\u003ePolynomial a b",
@@ -13100,6 +14136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "prettyPrint",
           "package": "toysolver",
@@ -13109,6 +14146,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "prettyPrint",
           "normalized": "PrintOptions a b-\u003ePrettyLevel-\u003eRational-\u003ePolynomial a b-\u003eDoc",
@@ -13125,6 +14163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultivariate division algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "reduce",
           "package": "toysolver",
@@ -13135,6 +14174,7 @@
         "index": {
           "description": "Multivariate division algorithm",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "reduce",
           "normalized": "MonomialOrder a-\u003ePolynomial b a-\u003e[Polynomial b a]-\u003ePolynomial b a",
@@ -13150,6 +14190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse lexicographic order.\n\u003c/p\u003e\u003cp\u003eNote that revlex is NOT a monomial order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "revlex",
           "package": "toysolver",
@@ -13160,6 +14201,7 @@
         "index": {
           "description": "Reverse lexicographic order Note that revlex is NOT monomial order",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "revlex",
           "normalized": "Monomial a-\u003eMonomial a-\u003eOrdering",
@@ -13175,6 +14217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efactor a polynomial \u003ccode\u003ep\u003c/code\u003e into \u003ccode\u003ep1 ^ n1 + p2 ^ n2 + ..\u003c/code\u003e and\n return a list \u003ccode\u003e[(p1,n1), (p2,n2), ..]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "sqfree",
           "package": "toysolver",
@@ -13185,6 +14228,7 @@
         "index": {
           "description": "factor polynomial into p1 n1 p2 n2 and return list p1 n1 p2 n2",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "sqfree",
           "normalized": "a-\u003e[(a,Integer)]",
@@ -13200,6 +14244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitution or bind\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "subst",
           "package": "toysolver",
@@ -13210,6 +14255,7 @@
         "index": {
           "description": "Substitution or bind",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "subst",
           "normalized": "Polynomial a b-\u003e(b-\u003ePolynomial a b)-\u003ePolynomial a b",
@@ -13224,6 +14270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "tdeg",
           "package": "toysolver",
@@ -13233,6 +14280,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "tdeg",
           "normalized": "Term a b-\u003eInteger",
@@ -13247,6 +14295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "tderiv",
           "package": "toysolver",
@@ -13256,6 +14305,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "tderiv",
           "normalized": "Term a b-\u003eb-\u003eTerm a b",
@@ -13270,6 +14320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "tdiv",
           "package": "toysolver",
@@ -13279,6 +14330,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "tdiv",
           "normalized": "Term a b-\u003eTerm a b-\u003eTerm a b",
@@ -13293,6 +14345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "tdivides",
           "package": "toysolver",
@@ -13302,6 +14355,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "tdivides",
           "normalized": "Term a b-\u003eTerm a b-\u003eBool",
@@ -13317,6 +14371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of monomials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "terms",
           "package": "toysolver",
@@ -13327,6 +14382,7 @@
         "index": {
           "description": "list of monomials",
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "terms",
           "normalized": "Polynomial a b-\u003e[Term a b]",
@@ -13341,6 +14397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "tintegral",
           "package": "toysolver",
@@ -13350,6 +14407,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "tintegral",
           "normalized": "Term a b-\u003eb-\u003eTerm a b",
@@ -13364,6 +14422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "tmult",
           "package": "toysolver",
@@ -13373,6 +14432,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "tmult",
           "normalized": "Term a b-\u003eTerm a b-\u003eTerm a b",
@@ -13387,6 +14447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "toMonic",
           "package": "toysolver",
@@ -13396,6 +14457,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "toMonic",
           "normalized": "MonomialOrder a-\u003ePolynomial b a-\u003ePolynomial b a",
@@ -13411,6 +14473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "toUPolynomialOf",
           "package": "toysolver",
@@ -13420,6 +14483,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "toUPolynomialOf",
           "normalized": "Polynomial a b-\u003eb-\u003eUPolynomial(Polynomial a b)",
@@ -13435,6 +14499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "var",
           "package": "toysolver",
@@ -13444,6 +14509,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "var",
           "normalized": "a-\u003eb",
@@ -13458,6 +14524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Polynomial",
           "name": "vars",
           "package": "toysolver",
@@ -13467,6 +14534,7 @@
         },
         "index": {
           "hierarchy": "Data Polynomial",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Polynomial",
           "name": "vars",
           "normalized": "a-\u003eSet b",
@@ -13482,6 +14550,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlgebra of Signs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Sign",
           "name": "Sign",
           "package": "toysolver",
@@ -13491,6 +14560,7 @@
         "index": {
           "description": "Algebra of Signs",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Sign",
           "name": "Sign",
           "package": "toysolver",
@@ -13504,6 +14574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Sign",
           "name": "Sign",
           "package": "toysolver",
@@ -13512,6 +14583,7 @@
         },
         "index": {
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Sign",
           "name": "Sign",
           "package": "toysolver",
@@ -13525,6 +14597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Sign",
           "name": "Neg",
           "package": "toysolver",
@@ -13534,6 +14607,7 @@
         },
         "index": {
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Sign",
           "name": "Neg",
           "package": "toysolver",
@@ -13547,6 +14621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Sign",
           "name": "Pos",
           "package": "toysolver",
@@ -13556,6 +14631,7 @@
         },
         "index": {
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Sign",
           "name": "Pos",
           "package": "toysolver",
@@ -13569,6 +14645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Sign",
           "name": "Zero",
           "package": "toysolver",
@@ -13578,6 +14655,7 @@
         },
         "index": {
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Sign",
           "name": "Zero",
           "package": "toysolver",
@@ -13591,6 +14669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Sign",
           "name": "div",
           "package": "toysolver",
@@ -13600,6 +14679,7 @@
         },
         "index": {
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Sign",
           "name": "div",
           "normalized": "Sign-\u003eSign-\u003eSign",
@@ -13614,6 +14694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Sign",
           "name": "mult",
           "package": "toysolver",
@@ -13623,6 +14704,7 @@
         },
         "index": {
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Sign",
           "name": "mult",
           "normalized": "Sign-\u003eSign-\u003eSign",
@@ -13637,6 +14719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Sign",
           "name": "negate",
           "package": "toysolver",
@@ -13646,6 +14729,7 @@
         },
         "index": {
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Sign",
           "name": "negate",
           "normalized": "Sign-\u003eSign",
@@ -13660,6 +14744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Sign",
           "name": "pow",
           "package": "toysolver",
@@ -13669,6 +14754,7 @@
         },
         "index": {
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Sign",
           "name": "pow",
           "normalized": "Sign-\u003ea-\u003eSign",
@@ -13683,6 +14769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Sign",
           "name": "recip",
           "package": "toysolver",
@@ -13692,6 +14779,7 @@
         },
         "index": {
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Sign",
           "name": "recip",
           "normalized": "Sign-\u003eSign",
@@ -13706,6 +14794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Sign",
           "name": "signOf",
           "package": "toysolver",
@@ -13715,6 +14804,7 @@
         },
         "index": {
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Sign",
           "name": "signOf",
           "normalized": "a-\u003eSign",
@@ -13730,6 +14820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Sign",
           "name": "symbol",
           "package": "toysolver",
@@ -13739,6 +14830,7 @@
         },
         "index": {
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Sign",
           "name": "symbol",
           "normalized": "Sign-\u003eString",
@@ -13753,6 +14845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Var",
           "name": "Var",
           "package": "toysolver",
@@ -13761,6 +14854,7 @@
         },
         "index": {
           "hierarchy": "Data Var",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Var",
           "name": "Var",
           "package": "toysolver",
@@ -13775,6 +14869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eModel\u003c/code\u003e is a map from variables to values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Var",
           "name": "Model",
           "package": "toysolver",
@@ -13784,6 +14879,7 @@
         "index": {
           "description": "Model is map from variables to values",
           "hierarchy": "Data Var",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Var",
           "name": "Model",
           "package": "toysolver",
@@ -13798,6 +14894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables are represented as non-negative integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Var",
           "name": "Var",
           "package": "toysolver",
@@ -13807,6 +14904,7 @@
         "index": {
           "description": "Variables are represented as non-negative integers",
           "hierarchy": "Data Var",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Var",
           "name": "Var",
           "package": "toysolver",
@@ -13821,6 +14919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap from variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Var",
           "name": "VarMap",
           "package": "toysolver",
@@ -13830,6 +14929,7 @@
         "index": {
           "description": "Map from variables",
           "hierarchy": "Data Var",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Var",
           "name": "VarMap",
           "package": "toysolver",
@@ -13844,6 +14944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Var",
           "name": "VarSet",
           "package": "toysolver",
@@ -13853,6 +14954,7 @@
         "index": {
           "description": "Set of variables",
           "hierarchy": "Data Var",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Var",
           "name": "VarSet",
           "package": "toysolver",
@@ -13867,6 +14969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecollecting free variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Var",
           "name": "Variables",
           "package": "toysolver",
@@ -13876,6 +14979,7 @@
         "index": {
           "description": "collecting free variables",
           "hierarchy": "Data Var",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Var",
           "name": "Variables",
           "package": "toysolver",
@@ -13889,6 +14993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Data.Var",
           "name": "vars",
           "package": "toysolver",
@@ -13898,6 +15003,7 @@
         },
         "index": {
           "hierarchy": "Data Var",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Data.Var",
           "name": "vars",
           "normalized": "a-\u003eVarSet",
@@ -13912,6 +15018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.CAMUS",
           "name": "CAMUS",
           "package": "toysolver",
@@ -13920,6 +15027,7 @@
         },
         "index": {
           "hierarchy": "SAT CAMUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.CAMUS",
           "name": "CAMUS",
           "package": "toysolver",
@@ -13933,6 +15041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.CAMUS",
           "name": "MCS",
           "package": "toysolver",
@@ -13941,6 +15050,7 @@
         },
         "index": {
           "hierarchy": "SAT CAMUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.CAMUS",
           "name": "MCS",
           "package": "toysolver",
@@ -13954,6 +15064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.CAMUS",
           "name": "MUS",
           "package": "toysolver",
@@ -13962,6 +15073,7 @@
         },
         "index": {
           "hierarchy": "SAT CAMUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.CAMUS",
           "name": "MUS",
           "package": "toysolver",
@@ -13976,6 +15088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for \u003ccode\u003e\u003ca\u003eenumMCSAssumptions\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eallMCSAssumptions\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eallMUSAssumptions\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.CAMUS",
           "name": "Options",
           "package": "toysolver",
@@ -13985,6 +15098,7 @@
         "index": {
           "description": "Options for enumMCSAssumptions allMCSAssumptions allMUSAssumptions",
           "hierarchy": "SAT CAMUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.CAMUS",
           "name": "Options",
           "package": "toysolver",
@@ -13998,6 +15112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.CAMUS",
           "name": "Options",
           "package": "toysolver",
@@ -14007,6 +15122,7 @@
         },
         "index": {
           "hierarchy": "SAT CAMUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.CAMUS",
           "name": "Options",
           "package": "toysolver",
@@ -14020,6 +15136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.CAMUS",
           "name": "allMCSAssumptions",
           "package": "toysolver",
@@ -14029,6 +15146,7 @@
         },
         "index": {
           "hierarchy": "SAT CAMUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.CAMUS",
           "name": "allMCSAssumptions",
           "normalized": "Solver-\u003e[Lit]-\u003eOptions-\u003eIO[MCS]",
@@ -14044,6 +15162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.CAMUS",
           "name": "allMUSAssumptions",
           "package": "toysolver",
@@ -14053,6 +15172,7 @@
         },
         "index": {
           "hierarchy": "SAT CAMUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.CAMUS",
           "name": "allMUSAssumptions",
           "normalized": "Solver-\u003e[Lit]-\u003eOptions-\u003eIO[MCS]",
@@ -14069,6 +15189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.CAMUS",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -14079,6 +15200,7 @@
         "index": {
           "description": "default Options value",
           "hierarchy": "SAT CAMUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.CAMUS",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -14092,6 +15214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.CAMUS",
           "name": "enumMCSAssumptions",
           "package": "toysolver",
@@ -14101,6 +15224,7 @@
         },
         "index": {
           "hierarchy": "SAT CAMUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.CAMUS",
           "name": "enumMCSAssumptions",
           "normalized": "Solver-\u003e[Lit]-\u003eOptions-\u003eIO()",
@@ -14116,6 +15240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.CAMUS",
           "name": "hittingSetDual",
           "package": "toysolver",
@@ -14125,6 +15250,7 @@
         },
         "index": {
           "hierarchy": "SAT CAMUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.CAMUS",
           "name": "hittingSetDual",
           "normalized": "[MCS]-\u003e[MUS]",
@@ -14140,6 +15266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.CAMUS",
           "name": "optCallback",
           "package": "toysolver",
@@ -14149,6 +15276,7 @@
         },
         "index": {
           "hierarchy": "SAT CAMUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.CAMUS",
           "name": "optCallback",
           "normalized": "MCS-\u003eIO()",
@@ -14164,6 +15292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.CAMUS",
           "name": "optLogger",
           "package": "toysolver",
@@ -14173,6 +15302,7 @@
         },
         "index": {
           "hierarchy": "SAT CAMUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.CAMUS",
           "name": "optLogger",
           "normalized": "String-\u003eIO()",
@@ -14188,6 +15318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Integer",
           "name": "Integer",
           "package": "toysolver",
@@ -14196,6 +15327,7 @@
         },
         "index": {
           "hierarchy": "SAT Integer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Integer",
           "name": "Integer",
           "package": "toysolver",
@@ -14209,6 +15341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Integer",
           "name": "Expr",
           "package": "toysolver",
@@ -14217,6 +15350,7 @@
         },
         "index": {
           "hierarchy": "SAT Integer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Integer",
           "name": "Expr",
           "package": "toysolver",
@@ -14230,6 +15364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Integer",
           "name": "Expr",
           "package": "toysolver",
@@ -14239,6 +15374,7 @@
         },
         "index": {
           "hierarchy": "SAT Integer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Integer",
           "name": "Expr",
           "normalized": "Expr[(Integer,[Lit])]",
@@ -14254,6 +15390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Integer",
           "name": "addConstraint",
           "package": "toysolver",
@@ -14263,6 +15400,7 @@
         },
         "index": {
           "hierarchy": "SAT Integer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Integer",
           "name": "addConstraint",
           "normalized": "Encoder-\u003eRel Expr-\u003eIO()",
@@ -14278,6 +15416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Integer",
           "name": "addConstraintSoft",
           "package": "toysolver",
@@ -14287,6 +15426,7 @@
         },
         "index": {
           "hierarchy": "SAT Integer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Integer",
           "name": "addConstraintSoft",
           "normalized": "Encoder-\u003eLit-\u003eRel Expr-\u003eIO()",
@@ -14302,6 +15442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Integer",
           "name": "eval",
           "package": "toysolver",
@@ -14311,6 +15452,7 @@
         },
         "index": {
           "hierarchy": "SAT Integer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Integer",
           "name": "eval",
           "normalized": "Model-\u003eExpr-\u003eInteger",
@@ -14325,6 +15467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Integer",
           "name": "linearize",
           "package": "toysolver",
@@ -14334,6 +15477,7 @@
         },
         "index": {
           "hierarchy": "SAT Integer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Integer",
           "name": "linearize",
           "normalized": "Encoder-\u003eExpr-\u003eIO([(Integer,Lit)],Integer)",
@@ -14348,6 +15492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Integer",
           "name": "newVar",
           "package": "toysolver",
@@ -14357,6 +15502,7 @@
         },
         "index": {
           "hierarchy": "SAT Integer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Integer",
           "name": "newVar",
           "normalized": "Solver-\u003eInteger-\u003eInteger-\u003eIO Expr",
@@ -14373,6 +15519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMinimal Unsatifiable Subset (MUS) Finder\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.MUS",
           "name": "MUS",
           "package": "toysolver",
@@ -14382,6 +15529,7 @@
         "index": {
           "description": "Minimal Unsatifiable Subset MUS Finder",
           "hierarchy": "SAT MUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.MUS",
           "name": "MUS",
           "package": "toysolver",
@@ -14396,6 +15544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for \u003ccode\u003e\u003ca\u003efindMUSAssumptions\u003c/a\u003e\u003c/code\u003e function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.MUS",
           "name": "Options",
           "package": "toysolver",
@@ -14405,6 +15554,7 @@
         "index": {
           "description": "Options for findMUSAssumptions function",
           "hierarchy": "SAT MUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.MUS",
           "name": "Options",
           "package": "toysolver",
@@ -14418,6 +15568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.MUS",
           "name": "Options",
           "package": "toysolver",
@@ -14427,6 +15578,7 @@
         },
         "index": {
           "hierarchy": "SAT MUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.MUS",
           "name": "Options",
           "package": "toysolver",
@@ -14441,6 +15593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.MUS",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -14451,6 +15604,7 @@
         "index": {
           "description": "default Options value",
           "hierarchy": "SAT MUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.MUS",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -14465,6 +15619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a minimal set of assumptions that causes a conflict.\n Initial set of assumptions is taken from \u003ccode\u003e\u003ca\u003efailedAssumptions\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.MUS",
           "name": "findMUSAssumptions",
           "package": "toysolver",
@@ -14475,6 +15630,7 @@
         "index": {
           "description": "Find minimal set of assumptions that causes conflict Initial set of assumptions is taken from failedAssumptions",
           "hierarchy": "SAT MUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.MUS",
           "name": "findMUSAssumptions",
           "normalized": "Solver-\u003eOptions-\u003eIO[Lit]",
@@ -14490,6 +15646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.MUS",
           "name": "optLitPrinter",
           "package": "toysolver",
@@ -14499,6 +15656,7 @@
         },
         "index": {
           "hierarchy": "SAT MUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.MUS",
           "name": "optLitPrinter",
           "normalized": "Lit-\u003eString",
@@ -14514,6 +15672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.MUS",
           "name": "optLogger",
           "package": "toysolver",
@@ -14523,6 +15682,7 @@
         },
         "index": {
           "hierarchy": "SAT MUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.MUS",
           "name": "optLogger",
           "normalized": "String-\u003eIO()",
@@ -14538,6 +15698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.MUS",
           "name": "optUpdateBest",
           "package": "toysolver",
@@ -14547,6 +15708,7 @@
         },
         "index": {
           "hierarchy": "SAT MUS",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.MUS",
           "name": "optUpdateBest",
           "normalized": "[Lit]-\u003eIO()",
@@ -14563,6 +15725,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReference:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Jo&#227;o P. Marques-Silva and Jordi Planes.\n   Algorithms for Maximum Satisfiability using Unsatisfiable Cores.\n   In Design, Automation and Test in Europe, 2008 (DATE '08). March 2008.\n   pp. 408-413, doi:10.1109/date.2008.4484715.\n   \u003ca\u003ehttp://dx.doi.org/10.1109/date.2008.4484715\u003c/a\u003e\n   \u003ca\u003ehttp://eprints.soton.ac.uk/265000/1/jpms-date08.pdf\u003c/a\u003e\n   \u003ca\u003ehttp://www.csi.ucd.ie/staff/jpms/talks/talksite/jpms-date08.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.MSU4",
           "name": "MSU4",
           "package": "toysolver",
@@ -14572,6 +15735,7 @@
         "index": {
           "description": "Reference Jo Marques-Silva and Jordi Planes Algorithms for Maximum Satisfiability using Unsatisfiable Cores In Design Automation and Test in Europe DATE March pp doi date.2008.4484715 http dx.doi.org date.2008.4484715 http eprints.soton.ac.uk jpms-date08.pdf http www.csi.ucd.ie staff jpms talks talksite jpms-date08.pdf",
           "hierarchy": "SAT PBO MSU4",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.MSU4",
           "name": "MSU4",
           "package": "toysolver",
@@ -14585,6 +15749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.MSU4",
           "name": "Options",
           "package": "toysolver",
@@ -14593,6 +15758,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO MSU4",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.MSU4",
           "name": "Options",
           "package": "toysolver",
@@ -14606,6 +15772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.MSU4",
           "name": "Options",
           "package": "toysolver",
@@ -14615,6 +15782,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO MSU4",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.MSU4",
           "name": "Options",
           "package": "toysolver",
@@ -14628,6 +15796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.MSU4",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -14637,6 +15806,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO MSU4",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.MSU4",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -14650,6 +15820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.MSU4",
           "name": "optLogger",
           "package": "toysolver",
@@ -14659,6 +15830,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO MSU4",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.MSU4",
           "name": "optLogger",
           "normalized": "String-\u003eIO()",
@@ -14674,6 +15846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.MSU4",
           "name": "optUpdateBest",
           "package": "toysolver",
@@ -14683,6 +15856,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO MSU4",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.MSU4",
           "name": "optUpdateBest",
           "normalized": "Model-\u003eInteger-\u003eIO()",
@@ -14698,6 +15872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.MSU4",
           "name": "optUpdateLB",
           "package": "toysolver",
@@ -14707,6 +15882,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO MSU4",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.MSU4",
           "name": "optUpdateLB",
           "normalized": "Integer-\u003eIO()",
@@ -14722,6 +15898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.MSU4",
           "name": "solve",
           "package": "toysolver",
@@ -14731,6 +15908,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO MSU4",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.MSU4",
           "name": "solve",
           "normalized": "Solver-\u003e[(Integer,Lit)]-\u003eOptions-\u003eIO(Maybe Model)",
@@ -14745,6 +15923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.MSU4",
           "name": "solveWBO",
           "package": "toysolver",
@@ -14754,6 +15933,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO MSU4",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.MSU4",
           "name": "solveWBO",
           "normalized": "Solver-\u003e[(Lit,Integer)]-\u003eOptions-\u003eIO(Maybe(Model,Integer))",
@@ -14769,6 +15949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.UnsatBased",
           "name": "UnsatBased",
           "package": "toysolver",
@@ -14777,6 +15958,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO UnsatBased",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.UnsatBased",
           "name": "UnsatBased",
           "package": "toysolver",
@@ -14790,6 +15972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.UnsatBased",
           "name": "Options",
           "package": "toysolver",
@@ -14798,6 +15981,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO UnsatBased",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.UnsatBased",
           "name": "Options",
           "package": "toysolver",
@@ -14811,6 +15995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.UnsatBased",
           "name": "Options",
           "package": "toysolver",
@@ -14820,6 +16005,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO UnsatBased",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.UnsatBased",
           "name": "Options",
           "package": "toysolver",
@@ -14833,6 +16019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.UnsatBased",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -14842,6 +16029,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO UnsatBased",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.UnsatBased",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -14855,6 +16043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.UnsatBased",
           "name": "optLogger",
           "package": "toysolver",
@@ -14864,6 +16053,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO UnsatBased",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.UnsatBased",
           "name": "optLogger",
           "normalized": "String-\u003eIO()",
@@ -14879,6 +16069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.UnsatBased",
           "name": "optUpdateBest",
           "package": "toysolver",
@@ -14888,6 +16079,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO UnsatBased",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.UnsatBased",
           "name": "optUpdateBest",
           "normalized": "Model-\u003eInteger-\u003eIO()",
@@ -14903,6 +16095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.UnsatBased",
           "name": "optUpdateLB",
           "package": "toysolver",
@@ -14912,6 +16105,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO UnsatBased",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.UnsatBased",
           "name": "optUpdateLB",
           "normalized": "Integer-\u003eIO()",
@@ -14927,6 +16121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.UnsatBased",
           "name": "solve",
           "package": "toysolver",
@@ -14936,6 +16131,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO UnsatBased",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.UnsatBased",
           "name": "solve",
           "normalized": "Solver-\u003e[(Integer,Lit)]-\u003eOptions-\u003eIO(Maybe Model)",
@@ -14950,6 +16146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO.UnsatBased",
           "name": "solveWBO",
           "package": "toysolver",
@@ -14959,6 +16156,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO UnsatBased",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO.UnsatBased",
           "name": "solveWBO",
           "normalized": "Solver-\u003e[(Lit,Integer)]-\u003eOptions-\u003eIO(Maybe(Model,Integer))",
@@ -14975,6 +16173,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePseudo-Boolean Optimization (PBO) Solver\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "PBO",
           "package": "toysolver",
@@ -14984,6 +16183,7 @@
         "index": {
           "description": "Pseudo-Boolean Optimization PBO Solver",
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "PBO",
           "package": "toysolver",
@@ -14997,6 +16197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "Options",
           "package": "toysolver",
@@ -15005,6 +16206,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "Options",
           "package": "toysolver",
@@ -15018,6 +16220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "SearchStrategy",
           "package": "toysolver",
@@ -15026,6 +16229,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "SearchStrategy",
           "package": "toysolver",
@@ -15039,6 +16243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "AdaptiveSearch",
           "package": "toysolver",
@@ -15048,6 +16253,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "AdaptiveSearch",
           "package": "toysolver",
@@ -15061,6 +16267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "BinarySearch",
           "package": "toysolver",
@@ -15070,6 +16277,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "BinarySearch",
           "package": "toysolver",
@@ -15083,6 +16291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "LinearSearch",
           "package": "toysolver",
@@ -15092,6 +16301,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "LinearSearch",
           "package": "toysolver",
@@ -15105,6 +16315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "MSU4",
           "package": "toysolver",
@@ -15114,6 +16325,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "MSU4",
           "package": "toysolver",
@@ -15127,6 +16339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "Options",
           "package": "toysolver",
@@ -15136,6 +16349,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "Options",
           "package": "toysolver",
@@ -15149,6 +16363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "UnsatBased",
           "package": "toysolver",
@@ -15158,6 +16373,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "UnsatBased",
           "package": "toysolver",
@@ -15171,6 +16387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -15180,6 +16397,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "defaultOptions",
           "package": "toysolver",
@@ -15193,6 +16411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "minimize",
           "package": "toysolver",
@@ -15202,6 +16421,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "minimize",
           "normalized": "Solver-\u003e[(Integer,Lit)]-\u003eOptions-\u003eIO(Maybe Model)",
@@ -15216,6 +16436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "optLogger",
           "package": "toysolver",
@@ -15225,6 +16446,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "optLogger",
           "normalized": "String-\u003eIO()",
@@ -15240,6 +16462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "optObjFunVarsHeuristics",
           "package": "toysolver",
@@ -15249,6 +16472,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "optObjFunVarsHeuristics",
           "package": "toysolver",
@@ -15262,6 +16486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "optSearchStrategy",
           "package": "toysolver",
@@ -15271,6 +16496,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "optSearchStrategy",
           "package": "toysolver",
@@ -15284,6 +16510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "optTrialLimitConf",
           "package": "toysolver",
@@ -15293,6 +16520,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "optTrialLimitConf",
           "package": "toysolver",
@@ -15306,6 +16534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "optUpdateBest",
           "package": "toysolver",
@@ -15315,6 +16544,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "optUpdateBest",
           "normalized": "Model-\u003eInteger-\u003eIO()",
@@ -15330,6 +16560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "optUpdateLB",
           "package": "toysolver",
@@ -15339,6 +16570,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "optUpdateLB",
           "normalized": "Integer-\u003eIO()",
@@ -15354,6 +16586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.PBO",
           "name": "tweakParams",
           "package": "toysolver",
@@ -15363,6 +16596,7 @@
         },
         "index": {
           "hierarchy": "SAT PBO",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.PBO",
           "name": "tweakParams",
           "normalized": "Solver-\u003e[(Integer,Lit)]-\u003eIO()",
@@ -15379,6 +16613,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrinting utilities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Printer",
           "name": "Printer",
           "package": "toysolver",
@@ -15388,6 +16623,7 @@
         "index": {
           "description": "Printing utilities",
           "hierarchy": "SAT Printer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Printer",
           "name": "Printer",
           "package": "toysolver",
@@ -15402,6 +16638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a \u003ccode\u003e\u003ca\u003eModel\u003c/a\u003e\u003c/code\u003e in a way specified for Max-SAT Evaluation.\n See \u003ca\u003ehttp://maxsat.ia.udl.cat/requirements/\u003c/a\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Printer",
           "name": "maxsatPrintModel",
           "package": "toysolver",
@@ -15412,6 +16649,7 @@
         "index": {
           "description": "Print Model in way specified for Max-SAT Evaluation See http maxsat.ia.udl.cat requirements for details",
           "hierarchy": "SAT Printer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Printer",
           "name": "maxsatPrintModel",
           "normalized": "Handle-\u003eModel-\u003eInt-\u003eIO()",
@@ -15427,6 +16665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Printer",
           "name": "musPrintSol",
           "package": "toysolver",
@@ -15436,6 +16675,7 @@
         },
         "index": {
           "hierarchy": "SAT Printer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Printer",
           "name": "musPrintSol",
           "normalized": "Handle-\u003e[Int]-\u003eIO()",
@@ -15452,6 +16692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a \u003ccode\u003e\u003ca\u003eModel\u003c/a\u003e\u003c/code\u003e in a way specified for Pseudo-Boolean Competition.\n See \u003ca\u003ehttp://www.cril.univ-artois.fr/PB12/format.pdf\u003c/a\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Printer",
           "name": "pbPrintModel",
           "package": "toysolver",
@@ -15462,6 +16703,7 @@
         "index": {
           "description": "Print Model in way specified for Pseudo-Boolean Competition See http www.cril.univ-artois.fr PB12 format.pdf for details",
           "hierarchy": "SAT Printer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Printer",
           "name": "pbPrintModel",
           "normalized": "Handle-\u003eModel-\u003eInt-\u003eIO()",
@@ -15478,6 +16720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a \u003ccode\u003e\u003ca\u003eModel\u003c/a\u003e\u003c/code\u003e in a way specified for SAT Competition.\n See \u003ca\u003ehttp://www.satcompetition.org/2011/rules.pdf\u003c/a\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Printer",
           "name": "satPrintModel",
           "package": "toysolver",
@@ -15488,6 +16731,7 @@
         "index": {
           "description": "Print Model in way specified for SAT Competition See http www.satcompetition.org rules.pdf for details",
           "hierarchy": "SAT Printer",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Printer",
           "name": "satPrintModel",
           "normalized": "Handle-\u003eModel-\u003eInt-\u003eIO()",
@@ -15503,6 +16747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TheorySolver",
           "name": "TheorySolver",
           "package": "toysolver",
@@ -15511,6 +16756,7 @@
         },
         "index": {
           "hierarchy": "SAT TheorySolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TheorySolver",
           "name": "TheorySolver",
           "package": "toysolver",
@@ -15524,6 +16770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TheorySolver",
           "name": "TheorySolver",
           "package": "toysolver",
@@ -15532,6 +16779,7 @@
         },
         "index": {
           "hierarchy": "SAT TheorySolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TheorySolver",
           "name": "TheorySolver",
           "package": "toysolver",
@@ -15545,6 +16793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TheorySolver",
           "name": "TheorySolver",
           "package": "toysolver",
@@ -15554,6 +16803,7 @@
         },
         "index": {
           "hierarchy": "SAT TheorySolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TheorySolver",
           "name": "TheorySolver",
           "package": "toysolver",
@@ -15567,6 +16817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TheorySolver",
           "name": "emptyTheory",
           "package": "toysolver",
@@ -15576,6 +16827,7 @@
         },
         "index": {
           "hierarchy": "SAT TheorySolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TheorySolver",
           "name": "emptyTheory",
           "package": "toysolver",
@@ -15589,6 +16841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TheorySolver",
           "name": "thAssertLit",
           "package": "toysolver",
@@ -15598,6 +16851,7 @@
         },
         "index": {
           "hierarchy": "SAT TheorySolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TheorySolver",
           "name": "thAssertLit",
           "normalized": "(Lit-\u003eIO Bool)-\u003eLit-\u003eIO Bool",
@@ -15613,6 +16867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TheorySolver",
           "name": "thCheck",
           "package": "toysolver",
@@ -15622,6 +16877,7 @@
         },
         "index": {
           "hierarchy": "SAT TheorySolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TheorySolver",
           "name": "thCheck",
           "normalized": "(Lit-\u003eIO Bool)-\u003eIO Bool",
@@ -15637,6 +16893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TheorySolver",
           "name": "thExplain",
           "package": "toysolver",
@@ -15646,6 +16903,7 @@
         },
         "index": {
           "hierarchy": "SAT TheorySolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TheorySolver",
           "name": "thExplain",
           "normalized": "IO[Lit]",
@@ -15661,6 +16919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TheorySolver",
           "name": "thPopBacktrackPoint",
           "package": "toysolver",
@@ -15670,6 +16929,7 @@
         },
         "index": {
           "hierarchy": "SAT TheorySolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TheorySolver",
           "name": "thPopBacktrackPoint",
           "normalized": "IO()",
@@ -15685,6 +16945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TheorySolver",
           "name": "thPushBacktrackPoint",
           "package": "toysolver",
@@ -15694,6 +16955,7 @@
         },
         "index": {
           "hierarchy": "SAT TheorySolver",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TheorySolver",
           "name": "thPushBacktrackPoint",
           "normalized": "IO()",
@@ -15710,6 +16972,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTseitin encoding\n\u003c/p\u003e\u003cp\u003eTODO:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e reduce variables.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e [Tse83] G. Tseitin. On the complexity of derivation in propositional\n   calculus. Automation of Reasoning: Classical Papers in Computational\n   Logic, 2:466-483, 1983. Springer-Verlag. \n\u003c/li\u003e\u003cli\u003e [For60] R. Fortet. Application de l'alg&#232;bre de Boole en rechercheop\n   op&#233;rationelle. Revue Fran&#231;aise de Recherche Op&#233;rationelle, 4:17-26,\n   1960. \n\u003c/li\u003e\u003cli\u003e [BM84a] E. Balas and J. B. Mazzola. Nonlinear 0-1 programming:\n   I. Linearization techniques. Mathematical Programming, 30(1):1-21,\n   1984.\n\u003c/li\u003e\u003cli\u003e [BM84b] E. Balas and J. B. Mazzola. Nonlinear 0-1 programming:\n   II. Dominance relations and algorithms. Mathematical Programming,\n   30(1):22-45, 1984.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "TseitinEncoder",
           "package": "toysolver",
@@ -15719,6 +16982,7 @@
         "index": {
           "description": "Tseitin encoding TODO reduce variables References Tse83 Tseitin On the complexity of derivation in propositional calculus Automation of Reasoning Classical Papers in Computational Logic Springer-Verlag For60 Fortet Application de alg bre de Boole en rechercheop op rationelle Revue Fran aise de Recherche Op rationelle BM84a Balas and Mazzola Nonlinear programming Linearization techniques Mathematical Programming BM84b Balas and Mazzola Nonlinear programming II Dominance relations and algorithms Mathematical Programming",
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "TseitinEncoder",
           "package": "toysolver",
@@ -15733,6 +16997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoder instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "Encoder",
           "package": "toysolver",
@@ -15742,6 +17007,7 @@
         "index": {
           "description": "Encoder instance",
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "Encoder",
           "package": "toysolver",
@@ -15756,6 +17022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary formula not restricted to CNF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "Formula",
           "package": "toysolver",
@@ -15765,6 +17032,7 @@
         "index": {
           "description": "Arbitrary formula not restricted to CNF",
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "Formula",
           "package": "toysolver",
@@ -15778,6 +17046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "And",
           "package": "toysolver",
@@ -15787,6 +17056,7 @@
         },
         "index": {
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "And",
           "normalized": "And[Formula]",
@@ -15802,6 +17072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "Equiv",
           "package": "toysolver",
@@ -15811,6 +17082,7 @@
         },
         "index": {
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "Equiv",
           "package": "toysolver",
@@ -15824,6 +17096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "Imply",
           "package": "toysolver",
@@ -15833,6 +17106,7 @@
         },
         "index": {
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "Imply",
           "package": "toysolver",
@@ -15846,6 +17120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "Not",
           "package": "toysolver",
@@ -15855,6 +17130,7 @@
         },
         "index": {
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "Not",
           "package": "toysolver",
@@ -15868,6 +17144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "Or",
           "package": "toysolver",
@@ -15877,6 +17154,7 @@
         },
         "index": {
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "Or",
           "normalized": "Or[Formula]",
@@ -15892,6 +17170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "Var",
           "package": "toysolver",
@@ -15901,6 +17180,7 @@
         },
         "index": {
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "Var",
           "package": "toysolver",
@@ -15915,6 +17195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert a given formula to underlying SAT solver by using\n Tseitin encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "addFormula",
           "package": "toysolver",
@@ -15925,6 +17206,7 @@
         "index": {
           "description": "Assert given formula to underlying SAT solver by using Tseitin encoding",
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "addFormula",
           "normalized": "Encoder-\u003eFormula-\u003eIO()",
@@ -15940,6 +17222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "encSolver",
           "package": "toysolver",
@@ -15949,6 +17232,7 @@
         },
         "index": {
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "encSolver",
           "normalized": "Encoder-\u003eSolver",
@@ -15965,6 +17249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an literal which is equivalent to a given conjunction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "encodeConj",
           "package": "toysolver",
@@ -15975,6 +17260,7 @@
         "index": {
           "description": "Return an literal which is equivalent to given conjunction",
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "encodeConj",
           "normalized": "Encoder-\u003e[Lit]-\u003eIO Lit",
@@ -15991,6 +17277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an literal which is equivalent to a given disjunction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "encodeDisj",
           "package": "toysolver",
@@ -16001,6 +17288,7 @@
         "index": {
           "description": "Return an literal which is equivalent to given disjunction",
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "encodeDisj",
           "normalized": "Encoder-\u003e[Lit]-\u003eIO Lit",
@@ -16017,6 +17305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003eEncoder\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "newEncoder",
           "package": "toysolver",
@@ -16027,6 +17316,7 @@
         "index": {
           "description": "Create Encoder instance",
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "newEncoder",
           "normalized": "Solver-\u003eIO Encoder",
@@ -16043,6 +17333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003cem\u003epseudo boolean constraints\u003c/em\u003e or use only \u003cem\u003eclauses\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.TseitinEncoder",
           "name": "setUsePB",
           "package": "toysolver",
@@ -16053,6 +17344,7 @@
         "index": {
           "description": "Use pseudo boolean constraints or use only clauses",
           "hierarchy": "SAT TseitinEncoder",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.TseitinEncoder",
           "name": "setUsePB",
           "normalized": "Encoder-\u003eBool-\u003eIO()",
@@ -16068,6 +17360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "Types",
           "package": "toysolver",
@@ -16076,6 +17369,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "Types",
           "package": "toysolver",
@@ -16090,6 +17384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunction of \u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "Clause",
           "package": "toysolver",
@@ -16099,6 +17394,7 @@
         "index": {
           "description": "Disjunction of Lit",
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "Clause",
           "package": "toysolver",
@@ -16113,6 +17409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositive (resp. negative) literals are represented as positive (resp.\n negative) integers. (DIMACS format).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "Lit",
           "package": "toysolver",
@@ -16122,6 +17419,7 @@
         "index": {
           "description": "Positive resp negative literals are represented as positive resp negative integers DIMACS format",
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "Lit",
           "package": "toysolver",
@@ -16135,6 +17433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "LitMap",
           "package": "toysolver",
@@ -16143,6 +17442,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "LitMap",
           "package": "toysolver",
@@ -16156,6 +17456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "LitSet",
           "package": "toysolver",
@@ -16164,6 +17465,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "LitSet",
           "package": "toysolver",
@@ -16178,6 +17480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA model is represented as a mapping from variables to its values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "Model",
           "package": "toysolver",
@@ -16187,6 +17490,7 @@
         "index": {
           "description": "model is represented as mapping from variables to its values",
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "Model",
           "package": "toysolver",
@@ -16201,6 +17505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable is represented as positive integers (DIMACS format).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "Var",
           "package": "toysolver",
@@ -16210,6 +17515,7 @@
         "index": {
           "description": "Variable is represented as positive integers DIMACS format",
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "Var",
           "package": "toysolver",
@@ -16223,6 +17529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "VarMap",
           "package": "toysolver",
@@ -16231,6 +17538,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "VarMap",
           "package": "toysolver",
@@ -16244,6 +17552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "VarSet",
           "package": "toysolver",
@@ -16252,6 +17561,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "VarSet",
           "package": "toysolver",
@@ -16265,6 +17575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "cardinalityReduction",
           "package": "toysolver",
@@ -16274,6 +17585,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "cardinalityReduction",
           "normalized": "([(Integer,Lit)],Integer)-\u003e([Lit],Int)",
@@ -16289,6 +17601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "cutResolve",
           "package": "toysolver",
@@ -16298,6 +17611,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "cutResolve",
           "normalized": "([(Integer,Lit)],Integer)-\u003e([(Integer,Lit)],Integer)-\u003eVar-\u003e([(Integer,Lit)],Integer)",
@@ -16313,6 +17627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "evalLit",
           "package": "toysolver",
@@ -16322,6 +17637,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "evalLit",
           "normalized": "Model-\u003eLit-\u003eBool",
@@ -16391,6 +17707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "litUndef",
           "package": "toysolver",
@@ -16400,6 +17717,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "litUndef",
           "package": "toysolver",
@@ -16465,6 +17783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "negatePBAtLeast",
           "package": "toysolver",
@@ -16474,6 +17793,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "negatePBAtLeast",
           "normalized": "([(Integer,Lit)],Integer)-\u003e([(Integer,Lit)],Integer)",
@@ -16489,6 +17809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "normalizeAtLeast",
           "package": "toysolver",
@@ -16498,6 +17819,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "normalizeAtLeast",
           "normalized": "([Lit],Int)-\u003e([Lit],Int)",
@@ -16514,6 +17836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalizing clause\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the clause is trivially true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "normalizeClause",
           "package": "toysolver",
@@ -16524,6 +17847,7 @@
         "index": {
           "description": "Normalizing clause Nothing if the clause is trivially true",
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "normalizeClause",
           "normalized": "Clause-\u003eMaybe Clause",
@@ -16540,6 +17864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enormalizing PB constraint of the form \u003cem\u003ec1 x1 + c2 cn ... cn xn \u003e= b\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "normalizePBAtLeast",
           "package": "toysolver",
@@ -16550,6 +17875,7 @@
         "index": {
           "description": "normalizing PB constraint of the form c1 x1 c2 cn cn xn",
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "normalizePBAtLeast",
           "normalized": "([(Integer,Lit)],Integer)-\u003e([(Integer,Lit)],Integer)",
@@ -16566,6 +17892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enormalizing PB constraint of the form \u003cem\u003ec1 x1 + c2 cn ... cn xn = b\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "normalizePBExactly",
           "package": "toysolver",
@@ -16576,6 +17903,7 @@
         "index": {
           "description": "normalizing PB constraint of the form c1 x1 c2 cn cn xn",
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "normalizePBExactly",
           "normalized": "([(Integer,Lit)],Integer)-\u003e([(Integer,Lit)],Integer)",
@@ -16592,6 +17920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enormalizing PB term of the form \u003cem\u003ec1 x1 + c2 x2 ... cn xn + c\u003c/em\u003e into\n \u003cem\u003ed1 x1 + d2 x2 ... dm xm + d\u003c/em\u003e where d1,...,dm &#8805; 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "normalizePBSum",
           "package": "toysolver",
@@ -16602,6 +17931,7 @@
         "index": {
           "description": "normalizing PB term of the form c1 x1 c2 x2 cn xn into d1 x1 d2 x2 dm xm where d1 dm",
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "normalizePBSum",
           "normalized": "([(Integer,Lit)],Integer)-\u003e([(Integer,Lit)],Integer)",
@@ -16617,6 +17947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "pbEval",
           "package": "toysolver",
@@ -16626,6 +17957,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "pbEval",
           "normalized": "Model-\u003e[(Integer,Lit)]-\u003eInteger",
@@ -16641,6 +17973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "pbLowerBound",
           "package": "toysolver",
@@ -16650,6 +17983,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "pbLowerBound",
           "normalized": "[(Integer,Lit)]-\u003eInteger",
@@ -16665,6 +17999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "pbUpperBound",
           "package": "toysolver",
@@ -16674,6 +18009,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "pbUpperBound",
           "normalized": "[(Integer,Lit)]-\u003eInteger",
@@ -16689,6 +18025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "validLit",
           "package": "toysolver",
@@ -16698,6 +18035,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "validLit",
           "normalized": "Lit-\u003eBool",
@@ -16713,6 +18051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT.Types",
           "name": "validVar",
           "package": "toysolver",
@@ -16722,6 +18061,7 @@
         },
         "index": {
           "hierarchy": "SAT Types",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT.Types",
           "name": "validVar",
           "normalized": "Var-\u003eBool",
@@ -16738,6 +18078,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA CDCL SAT solver.\n\u003c/p\u003e\u003cp\u003eIt follows the design of MiniSat and SAT4J.\n\u003c/p\u003e\u003cp\u003eSee also:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://hackage.haskell.org/package/funsat\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://hackage.haskell.org/package/incremental-sat-solver\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "SAT",
           "package": "toysolver",
@@ -16747,6 +18088,7 @@
         "index": {
           "description": "CDCL SAT solver It follows the design of MiniSat and SAT4J See also http hackage.haskell.org package funsat http hackage.haskell.org package incremental-sat-solver",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "SAT",
           "package": "toysolver",
@@ -16760,6 +18102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "BudgetExceeded",
           "package": "toysolver",
@@ -16768,6 +18111,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "BudgetExceeded",
           "package": "toysolver",
@@ -16782,6 +18126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunction of \u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "Clause",
           "package": "toysolver",
@@ -16791,6 +18136,7 @@
         "index": {
           "description": "Disjunction of Lit",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "Clause",
           "package": "toysolver",
@@ -16804,6 +18150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "LearningStrategy",
           "package": "toysolver",
@@ -16812,6 +18159,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "LearningStrategy",
           "package": "toysolver",
@@ -16826,6 +18174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositive (resp. negative) literals are represented as positive (resp.\n negative) integers. (DIMACS format).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "Lit",
           "package": "toysolver",
@@ -16835,6 +18184,7 @@
         "index": {
           "description": "Positive resp negative literals are represented as positive resp negative integers DIMACS format",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "Lit",
           "package": "toysolver",
@@ -16849,6 +18199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA model is represented as a mapping from variables to its values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "Model",
           "package": "toysolver",
@@ -16858,6 +18209,7 @@
         "index": {
           "description": "model is represented as mapping from variables to its values",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "Model",
           "package": "toysolver",
@@ -16871,6 +18223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "RestartStrategy",
           "package": "toysolver",
@@ -16879,6 +18232,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "RestartStrategy",
           "package": "toysolver",
@@ -16893,6 +18247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolver instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "Solver",
           "package": "toysolver",
@@ -16902,6 +18257,7 @@
         "index": {
           "description": "Solver instance",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "Solver",
           "package": "toysolver",
@@ -16916,6 +18272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable is represented as positive integers (DIMACS format).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "Var",
           "package": "toysolver",
@@ -16925,6 +18282,7 @@
         "index": {
           "description": "Variable is represented as positive integers DIMACS format",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "Var",
           "package": "toysolver",
@@ -16938,6 +18296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "ArminRestarts",
           "package": "toysolver",
@@ -16947,6 +18306,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "ArminRestarts",
           "package": "toysolver",
@@ -16960,6 +18320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "BudgetExceeded",
           "package": "toysolver",
@@ -16969,6 +18330,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "BudgetExceeded",
           "package": "toysolver",
@@ -16982,6 +18344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "LearningClause",
           "package": "toysolver",
@@ -16991,6 +18354,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "LearningClause",
           "package": "toysolver",
@@ -17004,6 +18368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "LearningHybrid",
           "package": "toysolver",
@@ -17013,6 +18378,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "LearningHybrid",
           "package": "toysolver",
@@ -17026,6 +18392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "LubyRestarts",
           "package": "toysolver",
@@ -17035,6 +18402,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "LubyRestarts",
           "package": "toysolver",
@@ -17048,6 +18416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "MiniSATRestarts",
           "package": "toysolver",
@@ -17057,6 +18426,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "MiniSATRestarts",
           "package": "toysolver",
@@ -17071,6 +18441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a cardinality constraints \u003cem\u003eatleast({l1,l2,..},n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "addAtLeast",
           "package": "toysolver",
@@ -17080,6 +18451,7 @@
         "index": {
           "description": "Add cardinality constraints atleast l1 l2",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "addAtLeast",
           "normalized": "Solver-\u003e[Lit]-\u003eInt-\u003eIO()",
@@ -17096,6 +18468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a cardinality constraints \u003cem\u003eatmost({l1,l2,..},n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "addAtMost",
           "package": "toysolver",
@@ -17105,6 +18478,7 @@
         "index": {
           "description": "Add cardinality constraints atmost l1 l2",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "addAtMost",
           "normalized": "Solver-\u003e[Lit]-\u003eInt-\u003eIO()",
@@ -17121,6 +18495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a clause to the solver.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "addClause",
           "package": "toysolver",
@@ -17131,6 +18506,7 @@
         "index": {
           "description": "Add clause to the solver",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "addClause",
           "normalized": "Solver-\u003eClause-\u003eIO()",
@@ -17147,6 +18523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a cardinality constraints \u003cem\u003eexactly({l1,l2,..},n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "addExactly",
           "package": "toysolver",
@@ -17156,6 +18533,7 @@
         "index": {
           "description": "Add cardinality constraints exactly l1 l2",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "addExactly",
           "normalized": "Solver-\u003e[Lit]-\u003eInt-\u003eIO()",
@@ -17172,6 +18550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a pseudo boolean constraints \u003cem\u003ec1*l1 + c2*l2 + &#8230; &#8805; n\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "addPBAtLeast",
           "package": "toysolver",
@@ -17181,6 +18560,7 @@
         "index": {
           "description": "Add pseudo boolean constraints c1 l1 c2 l2",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "addPBAtLeast",
           "normalized": "Solver-\u003e[(Integer,Lit)]-\u003eInteger-\u003eIO()",
@@ -17197,6 +18577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a soft pseudo boolean constraints \u003cem\u003elit &#8658; c1*l1 + c2*l2 + &#8230; &#8805; n\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "addPBAtLeastSoft",
           "package": "toysolver",
@@ -17206,6 +18587,7 @@
         "index": {
           "description": "Add soft pseudo boolean constraints lit c1 l1 c2 l2",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "addPBAtLeastSoft",
           "normalized": "Solver-\u003eLit-\u003e[(Integer,Lit)]-\u003eInteger-\u003eIO()",
@@ -17222,6 +18604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a pseudo boolean constraints \u003cem\u003ec1*l1 + c2*l2 + &#8230; &#8804; n\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "addPBAtMost",
           "package": "toysolver",
@@ -17231,6 +18614,7 @@
         "index": {
           "description": "Add pseudo boolean constraints c1 l1 c2 l2",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "addPBAtMost",
           "normalized": "Solver-\u003e[(Integer,Lit)]-\u003eInteger-\u003eIO()",
@@ -17247,6 +18631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a soft pseudo boolean constraints \u003cem\u003elit &#8658; c1*l1 + c2*l2 + &#8230; &#8804; n\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "addPBAtMostSoft",
           "package": "toysolver",
@@ -17256,6 +18641,7 @@
         "index": {
           "description": "Add soft pseudo boolean constraints lit c1 l1 c2 l2",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "addPBAtMostSoft",
           "normalized": "Solver-\u003eLit-\u003e[(Integer,Lit)]-\u003eInteger-\u003eIO()",
@@ -17272,6 +18658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a pseudo boolean constraints \u003cem\u003ec1*l1 + c2*l2 + &#8230; = n\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "addPBExactly",
           "package": "toysolver",
@@ -17281,6 +18668,7 @@
         "index": {
           "description": "Add pseudo boolean constraints c1 l1 c2 l2",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "addPBExactly",
           "normalized": "Solver-\u003e[(Integer,Lit)]-\u003eInteger-\u003eIO()",
@@ -17297,6 +18685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a soft pseudo boolean constraints \u003cem\u003elit &#8658; c1*l1 + c2*l2 + &#8230; = n\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "addPBExactlySoft",
           "package": "toysolver",
@@ -17306,6 +18695,7 @@
         "index": {
           "description": "Add soft pseudo boolean constraints lit c1 l1 c2 l2",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "addPBExactlySoft",
           "normalized": "Solver-\u003eLit-\u003e[(Integer,Lit)]-\u003eInteger-\u003eIO()",
@@ -17322,6 +18712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault value for \u003ccode\u003eCCMin\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "defaultCCMin",
           "package": "toysolver",
@@ -17332,6 +18723,7 @@
         "index": {
           "description": "default value for CCMin",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "defaultCCMin",
           "package": "toysolver",
@@ -17345,6 +18737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "defaultLearningStrategy",
           "package": "toysolver",
@@ -17354,6 +18747,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "defaultLearningStrategy",
           "package": "toysolver",
@@ -17368,6 +18762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault value for \u003ccode\u003eLearntSizeFirst\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "defaultLearntSizeFirst",
           "package": "toysolver",
@@ -17378,6 +18773,7 @@
         "index": {
           "description": "default value for LearntSizeFirst",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "defaultLearntSizeFirst",
           "package": "toysolver",
@@ -17392,6 +18788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault value for \u003ccode\u003eLearntSizeInc\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "defaultLearntSizeInc",
           "package": "toysolver",
@@ -17402,6 +18799,7 @@
         "index": {
           "description": "default value for LearntSizeInc",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "defaultLearntSizeInc",
           "package": "toysolver",
@@ -17415,6 +18813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "defaultRandomFreq",
           "package": "toysolver",
@@ -17424,6 +18823,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "defaultRandomFreq",
           "package": "toysolver",
@@ -17438,6 +18838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault value for \u003ccode\u003eRestartFirst\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "defaultRestartFirst",
           "package": "toysolver",
@@ -17448,6 +18849,7 @@
         "index": {
           "description": "default value for RestartFirst",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "defaultRestartFirst",
           "package": "toysolver",
@@ -17462,6 +18864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault value for \u003ccode\u003eRestartInc\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "defaultRestartInc",
           "package": "toysolver",
@@ -17472,6 +18875,7 @@
         "index": {
           "description": "default value for RestartInc",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "defaultRestartInc",
           "package": "toysolver",
@@ -17486,6 +18890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault value for \u003ccode\u003eRestartStrategy\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "defaultRestartStrategy",
           "package": "toysolver",
@@ -17496,6 +18901,7 @@
         "index": {
           "description": "default value for RestartStrategy",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "defaultRestartStrategy",
           "package": "toysolver",
@@ -17510,6 +18916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAfter \u003ccode\u003e\u003ca\u003esolveWith\u003c/a\u003e\u003c/code\u003e returns False, it returns a set of assumptions\n that leads to contradiction. In particular, if it returns an empty\n set, the problem is unsatisiable without any assumptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "failedAssumptions",
           "package": "toysolver",
@@ -17520,6 +18927,7 @@
         "index": {
           "description": "After solveWith returns False it returns set of assumptions that leads to contradiction In particular if it returns an empty set the problem is unsatisiable without any assumptions",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "failedAssumptions",
           "normalized": "Solver-\u003eIO[Lit]",
@@ -17536,6 +18944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAfter \u003ccode\u003e\u003ca\u003esolve\u003c/a\u003e\u003c/code\u003e returns True, it returns the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "model",
           "package": "toysolver",
@@ -17546,6 +18955,7 @@
         "index": {
           "description": "After solve returns True it returns the model",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "model",
           "normalized": "Solver-\u003eIO Model",
@@ -17561,6 +18971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of assigned variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "nAssigns",
           "package": "toysolver",
@@ -17571,6 +18982,7 @@
         "index": {
           "description": "number of assigned variables",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "nAssigns",
           "normalized": "Solver-\u003eIO Int",
@@ -17587,6 +18999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "nClauses",
           "package": "toysolver",
@@ -17597,6 +19010,7 @@
         "index": {
           "description": "number of clauses",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "nClauses",
           "normalized": "Solver-\u003eIO Int",
@@ -17613,6 +19027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of learnt constrints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "nLearnt",
           "package": "toysolver",
@@ -17623,6 +19038,7 @@
         "index": {
           "description": "number of learnt constrints",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "nLearnt",
           "normalized": "Solver-\u003eIO Int",
@@ -17639,6 +19055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of variables of the problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "nVars",
           "package": "toysolver",
@@ -17649,6 +19066,7 @@
         "index": {
           "description": "number of variables of the problem",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "nVars",
           "normalized": "Solver-\u003eIO Int",
@@ -17665,6 +19083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new Solver instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "newSolver",
           "package": "toysolver",
@@ -17675,6 +19094,7 @@
         "index": {
           "description": "Create new Solver instance",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "newSolver",
           "package": "toysolver",
@@ -17689,6 +19109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "newVar",
           "package": "toysolver",
@@ -17699,6 +19120,7 @@
         "index": {
           "description": "Add new variable",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "newVar",
           "normalized": "Solver-\u003eIO Var",
@@ -17715,6 +19137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd variables. \u003ccode\u003enewVars solver n = replicateM n (newVar solver)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "newVars",
           "package": "toysolver",
@@ -17725,6 +19148,7 @@
         "index": {
           "description": "Add variables newVars solver replicateM newVar solver",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "newVars",
           "normalized": "Solver-\u003eInt-\u003eIO[Var]",
@@ -17741,6 +19165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd variables. \u003ccode\u003enewVars_ solver n \u003e\u003e return () = newVars_ solver n\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "newVars_",
           "package": "toysolver",
@@ -17751,6 +19176,7 @@
         "index": {
           "description": "Add variables newVars solver return newVars solver",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "newVars_",
           "normalized": "Solver-\u003eInt-\u003eIO()",
@@ -17767,6 +19193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe limit for learnt clauses is multiplied with this factor each restart. (default 1.1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setCCMin",
           "package": "toysolver",
@@ -17777,6 +19204,7 @@
         "index": {
           "description": "The limit for learnt clauses is multiplied with this factor each restart default",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setCCMin",
           "normalized": "Solver-\u003eInt-\u003eIO()",
@@ -17792,6 +19220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setCheckModel",
           "package": "toysolver",
@@ -17801,6 +19230,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setCheckModel",
           "normalized": "Solver-\u003eBool-\u003eIO()",
@@ -17816,6 +19246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setConfBudget",
           "package": "toysolver",
@@ -17825,6 +19256,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setConfBudget",
           "normalized": "Solver-\u003eMaybe Int-\u003eIO()",
@@ -17840,6 +19272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setLearningStrategy",
           "package": "toysolver",
@@ -17849,6 +19282,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setLearningStrategy",
           "normalized": "Solver-\u003eLearningStrategy-\u003eIO()",
@@ -17865,6 +19299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initial limit for learnt clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setLearntSizeFirst",
           "package": "toysolver",
@@ -17875,6 +19310,7 @@
         "index": {
           "description": "The initial limit for learnt clauses",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setLearntSizeFirst",
           "normalized": "Solver-\u003eInt-\u003eIO()",
@@ -17891,6 +19327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe limit for learnt clauses is multiplied with this factor each restart. (default 1.1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setLearntSizeInc",
           "package": "toysolver",
@@ -17901,6 +19338,7 @@
         "index": {
           "description": "The limit for learnt clauses is multiplied with this factor each restart default",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setLearntSizeInc",
           "normalized": "Solver-\u003eDouble-\u003eIO()",
@@ -17917,6 +19355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset callback function for receiving messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setLogger",
           "package": "toysolver",
@@ -17927,6 +19366,7 @@
         "index": {
           "description": "set callback function for receiving messages",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setLogger",
           "normalized": "Solver-\u003e(String-\u003eIO())-\u003eIO()",
@@ -17943,6 +19383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe frequency with which the decision heuristic tries to choose a random variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setRandomFreq",
           "package": "toysolver",
@@ -17953,6 +19394,7 @@
         "index": {
           "description": "The frequency with which the decision heuristic tries to choose random variable",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setRandomFreq",
           "normalized": "Solver-\u003eDouble-\u003eIO()",
@@ -17969,6 +19411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by the random variable selection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setRandomSeed",
           "package": "toysolver",
@@ -17979,6 +19422,7 @@
         "index": {
           "description": "Used by the random variable selection",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setRandomSeed",
           "normalized": "Solver-\u003eInt-\u003eIO()",
@@ -17995,6 +19439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initial restart limit. (default 100)\n Negative value is used to disable restart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setRestartFirst",
           "package": "toysolver",
@@ -18005,6 +19450,7 @@
         "index": {
           "description": "The initial restart limit default Negative value is used to disable restart",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setRestartFirst",
           "normalized": "Solver-\u003eInt-\u003eIO()",
@@ -18021,6 +19467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe factor with which the restart limit is multiplied in each restart. (default 1.5)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setRestartInc",
           "package": "toysolver",
@@ -18031,6 +19478,7 @@
         "index": {
           "description": "The factor with which the restart limit is multiplied in each restart default",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setRestartInc",
           "normalized": "Solver-\u003eDouble-\u003eIO()",
@@ -18046,6 +19494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setRestartStrategy",
           "package": "toysolver",
@@ -18055,6 +19504,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setRestartStrategy",
           "normalized": "Solver-\u003eRestartStrategy-\u003eIO()",
@@ -18071,6 +19521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default polarity of a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "setVarPolarity",
           "package": "toysolver",
@@ -18081,6 +19532,7 @@
         "index": {
           "description": "The default polarity of variable",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "setVarPolarity",
           "normalized": "Solver-\u003eVar-\u003eBool-\u003eIO()",
@@ -18097,6 +19549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve constraints.\n Returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the problem is SATISFIABLE.\n Returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e if the problem is UNSATISFIABLE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "solve",
           "package": "toysolver",
@@ -18107,6 +19560,7 @@
         "index": {
           "description": "Solve constraints Returns True if the problem is SATISFIABLE Returns False if the problem is UNSATISFIABLE",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "solve",
           "normalized": "Solver-\u003eIO Bool",
@@ -18122,6 +19576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve constraints under assuptions.\n Returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the problem is SATISFIABLE.\n Returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e if the problem is UNSATISFIABLE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "solveWith",
           "package": "toysolver",
@@ -18131,6 +19586,7 @@
         "index": {
           "description": "Solve constraints under assuptions Returns True if the problem is SATISFIABLE Returns False if the problem is UNSATISFIABLE",
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "solveWith",
           "normalized": "Solver-\u003e[Lit]-\u003eIO Bool",
@@ -18146,6 +19602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "varBumpActivity",
           "package": "toysolver",
@@ -18155,6 +19612,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "varBumpActivity",
           "normalized": "Solver-\u003eVar-\u003eIO()",
@@ -18170,6 +19628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "SAT",
           "name": "varDecayActivity",
           "package": "toysolver",
@@ -18179,6 +19638,7 @@
         },
         "index": {
           "hierarchy": "SAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "SAT",
           "name": "varDecayActivity",
           "normalized": "Solver-\u003eIO()",
@@ -18195,6 +19655,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.satcompetition.org/2011/rules.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GCNF",
           "name": "GCNF",
           "package": "toysolver",
@@ -18204,6 +19665,7 @@
         "index": {
           "description": "References http www.satcompetition.org rules.pdf",
           "hierarchy": "Text GCNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GCNF",
           "name": "GCNF",
           "package": "toysolver",
@@ -18217,6 +19679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GCNF",
           "name": "GCNF",
           "package": "toysolver",
@@ -18225,6 +19688,7 @@
         },
         "index": {
           "hierarchy": "Text GCNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GCNF",
           "name": "GCNF",
           "package": "toysolver",
@@ -18238,6 +19702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GCNF",
           "name": "GClause",
           "package": "toysolver",
@@ -18246,6 +19711,7 @@
         },
         "index": {
           "hierarchy": "Text GCNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GCNF",
           "name": "GClause",
           "package": "toysolver",
@@ -18259,6 +19725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GCNF",
           "name": "GroupIndex",
           "package": "toysolver",
@@ -18267,6 +19734,7 @@
         },
         "index": {
           "hierarchy": "Text GCNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GCNF",
           "name": "GroupIndex",
           "package": "toysolver",
@@ -18280,6 +19748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GCNF",
           "name": "GCNF",
           "package": "toysolver",
@@ -18289,6 +19758,7 @@
         },
         "index": {
           "hierarchy": "Text GCNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GCNF",
           "name": "GCNF",
           "package": "toysolver",
@@ -18302,6 +19772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GCNF",
           "name": "clauses",
           "package": "toysolver",
@@ -18311,6 +19782,7 @@
         },
         "index": {
           "hierarchy": "Text GCNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GCNF",
           "name": "clauses",
           "normalized": "[GClause]",
@@ -18325,6 +19797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GCNF",
           "name": "lastGroupIndex",
           "package": "toysolver",
@@ -18334,6 +19807,7 @@
         },
         "index": {
           "hierarchy": "Text GCNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GCNF",
           "name": "lastGroupIndex",
           "package": "toysolver",
@@ -18347,6 +19821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GCNF",
           "name": "numClauses",
           "package": "toysolver",
@@ -18356,6 +19831,7 @@
         },
         "index": {
           "hierarchy": "Text GCNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GCNF",
           "name": "numClauses",
           "package": "toysolver",
@@ -18369,6 +19845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GCNF",
           "name": "numVars",
           "package": "toysolver",
@@ -18378,6 +19855,7 @@
         },
         "index": {
           "hierarchy": "Text GCNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GCNF",
           "name": "numVars",
           "package": "toysolver",
@@ -18391,6 +19869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GCNF",
           "name": "parseFile",
           "package": "toysolver",
@@ -18400,6 +19879,7 @@
         },
         "index": {
           "hierarchy": "Text GCNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GCNF",
           "name": "parseFile",
           "normalized": "FilePath-\u003eIO(Either String GCNF)",
@@ -18415,6 +19895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GCNF",
           "name": "parseString",
           "package": "toysolver",
@@ -18424,6 +19905,7 @@
         },
         "index": {
           "hierarchy": "Text GCNF",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GCNF",
           "name": "parseString",
           "normalized": "String-\u003eEither String GCNF",
@@ -18439,6 +19921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GurobiSol",
           "name": "GurobiSol",
           "package": "toysolver",
@@ -18447,6 +19930,7 @@
         },
         "index": {
           "hierarchy": "Text GurobiSol",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GurobiSol",
           "name": "GurobiSol",
           "package": "toysolver",
@@ -18460,6 +19944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GurobiSol",
           "name": "Model",
           "package": "toysolver",
@@ -18468,6 +19953,7 @@
         },
         "index": {
           "hierarchy": "Text GurobiSol",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GurobiSol",
           "name": "Model",
           "package": "toysolver",
@@ -18481,6 +19967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.GurobiSol",
           "name": "render",
           "package": "toysolver",
@@ -18490,6 +19977,7 @@
         },
         "index": {
           "hierarchy": "Text GurobiSol",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.GurobiSol",
           "name": "render",
           "normalized": "Model-\u003eMaybe Double-\u003eString",
@@ -18505,6 +19993,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA CPLEX .lp format parser library.\n\u003c/p\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://publib.boulder.ibm.com/infocenter/cosinfoc/v12r2/index.jsp?topic=/ilog.odms.cplex.help/Content/Optimization/Documentation/CPLEX/_pubskel/CPLEX880.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.gurobi.com/doc/45/refman/node589.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://lpsolve.sourceforge.net/5.5/CPLEX-format.htm\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "LPFile",
           "package": "toysolver",
@@ -18514,6 +20003,7 @@
         "index": {
           "description": "CPLEX lp format parser library References http publib.boulder.ibm.com infocenter cosinfoc v12r2 index.jsp topic ilog.odms.cplex.help Content Optimization Documentation CPLEX pubskel CPLEX880.html http www.gurobi.com doc refman node589.html http lpsolve.sourceforge.net CPLEX-format.htm",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "LPFile",
           "package": "toysolver",
@@ -18528,6 +20018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype for representing lower/upper bound of variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "BoundExpr",
           "package": "toysolver",
@@ -18537,6 +20028,7 @@
         "index": {
           "description": "type for representing lower upper bound of variables",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "BoundExpr",
           "package": "toysolver",
@@ -18551,6 +20043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype for representing lower/upper bound of variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "Bounds",
           "package": "toysolver",
@@ -18560,6 +20053,7 @@
         "index": {
           "description": "type for representing lower upper bound of variables",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "Bounds",
           "package": "toysolver",
@@ -18574,6 +20068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "Constraint",
           "package": "toysolver",
@@ -18583,6 +20078,7 @@
         "index": {
           "description": "constraint",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "Constraint",
           "package": "toysolver",
@@ -18596,6 +20092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "ConstraintType",
           "package": "toysolver",
@@ -18604,6 +20101,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "ConstraintType",
           "package": "toysolver",
@@ -18618,6 +20116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "Expr",
           "package": "toysolver",
@@ -18627,6 +20126,7 @@
         "index": {
           "description": "expressions",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "Expr",
           "package": "toysolver",
@@ -18641,6 +20141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProblem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "LP",
           "package": "toysolver",
@@ -18650,6 +20151,7 @@
         "index": {
           "description": "Problem",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "LP",
           "package": "toysolver",
@@ -18664,6 +20166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elabel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "Label",
           "package": "toysolver",
@@ -18673,6 +20176,7 @@
         "index": {
           "description": "label",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "Label",
           "package": "toysolver",
@@ -18687,6 +20191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eobjective function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "ObjectiveFunction",
           "package": "toysolver",
@@ -18696,6 +20201,7 @@
         "index": {
           "description": "objective function",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "ObjectiveFunction",
           "package": "toysolver",
@@ -18710,6 +20216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eOptDir\u003c/a\u003e\u003c/code\u003e type represents optimization directions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "OptDir",
           "package": "toysolver",
@@ -18718,6 +20225,7 @@
         "index": {
           "description": "The OptDir type represents optimization directions",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "OptDir",
           "package": "toysolver",
@@ -18732,6 +20240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelational operators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "RelOp",
           "package": "toysolver",
@@ -18741,6 +20250,7 @@
         "index": {
           "description": "relational operators",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "RelOp",
           "package": "toysolver",
@@ -18755,6 +20265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOS (special ordered sets) constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "SOS",
           "package": "toysolver",
@@ -18764,6 +20275,7 @@
         "index": {
           "description": "SOS special ordered sets constraints",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "SOS",
           "package": "toysolver",
@@ -18778,6 +20290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etypes of SOS (special ordered sets) constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "SOSType",
           "package": "toysolver",
@@ -18787,6 +20300,7 @@
         "index": {
           "description": "types of SOS special ordered sets constraints",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "SOSType",
           "package": "toysolver",
@@ -18801,6 +20315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eterms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "Term",
           "package": "toysolver",
@@ -18810,6 +20325,7 @@
         "index": {
           "description": "terms",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "Term",
           "package": "toysolver",
@@ -18824,6 +20340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "Var",
           "package": "toysolver",
@@ -18833,6 +20350,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "Var",
           "package": "toysolver",
@@ -18846,6 +20364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "VarInfo",
           "package": "toysolver",
@@ -18854,6 +20373,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "VarInfo",
           "package": "toysolver",
@@ -18867,6 +20387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "VarType",
           "package": "toysolver",
@@ -18875,6 +20396,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "VarType",
           "package": "toysolver",
@@ -18888,6 +20410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "Constraint",
           "package": "toysolver",
@@ -18897,6 +20420,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "Constraint",
           "package": "toysolver",
@@ -18910,6 +20434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "ContinuousVariable",
           "package": "toysolver",
@@ -18919,6 +20444,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "ContinuousVariable",
           "package": "toysolver",
@@ -18932,6 +20458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "Eql",
           "package": "toysolver",
@@ -18941,6 +20468,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "Eql",
           "package": "toysolver",
@@ -18954,6 +20482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "Finite",
           "package": "toysolver",
@@ -18963,6 +20492,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "Finite",
           "package": "toysolver",
@@ -18976,6 +20506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "Ge",
           "package": "toysolver",
@@ -18985,6 +20516,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "Ge",
           "package": "toysolver",
@@ -18998,6 +20530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "IntegerVariable",
           "package": "toysolver",
@@ -19007,6 +20540,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "IntegerVariable",
           "package": "toysolver",
@@ -19020,6 +20554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "LP",
           "package": "toysolver",
@@ -19029,6 +20564,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "LP",
           "package": "toysolver",
@@ -19042,6 +20578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "LazyConstraint",
           "package": "toysolver",
@@ -19051,6 +20588,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "LazyConstraint",
           "package": "toysolver",
@@ -19064,6 +20602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "Le",
           "package": "toysolver",
@@ -19073,6 +20612,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "Le",
           "package": "toysolver",
@@ -19086,6 +20626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "NegInf",
           "package": "toysolver",
@@ -19095,6 +20636,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "NegInf",
           "package": "toysolver",
@@ -19108,6 +20650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "NormalConstraint",
           "package": "toysolver",
@@ -19117,6 +20660,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "NormalConstraint",
           "package": "toysolver",
@@ -19130,6 +20674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "PosInf",
           "package": "toysolver",
@@ -19139,6 +20684,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "PosInf",
           "package": "toysolver",
@@ -19153,6 +20699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType 1 SOS constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "S1",
           "package": "toysolver",
@@ -19163,6 +20710,7 @@
         "index": {
           "description": "Type SOS constraint",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "S1",
           "package": "toysolver",
@@ -19176,6 +20724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType 2 SOS constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "S2",
           "package": "toysolver",
@@ -19186,6 +20735,7 @@
         "index": {
           "description": "Type SOS constraint",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "S2",
           "package": "toysolver",
@@ -19198,6 +20748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "SemiContinuousVariable",
           "package": "toysolver",
@@ -19207,6 +20758,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "SemiContinuousVariable",
           "package": "toysolver",
@@ -19220,6 +20772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "Term",
           "package": "toysolver",
@@ -19229,6 +20782,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "Term",
           "normalized": "Term Rational[Var]",
@@ -19244,6 +20798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "UserDefinedCut",
           "package": "toysolver",
@@ -19253,6 +20808,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "UserDefinedCut",
           "package": "toysolver",
@@ -19266,6 +20822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "VarInfo",
           "package": "toysolver",
@@ -19275,6 +20832,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "VarInfo",
           "package": "toysolver",
@@ -19288,6 +20846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "constrBody",
           "package": "toysolver",
@@ -19297,6 +20856,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "constrBody",
           "normalized": "(Expr,RelOp,Rational)",
@@ -19312,6 +20872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "constrIndicator",
           "package": "toysolver",
@@ -19321,6 +20882,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "constrIndicator",
           "normalized": "Maybe(Var,Rational)",
@@ -19336,6 +20898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "constrLabel",
           "package": "toysolver",
@@ -19345,6 +20908,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "constrLabel",
           "package": "toysolver",
@@ -19358,6 +20922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "constrType",
           "package": "toysolver",
@@ -19367,6 +20932,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "constrType",
           "package": "toysolver",
@@ -19380,6 +20946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "constraints",
           "package": "toysolver",
@@ -19389,6 +20956,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "constraints",
           "normalized": "[Constraint]",
@@ -19404,6 +20972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault bounds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "defaultBounds",
           "package": "toysolver",
@@ -19414,6 +20983,7 @@
         "index": {
           "description": "default bounds",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "defaultBounds",
           "package": "toysolver",
@@ -19428,6 +20998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault lower bound (0)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "defaultLB",
           "package": "toysolver",
@@ -19438,6 +21009,7 @@
         "index": {
           "description": "default lower bound",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "defaultLB",
           "package": "toysolver",
@@ -19452,6 +21024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault upper bound (+&#8734;)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "defaultUB",
           "package": "toysolver",
@@ -19462,6 +21035,7 @@
         "index": {
           "description": "default upper bound",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "defaultUB",
           "package": "toysolver",
@@ -19475,6 +21049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "dir",
           "package": "toysolver",
@@ -19484,6 +21059,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "dir",
           "package": "toysolver",
@@ -19497,6 +21073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elooking up bounds for a variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "getBounds",
           "package": "toysolver",
@@ -19507,6 +21084,7 @@
         "index": {
           "description": "looking up bounds for variable",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "getBounds",
           "normalized": "LP-\u003eVar-\u003eBounds",
@@ -19523,6 +21101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elooking up attributes for a variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "getVarInfo",
           "package": "toysolver",
@@ -19533,6 +21112,7 @@
         "index": {
           "description": "looking up attributes for variable",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "getVarInfo",
           "normalized": "LP-\u003eVar-\u003eVarInfo",
@@ -19549,6 +21129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elooking up bounds for a variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "getVarType",
           "package": "toysolver",
@@ -19559,6 +21140,7 @@
         "index": {
           "description": "looking up bounds for variable",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "getVarType",
           "normalized": "LP-\u003eVar-\u003eVarType",
@@ -19574,6 +21156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "integerVariables",
           "package": "toysolver",
@@ -19583,6 +21166,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "integerVariables",
           "normalized": "LP-\u003eSet Var",
@@ -19598,6 +21182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "objectiveFunction",
           "package": "toysolver",
@@ -19607,6 +21192,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "objectiveFunction",
           "package": "toysolver",
@@ -19621,6 +21207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a file containing LP file data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "parseFile",
           "package": "toysolver",
@@ -19631,6 +21218,7 @@
         "index": {
           "description": "Parse file containing LP file data",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "parseFile",
           "normalized": "FilePath-\u003eIO(Either ParseError LP)",
@@ -19647,6 +21235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string containing LP file data.\n The source name is only | used in error messages and may be the empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "parseString",
           "package": "toysolver",
@@ -19657,6 +21246,7 @@
         "index": {
           "description": "Parse string containing LP file data The source name is only used in error messages and may be the empty string",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "parseString",
           "normalized": "SourceName-\u003eString-\u003eEither ParseError LP",
@@ -19673,6 +21263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a problem into a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "render",
           "package": "toysolver",
@@ -19683,6 +21274,7 @@
         "index": {
           "description": "Render problem into string",
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "render",
           "normalized": "LP-\u003eMaybe String",
@@ -19697,6 +21289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "semiContinuousVariables",
           "package": "toysolver",
@@ -19706,6 +21299,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "semiContinuousVariables",
           "normalized": "LP-\u003eSet Var",
@@ -19721,6 +21315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "sos",
           "package": "toysolver",
@@ -19730,6 +21325,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "sos",
           "normalized": "[SOS]",
@@ -19744,6 +21340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "varBounds",
           "package": "toysolver",
@@ -19753,6 +21350,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "varBounds",
           "package": "toysolver",
@@ -19766,6 +21364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "varInfo",
           "package": "toysolver",
@@ -19775,6 +21374,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "varInfo",
           "package": "toysolver",
@@ -19788,6 +21388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "varName",
           "package": "toysolver",
@@ -19797,6 +21398,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "varName",
           "package": "toysolver",
@@ -19810,6 +21412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "varType",
           "package": "toysolver",
@@ -19819,6 +21422,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "varType",
           "package": "toysolver",
@@ -19832,6 +21436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.LPFile",
           "name": "variables",
           "package": "toysolver",
@@ -19841,6 +21446,7 @@
         },
         "index": {
           "hierarchy": "Text LPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.LPFile",
           "name": "variables",
           "package": "toysolver",
@@ -19854,6 +21460,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA .mps format parser library.\n\u003c/p\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://pic.dhe.ibm.com/infocenter/cosinfoc/v12r4/topic/ilog.odms.cplex.help/CPLEX/File_formats_reference/topics/MPS_synopsis.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://pic.dhe.ibm.com/infocenter/cosinfoc/v12r4/topic/ilog.odms.cplex.help/CPLEX/File_formats_reference/topics/MPS_ext_synopsis.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.gurobi.com/documentation/5.0/reference-manual/node744\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://en.wikipedia.org/wiki/MPS_(format)\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MPSFile",
           "name": "MPSFile",
           "package": "toysolver",
@@ -19863,6 +21470,7 @@
         "index": {
           "description": "mps format parser library References http pic.dhe.ibm.com infocenter cosinfoc v12r4 topic ilog.odms.cplex.help CPLEX File formats reference topics MPS synopsis.html http pic.dhe.ibm.com infocenter cosinfoc v12r4 topic ilog.odms.cplex.help CPLEX File formats reference topics MPS ext synopsis.html http www.gurobi.com documentation reference-manual node744 http en.wikipedia.org wiki MPS format",
           "hierarchy": "Text MPSFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MPSFile",
           "name": "MPSFile",
           "package": "toysolver",
@@ -19877,6 +21485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a file containing LP file data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MPSFile",
           "name": "parseFile",
           "package": "toysolver",
@@ -19887,6 +21496,7 @@
         "index": {
           "description": "Parse file containing LP file data",
           "hierarchy": "Text MPSFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MPSFile",
           "name": "parseFile",
           "normalized": "FilePath-\u003eIO(Either ParseError LP)",
@@ -19903,6 +21513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string containing LP file data.\n The source name is only | used in error messages and may be the empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MPSFile",
           "name": "parseString",
           "package": "toysolver",
@@ -19913,6 +21524,7 @@
         "index": {
           "description": "Parse string containing LP file data The source name is only used in error messages and may be the empty string",
           "hierarchy": "Text MPSFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MPSFile",
           "name": "parseString",
           "normalized": "SourceName-\u003eString-\u003eEither ParseError LP",
@@ -19929,6 +21541,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://maxsat.ia.udl.cat/requirements/\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MaxSAT",
           "name": "MaxSAT",
           "package": "toysolver",
@@ -19938,6 +21551,7 @@
         "index": {
           "description": "References http maxsat.ia.udl.cat requirements",
           "hierarchy": "Text MaxSAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MaxSAT",
           "name": "MaxSAT",
           "package": "toysolver",
@@ -19951,6 +21565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MaxSAT",
           "name": "WCNF",
           "package": "toysolver",
@@ -19959,6 +21574,7 @@
         },
         "index": {
           "hierarchy": "Text MaxSAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MaxSAT",
           "name": "WCNF",
           "package": "toysolver",
@@ -19973,6 +21589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshould be able to represent 2^63\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MaxSAT",
           "name": "Weight",
           "package": "toysolver",
@@ -19982,6 +21599,7 @@
         "index": {
           "description": "should be able to represent",
           "hierarchy": "Text MaxSAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MaxSAT",
           "name": "Weight",
           "package": "toysolver",
@@ -19995,6 +21613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MaxSAT",
           "name": "WeightedClause",
           "package": "toysolver",
@@ -20003,6 +21622,7 @@
         },
         "index": {
           "hierarchy": "Text MaxSAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MaxSAT",
           "name": "WeightedClause",
           "package": "toysolver",
@@ -20016,6 +21636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MaxSAT",
           "name": "WCNF",
           "package": "toysolver",
@@ -20025,6 +21646,7 @@
         },
         "index": {
           "hierarchy": "Text MaxSAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MaxSAT",
           "name": "WCNF",
           "package": "toysolver",
@@ -20038,6 +21660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MaxSAT",
           "name": "clauses",
           "package": "toysolver",
@@ -20047,6 +21670,7 @@
         },
         "index": {
           "hierarchy": "Text MaxSAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MaxSAT",
           "name": "clauses",
           "normalized": "[WeightedClause]",
@@ -20061,6 +21685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MaxSAT",
           "name": "numClauses",
           "package": "toysolver",
@@ -20070,6 +21695,7 @@
         },
         "index": {
           "hierarchy": "Text MaxSAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MaxSAT",
           "name": "numClauses",
           "package": "toysolver",
@@ -20083,6 +21709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MaxSAT",
           "name": "numVars",
           "package": "toysolver",
@@ -20092,6 +21719,7 @@
         },
         "index": {
           "hierarchy": "Text MaxSAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MaxSAT",
           "name": "numVars",
           "package": "toysolver",
@@ -20105,6 +21733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MaxSAT",
           "name": "parseWCNFFile",
           "package": "toysolver",
@@ -20114,6 +21743,7 @@
         },
         "index": {
           "hierarchy": "Text MaxSAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MaxSAT",
           "name": "parseWCNFFile",
           "normalized": "FilePath-\u003eIO(Either String WCNF)",
@@ -20129,6 +21759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MaxSAT",
           "name": "parseWCNFString",
           "package": "toysolver",
@@ -20138,6 +21769,7 @@
         },
         "index": {
           "hierarchy": "Text MaxSAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MaxSAT",
           "name": "parseWCNFString",
           "normalized": "String-\u003eEither String WCNF",
@@ -20153,6 +21785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.MaxSAT",
           "name": "topCost",
           "package": "toysolver",
@@ -20162,6 +21795,7 @@
         },
         "index": {
           "hierarchy": "Text MaxSAT",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.MaxSAT",
           "name": "topCost",
           "package": "toysolver",
@@ -20176,6 +21810,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA parser library for .opb file and .wbo files used by PB Competition.\n\u003c/p\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Input/Output Format and Solver Requirements for the Competitions of\n   Pseudo-Boolean Solvers\n   \u003ca\u003ehttp://www.cril.univ-artois.fr/PB11/format.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "PBFile",
           "package": "toysolver",
@@ -20185,6 +21820,7 @@
         "index": {
           "description": "parser library for opb file and wbo files used by PB Competition References Input Output Format and Solver Requirements for the Competitions of Pseudo-Boolean Solvers http www.cril.univ-artois.fr PB11 format.pdf",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "PBFile",
           "package": "toysolver",
@@ -20199,6 +21835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLhs, relational operator and rhs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "Constraint",
           "package": "toysolver",
@@ -20208,6 +21845,7 @@
         "index": {
           "description": "Lhs relational operator and rhs",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "Constraint",
           "package": "toysolver",
@@ -20222,6 +21860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePair of \u003cem\u003eobjective function\u003c/em\u003e and a list of constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "Formula",
           "package": "toysolver",
@@ -20231,6 +21870,7 @@
         "index": {
           "description": "Pair of objective function and list of constraints",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "Formula",
           "package": "toysolver",
@@ -20245,6 +21885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositive (resp. negative) literal is represented as a positive (resp. negative) integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "Lit",
           "package": "toysolver",
@@ -20254,6 +21895,7 @@
         "index": {
           "description": "Positive resp negative literal is represented as positive resp negative integer",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "Lit",
           "package": "toysolver",
@@ -20268,6 +21910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelational operators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "Op",
           "package": "toysolver",
@@ -20277,6 +21920,7 @@
         "index": {
           "description": "Relational operators",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "Op",
           "package": "toysolver",
@@ -20291,6 +21935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pair of weight and constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "SoftConstraint",
           "package": "toysolver",
@@ -20300,6 +21945,7 @@
         "index": {
           "description": "pair of weight and constraint",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "SoftConstraint",
           "package": "toysolver",
@@ -20314,6 +21960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pair of \u003cem\u003etop cost\u003c/em\u003e and a list of soft constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "SoftFormula",
           "package": "toysolver",
@@ -20323,6 +21970,7 @@
         "index": {
           "description": "pair of top cost and list of soft constraints",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "SoftFormula",
           "package": "toysolver",
@@ -20337,6 +21985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum of \u003ccode\u003e\u003ca\u003eWeightedTerm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "Sum",
           "package": "toysolver",
@@ -20346,6 +21995,7 @@
         "index": {
           "description": "Sum of WeightedTerm",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "Sum",
           "package": "toysolver",
@@ -20360,6 +22010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of variables interpreted as products\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "Term",
           "package": "toysolver",
@@ -20369,6 +22020,7 @@
         "index": {
           "description": "List of variables interpreted as products",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "Term",
           "package": "toysolver",
@@ -20383,6 +22035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable are repserented positive integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "Var",
           "package": "toysolver",
@@ -20392,6 +22045,7 @@
         "index": {
           "description": "Variable are repserented positive integer",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "Var",
           "package": "toysolver",
@@ -20406,6 +22060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoefficient and \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "WeightedTerm",
           "package": "toysolver",
@@ -20415,6 +22070,7 @@
         "index": {
           "description": "Coefficient and Term",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "WeightedTerm",
           "package": "toysolver",
@@ -20429,6 +22085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eequal\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "Eq",
           "package": "toysolver",
@@ -20439,6 +22096,7 @@
         "index": {
           "description": "equal",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "Eq",
           "package": "toysolver",
@@ -20453,6 +22111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003egreater than or equal\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "Ge",
           "package": "toysolver",
@@ -20463,6 +22122,7 @@
         "index": {
           "description": "greater than or equal",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "Ge",
           "package": "toysolver",
@@ -20477,6 +22137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a .opb format string containing pseudo boolean problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "parseOPBFile",
           "package": "toysolver",
@@ -20487,6 +22148,7 @@
         "index": {
           "description": "Parse opb format string containing pseudo boolean problem",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "parseOPBFile",
           "normalized": "FilePath-\u003eIO(Either ParseError Formula)",
@@ -20503,6 +22165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a .opb file containing pseudo boolean problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "parseOPBString",
           "package": "toysolver",
@@ -20513,6 +22176,7 @@
         "index": {
           "description": "Parse opb file containing pseudo boolean problem",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "parseOPBString",
           "normalized": "SourceName-\u003eString-\u003eEither ParseError Formula",
@@ -20529,6 +22193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a .wbo format string containing weighted boolean optimization problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "parseWBOFile",
           "package": "toysolver",
@@ -20539,6 +22204,7 @@
         "index": {
           "description": "Parse wbo format string containing weighted boolean optimization problem",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "parseWBOFile",
           "normalized": "FilePath-\u003eIO(Either ParseError SoftFormula)",
@@ -20555,6 +22221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a .wbo file containing weighted boolean optimization problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "parseWBOString",
           "package": "toysolver",
@@ -20565,6 +22232,7 @@
         "index": {
           "description": "Parse wbo file containing weighted boolean optimization problem",
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "parseWBOString",
           "normalized": "SourceName-\u003eString-\u003eEither ParseError SoftFormula",
@@ -20580,6 +22248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "pbNumVars",
           "package": "toysolver",
@@ -20589,6 +22258,7 @@
         },
         "index": {
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "pbNumVars",
           "normalized": "Formula-\u003eInt",
@@ -20604,6 +22274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "showOPB",
           "package": "toysolver",
@@ -20613,6 +22284,7 @@
         },
         "index": {
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "showOPB",
           "normalized": "Formula-\u003eShowS",
@@ -20628,6 +22300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "showWBO",
           "package": "toysolver",
@@ -20637,6 +22310,7 @@
         },
         "index": {
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "showWBO",
           "normalized": "SoftFormula-\u003eShowS",
@@ -20652,6 +22326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.PBFile",
           "name": "wboNumVars",
           "package": "toysolver",
@@ -20661,6 +22336,7 @@
         },
         "index": {
           "hierarchy": "Text PBFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.PBFile",
           "name": "wboNumVars",
           "normalized": "SoftFormula-\u003eInt",
@@ -20677,6 +22353,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e SDPA (Semidefinite Programming Algorithm) User's Manual\n   \u003ca\u003ehttp://sdpa.indsys.chuo-u.ac.jp/~fujisawa/sdpa_doc.pdf\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://euler.nmt.edu/~brian/sdplib/FORMAT\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "SDPFile",
           "package": "toysolver",
@@ -20686,6 +22363,7 @@
         "index": {
           "description": "References SDPA Semidefinite Programming Algorithm User Manual http sdpa.indsys.chuo-u.ac.jp fujisawa sdpa doc.pdf http euler.nmt.edu brian sdplib FORMAT",
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "SDPFile",
           "package": "toysolver",
@@ -20699,6 +22377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "Block",
           "package": "toysolver",
@@ -20707,6 +22386,7 @@
         },
         "index": {
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "Block",
           "package": "toysolver",
@@ -20720,6 +22400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "DenseBlock",
           "package": "toysolver",
@@ -20728,6 +22409,7 @@
         },
         "index": {
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "DenseBlock",
           "package": "toysolver",
@@ -20741,6 +22423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "DenseMatrix",
           "package": "toysolver",
@@ -20749,6 +22432,7 @@
         },
         "index": {
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "DenseMatrix",
           "package": "toysolver",
@@ -20762,6 +22446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "Matrix",
           "package": "toysolver",
@@ -20770,6 +22455,7 @@
         },
         "index": {
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "Matrix",
           "package": "toysolver",
@@ -20783,6 +22469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "Problem",
           "package": "toysolver",
@@ -20791,6 +22478,7 @@
         },
         "index": {
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "Problem",
           "package": "toysolver",
@@ -20804,6 +22492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "Problem",
           "package": "toysolver",
@@ -20813,6 +22502,7 @@
         },
         "index": {
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "Problem",
           "package": "toysolver",
@@ -20826,6 +22516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "blockElem",
           "package": "toysolver",
@@ -20835,6 +22526,7 @@
         },
         "index": {
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "blockElem",
           "normalized": "Int-\u003eInt-\u003eBlock-\u003eRational",
@@ -20851,6 +22543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe block strcuture vector (bLOCKsTRUCT)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "blockStruct",
           "package": "toysolver",
@@ -20861,6 +22554,7 @@
         "index": {
           "description": "the block strcuture vector bLOCKsTRUCT",
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "blockStruct",
           "normalized": "[Int]",
@@ -20877,6 +22571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant Vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "costs",
           "package": "toysolver",
@@ -20887,6 +22582,7 @@
         "index": {
           "description": "Constant Vector",
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "costs",
           "normalized": "[Rational]",
@@ -20901,6 +22597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "denseBlock",
           "package": "toysolver",
@@ -20910,6 +22607,7 @@
         },
         "index": {
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "denseBlock",
           "normalized": "DenseBlock-\u003eBlock",
@@ -20925,6 +22623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "denseMatrix",
           "package": "toysolver",
@@ -20934,6 +22633,7 @@
         },
         "index": {
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "denseMatrix",
           "normalized": "DenseMatrix-\u003eMatrix",
@@ -20949,6 +22649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "diagBlock",
           "package": "toysolver",
@@ -20958,6 +22659,7 @@
         },
         "index": {
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "diagBlock",
           "normalized": "[Rational]-\u003eBlock",
@@ -20974,6 +22676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe number of primal variables (mDim)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "mDim",
           "package": "toysolver",
@@ -20984,6 +22687,7 @@
         "index": {
           "description": "the number of primal variables mDim",
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "mDim",
           "normalized": "Problem-\u003eInt",
@@ -21000,6 +22704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstraint Matrices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "matrices",
           "package": "toysolver",
@@ -21010,6 +22715,7 @@
         "index": {
           "description": "Constraint Matrices",
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "matrices",
           "normalized": "[Matrix]",
@@ -21025,6 +22731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe number of blocks (nBLOCK)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "nBlock",
           "package": "toysolver",
@@ -21035,6 +22742,7 @@
         "index": {
           "description": "the number of blocks nBLOCK",
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "nBlock",
           "normalized": "Problem-\u003eInt",
@@ -21051,6 +22759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a SDPA format file (.dat).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "parseDataFile",
           "package": "toysolver",
@@ -21061,6 +22770,7 @@
         "index": {
           "description": "Parse SDPA format file dat",
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "parseDataFile",
           "normalized": "FilePath-\u003eIO(Either ParseError Problem)",
@@ -21077,6 +22787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a SDPA format (.dat) string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "parseDataString",
           "package": "toysolver",
@@ -21087,6 +22798,7 @@
         "index": {
           "description": "Parse SDPA format dat string",
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "parseDataString",
           "normalized": "SourceName-\u003eString-\u003eEither ParseError Problem",
@@ -21103,6 +22815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a SDPA sparse format file (.dat-s).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "parseSparseDataFile",
           "package": "toysolver",
@@ -21113,6 +22826,7 @@
         "index": {
           "description": "Parse SDPA sparse format file dat-s",
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "parseSparseDataFile",
           "normalized": "FilePath-\u003eIO(Either ParseError Problem)",
@@ -21129,6 +22843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a SDPA sparse format (.dat-s) string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "parseSparseDataString",
           "package": "toysolver",
@@ -21139,6 +22854,7 @@
         "index": {
           "description": "Parse SDPA sparse format dat-s string",
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "parseSparseDataString",
           "normalized": "SourceName-\u003eString-\u003eEither ParseError Problem",
@@ -21154,6 +22870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "render",
           "package": "toysolver",
@@ -21163,6 +22880,7 @@
         },
         "index": {
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "render",
           "normalized": "Problem-\u003eShowS",
@@ -21177,6 +22895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Text.SDPFile",
           "name": "renderSparse",
           "package": "toysolver",
@@ -21186,6 +22905,7 @@
         },
         "index": {
           "hierarchy": "Text SDPFile",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Text.SDPFile",
           "name": "renderSparse",
           "normalized": "Problem-\u003eShowS",
@@ -21202,6 +22922,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome utility functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Util",
           "name": "Util",
           "package": "toysolver",
@@ -21211,6 +22932,7 @@
         "index": {
           "description": "Some utility functions",
           "hierarchy": "Util",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Util",
           "name": "Util",
           "package": "toysolver",
@@ -21225,6 +22947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombining two \u003ccode\u003eMaybe\u003c/code\u003e values using given function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Util",
           "name": "combineMaybe",
           "package": "toysolver",
@@ -21235,6 +22958,7 @@
         "index": {
           "description": "Combining two Maybe values using given function",
           "hierarchy": "Util",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Util",
           "name": "combineMaybe",
           "normalized": "(a-\u003ea-\u003ea)-\u003eMaybe a-\u003eMaybe a-\u003eMaybe a",
@@ -21251,6 +22975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efractional part\n\u003c/p\u003e\u003cpre\u003e\n   fracPart x = x - fromInteger (floor x)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Util",
           "name": "fracPart",
           "package": "toysolver",
@@ -21261,6 +22986,7 @@
         "index": {
           "description": "fractional part fracPart fromInteger floor",
           "hierarchy": "Util",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Util",
           "name": "fracPart",
           "normalized": "a-\u003ea",
@@ -21277,6 +23003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the number integral?\n\u003c/p\u003e\u003cpre\u003e\n    isInteger x = fromInteger (round x) == x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Util",
           "name": "isInteger",
           "package": "toysolver",
@@ -21287,6 +23014,7 @@
         "index": {
           "description": "is the number integral isInteger fromInteger round",
           "hierarchy": "Util",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Util",
           "name": "isInteger",
           "normalized": "a-\u003eBool",
@@ -21302,6 +23030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Util",
           "name": "revForM",
           "package": "toysolver",
@@ -21311,6 +23040,7 @@
         },
         "index": {
           "hierarchy": "Util",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Util",
           "name": "revForM",
           "normalized": "[a]-\u003e(a-\u003eb c)-\u003eb[c]",
@@ -21326,6 +23056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Util",
           "name": "revMapM",
           "package": "toysolver",
@@ -21335,6 +23066,7 @@
         },
         "index": {
           "hierarchy": "Util",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Util",
           "name": "revMapM",
           "normalized": "(a-\u003eb c)-\u003e[a]-\u003eb[c]",
@@ -21350,6 +23082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Util",
           "name": "revSequence",
           "package": "toysolver",
@@ -21359,6 +23092,7 @@
         },
         "index": {
           "hierarchy": "Util",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Util",
           "name": "revSequence",
           "normalized": "[a b]-\u003ea[b]",
@@ -21374,6 +23108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Util",
           "name": "showRational",
           "package": "toysolver",
@@ -21383,6 +23118,7 @@
         },
         "index": {
           "hierarchy": "Util",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Util",
           "name": "showRational",
           "normalized": "Bool-\u003eRational-\u003eString",
@@ -21398,6 +23134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Util",
           "name": "showRationalAsFiniteDecimal",
           "package": "toysolver",
@@ -21407,6 +23144,7 @@
         },
         "index": {
           "hierarchy": "Util",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Util",
           "name": "showRationalAsFiniteDecimal",
           "normalized": "Rational-\u003eMaybe String",
@@ -21422,6 +23160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Version",
           "name": "Version",
           "package": "toysolver",
@@ -21430,6 +23169,7 @@
         },
         "index": {
           "hierarchy": "Version",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Version",
           "name": "Version",
           "package": "toysolver",
@@ -21443,6 +23183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Version",
           "name": "packageVersions",
           "package": "toysolver",
@@ -21452,6 +23193,7 @@
         },
         "index": {
           "hierarchy": "Version",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Version",
           "name": "packageVersions",
           "normalized": "[(String,String)]",
@@ -21467,6 +23209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:23 UTC 2014",
           "module": "Version",
           "name": "version",
           "package": "toysolver",
@@ -21476,6 +23219,7 @@
         },
         "index": {
           "hierarchy": "Version",
+          "indexed": "2014-03-11T20:24:23",
           "module": "Version",
           "name": "version",
           "package": "toysolver",

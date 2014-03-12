@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "recursive-line-count"
+        "phrase": "recursive-line-count",
+        "type": "phrase"
       },
       "type": "context"
     }

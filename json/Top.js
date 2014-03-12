@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Top"
+        "phrase": "Top",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Equality",
           "name": "Equality",
           "package": "Top",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Equality",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Equality",
           "name": "Equality",
           "package": "Top",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Equality",
           "name": "EqualityConstraint",
           "package": "Top",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Equality",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Equality",
           "name": "EqualityConstraint",
           "package": "Top",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe constructor of an equality constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Equality",
           "name": "(.==.)",
           "package": "Top",
@@ -71,6 +76,7 @@
         "index": {
           "description": "The constructor of an equality constraint",
           "hierarchy": "Top Constraint Equality",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Equality",
           "name": "(.==.) .==.",
           "normalized": "Tp-\u003eTp-\u003ea-\u003eEqualityConstraint a",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Equality",
           "name": "Equality",
           "package": "Top",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Equality",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Equality",
           "name": "Equality",
           "package": "Top",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "Information",
           "package": "Top",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "Information",
           "package": "Top",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "PolyTypeConstraintInfo",
           "package": "Top",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "PolyTypeConstraintInfo",
           "package": "Top",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "TypeConstraintInfo",
           "package": "Top",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "TypeConstraintInfo",
           "package": "Top",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "ambiguousPredicate",
           "package": "Top",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "ambiguousPredicate",
           "normalized": "Predicate-\u003ea-\u003ea",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "closeDirective",
           "package": "Top",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "closeDirective",
           "normalized": "(String,a)-\u003ea-\u003ea",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "disjointDirective",
           "package": "Top",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "disjointDirective",
           "normalized": "(String,a)-\u003e(String,a)-\u003ea-\u003ea",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "equalityTypePair",
           "package": "Top",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "equalityTypePair",
           "normalized": "(Tp,Tp)-\u003ea-\u003ea",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "escapedSkolems",
           "package": "Top",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "escapedSkolems",
           "normalized": "[Int]-\u003ea-\u003ea",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "instantiatedTypeScheme",
           "package": "Top",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "instantiatedTypeScheme",
           "normalized": "Forall(Qualification Predicates Tp)-\u003ea-\u003ea",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "neverDirective",
           "package": "Top",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "neverDirective",
           "normalized": "(Predicate,a)-\u003ea-\u003ea",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "parentPredicate",
           "package": "Top",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "parentPredicate",
           "normalized": "Predicate-\u003ea-\u003ea",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "predicateArisingFrom",
           "package": "Top",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "predicateArisingFrom",
           "normalized": "(Predicate,a)-\u003ea-\u003ea",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "skolemizedTypeScheme",
           "package": "Top",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "skolemizedTypeScheme",
           "normalized": "(Tps,Forall(Qualification Predicates Tp))-\u003ea-\u003ea",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Information",
           "name": "unresolvedPredicate",
           "package": "Top",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Information",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Information",
           "name": "unresolvedPredicate",
           "normalized": "Predicate-\u003ea-\u003ea",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Polymorphism",
           "name": "Polymorphism",
           "package": "Top",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Polymorphism",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Polymorphism",
           "name": "Polymorphism",
           "package": "Top",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Polymorphism",
           "name": "PolymorphismConstraint",
           "package": "Top",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Polymorphism",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Polymorphism",
           "name": "PolymorphismConstraint",
           "package": "Top",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe constructor of an instantiate (explicit instance) constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Polymorphism",
           "name": "(.::.)",
           "package": "Top",
@@ -487,6 +528,7 @@
         "index": {
           "description": "The constructor of an instantiate explicit instance constraint",
           "hierarchy": "Top Constraint Polymorphism",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Polymorphism",
           "name": "(.::.) .::.",
           "normalized": "Tp-\u003eScheme Predicates-\u003ea-\u003ePolymorphismConstraint a",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Polymorphism",
           "name": "Generalize",
           "package": "Top",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Polymorphism",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Polymorphism",
           "name": "Generalize",
           "normalized": "Generalize Int(Tps,Tp)a",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Polymorphism",
           "name": "Implicit",
           "package": "Top",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Polymorphism",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Polymorphism",
           "name": "Implicit",
           "normalized": "Implicit Tp(Tps,Tp)a",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Polymorphism",
           "name": "Instantiate",
           "package": "Top",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Polymorphism",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Polymorphism",
           "name": "Instantiate",
           "package": "Top",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Polymorphism",
           "name": "Skolemize",
           "package": "Top",
@@ -580,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Polymorphism",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Polymorphism",
           "name": "Skolemize",
           "normalized": "Skolemize Tp(Tps,Sigma Predicates)a",
@@ -596,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConstraints for overloading\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Qualifier",
           "name": "Qualifier",
           "package": "Top",
@@ -605,6 +656,7 @@
         "index": {
           "description": "Constraints for overloading",
           "hierarchy": "Top Constraint Qualifier",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Qualifier",
           "name": "Qualifier",
           "package": "Top",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Qualifier",
           "name": "ExtraConstraint",
           "package": "Top",
@@ -626,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Qualifier",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Qualifier",
           "name": "ExtraConstraint",
           "package": "Top",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Qualifier",
           "name": "Assume",
           "package": "Top",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Qualifier",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Qualifier",
           "name": "Assume",
           "package": "Top",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint.Qualifier",
           "name": "Prove",
           "package": "Top",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint Qualifier",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint.Qualifier",
           "name": "Prove",
           "package": "Top",
@@ -684,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA data type to represent constraints in general, and a type class for\n constraints that are solvable.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "Constraint",
           "package": "Top",
@@ -693,6 +752,7 @@
         "index": {
           "description": "data type to represent constraints in general and type class for constraints that are solvable",
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "Constraint",
           "package": "Top",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "Constraint",
           "package": "Top",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "Constraint",
           "package": "Top",
@@ -728,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data type ConstraintSum is similar to the (standard) Either data type.    \n However, its Show instance is slightly different as the name of the constructor\n is not shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "ConstraintSum",
           "package": "Top",
@@ -737,6 +800,7 @@
         "index": {
           "description": "The data type ConstraintSum is similar to the standard Either data type However its Show instance is slightly different as the name of the constructor is not shown",
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "ConstraintSum",
           "package": "Top",
@@ -750,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "Constraints",
           "package": "Top",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "Constraints",
           "package": "Top",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "Operation",
           "package": "Top",
@@ -779,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "Operation",
           "package": "Top",
@@ -793,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constraint is solvable if it knows how it can be solved in a certain\n state (a monadic operation), if it can check afterwards whether the final\n state satisfies it, and when it can be shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "Solvable",
           "package": "Top",
@@ -802,6 +871,7 @@
         "index": {
           "description": "constraint is solvable if it knows how it can be solved in certain state monadic operation if it can check afterwards whether the final state satisfies it and when it can be shown",
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "Solvable",
           "package": "Top",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "Constraint",
           "package": "Top",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "Constraint",
           "normalized": "Constraint a(a-\u003eb())(a-\u003eb Bool)",
@@ -839,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "Op_",
           "package": "Top",
@@ -848,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "Op_",
           "package": "Top",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "SumLeft",
           "package": "Top",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "SumLeft",
           "package": "Top",
@@ -883,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "SumRight",
           "package": "Top",
@@ -892,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "SumRight",
           "package": "Top",
@@ -905,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "checkCondition",
           "package": "Top",
@@ -914,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "checkCondition",
           "normalized": "a-\u003eb Bool",
@@ -930,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to the \u003ccode\u003e\u003ca\u003eeither\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "constraintSum",
           "package": "Top",
@@ -940,6 +1021,7 @@
         "index": {
           "description": "Similar to the either function",
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "constraintSum",
           "normalized": "(a b-\u003ec)-\u003e(d b-\u003ec)-\u003eConstraintSum a d b-\u003ec",
@@ -956,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifting a constraint to the Constraint data type. Every instance of\n the Solvable type class can be lifted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "liftConstraint",
           "package": "Top",
@@ -966,6 +1049,7 @@
         "index": {
           "description": "Lifting constraint to the Constraint data type Every instance of the Solvable type class can be lifted",
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "liftConstraint",
           "normalized": "a-\u003eConstraint b",
@@ -981,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "liftConstraints",
           "package": "Top",
@@ -990,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "liftConstraints",
           "normalized": "[a]-\u003eConstraints b",
@@ -1005,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "mapConstraint",
           "package": "Top",
@@ -1014,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "mapConstraint",
           "normalized": "(a b c d-\u003ec d)-\u003eConstraint c-\u003eConstraint c",
@@ -1029,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "operation",
           "package": "Top",
@@ -1038,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "operation",
           "normalized": "String-\u003ea()-\u003eConstraint a",
@@ -1052,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Constraint",
           "name": "solveConstraint",
           "package": "Top",
@@ -1061,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Top Constraint",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Constraint",
           "name": "solveConstraint",
           "normalized": "a-\u003eb()",
@@ -1077,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interface for a monad that constains the most basic operations to \n solve constraints. Can be reused for all kinds of constraint-based\n analyses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Basic",
           "name": "Basic",
           "package": "Top",
@@ -1086,6 +1179,7 @@
         "index": {
           "description": "An interface for monad that constains the most basic operations to solve constraints Can be reused for all kinds of constraint-based analyses",
           "hierarchy": "Top Implementation Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Basic",
           "name": "Basic",
           "package": "Top",
@@ -1100,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA BasicState is parameterized over the monad in which the constraints can\n be solved, and over the information that is stored with each constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Basic",
           "name": "BasicState",
           "package": "Top",
@@ -1109,6 +1204,7 @@
         "index": {
           "description": "BasicState is parameterized over the monad in which the constraints can be solved and over the information that is stored with each constraint",
           "hierarchy": "Top Implementation Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Basic",
           "name": "BasicState",
           "package": "Top",
@@ -1122,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Basic",
           "name": "BasicState",
           "package": "Top",
@@ -1131,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Basic",
           "name": "BasicState",
           "package": "Top",
@@ -1145,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditions to check (for the solved constraints)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Basic",
           "name": "conditions",
           "package": "Top",
@@ -1155,6 +1254,7 @@
         "index": {
           "description": "Conditions to check for the solved constraints",
           "hierarchy": "Top Implementation Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Basic",
           "name": "conditions",
           "normalized": "[(a Bool,String)]",
@@ -1170,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stack of constraints that is to be solved\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Basic",
           "name": "constraints",
           "package": "Top",
@@ -1180,6 +1281,7 @@
         "index": {
           "description": "stack of constraints that is to be solved",
           "hierarchy": "Top Implementation Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Basic",
           "name": "constraints",
           "package": "Top",
@@ -1193,6 +1295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe detected errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Basic",
           "name": "errors",
           "package": "Top",
@@ -1203,6 +1306,7 @@
         "index": {
           "description": "The detected errors",
           "hierarchy": "Top Implementation Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Basic",
           "name": "errors",
           "normalized": "[(a,ErrorLabel)]",
@@ -1217,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Basic",
           "name": "optionCheck",
           "package": "Top",
@@ -1226,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Basic",
           "name": "optionCheck",
           "package": "Top",
@@ -1240,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard all remaining constraints after the first error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Basic",
           "name": "optionStop",
           "package": "Top",
@@ -1250,6 +1357,7 @@
         "index": {
           "description": "Discard all remaining constraints after the first error",
           "hierarchy": "Top Implementation Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Basic",
           "name": "optionStop",
           "package": "Top",
@@ -1263,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.FastSubstitution",
           "name": "FastSubstitution",
           "package": "Top",
@@ -1271,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation FastSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.FastSubstitution",
           "name": "FastSubstitution",
           "package": "Top",
@@ -1284,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.FastSubstitution",
           "name": "GreedyState",
           "package": "Top",
@@ -1292,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation FastSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.FastSubstitution",
           "name": "GreedyState",
           "package": "Top",
@@ -1305,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.FastSubstitution",
           "name": "GreedyState",
           "package": "Top",
@@ -1314,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation FastSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.FastSubstitution",
           "name": "GreedyState",
           "package": "Top",
@@ -1327,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.FastSubstitution",
           "name": "unGS",
           "package": "Top",
@@ -1336,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation FastSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.FastSubstitution",
           "name": "unGS",
           "package": "Top",
@@ -1349,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.FastSubstitution",
           "name": "writeExpandedType",
           "package": "Top",
@@ -1358,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation FastSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.FastSubstitution",
           "name": "writeExpandedType",
           "normalized": "OrderedTypeSynonyms-\u003eTp-\u003eTp-\u003eFixpointSubstitution-\u003eFixpointSubstitution",
@@ -1373,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "General",
           "package": "Top",
@@ -1381,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "General",
           "package": "Top",
@@ -1394,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "And",
           "package": "Top",
@@ -1402,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "And",
           "package": "Top",
@@ -1415,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "Fix",
           "package": "Top",
@@ -1423,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "Fix",
           "package": "Top",
@@ -1436,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "Simple",
           "package": "Top",
@@ -1444,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "Simple",
           "package": "Top",
@@ -1457,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "SolveState",
           "package": "Top",
@@ -1465,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "SolveState",
           "package": "Top",
@@ -1478,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "Compose",
           "package": "Top",
@@ -1487,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "Compose",
           "package": "Top",
@@ -1500,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "Fix",
           "package": "Top",
@@ -1509,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "Fix",
           "package": "Top",
@@ -1522,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "Simple",
           "package": "Top",
@@ -1531,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "Simple",
           "package": "Top",
@@ -1544,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "allOptions",
           "package": "Top",
@@ -1553,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "allOptions",
           "normalized": "a[String]",
@@ -1568,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "allStates",
           "package": "Top",
@@ -1577,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "allStates",
           "normalized": "a[(String,String)]",
@@ -1592,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "collectStates",
           "package": "Top",
@@ -1601,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "collectStates",
           "normalized": "a-\u003e[(String,String)]",
@@ -1616,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "fromFstFixE",
           "package": "Top",
@@ -1625,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "fromFstFixE",
           "normalized": "Embedding(a b)c-\u003eEmbedding(Fix a d b)c",
@@ -1640,6 +1782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "fromFstSimpleE",
           "package": "Top",
@@ -1649,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "fromFstSimpleE",
           "normalized": "Embedding a b-\u003eEmbedding(Simple a c d)b",
@@ -1664,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "fstSimpleE",
           "package": "Top",
@@ -1673,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "fstSimpleE",
           "package": "Top",
@@ -1686,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "showState",
           "package": "Top",
@@ -1695,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "showState",
           "normalized": "a-\u003eString",
@@ -1710,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "stateName",
           "package": "Top",
@@ -1719,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "stateName",
           "normalized": "a-\u003eString",
@@ -1734,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.General",
           "name": "stateOptions",
           "package": "Top",
@@ -1743,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation General",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.General",
           "name": "stateOptions",
           "normalized": "a-\u003e[String]",
@@ -1758,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "Overloading",
           "package": "Top",
@@ -1766,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "Overloading",
           "package": "Top",
@@ -1779,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "OverloadingState",
           "package": "Top",
@@ -1787,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "OverloadingState",
           "package": "Top",
@@ -1800,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "PredicateMap",
           "package": "Top",
@@ -1808,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "PredicateMap",
           "package": "Top",
@@ -1821,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "TypeClassDirective",
           "package": "Top",
@@ -1829,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "TypeClassDirective",
           "package": "Top",
@@ -1842,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "TypeClassDirectives",
           "package": "Top",
@@ -1850,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "TypeClassDirectives",
           "package": "Top",
@@ -1863,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "CloseDirective",
           "package": "Top",
@@ -1872,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "CloseDirective",
           "package": "Top",
@@ -1885,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "DefaultDirective",
           "package": "Top",
@@ -1894,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "DefaultDirective",
           "package": "Top",
@@ -1907,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "DisjointDirective",
           "package": "Top",
@@ -1916,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "DisjointDirective",
           "normalized": "DisjointDirective[String]a",
@@ -1931,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "NeverDirective",
           "package": "Top",
@@ -1940,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "NeverDirective",
           "package": "Top",
@@ -1953,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "OverloadingState",
           "package": "Top",
@@ -1962,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "OverloadingState",
           "package": "Top",
@@ -1975,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "PredicateMap",
           "package": "Top",
@@ -1984,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "PredicateMap",
           "package": "Top",
@@ -1997,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "ambiguous",
           "package": "Top",
@@ -2006,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "ambiguous",
           "normalized": "[(Predicate,a)]-\u003eb()",
@@ -2020,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "ambiguousLabel",
           "package": "Top",
@@ -2029,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "ambiguousLabel",
           "package": "Top",
@@ -2042,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "assumeQsSubst",
           "package": "Top",
@@ -2051,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "assumeQsSubst",
           "normalized": "Select(OverloadingState a)b[(Predicate,a)]",
@@ -2067,6 +2247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll known type classes and instances\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "classEnvironment",
           "package": "Top",
@@ -2077,6 +2258,7 @@
         "index": {
           "description": "All known type classes and instances",
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "classEnvironment",
           "package": "Top",
@@ -2090,6 +2272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "disjointLabel",
           "package": "Top",
@@ -2099,6 +2282,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "disjointLabel",
           "package": "Top",
@@ -2112,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "generalizedQsSubst",
           "package": "Top",
@@ -2121,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "generalizedQsSubst",
           "normalized": "Select(OverloadingState a)b[(Predicate,a)]",
@@ -2136,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "globalAssumptions",
           "package": "Top",
@@ -2145,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "globalAssumptions",
           "normalized": "[(Predicate,a)]",
@@ -2160,6 +2348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "globalGeneralizedQs",
           "package": "Top",
@@ -2169,6 +2358,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "globalGeneralizedQs",
           "normalized": "[(Predicate,a)]",
@@ -2184,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "globalQualifiers",
           "package": "Top",
@@ -2193,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "globalQualifiers",
           "normalized": "[(Predicate,a)]",
@@ -2208,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "missingInSignatureLabel",
           "package": "Top",
@@ -2217,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "missingInSignatureLabel",
           "package": "Top",
@@ -2230,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "modifyPredicateMap",
           "package": "Top",
@@ -2239,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "modifyPredicateMap",
           "normalized": "(PredicateMap a-\u003ePredicateMap a)-\u003eb()",
@@ -2255,6 +2451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class assertions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "predicateMap",
           "package": "Top",
@@ -2265,6 +2462,7 @@
         "index": {
           "description": "Type class assertions",
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "predicateMap",
           "package": "Top",
@@ -2278,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "proveQsSubst",
           "package": "Top",
@@ -2287,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "proveQsSubst",
           "normalized": "Select(OverloadingState a)b[(Predicate,a)]",
@@ -2302,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "simplify",
           "package": "Top",
@@ -2311,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "simplify",
           "normalized": "OrderedTypeSynonyms-\u003eClassEnvironment-\u003eTypeClassDirectives a-\u003e[(Predicate,a)]-\u003eb[(Predicate,a)]",
@@ -2325,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "substPredicate",
           "package": "Top",
@@ -2334,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "substPredicate",
           "normalized": "(Predicate,a)-\u003eb(Predicate,a)",
@@ -2350,6 +2554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectives for type class assertions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "typeClassDirectives",
           "package": "Top",
@@ -2360,6 +2565,7 @@
         "index": {
           "description": "Directives for type class assertions",
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "typeClassDirectives",
           "package": "Top",
@@ -2373,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.Overloading",
           "name": "unresolvedLabel",
           "package": "Top",
@@ -2382,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation Overloading",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.Overloading",
           "name": "unresolvedLabel",
           "package": "Top",
@@ -2395,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.SimpleSubstitution",
           "name": "SimpleSubstitution",
           "package": "Top",
@@ -2403,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation SimpleSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.SimpleSubstitution",
           "name": "SimpleSubstitution",
           "package": "Top",
@@ -2416,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.SimpleSubstitution",
           "name": "SimpleState",
           "package": "Top",
@@ -2424,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation SimpleSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.SimpleSubstitution",
           "name": "SimpleState",
           "package": "Top",
@@ -2437,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.SimpleSubstitution",
           "name": "SimpleState",
           "package": "Top",
@@ -2446,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation SimpleSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.SimpleSubstitution",
           "name": "SimpleState",
           "package": "Top",
@@ -2459,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.SimpleSubstitution",
           "name": "unSS",
           "package": "Top",
@@ -2468,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation SimpleSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.SimpleSubstitution",
           "name": "unSS",
           "package": "Top",
@@ -2481,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ApplyHeuristics",
           "name": "ApplyHeuristics",
           "package": "Top",
@@ -2489,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ApplyHeuristics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ApplyHeuristics",
           "name": "ApplyHeuristics",
           "package": "Top",
@@ -2502,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ApplyHeuristics",
           "name": "applyHeuristics",
           "package": "Top",
@@ -2511,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ApplyHeuristics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ApplyHeuristics",
           "name": "applyHeuristics",
           "normalized": "(Path(EdgeId,a)-\u003e[Heuristic a])-\u003eb[ErrorInfo a]",
@@ -2526,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ApplyHeuristics",
           "name": "expandPath",
           "package": "Top",
@@ -2535,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ApplyHeuristics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ApplyHeuristics",
           "name": "expandPath",
           "normalized": "TypeGraphPath a-\u003eb(Path(EdgeId,a))",
@@ -2550,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ApplyHeuristics",
           "name": "predicatePath",
           "package": "Top",
@@ -2559,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ApplyHeuristics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ApplyHeuristics",
           "name": "predicatePath",
           "normalized": "a(Path(EdgeId,PathStep b))",
@@ -2574,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "Basics",
           "package": "Top",
@@ -2582,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "Basics",
           "package": "Top",
@@ -2595,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "ChildSide",
           "package": "Top",
@@ -2603,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "ChildSide",
           "package": "Top",
@@ -2616,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "Clique",
           "package": "Top",
@@ -2624,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "Clique",
           "package": "Top",
@@ -2637,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "CliqueList",
           "package": "Top",
@@ -2645,6 +2876,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "CliqueList",
           "package": "Top",
@@ -2658,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "EdgeId",
           "package": "Top",
@@ -2666,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "EdgeId",
           "package": "Top",
@@ -2679,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "EdgeNr",
           "package": "Top",
@@ -2687,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "EdgeNr",
           "package": "Top",
@@ -2700,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "ParentChild",
           "package": "Top",
@@ -2708,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "ParentChild",
           "package": "Top",
@@ -2721,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "PathStep",
           "package": "Top",
@@ -2729,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "PathStep",
           "package": "Top",
@@ -2742,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "TypeGraphPath",
           "package": "Top",
@@ -2750,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "TypeGraphPath",
           "package": "Top",
@@ -2763,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VertexId",
           "package": "Top",
@@ -2771,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VertexId",
           "package": "Top",
@@ -2784,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VertexInfo",
           "package": "Top",
@@ -2792,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VertexInfo",
           "package": "Top",
@@ -2805,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VertexKind",
           "package": "Top",
@@ -2813,6 +3060,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VertexKind",
           "package": "Top",
@@ -2826,6 +3074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "Child",
           "package": "Top",
@@ -2835,6 +3084,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "Child",
           "package": "Top",
@@ -2848,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "CliqueX",
           "package": "Top",
@@ -2857,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "CliqueX",
           "normalized": "CliqueX[ParentChild]",
@@ -2872,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "EdgeId",
           "package": "Top",
@@ -2881,6 +3134,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "EdgeId",
           "package": "Top",
@@ -2894,6 +3148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "EdgeNrX",
           "package": "Top",
@@ -2903,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "EdgeNrX",
           "package": "Top",
@@ -2916,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "Implied",
           "package": "Top",
@@ -2925,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "Implied",
           "package": "Top",
@@ -2938,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "Initial",
           "package": "Top",
@@ -2947,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "Initial",
           "package": "Top",
@@ -2960,6 +3220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "LeftChild",
           "package": "Top",
@@ -2969,6 +3230,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "LeftChild",
           "package": "Top",
@@ -2982,6 +3244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "ParentChild",
           "package": "Top",
@@ -2991,6 +3254,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "ParentChild",
           "package": "Top",
@@ -3004,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "RightChild",
           "package": "Top",
@@ -3013,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "RightChild",
           "package": "Top",
@@ -3026,6 +3292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VApp",
           "package": "Top",
@@ -3035,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VApp",
           "package": "Top",
@@ -3048,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VCon",
           "package": "Top",
@@ -3057,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VCon",
           "package": "Top",
@@ -3070,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VVar",
           "package": "Top",
@@ -3079,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VVar",
           "package": "Top",
@@ -3092,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VertexId",
           "package": "Top",
@@ -3101,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "VertexId",
           "package": "Top",
@@ -3114,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "child",
           "package": "Top",
@@ -3123,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "child",
           "package": "Top",
@@ -3135,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "childSide",
           "package": "Top",
@@ -3144,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "childSide",
           "package": "Top",
@@ -3157,6 +3435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "childrenInClique",
           "package": "Top",
@@ -3166,6 +3445,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "childrenInClique",
           "normalized": "Clique-\u003e[VertexId]",
@@ -3181,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "cliqueRepresentative",
           "package": "Top",
@@ -3190,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "cliqueRepresentative",
           "normalized": "Clique-\u003eVertexId",
@@ -3205,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "combineCliqueList",
           "package": "Top",
@@ -3214,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "combineCliqueList",
           "normalized": "CliqueList-\u003eCliqueList-\u003eCliqueList",
@@ -3229,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "impliedEdgeNr",
           "package": "Top",
@@ -3238,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "impliedEdgeNr",
           "package": "Top",
@@ -3251,6 +3537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "isDisjointClique",
           "package": "Top",
@@ -3260,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "isDisjointClique",
           "normalized": "Clique-\u003eClique-\u003eBool",
@@ -3275,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "isSubsetClique",
           "package": "Top",
@@ -3284,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "isSubsetClique",
           "normalized": "Clique-\u003eClique-\u003eBool",
@@ -3299,6 +3589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "makeClique",
           "package": "Top",
@@ -3308,6 +3599,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "makeClique",
           "normalized": "[ParentChild]-\u003eClique",
@@ -3323,6 +3615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "makeEdgeNr",
           "package": "Top",
@@ -3332,6 +3625,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "makeEdgeNr",
           "normalized": "Int-\u003eEdgeNr",
@@ -3347,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "mergeCliques",
           "package": "Top",
@@ -3356,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "mergeCliques",
           "normalized": "CliqueList-\u003eClique",
@@ -3371,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "parent",
           "package": "Top",
@@ -3380,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "parent",
           "package": "Top",
@@ -3392,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "triplesInClique",
           "package": "Top",
@@ -3401,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "triplesInClique",
           "normalized": "Clique-\u003e[ParentChild]",
@@ -3416,6 +3716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "vertexIdToTp",
           "package": "Top",
@@ -3425,6 +3726,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Basics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Basics",
           "name": "vertexIdToTp",
           "normalized": "VertexId-\u003eTp",
@@ -3440,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "Class",
           "package": "Top",
@@ -3448,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "Class",
           "package": "Top",
@@ -3461,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "TypeGraph",
           "package": "Top",
@@ -3469,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "TypeGraph",
           "package": "Top",
@@ -3482,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "addEdge",
           "package": "Top",
@@ -3491,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "addEdge",
           "normalized": "EdgeId-\u003ea-\u003eb-\u003eb",
@@ -3506,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "addNewEdge",
           "package": "Top",
@@ -3515,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "addNewEdge",
           "normalized": "(VertexId,VertexId)-\u003ea-\u003eb-\u003eb",
@@ -3530,6 +3840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "addTermGraph",
           "package": "Top",
@@ -3539,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "addTermGraph",
           "normalized": "OrderedTypeSynonyms-\u003eInt-\u003eTp-\u003ea-\u003e(Int,VertexId,a)",
@@ -3554,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "addVertex",
           "package": "Top",
@@ -3563,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "addVertex",
           "normalized": "VertexId-\u003eVertexInfo-\u003ea-\u003ea",
@@ -3578,6 +3892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "allPaths",
           "package": "Top",
@@ -3587,6 +3902,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "allPaths",
           "normalized": "VertexId-\u003eVertexId-\u003ea-\u003eTypeGraphPath b",
@@ -3602,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "allPathsList",
           "package": "Top",
@@ -3611,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "allPathsList",
           "normalized": "VertexId-\u003e[VertexId]-\u003ea-\u003eTypeGraphPath b",
@@ -3626,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "allPathsListWithout",
           "package": "Top",
@@ -3635,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "allPathsListWithout",
           "normalized": "Set VertexId-\u003eVertexId-\u003e[VertexId]-\u003ea-\u003eTypeGraphPath b",
@@ -3650,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "childrenInGroupOf",
           "package": "Top",
@@ -3659,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "childrenInGroupOf",
           "normalized": "VertexId-\u003ea-\u003e([ParentChild],[ParentChild])",
@@ -3674,6 +3996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "constantsInGroupOf",
           "package": "Top",
@@ -3683,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "constantsInGroupOf",
           "normalized": "VertexId-\u003ea-\u003e[String]",
@@ -3698,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "deleteEdge",
           "package": "Top",
@@ -3707,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "deleteEdge",
           "normalized": "EdgeId-\u003ea-\u003ea",
@@ -3722,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "edgesFrom",
           "package": "Top",
@@ -3731,6 +4058,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "edgesFrom",
           "normalized": "VertexId-\u003ea-\u003e[(EdgeId,b)]",
@@ -3746,6 +4074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "getMarkedPossibleErrors",
           "package": "Top",
@@ -3755,6 +4084,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "getMarkedPossibleErrors",
           "normalized": "a-\u003e[VertexId]",
@@ -3770,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "makeSubstitution",
           "package": "Top",
@@ -3779,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "makeSubstitution",
           "normalized": "OrderedTypeSynonyms-\u003ea-\u003e[(VertexId,Tp)]",
@@ -3794,6 +4126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "markAsPossibleError",
           "package": "Top",
@@ -3803,6 +4136,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "markAsPossibleError",
           "normalized": "VertexId-\u003ea-\u003ea",
@@ -3818,6 +4152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "representativeInGroupOf",
           "package": "Top",
@@ -3827,6 +4162,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "representativeInGroupOf",
           "normalized": "VertexId-\u003ea-\u003eVertexId",
@@ -3842,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "substituteType",
           "package": "Top",
@@ -3851,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "substituteType",
           "normalized": "OrderedTypeSynonyms-\u003eTp-\u003ea-\u003eTp",
@@ -3866,6 +4204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "substituteTypeSafe",
           "package": "Top",
@@ -3875,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "substituteTypeSafe",
           "normalized": "OrderedTypeSynonyms-\u003eTp-\u003ea-\u003eMaybe Tp",
@@ -3890,6 +4230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "substituteVariable",
           "package": "Top",
@@ -3899,6 +4240,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "substituteVariable",
           "normalized": "OrderedTypeSynonyms-\u003eInt-\u003ea-\u003eTp",
@@ -3914,6 +4256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "typeFromTermGraph",
           "package": "Top",
@@ -3923,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "typeFromTermGraph",
           "normalized": "VertexId-\u003ea-\u003eTp",
@@ -3938,6 +4282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "unmarkPossibleErrors",
           "package": "Top",
@@ -3947,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "unmarkPossibleErrors",
           "normalized": "a-\u003ea",
@@ -3962,6 +4308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "verticesInGroupOf",
           "package": "Top",
@@ -3971,6 +4318,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Class",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Class",
           "name": "verticesInGroupOf",
           "normalized": "VertexId-\u003ea-\u003e[(VertexId,VertexInfo)]",
@@ -3986,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "ClassMonadic",
           "package": "Top",
@@ -3994,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "ClassMonadic",
           "package": "Top",
@@ -4007,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "HasTG",
           "package": "Top",
@@ -4015,6 +4366,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "HasTG",
           "package": "Top",
@@ -4028,6 +4380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "HasTypeGraph",
           "package": "Top",
@@ -4036,6 +4389,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "HasTypeGraph",
           "package": "Top",
@@ -4049,6 +4403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "addEdge",
           "package": "Top",
@@ -4058,6 +4413,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "addEdge",
           "normalized": "EdgeId-\u003ea-\u003eb()",
@@ -4073,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "addNewEdge",
           "package": "Top",
@@ -4082,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "addNewEdge",
           "normalized": "(VertexId,VertexId)-\u003ea-\u003eb()",
@@ -4097,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "addTermGraph",
           "package": "Top",
@@ -4106,6 +4465,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "addTermGraph",
           "normalized": "Tp-\u003ea VertexId",
@@ -4121,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "addVertex",
           "package": "Top",
@@ -4130,6 +4491,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "addVertex",
           "normalized": "VertexId-\u003eVertexInfo-\u003ea()",
@@ -4145,6 +4507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "allPaths",
           "package": "Top",
@@ -4154,6 +4517,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "allPaths",
           "normalized": "VertexId-\u003eVertexId-\u003ea(TypeGraphPath b)",
@@ -4169,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "allPathsList",
           "package": "Top",
@@ -4178,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "allPathsList",
           "normalized": "VertexId-\u003e[VertexId]-\u003ea(TypeGraphPath b)",
@@ -4193,6 +4559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "allPathsListWithout",
           "package": "Top",
@@ -4202,6 +4569,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "allPathsListWithout",
           "normalized": "Set VertexId-\u003eVertexId-\u003e[VertexId]-\u003ea(TypeGraphPath b)",
@@ -4217,6 +4585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "changeTypeGraph",
           "package": "Top",
@@ -4226,6 +4595,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "changeTypeGraph",
           "normalized": "a-\u003ea)-\u003eb()",
@@ -4241,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "childrenInGroupOf",
           "package": "Top",
@@ -4250,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "childrenInGroupOf",
           "normalized": "VertexId-\u003ea([ParentChild],[ParentChild])",
@@ -4265,6 +4637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "constantsInGroupOf",
           "package": "Top",
@@ -4274,6 +4647,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "constantsInGroupOf",
           "normalized": "VertexId-\u003ea[String]",
@@ -4289,6 +4663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "deleteEdge",
           "package": "Top",
@@ -4298,6 +4673,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "deleteEdge",
           "normalized": "EdgeId-\u003ea()",
@@ -4313,6 +4689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "edgesFrom",
           "package": "Top",
@@ -4322,6 +4699,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "edgesFrom",
           "normalized": "VertexId-\u003ea[(EdgeId,b)]",
@@ -4337,6 +4715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "getMarkedPossibleErrors",
           "package": "Top",
@@ -4346,6 +4725,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "getMarkedPossibleErrors",
           "normalized": "a[VertexId]",
@@ -4361,6 +4741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "makeFixpointSubst",
           "package": "Top",
@@ -4370,6 +4751,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "makeFixpointSubst",
           "package": "Top",
@@ -4383,6 +4765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "makeSubstitution",
           "package": "Top",
@@ -4392,6 +4775,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "makeSubstitution",
           "normalized": "a[(VertexId,Tp)]",
@@ -4407,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "markAsPossibleError",
           "package": "Top",
@@ -4416,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "markAsPossibleError",
           "normalized": "VertexId-\u003ea()",
@@ -4431,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "representativeInGroupOf",
           "package": "Top",
@@ -4440,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "representativeInGroupOf",
           "normalized": "VertexId-\u003ea VertexId",
@@ -4455,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "substituteType",
           "package": "Top",
@@ -4464,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "substituteType",
           "normalized": "Tp-\u003ea Tp",
@@ -4479,6 +4869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "substituteTypeSafe",
           "package": "Top",
@@ -4488,6 +4879,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "substituteTypeSafe",
           "normalized": "Tp-\u003ea(Maybe Tp)",
@@ -4503,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "substituteVariable",
           "package": "Top",
@@ -4512,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "substituteVariable",
           "normalized": "Int-\u003ea Tp",
@@ -4527,6 +4921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "theUnifyTerms",
           "package": "Top",
@@ -4536,6 +4931,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "theUnifyTerms",
           "normalized": "a-\u003eTp-\u003eTp-\u003eb()",
@@ -4551,6 +4947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "typeFromTermGraph",
           "package": "Top",
@@ -4560,6 +4957,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "typeFromTermGraph",
           "normalized": "VertexId-\u003ea Tp",
@@ -4575,6 +4973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "unmarkPossibleErrors",
           "package": "Top",
@@ -4584,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "unmarkPossibleErrors",
           "normalized": "a()",
@@ -4599,6 +4999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "useTypeGraph",
           "package": "Top",
@@ -4608,6 +5009,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "useTypeGraph",
           "normalized": "a-\u003eb)-\u003ec b",
@@ -4623,6 +5025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "verticesInGroupOf",
           "package": "Top",
@@ -4632,6 +5035,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "verticesInGroupOf",
           "normalized": "VertexId-\u003ea[(VertexId,VertexInfo)]",
@@ -4647,6 +5051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "withTypeGraph",
           "package": "Top",
@@ -4656,6 +5061,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph ClassMonadic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.ClassMonadic",
           "name": "withTypeGraph",
           "normalized": "a-\u003e(b,a))-\u003ec b",
@@ -4671,6 +5077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "DefaultHeuristics",
           "package": "Top",
@@ -4679,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph DefaultHeuristics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "DefaultHeuristics",
           "package": "Top",
@@ -4692,6 +5100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "defaultHeuristics",
           "package": "Top",
@@ -4701,6 +5110,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph DefaultHeuristics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "defaultHeuristics",
           "normalized": "Path(EdgeId,a)-\u003e[Heuristic a]",
@@ -4717,6 +5127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect the \u003ca\u003elatest\u003c/a\u003e constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "firstComeFirstBlamed",
           "package": "Top",
@@ -4727,6 +5138,7 @@
         "index": {
           "description": "Select the latest constraint",
           "hierarchy": "Top Implementation TypeGraph DefaultHeuristics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "firstComeFirstBlamed",
           "package": "Top",
@@ -4741,6 +5153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlthough not as precise as the minimal set analysis, this calculates the participation of\n each edge in all error paths. \n Default ratio = 1.0  (100 percent)\n   (the ratio determines which scores compared to the best are accepted)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "highParticipation",
           "package": "Top",
@@ -4751,6 +5164,7 @@
         "index": {
           "description": "Although not as precise as the minimal set analysis this calculates the participation of each edge in all error paths Default ratio percent the ratio determines which scores compared to the best are accepted",
           "hierarchy": "Top Implementation TypeGraph DefaultHeuristics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "highParticipation",
           "normalized": "Double-\u003ePath(EdgeId,a)-\u003eHeuristic a",
@@ -4767,6 +5181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the smallest \u003ccode\u003eminimal\u003c/code\u003e sets. This computation is very(!) costly\n   (might take a long time for complex inconsistencies)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "inMininalSet",
           "package": "Top",
@@ -4777,6 +5192,7 @@
         "index": {
           "description": "Compute the smallest minimal sets This computation is very costly might take long time for complex inconsistencies",
           "hierarchy": "Top Implementation TypeGraph DefaultHeuristics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "inMininalSet",
           "normalized": "Path(EdgeId,a)-\u003eHeuristic a",
@@ -4793,6 +5209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect only the constraints for which there is evidence in the predicates\n of the current state that the constraint at hand is incorrect. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "inPredicatePath",
           "package": "Top",
@@ -4803,6 +5220,7 @@
         "index": {
           "description": "Select only the constraints for which there is evidence in the predicates of the current state that the constraint at hand is incorrect",
           "hierarchy": "Top Implementation TypeGraph DefaultHeuristics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "inPredicatePath",
           "package": "Top",
@@ -4817,6 +5235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect only specific constraint numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "selectConstraintNumbers",
           "package": "Top",
@@ -4827,6 +5246,7 @@
         "index": {
           "description": "Select only specific constraint numbers",
           "hierarchy": "Top Implementation TypeGraph DefaultHeuristics",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.DefaultHeuristics",
           "name": "selectConstraintNumbers",
           "normalized": "[EdgeNr]-\u003eHeuristic a",
@@ -4843,6 +5263,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn equivalence group is a graph-like structure containing type variables and \n type constants that should all be equivalent. The edges explain why they should\n be equal.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "EquivalenceGroup",
           "package": "Top",
@@ -4852,6 +5273,7 @@
         "index": {
           "description": "An equivalence group is graph-like structure containing type variables and type constants that should all be equivalent The edges explain why they should be equal",
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "EquivalenceGroup",
           "package": "Top",
@@ -4865,6 +5287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "EquivalenceGroup",
           "package": "Top",
@@ -4873,6 +5296,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "EquivalenceGroup",
           "package": "Top",
@@ -4886,6 +5310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "checkGroup",
           "package": "Top",
@@ -4895,6 +5320,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "checkGroup",
           "normalized": "EquivalenceGroup a-\u003eEquivalenceGroup a",
@@ -4910,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "combineGroups",
           "package": "Top",
@@ -4919,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "combineGroups",
           "normalized": "EquivalenceGroup a-\u003eEquivalenceGroup a-\u003eEquivalenceGroup a",
@@ -4934,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "consistent",
           "package": "Top",
@@ -4943,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "consistent",
           "normalized": "EquivalenceGroup a-\u003eBool",
@@ -4957,6 +5387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "constants",
           "package": "Top",
@@ -4966,6 +5397,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "constants",
           "normalized": "EquivalenceGroup a-\u003e[String]",
@@ -4981,6 +5413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(initial) edges in this equivalence group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "edges",
           "package": "Top",
@@ -4991,6 +5424,7 @@
         "index": {
           "description": "initial edges in this equivalence group",
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "edges",
           "normalized": "EquivalenceGroup a-\u003e[(EdgeId,a)]",
@@ -5005,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "emptyGroup",
           "package": "Top",
@@ -5014,6 +5449,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "emptyGroup",
           "package": "Top",
@@ -5027,6 +5463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "equalPaths",
           "package": "Top",
@@ -5036,6 +5473,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "equalPaths",
           "normalized": "Set VertexId-\u003eVertexId-\u003e[VertexId]-\u003eEquivalenceGroup a-\u003eTypeGraphPath a",
@@ -5051,6 +5489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "insertClique",
           "package": "Top",
@@ -5060,6 +5499,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "insertClique",
           "normalized": "Clique-\u003eEquivalenceGroup a-\u003eEquivalenceGroup a",
@@ -5075,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "insertEdge",
           "package": "Top",
@@ -5084,6 +5525,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "insertEdge",
           "normalized": "EdgeId-\u003ea-\u003eEquivalenceGroup a-\u003eEquivalenceGroup a",
@@ -5099,6 +5541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "insertVertex",
           "package": "Top",
@@ -5108,6 +5551,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "insertVertex",
           "normalized": "VertexId-\u003eVertexInfo-\u003eEquivalenceGroup a-\u003eEquivalenceGroup a",
@@ -5123,6 +5567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "removeClique",
           "package": "Top",
@@ -5132,6 +5577,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "removeClique",
           "normalized": "Clique-\u003eEquivalenceGroup a-\u003eEquivalenceGroup a",
@@ -5147,6 +5593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "removeEdge",
           "package": "Top",
@@ -5156,6 +5603,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "removeEdge",
           "normalized": "EdgeId-\u003eEquivalenceGroup a-\u003eEquivalenceGroup a",
@@ -5171,6 +5619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "splitGroup",
           "package": "Top",
@@ -5180,6 +5629,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "splitGroup",
           "normalized": "EquivalenceGroup a-\u003e[EquivalenceGroup a]",
@@ -5195,6 +5645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "typeOfGroup",
           "package": "Top",
@@ -5204,6 +5655,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "typeOfGroup",
           "normalized": "OrderedTypeSynonyms-\u003eEquivalenceGroup a-\u003eMaybe Tp",
@@ -5220,6 +5672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evertices in this equivalence group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "vertices",
           "package": "Top",
@@ -5230,6 +5683,7 @@
         "index": {
           "description": "vertices in this equivalence group",
           "hierarchy": "Top Implementation TypeGraph EquivalenceGroup",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.EquivalenceGroup",
           "name": "vertices",
           "normalized": "EquivalenceGroup a-\u003e[(VertexId,VertexInfo)]",
@@ -5244,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Heuristic",
           "package": "Top",
@@ -5252,6 +5707,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Heuristic",
           "package": "Top",
@@ -5265,6 +5721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "HComponent",
           "package": "Top",
@@ -5273,6 +5730,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "HComponent",
           "package": "Top",
@@ -5286,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "HasTwoTypes",
           "package": "Top",
@@ -5294,6 +5753,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "HasTwoTypes",
           "package": "Top",
@@ -5307,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Heuristic",
           "package": "Top",
@@ -5315,6 +5776,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Heuristic",
           "package": "Top",
@@ -5328,6 +5790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "PathHeuristics",
           "package": "Top",
@@ -5336,6 +5799,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "PathHeuristics",
           "package": "Top",
@@ -5349,6 +5813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Selector",
           "package": "Top",
@@ -5357,6 +5822,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Selector",
           "package": "Top",
@@ -5370,6 +5836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Filter",
           "package": "Top",
@@ -5379,6 +5846,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Filter",
           "normalized": "Filter String([(EdgeId,a)]-\u003eb[(EdgeId,a)])",
@@ -5394,6 +5862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Heuristic",
           "package": "Top",
@@ -5403,6 +5872,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Heuristic",
           "package": "Top",
@@ -5416,6 +5886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Selector",
           "package": "Top",
@@ -5425,6 +5896,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Selector",
           "normalized": "Selector(String,(EdgeId,a)-\u003eb(Maybe(Int,String,[EdgeId],a)))",
@@ -5440,6 +5912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "SelectorList",
           "package": "Top",
@@ -5449,6 +5922,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "SelectorList",
           "normalized": "SelectorList(String,[(EdgeId,a)]-\u003eb(Maybe(Int,String,[EdgeId],a)))",
@@ -5464,6 +5938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Voting",
           "package": "Top",
@@ -5473,6 +5948,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "Voting",
           "normalized": "Voting[Selector a b]",
@@ -5488,6 +5964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "doWithoutEdge",
           "package": "Top",
@@ -5497,6 +5974,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "doWithoutEdge",
           "normalized": "(EdgeId,a)-\u003eb c-\u003eb c",
@@ -5512,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "doWithoutEdges",
           "package": "Top",
@@ -5521,6 +6000,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "doWithoutEdges",
           "normalized": "[(EdgeId,a)]-\u003eb c-\u003eb c",
@@ -5536,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "edgeFilter",
           "package": "Top",
@@ -5545,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "edgeFilter",
           "normalized": "String-\u003e((EdgeId,a)-\u003eb Bool)-\u003eHComponent b a",
@@ -5560,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "eqInfo2",
           "package": "Top",
@@ -5569,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "eqInfo2",
           "normalized": "(EdgeId,a)-\u003e(EdgeId,a)-\u003eBool",
@@ -5584,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "getSelectorName",
           "package": "Top",
@@ -5593,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "getSelectorName",
           "normalized": "Selector a b-\u003eString",
@@ -5608,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "getSubstitutedTypes",
           "package": "Top",
@@ -5617,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "getSubstitutedTypes",
           "normalized": "a-\u003eb(Maybe Tp,Maybe Tp)",
@@ -5632,6 +6120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "getTwoTypes",
           "package": "Top",
@@ -5641,6 +6130,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "getTwoTypes",
           "normalized": "a-\u003e(Tp,Tp)",
@@ -5656,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "info2ToEdgeNr",
           "package": "Top",
@@ -5665,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "info2ToEdgeNr",
           "normalized": "(EdgeId,a)-\u003eEdgeNr",
@@ -5680,6 +6172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "maximalEdgeFilter",
           "package": "Top",
@@ -5689,6 +6182,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "maximalEdgeFilter",
           "normalized": "String-\u003e((EdgeId,a)-\u003eb c)-\u003eHComponent b a",
@@ -5704,6 +6198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "minimalEdgeFilter",
           "package": "Top",
@@ -5713,6 +6208,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "minimalEdgeFilter",
           "normalized": "String-\u003e((EdgeId,a)-\u003eb c)-\u003eHComponent b a",
@@ -5728,6 +6224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "resultsEdgeFilter",
           "package": "Top",
@@ -5737,6 +6234,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Heuristic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Heuristic",
           "name": "resultsEdgeFilter",
           "normalized": "([a]-\u003ea)-\u003eString-\u003e((EdgeId,b)-\u003ec a)-\u003eHComponent c b",
@@ -5752,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "Path",
           "package": "Top",
@@ -5760,6 +6259,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "Path",
           "package": "Top",
@@ -5773,6 +6273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "Path",
           "package": "Top",
@@ -5781,6 +6282,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "Path",
           "package": "Top",
@@ -5794,6 +6296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "(\u003c|\u003e)",
           "package": "Top",
@@ -5803,6 +6306,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "a(Path b)-\u003ea(Path b)-\u003ea(Path b)",
@@ -5817,6 +6321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "(\u003c++\u003e)",
           "package": "Top",
@@ -5826,6 +6331,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "(\u003c++\u003e) \u003c++\u003e",
           "normalized": "a[Path b]-\u003ea[Path b]-\u003ea[Path b]",
@@ -5840,6 +6346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "(\u003c+\u003e)",
           "package": "Top",
@@ -5849,6 +6356,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a(Path b)-\u003ea(Path b)-\u003ea(Path b)",
@@ -5863,6 +6371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": ":|:",
           "package": "Top",
@@ -5872,6 +6381,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": ":|:",
           "package": "Top",
@@ -5884,6 +6394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": ":+:",
           "package": "Top",
@@ -5893,6 +6404,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": ":+:",
           "package": "Top",
@@ -5905,6 +6417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "Empty",
           "package": "Top",
@@ -5914,6 +6427,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "Empty",
           "package": "Top",
@@ -5927,6 +6441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "Fail",
           "package": "Top",
@@ -5936,6 +6451,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "Fail",
           "package": "Top",
@@ -5949,6 +6465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "Step",
           "package": "Top",
@@ -5958,6 +6475,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "Step",
           "package": "Top",
@@ -5971,6 +6489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "altList",
           "package": "Top",
@@ -5980,6 +6499,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "altList",
           "normalized": "[Path a]-\u003ePath a",
@@ -5995,6 +6515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "altList1",
           "package": "Top",
@@ -6004,6 +6525,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "altList1",
           "normalized": "[Path a]-\u003ePath a",
@@ -6019,6 +6541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "changeStep",
           "package": "Top",
@@ -6028,6 +6551,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "changeStep",
           "normalized": "(a-\u003ePath b)-\u003ePath a-\u003ePath b",
@@ -6043,6 +6567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "changeStepM",
           "package": "Top",
@@ -6052,6 +6577,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "changeStepM",
           "normalized": "(a-\u003eb(Path c))-\u003ePath a-\u003eb(Path c)",
@@ -6067,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "flattenPath",
           "package": "Top",
@@ -6076,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "flattenPath",
           "normalized": "Path a-\u003e[[a]]",
@@ -6091,6 +6619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "limitNumberOfPaths",
           "package": "Top",
@@ -6100,6 +6629,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "limitNumberOfPaths",
           "normalized": "Int-\u003ePath a-\u003ePath a",
@@ -6116,6 +6646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two monadic computations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "mCombine",
           "package": "Top",
@@ -6126,6 +6657,7 @@
         "index": {
           "description": "Combine two monadic computations",
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "mCombine",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -6141,6 +6673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "mapPath",
           "package": "Top",
@@ -6150,6 +6683,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "mapPath",
           "normalized": "(a-\u003eb)-\u003ePath a-\u003ePath b",
@@ -6166,6 +6700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximal number of equality paths that is returned by equalPaths \n (although this number can be exceeded...it is more or less used as approximation)\n Nothing indicates that there is no limit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "maxNumberOfEqualPaths",
           "package": "Top",
@@ -6176,6 +6711,7 @@
         "index": {
           "description": "The maximal number of equality paths that is returned by equalPaths although this number can be exceeded...it is more or less used as approximation Nothing indicates that there is no limit",
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "maxNumberOfEqualPaths",
           "package": "Top",
@@ -6189,6 +6725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "minCompleteInPath",
           "package": "Top",
@@ -6198,6 +6735,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "minCompleteInPath",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003ePath a-\u003eMaybe a",
@@ -6213,6 +6751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "minimalSets",
           "package": "Top",
@@ -6222,6 +6761,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "minimalSets",
           "normalized": "(a-\u003ea-\u003eBool)-\u003ePath a-\u003e[[a]]",
@@ -6237,6 +6777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "participationMap",
           "package": "Top",
@@ -6246,6 +6787,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "participationMap",
           "normalized": "Path a-\u003e(Integer,Map a Integer)",
@@ -6261,6 +6803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "pathSize",
           "package": "Top",
@@ -6270,6 +6813,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "pathSize",
           "normalized": "Path a-\u003eInt",
@@ -6285,6 +6829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "reduceNumberOfPaths",
           "package": "Top",
@@ -6294,6 +6839,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "reduceNumberOfPaths",
           "normalized": "Path a-\u003ePath a",
@@ -6309,6 +6855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "removeSomeDuplicates",
           "package": "Top",
@@ -6318,6 +6865,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "removeSomeDuplicates",
           "normalized": "(a-\u003eb)-\u003ePath a-\u003ePath a",
@@ -6333,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "seqList",
           "package": "Top",
@@ -6342,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "seqList",
           "normalized": "[Path a]-\u003ePath a",
@@ -6357,6 +6907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "seqList1",
           "package": "Top",
@@ -6366,6 +6917,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "seqList1",
           "normalized": "[Path a]-\u003ePath a",
@@ -6381,6 +6933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "simplifyPath",
           "package": "Top",
@@ -6390,6 +6943,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "simplifyPath",
           "normalized": "Path a-\u003ePath a",
@@ -6405,6 +6959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "steps",
           "package": "Top",
@@ -6414,6 +6969,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "steps",
           "normalized": "Path a-\u003e[a]",
@@ -6428,6 +6984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "tailSharingBy",
           "package": "Top",
@@ -6437,6 +6994,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Path",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Path",
           "name": "tailSharingBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003ePath a-\u003ePath a",
@@ -6452,6 +7010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "Standard",
           "package": "Top",
@@ -6460,6 +7019,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "Standard",
           "package": "Top",
@@ -6473,6 +7033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "StandardTypeGraph",
           "package": "Top",
@@ -6481,6 +7042,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "StandardTypeGraph",
           "package": "Top",
@@ -6494,6 +7056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "STG",
           "package": "Top",
@@ -6503,6 +7066,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "STG",
           "package": "Top",
@@ -6516,6 +7080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "addClique",
           "package": "Top",
@@ -6525,6 +7090,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "addClique",
           "normalized": "Clique-\u003eStandardTypeGraph a-\u003eStandardTypeGraph a",
@@ -6540,6 +7106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "addPossibleInconsistentGroup",
           "package": "Top",
@@ -6549,6 +7116,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "addPossibleInconsistentGroup",
           "normalized": "VertexId-\u003eStandardTypeGraph a-\u003eStandardTypeGraph a",
@@ -6564,6 +7132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "combineClasses",
           "package": "Top",
@@ -6573,6 +7142,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "combineClasses",
           "normalized": "[VertexId]-\u003eStandardTypeGraph a-\u003eStandardTypeGraph a",
@@ -6588,6 +7158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "constraintNumber",
           "package": "Top",
@@ -6597,6 +7168,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "constraintNumber",
           "package": "Top",
@@ -6610,6 +7182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "createGroup",
           "package": "Top",
@@ -6619,6 +7192,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "createGroup",
           "normalized": "EquivalenceGroup a-\u003eStandardTypeGraph a-\u003eStandardTypeGraph a",
@@ -6634,6 +7208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "deleteClique",
           "package": "Top",
@@ -6643,6 +7218,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "deleteClique",
           "normalized": "Clique-\u003eStandardTypeGraph a-\u003eStandardTypeGraph a",
@@ -6658,6 +7234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "equivalenceGroupCounter",
           "package": "Top",
@@ -6667,6 +7244,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "equivalenceGroupCounter",
           "package": "Top",
@@ -6680,6 +7258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "equivalenceGroupMap",
           "package": "Top",
@@ -6689,6 +7268,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "equivalenceGroupMap",
           "package": "Top",
@@ -6702,6 +7282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "getAllGroups",
           "package": "Top",
@@ -6711,6 +7292,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "getAllGroups",
           "normalized": "StandardTypeGraph a-\u003e[EquivalenceGroup a]",
@@ -6726,6 +7308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "getGroupOf",
           "package": "Top",
@@ -6735,6 +7318,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "getGroupOf",
           "normalized": "VertexId-\u003eStandardTypeGraph a-\u003eEquivalenceGroup a",
@@ -6750,6 +7334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "getPossibleInconsistentGroups",
           "package": "Top",
@@ -6759,6 +7344,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "getPossibleInconsistentGroups",
           "normalized": "StandardTypeGraph a-\u003e[VertexId]",
@@ -6774,6 +7360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "maybeGetGroupOf",
           "package": "Top",
@@ -6783,6 +7370,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "maybeGetGroupOf",
           "normalized": "VertexId-\u003eStandardTypeGraph a-\u003eMaybe(EquivalenceGroup a)",
@@ -6798,6 +7386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "possibleErrors",
           "package": "Top",
@@ -6807,6 +7396,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "possibleErrors",
           "normalized": "[VertexId]",
@@ -6822,6 +7412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "propagateEquality",
           "package": "Top",
@@ -6831,6 +7422,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "propagateEquality",
           "normalized": "VertexId-\u003eStandardTypeGraph a-\u003eStandardTypeGraph a",
@@ -6846,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "propagateRemoval",
           "package": "Top",
@@ -6855,6 +7448,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "propagateRemoval",
           "normalized": "VertexId-\u003eStandardTypeGraph a-\u003eStandardTypeGraph a",
@@ -6870,6 +7464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "referenceMap",
           "package": "Top",
@@ -6879,6 +7474,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "referenceMap",
           "package": "Top",
@@ -6892,6 +7488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "removeGroup",
           "package": "Top",
@@ -6901,6 +7498,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "removeGroup",
           "normalized": "EquivalenceGroup a-\u003eStandardTypeGraph a-\u003eStandardTypeGraph a",
@@ -6916,6 +7514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "setPossibleInconsistentGroups",
           "package": "Top",
@@ -6925,6 +7524,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "setPossibleInconsistentGroups",
           "normalized": "[VertexId]-\u003eStandardTypeGraph a-\u003eStandardTypeGraph a",
@@ -6940,6 +7540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "splitClass",
           "package": "Top",
@@ -6949,6 +7550,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "splitClass",
           "normalized": "VertexId-\u003eStandardTypeGraph a-\u003e([VertexId],StandardTypeGraph a)",
@@ -6964,6 +7566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "updateGroupOf",
           "package": "Top",
@@ -6973,6 +7576,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "updateGroupOf",
           "normalized": "VertexId-\u003e(EquivalenceGroup a-\u003eEquivalenceGroup a)-\u003eStandardTypeGraph a-\u003eStandardTypeGraph a",
@@ -6988,6 +7592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "vertexExists",
           "package": "Top",
@@ -6997,6 +7602,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraph Standard",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraph.Standard",
           "name": "vertexExists",
           "normalized": "VertexId-\u003eStandardTypeGraph a-\u003eBool",
@@ -7012,6 +7618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraphSubstitution",
           "name": "TypeGraphSubstitution",
           "package": "Top",
@@ -7020,6 +7627,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraphSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraphSubstitution",
           "name": "TypeGraphSubstitution",
           "package": "Top",
@@ -7033,6 +7641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraphSubstitution",
           "name": "TypeGraphState",
           "package": "Top",
@@ -7041,6 +7650,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraphSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraphSubstitution",
           "name": "TypeGraphState",
           "package": "Top",
@@ -7054,6 +7664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraphSubstitution",
           "name": "TypeGraphState",
           "package": "Top",
@@ -7063,6 +7674,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraphSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraphSubstitution",
           "name": "TypeGraphState",
           "package": "Top",
@@ -7076,6 +7688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraphSubstitution",
           "name": "heuristics",
           "package": "Top",
@@ -7085,6 +7698,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraphSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraphSubstitution",
           "name": "heuristics",
           "package": "Top",
@@ -7097,6 +7711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraphSubstitution",
           "name": "removeInconsistencies",
           "package": "Top",
@@ -7106,6 +7721,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraphSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraphSubstitution",
           "name": "removeInconsistencies",
           "normalized": "PathHeuristics a-\u003eb()",
@@ -7121,6 +7737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeGraphSubstitution",
           "name": "typegraph",
           "package": "Top",
@@ -7130,6 +7747,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeGraphSubstitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeGraphSubstitution",
           "name": "typegraph",
           "package": "Top",
@@ -7143,6 +7761,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdditional state information that should be stored in order to perform\n type inference.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeInference",
           "name": "TypeInference",
           "package": "Top",
@@ -7152,6 +7771,7 @@
         "index": {
           "description": "Additional state information that should be stored in order to perform type inference",
           "hierarchy": "Top Implementation TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeInference",
           "name": "TypeInference",
           "package": "Top",
@@ -7165,6 +7785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeInference",
           "name": "TIState",
           "package": "Top",
@@ -7173,6 +7794,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeInference",
           "name": "TIState",
           "package": "Top",
@@ -7186,6 +7808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeInference",
           "name": "TIState",
           "package": "Top",
@@ -7195,6 +7818,7 @@
         },
         "index": {
           "hierarchy": "Top Implementation TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeInference",
           "name": "TIState",
           "package": "Top",
@@ -7209,6 +7833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA counter for fresh type variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeInference",
           "name": "counter",
           "package": "Top",
@@ -7219,6 +7844,7 @@
         "index": {
           "description": "counter for fresh type variables",
           "hierarchy": "Top Implementation TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeInference",
           "name": "counter",
           "package": "Top",
@@ -7232,6 +7858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType scheme map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeInference",
           "name": "schemeMap",
           "package": "Top",
@@ -7242,6 +7869,7 @@
         "index": {
           "description": "Type scheme map",
           "hierarchy": "Top Implementation TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeInference",
           "name": "schemeMap",
           "package": "Top",
@@ -7256,6 +7884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of skolem constants\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeInference",
           "name": "skolems",
           "package": "Top",
@@ -7266,6 +7895,7 @@
         "index": {
           "description": "List of skolem constants",
           "hierarchy": "Top Implementation TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeInference",
           "name": "skolems",
           "normalized": "[([Int],a,Tps)]",
@@ -7281,6 +7911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll known type synonyms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Implementation.TypeInference",
           "name": "synonyms",
           "package": "Top",
@@ -7291,6 +7922,7 @@
         "index": {
           "description": "All known type synonyms",
           "hierarchy": "Top Implementation TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Implementation.TypeInference",
           "name": "synonyms",
           "package": "Top",
@@ -7303,6 +7935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "Basic",
           "package": "Top",
@@ -7311,6 +7944,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "Basic",
           "package": "Top",
@@ -7324,6 +7958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "ClassBasic",
           "package": "Top",
@@ -7332,6 +7967,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "ClassBasic",
           "package": "Top",
@@ -7346,6 +7982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype to label the errors that are detected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "ErrorLabel",
           "package": "Top",
@@ -7355,6 +7992,7 @@
         "index": {
           "description": "datatype to label the errors that are detected",
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "ErrorLabel",
           "package": "Top",
@@ -7368,6 +8006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "HasBasic",
           "package": "Top",
@@ -7376,6 +8015,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "HasBasic",
           "package": "Top",
@@ -7389,6 +8029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "ClassBasic",
           "package": "Top",
@@ -7398,6 +8039,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "ClassBasic",
           "package": "Top",
@@ -7411,6 +8053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "ErrorLabel",
           "package": "Top",
@@ -7420,6 +8063,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "ErrorLabel",
           "package": "Top",
@@ -7433,6 +8077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "NoErrorLabel",
           "package": "Top",
@@ -7442,6 +8087,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "NoErrorLabel",
           "package": "Top",
@@ -7455,6 +8101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "addCheck",
           "package": "Top",
@@ -7464,6 +8111,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "addCheck",
           "normalized": "String-\u003ea Bool-\u003ea()",
@@ -7479,6 +8127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "addError",
           "package": "Top",
@@ -7488,6 +8137,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "addError",
           "normalized": "a-\u003eb()",
@@ -7503,6 +8153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "addLabeledError",
           "package": "Top",
@@ -7512,6 +8163,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "addLabeledError",
           "normalized": "ErrorLabel-\u003ea-\u003eb()",
@@ -7527,6 +8179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "checkConditions",
           "package": "Top",
@@ -7536,6 +8189,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "checkConditions",
           "package": "Top",
@@ -7549,6 +8203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "checkOption",
           "package": "Top",
@@ -7558,6 +8213,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "checkOption",
           "package": "Top",
@@ -7571,6 +8227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "deBasic",
           "package": "Top",
@@ -7580,6 +8237,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "deBasic",
           "normalized": "SelectFix a(StateFixT b c)d-\u003eStateFixT b c d",
@@ -7595,6 +8253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "discardConstraints",
           "package": "Top",
@@ -7604,6 +8263,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "discardConstraints",
           "normalized": "a()",
@@ -7619,6 +8279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "doChecks",
           "package": "Top",
@@ -7628,6 +8289,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "doChecks",
           "normalized": "a()",
@@ -7643,6 +8305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "getChecks",
           "package": "Top",
@@ -7652,6 +8315,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "getChecks",
           "normalized": "a[(a Bool,String)]",
@@ -7667,6 +8331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "getErrors",
           "package": "Top",
@@ -7676,6 +8341,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "getErrors",
           "normalized": "a[b]",
@@ -7691,6 +8357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "getLabeledErrors",
           "package": "Top",
@@ -7700,6 +8367,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "getLabeledErrors",
           "normalized": "a[(b,ErrorLabel)]",
@@ -7715,6 +8383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "popConstraint",
           "package": "Top",
@@ -7724,6 +8393,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "popConstraint",
           "package": "Top",
@@ -7737,6 +8407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "pushConstraint",
           "package": "Top",
@@ -7746,6 +8417,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "pushConstraint",
           "normalized": "Constraint a-\u003ea()",
@@ -7761,6 +8433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "pushConstraints",
           "package": "Top",
@@ -7770,6 +8443,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "pushConstraints",
           "normalized": "Constraints a-\u003ea()",
@@ -7785,6 +8459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "pushNamedOperation",
           "package": "Top",
@@ -7794,6 +8469,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "pushNamedOperation",
           "normalized": "String-\u003ea()-\u003ea()",
@@ -7809,6 +8485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "pushOperation",
           "package": "Top",
@@ -7818,6 +8495,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "pushOperation",
           "normalized": "a()-\u003ea()",
@@ -7833,6 +8511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "startSolving",
           "package": "Top",
@@ -7842,6 +8521,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "startSolving",
           "normalized": "a()",
@@ -7857,6 +8537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "stopAfterFirstError",
           "package": "Top",
@@ -7866,6 +8547,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "stopAfterFirstError",
           "package": "Top",
@@ -7879,6 +8561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "stopOption",
           "package": "Top",
@@ -7888,6 +8571,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "stopOption",
           "package": "Top",
@@ -7901,6 +8585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Basic",
           "name": "updateErrorInfo",
           "package": "Top",
@@ -7910,6 +8595,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Basic",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Basic",
           "name": "updateErrorInfo",
           "normalized": "(a-\u003eb a)-\u003eb()",
@@ -7925,6 +8611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "Qualification",
           "package": "Top",
@@ -7933,6 +8620,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "Qualification",
           "package": "Top",
@@ -7946,6 +8634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "ClassQual",
           "package": "Top",
@@ -7954,6 +8643,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "ClassQual",
           "package": "Top",
@@ -7967,6 +8657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "HasQual",
           "package": "Top",
@@ -7975,6 +8666,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "HasQual",
           "package": "Top",
@@ -7988,6 +8680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "ClassQual",
           "package": "Top",
@@ -7997,6 +8690,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "ClassQual",
           "package": "Top",
@@ -8010,6 +8704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "allQualifiers",
           "package": "Top",
@@ -8019,6 +8714,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "allQualifiers",
           "normalized": "a[Predicate]",
@@ -8034,6 +8730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "ambiguities",
           "package": "Top",
@@ -8043,6 +8740,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "ambiguities",
           "normalized": "a()",
@@ -8057,6 +8755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "ambiguousQualifiers",
           "package": "Top",
@@ -8066,6 +8765,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "ambiguousQualifiers",
           "normalized": "a()",
@@ -8081,6 +8781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "assumeQualifier",
           "package": "Top",
@@ -8090,6 +8791,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "assumeQualifier",
           "normalized": "a-\u003ePredicate-\u003eb()",
@@ -8105,6 +8807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "assumeQualifiers",
           "package": "Top",
@@ -8114,6 +8817,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "assumeQualifiers",
           "normalized": "a-\u003ePredicates-\u003eb()",
@@ -8129,6 +8833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "changeQualifiers",
           "package": "Top",
@@ -8138,6 +8843,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "changeQualifiers",
           "normalized": "(Predicate-\u003ea Predicate)-\u003ea()",
@@ -8153,6 +8859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "contextReduction",
           "package": "Top",
@@ -8162,6 +8869,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "contextReduction",
           "normalized": "a()",
@@ -8177,6 +8885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "deQual",
           "package": "Top",
@@ -8186,6 +8895,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "deQual",
           "normalized": "Select a(StateFixT b c)d-\u003eStateFixT b c d",
@@ -8201,6 +8911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "generalizeWithQualifiers",
           "package": "Top",
@@ -8210,6 +8921,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "generalizeWithQualifiers",
           "normalized": "Tps-\u003eTp-\u003ea(Scheme[Predicate])",
@@ -8225,6 +8937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "getClassEnvironment",
           "package": "Top",
@@ -8234,6 +8947,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "getClassEnvironment",
           "package": "Top",
@@ -8247,6 +8961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "improveQualifiers",
           "package": "Top",
@@ -8256,6 +8971,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "improveQualifiers",
           "normalized": "Bool-\u003ea[(b,Tp,Tp)]",
@@ -8271,6 +8987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "improveQualifiersFinal",
           "package": "Top",
@@ -8280,6 +8997,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "improveQualifiersFinal",
           "normalized": "a[(b,Tp,Tp)]",
@@ -8295,6 +9013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "improveQualifiersFix",
           "package": "Top",
@@ -8304,6 +9023,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "improveQualifiersFix",
           "normalized": "Bool-\u003ea()",
@@ -8319,6 +9039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "improveQualifiersNormal",
           "package": "Top",
@@ -8328,6 +9049,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "improveQualifiersNormal",
           "normalized": "a[(b,Tp,Tp)]",
@@ -8343,6 +9065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "proveQualifier",
           "package": "Top",
@@ -8352,6 +9075,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "proveQualifier",
           "normalized": "a-\u003ePredicate-\u003eb()",
@@ -8367,6 +9091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "proveQualifiers",
           "package": "Top",
@@ -8376,6 +9101,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "proveQualifiers",
           "normalized": "a-\u003ePredicates-\u003eb()",
@@ -8391,6 +9117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "setClassEnvironment",
           "package": "Top",
@@ -8400,6 +9127,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "setClassEnvironment",
           "normalized": "ClassEnvironment-\u003ea()",
@@ -8415,6 +9143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Qualification",
           "name": "simplifyQualifiers",
           "package": "Top",
@@ -8424,6 +9153,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Qualification",
           "name": "simplifyQualifiers",
           "normalized": "a()",
@@ -8439,6 +9169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Substitution",
           "name": "Substitution",
           "package": "Top",
@@ -8447,6 +9178,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Substitution",
           "name": "Substitution",
           "package": "Top",
@@ -8460,6 +9192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Substitution",
           "name": "ClassSubst",
           "package": "Top",
@@ -8468,6 +9201,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Substitution",
           "name": "ClassSubst",
           "package": "Top",
@@ -8481,6 +9215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Substitution",
           "name": "HasSubst",
           "package": "Top",
@@ -8489,6 +9224,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Substitution",
           "name": "HasSubst",
           "package": "Top",
@@ -8502,6 +9238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Substitution",
           "name": "ClassSubst",
           "package": "Top",
@@ -8511,6 +9248,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Substitution",
           "name": "ClassSubst",
           "package": "Top",
@@ -8525,6 +9263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the substitution to a value that contains type variables (a \n member of the Substitutable type class). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Substitution",
           "name": "applySubst",
           "package": "Top",
@@ -8535,6 +9274,7 @@
         "index": {
           "description": "Apply the substitution to value that contains type variables member of the Substitutable type class",
           "hierarchy": "Top Interface Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Substitution",
           "name": "applySubst",
           "normalized": "a-\u003eb a",
@@ -8550,6 +9290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Substitution",
           "name": "deSubst",
           "package": "Top",
@@ -8559,6 +9300,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Substitution",
           "name": "deSubst",
           "normalized": "Select a(StateFixT b c)d-\u003eStateFixT b c d",
@@ -8575,6 +9317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the value of a type variable in the substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Substitution",
           "name": "findSubstForVar",
           "package": "Top",
@@ -8585,6 +9328,7 @@
         "index": {
           "description": "Lookup the value of type variable in the substitution",
           "hierarchy": "Top Interface Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Substitution",
           "name": "findSubstForVar",
           "normalized": "Int-\u003ea Tp",
@@ -8601,6 +9345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a fixpoint substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Substitution",
           "name": "fixpointSubst",
           "package": "Top",
@@ -8611,6 +9356,7 @@
         "index": {
           "description": "Return fixpoint substitution",
           "hierarchy": "Top Interface Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Substitution",
           "name": "fixpointSubst",
           "package": "Top",
@@ -8625,6 +9371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake the state consistent. Only relevant for substitution states that \n can be inconsistent (for instance, the type graph substitution state).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Substitution",
           "name": "makeSubstConsistent",
           "package": "Top",
@@ -8635,6 +9382,7 @@
         "index": {
           "description": "Make the state consistent Only relevant for substitution states that can be inconsistent for instance the type graph substitution state",
           "hierarchy": "Top Interface Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Substitution",
           "name": "makeSubstConsistent",
           "normalized": "a()",
@@ -8650,6 +9398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Substitution",
           "name": "unificationErrorLabel",
           "package": "Top",
@@ -8659,6 +9408,7 @@
         },
         "index": {
           "hierarchy": "Top Interface Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Substitution",
           "name": "unificationErrorLabel",
           "package": "Top",
@@ -8673,6 +9423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnify two terms. Supply additional information for this unification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.Substitution",
           "name": "unifyTerms",
           "package": "Top",
@@ -8683,6 +9434,7 @@
         "index": {
           "description": "Unify two terms Supply additional information for this unification",
           "hierarchy": "Top Interface Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.Substitution",
           "name": "unifyTerms",
           "normalized": "a-\u003eTp-\u003eTp-\u003eb()",
@@ -8698,6 +9450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "TypeInference",
           "package": "Top",
@@ -8706,6 +9459,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "TypeInference",
           "package": "Top",
@@ -8719,6 +9473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "ClassTI",
           "package": "Top",
@@ -8727,6 +9482,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "ClassTI",
           "package": "Top",
@@ -8740,6 +9496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "HasTI",
           "package": "Top",
@@ -8748,6 +9505,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "HasTI",
           "package": "Top",
@@ -8761,6 +9519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "ClassTI",
           "package": "Top",
@@ -8770,6 +9529,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "ClassTI",
           "package": "Top",
@@ -8783,6 +9543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "addSkolem",
           "package": "Top",
@@ -8792,6 +9553,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "addSkolem",
           "normalized": "([Int],a,Tps)-\u003eb()",
@@ -8807,6 +9569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "allTypeSchemes",
           "package": "Top",
@@ -8816,6 +9579,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "allTypeSchemes",
           "package": "Top",
@@ -8829,6 +9593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "checkSkolems",
           "package": "Top",
@@ -8838,6 +9603,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "checkSkolems",
           "normalized": "a()",
@@ -8853,6 +9619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "deTI",
           "package": "Top",
@@ -8862,6 +9629,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "deTI",
           "normalized": "Select a(StateFixT b c)d-\u003eStateFixT b c d",
@@ -8877,6 +9645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "escapingSkolemLabel",
           "package": "Top",
@@ -8886,6 +9655,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "escapingSkolemLabel",
           "package": "Top",
@@ -8899,6 +9669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "findScheme",
           "package": "Top",
@@ -8908,6 +9679,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "findScheme",
           "normalized": "Sigma Predicates-\u003ea(Scheme Predicates)",
@@ -8923,6 +9695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "getSkolemSubstitution",
           "package": "Top",
@@ -8932,6 +9705,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "getSkolemSubstitution",
           "package": "Top",
@@ -8945,6 +9719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "getSkolems",
           "package": "Top",
@@ -8954,6 +9729,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "getSkolems",
           "normalized": "a[([Int],b,Tps)]",
@@ -8969,6 +9745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "getTypeScheme",
           "package": "Top",
@@ -8978,6 +9755,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "getTypeScheme",
           "normalized": "Int-\u003ea(Scheme Predicates)",
@@ -8993,6 +9771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "getTypeSynonyms",
           "package": "Top",
@@ -9002,6 +9781,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "getTypeSynonyms",
           "package": "Top",
@@ -9015,6 +9795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "getUnique",
           "package": "Top",
@@ -9024,6 +9805,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "getUnique",
           "package": "Top",
@@ -9037,6 +9819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "instantiateM",
           "package": "Top",
@@ -9046,6 +9829,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "instantiateM",
           "normalized": "Forall a-\u003eb a",
@@ -9061,6 +9845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst, make the substitution consistent. Then check the skolem constants(?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "makeConsistent",
           "package": "Top",
@@ -9071,6 +9856,7 @@
         "index": {
           "description": "First make the substitution consistent Then check the skolem constants",
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "makeConsistent",
           "normalized": "a()",
@@ -9086,6 +9872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "nextUnique",
           "package": "Top",
@@ -9095,6 +9882,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "nextUnique",
           "package": "Top",
@@ -9108,6 +9896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "replaceSchemeVar",
           "package": "Top",
@@ -9117,6 +9906,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "replaceSchemeVar",
           "normalized": "Sigma Predicates-\u003ea(Scheme Predicates)",
@@ -9132,6 +9922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "setSkolems",
           "package": "Top",
@@ -9141,6 +9932,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "setSkolems",
           "normalized": "[([Int],a,Tps)]-\u003eb()",
@@ -9156,6 +9948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "setTypeSynonyms",
           "package": "Top",
@@ -9165,6 +9958,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "setTypeSynonyms",
           "normalized": "OrderedTypeSynonyms-\u003ea()",
@@ -9180,6 +9974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "setUnique",
           "package": "Top",
@@ -9189,6 +9984,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "setUnique",
           "normalized": "Int-\u003ea()",
@@ -9204,6 +10000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "skolemVersusConstantLabel",
           "package": "Top",
@@ -9213,6 +10010,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "skolemVersusConstantLabel",
           "package": "Top",
@@ -9226,6 +10024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "skolemVersusSkolemLabel",
           "package": "Top",
@@ -9235,6 +10034,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "skolemVersusSkolemLabel",
           "package": "Top",
@@ -9248,6 +10048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "skolemizeFaked",
           "package": "Top",
@@ -9257,6 +10058,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "skolemizeFaked",
           "normalized": "a-\u003eTps-\u003eForall b-\u003ec b",
@@ -9272,6 +10074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "skolemizeTruly",
           "package": "Top",
@@ -9281,6 +10084,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "skolemizeTruly",
           "normalized": "Forall a-\u003eb a",
@@ -9296,6 +10100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "storeTypeScheme",
           "package": "Top",
@@ -9305,6 +10110,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "storeTypeScheme",
           "normalized": "Int-\u003eScheme Predicates-\u003ea()",
@@ -9320,6 +10126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Interface.TypeInference",
           "name": "zipWithUniques",
           "package": "Top",
@@ -9329,6 +10136,7 @@
         },
         "index": {
           "hierarchy": "Top Interface TypeInference",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Interface.TypeInference",
           "name": "zipWithUniques",
           "normalized": "(Int-\u003ea-\u003eb)-\u003e[a]-\u003ec[b]",
@@ -9344,6 +10152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "Select",
           "package": "Top",
@@ -9352,6 +10161,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "Select",
           "package": "Top",
@@ -9365,6 +10175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "Embedded",
           "package": "Top",
@@ -9373,6 +10184,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "Embedded",
           "package": "Top",
@@ -9386,6 +10198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "Select",
           "package": "Top",
@@ -9394,6 +10207,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "Select",
           "package": "Top",
@@ -9407,6 +10221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "SelectFix",
           "package": "Top",
@@ -9415,6 +10230,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "SelectFix",
           "package": "Top",
@@ -9428,6 +10244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "Select",
           "package": "Top",
@@ -9437,6 +10254,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "Select",
           "package": "Top",
@@ -9450,6 +10268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "SelectFix",
           "package": "Top",
@@ -9459,6 +10278,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "SelectFix",
           "package": "Top",
@@ -9472,6 +10292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "deselect",
           "package": "Top",
@@ -9481,6 +10302,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "deselect",
           "normalized": "Select a b c-\u003eb c",
@@ -9495,6 +10317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "deselectFix",
           "package": "Top",
@@ -9504,6 +10327,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "deselectFix",
           "normalized": "SelectFix a b c-\u003eb c",
@@ -9519,6 +10343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "deselectFixFor",
           "package": "Top",
@@ -9528,6 +10353,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "deselectFixFor",
           "normalized": "a-\u003eSelectFix b c d-\u003ec d",
@@ -9543,6 +10369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "deselectFor",
           "package": "Top",
@@ -9552,6 +10379,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "deselectFor",
           "normalized": "a-\u003eSelect b c d-\u003ec d",
@@ -9567,6 +10395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "embedding",
           "package": "Top",
@@ -9576,6 +10405,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "embedding",
           "package": "Top",
@@ -9588,6 +10418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "select",
           "package": "Top",
@@ -9597,6 +10428,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "select",
           "normalized": "a b-\u003eSelect c a b",
@@ -9611,6 +10443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.Select",
           "name": "selectFix",
           "package": "Top",
@@ -9620,6 +10453,7 @@
         },
         "index": {
           "hierarchy": "Top Monad Select",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.Select",
           "name": "selectFix",
           "normalized": "a b-\u003eSelectFix c a b",
@@ -9635,6 +10469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.StateFix",
           "name": "StateFix",
           "package": "Top",
@@ -9643,6 +10478,7 @@
         },
         "index": {
           "hierarchy": "Top Monad StateFix",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.StateFix",
           "name": "StateFix",
           "package": "Top",
@@ -9656,6 +10492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.StateFix",
           "name": "StateFix",
           "package": "Top",
@@ -9664,6 +10501,7 @@
         },
         "index": {
           "hierarchy": "Top Monad StateFix",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.StateFix",
           "name": "StateFix",
           "package": "Top",
@@ -9677,6 +10515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.StateFix",
           "name": "StateFixT",
           "package": "Top",
@@ -9685,6 +10524,7 @@
         },
         "index": {
           "hierarchy": "Top Monad StateFix",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.StateFix",
           "name": "StateFixT",
           "package": "Top",
@@ -9698,6 +10538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.StateFix",
           "name": "Fix",
           "package": "Top",
@@ -9707,6 +10548,7 @@
         },
         "index": {
           "hierarchy": "Top Monad StateFix",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.StateFix",
           "name": "Fix",
           "package": "Top",
@@ -9720,6 +10562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.StateFix",
           "name": "evalStateFix",
           "package": "Top",
@@ -9729,6 +10572,7 @@
         },
         "index": {
           "hierarchy": "Top Monad StateFix",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.StateFix",
           "name": "evalStateFix",
           "normalized": "StateFix a b-\u003ea(StateFix a)-\u003eb",
@@ -9744,6 +10588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.StateFix",
           "name": "evalStateFixT",
           "package": "Top",
@@ -9753,6 +10598,7 @@
         },
         "index": {
           "hierarchy": "Top Monad StateFix",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.StateFix",
           "name": "evalStateFixT",
           "normalized": "StateFixT a b c-\u003ea(StateFixT a b)-\u003eb c",
@@ -9768,6 +10614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.StateFix",
           "name": "execStateFix",
           "package": "Top",
@@ -9777,6 +10624,7 @@
         },
         "index": {
           "hierarchy": "Top Monad StateFix",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.StateFix",
           "name": "execStateFix",
           "normalized": "StateFix a b-\u003ea(StateFix a)-\u003ea(StateFix a)",
@@ -9792,6 +10640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.StateFix",
           "name": "execStateFixT",
           "package": "Top",
@@ -9801,6 +10650,7 @@
         },
         "index": {
           "hierarchy": "Top Monad StateFix",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.StateFix",
           "name": "execStateFixT",
           "normalized": "StateFixT a b c-\u003ea(StateFixT a b)-\u003eb(a(StateFixT a b))",
@@ -9816,6 +10666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.StateFix",
           "name": "runStateFix",
           "package": "Top",
@@ -9825,6 +10676,7 @@
         },
         "index": {
           "hierarchy": "Top Monad StateFix",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.StateFix",
           "name": "runStateFix",
           "normalized": "StateFix a b-\u003ea(StateFix a)-\u003e(b,a(StateFix a))",
@@ -9840,6 +10692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.StateFix",
           "name": "runStateFixT",
           "package": "Top",
@@ -9849,6 +10702,7 @@
         },
         "index": {
           "hierarchy": "Top Monad StateFix",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.StateFix",
           "name": "runStateFixT",
           "normalized": "StateFixT a b c-\u003ea(StateFixT a b)-\u003eb(c,a(StateFixT a b))",
@@ -9864,6 +10718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Monad.StateFix",
           "name": "unFix",
           "package": "Top",
@@ -9873,6 +10728,7 @@
         },
         "index": {
           "hierarchy": "Top Monad StateFix",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Monad.StateFix",
           "name": "unFix",
           "package": "Top",
@@ -9886,6 +10742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Tree",
           "package": "Top",
@@ -9894,6 +10751,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Tree",
           "package": "Top",
@@ -9907,6 +10765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Direction",
           "package": "Top",
@@ -9915,6 +10774,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Direction",
           "package": "Top",
@@ -9928,6 +10788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Phased",
           "package": "Top",
@@ -9936,6 +10797,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Phased",
           "package": "Top",
@@ -9949,6 +10811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Spreaded",
           "package": "Top",
@@ -9957,6 +10820,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Spreaded",
           "package": "Top",
@@ -9970,6 +10834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Tree",
           "package": "Top",
@@ -9978,6 +10843,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Tree",
           "package": "Top",
@@ -9991,6 +10857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Trees",
           "package": "Top",
@@ -9999,6 +10866,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Trees",
           "package": "Top",
@@ -10012,6 +10880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "(.\u003c\u003c.)",
           "package": "Top",
@@ -10021,6 +10890,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "(.\u003c\u003c.) .\u003c\u003c.",
           "normalized": "[a]-\u003eTree a-\u003eTree a",
@@ -10035,6 +10905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "(.\u003c.)",
           "package": "Top",
@@ -10044,6 +10915,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "(.\u003c.) .\u003c.",
           "normalized": "[a]-\u003eTree a-\u003eTree a",
@@ -10058,6 +10930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "(.\u003e\u003e.)",
           "package": "Top",
@@ -10067,6 +10940,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "(.\u003e\u003e.) .\u003e\u003e.",
           "normalized": "[a]-\u003eTree a-\u003eTree a",
@@ -10081,6 +10955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "(.\u003e.)",
           "package": "Top",
@@ -10090,6 +10965,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "(.\u003e.) .\u003e.",
           "normalized": "[a]-\u003eTree a-\u003eTree a",
@@ -10104,6 +10980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "AddList",
           "package": "Top",
@@ -10113,6 +10990,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "AddList",
           "normalized": "AddList Direction[a](Tree a)",
@@ -10128,6 +11006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Chunk",
           "package": "Top",
@@ -10137,6 +11016,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Chunk",
           "package": "Top",
@@ -10150,6 +11030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Down",
           "package": "Top",
@@ -10159,6 +11040,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Down",
           "package": "Top",
@@ -10172,6 +11054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Node",
           "package": "Top",
@@ -10181,6 +11064,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Node",
           "package": "Top",
@@ -10194,6 +11078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Phase",
           "package": "Top",
@@ -10203,6 +11088,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Phase",
           "normalized": "Phase Int[a]",
@@ -10218,6 +11104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Receive",
           "package": "Top",
@@ -10227,6 +11114,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Receive",
           "package": "Top",
@@ -10240,6 +11128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Spread",
           "package": "Top",
@@ -10249,6 +11138,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Spread",
           "normalized": "Spread Direction[a](Tree a)",
@@ -10264,6 +11154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "StrictOrder",
           "package": "Top",
@@ -10273,6 +11164,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "StrictOrder",
           "package": "Top",
@@ -10286,6 +11178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "Up",
           "package": "Top",
@@ -10295,6 +11188,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "Up",
           "package": "Top",
@@ -10308,6 +11202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "binTree",
           "package": "Top",
@@ -10317,6 +11212,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "binTree",
           "normalized": "Tree a-\u003eTree a-\u003eTree a",
@@ -10332,6 +11228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "chunkTree",
           "package": "Top",
@@ -10341,6 +11238,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "chunkTree",
           "normalized": "Tree a-\u003e[(Int,Tree a)]",
@@ -10356,6 +11254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "emptyTree",
           "package": "Top",
@@ -10365,6 +11264,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "emptyTree",
           "package": "Top",
@@ -10378,6 +11278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "flattenTree",
           "package": "Top",
@@ -10387,6 +11288,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "flattenTree",
           "normalized": "TreeWalk-\u003eTree a-\u003e[a]",
@@ -10402,6 +11304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "listTree",
           "package": "Top",
@@ -10411,6 +11314,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "listTree",
           "normalized": "[a]-\u003eTree a",
@@ -10426,6 +11330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "makeTreeHelper",
           "package": "Top",
@@ -10435,6 +11340,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "makeTreeHelper",
           "normalized": "(a-\u003e[b]-\u003ea-\u003ea)-\u003ea-\u003e[b]-\u003ea-\u003ea",
@@ -10450,6 +11356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "phaseTree",
           "package": "Top",
@@ -10459,6 +11366,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "phaseTree",
           "normalized": "a-\u003eTree a-\u003eTree a",
@@ -10474,6 +11382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "spreadTree",
           "package": "Top",
@@ -10483,6 +11392,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "spreadTree",
           "normalized": "(a-\u003eMaybe Int)-\u003eTree a-\u003eTree a",
@@ -10498,6 +11408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.Tree",
           "name": "unitTree",
           "package": "Top",
@@ -10507,6 +11418,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering Tree",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.Tree",
           "name": "unitTree",
           "normalized": "a-\u003eTree a",
@@ -10522,6 +11434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.TreeWalk",
           "name": "TreeWalk",
           "package": "Top",
@@ -10530,6 +11443,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering TreeWalk",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.TreeWalk",
           "name": "TreeWalk",
           "package": "Top",
@@ -10543,6 +11457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.TreeWalk",
           "name": "List",
           "package": "Top",
@@ -10551,6 +11466,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering TreeWalk",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.TreeWalk",
           "name": "List",
           "package": "Top",
@@ -10564,6 +11480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.TreeWalk",
           "name": "TreeWalk",
           "package": "Top",
@@ -10572,6 +11489,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering TreeWalk",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.TreeWalk",
           "name": "TreeWalk",
           "package": "Top",
@@ -10585,6 +11503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.TreeWalk",
           "name": "TreeWalk",
           "package": "Top",
@@ -10594,6 +11513,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering TreeWalk",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.TreeWalk",
           "name": "TreeWalk",
           "normalized": "TreeWalk(a b List c-\u003e[(List c,List c)]-\u003eList c)",
@@ -10609,6 +11529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.TreeWalk",
           "name": "bottomUpTreeWalk",
           "package": "Top",
@@ -10618,6 +11539,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering TreeWalk",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.TreeWalk",
           "name": "bottomUpTreeWalk",
           "package": "Top",
@@ -10631,6 +11553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.TreeWalk",
           "name": "concatList",
           "package": "Top",
@@ -10640,6 +11563,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering TreeWalk",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.TreeWalk",
           "name": "concatList",
           "normalized": "[List a]-\u003eList a",
@@ -10655,6 +11579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.TreeWalk",
           "name": "inorderTopFirstPostTreeWalk",
           "package": "Top",
@@ -10664,6 +11589,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering TreeWalk",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.TreeWalk",
           "name": "inorderTopFirstPostTreeWalk",
           "package": "Top",
@@ -10677,6 +11603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.TreeWalk",
           "name": "inorderTopFirstPreTreeWalk",
           "package": "Top",
@@ -10686,6 +11613,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering TreeWalk",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.TreeWalk",
           "name": "inorderTopFirstPreTreeWalk",
           "package": "Top",
@@ -10699,6 +11627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.TreeWalk",
           "name": "inorderTopLastPostTreeWalk",
           "package": "Top",
@@ -10708,6 +11637,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering TreeWalk",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.TreeWalk",
           "name": "inorderTopLastPostTreeWalk",
           "package": "Top",
@@ -10721,6 +11651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.TreeWalk",
           "name": "inorderTopLastPreTreeWalk",
           "package": "Top",
@@ -10730,6 +11661,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering TreeWalk",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.TreeWalk",
           "name": "inorderTopLastPreTreeWalk",
           "package": "Top",
@@ -10743,6 +11675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.TreeWalk",
           "name": "reverseTreeWalk",
           "package": "Top",
@@ -10752,6 +11685,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering TreeWalk",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.TreeWalk",
           "name": "reverseTreeWalk",
           "normalized": "TreeWalk-\u003eTreeWalk",
@@ -10767,6 +11701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Ordering.TreeWalk",
           "name": "topDownTreeWalk",
           "package": "Top",
@@ -10776,6 +11711,7 @@
         },
         "index": {
           "hierarchy": "Top Ordering TreeWalk",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Ordering.TreeWalk",
           "name": "topDownTreeWalk",
           "package": "Top",
@@ -10789,6 +11725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.Greedy",
           "name": "Greedy",
           "package": "Top",
@@ -10797,6 +11734,7 @@
         },
         "index": {
           "hierarchy": "Top Solver Greedy",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.Greedy",
           "name": "Greedy",
           "package": "Top",
@@ -10810,6 +11748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.Greedy",
           "name": "Greedy",
           "package": "Top",
@@ -10818,6 +11757,7 @@
         },
         "index": {
           "hierarchy": "Top Solver Greedy",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.Greedy",
           "name": "Greedy",
           "package": "Top",
@@ -10831,6 +11771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.Greedy",
           "name": "GreedyS",
           "package": "Top",
@@ -10839,6 +11780,7 @@
         },
         "index": {
           "hierarchy": "Top Solver Greedy",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.Greedy",
           "name": "GreedyS",
           "package": "Top",
@@ -10852,6 +11794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.Greedy",
           "name": "GreedySimple",
           "package": "Top",
@@ -10860,6 +11803,7 @@
         },
         "index": {
           "hierarchy": "Top Solver Greedy",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.Greedy",
           "name": "GreedySimple",
           "package": "Top",
@@ -10873,6 +11817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.Greedy",
           "name": "GreedySimpleS",
           "package": "Top",
@@ -10881,6 +11826,7 @@
         },
         "index": {
           "hierarchy": "Top Solver Greedy",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.Greedy",
           "name": "GreedySimpleS",
           "package": "Top",
@@ -10894,6 +11840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.Greedy",
           "name": "greedyConstraintSolver",
           "package": "Top",
@@ -10903,6 +11850,7 @@
         },
         "index": {
           "hierarchy": "Top Solver Greedy",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.Greedy",
           "name": "greedyConstraintSolver",
           "package": "Top",
@@ -10916,6 +11864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.Greedy",
           "name": "greedySimpleConstraintSolver",
           "package": "Top",
@@ -10925,6 +11874,7 @@
         },
         "index": {
           "hierarchy": "Top Solver Greedy",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.Greedy",
           "name": "greedySimpleConstraintSolver",
           "package": "Top",
@@ -10938,6 +11888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.Greedy",
           "name": "solveGreedy",
           "package": "Top",
@@ -10947,6 +11898,7 @@
         },
         "index": {
           "hierarchy": "Top Solver Greedy",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.Greedy",
           "name": "solveGreedy",
           "normalized": "SolveOptions-\u003e[a]-\u003eGreedy b(SolveResult b)",
@@ -10962,6 +11914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.Greedy",
           "name": "solveSimple",
           "package": "Top",
@@ -10971,6 +11924,7 @@
         },
         "index": {
           "hierarchy": "Top Solver Greedy",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.Greedy",
           "name": "solveSimple",
           "normalized": "SolveOptions-\u003e[a]-\u003eGreedySimple b(SolveResult b)",
@@ -10986,6 +11940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.PartitionCombinator",
           "name": "PartitionCombinator",
           "package": "Top",
@@ -10994,6 +11949,7 @@
         },
         "index": {
           "hierarchy": "Top Solver PartitionCombinator",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.PartitionCombinator",
           "name": "PartitionCombinator",
           "package": "Top",
@@ -11007,6 +11963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.PartitionCombinator",
           "name": "Chunk",
           "package": "Top",
@@ -11015,6 +11972,7 @@
         },
         "index": {
           "hierarchy": "Top Solver PartitionCombinator",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.PartitionCombinator",
           "name": "Chunk",
           "package": "Top",
@@ -11028,6 +11986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.PartitionCombinator",
           "name": "ChunkID",
           "package": "Top",
@@ -11036,6 +11995,7 @@
         },
         "index": {
           "hierarchy": "Top Solver PartitionCombinator",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.PartitionCombinator",
           "name": "ChunkID",
           "package": "Top",
@@ -11049,6 +12009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.PartitionCombinator",
           "name": "Chunks",
           "package": "Top",
@@ -11057,6 +12018,7 @@
         },
         "index": {
           "hierarchy": "Top Solver PartitionCombinator",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.PartitionCombinator",
           "name": "Chunks",
           "package": "Top",
@@ -11070,6 +12032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.PartitionCombinator",
           "name": "solveChunkConstraints",
           "package": "Top",
@@ -11079,6 +12042,7 @@
         },
         "index": {
           "hierarchy": "Top Solver PartitionCombinator",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.PartitionCombinator",
           "name": "solveChunkConstraints",
           "normalized": "(Map Int(Scheme Predicates)-\u003ea-\u003ea)-\u003eConstraintSolver a b-\u003e(Tree a-\u003e[a])-\u003eChunks a-\u003eConstraintSolver a b",
@@ -11094,6 +12058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.SwitchCombinator",
           "name": "SwitchCombinator",
           "package": "Top",
@@ -11102,6 +12067,7 @@
         },
         "index": {
           "hierarchy": "Top Solver SwitchCombinator",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.SwitchCombinator",
           "name": "SwitchCombinator",
           "package": "Top",
@@ -11116,6 +12082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first solver is used to solve the constraint set. If this fails (at least one \n error is returned), then the second solver takes over.     \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.SwitchCombinator",
           "name": "(|\u003e\u003e|)",
           "package": "Top",
@@ -11126,6 +12093,7 @@
         "index": {
           "description": "The first solver is used to solve the constraint set If this fails at least one error is returned then the second solver takes over",
           "hierarchy": "Top Solver SwitchCombinator",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.SwitchCombinator",
           "name": "(|\u003e\u003e|) |\u003e\u003e|",
           "normalized": "ConstraintSolver a b-\u003eConstraintSolver a b-\u003eConstraintSolver a b",
@@ -11140,6 +12108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.TypeGraph",
           "name": "TypeGraph",
           "package": "Top",
@@ -11148,6 +12117,7 @@
         },
         "index": {
           "hierarchy": "Top Solver TypeGraph",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.TypeGraph",
           "name": "TypeGraph",
           "package": "Top",
@@ -11161,6 +12131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.TypeGraph",
           "name": "TG",
           "package": "Top",
@@ -11169,6 +12140,7 @@
         },
         "index": {
           "hierarchy": "Top Solver TypeGraph",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.TypeGraph",
           "name": "TG",
           "package": "Top",
@@ -11182,6 +12154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.TypeGraph",
           "name": "TGS",
           "package": "Top",
@@ -11190,6 +12163,7 @@
         },
         "index": {
           "hierarchy": "Top Solver TypeGraph",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.TypeGraph",
           "name": "TGS",
           "package": "Top",
@@ -11203,6 +12177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.TypeGraph",
           "name": "solveTypeGraph",
           "package": "Top",
@@ -11212,6 +12187,7 @@
         },
         "index": {
           "hierarchy": "Top Solver TypeGraph",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.TypeGraph",
           "name": "solveTypeGraph",
           "normalized": "TG a()-\u003eSolveOptions-\u003e[b]-\u003eTG a(SolveResult a)",
@@ -11227,6 +12203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.TypeGraph",
           "name": "typegraphConstraintSolver",
           "package": "Top",
@@ -11236,6 +12213,7 @@
         },
         "index": {
           "hierarchy": "Top Solver TypeGraph",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.TypeGraph",
           "name": "typegraphConstraintSolver",
           "normalized": "PathHeuristics a-\u003eConstraintSolver b a",
@@ -11251,6 +12229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver.TypeGraph",
           "name": "typegraphConstraintSolverDefault",
           "package": "Top",
@@ -11260,6 +12239,7 @@
         },
         "index": {
           "hierarchy": "Top Solver TypeGraph",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver.TypeGraph",
           "name": "typegraphConstraintSolverDefault",
           "package": "Top",
@@ -11273,6 +12253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "Solver",
           "package": "Top",
@@ -11281,6 +12262,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "Solver",
           "package": "Top",
@@ -11294,6 +12276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "BasicMonad",
           "package": "Top",
@@ -11302,6 +12285,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "BasicMonad",
           "package": "Top",
@@ -11315,6 +12299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "ConstraintSolver",
           "package": "Top",
@@ -11323,6 +12308,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "ConstraintSolver",
           "package": "Top",
@@ -11336,6 +12322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "LogEntries",
           "package": "Top",
@@ -11344,6 +12331,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "LogEntries",
           "package": "Top",
@@ -11357,6 +12345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "LogEntry",
           "package": "Top",
@@ -11365,6 +12354,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "LogEntry",
           "package": "Top",
@@ -11378,6 +12368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "SolveOptions",
           "package": "Top",
@@ -11386,6 +12377,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "SolveOptions",
           "package": "Top",
@@ -11399,6 +12391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "SolveResult",
           "package": "Top",
@@ -11407,6 +12400,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "SolveResult",
           "package": "Top",
@@ -11420,6 +12414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "ConstraintSolver",
           "package": "Top",
@@ -11429,6 +12424,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "ConstraintSolver",
           "normalized": "ConstraintSolver(SolveOptions-\u003e[a]-\u003e(SolveResult b,LogEntries))",
@@ -11444,6 +12440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "LogEntries",
           "package": "Top",
@@ -11453,6 +12450,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "LogEntries",
           "normalized": "LogEntries([LogEntry]-\u003e[LogEntry])",
@@ -11468,6 +12466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "LogEntry",
           "package": "Top",
@@ -11477,6 +12476,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "LogEntry",
           "package": "Top",
@@ -11490,6 +12490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "SolveOptions_",
           "package": "Top",
@@ -11499,6 +12500,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "SolveOptions_",
           "package": "Top",
@@ -11512,6 +12514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "SolveResult",
           "package": "Top",
@@ -11521,6 +12524,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "SolveResult",
           "package": "Top",
@@ -11534,6 +12538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "classEnvironment",
           "package": "Top",
@@ -11543,6 +12548,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "classEnvironment",
           "package": "Top",
@@ -11556,6 +12562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "combineResults",
           "package": "Top",
@@ -11565,6 +12572,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "combineResults",
           "normalized": "SolveResult a-\u003eSolveResult a-\u003eSolveResult a",
@@ -11580,6 +12588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "emptyResult",
           "package": "Top",
@@ -11589,6 +12598,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "emptyResult",
           "normalized": "Int-\u003eSolveResult a",
@@ -11604,6 +12614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "errorsFromResult",
           "package": "Top",
@@ -11613,6 +12624,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "errorsFromResult",
           "normalized": "[(a,ErrorLabel)]",
@@ -11628,6 +12640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "evalBasicMonad",
           "package": "Top",
@@ -11637,6 +12650,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "evalBasicMonad",
           "normalized": "BasicMonad a b-\u003e(b,LogEntries)",
@@ -11652,6 +12666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "initialize",
           "package": "Top",
@@ -11661,6 +12676,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "initialize",
           "normalized": "a-\u003eSolveOptions-\u003eb()",
@@ -11675,6 +12691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "logMsg",
           "package": "Top",
@@ -11684,6 +12701,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "logMsg",
           "normalized": "String-\u003ea()",
@@ -11699,6 +12717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "logMsgPrio",
           "package": "Top",
@@ -11708,6 +12727,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "logMsgPrio",
           "normalized": "Int-\u003eString-\u003ea()",
@@ -11724,6 +12744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the current state and add this as a debug message. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "logState",
           "package": "Top",
@@ -11734,6 +12755,7 @@
         "index": {
           "description": "Print the current state and add this as debug message",
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "logState",
           "normalized": "a()",
@@ -11749,6 +12771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "makeConstraintSolver",
           "package": "Top",
@@ -11758,6 +12781,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "makeConstraintSolver",
           "normalized": "(SolveOptions-\u003e[a]-\u003eBasicMonad b(SolveResult c))-\u003eConstraintSolver a c",
@@ -11773,6 +12797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "msg",
           "package": "Top",
@@ -11782,6 +12807,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "msg",
           "package": "Top",
@@ -11794,6 +12820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "noLogEntries",
           "package": "Top",
@@ -11803,6 +12830,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "noLogEntries",
           "package": "Top",
@@ -11816,6 +12844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "onlySolveConstraints",
           "package": "Top",
@@ -11825,6 +12854,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "onlySolveConstraints",
           "normalized": "[a]-\u003eb()",
@@ -11840,6 +12870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "priority",
           "package": "Top",
@@ -11849,6 +12880,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "priority",
           "package": "Top",
@@ -11861,6 +12893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "qualifiersFromResult",
           "package": "Top",
@@ -11870,6 +12903,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "qualifiersFromResult",
           "package": "Top",
@@ -11883,6 +12917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "setCheckConditions",
           "package": "Top",
@@ -11892,6 +12927,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "setCheckConditions",
           "package": "Top",
@@ -11905,6 +12941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "setStopAfterFirstError",
           "package": "Top",
@@ -11914,6 +12951,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "setStopAfterFirstError",
           "package": "Top",
@@ -11927,6 +12965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "singleEntry",
           "package": "Top",
@@ -11936,6 +12975,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "singleEntry",
           "normalized": "Int-\u003eString-\u003eLogEntries",
@@ -11951,6 +12991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "solve",
           "package": "Top",
@@ -11960,6 +13001,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "solve",
           "normalized": "SolveOptions-\u003e[a]-\u003eConstraintSolver a b-\u003e(SolveResult b,LogEntries)",
@@ -11974,6 +13016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "solveConstraints",
           "package": "Top",
@@ -11983,6 +13026,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "solveConstraints",
           "normalized": "SolveOptions-\u003e[a]-\u003eb(SolveResult c)",
@@ -11998,6 +13042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "solveOptions",
           "package": "Top",
@@ -12007,6 +13052,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "solveOptions",
           "package": "Top",
@@ -12020,6 +13066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "solveResult",
           "package": "Top",
@@ -12029,6 +13076,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "solveResult",
           "package": "Top",
@@ -12042,6 +13090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "substitutionFromResult",
           "package": "Top",
@@ -12051,6 +13100,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "substitutionFromResult",
           "package": "Top",
@@ -12064,6 +13114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "typeSynonyms",
           "package": "Top",
@@ -12073,6 +13124,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "typeSynonyms",
           "package": "Top",
@@ -12086,6 +13138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "typeschemesFromResult",
           "package": "Top",
@@ -12095,6 +13148,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "typeschemesFromResult",
           "package": "Top",
@@ -12108,6 +13162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "uniqueCounter",
           "package": "Top",
@@ -12117,6 +13172,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "uniqueCounter",
           "package": "Top",
@@ -12130,6 +13186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Solver",
           "name": "uniqueFromResult",
           "package": "Top",
@@ -12139,6 +13196,7 @@
         },
         "index": {
           "hierarchy": "Top Solver",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Solver",
           "name": "uniqueFromResult",
           "package": "Top",
@@ -12153,6 +13211,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType classes and the standard reduction instances. A part of the code\n was taken from the paper \u003ca\u003eTyping Haskell in Haskell\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "Classes",
           "package": "Top",
@@ -12162,6 +13221,7 @@
         "index": {
           "description": "Type classes and the standard reduction instances part of the code was taken from the paper Typing Haskell in Haskell",
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "Classes",
           "package": "Top",
@@ -12175,6 +13235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "Class",
           "package": "Top",
@@ -12183,6 +13244,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "Class",
           "package": "Top",
@@ -12196,6 +13258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "ClassEnvironment",
           "package": "Top",
@@ -12204,6 +13267,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "ClassEnvironment",
           "package": "Top",
@@ -12217,6 +13281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "Instance",
           "package": "Top",
@@ -12225,6 +13290,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "Instance",
           "package": "Top",
@@ -12238,6 +13304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "Instances",
           "package": "Top",
@@ -12246,6 +13313,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "Instances",
           "package": "Top",
@@ -12259,6 +13327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "Predicate",
           "package": "Top",
@@ -12267,6 +13336,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "Predicate",
           "package": "Top",
@@ -12280,6 +13350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "Predicates",
           "package": "Top",
@@ -12288,6 +13359,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "Predicates",
           "package": "Top",
@@ -12301,6 +13373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "ReductionError",
           "package": "Top",
@@ -12309,6 +13382,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "ReductionError",
           "package": "Top",
@@ -12322,6 +13396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "Predicate",
           "package": "Top",
@@ -12331,6 +13406,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "Predicate",
           "package": "Top",
@@ -12344,6 +13420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "ReductionError",
           "package": "Top",
@@ -12353,6 +13430,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "ReductionError",
           "package": "Top",
@@ -12366,6 +13444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "associatedContextReduction",
           "package": "Top",
@@ -12375,6 +13454,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "associatedContextReduction",
           "normalized": "OrderedTypeSynonyms-\u003eClassEnvironment-\u003e[(Predicate,a)]-\u003e([(Predicate,a)],[ReductionError(Predicate,a)])",
@@ -12390,6 +13470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "byInstance",
           "package": "Top",
@@ -12399,6 +13480,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "byInstance",
           "normalized": "OrderedTypeSynonyms-\u003eClassEnvironment-\u003ePredicate-\u003eMaybe Predicates",
@@ -12414,6 +13496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "bySuperclass",
           "package": "Top",
@@ -12423,6 +13506,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "bySuperclass",
           "normalized": "ClassEnvironment-\u003ePredicate-\u003ePredicates",
@@ -12438,6 +13522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "contextReduction",
           "package": "Top",
@@ -12447,6 +13532,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "contextReduction",
           "normalized": "OrderedTypeSynonyms-\u003eClassEnvironment-\u003ePredicates-\u003e(Predicates,[ReductionError Predicate])",
@@ -12463,6 +13549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty class environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "emptyClassEnvironment",
           "package": "Top",
@@ -12473,6 +13560,7 @@
         "index": {
           "description": "The empty class environment",
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "emptyClassEnvironment",
           "package": "Top",
@@ -12486,6 +13574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "entail",
           "package": "Top",
@@ -12495,6 +13584,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "entail",
           "normalized": "OrderedTypeSynonyms-\u003eClassEnvironment-\u003ePredicates-\u003ePredicate-\u003eBool",
@@ -12509,6 +13599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "entailList",
           "package": "Top",
@@ -12518,6 +13609,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "entailList",
           "normalized": "OrderedTypeSynonyms-\u003eClassEnvironment-\u003ePredicates-\u003ePredicates-\u003eBool",
@@ -12533,6 +13625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "inClassEnvironment",
           "package": "Top",
@@ -12542,6 +13635,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "inClassEnvironment",
           "normalized": "String-\u003eClassEnvironment-\u003eBool",
@@ -12557,6 +13651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "inHeadNormalForm",
           "package": "Top",
@@ -12566,6 +13661,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "inHeadNormalForm",
           "normalized": "Predicate-\u003eBool",
@@ -12581,6 +13677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "insertInstance",
           "package": "Top",
@@ -12590,6 +13687,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "insertInstance",
           "normalized": "String-\u003eInstance-\u003eClassEnvironment-\u003eClassEnvironment",
@@ -12605,6 +13703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "instances",
           "package": "Top",
@@ -12614,6 +13713,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "instances",
           "normalized": "String-\u003eClassEnvironment-\u003eInstances",
@@ -12628,6 +13728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "listToHeadNormalForm",
           "package": "Top",
@@ -12637,6 +13738,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "listToHeadNormalForm",
           "normalized": "OrderedTypeSynonyms-\u003eClassEnvironment-\u003ePredicates-\u003eMaybe Predicates",
@@ -12652,6 +13754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "matchPredicates",
           "package": "Top",
@@ -12661,6 +13764,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "matchPredicates",
           "normalized": "OrderedTypeSynonyms-\u003ePredicate-\u003ePredicate-\u003eMaybe MapSubstitution",
@@ -12676,6 +13780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "scEntail",
           "package": "Top",
@@ -12685,6 +13790,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "scEntail",
           "normalized": "ClassEnvironment-\u003ePredicates-\u003ePredicate-\u003eBool",
@@ -12700,6 +13806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "standardClasses",
           "package": "Top",
@@ -12709,6 +13816,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "standardClasses",
           "package": "Top",
@@ -12722,6 +13830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "superclassPaths",
           "package": "Top",
@@ -12731,6 +13840,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "superclassPaths",
           "normalized": "String-\u003eString-\u003eClassEnvironment-\u003e[[String]]",
@@ -12747,6 +13857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor example, Eq is a superclass of Ord\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "superclasses",
           "package": "Top",
@@ -12757,6 +13868,7 @@
         "index": {
           "description": "For example Eq is superclass of Ord",
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "superclasses",
           "normalized": "String-\u003eClassEnvironment-\u003e[String]",
@@ -12771,6 +13883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Classes",
           "name": "toHeadNormalForm",
           "package": "Top",
@@ -12780,6 +13893,7 @@
         },
         "index": {
           "hierarchy": "Top Types Classes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Classes",
           "name": "toHeadNormalForm",
           "normalized": "OrderedTypeSynonyms-\u003eClassEnvironment-\u003ePredicate-\u003eMaybe Predicates",
@@ -12796,6 +13910,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKinds can be represented by a type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Kinds",
           "name": "Kinds",
           "package": "Top",
@@ -12805,6 +13920,7 @@
         "index": {
           "description": "Kinds can be represented by type",
           "hierarchy": "Top Types Kinds",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Kinds",
           "name": "Kinds",
           "package": "Top",
@@ -12818,6 +13934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Kinds",
           "name": "Kind",
           "package": "Top",
@@ -12826,6 +13943,7 @@
         },
         "index": {
           "hierarchy": "Top Types Kinds",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Kinds",
           "name": "Kind",
           "package": "Top",
@@ -12839,6 +13957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Kinds",
           "name": "KindScheme",
           "package": "Top",
@@ -12847,6 +13966,7 @@
         },
         "index": {
           "hierarchy": "Top Types Kinds",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Kinds",
           "name": "KindScheme",
           "package": "Top",
@@ -12860,6 +13980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Kinds",
           "name": "Kinds",
           "package": "Top",
@@ -12868,6 +13989,7 @@
         },
         "index": {
           "hierarchy": "Top Types Kinds",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Kinds",
           "name": "Kinds",
           "package": "Top",
@@ -12882,6 +14004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn traditional kind inference systems, a kind cannot contain variables.\n At some point in the inference process the kind variables are defaulted\n to star.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Kinds",
           "name": "defaultToStar",
           "package": "Top",
@@ -12892,6 +14015,7 @@
         "index": {
           "description": "In traditional kind inference systems kind cannot contain variables At some point in the inference process the kind variables are defaulted to star",
           "hierarchy": "Top Types Kinds",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Kinds",
           "name": "defaultToStar",
           "normalized": "Kind-\u003eKind",
@@ -12908,6 +14032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to show kinds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Kinds",
           "name": "showKind",
           "package": "Top",
@@ -12918,6 +14043,7 @@
         "index": {
           "description": "function to show kinds",
           "hierarchy": "Top Types Kinds",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Kinds",
           "name": "showKind",
           "normalized": "Kind-\u003eString",
@@ -12933,6 +14059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Kinds",
           "name": "showKindScheme",
           "package": "Top",
@@ -12942,6 +14069,7 @@
         },
         "index": {
           "hierarchy": "Top Types Kinds",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Kinds",
           "name": "showKindScheme",
           "normalized": "KindScheme-\u003eString",
@@ -12958,6 +14086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStar is the kind of all values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Kinds",
           "name": "star",
           "package": "Top",
@@ -12968,6 +14097,7 @@
         "index": {
           "description": "Star is the kind of all values",
           "hierarchy": "Top Types Kinds",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Kinds",
           "name": "star",
           "package": "Top",
@@ -12981,6 +14111,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a data type to represent (plain) types, some basic \n functionality for types, and an instance for Show.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "Primitive",
           "package": "Top",
@@ -12990,6 +14121,7 @@
         "index": {
           "description": "This module contains data type to represent plain types some basic functionality for types and an instance for Show",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "Primitive",
           "package": "Top",
@@ -13003,6 +14135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "HasTypes",
           "package": "Top",
@@ -13011,6 +14144,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "HasTypes",
           "package": "Top",
@@ -13025,6 +14159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type to represent monotypes. Note that \u003ccode\u003eType\u003c/code\u003e is already in use\n in the Unified Haskell Architecture (UHA) which is used in the Helium compiler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "Tp",
           "package": "Top",
@@ -13034,6 +14169,7 @@
         "index": {
           "description": "data type to represent monotypes Note that Type is already in use in the Unified Haskell Architecture UHA which is used in the Helium compiler",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "Tp",
           "package": "Top",
@@ -13047,6 +14183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "Tps",
           "package": "Top",
@@ -13055,6 +14192,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "Tps",
           "package": "Top",
@@ -13069,6 +14207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a function type from one type to another. This operator is\n left associative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "(.-\u003e.)",
           "package": "Top",
@@ -13079,6 +14218,7 @@
         "index": {
           "description": "Constructs function type from one type to another This operator is left associative",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "(.-\u003e.) .-\u003e.",
           "normalized": "Tp-\u003eTp-\u003eTp",
@@ -13094,6 +14234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe application of two Top.Types. Not all types that can be\n constructed are well-formed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "TApp",
           "package": "Top",
@@ -13104,6 +14245,7 @@
         "index": {
           "description": "The application of two Top.Types Not all types that can be constructed are well-formed",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "TApp",
           "package": "Top",
@@ -13118,6 +14260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type constant is represented by a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "TCon",
           "package": "Top",
@@ -13128,6 +14271,7 @@
         "index": {
           "description": "type constant is represented by string",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "TCon",
           "package": "Top",
@@ -13142,6 +14286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type variables are numbered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "TVar",
           "package": "Top",
@@ -13152,6 +14297,7 @@
         "index": {
           "description": "The type variables are numbered",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "TVar",
           "package": "Top",
@@ -13166,6 +14312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the arity of a type, that is, the number of expected arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "arityOfTp",
           "package": "Top",
@@ -13176,6 +14323,7 @@
         "index": {
           "description": "Returns the arity of type that is the number of expected arguments",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "arityOfTp",
           "normalized": "Tp-\u003eInt",
@@ -13191,6 +14339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "boolType",
           "package": "Top",
@@ -13200,6 +14349,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "boolType",
           "package": "Top",
@@ -13213,6 +14363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "changeTypes",
           "package": "Top",
@@ -13222,6 +14373,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "changeTypes",
           "normalized": "(Tp-\u003eTp)-\u003ea-\u003ea",
@@ -13237,6 +14389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "charType",
           "package": "Top",
@@ -13246,6 +14399,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "charType",
           "package": "Top",
@@ -13260,6 +14414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the list of type constants of a type. (no duplicates)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "constantsInType",
           "package": "Top",
@@ -13270,6 +14425,7 @@
         "index": {
           "description": "Returns the list of type constants of type no duplicates",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "constantsInType",
           "normalized": "Tp-\u003e[String]",
@@ -13285,6 +14441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "floatType",
           "package": "Top",
@@ -13294,6 +14451,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "floatType",
           "package": "Top",
@@ -13308,6 +14466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the type variables in a type are frozen by turning them into a type\n constant. The integer numeral is prefixed with an underscore ('_').\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "freezeVariablesInType",
           "package": "Top",
@@ -13318,6 +14477,7 @@
         "index": {
           "description": "All the type variables in type are frozen by turning them into type constant The integer numeral is prefixed with an underscore",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "freezeVariablesInType",
           "normalized": "Tp-\u003eTp",
@@ -13334,6 +14494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the right spine of a function type. For instance,\n if type \u003ccode\u003et\u003c/code\u003e is \u003ccode\u003eInt -\u003e (Bool -\u003e String)\u003c/code\u003e, then \u003ccode\u003efunctionSpine t\u003c/code\u003e\n is \u003ccode\u003e([Int,Bool],String)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "functionSpine",
           "package": "Top",
@@ -13344,6 +14505,7 @@
         "index": {
           "description": "Returns the right spine of function type For instance if type is Int Bool String then functionSpine is Int Bool String",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "functionSpine",
           "normalized": "Tp-\u003e(Tps,Tp)",
@@ -13360,6 +14522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the right spine of a function type of a maximal length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "functionSpineOfLength",
           "package": "Top",
@@ -13370,6 +14533,7 @@
         "index": {
           "description": "Returns the right spine of function type of maximal length",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "functionSpineOfLength",
           "normalized": "Int-\u003eTp-\u003e(Tps,Tp)",
@@ -13385,6 +14549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "getTypes",
           "package": "Top",
@@ -13394,6 +14559,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "getTypes",
           "normalized": "a-\u003eTps",
@@ -13409,6 +14575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "intType",
           "package": "Top",
@@ -13418,6 +14585,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "intType",
           "package": "Top",
@@ -13432,6 +14600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor instance, \u003ccode\u003e(ioType boolType)\u003c/code\u003e represents \u003ccode\u003e(IO Bool)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "ioType",
           "package": "Top",
@@ -13442,6 +14611,7 @@
         "index": {
           "description": "For instance ioType boolType represents IO Bool",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "ioType",
           "normalized": "Tp-\u003eTp",
@@ -13457,6 +14627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "isFunctionType",
           "package": "Top",
@@ -13466,6 +14637,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "isFunctionType",
           "normalized": "Tp-\u003eBool",
@@ -13481,6 +14653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "isIOType",
           "package": "Top",
@@ -13490,6 +14663,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "isIOType",
           "normalized": "Tp-\u003eBool",
@@ -13505,6 +14679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "isTApp",
           "package": "Top",
@@ -13514,6 +14689,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "isTApp",
           "normalized": "Tp-\u003eBool",
@@ -13529,6 +14705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "isTCon",
           "package": "Top",
@@ -13538,6 +14715,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "isTCon",
           "normalized": "Tp-\u003eBool",
@@ -13553,6 +14731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "isTVar",
           "package": "Top",
@@ -13562,6 +14741,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "isTVar",
           "normalized": "Tp-\u003eBool",
@@ -13577,6 +14757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "isTupleConstructor",
           "package": "Top",
@@ -13586,6 +14767,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "isTupleConstructor",
           "normalized": "String-\u003eBool",
@@ -13602,6 +14784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the left spine of a type. For instance, if type \u003ccode\u003et\u003c/code\u003e\n is \u003ccode\u003eEither Bool [Int]\u003c/code\u003e, then \u003ccode\u003eleftSpine t\u003c/code\u003e is \u003ccode\u003e(Either,[Bool,[Int]])\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "leftSpine",
           "package": "Top",
@@ -13612,6 +14795,7 @@
         "index": {
           "description": "Returns the left spine of type For instance if type is Either Bool Int then leftSpine is Either Bool Int",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "leftSpine",
           "normalized": "Tp-\u003e(Tp,Tps)",
@@ -13628,6 +14812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor instance, \u003ccode\u003e(listType intType)\u003c/code\u003e represents \u003ccode\u003e[Int]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "listType",
           "package": "Top",
@@ -13638,6 +14823,7 @@
         "index": {
           "description": "For instance listType intType represents Int",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "listType",
           "normalized": "Tp-\u003eTp",
@@ -13654,6 +14840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe priority of a type, primarily used for the insertion of parentheses \n in pretty printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "priorityOfType",
           "package": "Top",
@@ -13664,6 +14851,7 @@
         "index": {
           "description": "The priority of type primarily used for the insertion of parentheses in pretty printing",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "priorityOfType",
           "normalized": "Tp-\u003eInt",
@@ -13679,6 +14867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "stringType",
           "package": "Top",
@@ -13688,6 +14877,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "stringType",
           "package": "Top",
@@ -13701,6 +14891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "tpParser",
           "package": "Top",
@@ -13710,6 +14901,7 @@
         },
         "index": {
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "tpParser",
           "normalized": "String-\u003e[(Tp,String)]",
@@ -13726,6 +14918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cathesian product of zero or more Top.Types. For instance,\n \u003ccode\u003e(tupleType [])\u003c/code\u003e represents \u003ccode\u003e()\u003c/code\u003e, and \u003ccode\u003e(tupleType [charType, stringType])\u003c/code\u003e\n represents \u003ccode\u003e(Char,String)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "tupleType",
           "package": "Top",
@@ -13736,6 +14929,7 @@
         "index": {
           "description": "cathesian product of zero or more Top.Types For instance tupleType represents and tupleType charType stringType represents Char String",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "tupleType",
           "normalized": "Tps-\u003eTp",
@@ -13752,6 +14946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecover the type variables that are frozen in a type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "unfreezeVariablesInType",
           "package": "Top",
@@ -13762,6 +14957,7 @@
         "index": {
           "description": "Recover the type variables that are frozen in type",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "unfreezeVariablesInType",
           "normalized": "Tp-\u003eTp",
@@ -13778,6 +14974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the list of type variables of a type. (no duplicates)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "variablesInType",
           "package": "Top",
@@ -13788,6 +14985,7 @@
         "index": {
           "description": "Returns the list of type variables of type no duplicates",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "variablesInType",
           "normalized": "Tp-\u003e[Int]",
@@ -13804,6 +15002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit type. A special instance of of tuple type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Primitive",
           "name": "voidType",
           "package": "Top",
@@ -13814,6 +15013,7 @@
         "index": {
           "description": "The unit type special instance of of tuple type",
           "hierarchy": "Top Types Primitive",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Primitive",
           "name": "voidType",
           "package": "Top",
@@ -13828,6 +15028,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQualification of types (for instance, predicates to deal with type classes).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Qualification",
           "name": "Qualification",
           "package": "Top",
@@ -13837,6 +15038,7 @@
         "index": {
           "description": "Qualification of types for instance predicates to deal with type classes",
           "hierarchy": "Top Types Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Qualification",
           "name": "Qualification",
           "package": "Top",
@@ -13850,6 +15052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Qualification",
           "name": "Qualification",
           "package": "Top",
@@ -13858,6 +15061,7 @@
         },
         "index": {
           "hierarchy": "Top Types Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Qualification",
           "name": "Qualification",
           "package": "Top",
@@ -13871,6 +15075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Qualification",
           "name": "ShowQualifiers",
           "package": "Top",
@@ -13879,6 +15084,7 @@
         },
         "index": {
           "hierarchy": "Top Types Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Qualification",
           "name": "ShowQualifiers",
           "package": "Top",
@@ -13892,6 +15098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Qualification",
           "name": "(.=\u003e.)",
           "package": "Top",
@@ -13901,6 +15108,7 @@
         },
         "index": {
           "hierarchy": "Top Types Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Qualification",
           "name": "(.=\u003e.) .=\u003e.",
           "normalized": "a-\u003eb-\u003eQualification a b",
@@ -13915,6 +15123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Qualification",
           "name": "Qualification",
           "package": "Top",
@@ -13924,6 +15133,7 @@
         },
         "index": {
           "hierarchy": "Top Types Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Qualification",
           "name": "Qualification",
           "normalized": "Qualification(a,b)",
@@ -13939,6 +15149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Qualification",
           "name": "qualifiers",
           "package": "Top",
@@ -13948,6 +15159,7 @@
         },
         "index": {
           "hierarchy": "Top Types Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Qualification",
           "name": "qualifiers",
           "normalized": "Qualification a b-\u003ea",
@@ -13962,6 +15174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Qualification",
           "name": "qualify",
           "package": "Top",
@@ -13971,6 +15184,7 @@
         },
         "index": {
           "hierarchy": "Top Types Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Qualification",
           "name": "qualify",
           "normalized": "a-\u003e[b]-\u003ec-\u003eQualification[b]c",
@@ -13985,6 +15199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Qualification",
           "name": "showContext",
           "package": "Top",
@@ -13994,6 +15209,7 @@
         },
         "index": {
           "hierarchy": "Top Types Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Qualification",
           "name": "showContext",
           "normalized": "a-\u003eString",
@@ -14009,6 +15225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Qualification",
           "name": "showContextSimple",
           "package": "Top",
@@ -14018,6 +15235,7 @@
         },
         "index": {
           "hierarchy": "Top Types Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Qualification",
           "name": "showContextSimple",
           "normalized": "[String]-\u003eString",
@@ -14033,6 +15251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Qualification",
           "name": "showQualifiers",
           "package": "Top",
@@ -14042,6 +15261,7 @@
         },
         "index": {
           "hierarchy": "Top Types Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Qualification",
           "name": "showQualifiers",
           "normalized": "a-\u003e[String]",
@@ -14057,6 +15277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Qualification",
           "name": "split",
           "package": "Top",
@@ -14066,6 +15287,7 @@
         },
         "index": {
           "hierarchy": "Top Types Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Qualification",
           "name": "split",
           "normalized": "Qualification a b-\u003e(a,b)",
@@ -14080,6 +15302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Qualification",
           "name": "unqualify",
           "package": "Top",
@@ -14089,6 +15312,7 @@
         },
         "index": {
           "hierarchy": "Top Types Qualification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Qualification",
           "name": "unqualify",
           "normalized": "Qualification a b-\u003eb",
@@ -14104,6 +15328,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUniversal and existential quantification of types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "Quantification",
           "package": "Top",
@@ -14113,6 +15338,7 @@
         "index": {
           "description": "Universal and existential quantification of types",
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "Quantification",
           "package": "Top",
@@ -14126,6 +15352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "Existential",
           "package": "Top",
@@ -14134,6 +15361,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "Existential",
           "package": "Top",
@@ -14147,6 +15375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "Exists",
           "package": "Top",
@@ -14155,6 +15384,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "Exists",
           "package": "Top",
@@ -14168,6 +15398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "Forall",
           "package": "Top",
@@ -14176,6 +15407,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "Forall",
           "package": "Top",
@@ -14189,6 +15421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "HasSkolems",
           "package": "Top",
@@ -14197,6 +15430,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "HasSkolems",
           "package": "Top",
@@ -14210,6 +15444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "Quantification",
           "package": "Top",
@@ -14218,6 +15453,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "Quantification",
           "package": "Top",
@@ -14231,6 +15467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "QuantorMap",
           "package": "Top",
@@ -14239,6 +15476,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "QuantorMap",
           "package": "Top",
@@ -14252,6 +15490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "ShowQuantorOptions",
           "package": "Top",
@@ -14260,6 +15499,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "ShowQuantorOptions",
           "package": "Top",
@@ -14274,6 +15514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class can deal with the pretty printing of (possibly nested) quantifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "ShowQuantors",
           "package": "Top",
@@ -14283,6 +15524,7 @@
         "index": {
           "description": "This class can deal with the pretty printing of possibly nested quantifiers",
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "ShowQuantors",
           "package": "Top",
@@ -14296,6 +15538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "Universal",
           "package": "Top",
@@ -14304,6 +15547,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "Universal",
           "package": "Top",
@@ -14317,6 +15561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "Quantification",
           "package": "Top",
@@ -14326,6 +15571,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "Quantification",
           "normalized": "Quantification([Int],QuantorMap,a)",
@@ -14341,6 +15587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "ShowQuantorOptions",
           "package": "Top",
@@ -14350,6 +15597,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "ShowQuantorOptions",
           "package": "Top",
@@ -14363,6 +15611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "allSkolems",
           "package": "Top",
@@ -14372,6 +15621,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "allSkolems",
           "normalized": "a-\u003e[Int]",
@@ -14387,6 +15637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "bindSkolemConstants",
           "package": "Top",
@@ -14396,6 +15647,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "bindSkolemConstants",
           "normalized": "[Int]-\u003ea-\u003eQuantification b a",
@@ -14411,6 +15663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "bindTypeVariables",
           "package": "Top",
@@ -14420,6 +15673,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "bindTypeVariables",
           "normalized": "[Int]-\u003ea-\u003eQuantification b a",
@@ -14435,6 +15689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "changeSkolems",
           "package": "Top",
@@ -14444,6 +15699,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "changeSkolems",
           "normalized": "[(Int,Tp)]-\u003ea-\u003ea",
@@ -14459,6 +15715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "close",
           "package": "Top",
@@ -14468,6 +15725,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "close",
           "normalized": "[Int]-\u003ea-\u003eExists a",
@@ -14482,6 +15740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "defaultOptions",
           "package": "Top",
@@ -14491,6 +15750,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "defaultOptions",
           "package": "Top",
@@ -14504,6 +15764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "dontUseIdentifiers",
           "package": "Top",
@@ -14513,6 +15774,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "dontUseIdentifiers",
           "normalized": "[String]",
@@ -14528,6 +15790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "fromSkolemString",
           "package": "Top",
@@ -14537,6 +15800,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "fromSkolemString",
           "normalized": "String-\u003eMaybe Int",
@@ -14552,6 +15816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "generalize",
           "package": "Top",
@@ -14561,6 +15826,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "generalize",
           "normalized": "a-\u003eb-\u003eForall b",
@@ -14575,6 +15841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "generalizeAll",
           "package": "Top",
@@ -14584,6 +15851,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "generalizeAll",
           "normalized": "a-\u003eForall a",
@@ -14599,6 +15867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "getQuantorMap",
           "package": "Top",
@@ -14608,6 +15877,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "getQuantorMap",
           "normalized": "Quantification a b-\u003eQuantorMap",
@@ -14623,6 +15893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "instantiate",
           "package": "Top",
@@ -14632,6 +15903,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "instantiate",
           "normalized": "Int-\u003eForall a-\u003e(Int,a)",
@@ -14646,6 +15918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "introduceSkolemConstants",
           "package": "Top",
@@ -14655,6 +15928,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "introduceSkolemConstants",
           "normalized": "Int-\u003eQuantification a b-\u003e(Int,b)",
@@ -14670,6 +15944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "introduceTypeVariables",
           "package": "Top",
@@ -14679,6 +15954,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "introduceTypeVariables",
           "normalized": "Int-\u003eQuantification a b-\u003e(Int,b)",
@@ -14694,6 +15970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "makeSkolemConstant",
           "package": "Top",
@@ -14703,6 +15980,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "makeSkolemConstant",
           "normalized": "Int-\u003eTp",
@@ -14718,6 +15996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "noQuantifiers",
           "package": "Top",
@@ -14727,6 +16006,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "noQuantifiers",
           "normalized": "a-\u003eQuantification b a",
@@ -14742,6 +16022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "open",
           "package": "Top",
@@ -14751,6 +16032,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "open",
           "normalized": "Int-\u003eExists a-\u003e(Int,a)",
@@ -14765,6 +16047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "quantifiers",
           "package": "Top",
@@ -14774,6 +16057,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "quantifiers",
           "normalized": "Quantification a b-\u003e[Int]",
@@ -14788,6 +16072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "quantify",
           "package": "Top",
@@ -14797,6 +16082,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "quantify",
           "normalized": "[Int]-\u003ea-\u003eForall a",
@@ -14811,6 +16097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "reveal",
           "package": "Top",
@@ -14820,6 +16107,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "reveal",
           "normalized": "Int-\u003eExists a-\u003e(Int,a)",
@@ -14834,6 +16122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "showAllTheSame",
           "package": "Top",
@@ -14843,6 +16132,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "showAllTheSame",
           "package": "Top",
@@ -14856,6 +16146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "showQuantor",
           "package": "Top",
@@ -14865,6 +16156,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "showQuantor",
           "normalized": "Quantification a b-\u003eString",
@@ -14880,6 +16172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "showQuantors",
           "package": "Top",
@@ -14889,6 +16182,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "showQuantors",
           "normalized": "a-\u003eString",
@@ -14904,6 +16198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "showQuantorsWithout",
           "package": "Top",
@@ -14913,6 +16208,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "showQuantorsWithout",
           "normalized": "ShowQuantorOptions-\u003ea-\u003eString",
@@ -14928,6 +16224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "showTopLevelQuantors",
           "package": "Top",
@@ -14937,6 +16234,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "showTopLevelQuantors",
           "package": "Top",
@@ -14950,6 +16248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "skolemPrefix",
           "package": "Top",
@@ -14959,6 +16258,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "skolemPrefix",
           "package": "Top",
@@ -14972,6 +16272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "skolemize",
           "package": "Top",
@@ -14981,6 +16282,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "skolemize",
           "normalized": "Int-\u003eForall a-\u003e(Int,a)",
@@ -14995,6 +16297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "skolemizeFTV",
           "package": "Top",
@@ -15004,6 +16307,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "skolemizeFTV",
           "normalized": "a-\u003ea",
@@ -15019,6 +16323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "unquantify",
           "package": "Top",
@@ -15028,6 +16333,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "unquantify",
           "normalized": "Quantification a b-\u003eb",
@@ -15042,6 +16348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "unreveal",
           "package": "Top",
@@ -15051,6 +16358,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "unreveal",
           "normalized": "[Int]-\u003ea-\u003eExists a",
@@ -15065,6 +16373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "unskolemize",
           "package": "Top",
@@ -15074,6 +16383,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "unskolemize",
           "normalized": "[Int]-\u003ea-\u003eForall a",
@@ -15088,6 +16398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "useTheNameMap",
           "package": "Top",
@@ -15097,6 +16408,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "useTheNameMap",
           "package": "Top",
@@ -15111,6 +16423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of unique identifiers.(a, b, .., z, a1, b1 .., z1, a2, ..)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "variableList",
           "package": "Top",
@@ -15121,6 +16434,7 @@
         "index": {
           "description": "List of unique identifiers a1 b1 z1 a2",
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "variableList",
           "normalized": "[String]",
@@ -15136,6 +16450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "variablePrefix",
           "package": "Top",
@@ -15145,6 +16460,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "variablePrefix",
           "package": "Top",
@@ -15158,6 +16474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Quantification",
           "name": "withoutQuantors",
           "package": "Top",
@@ -15167,6 +16484,7 @@
         },
         "index": {
           "hierarchy": "Top Types Quantification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Quantification",
           "name": "withoutQuantors",
           "normalized": "Quantification a b-\u003eBool",
@@ -15183,6 +16501,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA representation of type schemes. A type scheme is a (qualified) type\n with a number of quantifiers (foralls) in front of it. A partial mapping \n from type variable (Int) to their name (String) is preserved.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "Schemes",
           "package": "Top",
@@ -15192,6 +16511,7 @@
         "index": {
           "description": "representation of type schemes type scheme is qualified type with number of quantifiers foralls in front of it partial mapping from type variable Int to their name String is preserved",
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "Schemes",
           "package": "Top",
@@ -15205,6 +16525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "IsSigmaPreds",
           "package": "Top",
@@ -15213,6 +16534,7 @@
         },
         "index": {
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "IsSigmaPreds",
           "package": "Top",
@@ -15227,6 +16549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class to convert something into a type scheme\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "IsTpScheme",
           "package": "Top",
@@ -15236,6 +16559,7 @@
         "index": {
           "description": "type class to convert something into type scheme",
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "IsTpScheme",
           "package": "Top",
@@ -15249,6 +16573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "QType",
           "package": "Top",
@@ -15257,6 +16582,7 @@
         },
         "index": {
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "QType",
           "package": "Top",
@@ -15271,6 +16597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sigma is a type scheme or a type scheme variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "Scheme",
           "package": "Top",
@@ -15280,6 +16607,7 @@
         "index": {
           "description": "sigma is type scheme or type scheme variable",
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "Scheme",
           "package": "Top",
@@ -15293,6 +16621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "Sigma",
           "package": "Top",
@@ -15301,6 +16630,7 @@
         },
         "index": {
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "Sigma",
           "package": "Top",
@@ -15314,6 +16644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "SigmaPreds",
           "package": "Top",
@@ -15322,6 +16653,7 @@
         },
         "index": {
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "SigmaPreds",
           "package": "Top",
@@ -15335,6 +16667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "SigmaVar",
           "package": "Top",
@@ -15343,6 +16676,7 @@
         },
         "index": {
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "SigmaVar",
           "package": "Top",
@@ -15357,6 +16691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type scheme consists of a list of quantified type variables, a finite map \n that partially maps these type variables to their original identifier, and a\n qualified type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "TpScheme",
           "package": "Top",
@@ -15366,6 +16701,7 @@
         "index": {
           "description": "type scheme consists of list of quantified type variables finite map that partially maps these type variables to their original identifier and qualified type",
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "TpScheme",
           "package": "Top",
@@ -15380,6 +16716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA substitution for type scheme variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "TpSchemeMap",
           "package": "Top",
@@ -15389,6 +16726,7 @@
         "index": {
           "description": "substitution for type scheme variables",
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "TpSchemeMap",
           "package": "Top",
@@ -15402,6 +16740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "SigmaScheme",
           "package": "Top",
@@ -15411,6 +16750,7 @@
         },
         "index": {
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "SigmaScheme",
           "package": "Top",
@@ -15424,6 +16764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "SigmaVar",
           "package": "Top",
@@ -15433,6 +16774,7 @@
         },
         "index": {
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "SigmaVar",
           "package": "Top",
@@ -15447,6 +16789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the arity of a type scheme.    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "arityOfTpScheme",
           "package": "Top",
@@ -15457,6 +16800,7 @@
         "index": {
           "description": "Determine the arity of type scheme",
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "arityOfTpScheme",
           "normalized": "TpScheme-\u003eInt",
@@ -15472,6 +16816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "genericInstanceOf",
           "package": "Top",
@@ -15481,6 +16826,7 @@
         },
         "index": {
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "genericInstanceOf",
           "normalized": "OrderedTypeSynonyms-\u003eClassEnvironment-\u003eTpScheme-\u003eTpScheme-\u003eBool",
@@ -15496,6 +16842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "instantiateWithNameMap",
           "package": "Top",
@@ -15505,6 +16852,7 @@
         },
         "index": {
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "instantiateWithNameMap",
           "normalized": "Int-\u003eTpScheme-\u003e(Int,Predicates,Tp)",
@@ -15521,6 +16869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the type scheme overloaded (does it contain predicates)?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "isOverloaded",
           "package": "Top",
@@ -15531,6 +16880,7 @@
         "index": {
           "description": "Is the type scheme overloaded does it contain predicates",
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "isOverloaded",
           "normalized": "TpScheme-\u003eBool",
@@ -15546,6 +16896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "makeScheme",
           "package": "Top",
@@ -15555,6 +16906,7 @@
         },
         "index": {
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "makeScheme",
           "normalized": "[Int]-\u003ePredicates-\u003eTp-\u003eTpScheme",
@@ -15570,6 +16922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "toSigmaPreds",
           "package": "Top",
@@ -15579,6 +16932,7 @@
         },
         "index": {
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "toSigmaPreds",
           "normalized": "a-\u003eSigmaPreds",
@@ -15594,6 +16948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Schemes",
           "name": "toTpScheme",
           "package": "Top",
@@ -15603,6 +16958,7 @@
         },
         "index": {
           "hierarchy": "Top Types Schemes",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Schemes",
           "name": "toTpScheme",
           "normalized": "a-\u003eTpScheme",
@@ -15619,6 +16975,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a data type to represent (plain) types, some basic \n functionality for types, and an instance for Show.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "Substitution",
           "package": "Top",
@@ -15628,6 +16985,7 @@
         "index": {
           "description": "This module contains data type to represent plain types some basic functionality for types and an instance for Show",
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "Substitution",
           "package": "Top",
@@ -15642,6 +17000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fixpoint is computed when looking up the target of a type variable in this substitution. \n Combining two substitutions is cheap, whereas a lookup is more expensive than the \n normal finite map substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "FixpointSubstitution",
           "package": "Top",
@@ -15651,6 +17010,7 @@
         "index": {
           "description": "fixpoint is computed when looking up the target of type variable in this substitution Combining two substitutions is cheap whereas lookup is more expensive than the normal finite map substitution",
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "FixpointSubstitution",
           "package": "Top",
@@ -15665,6 +17025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA substitution represented by a finite map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "MapSubstitution",
           "package": "Top",
@@ -15674,6 +17035,7 @@
         "index": {
           "description": "substitution represented by finite map",
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "MapSubstitution",
           "package": "Top",
@@ -15687,6 +17049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "Substitutable",
           "package": "Top",
@@ -15695,6 +17058,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "Substitutable",
           "package": "Top",
@@ -15708,6 +17072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "Substitution",
           "package": "Top",
@@ -15716,6 +17081,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "Substitution",
           "package": "Top",
@@ -15729,6 +17095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "WrappedSubstitution",
           "package": "Top",
@@ -15737,6 +17104,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "WrappedSubstitution",
           "package": "Top",
@@ -15750,6 +17118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "(|-\u003e)",
           "package": "Top",
@@ -15759,6 +17128,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "(|-\u003e) |-\u003e",
           "normalized": "a-\u003eb-\u003eb",
@@ -15774,6 +17144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two finite map substitutions: safe.\n Note for \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e: bindings in right argument shadow those in the left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "(@@)",
           "package": "Top",
@@ -15784,6 +17155,7 @@
         "index": {
           "description": "Compose two finite map substitutions safe Note for union bindings in right argument shadow those in the left",
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "(@@) @@",
           "normalized": "MapSubstitution-\u003eMapSubstitution-\u003eMapSubstitution",
@@ -15799,6 +17171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two finite map substitutions: quick and dirty!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "(@@@)",
           "package": "Top",
@@ -15809,6 +17182,7 @@
         "index": {
           "description": "Compose two finite map substitutions quick and dirty",
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "(@@@) @@@",
           "normalized": "MapSubstitution-\u003eMapSubstitution-\u003eMapSubstitution",
@@ -15823,6 +17197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "FixpointSubstitution",
           "package": "Top",
@@ -15832,6 +17207,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "FixpointSubstitution",
           "package": "Top",
@@ -15845,6 +17221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "WrappedSubstitution",
           "package": "Top",
@@ -15854,6 +17231,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "WrappedSubstitution",
           "normalized": "WrappedSubstitution a(Int-\u003ea-\u003eTp,[Int]-\u003ea-\u003ea,[Int]-\u003ea-\u003ea,a-\u003e[Int],a-\u003eTps)",
@@ -15869,6 +17247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "allTypeConstants",
           "package": "Top",
@@ -15878,6 +17257,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "allTypeConstants",
           "normalized": "a-\u003e[String]",
@@ -15893,6 +17273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "allTypeVariables",
           "package": "Top",
@@ -15902,6 +17283,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "allTypeVariables",
           "normalized": "a-\u003e[Int]",
@@ -15917,6 +17299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "cod",
           "package": "Top",
@@ -15926,6 +17309,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "cod",
           "normalized": "a-\u003eTps",
@@ -15941,6 +17325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two fixpoint substitutions that are disjoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "disjointFPS",
           "package": "Top",
@@ -15951,6 +17336,7 @@
         "index": {
           "description": "Combine two fixpoint substitutions that are disjoint",
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "disjointFPS",
           "normalized": "FixpointSubstitution-\u003eFixpointSubstitution-\u003eFixpointSubstitution",
@@ -15966,6 +17352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "dom",
           "package": "Top",
@@ -15975,6 +17362,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "dom",
           "normalized": "a-\u003e[Int]",
@@ -15990,6 +17378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty fixpoint substitution \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "emptyFPS",
           "package": "Top",
@@ -16000,6 +17389,7 @@
         "index": {
           "description": "The empty fixpoint substitution",
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "emptyFPS",
           "package": "Top",
@@ -16013,6 +17403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "emptySubst",
           "package": "Top",
@@ -16022,6 +17413,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "emptySubst",
           "package": "Top",
@@ -16035,6 +17427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "freezeFTV",
           "package": "Top",
@@ -16044,6 +17437,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "freezeFTV",
           "normalized": "a-\u003ea",
@@ -16059,6 +17453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "ftv",
           "package": "Top",
@@ -16068,6 +17463,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "ftv",
           "normalized": "a-\u003e[Int]",
@@ -16082,6 +17478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "listToSubstitution",
           "package": "Top",
@@ -16091,6 +17488,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "listToSubstitution",
           "normalized": "[(Int,Tp)]-\u003eMapSubstitution",
@@ -16106,6 +17504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "lookupInt",
           "package": "Top",
@@ -16115,6 +17514,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "lookupInt",
           "normalized": "Int-\u003ea-\u003eTp",
@@ -16131,6 +17531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe next type variable that is not free (default is zero)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "nextFTV",
           "package": "Top",
@@ -16141,6 +17542,7 @@
         "index": {
           "description": "The next type variable that is not free default is zero",
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "nextFTV",
           "normalized": "a-\u003eInt",
@@ -16156,6 +17558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "removeDom",
           "package": "Top",
@@ -16165,6 +17568,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "removeDom",
           "normalized": "[Int]-\u003ea-\u003ea",
@@ -16180,6 +17584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "restrictDom",
           "package": "Top",
@@ -16189,6 +17594,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "restrictDom",
           "normalized": "[Int]-\u003ea-\u003ea",
@@ -16204,6 +17610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "singleSubstitution",
           "package": "Top",
@@ -16213,6 +17620,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "singleSubstitution",
           "normalized": "Int-\u003eTp-\u003eMapSubstitution",
@@ -16228,6 +17636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Substitution",
           "name": "wrapSubstitution",
           "package": "Top",
@@ -16237,6 +17646,7 @@
         },
         "index": {
           "hierarchy": "Top Types Substitution",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Substitution",
           "name": "wrapSubstitution",
           "normalized": "a-\u003eWrappedSubstitution",
@@ -16253,6 +17663,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains type synonyms to represent type synonyms. A collection\n of type synonyms can always be ordered, since (mutually) recursive type\n synonyms are not permitted. The ordering of type synonyms must be determined\n to find a minimal number of unfold steps to make two types syntactically \n equivalent.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "Synonym",
           "package": "Top",
@@ -16262,6 +17673,7 @@
         "index": {
           "description": "This module contains type synonyms to represent type synonyms collection of type synonyms can always be ordered since mutually recursive type synonyms are not permitted The ordering of type synonyms must be determined to find minimal number of unfold steps to make two types syntactically equivalent",
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "Synonym",
           "package": "Top",
@@ -16276,6 +17688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn (unordered) collection of type synonyms, together with an ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "OrderedTypeSynonyms",
           "package": "Top",
@@ -16285,6 +17698,7 @@
         "index": {
           "description": "An unordered collection of type synonyms together with an ordering",
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "OrderedTypeSynonyms",
           "package": "Top",
@@ -16299,6 +17713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ordering of type synonyms maps a name of a type synonym to \n a position in the ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "TypeSynonymOrdering",
           "package": "Top",
@@ -16308,6 +17723,7 @@
         "index": {
           "description": "An ordering of type synonyms maps name of type synonym to position in the ordering",
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "TypeSynonymOrdering",
           "package": "Top",
@@ -16322,6 +17738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (unordered) collection of type synonyms is represented by a finite map of\n strings (the name of the type synonym) to pairs that have an int\n (the number of arguments of the type synonym) and a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "TypeSynonyms",
           "package": "Top",
@@ -16331,6 +17748,7 @@
         "index": {
           "description": "unordered collection of type synonyms is represented by finite map of strings the name of the type synonym to pairs that have an int the number of arguments of the type synonym and function",
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "TypeSynonyms",
           "package": "Top",
@@ -16345,6 +17763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to expand the top-level type constructor of one of the two paired Top.Types. If both\n top-level type constructors can be expanded, then the type synonym thast appears first\n in the ordering is expanded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "expandOneStepOrdered",
           "package": "Top",
@@ -16355,6 +17774,7 @@
         "index": {
           "description": "Try to expand the top-level type constructor of one of the two paired Top.Types If both top-level type constructors can be expanded then the type synonym thast appears first in the ordering is expanded",
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "expandOneStepOrdered",
           "normalized": "OrderedTypeSynonyms-\u003e(Tp,Tp)-\u003eMaybe(Tp,Tp)",
@@ -16371,6 +17791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFully expand the top-level type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "expandToplevelTC",
           "package": "Top",
@@ -16381,6 +17802,7 @@
         "index": {
           "description": "Fully expand the top-level type constructor",
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "expandToplevelTC",
           "normalized": "OrderedTypeSynonyms-\u003eTp-\u003eMaybe Tp",
@@ -16397,6 +17819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFully expand a type in a recursive way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "expandType",
           "package": "Top",
@@ -16407,6 +17830,7 @@
         "index": {
           "description": "Fully expand type in recursive way",
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "expandType",
           "normalized": "TypeSynonyms-\u003eTp-\u003eTp",
@@ -16423,6 +17847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFully expand the top-level type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "expandTypeConstructor",
           "package": "Top",
@@ -16433,6 +17858,7 @@
         "index": {
           "description": "Fully expand the top-level type constructor",
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "expandTypeConstructor",
           "normalized": "TypeSynonyms-\u003eTp-\u003eTp",
@@ -16449,6 +17875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to expand the top-level type constructor one step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "expandTypeConstructorOneStep",
           "package": "Top",
@@ -16459,6 +17886,7 @@
         "index": {
           "description": "Try to expand the top-level type constructor one step",
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "expandTypeConstructorOneStep",
           "normalized": "TypeSynonyms-\u003eTp-\u003eMaybe Tp",
@@ -16475,6 +17903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrder a collection of type synonyms, and return this ordering paired with\n sets of mutually recursive type synonyms that are detected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "getTypeSynonymOrdering",
           "package": "Top",
@@ -16485,6 +17914,7 @@
         "index": {
           "description": "Order collection of type synonyms and return this ordering paired with sets of mutually recursive type synonyms that are detected",
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "getTypeSynonymOrdering",
           "normalized": "TypeSynonyms-\u003e(TypeSynonymOrdering,[[String]])",
@@ -16500,6 +17930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "isPhantomTypeSynonym",
           "package": "Top",
@@ -16509,6 +17940,7 @@
         },
         "index": {
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "isPhantomTypeSynonym",
           "normalized": "OrderedTypeSynonyms-\u003eString-\u003eBool",
@@ -16525,6 +17957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty collection of ordered type synonyms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "noOrderedTypeSynonyms",
           "package": "Top",
@@ -16535,6 +17968,7 @@
         "index": {
           "description": "An empty collection of ordered type synonyms",
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "noOrderedTypeSynonyms",
           "package": "Top",
@@ -16549,6 +17983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string is a list of characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Synonym",
           "name": "stringAsTypeSynonym",
           "package": "Top",
@@ -16559,6 +17994,7 @@
         "index": {
           "description": "string is list of characters",
           "hierarchy": "Top Types Synonym",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Synonym",
           "name": "stringAsTypeSynonym",
           "package": "Top",
@@ -16573,6 +18009,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA unification algorithm for types, which can take a list of (ordered) \n type synonyms into account.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Unification",
           "name": "Unification",
           "package": "Top",
@@ -16582,6 +18019,7 @@
         "index": {
           "description": "unification algorithm for types which can take list of ordered type synonyms into account",
           "hierarchy": "Top Types Unification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Unification",
           "name": "Unification",
           "package": "Top",
@@ -16596,6 +18034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere are two reasons why two types cannot be unified: either two (different) type constants clash (they\n should be the same), or a type variable should be unified with a composed type that contains this same\n type variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Unification",
           "name": "UnificationError",
           "package": "Top",
@@ -16605,6 +18044,7 @@
         "index": {
           "description": "There are two reasons why two types cannot be unified either two different type constants clash they should be the same or type variable should be unified with composed type that contains this same type variable",
           "hierarchy": "Top Types Unification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Unification",
           "name": "UnificationError",
           "package": "Top",
@@ -16618,6 +18058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Unification",
           "name": "ConstantClash",
           "package": "Top",
@@ -16627,6 +18068,7 @@
         },
         "index": {
           "hierarchy": "Top Types Unification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Unification",
           "name": "ConstantClash",
           "package": "Top",
@@ -16640,6 +18082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Unification",
           "name": "InfiniteType",
           "package": "Top",
@@ -16649,6 +18092,7 @@
         },
         "index": {
           "hierarchy": "Top Types Unification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Unification",
           "name": "InfiniteType",
           "package": "Top",
@@ -16663,6 +18107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the most general type for two types that are equal under type synonyms\n (i.e., the least number of expansions)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Unification",
           "name": "equalUnderTypeSynonyms",
           "package": "Top",
@@ -16673,6 +18118,7 @@
         "index": {
           "description": "Find the most general type for two types that are equal under type synonyms i.e the least number of expansions",
           "hierarchy": "Top Types Unification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Unification",
           "name": "equalUnderTypeSynonyms",
           "normalized": "OrderedTypeSynonyms-\u003eTp-\u003eTp-\u003eMaybe Tp",
@@ -16689,6 +18135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most general unification (substitution) of two types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Unification",
           "name": "mgu",
           "package": "Top",
@@ -16699,6 +18146,7 @@
         "index": {
           "description": "The most general unification substitution of two types",
           "hierarchy": "Top Types Unification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Unification",
           "name": "mgu",
           "normalized": "Tp-\u003eTp-\u003eEither UnificationError MapSubstitution",
@@ -16713,6 +18161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Unification",
           "name": "mguWithTypeSynonyms",
           "package": "Top",
@@ -16722,6 +18171,7 @@
         },
         "index": {
           "hierarchy": "Top Types Unification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Unification",
           "name": "mguWithTypeSynonyms",
           "normalized": "OrderedTypeSynonyms-\u003eTp-\u003eTp-\u003eEither UnificationError(Bool,MapSubstitution)",
@@ -16738,6 +18188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a set of (ordered) type synonyms, can two types be unified?                              \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Unification",
           "name": "unifiable",
           "package": "Top",
@@ -16748,6 +18199,7 @@
         "index": {
           "description": "Given set of ordered type synonyms can two types be unified",
           "hierarchy": "Top Types Unification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Unification",
           "name": "unifiable",
           "normalized": "OrderedTypeSynonyms-\u003eTp-\u003eTp-\u003eBool",
@@ -16763,6 +18215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as unifiable, but takes as input a list of types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types.Unification",
           "name": "unifiableList",
           "package": "Top",
@@ -16773,6 +18226,7 @@
         "index": {
           "description": "Same as unifiable but takes as input list of types",
           "hierarchy": "Top Types Unification",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types.Unification",
           "name": "unifiableList",
           "normalized": "OrderedTypeSynonyms-\u003eTps-\u003eBool",
@@ -16789,6 +18243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA collection of type utilities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Types",
           "name": "Types",
           "package": "Top",
@@ -16798,6 +18253,7 @@
         "index": {
           "description": "collection of type utilities",
           "hierarchy": "Top Types",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Types",
           "name": "Types",
           "package": "Top",
@@ -16811,6 +18267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "Embedding",
           "package": "Top",
@@ -16819,6 +18276,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "Embedding",
           "package": "Top",
@@ -16832,6 +18290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "Embedding",
           "package": "Top",
@@ -16840,6 +18299,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "Embedding",
           "package": "Top",
@@ -16853,6 +18313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "Embedding",
           "package": "Top",
@@ -16862,6 +18323,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "Embedding",
           "package": "Top",
@@ -16875,6 +18337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "changeE",
           "package": "Top",
@@ -16884,6 +18347,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "changeE",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -16898,6 +18362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "composeE",
           "package": "Top",
@@ -16907,6 +18372,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "composeE",
           "normalized": "Embedding a b-\u003eEmbedding b c-\u003eEmbedding a c",
@@ -16921,6 +18387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "fromFstE",
           "package": "Top",
@@ -16930,6 +18397,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "fromFstE",
           "normalized": "Embedding a b-\u003eEmbedding(a,c)b",
@@ -16945,6 +18413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "fromSndE",
           "package": "Top",
@@ -16954,6 +18423,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "fromSndE",
           "normalized": "Embedding a b-\u003eEmbedding(c,a)b",
@@ -16969,6 +18439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "fstE",
           "package": "Top",
@@ -16978,6 +18449,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "fstE",
           "normalized": "Embedding(a,b)a",
@@ -16992,6 +18464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "getE",
           "package": "Top",
@@ -17001,6 +18474,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "getE",
           "normalized": "a-\u003eb",
@@ -17015,6 +18489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "idE",
           "package": "Top",
@@ -17024,6 +18499,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "idE",
           "package": "Top",
@@ -17036,6 +18512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "setE",
           "package": "Top",
@@ -17045,6 +18522,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "setE",
           "normalized": "Embedding a b-\u003eb-\u003ea-\u003ea",
@@ -17059,6 +18537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "sndE",
           "package": "Top",
@@ -17068,6 +18547,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "sndE",
           "normalized": "Embedding(a,b)b",
@@ -17082,6 +18562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Embedding",
           "name": "withE",
           "package": "Top",
@@ -17091,6 +18572,7 @@
         },
         "index": {
           "hierarchy": "Top Util Embedding",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Embedding",
           "name": "withE",
           "normalized": "Embedding a b-\u003e(b-\u003ec)-\u003ea-\u003ec",
@@ -17105,6 +18587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Empty",
           "name": "Empty",
           "package": "Top",
@@ -17113,6 +18596,7 @@
         },
         "index": {
           "hierarchy": "Top Util Empty",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Empty",
           "name": "Empty",
           "package": "Top",
@@ -17126,6 +18610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Empty",
           "name": "Empty",
           "package": "Top",
@@ -17134,6 +18619,7 @@
         },
         "index": {
           "hierarchy": "Top Util Empty",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Empty",
           "name": "Empty",
           "package": "Top",
@@ -17147,6 +18633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Empty",
           "name": "empty",
           "package": "Top",
@@ -17156,6 +18643,7 @@
         },
         "index": {
           "hierarchy": "Top Util Empty",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Empty",
           "name": "empty",
           "package": "Top",
@@ -17168,6 +18656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "Option",
           "package": "Top",
@@ -17176,6 +18665,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "Option",
           "package": "Top",
@@ -17189,6 +18679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "Option",
           "package": "Top",
@@ -17197,6 +18688,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "Option",
           "package": "Top",
@@ -17210,6 +18702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "OptionAccess",
           "package": "Top",
@@ -17218,6 +18711,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "OptionAccess",
           "package": "Top",
@@ -17231,6 +18725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "Access",
           "package": "Top",
@@ -17240,6 +18735,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "Access",
           "package": "Top",
@@ -17253,6 +18749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "Option",
           "package": "Top",
@@ -17262,6 +18759,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "Option",
           "package": "Top",
@@ -17275,6 +18773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "currentValue",
           "package": "Top",
@@ -17284,6 +18783,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "currentValue",
           "package": "Top",
@@ -17297,6 +18797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "defaultValue",
           "package": "Top",
@@ -17306,6 +18807,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "defaultValue",
           "package": "Top",
@@ -17319,6 +18821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "getOption",
           "package": "Top",
@@ -17328,6 +18831,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "getOption",
           "package": "Top",
@@ -17341,6 +18845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "ignoreOption",
           "package": "Top",
@@ -17350,6 +18855,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "ignoreOption",
           "normalized": "Option a-\u003eOptionAccess b a",
@@ -17365,6 +18871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "option",
           "package": "Top",
@@ -17374,6 +18881,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "option",
           "normalized": "a-\u003eString-\u003eOption a",
@@ -17388,6 +18896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "optionAccessTrans",
           "package": "Top",
@@ -17397,6 +18906,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "optionAccessTrans",
           "normalized": "(a b c d-\u003ec d)-\u003eOptionAccess c e-\u003eOptionAccess c e",
@@ -17412,6 +18922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "optionDescription",
           "package": "Top",
@@ -17421,6 +18932,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "optionDescription",
           "package": "Top",
@@ -17434,6 +18946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "setOption",
           "package": "Top",
@@ -17443,6 +18956,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "setOption",
           "normalized": "a-\u003eb()",
@@ -17458,6 +18972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:36 UTC 2014",
           "module": "Top.Util.Option",
           "name": "useOption",
           "package": "Top",
@@ -17467,6 +18982,7 @@
         },
         "index": {
           "hierarchy": "Top Util Option",
+          "indexed": "2014-03-11T17:02:36",
           "module": "Top.Util.Option",
           "name": "useOption",
           "normalized": "(a-\u003eOption b)-\u003e(Option b-\u003ea-\u003ea)-\u003eOptionAccess c b",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "repa-series"
+        "phrase": "repa-series",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFallback implementations of Series operators.\n\u003c/p\u003e\u003cp\u003eCode using these series operators is typically fused and vectorised by\n   the Repa plugin. If this transformation is successful then the resulting\n   GHC Core program will use primitives from the \u003ccode\u003eData.Array.Repa.Series.Prim\u003c/code\u003e\n   module instead. If the fusion process is not successful then the implementations\n   in this module will be used directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Fallback",
           "name": "Fallback",
           "package": "repa-series",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Fallback implementations of Series operators Code using these series operators is typically fused and vectorised by the Repa plugin If this transformation is successful then the resulting GHC Core program will use primitives from the Data.Array.Repa.Series.Prim module instead If the fusion process is not successful then the implementations in this module will be used directly",
           "hierarchy": "Data Array Repa Series Fallback",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Fallback",
           "name": "Fallback",
           "package": "repa-series",
@@ -173,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003erepa-plugin\u003c/code\u003e rewrites client code to use these primitives.\n\u003c/p\u003e\u003cp\u003eThe plugin will use whatever names are in scope, so if you want to debug\n   your code you can import a different implementation of these primitives\n   into the module to be vectorized.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Prim",
           "name": "Prim",
           "package": "repa-series",
@@ -182,6 +185,7 @@
         "index": {
           "description": "The repa-plugin rewrites client code to use these primitives The plugin will use whatever names are in scope so if you want to debug your code you can import different implementation of these primitives into the module to be vectorized",
           "hierarchy": "Data Array Repa Series Prim",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Prim",
           "name": "Prim",
           "package": "repa-series",
@@ -196,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitives needed by the repa-plugin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Prim",
           "name": "Primitives",
           "package": "repa-series",
@@ -205,6 +210,7 @@
         "index": {
           "description": "Primitives needed by the repa-plugin",
           "hierarchy": "Data Array Repa Series Prim",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Prim",
           "name": "Primitives",
           "package": "repa-series",
@@ -1007,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Ref",
           "name": "Ref",
           "package": "repa-series",
@@ -1015,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Series Ref",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Ref",
           "name": "Ref",
           "package": "repa-series",
@@ -1029,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable references.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Ref",
           "name": "Ref",
           "package": "repa-series",
@@ -1038,6 +1047,7 @@
         "index": {
           "description": "Mutable references",
           "hierarchy": "Data Array Repa Series Ref",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Ref",
           "name": "Ref",
           "package": "repa-series",
@@ -1051,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Ref",
           "name": "Ref",
           "package": "repa-series",
@@ -1060,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Series Ref",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Ref",
           "name": "Ref",
           "package": "repa-series",
@@ -1074,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new unboxed reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Ref",
           "name": "new",
           "package": "repa-series",
@@ -1084,6 +1097,7 @@
         "index": {
           "description": "Create new unboxed reference",
           "hierarchy": "Data Array Repa Series Ref",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Ref",
           "name": "new",
           "normalized": "a-\u003eIO(Ref a)",
@@ -1099,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead from an unboxed reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Ref",
           "name": "read",
           "package": "repa-series",
@@ -1109,6 +1124,7 @@
         "index": {
           "description": "Read from an unboxed reference",
           "hierarchy": "Data Array Repa Series Ref",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Ref",
           "name": "read",
           "normalized": "Ref a-\u003eIO a",
@@ -1124,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to an unboxed reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Ref",
           "name": "write",
           "package": "repa-series",
@@ -1134,6 +1151,7 @@
         "index": {
           "description": "Write to an unboxed reference",
           "hierarchy": "Data Array Repa Series Ref",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Ref",
           "name": "write",
           "normalized": "Ref a-\u003ea-\u003eIO()",
@@ -1148,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Sel",
           "name": "Sel",
           "package": "repa-series",
@@ -1156,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Series Sel",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Sel",
           "name": "Sel",
           "package": "repa-series",
@@ -1170,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Sel",
           "name": "Sel1",
           "package": "repa-series",
@@ -1179,6 +1200,7 @@
         "index": {
           "description": "Selectors",
           "hierarchy": "Data Array Repa Series Sel",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Sel",
           "name": "Sel1",
           "package": "repa-series",
@@ -1288,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Series",
           "name": "Series",
           "package": "repa-series",
@@ -1296,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Series Series",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Series",
           "name": "Series",
           "package": "repa-series",
@@ -1310,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSeries\u003c/a\u003e\u003c/code\u003e is an abstract source of element data and is consumed\n   by series processes. The elements of a series must be consumed\n   sequentially, so they don't support random access indexing.\n\u003c/p\u003e\u003cp\u003eThe rate parameter \u003ccode\u003ek\u003c/code\u003e represents the abstract length of the series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Series",
           "name": "Series",
           "package": "repa-series",
@@ -1319,6 +1344,7 @@
         "index": {
           "description": "Series is an abstract source of element data and is consumed by series processes The elements of series must be consumed sequentially so they don support random access indexing The rate parameter represents the abstract length of the series",
           "hierarchy": "Data Array Repa Series Series",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Series",
           "name": "Series",
           "package": "repa-series",
@@ -1356,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex into a series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Series",
           "name": "index",
           "package": "repa-series",
@@ -1366,6 +1393,7 @@
         "index": {
           "description": "Index into series",
           "hierarchy": "Data Array Repa Series Series",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Series",
           "name": "index",
           "normalized": "Series a b-\u003eInt #-\u003eb",
@@ -1381,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the length of a series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Series",
           "name": "length",
           "package": "repa-series",
@@ -1391,6 +1420,7 @@
         "index": {
           "description": "Take the length of series",
           "hierarchy": "Data Array Repa Series Series",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Series",
           "name": "length",
           "normalized": "Series a b-\u003eInt #",
@@ -1556,6 +1586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a series to a vector, discarding the rate information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Series",
           "name": "toVector",
           "package": "repa-series",
@@ -1566,6 +1597,7 @@
         "index": {
           "description": "Convert series to vector discarding the rate information",
           "hierarchy": "Data Array Repa Series Series",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Series",
           "name": "toVector",
           "normalized": "Series a b-\u003eVector b",
@@ -1581,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "Vector",
           "package": "repa-series",
@@ -1589,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Series Vector",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "Vector",
           "package": "repa-series",
@@ -1603,6 +1637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract mutable vector type that supports random access indexing.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003efromUnboxed\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etoUnboxed\u003c/a\u003e\u003c/code\u003e to convert to and from regular\n   immutable unboxed vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "Vector",
           "package": "repa-series",
@@ -1612,6 +1647,7 @@
         "index": {
           "description": "Abstract mutable vector type that supports random access indexing Use fromUnboxed and toUnboxed to convert to and from regular immutable unboxed vectors",
           "hierarchy": "Data Array Repa Series Vector",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "Vector",
           "package": "repa-series",
@@ -1653,6 +1689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the length of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "length",
           "package": "repa-series",
@@ -1663,6 +1700,7 @@
         "index": {
           "description": "Take the length of vector",
           "hierarchy": "Data Array Repa Series Vector",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "length",
           "normalized": "Vector a-\u003eInt #",
@@ -1678,6 +1716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new vector of the given length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "new",
           "package": "repa-series",
@@ -1688,6 +1727,7 @@
         "index": {
           "description": "Create new vector of the given length",
           "hierarchy": "Data Array Repa Series Vector",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "new",
           "normalized": "Int #-\u003eIO(Vector a)",
@@ -1703,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value from a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "read",
           "package": "repa-series",
@@ -1713,6 +1754,7 @@
         "index": {
           "description": "Read value from vector",
           "hierarchy": "Data Array Repa Series Vector",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "read",
           "normalized": "Vector a-\u003eInt #-\u003eIO a",
@@ -1728,6 +1770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the first n elements of a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "take",
           "package": "repa-series",
@@ -1738,6 +1781,7 @@
         "index": {
           "description": "Take the first elements of vector",
           "hierarchy": "Data Array Repa Series Vector",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "take",
           "normalized": "Int #-\u003eVector a-\u003eIO(Vector a)",
@@ -1780,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a value into a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "write",
           "package": "repa-series",
@@ -1790,6 +1835,7 @@
         "index": {
           "description": "Write value into vector",
           "hierarchy": "Data Array Repa Series Vector",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series.Vector",
           "name": "write",
           "normalized": "Vector a-\u003eInt #-\u003ea-\u003eIO()",
@@ -1804,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series",
           "name": "Series",
           "package": "repa-series",
@@ -1812,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Series",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series",
           "name": "Series",
           "package": "repa-series",
@@ -1826,6 +1874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitives needed by the repa-plugin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series",
           "name": "Primitives",
           "package": "repa-series",
@@ -1835,6 +1884,7 @@
         "index": {
           "description": "Primitives needed by the repa-plugin",
           "hierarchy": "Data Array Repa Series",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series",
           "name": "Primitives",
           "package": "repa-series",
@@ -1849,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series",
           "name": "Sel1",
           "package": "repa-series",
@@ -1858,6 +1909,7 @@
         "index": {
           "description": "Selectors",
           "hierarchy": "Data Array Repa Series",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series",
           "name": "Sel1",
           "package": "repa-series",
@@ -1872,6 +1924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSeries\u003c/a\u003e\u003c/code\u003e is an abstract source of element data and is consumed\n   by series processes. The elements of a series must be consumed\n   sequentially, so they don't support random access indexing.\n\u003c/p\u003e\u003cp\u003eThe rate parameter \u003ccode\u003ek\u003c/code\u003e represents the abstract length of the series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series",
           "name": "Series",
           "package": "repa-series",
@@ -1881,6 +1934,7 @@
         "index": {
           "description": "Series is an abstract source of element data and is consumed by series processes The elements of series must be consumed sequentially so they don support random access indexing The rate parameter represents the abstract length of the series",
           "hierarchy": "Data Array Repa Series",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series",
           "name": "Series",
           "package": "repa-series",
@@ -1895,6 +1949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract mutable vector type that supports random access indexing.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003efromUnboxed\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etoUnboxed\u003c/a\u003e\u003c/code\u003e to convert to and from regular\n   immutable unboxed vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:12 UTC 2014",
           "module": "Data.Array.Repa.Series",
           "name": "Vector",
           "package": "repa-series",
@@ -1904,6 +1959,7 @@
         "index": {
           "description": "Abstract mutable vector type that supports random access indexing Use fromUnboxed and toUnboxed to convert to and from regular immutable unboxed vectors",
           "hierarchy": "Data Array Repa Series",
+          "indexed": "2014-03-11T19:53:12",
           "module": "Data.Array.Repa.Series",
           "name": "Vector",
           "package": "repa-series",

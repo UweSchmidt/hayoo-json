@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pisigma"
+        "phrase": "pisigma",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Check",
           "name": "Check",
           "package": "pisigma",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Check",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Check",
           "name": "Check",
           "package": "pisigma",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Check",
           "name": "checkProg",
           "package": "pisigma",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Check",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Check",
           "name": "checkProg",
           "normalized": "Clos Prog-\u003eEval a Scope",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Check",
           "name": "infer",
           "package": "pisigma",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Check",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Check",
           "name": "infer",
           "normalized": "Clos Term-\u003eEval a(Clos Type)",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Equality",
           "name": "Equality",
           "package": "pisigma",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Equality",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Equality",
           "name": "Equality",
           "package": "pisigma",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Equality",
           "name": "eq",
           "package": "pisigma",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Equality",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Equality",
           "name": "eq",
           "normalized": "a-\u003ea-\u003eEval b()",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "Evaluate",
           "package": "pisigma",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "Evaluate",
           "package": "pisigma",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "Eval",
           "package": "pisigma",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "Eval",
           "package": "pisigma",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "Eval",
           "package": "pisigma",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "Eval",
           "package": "pisigma",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "catchE",
           "package": "pisigma",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "catchE",
           "normalized": "Eval a b-\u003e(EvalErr-\u003eEval a b)-\u003eEval a b",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a name, a scope, and potentially a type.\n It extends the environment and the scope with that name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "decl",
           "package": "pisigma",
@@ -228,6 +247,7 @@
         "index": {
           "description": "Takes name scope and potentially type It extends the environment and the scope with that name",
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "decl",
           "normalized": "Name-\u003ePrtInfo-\u003eScope-\u003eMaybe(Clos Type)-\u003eEval a(Id,Scope)",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "decl'",
           "package": "pisigma",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "decl'",
           "normalized": "Name-\u003eScope-\u003eEval a(Id,Scope)",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "defn'",
           "package": "pisigma",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "defn'",
           "normalized": "Id-\u003eClos Type-\u003eEval a()",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "eval",
           "package": "pisigma",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "eval",
           "normalized": "Clos Term-\u003eEval a Val",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "evalProg",
           "package": "pisigma",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "evalProg",
           "normalized": "Clos Prog-\u003eEval a Scope",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "force",
           "package": "pisigma",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "force",
           "normalized": "Val-\u003eEval a Val",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "getEnv",
           "package": "pisigma",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "getEnv",
           "package": "pisigma",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "getId",
           "package": "pisigma",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "getId",
           "normalized": "Loc-\u003eName-\u003eScope-\u003eEval a Id",
@@ -405,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocally updates the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "letn",
           "package": "pisigma",
@@ -415,6 +450,7 @@
         "index": {
           "description": "Locally updates the environment",
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "letn",
           "normalized": "Id-\u003eEnvEntry-\u003eEval a b-\u003eEval a b",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "letn'",
           "package": "pisigma",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "letn'",
           "normalized": "Id-\u003eClos Type-\u003eEval a b-\u003eEval a b",
@@ -452,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "lookupId",
           "package": "pisigma",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "lookupId",
           "normalized": "Id-\u003eEval a EnvEntry",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "run",
           "package": "pisigma",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "run",
           "normalized": "a-\u003eEval a b-\u003eEither EvalErr(b,a)",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "subst",
           "package": "pisigma",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "subst",
           "normalized": "Bind(Clos Term)-\u003eClos Term-\u003eEval a(Clos Term)",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "tdecl",
           "package": "pisigma",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "tdecl",
           "normalized": "Name-\u003eScope-\u003eClos Type-\u003eEval a(Id,Scope)",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Evaluate",
           "name": "unEval",
           "package": "pisigma",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Evaluate",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Evaluate",
           "name": "unEval",
           "package": "pisigma",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "Lexer",
           "package": "pisigma",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "Lexer",
           "package": "pisigma",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "Parser",
           "package": "pisigma",
@@ -596,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "Parser",
           "package": "pisigma",
@@ -609,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "angles",
           "package": "pisigma",
@@ -618,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "angles",
           "normalized": "Parser a-\u003eParser a",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "braces",
           "package": "pisigma",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "braces",
           "normalized": "Parser a-\u003eParser a",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "brackets",
           "package": "pisigma",
@@ -664,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "brackets",
           "normalized": "Parser a-\u003eParser a",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "charLiteral",
           "package": "pisigma",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "charLiteral",
           "package": "pisigma",
@@ -700,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "colon",
           "package": "pisigma",
@@ -709,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "colon",
           "package": "pisigma",
@@ -721,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "comma",
           "package": "pisigma",
@@ -730,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "comma",
           "package": "pisigma",
@@ -742,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "commaSep",
           "package": "pisigma",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "commaSep",
           "normalized": "Parser a-\u003eParser[a]",
@@ -766,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "commaSep1",
           "package": "pisigma",
@@ -775,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "commaSep1",
           "normalized": "Parser a-\u003eParser[a]",
@@ -790,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "decimal",
           "package": "pisigma",
@@ -799,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "decimal",
           "package": "pisigma",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "dot",
           "package": "pisigma",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "dot",
           "package": "pisigma",
@@ -832,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "float",
           "package": "pisigma",
@@ -841,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "float",
           "package": "pisigma",
@@ -853,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "hexadecimal",
           "package": "pisigma",
@@ -862,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "hexadecimal",
           "package": "pisigma",
@@ -874,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "identifier",
           "package": "pisigma",
@@ -883,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "identifier",
           "package": "pisigma",
@@ -895,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "integer",
           "package": "pisigma",
@@ -904,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "integer",
           "package": "pisigma",
@@ -916,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "lexeme",
           "package": "pisigma",
@@ -925,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "lexeme",
           "normalized": "Parser a-\u003eParser a",
@@ -939,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "locReserved",
           "package": "pisigma",
@@ -948,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "locReserved",
           "normalized": "String-\u003eParser Loc",
@@ -963,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "locReservedOp",
           "package": "pisigma",
@@ -972,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "locReservedOp",
           "normalized": "String-\u003eParser Loc",
@@ -987,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "locSymbol",
           "package": "pisigma",
@@ -996,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "locSymbol",
           "normalized": "String-\u003eParser Loc",
@@ -1011,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "locate",
           "package": "pisigma",
@@ -1020,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "locate",
           "normalized": "Parser a-\u003eParser Loc",
@@ -1034,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "location",
           "package": "pisigma",
@@ -1043,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "location",
           "package": "pisigma",
@@ -1055,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "natural",
           "package": "pisigma",
@@ -1064,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "natural",
           "package": "pisigma",
@@ -1076,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "naturalOrFloat",
           "package": "pisigma",
@@ -1085,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "naturalOrFloat",
           "package": "pisigma",
@@ -1098,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "octal",
           "package": "pisigma",
@@ -1107,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "octal",
           "package": "pisigma",
@@ -1119,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "operator",
           "package": "pisigma",
@@ -1128,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "operator",
           "package": "pisigma",
@@ -1140,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "parens",
           "package": "pisigma",
@@ -1149,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "parens",
           "normalized": "Parser a-\u003eParser a",
@@ -1163,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "reserved",
           "package": "pisigma",
@@ -1172,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "reserved",
           "normalized": "String-\u003eParser()",
@@ -1186,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "reservedOp",
           "package": "pisigma",
@@ -1195,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "reservedOp",
           "normalized": "String-\u003eParser()",
@@ -1210,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "semi",
           "package": "pisigma",
@@ -1219,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "semi",
           "package": "pisigma",
@@ -1231,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "semiSep",
           "package": "pisigma",
@@ -1240,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "semiSep",
           "normalized": "Parser a-\u003eParser[a]",
@@ -1255,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "semiSep1",
           "package": "pisigma",
@@ -1264,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "semiSep1",
           "normalized": "Parser a-\u003eParser[a]",
@@ -1279,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "squares",
           "package": "pisigma",
@@ -1288,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "squares",
           "normalized": "Parser a-\u003eParser a",
@@ -1302,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "stringLiteral",
           "package": "pisigma",
@@ -1311,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "stringLiteral",
           "package": "pisigma",
@@ -1324,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "symbol",
           "package": "pisigma",
@@ -1333,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "symbol",
           "normalized": "String-\u003eParser String",
@@ -1347,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "tokArr",
           "package": "pisigma",
@@ -1356,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "tokArr",
           "package": "pisigma",
@@ -1369,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "tokForce",
           "package": "pisigma",
@@ -1378,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "tokForce",
           "package": "pisigma",
@@ -1391,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "tokLam",
           "package": "pisigma",
@@ -1400,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "tokLam",
           "package": "pisigma",
@@ -1413,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "tokLift",
           "package": "pisigma",
@@ -1422,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "tokLift",
           "package": "pisigma",
@@ -1435,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Lexer",
           "name": "whiteSpace",
           "package": "pisigma",
@@ -1444,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Lexer",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Lexer",
           "name": "whiteSpace",
           "normalized": "Parser()",
@@ -1459,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Normalise",
           "name": "Normalise",
           "package": "pisigma",
@@ -1467,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Normalise",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Normalise",
           "name": "Normalise",
           "package": "pisigma",
@@ -1480,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Normalise",
           "name": "nf",
           "package": "pisigma",
@@ -1489,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Normalise",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Normalise",
           "name": "nf",
           "normalized": "Vars-\u003ea-\u003eEval b c",
@@ -1503,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Normalise",
           "name": "quote",
           "package": "pisigma",
@@ -1512,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Normalise",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Normalise",
           "name": "quote",
           "normalized": "Vars-\u003ea-\u003eEval b c",
@@ -1526,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Parser",
           "name": "Parser",
           "package": "pisigma",
@@ -1534,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Parser",
           "name": "Parser",
           "package": "pisigma",
@@ -1547,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Parser",
           "name": "parse",
           "package": "pisigma",
@@ -1556,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Parser",
           "name": "parse",
           "normalized": "Parser a-\u003eSourceName-\u003eString-\u003eEither ParseError a",
@@ -1570,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Parser",
           "name": "s2Terms",
           "package": "pisigma",
@@ -1579,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Parser",
           "name": "s2Terms",
           "normalized": "Parser(Term,Term)",
@@ -1594,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Parser",
           "name": "sPhrase",
           "package": "pisigma",
@@ -1603,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Parser",
           "name": "sPhrase",
           "package": "pisigma",
@@ -1616,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Parser",
           "name": "sProg",
           "package": "pisigma",
@@ -1625,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Parser",
           "name": "sProg",
           "package": "pisigma",
@@ -1638,6 +1782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Parser",
           "name": "sTerm",
           "package": "pisigma",
@@ -1647,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Parser",
           "name": "sTerm",
           "package": "pisigma",
@@ -1660,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Pretty",
           "name": "Pretty",
           "package": "pisigma",
@@ -1668,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Pretty",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Pretty",
           "name": "Pretty",
           "package": "pisigma",
@@ -1681,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Pretty",
           "name": "Pretty",
           "package": "pisigma",
@@ -1689,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Pretty",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Pretty",
           "name": "Pretty",
           "package": "pisigma",
@@ -1702,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Pretty",
           "name": "Print",
           "package": "pisigma",
@@ -1710,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Pretty",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Pretty",
           "name": "Print",
           "package": "pisigma",
@@ -1723,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Pretty",
           "name": "evalPrint",
           "package": "pisigma",
@@ -1732,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Pretty",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Pretty",
           "name": "evalPrint",
           "normalized": "a-\u003eEval b Pretty",
@@ -1747,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Pretty",
           "name": "fromPretty",
           "package": "pisigma",
@@ -1756,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Pretty",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Pretty",
           "name": "fromPretty",
           "normalized": "Pretty-\u003eString",
@@ -1771,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Syntax",
           "package": "pisigma",
@@ -1779,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Syntax",
           "package": "pisigma",
@@ -1793,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe use of Bind indicates the scope of the\n bound identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Bind",
           "package": "pisigma",
@@ -1802,6 +1961,7 @@
         "index": {
           "description": "The use of Bind indicates the scope of the bound identifier",
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Bind",
           "package": "pisigma",
@@ -1815,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Boxed",
           "package": "pisigma",
@@ -1823,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Boxed",
           "package": "pisigma",
@@ -1836,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Clos",
           "package": "pisigma",
@@ -1844,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Clos",
           "package": "pisigma",
@@ -1857,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Closure",
           "package": "pisigma",
@@ -1865,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Closure",
           "package": "pisigma",
@@ -1878,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Entry",
           "package": "pisigma",
@@ -1886,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Entry",
           "package": "pisigma",
@@ -1900,6 +2068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e defines operations on sequentially ordered types.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eenumFrom\u003c/code\u003e... methods are used in Haskell's translation of\n arithmetic sequences.\n\u003c/p\u003e\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e may be derived for any enumeration type (types\n whose constructors have no fields).  The nullary constructors are\n assumed to be numbered left-to-right by \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e0\u003c/code\u003e through \u003ccode\u003en-1\u003c/code\u003e.\n See Chapter 10 of the \u003cem\u003eHaskell Report\u003c/em\u003e for more details.\n\u003c/p\u003e\u003cp\u003eFor any type that is an instance of class \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e as well as \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e,\n the following should hold:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The calls \u003ccode\u003e\u003ccode\u003e\u003ca\u003esucc\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \u003ccode\u003e\u003ccode\u003e\u003ca\u003epred\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e should result in\n   a runtime error.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e should give a runtime error if the \n   result value is not representable in the result type.\n   For example, \u003ccode\u003e\u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e 7 :: \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is an error.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eenumFrom\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eenumFromThen\u003c/a\u003e\u003c/code\u003e should be defined with an implicit bound,\n   thus:\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e    enumFrom     x   = enumFromTo     x maxBound\n    enumFromThen x y = enumFromThenTo x y bound\n      where\n        bound | fromEnum y \u003e= fromEnum x = maxBound\n              | otherwise                = minBound\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Enum",
           "package": "pisigma",
@@ -1908,6 +2077,7 @@
         "index": {
           "description": "Class Enum defines operations on sequentially ordered types The enumFrom methods are used in Haskell translation of arithmetic sequences Instances of Enum may be derived for any enumeration type types whose constructors have no fields The nullary constructors are assumed to be numbered left-to-right by fromEnum from through n-1 See Chapter of the Haskell Report for more details For any type that is an instance of class Bounded as well as Enum the following should hold The calls succ maxBound and pred minBound should result in runtime error fromEnum and toEnum should give runtime error if the result value is not representable in the result type For example toEnum Bool is an error enumFrom and enumFromThen should be defined with an implicit bound thus enumFrom enumFromTo maxBound enumFromThen enumFromThenTo bound where bound fromEnum fromEnum maxBound otherwise minBound",
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Enum",
           "package": "pisigma",
@@ -1921,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Env",
           "package": "pisigma",
@@ -1929,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Env",
           "package": "pisigma",
@@ -1942,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "EnvEntries",
           "package": "pisigma",
@@ -1950,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "EnvEntries",
           "package": "pisigma",
@@ -1963,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "EnvEntry",
           "package": "pisigma",
@@ -1971,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "EnvEntry",
           "package": "pisigma",
@@ -1984,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "GetLoc",
           "package": "pisigma",
@@ -1992,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "GetLoc",
           "package": "pisigma",
@@ -2005,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Id",
           "package": "pisigma",
@@ -2013,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Id",
           "package": "pisigma",
@@ -2026,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Label",
           "package": "pisigma",
@@ -2034,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Label",
           "package": "pisigma",
@@ -2047,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Loc",
           "package": "pisigma",
@@ -2055,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Loc",
           "package": "pisigma",
@@ -2068,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Name",
           "package": "pisigma",
@@ -2076,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Name",
           "package": "pisigma",
@@ -2090,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNeutral terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Ne",
           "package": "pisigma",
@@ -2099,6 +2286,7 @@
         "index": {
           "description": "Neutral terms",
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Ne",
           "package": "pisigma",
@@ -2112,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Phrase",
           "package": "pisigma",
@@ -2120,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Phrase",
           "package": "pisigma",
@@ -2134,6 +2324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor treating quantifiers in a uniform way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "PiSigma",
           "package": "pisigma",
@@ -2143,6 +2334,7 @@
         "index": {
           "description": "For treating quantifiers in uniform way",
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "PiSigma",
           "package": "pisigma",
@@ -2156,6 +2348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Prog",
           "package": "pisigma",
@@ -2164,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Prog",
           "package": "pisigma",
@@ -2177,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "PrtInfo",
           "package": "pisigma",
@@ -2185,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "PrtInfo",
           "package": "pisigma",
@@ -2198,6 +2394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Scope",
           "package": "pisigma",
@@ -2206,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Scope",
           "package": "pisigma",
@@ -2219,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Term",
           "package": "pisigma",
@@ -2227,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Term",
           "package": "pisigma",
@@ -2240,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Type",
           "package": "pisigma",
@@ -2248,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Type",
           "package": "pisigma",
@@ -2261,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Val",
           "package": "pisigma",
@@ -2269,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Val",
           "package": "pisigma",
@@ -2283,6 +2487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "(-*-)",
           "package": "pisigma",
@@ -2293,6 +2498,7 @@
         "index": {
           "description": "Smart constructor for product",
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "(-*-) -*-",
           "normalized": "Type-\u003eType-\u003eType",
@@ -2308,6 +2514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for function space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "(-\u003e-)",
           "package": "pisigma",
@@ -2318,6 +2525,7 @@
         "index": {
           "description": "Smart constructor for function space",
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "(-\u003e-) -\u003e-",
           "normalized": "Type-\u003eType-\u003eType",
@@ -2332,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": ":..",
           "package": "pisigma",
@@ -2341,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": ":..",
           "package": "pisigma",
@@ -2353,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "App",
           "package": "pisigma",
@@ -2362,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "App",
           "package": "pisigma",
@@ -2375,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Box",
           "package": "pisigma",
@@ -2384,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Box",
           "package": "pisigma",
@@ -2397,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Boxed",
           "package": "pisigma",
@@ -2406,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Boxed",
           "package": "pisigma",
@@ -2419,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Case",
           "package": "pisigma",
@@ -2428,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Case",
           "normalized": "Case Loc Term[(Label,Term)]",
@@ -2443,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Closure",
           "package": "pisigma",
@@ -2452,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Closure",
           "package": "pisigma",
@@ -2465,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Decl",
           "package": "pisigma",
@@ -2474,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Decl",
           "package": "pisigma",
@@ -2487,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Defn",
           "package": "pisigma",
@@ -2496,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Defn",
           "package": "pisigma",
@@ -2509,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Enum",
           "package": "pisigma",
@@ -2518,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Enum",
           "normalized": "Enum Loc[Name]",
@@ -2533,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Fold",
           "package": "pisigma",
@@ -2542,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Fold",
           "package": "pisigma",
@@ -2555,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Force",
           "package": "pisigma",
@@ -2564,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Force",
           "package": "pisigma",
@@ -2577,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Id",
           "package": "pisigma",
@@ -2586,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Id",
           "package": "pisigma",
@@ -2599,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Label",
           "package": "pisigma",
@@ -2608,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Label",
           "package": "pisigma",
@@ -2621,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Lam",
           "package": "pisigma",
@@ -2630,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Lam",
           "package": "pisigma",
@@ -2643,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Let",
           "package": "pisigma",
@@ -2652,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Let",
           "package": "pisigma",
@@ -2665,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Lift",
           "package": "pisigma",
@@ -2674,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Lift",
           "package": "pisigma",
@@ -2687,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Loc",
           "package": "pisigma",
@@ -2696,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Loc",
           "package": "pisigma",
@@ -2709,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "NCase",
           "package": "pisigma",
@@ -2718,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "NCase",
           "normalized": "NCase Ne(Clos[(Label,Term)])",
@@ -2733,6 +2977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "NForce",
           "package": "pisigma",
@@ -2742,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "NForce",
           "package": "pisigma",
@@ -2755,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "NSplit",
           "package": "pisigma",
@@ -2764,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "NSplit",
           "package": "pisigma",
@@ -2777,6 +3025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "NUnfold",
           "package": "pisigma",
@@ -2786,6 +3035,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "NUnfold",
           "package": "pisigma",
@@ -2799,6 +3049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "NVar",
           "package": "pisigma",
@@ -2808,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "NVar",
           "package": "pisigma",
@@ -2821,6 +3073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Ne",
           "package": "pisigma",
@@ -2830,6 +3083,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Ne",
           "package": "pisigma",
@@ -2843,6 +3097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Pair",
           "package": "pisigma",
@@ -2852,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Pair",
           "package": "pisigma",
@@ -2865,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Pi",
           "package": "pisigma",
@@ -2874,6 +3131,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Pi",
           "package": "pisigma",
@@ -2887,6 +3145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Prog",
           "package": "pisigma",
@@ -2896,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Prog",
           "package": "pisigma",
@@ -2909,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "PrtInfo",
           "package": "pisigma",
@@ -2918,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "PrtInfo",
           "package": "pisigma",
@@ -2931,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Q",
           "package": "pisigma",
@@ -2940,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Q",
           "normalized": "Q Loc PiSigma(Type,Bind Type)",
@@ -2954,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Rec",
           "package": "pisigma",
@@ -2963,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Rec",
           "package": "pisigma",
@@ -2976,6 +3242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Scope",
           "package": "pisigma",
@@ -2985,6 +3252,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Scope",
           "normalized": "Scope[(Name,(Id,Maybe(Clos Type)))]",
@@ -3000,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Sigma",
           "package": "pisigma",
@@ -3009,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Sigma",
           "package": "pisigma",
@@ -3022,6 +3292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Split",
           "package": "pisigma",
@@ -3031,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Split",
           "package": "pisigma",
@@ -3044,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Term",
           "package": "pisigma",
@@ -3053,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Term",
           "package": "pisigma",
@@ -3066,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Type",
           "package": "pisigma",
@@ -3075,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Type",
           "package": "pisigma",
@@ -3088,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Unfold",
           "package": "pisigma",
@@ -3097,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Unfold",
           "package": "pisigma",
@@ -3110,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Unknown",
           "package": "pisigma",
@@ -3119,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Unknown",
           "package": "pisigma",
@@ -3132,6 +3412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "VBox",
           "package": "pisigma",
@@ -3141,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "VBox",
           "package": "pisigma",
@@ -3154,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "VEnum",
           "package": "pisigma",
@@ -3163,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "VEnum",
           "normalized": "VEnum[Label]",
@@ -3178,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "VFold",
           "package": "pisigma",
@@ -3187,6 +3472,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "VFold",
           "package": "pisigma",
@@ -3200,6 +3486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "VLabel",
           "package": "pisigma",
@@ -3209,6 +3496,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "VLabel",
           "package": "pisigma",
@@ -3222,6 +3510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "VLam",
           "package": "pisigma",
@@ -3231,6 +3520,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "VLam",
           "package": "pisigma",
@@ -3244,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "VLift",
           "package": "pisigma",
@@ -3253,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "VLift",
           "package": "pisigma",
@@ -3266,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "VPair",
           "package": "pisigma",
@@ -3275,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "VPair",
           "normalized": "VPair(Clos(Term,Term))",
@@ -3290,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "VQ",
           "package": "pisigma",
@@ -3299,6 +3594,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "VQ",
           "normalized": "VQ PiSigma(Clos(Type,Bind Type))",
@@ -3314,6 +3610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "VRec",
           "package": "pisigma",
@@ -3323,6 +3620,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "VRec",
           "package": "pisigma",
@@ -3336,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "VType",
           "package": "pisigma",
@@ -3345,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "VType",
           "package": "pisigma",
@@ -3358,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "Var",
           "package": "pisigma",
@@ -3367,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "Var",
           "package": "pisigma",
@@ -3380,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "column",
           "package": "pisigma",
@@ -3389,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "column",
           "package": "pisigma",
@@ -3401,6 +3705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "decls",
           "package": "pisigma",
@@ -3410,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "decls",
           "normalized": "Prog-\u003e[Name]",
@@ -3424,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "emptyE",
           "package": "pisigma",
@@ -3433,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "emptyE",
           "package": "pisigma",
@@ -3445,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "emptyScope",
           "package": "pisigma",
@@ -3454,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "emptyScope",
           "package": "pisigma",
@@ -3467,6 +3777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "expand",
           "package": "pisigma",
@@ -3476,6 +3787,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "expand",
           "package": "pisigma",
@@ -3488,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "extE",
           "package": "pisigma",
@@ -3497,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "extE",
           "normalized": "a-\u003ePrtInfo-\u003e(Id,a)",
@@ -3511,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "extendScope",
           "package": "pisigma",
@@ -3520,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "extendScope",
           "normalized": "Scope-\u003eName-\u003e(Id,Maybe(Clos Type))-\u003eScope",
@@ -3535,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "filename",
           "package": "pisigma",
@@ -3544,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "filename",
           "package": "pisigma",
@@ -3556,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "getE",
           "package": "pisigma",
@@ -3565,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "getE",
           "normalized": "a-\u003eId-\u003eEnvEntry",
@@ -3579,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "getLoc",
           "package": "pisigma",
@@ -3588,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "getLoc",
           "normalized": "a-\u003eLoc",
@@ -3603,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "getScope",
           "package": "pisigma",
@@ -3612,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "getScope",
           "normalized": "a-\u003eScope",
@@ -3627,6 +3951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "label",
           "package": "pisigma",
@@ -3636,6 +3961,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "label",
           "normalized": "Label-\u003eClos Term",
@@ -3651,6 +3977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for lambda abstractions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "lam",
           "package": "pisigma",
@@ -3661,6 +3988,7 @@
         "index": {
           "description": "Smart constructor for lambda abstractions",
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "lam",
           "normalized": "[(Loc,Name)]-\u003eTerm-\u003eTerm",
@@ -3675,6 +4003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "line",
           "package": "pisigma",
@@ -3684,6 +4013,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "line",
           "package": "pisigma",
@@ -3696,6 +4026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "locMessage",
           "package": "pisigma",
@@ -3705,6 +4036,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "locMessage",
           "normalized": "Loc-\u003eString",
@@ -3720,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "lookupCon",
           "package": "pisigma",
@@ -3729,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "lookupCon",
           "normalized": "Scope-\u003eName-\u003eMaybe(Clos Type)",
@@ -3744,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "lookupScope",
           "package": "pisigma",
@@ -3753,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "lookupScope",
           "normalized": "Scope-\u003eName-\u003eMaybe Id",
@@ -3768,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "lty",
           "package": "pisigma",
@@ -3777,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "lty",
           "package": "pisigma",
@@ -3789,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "name",
           "package": "pisigma",
@@ -3798,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "name",
           "package": "pisigma",
@@ -3811,6 +4151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for multiple Pi applications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "pis",
           "package": "pisigma",
@@ -3821,6 +4162,7 @@
         "index": {
           "description": "Smart constructor for multiple Pi applications",
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "pis",
           "normalized": "[(Loc,Name)]-\u003eType-\u003eType-\u003eType",
@@ -3835,6 +4177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "prtE",
           "package": "pisigma",
@@ -3844,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "prtE",
           "normalized": "a-\u003eId-\u003ePrtInfo",
@@ -3858,6 +4202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "putScope",
           "package": "pisigma",
@@ -3867,6 +4212,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "putScope",
           "normalized": "a-\u003eScope-\u003ea",
@@ -3882,6 +4228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "setE",
           "package": "pisigma",
@@ -3891,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "setE",
           "normalized": "a-\u003eId-\u003eEnvEntry-\u003ea",
@@ -3906,6 +4254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for multiple Sigma applications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "sigmas",
           "package": "pisigma",
@@ -3916,6 +4265,7 @@
         "index": {
           "description": "Smart constructor for multiple Sigma applications",
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "sigmas",
           "normalized": "[(Loc,Name)]-\u003eType-\u003eType-\u003eType",
@@ -3931,6 +4281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for split.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "split",
           "package": "pisigma",
@@ -3941,6 +4292,7 @@
         "index": {
           "description": "Smart constructor for split",
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "split",
           "normalized": "Loc-\u003eTerm-\u003e(Name,Name)-\u003eTerm-\u003eTerm",
@@ -3955,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "tforce",
           "package": "pisigma",
@@ -3964,6 +4317,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "tforce",
           "normalized": "Clos Type-\u003eClos Type",
@@ -3978,6 +4332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "tlift",
           "package": "pisigma",
@@ -3987,6 +4342,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "tlift",
           "normalized": "Clos Type-\u003eClos Type",
@@ -4001,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Syntax",
           "name": "ty",
           "package": "pisigma",
@@ -4010,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Syntax",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Syntax",
           "name": "ty",
           "package": "pisigma",
@@ -4022,6 +4380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "Internal",
           "package": "pisigma",
@@ -4030,6 +4389,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Internal",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "Internal",
           "package": "pisigma",
@@ -4043,6 +4403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "String",
           "package": "pisigma",
@@ -4051,6 +4412,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Internal",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "String",
           "package": "pisigma",
@@ -4064,6 +4426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "append",
           "package": "pisigma",
@@ -4073,6 +4436,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Internal",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "append",
           "normalized": "String-\u003eString-\u003eString",
@@ -4087,6 +4451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "concat",
           "package": "pisigma",
@@ -4096,6 +4461,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Internal",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "concat",
           "normalized": "[String]-\u003eString",
@@ -4110,6 +4476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "fromString",
           "package": "pisigma",
@@ -4119,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Internal",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "fromString",
           "normalized": "String-\u003eString",
@@ -4134,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "isPrefixOf",
           "package": "pisigma",
@@ -4143,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Internal",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "isPrefixOf",
           "normalized": "String-\u003eString-\u003eBool",
@@ -4158,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "null",
           "package": "pisigma",
@@ -4167,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Internal",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "null",
           "normalized": "String-\u003eBool",
@@ -4181,6 +4553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "putStrLn",
           "package": "pisigma",
@@ -4190,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Internal",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "putStrLn",
           "normalized": "String-\u003eIO()",
@@ -4205,6 +4579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "toString",
           "package": "pisigma",
@@ -4214,6 +4589,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Internal",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Internal",
           "name": "toString",
           "normalized": "String-\u003eString",
@@ -4229,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "Parser",
           "package": "pisigma",
@@ -4237,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "Parser",
           "package": "pisigma",
@@ -4250,6 +4628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "String",
           "package": "pisigma",
@@ -4258,6 +4637,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "String",
           "package": "pisigma",
@@ -4271,6 +4651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "append",
           "package": "pisigma",
@@ -4280,6 +4661,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "append",
           "normalized": "String-\u003eString-\u003eString",
@@ -4294,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "fromString",
           "package": "pisigma",
@@ -4303,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "fromString",
           "normalized": "String-\u003eString",
@@ -4318,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "isPrefixOf",
           "package": "pisigma",
@@ -4327,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "isPrefixOf",
           "normalized": "String-\u003eString-\u003eBool",
@@ -4342,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "lines",
           "package": "pisigma",
@@ -4351,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "lines",
           "normalized": "String-\u003e[String]",
@@ -4365,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "null",
           "package": "pisigma",
@@ -4374,6 +4763,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "null",
           "normalized": "String-\u003eBool",
@@ -4388,6 +4778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "readFile",
           "package": "pisigma",
@@ -4397,6 +4788,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO String",
@@ -4412,6 +4804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "span",
           "package": "pisigma",
@@ -4421,6 +4814,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "span",
           "normalized": "(Char-\u003eBool)-\u003eString-\u003e(String,String)",
@@ -4435,6 +4829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "toString",
           "package": "pisigma",
@@ -4444,6 +4839,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "toString",
           "normalized": "String-\u003eString",
@@ -4459,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "uncons",
           "package": "pisigma",
@@ -4468,6 +4865,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "uncons",
           "normalized": "String-\u003eMaybe(Char,String)",
@@ -4482,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:48 UTC 2014",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "unlines",
           "package": "pisigma",
@@ -4491,6 +4890,7 @@
         },
         "index": {
           "hierarchy": "Language PiSigma Util String Parser",
+          "indexed": "2014-03-11T19:39:48",
           "module": "Language.PiSigma.Util.String.Parser",
           "name": "unlines",
           "normalized": "[String]-\u003eString",

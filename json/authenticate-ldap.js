@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "authenticate-ldap"
+        "phrase": "authenticate-ldap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for using LDAP as an authentication service\n\u003c/p\u003e\u003cp\u003eThis code was written for yesod-auth-ldap, but maybe it can be used in any \n given Haskell web framwork?\n For now, the only usage examples will be Yesod specific. So you can find\n them in the yesod-auth-ldap repo \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:07 UTC 2014",
           "module": "Web.Authenticate.LDAP",
           "name": "LDAP",
           "package": "authenticate-ldap",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module for using LDAP as an authentication service This code was written for yesod-auth-ldap but maybe it can be used in any given Haskell web framwork For now the only usage examples will be Yesod specific So you can find them in the yesod-auth-ldap repo",
           "hierarchy": "Web Authenticate LDAP",
+          "indexed": "2014-03-11T17:15:07",
           "module": "Web.Authenticate.LDAP",
           "name": "LDAP",
           "package": "authenticate-ldap",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:07 UTC 2014",
           "module": "Web.Authenticate.LDAP",
           "name": "LDAPAuthResult",
           "package": "authenticate-ldap",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate LDAP",
+          "indexed": "2014-03-11T17:15:07",
           "module": "Web.Authenticate.LDAP",
           "name": "LDAPAuthResult",
           "package": "authenticate-ldap",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:07 UTC 2014",
           "module": "Web.Authenticate.LDAP",
           "name": "InitialBindFail",
           "package": "authenticate-ldap",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate LDAP",
+          "indexed": "2014-03-11T17:15:07",
           "module": "Web.Authenticate.LDAP",
           "name": "InitialBindFail",
           "package": "authenticate-ldap",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:07 UTC 2014",
           "module": "Web.Authenticate.LDAP",
           "name": "NoSuchUser",
           "package": "authenticate-ldap",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate LDAP",
+          "indexed": "2014-03-11T17:15:07",
           "module": "Web.Authenticate.LDAP",
           "name": "NoSuchUser",
           "package": "authenticate-ldap",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:07 UTC 2014",
           "module": "Web.Authenticate.LDAP",
           "name": "Ok",
           "package": "authenticate-ldap",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate LDAP",
+          "indexed": "2014-03-11T17:15:07",
           "module": "Web.Authenticate.LDAP",
           "name": "Ok",
           "normalized": "Ok[LDAPEntry]",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:07 UTC 2014",
           "module": "Web.Authenticate.LDAP",
           "name": "WrongPassword",
           "package": "authenticate-ldap",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate LDAP",
+          "indexed": "2014-03-11T17:15:07",
           "module": "Web.Authenticate.LDAP",
           "name": "WrongPassword",
           "package": "authenticate-ldap",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:07 UTC 2014",
           "module": "Web.Authenticate.LDAP",
           "name": "loginLDAP",
           "package": "authenticate-ldap",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate LDAP",
+          "indexed": "2014-03-11T17:15:07",
           "module": "Web.Authenticate.LDAP",
           "name": "loginLDAP",
           "normalized": "Text-\u003eString-\u003eString-\u003eString-\u003eLDAPInt-\u003eString-\u003eString-\u003eMaybe String-\u003eLDAPScope-\u003eIO LDAPAuthResult",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-dword"
+        "phrase": "data-dword",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTemplate Haskell utilities for generating double words declarations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord.TH",
           "name": "TH",
           "package": "data-dword",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Template Haskell utilities for generating double words declarations",
           "hierarchy": "Data DoubleWord TH",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord.TH",
           "name": "TH",
           "package": "data-dword",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare signed and unsigned binary word types built from\n   the specified low and high halves. The high halves \u003cem\u003emust\u003c/em\u003e have\n   less or equal bit-length than the lover half. For each data type\n   the following instances are declared: \u003ccode\u003e\u003ca\u003eDoubleWord\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eReal\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003eHashable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eIx\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eBinaryWord\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord.TH",
           "name": "mkDoubleWord",
           "package": "data-dword",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Declare signed and unsigned binary word types built from the specified low and high halves The high halves must have less or equal bit-length than the lover half For each data type the following instances are declared DoubleWord Eq Ord Bounded Enum Num Real Integral Show Read Hashable Ix Bits BinaryWord",
           "hierarchy": "Data DoubleWord TH",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord.TH",
           "name": "mkDoubleWord",
           "normalized": "String-\u003eString-\u003eStrict-\u003eName-\u003eString-\u003eString-\u003eStrict-\u003eName-\u003eStrict-\u003eName-\u003e[Name]-\u003eQ[Dec]",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emkUnpackedDoubleWord\u003c/a\u003e\u003c/code\u003e u uh s sh l\u003c/code\u003e is an alias for\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003emkDoubleWord\u003c/a\u003e\u003c/code\u003e u u \u003ccode\u003e\u003ca\u003eUnpacked\u003c/a\u003e\u003c/code\u003e uh s s \u003ccode\u003e\u003ca\u003eUnpacked\u003c/a\u003e\u003c/code\u003e sh \u003ccode\u003e\u003ca\u003eUnpacked\u003c/a\u003e\u003c/code\u003e l\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord.TH",
           "name": "mkUnpackedDoubleWord",
           "package": "data-dword",
@@ -76,6 +81,7 @@
         "index": {
           "description": "mkUnpackedDoubleWord uh sh is an alias for mkDoubleWord Unpacked uh Unpacked sh Unpacked",
           "hierarchy": "Data DoubleWord TH",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord.TH",
           "name": "mkUnpackedDoubleWord",
           "normalized": "String-\u003eName-\u003eString-\u003eName-\u003eName-\u003e[Name]-\u003eQ[Dec]",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides strict (low and high halves are unpacked)\n   signed and unsigned binary word data types of sizes 96, 128,\n   160, 192, 224, and 256 bits.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "DoubleWord",
           "package": "data-dword",
@@ -101,6 +108,7 @@
         "index": {
           "description": "This module provides strict low and high halves are unpacked signed and unsigned binary word data types of sizes and bits",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "DoubleWord",
           "package": "data-dword",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra bit-manipulation functions for binary words of fixed length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "BinaryWord",
           "package": "data-dword",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Extra bit-manipulation functions for binary words of fixed length",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "BinaryWord",
           "package": "data-dword",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines a particular way to split a binary word in halves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "DoubleWord",
           "package": "data-dword",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Defines particular way to split binary word in halves",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "DoubleWord",
           "package": "data-dword",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Int128",
           "package": "data-dword",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Int128",
           "package": "data-dword",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Int160",
           "package": "data-dword",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Int160",
           "package": "data-dword",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Int192",
           "package": "data-dword",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Int192",
           "package": "data-dword",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Int224",
           "package": "data-dword",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Int224",
           "package": "data-dword",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Int256",
           "package": "data-dword",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Int256",
           "package": "data-dword",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Int96",
           "package": "data-dword",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Int96",
           "package": "data-dword",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Word128",
           "package": "data-dword",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Word128",
           "package": "data-dword",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Word160",
           "package": "data-dword",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Word160",
           "package": "data-dword",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Word192",
           "package": "data-dword",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Word192",
           "package": "data-dword",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Word224",
           "package": "data-dword",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Word224",
           "package": "data-dword",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Word256",
           "package": "data-dword",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Word256",
           "package": "data-dword",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Word96",
           "package": "data-dword",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Word96",
           "package": "data-dword",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Int128",
           "package": "data-dword",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Int128",
           "package": "data-dword",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Int160",
           "package": "data-dword",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Int160",
           "package": "data-dword",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Int192",
           "package": "data-dword",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Int192",
           "package": "data-dword",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Int224",
           "package": "data-dword",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Int224",
           "package": "data-dword",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Int256",
           "package": "data-dword",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Int256",
           "package": "data-dword",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Int96",
           "package": "data-dword",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Int96",
           "package": "data-dword",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Word128",
           "package": "data-dword",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Word128",
           "package": "data-dword",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Word160",
           "package": "data-dword",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Word160",
           "package": "data-dword",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Word192",
           "package": "data-dword",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Word192",
           "package": "data-dword",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Word224",
           "package": "data-dword",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Word224",
           "package": "data-dword",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Word256",
           "package": "data-dword",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Word256",
           "package": "data-dword",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "Word96",
           "package": "data-dword",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "Word96",
           "package": "data-dword",
@@ -677,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe word with all bits set to 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "allOnes",
           "package": "data-dword",
@@ -687,6 +748,7 @@
         "index": {
           "description": "The word with all bits set to",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "allOnes",
           "package": "data-dword",
@@ -701,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe word with all bits set to 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "allZeroes",
           "package": "data-dword",
@@ -711,6 +774,7 @@
         "index": {
           "description": "The word with all bits set to",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "allZeroes",
           "package": "data-dword",
@@ -725,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend the low half\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "extendLo",
           "package": "data-dword",
@@ -735,6 +800,7 @@
         "index": {
           "description": "Extend the low half",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "extendLo",
           "normalized": "LoWord a-\u003ea",
@@ -751,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a word from the low and high halves\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "fromHiAndLo",
           "package": "data-dword",
@@ -761,6 +828,7 @@
         "index": {
           "description": "Construct word from the low and high halves",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "fromHiAndLo",
           "normalized": "HiWord a-\u003eLoWord a-\u003ea",
@@ -777,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe high half of the word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "hiWord",
           "package": "data-dword",
@@ -787,6 +856,7 @@
         "index": {
           "description": "The high half of the word",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "hiWord",
           "normalized": "a-\u003eHiWord a",
@@ -803,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of leading (from MSB) zero bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "leadingZeroes",
           "package": "data-dword",
@@ -813,6 +884,7 @@
         "index": {
           "description": "Number of leading from MSB zero bits",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "leadingZeroes",
           "normalized": "a-\u003eInt",
@@ -829,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe low half of the word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "loWord",
           "package": "data-dword",
@@ -839,6 +912,7 @@
         "index": {
           "description": "The low half of the word",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "loWord",
           "normalized": "a-\u003eLoWord a",
@@ -855,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe word with LSB set to 1 and all the other bits set to 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "lsb",
           "package": "data-dword",
@@ -865,6 +940,7 @@
         "index": {
           "description": "The word with LSB set to and all the other bits set to",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "lsb",
           "package": "data-dword",
@@ -878,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe word with MSB set to 1 and all the other bits set to 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "msb",
           "package": "data-dword",
@@ -888,6 +965,7 @@
         "index": {
           "description": "The word with MSB set to and all the other bits set to",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "msb",
           "package": "data-dword",
@@ -901,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign-extend the low half\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "signExtendLo",
           "package": "data-dword",
@@ -911,6 +990,7 @@
         "index": {
           "description": "Sign-extend the low half",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "signExtendLo",
           "normalized": "SignedWord(LoWord a)-\u003ea",
@@ -927,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the word to the signed type (identical to \u003ccode\u003e\u003ca\u003efromIntegral\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "signedWord",
           "package": "data-dword",
@@ -937,6 +1018,7 @@
         "index": {
           "description": "Convert the word to the signed type identical to fromIntegral",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "signedWord",
           "normalized": "a-\u003eSignedWord a",
@@ -953,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the LSB is 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "testLsb",
           "package": "data-dword",
@@ -963,6 +1046,7 @@
         "index": {
           "description": "Test if the LSB is",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "testLsb",
           "normalized": "a-\u003eBool",
@@ -979,6 +1063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the MSB is 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "testMsb",
           "package": "data-dword",
@@ -989,6 +1074,7 @@
         "index": {
           "description": "Test if the MSB is",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "testMsb",
           "normalized": "a-\u003eBool",
@@ -1005,6 +1091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber or trailing (from LSB) zero bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "trailingZeroes",
           "package": "data-dword",
@@ -1015,6 +1102,7 @@
         "index": {
           "description": "Number or trailing from LSB zero bits",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "trailingZeroes",
           "normalized": "a-\u003eInt",
@@ -1031,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the word to the unsigned type (identical to \u003ccode\u003e\u003ca\u003efromIntegral\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "unsignedWord",
           "package": "data-dword",
@@ -1041,6 +1130,7 @@
         "index": {
           "description": "Convert the word to the unsigned type identical to fromIntegral",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "unsignedWord",
           "normalized": "a-\u003eUnsignedWord a",
@@ -1057,6 +1147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrapped addition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "unwrappedAdd",
           "package": "data-dword",
@@ -1067,6 +1158,7 @@
         "index": {
           "description": "Unwrapped addition",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "unwrappedAdd",
           "normalized": "a-\u003ea-\u003e(a,UnsignedWord a)",
@@ -1083,6 +1175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrapped multiplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:08 UTC 2014",
           "module": "Data.DoubleWord",
           "name": "unwrappedMul",
           "package": "data-dword",
@@ -1093,6 +1186,7 @@
         "index": {
           "description": "Unwrapped multiplication",
           "hierarchy": "Data DoubleWord",
+          "indexed": "2014-03-11T17:48:08",
           "module": "Data.DoubleWord",
           "name": "unwrappedMul",
           "normalized": "a-\u003ea-\u003e(a,UnsignedWord a)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "flaccuraterip"
+        "phrase": "flaccuraterip",
+        "type": "phrase"
       },
       "type": "context"
     }

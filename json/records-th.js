@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "records-th"
+        "phrase": "records-th",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:58 UTC 2014",
           "module": "Data.Record.TH",
           "name": "TH",
           "package": "records-th",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Record TH",
+          "indexed": "2014-03-11T19:49:58",
           "module": "Data.Record.TH",
           "name": "TH",
           "package": "records-th",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA field representing its TypeOf\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:58 UTC 2014",
           "module": "Data.Record.TH",
           "name": "Field",
           "package": "records-th",
@@ -49,6 +52,7 @@
         "index": {
           "description": "field representing its TypeOf",
           "hierarchy": "Data Record TH",
+          "indexed": "2014-03-11T19:49:58",
           "module": "Data.Record.TH",
           "name": "Field",
           "package": "records-th",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify what level of JSON generation you want\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:58 UTC 2014",
           "module": "Data.Record.TH",
           "name": "JSONSpec",
           "package": "records-th",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Specify what level of JSON generation you want",
           "hierarchy": "Data Record TH",
+          "indexed": "2014-03-11T19:49:58",
           "module": "Data.Record.TH",
           "name": "JSONSpec",
           "package": "records-th",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA record using the Id type function as its sort\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:58 UTC 2014",
           "module": "Data.Record.TH",
           "name": "Rec",
           "package": "records-th",
@@ -95,6 +102,7 @@
         "index": {
           "description": "record using the Id type function as its sort",
           "hierarchy": "Data Record TH",
+          "indexed": "2014-03-11T19:49:58",
           "module": "Data.Record.TH",
           "name": "Rec",
           "package": "records-th",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data carried by a particular field name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:58 UTC 2014",
           "module": "Data.Record.TH",
           "name": "TypeOf",
           "package": "records-th",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The data carried by particular field name",
           "hierarchy": "Data Record TH",
+          "indexed": "2014-03-11T19:49:58",
           "module": "Data.Record.TH",
           "name": "TypeOf",
           "package": "records-th",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:58 UTC 2014",
           "module": "Data.Record.TH",
           "name": "ALL",
           "package": "records-th",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Record TH",
+          "indexed": "2014-03-11T19:49:58",
           "module": "Data.Record.TH",
           "name": "ALL",
           "package": "records-th",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:58 UTC 2014",
           "module": "Data.Record.TH",
           "name": "FROM",
           "package": "records-th",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Record TH",
+          "indexed": "2014-03-11T19:49:58",
           "module": "Data.Record.TH",
           "name": "FROM",
           "package": "records-th",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:58 UTC 2014",
           "module": "Data.Record.TH",
           "name": "NONE",
           "package": "records-th",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data Record TH",
+          "indexed": "2014-03-11T19:49:58",
           "module": "Data.Record.TH",
           "name": "NONE",
           "package": "records-th",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:58 UTC 2014",
           "module": "Data.Record.TH",
           "name": "TO",
           "package": "records-th",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data Record TH",
+          "indexed": "2014-03-11T19:49:58",
           "module": "Data.Record.TH",
           "name": "TO",
           "package": "records-th",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate field declarations for the given strings. For example:\n \u003ccode\u003e\n  $(fields [\u003ca\u003eA\u003c/a\u003e, \u003ca\u003eB\u003c/a\u003e])\n \u003c/code\u003e\n generates the code\n \u003ccode\u003e\n data A = A\n instance Name A where name = A\n \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:58 UTC 2014",
           "module": "Data.Record.TH",
           "name": "fields",
           "package": "records-th",
@@ -230,6 +249,7 @@
         "index": {
           "description": "Generate field declarations for the given strings For example fields generates the code data instance Name where name",
           "hierarchy": "Data Record TH",
+          "indexed": "2014-03-11T19:49:58",
           "module": "Data.Record.TH",
           "name": "fields",
           "normalized": "[(String,TypeQ,JSONSpec)]-\u003eQ[Dec]",

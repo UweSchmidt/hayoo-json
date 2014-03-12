@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxt-binary"
+        "phrase": "hxt-binary",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDe-/Serialisation for NTrees\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:11 UTC 2014",
           "module": "Data.Tree.NTree.Binary",
           "name": "Binary",
           "package": "hxt-binary",
@@ -28,6 +29,7 @@
         "index": {
           "description": "De Serialisation for NTrees",
           "hierarchy": "Data Tree NTree Binary",
+          "indexed": "2014-03-11T18:54:11",
           "module": "Data.Tree.NTree.Binary",
           "name": "Binary",
           "package": "hxt-binary",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDe-/Serialisation arrows for XmlTrees and other arbitrary values with a Binary instance\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:11 UTC 2014",
           "module": "Text.XML.HXT.Arrow.Binary",
           "name": "Binary",
           "package": "hxt-binary",
@@ -51,6 +54,7 @@
         "index": {
           "description": "De Serialisation arrows for XmlTrees and other arbitrary values with Binary instance",
           "hierarchy": "Text XML HXT Arrow Binary",
+          "indexed": "2014-03-11T18:54:11",
           "module": "Text.XML.HXT.Arrow.Binary",
           "name": "Binary",
           "package": "hxt-binary",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a serialied value from a file. The the flag indicates uncompressing.\n In case of an error, the error message is issued and the arrow fails\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:11 UTC 2014",
           "module": "Text.XML.HXT.Arrow.Binary",
           "name": "readBinaryValue",
           "package": "hxt-binary",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Read serialied value from file The the flag indicates uncompressing In case of an error the error message is issued and the arrow fails",
           "hierarchy": "Text XML HXT Arrow Binary",
+          "indexed": "2014-03-11T18:54:11",
           "module": "Text.XML.HXT.Arrow.Binary",
           "name": "readBinaryValue",
           "normalized": "Bool-\u003eString-\u003eIOStateArrow a b c",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a value, optionally compress it, and write it to a file.\n In case of an error, the error message is issued and the arrow fails\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:11 UTC 2014",
           "module": "Text.XML.HXT.Arrow.Binary",
           "name": "writeBinaryValue",
           "package": "hxt-binary",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Serialize value optionally compress it and write it to file In case of an error the error message is issued and the arrow fails",
           "hierarchy": "Text XML HXT Arrow Binary",
+          "indexed": "2014-03-11T18:54:11",
           "module": "Text.XML.HXT.Arrow.Binary",
           "name": "writeBinaryValue",
           "normalized": "Bool-\u003eString-\u003eIOStateArrow a b()",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDe-/Serialisation for XmlTrees\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:11 UTC 2014",
           "module": "Text.XML.HXT.DOM.Binary",
           "name": "Binary",
           "package": "hxt-binary",
@@ -126,6 +135,7 @@
         "index": {
           "description": "De Serialisation for XmlTrees",
           "hierarchy": "Text XML HXT DOM Binary",
+          "indexed": "2014-03-11T18:54:11",
           "module": "Text.XML.HXT.DOM.Binary",
           "name": "Binary",
           "package": "hxt-binary",
@@ -139,6 +149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:11 UTC 2014",
           "module": "Text.XML.HXT.DOM.Binary",
           "name": "dtdElems",
           "package": "hxt-binary",
@@ -148,6 +159,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT DOM Binary",
+          "indexed": "2014-03-11T18:54:11",
           "module": "Text.XML.HXT.DOM.Binary",
           "name": "dtdElems",
           "normalized": "[DTDElem]",

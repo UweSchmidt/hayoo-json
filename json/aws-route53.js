@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aws-route53"
+        "phrase": "aws-route53",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOST ChangeResourceRecordSetrs\n\u003c/p\u003e\u003cp\u003eCreates, changes, or deletes resource records sets.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://docs.amazonwebservices.com/Route53/latest/APIReference/API_ChangeResourceRecordSets.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "ChangeResourceRecordSets",
           "package": "aws-route53",
@@ -28,6 +29,7 @@
         "index": {
           "description": "POST ChangeResourceRecordSetrs Creates changes or deletes resource records sets http docs.amazonwebservices.com Route53 latest APIReference API ChangeResourceRecordSets.html",
           "hierarchy": "Aws Route53 Commands ChangeResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "ChangeResourceRecordSets",
           "package": "aws-route53",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "ACTION",
           "package": "aws-route53",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ChangeResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "ACTION",
           "package": "aws-route53",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "ChangeResourceRecordSets",
           "package": "aws-route53",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ChangeResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "ChangeResourceRecordSets",
           "package": "aws-route53",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "ChangeResourceRecordSetsResponse",
           "package": "aws-route53",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ChangeResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "ChangeResourceRecordSetsResponse",
           "package": "aws-route53",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "CREATE",
           "package": "aws-route53",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ChangeResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "CREATE",
           "package": "aws-route53",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "ChangeResourceRecordSets",
           "package": "aws-route53",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ChangeResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "ChangeResourceRecordSets",
           "package": "aws-route53",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "ChangeResourceRecordSetsResponse",
           "package": "aws-route53",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ChangeResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "ChangeResourceRecordSetsResponse",
           "package": "aws-route53",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "DELETE",
           "package": "aws-route53",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ChangeResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "DELETE",
           "package": "aws-route53",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "crrComment",
           "package": "aws-route53",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ChangeResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "crrComment",
           "package": "aws-route53",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "crrHostedZoneId",
           "package": "aws-route53",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ChangeResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "crrHostedZoneId",
           "package": "aws-route53",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "crrsChanges",
           "package": "aws-route53",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ChangeResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "crrsChanges",
           "normalized": "[(ACTION,ResourceRecordSet)]",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "crrsrChangeInfo",
           "package": "aws-route53",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ChangeResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ChangeResourceRecordSets",
           "name": "crrsrChangeInfo",
           "package": "aws-route53",
@@ -283,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOST CreateHostedZone\n\u003c/p\u003e\u003cp\u003eCreate a new Route53 hosted zone.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://docs.amazonwebservices.com/Route53/latest/APIReference/API_CreateHostedZone.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "CreateHostedZone",
           "package": "aws-route53",
@@ -292,6 +317,7 @@
         "index": {
           "description": "POST CreateHostedZone Create new Route53 hosted zone http docs.amazonwebservices.com Route53 latest APIReference API CreateHostedZone.html",
           "hierarchy": "Aws Route53 Commands CreateHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "CreateHostedZone",
           "package": "aws-route53",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "CreateHostedZone",
           "package": "aws-route53",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands CreateHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "CreateHostedZone",
           "package": "aws-route53",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "CreateHostedZoneResponse",
           "package": "aws-route53",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands CreateHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "CreateHostedZoneResponse",
           "package": "aws-route53",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "CreateHostedZone",
           "package": "aws-route53",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands CreateHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "CreateHostedZone",
           "package": "aws-route53",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "CreateHostedZoneResponse",
           "package": "aws-route53",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands CreateHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "CreateHostedZoneResponse",
           "package": "aws-route53",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "chzCallerReference",
           "package": "aws-route53",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands CreateHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "chzCallerReference",
           "package": "aws-route53",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "chzComment",
           "package": "aws-route53",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands CreateHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "chzComment",
           "package": "aws-route53",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "chzName",
           "package": "aws-route53",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands CreateHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "chzName",
           "package": "aws-route53",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "chzrChangeInfo",
           "package": "aws-route53",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands CreateHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "chzrChangeInfo",
           "package": "aws-route53",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "chzrDelegationSet",
           "package": "aws-route53",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands CreateHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "chzrDelegationSet",
           "package": "aws-route53",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "chzrHostedZone",
           "package": "aws-route53",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands CreateHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "chzrHostedZone",
           "package": "aws-route53",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "createHostedZone",
           "package": "aws-route53",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands CreateHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.CreateHostedZone",
           "name": "createHostedZone",
           "normalized": "Domain-\u003eText-\u003eText-\u003eCreateHostedZone",
@@ -548,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDELETE DeleteHostedZone\n\u003c/p\u003e\u003cp\u003eDelete a particular Route53 hosted zone identified through its \u003ccode\u003ehostedZoneId\u003c/code\u003e.\n   The HostedZoneId is obtained in the response to \u003ccode\u003e\u003ca\u003eCreateHostedZone\u003c/a\u003e\u003c/code\u003e\n   or \u003ccode\u003e\u003ca\u003eListHostedZones\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eNote that the hosted zone can be delete only after deleting all resource records other than\n   the default SOA record and the NS records.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://docs.amazonwebservices.com/Route53/latest/APIReference/API_DeleteHostedZone.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "DeleteHostedZone",
           "package": "aws-route53",
@@ -557,6 +606,7 @@
         "index": {
           "description": "DELETE DeleteHostedZone Delete particular Route53 hosted zone identified through its hostedZoneId The HostedZoneId is obtained in the response to CreateHostedZone or ListHostedZones Note that the hosted zone can be delete only after deleting all resource records other than the default SOA record and the NS records http docs.amazonwebservices.com Route53 latest APIReference API DeleteHostedZone.html",
           "hierarchy": "Aws Route53 Commands DeleteHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "DeleteHostedZone",
           "package": "aws-route53",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "DeleteHostedZone",
           "package": "aws-route53",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands DeleteHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "DeleteHostedZone",
           "package": "aws-route53",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "DeleteHostedZoneResponse",
           "package": "aws-route53",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands DeleteHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "DeleteHostedZoneResponse",
           "package": "aws-route53",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "DeleteHostedZone",
           "package": "aws-route53",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands DeleteHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "DeleteHostedZone",
           "package": "aws-route53",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "DeleteHostedZoneResponse",
           "package": "aws-route53",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands DeleteHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "DeleteHostedZoneResponse",
           "package": "aws-route53",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "deleteHostedZone",
           "package": "aws-route53",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands DeleteHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "deleteHostedZone",
           "normalized": "HostedZoneId-\u003eDeleteHostedZone",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "dhzHostedZoneId",
           "package": "aws-route53",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands DeleteHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "dhzHostedZoneId",
           "package": "aws-route53",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "dhzrChangeInfo",
           "package": "aws-route53",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands DeleteHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.DeleteHostedZone",
           "name": "dhzrChangeInfo",
           "package": "aws-route53",
@@ -725,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGET GetChange\n\u003c/p\u003e\u003cp\u003eReturns the current status of change batch request.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://docs.amazonwebservices.com/Route53/latest/APIReference/API_GetChange.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "GetChange",
           "package": "aws-route53",
@@ -734,6 +799,7 @@
         "index": {
           "description": "GET GetChange Returns the current status of change batch request http docs.amazonwebservices.com Route53 latest APIReference API GetChange.html",
           "hierarchy": "Aws Route53 Commands GetChange",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "GetChange",
           "package": "aws-route53",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "GetChange",
           "package": "aws-route53",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetChange",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "GetChange",
           "package": "aws-route53",
@@ -768,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "GetChangeResponse",
           "package": "aws-route53",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetChange",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "GetChangeResponse",
           "package": "aws-route53",
@@ -789,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "GetChange",
           "package": "aws-route53",
@@ -798,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetChange",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "GetChange",
           "package": "aws-route53",
@@ -811,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "GetChangeResponse",
           "package": "aws-route53",
@@ -820,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetChange",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "GetChangeResponse",
           "package": "aws-route53",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "changeId",
           "package": "aws-route53",
@@ -842,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetChange",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "changeId",
           "package": "aws-route53",
@@ -855,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "gcrChangeInfo",
           "package": "aws-route53",
@@ -864,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetChange",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "gcrChangeInfo",
           "package": "aws-route53",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "getChange",
           "package": "aws-route53",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetChange",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetChange",
           "name": "getChange",
           "normalized": "ChangeId-\u003eGetChange",
@@ -902,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGET GetDate\n\u003c/p\u003e\u003cp\u003eReceive current date string from Route53 service that can be used as date string for\n   authenticating REST requests to Route53.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://docs.amazonwebservices.com/Route53/latest/DeveloperGuide/RESTAuthentication.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "GetDate",
           "package": "aws-route53",
@@ -911,6 +992,7 @@
         "index": {
           "description": "GET GetDate Receive current date string from Route53 service that can be used as date string for authenticating REST requests to Route53 http docs.amazonwebservices.com Route53 latest DeveloperGuide RESTAuthentication.html",
           "hierarchy": "Aws Route53 Commands GetDate",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "GetDate",
           "package": "aws-route53",
@@ -924,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "GetDate",
           "package": "aws-route53",
@@ -932,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetDate",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "GetDate",
           "package": "aws-route53",
@@ -945,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "GetDateResponse",
           "package": "aws-route53",
@@ -953,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetDate",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "GetDateResponse",
           "package": "aws-route53",
@@ -966,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "GetDate",
           "package": "aws-route53",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetDate",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "GetDate",
           "package": "aws-route53",
@@ -988,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "GetDateResponse",
           "package": "aws-route53",
@@ -997,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetDate",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "GetDateResponse",
           "package": "aws-route53",
@@ -1010,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "date",
           "package": "aws-route53",
@@ -1019,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetDate",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "date",
           "package": "aws-route53",
@@ -1031,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "getDate",
           "package": "aws-route53",
@@ -1040,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetDate",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetDate",
           "name": "getDate",
           "package": "aws-route53",
@@ -1054,6 +1148,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGET GetHostedZone\n\u003c/p\u003e\u003cp\u003eGet a particular Route53 hosted zone identified through its \u003ccode\u003e\u003ca\u003ehostedZoneId\u003c/a\u003e\u003c/code\u003e.\n   The HostedZoneId is obtained in the response to \u003ccode\u003e\u003ca\u003eCreateHostedZone\u003c/a\u003e\u003c/code\u003e\n   or \u003ccode\u003e\u003ca\u003eListHostedZones\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://docs.amazonwebservices.com/Route53/latest/APIReference/API_GetHostedZone.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "GetHostedZone",
           "package": "aws-route53",
@@ -1063,6 +1158,7 @@
         "index": {
           "description": "GET GetHostedZone Get particular Route53 hosted zone identified through its hostedZoneId The HostedZoneId is obtained in the response to CreateHostedZone or ListHostedZones http docs.amazonwebservices.com Route53 latest APIReference API GetHostedZone.html",
           "hierarchy": "Aws Route53 Commands GetHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "GetHostedZone",
           "package": "aws-route53",
@@ -1076,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "GetHostedZone",
           "package": "aws-route53",
@@ -1084,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "GetHostedZone",
           "package": "aws-route53",
@@ -1097,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "GetHostedZoneResponse",
           "package": "aws-route53",
@@ -1105,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "GetHostedZoneResponse",
           "package": "aws-route53",
@@ -1118,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "GetHostedZone",
           "package": "aws-route53",
@@ -1127,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "GetHostedZone",
           "package": "aws-route53",
@@ -1140,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "GetHostedZoneResponse",
           "package": "aws-route53",
@@ -1149,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "GetHostedZoneResponse",
           "package": "aws-route53",
@@ -1162,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "getHostedZone",
           "package": "aws-route53",
@@ -1171,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "getHostedZone",
           "normalized": "HostedZoneId-\u003eGetHostedZone",
@@ -1186,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "ghzrDelegationSet",
           "package": "aws-route53",
@@ -1195,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "ghzrDelegationSet",
           "package": "aws-route53",
@@ -1208,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "ghzrHostedZone",
           "package": "aws-route53",
@@ -1217,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "ghzrHostedZone",
           "package": "aws-route53",
@@ -1230,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "hostedZoneId",
           "package": "aws-route53",
@@ -1239,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands GetHostedZone",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.GetHostedZone",
           "name": "hostedZoneId",
           "package": "aws-route53",
@@ -1253,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGET ListHostedZones\n\u003c/p\u003e\u003cp\u003eList all Route53 hosted zones of the user, optionally paginated.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://docs.amazonwebservices.com/Route53/latest/APIReference/API_ListHostedZones.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "ListHostedZones",
           "package": "aws-route53",
@@ -1262,6 +1375,7 @@
         "index": {
           "description": "GET ListHostedZones List all Route53 hosted zones of the user optionally paginated http docs.amazonwebservices.com Route53 latest APIReference API ListHostedZones.html",
           "hierarchy": "Aws Route53 Commands ListHostedZones",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "ListHostedZones",
           "package": "aws-route53",
@@ -1275,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "ListHostedZones",
           "package": "aws-route53",
@@ -1283,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListHostedZones",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "ListHostedZones",
           "package": "aws-route53",
@@ -1296,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "ListHostedZonesResponse",
           "package": "aws-route53",
@@ -1304,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListHostedZones",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "ListHostedZonesResponse",
           "package": "aws-route53",
@@ -1317,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "ListHostedZones",
           "package": "aws-route53",
@@ -1326,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListHostedZones",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "ListHostedZones",
           "package": "aws-route53",
@@ -1339,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "ListHostedZonesResponse",
           "package": "aws-route53",
@@ -1348,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListHostedZones",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "ListHostedZonesResponse",
           "package": "aws-route53",
@@ -1361,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "lhzMaxNumberOfItems",
           "package": "aws-route53",
@@ -1370,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListHostedZones",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "lhzMaxNumberOfItems",
           "package": "aws-route53",
@@ -1383,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "lhzNextToken",
           "package": "aws-route53",
@@ -1392,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListHostedZones",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "lhzNextToken",
           "package": "aws-route53",
@@ -1405,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "lhzrHostedZones",
           "package": "aws-route53",
@@ -1414,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListHostedZones",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "lhzrHostedZones",
           "package": "aws-route53",
@@ -1427,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "lhzrNextToken",
           "package": "aws-route53",
@@ -1436,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListHostedZones",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "lhzrNextToken",
           "package": "aws-route53",
@@ -1449,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "listHostedZones",
           "package": "aws-route53",
@@ -1458,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListHostedZones",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListHostedZones",
           "name": "listHostedZones",
           "package": "aws-route53",
@@ -1472,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGET ListResourceRecordSets\n\u003c/p\u003e\u003cp\u003eLists the resource record sets for a Route53 hosted zone. The hosted zone is identified by\n   the hostedZoneId which is retrieved in the response to \u003ccode\u003e\u003ca\u003eListHostedZones\u003c/a\u003e\u003c/code\u003e \n   or \u003ccode\u003e\u003ca\u003eCreateHostedZone\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://docs.amazonwebservices.com/Route53/latest/APIReference/API_ListResourceRecordSets.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eNOTE: the parameter \u003ccode\u003eidentifier\u003c/code\u003e is required for weighted and latency resource record sets. This is\n   not enforced by the type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "ListResourceRecordSets",
           "package": "aws-route53",
@@ -1481,6 +1614,7 @@
         "index": {
           "description": "GET ListResourceRecordSets Lists the resource record sets for Route53 hosted zone The hosted zone is identified by the hostedZoneId which is retrieved in the response to ListHostedZones or CreateHostedZone http docs.amazonwebservices.com Route53 latest APIReference API ListResourceRecordSets.html NOTE the parameter identifier is required for weighted and latency resource record sets This is not enforced by the type",
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "ListResourceRecordSets",
           "package": "aws-route53",
@@ -1494,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "ListResourceRecordSets",
           "package": "aws-route53",
@@ -1502,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "ListResourceRecordSets",
           "package": "aws-route53",
@@ -1515,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "ListResourceRecordSetsResponse",
           "package": "aws-route53",
@@ -1523,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "ListResourceRecordSetsResponse",
           "package": "aws-route53",
@@ -1536,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "ListResourceRecordSets",
           "package": "aws-route53",
@@ -1545,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "ListResourceRecordSets",
           "package": "aws-route53",
@@ -1558,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "ListResourceRecordSetsResponse",
           "package": "aws-route53",
@@ -1567,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "ListResourceRecordSetsResponse",
           "package": "aws-route53",
@@ -1581,6 +1723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA most general \u003ccode\u003e\u003ca\u003eListResourceRecordSets\u003c/a\u003e\u003c/code\u003e query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "listResourceRecordSets",
           "package": "aws-route53",
@@ -1591,6 +1734,7 @@
         "index": {
           "description": "most general ListResourceRecordSets query",
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "listResourceRecordSets",
           "normalized": "HostedZoneId-\u003eListResourceRecordSets",
@@ -1606,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsHostedZoneId",
           "package": "aws-route53",
@@ -1615,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsHostedZoneId",
           "package": "aws-route53",
@@ -1629,6 +1775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emust be present for weighted or latency resource record sets. TODO introduce newtype wrapper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsIdentifier",
           "package": "aws-route53",
@@ -1639,6 +1786,7 @@
         "index": {
           "description": "must be present for weighted or latency resource record sets TODO introduce newtype wrapper",
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsIdentifier",
           "package": "aws-route53",
@@ -1653,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaximum effective value is 100\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsMaxItems",
           "package": "aws-route53",
@@ -1663,6 +1812,7 @@
         "index": {
           "description": "maximum effective value is",
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsMaxItems",
           "package": "aws-route53",
@@ -1676,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsName",
           "package": "aws-route53",
@@ -1685,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsName",
           "package": "aws-route53",
@@ -1698,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsRecordType",
           "package": "aws-route53",
@@ -1707,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsRecordType",
           "package": "aws-route53",
@@ -1720,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsrIsTruncated",
           "package": "aws-route53",
@@ -1729,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsrIsTruncated",
           "package": "aws-route53",
@@ -1743,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maxitems value from the request \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsrMaxItems",
           "package": "aws-route53",
@@ -1753,6 +1910,7 @@
         "index": {
           "description": "The maxitems value from the request",
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsrMaxItems",
           "package": "aws-route53",
@@ -1767,6 +1925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO check constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsrNextRecordIdentifier",
           "package": "aws-route53",
@@ -1777,6 +1936,7 @@
         "index": {
           "description": "TODO check constraint",
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsrNextRecordIdentifier",
           "package": "aws-route53",
@@ -1791,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO check constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsrNextRecordName",
           "package": "aws-route53",
@@ -1801,6 +1962,7 @@
         "index": {
           "description": "TODO check constraint",
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsrNextRecordName",
           "package": "aws-route53",
@@ -1815,6 +1977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO check constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsrNextRecordType",
           "package": "aws-route53",
@@ -1825,6 +1988,7 @@
         "index": {
           "description": "TODO check constraint",
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsrNextRecordType",
           "package": "aws-route53",
@@ -1838,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsrResourceRecordSets",
           "package": "aws-route53",
@@ -1847,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands ListResourceRecordSets",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands.ListResourceRecordSets",
           "name": "lrrsrResourceRecordSets",
           "package": "aws-route53",
@@ -1860,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Commands",
           "name": "Commands",
           "package": "aws-route53",
@@ -1868,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Commands",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Commands",
           "name": "Commands",
           "package": "aws-route53",
@@ -1881,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Core",
           "package": "aws-route53",
@@ -1889,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Core",
           "package": "aws-route53",
@@ -1902,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "AliasTarget",
           "package": "aws-route53",
@@ -1910,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "AliasTarget",
           "package": "aws-route53",
@@ -1923,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ChangeId",
           "package": "aws-route53",
@@ -1931,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ChangeId",
           "package": "aws-route53",
@@ -1944,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ChangeInfo",
           "package": "aws-route53",
@@ -1952,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ChangeInfo",
           "package": "aws-route53",
@@ -1965,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ChangeInfoStatus",
           "package": "aws-route53",
@@ -1973,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ChangeInfoStatus",
           "package": "aws-route53",
@@ -1986,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "DelegationSet",
           "package": "aws-route53",
@@ -1994,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "DelegationSet",
           "package": "aws-route53",
@@ -2007,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Domain",
           "package": "aws-route53",
@@ -2015,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Domain",
           "package": "aws-route53",
@@ -2028,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "HostedZone",
           "package": "aws-route53",
@@ -2036,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "HostedZone",
           "package": "aws-route53",
@@ -2049,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "HostedZoneId",
           "package": "aws-route53",
@@ -2057,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "HostedZoneId",
           "package": "aws-route53",
@@ -2070,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "HostedZones",
           "package": "aws-route53",
@@ -2078,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "HostedZones",
           "package": "aws-route53",
@@ -2091,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Nameserver",
           "package": "aws-route53",
@@ -2099,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Nameserver",
           "package": "aws-route53",
@@ -2112,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Nameservers",
           "package": "aws-route53",
@@ -2120,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Nameservers",
           "package": "aws-route53",
@@ -2133,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "REGION",
           "package": "aws-route53",
@@ -2141,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "REGION",
           "package": "aws-route53",
@@ -2154,6 +2348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "RecordType",
           "package": "aws-route53",
@@ -2162,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "RecordType",
           "package": "aws-route53",
@@ -2175,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ResourceRecord",
           "package": "aws-route53",
@@ -2183,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ResourceRecord",
           "package": "aws-route53",
@@ -2196,6 +2394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ResourceRecordSet",
           "package": "aws-route53",
@@ -2204,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ResourceRecordSet",
           "package": "aws-route53",
@@ -2217,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ResourceRecordSets",
           "package": "aws-route53",
@@ -2225,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ResourceRecordSets",
           "package": "aws-route53",
@@ -2238,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ResourceRecords",
           "package": "aws-route53",
@@ -2246,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ResourceRecords",
           "package": "aws-route53",
@@ -2259,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Route53Configuration",
           "package": "aws-route53",
@@ -2267,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Route53Configuration",
           "package": "aws-route53",
@@ -2280,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Route53Error",
           "package": "aws-route53",
@@ -2288,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Route53Error",
           "package": "aws-route53",
@@ -2301,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Route53Id",
           "package": "aws-route53",
@@ -2309,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Route53Id",
           "package": "aws-route53",
@@ -2322,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Route53Metadata",
           "package": "aws-route53",
@@ -2330,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Route53Metadata",
           "package": "aws-route53",
@@ -2344,6 +2556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for Route53 XML response parsers\n\u003c/p\u003e\u003cp\u003eTODO there is a lot of Boilerplat here. With only little overhead serializatin and deserialization\n  could be derived from the instance declaration. Maybe some DLS would be a goold solution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Route53Parseable",
           "package": "aws-route53",
@@ -2353,6 +2566,7 @@
         "index": {
           "description": "class for Route53 XML response parsers TODO there is lot of Boilerplat here With only little overhead serializatin and deserialization could be derived from the instance declaration Maybe some DLS would be goold solution",
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Route53Parseable",
           "package": "aws-route53",
@@ -2366,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Route53XmlSerializable",
           "package": "aws-route53",
@@ -2374,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Route53XmlSerializable",
           "package": "aws-route53",
@@ -2387,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "A",
           "package": "aws-route53",
@@ -2396,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "A",
           "package": "aws-route53",
@@ -2408,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "AAAA",
           "package": "aws-route53",
@@ -2417,6 +2636,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "AAAA",
           "package": "aws-route53",
@@ -2430,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "AliasTarget",
           "package": "aws-route53",
@@ -2439,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "AliasTarget",
           "package": "aws-route53",
@@ -2452,6 +2674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ApNorthEast1",
           "package": "aws-route53",
@@ -2461,6 +2684,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ApNorthEast1",
           "package": "aws-route53",
@@ -2474,6 +2698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ApSouthEast2",
           "package": "aws-route53",
@@ -2483,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ApSouthEast2",
           "package": "aws-route53",
@@ -2496,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "CNAME",
           "package": "aws-route53",
@@ -2505,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "CNAME",
           "package": "aws-route53",
@@ -2518,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ChangeId",
           "package": "aws-route53",
@@ -2527,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ChangeId",
           "package": "aws-route53",
@@ -2540,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ChangeInfo",
           "package": "aws-route53",
@@ -2549,6 +2780,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ChangeInfo",
           "package": "aws-route53",
@@ -2562,6 +2794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "DelegationSet",
           "package": "aws-route53",
@@ -2571,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "DelegationSet",
           "package": "aws-route53",
@@ -2584,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Domain",
           "package": "aws-route53",
@@ -2593,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Domain",
           "package": "aws-route53",
@@ -2606,6 +2842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "EuWest1",
           "package": "aws-route53",
@@ -2615,6 +2852,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "EuWest1",
           "package": "aws-route53",
@@ -2628,6 +2866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "HostedZone",
           "package": "aws-route53",
@@ -2637,6 +2876,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "HostedZone",
           "package": "aws-route53",
@@ -2650,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "HostedZoneId",
           "package": "aws-route53",
@@ -2659,6 +2900,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "HostedZoneId",
           "package": "aws-route53",
@@ -2672,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "INSYNC",
           "package": "aws-route53",
@@ -2681,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "INSYNC",
           "package": "aws-route53",
@@ -2694,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "MX",
           "package": "aws-route53",
@@ -2703,6 +2948,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "MX",
           "package": "aws-route53",
@@ -2716,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "NS",
           "package": "aws-route53",
@@ -2725,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "NS",
           "package": "aws-route53",
@@ -2738,6 +2986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "PENDING",
           "package": "aws-route53",
@@ -2747,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "PENDING",
           "package": "aws-route53",
@@ -2760,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "PTR",
           "package": "aws-route53",
@@ -2769,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "PTR",
           "package": "aws-route53",
@@ -2782,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ResourceRecord",
           "package": "aws-route53",
@@ -2791,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ResourceRecord",
           "package": "aws-route53",
@@ -2804,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ResourceRecordSet",
           "package": "aws-route53",
@@ -2813,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ResourceRecordSet",
           "package": "aws-route53",
@@ -2826,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Route53Configuration",
           "package": "aws-route53",
@@ -2835,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Route53Configuration",
           "package": "aws-route53",
@@ -2848,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Route53Error",
           "package": "aws-route53",
@@ -2857,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Route53Error",
           "package": "aws-route53",
@@ -2870,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "Route53Metadata",
           "package": "aws-route53",
@@ -2879,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "Route53Metadata",
           "package": "aws-route53",
@@ -2892,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "SOA",
           "package": "aws-route53",
@@ -2901,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "SOA",
           "package": "aws-route53",
@@ -2914,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "SPF",
           "package": "aws-route53",
@@ -2923,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "SPF",
           "package": "aws-route53",
@@ -2936,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "SRV",
           "package": "aws-route53",
@@ -2945,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "SRV",
           "package": "aws-route53",
@@ -2958,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "SaEast1",
           "package": "aws-route53",
@@ -2967,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "SaEast1",
           "package": "aws-route53",
@@ -2980,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "TXT",
           "package": "aws-route53",
@@ -2989,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "TXT",
           "package": "aws-route53",
@@ -3002,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "UNKNOWN",
           "package": "aws-route53",
@@ -3011,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "UNKNOWN",
           "package": "aws-route53",
@@ -3024,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "UnknownRegion",
           "package": "aws-route53",
@@ -3033,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "UnknownRegion",
           "package": "aws-route53",
@@ -3046,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "UsEast1",
           "package": "aws-route53",
@@ -3055,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "UsEast1",
           "package": "aws-route53",
@@ -3068,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "UsWest1",
           "package": "aws-route53",
@@ -3077,6 +3356,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "UsWest1",
           "package": "aws-route53",
@@ -3090,6 +3370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "UsWest2",
           "package": "aws-route53",
@@ -3099,6 +3380,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "UsWest2",
           "package": "aws-route53",
@@ -3112,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "asId",
           "package": "aws-route53",
@@ -3121,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "asId",
           "normalized": "Text-\u003ea",
@@ -3137,6 +3421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for defining \u003ccode\u003e\u003ca\u003easId\u003c/a\u003e\u003c/code\u003e. Constructs \u003ccode\u003er\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e assuming that\n   the qualifier with already stripped from the argument.\n\u003c/p\u003e\u003cp\u003eDefine either this or \u003ccode\u003e\u003ca\u003easId\u003c/a\u003e\u003c/code\u003e. Usually defining \u003ccode\u003e\u003ca\u003easId'\u003c/a\u003e\u003c/code\u003e is easier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "asId'",
           "package": "aws-route53",
@@ -3147,6 +3432,7 @@
         "index": {
           "description": "Helper for defining asId Constructs from Text assuming that the qualifier with already stripped from the argument Define either this or asId Usually defining asId is easier",
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "asId'",
           "normalized": "Text-\u003ea",
@@ -3162,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "atDNSName",
           "package": "aws-route53",
@@ -3171,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "atDNSName",
           "package": "aws-route53",
@@ -3184,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "atHostedZoneId",
           "package": "aws-route53",
@@ -3193,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "atHostedZoneId",
           "package": "aws-route53",
@@ -3206,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "changeIdText",
           "package": "aws-route53",
@@ -3215,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "changeIdText",
           "package": "aws-route53",
@@ -3228,6 +3520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ciId",
           "package": "aws-route53",
@@ -3237,6 +3530,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ciId",
           "package": "aws-route53",
@@ -3250,6 +3544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ciStatus",
           "package": "aws-route53",
@@ -3259,6 +3554,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ciStatus",
           "package": "aws-route53",
@@ -3272,6 +3568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "ciSubmittedAt",
           "package": "aws-route53",
@@ -3281,6 +3578,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "ciSubmittedAt",
           "package": "aws-route53",
@@ -3294,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "dText",
           "package": "aws-route53",
@@ -3303,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "dText",
           "package": "aws-route53",
@@ -3316,6 +3616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "dsNameserver1",
           "package": "aws-route53",
@@ -3325,6 +3626,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "dsNameserver1",
           "package": "aws-route53",
@@ -3338,6 +3640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "dsNameserver2",
           "package": "aws-route53",
@@ -3347,6 +3650,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "dsNameserver2",
           "package": "aws-route53",
@@ -3360,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "dsNameserver3",
           "package": "aws-route53",
@@ -3369,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "dsNameserver3",
           "package": "aws-route53",
@@ -3382,6 +3688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "dsNameserver4",
           "package": "aws-route53",
@@ -3391,6 +3698,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "dsNameserver4",
           "package": "aws-route53",
@@ -3404,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "dsNameservers",
           "package": "aws-route53",
@@ -3413,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "dsNameservers",
           "normalized": "DelegationSet-\u003e[Domain]",
@@ -3428,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "findHeader",
           "package": "aws-route53",
@@ -3437,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "findHeader",
           "normalized": "[Header]-\u003eHeaderName-\u003eMaybe Header",
@@ -3452,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "findHeaderValue",
           "package": "aws-route53",
@@ -3461,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "findHeaderValue",
           "normalized": "[Header]-\u003eHeaderName-\u003eMaybe ByteString",
@@ -3476,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "hRequestId",
           "package": "aws-route53",
@@ -3485,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "hRequestId",
           "package": "aws-route53",
@@ -3498,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "hzCallerReference",
           "package": "aws-route53",
@@ -3507,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "hzCallerReference",
           "package": "aws-route53",
@@ -3520,6 +3838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "hzComment",
           "package": "aws-route53",
@@ -3529,6 +3848,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "hzComment",
           "package": "aws-route53",
@@ -3542,6 +3862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "hzId",
           "package": "aws-route53",
@@ -3551,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "hzId",
           "package": "aws-route53",
@@ -3564,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "hzName",
           "package": "aws-route53",
@@ -3573,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "hzName",
           "package": "aws-route53",
@@ -3586,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "hzResourceRecordSetCount",
           "package": "aws-route53",
@@ -3595,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "hzResourceRecordSetCount",
           "package": "aws-route53",
@@ -3608,6 +3934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "hziText",
           "package": "aws-route53",
@@ -3617,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "hziText",
           "package": "aws-route53",
@@ -3630,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "idQualifier",
           "package": "aws-route53",
@@ -3639,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "idQualifier",
           "normalized": "a-\u003eText",
@@ -3654,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "idText",
           "package": "aws-route53",
@@ -3663,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "idText",
           "normalized": "a-\u003eText",
@@ -3678,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "qualifiedIdText",
           "package": "aws-route53",
@@ -3687,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "qualifiedIdText",
           "normalized": "a-\u003eText",
@@ -3702,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "qualifiedIdTextPrefix",
           "package": "aws-route53",
@@ -3711,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "qualifiedIdTextPrefix",
           "normalized": "a-\u003eText",
@@ -3726,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "r53Parse",
           "package": "aws-route53",
@@ -3735,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "r53Parse",
           "normalized": "Cursor-\u003ea b",
@@ -3750,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "requestId",
           "package": "aws-route53",
@@ -3759,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "requestId",
           "package": "aws-route53",
@@ -3772,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53",
           "package": "aws-route53",
@@ -3781,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53",
           "package": "aws-route53",
@@ -3793,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53ApiVersion",
           "package": "aws-route53",
@@ -3802,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53ApiVersion",
           "package": "aws-route53",
@@ -3815,6 +4159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53CheckResponseType",
           "package": "aws-route53",
@@ -3824,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53CheckResponseType",
           "normalized": "a-\u003eText-\u003eCursor-\u003eb a",
@@ -3839,6 +4185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53Endpoint",
           "package": "aws-route53",
@@ -3848,6 +4195,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53Endpoint",
           "package": "aws-route53",
@@ -3861,6 +4209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53EndpointUsClassic",
           "package": "aws-route53",
@@ -3870,6 +4219,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53EndpointUsClassic",
           "package": "aws-route53",
@@ -3883,6 +4233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53ErrorCode",
           "package": "aws-route53",
@@ -3892,6 +4243,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53ErrorCode",
           "package": "aws-route53",
@@ -3905,6 +4257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53ErrorMessage",
           "package": "aws-route53",
@@ -3914,6 +4267,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53ErrorMessage",
           "package": "aws-route53",
@@ -3927,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53Port",
           "package": "aws-route53",
@@ -3936,6 +4291,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53Port",
           "package": "aws-route53",
@@ -3949,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53Protocol",
           "package": "aws-route53",
@@ -3958,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53Protocol",
           "package": "aws-route53",
@@ -3971,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53ResponseConsumer",
           "package": "aws-route53",
@@ -3980,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53ResponseConsumer",
           "normalized": "(Cursor-\u003eResponse Route Metadata a)-\u003eIORef Route Metadata-\u003eHTTPResponseConsumer a",
@@ -3995,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53SignQuery",
           "package": "aws-route53",
@@ -4004,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53SignQuery",
           "normalized": "Method-\u003eByteString-\u003e[(ByteString,ByteString)]-\u003eMaybe Element-\u003eRoute Configuration a-\u003eSignatureData-\u003eSignedQuery",
@@ -4019,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53StatusCode",
           "package": "aws-route53",
@@ -4028,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53StatusCode",
           "package": "aws-route53",
@@ -4041,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "route53XmlNamespace",
           "package": "aws-route53",
@@ -4050,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "route53XmlNamespace",
           "package": "aws-route53",
@@ -4063,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "rrsAliasTarget",
           "package": "aws-route53",
@@ -4072,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "rrsAliasTarget",
           "package": "aws-route53",
@@ -4085,6 +4453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "rrsName",
           "package": "aws-route53",
@@ -4094,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "rrsName",
           "package": "aws-route53",
@@ -4107,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "rrsRecords",
           "package": "aws-route53",
@@ -4116,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "rrsRecords",
           "package": "aws-route53",
@@ -4129,6 +4501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "rrsRegion",
           "package": "aws-route53",
@@ -4138,6 +4511,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "rrsRegion",
           "package": "aws-route53",
@@ -4151,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "rrsSetIdentifier",
           "package": "aws-route53",
@@ -4160,6 +4535,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "rrsSetIdentifier",
           "package": "aws-route53",
@@ -4173,6 +4549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "rrsTTL",
           "package": "aws-route53",
@@ -4182,6 +4559,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "rrsTTL",
           "package": "aws-route53",
@@ -4195,6 +4573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "rrsType",
           "package": "aws-route53",
@@ -4204,6 +4583,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "rrsType",
           "package": "aws-route53",
@@ -4217,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "rrsWeight",
           "package": "aws-route53",
@@ -4226,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "rrsWeight",
           "package": "aws-route53",
@@ -4239,6 +4621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "toXml",
           "package": "aws-route53",
@@ -4248,6 +4631,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "toXml",
           "normalized": "a-\u003eElement",
@@ -4263,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "typeToString",
           "package": "aws-route53",
@@ -4272,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "typeToString",
           "normalized": "RecordType-\u003eString",
@@ -4287,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53.Core",
           "name": "value",
           "package": "aws-route53",
@@ -4296,6 +4683,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53 Core",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53.Core",
           "name": "value",
           "package": "aws-route53",
@@ -4308,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:44 UTC 2014",
           "module": "Aws.Route53",
           "name": "Route53",
           "package": "aws-route53",
@@ -4316,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "Aws Route53",
+          "indexed": "2014-03-11T17:15:44",
           "module": "Aws.Route53",
           "name": "Route53",
           "package": "aws-route53",

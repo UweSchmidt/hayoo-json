@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-default-instances-old-locale"
+        "phrase": "data-default-instances-old-locale",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:05 UTC 2014",
           "module": "Data.Default.Instances.OldLocale",
           "name": "OldLocale",
           "package": "data-default-instances-old-locale",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Default Instances OldLocale",
+          "indexed": "2014-03-11T17:48:05",
           "module": "Data.Default.Instances.OldLocale",
           "name": "OldLocale",
           "package": "data-default-instances-old-locale",

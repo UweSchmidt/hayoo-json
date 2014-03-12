@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-level-natural-number"
+        "phrase": "type-level-natural-number",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "NaturalNumber",
           "package": "type-level-natural-number",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "NaturalNumber",
           "package": "type-level-natural-number",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Eight",
           "package": "type-level-natural-number",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Eight",
           "package": "type-level-natural-number",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Eleven",
           "package": "type-level-natural-number",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Eleven",
           "package": "type-level-natural-number",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Fifteen",
           "package": "type-level-natural-number",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Fifteen",
           "package": "type-level-natural-number",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Five",
           "package": "type-level-natural-number",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Five",
           "package": "type-level-natural-number",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Four",
           "package": "type-level-natural-number",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Four",
           "package": "type-level-natural-number",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Fourteen",
           "package": "type-level-natural-number",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Fourteen",
           "package": "type-level-natural-number",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N0",
           "package": "type-level-natural-number",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N0",
           "package": "type-level-natural-number",
@@ -185,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N1",
           "package": "type-level-natural-number",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N1",
           "package": "type-level-natural-number",
@@ -205,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N10",
           "package": "type-level-natural-number",
@@ -213,6 +232,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N10",
           "package": "type-level-natural-number",
@@ -225,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N11",
           "package": "type-level-natural-number",
@@ -233,6 +254,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N11",
           "package": "type-level-natural-number",
@@ -245,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N12",
           "package": "type-level-natural-number",
@@ -253,6 +276,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N12",
           "package": "type-level-natural-number",
@@ -265,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N13",
           "package": "type-level-natural-number",
@@ -273,6 +298,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N13",
           "package": "type-level-natural-number",
@@ -285,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N14",
           "package": "type-level-natural-number",
@@ -293,6 +320,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N14",
           "package": "type-level-natural-number",
@@ -305,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N15",
           "package": "type-level-natural-number",
@@ -313,6 +342,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N15",
           "package": "type-level-natural-number",
@@ -325,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N2",
           "package": "type-level-natural-number",
@@ -333,6 +364,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N2",
           "package": "type-level-natural-number",
@@ -345,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N3",
           "package": "type-level-natural-number",
@@ -353,6 +386,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N3",
           "package": "type-level-natural-number",
@@ -365,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N4",
           "package": "type-level-natural-number",
@@ -373,6 +408,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N4",
           "package": "type-level-natural-number",
@@ -385,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N5",
           "package": "type-level-natural-number",
@@ -393,6 +430,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N5",
           "package": "type-level-natural-number",
@@ -405,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N6",
           "package": "type-level-natural-number",
@@ -413,6 +452,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N6",
           "package": "type-level-natural-number",
@@ -425,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N7",
           "package": "type-level-natural-number",
@@ -433,6 +474,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N7",
           "package": "type-level-natural-number",
@@ -445,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N8",
           "package": "type-level-natural-number",
@@ -453,6 +496,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N8",
           "package": "type-level-natural-number",
@@ -465,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "N9",
           "package": "type-level-natural-number",
@@ -473,6 +518,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "N9",
           "package": "type-level-natural-number",
@@ -485,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "NaturalNumber",
           "package": "type-level-natural-number",
@@ -493,6 +540,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "NaturalNumber",
           "package": "type-level-natural-number",
@@ -506,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Nine",
           "package": "type-level-natural-number",
@@ -514,6 +563,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Nine",
           "package": "type-level-natural-number",
@@ -527,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "One",
           "package": "type-level-natural-number",
@@ -535,6 +586,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "One",
           "package": "type-level-natural-number",
@@ -548,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Seven",
           "package": "type-level-natural-number",
@@ -556,6 +609,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Seven",
           "package": "type-level-natural-number",
@@ -569,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Six",
           "package": "type-level-natural-number",
@@ -577,6 +632,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Six",
           "package": "type-level-natural-number",
@@ -590,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "SuccessorTo",
           "package": "type-level-natural-number",
@@ -598,6 +655,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "SuccessorTo",
           "package": "type-level-natural-number",
@@ -611,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Ten",
           "package": "type-level-natural-number",
@@ -619,6 +678,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Ten",
           "package": "type-level-natural-number",
@@ -632,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Thirteen",
           "package": "type-level-natural-number",
@@ -640,6 +701,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Thirteen",
           "package": "type-level-natural-number",
@@ -653,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Three",
           "package": "type-level-natural-number",
@@ -661,6 +724,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Three",
           "package": "type-level-natural-number",
@@ -674,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Twelve",
           "package": "type-level-natural-number",
@@ -682,6 +747,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Twelve",
           "package": "type-level-natural-number",
@@ -695,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Two",
           "package": "type-level-natural-number",
@@ -703,6 +770,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Two",
           "package": "type-level-natural-number",
@@ -716,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "Zero",
           "package": "type-level-natural-number",
@@ -724,6 +793,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "Zero",
           "package": "type-level-natural-number",
@@ -737,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n0",
           "package": "type-level-natural-number",
@@ -746,6 +817,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n0",
           "package": "type-level-natural-number",
@@ -758,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n1",
           "package": "type-level-natural-number",
@@ -767,6 +840,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n1",
           "package": "type-level-natural-number",
@@ -779,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n10",
           "package": "type-level-natural-number",
@@ -788,6 +863,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n10",
           "package": "type-level-natural-number",
@@ -800,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n11",
           "package": "type-level-natural-number",
@@ -809,6 +886,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n11",
           "package": "type-level-natural-number",
@@ -821,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n12",
           "package": "type-level-natural-number",
@@ -830,6 +909,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n12",
           "package": "type-level-natural-number",
@@ -842,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n13",
           "package": "type-level-natural-number",
@@ -851,6 +932,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n13",
           "package": "type-level-natural-number",
@@ -863,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n14",
           "package": "type-level-natural-number",
@@ -872,6 +955,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n14",
           "package": "type-level-natural-number",
@@ -884,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n15",
           "package": "type-level-natural-number",
@@ -893,6 +978,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n15",
           "package": "type-level-natural-number",
@@ -905,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n2",
           "package": "type-level-natural-number",
@@ -914,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n2",
           "package": "type-level-natural-number",
@@ -926,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n3",
           "package": "type-level-natural-number",
@@ -935,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n3",
           "package": "type-level-natural-number",
@@ -947,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n4",
           "package": "type-level-natural-number",
@@ -956,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n4",
           "package": "type-level-natural-number",
@@ -968,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n5",
           "package": "type-level-natural-number",
@@ -977,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n5",
           "package": "type-level-natural-number",
@@ -989,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n6",
           "package": "type-level-natural-number",
@@ -998,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n6",
           "package": "type-level-natural-number",
@@ -1010,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n7",
           "package": "type-level-natural-number",
@@ -1019,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n7",
           "package": "type-level-natural-number",
@@ -1031,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n8",
           "package": "type-level-natural-number",
@@ -1040,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n8",
           "package": "type-level-natural-number",
@@ -1052,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "n9",
           "package": "type-level-natural-number",
@@ -1061,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "n9",
           "package": "type-level-natural-number",
@@ -1073,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "naturalNumberAsInt",
           "package": "type-level-natural-number",
@@ -1082,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "naturalNumberAsInt",
           "normalized": "a-\u003eInt",
@@ -1097,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "predecessorOf",
           "package": "type-level-natural-number",
@@ -1106,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "predecessorOf",
           "normalized": "SuccessorTo a-\u003ea",
@@ -1121,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:32 UTC 2014",
           "module": "TypeLevel.NaturalNumber",
           "name": "successorTo",
           "package": "type-level-natural-number",
@@ -1130,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber",
+          "indexed": "2014-03-11T20:27:32",
           "module": "TypeLevel.NaturalNumber",
           "name": "successorTo",
           "normalized": "a-\u003eSuccessorTo a",

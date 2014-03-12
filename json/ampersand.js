@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ampersand"
+        "phrase": "ampersand",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Ampersand",
           "package": "ampersand",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Ampersand",
           "package": "ampersand",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "AMeaning",
           "package": "ampersand",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "AMeaning",
           "package": "ampersand",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "A_Concept",
           "package": "ampersand",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "A_Concept",
           "package": "ampersand",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "A_Context",
           "package": "ampersand",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "A_Context",
           "package": "ampersand",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata structure A_Gen contains the CLASSIFY statements from an Ampersand script\n   CLASSIFY Employee ISA Person   translates to Isa orig (C \u003ca\u003ePerson\u003c/a\u003e) (C \u003ca\u003eEmployee\u003c/a\u003e)\n   CLASSIFY Workingstudent IS Employee/Student   translates to IsE orig [C \u003ca\u003eEmployee\u003c/a\u003e,C \u003ca\u003eStudent\u003c/a\u003e] (C \u003ca\u003eWorkingstudent\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "A_Gen",
           "package": "ampersand",
@@ -112,6 +121,7 @@
         "index": {
           "description": "data structure Gen contains the CLASSIFY statements from an Ampersand script CLASSIFY Employee ISA Person translates to Isa orig Person Employee CLASSIFY Workingstudent IS Employee Student translates to IsE orig Employee Student Workingstudent",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "A_Gen",
           "package": "ampersand",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "A_Markup",
           "package": "ampersand",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "A_Markup",
           "package": "ampersand",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Activity",
           "package": "ampersand",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Activity",
           "package": "ampersand",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Association",
           "package": "ampersand",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Association",
           "package": "ampersand",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Clauses",
           "package": "ampersand",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Clauses",
           "package": "ampersand",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Collection",
           "package": "ampersand",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Collection",
           "package": "ampersand",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ConceptDef",
           "package": "ampersand",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ConceptDef",
           "package": "ampersand",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ConceptStructure",
           "package": "ampersand",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ConceptStructure",
           "package": "ampersand",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "CtxError",
           "package": "ampersand",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "CtxError",
           "package": "ampersand",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Declaration",
           "package": "ampersand",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Declaration",
           "package": "ampersand",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "DnfClause",
           "package": "ampersand",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "DnfClause",
           "package": "ampersand",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "DocTheme",
           "package": "ampersand",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "DocTheme",
           "package": "ampersand",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Dotable",
           "package": "ampersand",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Dotable",
           "package": "ampersand",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "DrawingType",
           "package": "ampersand",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "DrawingType",
           "package": "ampersand",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ECArule",
           "package": "ampersand",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ECArule",
           "package": "ampersand",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplObj",
           "package": "ampersand",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplObj",
           "package": "ampersand",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Expression",
           "package": "ampersand",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Expression",
           "package": "ampersand",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "FPA",
           "package": "ampersand",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "FPA",
           "package": "ampersand",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "FPAble",
           "package": "ampersand",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "FPAble",
           "package": "ampersand",
@@ -503,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "FPcompl",
           "package": "ampersand",
@@ -511,6 +558,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "FPcompl",
           "package": "ampersand",
@@ -524,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "FProcess",
           "package": "ampersand",
@@ -532,6 +581,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "FProcess",
           "package": "ampersand",
@@ -545,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "FileFormat",
           "package": "ampersand",
@@ -553,6 +604,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "FileFormat",
           "package": "ampersand",
@@ -566,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "FilePos",
           "package": "ampersand",
@@ -574,6 +627,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "FilePos",
           "package": "ampersand",
@@ -587,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Fspc",
           "package": "ampersand",
@@ -595,6 +650,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Fspc",
           "package": "ampersand",
@@ -609,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of ECA rules, which is used for automated functionality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Fswitchboard",
           "package": "ampersand",
@@ -618,6 +675,7 @@
         "index": {
           "description": "list of ECA rules which is used for automated functionality",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Fswitchboard",
           "package": "ampersand",
@@ -631,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Guarded",
           "package": "ampersand",
@@ -639,6 +698,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Guarded",
           "package": "ampersand",
@@ -652,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Identified",
           "package": "ampersand",
@@ -660,6 +721,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Identified",
           "package": "ampersand",
@@ -673,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "IdentityDef",
           "package": "ampersand",
@@ -681,6 +744,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "IdentityDef",
           "package": "ampersand",
@@ -694,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "IdentitySegment",
           "package": "ampersand",
@@ -702,6 +767,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "IdentitySegment",
           "package": "ampersand",
@@ -715,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Interface",
           "package": "ampersand",
@@ -723,6 +790,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Interface",
           "package": "ampersand",
@@ -736,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Lang",
           "package": "ampersand",
@@ -744,6 +813,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Lang",
           "package": "ampersand",
@@ -757,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Language",
           "package": "ampersand",
@@ -765,6 +836,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Language",
           "package": "ampersand",
@@ -778,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Meaning",
           "package": "ampersand",
@@ -786,6 +859,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Meaning",
           "package": "ampersand",
@@ -799,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Motivated",
           "package": "ampersand",
@@ -807,6 +882,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Motivated",
           "package": "ampersand",
@@ -820,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Object",
           "package": "ampersand",
@@ -828,6 +905,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Object",
           "package": "ampersand",
@@ -841,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ObjectDef",
           "package": "ampersand",
@@ -849,6 +928,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ObjectDef",
           "package": "ampersand",
@@ -863,6 +943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data constructor is able to hold all kind of information that is useful to \n   express what the user would like Ampersand to do. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Options",
           "package": "ampersand",
@@ -872,6 +953,7 @@
         "index": {
           "description": "This data constructor is able to hold all kind of information that is useful to express what the user would like Ampersand to do",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Options",
           "package": "ampersand",
@@ -885,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Origin",
           "package": "ampersand",
@@ -893,6 +976,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Origin",
           "package": "ampersand",
@@ -906,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PMeaning",
           "package": "ampersand",
@@ -914,6 +999,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PMeaning",
           "package": "ampersand",
@@ -927,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PPurpose",
           "package": "ampersand",
@@ -935,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PPurpose",
           "package": "ampersand",
@@ -948,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Obj",
           "package": "ampersand",
@@ -956,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Obj",
           "package": "ampersand",
@@ -969,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Concept",
           "package": "ampersand",
@@ -977,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Concept",
           "package": "ampersand",
@@ -990,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Context",
           "package": "ampersand",
@@ -998,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Context",
           "package": "ampersand",
@@ -1011,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Declaration",
           "package": "ampersand",
@@ -1019,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Declaration",
           "package": "ampersand",
@@ -1032,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Gen",
           "package": "ampersand",
@@ -1040,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Gen",
           "package": "ampersand",
@@ -1053,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Markup",
           "package": "ampersand",
@@ -1061,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Markup",
           "package": "ampersand",
@@ -1074,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Pattern",
           "package": "ampersand",
@@ -1082,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Pattern",
           "package": "ampersand",
@@ -1095,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Population",
           "package": "ampersand",
@@ -1103,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Population",
           "package": "ampersand",
@@ -1116,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Rule",
           "package": "ampersand",
@@ -1124,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Rule",
           "package": "ampersand",
@@ -1137,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Sign",
           "package": "ampersand",
@@ -1145,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Sign",
           "package": "ampersand",
@@ -1158,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PairView",
           "package": "ampersand",
@@ -1166,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PairView",
           "package": "ampersand",
@@ -1179,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PairViewSegment",
           "package": "ampersand",
@@ -1187,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PairViewSegment",
           "package": "ampersand",
@@ -1200,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Paire",
           "package": "ampersand",
@@ -1208,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Paire",
           "package": "ampersand",
@@ -1221,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PandocFormat",
           "package": "ampersand",
@@ -1229,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PandocFormat",
           "package": "ampersand",
@@ -1242,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pattern",
           "package": "ampersand",
@@ -1250,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pattern",
           "package": "ampersand",
@@ -1263,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PictType",
           "package": "ampersand",
@@ -1271,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PictType",
           "package": "ampersand",
@@ -1284,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Picture",
           "package": "ampersand",
@@ -1292,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Picture",
           "package": "ampersand",
@@ -1305,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PlugInfo",
           "package": "ampersand",
@@ -1313,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PlugInfo",
           "package": "ampersand",
@@ -1326,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PlugSQL",
           "package": "ampersand",
@@ -1334,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PlugSQL",
           "package": "ampersand",
@@ -1347,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Plugable",
           "package": "ampersand",
@@ -1355,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Plugable",
           "package": "ampersand",
@@ -1368,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Populated",
           "package": "ampersand",
@@ -1376,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Populated",
           "package": "ampersand",
@@ -1389,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Population",
           "package": "ampersand",
@@ -1397,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Population",
           "package": "ampersand",
@@ -1410,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pos",
           "package": "ampersand",
@@ -1418,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pos",
           "package": "ampersand",
@@ -1431,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Process",
           "package": "ampersand",
@@ -1439,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Process",
           "package": "ampersand",
@@ -1452,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ProcessStructure",
           "package": "ampersand",
@@ -1460,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ProcessStructure",
           "package": "ampersand",
@@ -1473,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Prop",
           "package": "ampersand",
@@ -1481,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Prop",
           "package": "ampersand",
@@ -1495,6 +1635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplanation is the intended constructor. It explains the purpose of the object it references.\n   The enrichment process of the parser must map the names (from PPurpose) to the actual objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Purpose",
           "package": "ampersand",
@@ -1504,6 +1645,7 @@
         "index": {
           "description": "Explanation is the intended constructor It explains the purpose of the object it references The enrichment process of the parser must map the names from PPurpose to the actual objects",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Purpose",
           "package": "ampersand",
@@ -1517,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Quad",
           "package": "ampersand",
@@ -1525,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Quad",
           "package": "ampersand",
@@ -1538,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "RelConceptDef",
           "package": "ampersand",
@@ -1546,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "RelConceptDef",
           "package": "ampersand",
@@ -1559,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Relational",
           "package": "ampersand",
@@ -1567,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Relational",
           "package": "ampersand",
@@ -1580,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Rule",
           "package": "ampersand",
@@ -1588,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Rule",
           "package": "ampersand",
@@ -1601,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "RuleClause",
           "package": "ampersand",
@@ -1609,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "RuleClause",
           "package": "ampersand",
@@ -1622,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "RuleOrigin",
           "package": "ampersand",
@@ -1630,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "RuleOrigin",
           "package": "ampersand",
@@ -1643,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ShowADL",
           "package": "ampersand",
@@ -1651,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ShowADL",
           "package": "ampersand",
@@ -1664,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ShowHS",
           "package": "ampersand",
@@ -1672,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ShowHS",
           "package": "ampersand",
@@ -1685,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ShowHSName",
           "package": "ampersand",
@@ -1693,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ShowHSName",
           "package": "ampersand",
@@ -1706,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Sign",
           "package": "ampersand",
@@ -1714,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Sign",
           "package": "ampersand",
@@ -1727,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SqlField",
           "package": "ampersand",
@@ -1735,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SqlField",
           "package": "ampersand",
@@ -1748,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SqlFieldUsage",
           "package": "ampersand",
@@ -1756,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SqlFieldUsage",
           "package": "ampersand",
@@ -1769,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SqlType",
           "package": "ampersand",
@@ -1777,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SqlType",
           "package": "ampersand",
@@ -1790,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SrcOrTgt",
           "package": "ampersand",
@@ -1798,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SrcOrTgt",
           "package": "ampersand",
@@ -1811,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SubInterface",
           "package": "ampersand",
@@ -1819,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SubInterface",
           "package": "ampersand",
@@ -1832,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Term",
           "package": "ampersand",
@@ -1840,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Term",
           "package": "ampersand",
@@ -1853,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "TermPrim",
           "package": "ampersand",
@@ -1861,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "TermPrim",
           "package": "ampersand",
@@ -1874,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Traced",
           "package": "ampersand",
@@ -1882,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Traced",
           "package": "ampersand",
@@ -1895,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ViewDef",
           "package": "ampersand",
@@ -1903,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ViewDef",
           "package": "ampersand",
@@ -1916,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ViewSegment",
           "package": "ampersand",
@@ -1924,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ViewSegment",
           "package": "ampersand",
@@ -1938,6 +2120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs comparable to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "(\u003c==\u003e)",
           "package": "ampersand",
@@ -1948,6 +2131,7 @@
         "index": {
           "description": "Is comparable to",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "(\u003c==\u003e) \u003c==\u003e",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1962,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "(\u003e-)",
           "package": "ampersand",
@@ -1971,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "(\u003e-) \u003e-",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1985,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.|-.)",
           "package": "ampersand",
@@ -1994,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.|-.) .|-.",
           "normalized": "Expression-\u003eExpression-\u003eExpression",
@@ -2008,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.!.)",
           "package": "ampersand",
@@ -2017,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.!.) .!.",
           "normalized": "Expression-\u003eExpression-\u003eExpression",
@@ -2031,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.*.)",
           "package": "ampersand",
@@ -2040,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.*.) .*.",
           "normalized": "Expression-\u003eExpression-\u003eExpression",
@@ -2054,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.-.)",
           "package": "ampersand",
@@ -2063,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.-.) .-.",
           "normalized": "Expression-\u003eExpression-\u003eExpression",
@@ -2077,6 +2271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "(./\\.)",
           "package": "ampersand",
@@ -2086,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "(./\\.) ./\\.",
           "normalized": "Expression-\u003eExpression-\u003eExpression",
@@ -2100,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "(./.)",
           "package": "ampersand",
@@ -2109,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "(./.) ./.",
           "normalized": "Expression-\u003eExpression-\u003eExpression",
@@ -2123,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.==.)",
           "package": "ampersand",
@@ -2132,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.==.) .==.",
           "normalized": "Expression-\u003eExpression-\u003eExpression",
@@ -2146,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.\\/.)",
           "package": "ampersand",
@@ -2155,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.\\/.) .\\/.",
           "normalized": "Expression-\u003eExpression-\u003eExpression",
@@ -2169,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.\\.)",
           "package": "ampersand",
@@ -2178,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.\\.) .\\.",
           "normalized": "Expression-\u003eExpression-\u003eExpression",
@@ -2192,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.:.)",
           "package": "ampersand",
@@ -2201,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "(.:.) .:.",
           "normalized": "Expression-\u003eExpression-\u003eExpression",
@@ -2215,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "AMeaning",
           "package": "ampersand",
@@ -2224,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "AMeaning",
           "package": "ampersand",
@@ -2237,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "A_Markup",
           "package": "ampersand",
@@ -2246,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "A_Markup",
           "package": "ampersand",
@@ -2259,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "A_Pat",
           "package": "ampersand",
@@ -2268,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "A_Pat",
           "package": "ampersand",
@@ -2281,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Act",
           "package": "ampersand",
@@ -2290,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Act",
           "package": "ampersand",
@@ -2303,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Adl1Format",
           "package": "ampersand",
@@ -2312,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Adl1Format",
           "package": "ampersand",
@@ -2325,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Adl1PopFormat",
           "package": "ampersand",
@@ -2334,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Adl1PopFormat",
           "package": "ampersand",
@@ -2348,6 +2566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eantisymmetric\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Asy",
           "package": "ampersand",
@@ -2358,6 +2577,7 @@
         "index": {
           "description": "antisymmetric",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Asy",
           "package": "ampersand",
@@ -2372,6 +2592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estores one relation r in two ordered columns\n   i.e. a tuple of SqlField -\u003e (source r,target r) with (fldexpr=I/r;r~, fldexpr=r) \n   (note: if r TOT then (I/r;r~ = I). Thus, the concept (source r) is stored in this plug too)\n   with tblcontents = [[x,y] |(x,y)\u003c-contents r]. \n   Typical for BinSQL is that it has exactly two columns that are not unique and may not contain NULL values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "BinSQL",
           "package": "ampersand",
@@ -2382,6 +2603,7 @@
         "index": {
           "description": "stores one relation in two ordered columns i.e tuple of SqlField source target with fldexpr fldexpr note if TOT then Thus the concept source is stored in this plug too with tblcontents contents Typical for BinSQL is that it has exactly two columns that are not unique and may not contain NULL values",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "BinSQL",
           "package": "ampersand",
@@ -2395,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Box",
           "package": "ampersand",
@@ -2404,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Box",
           "normalized": "Box A_Concept[ObjectDef]",
@@ -2419,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Cd",
           "package": "ampersand",
@@ -2428,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Cd",
           "package": "ampersand",
@@ -2441,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Checked",
           "package": "ampersand",
@@ -2450,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Checked",
           "package": "ampersand",
@@ -2463,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Clauses",
           "package": "ampersand",
@@ -2472,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Clauses",
           "package": "ampersand",
@@ -2485,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "DBLoc",
           "package": "ampersand",
@@ -2494,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "DBLoc",
           "package": "ampersand",
@@ -2507,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "DefaultTheme",
           "package": "ampersand",
@@ -2516,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "DefaultTheme",
           "package": "ampersand",
@@ -2529,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "DesignerTheme",
           "package": "ampersand",
@@ -2538,6 +2773,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "DesignerTheme",
           "package": "ampersand",
@@ -2551,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Dnf",
           "package": "ampersand",
@@ -2560,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Dnf",
           "normalized": "Dnf[Expression][Expression]",
@@ -2575,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Dutch",
           "package": "ampersand",
@@ -2584,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Dutch",
           "package": "ampersand",
@@ -2598,6 +2838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebracketed expression ( ... )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EBrk",
           "package": "ampersand",
@@ -2608,6 +2849,7 @@
         "index": {
           "description": "bracketed expression",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EBrk",
           "package": "ampersand",
@@ -2621,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ECA",
           "package": "ampersand",
@@ -2630,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ECA",
           "package": "ampersand",
@@ -2644,6 +2888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ECpl",
           "package": "ampersand",
@@ -2654,6 +2899,7 @@
         "index": {
           "description": "Complement",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ECpl",
           "package": "ampersand",
@@ -2668,6 +2914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomposition             ; \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ECps",
           "package": "ampersand",
@@ -2678,6 +2925,7 @@
         "index": {
           "description": "composition",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ECps",
           "normalized": "ECps(Expression,Expression)",
@@ -2694,6 +2942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimple declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EDcD",
           "package": "ampersand",
@@ -2704,6 +2953,7 @@
         "index": {
           "description": "simple declaration",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EDcD",
           "package": "ampersand",
@@ -2718,6 +2968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EDcI",
           "package": "ampersand",
@@ -2728,6 +2979,7 @@
         "index": {
           "description": "Identity relation",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EDcI",
           "package": "ampersand",
@@ -2742,6 +2994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCartesian product relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EDcV",
           "package": "ampersand",
@@ -2752,6 +3005,7 @@
         "index": {
           "description": "Cartesian product relation",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EDcV",
           "package": "ampersand",
@@ -2766,6 +3020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edifference              -\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EDif",
           "package": "ampersand",
@@ -2776,6 +3031,7 @@
         "index": {
           "description": "difference",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EDif",
           "normalized": "EDif(Expression,Expression)",
@@ -2792,6 +3048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEpsilon relation (introduced by the system to ensure we compare concepts by equality only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EEps",
           "package": "ampersand",
@@ -2802,6 +3059,7 @@
         "index": {
           "description": "Epsilon relation introduced by the system to ensure we compare concepts by equality only",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EEps",
           "package": "ampersand",
@@ -2816,6 +3074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eequivalence             =\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EEqu",
           "package": "ampersand",
@@ -2826,6 +3085,7 @@
         "index": {
           "description": "equivalence",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EEqu",
           "normalized": "EEqu(Expression,Expression)",
@@ -2842,6 +3102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion (flip, wok)  ~\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EFlp",
           "package": "ampersand",
@@ -2852,6 +3113,7 @@
         "index": {
           "description": "conversion flip wok",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EFlp",
           "package": "ampersand",
@@ -2866,6 +3128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimplication             |-\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EImp",
           "package": "ampersand",
@@ -2876,6 +3139,7 @@
         "index": {
           "description": "implication",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EImp",
           "normalized": "EImp(Expression,Expression)",
@@ -2892,6 +3156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eintersection            /\\\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EIsc",
           "package": "ampersand",
@@ -2902,6 +3167,7 @@
         "index": {
           "description": "intersection",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EIsc",
           "normalized": "EIsc(Expression,Expression)",
@@ -2918,6 +3184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRfx.Trn closure         *  (Kleene star)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EKl0",
           "package": "ampersand",
@@ -2928,6 +3195,7 @@
         "index": {
           "description": "Rfx.Trn closure Kleene star",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EKl0",
           "package": "ampersand",
@@ -2942,6 +3210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransitive closure      +  (Kleene plus)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EKl1",
           "package": "ampersand",
@@ -2952,6 +3221,7 @@
         "index": {
           "description": "Transitive closure Kleene plus",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EKl1",
           "package": "ampersand",
@@ -2966,6 +3236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleft residual           /\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ELrs",
           "package": "ampersand",
@@ -2976,6 +3247,7 @@
         "index": {
           "description": "left residual",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ELrs",
           "normalized": "ELrs(Expression,Expression)",
@@ -2992,6 +3264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant (string between single quotes)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EMp1",
           "package": "ampersand",
@@ -3002,6 +3275,7 @@
         "index": {
           "description": "constant string between single quotes",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EMp1",
           "package": "ampersand",
@@ -3016,6 +3290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecartesian product       * \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EPrd",
           "package": "ampersand",
@@ -3026,6 +3301,7 @@
         "index": {
           "description": "cartesian product",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EPrd",
           "normalized": "EPrd(Expression,Expression)",
@@ -3042,6 +3318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelative addition       ! \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ERad",
           "package": "ampersand",
@@ -3052,6 +3329,7 @@
         "index": {
           "description": "relative addition",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ERad",
           "normalized": "ERad(Expression,Expression)",
@@ -3068,6 +3346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eright residual          \\\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ERrs",
           "package": "ampersand",
@@ -3078,6 +3357,7 @@
         "index": {
           "description": "right residual",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ERrs",
           "normalized": "ERrs(Expression,Expression)",
@@ -3094,6 +3374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunion                   /\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "EUni",
           "package": "ampersand",
@@ -3104,6 +3385,7 @@
         "index": {
           "description": "union",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "EUni",
           "normalized": "EUni(Expression,Expression)",
@@ -3119,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Eenvoudig",
           "package": "ampersand",
@@ -3128,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Eenvoudig",
           "package": "ampersand",
@@ -3141,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "English",
           "package": "ampersand",
@@ -3150,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "English",
           "package": "ampersand",
@@ -3163,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Errors",
           "package": "ampersand",
@@ -3172,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Errors",
           "normalized": "Errors[CtxError]",
@@ -3187,6 +3475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Expl",
           "package": "ampersand",
@@ -3196,6 +3485,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Expl",
           "package": "ampersand",
@@ -3209,6 +3499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplConceptDef",
           "package": "ampersand",
@@ -3218,6 +3509,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplConceptDef",
           "package": "ampersand",
@@ -3231,6 +3523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplContext",
           "package": "ampersand",
@@ -3240,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplContext",
           "package": "ampersand",
@@ -3253,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplDeclaration",
           "package": "ampersand",
@@ -3262,6 +3557,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplDeclaration",
           "package": "ampersand",
@@ -3275,6 +3571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplIdentityDef",
           "package": "ampersand",
@@ -3284,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplIdentityDef",
           "package": "ampersand",
@@ -3297,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplInterface",
           "package": "ampersand",
@@ -3306,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplInterface",
           "package": "ampersand",
@@ -3319,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplPattern",
           "package": "ampersand",
@@ -3328,6 +3629,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplPattern",
           "package": "ampersand",
@@ -3341,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplProcess",
           "package": "ampersand",
@@ -3350,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplProcess",
           "package": "ampersand",
@@ -3363,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplRule",
           "package": "ampersand",
@@ -3372,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplRule",
           "package": "ampersand",
@@ -3385,6 +3691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplViewDef",
           "package": "ampersand",
@@ -3394,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExplViewDef",
           "package": "ampersand",
@@ -3407,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExternalPlug",
           "package": "ampersand",
@@ -3416,6 +3725,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ExternalPlug",
           "package": "ampersand",
@@ -3429,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "FPA",
           "package": "ampersand",
@@ -3438,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "FPA",
           "package": "ampersand",
@@ -3451,6 +3763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "FProc",
           "package": "ampersand",
@@ -3460,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "FProc",
           "package": "ampersand",
@@ -3473,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "FileLoc",
           "package": "ampersand",
@@ -3482,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "FileLoc",
           "package": "ampersand",
@@ -3495,6 +3811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "FilePos",
           "package": "ampersand",
@@ -3504,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "FilePos",
           "normalized": "FilePos(String,Pos,String)",
@@ -3519,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "FillInLater",
           "package": "ampersand",
@@ -3528,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "FillInLater",
           "package": "ampersand",
@@ -3541,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Fld",
           "package": "ampersand",
@@ -3550,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Fld",
           "package": "ampersand",
@@ -3563,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ForeignKey",
           "package": "ampersand",
@@ -3572,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ForeignKey",
           "package": "ampersand",
@@ -3585,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Fspc",
           "package": "ampersand",
@@ -3594,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Fspc",
           "package": "ampersand",
@@ -3607,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Fswtch",
           "package": "ampersand",
@@ -3616,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Fswtch",
           "package": "ampersand",
@@ -3629,6 +3957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Gemiddeld",
           "package": "ampersand",
@@ -3638,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Gemiddeld",
           "package": "ampersand",
@@ -3651,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Gen_CG",
           "package": "ampersand",
@@ -3660,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Gen_CG",
           "package": "ampersand",
@@ -3673,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "HTML",
           "package": "ampersand",
@@ -3682,6 +4015,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "HTML",
           "package": "ampersand",
@@ -3695,6 +4029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Id",
           "package": "ampersand",
@@ -3704,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Id",
           "package": "ampersand",
@@ -3717,6 +4053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Identity",
           "package": "ampersand",
@@ -3726,6 +4063,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Identity",
           "package": "ampersand",
@@ -3739,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "IdentityExp",
           "package": "ampersand",
@@ -3748,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "IdentityExp",
           "package": "ampersand",
@@ -3761,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Ifc",
           "package": "ampersand",
@@ -3770,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Ifc",
           "package": "ampersand",
@@ -3784,6 +4126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einjective\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Inj",
           "package": "ampersand",
@@ -3794,6 +4137,7 @@
         "index": {
           "description": "injective",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Inj",
           "package": "ampersand",
@@ -3807,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "InterfaceRef",
           "package": "ampersand",
@@ -3816,6 +4161,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "InterfaceRef",
           "package": "ampersand",
@@ -3829,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "InternalPlug",
           "package": "ampersand",
@@ -3838,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "InternalPlug",
           "package": "ampersand",
@@ -3852,6 +4200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eirreflexive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Irf",
           "package": "ampersand",
@@ -3862,6 +4211,7 @@
         "index": {
           "description": "irreflexive",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Irf",
           "package": "ampersand",
@@ -3875,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "IsE",
           "package": "ampersand",
@@ -3884,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "IsE",
           "package": "ampersand",
@@ -3897,6 +4249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Isa",
           "package": "ampersand",
@@ -3906,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Isa",
           "package": "ampersand",
@@ -3919,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Isn",
           "package": "ampersand",
@@ -3928,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Isn",
           "package": "ampersand",
@@ -3941,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "LaTeX",
           "package": "ampersand",
@@ -3950,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "LaTeX",
           "package": "ampersand",
@@ -3963,6 +4321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "LoopSearchQuad",
           "package": "ampersand",
@@ -3972,6 +4331,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "LoopSearchQuad",
           "package": "ampersand",
@@ -3985,6 +4345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Markdown",
           "package": "ampersand",
@@ -3994,6 +4355,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Markdown",
           "package": "ampersand",
@@ -4007,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Moeilijk",
           "package": "ampersand",
@@ -4016,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Moeilijk",
           "package": "ampersand",
@@ -4029,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Multiplicity",
           "package": "ampersand",
@@ -4038,6 +4403,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Multiplicity",
           "package": "ampersand",
@@ -4051,6 +4417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "NonMainKey",
           "package": "ampersand",
@@ -4060,6 +4427,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "NonMainKey",
           "package": "ampersand",
@@ -4074,6 +4442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe universal Singleton: \u003ccode\u003eI\u003c/code\u003e[\u003ccode\u003eAnything\u003c/code\u003e] = \u003ccode\u003eV\u003c/code\u003e['Anything'*'Anything']\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ONE",
           "package": "ampersand",
@@ -4084,6 +4453,7 @@
         "index": {
           "description": "The universal Singleton Anything Anything Anything",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ONE",
           "package": "ampersand",
@@ -4097,6 +4467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Obj",
           "package": "ampersand",
@@ -4106,6 +4477,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Obj",
           "package": "ampersand",
@@ -4119,6 +4491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Options",
           "package": "ampersand",
@@ -4128,6 +4501,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Options",
           "package": "ampersand",
@@ -4141,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Origin",
           "package": "ampersand",
@@ -4150,6 +4525,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Origin",
           "package": "ampersand",
@@ -4163,6 +4539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "OriginUnknown",
           "package": "ampersand",
@@ -4172,6 +4549,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "OriginUnknown",
           "package": "ampersand",
@@ -4186,6 +4564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebracketed expression ( ... )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PBrk",
           "package": "ampersand",
@@ -4196,6 +4575,7 @@
         "index": {
           "description": "bracketed expression",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PBrk",
           "package": "ampersand",
@@ -4210,6 +4590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PCpl",
           "package": "ampersand",
@@ -4220,6 +4601,7 @@
         "index": {
           "description": "Complement",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PCpl",
           "package": "ampersand",
@@ -4234,6 +4616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomposition             ;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PCps",
           "package": "ampersand",
@@ -4244,6 +4627,7 @@
         "index": {
           "description": "composition",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PCps",
           "package": "ampersand",
@@ -4258,6 +4642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of this Concept\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PCpt",
           "package": "ampersand",
@@ -4268,6 +4653,7 @@
         "index": {
           "description": "The name of this Concept",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PCpt",
           "package": "ampersand",
@@ -4281,6 +4667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PCptPopu",
           "package": "ampersand",
@@ -4290,6 +4677,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PCptPopu",
           "package": "ampersand",
@@ -4303,6 +4691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PCtx",
           "package": "ampersand",
@@ -4312,6 +4701,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PCtx",
           "package": "ampersand",
@@ -4326,6 +4716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edifference              -\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PDif",
           "package": "ampersand",
@@ -4336,6 +4727,7 @@
         "index": {
           "description": "difference",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PDif",
           "package": "ampersand",
@@ -4350,6 +4742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion (flip, wok)  ~\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PFlp",
           "package": "ampersand",
@@ -4360,6 +4753,7 @@
         "index": {
           "description": "conversion flip wok",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PFlp",
           "package": "ampersand",
@@ -4373,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PGen",
           "package": "ampersand",
@@ -4382,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PGen",
           "package": "ampersand",
@@ -4396,6 +4792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eidentity element without a type\n   At parse time, there may be zero or one element in the list of concepts.\n   Reason: when making eqClasses, the least element of that class is used as a witness of that class\n   to know whether an eqClass represents a concept, we only look at its witness\n   By making Pid the first in the data decleration, it becomes the least element for \u003ca\u003ederiving Ord\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PI",
           "package": "ampersand",
@@ -4406,6 +4803,7 @@
         "index": {
           "description": "identity element without type At parse time there may be zero or one element in the list of concepts Reason when making eqClasses the least element of that class is used as witness of that class to know whether an eqClass represents concept we only look at its witness By making Pid the first in the data decleration it becomes the least element for deriving Ord",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PI",
           "package": "ampersand",
@@ -4420,6 +4818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eintersection            /\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PIsc",
           "package": "ampersand",
@@ -4430,6 +4829,7 @@
         "index": {
           "description": "intersection",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PIsc",
           "package": "ampersand",
@@ -4444,6 +4844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRfx.Trn closure         *  (Kleene star)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PKl0",
           "package": "ampersand",
@@ -4454,6 +4855,7 @@
         "index": {
           "description": "Rfx.Trn closure Kleene star",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PKl0",
           "package": "ampersand",
@@ -4468,6 +4870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransitive closure      +  (Kleene plus)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PKl1",
           "package": "ampersand",
@@ -4478,6 +4881,7 @@
         "index": {
           "description": "Transitive closure Kleene plus",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PKl1",
           "package": "ampersand",
@@ -4492,6 +4896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleft residual           /\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PLrs",
           "package": "ampersand",
@@ -4502,6 +4907,7 @@
         "index": {
           "description": "left residual",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PLrs",
           "package": "ampersand",
@@ -4515,6 +4921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PMeaning",
           "package": "ampersand",
@@ -4524,6 +4931,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PMeaning",
           "package": "ampersand",
@@ -4538,6 +4946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecartesian product       *\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PPrd",
           "package": "ampersand",
@@ -4548,6 +4957,7 @@
         "index": {
           "description": "cartesian product",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PPrd",
           "package": "ampersand",
@@ -4562,6 +4972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelative addition       !\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRad",
           "package": "ampersand",
@@ -4572,6 +4983,7 @@
         "index": {
           "description": "relative addition",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRad",
           "package": "ampersand",
@@ -4585,6 +4997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2",
           "package": "ampersand",
@@ -4594,6 +5007,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2",
           "package": "ampersand",
@@ -4607,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2ConceptDef",
           "package": "ampersand",
@@ -4616,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2ConceptDef",
           "package": "ampersand",
@@ -4629,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Context",
           "package": "ampersand",
@@ -4638,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Context",
           "package": "ampersand",
@@ -4651,6 +5069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Declaration",
           "package": "ampersand",
@@ -4660,6 +5079,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Declaration",
           "package": "ampersand",
@@ -4673,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Fspc",
           "package": "ampersand",
@@ -4682,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Fspc",
           "package": "ampersand",
@@ -4695,6 +5117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2IdentityDef",
           "package": "ampersand",
@@ -4704,6 +5127,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2IdentityDef",
           "package": "ampersand",
@@ -4717,6 +5141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Interface",
           "package": "ampersand",
@@ -4726,6 +5151,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Interface",
           "package": "ampersand",
@@ -4739,6 +5165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Pattern",
           "package": "ampersand",
@@ -4748,6 +5175,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Pattern",
           "package": "ampersand",
@@ -4761,6 +5189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Process",
           "package": "ampersand",
@@ -4770,6 +5199,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Process",
           "package": "ampersand",
@@ -4783,6 +5213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Rule",
           "package": "ampersand",
@@ -4792,6 +5223,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2Rule",
           "package": "ampersand",
@@ -4805,6 +5237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2ViewDef",
           "package": "ampersand",
@@ -4814,6 +5247,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRef2ViewDef",
           "package": "ampersand",
@@ -4827,6 +5261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRelPopu",
           "package": "ampersand",
@@ -4836,6 +5271,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRelPopu",
           "package": "ampersand",
@@ -4850,6 +5286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eright residual          \r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRrs",
           "package": "ampersand",
@@ -4860,6 +5297,7 @@
         "index": {
           "description": "right residual",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PRrs",
           "package": "ampersand",
@@ -4873,6 +5311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTClassDiagram",
           "package": "ampersand",
@@ -4882,6 +5321,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTClassDiagram",
           "package": "ampersand",
@@ -4895,6 +5335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTConcept",
           "package": "ampersand",
@@ -4904,6 +5345,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTConcept",
           "package": "ampersand",
@@ -4917,6 +5359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTFinterface",
           "package": "ampersand",
@@ -4926,6 +5369,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTFinterface",
           "package": "ampersand",
@@ -4939,6 +5383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTFullPat",
           "package": "ampersand",
@@ -4948,6 +5393,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTFullPat",
           "package": "ampersand",
@@ -4961,6 +5407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTPattern",
           "package": "ampersand",
@@ -4970,6 +5417,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTPattern",
           "package": "ampersand",
@@ -4983,6 +5431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTProcLang",
           "package": "ampersand",
@@ -4992,6 +5441,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTProcLang",
           "package": "ampersand",
@@ -5005,6 +5455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTProcess",
           "package": "ampersand",
@@ -5014,6 +5465,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTProcess",
           "package": "ampersand",
@@ -5027,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTRule",
           "package": "ampersand",
@@ -5036,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTRule",
           "package": "ampersand",
@@ -5049,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTSwitchBoard",
           "package": "ampersand",
@@ -5058,6 +5513,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTSwitchBoard",
           "package": "ampersand",
@@ -5072,6 +5528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype cast expression \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTrel",
           "package": "ampersand",
@@ -5082,6 +5539,7 @@
         "index": {
           "description": "type cast expression",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PTrel",
           "package": "ampersand",
@@ -5096,6 +5554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunion                   /\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PUni",
           "package": "ampersand",
@@ -5106,6 +5565,7 @@
         "index": {
           "description": "union",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PUni",
           "package": "ampersand",
@@ -5120,6 +5580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe complete relation, of which the type is yet to be derived by the type checker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PVee",
           "package": "ampersand",
@@ -5130,6 +5591,7 @@
         "index": {
           "description": "the complete relation of which the type is yet to be derived by the type checker",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PVee",
           "package": "ampersand",
@@ -5143,6 +5605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_CptPopu",
           "package": "ampersand",
@@ -5152,6 +5615,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_CptPopu",
           "package": "ampersand",
@@ -5165,6 +5629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Cy",
           "package": "ampersand",
@@ -5174,6 +5639,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Cy",
           "package": "ampersand",
@@ -5187,6 +5653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Markup",
           "package": "ampersand",
@@ -5196,6 +5663,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Markup",
           "package": "ampersand",
@@ -5209,6 +5677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Pat",
           "package": "ampersand",
@@ -5218,6 +5687,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Pat",
           "package": "ampersand",
@@ -5231,6 +5701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_RelPopu",
           "package": "ampersand",
@@ -5240,6 +5711,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_RelPopu",
           "package": "ampersand",
@@ -5253,6 +5725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Ru",
           "package": "ampersand",
@@ -5262,6 +5735,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Ru",
           "package": "ampersand",
@@ -5275,6 +5749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Sgn",
           "package": "ampersand",
@@ -5284,6 +5759,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Sgn",
           "package": "ampersand",
@@ -5297,6 +5773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Sign",
           "package": "ampersand",
@@ -5306,6 +5783,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Sign",
           "package": "ampersand",
@@ -5319,6 +5797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Singleton",
           "package": "ampersand",
@@ -5328,6 +5807,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_Singleton",
           "package": "ampersand",
@@ -5341,6 +5821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_TRelPop",
           "package": "ampersand",
@@ -5350,6 +5831,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "P_TRelPop",
           "package": "ampersand",
@@ -5363,6 +5845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PairView",
           "package": "ampersand",
@@ -5372,6 +5855,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PairView",
           "package": "ampersand",
@@ -5385,6 +5869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PairViewExp",
           "package": "ampersand",
@@ -5394,6 +5879,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PairViewExp",
           "package": "ampersand",
@@ -5407,6 +5893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PairViewText",
           "package": "ampersand",
@@ -5416,6 +5903,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PairViewText",
           "package": "ampersand",
@@ -5430,6 +5918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean atom, possibly with a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Patm",
           "package": "ampersand",
@@ -5440,6 +5929,7 @@
         "index": {
           "description": "an atom possibly with type",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Patm",
           "package": "ampersand",
@@ -5454,6 +5944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eequivalence             =\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pequ",
           "package": "ampersand",
@@ -5464,6 +5955,7 @@
         "index": {
           "description": "equivalence",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pequ",
           "package": "ampersand",
@@ -5478,6 +5970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe complete relation, restricted to a type.\n   At parse time, there may be zero, one or two elements in the list of concepts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pfull",
           "package": "ampersand",
@@ -5488,6 +5981,7 @@
         "index": {
           "description": "the complete relation restricted to type At parse time there may be zero one or two elements in the list of concepts",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pfull",
           "package": "ampersand",
@@ -5502,6 +5996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eidentity element restricted to a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pid",
           "package": "ampersand",
@@ -5512,6 +6007,7 @@
         "index": {
           "description": "identity element restricted to type",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pid",
           "package": "ampersand",
@@ -5526,6 +6022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimplication             |-\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pimp",
           "package": "ampersand",
@@ -5536,6 +6033,7 @@
         "index": {
           "description": "implication",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pimp",
           "package": "ampersand",
@@ -5549,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PlainAttr",
           "package": "ampersand",
@@ -5558,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PlainAttr",
           "package": "ampersand",
@@ -5572,6 +6072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlainConcept nm tp cs represents the set of instances cs by name nm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PlainConcept",
           "package": "ampersand",
@@ -5582,6 +6083,7 @@
         "index": {
           "description": "PlainConcept nm tp cs represents the set of instances cs by name nm",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PlainConcept",
           "package": "ampersand",
@@ -5595,6 +6097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Plain_CG",
           "package": "ampersand",
@@ -5604,6 +6107,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Plain_CG",
           "package": "ampersand",
@@ -5617,6 +6121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pos",
           "package": "ampersand",
@@ -5626,6 +6131,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Pos",
           "package": "ampersand",
@@ -5640,6 +6146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewe expect expressions in flip-normal form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Prel",
           "package": "ampersand",
@@ -5650,6 +6157,7 @@
         "index": {
           "description": "we expect expressions in flip-normal form",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Prel",
           "package": "ampersand",
@@ -5663,6 +6171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Prim",
           "package": "ampersand",
@@ -5672,6 +6181,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Prim",
           "package": "ampersand",
@@ -5685,6 +6195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "PrimKey",
           "package": "ampersand",
@@ -5694,6 +6205,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "PrimKey",
           "package": "ampersand",
@@ -5707,6 +6219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Proc",
           "package": "ampersand",
@@ -5716,6 +6229,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Proc",
           "package": "ampersand",
@@ -5729,6 +6243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ProofTheme",
           "package": "ampersand",
@@ -5738,6 +6253,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ProofTheme",
           "package": "ampersand",
@@ -5751,6 +6267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Quad",
           "package": "ampersand",
@@ -5760,6 +6277,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Quad",
           "package": "ampersand",
@@ -5773,6 +6291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "RC",
           "package": "ampersand",
@@ -5782,6 +6301,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "RC",
           "package": "ampersand",
@@ -5795,6 +6315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ReST",
           "package": "ampersand",
@@ -5804,6 +6325,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ReST",
           "package": "ampersand",
@@ -5817,6 +6339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "RelConceptDef",
           "package": "ampersand",
@@ -5826,6 +6349,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "RelConceptDef",
           "package": "ampersand",
@@ -5839,6 +6363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Rel_CG",
           "package": "ampersand",
@@ -5848,6 +6373,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Rel_CG",
           "package": "ampersand",
@@ -5862,6 +6388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereflexive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Rfx",
           "package": "ampersand",
@@ -5872,6 +6399,7 @@
         "index": {
           "description": "reflexive",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Rfx",
           "package": "ampersand",
@@ -5885,6 +6413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Ru",
           "package": "ampersand",
@@ -5894,6 +6423,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Ru",
           "package": "ampersand",
@@ -5907,6 +6437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLBlob",
           "package": "ampersand",
@@ -5916,6 +6447,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLBlob",
           "package": "ampersand",
@@ -5929,6 +6461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLBool",
           "package": "ampersand",
@@ -5938,6 +6471,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLBool",
           "package": "ampersand",
@@ -5951,6 +6485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLChar",
           "package": "ampersand",
@@ -5960,6 +6495,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLChar",
           "package": "ampersand",
@@ -5973,6 +6509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLDouble",
           "package": "ampersand",
@@ -5982,6 +6519,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLDouble",
           "package": "ampersand",
@@ -5995,6 +6533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLId",
           "package": "ampersand",
@@ -6004,6 +6543,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLId",
           "package": "ampersand",
@@ -6017,6 +6557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLPass",
           "package": "ampersand",
@@ -6026,6 +6567,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLPass",
           "package": "ampersand",
@@ -6039,6 +6581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLSingle",
           "package": "ampersand",
@@ -6048,6 +6591,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLSingle",
           "package": "ampersand",
@@ -6061,6 +6605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLText",
           "package": "ampersand",
@@ -6070,6 +6615,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLText",
           "package": "ampersand",
@@ -6083,6 +6629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLVarchar",
           "package": "ampersand",
@@ -6092,6 +6639,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLVarchar",
           "package": "ampersand",
@@ -6105,6 +6653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLsInt",
           "package": "ampersand",
@@ -6114,6 +6663,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLsInt",
           "package": "ampersand",
@@ -6127,6 +6677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLuInt",
           "package": "ampersand",
@@ -6136,6 +6687,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SQLuInt",
           "package": "ampersand",
@@ -6150,6 +6702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estores one concept c in one column\n  i.e. a SqlField -\u003e c\n  with tblcontents = [[x] |(x,_)\u003c-contents c].\n  Typical for ScalarSQL is that it has exactly one column that is unique and may not contain NULL values i.e. fldexpr=I[c]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ScalarSQL",
           "package": "ampersand",
@@ -6160,6 +6713,7 @@
         "index": {
           "description": "stores one concept in one column i.e SqlField with tblcontents contents Typical for ScalarSQL is that it has exactly one column that is unique and may not contain NULL values i.e fldexpr",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ScalarSQL",
           "package": "ampersand",
@@ -6173,6 +6727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Sgn",
           "package": "ampersand",
@@ -6182,6 +6737,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Sgn",
           "package": "ampersand",
@@ -6195,6 +6751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Sign",
           "package": "ampersand",
@@ -6204,6 +6761,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Sign",
           "package": "ampersand",
@@ -6217,6 +6775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "SomewhereNear",
           "package": "ampersand",
@@ -6226,6 +6785,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "SomewhereNear",
           "package": "ampersand",
@@ -6239,6 +6799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Src",
           "package": "ampersand",
@@ -6248,6 +6809,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Src",
           "package": "ampersand",
@@ -6261,6 +6823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "StudentDesignerTheme",
           "package": "ampersand",
@@ -6270,6 +6833,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "StudentDesignerTheme",
           "package": "ampersand",
@@ -6283,6 +6847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "StudentTheme",
           "package": "ampersand",
@@ -6292,6 +6857,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "StudentTheme",
           "package": "ampersand",
@@ -6306,6 +6872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esurjective\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Sur",
           "package": "ampersand",
@@ -6316,6 +6883,7 @@
         "index": {
           "description": "surjective",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Sur",
           "package": "ampersand",
@@ -6330,6 +6898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymmetric\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Sym",
           "package": "ampersand",
@@ -6340,6 +6909,7 @@
         "index": {
           "description": "symmetric",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Sym",
           "package": "ampersand",
@@ -6354,6 +6924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estores a related collection of relations: a kernel of concepts and attribute relations of this kernel\n   i.e. a list of SqlField given some A -\u003e [target r | r::A*B,isUni r,isTot r, isInj r] \n                                        ++ [target r | r::A*B,isUni r, not(isTot r), not(isSur r)]\n     kernel = A closure of concepts A,B for which there exists a r::A-\u003eB[INJ] \n              (r=fldexpr of kernel field holding instances of B, in practice r is I or a makeRelation(flipped declaration))\n      attribute relations = All concepts B, A in kernel for which there exists a r::A*B[UNI] and r not TOT and SUR\n              (r=fldexpr of attMor field, in practice r is a makeRelation(declaration))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "TblSQL",
           "package": "ampersand",
@@ -6364,6 +6935,7 @@
         "index": {
           "description": "stores related collection of relations kernel of concepts and attribute relations of this kernel i.e list of SqlField given some target isUni isTot isInj target isUni not isTot not isSur kernel closure of concepts for which there exists INJ fldexpr of kernel field holding instances of in practice is or makeRelation flipped declaration attribute relations All concepts in kernel for which there exists UNI and not TOT and SUR fldexpr of attMor field in practice is makeRelation declaration",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "TblSQL",
           "package": "ampersand",
@@ -6377,6 +6949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Tgt",
           "package": "ampersand",
@@ -6386,6 +6959,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Tgt",
           "package": "ampersand",
@@ -6400,6 +6974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etotal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Tot",
           "package": "ampersand",
@@ -6410,6 +6985,7 @@
         "index": {
           "description": "total",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Tot",
           "package": "ampersand",
@@ -6424,6 +7000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransitive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Trn",
           "package": "ampersand",
@@ -6434,6 +7011,7 @@
         "index": {
           "description": "transitive",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Trn",
           "package": "ampersand",
@@ -6448,6 +7026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunivalent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Uni",
           "package": "ampersand",
@@ -6458,6 +7037,7 @@
         "index": {
           "description": "univalent",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Uni",
           "package": "ampersand",
@@ -6471,6 +7051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "UserDefined",
           "package": "ampersand",
@@ -6480,6 +7061,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "UserDefined",
           "package": "ampersand",
@@ -6493,6 +7075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "UserDefinedUsage",
           "package": "ampersand",
@@ -6502,6 +7085,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "UserDefinedUsage",
           "package": "ampersand",
@@ -6515,6 +7099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Vd",
           "package": "ampersand",
@@ -6524,6 +7109,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Vd",
           "package": "ampersand",
@@ -6537,6 +7123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ViewExp",
           "package": "ampersand",
@@ -6546,6 +7133,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ViewExp",
           "package": "ampersand",
@@ -6559,6 +7147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ViewHtml",
           "package": "ampersand",
@@ -6568,6 +7157,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ViewHtml",
           "package": "ampersand",
@@ -6581,6 +7171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ViewText",
           "package": "ampersand",
@@ -6590,6 +7181,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ViewText",
           "package": "ampersand",
@@ -6603,6 +7195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "Vs",
           "package": "ampersand",
@@ -6612,6 +7205,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "Vs",
           "package": "ampersand",
@@ -6625,6 +7219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "aMarkup2String",
           "package": "ampersand",
@@ -6634,6 +7229,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "aMarkup2String",
           "normalized": "A_Markup-\u003eString",
@@ -6649,6 +7245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "actAffect",
           "package": "ampersand",
@@ -6658,6 +7255,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "actAffect",
           "normalized": "[Declaration]",
@@ -6673,6 +7271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "actEcas",
           "package": "ampersand",
@@ -6682,6 +7281,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "actEcas",
           "normalized": "[ECArule]",
@@ -6697,6 +7297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "actPurp",
           "package": "ampersand",
@@ -6706,6 +7307,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "actPurp",
           "normalized": "[Purpose]",
@@ -6721,6 +7323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "actQuads",
           "package": "ampersand",
@@ -6730,6 +7333,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "actQuads",
           "normalized": "[Quad]",
@@ -6745,6 +7349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "actRule",
           "package": "ampersand",
@@ -6754,6 +7359,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "actRule",
           "package": "ampersand",
@@ -6767,6 +7373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "actTrig",
           "package": "ampersand",
@@ -6776,6 +7383,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "actTrig",
           "normalized": "[Declaration]",
@@ -6792,6 +7400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll concepts in the fspec\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "allConcepts",
           "package": "ampersand",
@@ -6802,6 +7411,7 @@
         "index": {
           "description": "All concepts in the fspec",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "allConcepts",
           "normalized": "[A_Concept]",
@@ -6818,6 +7428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll declarations in the fspec\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "allDecls",
           "package": "ampersand",
@@ -6828,6 +7439,7 @@
         "index": {
           "description": "All declarations in the fspec",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "allDecls",
           "normalized": "[Declaration]",
@@ -6843,6 +7455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "allInterfaces",
           "package": "ampersand",
@@ -6852,6 +7465,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "allInterfaces",
           "package": "ampersand",
@@ -6866,6 +7480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll rules, both generated (from multiplicity and keys) as well as user defined ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "allRules",
           "package": "ampersand",
@@ -6876,6 +7491,7 @@
         "index": {
           "description": "All rules both generated from multiplicity and keys as well as user defined ones",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "allRules",
           "normalized": "[Rule]",
@@ -6892,6 +7508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll used declarations in the fspec\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "allUsedDecls",
           "package": "ampersand",
@@ -6902,6 +7519,7 @@
         "index": {
           "description": "All used declarations in the fspec",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "allUsedDecls",
           "normalized": "[Declaration]",
@@ -6917,6 +7535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "allViolations",
           "package": "ampersand",
@@ -6926,6 +7545,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "allViolations",
           "normalized": "[(Rule,[Paire])]",
@@ -6941,6 +7561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "amFormat",
           "package": "ampersand",
@@ -6950,6 +7571,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "amFormat",
           "package": "ampersand",
@@ -6963,6 +7585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "amLang",
           "package": "ampersand",
@@ -6972,6 +7595,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "amLang",
           "package": "ampersand",
@@ -6985,6 +7609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "amPandoc",
           "package": "ampersand",
@@ -6994,6 +7619,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "amPandoc",
           "normalized": "[Block]",
@@ -7009,6 +7635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ameaMrk",
           "package": "ampersand",
@@ -7018,6 +7645,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ameaMrk",
           "normalized": "[A_Markup]",
@@ -7034,6 +7662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString, containing the Ampersand version, including the build timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ampersandVersionStr",
           "package": "ampersand",
@@ -7044,6 +7673,7 @@
         "index": {
           "description": "String containing the Ampersand version including the build timestamp",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ampersandVersionStr",
           "package": "ampersand",
@@ -7058,6 +7688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString, containing the Ampersand version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ampersandVersionWithoutBuildTimeStr",
           "package": "ampersand",
@@ -7068,6 +7699,7 @@
         "index": {
           "description": "String containing the Ampersand version",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ampersandVersionWithoutBuildTimeStr",
           "package": "ampersand",
@@ -7082,6 +7714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function returns the atoms of a concept (like fullContents does for relation-like things.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "atomsOf",
           "package": "ampersand",
@@ -7092,6 +7725,7 @@
         "index": {
           "description": "This function returns the atoms of concept like fullContents does for relation-like things",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "atomsOf",
           "normalized": "[A_Gen]-\u003e[Population]-\u003eA_Concept-\u003e[String]",
@@ -7107,6 +7741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "attributes",
           "package": "ampersand",
@@ -7116,6 +7751,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "attributes",
           "normalized": "a-\u003e[ObjectDef]",
@@ -7130,6 +7766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "autoRefresh",
           "package": "ampersand",
@@ -7139,6 +7776,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "autoRefresh",
           "package": "ampersand",
@@ -7152,6 +7790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "autoid",
           "package": "ampersand",
@@ -7161,6 +7800,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "autoid",
           "package": "ampersand",
@@ -7173,6 +7813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "baseName",
           "package": "ampersand",
@@ -7182,6 +7823,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "baseName",
           "package": "ampersand",
@@ -7195,6 +7837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "blackWhite",
           "package": "ampersand",
@@ -7204,6 +7847,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "blackWhite",
           "package": "ampersand",
@@ -7218,6 +7862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrite [Block] as String in a certain format using defaultWriterOptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "blocks2String",
           "package": "ampersand",
@@ -7228,6 +7873,7 @@
         "index": {
           "description": "write Block as String in certain format using defaultWriterOptions",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "blocks2String",
           "normalized": "PandocFormat-\u003eBool-\u003e[Block]-\u003eString",
@@ -7243,6 +7889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cLkp",
           "package": "ampersand",
@@ -7252,6 +7899,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cLkp",
           "package": "ampersand",
@@ -7266,6 +7914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elookup table that links all kernel concepts to fields in the plug\n cLkpTbl is een lijst concepten die in deze plug opgeslagen zitten, en hoe je ze eruit kunt halen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cLkpTbl",
           "package": "ampersand",
@@ -7276,6 +7925,7 @@
         "index": {
           "description": "lookup table that links all kernel concepts to fields in the plug cLkpTbl is een lijst concepten die in deze plug opgeslagen zitten en hoe je ze eruit kunt halen",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cLkpTbl",
           "normalized": "[(A_Concept,SqlField)]",
@@ -7292,6 +7942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the concept for which this is the definition. If there is no such concept, the conceptdefinition is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cdcpt",
           "package": "ampersand",
@@ -7302,6 +7953,7 @@
         "index": {
           "description": "The name of the concept for which this is the definition If there is no such concept the conceptdefinition is ignored",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cdcpt",
           "package": "ampersand",
@@ -7315,6 +7967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe textual definition of this concept.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cddef",
           "package": "ampersand",
@@ -7325,6 +7978,7 @@
         "index": {
           "description": "The textual definition of this concept",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cddef",
           "package": "ampersand",
@@ -7338,6 +7992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the user specifically told Ampersand not to store this concept in the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cdplug",
           "package": "ampersand",
@@ -7348,6 +8003,7 @@
         "index": {
           "description": "Whether the user specifically told Ampersand not to store this concept in the database",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cdplug",
           "package": "ampersand",
@@ -7361,6 +8017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe position of this definition in the text of the Ampersand source (filename, line number and column number).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cdpos",
           "package": "ampersand",
@@ -7371,6 +8028,7 @@
         "index": {
           "description": "The position of this definition in the text of the Ampersand source filename line number and column number",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cdpos",
           "package": "ampersand",
@@ -7384,6 +8042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label meant to identify the source of the definition. (useful as LaTeX' symbolic reference)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cdref",
           "package": "ampersand",
@@ -7394,6 +8053,7 @@
         "index": {
           "description": "label meant to identify the source of the definition useful as LaTeX symbolic reference",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cdref",
           "package": "ampersand",
@@ -7407,6 +8067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of this concept.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cdtyp",
           "package": "ampersand",
@@ -7417,6 +8078,7 @@
         "index": {
           "description": "The type of this concept",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cdtyp",
           "package": "ampersand",
@@ -7429,6 +8091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cfProof",
           "package": "ampersand",
@@ -7438,6 +8101,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cfProof",
           "normalized": "(Expression-\u003eString)-\u003eExpression-\u003eProof Expression",
@@ -7453,6 +8117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cl_conjNF",
           "package": "ampersand",
@@ -7462,6 +8127,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cl_conjNF",
           "normalized": "[RuleClause]",
@@ -7477,6 +8143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cl_rule",
           "package": "ampersand",
@@ -7486,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cl_rule",
           "package": "ampersand",
@@ -7498,6 +8166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "colnr",
           "package": "ampersand",
@@ -7507,6 +8176,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "colnr",
           "normalized": "a-\u003eInt",
@@ -7521,6 +8191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "columns",
           "package": "ampersand",
@@ -7530,6 +8201,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "columns",
           "normalized": "(SqlField,SqlField)",
@@ -7544,6 +8216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "complexity",
           "package": "ampersand",
@@ -7553,6 +8226,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "complexity",
           "package": "ampersand",
@@ -7565,6 +8239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "concept",
           "package": "ampersand",
@@ -7574,6 +8249,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "concept",
           "normalized": "a-\u003eA_Concept",
@@ -7588,6 +8264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "conceptDefs",
           "package": "ampersand",
@@ -7597,6 +8274,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "conceptDefs",
           "package": "ampersand",
@@ -7610,6 +8288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "conceptualGraph",
           "package": "ampersand",
@@ -7619,6 +8298,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "conceptualGraph",
           "normalized": "Fspc-\u003eOptions-\u003eDrawingType-\u003ea-\u003eDotGraph String",
@@ -7634,6 +8314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "concs",
           "package": "ampersand",
@@ -7643,6 +8324,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "concs",
           "package": "ampersand",
@@ -7655,6 +8337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "conjNF",
           "package": "ampersand",
@@ -7664,6 +8347,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "conjNF",
           "normalized": "Expression-\u003eExpression",
@@ -7679,6 +8363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "contextOf",
           "package": "ampersand",
@@ -7688,6 +8373,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "contextOf",
           "normalized": "a-\u003eExpression",
@@ -7704,6 +8390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcept definitions of this concept.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cptdf",
           "package": "ampersand",
@@ -7714,6 +8401,7 @@
         "index": {
           "description": "Concept definitions of this concept",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cptdf",
           "normalized": "[ConceptDef]",
@@ -7729,6 +8417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of this Concept\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cptnm",
           "package": "ampersand",
@@ -7739,6 +8428,7 @@
         "index": {
           "description": "The name of this Concept",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cptnm",
           "package": "ampersand",
@@ -7752,6 +8442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (SQL) type of this Concept\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "cpttp",
           "package": "ampersand",
@@ -7762,6 +8453,7 @@
         "index": {
           "description": "The SQL type of this Concept",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "cpttp",
           "package": "ampersand",
@@ -7775,6 +8467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate an Fspec, based on the user defined flags. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "createFspec",
           "package": "ampersand",
@@ -7784,6 +8477,7 @@
         "index": {
           "description": "create an Fspec based on the user defined flags",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "createFspec",
           "normalized": "Options-\u003eIO(Guarded Fspc)",
@@ -7799,6 +8493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "crowfoot",
           "package": "ampersand",
@@ -7808,6 +8503,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "crowfoot",
           "package": "ampersand",
@@ -7821,6 +8517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe processes as defined by the parser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_PPrcs",
           "package": "ampersand",
@@ -7831,6 +8528,7 @@
         "index": {
           "description": "The processes as defined by the parser",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_PPrcs",
           "normalized": "[P_Process]",
@@ -7847,6 +8545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe concept definitions defined in this context, outside the scope of patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_cs",
           "package": "ampersand",
@@ -7857,6 +8556,7 @@
         "index": {
           "description": "The concept definitions defined in this context outside the scope of patterns",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_cs",
           "normalized": "[ConceptDef]",
@@ -7872,6 +8572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe declarations defined in this context, outside the scope of patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_ds",
           "package": "ampersand",
@@ -7882,6 +8583,7 @@
         "index": {
           "description": "The declarations defined in this context outside the scope of patterns",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_ds",
           "normalized": "[P_Declaration]",
@@ -7897,6 +8599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe gen definitions defined in this context, outside the scope of patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_gs",
           "package": "ampersand",
@@ -7907,6 +8610,7 @@
         "index": {
           "description": "The gen definitions defined in this context outside the scope of patterns",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_gs",
           "normalized": "[P_Gen]",
@@ -7922,6 +8626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interfaces defined in this context, outside the scope of patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_ifcs",
           "package": "ampersand",
@@ -7932,6 +8637,7 @@
         "index": {
           "description": "The interfaces defined in this context outside the scope of patterns",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_ifcs",
           "normalized": "[P_Interface]",
@@ -7947,6 +8653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity definitions defined in this context, outside the scope of patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_ks",
           "package": "ampersand",
@@ -7957,6 +8664,7 @@
         "index": {
           "description": "The identity definitions defined in this context outside the scope of patterns",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_ks",
           "normalized": "[P_IdentDef]",
@@ -7972,6 +8680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default language specified by this context, if specified at all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_lang",
           "package": "ampersand",
@@ -7982,6 +8691,7 @@
         "index": {
           "description": "The default language specified by this context if specified at all",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_lang",
           "package": "ampersand",
@@ -7995,6 +8705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default markup format for free text in this context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_markup",
           "package": "ampersand",
@@ -8005,6 +8716,7 @@
         "index": {
           "description": "The default markup format for free text in this context",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_markup",
           "package": "ampersand",
@@ -8018,6 +8730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneric meta information (name/value pairs) that can be used for experimenting without having to modify the adl syntax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_metas",
           "package": "ampersand",
@@ -8028,6 +8741,7 @@
         "index": {
           "description": "generic meta information name value pairs that can be used for experimenting without having to modify the adl syntax",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_metas",
           "normalized": "[Meta]",
@@ -8043,6 +8757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of this context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_nm",
           "package": "ampersand",
@@ -8053,6 +8768,7 @@
         "index": {
           "description": "The name of this context",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_nm",
           "package": "ampersand",
@@ -8066,6 +8782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe patterns defined in this context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_pats",
           "package": "ampersand",
@@ -8076,6 +8793,7 @@
         "index": {
           "description": "The patterns defined in this context",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_pats",
           "normalized": "[P_Pattern]",
@@ -8091,6 +8809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser defined phpplugs, taken from the Ampersand script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_php",
           "package": "ampersand",
@@ -8101,6 +8820,7 @@
         "index": {
           "description": "user defined phpplugs taken from the Ampersand script",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_php",
           "normalized": "[P_ObjectDef]",
@@ -8116,6 +8836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe populations defined in this context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_pops",
           "package": "ampersand",
@@ -8126,6 +8847,7 @@
         "index": {
           "description": "The populations defined in this context",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_pops",
           "normalized": "[P_Population]",
@@ -8141,6 +8863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe origin of the context. A context can be a merge of a file including other files c.q. a list of Origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_pos",
           "package": "ampersand",
@@ -8151,6 +8874,7 @@
         "index": {
           "description": "The origin of the context context can be merge of file including other files c.q list of Origin",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_pos",
           "normalized": "[Origin]",
@@ -8166,6 +8890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe purposes defined in this context, outside the scope of patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_ps",
           "package": "ampersand",
@@ -8176,6 +8901,7 @@
         "index": {
           "description": "The purposes defined in this context outside the scope of patterns",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_ps",
           "normalized": "[PPurpose]",
@@ -8191,6 +8917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll user defined rules in this context, but outside patterns and outside processes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_rs",
           "package": "ampersand",
@@ -8201,6 +8928,7 @@
         "index": {
           "description": "All user defined rules in this context but outside patterns and outside processes",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_rs",
           "normalized": "[P_Rule TermPrim]",
@@ -8216,6 +8944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser defined sqlplugs, taken from the Ampersand script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_sql",
           "package": "ampersand",
@@ -8226,6 +8955,7 @@
         "index": {
           "description": "user defined sqlplugs taken from the Ampersand script",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_sql",
           "normalized": "[P_ObjectDef]",
@@ -8241,6 +8971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of patterns/processes to be printed in the functional specification. (For partial documents.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_thms",
           "package": "ampersand",
@@ -8251,6 +8982,7 @@
         "index": {
           "description": "Names of patterns processes to be printed in the functional specification For partial documents",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_thms",
           "normalized": "[String]",
@@ -8266,6 +8998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe view definitions defined in this context, outside the scope of patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_vs",
           "package": "ampersand",
@@ -8276,6 +9009,7 @@
         "index": {
           "description": "The view definitions defined in this context outside the scope of patterns",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ctx_vs",
           "normalized": "[P_ViewDef]",
@@ -8290,6 +9024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "customCssFile",
           "package": "ampersand",
@@ -8299,6 +9034,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "customCssFile",
           "package": "ampersand",
@@ -8312,6 +9048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dbName",
           "package": "ampersand",
@@ -8321,6 +9058,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dbName",
           "package": "ampersand",
@@ -8334,6 +9072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "deMorganECps",
           "package": "ampersand",
@@ -8343,6 +9082,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "deMorganECps",
           "normalized": "Expression-\u003eExpression",
@@ -8358,6 +9098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "deMorganEIsc",
           "package": "ampersand",
@@ -8367,6 +9108,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "deMorganEIsc",
           "normalized": "Expression-\u003eExpression",
@@ -8383,6 +9125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rule of De Morgan requires care with respect to the complement.\n   The following function provides a function to manipulate with De Morgan correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "deMorganERad",
           "package": "ampersand",
@@ -8393,6 +9136,7 @@
         "index": {
           "description": "The rule of De Morgan requires care with respect to the complement The following function provides function to manipulate with De Morgan correctly",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "deMorganERad",
           "normalized": "Expression-\u003eExpression",
@@ -8408,6 +9152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "deMorganEUni",
           "package": "ampersand",
@@ -8417,6 +9162,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "deMorganEUni",
           "normalized": "Expression-\u003eExpression",
@@ -8432,6 +9178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "debugStr",
           "package": "ampersand",
@@ -8441,6 +9188,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "debugStr",
           "package": "ampersand",
@@ -8455,6 +9203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealternative definition for the source or target concept in the context of this relation\n     , decpopu :: Pairs      -- ^ the list of tuples, of which the relation consists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decConceptDef",
           "package": "ampersand",
@@ -8465,6 +9214,7 @@
         "index": {
           "description": "alternative definition for the source or target concept in the context of this relation decpopu Pairs the list of tuples of which the relation consists",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decConceptDef",
           "package": "ampersand",
@@ -8479,6 +9229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif true, this relation is the result of an ISA declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decISA",
           "package": "ampersand",
@@ -8489,6 +9240,7 @@
         "index": {
           "description": "if true this relation is the result of an ISA declaration",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decISA",
           "package": "ampersand",
@@ -8503,6 +9255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe meaning of a declaration, for each language supported by Ampersand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decMean",
           "package": "ampersand",
@@ -8513,6 +9266,7 @@
         "index": {
           "description": "the meaning of declaration for each language supported by Ampersand",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decMean",
           "package": "ampersand",
@@ -8527,6 +9281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe optional meaning of a declaration, possibly more than one for different languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_Mean",
           "package": "ampersand",
@@ -8537,6 +9292,7 @@
         "index": {
           "description": "the optional meaning of declaration possibly more than one for different languages",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_Mean",
           "normalized": "[PMeaning]",
@@ -8553,6 +9309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealternative definition for the source or target concept in the context of this relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_conceptDef",
           "package": "ampersand",
@@ -8563,6 +9320,7 @@
         "index": {
           "description": "alternative definition for the source or target concept in the context of this relation",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_conceptDef",
           "package": "ampersand",
@@ -8577,6 +9335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position in the Ampersand source file where this declaration is declared. Not all decalartions come from the ampersand souce file. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_fpos",
           "package": "ampersand",
@@ -8587,6 +9346,7 @@
         "index": {
           "description": "the position in the Ampersand source file where this declaration is declared Not all decalartions come from the ampersand souce file",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_fpos",
           "package": "ampersand",
@@ -8600,6 +9360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe name of the declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_nm",
           "package": "ampersand",
@@ -8610,6 +9371,7 @@
         "index": {
           "description": "the name of the declaration",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_nm",
           "package": "ampersand",
@@ -8623,6 +9385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif true, this relation may not be stored in or retrieved from the standard database (it should be gotten from a Plug of some sort instead)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_plug",
           "package": "ampersand",
@@ -8633,6 +9396,7 @@
         "index": {
           "description": "if true this relation may not be stored in or retrieved from the standard database it should be gotten from Plug of some sort instead",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_plug",
           "package": "ampersand",
@@ -8646,6 +9410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe list of tuples, of which the relation consists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_popu",
           "package": "ampersand",
@@ -8656,6 +9421,7 @@
         "index": {
           "description": "the list of tuples of which the relation consists",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_popu",
           "package": "ampersand",
@@ -8669,6 +9435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethree strings, which form the pragma. E.g. if pragma consists of the three strings: \u003ca\u003ePerson \u003c/a\u003e, \u003ca\u003e is married to person \u003c/a\u003e, and \u003ca\u003e in Vegas.\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_prL",
           "package": "ampersand",
@@ -8679,6 +9446,7 @@
         "index": {
           "description": "three strings which form the pragma E.g if pragma consists of the three strings Person is married to person and in Vegas",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_prL",
           "package": "ampersand",
@@ -8692,6 +9460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethen a tuple (\u003ca\u003ePeter\u003c/a\u003e,\u003ca\u003eJane\u003c/a\u003e) in the list of links means that Person Peter is married to person Jane in Vegas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_prM",
           "package": "ampersand",
@@ -8702,6 +9471,7 @@
         "index": {
           "description": "then tuple Peter Jane in the list of links means that Person Peter is married to person Jane in Vegas",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_prM",
           "package": "ampersand",
@@ -8714,6 +9484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_prR",
           "package": "ampersand",
@@ -8723,6 +9494,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_prR",
           "package": "ampersand",
@@ -8736,6 +9508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe user defined multiplicity properties (Uni, Tot, Sur, Inj) and algebraic properties (Sym, Asy, Trn, Rfx)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_prps",
           "package": "ampersand",
@@ -8746,6 +9519,7 @@
         "index": {
           "description": "the user defined multiplicity properties Uni Tot Sur Inj and algebraic properties Sym Asy Trn Rfx",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_prps",
           "package": "ampersand",
@@ -8759,6 +9533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe type. Parser must guarantee it is not empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_sign",
           "package": "ampersand",
@@ -8769,6 +9544,7 @@
         "index": {
           "description": "the type Parser must guarantee it is not empty",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dec_sign",
           "package": "ampersand",
@@ -8782,6 +9558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position in the Ampersand source file where this declaration is declared. Not all decalartions come from the ampersand souce file. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decfpos",
           "package": "ampersand",
@@ -8792,6 +9569,7 @@
         "index": {
           "description": "the position in the Ampersand source file where this declaration is declared Not all decalartions come from the ampersand souce file",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decfpos",
           "package": "ampersand",
@@ -8805,6 +9583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif true, this is a signal relation; otherwise it is an ordinary relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decissX",
           "package": "ampersand",
@@ -8815,6 +9594,7 @@
         "index": {
           "description": "if true this is signal relation otherwise it is an ordinary relation",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decissX",
           "package": "ampersand",
@@ -8827,6 +9607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "declarations",
           "package": "ampersand",
@@ -8836,6 +9617,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "declarations",
           "package": "ampersand",
@@ -8848,6 +9630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "declsUsedIn",
           "package": "ampersand",
@@ -8857,6 +9640,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "declsUsedIn",
           "package": "ampersand",
@@ -8871,6 +9655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe name of the declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decnm",
           "package": "ampersand",
@@ -8881,6 +9666,7 @@
         "index": {
           "description": "the name of the declaration",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decnm",
           "package": "ampersand",
@@ -8894,6 +9680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe pattern where this declaration has been declared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decpat",
           "package": "ampersand",
@@ -8904,6 +9691,7 @@
         "index": {
           "description": "the pattern where this declaration has been declared",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decpat",
           "package": "ampersand",
@@ -8917,6 +9705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif true, this relation may not be stored in or retrieved from the standard database (it should be gotten from a Plug of some sort instead)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decplug",
           "package": "ampersand",
@@ -8927,6 +9716,7 @@
         "index": {
           "description": "if true this relation may not be stored in or retrieved from the standard database it should be gotten from Plug of some sort instead",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decplug",
           "package": "ampersand",
@@ -8940,6 +9730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethree strings, which form the pragma. E.g. if pragma consists of the three strings: \u003ca\u003ePerson \u003c/a\u003e, \u003ca\u003e is married to person \u003c/a\u003e, and \u003ca\u003e in Vegas.\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decprL",
           "package": "ampersand",
@@ -8950,6 +9741,7 @@
         "index": {
           "description": "three strings which form the pragma E.g if pragma consists of the three strings Person is married to person and in Vegas",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decprL",
           "package": "ampersand",
@@ -8963,6 +9755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethen a tuple (\u003ca\u003ePeter\u003c/a\u003e,\u003ca\u003eJane\u003c/a\u003e) in the list of links means that Person Peter is married to person Jane in Vegas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decprM",
           "package": "ampersand",
@@ -8973,6 +9766,7 @@
         "index": {
           "description": "then tuple Peter Jane in the list of links means that Person Peter is married to person Jane in Vegas",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decprM",
           "package": "ampersand",
@@ -8985,6 +9779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decprR",
           "package": "ampersand",
@@ -8994,6 +9789,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decprR",
           "package": "ampersand",
@@ -9007,6 +9803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe user defined multiplicity properties (Uni, Tot, Sur, Inj) and algebraic properties (Sym, Asy, Trn, Rfx)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decprps",
           "package": "ampersand",
@@ -9017,6 +9814,7 @@
         "index": {
           "description": "the user defined multiplicity properties Uni Tot Sur Inj and algebraic properties Sym Asy Trn Rfx",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decprps",
           "normalized": "[Prop]",
@@ -9032,6 +9830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe calculated and user defined multiplicity properties (Uni, Tot, Sur, Inj) and algebraic properties (Sym, Asy, Trn, Rfx, Irf). Note that calculated properties are made by adl2fspec, so in the A-structure decprps and decprps_calc yield exactly the same answer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decprps_calc",
           "package": "ampersand",
@@ -9042,6 +9841,7 @@
         "index": {
           "description": "the calculated and user defined multiplicity properties Uni Tot Sur Inj and algebraic properties Sym Asy Trn Rfx Irf Note that calculated properties are made by adl2fspec so in the A-structure decprps and decprps calc yield exactly the same answer",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decprps_calc",
           "normalized": "Maybe[Prop]",
@@ -9057,6 +9857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe source and target concepts of the declaration\nmultiplicities returns decprps_calc, when it has been calculated. So if you only need the user defined properties do not use multiplicities but decprps\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decsgn",
           "package": "ampersand",
@@ -9067,6 +9868,7 @@
         "index": {
           "description": "the source and target concepts of the declaration multiplicities returns decprps calc when it has been calculated So if you only need the user defined properties do not use multiplicities but decprps",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decsgn",
           "package": "ampersand",
@@ -9079,6 +9881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decusr",
           "package": "ampersand",
@@ -9088,6 +9891,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decusr",
           "normalized": "Declaration-\u003eBool",
@@ -9103,6 +9907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif true, this relation is declared by an author in the Ampersand script; otherwise it was generated by Ampersand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "decusrX",
           "package": "ampersand",
@@ -9113,6 +9918,7 @@
         "index": {
           "description": "if true this relation is declared by an author in the Ampersand script otherwise it was generated by Ampersand",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "decusrX",
           "package": "ampersand",
@@ -9126,6 +9932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "detyp",
           "package": "ampersand",
@@ -9136,6 +9943,7 @@
         "index": {
           "description": "The type",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "detyp",
           "package": "ampersand",
@@ -9148,6 +9956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "development",
           "package": "ampersand",
@@ -9157,6 +9966,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "development",
           "package": "ampersand",
@@ -9169,6 +9979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dfProof",
           "package": "ampersand",
@@ -9178,6 +9989,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dfProof",
           "normalized": "(Expression-\u003eString)-\u003eExpression-\u003eProof Expression",
@@ -9193,6 +10005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "diag",
           "package": "ampersand",
@@ -9202,6 +10015,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "diag",
           "package": "ampersand",
@@ -9214,6 +10028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "diagnosisOnly",
           "package": "ampersand",
@@ -9223,6 +10038,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "diagnosisOnly",
           "package": "ampersand",
@@ -9236,6 +10052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dirExec",
           "package": "ampersand",
@@ -9245,6 +10062,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dirExec",
           "package": "ampersand",
@@ -9258,6 +10076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dirOutput",
           "package": "ampersand",
@@ -9267,6 +10086,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dirOutput",
           "package": "ampersand",
@@ -9280,6 +10100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "dirPrototype",
           "package": "ampersand",
@@ -9289,6 +10110,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "dirPrototype",
           "package": "ampersand",
@@ -9302,6 +10124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "disjNF",
           "package": "ampersand",
@@ -9311,6 +10134,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "disjNF",
           "normalized": "Expression-\u003eExpression",
@@ -9326,6 +10150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "doubleEdges",
           "package": "ampersand",
@@ -9335,6 +10160,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "doubleEdges",
           "package": "ampersand",
@@ -9348,6 +10174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ecaAction",
           "package": "ampersand",
@@ -9357,6 +10184,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ecaAction",
           "package": "ampersand",
@@ -9370,6 +10198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ecaDelta",
           "package": "ampersand",
@@ -9379,6 +10208,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ecaDelta",
           "package": "ampersand",
@@ -9392,6 +10222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ecaNum",
           "package": "ampersand",
@@ -9401,6 +10232,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ecaNum",
           "package": "ampersand",
@@ -9414,6 +10246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ecaTriggr",
           "package": "ampersand",
@@ -9423,6 +10256,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ecaTriggr",
           "package": "ampersand",
@@ -9436,6 +10270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "eleM",
           "package": "ampersand",
@@ -9445,6 +10280,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "eleM",
           "normalized": "a-\u003eb a-\u003eBool",
@@ -9459,6 +10295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "elems",
           "package": "ampersand",
@@ -9468,6 +10305,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "elems",
           "normalized": "a b-\u003e[b]",
@@ -9482,6 +10320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "empty",
           "package": "ampersand",
@@ -9491,6 +10330,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "empty",
           "package": "ampersand",
@@ -9504,6 +10344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeqCl is a very useful function for gathering things that are equal wrt some criterion f.\n   For instance, if you want to have persons with the same name:\n    'eqCl name persons' produces a list,in which each element is a list of persons with the same name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "eqCl",
           "package": "ampersand",
@@ -9514,6 +10355,7 @@
         "index": {
           "description": "eqCl is very useful function for gathering things that are equal wrt some criterion For instance if you want to have persons with the same name eqCl name persons produces list in which each element is list of persons with the same name",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "eqCl",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[[a]]",
@@ -9530,6 +10372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eescape anything except regular characters and digits to _\u003ca\u003ecode\u003c/a\u003e\n e.g. escapeNonAlphaNum \u003ca\u003ea_&#233;\u003c/a\u003e = \u003ca\u003ea_95_233\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "escapeNonAlphaNum",
           "package": "ampersand",
@@ -9540,6 +10383,7 @@
         "index": {
           "description": "escape anything except regular characters and digits to code e.g escapeNonAlphaNum",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "escapeNonAlphaNum",
           "normalized": "String-\u003eString",
@@ -9555,6 +10399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "explForObj",
           "package": "ampersand",
@@ -9564,6 +10409,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "explForObj",
           "package": "ampersand",
@@ -9578,6 +10424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis field contains the text of the explanation including language and markup info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "explMarkup",
           "package": "ampersand",
@@ -9588,6 +10435,7 @@
         "index": {
           "description": "This field contains the text of the explanation including language and markup info",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "explMarkup",
           "package": "ampersand",
@@ -9602,6 +10450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe object that is explained.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "explObj",
           "package": "ampersand",
@@ -9612,6 +10461,7 @@
         "index": {
           "description": "The object that is explained",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "explObj",
           "package": "ampersand",
@@ -9626,6 +10476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe position in the Ampersand script of this purpose definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "explPos",
           "package": "ampersand",
@@ -9636,6 +10487,7 @@
         "index": {
           "description": "The position in the Ampersand script of this purpose definition",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "explPos",
           "package": "ampersand",
@@ -9650,6 +10502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reference of the explaination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "explRefId",
           "package": "ampersand",
@@ -9660,6 +10513,7 @@
         "index": {
           "description": "The reference of the explaination",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "explRefId",
           "package": "ampersand",
@@ -9674,6 +10528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this purpose defined in the script?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "explUserdefd",
           "package": "ampersand",
@@ -9684,6 +10539,7 @@
         "index": {
           "description": "Is this purpose defined in the script",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "explUserdefd",
           "package": "ampersand",
@@ -9697,6 +10553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "explanations",
           "package": "ampersand",
@@ -9706,6 +10563,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "explanations",
           "package": "ampersand",
@@ -9718,6 +10576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "export2adl",
           "package": "ampersand",
@@ -9727,6 +10586,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "export2adl",
           "package": "ampersand",
@@ -9739,6 +10599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "exprCps2list",
           "package": "ampersand",
@@ -9748,6 +10609,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "exprCps2list",
           "normalized": "Expression-\u003e[Expression]",
@@ -9763,6 +10625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "exprIsc2list",
           "package": "ampersand",
@@ -9772,6 +10635,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "exprIsc2list",
           "normalized": "Expression-\u003e[Expression]",
@@ -9787,6 +10651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "exprRad2list",
           "package": "ampersand",
@@ -9796,6 +10661,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "exprRad2list",
           "normalized": "Expression-\u003e[Expression]",
@@ -9811,6 +10677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "exprUni2list",
           "package": "ampersand",
@@ -9820,6 +10687,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "exprUni2list",
           "normalized": "Expression-\u003e[Expression]",
@@ -9835,6 +10703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "expressionsIn",
           "package": "ampersand",
@@ -9844,6 +10713,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "expressionsIn",
           "package": "ampersand",
@@ -9858,6 +10728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerated: One Activity for every ObjectDef in interfaceG and interfaceS \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fActivities",
           "package": "ampersand",
@@ -9868,6 +10739,7 @@
         "index": {
           "description": "generated One Activity for every ObjectDef in interfaceG and interfaceS",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fActivities",
           "normalized": "[Activity]",
@@ -9883,6 +10755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fPoints",
           "package": "ampersand",
@@ -9892,6 +10765,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fPoints",
           "normalized": "a-\u003eInt",
@@ -9908,6 +10782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe relation saying which roles may change the population of which relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fRoleRels",
           "package": "ampersand",
@@ -9918,6 +10793,7 @@
         "index": {
           "description": "the relation saying which roles may change the population of which relation",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fRoleRels",
           "normalized": "[(String,Declaration)]",
@@ -9934,6 +10810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe relation saying which roles may change the population of which relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fRoleRuls",
           "package": "ampersand",
@@ -9944,6 +10821,7 @@
         "index": {
           "description": "the relation saying which roles may change the population of which relation",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fRoleRuls",
           "normalized": "[(String,Rule)]",
@@ -9960,6 +10838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll purposes that have been declared at the top level of the current specification, but not in the processes, patterns and interfaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fSexpls",
           "package": "ampersand",
@@ -9970,6 +10849,7 @@
         "index": {
           "description": "All purposes that have been declared at the top level of the current specification but not in the processes patterns and interfaces",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fSexpls",
           "normalized": "[Purpose]",
@@ -9986,6 +10866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe code to be executed to maintain the truth of invariants\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fSwitchboard",
           "package": "ampersand",
@@ -9996,6 +10877,7 @@
         "index": {
           "description": "The code to be executed to maintain the truth of invariants",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fSwitchboard",
           "package": "ampersand",
@@ -10010,6 +10892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea function to create error message in a structured way, containing the version of Ampersand. \n   It throws an error, showing a (module)name and a number. This makes debugging pretty easy. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fatalMsg",
           "package": "ampersand",
@@ -10020,6 +10903,7 @@
         "index": {
           "description": "function to create error message in structured way containing the version of Ampersand It throws an error showing module name and number This makes debugging pretty easy",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fatalMsg",
           "normalized": "String-\u003eInt-\u003eString-\u003ea",
@@ -10036,6 +10920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe first field is the concept table of the most general concept (e.g. Person)\n   then follow concept tables of specializations. Together with the first field this is called the \u003ca\u003ekernel\u003c/a\u003e\n   the remaining fields represent attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fields",
           "package": "ampersand",
@@ -10046,6 +10931,7 @@
         "index": {
           "description": "the first field is the concept table of the most general concept e.g Person then follow concept tables of specializations Together with the first field this is called the kernel the remaining fields represent attributes",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fields",
           "normalized": "[SqlField]",
@@ -10060,6 +10946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fileName",
           "package": "ampersand",
@@ -10069,6 +10956,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fileName",
           "package": "ampersand",
@@ -10082,6 +10970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fileformat",
           "package": "ampersand",
@@ -10091,6 +10980,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fileformat",
           "package": "ampersand",
@@ -10103,6 +10993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "filenm",
           "package": "ampersand",
@@ -10112,6 +11003,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "filenm",
           "normalized": "a-\u003eString",
@@ -10126,6 +11018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fldauto",
           "package": "ampersand",
@@ -10135,6 +11028,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fldauto",
           "normalized": "SqlField-\u003eBool",
@@ -10150,6 +11044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDe target van de expressie geeft de waarden weer in de SQL-tabel-kolom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fldexpr",
           "package": "ampersand",
@@ -10160,6 +11055,7 @@
         "index": {
           "description": "De target van de expressie geeft de waarden weer in de SQL-tabel-kolom",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fldexpr",
           "package": "ampersand",
@@ -10172,6 +11068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fldname",
           "package": "ampersand",
@@ -10181,6 +11078,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fldname",
           "package": "ampersand",
@@ -10194,6 +11092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecan there be empty field-values? (intended for data dictionary of DB-implementation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fldnull",
           "package": "ampersand",
@@ -10204,6 +11103,7 @@
         "index": {
           "description": "can there be empty field-values intended for data dictionary of DB-implementation",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fldnull",
           "package": "ampersand",
@@ -10216,6 +11116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fldtype",
           "package": "ampersand",
@@ -10225,6 +11126,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fldtype",
           "package": "ampersand",
@@ -10238,6 +11140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eare all field-values unique? (intended for data dictionary of DB-implementation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "flduniq",
           "package": "ampersand",
@@ -10248,6 +11151,7 @@
         "index": {
           "description": "are all field-values unique intended for data dictionary of DB-implementation",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "flduniq",
           "package": "ampersand",
@@ -10260,6 +11164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "flduse",
           "package": "ampersand",
@@ -10269,6 +11174,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "flduse",
           "package": "ampersand",
@@ -10281,6 +11187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "flp",
           "package": "ampersand",
@@ -10290,6 +11197,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "flp",
           "normalized": "a-\u003ea",
@@ -10304,6 +11212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "foldedattributes",
           "package": "ampersand",
@@ -10313,6 +11222,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "foldedattributes",
           "normalized": "a-\u003e[Expression]",
@@ -10327,6 +11237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fpActivities",
           "package": "ampersand",
@@ -10336,6 +11247,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fpActivities",
           "normalized": "[Activity]",
@@ -10351,6 +11263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fpProc",
           "package": "ampersand",
@@ -10360,6 +11273,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fpProc",
           "package": "ampersand",
@@ -10373,6 +11287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fpType",
           "package": "ampersand",
@@ -10382,6 +11297,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fpType",
           "package": "ampersand",
@@ -10395,6 +11311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fpa",
           "package": "ampersand",
@@ -10404,6 +11321,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fpa",
           "normalized": "a-\u003eFPA",
@@ -10419,6 +11337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default language for this specification, if specified at all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsLang",
           "package": "ampersand",
@@ -10429,6 +11348,7 @@
         "index": {
           "description": "The default language for this specification if specified at all",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsLang",
           "package": "ampersand",
@@ -10443,6 +11363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the specification, taken from the Ampersand script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsName",
           "package": "ampersand",
@@ -10453,6 +11374,7 @@
         "index": {
           "description": "The name of the specification taken from the Ampersand script",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsName",
           "package": "ampersand",
@@ -10466,6 +11388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsbConjs",
           "package": "ampersand",
@@ -10475,6 +11398,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsbConjs",
           "normalized": "[(Rule,Expression)]",
@@ -10490,6 +11414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsbECAs",
           "package": "ampersand",
@@ -10499,6 +11424,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsbECAs",
           "normalized": "[ECArule]",
@@ -10514,6 +11440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsbEvIn",
           "package": "ampersand",
@@ -10523,6 +11450,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsbEvIn",
           "normalized": "[Event]",
@@ -10538,6 +11466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsbEvOut",
           "package": "ampersand",
@@ -10547,6 +11476,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsbEvOut",
           "normalized": "[Event]",
@@ -10563,6 +11493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerated: The data structure containing the generalization structure of concepts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsisa",
           "package": "ampersand",
@@ -10573,6 +11504,7 @@
         "index": {
           "description": "generated The data structure containing the generalization structure of concepts",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fsisa",
           "normalized": "[(A_Concept,A_Concept)]",
@@ -10587,6 +11519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fspecFormat",
           "package": "ampersand",
@@ -10596,6 +11529,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fspecFormat",
           "package": "ampersand",
@@ -10610,6 +11544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe origin of the Fspc. An Fspc can be a merge of a file including other files c.q. a list of Origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fspos",
           "package": "ampersand",
@@ -10620,6 +11555,7 @@
         "index": {
           "description": "The origin of the Fspc An Fspc can be merge of file including other files c.q list of Origin",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fspos",
           "normalized": "[Origin]",
@@ -10635,6 +11571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis function returns the pairs as content of a specific a, given a list of populations. \n   The list of populations should contain all user-defined populations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "fullContents",
           "package": "ampersand",
@@ -10645,6 +11582,7 @@
         "index": {
           "description": "this function returns the pairs as content of specific given list of populations The list of populations should contain all user-defined populations",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "fullContents",
           "normalized": "[A_Gen]-\u003e[Population]-\u003ea-\u003ePairs",
@@ -10660,6 +11598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genAtlas",
           "package": "ampersand",
@@ -10669,6 +11608,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genAtlas",
           "package": "ampersand",
@@ -10682,6 +11622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genBericht",
           "package": "ampersand",
@@ -10691,6 +11632,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genBericht",
           "package": "ampersand",
@@ -10704,6 +11646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genEcaDoc",
           "package": "ampersand",
@@ -10713,6 +11656,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genEcaDoc",
           "package": "ampersand",
@@ -10726,6 +11670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genFPAExcel",
           "package": "ampersand",
@@ -10735,6 +11680,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genFPAExcel",
           "package": "ampersand",
@@ -10748,6 +11694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genFspec",
           "package": "ampersand",
@@ -10757,6 +11704,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genFspec",
           "package": "ampersand",
@@ -10770,6 +11718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genGraphics",
           "package": "ampersand",
@@ -10779,6 +11728,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genGraphics",
           "package": "ampersand",
@@ -10792,6 +11742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genLegalRefs",
           "package": "ampersand",
@@ -10801,6 +11752,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genLegalRefs",
           "package": "ampersand",
@@ -10814,6 +11766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genMeat",
           "package": "ampersand",
@@ -10823,6 +11776,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genMeat",
           "package": "ampersand",
@@ -10836,6 +11790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genPrototype",
           "package": "ampersand",
@@ -10845,6 +11800,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genPrototype",
           "package": "ampersand",
@@ -10858,6 +11814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genTime",
           "package": "ampersand",
@@ -10867,6 +11824,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genTime",
           "package": "ampersand",
@@ -10880,6 +11838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genUML",
           "package": "ampersand",
@@ -10889,6 +11848,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genUML",
           "package": "ampersand",
@@ -10902,6 +11862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genXML",
           "package": "ampersand",
@@ -10911,6 +11872,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genXML",
           "package": "ampersand",
@@ -10925,6 +11887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position of the GEN-rule\n\u003c/p\u003e\u003cp\u003ePosition in the Ampersand file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "gen_fp",
           "package": "ampersand",
@@ -10935,6 +11898,7 @@
         "index": {
           "description": "the position of the GEN-rule Position in the Ampersand file",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "gen_fp",
           "package": "ampersand",
@@ -10948,6 +11912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneric concept\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "gen_gen",
           "package": "ampersand",
@@ -10958,6 +11923,7 @@
         "index": {
           "description": "generic concept",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "gen_gen",
           "package": "ampersand",
@@ -10971,6 +11937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight hand side concept expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "gen_rhs",
           "package": "ampersand",
@@ -10981,6 +11948,7 @@
         "index": {
           "description": "Right hand side concept expression",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "gen_rhs",
           "normalized": "[P_Concept]",
@@ -10996,6 +11964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003especific concept\n\u003c/p\u003e\u003cp\u003eLeft hand side concept expression \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "gen_spc",
           "package": "ampersand",
@@ -11006,6 +11975,7 @@
         "index": {
           "description": "specific concept Left hand side concept expression",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "gen_spc",
           "package": "ampersand",
@@ -11018,6 +11988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "generateAmpersandOutput",
           "package": "ampersand",
@@ -11027,6 +11998,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "generateAmpersandOutput",
           "normalized": "Options-\u003eFspc-\u003eIO()",
@@ -11043,6 +12015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position of the GEN-rule\n\u003c/p\u003e\u003cp\u003ethe position of the GEN-rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genfp",
           "package": "ampersand",
@@ -11053,6 +12026,7 @@
         "index": {
           "description": "the position of the GEN-rule the position of the GEN-rule",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genfp",
           "package": "ampersand",
@@ -11066,6 +12040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneric concept\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "gengen",
           "package": "ampersand",
@@ -11076,6 +12051,7 @@
         "index": {
           "description": "generic concept",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "gengen",
           "package": "ampersand",
@@ -11089,6 +12065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econcepts of which the conjunction is equivalent to the specific concept\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genrhs",
           "package": "ampersand",
@@ -11099,6 +12076,7 @@
         "index": {
           "description": "concepts of which the conjunction is equivalent to the specific concept",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genrhs",
           "normalized": "[A_Concept]",
@@ -11113,6 +12091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "gens",
           "package": "ampersand",
@@ -11122,6 +12101,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "gens",
           "package": "ampersand",
@@ -11135,6 +12115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003especific concept\n\u003c/p\u003e\u003cp\u003especific concept\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "genspc",
           "package": "ampersand",
@@ -11145,6 +12126,7 @@
         "index": {
           "description": "specific concept specific concept",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "genspc",
           "package": "ampersand",
@@ -11157,6 +12139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "getGeneralizations",
           "package": "ampersand",
@@ -11166,6 +12149,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "getGeneralizations",
           "normalized": "Fspc-\u003eA_Concept-\u003e[A_Concept]",
@@ -11181,6 +12165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "getOptions",
           "package": "ampersand",
@@ -11190,6 +12175,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "getOptions",
           "package": "ampersand",
@@ -11203,6 +12189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "getSpecializations",
           "package": "ampersand",
@@ -11212,6 +12199,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "getSpecializations",
           "normalized": "Fspc-\u003eA_Concept-\u003e[A_Concept]",
@@ -11228,6 +12216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll rules that are generated: multiplicity rules and identity rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "grules",
           "package": "ampersand",
@@ -11238,6 +12227,7 @@
         "index": {
           "description": "All rules that are generated multiplicity rules and identity rules",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "grules",
           "normalized": "[Rule]",
@@ -11252,6 +12242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "hGetContents",
           "package": "ampersand",
@@ -11261,6 +12252,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "hGetContents",
           "normalized": "Handle-\u003eIO String",
@@ -11276,6 +12268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "hPutStr",
           "package": "ampersand",
@@ -11285,6 +12278,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "hPutStr",
           "normalized": "Handle-\u003eString-\u003eIO()",
@@ -11300,6 +12294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "hPutStrLn",
           "package": "ampersand",
@@ -11309,6 +12304,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "hPutStrLn",
           "normalized": "Handle-\u003eString-\u003eIO()",
@@ -11324,6 +12320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "haskell",
           "package": "ampersand",
@@ -11333,6 +12330,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "haskell",
           "package": "ampersand",
@@ -11345,6 +12343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "haskellIdentifier",
           "package": "ampersand",
@@ -11354,6 +12353,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "haskellIdentifier",
           "normalized": "String-\u003eString",
@@ -11369,6 +12369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "helpNVersionTexts",
           "package": "ampersand",
@@ -11378,6 +12379,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "helpNVersionTexts",
           "normalized": "String-\u003eOptions-\u003e[String]",
@@ -11394,6 +12396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis expression describes the instances of this object, related to their context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "idCpt",
           "package": "ampersand",
@@ -11404,6 +12407,7 @@
         "index": {
           "description": "this expression describes the instances of this object related to their context",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "idCpt",
           "package": "ampersand",
@@ -11418,6 +12422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe name (or label) of this Identity. The label has no meaning in the Compliant Service Layer, but is used in the generated user interface. It is not an empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "idLbl",
           "package": "ampersand",
@@ -11428,6 +12433,7 @@
         "index": {
           "description": "the name or label of this Identity The label has no meaning in the Compliant Service Layer but is used in the generated user interface It is not an empty string",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "idLbl",
           "package": "ampersand",
@@ -11442,6 +12448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eposition of this definition in the text of the Ampersand source file (filename, line number and column number).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "idPos",
           "package": "ampersand",
@@ -11452,6 +12459,7 @@
         "index": {
           "description": "position of this definition in the text of the Ampersand source file filename line number and column number",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "idPos",
           "package": "ampersand",
@@ -11465,6 +12473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "identities",
           "package": "ampersand",
@@ -11474,6 +12483,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "identities",
           "package": "ampersand",
@@ -11487,6 +12497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe constituent attributes (i.e. name/expression pairs) of this identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "identityAts",
           "package": "ampersand",
@@ -11497,6 +12508,7 @@
         "index": {
           "description": "the constituent attributes i.e name expression pairs of this identity",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "identityAts",
           "normalized": "[IdentitySegment]",
@@ -11512,6 +12524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "identityRules",
           "package": "ampersand",
@@ -11521,6 +12534,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "identityRules",
           "normalized": "a-\u003e[Rule]",
@@ -11536,6 +12550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ifcArgs",
           "package": "ampersand",
@@ -11545,6 +12560,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ifcArgs",
           "normalized": "[[String]]",
@@ -11560,6 +12576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ifcObj",
           "package": "ampersand",
@@ -11569,6 +12586,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ifcObj",
           "package": "ampersand",
@@ -11582,6 +12600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ifcParams",
           "package": "ampersand",
@@ -11591,6 +12610,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ifcParams",
           "normalized": "[Expression]",
@@ -11606,6 +12626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ifcPos",
           "package": "ampersand",
@@ -11615,6 +12636,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ifcPos",
           "package": "ampersand",
@@ -11628,6 +12650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ifcPrp",
           "package": "ampersand",
@@ -11637,6 +12660,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ifcPrp",
           "package": "ampersand",
@@ -11650,6 +12674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ifcRoles",
           "package": "ampersand",
@@ -11659,6 +12684,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ifcRoles",
           "normalized": "[String]",
@@ -11674,6 +12700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "importfile",
           "package": "ampersand",
@@ -11683,6 +12710,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "importfile",
           "package": "ampersand",
@@ -11695,6 +12723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "includeRap",
           "package": "ampersand",
@@ -11704,6 +12733,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "includeRap",
           "package": "ampersand",
@@ -11717,6 +12747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "initialPops",
           "package": "ampersand",
@@ -11726,6 +12757,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "initialPops",
           "normalized": "[Population]",
@@ -11742,6 +12774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll interfaces derived from the basic ontology\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "interfaceG",
           "package": "ampersand",
@@ -11752,6 +12785,7 @@
         "index": {
           "description": "All interfaces derived from the basic ontology",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "interfaceG",
           "normalized": "[Interface]",
@@ -11767,6 +12801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll interfaces defined in the Ampersand script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "interfaceS",
           "package": "ampersand",
@@ -11777,6 +12812,7 @@
         "index": {
           "description": "All interfaces defined in the Ampersand script",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "interfaceS",
           "normalized": "[Interface]",
@@ -11791,6 +12827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "interfaces",
           "package": "ampersand",
@@ -11800,6 +12837,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "interfaces",
           "package": "ampersand",
@@ -11812,6 +12850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "invariants",
           "package": "ampersand",
@@ -11821,6 +12860,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "invariants",
           "package": "ampersand",
@@ -11834,6 +12874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll invariant rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "invars",
           "package": "ampersand",
@@ -11844,6 +12885,7 @@
         "index": {
           "description": "All invariant rules",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "invars",
           "normalized": "[Rule]",
@@ -11858,6 +12900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isAsy",
           "package": "ampersand",
@@ -11867,6 +12910,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isAsy",
           "normalized": "a-\u003eBool",
@@ -11882,6 +12926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isCpl",
           "package": "ampersand",
@@ -11891,6 +12936,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isCpl",
           "normalized": "Expression-\u003eBool",
@@ -11906,6 +12952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isEndo",
           "package": "ampersand",
@@ -11915,6 +12962,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isEndo",
           "normalized": "a-\u003eBool",
@@ -11930,6 +12978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isEpsilon",
           "package": "ampersand",
@@ -11939,6 +12988,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isEpsilon",
           "normalized": "a-\u003eBool",
@@ -11954,6 +13004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isFalse",
           "package": "ampersand",
@@ -11963,6 +13014,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isFalse",
           "normalized": "a-\u003eBool",
@@ -11978,6 +13030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isFunction",
           "package": "ampersand",
@@ -11987,6 +13040,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isFunction",
           "normalized": "a-\u003eBool",
@@ -12002,6 +13056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isIdent",
           "package": "ampersand",
@@ -12011,6 +13066,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isIdent",
           "normalized": "a-\u003eBool",
@@ -12026,6 +13082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isImin",
           "package": "ampersand",
@@ -12035,6 +13092,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isImin",
           "normalized": "a-\u003eBool",
@@ -12050,6 +13108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isInj",
           "package": "ampersand",
@@ -12059,6 +13118,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isInj",
           "normalized": "a-\u003eBool",
@@ -12074,6 +13134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isIrf",
           "package": "ampersand",
@@ -12083,6 +13144,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isIrf",
           "normalized": "a-\u003eBool",
@@ -12098,6 +13160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isNeg",
           "package": "ampersand",
@@ -12107,6 +13170,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isNeg",
           "normalized": "Expression-\u003eBool",
@@ -12122,6 +13186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isPlugIndex",
           "package": "ampersand",
@@ -12131,6 +13196,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isPlugIndex",
           "normalized": "PlugSQL-\u003eSqlField-\u003eBool",
@@ -12146,6 +13212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isPos",
           "package": "ampersand",
@@ -12155,6 +13222,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isPos",
           "normalized": "Expression-\u003eBool",
@@ -12170,6 +13238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isProp",
           "package": "ampersand",
@@ -12179,6 +13248,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isProp",
           "normalized": "a-\u003eBool",
@@ -12194,6 +13264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isRfx",
           "package": "ampersand",
@@ -12203,6 +13274,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isRfx",
           "normalized": "a-\u003eBool",
@@ -12218,6 +13290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isSur",
           "package": "ampersand",
@@ -12227,6 +13300,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isSur",
           "normalized": "a-\u003eBool",
@@ -12242,6 +13316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isSym",
           "package": "ampersand",
@@ -12251,6 +13326,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isSym",
           "normalized": "a-\u003eBool",
@@ -12266,6 +13342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isTot",
           "package": "ampersand",
@@ -12275,6 +13352,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isTot",
           "normalized": "a-\u003eBool",
@@ -12290,6 +13368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isTrn",
           "package": "ampersand",
@@ -12299,6 +13378,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isTrn",
           "normalized": "a-\u003eBool",
@@ -12314,6 +13394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isTrue",
           "package": "ampersand",
@@ -12323,6 +13404,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isTrue",
           "normalized": "a-\u003eBool",
@@ -12338,6 +13420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "isUni",
           "package": "ampersand",
@@ -12347,6 +13430,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "isUni",
           "normalized": "a-\u003eBool",
@@ -12362,6 +13446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "join",
           "package": "ampersand",
@@ -12371,6 +13456,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "join",
           "normalized": "a-\u003ea-\u003ea",
@@ -12386,6 +13472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll concepts, grouped by their classifications\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "kernels",
           "package": "ampersand",
@@ -12396,6 +13483,7 @@
         "index": {
           "description": "All concepts grouped by their classifications",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "kernels",
           "normalized": "[[A_Concept]]",
@@ -12410,6 +13498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "language",
           "package": "ampersand",
@@ -12419,6 +13508,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "language",
           "package": "ampersand",
@@ -12432,6 +13522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis function takes all generalisation relations from the context and a concept and delivers a list of all concepts that are more generic than the given concept.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "largerConcepts",
           "package": "ampersand",
@@ -12442,6 +13533,7 @@
         "index": {
           "description": "this function takes all generalisation relations from the context and concept and delivers list of all concepts that are more generic than the given concept",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "largerConcepts",
           "normalized": "[A_Gen]-\u003eA_Concept-\u003e[A_Concept]",
@@ -12457,6 +13549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "linenr",
           "package": "ampersand",
@@ -12466,6 +13559,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "linenr",
           "normalized": "a-\u003eInt",
@@ -12480,6 +13574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "logName",
           "package": "ampersand",
@@ -12489,6 +13584,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "logName",
           "package": "ampersand",
@@ -12503,6 +13599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis returns all column\u003cem\u003etable pairs that serve as a concept table for cpt. When adding\u003c/em\u003eremoving atoms, all of these\n columns need to be updated \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "lookupCpt",
           "package": "ampersand",
@@ -12513,6 +13610,7 @@
         "index": {
           "description": "This returns all column table pairs that serve as concept table for cpt When adding removing atoms all of these columns need to be updated",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "lookupCpt",
           "normalized": "Fspc-\u003eA_Concept-\u003e[(PlugSQL,SqlField)]",
@@ -12528,6 +13626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "mFormat",
           "package": "ampersand",
@@ -12537,6 +13636,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "mFormat",
           "package": "ampersand",
@@ -12550,6 +13650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "mLang",
           "package": "ampersand",
@@ -12559,6 +13660,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "mLang",
           "package": "ampersand",
@@ -12572,6 +13674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "mLkp",
           "package": "ampersand",
@@ -12581,6 +13684,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "mLkp",
           "package": "ampersand",
@@ -12595,6 +13699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elookup table that links concepts to column names in the plug (kernel+attRels)\n mLkpTbl is een lijst met relaties die in deze plug opgeslagen zitten, en hoe je ze eruit kunt halen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "mLkpTbl",
           "package": "ampersand",
@@ -12605,6 +13710,7 @@
         "index": {
           "description": "lookup table that links concepts to column names in the plug kernel attRels mLkpTbl is een lijst met relaties die in deze plug opgeslagen zitten en hoe je ze eruit kunt halen",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "mLkpTbl",
           "normalized": "[(Expression,SqlField,SqlField)]",
@@ -12620,6 +13726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "mString",
           "package": "ampersand",
@@ -12629,6 +13736,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "mString",
           "package": "ampersand",
@@ -12642,6 +13750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "maintains",
           "package": "ampersand",
@@ -12651,6 +13760,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "maintains",
           "package": "ampersand",
@@ -12663,6 +13773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "makeFspec",
           "package": "ampersand",
@@ -12672,6 +13783,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "makeFspec",
           "normalized": "Options-\u003eA_Context-\u003eFspc",
@@ -12687,6 +13799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "makePicture",
           "package": "ampersand",
@@ -12696,6 +13809,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "makePicture",
           "normalized": "Options-\u003eFspc-\u003eDrawingType-\u003ea-\u003ePicture",
@@ -12711,6 +13825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "makePlug",
           "package": "ampersand",
@@ -12720,6 +13835,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "makePlug",
           "normalized": "PlugInfo-\u003ea",
@@ -12735,6 +13851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "mayEdit",
           "package": "ampersand",
@@ -12744,6 +13861,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "mayEdit",
           "package": "ampersand",
@@ -12757,6 +13875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "meaning",
           "package": "ampersand",
@@ -12766,6 +13885,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "meaning",
           "normalized": "Lang-\u003ea-\u003eMaybe A_Markup",
@@ -12780,6 +13900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "meaning2Blocks",
           "package": "ampersand",
@@ -12789,6 +13910,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "meaning2Blocks",
           "normalized": "Lang-\u003ea-\u003e[Block]",
@@ -12804,6 +13926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "meet",
           "package": "ampersand",
@@ -12813,6 +13936,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "meet",
           "normalized": "a-\u003ea-\u003ea",
@@ -12828,6 +13952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll meta declarations from the entire context      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "metas",
           "package": "ampersand",
@@ -12838,6 +13963,7 @@
         "index": {
           "description": "All meta declarations from the entire context",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "metas",
           "normalized": "[Meta]",
@@ -12852,6 +13978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "mkPair",
           "package": "ampersand",
@@ -12861,6 +13988,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "mkPair",
           "normalized": "String-\u003eString-\u003ePaire",
@@ -12876,6 +14004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "mp1Exprs",
           "package": "ampersand",
@@ -12885,6 +14014,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "mp1Exprs",
           "package": "ampersand",
@@ -12898,6 +14028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "multiplicities",
           "package": "ampersand",
@@ -12907,6 +14038,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "multiplicities",
           "normalized": "a-\u003e[Prop]",
@@ -12921,6 +14053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "multrules",
           "package": "ampersand",
@@ -12930,6 +14063,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "multrules",
           "package": "ampersand",
@@ -12942,6 +14076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "name",
           "package": "ampersand",
@@ -12951,6 +14086,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "name",
           "normalized": "a-\u003eString",
@@ -12965,6 +14101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "namespace",
           "package": "ampersand",
@@ -12974,6 +14111,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "namespace",
           "package": "ampersand",
@@ -12986,6 +14124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "nfProof",
           "package": "ampersand",
@@ -12995,6 +14134,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "nfProof",
           "normalized": "(Expression-\u003eString)-\u003eExpression-\u003eProof Expression",
@@ -13010,6 +14150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "noDiagnosis",
           "package": "ampersand",
@@ -13019,6 +14160,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "noDiagnosis",
           "package": "ampersand",
@@ -13032,6 +14174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "normPA",
           "package": "ampersand",
@@ -13041,6 +14184,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "normPA",
           "normalized": "PAclause-\u003ePAclause",
@@ -13056,6 +14200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "notCpl",
           "package": "ampersand",
@@ -13065,6 +14210,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "notCpl",
           "normalized": "Expression-\u003eExpression",
@@ -13080,6 +14226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "objAts",
           "package": "ampersand",
@@ -13089,6 +14236,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "objAts",
           "normalized": "ObjectDef-\u003e[ObjectDef]",
@@ -13104,6 +14252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "objDefs",
           "package": "ampersand",
@@ -13113,6 +14262,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "objDefs",
           "normalized": "a-\u003e[ObjectDef]",
@@ -13128,6 +14278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "objatsLegacy",
           "package": "ampersand",
@@ -13137,6 +14288,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "objatsLegacy",
           "normalized": "ObjectDef-\u003e[ObjectDef]",
@@ -13153,6 +14305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis expression describes the instances of this object, related to their context. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "objctx",
           "package": "ampersand",
@@ -13163,6 +14316,7 @@
         "index": {
           "description": "this expression describes the instances of this object related to their context",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "objctx",
           "package": "ampersand",
@@ -13175,6 +14329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "objectdef",
           "package": "ampersand",
@@ -13184,6 +14339,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "objectdef",
           "package": "ampersand",
@@ -13197,6 +14353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe attributes, which are object definitions themselves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "objmsub",
           "package": "ampersand",
@@ -13207,6 +14364,7 @@
         "index": {
           "description": "the attributes which are object definitions themselves",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "objmsub",
           "package": "ampersand",
@@ -13220,6 +14378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eview name of the object definition. The label has no meaning in the Compliant Service Layer, but is used in the generated user interface if it is not an empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "objnm",
           "package": "ampersand",
@@ -13230,6 +14389,7 @@
         "index": {
           "description": "view name of the object definition The label has no meaning in the Compliant Service Layer but is used in the generated user interface if it is not an empty string",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "objnm",
           "package": "ampersand",
@@ -13243,6 +14403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eposition of this definition in the text of the Ampersand source file (filename, line number and column number)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "objpos",
           "package": "ampersand",
@@ -13253,6 +14414,7 @@
         "index": {
           "description": "position of this definition in the text of the Ampersand source file filename line number and column number",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "objpos",
           "package": "ampersand",
@@ -13266,6 +14428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edirectives that specify the interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "objstrs",
           "package": "ampersand",
@@ -13276,6 +14439,7 @@
         "index": {
           "description": "directives that specify the interface",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "objstrs",
           "normalized": "[[String]]",
@@ -13290,6 +14454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "origin",
           "package": "ampersand",
@@ -13299,6 +14464,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "origin",
           "normalized": "a-\u003eOrigin",
@@ -13313,6 +14479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "outputfile",
           "package": "ampersand",
@@ -13322,6 +14489,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "outputfile",
           "package": "ampersand",
@@ -13334,6 +14502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pCtx2aCtx",
           "package": "ampersand",
@@ -13343,6 +14512,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pCtx2aCtx",
           "normalized": "P_Context-\u003eGuarded A_Context",
@@ -13358,6 +14528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pSrc",
           "package": "ampersand",
@@ -13367,6 +14538,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pSrc",
           "package": "ampersand",
@@ -13380,6 +14552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pTrg",
           "package": "ampersand",
@@ -13389,6 +14562,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pTrg",
           "package": "ampersand",
@@ -13402,6 +14576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_cnme",
           "package": "ampersand",
@@ -13411,6 +14586,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_cnme",
           "package": "ampersand",
@@ -13423,6 +14599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_cptnm",
           "package": "ampersand",
@@ -13432,6 +14609,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_cptnm",
           "package": "ampersand",
@@ -13444,6 +14622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_orig",
           "package": "ampersand",
@@ -13453,6 +14632,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_orig",
           "package": "ampersand",
@@ -13465,6 +14645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_popas",
           "package": "ampersand",
@@ -13474,6 +14655,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_popas",
           "normalized": "[String]",
@@ -13488,6 +14670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_popps",
           "package": "ampersand",
@@ -13497,6 +14680,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_popps",
           "package": "ampersand",
@@ -13509,6 +14693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_rnme",
           "package": "ampersand",
@@ -13518,6 +14703,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_rnme",
           "package": "ampersand",
@@ -13530,6 +14716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_type",
           "package": "ampersand",
@@ -13539,6 +14726,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "p_type",
           "package": "ampersand",
@@ -13551,6 +14739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pangoFont",
           "package": "ampersand",
@@ -13560,6 +14749,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pangoFont",
           "package": "ampersand",
@@ -13574,6 +14764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse isolated ADL1 expression strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "parseADL1pExpr",
           "package": "ampersand",
@@ -13584,6 +14775,7 @@
         "index": {
           "description": "Parse isolated ADL1 expression strings",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "parseADL1pExpr",
           "normalized": "String-\u003eString-\u003eEither String(Term TermPrim)",
@@ -13599,6 +14791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "parserVersion",
           "package": "ampersand",
@@ -13608,6 +14801,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "parserVersion",
           "package": "ampersand",
@@ -13621,6 +14815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "patterns",
           "package": "ampersand",
@@ -13630,6 +14825,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "patterns",
           "package": "ampersand",
@@ -13642,6 +14838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pexMarkup",
           "package": "ampersand",
@@ -13651,6 +14848,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pexMarkup",
           "package": "ampersand",
@@ -13664,6 +14862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pexObj",
           "package": "ampersand",
@@ -13673,6 +14872,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pexObj",
           "package": "ampersand",
@@ -13686,6 +14886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pexPos",
           "package": "ampersand",
@@ -13695,6 +14896,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pexPos",
           "package": "ampersand",
@@ -13708,6 +14910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pexRefID",
           "package": "ampersand",
@@ -13717,6 +14920,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pexRefID",
           "package": "ampersand",
@@ -13730,6 +14934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "plugFields",
           "package": "ampersand",
@@ -13739,6 +14944,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "plugFields",
           "normalized": "PlugSQL-\u003e[SqlField]",
@@ -13755,6 +14961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll plugs (defined and derived)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "plugInfos",
           "package": "ampersand",
@@ -13765,6 +14972,7 @@
         "index": {
           "description": "All plugs defined and derived",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "plugInfos",
           "normalized": "[PlugInfo]",
@@ -13780,6 +14988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "plugpath",
           "package": "ampersand",
@@ -13789,6 +14998,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "plugpath",
           "normalized": "PlugSQL-\u003eSqlField-\u003eSqlField-\u003eMaybe Expression",
@@ -13803,6 +15013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "popas",
           "package": "ampersand",
@@ -13812,6 +15023,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "popas",
           "normalized": "[String]",
@@ -13826,6 +15038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "popcpt",
           "package": "ampersand",
@@ -13835,6 +15048,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "popcpt",
           "package": "ampersand",
@@ -13847,6 +15061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "popdcl",
           "package": "ampersand",
@@ -13856,6 +15071,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "popdcl",
           "package": "ampersand",
@@ -13868,6 +15084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "popps",
           "package": "ampersand",
@@ -13877,6 +15094,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "popps",
           "package": "ampersand",
@@ -13889,6 +15107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "postVersion",
           "package": "ampersand",
@@ -13898,6 +15117,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "postVersion",
           "package": "ampersand",
@@ -13911,6 +15131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ppv_segs",
           "package": "ampersand",
@@ -13920,6 +15141,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ppv_segs",
           "normalized": "[PairViewSegment a]",
@@ -13934,6 +15156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcDcls",
           "package": "ampersand",
@@ -13943,6 +15166,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcDcls",
           "normalized": "[Declaration]",
@@ -13959,6 +15183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe end position in the file, elements with a position between pos and end are elements of this process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcEnd",
           "package": "ampersand",
@@ -13969,6 +15194,7 @@
         "index": {
           "description": "the end position in the file elements with position between pos and end are elements of this process",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcEnd",
           "package": "ampersand",
@@ -13982,6 +15208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcGens",
           "package": "ampersand",
@@ -13991,6 +15218,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcGens",
           "normalized": "[A_Gen]",
@@ -14007,6 +15235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity definitions defined in this process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcIds",
           "package": "ampersand",
@@ -14017,6 +15246,7 @@
         "index": {
           "description": "The identity definitions defined in this process",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcIds",
           "normalized": "[IdentityDef]",
@@ -14032,6 +15262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcNm",
           "package": "ampersand",
@@ -14041,6 +15272,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcNm",
           "package": "ampersand",
@@ -14054,6 +15286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcPos",
           "package": "ampersand",
@@ -14063,6 +15296,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcPos",
           "package": "ampersand",
@@ -14077,6 +15311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe assignment of roles to Relations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcRRels",
           "package": "ampersand",
@@ -14087,6 +15322,7 @@
         "index": {
           "description": "The assignment of roles to Relations",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcRRels",
           "normalized": "[(String,Declaration)]",
@@ -14103,6 +15339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe assignment of roles to rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcRRuls",
           "package": "ampersand",
@@ -14113,6 +15350,7 @@
         "index": {
           "description": "The assignment of roles to rules",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcRRuls",
           "normalized": "[(String,Rule)]",
@@ -14128,6 +15366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcRules",
           "package": "ampersand",
@@ -14137,6 +15376,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcRules",
           "normalized": "[Rule]",
@@ -14153,6 +15393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user defined populations in this process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcUps",
           "package": "ampersand",
@@ -14163,6 +15404,7 @@
         "index": {
           "description": "The user defined populations in this process",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcUps",
           "normalized": "[Population]",
@@ -14179,6 +15421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe view definitions defined in this process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcVds",
           "package": "ampersand",
@@ -14189,6 +15432,7 @@
         "index": {
           "description": "The view definitions defined in this process",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcVds",
           "normalized": "[ViewDef]",
@@ -14205,6 +15449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe motivations of elements defined in this process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcXps",
           "package": "ampersand",
@@ -14215,6 +15460,7 @@
         "index": {
           "description": "The motivations of elements defined in this process",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "prcXps",
           "normalized": "[Purpose]",
@@ -14230,6 +15476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "preVersion",
           "package": "ampersand",
@@ -14239,6 +15486,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "preVersion",
           "package": "ampersand",
@@ -14252,6 +15500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "processRules",
           "package": "ampersand",
@@ -14261,6 +15510,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "processRules",
           "package": "ampersand",
@@ -14274,6 +15524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "processes",
           "package": "ampersand",
@@ -14283,6 +15534,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "processes",
           "package": "ampersand",
@@ -14295,6 +15547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "progrName",
           "package": "ampersand",
@@ -14304,6 +15557,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "progrName",
           "package": "ampersand",
@@ -14317,6 +15571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "proofs",
           "package": "ampersand",
@@ -14326,6 +15581,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "proofs",
           "package": "ampersand",
@@ -14339,6 +15595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe concept definitions defined in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_cds",
           "package": "ampersand",
@@ -14349,6 +15606,7 @@
         "index": {
           "description": "The concept definitions defined in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_cds",
           "normalized": "[ConceptDef]",
@@ -14364,6 +15622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe declarations declared in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_dcs",
           "package": "ampersand",
@@ -14374,6 +15633,7 @@
         "index": {
           "description": "The declarations declared in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_dcs",
           "normalized": "[P_Declaration]",
@@ -14389,6 +15649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe end position in the file in which this pattern was declared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_end",
           "package": "ampersand",
@@ -14399,6 +15660,7 @@
         "index": {
           "description": "the end position in the file in which this pattern was declared",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_end",
           "package": "ampersand",
@@ -14412,6 +15674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe generalizations defined in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_gns",
           "package": "ampersand",
@@ -14422,6 +15685,7 @@
         "index": {
           "description": "The generalizations defined in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_gns",
           "normalized": "[P_Gen]",
@@ -14437,6 +15701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity definitions defined in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_ids",
           "package": "ampersand",
@@ -14447,6 +15712,7 @@
         "index": {
           "description": "The identity definitions defined in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_ids",
           "normalized": "[P_IdentDef]",
@@ -14462,6 +15728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_nm",
           "package": "ampersand",
@@ -14472,6 +15739,7 @@
         "index": {
           "description": "Name of this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_nm",
           "package": "ampersand",
@@ -14485,6 +15753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe populations that are local to this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_pop",
           "package": "ampersand",
@@ -14495,6 +15764,7 @@
         "index": {
           "description": "The populations that are local to this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_pop",
           "normalized": "[P_Population]",
@@ -14510,6 +15780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe starting position in the file in which this pattern was declared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_pos",
           "package": "ampersand",
@@ -14520,6 +15791,7 @@
         "index": {
           "description": "the starting position in the file in which this pattern was declared",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_pos",
           "package": "ampersand",
@@ -14533,6 +15805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe assignment of roles to Relations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_res",
           "package": "ampersand",
@@ -14543,6 +15816,7 @@
         "index": {
           "description": "The assignment of roles to Relations",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_res",
           "normalized": "[P_RoleRelation]",
@@ -14558,6 +15832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user defined rules in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_rls",
           "package": "ampersand",
@@ -14568,6 +15843,7 @@
         "index": {
           "description": "The user defined rules in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_rls",
           "normalized": "[P_Rule TermPrim]",
@@ -14583,6 +15859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe assignment of roles to rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_rus",
           "package": "ampersand",
@@ -14593,6 +15870,7 @@
         "index": {
           "description": "The assignment of roles to rules",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_rus",
           "normalized": "[RoleRule]",
@@ -14608,6 +15886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe view definitions defined in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_vds",
           "package": "ampersand",
@@ -14618,6 +15897,7 @@
         "index": {
           "description": "The view definitions defined in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_vds",
           "normalized": "[P_ViewDef]",
@@ -14633,6 +15913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe purposes of elements defined in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_xps",
           "package": "ampersand",
@@ -14643,6 +15924,7 @@
         "index": {
           "description": "The purposes of elements defined in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "pt_xps",
           "normalized": "[PPurpose]",
@@ -14658,6 +15940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe declarations declared in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptdcs",
           "package": "ampersand",
@@ -14668,6 +15951,7 @@
         "index": {
           "description": "The declarations declared in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptdcs",
           "normalized": "[Declaration]",
@@ -14683,6 +15967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe end position in the file, elements with a position between pos and end are elements of this pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptend",
           "package": "ampersand",
@@ -14693,6 +15978,7 @@
         "index": {
           "description": "the end position in the file elements with position between pos and end are elements of this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptend",
           "package": "ampersand",
@@ -14706,6 +15992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe generalizations defined in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptgns",
           "package": "ampersand",
@@ -14716,6 +16003,7 @@
         "index": {
           "description": "The generalizations defined in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptgns",
           "normalized": "[A_Gen]",
@@ -14731,6 +16019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity definitions defined in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptids",
           "package": "ampersand",
@@ -14741,6 +16030,7 @@
         "index": {
           "description": "The identity definitions defined in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptids",
           "normalized": "[IdentityDef]",
@@ -14756,6 +16046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptnm",
           "package": "ampersand",
@@ -14766,6 +16057,7 @@
         "index": {
           "description": "Name of this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptnm",
           "package": "ampersand",
@@ -14779,6 +16071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position in the file in which this pattern was declared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptpos",
           "package": "ampersand",
@@ -14789,6 +16082,7 @@
         "index": {
           "description": "the position in the file in which this pattern was declared",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptpos",
           "package": "ampersand",
@@ -14802,6 +16096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user defined rules in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptrls",
           "package": "ampersand",
@@ -14812,6 +16107,7 @@
         "index": {
           "description": "The user defined rules in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptrls",
           "normalized": "[Rule]",
@@ -14827,6 +16123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe assignment of roles to Relations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptrrels",
           "package": "ampersand",
@@ -14837,6 +16134,7 @@
         "index": {
           "description": "The assignment of roles to Relations",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptrrels",
           "normalized": "[(String,Declaration)]",
@@ -14852,6 +16150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe assignment of roles to rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptrruls",
           "package": "ampersand",
@@ -14862,6 +16161,7 @@
         "index": {
           "description": "The assignment of roles to rules",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptrruls",
           "normalized": "[(String,Rule)]",
@@ -14877,6 +16177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user defined populations in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptups",
           "package": "ampersand",
@@ -14887,6 +16188,7 @@
         "index": {
           "description": "The user defined populations in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptups",
           "normalized": "[Population]",
@@ -14902,6 +16204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe view definitions defined in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptvds",
           "package": "ampersand",
@@ -14912,6 +16215,7 @@
         "index": {
           "description": "The view definitions defined in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptvds",
           "normalized": "[ViewDef]",
@@ -14927,6 +16231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe purposes of elements defined in this pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptxps",
           "package": "ampersand",
@@ -14937,6 +16242,7 @@
         "index": {
           "description": "The purposes of elements defined in this pattern",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "ptxps",
           "normalized": "[Purpose]",
@@ -14951,6 +16257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "purposeOf",
           "package": "ampersand",
@@ -14960,6 +16267,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "purposeOf",
           "package": "ampersand",
@@ -14973,6 +16281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "purposesDefinedIn",
           "package": "ampersand",
@@ -14982,6 +16291,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "purposesDefinedIn",
           "package": "ampersand",
@@ -14995,6 +16305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "putStr",
           "package": "ampersand",
@@ -15004,6 +16315,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "putStr",
           "normalized": "String-\u003eIO()",
@@ -15019,6 +16331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "qClauses",
           "package": "ampersand",
@@ -15028,6 +16341,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "qClauses",
           "package": "ampersand",
@@ -15041,6 +16355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "qDcl",
           "package": "ampersand",
@@ -15050,6 +16365,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "qDcl",
           "package": "ampersand",
@@ -15063,6 +16379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "qRule",
           "package": "ampersand",
@@ -15072,6 +16389,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "qRule",
           "package": "ampersand",
@@ -15086,6 +16404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of pattern in which it was defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "r_env",
           "package": "ampersand",
@@ -15096,6 +16415,7 @@
         "index": {
           "description": "Name of pattern in which it was defined",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "r_env",
           "package": "ampersand",
@@ -15109,6 +16429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if this is a signal; False if it is an invariant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "r_sgl",
           "package": "ampersand",
@@ -15119,6 +16440,7 @@
         "index": {
           "description": "True if this is signal False if it is an invariant",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "r_sgl",
           "package": "ampersand",
@@ -15132,6 +16454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere does this rule come from?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "r_usr",
           "package": "ampersand",
@@ -15142,6 +16465,7 @@
         "index": {
           "description": "Where does this rule come from",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "r_usr",
           "package": "ampersand",
@@ -15154,6 +16478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rc_conjunct",
           "package": "ampersand",
@@ -15163,6 +16488,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rc_conjunct",
           "package": "ampersand",
@@ -15175,6 +16501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rc_dnfClauses",
           "package": "ampersand",
@@ -15184,6 +16511,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rc_dnfClauses",
           "normalized": "[DnfClause]",
@@ -15199,6 +16527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rc_int",
           "package": "ampersand",
@@ -15208,6 +16537,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rc_int",
           "package": "ampersand",
@@ -15220,6 +16550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rc_rulename",
           "package": "ampersand",
@@ -15229,6 +16560,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rc_rulename",
           "package": "ampersand",
@@ -15241,6 +16573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "readFile",
           "package": "ampersand",
@@ -15250,6 +16583,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO String",
@@ -15265,6 +16599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "relsUsedIn",
           "package": "ampersand",
@@ -15274,6 +16609,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "relsUsedIn",
           "package": "ampersand",
@@ -15287,6 +16623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "requiredFields",
           "package": "ampersand",
@@ -15296,6 +16633,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "requiredFields",
           "normalized": "PlugSQL-\u003eSqlField-\u003e[SqlField]",
@@ -15311,6 +16649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "requires",
           "package": "ampersand",
@@ -15320,6 +16659,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "requires",
           "normalized": "PlugSQL-\u003e(SqlField,SqlField)-\u003eBool",
@@ -15334,6 +16674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "roles",
           "package": "ampersand",
@@ -15343,6 +16684,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "roles",
           "package": "ampersand",
@@ -15356,6 +16698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis function returns the most generic concepts in the class of a given concept\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rootConcepts",
           "package": "ampersand",
@@ -15366,6 +16709,7 @@
         "index": {
           "description": "this function returns the most generic concepts in the class of given concept",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rootConcepts",
           "normalized": "[A_Gen]-\u003e[A_Concept]-\u003e[A_Concept]",
@@ -15382,6 +16726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rule expression \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rr_exp",
           "package": "ampersand",
@@ -15392,6 +16737,7 @@
         "index": {
           "description": "The rule expression",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rr_exp",
           "package": "ampersand",
@@ -15405,6 +16751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition in the Ampersand file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rr_fps",
           "package": "ampersand",
@@ -15415,6 +16762,7 @@
         "index": {
           "description": "Position in the Ampersand file",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rr_fps",
           "package": "ampersand",
@@ -15428,6 +16776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser-specified meanings, possibly more than one, for multiple languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rr_mean",
           "package": "ampersand",
@@ -15438,6 +16787,7 @@
         "index": {
           "description": "User-specified meanings possibly more than one for multiple languages",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rr_mean",
           "normalized": "[PMeaning]",
@@ -15453,6 +16803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser-specified violation messages, possibly more than one, for multiple languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rr_msg",
           "package": "ampersand",
@@ -15463,6 +16814,7 @@
         "index": {
           "description": "User-specified violation messages possibly more than one for multiple languages",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rr_msg",
           "normalized": "[PMessage]",
@@ -15478,6 +16830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of this rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rr_nm",
           "package": "ampersand",
@@ -15488,6 +16841,7 @@
         "index": {
           "description": "Name of this rule",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rr_nm",
           "package": "ampersand",
@@ -15501,6 +16855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom presentation for violations, currently only in a single language\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rr_viol",
           "package": "ampersand",
@@ -15511,6 +16866,7 @@
         "index": {
           "description": "Custom presentation for violations currently only in single language",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rr_viol",
           "package": "ampersand",
@@ -15524,6 +16880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe property, if this rule originates from a property on a Declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrdcl",
           "package": "ampersand",
@@ -15534,6 +16891,7 @@
         "index": {
           "description": "The property if this rule originates from property on Declaration",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrdcl",
           "normalized": "Maybe(Prop,Declaration)",
@@ -15549,6 +16907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rule expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrexp",
           "package": "ampersand",
@@ -15559,6 +16918,7 @@
         "index": {
           "description": "The rule expression",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrexp",
           "package": "ampersand",
@@ -15572,6 +16932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition in the Ampersand file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrfps",
           "package": "ampersand",
@@ -15582,6 +16943,7 @@
         "index": {
           "description": "Position in the Ampersand file",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrfps",
           "package": "ampersand",
@@ -15595,6 +16957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAmpersand generated meaning (for all known languages)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrmean",
           "package": "ampersand",
@@ -15605,6 +16968,7 @@
         "index": {
           "description": "Ampersand generated meaning for all known languages",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrmean",
           "package": "ampersand",
@@ -15618,6 +16982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser-specified violation messages, possibly more than one, for multiple languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrmsg",
           "package": "ampersand",
@@ -15628,6 +16993,7 @@
         "index": {
           "description": "User-specified violation messages possibly more than one for multiple languages",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrmsg",
           "normalized": "[A_Markup]",
@@ -15643,6 +17009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of this rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrnm",
           "package": "ampersand",
@@ -15653,6 +17020,7 @@
         "index": {
           "description": "Name of this rule",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrnm",
           "package": "ampersand",
@@ -15666,6 +17034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocated type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrtyp",
           "package": "ampersand",
@@ -15676,6 +17045,7 @@
         "index": {
           "description": "Allocated type",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrtyp",
           "package": "ampersand",
@@ -15689,6 +17059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom presentation for violations, currently only in a single language\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrviol",
           "package": "ampersand",
@@ -15699,6 +17070,7 @@
         "index": {
           "description": "Custom presentation for violations currently only in single language",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rrviol",
           "package": "ampersand",
@@ -15711,6 +17083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "rulefromProp",
           "package": "ampersand",
@@ -15720,6 +17093,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "rulefromProp",
           "normalized": "Prop-\u003eDeclaration-\u003eRule",
@@ -15735,6 +17109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "showADL",
           "package": "ampersand",
@@ -15744,6 +17119,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "showADL",
           "normalized": "a-\u003eString",
@@ -15759,6 +17135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "showErr",
           "package": "ampersand",
@@ -15768,6 +17145,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "showErr",
           "normalized": "CtxError-\u003eString",
@@ -15783,6 +17161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "showHS",
           "package": "ampersand",
@@ -15792,6 +17171,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "showHS",
           "normalized": "Options-\u003eString-\u003ea-\u003eString",
@@ -15807,6 +17187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "showHSName",
           "package": "ampersand",
@@ -15816,6 +17197,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "showHSName",
           "normalized": "a-\u003eString",
@@ -15831,6 +17213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "showHelp",
           "package": "ampersand",
@@ -15840,6 +17223,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "showHelp",
           "package": "ampersand",
@@ -15853,6 +17237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "showPredExpr",
           "package": "ampersand",
@@ -15862,6 +17247,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "showPredExpr",
           "package": "ampersand",
@@ -15875,6 +17261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "showPrf",
           "package": "ampersand",
@@ -15884,6 +17271,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "showPrf",
           "normalized": "(a-\u003eString)-\u003eProof a-\u003e[String]",
@@ -15899,6 +17287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "showSQL",
           "package": "ampersand",
@@ -15908,6 +17297,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "showSQL",
           "normalized": "SqlType-\u003eString",
@@ -15923,6 +17313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "showSign",
           "package": "ampersand",
@@ -15932,6 +17323,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "showSign",
           "normalized": "a-\u003eString",
@@ -15947,6 +17339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "showVersion",
           "package": "ampersand",
@@ -15956,6 +17349,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "showVersion",
           "package": "ampersand",
@@ -15969,6 +17363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "sign",
           "package": "ampersand",
@@ -15978,6 +17373,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "sign",
           "normalized": "a-\u003eSign",
@@ -15992,6 +17388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "simplify",
           "package": "ampersand",
@@ -16001,6 +17398,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "simplify",
           "normalized": "Expression-\u003eExpression",
@@ -16016,6 +17414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis function takes all generalisation relations from the context and a concept and delivers a list of all concepts that are more specific than the given concept.\n   If there are no cycles in the generalization graph,  cpt  cannot be an element of  smallerConcepts gens cpt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "smallerConcepts",
           "package": "ampersand",
@@ -16026,6 +17425,7 @@
         "index": {
           "description": "this function takes all generalisation relations from the context and concept and delivers list of all concepts that are more specific than the given concept If there are no cycles in the generalization graph cpt cannot be an element of smallerConcepts gens cpt",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "smallerConcepts",
           "normalized": "[A_Gen]-\u003eA_Concept-\u003e[A_Concept]",
@@ -16041,6 +17441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "sortWith",
           "package": "ampersand",
@@ -16050,6 +17451,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "sortWith",
           "normalized": "(a-\u003e[[a]],[a])-\u003e(b-\u003ea)-\u003e[b]-\u003e[b]",
@@ -16065,6 +17467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "source",
           "package": "ampersand",
@@ -16074,6 +17477,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "source",
           "normalized": "a-\u003eA_Concept",
@@ -16088,6 +17492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "sqlColumn",
           "package": "ampersand",
@@ -16097,6 +17502,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "sqlColumn",
           "package": "ampersand",
@@ -16110,6 +17516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "sqlHost",
           "package": "ampersand",
@@ -16119,6 +17526,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "sqlHost",
           "package": "ampersand",
@@ -16132,6 +17540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "sqlLogin",
           "package": "ampersand",
@@ -16141,6 +17550,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "sqlLogin",
           "package": "ampersand",
@@ -16154,6 +17564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "sqlPwd",
           "package": "ampersand",
@@ -16163,6 +17574,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "sqlPwd",
           "package": "ampersand",
@@ -16176,6 +17588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "sqlname",
           "package": "ampersand",
@@ -16185,6 +17598,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "sqlname",
           "package": "ampersand",
@@ -16198,6 +17612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe signal relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "srrel",
           "package": "ampersand",
@@ -16208,6 +17623,7 @@
         "index": {
           "description": "the signal relation",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "srrel",
           "package": "ampersand",
@@ -16220,6 +17636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "tblcontents",
           "package": "ampersand",
@@ -16229,6 +17646,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "tblcontents",
           "normalized": "[A_Gen]-\u003e[Population]-\u003ePlugSQL-\u003e[TblRecord]",
@@ -16243,6 +17661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "test",
           "package": "ampersand",
@@ -16252,6 +17671,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "test",
           "package": "ampersand",
@@ -16264,6 +17684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "testRule",
           "package": "ampersand",
@@ -16273,6 +17694,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "testRule",
           "package": "ampersand",
@@ -16286,6 +17708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "theme",
           "package": "ampersand",
@@ -16295,6 +17718,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "theme",
           "package": "ampersand",
@@ -16308,6 +17732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe names of patterns/processes to be printed in the functional specification. (for making partial documentation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "themes",
           "package": "ampersand",
@@ -16318,6 +17743,7 @@
         "index": {
           "description": "The names of patterns processes to be printed in the functional specification for making partial documentation",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "themes",
           "normalized": "[String]",
@@ -16332,6 +17758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "udefrules",
           "package": "ampersand",
@@ -16341,6 +17768,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "udefrules",
           "package": "ampersand",
@@ -16354,6 +17782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the first character of a string to lowercase, with the exception that there is a second character, which is uppercase. \n uncap \u003ca\u003eAbcDe\u003c/a\u003e == \u003ca\u003eabcDe\u003c/a\u003e\n uncap \u003ca\u003eABcDE\u003c/a\u003e == \u003ca\u003eABcDE\u003c/a\u003e  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "unCap",
           "package": "ampersand",
@@ -16364,6 +17793,7 @@
         "index": {
           "description": "Converts the first character of string to lowercase with the exception that there is second character which is uppercase uncap AbcDe abcDe uncap ABcDE ABcDE",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "unCap",
           "normalized": "String-\u003eString",
@@ -16379,6 +17809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "uni",
           "package": "ampersand",
@@ -16388,6 +17819,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "uni",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -16403,6 +17835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the first character of a string to uppercase\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "upCap",
           "package": "ampersand",
@@ -16413,6 +17846,7 @@
         "index": {
           "description": "Converts the first character of string to uppercase",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "upCap",
           "normalized": "String-\u003eString",
@@ -16429,6 +17863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll conceptDefs defined in the Ampersand script including those of concepts not in concs fSpec\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vConceptDefs",
           "package": "ampersand",
@@ -16439,6 +17874,7 @@
         "index": {
           "description": "All conceptDefs defined in the Ampersand script including those of concepts not in concs fSpec",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vConceptDefs",
           "normalized": "[ConceptDef]",
@@ -16455,6 +17891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll ECA rules generated (by ADL2Fspec)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vEcas",
           "package": "ampersand",
@@ -16465,6 +17902,7 @@
         "index": {
           "description": "All ECA rules generated by ADL2Fspec",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vEcas",
           "normalized": "[ECArule]",
@@ -16481,6 +17919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll keys that apply in the entire Fspc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vIndices",
           "package": "ampersand",
@@ -16491,6 +17930,7 @@
         "index": {
           "description": "All keys that apply in the entire Fspc",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vIndices",
           "normalized": "[IdentityDef]",
@@ -16506,6 +17946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "validateSQL",
           "package": "ampersand",
@@ -16515,6 +17956,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "validateSQL",
           "package": "ampersand",
@@ -16529,6 +17971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll conjuncts generated (by ADL2Fspec)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vconjs",
           "package": "ampersand",
@@ -16539,6 +17982,7 @@
         "index": {
           "description": "All conjuncts generated by ADL2Fspec",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vconjs",
           "normalized": "[RuleClause]",
@@ -16554,6 +17998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe constituent attributes (i.e. name/expression pairs) of this view.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vdats",
           "package": "ampersand",
@@ -16564,6 +18009,7 @@
         "index": {
           "description": "the constituent attributes i.e name expression pairs of this view",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vdats",
           "normalized": "[ViewSegment]",
@@ -16579,6 +18025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis expression describes the instances of this object, related to their context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vdcpt",
           "package": "ampersand",
@@ -16589,6 +18036,7 @@
         "index": {
           "description": "this expression describes the instances of this object related to their context",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vdcpt",
           "package": "ampersand",
@@ -16602,6 +18050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe name (or label) of this View. The label has no meaning in the Compliant Service Layer, but is used in the generated user interface. It is not an empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vdlbl",
           "package": "ampersand",
@@ -16612,6 +18061,7 @@
         "index": {
           "description": "the name or label of this View The label has no meaning in the Compliant Service Layer but is used in the generated user interface It is not an empty string",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vdlbl",
           "package": "ampersand",
@@ -16625,6 +18075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eposition of this definition in the text of the Ampersand source file (filename, line number and column number).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vdpos",
           "package": "ampersand",
@@ -16635,6 +18086,7 @@
         "index": {
           "description": "position of this definition in the text of the Ampersand source file filename line number and column number",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vdpos",
           "package": "ampersand",
@@ -16647,6 +18099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "verbose",
           "package": "ampersand",
@@ -16656,6 +18109,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "verbose",
           "normalized": "Options-\u003eString-\u003eIO()",
@@ -16670,6 +18124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "verboseLn",
           "package": "ampersand",
@@ -16679,6 +18134,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "verboseLn",
           "normalized": "Options-\u003eString-\u003eIO()",
@@ -16694,6 +18150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "verboseP",
           "package": "ampersand",
@@ -16703,6 +18160,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "verboseP",
           "package": "ampersand",
@@ -16716,6 +18174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll gens that apply in the entire Fspc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vgens",
           "package": "ampersand",
@@ -16726,6 +18185,7 @@
         "index": {
           "description": "All gens that apply in the entire Fspc",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vgens",
           "normalized": "[A_Gen]",
@@ -16740,6 +18200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "viewDefs",
           "package": "ampersand",
@@ -16749,6 +18210,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "viewDefs",
           "package": "ampersand",
@@ -16763,6 +18225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll patterns taken from the Ampersand script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vpatterns",
           "package": "ampersand",
@@ -16773,6 +18236,7 @@
         "index": {
           "description": "All patterns taken from the Ampersand script",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vpatterns",
           "normalized": "[Pattern]",
@@ -16788,6 +18252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll plugs defined in the Ampersand script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vplugInfos",
           "package": "ampersand",
@@ -16798,6 +18263,7 @@
         "index": {
           "description": "All plugs defined in the Ampersand script",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vplugInfos",
           "normalized": "[PlugInfo]",
@@ -16814,6 +18280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll processes defined in the Ampersand script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vprocesses",
           "package": "ampersand",
@@ -16824,6 +18291,7 @@
         "index": {
           "description": "All processes defined in the Ampersand script",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vprocesses",
           "normalized": "[FProcess]",
@@ -16839,6 +18307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll quads generated (by ADL2Fspec)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vquads",
           "package": "ampersand",
@@ -16849,6 +18318,7 @@
         "index": {
           "description": "All quads generated by ADL2Fspec",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vquads",
           "normalized": "[Quad]",
@@ -16864,6 +18334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll user defined and generated declarations plus all defined and computed totals.\n   The generated declarations are all generalizations and\n   one declaration for each signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vrels",
           "package": "ampersand",
@@ -16874,6 +18345,7 @@
         "index": {
           "description": "All user defined and generated declarations plus all defined and computed totals The generated declarations are all generalizations and one declaration for each signal",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vrels",
           "normalized": "[Declaration]",
@@ -16889,6 +18361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll user defined rules that apply in the entire Fspc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vrules",
           "package": "ampersand",
@@ -16899,6 +18372,7 @@
         "index": {
           "description": "All user defined rules that apply in the entire Fspc",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vrules",
           "normalized": "[Rule]",
@@ -16914,6 +18388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll views that apply in the entire Fspc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "vviews",
           "package": "ampersand",
@@ -16924,6 +18399,7 @@
         "index": {
           "description": "All views that apply in the entire Fspc",
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "vviews",
           "normalized": "[ViewDef]",
@@ -16938,6 +18414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "workFromProcessRules",
           "package": "ampersand",
@@ -16947,6 +18424,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "workFromProcessRules",
           "normalized": "[A_Gen]-\u003e[Population]-\u003ea-\u003e[(Rule,Paire)]",
@@ -16962,6 +18440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "writeFile",
           "package": "ampersand",
@@ -16971,6 +18450,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "writeFile",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -16986,6 +18466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:43 UTC 2014",
           "module": "DatabaseDesign.Ampersand",
           "name": "writePicture",
           "package": "ampersand",
@@ -16995,6 +18476,7 @@
         },
         "index": {
           "hierarchy": "DatabaseDesign Ampersand",
+          "indexed": "2014-03-11T17:10:43",
           "module": "DatabaseDesign.Ampersand",
           "name": "writePicture",
           "normalized": "Options-\u003ePicture-\u003eIO()",

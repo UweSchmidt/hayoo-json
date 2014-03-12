@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NanoProlog"
+        "phrase": "NanoProlog",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.Interpreter",
           "name": "Interpreter",
           "package": "NanoProlog",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog Interpreter",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.Interpreter",
           "name": "Interpreter",
           "package": "NanoProlog",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e ask for a goal, and enuartes all solutions found, each preceded by\n a trace conatining the rules applied in a tree-like fashion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.Interpreter",
           "name": "loop",
           "package": "NanoProlog",
@@ -50,6 +53,7 @@
         "index": {
           "description": "loop ask for goal and enuartes all solutions found each preceded by trace conatining the rules applied in tree-like fashion",
           "hierarchy": "Language Prolog NanoProlog Interpreter",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.Interpreter",
           "name": "loop",
           "normalized": "[Rule]-\u003eIO()",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eprintSolutions\u003c/a\u003e\u003c/code\u003e takes the result of a treewalk, which constructs\n all the proofs, and pairs them with their final\n substitutions. Alternative approaches in printing are to print the\n raw proofs, i.e. without applying the final substitution (remove\n the \u003ccode\u003esubst env\u003c/code\u003e ). This nicely shows how the intermediate variables\n come into life. By including the test on the length the facts\n directly stemming from the data base are not printed. This makes\n the proofs much shorter, but a bit less complete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.Interpreter",
           "name": "printSolutions",
           "package": "NanoProlog",
@@ -75,6 +80,7 @@
         "index": {
           "description": "printSolutions takes the result of treewalk which constructs all the proofs and pairs them with their final substitutions Alternative approaches in printing are to print the raw proofs i.e without applying the final substitution remove the subst env This nicely shows how the intermediate variables come into life By including the test on the length the facts directly stemming from the data base are not printed This makes the proofs much shorter but bit less complete",
           "hierarchy": "Language Prolog NanoProlog Interpreter",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.Interpreter",
           "name": "printSolutions",
           "normalized": "Result-\u003eIO()",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003emain\u003c/code\u003e program prompt for a file with Prolog rules and call the main\n interpreter loop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.Interpreter",
           "name": "run",
           "package": "NanoProlog",
@@ -101,6 +108,7 @@
         "index": {
           "description": "The main program prompt for file with Prolog rules and call the main interpreter loop",
           "hierarchy": "Language Prolog NanoProlog Interpreter",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.Interpreter",
           "name": "run",
           "normalized": "IO()",
@@ -115,6 +123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "NanoProlog",
           "package": "NanoProlog",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "NanoProlog",
           "package": "NanoProlog",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Env",
           "package": "NanoProlog",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Env",
           "package": "NanoProlog",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "LowerCase",
           "package": "NanoProlog",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "LowerCase",
           "package": "NanoProlog",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Proofs",
           "package": "NanoProlog",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Proofs",
           "package": "NanoProlog",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Result",
           "package": "NanoProlog",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Result",
           "package": "NanoProlog",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Rule",
           "package": "NanoProlog",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Rule",
           "package": "NanoProlog",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Subst",
           "package": "NanoProlog",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Subst",
           "package": "NanoProlog",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Tag",
           "package": "NanoProlog",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Tag",
           "package": "NanoProlog",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Taggable",
           "package": "NanoProlog",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Taggable",
           "package": "NanoProlog",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "TaggedTerm",
           "package": "NanoProlog",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "TaggedTerm",
           "package": "NanoProlog",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Term",
           "package": "NanoProlog",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Term",
           "package": "NanoProlog",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "UpperCase",
           "package": "NanoProlog",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "UpperCase",
           "package": "NanoProlog",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": ":\u003c-:",
           "package": "NanoProlog",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": ":\u003c-:",
           "normalized": "Term[Term]",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "ApplyRules",
           "package": "NanoProlog",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "ApplyRules",
           "normalized": "ApplyRules[(Tag,Rule,Result)]",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Done",
           "package": "NanoProlog",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Done",
           "package": "NanoProlog",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Env",
           "package": "NanoProlog",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Env",
           "package": "NanoProlog",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Fun",
           "package": "NanoProlog",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Fun",
           "normalized": "Fun LowerCase[Term]",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Var",
           "package": "NanoProlog",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "Var",
           "package": "NanoProlog",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "emptyEnv",
           "package": "NanoProlog",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "emptyEnv",
           "package": "NanoProlog",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "enumerateDepthFirst",
           "package": "NanoProlog",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "enumerateDepthFirst",
           "normalized": "Proofs-\u003eResult-\u003e[(Proofs,Env)]",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "fromEnv",
           "package": "NanoProlog",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "fromEnv",
           "package": "NanoProlog",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "matches",
           "package": "NanoProlog",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "matches",
           "normalized": "(Term,Term)-\u003eMaybe Env-\u003eMaybe Env",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "solve",
           "package": "NanoProlog",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "solve",
           "normalized": "[Rule]-\u003eMaybe Env-\u003e[TaggedTerm]-\u003eResult",
@@ -618,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "subst",
           "package": "NanoProlog",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "subst",
           "normalized": "Env-\u003ea-\u003ea",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "tag",
           "package": "NanoProlog",
@@ -650,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "tag",
           "normalized": "Tag-\u003ea-\u003ea",
@@ -664,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "unify",
           "package": "NanoProlog",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog NanoProlog",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.NanoProlog",
           "name": "unify",
           "normalized": "(Term,Term)-\u003eMaybe Env-\u003eMaybe Env",
@@ -687,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "Parser",
           "package": "NanoProlog",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog Parser",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "Parser",
           "package": "NanoProlog",
@@ -708,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "pCons",
           "package": "NanoProlog",
@@ -717,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog Parser",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "pCons",
           "package": "NanoProlog",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "pFun",
           "package": "NanoProlog",
@@ -739,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog Parser",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "pFun",
           "package": "NanoProlog",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "pRule",
           "package": "NanoProlog",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog Parser",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "pRule",
           "package": "NanoProlog",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "pTerm",
           "package": "NanoProlog",
@@ -783,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog Parser",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "pTerm",
           "package": "NanoProlog",
@@ -796,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "pTerms",
           "package": "NanoProlog",
@@ -805,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog Parser",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "pTerms",
           "normalized": "Parser[Term]",
@@ -820,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:54 UTC 2014",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "startParse",
           "package": "NanoProlog",
@@ -829,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog NanoProlog Parser",
+          "indexed": "2014-03-11T16:53:54",
           "module": "Language.Prolog.NanoProlog.Parser",
           "name": "startParse",
           "normalized": "P(Str a b LineColPos)c-\u003eb-\u003e(c,[Error LineColPos])",

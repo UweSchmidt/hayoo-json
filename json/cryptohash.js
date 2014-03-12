@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cryptohash"
+        "phrase": "cryptohash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing MD2 bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD2",
           "name": "MD2",
           "package": "cryptohash",
@@ -28,6 +29,7 @@
         "index": {
           "description": "module containing MD2 bindings",
           "hierarchy": "Crypto Hash MD2",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD2",
           "name": "MD2",
           "package": "cryptohash",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMD2 Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD2",
           "name": "Ctx",
           "package": "cryptohash",
@@ -51,6 +54,7 @@
         "index": {
           "description": "MD2 Context",
           "hierarchy": "Crypto Hash MD2",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD2",
           "name": "Ctx",
           "package": "cryptohash",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD2",
           "name": "Ctx",
           "package": "cryptohash",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash MD2",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD2",
           "name": "Ctx",
           "package": "cryptohash",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD2",
           "name": "finalize",
           "package": "cryptohash",
@@ -97,6 +104,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash MD2",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD2",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD2",
           "name": "hash",
           "package": "cryptohash",
@@ -122,6 +131,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash MD2",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD2",
           "name": "hash",
           "normalized": "ByteString-\u003eByteString",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD2",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -147,6 +158,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash MD2",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD2",
           "name": "hashlazy",
           "normalized": "ByteString-\u003eByteString",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD2",
           "name": "init",
           "package": "cryptohash",
@@ -172,6 +185,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash MD2",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD2",
           "name": "init",
           "package": "cryptohash",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD2",
           "name": "update",
           "package": "cryptohash",
@@ -195,6 +210,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash MD2",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD2",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD2",
           "name": "updates",
           "package": "cryptohash",
@@ -220,6 +237,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash MD2",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD2",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing MD4 bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD4",
           "name": "MD4",
           "package": "cryptohash",
@@ -244,6 +263,7 @@
         "index": {
           "description": "module containing MD4 bindings",
           "hierarchy": "Crypto Hash MD4",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD4",
           "name": "MD4",
           "package": "cryptohash",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMD4 Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD4",
           "name": "Ctx",
           "package": "cryptohash",
@@ -267,6 +288,7 @@
         "index": {
           "description": "MD4 Context",
           "hierarchy": "Crypto Hash MD4",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD4",
           "name": "Ctx",
           "package": "cryptohash",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD4",
           "name": "Ctx",
           "package": "cryptohash",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash MD4",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD4",
           "name": "Ctx",
           "package": "cryptohash",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD4",
           "name": "finalize",
           "package": "cryptohash",
@@ -313,6 +338,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash MD4",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD4",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD4",
           "name": "hash",
           "package": "cryptohash",
@@ -338,6 +365,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash MD4",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD4",
           "name": "hash",
           "normalized": "ByteString-\u003eByteString",
@@ -353,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD4",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -363,6 +392,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash MD4",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD4",
           "name": "hashlazy",
           "normalized": "ByteString-\u003eByteString",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD4",
           "name": "init",
           "package": "cryptohash",
@@ -388,6 +419,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash MD4",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD4",
           "name": "init",
           "package": "cryptohash",
@@ -401,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD4",
           "name": "update",
           "package": "cryptohash",
@@ -411,6 +444,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash MD4",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD4",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -426,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD4",
           "name": "updates",
           "package": "cryptohash",
@@ -436,6 +471,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash MD4",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD4",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -451,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing MD5 bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD5",
           "name": "MD5",
           "package": "cryptohash",
@@ -460,6 +497,7 @@
         "index": {
           "description": "module containing MD5 bindings",
           "hierarchy": "Crypto Hash MD5",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD5",
           "name": "MD5",
           "package": "cryptohash",
@@ -474,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMD5 Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD5",
           "name": "Ctx",
           "package": "cryptohash",
@@ -483,6 +522,7 @@
         "index": {
           "description": "MD5 Context",
           "hierarchy": "Crypto Hash MD5",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD5",
           "name": "Ctx",
           "package": "cryptohash",
@@ -496,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD5",
           "name": "Ctx",
           "package": "cryptohash",
@@ -505,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash MD5",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD5",
           "name": "Ctx",
           "package": "cryptohash",
@@ -519,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD5",
           "name": "finalize",
           "package": "cryptohash",
@@ -529,6 +572,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash MD5",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD5",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -544,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD5",
           "name": "hash",
           "package": "cryptohash",
@@ -554,6 +599,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash MD5",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD5",
           "name": "hash",
           "normalized": "ByteString-\u003eByteString",
@@ -569,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD5",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -579,6 +626,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash MD5",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD5",
           "name": "hashlazy",
           "normalized": "ByteString-\u003eByteString",
@@ -594,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD5",
           "name": "init",
           "package": "cryptohash",
@@ -604,6 +653,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash MD5",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD5",
           "name": "init",
           "package": "cryptohash",
@@ -617,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD5",
           "name": "update",
           "package": "cryptohash",
@@ -627,6 +678,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash MD5",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD5",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -642,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.MD5",
           "name": "updates",
           "package": "cryptohash",
@@ -652,6 +705,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash MD5",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.MD5",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -667,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing RIPEMD160 bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "RIPEMD160",
           "package": "cryptohash",
@@ -676,6 +731,7 @@
         "index": {
           "description": "module containing RIPEMD160 bindings",
           "hierarchy": "Crypto Hash RIPEMD160",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "RIPEMD160",
           "package": "cryptohash",
@@ -690,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRIPEMD160 Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "Ctx",
           "package": "cryptohash",
@@ -699,6 +756,7 @@
         "index": {
           "description": "RIPEMD160 Context",
           "hierarchy": "Crypto Hash RIPEMD160",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "Ctx",
           "package": "cryptohash",
@@ -712,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "Ctx",
           "package": "cryptohash",
@@ -721,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash RIPEMD160",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "Ctx",
           "package": "cryptohash",
@@ -735,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "finalize",
           "package": "cryptohash",
@@ -745,6 +806,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash RIPEMD160",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -760,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "hash",
           "package": "cryptohash",
@@ -770,6 +833,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash RIPEMD160",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "hash",
           "normalized": "ByteString-\u003eByteString",
@@ -785,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -795,6 +860,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash RIPEMD160",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "hashlazy",
           "normalized": "ByteString-\u003eByteString",
@@ -810,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "init",
           "package": "cryptohash",
@@ -820,6 +887,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash RIPEMD160",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "init",
           "package": "cryptohash",
@@ -833,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "update",
           "package": "cryptohash",
@@ -843,6 +912,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash RIPEMD160",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -858,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "updates",
           "package": "cryptohash",
@@ -868,6 +939,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash RIPEMD160",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.RIPEMD160",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -883,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing SHA1 bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA1",
           "name": "SHA1",
           "package": "cryptohash",
@@ -892,6 +965,7 @@
         "index": {
           "description": "module containing SHA1 bindings",
           "hierarchy": "Crypto Hash SHA1",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA1",
           "name": "SHA1",
           "package": "cryptohash",
@@ -906,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA1 Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA1",
           "name": "Ctx",
           "package": "cryptohash",
@@ -915,6 +990,7 @@
         "index": {
           "description": "SHA1 Context",
           "hierarchy": "Crypto Hash SHA1",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA1",
           "name": "Ctx",
           "package": "cryptohash",
@@ -928,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA1",
           "name": "Ctx",
           "package": "cryptohash",
@@ -937,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash SHA1",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA1",
           "name": "Ctx",
           "package": "cryptohash",
@@ -951,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA1",
           "name": "finalize",
           "package": "cryptohash",
@@ -961,6 +1040,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash SHA1",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA1",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -976,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA1",
           "name": "hash",
           "package": "cryptohash",
@@ -986,6 +1067,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA1",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA1",
           "name": "hash",
           "normalized": "ByteString-\u003eByteString",
@@ -1001,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA1",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -1011,6 +1094,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA1",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA1",
           "name": "hashlazy",
           "normalized": "ByteString-\u003eByteString",
@@ -1026,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA1",
           "name": "init",
           "package": "cryptohash",
@@ -1036,6 +1121,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash SHA1",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA1",
           "name": "init",
           "package": "cryptohash",
@@ -1049,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA1",
           "name": "update",
           "package": "cryptohash",
@@ -1059,6 +1146,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash SHA1",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA1",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -1074,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA1",
           "name": "updates",
           "package": "cryptohash",
@@ -1084,6 +1173,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash SHA1",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA1",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -1099,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing SHA224 bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA224",
           "name": "SHA224",
           "package": "cryptohash",
@@ -1108,6 +1199,7 @@
         "index": {
           "description": "module containing SHA224 bindings",
           "hierarchy": "Crypto Hash SHA224",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA224",
           "name": "SHA224",
           "package": "cryptohash",
@@ -1122,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA224 Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA224",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1131,6 +1224,7 @@
         "index": {
           "description": "SHA224 Context",
           "hierarchy": "Crypto Hash SHA224",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA224",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1144,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA224",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1153,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash SHA224",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA224",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1167,6 +1263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA224",
           "name": "finalize",
           "package": "cryptohash",
@@ -1177,6 +1274,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash SHA224",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA224",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -1192,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA224",
           "name": "hash",
           "package": "cryptohash",
@@ -1202,6 +1301,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA224",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA224",
           "name": "hash",
           "normalized": "ByteString-\u003eByteString",
@@ -1217,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA224",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -1227,6 +1328,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA224",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA224",
           "name": "hashlazy",
           "normalized": "ByteString-\u003eByteString",
@@ -1242,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA224",
           "name": "init",
           "package": "cryptohash",
@@ -1252,6 +1355,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash SHA224",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA224",
           "name": "init",
           "package": "cryptohash",
@@ -1265,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA224",
           "name": "update",
           "package": "cryptohash",
@@ -1275,6 +1380,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash SHA224",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA224",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -1290,6 +1396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA224",
           "name": "updates",
           "package": "cryptohash",
@@ -1300,6 +1407,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash SHA224",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA224",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -1315,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing SHA256 bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA256",
           "name": "SHA256",
           "package": "cryptohash",
@@ -1324,6 +1433,7 @@
         "index": {
           "description": "module containing SHA256 bindings",
           "hierarchy": "Crypto Hash SHA256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA256",
           "name": "SHA256",
           "package": "cryptohash",
@@ -1338,6 +1448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA256 Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA256",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1347,6 +1458,7 @@
         "index": {
           "description": "SHA256 Context",
           "hierarchy": "Crypto Hash SHA256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA256",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1360,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA256",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1369,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash SHA256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA256",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1383,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA256",
           "name": "finalize",
           "package": "cryptohash",
@@ -1393,6 +1508,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash SHA256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA256",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -1408,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA256",
           "name": "hash",
           "package": "cryptohash",
@@ -1418,6 +1535,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA256",
           "name": "hash",
           "normalized": "ByteString-\u003eByteString",
@@ -1433,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA256",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -1443,6 +1562,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA256",
           "name": "hashlazy",
           "normalized": "ByteString-\u003eByteString",
@@ -1458,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA256",
           "name": "init",
           "package": "cryptohash",
@@ -1468,6 +1589,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash SHA256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA256",
           "name": "init",
           "package": "cryptohash",
@@ -1481,6 +1603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA256",
           "name": "update",
           "package": "cryptohash",
@@ -1491,6 +1614,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash SHA256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA256",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -1506,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA256",
           "name": "updates",
           "package": "cryptohash",
@@ -1516,6 +1641,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash SHA256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA256",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -1531,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing SHA3 bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA3",
           "name": "SHA3",
           "package": "cryptohash",
@@ -1540,6 +1667,7 @@
         "index": {
           "description": "module containing SHA3 bindings",
           "hierarchy": "Crypto Hash SHA3",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA3",
           "name": "SHA3",
           "package": "cryptohash",
@@ -1554,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA3 Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA3",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1563,6 +1692,7 @@
         "index": {
           "description": "SHA3 Context",
           "hierarchy": "Crypto Hash SHA3",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA3",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1576,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA3",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1585,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash SHA3",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA3",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1599,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA3",
           "name": "finalize",
           "package": "cryptohash",
@@ -1609,6 +1742,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash SHA3",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA3",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -1624,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA3",
           "name": "hash",
           "package": "cryptohash",
@@ -1634,6 +1769,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA3",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA3",
           "name": "hash",
           "normalized": "Int-\u003eByteString-\u003eByteString",
@@ -1649,6 +1785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA3",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -1659,6 +1796,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA3",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA3",
           "name": "hashlazy",
           "normalized": "Int-\u003eByteString-\u003eByteString",
@@ -1674,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA3",
           "name": "init",
           "package": "cryptohash",
@@ -1684,6 +1823,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash SHA3",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA3",
           "name": "init",
           "normalized": "Int-\u003eCtx",
@@ -1699,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA3",
           "name": "update",
           "package": "cryptohash",
@@ -1709,6 +1850,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash SHA3",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA3",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -1724,6 +1866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA3",
           "name": "updates",
           "package": "cryptohash",
@@ -1734,6 +1877,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash SHA3",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA3",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -1749,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing SHA384 bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA384",
           "name": "SHA384",
           "package": "cryptohash",
@@ -1758,6 +1903,7 @@
         "index": {
           "description": "module containing SHA384 bindings",
           "hierarchy": "Crypto Hash SHA384",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA384",
           "name": "SHA384",
           "package": "cryptohash",
@@ -1772,6 +1918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA384 Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA384",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1781,6 +1928,7 @@
         "index": {
           "description": "SHA384 Context",
           "hierarchy": "Crypto Hash SHA384",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA384",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1794,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA384",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1803,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash SHA384",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA384",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1817,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA384",
           "name": "finalize",
           "package": "cryptohash",
@@ -1827,6 +1978,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash SHA384",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA384",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -1842,6 +1994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA384",
           "name": "hash",
           "package": "cryptohash",
@@ -1852,6 +2005,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA384",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA384",
           "name": "hash",
           "normalized": "ByteString-\u003eByteString",
@@ -1867,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA384",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -1877,6 +2032,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA384",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA384",
           "name": "hashlazy",
           "normalized": "ByteString-\u003eByteString",
@@ -1892,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA384",
           "name": "init",
           "package": "cryptohash",
@@ -1902,6 +2059,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash SHA384",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA384",
           "name": "init",
           "package": "cryptohash",
@@ -1915,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA384",
           "name": "update",
           "package": "cryptohash",
@@ -1925,6 +2084,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash SHA384",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA384",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -1940,6 +2100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA384",
           "name": "updates",
           "package": "cryptohash",
@@ -1950,6 +2111,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash SHA384",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA384",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -1965,6 +2127,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing SHA512 bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512",
           "name": "SHA512",
           "package": "cryptohash",
@@ -1974,6 +2137,7 @@
         "index": {
           "description": "module containing SHA512 bindings",
           "hierarchy": "Crypto Hash SHA512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512",
           "name": "SHA512",
           "package": "cryptohash",
@@ -1988,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA512 Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512",
           "name": "Ctx",
           "package": "cryptohash",
@@ -1997,6 +2162,7 @@
         "index": {
           "description": "SHA512 Context",
           "hierarchy": "Crypto Hash SHA512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2010,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2019,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash SHA512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2033,6 +2201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512",
           "name": "finalize",
           "package": "cryptohash",
@@ -2043,6 +2212,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash SHA512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -2058,6 +2228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512",
           "name": "hash",
           "package": "cryptohash",
@@ -2068,6 +2239,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512",
           "name": "hash",
           "normalized": "ByteString-\u003eByteString",
@@ -2083,6 +2255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -2093,6 +2266,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512",
           "name": "hashlazy",
           "normalized": "ByteString-\u003eByteString",
@@ -2108,6 +2282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512",
           "name": "init",
           "package": "cryptohash",
@@ -2118,6 +2293,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash SHA512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512",
           "name": "init",
           "package": "cryptohash",
@@ -2131,6 +2307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context using FIPS 180-4 for truncated SHA512\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512",
           "name": "init_t",
           "package": "cryptohash",
@@ -2141,6 +2318,7 @@
         "index": {
           "description": "init context using FIPS for truncated SHA512",
           "hierarchy": "Crypto Hash SHA512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512",
           "name": "init_t",
           "normalized": "Int-\u003eCtx",
@@ -2156,6 +2334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512",
           "name": "update",
           "package": "cryptohash",
@@ -2166,6 +2345,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash SHA512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -2181,6 +2361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512",
           "name": "updates",
           "package": "cryptohash",
@@ -2191,6 +2372,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash SHA512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -2206,6 +2388,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing SHA512/t\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512t",
           "name": "SHA512t",
           "package": "cryptohash",
@@ -2215,6 +2398,7 @@
         "index": {
           "description": "module containing SHA512",
           "hierarchy": "Crypto Hash SHA512t",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512t",
           "name": "SHA512t",
           "package": "cryptohash",
@@ -2229,6 +2413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA512 Context with variable size output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512t",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2238,6 +2423,7 @@
         "index": {
           "description": "SHA512 Context with variable size output",
           "hierarchy": "Crypto Hash SHA512t",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512t",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2251,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512t",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2260,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash SHA512t",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512t",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2274,6 +2462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512t",
           "name": "finalize",
           "package": "cryptohash",
@@ -2284,6 +2473,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash SHA512t",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512t",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -2299,6 +2489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512t",
           "name": "hash",
           "package": "cryptohash",
@@ -2309,6 +2500,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA512t",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512t",
           "name": "hash",
           "normalized": "Int-\u003eByteString-\u003eByteString",
@@ -2324,6 +2516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512t",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -2334,6 +2527,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash SHA512t",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512t",
           "name": "hashlazy",
           "normalized": "Int-\u003eByteString-\u003eByteString",
@@ -2349,6 +2543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512t",
           "name": "init",
           "package": "cryptohash",
@@ -2359,6 +2554,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash SHA512t",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512t",
           "name": "init",
           "normalized": "Int-\u003eCtx",
@@ -2374,6 +2570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.SHA512t",
           "name": "update",
           "package": "cryptohash",
@@ -2384,6 +2581,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash SHA512t",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.SHA512t",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -2399,6 +2597,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing Skein256 bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein256",
           "name": "Skein256",
           "package": "cryptohash",
@@ -2408,6 +2607,7 @@
         "index": {
           "description": "module containing Skein256 bindings",
           "hierarchy": "Crypto Hash Skein256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein256",
           "name": "Skein256",
           "package": "cryptohash",
@@ -2422,6 +2622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein256 Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein256",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2431,6 +2632,7 @@
         "index": {
           "description": "Skein256 Context",
           "hierarchy": "Crypto Hash Skein256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein256",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2444,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein256",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2453,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash Skein256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein256",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2467,6 +2671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein256",
           "name": "finalize",
           "package": "cryptohash",
@@ -2477,6 +2682,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash Skein256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein256",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -2492,6 +2698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein256",
           "name": "hash",
           "package": "cryptohash",
@@ -2502,6 +2709,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash Skein256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein256",
           "name": "hash",
           "normalized": "Int-\u003eByteString-\u003eByteString",
@@ -2517,6 +2725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein256",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -2527,6 +2736,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash Skein256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein256",
           "name": "hashlazy",
           "normalized": "Int-\u003eByteString-\u003eByteString",
@@ -2542,6 +2752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein256",
           "name": "init",
           "package": "cryptohash",
@@ -2552,6 +2763,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash Skein256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein256",
           "name": "init",
           "normalized": "Int-\u003eCtx",
@@ -2567,6 +2779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein256",
           "name": "update",
           "package": "cryptohash",
@@ -2577,6 +2790,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash Skein256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein256",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -2592,6 +2806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein256",
           "name": "updates",
           "package": "cryptohash",
@@ -2602,6 +2817,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash Skein256",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein256",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -2617,6 +2833,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing Skein512 bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein512",
           "name": "Skein512",
           "package": "cryptohash",
@@ -2626,6 +2843,7 @@
         "index": {
           "description": "module containing Skein512 bindings",
           "hierarchy": "Crypto Hash Skein512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein512",
           "name": "Skein512",
           "package": "cryptohash",
@@ -2640,6 +2858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein512 Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein512",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2649,6 +2868,7 @@
         "index": {
           "description": "Skein512 Context",
           "hierarchy": "Crypto Hash Skein512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein512",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2662,6 +2882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein512",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2671,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash Skein512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein512",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2685,6 +2907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein512",
           "name": "finalize",
           "package": "cryptohash",
@@ -2695,6 +2918,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash Skein512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein512",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -2710,6 +2934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein512",
           "name": "hash",
           "package": "cryptohash",
@@ -2720,6 +2945,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash Skein512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein512",
           "name": "hash",
           "normalized": "Int-\u003eByteString-\u003eByteString",
@@ -2735,6 +2961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein512",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -2745,6 +2972,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash Skein512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein512",
           "name": "hashlazy",
           "normalized": "Int-\u003eByteString-\u003eByteString",
@@ -2760,6 +2988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein512",
           "name": "init",
           "package": "cryptohash",
@@ -2770,6 +2999,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash Skein512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein512",
           "name": "init",
           "normalized": "Int-\u003eCtx",
@@ -2785,6 +3015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein512",
           "name": "update",
           "package": "cryptohash",
@@ -2795,6 +3026,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash Skein512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein512",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -2810,6 +3042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Skein512",
           "name": "updates",
           "package": "cryptohash",
@@ -2820,6 +3053,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash Skein512",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Skein512",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -2835,6 +3069,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing Tiger bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Tiger",
           "name": "Tiger",
           "package": "cryptohash",
@@ -2844,6 +3079,7 @@
         "index": {
           "description": "module containing Tiger bindings",
           "hierarchy": "Crypto Hash Tiger",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Tiger",
           "name": "Tiger",
           "package": "cryptohash",
@@ -2858,6 +3094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTiger Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Tiger",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2867,6 +3104,7 @@
         "index": {
           "description": "Tiger Context",
           "hierarchy": "Crypto Hash Tiger",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Tiger",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2880,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Tiger",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2889,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash Tiger",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Tiger",
           "name": "Ctx",
           "package": "cryptohash",
@@ -2903,6 +3143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Tiger",
           "name": "finalize",
           "package": "cryptohash",
@@ -2913,6 +3154,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash Tiger",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Tiger",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -2928,6 +3170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Tiger",
           "name": "hash",
           "package": "cryptohash",
@@ -2938,6 +3181,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash Tiger",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Tiger",
           "name": "hash",
           "normalized": "ByteString-\u003eByteString",
@@ -2953,6 +3197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Tiger",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -2963,6 +3208,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash Tiger",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Tiger",
           "name": "hashlazy",
           "normalized": "ByteString-\u003eByteString",
@@ -2978,6 +3224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Tiger",
           "name": "init",
           "package": "cryptohash",
@@ -2988,6 +3235,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash Tiger",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Tiger",
           "name": "init",
           "package": "cryptohash",
@@ -3001,6 +3249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Tiger",
           "name": "update",
           "package": "cryptohash",
@@ -3011,6 +3260,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash Tiger",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Tiger",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -3026,6 +3276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Tiger",
           "name": "updates",
           "package": "cryptohash",
@@ -3036,6 +3287,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash Tiger",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Tiger",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -3051,6 +3303,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCrypto hash types definitions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Types",
           "name": "Types",
           "package": "cryptohash",
@@ -3060,6 +3313,7 @@
         "index": {
           "description": "Crypto hash types definitions",
           "hierarchy": "Crypto Hash Types",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Types",
           "name": "Types",
           "package": "cryptohash",
@@ -3074,6 +3328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a context for a given hash algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Types",
           "name": "Context",
           "package": "cryptohash",
@@ -3083,6 +3338,7 @@
         "index": {
           "description": "Represent context for given hash algorithm",
           "hierarchy": "Crypto Hash Types",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Types",
           "name": "Context",
           "package": "cryptohash",
@@ -3097,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a digest for a given hash algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Types",
           "name": "Digest",
           "package": "cryptohash",
@@ -3106,6 +3363,7 @@
         "index": {
           "description": "Represent digest for given hash algorithm",
           "hierarchy": "Crypto Hash Types",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Types",
           "name": "Digest",
           "package": "cryptohash",
@@ -3120,6 +3378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass representing hashing algorithms.\n\u003c/p\u003e\u003cp\u003eThe hash algorithm is built over 3 primitives:\n\u003c/p\u003e\u003cp\u003einit     : create a new context\n   updates  : update the context with some strict bytestrings\n   finalize : finalize the context into a digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Types",
           "name": "HashAlgorithm",
           "package": "cryptohash",
@@ -3129,6 +3388,7 @@
         "index": {
           "description": "Class representing hashing algorithms The hash algorithm is built over primitives init create new context updates update the context with some strict bytestrings finalize finalize the context into digest",
           "hierarchy": "Crypto Hash Types",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Types",
           "name": "HashAlgorithm",
           "package": "cryptohash",
@@ -3142,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Types",
           "name": "Context",
           "package": "cryptohash",
@@ -3151,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash Types",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Types",
           "name": "Context",
           "package": "cryptohash",
@@ -3164,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Types",
           "name": "Digest",
           "package": "cryptohash",
@@ -3173,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash Types",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Types",
           "name": "Digest",
           "package": "cryptohash",
@@ -3187,6 +3451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the binary bytestring. deprecated use toBytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Types",
           "name": "contextToByteString",
           "package": "cryptohash",
@@ -3197,6 +3462,7 @@
         "index": {
           "description": "return the binary bytestring deprecated use toBytes",
           "hierarchy": "Crypto Hash Types",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Types",
           "name": "contextToByteString",
           "normalized": "Context a-\u003eByteString",
@@ -3213,6 +3479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to convert a binary digest bytestring to a digest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Types",
           "name": "digestFromByteString",
           "package": "cryptohash",
@@ -3223,6 +3490,7 @@
         "index": {
           "description": "Try to convert binary digest bytestring to digest",
           "hierarchy": "Crypto Hash Types",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Types",
           "name": "digestFromByteString",
           "normalized": "ByteString-\u003eMaybe(Digest a)",
@@ -3266,6 +3534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock size in bytes the hash algorithm operates on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Types",
           "name": "hashBlockSize",
           "package": "cryptohash",
@@ -3276,6 +3545,7 @@
         "index": {
           "description": "Block size in bytes the hash algorithm operates on",
           "hierarchy": "Crypto Hash Types",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Types",
           "name": "hashBlockSize",
           "normalized": "Context a-\u003eInt",
@@ -3292,6 +3562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinalize a context and return a digest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Types",
           "name": "hashFinalize",
           "package": "cryptohash",
@@ -3302,6 +3573,7 @@
         "index": {
           "description": "Finalize context and return digest",
           "hierarchy": "Crypto Hash Types",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Types",
           "name": "hashFinalize",
           "normalized": "Context a-\u003eDigest a",
@@ -3318,6 +3590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize a new context for this hash algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Types",
           "name": "hashInit",
           "package": "cryptohash",
@@ -3328,6 +3601,7 @@
         "index": {
           "description": "Initialize new context for this hash algorithm",
           "hierarchy": "Crypto Hash Types",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Types",
           "name": "hashInit",
           "package": "cryptohash",
@@ -3342,6 +3616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the context with a list of strict bytestring,\n and return a new context with the updates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Types",
           "name": "hashUpdates",
           "package": "cryptohash",
@@ -3352,6 +3627,7 @@
         "index": {
           "description": "Update the context with list of strict bytestring and return new context with the updates",
           "hierarchy": "Crypto Hash Types",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Types",
           "name": "hashUpdates",
           "normalized": "Context a-\u003e[ByteString]-\u003eContext a",
@@ -3368,6 +3644,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing Whirlpool bindings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Whirlpool",
           "name": "Whirlpool",
           "package": "cryptohash",
@@ -3377,6 +3654,7 @@
         "index": {
           "description": "module containing Whirlpool bindings",
           "hierarchy": "Crypto Hash Whirlpool",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Whirlpool",
           "name": "Whirlpool",
           "package": "cryptohash",
@@ -3391,6 +3669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhirlpool Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Whirlpool",
           "name": "Ctx",
           "package": "cryptohash",
@@ -3400,6 +3679,7 @@
         "index": {
           "description": "Whirlpool Context",
           "hierarchy": "Crypto Hash Whirlpool",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Whirlpool",
           "name": "Ctx",
           "package": "cryptohash",
@@ -3413,6 +3693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Whirlpool",
           "name": "Ctx",
           "package": "cryptohash",
@@ -3422,6 +3703,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash Whirlpool",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Whirlpool",
           "name": "Ctx",
           "package": "cryptohash",
@@ -3436,6 +3718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinalize the context into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Whirlpool",
           "name": "finalize",
           "package": "cryptohash",
@@ -3446,6 +3729,7 @@
         "index": {
           "description": "finalize the context into digest bytestring",
           "hierarchy": "Crypto Hash Whirlpool",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Whirlpool",
           "name": "finalize",
           "normalized": "Ctx-\u003eByteString",
@@ -3461,6 +3745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a strict bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Whirlpool",
           "name": "hash",
           "package": "cryptohash",
@@ -3471,6 +3756,7 @@
         "index": {
           "description": "hash strict bytestring into digest bytestring",
           "hierarchy": "Crypto Hash Whirlpool",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Whirlpool",
           "name": "hash",
           "normalized": "ByteString-\u003eByteString",
@@ -3486,6 +3772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a digest bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Whirlpool",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -3496,6 +3783,7 @@
         "index": {
           "description": "hash lazy bytestring into digest bytestring",
           "hierarchy": "Crypto Hash Whirlpool",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Whirlpool",
           "name": "hashlazy",
           "normalized": "ByteString-\u003eByteString",
@@ -3511,6 +3799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Whirlpool",
           "name": "init",
           "package": "cryptohash",
@@ -3521,6 +3810,7 @@
         "index": {
           "description": "init context",
           "hierarchy": "Crypto Hash Whirlpool",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Whirlpool",
           "name": "init",
           "package": "cryptohash",
@@ -3534,6 +3824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate a context with a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Whirlpool",
           "name": "update",
           "package": "cryptohash",
@@ -3544,6 +3835,7 @@
         "index": {
           "description": "update context with bytestring",
           "hierarchy": "Crypto Hash Whirlpool",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Whirlpool",
           "name": "update",
           "normalized": "Ctx-\u003eByteString-\u003eCtx",
@@ -3559,6 +3851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates a context with multiples bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash.Whirlpool",
           "name": "updates",
           "package": "cryptohash",
@@ -3569,6 +3862,7 @@
         "index": {
           "description": "updates context with multiples bytestring",
           "hierarchy": "Crypto Hash Whirlpool",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash.Whirlpool",
           "name": "updates",
           "normalized": "Ctx-\u003e[ByteString]-\u003eCtx",
@@ -3584,6 +3878,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCrypto hash main module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Hash",
           "package": "cryptohash",
@@ -3593,6 +3888,7 @@
         "index": {
           "description": "Crypto hash main module",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Hash",
           "package": "cryptohash",
@@ -3607,6 +3903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a context for a given hash algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Context",
           "package": "cryptohash",
@@ -3616,6 +3913,7 @@
         "index": {
           "description": "Represent context for given hash algorithm",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Context",
           "package": "cryptohash",
@@ -3630,6 +3928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a digest for a given hash algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Digest",
           "package": "cryptohash",
@@ -3639,6 +3938,7 @@
         "index": {
           "description": "Represent digest for given hash algorithm",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Digest",
           "package": "cryptohash",
@@ -3653,6 +3953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent an HMAC that is a phantom type with the hash used to produce the mac.\n\u003c/p\u003e\u003cp\u003eThe Eq instance is constant time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "HMAC",
           "package": "cryptohash",
@@ -3662,6 +3963,7 @@
         "index": {
           "description": "Represent an HMAC that is phantom type with the hash used to produce the mac The Eq instance is constant time",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "HMAC",
           "package": "cryptohash",
@@ -3676,6 +3978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass representing hashing algorithms.\n\u003c/p\u003e\u003cp\u003eThe hash algorithm is built over 3 primitives:\n\u003c/p\u003e\u003cp\u003einit     : create a new context\n   updates  : update the context with some strict bytestrings\n   finalize : finalize the context into a digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "HashAlgorithm",
           "package": "cryptohash",
@@ -3685,6 +3988,7 @@
         "index": {
           "description": "Class representing hashing algorithms The hash algorithm is built over primitives init create new context updates update the context with some strict bytestrings finalize finalize the context into digest",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "HashAlgorithm",
           "package": "cryptohash",
@@ -3699,6 +4003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias to a single pass hash function that operate on a strict bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "HashFunctionBS",
           "package": "cryptohash",
@@ -3708,6 +4013,7 @@
         "index": {
           "description": "Alias to single pass hash function that operate on strict bytestring",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "HashFunctionBS",
           "package": "cryptohash",
@@ -3722,6 +4028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias to a single pass hash function that operate on a lazy bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "HashFunctionLBS",
           "package": "cryptohash",
@@ -3731,6 +4038,7 @@
         "index": {
           "description": "Alias to single pass hash function that operate on lazy bytestring",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "HashFunctionLBS",
           "package": "cryptohash",
@@ -3745,6 +4053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMD2 cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "MD2",
           "package": "cryptohash",
@@ -3754,6 +4063,7 @@
         "index": {
           "description": "MD2 cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "MD2",
           "package": "cryptohash",
@@ -3768,6 +4078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMD4 cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "MD4",
           "package": "cryptohash",
@@ -3777,6 +4088,7 @@
         "index": {
           "description": "MD4 cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "MD4",
           "package": "cryptohash",
@@ -3791,6 +4103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMD5 cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "MD5",
           "package": "cryptohash",
@@ -3800,6 +4113,7 @@
         "index": {
           "description": "MD5 cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "MD5",
           "package": "cryptohash",
@@ -3814,6 +4128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRIPEMD160 cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "RIPEMD160",
           "package": "cryptohash",
@@ -3823,6 +4138,7 @@
         "index": {
           "description": "RIPEMD160 cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "RIPEMD160",
           "package": "cryptohash",
@@ -3837,6 +4153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA1 cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA1",
           "package": "cryptohash",
@@ -3846,6 +4163,7 @@
         "index": {
           "description": "SHA1 cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA1",
           "package": "cryptohash",
@@ -3860,6 +4178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA224 cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA224",
           "package": "cryptohash",
@@ -3869,6 +4188,7 @@
         "index": {
           "description": "SHA224 cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA224",
           "package": "cryptohash",
@@ -3883,6 +4203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA256 cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA256",
           "package": "cryptohash",
@@ -3892,6 +4213,7 @@
         "index": {
           "description": "SHA256 cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA256",
           "package": "cryptohash",
@@ -3906,6 +4228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA384 cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA384",
           "package": "cryptohash",
@@ -3915,6 +4238,7 @@
         "index": {
           "description": "SHA384 cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA384",
           "package": "cryptohash",
@@ -3929,6 +4253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA3 (224 bits version) cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA3_224",
           "package": "cryptohash",
@@ -3938,6 +4263,7 @@
         "index": {
           "description": "SHA3 bits version cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA3_224",
           "package": "cryptohash",
@@ -3952,6 +4278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA3 (256 bits version) cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA3_256",
           "package": "cryptohash",
@@ -3961,6 +4288,7 @@
         "index": {
           "description": "SHA3 bits version cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA3_256",
           "package": "cryptohash",
@@ -3975,6 +4303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA3 (384 bits version) cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA3_384",
           "package": "cryptohash",
@@ -3984,6 +4313,7 @@
         "index": {
           "description": "SHA3 bits version cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA3_384",
           "package": "cryptohash",
@@ -3998,6 +4328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA3 (512 bits version) cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA3_512",
           "package": "cryptohash",
@@ -4007,6 +4338,7 @@
         "index": {
           "description": "SHA3 bits version cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA3_512",
           "package": "cryptohash",
@@ -4021,6 +4353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA512 cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA512",
           "package": "cryptohash",
@@ -4030,6 +4363,7 @@
         "index": {
           "description": "SHA512 cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA512",
           "package": "cryptohash",
@@ -4044,6 +4378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein256 (224 bits version) cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Skein256_224",
           "package": "cryptohash",
@@ -4053,6 +4388,7 @@
         "index": {
           "description": "Skein256 bits version cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Skein256_224",
           "package": "cryptohash",
@@ -4067,6 +4403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein256 (256 bits version) cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Skein256_256",
           "package": "cryptohash",
@@ -4076,6 +4413,7 @@
         "index": {
           "description": "Skein256 bits version cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Skein256_256",
           "package": "cryptohash",
@@ -4090,6 +4428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein512 (224 bits version) cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Skein512_224",
           "package": "cryptohash",
@@ -4099,6 +4438,7 @@
         "index": {
           "description": "Skein512 bits version cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Skein512_224",
           "package": "cryptohash",
@@ -4113,6 +4453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein512 (256 bits version) cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Skein512_256",
           "package": "cryptohash",
@@ -4122,6 +4463,7 @@
         "index": {
           "description": "Skein512 bits version cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Skein512_256",
           "package": "cryptohash",
@@ -4136,6 +4478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein512 (384 bits version) cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Skein512_384",
           "package": "cryptohash",
@@ -4145,6 +4488,7 @@
         "index": {
           "description": "Skein512 bits version cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Skein512_384",
           "package": "cryptohash",
@@ -4159,6 +4503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkein512 (512 bits version) cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Skein512_512",
           "package": "cryptohash",
@@ -4168,6 +4513,7 @@
         "index": {
           "description": "Skein512 bits version cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Skein512_512",
           "package": "cryptohash",
@@ -4182,6 +4528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTiger cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Tiger",
           "package": "cryptohash",
@@ -4191,6 +4538,7 @@
         "index": {
           "description": "Tiger cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Tiger",
           "package": "cryptohash",
@@ -4205,6 +4553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhirlpool cryptographic hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Whirlpool",
           "package": "cryptohash",
@@ -4214,6 +4563,7 @@
         "index": {
           "description": "Whirlpool cryptographic hash",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Whirlpool",
           "package": "cryptohash",
@@ -4227,6 +4577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "HMAC",
           "package": "cryptohash",
@@ -4236,6 +4587,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "HMAC",
           "package": "cryptohash",
@@ -4249,6 +4601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "MD2",
           "package": "cryptohash",
@@ -4258,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "MD2",
           "package": "cryptohash",
@@ -4271,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "MD4",
           "package": "cryptohash",
@@ -4280,6 +4635,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "MD4",
           "package": "cryptohash",
@@ -4293,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "MD5",
           "package": "cryptohash",
@@ -4302,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "MD5",
           "package": "cryptohash",
@@ -4315,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "RIPEMD160",
           "package": "cryptohash",
@@ -4324,6 +4683,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "RIPEMD160",
           "package": "cryptohash",
@@ -4337,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA1",
           "package": "cryptohash",
@@ -4346,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA1",
           "package": "cryptohash",
@@ -4359,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA224",
           "package": "cryptohash",
@@ -4368,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA224",
           "package": "cryptohash",
@@ -4381,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA256",
           "package": "cryptohash",
@@ -4390,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA256",
           "package": "cryptohash",
@@ -4403,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA384",
           "package": "cryptohash",
@@ -4412,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA384",
           "package": "cryptohash",
@@ -4425,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA3_224",
           "package": "cryptohash",
@@ -4434,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA3_224",
           "package": "cryptohash",
@@ -4447,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA3_256",
           "package": "cryptohash",
@@ -4456,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA3_256",
           "package": "cryptohash",
@@ -4469,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA3_384",
           "package": "cryptohash",
@@ -4478,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA3_384",
           "package": "cryptohash",
@@ -4491,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA3_512",
           "package": "cryptohash",
@@ -4500,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA3_512",
           "package": "cryptohash",
@@ -4513,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "SHA512",
           "package": "cryptohash",
@@ -4522,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "SHA512",
           "package": "cryptohash",
@@ -4535,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Skein256_224",
           "package": "cryptohash",
@@ -4544,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Skein256_224",
           "package": "cryptohash",
@@ -4557,6 +4937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Skein256_256",
           "package": "cryptohash",
@@ -4566,6 +4947,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Skein256_256",
           "package": "cryptohash",
@@ -4579,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Skein512_224",
           "package": "cryptohash",
@@ -4588,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Skein512_224",
           "package": "cryptohash",
@@ -4601,6 +4985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Skein512_256",
           "package": "cryptohash",
@@ -4610,6 +4995,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Skein512_256",
           "package": "cryptohash",
@@ -4623,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Skein512_384",
           "package": "cryptohash",
@@ -4632,6 +5019,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Skein512_384",
           "package": "cryptohash",
@@ -4645,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Skein512_512",
           "package": "cryptohash",
@@ -4654,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Skein512_512",
           "package": "cryptohash",
@@ -4667,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Tiger",
           "package": "cryptohash",
@@ -4676,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Tiger",
           "package": "cryptohash",
@@ -4689,6 +5081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "Whirlpool",
           "package": "cryptohash",
@@ -4698,6 +5091,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "Whirlpool",
           "package": "cryptohash",
@@ -4712,6 +5106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to convert a binary digest bytestring to a digest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "digestFromByteString",
           "package": "cryptohash",
@@ -4722,6 +5117,7 @@
         "index": {
           "description": "Try to convert binary digest bytestring to digest",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "digestFromByteString",
           "normalized": "ByteString-\u003eMaybe(Digest a)",
@@ -4738,6 +5134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the hexadecimal (base16) bytestring of the digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "digestToHexByteString",
           "package": "cryptohash",
@@ -4748,6 +5145,7 @@
         "index": {
           "description": "Return the hexadecimal base16 bytestring of the digest",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "digestToHexByteString",
           "normalized": "Digest a-\u003eByteString",
@@ -4764,6 +5162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash a strict bytestring into a digest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "hash",
           "package": "cryptohash",
@@ -4774,6 +5173,7 @@
         "index": {
           "description": "Hash strict bytestring into digest",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "hash",
           "normalized": "ByteString-\u003eDigest a",
@@ -4789,6 +5189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock size in bytes the hash algorithm operates on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "hashBlockSize",
           "package": "cryptohash",
@@ -4799,6 +5200,7 @@
         "index": {
           "description": "Block size in bytes the hash algorithm operates on",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "hashBlockSize",
           "normalized": "Context a-\u003eInt",
@@ -4815,6 +5217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinalize a context and return a digest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "hashFinalize",
           "package": "cryptohash",
@@ -4825,6 +5228,7 @@
         "index": {
           "description": "Finalize context and return digest",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "hashFinalize",
           "normalized": "Context a-\u003eDigest a",
@@ -4841,6 +5245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize a new context for this hash algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "hashInit",
           "package": "cryptohash",
@@ -4851,6 +5256,7 @@
         "index": {
           "description": "Initialize new context for this hash algorithm",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "hashInit",
           "package": "cryptohash",
@@ -4865,6 +5271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize a new context for a specified hash algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "hashInitAlg",
           "package": "cryptohash",
@@ -4875,6 +5282,7 @@
         "index": {
           "description": "Initialize new context for specified hash algorithm",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "hashInitAlg",
           "normalized": "a-\u003eContext a",
@@ -4891,6 +5299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun hashUpdates on one single bytestring and return the updated context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "hashUpdate",
           "package": "cryptohash",
@@ -4901,6 +5310,7 @@
         "index": {
           "description": "run hashUpdates on one single bytestring and return the updated context",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "hashUpdate",
           "normalized": "Context a-\u003eByteString-\u003eContext a",
@@ -4917,6 +5327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the context with a list of strict bytestring,\n and return a new context with the updates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "hashUpdates",
           "package": "cryptohash",
@@ -4927,6 +5338,7 @@
         "index": {
           "description": "Update the context with list of strict bytestring and return new context with the updates",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "hashUpdates",
           "normalized": "Context a-\u003e[ByteString]-\u003eContext a",
@@ -4943,6 +5355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash a lazy bytestring into a digest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "hashlazy",
           "package": "cryptohash",
@@ -4953,6 +5366,7 @@
         "index": {
           "description": "Hash lazy bytestring into digest",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "hashlazy",
           "normalized": "ByteString-\u003eDigest a",
@@ -4968,6 +5382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompute a MAC using the supplied hashing function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "hmac",
           "package": "cryptohash",
@@ -4977,6 +5392,7 @@
         "index": {
           "description": "compute MAC using the supplied hashing function",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "hmac",
           "normalized": "ByteString-\u003eByteString-\u003eHMAC a",
@@ -4992,6 +5408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompute a HMAC using a specified algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "hmacAlg",
           "package": "cryptohash",
@@ -5001,6 +5418,7 @@
         "index": {
           "description": "compute HMAC using specified algorithm",
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "hmacAlg",
           "normalized": "a-\u003eByteString-\u003eByteString-\u003eHMAC a",
@@ -5016,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.Hash",
           "name": "hmacGetDigest",
           "package": "cryptohash",
@@ -5025,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "Crypto Hash",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.Hash",
           "name": "hmacGetDigest",
           "package": "cryptohash",
@@ -5039,6 +5459,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eprovide the HMAC (Hash based Message Authentification Code) base algorithm.\n http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eHMAC\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.MAC.HMAC",
           "name": "HMAC",
           "package": "cryptohash",
@@ -5048,6 +5469,7 @@
         "index": {
           "description": "provide the HMAC Hash based Message Authentification Code base algorithm http en.wikipedia.org wiki HMAC",
           "hierarchy": "Crypto MAC HMAC",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.MAC.HMAC",
           "name": "HMAC",
           "package": "cryptohash",
@@ -5062,6 +5484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompute a MAC using the supplied hashing function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:10 UTC 2014",
           "module": "Crypto.MAC.HMAC",
           "name": "hmac",
           "package": "cryptohash",
@@ -5072,6 +5495,7 @@
         "index": {
           "description": "compute MAC using the supplied hashing function",
           "hierarchy": "Crypto MAC HMAC",
+          "indexed": "2014-03-11T17:44:10",
           "module": "Crypto.MAC.HMAC",
           "name": "hmac",
           "normalized": "(ByteString-\u003eByteString)-\u003eInt-\u003eByteString-\u003eByteString-\u003eByteString",

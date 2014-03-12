@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hlatex"
+        "phrase": "hlatex",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "Babel",
           "package": "hlatex",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Babel",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "Babel",
           "package": "hlatex",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "BabelOpt",
           "package": "hlatex",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Babel",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "BabelOpt",
           "package": "hlatex",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "Lang",
           "package": "hlatex",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Babel",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "Lang",
           "package": "hlatex",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "customBabelOpt",
           "package": "hlatex",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Babel",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "customBabelOpt",
           "normalized": "AnyItem-\u003eBabelOpt",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "customLang",
           "package": "hlatex",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Babel",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "customLang",
           "normalized": "String-\u003eLang",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "francais",
           "package": "hlatex",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Babel",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "francais",
           "package": "hlatex",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "french",
           "package": "hlatex",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Babel",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "french",
           "package": "hlatex",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "langName",
           "package": "hlatex",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Babel",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "langName",
           "normalized": "Lang-\u003eString",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch locally to another language\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "otherlanguage",
           "package": "hlatex",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Switch locally to another language",
           "hierarchy": "Language LaTeX Builder Babel",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "otherlanguage",
           "normalized": "Lang-\u003eParItem-\u003eParItem",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "pkg",
           "package": "hlatex",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Babel",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "pkg",
           "package": "hlatex",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "useBabel",
           "package": "hlatex",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Babel",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Babel",
           "name": "useBabel",
           "normalized": "Lang-\u003e[BabelOpt]-\u003ePreambleItem",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Beamer",
           "package": "hlatex",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Beamer",
           "package": "hlatex",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "BeamerOpt",
           "package": "hlatex",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "BeamerOpt",
           "package": "hlatex",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "BeamerSize",
           "package": "hlatex",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "BeamerSize",
           "package": "hlatex",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "DocClassOption",
           "package": "hlatex",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "DocClassOption",
           "package": "hlatex",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Footline",
           "package": "hlatex",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Footline",
           "package": "hlatex",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "FrameOpt",
           "package": "hlatex",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "FrameOpt",
           "package": "hlatex",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Label",
           "package": "hlatex",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Label",
           "package": "hlatex",
@@ -413,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly overlay actions are not supported currently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Overlay",
           "package": "hlatex",
@@ -422,6 +459,7 @@
         "index": {
           "description": "Only overlay actions are not supported currently",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Overlay",
           "package": "hlatex",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OverlayInt",
           "package": "hlatex",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OverlayInt",
           "package": "hlatex",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Overlays",
           "package": "hlatex",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Overlays",
           "package": "hlatex",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "TargetName",
           "package": "hlatex",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "TargetName",
           "package": "hlatex",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "TexDimension",
           "package": "hlatex",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "TexDimension",
           "package": "hlatex",
@@ -519,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Compress",
           "package": "hlatex",
@@ -528,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Compress",
           "package": "hlatex",
@@ -542,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets the default width of description labels, see Beamer User Guide Section 11.1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "DescriptionWidth",
           "package": "hlatex",
@@ -552,6 +601,7 @@
         "index": {
           "description": "sets the default width of description labels see Beamer User Guide Section",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "DescriptionWidth",
           "package": "hlatex",
@@ -566,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets the default width of description labels to the width of the\n text, see Section 11.1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "DescriptionWidthOf",
           "package": "hlatex",
@@ -576,6 +627,7 @@
         "index": {
           "description": "sets the default width of description labels to the width of the text see Section",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "DescriptionWidthOf",
           "package": "hlatex",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Footline",
           "package": "hlatex",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Footline",
           "package": "hlatex",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Fragile",
           "package": "hlatex",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Fragile",
           "package": "hlatex",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Handout",
           "package": "hlatex",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Handout",
           "package": "hlatex",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Label",
           "package": "hlatex",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Label",
           "package": "hlatex",
@@ -678,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset an additional vertical offset that is added to the mini\n frame size when arranging mini frames vertically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "MiniFrameOffset",
           "package": "hlatex",
@@ -688,6 +749,7 @@
         "index": {
           "description": "set an additional vertical offset that is added to the mini frame size when arranging mini frames vertically",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "MiniFrameOffset",
           "package": "hlatex",
@@ -702,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets the size of mini frames in a navigation bar. When two\n mini frame icons are shown alongside each other, their left end points are\n \u003ccode\u003e\u003ca\u003eTexDimension\u003c/a\u003e\u003c/code\u003e far apart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "MiniFrameSize",
           "package": "hlatex",
@@ -712,6 +775,7 @@
         "index": {
           "description": "sets the size of mini frames in navigation bar When two mini frame icons are shown alongside each other their left end points are TexDimension far apart",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "MiniFrameSize",
           "package": "hlatex",
@@ -725,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OtherOption",
           "package": "hlatex",
@@ -734,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OtherOption",
           "package": "hlatex",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvDot",
           "package": "hlatex",
@@ -756,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvDot",
           "package": "hlatex",
@@ -769,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvFrom",
           "package": "hlatex",
@@ -778,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvFrom",
           "package": "hlatex",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvFromTo",
           "package": "hlatex",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvFromTo",
           "package": "hlatex",
@@ -813,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvInt",
           "package": "hlatex",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvInt",
           "package": "hlatex",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvPlus",
           "package": "hlatex",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvPlus",
           "package": "hlatex",
@@ -857,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvPlusOffset",
           "package": "hlatex",
@@ -866,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvPlusOffset",
           "package": "hlatex",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvSingle",
           "package": "hlatex",
@@ -888,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "OvSingle",
           "package": "hlatex",
@@ -901,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "RawDocClassOption",
           "package": "hlatex",
@@ -910,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "RawDocClassOption",
           "package": "hlatex",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Red",
           "package": "hlatex",
@@ -932,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "Red",
           "package": "hlatex",
@@ -946,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets the size of the left sidebar. Currently, this command\n should be given before a shading is installed for the sidebar canvas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "SidebarWidthLeft",
           "package": "hlatex",
@@ -956,6 +1041,7 @@
         "index": {
           "description": "sets the size of the left sidebar Currently this command should be given before shading is installed for the sidebar canvas",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "SidebarWidthLeft",
           "package": "hlatex",
@@ -970,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets the size of the right sidebar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "SidebarWidthRight",
           "package": "hlatex",
@@ -980,6 +1067,7 @@
         "index": {
           "description": "sets the size of the right sidebar",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "SidebarWidthRight",
           "package": "hlatex",
@@ -993,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "T",
           "package": "hlatex",
@@ -1002,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "T",
           "package": "hlatex",
@@ -1015,6 +1105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets a new left margin. This excludes the left sidebar. Thus,\n it is the distance between the right edge of the left sidebar and the left edge of the text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "TextMarginLeft",
           "package": "hlatex",
@@ -1025,6 +1116,7 @@
         "index": {
           "description": "sets new left margin This excludes the left sidebar Thus it is the distance between the right edge of the left sidebar and the left edge of the text",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "TextMarginLeft",
           "package": "hlatex",
@@ -1039,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets a new right margin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "TextMarginRight",
           "package": "hlatex",
@@ -1049,6 +1142,7 @@
         "index": {
           "description": "sets new right margin",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "TextMarginRight",
           "package": "hlatex",
@@ -1062,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "againframe",
           "package": "hlatex",
@@ -1071,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "againframe",
           "normalized": "Overlays-\u003eOverlays-\u003e[FrameOpt]-\u003eLabel-\u003eParItem",
@@ -1085,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "alert",
           "package": "hlatex",
@@ -1094,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "alert",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -1108,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "alt",
           "package": "hlatex",
@@ -1117,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "alt",
           "normalized": "Overlays-\u003eLatexItem-\u003eLatexItem-\u003eLatexItem",
@@ -1131,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "altenv",
           "package": "hlatex",
@@ -1139,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "altenv",
           "normalized": "Overlays-\u003eLatexItem-\u003eLatexItem-\u003eLatexItem-\u003eLatexItem-\u003eParItem-\u003eParItem",
@@ -1153,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "appendix",
           "package": "hlatex",
@@ -1162,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "appendix",
           "package": "hlatex",
@@ -1174,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "authorPercent",
           "package": "hlatex",
@@ -1183,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "authorPercent",
           "package": "hlatex",
@@ -1196,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamer",
           "package": "hlatex",
@@ -1205,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamer",
           "normalized": "Maybe LatexLength-\u003e[DocClassOption]-\u003e[AnyItem]-\u003eDocumentClass",
@@ -1219,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamerOpts",
           "package": "hlatex",
@@ -1228,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamerOpts",
           "normalized": "[BeamerOpt]-\u003eArg AnyItem",
@@ -1243,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamerPreambleCmdArgs",
           "package": "hlatex",
@@ -1252,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamerPreambleCmdArgs",
           "normalized": "String-\u003e[BeamerOpt]-\u003eLatexItem-\u003ePreambleItem",
@@ -1268,6 +1380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a button with the given button text .\n\u003c/p\u003e\u003cp\u003eExample: \u003ccode\u003ehyperlink [] \u003ca\u003esomewhere\u003c/a\u003e (beamerbutton \u003ca\u003eGo somewhere\u003c/a\u003e)\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003ep97 beamer userguide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamerbutton",
           "package": "hlatex",
@@ -1278,6 +1391,7 @@
         "index": {
           "description": "Draws button with the given button text Example hyperlink somewhere beamerbutton Go somewhere p97 beamer userguide",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamerbutton",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -1293,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a button with the given button text. Before the text, a small symbol (usually a\n     right-pointing arrow) is inserted that indicates that pressing this button will jump\n     to another *area* of the presentation.\n\u003c/p\u003e\u003cp\u003eExample: \u003ccode\u003ehyperlink [] \u003ca\u003edetour\u003c/a\u003e (beamergotobutton \u003ca\u003eGo to detour\u003c/a\u003e)\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003ep98 beamer userguide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamergotobutton",
           "package": "hlatex",
@@ -1303,6 +1418,7 @@
         "index": {
           "description": "Draws button with the given button text Before the text small symbol usually right-pointing arrow is inserted that indicates that pressing this button will jump to another area of the presentation Example hyperlink detour beamergotobutton Go to detour p98 beamer userguide",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamergotobutton",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -1318,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe symbol drawn for this button is usually a left-pointing arrow. Use this button\n     if pressing it will return from a detour.\n\u003c/p\u003e\u003cp\u003ep98 beamer userguide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamerreturnbutton",
           "package": "hlatex",
@@ -1328,6 +1445,7 @@
         "index": {
           "description": "The symbol drawn for this button is usually left-pointing arrow Use this button if pressing it will return from detour p98 beamer userguide",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamerreturnbutton",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -1343,6 +1461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe symbol drawn for this button is usually a double right arrow. Use this button if\n     pressing it will skip over a well-defined part of your talk.\n\u003c/p\u003e\u003cp\u003ep98 beamer userguide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamerskipbutton",
           "package": "hlatex",
@@ -1353,6 +1472,7 @@
         "index": {
           "description": "The symbol drawn for this button is usually double right arrow Use this button if pressing it will skip over well-defined part of your talk p98 beamer userguide",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamerskipbutton",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -1368,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisable those litte icons at the bottom right of your presentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamertemplatenavigationsymbolsempty",
           "package": "hlatex",
@@ -1378,6 +1499,7 @@
         "index": {
           "description": "Disable those litte icons at the bottom right of your presentation",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "beamertemplatenavigationsymbolsempty",
           "package": "hlatex",
@@ -1390,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "block",
           "package": "hlatex",
@@ -1399,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "block",
           "normalized": "LatexItem-\u003eParItem-\u003eParItem",
@@ -1413,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "compress",
           "package": "hlatex",
@@ -1422,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "compress",
           "package": "hlatex",
@@ -1434,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "datePercent",
           "package": "hlatex",
@@ -1443,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "datePercent",
           "package": "hlatex",
@@ -1456,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "defaultFootline",
           "package": "hlatex",
@@ -1465,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "defaultFootline",
           "package": "hlatex",
@@ -1478,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "description",
           "package": "hlatex",
@@ -1487,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "description",
           "normalized": "Overlays-\u003e[ListItem]-\u003eParItem",
@@ -1501,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "documentclasskind",
           "package": "hlatex",
@@ -1510,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "documentclasskind",
           "package": "hlatex",
@@ -1522,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "enumerate",
           "package": "hlatex",
@@ -1531,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "enumerate",
           "normalized": "Overlays-\u003e[ListItem]-\u003eParItem",
@@ -1545,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "example",
           "package": "hlatex",
@@ -1554,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "example",
           "normalized": "ParItem-\u003eParItem",
@@ -1568,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "footline",
           "package": "hlatex",
@@ -1577,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "footline",
           "normalized": "Footline-\u003ePreambleItem",
@@ -1591,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "frame",
           "package": "hlatex",
@@ -1600,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "frame",
           "normalized": "Overlays-\u003eOverlays-\u003e[FrameOpt]-\u003eLatexItem-\u003eLatexItem-\u003eParItem-\u003eParItem",
@@ -1614,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "frameO",
           "package": "hlatex",
@@ -1623,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "frameO",
           "normalized": "Overlays-\u003eParItem-\u003eParItem",
@@ -1637,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "framesubtitle",
           "package": "hlatex",
@@ -1646,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "framesubtitle",
           "normalized": "LatexItem-\u003eParItem",
@@ -1660,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "frametitle",
           "package": "hlatex",
@@ -1669,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "frametitle",
           "normalized": "LatexItem-\u003eParItem",
@@ -1683,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "handout",
           "package": "hlatex",
@@ -1692,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "handout",
           "package": "hlatex",
@@ -1705,6 +1855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly one overlay specification may be given. The link text is typeset in the\n  usual way. If you click anywhere on this text, you will jump to the slide on\n  which the hypertarget command was used with the parameter target name . If an\n  overlay specification is present, the hyperlink (including the link text) is\n  completely suppressed on the non-specified slides.\n\u003c/p\u003e\u003cp\u003ep99 beamer userguide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "hyperlink",
           "package": "hlatex",
@@ -1715,6 +1866,7 @@
         "index": {
           "description": "Only one overlay specification may be given The link text is typeset in the usual way If you click anywhere on this text you will jump to the slide on which the hypertarget command was used with the parameter target name If an overlay specification is present the hyperlink including the link text is completely suppressed on the non-specified slides p99 beamer userguide",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "hyperlink",
           "normalized": "Overlays-\u003eTargetName-\u003eLatexItem-\u003eOverlays-\u003eLatexItem",
@@ -1729,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "invisible",
           "package": "hlatex",
@@ -1738,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "invisible",
           "normalized": "Overlays-\u003eLatexItem-\u003eLatexItem",
@@ -1752,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "invisibleenv",
           "package": "hlatex",
@@ -1761,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "invisibleenv",
           "normalized": "Overlays-\u003eParItem-\u003eParItem",
@@ -1775,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "itemize",
           "package": "hlatex",
@@ -1784,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "itemize",
           "normalized": "Overlays-\u003e[ListItem]-\u003eParItem",
@@ -1798,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "label",
           "package": "hlatex",
@@ -1807,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "label",
           "normalized": "Label-\u003eFrameOpt",
@@ -1821,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "labelArg",
           "package": "hlatex",
@@ -1830,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "labelArg",
           "normalized": "Label-\u003eArg AnyItem",
@@ -1845,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "only",
           "package": "hlatex",
@@ -1854,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "only",
           "normalized": "Overlays-\u003eLatexItem-\u003eLatexItem",
@@ -1868,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "onlyenv",
           "package": "hlatex",
@@ -1877,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "onlyenv",
           "normalized": "Overlays-\u003eParItem-\u003eParItem",
@@ -1892,6 +2058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e incremental overlay specification (like in \u003ccode\u003e\u003ca\u003e.-\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eBeamer User Guide at 8.6.4 Incremental Specifications \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovDot",
           "package": "hlatex",
@@ -1902,6 +2069,7 @@
         "index": {
           "description": "The incremental overlay specification like in Beamer User Guide at Incremental Specifications",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovDot",
           "package": "hlatex",
@@ -1916,6 +2084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll overlays counting from the given argument (like in \u003ccode\u003e\u003ca\u003e1-\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovFrom",
           "package": "hlatex",
@@ -1926,6 +2095,7 @@
         "index": {
           "description": "All overlays counting from the given argument like in",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovFrom",
           "normalized": "OverlayInt-\u003eOverlay",
@@ -1942,6 +2112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll overlays between the given arguments (like in \u003ccode\u003e\u003ca\u003e1-3\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovFromTo",
           "package": "hlatex",
@@ -1952,6 +2123,7 @@
         "index": {
           "description": "All overlays between the given arguments like in",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovFromTo",
           "normalized": "OverlayInt-\u003eOverlayInt-\u003eOverlay",
@@ -1968,6 +2140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandy shortcut for \u003ccode\u003e[ovFrom ovPlus]\u003c/code\u003e aka \u003ccode\u003e\u003ca\u003e+-\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovIncr",
           "package": "hlatex",
@@ -1978,6 +2151,7 @@
         "index": {
           "description": "Handy shortcut for ovFrom ovPlus aka",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovIncr",
           "package": "hlatex",
@@ -1992,6 +2166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a strictly positive \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003e\u003ca\u003eOverlayInt\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovInt",
           "package": "hlatex",
@@ -2002,6 +2177,7 @@
         "index": {
           "description": "Lift strictly positive Int to an OverlayInt",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovInt",
           "normalized": "Int-\u003eOverlayInt",
@@ -2018,6 +2194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandy lifting for a list of strictly positive integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovInts",
           "package": "hlatex",
@@ -2028,6 +2205,7 @@
         "index": {
           "description": "Handy lifting for list of strictly positive integers",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovInts",
           "normalized": "[Int]-\u003eOverlays",
@@ -2044,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e incremental overlay specification (like in \u003ccode\u003e\u003ca\u003e+-\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eBeamer User Guide at 8.6.4 Incremental Specifications \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovPlus",
           "package": "hlatex",
@@ -2054,6 +2233,7 @@
         "index": {
           "description": "The incremental overlay specification like in Beamer User Guide at Incremental Specifications",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovPlus",
           "package": "hlatex",
@@ -2068,6 +2248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe single overlay (like in \u003ccode\u003e\u003ca\u003e1\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovSingle",
           "package": "hlatex",
@@ -2078,6 +2259,7 @@
         "index": {
           "description": "The single overlay like in",
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "ovSingle",
           "normalized": "OverlayInt-\u003eOverlay",
@@ -2093,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "pause",
           "package": "hlatex",
@@ -2102,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "pause",
           "package": "hlatex",
@@ -2114,6 +2298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "pause'",
           "package": "hlatex",
@@ -2123,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "pause'",
           "normalized": "Maybe Int-\u003eLatexItem",
@@ -2137,6 +2323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "rawDocClassOption",
           "package": "hlatex",
@@ -2146,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "rawDocClassOption",
           "normalized": "String-\u003eDocClassOption",
@@ -2161,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "red",
           "package": "hlatex",
@@ -2170,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "red",
           "package": "hlatex",
@@ -2182,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "setbeamersize",
           "package": "hlatex",
@@ -2191,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "setbeamersize",
           "normalized": "BeamerSize-\u003ePreambleItem",
@@ -2205,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "showDocClassOption",
           "package": "hlatex",
@@ -2214,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "showDocClassOption",
           "normalized": "DocClassOption-\u003eString",
@@ -2229,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "showOvInt",
           "package": "hlatex",
@@ -2238,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "showOvInt",
           "normalized": "OverlayInt-\u003eShowS",
@@ -2253,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "showOverlay",
           "package": "hlatex",
@@ -2262,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "showOverlay",
           "normalized": "Overlay-\u003eShowS",
@@ -2277,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "showOverlays",
           "package": "hlatex",
@@ -2286,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "showOverlays",
           "normalized": "Overlays-\u003eMaybe String",
@@ -2301,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "showTotalFrames",
           "package": "hlatex",
@@ -2310,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "showTotalFrames",
           "package": "hlatex",
@@ -2323,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "slide",
           "package": "hlatex",
@@ -2332,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "slide",
           "normalized": "LatexItem-\u003eParItem-\u003eParItem",
@@ -2346,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "slideO",
           "package": "hlatex",
@@ -2355,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "slideO",
           "normalized": "LatexItem-\u003eOverlays-\u003eParItem-\u003eParItem",
@@ -2369,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "t",
           "package": "hlatex",
@@ -2378,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "t",
           "package": "hlatex",
@@ -2390,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "targetArg",
           "package": "hlatex",
@@ -2399,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "targetArg",
           "normalized": "TargetName-\u003eArg AnyItem",
@@ -2414,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "temporal",
           "package": "hlatex",
@@ -2423,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "temporal",
           "normalized": "Overlays-\u003eLatexItem-\u003eLatexItem-\u003eLatexItem-\u003eLatexItem",
@@ -2437,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "texBeamerSizeArg",
           "package": "hlatex",
@@ -2446,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "texBeamerSizeArg",
           "normalized": "BeamerSize-\u003eArg AnyItem",
@@ -2461,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "texFrameOpt",
           "package": "hlatex",
@@ -2470,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "texFrameOpt",
           "normalized": "FrameOpt-\u003eBeamerOpt",
@@ -2485,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "texFrameOpts",
           "package": "hlatex",
@@ -2494,6 +2711,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "texFrameOpts",
           "normalized": "[FrameOpt]-\u003eArg AnyItem",
@@ -2509,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "texOverlaysArg",
           "package": "hlatex",
@@ -2518,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "texOverlaysArg",
           "normalized": "Overlays-\u003eArg a",
@@ -2533,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "texOverlaysOpt",
           "package": "hlatex",
@@ -2542,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "texOverlaysOpt",
           "normalized": "Overlays-\u003eMaybe LatexItem",
@@ -2557,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "texOverlaysOptArg",
           "package": "hlatex",
@@ -2566,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "texOverlaysOptArg",
           "normalized": "Overlays-\u003eArg AnyItem",
@@ -2581,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "theorem",
           "package": "hlatex",
@@ -2590,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "theorem",
           "normalized": "ParItem-\u003eParItem",
@@ -2604,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "titlePercent",
           "package": "hlatex",
@@ -2613,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "titlePercent",
           "package": "hlatex",
@@ -2626,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "uncover",
           "package": "hlatex",
@@ -2635,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "uncover",
           "normalized": "Overlays-\u003eLatexItem-\u003eLatexItem",
@@ -2649,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "uncoverenv",
           "package": "hlatex",
@@ -2658,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "uncoverenv",
           "normalized": "Overlays-\u003eParItem-\u003eParItem",
@@ -2672,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "usecolortheme",
           "package": "hlatex",
@@ -2681,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "usecolortheme",
           "normalized": "[BeamerOpt]-\u003eLatexItem-\u003ePreambleItem",
@@ -2695,6 +2929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "usefonttheme",
           "package": "hlatex",
@@ -2704,6 +2939,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "usefonttheme",
           "normalized": "[BeamerOpt]-\u003eLatexItem-\u003ePreambleItem",
@@ -2718,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "useinnertheme",
           "package": "hlatex",
@@ -2727,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "useinnertheme",
           "normalized": "[BeamerOpt]-\u003eLatexItem-\u003ePreambleItem",
@@ -2741,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "useoutertheme",
           "package": "hlatex",
@@ -2750,6 +2989,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "useoutertheme",
           "normalized": "[BeamerOpt]-\u003eLatexItem-\u003ePreambleItem",
@@ -2764,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "usetheme",
           "package": "hlatex",
@@ -2773,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "usetheme",
           "normalized": "[BeamerOpt]-\u003eLatexItem-\u003ePreambleItem",
@@ -2787,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "visible",
           "package": "hlatex",
@@ -2796,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "visible",
           "normalized": "Overlays-\u003eLatexItem-\u003eLatexItem",
@@ -2810,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "visibleenv",
           "package": "hlatex",
@@ -2819,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Beamer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Beamer",
           "name": "visibleenv",
           "normalized": "Overlays-\u003eParItem-\u003eParItem",
@@ -2833,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "Color",
           "package": "hlatex",
@@ -2841,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "Color",
           "package": "hlatex",
@@ -2854,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "Color",
           "package": "hlatex",
@@ -2862,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "Color",
           "package": "hlatex",
@@ -2875,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "black",
           "package": "hlatex",
@@ -2884,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "black",
           "package": "hlatex",
@@ -2896,6 +3148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "blue",
           "package": "hlatex",
@@ -2905,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "blue",
           "package": "hlatex",
@@ -2917,6 +3171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "cmyk",
           "package": "hlatex",
@@ -2926,6 +3181,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "cmyk",
           "normalized": "Rational-\u003eRational-\u003eRational-\u003eRational-\u003eColor",
@@ -2941,6 +3197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecolor\u003c/a\u003e\u003c/code\u003e is a declaration to switch to setting text in the given colour\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "color",
           "package": "hlatex",
@@ -2951,6 +3208,7 @@
         "index": {
           "description": "color is declaration to switch to setting text in the given colour",
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "color",
           "normalized": "Color-\u003eTexDecl",
@@ -2966,6 +3224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecolorbox\u003c/a\u003e\u003c/code\u003e sets its argument in a box with the given colour as background\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "colorbox",
           "package": "hlatex",
@@ -2976,6 +3235,7 @@
         "index": {
           "description": "colorbox sets its argument in box with the given colour as background",
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "colorbox",
           "normalized": "Color-\u003eLatexItem-\u003eLatexItem",
@@ -2990,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "cyan",
           "package": "hlatex",
@@ -2999,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "cyan",
           "package": "hlatex",
@@ -3012,6 +3274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efcolorbox c1 c2 text\u003c/code\u003e is like \u003ccode\u003e\u003ca\u003ecolorbox\u003c/a\u003e\u003c/code\u003e, with a frame of \u003ccode\u003ec1\u003c/code\u003e around a box\n   of background colour \u003ccode\u003ec2\u003c/code\u003e.\n   For example, \u003ccode\u003efcolorbox red green \u003ca\u003eText\u003c/a\u003e\u003c/code\u003e sets \u003ccode\u003eText\u003c/code\u003e in the current text colour\n   on a green background with a red frame.\n\u003c/p\u003e\u003cp\u003eThe two specifications must either both be defined ones, or both use the same\n   model, which is given only once, this limitation only make sense in LaTeX\n   parlance but is helpful here to understand why this function can fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "fcolorbox",
           "package": "hlatex",
@@ -3022,6 +3285,7 @@
         "index": {
           "description": "fcolorbox c1 c2 text is like colorbox with frame of c1 around box of background colour c2 For example fcolorbox red green Text sets Text in the current text colour on green background with red frame The two specifications must either both be defined ones or both use the same model which is given only once this limitation only make sense in LaTeX parlance but is helpful here to understand why this function can fail",
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "fcolorbox",
           "normalized": "Color-\u003eColor-\u003eLatexItem-\u003eLatexItem",
@@ -3036,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "gray",
           "package": "hlatex",
@@ -3045,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "gray",
           "normalized": "Rational-\u003eColor",
@@ -3059,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "green",
           "package": "hlatex",
@@ -3068,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "green",
           "package": "hlatex",
@@ -3080,6 +3348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "html",
           "package": "hlatex",
@@ -3089,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "html",
           "normalized": "String-\u003eColor",
@@ -3103,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "magenta",
           "package": "hlatex",
@@ -3112,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "magenta",
           "package": "hlatex",
@@ -3124,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "named",
           "package": "hlatex",
@@ -3133,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "named",
           "normalized": "String-\u003eColor",
@@ -3148,6 +3422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003enormalcolor\u003c/a\u003e\u003c/code\u003e switches to the colour that was active at the end of the preamble.\n   Thus placing a \u003ccode\u003e\u003ca\u003ecolor\u003c/a\u003e\u003c/code\u003e declaration in the preamble can change the standard colour\n   for the whole document. This is the equivalent to \u003ccode\u003enormalfont\u003c/code\u003e for font selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "normalcolor",
           "package": "hlatex",
@@ -3158,6 +3433,7 @@
         "index": {
           "description": "normalcolor switches to the colour that was active at the end of the preamble Thus placing color declaration in the preamble can change the standard colour for the whole document This is the equivalent to normalfont for font selection",
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "normalcolor",
           "package": "hlatex",
@@ -3170,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "orange",
           "package": "hlatex",
@@ -3179,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "orange",
           "package": "hlatex",
@@ -3192,6 +3470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epagecolor\u003c/a\u003e\u003c/code\u003e sets the background colour for the current and following pages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "pagecolor",
           "package": "hlatex",
@@ -3202,6 +3481,7 @@
         "index": {
           "description": "pagecolor sets the background colour for the current and following pages",
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "pagecolor",
           "normalized": "Color-\u003eParItem",
@@ -3216,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "pkg",
           "package": "hlatex",
@@ -3225,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "pkg",
           "package": "hlatex",
@@ -3238,6 +3520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecolor\u003c/a\u003e\u003c/code\u003e but usable in the preamble.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "preamblecolor",
           "package": "hlatex",
@@ -3248,6 +3531,7 @@
         "index": {
           "description": "Like color but usable in the preamble",
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "preamblecolor",
           "normalized": "Color-\u003ePreambleItem",
@@ -3262,6 +3546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "red",
           "package": "hlatex",
@@ -3271,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "red",
           "package": "hlatex",
@@ -3283,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "rgb",
           "package": "hlatex",
@@ -3292,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "rgb",
           "normalized": "Rational-\u003eRational-\u003eRational-\u003eColor",
@@ -3306,6 +3594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "rgb256",
           "package": "hlatex",
@@ -3315,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "rgb256",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eColor",
@@ -3330,6 +3620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etextcolor\u003c/a\u003e\u003c/code\u003e sets the text of its argument in the given colour\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "textcolor",
           "package": "hlatex",
@@ -3340,6 +3631,7 @@
         "index": {
           "description": "textcolor sets the text of its argument in the given colour",
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "textcolor",
           "normalized": "Color-\u003eLatexItem-\u003eLatexItem",
@@ -3354,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "white",
           "package": "hlatex",
@@ -3363,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "white",
           "package": "hlatex",
@@ -3375,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Color",
           "name": "yellow",
           "package": "hlatex",
@@ -3384,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Color",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Color",
           "name": "yellow",
           "package": "hlatex",
@@ -3396,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "Graphics",
           "package": "hlatex",
@@ -3404,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "Graphics",
           "package": "hlatex",
@@ -3417,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "IncludeGraphicsOpts",
           "package": "hlatex",
@@ -3425,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "IncludeGraphicsOpts",
           "package": "hlatex",
@@ -3438,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "Loc",
           "package": "hlatex",
@@ -3446,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "Loc",
           "package": "hlatex",
@@ -3459,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "IncludeGraphicsOpts",
           "package": "hlatex",
@@ -3468,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "IncludeGraphicsOpts",
           "package": "hlatex",
@@ -3482,6 +3786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe angle by which the figure is to be rotated counterclockwise, in degrees; any height\n or width specifications coming before this key are also rotated, so that the height becomes\n the width, while the width becomes either the height (positive angle) or depth (negative angle)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "angle",
           "package": "hlatex",
@@ -3492,6 +3797,7 @@
         "index": {
           "description": "the angle by which the figure is to be rotated counterclockwise in degrees any height or width specifications coming before this key are also rotated so that the height becomes the width while the width becomes either the height positive angle or depth negative angle",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "angle",
           "package": "hlatex",
@@ -3504,6 +3810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "b",
           "package": "hlatex",
@@ -3513,6 +3820,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "b",
           "package": "hlatex",
@@ -3525,6 +3833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "ba",
           "package": "hlatex",
@@ -3534,6 +3843,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "ba",
           "package": "hlatex",
@@ -3546,6 +3856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "baseline",
           "package": "hlatex",
@@ -3555,6 +3866,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "baseline",
           "package": "hlatex",
@@ -3567,6 +3879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "baselineLeft",
           "package": "hlatex",
@@ -3576,6 +3889,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "baselineLeft",
           "package": "hlatex",
@@ -3589,6 +3903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "baselineRight",
           "package": "hlatex",
@@ -3598,6 +3913,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "baselineRight",
           "package": "hlatex",
@@ -3612,6 +3928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e((llx, lly) (urx, ury)); enters the coordinates of the bounding box manually,\n if they are missing or incorrect in the graphics file, or to be deliberately altered;\n the specifications are four lengths separated by blanks; units may be given, but if\n omitted, big points (bp) are assumed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "bb",
           "package": "hlatex",
@@ -3622,6 +3939,7 @@
         "index": {
           "description": "llx lly urx ury enters the coordinates of the bounding box manually if they are missing or incorrect in the graphics file or to be deliberately altered the specifications are four lengths separated by blanks units may be given but if omitted big points bp are assumed",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "bb",
           "normalized": "Maybe(Coord,Coord)",
@@ -3636,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "bl",
           "package": "hlatex",
@@ -3645,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "bl",
           "package": "hlatex",
@@ -3657,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "bottom",
           "package": "hlatex",
@@ -3666,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "bottom",
           "package": "hlatex",
@@ -3678,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "bottomLeft",
           "package": "hlatex",
@@ -3687,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "bottomLeft",
           "package": "hlatex",
@@ -3700,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "bottomRight",
           "package": "hlatex",
@@ -3709,6 +4034,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "bottomRight",
           "package": "hlatex",
@@ -3722,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "br",
           "package": "hlatex",
@@ -3731,6 +4058,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "br",
           "package": "hlatex",
@@ -3743,6 +4071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "c",
           "package": "hlatex",
@@ -3752,6 +4081,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "c",
           "package": "hlatex",
@@ -3764,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "center",
           "package": "hlatex",
@@ -3773,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "center",
           "package": "hlatex",
@@ -3786,6 +4118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esuppresses the printing of any graphic outside the bounding box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "clip",
           "package": "hlatex",
@@ -3796,6 +4129,7 @@
         "index": {
           "description": "suppresses the printing of any graphic outside the bounding box",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "clip",
           "package": "hlatex",
@@ -3809,6 +4143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike the draft package option but applied to the one graphics file; the figure is not\n imported, but rather a framed box of the correct size is printed containing the name of\n the file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "draft",
           "package": "hlatex",
@@ -3819,6 +4154,7 @@
         "index": {
           "description": "like the draft package option but applied to the one graphics file the figure is not imported but rather framed box of the correct size is printed containing the name of the file",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "draft",
           "package": "hlatex",
@@ -3832,6 +4168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003especifies the height to which the figure should be scaled to; if width is not given,\n it is scaled with the same factor as the height\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "height",
           "package": "hlatex",
@@ -3842,6 +4179,7 @@
         "index": {
           "description": "specifies the height to which the figure should be scaled to if width is not given it is scaled with the same factor as the height",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "height",
           "package": "hlatex",
@@ -3855,6 +4193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike the hiresbb package option but applied to the one graphics file; reads bounding box\n information from the %%HiResBoundingBox line in the graphics file. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "hiresbb",
           "package": "hlatex",
@@ -3865,6 +4204,7 @@
         "index": {
           "description": "like the hiresbb package option but applied to the one graphics file reads bounding box information from the HiResBoundingBox line in the graphics file",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "hiresbb",
           "package": "hlatex",
@@ -3878,6 +4218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eincludegraphics fopts fp\u003c/code\u003e\n The \u003ccode\u003efopts\u003c/code\u003e function will receive the defaults options and should modify options\n to suit your needs.\n\u003c/p\u003e\u003cp\u003eThis function is generally used like this:\n \u003ccode\u003e\n includegraphics (\\o -\u003e o{ \u003copt\u003e = \u003cexp\u003e ... }) fp\n \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "includegraphics",
           "package": "hlatex",
@@ -3888,6 +4229,7 @@
         "index": {
           "description": "includegraphics fopts fp The fopts function will receive the defaults options and should modify options to suit your needs This function is generally used like this includegraphics opt exp fp",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "includegraphics",
           "normalized": "(IncludeGraphicsOpts-\u003eIncludeGraphicsOpts)-\u003eFilePath-\u003eParItem",
@@ -3903,6 +4245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif both height and width are specified, this flag ensures that the original height/width\n ratio remains unchanged; the figure will not exceed either of the given dimensions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "keepaspectratio",
           "package": "hlatex",
@@ -3913,6 +4256,7 @@
         "index": {
           "description": "if both height and width are specified this flag ensures that the original height width ratio remains unchanged the figure will not exceed either of the given dimensions",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "keepaspectratio",
           "package": "hlatex",
@@ -3925,6 +4269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "l",
           "package": "hlatex",
@@ -3934,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "l",
           "package": "hlatex",
@@ -3946,6 +4292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "left",
           "package": "hlatex",
@@ -3955,6 +4302,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "left",
           "package": "hlatex",
@@ -3968,6 +4316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edetermines the point about which the rotation occurs; default is bl for bottom left\n corner; also possible are c for center, t for top, r for right, and B for baseline;\n any sensible combination, such as tr, is allowed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "origin",
           "package": "hlatex",
@@ -3978,6 +4327,7 @@
         "index": {
           "description": "determines the point about which the rotation occurs default is bl for bottom left corner also possible are for center for top for right and for baseline any sensible combination such as tr is allowed",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "origin",
           "package": "hlatex",
@@ -3990,6 +4340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "pkg",
           "package": "hlatex",
@@ -3999,6 +4350,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "pkg",
           "package": "hlatex",
@@ -4011,6 +4363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "r",
           "package": "hlatex",
@@ -4020,6 +4373,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "r",
           "package": "hlatex",
@@ -4032,6 +4386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "right",
           "package": "hlatex",
@@ -4041,6 +4396,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "right",
           "package": "hlatex",
@@ -4054,6 +4410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe number by which the figure size should be magnified over its natural size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "scale",
           "package": "hlatex",
@@ -4064,6 +4421,7 @@
         "index": {
           "description": "the number by which the figure size should be magnified over its natural size",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "scale",
           "package": "hlatex",
@@ -4076,6 +4434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "t",
           "package": "hlatex",
@@ -4085,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "t",
           "package": "hlatex",
@@ -4097,6 +4457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "tl",
           "package": "hlatex",
@@ -4106,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "tl",
           "package": "hlatex",
@@ -4118,6 +4480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "top",
           "package": "hlatex",
@@ -4127,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "top",
           "package": "hlatex",
@@ -4139,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "topLeft",
           "package": "hlatex",
@@ -4148,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "topLeft",
           "package": "hlatex",
@@ -4161,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "topRight",
           "package": "hlatex",
@@ -4170,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "topRight",
           "package": "hlatex",
@@ -4184,6 +4552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike height but specifies the height plus depth of the figure; should always be used\n in place of height if the figure has been otated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "totalheight",
           "package": "hlatex",
@@ -4194,6 +4563,7 @@
         "index": {
           "description": "like height but specifies the height plus depth of the figure should always be used in place of height if the figure has been otated",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "totalheight",
           "package": "hlatex",
@@ -4206,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "tr",
           "package": "hlatex",
@@ -4215,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "tr",
           "package": "hlatex",
@@ -4228,6 +4600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e((dllx, dlly), (durx, dury)); reduces the existing bounding box by the amounts specified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "trim",
           "package": "hlatex",
@@ -4238,6 +4611,7 @@
         "index": {
           "description": "dllx dlly durx dury reduces the existing bounding box by the amounts specified",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "trim",
           "normalized": "Maybe(Coord,Coord)",
@@ -4253,6 +4627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e((llx, lly), (urx, ury)); specifies the bounding box but relative to the lower left\n corner of the existing one; useful for correcting the bounding box, or (with clip) to\n select only a portion of the whole figure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "viewport",
           "package": "hlatex",
@@ -4263,6 +4638,7 @@
         "index": {
           "description": "llx lly urx ury specifies the bounding box but relative to the lower left corner of the existing one useful for correcting the bounding box or with clip to select only portion of the whole figure",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "viewport",
           "normalized": "Maybe(Coord,Coord)",
@@ -4278,6 +4654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003especifies the width to which the figure should be scaled to; if height not given,\n it is scaled with the same factor as the width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "width",
           "package": "hlatex",
@@ -4288,6 +4665,7 @@
         "index": {
           "description": "specifies the width to which the figure should be scaled to if height not given it is scaled with the same factor as the width",
           "hierarchy": "Language LaTeX Builder Graphics",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Graphics",
           "name": "width",
           "package": "hlatex",
@@ -4300,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "Internal",
           "package": "hlatex",
@@ -4308,6 +4687,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "Internal",
           "package": "hlatex",
@@ -4321,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "begingroup",
           "package": "hlatex",
@@ -4330,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "begingroup",
           "package": "hlatex",
@@ -4342,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "bgroup",
           "package": "hlatex",
@@ -4351,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "bgroup",
           "package": "hlatex",
@@ -4363,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "bool",
           "package": "hlatex",
@@ -4372,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "bool",
           "normalized": "Bool-\u003eAnyItem",
@@ -4386,6 +4772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "checkRows",
           "package": "hlatex",
@@ -4395,6 +4782,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "checkRows",
           "normalized": "[RowSpec a]-\u003e[Row a]-\u003eLatexM[Row a]",
@@ -4410,6 +4798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "coord",
           "package": "hlatex",
@@ -4419,6 +4808,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "coord",
           "normalized": "Coord-\u003eAnyItem",
@@ -4433,6 +4823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "coordinates",
           "package": "hlatex",
@@ -4442,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "coordinates",
           "normalized": "a-\u003ea-\u003eArg a",
@@ -4456,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "egroup",
           "package": "hlatex",
@@ -4465,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "egroup",
           "package": "hlatex",
@@ -4477,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "endgroup",
           "package": "hlatex",
@@ -4486,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "endgroup",
           "package": "hlatex",
@@ -4498,6 +4894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "figureLike",
           "package": "hlatex",
@@ -4507,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "figureLike",
           "normalized": "String-\u003eStar-\u003e[LocSpec]-\u003eParItem-\u003eParItem",
@@ -4522,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "intNote",
           "package": "hlatex",
@@ -4531,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "intNote",
           "normalized": "Int-\u003eNote",
@@ -4546,6 +4946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexCast",
           "package": "hlatex",
@@ -4555,6 +4956,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexCast",
           "normalized": "AnyItem-\u003eLatexItem",
@@ -4570,6 +4972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexCmdAnyArg",
           "package": "hlatex",
@@ -4579,6 +4982,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexCmdAnyArg",
           "normalized": "String-\u003eAnyItem-\u003eLatexItem",
@@ -4594,6 +4998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexCmdAnyArgs",
           "package": "hlatex",
@@ -4603,6 +5008,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexCmdAnyArgs",
           "normalized": "String-\u003e[Arg AnyItem]-\u003eLatexItem",
@@ -4618,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexCmdArg",
           "package": "hlatex",
@@ -4627,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexCmdArg",
           "normalized": "String-\u003eLatexItem-\u003eLatexItem",
@@ -4642,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexCmdArgs",
           "package": "hlatex",
@@ -4651,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexCmdArgs",
           "normalized": "String-\u003e[Arg LatexItem]-\u003eLatexItem",
@@ -4666,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexEnvironment",
           "package": "hlatex",
@@ -4675,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexEnvironment",
           "normalized": "String-\u003e[Arg AnyItem]-\u003eLatexItem-\u003eLatexItem",
@@ -4690,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexEnvironmentAny",
           "package": "hlatex",
@@ -4699,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexEnvironmentAny",
           "normalized": "String-\u003e[Arg AnyItem]-\u003eAnyItem-\u003eLatexItem",
@@ -4714,6 +5128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexEnvironmentPar",
           "package": "hlatex",
@@ -4723,6 +5138,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexEnvironmentPar",
           "normalized": "String-\u003e[Arg AnyItem]-\u003eParItem-\u003eLatexItem",
@@ -4738,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexItem",
           "package": "hlatex",
@@ -4747,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexItem",
           "normalized": "LatexItem-\u003eAnyItem",
@@ -4762,6 +5180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexKey",
           "package": "hlatex",
@@ -4771,6 +5190,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexKey",
           "normalized": "Key-\u003eAnyItem",
@@ -4786,6 +5206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexKeyArg",
           "package": "hlatex",
@@ -4795,6 +5216,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexKeyArg",
           "normalized": "Key-\u003eArg AnyItem",
@@ -4810,6 +5232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexKeys",
           "package": "hlatex",
@@ -4819,6 +5242,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexKeys",
           "normalized": "[Key]-\u003e[AnyItem]",
@@ -4834,6 +5258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexKeysArg",
           "package": "hlatex",
@@ -4843,6 +5268,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexKeysArg",
           "normalized": "[Key]-\u003eArg AnyItem",
@@ -4858,6 +5284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexNote",
           "package": "hlatex",
@@ -4867,6 +5294,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexNote",
           "normalized": "Key-\u003eNote-\u003eLatexItem-\u003eLatexItem",
@@ -4882,6 +5310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexPaper",
           "package": "hlatex",
@@ -4891,6 +5320,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexPaper",
           "normalized": "LatexPaperSize-\u003eAnyItem",
@@ -4906,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexParModeArgs",
           "package": "hlatex",
@@ -4915,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexParModeArgs",
           "normalized": "String-\u003e[Arg AnyItem]-\u003eParItem-\u003eLatexItem",
@@ -4930,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexSaveBin",
           "package": "hlatex",
@@ -4939,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "latexSaveBin",
           "normalized": "SaveBin-\u003eAnyItem",
@@ -4954,6 +5388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "liftArg",
           "package": "hlatex",
@@ -4963,6 +5398,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "liftArg",
           "normalized": "a-\u003eArg a",
@@ -4978,6 +5414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "listLikeEnv",
           "package": "hlatex",
@@ -4987,6 +5424,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "listLikeEnv",
           "normalized": "String-\u003e[Arg LatexItem]-\u003e[ListItem]-\u003eParItem",
@@ -5002,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "locNote",
           "package": "hlatex",
@@ -5011,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "locNote",
           "normalized": "Loc-\u003eNote",
@@ -5026,6 +5466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "locSpecs",
           "package": "hlatex",
@@ -5035,6 +5476,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "locSpecs",
           "normalized": "[LocSpec]-\u003eAnyItem",
@@ -5050,6 +5492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "mandatory",
           "package": "hlatex",
@@ -5059,6 +5502,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "mandatory",
           "normalized": "a-\u003eArg a",
@@ -5073,6 +5517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "mandatoryLatexItem",
           "package": "hlatex",
@@ -5082,6 +5527,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "mandatoryLatexItem",
           "normalized": "LatexItem-\u003eArg AnyItem",
@@ -5097,6 +5543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "mandatoryList",
           "package": "hlatex",
@@ -5106,6 +5553,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "mandatoryList",
           "normalized": "[a]-\u003eArg a",
@@ -5121,6 +5569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "mandatoryTexLength",
           "package": "hlatex",
@@ -5130,6 +5579,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "mandatoryTexLength",
           "normalized": "LatexLength-\u003eArg AnyItem",
@@ -5145,6 +5595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "mathCast",
           "package": "hlatex",
@@ -5154,6 +5605,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "mathCast",
           "normalized": "AnyItem-\u003eMathItem",
@@ -5169,6 +5621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "mathItem",
           "package": "hlatex",
@@ -5178,6 +5631,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "mathItem",
           "normalized": "MathItem-\u003eAnyItem",
@@ -5193,6 +5647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "named",
           "package": "hlatex",
@@ -5202,6 +5657,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "named",
           "normalized": "String-\u003ea-\u003eNamed a",
@@ -5216,6 +5672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "namedArgs",
           "package": "hlatex",
@@ -5225,6 +5682,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "namedArgs",
           "normalized": "[Named a]-\u003eArg a",
@@ -5240,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "namedOpts",
           "package": "hlatex",
@@ -5249,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "namedOpts",
           "normalized": "[Named a]-\u003eArg a",
@@ -5264,6 +5724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "nilNote",
           "package": "hlatex",
@@ -5273,6 +5734,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "nilNote",
           "package": "hlatex",
@@ -5286,6 +5748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "noArg",
           "package": "hlatex",
@@ -5295,6 +5758,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "noArg",
           "package": "hlatex",
@@ -5308,6 +5772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "normSpaces",
           "package": "hlatex",
@@ -5317,6 +5782,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "normSpaces",
           "normalized": "String-\u003eString",
@@ -5356,6 +5822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "optTexLength",
           "package": "hlatex",
@@ -5365,6 +5832,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "optTexLength",
           "normalized": "LatexLength-\u003eArg AnyItem",
@@ -5380,6 +5848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "optional",
           "package": "hlatex",
@@ -5389,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "optional",
           "normalized": "a-\u003eArg a",
@@ -5403,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "optionalLatexItem",
           "package": "hlatex",
@@ -5412,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "optionalLatexItem",
           "normalized": "LatexItem-\u003eArg AnyItem",
@@ -5427,6 +5899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "optionalLatexItems",
           "package": "hlatex",
@@ -5436,6 +5909,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "optionalLatexItems",
           "normalized": "[LatexItem]-\u003eArg AnyItem",
@@ -5451,6 +5925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "optionals",
           "package": "hlatex",
@@ -5460,6 +5935,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "optionals",
           "normalized": "[a]-\u003eArg a",
@@ -5474,6 +5950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "otherDocumentClassKind",
           "package": "hlatex",
@@ -5483,6 +5960,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "otherDocumentClassKind",
           "normalized": "String-\u003eDocumentClassKind",
@@ -5498,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "packageDependency",
           "package": "hlatex",
@@ -5507,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "packageDependency",
           "normalized": "PackageName-\u003eArg a",
@@ -5522,6 +6002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "packageName",
           "package": "hlatex",
@@ -5531,6 +6012,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "packageName",
           "normalized": "PackageName-\u003eAnyItem",
@@ -5546,6 +6028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parCast",
           "package": "hlatex",
@@ -5555,6 +6038,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parCast",
           "normalized": "AnyItem-\u003eParItem",
@@ -5570,6 +6054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parCmdArg",
           "package": "hlatex",
@@ -5579,6 +6064,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parCmdArg",
           "normalized": "String-\u003eAnyItem-\u003eParItem",
@@ -5594,6 +6080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parCmdArgs",
           "package": "hlatex",
@@ -5603,6 +6090,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parCmdArgs",
           "normalized": "String-\u003e[Arg AnyItem]-\u003eParItem",
@@ -5618,6 +6106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parEnv",
           "package": "hlatex",
@@ -5627,6 +6116,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parEnv",
           "normalized": "String-\u003e[Arg AnyItem]-\u003eAnyItem-\u003eParItem",
@@ -5642,6 +6132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parEnvironmentPar",
           "package": "hlatex",
@@ -5651,6 +6142,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parEnvironmentPar",
           "normalized": "String-\u003e[Arg AnyItem]-\u003eParItem-\u003eParItem",
@@ -5666,6 +6158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parItem",
           "package": "hlatex",
@@ -5675,6 +6168,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parItem",
           "normalized": "ParItem-\u003eAnyItem",
@@ -5690,6 +6184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parNote",
           "package": "hlatex",
@@ -5699,6 +6194,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "parNote",
           "normalized": "Key-\u003eNote-\u003eParItem-\u003eParItem",
@@ -5714,6 +6210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "pkgName",
           "package": "hlatex",
@@ -5723,6 +6220,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "pkgName",
           "normalized": "String-\u003ePackageName",
@@ -5738,6 +6236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "preambleCast",
           "package": "hlatex",
@@ -5747,6 +6246,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "preambleCast",
           "normalized": "AnyItem-\u003ePreambleItem",
@@ -5762,6 +6262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "preambleCmdArg",
           "package": "hlatex",
@@ -5771,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "preambleCmdArg",
           "normalized": "String-\u003eAnyItem-\u003ePreambleItem",
@@ -5786,6 +6288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "preambleCmdArgs",
           "package": "hlatex",
@@ -5795,6 +6298,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "preambleCmdArgs",
           "normalized": "String-\u003e[Arg AnyItem]-\u003ePreambleItem",
@@ -5810,6 +6314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "preambleEnv",
           "package": "hlatex",
@@ -5819,6 +6324,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "preambleEnv",
           "normalized": "String-\u003e[Arg AnyItem]-\u003eAnyItem-\u003ePreambleItem",
@@ -5834,6 +6340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "preambleItem",
           "package": "hlatex",
@@ -5843,6 +6350,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "preambleItem",
           "normalized": "PreambleItem-\u003eAnyItem",
@@ -5858,6 +6366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "preambleNote",
           "package": "hlatex",
@@ -5867,6 +6376,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "preambleNote",
           "normalized": "Key-\u003eNote-\u003ePreambleItem-\u003ePreambleItem",
@@ -5882,6 +6392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "providePackage",
           "package": "hlatex",
@@ -5891,6 +6402,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "providePackage",
           "normalized": "PackageName-\u003eArg a",
@@ -5930,6 +6442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawAnyTex",
           "package": "hlatex",
@@ -5939,6 +6452,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawAnyTex",
           "normalized": "String-\u003eAnyItem",
@@ -5954,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawArg",
           "package": "hlatex",
@@ -5963,6 +6478,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawArg",
           "normalized": "String-\u003eArg a",
@@ -5978,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawDecls",
           "package": "hlatex",
@@ -5987,6 +6504,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawDecls",
           "normalized": "[TexDecl]-\u003eLatexItem",
@@ -6002,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawEncoding",
           "package": "hlatex",
@@ -6011,6 +6530,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawEncoding",
           "normalized": "String-\u003eEncoding",
@@ -6026,6 +6546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawMath",
           "package": "hlatex",
@@ -6035,6 +6556,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawMath",
           "normalized": "String-\u003eMathItem",
@@ -6050,6 +6572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawMathChar",
           "package": "hlatex",
@@ -6059,6 +6582,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawMathChar",
           "normalized": "Char-\u003eMathItem",
@@ -6074,6 +6598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawPreamble",
           "package": "hlatex",
@@ -6083,6 +6608,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawPreamble",
           "normalized": "String-\u003ePreambleItem",
@@ -6098,6 +6624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawTex",
           "package": "hlatex",
@@ -6107,6 +6634,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "rawTex",
           "normalized": "String-\u003eLatexItem",
@@ -6122,6 +6650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "sectioning",
           "package": "hlatex",
@@ -6131,6 +6660,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "sectioning",
           "normalized": "String-\u003e(LatexItem-\u003eParItem,Star-\u003eMaybe LatexItem-\u003eLatexItem-\u003eParItem)",
@@ -6145,6 +6675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "showPaper",
           "package": "hlatex",
@@ -6154,6 +6685,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "showPaper",
           "normalized": "LatexPaperSize-\u003eString",
@@ -6191,6 +6723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "starArg",
           "package": "hlatex",
@@ -6200,6 +6733,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "starArg",
           "package": "hlatex",
@@ -6213,6 +6747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "starToArg",
           "package": "hlatex",
@@ -6222,6 +6757,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "starToArg",
           "normalized": "Star-\u003eArg a",
@@ -6237,6 +6773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "starize",
           "package": "hlatex",
@@ -6246,6 +6783,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "starize",
           "normalized": "String-\u003eStar-\u003eString",
@@ -6260,6 +6798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "stringNote",
           "package": "hlatex",
@@ -6269,6 +6808,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "stringNote",
           "normalized": "String-\u003eNote",
@@ -6284,6 +6824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "tabularLike",
           "package": "hlatex",
@@ -6293,6 +6834,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "tabularLike",
           "normalized": "([RowSpec a]-\u003e[Row a]-\u003eb)-\u003e[RowSpec(LatexM a)]-\u003e[Row(LatexM a)]-\u003eLatexM b",
@@ -6308,6 +6850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "texCmdNoArg",
           "package": "hlatex",
@@ -6317,6 +6860,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "texCmdNoArg",
           "normalized": "String-\u003eLatexItem",
@@ -6332,6 +6876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "texDecl",
           "package": "hlatex",
@@ -6341,6 +6886,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "texDecl",
           "normalized": "String-\u003eTexDecl",
@@ -6356,6 +6902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "texDecl'",
           "package": "hlatex",
@@ -6365,6 +6912,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "texDecl'",
           "normalized": "String-\u003e[Arg AnyItem]-\u003eTexDecl",
@@ -6380,6 +6928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "texDeclOpt",
           "package": "hlatex",
@@ -6389,6 +6938,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "texDeclOpt",
           "normalized": "String-\u003eAnyItem-\u003eTexDecl",
@@ -6404,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "texLength",
           "package": "hlatex",
@@ -6413,6 +6964,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "texLength",
           "normalized": "LatexLength-\u003eAnyItem",
@@ -6428,6 +6980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "unsafeNewsavebox",
           "package": "hlatex",
@@ -6437,6 +6990,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "unsafeNewsavebox",
           "normalized": "Int-\u003e(SaveBin,LatexItem)",
@@ -6452,6 +7006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "usepackage",
           "package": "hlatex",
@@ -6461,6 +7016,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Internal",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Internal",
           "name": "usepackage",
           "normalized": "[AnyItem]-\u003ePackageName-\u003ePreambleItem",
@@ -6475,6 +7031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "Math",
           "package": "hlatex",
@@ -6483,6 +7040,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "Math",
           "package": "hlatex",
@@ -6496,6 +7054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_A",
           "package": "hlatex",
@@ -6505,6 +7064,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_A",
           "package": "hlatex",
@@ -6517,6 +7077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_B",
           "package": "hlatex",
@@ -6526,6 +7087,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_B",
           "package": "hlatex",
@@ -6538,6 +7100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_C",
           "package": "hlatex",
@@ -6547,6 +7110,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_C",
           "package": "hlatex",
@@ -6559,6 +7123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_D",
           "package": "hlatex",
@@ -6568,6 +7133,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_D",
           "package": "hlatex",
@@ -6580,6 +7146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Delta",
           "package": "hlatex",
@@ -6589,6 +7156,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Delta",
           "package": "hlatex",
@@ -6602,6 +7170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Downarrow",
           "package": "hlatex",
@@ -6611,6 +7180,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Downarrow",
           "package": "hlatex",
@@ -6624,6 +7194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_E",
           "package": "hlatex",
@@ -6633,6 +7204,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_E",
           "package": "hlatex",
@@ -6645,6 +7217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_F",
           "package": "hlatex",
@@ -6654,6 +7227,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_F",
           "package": "hlatex",
@@ -6666,6 +7240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_G",
           "package": "hlatex",
@@ -6675,6 +7250,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_G",
           "package": "hlatex",
@@ -6687,6 +7263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Gamma",
           "package": "hlatex",
@@ -6696,6 +7273,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Gamma",
           "package": "hlatex",
@@ -6709,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_H",
           "package": "hlatex",
@@ -6718,6 +7297,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_H",
           "package": "hlatex",
@@ -6730,6 +7310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_I",
           "package": "hlatex",
@@ -6739,6 +7320,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_I",
           "package": "hlatex",
@@ -6751,6 +7333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_J",
           "package": "hlatex",
@@ -6760,6 +7343,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_J",
           "package": "hlatex",
@@ -6772,6 +7356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_K",
           "package": "hlatex",
@@ -6781,6 +7366,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_K",
           "package": "hlatex",
@@ -6793,6 +7379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_L",
           "package": "hlatex",
@@ -6802,6 +7389,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_L",
           "package": "hlatex",
@@ -6814,6 +7402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Lambda",
           "package": "hlatex",
@@ -6823,6 +7412,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Lambda",
           "package": "hlatex",
@@ -6836,6 +7426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Leftarrow",
           "package": "hlatex",
@@ -6845,6 +7436,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Leftarrow",
           "package": "hlatex",
@@ -6858,6 +7450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Leftrightarrow",
           "package": "hlatex",
@@ -6867,6 +7460,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Leftrightarrow",
           "package": "hlatex",
@@ -6880,6 +7474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_M",
           "package": "hlatex",
@@ -6889,6 +7484,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_M",
           "package": "hlatex",
@@ -6901,6 +7497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_N",
           "package": "hlatex",
@@ -6910,6 +7507,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_N",
           "package": "hlatex",
@@ -6922,6 +7520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_O",
           "package": "hlatex",
@@ -6931,6 +7530,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_O",
           "package": "hlatex",
@@ -6943,6 +7543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Omega",
           "package": "hlatex",
@@ -6952,6 +7553,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Omega",
           "package": "hlatex",
@@ -6965,6 +7567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_P",
           "package": "hlatex",
@@ -6974,6 +7577,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_P",
           "package": "hlatex",
@@ -6986,6 +7590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Phi",
           "package": "hlatex",
@@ -6995,6 +7600,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Phi",
           "package": "hlatex",
@@ -7008,6 +7614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Pi",
           "package": "hlatex",
@@ -7017,6 +7624,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Pi",
           "package": "hlatex",
@@ -7030,6 +7638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Pr",
           "package": "hlatex",
@@ -7039,6 +7648,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Pr",
           "package": "hlatex",
@@ -7052,6 +7662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Q",
           "package": "hlatex",
@@ -7061,6 +7672,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Q",
           "package": "hlatex",
@@ -7073,6 +7685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_R",
           "package": "hlatex",
@@ -7082,6 +7695,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_R",
           "package": "hlatex",
@@ -7094,6 +7708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Rightarrow",
           "package": "hlatex",
@@ -7103,6 +7718,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Rightarrow",
           "package": "hlatex",
@@ -7116,6 +7732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_S",
           "package": "hlatex",
@@ -7125,6 +7742,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_S",
           "package": "hlatex",
@@ -7137,6 +7755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Sigma",
           "package": "hlatex",
@@ -7146,6 +7765,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Sigma",
           "package": "hlatex",
@@ -7159,6 +7779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_T",
           "package": "hlatex",
@@ -7168,6 +7789,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_T",
           "package": "hlatex",
@@ -7180,6 +7802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Theta",
           "package": "hlatex",
@@ -7189,6 +7812,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Theta",
           "package": "hlatex",
@@ -7202,6 +7826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_U",
           "package": "hlatex",
@@ -7211,6 +7836,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_U",
           "package": "hlatex",
@@ -7223,6 +7849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Uparrow",
           "package": "hlatex",
@@ -7232,6 +7859,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Uparrow",
           "package": "hlatex",
@@ -7245,6 +7873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_V",
           "package": "hlatex",
@@ -7254,6 +7883,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_V",
           "package": "hlatex",
@@ -7266,6 +7896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_W",
           "package": "hlatex",
@@ -7275,6 +7906,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_W",
           "package": "hlatex",
@@ -7287,6 +7919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_X",
           "package": "hlatex",
@@ -7296,6 +7929,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_X",
           "package": "hlatex",
@@ -7308,6 +7942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Xi",
           "package": "hlatex",
@@ -7317,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Xi",
           "package": "hlatex",
@@ -7330,6 +7966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Y",
           "package": "hlatex",
@@ -7339,6 +7976,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Y",
           "package": "hlatex",
@@ -7351,6 +7989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Z",
           "package": "hlatex",
@@ -7360,6 +7999,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "_Z",
           "package": "hlatex",
@@ -7372,6 +8012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "a",
           "package": "hlatex",
@@ -7381,6 +8022,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "a",
           "package": "hlatex",
@@ -7393,6 +8035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "acute",
           "package": "hlatex",
@@ -7402,6 +8045,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "acute",
           "normalized": "MathItem-\u003eMathItem",
@@ -7416,6 +8060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "aleph",
           "package": "hlatex",
@@ -7425,6 +8070,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "aleph",
           "package": "hlatex",
@@ -7437,6 +8083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "allMathDecls",
           "package": "hlatex",
@@ -7446,6 +8093,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "allMathDecls",
           "normalized": "[MathDecl]",
@@ -7461,6 +8109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "allMathItems",
           "package": "hlatex",
@@ -7470,6 +8119,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "allMathItems",
           "normalized": "[MathItem]",
@@ -7485,6 +8135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "alpha",
           "package": "hlatex",
@@ -7494,6 +8145,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "alpha",
           "package": "hlatex",
@@ -7506,6 +8158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "amsmath",
           "package": "hlatex",
@@ -7515,6 +8168,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "amsmath",
           "package": "hlatex",
@@ -7527,6 +8181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "approx",
           "package": "hlatex",
@@ -7536,6 +8191,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "approx",
           "package": "hlatex",
@@ -7548,6 +8204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "array",
           "package": "hlatex",
@@ -7557,6 +8214,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "array",
           "normalized": "[RowSpec MathItem]-\u003e[Row MathItem]-\u003eMathItem",
@@ -7571,6 +8229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "at",
           "package": "hlatex",
@@ -7580,6 +8239,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "at",
           "package": "hlatex",
@@ -7592,6 +8252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "b",
           "package": "hlatex",
@@ -7601,6 +8262,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "b",
           "package": "hlatex",
@@ -7613,6 +8275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "backslash",
           "package": "hlatex",
@@ -7622,6 +8285,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "backslash",
           "package": "hlatex",
@@ -7634,6 +8298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bar",
           "package": "hlatex",
@@ -7643,6 +8308,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bar",
           "normalized": "MathItem-\u003eMathItem",
@@ -7657,6 +8323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "beta",
           "package": "hlatex",
@@ -7666,6 +8333,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "beta",
           "package": "hlatex",
@@ -7678,6 +8346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "between",
           "package": "hlatex",
@@ -7687,6 +8356,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "between",
           "normalized": "Char-\u003eChar-\u003eMathItem-\u003eMathItem",
@@ -7701,6 +8371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bigcap",
           "package": "hlatex",
@@ -7710,6 +8381,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bigcap",
           "package": "hlatex",
@@ -7722,6 +8394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bigcup",
           "package": "hlatex",
@@ -7731,6 +8404,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bigcup",
           "package": "hlatex",
@@ -7743,6 +8417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bigvee",
           "package": "hlatex",
@@ -7752,6 +8427,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bigvee",
           "package": "hlatex",
@@ -7764,6 +8440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bigwedge",
           "package": "hlatex",
@@ -7773,6 +8450,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bigwedge",
           "package": "hlatex",
@@ -7785,6 +8463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bmod",
           "package": "hlatex",
@@ -7794,6 +8473,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bmod",
           "normalized": "MathItem-\u003eMathItem-\u003eMathItem",
@@ -7808,6 +8488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bot",
           "package": "hlatex",
@@ -7817,6 +8498,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bot",
           "package": "hlatex",
@@ -7829,6 +8511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "braces",
           "package": "hlatex",
@@ -7838,6 +8521,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "braces",
           "normalized": "MathItem-\u003eMathItem",
@@ -7852,6 +8536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "brackets",
           "package": "hlatex",
@@ -7861,6 +8546,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "brackets",
           "normalized": "MathItem-\u003eMathItem",
@@ -7875,6 +8561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "breve",
           "package": "hlatex",
@@ -7884,6 +8571,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "breve",
           "normalized": "MathItem-\u003eMathItem",
@@ -7898,6 +8586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bullet",
           "package": "hlatex",
@@ -7907,6 +8596,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "bullet",
           "package": "hlatex",
@@ -7919,6 +8609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "c",
           "package": "hlatex",
@@ -7928,6 +8619,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "c",
           "package": "hlatex",
@@ -7940,6 +8632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cal",
           "package": "hlatex",
@@ -7949,6 +8642,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cal",
           "package": "hlatex",
@@ -7961,6 +8655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cap",
           "package": "hlatex",
@@ -7970,6 +8665,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cap",
           "package": "hlatex",
@@ -7982,6 +8678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cdotp",
           "package": "hlatex",
@@ -7991,6 +8688,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cdotp",
           "package": "hlatex",
@@ -8003,6 +8701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cdots",
           "package": "hlatex",
@@ -8012,6 +8711,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cdots",
           "package": "hlatex",
@@ -8072,6 +8772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "charToMath",
           "package": "hlatex",
@@ -8081,6 +8782,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "charToMath",
           "normalized": "Char-\u003eMaybe MathItem",
@@ -8096,6 +8798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "check",
           "package": "hlatex",
@@ -8105,6 +8808,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "check",
           "normalized": "MathItem-\u003eMathItem",
@@ -8119,6 +8823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "chi",
           "package": "hlatex",
@@ -8128,6 +8833,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "chi",
           "package": "hlatex",
@@ -8140,6 +8846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "circ",
           "package": "hlatex",
@@ -8149,6 +8856,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "circ",
           "package": "hlatex",
@@ -8185,6 +8893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cong",
           "package": "hlatex",
@@ -8194,6 +8903,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cong",
           "package": "hlatex",
@@ -8206,6 +8916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cos",
           "package": "hlatex",
@@ -8215,6 +8926,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cos",
           "package": "hlatex",
@@ -8227,6 +8939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cosh",
           "package": "hlatex",
@@ -8236,6 +8949,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cosh",
           "package": "hlatex",
@@ -8248,6 +8962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cot",
           "package": "hlatex",
@@ -8257,6 +8972,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cot",
           "package": "hlatex",
@@ -8269,6 +8985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "csc",
           "package": "hlatex",
@@ -8278,6 +8995,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "csc",
           "package": "hlatex",
@@ -8290,6 +9008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cup",
           "package": "hlatex",
@@ -8299,6 +9018,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "cup",
           "package": "hlatex",
@@ -8311,6 +9031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "d",
           "package": "hlatex",
@@ -8320,6 +9041,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "d",
           "package": "hlatex",
@@ -8332,6 +9054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ddot",
           "package": "hlatex",
@@ -8341,6 +9064,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ddot",
           "normalized": "MathItem-\u003eMathItem",
@@ -8355,6 +9079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ddots",
           "package": "hlatex",
@@ -8364,6 +9089,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ddots",
           "package": "hlatex",
@@ -8376,6 +9102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "decl",
           "package": "hlatex",
@@ -8385,6 +9112,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "decl",
           "normalized": "MathDecl-\u003eMathItem-\u003eMathItem",
@@ -8399,6 +9127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "decls",
           "package": "hlatex",
@@ -8408,6 +9137,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "decls",
           "normalized": "[MathDecl]-\u003eMathItem-\u003eMathItem",
@@ -8422,6 +9152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "delta",
           "package": "hlatex",
@@ -8431,6 +9162,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "delta",
           "package": "hlatex",
@@ -8443,6 +9175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "det",
           "package": "hlatex",
@@ -8452,6 +9185,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "det",
           "package": "hlatex",
@@ -8464,6 +9198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "diamond",
           "package": "hlatex",
@@ -8473,6 +9208,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "diamond",
           "package": "hlatex",
@@ -8485,6 +9221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "dim",
           "package": "hlatex",
@@ -8494,6 +9231,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "dim",
           "package": "hlatex",
@@ -8506,6 +9244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "displaystyle",
           "package": "hlatex",
@@ -8515,6 +9254,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "displaystyle",
           "package": "hlatex",
@@ -8527,6 +9267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "div",
           "package": "hlatex",
@@ -8536,6 +9277,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "div",
           "package": "hlatex",
@@ -8548,6 +9290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "divide",
           "package": "hlatex",
@@ -8557,6 +9300,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "divide",
           "package": "hlatex",
@@ -8569,6 +9313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "dot",
           "package": "hlatex",
@@ -8578,6 +9323,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "dot",
           "normalized": "MathItem-\u003eMathItem",
@@ -8592,6 +9338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "downarrow",
           "package": "hlatex",
@@ -8601,6 +9348,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "downarrow",
           "package": "hlatex",
@@ -8613,6 +9361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "e",
           "package": "hlatex",
@@ -8622,6 +9371,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "e",
           "package": "hlatex",
@@ -8634,6 +9384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "emptyset",
           "package": "hlatex",
@@ -8643,6 +9394,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "emptyset",
           "package": "hlatex",
@@ -8655,6 +9407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "epsilon",
           "package": "hlatex",
@@ -8664,6 +9417,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "epsilon",
           "package": "hlatex",
@@ -8676,6 +9430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "eq",
           "package": "hlatex",
@@ -8685,6 +9440,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "eq",
           "package": "hlatex",
@@ -8697,6 +9453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "equiv",
           "package": "hlatex",
@@ -8706,6 +9463,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "equiv",
           "package": "hlatex",
@@ -8718,6 +9476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "eta",
           "package": "hlatex",
@@ -8727,6 +9486,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "eta",
           "package": "hlatex",
@@ -8739,6 +9499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "exists",
           "package": "hlatex",
@@ -8748,6 +9509,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "exists",
           "package": "hlatex",
@@ -8760,6 +9522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "f",
           "package": "hlatex",
@@ -8769,6 +9532,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "f",
           "package": "hlatex",
@@ -8781,6 +9545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "forall_",
           "package": "hlatex",
@@ -8790,6 +9555,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "forall_",
           "package": "hlatex",
@@ -8802,6 +9568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "frac",
           "package": "hlatex",
@@ -8811,6 +9578,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "frac",
           "normalized": "MathItem-\u003eMathItem-\u003eMathItem",
@@ -8825,6 +9593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "g",
           "package": "hlatex",
@@ -8834,6 +9603,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "g",
           "package": "hlatex",
@@ -8846,6 +9616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "gamma",
           "package": "hlatex",
@@ -8855,6 +9626,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "gamma",
           "package": "hlatex",
@@ -8867,6 +9639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "gcd",
           "package": "hlatex",
@@ -8876,6 +9649,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "gcd",
           "package": "hlatex",
@@ -8888,6 +9662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ge",
           "package": "hlatex",
@@ -8897,6 +9672,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ge",
           "package": "hlatex",
@@ -8909,6 +9685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "geq",
           "package": "hlatex",
@@ -8918,6 +9695,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "geq",
           "package": "hlatex",
@@ -8930,6 +9708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "grave",
           "package": "hlatex",
@@ -8939,6 +9718,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "grave",
           "normalized": "MathItem-\u003eMathItem",
@@ -8953,6 +9733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "group",
           "package": "hlatex",
@@ -8962,6 +9743,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "group",
           "normalized": "MathItem-\u003eMathItem",
@@ -8976,6 +9758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "h",
           "package": "hlatex",
@@ -8985,6 +9768,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "h",
           "package": "hlatex",
@@ -8997,6 +9781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "hat",
           "package": "hlatex",
@@ -9006,6 +9791,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "hat",
           "normalized": "MathItem-\u003eMathItem",
@@ -9042,6 +9828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "i",
           "package": "hlatex",
@@ -9051,6 +9838,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "i",
           "package": "hlatex",
@@ -9063,6 +9851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "iff",
           "package": "hlatex",
@@ -9072,6 +9861,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "iff",
           "package": "hlatex",
@@ -9084,6 +9874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "imath",
           "package": "hlatex",
@@ -9093,6 +9884,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "imath",
           "normalized": "MathItem-\u003eMathItem",
@@ -9107,6 +9899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "implies",
           "package": "hlatex",
@@ -9116,6 +9909,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "implies",
           "package": "hlatex",
@@ -9128,6 +9922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "in_",
           "package": "hlatex",
@@ -9137,6 +9932,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "in_",
           "package": "hlatex",
@@ -9149,6 +9945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "inf",
           "package": "hlatex",
@@ -9158,6 +9955,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "inf",
           "package": "hlatex",
@@ -9170,6 +9968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "infty",
           "package": "hlatex",
@@ -9179,6 +9978,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "infty",
           "package": "hlatex",
@@ -9191,6 +9991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "int",
           "package": "hlatex",
@@ -9200,6 +10001,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "int",
           "package": "hlatex",
@@ -9212,6 +10014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "iota",
           "package": "hlatex",
@@ -9221,6 +10024,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "iota",
           "package": "hlatex",
@@ -9233,6 +10037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "j",
           "package": "hlatex",
@@ -9242,6 +10047,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "j",
           "package": "hlatex",
@@ -9254,6 +10060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "jmath",
           "package": "hlatex",
@@ -9263,6 +10070,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "jmath",
           "normalized": "MathItem-\u003eMathItem",
@@ -9277,6 +10085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "k",
           "package": "hlatex",
@@ -9286,6 +10095,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "k",
           "package": "hlatex",
@@ -9298,6 +10108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "kappa",
           "package": "hlatex",
@@ -9307,6 +10118,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "kappa",
           "package": "hlatex",
@@ -9319,6 +10131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "l",
           "package": "hlatex",
@@ -9328,6 +10141,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "l",
           "package": "hlatex",
@@ -9340,6 +10154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lambda",
           "package": "hlatex",
@@ -9349,6 +10164,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lambda",
           "package": "hlatex",
@@ -9361,6 +10177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "langle",
           "package": "hlatex",
@@ -9370,6 +10187,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "langle",
           "package": "hlatex",
@@ -9382,6 +10200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lbrace",
           "package": "hlatex",
@@ -9391,6 +10210,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lbrace",
           "package": "hlatex",
@@ -9403,6 +10223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lceil",
           "package": "hlatex",
@@ -9412,6 +10233,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lceil",
           "package": "hlatex",
@@ -9424,6 +10246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lcm",
           "package": "hlatex",
@@ -9433,6 +10256,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lcm",
           "package": "hlatex",
@@ -9445,6 +10269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ldotp",
           "package": "hlatex",
@@ -9454,6 +10279,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ldotp",
           "package": "hlatex",
@@ -9466,6 +10292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ldots",
           "package": "hlatex",
@@ -9475,6 +10302,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ldots",
           "package": "hlatex",
@@ -9487,6 +10315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "le",
           "package": "hlatex",
@@ -9496,6 +10325,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "le",
           "package": "hlatex",
@@ -9508,6 +10338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "leftarrow",
           "package": "hlatex",
@@ -9517,6 +10348,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "leftarrow",
           "package": "hlatex",
@@ -9529,6 +10361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "leftrightarrow",
           "package": "hlatex",
@@ -9538,6 +10371,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "leftrightarrow",
           "package": "hlatex",
@@ -9550,6 +10384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "leq",
           "package": "hlatex",
@@ -9559,6 +10394,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "leq",
           "package": "hlatex",
@@ -9571,6 +10407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lfloor",
           "package": "hlatex",
@@ -9580,6 +10417,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lfloor",
           "package": "hlatex",
@@ -9592,6 +10430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lim",
           "package": "hlatex",
@@ -9601,6 +10440,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lim",
           "package": "hlatex",
@@ -9613,6 +10453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "liminf",
           "package": "hlatex",
@@ -9622,6 +10463,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "liminf",
           "package": "hlatex",
@@ -9634,6 +10476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "limsup",
           "package": "hlatex",
@@ -9643,6 +10486,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "limsup",
           "package": "hlatex",
@@ -9655,6 +10499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ln",
           "package": "hlatex",
@@ -9664,6 +10509,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ln",
           "package": "hlatex",
@@ -9676,6 +10522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "log",
           "package": "hlatex",
@@ -9685,6 +10532,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "log",
           "package": "hlatex",
@@ -9697,6 +10545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "longleftarrow",
           "package": "hlatex",
@@ -9706,6 +10555,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "longleftarrow",
           "package": "hlatex",
@@ -9718,6 +10568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "longleftrightarrow",
           "package": "hlatex",
@@ -9727,6 +10578,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "longleftrightarrow",
           "package": "hlatex",
@@ -9739,6 +10591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "longrightarrow",
           "package": "hlatex",
@@ -9748,6 +10601,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "longrightarrow",
           "package": "hlatex",
@@ -9760,6 +10614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lparen",
           "package": "hlatex",
@@ -9769,6 +10624,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "lparen",
           "package": "hlatex",
@@ -9781,6 +10637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "m",
           "package": "hlatex",
@@ -9790,6 +10647,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "m",
           "package": "hlatex",
@@ -9802,6 +10660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathBinOp",
           "package": "hlatex",
@@ -9811,6 +10670,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathBinOp",
           "normalized": "String-\u003eMathItem-\u003eMathItem-\u003eMathItem",
@@ -9826,6 +10686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathBinOps",
           "package": "hlatex",
@@ -9835,6 +10696,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathBinOps",
           "normalized": "[MathItem-\u003eMathItem-\u003eMathItem]",
@@ -9850,6 +10712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathCmd",
           "package": "hlatex",
@@ -9859,6 +10722,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathCmd",
           "normalized": "String-\u003eMathItem",
@@ -9874,6 +10738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathCmdArg",
           "package": "hlatex",
@@ -9883,6 +10748,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathCmdArg",
           "normalized": "String-\u003eAnyItem-\u003eMathItem",
@@ -9898,6 +10764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathCmdArgs",
           "package": "hlatex",
@@ -9907,6 +10774,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathCmdArgs",
           "normalized": "String-\u003e[Arg AnyItem]-\u003eMathItem",
@@ -9922,6 +10790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathCmdMathArg",
           "package": "hlatex",
@@ -9931,6 +10800,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathCmdMathArg",
           "normalized": "String-\u003eMathItem-\u003eMathItem",
@@ -9946,6 +10816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathCmdMathArgs",
           "package": "hlatex",
@@ -9955,6 +10826,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathCmdMathArgs",
           "normalized": "String-\u003e[Arg MathItem]-\u003eMathItem",
@@ -9970,6 +10842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathCmdsArg",
           "package": "hlatex",
@@ -9979,6 +10852,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathCmdsArg",
           "normalized": "[MathItem-\u003eMathItem]",
@@ -9994,6 +10868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathDecl",
           "package": "hlatex",
@@ -10003,6 +10878,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathDecl",
           "normalized": "String-\u003eMathDecl",
@@ -10019,6 +10895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathGroup",
           "package": "hlatex",
@@ -10029,6 +10906,7 @@
         "index": {
           "description": "Same as group",
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathGroup",
           "normalized": "MathItem-\u003eMathItem",
@@ -10044,6 +10922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathbb",
           "package": "hlatex",
@@ -10053,6 +10932,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathbb",
           "normalized": "MathItem-\u003eMathItem",
@@ -10067,6 +10947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathbf",
           "package": "hlatex",
@@ -10076,6 +10957,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathbf",
           "normalized": "MathItem-\u003eMathItem",
@@ -10090,6 +10972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathcal",
           "package": "hlatex",
@@ -10099,6 +10982,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathcal",
           "normalized": "MathItem-\u003eMathItem",
@@ -10113,6 +10997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathfrak",
           "package": "hlatex",
@@ -10122,6 +11007,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathfrak",
           "normalized": "MathItem-\u003eMathItem",
@@ -10136,6 +11022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathit",
           "package": "hlatex",
@@ -10145,6 +11032,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathit",
           "normalized": "MathItem-\u003eMathItem",
@@ -10159,6 +11047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathlift",
           "package": "hlatex",
@@ -10168,6 +11057,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathlift",
           "normalized": "(LatexItem-\u003eLatexItem)-\u003eMathItem-\u003eMathItem",
@@ -10182,6 +11072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathnormal",
           "package": "hlatex",
@@ -10191,6 +11082,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathnormal",
           "normalized": "MathItem-\u003eMathItem",
@@ -10205,6 +11097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathrm",
           "package": "hlatex",
@@ -10214,6 +11107,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathrm",
           "normalized": "MathItem-\u003eMathItem",
@@ -10228,6 +11122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathscr",
           "package": "hlatex",
@@ -10237,6 +11132,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathscr",
           "normalized": "MathItem-\u003eMathItem",
@@ -10251,6 +11147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathsf",
           "package": "hlatex",
@@ -10260,6 +11157,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathsf",
           "normalized": "MathItem-\u003eMathItem",
@@ -10274,6 +11172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathtt",
           "package": "hlatex",
@@ -10283,6 +11182,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mathtt",
           "normalized": "MathItem-\u003eMathItem",
@@ -10297,6 +11197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "max",
           "package": "hlatex",
@@ -10306,6 +11207,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "max",
           "package": "hlatex",
@@ -10318,6 +11220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mbox",
           "package": "hlatex",
@@ -10327,6 +11230,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mbox",
           "normalized": "LatexItem-\u003eMathItem",
@@ -10341,6 +11245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mchar",
           "package": "hlatex",
@@ -10350,6 +11255,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mchar",
           "normalized": "XChar-\u003eXChar",
@@ -10364,6 +11270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mediumspace",
           "package": "hlatex",
@@ -10373,6 +11280,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mediumspace",
           "package": "hlatex",
@@ -10385,6 +11293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "min",
           "package": "hlatex",
@@ -10394,6 +11303,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "min",
           "package": "hlatex",
@@ -10406,6 +11316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mit",
           "package": "hlatex",
@@ -10415,6 +11326,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mit",
           "package": "hlatex",
@@ -10427,6 +11339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mleft",
           "package": "hlatex",
@@ -10436,6 +11349,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mleft",
           "normalized": "Char-\u003eMathItem",
@@ -10450,6 +11364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mod",
           "package": "hlatex",
@@ -10459,6 +11374,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mod",
           "package": "hlatex",
@@ -10471,6 +11387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "models",
           "package": "hlatex",
@@ -10480,6 +11397,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "models",
           "package": "hlatex",
@@ -10492,6 +11410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mrat",
           "package": "hlatex",
@@ -10501,6 +11420,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mrat",
           "normalized": "Rational-\u003eMathItem",
@@ -10515,6 +11435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mright",
           "package": "hlatex",
@@ -10524,6 +11445,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mright",
           "normalized": "Char-\u003eMathItem",
@@ -10538,6 +11460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mstring",
           "package": "hlatex",
@@ -10547,6 +11470,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mstring",
           "normalized": "String-\u003eLatexItem",
@@ -10561,6 +11485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "msup",
           "package": "hlatex",
@@ -10570,6 +11495,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "msup",
           "package": "hlatex",
@@ -10582,6 +11508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mu",
           "package": "hlatex",
@@ -10591,6 +11518,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "mu",
           "package": "hlatex",
@@ -10603,6 +11531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "n",
           "package": "hlatex",
@@ -10612,6 +11541,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "n",
           "package": "hlatex",
@@ -10624,6 +11554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "nabla",
           "package": "hlatex",
@@ -10633,6 +11564,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "nabla",
           "package": "hlatex",
@@ -10645,6 +11577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ne",
           "package": "hlatex",
@@ -10654,6 +11587,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "ne",
           "package": "hlatex",
@@ -10666,6 +11600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "neg",
           "package": "hlatex",
@@ -10675,6 +11610,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "neg",
           "package": "hlatex",
@@ -10687,6 +11623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "negthinspace",
           "package": "hlatex",
@@ -10696,6 +11633,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "negthinspace",
           "package": "hlatex",
@@ -10708,6 +11646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "neq",
           "package": "hlatex",
@@ -10717,6 +11656,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "neq",
           "package": "hlatex",
@@ -10729,6 +11669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "notin",
           "package": "hlatex",
@@ -10738,6 +11679,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "notin",
           "package": "hlatex",
@@ -10750,6 +11692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "nu",
           "package": "hlatex",
@@ -10759,6 +11702,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "nu",
           "package": "hlatex",
@@ -10771,6 +11715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "o",
           "package": "hlatex",
@@ -10780,6 +11725,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "o",
           "package": "hlatex",
@@ -10792,6 +11738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "oint",
           "package": "hlatex",
@@ -10801,6 +11748,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "oint",
           "package": "hlatex",
@@ -10813,6 +11761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "omega",
           "package": "hlatex",
@@ -10822,6 +11771,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "omega",
           "package": "hlatex",
@@ -10835,6 +11785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn LaTeX math mode omicron is just \u003ccode\u003e\u003ca\u003eo\u003c/a\u003e\u003c/code\u003e,\n   it is exported as omicron here as well just\n   for convinience.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "omicron",
           "package": "hlatex",
@@ -10845,6 +11796,7 @@
         "index": {
           "description": "In LaTeX math mode omicron is just it is exported as omicron here as well just for convinience",
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "omicron",
           "package": "hlatex",
@@ -10857,6 +11809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "oplus",
           "package": "hlatex",
@@ -10866,6 +11819,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "oplus",
           "package": "hlatex",
@@ -10878,6 +11832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "otimes",
           "package": "hlatex",
@@ -10887,6 +11842,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "otimes",
           "package": "hlatex",
@@ -10899,6 +11855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "overbrace",
           "package": "hlatex",
@@ -10908,6 +11865,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "overbrace",
           "normalized": "MathItem-\u003eMathItem",
@@ -10922,6 +11880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "overline",
           "package": "hlatex",
@@ -10931,6 +11890,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "overline",
           "normalized": "MathItem-\u003eMathItem",
@@ -10945,6 +11905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "p",
           "package": "hlatex",
@@ -10954,6 +11915,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "p",
           "package": "hlatex",
@@ -10966,6 +11928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "parenChar",
           "package": "hlatex",
@@ -10975,6 +11938,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "parenChar",
           "normalized": "Char-\u003eLatexM String",
@@ -10990,6 +11954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "parens",
           "package": "hlatex",
@@ -10999,6 +11964,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "parens",
           "normalized": "MathItem-\u003eMathItem",
@@ -11013,6 +11979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "partial",
           "package": "hlatex",
@@ -11022,6 +11989,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "partial",
           "package": "hlatex",
@@ -11034,6 +12002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "phantom",
           "package": "hlatex",
@@ -11043,6 +12012,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "phantom",
           "normalized": "MathItem-\u003eMathItem",
@@ -11057,6 +12027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "phi",
           "package": "hlatex",
@@ -11066,6 +12037,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "phi",
           "package": "hlatex",
@@ -11078,6 +12050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "pi",
           "package": "hlatex",
@@ -11087,6 +12060,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "pi",
           "package": "hlatex",
@@ -11099,6 +12073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "pm",
           "package": "hlatex",
@@ -11108,6 +12083,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "pm",
           "package": "hlatex",
@@ -11120,6 +12096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "pmod",
           "package": "hlatex",
@@ -11129,6 +12106,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "pmod",
           "normalized": "MathItem-\u003eMathItem",
@@ -11143,6 +12121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "prec",
           "package": "hlatex",
@@ -11152,6 +12131,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "prec",
           "package": "hlatex",
@@ -11164,6 +12144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "prod",
           "package": "hlatex",
@@ -11173,6 +12154,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "prod",
           "package": "hlatex",
@@ -11185,6 +12167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "propto",
           "package": "hlatex",
@@ -11194,6 +12177,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "propto",
           "package": "hlatex",
@@ -11206,6 +12190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "protect",
           "package": "hlatex",
@@ -11215,6 +12200,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "protect",
           "normalized": "String-\u003eLatexItem",
@@ -11229,6 +12215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "protector",
           "package": "hlatex",
@@ -11238,6 +12225,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "protector",
           "normalized": "XChar-\u003eString-\u003eLatexItem",
@@ -11252,6 +12240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "psi",
           "package": "hlatex",
@@ -11261,6 +12250,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "psi",
           "package": "hlatex",
@@ -11273,6 +12263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "q",
           "package": "hlatex",
@@ -11282,6 +12273,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "q",
           "package": "hlatex",
@@ -11294,6 +12286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "quad",
           "package": "hlatex",
@@ -11303,6 +12296,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "quad",
           "package": "hlatex",
@@ -11315,6 +12309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "r",
           "package": "hlatex",
@@ -11324,6 +12319,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "r",
           "package": "hlatex",
@@ -11336,6 +12332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rangle",
           "package": "hlatex",
@@ -11345,6 +12342,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rangle",
           "package": "hlatex",
@@ -11357,6 +12355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rawDecls",
           "package": "hlatex",
@@ -11366,6 +12365,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rawDecls",
           "normalized": "[MathDecl]-\u003eMathItem",
@@ -11381,6 +12381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rbrace",
           "package": "hlatex",
@@ -11390,6 +12391,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rbrace",
           "package": "hlatex",
@@ -11402,6 +12404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rceil",
           "package": "hlatex",
@@ -11411,6 +12414,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rceil",
           "package": "hlatex",
@@ -11423,6 +12427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rfloor",
           "package": "hlatex",
@@ -11432,6 +12437,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rfloor",
           "package": "hlatex",
@@ -11444,6 +12450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rho",
           "package": "hlatex",
@@ -11453,6 +12460,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rho",
           "package": "hlatex",
@@ -11465,6 +12473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rightarrow",
           "package": "hlatex",
@@ -11474,6 +12483,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rightarrow",
           "package": "hlatex",
@@ -11486,6 +12496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rparen",
           "package": "hlatex",
@@ -11495,6 +12506,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "rparen",
           "package": "hlatex",
@@ -11507,6 +12519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "s",
           "package": "hlatex",
@@ -11516,6 +12529,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "s",
           "package": "hlatex",
@@ -11528,6 +12542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "scriptscriptstyle",
           "package": "hlatex",
@@ -11537,6 +12552,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "scriptscriptstyle",
           "package": "hlatex",
@@ -11549,6 +12565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "scriptstyle",
           "package": "hlatex",
@@ -11558,6 +12575,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "scriptstyle",
           "package": "hlatex",
@@ -11570,6 +12588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sec",
           "package": "hlatex",
@@ -11579,6 +12598,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sec",
           "package": "hlatex",
@@ -11591,6 +12611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sigma",
           "package": "hlatex",
@@ -11600,6 +12621,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sigma",
           "package": "hlatex",
@@ -11612,6 +12634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sin",
           "package": "hlatex",
@@ -11621,6 +12644,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sin",
           "package": "hlatex",
@@ -11633,6 +12657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sinh",
           "package": "hlatex",
@@ -11642,6 +12667,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sinh",
           "package": "hlatex",
@@ -11654,6 +12680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "space",
           "package": "hlatex",
@@ -11663,6 +12690,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "space",
           "package": "hlatex",
@@ -11675,6 +12703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sqrt",
           "package": "hlatex",
@@ -11684,6 +12713,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sqrt",
           "normalized": "MathItem-\u003eMathItem",
@@ -11698,6 +12728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sqrt'",
           "package": "hlatex",
@@ -11707,6 +12738,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sqrt'",
           "normalized": "MathItem-\u003eMathItem-\u003eMathItem",
@@ -11721,6 +12753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "square",
           "package": "hlatex",
@@ -11730,6 +12763,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "square",
           "package": "hlatex",
@@ -11742,6 +12776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "stackrel",
           "package": "hlatex",
@@ -11751,6 +12786,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "stackrel",
           "normalized": "MathItem-\u003eMathItem-\u003eMathItem",
@@ -11765,6 +12801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "stringToMath",
           "package": "hlatex",
@@ -11774,6 +12811,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "stringToMath",
           "normalized": "String-\u003eMathItem",
@@ -11789,6 +12827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sub",
           "package": "hlatex",
@@ -11798,6 +12837,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sub",
           "normalized": "MathItem-\u003eMathItem",
@@ -11812,6 +12852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "subset",
           "package": "hlatex",
@@ -11821,6 +12862,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "subset",
           "package": "hlatex",
@@ -11833,6 +12875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "subseteq",
           "package": "hlatex",
@@ -11842,6 +12885,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "subseteq",
           "package": "hlatex",
@@ -11854,6 +12898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "succ",
           "package": "hlatex",
@@ -11863,6 +12908,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "succ",
           "package": "hlatex",
@@ -11875,6 +12921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sum",
           "package": "hlatex",
@@ -11884,6 +12931,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sum",
           "package": "hlatex",
@@ -11896,6 +12944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sup",
           "package": "hlatex",
@@ -11905,6 +12954,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "sup",
           "normalized": "MathItem-\u003eMathItem",
@@ -11919,6 +12969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "supset",
           "package": "hlatex",
@@ -11928,6 +12979,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "supset",
           "package": "hlatex",
@@ -11940,6 +12992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "supseteq",
           "package": "hlatex",
@@ -11949,6 +13002,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "supseteq",
           "package": "hlatex",
@@ -11961,6 +13015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "t",
           "package": "hlatex",
@@ -11970,6 +13025,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "t",
           "package": "hlatex",
@@ -11982,6 +13038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "tan",
           "package": "hlatex",
@@ -11991,6 +13048,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "tan",
           "package": "hlatex",
@@ -12003,6 +13061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "tanh",
           "package": "hlatex",
@@ -12012,6 +13071,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "tanh",
           "package": "hlatex",
@@ -12024,6 +13084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "tau",
           "package": "hlatex",
@@ -12033,6 +13094,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "tau",
           "package": "hlatex",
@@ -12045,6 +13107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "text",
           "package": "hlatex",
@@ -12054,6 +13117,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "text",
           "normalized": "LatexItem-\u003eMathItem",
@@ -12068,6 +13132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "textstyle",
           "package": "hlatex",
@@ -12077,6 +13142,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "textstyle",
           "package": "hlatex",
@@ -12089,6 +13155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "theta",
           "package": "hlatex",
@@ -12098,6 +13165,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "theta",
           "package": "hlatex",
@@ -12110,6 +13178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "thickspace",
           "package": "hlatex",
@@ -12119,6 +13188,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "thickspace",
           "package": "hlatex",
@@ -12131,6 +13201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "thinspace",
           "package": "hlatex",
@@ -12140,6 +13211,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "thinspace",
           "package": "hlatex",
@@ -12152,6 +13224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "tilde",
           "package": "hlatex",
@@ -12161,6 +13234,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "tilde",
           "normalized": "MathItem-\u003eMathItem",
@@ -12175,6 +13249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "times",
           "package": "hlatex",
@@ -12184,6 +13259,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "times",
           "package": "hlatex",
@@ -12196,6 +13272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "to",
           "package": "hlatex",
@@ -12205,6 +13282,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "to",
           "package": "hlatex",
@@ -12217,6 +13295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "top",
           "package": "hlatex",
@@ -12226,6 +13305,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "top",
           "package": "hlatex",
@@ -12238,6 +13318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "u",
           "package": "hlatex",
@@ -12247,6 +13328,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "u",
           "package": "hlatex",
@@ -12259,6 +13341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "underbrace",
           "package": "hlatex",
@@ -12268,6 +13351,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "underbrace",
           "normalized": "MathItem-\u003eMathItem",
@@ -12282,6 +13366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "underline",
           "package": "hlatex",
@@ -12291,6 +13376,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "underline",
           "normalized": "MathItem-\u003eMathItem",
@@ -12305,6 +13391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "uparrow",
           "package": "hlatex",
@@ -12314,6 +13401,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "uparrow",
           "package": "hlatex",
@@ -12326,6 +13414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "upsilon",
           "package": "hlatex",
@@ -12335,6 +13424,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "upsilon",
           "package": "hlatex",
@@ -12347,6 +13437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "v",
           "package": "hlatex",
@@ -12356,6 +13447,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "v",
           "package": "hlatex",
@@ -12368,6 +13460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "varepsilon",
           "package": "hlatex",
@@ -12377,6 +13470,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "varepsilon",
           "package": "hlatex",
@@ -12389,6 +13483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "varphi",
           "package": "hlatex",
@@ -12398,6 +13493,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "varphi",
           "package": "hlatex",
@@ -12410,6 +13506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "vartheta",
           "package": "hlatex",
@@ -12419,6 +13516,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "vartheta",
           "package": "hlatex",
@@ -12431,6 +13529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "vartriangleright",
           "package": "hlatex",
@@ -12440,6 +13539,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "vartriangleright",
           "package": "hlatex",
@@ -12452,6 +13552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "vdash",
           "package": "hlatex",
@@ -12461,6 +13562,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "vdash",
           "package": "hlatex",
@@ -12473,6 +13575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "vdots",
           "package": "hlatex",
@@ -12482,6 +13585,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "vdots",
           "package": "hlatex",
@@ -12494,6 +13598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "vec",
           "package": "hlatex",
@@ -12503,6 +13608,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "vec",
           "normalized": "MathItem-\u003eMathItem",
@@ -12517,6 +13623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "vee",
           "package": "hlatex",
@@ -12526,6 +13633,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "vee",
           "package": "hlatex",
@@ -12538,6 +13646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "verb",
           "package": "hlatex",
@@ -12547,6 +13656,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "verb",
           "normalized": "String-\u003eLatexItem",
@@ -12583,6 +13693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "w",
           "package": "hlatex",
@@ -12592,6 +13703,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "w",
           "package": "hlatex",
@@ -12604,6 +13716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "wedge",
           "package": "hlatex",
@@ -12613,6 +13726,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "wedge",
           "package": "hlatex",
@@ -12625,6 +13739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "widehat",
           "package": "hlatex",
@@ -12634,6 +13749,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "widehat",
           "normalized": "MathItem-\u003eMathItem",
@@ -12648,6 +13764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "widetilde",
           "package": "hlatex",
@@ -12657,6 +13774,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "widetilde",
           "normalized": "MathItem-\u003eMathItem",
@@ -12671,6 +13789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "x",
           "package": "hlatex",
@@ -12680,6 +13799,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "x",
           "package": "hlatex",
@@ -12692,6 +13812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "xi",
           "package": "hlatex",
@@ -12701,6 +13822,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "xi",
           "package": "hlatex",
@@ -12713,6 +13835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "y",
           "package": "hlatex",
@@ -12722,6 +13845,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "y",
           "package": "hlatex",
@@ -12734,6 +13858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "z",
           "package": "hlatex",
@@ -12743,6 +13868,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "z",
           "package": "hlatex",
@@ -12755,6 +13881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Math",
           "name": "zeta",
           "package": "hlatex",
@@ -12764,6 +13891,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Math",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Math",
           "name": "zeta",
           "package": "hlatex",
@@ -12776,6 +13904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "MonoidUtils",
           "package": "hlatex",
@@ -12784,6 +13913,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder MonoidUtils",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "MonoidUtils",
           "package": "hlatex",
@@ -12797,6 +13927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "ø",
           "package": "hlatex",
@@ -12806,6 +13937,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder MonoidUtils",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "ø",
           "package": "hlatex",
@@ -12818,6 +13950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "(\u003c||\u003e)",
           "package": "hlatex",
@@ -12827,6 +13960,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder MonoidUtils",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -12841,6 +13975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "(\u003c&&\u003e)",
           "package": "hlatex",
@@ -12850,6 +13985,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder MonoidUtils",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "(\u003c&&\u003e) \u003c&&\u003e",
           "normalized": "a-\u003eb-\u003eb",
@@ -12865,6 +14001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "(\u003c\u003e)",
           "package": "hlatex",
@@ -12874,6 +14011,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "Language LaTeX Builder MonoidUtils",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -12889,6 +14027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8853;) = \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2295, CIRCLED PLUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "(⊕)",
           "package": "hlatex",
@@ -12898,6 +14037,7 @@
         "index": {
           "description": "mappend CIRCLED PLUS",
           "hierarchy": "Language LaTeX Builder MonoidUtils",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "(⊕) ⊕",
           "normalized": "a-\u003ea-\u003ea",
@@ -12912,6 +14052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "mapNonEmpty",
           "package": "hlatex",
@@ -12921,6 +14062,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder MonoidUtils",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.MonoidUtils",
           "name": "mapNonEmpty",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -12936,6 +14078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "QQ",
           "package": "hlatex",
@@ -12944,6 +14087,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "QQ",
           "package": "hlatex",
@@ -12957,6 +14101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "frAntiq",
           "package": "hlatex",
@@ -12966,6 +14111,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "frAntiq",
           "normalized": "a-\u003ea",
@@ -12981,6 +14127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "frQQ",
           "package": "hlatex",
@@ -12990,6 +14137,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "frQQ",
           "package": "hlatex",
@@ -13003,6 +14151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "frQQFile",
           "package": "hlatex",
@@ -13012,6 +14161,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "frQQFile",
           "package": "hlatex",
@@ -13025,6 +14175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "frTop",
           "package": "hlatex",
@@ -13034,6 +14185,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "frTop",
           "normalized": "a-\u003ea",
@@ -13049,6 +14201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "indent",
           "package": "hlatex",
@@ -13058,6 +14211,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "indent",
           "normalized": "String-\u003eQ Exp",
@@ -13072,6 +14226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "istr",
           "package": "hlatex",
@@ -13081,6 +14236,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "istr",
           "package": "hlatex",
@@ -13093,6 +14249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "keys",
           "package": "hlatex",
@@ -13102,6 +14259,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "keys",
           "package": "hlatex",
@@ -13114,6 +14272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "keysFile",
           "package": "hlatex",
@@ -13123,6 +14282,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "keysFile",
           "package": "hlatex",
@@ -13136,6 +14296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "mkQQ",
           "package": "hlatex",
@@ -13145,6 +14306,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "mkQQ",
           "normalized": "String-\u003eName-\u003eQuasiQuoter",
@@ -13160,6 +14322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "mkQQFile",
           "package": "hlatex",
@@ -13169,6 +14332,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "mkQQFile",
           "normalized": "(String-\u003eQ Exp)-\u003eString-\u003eName-\u003e(QuasiQuoter,QuasiQuoter)",
@@ -13184,6 +14348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "mkQQgen",
           "package": "hlatex",
@@ -13193,6 +14358,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "mkQQgen",
           "normalized": "(String-\u003eQ Exp)-\u003eString-\u003eName-\u003eQuasiQuoter",
@@ -13208,6 +14374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "mkQQnoIndent",
           "package": "hlatex",
@@ -13217,6 +14384,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "mkQQnoIndent",
           "normalized": "String-\u003eName-\u003eQuasiQuoter",
@@ -13232,6 +14400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "noIndent",
           "package": "hlatex",
@@ -13241,6 +14410,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "noIndent",
           "normalized": "String-\u003eQ Exp",
@@ -13256,6 +14426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "qm",
           "package": "hlatex",
@@ -13265,6 +14436,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "qm",
           "package": "hlatex",
@@ -13277,6 +14449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "qmFile",
           "package": "hlatex",
@@ -13286,6 +14459,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "qmFile",
           "package": "hlatex",
@@ -13299,6 +14473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "qp",
           "package": "hlatex",
@@ -13308,6 +14483,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "qp",
           "package": "hlatex",
@@ -13320,6 +14496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "qpFile",
           "package": "hlatex",
@@ -13329,6 +14506,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "qpFile",
           "package": "hlatex",
@@ -13342,6 +14520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "str",
           "package": "hlatex",
@@ -13351,6 +14530,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "str",
           "package": "hlatex",
@@ -13363,6 +14543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "strFile",
           "package": "hlatex",
@@ -13372,6 +14553,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "strFile",
           "package": "hlatex",
@@ -13385,6 +14567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "stripIndentQQ",
           "package": "hlatex",
@@ -13394,6 +14577,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "stripIndentQQ",
           "normalized": "String-\u003eQ String",
@@ -13409,6 +14593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "tex",
           "package": "hlatex",
@@ -13418,6 +14603,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "tex",
           "package": "hlatex",
@@ -13430,6 +14616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "texFile",
           "package": "hlatex",
@@ -13439,6 +14626,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "texFile",
           "package": "hlatex",
@@ -13453,6 +14641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasiquoter for raw TeX in math mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "texm",
           "package": "hlatex",
@@ -13463,6 +14652,7 @@
         "index": {
           "description": "Quasiquoter for raw TeX in math mode",
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "texm",
           "package": "hlatex",
@@ -13476,6 +14666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasiquoter for raw TeX in math mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "texmFile",
           "package": "hlatex",
@@ -13486,6 +14677,7 @@
         "index": {
           "description": "Quasiquoter for raw TeX in math mode",
           "hierarchy": "Language LaTeX Builder QQ",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.QQ",
           "name": "texmFile",
           "package": "hlatex",
@@ -13499,6 +14691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Rotating",
           "name": "Rotating",
           "package": "hlatex",
@@ -13507,6 +14700,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Rotating",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Rotating",
           "name": "Rotating",
           "package": "hlatex",
@@ -13520,6 +14714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Rotating",
           "name": "pkg",
           "package": "hlatex",
@@ -13529,6 +14724,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Rotating",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Rotating",
           "name": "pkg",
           "package": "hlatex",
@@ -13541,6 +14737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder.Rotating",
           "name": "turn",
           "package": "hlatex",
@@ -13550,6 +14747,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder Rotating",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder.Rotating",
           "name": "turn",
           "normalized": "Int-\u003eLatexItem-\u003eLatexItem",
@@ -13564,6 +14762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "Builder",
           "package": "hlatex",
@@ -13572,6 +14771,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "Builder",
           "package": "hlatex",
@@ -13585,6 +14785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "HaveC",
           "package": "hlatex",
@@ -13593,6 +14794,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "HaveC",
           "package": "hlatex",
@@ -13606,6 +14808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "HaveL",
           "package": "hlatex",
@@ -13614,6 +14817,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "HaveL",
           "package": "hlatex",
@@ -13627,6 +14831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "HaveR",
           "package": "hlatex",
@@ -13635,6 +14840,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "HaveR",
           "package": "hlatex",
@@ -13648,6 +14854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "Spaces",
           "package": "hlatex",
@@ -13656,6 +14863,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "Spaces",
           "package": "hlatex",
@@ -13669,6 +14877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "XChar",
           "package": "hlatex",
@@ -13677,6 +14886,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "XChar",
           "package": "hlatex",
@@ -13784,6 +14994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "Spaces",
           "package": "hlatex",
@@ -13793,6 +15004,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "Spaces",
           "package": "hlatex",
@@ -13806,6 +15018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_AA",
           "package": "hlatex",
@@ -13815,6 +15028,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_AA",
           "package": "hlatex",
@@ -13828,6 +15042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_AE",
           "package": "hlatex",
@@ -13837,6 +15052,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_AE",
           "package": "hlatex",
@@ -13850,6 +15066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_H",
           "package": "hlatex",
@@ -13859,6 +15076,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_H",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -13873,6 +15091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_Huge",
           "package": "hlatex",
@@ -13882,6 +15101,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_Huge",
           "package": "hlatex",
@@ -13895,6 +15115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_L",
           "package": "hlatex",
@@ -13904,6 +15125,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_L",
           "package": "hlatex",
@@ -13916,6 +15138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_LARGE",
           "package": "hlatex",
@@ -13925,6 +15148,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_LARGE",
           "package": "hlatex",
@@ -13939,6 +15163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe LaTeX logo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_LaTeX",
           "package": "hlatex",
@@ -13949,6 +15174,7 @@
         "index": {
           "description": "The LaTeX logo",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_LaTeX",
           "package": "hlatex",
@@ -13962,6 +15188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_Large",
           "package": "hlatex",
@@ -13971,6 +15198,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_Large",
           "package": "hlatex",
@@ -13984,6 +15212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_O",
           "package": "hlatex",
@@ -13993,6 +15222,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_O",
           "package": "hlatex",
@@ -14005,6 +15235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_OE",
           "package": "hlatex",
@@ -14014,6 +15245,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_OE",
           "package": "hlatex",
@@ -14028,6 +15260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParagraph sign (pilcrow).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_P",
           "package": "hlatex",
@@ -14038,6 +15271,7 @@
         "index": {
           "description": "Paragraph sign pilcrow",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_P",
           "package": "hlatex",
@@ -14051,6 +15285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSection symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_S",
           "package": "hlatex",
@@ -14061,6 +15296,7 @@
         "index": {
           "description": "Section symbol",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_S",
           "package": "hlatex",
@@ -14074,6 +15310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TeX logo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_TeX",
           "package": "hlatex",
@@ -14084,6 +15321,7 @@
         "index": {
           "description": "The TeX logo",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_TeX",
           "package": "hlatex",
@@ -14097,6 +15335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "_l",
           "package": "hlatex",
@@ -14106,6 +15345,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "_l",
           "package": "hlatex",
@@ -14118,6 +15358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "a4paper",
           "package": "hlatex",
@@ -14127,6 +15368,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "a4paper",
           "package": "hlatex",
@@ -14139,6 +15381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "aa",
           "package": "hlatex",
@@ -14148,6 +15391,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "aa",
           "package": "hlatex",
@@ -14160,6 +15404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "acute",
           "package": "hlatex",
@@ -14169,6 +15414,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "acute",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -14183,6 +15429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "addtolength",
           "package": "hlatex",
@@ -14192,6 +15439,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "addtolength",
           "normalized": "LatexLength-\u003eLatexLength-\u003eParItem",
@@ -14206,6 +15454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "addvspace",
           "package": "hlatex",
@@ -14215,6 +15464,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "addvspace",
           "normalized": "LatexLength-\u003eParItem",
@@ -14229,6 +15479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "ae",
           "package": "hlatex",
@@ -14238,6 +15489,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "ae",
           "package": "hlatex",
@@ -14250,6 +15502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "allTexDecls",
           "package": "hlatex",
@@ -14259,6 +15512,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "allTexDecls",
           "normalized": "[TexDecl]",
@@ -14274,6 +15528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "appendix",
           "package": "hlatex",
@@ -14283,6 +15538,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "appendix",
           "package": "hlatex",
@@ -14295,6 +15551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "article",
           "package": "hlatex",
@@ -14304,6 +15561,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "article",
           "normalized": "Maybe LatexLength-\u003eMaybe LatexPaperSize-\u003e[AnyItem]-\u003eDocumentClass",
@@ -14318,6 +15576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "author",
           "package": "hlatex",
@@ -14327,6 +15586,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "author",
           "normalized": "LatexItem-\u003ePreambleItem",
@@ -14341,6 +15601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "authors",
           "package": "hlatex",
@@ -14350,6 +15611,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "authors",
           "normalized": "[LatexItem]-\u003ePreambleItem",
@@ -14364,6 +15626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "bf",
           "package": "hlatex",
@@ -14373,6 +15636,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "bf",
           "package": "hlatex",
@@ -14385,6 +15649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "bfseries",
           "package": "hlatex",
@@ -14394,6 +15659,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "bfseries",
           "package": "hlatex",
@@ -14406,6 +15672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "bibliography",
           "package": "hlatex",
@@ -14415,6 +15682,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "bibliography",
           "normalized": "LatexItem-\u003eParItem",
@@ -14429,6 +15697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "bibliographystyle",
           "package": "hlatex",
@@ -14438,6 +15707,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "bibliographystyle",
           "normalized": "LatexItem-\u003eParItem",
@@ -14452,6 +15722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "bigskip",
           "package": "hlatex",
@@ -14461,6 +15732,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "bigskip",
           "package": "hlatex",
@@ -14473,6 +15745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "book",
           "package": "hlatex",
@@ -14482,6 +15755,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "book",
           "normalized": "Maybe LatexLength-\u003eMaybe LatexPaperSize-\u003e[AnyItem]-\u003eDocumentClass",
@@ -14496,6 +15770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "bot",
           "package": "hlatex",
@@ -14505,6 +15780,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "bot",
           "package": "hlatex",
@@ -14517,6 +15793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "bottom",
           "package": "hlatex",
@@ -14526,6 +15803,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "bottom",
           "package": "hlatex",
@@ -14538,6 +15816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "boxedminipage",
           "package": "hlatex",
@@ -14547,6 +15826,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "boxedminipage",
           "normalized": "ParItem-\u003eParItem",
@@ -14561,6 +15841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "c",
           "package": "hlatex",
@@ -14570,6 +15851,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "c",
           "package": "hlatex",
@@ -14582,6 +15864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "caption",
           "package": "hlatex",
@@ -14591,6 +15874,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "caption",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -14605,6 +15889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "caption'",
           "package": "hlatex",
@@ -14614,6 +15899,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "caption'",
           "normalized": "String-\u003eLatexItem-\u003eLatexItem",
@@ -14629,6 +15915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a cedila to a letter (c{...} in LaTeX)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "cedil",
           "package": "hlatex",
@@ -14639,6 +15926,7 @@
         "index": {
           "description": "Add cedila to letter in LaTeX",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "cedil",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -14653,6 +15941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "center",
           "package": "hlatex",
@@ -14662,6 +15951,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "center",
           "normalized": "ParItem-\u003eParItem",
@@ -14676,6 +15966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "centered",
           "package": "hlatex",
@@ -14685,6 +15976,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "centered",
           "package": "hlatex",
@@ -14697,6 +15989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "chapter",
           "package": "hlatex",
@@ -14706,6 +15999,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "chapter",
           "normalized": "LatexItem-\u003eParItem",
@@ -14720,6 +16014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "chapter'",
           "package": "hlatex",
@@ -14729,6 +16024,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "chapter'",
           "normalized": "Star-\u003eMaybe LatexItem-\u003eLatexItem-\u003eParItem",
@@ -14743,6 +16039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "check",
           "package": "hlatex",
@@ -14752,6 +16049,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "check",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -14766,6 +16064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "circ",
           "package": "hlatex",
@@ -14775,6 +16074,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "circ",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -14789,6 +16089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "cite",
           "package": "hlatex",
@@ -14798,6 +16099,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "cite",
           "normalized": "[Key]-\u003eLatexItem",
@@ -14812,6 +16114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "cite'",
           "package": "hlatex",
@@ -14821,6 +16124,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "cite'",
           "normalized": "LatexItem-\u003e[Key]-\u003eLatexItem",
@@ -14835,6 +16139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "cleardoublepage",
           "package": "hlatex",
@@ -14844,6 +16149,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "cleardoublepage",
           "package": "hlatex",
@@ -14856,6 +16162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "clearpage",
           "package": "hlatex",
@@ -14865,6 +16172,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "clearpage",
           "package": "hlatex",
@@ -14877,6 +16185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "comment",
           "package": "hlatex",
@@ -14886,6 +16195,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "comment",
           "normalized": "String-\u003eLatexItem",
@@ -14900,6 +16210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "compressSpaces",
           "package": "hlatex",
@@ -14909,6 +16220,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "compressSpaces",
           "normalized": "String-\u003e[Either Char Spaces]",
@@ -14925,6 +16237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe copyright symbol, &#169;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "copyright",
           "package": "hlatex",
@@ -14935,6 +16248,7 @@
         "index": {
           "description": "The copyright symbol",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "copyright",
           "package": "hlatex",
@@ -14947,6 +16261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "corrspace",
           "package": "hlatex",
@@ -14956,6 +16271,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "corrspace",
           "package": "hlatex",
@@ -14968,6 +16284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "countSpaces",
           "package": "hlatex",
@@ -14977,6 +16294,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "countSpaces",
           "package": "hlatex",
@@ -14991,6 +16309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dagger symbol (in text).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "dag",
           "package": "hlatex",
@@ -15001,6 +16320,7 @@
         "index": {
           "description": "The dagger symbol in text",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "dag",
           "package": "hlatex",
@@ -15013,6 +16333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "dash1",
           "package": "hlatex",
@@ -15022,6 +16343,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "dash1",
           "package": "hlatex",
@@ -15034,6 +16356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "dash2",
           "package": "hlatex",
@@ -15043,6 +16366,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "dash2",
           "package": "hlatex",
@@ -15055,6 +16379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "dash3",
           "package": "hlatex",
@@ -15064,6 +16389,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "dash3",
           "package": "hlatex",
@@ -15076,6 +16402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "date",
           "package": "hlatex",
@@ -15085,6 +16412,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "date",
           "normalized": "LatexItem-\u003ePreambleItem",
@@ -15100,6 +16428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe double dagger symbol (in text).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "ddag",
           "package": "hlatex",
@@ -15110,6 +16439,7 @@
         "index": {
           "description": "The double dagger symbol in text",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "ddag",
           "package": "hlatex",
@@ -15122,6 +16452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "decl",
           "package": "hlatex",
@@ -15131,6 +16462,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "decl",
           "normalized": "TexDecl-\u003eLatexItem-\u003eLatexItem",
@@ -15145,6 +16477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "decls",
           "package": "hlatex",
@@ -15154,6 +16487,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "decls",
           "normalized": "[TexDecl]-\u003eLatexItem-\u003eLatexItem",
@@ -15168,6 +16502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "description",
           "package": "hlatex",
@@ -15177,6 +16512,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "description",
           "normalized": "Maybe LatexItem-\u003e[ListItem]-\u003eParItem",
@@ -15191,6 +16527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "displaymath",
           "package": "hlatex",
@@ -15200,6 +16537,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "displaymath",
           "normalized": "MathItem-\u003eParItem",
@@ -15214,6 +16552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "document",
           "package": "hlatex",
@@ -15223,6 +16562,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "document",
           "normalized": "DocumentClass-\u003ePreambleItem-\u003eParItem-\u003eLatexM Document",
@@ -15237,6 +16577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "documentclass",
           "package": "hlatex",
@@ -15246,6 +16587,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "documentclass",
           "normalized": "DocumentClassKind-\u003e[AnyItem]-\u003eDocumentClass",
@@ -15260,6 +16602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "dot",
           "package": "hlatex",
@@ -15269,6 +16612,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "dot",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -15283,6 +16627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "dotfill",
           "package": "hlatex",
@@ -15292,6 +16637,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "dotfill",
           "package": "hlatex",
@@ -15305,6 +16651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDouble quote a LaTeX item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "dquote",
           "package": "hlatex",
@@ -15315,6 +16662,7 @@
         "index": {
           "description": "Double quote LaTeX item",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "dquote",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -15329,6 +16677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "em",
           "package": "hlatex",
@@ -15338,6 +16687,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "em",
           "package": "hlatex",
@@ -15350,6 +16700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "emph",
           "package": "hlatex",
@@ -15359,6 +16710,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "emph",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -15373,6 +16725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "enumerate",
           "package": "hlatex",
@@ -15382,6 +16735,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "enumerate",
           "normalized": "Maybe LatexItem-\u003e[ListItem]-\u003eParItem",
@@ -15396,6 +16750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "fbox",
           "package": "hlatex",
@@ -15405,6 +16760,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "fbox",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -15419,6 +16775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "figure",
           "package": "hlatex",
@@ -15428,6 +16785,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "figure",
           "normalized": "Star-\u003e[LocSpec]-\u003eParItem-\u003eParItem",
@@ -15442,6 +16800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "flushLeft",
           "package": "hlatex",
@@ -15451,6 +16810,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "flushLeft",
           "package": "hlatex",
@@ -15464,6 +16824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "flushRight",
           "package": "hlatex",
@@ -15473,6 +16834,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "flushRight",
           "package": "hlatex",
@@ -15486,6 +16848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "flushleft",
           "package": "hlatex",
@@ -15495,6 +16858,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "flushleft",
           "normalized": "ParItem-\u003eParItem",
@@ -15509,6 +16873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "footnote",
           "package": "hlatex",
@@ -15518,6 +16883,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "footnote",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -15532,6 +16898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "footnotesize",
           "package": "hlatex",
@@ -15541,6 +16908,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "footnotesize",
           "package": "hlatex",
@@ -15553,6 +16921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "framebox",
           "package": "hlatex",
@@ -15562,6 +16931,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "framebox",
           "normalized": "LatexLength-\u003ePos-\u003eLatexItem-\u003eLatexItem",
@@ -15576,6 +16946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "fromEncoding",
           "package": "hlatex",
@@ -15585,6 +16956,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "fromEncoding",
           "normalized": "Encoding-\u003eString",
@@ -15600,6 +16972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "fussy",
           "package": "hlatex",
@@ -15609,6 +16982,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "fussy",
           "package": "hlatex",
@@ -15621,6 +16995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "grave",
           "package": "hlatex",
@@ -15630,6 +17005,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "grave",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -15644,6 +17020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "group",
           "package": "hlatex",
@@ -15653,6 +17030,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "group",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -15667,6 +17045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hat",
           "package": "hlatex",
@@ -15676,6 +17055,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hat",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -15690,6 +17070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hbox",
           "package": "hlatex",
@@ -15699,6 +17080,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hbox",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -15713,6 +17095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hchar",
           "package": "hlatex",
@@ -15722,6 +17105,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hchar",
           "package": "hlatex",
@@ -15734,6 +17118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "here",
           "package": "hlatex",
@@ -15743,6 +17128,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "here",
           "package": "hlatex",
@@ -15755,6 +17141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hfill",
           "package": "hlatex",
@@ -15764,6 +17151,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hfill",
           "package": "hlatex",
@@ -15776,6 +17164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hr",
           "package": "hlatex",
@@ -15785,6 +17174,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hr",
           "package": "hlatex",
@@ -15797,6 +17187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "href",
           "package": "hlatex",
@@ -15806,6 +17197,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "href",
           "normalized": "LatexItem-\u003eLatexItem-\u003eLatexItem",
@@ -15820,6 +17212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hrulefill",
           "package": "hlatex",
@@ -15829,6 +17222,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hrulefill",
           "package": "hlatex",
@@ -15841,6 +17235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hspace",
           "package": "hlatex",
@@ -15850,6 +17245,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hspace",
           "normalized": "LatexLength-\u003eLatexItem",
@@ -15864,6 +17260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hspace'",
           "package": "hlatex",
@@ -15873,6 +17270,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hspace'",
           "normalized": "Star-\u003eLatexLength-\u003eLatexItem",
@@ -15887,6 +17285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hspaces",
           "package": "hlatex",
@@ -15896,6 +17295,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hspaces",
           "normalized": "Spaces-\u003eLatexItem",
@@ -15910,6 +17310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hstring",
           "package": "hlatex",
@@ -15919,6 +17320,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hstring",
           "normalized": "String-\u003eLatexItem",
@@ -15933,6 +17335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "huge",
           "package": "hlatex",
@@ -15942,6 +17345,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "huge",
           "package": "hlatex",
@@ -15954,6 +17358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hyphen",
           "package": "hlatex",
@@ -15963,6 +17368,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hyphen",
           "package": "hlatex",
@@ -15975,6 +17381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hyphenation",
           "package": "hlatex",
@@ -15984,6 +17391,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hyphenation",
           "normalized": "[String]-\u003ePreambleItem",
@@ -15998,6 +17406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "hyphenationPar",
           "package": "hlatex",
@@ -16007,6 +17416,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "hyphenationPar",
           "normalized": "[String]-\u003eParItem",
@@ -16022,6 +17432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "i",
           "package": "hlatex",
@@ -16031,6 +17442,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "i",
           "package": "hlatex",
@@ -16043,6 +17455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "inputenc",
           "package": "hlatex",
@@ -16052,6 +17465,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "inputenc",
           "normalized": "Encoding-\u003ePreambleItem",
@@ -16066,6 +17480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "institute",
           "package": "hlatex",
@@ -16075,6 +17490,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "institute",
           "normalized": "LatexItem-\u003ePreambleItem",
@@ -16089,6 +17505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "it",
           "package": "hlatex",
@@ -16098,6 +17515,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "it",
           "package": "hlatex",
@@ -16110,6 +17528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "item",
           "package": "hlatex",
@@ -16119,6 +17538,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "item",
           "normalized": "ParItem-\u003eListItem",
@@ -16133,6 +17553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "item'",
           "package": "hlatex",
@@ -16142,6 +17563,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "item'",
           "normalized": "LatexItem-\u003eParItem-\u003eListItem",
@@ -16156,6 +17578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "itemize",
           "package": "hlatex",
@@ -16165,6 +17588,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "itemize",
           "normalized": "Maybe LatexItem-\u003e[ListItem]-\u003eParItem",
@@ -16179,6 +17603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "itshape",
           "package": "hlatex",
@@ -16188,6 +17613,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "itshape",
           "package": "hlatex",
@@ -16200,6 +17626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "j",
           "package": "hlatex",
@@ -16209,6 +17636,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "j",
           "package": "hlatex",
@@ -16221,6 +17649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "l",
           "package": "hlatex",
@@ -16230,6 +17659,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "l",
           "package": "hlatex",
@@ -16242,6 +17672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "label",
           "package": "hlatex",
@@ -16251,6 +17682,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "label",
           "normalized": "Key-\u003eLatexItem",
@@ -16265,6 +17697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "large",
           "package": "hlatex",
@@ -16274,6 +17707,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "large",
           "package": "hlatex",
@@ -16286,6 +17720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "latin1",
           "package": "hlatex",
@@ -16295,6 +17730,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "latin1",
           "package": "hlatex",
@@ -16308,6 +17744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ellipsis (three dots at the baseline): \u003ccode\u003e...\u003c/code\u003e. This command also works in math mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "ldots",
           "package": "hlatex",
@@ -16318,6 +17755,7 @@
         "index": {
           "description": "An ellipsis three dots at the baseline This command also works in math mode",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "ldots",
           "package": "hlatex",
@@ -16331,6 +17769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft (opening) double quotes: ``.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "ldq",
           "package": "hlatex",
@@ -16341,6 +17780,7 @@
         "index": {
           "description": "Left opening double quotes",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "ldq",
           "package": "hlatex",
@@ -16353,6 +17793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "letter",
           "package": "hlatex",
@@ -16362,6 +17803,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "letter",
           "normalized": "[AnyItem]-\u003eDocumentClass",
@@ -16376,6 +17818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "linebr",
           "package": "hlatex",
@@ -16385,6 +17828,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "linebr",
           "normalized": "Star-\u003eMaybe LatexLength-\u003eLatexItem",
@@ -16399,6 +17843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "linebreak",
           "package": "hlatex",
@@ -16408,6 +17853,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "linebreak",
           "normalized": "Maybe Int-\u003eTexDecl",
@@ -16423,6 +17869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft (opening) quote: `.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "lq",
           "package": "hlatex",
@@ -16433,6 +17880,7 @@
         "index": {
           "description": "Left opening quote",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "lq",
           "package": "hlatex",
@@ -16445,6 +17893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "makebox",
           "package": "hlatex",
@@ -16454,6 +17903,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "makebox",
           "normalized": "LatexLength-\u003ePos-\u003eLatexItem-\u003eLatexItem",
@@ -16468,6 +17918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "maketitle",
           "package": "hlatex",
@@ -16477,6 +17928,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "maketitle",
           "package": "hlatex",
@@ -16489,6 +17941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "math",
           "package": "hlatex",
@@ -16498,6 +17951,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "math",
           "normalized": "MathItem-\u003eLatexItem",
@@ -16512,6 +17966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "mbox",
           "package": "hlatex",
@@ -16521,6 +17976,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "mbox",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -16535,6 +17991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "mdseries",
           "package": "hlatex",
@@ -16544,6 +18001,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "mdseries",
           "package": "hlatex",
@@ -16556,6 +18014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "medskip",
           "package": "hlatex",
@@ -16565,6 +18024,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "medskip",
           "package": "hlatex",
@@ -16577,6 +18037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "minipage",
           "package": "hlatex",
@@ -16586,6 +18047,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "minipage",
           "normalized": "VPos-\u003eLatexLength-\u003eParItem-\u003eLatexItem",
@@ -16600,6 +18062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "nbsp",
           "package": "hlatex",
@@ -16609,6 +18072,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "nbsp",
           "package": "hlatex",
@@ -16621,6 +18085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "negthinspace",
           "package": "hlatex",
@@ -16630,6 +18095,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "negthinspace",
           "package": "hlatex",
@@ -16642,6 +18108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "newline",
           "package": "hlatex",
@@ -16651,6 +18118,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "newline",
           "normalized": "Maybe LatexLength-\u003eParItem",
@@ -16665,6 +18133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "newpage",
           "package": "hlatex",
@@ -16674,6 +18143,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "newpage",
           "package": "hlatex",
@@ -16686,6 +18156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "nocite",
           "package": "hlatex",
@@ -16695,6 +18166,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "nocite",
           "normalized": "[Key]-\u003eLatexItem",
@@ -16709,6 +18181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "noindent",
           "package": "hlatex",
@@ -16718,6 +18191,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "noindent",
           "package": "hlatex",
@@ -16730,6 +18204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "nolinebreak",
           "package": "hlatex",
@@ -16739,6 +18214,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "nolinebreak",
           "normalized": "Maybe Int-\u003eTexDecl",
@@ -16753,6 +18229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "nopagebreak",
           "package": "hlatex",
@@ -16762,6 +18239,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "nopagebreak",
           "normalized": "Maybe Int-\u003eTexDecl",
@@ -16776,6 +18254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "normal",
           "package": "hlatex",
@@ -16785,6 +18264,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "normal",
           "package": "hlatex",
@@ -16797,6 +18277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "normalfont",
           "package": "hlatex",
@@ -16806,6 +18287,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "normalfont",
           "package": "hlatex",
@@ -16818,6 +18300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "normalmarginpar",
           "package": "hlatex",
@@ -16827,6 +18310,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "normalmarginpar",
           "package": "hlatex",
@@ -16839,6 +18323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "normalsize",
           "package": "hlatex",
@@ -16848,6 +18333,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "normalsize",
           "package": "hlatex",
@@ -16860,6 +18346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "o",
           "package": "hlatex",
@@ -16869,6 +18356,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "o",
           "package": "hlatex",
@@ -16881,6 +18369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "oe",
           "package": "hlatex",
@@ -16890,6 +18379,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "oe",
           "package": "hlatex",
@@ -16902,6 +18392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "overbar",
           "package": "hlatex",
@@ -16911,6 +18402,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "overbar",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -16925,6 +18417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "overdot",
           "package": "hlatex",
@@ -16934,6 +18427,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "overdot",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -16948,6 +18442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "page",
           "package": "hlatex",
@@ -16957,6 +18452,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "page",
           "package": "hlatex",
@@ -16969,6 +18465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "pagebreak",
           "package": "hlatex",
@@ -16978,6 +18475,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "pagebreak",
           "normalized": "Maybe Int-\u003eTexDecl",
@@ -16992,6 +18490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "pageref",
           "package": "hlatex",
@@ -17001,6 +18500,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "pageref",
           "normalized": "Key-\u003eLatexItem",
@@ -17015,6 +18515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "pagestyle",
           "package": "hlatex",
@@ -17024,6 +18525,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "pagestyle",
           "normalized": "LatexItem-\u003eParItem",
@@ -17038,6 +18540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "parDecl",
           "package": "hlatex",
@@ -17047,6 +18550,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "parDecl",
           "normalized": "TexDecl-\u003eParItem",
@@ -17062,6 +18566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "parDecls",
           "package": "hlatex",
@@ -17071,6 +18576,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "parDecls",
           "normalized": "[TexDecl]-\u003eParItem",
@@ -17087,6 +18593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDon't confuse \u003ccode\u003e\u003ca\u003eparagraph\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003epara\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epara\u003c/a\u003e\u003c/code\u003e is to make a paragraph,\n \u003ccode\u003e\u003ca\u003eparagraph\u003c/a\u003e\u003c/code\u003e is to name a set of paragraphs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "para",
           "package": "hlatex",
@@ -17097,6 +18604,7 @@
         "index": {
           "description": "Don confuse paragraph with para para is to make paragraph paragraph is to name set of paragraphs",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "para",
           "normalized": "LatexItem-\u003eParItem",
@@ -17111,6 +18619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "paragraph",
           "package": "hlatex",
@@ -17120,6 +18629,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "paragraph",
           "normalized": "LatexItem-\u003eParItem",
@@ -17134,6 +18644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "paragraph'",
           "package": "hlatex",
@@ -17143,6 +18654,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "paragraph'",
           "normalized": "Star-\u003eMaybe LatexItem-\u003eLatexItem-\u003eParItem",
@@ -17157,6 +18669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "parbox",
           "package": "hlatex",
@@ -17166,6 +18679,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "parbox",
           "normalized": "VPos-\u003eLatexLength-\u003eLatexItem-\u003eLatexItem",
@@ -17180,6 +18694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "part",
           "package": "hlatex",
@@ -17189,6 +18704,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "part",
           "normalized": "LatexItem-\u003eParItem",
@@ -17203,6 +18719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "part'",
           "package": "hlatex",
@@ -17212,6 +18729,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "part'",
           "normalized": "Star-\u003eMaybe LatexItem-\u003eLatexItem-\u003eParItem",
@@ -17226,6 +18744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "person",
           "package": "hlatex",
@@ -17235,6 +18754,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "person",
           "normalized": "String-\u003eString-\u003eLatexItem",
@@ -17249,6 +18769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "phantom",
           "package": "hlatex",
@@ -17258,6 +18779,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "phantom",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -17273,6 +18795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnglish pounds sterling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "pounds",
           "package": "hlatex",
@@ -17283,6 +18806,7 @@
         "index": {
           "description": "English pounds sterling",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "pounds",
           "package": "hlatex",
@@ -17295,6 +18819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "protect",
           "package": "hlatex",
@@ -17304,6 +18829,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "protect",
           "normalized": "String-\u003eLatexItem",
@@ -17318,6 +18844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "protector",
           "package": "hlatex",
@@ -17327,6 +18854,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "protector",
           "normalized": "XChar-\u003eString-\u003eLatexItem",
@@ -17341,6 +18869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "quotation",
           "package": "hlatex",
@@ -17350,6 +18879,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "quotation",
           "normalized": "ParItem-\u003eParItem",
@@ -17364,6 +18894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "quote",
           "package": "hlatex",
@@ -17373,6 +18904,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "quote",
           "normalized": "LatexItem-\u003eParItem",
@@ -17387,6 +18919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "r",
           "package": "hlatex",
@@ -17396,6 +18929,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "r",
           "package": "hlatex",
@@ -17408,6 +18942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "raisebox",
           "package": "hlatex",
@@ -17417,6 +18952,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "raisebox",
           "normalized": "LatexLength-\u003eLatexItem-\u003eLatexItem",
@@ -17431,6 +18967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "raisebox'",
           "package": "hlatex",
@@ -17440,6 +18977,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "raisebox'",
           "normalized": "LatexLength-\u003eLatexLength-\u003eLatexLength-\u003eLatexItem-\u003eLatexItem",
@@ -17454,6 +18992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "rawNewline",
           "package": "hlatex",
@@ -17463,6 +19002,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "rawNewline",
           "normalized": "Maybe LatexLength-\u003eLatexItem",
@@ -17479,6 +19019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight (opening) double quotes: ''.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "rdq",
           "package": "hlatex",
@@ -17489,6 +19030,7 @@
         "index": {
           "description": "Right opening double quotes",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "rdq",
           "package": "hlatex",
@@ -17501,6 +19043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "ref",
           "package": "hlatex",
@@ -17510,6 +19053,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "ref",
           "normalized": "Key-\u003eLatexItem",
@@ -17524,6 +19068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "report",
           "package": "hlatex",
@@ -17533,6 +19078,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "report",
           "normalized": "[AnyItem]-\u003eDocumentClass",
@@ -17547,6 +19093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "reversemarginpar",
           "package": "hlatex",
@@ -17556,6 +19103,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "reversemarginpar",
           "package": "hlatex",
@@ -17568,6 +19116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "ring",
           "package": "hlatex",
@@ -17577,6 +19126,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "ring",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -17591,6 +19141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "rm",
           "package": "hlatex",
@@ -17600,6 +19151,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "rm",
           "package": "hlatex",
@@ -17612,6 +19164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "rmfamily",
           "package": "hlatex",
@@ -17621,6 +19174,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "rmfamily",
           "package": "hlatex",
@@ -17634,6 +19188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight (closing) quote: '.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "rq",
           "package": "hlatex",
@@ -17644,6 +19199,7 @@
         "index": {
           "description": "Right closing quote",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "rq",
           "package": "hlatex",
@@ -17656,6 +19212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "rtext",
           "package": "hlatex",
@@ -17665,6 +19222,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "rtext",
           "normalized": "a-\u003eRowSpec a",
@@ -17679,6 +19237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "rule",
           "package": "hlatex",
@@ -17688,6 +19247,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "rule",
           "normalized": "LatexLength-\u003eLatexLength-\u003eLatexItem",
@@ -17702,6 +19262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "rule'",
           "package": "hlatex",
@@ -17711,6 +19272,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "rule'",
           "normalized": "LatexLength-\u003eLatexLength-\u003eLatexLength-\u003eLatexItem",
@@ -17725,6 +19287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "samepage",
           "package": "hlatex",
@@ -17734,6 +19297,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "samepage",
           "package": "hlatex",
@@ -17746,6 +19310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "savebox",
           "package": "hlatex",
@@ -17755,6 +19320,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "savebox",
           "normalized": "SaveBin-\u003eMaybe LatexLength-\u003eMaybe(Either()())-\u003eLatexItem-\u003eLatexItem",
@@ -17769,6 +19335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "sbox",
           "package": "hlatex",
@@ -17778,6 +19345,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "sbox",
           "normalized": "SaveBin-\u003eLatexItem-\u003eLatexItem",
@@ -17792,6 +19360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "sc",
           "package": "hlatex",
@@ -17801,6 +19370,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "sc",
           "package": "hlatex",
@@ -17813,6 +19383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "scriptsize",
           "package": "hlatex",
@@ -17822,6 +19393,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "scriptsize",
           "package": "hlatex",
@@ -17834,6 +19406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "scshape",
           "package": "hlatex",
@@ -17843,6 +19416,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "scshape",
           "package": "hlatex",
@@ -17855,6 +19429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "section",
           "package": "hlatex",
@@ -17864,6 +19439,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "section",
           "normalized": "LatexItem-\u003eParItem",
@@ -17878,6 +19454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "section'",
           "package": "hlatex",
@@ -17887,6 +19464,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "section'",
           "normalized": "Star-\u003eMaybe LatexItem-\u003eLatexItem-\u003eParItem",
@@ -17902,6 +19480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esep\u003c/a\u003e\u003c/code\u003e is like '{}' in LaTeX, it allows to force letters to be treaten separately,\n for instance to separate the two \u003ccode\u003ef\u003c/code\u003es in shelfful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "sep",
           "package": "hlatex",
@@ -17912,6 +19491,7 @@
         "index": {
           "description": "sep is like in LaTeX it allows to force letters to be treaten separately for instance to separate the two in shelfful",
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "sep",
           "package": "hlatex",
@@ -17924,6 +19504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "setlength",
           "package": "hlatex",
@@ -17933,6 +19514,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "setlength",
           "normalized": "LatexLength-\u003eLatexLength-\u003eParItem",
@@ -17947,6 +19529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "settowidth",
           "package": "hlatex",
@@ -17956,6 +19539,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "settowidth",
           "normalized": "LatexLength-\u003eLatexItem-\u003eParItem",
@@ -17970,6 +19554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "sf",
           "package": "hlatex",
@@ -17979,6 +19564,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "sf",
           "package": "hlatex",
@@ -17991,6 +19577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "sffamily",
           "package": "hlatex",
@@ -18000,6 +19587,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "sffamily",
           "package": "hlatex",
@@ -18012,6 +19600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "sl",
           "package": "hlatex",
@@ -18021,6 +19610,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "sl",
           "package": "hlatex",
@@ -18033,6 +19623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "sloppy",
           "package": "hlatex",
@@ -18042,6 +19633,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "sloppy",
           "package": "hlatex",
@@ -18054,6 +19646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "sloppypar",
           "package": "hlatex",
@@ -18063,6 +19656,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "sloppypar",
           "normalized": "ParItem-\u003eParItem",
@@ -18077,6 +19671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "slshape",
           "package": "hlatex",
@@ -18086,6 +19681,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "slshape",
           "package": "hlatex",
@@ -18098,6 +19694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "small",
           "package": "hlatex",
@@ -18107,6 +19704,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "small",
           "package": "hlatex",
@@ -18119,6 +19717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "smallskip",
           "package": "hlatex",
@@ -18128,6 +19727,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "smallskip",
           "package": "hlatex",
@@ -18140,6 +19740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "spaceProtector",
           "package": "hlatex",
@@ -18149,6 +19750,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "spaceProtector",
           "normalized": "XChar-\u003eString-\u003eLatexItem",
@@ -18164,6 +19766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "ss",
           "package": "hlatex",
@@ -18173,6 +19776,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "ss",
           "package": "hlatex",
@@ -18185,6 +19789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "stretch",
           "package": "hlatex",
@@ -18194,6 +19799,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "stretch",
           "package": "hlatex",
@@ -18206,6 +19812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "subparagraph",
           "package": "hlatex",
@@ -18215,6 +19822,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "subparagraph",
           "normalized": "LatexItem-\u003eParItem",
@@ -18229,6 +19837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "subparagraph'",
           "package": "hlatex",
@@ -18238,6 +19847,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "subparagraph'",
           "normalized": "Star-\u003eMaybe LatexItem-\u003eLatexItem-\u003eParItem",
@@ -18252,6 +19862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "subsection",
           "package": "hlatex",
@@ -18261,6 +19872,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "subsection",
           "normalized": "LatexItem-\u003eParItem",
@@ -18275,6 +19887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "subsection'",
           "package": "hlatex",
@@ -18284,6 +19897,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "subsection'",
           "normalized": "Star-\u003eMaybe LatexItem-\u003eLatexItem-\u003eParItem",
@@ -18298,6 +19912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "subsubsection",
           "package": "hlatex",
@@ -18307,6 +19922,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "subsubsection",
           "normalized": "LatexItem-\u003eParItem",
@@ -18321,6 +19937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "subsubsection'",
           "package": "hlatex",
@@ -18330,6 +19947,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "subsubsection'",
           "normalized": "Star-\u003eMaybe LatexItem-\u003eLatexItem-\u003eParItem",
@@ -18344,6 +19962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "subtitle",
           "package": "hlatex",
@@ -18353,6 +19972,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "subtitle",
           "normalized": "LatexItem-\u003ePreambleItem",
@@ -18367,6 +19987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "table",
           "package": "hlatex",
@@ -18376,6 +19997,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "table",
           "normalized": "Star-\u003e[LocSpec]-\u003eParItem-\u003eParItem",
@@ -18390,6 +20012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "tableofcontents",
           "package": "hlatex",
@@ -18399,6 +20022,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "tableofcontents",
           "package": "hlatex",
@@ -18411,6 +20035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "tabular",
           "package": "hlatex",
@@ -18420,6 +20045,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "tabular",
           "normalized": "[RowSpec LatexItem]-\u003e[Row LatexItem]-\u003eParItem",
@@ -18434,6 +20060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textbf",
           "package": "hlatex",
@@ -18443,6 +20070,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textbf",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18457,6 +20085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textdegree",
           "package": "hlatex",
@@ -18466,6 +20095,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textdegree",
           "package": "hlatex",
@@ -18478,6 +20108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textit",
           "package": "hlatex",
@@ -18487,6 +20118,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textit",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18501,6 +20133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textmd",
           "package": "hlatex",
@@ -18510,6 +20143,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textmd",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18524,6 +20158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textnormal",
           "package": "hlatex",
@@ -18533,6 +20168,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textnormal",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18547,6 +20183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textrm",
           "package": "hlatex",
@@ -18556,6 +20193,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textrm",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18570,6 +20208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textsc",
           "package": "hlatex",
@@ -18579,6 +20218,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textsc",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18593,6 +20233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textsf",
           "package": "hlatex",
@@ -18602,6 +20243,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textsf",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18616,6 +20258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textsl",
           "package": "hlatex",
@@ -18625,6 +20268,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textsl",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18639,6 +20283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textsubscript",
           "package": "hlatex",
@@ -18648,6 +20293,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textsubscript",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18662,6 +20308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textsuperscript",
           "package": "hlatex",
@@ -18671,6 +20318,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textsuperscript",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18685,6 +20333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "texttt",
           "package": "hlatex",
@@ -18694,6 +20343,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "texttt",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18708,6 +20358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textunderscore",
           "package": "hlatex",
@@ -18717,6 +20368,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textunderscore",
           "package": "hlatex",
@@ -18729,6 +20381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "textup",
           "package": "hlatex",
@@ -18738,6 +20391,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "textup",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18752,6 +20406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "thinspace",
           "package": "hlatex",
@@ -18761,6 +20416,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "thinspace",
           "package": "hlatex",
@@ -18773,6 +20429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "thispagestyle",
           "package": "hlatex",
@@ -18782,6 +20439,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "thispagestyle",
           "normalized": "LatexItem-\u003eParItem",
@@ -18796,6 +20454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "tieafter",
           "package": "hlatex",
@@ -18805,6 +20464,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "tieafter",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18819,6 +20479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "tilde",
           "package": "hlatex",
@@ -18828,6 +20489,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "tilde",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -18842,6 +20504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "tiny",
           "package": "hlatex",
@@ -18851,6 +20514,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "tiny",
           "package": "hlatex",
@@ -18863,6 +20527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "title",
           "package": "hlatex",
@@ -18872,6 +20537,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "title",
           "normalized": "LatexItem-\u003ePreambleItem",
@@ -18886,6 +20552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "titlepage",
           "package": "hlatex",
@@ -18895,6 +20562,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "titlepage",
           "normalized": "ParItem-\u003eParItem",
@@ -18909,6 +20577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "top",
           "package": "hlatex",
@@ -18918,6 +20587,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "top",
           "package": "hlatex",
@@ -18930,6 +20600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "tt",
           "package": "hlatex",
@@ -18939,6 +20610,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "tt",
           "package": "hlatex",
@@ -18951,6 +20623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "ttchar",
           "package": "hlatex",
@@ -18960,6 +20633,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "ttchar",
           "package": "hlatex",
@@ -18972,6 +20646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "ttfamily",
           "package": "hlatex",
@@ -18981,6 +20656,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "ttfamily",
           "package": "hlatex",
@@ -18993,6 +20669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "uml",
           "package": "hlatex",
@@ -19002,6 +20679,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "uml",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -19016,6 +20694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "underbar",
           "package": "hlatex",
@@ -19025,6 +20704,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "underbar",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -19039,6 +20719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "unwords",
           "package": "hlatex",
@@ -19048,6 +20729,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "unwords",
           "normalized": "[LatexItem]-\u003eLatexItem",
@@ -19062,6 +20744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "upshape",
           "package": "hlatex",
@@ -19071,6 +20754,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "upshape",
           "package": "hlatex",
@@ -19083,6 +20767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "usebox",
           "package": "hlatex",
@@ -19092,6 +20777,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "usebox",
           "normalized": "SaveBin-\u003eLatexItem",
@@ -19106,6 +20792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "utf8",
           "package": "hlatex",
@@ -19115,6 +20802,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "utf8",
           "package": "hlatex",
@@ -19127,6 +20815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "vbox",
           "package": "hlatex",
@@ -19136,6 +20825,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "vbox",
           "normalized": "ParItem-\u003eLatexItem",
@@ -19150,6 +20840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "verb",
           "package": "hlatex",
@@ -19159,6 +20850,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "verb",
           "normalized": "String-\u003eLatexItem",
@@ -19173,6 +20865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "verse",
           "package": "hlatex",
@@ -19182,6 +20875,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "verse",
           "normalized": "ParItem-\u003eParItem",
@@ -19196,6 +20890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "vfill",
           "package": "hlatex",
@@ -19205,6 +20900,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "vfill",
           "package": "hlatex",
@@ -19217,6 +20913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "vphantom",
           "package": "hlatex",
@@ -19226,6 +20923,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "vphantom",
           "normalized": "LatexItem-\u003eLatexItem",
@@ -19240,6 +20938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "vspace",
           "package": "hlatex",
@@ -19249,6 +20948,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "vspace",
           "normalized": "LatexLength-\u003eParItem",
@@ -19263,6 +20963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "vspace'",
           "package": "hlatex",
@@ -19272,6 +20973,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "vspace'",
           "normalized": "Star-\u003eLatexLength-\u003eParItem",
@@ -19286,6 +20988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Builder",
           "name": "vtop",
           "package": "hlatex",
@@ -19295,6 +20998,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Builder",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Builder",
           "name": "vtop",
           "normalized": "ParItem-\u003eLatexItem",
@@ -19309,6 +21013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Checker",
           "name": "Checker",
           "package": "hlatex",
@@ -19317,6 +21022,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Checker",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Checker",
           "name": "Checker",
           "package": "hlatex",
@@ -19330,6 +21036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Checker",
           "name": "checkDocument",
           "package": "hlatex",
@@ -19339,6 +21046,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Checker",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Checker",
           "name": "checkDocument",
           "normalized": "Document-\u003eMaybe ErrorMessage",
@@ -19354,6 +21062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Checker",
           "name": "neededPackages",
           "package": "hlatex",
@@ -19363,6 +21072,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Checker",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Checker",
           "name": "neededPackages",
           "normalized": "Document-\u003eSet PackageName",
@@ -19378,6 +21088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Checker",
           "name": "providedPackages",
           "package": "hlatex",
@@ -19387,6 +21098,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Checker",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Checker",
           "name": "providedPackages",
           "normalized": "PreambleItm-\u003eSet PackageName",
@@ -19402,6 +21114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "Length",
           "package": "hlatex",
@@ -19410,6 +21123,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "Length",
           "package": "hlatex",
@@ -19423,6 +21137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "abovedisplayshortskip",
           "package": "hlatex",
@@ -19432,6 +21147,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "abovedisplayshortskip",
           "package": "hlatex",
@@ -19444,6 +21160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "abovedisplayskip",
           "package": "hlatex",
@@ -19453,6 +21170,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "abovedisplayskip",
           "package": "hlatex",
@@ -19465,6 +21183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "arraycolsep",
           "package": "hlatex",
@@ -19474,6 +21193,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "arraycolsep",
           "package": "hlatex",
@@ -19486,6 +21206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "arrayrulewidth",
           "package": "hlatex",
@@ -19495,6 +21216,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "arrayrulewidth",
           "package": "hlatex",
@@ -19507,6 +21229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "arraystretch",
           "package": "hlatex",
@@ -19516,6 +21239,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "arraystretch",
           "package": "hlatex",
@@ -19528,6 +21252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "baselineskip",
           "package": "hlatex",
@@ -19537,6 +21262,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "baselineskip",
           "package": "hlatex",
@@ -19549,6 +21275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "baselinestrech",
           "package": "hlatex",
@@ -19558,6 +21285,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "baselinestrech",
           "package": "hlatex",
@@ -19570,6 +21298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "belowdisplayshortskip",
           "package": "hlatex",
@@ -19579,6 +21308,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "belowdisplayshortskip",
           "package": "hlatex",
@@ -19591,6 +21321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "belowdisplayskip",
           "package": "hlatex",
@@ -19600,6 +21331,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "belowdisplayskip",
           "package": "hlatex",
@@ -19612,6 +21344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "bigskipamount",
           "package": "hlatex",
@@ -19621,6 +21354,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "bigskipamount",
           "package": "hlatex",
@@ -19634,6 +21368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 'in' is a keyword in Haskell, this one is called \u003ccode\u003e\u003ca\u003einch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "bp",
           "package": "hlatex",
@@ -19644,6 +21379,7 @@
         "index": {
           "description": "Since in is keyword in Haskell this one is called inch",
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "bp",
           "normalized": "Rational-\u003eLatexLength",
@@ -19659,6 +21395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 'in' is a keyword in Haskell, this one is called \u003ccode\u003e\u003ca\u003einch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "cc",
           "package": "hlatex",
@@ -19669,6 +21406,7 @@
         "index": {
           "description": "Since in is keyword in Haskell this one is called inch",
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "cc",
           "normalized": "Rational-\u003eLatexLength",
@@ -19684,6 +21422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 'in' is a keyword in Haskell, this one is called \u003ccode\u003e\u003ca\u003einch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "cm",
           "package": "hlatex",
@@ -19694,6 +21433,7 @@
         "index": {
           "description": "Since in is keyword in Haskell this one is called inch",
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "cm",
           "normalized": "Rational-\u003eLatexLength",
@@ -19708,6 +21448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "columnsep",
           "package": "hlatex",
@@ -19717,6 +21458,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "columnsep",
           "package": "hlatex",
@@ -19729,6 +21471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "columnseprule",
           "package": "hlatex",
@@ -19738,6 +21481,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "columnseprule",
           "package": "hlatex",
@@ -19750,6 +21494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "dblfloatpagefraction",
           "package": "hlatex",
@@ -19759,6 +21504,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "dblfloatpagefraction",
           "package": "hlatex",
@@ -19771,6 +21517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "dblfloatsep",
           "package": "hlatex",
@@ -19780,6 +21527,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "dblfloatsep",
           "package": "hlatex",
@@ -19792,6 +21540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "dbltextfloatsep",
           "package": "hlatex",
@@ -19801,6 +21550,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "dbltextfloatsep",
           "package": "hlatex",
@@ -19813,6 +21563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "dbltopfaction",
           "package": "hlatex",
@@ -19822,6 +21573,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "dbltopfaction",
           "package": "hlatex",
@@ -19835,6 +21587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 'in' is a keyword in Haskell, this one is called \u003ccode\u003e\u003ca\u003einch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "dd",
           "package": "hlatex",
@@ -19845,6 +21598,7 @@
         "index": {
           "description": "Since in is keyword in Haskell this one is called inch",
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "dd",
           "normalized": "Rational-\u003eLatexLength",
@@ -19859,6 +21613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "doublerulesep",
           "package": "hlatex",
@@ -19868,6 +21623,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "doublerulesep",
           "package": "hlatex",
@@ -19881,6 +21637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 'in' is a keyword in Haskell, this one is called \u003ccode\u003e\u003ca\u003einch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "em",
           "package": "hlatex",
@@ -19891,6 +21648,7 @@
         "index": {
           "description": "Since in is keyword in Haskell this one is called inch",
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "em",
           "normalized": "Rational-\u003eLatexLength",
@@ -19905,6 +21663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "evensidemargin",
           "package": "hlatex",
@@ -19914,6 +21673,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "evensidemargin",
           "package": "hlatex",
@@ -19927,6 +21687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 'in' is a keyword in Haskell, this one is called \u003ccode\u003e\u003ca\u003einch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "ex",
           "package": "hlatex",
@@ -19937,6 +21698,7 @@
         "index": {
           "description": "Since in is keyword in Haskell this one is called inch",
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "ex",
           "normalized": "Rational-\u003eLatexLength",
@@ -19951,6 +21713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "fboxrule",
           "package": "hlatex",
@@ -19960,6 +21723,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "fboxrule",
           "package": "hlatex",
@@ -19972,6 +21736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "fboxsep",
           "package": "hlatex",
@@ -19981,6 +21746,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "fboxsep",
           "package": "hlatex",
@@ -19993,6 +21759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "fill",
           "package": "hlatex",
@@ -20002,6 +21769,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "fill",
           "package": "hlatex",
@@ -20014,6 +21782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "floatpagefraction",
           "package": "hlatex",
@@ -20023,6 +21792,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "floatpagefraction",
           "package": "hlatex",
@@ -20035,6 +21805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "floatsep",
           "package": "hlatex",
@@ -20044,6 +21815,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "floatsep",
           "package": "hlatex",
@@ -20056,6 +21828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "footheight",
           "package": "hlatex",
@@ -20065,6 +21838,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "footheight",
           "package": "hlatex",
@@ -20077,6 +21851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "footskip",
           "package": "hlatex",
@@ -20086,6 +21861,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "footskip",
           "package": "hlatex",
@@ -20098,6 +21874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "headheight",
           "package": "hlatex",
@@ -20107,6 +21884,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "headheight",
           "package": "hlatex",
@@ -20119,6 +21897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "headsep",
           "package": "hlatex",
@@ -20128,6 +21907,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "headsep",
           "package": "hlatex",
@@ -20141,6 +21921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 'in' is a keyword in Haskell, this one is called \u003ccode\u003e\u003ca\u003einch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "inch",
           "package": "hlatex",
@@ -20151,6 +21932,7 @@
         "index": {
           "description": "Since in is keyword in Haskell this one is called inch",
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "inch",
           "normalized": "Rational-\u003eLatexLength",
@@ -20165,6 +21947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "intextsep",
           "package": "hlatex",
@@ -20174,6 +21957,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "intextsep",
           "package": "hlatex",
@@ -20186,6 +21970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "itemindent",
           "package": "hlatex",
@@ -20195,6 +21980,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "itemindent",
           "package": "hlatex",
@@ -20207,6 +21993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "itemsep",
           "package": "hlatex",
@@ -20216,6 +22003,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "itemsep",
           "package": "hlatex",
@@ -20228,6 +22016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "jot",
           "package": "hlatex",
@@ -20237,6 +22026,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "jot",
           "package": "hlatex",
@@ -20249,6 +22039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "labelsep",
           "package": "hlatex",
@@ -20258,6 +22049,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "labelsep",
           "package": "hlatex",
@@ -20270,6 +22062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "labelwidth",
           "package": "hlatex",
@@ -20279,6 +22072,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "labelwidth",
           "package": "hlatex",
@@ -20291,6 +22085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "leftmargin",
           "package": "hlatex",
@@ -20300,6 +22095,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "leftmargin",
           "package": "hlatex",
@@ -20312,6 +22108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "linewidth",
           "package": "hlatex",
@@ -20321,6 +22118,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "linewidth",
           "package": "hlatex",
@@ -20333,6 +22131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "listparindent",
           "package": "hlatex",
@@ -20342,6 +22141,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "listparindent",
           "package": "hlatex",
@@ -20354,6 +22154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "marginparpush",
           "package": "hlatex",
@@ -20363,6 +22164,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "marginparpush",
           "package": "hlatex",
@@ -20375,6 +22177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "marginparsep",
           "package": "hlatex",
@@ -20384,6 +22187,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "marginparsep",
           "package": "hlatex",
@@ -20396,6 +22200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "marginparwidth",
           "package": "hlatex",
@@ -20405,6 +22210,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "marginparwidth",
           "package": "hlatex",
@@ -20417,6 +22223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "mathindent",
           "package": "hlatex",
@@ -20426,6 +22233,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "mathindent",
           "package": "hlatex",
@@ -20438,6 +22246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "medskipamount",
           "package": "hlatex",
@@ -20447,6 +22256,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "medskipamount",
           "package": "hlatex",
@@ -20460,6 +22270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 'in' is a keyword in Haskell, this one is called \u003ccode\u003e\u003ca\u003einch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "mm",
           "package": "hlatex",
@@ -20470,6 +22281,7 @@
         "index": {
           "description": "Since in is keyword in Haskell this one is called inch",
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "mm",
           "normalized": "Rational-\u003eLatexLength",
@@ -20485,6 +22297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 'in' is a keyword in Haskell, this one is called \u003ccode\u003e\u003ca\u003einch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "mu",
           "package": "hlatex",
@@ -20495,6 +22308,7 @@
         "index": {
           "description": "Since in is keyword in Haskell this one is called inch",
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "mu",
           "normalized": "Rational-\u003eLatexLength",
@@ -20509,6 +22323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "oddsidemargin",
           "package": "hlatex",
@@ -20518,6 +22333,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "oddsidemargin",
           "package": "hlatex",
@@ -20530,6 +22346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "parindent",
           "package": "hlatex",
@@ -20539,6 +22356,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "parindent",
           "package": "hlatex",
@@ -20551,6 +22369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "parsep",
           "package": "hlatex",
@@ -20560,6 +22379,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "parsep",
           "package": "hlatex",
@@ -20572,6 +22392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "parskip",
           "package": "hlatex",
@@ -20581,6 +22402,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "parskip",
           "package": "hlatex",
@@ -20593,6 +22415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "partopsep",
           "package": "hlatex",
@@ -20602,6 +22425,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "partopsep",
           "package": "hlatex",
@@ -20615,6 +22439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 'in' is a keyword in Haskell, this one is called \u003ccode\u003e\u003ca\u003einch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "pc",
           "package": "hlatex",
@@ -20625,6 +22450,7 @@
         "index": {
           "description": "Since in is keyword in Haskell this one is called inch",
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "pc",
           "normalized": "Rational-\u003eLatexLength",
@@ -20640,6 +22466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 'in' is a keyword in Haskell, this one is called \u003ccode\u003e\u003ca\u003einch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "pt",
           "package": "hlatex",
@@ -20650,6 +22477,7 @@
         "index": {
           "description": "Since in is keyword in Haskell this one is called inch",
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "pt",
           "normalized": "Rational-\u003eLatexLength",
@@ -20664,6 +22492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "rightmargin",
           "package": "hlatex",
@@ -20673,6 +22502,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "rightmargin",
           "package": "hlatex",
@@ -20685,6 +22515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "smallskipamount",
           "package": "hlatex",
@@ -20694,6 +22525,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "smallskipamount",
           "package": "hlatex",
@@ -20707,6 +22539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 'in' is a keyword in Haskell, this one is called \u003ccode\u003e\u003ca\u003einch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "sp",
           "package": "hlatex",
@@ -20717,6 +22550,7 @@
         "index": {
           "description": "Since in is keyword in Haskell this one is called inch",
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "sp",
           "normalized": "Rational-\u003eLatexLength",
@@ -20731,6 +22565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "stretch",
           "package": "hlatex",
@@ -20740,6 +22575,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "stretch",
           "normalized": "Rational-\u003eLatexLength",
@@ -20754,6 +22590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "tabcolsep",
           "package": "hlatex",
@@ -20763,6 +22600,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "tabcolsep",
           "package": "hlatex",
@@ -20775,6 +22613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "textfloatsep",
           "package": "hlatex",
@@ -20784,6 +22623,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "textfloatsep",
           "package": "hlatex",
@@ -20796,6 +22636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "textfraction",
           "package": "hlatex",
@@ -20805,6 +22646,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "textfraction",
           "package": "hlatex",
@@ -20817,6 +22659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "textheight",
           "package": "hlatex",
@@ -20826,6 +22669,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "textheight",
           "package": "hlatex",
@@ -20838,6 +22682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "textwidth",
           "package": "hlatex",
@@ -20847,6 +22692,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "textwidth",
           "package": "hlatex",
@@ -20859,6 +22705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "topmargin",
           "package": "hlatex",
@@ -20868,6 +22715,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "topmargin",
           "package": "hlatex",
@@ -20880,6 +22728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "topsep",
           "package": "hlatex",
@@ -20889,6 +22738,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "topsep",
           "package": "hlatex",
@@ -20901,6 +22751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Length",
           "name": "topskip",
           "package": "hlatex",
@@ -20910,6 +22761,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Length",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Length",
           "name": "topskip",
           "package": "hlatex",
@@ -20922,6 +22774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "Printer",
           "package": "hlatex",
@@ -20930,6 +22783,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "Printer",
           "package": "hlatex",
@@ -20943,6 +22797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "($$)",
           "package": "hlatex",
@@ -20952,6 +22807,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "($$) $$",
           "normalized": "ShowS-\u003eShowS-\u003eShowS",
@@ -20966,6 +22822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "($$$)",
           "package": "hlatex",
@@ -20975,6 +22832,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "($$$) $$$",
           "normalized": "ShowS-\u003eShowS-\u003eShowS",
@@ -20989,6 +22847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "backslash",
           "package": "hlatex",
@@ -20998,6 +22857,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "backslash",
           "package": "hlatex",
@@ -21010,6 +22870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "between",
           "package": "hlatex",
@@ -21019,6 +22880,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "between",
           "normalized": "String-\u003eString-\u003eShowS-\u003eShowS",
@@ -21033,6 +22895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "braces",
           "package": "hlatex",
@@ -21042,6 +22905,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "braces",
           "normalized": "ShowS-\u003eShowS",
@@ -21056,6 +22920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "brackets",
           "package": "hlatex",
@@ -21065,6 +22930,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "brackets",
           "normalized": "ShowS-\u003eShowS",
@@ -21079,6 +22945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "commas",
           "package": "hlatex",
@@ -21088,6 +22955,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "commas",
           "normalized": "[ShowS]-\u003eShowS",
@@ -21102,6 +22970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "irrNl",
           "package": "hlatex",
@@ -21111,6 +22980,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "irrNl",
           "package": "hlatex",
@@ -21124,6 +22994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "nl",
           "package": "hlatex",
@@ -21133,6 +23004,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "nl",
           "package": "hlatex",
@@ -21145,6 +23017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "nl2",
           "package": "hlatex",
@@ -21154,6 +23027,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "nl2",
           "package": "hlatex",
@@ -21166,6 +23040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "optionals",
           "package": "hlatex",
@@ -21175,6 +23050,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "optionals",
           "normalized": "[a]-\u003eArg a",
@@ -21189,6 +23065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "parens",
           "package": "hlatex",
@@ -21198,6 +23075,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "parens",
           "normalized": "ShowS-\u003eShowS",
@@ -21212,6 +23090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "pp",
           "package": "hlatex",
@@ -21221,6 +23100,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "pp",
           "normalized": "LatexItm-\u003eShowS",
@@ -21235,6 +23115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppAny",
           "package": "hlatex",
@@ -21244,6 +23125,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppAny",
           "normalized": "AnyItm-\u003eShowS",
@@ -21259,6 +23141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppArg",
           "package": "hlatex",
@@ -21268,6 +23151,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppArg",
           "normalized": "Arg ShowS-\u003eShowS",
@@ -21283,6 +23167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppCmdArgs",
           "package": "hlatex",
@@ -21292,6 +23177,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppCmdArgs",
           "normalized": "String-\u003e[Arg ShowS]-\u003eShowS",
@@ -21307,6 +23193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppDecl",
           "package": "hlatex",
@@ -21316,6 +23203,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppDecl",
           "normalized": "String-\u003eShowS-\u003eShowS",
@@ -21331,6 +23219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppDocument",
           "package": "hlatex",
@@ -21340,6 +23229,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppDocument",
           "normalized": "Document-\u003eShowS",
@@ -21355,6 +23245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppEnv",
           "package": "hlatex",
@@ -21364,6 +23255,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppEnv",
           "normalized": "String-\u003e[Arg ShowS]-\u003eShowS-\u003eShowS",
@@ -21379,6 +23271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppMath",
           "package": "hlatex",
@@ -21388,6 +23281,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppMath",
           "normalized": "MathItm-\u003eShowS",
@@ -21403,6 +23297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppMathDecl",
           "package": "hlatex",
@@ -21412,6 +23307,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppMathDecl",
           "normalized": "MathDcl-\u003eShowS",
@@ -21427,6 +23323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppNamed",
           "package": "hlatex",
@@ -21436,6 +23333,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppNamed",
           "normalized": "Named ShowS-\u003eShowS",
@@ -21451,6 +23349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppNote",
           "package": "hlatex",
@@ -21460,6 +23359,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppNote",
           "normalized": "Key-\u003eNote-\u003e(a-\u003eShowS)-\u003ea-\u003eShowS",
@@ -21475,6 +23375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppParMode",
           "package": "hlatex",
@@ -21484,6 +23385,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppParMode",
           "normalized": "ParItm-\u003eShowS",
@@ -21499,6 +23401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppPreamble",
           "package": "hlatex",
@@ -21508,6 +23411,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppPreamble",
           "normalized": "PreambleItm-\u003eShowS",
@@ -21523,6 +23427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppRowSpec",
           "package": "hlatex",
@@ -21532,6 +23437,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppRowSpec",
           "normalized": "RowSpec ShowS-\u003eShowS",
@@ -21547,6 +23453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppRows",
           "package": "hlatex",
@@ -21556,6 +23463,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppRows",
           "normalized": "(a-\u003eShowS)-\u003e[Row a]-\u003eShowS",
@@ -21571,6 +23479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppTexDecl",
           "package": "hlatex",
@@ -21580,6 +23489,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppTexDecl",
           "normalized": "TexDcl-\u003eShowS",
@@ -21595,6 +23505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "ppTexLength",
           "package": "hlatex",
@@ -21604,6 +23515,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "ppTexLength",
           "normalized": "LatexLength-\u003eShowS",
@@ -21619,6 +23531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "preambOfDocClass",
           "package": "hlatex",
@@ -21628,6 +23541,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "preambOfDocClass",
           "normalized": "DocumentClss-\u003ePreambleItm",
@@ -21643,6 +23557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "showDocClassKind",
           "package": "hlatex",
@@ -21652,6 +23567,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "showDocClassKind",
           "normalized": "DocumentClassKind-\u003eString",
@@ -21692,6 +23608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "showLoc",
           "package": "hlatex",
@@ -21701,6 +23618,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "showLoc",
           "normalized": "Loc-\u003eString",
@@ -21716,6 +23634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "showsLaTeX",
           "package": "hlatex",
@@ -21725,6 +23644,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "showsLaTeX",
           "normalized": "LatexM Document-\u003eEither ErrorMessage ShowS",
@@ -21740,6 +23660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "sp",
           "package": "hlatex",
@@ -21749,6 +23670,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "sp",
           "package": "hlatex",
@@ -21761,6 +23683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "text",
           "package": "hlatex",
@@ -21770,6 +23693,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "text",
           "normalized": "String-\u003eShowS",
@@ -21784,6 +23708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "unitName",
           "package": "hlatex",
@@ -21793,6 +23718,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "unitName",
           "normalized": "TexUnit-\u003eString",
@@ -21808,6 +23734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "vcat",
           "package": "hlatex",
@@ -21817,6 +23744,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "vcat",
           "normalized": "[ShowS]-\u003eShowS",
@@ -21831,6 +23759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Printer",
           "name": "vcat2",
           "package": "hlatex",
@@ -21840,6 +23769,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Printer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Printer",
           "name": "vcat2",
           "normalized": "[ShowS]-\u003eShowS",
@@ -21854,6 +23784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Slicer",
           "name": "Slicer",
           "package": "hlatex",
@@ -21862,6 +23793,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Slicer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Slicer",
           "name": "Slicer",
           "package": "hlatex",
@@ -21875,6 +23807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Slicer",
           "name": "(^$)",
           "package": "hlatex",
@@ -21884,6 +23817,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Slicer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Slicer",
           "name": "(^$) ^$",
           "normalized": "(a-\u003eWriter ParItem b)-\u003ea-\u003eWriter ParItem b",
@@ -21898,6 +23832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Slicer",
           "name": "mark",
           "package": "hlatex",
@@ -21907,6 +23842,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Slicer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Slicer",
           "name": "mark",
           "package": "hlatex",
@@ -21919,6 +23855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Slicer",
           "name": "marker",
           "package": "hlatex",
@@ -21928,6 +23865,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Slicer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Slicer",
           "name": "marker",
           "normalized": "Writer ParItem a-\u003eWriter ParItem a",
@@ -21942,6 +23880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Slicer",
           "name": "marknote",
           "package": "hlatex",
@@ -21951,6 +23890,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Slicer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Slicer",
           "name": "marknote",
           "package": "hlatex",
@@ -21963,6 +23903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Slicer",
           "name": "slice",
           "package": "hlatex",
@@ -21972,6 +23913,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Slicer",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Slicer",
           "name": "slice",
           "normalized": "a ParItm-\u003ea ParItm",
@@ -21986,6 +23928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Types",
           "package": "hlatex",
@@ -21994,6 +23937,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Types",
           "package": "hlatex",
@@ -22007,6 +23951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "AnyItem",
           "package": "hlatex",
@@ -22015,6 +23960,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "AnyItem",
           "package": "hlatex",
@@ -22028,6 +23974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "AnyItm",
           "package": "hlatex",
@@ -22036,6 +23983,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "AnyItm",
           "package": "hlatex",
@@ -22049,6 +23997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Arg",
           "package": "hlatex",
@@ -22057,6 +24006,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Arg",
           "package": "hlatex",
@@ -22070,6 +24020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "CharNumber",
           "package": "hlatex",
@@ -22078,6 +24029,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "CharNumber",
           "package": "hlatex",
@@ -22091,6 +24043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Coord",
           "package": "hlatex",
@@ -22099,6 +24052,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Coord",
           "package": "hlatex",
@@ -22112,6 +24066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Document",
           "package": "hlatex",
@@ -22120,6 +24075,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Document",
           "package": "hlatex",
@@ -22133,6 +24089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "DocumentClass",
           "package": "hlatex",
@@ -22141,6 +24098,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "DocumentClass",
           "package": "hlatex",
@@ -22154,6 +24112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "DocumentClassKind",
           "package": "hlatex",
@@ -22162,6 +24121,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "DocumentClassKind",
           "package": "hlatex",
@@ -22175,6 +24135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "DocumentClss",
           "package": "hlatex",
@@ -22183,6 +24144,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "DocumentClss",
           "package": "hlatex",
@@ -22197,6 +24159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for encodings used in commands like.\n \u003ccode\u003eusepackage[utf8]{inputenc}\u003c/code\u003e, that we can\n express as \u003ccode\u003euseInputenc\u003c/code\u003e \u003ccode\u003eutf8\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Encoding",
           "package": "hlatex",
@@ -22206,6 +24169,7 @@
         "index": {
           "description": "Type for encodings used in commands like usepackage utf8 inputenc that we can express as useInputenc utf8",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Encoding",
           "package": "hlatex",
@@ -22219,6 +24183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ErrorMessage",
           "package": "hlatex",
@@ -22227,6 +24192,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ErrorMessage",
           "package": "hlatex",
@@ -22240,6 +24206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Key",
           "package": "hlatex",
@@ -22248,6 +24215,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Key",
           "package": "hlatex",
@@ -22261,6 +24229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexItem",
           "package": "hlatex",
@@ -22269,6 +24238,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexItem",
           "package": "hlatex",
@@ -22282,6 +24252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexItemW",
           "package": "hlatex",
@@ -22290,6 +24261,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexItemW",
           "package": "hlatex",
@@ -22303,6 +24275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexItm",
           "package": "hlatex",
@@ -22311,6 +24284,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexItm",
           "package": "hlatex",
@@ -22324,6 +24298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexLength",
           "package": "hlatex",
@@ -22332,6 +24307,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexLength",
           "package": "hlatex",
@@ -22345,6 +24321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexM",
           "package": "hlatex",
@@ -22353,6 +24330,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexM",
           "package": "hlatex",
@@ -22366,6 +24344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexPaperSize",
           "package": "hlatex",
@@ -22374,6 +24353,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexPaperSize",
           "package": "hlatex",
@@ -22387,6 +24367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexState",
           "package": "hlatex",
@@ -22395,6 +24376,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexState",
           "package": "hlatex",
@@ -22408,6 +24390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LineNumber",
           "package": "hlatex",
@@ -22416,6 +24399,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LineNumber",
           "package": "hlatex",
@@ -22429,6 +24413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ListItem",
           "package": "hlatex",
@@ -22437,6 +24422,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ListItem",
           "package": "hlatex",
@@ -22450,6 +24436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ListItm",
           "package": "hlatex",
@@ -22458,6 +24445,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ListItm",
           "package": "hlatex",
@@ -22471,6 +24459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Loc",
           "package": "hlatex",
@@ -22479,6 +24468,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Loc",
           "package": "hlatex",
@@ -22492,6 +24482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LocSpec",
           "package": "hlatex",
@@ -22500,6 +24491,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LocSpec",
           "package": "hlatex",
@@ -22513,6 +24505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathDcl",
           "package": "hlatex",
@@ -22521,6 +24514,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathDcl",
           "package": "hlatex",
@@ -22534,6 +24528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathDecl",
           "package": "hlatex",
@@ -22542,6 +24537,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathDecl",
           "package": "hlatex",
@@ -22555,6 +24551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathDeclW",
           "package": "hlatex",
@@ -22563,6 +24560,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathDeclW",
           "package": "hlatex",
@@ -22576,6 +24574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathItem",
           "package": "hlatex",
@@ -22584,6 +24583,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathItem",
           "package": "hlatex",
@@ -22597,6 +24597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathItemW",
           "package": "hlatex",
@@ -22605,6 +24606,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathItemW",
           "package": "hlatex",
@@ -22618,6 +24620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathItm",
           "package": "hlatex",
@@ -22626,6 +24629,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathItm",
           "package": "hlatex",
@@ -22639,6 +24643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Named",
           "package": "hlatex",
@@ -22647,6 +24652,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Named",
           "package": "hlatex",
@@ -22660,6 +24666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Note",
           "package": "hlatex",
@@ -22668,6 +24675,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Note",
           "package": "hlatex",
@@ -22681,6 +24689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PackageAction",
           "package": "hlatex",
@@ -22689,6 +24698,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PackageAction",
           "package": "hlatex",
@@ -22702,6 +24712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PackageName",
           "package": "hlatex",
@@ -22710,6 +24721,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PackageName",
           "package": "hlatex",
@@ -22723,6 +24735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ParItem",
           "package": "hlatex",
@@ -22731,6 +24744,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ParItem",
           "package": "hlatex",
@@ -22744,6 +24758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ParItemW",
           "package": "hlatex",
@@ -22752,6 +24767,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ParItemW",
           "package": "hlatex",
@@ -22765,6 +24781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ParItm",
           "package": "hlatex",
@@ -22773,6 +24790,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ParItm",
           "package": "hlatex",
@@ -22786,6 +24804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Percentage",
           "package": "hlatex",
@@ -22794,6 +24813,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Percentage",
           "package": "hlatex",
@@ -22807,6 +24827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Pos",
           "package": "hlatex",
@@ -22815,6 +24836,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Pos",
           "package": "hlatex",
@@ -22828,6 +24850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PreambleItem",
           "package": "hlatex",
@@ -22836,6 +24859,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PreambleItem",
           "package": "hlatex",
@@ -22849,6 +24873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PreambleItemW",
           "package": "hlatex",
@@ -22857,6 +24882,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PreambleItemW",
           "package": "hlatex",
@@ -22870,6 +24896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PreambleItm",
           "package": "hlatex",
@@ -22878,6 +24905,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PreambleItm",
           "package": "hlatex",
@@ -22891,6 +24919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Row",
           "package": "hlatex",
@@ -22899,6 +24928,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Row",
           "package": "hlatex",
@@ -22912,6 +24942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "RowSpec",
           "package": "hlatex",
@@ -22920,6 +24951,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "RowSpec",
           "package": "hlatex",
@@ -22933,6 +24965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "SaveBin",
           "package": "hlatex",
@@ -22941,6 +24974,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "SaveBin",
           "package": "hlatex",
@@ -22954,6 +24988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Star",
           "package": "hlatex",
@@ -22962,6 +24997,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Star",
           "package": "hlatex",
@@ -22975,6 +25011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "TexDcl",
           "package": "hlatex",
@@ -22983,6 +25020,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "TexDcl",
           "package": "hlatex",
@@ -22996,6 +25034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "TexDecl",
           "package": "hlatex",
@@ -23004,6 +25043,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "TexDecl",
           "package": "hlatex",
@@ -23017,6 +25057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "TexDeclW",
           "package": "hlatex",
@@ -23025,6 +25066,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "TexDeclW",
           "package": "hlatex",
@@ -23038,6 +25080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "TexUnit",
           "package": "hlatex",
@@ -23046,6 +25089,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "TexUnit",
           "package": "hlatex",
@@ -23059,6 +25103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "A4paper",
           "package": "hlatex",
@@ -23068,6 +25113,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "A4paper",
           "package": "hlatex",
@@ -23080,6 +25126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "AnyItem",
           "package": "hlatex",
@@ -23089,6 +25136,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "AnyItem",
           "package": "hlatex",
@@ -23102,6 +25150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Article",
           "package": "hlatex",
@@ -23111,6 +25160,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Article",
           "package": "hlatex",
@@ -23124,6 +25174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Book",
           "package": "hlatex",
@@ -23133,6 +25184,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Book",
           "package": "hlatex",
@@ -23147,6 +25199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBig point (1in = 72bp), also PostScript point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Bp",
           "package": "hlatex",
@@ -23157,6 +25210,7 @@
         "index": {
           "description": "Big point in bp also PostScript point",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Bp",
           "package": "hlatex",
@@ -23171,6 +25225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCicero (1dd = 12dd = 4.531mm)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Cc",
           "package": "hlatex",
@@ -23181,6 +25236,7 @@
         "index": {
           "description": "Cicero dd dd mm",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Cc",
           "package": "hlatex",
@@ -23194,6 +25250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Cells",
           "package": "hlatex",
@@ -23203,6 +25260,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Cells",
           "normalized": "Cells[a]",
@@ -23219,6 +25277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCentered (default).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Centered",
           "package": "hlatex",
@@ -23229,6 +25288,7 @@
         "index": {
           "description": "Centered default",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Centered",
           "package": "hlatex",
@@ -23242,6 +25302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Cline",
           "package": "hlatex",
@@ -23251,6 +25312,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Cline",
           "package": "hlatex",
@@ -23265,6 +25327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCentimeter unit size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Cm",
           "package": "hlatex",
@@ -23275,6 +25338,7 @@
         "index": {
           "description": "Centimeter unit size",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Cm",
           "package": "hlatex",
@@ -23288,6 +25352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Coord",
           "package": "hlatex",
@@ -23297,6 +25362,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Coord",
           "package": "hlatex",
@@ -23310,6 +25376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Coordinates",
           "package": "hlatex",
@@ -23319,6 +25386,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Coordinates",
           "package": "hlatex",
@@ -23333,6 +25401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDid&#244;t point (1dd = 0.376mm)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Dd",
           "package": "hlatex",
@@ -23343,6 +25412,7 @@
         "index": {
           "description": "Did point dd mm",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Dd",
           "package": "hlatex",
@@ -23356,6 +25426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "DocClass",
           "package": "hlatex",
@@ -23365,6 +25436,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "DocClass",
           "package": "hlatex",
@@ -23378,6 +25450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Document",
           "package": "hlatex",
@@ -23387,6 +25460,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Document",
           "package": "hlatex",
@@ -23401,6 +25475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne em is about the width of the letter M in the current font\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Em",
           "package": "hlatex",
@@ -23411,6 +25486,7 @@
         "index": {
           "description": "One em is about the width of the letter in the current font",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Em",
           "package": "hlatex",
@@ -23424,6 +25500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Encoding",
           "package": "hlatex",
@@ -23433,6 +25510,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Encoding",
           "package": "hlatex",
@@ -23446,6 +25524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Environment",
           "package": "hlatex",
@@ -23455,6 +25534,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Environment",
           "normalized": "Environment String[Arg AnyItm]AnyItm",
@@ -23471,6 +25551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne ex is about the hoigh of the letter x in the current font\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Ex",
           "package": "hlatex",
@@ -23481,6 +25562,7 @@
         "index": {
           "description": "One ex is about the hoigh of the letter in the current font",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Ex",
           "package": "hlatex",
@@ -23495,6 +25577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlush left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "FlushLeft",
           "package": "hlatex",
@@ -23505,6 +25588,7 @@
         "index": {
           "description": "Flush left",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "FlushLeft",
           "package": "hlatex",
@@ -23519,6 +25603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlush right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "FlushRight",
           "package": "hlatex",
@@ -23529,6 +25614,7 @@
         "index": {
           "description": "Flush right",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "FlushRight",
           "package": "hlatex",
@@ -23542,6 +25628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Hline",
           "package": "hlatex",
@@ -23551,6 +25638,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Hline",
           "package": "hlatex",
@@ -23565,6 +25653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInch unit size (1in = 72.27pt)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "In",
           "package": "hlatex",
@@ -23575,6 +25664,7 @@
         "index": {
           "description": "Inch unit size in pt",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "In",
           "package": "hlatex",
@@ -23588,6 +25678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "IntNote",
           "package": "hlatex",
@@ -23597,6 +25688,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "IntNote",
           "package": "hlatex",
@@ -23610,6 +25702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Key",
           "package": "hlatex",
@@ -23619,6 +25712,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Key",
           "package": "hlatex",
@@ -23632,6 +25726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LS",
           "package": "hlatex",
@@ -23641,6 +25736,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LS",
           "package": "hlatex",
@@ -23654,6 +25750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexAppend",
           "package": "hlatex",
@@ -23663,6 +25760,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexAppend",
           "package": "hlatex",
@@ -23676,6 +25774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexCast",
           "package": "hlatex",
@@ -23685,6 +25784,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexCast",
           "package": "hlatex",
@@ -23698,6 +25798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexCmdAnyArgs",
           "package": "hlatex",
@@ -23707,6 +25808,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexCmdAnyArgs",
           "normalized": "LatexCmdAnyArgs String[Arg AnyItm]",
@@ -23722,6 +25824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexCmdArgs",
           "package": "hlatex",
@@ -23731,6 +25834,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexCmdArgs",
           "normalized": "LatexCmdArgs String[Arg LatexItm]",
@@ -23746,6 +25850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexEmpty",
           "package": "hlatex",
@@ -23755,6 +25860,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexEmpty",
           "package": "hlatex",
@@ -23768,6 +25874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexItm",
           "package": "hlatex",
@@ -23777,6 +25884,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexItm",
           "package": "hlatex",
@@ -23790,6 +25898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexM",
           "package": "hlatex",
@@ -23799,6 +25908,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexM",
           "package": "hlatex",
@@ -23812,6 +25922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LatexNote",
           "package": "hlatex",
@@ -23821,6 +25932,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LatexNote",
           "package": "hlatex",
@@ -23834,6 +25946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Lb",
           "package": "hlatex",
@@ -23843,6 +25956,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Lb",
           "package": "hlatex",
@@ -23856,6 +25970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Length",
           "package": "hlatex",
@@ -23865,6 +25980,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Length",
           "package": "hlatex",
@@ -23878,6 +25994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LengthCmd",
           "package": "hlatex",
@@ -23887,6 +26004,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LengthCmd",
           "package": "hlatex",
@@ -23900,6 +26018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LengthCmdRatArg",
           "package": "hlatex",
@@ -23909,6 +26028,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LengthCmdRatArg",
           "package": "hlatex",
@@ -23922,6 +26042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LengthCst",
           "package": "hlatex",
@@ -23931,6 +26052,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LengthCst",
           "package": "hlatex",
@@ -23944,6 +26066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LengthScaledBy",
           "package": "hlatex",
@@ -23953,6 +26076,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LengthScaledBy",
           "package": "hlatex",
@@ -23966,6 +26090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Letter",
           "package": "hlatex",
@@ -23975,6 +26100,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Letter",
           "package": "hlatex",
@@ -23988,6 +26114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Lh",
           "package": "hlatex",
@@ -23997,6 +26124,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Lh",
           "package": "hlatex",
@@ -24010,6 +26138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LiftArg",
           "package": "hlatex",
@@ -24019,6 +26148,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LiftArg",
           "package": "hlatex",
@@ -24032,6 +26162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ListItm",
           "package": "hlatex",
@@ -24041,6 +26172,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ListItm",
           "package": "hlatex",
@@ -24054,6 +26186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Loc",
           "package": "hlatex",
@@ -24063,6 +26196,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Loc",
           "package": "hlatex",
@@ -24076,6 +26210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LocNote",
           "package": "hlatex",
@@ -24085,6 +26220,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LocNote",
           "package": "hlatex",
@@ -24098,6 +26234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "LocSpecs",
           "package": "hlatex",
@@ -24107,6 +26244,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "LocSpecs",
           "normalized": "LocSpecs[LocSpec]",
@@ -24122,6 +26260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Lp",
           "package": "hlatex",
@@ -24131,6 +26270,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Lp",
           "package": "hlatex",
@@ -24144,6 +26284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Lt",
           "package": "hlatex",
@@ -24153,6 +26294,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Lt",
           "package": "hlatex",
@@ -24166,6 +26308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Mandatory",
           "package": "hlatex",
@@ -24175,6 +26318,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Mandatory",
           "normalized": "Mandatory[a]",
@@ -24190,6 +26334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathArray",
           "package": "hlatex",
@@ -24199,6 +26344,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathArray",
           "normalized": "MathArray[RowSpec MathItm][Row MathItm]",
@@ -24214,6 +26360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathBinOp",
           "package": "hlatex",
@@ -24223,6 +26370,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathBinOp",
           "package": "hlatex",
@@ -24236,6 +26384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathCast",
           "package": "hlatex",
@@ -24245,6 +26394,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathCast",
           "package": "hlatex",
@@ -24258,6 +26408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathCmdArgs",
           "package": "hlatex",
@@ -24267,6 +26418,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathCmdArgs",
           "normalized": "MathCmdArgs String[Arg AnyItm]",
@@ -24282,6 +26434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathConcat",
           "package": "hlatex",
@@ -24291,6 +26444,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathConcat",
           "normalized": "MathConcat[MathItm]",
@@ -24306,6 +26460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathDcl",
           "package": "hlatex",
@@ -24315,6 +26470,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathDcl",
           "package": "hlatex",
@@ -24328,6 +26484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathDecls",
           "package": "hlatex",
@@ -24337,6 +26494,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathDecls",
           "normalized": "MathDecls[MathDcl]",
@@ -24352,6 +26510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathGroup",
           "package": "hlatex",
@@ -24361,6 +26520,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathGroup",
           "package": "hlatex",
@@ -24374,6 +26534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathItem",
           "package": "hlatex",
@@ -24383,6 +26544,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathItem",
           "package": "hlatex",
@@ -24396,6 +26558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathItm",
           "package": "hlatex",
@@ -24405,6 +26568,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathItm",
           "package": "hlatex",
@@ -24418,6 +26582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathNote",
           "package": "hlatex",
@@ -24427,6 +26592,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathNote",
           "package": "hlatex",
@@ -24440,6 +26606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathRat",
           "package": "hlatex",
@@ -24449,6 +26616,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathRat",
           "package": "hlatex",
@@ -24462,6 +26630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MathUnOp",
           "package": "hlatex",
@@ -24471,6 +26640,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MathUnOp",
           "package": "hlatex",
@@ -24484,6 +26654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MkCoord",
           "package": "hlatex",
@@ -24493,6 +26664,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MkCoord",
           "package": "hlatex",
@@ -24506,6 +26678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "MkKey",
           "package": "hlatex",
@@ -24515,6 +26688,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "MkKey",
           "package": "hlatex",
@@ -24529,6 +26703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMilimeter unit size (1mm = 2.845pt)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Mm",
           "package": "hlatex",
@@ -24539,6 +26714,7 @@
         "index": {
           "description": "Milimeter unit size mm pt",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Mm",
           "package": "hlatex",
@@ -24553,6 +26729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMath unit (18mu = 1em)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Mu",
           "package": "hlatex",
@@ -24563,6 +26740,7 @@
         "index": {
           "description": "Math unit mu em",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Mu",
           "package": "hlatex",
@@ -24576,6 +26754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Named",
           "package": "hlatex",
@@ -24585,6 +26764,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Named",
           "package": "hlatex",
@@ -24598,6 +26778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "NamedArgs",
           "package": "hlatex",
@@ -24607,6 +26788,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "NamedArgs",
           "normalized": "NamedArgs[Named a]",
@@ -24622,6 +26804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "NamedOpts",
           "package": "hlatex",
@@ -24631,6 +26814,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "NamedOpts",
           "normalized": "NamedOpts[Named a]",
@@ -24646,6 +26830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "NoArg",
           "package": "hlatex",
@@ -24655,6 +26840,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "NoArg",
           "package": "hlatex",
@@ -24668,6 +26854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "NoStar",
           "package": "hlatex",
@@ -24677,6 +26864,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "NoStar",
           "package": "hlatex",
@@ -24690,6 +26878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Optional",
           "package": "hlatex",
@@ -24699,6 +26888,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Optional",
           "normalized": "Optional[a]",
@@ -24714,6 +26904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "OtherDocumentClassKind",
           "package": "hlatex",
@@ -24723,6 +26914,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "OtherDocumentClassKind",
           "package": "hlatex",
@@ -24736,6 +26928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "OtherPaperSize",
           "package": "hlatex",
@@ -24745,6 +26938,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "OtherPaperSize",
           "package": "hlatex",
@@ -24758,6 +26952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PackageAction",
           "package": "hlatex",
@@ -24767,6 +26962,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PackageAction",
           "package": "hlatex",
@@ -24780,6 +26976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PackageDependency",
           "package": "hlatex",
@@ -24789,6 +26986,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PackageDependency",
           "package": "hlatex",
@@ -24802,6 +27000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PackageName",
           "package": "hlatex",
@@ -24811,6 +27010,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PackageName",
           "package": "hlatex",
@@ -24824,6 +27024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ParCast",
           "package": "hlatex",
@@ -24833,6 +27034,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ParCast",
           "package": "hlatex",
@@ -24846,6 +27048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ParCmdArgs",
           "package": "hlatex",
@@ -24855,6 +27058,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ParCmdArgs",
           "normalized": "ParCmdArgs String[Arg AnyItm]",
@@ -24870,6 +27074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ParConcat",
           "package": "hlatex",
@@ -24879,6 +27084,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ParConcat",
           "normalized": "ParConcat[ParItm]",
@@ -24894,6 +27100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ParEnv",
           "package": "hlatex",
@@ -24903,6 +27110,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ParEnv",
           "normalized": "ParEnv String[Arg AnyItm]AnyItm",
@@ -24918,6 +27126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ParGroup",
           "package": "hlatex",
@@ -24927,6 +27136,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ParGroup",
           "package": "hlatex",
@@ -24940,6 +27150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ParItm",
           "package": "hlatex",
@@ -24949,6 +27160,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ParItm",
           "package": "hlatex",
@@ -24962,6 +27174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ParNote",
           "package": "hlatex",
@@ -24971,6 +27184,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ParNote",
           "package": "hlatex",
@@ -24985,6 +27199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePicas (1pc = 12pt)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Pc",
           "package": "hlatex",
@@ -24995,6 +27210,7 @@
         "index": {
           "description": "Picas pc pt",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Pc",
           "package": "hlatex",
@@ -25008,6 +27224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Percentage",
           "package": "hlatex",
@@ -25017,6 +27234,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Percentage",
           "package": "hlatex",
@@ -25030,6 +27248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PkgName",
           "package": "hlatex",
@@ -25039,6 +27258,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PkgName",
           "package": "hlatex",
@@ -25052,6 +27272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PreambleCast",
           "package": "hlatex",
@@ -25061,6 +27282,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PreambleCast",
           "package": "hlatex",
@@ -25074,6 +27296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PreambleCmdArgs",
           "package": "hlatex",
@@ -25083,6 +27306,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PreambleCmdArgs",
           "normalized": "PreambleCmdArgs String[Arg AnyItm]",
@@ -25098,6 +27322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PreambleConcat",
           "package": "hlatex",
@@ -25107,6 +27332,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PreambleConcat",
           "normalized": "PreambleConcat[PreambleItm]",
@@ -25122,6 +27348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PreambleEnv",
           "package": "hlatex",
@@ -25131,6 +27358,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PreambleEnv",
           "normalized": "PreambleEnv String[Arg AnyItm]AnyItm",
@@ -25146,6 +27374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PreambleItm",
           "package": "hlatex",
@@ -25155,6 +27384,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PreambleItm",
           "package": "hlatex",
@@ -25168,6 +27398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "PreambleNote",
           "package": "hlatex",
@@ -25177,6 +27408,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "PreambleNote",
           "package": "hlatex",
@@ -25190,6 +27422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "ProvidePackage",
           "package": "hlatex",
@@ -25199,6 +27432,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "ProvidePackage",
           "package": "hlatex",
@@ -25213,6 +27447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint unit size (1pt = 0.351mm)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Pt",
           "package": "hlatex",
@@ -25223,6 +27458,7 @@
         "index": {
           "description": "Point unit size pt mm",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Pt",
           "package": "hlatex",
@@ -25236,6 +27472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "RawArg",
           "package": "hlatex",
@@ -25245,6 +27482,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "RawArg",
           "package": "hlatex",
@@ -25258,6 +27496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "RawMath",
           "package": "hlatex",
@@ -25267,6 +27506,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "RawMath",
           "package": "hlatex",
@@ -25280,6 +27520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "RawParMode",
           "package": "hlatex",
@@ -25289,6 +27530,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "RawParMode",
           "package": "hlatex",
@@ -25302,6 +27544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "RawPreamble",
           "package": "hlatex",
@@ -25311,6 +27554,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "RawPreamble",
           "package": "hlatex",
@@ -25324,6 +27568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "RawTex",
           "package": "hlatex",
@@ -25333,6 +27578,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "RawTex",
           "package": "hlatex",
@@ -25346,6 +27592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Rc",
           "package": "hlatex",
@@ -25355,6 +27602,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Rc",
           "package": "hlatex",
@@ -25368,6 +27616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Report",
           "package": "hlatex",
@@ -25377,6 +27626,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Report",
           "package": "hlatex",
@@ -25390,6 +27640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Rl",
           "package": "hlatex",
@@ -25399,6 +27650,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Rl",
           "package": "hlatex",
@@ -25412,6 +27664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Rr",
           "package": "hlatex",
@@ -25421,6 +27674,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Rr",
           "package": "hlatex",
@@ -25434,6 +27688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Rtext",
           "package": "hlatex",
@@ -25443,6 +27698,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Rtext",
           "package": "hlatex",
@@ -25456,6 +27712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Rvline",
           "package": "hlatex",
@@ -25465,6 +27722,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Rvline",
           "package": "hlatex",
@@ -25478,6 +27736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "SaveBin",
           "package": "hlatex",
@@ -25487,6 +27746,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "SaveBin",
           "package": "hlatex",
@@ -25501,6 +27761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalled point (1pt = 65536sp)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Sp",
           "package": "hlatex",
@@ -25511,6 +27772,7 @@
         "index": {
           "description": "Scalled point pt sp",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Sp",
           "package": "hlatex",
@@ -25524,6 +27786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Star",
           "package": "hlatex",
@@ -25533,6 +27796,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Star",
           "package": "hlatex",
@@ -25546,6 +27810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "StarArg",
           "package": "hlatex",
@@ -25555,6 +27820,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "StarArg",
           "package": "hlatex",
@@ -25569,6 +27835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStretch (justify) across entire width; text must contain\n stretchable space for this to work.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Stretch",
           "package": "hlatex",
@@ -25579,6 +27846,7 @@
         "index": {
           "description": "Stretch justify across entire width text must contain stretchable space for this to work",
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Stretch",
           "package": "hlatex",
@@ -25592,6 +27860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "Tabular",
           "package": "hlatex",
@@ -25601,6 +27870,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "Tabular",
           "normalized": "Tabular[RowSpec LatexItm][Row LatexItm]",
@@ -25616,6 +27886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "TexCmdArg",
           "package": "hlatex",
@@ -25625,6 +27896,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "TexCmdArg",
           "package": "hlatex",
@@ -25638,6 +27910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "TexCmdNoArg",
           "package": "hlatex",
@@ -25647,6 +27920,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "TexCmdNoArg",
           "package": "hlatex",
@@ -25660,6 +27934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "TexDcl",
           "package": "hlatex",
@@ -25669,6 +27944,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "TexDcl",
           "package": "hlatex",
@@ -25682,6 +27958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "TexDecls",
           "package": "hlatex",
@@ -25691,6 +27968,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "TexDecls",
           "normalized": "TexDecls[TexDcl]",
@@ -25706,6 +27984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "TexGroup",
           "package": "hlatex",
@@ -25715,6 +27994,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "TexGroup",
           "package": "hlatex",
@@ -25728,6 +28008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "TextNote",
           "package": "hlatex",
@@ -25737,6 +28018,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "TextNote",
           "package": "hlatex",
@@ -25750,6 +28032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "UnsafeMakeSaveBin",
           "package": "hlatex",
@@ -25759,6 +28042,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "UnsafeMakeSaveBin",
           "package": "hlatex",
@@ -25772,6 +28056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "anyItmM",
           "package": "hlatex",
@@ -25781,6 +28066,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "anyItmM",
           "package": "hlatex",
@@ -25794,6 +28080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "appendAny",
           "package": "hlatex",
@@ -25803,6 +28090,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "appendAny",
           "normalized": "AnyItm-\u003eAnyItm-\u003eMaybe AnyItm",
@@ -25818,6 +28106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "charPos",
           "package": "hlatex",
@@ -25827,6 +28116,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "charPos",
           "normalized": "Pos-\u003eChar",
@@ -25842,6 +28132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "docClassKind",
           "package": "hlatex",
@@ -25851,6 +28142,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "docClassKind",
           "package": "hlatex",
@@ -25864,6 +28156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "docClassOptions",
           "package": "hlatex",
@@ -25873,6 +28166,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "docClassOptions",
           "normalized": "[AnyItm]",
@@ -25888,6 +28182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "documentBody",
           "package": "hlatex",
@@ -25897,6 +28192,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "documentBody",
           "package": "hlatex",
@@ -25910,6 +28206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "documentClass",
           "package": "hlatex",
@@ -25919,6 +28216,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "documentClass",
           "package": "hlatex",
@@ -25932,6 +28230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "documentPreamble",
           "package": "hlatex",
@@ -25941,6 +28240,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "documentPreamble",
           "package": "hlatex",
@@ -25954,6 +28254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "freshSaveBin",
           "package": "hlatex",
@@ -25963,6 +28264,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "freshSaveBin",
           "package": "hlatex",
@@ -25976,6 +28278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "fromEncoding",
           "package": "hlatex",
@@ -25985,6 +28288,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "fromEncoding",
           "package": "hlatex",
@@ -25998,6 +28302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "getKey",
           "package": "hlatex",
@@ -26007,6 +28312,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "getKey",
           "package": "hlatex",
@@ -26020,6 +28326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "getPkgName",
           "package": "hlatex",
@@ -26029,6 +28336,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "getPkgName",
           "package": "hlatex",
@@ -26042,6 +28350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "itemContents",
           "package": "hlatex",
@@ -26051,6 +28360,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "itemContents",
           "package": "hlatex",
@@ -26064,6 +28374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "itemOptions",
           "package": "hlatex",
@@ -26073,6 +28384,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "itemOptions",
           "normalized": "[Arg LatexItm]",
@@ -26088,6 +28400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "lengthCst",
           "package": "hlatex",
@@ -26097,6 +28410,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "lengthCst",
           "normalized": "LatexLength-\u003eMaybe(Maybe TexUnit,Rational)",
@@ -26112,6 +28426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "locChar",
           "package": "hlatex",
@@ -26121,6 +28436,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "locChar",
           "package": "hlatex",
@@ -26134,6 +28450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "locFile",
           "package": "hlatex",
@@ -26143,6 +28460,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "locFile",
           "package": "hlatex",
@@ -26156,6 +28474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "locLine",
           "package": "hlatex",
@@ -26165,6 +28484,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "locLine",
           "package": "hlatex",
@@ -26178,6 +28498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "locSpecChar",
           "package": "hlatex",
@@ -26187,6 +28508,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "locSpecChar",
           "normalized": "LocSpec-\u003eChar",
@@ -26202,6 +28524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "mathItmM",
           "package": "hlatex",
@@ -26211,6 +28534,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "mathItmM",
           "package": "hlatex",
@@ -26224,6 +28548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "percentage",
           "package": "hlatex",
@@ -26233,6 +28558,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "percentage",
           "package": "hlatex",
@@ -26245,6 +28571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "rawhchar",
           "package": "hlatex",
@@ -26254,6 +28581,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "rawhchar",
           "normalized": "Char-\u003eString",
@@ -26268,6 +28596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "runLatexM",
           "package": "hlatex",
@@ -26277,6 +28606,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "runLatexM",
           "package": "hlatex",
@@ -26290,6 +28620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "safeLengthOp",
           "package": "hlatex",
@@ -26299,6 +28630,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "safeLengthOp",
           "normalized": "String-\u003e(Rational-\u003eRational-\u003eRational)-\u003eLatexLength-\u003eLatexLength-\u003eLatexLength",
@@ -26314,6 +28646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "scaleBy",
           "package": "hlatex",
@@ -26323,6 +28656,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "scaleBy",
           "normalized": "Rational-\u003eLatexLength-\u003eLatexLength",
@@ -26338,6 +28672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "texDeclArgs",
           "package": "hlatex",
@@ -26347,6 +28682,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "texDeclArgs",
           "normalized": "[Arg AnyItm]",
@@ -26362,6 +28698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "texDeclName",
           "package": "hlatex",
@@ -26371,6 +28708,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "texDeclName",
           "package": "hlatex",
@@ -26384,6 +28722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "unParNote",
           "package": "hlatex",
@@ -26393,6 +28732,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "unParNote",
           "normalized": "ParItm-\u003eMaybe(Key,Note,ParItm)",
@@ -26408,6 +28748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "uncatParItm",
           "package": "hlatex",
@@ -26417,6 +28758,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "uncatParItm",
           "normalized": "ParItm-\u003e[ParItm]",
@@ -26432,6 +28774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Types",
           "name": "unsafeGetSaveBin",
           "package": "hlatex",
@@ -26441,6 +28784,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Types",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Types",
           "name": "unsafeGetSaveBin",
           "package": "hlatex",
@@ -26454,6 +28798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "Unicode",
           "package": "hlatex",
@@ -26462,6 +28807,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "Unicode",
           "package": "hlatex",
@@ -26475,6 +28821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "Greek",
           "package": "hlatex",
@@ -26483,6 +28830,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "Greek",
           "package": "hlatex",
@@ -26496,6 +28844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "α",
           "package": "hlatex",
@@ -26505,6 +28854,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "α",
           "package": "hlatex",
@@ -26517,6 +28867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "β",
           "package": "hlatex",
@@ -26526,6 +28877,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "β",
           "package": "hlatex",
@@ -26538,6 +28890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "γ",
           "package": "hlatex",
@@ -26547,6 +28900,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "γ",
           "package": "hlatex",
@@ -26559,6 +28913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "δ",
           "package": "hlatex",
@@ -26568,6 +28923,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "δ",
           "package": "hlatex",
@@ -26580,6 +28936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "ε",
           "package": "hlatex",
@@ -26589,6 +28946,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "ε",
           "package": "hlatex",
@@ -26601,6 +28959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "ζ",
           "package": "hlatex",
@@ -26610,6 +28969,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "ζ",
           "package": "hlatex",
@@ -26622,6 +28982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "η",
           "package": "hlatex",
@@ -26631,6 +28992,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "η",
           "package": "hlatex",
@@ -26643,6 +29005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "θ",
           "package": "hlatex",
@@ -26652,6 +29015,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "θ",
           "package": "hlatex",
@@ -26664,6 +29028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "ι",
           "package": "hlatex",
@@ -26673,6 +29038,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "ι",
           "package": "hlatex",
@@ -26685,6 +29051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "κ",
           "package": "hlatex",
@@ -26694,6 +29061,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "κ",
           "package": "hlatex",
@@ -26706,6 +29074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "λ",
           "package": "hlatex",
@@ -26715,6 +29084,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "λ",
           "package": "hlatex",
@@ -26727,6 +29097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "μ",
           "package": "hlatex",
@@ -26736,6 +29107,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "μ",
           "package": "hlatex",
@@ -26748,6 +29120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "ν",
           "package": "hlatex",
@@ -26757,6 +29130,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "ν",
           "package": "hlatex",
@@ -26769,6 +29143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "ξ",
           "package": "hlatex",
@@ -26778,6 +29153,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "ξ",
           "package": "hlatex",
@@ -26790,6 +29166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "ο",
           "package": "hlatex",
@@ -26799,6 +29176,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "ο",
           "package": "hlatex",
@@ -26811,6 +29189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "π",
           "package": "hlatex",
@@ -26820,6 +29199,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "π",
           "package": "hlatex",
@@ -26832,6 +29212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "ρ",
           "package": "hlatex",
@@ -26841,6 +29222,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "ρ",
           "package": "hlatex",
@@ -26853,6 +29235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "σ",
           "package": "hlatex",
@@ -26862,6 +29245,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "σ",
           "package": "hlatex",
@@ -26874,6 +29258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "τ",
           "package": "hlatex",
@@ -26883,6 +29268,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "τ",
           "package": "hlatex",
@@ -26895,6 +29281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "φ",
           "package": "hlatex",
@@ -26904,6 +29291,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "φ",
           "package": "hlatex",
@@ -26916,6 +29304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "χ",
           "package": "hlatex",
@@ -26925,6 +29314,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "χ",
           "package": "hlatex",
@@ -26937,6 +29327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "ψ",
           "package": "hlatex",
@@ -26946,6 +29337,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "ψ",
           "package": "hlatex",
@@ -26958,6 +29350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "ω",
           "package": "hlatex",
@@ -26967,6 +29360,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "ω",
           "package": "hlatex",
@@ -26979,6 +29373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "_Γ",
           "package": "hlatex",
@@ -26988,6 +29383,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "_Γ",
           "package": "hlatex",
@@ -27000,6 +29396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "_Δ",
           "package": "hlatex",
@@ -27009,6 +29406,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "_Δ",
           "package": "hlatex",
@@ -27021,6 +29419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "_Θ",
           "package": "hlatex",
@@ -27030,6 +29429,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "_Θ",
           "package": "hlatex",
@@ -27042,6 +29442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "_Λ",
           "package": "hlatex",
@@ -27051,6 +29452,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "_Λ",
           "package": "hlatex",
@@ -27063,6 +29465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "_Π",
           "package": "hlatex",
@@ -27072,6 +29475,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "_Π",
           "package": "hlatex",
@@ -27084,6 +29488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "_Σ",
           "package": "hlatex",
@@ -27093,6 +29498,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "_Σ",
           "package": "hlatex",
@@ -27105,6 +29511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "_Φ",
           "package": "hlatex",
@@ -27114,6 +29521,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "_Φ",
           "package": "hlatex",
@@ -27126,6 +29534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX.Unicode",
           "name": "_Ω",
           "package": "hlatex",
@@ -27135,6 +29544,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX Unicode",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX.Unicode",
           "name": "_Ω",
           "package": "hlatex",
@@ -27147,6 +29557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "LaTeX",
           "package": "hlatex",
@@ -27155,6 +29566,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "LaTeX",
           "package": "hlatex",
@@ -27168,6 +29580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "AnyItem",
           "package": "hlatex",
@@ -27176,6 +29589,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "AnyItem",
           "package": "hlatex",
@@ -27189,6 +29603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "AnyItm",
           "package": "hlatex",
@@ -27197,6 +29612,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "AnyItm",
           "package": "hlatex",
@@ -27210,6 +29626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Arg",
           "package": "hlatex",
@@ -27218,6 +29635,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Arg",
           "package": "hlatex",
@@ -27231,6 +29649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "CharNumber",
           "package": "hlatex",
@@ -27239,6 +29658,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "CharNumber",
           "package": "hlatex",
@@ -27252,6 +29672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Coord",
           "package": "hlatex",
@@ -27260,6 +29681,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Coord",
           "package": "hlatex",
@@ -27273,6 +29695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Document",
           "package": "hlatex",
@@ -27281,6 +29704,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Document",
           "package": "hlatex",
@@ -27294,6 +29718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "DocumentClass",
           "package": "hlatex",
@@ -27302,6 +29727,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "DocumentClass",
           "package": "hlatex",
@@ -27315,6 +29741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "DocumentClassKind",
           "package": "hlatex",
@@ -27323,6 +29750,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "DocumentClassKind",
           "package": "hlatex",
@@ -27336,6 +29764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "DocumentClss",
           "package": "hlatex",
@@ -27344,6 +29773,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "DocumentClss",
           "package": "hlatex",
@@ -27358,6 +29788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for encodings used in commands like.\n \u003ccode\u003eusepackage[utf8]{inputenc}\u003c/code\u003e, that we can\n express as \u003ccode\u003euseInputenc\u003c/code\u003e \u003ccode\u003eutf8\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Encoding",
           "package": "hlatex",
@@ -27367,6 +29798,7 @@
         "index": {
           "description": "Type for encodings used in commands like usepackage utf8 inputenc that we can express as useInputenc utf8",
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Encoding",
           "package": "hlatex",
@@ -27380,6 +29812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Key",
           "package": "hlatex",
@@ -27388,6 +29821,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Key",
           "package": "hlatex",
@@ -27401,6 +29835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "LatexItem",
           "package": "hlatex",
@@ -27409,6 +29844,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "LatexItem",
           "package": "hlatex",
@@ -27422,6 +29858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "LatexItemW",
           "package": "hlatex",
@@ -27430,6 +29867,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "LatexItemW",
           "package": "hlatex",
@@ -27443,6 +29881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "LatexItm",
           "package": "hlatex",
@@ -27451,6 +29890,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "LatexItm",
           "package": "hlatex",
@@ -27464,6 +29904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "LatexLength",
           "package": "hlatex",
@@ -27472,6 +29913,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "LatexLength",
           "package": "hlatex",
@@ -27485,6 +29927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "LatexM",
           "package": "hlatex",
@@ -27493,6 +29936,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "LatexM",
           "package": "hlatex",
@@ -27506,6 +29950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "LatexPaperSize",
           "package": "hlatex",
@@ -27514,6 +29959,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "LatexPaperSize",
           "package": "hlatex",
@@ -27527,6 +29973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "LatexState",
           "package": "hlatex",
@@ -27535,6 +29982,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "LatexState",
           "package": "hlatex",
@@ -27548,6 +29996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "LineNumber",
           "package": "hlatex",
@@ -27556,6 +30005,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "LineNumber",
           "package": "hlatex",
@@ -27569,6 +30019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "ListItem",
           "package": "hlatex",
@@ -27577,6 +30028,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "ListItem",
           "package": "hlatex",
@@ -27590,6 +30042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "ListItm",
           "package": "hlatex",
@@ -27598,6 +30051,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "ListItm",
           "package": "hlatex",
@@ -27611,6 +30065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Loc",
           "package": "hlatex",
@@ -27619,6 +30074,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Loc",
           "package": "hlatex",
@@ -27632,6 +30088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "LocSpec",
           "package": "hlatex",
@@ -27640,6 +30097,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "LocSpec",
           "package": "hlatex",
@@ -27653,6 +30111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "MathDcl",
           "package": "hlatex",
@@ -27661,6 +30120,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "MathDcl",
           "package": "hlatex",
@@ -27674,6 +30134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "MathDecl",
           "package": "hlatex",
@@ -27682,6 +30143,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "MathDecl",
           "package": "hlatex",
@@ -27695,6 +30157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "MathDeclW",
           "package": "hlatex",
@@ -27703,6 +30166,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "MathDeclW",
           "package": "hlatex",
@@ -27716,6 +30180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "MathItem",
           "package": "hlatex",
@@ -27724,6 +30189,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "MathItem",
           "package": "hlatex",
@@ -27737,6 +30203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "MathItemW",
           "package": "hlatex",
@@ -27745,6 +30212,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "MathItemW",
           "package": "hlatex",
@@ -27758,6 +30226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "MathItm",
           "package": "hlatex",
@@ -27766,6 +30235,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "MathItm",
           "package": "hlatex",
@@ -27780,6 +30250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of monoids (types with an associative binary operation that\n has an identity).  Instances should satisfy the following laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003emappend mempty x = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x mempty = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x (mappend y z) = mappend (mappend x y) z\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emconcat = \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e mappend mempty\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe method names refer to the monoid of lists under concatenation,\n but there are many other instances.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSome types can be viewed as a monoid in more than one way,\n e.g. both addition and multiplication on numbers.\n In such cases we often define \u003ccode\u003enewtype\u003c/code\u003es and make those instances\n of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, e.g. \u003ccode\u003e\u003ca\u003eSum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eProduct\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Monoid",
           "package": "hlatex",
@@ -27788,6 +30259,7 @@
         "index": {
           "description": "The class of monoids types with an associative binary operation that has an identity Instances should satisfy the following laws mappend mempty mappend mempty mappend mappend mappend mappend mconcat foldr mappend mempty The method names refer to the monoid of lists under concatenation but there are many other instances Minimal complete definition mempty and mappend Some types can be viewed as monoid in more than one way e.g both addition and multiplication on numbers In such cases we often define newtype and make those instances of Monoid e.g Sum and Product",
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Monoid",
           "package": "hlatex",
@@ -27801,6 +30273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Named",
           "package": "hlatex",
@@ -27809,6 +30282,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Named",
           "package": "hlatex",
@@ -27822,6 +30296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Note",
           "package": "hlatex",
@@ -27830,6 +30305,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Note",
           "package": "hlatex",
@@ -27843,6 +30319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "PackageName",
           "package": "hlatex",
@@ -27851,6 +30328,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "PackageName",
           "package": "hlatex",
@@ -27864,6 +30342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "ParItem",
           "package": "hlatex",
@@ -27872,6 +30351,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "ParItem",
           "package": "hlatex",
@@ -27885,6 +30365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "ParItemW",
           "package": "hlatex",
@@ -27893,6 +30374,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "ParItemW",
           "package": "hlatex",
@@ -27906,6 +30388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "ParItm",
           "package": "hlatex",
@@ -27914,6 +30397,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "ParItm",
           "package": "hlatex",
@@ -27927,6 +30411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Percentage",
           "package": "hlatex",
@@ -27935,6 +30420,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Percentage",
           "package": "hlatex",
@@ -27948,6 +30434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Pos",
           "package": "hlatex",
@@ -27956,6 +30443,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Pos",
           "package": "hlatex",
@@ -27969,6 +30457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "PreambleItem",
           "package": "hlatex",
@@ -27977,6 +30466,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "PreambleItem",
           "package": "hlatex",
@@ -27990,6 +30480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "PreambleItemW",
           "package": "hlatex",
@@ -27998,6 +30489,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "PreambleItemW",
           "package": "hlatex",
@@ -28011,6 +30503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "PreambleItm",
           "package": "hlatex",
@@ -28019,6 +30512,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "PreambleItm",
           "package": "hlatex",
@@ -28032,6 +30526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Row",
           "package": "hlatex",
@@ -28040,6 +30535,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Row",
           "package": "hlatex",
@@ -28053,6 +30549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "RowSpec",
           "package": "hlatex",
@@ -28061,6 +30558,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "RowSpec",
           "package": "hlatex",
@@ -28074,6 +30572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "SaveBin",
           "package": "hlatex",
@@ -28082,6 +30581,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "SaveBin",
           "package": "hlatex",
@@ -28095,6 +30595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Star",
           "package": "hlatex",
@@ -28103,6 +30604,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Star",
           "package": "hlatex",
@@ -28116,6 +30618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "TexDcl",
           "package": "hlatex",
@@ -28124,6 +30627,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "TexDcl",
           "package": "hlatex",
@@ -28137,6 +30641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "TexDecl",
           "package": "hlatex",
@@ -28145,6 +30650,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "TexDecl",
           "package": "hlatex",
@@ -28158,6 +30664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "TexDeclW",
           "package": "hlatex",
@@ -28166,6 +30673,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "TexDeclW",
           "package": "hlatex",
@@ -28179,6 +30687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "TexUnit",
           "package": "hlatex",
@@ -28187,6 +30696,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "TexUnit",
           "package": "hlatex",
@@ -28200,6 +30710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "ViewOpts",
           "package": "hlatex",
@@ -28208,6 +30719,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "ViewOpts",
           "package": "hlatex",
@@ -28222,6 +30734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA writer monad parameterized by the type \u003ccode\u003ew\u003c/code\u003e of output to accumulate.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function produces the output \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e\n combines the outputs of the subcomputations using \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "Writer",
           "package": "hlatex",
@@ -28230,6 +30743,7 @@
         "index": {
           "description": "writer monad parameterized by the type of output to accumulate The return function produces the output mempty while combines the outputs of the subcomputations using mappend",
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "Writer",
           "package": "hlatex",
@@ -28243,6 +30757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "ViewOpts",
           "package": "hlatex",
@@ -28252,6 +30767,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "ViewOpts",
           "package": "hlatex",
@@ -28265,6 +30781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "basedir",
           "package": "hlatex",
@@ -28274,6 +30791,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "basedir",
           "package": "hlatex",
@@ -28286,6 +30804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "inputdirs",
           "package": "hlatex",
@@ -28295,6 +30814,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "inputdirs",
           "normalized": "[FilePath]",
@@ -28310,6 +30830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "mappend",
           "package": "hlatex",
@@ -28319,6 +30840,7 @@
         "index": {
           "description": "An associative operation",
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "mappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -28334,6 +30856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a list using the monoid.\n For most types, the default definition for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e will be\n used, but the function is included in the class definition so\n that an optimized version can be provided for specific types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "mconcat",
           "package": "hlatex",
@@ -28343,6 +30866,7 @@
         "index": {
           "description": "Fold list using the monoid For most types the default definition for mconcat will be used but the function is included in the class definition so that an optimized version can be provided for specific types",
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "mconcat",
           "normalized": "[a]-\u003ea",
@@ -28358,6 +30882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "mempty",
           "package": "hlatex",
@@ -28367,6 +30892,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "mempty",
           "package": "hlatex",
@@ -28379,6 +30905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "myViewOpts",
           "package": "hlatex",
@@ -28388,6 +30915,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "myViewOpts",
           "package": "hlatex",
@@ -28401,6 +30929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "pdflatex",
           "package": "hlatex",
@@ -28410,6 +30939,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "pdflatex",
           "package": "hlatex",
@@ -28422,6 +30952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "pdfviewer",
           "package": "hlatex",
@@ -28431,6 +30962,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "pdfviewer",
           "package": "hlatex",
@@ -28443,6 +30975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "printLatexDocument",
           "package": "hlatex",
@@ -28452,6 +30985,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "printLatexDocument",
           "normalized": "LatexM Document-\u003eIO()",
@@ -28467,6 +31001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "quickView",
           "package": "hlatex",
@@ -28476,6 +31011,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "quickView",
           "normalized": "ViewOpts-\u003eFilePath-\u003eLatexM Document-\u003eIO()",
@@ -28491,6 +31027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "runLatexM",
           "package": "hlatex",
@@ -28500,6 +31037,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "runLatexM",
           "normalized": "LatexM a-\u003eEither ErrorMessage a",
@@ -28515,6 +31053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "showoutput",
           "package": "hlatex",
@@ -28524,6 +31063,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "showoutput",
           "package": "hlatex",
@@ -28537,6 +31077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003etell\u003c/a\u003e\u003c/code\u003e w\u003c/code\u003e is an action that produces the output \u003ccode\u003ew\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "tell",
           "package": "hlatex",
@@ -28546,6 +31087,7 @@
         "index": {
           "description": "tell is an action that produces the output",
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "tell",
           "normalized": "a-\u003eb()",
@@ -28560,6 +31102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:47 UTC 2014",
           "module": "Language.LaTeX",
           "name": "testViewOpts",
           "package": "hlatex",
@@ -28569,6 +31112,7 @@
         },
         "index": {
           "hierarchy": "Language LaTeX",
+          "indexed": "2014-03-11T18:40:47",
           "module": "Language.LaTeX",
           "name": "testViewOpts",
           "package": "hlatex",

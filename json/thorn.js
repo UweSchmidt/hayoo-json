@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "thorn"
+        "phrase": "thorn",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module Data.Thorn.Basic.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Basic",
           "name": "Basic",
           "package": "thorn",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The module Data.Thorn.Basic",
           "hierarchy": "Data Thorn Basic",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Basic",
           "name": "Basic",
           "package": "thorn",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Basic",
           "name": "T0",
           "package": "thorn",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Basic",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Basic",
           "name": "T0",
           "package": "thorn",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Basic",
           "name": "T1",
           "package": "thorn",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Basic",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Basic",
           "name": "T1",
           "package": "thorn",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Basic",
           "name": "T2",
           "package": "thorn",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Basic",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Basic",
           "name": "T2",
           "package": "thorn",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Basic",
           "name": "T3",
           "package": "thorn",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Basic",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Basic",
           "name": "T3",
           "package": "thorn",
@@ -121,6 +131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Basic",
           "name": "T4",
           "package": "thorn",
@@ -129,6 +140,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Basic",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Basic",
           "name": "T4",
           "package": "thorn",
@@ -141,6 +153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Basic",
           "name": "T5",
           "package": "thorn",
@@ -149,6 +162,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Basic",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Basic",
           "name": "T5",
           "package": "thorn",
@@ -161,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Basic",
           "name": "T6",
           "package": "thorn",
@@ -169,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Basic",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Basic",
           "name": "T6",
           "package": "thorn",
@@ -181,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Basic",
           "name": "T7",
           "package": "thorn",
@@ -189,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Basic",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Basic",
           "name": "T7",
           "package": "thorn",
@@ -201,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Basic",
           "name": "T8",
           "package": "thorn",
@@ -209,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Basic",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Basic",
           "name": "T8",
           "package": "thorn",
@@ -221,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Basic",
           "name": "T9",
           "package": "thorn",
@@ -229,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Basic",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Basic",
           "name": "T9",
           "package": "thorn",
@@ -242,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e modifyname (\"Prefix\",\"Suffix\") (\"***\",\"+++\") \"Hello\" == \"PrefixHelloSuffix\"\n modifyname (\"Prefix\",\"Suffix\") (\"***\",\"+++\") \":%%%\" == \":***%%%+++\"\n modifyname (\"prefix\",\"suffix\") (\"***\",\"+++\") \"hello\" == \"prefixhellosuffix\"\n modifyname (\"prefix\",\"suffix\") (\"***\",\"+++\") \"%%%\" == \"***%%%+++\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Basic",
           "name": "modifyname",
           "package": "thorn",
@@ -252,6 +275,7 @@
         "index": {
           "description": "modifyname Prefix Suffix Hello PrefixHelloSuffix modifyname Prefix Suffix modifyname prefix suffix hello prefixhellosuffix modifyname prefix suffix",
           "hierarchy": "Data Thorn Basic",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Basic",
           "name": "modifyname",
           "normalized": "(String,String)-\u003e(String,String)-\u003eString-\u003eString",
@@ -267,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module Data.Thorn.Fold.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "Fold",
           "package": "thorn",
@@ -276,6 +301,7 @@
         "index": {
           "description": "The module Data.Thorn.Fold",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "Fold",
           "package": "thorn",
@@ -290,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautofold u t\u003c/code\u003e provides a fold for the recursive type \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autofold",
           "package": "thorn",
@@ -299,6 +326,7 @@
         "index": {
           "description": "autofold provides fold for the recursive type",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autofold",
           "normalized": "TypeQ-\u003eTypeQ-\u003eExpQ",
@@ -314,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautofoldMutual uts k\u003c/code\u003e provides a fold for the mutually recursive type \u003ccode\u003etk\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autofoldMutual",
           "package": "thorn",
@@ -323,6 +352,7 @@
         "index": {
           "description": "autofoldMutual uts provides fold for the mutually recursive type tk",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autofoldMutual",
           "normalized": "[(TypeQ,TypeQ)]-\u003eInt-\u003eExpQ",
@@ -339,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautofolddec s u t\u003c/code\u003e provides a declaration of a fold for the recursive type \u003ccode\u003et\u003c/code\u003e with the name \u003ccode\u003es\u003c/code\u003e, with a type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autofolddec",
           "package": "thorn",
@@ -349,6 +380,7 @@
         "index": {
           "description": "autofolddec provides declaration of fold for the recursive type with the name with type signature",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autofolddec",
           "normalized": "String-\u003eTypeQ-\u003eTypeQ-\u003eDecsQ",
@@ -364,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautofolddecMutual s uts k\u003c/code\u003e provides a declaration of a fold for the mutually recursive type \u003ccode\u003etk\u003c/code\u003e with the name \u003ccode\u003es\u003c/code\u003e, with a type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autofolddecMutual",
           "package": "thorn",
@@ -374,6 +407,7 @@
         "index": {
           "description": "autofolddecMutual uts provides declaration of fold for the mutually recursive type tk with the name with type signature",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autofolddecMutual",
           "normalized": "String-\u003e[(TypeQ,TypeQ)]-\u003eInt-\u003eDecsQ",
@@ -390,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautofoldtype u t\u003c/code\u003e provides the type of \u003ccode\u003e$(\u003ccode\u003e\u003ca\u003eautofold\u003c/a\u003e\u003c/code\u003e u t)\u003c/code\u003e, that is, \u003ccode\u003e(u x0 .. xn a -\u003e a) -\u003e (t x0 .. xn -\u003e a)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autofoldtype",
           "package": "thorn",
@@ -400,6 +435,7 @@
         "index": {
           "description": "autofoldtype provides the type of autofold that is x0 xn x0 xn",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autofoldtype",
           "normalized": "TypeQ-\u003eTypeQ-\u003eTypeQ",
@@ -415,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautofoldtypeMutual uts k\u003c/code\u003e provides the type of \u003ccode\u003e$(\u003ccode\u003e\u003ca\u003eautofoldMutual\u003c/a\u003e\u003c/code\u003e uts k)\u003c/code\u003e, that is, \u003ccode\u003e(u0 x0 .. xm a0 .. an -\u003e a0) -\u003e .. -\u003e (un x0 .. xm a0 .. an -\u003e an) -\u003e (tk x0 .. xm -\u003e ak)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autofoldtypeMutual",
           "package": "thorn",
@@ -425,6 +462,7 @@
         "index": {
           "description": "autofoldtypeMutual uts provides the type of autofoldMutual uts that is u0 x0 xm a0 an a0 un x0 xm a0 an an tk x0 xm ak",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autofoldtypeMutual",
           "normalized": "[(TypeQ,TypeQ)]-\u003eInt-\u003eTypeQ",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autohylo",
           "package": "thorn",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autohylo",
           "normalized": "TypeQ-\u003eExpQ",
@@ -463,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutually recursive version of \u003ccode\u003e\u003ca\u003eautohylo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autohyloMutual",
           "package": "thorn",
@@ -472,6 +513,7 @@
         "index": {
           "description": "Mutually recursive version of autohylo",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autohyloMutual",
           "normalized": "[TypeQ]-\u003eInt-\u003eExpQ",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autoin",
           "package": "thorn",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autoin",
           "normalized": "TypeQ-\u003eTypeQ-\u003eExpQ",
@@ -510,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutually recursive version of \u003ccode\u003e\u003ca\u003eautoin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autoinMutual",
           "package": "thorn",
@@ -519,6 +564,7 @@
         "index": {
           "description": "Mutually recursive version of autoin",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autoinMutual",
           "normalized": "[(TypeQ,TypeQ)]-\u003eInt-\u003eExpQ",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autoout",
           "package": "thorn",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autoout",
           "normalized": "TypeQ-\u003eTypeQ-\u003eExpQ",
@@ -557,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutually recursive version of \u003ccode\u003e\u003ca\u003eautoout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autooutMutual",
           "package": "thorn",
@@ -566,6 +615,7 @@
         "index": {
           "description": "Mutually recursive version of autoout",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autooutMutual",
           "normalized": "[(TypeQ,TypeQ)]-\u003eInt-\u003eExpQ",
@@ -582,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautounfold u t\u003c/code\u003e provides an unfold for the recursive type \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autounfold",
           "package": "thorn",
@@ -591,6 +642,7 @@
         "index": {
           "description": "autounfold provides an unfold for the recursive type",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autounfold",
           "normalized": "TypeQ-\u003eTypeQ-\u003eExpQ",
@@ -606,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautounfoldMutual uts k\u003c/code\u003e provides an unfold for the mutually recursive type \u003ccode\u003etk\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autounfoldMutual",
           "package": "thorn",
@@ -615,6 +668,7 @@
         "index": {
           "description": "autounfoldMutual uts provides an unfold for the mutually recursive type tk",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autounfoldMutual",
           "normalized": "[(TypeQ,TypeQ)]-\u003eInt-\u003eExpQ",
@@ -631,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautounfolddec s u t\u003c/code\u003e provides a declaration of an unfold for the recursive type \u003ccode\u003et\u003c/code\u003e with the name \u003ccode\u003es\u003c/code\u003e, with a type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autounfolddec",
           "package": "thorn",
@@ -641,6 +696,7 @@
         "index": {
           "description": "autounfolddec provides declaration of an unfold for the recursive type with the name with type signature",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autounfolddec",
           "normalized": "String-\u003eTypeQ-\u003eTypeQ-\u003eDecsQ",
@@ -656,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautounfolddecMutual s uts k\u003c/code\u003e provides a declaration of an unfold for the mutually recursive type \u003ccode\u003etk\u003c/code\u003e with the name \u003ccode\u003es\u003c/code\u003e, with a type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autounfolddecMutual",
           "package": "thorn",
@@ -666,6 +723,7 @@
         "index": {
           "description": "autounfolddecMutual uts provides declaration of an unfold for the mutually recursive type tk with the name with type signature",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autounfolddecMutual",
           "normalized": "String-\u003e[(TypeQ,TypeQ)]-\u003eInt-\u003eDecsQ",
@@ -682,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautounfoldtype u t\u003c/code\u003e provides the type of \u003ccode\u003e$(\u003ccode\u003e\u003ca\u003eautounfold\u003c/a\u003e\u003c/code\u003e u t)\u003c/code\u003e, that is, \u003ccode\u003e(a -\u003e u x0 .. xn a) -\u003e (a -\u003e t x0 .. xn)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autounfoldtype",
           "package": "thorn",
@@ -692,6 +751,7 @@
         "index": {
           "description": "autounfoldtype provides the type of autounfold that is x0 xn x0 xn",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autounfoldtype",
           "normalized": "TypeQ-\u003eTypeQ-\u003eTypeQ",
@@ -707,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautounfoldtypeMutual uts k\u003c/code\u003e provides the type of \u003ccode\u003e$(\u003ccode\u003e\u003ca\u003eautounfoldMutual\u003c/a\u003e\u003c/code\u003e uts k)\u003c/code\u003e, that is, \u003ccode\u003e(a0 -\u003e u0 x0 .. xm a0 .. an) -\u003e .. -\u003e (an -\u003e un x0 .. xm a0 .. an) -\u003e (ak -\u003e tk x0 .. xm)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "autounfoldtypeMutual",
           "package": "thorn",
@@ -717,6 +778,7 @@
         "index": {
           "description": "autounfoldtypeMutual uts provides the type of autounfoldMutual uts that is a0 u0 x0 xm a0 an an un x0 xm a0 an ak tk x0 xm",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "autounfoldtypeMutual",
           "normalized": "[(TypeQ,TypeQ)]-\u003eInt-\u003eTypeQ",
@@ -733,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this function to designate how to convert the name of data constructors for \u003ccode\u003e\u003ca\u003eunfixdata\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e modifynameUf \"Hello\" == \"UfHello\"\n modifynameUf \":***\" == \":&***\"\n\u003c/pre\u003e\u003cp\u003eNote that\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003emodifynameUf\u003c/a\u003e\u003c/code\u003e == \u003ccode\u003e\u003ca\u003emodifyname\u003c/a\u003e\u003c/code\u003e (\"Uf\",\"\") (\"&\",\"\")\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "modifynameUf",
           "package": "thorn",
@@ -743,6 +806,7 @@
         "index": {
           "description": "Use this function to designate how to convert the name of data constructors for unfixdata modifynameUf Hello UfHello modifynameUf Note that modifynameUf modifyname Uf",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "modifynameUf",
           "normalized": "String-\u003eString",
@@ -759,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunfixdata t n f ds\u003c/code\u003e provides a declaration of a nonrecursive datatype whose fixpoint is the recursive type \u003ccode\u003et\u003c/code\u003e, with a deriving declaration with names \u003ccode\u003eds\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "unfixdata",
           "package": "thorn",
@@ -768,6 +833,7 @@
         "index": {
           "description": "unfixdata ds provides declaration of nonrecursive datatype whose fixpoint is the recursive type with deriving declaration with names ds",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "unfixdata",
           "normalized": "TypeQ-\u003eString-\u003e(String-\u003eString)-\u003e[Name]-\u003eDecsQ",
@@ -783,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutually recursive version of \u003ccode\u003e\u003ca\u003eunfixdata\u003c/a\u003e\u003c/code\u003e. Note that\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eunfixdata\u003c/a\u003e\u003c/code\u003e t s f ds = \u003ccode\u003e\u003ca\u003eunfixdataMutual\u003c/a\u003e\u003c/code\u003e [(t,s,f,ds)]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Fold",
           "name": "unfixdataMutual",
           "package": "thorn",
@@ -792,6 +859,7 @@
         "index": {
           "description": "Mutually recursive version of unfixdata Note that unfixdata ds unfixdataMutual ds",
           "hierarchy": "Data Thorn Fold",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Fold",
           "name": "unfixdataMutual",
           "normalized": "[(TypeQ,String,String-\u003eString,[Name])]-\u003eDecsQ",
@@ -808,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module Data.Thorn.Functor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Functor",
           "name": "Functor",
           "package": "thorn",
@@ -817,6 +886,7 @@
         "index": {
           "description": "The module Data.Thorn.Functor",
           "hierarchy": "Data Thorn Functor",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Functor",
           "name": "Functor",
           "package": "thorn",
@@ -831,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eVariance\u003c/code\u003e is a variance of a parameter of a functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Functor",
           "name": "Variance",
           "package": "thorn",
@@ -840,6 +911,7 @@
         "index": {
           "description": "Variance is variance of parameter of functor",
           "hierarchy": "Data Thorn Functor",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Functor",
           "name": "Variance",
           "package": "thorn",
@@ -854,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCovariance, one of a normal functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Functor",
           "name": "Co",
           "package": "thorn",
@@ -864,6 +937,7 @@
         "index": {
           "description": "Covariance one of normal functor",
           "hierarchy": "Data Thorn Functor",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Functor",
           "name": "Co",
           "package": "thorn",
@@ -878,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContravariance, the dual of covariance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Functor",
           "name": "Contra",
           "package": "thorn",
@@ -888,6 +963,7 @@
         "index": {
           "description": "Contravariance the dual of covariance",
           "hierarchy": "Data Thorn Functor",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Functor",
           "name": "Contra",
           "package": "thorn",
@@ -902,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixed-variance, or nonvariance, being supposed to satisfy both covariance and contravariance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Functor",
           "name": "Fixed",
           "package": "thorn",
@@ -912,6 +989,7 @@
         "index": {
           "description": "Fixed-variance or nonvariance being supposed to satisfy both covariance and contravariance",
           "hierarchy": "Data Thorn Functor",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Functor",
           "name": "Fixed",
           "package": "thorn",
@@ -926,6 +1004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree-variance, or invariance, being supposed to satisfy either covariance or contravariance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Functor",
           "name": "Free",
           "package": "thorn",
@@ -936,6 +1015,7 @@
         "index": {
           "description": "Free-variance or invariance being supposed to satisfy either covariance or contravariance",
           "hierarchy": "Data Thorn Functor",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Functor",
           "name": "Free",
           "package": "thorn",
@@ -950,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautofmap t\u003c/code\u003e generates an fmap of the type \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Functor",
           "name": "autofmap",
           "package": "thorn",
@@ -960,6 +1041,7 @@
         "index": {
           "description": "autofmap generates an fmap of the type",
           "hierarchy": "Data Thorn Functor",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Functor",
           "name": "autofmap",
           "normalized": "TypeQ-\u003eExpQ",
@@ -975,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautofmapdec s t\u003c/code\u003e provides a declaration of an fmap for the type \u003ccode\u003et\u003c/code\u003e with the name \u003ccode\u003es\u003c/code\u003e, with a type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Functor",
           "name": "autofmapdec",
           "package": "thorn",
@@ -985,6 +1068,7 @@
         "index": {
           "description": "autofmapdec provides declaration of an fmap for the type with the name with type signature",
           "hierarchy": "Data Thorn Functor",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Functor",
           "name": "autofmapdec",
           "normalized": "String-\u003eTypeQ-\u003eDecsQ",
@@ -1000,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautofmaptype t\u003c/code\u003e provides the type of \u003ccode\u003e$(\u003ccode\u003e\u003ca\u003eautofmap\u003c/a\u003e\u003c/code\u003e t)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Functor",
           "name": "autofmaptype",
           "package": "thorn",
@@ -1010,6 +1095,7 @@
         "index": {
           "description": "autofmaptype provides the type of autofmap",
           "hierarchy": "Data Thorn Functor",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Functor",
           "name": "autofmaptype",
           "normalized": "TypeQ-\u003eTypeQ",
@@ -1025,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautofunctorize t\u003c/code\u003e provides instance delcarations of the type \u003ccode\u003et\u003c/code\u003e, for the suitable functor classes : \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eContravariant\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e. Multiple classes can be suitable for \u003ccode\u003et\u003c/code\u003e, when one of the variances of \u003ccode\u003et\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eFree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Functor",
           "name": "autofunctorize",
           "package": "thorn",
@@ -1035,6 +1122,7 @@
         "index": {
           "description": "autofunctorize provides instance delcarations of the type for the suitable functor classes Functor Contravariant Bifunctor or Profunctor Multiple classes can be suitable for when one of the variances of is Free",
           "hierarchy": "Data Thorn Functor",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Functor",
           "name": "autofunctorize",
           "normalized": "TypeQ-\u003eDecsQ",
@@ -1050,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eautovariance t\u003c/code\u003e provides the variances of the type \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn.Functor",
           "name": "autovariance",
           "package": "thorn",
@@ -1060,6 +1149,7 @@
         "index": {
           "description": "autovariance provides the variances of the type",
           "hierarchy": "Data Thorn Functor",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn.Functor",
           "name": "autovariance",
           "normalized": "TypeQ-\u003eExpQ",
@@ -1075,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThorn, Datatype Manipulation with Template Haskell.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:43 UTC 2014",
           "module": "Data.Thorn",
           "name": "Thorn",
           "package": "thorn",
@@ -1084,6 +1175,7 @@
         "index": {
           "description": "Thorn Datatype Manipulation with Template Haskell",
           "hierarchy": "Data Thorn",
+          "indexed": "2014-03-11T20:21:43",
           "module": "Data.Thorn",
           "name": "Thorn",
           "package": "thorn",

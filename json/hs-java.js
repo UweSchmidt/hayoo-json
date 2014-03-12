@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-java"
+        "phrase": "hs-java",
+        "type": "phrase"
       },
       "type": "context"
     }

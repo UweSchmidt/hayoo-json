@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ddc-build"
+        "phrase": "ddc-build",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "Builder",
           "package": "ddc-build",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "Builder",
           "package": "ddc-build",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActions to use to invoke external compilation tools.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "Builder",
           "package": "ddc-build",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Actions to use to invoke external compilation tools",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "Builder",
           "package": "ddc-build",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration information for a builder that is not platform specific.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "BuilderConfig",
           "package": "ddc-build",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Configuration information for builder that is not platform specific",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "BuilderConfig",
           "package": "ddc-build",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "Builder",
           "package": "ddc-build",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "Builder",
           "package": "ddc-build",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "BuilderConfig",
           "package": "ddc-build",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "BuilderConfig",
           "package": "ddc-build",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvoke the system assembler\n   to assemble a .s file into a .o file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "buildAs",
           "package": "ddc-build",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Invoke the system assembler to assemble file into file",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "buildAs",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectory that holds the shared objects for the runtime\n   system and base library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "buildBaseLibDir",
           "package": "ddc-build",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Directory that holds the shared objects for the runtime system and base library",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "buildBaseLibDir",
           "package": "ddc-build",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectory that holds the source for the runtime system\n   and base library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "buildBaseSrcDir",
           "package": "ddc-build",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Directory that holds the source for the runtime system and base library",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "buildBaseSrcDir",
           "package": "ddc-build",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvoke the C compiler\n   to compile a .c file into a .o file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "buildCC",
           "package": "ddc-build",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Invoke the compiler to compile file into file",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "buildCC",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe platform the build is being performed on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "buildHost",
           "package": "ddc-build",
@@ -240,6 +259,7 @@
         "index": {
           "description": "The platform the build is being performed on",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "buildHost",
           "package": "ddc-build",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink an executable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "buildLdExe",
           "package": "ddc-build",
@@ -264,6 +285,7 @@
         "index": {
           "description": "Link an executable",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "buildLdExe",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink a shared library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "buildLdLibShared",
           "package": "ddc-build",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Link shared library",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "buildLdLibShared",
           "normalized": "[FilePath]-\u003eFilePath-\u003eIO()",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink a static library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "buildLdLibStatic",
           "package": "ddc-build",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Link static library",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "buildLdLibStatic",
           "normalized": "[FilePath]-\u003eFilePath-\u003eIO()",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvoke the LLVM compiler\n   to compile a .ll file into a .s file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "buildLlc",
           "package": "ddc-build",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Invoke the LLVM compiler to compile ll file into file",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "buildLlc",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe LLVM target specification.\n   Gives the widths of pointers and primitive numeric types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "buildSpec",
           "package": "ddc-build",
@@ -368,6 +397,7 @@
         "index": {
           "description": "The LLVM target specification Gives the widths of pointers and primitive numeric types",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "buildSpec",
           "package": "ddc-build",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe platform we're compiling code for.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "buildTarget",
           "package": "ddc-build",
@@ -392,6 +423,7 @@
         "index": {
           "description": "The platform we re compiling code for",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "buildTarget",
           "package": "ddc-build",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectory that holds the shared objects for the runtime\n   system and base library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "builderConfigBaseLibDir",
           "package": "ddc-build",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Directory that holds the shared objects for the runtime system and base library",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "builderConfigBaseLibDir",
           "package": "ddc-build",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectory that holds the source for the runtime system\n   and base library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "builderConfigBaseSrcDir",
           "package": "ddc-build",
@@ -440,6 +475,7 @@
         "index": {
           "description": "Directory that holds the source for the runtime system and base library",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "builderConfigBaseSrcDir",
           "package": "ddc-build",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of this platform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "builderName",
           "package": "ddc-build",
@@ -464,6 +501,7 @@
         "index": {
           "description": "The name of this platform",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "builderName",
           "package": "ddc-build",
@@ -478,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll supported builders.\n   The host and target platforms are the same.\n\u003c/p\u003e\u003cp\u003eSupported builders are: \n      \u003ccode\u003ex86_32-darwin\u003c/code\u003e, \u003ccode\u003ex86_64-darwin\u003c/code\u003e,\n      \u003ccode\u003ex86_32-linux\u003c/code\u003e,  \u003ccode\u003ex86_64-linux\u003c/code\u003e,\n      \u003ccode\u003ex86_32-cygwin\u003c/code\u003e,\n      \u003ccode\u003eppc32-linux\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "builders",
           "package": "ddc-build",
@@ -488,6 +527,7 @@
         "index": {
           "description": "All supported builders The host and target platforms are the same Supported builders are x86 darwin x86 darwin x86 linux x86 linux x86 cygwin ppc32-linux",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "builders",
           "normalized": "BuilderConfig-\u003e[Builder]",
@@ -503,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the default builder based on the \u003ccode\u003earch\u003c/code\u003e and \u003ccode\u003euname\u003c/code\u003e commands.\n   This assumes that the \u003ccode\u003ehost\u003c/code\u003e and \u003ccode\u003etarget\u003c/code\u003e platforms are the same.\n\u003c/p\u003e\u003cp\u003eIf we don't recognise the result of \u003ccode\u003earch\u003c/code\u003e or \u003ccode\u003euname\u003c/code\u003e, or don't have \n   a default builder config for this platform then \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Builder",
           "name": "determineDefaultBuilder",
           "package": "ddc-build",
@@ -513,6 +554,7 @@
         "index": {
           "description": "Determine the default builder based on the arch and uname commands This assumes that the host and target platforms are the same If we don recognise the result of arch or uname or don have default builder config for this platform then Nothing",
           "hierarchy": "DDC Build Builder",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Builder",
           "name": "determineDefaultBuilder",
           "normalized": "BuilderConfig-\u003eIO(Maybe Builder)",
@@ -529,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eEval\u003c/code\u003e fragment can be interpreted with our semantic interpreter.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Eval",
           "name": "Eval",
           "package": "ddc-build",
@@ -538,6 +581,7 @@
         "index": {
           "description": "The Eval fragment can be interpreted with our semantic interpreter",
           "hierarchy": "DDC Build Language Eval",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Eval",
           "name": "Eval",
           "package": "ddc-build",
@@ -552,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage bundle for Disciple Core Eval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Eval",
           "name": "bundle",
           "package": "ddc-build",
@@ -562,6 +607,7 @@
         "index": {
           "description": "Language bundle for Disciple Core Eval",
           "hierarchy": "DDC Build Language Eval",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Eval",
           "name": "bundle",
           "package": "ddc-build",
@@ -575,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFragment definition for Disciple Core Eval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Eval",
           "name": "fragment",
           "package": "ddc-build",
@@ -585,6 +632,7 @@
         "index": {
           "description": "Fragment definition for Disciple Core Eval",
           "hierarchy": "DDC Build Language Eval",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Eval",
           "name": "fragment",
           "package": "ddc-build",
@@ -598,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage definition for Disciple Core Eval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Eval",
           "name": "language",
           "package": "ddc-build",
@@ -608,6 +657,7 @@
         "index": {
           "description": "Language definition for Disciple Core Eval",
           "hierarchy": "DDC Build Language Eval",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Eval",
           "name": "language",
           "package": "ddc-build",
@@ -620,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Eval",
           "name": "profile",
           "package": "ddc-build",
@@ -629,6 +680,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Language Eval",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Eval",
           "name": "profile",
           "package": "ddc-build",
@@ -642,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eFlow\u003c/code\u003e fragment is used for data-flow optimisation as part\n   of the Data Parallel Haskell vectorisation pipeline.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Flow",
           "name": "Flow",
           "package": "ddc-build",
@@ -651,6 +704,7 @@
         "index": {
           "description": "The Flow fragment is used for data-flow optimisation as part of the Data Parallel Haskell vectorisation pipeline",
           "hierarchy": "DDC Build Language Flow",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Flow",
           "name": "Flow",
           "package": "ddc-build",
@@ -664,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Flow",
           "name": "Error",
           "package": "ddc-build",
@@ -672,6 +727,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Language Flow",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Flow",
           "name": "Error",
           "package": "ddc-build",
@@ -685,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Flow",
           "name": "Error",
           "package": "ddc-build",
@@ -694,6 +751,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Language Flow",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Flow",
           "name": "Error",
           "package": "ddc-build",
@@ -708,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage bundle for Disciple Core Lite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Flow",
           "name": "bundle",
           "package": "ddc-build",
@@ -718,6 +777,7 @@
         "index": {
           "description": "Language bundle for Disciple Core Lite",
           "hierarchy": "DDC Build Language Flow",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Flow",
           "name": "bundle",
           "package": "ddc-build",
@@ -731,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFragement definition for Disciple Core Lite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Flow",
           "name": "fragment",
           "package": "ddc-build",
@@ -741,6 +802,7 @@
         "index": {
           "description": "Fragement definition for Disciple Core Lite",
           "hierarchy": "DDC Build Language Flow",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Flow",
           "name": "fragment",
           "package": "ddc-build",
@@ -754,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage definition for Disciple Core Lite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Flow",
           "name": "language",
           "package": "ddc-build",
@@ -764,6 +827,7 @@
         "index": {
           "description": "Language definition for Disciple Core Lite",
           "hierarchy": "DDC Build Language Flow",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Flow",
           "name": "language",
           "package": "ddc-build",
@@ -777,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eLite\u003c/code\u003e fragment is a desugared version of Disciple Core that has all\n   the polymorphism of System-F2 along with algebraic data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Lite",
           "name": "Lite",
           "package": "ddc-build",
@@ -786,6 +851,7 @@
         "index": {
           "description": "The Lite fragment is desugared version of Disciple Core that has all the polymorphism of System-F2 along with algebraic data types",
           "hierarchy": "DDC Build Language Lite",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Lite",
           "name": "Lite",
           "package": "ddc-build",
@@ -800,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage bundle for Disciple Core Lite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Lite",
           "name": "bundle",
           "package": "ddc-build",
@@ -810,6 +877,7 @@
         "index": {
           "description": "Language bundle for Disciple Core Lite",
           "hierarchy": "DDC Build Language Lite",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Lite",
           "name": "bundle",
           "package": "ddc-build",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFragement definition for Disciple Core Lite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Lite",
           "name": "fragment",
           "package": "ddc-build",
@@ -833,6 +902,7 @@
         "index": {
           "description": "Fragement definition for Disciple Core Lite",
           "hierarchy": "DDC Build Language Lite",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Lite",
           "name": "fragment",
           "package": "ddc-build",
@@ -846,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new type variable name that is not in the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Lite",
           "name": "freshT",
           "package": "ddc-build",
@@ -856,6 +927,7 @@
         "index": {
           "description": "Create new type variable name that is not in the given environment",
           "hierarchy": "DDC Build Language Lite",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Lite",
           "name": "freshT",
           "normalized": "Env Name-\u003eBind Name-\u003eState Int Name",
@@ -871,6 +943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new value variable name that is not in the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Lite",
           "name": "freshX",
           "package": "ddc-build",
@@ -881,6 +954,7 @@
         "index": {
           "description": "Create new value variable name that is not in the given environment",
           "hierarchy": "DDC Build Language Lite",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Lite",
           "name": "freshX",
           "normalized": "Env Name-\u003eBind Name-\u003eState Int Name",
@@ -896,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage definition for Disciple Core Lite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Lite",
           "name": "language",
           "package": "ddc-build",
@@ -906,6 +981,7 @@
         "index": {
           "description": "Language definition for Disciple Core Lite",
           "hierarchy": "DDC Build Language Lite",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Lite",
           "name": "language",
           "package": "ddc-build",
@@ -919,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eSalt\u003c/code\u003e fragment contains just those features that can be easily mapped\n   onto C or LLVM code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Salt",
           "name": "Salt",
           "package": "ddc-build",
@@ -928,6 +1005,7 @@
         "index": {
           "description": "The Salt fragment contains just those features that can be easily mapped onto or LLVM code",
           "hierarchy": "DDC Build Language Salt",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Salt",
           "name": "Salt",
           "package": "ddc-build",
@@ -942,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage bundle for Disciple Core Salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Salt",
           "name": "bundle",
           "package": "ddc-build",
@@ -952,6 +1031,7 @@
         "index": {
           "description": "Language bundle for Disciple Core Salt",
           "hierarchy": "DDC Build Language Salt",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Salt",
           "name": "bundle",
           "package": "ddc-build",
@@ -965,6 +1045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFragment definition for Disciple Core Salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Salt",
           "name": "fragment",
           "package": "ddc-build",
@@ -975,6 +1056,7 @@
         "index": {
           "description": "Fragment definition for Disciple Core Salt",
           "hierarchy": "DDC Build Language Salt",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Salt",
           "name": "fragment",
           "package": "ddc-build",
@@ -988,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new type variable name that is not in the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Salt",
           "name": "freshT",
           "package": "ddc-build",
@@ -998,6 +1081,7 @@
         "index": {
           "description": "Create new type variable name that is not in the given environment",
           "hierarchy": "DDC Build Language Salt",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Salt",
           "name": "freshT",
           "normalized": "Env Name-\u003eBind Name-\u003eState Int Name",
@@ -1013,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new value variable name that is not in the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Salt",
           "name": "freshX",
           "package": "ddc-build",
@@ -1023,6 +1108,7 @@
         "index": {
           "description": "Create new value variable name that is not in the given environment",
           "hierarchy": "DDC Build Language Salt",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Salt",
           "name": "freshX",
           "normalized": "Env Name-\u003eBind Name-\u003eState Int Name",
@@ -1038,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage definition for Disciple Core Salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Salt",
           "name": "language",
           "package": "ddc-build",
@@ -1048,6 +1135,7 @@
         "index": {
           "description": "Language definition for Disciple Core Salt",
           "hierarchy": "DDC Build Language Salt",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Salt",
           "name": "language",
           "package": "ddc-build",
@@ -1061,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eTetra\u003c/code\u003e fragment has four base kinds: \n   \u003ccode\u003eData\u003c/code\u003e, \u003ccode\u003eRegion\u003c/code\u003e, \u003ccode\u003eEffect\u003c/code\u003e, \u003ccode\u003eWitness\u003c/code\u003e and uses the \u003ccode\u003eS\u003c/code\u003e\n   computation type to represent effects.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Tetra",
           "name": "Tetra",
           "package": "ddc-build",
@@ -1070,6 +1159,7 @@
         "index": {
           "description": "The Tetra fragment has four base kinds Data Region Effect Witness and uses the computation type to represent effects",
           "hierarchy": "DDC Build Language Tetra",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Tetra",
           "name": "Tetra",
           "package": "ddc-build",
@@ -1083,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Tetra",
           "name": "Error",
           "package": "ddc-build",
@@ -1091,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Language Tetra",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Tetra",
           "name": "Error",
           "package": "ddc-build",
@@ -1104,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Tetra",
           "name": "Error",
           "package": "ddc-build",
@@ -1113,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Language Tetra",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Tetra",
           "name": "Error",
           "package": "ddc-build",
@@ -1127,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage bundle for Disciple Core Tetra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Tetra",
           "name": "bundle",
           "package": "ddc-build",
@@ -1137,6 +1232,7 @@
         "index": {
           "description": "Language bundle for Disciple Core Tetra",
           "hierarchy": "DDC Build Language Tetra",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Tetra",
           "name": "bundle",
           "package": "ddc-build",
@@ -1150,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFragement definition for Disciple Core Tetra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Tetra",
           "name": "fragment",
           "package": "ddc-build",
@@ -1160,6 +1257,7 @@
         "index": {
           "description": "Fragement definition for Disciple Core Tetra",
           "hierarchy": "DDC Build Language Tetra",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Tetra",
           "name": "fragment",
           "package": "ddc-build",
@@ -1173,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage definition for Disciple Core Tetra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Tetra",
           "name": "language",
           "package": "ddc-build",
@@ -1183,6 +1282,7 @@
         "index": {
           "description": "Language definition for Disciple Core Tetra",
           "hierarchy": "DDC Build Language Tetra",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Tetra",
           "name": "language",
           "package": "ddc-build",
@@ -1196,6 +1296,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eZero\u003c/code\u003e fragment has no features and no primops.\n   It it provides the first order calculus, and is good for debugging.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Zero",
           "name": "Zero",
           "package": "ddc-build",
@@ -1205,6 +1306,7 @@
         "index": {
           "description": "The Zero fragment has no features and no primops It it provides the first order calculus and is good for debugging",
           "hierarchy": "DDC Build Language Zero",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Zero",
           "name": "Zero",
           "package": "ddc-build",
@@ -1218,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Zero",
           "name": "Error",
           "package": "ddc-build",
@@ -1226,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Language Zero",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Zero",
           "name": "Error",
           "package": "ddc-build",
@@ -1239,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Zero",
           "name": "Name",
           "package": "ddc-build",
@@ -1247,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Language Zero",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Zero",
           "name": "Name",
           "package": "ddc-build",
@@ -1261,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage bundle for Disciple Core Zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Zero",
           "name": "bundle",
           "package": "ddc-build",
@@ -1271,6 +1378,7 @@
         "index": {
           "description": "Language bundle for Disciple Core Zero",
           "hierarchy": "DDC Build Language Zero",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Zero",
           "name": "bundle",
           "package": "ddc-build",
@@ -1284,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFragment definition for Disciple Core Eval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Zero",
           "name": "fragment",
           "package": "ddc-build",
@@ -1294,6 +1403,7 @@
         "index": {
           "description": "Fragment definition for Disciple Core Eval",
           "hierarchy": "DDC Build Language Zero",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Zero",
           "name": "fragment",
           "package": "ddc-build",
@@ -1307,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage definitition for Disciple Core Zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language.Zero",
           "name": "language",
           "package": "ddc-build",
@@ -1317,6 +1428,7 @@
         "index": {
           "description": "Language definitition for Disciple Core Zero",
           "hierarchy": "DDC Build Language Zero",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language.Zero",
           "name": "language",
           "package": "ddc-build",
@@ -1329,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "Language",
           "package": "ddc-build",
@@ -1337,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "Language",
           "package": "ddc-build",
@@ -1351,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExistential container for a language fragment, \n      the simplifier for it,\n      and the dictionaries we need to work with its type parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "Bundle",
           "package": "ddc-build",
@@ -1360,6 +1475,7 @@
         "index": {
           "description": "Existential container for language fragment the simplifier for it and the dictionaries we need to work with its type parameters",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "Bundle",
           "package": "ddc-build",
@@ -1374,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCarries all the information we need to work on a particular \n   fragment of the Disciple Core language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "Fragment",
           "package": "ddc-build",
@@ -1382,6 +1499,7 @@
         "index": {
           "description": "Carries all the information we need to work on particular fragment of the Disciple Core language",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "Fragment",
           "package": "ddc-build",
@@ -1396,6 +1514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExistential container for a language fragment, and the dictionaries\n   we need to work with its type parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "Language",
           "package": "ddc-build",
@@ -1405,6 +1524,7 @@
         "index": {
           "description": "Existential container for language fragment and the dictionaries we need to work with its type parameters",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "Language",
           "package": "ddc-build",
@@ -1418,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "Bundle",
           "package": "ddc-build",
@@ -1427,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "Bundle",
           "package": "ddc-build",
@@ -1440,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "Fragment",
           "package": "ddc-build",
@@ -1448,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "Fragment",
           "package": "ddc-build",
@@ -1461,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "Language",
           "package": "ddc-build",
@@ -1470,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "Language",
           "package": "ddc-build",
@@ -1484,6 +1610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage fragment definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "bundleFragment",
           "package": "ddc-build",
@@ -1494,6 +1621,7 @@
         "index": {
           "description": "Language fragment definition",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "bundleFragment",
           "package": "ddc-build",
@@ -1508,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a namifier for level-1 names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "bundleMakeNamifierT",
           "package": "ddc-build",
@@ -1518,6 +1647,7 @@
         "index": {
           "description": "Make namifier for level-1 names",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "bundleMakeNamifierT",
           "normalized": "Env a-\u003eNamifier b a",
@@ -1534,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a namifier for level-0 names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "bundleMakeNamifierX",
           "package": "ddc-build",
@@ -1544,6 +1675,7 @@
         "index": {
           "description": "Make namifier for level-0 names",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "bundleMakeNamifierX",
           "normalized": "Env a-\u003eNamifier b a",
@@ -1560,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModules being used for inliner templates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "bundleModules",
           "package": "ddc-build",
@@ -1570,6 +1703,7 @@
         "index": {
           "description": "Modules being used for inliner templates",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "bundleModules",
           "normalized": "Map ModuleName(Module(AnTEC()a)a)",
@@ -1586,6 +1720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent rewrite rules to apply to module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "bundleRewriteRules",
           "package": "ddc-build",
@@ -1596,6 +1731,7 @@
         "index": {
           "description": "Current rewrite rules to apply to module",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "bundleRewriteRules",
           "normalized": "Map String(RewriteRule(AnTEC()a)a)",
@@ -1612,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent simplifier to apply to module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "bundleSimplifier",
           "package": "ddc-build",
@@ -1622,6 +1759,7 @@
         "index": {
           "description": "Current simplifier to apply to module",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "bundleSimplifier",
           "normalized": "Simplifier a(AnTEC()b)b",
@@ -1638,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial simplifier state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "bundleStateInit",
           "package": "ddc-build",
@@ -1648,6 +1787,7 @@
         "index": {
           "description": "Initial simplifier state",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "bundleStateInit",
           "package": "ddc-build",
@@ -1662,6 +1802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform language fragment specific checks on an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "fragmentCheckExp",
           "package": "ddc-build",
@@ -1671,6 +1812,7 @@
         "index": {
           "description": "Perform language fragment specific checks on an expression",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "fragmentCheckExp",
           "normalized": "a b Exp c d-\u003eMaybe(e c)",
@@ -1687,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform language fragment specific checks on a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "fragmentCheckModule",
           "package": "ddc-build",
@@ -1696,6 +1839,7 @@
         "index": {
           "description": "Perform language fragment specific checks on module",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "fragmentCheckModule",
           "normalized": "a b Module c d-\u003eMaybe(e c)",
@@ -1712,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile extension to use when dumping modules in this fragment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "fragmentExtension",
           "package": "ddc-build",
@@ -1721,6 +1866,7 @@
         "index": {
           "description": "File extension to use when dumping modules in this fragment",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "fragmentExtension",
           "package": "ddc-build",
@@ -1735,6 +1881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLex expression source into tokens,\n   given the source name and starting line number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "fragmentLexExp",
           "package": "ddc-build",
@@ -1744,6 +1891,7 @@
         "index": {
           "description": "Lex expression source into tokens given the source name and starting line number",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "fragmentLexExp",
           "normalized": "String-\u003eInt-\u003eString-\u003e[Token(Tok a)]",
@@ -1760,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLex module source into tokens,\n   given the source name and starting line number. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "fragmentLexModule",
           "package": "ddc-build",
@@ -1769,6 +1918,7 @@
         "index": {
           "description": "Lex module source into tokens given the source name and starting line number",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "fragmentLexModule",
           "normalized": "String-\u003eInt-\u003eString-\u003e[Token(Tok a)]",
@@ -1785,6 +1935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage profile for this fragment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "fragmentProfile",
           "package": "ddc-build",
@@ -1794,6 +1945,7 @@
         "index": {
           "description": "Language profile for this fragment",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "fragmentProfile",
           "package": "ddc-build",
@@ -1808,6 +1960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "fragmentReadName",
           "package": "ddc-build",
@@ -1817,6 +1970,7 @@
         "index": {
           "description": "Read name",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "fragmentReadName",
           "normalized": "String-\u003eMaybe a",
@@ -1833,6 +1987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the language fragment definition corresponding to the given \n   file extension. eg \u003ccode\u003edcl\u003c/code\u003e gives the definition of the Lite language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "languageOfExtension",
           "package": "ddc-build",
@@ -1843,6 +1998,7 @@
         "index": {
           "description": "Return the language fragment definition corresponding to the given file extension eg dcl gives the definition of the Lite language",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "languageOfExtension",
           "normalized": "String-\u003eMaybe Language",
@@ -1859,6 +2015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported language profiles.\n\u003c/p\u003e\u003cp\u003eOne of \u003ccode\u003eTetra\u003c/code\u003e, \u003ccode\u003eLite\u003c/code\u003e, \u003ccode\u003eSalt\u003c/code\u003e, \u003ccode\u003eEval\u003c/code\u003e, \u003ccode\u003eFlow\u003c/code\u003e, \u003ccode\u003eZero\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Language",
           "name": "languages",
           "package": "ddc-build",
@@ -1869,6 +2026,7 @@
         "index": {
           "description": "Supported language profiles One of Tetra Lite Salt Eval Flow Zero",
           "hierarchy": "DDC Build Language",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Language",
           "name": "languages",
           "normalized": "[(String,Language)]",
@@ -1883,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Core",
           "name": "Core",
           "package": "ddc-build",
@@ -1891,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Pipeline Core",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Core",
           "name": "Core",
           "package": "ddc-build",
@@ -1905,6 +2065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a core module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Core",
           "name": "PipeCore",
           "package": "ddc-build",
@@ -1914,6 +2075,7 @@
         "index": {
           "description": "Process core module",
           "hierarchy": "DDC Build Pipeline Core",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Core",
           "name": "PipeCore",
           "package": "ddc-build",
@@ -1928,6 +2090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a Core Flow module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Core",
           "name": "PipeFlow",
           "package": "ddc-build",
@@ -1937,6 +2100,7 @@
         "index": {
           "description": "Process Core Flow module",
           "hierarchy": "DDC Build Pipeline Core",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Core",
           "name": "PipeFlow",
           "package": "ddc-build",
@@ -1951,6 +2115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a Core Lite module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Core",
           "name": "PipeLite",
           "package": "ddc-build",
@@ -1960,6 +2125,7 @@
         "index": {
           "description": "Process Core Lite module",
           "hierarchy": "DDC Build Pipeline Core",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Core",
           "name": "PipeLite",
           "package": "ddc-build",
@@ -2402,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Core",
           "name": "pipeCores",
           "package": "ddc-build",
@@ -2411,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Pipeline Core",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Core",
           "name": "pipeCores",
           "normalized": "Module a b-\u003e[PipeCore a b]-\u003eIO[Error]",
@@ -2480,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Error",
           "name": "Error",
           "package": "ddc-build",
@@ -2488,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Pipeline Error",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Error",
           "name": "Error",
           "package": "ddc-build",
@@ -2501,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Error",
           "name": "Error",
           "package": "ddc-build",
@@ -2509,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Pipeline Error",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Error",
           "name": "Error",
           "package": "ddc-build",
@@ -2645,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Llvm",
           "name": "Llvm",
           "package": "ddc-build",
@@ -2653,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Pipeline Llvm",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Llvm",
           "name": "Llvm",
           "package": "ddc-build",
@@ -2667,6 +2841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess an LLVM module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Llvm",
           "name": "PipeLlvm",
           "package": "ddc-build",
@@ -2676,6 +2851,7 @@
         "index": {
           "description": "Process an LLVM module",
           "hierarchy": "DDC Build Pipeline Llvm",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Llvm",
           "name": "PipeLlvm",
           "package": "ddc-build",
@@ -2923,6 +3099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Salt",
           "name": "Salt",
           "package": "ddc-build",
@@ -2931,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Pipeline Salt",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Salt",
           "name": "Salt",
           "package": "ddc-build",
@@ -2945,6 +3123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a Core Salt module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Salt",
           "name": "PipeSalt",
           "package": "ddc-build",
@@ -2954,6 +3133,7 @@
         "index": {
           "description": "Process Core Salt module",
           "hierarchy": "DDC Build Pipeline Salt",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Salt",
           "name": "PipeSalt",
           "package": "ddc-build",
@@ -3144,6 +3324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Sink",
           "name": "Sink",
           "package": "ddc-build",
@@ -3152,6 +3333,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Pipeline Sink",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Sink",
           "name": "Sink",
           "package": "ddc-build",
@@ -3166,6 +3348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do with program text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Sink",
           "name": "Sink",
           "package": "ddc-build",
@@ -3175,6 +3358,7 @@
         "index": {
           "description": "What to do with program text",
           "hierarchy": "DDC Build Pipeline Sink",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Sink",
           "name": "Sink",
           "package": "ddc-build",
@@ -3290,6 +3474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Text",
           "name": "Text",
           "package": "ddc-build",
@@ -3298,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Pipeline Text",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Text",
           "name": "Text",
           "package": "ddc-build",
@@ -3312,6 +3498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess program text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline.Text",
           "name": "PipeText",
           "package": "ddc-build",
@@ -3321,6 +3508,7 @@
         "index": {
           "description": "Process program text",
           "hierarchy": "DDC Build Pipeline Text",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline.Text",
           "name": "PipeText",
           "package": "ddc-build",
@@ -3412,6 +3600,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pipeline is an abstraction of a single compiler pass.\n\u003c/p\u003e\u003cp\u003eNOTE: The Haddock documentation on pipeline constructors is missing\n        because Haddock does not support commenting GADTs.\n        See the source code for documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline",
           "name": "Pipeline",
           "package": "ddc-build",
@@ -3421,6 +3610,7 @@
         "index": {
           "description": "pipeline is an abstraction of single compiler pass NOTE The Haddock documentation on pipeline constructors is missing because Haddock does not support commenting GADTs See the source code for documentation",
           "hierarchy": "DDC Build Pipeline",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline",
           "name": "Pipeline",
           "package": "ddc-build",
@@ -3434,6 +3624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline",
           "name": "Error",
           "package": "ddc-build",
@@ -3442,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Pipeline",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline",
           "name": "Error",
           "package": "ddc-build",
@@ -3456,6 +3648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a core module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline",
           "name": "PipeCore",
           "package": "ddc-build",
@@ -3465,6 +3658,7 @@
         "index": {
           "description": "Process core module",
           "hierarchy": "DDC Build Pipeline",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline",
           "name": "PipeCore",
           "package": "ddc-build",
@@ -3479,6 +3673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a Core Flow module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline",
           "name": "PipeFlow",
           "package": "ddc-build",
@@ -3488,6 +3683,7 @@
         "index": {
           "description": "Process Core Flow module",
           "hierarchy": "DDC Build Pipeline",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline",
           "name": "PipeFlow",
           "package": "ddc-build",
@@ -3502,6 +3698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a Core Lite module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline",
           "name": "PipeLite",
           "package": "ddc-build",
@@ -3511,6 +3708,7 @@
         "index": {
           "description": "Process Core Lite module",
           "hierarchy": "DDC Build Pipeline",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline",
           "name": "PipeLite",
           "package": "ddc-build",
@@ -3525,6 +3723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess an LLVM module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline",
           "name": "PipeLlvm",
           "package": "ddc-build",
@@ -3534,6 +3733,7 @@
         "index": {
           "description": "Process an LLVM module",
           "hierarchy": "DDC Build Pipeline",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline",
           "name": "PipeLlvm",
           "package": "ddc-build",
@@ -3548,6 +3748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a Core Salt module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline",
           "name": "PipeSalt",
           "package": "ddc-build",
@@ -3557,6 +3758,7 @@
         "index": {
           "description": "Process Core Salt module",
           "hierarchy": "DDC Build Pipeline",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline",
           "name": "PipeSalt",
           "package": "ddc-build",
@@ -3571,6 +3773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess program text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline",
           "name": "PipeText",
           "package": "ddc-build",
@@ -3580,6 +3783,7 @@
         "index": {
           "description": "Process program text",
           "hierarchy": "DDC Build Pipeline",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline",
           "name": "PipeText",
           "package": "ddc-build",
@@ -3594,6 +3798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do with program text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Pipeline",
           "name": "Sink",
           "package": "ddc-build",
@@ -3603,6 +3808,7 @@
         "index": {
           "description": "What to do with program text",
           "hierarchy": "DDC Build Pipeline",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Pipeline",
           "name": "Sink",
           "package": "ddc-build",
@@ -3616,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "Platform",
           "package": "ddc-build",
@@ -3624,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "Platform",
           "package": "ddc-build",
@@ -3638,6 +3846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcessor Architecture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "Arch",
           "package": "ddc-build",
@@ -3647,6 +3856,7 @@
         "index": {
           "description": "Processor Architecture",
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "Arch",
           "package": "ddc-build",
@@ -3661,6 +3871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperating System.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "Os",
           "package": "ddc-build",
@@ -3670,6 +3881,7 @@
         "index": {
           "description": "Operating System",
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "Os",
           "package": "ddc-build",
@@ -3684,6 +3896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes a build or target platform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "Platform",
           "package": "ddc-build",
@@ -3693,6 +3906,7 @@
         "index": {
           "description": "Describes build or target platform",
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "Platform",
           "package": "ddc-build",
@@ -3706,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "ArchPPC_32",
           "package": "ddc-build",
@@ -3715,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "ArchPPC_32",
           "package": "ddc-build",
@@ -3728,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "ArchPPC_64",
           "package": "ddc-build",
@@ -3737,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "ArchPPC_64",
           "package": "ddc-build",
@@ -3750,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "ArchX86_32",
           "package": "ddc-build",
@@ -3759,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "ArchX86_32",
           "package": "ddc-build",
@@ -3772,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "ArchX86_64",
           "package": "ddc-build",
@@ -3781,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "ArchX86_64",
           "package": "ddc-build",
@@ -3794,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "OsCygwin",
           "package": "ddc-build",
@@ -3803,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "OsCygwin",
           "package": "ddc-build",
@@ -3816,6 +4040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "OsDarwin",
           "package": "ddc-build",
@@ -3825,6 +4050,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "OsDarwin",
           "package": "ddc-build",
@@ -3838,6 +4064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "OsLinux",
           "package": "ddc-build",
@@ -3847,6 +4074,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "OsLinux",
           "package": "ddc-build",
@@ -3860,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "Platform",
           "package": "ddc-build",
@@ -3869,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "Platform",
           "package": "ddc-build",
@@ -3883,6 +4113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the width of a pointer on the architecture, in bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "archPointerWidth",
           "package": "ddc-build",
@@ -3893,6 +4124,7 @@
         "index": {
           "description": "Get the width of pointer on the architecture in bits",
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "archPointerWidth",
           "normalized": "Arch-\u003eInt",
@@ -3909,6 +4141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the host archicture.\n   Uses the \u003ccode\u003earch\u003c/code\u003e command which must be in the current path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "determineHostArch",
           "package": "ddc-build",
@@ -3919,6 +4152,7 @@
         "index": {
           "description": "Determine the host archicture Uses the arch command which must be in the current path",
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "determineHostArch",
           "package": "ddc-build",
@@ -3933,6 +4167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the host OS.\n   Uses the \u003ccode\u003euname\u003c/code\u003e command which must be in the current path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "determineHostOs",
           "package": "ddc-build",
@@ -3943,6 +4178,7 @@
         "index": {
           "description": "Determine the host OS Uses the uname command which must be in the current path",
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "determineHostOs",
           "package": "ddc-build",
@@ -3957,6 +4193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the default host platform.\n\u003c/p\u003e\u003cp\u003eUses the \u003ccode\u003earch\u003c/code\u003e and \u003ccode\u003euname\u003c/code\u003e commands which must be in the current path.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003earch\u003c/code\u003e or \u003ccode\u003euname\u003c/code\u003e cannot be found, returned\n   an error, or we didn't recognise their response.\n\u003c/p\u003e\u003cp\u003eFor Platforms like Darwin which can run both 32-bit and 64-bit binaries,\n   we return whatever the default is reported by \u003ccode\u003earch\u003c/code\u003e and \u003ccode\u003euname\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "determineHostPlatform",
           "package": "ddc-build",
@@ -3967,6 +4204,7 @@
         "index": {
           "description": "Determine the default host platform Uses the arch and uname commands which must be in the current path Returns Nothing if arch or uname cannot be found returned an error or we didn recognise their response For Platforms like Darwin which can run both bit and bit binaries we return whatever the default is reported by arch and uname",
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "determineHostPlatform",
           "package": "ddc-build",
@@ -3980,6 +4218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "platformArch",
           "package": "ddc-build",
@@ -3989,6 +4228,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "platformArch",
           "package": "ddc-build",
@@ -4002,6 +4242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "platformOs",
           "package": "ddc-build",
@@ -4011,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "platformOs",
           "package": "ddc-build",
@@ -4025,6 +4267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the file extension to use for a shared library on this platform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "sharedFileExtensionOfPlatform",
           "package": "ddc-build",
@@ -4035,6 +4278,7 @@
         "index": {
           "description": "Get the file extension to use for shared library on this platform",
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "sharedFileExtensionOfPlatform",
           "normalized": "Platform-\u003eString",
@@ -4051,6 +4295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the file extension to use for a static library on this platform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:16 UTC 2014",
           "module": "DDC.Build.Platform",
           "name": "staticFileExtensionOfPlatform",
           "package": "ddc-build",
@@ -4061,6 +4306,7 @@
         "index": {
           "description": "Get the file extension to use for static library on this platform",
           "hierarchy": "DDC Build Platform",
+          "indexed": "2014-03-11T17:51:16",
           "module": "DDC.Build.Platform",
           "name": "staticFileExtensionOfPlatform",
           "normalized": "Platform-\u003eString",

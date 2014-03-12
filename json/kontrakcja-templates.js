@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "kontrakcja-templates"
+        "phrase": "kontrakcja-templates",
+        "type": "phrase"
       },
       "type": "context"
     }

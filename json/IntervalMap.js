@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "IntervalMap"
+        "phrase": "IntervalMap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA conservative implementation of Intervals, mostly for use as keys in\n a \u003ccode\u003e\u003ca\u003eIntervalMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis should really be a typeclass, so you could have a tuple be an instance\n of Interval, but that is currently not possible in standard Haskell.\n\u003c/p\u003e\u003cp\u003eThe contructor names of the half-open intervals seem somewhat clumsy,\n and I'm open to suggestions for better names.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "Interval",
           "package": "IntervalMap",
@@ -28,6 +29,7 @@
         "index": {
           "description": "conservative implementation of Intervals mostly for use as keys in IntervalMap This should really be typeclass so you could have tuple be an instance of Interval but that is currently not possible in standard Haskell The contructor names of the half-open intervals seem somewhat clumsy and open to suggestions for better names",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "Interval",
           "package": "IntervalMap",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntervals with endpoints of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e use mathematical notation with square brackets for closed\n and parens for open intervals.\n This is better for human readability, but is not a valid Haskell expression.\n Closed intervals look like a list, open intervals look like a tuple,\n and half-open intervals look like mismatched parens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "Interval",
           "package": "IntervalMap",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Intervals with endpoints of type Read and Show use mathematical notation with square brackets for closed and parens for open intervals This is better for human readability but is not valid Haskell expression Closed intervals look like list open intervals look like tuple and half-open intervals look like mismatched parens",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "Interval",
           "package": "IntervalMap",
@@ -165,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a point strictly greater than upper bound?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "above",
           "package": "IntervalMap",
@@ -175,6 +180,7 @@
         "index": {
           "description": "Is point strictly greater than upper bound",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "above",
           "normalized": "a-\u003eInterval a-\u003eBool",
@@ -190,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval strictly after another?\n Same as 'flip before'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "after",
           "package": "IntervalMap",
@@ -200,6 +207,7 @@
         "index": {
           "description": "Interval strictly after another Same as flip before",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "after",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -215,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval strictly before another?\n True if the upper bound of the first interval is below the lower bound of the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "before",
           "package": "IntervalMap",
@@ -225,6 +234,7 @@
         "index": {
           "description": "Interval strictly before another True if the upper bound of the first interval is below the lower bound of the second",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "before",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -240,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a point strictly less than lower bound?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "below",
           "package": "IntervalMap",
@@ -250,6 +261,7 @@
         "index": {
           "description": "Is point strictly less than lower bound",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "below",
           "normalized": "a-\u003eInterval a-\u003eBool",
@@ -265,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecompare\u003c/a\u003e\u003c/code\u003e, but considering the upper bound first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "compareByUpper",
           "package": "IntervalMap",
@@ -275,6 +288,7 @@
         "index": {
           "description": "Like compare but considering the upper bound first",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "compareByUpper",
           "normalized": "Interval a-\u003eInterval a-\u003eOrdering",
@@ -291,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes the interval contain a given point?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "inside",
           "package": "IntervalMap",
@@ -301,6 +316,7 @@
         "index": {
           "description": "Does the interval contain given point",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "inside",
           "normalized": "a-\u003eInterval a-\u003eBool",
@@ -316,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the interval empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "isEmpty",
           "package": "IntervalMap",
@@ -326,6 +343,7 @@
         "index": {
           "description": "Is the interval empty",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "isEmpty",
           "normalized": "Interval a-\u003eBool",
@@ -342,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes the interval include its lower bound?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "leftClosed",
           "package": "IntervalMap",
@@ -352,6 +371,7 @@
         "index": {
           "description": "Does the interval include its lower bound",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "leftClosed",
           "normalized": "Interval a-\u003eBool",
@@ -368,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the lower bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "lowerBound",
           "package": "IntervalMap",
@@ -378,6 +399,7 @@
         "index": {
           "description": "Get the lower bound",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "lowerBound",
           "normalized": "Interval a-\u003ea",
@@ -394,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo the two intervals overlap?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "overlaps",
           "package": "IntervalMap",
@@ -404,6 +427,7 @@
         "index": {
           "description": "Do the two intervals overlap",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "overlaps",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -419,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes the interval include its upper bound?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "rightClosed",
           "package": "IntervalMap",
@@ -429,6 +454,7 @@
         "index": {
           "description": "Does the interval include its upper bound",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "rightClosed",
           "normalized": "Interval a-\u003eBool",
@@ -445,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes the first interval completely contain the second?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "subsumes",
           "package": "IntervalMap",
@@ -455,6 +482,7 @@
         "index": {
           "description": "Does the first interval completely contain the second",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "subsumes",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -470,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the upper bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Interval",
           "name": "upperBound",
           "package": "IntervalMap",
@@ -480,6 +509,7 @@
         "index": {
           "description": "Get the upper bound",
           "hierarchy": "Data IntervalMap Interval",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Interval",
           "name": "upperBound",
           "normalized": "Interval a-\u003ea",
@@ -496,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn implementation of maps from intervals to values. The key intervals may\noverlap, and the implementation contains efficient search functions\nfor all keys containing a point or overlapping an interval.\nClosed, open, and half-open intervals can be contained in the same map.\n\u003c/p\u003e\u003cp\u003eThis module implements the same functions as \u003ca\u003eData.IntervalMap.Strict\u003c/a\u003e,\nbut with value-lazy semantics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "Lazy",
           "package": "IntervalMap",
@@ -505,6 +536,7 @@
         "index": {
           "description": "An implementation of maps from intervals to values The key intervals may overlap and the implementation contains efficient search functions for all keys containing point or overlapping an interval Closed open and half-open intervals can be contained in the same map This module implements the same functions as Data.IntervalMap.Strict but with value-lazy semantics",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "Lazy",
           "package": "IntervalMap",
@@ -519,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntervals with endpoints of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e use mathematical notation with square brackets for closed\n and parens for open intervals.\n This is better for human readability, but is not a valid Haskell expression.\n Closed intervals look like a list, open intervals look like a tuple,\n and half-open intervals look like mismatched parens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "Interval",
           "package": "IntervalMap",
@@ -528,6 +561,7 @@
         "index": {
           "description": "Intervals with endpoints of type Read and Show use mathematical notation with square brackets for closed and parens for open intervals This is better for human readability but is not valid Haskell expression Closed intervals look like list open intervals look like tuple and half-open intervals look like mismatched parens",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "Interval",
           "package": "IntervalMap",
@@ -542,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from intervals with endpoints of type \u003ccode\u003ek\u003c/code\u003e to values of type \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "IntervalMap",
           "package": "IntervalMap",
@@ -551,6 +586,7 @@
         "index": {
           "description": "map from intervals with endpoints of type to values of type",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "IntervalMap",
           "package": "IntervalMap",
@@ -617,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Update a value at a specific key with the result of the provided function.\n When the key is not\n a member of the map, the original map is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "adjust",
           "package": "IntervalMap",
@@ -627,6 +664,7 @@
         "index": {
           "description": "log Update value at specific key with the result of the provided function When the key is not member of the map the original map is returned",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eInterval b-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -642,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Adjust a value at a specific key. When the key is not\n a member of the map, the original map is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "adjustWithKey",
           "package": "IntervalMap",
@@ -652,6 +691,7 @@
         "index": {
           "description": "log Adjust value at specific key When the key is not member of the map the original map is returned",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "adjustWithKey",
           "normalized": "(Interval a-\u003eb-\u003eb)-\u003eInterval a-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -668,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. The expression (\u003ccode\u003e\u003ccode\u003e\u003ca\u003ealter\u003c/a\u003e\u003c/code\u003e f k map\u003c/code\u003e) alters the value \u003ccode\u003ex\u003c/code\u003e at \u003ccode\u003ek\u003c/code\u003e, or absence thereof.\n \u003ccode\u003e\u003ca\u003ealter\u003c/a\u003e\u003c/code\u003e can be used to insert, delete, or update a value in a \u003ccode\u003eMap\u003c/code\u003e.\n In short : \u003ccode\u003e\u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e k (\u003ccode\u003e\u003ca\u003ealter\u003c/a\u003e\u003c/code\u003e f k m) = f (\u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e k m)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "alter",
           "package": "IntervalMap",
@@ -678,6 +719,7 @@
         "index": {
           "description": "log The expression alter map alters the value at or absence thereof alter can be used to insert delete or update value in Map In short lookup alter lookup",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "alter",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eInterval b-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -905,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. Difference with a combining function. \n When two equal keys are\n encountered, the combining function is applied to the values of these keys.\n If it returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, the element is discarded (proper set difference). If\n it returns (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e), the element is updated with a new value \u003ccode\u003ey\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "differenceWith",
           "package": "IntervalMap",
@@ -915,6 +958,7 @@
         "index": {
           "description": "Difference with combining function When two equal keys are encountered the combining function is applied to the values of these keys If it returns Nothing the element is discarded proper set difference If it returns Just the element is updated with new value",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "differenceWith",
           "normalized": "(a-\u003eb-\u003eMaybe a)-\u003eIntervalMap c a-\u003eIntervalMap c b-\u003eIntervalMap c a",
@@ -931,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. Difference with a combining function. When two equal keys are\n encountered, the combining function is applied to the key and both values.\n If it returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, the element is discarded (proper set difference). If\n it returns (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e), the element is updated with a new value \u003ccode\u003ey\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "differenceWithKey",
           "package": "IntervalMap",
@@ -941,6 +986,7 @@
         "index": {
           "description": "Difference with combining function When two equal keys are encountered the combining function is applied to the key and both values If it returns Nothing the element is discarded proper set difference If it returns Just the element is updated with new value",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "differenceWithKey",
           "normalized": "(Interval a-\u003eb-\u003ec-\u003eMaybe b)-\u003eIntervalMap a b-\u003eIntervalMap a c-\u003eIntervalMap a b",
@@ -1141,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. The expression \u003ccode\u003e(\u003ccode\u003e\u003ca\u003efindWithDefault\u003c/a\u003e\u003c/code\u003e def k map)\u003c/code\u003e returns\n the value at key \u003ccode\u003ek\u003c/code\u003e or returns default value \u003ccode\u003edef\u003c/code\u003e\n when the key is not in the map.\n\u003c/p\u003e\u003cpre\u003e findWithDefault 'x' 1 (fromList [(5,'a'), (3,'b')]) == 'x'\n findWithDefault 'x' 5 (fromList [(5,'a'), (3,'b')]) == 'a'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "findWithDefault",
           "package": "IntervalMap",
@@ -1151,6 +1198,7 @@
         "index": {
           "description": "log The expression findWithDefault def map returns the value at key or returns default value def when the key is not in the map findWithDefault fromList findWithDefault fromList",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "findWithDefault",
           "normalized": "a-\u003eInterval b-\u003eIntervalMap b a-\u003ea",
@@ -1273,6 +1321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Build a map from an ascending list in linear time.\n \u003cem\u003eThe precondition (input list is ascending) is not checked.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "fromAscList",
           "package": "IntervalMap",
@@ -1283,6 +1332,7 @@
         "index": {
           "description": "Build map from an ascending list in linear time The precondition input list is ascending is not checked",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "fromAscList",
           "normalized": "[(Interval a,b)]-\u003eIntervalMap a b",
@@ -1299,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Build a map from an ascending list in linear time with a combining function for equal keys.\n \u003cem\u003eThe precondition (input list is ascending) is not checked.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "fromAscListWith",
           "package": "IntervalMap",
@@ -1309,6 +1360,7 @@
         "index": {
           "description": "Build map from an ascending list in linear time with combining function for equal keys The precondition input list is ascending is not checked",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "fromAscListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(Interval b,a)]-\u003eIntervalMap b a",
@@ -1325,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Build a map from an ascending list in linear time with a combining function for equal keys.\n \u003cem\u003eThe precondition (input list is ascending) is not checked.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "fromAscListWithKey",
           "package": "IntervalMap",
@@ -1335,6 +1388,7 @@
         "index": {
           "description": "Build map from an ascending list in linear time with combining function for equal keys The precondition input list is ascending is not checked",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "fromAscListWithKey",
           "normalized": "(Interval a-\u003eb-\u003eb-\u003eb)-\u003e[(Interval a,b)]-\u003eIntervalMap a b",
@@ -1378,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n log n)\u003c/em\u003e. Build a map from a list of key/value pairs. See also \u003ccode\u003e\u003ca\u003efromAscList\u003c/a\u003e\u003c/code\u003e.\n If the list contains more than one value for the same key, the last value\n for the key is retained.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "fromList",
           "package": "IntervalMap",
@@ -1388,6 +1443,7 @@
         "index": {
           "description": "log Build map from list of key value pairs See also fromAscList If the list contains more than one value for the same key the last value for the key is retained",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "fromList",
           "normalized": "[(Interval a,b)]-\u003eIntervalMap a b",
@@ -1404,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n log n)\u003c/em\u003e. Build a map from a list of key/value pairs with a combining function. See also \u003ccode\u003e\u003ca\u003efromAscListWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "fromListWith",
           "package": "IntervalMap",
@@ -1414,6 +1471,7 @@
         "index": {
           "description": "log Build map from list of key value pairs with combining function See also fromAscListWith",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "fromListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(Interval b,a)]-\u003eIntervalMap b a",
@@ -1430,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n log n)\u003c/em\u003e. Build a map from a list of key/value pairs with a combining function. See also \u003ccode\u003e\u003ca\u003efromAscListWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "fromListWithKey",
           "package": "IntervalMap",
@@ -1440,6 +1499,7 @@
         "index": {
           "description": "log Build map from list of key value pairs with combining function See also fromAscListWith",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "fromListWithKey",
           "normalized": "(Interval a-\u003eb-\u003eb-\u003eb)-\u003e[(Interval a,b)]-\u003eIntervalMap a b",
@@ -1482,6 +1542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Insert a new key/value pair. If the map already contains the key, its value is\n changed to the new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "insert",
           "package": "IntervalMap",
@@ -1492,6 +1553,7 @@
         "index": {
           "description": "log Insert new key value pair If the map already contains the key its value is changed to the new value",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "insert",
           "normalized": "Interval a-\u003eb-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -1507,6 +1569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Combine insert with old values retrieval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "insertLookupWithKey",
           "package": "IntervalMap",
@@ -1517,6 +1580,7 @@
         "index": {
           "description": "log Combine insert with old values retrieval",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "insertLookupWithKey",
           "normalized": "(Interval a-\u003eb-\u003eb-\u003eb)-\u003eInterval a-\u003eb-\u003eIntervalMap a b-\u003e(Maybe b,IntervalMap a b)",
@@ -1533,6 +1597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Insert with a function, combining new value and old value.\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003einsertWith\u003c/a\u003e\u003c/code\u003e f key value mp\u003c/code\u003e \n will insert the pair (key, value) into \u003ccode\u003emp\u003c/code\u003e if key does\n not exist in the map. If the key does exist, the function will\n insert the pair \u003ccode\u003e(key, f new_value old_value)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "insertWith",
           "package": "IntervalMap",
@@ -1543,6 +1608,7 @@
         "index": {
           "description": "log Insert with function combining new value and old value insertWith key value mp will insert the pair key value into mp if key does not exist in the map If the key does exist the function will insert the pair key new value old value",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eInterval b-\u003ea-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -1559,6 +1625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Insert with a function, combining key, new value and old value.\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003einsertWithKey\u003c/a\u003e\u003c/code\u003e f key value mp\u003c/code\u003e \n will insert the pair (key, value) into \u003ccode\u003emp\u003c/code\u003e if key does\n not exist in the map. If the key does exist, the function will\n insert the pair \u003ccode\u003e(key, f key new_value old_value)\u003c/code\u003e.\n Note that the key passed to f is the same key passed to \u003ccode\u003e\u003ca\u003einsertWithKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "insertWithKey",
           "package": "IntervalMap",
@@ -1569,6 +1636,7 @@
         "index": {
           "description": "log Insert with function combining key new value and old value insertWithKey key value mp will insert the pair key value into mp if key does not exist in the map If the key does exist the function will insert the pair key key new value old value Note that the key passed to is the same key passed to insertWithKey",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "insertWithKey",
           "normalized": "(Interval a-\u003eb-\u003eb-\u003eb)-\u003eInterval a-\u003eb-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -1637,6 +1705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. Intersection with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "intersectionWith",
           "package": "IntervalMap",
@@ -1647,6 +1716,7 @@
         "index": {
           "description": "Intersection with combining function",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "intersectionWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eIntervalMap d a-\u003eIntervalMap d b-\u003eIntervalMap d c",
@@ -1663,6 +1733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. Intersection with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "intersectionWithKey",
           "package": "IntervalMap",
@@ -1673,6 +1744,7 @@
         "index": {
           "description": "Intersection with combining function",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "intersectionWithKey",
           "normalized": "(Interval a-\u003eb-\u003ec-\u003ed)-\u003eIntervalMap a b-\u003eIntervalMap a c-\u003eIntervalMap a d",
@@ -1876,6 +1948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map a function over all values in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "map",
           "package": "IntervalMap",
@@ -1886,6 +1959,7 @@
         "index": {
           "description": "Map function over all values in the map",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eIntervalMap c a-\u003eIntervalMap c b",
@@ -1901,6 +1975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. The function \u003ccode\u003e\u003ca\u003emapAccum\u003c/a\u003e\u003c/code\u003e threads an accumulating\n argument through the map in ascending order of keys.\n\u003c/p\u003e\u003cpre\u003e let f a b = (a ++ b, b ++ \"X\")\n mapAccum f \"Everything: \" (fromList [(5,\"a\"), (3,\"b\")]) == (\"Everything: ba\", fromList [(3, \"bX\"), (5, \"aX\")])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapAccum",
           "package": "IntervalMap",
@@ -1911,6 +1986,7 @@
         "index": {
           "description": "The function mapAccum threads an accumulating argument through the map in ascending order of keys let mapAccum Everything fromList Everything ba fromList bX aX",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapAccum",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003eIntervalMap d b-\u003e(a,IntervalMap d c)",
@@ -1927,6 +2003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. The function \u003ccode\u003e\u003ca\u003emapAccumRWithKey\u003c/a\u003e\u003c/code\u003e threads an accumulating\n argument through the map in descending order of keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapAccumRWithKey",
           "package": "IntervalMap",
@@ -1937,6 +2014,7 @@
         "index": {
           "description": "The function mapAccumRWithKey threads an accumulating argument through the map in descending order of keys",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapAccumRWithKey",
           "normalized": "(a-\u003eInterval b-\u003ec-\u003e(a,d))-\u003ea-\u003eIntervalMap b c-\u003e(a,IntervalMap b d)",
@@ -1953,6 +2031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. The function \u003ccode\u003e\u003ca\u003emapAccumWithKey\u003c/a\u003e\u003c/code\u003e threads an accumulating\n argument through the map in ascending order of keys.\n\u003c/p\u003e\u003cpre\u003e let f a k b = (a ++ \" \" ++ (show k) ++ \"-\" ++ b, b ++ \"X\")\n mapAccumWithKey f \"Everything:\" (fromList [(5,\"a\"), (3,\"b\")]) == (\"Everything: 3-b 5-a\", fromList [(3, \"bX\"), (5, \"aX\")])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapAccumWithKey",
           "package": "IntervalMap",
@@ -1963,6 +2042,7 @@
         "index": {
           "description": "The function mapAccumWithKey threads an accumulating argument through the map in ascending order of keys let show mapAccumWithKey Everything fromList Everything fromList bX aX",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapAccumWithKey",
           "normalized": "(a-\u003eInterval b-\u003ec-\u003e(a,d))-\u003ea-\u003eIntervalMap b c-\u003e(a,IntervalMap b d)",
@@ -1979,6 +2059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map values and separate the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapEither",
           "package": "IntervalMap",
@@ -1989,6 +2070,7 @@
         "index": {
           "description": "Map values and separate the Left and Right results",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapEither",
           "normalized": "(a-\u003eEither b c)-\u003eIntervalMap d a-\u003e(IntervalMap d b,IntervalMap d c)",
@@ -2005,6 +2087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map keys/values and separate the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapEitherWithKey",
           "package": "IntervalMap",
@@ -2015,6 +2098,7 @@
         "index": {
           "description": "Map keys values and separate the Left and Right results",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapEitherWithKey",
           "normalized": "(Interval a-\u003eb-\u003eEither c d)-\u003eIntervalMap a b-\u003e(IntervalMap a c,IntervalMap a d)",
@@ -2085,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n log n)\u003c/em\u003e. \u003ccode\u003e\u003ccode\u003e\u003ca\u003emapKeysWith\u003c/a\u003e\u003c/code\u003e c f s\u003c/code\u003e is the map obtained by applying \u003ccode\u003ef\u003c/code\u003e to each key of \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe size of the result may be smaller if \u003ccode\u003ef\u003c/code\u003e maps two or more distinct\n keys to the same new key.  In this case the associated values will be\n combined using \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapKeysWith",
           "package": "IntervalMap",
@@ -2095,6 +2180,7 @@
         "index": {
           "description": "log mapKeysWith is the map obtained by applying to each key of The size of the result may be smaller if maps two or more distinct keys to the same new key In this case the associated values will be combined using",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapKeysWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(Interval b-\u003eInterval b)-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -2111,6 +2197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map values and collect the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapMaybe",
           "package": "IntervalMap",
@@ -2121,6 +2208,7 @@
         "index": {
           "description": "Map values and collect the Just results",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eIntervalMap c a-\u003eIntervalMap c b",
@@ -2137,6 +2225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map keys/values and collect the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapMaybeWithKey",
           "package": "IntervalMap",
@@ -2147,6 +2236,7 @@
         "index": {
           "description": "Map keys values and collect the Just results",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapMaybeWithKey",
           "normalized": "(Interval a-\u003eb-\u003eMaybe c)-\u003eIntervalMap a b-\u003eIntervalMap a c",
@@ -2163,6 +2253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map a function over all values in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapWithKey",
           "package": "IntervalMap",
@@ -2173,6 +2264,7 @@
         "index": {
           "description": "Map function over all values in the map",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "mapWithKey",
           "normalized": "(Interval a-\u003eb-\u003ec)-\u003eIntervalMap a b-\u003eIntervalMap a c",
@@ -2483,6 +2575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. A map with one entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "singleton",
           "package": "IntervalMap",
@@ -2493,6 +2586,7 @@
         "index": {
           "description": "map with one entry",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "singleton",
           "normalized": "Interval a-\u003eb-\u003eIntervalMap a b",
@@ -2694,6 +2788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. Union with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "unionWith",
           "package": "IntervalMap",
@@ -2704,6 +2799,7 @@
         "index": {
           "description": "Union with combining function",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eIntervalMap b a-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -2720,6 +2816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. Union with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "unionWithKey",
           "package": "IntervalMap",
@@ -2730,6 +2827,7 @@
         "index": {
           "description": "Union with combining function",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "unionWithKey",
           "normalized": "(Interval a-\u003eb-\u003eb-\u003eb)-\u003eIntervalMap a b-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -2772,6 +2870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union of a list of maps, with a combining operation:\n   (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eunionsWith\u003c/a\u003e\u003c/code\u003e f == \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eunionWith\u003c/a\u003e\u003c/code\u003e f) \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "unionsWith",
           "package": "IntervalMap",
@@ -2782,6 +2881,7 @@
         "index": {
           "description": "The union of list of maps with combining operation unionsWith foldl unionWith empty",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "unionsWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[IntervalMap b a]-\u003eIntervalMap b a",
@@ -2798,6 +2898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. The expression (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eupdate\u003c/a\u003e\u003c/code\u003e f k map\u003c/code\u003e) updates the value \u003ccode\u003ex\u003c/code\u003e\n at \u003ccode\u003ek\u003c/code\u003e (if it is in the map). If (\u003ccode\u003ef x\u003c/code\u003e) is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, the element is\n deleted. If it is (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e), the key \u003ccode\u003ek\u003c/code\u003e is bound to the new value \u003ccode\u003ey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "update",
           "package": "IntervalMap",
@@ -2808,6 +2909,7 @@
         "index": {
           "description": "log The expression update map updates the value at if it is in the map If is Nothing the element is deleted If it is Just the key is bound to the new value",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "update",
           "normalized": "(a-\u003eMaybe a)-\u003eInterval b-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -2823,6 +2925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Lookup and update. See also \u003ccode\u003e\u003ca\u003eupdateWithKey\u003c/a\u003e\u003c/code\u003e.\n The function returns changed value, if it is updated.\n Returns the original key value if the map entry is deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "updateLookupWithKey",
           "package": "IntervalMap",
@@ -2833,6 +2936,7 @@
         "index": {
           "description": "log Lookup and update See also updateWithKey The function returns changed value if it is updated Returns the original key value if the map entry is deleted",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "updateLookupWithKey",
           "normalized": "(Interval a-\u003eb-\u003eMaybe b)-\u003eInterval a-\u003eIntervalMap a b-\u003e(Maybe b,IntervalMap a b)",
@@ -2849,6 +2953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Update or delete value at maximum key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "updateMax",
           "package": "IntervalMap",
@@ -2859,6 +2964,7 @@
         "index": {
           "description": "log Update or delete value at maximum key",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "updateMax",
           "normalized": "(a-\u003eMaybe a)-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -2875,6 +2981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Update or delete value at maximum key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "updateMaxWithKey",
           "package": "IntervalMap",
@@ -2885,6 +2992,7 @@
         "index": {
           "description": "log Update or delete value at maximum key",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "updateMaxWithKey",
           "normalized": "(Interval a-\u003eb-\u003eMaybe b)-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -2901,6 +3009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Update or delete value at minimum key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "updateMin",
           "package": "IntervalMap",
@@ -2911,6 +3020,7 @@
         "index": {
           "description": "log Update or delete value at minimum key",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "updateMin",
           "normalized": "(a-\u003eMaybe a)-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -2927,6 +3037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Update or delete value at minimum key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "updateMinWithKey",
           "package": "IntervalMap",
@@ -2937,6 +3048,7 @@
         "index": {
           "description": "log Update or delete value at minimum key",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "updateMinWithKey",
           "normalized": "(Interval a-\u003eb-\u003eMaybe b)-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -2953,6 +3065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. The expression (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eupdateWithKey\u003c/a\u003e\u003c/code\u003e f k map\u003c/code\u003e) updates the\n value \u003ccode\u003ex\u003c/code\u003e at \u003ccode\u003ek\u003c/code\u003e (if it is in the map). If (\u003ccode\u003ef k x\u003c/code\u003e) is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e,\n the element is deleted. If it is (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e), the key \u003ccode\u003ek\u003c/code\u003e is bound\n to the new value \u003ccode\u003ey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Lazy",
           "name": "updateWithKey",
           "package": "IntervalMap",
@@ -2963,6 +3076,7 @@
         "index": {
           "description": "log The expression updateWithKey map updates the value at if it is in the map If is Nothing the element is deleted If it is Just the key is bound to the new value",
           "hierarchy": "Data IntervalMap Lazy",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Lazy",
           "name": "updateWithKey",
           "normalized": "(Interval a-\u003eb-\u003eMaybe b)-\u003eInterval a-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -3031,6 +3145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn implementation of maps from intervals to values. The key intervals\nmay overlap, and the implementation contains efficient search\nfunctions for all keys containing a point or overlapping an\ninterval. Closed, open, and half-open intervals can be contained in\nthe same map.\n\u003c/p\u003e\u003cp\u003eThe functions in this module are strict in both the keys and the\nvalues.  If you need value-lazy maps, use \u003ca\u003eData.IntervalMap.Lazy\u003c/a\u003e\ninstead. The IntervalMap type itself is shared between the lazy and\nstrict modules, meaning that the same IntervalMap value can be passed\nto functions in both modules (although that is rarely needed).\n\u003c/p\u003e\u003cp\u003eAn IntervalMap cannot contain duplicate keys - if you need to map a\nkey to multiple values, use a collection as the value type, for\nexample: \u003ccode\u003eIntervalMap \u003cem\u003ek\u003c/em\u003e [\u003cem\u003ev\u003c/em\u003e]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt is an error to insert an empty interval into a map. This\nprecondition is not checked by the various construction functions.\n\u003c/p\u003e\u003cp\u003eSince many function names (but not the type name) clash with \u003cem\u003ePrelude\u003c/em\u003e\nnames, this module is usually imported \u003ccode\u003equalified\u003c/code\u003e, e.g.\n\u003c/p\u003e\u003cpre\u003e  import Data.IntervalMap (IvMap)\n  import qualified Data.IntervalMap as IvMap\n\u003c/pre\u003e\u003cp\u003eIt offers most of the same functions as \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e, but uses\n\u003ccode\u003e\u003ca\u003eInterval\u003c/a\u003e\u003c/code\u003e \u003cem\u003ek\u003c/em\u003e instead of just \u003cem\u003ek\u003c/em\u003e as the key type. Some of the\nfunctions need stricter type constraints to maintain the additional\ninformation for efficient interval searching, for example\n\u003ccode\u003e\u003ca\u003efromDistinctAscList\u003c/a\u003e\u003c/code\u003e needs an \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e \u003cem\u003ek\u003c/em\u003e constraint. Also, some\nfunctions differ in asymptotic performance (for example \u003ccode\u003e\u003ca\u003esize\u003c/a\u003e\u003c/code\u003e) or\nhave not been tuned for efficiency as much as their equivalents in\n\u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e (in particular the various set functions).\n\u003c/p\u003e\u003cp\u003eIn addition, there are functions specific to maps of intervals, for\nexample to search for all keys containing a given point or contained\nin a given interval.\n\u003c/p\u003e\u003cp\u003eTo stay compatible with standard Haskell, this implementation uses a\nfixed data type for intervals, and not a multi-parameter type\nclass. Thus, it's currently not possible to define e.g. a 2-tuple as\nan instance of interval and use that map key. Instead, you must\nconvert your keys to \u003ccode\u003e\u003ca\u003eInterval\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe implementation is a red-black tree augmented with the maximum\nupper bound of all keys.\n\u003c/p\u003e\u003cp\u003eParts of this implementation are based on code from the \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e\nimplementation, (c) Daan Leijen 2002, (c) Andriy Palamarchuk 2008. The\nred-black tree deletion is based on code from llrbtree by Kazu\nYamamoto. Of course, any errors are mine.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "Strict",
           "package": "IntervalMap",
@@ -3040,6 +3155,7 @@
         "index": {
           "description": "An implementation of maps from intervals to values The key intervals may overlap and the implementation contains efficient search functions for all keys containing point or overlapping an interval Closed open and half-open intervals can be contained in the same map The functions in this module are strict in both the keys and the values If you need value-lazy maps use Data.IntervalMap.Lazy instead The IntervalMap type itself is shared between the lazy and strict modules meaning that the same IntervalMap value can be passed to functions in both modules although that is rarely needed An IntervalMap cannot contain duplicate keys if you need to map key to multiple values use collection as the value type for example IntervalMap It is an error to insert an empty interval into map This precondition is not checked by the various construction functions Since many function names but not the type name clash with Prelude names this module is usually imported qualified e.g import Data.IntervalMap IvMap import qualified Data.IntervalMap as IvMap It offers most of the same functions as Map but uses Interval instead of just as the key type Some of the functions need stricter type constraints to maintain the additional information for efficient interval searching for example fromDistinctAscList needs an Ord constraint Also some functions differ in asymptotic performance for example size or have not been tuned for efficiency as much as their equivalents in Map in particular the various set functions In addition there are functions specific to maps of intervals for example to search for all keys containing given point or contained in given interval To stay compatible with standard Haskell this implementation uses fixed data type for intervals and not multi-parameter type class Thus it currently not possible to define e.g tuple as an instance of interval and use that map key Instead you must convert your keys to Interval The implementation is red-black tree augmented with the maximum upper bound of all keys Parts of this implementation are based on code from the Map implementation Daan Leijen Andriy Palamarchuk The red-black tree deletion is based on code from llrbtree by Kazu Yamamoto Of course any errors are mine",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "Strict",
           "package": "IntervalMap",
@@ -3054,6 +3170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntervals with endpoints of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e use mathematical notation with square brackets for closed\n and parens for open intervals.\n This is better for human readability, but is not a valid Haskell expression.\n Closed intervals look like a list, open intervals look like a tuple,\n and half-open intervals look like mismatched parens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "Interval",
           "package": "IntervalMap",
@@ -3063,6 +3180,7 @@
         "index": {
           "description": "Intervals with endpoints of type Read and Show use mathematical notation with square brackets for closed and parens for open intervals This is better for human readability but is not valid Haskell expression Closed intervals look like list open intervals look like tuple and half-open intervals look like mismatched parens",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "Interval",
           "package": "IntervalMap",
@@ -3077,6 +3195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from intervals with endpoints of type \u003ccode\u003ek\u003c/code\u003e to values of type \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "IntervalMap",
           "package": "IntervalMap",
@@ -3086,6 +3205,7 @@
         "index": {
           "description": "map from intervals with endpoints of type to values of type",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "IntervalMap",
           "package": "IntervalMap",
@@ -3100,6 +3220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Update a value at a specific key with the result of the provided function.\n When the key is not\n a member of the map, the original map is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "adjust",
           "package": "IntervalMap",
@@ -3110,6 +3231,7 @@
         "index": {
           "description": "log Update value at specific key with the result of the provided function When the key is not member of the map the original map is returned",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eInterval b-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -3125,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Adjust a value at a specific key. When the key is not\n a member of the map, the original map is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "adjustWithKey",
           "package": "IntervalMap",
@@ -3135,6 +3258,7 @@
         "index": {
           "description": "log Adjust value at specific key When the key is not member of the map the original map is returned",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "adjustWithKey",
           "normalized": "(Interval a-\u003eb-\u003eb)-\u003eInterval a-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -3151,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. The expression (\u003ccode\u003e\u003ccode\u003e\u003ca\u003ealter\u003c/a\u003e\u003c/code\u003e f k map\u003c/code\u003e) alters the value \u003ccode\u003ex\u003c/code\u003e at \u003ccode\u003ek\u003c/code\u003e, or absence thereof.\n \u003ccode\u003e\u003ca\u003ealter\u003c/a\u003e\u003c/code\u003e can be used to insert, delete, or update a value in a \u003ccode\u003eMap\u003c/code\u003e.\n In short : \u003ccode\u003e\u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e k (\u003ccode\u003e\u003ca\u003ealter\u003c/a\u003e\u003c/code\u003e f k m) = f (\u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e k m)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "alter",
           "package": "IntervalMap",
@@ -3161,6 +3286,7 @@
         "index": {
           "description": "log The expression alter map alters the value at or absence thereof alter can be used to insert delete or update value in Map In short lookup alter lookup",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "alter",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eInterval b-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -3176,6 +3302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. Difference with a combining function. \n When two equal keys are\n encountered, the combining function is applied to the values of these keys.\n If it returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, the element is discarded (proper set difference). If\n it returns (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e), the element is updated with a new value \u003ccode\u003ey\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "differenceWith",
           "package": "IntervalMap",
@@ -3186,6 +3313,7 @@
         "index": {
           "description": "Difference with combining function When two equal keys are encountered the combining function is applied to the values of these keys If it returns Nothing the element is discarded proper set difference If it returns Just the element is updated with new value",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "differenceWith",
           "normalized": "(a-\u003eb-\u003eMaybe a)-\u003eIntervalMap c a-\u003eIntervalMap c b-\u003eIntervalMap c a",
@@ -3202,6 +3330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. Difference with a combining function. When two equal keys are\n encountered, the combining function is applied to the key and both values.\n If it returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, the element is discarded (proper set difference). If\n it returns (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e), the element is updated with a new value \u003ccode\u003ey\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "differenceWithKey",
           "package": "IntervalMap",
@@ -3212,6 +3341,7 @@
         "index": {
           "description": "Difference with combining function When two equal keys are encountered the combining function is applied to the key and both values If it returns Nothing the element is discarded proper set difference If it returns Just the element is updated with new value",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "differenceWithKey",
           "normalized": "(Interval a-\u003eb-\u003ec-\u003eMaybe b)-\u003eIntervalMap a b-\u003eIntervalMap a c-\u003eIntervalMap a b",
@@ -3228,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. The expression \u003ccode\u003e(\u003ccode\u003e\u003ca\u003efindWithDefault\u003c/a\u003e\u003c/code\u003e def k map)\u003c/code\u003e returns\n the value at key \u003ccode\u003ek\u003c/code\u003e or returns default value \u003ccode\u003edef\u003c/code\u003e\n when the key is not in the map.\n\u003c/p\u003e\u003cpre\u003e findWithDefault 'x' 1 (fromList [(5,'a'), (3,'b')]) == 'x'\n findWithDefault 'x' 5 (fromList [(5,'a'), (3,'b')]) == 'a'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "findWithDefault",
           "package": "IntervalMap",
@@ -3238,6 +3369,7 @@
         "index": {
           "description": "log The expression findWithDefault def map returns the value at key or returns default value def when the key is not in the map findWithDefault fromList findWithDefault fromList",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "findWithDefault",
           "normalized": "a-\u003eInterval b-\u003eIntervalMap b a-\u003ea",
@@ -3254,6 +3386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Build a map from an ascending list in linear time.\n \u003cem\u003eThe precondition (input list is ascending) is not checked.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "fromAscList",
           "package": "IntervalMap",
@@ -3264,6 +3397,7 @@
         "index": {
           "description": "Build map from an ascending list in linear time The precondition input list is ascending is not checked",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "fromAscList",
           "normalized": "[(Interval a,b)]-\u003eIntervalMap a b",
@@ -3280,6 +3414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Build a map from an ascending list in linear time with a combining function for equal keys.\n \u003cem\u003eThe precondition (input list is ascending) is not checked.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "fromAscListWith",
           "package": "IntervalMap",
@@ -3290,6 +3425,7 @@
         "index": {
           "description": "Build map from an ascending list in linear time with combining function for equal keys The precondition input list is ascending is not checked",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "fromAscListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(Interval b,a)]-\u003eIntervalMap b a",
@@ -3306,6 +3442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Build a map from an ascending list in linear time with a combining function for equal keys.\n \u003cem\u003eThe precondition (input list is ascending) is not checked.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "fromAscListWithKey",
           "package": "IntervalMap",
@@ -3316,6 +3453,7 @@
         "index": {
           "description": "Build map from an ascending list in linear time with combining function for equal keys The precondition input list is ascending is not checked",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "fromAscListWithKey",
           "normalized": "(Interval a-\u003eb-\u003eb-\u003eb)-\u003e[(Interval a,b)]-\u003eIntervalMap a b",
@@ -3332,6 +3470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n log n)\u003c/em\u003e. Build a map from a list of key/value pairs. See also \u003ccode\u003e\u003ca\u003efromAscList\u003c/a\u003e\u003c/code\u003e.\n If the list contains more than one value for the same key, the last value\n for the key is retained.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "fromList",
           "package": "IntervalMap",
@@ -3342,6 +3481,7 @@
         "index": {
           "description": "log Build map from list of key value pairs See also fromAscList If the list contains more than one value for the same key the last value for the key is retained",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "fromList",
           "normalized": "[(Interval a,b)]-\u003eIntervalMap a b",
@@ -3358,6 +3498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n log n)\u003c/em\u003e. Build a map from a list of key/value pairs with a combining function. See also \u003ccode\u003e\u003ca\u003efromAscListWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "fromListWith",
           "package": "IntervalMap",
@@ -3368,6 +3509,7 @@
         "index": {
           "description": "log Build map from list of key value pairs with combining function See also fromAscListWith",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "fromListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(Interval b,a)]-\u003eIntervalMap b a",
@@ -3384,6 +3526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n log n)\u003c/em\u003e. Build a map from a list of key/value pairs with a combining function. See also \u003ccode\u003e\u003ca\u003efromAscListWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "fromListWithKey",
           "package": "IntervalMap",
@@ -3394,6 +3537,7 @@
         "index": {
           "description": "log Build map from list of key value pairs with combining function See also fromAscListWith",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "fromListWithKey",
           "normalized": "(Interval a-\u003eb-\u003eb-\u003eb)-\u003e[(Interval a,b)]-\u003eIntervalMap a b",
@@ -3410,6 +3554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Insert a new key/value pair. If the map already contains the key, its value is\n changed to the new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "insert",
           "package": "IntervalMap",
@@ -3420,6 +3565,7 @@
         "index": {
           "description": "log Insert new key value pair If the map already contains the key its value is changed to the new value",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "insert",
           "normalized": "Interval a-\u003eb-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -3435,6 +3581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Combine insert with old values retrieval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "insertLookupWithKey",
           "package": "IntervalMap",
@@ -3445,6 +3592,7 @@
         "index": {
           "description": "log Combine insert with old values retrieval",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "insertLookupWithKey",
           "normalized": "(Interval a-\u003eb-\u003eb-\u003eb)-\u003eInterval a-\u003eb-\u003eIntervalMap a b-\u003e(Maybe b,IntervalMap a b)",
@@ -3461,6 +3609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Insert with a function, combining new value and old value.\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003einsertWith\u003c/a\u003e\u003c/code\u003e f key value mp\u003c/code\u003e \n will insert the pair (key, value) into \u003ccode\u003emp\u003c/code\u003e if key does\n not exist in the map. If the key does exist, the function will\n insert the pair \u003ccode\u003e(key, f new_value old_value)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "insertWith",
           "package": "IntervalMap",
@@ -3471,6 +3620,7 @@
         "index": {
           "description": "log Insert with function combining new value and old value insertWith key value mp will insert the pair key value into mp if key does not exist in the map If the key does exist the function will insert the pair key new value old value",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eInterval b-\u003ea-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -3487,6 +3637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Insert with a function, combining key, new value and old value.\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003einsertWithKey\u003c/a\u003e\u003c/code\u003e f key value mp\u003c/code\u003e \n will insert the pair (key, value) into \u003ccode\u003emp\u003c/code\u003e if key does\n not exist in the map. If the key does exist, the function will\n insert the pair \u003ccode\u003e(key, f key new_value old_value)\u003c/code\u003e.\n Note that the key passed to f is the same key passed to \u003ccode\u003e\u003ca\u003einsertWithKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "insertWithKey",
           "package": "IntervalMap",
@@ -3497,6 +3648,7 @@
         "index": {
           "description": "log Insert with function combining key new value and old value insertWithKey key value mp will insert the pair key value into mp if key does not exist in the map If the key does exist the function will insert the pair key key new value old value Note that the key passed to is the same key passed to insertWithKey",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "insertWithKey",
           "normalized": "(Interval a-\u003eb-\u003eb-\u003eb)-\u003eInterval a-\u003eb-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -3513,6 +3665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. Intersection with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "intersectionWith",
           "package": "IntervalMap",
@@ -3523,6 +3676,7 @@
         "index": {
           "description": "Intersection with combining function",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "intersectionWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eIntervalMap d a-\u003eIntervalMap d b-\u003eIntervalMap d c",
@@ -3539,6 +3693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. Intersection with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "intersectionWithKey",
           "package": "IntervalMap",
@@ -3549,6 +3704,7 @@
         "index": {
           "description": "Intersection with combining function",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "intersectionWithKey",
           "normalized": "(Interval a-\u003eb-\u003ec-\u003ed)-\u003eIntervalMap a b-\u003eIntervalMap a c-\u003eIntervalMap a d",
@@ -3565,6 +3721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map a function over all values in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "map",
           "package": "IntervalMap",
@@ -3575,6 +3732,7 @@
         "index": {
           "description": "Map function over all values in the map",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eIntervalMap c a-\u003eIntervalMap c b",
@@ -3590,6 +3748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. The function \u003ccode\u003e\u003ca\u003emapAccum\u003c/a\u003e\u003c/code\u003e threads an accumulating\n argument through the map in ascending order of keys.\n\u003c/p\u003e\u003cpre\u003e let f a b = (a ++ b, b ++ \"X\")\n mapAccum f \"Everything: \" (fromList [(5,\"a\"), (3,\"b\")]) == (\"Everything: ba\", fromList [(3, \"bX\"), (5, \"aX\")])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "mapAccum",
           "package": "IntervalMap",
@@ -3600,6 +3759,7 @@
         "index": {
           "description": "The function mapAccum threads an accumulating argument through the map in ascending order of keys let mapAccum Everything fromList Everything ba fromList bX aX",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "mapAccum",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003eIntervalMap d b-\u003e(a,IntervalMap d c)",
@@ -3616,6 +3776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. The function \u003ccode\u003e\u003ca\u003emapAccumRWithKey\u003c/a\u003e\u003c/code\u003e threads an accumulating\n argument through the map in descending order of keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "mapAccumRWithKey",
           "package": "IntervalMap",
@@ -3626,6 +3787,7 @@
         "index": {
           "description": "The function mapAccumRWithKey threads an accumulating argument through the map in descending order of keys",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "mapAccumRWithKey",
           "normalized": "(a-\u003eInterval b-\u003ec-\u003e(a,d))-\u003ea-\u003eIntervalMap b c-\u003e(a,IntervalMap b d)",
@@ -3642,6 +3804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. The function \u003ccode\u003e\u003ca\u003emapAccumWithKey\u003c/a\u003e\u003c/code\u003e threads an accumulating\n argument through the map in ascending order of keys.\n\u003c/p\u003e\u003cpre\u003e let f a k b = (a ++ \" \" ++ (show k) ++ \"-\" ++ b, b ++ \"X\")\n mapAccumWithKey f \"Everything:\" (fromList [(5,\"a\"), (3,\"b\")]) == (\"Everything: 3-b 5-a\", fromList [(3, \"bX\"), (5, \"aX\")])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "mapAccumWithKey",
           "package": "IntervalMap",
@@ -3652,6 +3815,7 @@
         "index": {
           "description": "The function mapAccumWithKey threads an accumulating argument through the map in ascending order of keys let show mapAccumWithKey Everything fromList Everything fromList bX aX",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "mapAccumWithKey",
           "normalized": "(a-\u003eInterval b-\u003ec-\u003e(a,d))-\u003ea-\u003eIntervalMap b c-\u003e(a,IntervalMap b d)",
@@ -3668,6 +3832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map values and separate the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "mapEither",
           "package": "IntervalMap",
@@ -3678,6 +3843,7 @@
         "index": {
           "description": "Map values and separate the Left and Right results",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "mapEither",
           "normalized": "(a-\u003eEither b c)-\u003eIntervalMap d a-\u003e(IntervalMap d b,IntervalMap d c)",
@@ -3694,6 +3860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map keys/values and separate the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "mapEitherWithKey",
           "package": "IntervalMap",
@@ -3704,6 +3871,7 @@
         "index": {
           "description": "Map keys values and separate the Left and Right results",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "mapEitherWithKey",
           "normalized": "(Interval a-\u003eb-\u003eEither c d)-\u003eIntervalMap a b-\u003e(IntervalMap a c,IntervalMap a d)",
@@ -3720,6 +3888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n log n)\u003c/em\u003e. \u003ccode\u003e\u003ccode\u003e\u003ca\u003emapKeysWith\u003c/a\u003e\u003c/code\u003e c f s\u003c/code\u003e is the map obtained by applying \u003ccode\u003ef\u003c/code\u003e to each key of \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe size of the result may be smaller if \u003ccode\u003ef\u003c/code\u003e maps two or more distinct\n keys to the same new key.  In this case the associated values will be\n combined using \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "mapKeysWith",
           "package": "IntervalMap",
@@ -3730,6 +3899,7 @@
         "index": {
           "description": "log mapKeysWith is the map obtained by applying to each key of The size of the result may be smaller if maps two or more distinct keys to the same new key In this case the associated values will be combined using",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "mapKeysWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(Interval b-\u003eInterval b)-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -3746,6 +3916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map values and collect the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "mapMaybe",
           "package": "IntervalMap",
@@ -3756,6 +3927,7 @@
         "index": {
           "description": "Map values and collect the Just results",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eIntervalMap c a-\u003eIntervalMap c b",
@@ -3772,6 +3944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map keys/values and collect the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "mapMaybeWithKey",
           "package": "IntervalMap",
@@ -3782,6 +3955,7 @@
         "index": {
           "description": "Map keys values and collect the Just results",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "mapMaybeWithKey",
           "normalized": "(Interval a-\u003eb-\u003eMaybe c)-\u003eIntervalMap a b-\u003eIntervalMap a c",
@@ -3798,6 +3972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map a function over all values in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "mapWithKey",
           "package": "IntervalMap",
@@ -3808,6 +3983,7 @@
         "index": {
           "description": "Map function over all values in the map",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "mapWithKey",
           "normalized": "(Interval a-\u003eb-\u003ec)-\u003eIntervalMap a b-\u003eIntervalMap a c",
@@ -3824,6 +4000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. A map with one entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "singleton",
           "package": "IntervalMap",
@@ -3834,6 +4011,7 @@
         "index": {
           "description": "map with one entry",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "singleton",
           "normalized": "Interval a-\u003eb-\u003eIntervalMap a b",
@@ -3849,6 +4027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. Union with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "unionWith",
           "package": "IntervalMap",
@@ -3859,6 +4038,7 @@
         "index": {
           "description": "Union with combining function",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eIntervalMap b a-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -3875,6 +4055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. Union with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "unionWithKey",
           "package": "IntervalMap",
@@ -3885,6 +4066,7 @@
         "index": {
           "description": "Union with combining function",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "unionWithKey",
           "normalized": "(Interval a-\u003eb-\u003eb-\u003eb)-\u003eIntervalMap a b-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -3901,6 +4083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union of a list of maps, with a combining operation:\n   (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eunionsWith\u003c/a\u003e\u003c/code\u003e f == \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eunionWith\u003c/a\u003e\u003c/code\u003e f) \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "unionsWith",
           "package": "IntervalMap",
@@ -3911,6 +4094,7 @@
         "index": {
           "description": "The union of list of maps with combining operation unionsWith foldl unionWith empty",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "unionsWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[IntervalMap b a]-\u003eIntervalMap b a",
@@ -3927,6 +4111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. The expression (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eupdate\u003c/a\u003e\u003c/code\u003e f k map\u003c/code\u003e) updates the value \u003ccode\u003ex\u003c/code\u003e\n at \u003ccode\u003ek\u003c/code\u003e (if it is in the map). If (\u003ccode\u003ef x\u003c/code\u003e) is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, the element is\n deleted. If it is (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e), the key \u003ccode\u003ek\u003c/code\u003e is bound to the new value \u003ccode\u003ey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "update",
           "package": "IntervalMap",
@@ -3937,6 +4122,7 @@
         "index": {
           "description": "log The expression update map updates the value at if it is in the map If is Nothing the element is deleted If it is Just the key is bound to the new value",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "update",
           "normalized": "(a-\u003eMaybe a)-\u003eInterval b-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -3952,6 +4138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Lookup and update. See also \u003ccode\u003e\u003ca\u003eupdateWithKey\u003c/a\u003e\u003c/code\u003e.\n The function returns changed value, if it is updated.\n Returns the original key value if the map entry is deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "updateLookupWithKey",
           "package": "IntervalMap",
@@ -3962,6 +4149,7 @@
         "index": {
           "description": "log Lookup and update See also updateWithKey The function returns changed value if it is updated Returns the original key value if the map entry is deleted",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "updateLookupWithKey",
           "normalized": "(Interval a-\u003eb-\u003eMaybe b)-\u003eInterval a-\u003eIntervalMap a b-\u003e(Maybe b,IntervalMap a b)",
@@ -3978,6 +4166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Update or delete value at maximum key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "updateMax",
           "package": "IntervalMap",
@@ -3988,6 +4177,7 @@
         "index": {
           "description": "log Update or delete value at maximum key",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "updateMax",
           "normalized": "(a-\u003eMaybe a)-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -4004,6 +4194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Update or delete value at maximum key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "updateMaxWithKey",
           "package": "IntervalMap",
@@ -4014,6 +4205,7 @@
         "index": {
           "description": "log Update or delete value at maximum key",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "updateMaxWithKey",
           "normalized": "(Interval a-\u003eb-\u003eMaybe b)-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -4030,6 +4222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Update or delete value at minimum key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "updateMin",
           "package": "IntervalMap",
@@ -4040,6 +4233,7 @@
         "index": {
           "description": "log Update or delete value at minimum key",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "updateMin",
           "normalized": "(a-\u003eMaybe a)-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -4056,6 +4250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Update or delete value at minimum key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "updateMinWithKey",
           "package": "IntervalMap",
@@ -4066,6 +4261,7 @@
         "index": {
           "description": "log Update or delete value at minimum key",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "updateMinWithKey",
           "normalized": "(Interval a-\u003eb-\u003eMaybe b)-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -4082,6 +4278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. The expression (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eupdateWithKey\u003c/a\u003e\u003c/code\u003e f k map\u003c/code\u003e) updates the\n value \u003ccode\u003ex\u003c/code\u003e at \u003ccode\u003ek\u003c/code\u003e (if it is in the map). If (\u003ccode\u003ef k x\u003c/code\u003e) is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e,\n the element is deleted. If it is (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e), the key \u003ccode\u003ek\u003c/code\u003e is bound\n to the new value \u003ccode\u003ey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap.Strict",
           "name": "updateWithKey",
           "package": "IntervalMap",
@@ -4092,6 +4289,7 @@
         "index": {
           "description": "log The expression updateWithKey map updates the value at if it is in the map If is Nothing the element is deleted If it is Just the key is bound to the new value",
           "hierarchy": "Data IntervalMap Strict",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap.Strict",
           "name": "updateWithKey",
           "normalized": "(Interval a-\u003eb-\u003eMaybe b)-\u003eInterval a-\u003eIntervalMap a b-\u003eIntervalMap a b",
@@ -4108,6 +4306,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn implementation of maps from intervals to values. The key intervals may\noverlap, and the implementation contains efficient search functions\nfor all keys containing a point or overlapping an interval.\nClosed, open, and half-open intervals can be contained in the same map.\n\u003c/p\u003e\u003cp\u003eThis module re-exports the value lazy \u003ca\u003eData.IntervalMap.Lazy\u003c/a\u003e API, plus\nseveral value strict functions from \u003ca\u003eData.IntervalMap.Strict\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap",
           "name": "IntervalMap",
           "package": "IntervalMap",
@@ -4117,6 +4316,7 @@
         "index": {
           "description": "An implementation of maps from intervals to values The key intervals may overlap and the implementation contains efficient search functions for all keys containing point or overlapping an interval Closed open and half-open intervals can be contained in the same map This module re-exports the value lazy Data.IntervalMap.Lazy API plus several value strict functions from Data.IntervalMap.Strict",
           "hierarchy": "Data IntervalMap",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap",
           "name": "IntervalMap",
           "package": "IntervalMap",
@@ -4131,6 +4331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eDeprecated.\u003c/em\u003e As of version 0.5, replaced by \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Fold the values in the map using the given right-associative\n binary operator. This function is an equivalent of \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e and is present\n for compatibility only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap",
           "name": "fold",
           "package": "IntervalMap",
@@ -4141,6 +4342,7 @@
         "index": {
           "description": "Deprecated As of version replaced by foldr Fold the values in the map using the given right-associative binary operator This function is an equivalent of foldr and is present for compatibility only",
           "hierarchy": "Data IntervalMap",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap",
           "name": "fold",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eIntervalMap c a-\u003eb",
@@ -4156,6 +4358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eDeprecated.\u003c/em\u003e As of version 0.3, replaced by \u003ccode\u003e\u003ca\u003efoldrWithKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Fold the keys and values in the map using the given right-associative\n binary operator. This function is an equivalent of \u003ccode\u003e\u003ca\u003efoldrWithKey\u003c/a\u003e\u003c/code\u003e and is present\n for compatibility only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap",
           "name": "foldWithKey",
           "package": "IntervalMap",
@@ -4166,6 +4369,7 @@
         "index": {
           "description": "Deprecated As of version replaced by foldrWithKey Fold the keys and values in the map using the given right-associative binary operator This function is an equivalent of foldrWithKey and is present for compatibility only",
           "hierarchy": "Data IntervalMap",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap",
           "name": "foldWithKey",
           "normalized": "(Interval a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eIntervalMap a b-\u003ec",
@@ -4182,6 +4386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eDeprecated.\u003c/em\u003e As of version 0.3, replaced by\n \u003ccode\u003e\u003ca\u003einsertLookupWithKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. A strict version of \u003ccode\u003e\u003ca\u003einsertLookupWithKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap",
           "name": "insertLookupWithKey'",
           "package": "IntervalMap",
@@ -4192,6 +4397,7 @@
         "index": {
           "description": "Deprecated As of version replaced by insertLookupWithKey log strict version of insertLookupWithKey",
           "hierarchy": "Data IntervalMap",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap",
           "name": "insertLookupWithKey'",
           "normalized": "(Interval a-\u003eb-\u003eb-\u003eb)-\u003eInterval a-\u003eb-\u003eIntervalMap a b-\u003e(Maybe b,IntervalMap a b)",
@@ -4208,6 +4414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eDeprecated.\u003c/em\u003e As of version 0.3, replaced by \u003ccode\u003e\u003ca\u003einsertWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Same as \u003ccode\u003e\u003ca\u003einsertWith\u003c/a\u003e\u003c/code\u003e, but the combining function is\n applied strictly.  This is often the most desirable behavior.\n\u003c/p\u003e\u003cp\u003eFor example, to update a counter:\n\u003c/p\u003e\u003cpre\u003e insertWith' (+) k 1 m\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap",
           "name": "insertWith'",
           "package": "IntervalMap",
@@ -4218,6 +4425,7 @@
         "index": {
           "description": "Deprecated As of version replaced by insertWith log Same as insertWith but the combining function is applied strictly This is often the most desirable behavior For example to update counter insertWith",
           "hierarchy": "Data IntervalMap",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap",
           "name": "insertWith'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eInterval b-\u003ea-\u003eIntervalMap b a-\u003eIntervalMap b a",
@@ -4234,6 +4442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eDeprecated.\u003c/em\u003e As of version 0.3, replaced by \u003ccode\u003e\u003ca\u003einsertWithKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Same as \u003ccode\u003e\u003ca\u003einsertWithKey\u003c/a\u003e\u003c/code\u003e, but the combining function is\n applied strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:01 UTC 2014",
           "module": "Data.IntervalMap",
           "name": "insertWithKey'",
           "package": "IntervalMap",
@@ -4244,6 +4453,7 @@
         "index": {
           "description": "Deprecated As of version replaced by insertWithKey log Same as insertWithKey but the combining function is applied strictly",
           "hierarchy": "Data IntervalMap",
+          "indexed": "2014-03-11T16:50:01",
           "module": "Data.IntervalMap",
           "name": "insertWithKey'",
           "normalized": "(Interval a-\u003eb-\u003eb-\u003eb)-\u003eInterval a-\u003eb-\u003eIntervalMap a b-\u003eIntervalMap a b",

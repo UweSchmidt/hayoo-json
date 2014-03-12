@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "threadPool"
+        "phrase": "threadPool",
+        "type": "phrase"
       },
       "type": "context"
     }

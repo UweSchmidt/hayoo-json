@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "biosff"
+        "phrase": "biosff",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead and write the SFF file format used by\n   Roche/454 sequencing to store flowgram data.\n\u003c/p\u003e\u003cp\u003eA flowgram is a series of values (intensities) representing homopolymer runs of\n   A,G,C, and T in a fixed cycle, and usually displayed as a histogram.\n\u003c/p\u003e\u003cp\u003eThis file is based on information in the Roche FLX manual.  Among other sources for information about\n   the format, are The Staden Package, which contains an io_lib with a C routine for parsing this format.\n   According to comments in the sources, the io_lib implementation is based on a file\n   called getsff.c, which I've been unable to track down.  Other software parsing SFFs \n   are QIIME, sff_extract, and Celera's sffToCa.\n\u003c/p\u003e\u003cp\u003eIt is believed that all values are stored big endian.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "SFF",
           "package": "biosff",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Read and write the SFF file format used by Roche sequencing to store flowgram data flowgram is series of values intensities representing homopolymer runs of and in fixed cycle and usually displayed as histogram This file is based on information in the Roche FLX manual Among other sources for information about the format are The Staden Package which contains an io lib with routine for parsing this format According to comments in the sources the io lib implementation is based on file called getsff.c which ve been unable to track down Other software parsing SFFs are QIIME sff extract and Celera sffToCa It is believed that all values are stored big endian",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "SFF",
           "package": "biosff",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSFF has a 31-byte common header\n\u003c/p\u003e\u003cp\u003eThe format is open to having the index anywhere between reads,\n   we should really keep count and check for each read.  In practice, it\n   seems to be places after the reads.\n\u003c/p\u003e\u003cp\u003eThe following two fields are considered part of the header, but as\n   they are static, they are not part of the data structure\n\u003c/p\u003e\u003cpre\u003e        \n     magic   :: Word32   -- 0x2e736666, i.e. the string \".sff\"\n     version :: Word32   -- 0x00000001\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "CommonHeader",
           "package": "biosff",
@@ -51,6 +54,7 @@
         "index": {
           "description": "SFF has byte common header The format is open to having the index anywhere between reads we should really keep count and check for each read In practice it seems to be places after the reads The following two fields are considered part of the header but as they are static they are not part of the data structure magic Word32 x2e736666 i.e the string sff version Word32 x00000001",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "CommonHeader",
           "package": "biosff",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of flowgram value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "Flow",
           "package": "biosff",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The type of flowgram value",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "Flow",
           "package": "biosff",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "Index",
           "package": "biosff",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "Index",
           "package": "biosff",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quality value is in the range 0..255.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "Qual",
           "package": "biosff",
@@ -117,6 +126,7 @@
         "index": {
           "description": "quality value is in the range",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "Qual",
           "package": "biosff",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuality data are lazy bytestrings of \u003ccode\u003e\u003ca\u003eQual\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "QualData",
           "package": "biosff",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Quality data are lazy bytestrings of Qual",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "QualData",
           "package": "biosff",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis contains the actual flowgram for a single read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "ReadBlock",
           "package": "biosff",
@@ -162,6 +175,7 @@
         "index": {
           "description": "This contains the actual flowgram for single read",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "ReadBlock",
           "package": "biosff",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach Read has a fixed read header, containing various information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "ReadHeader",
           "package": "biosff",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Each Read has fixed read header containing various information",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "ReadHeader",
           "package": "biosff",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead names encode various information, as per this struct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "ReadName",
           "package": "biosff",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Read names encode various information as per this struct",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "ReadName",
           "package": "biosff",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data structure storing the contents of an SFF file (modulo the index)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "SFF",
           "package": "biosff",
@@ -231,6 +250,7 @@
         "index": {
           "description": "The data structure storing the contents of an SFF file modulo the index",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "SFF",
           "package": "biosff",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence data are lazy bytestrings of ASCII characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "SeqData",
           "package": "biosff",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Sequence data are lazy bytestrings of ASCII characters",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "SeqData",
           "package": "biosff",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "CommonHeader",
           "package": "biosff",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "CommonHeader",
           "package": "biosff",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "ReadBlock",
           "package": "biosff",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "ReadBlock",
           "package": "biosff",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "ReadHeader",
           "package": "biosff",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "ReadHeader",
           "package": "biosff",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "ReadName",
           "package": "biosff",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "ReadName",
           "package": "biosff",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "SFF",
           "package": "biosff",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "SFF",
           "normalized": "SFF CommonHeader[ReadBlock]",
@@ -379,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a sequence position to the corresponding flow position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "baseToFlowPos",
           "package": "biosff",
@@ -389,6 +422,7 @@
         "index": {
           "description": "Convert sequence position to the corresponding flow position",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "baseToFlowPos",
           "normalized": "ReadBlock-\u003ea-\u003eInt",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "bases",
           "package": "biosff",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "bases",
           "package": "biosff",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "clip_adapter_left",
           "package": "biosff",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "clip_adapter_left",
           "package": "biosff",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "clip_adapter_right",
           "package": "biosff",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "clip_adapter_right",
           "package": "biosff",
@@ -467,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "clip_qual_left",
           "package": "biosff",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "clip_qual_left",
           "package": "biosff",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "clip_qual_right",
           "package": "biosff",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "clip_qual_right",
           "package": "biosff",
@@ -510,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a file by decoding it and re-encoding it\n   This will lose the index (which isn't really necessary)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "convert",
           "package": "biosff",
@@ -520,6 +565,7 @@
         "index": {
           "description": "Convert file by decoding it and re-encoding it This will lose the index which isn really necessary",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "convert",
           "normalized": "FilePath-\u003eIO()",
@@ -535,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the index as absolute coordinates, not relative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "cumulative_index",
           "package": "biosff",
@@ -545,6 +592,7 @@
         "index": {
           "description": "Extract the index as absolute coordinates not relative",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "cumulative_index",
           "normalized": "ReadBlock-\u003e[Int]",
@@ -559,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "date",
           "package": "biosff",
@@ -568,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "date",
           "normalized": "(Int,Int,Int)",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "decodeReadName",
           "package": "biosff",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "decodeReadName",
           "normalized": "ByteString-\u003eMaybe ReadName",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "encodeReadName",
           "package": "biosff",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "encodeReadName",
           "normalized": "ReadName-\u003eByteString",
@@ -630,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flow",
           "package": "biosff",
@@ -639,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "flow",
           "package": "biosff",
@@ -652,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a flow position to the corresponding sequence position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flowToBasePos",
           "package": "biosff",
@@ -662,6 +719,7 @@
         "index": {
           "description": "Convert flow position to the corresponding sequence position",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "flowToBasePos",
           "normalized": "ReadBlock-\u003ea-\u003eInt",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flow_data",
           "package": "biosff",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "flow_data",
           "package": "biosff",
@@ -698,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flow_index",
           "package": "biosff",
@@ -707,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "flow_index",
           "package": "biosff",
@@ -719,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flow_length",
           "package": "biosff",
@@ -728,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "flow_length",
           "package": "biosff",
@@ -741,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to access the flowgram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flowgram",
           "package": "biosff",
@@ -751,6 +816,7 @@
         "index": {
           "description": "Helper function to access the flowgram",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "flowgram",
           "normalized": "ReadBlock-\u003e[Flow]",
@@ -765,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flowgram_fmt",
           "package": "biosff",
@@ -774,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "flowgram_fmt",
           "package": "biosff",
@@ -787,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for decoding a \u003ccode\u003e\u003ca\u003eReadBlock\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "getRB",
           "package": "biosff",
@@ -797,6 +866,7 @@
         "index": {
           "description": "Helper function for decoding ReadBlock",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "getRB",
           "normalized": "Int-\u003eReadHeader-\u003eGet ReadBlock",
@@ -812,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "index_length",
           "package": "biosff",
@@ -821,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "index_length",
           "package": "biosff",
@@ -834,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoints to a text(?) section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "index_offset",
           "package": "biosff",
@@ -844,6 +917,7 @@
         "index": {
           "description": "Points to text section",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "index_offset",
           "package": "biosff",
@@ -856,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "key",
           "package": "biosff",
@@ -865,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "key",
           "package": "biosff",
@@ -877,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "key_length",
           "package": "biosff",
@@ -886,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "key_length",
           "package": "biosff",
@@ -899,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the sequence with masked bases in lower case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "masked_bases",
           "package": "biosff",
@@ -909,6 +988,7 @@
         "index": {
           "description": "Extract the sequence with masked bases in lower case",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "masked_bases",
           "normalized": "ReadBlock-\u003eSeqData",
@@ -923,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "name_length",
           "package": "biosff",
@@ -932,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "name_length",
           "package": "biosff",
@@ -944,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "num_bases",
           "package": "biosff",
@@ -953,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "num_bases",
           "package": "biosff",
@@ -965,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "num_reads",
           "package": "biosff",
@@ -974,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "num_reads",
           "package": "biosff",
@@ -987,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack a list of flows into the corresponding binary structure (the flow_data field)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "packFlows",
           "package": "biosff",
@@ -997,6 +1084,7 @@
         "index": {
           "description": "Pack list of flows into the corresponding binary structure the flow data field",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "packFlows",
           "normalized": "[Flow]-\u003eByteString",
@@ -1013,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ReadBlock can't be an instance of Binary directly, since it depends on\n   information from the CommonHeader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "putRB",
           "package": "biosff",
@@ -1023,6 +1112,7 @@
         "index": {
           "description": "ReadBlock can be an instance of Binary directly since it depends on information from the CommonHeader",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "putRB",
           "normalized": "Int-\u003eReadBlock-\u003ePut",
@@ -1038,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "quality",
           "package": "biosff",
@@ -1047,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "quality",
           "package": "biosff",
@@ -1060,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an SFF file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "readSFF",
           "package": "biosff",
@@ -1070,6 +1163,7 @@
         "index": {
           "description": "Read an SFF file",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "readSFF",
           "normalized": "FilePath-\u003eIO SFF",
@@ -1085,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "read_header",
           "package": "biosff",
@@ -1094,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "read_header",
           "package": "biosff",
@@ -1106,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "read_name",
           "package": "biosff",
@@ -1115,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "read_name",
           "package": "biosff",
@@ -1128,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an SFF file, but be resilient against errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "recoverSFF",
           "package": "biosff",
@@ -1138,6 +1237,7 @@
         "index": {
           "description": "Read an SFF file but be resilient against errors",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "recoverSFF",
           "normalized": "FilePath-\u003eIO SFF",
@@ -1153,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "region",
           "package": "biosff",
@@ -1162,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "region",
           "package": "biosff",
@@ -1175,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest serialization by output'ing the header and first two reads \n   in an SFF, and the same after a decode + encode cycle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "test",
           "package": "biosff",
@@ -1185,6 +1288,7 @@
         "index": {
           "description": "test serialization by output ing the header and first two reads in an SFF and the same after decode encode cycle",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "test",
           "normalized": "FilePath-\u003eIO()",
@@ -1199,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "time",
           "package": "biosff",
@@ -1208,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "time",
           "normalized": "(Int,Int,Int)",
@@ -1223,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrim a read according to clipping information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "trim",
           "package": "biosff",
@@ -1233,6 +1340,7 @@
         "index": {
           "description": "Trim read according to clipping information",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "trim",
           "normalized": "ReadBlock-\u003eReadBlock",
@@ -1248,6 +1356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrim adapters from a read\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "trimAdapter",
           "package": "biosff",
@@ -1258,6 +1367,7 @@
         "index": {
           "description": "Trim adapters from read",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "trimAdapter",
           "normalized": "ReadBlock-\u003eReadBlock",
@@ -1274,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrim a \u003ccode\u003e\u003ca\u003eReadBlock\u003c/a\u003e\u003c/code\u003e limiting the number of flows.  If writing to\n   an SFF file, make sure you update the \u003ccode\u003e\u003ca\u003eCommonHeader\u003c/a\u003e\u003c/code\u003e accordingly.\n   See \u003ccode\u003eexamples/Flx.hs\u003c/code\u003e for how to use this.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "trimFlows",
           "package": "biosff",
@@ -1284,6 +1395,7 @@
         "index": {
           "description": "Trim ReadBlock limiting the number of flows If writing to an SFF file make sure you update the CommonHeader accordingly See examples Flx.hs for how to use this",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "trimFlows",
           "normalized": "a-\u003eReadBlock-\u003eReadBlock",
@@ -1300,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrim a read to specific sequence position, inclusive bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "trimFromTo",
           "package": "biosff",
@@ -1310,6 +1423,7 @@
         "index": {
           "description": "Trim read to specific sequence position inclusive bounds",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "trimFromTo",
           "normalized": "a-\u003ea-\u003eReadBlock-\u003eReadBlock",
@@ -1326,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrim the key (i.e. first four bases)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "trimKey",
           "package": "biosff",
@@ -1336,6 +1451,7 @@
         "index": {
           "description": "Trim the key i.e first four bases",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "trimKey",
           "normalized": "ReadBlock-\u003eReadBlock",
@@ -1352,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack the flow_data field into a list of flow values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "unpackFlows",
           "package": "biosff",
@@ -1362,6 +1479,7 @@
         "index": {
           "description": "Unpack the flow data field into list of flow values",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "unpackFlows",
           "normalized": "ByteString-\u003e[Flow]",
@@ -1378,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eSFF\u003c/a\u003e\u003c/code\u003e to the specified file name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "writeSFF",
           "package": "biosff",
@@ -1388,6 +1507,7 @@
         "index": {
           "description": "Write an SFF to the specified file name",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "writeSFF",
           "normalized": "FilePath-\u003eSFF-\u003eIO()",
@@ -1404,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eSFF\u003c/a\u003e\u003c/code\u003e to the specified file name, but go back and\n   update the read count.  Useful if you want to output a lazy\n   stream of \u003ccode\u003e\u003ca\u003eReadBlock\u003c/a\u003e\u003c/code\u003es.  Returns the number of reads written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "writeSFF'",
           "package": "biosff",
@@ -1414,6 +1535,7 @@
         "index": {
           "description": "Write an SFF to the specified file name but go back and update the read count Useful if you want to output lazy stream of ReadBlock Returns the number of reads written",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "writeSFF'",
           "normalized": "FilePath-\u003eSFF-\u003eIO Int",
@@ -1429,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "x_loc",
           "package": "biosff",
@@ -1438,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "x_loc",
           "package": "biosff",
@@ -1450,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "y_loc",
           "package": "biosff",
@@ -1459,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF",
           "name": "y_loc",
           "package": "biosff",
@@ -1472,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis implements a number of filters used in the Titanium pipeline, \n   based on published documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "SFF_filters",
           "package": "biosff",
@@ -1481,6 +1608,7 @@
         "index": {
           "description": "This implements number of filters used in the Titanium pipeline based on published documentation",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "SFF_filters",
           "package": "biosff",
@@ -1495,6 +1623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscardFilters determine whether a read is to be retained or discarded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "DiscardFilter",
           "package": "biosff",
@@ -1504,6 +1633,7 @@
         "index": {
           "description": "DiscardFilters determine whether read is to be retained or discarded",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "DiscardFilter",
           "package": "biosff",
@@ -1518,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrimFilters modify the read, typically trimming it for quality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "TrimFilter",
           "package": "biosff",
@@ -1527,6 +1658,7 @@
         "index": {
           "description": "TrimFilters modify the read typically trimming it for quality",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "TrimFilter",
           "package": "biosff",
@@ -1541,6 +1673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate average of a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "avg",
           "package": "biosff",
@@ -1551,6 +1684,7 @@
         "index": {
           "description": "Calculate average of list",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "avg",
           "normalized": "[a]-\u003eDouble",
@@ -1566,6 +1700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a number of flows to position in sequence, and update clipping data accordingly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "clipFlows",
           "package": "biosff",
@@ -1576,6 +1711,7 @@
         "index": {
           "description": "Translate number of flows to position in sequence and update clipping data accordingly",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "clipFlows",
           "normalized": "ReadBlock-\u003eInt-\u003eReadBlock",
@@ -1592,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate clip_qual_right if more severe than previous value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "clipSeq",
           "package": "biosff",
@@ -1602,6 +1739,7 @@
         "index": {
           "description": "Update clip qual right if more severe than previous value",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "clipSeq",
           "normalized": "ReadBlock-\u003eInt-\u003eReadBlock",
@@ -1618,6 +1756,7 @@
       "document": {
         "description": {
           "description": "\u003col\u003e\u003cli\u003e2.2.1.2 The \u003ca\u003edots\u003c/a\u003e filter discards sequences where the last positive flow is \n   before flow 84, and flows with \u003e5% dots (i.e. three successive noise values) \n   before the last postitive flow.  The percentage can be given as a parameter.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_dots",
           "package": "biosff",
@@ -1628,6 +1767,7 @@
         "index": {
           "description": "The dots filter discards sequences where the last positive flow is before flow and flows with dots i.e three successive noise values before the last postitive flow The percentage can be given as parameter",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_dots",
           "normalized": "Double-\u003eDiscardFilter",
@@ -1643,6 +1783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis filter discards empty sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_empty",
           "package": "biosff",
@@ -1653,6 +1794,7 @@
         "index": {
           "description": "This filter discards empty sequences",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_empty",
           "package": "biosff",
@@ -1666,6 +1808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard sequences that don't have the given key tag (typically TCAG) at the start\n   of the read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_key",
           "package": "biosff",
@@ -1676,6 +1819,7 @@
         "index": {
           "description": "Discard sequences that don have the given key tag typically TCAG at the start of the read",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_key",
           "normalized": "String-\u003eDiscardFilter",
@@ -1691,6 +1835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard a read if the number of untrimmed flows is less than n (n=186 for Titanium)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_length",
           "package": "biosff",
@@ -1701,6 +1846,7 @@
         "index": {
           "description": "Discard read if the number of untrimmed flows is less than for Titanium",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_length",
           "normalized": "Int-\u003eDiscardFilter",
@@ -1716,6 +1862,7 @@
       "document": {
         "description": {
           "description": "\u003col\u003e\u003cli\u003e2.2.1.3 The \u003ca\u003emixed\u003c/a\u003e filter discards sequences with more than 70% positive flows.  \n   Also, discard with \u003ca\u003enoise,\u003c/a\u003e20% middle (0.45..0.75) or \u003c30% positive.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_mixed",
           "package": "biosff",
@@ -1726,6 +1873,7 @@
         "index": {
           "description": "The mixed filter discards sequences with more than positive flows Also discard with noise middle or positive",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_mixed",
           "package": "biosff",
@@ -1739,6 +1887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList length as a double (eliminates many instances of fromIntegral)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "dlength",
           "package": "biosff",
@@ -1749,6 +1898,7 @@
         "index": {
           "description": "List length as double eliminates many instances of fromIntegral",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "dlength",
           "normalized": "[a]-\u003eDouble",
@@ -1763,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "find_primer",
           "package": "biosff",
@@ -1772,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "find_primer",
           "normalized": "String-\u003eReadBlock-\u003eInt",
@@ -1786,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "flx_linker",
           "package": "biosff",
@@ -1795,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "flx_linker",
           "package": "biosff",
@@ -1807,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "qual20",
           "package": "biosff",
@@ -1816,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "qual20",
           "normalized": "Int-\u003eReadBlock-\u003eInt",
@@ -1830,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rapid_adapter",
           "package": "biosff",
@@ -1839,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rapid_adapter",
           "package": "biosff",
@@ -1851,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rna_adapter",
           "package": "biosff",
@@ -1860,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rna_adapter",
           "package": "biosff",
@@ -1872,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rna_adapter2",
           "package": "biosff",
@@ -1881,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rna_adapter2",
           "package": "biosff",
@@ -1893,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rna_adapter3",
           "package": "biosff",
@@ -1902,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rna_adapter3",
           "package": "biosff",
@@ -1914,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "sigint",
           "package": "biosff",
@@ -1923,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "sigint",
           "normalized": "ReadBlock-\u003eInt",
@@ -1937,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "ti_adapter_b",
           "package": "biosff",
@@ -1946,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "ti_adapter_b",
           "package": "biosff",
@@ -1958,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "ti_linker",
           "package": "biosff",
@@ -1967,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "ti_linker",
           "package": "biosff",
@@ -1980,6 +2150,7 @@
       "document": {
         "description": {
           "description": "\u003col\u003e\u003cli\u003e2.2.1.5 Primer filter \n This looks for the B-adaptor at the end of the read.  The 454 implementation isn't very\n effective at finding mutated adaptors.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "trim_primer",
           "package": "biosff",
@@ -1990,6 +2161,7 @@
         "index": {
           "description": "Primer filter This looks for the B-adaptor at the end of the read The implementation isn very effective at finding mutated adaptors",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "trim_primer",
           "normalized": "String-\u003eTrimFilter",
@@ -2005,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003col\u003e\u003cli\u003e2.2.1.7 Quality score trimming trims using a 10-base window until a Q20 average is found.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "trim_qual20",
           "package": "biosff",
@@ -2015,6 +2188,7 @@
         "index": {
           "description": "Quality score trimming trims using base window until Q20 average is found",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "trim_qual20",
           "normalized": "Int-\u003eTrimFilter",
@@ -2030,6 +2204,7 @@
       "document": {
         "description": {
           "description": "\u003col\u003e\u003cli\u003e2.2.1.4 Signal intensity trim - trim back until \u003c3% borderline flows (0.5..0.7).\n   Then trim borderline values or dots from the end (use a window).\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:22:24 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "trim_sigint",
           "package": "biosff",
@@ -2040,6 +2215,7 @@
         "index": {
           "description": "Signal intensity trim trim back until borderline flows Then trim borderline values or dots from the end use window",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:24",
           "module": "Bio.Sequence.SFF_filters",
           "name": "trim_sigint",
           "package": "biosff",

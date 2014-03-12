@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "html-kure"
+        "phrase": "html-kure",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "KURE",
           "package": "html-kure",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "KURE",
           "package": "html-kure",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "Attr",
           "package": "html-kure",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Single attribute",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "Attr",
           "package": "html-kure",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes for a element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "Attrs",
           "package": "html-kure",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Attributes for element",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "Attrs",
           "package": "html-kure",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext contains all the containing elements\n in an inside to outside order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "Context",
           "package": "html-kure",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Context contains all the containing elements in an inside to outside order",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "Context",
           "package": "html-kure",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML element with tag and attrs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "Element",
           "package": "html-kure",
@@ -118,6 +127,7 @@
         "index": {
           "description": "HTML element with tag and attrs",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "Element",
           "package": "html-kure",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Principal type in DSL. Use \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e to get the String rendition of this type.\n \u003ccode\u003e\u003ca\u003eHTML\u003c/a\u003e\u003c/code\u003e is concatenated using \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e, the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e mappend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "HTML",
           "package": "html-kure",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The Principal type in DSL Use show to get the String rendition of this type HTML is concatenated using the Monoid mappend",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "HTML",
           "package": "html-kure",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "Html",
           "package": "html-kure",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "Html",
           "package": "html-kure",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOur universal node type. Only used during\n generic tree walking and traversals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "Node",
           "package": "html-kure",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Our universal node type Only used during generic tree walking and traversals",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "Node",
           "package": "html-kure",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML/HTML syntax, like \u003c? or \u003c!, or our zero-width space \u003ccode\u003e\u003ca\u003ezero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "Syntax",
           "package": "html-kure",
@@ -208,6 +225,7 @@
         "index": {
           "description": "XML HTML syntax like or or our zero-width space zero",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "Syntax",
           "package": "html-kure",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText (may include escaped text internally)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "Text",
           "package": "html-kure",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Text may include escaped text internally",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "Text",
           "package": "html-kure",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "Context",
           "package": "html-kure",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "Context",
           "normalized": "Context[Element]",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elifts mapping of \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eHTML\u003c/a\u003e\u003c/code\u003e over a single level of \u003ccode\u003e\u003ca\u003eHTML\u003c/a\u003e\u003c/code\u003e sub-nodes.\n \u003ccode\u003e\u003ca\u003eanyElementHTML\u003c/a\u003e\u003c/code\u003e has the property ''anyElementHTML (arr html) = idR''.\n\u003c/p\u003e\u003cp\u003eThis is successful only if any of the sub-translations are successful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "anyElementHTML",
           "package": "html-kure",
@@ -279,6 +302,7 @@
         "index": {
           "description": "lifts mapping of Element to HTML over single level of HTML sub-nodes anyElementHTML has the property anyElementHTML arr html idR This is successful only if any of the sub-translations are successful",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "anyElementHTML",
           "normalized": "Translate Context a Element HTML-\u003eRewrite Context a HTML",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild a single Attr. Short version of \u003ccode\u003e\u003ca\u003eattrC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "attr",
           "package": "html-kure",
@@ -305,6 +330,7 @@
         "index": {
           "description": "build single Attr Short version of attrC",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "attr",
           "normalized": "String-\u003eString-\u003eAttr",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a single attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "attrC",
           "package": "html-kure",
@@ -330,6 +357,7 @@
         "index": {
           "description": "Create single attribute",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "attrC",
           "normalized": "String-\u003eString-\u003eAttr",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epromote a function over an attributes components into a translate over \u003ccode\u003e\u003ca\u003eAttr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "attrT",
           "package": "html-kure",
@@ -355,6 +384,7 @@
         "index": {
           "description": "promote function over an attributes components into translate over Attr",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "attrT",
           "normalized": "(String-\u003eString-\u003ea)-\u003eTranslate Context b Attr a",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejoin attributes together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "attrsC",
           "package": "html-kure",
@@ -380,6 +411,7 @@
         "index": {
           "description": "join attributes together",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "attrsC",
           "normalized": "[Attr]-\u003eAttrs",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eattrsT\u003c/a\u003e\u003c/code\u003e promotes a translation over \u003ccode\u003e\u003ca\u003eAttr\u003c/a\u003e\u003c/code\u003e into a translation over \u003ccode\u003e\u003ca\u003eAttrs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "attrsT",
           "package": "html-kure",
@@ -405,6 +438,7 @@
         "index": {
           "description": "attrsT promotes translation over Attr into translation over Attrs",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "attrsT",
           "normalized": "Translate Context a Attr b-\u003e([b]-\u003ec)-\u003eTranslate Context a Attrs c",
@@ -420,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eelement\u003c/a\u003e\u003c/code\u003e is the main way of generates a element in HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "element",
           "package": "html-kure",
@@ -430,6 +465,7 @@
         "index": {
           "description": "element is the main way of generates element in HTML",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "element",
           "normalized": "String-\u003e[Attr]-\u003eHTML-\u003eHTML",
@@ -445,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eelementC\u003c/a\u003e\u003c/code\u003e builds a element from its components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "elementC",
           "package": "html-kure",
@@ -455,6 +492,7 @@
         "index": {
           "description": "elementC builds element from its components",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "elementC",
           "normalized": "String-\u003eAttrs-\u003eHTML-\u003eElement",
@@ -470,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eelementT\u003c/a\u003e\u003c/code\u003e take arrows that operate over attributes and (the inner) HTML,\n and returns a translate over a single element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "elementT",
           "package": "html-kure",
@@ -480,6 +519,7 @@
         "index": {
           "description": "elementT take arrows that operate over attributes and the inner HTML and returns translate over single element",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "elementT",
           "normalized": "Translate Context a Attrs b-\u003eTranslate Context a HTML c-\u003e(String-\u003eb-\u003ec-\u003ed)-\u003eTranslate Context a Element d",
@@ -494,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "extractR'",
           "package": "html-kure",
@@ -503,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "extractR'",
           "normalized": "Rewrite a b c-\u003eRewrite a b d",
@@ -518,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "extractT'",
           "package": "html-kure",
@@ -527,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "extractT'",
           "normalized": "Translate a b c d-\u003eTranslate a b e d",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetAttr\u003c/a\u003e\u003c/code\u003e gets the attributes of a specific attribute of a element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "getAttr",
           "package": "html-kure",
@@ -553,6 +598,7 @@
         "index": {
           "description": "getAttr gets the attributes of specific attribute of element",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "getAttr",
           "normalized": "String-\u003eTranslate Context a Element String",
@@ -569,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetAttrs\u003c/a\u003e\u003c/code\u003e gets the attributes inside a element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "getAttrs",
           "package": "html-kure",
@@ -579,6 +626,7 @@
         "index": {
           "description": "getAttrs gets the attributes inside element",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "getAttrs",
           "package": "html-kure",
@@ -593,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetInner\u003c/a\u003e\u003c/code\u003e gets the HTML inside a element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "getInner",
           "package": "html-kure",
@@ -603,6 +652,7 @@
         "index": {
           "description": "getInner gets the HTML inside element",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "getInner",
           "package": "html-kure",
@@ -617,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetTag\u003c/a\u003e\u003c/code\u003e gets the element name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "getTag",
           "package": "html-kure",
@@ -627,6 +678,7 @@
         "index": {
           "description": "getTag gets the element name",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "getTag",
           "package": "html-kure",
@@ -640,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "html",
           "package": "html-kure",
@@ -649,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "html",
           "normalized": "a-\u003eHTML",
@@ -664,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e over \u003ccode\u003e\u003ca\u003eHTML\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "htmlC",
           "package": "html-kure",
@@ -674,6 +729,7 @@
         "index": {
           "description": "mconcat over HTML",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "htmlC",
           "normalized": "[HTML]-\u003eHTML",
@@ -689,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehtmlT\u003c/a\u003e\u003c/code\u003e take arrows that operate over elements, texts, and syntax,\n and returns a translate over HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "htmlT",
           "package": "html-kure",
@@ -699,6 +756,7 @@
         "index": {
           "description": "htmlT take arrows that operate over elements texts and syntax and returns translate over HTML",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "htmlT",
           "normalized": "Translate Context a Element b-\u003eTranslate Context a Text b-\u003eTranslate Context a Syntax b-\u003e([b]-\u003ec)-\u003eTranslate Context a HTML c",
@@ -713,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "injectT'",
           "package": "html-kure",
@@ -722,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "injectT'",
           "package": "html-kure",
@@ -736,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eisTag\u003c/a\u003e\u003c/code\u003e checks the element for a specific element name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "isTag",
           "package": "html-kure",
@@ -746,6 +807,7 @@
         "index": {
           "description": "isTag checks the element for specific element name",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "isTag",
           "normalized": "String-\u003eTranslate Context a Element()",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparsing HTML files. If you want to unparse, use \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "parseHTML",
           "package": "html-kure",
@@ -772,6 +835,7 @@
         "index": {
           "description": "parsing HTML files If you want to unparse use show",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "parseHTML",
           "normalized": "FilePath-\u003eString-\u003eHTML",
@@ -787,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "projectT'",
           "package": "html-kure",
@@ -796,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "projectT'",
           "package": "html-kure",
@@ -809,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "promoteR'",
           "package": "html-kure",
@@ -818,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "promoteR'",
           "normalized": "Rewrite a b c-\u003eRewrite a b d",
@@ -833,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "promoteT'",
           "package": "html-kure",
@@ -842,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "promoteT'",
           "normalized": "Translate a b c d-\u003eTranslate a b e d",
@@ -858,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e creates a HTML node with text inside it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "text",
           "package": "html-kure",
@@ -868,6 +939,7 @@
         "index": {
           "description": "text creates HTML node with text inside it",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "text",
           "normalized": "String-\u003eHTML",
@@ -883,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etextC\u003c/a\u003e\u003c/code\u003e constructs a Text from a fully unescaped string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "textC",
           "package": "html-kure",
@@ -893,6 +966,7 @@
         "index": {
           "description": "textC constructs Text from fully unescaped string",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "textC",
           "normalized": "String-\u003eText",
@@ -908,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etextT\u003c/a\u003e\u003c/code\u003e takes a Text to bits. The string is fully unescaped (a regular Haskell string)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "textT",
           "package": "html-kure",
@@ -918,6 +993,7 @@
         "index": {
           "description": "textT takes Text to bits The string is fully unescaped regular Haskell string",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "textT",
           "normalized": "(String-\u003ea)-\u003eTranslate Context b Text a",
@@ -933,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten into singleton HTMLs. The opposite of mconcat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "unconcatHTML",
           "package": "html-kure",
@@ -943,6 +1020,7 @@
         "index": {
           "description": "Flatten into singleton HTMLs The opposite of mconcat",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "unconcatHTML",
           "normalized": "HTML-\u003e[HTML]",
@@ -959,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ezero\u003c/a\u003e\u003c/code\u003e is an empty piece of HTML, which can be used to avoid\n the use of the \u003ctag/\u003e form; for example \u003ca\u003eelement \"br\" [] zero\u003c/a\u003e will generate both an opener and closer.\n \u003ccode\u003e\u003ca\u003ezero\u003c/a\u003e\u003c/code\u003e is the same as \u003ca\u003etext \"\"\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:42 UTC 2014",
           "module": "Text.HTML.KURE",
           "name": "zero",
           "package": "html-kure",
@@ -969,6 +1048,7 @@
         "index": {
           "description": "zero is an empty piece of HTML which can be used to avoid the use of the tag form for example element br zero will generate both an opener and closer zero is the same as text",
           "hierarchy": "Text HTML KURE",
+          "indexed": "2014-03-11T18:51:42",
           "module": "Text.HTML.KURE",
           "name": "zero",
           "package": "html-kure",

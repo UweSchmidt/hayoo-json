@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "obj"
+        "phrase": "obj",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:08 UTC 2014",
           "module": "Graphics.Formats.Obj",
           "name": "ObjModel",
           "package": "obj",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Obj",
+          "indexed": "2014-03-11T19:31:08",
           "module": "Graphics.Formats.Obj",
           "name": "ObjModel",
           "package": "obj",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "Loads an Obj model from a file given a list of search paths to find\n   materials and textures at.\n",
+          "indexed": "Tue Mar 11 19:31:08 UTC 2014",
           "module": "Graphics.Formats.Obj",
           "name": "objFromFile",
           "package": "obj",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Loads an Obj model from file given list of search paths to find materials and textures at",
           "hierarchy": "Graphics Formats Obj",
+          "indexed": "2014-03-11T19:31:08",
           "module": "Graphics.Formats.Obj",
           "name": "objFromFile",
           "normalized": "FilePath-\u003e[FilePath]-\u003eIO ObjModel",

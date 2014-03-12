@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hbro-contrib"
+        "phrase": "hbro-contrib",
+        "type": "phrase"
       },
       "type": "context"
     }

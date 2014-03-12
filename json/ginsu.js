@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ginsu"
+        "phrase": "ginsu",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "theoremquest-client"
+        "phrase": "theoremquest-client",
+        "type": "phrase"
       },
       "type": "context"
     }

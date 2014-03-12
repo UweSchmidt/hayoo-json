@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "awesomium-glut"
+        "phrase": "awesomium-glut",
+        "type": "phrase"
       },
       "type": "context"
     }

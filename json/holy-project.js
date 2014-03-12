@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "holy-project"
+        "phrase": "holy-project",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject.GithubAPI",
           "name": "GithubAPI",
           "package": "holy-project",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HolyProject GithubAPI",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject.GithubAPI",
           "name": "GithubAPI",
           "package": "holy-project",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch a username using the github API\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject.GithubAPI",
           "name": "searchGHUser",
           "package": "holy-project",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Search username using the github API",
           "hierarchy": "HolyProject GithubAPI",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject.GithubAPI",
           "name": "searchGHUser",
           "normalized": "String-\u003eIO(Maybe String)",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject.StringUtils",
           "name": "StringUtils",
           "package": "holy-project",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "HolyProject StringUtils",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject.StringUtils",
           "name": "StringUtils",
           "package": "holy-project",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform a chain like \u003ca\u003eHoly project\u003c/a\u003e in \u003ca\u003eHolyProject\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject.StringUtils",
           "name": "capitalize",
           "package": "holy-project",
@@ -97,6 +104,7 @@
         "index": {
           "description": "transform chain like Holy project in HolyProject",
           "hierarchy": "HolyProject StringUtils",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject.StringUtils",
           "name": "capitalize",
           "normalized": "String-\u003eString",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003everify if a project name is conform\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject.StringUtils",
           "name": "checkProjectName",
           "package": "holy-project",
@@ -122,6 +131,7 @@
         "index": {
           "description": "verify if project name is conform",
           "hierarchy": "HolyProject StringUtils",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject.StringUtils",
           "name": "checkProjectName",
           "normalized": "String-\u003eBool",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform a chain like \u003ca\u003eHoly project\u003c/a\u003e in \u003ca\u003eholy-project\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject.StringUtils",
           "name": "projectNameFromString",
           "package": "holy-project",
@@ -148,6 +159,7 @@
         "index": {
           "description": "transform chain like Holy project in holy-project",
           "hierarchy": "HolyProject StringUtils",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject.StringUtils",
           "name": "projectNameFromString",
           "normalized": "String-\u003eString",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "HolyProject",
           "package": "holy-project",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "HolyProject",
           "package": "holy-project",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord containing all information to initialize a project\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "Project",
           "package": "holy-project",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Record containing all information to initialize project",
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "Project",
           "package": "holy-project",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "Project",
           "package": "holy-project",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "Project",
           "package": "holy-project",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "author",
           "package": "holy-project",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "author",
           "package": "holy-project",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is where we create the project once the\n question are answered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "createProject",
           "package": "holy-project",
@@ -261,6 +282,7 @@
         "index": {
           "description": "This function is where we create the project once the question are answered",
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "createProject",
           "normalized": "Project-\u003eIO()",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the final dialog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "end",
           "package": "holy-project",
@@ -287,6 +310,7 @@
         "index": {
           "description": "Show the final dialog",
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "end",
           "normalized": "IO()",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function use a Data file mustache template\n and a hastache context to write a destination file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "genFile",
           "package": "holy-project",
@@ -311,6 +336,7 @@
         "index": {
           "description": "This function use Data file mustache template and hastache context to write destination file",
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "genFile",
           "normalized": "MuContext IO-\u003eString-\u003eFilePath-\u003eIO()",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Simply return the current year as String\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "getCurrentYear",
           "package": "holy-project",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Simply return the current year as String",
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "getCurrentYear",
           "package": "holy-project",
@@ -350,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "ghaccount",
           "package": "holy-project",
@@ -359,6 +388,7 @@
         },
         "index": {
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "ghaccount",
           "package": "holy-project",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly choose an end scenario and then show a \"serious\" error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "holyError",
           "package": "holy-project",
@@ -382,6 +413,7 @@
         "index": {
           "description": "Randomly choose an end scenario and then show serious error message",
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "holyError",
           "normalized": "String-\u003eIO()",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk, questions and create the initial project\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "holyStarter",
           "package": "holy-project",
@@ -408,6 +441,7 @@
         "index": {
           "description": "Ask questions and create the initial project",
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "holyStarter",
           "normalized": "IO()",
@@ -424,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow an introduction test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "intro",
           "package": "holy-project",
@@ -434,6 +469,7 @@
         "index": {
           "description": "Show an introduction test",
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "intro",
           "normalized": "IO()",
@@ -449,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert something true. In any other case show the holy error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "ioassert",
           "package": "holy-project",
@@ -459,6 +496,7 @@
         "index": {
           "description": "Assert something true In any other case show the holy error",
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "ioassert",
           "normalized": "Bool-\u003eString-\u003eIO()",
@@ -473,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "mail",
           "package": "holy-project",
@@ -482,6 +521,7 @@
         },
         "index": {
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "mail",
           "package": "holy-project",
@@ -494,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "moduleName",
           "package": "holy-project",
@@ -503,6 +544,7 @@
         },
         "index": {
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "moduleName",
           "package": "holy-project",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "projectName",
           "package": "holy-project",
@@ -525,6 +568,7 @@
         },
         "index": {
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "projectName",
           "package": "holy-project",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "synopsis",
           "package": "holy-project",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "synopsis",
           "package": "holy-project",
@@ -559,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:16 UTC 2014",
           "module": "HolyProject",
           "name": "year",
           "package": "holy-project",
@@ -568,6 +615,7 @@
         },
         "index": {
           "hierarchy": "HolyProject",
+          "indexed": "2014-03-11T18:43:16",
           "module": "HolyProject",
           "name": "year",
           "package": "holy-project",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snap-loader-static"
+        "phrase": "snap-loader-static",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:16 UTC 2014",
           "module": "Snap.Loader.Static",
           "name": "Static",
           "package": "snap-loader-static",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Loader Static",
+          "indexed": "2014-03-11T20:05:16",
           "module": "Snap.Loader.Static",
           "name": "Static",
           "package": "snap-loader-static",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function provides a non-magical type-compatible loader for\n the one in snap-dynamic's Snap.Loader.Devel, allowing switching one\n import to provide production-mode compilation.\n\u003c/p\u003e\u003cp\u003eThis could be considered a TH wrapper around a function\n\u003c/p\u003e\u003cpre\u003e loadSnap :: Typeable a =\u003e IO a -\u003e (a -\u003e IO (Snap (), IO ()))\n                        -\u003e [String] -\u003e IO (a, Snap (), IO ())\n\u003c/pre\u003e\u003cp\u003eThe third argument is unused, and only present for\n type-compatibility with Snap.Loader.Devel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:16 UTC 2014",
           "module": "Snap.Loader.Static",
           "name": "loadSnapTH",
           "package": "snap-loader-static",
@@ -50,6 +53,7 @@
         "index": {
           "description": "This function provides non-magical type-compatible loader for the one in snap-dynamic Snap.Loader.Devel allowing switching one import to provide production-mode compilation This could be considered TH wrapper around function loadSnap Typeable IO IO Snap IO String IO Snap IO The third argument is unused and only present for type-compatibility with Snap.Loader.Devel",
           "hierarchy": "Snap Loader Static",
+          "indexed": "2014-03-11T20:05:16",
           "module": "Snap.Loader.Static",
           "name": "loadSnapTH",
           "normalized": "Q Exp-\u003eName-\u003e[String]-\u003eQ Exp",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tuple-lenses"
+        "phrase": "tuple-lenses",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package provides some stock lenses for manipulating multiple elements\n   of a tuple at once. For instance:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(1,2,3)^._13\n\u003c/code\u003e\u003c/strong\u003e(1, 3)\n\u003c/pre\u003e\u003cp\u003eThe package provide all lenses that are in increasing order, for FieldN classes 1-9. If you \n   want to swap the order or permute the elements, you need to make your own.\n\u003c/p\u003e\u003cp\u003eCustom combos are provided by a Template Haskell function.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e('a','b','c','d') ^. $(tl [4,1,2,3])\n\u003c/code\u003e\u003c/strong\u003e('d','a','b','c')\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "Lens",
           "package": "tuple-lenses",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This package provides some stock lenses for manipulating multiple elements of tuple at once For instance The package provide all lenses that are in increasing order for FieldN classes If you want to swap the order or permute the elements you need to make your own Custom combos are provided by Template Haskell function tl",
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "Lens",
           "package": "tuple-lenses",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12",
           "package": "tuple-lenses",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123",
           "package": "tuple-lenses",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1234",
           "package": "tuple-lenses",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1234",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12345",
           "package": "tuple-lenses",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12345",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123456",
           "package": "tuple-lenses",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123456",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1234567",
           "package": "tuple-lenses",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1234567",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12345678",
           "package": "tuple-lenses",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12345678",
           "normalized": "((a,a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123456789",
           "package": "tuple-lenses",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123456789",
           "normalized": "((a,a,a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12345679",
           "package": "tuple-lenses",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12345679",
           "normalized": "((a,a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1234568",
           "package": "tuple-lenses",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1234568",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12345689",
           "package": "tuple-lenses",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12345689",
           "normalized": "((a,a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1234569",
           "package": "tuple-lenses",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1234569",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123457",
           "package": "tuple-lenses",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123457",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1234578",
           "package": "tuple-lenses",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1234578",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12345789",
           "package": "tuple-lenses",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12345789",
           "normalized": "((a,a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1234579",
           "package": "tuple-lenses",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1234579",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123458",
           "package": "tuple-lenses",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123458",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1234589",
           "package": "tuple-lenses",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1234589",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123459",
           "package": "tuple-lenses",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123459",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12346",
           "package": "tuple-lenses",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12346",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123467",
           "package": "tuple-lenses",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123467",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1234678",
           "package": "tuple-lenses",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1234678",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12346789",
           "package": "tuple-lenses",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12346789",
           "normalized": "((a,a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1234679",
           "package": "tuple-lenses",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1234679",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123468",
           "package": "tuple-lenses",
@@ -602,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123468",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1234689",
           "package": "tuple-lenses",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1234689",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123469",
           "package": "tuple-lenses",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123469",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12347",
           "package": "tuple-lenses",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12347",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123478",
           "package": "tuple-lenses",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123478",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -708,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1234789",
           "package": "tuple-lenses",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1234789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123479",
           "package": "tuple-lenses",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123479",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -754,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12348",
           "package": "tuple-lenses",
@@ -763,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12348",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123489",
           "package": "tuple-lenses",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123489",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12349",
           "package": "tuple-lenses",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12349",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1235",
           "package": "tuple-lenses",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1235",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -846,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12356",
           "package": "tuple-lenses",
@@ -855,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12356",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123567",
           "package": "tuple-lenses",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123567",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1235678",
           "package": "tuple-lenses",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1235678",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12356789",
           "package": "tuple-lenses",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12356789",
           "normalized": "((a,a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1235679",
           "package": "tuple-lenses",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1235679",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -961,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123568",
           "package": "tuple-lenses",
@@ -970,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123568",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1235689",
           "package": "tuple-lenses",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1235689",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1007,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123569",
           "package": "tuple-lenses",
@@ -1016,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123569",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1030,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12357",
           "package": "tuple-lenses",
@@ -1039,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12357",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1053,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123578",
           "package": "tuple-lenses",
@@ -1062,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123578",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1235789",
           "package": "tuple-lenses",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1235789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123579",
           "package": "tuple-lenses",
@@ -1108,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123579",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1122,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12358",
           "package": "tuple-lenses",
@@ -1131,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12358",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1145,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123589",
           "package": "tuple-lenses",
@@ -1154,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123589",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1168,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12359",
           "package": "tuple-lenses",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12359",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1236",
           "package": "tuple-lenses",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1236",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -1214,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12367",
           "package": "tuple-lenses",
@@ -1223,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12367",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1237,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123678",
           "package": "tuple-lenses",
@@ -1246,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123678",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1260,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1236789",
           "package": "tuple-lenses",
@@ -1269,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1236789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1283,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123679",
           "package": "tuple-lenses",
@@ -1292,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123679",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1306,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12368",
           "package": "tuple-lenses",
@@ -1315,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12368",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1329,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123689",
           "package": "tuple-lenses",
@@ -1338,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123689",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1352,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12369",
           "package": "tuple-lenses",
@@ -1361,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12369",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1375,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1237",
           "package": "tuple-lenses",
@@ -1384,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1237",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -1398,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12378",
           "package": "tuple-lenses",
@@ -1407,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12378",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1421,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_123789",
           "package": "tuple-lenses",
@@ -1430,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_123789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1444,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12379",
           "package": "tuple-lenses",
@@ -1453,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12379",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1467,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1238",
           "package": "tuple-lenses",
@@ -1476,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1238",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -1490,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12389",
           "package": "tuple-lenses",
@@ -1499,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12389",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1513,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1239",
           "package": "tuple-lenses",
@@ -1522,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1239",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -1536,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_124",
           "package": "tuple-lenses",
@@ -1545,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_124",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -1559,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1245",
           "package": "tuple-lenses",
@@ -1568,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1245",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -1582,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12456",
           "package": "tuple-lenses",
@@ -1591,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12456",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1605,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_124567",
           "package": "tuple-lenses",
@@ -1614,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_124567",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1628,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1245678",
           "package": "tuple-lenses",
@@ -1637,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1245678",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1651,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12456789",
           "package": "tuple-lenses",
@@ -1660,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12456789",
           "normalized": "((a,a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1674,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1245679",
           "package": "tuple-lenses",
@@ -1683,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1245679",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1697,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_124568",
           "package": "tuple-lenses",
@@ -1706,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_124568",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1720,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1245689",
           "package": "tuple-lenses",
@@ -1729,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1245689",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1743,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_124569",
           "package": "tuple-lenses",
@@ -1752,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_124569",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1766,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12457",
           "package": "tuple-lenses",
@@ -1775,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12457",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1789,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_124578",
           "package": "tuple-lenses",
@@ -1798,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_124578",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1812,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1245789",
           "package": "tuple-lenses",
@@ -1821,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1245789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1835,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_124579",
           "package": "tuple-lenses",
@@ -1844,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_124579",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1858,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12458",
           "package": "tuple-lenses",
@@ -1867,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12458",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1881,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_124589",
           "package": "tuple-lenses",
@@ -1890,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_124589",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1904,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12459",
           "package": "tuple-lenses",
@@ -1913,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12459",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1927,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1246",
           "package": "tuple-lenses",
@@ -1936,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1246",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -1950,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12467",
           "package": "tuple-lenses",
@@ -1959,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12467",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1973,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_124678",
           "package": "tuple-lenses",
@@ -1982,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_124678",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -1996,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1246789",
           "package": "tuple-lenses",
@@ -2005,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1246789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2019,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_124679",
           "package": "tuple-lenses",
@@ -2028,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_124679",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2042,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12468",
           "package": "tuple-lenses",
@@ -2051,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12468",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2065,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_124689",
           "package": "tuple-lenses",
@@ -2074,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_124689",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2088,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12469",
           "package": "tuple-lenses",
@@ -2097,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12469",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2111,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1247",
           "package": "tuple-lenses",
@@ -2120,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1247",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2134,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12478",
           "package": "tuple-lenses",
@@ -2143,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12478",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2157,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_124789",
           "package": "tuple-lenses",
@@ -2166,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_124789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2180,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12479",
           "package": "tuple-lenses",
@@ -2189,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12479",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2203,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1248",
           "package": "tuple-lenses",
@@ -2212,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1248",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2226,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12489",
           "package": "tuple-lenses",
@@ -2235,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12489",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2249,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1249",
           "package": "tuple-lenses",
@@ -2258,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1249",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2272,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_125",
           "package": "tuple-lenses",
@@ -2281,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_125",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -2295,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1256",
           "package": "tuple-lenses",
@@ -2304,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1256",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2318,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12567",
           "package": "tuple-lenses",
@@ -2327,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12567",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2341,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_125678",
           "package": "tuple-lenses",
@@ -2350,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_125678",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2364,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1256789",
           "package": "tuple-lenses",
@@ -2373,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1256789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2387,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_125679",
           "package": "tuple-lenses",
@@ -2396,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_125679",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2410,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12568",
           "package": "tuple-lenses",
@@ -2419,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12568",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2433,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_125689",
           "package": "tuple-lenses",
@@ -2442,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_125689",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2456,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12569",
           "package": "tuple-lenses",
@@ -2465,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12569",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2479,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1257",
           "package": "tuple-lenses",
@@ -2488,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1257",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2502,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12578",
           "package": "tuple-lenses",
@@ -2511,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12578",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2525,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_125789",
           "package": "tuple-lenses",
@@ -2534,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_125789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2548,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12579",
           "package": "tuple-lenses",
@@ -2557,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12579",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2571,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1258",
           "package": "tuple-lenses",
@@ -2580,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1258",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2594,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12589",
           "package": "tuple-lenses",
@@ -2603,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12589",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2617,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1259",
           "package": "tuple-lenses",
@@ -2626,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1259",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2640,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_126",
           "package": "tuple-lenses",
@@ -2649,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_126",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -2663,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1267",
           "package": "tuple-lenses",
@@ -2672,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1267",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2686,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12678",
           "package": "tuple-lenses",
@@ -2695,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12678",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2709,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_126789",
           "package": "tuple-lenses",
@@ -2718,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_126789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2732,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12679",
           "package": "tuple-lenses",
@@ -2741,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12679",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2755,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1268",
           "package": "tuple-lenses",
@@ -2764,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1268",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2778,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12689",
           "package": "tuple-lenses",
@@ -2787,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12689",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2801,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1269",
           "package": "tuple-lenses",
@@ -2810,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1269",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2824,6 +3068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_127",
           "package": "tuple-lenses",
@@ -2833,6 +3078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_127",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -2847,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1278",
           "package": "tuple-lenses",
@@ -2856,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1278",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2870,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_12789",
           "package": "tuple-lenses",
@@ -2879,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_12789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -2893,6 +3143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1279",
           "package": "tuple-lenses",
@@ -2902,6 +3153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1279",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2916,6 +3168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_128",
           "package": "tuple-lenses",
@@ -2925,6 +3178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_128",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -2939,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1289",
           "package": "tuple-lenses",
@@ -2948,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1289",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -2962,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_129",
           "package": "tuple-lenses",
@@ -2971,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_129",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -2985,6 +3243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13",
           "package": "tuple-lenses",
@@ -2994,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -3008,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_134",
           "package": "tuple-lenses",
@@ -3017,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_134",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -3031,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1345",
           "package": "tuple-lenses",
@@ -3040,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1345",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -3054,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13456",
           "package": "tuple-lenses",
@@ -3063,6 +3328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13456",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3077,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_134567",
           "package": "tuple-lenses",
@@ -3086,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_134567",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3100,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1345678",
           "package": "tuple-lenses",
@@ -3109,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1345678",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3123,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13456789",
           "package": "tuple-lenses",
@@ -3132,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13456789",
           "normalized": "((a,a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3146,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1345679",
           "package": "tuple-lenses",
@@ -3155,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1345679",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3169,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_134568",
           "package": "tuple-lenses",
@@ -3178,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_134568",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3192,6 +3468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1345689",
           "package": "tuple-lenses",
@@ -3201,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1345689",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3215,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_134569",
           "package": "tuple-lenses",
@@ -3224,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_134569",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3238,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13457",
           "package": "tuple-lenses",
@@ -3247,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13457",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3261,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_134578",
           "package": "tuple-lenses",
@@ -3270,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_134578",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3284,6 +3568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1345789",
           "package": "tuple-lenses",
@@ -3293,6 +3578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1345789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3307,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_134579",
           "package": "tuple-lenses",
@@ -3316,6 +3603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_134579",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3330,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13458",
           "package": "tuple-lenses",
@@ -3339,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13458",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3353,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_134589",
           "package": "tuple-lenses",
@@ -3362,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_134589",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3376,6 +3668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13459",
           "package": "tuple-lenses",
@@ -3385,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13459",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3399,6 +3693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1346",
           "package": "tuple-lenses",
@@ -3408,6 +3703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1346",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -3422,6 +3718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13467",
           "package": "tuple-lenses",
@@ -3431,6 +3728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13467",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3445,6 +3743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_134678",
           "package": "tuple-lenses",
@@ -3454,6 +3753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_134678",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3468,6 +3768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1346789",
           "package": "tuple-lenses",
@@ -3477,6 +3778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1346789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3491,6 +3793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_134679",
           "package": "tuple-lenses",
@@ -3500,6 +3803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_134679",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3514,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13468",
           "package": "tuple-lenses",
@@ -3523,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13468",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3537,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_134689",
           "package": "tuple-lenses",
@@ -3546,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_134689",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3560,6 +3868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13469",
           "package": "tuple-lenses",
@@ -3569,6 +3878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13469",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3583,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1347",
           "package": "tuple-lenses",
@@ -3592,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1347",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -3606,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13478",
           "package": "tuple-lenses",
@@ -3615,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13478",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3629,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_134789",
           "package": "tuple-lenses",
@@ -3638,6 +3953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_134789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3652,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13479",
           "package": "tuple-lenses",
@@ -3661,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13479",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3675,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1348",
           "package": "tuple-lenses",
@@ -3684,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1348",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -3698,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13489",
           "package": "tuple-lenses",
@@ -3707,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13489",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3721,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1349",
           "package": "tuple-lenses",
@@ -3730,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1349",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -3744,6 +4068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_135",
           "package": "tuple-lenses",
@@ -3753,6 +4078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_135",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -3767,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1356",
           "package": "tuple-lenses",
@@ -3776,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1356",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -3790,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13567",
           "package": "tuple-lenses",
@@ -3799,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13567",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3813,6 +4143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_135678",
           "package": "tuple-lenses",
@@ -3822,6 +4153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_135678",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3836,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1356789",
           "package": "tuple-lenses",
@@ -3845,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1356789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3859,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_135679",
           "package": "tuple-lenses",
@@ -3868,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_135679",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3882,6 +4218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13568",
           "package": "tuple-lenses",
@@ -3891,6 +4228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13568",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3905,6 +4243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_135689",
           "package": "tuple-lenses",
@@ -3914,6 +4253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_135689",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3928,6 +4268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13569",
           "package": "tuple-lenses",
@@ -3937,6 +4278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13569",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3951,6 +4293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1357",
           "package": "tuple-lenses",
@@ -3960,6 +4303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1357",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -3974,6 +4318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13578",
           "package": "tuple-lenses",
@@ -3983,6 +4328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13578",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -3997,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_135789",
           "package": "tuple-lenses",
@@ -4006,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_135789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4020,6 +4368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13579",
           "package": "tuple-lenses",
@@ -4029,6 +4378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13579",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4043,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1358",
           "package": "tuple-lenses",
@@ -4052,6 +4403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1358",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4066,6 +4418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13589",
           "package": "tuple-lenses",
@@ -4075,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13589",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4089,6 +4443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1359",
           "package": "tuple-lenses",
@@ -4098,6 +4453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1359",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4112,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_136",
           "package": "tuple-lenses",
@@ -4121,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_136",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -4135,6 +4493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1367",
           "package": "tuple-lenses",
@@ -4144,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1367",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4158,6 +4518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13678",
           "package": "tuple-lenses",
@@ -4167,6 +4528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13678",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4181,6 +4543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_136789",
           "package": "tuple-lenses",
@@ -4190,6 +4553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_136789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4204,6 +4568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13679",
           "package": "tuple-lenses",
@@ -4213,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13679",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4227,6 +4593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1368",
           "package": "tuple-lenses",
@@ -4236,6 +4603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1368",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4250,6 +4618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13689",
           "package": "tuple-lenses",
@@ -4259,6 +4628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13689",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4273,6 +4643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1369",
           "package": "tuple-lenses",
@@ -4282,6 +4653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1369",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4296,6 +4668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_137",
           "package": "tuple-lenses",
@@ -4305,6 +4678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_137",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -4319,6 +4693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1378",
           "package": "tuple-lenses",
@@ -4328,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1378",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4342,6 +4718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_13789",
           "package": "tuple-lenses",
@@ -4351,6 +4728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_13789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4365,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1379",
           "package": "tuple-lenses",
@@ -4374,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1379",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4388,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_138",
           "package": "tuple-lenses",
@@ -4397,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_138",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -4411,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1389",
           "package": "tuple-lenses",
@@ -4420,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1389",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4434,6 +4818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_139",
           "package": "tuple-lenses",
@@ -4443,6 +4828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_139",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -4457,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_14",
           "package": "tuple-lenses",
@@ -4466,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_14",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -4480,6 +4868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_145",
           "package": "tuple-lenses",
@@ -4489,6 +4878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_145",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -4503,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1456",
           "package": "tuple-lenses",
@@ -4512,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1456",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4526,6 +4918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_14567",
           "package": "tuple-lenses",
@@ -4535,6 +4928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_14567",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4549,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_145678",
           "package": "tuple-lenses",
@@ -4558,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_145678",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4572,6 +4968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1456789",
           "package": "tuple-lenses",
@@ -4581,6 +4978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1456789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4595,6 +4993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_145679",
           "package": "tuple-lenses",
@@ -4604,6 +5003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_145679",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4618,6 +5018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_14568",
           "package": "tuple-lenses",
@@ -4627,6 +5028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_14568",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4641,6 +5043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_145689",
           "package": "tuple-lenses",
@@ -4650,6 +5053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_145689",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4664,6 +5068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_14569",
           "package": "tuple-lenses",
@@ -4673,6 +5078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_14569",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4687,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1457",
           "package": "tuple-lenses",
@@ -4696,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1457",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4710,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_14578",
           "package": "tuple-lenses",
@@ -4719,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_14578",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4733,6 +5143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_145789",
           "package": "tuple-lenses",
@@ -4742,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_145789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4756,6 +5168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_14579",
           "package": "tuple-lenses",
@@ -4765,6 +5178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_14579",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4779,6 +5193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1458",
           "package": "tuple-lenses",
@@ -4788,6 +5203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1458",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4802,6 +5218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_14589",
           "package": "tuple-lenses",
@@ -4811,6 +5228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_14589",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4825,6 +5243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1459",
           "package": "tuple-lenses",
@@ -4834,6 +5253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1459",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4848,6 +5268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_146",
           "package": "tuple-lenses",
@@ -4857,6 +5278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_146",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -4871,6 +5293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1467",
           "package": "tuple-lenses",
@@ -4880,6 +5303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1467",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4894,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_14678",
           "package": "tuple-lenses",
@@ -4903,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_14678",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4917,6 +5343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_146789",
           "package": "tuple-lenses",
@@ -4926,6 +5353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_146789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4940,6 +5368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_14679",
           "package": "tuple-lenses",
@@ -4949,6 +5378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_14679",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -4963,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1468",
           "package": "tuple-lenses",
@@ -4972,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1468",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -4986,6 +5418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_14689",
           "package": "tuple-lenses",
@@ -4995,6 +5428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_14689",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -5009,6 +5443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1469",
           "package": "tuple-lenses",
@@ -5018,6 +5453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1469",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5032,6 +5468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_147",
           "package": "tuple-lenses",
@@ -5041,6 +5478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_147",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5055,6 +5493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1478",
           "package": "tuple-lenses",
@@ -5064,6 +5503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1478",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5078,6 +5518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_14789",
           "package": "tuple-lenses",
@@ -5087,6 +5528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_14789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -5101,6 +5543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1479",
           "package": "tuple-lenses",
@@ -5110,6 +5553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1479",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5124,6 +5568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_148",
           "package": "tuple-lenses",
@@ -5133,6 +5578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_148",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5147,6 +5593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1489",
           "package": "tuple-lenses",
@@ -5156,6 +5603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1489",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5170,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_149",
           "package": "tuple-lenses",
@@ -5179,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_149",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5193,6 +5643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_15",
           "package": "tuple-lenses",
@@ -5202,6 +5653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_15",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -5216,6 +5668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_156",
           "package": "tuple-lenses",
@@ -5225,6 +5678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_156",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5239,6 +5693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1567",
           "package": "tuple-lenses",
@@ -5248,6 +5703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1567",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5262,6 +5718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_15678",
           "package": "tuple-lenses",
@@ -5271,6 +5728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_15678",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -5285,6 +5743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_156789",
           "package": "tuple-lenses",
@@ -5294,6 +5753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_156789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -5308,6 +5768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_15679",
           "package": "tuple-lenses",
@@ -5317,6 +5778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_15679",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -5331,6 +5793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1568",
           "package": "tuple-lenses",
@@ -5340,6 +5803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1568",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5354,6 +5818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_15689",
           "package": "tuple-lenses",
@@ -5363,6 +5828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_15689",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -5377,6 +5843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1569",
           "package": "tuple-lenses",
@@ -5386,6 +5853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1569",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5400,6 +5868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_157",
           "package": "tuple-lenses",
@@ -5409,6 +5878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_157",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5423,6 +5893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1578",
           "package": "tuple-lenses",
@@ -5432,6 +5903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1578",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5446,6 +5918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_15789",
           "package": "tuple-lenses",
@@ -5455,6 +5928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_15789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -5469,6 +5943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1579",
           "package": "tuple-lenses",
@@ -5478,6 +5953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1579",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5492,6 +5968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_158",
           "package": "tuple-lenses",
@@ -5501,6 +5978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_158",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5515,6 +5993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1589",
           "package": "tuple-lenses",
@@ -5524,6 +6003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1589",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5538,6 +6018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_159",
           "package": "tuple-lenses",
@@ -5547,6 +6028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_159",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5561,6 +6043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_16",
           "package": "tuple-lenses",
@@ -5570,6 +6053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_16",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -5584,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_167",
           "package": "tuple-lenses",
@@ -5593,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_167",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5607,6 +6093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1678",
           "package": "tuple-lenses",
@@ -5616,6 +6103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1678",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5630,6 +6118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_16789",
           "package": "tuple-lenses",
@@ -5639,6 +6128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_16789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -5653,6 +6143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1679",
           "package": "tuple-lenses",
@@ -5662,6 +6153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1679",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5676,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_168",
           "package": "tuple-lenses",
@@ -5685,6 +6178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_168",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5699,6 +6193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1689",
           "package": "tuple-lenses",
@@ -5708,6 +6203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1689",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5722,6 +6218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_169",
           "package": "tuple-lenses",
@@ -5731,6 +6228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_169",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5745,6 +6243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_17",
           "package": "tuple-lenses",
@@ -5754,6 +6253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_17",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -5768,6 +6268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_178",
           "package": "tuple-lenses",
@@ -5777,6 +6278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_178",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5791,6 +6293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_1789",
           "package": "tuple-lenses",
@@ -5800,6 +6303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_1789",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5814,6 +6318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_179",
           "package": "tuple-lenses",
@@ -5823,6 +6328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_179",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5837,6 +6343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_18",
           "package": "tuple-lenses",
@@ -5846,6 +6353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_18",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -5860,6 +6368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_189",
           "package": "tuple-lenses",
@@ -5869,6 +6378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_189",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5883,6 +6393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_19",
           "package": "tuple-lenses",
@@ -5892,6 +6403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_19",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -5906,6 +6418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23",
           "package": "tuple-lenses",
@@ -5915,6 +6428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -5929,6 +6443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_234",
           "package": "tuple-lenses",
@@ -5938,6 +6453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_234",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -5952,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2345",
           "package": "tuple-lenses",
@@ -5961,6 +6478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2345",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -5975,6 +6493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23456",
           "package": "tuple-lenses",
@@ -5984,6 +6503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23456",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -5998,6 +6518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_234567",
           "package": "tuple-lenses",
@@ -6007,6 +6528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_234567",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6021,6 +6543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2345678",
           "package": "tuple-lenses",
@@ -6030,6 +6553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2345678",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6044,6 +6568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23456789",
           "package": "tuple-lenses",
@@ -6053,6 +6578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23456789",
           "normalized": "((a,a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6067,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2345679",
           "package": "tuple-lenses",
@@ -6076,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2345679",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6090,6 +6618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_234568",
           "package": "tuple-lenses",
@@ -6099,6 +6628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_234568",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6113,6 +6643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2345689",
           "package": "tuple-lenses",
@@ -6122,6 +6653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2345689",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6136,6 +6668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_234569",
           "package": "tuple-lenses",
@@ -6145,6 +6678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_234569",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6159,6 +6693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23457",
           "package": "tuple-lenses",
@@ -6168,6 +6703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23457",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6182,6 +6718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_234578",
           "package": "tuple-lenses",
@@ -6191,6 +6728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_234578",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6205,6 +6743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2345789",
           "package": "tuple-lenses",
@@ -6214,6 +6753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2345789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6228,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_234579",
           "package": "tuple-lenses",
@@ -6237,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_234579",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6251,6 +6793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23458",
           "package": "tuple-lenses",
@@ -6260,6 +6803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23458",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6274,6 +6818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_234589",
           "package": "tuple-lenses",
@@ -6283,6 +6828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_234589",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6297,6 +6843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23459",
           "package": "tuple-lenses",
@@ -6306,6 +6853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23459",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6320,6 +6868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2346",
           "package": "tuple-lenses",
@@ -6329,6 +6878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2346",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -6343,6 +6893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23467",
           "package": "tuple-lenses",
@@ -6352,6 +6903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23467",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6366,6 +6918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_234678",
           "package": "tuple-lenses",
@@ -6375,6 +6928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_234678",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6389,6 +6943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2346789",
           "package": "tuple-lenses",
@@ -6398,6 +6953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2346789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6412,6 +6968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_234679",
           "package": "tuple-lenses",
@@ -6421,6 +6978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_234679",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6435,6 +6993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23468",
           "package": "tuple-lenses",
@@ -6444,6 +7003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23468",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6458,6 +7018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_234689",
           "package": "tuple-lenses",
@@ -6467,6 +7028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_234689",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6481,6 +7043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23469",
           "package": "tuple-lenses",
@@ -6490,6 +7053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23469",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6504,6 +7068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2347",
           "package": "tuple-lenses",
@@ -6513,6 +7078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2347",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -6527,6 +7093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23478",
           "package": "tuple-lenses",
@@ -6536,6 +7103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23478",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6550,6 +7118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_234789",
           "package": "tuple-lenses",
@@ -6559,6 +7128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_234789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6573,6 +7143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23479",
           "package": "tuple-lenses",
@@ -6582,6 +7153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23479",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6596,6 +7168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2348",
           "package": "tuple-lenses",
@@ -6605,6 +7178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2348",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -6619,6 +7193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23489",
           "package": "tuple-lenses",
@@ -6628,6 +7203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23489",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6642,6 +7218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2349",
           "package": "tuple-lenses",
@@ -6651,6 +7228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2349",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -6665,6 +7243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_235",
           "package": "tuple-lenses",
@@ -6674,6 +7253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_235",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -6688,6 +7268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2356",
           "package": "tuple-lenses",
@@ -6697,6 +7278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2356",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -6711,6 +7293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23567",
           "package": "tuple-lenses",
@@ -6720,6 +7303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23567",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6734,6 +7318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_235678",
           "package": "tuple-lenses",
@@ -6743,6 +7328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_235678",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6757,6 +7343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2356789",
           "package": "tuple-lenses",
@@ -6766,6 +7353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2356789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6780,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_235679",
           "package": "tuple-lenses",
@@ -6789,6 +7378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_235679",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6803,6 +7393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23568",
           "package": "tuple-lenses",
@@ -6812,6 +7403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23568",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6826,6 +7418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_235689",
           "package": "tuple-lenses",
@@ -6835,6 +7428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_235689",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6849,6 +7443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23569",
           "package": "tuple-lenses",
@@ -6858,6 +7453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23569",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6872,6 +7468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2357",
           "package": "tuple-lenses",
@@ -6881,6 +7478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2357",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -6895,6 +7493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23578",
           "package": "tuple-lenses",
@@ -6904,6 +7503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23578",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6918,6 +7518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_235789",
           "package": "tuple-lenses",
@@ -6927,6 +7528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_235789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6941,6 +7543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23579",
           "package": "tuple-lenses",
@@ -6950,6 +7553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23579",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -6964,6 +7568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2358",
           "package": "tuple-lenses",
@@ -6973,6 +7578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2358",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -6987,6 +7593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23589",
           "package": "tuple-lenses",
@@ -6996,6 +7603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23589",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7010,6 +7618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2359",
           "package": "tuple-lenses",
@@ -7019,6 +7628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2359",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7033,6 +7643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_236",
           "package": "tuple-lenses",
@@ -7042,6 +7653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_236",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -7056,6 +7668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2367",
           "package": "tuple-lenses",
@@ -7065,6 +7678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2367",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7079,6 +7693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23678",
           "package": "tuple-lenses",
@@ -7088,6 +7703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23678",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7102,6 +7718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_236789",
           "package": "tuple-lenses",
@@ -7111,6 +7728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_236789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7125,6 +7743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23679",
           "package": "tuple-lenses",
@@ -7134,6 +7753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23679",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7148,6 +7768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2368",
           "package": "tuple-lenses",
@@ -7157,6 +7778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2368",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7171,6 +7793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23689",
           "package": "tuple-lenses",
@@ -7180,6 +7803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23689",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7194,6 +7818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2369",
           "package": "tuple-lenses",
@@ -7203,6 +7828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2369",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7217,6 +7843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_237",
           "package": "tuple-lenses",
@@ -7226,6 +7853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_237",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -7240,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2378",
           "package": "tuple-lenses",
@@ -7249,6 +7878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2378",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7263,6 +7893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_23789",
           "package": "tuple-lenses",
@@ -7272,6 +7903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_23789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7286,6 +7918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2379",
           "package": "tuple-lenses",
@@ -7295,6 +7928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2379",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7309,6 +7943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_238",
           "package": "tuple-lenses",
@@ -7318,6 +7953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_238",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -7332,6 +7968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2389",
           "package": "tuple-lenses",
@@ -7341,6 +7978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2389",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7355,6 +7993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_239",
           "package": "tuple-lenses",
@@ -7364,6 +8003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_239",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -7378,6 +8018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_24",
           "package": "tuple-lenses",
@@ -7387,6 +8028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_24",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -7401,6 +8043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_245",
           "package": "tuple-lenses",
@@ -7410,6 +8053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_245",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -7424,6 +8068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2456",
           "package": "tuple-lenses",
@@ -7433,6 +8078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2456",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7447,6 +8093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_24567",
           "package": "tuple-lenses",
@@ -7456,6 +8103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_24567",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7470,6 +8118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_245678",
           "package": "tuple-lenses",
@@ -7479,6 +8128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_245678",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7493,6 +8143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2456789",
           "package": "tuple-lenses",
@@ -7502,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2456789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7516,6 +8168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_245679",
           "package": "tuple-lenses",
@@ -7525,6 +8178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_245679",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7539,6 +8193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_24568",
           "package": "tuple-lenses",
@@ -7548,6 +8203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_24568",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7562,6 +8218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_245689",
           "package": "tuple-lenses",
@@ -7571,6 +8228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_245689",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7585,6 +8243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_24569",
           "package": "tuple-lenses",
@@ -7594,6 +8253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_24569",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7608,6 +8268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2457",
           "package": "tuple-lenses",
@@ -7617,6 +8278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2457",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7631,6 +8293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_24578",
           "package": "tuple-lenses",
@@ -7640,6 +8303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_24578",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7654,6 +8318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_245789",
           "package": "tuple-lenses",
@@ -7663,6 +8328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_245789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7677,6 +8343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_24579",
           "package": "tuple-lenses",
@@ -7686,6 +8353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_24579",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7700,6 +8368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2458",
           "package": "tuple-lenses",
@@ -7709,6 +8378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2458",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7723,6 +8393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_24589",
           "package": "tuple-lenses",
@@ -7732,6 +8403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_24589",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7746,6 +8418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2459",
           "package": "tuple-lenses",
@@ -7755,6 +8428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2459",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7769,6 +8443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_246",
           "package": "tuple-lenses",
@@ -7778,6 +8453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_246",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -7792,6 +8468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2467",
           "package": "tuple-lenses",
@@ -7801,6 +8478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2467",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7815,6 +8493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_24678",
           "package": "tuple-lenses",
@@ -7824,6 +8503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_24678",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7838,6 +8518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_246789",
           "package": "tuple-lenses",
@@ -7847,6 +8528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_246789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7861,6 +8543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_24679",
           "package": "tuple-lenses",
@@ -7870,6 +8553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_24679",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7884,6 +8568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2468",
           "package": "tuple-lenses",
@@ -7893,6 +8578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2468",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7907,6 +8593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_24689",
           "package": "tuple-lenses",
@@ -7916,6 +8603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_24689",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -7930,6 +8618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2469",
           "package": "tuple-lenses",
@@ -7939,6 +8628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2469",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7953,6 +8643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_247",
           "package": "tuple-lenses",
@@ -7962,6 +8653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_247",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -7976,6 +8668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2478",
           "package": "tuple-lenses",
@@ -7985,6 +8678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2478",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -7999,6 +8693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_24789",
           "package": "tuple-lenses",
@@ -8008,6 +8703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_24789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -8022,6 +8718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2479",
           "package": "tuple-lenses",
@@ -8031,6 +8728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2479",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8045,6 +8743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_248",
           "package": "tuple-lenses",
@@ -8054,6 +8753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_248",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8068,6 +8768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2489",
           "package": "tuple-lenses",
@@ -8077,6 +8778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2489",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8091,6 +8793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_249",
           "package": "tuple-lenses",
@@ -8100,6 +8803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_249",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8114,6 +8818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_25",
           "package": "tuple-lenses",
@@ -8123,6 +8828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_25",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -8137,6 +8843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_256",
           "package": "tuple-lenses",
@@ -8146,6 +8853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_256",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8160,6 +8868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2567",
           "package": "tuple-lenses",
@@ -8169,6 +8878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2567",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8183,6 +8893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_25678",
           "package": "tuple-lenses",
@@ -8192,6 +8903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_25678",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -8206,6 +8918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_256789",
           "package": "tuple-lenses",
@@ -8215,6 +8928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_256789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -8229,6 +8943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_25679",
           "package": "tuple-lenses",
@@ -8238,6 +8953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_25679",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -8252,6 +8968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2568",
           "package": "tuple-lenses",
@@ -8261,6 +8978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2568",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8275,6 +8993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_25689",
           "package": "tuple-lenses",
@@ -8284,6 +9003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_25689",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -8298,6 +9018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2569",
           "package": "tuple-lenses",
@@ -8307,6 +9028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2569",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8321,6 +9043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_257",
           "package": "tuple-lenses",
@@ -8330,6 +9053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_257",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8344,6 +9068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2578",
           "package": "tuple-lenses",
@@ -8353,6 +9078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2578",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8367,6 +9093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_25789",
           "package": "tuple-lenses",
@@ -8376,6 +9103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_25789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -8390,6 +9118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2579",
           "package": "tuple-lenses",
@@ -8399,6 +9128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2579",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8413,6 +9143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_258",
           "package": "tuple-lenses",
@@ -8422,6 +9153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_258",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8436,6 +9168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2589",
           "package": "tuple-lenses",
@@ -8445,6 +9178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2589",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8459,6 +9193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_259",
           "package": "tuple-lenses",
@@ -8468,6 +9203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_259",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8482,6 +9218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_26",
           "package": "tuple-lenses",
@@ -8491,6 +9228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_26",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -8505,6 +9243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_267",
           "package": "tuple-lenses",
@@ -8514,6 +9253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_267",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8528,6 +9268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2678",
           "package": "tuple-lenses",
@@ -8537,6 +9278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2678",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8551,6 +9293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_26789",
           "package": "tuple-lenses",
@@ -8560,6 +9303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_26789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -8574,6 +9318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2679",
           "package": "tuple-lenses",
@@ -8583,6 +9328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2679",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8597,6 +9343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_268",
           "package": "tuple-lenses",
@@ -8606,6 +9353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_268",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8620,6 +9368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2689",
           "package": "tuple-lenses",
@@ -8629,6 +9378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2689",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8643,6 +9393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_269",
           "package": "tuple-lenses",
@@ -8652,6 +9403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_269",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8666,6 +9418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_27",
           "package": "tuple-lenses",
@@ -8675,6 +9428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_27",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -8689,6 +9443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_278",
           "package": "tuple-lenses",
@@ -8698,6 +9453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_278",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8712,6 +9468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_2789",
           "package": "tuple-lenses",
@@ -8721,6 +9478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_2789",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8735,6 +9493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_279",
           "package": "tuple-lenses",
@@ -8744,6 +9503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_279",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8758,6 +9518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_28",
           "package": "tuple-lenses",
@@ -8767,6 +9528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_28",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -8781,6 +9543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_289",
           "package": "tuple-lenses",
@@ -8790,6 +9553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_289",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8804,6 +9568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_29",
           "package": "tuple-lenses",
@@ -8813,6 +9578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_29",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -8827,6 +9593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_34",
           "package": "tuple-lenses",
@@ -8836,6 +9603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_34",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -8850,6 +9618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_345",
           "package": "tuple-lenses",
@@ -8859,6 +9628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_345",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -8873,6 +9643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3456",
           "package": "tuple-lenses",
@@ -8882,6 +9653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3456",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -8896,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_34567",
           "package": "tuple-lenses",
@@ -8905,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_34567",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -8919,6 +9693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_345678",
           "package": "tuple-lenses",
@@ -8928,6 +9703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_345678",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -8942,6 +9718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3456789",
           "package": "tuple-lenses",
@@ -8951,6 +9728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3456789",
           "normalized": "((a,a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -8965,6 +9743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_345679",
           "package": "tuple-lenses",
@@ -8974,6 +9753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_345679",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -8988,6 +9768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_34568",
           "package": "tuple-lenses",
@@ -8997,6 +9778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_34568",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9011,6 +9793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_345689",
           "package": "tuple-lenses",
@@ -9020,6 +9803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_345689",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9034,6 +9818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_34569",
           "package": "tuple-lenses",
@@ -9043,6 +9828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_34569",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9057,6 +9843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3457",
           "package": "tuple-lenses",
@@ -9066,6 +9853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3457",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9080,6 +9868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_34578",
           "package": "tuple-lenses",
@@ -9089,6 +9878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_34578",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9103,6 +9893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_345789",
           "package": "tuple-lenses",
@@ -9112,6 +9903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_345789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9126,6 +9918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_34579",
           "package": "tuple-lenses",
@@ -9135,6 +9928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_34579",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9149,6 +9943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3458",
           "package": "tuple-lenses",
@@ -9158,6 +9953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3458",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9172,6 +9968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_34589",
           "package": "tuple-lenses",
@@ -9181,6 +9978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_34589",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9195,6 +9993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3459",
           "package": "tuple-lenses",
@@ -9204,6 +10003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3459",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9218,6 +10018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_346",
           "package": "tuple-lenses",
@@ -9227,6 +10028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_346",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -9241,6 +10043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3467",
           "package": "tuple-lenses",
@@ -9250,6 +10053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3467",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9264,6 +10068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_34678",
           "package": "tuple-lenses",
@@ -9273,6 +10078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_34678",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9287,6 +10093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_346789",
           "package": "tuple-lenses",
@@ -9296,6 +10103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_346789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9310,6 +10118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_34679",
           "package": "tuple-lenses",
@@ -9319,6 +10128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_34679",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9333,6 +10143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3468",
           "package": "tuple-lenses",
@@ -9342,6 +10153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3468",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9356,6 +10168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_34689",
           "package": "tuple-lenses",
@@ -9365,6 +10178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_34689",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9379,6 +10193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3469",
           "package": "tuple-lenses",
@@ -9388,6 +10203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3469",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9402,6 +10218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_347",
           "package": "tuple-lenses",
@@ -9411,6 +10228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_347",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -9425,6 +10243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3478",
           "package": "tuple-lenses",
@@ -9434,6 +10253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3478",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9448,6 +10268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_34789",
           "package": "tuple-lenses",
@@ -9457,6 +10278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_34789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9471,6 +10293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3479",
           "package": "tuple-lenses",
@@ -9480,6 +10303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3479",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9494,6 +10318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_348",
           "package": "tuple-lenses",
@@ -9503,6 +10328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_348",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -9517,6 +10343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3489",
           "package": "tuple-lenses",
@@ -9526,6 +10353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3489",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9540,6 +10368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_349",
           "package": "tuple-lenses",
@@ -9549,6 +10378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_349",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -9563,6 +10393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_35",
           "package": "tuple-lenses",
@@ -9572,6 +10403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_35",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -9586,6 +10418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_356",
           "package": "tuple-lenses",
@@ -9595,6 +10428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_356",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -9609,6 +10443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3567",
           "package": "tuple-lenses",
@@ -9618,6 +10453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3567",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9632,6 +10468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_35678",
           "package": "tuple-lenses",
@@ -9641,6 +10478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_35678",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9655,6 +10493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_356789",
           "package": "tuple-lenses",
@@ -9664,6 +10503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_356789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9678,6 +10518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_35679",
           "package": "tuple-lenses",
@@ -9687,6 +10528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_35679",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9701,6 +10543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3568",
           "package": "tuple-lenses",
@@ -9710,6 +10553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3568",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9724,6 +10568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_35689",
           "package": "tuple-lenses",
@@ -9733,6 +10578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_35689",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9747,6 +10593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3569",
           "package": "tuple-lenses",
@@ -9756,6 +10603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3569",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9770,6 +10618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_357",
           "package": "tuple-lenses",
@@ -9779,6 +10628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_357",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -9793,6 +10643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3578",
           "package": "tuple-lenses",
@@ -9802,6 +10653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3578",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9816,6 +10668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_35789",
           "package": "tuple-lenses",
@@ -9825,6 +10678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_35789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -9839,6 +10693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3579",
           "package": "tuple-lenses",
@@ -9848,6 +10703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3579",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9862,6 +10718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_358",
           "package": "tuple-lenses",
@@ -9871,6 +10728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_358",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -9885,6 +10743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3589",
           "package": "tuple-lenses",
@@ -9894,6 +10753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3589",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -9908,6 +10768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_359",
           "package": "tuple-lenses",
@@ -9917,6 +10778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_359",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -9931,6 +10793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_36",
           "package": "tuple-lenses",
@@ -9940,6 +10803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_36",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -9954,6 +10818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_367",
           "package": "tuple-lenses",
@@ -9963,6 +10828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_367",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -9977,6 +10843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3678",
           "package": "tuple-lenses",
@@ -9986,6 +10853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3678",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10000,6 +10868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_36789",
           "package": "tuple-lenses",
@@ -10009,6 +10878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_36789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -10023,6 +10893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3679",
           "package": "tuple-lenses",
@@ -10032,6 +10903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3679",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10046,6 +10918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_368",
           "package": "tuple-lenses",
@@ -10055,6 +10928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_368",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10069,6 +10943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3689",
           "package": "tuple-lenses",
@@ -10078,6 +10953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3689",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10092,6 +10968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_369",
           "package": "tuple-lenses",
@@ -10101,6 +10978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_369",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10115,6 +10993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_37",
           "package": "tuple-lenses",
@@ -10124,6 +11003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_37",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -10138,6 +11018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_378",
           "package": "tuple-lenses",
@@ -10147,6 +11028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_378",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10161,6 +11043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_3789",
           "package": "tuple-lenses",
@@ -10170,6 +11053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_3789",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10184,6 +11068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_379",
           "package": "tuple-lenses",
@@ -10193,6 +11078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_379",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10207,6 +11093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_38",
           "package": "tuple-lenses",
@@ -10216,6 +11103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_38",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -10230,6 +11118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_389",
           "package": "tuple-lenses",
@@ -10239,6 +11128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_389",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10253,6 +11143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_39",
           "package": "tuple-lenses",
@@ -10262,6 +11153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_39",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -10276,6 +11168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_45",
           "package": "tuple-lenses",
@@ -10285,6 +11178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_45",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -10299,6 +11193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_456",
           "package": "tuple-lenses",
@@ -10308,6 +11203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_456",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10322,6 +11218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_4567",
           "package": "tuple-lenses",
@@ -10331,6 +11228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_4567",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10345,6 +11243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_45678",
           "package": "tuple-lenses",
@@ -10354,6 +11253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_45678",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -10368,6 +11268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_456789",
           "package": "tuple-lenses",
@@ -10377,6 +11278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_456789",
           "normalized": "((a,a,a,a,a,a)-\u003eb(a,a,a,a,a,a))-\u003ec-\u003eb a",
@@ -10391,6 +11293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_45679",
           "package": "tuple-lenses",
@@ -10400,6 +11303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_45679",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -10414,6 +11318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_4568",
           "package": "tuple-lenses",
@@ -10423,6 +11328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_4568",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10437,6 +11343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_45689",
           "package": "tuple-lenses",
@@ -10446,6 +11353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_45689",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -10460,6 +11368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_4569",
           "package": "tuple-lenses",
@@ -10469,6 +11378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_4569",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10483,6 +11393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_457",
           "package": "tuple-lenses",
@@ -10492,6 +11403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_457",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10506,6 +11418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_4578",
           "package": "tuple-lenses",
@@ -10515,6 +11428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_4578",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10529,6 +11443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_45789",
           "package": "tuple-lenses",
@@ -10538,6 +11453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_45789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -10552,6 +11468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_4579",
           "package": "tuple-lenses",
@@ -10561,6 +11478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_4579",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10575,6 +11493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_458",
           "package": "tuple-lenses",
@@ -10584,6 +11503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_458",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10598,6 +11518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_4589",
           "package": "tuple-lenses",
@@ -10607,6 +11528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_4589",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10621,6 +11543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_459",
           "package": "tuple-lenses",
@@ -10630,6 +11553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_459",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10644,6 +11568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_46",
           "package": "tuple-lenses",
@@ -10653,6 +11578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_46",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -10667,6 +11593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_467",
           "package": "tuple-lenses",
@@ -10676,6 +11603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_467",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10690,6 +11618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_4678",
           "package": "tuple-lenses",
@@ -10699,6 +11628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_4678",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10713,6 +11643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_46789",
           "package": "tuple-lenses",
@@ -10722,6 +11653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_46789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -10736,6 +11668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_4679",
           "package": "tuple-lenses",
@@ -10745,6 +11678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_4679",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10759,6 +11693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_468",
           "package": "tuple-lenses",
@@ -10768,6 +11703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_468",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10782,6 +11718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_4689",
           "package": "tuple-lenses",
@@ -10791,6 +11728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_4689",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10805,6 +11743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_469",
           "package": "tuple-lenses",
@@ -10814,6 +11753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_469",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10828,6 +11768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_47",
           "package": "tuple-lenses",
@@ -10837,6 +11778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_47",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -10851,6 +11793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_478",
           "package": "tuple-lenses",
@@ -10860,6 +11803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_478",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10874,6 +11818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_4789",
           "package": "tuple-lenses",
@@ -10883,6 +11828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_4789",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -10897,6 +11843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_479",
           "package": "tuple-lenses",
@@ -10906,6 +11853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_479",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10920,6 +11868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_48",
           "package": "tuple-lenses",
@@ -10929,6 +11878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_48",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -10943,6 +11893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_489",
           "package": "tuple-lenses",
@@ -10952,6 +11903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_489",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -10966,6 +11918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_49",
           "package": "tuple-lenses",
@@ -10975,6 +11928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_49",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -10989,6 +11943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_56",
           "package": "tuple-lenses",
@@ -10998,6 +11953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_56",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -11012,6 +11968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_567",
           "package": "tuple-lenses",
@@ -11021,6 +11978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_567",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -11035,6 +11993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_5678",
           "package": "tuple-lenses",
@@ -11044,6 +12003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_5678",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -11058,6 +12018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_56789",
           "package": "tuple-lenses",
@@ -11067,6 +12028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_56789",
           "normalized": "((a,a,a,a,a)-\u003eb(a,a,a,a,a))-\u003ec-\u003eb a",
@@ -11081,6 +12043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_5679",
           "package": "tuple-lenses",
@@ -11090,6 +12053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_5679",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -11104,6 +12068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_568",
           "package": "tuple-lenses",
@@ -11113,6 +12078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_568",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -11127,6 +12093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_5689",
           "package": "tuple-lenses",
@@ -11136,6 +12103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_5689",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -11150,6 +12118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_569",
           "package": "tuple-lenses",
@@ -11159,6 +12128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_569",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -11173,6 +12143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_57",
           "package": "tuple-lenses",
@@ -11182,6 +12153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_57",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -11196,6 +12168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_578",
           "package": "tuple-lenses",
@@ -11205,6 +12178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_578",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -11219,6 +12193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_5789",
           "package": "tuple-lenses",
@@ -11228,6 +12203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_5789",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -11242,6 +12218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_579",
           "package": "tuple-lenses",
@@ -11251,6 +12228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_579",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -11265,6 +12243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_58",
           "package": "tuple-lenses",
@@ -11274,6 +12253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_58",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -11288,6 +12268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_589",
           "package": "tuple-lenses",
@@ -11297,6 +12278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_589",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -11311,6 +12293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_59",
           "package": "tuple-lenses",
@@ -11320,6 +12303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_59",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -11334,6 +12318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_67",
           "package": "tuple-lenses",
@@ -11343,6 +12328,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_67",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -11357,6 +12343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_678",
           "package": "tuple-lenses",
@@ -11366,6 +12353,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_678",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -11380,6 +12368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_6789",
           "package": "tuple-lenses",
@@ -11389,6 +12378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_6789",
           "normalized": "((a,a,a,a)-\u003eb(a,a,a,a))-\u003ec-\u003eb a",
@@ -11403,6 +12393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_679",
           "package": "tuple-lenses",
@@ -11412,6 +12403,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_679",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -11426,6 +12418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_68",
           "package": "tuple-lenses",
@@ -11435,6 +12428,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_68",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -11449,6 +12443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_689",
           "package": "tuple-lenses",
@@ -11458,6 +12453,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_689",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -11472,6 +12468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_69",
           "package": "tuple-lenses",
@@ -11481,6 +12478,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_69",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -11495,6 +12493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_78",
           "package": "tuple-lenses",
@@ -11504,6 +12503,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_78",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -11518,6 +12518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_789",
           "package": "tuple-lenses",
@@ -11527,6 +12528,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_789",
           "normalized": "((a,a,a)-\u003eb(a,a,a))-\u003ec-\u003eb a",
@@ -11541,6 +12543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_79",
           "package": "tuple-lenses",
@@ -11550,6 +12553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_79",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -11564,6 +12568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "_89",
           "package": "tuple-lenses",
@@ -11573,6 +12578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "_89",
           "normalized": "((a,a)-\u003eb(a,a))-\u003ec-\u003eb a",
@@ -11587,6 +12593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "makeManyTuples",
           "package": "tuple-lenses",
@@ -11596,6 +12603,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "makeManyTuples",
           "normalized": "[[Int]]-\u003eQ[Dec]",
@@ -11612,6 +12620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare a top level lens. Indices start at 1.\n\u003c/p\u003e\u003cpre\u003e\n     declareLens [1,2]\n\u003c/pre\u003e\u003cp\u003eCreates the splice\n\u003c/p\u003e\u003cpre\u003e\n     _12 = lens (x -\u003e (x^._1, x^._2)) (x (a, b) -\u003e _1 .~ a \u003c&\u003e _2 .~ b $ x) \n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003etl\u003c/a\u003e\u003c/code\u003e for creating a inline lens expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "makeTuples",
           "package": "tuple-lenses",
@@ -11622,6 +12631,7 @@
         "index": {
           "description": "Declare top level lens Indices start at declareLens Creates the splice lens See tl for creating inline lens expression",
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "makeTuples",
           "normalized": "[Int]-\u003eQ[Dec]",
@@ -11638,6 +12648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemplate Haskell function for combining Field lenses. Indices start at 1.\n   Calling:\n\u003c/p\u003e\u003cpre\u003e\n     tl [1,2]\n\u003c/pre\u003e\u003cp\u003eMakes a lens like:\n\u003c/p\u003e\u003cpre\u003e\n     lens (x -\u003e (x^._1, x^._2)) (x (a, b) -\u003e _1 .~ a \u003c&\u003e _2 .~ b $ x) \n\u003c/pre\u003e\u003cp\u003eHere is a more complicated example\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e('a','b','c','d') ^. $(tl [4,1,2,3])\n\u003c/code\u003e\u003c/strong\u003e('d','a','b','c')   \n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003edeclareLens\u003c/code\u003e for creating a top level lens. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:06 UTC 2014",
           "module": "Data.Tuple.Lens",
           "name": "tl",
           "package": "tuple-lenses",
@@ -11648,6 +12659,7 @@
         "index": {
           "description": "Template Haskell function for combining Field lenses Indices start at Calling tl Makes lens like lens Here is more complicated example tl See declareLens for creating top level lens",
           "hierarchy": "Data Tuple Lens",
+          "indexed": "2014-03-11T20:26:06",
           "module": "Data.Tuple.Lens",
           "name": "tl",
           "normalized": "[Int]-\u003eQ Exp",

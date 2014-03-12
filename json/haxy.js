@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haxy"
+        "phrase": "haxy",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for programming custom proxy servers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "Server",
           "package": "haxy",
@@ -28,6 +29,7 @@
         "index": {
           "description": "library for programming custom proxy servers",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "Server",
           "package": "haxy",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "Cache",
           "package": "haxy",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The cache",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "Cache",
           "package": "haxy",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for types with a default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "Default",
           "package": "haxy",
@@ -73,6 +78,7 @@
         "index": {
           "description": "class for types with default value",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "Default",
           "package": "haxy",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProxy server settings                \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "Settings",
           "package": "haxy",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Proxy server settings",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "Settings",
           "package": "haxy",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "Cache",
           "package": "haxy",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "Cache",
           "package": "haxy",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "Settings",
           "package": "haxy",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "Settings",
           "package": "haxy",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cache. Use \u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e for no cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "cache",
           "package": "haxy",
@@ -164,6 +177,7 @@
         "index": {
           "description": "The cache Use def for no cache",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "cache",
           "package": "haxy",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "def",
           "package": "haxy",
@@ -186,6 +201,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "def",
           "package": "haxy",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server host name. Defaults to the result of\n \u003ccode\u003e\u003ca\u003egetHostName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "hostname",
           "package": "haxy",
@@ -209,6 +226,7 @@
         "index": {
           "description": "The server host name Defaults to the result of getHostName",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "hostname",
           "package": "haxy",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthorization function. Allows denying certain\n requests. Defaults to allowing all requests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "isAuthorized",
           "package": "haxy",
@@ -232,6 +251,7 @@
         "index": {
           "description": "Authorization function Allows denying certain requests Defaults to allowing all requests",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "isAuthorized",
           "normalized": "Request a-\u003eIO Bool",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logging function. The default is no logging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "logger",
           "package": "haxy",
@@ -258,6 +279,7 @@
         "index": {
           "description": "logging function The default is no logging",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "logger",
           "normalized": "String-\u003eIO()",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProxy server port number; default is 3128\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "portnum",
           "package": "haxy",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Proxy server port number default is",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "portnum",
           "package": "haxy",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProxy entry-point. Spawns a new proxy server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "proxyMain",
           "package": "haxy",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Proxy entry-point Spawns new proxy server",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "proxyMain",
           "normalized": "Settings a-\u003eIO()",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetreive the response to a request from the\n cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "queryCache",
           "package": "haxy",
@@ -332,6 +359,7 @@
         "index": {
           "description": "Retreive the response to request from the cache",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "queryCache",
           "normalized": "Request a-\u003eIO(Maybe(Response a))",
@@ -348,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord the response to a request in the\n cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "recordInCache",
           "package": "haxy",
@@ -358,6 +387,7 @@
         "index": {
           "description": "Record the response to request in the cache",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "recordInCache",
           "normalized": "Request a-\u003eResponse a-\u003eIO()",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function for modifying requests. Will be called for\n each request received; the modified request will be\n forwarded to the target server. Defaults to an identity\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "requestModifier",
           "package": "haxy",
@@ -384,6 +415,7 @@
         "index": {
           "description": "function for modifying requests Will be called for each request received the modified request will be forwarded to the target server Defaults to an identity function",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "requestModifier",
           "normalized": "Request a-\u003eIO(Request a)",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function for modifying responses. Will be called\n for each response received; the modified response will\n be forwarded to the client. Defaults to an identity\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:36 UTC 2014",
           "module": "Network.HTTP.Proxy.Server",
           "name": "responseModifier",
           "package": "haxy",
@@ -410,6 +443,7 @@
         "index": {
           "description": "function for modifying responses Will be called for each response received the modified response will be forwarded to the client Defaults to an identity function",
           "hierarchy": "Network HTTP Proxy Server",
+          "indexed": "2014-03-11T18:34:36",
           "module": "Network.HTTP.Proxy.Server",
           "name": "responseModifier",
           "normalized": "Request a-\u003eResponse a-\u003eIO(Response a)",

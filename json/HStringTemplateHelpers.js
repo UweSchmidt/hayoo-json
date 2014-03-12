@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HStringTemplateHelpers"
+        "phrase": "HStringTemplateHelpers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions I found useful for doing webapps with HStringTemplate.\n\u003c/p\u003e\u003cp\u003eMore usage examples can be found by grep -r \"Text.StringTemplate.Helpers\" in happs-tutorial, on hackage. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "Helpers",
           "package": "HStringTemplateHelpers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions found useful for doing webapps with HStringTemplate More usage examples can be found by grep Text.StringTemplate.Helpers in happs-tutorial on hackage",
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "Helpers",
           "package": "HStringTemplateHelpers",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "STDirGroups",
           "package": "HStringTemplateHelpers",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "STDirGroups",
           "package": "HStringTemplateHelpers",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "badTmplVarName",
           "package": "HStringTemplateHelpers",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "badTmplVarName",
           "normalized": "String-\u003eBool",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edirectoryGroup helper function for more flexibility, and rewritten to use\n     do notation rather than applicative style that melted my brain.\n\u003c/p\u003e\u003cp\u003eignoreTemplate specifies a filter for templates that should be skipped, eg backup files etc.\n\u003c/p\u003e\u003cp\u003eerrorTemplate specifies a filter which will cause function to fail.\n\u003c/p\u003e\u003cpre\u003e directoryGroupHAppS = directoryGroupNew' ignoret badTmplVarName\n where ignoret f = not . null . filter (=='#') $ f \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "directoryGroupNew'",
           "package": "HStringTemplateHelpers",
@@ -97,6 +104,7 @@
         "index": {
           "description": "directoryGroup helper function for more flexibility and rewritten to use do notation rather than applicative style that melted my brain ignoreTemplate specifies filter for templates that should be skipped eg backup files etc errorTemplate specifies filter which will cause function to fail directoryGroupHAppS directoryGroupNew ignoret badTmplVarName where ignoret not null filter",
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "directoryGroupNew'",
           "normalized": "(FilePath-\u003eBool)-\u003e(String-\u003eBool)-\u003eFilePath-\u003eIO(STGroup a)",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict directoryGroups, which is the right thing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "directoryGroups",
           "package": "HStringTemplateHelpers",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Strict directoryGroups which is the right thing",
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "directoryGroups",
           "normalized": "FilePath-\u003eIO(Map FilePath(STGroup a))",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to calculate a map of directory groups from a top-level directory\n\u003c/p\u003e\u003cp\u003eEach directory gives rise to its own groups.\n\u003c/p\u003e\u003cp\u003eGroups are independent; groups from higher in the directory structure do not have access to groups lower.\n\u003c/p\u003e\u003cp\u003eThe top group has key \".\" (mnemonic, current directory), other groups have key names of subdirectories, including the starting ., eg \"./templates/path/to/subdir\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "directoryGroups'",
           "package": "HStringTemplateHelpers",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Helper function to calculate map of directory groups from top-level directory Each directory gives rise to its own groups Groups are independent groups from higher in the directory structure do not have access to groups lower The top group has key mnemonic current directory other groups have key names of subdirectories including the starting eg templates path to subdir",
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "directoryGroups'",
           "normalized": "(FilePath-\u003eIO a)-\u003eFilePath-\u003eIO(Map FilePath a)",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-strict. I'm pretty sure this is wrong. Based on default directoryGroup function in HStringTemplate package \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "directoryGroupsOld",
           "package": "HStringTemplateHelpers",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Non-strict pretty sure this is wrong Based on default directoryGroup function in HStringTemplate package",
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "directoryGroupsOld",
           "normalized": "FilePath-\u003eIO(Map FilePath(STGroup a))",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe STGroup can't be shown in a useful way because it's a function type, but you can at least show the directories via Data.Map.keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "dirgroupKeys",
           "package": "HStringTemplateHelpers",
@@ -201,6 +216,7 @@
         "index": {
           "description": "The STGroup can be shown in useful way because it function type but you can at least show the directories via Data.Map.keys",
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "dirgroupKeys",
           "normalized": "STDirGroups a-\u003e[FilePath]",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e example: getTG \"./baselayout\" ts'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "getTemplateGroup",
           "package": "HStringTemplateHelpers",
@@ -227,6 +244,7 @@
         "index": {
           "description": "example getTG baselayout ts",
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "getTemplateGroup",
           "normalized": "FilePath-\u003eSTDirGroups a-\u003eSTGroup a",
@@ -242,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "lookupDirgroup",
           "package": "HStringTemplateHelpers",
@@ -251,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "lookupDirgroup",
           "normalized": "FilePath-\u003eSTDirGroups a-\u003eMaybe(STGroup a)",
@@ -266,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "readTmplDef",
           "package": "HStringTemplateHelpers",
@@ -275,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "readTmplDef",
           "normalized": "a-\u003eSTGroup String-\u003eFilePath-\u003ea",
@@ -290,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "readTmplM",
           "package": "HStringTemplateHelpers",
@@ -299,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "readTmplM",
           "normalized": "STGroup String-\u003eFilePath-\u003ea b",
@@ -314,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "readTmplTuples",
           "package": "HStringTemplateHelpers",
@@ -323,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "readTmplTuples",
           "normalized": "STGroup String-\u003eString-\u003e[(String,String)]",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e render1 [(\"name\",\"Bill\")] \"Hi, my name is $name$\"\n render1 attribs tmpl = render . setManyAttrib attribs . newSTMP $ tmpl\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "render1",
           "package": "HStringTemplateHelpers",
@@ -349,6 +376,7 @@
         "index": {
           "description": "render1 name Bill Hi my name is name render1 attribs tmpl render setManyAttrib attribs newSTMP tmpl",
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "render1",
           "normalized": "[(String,String)]-\u003eString-\u003eString",
@@ -364,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e example: renderTemplateDirGroup ts' \"./baselayout\" \"base\" \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "renderTemplateDirGroup",
           "package": "HStringTemplateHelpers",
@@ -374,6 +403,7 @@
         "index": {
           "description": "example renderTemplateDirGroup ts baselayout base",
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "renderTemplateDirGroup",
           "normalized": "STDirGroups String-\u003eFilePath-\u003eString-\u003e[(String,a)]-\u003eString",
@@ -390,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChooses a template from an STGroup, or errors if not found.\n\u003c/p\u003e\u003cp\u003eRender that template using attrs.\n\u003c/p\u003e\u003cp\u003eIf a template k/v pair is repeated, it appears twice. (Perhaps a clue to buggy behavior?)\n\u003c/p\u003e\u003cp\u003eRepeated keys could be eliminated by running clean:\n\u003c/p\u003e\u003cpre\u003e clean = nubBy (\\(a1,b1) (a2,b2) -\u003e a1 == a2) . sortBy (\\(a1,b1) (a2,b2) -\u003e a1 `compare` a2)\n\u003c/pre\u003e\u003cp\u003eThe ToSElem type is probably either String or [String]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:41 UTC 2014",
           "module": "Text.StringTemplate.Helpers",
           "name": "renderTemplateGroup",
           "package": "HStringTemplateHelpers",
@@ -400,6 +431,7 @@
         "index": {
           "description": "Chooses template from an STGroup or errors if not found Render that template using attrs If template pair is repeated it appears twice Perhaps clue to buggy behavior Repeated keys could be eliminated by running clean clean nubBy a1 b1 a2 b2 a1 a2 sortBy a1 b1 a2 b2 a1 compare a2 The ToSElem type is probably either String or String",
           "hierarchy": "Text StringTemplate Helpers",
+          "indexed": "2014-03-11T16:46:41",
           "module": "Text.StringTemplate.Helpers",
           "name": "renderTemplateGroup",
           "normalized": "STGroup String-\u003e[(String,a)]-\u003e[Char]-\u003eString",

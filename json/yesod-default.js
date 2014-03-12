@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-default"
+        "phrase": "yesod-default",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:39 UTC 2014",
           "module": "Yesod.Default.Ignore",
           "name": "Ignore",
           "package": "yesod-default",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Ignore",
+          "indexed": "2014-03-11T20:45:39",
           "module": "Yesod.Default.Ignore",
           "name": "Ignore",
           "package": "yesod-default",

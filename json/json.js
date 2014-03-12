@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "json"
+        "phrase": "json",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJSON serializer and deserializer using Data.Generics.\n The functions here handle algebraic data types and primitive types.\n It uses the same representation as \u003ca\u003eText.JSON\u003c/a\u003e for \u003ca\u003ePrelude\u003c/a\u003e types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Generic",
           "name": "Generic",
           "package": "json",
@@ -28,6 +29,7 @@
         "index": {
           "description": "JSON serializer and deserializer using Data.Generics The functions here handle algebraic data types and primitive types It uses the same representation as Text.JSON for Prelude types",
           "hierarchy": "Text JSON Generic",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Generic",
           "name": "Generic",
           "package": "json",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e class comprehends a fundamental primitive \u003ccode\u003e\u003ca\u003egfoldl\u003c/a\u003e\u003c/code\u003e for\nfolding over constructor applications, say terms. This primitive can\nbe instantiated in several ways to map over the immediate subterms\nof a term; see the \u003ccode\u003egmap\u003c/code\u003e combinators later in this class.  Indeed, a\ngeneric programmer does not necessarily need to use the ingenious gfoldl\nprimitive but rather the intuitive \u003ccode\u003egmap\u003c/code\u003e combinators.  The \u003ccode\u003e\u003ca\u003egfoldl\u003c/a\u003e\u003c/code\u003e\nprimitive is completed by means to query top-level constructors, to\nturn constructor representations into proper terms, and to list all\npossible datatype constructors.  This completion allows us to serve\ngeneric programming scenarios like read, show, equality, term generation.\n\u003c/p\u003e\u003cp\u003eThe combinators \u003ccode\u003e\u003ca\u003egmapT\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egmapQ\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egmapM\u003c/a\u003e\u003c/code\u003e, etc are all provided with\ndefault definitions in terms of \u003ccode\u003e\u003ca\u003egfoldl\u003c/a\u003e\u003c/code\u003e, leaving open the opportunity\nto provide datatype-specific definitions.\n(The inclusion of the \u003ccode\u003egmap\u003c/code\u003e combinators as members of class \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e\nallows the programmer or the compiler to derive specialised, and maybe\nmore efficient code per datatype.  \u003cem\u003eNote\u003c/em\u003e: \u003ccode\u003e\u003ca\u003egfoldl\u003c/a\u003e\u003c/code\u003e is more higher-order\nthan the \u003ccode\u003egmap\u003c/code\u003e combinators.  This is subject to ongoing benchmarking\nexperiments.  It might turn out that the \u003ccode\u003egmap\u003c/code\u003e combinators will be\nmoved out of the class \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e\u003cp\u003eConceptually, the definition of the \u003ccode\u003egmap\u003c/code\u003e combinators in terms of the\nprimitive \u003ccode\u003e\u003ca\u003egfoldl\u003c/a\u003e\u003c/code\u003e requires the identification of the \u003ccode\u003e\u003ca\u003egfoldl\u003c/a\u003e\u003c/code\u003e function\narguments.  Technically, we also need to identify the type constructor\n\u003ccode\u003ec\u003c/code\u003e for the construction of the result type from the folded term type.\n\u003c/p\u003e\u003cp\u003eIn the definition of \u003ccode\u003egmapQ\u003c/code\u003e\u003cem\u003ex\u003c/em\u003e combinators, we use phantom type\nconstructors for the \u003ccode\u003ec\u003c/code\u003e in the type of \u003ccode\u003e\u003ca\u003egfoldl\u003c/a\u003e\u003c/code\u003e because the result type\nof a query does not involve the (polymorphic) type of the term argument.\nIn the definition of \u003ccode\u003e\u003ca\u003egmapQl\u003c/a\u003e\u003c/code\u003e we simply use the plain constant type\nconstructor because \u003ccode\u003e\u003ca\u003egfoldl\u003c/a\u003e\u003c/code\u003e is left-associative anyway and so it is\nreadily suited to fold a left-associative binary operation over the\nimmediate subterms.  In the definition of gmapQr, extra effort is\nneeded. We use a higher-order accumulation trick to mediate between\nleft-associative constructor application vs. right-associative binary\noperation (e.g., \u003ccode\u003e(:)\u003c/code\u003e).  When the query is meant to compute a value\nof type \u003ccode\u003er\u003c/code\u003e, then the result type withing generic folding is \u003ccode\u003er -\u003e r\u003c/code\u003e.\nSo the result of folding is a function to which we finally pass the\nright unit.\n\u003c/p\u003e\u003cp\u003eWith the \u003ccode\u003e-XDeriveDataTypeable\u003c/code\u003e option, GHC can generate instances of the\n\u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e class automatically.  For example, given the declaration\n\u003c/p\u003e\u003cpre\u003e data T a b = C1 a b | C2 deriving (Typeable, Data)\n\u003c/pre\u003e\u003cp\u003eGHC will generate an instance that is equivalent to\n\u003c/p\u003e\u003cpre\u003e instance (Data a, Data b) =\u003e Data (T a b) where\n     gfoldl k z (C1 a b) = z C1 `k` a `k` b\n     gfoldl k z C2       = z C2\n\n     gunfold k z c = case constrIndex c of\n                         1 -\u003e k (k (z C1))\n                         2 -\u003e z C2\n\n     toConstr (C1 _ _) = con_C1\n     toConstr C2       = con_C2\n\n     dataTypeOf _ = ty_T\n\n con_C1 = mkConstr ty_T \"C1\" [] Prefix\n con_C2 = mkConstr ty_T \"C2\" [] Prefix\n ty_T   = mkDataType \"Module.T\" [con_C1, con_C2]\n\u003c/pre\u003e\u003cp\u003eThis is suitable for datatypes that are exported transparently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Generic",
           "name": "Data",
           "package": "json",
@@ -50,6 +53,7 @@
         "index": {
           "description": "The Data class comprehends fundamental primitive gfoldl for folding over constructor applications say terms This primitive can be instantiated in several ways to map over the immediate subterms of term see the gmap combinators later in this class Indeed generic programmer does not necessarily need to use the ingenious gfoldl primitive but rather the intuitive gmap combinators The gfoldl primitive is completed by means to query top-level constructors to turn constructor representations into proper terms and to list all possible datatype constructors This completion allows us to serve generic programming scenarios like read show equality term generation The combinators gmapT gmapQ gmapM etc are all provided with default definitions in terms of gfoldl leaving open the opportunity to provide datatype-specific definitions The inclusion of the gmap combinators as members of class Data allows the programmer or the compiler to derive specialised and maybe more efficient code per datatype Note gfoldl is more higher-order than the gmap combinators This is subject to ongoing benchmarking experiments It might turn out that the gmap combinators will be moved out of the class Data Conceptually the definition of the gmap combinators in terms of the primitive gfoldl requires the identification of the gfoldl function arguments Technically we also need to identify the type constructor for the construction of the result type from the folded term type In the definition of gmapQ combinators we use phantom type constructors for the in the type of gfoldl because the result type of query does not involve the polymorphic type of the term argument In the definition of gmapQl we simply use the plain constant type constructor because gfoldl is left-associative anyway and so it is readily suited to fold left-associative binary operation over the immediate subterms In the definition of gmapQr extra effort is needed We use higher-order accumulation trick to mediate between left-associative constructor application vs right-associative binary operation e.g When the query is meant to compute value of type then the result type withing generic folding is So the result of folding is function to which we finally pass the right unit With the XDeriveDataTypeable option GHC can generate instances of the Data class automatically For example given the declaration data C1 C2 deriving Typeable Data GHC will generate an instance that is equivalent to instance Data Data Data where gfoldl C1 C1 gfoldl C2 C2 gunfold case constrIndex of C1 C2 toConstr C1 con C1 toConstr C2 con C2 dataTypeOf ty con C1 mkConstr ty C1 Prefix con C2 mkConstr ty C2 Prefix ty mkDataType Module.T con C1 con C2 This is suitable for datatypes that are exported transparently",
           "hierarchy": "Text JSON Generic",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Generic",
           "name": "Data",
           "package": "json",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e allows a concrete representation of a type to\n be calculated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Generic",
           "name": "Typeable",
           "package": "json",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The class Typeable allows concrete representation of type to be calculated",
           "hierarchy": "Text JSON Generic",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Generic",
           "name": "Typeable",
           "package": "json",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a string as a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Generic",
           "name": "decodeJSON",
           "package": "json",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Decode string as value",
           "hierarchy": "Text JSON Generic",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Generic",
           "name": "decodeJSON",
           "normalized": "String-\u003ea",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a value as a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Generic",
           "name": "encodeJSON",
           "package": "json",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Encode value as string",
           "hierarchy": "Text JSON Generic",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Generic",
           "name": "encodeJSON",
           "normalized": "a-\u003eString",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a JSON value to anything (fails if the types do not match).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Generic",
           "name": "fromJSON",
           "package": "json",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Convert JSON value to anything fails if the types do not match",
           "hierarchy": "Text JSON Generic",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Generic",
           "name": "fromJSON",
           "normalized": "JSValue-\u003eResult a",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Generic",
           "name": "fromJSON_generic",
           "package": "json",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Generic",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Generic",
           "name": "fromJSON_generic",
           "normalized": "JSValue-\u003eResult a",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert anything to a JSON value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Generic",
           "name": "toJSON",
           "package": "json",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Convert anything to JSON value",
           "hierarchy": "Text JSON Generic",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Generic",
           "name": "toJSON",
           "normalized": "a-\u003eJSValue",
@@ -213,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Generic",
           "name": "toJSON_generic",
           "package": "json",
@@ -222,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Generic",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Generic",
           "name": "toJSON_generic",
           "normalized": "a-\u003eJSValue",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse JSON values using the Parsec combinators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Parsec",
           "name": "Parsec",
           "package": "json",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Parse JSON values using the Parsec combinators",
           "hierarchy": "Text JSON Parsec",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Parsec",
           "name": "Parsec",
           "package": "json",
@@ -260,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Parsec",
           "name": "p_array",
           "package": "json",
@@ -269,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Parsec",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Parsec",
           "name": "p_array",
           "normalized": "CharParser()[JSValue]",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Parsec",
           "name": "p_boolean",
           "package": "json",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Parsec",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Parsec",
           "name": "p_boolean",
           "normalized": "CharParser()Bool",
@@ -306,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Parsec",
           "name": "p_js_object",
           "package": "json",
@@ -315,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Parsec",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Parsec",
           "name": "p_js_object",
           "normalized": "CharParser()(JSObject JSValue)",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Parsec",
           "name": "p_js_string",
           "package": "json",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Parsec",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Parsec",
           "name": "p_js_string",
           "normalized": "CharParser()JSString",
@@ -352,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Parsec",
           "name": "p_jvalue",
           "package": "json",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Parsec",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Parsec",
           "name": "p_jvalue",
           "normalized": "CharParser()JSValue",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Parsec",
           "name": "p_null",
           "package": "json",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Parsec",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Parsec",
           "name": "p_null",
           "normalized": "CharParser()()",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Parsec",
           "name": "p_number",
           "package": "json",
@@ -407,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Parsec",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Parsec",
           "name": "p_number",
           "normalized": "CharParser()Rational",
@@ -421,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Parsec",
           "name": "p_object",
           "package": "json",
@@ -430,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Parsec",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Parsec",
           "name": "p_object",
           "normalized": "CharParser()[(String,JSValue)]",
@@ -444,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Parsec",
           "name": "p_string",
           "package": "json",
@@ -453,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Parsec",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Parsec",
           "name": "p_string",
           "normalized": "CharParser()String",
@@ -467,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Parsec",
           "name": "p_value",
           "package": "json",
@@ -476,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Parsec",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Parsec",
           "name": "p_value",
           "normalized": "CharParser()JSValue",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisplay JSON values using pretty printing combinators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Pretty",
           "name": "Pretty",
           "package": "json",
@@ -500,6 +541,7 @@
         "index": {
           "description": "Display JSON values using pretty printing combinators",
           "hierarchy": "Text JSON Pretty",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Pretty",
           "name": "Pretty",
           "package": "json",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Pretty",
           "name": "pp_array",
           "package": "json",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Pretty",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Pretty",
           "name": "pp_array",
           "normalized": "[JSValue]-\u003eDoc",
@@ -536,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Pretty",
           "name": "pp_boolean",
           "package": "json",
@@ -545,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Pretty",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Pretty",
           "name": "pp_boolean",
           "normalized": "Bool-\u003eDoc",
@@ -559,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Pretty",
           "name": "pp_js_object",
           "package": "json",
@@ -568,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Pretty",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Pretty",
           "name": "pp_js_object",
           "normalized": "JSObject JSValue-\u003eDoc",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Pretty",
           "name": "pp_js_string",
           "package": "json",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Pretty",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Pretty",
           "name": "pp_js_string",
           "normalized": "JSString-\u003eDoc",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Pretty",
           "name": "pp_null",
           "package": "json",
@@ -614,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Pretty",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Pretty",
           "name": "pp_null",
           "package": "json",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Pretty",
           "name": "pp_number",
           "package": "json",
@@ -635,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Pretty",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Pretty",
           "name": "pp_number",
           "normalized": "Bool-\u003eRational-\u003eDoc",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Pretty",
           "name": "pp_object",
           "package": "json",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Pretty",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Pretty",
           "name": "pp_object",
           "normalized": "[(String,JSValue)]-\u003eDoc",
@@ -672,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Pretty",
           "name": "pp_string",
           "package": "json",
@@ -681,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Pretty",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Pretty",
           "name": "pp_string",
           "normalized": "String-\u003eDoc",
@@ -695,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Pretty",
           "name": "pp_value",
           "package": "json",
@@ -704,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Pretty",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Pretty",
           "name": "pp_value",
           "normalized": "JSValue-\u003eDoc",
@@ -719,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse JSON values using the ReadP combinators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.ReadP",
           "name": "ReadP",
           "package": "json",
@@ -728,6 +789,7 @@
         "index": {
           "description": "Parse JSON values using the ReadP combinators",
           "hierarchy": "Text JSON ReadP",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.ReadP",
           "name": "ReadP",
           "package": "json",
@@ -741,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.ReadP",
           "name": "p_array",
           "package": "json",
@@ -750,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ReadP",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.ReadP",
           "name": "p_array",
           "normalized": "ReadP[JSValue]",
@@ -764,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.ReadP",
           "name": "p_boolean",
           "package": "json",
@@ -773,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ReadP",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.ReadP",
           "name": "p_boolean",
           "package": "json",
@@ -785,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.ReadP",
           "name": "p_js_object",
           "package": "json",
@@ -794,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ReadP",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.ReadP",
           "name": "p_js_object",
           "package": "json",
@@ -806,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.ReadP",
           "name": "p_js_string",
           "package": "json",
@@ -815,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ReadP",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.ReadP",
           "name": "p_js_string",
           "package": "json",
@@ -827,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.ReadP",
           "name": "p_null",
           "package": "json",
@@ -836,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ReadP",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.ReadP",
           "name": "p_null",
           "normalized": "ReadP()",
@@ -850,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.ReadP",
           "name": "p_number",
           "package": "json",
@@ -859,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ReadP",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.ReadP",
           "name": "p_number",
           "package": "json",
@@ -871,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.ReadP",
           "name": "p_object",
           "package": "json",
@@ -880,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ReadP",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.ReadP",
           "name": "p_object",
           "normalized": "ReadP[(String,JSValue)]",
@@ -894,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.ReadP",
           "name": "p_string",
           "package": "json",
@@ -903,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ReadP",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.ReadP",
           "name": "p_string",
           "package": "json",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.ReadP",
           "name": "p_value",
           "package": "json",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ReadP",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.ReadP",
           "name": "p_value",
           "package": "json",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.String",
           "name": "String",
           "package": "json",
@@ -944,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Text JSON String",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.String",
           "name": "String",
           "package": "json",
@@ -958,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing JSON\n\u003c/p\u003e\u003cp\u003eThe type of JSON parsers for String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.String",
           "name": "GetJSON",
           "package": "json",
@@ -967,6 +1050,7 @@
         "index": {
           "description": "Parsing JSON The type of JSON parsers for String",
           "hierarchy": "Text JSON String",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.String",
           "name": "GetJSON",
           "package": "json",
@@ -1131,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop level JSON can only be Arrays or Objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.String",
           "name": "readJSTopType",
           "package": "json",
@@ -1141,6 +1226,7 @@
         "index": {
           "description": "Top level JSON can only be Arrays or Objects",
           "hierarchy": "Text JSON String",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.String",
           "name": "readJSTopType",
           "package": "json",
@@ -1180,6 +1266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a JSON reader on an input String, returning some Haskell value.\n All input will be consumed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.String",
           "name": "runGetJSON",
           "package": "json",
@@ -1190,6 +1277,7 @@
         "index": {
           "description": "Run JSON reader on an input String returning some Haskell value All input will be consumed",
           "hierarchy": "Text JSON String",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.String",
           "name": "runGetJSON",
           "normalized": "GetJSON a-\u003eString-\u003eEither String a",
@@ -1364,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWriting JSON\n\u003c/p\u003e\u003cp\u003eShow strict JSON top level types. Values not permitted\n at the top level are wrapped in a singleton array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.String",
           "name": "showJSTopType",
           "package": "json",
@@ -1374,6 +1463,7 @@
         "index": {
           "description": "Writing JSON Show strict JSON top level types Values not permitted at the top level are wrapped in singleton array",
           "hierarchy": "Text JSON String",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.String",
           "name": "showJSTopType",
           "normalized": "JSValue-\u003eShowS",
@@ -1416,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Types",
           "name": "Types",
           "package": "json",
@@ -1424,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Types",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Types",
           "name": "Types",
           "package": "json",
@@ -1438,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs can association lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Types",
           "name": "JSObject",
           "package": "json",
@@ -1447,6 +1540,7 @@
         "index": {
           "description": "As can association lists",
           "hierarchy": "Text JSON Types",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Types",
           "name": "JSObject",
           "package": "json",
@@ -1461,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrings can be represented a little more efficiently in JSON\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Types",
           "name": "JSString",
           "package": "json",
@@ -1470,6 +1565,7 @@
         "index": {
           "description": "Strings can be represented little more efficiently in JSON",
           "hierarchy": "Text JSON Types",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Types",
           "name": "JSString",
           "package": "json",
@@ -1484,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON values\n\u003c/p\u003e\u003cp\u003eThe type to which we encode Haskell values. There's a set\n of primitives, and a couple of heterogenous collection types.\n\u003c/p\u003e\u003cp\u003eObjects:\n\u003c/p\u003e\u003cp\u003eAn object structure is represented as a pair of curly brackets\n surrounding zero or more name/value pairs (or members).  A name is a\n string.  A single colon comes after each name, separating the name\n from the value.  A single comma separates a value from a\n following name.\n\u003c/p\u003e\u003cp\u003eArrays:\n\u003c/p\u003e\u003cp\u003eAn array structure is represented as square brackets surrounding\n zero or more values (or elements).  Elements are separated by commas.\n\u003c/p\u003e\u003cp\u003eOnly valid JSON can be constructed this way\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Types",
           "name": "JSValue",
           "package": "json",
@@ -1493,6 +1590,7 @@
         "index": {
           "description": "JSON values The type to which we encode Haskell values There set of primitives and couple of heterogenous collection types Objects An object structure is represented as pair of curly brackets surrounding zero or more name value pairs or members name is string single colon comes after each name separating the name from the value single comma separates value from following name Arrays An array structure is represented as square brackets surrounding zero or more values or elements Elements are separated by commas Only valid JSON can be constructed this way",
           "hierarchy": "Text JSON Types",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Types",
           "name": "JSValue",
           "package": "json",
@@ -1577,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Types",
           "name": "JSONObject",
           "package": "json",
@@ -1586,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Types",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Types",
           "name": "JSONObject",
           "package": "json",
@@ -1599,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Types",
           "name": "JSONString",
           "package": "json",
@@ -1608,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Types",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Types",
           "name": "JSONString",
           "package": "json",
@@ -1690,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Types",
           "name": "fromJSObject",
           "package": "json",
@@ -1699,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Types",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Types",
           "name": "fromJSObject",
           "normalized": "[(String,a)]",
@@ -1714,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Types",
           "name": "fromJSString",
           "package": "json",
@@ -1723,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Types",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Types",
           "name": "fromJSString",
           "package": "json",
@@ -1737,6 +1843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of a field, if it exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Types",
           "name": "get_field",
           "package": "json",
@@ -1747,6 +1854,7 @@
         "index": {
           "description": "Get the value of field if it exist",
           "hierarchy": "Text JSON Types",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Types",
           "name": "get_field",
           "normalized": "JSObject a-\u003eString-\u003eMaybe a",
@@ -1762,6 +1870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the value of a field.  Previous values are overwritten.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON.Types",
           "name": "set_field",
           "package": "json",
@@ -1772,6 +1881,7 @@
         "index": {
           "description": "Set the value of field Previous values are overwritten",
           "hierarchy": "Text JSON Types",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON.Types",
           "name": "set_field",
           "normalized": "JSObject a-\u003eString-\u003ea-\u003eJSObject a",
@@ -1840,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "JSON",
           "package": "json",
@@ -1848,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "JSON",
           "package": "json",
@@ -1862,6 +1974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell types that can be used as keys in JSON objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "JSKey",
           "package": "json",
@@ -1871,6 +1984,7 @@
         "index": {
           "description": "Haskell types that can be used as keys in JSON objects",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "JSKey",
           "package": "json",
@@ -1885,6 +1999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types serialisable to and from JSON\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "JSON",
           "package": "json",
@@ -1894,6 +2009,7 @@
         "index": {
           "description": "The class of types serialisable to and from JSON",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "JSON",
           "package": "json",
@@ -1908,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs can association lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "JSObject",
           "package": "json",
@@ -1917,6 +2034,7 @@
         "index": {
           "description": "As can association lists",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "JSObject",
           "package": "json",
@@ -1931,6 +2049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrings can be represented a little more efficiently in JSON\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "JSString",
           "package": "json",
@@ -1940,6 +2059,7 @@
         "index": {
           "description": "Strings can be represented little more efficiently in JSON",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "JSString",
           "package": "json",
@@ -1954,6 +2074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON values\n\u003c/p\u003e\u003cp\u003eThe type to which we encode Haskell values. There's a set\n of primitives, and a couple of heterogenous collection types.\n\u003c/p\u003e\u003cp\u003eObjects:\n\u003c/p\u003e\u003cp\u003eAn object structure is represented as a pair of curly brackets\n surrounding zero or more name/value pairs (or members).  A name is a\n string.  A single colon comes after each name, separating the name\n from the value.  A single comma separates a value from a\n following name.\n\u003c/p\u003e\u003cp\u003eArrays:\n\u003c/p\u003e\u003cp\u003eAn array structure is represented as square brackets surrounding\n zero or more values (or elements).  Elements are separated by commas.\n\u003c/p\u003e\u003cp\u003eOnly valid JSON can be constructed this way\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "JSValue",
           "package": "json",
@@ -1963,6 +2084,7 @@
         "index": {
           "description": "JSON values The type to which we encode Haskell values There set of primitives and couple of heterogenous collection types Objects An object structure is represented as pair of curly brackets surrounding zero or more name value pairs or members name is string single colon comes after each name separating the name from the value single comma separates value from following name Arrays An array structure is represented as square brackets surrounding zero or more values or elements Elements are separated by commas Only valid JSON can be constructed this way",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "JSValue",
           "package": "json",
@@ -1977,6 +2099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for parser results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "Result",
           "package": "json",
@@ -1986,6 +2109,7 @@
         "index": {
           "description": "type for parser results",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "Result",
           "package": "json",
@@ -1999,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "Error",
           "package": "json",
@@ -2008,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "Error",
           "package": "json",
@@ -2021,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "Ok",
           "package": "json",
@@ -2030,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "Ok",
           "package": "json",
@@ -2044,6 +2172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a \u003ccode\u003e\u003ca\u003eJSObject\u003c/a\u003e\u003c/code\u003e value into an association list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "decJSDict",
           "package": "json",
@@ -2054,6 +2183,7 @@
         "index": {
           "description": "Decode JSObject value into an association list",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "decJSDict",
           "normalized": "String-\u003eJSValue-\u003eResult[(a,b)]",
@@ -2070,6 +2200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a String representing a JSON value \n (either an object, array, bool, number, null)\n\u003c/p\u003e\u003cp\u003eThis is a superset of JSON, as types other than\n Array and Object are allowed at the top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "decode",
           "package": "json",
@@ -2080,6 +2211,7 @@
         "index": {
           "description": "Decode String representing JSON value either an object array bool number null This is superset of JSON as types other than Array and Object are allowed at the top level",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "decode",
           "normalized": "String-\u003eResult a",
@@ -2095,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a String representing a strict JSON value.\n This follows the spec, and requires top level\n JSON types to be an Array or Object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "decodeStrict",
           "package": "json",
@@ -2105,6 +2238,7 @@
         "index": {
           "description": "Decode String representing strict JSON value This follows the spec and requires top level JSON types to be an Array or Object",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "decodeStrict",
           "normalized": "String-\u003eResult a",
@@ -2121,6 +2255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an association list as \u003ccode\u003e\u003ca\u003eJSObject\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "encJSDict",
           "package": "json",
@@ -2131,6 +2266,7 @@
         "index": {
           "description": "Encode an association list as JSObject value",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "encJSDict",
           "normalized": "[(a,b)]-\u003eJSValue",
@@ -2147,6 +2283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a Haskell value into a string, in JSON format.\n\u003c/p\u003e\u003cp\u003eThis is a superset of JSON, as types other than\n Array and Object are allowed at the top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "encode",
           "package": "json",
@@ -2157,6 +2294,7 @@
         "index": {
           "description": "Encode Haskell value into string in JSON format This is superset of JSON as types other than Array and Object are allowed at the top level",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "encode",
           "normalized": "a-\u003eString",
@@ -2172,6 +2310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a value as a String in strict JSON format.\n This follows the spec, and requires all values\n at the top level to be wrapped in either an Array or Object.\n JSON types to be an Array or Object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "encodeStrict",
           "package": "json",
@@ -2182,6 +2321,7 @@
         "index": {
           "description": "Encode value as String in strict JSON format This follows the spec and requires all values at the top level to be wrapped in either an Array or Object JSON types to be an Array or Object",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "encodeStrict",
           "normalized": "a-\u003eString",
@@ -2197,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "fromJSKey",
           "package": "json",
@@ -2206,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "fromJSKey",
           "normalized": "String-\u003eMaybe a",
@@ -2221,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "fromJSObject",
           "package": "json",
@@ -2230,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "fromJSObject",
           "normalized": "JSObject a-\u003e[(String,a)]",
@@ -2245,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "fromJSString",
           "package": "json",
@@ -2254,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "fromJSString",
           "normalized": "JSString-\u003eString",
@@ -2269,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "makeObj",
           "package": "json",
@@ -2278,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "makeObj",
           "normalized": "[(String,JSValue)]-\u003eJSValue",
@@ -2293,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "readJSON",
           "package": "json",
@@ -2302,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "readJSON",
           "normalized": "JSValue-\u003eResult a",
@@ -2317,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "readJSONs",
           "package": "json",
@@ -2326,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "readJSONs",
           "normalized": "JSValue-\u003eResult[a]",
@@ -2342,6 +2494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap Results to Eithers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "resultToEither",
           "package": "json",
@@ -2352,6 +2505,7 @@
         "index": {
           "description": "Map Results to Eithers",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "resultToEither",
           "normalized": "Result a-\u003eEither String a",
@@ -2367,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "showJSON",
           "package": "json",
@@ -2376,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "showJSON",
           "normalized": "a-\u003eJSValue",
@@ -2391,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "showJSONs",
           "package": "json",
@@ -2400,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "showJSONs",
           "normalized": "[a]-\u003eJSValue",
@@ -2415,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "toJSKey",
           "package": "json",
@@ -2424,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "toJSKey",
           "normalized": "a-\u003eString",
@@ -2440,6 +2600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePull a value out of a JSON object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:50 UTC 2014",
           "module": "Text.JSON",
           "name": "valFromObj",
           "package": "json",
@@ -2450,6 +2611,7 @@
         "index": {
           "description": "Pull value out of JSON object",
           "hierarchy": "Text JSON",
+          "indexed": "2014-03-11T19:01:50",
           "module": "Text.JSON",
           "name": "valFromObj",
           "normalized": "String-\u003eJSObject JSValue-\u003eResult a",

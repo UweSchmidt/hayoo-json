@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rdf4h"
+        "phrase": "rdf4h",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple graph implementation backed by \u003ccode\u003e\u003ca\u003eHashMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.MGraph",
           "name": "MGraph",
           "package": "rdf4h",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple graph implementation backed by HashMap",
           "hierarchy": "Data RDF MGraph",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.MGraph",
           "name": "MGraph",
           "package": "rdf4h",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map-based graph implementation.\n\u003c/p\u003e\u003cp\u003eWorst-case time complexity of the graph functions, with respect\n to the number of triples, are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e    : O(1)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003emkRdf\u003c/a\u003e\u003c/code\u003e  : O(n)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003etriplesOf\u003c/a\u003e\u003c/code\u003e: O(n)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e   : O(n)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e    : O(log n)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.MGraph",
           "name": "MGraph",
           "package": "rdf4h",
@@ -51,6 +54,7 @@
         "index": {
           "description": "map-based graph implementation Worst-case time complexity of the graph functions with respect to the number of triples are empty mkRdf triplesOf select query log",
           "hierarchy": "Data RDF MGraph",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.MGraph",
           "name": "MGraph",
           "package": "rdf4h",
@@ -195,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines types and utility functions related to namespaces, and\n some predefined values for commonly used namespaces, such as\n rdf, xsd, dublin core, etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "Namespace",
           "package": "rdf4h",
@@ -204,6 +209,7 @@
         "index": {
           "description": "Defines types and utility functions related to namespaces and some predefined values for commonly used namespaces such as rdf xsd dublin core etc",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "Namespace",
           "package": "rdf4h",
@@ -218,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a namespace as either a prefix and uri, respectively,\n  or just a uri.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "Namespace",
           "package": "rdf4h",
@@ -227,6 +234,7 @@
         "index": {
           "description": "Represents namespace as either prefix and uri respectively or just uri",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "Namespace",
           "package": "rdf4h",
@@ -241,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping of a prefix to the URI for that prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "PrefixMapping",
           "package": "rdf4h",
@@ -250,6 +259,7 @@
         "index": {
           "description": "mapping of prefix to the URI for that prefix",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "PrefixMapping",
           "package": "rdf4h",
@@ -264,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for a map from prefix to namespace URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "PrefixMappings",
           "package": "rdf4h",
@@ -273,6 +284,7 @@
         "index": {
           "description": "An alias for map from prefix to namespace URI",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "PrefixMappings",
           "package": "rdf4h",
@@ -381,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Dublic Core namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "dc",
           "package": "rdf4h",
@@ -391,6 +404,7 @@
         "index": {
           "description": "The Dublic Core namespace",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "dc",
           "package": "rdf4h",
@@ -404,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Dublin Core terms namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "dct",
           "package": "rdf4h",
@@ -414,6 +429,7 @@
         "index": {
           "description": "The Dublin Core terms namespace",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "dct",
           "package": "rdf4h",
@@ -427,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample namespace #1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "ex",
           "package": "rdf4h",
@@ -437,6 +454,7 @@
         "index": {
           "description": "Example namespace",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "ex",
           "package": "rdf4h",
@@ -450,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample namespace #2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "ex2",
           "package": "rdf4h",
@@ -460,6 +479,7 @@
         "index": {
           "description": "Example namespace",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "ex2",
           "package": "rdf4h",
@@ -473,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe friend of a friend namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "foaf",
           "package": "rdf4h",
@@ -483,6 +504,7 @@
         "index": {
           "description": "The friend of friend namespace",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "foaf",
           "package": "rdf4h",
@@ -496,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a left-biased merge of the two sets of prefix mappings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "mergePrefixMappings",
           "package": "rdf4h",
@@ -506,6 +529,7 @@
         "index": {
           "description": "Perform left-biased merge of the two sets of prefix mappings",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "mergePrefixMappings",
           "normalized": "PrefixMappings-\u003ePrefixMappings-\u003ePrefixMappings",
@@ -522,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a namespace for the given URI reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "mkPlainNS",
           "package": "rdf4h",
@@ -532,6 +557,7 @@
         "index": {
           "description": "Make namespace for the given URI reference",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "mkPlainNS",
           "normalized": "Text-\u003eNamespace",
@@ -548,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a namespace having the given prefix for the given URI reference,\n respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "mkPrefixedNS",
           "package": "rdf4h",
@@ -558,6 +585,7 @@
         "index": {
           "description": "Make namespace having the given prefix for the given URI reference respectively",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "mkPrefixedNS",
           "normalized": "Text-\u003eText-\u003eNamespace",
@@ -574,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a namespace having the given prefix for the given URI reference,\n respectively, using strings which will be converted to bytestrings\n automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "mkPrefixedNS'",
           "package": "rdf4h",
@@ -584,6 +613,7 @@
         "index": {
           "description": "Make namespace having the given prefix for the given URI reference respectively using strings which will be converted to bytestrings automatically",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "mkPrefixedNS'",
           "normalized": "String-\u003eString-\u003eNamespace",
@@ -600,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a URI consisting of the given namespace and the given localname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "mkUri",
           "package": "rdf4h",
@@ -610,6 +641,7 @@
         "index": {
           "description": "Make URI consisting of the given namespace and the given localname",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "mkUri",
           "normalized": "Namespace-\u003eText-\u003eText",
@@ -626,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of \u003ccode\u003e\u003ca\u003eNamespace\u003c/a\u003e\u003c/code\u003es and returns \u003ccode\u003e\u003ca\u003ePrefixMappings\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "ns_mappings",
           "package": "rdf4h",
@@ -636,6 +669,7 @@
         "index": {
           "description": "Takes list of Namespace and returns PrefixMappings",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "ns_mappings",
           "normalized": "[Namespace]-\u003ePrefixMappings",
@@ -651,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe OWL namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "owl",
           "package": "rdf4h",
@@ -661,6 +696,7 @@
         "index": {
           "description": "The OWL namespace",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "owl",
           "package": "rdf4h",
@@ -674,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the prefix of the given namespace, if it has one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "prefixOf",
           "package": "rdf4h",
@@ -684,6 +721,7 @@
         "index": {
           "description": "Determine the prefix of the given namespace if it has one",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "prefixOf",
           "normalized": "Namespace-\u003eMaybe Text",
@@ -700,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RDF namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "rdf",
           "package": "rdf4h",
@@ -710,6 +749,7 @@
         "index": {
           "description": "The RDF namespace",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "rdf",
           "package": "rdf4h",
@@ -723,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RDF Schema namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "rdfs",
           "package": "rdf4h",
@@ -733,6 +774,7 @@
         "index": {
           "description": "The RDF Schema namespace",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "rdfs",
           "package": "rdf4h",
@@ -746,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SKOS namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "skos",
           "package": "rdf4h",
@@ -756,6 +799,7 @@
         "index": {
           "description": "The SKOS namespace",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "skos",
           "package": "rdf4h",
@@ -769,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of common predefined namespaces as a \u003ccode\u003e\u003ca\u003ePrefixMappings\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "standard_ns_mappings",
           "package": "rdf4h",
@@ -779,6 +824,7 @@
         "index": {
           "description": "The set of common predefined namespaces as PrefixMappings value",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "standard_ns_mappings",
           "package": "rdf4h",
@@ -792,6 +838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView the prefix mappings as a list of key-value pairs. The PM in\n in the name is to reduce name clashes if used without qualifying.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "toPMList",
           "package": "rdf4h",
@@ -802,6 +849,7 @@
         "index": {
           "description": "View the prefix mappings as list of key-value pairs The PM in in the name is to reduce name clashes if used without qualifying",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "toPMList",
           "normalized": "PrefixMappings-\u003e[(Text,Text)]",
@@ -818,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the URI of the given namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "uriOf",
           "package": "rdf4h",
@@ -828,6 +877,7 @@
         "index": {
           "description": "Determine the URI of the given namespace",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "uriOf",
           "normalized": "Namespace-\u003eText",
@@ -844,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe XML Schema namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Namespace",
           "name": "xsd",
           "package": "rdf4h",
@@ -854,6 +905,7 @@
         "index": {
           "description": "The XML Schema namespace",
           "hierarchy": "Data RDF Namespace",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Namespace",
           "name": "xsd",
           "package": "rdf4h",
@@ -866,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "Query",
           "package": "rdf4h",
@@ -874,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "Query",
           "package": "rdf4h",
@@ -888,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine whether two triples have equal objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "equalObjects",
           "package": "rdf4h",
@@ -898,6 +953,7 @@
         "index": {
           "description": "Determine whether two triples have equal objects",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "equalObjects",
           "normalized": "Triple-\u003eTriple-\u003eBool",
@@ -914,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine whether two triples have equal predicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "equalPredicates",
           "package": "rdf4h",
@@ -924,6 +981,7 @@
         "index": {
           "description": "Determine whether two triples have equal predicates",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "equalPredicates",
           "normalized": "Triple-\u003eTriple-\u003eBool",
@@ -940,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine whether two triples have equal subjects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "equalSubjects",
           "package": "rdf4h",
@@ -950,6 +1009,7 @@
         "index": {
           "description": "Determine whether two triples have equal subjects",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "equalSubjects",
           "normalized": "Triple-\u003eTriple-\u003eBool",
@@ -966,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand the triples in a graph with the prefix map and base URL for that\n graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "expandTriples",
           "package": "rdf4h",
@@ -976,6 +1037,7 @@
         "index": {
           "description": "Expand the triples in graph with the prefix map and base URL for that graph",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "expandTriples",
           "normalized": "a-\u003eTriples",
@@ -992,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a parse result into an RDF if it was successful\n and error and terminate if not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "fromEither",
           "package": "rdf4h",
@@ -1002,6 +1065,7 @@
         "index": {
           "description": "Convert parse result into an RDF if it was successful and error and terminate if not",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "fromEither",
           "normalized": "Either ParseFailure a-\u003ea",
@@ -1018,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether the \u003ccode\u003e\u003ca\u003eRDF\u003c/a\u003e\u003c/code\u003e contains zero triples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "isEmpty",
           "package": "rdf4h",
@@ -1028,6 +1093,7 @@
         "index": {
           "description": "Determines whether the RDF contains zero triples",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "isEmpty",
           "normalized": "a-\u003eBool",
@@ -1044,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis determines if two RDF representations are equal regardless of blank\n node names, triple order and prefixes.  In math terms, this is the simeq\n latex operator, or ~=\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "isIsomorphic",
           "package": "rdf4h",
@@ -1054,6 +1121,7 @@
         "index": {
           "description": "This determines if two RDF representations are equal regardless of blank node names triple order and prefixes In math terms this is the simeq latex operator or",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "isIsomorphic",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1070,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists of all objects of triples with the given predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "listObjectsOfPredicate",
           "package": "rdf4h",
@@ -1080,6 +1149,7 @@
         "index": {
           "description": "Lists of all objects of triples with the given predicate",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "listObjectsOfPredicate",
           "normalized": "a-\u003ePredicate-\u003e[Object]",
@@ -1096,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists of all subjects of triples with the given predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "listSubjectsWithPredicate",
           "package": "rdf4h",
@@ -1106,6 +1177,7 @@
         "index": {
           "description": "Lists of all subjects of triples with the given predicate",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "listSubjectsWithPredicate",
           "normalized": "a-\u003ePredicate-\u003e[Subject]",
@@ -1122,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer the object node of the triple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "objectOf",
           "package": "rdf4h",
@@ -1132,6 +1205,7 @@
         "index": {
           "description": "Answer the object node of the triple",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "objectOf",
           "normalized": "Triple-\u003eNode",
@@ -1148,6 +1222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer the predicate node of the triple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "predicateOf",
           "package": "rdf4h",
@@ -1158,6 +1233,7 @@
         "index": {
           "description": "Answer the predicate node of the triple",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "predicateOf",
           "normalized": "Triple-\u003eNode",
@@ -1174,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer if rdf contains node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "rdfContainsNode",
           "package": "rdf4h",
@@ -1184,6 +1261,7 @@
         "index": {
           "description": "Answer if rdf contains node",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "rdfContainsNode",
           "normalized": "a-\u003eNode-\u003eBool",
@@ -1200,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove duplicate triples, returning unique triples. This \n function may return the triples in a different order than \n given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "removeDupes",
           "package": "rdf4h",
@@ -1210,6 +1289,7 @@
         "index": {
           "description": "Remove duplicate triples returning unique triples This function may return the triples in different order than given",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "removeDupes",
           "normalized": "Triples-\u003eTriples",
@@ -1226,6 +1306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer the given list of triples in sorted order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "sortTriples",
           "package": "rdf4h",
@@ -1236,6 +1317,7 @@
         "index": {
           "description": "Answer the given list of triples in sorted order",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "sortTriples",
           "normalized": "Triples-\u003eTriples",
@@ -1252,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer the subject node of the triple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "subjectOf",
           "package": "rdf4h",
@@ -1262,6 +1345,7 @@
         "index": {
           "description": "Answer the subject node of the triple",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "subjectOf",
           "normalized": "Triple-\u003eNode",
@@ -1278,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer if triple contains node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Query",
           "name": "tripleContainsNode",
           "package": "rdf4h",
@@ -1288,6 +1373,7 @@
         "index": {
           "description": "Answer if triple contains node",
           "hierarchy": "Data RDF Query",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Query",
           "name": "tripleContainsNode",
           "normalized": "Node-\u003eTriple-\u003eBool",
@@ -1304,6 +1390,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eTriplesGraph\u003c/a\u003e contains a list-backed graph implementation suitable\n for smallish graphs or for temporary graphs that will not be queried.\n It maintains the triples in the order that they are given in, and is\n especially useful for holding N-Triples, where it is often desirable\n to preserve the order of the triples when they were originally parsed.\n Duplicate triples are not filtered. If you might have duplicate triples,\n use \u003ccode\u003eMGraph\u003c/code\u003e instead, which is also more efficient. However, the query\n functions of this graph (select, query) remove duplicates from their\n result triples (but triplesOf does not) since it is usually cheap\n to do so.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.TriplesGraph",
           "name": "TriplesGraph",
           "package": "rdf4h",
@@ -1313,6 +1400,7 @@
         "index": {
           "description": "TriplesGraph contains list-backed graph implementation suitable for smallish graphs or for temporary graphs that will not be queried It maintains the triples in the order that they are given in and is especially useful for holding N-Triples where it is often desirable to preserve the order of the triples when they were originally parsed Duplicate triples are not filtered If you might have duplicate triples use MGraph instead which is also more efficient However the query functions of this graph select query remove duplicates from their result triples but triplesOf does not since it is usually cheap to do so",
           "hierarchy": "Data RDF TriplesGraph",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.TriplesGraph",
           "name": "TriplesGraph",
           "package": "rdf4h",
@@ -1327,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple implementation of the \u003ccode\u003e\u003ca\u003eRDF\u003c/a\u003e\u003c/code\u003e type class that represents\n the graph internally as a list of triples.\n\u003c/p\u003e\u003cp\u003eNote that this type of RDF is fine for interactive\n experimentation and querying of smallish (\u003c10,000 triples) graphs,\n but there are better options for larger graphs or graphs that you\n will do many queries against (e.g., \u003ccode\u003eMGraph\u003c/code\u003e is faster for queries).\n\u003c/p\u003e\u003cp\u003eThe time complexity of the functions (where n == num_triples) are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e    : O(1)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003emkRdf\u003c/a\u003e\u003c/code\u003e  : O(n)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003etriplesOf\u003c/a\u003e\u003c/code\u003e: O(1)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e   : O(n)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e    : O(n)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.TriplesGraph",
           "name": "TriplesGraph",
           "package": "rdf4h",
@@ -1336,6 +1425,7 @@
         "index": {
           "description": "simple implementation of the RDF type class that represents the graph internally as list of triples Note that this type of RDF is fine for interactive experimentation and querying of smallish triples graphs but there are better options for larger graphs or graphs that you will do many queries against e.g MGraph is faster for queries The time complexity of the functions where num triples are empty mkRdf triplesOf select query",
           "hierarchy": "Data RDF TriplesGraph",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.TriplesGraph",
           "name": "TriplesGraph",
           "package": "rdf4h",
@@ -1349,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "Types",
           "package": "rdf4h",
@@ -1357,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "Types",
           "package": "rdf4h",
@@ -1371,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe base URL of an RDF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "BaseUrl",
           "package": "rdf4h",
@@ -1380,6 +1473,7 @@
         "index": {
           "description": "The base URL of an RDF",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "BaseUrl",
           "package": "rdf4h",
@@ -1394,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual value of an RDF literal, represented as the \u003ccode\u003e\u003ca\u003eLValue\u003c/a\u003e\u003c/code\u003e\n parameter of an \u003ccode\u003e\u003ca\u003eLNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "LValue",
           "package": "rdf4h",
@@ -1403,6 +1498,7 @@
         "index": {
           "description": "The actual value of an RDF literal represented as the LValue parameter of an LNode",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "LValue",
           "package": "rdf4h",
@@ -1417,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a namespace as either a prefix and uri, respectively,\n  or just a uri.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "Namespace",
           "package": "rdf4h",
@@ -1426,6 +1523,7 @@
         "index": {
           "description": "Represents namespace as either prefix and uri respectively or just uri",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "Namespace",
           "package": "rdf4h",
@@ -1440,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RDF node, which may be either a URIRef node (\u003ccode\u003e\u003ca\u003eUNode\u003c/a\u003e\u003c/code\u003e), a blank\n node (\u003ccode\u003e\u003ca\u003eBNode\u003c/a\u003e\u003c/code\u003e), or a literal node (\u003ccode\u003e\u003ca\u003eLNode\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "Node",
           "package": "rdf4h",
@@ -1449,6 +1548,7 @@
         "index": {
           "description": "An RDF node which may be either URIRef node UNode blank node BNode or literal node LNode",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "Node",
           "package": "rdf4h",
@@ -1463,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eNodeSelector\u003c/a\u003e\u003c/code\u003e is either a function that returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n  or \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e for a node, or Nothing, which indicates that all\n nodes would return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe selector is said to select, or match, the nodes for\n which it returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWhen used in conjunction with the \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e method of \u003ccode\u003eGraph\u003c/code\u003e, three\n node selectors are used to match a triple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "NodeSelector",
           "package": "rdf4h",
@@ -1472,6 +1573,7 @@
         "index": {
           "description": "NodeSelector is either function that returns True or False for node or Nothing which indicates that all nodes would return True The selector is said to select or match the nodes for which it returns True When used in conjunction with the select method of Graph three node selectors are used to match triple",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "NodeSelector",
           "package": "rdf4h",
@@ -1486,6 +1588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e, defined for convenience and readability purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "Object",
           "package": "rdf4h",
@@ -1495,6 +1598,7 @@
         "index": {
           "description": "An alias for Node defined for convenience and readability purposes",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "Object",
           "package": "rdf4h",
@@ -1509,6 +1613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a failure in parsing an N-Triples document, including\n an error message with information about the cause for the failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "ParseFailure",
           "package": "rdf4h",
@@ -1518,6 +1623,7 @@
         "index": {
           "description": "Represents failure in parsing an N-Triples document including an error message with information about the cause for the failure",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "ParseFailure",
           "package": "rdf4h",
@@ -1532,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e, defined for convenience and readability purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "Predicate",
           "package": "rdf4h",
@@ -1541,6 +1648,7 @@
         "index": {
           "description": "An alias for Node defined for convenience and readability purposes",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "Predicate",
           "package": "rdf4h",
@@ -1555,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping of a prefix to the URI for that prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "PrefixMapping",
           "package": "rdf4h",
@@ -1564,6 +1673,7 @@
         "index": {
           "description": "mapping of prefix to the URI for that prefix",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "PrefixMapping",
           "package": "rdf4h",
@@ -1578,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for a map from prefix to namespace URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "PrefixMappings",
           "package": "rdf4h",
@@ -1587,6 +1698,7 @@
         "index": {
           "description": "An alias for map from prefix to namespace URI",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "PrefixMappings",
           "package": "rdf4h",
@@ -1601,6 +1713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RDF value is a set of (unique) RDF triples, together with the\n operations defined upon them.\n\u003c/p\u003e\u003cp\u003eFor information about the efficiency of the functions, see the\n documentation for the particular RDF instance.\n\u003c/p\u003e\u003cp\u003eFor more information about the concept of an RDF graph, see\n the following: \u003ca\u003ehttp://www.w3.org/TR/rdf-concepts/#section-rdf-graph\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "RDF",
           "package": "rdf4h",
@@ -1610,6 +1723,7 @@
         "index": {
           "description": "An RDF value is set of unique RDF triples together with the operations defined upon them For information about the efficiency of the functions see the documentation for the particular RDF instance For more information about the concept of an RDF graph see the following http www.w3.org TR rdf-concepts section-rdf-graph",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "RDF",
           "package": "rdf4h",
@@ -1624,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RdfParser is a parser that knows how to parse 1 format of RDF and\n can parse an RDF document of that type from a string, a file, or a URL.\n Required configuration options will vary from instance to instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "RdfParser",
           "package": "rdf4h",
@@ -1633,6 +1748,7 @@
         "index": {
           "description": "An RdfParser is parser that knows how to parse format of RDF and can parse an RDF document of that type from string file or URL Required configuration options will vary from instance to instance",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "RdfParser",
           "package": "rdf4h",
@@ -1647,6 +1763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RdfSerializer is a serializer of RDF to some particular output format, such as\n NTriples or Turtle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "RdfSerializer",
           "package": "rdf4h",
@@ -1656,6 +1773,7 @@
         "index": {
           "description": "An RdfSerializer is serializer of RDF to some particular output format such as NTriples or Turtle",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "RdfSerializer",
           "package": "rdf4h",
@@ -1670,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e, defined for convenience and readability purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "Subject",
           "package": "rdf4h",
@@ -1679,6 +1798,7 @@
         "index": {
           "description": "An alias for Node defined for convenience and readability purposes",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "Subject",
           "package": "rdf4h",
@@ -1693,6 +1813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RDF triple is a statement consisting of a subject, predicate,\n and object, respectively.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.w3.org/TR/rdf-concepts/#section-triples\u003c/a\u003e for\n more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "Triple",
           "package": "rdf4h",
@@ -1702,6 +1823,7 @@
         "index": {
           "description": "An RDF triple is statement consisting of subject predicate and object respectively See http www.w3.org TR rdf-concepts section-triples for more information",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "Triple",
           "package": "rdf4h",
@@ -1716,6 +1838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of triples. This is defined for convenience and readability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "Triples",
           "package": "rdf4h",
@@ -1725,6 +1848,7 @@
         "index": {
           "description": "list of triples This is defined for convenience and readability",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "Triples",
           "package": "rdf4h",
@@ -1739,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for ADTs that expose views to clients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "View",
           "package": "rdf4h",
@@ -1748,6 +1873,7 @@
         "index": {
           "description": "type class for ADTs that expose views to clients",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "View",
           "package": "rdf4h",
@@ -1762,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RDF blank node. See\n \u003ca\u003ehttp://www.w3.org/TR/rdf-concepts/#section-blank-nodes\u003c/a\u003e for more\n information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "BNode",
           "package": "rdf4h",
@@ -1772,6 +1899,7 @@
         "index": {
           "description": "An RDF blank node See http www.w3.org TR rdf-concepts section-blank-nodes for more information",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "BNode",
           "package": "rdf4h",
@@ -1786,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RDF blank node with an auto-generated identifier, as used in\n Turtle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "BNodeGen",
           "package": "rdf4h",
@@ -1796,6 +1925,7 @@
         "index": {
           "description": "An RDF blank node with an auto-generated identifier as used in Turtle",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "BNodeGen",
           "package": "rdf4h",
@@ -1809,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "BaseUrl",
           "package": "rdf4h",
@@ -1818,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "BaseUrl",
           "package": "rdf4h",
@@ -1832,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RDF literal. See\n \u003ca\u003ehttp://www.w3.org/TR/rdf-concepts/#section-Graph-Literal\u003c/a\u003e for more\n information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "LNode",
           "package": "rdf4h",
@@ -1842,6 +1975,7 @@
         "index": {
           "description": "An RDF literal See http www.w3.org TR rdf-concepts section-Graph-Literal for more information",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "LNode",
           "package": "rdf4h",
@@ -1855,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "ParseFailure",
           "package": "rdf4h",
@@ -1864,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "ParseFailure",
           "package": "rdf4h",
@@ -1878,6 +2014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plain (untyped) literal value in an unspecified language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "PlainL",
           "package": "rdf4h",
@@ -1888,6 +2025,7 @@
         "index": {
           "description": "plain untyped literal value in an unspecified language",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "PlainL",
           "package": "rdf4h",
@@ -1902,6 +2040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plain (untyped) literal value with a language specifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "PlainLL",
           "package": "rdf4h",
@@ -1912,6 +2051,7 @@
         "index": {
           "description": "plain untyped literal value with language specifier",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "PlainLL",
           "package": "rdf4h",
@@ -1925,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "Triple",
           "package": "rdf4h",
@@ -1934,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "Triple",
           "package": "rdf4h",
@@ -1948,6 +2090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typed literal value consisting of the literal value and\n the URI of the datatype of the value, respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "TypedL",
           "package": "rdf4h",
@@ -1958,6 +2101,7 @@
         "index": {
           "description": "typed literal value consisting of the literal value and the URI of the datatype of the value respectively",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "TypedL",
           "package": "rdf4h",
@@ -1972,6 +2116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RDF URI reference. See\n \u003ca\u003ehttp://www.w3.org/TR/rdf-concepts/#section-Graph-URIref\u003c/a\u003e for more\n information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "UNode",
           "package": "rdf4h",
@@ -1982,6 +2127,7 @@
         "index": {
           "description": "An RDF URI reference See http www.w3.org TR rdf-concepts section-Graph-URIref for more information",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "UNode",
           "package": "rdf4h",
@@ -1996,6 +2142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an RDF with the specified prefix mappings merged with\n the existing mappings. If the Bool arg is True, then a new mapping\n for an existing prefix will replace the old mapping; otherwise,\n the new mapping is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "addPrefixMappings",
           "package": "rdf4h",
@@ -2006,6 +2153,7 @@
         "index": {
           "description": "Return an RDF with the specified prefix mappings merged with the existing mappings If the Bool arg is True then new mapping for an existing prefix will replace the old mapping otherwise the new mapping is ignored",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "addPrefixMappings",
           "normalized": "a-\u003ePrefixMappings-\u003eBool-\u003ea",
@@ -2022,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the base URL of this RDF, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "baseUrl",
           "package": "rdf4h",
@@ -2032,6 +2181,7 @@
         "index": {
           "description": "Return the base URL of this RDF if any",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "baseUrl",
           "normalized": "a-\u003eMaybe BaseUrl",
@@ -2048,6 +2198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a blank node using the given string identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "bnode",
           "package": "rdf4h",
@@ -2058,6 +2209,7 @@
         "index": {
           "description": "Return blank node using the given string identifier",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "bnode",
           "normalized": "Text-\u003eNode",
@@ -2073,6 +2225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an empty RDF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "empty",
           "package": "rdf4h",
@@ -2083,6 +2236,7 @@
         "index": {
           "description": "Return an empty RDF",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "empty",
           "package": "rdf4h",
@@ -2096,6 +2250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to the file handle whatever header information is required based on\n the output format. For example, if serializing to Turtle, this method would\n write the necessary @prefix declarations and possibly a @baseUrl declaration,\n whereas for NTriples, there is no header section at all, so this would be a no-op.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "hWriteH",
           "package": "rdf4h",
@@ -2106,6 +2261,7 @@
         "index": {
           "description": "Write to the file handle whatever header information is required based on the output format For example if serializing to Turtle this method would write the necessary prefix declarations and possibly baseUrl declaration whereas for NTriples there is no header section at all so this would be no-op",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "hWriteH",
           "normalized": "a-\u003eHandle-\u003eb-\u003eIO()",
@@ -2122,6 +2278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a single node to the file handle using whatever configuration is \n specified by the first argument. The same WARNING applies as to \u003ccode\u003e\u003ca\u003ehWriteTs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "hWriteN",
           "package": "rdf4h",
@@ -2132,6 +2289,7 @@
         "index": {
           "description": "Write single node to the file handle using whatever configuration is specified by the first argument The same WARNING applies as to hWriteTs",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "hWriteN",
           "normalized": "a-\u003eHandle-\u003eNode-\u003eIO()",
@@ -2148,6 +2306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the RDF to a file handle using whatever configuration is specified by\n the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "hWriteRdf",
           "package": "rdf4h",
@@ -2158,6 +2317,7 @@
         "index": {
           "description": "Write the RDF to file handle using whatever configuration is specified by the first argument",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "hWriteRdf",
           "normalized": "a-\u003eHandle-\u003eb-\u003eIO()",
@@ -2174,6 +2334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a single triple to the file handle using whatever configuration is \n specified by the first argument. The same WARNING applies as to \u003ccode\u003e\u003ca\u003ehWriteTs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "hWriteT",
           "package": "rdf4h",
@@ -2184,6 +2345,7 @@
         "index": {
           "description": "Write single triple to the file handle using whatever configuration is specified by the first argument The same WARNING applies as to hWriteTs",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "hWriteT",
           "normalized": "a-\u003eHandle-\u003eTriple-\u003eIO()",
@@ -2200,6 +2362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite some triples to a file handle using whatever configuration is specified\n by the first argument. \n\u003c/p\u003e\u003cp\u003eWARNING: if the serialization format has header-level information \n that should be output (e.g., @prefix declarations for Turtle), then you should\n use \u003ccode\u003ehWriteG\u003c/code\u003e instead of this method unless you're sure this is safe to use, since\n otherwise the resultant document will be missing the header information and \n will not be valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "hWriteTs",
           "package": "rdf4h",
@@ -2210,6 +2373,7 @@
         "index": {
           "description": "Write some triples to file handle using whatever configuration is specified by the first argument WARNING if the serialization format has header-level information that should be output e.g prefix declarations for Turtle then you should use hWriteG instead of this method unless you re sure this is safe to use since otherwise the resultant document will be missing the header information and will not be valid",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "hWriteTs",
           "normalized": "a-\u003eHandle-\u003eTriples-\u003eIO()",
@@ -2226,6 +2390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer if given node is a blank node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "isBNode",
           "package": "rdf4h",
@@ -2236,6 +2401,7 @@
         "index": {
           "description": "Answer if given node is blank node",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "isBNode",
           "normalized": "Node-\u003eBool",
@@ -2252,6 +2418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer if given node is a literal node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "isLNode",
           "package": "rdf4h",
@@ -2262,6 +2429,7 @@
         "index": {
           "description": "Answer if given node is literal node",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "isLNode",
           "normalized": "Node-\u003eBool",
@@ -2278,6 +2446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer if given node is a URI Ref node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "isUNode",
           "package": "rdf4h",
@@ -2288,6 +2457,7 @@
         "index": {
           "description": "Answer if given node is URI Ref node",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "isUNode",
           "normalized": "Node-\u003eBool",
@@ -2304,6 +2474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a literal node using the given LValue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "lnode",
           "package": "rdf4h",
@@ -2314,6 +2485,7 @@
         "index": {
           "description": "Return literal node using the given LValue",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "lnode",
           "normalized": "LValue-\u003eNode",
@@ -2329,6 +2501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a RDF containing all the given triples. Handling of duplicates\n in the input depend on the particular RDF implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "mkRdf",
           "package": "rdf4h",
@@ -2339,6 +2512,7 @@
         "index": {
           "description": "Return RDF containing all the given triples Handling of duplicates in the input depend on the particular RDF implementation",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "mkRdf",
           "normalized": "Triples-\u003eMaybe BaseUrl-\u003ePrefixMappings-\u003ea",
@@ -2355,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse RDF from the local file with the given path, yielding a failure with error\n message or the resultant RDF in the IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "parseFile",
           "package": "rdf4h",
@@ -2365,6 +2540,7 @@
         "index": {
           "description": "Parse RDF from the local file with the given path yielding failure with error message or the resultant RDF in the IO monad",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "parseFile",
           "normalized": "a-\u003eString-\u003eIO(Either ParseFailure b)",
@@ -2381,6 +2557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse RDF from the given text, yielding a failure with error message or\n the resultant RDF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "parseString",
           "package": "rdf4h",
@@ -2391,6 +2568,7 @@
         "index": {
           "description": "Parse RDF from the given text yielding failure with error message or the resultant RDF",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "parseString",
           "normalized": "a-\u003eText-\u003eEither ParseFailure b",
@@ -2407,6 +2585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse RDF from the remote file with the given HTTP URL (https is not supported),\n yielding a failure with error message or the resultant graph in the IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "parseURL",
           "package": "rdf4h",
@@ -2417,6 +2596,7 @@
         "index": {
           "description": "Parse RDF from the remote file with the given HTTP URL https is not supported yielding failure with error message or the resultant graph in the IO monad",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "parseURL",
           "normalized": "a-\u003eString-\u003eIO(Either ParseFailure b)",
@@ -2433,6 +2613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a PlainL LValue for the given string value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "plainL",
           "package": "rdf4h",
@@ -2443,6 +2624,7 @@
         "index": {
           "description": "Return PlainL LValue for the given string value",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "plainL",
           "normalized": "Text-\u003eLValue",
@@ -2458,6 +2640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a PlainLL LValue for the given string value and language,\n respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "plainLL",
           "package": "rdf4h",
@@ -2468,6 +2651,7 @@
         "index": {
           "description": "Return PlainLL LValue for the given string value and language respectively",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "plainLL",
           "normalized": "Text-\u003eText-\u003eLValue",
@@ -2484,6 +2668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the prefix mappings defined for this RDF, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "prefixMappings",
           "package": "rdf4h",
@@ -2494,6 +2679,7 @@
         "index": {
           "description": "Return the prefix mappings defined for this RDF if any",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "prefixMappings",
           "normalized": "a-\u003ePrefixMappings",
@@ -2510,6 +2696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the triples in the RDF that match the given pattern, where\n the pattern (3 Maybe Node parameters) is interpreted as a triple pattern.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eMaybe Node\u003c/code\u003e params are interpreted as the subject, predicate, and\n object of a triple, respectively. \u003ccode\u003eJust n\u003c/code\u003e is true iff the triple has\n a node equal to \u003ccode\u003en\u003c/code\u003e in the appropriate location; \u003ccode\u003eNothing\u003c/code\u003e is always\n true, regardless of the node in the appropriate location.\n\u003c/p\u003e\u003cp\u003eFor example, \u003ccode\u003e query rdf (Just n1) Nothing (Just n2) \u003c/code\u003e would return all\n and only the triples that have \u003ccode\u003en1\u003c/code\u003e as subject and \u003ccode\u003en2\u003c/code\u003e as object,\n regardless of the predicate of the triple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "query",
           "package": "rdf4h",
@@ -2520,6 +2707,7 @@
         "index": {
           "description": "Return the triples in the RDF that match the given pattern where the pattern Maybe Node parameters is interpreted as triple pattern The Maybe Node params are interpreted as the subject predicate and object of triple respectively Just is true iff the triple has node equal to in the appropriate location Nothing is always true regardless of the node in the appropriate location For example query rdf Just n1 Nothing Just n2 would return all and only the triples that have n1 as subject and n2 as object regardless of the predicate of the triple",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "query",
           "normalized": "a-\u003eMaybe Node-\u003eMaybe Node-\u003eMaybe Node-\u003eTriples",
@@ -2535,6 +2723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect the triples in the RDF that match the given selectors.\n\u003c/p\u003e\u003cp\u003eThe three NodeSelector parameters are optional functions that match\n the respective subject, predicate, and object of a triple. The triples\n returned are those in the given graph for which the first selector\n returns true when called on the subject, the second selector returns\n true when called on the predicate, and the third selector returns true\n when called on the ojbect. A \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e parameter is equivalent to a\n function that always returns true for the appropriate node; but\n implementations may be able to much more efficiently answer a select\n that involves a \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e parameter rather than an \u003ccode\u003e(id True)\u003c/code\u003e parameter.\n\u003c/p\u003e\u003cp\u003eThe following call illustrates the use of select, and would result in\n the selection of all and only the triples that have a blank node\n as subject and a literal node as object:\n\u003c/p\u003e\u003cpre\u003e select gr (Just isBNode) Nothing (Just isLNode)\n\u003c/pre\u003e\u003cp\u003eNote: this function may be very slow; see the documentation for the\n particular RDF implementation for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "select",
           "package": "rdf4h",
@@ -2545,6 +2734,7 @@
         "index": {
           "description": "Select the triples in the RDF that match the given selectors The three NodeSelector parameters are optional functions that match the respective subject predicate and object of triple The triples returned are those in the given graph for which the first selector returns true when called on the subject the second selector returns true when called on the predicate and the third selector returns true when called on the ojbect Nothing parameter is equivalent to function that always returns true for the appropriate node but implementations may be able to much more efficiently answer select that involves Nothing parameter rather than an id True parameter The following call illustrates the use of select and would result in the selection of all and only the triples that have blank node as subject and literal node as object select gr Just isBNode Nothing Just isLNode Note this function may be very slow see the documentation for the particular RDF implementation for more information",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "select",
           "normalized": "a-\u003eNodeSelector-\u003eNodeSelector-\u003eNodeSelector-\u003eTriples",
@@ -2560,6 +2750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA smart constructor function for \u003ccode\u003e\u003ca\u003eTriple\u003c/a\u003e\u003c/code\u003e that verifies the node arguments\n are of the correct type and creates the new \u003ccode\u003e\u003ca\u003eTriple\u003c/a\u003e\u003c/code\u003e if so or calls \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n \u003cem\u003esubj\u003c/em\u003e must be a \u003ccode\u003e\u003ca\u003eUNode\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eBNode\u003c/a\u003e\u003c/code\u003e, and \u003cem\u003epred\u003c/em\u003e must be a \u003ccode\u003e\u003ca\u003eUNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "triple",
           "package": "rdf4h",
@@ -2570,6 +2761,7 @@
         "index": {
           "description": "smart constructor function for Triple that verifies the node arguments are of the correct type and creates the new Triple if so or calls error subj must be UNode or BNode and pred must be UNode",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "triple",
           "normalized": "Subject-\u003ePredicate-\u003eObject-\u003eTriple",
@@ -2585,6 +2777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all triples in the RDF, as a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "triplesOf",
           "package": "rdf4h",
@@ -2595,6 +2788,7 @@
         "index": {
           "description": "Return all triples in the RDF as list",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "triplesOf",
           "normalized": "a-\u003eTriples",
@@ -2611,6 +2805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a TypedL LValue for the given string value and datatype URI,\n respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "typedL",
           "package": "rdf4h",
@@ -2621,6 +2816,7 @@
         "index": {
           "description": "Return TypedL LValue for the given string value and datatype URI respectively",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "typedL",
           "normalized": "Text-\u003eText-\u003eLValue",
@@ -2636,6 +2832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a URIRef node for the given bytetring URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "unode",
           "package": "rdf4h",
@@ -2646,6 +2843,7 @@
         "index": {
           "description": "Return URIRef node for the given bytetring URI",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "unode",
           "normalized": "Text-\u003eNode",
@@ -2660,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "view",
           "package": "rdf4h",
@@ -2669,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "view",
           "normalized": "a-\u003eb",
@@ -2684,6 +2884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite header information to stdout; equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003ehWriteRdf\u003c/a\u003e\u003c/code\u003e stdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "writeH",
           "package": "rdf4h",
@@ -2694,6 +2895,7 @@
         "index": {
           "description": "Write header information to stdout equivalent to hWriteRdf stdout",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "writeH",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -2709,6 +2911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a single node to sdout; equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003ehWriteN\u003c/a\u003e\u003c/code\u003e stdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "writeN",
           "package": "rdf4h",
@@ -2719,6 +2922,7 @@
         "index": {
           "description": "Write single node to sdout equivalent to hWriteN stdout",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "writeN",
           "normalized": "a-\u003eNode-\u003eIO()",
@@ -2734,6 +2938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the RDF to stdout; equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003ehWriteRdf\u003c/a\u003e\u003c/code\u003e stdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "writeRdf",
           "package": "rdf4h",
@@ -2744,6 +2949,7 @@
         "index": {
           "description": "Write the RDF to stdout equivalent to hWriteRdf stdout",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "writeRdf",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -2760,6 +2966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a single triple to stdout; equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003ehWriteT\u003c/a\u003e\u003c/code\u003e stdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "writeT",
           "package": "rdf4h",
@@ -2770,6 +2977,7 @@
         "index": {
           "description": "Write single triple to stdout equivalent to hWriteT stdout",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "writeT",
           "normalized": "a-\u003eTriple-\u003eIO()",
@@ -2785,6 +2993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite some triples to stdout; equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003ehWriteTs\u003c/a\u003e\u003c/code\u003e stdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF.Types",
           "name": "writeTs",
           "package": "rdf4h",
@@ -2795,6 +3004,7 @@
         "index": {
           "description": "Write some triples to stdout equivalent to hWriteTs stdout",
           "hierarchy": "Data RDF Types",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF.Types",
           "name": "writeTs",
           "normalized": "a-\u003eTriples-\u003eIO()",
@@ -2811,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Core module exports all serializers and parsers,\n  types, and query functions of the library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "RDF",
           "package": "rdf4h",
@@ -2820,6 +3031,7 @@
         "index": {
           "description": "The Core module exports all serializers and parsers types and query functions of the library",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "RDF",
           "package": "rdf4h",
@@ -2834,6 +3046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RDF value is a set of (unique) RDF triples, together with the\n operations defined upon them.\n\u003c/p\u003e\u003cp\u003eFor information about the efficiency of the functions, see the\n documentation for the particular RDF instance.\n\u003c/p\u003e\u003cp\u003eFor more information about the concept of an RDF graph, see\n the following: \u003ca\u003ehttp://www.w3.org/TR/rdf-concepts/#section-rdf-graph\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "RDF",
           "package": "rdf4h",
@@ -2843,6 +3056,7 @@
         "index": {
           "description": "An RDF value is set of unique RDF triples together with the operations defined upon them For information about the efficiency of the functions see the documentation for the particular RDF instance For more information about the concept of an RDF graph see the following http www.w3.org TR rdf-concepts section-rdf-graph",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "RDF",
           "package": "rdf4h",
@@ -2857,6 +3071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RdfParser is a parser that knows how to parse 1 format of RDF and\n can parse an RDF document of that type from a string, a file, or a URL.\n Required configuration options will vary from instance to instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "RdfParser",
           "package": "rdf4h",
@@ -2866,6 +3081,7 @@
         "index": {
           "description": "An RdfParser is parser that knows how to parse format of RDF and can parse an RDF document of that type from string file or URL Required configuration options will vary from instance to instance",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "RdfParser",
           "package": "rdf4h",
@@ -2880,6 +3096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RdfSerializer is a serializer of RDF to some particular output format, such as\n NTriples or Turtle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "RdfSerializer",
           "package": "rdf4h",
@@ -2889,6 +3106,7 @@
         "index": {
           "description": "An RdfSerializer is serializer of RDF to some particular output format such as NTriples or Turtle",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "RdfSerializer",
           "package": "rdf4h",
@@ -2903,6 +3121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an RDF with the specified prefix mappings merged with\n the existing mappings. If the Bool arg is True, then a new mapping\n for an existing prefix will replace the old mapping; otherwise,\n the new mapping is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "addPrefixMappings",
           "package": "rdf4h",
@@ -2913,6 +3132,7 @@
         "index": {
           "description": "Return an RDF with the specified prefix mappings merged with the existing mappings If the Bool arg is True then new mapping for an existing prefix will replace the old mapping otherwise the new mapping is ignored",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "addPrefixMappings",
           "normalized": "a-\u003ePrefixMappings-\u003eBool-\u003ea",
@@ -2929,6 +3149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the base URL of this RDF, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "baseUrl",
           "package": "rdf4h",
@@ -2939,6 +3160,7 @@
         "index": {
           "description": "Return the base URL of this RDF if any",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "baseUrl",
           "normalized": "a-\u003eMaybe BaseUrl",
@@ -2955,6 +3177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an empty RDF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "empty",
           "package": "rdf4h",
@@ -2965,6 +3188,7 @@
         "index": {
           "description": "Return an empty RDF",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "empty",
           "package": "rdf4h",
@@ -2978,6 +3202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to the file handle whatever header information is required based on\n the output format. For example, if serializing to Turtle, this method would\n write the necessary @prefix declarations and possibly a @baseUrl declaration,\n whereas for NTriples, there is no header section at all, so this would be a no-op.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "hWriteH",
           "package": "rdf4h",
@@ -2988,6 +3213,7 @@
         "index": {
           "description": "Write to the file handle whatever header information is required based on the output format For example if serializing to Turtle this method would write the necessary prefix declarations and possibly baseUrl declaration whereas for NTriples there is no header section at all so this would be no-op",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "hWriteH",
           "normalized": "a-\u003eHandle-\u003eb-\u003eIO()",
@@ -3004,6 +3230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a single node to the file handle using whatever configuration is \n specified by the first argument. The same WARNING applies as to \u003ccode\u003e\u003ca\u003ehWriteTs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "hWriteN",
           "package": "rdf4h",
@@ -3014,6 +3241,7 @@
         "index": {
           "description": "Write single node to the file handle using whatever configuration is specified by the first argument The same WARNING applies as to hWriteTs",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "hWriteN",
           "normalized": "a-\u003eHandle-\u003eNode-\u003eIO()",
@@ -3030,6 +3258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the RDF to a file handle using whatever configuration is specified by\n the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "hWriteRdf",
           "package": "rdf4h",
@@ -3040,6 +3269,7 @@
         "index": {
           "description": "Write the RDF to file handle using whatever configuration is specified by the first argument",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "hWriteRdf",
           "normalized": "a-\u003eHandle-\u003eb-\u003eIO()",
@@ -3056,6 +3286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a single triple to the file handle using whatever configuration is \n specified by the first argument. The same WARNING applies as to \u003ccode\u003e\u003ca\u003ehWriteTs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "hWriteT",
           "package": "rdf4h",
@@ -3066,6 +3297,7 @@
         "index": {
           "description": "Write single triple to the file handle using whatever configuration is specified by the first argument The same WARNING applies as to hWriteTs",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "hWriteT",
           "normalized": "a-\u003eHandle-\u003eTriple-\u003eIO()",
@@ -3082,6 +3314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite some triples to a file handle using whatever configuration is specified\n by the first argument. \n\u003c/p\u003e\u003cp\u003eWARNING: if the serialization format has header-level information \n that should be output (e.g., @prefix declarations for Turtle), then you should\n use \u003ccode\u003ehWriteG\u003c/code\u003e instead of this method unless you're sure this is safe to use, since\n otherwise the resultant document will be missing the header information and \n will not be valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "hWriteTs",
           "package": "rdf4h",
@@ -3092,6 +3325,7 @@
         "index": {
           "description": "Write some triples to file handle using whatever configuration is specified by the first argument WARNING if the serialization format has header-level information that should be output e.g prefix declarations for Turtle then you should use hWriteG instead of this method unless you re sure this is safe to use since otherwise the resultant document will be missing the header information and will not be valid",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "hWriteTs",
           "normalized": "a-\u003eHandle-\u003eTriples-\u003eIO()",
@@ -3108,6 +3342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a RDF containing all the given triples. Handling of duplicates\n in the input depend on the particular RDF implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "mkRdf",
           "package": "rdf4h",
@@ -3118,6 +3353,7 @@
         "index": {
           "description": "Return RDF containing all the given triples Handling of duplicates in the input depend on the particular RDF implementation",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "mkRdf",
           "normalized": "Triples-\u003eMaybe BaseUrl-\u003ePrefixMappings-\u003ea",
@@ -3134,6 +3370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse RDF from the local file with the given path, yielding a failure with error\n message or the resultant RDF in the IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "parseFile",
           "package": "rdf4h",
@@ -3144,6 +3381,7 @@
         "index": {
           "description": "Parse RDF from the local file with the given path yielding failure with error message or the resultant RDF in the IO monad",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "parseFile",
           "normalized": "a-\u003eString-\u003eIO(Either ParseFailure b)",
@@ -3160,6 +3398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse RDF from the given text, yielding a failure with error message or\n the resultant RDF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "parseString",
           "package": "rdf4h",
@@ -3170,6 +3409,7 @@
         "index": {
           "description": "Parse RDF from the given text yielding failure with error message or the resultant RDF",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "parseString",
           "normalized": "a-\u003eText-\u003eEither ParseFailure b",
@@ -3186,6 +3426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse RDF from the remote file with the given HTTP URL (https is not supported),\n yielding a failure with error message or the resultant graph in the IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "parseURL",
           "package": "rdf4h",
@@ -3196,6 +3437,7 @@
         "index": {
           "description": "Parse RDF from the remote file with the given HTTP URL https is not supported yielding failure with error message or the resultant graph in the IO monad",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "parseURL",
           "normalized": "a-\u003eString-\u003eIO(Either ParseFailure b)",
@@ -3212,6 +3454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the prefix mappings defined for this RDF, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "prefixMappings",
           "package": "rdf4h",
@@ -3222,6 +3465,7 @@
         "index": {
           "description": "Return the prefix mappings defined for this RDF if any",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "prefixMappings",
           "normalized": "a-\u003ePrefixMappings",
@@ -3238,6 +3482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the triples in the RDF that match the given pattern, where\n the pattern (3 Maybe Node parameters) is interpreted as a triple pattern.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eMaybe Node\u003c/code\u003e params are interpreted as the subject, predicate, and\n object of a triple, respectively. \u003ccode\u003eJust n\u003c/code\u003e is true iff the triple has\n a node equal to \u003ccode\u003en\u003c/code\u003e in the appropriate location; \u003ccode\u003eNothing\u003c/code\u003e is always\n true, regardless of the node in the appropriate location.\n\u003c/p\u003e\u003cp\u003eFor example, \u003ccode\u003e query rdf (Just n1) Nothing (Just n2) \u003c/code\u003e would return all\n and only the triples that have \u003ccode\u003en1\u003c/code\u003e as subject and \u003ccode\u003en2\u003c/code\u003e as object,\n regardless of the predicate of the triple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "query",
           "package": "rdf4h",
@@ -3248,6 +3493,7 @@
         "index": {
           "description": "Return the triples in the RDF that match the given pattern where the pattern Maybe Node parameters is interpreted as triple pattern The Maybe Node params are interpreted as the subject predicate and object of triple respectively Just is true iff the triple has node equal to in the appropriate location Nothing is always true regardless of the node in the appropriate location For example query rdf Just n1 Nothing Just n2 would return all and only the triples that have n1 as subject and n2 as object regardless of the predicate of the triple",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "query",
           "normalized": "a-\u003eMaybe Node-\u003eMaybe Node-\u003eMaybe Node-\u003eTriples",
@@ -3263,6 +3509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect the triples in the RDF that match the given selectors.\n\u003c/p\u003e\u003cp\u003eThe three NodeSelector parameters are optional functions that match\n the respective subject, predicate, and object of a triple. The triples\n returned are those in the given graph for which the first selector\n returns true when called on the subject, the second selector returns\n true when called on the predicate, and the third selector returns true\n when called on the ojbect. A \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e parameter is equivalent to a\n function that always returns true for the appropriate node; but\n implementations may be able to much more efficiently answer a select\n that involves a \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e parameter rather than an \u003ccode\u003e(id True)\u003c/code\u003e parameter.\n\u003c/p\u003e\u003cp\u003eThe following call illustrates the use of select, and would result in\n the selection of all and only the triples that have a blank node\n as subject and a literal node as object:\n\u003c/p\u003e\u003cpre\u003e select gr (Just isBNode) Nothing (Just isLNode)\n\u003c/pre\u003e\u003cp\u003eNote: this function may be very slow; see the documentation for the\n particular RDF implementation for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "select",
           "package": "rdf4h",
@@ -3273,6 +3520,7 @@
         "index": {
           "description": "Select the triples in the RDF that match the given selectors The three NodeSelector parameters are optional functions that match the respective subject predicate and object of triple The triples returned are those in the given graph for which the first selector returns true when called on the subject the second selector returns true when called on the predicate and the third selector returns true when called on the ojbect Nothing parameter is equivalent to function that always returns true for the appropriate node but implementations may be able to much more efficiently answer select that involves Nothing parameter rather than an id True parameter The following call illustrates the use of select and would result in the selection of all and only the triples that have blank node as subject and literal node as object select gr Just isBNode Nothing Just isLNode Note this function may be very slow see the documentation for the particular RDF implementation for more information",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "select",
           "normalized": "a-\u003eNodeSelector-\u003eNodeSelector-\u003eNodeSelector-\u003eTriples",
@@ -3288,6 +3536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all triples in the RDF, as a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "triplesOf",
           "package": "rdf4h",
@@ -3298,6 +3547,7 @@
         "index": {
           "description": "Return all triples in the RDF as list",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "triplesOf",
           "normalized": "a-\u003eTriples",
@@ -3314,6 +3564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite header information to stdout; equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003ehWriteRdf\u003c/a\u003e\u003c/code\u003e stdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "writeH",
           "package": "rdf4h",
@@ -3324,6 +3575,7 @@
         "index": {
           "description": "Write header information to stdout equivalent to hWriteRdf stdout",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "writeH",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -3339,6 +3591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a single node to sdout; equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003ehWriteN\u003c/a\u003e\u003c/code\u003e stdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "writeN",
           "package": "rdf4h",
@@ -3349,6 +3602,7 @@
         "index": {
           "description": "Write single node to sdout equivalent to hWriteN stdout",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "writeN",
           "normalized": "a-\u003eNode-\u003eIO()",
@@ -3364,6 +3618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the RDF to stdout; equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003ehWriteRdf\u003c/a\u003e\u003c/code\u003e stdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "writeRdf",
           "package": "rdf4h",
@@ -3374,6 +3629,7 @@
         "index": {
           "description": "Write the RDF to stdout equivalent to hWriteRdf stdout",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "writeRdf",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -3390,6 +3646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a single triple to stdout; equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003ehWriteT\u003c/a\u003e\u003c/code\u003e stdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "writeT",
           "package": "rdf4h",
@@ -3400,6 +3657,7 @@
         "index": {
           "description": "Write single triple to stdout equivalent to hWriteT stdout",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "writeT",
           "normalized": "a-\u003eTriple-\u003eIO()",
@@ -3415,6 +3673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite some triples to stdout; equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003ehWriteTs\u003c/a\u003e\u003c/code\u003e stdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Data.RDF",
           "name": "writeTs",
           "package": "rdf4h",
@@ -3425,6 +3684,7 @@
         "index": {
           "description": "Write some triples to stdout equivalent to hWriteTs stdout",
           "hierarchy": "Data RDF",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Data.RDF",
           "name": "writeTs",
           "normalized": "a-\u003eTriples-\u003eIO()",
@@ -3441,6 +3701,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA parser for RDF in N-Triples format \n \u003ca\u003ehttp://www.w3.org/TR/rdf-testcases/#ntriples\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.NTriplesParser",
           "name": "NTriplesParser",
           "package": "rdf4h",
@@ -3450,6 +3711,7 @@
         "index": {
           "description": "parser for RDF in N-Triples format http www.w3.org TR rdf-testcases ntriples",
           "hierarchy": "Text RDF RDF4H NTriplesParser",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.NTriplesParser",
           "name": "NTriplesParser",
           "package": "rdf4h",
@@ -3464,6 +3726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNTriplesParser is an \u003ccode\u003e\u003ca\u003eRdfParser\u003c/a\u003e\u003c/code\u003e implementation for parsing RDF in the\n NTriples format. It requires no configuration options. To use this parser,\n pass an \u003ccode\u003e\u003ca\u003eNTriplesParser\u003c/a\u003e\u003c/code\u003e value as the first argument to any of the \n \u003ccode\u003e\u003ca\u003eparseString\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eparseFile\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eparseURL\u003c/a\u003e\u003c/code\u003e methods of the \u003ccode\u003e\u003ca\u003eRdfParser\u003c/a\u003e\u003c/code\u003e type\n class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.NTriplesParser",
           "name": "NTriplesParser",
           "package": "rdf4h",
@@ -3473,6 +3736,7 @@
         "index": {
           "description": "NTriplesParser is an RdfParser implementation for parsing RDF in the NTriples format It requires no configuration options To use this parser pass an NTriplesParser value as the first argument to any of the parseString parseFile or parseURL methods of the RdfParser type class",
           "hierarchy": "Text RDF RDF4H NTriplesParser",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.NTriplesParser",
           "name": "NTriplesParser",
           "package": "rdf4h",
@@ -3487,6 +3751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a failure in parsing an N-Triples document, including\n an error message with information about the cause for the failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.NTriplesParser",
           "name": "ParseFailure",
           "package": "rdf4h",
@@ -3496,6 +3761,7 @@
         "index": {
           "description": "Represents failure in parsing an N-Triples document including an error message with information about the cause for the failure",
           "hierarchy": "Text RDF RDF4H NTriplesParser",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.NTriplesParser",
           "name": "ParseFailure",
           "package": "rdf4h",
@@ -3509,6 +3775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.NTriplesParser",
           "name": "NTriplesParser",
           "package": "rdf4h",
@@ -3518,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "Text RDF RDF4H NTriplesParser",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.NTriplesParser",
           "name": "NTriplesParser",
           "package": "rdf4h",
@@ -3532,6 +3800,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA serializer for RDF as N-Triples\n \u003ca\u003ehttp://www.w3.org/TR/rdf-testcases/#ntriples\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.NTriplesSerializer",
           "name": "NTriplesSerializer",
           "package": "rdf4h",
@@ -3541,6 +3810,7 @@
         "index": {
           "description": "serializer for RDF as N-Triples http www.w3.org TR rdf-testcases ntriples",
           "hierarchy": "Text RDF RDF4H NTriplesSerializer",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.NTriplesSerializer",
           "name": "NTriplesSerializer",
           "package": "rdf4h",
@@ -3554,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.NTriplesSerializer",
           "name": "NTriplesSerializer",
           "package": "rdf4h",
@@ -3562,6 +3833,7 @@
         },
         "index": {
           "hierarchy": "Text RDF RDF4H NTriplesSerializer",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.NTriplesSerializer",
           "name": "NTriplesSerializer",
           "package": "rdf4h",
@@ -3575,6 +3847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.NTriplesSerializer",
           "name": "NTriplesSerializer",
           "package": "rdf4h",
@@ -3584,6 +3857,7 @@
         },
         "index": {
           "hierarchy": "Text RDF RDF4H NTriplesSerializer",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.NTriplesSerializer",
           "name": "NTriplesSerializer",
           "package": "rdf4h",
@@ -3598,6 +3872,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eRdfParser\u003c/a\u003e\u003c/code\u003e implementation for the Turtle format \n \u003ca\u003ehttp://www.w3.org/TeamSubmission/turtle/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.TurtleParser",
           "name": "TurtleParser",
           "package": "rdf4h",
@@ -3607,6 +3882,7 @@
         "index": {
           "description": "An RdfParser implementation for the Turtle format http www.w3.org TeamSubmission turtle",
           "hierarchy": "Text RDF RDF4H TurtleParser",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.TurtleParser",
           "name": "TurtleParser",
           "package": "rdf4h",
@@ -3621,6 +3897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eRdfParser\u003c/a\u003e\u003c/code\u003e implementation for parsing RDF in the \n Turtle format. It takes optional arguments representing the base URL to use\n for resolving relative URLs in the document (may be overridden in the document\n itself using the @base directive), and the URL to use for the document itself\n for resolving references to \u003ca/\u003e in the document.\n To use this parser, pass a \u003ccode\u003e\u003ca\u003eTurtleParser\u003c/a\u003e\u003c/code\u003e value as the first argument to any of\n the \u003ccode\u003e\u003ca\u003eparseString\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eparseFile\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eparseURL\u003c/a\u003e\u003c/code\u003e methods of the \u003ccode\u003e\u003ca\u003eRdfParser\u003c/a\u003e\u003c/code\u003e type\n class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.TurtleParser",
           "name": "TurtleParser",
           "package": "rdf4h",
@@ -3630,6 +3907,7 @@
         "index": {
           "description": "An RdfParser implementation for parsing RDF in the Turtle format It takes optional arguments representing the base URL to use for resolving relative URLs in the document may be overridden in the document itself using the base directive and the URL to use for the document itself for resolving references to in the document To use this parser pass TurtleParser value as the first argument to any of the parseString parseFile or parseURL methods of the RdfParser type class",
           "hierarchy": "Text RDF RDF4H TurtleParser",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.TurtleParser",
           "name": "TurtleParser",
           "package": "rdf4h",
@@ -3643,6 +3921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.TurtleParser",
           "name": "TurtleParser",
           "package": "rdf4h",
@@ -3652,6 +3931,7 @@
         },
         "index": {
           "hierarchy": "Text RDF RDF4H TurtleParser",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.TurtleParser",
           "name": "TurtleParser",
           "package": "rdf4h",
@@ -3666,6 +3946,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn RDF serializer for Turtle \n \u003ca\u003ehttp://www.w3.org/TeamSubmission/turtle/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.TurtleSerializer",
           "name": "TurtleSerializer",
           "package": "rdf4h",
@@ -3675,6 +3956,7 @@
         "index": {
           "description": "An RDF serializer for Turtle http www.w3.org TeamSubmission turtle",
           "hierarchy": "Text RDF RDF4H TurtleSerializer",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.TurtleSerializer",
           "name": "TurtleSerializer",
           "package": "rdf4h",
@@ -3688,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.TurtleSerializer",
           "name": "TurtleSerializer",
           "package": "rdf4h",
@@ -3696,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Text RDF RDF4H TurtleSerializer",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.TurtleSerializer",
           "name": "TurtleSerializer",
           "package": "rdf4h",
@@ -3709,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.TurtleSerializer",
           "name": "TurtleSerializer",
           "package": "rdf4h",
@@ -3718,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Text RDF RDF4H TurtleSerializer",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.TurtleSerializer",
           "name": "TurtleSerializer",
           "package": "rdf4h",
@@ -3732,6 +4018,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn parser for the RDF/XML format \n \u003ca\u003ehttp://www.w3.org/TR/REC-rdf-syntax/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.XmlParser",
           "name": "XmlParser",
           "package": "rdf4h",
@@ -3741,6 +4028,7 @@
         "index": {
           "description": "An parser for the RDF XML format http www.w3.org TR REC-rdf-syntax",
           "hierarchy": "Text RDF RDF4H XmlParser",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.XmlParser",
           "name": "XmlParser",
           "package": "rdf4h",
@@ -3754,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.XmlParser",
           "name": "XmlParser",
           "package": "rdf4h",
@@ -3762,6 +4051,7 @@
         },
         "index": {
           "hierarchy": "Text RDF RDF4H XmlParser",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.XmlParser",
           "name": "XmlParser",
           "package": "rdf4h",
@@ -3775,6 +4065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:56 UTC 2014",
           "module": "Text.RDF.RDF4H.XmlParser",
           "name": "XmlParser",
           "package": "rdf4h",
@@ -3784,6 +4075,7 @@
         },
         "index": {
           "hierarchy": "Text RDF RDF4H XmlParser",
+          "indexed": "2014-03-11T19:48:56",
           "module": "Text.RDF.RDF4H.XmlParser",
           "name": "XmlParser",
           "package": "rdf4h",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clippard"
+        "phrase": "clippard",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple library fro copying to the clipboard.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:34:23 UTC 2014",
           "module": "System.Clippard",
           "name": "Clippard",
           "package": "clippard",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple library fro copying to the clipboard",
           "hierarchy": "System Clippard",
+          "indexed": "2014-03-11T17:34:23",
           "module": "System.Clippard",
           "name": "Clippard",
           "package": "clippard",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePaste text to the command-line. Automagically determines operating system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:23 UTC 2014",
           "module": "System.Clippard",
           "name": "paste",
           "package": "clippard",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Paste text to the command-line Automagically determines operating system",
           "hierarchy": "System Clippard",
+          "indexed": "2014-03-11T17:34:23",
           "module": "System.Clippard",
           "name": "paste",
           "normalized": "String-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "direct-binary-files"
+        "phrase": "direct-binary-files",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "BinaryFiles",
           "package": "direct-binary-files",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "BinaryFiles",
           "package": "direct-binary-files",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "ContextualDeserialization",
           "package": "direct-binary-files",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "ContextualDeserialization",
           "package": "direct-binary-files",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "ContextualSerialization",
           "package": "direct-binary-files",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "ContextualSerialization",
           "package": "direct-binary-files",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "Deserialization",
           "package": "direct-binary-files",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "Deserialization",
           "package": "direct-binary-files",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "Endianness",
           "package": "direct-binary-files",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "Endianness",
           "package": "direct-binary-files",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "HasEndianness",
           "package": "direct-binary-files",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "HasEndianness",
           "package": "direct-binary-files",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "InsufficientDataSerializationFailure",
           "package": "direct-binary-files",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "InsufficientDataSerializationFailure",
           "package": "direct-binary-files",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "LowLevelSerializationFailure",
           "package": "direct-binary-files",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "LowLevelSerializationFailure",
           "package": "direct-binary-files",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "MonadSerial",
           "package": "direct-binary-files",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "MonadSerial",
           "package": "direct-binary-files",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "OutOfRangeSerializationFailure",
           "package": "direct-binary-files",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "OutOfRangeSerializationFailure",
           "package": "direct-binary-files",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "SerialOrigin",
           "package": "direct-binary-files",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "SerialOrigin",
           "package": "direct-binary-files",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "Serializable",
           "package": "direct-binary-files",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "Serializable",
           "package": "direct-binary-files",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "Serialization",
           "package": "direct-binary-files",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "Serialization",
           "package": "direct-binary-files",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "SerializationFailure",
           "package": "direct-binary-files",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "SerializationFailure",
           "package": "direct-binary-files",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "SomeSerializationFailure",
           "package": "direct-binary-files",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "SomeSerializationFailure",
           "package": "direct-binary-files",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "BigEndian",
           "package": "direct-binary-files",
@@ -342,6 +373,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "BigEndian",
           "package": "direct-binary-files",
@@ -355,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "InsufficientDataSerializationFailure",
           "package": "direct-binary-files",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "InsufficientDataSerializationFailure",
           "package": "direct-binary-files",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "LittleEndian",
           "package": "direct-binary-files",
@@ -386,6 +421,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "LittleEndian",
           "package": "direct-binary-files",
@@ -399,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "LowLevelSerializationFailure",
           "package": "direct-binary-files",
@@ -408,6 +445,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "LowLevelSerializationFailure",
           "package": "direct-binary-files",
@@ -421,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "OffsetFromCurrent",
           "package": "direct-binary-files",
@@ -430,6 +469,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "OffsetFromCurrent",
           "package": "direct-binary-files",
@@ -443,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "OffsetFromEnd",
           "package": "direct-binary-files",
@@ -452,6 +493,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "OffsetFromEnd",
           "package": "direct-binary-files",
@@ -465,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "OffsetFromStart",
           "package": "direct-binary-files",
@@ -474,6 +517,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "OffsetFromStart",
           "package": "direct-binary-files",
@@ -487,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "OutOfRangeSerializationFailure",
           "package": "direct-binary-files",
@@ -496,6 +541,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "OutOfRangeSerializationFailure",
           "package": "direct-binary-files",
@@ -509,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "SomeSerializationFailure",
           "package": "direct-binary-files",
@@ -518,6 +565,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "SomeSerializationFailure",
           "package": "direct-binary-files",
@@ -531,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "catch",
           "package": "direct-binary-files",
@@ -540,6 +589,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "catch",
           "normalized": "a b c-\u003e(Int-\u003e[(Int,String)]-\u003ed-\u003ea b c)-\u003ea b c",
@@ -554,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "considerEndianness",
           "package": "direct-binary-files",
@@ -563,6 +614,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "considerEndianness",
           "normalized": "a-\u003eEndianness",
@@ -578,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "deserialize",
           "package": "direct-binary-files",
@@ -587,6 +640,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "deserialize",
           "package": "direct-binary-files",
@@ -599,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "deserializeNullPaddedText",
           "package": "direct-binary-files",
@@ -608,6 +663,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "deserializeNullPaddedText",
           "normalized": "Int-\u003eDeserialization ByteString",
@@ -623,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "deserializeNullTerminatedText",
           "package": "direct-binary-files",
@@ -632,6 +689,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "deserializeNullTerminatedText",
           "package": "direct-binary-files",
@@ -645,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "deserializeWord",
           "package": "direct-binary-files",
@@ -654,6 +713,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "deserializeWord",
           "package": "direct-binary-files",
@@ -667,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "fromByteString",
           "package": "direct-binary-files",
@@ -676,6 +737,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "fromByteString",
           "normalized": "ByteString-\u003eEither(Int,[(Int,String)],SomeSerializationFailure)a",
@@ -691,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "fromFile",
           "package": "direct-binary-files",
@@ -700,6 +763,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "fromFile",
           "normalized": "FilePath-\u003eIO(Either(Int,[(Int,String)],SomeSerializationFailure)a)",
@@ -715,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "fromSerializationFailure",
           "package": "direct-binary-files",
@@ -724,6 +789,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "fromSerializationFailure",
           "normalized": "SomeSerializationFailure-\u003eMaybe a",
@@ -739,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "getContext",
           "package": "direct-binary-files",
@@ -748,6 +815,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "getContext",
           "package": "direct-binary-files",
@@ -761,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "getTags",
           "package": "direct-binary-files",
@@ -770,6 +839,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "getTags",
           "normalized": "a b[(Int,String)]",
@@ -785,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "isEOF",
           "package": "direct-binary-files",
@@ -794,6 +865,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "isEOF",
           "package": "direct-binary-files",
@@ -807,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "read",
           "package": "direct-binary-files",
@@ -816,6 +889,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "read",
           "normalized": "Int-\u003ea b ByteString",
@@ -830,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "runDeserializationFromByteString",
           "package": "direct-binary-files",
@@ -839,6 +914,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "runDeserializationFromByteString",
           "normalized": "ContextualDeserialization()a-\u003eByteString-\u003eEither(Int,[(Int,String)],SomeSerializationFailure)a",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "runDeserializationFromFile",
           "package": "direct-binary-files",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "runDeserializationFromFile",
           "normalized": "ContextualDeserialization()a-\u003eFilePath-\u003eIO(Either(Int,[(Int,String)],SomeSerializationFailure)a)",
@@ -878,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "runSerializationToByteString",
           "package": "direct-binary-files",
@@ -887,6 +966,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "runSerializationToByteString",
           "normalized": "ContextualSerialization()a-\u003eEither(Int,[(Int,String)],SomeSerializationFailure)(a,ByteString)",
@@ -902,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "runSerializationToFile",
           "package": "direct-binary-files",
@@ -911,6 +992,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "runSerializationToFile",
           "normalized": "ContextualSerialization()a-\u003eFilePath-\u003eIO(Either(Int,[(Int,String)],SomeSerializationFailure)a)",
@@ -926,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "runSubDeserializationFromByteString",
           "package": "direct-binary-files",
@@ -935,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "runSubDeserializationFromByteString",
           "normalized": "ContextualDeserialization()a-\u003eByteString-\u003eDeserialization a",
@@ -950,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "seek",
           "package": "direct-binary-files",
@@ -959,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "seek",
           "normalized": "SerialOrigin-\u003eInt-\u003ea b()",
@@ -973,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "serialize",
           "package": "direct-binary-files",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "serialize",
           "normalized": "a-\u003eContextualSerialization b()",
@@ -996,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "serializeNullPaddedText",
           "package": "direct-binary-files",
@@ -1005,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "serializeNullPaddedText",
           "normalized": "Int-\u003eByteString-\u003eSerialization()",
@@ -1020,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "serializeNullTerminatedText",
           "package": "direct-binary-files",
@@ -1029,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "serializeNullTerminatedText",
           "normalized": "ByteString-\u003eSerialization()",
@@ -1044,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "serializeWord",
           "package": "direct-binary-files",
@@ -1053,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "serializeWord",
           "normalized": "a-\u003eContextualSerialization b()",
@@ -1068,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "tell",
           "package": "direct-binary-files",
@@ -1077,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "tell",
           "package": "direct-binary-files",
@@ -1089,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "throw",
           "package": "direct-binary-files",
@@ -1098,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "throw",
           "normalized": "a-\u003eb c d",
@@ -1112,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "toByteString",
           "package": "direct-binary-files",
@@ -1121,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "toByteString",
           "normalized": "a-\u003eEither(Int,[(Int,String)],SomeSerializationFailure)ByteString",
@@ -1136,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "toFile",
           "package": "direct-binary-files",
@@ -1145,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "toFile",
           "normalized": "a-\u003eFilePath-\u003eIO(Maybe(Int,[(Int,String)],SomeSerializationFailure))",
@@ -1160,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "toSerializationFailure",
           "package": "direct-binary-files",
@@ -1169,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "toSerializationFailure",
           "normalized": "a-\u003eSomeSerializationFailure",
@@ -1184,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "withContext",
           "package": "direct-binary-files",
@@ -1193,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "withContext",
           "normalized": "a-\u003eb a c-\u003eb d c",
@@ -1208,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "withTag",
           "package": "direct-binary-files",
@@ -1217,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "withTag",
           "normalized": "String-\u003ea b c-\u003ea b c",
@@ -1232,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "withWindow",
           "package": "direct-binary-files",
@@ -1241,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "withWindow",
           "normalized": "SerialOrigin-\u003eInt-\u003eInt-\u003ea b c-\u003ea b c",
@@ -1256,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:01 UTC 2014",
           "module": "BinaryFiles",
           "name": "write",
           "package": "direct-binary-files",
@@ -1265,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "BinaryFiles",
+          "indexed": "2014-03-11T17:56:01",
           "module": "BinaryFiles",
           "name": "write",
           "normalized": "ByteString-\u003ea b()",

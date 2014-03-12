@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SVGFonts"
+        "phrase": "SVGFonts",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.CharReference",
           "name": "CharReference",
           "package": "SVGFonts",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts CharReference",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.CharReference",
           "name": "CharReference",
           "package": "SVGFonts",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string represents a glyph, i.e. the ligature \"ffi\" is a string that represents the ligature glyph ffi\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.CharReference",
           "name": "characterStrings",
           "package": "SVGFonts",
@@ -50,6 +53,7 @@
         "index": {
           "description": "string represents glyph i.e the ligature ffi is string that represents the ligature glyph ffi",
           "hierarchy": "Graphics SVGFonts CharReference",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.CharReference",
           "name": "characterStrings",
           "normalized": "String-\u003e[String]-\u003e[Text]",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing of xml character references.\n\u003c/p\u003e\u003cp\u003eI.e. \"&#x2e;&#x2e;&#x2e;\" is converted into a list of three Chars.\n\u003c/p\u003e\u003cp\u003e\"ffb\" is also parsed and converted into three Chars (not changing it).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.CharReference",
           "name": "charsFromFullName",
           "package": "SVGFonts",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Parsing of xml character references I.e x2e x2e x2e is converted into list of three Chars ffb is also parsed and converted into three Chars not changing it",
           "hierarchy": "Graphics SVGFonts CharReference",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.CharReference",
           "name": "charsFromFullName",
           "normalized": "String-\u003eString",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "ReadFont",
           "package": "SVGFonts",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "ReadFont",
           "package": "SVGFonts",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "FileName",
           "package": "SVGFonts",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "FileName",
           "package": "SVGFonts",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type contains everything that a typical SVG font file produced by fontforge contains.\n\u003c/p\u003e\u003cp\u003e(SvgGlyph, Kern, bbox-string, filename, (underlinePos, underlineThickness),\n   (fontHadv, fontFamily, fontWeight, fontStretch, unitsPerEm, panose, ascent, descent, xHeight, capHeight, stemh, stemv, unicodeRange) )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "FontData",
           "package": "SVGFonts",
@@ -143,6 +154,7 @@
         "index": {
           "description": "This type contains everything that typical SVG font file produced by fontforge contains SvgGlyph Kern bbox-string filename underlinePos underlineThickness fontHadv fontFamily fontWeight fontStretch unitsPerEm panose ascent descent xHeight capHeight stemh stemv unicodeRange",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "FontData",
           "package": "SVGFonts",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://www.w3.org/TR/SVG/fonts.html#KernElements\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eSome explanation how kerning is computed:\n\u003c/p\u003e\u003cp\u003eIn Linlibertine.svg, there are two groups of chars: e.g.\n \u003chkern g1=\"f,longs,uni1E1F,f_f\" g2=\"parenright,bracketright,braceright\" k=\"-37\" /\u003e\n This line means: If there is an f followed by parentright, reduce the horizontal advance by -37 (add 37).\n Therefore to quickly check if two characters need kerning assign an index to the second group (g2 or u2)\n and assign to every unicode in the first group (g1 or u1) this index, then sort these tuples after their\n name (for binary search). Because the same unicode char can appear in several g1s, reduce this \u003ccode\u003emultiset\u003c/code\u003e,\n ie all the (\"name1\",0) (\"name1\",1) to (\"name1\",[0,1]).\n Now the g2s are converted in the same way as the g1s.\n Whenever two consecutive chars are being printed try to find an\n intersection of the list assigned to the first char and second char\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "Kern",
           "package": "SVGFonts",
@@ -166,6 +179,7 @@
         "index": {
           "description": "See http www.w3.org TR SVG fonts.html KernElements Some explanation how kerning is computed In Linlibertine.svg there are two groups of chars e.g hkern g1 longs uni1E1F g2 parenright bracketright braceright This line means If there is an followed by parentright reduce the horizontal advance by add Therefore to quickly check if two characters need kerning assign an index to the second group g2 or u2 and assign to every unicode in the first group g1 or u1 this index then sort these tuples after their name for binary search Because the same unicode char can appear in several g1s reduce this multiset ie all the name1 name1 to name1 Now the g2s are converted in the same way as the g1s Whenever two consecutive chars are being printed try to find an intersection of the list assigned to the first char and second char",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "Kern",
           "package": "SVGFonts",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "Mode",
           "package": "SVGFonts",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "Mode",
           "package": "SVGFonts",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "OutlineMap",
           "package": "SVGFonts",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "OutlineMap",
           "package": "SVGFonts",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://en.wikipedia.org/wiki/Kerning\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "Spacing",
           "package": "SVGFonts",
@@ -231,6 +250,7 @@
         "index": {
           "description": "See http en.wikipedia.org wiki Kerning",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "Spacing",
           "package": "SVGFonts",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "SvgGlyphs",
           "package": "SVGFonts",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "SvgGlyphs",
           "package": "SVGFonts",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "TextOpts",
           "package": "SVGFonts",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "TextOpts",
           "package": "SVGFonts",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "FontData",
           "package": "SVGFonts",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "FontData",
           "package": "SVGFonts",
@@ -433,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "Kern",
           "package": "SVGFonts",
@@ -442,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "Kern",
           "package": "SVGFonts",
@@ -479,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference between highest and lowest y-value of bounding box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "bbox_dy",
           "package": "SVGFonts",
@@ -489,6 +518,7 @@
         "index": {
           "description": "Difference between highest and lowest y-value of bounding box",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "bbox_dy",
           "normalized": "FontData-\u003eDouble",
@@ -504,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLowest x-value of bounding box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "bbox_lx",
           "package": "SVGFonts",
@@ -514,6 +545,7 @@
         "index": {
           "description": "Lowest x-value of bounding box",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "bbox_lx",
           "normalized": "FontData-\u003eDouble",
@@ -529,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLowest y-value of bounding box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "bbox_ly",
           "package": "SVGFonts",
@@ -539,6 +572,7 @@
         "index": {
           "description": "Lowest y-value of bounding box",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "bbox_ly",
           "normalized": "FontData-\u003eDouble",
@@ -579,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "commands",
           "package": "SVGFonts",
@@ -588,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "commands",
           "normalized": "String-\u003eSvgGlyphs-\u003e[PathCommand]",
@@ -602,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "commandsToTrails",
           "package": "SVGFonts",
@@ -611,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "commandsToTrails",
           "normalized": "[PathCommand]-\u003e[Segment Closed R]-\u003eR-\u003eR-\u003eR-\u003e[Path R]",
@@ -650,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataAccentHeight",
           "package": "SVGFonts",
@@ -659,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataAccentHeight",
           "package": "SVGFonts",
@@ -672,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataAlphabeticBaseline",
           "package": "SVGFonts",
@@ -681,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataAlphabeticBaseline",
           "package": "SVGFonts",
@@ -694,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataAscent",
           "package": "SVGFonts",
@@ -703,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataAscent",
           "package": "SVGFonts",
@@ -716,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataBoundingBox",
           "package": "SVGFonts",
@@ -725,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataBoundingBox",
           "normalized": "[Double]",
@@ -740,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataCapHeight",
           "package": "SVGFonts",
@@ -749,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataCapHeight",
           "package": "SVGFonts",
@@ -762,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataDescent",
           "package": "SVGFonts",
@@ -771,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataDescent",
           "package": "SVGFonts",
@@ -784,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataFamily",
           "package": "SVGFonts",
@@ -793,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataFamily",
           "package": "SVGFonts",
@@ -806,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataFileName",
           "package": "SVGFonts",
@@ -815,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataFileName",
           "package": "SVGFonts",
@@ -828,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataGlyphs",
           "package": "SVGFonts",
@@ -837,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataGlyphs",
           "package": "SVGFonts",
@@ -850,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataHangingBaseline",
           "package": "SVGFonts",
@@ -859,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataHangingBaseline",
           "package": "SVGFonts",
@@ -872,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataHorizontalAdvance",
           "package": "SVGFonts",
@@ -881,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataHorizontalAdvance",
           "package": "SVGFonts",
@@ -895,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data is not available in some fonts (e.g. Source Code Pro)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataHorizontalStem",
           "package": "SVGFonts",
@@ -905,6 +966,7 @@
         "index": {
           "description": "This data is not available in some fonts e.g Source Code Pro",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataHorizontalStem",
           "package": "SVGFonts",
@@ -918,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataIdeographicBaseline",
           "package": "SVGFonts",
@@ -927,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataIdeographicBaseline",
           "package": "SVGFonts",
@@ -940,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataKerning",
           "package": "SVGFonts",
@@ -949,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataKerning",
           "package": "SVGFonts",
@@ -962,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataMathematicalBaseline",
           "package": "SVGFonts",
@@ -971,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataMathematicalBaseline",
           "package": "SVGFonts",
@@ -984,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataOverlinePos",
           "package": "SVGFonts",
@@ -993,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataOverlinePos",
           "package": "SVGFonts",
@@ -1006,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataOverlineThickness",
           "package": "SVGFonts",
@@ -1015,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataOverlineThickness",
           "package": "SVGFonts",
@@ -1028,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataPanose",
           "package": "SVGFonts",
@@ -1037,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataPanose",
           "package": "SVGFonts",
@@ -1050,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataRawKernings",
           "package": "SVGFonts",
@@ -1059,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataRawKernings",
           "normalized": "[(String,[String],[String],[String],[String])]",
@@ -1074,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataSize",
           "package": "SVGFonts",
@@ -1083,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataSize",
           "package": "SVGFonts",
@@ -1096,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataSlope",
           "package": "SVGFonts",
@@ -1105,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataSlope",
           "package": "SVGFonts",
@@ -1118,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataStretch",
           "package": "SVGFonts",
@@ -1127,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataStretch",
           "package": "SVGFonts",
@@ -1140,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataStrikethroughPos",
           "package": "SVGFonts",
@@ -1149,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataStrikethroughPos",
           "package": "SVGFonts",
@@ -1162,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataStrikethroughThickness",
           "package": "SVGFonts",
@@ -1171,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataStrikethroughThickness",
           "package": "SVGFonts",
@@ -1184,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataStyle",
           "package": "SVGFonts",
@@ -1193,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataStyle",
           "package": "SVGFonts",
@@ -1206,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataUnderlinePos",
           "package": "SVGFonts",
@@ -1215,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataUnderlinePos",
           "package": "SVGFonts",
@@ -1228,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataUnderlineThickness",
           "package": "SVGFonts",
@@ -1237,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataUnderlineThickness",
           "package": "SVGFonts",
@@ -1250,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataUnicodeRange",
           "package": "SVGFonts",
@@ -1259,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataUnicodeRange",
           "package": "SVGFonts",
@@ -1272,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataUnitsPerEm",
           "package": "SVGFonts",
@@ -1281,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataUnitsPerEm",
           "package": "SVGFonts",
@@ -1294,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataVAlphabeticBaseline",
           "package": "SVGFonts",
@@ -1303,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataVAlphabeticBaseline",
           "package": "SVGFonts",
@@ -1317,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(k, g1, g2, u1, u2)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataVHangingBaseline",
           "package": "SVGFonts",
@@ -1327,6 +1426,7 @@
         "index": {
           "description": "g1 g2 u1 u2",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataVHangingBaseline",
           "package": "SVGFonts",
@@ -1340,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataVIdeographicBaseline",
           "package": "SVGFonts",
@@ -1349,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataVIdeographicBaseline",
           "package": "SVGFonts",
@@ -1362,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataVMathematicalBaseline",
           "package": "SVGFonts",
@@ -1371,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataVMathematicalBaseline",
           "package": "SVGFonts",
@@ -1384,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataVariant",
           "package": "SVGFonts",
@@ -1393,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataVariant",
           "package": "SVGFonts",
@@ -1407,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data is not available in some fonts (e.g. Source Code Pro)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataVerticalStem",
           "package": "SVGFonts",
@@ -1417,6 +1524,7 @@
         "index": {
           "description": "This data is not available in some fonts e.g Source Code Pro",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataVerticalStem",
           "package": "SVGFonts",
@@ -1430,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataWeight",
           "package": "SVGFonts",
@@ -1439,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataWeight",
           "package": "SVGFonts",
@@ -1452,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataWidths",
           "package": "SVGFonts",
@@ -1461,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataWidths",
           "package": "SVGFonts",
@@ -1474,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataXHeight",
           "package": "SVGFonts",
@@ -1483,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "fontDataXHeight",
           "package": "SVGFonts",
@@ -1497,6 +1611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal advance of a character consisting of its width and spacing, extracted out of the font data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "hadv",
           "package": "SVGFonts",
@@ -1507,6 +1622,7 @@
         "index": {
           "description": "Horizontal advance of character consisting of its width and spacing extracted out of the font data",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "hadv",
           "normalized": "String-\u003eFontData-\u003eDouble",
@@ -1522,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal advances of characters inside a string.\n A character is stored with a string (because of ligatures like \"ffi\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "horizontalAdvances",
           "package": "SVGFonts",
@@ -1532,6 +1649,7 @@
         "index": {
           "description": "Horizontal advances of characters inside string character is stored with string because of ligatures like ffi",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "horizontalAdvances",
           "normalized": "[String]-\u003eFontData-\u003eBool-\u003e[Double]",
@@ -1547,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "isKern",
           "package": "SVGFonts",
@@ -1556,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "isKern",
           "normalized": "Spacing-\u003eBool",
@@ -1572,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the horizontal advance of two consective chars (kerning)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "kernAdvance",
           "package": "SVGFonts",
@@ -1582,6 +1703,7 @@
         "index": {
           "description": "Change the horizontal advance of two consective chars kerning",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "kernAdvance",
           "normalized": "String-\u003eString-\u003eKern-\u003eBool-\u003eDouble",
@@ -1597,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "kernG1S",
           "package": "SVGFonts",
@@ -1606,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "kernG1S",
           "normalized": "Map String[Int]",
@@ -1620,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "kernG2S",
           "package": "SVGFonts",
@@ -1629,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "kernG2S",
           "normalized": "Map String[Int]",
@@ -1643,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "kernK",
           "package": "SVGFonts",
@@ -1652,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "kernK",
           "package": "SVGFonts",
@@ -1664,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "kernU1S",
           "package": "SVGFonts",
@@ -1673,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "kernU1S",
           "normalized": "Map String[Int]",
@@ -1687,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "kernU2S",
           "package": "SVGFonts",
@@ -1696,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "kernU2S",
           "normalized": "Map String[Int]",
@@ -1762,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "mH",
           "package": "SVGFonts",
@@ -1771,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "mH",
           "normalized": "Mode-\u003eBool",
@@ -1785,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "mW",
           "package": "SVGFonts",
@@ -1794,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "mW",
           "normalized": "Mode-\u003eBool",
@@ -1808,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "mWH",
           "package": "SVGFonts",
@@ -1817,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "mWH",
           "normalized": "Mode-\u003eBool",
@@ -1855,6 +1993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen an SVG-Font File and extract the data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "openFont",
           "package": "SVGFonts",
@@ -1865,6 +2004,7 @@
         "index": {
           "description": "Open an SVG-Font File and extract the data",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "openFont",
           "normalized": "FilePath-\u003eFontData",
@@ -1881,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate Font Data and a Map from chars to outline paths\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "outlMap",
           "package": "SVGFonts",
@@ -1891,6 +2032,7 @@
         "index": {
           "description": "Generate Font Data and Map from chars to outline paths",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "outlMap",
           "normalized": "String-\u003e(FontData,OutlineMap)",
@@ -1907,6 +2049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread only of static data (safe)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "ro",
           "package": "SVGFonts",
@@ -1917,6 +2060,7 @@
         "index": {
           "description": "read only of static data safe",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "ro",
           "normalized": "FilePath-\u003eFilePath",
@@ -2125,6 +2269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition of the underline bar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "underlinePosition",
           "package": "SVGFonts",
@@ -2135,6 +2280,7 @@
         "index": {
           "description": "Position of the underline bar",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "underlinePosition",
           "normalized": "FontData-\u003eDouble",
@@ -2151,6 +2297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThickness of the underline bar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "underlineThickness",
           "package": "SVGFonts",
@@ -2161,6 +2308,7 @@
         "index": {
           "description": "Thickness of the underline bar",
           "hierarchy": "Graphics SVGFonts ReadFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadFont",
           "name": "underlineThickness",
           "normalized": "FontData-\u003eDouble",
@@ -2177,6 +2325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing the SVG path command, see \u003ca\u003ehttp://www.w3.org/TR/SVG/paths.html#PathData\u003c/a\u003e :\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "ReadPath",
           "package": "SVGFonts",
@@ -2186,6 +2335,7 @@
         "index": {
           "description": "Parsing the SVG path command see http www.w3.org TR SVG paths.html PathData",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "ReadPath",
           "package": "SVGFonts",
@@ -2199,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "PathCommand",
           "package": "SVGFonts",
@@ -2207,6 +2358,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "PathCommand",
           "package": "SVGFonts",
@@ -2221,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA = Elliptic arc (not used)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "A_abs",
           "package": "SVGFonts",
@@ -2231,6 +2384,7 @@
         "index": {
           "description": "Elliptic arc not used",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "A_abs",
           "package": "SVGFonts",
@@ -2243,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "A_rel",
           "package": "SVGFonts",
@@ -2252,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "A_rel",
           "package": "SVGFonts",
@@ -2265,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a cubic B&#233;zier curve from the current point to (x,y) using (x1,y1) as the\n ^control point at the beginning of the curve and (x2,y2) as the control point at the end of the curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "C_abs",
           "package": "SVGFonts",
@@ -2275,6 +2432,7 @@
         "index": {
           "description": "Draws cubic zier curve from the current point to using x1 y1 as the control point at the beginning of the curve and x2 y2 as the control point at the end of the curve",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "C_abs",
           "normalized": "C_abs(X,Y,X,Y,X,Y)",
@@ -2289,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "C_rel",
           "package": "SVGFonts",
@@ -2298,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "C_rel",
           "normalized": "C_rel(X,Y,X,Y,X,Y)",
@@ -2313,6 +2473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA horizontal line from the current point (cpx, cpy) to (x, cpy)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "H_abs",
           "package": "SVGFonts",
@@ -2323,6 +2484,7 @@
         "index": {
           "description": "horizontal line from the current point cpx cpy to cpy",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "H_abs",
           "package": "SVGFonts",
@@ -2335,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "H_rel",
           "package": "SVGFonts",
@@ -2344,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "H_rel",
           "package": "SVGFonts",
@@ -2357,6 +2521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA line from the current point to Tup which becomes the new current point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "L_abs",
           "package": "SVGFonts",
@@ -2367,6 +2532,7 @@
         "index": {
           "description": "line from the current point to Tup which becomes the new current point",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "L_abs",
           "package": "SVGFonts",
@@ -2379,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "L_rel",
           "package": "SVGFonts",
@@ -2388,6 +2555,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "L_rel",
           "package": "SVGFonts",
@@ -2401,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEstablish a new current point (with absolute coords)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "M_abs",
           "package": "SVGFonts",
@@ -2411,6 +2580,7 @@
         "index": {
           "description": "Establish new current point with absolute coords",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "M_abs",
           "package": "SVGFonts",
@@ -2424,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEstablish a new current point (with coords relative to the current point)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "M_rel",
           "package": "SVGFonts",
@@ -2434,6 +2605,7 @@
         "index": {
           "description": "Establish new current point with coords relative to the current point",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "M_rel",
           "package": "SVGFonts",
@@ -2447,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quadr. B&#233;zier curve from the curr. point to (x,y) using (x1,y1) as the control point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "Q_abs",
           "package": "SVGFonts",
@@ -2457,6 +2630,7 @@
         "index": {
           "description": "quadr zier curve from the curr point to using x1 y1 as the control point",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "Q_abs",
           "normalized": "Q_abs(X,Y,X,Y)",
@@ -2472,6 +2646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNearly the same as cubic, but with one point less\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "Q_rel",
           "package": "SVGFonts",
@@ -2482,6 +2657,7 @@
         "index": {
           "description": "Nearly the same as cubic but with one point less",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "Q_rel",
           "normalized": "Q_rel(X,Y,X,Y)",
@@ -2497,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a cubic B&#233;zier curve from the current point to (x,y). The first control point is\n assumed to be the reflection of the second control point on the previous command relative to the current point.\n (If there is no previous command or if the previous command was not an C, c, S or s, assume the first control\n point is coincident with the current point.) (x2,y2) is the second control point (i.e., the control point at\n the end of the curve).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "S_abs",
           "package": "SVGFonts",
@@ -2507,6 +2684,7 @@
         "index": {
           "description": "Draws cubic zier curve from the current point to The first control point is assumed to be the reflection of the second control point on the previous command relative to the current point If there is no previous command or if the previous command was not an or assume the first control point is coincident with the current point x2 y2 is the second control point i.e the control point at the end of the curve",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "S_abs",
           "normalized": "S_abs(X,Y,X,Y)",
@@ -2521,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "S_rel",
           "package": "SVGFonts",
@@ -2530,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "S_rel",
           "normalized": "S_rel(X,Y,X,Y)",
@@ -2545,6 +2725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eT_Abs = Shorthand/smooth quadratic Bezier curveto\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "T_abs",
           "package": "SVGFonts",
@@ -2555,6 +2736,7 @@
         "index": {
           "description": "Abs Shorthand smooth quadratic Bezier curveto",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "T_abs",
           "package": "SVGFonts",
@@ -2567,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "T_rel",
           "package": "SVGFonts",
@@ -2576,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "T_rel",
           "package": "SVGFonts",
@@ -2589,6 +2773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vertical line from the current point (cpx, cpy) to (cpx, y)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "V_abs",
           "package": "SVGFonts",
@@ -2599,6 +2784,7 @@
         "index": {
           "description": "vertical line from the current point cpx cpy to cpx",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "V_abs",
           "package": "SVGFonts",
@@ -2611,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "V_rel",
           "package": "SVGFonts",
@@ -2620,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "V_rel",
           "package": "SVGFonts",
@@ -2633,6 +2821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose current subpath by drawing a straight line from current point to current subpath's initial point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "Z",
           "package": "SVGFonts",
@@ -2643,6 +2832,7 @@
         "index": {
           "description": "Close current subpath by drawing straight line from current point to current subpath initial point",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "Z",
           "package": "SVGFonts",
@@ -2656,6 +2846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a SVG path string into a list of commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "pathFromString",
           "package": "SVGFonts",
@@ -2666,6 +2857,7 @@
         "index": {
           "description": "Convert SVG path string into list of commands",
           "hierarchy": "Graphics SVGFonts ReadPath",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.ReadPath",
           "name": "pathFromString",
           "normalized": "String-\u003eEither String[PathCommand]",
@@ -2681,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.WriteFont",
           "name": "WriteFont",
           "package": "SVGFonts",
@@ -2689,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts WriteFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.WriteFont",
           "name": "WriteFont",
           "package": "SVGFonts",
@@ -2702,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts.WriteFont",
           "name": "makeSvgFont",
           "package": "SVGFonts",
@@ -2711,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts WriteFont",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts.WriteFont",
           "name": "makeSvgFont",
           "normalized": "(FontData,OutlineMap)-\u003eSet String-\u003eSvg",
@@ -2726,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts",
           "name": "SVGFonts",
           "package": "SVGFonts",
@@ -2734,6 +2931,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts",
           "name": "SVGFonts",
           "package": "SVGFonts",
@@ -2747,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts",
           "name": "Mode",
           "package": "SVGFonts",
@@ -2755,6 +2954,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts",
           "name": "Mode",
           "package": "SVGFonts",
@@ -2769,6 +2969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://en.wikipedia.org/wiki/Kerning\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts",
           "name": "Spacing",
           "package": "SVGFonts",
@@ -2778,6 +2979,7 @@
         "index": {
           "description": "See http en.wikipedia.org wiki Kerning",
           "hierarchy": "Graphics SVGFonts",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts",
           "name": "Spacing",
           "package": "SVGFonts",
@@ -2791,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:52 UTC 2014",
           "module": "Graphics.SVGFonts",
           "name": "TextOpts",
           "package": "SVGFonts",
@@ -2799,6 +3002,7 @@
         },
         "index": {
           "hierarchy": "Graphics SVGFonts",
+          "indexed": "2014-03-11T16:59:52",
           "module": "Graphics.SVGFonts",
           "name": "TextOpts",
           "package": "SVGFonts",

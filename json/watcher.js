@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "watcher"
+        "phrase": "watcher",
+        "type": "phrase"
       },
       "type": "context"
     }

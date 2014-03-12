@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blink1"
+        "phrase": "blink1",
+        "type": "phrase"
       },
       "type": "context"
     }

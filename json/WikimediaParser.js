@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "WikimediaParser"
+        "phrase": "WikimediaParser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "WikimediaParser",
           "package": "WikimediaParser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "WikimediaParser",
           "package": "WikimediaParser",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "Page",
           "package": "WikimediaParser",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "Page",
           "package": "WikimediaParser",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "WikiMarkup",
           "package": "WikimediaParser",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "WikiMarkup",
           "package": "WikimediaParser",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "Link",
           "package": "WikimediaParser",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "Link",
           "package": "WikimediaParser",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "Page",
           "package": "WikimediaParser",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "Page",
           "normalized": "Page[WikiMarkup]",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "Text",
           "package": "WikimediaParser",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "Text",
           "package": "WikimediaParser",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "betweenMatching",
           "package": "WikimediaParser",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "betweenMatching",
           "normalized": "Char-\u003eGenParser Char a[Char]",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "concatText",
           "package": "WikimediaParser",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "concatText",
           "normalized": "[WikiMarkup]-\u003e[WikiMarkup]",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseArticle",
           "package": "WikimediaParser",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseArticle",
           "normalized": "Parser[WikiMarkup]",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseBrackets",
           "package": "WikimediaParser",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseBrackets",
           "package": "WikimediaParser",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseCategory",
           "package": "WikimediaParser",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseCategory",
           "package": "WikimediaParser",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseHTMLComment",
           "package": "WikimediaParser",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseHTMLComment",
           "package": "WikimediaParser",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseHeading",
           "package": "WikimediaParser",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseHeading",
           "package": "WikimediaParser",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseLine",
           "package": "WikimediaParser",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseLine",
           "package": "WikimediaParser",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseLink",
           "package": "WikimediaParser",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseLink",
           "package": "WikimediaParser",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseLinkNameSpace",
           "package": "WikimediaParser",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseLinkNameSpace",
           "package": "WikimediaParser",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseLinkOtherLanguage",
           "package": "WikimediaParser",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseLinkOtherLanguage",
           "package": "WikimediaParser",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseNoWiki",
           "package": "WikimediaParser",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseNoWiki",
           "package": "WikimediaParser",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseOrderedList",
           "package": "WikimediaParser",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseOrderedList",
           "package": "WikimediaParser",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseText",
           "package": "WikimediaParser",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseText",
           "package": "WikimediaParser",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseUnnamedLink",
           "package": "WikimediaParser",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseUnnamedLink",
           "package": "WikimediaParser",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "parseUnorderedList",
           "package": "WikimediaParser",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "parseUnorderedList",
           "package": "WikimediaParser",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "symbol",
           "package": "WikimediaParser",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "symbol",
           "package": "WikimediaParser",
@@ -528,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "symbolW",
           "package": "WikimediaParser",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "symbolW",
           "package": "WikimediaParser",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "symbols",
           "package": "WikimediaParser",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "symbols",
           "package": "WikimediaParser",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "target",
           "package": "WikimediaParser",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "target",
           "package": "WikimediaParser",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:30 UTC 2014",
           "module": "Text.WikimediaParser",
           "name": "text",
           "package": "WikimediaParser",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Text WikimediaParser",
+          "indexed": "2014-03-11T17:04:30",
           "module": "Text.WikimediaParser",
           "name": "text",
           "package": "WikimediaParser",

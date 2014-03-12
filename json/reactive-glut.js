@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reactive-glut"
+        "phrase": "reactive-glut",
+        "type": "phrase"
       },
       "type": "context"
     }

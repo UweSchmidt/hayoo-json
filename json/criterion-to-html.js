@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "criterion-to-html"
+        "phrase": "criterion-to-html",
+        "type": "phrase"
       },
       "type": "context"
     }

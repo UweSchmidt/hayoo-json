@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MissingM"
+        "phrase": "MissingM",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:55 UTC 2014",
           "module": "Control.Monad.MissingM",
           "name": "MissingM",
           "package": "MissingM",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad MissingM",
+          "indexed": "2014-03-11T16:52:55",
           "module": "Control.Monad.MissingM",
           "name": "MissingM",
           "package": "MissingM",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:55 UTC 2014",
           "module": "Control.Monad.MissingM",
           "name": "findM",
           "package": "MissingM",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control Monad MissingM",
+          "indexed": "2014-03-11T16:52:55",
           "module": "Control.Monad.MissingM",
           "name": "findM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb(Maybe a)",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:55 UTC 2014",
           "module": "Control.Monad.MissingM",
           "name": "findMapM",
           "package": "MissingM",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Control Monad MissingM",
+          "indexed": "2014-03-11T16:52:55",
           "module": "Control.Monad.MissingM",
           "name": "findMapM",
           "normalized": "(a-\u003eb(Maybe c))-\u003e[a]-\u003eb(Maybe c)",

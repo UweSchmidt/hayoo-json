@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "trimpolya"
+        "phrase": "trimpolya",
+        "type": "phrase"
       },
       "type": "context"
     }

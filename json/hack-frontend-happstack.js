@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-frontend-happstack"
+        "phrase": "hack-frontend-happstack",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:06 UTC 2014",
           "module": "Hack.Frontend.Happstack",
           "name": "Happstack",
           "package": "hack-frontend-happstack",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hack Frontend Happstack",
+          "indexed": "2014-03-11T18:25:06",
           "module": "Hack.Frontend.Happstack",
           "name": "Happstack",
           "package": "hack-frontend-happstack",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:06 UTC 2014",
           "module": "Hack.Frontend.Happstack",
           "name": "convert",
           "package": "hack-frontend-happstack",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Hack Frontend Happstack",
+          "indexed": "2014-03-11T18:25:06",
           "module": "Hack.Frontend.Happstack",
           "name": "convert",
           "normalized": "(Request-\u003eIO Response)-\u003eApplication",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets all the headers coming from Happstack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:25:06 UTC 2014",
           "module": "Hack.Frontend.Happstack",
           "name": "convertHeader",
           "package": "hack-frontend-happstack",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Sets all the headers coming from Happstack",
           "hierarchy": "Hack Frontend Happstack",
+          "indexed": "2014-03-11T18:25:06",
           "module": "Hack.Frontend.Happstack",
           "name": "convertHeader",
           "normalized": "HeaderPair-\u003e(String,String)",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:06 UTC 2014",
           "module": "Hack.Frontend.Happstack",
           "name": "cookieWithName",
           "package": "hack-frontend-happstack",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Hack Frontend Happstack",
+          "indexed": "2014-03-11T18:25:06",
           "module": "Hack.Frontend.Happstack",
           "name": "cookieWithName",
           "normalized": "Cookie-\u003e(String,Cookie)",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a ServerPartT into a function. This is a copy of simpleHTTP'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:25:06 UTC 2014",
           "module": "Hack.Frontend.Happstack",
           "name": "processRequest",
           "package": "hack-frontend-happstack",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Transforms ServerPartT into function This is copy of simpleHTTP",
           "hierarchy": "Hack Frontend Happstack",
+          "indexed": "2014-03-11T18:25:06",
           "module": "Hack.Frontend.Happstack",
           "name": "processRequest",
           "normalized": "ServerPartT a b-\u003eRequest-\u003ea Response",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:06 UTC 2014",
           "module": "Hack.Frontend.Happstack",
           "name": "serverPartToApp",
           "package": "hack-frontend-happstack",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Hack Frontend Happstack",
+          "indexed": "2014-03-11T18:25:06",
           "module": "Hack.Frontend.Happstack",
           "name": "serverPartToApp",
           "normalized": "ServerPartT IO a-\u003eApplication",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a list by character, the resulting lists don't have the character in them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:25:06 UTC 2014",
           "module": "Hack.Frontend.Happstack",
           "name": "split",
           "package": "hack-frontend-happstack",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Splits list by character the resulting lists don have the character in them",
           "hierarchy": "Hack Frontend Happstack",
+          "indexed": "2014-03-11T18:25:06",
           "module": "Hack.Frontend.Happstack",
           "name": "split",
           "normalized": "Char-\u003eString-\u003e[String]",
@@ -187,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:06 UTC 2014",
           "module": "Hack.Frontend.Happstack",
           "name": "toHackResponse",
           "package": "hack-frontend-happstack",
@@ -196,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Hack Frontend Happstack",
+          "indexed": "2014-03-11T18:25:06",
           "module": "Hack.Frontend.Happstack",
           "name": "toHackResponse",
           "normalized": "Response-\u003eResponse",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts one request into another\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:25:06 UTC 2014",
           "module": "Hack.Frontend.Happstack",
           "name": "toHappstackRequest",
           "package": "hack-frontend-happstack",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Converts one request into another",
           "hierarchy": "Hack Frontend Happstack",
+          "indexed": "2014-03-11T18:25:06",
           "module": "Hack.Frontend.Happstack",
           "name": "toHappstackRequest",
           "normalized": "Env-\u003eRequest",

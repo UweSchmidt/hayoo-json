@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "awesomium-raw"
+        "phrase": "awesomium-raw",
+        "type": "phrase"
       },
       "type": "context"
     }

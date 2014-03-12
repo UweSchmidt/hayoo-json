@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-spine"
+        "phrase": "type-spine",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:59 UTC 2014",
           "module": "Type.Spine.Base",
           "name": "Base",
           "package": "type-spine",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Type Spine Base",
+          "indexed": "2014-03-11T20:27:59",
           "module": "Type.Spine.Base",
           "name": "Base",
           "package": "type-spine",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:59 UTC 2014",
           "module": "Type.Spine.Base",
           "name": ":@",
           "package": "type-spine",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Type Spine Base",
+          "indexed": "2014-03-11T20:27:59",
           "module": "Type.Spine.Base",
           "name": ":@",
           "package": "type-spine",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:59 UTC 2014",
           "module": "Type.Spine.Base",
           "name": "Atom",
           "package": "type-spine",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Type Spine Base",
+          "indexed": "2014-03-11T20:27:59",
           "module": "Type.Spine.Base",
           "name": "Atom",
           "package": "type-spine",
@@ -157,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003espineType_gen_ ty ks\u003c/code\u003e generates the \u003ccode\u003eSpine\u003c/code\u003e instance for the type \u003ccode\u003ety\u003c/code\u003e\n that has parameters with kinds \u003ccode\u003eks\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:59 UTC 2014",
           "module": "Type.Spine.Base",
           "name": "spineType_gen_",
           "package": "type-spine",
@@ -167,6 +174,7 @@
         "index": {
           "description": "spineType gen ty ks generates the Spine instance for the type ty that has parameters with kinds ks",
           "hierarchy": "Type Spine Base",
+          "indexed": "2014-03-11T20:27:59",
           "module": "Type.Spine.Base",
           "name": "spineType_gen_",
           "normalized": "Type-\u003e[Kind]-\u003eQ[Dec]",
@@ -237,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTemplate Haskell in support of the spine-view on types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:59 UTC 2014",
           "module": "Type.Spine.TH",
           "name": "TH",
           "package": "type-spine",
@@ -246,6 +255,7 @@
         "index": {
           "description": "Template Haskell in support of the spine-view on types",
           "hierarchy": "Type Spine TH",
+          "indexed": "2014-03-11T20:27:59",
           "module": "Type.Spine.TH",
           "name": "TH",
           "package": "type-spine",
@@ -260,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Template Haskell-lifter for data constructors' \u003ccode\u003e\u003ca\u003eNameG\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:59 UTC 2014",
           "module": "Type.Spine.TH",
           "name": "liftNameG_d",
           "package": "type-spine",
@@ -270,6 +281,7 @@
         "index": {
           "description": "Template Haskell-lifter for data constructors NameG",
           "hierarchy": "Type Spine TH",
+          "indexed": "2014-03-11T20:27:59",
           "module": "Type.Spine.TH",
           "name": "liftNameG_d",
           "normalized": "Name-\u003eQ Exp",
@@ -285,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:59 UTC 2014",
           "module": "Type.Spine.TH",
           "name": "toNameG",
           "package": "type-spine",
@@ -294,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Type Spine TH",
+          "indexed": "2014-03-11T20:27:59",
           "module": "Type.Spine.TH",
           "name": "toNameG",
           "normalized": "Name-\u003eQ Name",
@@ -309,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:59 UTC 2014",
           "module": "Type.Spine.TH",
           "name": "tvb_kind",
           "package": "type-spine",
@@ -318,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Type Spine TH",
+          "indexed": "2014-03-11T20:27:59",
           "module": "Type.Spine.TH",
           "name": "tvb_kind",
           "normalized": "TyVarBndr-\u003eKind",
@@ -333,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the kinds of a type constructor's type parameters and range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:59 UTC 2014",
           "module": "Type.Spine.TH",
           "name": "tyConSignature",
           "package": "type-spine",
@@ -343,6 +360,7 @@
         "index": {
           "description": "Returns the kinds of type constructor type parameters and range",
           "hierarchy": "Type Spine TH",
+          "indexed": "2014-03-11T20:27:59",
           "module": "Type.Spine.TH",
           "name": "tyConSignature",
           "normalized": "Name-\u003eQ([Kind],Kind)",
@@ -359,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe spine-view on types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:59 UTC 2014",
           "module": "Type.Spine",
           "name": "Spine",
           "package": "type-spine",
@@ -368,6 +387,7 @@
         "index": {
           "description": "The spine-view on types",
           "hierarchy": "Type Spine",
+          "indexed": "2014-03-11T20:27:59",
           "module": "Type.Spine",
           "name": "Spine",
           "package": "type-spine",
@@ -381,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:59 UTC 2014",
           "module": "Type.Spine",
           "name": ":@",
           "package": "type-spine",
@@ -389,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Type Spine",
+          "indexed": "2014-03-11T20:27:59",
           "module": "Type.Spine",
           "name": ":@",
           "package": "type-spine",
@@ -401,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:59 UTC 2014",
           "module": "Type.Spine",
           "name": "Atom",
           "package": "type-spine",
@@ -409,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Type Spine",
+          "indexed": "2014-03-11T20:27:59",
           "module": "Type.Spine",
           "name": "Atom",
           "package": "type-spine",

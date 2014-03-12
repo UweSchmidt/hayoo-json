@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "kif-parser"
+        "phrase": "kif-parser",
+        "type": "phrase"
       },
       "type": "context"
     }

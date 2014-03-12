@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-server"
+        "phrase": "network-server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "Server",
           "package": "network-server",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "Server",
           "package": "network-server",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe specification of a serving process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "Server",
           "package": "network-server",
@@ -49,6 +52,7 @@
         "index": {
           "description": "the specification of serving process",
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "Server",
           "package": "network-server",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe functionality of a server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "ServerRoutine",
           "package": "network-server",
@@ -72,6 +77,7 @@
         "index": {
           "description": "the functionality of server",
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "ServerRoutine",
           "package": "network-server",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "UserAndGroup",
           "package": "network-server",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "UserAndGroup",
           "package": "network-server",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "WaitFor",
           "package": "network-server",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "WaitFor",
           "package": "network-server",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "Server",
           "package": "network-server",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "Server",
           "package": "network-server",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "UserAndGroup",
           "package": "network-server",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "UserAndGroup",
           "package": "network-server",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "UserWithDefaultGroup",
           "package": "network-server",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "UserWithDefaultGroup",
           "package": "network-server",
@@ -194,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake an IP Address: (127,0,0,1) is the localhost\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "ipAddress",
           "package": "network-server",
@@ -204,6 +221,7 @@
         "index": {
           "description": "make an IP Address is the localhost",
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "ipAddress",
           "normalized": "(Word,Word,Word,Word)-\u003eHostAddress",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "serveMany",
           "package": "network-server",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "serveMany",
           "normalized": "Maybe UserAndGroup-\u003e[Server]-\u003eIO[(ThreadId,MVar())]",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "serveOne",
           "package": "network-server",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "serveOne",
           "normalized": "Maybe UserAndGroup-\u003eServer-\u003eIO(ThreadId,MVar())",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "serverAddr",
           "package": "network-server",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "serverAddr",
           "package": "network-server",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "serverRoutine",
           "package": "network-server",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "serverRoutine",
           "package": "network-server",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "serverTyp",
           "package": "network-server",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "serverTyp",
           "package": "network-server",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:24 UTC 2014",
           "module": "Network.Server",
           "name": "waitFor",
           "package": "network-server",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Network Server",
+          "indexed": "2014-03-11T19:28:24",
           "module": "Network.Server",
           "name": "waitFor",
           "normalized": "a-\u003eIO()",

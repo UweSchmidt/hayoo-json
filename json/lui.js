@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lui"
+        "phrase": "lui",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "Accessor",
           "package": "lui",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "Accessor",
           "package": "lui",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "Accessor",
           "package": "lui",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "Accessor",
           "package": "lui",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "(\u003c^)",
           "package": "lui",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "(\u003c^) \u003c^",
           "normalized": "Accessor a b-\u003eAccessor c a-\u003eAccessor c b",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "(^\u003e)",
           "package": "lui",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "(^\u003e) ^\u003e",
           "normalized": "Accessor a b-\u003eAccessor b c-\u003eAccessor a c",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "(^.)",
           "package": "lui",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "(^.) ^.",
           "normalized": "a-\u003eAccessor a b-\u003eb",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "(^:)",
           "package": "lui",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "(^:) ^:",
           "normalized": "Accessor a b-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "aMapValue",
           "package": "lui",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "aMapValue",
           "normalized": "a-\u003eAccessor(Map a b)b",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "aMapValueDefault",
           "package": "lui",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "aMapValueDefault",
           "normalized": "a-\u003eb-\u003eAccessor(Map b a)a",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "accessor",
           "package": "lui",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "accessor",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea-\u003ea)-\u003eAccessor a b",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "afirst",
           "package": "lui",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "afirst",
           "normalized": "Accessor(a,b)a",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "anth",
           "package": "lui",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "anth",
           "normalized": "Int-\u003eAccessor[a]a",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "asecond",
           "package": "lui",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "asecond",
           "normalized": "Accessor(a,b)b",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "convertor",
           "package": "lui",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "convertor",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eAccessor a b",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a list is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "null",
           "package": "lui",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Test whether list is empty",
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "null",
           "normalized": "[a]-\u003eBool",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "reader",
           "package": "lui",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "reader",
           "normalized": "a-\u003eAccessor b a",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "self",
           "package": "lui",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "self",
           "package": "lui",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "write",
           "package": "lui",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Accessor",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Accessor",
           "name": "write",
           "normalized": "Accessor a b-\u003eb-\u003ea-\u003ea",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Image",
           "name": "Image",
           "package": "lui",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Image",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Image",
           "name": "Image",
           "package": "lui",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Image",
           "name": "Image",
           "package": "lui",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Image",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Image",
           "name": "Image",
           "package": "lui",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Image",
           "name": "crop",
           "package": "lui",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Image",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Image",
           "name": "crop",
           "normalized": "Vector Int-\u003eImage-\u003eImage",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Image",
           "name": "cropRect",
           "package": "lui",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Image",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Image",
           "name": "cropRect",
           "normalized": "Rect-\u003eImage-\u003eImage",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Image",
           "name": "move",
           "package": "lui",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Image",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Image",
           "name": "move",
           "normalized": "Vector Int-\u003eImage-\u003eImage",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Image",
           "name": "rect",
           "package": "lui",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Image",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Image",
           "name": "rect",
           "normalized": "Color-\u003eVector Int-\u003eImage",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Image",
           "name": "render",
           "package": "lui",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Image",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Image",
           "name": "render",
           "normalized": "Image-\u003eSurface-\u003eVector Int-\u003eIO()",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Image",
           "name": "text",
           "package": "lui",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Image",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Image",
           "name": "text",
           "normalized": "Color-\u003eFont-\u003eString-\u003eImage",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Image",
           "name": "textSize",
           "package": "lui",
@@ -596,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Image",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Image",
           "name": "textSize",
           "normalized": "Font-\u003eString-\u003eVector Int",
@@ -611,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Run",
           "name": "Run",
           "package": "lui",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Run",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Run",
           "name": "Run",
           "package": "lui",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Run",
           "name": "mainLoop",
           "package": "lui",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Run",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Run",
           "name": "mainLoop",
           "normalized": "Widget a-\u003ea-\u003eIO a",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "Widget",
           "package": "lui",
@@ -664,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "Widget",
           "package": "lui",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "ActionHandlers",
           "package": "lui",
@@ -685,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "ActionHandlers",
           "package": "lui",
@@ -698,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "DrawInfo",
           "package": "lui",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "DrawInfo",
           "package": "lui",
@@ -719,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "Handler",
           "package": "lui",
@@ -727,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "Handler",
           "package": "lui",
@@ -740,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "KeyAction",
           "package": "lui",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "KeyAction",
           "package": "lui",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "KeyStatus",
           "package": "lui",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "KeyStatus",
           "package": "lui",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "New",
           "package": "lui",
@@ -790,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "New",
           "package": "lui",
@@ -803,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "Widget",
           "package": "lui",
@@ -811,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "Widget",
           "package": "lui",
@@ -824,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "WidgetFuncs",
           "package": "lui",
@@ -832,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "WidgetFuncs",
           "package": "lui",
@@ -845,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "DrawInfo",
           "package": "lui",
@@ -854,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "DrawInfo",
           "package": "lui",
@@ -867,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "KeyDown",
           "package": "lui",
@@ -876,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "KeyDown",
           "package": "lui",
@@ -889,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "KeyUp",
           "package": "lui",
@@ -898,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "KeyUp",
           "package": "lui",
@@ -911,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "WidgetFuncs",
           "package": "lui",
@@ -920,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "WidgetFuncs",
           "package": "lui",
@@ -933,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "diHasFocus",
           "package": "lui",
@@ -942,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "diHasFocus",
           "package": "lui",
@@ -955,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "widgetGetKeymap",
           "package": "lui",
@@ -964,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "widgetGetKeymap",
           "package": "lui",
@@ -977,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "widgetImage",
           "package": "lui",
@@ -986,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "widgetImage",
           "normalized": "DrawInfo-\u003eImage",
@@ -1001,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widget",
           "name": "widgetSize",
           "package": "lui",
@@ -1010,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widget",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widget",
           "name": "widgetSize",
           "normalized": "DrawInfo-\u003eVector Int",
@@ -1025,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Adapter",
           "name": "Adapter",
           "package": "lui",
@@ -1033,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Adapter",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Adapter",
           "name": "Adapter",
           "package": "lui",
@@ -1046,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Adapter",
           "name": "adaptAll",
           "package": "lui",
@@ -1055,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Adapter",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Adapter",
           "name": "adaptAll",
           "normalized": "Endo Image-\u003eEndo(Vector Int)-\u003e(Maybe(ActionHandlers a)-\u003eMaybe(ActionHandlers b))-\u003eWidgetFuncs a-\u003eWidgetFuncs b",
@@ -1070,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Adapter",
           "name": "adaptImage",
           "package": "lui",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Adapter",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Adapter",
           "name": "adaptImage",
           "normalized": "Endo Image-\u003eEndo(Widget a)",
@@ -1094,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Adapter",
           "name": "adaptModel",
           "package": "lui",
@@ -1103,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Adapter",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Adapter",
           "name": "adaptModel",
           "normalized": "Accessor a b-\u003eWidget b-\u003eWidget a",
@@ -1118,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Adapter",
           "name": "adaptSize",
           "package": "lui",
@@ -1127,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Adapter",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Adapter",
           "name": "adaptSize",
           "normalized": "Endo(Vector Int)-\u003eEndo(Widget a)",
@@ -1142,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Box",
           "package": "lui",
@@ -1150,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Box",
           "package": "lui",
@@ -1163,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Cursor",
           "package": "lui",
@@ -1171,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Cursor",
           "package": "lui",
@@ -1184,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "DelegatedMutable",
           "package": "lui",
@@ -1192,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "DelegatedMutable",
           "package": "lui",
@@ -1205,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Item",
           "package": "lui",
@@ -1213,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Item",
           "package": "lui",
@@ -1226,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Mutable",
           "package": "lui",
@@ -1234,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Mutable",
           "package": "lui",
@@ -1247,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Orientation",
           "package": "lui",
@@ -1255,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Orientation",
           "package": "lui",
@@ -1268,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Horizontal",
           "package": "lui",
@@ -1277,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Horizontal",
           "package": "lui",
@@ -1290,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Item",
           "package": "lui",
@@ -1299,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Item",
           "package": "lui",
@@ -1312,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Mutable",
           "package": "lui",
@@ -1321,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Mutable",
           "package": "lui",
@@ -1334,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Vertical",
           "package": "lui",
@@ -1343,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "Vertical",
           "package": "lui",
@@ -1356,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "aDelegatedMutableCursor",
           "package": "lui",
@@ -1365,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "aDelegatedMutableCursor",
           "package": "lui",
@@ -1378,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "aMutableCursor",
           "package": "lui",
@@ -1387,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "aMutableCursor",
           "package": "lui",
@@ -1400,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "delegatedMutable",
           "package": "lui",
@@ -1409,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "delegatedMutable",
           "normalized": "Bool-\u003eCursor-\u003eDelegatedMutable",
@@ -1424,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "itemAlignment",
           "package": "lui",
@@ -1433,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "itemAlignment",
           "package": "lui",
@@ -1446,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "itemChildWidget",
           "package": "lui",
@@ -1455,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "itemChildWidget",
           "package": "lui",
@@ -1468,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "mutableCursor",
           "package": "lui",
@@ -1477,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "mutableCursor",
           "package": "lui",
@@ -1490,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "new",
           "package": "lui",
@@ -1499,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "new",
           "normalized": "Orientation-\u003e[Item a]-\u003eNew a Mutable",
@@ -1513,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "newDelegated",
           "package": "lui",
@@ -1522,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "newDelegated",
           "normalized": "Orientation-\u003e[Item a]-\u003eNew a DelegatedMutable",
@@ -1537,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "newDelegatedWith",
           "package": "lui",
@@ -1546,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "newDelegatedWith",
           "normalized": "Color-\u003eOrientation-\u003e[Item a]-\u003eNew a DelegatedMutable",
@@ -1561,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "noAcc",
           "package": "lui",
@@ -1570,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Box",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Box",
           "name": "noAcc",
           "normalized": "Cursor-\u003eAccessor a Mutable",
@@ -1585,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "FocusDelegator",
           "package": "lui",
@@ -1593,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets FocusDelegator",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "FocusDelegator",
           "package": "lui",
@@ -1606,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "DelegatedMutable",
           "package": "lui",
@@ -1614,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets FocusDelegator",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "DelegatedMutable",
           "package": "lui",
@@ -1627,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "Mutable",
           "package": "lui",
@@ -1635,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets FocusDelegator",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "Mutable",
           "package": "lui",
@@ -1648,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "Mutable",
           "package": "lui",
@@ -1657,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets FocusDelegator",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "Mutable",
           "package": "lui",
@@ -1670,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "aDelegatedMutable",
           "package": "lui",
@@ -1679,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets FocusDelegator",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "aDelegatedMutable",
           "package": "lui",
@@ -1692,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "aFocusDelegatorMutable",
           "package": "lui",
@@ -1701,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets FocusDelegator",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "aFocusDelegatorMutable",
           "package": "lui",
@@ -1714,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "defaultFocusColor",
           "package": "lui",
@@ -1723,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets FocusDelegator",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "defaultFocusColor",
           "package": "lui",
@@ -1736,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "mutableDelegateFocus",
           "package": "lui",
@@ -1745,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets FocusDelegator",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "mutableDelegateFocus",
           "package": "lui",
@@ -1758,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "new",
           "package": "lui",
@@ -1767,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets FocusDelegator",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "new",
           "normalized": "String-\u003eString-\u003eWidget a-\u003eNew a Mutable",
@@ -1781,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "newWith",
           "package": "lui",
@@ -1790,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets FocusDelegator",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.FocusDelegator",
           "name": "newWith",
           "normalized": "Color-\u003eString-\u003eString-\u003eWidget a-\u003eNew a Mutable",
@@ -1805,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Grid",
           "package": "lui",
@@ -1813,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Grid",
           "package": "lui",
@@ -1826,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Cursor",
           "package": "lui",
@@ -1834,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Cursor",
           "package": "lui",
@@ -1847,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "DelegatedMutable",
           "package": "lui",
@@ -1855,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "DelegatedMutable",
           "package": "lui",
@@ -1868,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Item",
           "package": "lui",
@@ -1876,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Item",
           "package": "lui",
@@ -1889,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Items",
           "package": "lui",
@@ -1897,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Items",
           "package": "lui",
@@ -1910,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Mutable",
           "package": "lui",
@@ -1918,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Mutable",
           "package": "lui",
@@ -1931,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Item",
           "package": "lui",
@@ -1940,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Item",
           "package": "lui",
@@ -1953,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Mutable",
           "package": "lui",
@@ -1962,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "Mutable",
           "package": "lui",
@@ -1975,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "aDelegatedMutableCursor",
           "package": "lui",
@@ -1984,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "aDelegatedMutableCursor",
           "package": "lui",
@@ -1997,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "aMutableCursor",
           "package": "lui",
@@ -2006,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "aMutableCursor",
           "package": "lui",
@@ -2019,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "delegatedMutable",
           "package": "lui",
@@ -2028,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "delegatedMutable",
           "normalized": "Bool-\u003eCursor-\u003eDelegatedMutable",
@@ -2043,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "itemAlignments",
           "package": "lui",
@@ -2052,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "itemAlignments",
           "normalized": "(Double,Double)",
@@ -2067,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "itemWidget",
           "package": "lui",
@@ -2076,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "itemWidget",
           "package": "lui",
@@ -2089,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "mutableCursor",
           "package": "lui",
@@ -2098,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "mutableCursor",
           "package": "lui",
@@ -2111,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "new",
           "package": "lui",
@@ -2120,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "new",
           "normalized": "Cursor-\u003eItems a-\u003eNew a Mutable",
@@ -2134,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "newDelegated",
           "package": "lui",
@@ -2143,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "newDelegated",
           "normalized": "Cursor-\u003eItems a-\u003eNew a DelegatedMutable",
@@ -2158,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "newDelegatedWith",
           "package": "lui",
@@ -2167,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "newDelegatedWith",
           "normalized": "Color-\u003eCursor-\u003eItems a-\u003eNew a DelegatedMutable",
@@ -2182,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "noAcc",
           "package": "lui",
@@ -2191,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Grid",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Grid",
           "name": "noAcc",
           "normalized": "Cursor-\u003eAccessor a Mutable",
@@ -2206,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "KeysTable",
           "package": "lui",
@@ -2214,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets KeysTable",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "KeysTable",
           "package": "lui",
@@ -2227,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "defaultDescColor",
           "package": "lui",
@@ -2236,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets KeysTable",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "defaultDescColor",
           "package": "lui",
@@ -2249,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "defaultKeysColor",
           "package": "lui",
@@ -2258,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets KeysTable",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "defaultKeysColor",
           "package": "lui",
@@ -2271,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "defaultSpaceWidth",
           "package": "lui",
@@ -2280,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets KeysTable",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "defaultSpaceWidth",
           "package": "lui",
@@ -2293,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "new",
           "package": "lui",
@@ -2302,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets KeysTable",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "new",
           "normalized": "Color-\u003eColor-\u003eInt-\u003eFont-\u003eFont-\u003eActionHandlers a-\u003eWidget a",
@@ -2316,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "newBoxedWidget",
           "package": "lui",
@@ -2325,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets KeysTable",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "newBoxedWidget",
           "normalized": "Orientation-\u003eInt-\u003eFont-\u003eFont-\u003eWidget a-\u003eWidget a",
@@ -2340,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "newForWidget",
           "package": "lui",
@@ -2349,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets KeysTable",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.KeysTable",
           "name": "newForWidget",
           "normalized": "Font-\u003eFont-\u003eWidget a-\u003eWidget a",
@@ -2364,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Scroll",
           "name": "Scroll",
           "package": "lui",
@@ -2372,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Scroll",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Scroll",
           "name": "Scroll",
           "package": "lui",
@@ -2385,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Scroll",
           "name": "Mutable",
           "package": "lui",
@@ -2393,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Scroll",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Scroll",
           "name": "Mutable",
           "package": "lui",
@@ -2406,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Scroll",
           "name": "Mutable",
           "package": "lui",
@@ -2415,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Scroll",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Scroll",
           "name": "Mutable",
           "package": "lui",
@@ -2428,6 +2644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Scroll",
           "name": "mutablePos",
           "package": "lui",
@@ -2437,6 +2654,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Scroll",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Scroll",
           "name": "mutablePos",
           "package": "lui",
@@ -2450,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Scroll",
           "name": "new",
           "package": "lui",
@@ -2459,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Scroll",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Scroll",
           "name": "new",
           "normalized": "Vector Int-\u003eWidget a-\u003eNew a Mutable",
@@ -2473,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Space",
           "name": "Space",
           "package": "lui",
@@ -2481,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Space",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Space",
           "name": "Space",
           "package": "lui",
@@ -2494,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Space",
           "name": "new",
           "package": "lui",
@@ -2503,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Space",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Space",
           "name": "new",
           "normalized": "Vector Int-\u003eWidget a",
@@ -2517,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Space",
           "name": "newH",
           "package": "lui",
@@ -2526,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Space",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Space",
           "name": "newH",
           "normalized": "Int-\u003eWidget a",
@@ -2540,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Space",
           "name": "newW",
           "package": "lui",
@@ -2549,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Space",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Space",
           "name": "newW",
           "normalized": "Int-\u003eWidget a",
@@ -2563,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Space",
           "name": "newWH",
           "package": "lui",
@@ -2572,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Space",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Space",
           "name": "newWH",
           "normalized": "Int-\u003eInt-\u003eWidget a",
@@ -2587,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "TextEdit",
           "package": "lui",
@@ -2595,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "TextEdit",
           "package": "lui",
@@ -2608,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "Cursor",
           "package": "lui",
@@ -2616,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "Cursor",
           "package": "lui",
@@ -2629,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "DelegatedMutable",
           "package": "lui",
@@ -2637,6 +2872,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "DelegatedMutable",
           "package": "lui",
@@ -2650,6 +2886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "Mutable",
           "package": "lui",
@@ -2658,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "Mutable",
           "package": "lui",
@@ -2671,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "Mutable",
           "package": "lui",
@@ -2680,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "Mutable",
           "package": "lui",
@@ -2693,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "aDelegatedMutableCursor",
           "package": "lui",
@@ -2702,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "aDelegatedMutableCursor",
           "package": "lui",
@@ -2715,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "aDelegatedMutableText",
           "package": "lui",
@@ -2724,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "aDelegatedMutableText",
           "package": "lui",
@@ -2737,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "aMutableCursor",
           "package": "lui",
@@ -2746,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "aMutableCursor",
           "package": "lui",
@@ -2759,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "aMutableText",
           "package": "lui",
@@ -2768,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "aMutableText",
           "package": "lui",
@@ -2781,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "defaultCursorWidth",
           "package": "lui",
@@ -2790,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "defaultCursorWidth",
           "package": "lui",
@@ -2803,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "delegatedMutable",
           "package": "lui",
@@ -2812,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "delegatedMutable",
           "normalized": "Bool-\u003eString-\u003eCursor-\u003eDelegatedMutable",
@@ -2827,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "mutableCursor",
           "package": "lui",
@@ -2836,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "mutableCursor",
           "package": "lui",
@@ -2849,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "mutableText",
           "package": "lui",
@@ -2858,6 +3113,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "mutableText",
           "package": "lui",
@@ -2871,6 +3127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "new",
           "package": "lui",
@@ -2880,6 +3137,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "new",
           "normalized": "Int-\u003eColor-\u003eColor-\u003eFont-\u003eColor-\u003eNew a Mutable",
@@ -2894,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "newDelegated",
           "package": "lui",
@@ -2903,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "newDelegated",
           "normalized": "Color-\u003eColor-\u003eFont-\u003eColor-\u003eNew a DelegatedMutable",
@@ -2918,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "newDelegatedWith",
           "package": "lui",
@@ -2927,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextEdit",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextEdit",
           "name": "newDelegatedWith",
           "normalized": "Color-\u003eInt-\u003eColor-\u003eColor-\u003eFont-\u003eColor-\u003eNew a DelegatedMutable",
@@ -2942,6 +3204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextView",
           "name": "TextView",
           "package": "lui",
@@ -2950,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextView",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextView",
           "name": "TextView",
           "package": "lui",
@@ -2963,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.TextView",
           "name": "new",
           "package": "lui",
@@ -2972,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets TextView",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.TextView",
           "name": "new",
           "normalized": "Color-\u003eFont-\u003eString-\u003eWidget a",
@@ -2986,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Unfocusable",
           "name": "Unfocusable",
           "package": "lui",
@@ -2994,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Unfocusable",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Unfocusable",
           "name": "Unfocusable",
           "package": "lui",
@@ -3007,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:01 UTC 2014",
           "module": "Graphics.UI.LUI.Widgets.Unfocusable",
           "name": "new",
           "package": "lui",
@@ -3016,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI LUI Widgets Unfocusable",
+          "indexed": "2014-03-11T19:13:01",
           "module": "Graphics.UI.LUI.Widgets.Unfocusable",
           "name": "new",
           "normalized": "Widget a-\u003eWidget a",

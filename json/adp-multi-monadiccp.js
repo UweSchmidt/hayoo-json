@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "adp-multi-monadiccp"
+        "phrase": "adp-multi-monadiccp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience module to import the specific rewriting function model\n   and combinator implementation known as \u003cem\u003econstraint solver\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:30 UTC 2014",
           "module": "ADP.Multi.Constraint.All",
           "name": "All",
           "package": "adp-multi-monadiccp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Convenience module to import the specific rewriting function model and combinator implementation known as constraint solver",
           "hierarchy": "ADP Multi Constraint All",
+          "indexed": "2014-03-11T17:08:30",
           "module": "ADP.Multi.Constraint.All",
           "name": "All",
           "package": "adp-multi-monadiccp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUse this set of combinators instead of ADP.Multi.Rewriting.Combinators to\nuse a constraint solver for constructing the subword ranges.\n\u003c/p\u003e\u003cp\u003eNote: This is experimental and slow.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:30 UTC 2014",
           "module": "ADP.Multi.Constraint.Combinators",
           "name": "Combinators",
           "package": "adp-multi-monadiccp",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Use this set of combinators instead of ADP.Multi.Rewriting.Combinators to use constraint solver for constructing the subword ranges Note This is experimental and slow",
           "hierarchy": "ADP Multi Constraint Combinators",
+          "indexed": "2014-03-11T17:08:30",
           "module": "ADP.Multi.Constraint.Combinators",
           "name": "Combinators",
           "package": "adp-multi-monadiccp",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:30 UTC 2014",
           "module": "ADP.Multi.Constraint.ConstraintSolver",
           "name": "ConstraintSolver",
           "package": "adp-multi-monadiccp",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Constraint ConstraintSolver",
+          "indexed": "2014-03-11T17:08:30",
           "module": "ADP.Multi.Constraint.ConstraintSolver",
           "name": "ConstraintSolver",
           "package": "adp-multi-monadiccp",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:30 UTC 2014",
           "module": "ADP.Multi.Constraint.ConstraintSolver",
           "name": "constructSubwords1",
           "package": "adp-multi-monadiccp",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Constraint ConstraintSolver",
+          "indexed": "2014-03-11T17:08:30",
           "module": "ADP.Multi.Constraint.ConstraintSolver",
           "name": "constructSubwords1",
           "package": "adp-multi-monadiccp",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:30 UTC 2014",
           "module": "ADP.Multi.Constraint.ConstraintSolver",
           "name": "constructSubwords2",
           "package": "adp-multi-monadiccp",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Constraint ConstraintSolver",
+          "indexed": "2014-03-11T17:08:30",
           "module": "ADP.Multi.Constraint.ConstraintSolver",
           "name": "constructSubwords2",
           "package": "adp-multi-monadiccp",

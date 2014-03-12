@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GPipe-Examples"
+        "phrase": "GPipe-Examples",
+        "type": "phrase"
       },
       "type": "context"
     }

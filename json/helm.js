@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "helm"
+        "phrase": "helm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains all data structures and functions for creating and stepping animations. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "Animation",
           "package": "helm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Contains all data structures and functions for creating and stepping animations",
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "Animation",
           "package": "helm",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type describing an animation consisting of a list of frames. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "Animation",
           "package": "helm",
@@ -51,6 +54,7 @@
         "index": {
           "description": "type describing an animation consisting of list of frames",
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "Animation",
           "package": "helm",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type describing a single frame in an animation. A frame consists of a time at\n    which the frame takes place in an animation and the form which is how the frame\n    actually looks when rendered. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "Frame",
           "package": "helm",
@@ -74,6 +79,7 @@
         "index": {
           "description": "type describing single frame in an animation frame consists of time at which the frame takes place in an animation and the form which is how the frame actually looks when rendered",
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "Frame",
           "package": "helm",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type tells of the state an animation is in.\n    Continue: A continued animation plays through its frames as specified in the Animation.\n    Pause: A paused animation does not change its current frame and time.\n    Stop: A stopped animation is set to its first frame and time 0.\n    Frame: The Frame constructor can be used to choose a specific frame of the animation\n           where time is set to the first millisecond of that chosen frame. (Indexing starts at 1. 'first frame', not 'zero frame')\n    Time: The Time constructor sets the current time (in milliseconds) in the animation to the specified value.   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "Status",
           "package": "helm",
@@ -97,6 +104,7 @@
         "index": {
           "description": "This type tells of the state an animation is in Continue continued animation plays through its frames as specified in the Animation Pause paused animation does not change its current frame and time Stop stopped animation is set to its first frame and time Frame The Frame constructor can be used to choose specific frame of the animation where time is set to the first millisecond of that chosen frame Indexing starts at first frame not zero frame Time The Time constructor sets the current time in milliseconds in the animation to the specified value",
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "Status",
           "package": "helm",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "Continue",
           "package": "helm",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "Continue",
           "package": "helm",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "Frame",
           "package": "helm",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "Frame",
           "package": "helm",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "Pause",
           "package": "helm",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "Pause",
           "package": "helm",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "Stop",
           "package": "helm",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "Stop",
           "package": "helm",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "Time",
           "package": "helm",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "Time",
           "package": "helm",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an animation from a list of frames. The time value in each frame\n    is absolute to the entire animation, i.e. each time value is the time\n    at which the frame takes place relative to the starting time of the animation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "absolute",
           "package": "helm",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Creates an animation from list of frames The time value in each frame is absolute to the entire animation i.e each time value is the time at which the frame takes place relative to the starting time of the animation",
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "absolute",
           "normalized": "[Frame]-\u003eAnimation",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a signal contained in a generator that returns the current form in the animation when sampled from\n    a specific animation. The second argument is a signal generator containing a signal that\n    returns the time to setup the animation forward when sampled. The third argument is a\n    signal generator containing a signal that returns true to continue animating\n    or false to stop animating when sampled. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "animate",
           "package": "helm",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Creates signal contained in generator that returns the current form in the animation when sampled from specific animation The second argument is signal generator containing signal that returns the time to setup the animation forward when sampled The third argument is signal generator containing signal that returns true to continue animating or false to stop animating when sampled",
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "animate",
           "normalized": "Animation-\u003eSignalGen(Signal Time)-\u003eSignalGen(Signal Status)-\u003eSignalGen(Signal Form)",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe form that will be rendered for a specific time in an animation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "formAt",
           "package": "helm",
@@ -281,6 +304,7 @@
         "index": {
           "description": "The form that will be rendered for specific time in an animation",
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "formAt",
           "normalized": "Animation-\u003eTime-\u003eMaybe Form",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amount of time one cycle of the animation takes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "length",
           "package": "helm",
@@ -307,6 +332,7 @@
         "index": {
           "description": "The amount of time one cycle of the animation takes",
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "length",
           "normalized": "Animation-\u003eTime",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an animation from a list of frames. The time value in each frame\n    is relative to other frames, i.e. each time value is the difference\n    in time from the last frame.\n\u003c/p\u003e\u003cpre\u003e relative [(100, picture1), (100, picture2), (300, picture3)] == absolute [(100, picture1), (200, picture2), (500, picture3)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Animation",
           "name": "relative",
           "package": "helm",
@@ -332,6 +359,7 @@
         "index": {
           "description": "Creates an animation from list of frames The time value in each frame is relative to other frames i.e each time value is the difference in time from the last frame relative picture1 picture2 picture3 absolute picture1 picture2 picture3",
           "hierarchy": "FRP Helm Animation",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Animation",
           "name": "relative",
           "normalized": "[Frame]-\u003eAnimation",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains all data structures and functions for composing, calculating and creating automatons. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Automaton",
           "name": "Automaton",
           "package": "helm",
@@ -356,6 +385,7 @@
         "index": {
           "description": "Contains all data structures and functions for composing calculating and creating automatons",
           "hierarchy": "FRP Helm Automaton",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Automaton",
           "name": "Automaton",
           "package": "helm",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing an automaton.\n    An automaton is essentially a high-level way to package piped behavior\n    between an input signal and an output signal. Automatons can also\n    be composed, allowing you to connect one automaton to another\n    and pipe data between them. Automatons are an easy and powerful way\n    to create composable dynamic behavior, like animation systems. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Automaton",
           "name": "Automaton",
           "package": "helm",
@@ -379,6 +410,7 @@
         "index": {
           "description": "data structure describing an automaton An automaton is essentially high-level way to package piped behavior between an input signal and an output signal Automatons can also be composed allowing you to connect one automaton to another and pipe data between them Automatons are an easy and powerful way to create composable dynamic behavior like animation systems",
           "hierarchy": "FRP Helm Automaton",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Automaton",
           "name": "Automaton",
           "package": "helm",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Automaton",
           "name": "Step",
           "package": "helm",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Automaton",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Automaton",
           "name": "Step",
           "normalized": "Step(a-\u003e(Automaton a b,b))",
@@ -417,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines a list of automatons that take some input\n    and turns it into an automaton that takes\n    the same input and outputs a list of all outputs\n    from each separate automaton. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Automaton",
           "name": "combine",
           "package": "helm",
@@ -427,6 +462,7 @@
         "index": {
           "description": "Combines list of automatons that take some input and turns it into an automaton that takes the same input and outputs list of all outputs from each separate automaton",
           "hierarchy": "FRP Helm Automaton",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Automaton",
           "name": "combine",
           "normalized": "[Automaton a b]-\u003eAutomaton a[b]",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA useful automaton that outputs the amount of times it has been stepped,\n    discarding its input value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Automaton",
           "name": "counter",
           "package": "helm",
@@ -452,6 +489,7 @@
         "index": {
           "description": "useful automaton that outputs the amount of times it has been stepped discarding its input value",
           "hierarchy": "FRP Helm Automaton",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Automaton",
           "name": "counter",
           "package": "helm",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a pure automaton that has no accumulated state. It applies input to\n    a function at each step. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Automaton",
           "name": "pure",
           "package": "helm",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Creates pure automaton that has no accumulated state It applies input to function at each step",
           "hierarchy": "FRP Helm Automaton",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Automaton",
           "name": "pure",
           "normalized": "(a-\u003eb)-\u003eAutomaton a b",
@@ -490,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns an automaton with an initial output value and input signal generator\n    and creates an output signal generator that contains a signal that can be\n    sampled for the output value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Automaton",
           "name": "run",
           "package": "helm",
@@ -500,6 +541,7 @@
         "index": {
           "description": "Runs an automaton with an initial output value and input signal generator and creates an output signal generator that contains signal that can be sampled for the output value",
           "hierarchy": "FRP Helm Automaton",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Automaton",
           "name": "run",
           "normalized": "Automaton a b-\u003eb-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal b)",
@@ -515,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an automaton that has an initial and accumulated state. It applies\n    input and the last state to a function at each step. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Automaton",
           "name": "stateful",
           "package": "helm",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Creates an automaton that has an initial and accumulated state It applies input and the last state to function at each step",
           "hierarchy": "FRP Helm Automaton",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Automaton",
           "name": "stateful",
           "normalized": "a-\u003e(b-\u003ea-\u003ea)-\u003eAutomaton b a",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSteps an automaton forward, returning the next automaton to step\n    and output of the step in a tuple. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Automaton",
           "name": "step",
           "package": "helm",
@@ -550,6 +595,7 @@
         "index": {
           "description": "Steps an automaton forward returning the next automaton to step and output of the step in tuple",
           "hierarchy": "FRP Helm Automaton",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Automaton",
           "name": "step",
           "normalized": "a-\u003eAutomaton a b-\u003e(Automaton a b,b)",
@@ -565,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains all data structures and functions for composing colors. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "Color",
           "package": "helm",
@@ -574,6 +621,7 @@
         "index": {
           "description": "Contains all data structures and functions for composing colors",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "Color",
           "package": "helm",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing a color. It is represented interally as an RGBA\n    color, but the utility functions \u003ccode\u003e\u003ca\u003ehsva\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ehsv\u003c/a\u003e\u003c/code\u003e, etc. can be used to convert\n    from other popular formats to this structure. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "Color",
           "package": "helm",
@@ -597,6 +646,7 @@
         "index": {
           "description": "data structure describing color It is represented interally as an RGBA color but the utility functions hsva hsv etc can be used to convert from other popular formats to this structure",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "Color",
           "package": "helm",
@@ -611,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing a gradient. There are two types of gradients:\n    radial and linear. Radial gradients are based on a set of colors transitioned\n    over certain radii in an arc pattern. Linear gradients are a set of colors\n    transitioned in a straight line. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "Gradient",
           "package": "helm",
@@ -620,6 +671,7 @@
         "index": {
           "description": "data structure describing gradient There are two types of gradients radial and linear Radial gradients are based on set of colors transitioned over certain radii in an arc pattern Linear gradients are set of colors transitioned in straight line",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "Gradient",
           "package": "helm",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "Color",
           "package": "helm",
@@ -642,6 +695,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "Color",
           "package": "helm",
@@ -655,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "Linear",
           "package": "helm",
@@ -664,6 +719,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "Linear",
           "normalized": "Linear(Double,Double)(Double,Double)[(Double,Color)]",
@@ -679,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "Radial",
           "package": "helm",
@@ -688,6 +745,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "Radial",
           "normalized": "Radial(Double,Double)Double(Double,Double)Double[(Double,Color)]",
@@ -704,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA black color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "black",
           "package": "helm",
@@ -714,6 +773,7 @@
         "index": {
           "description": "black color",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "black",
           "package": "helm",
@@ -727,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of colors and turns it into a single color by\n    averaging the color components. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "blend",
           "package": "helm",
@@ -737,6 +798,7 @@
         "index": {
           "description": "Takes list of colors and turns it into single color by averaging the color components",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "blend",
           "normalized": "[Color]-\u003eColor",
@@ -752,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bright blue color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "blue",
           "package": "helm",
@@ -762,6 +825,7 @@
         "index": {
           "description": "bright blue color",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "blue",
           "package": "helm",
@@ -775,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate a complementary color for a provided color. Useful for outlining\n    a filled shape in a color clearly distinguishable from the fill color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "complement",
           "package": "helm",
@@ -785,6 +850,7 @@
         "index": {
           "description": "Calculate complementary color for provided color Useful for outlining filled shape in color clearly distinguishable from the fill color",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "complement",
           "normalized": "Color-\u003eColor",
@@ -800,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cyan color, combined from bright green and blue. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "cyan",
           "package": "helm",
@@ -810,6 +877,7 @@
         "index": {
           "description": "cyan color combined from bright green and blue",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "cyan",
           "package": "helm",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dark green color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "forestGreen",
           "package": "helm",
@@ -833,6 +902,7 @@
         "index": {
           "description": "dark green color",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "forestGreen",
           "package": "helm",
@@ -847,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA gray color, exactly halfway between black and white. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "gray",
           "package": "helm",
@@ -857,6 +928,7 @@
         "index": {
           "description": "gray color exactly halfway between black and white",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "gray",
           "package": "helm",
@@ -870,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA medium green color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "green",
           "package": "helm",
@@ -880,6 +953,7 @@
         "index": {
           "description": "medium green color",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "green",
           "package": "helm",
@@ -893,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon alternative spelling of \u003ccode\u003e\u003ca\u003egray\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "grey",
           "package": "helm",
@@ -903,6 +978,7 @@
         "index": {
           "description": "Common alternative spelling of gray",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "grey",
           "package": "helm",
@@ -916,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an RGB color from HSV values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "hsv",
           "package": "helm",
@@ -926,6 +1003,7 @@
         "index": {
           "description": "Create an RGB color from HSV values",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "hsv",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eColor",
@@ -941,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an RGBA color from HSVA values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "hsva",
           "package": "helm",
@@ -951,6 +1030,7 @@
         "index": {
           "description": "Create an RGBA color from HSVA values",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "hsva",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eColor",
@@ -966,6 +1046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bright green color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "lime",
           "package": "helm",
@@ -976,6 +1057,7 @@
         "index": {
           "description": "bright green color",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "lime",
           "package": "helm",
@@ -989,6 +1071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a linear gradient. Takes a starting position, ending position and a list\n    of color stops (which are colors combined with a floating value between \u003cem\u003e0.0\u003c/em\u003e and \u003cem\u003e1.0\u003c/em\u003e\n    that describes at what step along the line between the starting position\n    and ending position the paired color should be transitioned to).\n\u003c/p\u003e\u003cpre\u003e linear (0, 0) (100, 100) [(0, black), (1, white)]\n\u003c/pre\u003e\u003cp\u003eThe above example creates a gradient that starts at \u003cem\u003e(0, 0)\u003c/em\u003e\n\tand ends at \u003cem\u003e(100, 100)\u003c/em\u003e. In other words, it's a diagonal gradient, transitioning from the top-left\n\tto the bottom-right. The provided color stops result in the gradient transitioning from\n\tblack to white.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "linear",
           "package": "helm",
@@ -999,6 +1082,7 @@
         "index": {
           "description": "Creates linear gradient Takes starting position ending position and list of color stops which are colors combined with floating value between and that describes at what step along the line between the starting position and ending position the paired color should be transitioned to linear black white The above example creates gradient that starts at and ends at In other words it diagonal gradient transitioning from the top-left to the bottom-right The provided color stops result in the gradient transitioning from black to white",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "linear",
           "normalized": "(Double,Double)-\u003e(Double,Double)-\u003e[(Double,Color)]-\u003eGradient",
@@ -1014,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA magenta color, combined from bright red and blue. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "magenta",
           "package": "helm",
@@ -1024,6 +1109,7 @@
         "index": {
           "description": "magenta color combined from bright red and blue",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "magenta",
           "package": "helm",
@@ -1037,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA medium red color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "maroon",
           "package": "helm",
@@ -1047,6 +1134,7 @@
         "index": {
           "description": "medium red color",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "maroon",
           "package": "helm",
@@ -1060,6 +1148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA medium blue color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "navy",
           "package": "helm",
@@ -1070,6 +1159,7 @@
         "index": {
           "description": "medium blue color",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "navy",
           "package": "helm",
@@ -1083,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA purple color, combined from medium red and blue. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "purple",
           "package": "helm",
@@ -1093,6 +1184,7 @@
         "index": {
           "description": "purple color combined from medium red and blue",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "purple",
           "package": "helm",
@@ -1106,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a radial gradient. Takes a starting position and radius, ending position and radius\n    and a list of color stops. See the document for \u003ccode\u003e\u003ca\u003elinear\u003c/a\u003e\u003c/code\u003e for more information on color stops. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "radial",
           "package": "helm",
@@ -1116,6 +1209,7 @@
         "index": {
           "description": "Creates radial gradient Takes starting position and radius ending position and radius and list of color stops See the document for linear for more information on color stops",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "radial",
           "normalized": "(Double,Double)-\u003eDouble-\u003e(Double,Double)-\u003eDouble-\u003e[(Double,Color)]-\u003eGradient",
@@ -1131,6 +1225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bright red color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "red",
           "package": "helm",
@@ -1141,6 +1236,7 @@
         "index": {
           "description": "bright red color",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "red",
           "package": "helm",
@@ -1154,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an RGB color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "rgb",
           "package": "helm",
@@ -1164,6 +1261,7 @@
         "index": {
           "description": "Creates an RGB color",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "rgb",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eColor",
@@ -1179,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an RGB color, with transparency. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "rgba",
           "package": "helm",
@@ -1189,6 +1288,7 @@
         "index": {
           "description": "Creates an RGB color with transparency",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "rgba",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eColor",
@@ -1204,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA teal color, combined from medium green and blue. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "teal",
           "package": "helm",
@@ -1214,6 +1315,7 @@
         "index": {
           "description": "teal color combined from medium green and blue",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "teal",
           "package": "helm",
@@ -1227,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA violet color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "violet",
           "package": "helm",
@@ -1237,6 +1340,7 @@
         "index": {
           "description": "violet color",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "violet",
           "package": "helm",
@@ -1250,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA white color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "white",
           "package": "helm",
@@ -1260,6 +1365,7 @@
         "index": {
           "description": "white color",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "white",
           "package": "helm",
@@ -1273,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA yellow color, made from combining red and green. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Color",
           "name": "yellow",
           "package": "helm",
@@ -1283,6 +1390,7 @@
         "index": {
           "description": "yellow color made from combining red and green",
           "hierarchy": "FRP Helm Color",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Color",
           "name": "yellow",
           "package": "helm",
@@ -1296,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains all the data structures and functions for composing\n    and rendering graphics. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "Graphics",
           "package": "helm",
@@ -1305,6 +1414,7 @@
         "index": {
           "description": "Contains all the data structures and functions for composing and rendering graphics",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "Graphics",
           "package": "helm",
@@ -1319,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing something that can be rendered\n    to the screen. Elements are the most important structure\n    in Helm. Games essentially feed the engine a stream\n    of elements which are then rendered directly to the screen.\n    The usual way to render art in a Helm game is to call\n    off to the \u003ccode\u003e\u003ca\u003ecollage\u003c/a\u003e\u003c/code\u003e function, which essentially\n    renders a collection of forms together. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "Element",
           "package": "helm",
@@ -1328,6 +1439,7 @@
         "index": {
           "description": "data structure describing something that can be rendered to the screen Elements are the most important structure in Helm Games essentially feed the engine stream of elements which are then rendered directly to the screen The usual way to render art in Helm game is to call off to the collage function which essentially renders collection of forms together",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "Element",
           "package": "helm",
@@ -1342,6 +1454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing how a shape or path looks when filled. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "FillStyle",
           "package": "helm",
@@ -1351,6 +1464,7 @@
         "index": {
           "description": "data structure describing how shape or path looks when filled",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "FillStyle",
           "package": "helm",
@@ -1365,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing the style of of a piece of font. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "FontStyle",
           "package": "helm",
@@ -1374,6 +1489,7 @@
         "index": {
           "description": "data structure describing the style of of piece of font",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "FontStyle",
           "package": "helm",
@@ -1388,6 +1504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing the weight of a piece of font. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "FontWeight",
           "package": "helm",
@@ -1397,6 +1514,7 @@
         "index": {
           "description": "data structure describing the weight of piece of font",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "FontWeight",
           "package": "helm",
@@ -1411,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing a form. A form is essentially a notion of a transformed\n    graphic, whether it be an element or shape. See \u003ccode\u003e\u003ca\u003eFormStyle\u003c/a\u003e\u003c/code\u003e for an insight\n    into what sort of graphics can be wrapped in a form. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "Form",
           "package": "helm",
@@ -1420,6 +1539,7 @@
         "index": {
           "description": "data structure describing form form is essentially notion of transformed graphic whether it be an element or shape See FormStyle for an insight into what sort of graphics can be wrapped in form",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "Form",
           "package": "helm",
@@ -1434,6 +1554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing a few ways that graphics that can be wrapped in a form\n    and hence transformed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "FormStyle",
           "package": "helm",
@@ -1443,6 +1564,7 @@
         "index": {
           "description": "data structure describing few ways that graphics that can be wrapped in form and hence transformed",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "FormStyle",
           "package": "helm",
@@ -1457,6 +1579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing the shape of the ends of a line. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "LineCap",
           "package": "helm",
@@ -1466,6 +1589,7 @@
         "index": {
           "description": "data structure describing the shape of the ends of line",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "LineCap",
           "package": "helm",
@@ -1480,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing the shape of the join of a line, i.e.\n    where separate line segments join. The \u003ccode\u003eSharp\u003c/code\u003e variant takes\n    an argument to limit the length of the join. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "LineJoin",
           "package": "helm",
@@ -1489,6 +1614,7 @@
         "index": {
           "description": "data structure describing the shape of the join of line i.e where separate line segments join The Sharp variant takes an argument to limit the length of the join",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "LineJoin",
           "package": "helm",
@@ -1503,6 +1629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing how a shape or path looks when stroked. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "LineStyle",
           "package": "helm",
@@ -1512,6 +1639,7 @@
         "index": {
           "description": "data structure describing how shape or path looks when stroked",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "LineStyle",
           "package": "helm",
@@ -1526,6 +1654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type made up a collection of points that form a path when joined. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "Path",
           "package": "helm",
@@ -1535,6 +1664,7 @@
         "index": {
           "description": "data type made up collection of points that form path when joined",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "Path",
           "package": "helm",
@@ -1549,6 +1679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing a some sort of graphically representable object,\n    such as a polygon formed from a list of points or a rectangle. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "Shape",
           "package": "helm",
@@ -1558,6 +1689,7 @@
         "index": {
           "description": "data structure describing some sort of graphically representable object such as polygon formed from list of points or rectangle",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "Shape",
           "package": "helm",
@@ -1572,6 +1704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing a piece of formatted text. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "Text",
           "package": "helm",
@@ -1581,6 +1714,7 @@
         "index": {
           "description": "data structure describing piece of formatted text",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "Text",
           "package": "helm",
@@ -1594,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "ArcShape",
           "package": "helm",
@@ -1603,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "ArcShape",
           "normalized": "ArcShape(Double,Double)Double Double Double(Double,Double)",
@@ -1618,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "BoldWeight",
           "package": "helm",
@@ -1627,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "BoldWeight",
           "package": "helm",
@@ -1640,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "ClippedJoin",
           "package": "helm",
@@ -1649,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "ClippedJoin",
           "package": "helm",
@@ -1662,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "CollageElement",
           "package": "helm",
@@ -1671,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "CollageElement",
           "normalized": "CollageElement Int Int(Maybe(Double,Double))[Form]",
@@ -1686,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "ElementForm",
           "package": "helm",
@@ -1695,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "ElementForm",
           "package": "helm",
@@ -1708,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "FlatCap",
           "package": "helm",
@@ -1717,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "FlatCap",
           "package": "helm",
@@ -1730,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "Form",
           "package": "helm",
@@ -1739,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "Form",
           "package": "helm",
@@ -1752,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "Gradient",
           "package": "helm",
@@ -1761,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "Gradient",
           "package": "helm",
@@ -1774,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "GroupForm",
           "package": "helm",
@@ -1783,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "GroupForm",
           "normalized": "GroupForm(Maybe Matrix)[Form]",
@@ -1798,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "ImageElement",
           "package": "helm",
@@ -1807,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "ImageElement",
           "normalized": "ImageElement(Int,Int)Int Int FilePath Bool",
@@ -1822,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "ItalicStyle",
           "package": "helm",
@@ -1831,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "ItalicStyle",
           "package": "helm",
@@ -1844,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "LightWeight",
           "package": "helm",
@@ -1853,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "LightWeight",
           "package": "helm",
@@ -1866,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "LineStyle",
           "package": "helm",
@@ -1875,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "LineStyle",
           "package": "helm",
@@ -1888,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "NormalStyle",
           "package": "helm",
@@ -1897,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "NormalStyle",
           "package": "helm",
@@ -1910,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "NormalWeight",
           "package": "helm",
@@ -1919,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "NormalWeight",
           "package": "helm",
@@ -1932,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "ObliqueStyle",
           "package": "helm",
@@ -1941,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "ObliqueStyle",
           "package": "helm",
@@ -1954,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "PaddedCap",
           "package": "helm",
@@ -1963,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "PaddedCap",
           "package": "helm",
@@ -1976,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "PathForm",
           "package": "helm",
@@ -1985,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "PathForm",
           "package": "helm",
@@ -1998,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "PolygonShape",
           "package": "helm",
@@ -2007,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "PolygonShape",
           "package": "helm",
@@ -2020,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "RectangleShape",
           "package": "helm",
@@ -2029,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "RectangleShape",
           "normalized": "RectangleShape(Double,Double)",
@@ -2044,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "RoundCap",
           "package": "helm",
@@ -2053,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "RoundCap",
           "package": "helm",
@@ -2066,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "ShapeForm",
           "package": "helm",
@@ -2075,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "ShapeForm",
           "package": "helm",
@@ -2088,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "SharpJoin",
           "package": "helm",
@@ -2097,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "SharpJoin",
           "package": "helm",
@@ -2110,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "SmoothJoin",
           "package": "helm",
@@ -2119,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "SmoothJoin",
           "package": "helm",
@@ -2132,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "Solid",
           "package": "helm",
@@ -2141,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "Solid",
           "package": "helm",
@@ -2154,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "Text",
           "package": "helm",
@@ -2163,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "Text",
           "package": "helm",
@@ -2176,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "TextElement",
           "package": "helm",
@@ -2185,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "TextElement",
           "package": "helm",
@@ -2198,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "Texture",
           "package": "helm",
@@ -2207,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "Texture",
           "package": "helm",
@@ -2221,6 +2411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a empty form, useful for having forms rendered only at some state. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "blank",
           "package": "helm",
@@ -2231,6 +2422,7 @@
         "index": {
           "description": "Creates empty form useful for having forms rendered only at some state",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "blank",
           "package": "helm",
@@ -2244,6 +2436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecollage\u003c/a\u003e\u003c/code\u003e, but it centers the forms within the supplied dimensions. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "centeredCollage",
           "package": "helm",
@@ -2254,6 +2447,7 @@
         "index": {
           "description": "Like collage but it centers the forms within the supplied dimensions",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "centeredCollage",
           "normalized": "Int-\u003eInt-\u003e[Form]-\u003eElement",
@@ -2270,6 +2464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a circle shape with a radius. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "circle",
           "package": "helm",
@@ -2280,6 +2475,7 @@
         "index": {
           "description": "Creates circle shape with radius",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "circle",
           "normalized": "Double-\u003eShape",
@@ -2295,6 +2491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an element from a collection of forms, with width and height arguments.\n    All forms are centered and clipped within the supplied dimensions.\n    It is generally used to directly render a collection of forms.\n\u003c/p\u003e\u003cpre\u003e collage 800 600 [move (100, 100) $ filled red $ square 100,\n                  move (100, 100) $ outlined (solid white) $ circle 50]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "collage",
           "package": "helm",
@@ -2305,6 +2502,7 @@
         "index": {
           "description": "Create an element from collection of forms with width and height arguments All forms are centered and clipped within the supplied dimensions It is generally used to directly render collection of forms collage move filled red square move outlined solid white circle",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "collage",
           "normalized": "Int-\u003eInt-\u003e[Form]-\u003eElement",
@@ -2320,6 +2518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an element from an image by cropping it with a certain position, width, height\n    and image file path. This can be used to divide a single image up into smaller ones. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "croppedImage",
           "package": "helm",
@@ -2330,6 +2529,7 @@
         "index": {
           "description": "Create an element from an image by cropping it with certain position width height and image file path This can be used to divide single image up into smaller ones",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "croppedImage",
           "normalized": "(Int,Int)-\u003eInt-\u003eInt-\u003eFilePath-\u003eElement",
@@ -2346,6 +2546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a dashed line style with a color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "dashed",
           "package": "helm",
@@ -2356,6 +2557,7 @@
         "index": {
           "description": "Create dashed line style with color",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "dashed",
           "normalized": "Color-\u003eLineStyle",
@@ -2371,6 +2573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates the default line style. By default, the line is black with a width of 1,\n    flat caps and regular sharp joints. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "defaultLine",
           "package": "helm",
@@ -2381,6 +2584,7 @@
         "index": {
           "description": "Creates the default line style By default the line is black with width of flat caps and regular sharp joints",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "defaultLine",
           "package": "helm",
@@ -2395,6 +2599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a dotted line style with a color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "dotted",
           "package": "helm",
@@ -2405,6 +2610,7 @@
         "index": {
           "description": "Create dotted line style with color",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "dotted",
           "normalized": "Color-\u003eLineStyle",
@@ -2420,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a form from a shape by filling it with a specific color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "filled",
           "package": "helm",
@@ -2430,6 +2637,7 @@
         "index": {
           "description": "Creates form from shape by filling it with specific color",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "filled",
           "normalized": "Color-\u003eShape-\u003eForm",
@@ -2445,6 +2653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an element from an image with a given width, height and image file path.\n    If the image dimensions are not the same as given, then it will only use the relevant pixels\n    (i.e. cut out the given dimensions instead of scaling). If the given dimensions are bigger than\n    the actual image, than irrelevant pixels are ignored. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "fittedImage",
           "package": "helm",
@@ -2455,6 +2664,7 @@
         "index": {
           "description": "Create an element from an image with given width height and image file path If the image dimensions are not the same as given then it will only use the relevant pixels i.e cut out the given dimensions instead of scaling If the given dimensions are bigger than the actual image than irrelevant pixels are ignored",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "fittedImage",
           "normalized": "Int-\u003eInt-\u003eFilePath-\u003eElement",
@@ -2471,6 +2681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecenteredCollage\u003c/a\u003e\u003c/code\u003e, but it centers the forms around a specific point. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "fixedCollage",
           "package": "helm",
@@ -2481,6 +2692,7 @@
         "index": {
           "description": "Like centeredCollage but it centers the forms around specific point",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "fixedCollage",
           "normalized": "Int-\u003eInt-\u003e(Double,Double)-\u003e[Form]-\u003eElement",
@@ -2496,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "formScale",
           "package": "helm",
@@ -2505,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "formScale",
           "package": "helm",
@@ -2518,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "formStyle",
           "package": "helm",
@@ -2527,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "formStyle",
           "package": "helm",
@@ -2540,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "formTheta",
           "package": "helm",
@@ -2549,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "formTheta",
           "package": "helm",
@@ -2562,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "formX",
           "package": "helm",
@@ -2571,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "formX",
           "package": "helm",
@@ -2583,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "formY",
           "package": "helm",
@@ -2592,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "formY",
           "package": "helm",
@@ -2605,6 +2827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a form from a shape filled with a gradient. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "gradient",
           "package": "helm",
@@ -2615,6 +2838,7 @@
         "index": {
           "description": "Creates form from shape filled with gradient",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "gradient",
           "normalized": "Gradient-\u003eShape-\u003eForm",
@@ -2630,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroups a collection of forms into a single one. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "group",
           "package": "helm",
@@ -2640,6 +2865,7 @@
         "index": {
           "description": "Groups collection of forms into single one",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "group",
           "normalized": "[Form]-\u003eForm",
@@ -2655,6 +2881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroups a collection of forms into a single one, also applying a matrix transformation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "groupTransform",
           "package": "helm",
@@ -2665,6 +2892,7 @@
         "index": {
           "description": "Groups collection of forms into single one also applying matrix transformation",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "groupTransform",
           "normalized": "Matrix-\u003e[Form]-\u003eForm",
@@ -2681,6 +2909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an element from an image with a given width, height and image file path.\n    If the image dimensions are not the same as given, then it will stretch/shrink to fit.\n    Only PNG files are supported currently. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "image",
           "package": "helm",
@@ -2691,6 +2920,7 @@
         "index": {
           "description": "Create an element from an image with given width height and image file path If the image dimensions are not the same as given then it will stretch shrink to fit Only PNG files are supported currently",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "image",
           "normalized": "Int-\u003eInt-\u003eFilePath-\u003eElement",
@@ -2705,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "lineCap",
           "package": "helm",
@@ -2714,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "lineCap",
           "package": "helm",
@@ -2727,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "lineColor",
           "package": "helm",
@@ -2736,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "lineColor",
           "package": "helm",
@@ -2749,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "lineDashOffset",
           "package": "helm",
@@ -2758,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "lineDashOffset",
           "package": "helm",
@@ -2771,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "lineDashing",
           "package": "helm",
@@ -2780,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "lineDashing",
           "normalized": "[Double]",
@@ -2795,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "lineJoin",
           "package": "helm",
@@ -2804,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "lineJoin",
           "package": "helm",
@@ -2817,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "lineWidth",
           "package": "helm",
@@ -2826,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "lineWidth",
           "package": "helm",
@@ -2840,6 +3082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoves a form relative to its current position. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "move",
           "package": "helm",
@@ -2850,6 +3093,7 @@
         "index": {
           "description": "Moves form relative to its current position",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "move",
           "normalized": "(Double,Double)-\u003eForm-\u003eForm",
@@ -2865,6 +3109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoves a form's x-coordinate relative to its current position. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "moveX",
           "package": "helm",
@@ -2875,6 +3120,7 @@
         "index": {
           "description": "Moves form x-coordinate relative to its current position",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "moveX",
           "normalized": "Double-\u003eForm-\u003eForm",
@@ -2890,6 +3136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoves a form's y-coordinate relative to its current position. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "moveY",
           "package": "helm",
@@ -2900,6 +3147,7 @@
         "index": {
           "description": "Moves form y-coordinate relative to its current position",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "moveY",
           "normalized": "Double-\u003eForm-\u003eForm",
@@ -2915,6 +3163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a generic n-sided polygon (e.g. octagon, pentagon, etc) with\n    an amount of sides and radius. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "ngon",
           "package": "helm",
@@ -2925,6 +3174,7 @@
         "index": {
           "description": "Creates generic n-sided polygon e.g octagon pentagon etc with an amount of sides and radius",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "ngon",
           "normalized": "Int-\u003eDouble-\u003eShape",
@@ -2940,6 +3190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a form from a shape by outlining it with a specific line style. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "outlined",
           "package": "helm",
@@ -2950,6 +3201,7 @@
         "index": {
           "description": "Creates form from shape by outlining it with specific line style",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "outlined",
           "normalized": "LineStyle-\u003eShape-\u003eForm",
@@ -2965,6 +3217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an oval shape with a width and height. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "oval",
           "package": "helm",
@@ -2975,6 +3228,7 @@
         "index": {
           "description": "Creates an oval shape with width and height",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "oval",
           "normalized": "Double-\u003eDouble-\u003eShape",
@@ -2990,6 +3244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a path for a collection of points. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "path",
           "package": "helm",
@@ -3000,6 +3255,7 @@
         "index": {
           "description": "Creates path for collection of points",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "path",
           "normalized": "[(Double,Double)]-\u003ePath",
@@ -3015,6 +3271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a shape from a path (a list of points). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "polygon",
           "package": "helm",
@@ -3025,6 +3282,7 @@
         "index": {
           "description": "Creates shape from path list of points",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "polygon",
           "normalized": "Path-\u003eShape",
@@ -3040,6 +3298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a rectangular shape with a width and height. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "rect",
           "package": "helm",
@@ -3050,6 +3309,7 @@
         "index": {
           "description": "Creates rectangular shape with width and height",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "rect",
           "normalized": "Double-\u003eDouble-\u003eShape",
@@ -3065,6 +3325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotates a form by an amount (in radians). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "rotate",
           "package": "helm",
@@ -3075,6 +3336,7 @@
         "index": {
           "description": "Rotates form by an amount in radians",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "rotate",
           "normalized": "Double-\u003eForm-\u003eForm",
@@ -3090,6 +3352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScales a form by an amount, e.g. scaling by \u003cem\u003e2.0\u003c/em\u003e will double the size. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "scale",
           "package": "helm",
@@ -3100,6 +3363,7 @@
         "index": {
           "description": "Scales form by an amount e.g scaling by will double the size",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "scale",
           "normalized": "Double-\u003eForm-\u003eForm",
@@ -3115,6 +3379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a path from a line segment, i.e. a start and end point. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "segment",
           "package": "helm",
@@ -3125,6 +3390,7 @@
         "index": {
           "description": "Creates path from line segment i.e start and end point",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "segment",
           "normalized": "(Double,Double)-\u003e(Double,Double)-\u003ePath",
@@ -3140,6 +3406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a solid line style with a color. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "solid",
           "package": "helm",
@@ -3150,6 +3417,7 @@
         "index": {
           "description": "Create solid line style with color",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "solid",
           "normalized": "Color-\u003eLineStyle",
@@ -3165,6 +3433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a form from a image file path with additional position, width and height arguments.\n    Allows you to splice smaller parts from a single image. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "sprite",
           "package": "helm",
@@ -3175,6 +3444,7 @@
         "index": {
           "description": "Creates form from image file path with additional position width and height arguments Allows you to splice smaller parts from single image",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "sprite",
           "normalized": "Int-\u003eInt-\u003e(Int,Int)-\u003eFilePath-\u003eForm",
@@ -3190,6 +3460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a square shape with a side length. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "square",
           "package": "helm",
@@ -3200,6 +3471,7 @@
         "index": {
           "description": "Creates square shape with side length",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "square",
           "normalized": "Double-\u003eShape",
@@ -3214,6 +3486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "textColor",
           "package": "helm",
@@ -3223,6 +3496,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "textColor",
           "package": "helm",
@@ -3236,6 +3510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "textHeight",
           "package": "helm",
@@ -3245,6 +3520,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "textHeight",
           "package": "helm",
@@ -3258,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "textStyle",
           "package": "helm",
@@ -3267,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "textStyle",
           "package": "helm",
@@ -3280,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "textTypeface",
           "package": "helm",
@@ -3289,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "textTypeface",
           "package": "helm",
@@ -3302,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "textUTF8",
           "package": "helm",
@@ -3311,6 +3592,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "textUTF8",
           "package": "helm",
@@ -3324,6 +3606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "textWeight",
           "package": "helm",
@@ -3333,6 +3616,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "textWeight",
           "package": "helm",
@@ -3347,6 +3631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a form from a shape with a tiled texture and image file path. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "textured",
           "package": "helm",
@@ -3357,6 +3642,7 @@
         "index": {
           "description": "Creates form from shape with tiled texture and image file path",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "textured",
           "normalized": "String-\u003eShape-\u003eForm",
@@ -3372,6 +3658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a form from an element. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "toForm",
           "package": "helm",
@@ -3382,6 +3669,7 @@
         "index": {
           "description": "Creates form from an element",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "toForm",
           "normalized": "Element-\u003eForm",
@@ -3398,6 +3686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a form from a path by tracing it with a specific line style. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Graphics",
           "name": "traced",
           "package": "helm",
@@ -3408,6 +3697,7 @@
         "index": {
           "description": "Creates form from path by tracing it with specific line style",
           "hierarchy": "FRP Helm Graphics",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Graphics",
           "name": "traced",
           "normalized": "LineStyle-\u003ePath-\u003eForm",
@@ -3423,6 +3713,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains signals that sample input from joysticks. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "Joystick",
           "package": "helm",
@@ -3432,6 +3723,7 @@
         "index": {
           "description": "Contains signals that sample input from joysticks",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "Joystick",
           "package": "helm",
@@ -3446,6 +3738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type describing a joystick. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "Joystick",
           "package": "helm",
@@ -3455,6 +3748,7 @@
         "index": {
           "description": "type describing joystick",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "Joystick",
           "package": "helm",
@@ -3469,6 +3763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amount of joysticks available. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "available",
           "package": "helm",
@@ -3479,6 +3774,7 @@
         "index": {
           "description": "The amount of joysticks available",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "available",
           "package": "helm",
@@ -3492,6 +3788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amount of axes available for a joystick. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "availableAxes",
           "package": "helm",
@@ -3502,6 +3799,7 @@
         "index": {
           "description": "The amount of axes available for joystick",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "availableAxes",
           "normalized": "Joystick-\u003eSignalGen(Signal Int)",
@@ -3518,6 +3816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amount of balls available for a joystick. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "availableBalls",
           "package": "helm",
@@ -3528,6 +3827,7 @@
         "index": {
           "description": "The amount of balls available for joystick",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "availableBalls",
           "normalized": "Joystick-\u003eSignalGen(Signal Int)",
@@ -3544,6 +3844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amount of buttons available for a joystick. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "availableButtons",
           "package": "helm",
@@ -3554,6 +3855,7 @@
         "index": {
           "description": "The amount of buttons available for joystick",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "availableButtons",
           "normalized": "Joystick-\u003eSignalGen(Signal Int)",
@@ -3570,6 +3872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amount of hats available for a joystick. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "availableHats",
           "package": "helm",
@@ -3580,6 +3883,7 @@
         "index": {
           "description": "The amount of hats available for joystick",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "availableHats",
           "normalized": "Joystick-\u003eSignalGen(Signal Int)",
@@ -3596,6 +3900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current state of the axis of the joystick. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "axis",
           "package": "helm",
@@ -3606,6 +3911,7 @@
         "index": {
           "description": "The current state of the axis of the joystick",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "axis",
           "normalized": "Joystick-\u003eInt-\u003eSignalGen(Signal Int)",
@@ -3621,6 +3927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current state of the ball of the joystick. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "ball",
           "package": "helm",
@@ -3631,6 +3938,7 @@
         "index": {
           "description": "The current state of the ball of the joystick",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "ball",
           "normalized": "Joystick-\u003eInt-\u003eSignalGen(Signal(Int,Int))",
@@ -3646,6 +3954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current state of the button of the joystick. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "button",
           "package": "helm",
@@ -3656,6 +3965,7 @@
         "index": {
           "description": "The current state of the button of the joystick",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "button",
           "normalized": "Joystick-\u003eInt-\u003eSignalGen(Signal Bool)",
@@ -3671,6 +3981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current state of the hat of the joystick, returned\n    as a directional tuple. For example, up is \u003cem\u003e(0, -1)\u003c/em\u003e,\n    left \u003cem\u003e(-1, 0)\u003c/em\u003e, bottom-right is \u003cem\u003e(1, 1)\u003c/em\u003e, etc. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "hat",
           "package": "helm",
@@ -3681,6 +3992,7 @@
         "index": {
           "description": "The current state of the hat of the joystick returned as directional tuple For example up is left bottom-right is etc",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "hat",
           "normalized": "Joystick-\u003eInt-\u003eSignalGen(Signal(Int,Int))",
@@ -3696,6 +4008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe index of a joystick. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "index",
           "package": "helm",
@@ -3706,6 +4019,7 @@
         "index": {
           "description": "The index of joystick",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "index",
           "normalized": "Joystick-\u003eSignalGen(Signal Int)",
@@ -3721,6 +4035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a joystick. Can throw an exception when sampled if the joystick index is invalid. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "name",
           "package": "helm",
@@ -3731,6 +4046,7 @@
         "index": {
           "description": "The name of joystick Can throw an exception when sampled if the joystick index is invalid",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "name",
           "normalized": "Int-\u003eSignalGen(Signal String)",
@@ -3746,6 +4062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe joystick at a certain slot. Can throw an exception when sampled if the joystick index is invalid. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Joystick",
           "name": "open",
           "package": "helm",
@@ -3756,6 +4073,7 @@
         "index": {
           "description": "The joystick at certain slot Can throw an exception when sampled if the joystick index is invalid",
           "hierarchy": "FRP Helm Joystick",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Joystick",
           "name": "open",
           "normalized": "Int-\u003eSignalGen(Signal Joystick)",
@@ -3771,6 +4089,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains signals that sample input from the keyboard. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "Keyboard",
           "package": "helm",
@@ -3780,6 +4099,7 @@
         "index": {
           "description": "Contains signals that sample input from the keyboard",
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "Keyboard",
           "package": "helm",
@@ -3794,6 +4114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing a physical key on a keyboard. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "Key",
           "package": "helm",
@@ -3803,6 +4124,7 @@
         "index": {
           "description": "data structure describing physical key on keyboard",
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "Key",
           "package": "helm",
@@ -3816,6 +4138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "AKey",
           "package": "helm",
@@ -3825,6 +4148,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "AKey",
           "package": "helm",
@@ -3838,6 +4162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "AmpersandKey",
           "package": "helm",
@@ -3847,6 +4172,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "AmpersandKey",
           "package": "helm",
@@ -3860,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "AsteriskKey",
           "package": "helm",
@@ -3869,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "AsteriskKey",
           "package": "helm",
@@ -3882,6 +4210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "AtKey",
           "package": "helm",
@@ -3891,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "AtKey",
           "package": "helm",
@@ -3904,6 +4234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "BKey",
           "package": "helm",
@@ -3913,6 +4244,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "BKey",
           "package": "helm",
@@ -3926,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "BackquoteKey",
           "package": "helm",
@@ -3935,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "BackquoteKey",
           "package": "helm",
@@ -3948,6 +4282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "BackslashKey",
           "package": "helm",
@@ -3957,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "BackslashKey",
           "package": "helm",
@@ -3970,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "BackspaceKey",
           "package": "helm",
@@ -3979,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "BackspaceKey",
           "package": "helm",
@@ -3992,6 +4330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "BreakKey",
           "package": "helm",
@@ -4001,6 +4340,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "BreakKey",
           "package": "helm",
@@ -4014,6 +4354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "CKey",
           "package": "helm",
@@ -4023,6 +4364,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "CKey",
           "package": "helm",
@@ -4036,6 +4378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "CapsLockKey",
           "package": "helm",
@@ -4045,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "CapsLockKey",
           "package": "helm",
@@ -4058,6 +4402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "CaretKey",
           "package": "helm",
@@ -4067,6 +4412,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "CaretKey",
           "package": "helm",
@@ -4080,6 +4426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "ClearKey",
           "package": "helm",
@@ -4089,6 +4436,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "ClearKey",
           "package": "helm",
@@ -4102,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "ColonKey",
           "package": "helm",
@@ -4111,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "ColonKey",
           "package": "helm",
@@ -4124,6 +4474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "CommaKey",
           "package": "helm",
@@ -4133,6 +4484,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "CommaKey",
           "package": "helm",
@@ -4146,6 +4498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "ComposeKey",
           "package": "helm",
@@ -4155,6 +4508,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "ComposeKey",
           "package": "helm",
@@ -4168,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "DKey",
           "package": "helm",
@@ -4177,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "DKey",
           "package": "helm",
@@ -4190,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "DeleteKey",
           "package": "helm",
@@ -4199,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "DeleteKey",
           "package": "helm",
@@ -4212,6 +4570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "DollarKey",
           "package": "helm",
@@ -4221,6 +4580,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "DollarKey",
           "package": "helm",
@@ -4234,6 +4594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "DownKey",
           "package": "helm",
@@ -4243,6 +4604,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "DownKey",
           "package": "helm",
@@ -4256,6 +4618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "EKey",
           "package": "helm",
@@ -4265,6 +4628,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "EKey",
           "package": "helm",
@@ -4278,6 +4642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "EndKey",
           "package": "helm",
@@ -4287,6 +4652,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "EndKey",
           "package": "helm",
@@ -4300,6 +4666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "EnterKey",
           "package": "helm",
@@ -4309,6 +4676,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "EnterKey",
           "package": "helm",
@@ -4322,6 +4690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "EqualsKey",
           "package": "helm",
@@ -4331,6 +4700,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "EqualsKey",
           "package": "helm",
@@ -4344,6 +4714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "EscapeKey",
           "package": "helm",
@@ -4353,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "EscapeKey",
           "package": "helm",
@@ -4366,6 +4738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "EuroKey",
           "package": "helm",
@@ -4375,6 +4748,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "EuroKey",
           "package": "helm",
@@ -4388,6 +4762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "ExclaimKey",
           "package": "helm",
@@ -4397,6 +4772,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "ExclaimKey",
           "package": "helm",
@@ -4410,6 +4786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F10Key",
           "package": "helm",
@@ -4419,6 +4796,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F10Key",
           "package": "helm",
@@ -4432,6 +4810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F11Key",
           "package": "helm",
@@ -4441,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F11Key",
           "package": "helm",
@@ -4454,6 +4834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F12Key",
           "package": "helm",
@@ -4463,6 +4844,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F12Key",
           "package": "helm",
@@ -4476,6 +4858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F13Key",
           "package": "helm",
@@ -4485,6 +4868,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F13Key",
           "package": "helm",
@@ -4498,6 +4882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F14Key",
           "package": "helm",
@@ -4507,6 +4892,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F14Key",
           "package": "helm",
@@ -4520,6 +4906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F15Key",
           "package": "helm",
@@ -4529,6 +4916,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F15Key",
           "package": "helm",
@@ -4542,6 +4930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F1Key",
           "package": "helm",
@@ -4551,6 +4940,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F1Key",
           "package": "helm",
@@ -4564,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F2Key",
           "package": "helm",
@@ -4573,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F2Key",
           "package": "helm",
@@ -4586,6 +4978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F3Key",
           "package": "helm",
@@ -4595,6 +4988,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F3Key",
           "package": "helm",
@@ -4608,6 +5002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F4Key",
           "package": "helm",
@@ -4617,6 +5012,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F4Key",
           "package": "helm",
@@ -4630,6 +5026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F5Key",
           "package": "helm",
@@ -4639,6 +5036,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F5Key",
           "package": "helm",
@@ -4652,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F6Key",
           "package": "helm",
@@ -4661,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F6Key",
           "package": "helm",
@@ -4674,6 +5074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F7Key",
           "package": "helm",
@@ -4683,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F7Key",
           "package": "helm",
@@ -4696,6 +5098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F8Key",
           "package": "helm",
@@ -4705,6 +5108,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F8Key",
           "package": "helm",
@@ -4718,6 +5122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "F9Key",
           "package": "helm",
@@ -4727,6 +5132,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "F9Key",
           "package": "helm",
@@ -4740,6 +5146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "FKey",
           "package": "helm",
@@ -4749,6 +5156,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "FKey",
           "package": "helm",
@@ -4762,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "GKey",
           "package": "helm",
@@ -4771,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "GKey",
           "package": "helm",
@@ -4784,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "GreaterKey",
           "package": "helm",
@@ -4793,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "GreaterKey",
           "package": "helm",
@@ -4806,6 +5218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "HKey",
           "package": "helm",
@@ -4815,6 +5228,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "HKey",
           "package": "helm",
@@ -4828,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "HashKey",
           "package": "helm",
@@ -4837,6 +5252,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "HashKey",
           "package": "helm",
@@ -4850,6 +5266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "HelpKey",
           "package": "helm",
@@ -4859,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "HelpKey",
           "package": "helm",
@@ -4872,6 +5290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "HomeKey",
           "package": "helm",
@@ -4881,6 +5300,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "HomeKey",
           "package": "helm",
@@ -4894,6 +5314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "IKey",
           "package": "helm",
@@ -4903,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "IKey",
           "package": "helm",
@@ -4916,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "InsertKey",
           "package": "helm",
@@ -4925,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "InsertKey",
           "package": "helm",
@@ -4938,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "JKey",
           "package": "helm",
@@ -4947,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "JKey",
           "package": "helm",
@@ -4960,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KKey",
           "package": "helm",
@@ -4969,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KKey",
           "package": "helm",
@@ -4982,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadDivideKey",
           "package": "helm",
@@ -4991,6 +5420,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadDivideKey",
           "package": "helm",
@@ -5004,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadEnterKey",
           "package": "helm",
@@ -5013,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadEnterKey",
           "package": "helm",
@@ -5026,6 +5458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadEqualsKey",
           "package": "helm",
@@ -5035,6 +5468,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadEqualsKey",
           "package": "helm",
@@ -5048,6 +5482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadMinusKey",
           "package": "helm",
@@ -5057,6 +5492,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadMinusKey",
           "package": "helm",
@@ -5070,6 +5506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadMultiplyKey",
           "package": "helm",
@@ -5079,6 +5516,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadMultiplyKey",
           "package": "helm",
@@ -5092,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum0Key",
           "package": "helm",
@@ -5101,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum0Key",
           "package": "helm",
@@ -5114,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum1Key",
           "package": "helm",
@@ -5123,6 +5564,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum1Key",
           "package": "helm",
@@ -5136,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum2Key",
           "package": "helm",
@@ -5145,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum2Key",
           "package": "helm",
@@ -5158,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum3Key",
           "package": "helm",
@@ -5167,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum3Key",
           "package": "helm",
@@ -5180,6 +5626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum4Key",
           "package": "helm",
@@ -5189,6 +5636,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum4Key",
           "package": "helm",
@@ -5202,6 +5650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum5Key",
           "package": "helm",
@@ -5211,6 +5660,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum5Key",
           "package": "helm",
@@ -5224,6 +5674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum6Key",
           "package": "helm",
@@ -5233,6 +5684,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum6Key",
           "package": "helm",
@@ -5246,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum7Key",
           "package": "helm",
@@ -5255,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum7Key",
           "package": "helm",
@@ -5268,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum8Key",
           "package": "helm",
@@ -5277,6 +5732,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum8Key",
           "package": "helm",
@@ -5290,6 +5746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum9Key",
           "package": "helm",
@@ -5299,6 +5756,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadNum9Key",
           "package": "helm",
@@ -5312,6 +5770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadPeriodKey",
           "package": "helm",
@@ -5321,6 +5780,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadPeriodKey",
           "package": "helm",
@@ -5334,6 +5794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadPlusKey",
           "package": "helm",
@@ -5343,6 +5804,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "KeypadPlusKey",
           "package": "helm",
@@ -5356,6 +5818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "LAltKey",
           "package": "helm",
@@ -5365,6 +5828,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "LAltKey",
           "package": "helm",
@@ -5378,6 +5842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "LCtrlKey",
           "package": "helm",
@@ -5387,6 +5852,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "LCtrlKey",
           "package": "helm",
@@ -5400,6 +5866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "LKey",
           "package": "helm",
@@ -5409,6 +5876,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "LKey",
           "package": "helm",
@@ -5422,6 +5890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "LMetaKey",
           "package": "helm",
@@ -5431,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "LMetaKey",
           "package": "helm",
@@ -5444,6 +5914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "LShiftKey",
           "package": "helm",
@@ -5453,6 +5924,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "LShiftKey",
           "package": "helm",
@@ -5466,6 +5938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "LSuperKey",
           "package": "helm",
@@ -5475,6 +5948,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "LSuperKey",
           "package": "helm",
@@ -5488,6 +5962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "LeftBracketKey",
           "package": "helm",
@@ -5497,6 +5972,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "LeftBracketKey",
           "package": "helm",
@@ -5510,6 +5986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "LeftKey",
           "package": "helm",
@@ -5519,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "LeftKey",
           "package": "helm",
@@ -5532,6 +6010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "LeftParenKey",
           "package": "helm",
@@ -5541,6 +6020,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "LeftParenKey",
           "package": "helm",
@@ -5554,6 +6034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "LessKey",
           "package": "helm",
@@ -5563,6 +6044,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "LessKey",
           "package": "helm",
@@ -5576,6 +6058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "MKey",
           "package": "helm",
@@ -5585,6 +6068,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "MKey",
           "package": "helm",
@@ -5598,6 +6082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "MenuKey",
           "package": "helm",
@@ -5607,6 +6092,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "MenuKey",
           "package": "helm",
@@ -5620,6 +6106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "MinusKey",
           "package": "helm",
@@ -5629,6 +6116,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "MinusKey",
           "package": "helm",
@@ -5642,6 +6130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "ModeKey",
           "package": "helm",
@@ -5651,6 +6140,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "ModeKey",
           "package": "helm",
@@ -5664,6 +6154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "NKey",
           "package": "helm",
@@ -5673,6 +6164,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "NKey",
           "package": "helm",
@@ -5686,6 +6178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "Num0Key",
           "package": "helm",
@@ -5695,6 +6188,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "Num0Key",
           "package": "helm",
@@ -5708,6 +6202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "Num1Key",
           "package": "helm",
@@ -5717,6 +6212,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "Num1Key",
           "package": "helm",
@@ -5730,6 +6226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "Num2Key",
           "package": "helm",
@@ -5739,6 +6236,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "Num2Key",
           "package": "helm",
@@ -5752,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "Num3Key",
           "package": "helm",
@@ -5761,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "Num3Key",
           "package": "helm",
@@ -5774,6 +6274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "Num4Key",
           "package": "helm",
@@ -5783,6 +6284,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "Num4Key",
           "package": "helm",
@@ -5796,6 +6298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "Num5Key",
           "package": "helm",
@@ -5805,6 +6308,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "Num5Key",
           "package": "helm",
@@ -5818,6 +6322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "Num6Key",
           "package": "helm",
@@ -5827,6 +6332,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "Num6Key",
           "package": "helm",
@@ -5840,6 +6346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "Num7Key",
           "package": "helm",
@@ -5849,6 +6356,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "Num7Key",
           "package": "helm",
@@ -5862,6 +6370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "Num8Key",
           "package": "helm",
@@ -5871,6 +6380,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "Num8Key",
           "package": "helm",
@@ -5884,6 +6394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "Num9Key",
           "package": "helm",
@@ -5893,6 +6404,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "Num9Key",
           "package": "helm",
@@ -5906,6 +6418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "NumLockKey",
           "package": "helm",
@@ -5915,6 +6428,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "NumLockKey",
           "package": "helm",
@@ -5928,6 +6442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "OKey",
           "package": "helm",
@@ -5937,6 +6452,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "OKey",
           "package": "helm",
@@ -5950,6 +6466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "PKey",
           "package": "helm",
@@ -5959,6 +6476,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "PKey",
           "package": "helm",
@@ -5972,6 +6490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "PageDownKey",
           "package": "helm",
@@ -5981,6 +6500,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "PageDownKey",
           "package": "helm",
@@ -5994,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "PageUpKey",
           "package": "helm",
@@ -6003,6 +6524,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "PageUpKey",
           "package": "helm",
@@ -6016,6 +6538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "PauseKey",
           "package": "helm",
@@ -6025,6 +6548,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "PauseKey",
           "package": "helm",
@@ -6038,6 +6562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "PeriodKey",
           "package": "helm",
@@ -6047,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "PeriodKey",
           "package": "helm",
@@ -6060,6 +6586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "PlusKey",
           "package": "helm",
@@ -6069,6 +6596,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "PlusKey",
           "package": "helm",
@@ -6082,6 +6610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "PowerKey",
           "package": "helm",
@@ -6091,6 +6620,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "PowerKey",
           "package": "helm",
@@ -6104,6 +6634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "PrintKey",
           "package": "helm",
@@ -6113,6 +6644,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "PrintKey",
           "package": "helm",
@@ -6126,6 +6658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "QKey",
           "package": "helm",
@@ -6135,6 +6668,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "QKey",
           "package": "helm",
@@ -6148,6 +6682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "QuestionKey",
           "package": "helm",
@@ -6157,6 +6692,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "QuestionKey",
           "package": "helm",
@@ -6170,6 +6706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "QuoteKey",
           "package": "helm",
@@ -6179,6 +6716,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "QuoteKey",
           "package": "helm",
@@ -6192,6 +6730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "QuotedBlKey",
           "package": "helm",
@@ -6201,6 +6740,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "QuotedBlKey",
           "package": "helm",
@@ -6214,6 +6754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "RAltKey",
           "package": "helm",
@@ -6223,6 +6764,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "RAltKey",
           "package": "helm",
@@ -6236,6 +6778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "RCtrlKey",
           "package": "helm",
@@ -6245,6 +6788,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "RCtrlKey",
           "package": "helm",
@@ -6258,6 +6802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "RKey",
           "package": "helm",
@@ -6267,6 +6812,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "RKey",
           "package": "helm",
@@ -6280,6 +6826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "RMetaKey",
           "package": "helm",
@@ -6289,6 +6836,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "RMetaKey",
           "package": "helm",
@@ -6302,6 +6850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "RShiftKey",
           "package": "helm",
@@ -6311,6 +6860,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "RShiftKey",
           "package": "helm",
@@ -6324,6 +6874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "RSuperKey",
           "package": "helm",
@@ -6333,6 +6884,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "RSuperKey",
           "package": "helm",
@@ -6346,6 +6898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "RightBracketKey",
           "package": "helm",
@@ -6355,6 +6908,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "RightBracketKey",
           "package": "helm",
@@ -6368,6 +6922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "RightKey",
           "package": "helm",
@@ -6377,6 +6932,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "RightKey",
           "package": "helm",
@@ -6390,6 +6946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "RightParenKey",
           "package": "helm",
@@ -6399,6 +6956,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "RightParenKey",
           "package": "helm",
@@ -6412,6 +6970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "SKey",
           "package": "helm",
@@ -6421,6 +6980,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "SKey",
           "package": "helm",
@@ -6434,6 +6994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "ScrollLockKey",
           "package": "helm",
@@ -6443,6 +7004,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "ScrollLockKey",
           "package": "helm",
@@ -6456,6 +7018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "SemicolonKey",
           "package": "helm",
@@ -6465,6 +7028,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "SemicolonKey",
           "package": "helm",
@@ -6478,6 +7042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "SlashKey",
           "package": "helm",
@@ -6487,6 +7052,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "SlashKey",
           "package": "helm",
@@ -6500,6 +7066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "SpaceKey",
           "package": "helm",
@@ -6509,6 +7076,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "SpaceKey",
           "package": "helm",
@@ -6522,6 +7090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "SysReqKey",
           "package": "helm",
@@ -6531,6 +7100,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "SysReqKey",
           "package": "helm",
@@ -6544,6 +7114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "TKey",
           "package": "helm",
@@ -6553,6 +7124,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "TKey",
           "package": "helm",
@@ -6566,6 +7138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "TabKey",
           "package": "helm",
@@ -6575,6 +7148,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "TabKey",
           "package": "helm",
@@ -6588,6 +7162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "UKey",
           "package": "helm",
@@ -6597,6 +7172,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "UKey",
           "package": "helm",
@@ -6610,6 +7186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "UnderscoreKey",
           "package": "helm",
@@ -6619,6 +7196,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "UnderscoreKey",
           "package": "helm",
@@ -6632,6 +7210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "UndoKey",
           "package": "helm",
@@ -6641,6 +7220,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "UndoKey",
           "package": "helm",
@@ -6654,6 +7234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "UpKey",
           "package": "helm",
@@ -6663,6 +7244,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "UpKey",
           "package": "helm",
@@ -6676,6 +7258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "VKey",
           "package": "helm",
@@ -6685,6 +7268,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "VKey",
           "package": "helm",
@@ -6698,6 +7282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "WKey",
           "package": "helm",
@@ -6707,6 +7292,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "WKey",
           "package": "helm",
@@ -6720,6 +7306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "XKey",
           "package": "helm",
@@ -6729,6 +7316,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "XKey",
           "package": "helm",
@@ -6742,6 +7330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "YKey",
           "package": "helm",
@@ -6751,6 +7340,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "YKey",
           "package": "helm",
@@ -6764,6 +7354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "ZKey",
           "package": "helm",
@@ -6773,6 +7364,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "ZKey",
           "package": "helm",
@@ -6787,6 +7379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA directional tuple combined from the arrow keys. When none of the arrow keys\n    are being pressed this signal samples to \u003cem\u003e(0, 0)\u003c/em\u003e, otherwise it samples to a\n    direction based on which keys are pressed. For example, pressing the left key\n    results in \u003cem\u003e(-1, 0)\u003c/em\u003e, the down key \u003cem\u003e(0, 1)\u003c/em\u003e, up and right \u003cem\u003e(1, -1)\u003c/em\u003e, etc. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "arrows",
           "package": "helm",
@@ -6797,6 +7390,7 @@
         "index": {
           "description": "directional tuple combined from the arrow keys When none of the arrow keys are being pressed this signal samples to otherwise it samples to direction based on which keys are pressed For example pressing the left key results in the down key up and right etc",
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "arrows",
           "normalized": "SignalGen(Signal(Int,Int))",
@@ -6812,6 +7406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether either control key is pressed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "ctrl",
           "package": "helm",
@@ -6822,6 +7417,7 @@
         "index": {
           "description": "Whether either control key is pressed",
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "ctrl",
           "package": "helm",
@@ -6835,6 +7431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the enter (a.k.a. return) key is pressed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "enter",
           "package": "helm",
@@ -6845,6 +7442,7 @@
         "index": {
           "description": "Whether the enter a.k.a return key is pressed",
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "enter",
           "package": "helm",
@@ -6858,6 +7456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether a key is pressed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "isDown",
           "package": "helm",
@@ -6868,6 +7467,7 @@
         "index": {
           "description": "Whether key is pressed",
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "isDown",
           "normalized": "Key-\u003eSignalGen(Signal Bool)",
@@ -6884,6 +7484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of keys that are currently being pressed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "keysDown",
           "package": "helm",
@@ -6894,6 +7495,7 @@
         "index": {
           "description": "list of keys that are currently being pressed",
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "keysDown",
           "normalized": "SignalGen(Signal[Key])",
@@ -6910,6 +7512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether either shift key is pressed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "shift",
           "package": "helm",
@@ -6920,6 +7523,7 @@
         "index": {
           "description": "Whether either shift key is pressed",
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "shift",
           "package": "helm",
@@ -6933,6 +7537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the space key is pressed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "space",
           "package": "helm",
@@ -6943,6 +7548,7 @@
         "index": {
           "description": "Whether the space key is pressed",
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "space",
           "package": "helm",
@@ -6956,6 +7562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to the \u003ccode\u003e\u003ca\u003earrows\u003c/a\u003e\u003c/code\u003e signal, but uses the popular WASD movement controls instead. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Keyboard",
           "name": "wasd",
           "package": "helm",
@@ -6966,6 +7573,7 @@
         "index": {
           "description": "Similar to the arrows signal but uses the popular WASD movement controls instead",
           "hierarchy": "FRP Helm Keyboard",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Keyboard",
           "name": "wasd",
           "normalized": "SignalGen(Signal(Int,Int))",
@@ -6981,6 +7589,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains signals that sample input from the mouse. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Mouse",
           "name": "Mouse",
           "package": "helm",
@@ -6990,6 +7599,7 @@
         "index": {
           "description": "Contains signals that sample input from the mouse",
           "hierarchy": "FRP Helm Mouse",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Mouse",
           "name": "Mouse",
           "package": "helm",
@@ -7004,6 +7614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing a button on a mouse. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Mouse",
           "name": "Mouse",
           "package": "helm",
@@ -7013,6 +7624,7 @@
         "index": {
           "description": "data structure describing button on mouse",
           "hierarchy": "FRP Helm Mouse",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Mouse",
           "name": "Mouse",
           "package": "helm",
@@ -7026,6 +7638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Mouse",
           "name": "LeftMouse",
           "package": "helm",
@@ -7035,6 +7648,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Mouse",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Mouse",
           "name": "LeftMouse",
           "package": "helm",
@@ -7048,6 +7662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Mouse",
           "name": "MiddleMouse",
           "package": "helm",
@@ -7057,6 +7672,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Mouse",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Mouse",
           "name": "MiddleMouse",
           "package": "helm",
@@ -7070,6 +7686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Mouse",
           "name": "RightMouse",
           "package": "helm",
@@ -7079,6 +7696,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Mouse",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Mouse",
           "name": "RightMouse",
           "package": "helm",
@@ -7093,6 +7711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current state of a certain mouse button.\n    True if the mouse is down, false otherwise. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Mouse",
           "name": "isDown",
           "package": "helm",
@@ -7103,6 +7722,7 @@
         "index": {
           "description": "The current state of certain mouse button True if the mouse is down false otherwise",
           "hierarchy": "FRP Helm Mouse",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Mouse",
           "name": "isDown",
           "normalized": "Mouse-\u003eSignalGen(Signal Bool)",
@@ -7119,6 +7739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current position of the mouse. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Mouse",
           "name": "position",
           "package": "helm",
@@ -7129,6 +7750,7 @@
         "index": {
           "description": "The current position of the mouse",
           "hierarchy": "FRP Helm Mouse",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Mouse",
           "name": "position",
           "normalized": "SignalGen(Signal(Int,Int))",
@@ -7144,6 +7766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current x-coordinate of the mouse. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Mouse",
           "name": "x",
           "package": "helm",
@@ -7154,6 +7777,7 @@
         "index": {
           "description": "The current x-coordinate of the mouse",
           "hierarchy": "FRP Helm Mouse",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Mouse",
           "name": "x",
           "package": "helm",
@@ -7167,6 +7791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current y-coordinate of the mouse. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Mouse",
           "name": "y",
           "package": "helm",
@@ -7177,6 +7802,7 @@
         "index": {
           "description": "The current y-coordinate of the mouse",
           "hierarchy": "FRP Helm Mouse",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Mouse",
           "name": "y",
           "package": "helm",
@@ -7190,6 +7816,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains all the data structures and functions for composing\n    pieces of formatted text. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "Text",
           "package": "helm",
@@ -7199,6 +7826,7 @@
         "index": {
           "description": "Contains all the data structures and functions for composing pieces of formatted text",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "Text",
           "package": "helm",
@@ -7213,6 +7841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a text element from any showable type, defaulting to\n    the monospace typeface. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "asText",
           "package": "helm",
@@ -7223,6 +7852,7 @@
         "index": {
           "description": "Creates text element from any showable type defaulting to the monospace typeface",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "asText",
           "normalized": "a-\u003eElement",
@@ -7239,6 +7869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the weight of a piece of text to bold. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "bold",
           "package": "helm",
@@ -7249,6 +7880,7 @@
         "index": {
           "description": "Sets the weight of piece of text to bold",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "bold",
           "normalized": "Text-\u003eText",
@@ -7264,6 +7896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the color of a piece of text. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "color",
           "package": "helm",
@@ -7274,6 +7907,7 @@
         "index": {
           "description": "Sets the color of piece of text",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "color",
           "normalized": "Color-\u003eText-\u003eText",
@@ -7289,6 +7923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates the default text. By default the text is black sans-serif\n    with a height of 14pt. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "defaultText",
           "package": "helm",
@@ -7299,6 +7934,7 @@
         "index": {
           "description": "Creates the default text By default the text is black sans-serif with height of pt",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "defaultText",
           "package": "helm",
@@ -7313,6 +7949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the size of a text noticeably large. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "header",
           "package": "helm",
@@ -7323,6 +7960,7 @@
         "index": {
           "description": "Sets the size of text noticeably large",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "header",
           "normalized": "Text-\u003eText",
@@ -7338,6 +7976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the size of a piece of text. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "height",
           "package": "helm",
@@ -7348,6 +7987,7 @@
         "index": {
           "description": "Sets the size of piece of text",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "height",
           "normalized": "Double-\u003eText-\u003eText",
@@ -7363,6 +8003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the slant of a piece of text to italic. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "italic",
           "package": "helm",
@@ -7373,6 +8014,7 @@
         "index": {
           "description": "Sets the slant of piece of text to italic",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "italic",
           "normalized": "Text-\u003eText",
@@ -7388,6 +8030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the weight of a piece of text to light. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "light",
           "package": "helm",
@@ -7398,6 +8041,7 @@
         "index": {
           "description": "Sets the weight of piece of text to light",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "light",
           "normalized": "Text-\u003eText",
@@ -7413,6 +8057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the typeface of the text to monospace. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "monospace",
           "package": "helm",
@@ -7423,6 +8068,7 @@
         "index": {
           "description": "Sets the typeface of the text to monospace",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "monospace",
           "normalized": "Text-\u003eText",
@@ -7438,6 +8084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the slant of a piece of text to oblique. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "oblique",
           "package": "helm",
@@ -7448,6 +8095,7 @@
         "index": {
           "description": "Sets the slant of piece of text to oblique",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "oblique",
           "normalized": "Text-\u003eText",
@@ -7463,6 +8111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a text element from a string. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "plainText",
           "package": "helm",
@@ -7473,6 +8122,7 @@
         "index": {
           "description": "Creates text element from string",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "plainText",
           "normalized": "String-\u003eElement",
@@ -7489,6 +8139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an element from a text. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "text",
           "package": "helm",
@@ -7499,6 +8150,7 @@
         "index": {
           "description": "Creates an element from text",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "text",
           "normalized": "Text-\u003eElement",
@@ -7514,6 +8166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a text from a string. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "toText",
           "package": "helm",
@@ -7524,6 +8177,7 @@
         "index": {
           "description": "Creates text from string",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "toText",
           "normalized": "String-\u003eText",
@@ -7540,6 +8194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the typeface of the text. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Text",
           "name": "typeface",
           "package": "helm",
@@ -7550,6 +8205,7 @@
         "index": {
           "description": "Sets the typeface of the text",
           "hierarchy": "FRP Helm Text",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Text",
           "name": "typeface",
           "normalized": "String-\u003eText-\u003eText",
@@ -7565,6 +8221,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains functions for composing units of time and signals that sample from the game clock. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "Time",
           "package": "helm",
@@ -7574,6 +8231,7 @@
         "index": {
           "description": "Contains functions for composing units of time and signals that sample from the game clock",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "Time",
           "package": "helm",
@@ -7588,6 +8246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type describing an amount of time in an arbitary unit. Use the time composing/converting functions to manipulate\n    time values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "Time",
           "package": "helm",
@@ -7597,6 +8256,7 @@
         "index": {
           "description": "type describing an amount of time in an arbitary unit Use the time composing converting functions to manipulate time values",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "Time",
           "package": "helm",
@@ -7611,6 +8271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal that blocks the game thread for a certain amount of time when sampled and then returns the\n    amount of time it blocked for. Please note that delaying by values smaller than 1 millisecond can have\n    platform-specific results. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "delay",
           "package": "helm",
@@ -7621,6 +8282,7 @@
         "index": {
           "description": "signal that blocks the game thread for certain amount of time when sampled and then returns the amount of time it blocked for Please note that delaying by values smaller than millisecond can have platform-specific results",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "delay",
           "normalized": "Time-\u003eSignalGen(Signal Time)",
@@ -7636,6 +8298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal that returns the time since it was last sampled when sampled. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "delta",
           "package": "helm",
@@ -7646,6 +8309,7 @@
         "index": {
           "description": "signal that returns the time since it was last sampled when sampled",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "delta",
           "package": "helm",
@@ -7659,6 +8323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a frames-per-second value into a time value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "fps",
           "package": "helm",
@@ -7669,6 +8334,7 @@
         "index": {
           "description": "Converts frames-per-second value into time value",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "fps",
           "normalized": "Int-\u003eTime",
@@ -7684,6 +8350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA time value representing one hour. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "hour",
           "package": "helm",
@@ -7694,6 +8361,7 @@
         "index": {
           "description": "time value representing one hour",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "hour",
           "package": "helm",
@@ -7707,6 +8375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a time value to a fractional value, in hours. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "inHours",
           "package": "helm",
@@ -7717,6 +8386,7 @@
         "index": {
           "description": "Converts time value to fractional value in hours",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "inHours",
           "normalized": "Time-\u003eDouble",
@@ -7733,6 +8403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a time value to a fractional value, in milliseconds. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "inMilliseconds",
           "package": "helm",
@@ -7743,6 +8414,7 @@
         "index": {
           "description": "Converts time value to fractional value in milliseconds",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "inMilliseconds",
           "normalized": "Time-\u003eDouble",
@@ -7759,6 +8431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a time value to a fractional value, in minutes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "inMinutes",
           "package": "helm",
@@ -7769,6 +8442,7 @@
         "index": {
           "description": "Converts time value to fractional value in minutes",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "inMinutes",
           "normalized": "Time-\u003eDouble",
@@ -7785,6 +8459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a time value to a fractional value, in seconds. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "inSeconds",
           "package": "helm",
@@ -7795,6 +8470,7 @@
         "index": {
           "description": "Converts time value to fractional value in seconds",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "inSeconds",
           "normalized": "Time-\u003eDouble",
@@ -7811,6 +8487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA time value representing one millisecond. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "millisecond",
           "package": "helm",
@@ -7821,6 +8498,7 @@
         "index": {
           "description": "time value representing one millisecond",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "millisecond",
           "package": "helm",
@@ -7834,6 +8512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA time value representing one minute. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "minute",
           "package": "helm",
@@ -7844,6 +8523,7 @@
         "index": {
           "description": "time value representing one minute",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "minute",
           "package": "helm",
@@ -7857,6 +8537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal that returns the time that the game has been running for when sampled. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "running",
           "package": "helm",
@@ -7867,6 +8548,7 @@
         "index": {
           "description": "signal that returns the time that the game has been running for when sampled",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "running",
           "package": "helm",
@@ -7880,6 +8562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA time value representing one second. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Time",
           "name": "second",
           "package": "helm",
@@ -7890,6 +8573,7 @@
         "index": {
           "description": "time value representing one second",
           "hierarchy": "FRP Helm Time",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Time",
           "name": "second",
           "package": "helm",
@@ -7903,6 +8587,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains all data structures for describing transitions, composing and animating them. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "Transition",
           "package": "helm",
@@ -7912,6 +8597,7 @@
         "index": {
           "description": "Contains all data structures for describing transitions composing and animating them",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "Transition",
           "package": "helm",
@@ -7926,6 +8612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines a value that can be interpolated. An example instance of this class follows:\n\u003c/p\u003e\u003cpre\u003e data YourDataType = YourDataConstructor SomeInterpolableType SomeOtherInterpolableType deriving Generic\n\n instance Interpolate YourDataType\n   interpolate 0.5 (YourDataConstructor 3 5) (YourDataConstructor 5 7) == YourDataConstructor 4 6\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "Interpolate",
           "package": "helm",
@@ -7935,6 +8622,7 @@
         "index": {
           "description": "Defines value that can be interpolated An example instance of this class follows data YourDataType YourDataConstructor SomeInterpolableType SomeOtherInterpolableType deriving Generic instance Interpolate YourDataType interpolate YourDataConstructor YourDataConstructor YourDataConstructor",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "Interpolate",
           "package": "helm",
@@ -7949,6 +8637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type describing a combosable transition. The writer keeps record of all the frames in the transition.\n    The state holds the current value of the transition. This allows you to easily compose transitions using do notation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "Transition",
           "package": "helm",
@@ -7958,6 +8647,7 @@
         "index": {
           "description": "type describing combosable transition The writer keeps record of all the frames in the transition The state holds the current value of the transition This allows you to easily compose transitions using do notation",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "Transition",
           "package": "helm",
@@ -7972,6 +8662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variety of statuses that can be used to control a transition. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "TransitionStatus",
           "package": "helm",
@@ -7981,6 +8672,7 @@
         "index": {
           "description": "variety of statuses that can be used to control transition",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "TransitionStatus",
           "package": "helm",
@@ -7995,6 +8687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe transition will repeat forever.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "Cycle",
           "package": "helm",
@@ -8005,6 +8698,7 @@
         "index": {
           "description": "The transition will repeat forever",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "Cycle",
           "package": "helm",
@@ -8019,6 +8713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe transition is cycled once and then stops.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "Once",
           "package": "helm",
@@ -8029,6 +8724,7 @@
         "index": {
           "description": "The transition is cycled once and then stops",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "Once",
           "package": "helm",
@@ -8043,6 +8739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe transition will be paused and won't changed until resumed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "Pause",
           "package": "helm",
@@ -8053,6 +8750,7 @@
         "index": {
           "description": "The transition will be paused and won changed until resumed",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "Pause",
           "package": "helm",
@@ -8067,6 +8765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe transition will reset to a certain point in time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "Set",
           "package": "helm",
@@ -8077,6 +8776,7 @@
         "index": {
           "description": "The transition will reset to certain point in time",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "Set",
           "package": "helm",
@@ -8091,6 +8791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a list of tuples describing a waypoint value and time into a transition.\n    The first element in the list is the starting value and time of the transition.\n\u003c/p\u003e\u003cpre\u003e color = transition (constant $ Time.fps 60) (constant Cycle) $ fromList [(white, 0), (green, 2), (red, 5), (black, 1), (yellow, 2)] \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "fromList",
           "package": "helm",
@@ -8101,6 +8802,7 @@
         "index": {
           "description": "Converts list of tuples describing waypoint value and time into transition The first element in the list is the starting value and time of the transition color transition constant Time.fps constant Cycle fromList white green red black yellow",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "fromList",
           "normalized": "[(a,Time)]-\u003eInternalTransition a",
@@ -8116,6 +8818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "interpolate",
           "package": "helm",
@@ -8125,6 +8828,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "interpolate",
           "normalized": "Double-\u003ea-\u003ea-\u003ea",
@@ -8140,6 +8844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow long it takes for the provided transition to end.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "length",
           "package": "helm",
@@ -8150,6 +8855,7 @@
         "index": {
           "description": "How long it takes for the provided transition to end",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "length",
           "normalized": "InternalTransition a-\u003eDouble",
@@ -8165,6 +8871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a transition with an initial value. \n\u003c/p\u003e\u003cpre\u003e color = transition (constant $ Time.fps 60) (constant Cycle) $ startWith white $ do\n   waypoint green 2\n   waypoint red 5\n   waypoint black 1\n   waypoint yellow 2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "startWith",
           "package": "helm",
@@ -8175,6 +8882,7 @@
         "index": {
           "description": "Starts transition with an initial value color transition constant Time.fps constant Cycle startWith white do waypoint green waypoint red waypoint black waypoint yellow",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "startWith",
           "normalized": "a-\u003eTransition a b-\u003eInternalTransition a",
@@ -8191,6 +8899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns the internal representation of a transition into a signal.\n    The provided time signal acts as the inner clock of the transition.\n    The status signal can be used to control the transition, deciding whether\n    the transition should cycle, go to a specific time, pause, stop or run once. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "transition",
           "package": "helm",
@@ -8201,6 +8910,7 @@
         "index": {
           "description": "Turns the internal representation of transition into signal The provided time signal acts as the inner clock of the transition The status signal can be used to control the transition deciding whether the transition should cycle go to specific time pause stop or run once",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "transition",
           "normalized": "SignalGen(Signal Time)-\u003eSignalGen(Signal TransitionStatus)-\u003eInternalTransition a-\u003eSignalGen(Signal a)",
@@ -8216,6 +8926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a value to the transition monad that will be the next point in the transition. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Transition",
           "name": "waypoint",
           "package": "helm",
@@ -8226,6 +8937,7 @@
         "index": {
           "description": "Adds value to the transition monad that will be the next point in the transition",
           "hierarchy": "FRP Helm Transition",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Transition",
           "name": "waypoint",
           "normalized": "a-\u003eTime-\u003eTransition a a",
@@ -8241,6 +8953,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains miscellaneous utility functions such as functions for working with signals and signal generators. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "Utilities",
           "package": "helm",
@@ -8250,6 +8963,7 @@
         "index": {
           "description": "Contains miscellaneous utility functions such as functions for working with signals and signal generators",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "Utilities",
           "package": "helm",
@@ -8264,6 +8978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForward function application, think of it as a inverted '($)'. Provided for easy porting from Elm. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "(|\u003e)",
           "package": "helm",
@@ -8274,6 +8989,7 @@
         "index": {
           "description": "Forward function application think of it as inverted Provided for easy porting from Elm",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "(|\u003e) |\u003e",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -8289,6 +9005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function within a signal to a signal. This is a wrapper around the builtin \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e operator\n    that automatically binds the input signal out of the signal generator.\n\u003c/p\u003e\u003cpre\u003e render \u003c~ Window.dimensions ~~ Window.position\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "(~~)",
           "package": "helm",
@@ -8299,6 +9016,7 @@
         "index": {
           "description": "Applies function within signal to signal This is wrapper around the builtin operator that automatically binds the input signal out of the signal generator render Window.dimensions Window.position",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "(~~) ~~",
           "normalized": "SignalGen(Signal(a-\u003eb))-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal b)",
@@ -8314,6 +9032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExactly the same as '($)', only there to make code using '(|\u003e)'\n    more consistent. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "(\u003c|)",
           "package": "helm",
@@ -8324,6 +9043,7 @@
         "index": {
           "description": "Exactly the same as only there to make code using more consistent",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "(\u003c|) \u003c|",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -8339,6 +9059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "(\u003c~)",
           "package": "helm",
@@ -8349,6 +9070,7 @@
         "index": {
           "description": "An alias for lift",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "(\u003c~) \u003c~",
           "normalized": "(a-\u003eb)-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal b)",
@@ -8364,6 +9086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines a list of signals into a signal of lists. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "combine",
           "package": "helm",
@@ -8374,6 +9097,7 @@
         "index": {
           "description": "Combines list of signals into signal of lists",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "combine",
           "normalized": "[SignalGen(Signal a)]-\u003eSignalGen(Signal[a])",
@@ -8389,6 +9113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a signal that never changes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "constant",
           "package": "helm",
@@ -8399,6 +9124,7 @@
         "index": {
           "description": "Creates signal that never changes",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "constant",
           "normalized": "a-\u003eSignalGen(Signal a)",
@@ -8414,6 +9140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a signal that counts the amount of times it has been sampled. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "count",
           "package": "helm",
@@ -8424,6 +9151,7 @@
         "index": {
           "description": "Creates signal that counts the amount of times it has been sampled",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "count",
           "package": "helm",
@@ -8437,6 +9165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a signal that counts the amount of times an input signal has passed\n    a predicate when sampled. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "countIf",
           "package": "helm",
@@ -8447,6 +9176,7 @@
         "index": {
           "description": "Creates signal that counts the amount of times an input signal has passed predicate when sampled",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "countIf",
           "normalized": "(a-\u003eBool)-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal Int)",
@@ -8463,6 +9193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts degrees into the standard angle measurement (radians). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "degrees",
           "package": "helm",
@@ -8473,6 +9204,7 @@
         "index": {
           "description": "Converts degrees into the standard angle measurement radians",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "degrees",
           "normalized": "Double-\u003eDouble",
@@ -8488,6 +9220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a past-dependent signal that depends on another signal. This is a\n    wrapper around the \u003ccode\u003e\u003ca\u003etransfer\u003c/a\u003e\u003c/code\u003e function that automatically binds the input\n    signal out of the signal generator. This function is useful for making a render\n    function that depends on some accumulated state. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "foldp",
           "package": "helm",
@@ -8498,6 +9231,7 @@
         "index": {
           "description": "Creates past-dependent signal that depends on another signal This is wrapper around the transfer function that automatically binds the input signal out of the signal generator This function is useful for making render function that depends on some accumulated state",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "foldp",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal b)",
@@ -8513,6 +9247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to a signal producing a new signal. This is a wrapper around the builtin\n    \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e function that automatically binds the input signal out of the signal generator.\n\u003c/p\u003e\u003cpre\u003e render \u003c~ Window.dimensions\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "lift",
           "package": "helm",
@@ -8523,6 +9258,7 @@
         "index": {
           "description": "Applies function to signal producing new signal This is wrapper around the builtin fmap function that automatically binds the input signal out of the signal generator render Window.dimensions",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "lift",
           "normalized": "(a-\u003eb)-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal b)",
@@ -8538,6 +9274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to two signals. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "lift2",
           "package": "helm",
@@ -8548,6 +9285,7 @@
         "index": {
           "description": "Applies function to two signals",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "lift2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal b)-\u003eSignalGen(Signal c)",
@@ -8563,6 +9301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to three signals. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "lift3",
           "package": "helm",
@@ -8573,6 +9312,7 @@
         "index": {
           "description": "Applies function to three signals",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "lift3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal b)-\u003eSignalGen(Signal c)-\u003eSignalGen(Signal d)",
@@ -8588,6 +9328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to four signals. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "lift4",
           "package": "helm",
@@ -8598,6 +9339,7 @@
         "index": {
           "description": "Applies function to four signals",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "lift4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal b)-\u003eSignalGen(Signal c)-\u003eSignalGen(Signal d)-\u003eSignalGen(Signal e)",
@@ -8613,6 +9355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to five signals. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "lift5",
           "package": "helm",
@@ -8623,6 +9366,7 @@
         "index": {
           "description": "Applies function to five signals",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "lift5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal b)-\u003eSignalGen(Signal c)-\u003eSignalGen(Signal d)-\u003eSignalGen(Signal e)-\u003eSignalGen(Signal f)",
@@ -8638,6 +9382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to six signals. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "lift6",
           "package": "helm",
@@ -8648,6 +9393,7 @@
         "index": {
           "description": "Applies function to six signals",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "lift6",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal b)-\u003eSignalGen(Signal c)-\u003eSignalGen(Signal d)-\u003eSignalGen(Signal e)-\u003eSignalGen(Signal f)-\u003eSignalGen(Signal g)",
@@ -8663,6 +9409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to seven signals. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "lift7",
           "package": "helm",
@@ -8673,6 +9420,7 @@
         "index": {
           "description": "Applies function to seven signals",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "lift7",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh)-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal b)-\u003eSignalGen(Signal c)-\u003eSignalGen(Signal d)-\u003eSignalGen(Signal e)-\u003eSignalGen(Signal f)-\u003eSignalGen(Signal g)-\u003eSignalGen(Signal h)",
@@ -8688,6 +9436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to eight signals. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "lift8",
           "package": "helm",
@@ -8698,6 +9447,7 @@
         "index": {
           "description": "Applies function to eight signals",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "lift8",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh-\u003ei)-\u003eSignalGen(Signal a)-\u003eSignalGen(Signal b)-\u003eSignalGen(Signal c)-\u003eSignalGen(Signal d)-\u003eSignalGen(Signal e)-\u003eSignalGen(Signal f)-\u003eSignalGen(Signal g)-\u003eSignalGen(Signal h)-\u003eSignalGen(Signal i)",
@@ -8713,6 +9463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts radians into the standard angle measurement (radians). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "radians",
           "package": "helm",
@@ -8723,6 +9474,7 @@
         "index": {
           "description": "Converts radians into the standard angle measurement radians",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "radians",
           "normalized": "Double-\u003eDouble",
@@ -8738,6 +9490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a signal of a random number. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "random",
           "package": "helm",
@@ -8748,6 +9501,7 @@
         "index": {
           "description": "Creates signal of random number",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "random",
           "package": "helm",
@@ -8761,6 +9515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a signal of a random number based on the given range. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "randomR",
           "package": "helm",
@@ -8771,6 +9526,7 @@
         "index": {
           "description": "Creates signal of random number based on the given range",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "randomR",
           "normalized": "(a,a)-\u003eSignalGen(Signal a)",
@@ -8786,6 +9542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts turns into the standard angle measurement (radians).\n    Turns are essentially full revolutions of the unit circle. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Utilities",
           "name": "turns",
           "package": "helm",
@@ -8796,6 +9553,7 @@
         "index": {
           "description": "Converts turns into the standard angle measurement radians Turns are essentially full revolutions of the unit circle",
           "hierarchy": "FRP Helm Utilities",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Utilities",
           "name": "turns",
           "normalized": "Double-\u003eDouble",
@@ -8811,6 +9569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains signals that sample input from the game window. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Window",
           "name": "Window",
           "package": "helm",
@@ -8820,6 +9579,7 @@
         "index": {
           "description": "Contains signals that sample input from the game window",
           "hierarchy": "FRP Helm Window",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Window",
           "name": "Window",
           "package": "helm",
@@ -8834,6 +9594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current dimensions of the window. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Window",
           "name": "dimensions",
           "package": "helm",
@@ -8844,6 +9605,7 @@
         "index": {
           "description": "The current dimensions of the window",
           "hierarchy": "FRP Helm Window",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Window",
           "name": "dimensions",
           "normalized": "SignalGen(Signal(Int,Int))",
@@ -8859,6 +9621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current height of the window. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Window",
           "name": "height",
           "package": "helm",
@@ -8869,6 +9632,7 @@
         "index": {
           "description": "The current height of the window",
           "hierarchy": "FRP Helm Window",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Window",
           "name": "height",
           "package": "helm",
@@ -8882,6 +9646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current width of the window. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm.Window",
           "name": "width",
           "package": "helm",
@@ -8892,6 +9657,7 @@
         "index": {
           "description": "The current width of the window",
           "hierarchy": "FRP Helm Window",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm.Window",
           "name": "width",
           "package": "helm",
@@ -8905,6 +9671,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains miscellaneous utility functions and the main\n    functions for interfacing with the engine. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm",
           "name": "Helm",
           "package": "helm",
@@ -8914,6 +9681,7 @@
         "index": {
           "description": "Contains miscellaneous utility functions and the main functions for interfacing with the engine",
           "hierarchy": "FRP Helm",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm",
           "name": "Helm",
           "package": "helm",
@@ -8928,6 +9696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure describing miscellaneous initial configurations of the game window and engine. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm",
           "name": "EngineConfig",
           "package": "helm",
@@ -8937,6 +9706,7 @@
         "index": {
           "description": "data structure describing miscellaneous initial configurations of the game window and engine",
           "hierarchy": "FRP Helm",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm",
           "name": "EngineConfig",
           "package": "helm",
@@ -8951,6 +9721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type describing an amount of time in an arbitary unit. Use the time composing/converting functions to manipulate\n    time values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm",
           "name": "Time",
           "package": "helm",
@@ -8960,6 +9731,7 @@
         "index": {
           "description": "type describing an amount of time in an arbitary unit Use the time composing converting functions to manipulate time values",
           "hierarchy": "FRP Helm",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm",
           "name": "Time",
           "package": "helm",
@@ -8973,6 +9745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm",
           "name": "EngineConfig",
           "package": "helm",
@@ -8982,6 +9755,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm",
           "name": "EngineConfig",
           "package": "helm",
@@ -8996,6 +9770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates the default configuration for the engine. You should change the fields where necessary before passing it to \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm",
           "name": "defaultConfig",
           "package": "helm",
@@ -9006,6 +9781,7 @@
         "index": {
           "description": "Creates the default configuration for the engine You should change the fields where necessary before passing it to run",
           "hierarchy": "FRP Helm",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm",
           "name": "defaultConfig",
           "package": "helm",
@@ -9020,6 +9796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializes and runs the game engine. The supplied signal generator is\n    constantly sampled for an element to render until the user quits.\n\u003c/p\u003e\u003cpre\u003e import FRP.Helm\n import qualified FRP.Helm.Window as Window\n\n render :: (Int, Int) -\u003e Element\n render (w, h) = collage w h [rect (fromIntegral w) (fromIntegral h) |\u003e filled red]\n\n main :: IO ()\n main = run defaultConfig $ lift render Window.dimensions\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm",
           "name": "run",
           "package": "helm",
@@ -9030,6 +9807,7 @@
         "index": {
           "description": "Initializes and runs the game engine The supplied signal generator is constantly sampled for an element to render until the user quits import FRP.Helm import qualified FRP.Helm.Window as Window render Int Int Element render collage rect fromIntegral fromIntegral filled red main IO main run defaultConfig lift render Window.dimensions",
           "hierarchy": "FRP Helm",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm",
           "name": "run",
           "normalized": "EngineConfig-\u003eSignalGen(Signal Element)-\u003eIO()",
@@ -9044,6 +9822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm",
           "name": "windowDimensions",
           "package": "helm",
@@ -9053,6 +9832,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm",
           "name": "windowDimensions",
           "normalized": "(Int,Int)",
@@ -9068,6 +9848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm",
           "name": "windowIsFullscreen",
           "package": "helm",
@@ -9077,6 +9858,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm",
           "name": "windowIsFullscreen",
           "package": "helm",
@@ -9090,6 +9872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm",
           "name": "windowIsResizable",
           "package": "helm",
@@ -9099,6 +9882,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm",
           "name": "windowIsResizable",
           "package": "helm",
@@ -9112,6 +9896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:43 UTC 2014",
           "module": "FRP.Helm",
           "name": "windowTitle",
           "package": "helm",
@@ -9121,6 +9906,7 @@
         },
         "index": {
           "hierarchy": "FRP Helm",
+          "indexed": "2014-03-11T18:36:43",
           "module": "FRP.Helm",
           "name": "windowTitle",
           "package": "helm",

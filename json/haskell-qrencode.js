@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-qrencode"
+        "phrase": "haskell-qrencode",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell bindings for libqrencode. \u003ca\u003ehttp://fukuchi.org/works/qrencode/index.en.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eLibqrencode is a C library for encoding data in a QR Code symbol, a kind of 2D symbology\n   that can be scanned by handy terminals such as a mobile phone with CCD. The capacity of\n   QR Code is up to 7000 digits or 4000 characters, and is highly robust.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "QRCode",
           "package": "haskell-qrencode",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Haskell bindings for libqrencode http fukuchi.org works qrencode index.en.html Libqrencode is library for encoding data in QR Code symbol kind of symbology that can be scanned by handy terminals such as mobile phone with CCD The capacity of QR Code is up to digits or characters and is highly robust",
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "QRCode",
           "package": "haskell-qrencode",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "QREncodeLevel",
           "package": "haskell-qrencode",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "QREncodeLevel",
           "package": "haskell-qrencode",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "QREncodeMode",
           "package": "haskell-qrencode",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "QREncodeMode",
           "package": "haskell-qrencode",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "QR_ECLEVEL_H",
           "package": "haskell-qrencode",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "QR_ECLEVEL_H",
           "package": "haskell-qrencode",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "QR_ECLEVEL_L",
           "package": "haskell-qrencode",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "QR_ECLEVEL_L",
           "package": "haskell-qrencode",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "QR_ECLEVEL_M",
           "package": "haskell-qrencode",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "QR_ECLEVEL_M",
           "package": "haskell-qrencode",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "QR_ECLEVEL_Q",
           "package": "haskell-qrencode",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "QR_ECLEVEL_Q",
           "package": "haskell-qrencode",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlphabet-numeric mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "QR_MODE_AN",
           "package": "haskell-qrencode",
@@ -182,6 +197,7 @@
         "index": {
           "description": "Alphabet-numeric mode",
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "QR_MODE_AN",
           "package": "haskell-qrencode",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit data mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "QR_MODE_EIGHT",
           "package": "haskell-qrencode",
@@ -206,6 +223,7 @@
         "index": {
           "description": "bit data mode",
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "QR_MODE_EIGHT",
           "package": "haskell-qrencode",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKanji (shift-jis) mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "QR_MODE_KANJI",
           "package": "haskell-qrencode",
@@ -230,6 +249,7 @@
         "index": {
           "description": "Kanji shift-jis mode",
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "QR_MODE_KANJI",
           "package": "haskell-qrencode",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumeric mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "QR_MODE_NUM",
           "package": "haskell-qrencode",
@@ -254,6 +275,7 @@
         "index": {
           "description": "Numeric mode",
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "QR_MODE_NUM",
           "package": "haskell-qrencode",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a QR code from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "encodeByteString",
           "package": "haskell-qrencode",
@@ -277,6 +300,7 @@
         "index": {
           "description": "create QR code from ByteString",
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "encodeByteString",
           "normalized": "ByteString-\u003eMaybe Int-\u003eQREncodeLevel-\u003eQREncodeMode-\u003eBool-\u003eIO QRcode",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a QR code from a String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "encodeString",
           "package": "haskell-qrencode",
@@ -302,6 +327,7 @@
         "index": {
           "description": "create QR code from String",
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "encodeString",
           "normalized": "String-\u003eMaybe Int-\u003eQREncodeLevel-\u003eQREncodeMode-\u003eBool-\u003eIO QRcode",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "getQRCodeString",
           "package": "haskell-qrencode",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "getQRCodeString",
           "normalized": "QRcode-\u003eByteString",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "getQRCodeVersion",
           "package": "haskell-qrencode",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "getQRCodeVersion",
           "normalized": "QRcode-\u003eInt",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "getQRCodeWidth",
           "package": "haskell-qrencode",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "getQRCodeWidth",
           "normalized": "QRcode-\u003eInt",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a QRcode to a matrix of ones and zeros (1 = On, 0 = Off)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:16 UTC 2014",
           "module": "Data.QRCode",
           "name": "toMatrix",
           "package": "haskell-qrencode",
@@ -400,6 +433,7 @@
         "index": {
           "description": "Convert QRcode to matrix of ones and zeros On Off",
           "hierarchy": "Data QRCode",
+          "indexed": "2014-03-11T18:31:16",
           "module": "Data.QRCode",
           "name": "toMatrix",
           "normalized": "QRcode-\u003e[[Word]]",

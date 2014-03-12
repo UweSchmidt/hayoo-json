@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "iCalendar"
+        "phrase": "iCalendar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Parser",
           "name": "Parser",
           "package": "iCalendar",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Parser",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Parser",
           "name": "Parser",
           "package": "iCalendar",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions for decoding \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es into \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Parser",
           "name": "DecodingFunctions",
           "package": "iCalendar",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Functions for decoding ByteString into Text",
           "hierarchy": "Text ICalendar Parser",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Parser",
           "name": "DecodingFunctions",
           "package": "iCalendar",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Parser",
           "name": "DecodingFunctions",
           "package": "iCalendar",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Parser",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Parser",
           "name": "DecodingFunctions",
           "package": "iCalendar",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Parser",
           "name": "dfBS2IText",
           "package": "iCalendar",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Parser",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Parser",
           "name": "dfBS2IText",
           "normalized": "ByteString-\u003eCI Text",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Parser",
           "name": "dfBS2Text",
           "package": "iCalendar",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Parser",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Parser",
           "name": "dfBS2Text",
           "normalized": "ByteString-\u003eText",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use parseICalendar instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated synonym for parseICalendar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Parser",
           "name": "parseICal",
           "package": "iCalendar",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Deprecated Use parseICalendar instead Deprecated synonym for parseICalendar",
           "hierarchy": "Text ICalendar Parser",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Parser",
           "name": "parseICal",
           "normalized": "DecodingFunctions-\u003eFilePath-\u003eByteString-\u003eEither String([VCalendar],[String])",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use parseICalendarFile instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated synonym for parseICalendarFile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Parser",
           "name": "parseICalFile",
           "package": "iCalendar",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Deprecated Use parseICalendarFile instead Deprecated synonym for parseICalendarFile",
           "hierarchy": "Text ICalendar Parser",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Parser",
           "name": "parseICalFile",
           "normalized": "DecodingFunctions-\u003eFilePath-\u003eIO(Either String([VCalendar],[String]))",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a ByteString containing iCalendar data.\n\u003c/p\u003e\u003cp\u003eReturns either an error, or a tuple of the result and a list of warnings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Parser",
           "name": "parseICalendar",
           "package": "iCalendar",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Parse ByteString containing iCalendar data Returns either an error or tuple of the result and list of warnings",
           "hierarchy": "Text ICalendar Parser",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Parser",
           "name": "parseICalendar",
           "normalized": "DecodingFunctions-\u003eFilePath-\u003eByteString-\u003eEither String([VCalendar],[String])",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an iCalendar file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Parser",
           "name": "parseICalendarFile",
           "package": "iCalendar",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Parse an iCalendar file",
           "hierarchy": "Text ICalendar Parser",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Parser",
           "name": "parseICalendarFile",
           "normalized": "DecodingFunctions-\u003eFilePath-\u003eIO(Either String([VCalendar],[String]))",
@@ -235,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Printer",
           "name": "Printer",
           "package": "iCalendar",
@@ -243,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Printer",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Printer",
           "name": "Printer",
           "package": "iCalendar",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions for encoding into bytestring builders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Printer",
           "name": "EncodingFunctions",
           "package": "iCalendar",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Functions for encoding into bytestring builders",
           "hierarchy": "Text ICalendar Printer",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Printer",
           "name": "EncodingFunctions",
           "package": "iCalendar",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Printer",
           "name": "EncodingFunctions",
           "package": "iCalendar",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Printer",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Printer",
           "name": "EncodingFunctions",
           "package": "iCalendar",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Printer",
           "name": "efChar2Bu",
           "package": "iCalendar",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Printer",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Printer",
           "name": "efChar2Bu",
           "normalized": "Char-\u003eBuilder",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many octets the character is encoded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Printer",
           "name": "efChar2Len",
           "package": "iCalendar",
@@ -336,6 +363,7 @@
         "index": {
           "description": "How many octets the character is encoded",
           "hierarchy": "Text ICalendar Printer",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Printer",
           "name": "efChar2Len",
           "normalized": "Char-\u003eInt",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use printICalendar instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated synonym for printICalendar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Printer",
           "name": "printICal",
           "package": "iCalendar",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Deprecated Use printICalendar instead Deprecated synonym for printICalendar",
           "hierarchy": "Text ICalendar Printer",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Printer",
           "name": "printICal",
           "normalized": "EncodingFunctions-\u003eVCalendar-\u003eByteString",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a VCalendar object to a ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Printer",
           "name": "printICalendar",
           "package": "iCalendar",
@@ -388,6 +419,7 @@
         "index": {
           "description": "Print VCalendar object to ByteString",
           "hierarchy": "Text ICalendar Printer",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Printer",
           "name": "printICalendar",
           "normalized": "EncodingFunctions-\u003eVCalendar-\u003eByteString",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eICalendar types, based on RFC5545.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Types",
           "package": "iCalendar",
@@ -413,6 +446,7 @@
         "index": {
           "description": "ICalendar types based on RFC5545",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Types",
           "package": "iCalendar",
@@ -427,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlarm Trigger Relationship. 3.2.14.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "AlarmTriggerRelationship",
           "package": "iCalendar",
@@ -436,6 +471,7 @@
         "index": {
           "description": "Alarm Trigger Relationship",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "AlarmTriggerRelationship",
           "package": "iCalendar",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttachment. 3.8.1.1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Attachment",
           "package": "iCalendar",
@@ -459,6 +496,7 @@
         "index": {
           "description": "Attachment",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Attachment",
           "package": "iCalendar",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttendee. 3.8.4.1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Attendee",
           "package": "iCalendar",
@@ -482,6 +521,7 @@
         "index": {
           "description": "Attendee",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Attendee",
           "package": "iCalendar",
@@ -496,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalendar User Type. 3.2.3.\n\u003c/p\u003e\u003cp\u003eUnrecognized CUTypeX MUST be treated as Unknown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "CUType",
           "package": "iCalendar",
@@ -505,6 +546,7 @@
         "index": {
           "description": "Calendar User Type Unrecognized CUTypeX MUST be treated as Unknown",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "CUType",
           "package": "iCalendar",
@@ -518,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "CalAddress",
           "package": "iCalendar",
@@ -526,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "CalAddress",
           "package": "iCalendar",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCategories. 3.8.1.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Categories",
           "package": "iCalendar",
@@ -549,6 +594,7 @@
         "index": {
           "description": "Categories",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Categories",
           "package": "iCalendar",
@@ -563,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassification. 3.8.1.3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Class",
           "package": "iCalendar",
@@ -572,6 +619,7 @@
         "index": {
           "description": "Classification",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Class",
           "package": "iCalendar",
@@ -586,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassification value. 3.8.1.3.\n Unrecognized ClassValueX MUST be treated as Private.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ClassValue",
           "package": "iCalendar",
@@ -595,6 +644,7 @@
         "index": {
           "description": "Classification value Unrecognized ClassValueX MUST be treated as Private",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ClassValue",
           "package": "iCalendar",
@@ -609,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComment. 3.8.1.4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Comment",
           "package": "iCalendar",
@@ -618,6 +669,7 @@
         "index": {
           "description": "Comment",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Comment",
           "package": "iCalendar",
@@ -632,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate-Time Completed. 3.8.2.1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Completed",
           "package": "iCalendar",
@@ -641,6 +694,7 @@
         "index": {
           "description": "Date-Time Completed",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Completed",
           "package": "iCalendar",
@@ -655,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContact. 3.8.4.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Contact",
           "package": "iCalendar",
@@ -664,6 +719,7 @@
         "index": {
           "description": "Contact",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Contact",
           "package": "iCalendar",
@@ -678,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate-Time Created. 3.8.7.1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Created",
           "package": "iCalendar",
@@ -687,6 +744,7 @@
         "index": {
           "description": "Date-Time Created",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Created",
           "package": "iCalendar",
@@ -701,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate-Time End. 3.8.2.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DTEnd",
           "package": "iCalendar",
@@ -710,6 +769,7 @@
         "index": {
           "description": "Date-Time End",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DTEnd",
           "package": "iCalendar",
@@ -724,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate-Time Stamp. 3.8.7.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DTStamp",
           "package": "iCalendar",
@@ -733,6 +794,7 @@
         "index": {
           "description": "Date-Time Stamp",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DTStamp",
           "package": "iCalendar",
@@ -747,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate-Time Start. 3.8.2.4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DTStart",
           "package": "iCalendar",
@@ -756,6 +819,7 @@
         "index": {
           "description": "Date-Time Start",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DTStart",
           "package": "iCalendar",
@@ -770,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate. 3.3.4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Date",
           "package": "iCalendar",
@@ -779,6 +844,7 @@
         "index": {
           "description": "Date",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Date",
           "package": "iCalendar",
@@ -793,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate-Time value. 3.3.5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DateTime",
           "package": "iCalendar",
@@ -802,6 +869,7 @@
         "index": {
           "description": "Date-Time value",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DateTime",
           "package": "iCalendar",
@@ -816,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription. 3.8.1.5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Description",
           "package": "iCalendar",
@@ -825,6 +894,7 @@
         "index": {
           "description": "Description",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Description",
           "package": "iCalendar",
@@ -839,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate-Time Due. 3.8.2.3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Due",
           "package": "iCalendar",
@@ -848,6 +919,7 @@
         "index": {
           "description": "Date-Time Due",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Due",
           "package": "iCalendar",
@@ -862,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuration value. 3.3.6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Duration",
           "package": "iCalendar",
@@ -871,6 +944,7 @@
         "index": {
           "description": "Duration value",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Duration",
           "package": "iCalendar",
@@ -885,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuration property. 3.8.2.5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DurationProp",
           "package": "iCalendar",
@@ -894,6 +969,7 @@
         "index": {
           "description": "Duration property",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DurationProp",
           "package": "iCalendar",
@@ -908,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus, but only for Events. 3.8.1.11.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "EventStatus",
           "package": "iCalendar",
@@ -917,6 +994,7 @@
         "index": {
           "description": "Status but only for Events",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "EventStatus",
           "package": "iCalendar",
@@ -931,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException Date-Times. 3.8.5.1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ExDate",
           "package": "iCalendar",
@@ -940,6 +1019,7 @@
         "index": {
           "description": "Exception Date-Times",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ExDate",
           "package": "iCalendar",
@@ -954,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree/Busy Time Type. 3.2.9.\n\u003c/p\u003e\u003cp\u003eUnrecognized FBTypeX MUST be treated as Busy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "FBType",
           "package": "iCalendar",
@@ -963,6 +1044,7 @@
         "index": {
           "description": "Free Busy Time Type Unrecognized FBTypeX MUST be treated as Busy",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "FBType",
           "package": "iCalendar",
@@ -976,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "FreeBusy",
           "package": "iCalendar",
@@ -984,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "FreeBusy",
           "package": "iCalendar",
@@ -998,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrequency in recurrences. 3.3.10.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Frequency",
           "package": "iCalendar",
@@ -1007,6 +1092,7 @@
         "index": {
           "description": "Frequency in recurrences",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Frequency",
           "package": "iCalendar",
@@ -1021,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeographic Position. 3.8.1.6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Geo",
           "package": "iCalendar",
@@ -1030,6 +1117,7 @@
         "index": {
           "description": "Geographic Position",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Geo",
           "package": "iCalendar",
@@ -1044,6 +1132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion. 3.7.4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ICalVersion",
           "package": "iCalendar",
@@ -1053,6 +1142,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ICalVersion",
           "package": "iCalendar",
@@ -1067,6 +1157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus, but only for Journals. 3.8.1.11.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "JournalStatus",
           "package": "iCalendar",
@@ -1076,6 +1167,7 @@
         "index": {
           "description": "Status but only for Journals",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "JournalStatus",
           "package": "iCalendar",
@@ -1090,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Language",
           "package": "iCalendar",
@@ -1099,6 +1192,7 @@
         "index": {
           "description": "Language",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Language",
           "package": "iCalendar",
@@ -1113,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLast Modified. 3.8.7.3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "LastModified",
           "package": "iCalendar",
@@ -1122,6 +1217,7 @@
         "index": {
           "description": "Last Modified",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "LastModified",
           "package": "iCalendar",
@@ -1136,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation. 3.8.1.7.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Location",
           "package": "iCalendar",
@@ -1145,6 +1242,7 @@
         "index": {
           "description": "Location",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Location",
           "package": "iCalendar",
@@ -1159,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethod. 3.7.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Method",
           "package": "iCalendar",
@@ -1168,6 +1267,7 @@
         "index": {
           "description": "Method",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Method",
           "package": "iCalendar",
@@ -1182,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrganizer. 3.8.4.3.\n\u003c/p\u003e\u003cp\u003eTODO: CAL-ADDRESS-related properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Organizer",
           "package": "iCalendar",
@@ -1191,6 +1292,7 @@
         "index": {
           "description": "Organizer TODO CAL-ADDRESS-related properties",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Organizer",
           "package": "iCalendar",
@@ -1205,6 +1307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne other parameter, either x-param or iana-param.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "OtherParam",
           "package": "iCalendar",
@@ -1214,6 +1317,7 @@
         "index": {
           "description": "One other parameter either x-param or iana-param",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "OtherParam",
           "package": "iCalendar",
@@ -1228,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther parameters, either x-param or other iana-param.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "OtherParams",
           "package": "iCalendar",
@@ -1237,6 +1342,7 @@
         "index": {
           "description": "Other parameters either x-param or other iana-param",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "OtherParams",
           "package": "iCalendar",
@@ -1251,6 +1357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny other property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "OtherProperty",
           "package": "iCalendar",
@@ -1260,6 +1367,7 @@
         "index": {
           "description": "Any other property",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "OtherProperty",
           "package": "iCalendar",
@@ -1274,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParticipation Status. 3.2.12.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "PartStat",
           "package": "iCalendar",
@@ -1283,6 +1392,7 @@
         "index": {
           "description": "Participation Status",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "PartStat",
           "package": "iCalendar",
@@ -1297,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePercent complete. 3.8.1.8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "PercentComplete",
           "package": "iCalendar",
@@ -1306,6 +1417,7 @@
         "index": {
           "description": "Percent complete",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "PercentComplete",
           "package": "iCalendar",
@@ -1320,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeriod of time. 3.3.9.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Period",
           "package": "iCalendar",
@@ -1329,6 +1442,7 @@
         "index": {
           "description": "Period of time",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Period",
           "package": "iCalendar",
@@ -1343,6 +1457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePriority. 3.8.1.9.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Priority",
           "package": "iCalendar",
@@ -1352,6 +1467,7 @@
         "index": {
           "description": "Priority",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Priority",
           "package": "iCalendar",
@@ -1366,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduct Identifier. 3.7.3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ProdId",
           "package": "iCalendar",
@@ -1375,6 +1492,7 @@
         "index": {
           "description": "Product Identifier",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ProdId",
           "package": "iCalendar",
@@ -1389,6 +1507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecurrence Date-Times. 3.8.5.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RDate",
           "package": "iCalendar",
@@ -1398,6 +1517,7 @@
         "index": {
           "description": "Recurrence Date-Times",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RDate",
           "package": "iCalendar",
@@ -1412,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecurrence Rule. 3.8.5.3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RRule",
           "package": "iCalendar",
@@ -1421,6 +1542,7 @@
         "index": {
           "description": "Recurrence Rule",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RRule",
           "package": "iCalendar",
@@ -1435,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecurrence Identifier Range. 3.2.13\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Range",
           "package": "iCalendar",
@@ -1444,6 +1567,7 @@
         "index": {
           "description": "Recurrence Identifier Range",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Range",
           "package": "iCalendar",
@@ -1458,6 +1582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecur value. 3.3.10.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Recur",
           "package": "iCalendar",
@@ -1467,6 +1592,7 @@
         "index": {
           "description": "Recur value",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Recur",
           "package": "iCalendar",
@@ -1481,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecurrence ID. 3.8.4.4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RecurrenceId",
           "package": "iCalendar",
@@ -1490,6 +1617,7 @@
         "index": {
           "description": "Recurrence ID",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RecurrenceId",
           "package": "iCalendar",
@@ -1504,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelated To. 3.8.4.5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RelatedTo",
           "package": "iCalendar",
@@ -1513,6 +1642,7 @@
         "index": {
           "description": "Related To",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RelatedTo",
           "package": "iCalendar",
@@ -1527,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelationship Type. 3.2.15.\n\u003c/p\u003e\u003cp\u003eUnrecognized RelationshipTypeX values MUST be treated as Parent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RelationshipType",
           "package": "iCalendar",
@@ -1536,6 +1667,7 @@
         "index": {
           "description": "Relationship Type Unrecognized RelationshipTypeX values MUST be treated as Parent",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RelationshipType",
           "package": "iCalendar",
@@ -1550,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat count. 3.8.6.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Repeat",
           "package": "iCalendar",
@@ -1559,6 +1692,7 @@
         "index": {
           "description": "Repeat count",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Repeat",
           "package": "iCalendar",
@@ -1573,6 +1707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest Status. 3.8.8.3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RequestStatus",
           "package": "iCalendar",
@@ -1582,6 +1717,7 @@
         "index": {
           "description": "Request Status",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RequestStatus",
           "package": "iCalendar",
@@ -1596,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResources. 3.8.1.10.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Resources",
           "package": "iCalendar",
@@ -1605,6 +1742,7 @@
         "index": {
           "description": "Resources",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Resources",
           "package": "iCalendar",
@@ -1619,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRole. 3.2.16.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Role",
           "package": "iCalendar",
@@ -1628,6 +1767,7 @@
         "index": {
           "description": "Role",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Role",
           "package": "iCalendar",
@@ -1642,6 +1782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalendar Scale. 3.7.1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Scale",
           "package": "iCalendar",
@@ -1651,6 +1792,7 @@
         "index": {
           "description": "Calendar Scale",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Scale",
           "package": "iCalendar",
@@ -1665,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence number. 3.8.7.4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Sequence",
           "package": "iCalendar",
@@ -1674,6 +1817,7 @@
         "index": {
           "description": "Sequence number",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Sequence",
           "package": "iCalendar",
@@ -1688,6 +1832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Sign",
           "package": "iCalendar",
@@ -1697,6 +1842,7 @@
         "index": {
           "description": "Sign",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Sign",
           "package": "iCalendar",
@@ -1711,6 +1857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummary. 3.8.1.12.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Summary",
           "package": "iCalendar",
@@ -1720,6 +1867,7 @@
         "index": {
           "description": "Summary",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Summary",
           "package": "iCalendar",
@@ -1734,6 +1882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime Zone Identifier. 3.8.3.1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TZID",
           "package": "iCalendar",
@@ -1743,6 +1892,7 @@
         "index": {
           "description": "Time Zone Identifier",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TZID",
           "package": "iCalendar",
@@ -1757,6 +1907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime Zone Name. 3.8.3.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TZName",
           "package": "iCalendar",
@@ -1766,6 +1917,7 @@
         "index": {
           "description": "Time Zone Name",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TZName",
           "package": "iCalendar",
@@ -1780,6 +1932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime zone property, also 3.6.5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TZProp",
           "package": "iCalendar",
@@ -1789,6 +1942,7 @@
         "index": {
           "description": "Time zone property also",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TZProp",
           "package": "iCalendar",
@@ -1803,6 +1957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime Zone URL. 3.8.3.5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TZUrl",
           "package": "iCalendar",
@@ -1812,6 +1967,7 @@
         "index": {
           "description": "Time Zone URL",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TZUrl",
           "package": "iCalendar",
@@ -1826,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime Transparency. 3.8.2.7.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TimeTransparency",
           "package": "iCalendar",
@@ -1835,6 +1992,7 @@
         "index": {
           "description": "Time Transparency",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TimeTransparency",
           "package": "iCalendar",
@@ -1849,6 +2007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus, but only for TODOs. 3.8.1.11.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TodoStatus",
           "package": "iCalendar",
@@ -1858,6 +2017,7 @@
         "index": {
           "description": "Status but only for TODOs",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TodoStatus",
           "package": "iCalendar",
@@ -1872,6 +2032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrigger. 3.8.6.3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Trigger",
           "package": "iCalendar",
@@ -1881,6 +2042,7 @@
         "index": {
           "description": "Trigger",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Trigger",
           "package": "iCalendar",
@@ -1895,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique Identifier. 3.8.4.7.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "UID",
           "package": "iCalendar",
@@ -1904,6 +2067,7 @@
         "index": {
           "description": "Unique Identifier",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "UID",
           "package": "iCalendar",
@@ -1918,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform Resource Locator. 3.8.4.6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "URL",
           "package": "iCalendar",
@@ -1927,6 +2092,7 @@
         "index": {
           "description": "Uniform Resource Locator",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "URL",
           "package": "iCalendar",
@@ -1941,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTC Offset. 3.3.14, 3.8.3.4, and 3.8.3.3. (unified-ish)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "UTCOffset",
           "package": "iCalendar",
@@ -1950,6 +2117,7 @@
         "index": {
           "description": "UTC Offset and unified-ish",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "UTCOffset",
           "package": "iCalendar",
@@ -1964,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeriod of time which must be UTC, as in FreeBusy. 3.3.9.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "UTCPeriod",
           "package": "iCalendar",
@@ -1973,6 +2142,7 @@
         "index": {
           "description": "Period of time which must be UTC as in FreeBusy",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "UTCPeriod",
           "package": "iCalendar",
@@ -1987,6 +2157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVAlarm component. 3.6.6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VAlarm",
           "package": "iCalendar",
@@ -1996,6 +2167,7 @@
         "index": {
           "description": "VAlarm component",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VAlarm",
           "package": "iCalendar",
@@ -2010,6 +2182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVCalendar component. 3.4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VCalendar",
           "package": "iCalendar",
@@ -2019,6 +2192,7 @@
         "index": {
           "description": "VCalendar component",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VCalendar",
           "package": "iCalendar",
@@ -2033,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent Component. 3.6.1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VEvent",
           "package": "iCalendar",
@@ -2042,6 +2217,7 @@
         "index": {
           "description": "Event Component",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VEvent",
           "package": "iCalendar",
@@ -2056,6 +2232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree/Busy Component. 3.6.4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VFreeBusy",
           "package": "iCalendar",
@@ -2065,6 +2242,7 @@
         "index": {
           "description": "Free Busy Component",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VFreeBusy",
           "package": "iCalendar",
@@ -2079,6 +2257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJournal Component. 3.6.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VJournal",
           "package": "iCalendar",
@@ -2088,6 +2267,7 @@
         "index": {
           "description": "Journal Component",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VJournal",
           "package": "iCalendar",
@@ -2102,6 +2282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny other component not recognized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VOther",
           "package": "iCalendar",
@@ -2111,6 +2292,7 @@
         "index": {
           "description": "Any other component not recognized",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VOther",
           "package": "iCalendar",
@@ -2125,6 +2307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime Zone Component. 3.6.5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VTimeZone",
           "package": "iCalendar",
@@ -2134,6 +2317,7 @@
         "index": {
           "description": "Time Zone Component",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VTimeZone",
           "package": "iCalendar",
@@ -2148,6 +2332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo-Do Component. 3.6.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VTodo",
           "package": "iCalendar",
@@ -2157,6 +2342,7 @@
         "index": {
           "description": "To-Do Component",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VTodo",
           "package": "iCalendar",
@@ -2171,6 +2357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeekday, in recurrences. 3.3.10.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Weekday",
           "package": "iCalendar",
@@ -2180,6 +2367,7 @@
         "index": {
           "description": "Weekday in recurrences",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Weekday",
           "package": "iCalendar",
@@ -2193,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Accepted",
           "package": "iCalendar",
@@ -2202,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Accepted",
           "package": "iCalendar",
@@ -2215,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Attendee",
           "package": "iCalendar",
@@ -2224,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Attendee",
           "package": "iCalendar",
@@ -2237,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "BinaryAttachment",
           "package": "iCalendar",
@@ -2246,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "BinaryAttachment",
           "package": "iCalendar",
@@ -2259,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Busy",
           "package": "iCalendar",
@@ -2268,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Busy",
           "package": "iCalendar",
@@ -2281,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "BusyTentative",
           "package": "iCalendar",
@@ -2290,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "BusyTentative",
           "package": "iCalendar",
@@ -2303,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "BusyUnavailable",
           "package": "iCalendar",
@@ -2312,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "BusyUnavailable",
           "package": "iCalendar",
@@ -2325,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "CUTypeX",
           "package": "iCalendar",
@@ -2334,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "CUTypeX",
           "package": "iCalendar",
@@ -2347,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "CancelledEvent",
           "package": "iCalendar",
@@ -2356,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "CancelledEvent",
           "package": "iCalendar",
@@ -2369,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "CancelledJournal",
           "package": "iCalendar",
@@ -2378,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "CancelledJournal",
           "package": "iCalendar",
@@ -2391,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "CancelledTodo",
           "package": "iCalendar",
@@ -2400,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "CancelledTodo",
           "package": "iCalendar",
@@ -2413,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Categories",
           "package": "iCalendar",
@@ -2422,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Categories",
           "package": "iCalendar",
@@ -2435,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Chair",
           "package": "iCalendar",
@@ -2444,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Chair",
           "package": "iCalendar",
@@ -2457,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Child",
           "package": "iCalendar",
@@ -2466,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Child",
           "package": "iCalendar",
@@ -2479,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Class",
           "package": "iCalendar",
@@ -2488,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Class",
           "package": "iCalendar",
@@ -2501,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ClassValueX",
           "package": "iCalendar",
@@ -2510,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ClassValueX",
           "package": "iCalendar",
@@ -2523,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Comment",
           "package": "iCalendar",
@@ -2532,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Comment",
           "package": "iCalendar",
@@ -2545,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Completed",
           "package": "iCalendar",
@@ -2554,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Completed",
           "package": "iCalendar",
@@ -2567,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "CompletedTodo",
           "package": "iCalendar",
@@ -2576,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "CompletedTodo",
           "package": "iCalendar",
@@ -2589,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Confidential",
           "package": "iCalendar",
@@ -2598,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Confidential",
           "package": "iCalendar",
@@ -2611,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ConfirmedEvent",
           "package": "iCalendar",
@@ -2620,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ConfirmedEvent",
           "package": "iCalendar",
@@ -2633,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Contact",
           "package": "iCalendar",
@@ -2642,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Contact",
           "package": "iCalendar",
@@ -2655,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Created",
           "package": "iCalendar",
@@ -2664,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Created",
           "package": "iCalendar",
@@ -2677,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DTEndDate",
           "package": "iCalendar",
@@ -2686,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DTEndDate",
           "package": "iCalendar",
@@ -2699,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DTEndDateTime",
           "package": "iCalendar",
@@ -2708,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DTEndDateTime",
           "package": "iCalendar",
@@ -2721,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DTStamp",
           "package": "iCalendar",
@@ -2730,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DTStamp",
           "package": "iCalendar",
@@ -2743,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DTStartDate",
           "package": "iCalendar",
@@ -2752,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DTStartDate",
           "package": "iCalendar",
@@ -2765,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DTStartDateTime",
           "package": "iCalendar",
@@ -2774,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DTStartDateTime",
           "package": "iCalendar",
@@ -2787,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Daily",
           "package": "iCalendar",
@@ -2796,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Daily",
           "package": "iCalendar",
@@ -2809,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Date",
           "package": "iCalendar",
@@ -2818,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Date",
           "package": "iCalendar",
@@ -2831,6 +3077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Declined",
           "package": "iCalendar",
@@ -2840,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Declined",
           "package": "iCalendar",
@@ -2853,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Delegated",
           "package": "iCalendar",
@@ -2862,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Delegated",
           "package": "iCalendar",
@@ -2875,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Description",
           "package": "iCalendar",
@@ -2884,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Description",
           "package": "iCalendar",
@@ -2897,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DraftJournal",
           "package": "iCalendar",
@@ -2906,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DraftJournal",
           "package": "iCalendar",
@@ -2919,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DueDate",
           "package": "iCalendar",
@@ -2928,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DueDate",
           "package": "iCalendar",
@@ -2941,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DueDateTime",
           "package": "iCalendar",
@@ -2950,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DueDateTime",
           "package": "iCalendar",
@@ -2963,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DurationDate",
           "package": "iCalendar",
@@ -2972,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DurationDate",
           "package": "iCalendar",
@@ -2985,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DurationProp",
           "package": "iCalendar",
@@ -2994,6 +3255,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DurationProp",
           "package": "iCalendar",
@@ -3007,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DurationTime",
           "package": "iCalendar",
@@ -3016,6 +3279,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DurationTime",
           "package": "iCalendar",
@@ -3029,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "DurationWeek",
           "package": "iCalendar",
@@ -3038,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "DurationWeek",
           "package": "iCalendar",
@@ -3051,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "End",
           "package": "iCalendar",
@@ -3060,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "End",
           "package": "iCalendar",
@@ -3073,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ExDateTimes",
           "package": "iCalendar",
@@ -3082,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ExDateTimes",
           "package": "iCalendar",
@@ -3095,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ExDates",
           "package": "iCalendar",
@@ -3104,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ExDates",
           "package": "iCalendar",
@@ -3117,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "FBTypeX",
           "package": "iCalendar",
@@ -3126,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "FBTypeX",
           "package": "iCalendar",
@@ -3139,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "FinalJournal",
           "package": "iCalendar",
@@ -3148,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "FinalJournal",
           "package": "iCalendar",
@@ -3161,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "FloatingDateTime",
           "package": "iCalendar",
@@ -3170,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "FloatingDateTime",
           "package": "iCalendar",
@@ -3183,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Free",
           "package": "iCalendar",
@@ -3192,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Free",
           "package": "iCalendar",
@@ -3205,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "FreeBusy",
           "package": "iCalendar",
@@ -3214,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "FreeBusy",
           "package": "iCalendar",
@@ -3227,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Friday",
           "package": "iCalendar",
@@ -3236,6 +3519,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Friday",
           "package": "iCalendar",
@@ -3249,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Geo",
           "package": "iCalendar",
@@ -3258,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Geo",
           "package": "iCalendar",
@@ -3271,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Group",
           "package": "iCalendar",
@@ -3280,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Group",
           "package": "iCalendar",
@@ -3293,6 +3581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Hourly",
           "package": "iCalendar",
@@ -3302,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Hourly",
           "package": "iCalendar",
@@ -3315,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "InProcess",
           "package": "iCalendar",
@@ -3324,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "InProcess",
           "package": "iCalendar",
@@ -3337,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "InProcessTodo",
           "package": "iCalendar",
@@ -3346,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "InProcessTodo",
           "package": "iCalendar",
@@ -3359,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Individual",
           "package": "iCalendar",
@@ -3368,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Individual",
           "package": "iCalendar",
@@ -3381,6 +3677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Language",
           "package": "iCalendar",
@@ -3390,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Language",
           "package": "iCalendar",
@@ -3403,6 +3701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "LastModified",
           "package": "iCalendar",
@@ -3412,6 +3711,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "LastModified",
           "package": "iCalendar",
@@ -3425,6 +3725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Location",
           "package": "iCalendar",
@@ -3434,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Location",
           "package": "iCalendar",
@@ -3447,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "MaxICalVersion",
           "package": "iCalendar",
@@ -3456,6 +3759,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "MaxICalVersion",
           "package": "iCalendar",
@@ -3469,6 +3773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Method",
           "package": "iCalendar",
@@ -3478,6 +3783,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Method",
           "package": "iCalendar",
@@ -3491,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "MinMaxICalVersion",
           "package": "iCalendar",
@@ -3500,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "MinMaxICalVersion",
           "package": "iCalendar",
@@ -3513,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Minutely",
           "package": "iCalendar",
@@ -3522,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Minutely",
           "package": "iCalendar",
@@ -3535,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Monday",
           "package": "iCalendar",
@@ -3544,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Monday",
           "package": "iCalendar",
@@ -3557,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Monthly",
           "package": "iCalendar",
@@ -3566,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Monthly",
           "package": "iCalendar",
@@ -3579,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Negative",
           "package": "iCalendar",
@@ -3588,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Negative",
           "package": "iCalendar",
@@ -3601,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "NonParticipant",
           "package": "iCalendar",
@@ -3610,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "NonParticipant",
           "package": "iCalendar",
@@ -3623,6 +3941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Opaque",
           "package": "iCalendar",
@@ -3632,6 +3951,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Opaque",
           "package": "iCalendar",
@@ -3645,6 +3965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "OptParticipant",
           "package": "iCalendar",
@@ -3654,6 +3975,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "OptParticipant",
           "package": "iCalendar",
@@ -3667,6 +3989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Organizer",
           "package": "iCalendar",
@@ -3676,6 +3999,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Organizer",
           "package": "iCalendar",
@@ -3689,6 +4013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "OtherParam",
           "package": "iCalendar",
@@ -3698,6 +4023,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "OtherParam",
           "normalized": "OtherParam(CI Text)[Text]",
@@ -3713,6 +4039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "OtherParams",
           "package": "iCalendar",
@@ -3722,6 +4049,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "OtherParams",
           "package": "iCalendar",
@@ -3735,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "OtherProperty",
           "package": "iCalendar",
@@ -3744,6 +4073,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "OtherProperty",
           "package": "iCalendar",
@@ -3757,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Parent",
           "package": "iCalendar",
@@ -3766,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Parent",
           "package": "iCalendar",
@@ -3779,6 +4111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "PartStatCompleted",
           "package": "iCalendar",
@@ -3788,6 +4121,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "PartStatCompleted",
           "package": "iCalendar",
@@ -3801,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "PartStatNeedsAction",
           "package": "iCalendar",
@@ -3810,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "PartStatNeedsAction",
           "package": "iCalendar",
@@ -3823,6 +4159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "PartStatX",
           "package": "iCalendar",
@@ -3832,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "PartStatX",
           "package": "iCalendar",
@@ -3845,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "PercentComplete",
           "package": "iCalendar",
@@ -3854,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "PercentComplete",
           "package": "iCalendar",
@@ -3867,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "PeriodDates",
           "package": "iCalendar",
@@ -3876,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "PeriodDates",
           "package": "iCalendar",
@@ -3889,6 +4231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "PeriodDuration",
           "package": "iCalendar",
@@ -3898,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "PeriodDuration",
           "package": "iCalendar",
@@ -3911,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Positive",
           "package": "iCalendar",
@@ -3920,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Positive",
           "package": "iCalendar",
@@ -3933,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Priority",
           "package": "iCalendar",
@@ -3942,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Priority",
           "package": "iCalendar",
@@ -3955,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Private",
           "package": "iCalendar",
@@ -3964,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Private",
           "package": "iCalendar",
@@ -3977,6 +4327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ProdId",
           "package": "iCalendar",
@@ -3986,6 +4337,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ProdId",
           "package": "iCalendar",
@@ -3999,6 +4351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Public",
           "package": "iCalendar",
@@ -4008,6 +4361,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Public",
           "package": "iCalendar",
@@ -4021,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RDateDateTimes",
           "package": "iCalendar",
@@ -4030,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RDateDateTimes",
           "package": "iCalendar",
@@ -4043,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RDateDates",
           "package": "iCalendar",
@@ -4052,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RDateDates",
           "package": "iCalendar",
@@ -4065,6 +4423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RDatePeriods",
           "package": "iCalendar",
@@ -4074,6 +4433,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RDatePeriods",
           "package": "iCalendar",
@@ -4087,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RRule",
           "package": "iCalendar",
@@ -4096,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RRule",
           "package": "iCalendar",
@@ -4109,6 +4471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Recur",
           "package": "iCalendar",
@@ -4118,6 +4481,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Recur",
           "package": "iCalendar",
@@ -4131,6 +4495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RecurrenceIdDate",
           "package": "iCalendar",
@@ -4140,6 +4505,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RecurrenceIdDate",
           "package": "iCalendar",
@@ -4153,6 +4519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RecurrenceIdDateTime",
           "package": "iCalendar",
@@ -4162,6 +4529,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RecurrenceIdDateTime",
           "package": "iCalendar",
@@ -4175,6 +4543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RelatedTo",
           "package": "iCalendar",
@@ -4184,6 +4553,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RelatedTo",
           "package": "iCalendar",
@@ -4197,6 +4567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RelationshipTypeX",
           "package": "iCalendar",
@@ -4206,6 +4577,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RelationshipTypeX",
           "package": "iCalendar",
@@ -4219,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Repeat",
           "package": "iCalendar",
@@ -4228,6 +4601,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Repeat",
           "package": "iCalendar",
@@ -4241,6 +4615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ReqParticipant",
           "package": "iCalendar",
@@ -4250,6 +4625,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ReqParticipant",
           "package": "iCalendar",
@@ -4263,6 +4639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RequestStatus",
           "package": "iCalendar",
@@ -4272,6 +4649,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RequestStatus",
           "package": "iCalendar",
@@ -4285,6 +4663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Resource",
           "package": "iCalendar",
@@ -4294,6 +4673,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Resource",
           "package": "iCalendar",
@@ -4307,6 +4687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Resources",
           "package": "iCalendar",
@@ -4316,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Resources",
           "package": "iCalendar",
@@ -4329,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "RoleX",
           "package": "iCalendar",
@@ -4338,6 +4721,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "RoleX",
           "package": "iCalendar",
@@ -4351,6 +4735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Room",
           "package": "iCalendar",
@@ -4360,6 +4745,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Room",
           "package": "iCalendar",
@@ -4373,6 +4759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Saturday",
           "package": "iCalendar",
@@ -4382,6 +4769,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Saturday",
           "package": "iCalendar",
@@ -4395,6 +4783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Scale",
           "package": "iCalendar",
@@ -4404,6 +4793,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Scale",
           "package": "iCalendar",
@@ -4417,6 +4807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Secondly",
           "package": "iCalendar",
@@ -4426,6 +4817,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Secondly",
           "package": "iCalendar",
@@ -4439,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Sequence",
           "package": "iCalendar",
@@ -4448,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Sequence",
           "package": "iCalendar",
@@ -4461,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Sibling",
           "package": "iCalendar",
@@ -4470,6 +4865,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Sibling",
           "package": "iCalendar",
@@ -4483,6 +4879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Start",
           "package": "iCalendar",
@@ -4492,6 +4889,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Start",
           "package": "iCalendar",
@@ -4505,6 +4903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Summary",
           "package": "iCalendar",
@@ -4514,6 +4913,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Summary",
           "package": "iCalendar",
@@ -4527,6 +4927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Sunday",
           "package": "iCalendar",
@@ -4536,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Sunday",
           "package": "iCalendar",
@@ -4549,6 +4951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TZID",
           "package": "iCalendar",
@@ -4558,6 +4961,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TZID",
           "package": "iCalendar",
@@ -4571,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TZName",
           "package": "iCalendar",
@@ -4580,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TZName",
           "package": "iCalendar",
@@ -4593,6 +4999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TZProp",
           "package": "iCalendar",
@@ -4602,6 +5009,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TZProp",
           "package": "iCalendar",
@@ -4615,6 +5023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TZUrl",
           "package": "iCalendar",
@@ -4624,6 +5033,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TZUrl",
           "package": "iCalendar",
@@ -4637,6 +5047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Tentative",
           "package": "iCalendar",
@@ -4646,6 +5057,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Tentative",
           "package": "iCalendar",
@@ -4659,6 +5071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TentativeEvent",
           "package": "iCalendar",
@@ -4668,6 +5081,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TentativeEvent",
           "package": "iCalendar",
@@ -4681,6 +5095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ThisAndFuture",
           "package": "iCalendar",
@@ -4690,6 +5105,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ThisAndFuture",
           "package": "iCalendar",
@@ -4703,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ThisAndPrior",
           "package": "iCalendar",
@@ -4712,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ThisAndPrior",
           "package": "iCalendar",
@@ -4725,6 +5143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Thursday",
           "package": "iCalendar",
@@ -4734,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Thursday",
           "package": "iCalendar",
@@ -4747,6 +5167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TodoNeedsAction",
           "package": "iCalendar",
@@ -4756,6 +5177,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TodoNeedsAction",
           "package": "iCalendar",
@@ -4769,6 +5191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Transparent",
           "package": "iCalendar",
@@ -4778,6 +5201,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Transparent",
           "package": "iCalendar",
@@ -4791,6 +5215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TriggerDateTime",
           "package": "iCalendar",
@@ -4800,6 +5225,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TriggerDateTime",
           "package": "iCalendar",
@@ -4813,6 +5239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "TriggerDuration",
           "package": "iCalendar",
@@ -4822,6 +5249,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "TriggerDuration",
           "package": "iCalendar",
@@ -4835,6 +5263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Tuesday",
           "package": "iCalendar",
@@ -4844,6 +5273,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Tuesday",
           "package": "iCalendar",
@@ -4857,6 +5287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "UID",
           "package": "iCalendar",
@@ -4866,6 +5297,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "UID",
           "package": "iCalendar",
@@ -4879,6 +5311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "URL",
           "package": "iCalendar",
@@ -4888,6 +5321,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "URL",
           "package": "iCalendar",
@@ -4901,6 +5335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "UTCDateTime",
           "package": "iCalendar",
@@ -4910,6 +5345,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "UTCDateTime",
           "package": "iCalendar",
@@ -4923,6 +5359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "UTCOffset",
           "package": "iCalendar",
@@ -4932,6 +5369,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "UTCOffset",
           "package": "iCalendar",
@@ -4945,6 +5383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "UTCPeriodDates",
           "package": "iCalendar",
@@ -4954,6 +5393,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "UTCPeriodDates",
           "package": "iCalendar",
@@ -4967,6 +5407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "UTCPeriodDuration",
           "package": "iCalendar",
@@ -4976,6 +5417,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "UTCPeriodDuration",
           "package": "iCalendar",
@@ -4989,6 +5431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Unknown",
           "package": "iCalendar",
@@ -4998,6 +5441,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Unknown",
           "package": "iCalendar",
@@ -5011,6 +5455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "UriAttachment",
           "package": "iCalendar",
@@ -5020,6 +5465,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "UriAttachment",
           "package": "iCalendar",
@@ -5033,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VAlarmAudio",
           "package": "iCalendar",
@@ -5042,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VAlarmAudio",
           "package": "iCalendar",
@@ -5055,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VAlarmDisplay",
           "package": "iCalendar",
@@ -5064,6 +5513,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VAlarmDisplay",
           "package": "iCalendar",
@@ -5077,6 +5527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VAlarmEmail",
           "package": "iCalendar",
@@ -5086,6 +5537,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VAlarmEmail",
           "package": "iCalendar",
@@ -5099,6 +5551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VAlarmX",
           "package": "iCalendar",
@@ -5108,6 +5561,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VAlarmX",
           "package": "iCalendar",
@@ -5121,6 +5575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VCalendar",
           "package": "iCalendar",
@@ -5130,6 +5585,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VCalendar",
           "package": "iCalendar",
@@ -5143,6 +5599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VEvent",
           "package": "iCalendar",
@@ -5152,6 +5609,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VEvent",
           "package": "iCalendar",
@@ -5165,6 +5623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VFreeBusy",
           "package": "iCalendar",
@@ -5174,6 +5633,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VFreeBusy",
           "package": "iCalendar",
@@ -5187,6 +5647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VJournal",
           "package": "iCalendar",
@@ -5196,6 +5657,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VJournal",
           "package": "iCalendar",
@@ -5209,6 +5671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VOther",
           "package": "iCalendar",
@@ -5218,6 +5681,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VOther",
           "package": "iCalendar",
@@ -5231,6 +5695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VTimeZone",
           "package": "iCalendar",
@@ -5240,6 +5705,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VTimeZone",
           "package": "iCalendar",
@@ -5253,6 +5719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "VTodo",
           "package": "iCalendar",
@@ -5262,6 +5729,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "VTodo",
           "package": "iCalendar",
@@ -5275,6 +5743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Wednesday",
           "package": "iCalendar",
@@ -5284,6 +5753,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Wednesday",
           "package": "iCalendar",
@@ -5297,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Weekly",
           "package": "iCalendar",
@@ -5306,6 +5777,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Weekly",
           "package": "iCalendar",
@@ -5319,6 +5791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "Yearly",
           "package": "iCalendar",
@@ -5328,6 +5801,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "Yearly",
           "package": "iCalendar",
@@ -5341,6 +5815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "ZonedDateTime",
           "package": "iCalendar",
@@ -5350,6 +5825,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "ZonedDateTime",
           "package": "iCalendar",
@@ -5363,6 +5839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attachContent",
           "package": "iCalendar",
@@ -5372,6 +5849,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attachContent",
           "package": "iCalendar",
@@ -5385,6 +5863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attachFmtType",
           "package": "iCalendar",
@@ -5394,6 +5873,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attachFmtType",
           "package": "iCalendar",
@@ -5407,6 +5887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attachOther",
           "package": "iCalendar",
@@ -5416,6 +5897,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attachOther",
           "package": "iCalendar",
@@ -5429,6 +5911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attachUri",
           "package": "iCalendar",
@@ -5438,6 +5921,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attachUri",
           "package": "iCalendar",
@@ -5451,6 +5935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeeCN",
           "package": "iCalendar",
@@ -5460,6 +5945,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeeCN",
           "package": "iCalendar",
@@ -5474,6 +5960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eIndividual\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeeCUType",
           "package": "iCalendar",
@@ -5484,6 +5971,7 @@
         "index": {
           "description": "def Individual",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeeCUType",
           "package": "iCalendar",
@@ -5497,6 +5985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeeDelFrom",
           "package": "iCalendar",
@@ -5506,6 +5995,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeeDelFrom",
           "package": "iCalendar",
@@ -5519,6 +6009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeeDelTo",
           "package": "iCalendar",
@@ -5528,6 +6019,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeeDelTo",
           "package": "iCalendar",
@@ -5541,6 +6033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeeDir",
           "package": "iCalendar",
@@ -5550,6 +6043,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeeDir",
           "package": "iCalendar",
@@ -5563,6 +6057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeeLanguage",
           "package": "iCalendar",
@@ -5572,6 +6067,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeeLanguage",
           "package": "iCalendar",
@@ -5585,6 +6081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeeMember",
           "package": "iCalendar",
@@ -5594,6 +6091,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeeMember",
           "package": "iCalendar",
@@ -5607,6 +6105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeeOther",
           "package": "iCalendar",
@@ -5616,6 +6115,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeeOther",
           "package": "iCalendar",
@@ -5630,6 +6130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ePartStatNeedsAction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeePartStat",
           "package": "iCalendar",
@@ -5640,6 +6141,7 @@
         "index": {
           "description": "def PartStatNeedsAction",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeePartStat",
           "package": "iCalendar",
@@ -5653,6 +6155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeeRSVP",
           "package": "iCalendar",
@@ -5662,6 +6165,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeeRSVP",
           "package": "iCalendar",
@@ -5676,6 +6180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eReqParticipant\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeeRole",
           "package": "iCalendar",
@@ -5686,6 +6191,7 @@
         "index": {
           "description": "def ReqParticipant",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeeRole",
           "package": "iCalendar",
@@ -5699,6 +6205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeeSentBy",
           "package": "iCalendar",
@@ -5708,6 +6215,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeeSentBy",
           "package": "iCalendar",
@@ -5721,6 +6229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "attendeeValue",
           "package": "iCalendar",
@@ -5730,6 +6239,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "attendeeValue",
           "package": "iCalendar",
@@ -5743,6 +6253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "categoriesLanguage",
           "package": "iCalendar",
@@ -5752,6 +6263,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "categoriesLanguage",
           "package": "iCalendar",
@@ -5765,6 +6277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "categoriesOther",
           "package": "iCalendar",
@@ -5774,6 +6287,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "categoriesOther",
           "package": "iCalendar",
@@ -5787,6 +6301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "categoriesValues",
           "package": "iCalendar",
@@ -5796,6 +6311,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "categoriesValues",
           "package": "iCalendar",
@@ -5809,6 +6325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "classOther",
           "package": "iCalendar",
@@ -5818,6 +6335,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "classOther",
           "package": "iCalendar",
@@ -5831,6 +6349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "classValue",
           "package": "iCalendar",
@@ -5840,6 +6359,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "classValue",
           "package": "iCalendar",
@@ -5853,6 +6373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "commentAltRep",
           "package": "iCalendar",
@@ -5862,6 +6383,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "commentAltRep",
           "package": "iCalendar",
@@ -5875,6 +6397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "commentLanguage",
           "package": "iCalendar",
@@ -5884,6 +6407,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "commentLanguage",
           "package": "iCalendar",
@@ -5897,6 +6421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "commentOther",
           "package": "iCalendar",
@@ -5906,6 +6431,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "commentOther",
           "package": "iCalendar",
@@ -5919,6 +6445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "commentValue",
           "package": "iCalendar",
@@ -5928,6 +6455,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "commentValue",
           "package": "iCalendar",
@@ -5941,6 +6469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "completedOther",
           "package": "iCalendar",
@@ -5950,6 +6479,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "completedOther",
           "package": "iCalendar",
@@ -5963,6 +6493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "completedValue",
           "package": "iCalendar",
@@ -5972,6 +6503,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "completedValue",
           "package": "iCalendar",
@@ -5985,6 +6517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "contactAltRep",
           "package": "iCalendar",
@@ -5994,6 +6527,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "contactAltRep",
           "package": "iCalendar",
@@ -6007,6 +6541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "contactLanguage",
           "package": "iCalendar",
@@ -6016,6 +6551,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "contactLanguage",
           "package": "iCalendar",
@@ -6029,6 +6565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "contactOther",
           "package": "iCalendar",
@@ -6038,6 +6575,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "contactOther",
           "package": "iCalendar",
@@ -6051,6 +6589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "contactValue",
           "package": "iCalendar",
@@ -6060,6 +6599,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "contactValue",
           "package": "iCalendar",
@@ -6073,6 +6613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "createdOther",
           "package": "iCalendar",
@@ -6082,6 +6623,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "createdOther",
           "package": "iCalendar",
@@ -6095,6 +6637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "createdValue",
           "package": "iCalendar",
@@ -6104,6 +6647,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "createdValue",
           "package": "iCalendar",
@@ -6117,6 +6661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dateTimeFloating",
           "package": "iCalendar",
@@ -6126,6 +6671,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dateTimeFloating",
           "package": "iCalendar",
@@ -6139,6 +6685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dateTimeUTC",
           "package": "iCalendar",
@@ -6148,6 +6695,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dateTimeUTC",
           "package": "iCalendar",
@@ -6161,6 +6709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dateTimeZone",
           "package": "iCalendar",
@@ -6170,6 +6719,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dateTimeZone",
           "package": "iCalendar",
@@ -6183,6 +6733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dateValue",
           "package": "iCalendar",
@@ -6192,6 +6743,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dateValue",
           "package": "iCalendar",
@@ -6205,6 +6757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "descriptionAltRep",
           "package": "iCalendar",
@@ -6214,6 +6767,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "descriptionAltRep",
           "package": "iCalendar",
@@ -6227,6 +6781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "descriptionLanguage",
           "package": "iCalendar",
@@ -6236,6 +6791,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "descriptionLanguage",
           "package": "iCalendar",
@@ -6249,6 +6805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "descriptionOther",
           "package": "iCalendar",
@@ -6258,6 +6815,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "descriptionOther",
           "package": "iCalendar",
@@ -6271,6 +6829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "descriptionValue",
           "package": "iCalendar",
@@ -6280,6 +6839,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "descriptionValue",
           "package": "iCalendar",
@@ -6293,6 +6853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dtEndDateTimeValue",
           "package": "iCalendar",
@@ -6302,6 +6863,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dtEndDateTimeValue",
           "package": "iCalendar",
@@ -6315,6 +6877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dtEndDateValue",
           "package": "iCalendar",
@@ -6324,6 +6887,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dtEndDateValue",
           "package": "iCalendar",
@@ -6337,6 +6901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dtEndOther",
           "package": "iCalendar",
@@ -6346,6 +6911,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dtEndOther",
           "package": "iCalendar",
@@ -6359,6 +6925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dtStampOther",
           "package": "iCalendar",
@@ -6368,6 +6935,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dtStampOther",
           "package": "iCalendar",
@@ -6381,6 +6949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dtStampValue",
           "package": "iCalendar",
@@ -6390,6 +6959,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dtStampValue",
           "package": "iCalendar",
@@ -6403,6 +6973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dtStartDateTimeValue",
           "package": "iCalendar",
@@ -6412,6 +6983,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dtStartDateTimeValue",
           "package": "iCalendar",
@@ -6425,6 +6997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dtStartDateValue",
           "package": "iCalendar",
@@ -6434,6 +7007,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dtStartDateValue",
           "package": "iCalendar",
@@ -6447,6 +7021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dtStartOther",
           "package": "iCalendar",
@@ -6456,6 +7031,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dtStartOther",
           "package": "iCalendar",
@@ -6469,6 +7045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dueDateTimeValue",
           "package": "iCalendar",
@@ -6478,6 +7055,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dueDateTimeValue",
           "package": "iCalendar",
@@ -6491,6 +7069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dueDateValue",
           "package": "iCalendar",
@@ -6500,6 +7079,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dueDateValue",
           "package": "iCalendar",
@@ -6513,6 +7093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "dueOther",
           "package": "iCalendar",
@@ -6522,6 +7103,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "dueOther",
           "package": "iCalendar",
@@ -6535,6 +7117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "durDay",
           "package": "iCalendar",
@@ -6544,6 +7127,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "durDay",
           "package": "iCalendar",
@@ -6557,6 +7141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "durHour",
           "package": "iCalendar",
@@ -6566,6 +7151,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "durHour",
           "package": "iCalendar",
@@ -6579,6 +7165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "durMinute",
           "package": "iCalendar",
@@ -6588,6 +7175,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "durMinute",
           "package": "iCalendar",
@@ -6601,6 +7189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "durSecond",
           "package": "iCalendar",
@@ -6610,6 +7199,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "durSecond",
           "package": "iCalendar",
@@ -6624,6 +7214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ePositive\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "durSign",
           "package": "iCalendar",
@@ -6634,6 +7225,7 @@
         "index": {
           "description": "def Positive",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "durSign",
           "package": "iCalendar",
@@ -6647,6 +7239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "durWeek",
           "package": "iCalendar",
@@ -6656,6 +7249,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "durWeek",
           "package": "iCalendar",
@@ -6669,6 +7263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "durationOther",
           "package": "iCalendar",
@@ -6678,6 +7273,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "durationOther",
           "package": "iCalendar",
@@ -6691,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "durationValue",
           "package": "iCalendar",
@@ -6700,6 +7297,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "durationValue",
           "package": "iCalendar",
@@ -6713,6 +7311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "eventStatusOther",
           "package": "iCalendar",
@@ -6722,6 +7321,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "eventStatusOther",
           "package": "iCalendar",
@@ -6735,6 +7335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "exDateOther",
           "package": "iCalendar",
@@ -6744,6 +7345,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "exDateOther",
           "package": "iCalendar",
@@ -6757,6 +7359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "exDateTimes",
           "package": "iCalendar",
@@ -6766,6 +7369,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "exDateTimes",
           "package": "iCalendar",
@@ -6779,6 +7383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "exDates",
           "package": "iCalendar",
@@ -6788,6 +7393,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "exDates",
           "package": "iCalendar",
@@ -6801,6 +7407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "freeBusyOther",
           "package": "iCalendar",
@@ -6810,6 +7417,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "freeBusyOther",
           "package": "iCalendar",
@@ -6823,6 +7431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "freeBusyPeriods",
           "package": "iCalendar",
@@ -6832,6 +7441,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "freeBusyPeriods",
           "package": "iCalendar",
@@ -6845,6 +7455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "freeBusyType",
           "package": "iCalendar",
@@ -6854,6 +7465,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "freeBusyType",
           "package": "iCalendar",
@@ -6867,6 +7479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "geoLat",
           "package": "iCalendar",
@@ -6876,6 +7489,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "geoLat",
           "package": "iCalendar",
@@ -6889,6 +7503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "geoLong",
           "package": "iCalendar",
@@ -6898,6 +7513,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "geoLong",
           "package": "iCalendar",
@@ -6911,6 +7527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "geoOther",
           "package": "iCalendar",
@@ -6920,6 +7537,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "geoOther",
           "package": "iCalendar",
@@ -6933,6 +7551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "journalStatusOther",
           "package": "iCalendar",
@@ -6942,6 +7561,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "journalStatusOther",
           "package": "iCalendar",
@@ -6955,6 +7575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "lastModifiedOther",
           "package": "iCalendar",
@@ -6964,6 +7585,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "lastModifiedOther",
           "package": "iCalendar",
@@ -6977,6 +7599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "lastModifiedValue",
           "package": "iCalendar",
@@ -6986,6 +7609,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "lastModifiedValue",
           "package": "iCalendar",
@@ -6999,6 +7623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "locationAltRep",
           "package": "iCalendar",
@@ -7008,6 +7633,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "locationAltRep",
           "package": "iCalendar",
@@ -7021,6 +7647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "locationLanguage",
           "package": "iCalendar",
@@ -7030,6 +7657,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "locationLanguage",
           "package": "iCalendar",
@@ -7043,6 +7671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "locationOther",
           "package": "iCalendar",
@@ -7052,6 +7681,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "locationOther",
           "package": "iCalendar",
@@ -7065,6 +7695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "locationValue",
           "package": "iCalendar",
@@ -7074,6 +7705,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "locationValue",
           "package": "iCalendar",
@@ -7087,6 +7719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "methodOther",
           "package": "iCalendar",
@@ -7096,6 +7729,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "methodOther",
           "package": "iCalendar",
@@ -7109,6 +7743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "methodValue",
           "package": "iCalendar",
@@ -7118,6 +7753,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "methodValue",
           "package": "iCalendar",
@@ -7131,6 +7767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "organizerCN",
           "package": "iCalendar",
@@ -7140,6 +7777,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "organizerCN",
           "package": "iCalendar",
@@ -7153,6 +7791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "organizerDir",
           "package": "iCalendar",
@@ -7162,6 +7801,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "organizerDir",
           "package": "iCalendar",
@@ -7175,6 +7815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "organizerLanguage",
           "package": "iCalendar",
@@ -7184,6 +7825,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "organizerLanguage",
           "package": "iCalendar",
@@ -7197,6 +7839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "organizerOther",
           "package": "iCalendar",
@@ -7206,6 +7849,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "organizerOther",
           "package": "iCalendar",
@@ -7219,6 +7863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "organizerSentBy",
           "package": "iCalendar",
@@ -7228,6 +7873,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "organizerSentBy",
           "package": "iCalendar",
@@ -7241,6 +7887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "organizerValue",
           "package": "iCalendar",
@@ -7250,6 +7897,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "organizerValue",
           "package": "iCalendar",
@@ -7263,6 +7911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "otherName",
           "package": "iCalendar",
@@ -7272,6 +7921,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "otherName",
           "package": "iCalendar",
@@ -7285,6 +7935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "otherParams",
           "package": "iCalendar",
@@ -7294,6 +7945,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "otherParams",
           "package": "iCalendar",
@@ -7307,6 +7959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "otherValue",
           "package": "iCalendar",
@@ -7316,6 +7969,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "otherValue",
           "package": "iCalendar",
@@ -7329,6 +7983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "percentCompleteOther",
           "package": "iCalendar",
@@ -7338,6 +7993,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "percentCompleteOther",
           "package": "iCalendar",
@@ -7351,6 +8007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "percentCompleteValue",
           "package": "iCalendar",
@@ -7360,6 +8017,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "percentCompleteValue",
           "package": "iCalendar",
@@ -7373,6 +8031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "priorityOther",
           "package": "iCalendar",
@@ -7382,6 +8041,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "priorityOther",
           "package": "iCalendar",
@@ -7395,6 +8055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "priorityValue",
           "package": "iCalendar",
@@ -7404,6 +8065,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "priorityValue",
           "package": "iCalendar",
@@ -7417,6 +8079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "prodIdOther",
           "package": "iCalendar",
@@ -7426,6 +8089,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "prodIdOther",
           "package": "iCalendar",
@@ -7439,6 +8103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "prodIdValue",
           "package": "iCalendar",
@@ -7448,6 +8113,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "prodIdValue",
           "package": "iCalendar",
@@ -7461,6 +8127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "rDateDateTimes",
           "package": "iCalendar",
@@ -7470,6 +8137,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "rDateDateTimes",
           "package": "iCalendar",
@@ -7483,6 +8151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "rDateDates",
           "package": "iCalendar",
@@ -7492,6 +8161,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "rDateDates",
           "package": "iCalendar",
@@ -7505,6 +8175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "rDateOther",
           "package": "iCalendar",
@@ -7514,6 +8185,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "rDateOther",
           "package": "iCalendar",
@@ -7527,6 +8199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "rDatePeriods",
           "package": "iCalendar",
@@ -7536,6 +8209,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "rDatePeriods",
           "package": "iCalendar",
@@ -7549,6 +8223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "rRuleOther",
           "package": "iCalendar",
@@ -7558,6 +8233,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "rRuleOther",
           "package": "iCalendar",
@@ -7571,6 +8247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "rRuleValue",
           "package": "iCalendar",
@@ -7580,6 +8257,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "rRuleValue",
           "package": "iCalendar",
@@ -7593,6 +8271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurByDay",
           "package": "iCalendar",
@@ -7602,6 +8281,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurByDay",
           "normalized": "[Either(Int,Weekday)Weekday]",
@@ -7617,6 +8297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurByHour",
           "package": "iCalendar",
@@ -7626,6 +8307,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurByHour",
           "normalized": "[Int]",
@@ -7641,6 +8323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurByMinute",
           "package": "iCalendar",
@@ -7650,6 +8333,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurByMinute",
           "normalized": "[Int]",
@@ -7665,6 +8349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurByMonth",
           "package": "iCalendar",
@@ -7674,6 +8359,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurByMonth",
           "normalized": "[Int]",
@@ -7689,6 +8375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurByMonthDay",
           "package": "iCalendar",
@@ -7698,6 +8385,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurByMonthDay",
           "normalized": "[Int]",
@@ -7713,6 +8401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurBySecond",
           "package": "iCalendar",
@@ -7722,6 +8411,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurBySecond",
           "normalized": "[Int]",
@@ -7737,6 +8427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurBySetPos",
           "package": "iCalendar",
@@ -7746,6 +8437,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurBySetPos",
           "normalized": "[Int]",
@@ -7761,6 +8453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurByWeekNo",
           "package": "iCalendar",
@@ -7770,6 +8463,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurByWeekNo",
           "normalized": "[Int]",
@@ -7785,6 +8479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurByYearDay",
           "package": "iCalendar",
@@ -7794,6 +8489,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurByYearDay",
           "normalized": "[Int]",
@@ -7809,6 +8505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurFreq",
           "package": "iCalendar",
@@ -7818,6 +8515,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurFreq",
           "package": "iCalendar",
@@ -7831,6 +8529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurInterval",
           "package": "iCalendar",
@@ -7840,6 +8539,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurInterval",
           "package": "iCalendar",
@@ -7853,6 +8553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurUntilCount",
           "package": "iCalendar",
@@ -7862,6 +8563,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurUntilCount",
           "package": "iCalendar",
@@ -7875,6 +8577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurWkSt",
           "package": "iCalendar",
@@ -7884,6 +8587,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurWkSt",
           "package": "iCalendar",
@@ -7897,6 +8601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurrenceIdDate",
           "package": "iCalendar",
@@ -7906,6 +8611,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurrenceIdDate",
           "package": "iCalendar",
@@ -7919,6 +8625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurrenceIdDateTime",
           "package": "iCalendar",
@@ -7928,6 +8635,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurrenceIdDateTime",
           "package": "iCalendar",
@@ -7941,6 +8649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurrenceIdOther",
           "package": "iCalendar",
@@ -7950,6 +8659,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurrenceIdOther",
           "package": "iCalendar",
@@ -7963,6 +8673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "recurrenceIdRange",
           "package": "iCalendar",
@@ -7972,6 +8683,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "recurrenceIdRange",
           "package": "iCalendar",
@@ -7985,6 +8697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "relatedToOther",
           "package": "iCalendar",
@@ -7994,6 +8707,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "relatedToOther",
           "package": "iCalendar",
@@ -8007,6 +8721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "relatedToType",
           "package": "iCalendar",
@@ -8016,6 +8731,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "relatedToType",
           "package": "iCalendar",
@@ -8029,6 +8745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "relatedToValue",
           "package": "iCalendar",
@@ -8038,6 +8755,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "relatedToValue",
           "package": "iCalendar",
@@ -8051,6 +8769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "repeatOther",
           "package": "iCalendar",
@@ -8060,6 +8779,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "repeatOther",
           "package": "iCalendar",
@@ -8073,6 +8793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "repeatValue",
           "package": "iCalendar",
@@ -8082,6 +8803,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "repeatValue",
           "package": "iCalendar",
@@ -8095,6 +8817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "requestStatusCode",
           "package": "iCalendar",
@@ -8104,6 +8827,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "requestStatusCode",
           "normalized": "[Int]",
@@ -8119,6 +8843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "requestStatusDesc",
           "package": "iCalendar",
@@ -8128,6 +8853,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "requestStatusDesc",
           "package": "iCalendar",
@@ -8141,6 +8867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "requestStatusExt",
           "package": "iCalendar",
@@ -8150,6 +8877,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "requestStatusExt",
           "package": "iCalendar",
@@ -8163,6 +8891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "requestStatusLanguage",
           "package": "iCalendar",
@@ -8172,6 +8901,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "requestStatusLanguage",
           "package": "iCalendar",
@@ -8185,6 +8915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "requestStatusOther",
           "package": "iCalendar",
@@ -8194,6 +8925,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "requestStatusOther",
           "package": "iCalendar",
@@ -8207,6 +8939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "resourcesAltRep",
           "package": "iCalendar",
@@ -8216,6 +8949,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "resourcesAltRep",
           "package": "iCalendar",
@@ -8229,6 +8963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "resourcesLanguage",
           "package": "iCalendar",
@@ -8238,6 +8973,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "resourcesLanguage",
           "package": "iCalendar",
@@ -8251,6 +8987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "resourcesOther",
           "package": "iCalendar",
@@ -8260,6 +8997,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "resourcesOther",
           "package": "iCalendar",
@@ -8273,6 +9011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "resourcesValue",
           "package": "iCalendar",
@@ -8282,6 +9021,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "resourcesValue",
           "package": "iCalendar",
@@ -8295,6 +9035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "scaleOther",
           "package": "iCalendar",
@@ -8304,6 +9045,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "scaleOther",
           "package": "iCalendar",
@@ -8317,6 +9059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "scaleValue",
           "package": "iCalendar",
@@ -8326,6 +9069,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "scaleValue",
           "package": "iCalendar",
@@ -8339,6 +9083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "sequenceOther",
           "package": "iCalendar",
@@ -8348,6 +9093,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "sequenceOther",
           "package": "iCalendar",
@@ -8361,6 +9107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "sequenceValue",
           "package": "iCalendar",
@@ -8370,6 +9117,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "sequenceValue",
           "package": "iCalendar",
@@ -8383,6 +9131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "summaryAltRep",
           "package": "iCalendar",
@@ -8392,6 +9141,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "summaryAltRep",
           "package": "iCalendar",
@@ -8405,6 +9155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "summaryLanguage",
           "package": "iCalendar",
@@ -8414,6 +9165,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "summaryLanguage",
           "package": "iCalendar",
@@ -8427,6 +9179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "summaryOther",
           "package": "iCalendar",
@@ -8436,6 +9189,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "summaryOther",
           "package": "iCalendar",
@@ -8449,6 +9203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "summaryValue",
           "package": "iCalendar",
@@ -8458,6 +9213,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "summaryValue",
           "package": "iCalendar",
@@ -8471,6 +9227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "timeTransparencyOther",
           "package": "iCalendar",
@@ -8480,6 +9237,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "timeTransparencyOther",
           "package": "iCalendar",
@@ -8493,6 +9251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "todoStatusOther",
           "package": "iCalendar",
@@ -8502,6 +9261,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "todoStatusOther",
           "package": "iCalendar",
@@ -8515,6 +9275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "triggerDateTime",
           "package": "iCalendar",
@@ -8524,6 +9285,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "triggerDateTime",
           "package": "iCalendar",
@@ -8537,6 +9299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "triggerDuration",
           "package": "iCalendar",
@@ -8546,6 +9309,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "triggerDuration",
           "package": "iCalendar",
@@ -8559,6 +9323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "triggerOther",
           "package": "iCalendar",
@@ -8568,6 +9333,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "triggerOther",
           "package": "iCalendar",
@@ -8582,6 +9348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eStart\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "triggerRelated",
           "package": "iCalendar",
@@ -8592,6 +9359,7 @@
         "index": {
           "description": "def Start",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "triggerRelated",
           "package": "iCalendar",
@@ -8605,6 +9373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzNameLanguage",
           "package": "iCalendar",
@@ -8614,6 +9383,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzNameLanguage",
           "package": "iCalendar",
@@ -8627,6 +9397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzNameOther",
           "package": "iCalendar",
@@ -8636,6 +9407,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzNameOther",
           "package": "iCalendar",
@@ -8649,6 +9421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzNameValue",
           "package": "iCalendar",
@@ -8658,6 +9431,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzNameValue",
           "package": "iCalendar",
@@ -8671,6 +9445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzUrlOther",
           "package": "iCalendar",
@@ -8680,6 +9455,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzUrlOther",
           "package": "iCalendar",
@@ -8693,6 +9469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzUrlValue",
           "package": "iCalendar",
@@ -8702,6 +9479,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzUrlValue",
           "package": "iCalendar",
@@ -8715,6 +9493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzidGlobal",
           "package": "iCalendar",
@@ -8724,6 +9503,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzidGlobal",
           "package": "iCalendar",
@@ -8737,6 +9517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzidOther",
           "package": "iCalendar",
@@ -8746,6 +9527,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzidOther",
           "package": "iCalendar",
@@ -8759,6 +9541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzidValue",
           "package": "iCalendar",
@@ -8768,6 +9551,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzidValue",
           "package": "iCalendar",
@@ -8781,6 +9565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzpComment",
           "package": "iCalendar",
@@ -8790,6 +9575,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzpComment",
           "package": "iCalendar",
@@ -8803,6 +9589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzpDTStart",
           "package": "iCalendar",
@@ -8812,6 +9599,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzpDTStart",
           "package": "iCalendar",
@@ -8825,6 +9613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzpOther",
           "package": "iCalendar",
@@ -8834,6 +9623,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzpOther",
           "package": "iCalendar",
@@ -8847,6 +9637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzpRDate",
           "package": "iCalendar",
@@ -8856,6 +9647,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzpRDate",
           "package": "iCalendar",
@@ -8869,6 +9661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzpRRule",
           "package": "iCalendar",
@@ -8878,6 +9671,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzpRRule",
           "package": "iCalendar",
@@ -8891,6 +9685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzpTZName",
           "package": "iCalendar",
@@ -8900,6 +9695,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzpTZName",
           "package": "iCalendar",
@@ -8913,6 +9709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzpTZOffsetFrom",
           "package": "iCalendar",
@@ -8922,6 +9719,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzpTZOffsetFrom",
           "package": "iCalendar",
@@ -8935,6 +9733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "tzpTZOffsetTo",
           "package": "iCalendar",
@@ -8944,6 +9743,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "tzpTZOffsetTo",
           "package": "iCalendar",
@@ -8957,6 +9757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "uidOther",
           "package": "iCalendar",
@@ -8966,6 +9767,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "uidOther",
           "package": "iCalendar",
@@ -8979,6 +9781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "uidValue",
           "package": "iCalendar",
@@ -8988,6 +9791,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "uidValue",
           "package": "iCalendar",
@@ -9001,6 +9805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "urlOther",
           "package": "iCalendar",
@@ -9010,6 +9815,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "urlOther",
           "package": "iCalendar",
@@ -9023,6 +9829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "urlValue",
           "package": "iCalendar",
@@ -9032,6 +9839,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "urlValue",
           "package": "iCalendar",
@@ -9045,6 +9853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "utcOffsetOther",
           "package": "iCalendar",
@@ -9054,6 +9863,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "utcOffsetOther",
           "package": "iCalendar",
@@ -9068,6 +9878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of seconds away from UTC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "utcOffsetValue",
           "package": "iCalendar",
@@ -9078,6 +9889,7 @@
         "index": {
           "description": "Number of seconds away from UTC",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "utcOffsetValue",
           "package": "iCalendar",
@@ -9091,6 +9903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vaAction",
           "package": "iCalendar",
@@ -9100,6 +9913,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vaAction",
           "package": "iCalendar",
@@ -9113,6 +9927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vaActionOther",
           "package": "iCalendar",
@@ -9122,6 +9937,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vaActionOther",
           "package": "iCalendar",
@@ -9135,6 +9951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vaAttendee",
           "package": "iCalendar",
@@ -9144,6 +9961,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vaAttendee",
           "package": "iCalendar",
@@ -9157,6 +9975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vaAudioAttach",
           "package": "iCalendar",
@@ -9166,6 +9985,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vaAudioAttach",
           "package": "iCalendar",
@@ -9179,6 +9999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vaDescription",
           "package": "iCalendar",
@@ -9188,6 +10009,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vaDescription",
           "package": "iCalendar",
@@ -9201,6 +10023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vaDuration",
           "package": "iCalendar",
@@ -9210,6 +10033,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vaDuration",
           "package": "iCalendar",
@@ -9223,6 +10047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vaMailAttach",
           "package": "iCalendar",
@@ -9232,6 +10057,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vaMailAttach",
           "package": "iCalendar",
@@ -9245,6 +10071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vaOther",
           "package": "iCalendar",
@@ -9254,6 +10081,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vaOther",
           "package": "iCalendar",
@@ -9268,6 +10096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vaRepeat",
           "package": "iCalendar",
@@ -9278,6 +10107,7 @@
         "index": {
           "description": "def",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vaRepeat",
           "package": "iCalendar",
@@ -9291,6 +10121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vaSummary",
           "package": "iCalendar",
@@ -9300,6 +10131,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vaSummary",
           "package": "iCalendar",
@@ -9313,6 +10145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vaTrigger",
           "package": "iCalendar",
@@ -9322,6 +10155,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vaTrigger",
           "package": "iCalendar",
@@ -9336,6 +10170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap (UID-value, Maybe RecurrenceID-value) VEvent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vcEvents",
           "package": "iCalendar",
@@ -9346,6 +10181,7 @@
         "index": {
           "description": "Map UID-value Maybe RecurrenceID-value VEvent",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vcEvents",
           "normalized": "Map(Text,Maybe(Either Date DateTime))VEvent",
@@ -9362,6 +10198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap UID-value VFreeBusy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vcFreeBusys",
           "package": "iCalendar",
@@ -9372,6 +10209,7 @@
         "index": {
           "description": "Map UID-value VFreeBusy",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vcFreeBusys",
           "package": "iCalendar",
@@ -9386,6 +10224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap (UID-value, Maybe RecurrenceID-value) VJournal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vcJournals",
           "package": "iCalendar",
@@ -9396,6 +10235,7 @@
         "index": {
           "description": "Map UID-value Maybe RecurrenceID-value VJournal",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vcJournals",
           "normalized": "Map(Text,Maybe(Either Date DateTime))VJournal",
@@ -9411,6 +10251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vcMethod",
           "package": "iCalendar",
@@ -9420,6 +10261,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vcMethod",
           "package": "iCalendar",
@@ -9433,6 +10275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vcOther",
           "package": "iCalendar",
@@ -9442,6 +10285,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vcOther",
           "package": "iCalendar",
@@ -9455,6 +10299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vcOtherComps",
           "package": "iCalendar",
@@ -9464,6 +10309,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vcOtherComps",
           "package": "iCalendar",
@@ -9477,6 +10323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vcProdId",
           "package": "iCalendar",
@@ -9486,6 +10333,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vcProdId",
           "package": "iCalendar",
@@ -9499,6 +10347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vcScale",
           "package": "iCalendar",
@@ -9508,6 +10357,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vcScale",
           "package": "iCalendar",
@@ -9522,6 +10372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap TZID-value VTimeZone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vcTimeZones",
           "package": "iCalendar",
@@ -9532,6 +10383,7 @@
         "index": {
           "description": "Map TZID-value VTimeZone",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vcTimeZones",
           "package": "iCalendar",
@@ -9546,6 +10398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap (UID-value, Maybe RecurrenceID-value) VTodo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vcTodos",
           "package": "iCalendar",
@@ -9556,6 +10409,7 @@
         "index": {
           "description": "Map UID-value Maybe RecurrenceID-value VTodo",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vcTodos",
           "normalized": "Map(Text,Maybe(Either Date DateTime))VTodo",
@@ -9571,6 +10425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vcVersion",
           "package": "iCalendar",
@@ -9580,6 +10435,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vcVersion",
           "package": "iCalendar",
@@ -9593,6 +10449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veAlarms",
           "package": "iCalendar",
@@ -9602,6 +10459,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veAlarms",
           "package": "iCalendar",
@@ -9615,6 +10473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veAttach",
           "package": "iCalendar",
@@ -9624,6 +10483,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veAttach",
           "package": "iCalendar",
@@ -9637,6 +10497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veAttendee",
           "package": "iCalendar",
@@ -9646,6 +10507,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veAttendee",
           "package": "iCalendar",
@@ -9659,6 +10521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veCategories",
           "package": "iCalendar",
@@ -9668,6 +10531,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veCategories",
           "package": "iCalendar",
@@ -9682,6 +10546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ePublic\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veClass",
           "package": "iCalendar",
@@ -9692,6 +10557,7 @@
         "index": {
           "description": "def Public",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veClass",
           "package": "iCalendar",
@@ -9705,6 +10571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veComment",
           "package": "iCalendar",
@@ -9714,6 +10581,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veComment",
           "package": "iCalendar",
@@ -9727,6 +10595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veContact",
           "package": "iCalendar",
@@ -9736,6 +10605,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veContact",
           "package": "iCalendar",
@@ -9749,6 +10619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veCreated",
           "package": "iCalendar",
@@ -9758,6 +10629,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veCreated",
           "package": "iCalendar",
@@ -9771,6 +10643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veDTEndDuration",
           "package": "iCalendar",
@@ -9780,6 +10653,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veDTEndDuration",
           "package": "iCalendar",
@@ -9793,6 +10667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veDTStamp",
           "package": "iCalendar",
@@ -9802,6 +10677,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veDTStamp",
           "package": "iCalendar",
@@ -9815,6 +10691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veDTStart",
           "package": "iCalendar",
@@ -9824,6 +10701,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veDTStart",
           "package": "iCalendar",
@@ -9837,6 +10715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veDescription",
           "package": "iCalendar",
@@ -9846,6 +10725,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veDescription",
           "package": "iCalendar",
@@ -9859,6 +10739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veExDate",
           "package": "iCalendar",
@@ -9868,6 +10749,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veExDate",
           "package": "iCalendar",
@@ -9881,6 +10763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veGeo",
           "package": "iCalendar",
@@ -9890,6 +10773,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veGeo",
           "package": "iCalendar",
@@ -9903,6 +10787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veLastMod",
           "package": "iCalendar",
@@ -9912,6 +10797,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veLastMod",
           "package": "iCalendar",
@@ -9925,6 +10811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veLocation",
           "package": "iCalendar",
@@ -9934,6 +10821,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veLocation",
           "package": "iCalendar",
@@ -9947,6 +10835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veOrganizer",
           "package": "iCalendar",
@@ -9956,6 +10845,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veOrganizer",
           "package": "iCalendar",
@@ -9969,6 +10859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veOther",
           "package": "iCalendar",
@@ -9978,6 +10869,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veOther",
           "package": "iCalendar",
@@ -9992,6 +10884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vePriority",
           "package": "iCalendar",
@@ -10002,6 +10895,7 @@
         "index": {
           "description": "def",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vePriority",
           "package": "iCalendar",
@@ -10015,6 +10909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veRDate",
           "package": "iCalendar",
@@ -10024,6 +10919,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veRDate",
           "package": "iCalendar",
@@ -10037,6 +10933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veRRule",
           "package": "iCalendar",
@@ -10046,6 +10943,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veRRule",
           "package": "iCalendar",
@@ -10059,6 +10957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veRStatus",
           "package": "iCalendar",
@@ -10068,6 +10967,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veRStatus",
           "package": "iCalendar",
@@ -10081,6 +10981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veRecurId",
           "package": "iCalendar",
@@ -10090,6 +10991,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veRecurId",
           "package": "iCalendar",
@@ -10103,6 +11005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veRelated",
           "package": "iCalendar",
@@ -10112,6 +11015,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veRelated",
           "package": "iCalendar",
@@ -10125,6 +11029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veResources",
           "package": "iCalendar",
@@ -10134,6 +11039,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veResources",
           "package": "iCalendar",
@@ -10148,6 +11054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veSeq",
           "package": "iCalendar",
@@ -10158,6 +11065,7 @@
         "index": {
           "description": "def",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veSeq",
           "package": "iCalendar",
@@ -10171,6 +11079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veStatus",
           "package": "iCalendar",
@@ -10180,6 +11089,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veStatus",
           "package": "iCalendar",
@@ -10193,6 +11103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veSummary",
           "package": "iCalendar",
@@ -10202,6 +11113,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veSummary",
           "package": "iCalendar",
@@ -10216,6 +11128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eOpaque\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veTransp",
           "package": "iCalendar",
@@ -10226,6 +11139,7 @@
         "index": {
           "description": "def Opaque",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veTransp",
           "package": "iCalendar",
@@ -10239,6 +11153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veUID",
           "package": "iCalendar",
@@ -10248,6 +11163,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veUID",
           "package": "iCalendar",
@@ -10261,6 +11177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "veUrl",
           "package": "iCalendar",
@@ -10270,6 +11187,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "veUrl",
           "package": "iCalendar",
@@ -10283,6 +11201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "versionMax",
           "package": "iCalendar",
@@ -10292,6 +11211,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "versionMax",
           "package": "iCalendar",
@@ -10305,6 +11225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "versionMin",
           "package": "iCalendar",
@@ -10314,6 +11235,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "versionMin",
           "package": "iCalendar",
@@ -10327,6 +11249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "versionOther",
           "package": "iCalendar",
@@ -10336,6 +11259,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "versionOther",
           "package": "iCalendar",
@@ -10349,6 +11273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vfbAttendee",
           "package": "iCalendar",
@@ -10358,6 +11283,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vfbAttendee",
           "package": "iCalendar",
@@ -10371,6 +11297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vfbComment",
           "package": "iCalendar",
@@ -10380,6 +11307,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vfbComment",
           "package": "iCalendar",
@@ -10393,6 +11321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vfbContact",
           "package": "iCalendar",
@@ -10402,6 +11331,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vfbContact",
           "package": "iCalendar",
@@ -10415,6 +11345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vfbDTEnd",
           "package": "iCalendar",
@@ -10424,6 +11355,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vfbDTEnd",
           "package": "iCalendar",
@@ -10437,6 +11369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vfbDTStamp",
           "package": "iCalendar",
@@ -10446,6 +11379,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vfbDTStamp",
           "package": "iCalendar",
@@ -10459,6 +11393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vfbDTStart",
           "package": "iCalendar",
@@ -10468,6 +11403,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vfbDTStart",
           "package": "iCalendar",
@@ -10481,6 +11417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vfbFreeBusy",
           "package": "iCalendar",
@@ -10490,6 +11427,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vfbFreeBusy",
           "package": "iCalendar",
@@ -10503,6 +11441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vfbOrganizer",
           "package": "iCalendar",
@@ -10512,6 +11451,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vfbOrganizer",
           "package": "iCalendar",
@@ -10525,6 +11465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vfbOther",
           "package": "iCalendar",
@@ -10534,6 +11475,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vfbOther",
           "package": "iCalendar",
@@ -10547,6 +11489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vfbRStatus",
           "package": "iCalendar",
@@ -10556,6 +11499,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vfbRStatus",
           "package": "iCalendar",
@@ -10569,6 +11513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vfbUID",
           "package": "iCalendar",
@@ -10578,6 +11523,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vfbUID",
           "package": "iCalendar",
@@ -10591,6 +11537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vfbUrl",
           "package": "iCalendar",
@@ -10600,6 +11547,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vfbUrl",
           "package": "iCalendar",
@@ -10613,6 +11561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjAttach",
           "package": "iCalendar",
@@ -10622,6 +11571,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjAttach",
           "package": "iCalendar",
@@ -10635,6 +11585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjAttendee",
           "package": "iCalendar",
@@ -10644,6 +11595,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjAttendee",
           "package": "iCalendar",
@@ -10657,6 +11609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjCategories",
           "package": "iCalendar",
@@ -10666,6 +11619,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjCategories",
           "package": "iCalendar",
@@ -10680,6 +11634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ePublic\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjClass",
           "package": "iCalendar",
@@ -10690,6 +11645,7 @@
         "index": {
           "description": "def Public",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjClass",
           "package": "iCalendar",
@@ -10703,6 +11659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjComment",
           "package": "iCalendar",
@@ -10712,6 +11669,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjComment",
           "package": "iCalendar",
@@ -10725,6 +11683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjContact",
           "package": "iCalendar",
@@ -10734,6 +11693,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjContact",
           "package": "iCalendar",
@@ -10747,6 +11707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjCreated",
           "package": "iCalendar",
@@ -10756,6 +11717,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjCreated",
           "package": "iCalendar",
@@ -10769,6 +11731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjDTStamp",
           "package": "iCalendar",
@@ -10778,6 +11741,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjDTStamp",
           "package": "iCalendar",
@@ -10791,6 +11755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjDTStart",
           "package": "iCalendar",
@@ -10800,6 +11765,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjDTStart",
           "package": "iCalendar",
@@ -10813,6 +11779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjDescription",
           "package": "iCalendar",
@@ -10822,6 +11789,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjDescription",
           "package": "iCalendar",
@@ -10835,6 +11803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjExDate",
           "package": "iCalendar",
@@ -10844,6 +11813,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjExDate",
           "package": "iCalendar",
@@ -10857,6 +11827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjLastMod",
           "package": "iCalendar",
@@ -10866,6 +11837,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjLastMod",
           "package": "iCalendar",
@@ -10879,6 +11851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjOrganizer",
           "package": "iCalendar",
@@ -10888,6 +11861,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjOrganizer",
           "package": "iCalendar",
@@ -10901,6 +11875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjOther",
           "package": "iCalendar",
@@ -10910,6 +11885,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjOther",
           "package": "iCalendar",
@@ -10923,6 +11899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjRDate",
           "package": "iCalendar",
@@ -10932,6 +11909,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjRDate",
           "package": "iCalendar",
@@ -10945,6 +11923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjRRule",
           "package": "iCalendar",
@@ -10954,6 +11933,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjRRule",
           "package": "iCalendar",
@@ -10967,6 +11947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjRStatus",
           "package": "iCalendar",
@@ -10976,6 +11957,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjRStatus",
           "package": "iCalendar",
@@ -10989,6 +11971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjRecurId",
           "package": "iCalendar",
@@ -10998,6 +11981,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjRecurId",
           "package": "iCalendar",
@@ -11011,6 +11995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjRelated",
           "package": "iCalendar",
@@ -11020,6 +12005,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjRelated",
           "package": "iCalendar",
@@ -11034,6 +12020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjSeq",
           "package": "iCalendar",
@@ -11044,6 +12031,7 @@
         "index": {
           "description": "def",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjSeq",
           "package": "iCalendar",
@@ -11057,6 +12045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjStatus",
           "package": "iCalendar",
@@ -11066,6 +12055,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjStatus",
           "package": "iCalendar",
@@ -11079,6 +12069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjSummary",
           "package": "iCalendar",
@@ -11088,6 +12079,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjSummary",
           "package": "iCalendar",
@@ -11101,6 +12093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjUID",
           "package": "iCalendar",
@@ -11110,6 +12103,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjUID",
           "package": "iCalendar",
@@ -11123,6 +12117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vjUrl",
           "package": "iCalendar",
@@ -11132,6 +12127,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vjUrl",
           "package": "iCalendar",
@@ -11145,6 +12141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "voName",
           "package": "iCalendar",
@@ -11154,6 +12151,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "voName",
           "package": "iCalendar",
@@ -11167,6 +12165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "voProps",
           "package": "iCalendar",
@@ -11176,6 +12175,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "voProps",
           "package": "iCalendar",
@@ -11189,6 +12189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtAlarms",
           "package": "iCalendar",
@@ -11198,6 +12199,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtAlarms",
           "package": "iCalendar",
@@ -11211,6 +12213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtAttach",
           "package": "iCalendar",
@@ -11220,6 +12223,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtAttach",
           "package": "iCalendar",
@@ -11233,6 +12237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtAttendee",
           "package": "iCalendar",
@@ -11242,6 +12247,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtAttendee",
           "package": "iCalendar",
@@ -11255,6 +12261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtCategories",
           "package": "iCalendar",
@@ -11264,6 +12271,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtCategories",
           "package": "iCalendar",
@@ -11278,6 +12286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ePublic\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtClass",
           "package": "iCalendar",
@@ -11288,6 +12297,7 @@
         "index": {
           "description": "def Public",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtClass",
           "package": "iCalendar",
@@ -11301,6 +12311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtComment",
           "package": "iCalendar",
@@ -11310,6 +12321,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtComment",
           "package": "iCalendar",
@@ -11323,6 +12335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtCompleted",
           "package": "iCalendar",
@@ -11332,6 +12345,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtCompleted",
           "package": "iCalendar",
@@ -11345,6 +12359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtContact",
           "package": "iCalendar",
@@ -11354,6 +12369,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtContact",
           "package": "iCalendar",
@@ -11367,6 +12383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtCreated",
           "package": "iCalendar",
@@ -11376,6 +12393,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtCreated",
           "package": "iCalendar",
@@ -11389,6 +12407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtDTStamp",
           "package": "iCalendar",
@@ -11398,6 +12417,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtDTStamp",
           "package": "iCalendar",
@@ -11411,6 +12431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtDTStart",
           "package": "iCalendar",
@@ -11420,6 +12441,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtDTStart",
           "package": "iCalendar",
@@ -11433,6 +12455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtDescription",
           "package": "iCalendar",
@@ -11442,6 +12465,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtDescription",
           "package": "iCalendar",
@@ -11455,6 +12479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtDueDuration",
           "package": "iCalendar",
@@ -11464,6 +12489,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtDueDuration",
           "package": "iCalendar",
@@ -11477,6 +12503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtExDate",
           "package": "iCalendar",
@@ -11486,6 +12513,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtExDate",
           "package": "iCalendar",
@@ -11499,6 +12527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtGeo",
           "package": "iCalendar",
@@ -11508,6 +12537,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtGeo",
           "package": "iCalendar",
@@ -11521,6 +12551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtLastMod",
           "package": "iCalendar",
@@ -11530,6 +12561,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtLastMod",
           "package": "iCalendar",
@@ -11543,6 +12575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtLocation",
           "package": "iCalendar",
@@ -11552,6 +12585,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtLocation",
           "package": "iCalendar",
@@ -11565,6 +12599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtOrganizer",
           "package": "iCalendar",
@@ -11574,6 +12609,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtOrganizer",
           "package": "iCalendar",
@@ -11587,6 +12623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtOther",
           "package": "iCalendar",
@@ -11596,6 +12633,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtOther",
           "package": "iCalendar",
@@ -11609,6 +12647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtPercent",
           "package": "iCalendar",
@@ -11618,6 +12657,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtPercent",
           "package": "iCalendar",
@@ -11632,6 +12672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtPriority",
           "package": "iCalendar",
@@ -11642,6 +12683,7 @@
         "index": {
           "description": "def",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtPriority",
           "package": "iCalendar",
@@ -11655,6 +12697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtRDate",
           "package": "iCalendar",
@@ -11664,6 +12707,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtRDate",
           "package": "iCalendar",
@@ -11677,6 +12721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtRRule",
           "package": "iCalendar",
@@ -11686,6 +12731,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtRRule",
           "package": "iCalendar",
@@ -11699,6 +12745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtRStatus",
           "package": "iCalendar",
@@ -11708,6 +12755,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtRStatus",
           "package": "iCalendar",
@@ -11721,6 +12769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtRecurId",
           "package": "iCalendar",
@@ -11730,6 +12779,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtRecurId",
           "package": "iCalendar",
@@ -11743,6 +12793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtRelated",
           "package": "iCalendar",
@@ -11752,6 +12803,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtRelated",
           "package": "iCalendar",
@@ -11765,6 +12817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtResources",
           "package": "iCalendar",
@@ -11774,6 +12827,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtResources",
           "package": "iCalendar",
@@ -11788,6 +12842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtSeq",
           "package": "iCalendar",
@@ -11798,6 +12853,7 @@
         "index": {
           "description": "def",
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtSeq",
           "package": "iCalendar",
@@ -11811,6 +12867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtStatus",
           "package": "iCalendar",
@@ -11820,6 +12877,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtStatus",
           "package": "iCalendar",
@@ -11833,6 +12891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtSummary",
           "package": "iCalendar",
@@ -11842,6 +12901,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtSummary",
           "package": "iCalendar",
@@ -11855,6 +12915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtUID",
           "package": "iCalendar",
@@ -11864,6 +12925,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtUID",
           "package": "iCalendar",
@@ -11877,6 +12939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtUrl",
           "package": "iCalendar",
@@ -11886,6 +12949,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtUrl",
           "package": "iCalendar",
@@ -11899,6 +12963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtzDaylightC",
           "package": "iCalendar",
@@ -11908,6 +12973,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtzDaylightC",
           "package": "iCalendar",
@@ -11921,6 +12987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtzId",
           "package": "iCalendar",
@@ -11930,6 +12997,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtzId",
           "package": "iCalendar",
@@ -11943,6 +13011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtzLastMod",
           "package": "iCalendar",
@@ -11952,6 +13021,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtzLastMod",
           "package": "iCalendar",
@@ -11965,6 +13035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtzOther",
           "package": "iCalendar",
@@ -11974,6 +13045,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtzOther",
           "package": "iCalendar",
@@ -11987,6 +13059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtzStandardC",
           "package": "iCalendar",
@@ -11996,6 +13069,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtzStandardC",
           "package": "iCalendar",
@@ -12009,6 +13083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar.Types",
           "name": "vtzUrl",
           "package": "iCalendar",
@@ -12018,6 +13093,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar Types",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar.Types",
           "name": "vtzUrl",
           "package": "iCalendar",
@@ -12031,6 +13107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:33 UTC 2014",
           "module": "Text.ICalendar",
           "name": "ICalendar",
           "package": "iCalendar",
@@ -12039,6 +13116,7 @@
         },
         "index": {
           "hierarchy": "Text ICalendar",
+          "indexed": "2014-03-11T18:55:33",
           "module": "Text.ICalendar",
           "name": "ICalendar",
           "package": "iCalendar",

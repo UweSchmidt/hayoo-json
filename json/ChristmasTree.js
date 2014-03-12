@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ChristmasTree"
+        "phrase": "ChristmasTree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule used internally by the \u003ca\u003eDerive\u003c/a\u003e module for binding group calculation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "BindingGroup",
           "package": "ChristmasTree",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module used internally by the Derive module for binding group calculation",
           "hierarchy": "Text GRead Derive BindingGroup",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "BindingGroup",
           "package": "ChristmasTree",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from types to the list of types (with specific constructor instantiations, the '[[Type]]') in the same binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "BindingGroup",
           "package": "ChristmasTree",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Mapping from types to the list of types with specific constructor instantiations the Type in the same binding group",
           "hierarchy": "Text GRead Derive BindingGroup",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "BindingGroup",
           "package": "ChristmasTree",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform representation of 'data' and 'newtype'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "UserType",
           "package": "ChristmasTree",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Uniform representation of data and newtype",
           "hierarchy": "Text GRead Derive BindingGroup",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "UserType",
           "package": "ChristmasTree",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "UserD",
           "package": "ChristmasTree",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Derive BindingGroup",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "UserD",
           "normalized": "UserD Name[Name][Con]",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind cyclic type dependencies (binding groups)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "getBindingGroup",
           "package": "ChristmasTree",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Find cyclic type dependencies binding groups",
           "hierarchy": "Text GRead Derive BindingGroup",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "getBindingGroup",
           "normalized": "Name-\u003eQ BindingGroup",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a unified type for 'data' and 'newtype'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "getUserType",
           "package": "ChristmasTree",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Get unified type for data and newtype",
           "hierarchy": "Text GRead Derive BindingGroup",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "getUserType",
           "normalized": "Name-\u003eQ UserType",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "showBindingGroup",
           "package": "ChristmasTree",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Derive BindingGroup",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "showBindingGroup",
           "normalized": "Name-\u003eQ Exp",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the types of a type application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "unrollApp",
           "package": "ChristmasTree",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Get the types of type application",
           "hierarchy": "Text GRead Derive BindingGroup",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Derive.BindingGroup",
           "name": "unrollApp",
           "normalized": "Type-\u003e[Type]",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAutomatically derive \u003ccode\u003e\u003ca\u003eGram\u003c/a\u003e\u003c/code\u003e instances for data types.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote!\u003c/em\u003e This is not a complete implementation and will not work for all datatypes.\n\u003c/p\u003e\u003cp\u003eUnsupported are\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Multiple type arguments\n\u003c/li\u003e\u003cli\u003e Tuple, Function, List types\n\u003c/li\u003e\u003cli\u003e All primitive types (also when used in user defined types!)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eUse with care.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Derive",
           "name": "Derive",
           "package": "ChristmasTree",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Automatically derive Gram instances for data types Note This is not complete implementation and will not work for all datatypes Unsupported are Multiple type arguments Tuple Function List types All primitive types also when used in user defined types Use with care",
           "hierarchy": "Text GRead Derive",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Derive",
           "name": "Derive",
           "package": "ChristmasTree",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive a \u003ccode\u003e\u003ca\u003eGram\u003c/a\u003e\u003c/code\u003e instance.  This is a Template Haskell function.  Usage example:\n\u003c/p\u003e\u003cpre\u003e\ndata T1 = C1 | C2 | C3\n\n$(deriveGrammar ''T1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Derive",
           "name": "deriveGrammar",
           "package": "ChristmasTree",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Derive Gram instance This is Template Haskell function Usage example data T1 C1 C2 C3 deriveGrammar T1",
           "hierarchy": "Text GRead Derive",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Derive",
           "name": "deriveGrammar",
           "normalized": "Name-\u003eQ[Dec]",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimpler version of \u003ccode\u003e\u003ca\u003ederiveGrammar\u003c/a\u003e\u003c/code\u003e that doesn't do binding group\n    calculations.  Use this for large types without cyclic references to other\n    types.\n\u003c/p\u003e\u003cp\u003eFor example, if you want to derive the \u003ccode\u003e\u003ca\u003eGram\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003eT3\u003c/code\u003e and \u003ccode\u003eT4\u003c/code\u003e\n    below, you will need the normal \u003ccode\u003e\u003ca\u003ederiveGrammar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\ndata T3 = T3 T4 | C3\ndata T4 = T4 T3 | C4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Derive",
           "name": "deriveSimpleGrammar",
           "package": "ChristmasTree",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Simpler version of deriveGrammar that doesn do binding group calculations Use this for large types without cyclic references to other types For example if you want to derive the Gram for T3 and T4 below you will need the normal deriveGrammar data T3 T3 T4 C3 data T4 T4 T3 C4",
           "hierarchy": "Text GRead Derive",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Derive",
           "name": "deriveSimpleGrammar",
           "normalized": "Name-\u003eQ[Dec]",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentation of Data Type Grammars.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Grammar",
           "package": "ChristmasTree",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Representation of Data Type Grammars",
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Grammar",
           "package": "ChristmasTree",
@@ -311,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DGram",
           "package": "ChristmasTree",
@@ -319,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DGram",
           "package": "ChristmasTree",
@@ -333,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type describing grammatical structures of data types,\n   including information about precedences. The type \u003ccode\u003eDGrammar a\u003c/code\u003e\n   describes the grammar of the data type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DGrammar",
           "package": "ChristmasTree",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Data type describing grammatical structures of data types including information about precedences The type DGrammar describes the grammar of the data type",
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DGrammar",
           "package": "ChristmasTree",
@@ -355,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DLNontDefs",
           "package": "ChristmasTree",
@@ -363,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DLNontDefs",
           "package": "ChristmasTree",
@@ -376,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DProd",
           "package": "ChristmasTree",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DProd",
           "package": "ChristmasTree",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DProductions",
           "package": "ChristmasTree",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DProductions",
           "package": "ChristmasTree",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DRef",
           "package": "ChristmasTree",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DRef",
           "package": "ChristmasTree",
@@ -439,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DSymbol",
           "package": "ChristmasTree",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DSymbol",
           "package": "ChristmasTree",
@@ -461,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of data types with typed grammar representation. It has to be\n instantiated in order to use the function \u003ccode\u003e\u003ca\u003egread\u003c/a\u003e\u003c/code\u003e.  \n\u003c/p\u003e\u003cp\u003eInstances can be derived automatically using the functions defined\n in the module \u003ca\u003eText.GRead.Derive\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eFor example, given the declarations\n\u003c/p\u003e\u003cpre\u003e infixl 5 :\u003c:\n infixr 6 :\u003e:, :*:\n \n data T1  =  T1 :\u003c: T1\n          |  T1 :\u003e: T1\n          |  C1\n \n data T2 a  =  a :*: T2 a\n            |  C2\n\u003c/pre\u003e\u003cp\u003ethe instances of \u003ccode\u003e\u003ca\u003eGram\u003c/a\u003e\u003c/code\u003e can be\n\u003c/p\u003e\u003cpre\u003e _0 = Zero\n _1 = Suc _0\n \n instance Gram T1 where\n  grammar = DGrammar   _0 envT1\n \n envT1 :: Env DGram ((),T1) ((),T1) \n envT1 =  consD (nonts _0) Empty \n      where\n       nonts _T1 = DLNontDefs\n        [  (  DRef (_T1, 5) \n           ,  DPS  [  dNont (_T1, 5) .#. dTerm \":\u003c:\" .#.\n                      dNont (_T1, 6) .#. dEnd infixL ]\n           )\n        ,  (  DRef (_T1, 6) \n           ,  DPS  [  dNont (_T1, 7) .#. dTerm \":\u003e:\" .#.\n                      dNont (_T1, 6) .#. dEnd infixR ] \n           ) \n        ,  (  DRef (_T1,10) \n           ,  DPS  [  dTerm \"C1\"   .#. dEnd (const C1)\n                   ,  dTerm \"(\" .#. dNont (_T1,0) .#. \n                      dTerm \")\" .#. dEnd parenT ] \n           )\n        ]\n       infixL e1 _ e2   = e2 :\u003c: e1\n       infixR e1 _ e2   = e2 :\u003e: e1 \n \n instance Gram a =\u003e Gram (T2 a) where\n  grammar = DGrammar   _0  envT2 \n \n envT2 :: (Gram a) =\u003e Env DGram  (((),a),T2 a)\n                                 (((),a),T2 a)\n envT2 =  consD (nonts  _0 _1) $ \n          consG grammar Empty\n      where\n       nonts _T2 _A = DLNontDefs\n        [  (  DRef (_T2, 6)\n           ,  DPS  [  dNont (_A,   7)  .#. dTerm \":*:\" .#. \n                      dNont (_T2,  7)  .#. dEnd infixT ] \n           )\n        ,  (  DRef (_T2,10) \n           ,  DPS  [  dTerm \"C2\"   .#. dEnd (const C2)\n                   ,  dTerm \"(\"    .#. dNont (_T2,0) .#. \n                      dTerm \")\"    .#. dEnd parenT ] \n           )\n        ]\n       infixP   e1 _ e2  = e2 :+: e1\n       infixT   e1 _ e2  = e2 :*: e1 \n\u003c/pre\u003e\u003cp\u003eIn case of mutually recursive datatypes, their definitions have\n to be tupled together into a single environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Gram",
           "package": "ChristmasTree",
@@ -470,6 +509,7 @@
         "index": {
           "description": "Class of data types with typed grammar representation It has to be instantiated in order to use the function gread Instances can be derived automatically using the functions defined in the module Text.GRead.Derive For example given the declarations infixl infixr data T1 T1 T1 T1 T1 C1 data T2 T2 C2 the instances of Gram can be Zero Suc instance Gram T1 where grammar DGrammar envT1 envT1 Env DGram T1 T1 envT1 consD nonts Empty where nonts T1 DLNontDefs DRef T1 DPS dNont T1 dTerm dNont T1 dEnd infixL DRef T1 DPS dNont T1 dTerm dNont T1 dEnd infixR DRef T1 DPS dTerm C1 dEnd const C1 dTerm dNont T1 dTerm dEnd parenT infixL e1 e2 e2 e1 infixR e1 e2 e2 e1 instance Gram Gram T2 where grammar DGrammar envT2 envT2 Gram Env DGram T2 T2 envT2 consD nonts consG grammar Empty where nonts T2 DLNontDefs DRef T2 DPS dNont dTerm dNont T2 dEnd infixT DRef T2 DPS dTerm C2 dEnd const C2 dTerm dNont T2 dTerm dEnd parenT infixP e1 e2 e2 e1 infixT e1 e2 e2 e1 In case of mutually recursive datatypes their definitions have to be tupled together into single environment",
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Gram",
           "package": "ChristmasTree",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Grammar",
           "package": "ChristmasTree",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Grammar",
           "package": "ChristmasTree",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Prod",
           "package": "ChristmasTree",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Prod",
           "package": "ChristmasTree",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Productions",
           "package": "ChristmasTree",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Productions",
           "package": "ChristmasTree",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Symbol",
           "package": "ChristmasTree",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Symbol",
           "package": "ChristmasTree",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Token",
           "package": "ChristmasTree",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Token",
           "package": "ChristmasTree",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "(.#.)",
           "package": "ChristmasTree",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "(.#.) .#.",
           "normalized": "DSymbol a b-\u003eDProd(a-\u003ec)b-\u003eDProd c b",
@@ -611,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "(.*.)",
           "package": "ChristmasTree",
@@ -620,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "(.*.) .*.",
           "normalized": "Symbol a b-\u003eProd(a-\u003ec)b-\u003eProd c b",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Close",
           "package": "ChristmasTree",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Close",
           "package": "ChristmasTree",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DEnd",
           "package": "ChristmasTree",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DEnd",
           "normalized": "a-\u003eDProd a b",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DGD",
           "package": "ChristmasTree",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DGD",
           "package": "ChristmasTree",
@@ -702,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DGG",
           "package": "ChristmasTree",
@@ -711,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DGG",
           "package": "ChristmasTree",
@@ -725,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA grammar consists of an environment (\u003ccode\u003e\u003ca\u003eEnv\u003c/a\u003e\u003c/code\u003e) with the\n   defined non-terminals and a reference (\u003ccode\u003e\u003ca\u003eRef\u003c/a\u003e\u003c/code\u003e) to the\n   \u003cem\u003emain non-terminal\u003c/em\u003e in the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DGrammar",
           "package": "ChristmasTree",
@@ -735,6 +798,7 @@
         "index": {
           "description": "grammar consists of an environment Env with the defined non-terminals and reference Ref to the main non-terminal in the environment",
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DGrammar",
           "package": "ChristmasTree",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DLNontDefs",
           "package": "ChristmasTree",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DLNontDefs",
           "normalized": "DLNontDefs[(DRef a b,DProductions a b)]",
@@ -772,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DNont",
           "package": "ChristmasTree",
@@ -781,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DNont",
           "normalized": "DRef a b-\u003eDSymbol a b",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DPS",
           "package": "ChristmasTree",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DPS",
           "package": "ChristmasTree",
@@ -818,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DRef",
           "package": "ChristmasTree",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DRef",
           "normalized": "DRef(Ref a b,Int)",
@@ -842,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DSeq",
           "package": "ChristmasTree",
@@ -851,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DSeq",
           "normalized": "DSymbol a b-\u003eDProd(a-\u003ec)b-\u003eDProd c b",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "DTerm",
           "package": "ChristmasTree",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "DTerm",
           "normalized": "Token-\u003eDSymbol Token a",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "End",
           "package": "ChristmasTree",
@@ -899,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "End",
           "normalized": "a-\u003eProd a b",
@@ -914,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Grammar",
           "package": "ChristmasTree",
@@ -923,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Grammar",
           "package": "ChristmasTree",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Keyw",
           "package": "ChristmasTree",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Keyw",
           "package": "ChristmasTree",
@@ -958,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Nont",
           "package": "ChristmasTree",
@@ -967,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Nont",
           "normalized": "Ref a b-\u003eSymbol a b",
@@ -982,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Open",
           "package": "ChristmasTree",
@@ -991,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Open",
           "package": "ChristmasTree",
@@ -1004,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "PS",
           "package": "ChristmasTree",
@@ -1013,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "PS",
           "package": "ChristmasTree",
@@ -1026,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Seq",
           "package": "ChristmasTree",
@@ -1035,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Seq",
           "normalized": "Symbol a b-\u003eProd(a-\u003ec)b-\u003eProd c b",
@@ -1050,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "Term",
           "package": "ChristmasTree",
@@ -1059,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "Term",
           "normalized": "Token-\u003eSymbol Token a",
@@ -1074,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "append",
           "package": "ChristmasTree",
@@ -1083,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "append",
           "normalized": "(a-\u003eb-\u003ec)-\u003eProd a d-\u003eSymbol b d-\u003eProd c d",
@@ -1097,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "consD",
           "package": "ChristmasTree",
@@ -1106,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "consD",
           "normalized": "DLNontDefs a b-\u003eEnv DGram b c-\u003eEnv DGram b(c,a)",
@@ -1120,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "consG",
           "package": "ChristmasTree",
@@ -1129,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "consG",
           "normalized": "DGrammar a-\u003eEnv DGram b c-\u003eEnv DGram b(c,a)",
@@ -1143,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "dEnd",
           "package": "ChristmasTree",
@@ -1152,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "dEnd",
           "normalized": "a-\u003eDProd a b",
@@ -1167,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "dNont",
           "package": "ChristmasTree",
@@ -1176,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "dNont",
           "normalized": "(Ref a b,Int)-\u003eDSymbol a b",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "dTerm",
           "package": "ChristmasTree",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "dTerm",
           "normalized": "[Char]-\u003eDSymbol Token a",
@@ -1215,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "ext",
           "package": "ChristmasTree",
@@ -1224,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "ext",
           "normalized": "Env Productions a b-\u003e[Prod c a]-\u003eEnv Productions a(b,c)",
@@ -1239,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003egrammar\u003c/a\u003e\u003c/code\u003e returns the grammar representation of\n   the data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "grammar",
           "package": "ChristmasTree",
@@ -1249,6 +1356,7 @@
         "index": {
           "description": "The function grammar returns the grammar representation of the data type",
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "grammar",
           "package": "ChristmasTree",
@@ -1261,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "matchSym",
           "package": "ChristmasTree",
@@ -1270,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "matchSym",
           "normalized": "Symbol a b-\u003eSymbol c b-\u003eMaybe(Equal a c)",
@@ -1285,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "parenT",
           "package": "ChristmasTree",
@@ -1294,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "parenT",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -1308,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "unDPS",
           "package": "ChristmasTree",
@@ -1317,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "unDPS",
           "normalized": "[DProd a b]",
@@ -1332,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Grammar",
           "name": "unPS",
           "package": "ChristmasTree",
@@ -1341,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Grammar",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Grammar",
           "name": "unPS",
           "normalized": "[Prod a b]",
@@ -1356,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "GramTrafo",
           "package": "ChristmasTree",
@@ -1364,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations GramTrafo",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "GramTrafo",
           "package": "ChristmasTree",
@@ -1377,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "GramTrafo",
           "package": "ChristmasTree",
@@ -1385,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations GramTrafo",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "GramTrafo",
           "package": "ChristmasTree",
@@ -1398,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "MapA_X",
           "package": "ChristmasTree",
@@ -1406,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations GramTrafo",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "MapA_X",
           "package": "ChristmasTree",
@@ -1419,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "Mapping",
           "package": "ChristmasTree",
@@ -1427,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations GramTrafo",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "Mapping",
           "package": "ChristmasTree",
@@ -1440,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "MapA_X",
           "package": "ChristmasTree",
@@ -1449,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations GramTrafo",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "MapA_X",
           "normalized": "MapA_X(a b Symbol c d-\u003eMaybe(Ref(c-\u003ee)f))",
@@ -1464,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "Mapping",
           "package": "ChristmasTree",
@@ -1473,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations GramTrafo",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "Mapping",
           "package": "ChristmasTree",
@@ -1486,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "emptyMap",
           "package": "ChristmasTree",
@@ -1495,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations GramTrafo",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "emptyMap",
           "package": "ChristmasTree",
@@ -1508,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "extendMap",
           "package": "ChristmasTree",
@@ -1517,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations GramTrafo",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "extendMap",
           "normalized": "Symbol a b-\u003eMapA_X b c d-\u003eMapA_X b c(d,a-\u003ec)",
@@ -1532,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "initMap",
           "package": "ChristmasTree",
@@ -1541,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations GramTrafo",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "initMap",
           "normalized": "GramTrafo a b c d e-\u003eTrafo Unit Productions c d e",
@@ -1556,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "map2trans",
           "package": "ChristmasTree",
@@ -1565,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations GramTrafo",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "map2trans",
           "normalized": "Mapping a b-\u003eT a b",
@@ -1579,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "mapProd",
           "package": "ChristmasTree",
@@ -1588,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations GramTrafo",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "mapProd",
           "normalized": "T a a-\u003eProd b a-\u003eProd b a",
@@ -1603,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "newNontR",
           "package": "ChristmasTree",
@@ -1612,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations GramTrafo",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.GramTrafo",
           "name": "newNontR",
           "normalized": "a b c d e Symbol b c-\u003eGramTrafo c f d(Productions(b-\u003ef)d)(Ref(b-\u003ef)d)",
@@ -1627,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "Group",
           "package": "ChristmasTree",
@@ -1635,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "Group",
           "package": "ChristmasTree",
@@ -1648,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "DMapping",
           "package": "ChristmasTree",
@@ -1656,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "DMapping",
           "package": "ChristmasTree",
@@ -1669,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "DT",
           "package": "ChristmasTree",
@@ -1677,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "DT",
           "package": "ChristmasTree",
@@ -1690,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "GTrafo",
           "package": "ChristmasTree",
@@ -1698,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "GTrafo",
           "package": "ChristmasTree",
@@ -1711,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "ListDR",
           "package": "ChristmasTree",
@@ -1719,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "ListDR",
           "package": "ChristmasTree",
@@ -1732,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "DMapping",
           "package": "ChristmasTree",
@@ -1741,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "DMapping",
           "package": "ChristmasTree",
@@ -1754,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "DT",
           "package": "ChristmasTree",
@@ -1763,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "DT",
           "package": "ChristmasTree",
@@ -1776,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "ListDR",
           "package": "ChristmasTree",
@@ -1785,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "ListDR",
           "package": "ChristmasTree",
@@ -1798,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "dmap2trans",
           "package": "ChristmasTree",
@@ -1807,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "dmap2trans",
           "normalized": "DMapping a b-\u003eDT a b",
@@ -1821,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "dp2prod",
           "package": "ChristmasTree",
@@ -1830,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "dp2prod",
           "normalized": "DProd a b-\u003eGTrafo c(DT b c)(Prod a c)",
@@ -1844,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "gDGrams",
           "package": "ChristmasTree",
@@ -1853,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "gDGrams",
           "normalized": "Env DGram a b-\u003eGTrafo c(DT a c)(DMapping b c)",
@@ -1868,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "gGrammar",
           "package": "ChristmasTree",
@@ -1877,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "gGrammar",
           "normalized": "DGrammar a-\u003eGTrafo b c(ListDR a b)",
@@ -1892,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "group",
           "package": "ChristmasTree",
@@ -1901,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "group",
           "normalized": "DGrammar a-\u003eGrammar a",
@@ -1915,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "ld2nt",
           "package": "ChristmasTree",
@@ -1924,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "ld2nt",
           "normalized": "(DRef a b,DProductions a b)-\u003eGTrafo c(DT b c)(DRef a c)",
@@ -1938,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "mapDP2Prod",
           "package": "ChristmasTree",
@@ -1947,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "mapDP2Prod",
           "normalized": "DT a a-\u003eDProd b a-\u003eProd b a",
@@ -1962,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "plookup",
           "package": "ChristmasTree",
@@ -1971,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "plookup",
           "normalized": "Int-\u003e[DRef a b]-\u003eRef a b",
@@ -1985,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "unDMapping",
           "package": "ChristmasTree",
@@ -1994,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "unDMapping",
           "package": "ChristmasTree",
@@ -2007,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "unDT",
           "package": "ChristmasTree",
@@ -2016,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "unDT",
           "normalized": "a b DRef c d-\u003eRef c d",
@@ -2031,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.Group",
           "name": "unListDR",
           "package": "ChristmasTree",
@@ -2040,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations Group",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.Group",
           "name": "unListDR",
           "normalized": "[DRef a b]",
@@ -2055,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.LeftCorner",
           "name": "LeftCorner",
           "package": "ChristmasTree",
@@ -2063,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations LeftCorner",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.LeftCorner",
           "name": "LeftCorner",
           "package": "ChristmasTree",
@@ -2076,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.LeftCorner",
           "name": "leftcorner",
           "package": "ChristmasTree",
@@ -2085,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations LeftCorner",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.LeftCorner",
           "name": "leftcorner",
           "normalized": "a b Grammar c-\u003eGrammar c",
@@ -2099,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.LeftFact",
           "name": "LeftFact",
           "package": "ChristmasTree",
@@ -2107,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations LeftFact",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.LeftFact",
           "name": "LeftFact",
           "package": "ChristmasTree",
@@ -2120,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead.Transformations.LeftFact",
           "name": "leftfactoring",
           "package": "ChristmasTree",
@@ -2129,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Text GRead Transformations LeftFact",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead.Transformations.LeftFact",
           "name": "leftfactoring",
           "normalized": "a b Grammar c-\u003eGrammar c",
@@ -2144,6 +2330,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlternative approach of \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e that composes grammars instead \n    of parsers. Grammars describing the data types are composed\n    dynamically, removing possible left-recursion and combining\n    common prefixes of alternatives.   \n\u003c/p\u003e\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003egread\u003c/a\u003e\u003c/code\u003e defined here is able to handle the \n    associativities defined for infix operators.\n\u003c/p\u003e\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003egread\u003c/a\u003e\u003c/code\u003e reads data in linear time, while the \n    function \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e has an exponential behavior in some cases \n    of data types with infix operators.\n\u003c/p\u003e\u003cp\u003eNon uniform data types are not supported, because they\n    generate infinite grammars.\n\u003c/p\u003e\u003cp\u003eThe library is documented in the paper: \u003cem\u003eHaskell, do you read me?: constructing and composing efficient top-down parsers at runtime\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eBibtex entry: \u003ca\u003ehttp://www.cs.uu.nl/wiki/bin/viewfile/Center/TTTAS?rev=1;filename=GRead.bib\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eFor more documentation see the TTTAS webpage: \u003ca\u003ehttp://www.cs.uu.nl/wiki/bin/view/Center/TTTAS\u003c/a\u003e .\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead",
           "name": "GRead",
           "package": "ChristmasTree",
@@ -2153,6 +2340,7 @@
         "index": {
           "description": "Alternative approach of read that composes grammars instead of parsers Grammars describing the data types are composed dynamically removing possible left-recursion and combining common prefixes of alternatives The function gread defined here is able to handle the associativities defined for infix operators The function gread reads data in linear time while the function read has an exponential behavior in some cases of data types with infix operators Non uniform data types are not supported because they generate infinite grammars The library is documented in the paper Haskell do you read me constructing and composing efficient top-down parsers at runtime Bibtex entry http www.cs.uu.nl wiki bin viewfile Center TTTAS rev filename GRead.bib For more documentation see the TTTAS webpage http www.cs.uu.nl wiki bin view Center TTTAS",
           "hierarchy": "Text GRead",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead",
           "name": "GRead",
           "package": "ChristmasTree",
@@ -2167,6 +2355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of error repair messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead",
           "name": "GReadMsg",
           "package": "ChristmasTree",
@@ -2176,6 +2365,7 @@
         "index": {
           "description": "Type of error repair messages",
           "hierarchy": "Text GRead",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead",
           "name": "GReadMsg",
           "package": "ChristmasTree",
@@ -2190,6 +2380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of \u003ccode\u003e\u003ca\u003egread\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead",
           "name": "GReadResult",
           "package": "ChristmasTree",
@@ -2199,6 +2390,7 @@
         "index": {
           "description": "Type of gread results",
           "hierarchy": "Text GRead",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead",
           "name": "GReadResult",
           "package": "ChristmasTree",
@@ -2212,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead",
           "name": "Ok",
           "package": "ChristmasTree",
@@ -2221,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "Text GRead",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead",
           "name": "Ok",
           "package": "ChristmasTree",
@@ -2234,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead",
           "name": "Rep",
           "package": "ChristmasTree",
@@ -2243,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "Text GRead",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead",
           "name": "Rep",
           "normalized": "Rep a[GReadMsg]",
@@ -2259,6 +2455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egread\u003c/a\u003e\u003c/code\u003e reads input from a string, which must be \n   completely consumed by the input process.\n   Returns \u003ccode\u003eOk value\u003c/code\u003e on a successful parse.\n   Otherwise returns \u003ccode\u003eRep value msgs\u003c/code\u003e, where the \u003ccode\u003evalue\u003c/code\u003e\n   results of parsing a repaired input. The list \u003ccode\u003emsgs\u003c/code\u003e \n   contains the \"corrections\" done to the input.\n\u003c/p\u003e\u003cp\u003eFor example, a \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e-like implementation can be:\n\u003c/p\u003e\u003cpre\u003e read :: (Gram a) =\u003e String -\u003e a\n read input = case gread input of\n                  Ok  a       -\u003e a\n                  Rep _ (m:_) -\u003e error $ show m\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GRead",
           "name": "gread",
           "package": "ChristmasTree",
@@ -2269,6 +2466,7 @@
         "index": {
           "description": "The gread reads input from string which must be completely consumed by the input process Returns Ok value on successful parse Otherwise returns Rep value msgs where the value results of parsing repaired input The list msgs contains the corrections done to the input For example read like implementation can be read Gram String read input case gread input of Ok Rep error show",
           "hierarchy": "Text GRead",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GRead",
           "name": "gread",
           "normalized": "String-\u003eGReadResult a",
@@ -2283,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GShow",
           "name": "GShow",
           "package": "ChristmasTree",
@@ -2291,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Text GShow",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GShow",
           "name": "GShow",
           "package": "ChristmasTree",
@@ -2304,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GShow",
           "name": "GShow",
           "package": "ChristmasTree",
@@ -2312,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Text GShow",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GShow",
           "name": "GShow",
           "package": "ChristmasTree",
@@ -2325,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GShow",
           "name": "app_prec",
           "package": "ChristmasTree",
@@ -2334,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Text GShow",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GShow",
           "name": "app_prec",
           "package": "ChristmasTree",
@@ -2346,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GShow",
           "name": "deriveShow",
           "package": "ChristmasTree",
@@ -2355,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Text GShow",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GShow",
           "name": "deriveShow",
           "normalized": "Name-\u003eQ[Dec]",
@@ -2370,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GShow",
           "name": "gshow",
           "package": "ChristmasTree",
@@ -2379,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Text GShow",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GShow",
           "name": "gshow",
           "normalized": "a-\u003eString",
@@ -2393,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:39 UTC 2014",
           "module": "Text.GShow",
           "name": "gshowsPrec",
           "package": "ChristmasTree",
@@ -2402,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Text GShow",
+          "indexed": "2014-03-11T16:36:39",
           "module": "Text.GShow",
           "name": "gshowsPrec",
           "normalized": "Int-\u003ea-\u003eShowS",

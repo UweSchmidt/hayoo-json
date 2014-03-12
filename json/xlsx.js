@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xlsx"
+        "phrase": "xlsx",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx.Parser",
           "name": "Parser",
           "package": "xlsx",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Parser",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx.Parser",
           "name": "Parser",
           "package": "xlsx",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet data from specified worksheet as conduit source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx.Parser",
           "name": "cellSource",
           "package": "xlsx",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Get data from specified worksheet as conduit source",
           "hierarchy": "Codec Xlsx Parser",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx.Parser",
           "name": "cellSource",
           "normalized": "Xlsx-\u003eInt-\u003e[Text]-\u003eSource a[Cell]",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx.Parser",
           "name": "sheet",
           "package": "xlsx",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Parser",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx.Parser",
           "name": "sheet",
           "normalized": "Xlsx-\u003eInt-\u003ea Worksheet",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all rows from specified worksheet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx.Parser",
           "name": "sheetRowSource",
           "package": "xlsx",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Get all rows from specified worksheet",
           "hierarchy": "Codec Xlsx Parser",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx.Parser",
           "name": "sheetRowSource",
           "normalized": "Xlsx-\u003eInt-\u003eSource a MapRow",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead archive and preload \u003ccode\u003e\u003ca\u003eXlsx\u003c/a\u003e\u003c/code\u003e fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx.Parser",
           "name": "xlsx",
           "package": "xlsx",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Read archive and preload Xlsx fields",
           "hierarchy": "Codec Xlsx Parser",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx.Parser",
           "name": "xlsx",
           "normalized": "FilePath-\u003eIO Xlsx",
@@ -139,6 +149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx.Writer",
           "name": "Writer",
           "package": "xlsx",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Writer",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx.Writer",
           "name": "Writer",
           "package": "xlsx",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrites list of worksheets as xlsx file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx.Writer",
           "name": "writeXlsx",
           "package": "xlsx",
@@ -171,6 +184,7 @@
         "index": {
           "description": "writes list of worksheets as xlsx file",
           "hierarchy": "Codec Xlsx Writer",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx.Writer",
           "name": "writeXlsx",
           "normalized": "FilePath-\u003e[Worksheet]-\u003eIO()",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrites list of worksheets and their styling as xlsx file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx.Writer",
           "name": "writeXlsxStyles",
           "package": "xlsx",
@@ -197,6 +212,7 @@
         "index": {
           "description": "writes list of worksheets and their styling as xlsx file",
           "hierarchy": "Codec Xlsx Writer",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx.Writer",
           "name": "writeXlsxStyles",
           "normalized": "FilePath-\u003eByteString-\u003e[Worksheet]-\u003eIO()",
@@ -212,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "Xlsx",
           "package": "xlsx",
@@ -220,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "Xlsx",
           "package": "xlsx",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "Cell",
           "package": "xlsx",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "Cell",
           "package": "xlsx",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "CellData",
           "package": "xlsx",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "CellData",
           "package": "xlsx",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "CellValue",
           "package": "xlsx",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "CellValue",
           "package": "xlsx",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColumn range (from cwMin to cwMax) width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "ColumnsWidth",
           "package": "xlsx",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Column range from cwMin to cwMax width",
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "ColumnsWidth",
           "package": "xlsx",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "RowHeights",
           "package": "xlsx",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "RowHeights",
           "package": "xlsx",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "Styles",
           "package": "xlsx",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "Styles",
           "package": "xlsx",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "Worksheet",
           "package": "xlsx",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "Worksheet",
           "package": "xlsx",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "WorksheetFile",
           "package": "xlsx",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "WorksheetFile",
           "package": "xlsx",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "Xlsx",
           "package": "xlsx",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "Xlsx",
           "package": "xlsx",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "Cell",
           "package": "xlsx",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "Cell",
           "package": "xlsx",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "CellData",
           "package": "xlsx",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "CellData",
           "package": "xlsx",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "CellDouble",
           "package": "xlsx",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "CellDouble",
           "package": "xlsx",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "CellLocalTime",
           "package": "xlsx",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "CellLocalTime",
           "package": "xlsx",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "CellText",
           "package": "xlsx",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "CellText",
           "package": "xlsx",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "ColumnsWidth",
           "package": "xlsx",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "ColumnsWidth",
           "package": "xlsx",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "Styles",
           "package": "xlsx",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "Styles",
           "package": "xlsx",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "Worksheet",
           "package": "xlsx",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "Worksheet",
           "package": "xlsx",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "WorksheetFile",
           "package": "xlsx",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "WorksheetFile",
           "package": "xlsx",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "Xlsx",
           "package": "xlsx",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "Xlsx",
           "package": "xlsx",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "cdStyle",
           "package": "xlsx",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "cdStyle",
           "package": "xlsx",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "cdValue",
           "package": "xlsx",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "cdValue",
           "package": "xlsx",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "cellData",
           "package": "xlsx",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "cellData",
           "package": "xlsx",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "cellIx",
           "package": "xlsx",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "cellIx",
           "normalized": "(Text,Int)",
@@ -735,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereverse to \u003ccode\u003e\u003ca\u003eint2col\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "col2int",
           "package": "xlsx",
@@ -745,6 +810,7 @@
         "index": {
           "description": "reverse to int2col",
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "col2int",
           "normalized": "Text-\u003eInt",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "cwMax",
           "package": "xlsx",
@@ -768,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "cwMax",
           "package": "xlsx",
@@ -781,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "cwMin",
           "package": "xlsx",
@@ -790,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "cwMin",
           "package": "xlsx",
@@ -803,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "cwWidth",
           "package": "xlsx",
@@ -812,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "cwWidth",
           "package": "xlsx",
@@ -826,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efold worksheet by row, then by column, so for region A1:B2 you'll get fold order like A1, A2, B1, B2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "foldRows",
           "package": "xlsx",
@@ -836,6 +909,7 @@
         "index": {
           "description": "fold worksheet by row then by column so for region A1 B2 you ll get fold order like A1 A2 B1 B2",
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "foldRows",
           "normalized": "(Int-\u003eInt-\u003eMaybe CellData-\u003ea-\u003ea)-\u003ea-\u003eWorksheet-\u003ea",
@@ -851,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "fromList",
           "package": "xlsx",
@@ -860,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "fromList",
           "normalized": "Text-\u003e[ColumnsWidth]-\u003eRowHeights-\u003e[[Maybe CellData]]-\u003eWorksheet",
@@ -876,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert column number (starting from 1) to its textual form (e.g. 3 -\u003e \u003ca\u003eC\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "int2col",
           "package": "xlsx",
@@ -886,6 +963,7 @@
         "index": {
           "description": "convert column number starting from to its textual form e.g",
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "int2col",
           "normalized": "Int-\u003eText",
@@ -900,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "toList",
           "package": "xlsx",
@@ -909,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "toList",
           "normalized": "Worksheet-\u003e[[Maybe CellData]]",
@@ -924,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "wfName",
           "package": "xlsx",
@@ -933,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "wfName",
           "package": "xlsx",
@@ -946,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "wfPath",
           "package": "xlsx",
@@ -955,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "wfPath",
           "package": "xlsx",
@@ -969,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata mapped by (column, row) pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "wsCells",
           "package": "xlsx",
@@ -979,6 +1064,7 @@
         "index": {
           "description": "data mapped by column row pairs",
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "wsCells",
           "normalized": "Map(Int,Int)CellData",
@@ -995,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolumn widths\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "wsColumns",
           "package": "xlsx",
@@ -1005,6 +1092,7 @@
         "index": {
           "description": "column widths",
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "wsColumns",
           "normalized": "[ColumnsWidth]",
@@ -1021,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaximum non-empty column number (1-based)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "wsMaxX",
           "package": "xlsx",
@@ -1031,6 +1120,7 @@
         "index": {
           "description": "maximum non-empty column number based",
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "wsMaxX",
           "package": "xlsx",
@@ -1045,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaximum non-empty row number (1-based)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "wsMaxY",
           "package": "xlsx",
@@ -1055,6 +1146,7 @@
         "index": {
           "description": "maximum non-empty row number based",
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "wsMaxY",
           "package": "xlsx",
@@ -1069,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eminimum non-empty column number (1-based)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "wsMinX",
           "package": "xlsx",
@@ -1079,6 +1172,7 @@
         "index": {
           "description": "minimum non-empty column number based",
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "wsMinX",
           "package": "xlsx",
@@ -1093,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eminimum non-empty row number (1-based)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "wsMinY",
           "package": "xlsx",
@@ -1103,6 +1198,7 @@
         "index": {
           "description": "minimum non-empty row number based",
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "wsMinY",
           "package": "xlsx",
@@ -1117,6 +1213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eworksheet name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "wsName",
           "package": "xlsx",
@@ -1127,6 +1224,7 @@
         "index": {
           "description": "worksheet name",
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "wsName",
           "package": "xlsx",
@@ -1141,6 +1239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecustom row height map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "wsRowHeights",
           "package": "xlsx",
@@ -1151,6 +1250,7 @@
         "index": {
           "description": "custom row height map",
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "wsRowHeights",
           "package": "xlsx",
@@ -1164,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "xlArchive",
           "package": "xlsx",
@@ -1173,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "xlArchive",
           "package": "xlsx",
@@ -1186,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "xlSharedStrings",
           "package": "xlsx",
@@ -1195,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "xlSharedStrings",
           "package": "xlsx",
@@ -1208,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "xlStyles",
           "package": "xlsx",
@@ -1217,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "xlStyles",
           "package": "xlsx",
@@ -1230,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:53 UTC 2014",
           "module": "Codec.Xlsx",
           "name": "xlWorksheetFiles",
           "package": "xlsx",
@@ -1239,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx",
+          "indexed": "2014-03-11T20:41:53",
           "module": "Codec.Xlsx",
           "name": "xlWorksheetFiles",
           "normalized": "[WorksheetFile]",

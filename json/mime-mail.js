@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mime-mail"
+        "phrase": "mime-mail",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "Mime",
           "package": "mime-mail",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "Mime",
           "package": "mime-mail",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "Address",
           "package": "mime-mail",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "Address",
           "package": "mime-mail",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple alternative representations of the same data. For example, you\n could provide a plain-text and HTML version of a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "Alternatives",
           "package": "mime-mail",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Multiple alternative representations of the same data For example you could provide plain-text and HTML version of message",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "Alternatives",
           "package": "mime-mail",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMIME boundary between parts of a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "Boundary",
           "package": "mime-mail",
@@ -93,6 +100,7 @@
         "index": {
           "description": "MIME boundary between parts of message",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "Boundary",
           "package": "mime-mail",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to encode a single part. You should use \u003ccode\u003e\u003ca\u003eBase64\u003c/a\u003e\u003c/code\u003e for binary data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "Encoding",
           "package": "mime-mail",
@@ -116,6 +125,7 @@
         "index": {
           "description": "How to encode single part You should use Base64 for binary data",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "Encoding",
           "package": "mime-mail",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entire mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "Mail",
           "package": "mime-mail",
@@ -139,6 +150,7 @@
         "index": {
           "description": "An entire mail message",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "Mail",
           "package": "mime-mail",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single part of a multipart message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "Part",
           "package": "mime-mail",
@@ -162,6 +175,7 @@
         "index": {
           "description": "single part of multipart message",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "Part",
           "package": "mime-mail",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "Address",
           "package": "mime-mail",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "Address",
           "package": "mime-mail",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "Base64",
           "package": "mime-mail",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "Base64",
           "package": "mime-mail",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "Boundary",
           "package": "mime-mail",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "Boundary",
           "package": "mime-mail",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "Mail",
           "package": "mime-mail",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "Mail",
           "package": "mime-mail",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "None",
           "package": "mime-mail",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "None",
           "package": "mime-mail",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "Part",
           "package": "mime-mail",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "Part",
           "package": "mime-mail",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "QuotedPrintableBinary",
           "package": "mime-mail",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "QuotedPrintableBinary",
           "package": "mime-mail",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "QuotedPrintableText",
           "package": "mime-mail",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "QuotedPrintableText",
           "package": "mime-mail",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an attachment from a file and construct a \u003ccode\u003e\u003ca\u003ePart\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "addAttachment",
           "package": "mime-mail",
@@ -362,6 +393,7 @@
         "index": {
           "description": "Add an attachment from file and construct Part",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "addAttachment",
           "normalized": "Text-\u003eFilePath-\u003eMail-\u003eIO Mail",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "addAttachments",
           "package": "mime-mail",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "addAttachments",
           "normalized": "[(Text,FilePath)]-\u003eMail-\u003eIO Mail",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "addPart",
           "package": "mime-mail",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "addPart",
           "normalized": "Alternatives-\u003eMail-\u003eMail",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "addressEmail",
           "package": "mime-mail",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "addressEmail",
           "package": "mime-mail",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "addressName",
           "package": "mime-mail",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "addressName",
           "package": "mime-mail",
@@ -470,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mail message with the provided \u003ccode\u003efrom\u003c/code\u003e address and no other\n fields filled in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "emptyMail",
           "package": "mime-mail",
@@ -480,6 +521,7 @@
         "index": {
           "description": "mail message with the provided from address and no other fields filled in",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "emptyMail",
           "normalized": "Address-\u003eMail",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a UTF-8-encoded html \u003ccode\u003e\u003ca\u003ePart\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "htmlPart",
           "package": "mime-mail",
@@ -506,6 +549,7 @@
         "index": {
           "description": "Construct UTF-8-encoded html Part",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "htmlPart",
           "normalized": "Text-\u003ePart",
@@ -521,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "mailBcc",
           "package": "mime-mail",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "mailBcc",
           "normalized": "[Address]",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "mailCc",
           "package": "mime-mail",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "mailCc",
           "normalized": "[Address]",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "mailFrom",
           "package": "mime-mail",
@@ -578,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "mailFrom",
           "package": "mime-mail",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther headers, excluding from, to, cc and bcc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "mailHeaders",
           "package": "mime-mail",
@@ -602,6 +653,7 @@
         "index": {
           "description": "Other headers excluding from to cc and bcc",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "mailHeaders",
           "normalized": "[(ByteString,Text)]",
@@ -618,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of different sets of alternatives. As a concrete example:\n\u003c/p\u003e\u003cpre\u003e mailParts = [ [textVersion, htmlVersion], [attachment1], [attachment1]]\n\u003c/pre\u003e\u003cp\u003eMake sure when specifying alternatives to place the most preferred\n version last.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "mailParts",
           "package": "mime-mail",
@@ -628,6 +681,7 @@
         "index": {
           "description": "list of different sets of alternatives As concrete example mailParts textVersion htmlVersion attachment1 attachment1 Make sure when specifying alternatives to place the most preferred version last",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "mailParts",
           "normalized": "[Alternatives]",
@@ -643,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "mailTo",
           "package": "mime-mail",
@@ -652,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "mailTo",
           "normalized": "[Address]",
@@ -667,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "partContent",
           "package": "mime-mail",
@@ -676,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "partContent",
           "package": "mime-mail",
@@ -689,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "partEncoding",
           "package": "mime-mail",
@@ -698,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "partEncoding",
           "package": "mime-mail",
@@ -712,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe filename for this part, if it is to be sent with an attachemnt\n disposition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "partFilename",
           "package": "mime-mail",
@@ -722,6 +783,7 @@
         "index": {
           "description": "The filename for this part if it is to be sent with an attachemnt disposition",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "partFilename",
           "package": "mime-mail",
@@ -735,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "partHeaders",
           "package": "mime-mail",
@@ -744,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "partHeaders",
           "package": "mime-mail",
@@ -758,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtent type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "partType",
           "package": "mime-mail",
@@ -768,6 +833,7 @@
         "index": {
           "description": "content type",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "partType",
           "package": "mime-mail",
@@ -782,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a UTF-8-encoded plain-text \u003ccode\u003e\u003ca\u003ePart\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "plainPart",
           "package": "mime-mail",
@@ -792,6 +859,7 @@
         "index": {
           "description": "Construct UTF-8-encoded plain-text Part",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "plainPart",
           "normalized": "Text-\u003ePart",
@@ -808,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first parameter denotes whether the input should be treated as text.\n If treated as text, then CRs will be stripped and LFs output as CRLFs. If\n binary, then CRs and LFs will be escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "quotedPrintable",
           "package": "mime-mail",
@@ -818,6 +887,7 @@
         "index": {
           "description": "The first parameter denotes whether the input should be treated as text If treated as text then CRs will be stripped and LFs output as CRLFs If binary then CRs and LFs will be escaped",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "quotedPrintable",
           "normalized": "Bool-\u003eByteString-\u003eBuilder",
@@ -834,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a random sequence of alphanumerics of the given length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "randomString",
           "package": "mime-mail",
@@ -844,6 +915,7 @@
         "index": {
           "description": "Generates random sequence of alphanumerics of the given length",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "randomString",
           "normalized": "Int-\u003ea-\u003e(String,a)",
@@ -860,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e with a given \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e for producing boundaries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "renderMail",
           "package": "mime-mail",
@@ -870,6 +943,7 @@
         "index": {
           "description": "Render Mail with given RandomGen for producing boundaries",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "renderMail",
           "normalized": "a-\u003eMail-\u003e(ByteString,a)",
@@ -886,6 +960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erenderMail\u003c/a\u003e\u003c/code\u003e, but generates a random boundary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "renderMail'",
           "package": "mime-mail",
@@ -896,6 +971,7 @@
         "index": {
           "description": "Like renderMail but generates random boundary",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "renderMail'",
           "normalized": "Mail-\u003eIO ByteString",
@@ -912,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an email message and send via the default sendmail\n executable with default options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "renderSendMail",
           "package": "mime-mail",
@@ -922,6 +999,7 @@
         "index": {
           "description": "Render an email message and send via the default sendmail executable with default options",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "renderSendMail",
           "normalized": "Mail-\u003eIO()",
@@ -938,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an email message and send via the specified sendmail\n executable with specified options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "renderSendMailCustom",
           "package": "mime-mail",
@@ -947,6 +1026,7 @@
         "index": {
           "description": "Render an email message and send via the specified sendmail executable with specified options",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "renderSendMailCustom",
           "normalized": "FilePath-\u003e[String]-\u003eMail-\u003eIO()",
@@ -963,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a fully-formed email message via the default sendmail\n executable with default options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "sendmail",
           "package": "mime-mail",
@@ -973,6 +1054,7 @@
         "index": {
           "description": "Send fully-formed email message via the default sendmail executable with default options",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "sendmail",
           "normalized": "ByteString-\u003eIO()",
@@ -988,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a fully-formed email message via the specified sendmail\n executable with specified options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "sendmailCustom",
           "package": "mime-mail",
@@ -997,6 +1080,7 @@
         "index": {
           "description": "Send fully-formed email message via the specified sendmail executable with specified options",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "sendmailCustom",
           "normalized": "FilePath-\u003e[String]-\u003eByteString-\u003eIO()",
@@ -1013,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple interface for generating an email with HTML and plain-text\n alternatives and some file attachments.\n\u003c/p\u003e\u003cp\u003eNote that we use lazy IO for reading in the attachment contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "simpleMail",
           "package": "mime-mail",
@@ -1022,6 +1107,7 @@
         "index": {
           "description": "simple interface for generating an email with HTML and plain-text alternatives and some file attachments Note that we use lazy IO for reading in the attachment contents",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "simpleMail",
           "normalized": "Address-\u003eAddress-\u003eText-\u003eText-\u003eText-\u003e[(Text,FilePath)]-\u003eIO Mail",
@@ -1038,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple interface for generating an email with only plain-text body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "simpleMail'",
           "package": "mime-mail",
@@ -1048,6 +1135,7 @@
         "index": {
           "description": "simple interface for generating an email with only plain-text body",
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "simpleMail'",
           "normalized": "Address-\u003eAddress-\u003eText-\u003eText-\u003eMail",
@@ -1063,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:51 UTC 2014",
           "module": "Network.Mail.Mime",
           "name": "unBoundary",
           "package": "mime-mail",
@@ -1072,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime",
+          "indexed": "2014-03-11T19:17:51",
           "module": "Network.Mail.Mime",
           "name": "unBoundary",
           "package": "mime-mail",

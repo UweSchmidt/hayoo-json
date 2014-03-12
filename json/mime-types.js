@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mime-types"
+        "phrase": "mime-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:59 UTC 2014",
           "module": "Network.Mime",
           "name": "Mime",
           "package": "mime-types",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Mime",
+          "indexed": "2014-03-11T19:17:59",
           "module": "Network.Mime",
           "name": "Mime",
           "package": "mime-types",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath extension. May include multiple components, e.g. tar.gz\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:59 UTC 2014",
           "module": "Network.Mime",
           "name": "Extension",
           "package": "mime-types",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Path extension May include multiple components e.g tar.gz",
           "hierarchy": "Network Mime",
+          "indexed": "2014-03-11T19:17:59",
           "module": "Network.Mime",
           "name": "Extension",
           "package": "mime-types",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe filename component of a filepath, leaving off the directory but\n keeping all extensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:59 UTC 2014",
           "module": "Network.Mime",
           "name": "FileName",
           "package": "mime-types",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The filename component of filepath leaving off the directory but keeping all extensions",
           "hierarchy": "Network Mime",
+          "indexed": "2014-03-11T19:17:59",
           "module": "Network.Mime",
           "name": "FileName",
           "package": "mime-types",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps extensions to mime types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:59 UTC 2014",
           "module": "Network.Mime",
           "name": "MimeMap",
           "package": "mime-types",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Maps extensions to mime types",
           "hierarchy": "Network Mime",
+          "indexed": "2014-03-11T19:17:59",
           "module": "Network.Mime",
           "name": "MimeMap",
           "package": "mime-types",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndividual mime type for be served over the wire.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:59 UTC 2014",
           "module": "Network.Mime",
           "name": "MimeType",
           "package": "mime-types",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Individual mime type for be served over the wire",
           "hierarchy": "Network Mime",
+          "indexed": "2014-03-11T19:17:59",
           "module": "Network.Mime",
           "name": "MimeType",
           "package": "mime-types",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emimeByExt\u003c/code\u003e applied to \u003ccode\u003edefaultMimeType\u003c/code\u003e and \u003ccode\u003edefaultMimeMap\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:59 UTC 2014",
           "module": "Network.Mime",
           "name": "defaultMimeLookup",
           "package": "mime-types",
@@ -142,6 +153,7 @@
         "index": {
           "description": "mimeByExt applied to defaultMimeType and defaultMimeMap",
           "hierarchy": "Network Mime",
+          "indexed": "2014-03-11T19:17:59",
           "module": "Network.Mime",
           "name": "defaultMimeLookup",
           "normalized": "FileName-\u003eMimeType",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default mapping from filename extension to mime type.\n\u003c/p\u003e\u003cp\u003eGenerated from the Apache and nginx mime.types files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:59 UTC 2014",
           "module": "Network.Mime",
           "name": "defaultMimeMap",
           "package": "mime-types",
@@ -168,6 +181,7 @@
         "index": {
           "description": "default mapping from filename extension to mime type Generated from the Apache and nginx mime.types files",
           "hierarchy": "Network Mime",
+          "indexed": "2014-03-11T19:17:59",
           "module": "Network.Mime",
           "name": "defaultMimeMap",
           "package": "mime-types",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default fallback mime type \"application/octet-stream\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:59 UTC 2014",
           "module": "Network.Mime",
           "name": "defaultMimeType",
           "package": "mime-types",
@@ -192,6 +207,7 @@
         "index": {
           "description": "The default fallback mime type application octet-stream",
           "hierarchy": "Network Mime",
+          "indexed": "2014-03-11T19:17:59",
           "module": "Network.Mime",
           "name": "defaultMimeType",
           "package": "mime-types",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all of the file name extensions from a piece.\n\u003c/p\u003e\u003cpre\u003e pieceExtensions \"foo.tar.gz\" == [\"tar.gz\", \"gz\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:17:59 UTC 2014",
           "module": "Network.Mime",
           "name": "fileNameExtensions",
           "package": "mime-types",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Get list of all of the file name extensions from piece pieceExtensions foo.tar.gz tar.gz gz",
           "hierarchy": "Network Mime",
+          "indexed": "2014-03-11T19:17:59",
           "module": "Network.Mime",
           "name": "fileNameExtensions",
           "normalized": "FileName-\u003e[Extension]",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a mime type from the given mime map and default mime type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:59 UTC 2014",
           "module": "Network.Mime",
           "name": "mimeByExt",
           "package": "mime-types",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Look up mime type from the given mime map and default mime type",
           "hierarchy": "Network Mime",
+          "indexed": "2014-03-11T19:17:59",
           "module": "Network.Mime",
           "name": "mimeByExt",
           "normalized": "MimeMap-\u003eMimeType-\u003eFileName-\u003eMimeType",

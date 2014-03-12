@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HGamer3D-Bullet-Binding"
+        "phrase": "HGamer3D-Bullet-Binding",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassActionInterface",
           "name": "ClassActionInterface",
           "package": "HGamer3D-Bullet-Binding",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassActionInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassActionInterface",
           "name": "ClassActionInterface",
           "package": "HGamer3D-Bullet-Binding",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassActionInterface",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassActionInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassActionInterface",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassActionInterface",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassActionInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassActionInterface",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassActionInterface",
           "name": "updateAction",
           "package": "HGamer3D-Bullet-Binding",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassActionInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassActionInterface",
           "name": "updateAction",
           "normalized": "HG DClass-\u003eHG DClass-\u003eFloat-\u003eIO()",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassActionInterface",
           "name": "updateAction'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassActionInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassActionInterface",
           "name": "updateAction'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eCFloat-\u003eIO()",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "ClassBroadphaseInterface",
           "package": "HGamer3D-Bullet-Binding",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassBroadphaseInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "ClassBroadphaseInterface",
           "package": "HGamer3D-Bullet-Binding",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "calculateOverlappingPairs",
           "package": "HGamer3D-Bullet-Binding",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassBroadphaseInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "calculateOverlappingPairs",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "calculateOverlappingPairs'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassBroadphaseInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "calculateOverlappingPairs'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassBroadphaseInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassBroadphaseInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "getBroadphaseAabb",
           "package": "HGamer3D-Bullet-Binding",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassBroadphaseInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "getBroadphaseAabb",
           "normalized": "HG DClass-\u003eIO(Vec,Vec)",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "getBroadphaseAabb'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassBroadphaseInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "getBroadphaseAabb'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eVec Ptr-\u003eIO()",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "printStats",
           "package": "HGamer3D-Bullet-Binding",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassBroadphaseInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "printStats",
           "normalized": "HG DClass-\u003eIO()",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "printStats'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassBroadphaseInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "printStats'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "resetPool",
           "package": "HGamer3D-Bullet-Binding",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassBroadphaseInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "resetPool",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "resetPool'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassBroadphaseInterface",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassBroadphaseInterface",
           "name": "resetPool'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeX",
           "name": "ClassCapsuleShapeX",
           "package": "HGamer3D-Bullet-Binding",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCapsuleShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeX",
           "name": "ClassCapsuleShapeX",
           "package": "HGamer3D-Bullet-Binding",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeX",
           "name": "getName",
           "package": "HGamer3D-Bullet-Binding",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCapsuleShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeX",
           "name": "getName",
           "normalized": "HG DClass-\u003eIO String",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeX",
           "name": "getName'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCapsuleShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeX",
           "name": "getName'_",
           "normalized": "HG DClassPtr-\u003ePtr CChar-\u003eIO()",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeX",
           "name": "new",
           "package": "HGamer3D-Bullet-Binding",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCapsuleShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeX",
           "name": "new",
           "normalized": "Float-\u003eFloat-\u003eIO HG DClass",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeX",
           "name": "new'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCapsuleShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeX",
           "name": "new'_",
           "normalized": "CFloat-\u003eCFloat-\u003eHG DClassPtr-\u003eIO()",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeZ",
           "name": "ClassCapsuleShapeZ",
           "package": "HGamer3D-Bullet-Binding",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCapsuleShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeZ",
           "name": "ClassCapsuleShapeZ",
           "package": "HGamer3D-Bullet-Binding",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeZ",
           "name": "getName",
           "package": "HGamer3D-Bullet-Binding",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCapsuleShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeZ",
           "name": "getName",
           "normalized": "HG DClass-\u003eIO String",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeZ",
           "name": "getName'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCapsuleShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeZ",
           "name": "getName'_",
           "normalized": "HG DClassPtr-\u003ePtr CChar-\u003eIO()",
@@ -576,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeZ",
           "name": "new",
           "package": "HGamer3D-Bullet-Binding",
@@ -585,6 +634,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCapsuleShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeZ",
           "name": "new",
           "normalized": "Float-\u003eFloat-\u003eIO HG DClass",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeZ",
           "name": "new'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCapsuleShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCapsuleShapeZ",
           "name": "new'_",
           "normalized": "CFloat-\u003eCFloat-\u003eHG DClassPtr-\u003eIO()",
@@ -622,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionConfiguration",
           "name": "ClassCollisionConfiguration",
           "package": "HGamer3D-Bullet-Binding",
@@ -630,6 +683,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionConfiguration",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionConfiguration",
           "name": "ClassCollisionConfiguration",
           "package": "HGamer3D-Bullet-Binding",
@@ -643,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionConfiguration",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -652,6 +707,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionConfiguration",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionConfiguration",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -666,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionConfiguration",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -675,6 +732,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionConfiguration",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionConfiguration",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -689,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "ClassCollisionDispatcher",
           "package": "HGamer3D-Bullet-Binding",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "ClassCollisionDispatcher",
           "package": "HGamer3D-Bullet-Binding",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -742,6 +805,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -756,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getCollisionConfiguration",
           "package": "HGamer3D-Bullet-Binding",
@@ -765,6 +830,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getCollisionConfiguration",
           "normalized": "HG DClass-\u003eIO HG DClass",
@@ -780,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getCollisionConfiguration'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -789,6 +856,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getCollisionConfiguration'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -804,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getCollisionConfiguration2",
           "package": "HGamer3D-Bullet-Binding",
@@ -813,6 +882,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getCollisionConfiguration2",
           "normalized": "HG DClass-\u003eIO HG DClass",
@@ -828,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getCollisionConfiguration2'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -837,6 +908,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getCollisionConfiguration2'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -852,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getDispatcherFlags",
           "package": "HGamer3D-Bullet-Binding",
@@ -861,6 +934,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getDispatcherFlags",
           "normalized": "HG DClass-\u003eIO Int",
@@ -876,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getDispatcherFlags'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -885,6 +960,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getDispatcherFlags'_",
           "normalized": "HG DClassPtr-\u003ePtr CInt-\u003eIO()",
@@ -900,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getNumManifolds",
           "package": "HGamer3D-Bullet-Binding",
@@ -909,6 +986,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getNumManifolds",
           "normalized": "HG DClass-\u003eIO Int",
@@ -924,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getNumManifolds'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -933,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "getNumManifolds'_",
           "normalized": "HG DClassPtr-\u003ePtr CInt-\u003eIO()",
@@ -948,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "new",
           "package": "HGamer3D-Bullet-Binding",
@@ -957,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "new",
           "normalized": "HG DClass-\u003eIO HG DClass",
@@ -971,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "new'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -980,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "new'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -994,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "setCollisionConfiguration",
           "package": "HGamer3D-Bullet-Binding",
@@ -1003,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "setCollisionConfiguration",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -1018,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "setCollisionConfiguration'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1027,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "setCollisionConfiguration'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -1042,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "setDispatcherFlags",
           "package": "HGamer3D-Bullet-Binding",
@@ -1051,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "setDispatcherFlags",
           "normalized": "HG DClass-\u003eInt-\u003eIO()",
@@ -1066,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "setDispatcherFlags'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1075,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionDispatcher",
           "name": "setDispatcherFlags'_",
           "normalized": "HG DClassPtr-\u003eCInt-\u003eIO()",
@@ -1090,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "ClassCollisionWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -1098,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "ClassCollisionWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -1111,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "computeOverlappingPairs",
           "package": "HGamer3D-Bullet-Binding",
@@ -1120,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "computeOverlappingPairs",
           "normalized": "HG DClass-\u003eIO()",
@@ -1135,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "computeOverlappingPairs'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1144,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "computeOverlappingPairs'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -1159,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "debugDrawWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -1168,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "debugDrawWorld",
           "normalized": "HG DClass-\u003eIO()",
@@ -1183,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "debugDrawWorld'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1192,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "debugDrawWorld'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -1207,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -1216,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -1230,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1239,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -1253,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getBroadphase",
           "package": "HGamer3D-Bullet-Binding",
@@ -1262,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getBroadphase",
           "normalized": "HG DClass-\u003eIO HG DClass",
@@ -1277,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getBroadphase'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1286,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getBroadphase'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -1301,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getBroadphase2",
           "package": "HGamer3D-Bullet-Binding",
@@ -1310,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getBroadphase2",
           "normalized": "HG DClass-\u003eIO HG DClass",
@@ -1325,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getBroadphase2'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1334,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getBroadphase2'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -1349,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getDispatcher",
           "package": "HGamer3D-Bullet-Binding",
@@ -1358,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getDispatcher",
           "normalized": "HG DClass-\u003eIO HG DClass",
@@ -1373,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getDispatcher'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1382,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getDispatcher'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -1397,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getDispatcher2",
           "package": "HGamer3D-Bullet-Binding",
@@ -1406,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getDispatcher2",
           "normalized": "HG DClass-\u003eIO HG DClass",
@@ -1421,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getDispatcher2'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1430,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getDispatcher2'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -1445,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getForceUpdateAllAabbs",
           "package": "HGamer3D-Bullet-Binding",
@@ -1454,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getForceUpdateAllAabbs",
           "normalized": "HG DClass-\u003eIO Bool",
@@ -1469,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getForceUpdateAllAabbs'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1478,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getForceUpdateAllAabbs'_",
           "normalized": "HG DClassPtr-\u003ePtr CInt-\u003eIO()",
@@ -1493,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getNumCollisionObjects",
           "package": "HGamer3D-Bullet-Binding",
@@ -1502,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getNumCollisionObjects",
           "normalized": "HG DClass-\u003eIO Int",
@@ -1517,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getNumCollisionObjects'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1526,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "getNumCollisionObjects'_",
           "normalized": "HG DClassPtr-\u003ePtr CInt-\u003eIO()",
@@ -1541,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "new",
           "package": "HGamer3D-Bullet-Binding",
@@ -1550,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "new",
           "normalized": "HG DClass-\u003eHG DClass-\u003eHG DClass-\u003eIO HG DClass",
@@ -1564,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "new'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1573,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "new'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eHG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -1587,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "performDiscreteCollisionDetection",
           "package": "HGamer3D-Bullet-Binding",
@@ -1596,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "performDiscreteCollisionDetection",
           "normalized": "HG DClass-\u003eIO()",
@@ -1611,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "performDiscreteCollisionDetection'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1620,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "performDiscreteCollisionDetection'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -1635,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "setBroadphase",
           "package": "HGamer3D-Bullet-Binding",
@@ -1644,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "setBroadphase",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -1659,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "setBroadphase'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1668,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "setBroadphase'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -1683,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "setForceUpdateAllAabbs",
           "package": "HGamer3D-Bullet-Binding",
@@ -1692,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "setForceUpdateAllAabbs",
           "normalized": "HG DClass-\u003eBool-\u003eIO()",
@@ -1707,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "setForceUpdateAllAabbs'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1716,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "setForceUpdateAllAabbs'_",
           "normalized": "HG DClassPtr-\u003eCInt-\u003eIO()",
@@ -1731,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "updateAabbs",
           "package": "HGamer3D-Bullet-Binding",
@@ -1740,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "updateAabbs",
           "normalized": "HG DClass-\u003eIO()",
@@ -1755,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "updateAabbs'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1764,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCollisionWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCollisionWorld",
           "name": "updateAabbs'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -1779,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeX",
           "name": "ClassConeShapeX",
           "package": "HGamer3D-Bullet-Binding",
@@ -1787,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassConeShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeX",
           "name": "ClassConeShapeX",
           "package": "HGamer3D-Bullet-Binding",
@@ -1800,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeX",
           "name": "getAnisotropicRollingFrictionDirection",
           "package": "HGamer3D-Bullet-Binding",
@@ -1809,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassConeShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeX",
           "name": "getAnisotropicRollingFrictionDirection",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -1824,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeX",
           "name": "getAnisotropicRollingFrictionDirection'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1833,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassConeShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeX",
           "name": "getAnisotropicRollingFrictionDirection'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -1848,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeX",
           "name": "new",
           "package": "HGamer3D-Bullet-Binding",
@@ -1857,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassConeShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeX",
           "name": "new",
           "normalized": "Float-\u003eFloat-\u003eIO HG DClass",
@@ -1871,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeX",
           "name": "new'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1880,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassConeShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeX",
           "name": "new'_",
           "normalized": "CFloat-\u003eCFloat-\u003eHG DClassPtr-\u003eIO()",
@@ -1894,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeZ",
           "name": "ClassConeShapeZ",
           "package": "HGamer3D-Bullet-Binding",
@@ -1902,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassConeShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeZ",
           "name": "ClassConeShapeZ",
           "package": "HGamer3D-Bullet-Binding",
@@ -1915,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeZ",
           "name": "getAnisotropicRollingFrictionDirection",
           "package": "HGamer3D-Bullet-Binding",
@@ -1924,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassConeShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeZ",
           "name": "getAnisotropicRollingFrictionDirection",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -1939,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeZ",
           "name": "getAnisotropicRollingFrictionDirection'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1948,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassConeShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeZ",
           "name": "getAnisotropicRollingFrictionDirection'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -1963,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeZ",
           "name": "new",
           "package": "HGamer3D-Bullet-Binding",
@@ -1972,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassConeShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeZ",
           "name": "new",
           "normalized": "Float-\u003eFloat-\u003eIO HG DClass",
@@ -1986,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeZ",
           "name": "new'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -1995,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassConeShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassConeShapeZ",
           "name": "new'_",
           "normalized": "CFloat-\u003eCFloat-\u003eHG DClassPtr-\u003eIO()",
@@ -2009,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "ClassCylinderShapeX",
           "package": "HGamer3D-Bullet-Binding",
@@ -2017,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "ClassCylinderShapeX",
           "package": "HGamer3D-Bullet-Binding",
@@ -2030,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "batchedUnitVectorGetSupportingVertexWithoutMargin",
           "package": "HGamer3D-Bullet-Binding",
@@ -2039,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "batchedUnitVectorGetSupportingVertexWithoutMargin",
           "normalized": "HG DClass-\u003eVec-\u003eInt-\u003eIO Vec",
@@ -2054,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "batchedUnitVectorGetSupportingVertexWithoutMargin'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2063,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "batchedUnitVectorGetSupportingVertexWithoutMargin'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eVec Ptr-\u003eCInt-\u003eIO()",
@@ -2078,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "getName",
           "package": "HGamer3D-Bullet-Binding",
@@ -2087,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "getName",
           "normalized": "HG DClass-\u003eIO String",
@@ -2102,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "getName'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2111,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "getName'_",
           "normalized": "HG DClassPtr-\u003ePtr CChar-\u003eIO()",
@@ -2126,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "getRadius",
           "package": "HGamer3D-Bullet-Binding",
@@ -2135,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "getRadius",
           "normalized": "HG DClass-\u003eIO Float",
@@ -2150,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "getRadius'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2159,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "getRadius'_",
           "normalized": "HG DClassPtr-\u003ePtr CFloat-\u003eIO()",
@@ -2174,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "localGetSupportingVertexWithoutMargin",
           "package": "HGamer3D-Bullet-Binding",
@@ -2183,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "localGetSupportingVertexWithoutMargin",
           "normalized": "HG DClass-\u003eVec-\u003eIO Vec",
@@ -2198,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "localGetSupportingVertexWithoutMargin'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2207,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "localGetSupportingVertexWithoutMargin'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eVec Ptr-\u003eIO()",
@@ -2222,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "new",
           "package": "HGamer3D-Bullet-Binding",
@@ -2231,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "new",
           "normalized": "Vec-\u003eIO HG DClass",
@@ -2245,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "new'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2254,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeX",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeX",
           "name": "new'_",
           "normalized": "Vec Ptr-\u003eHG DClassPtr-\u003eIO()",
@@ -2268,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "ClassCylinderShapeZ",
           "package": "HGamer3D-Bullet-Binding",
@@ -2276,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "ClassCylinderShapeZ",
           "package": "HGamer3D-Bullet-Binding",
@@ -2289,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "batchedUnitVectorGetSupportingVertexWithoutMargin",
           "package": "HGamer3D-Bullet-Binding",
@@ -2298,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "batchedUnitVectorGetSupportingVertexWithoutMargin",
           "normalized": "HG DClass-\u003eVec-\u003eInt-\u003eIO Vec",
@@ -2313,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "batchedUnitVectorGetSupportingVertexWithoutMargin'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2322,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "batchedUnitVectorGetSupportingVertexWithoutMargin'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eVec Ptr-\u003eCInt-\u003eIO()",
@@ -2337,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "getName",
           "package": "HGamer3D-Bullet-Binding",
@@ -2346,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "getName",
           "normalized": "HG DClass-\u003eIO String",
@@ -2361,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "getName'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2370,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "getName'_",
           "normalized": "HG DClassPtr-\u003ePtr CChar-\u003eIO()",
@@ -2385,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "getRadius",
           "package": "HGamer3D-Bullet-Binding",
@@ -2394,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "getRadius",
           "normalized": "HG DClass-\u003eIO Float",
@@ -2409,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "getRadius'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2418,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "getRadius'_",
           "normalized": "HG DClassPtr-\u003ePtr CFloat-\u003eIO()",
@@ -2433,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "localGetSupportingVertexWithoutMargin",
           "package": "HGamer3D-Bullet-Binding",
@@ -2442,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "localGetSupportingVertexWithoutMargin",
           "normalized": "HG DClass-\u003eVec-\u003eIO Vec",
@@ -2457,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "localGetSupportingVertexWithoutMargin'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2466,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "localGetSupportingVertexWithoutMargin'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eVec Ptr-\u003eIO()",
@@ -2481,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "new",
           "package": "HGamer3D-Bullet-Binding",
@@ -2490,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "new",
           "normalized": "Vec-\u003eIO HG DClass",
@@ -2504,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "new'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2513,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassCylinderShapeZ",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassCylinderShapeZ",
           "name": "new'_",
           "normalized": "Vec Ptr-\u003eHG DClassPtr-\u003eIO()",
@@ -2527,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "ClassDefaultCollisionConfiguration",
           "package": "HGamer3D-Bullet-Binding",
@@ -2535,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDefaultCollisionConfiguration",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "ClassDefaultCollisionConfiguration",
           "package": "HGamer3D-Bullet-Binding",
@@ -2548,6 +2764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -2557,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDefaultCollisionConfiguration",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -2571,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2580,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDefaultCollisionConfiguration",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -2594,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "setConvexConvexMultipointIterations",
           "package": "HGamer3D-Bullet-Binding",
@@ -2603,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDefaultCollisionConfiguration",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "setConvexConvexMultipointIterations",
           "normalized": "HG DClass-\u003eInt-\u003eInt-\u003eIO()",
@@ -2618,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "setConvexConvexMultipointIterations'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2627,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDefaultCollisionConfiguration",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "setConvexConvexMultipointIterations'_",
           "normalized": "HG DClassPtr-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -2642,6 +2866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "setPlaneConvexMultipointIterations",
           "package": "HGamer3D-Bullet-Binding",
@@ -2651,6 +2876,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDefaultCollisionConfiguration",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "setPlaneConvexMultipointIterations",
           "normalized": "HG DClass-\u003eInt-\u003eInt-\u003eIO()",
@@ -2666,6 +2892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "setPlaneConvexMultipointIterations'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2675,6 +2902,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDefaultCollisionConfiguration",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDefaultCollisionConfiguration",
           "name": "setPlaneConvexMultipointIterations'_",
           "normalized": "HG DClassPtr-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -2690,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDispatcher",
           "name": "ClassDispatcher",
           "package": "HGamer3D-Bullet-Binding",
@@ -2698,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDispatcher",
           "name": "ClassDispatcher",
           "package": "HGamer3D-Bullet-Binding",
@@ -2711,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDispatcher",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -2720,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDispatcher",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -2734,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDispatcher",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2743,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDispatcher",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -2757,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDispatcher",
           "name": "getNumManifolds",
           "package": "HGamer3D-Bullet-Binding",
@@ -2766,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDispatcher",
           "name": "getNumManifolds",
           "normalized": "HG DClass-\u003eIO Int",
@@ -2781,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDispatcher",
           "name": "getNumManifolds'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2790,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDispatcher",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDispatcher",
           "name": "getNumManifolds'_",
           "normalized": "HG DClassPtr-\u003ePtr CInt-\u003eIO()",
@@ -2805,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "ClassDynamicsWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -2813,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "ClassDynamicsWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -2826,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addAction",
           "package": "HGamer3D-Bullet-Binding",
@@ -2835,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addAction",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -2850,6 +3092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addAction'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2859,6 +3102,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addAction'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -2874,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addCharacter",
           "package": "HGamer3D-Bullet-Binding",
@@ -2883,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addCharacter",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -2898,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addCharacter'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2907,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addCharacter'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -2922,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addRigidBody",
           "package": "HGamer3D-Bullet-Binding",
@@ -2931,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addRigidBody",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -2946,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addRigidBody'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -2955,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addRigidBody'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -2970,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addVehicle",
           "package": "HGamer3D-Bullet-Binding",
@@ -2979,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addVehicle",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -2994,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addVehicle'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3003,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "addVehicle'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -3018,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "clearForces",
           "package": "HGamer3D-Bullet-Binding",
@@ -3027,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "clearForces",
           "normalized": "HG DClass-\u003eIO()",
@@ -3042,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "clearForces'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3051,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "clearForces'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -3066,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "debugDrawWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -3075,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "debugDrawWorld",
           "normalized": "HG DClass-\u003eIO()",
@@ -3090,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "debugDrawWorld'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3099,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "debugDrawWorld'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -3114,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -3123,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -3137,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3146,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -3160,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "getGravity",
           "package": "HGamer3D-Bullet-Binding",
@@ -3169,6 +3438,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "getGravity",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -3184,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "getGravity'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3193,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "getGravity'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -3208,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "getNumConstraints",
           "package": "HGamer3D-Bullet-Binding",
@@ -3217,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "getNumConstraints",
           "normalized": "HG DClass-\u003eIO Int",
@@ -3232,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "getNumConstraints'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3241,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "getNumConstraints'_",
           "normalized": "HG DClassPtr-\u003ePtr CInt-\u003eIO()",
@@ -3256,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeAction",
           "package": "HGamer3D-Bullet-Binding",
@@ -3265,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeAction",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -3280,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeAction'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3289,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeAction'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -3304,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeCharacter",
           "package": "HGamer3D-Bullet-Binding",
@@ -3313,6 +3594,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeCharacter",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -3328,6 +3610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeCharacter'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3337,6 +3620,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeCharacter'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -3352,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeRigidBody",
           "package": "HGamer3D-Bullet-Binding",
@@ -3361,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeRigidBody",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -3376,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeRigidBody'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3385,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeRigidBody'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -3400,6 +3688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeVehicle",
           "package": "HGamer3D-Bullet-Binding",
@@ -3409,6 +3698,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeVehicle",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -3424,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeVehicle'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3433,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "removeVehicle'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -3448,6 +3740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "setGravity",
           "package": "HGamer3D-Bullet-Binding",
@@ -3457,6 +3750,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "setGravity",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -3472,6 +3766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "setGravity'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3481,6 +3776,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "setGravity'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -3496,6 +3792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "stepSimulation",
           "package": "HGamer3D-Bullet-Binding",
@@ -3505,6 +3802,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "stepSimulation",
           "normalized": "HG DClass-\u003eFloat-\u003eInt-\u003eFloat-\u003eIO Int",
@@ -3520,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "stepSimulation'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3529,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "stepSimulation'_",
           "normalized": "HG DClassPtr-\u003eCFloat-\u003eCInt-\u003eCFloat-\u003ePtr CInt-\u003eIO()",
@@ -3544,6 +3844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "synchronizeMotionStates",
           "package": "HGamer3D-Bullet-Binding",
@@ -3553,6 +3854,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "synchronizeMotionStates",
           "normalized": "HG DClass-\u003eIO()",
@@ -3568,6 +3870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "synchronizeMotionStates'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3577,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassDynamicsWorld",
           "name": "synchronizeMotionStates'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -3592,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "ClassHG3DBulletDefaultCreator",
           "package": "HGamer3D-Bullet-Binding",
@@ -3600,6 +3905,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletDefaultCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "ClassHG3DBulletDefaultCreator",
           "package": "HGamer3D-Bullet-Binding",
@@ -3613,6 +3919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -3622,6 +3929,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletDefaultCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -3636,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3645,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletDefaultCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -3659,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "getCollisionDispatcher",
           "package": "HGamer3D-Bullet-Binding",
@@ -3668,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletDefaultCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "getCollisionDispatcher",
           "normalized": "HG DClass-\u003eIO HG DClass",
@@ -3683,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "getCollisionDispatcher'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3692,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletDefaultCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "getCollisionDispatcher'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -3707,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "getDynamicsWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -3716,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletDefaultCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "getDynamicsWorld",
           "normalized": "HG DClass-\u003eIO HG DClass",
@@ -3731,6 +4047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "getDynamicsWorld'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3740,6 +4057,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletDefaultCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "getDynamicsWorld'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -3755,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "initializeDefaults",
           "package": "HGamer3D-Bullet-Binding",
@@ -3764,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletDefaultCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "initializeDefaults",
           "normalized": "HG DClass-\u003eIO()",
@@ -3779,6 +4099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "initializeDefaults'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3788,6 +4109,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletDefaultCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "initializeDefaults'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -3803,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "new",
           "package": "HGamer3D-Bullet-Binding",
@@ -3812,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletDefaultCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "new",
           "package": "HGamer3D-Bullet-Binding",
@@ -3824,6 +4148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "new'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3833,6 +4158,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletDefaultCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletDefaultCreator",
           "name": "new'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -3847,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "ClassHG3DBulletMotionStateHandler",
           "package": "HGamer3D-Bullet-Binding",
@@ -3855,6 +4182,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletMotionStateHandler",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "ClassHG3DBulletMotionStateHandler",
           "package": "HGamer3D-Bullet-Binding",
@@ -3868,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "createDefaultMotionState",
           "package": "HGamer3D-Bullet-Binding",
@@ -3877,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletMotionStateHandler",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "createDefaultMotionState",
           "normalized": "Vec-\u003eQuaternion-\u003eIO HG DClass",
@@ -3892,6 +4222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "createDefaultMotionState'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3901,6 +4232,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletMotionStateHandler",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "createDefaultMotionState'_",
           "normalized": "Vec Ptr-\u003eQuaternionPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -3916,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "getPosition",
           "package": "HGamer3D-Bullet-Binding",
@@ -3925,6 +4258,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletMotionStateHandler",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "getPosition",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -3940,6 +4274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "getPosition'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3949,6 +4284,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletMotionStateHandler",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "getPosition'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -3964,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "getQuaternion",
           "package": "HGamer3D-Bullet-Binding",
@@ -3973,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletMotionStateHandler",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "getQuaternion",
           "normalized": "HG DClass-\u003eIO Quaternion",
@@ -3988,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "getQuaternion'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -3997,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletMotionStateHandler",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "getQuaternion'_",
           "normalized": "HG DClassPtr-\u003eQuaternionPtr-\u003eIO()",
@@ -4012,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "setPosition",
           "package": "HGamer3D-Bullet-Binding",
@@ -4021,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletMotionStateHandler",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "setPosition",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -4036,6 +4378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "setPosition'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -4045,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletMotionStateHandler",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "setPosition'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -4060,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "setQuaternion",
           "package": "HGamer3D-Bullet-Binding",
@@ -4069,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletMotionStateHandler",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "setQuaternion",
           "normalized": "HG DClass-\u003eQuaternion-\u003eIO()",
@@ -4084,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "setQuaternion'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -4093,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DBulletMotionStateHandler",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DBulletMotionStateHandler",
           "name": "setQuaternion'_",
           "normalized": "HG DClassPtr-\u003eQuaternionPtr-\u003eIO()",
@@ -4108,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "ClassHG3DRigidBodyCreator",
           "package": "HGamer3D-Bullet-Binding",
@@ -4116,6 +4465,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "ClassHG3DRigidBodyCreator",
           "package": "HGamer3D-Bullet-Binding",
@@ -4129,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createBox",
           "package": "HGamer3D-Bullet-Binding",
@@ -4138,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createBox",
           "normalized": "Float-\u003eVec-\u003eQuaternion-\u003eVec-\u003eIO HG DClass",
@@ -4153,6 +4505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createBox'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -4162,6 +4515,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createBox'_",
           "normalized": "CFloat-\u003eVec Ptr-\u003eQuaternionPtr-\u003eVec Ptr-\u003eHG DClassPtr-\u003eIO()",
@@ -4177,6 +4531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createCapsule",
           "package": "HGamer3D-Bullet-Binding",
@@ -4186,6 +4541,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createCapsule",
           "normalized": "Float-\u003eVec-\u003eQuaternion-\u003eFloat-\u003eFloat-\u003eIO HG DClass",
@@ -4201,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createCapsule'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -4210,6 +4567,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createCapsule'_",
           "normalized": "CFloat-\u003eVec Ptr-\u003eQuaternionPtr-\u003eCFloat-\u003eCFloat-\u003eHG DClassPtr-\u003eIO()",
@@ -4225,6 +4583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createCone",
           "package": "HGamer3D-Bullet-Binding",
@@ -4234,6 +4593,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createCone",
           "normalized": "Float-\u003eVec-\u003eQuaternion-\u003eFloat-\u003eFloat-\u003eIO HG DClass",
@@ -4249,6 +4609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createCone'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -4258,6 +4619,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createCone'_",
           "normalized": "CFloat-\u003eVec Ptr-\u003eQuaternionPtr-\u003eCFloat-\u003eCFloat-\u003eHG DClassPtr-\u003eIO()",
@@ -4273,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createCylinder",
           "package": "HGamer3D-Bullet-Binding",
@@ -4282,6 +4645,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createCylinder",
           "normalized": "Float-\u003eVec-\u003eQuaternion-\u003eVec-\u003eIO HG DClass",
@@ -4297,6 +4661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createCylinder'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -4306,6 +4671,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createCylinder'_",
           "normalized": "CFloat-\u003eVec Ptr-\u003eQuaternionPtr-\u003eVec Ptr-\u003eHG DClassPtr-\u003eIO()",
@@ -4321,6 +4687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createSphere",
           "package": "HGamer3D-Bullet-Binding",
@@ -4330,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createSphere",
           "normalized": "Float-\u003eVec-\u003eQuaternion-\u003eFloat-\u003eIO HG DClass",
@@ -4345,6 +4713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createSphere'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -4354,6 +4723,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createSphere'_",
           "normalized": "CFloat-\u003eVec Ptr-\u003eQuaternionPtr-\u003eCFloat-\u003eHG DClassPtr-\u003eIO()",
@@ -4369,6 +4739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createStaticPlane",
           "package": "HGamer3D-Bullet-Binding",
@@ -4378,6 +4749,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createStaticPlane",
           "normalized": "Float-\u003eVec-\u003eQuaternion-\u003eVec-\u003eIO HG DClass",
@@ -4393,6 +4765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createStaticPlane'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -4402,6 +4775,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassHG3DRigidBodyCreator",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassHG3DRigidBodyCreator",
           "name": "createStaticPlane'_",
           "normalized": "CFloat-\u003eVec Ptr-\u003eQuaternionPtr-\u003eVec Ptr-\u003eHG DClassPtr-\u003eIO()",
@@ -4417,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassMotionState",
           "name": "ClassMotionState",
           "package": "HGamer3D-Bullet-Binding",
@@ -4425,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassMotionState",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassMotionState",
           "name": "ClassMotionState",
           "package": "HGamer3D-Bullet-Binding",
@@ -4438,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassMotionState",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -4447,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassMotionState",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassMotionState",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -4461,6 +4839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassMotionState",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -4470,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassMotionState",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassMotionState",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -4484,6 +4864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassPtr",
           "package": "HGamer3D-Bullet-Binding",
@@ -4492,6 +4873,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassPtr",
           "package": "HGamer3D-Bullet-Binding",
@@ -4505,6 +4887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassActionInterface",
           "package": "HGamer3D-Bullet-Binding",
@@ -4513,6 +4896,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassActionInterface",
           "package": "HGamer3D-Bullet-Binding",
@@ -4526,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassBroadphaseInterface",
           "package": "HGamer3D-Bullet-Binding",
@@ -4534,6 +4919,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassBroadphaseInterface",
           "package": "HGamer3D-Bullet-Binding",
@@ -4547,6 +4933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCapsuleShapeX",
           "package": "HGamer3D-Bullet-Binding",
@@ -4555,6 +4942,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCapsuleShapeX",
           "package": "HGamer3D-Bullet-Binding",
@@ -4568,6 +4956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCapsuleShapeZ",
           "package": "HGamer3D-Bullet-Binding",
@@ -4576,6 +4965,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCapsuleShapeZ",
           "package": "HGamer3D-Bullet-Binding",
@@ -4589,6 +4979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCollisionConfiguration",
           "package": "HGamer3D-Bullet-Binding",
@@ -4597,6 +4988,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCollisionConfiguration",
           "package": "HGamer3D-Bullet-Binding",
@@ -4610,6 +5002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCollisionDispatcher",
           "package": "HGamer3D-Bullet-Binding",
@@ -4618,6 +5011,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCollisionDispatcher",
           "package": "HGamer3D-Bullet-Binding",
@@ -4631,6 +5025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCollisionWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -4639,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCollisionWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -4652,6 +5048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassConeShapeX",
           "package": "HGamer3D-Bullet-Binding",
@@ -4660,6 +5057,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassConeShapeX",
           "package": "HGamer3D-Bullet-Binding",
@@ -4673,6 +5071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassConeShapeZ",
           "package": "HGamer3D-Bullet-Binding",
@@ -4681,6 +5080,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassConeShapeZ",
           "package": "HGamer3D-Bullet-Binding",
@@ -4694,6 +5094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCylinderShapeX",
           "package": "HGamer3D-Bullet-Binding",
@@ -4702,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCylinderShapeX",
           "package": "HGamer3D-Bullet-Binding",
@@ -4715,6 +5117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCylinderShapeZ",
           "package": "HGamer3D-Bullet-Binding",
@@ -4723,6 +5126,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassCylinderShapeZ",
           "package": "HGamer3D-Bullet-Binding",
@@ -4736,6 +5140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassDefaultCollisionConfiguration",
           "package": "HGamer3D-Bullet-Binding",
@@ -4744,6 +5149,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassDefaultCollisionConfiguration",
           "package": "HGamer3D-Bullet-Binding",
@@ -4757,6 +5163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassDispatcher",
           "package": "HGamer3D-Bullet-Binding",
@@ -4765,6 +5172,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassDispatcher",
           "package": "HGamer3D-Bullet-Binding",
@@ -4778,6 +5186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassDynamicsWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -4786,6 +5195,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassDynamicsWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -4799,6 +5209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassHG3DBulletDefaultCreator",
           "package": "HGamer3D-Bullet-Binding",
@@ -4807,6 +5218,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassHG3DBulletDefaultCreator",
           "package": "HGamer3D-Bullet-Binding",
@@ -4820,6 +5232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassHG3DBulletMotionStateHandler",
           "package": "HGamer3D-Bullet-Binding",
@@ -4828,6 +5241,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassHG3DBulletMotionStateHandler",
           "package": "HGamer3D-Bullet-Binding",
@@ -4841,6 +5255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassHG3DRigidBodyCreator",
           "package": "HGamer3D-Bullet-Binding",
@@ -4849,6 +5264,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassHG3DRigidBodyCreator",
           "package": "HGamer3D-Bullet-Binding",
@@ -4862,6 +5278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassMotionState",
           "package": "HGamer3D-Bullet-Binding",
@@ -4870,6 +5287,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassMotionState",
           "package": "HGamer3D-Bullet-Binding",
@@ -4883,6 +5301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassRigidBody",
           "package": "HGamer3D-Bullet-Binding",
@@ -4891,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassRigidBody",
           "package": "HGamer3D-Bullet-Binding",
@@ -4904,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassSimpleBroadphase",
           "package": "HGamer3D-Bullet-Binding",
@@ -4912,6 +5333,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassSimpleBroadphase",
           "package": "HGamer3D-Bullet-Binding",
@@ -4925,6 +5347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassSimpleDynamicsWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -4933,6 +5356,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassPtr",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassPtr",
           "name": "ClassSimpleDynamicsWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -4946,6 +5370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "ClassRigidBody",
           "package": "HGamer3D-Bullet-Binding",
@@ -4954,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "ClassRigidBody",
           "package": "HGamer3D-Bullet-Binding",
@@ -4967,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyCentralForce",
           "package": "HGamer3D-Bullet-Binding",
@@ -4976,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyCentralForce",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -4991,6 +5419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyCentralForce'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5000,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyCentralForce'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -5015,6 +5445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyCentralImpulse",
           "package": "HGamer3D-Bullet-Binding",
@@ -5024,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyCentralImpulse",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -5039,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyCentralImpulse'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5048,6 +5481,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyCentralImpulse'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -5063,6 +5497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyDamping",
           "package": "HGamer3D-Bullet-Binding",
@@ -5072,6 +5507,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyDamping",
           "normalized": "HG DClass-\u003eFloat-\u003eIO()",
@@ -5087,6 +5523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyDamping'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5096,6 +5533,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyDamping'_",
           "normalized": "HG DClassPtr-\u003eCFloat-\u003eIO()",
@@ -5111,6 +5549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyForce",
           "package": "HGamer3D-Bullet-Binding",
@@ -5120,6 +5559,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyForce",
           "normalized": "HG DClass-\u003eVec-\u003eVec-\u003eIO()",
@@ -5135,6 +5575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyForce'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5144,6 +5585,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyForce'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eVec Ptr-\u003eIO()",
@@ -5159,6 +5601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyGravity",
           "package": "HGamer3D-Bullet-Binding",
@@ -5168,6 +5611,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyGravity",
           "normalized": "HG DClass-\u003eIO()",
@@ -5183,6 +5627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyGravity'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5192,6 +5637,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyGravity'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -5207,6 +5653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyImpulse",
           "package": "HGamer3D-Bullet-Binding",
@@ -5216,6 +5663,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyImpulse",
           "normalized": "HG DClass-\u003eVec-\u003eVec-\u003eIO()",
@@ -5231,6 +5679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyImpulse'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5240,6 +5689,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyImpulse'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eVec Ptr-\u003eIO()",
@@ -5255,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyTorque",
           "package": "HGamer3D-Bullet-Binding",
@@ -5264,6 +5715,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyTorque",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -5279,6 +5731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyTorque'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5288,6 +5741,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyTorque'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -5303,6 +5757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyTorqueImpulse",
           "package": "HGamer3D-Bullet-Binding",
@@ -5312,6 +5767,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyTorqueImpulse",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -5327,6 +5783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyTorqueImpulse'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5336,6 +5793,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "applyTorqueImpulse'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -5351,6 +5809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "calculateSerializeBufferSize",
           "package": "HGamer3D-Bullet-Binding",
@@ -5360,6 +5819,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "calculateSerializeBufferSize",
           "normalized": "HG DClass-\u003eIO Int",
@@ -5375,6 +5835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "calculateSerializeBufferSize'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5384,6 +5845,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "calculateSerializeBufferSize'_",
           "normalized": "HG DClassPtr-\u003ePtr CInt-\u003eIO()",
@@ -5399,6 +5861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "clearForces",
           "package": "HGamer3D-Bullet-Binding",
@@ -5408,6 +5871,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "clearForces",
           "normalized": "HG DClass-\u003eIO()",
@@ -5423,6 +5887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "clearForces'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5432,6 +5897,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "clearForces'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -5447,6 +5913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "computeGyroscopicForce",
           "package": "HGamer3D-Bullet-Binding",
@@ -5456,6 +5923,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "computeGyroscopicForce",
           "normalized": "HG DClass-\u003eFloat-\u003eIO Vec",
@@ -5471,6 +5939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "computeGyroscopicForce'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5480,6 +5949,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "computeGyroscopicForce'_",
           "normalized": "HG DClassPtr-\u003eCFloat-\u003eVec Ptr-\u003eIO()",
@@ -5495,6 +5965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -5504,6 +5975,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -5518,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5527,6 +6000,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -5541,6 +6015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAabb",
           "package": "HGamer3D-Bullet-Binding",
@@ -5550,6 +6025,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAabb",
           "normalized": "HG DClass-\u003eIO(Vec,Vec)",
@@ -5565,6 +6041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAabb'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5574,6 +6051,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAabb'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eVec Ptr-\u003eIO()",
@@ -5589,6 +6067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularDamping",
           "package": "HGamer3D-Bullet-Binding",
@@ -5598,6 +6077,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularDamping",
           "normalized": "HG DClass-\u003eIO Float",
@@ -5613,6 +6093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularDamping'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5622,6 +6103,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularDamping'_",
           "normalized": "HG DClassPtr-\u003ePtr CFloat-\u003eIO()",
@@ -5637,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularFactor",
           "package": "HGamer3D-Bullet-Binding",
@@ -5646,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularFactor",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -5661,6 +6145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularFactor'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5670,6 +6155,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularFactor'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -5685,6 +6171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularSleepingThreshold",
           "package": "HGamer3D-Bullet-Binding",
@@ -5694,6 +6181,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularSleepingThreshold",
           "normalized": "HG DClass-\u003eIO Float",
@@ -5709,6 +6197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularSleepingThreshold'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5718,6 +6207,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularSleepingThreshold'_",
           "normalized": "HG DClassPtr-\u003ePtr CFloat-\u003eIO()",
@@ -5733,6 +6223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularVelocity",
           "package": "HGamer3D-Bullet-Binding",
@@ -5742,6 +6233,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularVelocity",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -5757,6 +6249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularVelocity'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5766,6 +6259,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getAngularVelocity'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -5781,6 +6275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getCenterOfMassPosition",
           "package": "HGamer3D-Bullet-Binding",
@@ -5790,6 +6285,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getCenterOfMassPosition",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -5805,6 +6301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getCenterOfMassPosition'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5814,6 +6311,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getCenterOfMassPosition'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -5829,6 +6327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getFlags",
           "package": "HGamer3D-Bullet-Binding",
@@ -5838,6 +6337,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getFlags",
           "normalized": "HG DClass-\u003eIO Int",
@@ -5853,6 +6353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getFlags'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5862,6 +6363,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getFlags'_",
           "normalized": "HG DClassPtr-\u003ePtr CInt-\u003eIO()",
@@ -5877,6 +6379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getGravity",
           "package": "HGamer3D-Bullet-Binding",
@@ -5886,6 +6389,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getGravity",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -5901,6 +6405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getGravity'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5910,6 +6415,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getGravity'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -5925,6 +6431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getInvInertiaDiagLocal",
           "package": "HGamer3D-Bullet-Binding",
@@ -5934,6 +6441,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getInvInertiaDiagLocal",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -5949,6 +6457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getInvInertiaDiagLocal'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -5958,6 +6467,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getInvInertiaDiagLocal'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -5973,6 +6483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getInvMass",
           "package": "HGamer3D-Bullet-Binding",
@@ -5982,6 +6493,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getInvMass",
           "normalized": "HG DClass-\u003eIO Float",
@@ -5997,6 +6509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getInvMass'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6006,6 +6519,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getInvMass'_",
           "normalized": "HG DClassPtr-\u003ePtr CFloat-\u003eIO()",
@@ -6021,6 +6535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearDamping",
           "package": "HGamer3D-Bullet-Binding",
@@ -6030,6 +6545,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearDamping",
           "normalized": "HG DClass-\u003eIO Float",
@@ -6045,6 +6561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearDamping'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6054,6 +6571,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearDamping'_",
           "normalized": "HG DClassPtr-\u003ePtr CFloat-\u003eIO()",
@@ -6069,6 +6587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearFactor",
           "package": "HGamer3D-Bullet-Binding",
@@ -6078,6 +6597,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearFactor",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -6093,6 +6613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearFactor'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6102,6 +6623,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearFactor'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -6117,6 +6639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearSleepingThreshold",
           "package": "HGamer3D-Bullet-Binding",
@@ -6126,6 +6649,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearSleepingThreshold",
           "normalized": "HG DClass-\u003eIO Float",
@@ -6141,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearSleepingThreshold'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6150,6 +6675,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearSleepingThreshold'_",
           "normalized": "HG DClassPtr-\u003ePtr CFloat-\u003eIO()",
@@ -6165,6 +6691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearVelocity",
           "package": "HGamer3D-Bullet-Binding",
@@ -6174,6 +6701,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearVelocity",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -6189,6 +6717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearVelocity'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6198,6 +6727,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getLinearVelocity'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -6213,6 +6743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getMotionState",
           "package": "HGamer3D-Bullet-Binding",
@@ -6222,6 +6753,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getMotionState",
           "normalized": "HG DClass-\u003eIO HG DClass",
@@ -6237,6 +6769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getMotionState'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6246,6 +6779,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getMotionState'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -6261,6 +6795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getMotionState2",
           "package": "HGamer3D-Bullet-Binding",
@@ -6270,6 +6805,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getMotionState2",
           "normalized": "HG DClass-\u003eIO HG DClass",
@@ -6285,6 +6821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getMotionState2'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6294,6 +6831,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getMotionState2'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -6309,6 +6847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getNumConstraintRefs",
           "package": "HGamer3D-Bullet-Binding",
@@ -6318,6 +6857,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getNumConstraintRefs",
           "normalized": "HG DClass-\u003eIO Int",
@@ -6333,6 +6873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getNumConstraintRefs'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6342,6 +6883,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getNumConstraintRefs'_",
           "normalized": "HG DClassPtr-\u003ePtr CInt-\u003eIO()",
@@ -6357,6 +6899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getOrientation",
           "package": "HGamer3D-Bullet-Binding",
@@ -6366,6 +6909,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getOrientation",
           "normalized": "HG DClass-\u003eIO Quaternion",
@@ -6381,6 +6925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getOrientation'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6390,6 +6935,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getOrientation'_",
           "normalized": "HG DClassPtr-\u003eQuaternionPtr-\u003eIO()",
@@ -6405,6 +6951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getTotalForce",
           "package": "HGamer3D-Bullet-Binding",
@@ -6414,6 +6961,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getTotalForce",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -6429,6 +6977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getTotalForce'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6438,6 +6987,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getTotalForce'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -6453,6 +7003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getTotalTorque",
           "package": "HGamer3D-Bullet-Binding",
@@ -6462,6 +7013,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getTotalTorque",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -6477,6 +7029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getTotalTorque'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6486,6 +7039,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getTotalTorque'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -6501,6 +7055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getVelocityInLocalPoint",
           "package": "HGamer3D-Bullet-Binding",
@@ -6510,6 +7065,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getVelocityInLocalPoint",
           "normalized": "HG DClass-\u003eVec-\u003eIO Vec",
@@ -6525,6 +7081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getVelocityInLocalPoint'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6534,6 +7091,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "getVelocityInLocalPoint'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eVec Ptr-\u003eIO()",
@@ -6549,6 +7107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "integrateVelocities",
           "package": "HGamer3D-Bullet-Binding",
@@ -6558,6 +7117,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "integrateVelocities",
           "normalized": "HG DClass-\u003eFloat-\u003eIO()",
@@ -6573,6 +7133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "integrateVelocities'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6582,6 +7143,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "integrateVelocities'_",
           "normalized": "HG DClassPtr-\u003eCFloat-\u003eIO()",
@@ -6597,6 +7159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "isInWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -6606,6 +7169,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "isInWorld",
           "normalized": "HG DClass-\u003eIO Bool",
@@ -6621,6 +7185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "isInWorld'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6630,6 +7195,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "isInWorld'_",
           "normalized": "HG DClassPtr-\u003ePtr CInt-\u003eIO()",
@@ -6645,6 +7211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "saveKinematicState",
           "package": "HGamer3D-Bullet-Binding",
@@ -6654,6 +7221,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "saveKinematicState",
           "normalized": "HG DClass-\u003eFloat-\u003eIO()",
@@ -6669,6 +7237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "saveKinematicState'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6678,6 +7247,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "saveKinematicState'_",
           "normalized": "HG DClassPtr-\u003eCFloat-\u003eIO()",
@@ -6693,6 +7263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setAngularFactor",
           "package": "HGamer3D-Bullet-Binding",
@@ -6702,6 +7273,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setAngularFactor",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -6717,6 +7289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setAngularFactor'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6726,6 +7299,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setAngularFactor'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -6741,6 +7315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setAngularFactor2",
           "package": "HGamer3D-Bullet-Binding",
@@ -6750,6 +7325,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setAngularFactor2",
           "normalized": "HG DClass-\u003eFloat-\u003eIO()",
@@ -6765,6 +7341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setAngularFactor2'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6774,6 +7351,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setAngularFactor2'_",
           "normalized": "HG DClassPtr-\u003eCFloat-\u003eIO()",
@@ -6789,6 +7367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setAngularVelocity",
           "package": "HGamer3D-Bullet-Binding",
@@ -6798,6 +7377,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setAngularVelocity",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -6813,6 +7393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setAngularVelocity'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6822,6 +7403,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setAngularVelocity'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -6837,6 +7419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setDamping",
           "package": "HGamer3D-Bullet-Binding",
@@ -6846,6 +7429,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setDamping",
           "normalized": "HG DClass-\u003eFloat-\u003eFloat-\u003eIO()",
@@ -6861,6 +7445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setDamping'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6870,6 +7455,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setDamping'_",
           "normalized": "HG DClassPtr-\u003eCFloat-\u003eCFloat-\u003eIO()",
@@ -6885,6 +7471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setFlags",
           "package": "HGamer3D-Bullet-Binding",
@@ -6894,6 +7481,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setFlags",
           "normalized": "HG DClass-\u003eInt-\u003eIO()",
@@ -6909,6 +7497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setFlags'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6918,6 +7507,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setFlags'_",
           "normalized": "HG DClassPtr-\u003eCInt-\u003eIO()",
@@ -6933,6 +7523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setGravity",
           "package": "HGamer3D-Bullet-Binding",
@@ -6942,6 +7533,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setGravity",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -6957,6 +7549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setGravity'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -6966,6 +7559,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setGravity'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -6981,6 +7575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setInvInertiaDiagLocal",
           "package": "HGamer3D-Bullet-Binding",
@@ -6990,6 +7585,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setInvInertiaDiagLocal",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -7005,6 +7601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setInvInertiaDiagLocal'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7014,6 +7611,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setInvInertiaDiagLocal'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -7029,6 +7627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setLinearFactor",
           "package": "HGamer3D-Bullet-Binding",
@@ -7038,6 +7637,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setLinearFactor",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -7053,6 +7653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setLinearFactor'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7062,6 +7663,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setLinearFactor'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -7077,6 +7679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setLinearVelocity",
           "package": "HGamer3D-Bullet-Binding",
@@ -7086,6 +7689,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setLinearVelocity",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -7101,6 +7705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setLinearVelocity'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7110,6 +7715,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setLinearVelocity'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -7125,6 +7731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setMassProps",
           "package": "HGamer3D-Bullet-Binding",
@@ -7134,6 +7741,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setMassProps",
           "normalized": "HG DClass-\u003eFloat-\u003eVec-\u003eIO()",
@@ -7149,6 +7757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setMassProps'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7158,6 +7767,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setMassProps'_",
           "normalized": "HG DClassPtr-\u003eCFloat-\u003eVec Ptr-\u003eIO()",
@@ -7173,6 +7783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setMotionState",
           "package": "HGamer3D-Bullet-Binding",
@@ -7182,6 +7793,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setMotionState",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -7197,6 +7809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setMotionState'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7206,6 +7819,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setMotionState'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -7221,6 +7835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setSleepingThresholds",
           "package": "HGamer3D-Bullet-Binding",
@@ -7230,6 +7845,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setSleepingThresholds",
           "normalized": "HG DClass-\u003eFloat-\u003eFloat-\u003eIO()",
@@ -7245,6 +7861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setSleepingThresholds'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7254,6 +7871,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "setSleepingThresholds'_",
           "normalized": "HG DClassPtr-\u003eCFloat-\u003eCFloat-\u003eIO()",
@@ -7269,6 +7887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "translate",
           "package": "HGamer3D-Bullet-Binding",
@@ -7278,6 +7897,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "translate",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -7292,6 +7912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "translate'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7301,6 +7922,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "translate'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -7315,6 +7937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "updateInertiaTensor",
           "package": "HGamer3D-Bullet-Binding",
@@ -7324,6 +7947,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "updateInertiaTensor",
           "normalized": "HG DClass-\u003eIO()",
@@ -7339,6 +7963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "updateInertiaTensor'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7348,6 +7973,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassRigidBody",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassRigidBody",
           "name": "updateInertiaTensor'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -7363,6 +7989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "ClassSimpleBroadphase",
           "package": "HGamer3D-Bullet-Binding",
@@ -7371,6 +7998,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleBroadphase",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "ClassSimpleBroadphase",
           "package": "HGamer3D-Bullet-Binding",
@@ -7384,6 +8012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "calculateOverlappingPairs",
           "package": "HGamer3D-Bullet-Binding",
@@ -7393,6 +8022,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleBroadphase",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "calculateOverlappingPairs",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -7408,6 +8038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "calculateOverlappingPairs'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7417,6 +8048,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleBroadphase",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "calculateOverlappingPairs'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -7432,6 +8064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -7441,6 +8074,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleBroadphase",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -7455,6 +8089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7464,6 +8099,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleBroadphase",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -7478,6 +8114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "getBroadphaseAabb",
           "package": "HGamer3D-Bullet-Binding",
@@ -7487,6 +8124,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleBroadphase",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "getBroadphaseAabb",
           "normalized": "HG DClass-\u003eIO(Vec,Vec)",
@@ -7502,6 +8140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "getBroadphaseAabb'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7511,6 +8150,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleBroadphase",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "getBroadphaseAabb'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eVec Ptr-\u003eIO()",
@@ -7526,6 +8166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "printStats",
           "package": "HGamer3D-Bullet-Binding",
@@ -7535,6 +8176,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleBroadphase",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "printStats",
           "normalized": "HG DClass-\u003eIO()",
@@ -7550,6 +8192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "printStats'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7559,6 +8202,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleBroadphase",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleBroadphase",
           "name": "printStats'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -7574,6 +8218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "ClassSimpleDynamicsWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -7582,6 +8227,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "ClassSimpleDynamicsWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -7595,6 +8241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "addAction",
           "package": "HGamer3D-Bullet-Binding",
@@ -7604,6 +8251,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "addAction",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -7619,6 +8267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "addAction'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7628,6 +8277,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "addAction'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -7643,6 +8293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "addRigidBody",
           "package": "HGamer3D-Bullet-Binding",
@@ -7652,6 +8303,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "addRigidBody",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -7667,6 +8319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "addRigidBody'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7676,6 +8329,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "addRigidBody'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -7691,6 +8345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "clearForces",
           "package": "HGamer3D-Bullet-Binding",
@@ -7700,6 +8355,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "clearForces",
           "normalized": "HG DClass-\u003eIO()",
@@ -7715,6 +8371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "clearForces'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7724,6 +8381,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "clearForces'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -7739,6 +8397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "debugDrawWorld",
           "package": "HGamer3D-Bullet-Binding",
@@ -7748,6 +8407,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "debugDrawWorld",
           "normalized": "HG DClass-\u003eIO()",
@@ -7763,6 +8423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "debugDrawWorld'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7772,6 +8433,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "debugDrawWorld'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -7787,6 +8449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "delete",
           "package": "HGamer3D-Bullet-Binding",
@@ -7796,6 +8459,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "delete",
           "normalized": "HG DClass-\u003eIO()",
@@ -7810,6 +8474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "delete'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7819,6 +8484,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "delete'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -7833,6 +8499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "getGravity",
           "package": "HGamer3D-Bullet-Binding",
@@ -7842,6 +8509,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "getGravity",
           "normalized": "HG DClass-\u003eIO Vec",
@@ -7857,6 +8525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "getGravity'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7866,6 +8535,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "getGravity'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -7881,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "removeAction",
           "package": "HGamer3D-Bullet-Binding",
@@ -7890,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "removeAction",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -7905,6 +8577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "removeAction'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7914,6 +8587,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "removeAction'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -7929,6 +8603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "removeRigidBody",
           "package": "HGamer3D-Bullet-Binding",
@@ -7938,6 +8613,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "removeRigidBody",
           "normalized": "HG DClass-\u003eHG DClass-\u003eIO()",
@@ -7953,6 +8629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "removeRigidBody'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -7962,6 +8639,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "removeRigidBody'_",
           "normalized": "HG DClassPtr-\u003eHG DClassPtr-\u003eIO()",
@@ -7977,6 +8655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "setGravity",
           "package": "HGamer3D-Bullet-Binding",
@@ -7986,6 +8665,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "setGravity",
           "normalized": "HG DClass-\u003eVec-\u003eIO()",
@@ -8001,6 +8681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "setGravity'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -8010,6 +8691,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "setGravity'_",
           "normalized": "HG DClassPtr-\u003eVec Ptr-\u003eIO()",
@@ -8025,6 +8707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "stepSimulation",
           "package": "HGamer3D-Bullet-Binding",
@@ -8034,6 +8717,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "stepSimulation",
           "normalized": "HG DClass-\u003eFloat-\u003eInt-\u003eFloat-\u003eIO Int",
@@ -8049,6 +8733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "stepSimulation'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -8058,6 +8743,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "stepSimulation'_",
           "normalized": "HG DClassPtr-\u003eCFloat-\u003eCInt-\u003eCFloat-\u003ePtr CInt-\u003eIO()",
@@ -8073,6 +8759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "synchronizeMotionStates",
           "package": "HGamer3D-Bullet-Binding",
@@ -8082,6 +8769,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "synchronizeMotionStates",
           "normalized": "HG DClass-\u003eIO()",
@@ -8097,6 +8785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "synchronizeMotionStates'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -8106,6 +8795,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "synchronizeMotionStates'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -8121,6 +8811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "updateAabbs",
           "package": "HGamer3D-Bullet-Binding",
@@ -8130,6 +8821,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "updateAabbs",
           "normalized": "HG DClass-\u003eIO()",
@@ -8145,6 +8837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "updateAabbs'_",
           "package": "HGamer3D-Bullet-Binding",
@@ -8154,6 +8847,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet ClassSimpleDynamicsWorld",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.ClassSimpleDynamicsWorld",
           "name": "updateAabbs'_",
           "normalized": "HG DClassPtr-\u003eIO()",
@@ -8169,6 +8863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructColour",
           "name": "StructColour",
           "package": "HGamer3D-Bullet-Binding",
@@ -8177,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructColour",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructColour",
           "name": "StructColour",
           "package": "HGamer3D-Bullet-Binding",
@@ -8190,6 +8886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructColour",
           "name": "ColourPtr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8198,6 +8895,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructColour",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructColour",
           "name": "ColourPtr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8211,6 +8909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructColour",
           "name": "peekColour",
           "package": "HGamer3D-Bullet-Binding",
@@ -8220,6 +8919,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructColour",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructColour",
           "name": "peekColour",
           "normalized": "ColourPtr-\u003eIO Colour",
@@ -8235,6 +8935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructColour",
           "name": "withColour",
           "package": "HGamer3D-Bullet-Binding",
@@ -8244,6 +8945,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructColour",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructColour",
           "name": "withColour",
           "normalized": "Colour-\u003e(ColourPtr-\u003eIO a)-\u003eIO a",
@@ -8259,6 +8961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructHG3DClass",
           "name": "StructHG3DClass",
           "package": "HGamer3D-Bullet-Binding",
@@ -8267,6 +8970,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructHG3DClass",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructHG3DClass",
           "name": "StructHG3DClass",
           "package": "HGamer3D-Bullet-Binding",
@@ -8280,6 +8984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructHG3DClass",
           "name": "HG3DClassPtr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8288,6 +8993,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructHG3DClass",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructHG3DClass",
           "name": "HG3DClassPtr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8301,6 +9007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructHG3DClass",
           "name": "peekHG3DClass",
           "package": "HGamer3D-Bullet-Binding",
@@ -8310,6 +9017,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructHG3DClass",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructHG3DClass",
           "name": "peekHG3DClass",
           "normalized": "HG DClassPtr-\u003eIO HG DClass",
@@ -8325,6 +9033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructHG3DClass",
           "name": "withHG3DClass",
           "package": "HGamer3D-Bullet-Binding",
@@ -8334,6 +9043,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructHG3DClass",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructHG3DClass",
           "name": "withHG3DClass",
           "normalized": "HG DClass-\u003e(HG DClassPtr-\u003eIO a)-\u003eIO a",
@@ -8349,6 +9059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "StructQuaternion",
           "package": "HGamer3D-Bullet-Binding",
@@ -8357,6 +9068,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructQuaternion",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "StructQuaternion",
           "package": "HGamer3D-Bullet-Binding",
@@ -8370,6 +9082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "Quat",
           "package": "HGamer3D-Bullet-Binding",
@@ -8378,6 +9091,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructQuaternion",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "Quat",
           "package": "HGamer3D-Bullet-Binding",
@@ -8391,6 +9105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "QuatPtr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8399,6 +9114,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructQuaternion",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "QuatPtr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8412,6 +9128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "QuaternionPtr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8420,6 +9137,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructQuaternion",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "QuaternionPtr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8433,6 +9151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "Quat",
           "package": "HGamer3D-Bullet-Binding",
@@ -8442,6 +9161,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructQuaternion",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "Quat",
           "package": "HGamer3D-Bullet-Binding",
@@ -8455,6 +9175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "peekQuaternion",
           "package": "HGamer3D-Bullet-Binding",
@@ -8464,6 +9185,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructQuaternion",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "peekQuaternion",
           "normalized": "Ptr a-\u003eIO Quaternion",
@@ -8479,6 +9201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "withQuaternion",
           "package": "HGamer3D-Bullet-Binding",
@@ -8488,6 +9211,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructQuaternion",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructQuaternion",
           "name": "withQuaternion",
           "normalized": "Quaternion-\u003e(QuaternionPtr-\u003eIO a)-\u003eIO a",
@@ -8503,6 +9227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "StructVec2",
           "package": "HGamer3D-Bullet-Binding",
@@ -8511,6 +9236,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec2",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "StructVec2",
           "package": "HGamer3D-Bullet-Binding",
@@ -8524,6 +9250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "Vec2Ptr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8532,6 +9259,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec2",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "Vec2Ptr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8545,6 +9273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "Vector2",
           "package": "HGamer3D-Bullet-Binding",
@@ -8553,6 +9282,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec2",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "Vector2",
           "package": "HGamer3D-Bullet-Binding",
@@ -8566,6 +9296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "Vector2Ptr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8574,6 +9305,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec2",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "Vector2Ptr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8587,6 +9319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "Vector2",
           "package": "HGamer3D-Bullet-Binding",
@@ -8596,6 +9329,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec2",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "Vector2",
           "package": "HGamer3D-Bullet-Binding",
@@ -8609,6 +9343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "peekVec2",
           "package": "HGamer3D-Bullet-Binding",
@@ -8618,6 +9353,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec2",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "peekVec2",
           "normalized": "Vec Ptr-\u003eIO Vec",
@@ -8633,6 +9369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "withVec2",
           "package": "HGamer3D-Bullet-Binding",
@@ -8642,6 +9379,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec2",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec2",
           "name": "withVec2",
           "normalized": "Vec-\u003e(Vec Ptr-\u003eIO a)-\u003eIO a",
@@ -8657,6 +9395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "StructVec3",
           "package": "HGamer3D-Bullet-Binding",
@@ -8665,6 +9404,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec3",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "StructVec3",
           "package": "HGamer3D-Bullet-Binding",
@@ -8678,6 +9418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "Vec3Ptr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8686,6 +9427,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec3",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "Vec3Ptr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8699,6 +9441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "Vector3",
           "package": "HGamer3D-Bullet-Binding",
@@ -8707,6 +9450,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec3",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "Vector3",
           "package": "HGamer3D-Bullet-Binding",
@@ -8720,6 +9464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "Vector3Ptr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8728,6 +9473,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec3",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "Vector3Ptr",
           "package": "HGamer3D-Bullet-Binding",
@@ -8741,6 +9487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "Vector3",
           "package": "HGamer3D-Bullet-Binding",
@@ -8750,6 +9497,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec3",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "Vector3",
           "package": "HGamer3D-Bullet-Binding",
@@ -8763,6 +9511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "peekVec3",
           "package": "HGamer3D-Bullet-Binding",
@@ -8772,6 +9521,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec3",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "peekVec3",
           "normalized": "Ptr a-\u003eIO Vec",
@@ -8787,6 +9537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "withVec3",
           "package": "HGamer3D-Bullet-Binding",
@@ -8796,6 +9547,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet StructVec3",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.StructVec3",
           "name": "withVec3",
           "normalized": "Vec-\u003e(Vec Ptr-\u003eIO a)-\u003eIO a",
@@ -8811,6 +9563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "Utils",
           "package": "HGamer3D-Bullet-Binding",
@@ -8819,6 +9572,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "Utils",
           "package": "HGamer3D-Bullet-Binding",
@@ -8832,6 +9586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "alloc64k",
           "package": "HGamer3D-Bullet-Binding",
@@ -8841,6 +9596,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "alloc64k",
           "normalized": "(Ptr a-\u003eIO b)-\u003eIO b",
@@ -8856,6 +9612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating conversion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "cFloatConv",
           "package": "HGamer3D-Bullet-Binding",
@@ -8866,6 +9623,7 @@
         "index": {
           "description": "Floating conversion",
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "cFloatConv",
           "normalized": "a-\u003eb",
@@ -8882,6 +9640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Haskell enumeration to C.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "cFromEnum",
           "package": "HGamer3D-Bullet-Binding",
@@ -8892,6 +9651,7 @@
         "index": {
           "description": "Convert Haskell enumeration to",
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "cFromEnum",
           "normalized": "a-\u003eb",
@@ -8908,6 +9668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegral conversion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "cIntConv",
           "package": "HGamer3D-Bullet-Binding",
@@ -8918,6 +9679,7 @@
         "index": {
           "description": "Integral conversion",
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "cIntConv",
           "normalized": "a-\u003eb",
@@ -8933,6 +9695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "cIntFromEnum",
           "package": "HGamer3D-Bullet-Binding",
@@ -8942,6 +9705,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "cIntFromEnum",
           "normalized": "a-\u003eCInt",
@@ -8957,6 +9721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "cIntToEnum",
           "package": "HGamer3D-Bullet-Binding",
@@ -8966,6 +9731,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "cIntToEnum",
           "normalized": "CInt-\u003ea",
@@ -8982,6 +9748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a C enumeration to Haskell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "cToEnum",
           "package": "HGamer3D-Bullet-Binding",
@@ -8992,6 +9759,7 @@
         "index": {
           "description": "Convert enumeration to Haskell",
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "cToEnum",
           "normalized": "a-\u003eb",
@@ -9007,6 +9775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "peekBoolUtil",
           "package": "HGamer3D-Bullet-Binding",
@@ -9016,6 +9785,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "peekBoolUtil",
           "normalized": "Ptr a-\u003eIO Bool",
@@ -9031,6 +9801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "peekCStringLenIntConv",
           "package": "HGamer3D-Bullet-Binding",
@@ -9040,6 +9811,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "peekCStringLenIntConv",
           "normalized": "(CString,a)-\u003eIO String",
@@ -9055,6 +9827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "peekCUString",
           "package": "HGamer3D-Bullet-Binding",
@@ -9064,6 +9837,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "peekCUString",
           "normalized": "Ptr a-\u003eIO String",
@@ -9079,6 +9853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "peekEnumUtil",
           "package": "HGamer3D-Bullet-Binding",
@@ -9088,6 +9863,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "peekEnumUtil",
           "normalized": "Ptr a-\u003eIO b",
@@ -9103,6 +9879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "peekFloatConv",
           "package": "HGamer3D-Bullet-Binding",
@@ -9112,6 +9889,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "peekFloatConv",
           "normalized": "Ptr a-\u003eIO b",
@@ -9127,6 +9905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "peekIntConv",
           "package": "HGamer3D-Bullet-Binding",
@@ -9136,6 +9915,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "peekIntConv",
           "normalized": "Ptr a-\u003eIO b",
@@ -9151,6 +9931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "withBoolUtil",
           "package": "HGamer3D-Bullet-Binding",
@@ -9160,6 +9941,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "withBoolUtil",
           "normalized": "Bool-\u003e(Ptr a-\u003eIO b)-\u003eIO b",
@@ -9175,6 +9957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "withCStringLenIntConv",
           "package": "HGamer3D-Bullet-Binding",
@@ -9184,6 +9967,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "withCStringLenIntConv",
           "normalized": "String-\u003e((CString,a)-\u003eIO b)-\u003eIO b",
@@ -9199,6 +9983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "withCUString",
           "package": "HGamer3D-Bullet-Binding",
@@ -9208,6 +9993,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "withCUString",
           "normalized": "String-\u003e(Ptr a-\u003eIO b)-\u003eIO b",
@@ -9223,6 +10009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "withEnumUtil",
           "package": "HGamer3D-Bullet-Binding",
@@ -9232,6 +10019,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "withEnumUtil",
           "normalized": "a-\u003e(Ptr b-\u003eIO c)-\u003eIO c",
@@ -9247,6 +10035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "withFloatConv",
           "package": "HGamer3D-Bullet-Binding",
@@ -9256,6 +10045,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "withFloatConv",
           "normalized": "a-\u003e(Ptr b-\u003eIO c)-\u003eIO c",
@@ -9271,6 +10061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:00 UTC 2014",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "withIntConv",
           "package": "HGamer3D-Bullet-Binding",
@@ -9280,6 +10071,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Bindings Bullet Utils",
+          "indexed": "2014-03-11T16:45:00",
           "module": "HGamer3D.Bindings.Bullet.Utils",
           "name": "withIntConv",
           "normalized": "a-\u003e(Ptr b-\u003eIO c)-\u003eIO c",

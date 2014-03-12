@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "txt2rtf"
+        "phrase": "txt2rtf",
+        "type": "phrase"
       },
       "type": "context"
     }

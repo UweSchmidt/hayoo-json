@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-or"
+        "phrase": "data-or",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA data type for non-exclusive disjunction. This is helpful for\n things like a generic merge function on sets/maps which could\n be union, mutual difference, etc. based on which \u003ccode\u003e\u003ca\u003eOr\u003c/a\u003e\u003c/code\u003e value a\n function argument returns. Also useful for non-truncating zips\n (cf. \u003ccode\u003e\u003ca\u003ezipOr\u003c/a\u003e\u003c/code\u003e) and other cases where you sometimes want an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e\n and sometimes want a pair.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:21 UTC 2014",
           "module": "Data.Or",
           "name": "Or",
           "package": "data-or",
@@ -28,6 +29,7 @@
         "index": {
           "description": "data type for non-exclusive disjunction This is helpful for things like generic merge function on sets maps which could be union mutual difference etc based on which Or value function argument returns Also useful for non-truncating zips cf zipOr and other cases where you sometimes want an Either and sometimes want pair",
           "hierarchy": "Data Or",
+          "indexed": "2014-03-11T17:49:21",
           "module": "Data.Or",
           "name": "Or",
           "package": "data-or",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type for non-exclusive disjunction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:21 UTC 2014",
           "module": "Data.Or",
           "name": "Or",
           "package": "data-or",
@@ -51,6 +54,7 @@
         "index": {
           "description": "data type for non-exclusive disjunction",
           "hierarchy": "Data Or",
+          "indexed": "2014-03-11T17:49:21",
           "module": "Data.Or",
           "name": "Or",
           "package": "data-or",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:21 UTC 2014",
           "module": "Data.Or",
           "name": "Both",
           "package": "data-or",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Or",
+          "indexed": "2014-03-11T17:49:21",
           "module": "Data.Or",
           "name": "Both",
           "package": "data-or",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:21 UTC 2014",
           "module": "Data.Or",
           "name": "Fst",
           "package": "data-or",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Or",
+          "indexed": "2014-03-11T17:49:21",
           "module": "Data.Or",
           "name": "Fst",
           "package": "data-or",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:21 UTC 2014",
           "module": "Data.Or",
           "name": "Snd",
           "package": "data-or",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Or",
+          "indexed": "2014-03-11T17:49:21",
           "module": "Data.Or",
           "name": "Snd",
           "package": "data-or",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e into an \u003ccode\u003e\u003ca\u003eOr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:21 UTC 2014",
           "module": "Data.Or",
           "name": "eitherOr",
           "package": "data-or",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Convert an Either into an Or",
           "hierarchy": "Data Or",
+          "indexed": "2014-03-11T17:49:21",
           "module": "Data.Or",
           "name": "eitherOr",
           "normalized": "Either a b-\u003eOr a b",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctional eliminator for \u003ccode\u003e\u003ca\u003eOr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:21 UTC 2014",
           "module": "Data.Or",
           "name": "elimOr",
           "package": "data-or",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Functional eliminator for Or",
           "hierarchy": "Data Or",
+          "indexed": "2014-03-11T17:49:21",
           "module": "Data.Or",
           "name": "elimOr",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec-\u003eb)-\u003e(c-\u003eb)-\u003eOr a c-\u003eb",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e which exhausts both lists, annotating which\n list the elements came from. It will return zero or more \u003ccode\u003eBoth\u003c/code\u003e,\n followed by either zero or more \u003ccode\u003eFst\u003c/code\u003e or else zero or more \u003ccode\u003eSnd\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eOn GHC this is a \"good producer\" for list fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:21 UTC 2014",
           "module": "Data.Or",
           "name": "zipOr",
           "package": "data-or",
@@ -193,6 +208,7 @@
         "index": {
           "description": "variant of zip which exhausts both lists annotating which list the elements came from It will return zero or more Both followed by either zero or more Fst or else zero or more Snd On GHC this is good producer for list fusion",
           "hierarchy": "Data Or",
+          "indexed": "2014-03-11T17:49:21",
           "module": "Data.Or",
           "name": "zipOr",
           "normalized": "[a]-\u003e[b]-\u003e[Or a b]",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003ezipOr\u003c/a\u003e\u003c/code\u003e with a custom list-homomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:21 UTC 2014",
           "module": "Data.Or",
           "name": "zipOrBy",
           "package": "data-or",
@@ -219,6 +236,7 @@
         "index": {
           "description": "variant of zipOr with custom list-homomorphism",
           "hierarchy": "Data Or",
+          "indexed": "2014-03-11T17:49:21",
           "module": "Data.Or",
           "name": "zipOrBy",
           "normalized": "(Or a b-\u003ec-\u003ec)-\u003ec-\u003e[a]-\u003e[b]-\u003ec",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003ezipOr\u003c/a\u003e\u003c/code\u003e with a custom \u003ccode\u003e\u003ca\u003eOr\u003c/a\u003e\u003c/code\u003e-homomorphism.\n\u003c/p\u003e\u003cp\u003eOn GHC this is a \"good producer\" for list fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:21 UTC 2014",
           "module": "Data.Or",
           "name": "zipOrWith",
           "package": "data-or",
@@ -245,6 +264,7 @@
         "index": {
           "description": "variant of zipOr with custom Or homomorphism On GHC this is good producer for list fusion",
           "hierarchy": "Data Or",
+          "indexed": "2014-03-11T17:49:21",
           "module": "Data.Or",
           "name": "zipOrWith",
           "normalized": "(Or a b-\u003ec)-\u003e[a]-\u003e[b]-\u003e[c]",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003ezipOr\u003c/a\u003e\u003c/code\u003e with both a custom \u003ccode\u003e\u003ca\u003eOr\u003c/a\u003e\u003c/code\u003e-homomorphism and\n a custom list-homomorphism. This is no more powerful than\n \u003ccode\u003e\u003ca\u003ezipOrBy\u003c/a\u003e\u003c/code\u003e, but it may be more convenient to separate the handling\n of \u003ccode\u003e\u003ca\u003eOr\u003c/a\u003e\u003c/code\u003e from the handling of \u003ccode\u003e(:)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:21 UTC 2014",
           "module": "Data.Or",
           "name": "zipOrWithBy",
           "package": "data-or",
@@ -270,6 +291,7 @@
         "index": {
           "description": "variant of zipOr with both custom Or homomorphism and custom list-homomorphism This is no more powerful than zipOrBy but it may be more convenient to separate the handling of Or from the handling of",
           "hierarchy": "Data Or",
+          "indexed": "2014-03-11T17:49:21",
           "module": "Data.Or",
           "name": "zipOrWithBy",
           "normalized": "(Or a b-\u003ec)-\u003e(c-\u003ed-\u003ed)-\u003ed-\u003e[a]-\u003e[b]-\u003ed",

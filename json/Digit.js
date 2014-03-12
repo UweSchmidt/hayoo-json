@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Digit"
+        "phrase": "Digit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA data type with ten nullary constructors and combinators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "Digit",
           "package": "Digit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "data type with ten nullary constructors and combinators",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "Digit",
           "package": "Digit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type with ten nullary constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "Digit",
           "package": "Digit",
@@ -51,6 +54,7 @@
         "index": {
           "description": "data type with ten nullary constructors",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "Digit",
           "package": "Digit",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "d0",
           "package": "Digit",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Zero",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "d0",
           "package": "Digit",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "d1",
           "package": "Digit",
@@ -98,6 +105,7 @@
         "index": {
           "description": "One",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "d1",
           "package": "Digit",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "d2",
           "package": "Digit",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Two",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "d2",
           "package": "Digit",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "d3",
           "package": "Digit",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Three",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "d3",
           "package": "Digit",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "d4",
           "package": "Digit",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Four",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "d4",
           "package": "Digit",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "d5",
           "package": "Digit",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Five",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "d5",
           "package": "Digit",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "d6",
           "package": "Digit",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Six",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "d6",
           "package": "Digit",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeven.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "d7",
           "package": "Digit",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Seven",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "d7",
           "package": "Digit",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "d8",
           "package": "Digit",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Eight",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "d8",
           "package": "Digit",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "d9",
           "package": "Digit",
@@ -282,6 +305,7 @@
         "index": {
           "description": "Nine",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "d9",
           "package": "Digit",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatamorphism for \u003ccode\u003eDigit\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "foldDigit",
           "package": "Digit",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Catamorphism for Digit",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "foldDigit",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eDigit-\u003ea",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first argument if zero, otherwise the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "if0",
           "package": "Digit",
@@ -330,6 +357,7 @@
         "index": {
           "description": "Return the first argument if zero otherwise the second argument",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "if0",
           "normalized": "a-\u003ea-\u003eDigit-\u003ea",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first argument if one, otherwise the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "if1",
           "package": "Digit",
@@ -355,6 +384,7 @@
         "index": {
           "description": "Return the first argument if one otherwise the second argument",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "if1",
           "normalized": "a-\u003ea-\u003eDigit-\u003ea",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first argument if two, otherwise the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "if2",
           "package": "Digit",
@@ -380,6 +411,7 @@
         "index": {
           "description": "Return the first argument if two otherwise the second argument",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "if2",
           "normalized": "a-\u003ea-\u003eDigit-\u003ea",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first argument if three, otherwise the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "if3",
           "package": "Digit",
@@ -405,6 +438,7 @@
         "index": {
           "description": "Return the first argument if three otherwise the second argument",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "if3",
           "normalized": "a-\u003ea-\u003eDigit-\u003ea",
@@ -420,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first argument if four, otherwise the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "if4",
           "package": "Digit",
@@ -430,6 +465,7 @@
         "index": {
           "description": "Return the first argument if four otherwise the second argument",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "if4",
           "normalized": "a-\u003ea-\u003eDigit-\u003ea",
@@ -445,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first argument if five, otherwise the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "if5",
           "package": "Digit",
@@ -455,6 +492,7 @@
         "index": {
           "description": "Return the first argument if five otherwise the second argument",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "if5",
           "normalized": "a-\u003ea-\u003eDigit-\u003ea",
@@ -470,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first argument if six, otherwise the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "if6",
           "package": "Digit",
@@ -480,6 +519,7 @@
         "index": {
           "description": "Return the first argument if six otherwise the second argument",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "if6",
           "normalized": "a-\u003ea-\u003eDigit-\u003ea",
@@ -495,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first argument if seven, otherwise the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "if7",
           "package": "Digit",
@@ -505,6 +546,7 @@
         "index": {
           "description": "Return the first argument if seven otherwise the second argument",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "if7",
           "normalized": "a-\u003ea-\u003eDigit-\u003ea",
@@ -520,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first argument if eight, otherwise the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "if8",
           "package": "Digit",
@@ -530,6 +573,7 @@
         "index": {
           "description": "Return the first argument if eight otherwise the second argument",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "if8",
           "normalized": "a-\u003ea-\u003eDigit-\u003ea",
@@ -545,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first argument if nine, otherwise the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "if9",
           "package": "Digit",
@@ -555,6 +600,7 @@
         "index": {
           "description": "Return the first argument if nine otherwise the second argument",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "if9",
           "normalized": "a-\u003ea-\u003eDigit-\u003ea",
@@ -570,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first argument if even, otherwise the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "ifEven",
           "package": "Digit",
@@ -580,6 +627,7 @@
         "index": {
           "description": "Return the first argument if even otherwise the second argument",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "ifEven",
           "normalized": "a-\u003ea-\u003eDigit-\u003ea",
@@ -596,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first argument if odd, otherwise the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "ifOdd",
           "package": "Digit",
@@ -606,6 +655,7 @@
         "index": {
           "description": "Return the first argument if odd otherwise the second argument",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "ifOdd",
           "normalized": "a-\u003ea-\u003eDigit-\u003ea",
@@ -622,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the digit is 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "is0",
           "package": "Digit",
@@ -632,6 +683,7 @@
         "index": {
           "description": "Returns whether or not the digit is",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "is0",
           "normalized": "Digit-\u003eBool",
@@ -647,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the digit is 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "is1",
           "package": "Digit",
@@ -657,6 +710,7 @@
         "index": {
           "description": "Returns whether or not the digit is",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "is1",
           "normalized": "Digit-\u003eBool",
@@ -672,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the digit is 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "is2",
           "package": "Digit",
@@ -682,6 +737,7 @@
         "index": {
           "description": "Returns whether or not the digit is",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "is2",
           "normalized": "Digit-\u003eBool",
@@ -697,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the digit is 3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "is3",
           "package": "Digit",
@@ -707,6 +764,7 @@
         "index": {
           "description": "Returns whether or not the digit is",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "is3",
           "normalized": "Digit-\u003eBool",
@@ -722,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the digit is 4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "is4",
           "package": "Digit",
@@ -732,6 +791,7 @@
         "index": {
           "description": "Returns whether or not the digit is",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "is4",
           "normalized": "Digit-\u003eBool",
@@ -747,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the digit is 5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "is5",
           "package": "Digit",
@@ -757,6 +818,7 @@
         "index": {
           "description": "Returns whether or not the digit is",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "is5",
           "normalized": "Digit-\u003eBool",
@@ -772,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the digit is 6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "is6",
           "package": "Digit",
@@ -782,6 +845,7 @@
         "index": {
           "description": "Returns whether or not the digit is",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "is6",
           "normalized": "Digit-\u003eBool",
@@ -797,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the digit is 7.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "is7",
           "package": "Digit",
@@ -807,6 +872,7 @@
         "index": {
           "description": "Returns whether or not the digit is",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "is7",
           "normalized": "Digit-\u003eBool",
@@ -822,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the digit is 8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "is8",
           "package": "Digit",
@@ -832,6 +899,7 @@
         "index": {
           "description": "Returns whether or not the digit is",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "is8",
           "normalized": "Digit-\u003eBool",
@@ -847,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the digit is 9.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Data.Digit",
           "name": "is9",
           "package": "Digit",
@@ -857,6 +926,7 @@
         "index": {
           "description": "Returns whether or not the digit is",
           "hierarchy": "Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Data.Digit",
           "name": "is9",
           "normalized": "Digit-\u003eBool",
@@ -871,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Test.Data.Digit",
           "name": "Digit",
           "package": "Digit",
@@ -879,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Test Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Test.Data.Digit",
           "name": "Digit",
           "package": "Digit",
@@ -892,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Test.Data.Digit",
           "name": "digitTests",
           "package": "Digit",
@@ -901,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Test Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Test.Data.Digit",
           "name": "digitTests",
           "normalized": "[Test]",
@@ -916,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Test.Data.Digit",
           "name": "main",
           "package": "Digit",
@@ -925,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Test Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Test.Data.Digit",
           "name": "main",
           "normalized": "IO()",
@@ -939,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Test.Data.Digit",
           "name": "prop_even_odd",
           "package": "Digit",
@@ -948,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Test Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Test.Data.Digit",
           "name": "prop_even_odd",
           "normalized": "Int-\u003eInt-\u003eDigit-\u003eBool",
@@ -962,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Test.Data.Digit",
           "name": "prop_fold",
           "package": "Digit",
@@ -971,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Test Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Test.Data.Digit",
           "name": "prop_fold",
           "normalized": "Digit-\u003eBool",
@@ -985,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:53 UTC 2014",
           "module": "Test.Data.Digit",
           "name": "prop_if",
           "package": "Digit",
@@ -994,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Test Data Digit",
+          "indexed": "2014-03-11T16:38:53",
           "module": "Test.Data.Digit",
           "name": "prop_if",
           "normalized": "Int-\u003eInt-\u003eDigit-\u003eBool",

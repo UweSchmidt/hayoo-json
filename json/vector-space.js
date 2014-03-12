@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vector-space"
+        "phrase": "vector-space",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGroups: zero, addition, and negation (additive inverse)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AdditiveGroup",
           "name": "AdditiveGroup",
           "package": "vector-space",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Groups zero addition and negation additive inverse",
           "hierarchy": "Data AdditiveGroup",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AdditiveGroup",
           "name": "AdditiveGroup",
           "package": "vector-space",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditive group \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AdditiveGroup",
           "name": "AdditiveGroup",
           "package": "vector-space",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Additive group",
           "hierarchy": "Data AdditiveGroup",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AdditiveGroup",
           "name": "AdditiveGroup",
           "package": "vector-space",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonoid under group addition.  Alternative to the \u003ccode\u003eSum\u003c/code\u003e in\n \u003ca\u003eData.Monoid\u003c/a\u003e, which uses \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003eAdditiveGroup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AdditiveGroup",
           "name": "Sum",
           "package": "vector-space",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Monoid under group addition Alternative to the Sum in Data.Monoid which uses Num instead of AdditiveGroup",
           "hierarchy": "Data AdditiveGroup",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AdditiveGroup",
           "name": "Sum",
           "package": "vector-space",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AdditiveGroup",
           "name": "(^+^)",
           "package": "vector-space",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Add vectors",
           "hierarchy": "Data AdditiveGroup",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AdditiveGroup",
           "name": "(^+^) ^+^",
           "normalized": "a-\u003ea-\u003ea",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup subtraction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AdditiveGroup",
           "name": "(^-^)",
           "package": "vector-space",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Group subtraction",
           "hierarchy": "Data AdditiveGroup",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AdditiveGroup",
           "name": "(^-^) ^-^",
           "normalized": "a-\u003ea-\u003ea",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AdditiveGroup",
           "name": "Sum",
           "package": "vector-space",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Data AdditiveGroup",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AdditiveGroup",
           "name": "Sum",
           "package": "vector-space",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AdditiveGroup",
           "name": "getSum",
           "package": "vector-space",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Data AdditiveGroup",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AdditiveGroup",
           "name": "getSum",
           "package": "vector-space",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication a unary function inside a \u003ccode\u003e\u003ca\u003eSum\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AdditiveGroup",
           "name": "inSum",
           "package": "vector-space",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Application unary function inside Sum",
           "hierarchy": "Data AdditiveGroup",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AdditiveGroup",
           "name": "inSum",
           "normalized": "(a-\u003eb)-\u003eSum a-\u003eSum b",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication a binary function inside a \u003ccode\u003e\u003ca\u003eSum\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AdditiveGroup",
           "name": "inSum2",
           "package": "vector-space",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Application binary function inside Sum",
           "hierarchy": "Data AdditiveGroup",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AdditiveGroup",
           "name": "inSum2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eSum a-\u003eSum b-\u003eSum c",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditive inverse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AdditiveGroup",
           "name": "negateV",
           "package": "vector-space",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Additive inverse",
           "hierarchy": "Data AdditiveGroup",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AdditiveGroup",
           "name": "negateV",
           "normalized": "a-\u003ea",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum over several vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AdditiveGroup",
           "name": "sumV",
           "package": "vector-space",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Sum over several vectors",
           "hierarchy": "Data AdditiveGroup",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AdditiveGroup",
           "name": "sumV",
           "normalized": "a b-\u003eb",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe zero element: identity for '(^+^)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AdditiveGroup",
           "name": "zeroV",
           "package": "vector-space",
@@ -294,6 +317,7 @@
         "index": {
           "description": "The zero element identity for",
           "hierarchy": "Data AdditiveGroup",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AdditiveGroup",
           "name": "zeroV",
           "package": "vector-space",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAffine spaces.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AffineSpace",
           "name": "AffineSpace",
           "package": "vector-space",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Affine spaces",
           "hierarchy": "Data AffineSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AffineSpace",
           "name": "AffineSpace",
           "package": "vector-space",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AffineSpace",
           "name": "AffineSpace",
           "package": "vector-space",
@@ -337,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data AffineSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AffineSpace",
           "name": "AffineSpace",
           "package": "vector-space",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint plus vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AffineSpace",
           "name": "(.+^)",
           "package": "vector-space",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Point plus vector",
           "hierarchy": "Data AffineSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AffineSpace",
           "name": "(.+^) .+^",
           "normalized": "a-\u003eDiff a-\u003ea",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint minus vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AffineSpace",
           "name": "(.-^)",
           "package": "vector-space",
@@ -386,6 +417,7 @@
         "index": {
           "description": "Point minus vector",
           "hierarchy": "Data AffineSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AffineSpace",
           "name": "(.-^) .-^",
           "normalized": "a-\u003eDiff a-\u003ea",
@@ -401,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AffineSpace",
           "name": "(.-.)",
           "package": "vector-space",
@@ -411,6 +444,7 @@
         "index": {
           "description": "Subtract points",
           "hierarchy": "Data AffineSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AffineSpace",
           "name": "(.-.) .-.",
           "normalized": "a-\u003ea-\u003eDiff a",
@@ -426,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAffine linear interpolation.  Varies from \u003ccode\u003ep\u003c/code\u003e to \u003ccode\u003ep'\u003c/code\u003e as \u003ccode\u003es\u003c/code\u003e varies\n from 0 to 1.  See also \u003ccode\u003e\u003ca\u003elerp\u003c/a\u003e\u003c/code\u003e (on vector spaces).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AffineSpace",
           "name": "alerp",
           "package": "vector-space",
@@ -436,6 +471,7 @@
         "index": {
           "description": "Affine linear interpolation Varies from to as varies from to See also lerp on vector spaces",
           "hierarchy": "Data AffineSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AffineSpace",
           "name": "alerp",
           "normalized": "a-\u003ea-\u003eScalar(Diff a)-\u003ea",
@@ -451,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance between two points.  See also \u003ccode\u003e\u003ca\u003edistanceSq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AffineSpace",
           "name": "distance",
           "package": "vector-space",
@@ -461,6 +498,7 @@
         "index": {
           "description": "Distance between two points See also distanceSq",
           "hierarchy": "Data AffineSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AffineSpace",
           "name": "distance",
           "normalized": "a-\u003ea-\u003eb",
@@ -476,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquare of the distance between two points.  Sometimes useful for\n efficiency.  See also \u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.AffineSpace",
           "name": "distanceSq",
           "package": "vector-space",
@@ -486,6 +525,7 @@
         "index": {
           "description": "Square of the distance between two points Sometimes useful for efficiency See also distance",
           "hierarchy": "Data AffineSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.AffineSpace",
           "name": "distanceSq",
           "normalized": "a-\u003ea-\u003eScalar b",
@@ -502,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasis of a vector space, as an associated type\n This module requires ghc-6.10 or later\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Basis",
           "name": "Basis",
           "package": "vector-space",
@@ -511,6 +552,7 @@
         "index": {
           "description": "Basis of vector space as an associated type This module requires ghc-6.10 or later",
           "hierarchy": "Data Basis",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Basis",
           "name": "Basis",
           "package": "vector-space",
@@ -524,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Basis",
           "name": "HasBasis",
           "package": "vector-space",
@@ -532,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Data Basis",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Basis",
           "name": "HasBasis",
           "package": "vector-space",
@@ -546,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret basis rep as a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Basis",
           "name": "basisValue",
           "package": "vector-space",
@@ -556,6 +601,7 @@
         "index": {
           "description": "Interpret basis rep as vector",
           "hierarchy": "Data Basis",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Basis",
           "name": "basisValue",
           "normalized": "Basis a-\u003ea",
@@ -572,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract coordinates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Basis",
           "name": "decompose",
           "package": "vector-space",
@@ -582,6 +629,7 @@
         "index": {
           "description": "Extract coordinates",
           "hierarchy": "Data Basis",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Basis",
           "name": "decompose",
           "normalized": "a-\u003e[(Basis a,Scalar a)]",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExperimental version.  More elegant definitions, and friendly to\n infinite-dimensional vector spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Basis",
           "name": "decompose'",
           "package": "vector-space",
@@ -607,6 +656,7 @@
         "index": {
           "description": "Experimental version More elegant definitions and friendly to infinite-dimensional vector spaces",
           "hierarchy": "Data Basis",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Basis",
           "name": "decompose'",
           "normalized": "a-\u003eBasis a-\u003eScalar a",
@@ -622,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear combination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Basis",
           "name": "linearCombo",
           "package": "vector-space",
@@ -632,6 +683,7 @@
         "index": {
           "description": "Linear combination",
           "hierarchy": "Data Basis",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Basis",
           "name": "linearCombo",
           "normalized": "[(a,Scalar a)]-\u003ea",
@@ -647,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Basis",
           "name": "recompose",
           "package": "vector-space",
@@ -656,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Data Basis",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Basis",
           "name": "recompose",
           "normalized": "[(Basis a,Scalar a)]-\u003ea",
@@ -671,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCross products and normals\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Cross",
           "name": "Cross",
           "package": "vector-space",
@@ -680,6 +735,7 @@
         "index": {
           "description": "Cross products and normals",
           "hierarchy": "Data Cross",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Cross",
           "name": "Cross",
           "package": "vector-space",
@@ -694,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross product of various forms of 2D vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Cross",
           "name": "HasCross2",
           "package": "vector-space",
@@ -703,6 +760,7 @@
         "index": {
           "description": "Cross product of various forms of vectors",
           "hierarchy": "Data Cross",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Cross",
           "name": "HasCross2",
           "package": "vector-space",
@@ -717,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross product of various forms of 3D vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Cross",
           "name": "HasCross3",
           "package": "vector-space",
@@ -726,6 +785,7 @@
         "index": {
           "description": "Cross product of various forms of vectors",
           "hierarchy": "Data Cross",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Cross",
           "name": "HasCross3",
           "package": "vector-space",
@@ -740,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThing with a normal vector (not necessarily normalized).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Cross",
           "name": "HasNormal",
           "package": "vector-space",
@@ -749,6 +810,7 @@
         "index": {
           "description": "Thing with normal vector not necessarily normalized",
           "hierarchy": "Data Cross",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Cross",
           "name": "HasNormal",
           "package": "vector-space",
@@ -763,6 +825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingleton\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Cross",
           "name": "One",
           "package": "vector-space",
@@ -772,6 +835,7 @@
         "index": {
           "description": "Singleton",
           "hierarchy": "Data Cross",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Cross",
           "name": "One",
           "package": "vector-space",
@@ -786,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHomogeneous triple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Cross",
           "name": "Three",
           "package": "vector-space",
@@ -795,6 +860,7 @@
         "index": {
           "description": "Homogeneous triple",
           "hierarchy": "Data Cross",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Cross",
           "name": "Three",
           "package": "vector-space",
@@ -809,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHomogeneous pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Cross",
           "name": "Two",
           "package": "vector-space",
@@ -818,6 +885,7 @@
         "index": {
           "description": "Homogeneous pair",
           "hierarchy": "Data Cross",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Cross",
           "name": "Two",
           "package": "vector-space",
@@ -831,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Cross",
           "name": "cross2",
           "package": "vector-space",
@@ -840,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Data Cross",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Cross",
           "name": "cross2",
           "normalized": "a-\u003ea",
@@ -854,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Cross",
           "name": "cross3",
           "package": "vector-space",
@@ -863,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Data Cross",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Cross",
           "name": "cross3",
           "normalized": "a-\u003ea-\u003ea",
@@ -878,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalized normal vector.  See also \u003ccode\u003ecross\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Cross",
           "name": "normal",
           "package": "vector-space",
@@ -888,6 +961,7 @@
         "index": {
           "description": "Normalized normal vector See also cross",
           "hierarchy": "Data Cross",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Cross",
           "name": "normal",
           "normalized": "a-\u003ea",
@@ -902,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Cross",
           "name": "normalVec",
           "package": "vector-space",
@@ -911,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Data Cross",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Cross",
           "name": "normalVec",
           "normalized": "a-\u003ea",
@@ -927,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule indirection module.  For Maclaurin- vs Horner-based derivative\n towers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Derivative",
           "name": "Derivative",
           "package": "vector-space",
@@ -936,6 +1013,7 @@
         "index": {
           "description": "Module indirection module For Maclaurin vs Horner-based derivative towers",
           "hierarchy": "Data Derivative",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Derivative",
           "name": "Derivative",
           "package": "vector-space",
@@ -950,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLinear maps\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "LinearMap",
           "package": "vector-space",
@@ -959,6 +1038,7 @@
         "index": {
           "description": "Linear maps",
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "LinearMap",
           "package": "vector-space",
@@ -973,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear map, represented as an optional memo-trie from basis to\n values, where \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e means the zero map (an optimization).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": ":-*",
           "package": "vector-space",
@@ -982,6 +1063,7 @@
         "index": {
           "description": "Linear map represented as an optional memo-trie from basis to values where Nothing means the zero map an optimization",
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": ":-*",
           "package": "vector-space",
@@ -995,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose linear maps\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "(*.*)",
           "package": "vector-space",
@@ -1005,6 +1088,7 @@
         "index": {
           "description": "Compose linear maps",
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "(*.*) *.*",
           "normalized": "(a*b)-\u003e(c*a)-\u003ec*b",
@@ -1020,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a linear map on a basis element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "atBasis",
           "package": "vector-space",
@@ -1030,6 +1115,7 @@
         "index": {
           "description": "Evaluate linear map on basis element",
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "atBasis",
           "normalized": "(a*b)-\u003eBasis a-\u003eb",
@@ -1045,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "firstL",
           "package": "vector-space",
@@ -1054,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "firstL",
           "normalized": "(a*b)-\u003e(a,c)*(b,c)",
@@ -1069,6 +1157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity linear map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "idL",
           "package": "vector-space",
@@ -1079,6 +1168,7 @@
         "index": {
           "description": "Identity linear map",
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "idL",
           "package": "vector-space",
@@ -1091,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "inLMap",
           "package": "vector-space",
@@ -1100,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "inLMap",
           "normalized": "(LMap' a b-\u003eLMap' c d)-\u003e(a*b)-\u003ec*d",
@@ -1115,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "inLMap2",
           "package": "vector-space",
@@ -1124,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "inLMap2",
           "normalized": "(LMap' a b-\u003eLMap' c d-\u003eLMap' e f)-\u003e(a*b)-\u003e(c*d)-\u003ee*f",
@@ -1139,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "inLMap3",
           "package": "vector-space",
@@ -1148,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "inLMap3",
           "normalized": "(LMap' a b-\u003eLMap' c d-\u003eLMap' e f-\u003eLMap' g h)-\u003e(a*b)-\u003e(c*d)-\u003e(e*f)-\u003eg*h",
@@ -1164,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a linear map to a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "lapply",
           "package": "vector-space",
@@ -1174,6 +1271,7 @@
         "index": {
           "description": "Apply linear map to vector",
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "lapply",
           "normalized": "(a*b)-\u003ea-\u003eb",
@@ -1189,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a linear function to each element of a linear map.\n \u003ccode\u003eliftL f l == linear f *.* l\u003c/code\u003e, but works more efficiently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "liftL",
           "package": "vector-space",
@@ -1199,6 +1298,7 @@
         "index": {
           "description": "Apply linear function to each element of linear map liftL linear but works more efficiently",
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "liftL",
           "normalized": "(a-\u003eb)-\u003eMSum(c a)-\u003eMSum(c b)",
@@ -1214,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a linear binary function (not to be confused with a bilinear\n function) to each element of a linear map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "liftL2",
           "package": "vector-space",
@@ -1224,6 +1325,7 @@
         "index": {
           "description": "Apply linear binary function not to be confused with bilinear function to each element of linear map",
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "liftL2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eMSum(d a)-\u003eMSum(d b)-\u003eMSum(d c)",
@@ -1239,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a linear ternary function (not to be confused with a trilinear\n function) to each element of a linear map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "liftL3",
           "package": "vector-space",
@@ -1249,6 +1352,7 @@
         "index": {
           "description": "Apply linear ternary function not to be confused with trilinear function to each element of linear map",
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "liftL3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eMSum(e a)-\u003eMSum(e b)-\u003eMSum(e c)-\u003eMSum(e d)",
@@ -1263,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "liftMS",
           "package": "vector-space",
@@ -1272,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "liftMS",
           "normalized": "(a-\u003eb)-\u003eMSum a-\u003eMSum b",
@@ -1287,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "liftMS2",
           "package": "vector-space",
@@ -1296,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "liftMS2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eMSum a-\u003eMSum b-\u003eMSum c",
@@ -1311,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "liftMS3",
           "package": "vector-space",
@@ -1320,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "liftMS3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eMSum a-\u003eMSum b-\u003eMSum c-\u003eMSum d",
@@ -1336,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction (assumed linear) as linear map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.LinearMap",
           "name": "linear",
           "package": "vector-space",
@@ -1346,6 +1457,7 @@
         "index": {
           "description": "Function assumed linear as linear map",
           "hierarchy": "Data LinearMap",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.LinearMap",
           "name": "linear",
           "normalized": "(a-\u003eb)-\u003ea*b",
@@ -1361,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInfinite derivative towers via linear maps, using the Maclaurin\n representation.  See blog posts \u003ca\u003ehttp://conal.net/blog/tag/derivatives/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "Maclaurin",
           "package": "vector-space",
@@ -1370,6 +1483,7 @@
         "index": {
           "description": "Infinite derivative towers via linear maps using the Maclaurin representation See blog posts http conal.net blog tag derivatives",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "Maclaurin",
           "package": "vector-space",
@@ -1384,6 +1498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinitely differentiable functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": ":~\u003e",
           "package": "vector-space",
@@ -1393,6 +1508,7 @@
         "index": {
           "description": "Infinitely differentiable functions",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": ":~\u003e",
           "package": "vector-space",
@@ -1406,6 +1522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTower of derivatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": ":\u003e",
           "package": "vector-space",
@@ -1415,6 +1532,7 @@
         "index": {
           "description": "Tower of derivatives",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": ":\u003e",
           "package": "vector-space",
@@ -1428,6 +1546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a \u003cem\u003elinear\u003c/em\u003e function over a derivative tower.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "(\u003c$\u003e\u003e)",
           "package": "vector-space",
@@ -1438,6 +1557,7 @@
         "index": {
           "description": "Map linear function over derivative tower",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "(\u003c$\u003e\u003e) \u003c$\u003e\u003e",
           "normalized": "(a-\u003eb)-\u003e(c a)-\u003ec b",
@@ -1453,6 +1573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialized chain rule.  See also '(@.)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "(\u003e-\u003c)",
           "package": "vector-space",
@@ -1463,6 +1584,7 @@
         "index": {
           "description": "Specialized chain rule See also",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "(\u003e-\u003c) \u003e-\u003c",
           "normalized": "(a-\u003ea)-\u003e((b a)-\u003eb Scalar a)-\u003e(b a)-\u003eb a",
@@ -1477,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "D",
           "package": "vector-space",
@@ -1486,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "D",
           "package": "vector-space",
@@ -1499,6 +1623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample the derivative at a basis element.  Optimized for partial\n application to save work for non-scalar derivatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "derivAtBasis",
           "package": "vector-space",
@@ -1509,6 +1634,7 @@
         "index": {
           "description": "Sample the derivative at basis element Optimized for partial application to save work for non-scalar derivatives",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "derivAtBasis",
           "normalized": "(a b)-\u003eBasis a-\u003ea b",
@@ -1524,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "derivative",
           "package": "vector-space",
@@ -1533,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "derivative",
           "package": "vector-space",
@@ -1546,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerivative tower for applying a binary function that distributes over\n addition, such as multiplication.  A bit weaker assumption than\n bilinearity.  Is bilinearity necessary for correctness here?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "distrib",
           "package": "vector-space",
@@ -1556,6 +1685,7 @@
         "index": {
           "description": "Derivative tower for applying binary function that distributes over addition such as multiplication bit weaker assumption than bilinearity Is bilinearity necessary for correctness here",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "distrib",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(d a)-\u003e(d b)-\u003ed c",
@@ -1571,6 +1701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a \u003cem\u003elinear\u003c/em\u003e function over a derivative tower.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "fmapD",
           "package": "vector-space",
@@ -1581,6 +1712,7 @@
         "index": {
           "description": "Map linear function over derivative tower",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "fmapD",
           "normalized": "(a-\u003eb)-\u003e(c a)-\u003ec b",
@@ -1596,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferentiable version of \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "fstD",
           "package": "vector-space",
@@ -1606,6 +1739,7 @@
         "index": {
           "description": "Differentiable version of fst",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "fstD",
           "normalized": "(a,b)a",
@@ -1621,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferentiable identity function.  Sometimes called \u003ca\u003ethe\n derivation variable\u003c/a\u003e or similar, but it's not really a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "idD",
           "package": "vector-space",
@@ -1631,6 +1766,7 @@
         "index": {
           "description": "Differentiable identity function Sometimes called the derivation variable or similar but it not really variable",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "idD",
           "package": "vector-space",
@@ -1644,6 +1780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003cem\u003elinear\u003c/em\u003e binary function over derivative towers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "liftD2",
           "package": "vector-space",
@@ -1654,6 +1791,7 @@
         "index": {
           "description": "Apply linear binary function over derivative towers",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "liftD2",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(d a)-\u003e(d b)-\u003ed c",
@@ -1669,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003cem\u003elinear\u003c/em\u003e ternary function over derivative towers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "liftD3",
           "package": "vector-space",
@@ -1679,6 +1818,7 @@
         "index": {
           "description": "Apply linear ternary function over derivative towers",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "liftD3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e(e a)-\u003e(e b)-\u003e(e c)-\u003ee d",
@@ -1694,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery linear function has a constant derivative equal to the function\n itself (as a linear map).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "linearD",
           "package": "vector-space",
@@ -1704,6 +1845,7 @@
         "index": {
           "description": "Every linear function has constant derivative equal to the function itself as linear map",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "linearD",
           "normalized": "(a-\u003eb)-\u003ea b",
@@ -1718,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "pairD",
           "package": "vector-space",
@@ -1727,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "pairD",
           "normalized": "(a b,a c)-\u003ea(b,c)",
@@ -1741,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "powVal",
           "package": "vector-space",
@@ -1750,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "powVal",
           "package": "vector-space",
@@ -1764,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant derivative tower.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "pureD",
           "package": "vector-space",
@@ -1774,6 +1921,7 @@
         "index": {
           "description": "Constant derivative tower",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "pureD",
           "normalized": "a-\u003eb a",
@@ -1789,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferentiable version of \u003ccode\u003e\u003ca\u003esnd\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "sndD",
           "package": "vector-space",
@@ -1799,6 +1948,7 @@
         "index": {
           "description": "Differentiable version of snd",
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "sndD",
           "normalized": "(a,b)b",
@@ -1813,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "tripleD",
           "package": "vector-space",
@@ -1822,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "tripleD",
           "normalized": "(a b,a c,a d)-\u003ea(b,c,d)",
@@ -1836,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "unpairD",
           "package": "vector-space",
@@ -1845,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "unpairD",
           "normalized": "(a(b,c))-\u003e(a b,a c)",
@@ -1859,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.Maclaurin",
           "name": "untripleD",
           "package": "vector-space",
@@ -1868,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Data Maclaurin",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.Maclaurin",
           "name": "untripleD",
           "normalized": "(a(b,c,d))-\u003e(a b,a c,a d)",
@@ -1883,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVector spaces\n\u003c/p\u003e\u003cp\u003eThis version uses associated types instead of fundeps and\n requires ghc-6.10 or later\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.VectorSpace",
           "name": "VectorSpace",
           "package": "vector-space",
@@ -1892,6 +2049,7 @@
         "index": {
           "description": "Vector spaces This version uses associated types instead of fundeps and requires ghc-6.10 or later",
           "hierarchy": "Data VectorSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.VectorSpace",
           "name": "VectorSpace",
           "package": "vector-space",
@@ -1906,6 +2064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds inner (dot) products.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.VectorSpace",
           "name": "InnerSpace",
           "package": "vector-space",
@@ -1915,6 +2074,7 @@
         "index": {
           "description": "Adds inner dot products",
           "hierarchy": "Data VectorSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.VectorSpace",
           "name": "InnerSpace",
           "package": "vector-space",
@@ -1929,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector space \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.VectorSpace",
           "name": "VectorSpace",
           "package": "vector-space",
@@ -1938,6 +2099,7 @@
         "index": {
           "description": "Vector space",
           "hierarchy": "Data VectorSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.VectorSpace",
           "name": "VectorSpace",
           "package": "vector-space",
@@ -1952,6 +2114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.VectorSpace",
           "name": "(*^)",
           "package": "vector-space",
@@ -1962,6 +2125,7 @@
         "index": {
           "description": "Scale vector",
           "hierarchy": "Data VectorSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.VectorSpace",
           "name": "(*^) *^",
           "normalized": "Scalar a-\u003ea-\u003ea",
@@ -1977,6 +2141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInner/dot product\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.VectorSpace",
           "name": "(\u003c.\u003e)",
           "package": "vector-space",
@@ -1987,6 +2152,7 @@
         "index": {
           "description": "Inner dot product",
           "hierarchy": "Data VectorSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.VectorSpace",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "a-\u003ea-\u003eScalar a",
@@ -2002,6 +2168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector multiplied by scalar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.VectorSpace",
           "name": "(^*)",
           "package": "vector-space",
@@ -2012,6 +2179,7 @@
         "index": {
           "description": "Vector multiplied by scalar",
           "hierarchy": "Data VectorSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.VectorSpace",
           "name": "(^*) ^*",
           "normalized": "a-\u003eb-\u003ea",
@@ -2027,6 +2195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector divided by scalar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.VectorSpace",
           "name": "(^/)",
           "package": "vector-space",
@@ -2037,6 +2206,7 @@
         "index": {
           "description": "Vector divided by scalar",
           "hierarchy": "Data VectorSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.VectorSpace",
           "name": "(^/) ^/",
           "normalized": "a-\u003eb-\u003ea",
@@ -2052,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear interpolation between \u003ccode\u003ea\u003c/code\u003e (when \u003ccode\u003et==0\u003c/code\u003e) and \u003ccode\u003eb\u003c/code\u003e (when \u003ccode\u003et==1\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.VectorSpace",
           "name": "lerp",
           "package": "vector-space",
@@ -2062,6 +2233,7 @@
         "index": {
           "description": "Linear interpolation between when and when",
           "hierarchy": "Data VectorSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.VectorSpace",
           "name": "lerp",
           "normalized": "a-\u003ea-\u003eScalar a-\u003ea",
@@ -2077,6 +2249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of a vector.   See also \u003ccode\u003e\u003ca\u003emagnitudeSq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.VectorSpace",
           "name": "magnitude",
           "package": "vector-space",
@@ -2087,6 +2260,7 @@
         "index": {
           "description": "Length of vector See also magnitudeSq",
           "hierarchy": "Data VectorSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.VectorSpace",
           "name": "magnitude",
           "normalized": "a-\u003eb",
@@ -2102,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquare of the length of a vector.  Sometimes useful for efficiency.\n See also \u003ccode\u003e\u003ca\u003emagnitude\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.VectorSpace",
           "name": "magnitudeSq",
           "package": "vector-space",
@@ -2112,6 +2287,7 @@
         "index": {
           "description": "Square of the length of vector Sometimes useful for efficiency See also magnitude",
           "hierarchy": "Data VectorSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.VectorSpace",
           "name": "magnitudeSq",
           "normalized": "a-\u003eb",
@@ -2128,6 +2304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector in same direction as given one but with length of one.  If\n given the zero vector, then return it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.VectorSpace",
           "name": "normalized",
           "package": "vector-space",
@@ -2138,6 +2315,7 @@
         "index": {
           "description": "Vector in same direction as given one but with length of one If given the zero vector then return it",
           "hierarchy": "Data VectorSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.VectorSpace",
           "name": "normalized",
           "normalized": "a-\u003ea",
@@ -2153,6 +2331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eproject u v\u003c/code\u003e computes the projection of \u003ccode\u003ev\u003c/code\u003e onto \u003ccode\u003eu\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:37 UTC 2014",
           "module": "Data.VectorSpace",
           "name": "project",
           "package": "vector-space",
@@ -2163,6 +2342,7 @@
         "index": {
           "description": "project computes the projection of onto",
           "hierarchy": "Data VectorSpace",
+          "indexed": "2014-03-11T20:34:37",
           "module": "Data.VectorSpace",
           "name": "project",
           "normalized": "a-\u003ea-\u003ea",

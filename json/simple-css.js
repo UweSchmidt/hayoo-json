@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-css"
+        "phrase": "simple-css",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Images",
           "name": "Images",
           "package": "simple-css",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Images",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Images",
           "name": "Images",
           "package": "simple-css",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresenting background images\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Images",
           "name": "BkgIm",
           "package": "simple-css",
@@ -49,6 +52,7 @@
         "index": {
           "description": "representing background images",
           "hierarchy": "SimpleCss Tricks Images",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Images",
           "name": "BkgIm",
           "package": "simple-css",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Images",
           "name": "BkgIm",
           "package": "simple-css",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Images",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Images",
           "name": "BkgIm",
           "package": "simple-css",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esynonym to \u003ccode\u003e\u003ca\u003eBkgIm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003earguments are\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e url\n\u003c/li\u003e\u003cli\u003e repeat property\n\u003c/li\u003e\u003cli\u003e x coordinate\n\u003c/li\u003e\u003cli\u003e y coordinate\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Images",
           "name": "bkgIm",
           "package": "simple-css",
@@ -95,6 +102,7 @@
         "index": {
           "description": "synonym to BkgIm arguments are url repeat property coordinate coordinate",
           "hierarchy": "SimpleCss Tricks Images",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Images",
           "name": "bkgIm",
           "normalized": "String-\u003eExpr-\u003eExpr-\u003eExpr-\u003eBkgIm",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Images",
           "name": "bkgImRepeat",
           "package": "simple-css",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Images",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Images",
           "name": "bkgImRepeat",
           "package": "simple-css",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Images",
           "name": "bkgImUrl",
           "package": "simple-css",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Images",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Images",
           "name": "bkgImUrl",
           "package": "simple-css",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Images",
           "name": "bkgImXPos",
           "package": "simple-css",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Images",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Images",
           "name": "bkgImXPos",
           "package": "simple-css",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Images",
           "name": "bkgImYPos",
           "package": "simple-css",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Images",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Images",
           "name": "bkgImYPos",
           "package": "simple-css",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset of background images\n\u003c/p\u003e\u003cp\u003earguments\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e background color\n\u003c/li\u003e\u003cli\u003e list of images\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003ehead of list is on top, then goes second image and etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Images",
           "name": "bkgIms",
           "package": "simple-css",
@@ -209,6 +226,7 @@
         "index": {
           "description": "set of background images arguments background color list of images head of list is on top then goes second image and etc",
           "hierarchy": "SimpleCss Tricks Images",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Images",
           "name": "bkgIms",
           "normalized": "Expr-\u003e[BkgIm]-\u003eCss a-\u003eCss a",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efloating gallery of images\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Images",
           "name": "gallery",
           "package": "simple-css",
@@ -235,6 +254,7 @@
         "index": {
           "description": "floating gallery of images",
           "hierarchy": "SimpleCss Tricks Images",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Images",
           "name": "gallery",
           "normalized": "[Css a]-\u003eCss a",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "Layouts",
           "package": "simple-css",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "Layouts",
           "package": "simple-css",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresents column layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "ColumnWidth",
           "package": "simple-css",
@@ -280,6 +303,7 @@
         "index": {
           "description": "represents column layout",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "ColumnWidth",
           "package": "simple-css",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esetting height in procents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "(^|)",
           "package": "simple-css",
@@ -304,6 +329,7 @@
         "index": {
           "description": "setting height in procents",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "(^|) ^|",
           "normalized": "Double-\u003eCss a-\u003eCss a",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esetting width in procents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "(^-)",
           "package": "simple-css",
@@ -329,6 +356,7 @@
         "index": {
           "description": "setting width in procents",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "(^-) ^-",
           "normalized": "Double-\u003eCss a-\u003eCss a",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "ColumnWidth",
           "package": "simple-css",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "ColumnWidth",
           "package": "simple-css",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eliquid layouts\n\u003c/p\u003e\u003cp\u003ePlaces n-columns, implementation of Matthew James Taylor's liquid layout technique.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://matthewjamestaylor.com/blog/equal-height-columns-cross-browser-css-no-hacks\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eevery columns is wrapped in two divs (inner an outer) and floated, styling is applied\n to both divs, it makes possible to construct columns of equal height, they look like.\n\u003c/p\u003e\u003cp\u003eAll inherited properties should be assigned for each column. \n\u003c/p\u003e\u003cp\u003eFor example if you want to make two columns one is black background and white text and\n another mirrors colors, you should define colors for BOTH columns. Otherwise one column will\n spread all over the screen\n\u003c/p\u003e\u003cpre\u003eelems = [p text1, p text2]\n\ndecl1 = dot [C.color \u003c:\u003e white, C.backgroundColor \u003c:\u003e black]\ndecl2 = dot [C.color \u003c:\u003e black, C.backgroundColor \u003c:\u003e white]\nds = [decl1, decl2]\n \nws = toColumnWidth [(10, 40, 10), (10, 40, 10)]\n\nres = columns pct (zip (zip ws ds) elems) \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "columns",
           "package": "simple-css",
@@ -376,6 +407,7 @@
         "index": {
           "description": "liquid layouts Places n-columns implementation of Matthew James Taylor liquid layout technique See http matthewjamestaylor.com blog equal-height-columns-cross-browser-css-no-hacks every columns is wrapped in two divs inner an outer and floated styling is applied to both divs it makes possible to construct columns of equal height they look like All inherited properties should be assigned for each column For example if you want to make two columns one is black background and white text and another mirrors colors you should define colors for BOTH columns Otherwise one column will spread all over the screen elems text1 text2 decl1 dot C.color white C.backgroundColor black decl2 dot C.color black C.backgroundColor white ds decl1 decl2 ws toColumnWidth res columns pct zip zip ws ds elems",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "columns",
           "normalized": "(a-\u003eExpr)-\u003e[((ColumnWidth a,Css b-\u003eCss b),Css b)]-\u003eCss b",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshort-cut for \u003ccode\u003e\u003ca\u003eColumnWidth\u003c/a\u003e\u003c/code\u003e constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "colw",
           "package": "simple-css",
@@ -401,6 +434,7 @@
         "index": {
           "description": "short-cut for ColumnWidth constructor",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "colw",
           "normalized": "a-\u003ea-\u003ea-\u003eColumnWidth a",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleft menu + content\n\u003c/p\u003e\u003cp\u003earguments are : \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e length constructor\n\u003c/li\u003e\u003cli\u003e left menu column width \n\u003c/li\u003e\u003cli\u003e left menu\n\u003c/li\u003e\u003cli\u003e content\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "leftContent",
           "package": "simple-css",
@@ -426,6 +461,7 @@
         "index": {
           "description": "left menu content arguments are length constructor left menu column width left menu content",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "leftContent",
           "normalized": "(a-\u003eExpr)-\u003ea-\u003eCss b-\u003eCss b-\u003eCss b",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleft padding width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "leftPad",
           "package": "simple-css",
@@ -452,6 +489,7 @@
         "index": {
           "description": "left padding width",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "leftPad",
           "package": "simple-css",
@@ -466,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleft menu + content + right menu\n\u003c/p\u003e\u003cp\u003earguments are : \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e length constructor\n\u003c/li\u003e\u003cli\u003e left menu column width\n\u003c/li\u003e\u003cli\u003e right menu column width\n\u003c/li\u003e\u003cli\u003e left menu\n\u003c/li\u003e\u003cli\u003e right menu\n\u003c/li\u003e\u003cli\u003e content\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "leftRightContent",
           "package": "simple-css",
@@ -476,6 +515,7 @@
         "index": {
           "description": "left menu content right menu arguments are length constructor left menu column width right menu column width left menu right menu content",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "leftRightContent",
           "normalized": "(a-\u003eExpr)-\u003ea-\u003ea-\u003eCss b-\u003eCss b-\u003eCss b-\u003eCss b",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtent width \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "midWidth",
           "package": "simple-css",
@@ -502,6 +543,7 @@
         "index": {
           "description": "content width",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "midWidth",
           "package": "simple-css",
@@ -516,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtent + right menu\n\u003c/p\u003e\u003cp\u003earguments are : \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e length constructor\n\u003c/li\u003e\u003cli\u003e right menu column width\n\u003c/li\u003e\u003cli\u003e right menu \n\u003c/li\u003e\u003cli\u003e content\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "rightContent",
           "package": "simple-css",
@@ -526,6 +569,7 @@
         "index": {
           "description": "content right menu arguments are length constructor right menu column width right menu content",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "rightContent",
           "normalized": "(a-\u003eExpr)-\u003ea-\u003eCss b-\u003eCss b-\u003eCss b",
@@ -542,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eright padding width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "rightPad",
           "package": "simple-css",
@@ -552,6 +597,7 @@
         "index": {
           "description": "right padding width",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "rightPad",
           "package": "simple-css",
@@ -566,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct list of columnWidth values from list of triplets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "toColumnWidth",
           "package": "simple-css",
@@ -576,6 +623,7 @@
         "index": {
           "description": "construct list of columnWidth values from list of triplets",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "toColumnWidth",
           "normalized": "[(a,a,a)]-\u003e[ColumnWidth a]",
@@ -592,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eleftPad + midWidth + rightPad\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "totalWidth",
           "package": "simple-css",
@@ -602,6 +651,7 @@
         "index": {
           "description": "leftPad midWidth rightPad",
           "hierarchy": "SimpleCss Tricks Layouts",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Layouts",
           "name": "totalWidth",
           "normalized": "ColumnWidth a-\u003ea",
@@ -617,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Menus",
           "name": "Menus",
           "package": "simple-css",
@@ -625,6 +676,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Menus",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Menus",
           "name": "Menus",
           "package": "simple-css",
@@ -639,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehorizontal menu\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Menus",
           "name": "hmenu",
           "package": "simple-css",
@@ -649,6 +702,7 @@
         "index": {
           "description": "horizontal menu",
           "hierarchy": "SimpleCss Tricks Menus",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Menus",
           "name": "hmenu",
           "normalized": "[Css a]-\u003eCss a",
@@ -664,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelative horizontal menu, everything is forced to equal width \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Menus",
           "name": "hmenuRel",
           "package": "simple-css",
@@ -674,6 +729,7 @@
         "index": {
           "description": "relative horizontal menu everything is forced to equal width",
           "hierarchy": "SimpleCss Tricks Menus",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Menus",
           "name": "hmenuRel",
           "normalized": "[Css a]-\u003eCss a",
@@ -690,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaking tabs\n\u003c/p\u003e\u003cp\u003earguments\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e menu constructor\n\u003c/li\u003e\u003cli\u003e active style\n\u003c/li\u003e\u003cli\u003e passive style\n\u003c/li\u003e\u003cli\u003e elements\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eresult\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e list of menus' with different active tabs\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Menus",
           "name": "tabs",
           "package": "simple-css",
@@ -700,6 +757,7 @@
         "index": {
           "description": "making tabs arguments menu constructor active style passive style elements result list of menus with different active tabs",
           "hierarchy": "SimpleCss Tricks Menus",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Menus",
           "name": "tabs",
           "normalized": "([Css a]-\u003eCss a)-\u003e[Box]-\u003e[Box]-\u003e[Css a]-\u003e[Css a]",
@@ -715,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evertical menu\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Menus",
           "name": "vmenu",
           "package": "simple-css",
@@ -725,6 +784,7 @@
         "index": {
           "description": "vertical menu",
           "hierarchy": "SimpleCss Tricks Menus",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Menus",
           "name": "vmenu",
           "normalized": "[Css a]-\u003eCss a",
@@ -740,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003estyling shortcuts \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "Css",
           "package": "simple-css",
@@ -749,6 +810,7 @@
         "index": {
           "description": "styling shortcuts",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "Css",
           "package": "simple-css",
@@ -762,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "BorderColor",
           "package": "simple-css",
@@ -770,6 +833,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "BorderColor",
           "package": "simple-css",
@@ -783,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "BorderStyle",
           "package": "simple-css",
@@ -791,6 +856,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "BorderStyle",
           "package": "simple-css",
@@ -804,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "BorderWidth",
           "package": "simple-css",
@@ -812,6 +879,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "BorderWidth",
           "package": "simple-css",
@@ -826,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBox model\n\u003c/p\u003e\u003cp\u003eelements groupped in box can be displayed as \u003ccode\u003eblock\u003c/code\u003e or as \u003ccode\u003einline-block\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "Box",
           "package": "simple-css",
@@ -835,6 +904,7 @@
         "index": {
           "description": "Box model elements groupped in box can be displayed as block or as inline-block",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "Box",
           "package": "simple-css",
@@ -848,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "Dir",
           "package": "simple-css",
@@ -856,6 +927,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "Dir",
           "package": "simple-css",
@@ -869,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "DAll",
           "package": "simple-css",
@@ -878,6 +951,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "DAll",
           "package": "simple-css",
@@ -891,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "DBottom",
           "package": "simple-css",
@@ -900,6 +975,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "DBottom",
           "package": "simple-css",
@@ -913,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "DLeft",
           "package": "simple-css",
@@ -922,6 +999,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "DLeft",
           "package": "simple-css",
@@ -935,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "DRight",
           "package": "simple-css",
@@ -944,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "DRight",
           "package": "simple-css",
@@ -957,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "DTop",
           "package": "simple-css",
@@ -966,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "DTop",
           "package": "simple-css",
@@ -980,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003eclear\u003c/code\u003e property to \u003ccode\u003eboth\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "bclear",
           "package": "simple-css",
@@ -990,6 +1073,7 @@
         "index": {
           "description": "sets clear property to both",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "bclear",
           "normalized": "[Decl]",
@@ -1005,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003ebackground-color\u003c/code\u003e property\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "bkgColor",
           "package": "simple-css",
@@ -1015,6 +1100,7 @@
         "index": {
           "description": "sets background-color property",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "bkgColor",
           "normalized": "Expr-\u003e[Decl]",
@@ -1031,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003eborder\u003c/code\u003e properties\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "border",
           "package": "simple-css",
@@ -1041,6 +1128,7 @@
         "index": {
           "description": "sets border properties",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "border",
           "normalized": "[Dir]-\u003eBorderStyle-\u003eBorderWidth-\u003eBorderColor-\u003e[Decl]",
@@ -1056,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003eborder\u003c/code\u003e property to none and assigns \u003ccode\u003eborder-width\u003c/code\u003e to zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "borderNone",
           "package": "simple-css",
@@ -1066,6 +1155,7 @@
         "index": {
           "description": "sets border property to none and assigns border-width to zero",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "borderNone",
           "normalized": "[Dir]-\u003e[Decl]",
@@ -1082,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003eborder-radius\u003c/code\u003e property\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "borderRadius",
           "package": "simple-css",
@@ -1092,6 +1183,7 @@
         "index": {
           "description": "sets border-radius property",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "borderRadius",
           "normalized": "[Expr]-\u003e[Decl]",
@@ -1107,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "bottom",
           "package": "simple-css",
@@ -1116,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "bottom",
           "package": "simple-css",
@@ -1129,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "box",
           "package": "simple-css",
@@ -1139,6 +1234,7 @@
         "index": {
           "description": "block box",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "box",
           "normalized": "[Decl]-\u003eBox",
@@ -1154,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets color and background-color properties\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "brick",
           "package": "simple-css",
@@ -1164,6 +1261,7 @@
         "index": {
           "description": "sets color and background-color properties",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "brick",
           "normalized": "Expr-\u003eExpr-\u003e[Decl]",
@@ -1179,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003ecolor\u003c/code\u003e property to specified color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "color",
           "package": "simple-css",
@@ -1189,6 +1288,7 @@
         "index": {
           "description": "sets color property to specified color",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "color",
           "normalized": "Expr-\u003e[Decl]",
@@ -1204,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003eheight\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "height",
           "package": "simple-css",
@@ -1214,6 +1315,7 @@
         "index": {
           "description": "sets height",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "height",
           "normalized": "Expr-\u003e[Decl]",
@@ -1229,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ehor = [left, right]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "hor",
           "package": "simple-css",
@@ -1239,6 +1342,7 @@
         "index": {
           "description": "hor left right",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "hor",
           "normalized": "[Dir]",
@@ -1254,6 +1358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einline-block box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "ibox",
           "package": "simple-css",
@@ -1264,6 +1369,7 @@
         "index": {
           "description": "inline-block box",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "ibox",
           "normalized": "[Decl]-\u003eBox",
@@ -1279,6 +1385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003eclear\u003c/code\u003e property to \u003ccode\u003eleft\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "lclear",
           "package": "simple-css",
@@ -1289,6 +1396,7 @@
         "index": {
           "description": "sets clear property to left",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "lclear",
           "normalized": "[Decl]",
@@ -1303,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "left",
           "package": "simple-css",
@@ -1312,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "left",
           "package": "simple-css",
@@ -1325,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003efloat\u003c/code\u003e property to \u003ccode\u003eleft\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "lfloat",
           "package": "simple-css",
@@ -1335,6 +1446,7 @@
         "index": {
           "description": "sets float property to left",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "lfloat",
           "normalized": "[Decl]",
@@ -1350,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003emargin\u003c/code\u003e width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "margin",
           "package": "simple-css",
@@ -1360,6 +1473,7 @@
         "index": {
           "description": "sets margin width",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "margin",
           "normalized": "[Dir]-\u003eExpr-\u003e[Decl]",
@@ -1375,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emouse-interaction box\n arguments :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e link\n\u003c/li\u003e\u003cli\u003e visited\n\u003c/li\u003e\u003cli\u003e hover\n\u003c/li\u003e\u003cli\u003e active\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003ebox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "onMouse",
           "package": "simple-css",
@@ -1385,6 +1500,7 @@
         "index": {
           "description": "mouse-interaction box arguments link visited hover active box",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "onMouse",
           "normalized": "Box-\u003eBox-\u003eBox-\u003eBox-\u003eCss a-\u003eCss a",
@@ -1401,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003epadding\u003c/code\u003e width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "padding",
           "package": "simple-css",
@@ -1411,6 +1528,7 @@
         "index": {
           "description": "sets padding width",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "padding",
           "normalized": "[Dir]-\u003eExpr-\u003e[Decl]",
@@ -1426,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eloads picture to background\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "pict",
           "package": "simple-css",
@@ -1436,6 +1555,7 @@
         "index": {
           "description": "loads picture to background",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "pict",
           "normalized": "String-\u003e[Decl]",
@@ -1451,6 +1571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003eclear\u003c/code\u003e property to \u003ccode\u003eright\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "rclear",
           "package": "simple-css",
@@ -1461,6 +1582,7 @@
         "index": {
           "description": "sets clear property to right",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "rclear",
           "normalized": "[Decl]",
@@ -1476,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003efloat\u003c/code\u003e property to \u003ccode\u003eright\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "rfloat",
           "package": "simple-css",
@@ -1486,6 +1609,7 @@
         "index": {
           "description": "sets float property to right",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "rfloat",
           "normalized": "[Decl]",
@@ -1500,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "right",
           "package": "simple-css",
@@ -1509,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "right",
           "package": "simple-css",
@@ -1522,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erollover box\n\u003c/p\u003e\u003cp\u003earguments :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e static box\n\u003c/li\u003e\u003cli\u003e on hover box\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "rollOver",
           "package": "simple-css",
@@ -1532,6 +1659,7 @@
         "index": {
           "description": "rollover box arguments static box on hover box",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "rollOver",
           "normalized": "Box-\u003eBox-\u003eCss a-\u003eCss a",
@@ -1548,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003esides = [left, top, right, bottom]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "sides",
           "package": "simple-css",
@@ -1558,6 +1687,7 @@
         "index": {
           "description": "sides left top right bottom",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "sides",
           "normalized": "[Dir]",
@@ -1573,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatic box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "static",
           "package": "simple-css",
@@ -1583,6 +1714,7 @@
         "index": {
           "description": "static box",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "static",
           "normalized": "Box-\u003eCss a-\u003eCss a",
@@ -1597,6 +1729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "top",
           "package": "simple-css",
@@ -1606,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "top",
           "package": "simple-css",
@@ -1619,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ever = [top, bottom]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "ver",
           "package": "simple-css",
@@ -1629,6 +1764,7 @@
         "index": {
           "description": "ver top bottom",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "ver",
           "normalized": "[Dir]",
@@ -1644,6 +1780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets \u003ccode\u003ewdth\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "width",
           "package": "simple-css",
@@ -1654,6 +1791,7 @@
         "index": {
           "description": "sets wdth",
           "hierarchy": "SimpleCss Tricks Shortcuts Css",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Css",
           "name": "width",
           "normalized": "Expr-\u003e[Decl]",
@@ -1668,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "Html",
           "package": "simple-css",
@@ -1676,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "Html",
           "package": "simple-css",
@@ -1690,6 +1830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ea\u003c/code\u003e tag\n\u003c/p\u003e\u003cp\u003earguments\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e href\n\u003c/li\u003e\u003cli\u003e text\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "a",
           "package": "simple-css",
@@ -1700,6 +1841,7 @@
         "index": {
           "description": "tag arguments href text",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "a",
           "normalized": "String-\u003eString-\u003eCss Html",
@@ -1715,6 +1857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eol\u003c/code\u003e tag with links\n\u003c/p\u003e\u003cp\u003earguments : [(href, text)]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "aol",
           "package": "simple-css",
@@ -1725,6 +1868,7 @@
         "index": {
           "description": "ol tag with links arguments href text",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "aol",
           "normalized": "[(String,String)]-\u003eCss Html",
@@ -1740,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eul\u003c/code\u003e tag with links\n\u003c/p\u003e\u003cp\u003earguments : [(href, text)]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "aul",
           "package": "simple-css",
@@ -1750,6 +1895,7 @@
         "index": {
           "description": "ul tag with links arguments href text",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "aul",
           "normalized": "[(String,String)]-\u003eCss Html",
@@ -1764,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "encoding",
           "package": "simple-css",
@@ -1773,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "encoding",
           "normalized": "String-\u003eHtml",
@@ -1788,6 +1936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eh1\u003c/code\u003e tag \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "h1",
           "package": "simple-css",
@@ -1798,6 +1947,7 @@
         "index": {
           "description": "h1 tag",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "h1",
           "normalized": "String-\u003eCss Html",
@@ -1813,6 +1963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eh2\u003c/code\u003e tag \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "h2",
           "package": "simple-css",
@@ -1823,6 +1974,7 @@
         "index": {
           "description": "h2 tag",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "h2",
           "normalized": "String-\u003eCss Html",
@@ -1838,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eh3\u003c/code\u003e tag \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "h3",
           "package": "simple-css",
@@ -1848,6 +2001,7 @@
         "index": {
           "description": "h3 tag",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "h3",
           "normalized": "String-\u003eCss Html",
@@ -1863,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eh4\u003c/code\u003e tag \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "h4",
           "package": "simple-css",
@@ -1873,6 +2028,7 @@
         "index": {
           "description": "h4 tag",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "h4",
           "normalized": "String-\u003eCss Html",
@@ -1888,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eh5\u003c/code\u003e tag \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "h5",
           "package": "simple-css",
@@ -1898,6 +2055,7 @@
         "index": {
           "description": "h5 tag",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "h5",
           "normalized": "String-\u003eCss Html",
@@ -1913,6 +2071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eh6\u003c/code\u003e tag \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "h6",
           "package": "simple-css",
@@ -1923,6 +2082,7 @@
         "index": {
           "description": "h6 tag",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "h6",
           "normalized": "String-\u003eCss Html",
@@ -1938,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimages\n\u003c/p\u003e\u003cp\u003earguments :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ealt\u003c/code\u003e atribute value\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003esrc\u003c/code\u003e atribute value\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "img",
           "package": "simple-css",
@@ -1948,6 +2109,7 @@
         "index": {
           "description": "images arguments alt atribute value src atribute value",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "img",
           "normalized": "String-\u003eString-\u003eCss Html",
@@ -1963,6 +2125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenereates html filenames and head's sublelements from list of titles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "initHtmls",
           "package": "simple-css",
@@ -1973,6 +2136,7 @@
         "index": {
           "description": "genereates html filenames and head sublelements from list of titles",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "initHtmls",
           "normalized": "[String]-\u003e[(String,Html)]",
@@ -1989,6 +2153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eol\u003c/code\u003e tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "ol",
           "package": "simple-css",
@@ -1999,6 +2164,7 @@
         "index": {
           "description": "ol tag",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "ol",
           "normalized": "[String]-\u003eCss Html",
@@ -2014,6 +2180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ep\u003c/code\u003e tag \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "p",
           "package": "simple-css",
@@ -2024,6 +2191,7 @@
         "index": {
           "description": "tag",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "p",
           "normalized": "String-\u003eCss Html",
@@ -2039,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epre\u003c/code\u003e tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "pre",
           "package": "simple-css",
@@ -2049,6 +2218,7 @@
         "index": {
           "description": "pre tag",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "pre",
           "normalized": "String-\u003eCss Html",
@@ -2064,6 +2234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etable\n\u003c/p\u003e\u003cp\u003earguments :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Maybe header\n\u003c/li\u003e\u003cli\u003e [rows]\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "table",
           "package": "simple-css",
@@ -2074,6 +2245,7 @@
         "index": {
           "description": "table arguments Maybe header rows",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "table",
           "normalized": "Maybe[String]-\u003e[[String]]-\u003eCss Html",
@@ -2089,6 +2261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eul\u003c/code\u003e tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "ul",
           "package": "simple-css",
@@ -2099,6 +2272,7 @@
         "index": {
           "description": "ul tag",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "ul",
           "normalized": "[String]-\u003eCss Html",
@@ -2114,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrites css and htmls to files\n\u003c/p\u003e\u003cp\u003earguments :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e css file name\n\u003c/li\u003e\u003cli\u003e global css StyleSheet i.e. ruleSets about \u003ccode\u003ebody\u003c/code\u003e or some html elements\n\u003c/li\u003e\u003cli\u003e list of ((filename, html head sub elements), css)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "writeBlazeCss",
           "package": "simple-css",
@@ -2124,6 +2299,7 @@
         "index": {
           "description": "writes css and htmls to files arguments css file name global css StyleSheet i.e ruleSets about body or some html elements list of filename html head sub elements css",
           "hierarchy": "SimpleCss Tricks Shortcuts Html",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks.Shortcuts.Html",
           "name": "writeBlazeCss",
           "normalized": "String-\u003eStyleSheet-\u003e[((String,Html),Css Html)]-\u003eIO()",
@@ -2139,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss.Tricks",
           "name": "Tricks",
           "package": "simple-css",
@@ -2147,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss Tricks",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss.Tricks",
           "name": "Tricks",
           "package": "simple-css",
@@ -2160,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "SimpleCss",
           "package": "simple-css",
@@ -2168,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "SimpleCss",
           "package": "simple-css",
@@ -2181,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "Context",
           "package": "simple-css",
@@ -2189,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "Context",
           "package": "simple-css",
@@ -2203,6 +2385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresenting Css data type\n\u003c/p\u003e\u003cp\u003eCss's parameter is html type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "Css",
           "package": "simple-css",
@@ -2212,6 +2395,7 @@
         "index": {
           "description": "representing Css data type Css parameter is html type",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "Css",
           "package": "simple-css",
@@ -2225,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "CssCode",
           "package": "simple-css",
@@ -2233,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "CssCode",
           "package": "simple-css",
@@ -2246,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "Href",
           "package": "simple-css",
@@ -2254,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "Href",
           "package": "simple-css",
@@ -2268,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHtml specification\n\u003c/p\u003e\u003cp\u003eto render css you should specify html's elements groupping \n with \u003ccode\u003ea\u003c/code\u003e, \u003ccode\u003ediv\u003c/code\u003e and \u003ccode\u003espan\u003c/code\u003e tags \n and way to assign values of \u003ccode\u003eclass\u003c/code\u003e attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "HtmlSpec",
           "package": "simple-css",
@@ -2277,6 +2466,7 @@
         "index": {
           "description": "Html specification to render css you should specify html elements groupping with div and span tags and way to assign values of class attribute",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "HtmlSpec",
           "package": "simple-css",
@@ -2290,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "Pseudo",
           "package": "simple-css",
@@ -2298,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "Pseudo",
           "package": "simple-css",
@@ -2311,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "Tag",
           "package": "simple-css",
@@ -2319,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "Tag",
           "package": "simple-css",
@@ -2332,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "HtmlSpec",
           "package": "simple-css",
@@ -2341,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "HtmlSpec",
           "package": "simple-css",
@@ -2355,6 +2551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eacat for singleton\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "a'",
           "package": "simple-css",
@@ -2365,6 +2562,7 @@
         "index": {
           "description": "acat for singleton",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "a'",
           "normalized": "Href-\u003eCss a-\u003eCss a",
@@ -2379,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "aTag",
           "package": "simple-css",
@@ -2388,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "aTag",
           "normalized": "Href-\u003e[a]-\u003ea",
@@ -2404,6 +2604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ea\u003c/code\u003e groupping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "acat",
           "package": "simple-css",
@@ -2414,6 +2615,7 @@
         "index": {
           "description": "groupping",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "acat",
           "normalized": "Href-\u003e[Css a]-\u003eCss a",
@@ -2428,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "classAttr",
           "package": "simple-css",
@@ -2437,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "classAttr",
           "normalized": "String-\u003ea-\u003ea",
@@ -2453,6 +2657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estyles descendants\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "context",
           "package": "simple-css",
@@ -2463,6 +2668,7 @@
         "index": {
           "description": "styles descendants",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "context",
           "normalized": "Context-\u003e[Decl]-\u003eCss a-\u003eCss a",
@@ -2478,6 +2684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evcat for singleton\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "div'",
           "package": "simple-css",
@@ -2488,6 +2695,7 @@
         "index": {
           "description": "vcat for singleton",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "div'",
           "normalized": "Css a-\u003eCss a",
@@ -2502,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "divTag",
           "package": "simple-css",
@@ -2511,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "divTag",
           "normalized": "[a]-\u003ea",
@@ -2527,6 +2737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset class \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "dot",
           "package": "simple-css",
@@ -2537,6 +2748,7 @@
         "index": {
           "description": "set class",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "dot",
           "normalized": "[Decl]-\u003eCss a-\u003eCss a",
@@ -2552,6 +2764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003espan\u003c/code\u003e groupping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "hcat",
           "package": "simple-css",
@@ -2562,6 +2775,7 @@
         "index": {
           "description": "span groupping",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "hcat",
           "normalized": "[Css a]-\u003eCss a",
@@ -2577,6 +2791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehtml element constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "prim",
           "package": "simple-css",
@@ -2587,6 +2802,7 @@
         "index": {
           "description": "html element constructor",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "prim",
           "normalized": "a-\u003eCss a",
@@ -2602,6 +2818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset class with pseudo- element/class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "pseudo",
           "package": "simple-css",
@@ -2612,6 +2829,7 @@
         "index": {
           "description": "set class with pseudo element class",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "pseudo",
           "normalized": "Pseudo-\u003eCss a-\u003eCss a",
@@ -2627,6 +2845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender css\n\u003c/p\u003e\u003cp\u003ereturns string of css code and list of htmls\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "renderCss",
           "package": "simple-css",
@@ -2637,6 +2856,7 @@
         "index": {
           "description": "render css returns string of css code and list of htmls",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "renderCss",
           "normalized": "HtmlSpec a-\u003e[Css a]-\u003e([RuleSet],[a])",
@@ -2653,6 +2873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehcat for singleton\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "span'",
           "package": "simple-css",
@@ -2663,6 +2884,7 @@
         "index": {
           "description": "hcat for singleton",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "span'",
           "normalized": "Css a-\u003eCss a",
@@ -2677,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "spanTag",
           "package": "simple-css",
@@ -2686,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "spanTag",
           "normalized": "[a]-\u003ea",
@@ -2702,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender css for blaze-html\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "toBlaze",
           "package": "simple-css",
@@ -2712,6 +2937,7 @@
         "index": {
           "description": "render css for blaze-html",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "toBlaze",
           "normalized": "[Css Html]-\u003e([RuleSet],[Html])",
@@ -2728,6 +2954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ediv\u003c/code\u003e groupping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:36 UTC 2014",
           "module": "SimpleCss",
           "name": "vcat",
           "package": "simple-css",
@@ -2738,6 +2965,7 @@
         "index": {
           "description": "div groupping",
           "hierarchy": "SimpleCss",
+          "indexed": "2014-03-11T20:02:36",
           "module": "SimpleCss",
           "name": "vcat",
           "normalized": "[Css a]-\u003eCss a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "air-spec"
+        "phrase": "air-spec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:15 UTC 2014",
           "module": "Air.Data.PlainShow",
           "name": "PlainShow",
           "package": "air-spec",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Air Data PlainShow",
+          "indexed": "2014-03-11T17:09:15",
           "module": "Air.Data.PlainShow",
           "name": "PlainShow",
           "package": "air-spec",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:15 UTC 2014",
           "module": "Air.Data.PlainShow",
           "name": "PlainShow",
           "package": "air-spec",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Air Data PlainShow",
+          "indexed": "2014-03-11T17:09:15",
           "module": "Air.Data.PlainShow",
           "name": "PlainShow",
           "package": "air-spec",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:15 UTC 2014",
           "module": "Air.Data.PlainShow",
           "name": "PlainShowWrapper",
           "package": "air-spec",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Air Data PlainShow",
+          "indexed": "2014-03-11T17:09:15",
           "module": "Air.Data.PlainShow",
           "name": "PlainShowWrapper",
           "package": "air-spec",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:15 UTC 2014",
           "module": "Air.Data.PlainShow",
           "name": "PlainShowWrapper",
           "package": "air-spec",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Air Data PlainShow",
+          "indexed": "2014-03-11T17:09:15",
           "module": "Air.Data.PlainShow",
           "name": "PlainShowWrapper",
           "package": "air-spec",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:15 UTC 2014",
           "module": "Air.Data.PlainShow",
           "name": "plainShow",
           "package": "air-spec",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Air Data PlainShow",
+          "indexed": "2014-03-11T17:09:15",
           "module": "Air.Data.PlainShow",
           "name": "plainShow",
           "normalized": "a-\u003eString",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:15 UTC 2014",
           "module": "Air.Data.PlainShow",
           "name": "unPlainShowWrapper",
           "package": "air-spec",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Air Data PlainShow",
+          "indexed": "2014-03-11T17:09:15",
           "module": "Air.Data.PlainShow",
           "name": "unPlainShowWrapper",
           "package": "air-spec",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:15 UTC 2014",
           "module": "Air.Spec",
           "name": "Spec",
           "package": "air-spec",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Air Spec",
+          "indexed": "2014-03-11T17:09:15",
           "module": "Air.Spec",
           "name": "Spec",
           "package": "air-spec",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:15 UTC 2014",
           "module": "Air.Spec",
           "name": "(===)",
           "package": "air-spec",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Air Spec",
+          "indexed": "2014-03-11T17:09:15",
           "module": "Air.Spec",
           "name": "(===) ===",
           "normalized": "a-\u003ea-\u003eExpectation",

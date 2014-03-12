@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ismtp"
+        "phrase": "ismtp",
+        "type": "phrase"
       },
       "type": "context"
     }

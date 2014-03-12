@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "digestive-functors"
+        "phrase": "digestive-functors",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a datatype to differentiate between regular urlencoding and\n multipart encoding for the content of forms and functions to determine\n the content types of forms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Encoding",
           "name": "Encoding",
           "package": "digestive-functors",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides datatype to differentiate between regular urlencoding and multipart encoding for the content of forms and functions to determine the content types of forms",
           "hierarchy": "Text Digestive Form Encoding",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Encoding",
           "name": "Encoding",
           "package": "digestive-functors",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContent type encoding of the form, either url encoded\n (percent-encoding) or multipart encoding. For details, see:\n \u003ca\u003ehttp://www.w3.org/TR/html401/interact/forms.html#h-17.13.4\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Encoding",
           "name": "FormEncType",
           "package": "digestive-functors",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Content type encoding of the form either url encoded percent-encoding or multipart encoding For details see http www.w3.org TR html401 interact forms.html h-17.13.4",
           "hierarchy": "Text Digestive Form Encoding",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Encoding",
           "name": "FormEncType",
           "package": "digestive-functors",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Encoding",
           "name": "MultiPart",
           "package": "digestive-functors",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Encoding",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Encoding",
           "name": "MultiPart",
           "package": "digestive-functors",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Encoding",
           "name": "UrlEncoded",
           "package": "digestive-functors",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Encoding",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Encoding",
           "name": "UrlEncoded",
           "package": "digestive-functors",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines the encoding type of a \u003ca\u003eFormTree\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Encoding",
           "name": "formTreeEncType",
           "package": "digestive-functors",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Determines the encoding type of FormTree",
           "hierarchy": "Text Digestive Form Encoding",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Encoding",
           "name": "formTreeEncType",
           "normalized": "FormTree Identity a b c-\u003eFormEncType",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal embedding of form fields with associated functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "Field",
           "package": "digestive-functors",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Internal embedding of form fields with associated functions",
           "hierarchy": "Text Digestive Form Internal Field",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "Field",
           "package": "digestive-functors",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single input field. This usually maps to a single HTML \u003ccode\u003e\u003ca\u003einput\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "Field",
           "package": "digestive-functors",
@@ -167,6 +180,7 @@
         "index": {
           "description": "single input field This usually maps to single HTML input element",
           "hierarchy": "Text Digestive Form Internal Field",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "Field",
           "package": "digestive-functors",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue agnostic \u003ca\u003eField\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "SomeField",
           "package": "digestive-functors",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Value agnostic Field",
           "hierarchy": "Text Digestive Form Internal Field",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "SomeField",
           "package": "digestive-functors",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "Bool",
           "package": "digestive-functors",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal Field",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "Bool",
           "normalized": "Bool-\u003eField a Bool",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "Choice",
           "package": "digestive-functors",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal Field",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "Choice",
           "normalized": "[(Text,[(Text,(a,b))])]-\u003eInt-\u003eField b(a,Int)",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "File",
           "package": "digestive-functors",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal Field",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "File",
           "package": "digestive-functors",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "Singleton",
           "package": "digestive-functors",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal Field",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "Singleton",
           "normalized": "a-\u003eField b a",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "SomeField",
           "package": "digestive-functors",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal Field",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "SomeField",
           "package": "digestive-functors",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "Text",
           "package": "digestive-functors",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal Field",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "Text",
           "normalized": "Text-\u003eField a Text",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a field to retrieve a value, using the given method and\n a list of input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "evalField",
           "package": "digestive-functors",
@@ -353,6 +382,7 @@
         "index": {
           "description": "Evaluate field to retrieve value using the given method and list of input",
           "hierarchy": "Text Digestive Form Internal Field",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "evalField",
           "normalized": "Method-\u003e[FormInput]-\u003eField a b-\u003eb",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap on the error message type of a Field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "fieldMapView",
           "package": "digestive-functors",
@@ -379,6 +410,7 @@
         "index": {
           "description": "Map on the error message type of Field",
           "hierarchy": "Text Digestive Form Internal Field",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal.Field",
           "name": "fieldMapView",
           "normalized": "(a-\u003eb)-\u003eField a c-\u003eField b c",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module mostly meant for internal usage, and might change between minor\n releases.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "Internal",
           "package": "digestive-functors",
@@ -404,6 +437,7 @@
         "index": {
           "description": "This module mostly meant for internal usage and might change between minor releases",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "Internal",
           "package": "digestive-functors",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase type for a form.\n\u003c/p\u003e\u003cp\u003eThe three type parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ev\u003c/code\u003e: the type for textual information, displayed to the user. For example,\n   error messages are of this type. \u003ccode\u003ev\u003c/code\u003e stands for \u003ca\u003eview\u003c/a\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e: the monad in which validators operate. The classical example is when\n   validating input requires access to a database, in which case this \u003ccode\u003em\u003c/code\u003e\n   should be an instance of \u003ccode\u003eMonadIO\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ea\u003c/code\u003e: the type of the value returned by the form, used for its Applicative\n   instance.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "Form",
           "package": "digestive-functors",
@@ -427,6 +462,7 @@
         "index": {
           "description": "Base type for form The three type parameters are the type for textual information displayed to the user For example error messages are of this type stands for view the monad in which validators operate The classical example is when validating input requires access to database in which case this should be an instance of MonadIO the type of the value returned by the form used for its Applicative instance",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "Form",
           "package": "digestive-functors",
@@ -441,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbedded tree structure for forms - the basis for deferred evaluation\n and the applicative interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "FormTree",
           "package": "digestive-functors",
@@ -450,6 +487,7 @@
         "index": {
           "description": "Embedded tree structure for forms the basis for deferred evaluation and the applicative interface",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "FormTree",
           "package": "digestive-functors",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "Metadata",
           "package": "digestive-functors",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "Metadata",
           "package": "digestive-functors",
@@ -485,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompact type for form labelling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "Ref",
           "package": "digestive-functors",
@@ -494,6 +535,7 @@
         "index": {
           "description": "Compact type for form labelling",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "Ref",
           "package": "digestive-functors",
@@ -508,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue-agnostic Form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "SomeForm",
           "package": "digestive-functors",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Value-agnostic Form",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "SomeForm",
           "package": "digestive-functors",
@@ -556,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "App",
           "package": "digestive-functors",
@@ -565,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "App",
           "normalized": "FormTree a b c(d-\u003ee)-\u003eFormTree a b c d-\u003eFormTree a b c e",
@@ -580,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "Disabled",
           "package": "digestive-functors",
@@ -589,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "Disabled",
           "package": "digestive-functors",
@@ -602,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "List",
           "package": "digestive-functors",
@@ -611,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "List",
           "normalized": "DefaultList(FormTree a b c d)-\u003eFormTree a b c[Int]-\u003eFormTree a b c[d]",
@@ -626,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "Map",
           "package": "digestive-functors",
@@ -635,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "Map",
           "normalized": "(a-\u003eb(Result c d))-\u003eFormTree e c b a-\u003eFormTree e c b d",
@@ -650,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "Metadata",
           "package": "digestive-functors",
@@ -659,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "Metadata",
           "normalized": "[Metadata]-\u003eFormTree a b c d-\u003eFormTree a b c d",
@@ -674,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "Monadic",
           "package": "digestive-functors",
@@ -683,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "Monadic",
           "normalized": "a(FormTree a b c d)-\u003eFormTree a b c d",
@@ -698,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "Pure",
           "package": "digestive-functors",
@@ -707,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "Pure",
           "normalized": "Field a b-\u003eFormTree c a d b",
@@ -722,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "Ref",
           "package": "digestive-functors",
@@ -731,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "Ref",
           "normalized": "Ref-\u003eFormTree a b c d-\u003eFormTree a b c d",
@@ -770,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the topmost applicative or index trees if either exists\n otherwise returns an empty list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "children",
           "package": "digestive-functors",
@@ -780,6 +841,7 @@
         "index": {
           "description": "Returns the topmost applicative or index trees if either exists otherwise returns an empty list",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "children",
           "normalized": "FormTree Identity a b c-\u003e[SomeForm a b]",
@@ -795,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDebugging purposes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "debugFormPaths",
           "package": "digestive-functors",
@@ -805,6 +868,7 @@
         "index": {
           "description": "Debugging purposes",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "debugFormPaths",
           "normalized": "FormTree Identity a b c-\u003e[Path]",
@@ -821,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a formtree with a given method and environment.\n Incrementally builds the path based on the set labels and\n evaluates recursively - applying transformations and\n applications with a bottom-up strategy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "eval",
           "package": "digestive-functors",
@@ -831,6 +896,7 @@
         "index": {
           "description": "Evaluate formtree with given method and environment Incrementally builds the path based on the set labels and evaluates recursively applying transformations and applications with bottom-up strategy",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "eval",
           "normalized": "Method-\u003eEnv a-\u003eFormTree Identity b a c-\u003ea(Result[(Path,b)]c,[(Path,FormInput)])",
@@ -846,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap on the error type of a FormTree -\n used to define the Functor instance of \u003ca\u003eView.View\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "formMapView",
           "package": "digestive-functors",
@@ -856,6 +923,7 @@
         "index": {
           "description": "Map on the error type of FormTree used to define the Functor instance of View.View",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "formMapView",
           "normalized": "(a-\u003eb)-\u003eFormTree Identity a c d-\u003eFormTree Identity b c d",
@@ -872,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first/topmost label of a form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "getRef",
           "package": "digestive-functors",
@@ -882,6 +951,7 @@
         "index": {
           "description": "Return the first topmost label of form",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "getRef",
           "normalized": "FormTree Identity a b c-\u003eMaybe Ref",
@@ -898,6 +968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the form(s) at the given path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "lookupForm",
           "package": "digestive-functors",
@@ -908,6 +979,7 @@
         "index": {
           "description": "Retrieve the form at the given path",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "lookupForm",
           "normalized": "Path-\u003eFormTree Identity a b c-\u003e[SomeForm a b]",
@@ -924,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003elookupForm\u003c/a\u003e\u003c/code\u003e which also returns all metadata associated with\n the form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "lookupFormMetadata",
           "package": "digestive-functors",
@@ -934,6 +1007,7 @@
         "index": {
           "description": "variant of lookupForm which also returns all metadata associated with the form",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "lookupFormMetadata",
           "normalized": "Path-\u003eFormTree Identity a b c-\u003e[(SomeForm a b,[Metadata])]",
@@ -950,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways returns a List - fails if path does not directly reference a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "lookupList",
           "package": "digestive-functors",
@@ -960,6 +1035,7 @@
         "index": {
           "description": "Always returns List fails if path does not directly reference list",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "lookupList",
           "normalized": "Path-\u003eFormTree Identity a b c-\u003eSomeForm a b",
@@ -1002,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the field at the given path of the tree and apply the evaluation.\n Used in field evaluation functions in \u003ca\u003eView\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "queryField",
           "package": "digestive-functors",
@@ -1012,6 +1089,7 @@
         "index": {
           "description": "Retrieve the field at the given path of the tree and apply the evaluation Used in field evaluation functions in View",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "queryField",
           "normalized": "Path-\u003eFormTree Identity a b c-\u003e(d e Field a f-\u003eg)-\u003eg",
@@ -1028,6 +1106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the topmost untransformed single field, if one exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "toField",
           "package": "digestive-functors",
@@ -1038,6 +1117,7 @@
         "index": {
           "description": "Returns the topmost untransformed single field if one exists",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "toField",
           "normalized": "FormTree Identity a b c-\u003eMaybe(SomeField a)",
@@ -1054,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalize a Form to allow operations on the contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "toFormTree",
           "package": "digestive-functors",
@@ -1064,6 +1145,7 @@
         "index": {
           "description": "Normalize Form to allow operations on the contents",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "toFormTree",
           "normalized": "Form a b c-\u003eb(FormTree Identity a b c)",
@@ -1080,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap on the value type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.Internal",
           "name": "transform",
           "package": "digestive-functors",
@@ -1090,6 +1173,7 @@
         "index": {
           "description": "Map on the value type",
           "hierarchy": "Text Digestive Form Internal",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.Internal",
           "name": "transform",
           "normalized": "(a-\u003eb(Result c d))-\u003eFormTree e c b a-\u003eFormTree e c b d",
@@ -1105,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctionality related to index storage and the DefaultList type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.List",
           "name": "List",
           "package": "digestive-functors",
@@ -1114,6 +1199,7 @@
         "index": {
           "description": "Functionality related to index storage and the DefaultList type",
           "hierarchy": "Text Digestive Form List",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.List",
           "name": "List",
           "package": "digestive-functors",
@@ -1128,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list which, when indexed on non-existant positions, returns a default\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.List",
           "name": "DefaultList",
           "package": "digestive-functors",
@@ -1137,6 +1224,7 @@
         "index": {
           "description": "list which when indexed on non-existant positions returns default value",
           "hierarchy": "Text Digestive Form List",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.List",
           "name": "DefaultList",
           "package": "digestive-functors",
@@ -1150,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.List",
           "name": "DefaultList",
           "package": "digestive-functors",
@@ -1159,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form List",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.List",
           "name": "DefaultList",
           "normalized": "DefaultList a[a]",
@@ -1175,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafe indexing of a DefaultList - returns the default value if\n the given index is out of bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.List",
           "name": "defaultListIndex",
           "package": "digestive-functors",
@@ -1185,6 +1276,7 @@
         "index": {
           "description": "Safe indexing of DefaultList returns the default value if the given index is out of bounds",
           "hierarchy": "Text Digestive Form List",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.List",
           "name": "defaultListIndex",
           "normalized": "DefaultList a-\u003eInt-\u003ea",
@@ -1201,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey used to store list indices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.List",
           "name": "indicesRef",
           "package": "digestive-functors",
@@ -1211,6 +1304,7 @@
         "index": {
           "description": "Key used to store list indices",
           "hierarchy": "Text Digestive Form List",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.List",
           "name": "indicesRef",
           "package": "digestive-functors",
@@ -1225,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string of comma-delimited integers to a list.\n Unparseable substrings are left out of the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.List",
           "name": "parseIndices",
           "package": "digestive-functors",
@@ -1235,6 +1330,7 @@
         "index": {
           "description": "Parse string of comma-delimited integers to list Unparseable substrings are left out of the result",
           "hierarchy": "Text Digestive Form List",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.List",
           "name": "parseIndices",
           "normalized": "Text-\u003e[Int]",
@@ -1251,6 +1347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a list of integers as a comma-delimited Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form.List",
           "name": "unparseIndices",
           "package": "digestive-functors",
@@ -1261,6 +1358,7 @@
         "index": {
           "description": "Serialize list of integers as comma-delimited Text",
           "hierarchy": "Text Digestive Form List",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form.List",
           "name": "unparseIndices",
           "normalized": "[Int]-\u003eText",
@@ -1277,6 +1375,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEnd-user interface - provides the main functionality for\n form creation and validation. For an interface for front-end\n implementation, see \u003ca\u003eView\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "Form",
           "package": "digestive-functors",
@@ -1286,6 +1385,7 @@
         "index": {
           "description": "End-user interface provides the main functionality for form creation and validation For an interface for front-end implementation see View",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "Form",
           "package": "digestive-functors",
@@ -1300,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase type for a form.\n\u003c/p\u003e\u003cp\u003eThe three type parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ev\u003c/code\u003e: the type for textual information, displayed to the user. For example,\n   error messages are of this type. \u003ccode\u003ev\u003c/code\u003e stands for \u003ca\u003eview\u003c/a\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e: the monad in which validators operate. The classical example is when\n   validating input requires access to a database, in which case this \u003ccode\u003em\u003c/code\u003e\n   should be an instance of \u003ccode\u003eMonadIO\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ea\u003c/code\u003e: the type of the value returned by the form, used for its Applicative\n   instance.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "Form",
           "package": "digestive-functors",
@@ -1309,6 +1410,7 @@
         "index": {
           "description": "Base type for form The three type parameters are the type for textual information displayed to the user For example error messages are of this type stands for view the monad in which validators operate The classical example is when validating input requires access to database in which case this should be an instance of MonadIO the type of the value returned by the form used for its Applicative instance",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "Form",
           "package": "digestive-functors",
@@ -1323,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e with a set, optional default value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "Formlet",
           "package": "digestive-functors",
@@ -1332,6 +1435,7 @@
         "index": {
           "description": "Form with set optional default value",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "Formlet",
           "package": "digestive-functors",
@@ -1346,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue-agnostic Form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "SomeForm",
           "package": "digestive-functors",
@@ -1355,6 +1460,7 @@
         "index": {
           "description": "Value-agnostic Form",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "SomeForm",
           "package": "digestive-functors",
@@ -1369,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eFormlet\u003c/a\u003e\u003c/code\u003e for binary choices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "bool",
           "package": "digestive-functors",
@@ -1379,6 +1486,7 @@
         "index": {
           "description": "Returns Formlet for binary choices",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "bool",
           "package": "digestive-functors",
@@ -1392,6 +1500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidate the results of a form with a simple predicate\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e check \"Can't be empty\" (not . null) (string Nothing)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "check",
           "package": "digestive-functors",
@@ -1401,6 +1510,7 @@
         "index": {
           "description": "Validate the results of form with simple predicate Example check Can be empty not null string Nothing",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "check",
           "normalized": "a-\u003e(b-\u003eBool)-\u003eForm a c b-\u003eForm a c b",
@@ -1416,6 +1526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003echeck\u003c/a\u003e\u003c/code\u003e which allows monadic validations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "checkM",
           "package": "digestive-functors",
@@ -1426,6 +1537,7 @@
         "index": {
           "description": "Version of check which allows monadic validations",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "checkM",
           "normalized": "a-\u003e(b-\u003ec Bool)-\u003eForm a c b-\u003eForm a c b",
@@ -1441,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eFormlet\u003c/a\u003e\u003c/code\u003e for a value restricted to\n the provided list of value-message tuples\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "choice",
           "package": "digestive-functors",
@@ -1451,6 +1564,7 @@
         "index": {
           "description": "Returns Formlet for value restricted to the provided list of value-message tuples",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "choice",
           "normalized": "[(a,b)]-\u003eFormlet b c a",
@@ -1466,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSometimes there is no good \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance for \u003ccode\u003e\u003ca\u003echoice\u003c/a\u003e\u003c/code\u003e. In this case, you\n can use this function, which takes an index in the list as default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "choice'",
           "package": "digestive-functors",
@@ -1476,6 +1591,7 @@
         "index": {
           "description": "Sometimes there is no good Eq instance for choice In this case you can use this function which takes an index in the list as default",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "choice'",
           "normalized": "[(a,b)]-\u003eMaybe Int-\u003eForm b c a",
@@ -1491,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows you to assign your own values: these values will be used in the\n resulting HTML instead of the default \u003ccode\u003e[0 ..]\u003c/code\u003e. This fixes some race\n conditions that might otherwise appear, e.g. if new choice items are added to\n some database while a user views and submits the form...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "choiceWith",
           "package": "digestive-functors",
@@ -1501,6 +1618,7 @@
         "index": {
           "description": "Allows you to assign your own values these values will be used in the resulting HTML instead of the default This fixes some race conditions that might otherwise appear e.g if new choice items are added to some database while user views and submits the form",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "choiceWith",
           "normalized": "[(Text,(a,b))]-\u003eFormlet b c a",
@@ -1517,6 +1635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003echoiceWith\u003c/a\u003e\u003c/code\u003e for when there is no good \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "choiceWith'",
           "package": "digestive-functors",
@@ -1527,6 +1646,7 @@
         "index": {
           "description": "version of choiceWith for when there is no good Eq instance",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "choiceWith'",
           "normalized": "[(Text,(a,b))]-\u003eMaybe Int-\u003eForm b c a",
@@ -1542,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "dateFormlet",
           "package": "digestive-functors",
@@ -1550,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "dateFormlet",
           "normalized": "String-\u003eFormlet Text a Day",
@@ -1566,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisables a form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "disable",
           "package": "digestive-functors",
@@ -1576,6 +1699,7 @@
         "index": {
           "description": "Disables form",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "disable",
           "normalized": "Form a b c-\u003eForm a b c",
@@ -1591,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eFormlet\u003c/a\u003e\u003c/code\u003e for file selection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "file",
           "package": "digestive-functors",
@@ -1601,6 +1726,7 @@
         "index": {
           "description": "Returns Formlet for file selection",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "file",
           "package": "digestive-functors",
@@ -1614,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eFormlet\u003c/a\u003e\u003c/code\u003e for named groups of choices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "groupedChoice",
           "package": "digestive-functors",
@@ -1624,6 +1751,7 @@
         "index": {
           "description": "Returns Formlet for named groups of choices",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "groupedChoice",
           "normalized": "[(Text,[(a,b)])]-\u003eFormlet b c a",
@@ -1640,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSometimes there is no good \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance for \u003ccode\u003e\u003ca\u003echoice\u003c/a\u003e\u003c/code\u003e. In this case, you\n can use this function, which takes an index in the list as default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "groupedChoice'",
           "package": "digestive-functors",
@@ -1650,6 +1779,7 @@
         "index": {
           "description": "Sometimes there is no good Eq instance for choice In this case you can use this function which takes an index in the list as default",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "groupedChoice'",
           "normalized": "[(Text,[(a,b)])]-\u003eMaybe Int-\u003eForm b c a",
@@ -1666,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows you to assign your own values: these values will be used in the\n resulting HTML instead of the default \u003ccode\u003e[0 ..]\u003c/code\u003e. This fixes some race\n conditions that might otherwise appear, e.g. if new choice items are added to\n some database while a user views and submits the form...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "groupedChoiceWith",
           "package": "digestive-functors",
@@ -1676,6 +1807,7 @@
         "index": {
           "description": "Allows you to assign your own values these values will be used in the resulting HTML instead of the default This fixes some race conditions that might otherwise appear e.g if new choice items are added to some database while user views and submits the form",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "groupedChoiceWith",
           "normalized": "[(Text,[(Text,(a,b))])]-\u003eFormlet b c a",
@@ -1692,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level support for grouped choice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "groupedChoiceWith'",
           "package": "digestive-functors",
@@ -1702,6 +1835,7 @@
         "index": {
           "description": "Low-level support for grouped choice",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "groupedChoiceWith'",
           "normalized": "[(Text,[(Text,(a,b))])]-\u003eMaybe Int-\u003eForm b c a",
@@ -1718,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "listOf",
           "package": "digestive-functors",
@@ -1728,6 +1863,7 @@
         "index": {
           "description": "Dynamic lists",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "listOf",
           "normalized": "Formlet a b c-\u003eFormlet a b[c]",
@@ -1743,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "localTimeFormlet",
           "package": "digestive-functors",
@@ -1751,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "localTimeFormlet",
           "normalized": "String-\u003eString-\u003eFormlet Text a LocalTime",
@@ -1766,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "optionalDateFormlet",
           "package": "digestive-functors",
@@ -1774,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "optionalDateFormlet",
           "normalized": "String-\u003eMaybe Day-\u003eForm Text a(Maybe Day)",
@@ -1789,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "optionalLocalTimeFormlet",
           "package": "digestive-functors",
@@ -1797,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "optionalLocalTimeFormlet",
           "normalized": "String-\u003eString-\u003eMaybe LocalTime-\u003eForm Text a(Maybe LocalTime)",
@@ -1813,6 +1955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentical to \u003ccode\u003e\u003ca\u003eoptionalText\u003c/a\u003e\u003c/code\u003e, but uses Strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "optionalString",
           "package": "digestive-functors",
@@ -1823,6 +1966,7 @@
         "index": {
           "description": "Identical to optionalText but uses Strings",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "optionalString",
           "normalized": "Maybe String-\u003eForm a b(Maybe String)",
@@ -1839,6 +1983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentical to \u003ccode\u003e\u003ca\u003eoptionalText\u003c/a\u003e\u003c/code\u003e for parseable and serializable values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "optionalStringRead",
           "package": "digestive-functors",
@@ -1849,6 +1994,7 @@
         "index": {
           "description": "Identical to optionalText for parseable and serializable values",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "optionalStringRead",
           "normalized": "a-\u003eMaybe b-\u003eForm a c(Maybe b)",
@@ -1865,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a text form with an optional default text which\n returns nothing if no optional text was set, and no input\n was retrieved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "optionalText",
           "package": "digestive-functors",
@@ -1875,6 +2022,7 @@
         "index": {
           "description": "Create text form with an optional default text which returns nothing if no optional text was set and no input was retrieved",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "optionalText",
           "normalized": "Maybe Text-\u003eForm a b(Maybe Text)",
@@ -1890,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "optionalTimeFormlet",
           "package": "digestive-functors",
@@ -1898,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "optionalTimeFormlet",
           "normalized": "String-\u003eMaybe TimeOfDay-\u003eForm Text a(Maybe TimeOfDay)",
@@ -1913,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "optionalUtcTimeFormlet",
           "package": "digestive-functors",
@@ -1921,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "optionalUtcTimeFormlet",
           "normalized": "String-\u003eString-\u003eTimeZone-\u003eMaybe UTCTime-\u003eForm Text a(Maybe UTCTime)",
@@ -1937,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentical to \u003ca\u003etext\u003c/a\u003e but takes a String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "string",
           "package": "digestive-functors",
@@ -1947,6 +2100,7 @@
         "index": {
           "description": "Identical to text but takes String",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "string",
           "package": "digestive-functors",
@@ -1960,6 +2114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eFormlet\u003c/a\u003e\u003c/code\u003e for a parseable and serializable value type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "stringRead",
           "package": "digestive-functors",
@@ -1970,6 +2125,7 @@
         "index": {
           "description": "Returns Formlet for parseable and serializable value type",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "stringRead",
           "normalized": "a-\u003eFormlet a b c",
@@ -1986,6 +2142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eFormlet\u003c/a\u003e\u003c/code\u003e which may optionally take a default text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "text",
           "package": "digestive-functors",
@@ -1996,6 +2153,7 @@
         "index": {
           "description": "Returns Formlet which may optionally take default text",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "text",
           "package": "digestive-functors",
@@ -2008,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "timeFormlet",
           "package": "digestive-functors",
@@ -2016,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "timeFormlet",
           "normalized": "String-\u003eFormlet Text a TimeOfDay",
@@ -2031,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "utcTimeFormlet",
           "package": "digestive-functors",
@@ -2039,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "utcTimeFormlet",
           "normalized": "String-\u003eString-\u003eTimeZone-\u003eFormlet Text a UTCTime",
@@ -2055,6 +2217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an extension of \u003ccode\u003e\u003ca\u003echeck\u003c/a\u003e\u003c/code\u003e that can be used to apply transformations\n that optionally fail\n\u003c/p\u003e\u003cp\u003eExample: taking the first character of an input string\n\u003c/p\u003e\u003cpre\u003e head' :: String -\u003e Result String Char\n head' []      = Error \"Is empty\"\n head' (x : _) = Success x\n\n char :: Monad m =\u003e Form m String Char\n char = validate head' (string Nothing)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "validate",
           "package": "digestive-functors",
@@ -2065,6 +2228,7 @@
         "index": {
           "description": "This is an extension of check that can be used to apply transformations that optionally fail Example taking the first character of an input string head String Result String Char head Error Is empty head Success char Monad Form String Char char validate head string Nothing",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "validate",
           "normalized": "(a-\u003eResult b c)-\u003eForm b d a-\u003eForm b d c",
@@ -2080,6 +2244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003evalidate\u003c/a\u003e\u003c/code\u003e which allows monadic validations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Form",
           "name": "validateM",
           "package": "digestive-functors",
@@ -2090,6 +2255,7 @@
         "index": {
           "description": "Version of validate which allows monadic validations",
           "hierarchy": "Text Digestive Form",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Form",
           "name": "validateM",
           "normalized": "(a-\u003eb(Result c d))-\u003eForm c b a-\u003eForm c b d",
@@ -2105,6 +2271,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains utilities for\n creating text fragments to identify forms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Ref",
           "name": "Ref",
           "package": "digestive-functors",
@@ -2114,6 +2281,7 @@
         "index": {
           "description": "This module contains utilities for creating text fragments to identify forms",
           "hierarchy": "Text Digestive Ref",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Ref",
           "name": "Ref",
           "package": "digestive-functors",
@@ -2128,6 +2296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an arbitrary text value (possibly containing spaces, dots etc. to\n a text value that can safely be used as an identifier in forms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Ref",
           "name": "makeRef",
           "package": "digestive-functors",
@@ -2138,6 +2307,7 @@
         "index": {
           "description": "Convert an arbitrary text value possibly containing spaces dots etc to text value that can safely be used as an identifier in forms",
           "hierarchy": "Text Digestive Ref",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Ref",
           "name": "makeRef",
           "normalized": "Text-\u003eText",
@@ -2154,6 +2324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an infinite list of refs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Ref",
           "name": "makeRefs",
           "package": "digestive-functors",
@@ -2164,6 +2335,7 @@
         "index": {
           "description": "Create an infinite list of refs",
           "hierarchy": "Text Digestive Ref",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Ref",
           "name": "makeRefs",
           "normalized": "[Text]",
@@ -2180,6 +2352,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCore types used internally\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "Types",
           "package": "digestive-functors",
@@ -2189,6 +2362,7 @@
         "index": {
           "description": "Core types used internally",
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "Types",
           "package": "digestive-functors",
@@ -2203,6 +2377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn environment (e.g. a server) from which we can read input parameters. A\n single key might be associated with multiple text values (multi-select).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "Env",
           "package": "digestive-functors",
@@ -2212,6 +2387,7 @@
         "index": {
           "description": "An environment e.g server from which we can read input parameters single key might be associated with multiple text values multi-select",
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "Env",
           "package": "digestive-functors",
@@ -2226,6 +2402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different input types sent by the browser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "FormInput",
           "package": "digestive-functors",
@@ -2235,6 +2412,7 @@
         "index": {
           "description": "The different input types sent by the browser",
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "FormInput",
           "package": "digestive-functors",
@@ -2249,6 +2427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HTTP methods\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "Method",
           "package": "digestive-functors",
@@ -2258,6 +2437,7 @@
         "index": {
           "description": "The HTTP methods",
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "Method",
           "package": "digestive-functors",
@@ -2272,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes a path to a subform\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "Path",
           "package": "digestive-functors",
@@ -2281,6 +2462,7 @@
         "index": {
           "description": "Describes path to subform",
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "Path",
           "package": "digestive-functors",
@@ -2295,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mostly internally used type for representing Success/Error, with a\n special applicative instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "Result",
           "package": "digestive-functors",
@@ -2304,6 +2487,7 @@
         "index": {
           "description": "mostly internally used type for representing Success Error with special applicative instance",
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "Result",
           "package": "digestive-functors",
@@ -2317,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "Error",
           "package": "digestive-functors",
@@ -2326,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "Error",
           "package": "digestive-functors",
@@ -2339,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "FileInput",
           "package": "digestive-functors",
@@ -2348,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "FileInput",
           "package": "digestive-functors",
@@ -2361,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "Get",
           "package": "digestive-functors",
@@ -2370,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "Get",
           "package": "digestive-functors",
@@ -2383,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "Post",
           "package": "digestive-functors",
@@ -2392,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "Post",
           "package": "digestive-functors",
@@ -2405,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "Success",
           "package": "digestive-functors",
@@ -2414,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "Success",
           "package": "digestive-functors",
@@ -2427,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "TextInput",
           "package": "digestive-functors",
@@ -2436,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "TextInput",
           "package": "digestive-functors",
@@ -2450,6 +2646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "fromPath",
           "package": "digestive-functors",
@@ -2460,6 +2657,7 @@
         "index": {
           "description": "Serialize Path to Text",
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "fromPath",
           "normalized": "Path-\u003eText",
@@ -2476,6 +2674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over the error type of a \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "resultMapError",
           "package": "digestive-functors",
@@ -2486,6 +2685,7 @@
         "index": {
           "description": "Map over the error type of Result",
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "resultMapError",
           "normalized": "(a-\u003eb)-\u003eResult a c-\u003eResult b c",
@@ -2502,6 +2702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e from some text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Types",
           "name": "toPath",
           "package": "digestive-functors",
@@ -2512,6 +2713,7 @@
         "index": {
           "description": "Create Path from some text",
           "hierarchy": "Text Digestive Types",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Types",
           "name": "toPath",
           "normalized": "Text-\u003ePath",
@@ -2528,6 +2730,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for safe failable parsing\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Util",
           "name": "Util",
           "package": "digestive-functors",
@@ -2537,6 +2740,7 @@
         "index": {
           "description": "Utilities for safe failable parsing",
           "hierarchy": "Text Digestive Util",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Util",
           "name": "Util",
           "package": "digestive-functors",
@@ -2551,6 +2755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e in the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.Util",
           "name": "readMaybe",
           "package": "digestive-functors",
@@ -2561,6 +2766,7 @@
         "index": {
           "description": "read in the Maybe monad",
           "hierarchy": "Text Digestive Util",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.Util",
           "name": "readMaybe",
           "normalized": "String-\u003eMaybe a",
@@ -2577,6 +2783,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functionality for frontend and backend integration.\n\u003c/p\u003e\u003cp\u003eThis module contains functions used to glue form handling to\n particular server implementations and view libraries, defining\n the standard behaviour for handling GET and POST requests.\n\u003c/p\u003e\u003cp\u003eField accessors can be used to write frontend libraries,\n mapping field values to concrete elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "View",
           "package": "digestive-functors",
@@ -2586,6 +2793,7 @@
         "index": {
           "description": "Provides functionality for frontend and backend integration This module contains functions used to glue form handling to particular server implementations and view libraries defining the standard behaviour for handling GET and POST requests Field accessors can be used to write frontend libraries mapping field values to concrete elements",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "View",
           "package": "digestive-functors",
@@ -2600,6 +2808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinalized form - handles the form, error messages and input.\n Internally handles the addressing of individual fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "View",
           "package": "digestive-functors",
@@ -2609,6 +2818,7 @@
         "index": {
           "description": "Finalized form handles the form error messages and input Internally handles the addressing of individual fields",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "View",
           "package": "digestive-functors",
@@ -2622,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "View",
           "package": "digestive-functors",
@@ -2631,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "View",
           "package": "digestive-functors",
@@ -2645,6 +2857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine an absolute \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e for a field in the form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "absolutePath",
           "package": "digestive-functors",
@@ -2655,6 +2868,7 @@
         "index": {
           "description": "Determine an absolute Path for field in the form",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "absolutePath",
           "normalized": "Text-\u003eView a-\u003ePath",
@@ -2671,6 +2885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine an absolute path and call \u003ccode\u003e\u003ca\u003efromPath\u003c/a\u003e\u003c/code\u003e on it. Useful if you're\n writing a view library...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "absoluteRef",
           "package": "digestive-functors",
@@ -2681,6 +2896,7 @@
         "index": {
           "description": "Determine an absolute path and call fromPath on it Useful if you re writing view library",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "absoluteRef",
           "normalized": "Text-\u003eView a-\u003eText",
@@ -2697,6 +2913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all errors related to the form, and its children, pointed\n to by the given serialized Path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "childErrors",
           "package": "digestive-functors",
@@ -2707,6 +2924,7 @@
         "index": {
           "description": "Returns all errors related to the form and its children pointed to by the given serialized Path",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "childErrors",
           "normalized": "Text-\u003eView a-\u003e[a]",
@@ -2723,6 +2941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve all paths of the contained form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "debugViewPaths",
           "package": "digestive-functors",
@@ -2733,6 +2952,7 @@
         "index": {
           "description": "Retrieve all paths of the contained form",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "debugViewPaths",
           "normalized": "View a-\u003e[Path]",
@@ -2749,6 +2969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all errors related to the form corresponding to the given\n serialized Path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "errors",
           "package": "digestive-functors",
@@ -2759,6 +2980,7 @@
         "index": {
           "description": "Returns all errors related to the form corresponding to the given serialized Path",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "errors",
           "normalized": "Text-\u003eView a-\u003e[a]",
@@ -2774,6 +2996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True/False based on the field referred to by the given\n serialized Path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "fieldInputBool",
           "package": "digestive-functors",
@@ -2784,6 +3007,7 @@
         "index": {
           "description": "Returns True False based on the field referred to by the given serialized Path",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "fieldInputBool",
           "normalized": "a b Text-\u003eView c-\u003eBool",
@@ -2800,6 +3024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of (identifier, view, selected?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "fieldInputChoice",
           "package": "digestive-functors",
@@ -2810,6 +3035,7 @@
         "index": {
           "description": "Returns list of identifier view selected",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "fieldInputChoice",
           "normalized": "a b Text-\u003eView c-\u003e[(Text,c,Bool)]",
@@ -2826,6 +3052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of (groupName, [(identifier, view, selected?)])\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "fieldInputChoiceGroup",
           "package": "digestive-functors",
@@ -2836,6 +3063,7 @@
         "index": {
           "description": "Returns list of groupName identifier view selected",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "fieldInputChoiceGroup",
           "normalized": "a b Text-\u003eView c-\u003e[(Text,[(Text,c,Bool)])]",
@@ -2852,6 +3080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the FilePath referred to by the given serialized path, if set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "fieldInputFile",
           "package": "digestive-functors",
@@ -2862,6 +3091,7 @@
         "index": {
           "description": "Return the FilePath referred to by the given serialized path if set",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "fieldInputFile",
           "normalized": "a b Text-\u003eView c-\u003eMaybe FilePath",
@@ -2878,6 +3108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the text data at the position referred to by the given\n serialized Path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "fieldInputText",
           "package": "digestive-functors",
@@ -2888,6 +3119,7 @@
         "index": {
           "description": "Return the text data at the position referred to by the given serialized Path",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "fieldInputText",
           "normalized": "a b Text-\u003eView c-\u003eText",
@@ -2904,6 +3136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServe up a form for a GET request - no form input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "getForm",
           "package": "digestive-functors",
@@ -2914,6 +3147,7 @@
         "index": {
           "description": "Serve up form for GET request no form input",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "getForm",
           "normalized": "Text-\u003eForm a b c-\u003eb(View a)",
@@ -2930,6 +3164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns sub views referred to by dynamic list indices\n at the given serialized path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "listSubViews",
           "package": "digestive-functors",
@@ -2940,6 +3175,7 @@
         "index": {
           "description": "Returns sub views referred to by dynamic list indices at the given serialized path",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "listSubViews",
           "normalized": "Text-\u003eView a-\u003e[View a]",
@@ -2956,6 +3192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a sub view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "makeListSubView",
           "package": "digestive-functors",
@@ -2965,6 +3202,7 @@
         "index": {
           "description": "Creates sub view",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "makeListSubView",
           "normalized": "Text-\u003eInt-\u003eView a-\u003eView a",
@@ -2981,6 +3219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle a form for a POST request - evaluate with the given environment\n and return the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "postForm",
           "package": "digestive-functors",
@@ -2991,6 +3230,7 @@
         "index": {
           "description": "Handle form for POST request evaluate with the given environment and return the result",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "postForm",
           "normalized": "Text-\u003eForm a b c-\u003e(FormEncType-\u003eb(Env b))-\u003eb(View a,Maybe c)",
@@ -3007,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the subview of a view matching the given serialized \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "subView",
           "package": "digestive-functors",
@@ -3017,6 +3258,7 @@
         "index": {
           "description": "Returns the subview of view matching the given serialized Path",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "subView",
           "normalized": "Text-\u003eView a-\u003eView a",
@@ -3033,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all immediate subviews of a view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "subViews",
           "package": "digestive-functors",
@@ -3043,6 +3286,7 @@
         "index": {
           "description": "Returns all immediate subviews of view",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "subViews",
           "normalized": "View a-\u003e[View a]",
@@ -3058,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "viewContext",
           "package": "digestive-functors",
@@ -3067,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "viewContext",
           "package": "digestive-functors",
@@ -3080,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "viewDisabled",
           "package": "digestive-functors",
@@ -3089,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "viewDisabled",
           "normalized": "Text-\u003eView a-\u003eBool",
@@ -3105,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the content type of the View - depends on contained fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "viewEncType",
           "package": "digestive-functors",
@@ -3115,6 +3364,7 @@
         "index": {
           "description": "Returns the content type of the View depends on contained fields",
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "viewEncType",
           "normalized": "View a-\u003eFormEncType",
@@ -3130,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "viewErrors",
           "package": "digestive-functors",
@@ -3139,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "viewErrors",
           "normalized": "[(Path,a)]",
@@ -3154,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "viewForm",
           "package": "digestive-functors",
@@ -3163,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "viewForm",
           "package": "digestive-functors",
@@ -3176,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "viewInput",
           "package": "digestive-functors",
@@ -3185,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "viewInput",
           "normalized": "[(Path,FormInput)]",
@@ -3200,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "viewMethod",
           "package": "digestive-functors",
@@ -3209,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "viewMethod",
           "package": "digestive-functors",
@@ -3222,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive.View",
           "name": "viewName",
           "package": "digestive-functors",
@@ -3231,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive View",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive.View",
           "name": "viewName",
           "package": "digestive-functors",
@@ -3245,6 +3505,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTutorial:\n \u003ca\u003ehttp://github.com/jaspervdj/digestive-functors/blob/master/examples/tutorial.lhs\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:06 UTC 2014",
           "module": "Text.Digestive",
           "name": "Digestive",
           "package": "digestive-functors",
@@ -3254,6 +3515,7 @@
         "index": {
           "description": "Tutorial http github.com jaspervdj digestive-functors blob master examples tutorial.lhs",
           "hierarchy": "Text Digestive",
+          "indexed": "2014-03-11T17:55:06",
           "module": "Text.Digestive",
           "name": "Digestive",
           "package": "digestive-functors",

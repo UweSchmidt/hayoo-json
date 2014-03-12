@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "whim"
+        "phrase": "whim",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "Playground",
           "package": "whim",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "Playground",
           "package": "whim",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "State",
           "package": "whim",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "State",
           "package": "whim",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "Window",
           "package": "whim",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "Window",
           "package": "whim",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "State",
           "package": "whim",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "State",
           "package": "whim",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "Window",
           "package": "whim",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "Window",
           "package": "whim",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "display",
           "package": "whim",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "display",
           "normalized": "IORef State-\u003eDisplayCallback",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "key",
           "package": "whim",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "key",
           "normalized": "IORef State-\u003eKeyboardMouseCallback",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "main",
           "package": "whim",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "main",
           "normalized": "IO()",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "reshape",
           "package": "whim",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "reshape",
           "normalized": "IORef State-\u003eReshapeCallback",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "sPlaygroundSize",
           "package": "whim",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "sPlaygroundSize",
           "package": "whim",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "sWindows",
           "package": "whim",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "sWindows",
           "normalized": "[Window]",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "wColor",
           "package": "whim",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "wColor",
           "package": "whim",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "wOrigin",
           "package": "whim",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "wOrigin",
           "package": "whim",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "wSize",
           "package": "whim",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "wSize",
           "package": "whim",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Playground",
           "name": "wTitle",
           "package": "whim",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Whim Playground",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Playground",
           "name": "wTitle",
           "package": "whim",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Util",
           "name": "Util",
           "package": "whim",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Whim Util",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Util",
           "name": "Util",
           "package": "whim",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Util",
           "name": "Coord",
           "package": "whim",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Whim Util",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Util",
           "name": "Coord",
           "package": "whim",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Util",
           "name": "(+:)",
           "package": "whim",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Whim Util",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Util",
           "name": "(+:) +:",
           "normalized": "Coord-\u003eCoord-\u003eCoord",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Util",
           "name": "(-:)",
           "package": "whim",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Whim Util",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Util",
           "name": "(-:) -:",
           "normalized": "Coord-\u003eCoord-\u003eCoord",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Util",
           "name": "log",
           "package": "whim",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Whim Util",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Util",
           "name": "log",
           "normalized": "[String]-\u003eIO()",
@@ -463,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra functions that the built-in X11 module lacks.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Xlib",
           "name": "Xlib",
           "package": "whim",
@@ -472,6 +513,7 @@
         "index": {
           "description": "Extra functions that the built-in X11 module lacks",
           "hierarchy": "Whim Xlib",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Xlib",
           "name": "Xlib",
           "package": "whim",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Xlib",
           "name": "WindowAttributes",
           "package": "whim",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Whim Xlib",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Xlib",
           "name": "WindowAttributes",
           "package": "whim",
@@ -506,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Xlib",
           "name": "getWindowAttributes",
           "package": "whim",
@@ -515,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Whim Xlib",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Xlib",
           "name": "getWindowAttributes",
           "normalized": "Display-\u003eWindow-\u003eIO WindowAttributes",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Xlib",
           "name": "get_MapRequestEvent",
           "package": "whim",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Whim Xlib",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Xlib",
           "name": "get_MapRequestEvent",
           "normalized": "XEventPtr-\u003eIO Window",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Xlib",
           "name": "queryTree",
           "package": "whim",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Whim Xlib",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Xlib",
           "name": "queryTree",
           "normalized": "Display-\u003eWindow-\u003eIO[Window]",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Xlib",
           "name": "x_free",
           "package": "whim",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Whim Xlib",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Xlib",
           "name": "x_free",
           "normalized": "Ptr a-\u003eIO()",
@@ -601,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Xlib",
           "name": "x_get_window_attributes",
           "package": "whim",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Whim Xlib",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Xlib",
           "name": "x_get_window_attributes",
           "normalized": "Display-\u003eWindow-\u003ePtr Int-\u003eIO Int",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:57 UTC 2014",
           "module": "Whim.Xlib",
           "name": "x_query_tree",
           "package": "whim",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Whim Xlib",
+          "indexed": "2014-03-11T20:38:57",
           "module": "Whim.Xlib",
           "name": "x_query_tree",
           "normalized": "Display-\u003eWindow-\u003ePtr Window-\u003ePtr Window-\u003ePtr(Ptr Window)-\u003ePtr Int-\u003eIO Int",

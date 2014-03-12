@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "jdi"
+        "phrase": "jdi",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-level-numbers"
+        "phrase": "type-level-numbers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Boolean",
           "name": "Boolean",
           "package": "type-level-numbers",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Boolean",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Boolean",
           "name": "Boolean",
           "package": "type-level-numbers",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnd for boolean types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Boolean",
           "name": "And",
           "package": "type-level-numbers",
@@ -49,6 +52,7 @@
         "index": {
           "description": "And for boolean types",
           "hierarchy": "TypeLevel Boolean",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Boolean",
           "name": "And",
           "package": "type-level-numbers",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Boolean",
           "name": "False",
           "package": "type-level-numbers",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Data type for false",
           "hierarchy": "TypeLevel Boolean",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Boolean",
           "name": "False",
           "package": "type-level-numbers",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Boolean",
           "name": "Not",
           "package": "type-level-numbers",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Negation",
           "hierarchy": "TypeLevel Boolean",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Boolean",
           "name": "Not",
           "package": "type-level-numbers",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOr for boolean types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Boolean",
           "name": "Or",
           "package": "type-level-numbers",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Or for boolean types",
           "hierarchy": "TypeLevel Boolean",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Boolean",
           "name": "Or",
           "package": "type-level-numbers",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for truth\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Boolean",
           "name": "True",
           "package": "type-level-numbers",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Data type for truth",
           "hierarchy": "TypeLevel Boolean",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Boolean",
           "name": "True",
           "package": "type-level-numbers",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExlusive or for boolean types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Boolean",
           "name": "Xor",
           "package": "type-level-numbers",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Exlusive or for boolean types",
           "hierarchy": "TypeLevel Boolean",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Boolean",
           "name": "Xor",
           "package": "type-level-numbers",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Boolean",
           "name": "andT",
           "package": "type-level-numbers",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Boolean",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Boolean",
           "name": "andT",
           "normalized": "a-\u003eb-\u003eAnd a b",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Boolean",
           "name": "notT",
           "package": "type-level-numbers",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Boolean",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Boolean",
           "name": "notT",
           "normalized": "a-\u003eNot a",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Boolean",
           "name": "orT",
           "package": "type-level-numbers",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Boolean",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Boolean",
           "name": "orT",
           "normalized": "a-\u003eb-\u003eOr a b",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Boolean",
           "name": "xorT",
           "package": "type-level-numbers",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Boolean",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Boolean",
           "name": "xorT",
           "normalized": "a-\u003eb-\u003eXor a b",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contain interface type classes for operations with type\n level numbers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Classes",
           "package": "type-level-numbers",
@@ -279,6 +302,7 @@
         "index": {
           "description": "This module contain interface type classes for operations with type level numbers",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Classes",
           "package": "type-level-numbers",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum of two numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Add",
           "package": "type-level-numbers",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Sum of two numbers",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Add",
           "package": "type-level-numbers",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType family for comparing two numbers. It's expected that for any\n two valid \u003ccode\u003en\u003c/code\u003e and \u003ccode\u003em\u003c/code\u003e 'Compare n m' is equal to IsLess when 'n\u003cm', IsEqual\n when 'n=m' and IsGreater when 'n\u003em'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Compare",
           "package": "type-level-numbers",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Type family for comparing two numbers It expected that for any two valid and Compare is equal to IsLess when IsEqual when and IsGreater when",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Compare",
           "package": "type-level-numbers",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision of two numbers. \u003ccode\u003en\u003c/code\u003e and \u003ccode\u003em\u003c/code\u003e should be instances of this\n class only if remainder of 'n/m' is zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Div",
           "package": "type-level-numbers",
@@ -348,6 +377,7 @@
         "index": {
           "description": "Division of two numbers and should be instances of this class only if remainder of is zero",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Div",
           "package": "type-level-numbers",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumbers n and m are instances of this class if and only is n \u003e m.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Greater",
           "package": "type-level-numbers",
@@ -371,6 +402,7 @@
         "index": {
           "description": "Numbers and are instances of this class if and only is",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Greater",
           "package": "type-level-numbers",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumbers n and m are instances of this class if and only is n \u003e= m.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "GreaterEq",
           "package": "type-level-numbers",
@@ -394,6 +427,7 @@
         "index": {
           "description": "Numbers and are instances of this class if and only is",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "GreaterEq",
           "package": "type-level-numbers",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "IsEqual",
           "package": "type-level-numbers",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "IsEqual",
           "package": "type-level-numbers",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "IsGreater",
           "package": "type-level-numbers",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "IsGreater",
           "package": "type-level-numbers",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "IsLesser",
           "package": "type-level-numbers",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "IsLesser",
           "package": "type-level-numbers",
@@ -471,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumbers n and m are instances of this class if and only is n \u003c m.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Lesser",
           "package": "type-level-numbers",
@@ -480,6 +521,7 @@
         "index": {
           "description": "Numbers and are instances of this class if and only is",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Lesser",
           "package": "type-level-numbers",
@@ -494,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumbers n and m are instances of this class if and only is n \u003c= m.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "LesserEq",
           "package": "type-level-numbers",
@@ -503,6 +546,7 @@
         "index": {
           "description": "Numbers and are instances of this class if and only is",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "LesserEq",
           "package": "type-level-numbers",
@@ -517,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduct of two numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Mul",
           "package": "type-level-numbers",
@@ -526,6 +571,7 @@
         "index": {
           "description": "Product of two numbers",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Mul",
           "package": "type-level-numbers",
@@ -540,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Negate",
           "package": "type-level-numbers",
@@ -549,6 +596,7 @@
         "index": {
           "description": "Negate number",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Negate",
           "package": "type-level-numbers",
@@ -563,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNext number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Next",
           "package": "type-level-numbers",
@@ -572,6 +621,7 @@
         "index": {
           "description": "Next number",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Next",
           "package": "type-level-numbers",
@@ -586,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-zero number. For naturals it's same as positive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "NonZero",
           "package": "type-level-numbers",
@@ -595,6 +646,7 @@
         "index": {
           "description": "Non-zero number For naturals it same as positive",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "NonZero",
           "package": "type-level-numbers",
@@ -609,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsually numbers have non-unique representation. This type family\n is canonical representation of number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Normalized",
           "package": "type-level-numbers",
@@ -618,6 +671,7 @@
         "index": {
           "description": "Usually numbers have non-unique representation This type family is canonical representation of number",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Normalized",
           "package": "type-level-numbers",
@@ -632,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositive number. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Positive",
           "package": "type-level-numbers",
@@ -641,6 +696,7 @@
         "index": {
           "description": "Positive number",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Positive",
           "package": "type-level-numbers",
@@ -655,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrevious number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Prev",
           "package": "type-level-numbers",
@@ -664,6 +721,7 @@
         "index": {
           "description": "Previous number",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Prev",
           "package": "type-level-numbers",
@@ -678,6 +736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference of two numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "Sub",
           "package": "type-level-numbers",
@@ -687,6 +746,7 @@
         "index": {
           "description": "Difference of two numbers",
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "Sub",
           "package": "type-level-numbers",
@@ -700,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "addN",
           "package": "type-level-numbers",
@@ -709,6 +770,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "addN",
           "normalized": "a-\u003eb-\u003eAdd a b",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "compareN",
           "package": "type-level-numbers",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "compareN",
           "normalized": "a-\u003eb-\u003eCompare a b",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "divN",
           "package": "type-level-numbers",
@@ -755,6 +820,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "divN",
           "normalized": "a-\u003eb-\u003eDiv a b",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "mulN",
           "package": "type-level-numbers",
@@ -778,6 +845,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "mulN",
           "normalized": "a-\u003eb-\u003eMul a b",
@@ -792,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "negateN",
           "package": "type-level-numbers",
@@ -801,6 +870,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "negateN",
           "normalized": "a-\u003eNegate a",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "nextN",
           "package": "type-level-numbers",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "nextN",
           "normalized": "a-\u003eNext a",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "prevN",
           "package": "type-level-numbers",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "prevN",
           "normalized": "a-\u003ePrev a",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Classes",
           "name": "subN",
           "package": "type-level-numbers",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Classes",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Classes",
           "name": "subN",
           "normalized": "a-\u003eb-\u003eSub a b",
@@ -885,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType level signed integer numbers are implemented using balanced\n ternary encoding much in the same way as natural numbers.\n\u003c/p\u003e\u003cp\u003eCurrently following operations are supported: Next, Prev, Add, Sub,\n Mul.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Int",
           "name": "Int",
           "package": "type-level-numbers",
@@ -894,6 +971,7 @@
         "index": {
           "description": "Type level signed integer numbers are implemented using balanced ternary encoding much in the same way as natural numbers Currently following operations are supported Next Prev Add Sub Mul",
           "hierarchy": "TypeLevel Number Int",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Int",
           "name": "Int",
           "package": "type-level-numbers",
@@ -908,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDigit 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Int",
           "name": "D0",
           "package": "type-level-numbers",
@@ -917,6 +996,7 @@
         "index": {
           "description": "Digit",
           "hierarchy": "TypeLevel Number Int",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Int",
           "name": "D0",
           "package": "type-level-numbers",
@@ -930,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDigit 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Int",
           "name": "D1",
           "package": "type-level-numbers",
@@ -939,6 +1020,7 @@
         "index": {
           "description": "Digit",
           "hierarchy": "TypeLevel Number Int",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Int",
           "name": "D1",
           "package": "type-level-numbers",
@@ -952,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDigit -1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Int",
           "name": "Dn",
           "package": "type-level-numbers",
@@ -961,6 +1044,7 @@
         "index": {
           "description": "Digit",
           "hierarchy": "TypeLevel Number Int",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Int",
           "name": "Dn",
           "package": "type-level-numbers",
@@ -975,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for type level integers. Only numbers without leading\n zeroes are members of the class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Int",
           "name": "IntT",
           "package": "type-level-numbers",
@@ -984,6 +1069,7 @@
         "index": {
           "description": "Type class for type level integers Only numbers without leading zeroes are members of the class",
           "hierarchy": "TypeLevel Number Int",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Int",
           "name": "IntT",
           "package": "type-level-numbers",
@@ -998,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome natural number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Int",
           "name": "SomeInt",
           "package": "type-level-numbers",
@@ -1007,6 +1094,7 @@
         "index": {
           "description": "Some natural number",
           "hierarchy": "TypeLevel Number Int",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Int",
           "name": "SomeInt",
           "package": "type-level-numbers",
@@ -1021,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDigit stream terminator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Int",
           "name": "ZZ",
           "package": "type-level-numbers",
@@ -1030,6 +1119,7 @@
         "index": {
           "description": "Digit stream terminator",
           "hierarchy": "TypeLevel Number Int",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Int",
           "name": "ZZ",
           "package": "type-level-numbers",
@@ -1044,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate type for integer number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Int",
           "name": "intT",
           "package": "type-level-numbers",
@@ -1054,6 +1145,7 @@
         "index": {
           "description": "Generate type for integer number",
           "hierarchy": "TypeLevel Number Int",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Int",
           "name": "intT",
           "normalized": "Integer-\u003eTypeQ",
@@ -1069,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert natural number to integral value. It's not checked\n whether value could be represented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Int",
           "name": "toInt",
           "package": "type-level-numbers",
@@ -1079,6 +1172,7 @@
         "index": {
           "description": "Convert natural number to integral value It not checked whether value could be represented",
           "hierarchy": "TypeLevel Number Int",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Int",
           "name": "toInt",
           "normalized": "a-\u003eb",
@@ -1095,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function which could work with any \u003ccode\u003eNat\u003c/code\u003e value only know at runtime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Int",
           "name": "withInt",
           "package": "type-level-numbers",
@@ -1105,6 +1200,7 @@
         "index": {
           "description": "Apply function which could work with any Nat value only know at runtime",
           "hierarchy": "TypeLevel Number Int",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Int",
           "name": "withInt",
           "normalized": "a-\u003eb)-\u003ec-\u003eb",
@@ -1120,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "Num",
           "package": "type-level-numbers",
@@ -1128,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "Num",
           "package": "type-level-numbers",
@@ -1141,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N0",
           "package": "type-level-numbers",
@@ -1149,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N0",
           "package": "type-level-numbers",
@@ -1161,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N1",
           "package": "type-level-numbers",
@@ -1169,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N1",
           "package": "type-level-numbers",
@@ -1181,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N2",
           "package": "type-level-numbers",
@@ -1189,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N2",
           "package": "type-level-numbers",
@@ -1201,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N3",
           "package": "type-level-numbers",
@@ -1209,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N3",
           "package": "type-level-numbers",
@@ -1221,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N4",
           "package": "type-level-numbers",
@@ -1229,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N4",
           "package": "type-level-numbers",
@@ -1241,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N5",
           "package": "type-level-numbers",
@@ -1249,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N5",
           "package": "type-level-numbers",
@@ -1261,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N6",
           "package": "type-level-numbers",
@@ -1269,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N6",
           "package": "type-level-numbers",
@@ -1281,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N7",
           "package": "type-level-numbers",
@@ -1289,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N7",
           "package": "type-level-numbers",
@@ -1301,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N8",
           "package": "type-level-numbers",
@@ -1309,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N8",
           "package": "type-level-numbers",
@@ -1321,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N9",
           "package": "type-level-numbers",
@@ -1329,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "N9",
           "package": "type-level-numbers",
@@ -1341,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n0",
           "package": "type-level-numbers",
@@ -1350,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n0",
           "package": "type-level-numbers",
@@ -1362,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n1",
           "package": "type-level-numbers",
@@ -1371,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n1",
           "package": "type-level-numbers",
@@ -1383,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n2",
           "package": "type-level-numbers",
@@ -1392,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n2",
           "package": "type-level-numbers",
@@ -1404,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n3",
           "package": "type-level-numbers",
@@ -1413,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n3",
           "package": "type-level-numbers",
@@ -1425,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n4",
           "package": "type-level-numbers",
@@ -1434,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n4",
           "package": "type-level-numbers",
@@ -1446,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n5",
           "package": "type-level-numbers",
@@ -1455,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n5",
           "package": "type-level-numbers",
@@ -1467,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n6",
           "package": "type-level-numbers",
@@ -1476,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n6",
           "package": "type-level-numbers",
@@ -1488,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n7",
           "package": "type-level-numbers",
@@ -1497,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n7",
           "package": "type-level-numbers",
@@ -1509,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n8",
           "package": "type-level-numbers",
@@ -1518,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n8",
           "package": "type-level-numbers",
@@ -1530,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n9",
           "package": "type-level-numbers",
@@ -1539,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat Num",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat.Num",
           "name": "n9",
           "package": "type-level-numbers",
@@ -1552,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is type level natural numbers. They are represented using\n binary encoding which means that reasonable large numbers could be\n represented. With default context stack depth (20) maximal number\n is 2^18-1 (262143).\n\u003c/p\u003e\u003cpre\u003e Z           = 0\n I Z         = 1\n O (I Z)     = 2\n I (I Z)     = 3\n O (O (I Z)) = 4\n ...\n\u003c/pre\u003e\u003cp\u003eIt's easy to see that representation for each number is not\n unique. One could add any numbers of leading zeroes:\n\u003c/p\u003e\u003cpre\u003e I Z = I (O Z) = I (O (O Z)) = 1\n\u003c/pre\u003e\u003cp\u003eIn order to enforce uniqueness of representation only numbers\n without leading zeroes are members of Nat type class. This means\n than types are equal if and only if numbers are equal.\n\u003c/p\u003e\u003cp\u003eNatural numbers support comparison and following operations: Next,\n Prev, Add, Sub, Mul. All operations on numbers return normalized\n numbers.\n\u003c/p\u003e\u003cp\u003eInterface type classes are reexported from TypeLevel.Number.Classes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat",
           "name": "Nat",
           "package": "type-level-numbers",
@@ -1561,6 +1700,7 @@
         "index": {
           "description": "This is type level natural numbers They are represented using binary encoding which means that reasonable large numbers could be represented With default context stack depth maximal number is It easy to see that representation for each number is not unique One could add any numbers of leading zeroes In order to enforce uniqueness of representation only numbers without leading zeroes are members of Nat type class This means than types are equal if and only if numbers are equal Natural numbers support comparison and following operations Next Prev Add Sub Mul All operations on numbers return normalized numbers Interface type classes are reexported from TypeLevel.Number.Classes",
           "hierarchy": "TypeLevel Number Nat",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat",
           "name": "Nat",
           "package": "type-level-numbers",
@@ -1575,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne bit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat",
           "name": "I",
           "package": "type-level-numbers",
@@ -1584,6 +1725,7 @@
         "index": {
           "description": "One bit",
           "hierarchy": "TypeLevel Number Nat",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat",
           "name": "I",
           "package": "type-level-numbers",
@@ -1597,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for natural numbers. Only numbers without leading\n zeroes are members of this type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat",
           "name": "Nat",
           "package": "type-level-numbers",
@@ -1606,6 +1749,7 @@
         "index": {
           "description": "Type class for natural numbers Only numbers without leading zeroes are members of this type class",
           "hierarchy": "TypeLevel Number Nat",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat",
           "name": "Nat",
           "package": "type-level-numbers",
@@ -1620,6 +1764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero bit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat",
           "name": "O",
           "package": "type-level-numbers",
@@ -1629,6 +1774,7 @@
         "index": {
           "description": "Zero bit",
           "hierarchy": "TypeLevel Number Nat",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat",
           "name": "O",
           "package": "type-level-numbers",
@@ -1642,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome natural number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat",
           "name": "SomeNat",
           "package": "type-level-numbers",
@@ -1651,6 +1798,7 @@
         "index": {
           "description": "Some natural number",
           "hierarchy": "TypeLevel Number Nat",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat",
           "name": "SomeNat",
           "package": "type-level-numbers",
@@ -1665,6 +1813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBit stream terminator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat",
           "name": "Z",
           "package": "type-level-numbers",
@@ -1674,6 +1823,7 @@
         "index": {
           "description": "Bit stream terminator",
           "hierarchy": "TypeLevel Number Nat",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat",
           "name": "Z",
           "package": "type-level-numbers",
@@ -1686,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat",
           "name": "SomeNat",
           "package": "type-level-numbers",
@@ -1695,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Number Nat",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat",
           "name": "SomeNat",
           "normalized": "a-\u003eSomeNat",
@@ -1711,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate value for type level natural. Value itself is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat",
           "name": "nat",
           "package": "type-level-numbers",
@@ -1721,6 +1874,7 @@
         "index": {
           "description": "Create value for type level natural Value itself is undefined",
           "hierarchy": "TypeLevel Number Nat",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat",
           "name": "nat",
           "normalized": "Integer-\u003eExpQ",
@@ -1736,6 +1890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate type for natural number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat",
           "name": "natT",
           "package": "type-level-numbers",
@@ -1746,6 +1901,7 @@
         "index": {
           "description": "Create type for natural number",
           "hierarchy": "TypeLevel Number Nat",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat",
           "name": "natT",
           "normalized": "Integer-\u003eTypeQ",
@@ -1761,6 +1917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert natural number to integral value. It's not checked\n whether value could be represented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat",
           "name": "toInt",
           "package": "type-level-numbers",
@@ -1771,6 +1928,7 @@
         "index": {
           "description": "Convert natural number to integral value It not checked whether value could be represented",
           "hierarchy": "TypeLevel Number Nat",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat",
           "name": "toInt",
           "normalized": "a-\u003eb",
@@ -1787,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function which could work with any \u003ccode\u003e\u003ca\u003eNat\u003c/a\u003e\u003c/code\u003e value only know at runtime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Number.Nat",
           "name": "withNat",
           "package": "type-level-numbers",
@@ -1797,6 +1956,7 @@
         "index": {
           "description": "Apply function which could work with any Nat value only know at runtime",
           "hierarchy": "TypeLevel Number Nat",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Number.Nat",
           "name": "withNat",
           "normalized": "a-\u003eb)-\u003ec-\u003eb",
@@ -1812,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Reify",
           "name": "Reify",
           "package": "type-level-numbers",
@@ -1820,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Reify",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Reify",
           "name": "Reify",
           "package": "type-level-numbers",
@@ -1834,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert type level into value level using \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Reify",
           "name": "Reify",
           "package": "type-level-numbers",
@@ -1843,6 +2006,7 @@
         "index": {
           "description": "Convert type level into value level using",
           "hierarchy": "TypeLevel Reify",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Reify",
           "name": "Reify",
           "package": "type-level-numbers",
@@ -1857,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue with type tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Reify",
           "name": "Witness",
           "package": "type-level-numbers",
@@ -1866,6 +2031,7 @@
         "index": {
           "description": "Value with type tag",
           "hierarchy": "TypeLevel Reify",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Reify",
           "name": "Witness",
           "package": "type-level-numbers",
@@ -1879,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Reify",
           "name": "Witness",
           "package": "type-level-numbers",
@@ -1888,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Reify",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Reify",
           "name": "Witness",
           "package": "type-level-numbers",
@@ -1901,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Reify",
           "name": "getValue",
           "package": "type-level-numbers",
@@ -1910,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Reify",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Reify",
           "name": "getValue",
           "package": "type-level-numbers",
@@ -1923,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:41 UTC 2014",
           "module": "TypeLevel.Reify",
           "name": "witness",
           "package": "type-level-numbers",
@@ -1932,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel Reify",
+          "indexed": "2014-03-11T20:27:41",
           "module": "TypeLevel.Reify",
           "name": "witness",
           "package": "type-level-numbers",

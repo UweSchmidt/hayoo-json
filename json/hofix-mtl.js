@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hofix-mtl"
+        "phrase": "hofix-mtl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInstances for \u003ccode\u003emtl\u003c/code\u003e interface classes via \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e for\n monads defined using \u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:58 UTC 2014",
           "module": "Control.Monad.StarToStar.Fix",
           "name": "Fix",
           "package": "hofix-mtl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Instances for mtl interface classes via Iso for monads defined using Fix",
           "hierarchy": "Control Monad StarToStar Fix",
+          "indexed": "2014-03-11T18:42:58",
           "module": "Control.Monad.StarToStar.Fix",
           "name": "Fix",
           "package": "hofix-mtl",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA template haskell definition for automatically generating the instance for\n \u003ccode\u003eData.StarToStar.Iso.Iso\u003c/code\u003e. For example:\n\u003c/p\u003e\u003cpre\u003e decl_fix \"ReaderST\" [\"s\"] [t| ReaderT (Map String ($me Int) (ST $(tvar \"s\")) |]\n\u003c/pre\u003e\u003cp\u003egenerates\n\u003c/p\u003e\u003cpre\u003e\n newtype ReaderST s me a = ReaderST (ReaderT (Map String (me Int)) (ST s) a)\n unReaderST (ReaderST x) = x\n type ReaderST_inner s me = ReaderT (Map String (me Int)) (ST s)\n\u003c/pre\u003e\u003cpre\u003e\n instance Iso (Fix (ReaderST s)) where\n   type Other (Fix (ReaderST s)) = ReaderST_inner s (Fix (ReaderST s))\n   from = unReaderST . fromFix\n   to = toFix . ReaderST\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:58 UTC 2014",
           "module": "Data.StarToStar.Iso.TH",
           "name": "TH",
           "package": "hofix-mtl",
@@ -51,6 +54,7 @@
         "index": {
           "description": "template haskell definition for automatically generating the instance for Data.StarToStar.Iso.Iso For example decl fix ReaderST ReaderT Map String me Int ST tvar generates newtype ReaderST me ReaderST ReaderT Map String me Int ST unReaderST ReaderST type ReaderST inner me ReaderT Map String me Int ST instance Iso Fix ReaderST where type Other Fix ReaderST ReaderST inner Fix ReaderST from unReaderST fromFix to toFix ReaderST",
           "hierarchy": "Data StarToStar Iso TH",
+          "indexed": "2014-03-11T18:42:58",
           "module": "Data.StarToStar.Iso.TH",
           "name": "TH",
           "package": "hofix-mtl",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:58 UTC 2014",
           "module": "Data.StarToStar.Iso.TH",
           "name": "decl_fix",
           "package": "hofix-mtl",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Iso TH",
+          "indexed": "2014-03-11T18:42:58",
           "module": "Data.StarToStar.Iso.TH",
           "name": "decl_fix",
           "normalized": "String-\u003e[String]-\u003eQ Type-\u003eQ[Dec]",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:58 UTC 2014",
           "module": "Data.StarToStar.Iso.TH",
           "name": "decl_fix_kinds",
           "package": "hofix-mtl",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Iso TH",
+          "indexed": "2014-03-11T18:42:58",
           "module": "Data.StarToStar.Iso.TH",
           "name": "decl_fix_kinds",
           "normalized": "String-\u003e[TyVarBndr]-\u003eQ Type-\u003eQ[Dec]",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:58 UTC 2014",
           "module": "Data.StarToStar.Iso.TH",
           "name": "me",
           "package": "hofix-mtl",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Iso TH",
+          "indexed": "2014-03-11T18:42:58",
           "module": "Data.StarToStar.Iso.TH",
           "name": "me",
           "package": "hofix-mtl",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:58 UTC 2014",
           "module": "Data.StarToStar.Iso.TH",
           "name": "tvar",
           "package": "hofix-mtl",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Iso TH",
+          "indexed": "2014-03-11T18:42:58",
           "module": "Data.StarToStar.Iso.TH",
           "name": "tvar",
           "normalized": "String-\u003eTypeQ",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe * -\u003e * isomorphism class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:58 UTC 2014",
           "module": "Data.StarToStar.Iso",
           "name": "Iso",
           "package": "hofix-mtl",
@@ -164,6 +177,7 @@
         "index": {
           "description": "The isomorphism class",
           "hierarchy": "Data StarToStar Iso",
+          "indexed": "2014-03-11T18:42:58",
           "module": "Data.StarToStar.Iso",
           "name": "Iso",
           "package": "hofix-mtl",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:58 UTC 2014",
           "module": "Data.StarToStar.Iso",
           "name": "Iso",
           "package": "hofix-mtl",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Iso",
+          "indexed": "2014-03-11T18:42:58",
           "module": "Data.StarToStar.Iso",
           "name": "Iso",
           "package": "hofix-mtl",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:58 UTC 2014",
           "module": "Data.StarToStar.Iso",
           "name": "from",
           "package": "hofix-mtl",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Iso",
+          "indexed": "2014-03-11T18:42:58",
           "module": "Data.StarToStar.Iso",
           "name": "from",
           "normalized": "a b-\u003eOther a b",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:58 UTC 2014",
           "module": "Data.StarToStar.Iso",
           "name": "to",
           "package": "hofix-mtl",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Iso",
+          "indexed": "2014-03-11T18:42:58",
           "module": "Data.StarToStar.Iso",
           "name": "to",
           "normalized": "Other a b-\u003ea b",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hgdbmi"
+        "phrase": "hgdbmi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConstructor functions for \u003ccode\u003e\u003ca\u003eCommand\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e\u003cp\u003ePlease consult the cited GDB documentation for the semantics of the individual commands.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Commands",
           "package": "hgdbmi",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Constructor functions for Command values Please consult the cited GDB documentation for the semantics of the individual commands",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Commands",
           "package": "hgdbmi",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "DataFormat",
           "package": "hgdbmi",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "DataFormat",
           "package": "hgdbmi",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "DisassemblyMode",
           "package": "hgdbmi",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "DisassemblyMode",
           "package": "hgdbmi",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "FormatSpec",
           "package": "hgdbmi",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "FormatSpec",
           "package": "hgdbmi",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "FrameSelect",
           "package": "hgdbmi",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "FrameSelect",
           "package": "hgdbmi",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "FrozenFlag",
           "package": "hgdbmi",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "FrozenFlag",
           "package": "hgdbmi",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Interpreter",
           "package": "hgdbmi",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Interpreter",
           "package": "hgdbmi",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Location",
           "package": "hgdbmi",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Location",
           "package": "hgdbmi",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Medium",
           "package": "hgdbmi",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Medium",
           "package": "hgdbmi",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "OutputFormat",
           "package": "hgdbmi",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "OutputFormat",
           "package": "hgdbmi",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "PrintValues",
           "package": "hgdbmi",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "PrintValues",
           "package": "hgdbmi",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Target",
           "package": "hgdbmi",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Target",
           "package": "hgdbmi",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "TraceMode",
           "package": "hgdbmi",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "TraceMode",
           "package": "hgdbmi",
@@ -294,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"a\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Address",
           "package": "hgdbmi",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Address",
           "package": "hgdbmi",
@@ -317,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"--all-values\"    or \"1\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "AllValues",
           "package": "hgdbmi",
@@ -327,6 +356,7 @@
         "index": {
           "description": "all-values or",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "AllValues",
           "package": "hgdbmi",
@@ -341,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"binary\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Binary",
           "package": "hgdbmi",
@@ -351,6 +382,7 @@
         "index": {
           "description": "binary",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Binary",
           "package": "hgdbmi",
@@ -365,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"t\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "BinaryInteger",
           "package": "hgdbmi",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "BinaryInteger",
           "package": "hgdbmi",
@@ -388,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"c\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "CharacterConstantInteger",
           "package": "hgdbmi",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "CharacterConstantInteger",
           "package": "hgdbmi",
@@ -411,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"console\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Console",
           "package": "hgdbmi",
@@ -421,6 +458,7 @@
         "index": {
           "description": "console",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Console",
           "package": "hgdbmi",
@@ -435,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"core\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Core",
           "package": "hgdbmi",
@@ -445,6 +484,7 @@
         "index": {
           "description": "core",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Core",
           "package": "hgdbmi",
@@ -459,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"*\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "CurrentFrame",
           "package": "hgdbmi",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "CurrentFrame",
           "package": "hgdbmi",
@@ -482,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"t\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "DBinary",
           "package": "hgdbmi",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "DBinary",
           "package": "hgdbmi",
@@ -505,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"d\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "DDecimal",
           "package": "hgdbmi",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "DDecimal",
           "package": "hgdbmi",
@@ -528,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"x\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "DHexadecimal",
           "package": "hgdbmi",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "DHexadecimal",
           "package": "hgdbmi",
@@ -551,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"N\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "DNatural",
           "package": "hgdbmi",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "DNatural",
           "package": "hgdbmi",
@@ -574,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"o\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "DOctal",
           "package": "hgdbmi",
@@ -583,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "DOctal",
           "package": "hgdbmi",
@@ -597,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"r\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "DRaw",
           "package": "hgdbmi",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "DRaw",
           "package": "hgdbmi",
@@ -620,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"decimal\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Decimal",
           "package": "hgdbmi",
@@ -630,6 +685,7 @@
         "index": {
           "description": "decimal",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Decimal",
           "package": "hgdbmi",
@@ -644,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewith mixed source?, with raw opcodes?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "DisassemblyMode",
           "package": "hgdbmi",
@@ -654,6 +711,7 @@
         "index": {
           "description": "with mixed source with raw opcodes",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "DisassemblyMode",
           "package": "hgdbmi",
@@ -668,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"exec\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Exec",
           "package": "hgdbmi",
@@ -678,6 +737,7 @@
         "index": {
           "description": "exec",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Exec",
           "package": "hgdbmi",
@@ -692,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"@\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Floating",
           "package": "hgdbmi",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Floating",
           "package": "hgdbmi",
@@ -715,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"f\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "FloatingPointNumber",
           "package": "hgdbmi",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "FloatingPointNumber",
           "package": "hgdbmi",
@@ -738,6 +802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejust the given address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "FrameAddr",
           "package": "hgdbmi",
@@ -748,6 +813,7 @@
         "index": {
           "description": "just the given address",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "FrameAddr",
           "package": "hgdbmi",
@@ -762,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"frame-number\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "FrameNumber",
           "package": "hgdbmi",
@@ -772,6 +839,7 @@
         "index": {
           "description": "frame-number",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "FrameNumber",
           "package": "hgdbmi",
@@ -786,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"1\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Frozen",
           "package": "hgdbmi",
@@ -795,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Frozen",
           "package": "hgdbmi",
@@ -809,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"hexadecimal\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Hexadecimal",
           "package": "hgdbmi",
@@ -819,6 +890,7 @@
         "index": {
           "description": "hexadecimal",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Hexadecimal",
           "package": "hgdbmi",
@@ -833,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"x\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "HexadecimalInteger",
           "package": "hgdbmi",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "HexadecimalInteger",
           "package": "hgdbmi",
@@ -856,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"line\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Line",
           "package": "hgdbmi",
@@ -866,6 +941,7 @@
         "index": {
           "description": "line",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Line",
           "package": "hgdbmi",
@@ -880,6 +956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"mi\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "MI",
           "package": "hgdbmi",
@@ -890,6 +967,7 @@
         "index": {
           "description": "mi",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "MI",
           "package": "hgdbmi",
@@ -904,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"mi1\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "MI1",
           "package": "hgdbmi",
@@ -914,6 +993,7 @@
         "index": {
           "description": "mi1",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "MI1",
           "package": "hgdbmi",
@@ -928,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"mi2\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "MI2",
           "package": "hgdbmi",
@@ -938,6 +1019,7 @@
         "index": {
           "description": "mi2",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "MI2",
           "package": "hgdbmi",
@@ -952,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"natural\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Natural",
           "package": "hgdbmi",
@@ -962,6 +1045,7 @@
         "index": {
           "description": "natural",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Natural",
           "package": "hgdbmi",
@@ -976,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"--no-values\"     or \"0\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "NoValues",
           "package": "hgdbmi",
@@ -986,6 +1071,7 @@
         "index": {
           "description": "no-values or",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "NoValues",
           "package": "hgdbmi",
@@ -1000,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"none\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "None",
           "package": "hgdbmi",
@@ -1010,6 +1097,7 @@
         "index": {
           "description": "none",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "None",
           "package": "hgdbmi",
@@ -1024,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"nrom\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Nrom",
           "package": "hgdbmi",
@@ -1034,6 +1123,7 @@
         "index": {
           "description": "nrom",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Nrom",
           "package": "hgdbmi",
@@ -1048,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"s\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "OString",
           "package": "hgdbmi",
@@ -1057,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "OString",
           "package": "hgdbmi",
@@ -1071,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"octal\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Octal",
           "package": "hgdbmi",
@@ -1081,6 +1174,7 @@
         "index": {
           "description": "octal",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Octal",
           "package": "hgdbmi",
@@ -1095,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"o\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "OctalInteger",
           "package": "hgdbmi",
@@ -1104,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "OctalInteger",
           "package": "hgdbmi",
@@ -1118,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"pc\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "PC",
           "package": "hgdbmi",
@@ -1128,6 +1225,7 @@
         "index": {
           "description": "pc",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "PC",
           "package": "hgdbmi",
@@ -1142,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"pc-inside-range\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "PCInsideRange",
           "package": "hgdbmi",
@@ -1152,6 +1251,7 @@
         "index": {
           "description": "pc-inside-range",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "PCInsideRange",
           "package": "hgdbmi",
@@ -1166,6 +1266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"pc-outside-range\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "PCOutsideRange",
           "package": "hgdbmi",
@@ -1176,6 +1277,7 @@
         "index": {
           "description": "pc-outside-range",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "PCOutsideRange",
           "package": "hgdbmi",
@@ -1190,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"|%s\" command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Pipe",
           "package": "hgdbmi",
@@ -1200,6 +1303,7 @@
         "index": {
           "description": "command",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Pipe",
           "package": "hgdbmi",
@@ -1214,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"r\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Raw",
           "package": "hgdbmi",
@@ -1223,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Raw",
           "package": "hgdbmi",
@@ -1237,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"remote\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Remote",
           "package": "hgdbmi",
@@ -1247,6 +1354,7 @@
         "index": {
           "description": "remote",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Remote",
           "package": "hgdbmi",
@@ -1261,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejust the given device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "SerialDevice",
           "package": "hgdbmi",
@@ -1271,6 +1380,7 @@
         "index": {
           "description": "just the given device",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "SerialDevice",
           "package": "hgdbmi",
@@ -1285,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"d\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "SignedDecimalInteger",
           "package": "hgdbmi",
@@ -1294,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "SignedDecimalInteger",
           "package": "hgdbmi",
@@ -1308,6 +1420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"sim\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Sim",
           "package": "hgdbmi",
@@ -1318,6 +1431,7 @@
         "index": {
           "description": "sim",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Sim",
           "normalized": "Sim[String]",
@@ -1334,6 +1448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"--simple-values\" or \"2\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "SimpleValues",
           "package": "hgdbmi",
@@ -1344,6 +1459,7 @@
         "index": {
           "description": "simple-values or",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "SimpleValues",
           "package": "hgdbmi",
@@ -1358,6 +1474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"tcp:%s:%d\" host port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "TcpHost",
           "package": "hgdbmi",
@@ -1368,6 +1485,7 @@
         "index": {
           "description": "tcp host port",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "TcpHost",
           "package": "hgdbmi",
@@ -1382,6 +1500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"tracepoint-number\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "TracepointNumber",
           "package": "hgdbmi",
@@ -1392,6 +1511,7 @@
         "index": {
           "description": "tracepoint-number",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "TracepointNumber",
           "package": "hgdbmi",
@@ -1406,6 +1526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"udp:%s:%d\" host port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "UdpHost",
           "package": "hgdbmi",
@@ -1416,6 +1537,7 @@
         "index": {
           "description": "udp host port",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "UdpHost",
           "package": "hgdbmi",
@@ -1430,6 +1552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"0\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "Unfrozen",
           "package": "hgdbmi",
@@ -1439,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "Unfrozen",
           "package": "hgdbmi",
@@ -1453,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"u\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "UnsignedDecimalInteger",
           "package": "hgdbmi",
@@ -1462,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "UnsignedDecimalInteger",
           "package": "hgdbmi",
@@ -1475,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "ada_task_info",
           "package": "hgdbmi",
@@ -1484,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "ada_task_info",
           "normalized": "Maybe Int-\u003eCommand",
@@ -1498,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "add_inferior",
           "package": "hgdbmi",
@@ -1507,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "add_inferior",
           "package": "hgdbmi",
@@ -1519,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "break_after",
           "package": "hgdbmi",
@@ -1528,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "break_after",
           "normalized": "Int-\u003eInt-\u003eCommand",
@@ -1542,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "break_commands",
           "package": "hgdbmi",
@@ -1551,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "break_commands",
           "normalized": "Int-\u003e[String]-\u003eCommand",
@@ -1565,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "break_condition",
           "package": "hgdbmi",
@@ -1574,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "break_condition",
           "normalized": "Int-\u003eString-\u003eCommand",
@@ -1588,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "break_delete",
           "package": "hgdbmi",
@@ -1597,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "break_delete",
           "normalized": "[Int]-\u003eCommand",
@@ -1611,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "break_disable",
           "package": "hgdbmi",
@@ -1620,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "break_disable",
           "normalized": "[Int]-\u003eCommand",
@@ -1634,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "break_enable",
           "package": "hgdbmi",
@@ -1643,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "break_enable",
           "normalized": "[Int]-\u003eCommand",
@@ -1657,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "break_info",
           "package": "hgdbmi",
@@ -1666,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "break_info",
           "normalized": "Int-\u003eCommand",
@@ -1680,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "break_insert",
           "package": "hgdbmi",
@@ -1689,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "break_insert",
           "normalized": "Bool-\u003eBool-\u003eBool-\u003eBool-\u003eBool-\u003eMaybe String-\u003eMaybe Int-\u003eMaybe Int-\u003eLocation-\u003eCommand",
@@ -1703,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "break_list",
           "package": "hgdbmi",
@@ -1712,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "break_list",
           "package": "hgdbmi",
@@ -1724,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "break_passcount",
           "package": "hgdbmi",
@@ -1733,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "break_passcount",
           "normalized": "Int-\u003eInt-\u003eCommand",
@@ -1747,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "break_watch",
           "package": "hgdbmi",
@@ -1756,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "break_watch",
           "normalized": "Bool-\u003eCommand",
@@ -1771,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a CLI command, i.e., use the provided string literaly.\n\u003c/p\u003e\u003cp\u003eSome GDB commands are not reflected in the Machine Interface. In those\n cases one has to resort to Command Line Interface commands, which the MI\n accepts as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "cli_command",
           "package": "hgdbmi",
@@ -1781,6 +1934,7 @@
         "index": {
           "description": "Create CLI command i.e use the provided string literaly Some GDB commands are not reflected in the Machine Interface In those cases one has to resort to Command Line Interface commands which the MI accepts as well",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "cli_command",
           "normalized": "String-\u003eCommand",
@@ -1795,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "data_disassemble",
           "package": "hgdbmi",
@@ -1804,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "data_disassemble",
           "normalized": "Either(String,String)(String,Int,Maybe Int)-\u003eDisassemblyMode-\u003eCommand",
@@ -1818,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "data_evaluate_expression",
           "package": "hgdbmi",
@@ -1827,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "data_evaluate_expression",
           "normalized": "String-\u003eCommand",
@@ -1841,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "data_list_changed_registers",
           "package": "hgdbmi",
@@ -1850,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "data_list_changed_registers",
           "package": "hgdbmi",
@@ -1862,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "data_list_register_names",
           "package": "hgdbmi",
@@ -1871,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "data_list_register_names",
           "normalized": "[Int]-\u003eCommand",
@@ -1885,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "data_list_register_values",
           "package": "hgdbmi",
@@ -1894,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "data_list_register_values",
           "normalized": "DataFormat-\u003e[Int]-\u003eCommand",
@@ -1908,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "data_read_memory",
           "package": "hgdbmi",
@@ -1917,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "data_read_memory",
           "normalized": "Maybe Int-\u003eString-\u003eOutputFormat-\u003eInt-\u003eInt-\u003eInt-\u003eMaybe Char-\u003eCommand",
@@ -1931,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "data_read_memory_bytes",
           "package": "hgdbmi",
@@ -1940,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "data_read_memory_bytes",
           "normalized": "Maybe Int-\u003eString-\u003eInt-\u003eCommand",
@@ -1954,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "data_write_memory_bytes",
           "package": "hgdbmi",
@@ -1963,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "data_write_memory_bytes",
           "normalized": "String-\u003eString-\u003eCommand",
@@ -1977,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "enable_pretty_printing",
           "package": "hgdbmi",
@@ -1986,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "enable_pretty_printing",
           "package": "hgdbmi",
@@ -1998,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "enable_timings",
           "package": "hgdbmi",
@@ -2007,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "enable_timings",
           "normalized": "Bool-\u003eCommand",
@@ -2021,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "environment_cd",
           "package": "hgdbmi",
@@ -2030,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "environment_cd",
           "normalized": "String-\u003eCommand",
@@ -2044,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "environment_directory",
           "package": "hgdbmi",
@@ -2053,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "environment_directory",
           "normalized": "Bool-\u003e[String]-\u003eCommand",
@@ -2067,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "environment_path",
           "package": "hgdbmi",
@@ -2076,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "environment_path",
           "normalized": "Bool-\u003e[String]-\u003eCommand",
@@ -2090,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "environment_pwd",
           "package": "hgdbmi",
@@ -2099,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "environment_pwd",
           "package": "hgdbmi",
@@ -2111,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "exec_arguments",
           "package": "hgdbmi",
@@ -2120,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "exec_arguments",
           "normalized": "[String]-\u003eCommand",
@@ -2134,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "exec_continue",
           "package": "hgdbmi",
@@ -2143,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "exec_continue",
           "normalized": "Bool-\u003eEither Bool Int-\u003eCommand",
@@ -2157,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "exec_finish",
           "package": "hgdbmi",
@@ -2166,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "exec_finish",
           "normalized": "Bool-\u003eCommand",
@@ -2180,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "exec_interrupt",
           "package": "hgdbmi",
@@ -2189,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "exec_interrupt",
           "normalized": "Either Bool Int-\u003eCommand",
@@ -2203,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "exec_jump",
           "package": "hgdbmi",
@@ -2212,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "exec_jump",
           "normalized": "Location-\u003eCommand",
@@ -2226,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "exec_next",
           "package": "hgdbmi",
@@ -2235,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "exec_next",
           "package": "hgdbmi",
@@ -2247,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "exec_next_instruction",
           "package": "hgdbmi",
@@ -2256,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "exec_next_instruction",
           "normalized": "Bool-\u003eCommand",
@@ -2270,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "exec_return",
           "package": "hgdbmi",
@@ -2279,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "exec_return",
           "package": "hgdbmi",
@@ -2291,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "exec_run",
           "package": "hgdbmi",
@@ -2300,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "exec_run",
           "normalized": "Either Bool Int-\u003eCommand",
@@ -2314,6 +2514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "exec_step",
           "package": "hgdbmi",
@@ -2323,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "exec_step",
           "package": "hgdbmi",
@@ -2335,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "exec_step_instruction",
           "package": "hgdbmi",
@@ -2344,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "exec_step_instruction",
           "normalized": "Bool-\u003eCommand",
@@ -2358,6 +2562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "exec_until",
           "package": "hgdbmi",
@@ -2367,6 +2572,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "exec_until",
           "normalized": "Location-\u003eCommand",
@@ -2381,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "expr_address_location",
           "package": "hgdbmi",
@@ -2390,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "expr_address_location",
           "normalized": "String-\u003eLocation",
@@ -2404,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "file_exec_and_symbols",
           "package": "hgdbmi",
@@ -2413,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "file_exec_and_symbols",
           "normalized": "Maybe FilePath-\u003eCommand",
@@ -2427,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "file_exec_file",
           "package": "hgdbmi",
@@ -2436,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "file_exec_file",
           "normalized": "Maybe FilePath-\u003eCommand",
@@ -2450,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "file_func_address_location",
           "package": "hgdbmi",
@@ -2459,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "file_func_address_location",
           "normalized": "String-\u003eString-\u003eLocation",
@@ -2473,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "file_function_location",
           "package": "hgdbmi",
@@ -2482,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "file_function_location",
           "normalized": "String-\u003eString-\u003eLocation",
@@ -2496,6 +2712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "file_line_location",
           "package": "hgdbmi",
@@ -2505,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "file_line_location",
           "normalized": "String-\u003eInt-\u003eLocation",
@@ -2519,6 +2737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "file_list_exec_source_file",
           "package": "hgdbmi",
@@ -2528,6 +2747,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "file_list_exec_source_file",
           "package": "hgdbmi",
@@ -2540,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "file_list_exec_source_files",
           "package": "hgdbmi",
@@ -2549,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "file_list_exec_source_files",
           "package": "hgdbmi",
@@ -2561,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "file_symbol_file",
           "package": "hgdbmi",
@@ -2570,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "file_symbol_file",
           "normalized": "Maybe FilePath-\u003eCommand",
@@ -2584,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "func_address_location",
           "package": "hgdbmi",
@@ -2593,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "func_address_location",
           "normalized": "String-\u003eLocation",
@@ -2607,6 +2833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "function_label_location",
           "package": "hgdbmi",
@@ -2616,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "function_label_location",
           "normalized": "String-\u003eString-\u003eLocation",
@@ -2630,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "function_location",
           "package": "hgdbmi",
@@ -2639,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "function_location",
           "normalized": "String-\u003eLocation",
@@ -2653,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "gdb_exit",
           "package": "hgdbmi",
@@ -2662,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "gdb_exit",
           "package": "hgdbmi",
@@ -2674,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "gdb_gdbShow",
           "package": "hgdbmi",
@@ -2683,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "gdb_gdbShow",
           "normalized": "String-\u003eCommand",
@@ -2698,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "gdb_set",
           "package": "hgdbmi",
@@ -2707,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "gdb_set",
           "normalized": "String-\u003eCommand",
@@ -2721,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "gdb_version",
           "package": "hgdbmi",
@@ -2730,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "gdb_version",
           "package": "hgdbmi",
@@ -2742,6 +2980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "inferior_tty_gdbShow",
           "package": "hgdbmi",
@@ -2751,6 +2990,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "inferior_tty_gdbShow",
           "package": "hgdbmi",
@@ -2764,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "inferior_tty_set",
           "package": "hgdbmi",
@@ -2773,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "inferior_tty_set",
           "normalized": "String-\u003eCommand",
@@ -2787,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "info_os",
           "package": "hgdbmi",
@@ -2796,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "info_os",
           "normalized": "Maybe String-\u003eCommand",
@@ -2810,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "interpreter_exec",
           "package": "hgdbmi",
@@ -2819,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "interpreter_exec",
           "normalized": "Interpreter-\u003eCommand-\u003eCommand",
@@ -2833,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "label_location",
           "package": "hgdbmi",
@@ -2842,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "label_location",
           "normalized": "String-\u003eLocation",
@@ -2856,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "list_features",
           "package": "hgdbmi",
@@ -2865,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "list_features",
           "package": "hgdbmi",
@@ -2877,6 +3127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "list_target_features",
           "package": "hgdbmi",
@@ -2886,6 +3137,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "list_target_features",
           "package": "hgdbmi",
@@ -2898,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "list_thread_groups",
           "package": "hgdbmi",
@@ -2907,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "list_thread_groups",
           "normalized": "Bool-\u003eMaybe Int-\u003e[Int]-\u003eCommand",
@@ -2921,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "negative_offset_location",
           "package": "hgdbmi",
@@ -2930,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "negative_offset_location",
           "normalized": "Int-\u003eLocation",
@@ -2944,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "plain_address_location",
           "package": "hgdbmi",
@@ -2953,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "plain_address_location",
           "normalized": "String-\u003eLocation",
@@ -2967,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "positive_offset_location",
           "package": "hgdbmi",
@@ -2976,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "positive_offset_location",
           "normalized": "Int-\u003eLocation",
@@ -2991,6 +3251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the token of a command.\n \u003ca\u003ehttp://sourceware.org/gdb/current/onlinedocs/gdb/GDB_002fMI-Input-Syntax.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eNewly created commands have no token, but setting a token manually is usually not necessary.\n \u003ccode\u003e\u003ca\u003esend_command\u003c/a\u003e\u003c/code\u003e will assign a unique token to a given command in any case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "set_token",
           "package": "hgdbmi",
@@ -3001,6 +3262,7 @@
         "index": {
           "description": "Set the token of command http sourceware.org gdb current onlinedocs gdb GDB fMI-Input-Syntax.html Newly created commands have no token but setting token manually is usually not necessary send command will assign unique token to given command in any case",
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "set_token",
           "normalized": "Token-\u003eCommand-\u003eCommand",
@@ -3015,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "stack_info_depth",
           "package": "hgdbmi",
@@ -3024,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "stack_info_depth",
           "normalized": "Maybe Int-\u003eCommand",
@@ -3038,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "stack_info_frame",
           "package": "hgdbmi",
@@ -3047,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "stack_info_frame",
           "package": "hgdbmi",
@@ -3059,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "stack_list_arguments",
           "package": "hgdbmi",
@@ -3068,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "stack_list_arguments",
           "normalized": "PrintValues-\u003eMaybe(Int,Int)-\u003eCommand",
@@ -3082,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "stack_list_arguments'",
           "package": "hgdbmi",
@@ -3091,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "stack_list_arguments'",
           "normalized": "Int-\u003eMaybe(Int,Int)-\u003eCommand",
@@ -3105,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "stack_list_frames",
           "package": "hgdbmi",
@@ -3114,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "stack_list_frames",
           "normalized": "Maybe(Int,Int)-\u003eCommand",
@@ -3128,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "stack_list_locals",
           "package": "hgdbmi",
@@ -3137,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "stack_list_locals",
           "normalized": "PrintValues-\u003eCommand",
@@ -3151,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "stack_list_locals'",
           "package": "hgdbmi",
@@ -3160,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "stack_list_locals'",
           "normalized": "Int-\u003eCommand",
@@ -3174,6 +3450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "stack_list_variables",
           "package": "hgdbmi",
@@ -3183,6 +3460,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "stack_list_variables",
           "normalized": "PrintValues-\u003eCommand",
@@ -3197,6 +3475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "stack_list_variables'",
           "package": "hgdbmi",
@@ -3206,6 +3485,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "stack_list_variables'",
           "normalized": "Int-\u003eCommand",
@@ -3220,6 +3500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "stack_select_frame",
           "package": "hgdbmi",
@@ -3229,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "stack_select_frame",
           "normalized": "Int-\u003eCommand",
@@ -3243,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "symbol_list_lines",
           "package": "hgdbmi",
@@ -3252,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "symbol_list_lines",
           "normalized": "String-\u003eCommand",
@@ -3266,6 +3550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "target_attach",
           "package": "hgdbmi",
@@ -3275,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "target_attach",
           "normalized": "Either Int FilePath-\u003eCommand",
@@ -3289,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "target_detach",
           "package": "hgdbmi",
@@ -3298,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "target_detach",
           "normalized": "Maybe Int-\u003eCommand",
@@ -3312,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "target_disconnect",
           "package": "hgdbmi",
@@ -3321,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "target_disconnect",
           "package": "hgdbmi",
@@ -3333,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "target_download",
           "package": "hgdbmi",
@@ -3342,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "target_download",
           "package": "hgdbmi",
@@ -3354,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "target_file_delete",
           "package": "hgdbmi",
@@ -3363,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "target_file_delete",
           "normalized": "FilePath-\u003eCommand",
@@ -3377,6 +3671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "target_file_get",
           "package": "hgdbmi",
@@ -3386,6 +3681,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "target_file_get",
           "normalized": "FilePath-\u003eFilePath-\u003eCommand",
@@ -3400,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "target_file_put",
           "package": "hgdbmi",
@@ -3409,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "target_file_put",
           "normalized": "FilePath-\u003eFilePath-\u003eCommand",
@@ -3423,6 +3721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "target_select",
           "package": "hgdbmi",
@@ -3432,6 +3731,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "target_select",
           "normalized": "Target-\u003eCommand",
@@ -3446,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "thread_info",
           "package": "hgdbmi",
@@ -3455,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "thread_info",
           "normalized": "Maybe Int-\u003eCommand",
@@ -3469,6 +3771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "thread_list_ids",
           "package": "hgdbmi",
@@ -3478,6 +3781,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "thread_list_ids",
           "package": "hgdbmi",
@@ -3490,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "thread_select",
           "package": "hgdbmi",
@@ -3499,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "thread_select",
           "normalized": "Int-\u003eCommand",
@@ -3513,6 +3819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "trace_define_variable",
           "package": "hgdbmi",
@@ -3522,6 +3829,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "trace_define_variable",
           "normalized": "String-\u003eMaybe String-\u003eCommand",
@@ -3536,6 +3844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "trace_find",
           "package": "hgdbmi",
@@ -3545,6 +3854,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "trace_find",
           "normalized": "TraceMode-\u003eCommand",
@@ -3559,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "trace_list_variables",
           "package": "hgdbmi",
@@ -3568,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "trace_list_variables",
           "package": "hgdbmi",
@@ -3580,6 +3892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "trace_save",
           "package": "hgdbmi",
@@ -3589,6 +3902,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "trace_save",
           "normalized": "Bool-\u003eString-\u003eCommand",
@@ -3603,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "trace_start",
           "package": "hgdbmi",
@@ -3612,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "trace_start",
           "package": "hgdbmi",
@@ -3624,6 +3940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "trace_status",
           "package": "hgdbmi",
@@ -3633,6 +3950,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "trace_status",
           "package": "hgdbmi",
@@ -3645,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "trace_stop",
           "package": "hgdbmi",
@@ -3654,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "trace_stop",
           "package": "hgdbmi",
@@ -3666,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_assign",
           "package": "hgdbmi",
@@ -3675,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_assign",
           "normalized": "String-\u003eString-\u003eCommand",
@@ -3689,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_create",
           "package": "hgdbmi",
@@ -3698,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_create",
           "normalized": "Maybe String-\u003eFrameSelect-\u003eString-\u003eCommand",
@@ -3712,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_delete",
           "package": "hgdbmi",
@@ -3721,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_delete",
           "normalized": "Bool-\u003eString-\u003eCommand",
@@ -3735,6 +4061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_evaluate_expression",
           "package": "hgdbmi",
@@ -3744,6 +4071,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_evaluate_expression",
           "normalized": "Maybe FormatSpec-\u003eString-\u003eCommand",
@@ -3758,6 +4086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_gdbShow_attributes",
           "package": "hgdbmi",
@@ -3767,6 +4096,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_gdbShow_attributes",
           "normalized": "String-\u003eCommand",
@@ -3782,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_gdbShow_format",
           "package": "hgdbmi",
@@ -3791,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_gdbShow_format",
           "normalized": "String-\u003eCommand",
@@ -3806,6 +4138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_info_expression",
           "package": "hgdbmi",
@@ -3815,6 +4148,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_info_expression",
           "normalized": "String-\u003eCommand",
@@ -3829,6 +4163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_info_num_children",
           "package": "hgdbmi",
@@ -3838,6 +4173,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_info_num_children",
           "normalized": "String-\u003eCommand",
@@ -3852,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_info_path_expressoin",
           "package": "hgdbmi",
@@ -3861,6 +4198,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_info_path_expressoin",
           "normalized": "String-\u003eCommand",
@@ -3875,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_info_type",
           "package": "hgdbmi",
@@ -3884,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_info_type",
           "package": "hgdbmi",
@@ -3896,6 +4236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_list_children",
           "package": "hgdbmi",
@@ -3905,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_list_children",
           "normalized": "Maybe PrintValues-\u003eString-\u003eMaybe(Int,Int)-\u003eCommand",
@@ -3919,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_list_children'",
           "package": "hgdbmi",
@@ -3928,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_list_children'",
           "normalized": "Int-\u003eString-\u003eMaybe(Int,Int)-\u003eCommand",
@@ -3942,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_set_format",
           "package": "hgdbmi",
@@ -3951,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_set_format",
           "normalized": "String-\u003eFormatSpec-\u003eCommand",
@@ -3965,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_set_frozen",
           "package": "hgdbmi",
@@ -3974,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_set_frozen",
           "normalized": "String-\u003eFrozenFlag-\u003eCommand",
@@ -3988,6 +4336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_set_update_range",
           "package": "hgdbmi",
@@ -3997,6 +4346,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_set_update_range",
           "normalized": "String-\u003eInt-\u003eInt-\u003eCommand",
@@ -4011,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_set_visualizer",
           "package": "hgdbmi",
@@ -4020,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_set_visualizer",
           "normalized": "String-\u003eString-\u003eCommand",
@@ -4034,6 +4386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Commands",
           "name": "var_update",
           "package": "hgdbmi",
@@ -4043,6 +4396,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Commands",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Commands",
           "name": "var_update",
           "normalized": "Maybe PrintValues-\u003eMaybe String-\u003eCommand",
@@ -4058,6 +4412,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eControl execution of a GDB instance, send commands and receive results, notifications and stream information.\n\u003c/p\u003e\u003cp\u003eDue to \u003ca\u003ehttp://sourceware.org/bugzilla/show_bug.cgi?id=8759\u003c/a\u003e the first command issued should be to set the output terminal for GDB to /dev/null. Unfortunatelly, there is no MI command for this, so we have to resort to the CLI command \"tty\". For example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ectx  \u003c- setup config callback\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eresp \u003c- send_command ctx (cli_command \"tty /dev/null\")\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ewhen (respClass resp /= RCDone) (error (\"unexpected response: \" ++ show resp))\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "IO",
           "package": "hgdbmi",
@@ -4067,6 +4422,7 @@
         "index": {
           "description": "Control execution of GDB instance send commands and receive results notifications and stream information Due to http sourceware.org bugzilla show bug.cgi id the first command issued should be to set the output terminal for GDB to dev null Unfortunatelly there is no MI command for this so we have to resort to the CLI command tty For example ctx setup config callback resp send command ctx cli command tty dev null when respClass resp RCDone error unexpected response show resp",
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "IO",
           "package": "hgdbmi",
@@ -4081,6 +4437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall-back functions for asynchronous GDB output.\n\u003c/p\u003e\u003cp\u003eThe call-backs are called in a separate thread per GDB output, so they may block.\n\u003c/p\u003e\u003cp\u003eStop events are \u003ccode\u003e\u003ca\u003eNotification\u003c/a\u003e\u003c/code\u003e events with \u003ccode\u003e\u003ca\u003eNotificationClass\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eExec\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eAsyncClass\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eACStop\u003c/a\u003e\u003c/code\u003e.\n If \u003ccode\u003e\u003ca\u003ecbStopped\u003c/a\u003e\u003c/code\u003e is given stop events are delivered to that call-back instead of \u003ccode\u003e\u003ca\u003ecbNotify\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "Callback",
           "package": "hgdbmi",
@@ -4090,6 +4447,7 @@
         "index": {
           "description": "Call-back functions for asynchronous GDB output The call-backs are called in separate thread per GDB output so they may block Stop events are Notification events with NotificationClass Exec and AsyncClass ACStop If cbStopped is given stop events are delivered to that call-back instead of cbNotify",
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "Callback",
           "package": "hgdbmi",
@@ -4104,6 +4462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "Config",
           "package": "hgdbmi",
@@ -4113,6 +4472,7 @@
         "index": {
           "description": "Configuration",
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "Config",
           "package": "hgdbmi",
@@ -4126,6 +4486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "Context",
           "package": "hgdbmi",
@@ -4134,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "Context",
           "package": "hgdbmi",
@@ -4147,6 +4509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "Callback",
           "package": "hgdbmi",
@@ -4156,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "Callback",
           "package": "hgdbmi",
@@ -4169,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "Config",
           "package": "hgdbmi",
@@ -4178,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "Config",
           "package": "hgdbmi",
@@ -4192,6 +4558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecall-back for \u003ccode\u003e\u003ca\u003eNotification\u003c/a\u003e\u003c/code\u003e events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "cbNotify",
           "package": "hgdbmi",
@@ -4202,6 +4569,7 @@
         "index": {
           "description": "call-back for Notification events",
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "cbNotify",
           "normalized": "[Notification]-\u003eIO()",
@@ -4218,6 +4586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptionally a special call-back for \u003ccode\u003e\u003ca\u003eStopped\u003c/a\u003e\u003c/code\u003e events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "cbStopped",
           "package": "hgdbmi",
@@ -4228,6 +4597,7 @@
         "index": {
           "description": "optionally special call-back for Stopped events",
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "cbStopped",
           "normalized": "Maybe([Stopped]-\u003eIO())",
@@ -4244,6 +4614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecall-back for \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "cbStream",
           "package": "hgdbmi",
@@ -4254,6 +4625,7 @@
         "index": {
           "description": "call-back for Stream events",
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "cbStream",
           "normalized": "[Stream]-\u003eIO()",
@@ -4270,6 +4642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecommand line to execute. The library will add \"--interpreter mi\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "confCommandLine",
           "package": "hgdbmi",
@@ -4280,6 +4653,7 @@
         "index": {
           "description": "command line to execute The library will add interpreter mi",
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "confCommandLine",
           "normalized": "[String]",
@@ -4296,6 +4670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptinonally a file path to a log file for GDB/MI input and output. '-' means stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "confLogfile",
           "package": "hgdbmi",
@@ -4306,6 +4681,7 @@
         "index": {
           "description": "optinonally file path to log file for GDB MI input and output means stdout",
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "confLogfile",
           "package": "hgdbmi",
@@ -4320,6 +4696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault configuration: \u003ca\u003egdb\u003c/a\u003e command line, no log file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "default_config",
           "package": "hgdbmi",
@@ -4330,6 +4707,7 @@
         "index": {
           "description": "Default configuration gdb command line no log file",
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "default_config",
           "package": "hgdbmi",
@@ -4343,6 +4721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a GDB command and wait for the response.\n\u003c/p\u003e\u003cp\u003eThis function is thread safe, i.e., it can be called by multiple threads in an interleaved fashion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "send_command",
           "package": "hgdbmi",
@@ -4353,6 +4732,7 @@
         "index": {
           "description": "Send GDB command and wait for the response This function is thread safe i.e it can be called by multiple threads in an interleaved fashion",
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "send_command",
           "normalized": "Context-\u003eCommand-\u003eIO Response",
@@ -4368,6 +4748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaunch a GDB instance in Machine Interface mode.\n\u003c/p\u003e\u003cp\u003eThe child process is run in a new session to avoid receiving SIGINTs when issuing -exec-interrupt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "setup",
           "package": "hgdbmi",
@@ -4378,6 +4759,7 @@
         "index": {
           "description": "Launch GDB instance in Machine Interface mode The child process is run in new session to avoid receiving SIGINTs when issuing exec-interrupt",
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "setup",
           "normalized": "Config-\u003eCallback-\u003eIO Context",
@@ -4393,6 +4775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShut down the GDB instance and all resources associated with the \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.IO",
           "name": "shutdown",
           "package": "hgdbmi",
@@ -4403,6 +4786,7 @@
         "index": {
           "description": "Shut down the GDB instance and all resources associated with the Context",
           "hierarchy": "Gdbmi IO",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.IO",
           "name": "shutdown",
           "normalized": "Context-\u003eIO()",
@@ -4418,6 +4802,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData structures, parsers and printers for GDB/MI communication.\n\u003c/p\u003e\u003cp\u003eThis is a low-level module not intended to be used by clients of this library.\n Use \u003ccode\u003e\u003ca\u003eCommands\u003c/a\u003e\u003c/code\u003e to create commands and receive responses as well as notifications via \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eOn-the-wire types reflect the GDB/MI grammar. Please consult the cited GDB documentation for details.\n The simplified types provide a simple abstraction over the on-the-wire types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Representation",
           "package": "hgdbmi",
@@ -4427,6 +4812,7 @@
         "index": {
           "description": "Data structures parsers and printers for GDB MI communication This is low-level module not intended to be used by clients of this library Use Commands to create commands and receive responses as well as notifications via IO On-the-wire types reflect the GDB MI grammar Please consult the cited GDB documentation for details The simplified types provide simple abstraction over the on-the-wire types",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Representation",
           "package": "hgdbmi",
@@ -4440,6 +4826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "AsyncClass",
           "package": "hgdbmi",
@@ -4448,6 +4835,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "AsyncClass",
           "package": "hgdbmi",
@@ -4461,6 +4849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "AsyncOutput",
           "package": "hgdbmi",
@@ -4469,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "AsyncOutput",
           "package": "hgdbmi",
@@ -4482,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "AsyncRecord",
           "package": "hgdbmi",
@@ -4490,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "AsyncRecord",
           "package": "hgdbmi",
@@ -4503,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "CString",
           "package": "hgdbmi",
@@ -4511,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "CString",
           "package": "hgdbmi",
@@ -4524,6 +4918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Command",
           "package": "hgdbmi",
@@ -4532,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Command",
           "package": "hgdbmi",
@@ -4545,6 +4941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ConsoleStreamOutput",
           "package": "hgdbmi",
@@ -4553,6 +4950,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ConsoleStreamOutput",
           "package": "hgdbmi",
@@ -4566,6 +4964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Const",
           "package": "hgdbmi",
@@ -4574,6 +4973,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Const",
           "package": "hgdbmi",
@@ -4587,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ExecAsyncOutput",
           "package": "hgdbmi",
@@ -4595,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ExecAsyncOutput",
           "package": "hgdbmi",
@@ -4609,6 +5011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the token of the given object, if existent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "GetToken",
           "package": "hgdbmi",
@@ -4618,6 +5021,7 @@
         "index": {
           "description": "Return the token of the given object if existent",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "GetToken",
           "package": "hgdbmi",
@@ -4631,6 +5035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "List",
           "package": "hgdbmi",
@@ -4639,6 +5044,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "List",
           "package": "hgdbmi",
@@ -4652,6 +5058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "LogStreamOutput",
           "package": "hgdbmi",
@@ -4660,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "LogStreamOutput",
           "package": "hgdbmi",
@@ -4673,6 +5081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Notification",
           "package": "hgdbmi",
@@ -4681,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Notification",
           "package": "hgdbmi",
@@ -4694,6 +5104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "NotificationClass",
           "package": "hgdbmi",
@@ -4702,6 +5113,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "NotificationClass",
           "package": "hgdbmi",
@@ -4715,6 +5127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "NotifyAsyncOutput",
           "package": "hgdbmi",
@@ -4723,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "NotifyAsyncOutput",
           "package": "hgdbmi",
@@ -4736,6 +5150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Operation",
           "package": "hgdbmi",
@@ -4744,6 +5159,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Operation",
           "package": "hgdbmi",
@@ -4757,6 +5173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Option",
           "package": "hgdbmi",
@@ -4765,6 +5182,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Option",
           "package": "hgdbmi",
@@ -4778,6 +5196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "OutOfBandRecord",
           "package": "hgdbmi",
@@ -4786,6 +5205,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "OutOfBandRecord",
           "package": "hgdbmi",
@@ -4799,6 +5219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Output",
           "package": "hgdbmi",
@@ -4807,6 +5228,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Output",
           "package": "hgdbmi",
@@ -4820,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Parameter",
           "package": "hgdbmi",
@@ -4828,6 +5251,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Parameter",
           "package": "hgdbmi",
@@ -4841,6 +5265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Response",
           "package": "hgdbmi",
@@ -4849,6 +5274,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Response",
           "package": "hgdbmi",
@@ -4862,6 +5288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Result",
           "package": "hgdbmi",
@@ -4870,6 +5297,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Result",
           "package": "hgdbmi",
@@ -4883,6 +5311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ResultClass",
           "package": "hgdbmi",
@@ -4891,6 +5320,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ResultClass",
           "package": "hgdbmi",
@@ -4904,6 +5334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ResultRecord",
           "package": "hgdbmi",
@@ -4912,6 +5343,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ResultRecord",
           "package": "hgdbmi",
@@ -4925,6 +5357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "StatusAsyncOutput",
           "package": "hgdbmi",
@@ -4933,6 +5366,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "StatusAsyncOutput",
           "package": "hgdbmi",
@@ -4946,6 +5380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Stream",
           "package": "hgdbmi",
@@ -4954,6 +5389,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Stream",
           "package": "hgdbmi",
@@ -4967,6 +5403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "StreamClass",
           "package": "hgdbmi",
@@ -4975,6 +5412,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "StreamClass",
           "package": "hgdbmi",
@@ -4988,6 +5426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "StreamRecord",
           "package": "hgdbmi",
@@ -4996,6 +5435,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "StreamRecord",
           "package": "hgdbmi",
@@ -5009,6 +5449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "TargetStreamOutput",
           "package": "hgdbmi",
@@ -5017,6 +5458,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "TargetStreamOutput",
           "package": "hgdbmi",
@@ -5030,6 +5472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Token",
           "package": "hgdbmi",
@@ -5038,6 +5481,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Token",
           "package": "hgdbmi",
@@ -5051,6 +5495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Tuple",
           "package": "hgdbmi",
@@ -5059,6 +5504,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Tuple",
           "package": "hgdbmi",
@@ -5072,6 +5518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Value",
           "package": "hgdbmi",
@@ -5080,6 +5527,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Value",
           "package": "hgdbmi",
@@ -5093,6 +5541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Variable",
           "package": "hgdbmi",
@@ -5101,6 +5550,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Variable",
           "package": "hgdbmi",
@@ -5114,6 +5564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ACBreakpointModified",
           "package": "hgdbmi",
@@ -5123,6 +5574,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ACBreakpointModified",
           "package": "hgdbmi",
@@ -5136,6 +5588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ACLibraryLoaded",
           "package": "hgdbmi",
@@ -5145,6 +5598,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ACLibraryLoaded",
           "package": "hgdbmi",
@@ -5158,6 +5612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ACRunning",
           "package": "hgdbmi",
@@ -5167,6 +5622,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ACRunning",
           "package": "hgdbmi",
@@ -5180,6 +5636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ACStop",
           "package": "hgdbmi",
@@ -5189,6 +5646,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ACStop",
           "package": "hgdbmi",
@@ -5202,6 +5660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ACThreadCreated",
           "package": "hgdbmi",
@@ -5211,6 +5670,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ACThreadCreated",
           "package": "hgdbmi",
@@ -5224,6 +5684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ACThreadExited",
           "package": "hgdbmi",
@@ -5233,6 +5694,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ACThreadExited",
           "package": "hgdbmi",
@@ -5246,6 +5708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ACThreadGroupAdded",
           "package": "hgdbmi",
@@ -5255,6 +5718,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ACThreadGroupAdded",
           "package": "hgdbmi",
@@ -5268,6 +5732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ACThreadGroupExited",
           "package": "hgdbmi",
@@ -5277,6 +5742,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ACThreadGroupExited",
           "package": "hgdbmi",
@@ -5290,6 +5756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ACThreadGroupStarted",
           "package": "hgdbmi",
@@ -5299,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ACThreadGroupStarted",
           "package": "hgdbmi",
@@ -5312,6 +5780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ARExecAsyncOutput",
           "package": "hgdbmi",
@@ -5321,6 +5790,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ARExecAsyncOutput",
           "package": "hgdbmi",
@@ -5334,6 +5804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ARNotifyAsyncOutput",
           "package": "hgdbmi",
@@ -5343,6 +5814,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ARNotifyAsyncOutput",
           "package": "hgdbmi",
@@ -5356,6 +5828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ARStatusAsyncOutput",
           "package": "hgdbmi",
@@ -5365,6 +5838,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ARStatusAsyncOutput",
           "package": "hgdbmi",
@@ -5378,6 +5852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "AsyncOutput",
           "package": "hgdbmi",
@@ -5387,6 +5862,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "AsyncOutput",
           "normalized": "AsyncOutput AsyncClass[Result]",
@@ -5402,6 +5878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "CLICommand",
           "package": "hgdbmi",
@@ -5411,6 +5888,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "CLICommand",
           "package": "hgdbmi",
@@ -5425,6 +5903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSRConsoleStreamOutput\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Console",
           "package": "hgdbmi",
@@ -5435,6 +5914,7 @@
         "index": {
           "description": "SRConsoleStreamOutput",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Console",
           "package": "hgdbmi",
@@ -5448,6 +5928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ConsoleStreamOutput",
           "package": "hgdbmi",
@@ -5457,6 +5938,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ConsoleStreamOutput",
           "package": "hgdbmi",
@@ -5470,6 +5952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "EmptyList",
           "package": "hgdbmi",
@@ -5479,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "EmptyList",
           "package": "hgdbmi",
@@ -5493,6 +5977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eARExecAsyncOutput\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Exec",
           "package": "hgdbmi",
@@ -5503,6 +5988,7 @@
         "index": {
           "description": "ARExecAsyncOutput",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Exec",
           "package": "hgdbmi",
@@ -5516,6 +6002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ExecAsyncOutput",
           "package": "hgdbmi",
@@ -5525,6 +6012,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ExecAsyncOutput",
           "package": "hgdbmi",
@@ -5539,6 +6027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSRLogStreamOutput\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Log",
           "package": "hgdbmi",
@@ -5549,6 +6038,7 @@
         "index": {
           "description": "SRLogStreamOutput",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Log",
           "package": "hgdbmi",
@@ -5562,6 +6052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "LogStreamOutput",
           "package": "hgdbmi",
@@ -5571,6 +6062,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "LogStreamOutput",
           "package": "hgdbmi",
@@ -5584,6 +6076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "MICommand",
           "package": "hgdbmi",
@@ -5593,6 +6086,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "MICommand",
           "normalized": "MICommand(Maybe Token)Operation[Option][Parameter]",
@@ -5609,6 +6103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplification of the \u003ccode\u003e\u003ca\u003eAsyncRecord\u003c/a\u003e\u003c/code\u003e type hierarchie, a possible \u003ccode\u003e\u003ca\u003eOutOfBandRecord\u003c/a\u003e\u003c/code\u003e value of an \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Notification",
           "package": "hgdbmi",
@@ -5619,6 +6114,7 @@
         "index": {
           "description": "Simplification of the AsyncRecord type hierarchie possible OutOfBandRecord value of an Output",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Notification",
           "package": "hgdbmi",
@@ -5633,6 +6129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eARNotifyAsyncOutput\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Notify",
           "package": "hgdbmi",
@@ -5643,6 +6140,7 @@
         "index": {
           "description": "ARNotifyAsyncOutput",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Notify",
           "package": "hgdbmi",
@@ -5656,6 +6154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "NotifyAsyncOutput",
           "package": "hgdbmi",
@@ -5665,6 +6164,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "NotifyAsyncOutput",
           "package": "hgdbmi",
@@ -5678,6 +6178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "OOBAsyncRecord",
           "package": "hgdbmi",
@@ -5687,6 +6188,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "OOBAsyncRecord",
           "package": "hgdbmi",
@@ -5700,6 +6202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "OOBStreamRecord",
           "package": "hgdbmi",
@@ -5709,6 +6212,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "OOBStreamRecord",
           "package": "hgdbmi",
@@ -5722,6 +6226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Option",
           "package": "hgdbmi",
@@ -5731,6 +6236,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Option",
           "package": "hgdbmi",
@@ -5744,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Output",
           "package": "hgdbmi",
@@ -5753,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Output",
           "normalized": "Output[OutOfBandRecord](Maybe ResultRecord)",
@@ -5768,6 +6276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "QuotedString",
           "package": "hgdbmi",
@@ -5777,6 +6286,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "QuotedString",
           "package": "hgdbmi",
@@ -5790,6 +6300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "RCConnected",
           "package": "hgdbmi",
@@ -5799,6 +6310,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "RCConnected",
           "package": "hgdbmi",
@@ -5812,6 +6324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "RCDone",
           "package": "hgdbmi",
@@ -5821,6 +6334,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "RCDone",
           "package": "hgdbmi",
@@ -5834,6 +6348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "RCError",
           "package": "hgdbmi",
@@ -5843,6 +6358,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "RCError",
           "package": "hgdbmi",
@@ -5856,6 +6372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "RCExit",
           "package": "hgdbmi",
@@ -5865,6 +6382,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "RCExit",
           "package": "hgdbmi",
@@ -5878,6 +6396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "RCRunning",
           "package": "hgdbmi",
@@ -5887,6 +6406,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "RCRunning",
           "package": "hgdbmi",
@@ -5900,6 +6420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "RawString",
           "package": "hgdbmi",
@@ -5909,6 +6430,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "RawString",
           "package": "hgdbmi",
@@ -5923,6 +6445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eResultRecord\u003c/a\u003e\u003c/code\u003e of an \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Response",
           "package": "hgdbmi",
@@ -5933,6 +6456,7 @@
         "index": {
           "description": "The ResultRecord of an Output",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Response",
           "package": "hgdbmi",
@@ -5946,6 +6470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Result",
           "package": "hgdbmi",
@@ -5955,6 +6480,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Result",
           "package": "hgdbmi",
@@ -5968,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ResultList",
           "package": "hgdbmi",
@@ -5977,6 +6504,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ResultList",
           "normalized": "ResultList[Result]",
@@ -5992,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ResultRecord",
           "package": "hgdbmi",
@@ -6001,6 +6530,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ResultRecord",
           "normalized": "ResultRecord(Maybe Token)ResultClass[Result]",
@@ -6016,6 +6546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "SRConsoleStreamOutput",
           "package": "hgdbmi",
@@ -6025,6 +6556,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "SRConsoleStreamOutput",
           "package": "hgdbmi",
@@ -6038,6 +6570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "SRLogStreamOutput",
           "package": "hgdbmi",
@@ -6047,6 +6580,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "SRLogStreamOutput",
           "package": "hgdbmi",
@@ -6060,6 +6594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "SRTargetStreamOutput",
           "package": "hgdbmi",
@@ -6069,6 +6604,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "SRTargetStreamOutput",
           "package": "hgdbmi",
@@ -6083,6 +6619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eARStatusAsyncOutput\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Status",
           "package": "hgdbmi",
@@ -6093,6 +6630,7 @@
         "index": {
           "description": "ARStatusAsyncOutput",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Status",
           "package": "hgdbmi",
@@ -6106,6 +6644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "StatusAsyncOutput",
           "package": "hgdbmi",
@@ -6115,6 +6654,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "StatusAsyncOutput",
           "package": "hgdbmi",
@@ -6129,6 +6669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplifcation of the \u003ccode\u003e\u003ca\u003eStreamRecord\u003c/a\u003e\u003c/code\u003e type hierarchie, a possible \u003ccode\u003e\u003ca\u003eOutOfBandRecord\u003c/a\u003e\u003c/code\u003e value of an \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Stream",
           "package": "hgdbmi",
@@ -6139,6 +6680,7 @@
         "index": {
           "description": "Simplifcation of the StreamRecord type hierarchie possible OutOfBandRecord value of an Output",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Stream",
           "package": "hgdbmi",
@@ -6153,6 +6695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eSRTargetStreamOutpu\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Target",
           "package": "hgdbmi",
@@ -6163,6 +6706,7 @@
         "index": {
           "description": "SRTargetStreamOutpu",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Target",
           "package": "hgdbmi",
@@ -6176,6 +6720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "TargetStreamOutput",
           "package": "hgdbmi",
@@ -6185,6 +6730,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "TargetStreamOutput",
           "package": "hgdbmi",
@@ -6198,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "Tuple",
           "package": "hgdbmi",
@@ -6207,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "Tuple",
           "package": "hgdbmi",
@@ -6220,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "VConst",
           "package": "hgdbmi",
@@ -6229,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "VConst",
           "package": "hgdbmi",
@@ -6242,6 +6792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "VList",
           "package": "hgdbmi",
@@ -6251,6 +6802,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "VList",
           "package": "hgdbmi",
@@ -6264,6 +6816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "VTuple",
           "package": "hgdbmi",
@@ -6273,6 +6826,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "VTuple",
           "package": "hgdbmi",
@@ -6286,6 +6840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "ValueList",
           "package": "hgdbmi",
@@ -6295,6 +6850,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "ValueList",
           "normalized": "ValueList[Value]",
@@ -6311,6 +6867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoerce a value to a const.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "asConst",
           "package": "hgdbmi",
@@ -6321,6 +6878,7 @@
         "index": {
           "description": "Coerce value to const",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "asConst",
           "normalized": "Value-\u003eMaybe Const",
@@ -6337,6 +6895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoerce a value to a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "asList",
           "package": "hgdbmi",
@@ -6347,6 +6906,7 @@
         "index": {
           "description": "Coerce value to list",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "asList",
           "normalized": "Value-\u003eMaybe List",
@@ -6363,6 +6923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoerce a value to a tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "asTuple",
           "package": "hgdbmi",
@@ -6373,6 +6934,7 @@
         "index": {
           "description": "Coerce value to tuple",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "asTuple",
           "normalized": "Value-\u003eMaybe Tuple",
@@ -6388,6 +6950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "get_token",
           "package": "hgdbmi",
@@ -6397,6 +6960,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "get_token",
           "normalized": "a-\u003eMaybe Token",
@@ -6411,6 +6975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "notiAsyncClass",
           "package": "hgdbmi",
@@ -6420,6 +6985,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "notiAsyncClass",
           "package": "hgdbmi",
@@ -6433,6 +6999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "notiClass",
           "package": "hgdbmi",
@@ -6442,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "notiClass",
           "package": "hgdbmi",
@@ -6455,6 +7023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "notiResults",
           "package": "hgdbmi",
@@ -6464,6 +7033,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "notiResults",
           "normalized": "[Result]",
@@ -6480,6 +7050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the (possible empty) list of notifications of an output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "output_notification",
           "package": "hgdbmi",
@@ -6490,6 +7061,7 @@
         "index": {
           "description": "Extract the possible empty list of notifications of an output",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "output_notification",
           "normalized": "Output-\u003e[Notification]",
@@ -6505,6 +7077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the response from an output, if existent. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "output_response",
           "package": "hgdbmi",
@@ -6515,6 +7088,7 @@
         "index": {
           "description": "Extract the response from an output if existent",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "output_response",
           "normalized": "Output-\u003eMaybe Response",
@@ -6530,6 +7104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the (possibly) empty list of notifications of an output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "output_stream",
           "package": "hgdbmi",
@@ -6540,6 +7115,7 @@
         "index": {
           "description": "Extract the possibly empty list of notifications of an output",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "output_stream",
           "normalized": "Output-\u003e[Stream]",
@@ -6555,6 +7131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify that the given parameter is either a c-string or a \"non-blank-sequence\".\n See \u003ca\u003ehttp://sourceware.org/gdb/current/onlinedocs/gdb/GDB_002fMI-Input-Syntax.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "parameter_valid",
           "package": "hgdbmi",
@@ -6565,6 +7142,7 @@
         "index": {
           "description": "Verify that the given parameter is either c-string or non-blank-sequence See http sourceware.org gdb current onlinedocs gdb GDB fMI-Input-Syntax.html",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "parameter_valid",
           "normalized": "Parameter-\u003eBool",
@@ -6580,6 +7158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn an GDB output string to an \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "parse_output",
           "package": "hgdbmi",
@@ -6590,6 +7169,7 @@
         "index": {
           "description": "Turn an GDB output string to an Output value",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "parse_output",
           "normalized": "String-\u003eOutput",
@@ -6605,6 +7185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the on-the-wire string suitable to be sent to GDB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "render_command",
           "package": "hgdbmi",
@@ -6615,6 +7196,7 @@
         "index": {
           "description": "Generate the on-the-wire string suitable to be sent to GDB",
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "render_command",
           "normalized": "Command-\u003eString",
@@ -6629,6 +7211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "resValue",
           "package": "hgdbmi",
@@ -6638,6 +7221,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "resValue",
           "package": "hgdbmi",
@@ -6651,6 +7235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "resVariable",
           "package": "hgdbmi",
@@ -6660,6 +7245,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "resVariable",
           "package": "hgdbmi",
@@ -6673,6 +7259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "respClass",
           "package": "hgdbmi",
@@ -6682,6 +7269,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "respClass",
           "package": "hgdbmi",
@@ -6695,6 +7283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "respResults",
           "package": "hgdbmi",
@@ -6704,6 +7293,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "respResults",
           "normalized": "[Result]",
@@ -6719,6 +7309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Representation",
           "name": "tupleResults",
           "package": "hgdbmi",
@@ -6728,6 +7319,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Representation",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Representation",
           "name": "tupleResults",
           "normalized": "[Result]",
@@ -6744,6 +7336,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSemantical data structures and conversion functions for GDB/MI output.\n\u003c/p\u003e\u003cp\u003eWhile working with \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNotification\u003c/a\u003e\u003c/code\u003e is always possible in general, handling the generic \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e lists is cumbersome. This module provides convenient data types instead to facilitate pattern matching etc..\n\u003c/p\u003e\u003cp\u003eThis module is incomplete, as we only implemented what we needed up to now.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "Semantics",
           "package": "hgdbmi",
@@ -6753,6 +7346,7 @@
         "index": {
           "description": "Semantical data structures and conversion functions for GDB MI output While working with Response and Notification is always possible in general handling the generic Result lists is cumbersome This module provides convenient data types instead to facilitate pattern matching etc This module is incomplete as we only implemented what we needed up to now",
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "Semantics",
           "package": "hgdbmi",
@@ -6766,6 +7360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "Arg",
           "package": "hgdbmi",
@@ -6774,6 +7369,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "Arg",
           "package": "hgdbmi",
@@ -6787,6 +7383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "BkptNumber",
           "package": "hgdbmi",
@@ -6795,6 +7392,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "BkptNumber",
           "package": "hgdbmi",
@@ -6808,6 +7406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "Breakpoint",
           "package": "hgdbmi",
@@ -6816,6 +7415,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "Breakpoint",
           "package": "hgdbmi",
@@ -6829,6 +7429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "BreakpointDisp",
           "package": "hgdbmi",
@@ -6837,6 +7438,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "BreakpointDisp",
           "package": "hgdbmi",
@@ -6850,6 +7452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "BreakpointType",
           "package": "hgdbmi",
@@ -6858,6 +7461,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "BreakpointType",
           "package": "hgdbmi",
@@ -6871,6 +7475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "Frame",
           "package": "hgdbmi",
@@ -6879,6 +7484,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "Frame",
           "package": "hgdbmi",
@@ -6892,6 +7498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "Stack",
           "package": "hgdbmi",
@@ -6900,6 +7507,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "Stack",
           "package": "hgdbmi",
@@ -6913,6 +7521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "StopReason",
           "package": "hgdbmi",
@@ -6921,6 +7530,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "StopReason",
           "package": "hgdbmi",
@@ -6934,6 +7544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "Stopped",
           "package": "hgdbmi",
@@ -6942,6 +7553,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "Stopped",
           "package": "hgdbmi",
@@ -6955,6 +7567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "Arg",
           "package": "hgdbmi",
@@ -6964,6 +7577,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "Arg",
           "package": "hgdbmi",
@@ -6977,6 +7591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "Breakpoint",
           "package": "hgdbmi",
@@ -6986,6 +7601,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "Breakpoint",
           "package": "hgdbmi",
@@ -6999,6 +7615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "BreakpointDel",
           "package": "hgdbmi",
@@ -7008,6 +7625,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "BreakpointDel",
           "package": "hgdbmi",
@@ -7021,6 +7639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "BreakpointHit",
           "package": "hgdbmi",
@@ -7030,6 +7649,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "BreakpointHit",
           "package": "hgdbmi",
@@ -7043,6 +7663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "BreakpointKeep",
           "package": "hgdbmi",
@@ -7052,6 +7673,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "BreakpointKeep",
           "package": "hgdbmi",
@@ -7065,6 +7687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "EndSteppingRange",
           "package": "hgdbmi",
@@ -7074,6 +7697,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "EndSteppingRange",
           "package": "hgdbmi",
@@ -7087,6 +7711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "Frame",
           "package": "hgdbmi",
@@ -7096,6 +7721,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "Frame",
           "package": "hgdbmi",
@@ -7109,6 +7735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "FunctionFinished",
           "package": "hgdbmi",
@@ -7118,6 +7745,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "FunctionFinished",
           "package": "hgdbmi",
@@ -7131,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "Stack",
           "package": "hgdbmi",
@@ -7140,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "Stack",
           "package": "hgdbmi",
@@ -7153,6 +7783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "Stopped",
           "package": "hgdbmi",
@@ -7162,6 +7793,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "Stopped",
           "package": "hgdbmi",
@@ -7175,6 +7807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "argName",
           "package": "hgdbmi",
@@ -7184,6 +7817,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "argName",
           "package": "hgdbmi",
@@ -7197,6 +7831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "argValue",
           "package": "hgdbmi",
@@ -7206,6 +7841,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "argValue",
           "package": "hgdbmi",
@@ -7219,6 +7855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptAddress",
           "package": "hgdbmi",
@@ -7228,6 +7865,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptAddress",
           "package": "hgdbmi",
@@ -7241,6 +7879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptDisp",
           "package": "hgdbmi",
@@ -7250,6 +7889,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptDisp",
           "package": "hgdbmi",
@@ -7263,6 +7903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptEnabled",
           "package": "hgdbmi",
@@ -7272,6 +7913,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptEnabled",
           "package": "hgdbmi",
@@ -7285,6 +7927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptFile",
           "package": "hgdbmi",
@@ -7294,6 +7937,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptFile",
           "package": "hgdbmi",
@@ -7307,6 +7951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptFullname",
           "package": "hgdbmi",
@@ -7316,6 +7961,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptFullname",
           "package": "hgdbmi",
@@ -7329,6 +7975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptFunc",
           "package": "hgdbmi",
@@ -7338,6 +7985,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptFunc",
           "package": "hgdbmi",
@@ -7351,6 +7999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptHitDisp",
           "package": "hgdbmi",
@@ -7360,6 +8009,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptHitDisp",
           "package": "hgdbmi",
@@ -7373,6 +8023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptHitNumber",
           "package": "hgdbmi",
@@ -7382,6 +8033,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptHitNumber",
           "package": "hgdbmi",
@@ -7395,6 +8047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptLine",
           "package": "hgdbmi",
@@ -7404,6 +8057,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptLine",
           "package": "hgdbmi",
@@ -7417,6 +8071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptNumber",
           "package": "hgdbmi",
@@ -7426,6 +8081,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptNumber",
           "package": "hgdbmi",
@@ -7439,6 +8095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptOriginalLocation",
           "package": "hgdbmi",
@@ -7448,6 +8105,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptOriginalLocation",
           "package": "hgdbmi",
@@ -7461,6 +8119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptTimes",
           "package": "hgdbmi",
@@ -7470,6 +8129,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptTimes",
           "package": "hgdbmi",
@@ -7483,6 +8143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "bkptType",
           "package": "hgdbmi",
@@ -7492,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "bkptType",
           "package": "hgdbmi",
@@ -7505,6 +8167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "frameAddr",
           "package": "hgdbmi",
@@ -7514,6 +8177,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "frameAddr",
           "package": "hgdbmi",
@@ -7527,6 +8191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "frameArgs",
           "package": "hgdbmi",
@@ -7536,6 +8201,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "frameArgs",
           "normalized": "Maybe[Arg]",
@@ -7551,6 +8217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "frameFile",
           "package": "hgdbmi",
@@ -7560,6 +8227,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "frameFile",
           "package": "hgdbmi",
@@ -7573,6 +8241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "frameFullname",
           "package": "hgdbmi",
@@ -7582,6 +8251,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "frameFullname",
           "package": "hgdbmi",
@@ -7595,6 +8265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "frameFunc",
           "package": "hgdbmi",
@@ -7604,6 +8275,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "frameFunc",
           "package": "hgdbmi",
@@ -7617,6 +8289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "frameLevel",
           "package": "hgdbmi",
@@ -7626,6 +8299,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "frameLevel",
           "package": "hgdbmi",
@@ -7639,6 +8313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "frameLine",
           "package": "hgdbmi",
@@ -7648,6 +8323,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "frameLine",
           "package": "hgdbmi",
@@ -7662,6 +8338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the result list of a \u003ccode\u003e\u003ca\u003eNotification\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eNotificationClass\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eExec\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eAsyncClass\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eACStop\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "notification_stopped",
           "package": "hgdbmi",
@@ -7672,6 +8349,7 @@
         "index": {
           "description": "Convert the result list of Notification with NotificationClass Exec and AsyncClass ACStop",
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "notification_stopped",
           "normalized": "[Result]-\u003eMaybe Stopped",
@@ -7687,6 +8365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the result list of a \u003ccode\u003e\u003ca\u003ebreak_insert\u003c/a\u003e\u003c/code\u003e command response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "response_break_insert",
           "package": "hgdbmi",
@@ -7697,6 +8376,7 @@
         "index": {
           "description": "Convert the result list of break insert command response",
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "response_break_insert",
           "normalized": "[Result]-\u003eMaybe Breakpoint",
@@ -7712,6 +8392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the result list of a \u003ccode\u003e\u003ca\u003edata_evaluate_expression\u003c/a\u003e\u003c/code\u003e command response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "response_data_evaluate_expression",
           "package": "hgdbmi",
@@ -7722,6 +8403,7 @@
         "index": {
           "description": "Convert the result list of data evaluate expression command response",
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "response_data_evaluate_expression",
           "normalized": "[Result]-\u003eMaybe String",
@@ -7737,6 +8419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the result list of a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eResultClass\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eRCError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "response_error",
           "package": "hgdbmi",
@@ -7747,6 +8430,7 @@
         "index": {
           "description": "Convert the result list of Response with ResultClass RCError",
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "response_error",
           "normalized": "[Result]-\u003eMaybe String",
@@ -7762,6 +8446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the result list of a \u003ccode\u003e\u003ca\u003eexec_return\u003c/a\u003e\u003c/code\u003e command response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "response_exec_return",
           "package": "hgdbmi",
@@ -7772,6 +8457,7 @@
         "index": {
           "description": "Convert the result list of exec return command response",
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "response_exec_return",
           "normalized": "[Result]-\u003eMaybe Frame",
@@ -7787,6 +8473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the result list of a \u003ccode\u003e\u003ca\u003estack_list_frames\u003c/a\u003e\u003c/code\u003e command response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "response_stack_list_frames",
           "package": "hgdbmi",
@@ -7797,6 +8484,7 @@
         "index": {
           "description": "Convert the result list of stack list frames command response",
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "response_stack_list_frames",
           "normalized": "[Result]-\u003eMaybe Stack",
@@ -7811,6 +8499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "stackFrames",
           "package": "hgdbmi",
@@ -7820,6 +8509,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "stackFrames",
           "normalized": "[Frame]",
@@ -7835,6 +8525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "stoppedCore",
           "package": "hgdbmi",
@@ -7844,6 +8535,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "stoppedCore",
           "package": "hgdbmi",
@@ -7857,6 +8549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "stoppedFrame",
           "package": "hgdbmi",
@@ -7866,6 +8559,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "stoppedFrame",
           "package": "hgdbmi",
@@ -7879,6 +8573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "stoppedReason",
           "package": "hgdbmi",
@@ -7888,6 +8583,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "stoppedReason",
           "package": "hgdbmi",
@@ -7901,6 +8597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "stoppedThreadId",
           "package": "hgdbmi",
@@ -7910,6 +8607,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "stoppedThreadId",
           "package": "hgdbmi",
@@ -7923,6 +8621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:24 UTC 2014",
           "module": "Gdbmi.Semantics",
           "name": "stoppedThreads",
           "package": "hgdbmi",
@@ -7932,6 +8631,7 @@
         },
         "index": {
           "hierarchy": "Gdbmi Semantics",
+          "indexed": "2014-03-11T18:38:24",
           "module": "Gdbmi.Semantics",
           "name": "stoppedThreads",
           "package": "hgdbmi",

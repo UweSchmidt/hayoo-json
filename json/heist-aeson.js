@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "heist-aeson"
+        "phrase": "heist-aeson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:29 UTC 2014",
           "module": "Text.Templating.Heist.Aeson",
           "name": "Aeson",
           "package": "heist-aeson",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Templating Heist Aeson",
+          "indexed": "2014-03-11T18:36:29",
           "module": "Text.Templating.Heist.Aeson",
           "name": "Aeson",
           "package": "heist-aeson",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:29 UTC 2014",
           "module": "Text.Templating.Heist.Aeson",
           "name": "JsonSplice",
           "package": "heist-aeson",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Templating Heist Aeson",
+          "indexed": "2014-03-11T18:36:29",
           "module": "Text.Templating.Heist.Aeson",
           "name": "JsonSplice",
           "package": "heist-aeson",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:29 UTC 2014",
           "module": "Text.Templating.Heist.Aeson",
           "name": "JsonSpliceT",
           "package": "heist-aeson",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Templating Heist Aeson",
+          "indexed": "2014-03-11T18:36:29",
           "module": "Text.Templating.Heist.Aeson",
           "name": "JsonSpliceT",
           "package": "heist-aeson",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:29 UTC 2014",
           "module": "Text.Templating.Heist.Aeson",
           "name": "JsonState",
           "package": "heist-aeson",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text Templating Heist Aeson",
+          "indexed": "2014-03-11T18:36:29",
           "module": "Text.Templating.Heist.Aeson",
           "name": "JsonState",
           "package": "heist-aeson",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:29 UTC 2014",
           "module": "Text.Templating.Heist.Aeson",
           "name": "JsonT",
           "package": "heist-aeson",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text Templating Heist Aeson",
+          "indexed": "2014-03-11T18:36:29",
           "module": "Text.Templating.Heist.Aeson",
           "name": "JsonT",
           "package": "heist-aeson",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:29 UTC 2014",
           "module": "Text.Templating.Heist.Aeson",
           "name": "JsonTemplate",
           "package": "heist-aeson",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Text Templating Heist Aeson",
+          "indexed": "2014-03-11T18:36:29",
           "module": "Text.Templating.Heist.Aeson",
           "name": "JsonTemplate",
           "package": "heist-aeson",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:29 UTC 2014",
           "module": "Text.Templating.Heist.Aeson",
           "name": "addHeistAeson",
           "package": "heist-aeson",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Text Templating Heist Aeson",
+          "indexed": "2014-03-11T18:36:29",
           "module": "Text.Templating.Heist.Aeson",
           "name": "addHeistAeson",
           "normalized": "JsonState a-\u003eJsonState a",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:29 UTC 2014",
           "module": "Text.Templating.Heist.Aeson",
           "name": "renderJsonTemplate",
           "package": "heist-aeson",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Text Templating Heist Aeson",
+          "indexed": "2014-03-11T18:36:29",
           "module": "Text.Templating.Heist.Aeson",
           "name": "renderJsonTemplate",
           "normalized": "JsonState a-\u003eByteString-\u003eValue-\u003ea(Maybe(Builder,MIMEType))",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:29 UTC 2014",
           "module": "Text.Templating.Heist.Aeson",
           "name": "runJsonT",
           "package": "heist-aeson",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Text Templating Heist Aeson",
+          "indexed": "2014-03-11T18:36:29",
           "module": "Text.Templating.Heist.Aeson",
           "name": "runJsonT",
           "normalized": "JsonT a b-\u003eValue-\u003ea b",

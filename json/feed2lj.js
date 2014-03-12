@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "feed2lj"
+        "phrase": "feed2lj",
+        "type": "phrase"
       },
       "type": "context"
     }

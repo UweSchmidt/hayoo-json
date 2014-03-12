@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bidispec"
+        "phrase": "bidispec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "BidiSpec",
           "package": "bidispec",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "BidiSpec",
           "package": "bidispec",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "Spec",
           "package": "bidispec",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "Spec",
           "package": "bidispec",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "SpecGen",
           "package": "bidispec",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "SpecGen",
           "package": "bidispec",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "SpecParser",
           "package": "bidispec",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "SpecParser",
           "package": "bidispec",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "SpecParser",
           "package": "bidispec",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "SpecParser",
           "package": "bidispec",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "genBySpec",
           "package": "bidispec",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "genBySpec",
           "normalized": "Spec a b c d-\u003ec-\u003ed-\u003ee c",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "mkSpec",
           "package": "bidispec",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "mkSpec",
           "normalized": "SpecParser a b c-\u003eSpecGen d c-\u003eSpec b a d c",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "parseBySpec",
           "package": "bidispec",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "parseBySpec",
           "normalized": "Spec a b c d-\u003eb-\u003ee d",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsAlt",
           "package": "bidispec",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsAlt",
           "normalized": "(a-\u003eInt)-\u003e[Spec b c d a]-\u003eSpec b c d a",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsCase",
           "package": "bidispec",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsCase",
           "normalized": "(a-\u003eb,b-\u003ea)-\u003eSpec c d e a-\u003eSpecCase c d e b",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsCaseConst",
           "package": "bidispec",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsCaseConst",
           "normalized": "a-\u003e(Spec b c d e-\u003eSpec b c d e)-\u003eSpecCase b c d a",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsCheckSet",
           "package": "bidispec",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsCheckSet",
           "normalized": "SpecParser a b()-\u003e(c-\u003ec)-\u003eSpec b a c d-\u003eSpec b a c d",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsChoice",
           "package": "bidispec",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsChoice",
           "normalized": "Spec a b c d-\u003eSpec a b c e-\u003e(e-\u003eSpec a b c d)-\u003eSpec a b c d",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsCondSeq",
           "package": "bidispec",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsCondSeq",
           "normalized": "Spec a b c d-\u003e(d-\u003ee)-\u003eSpec a b c e-\u003e(e-\u003eSpec a b c d)-\u003eSpec a b c d",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsDefault",
           "package": "bidispec",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsDefault",
           "normalized": "(a-\u003eb)-\u003eSpec a c d b-\u003eSpec a c d b",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsGen",
           "package": "bidispec",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsGen",
           "normalized": "Spec a b c d-\u003eSpecGen c d",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsGetSet",
           "package": "bidispec",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsGetSet",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb-\u003ec)-\u003eSpec d a c b",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsLift",
           "package": "bidispec",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsLift",
           "normalized": "a-\u003eSpec b c d a",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsMaybe",
           "package": "bidispec",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsMaybe",
           "normalized": "Spec a b c d-\u003eSpec a b c(Maybe d)",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsMaybeDefault",
           "package": "bidispec",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsMaybeDefault",
           "normalized": "a-\u003eSpec b c d a-\u003eSpec b c d a",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsPair",
           "package": "bidispec",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsPair",
           "normalized": "Spec a b c d-\u003eSpec a b c e-\u003eSpec a b c(d,e)",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsParse",
           "package": "bidispec",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsParse",
           "normalized": "Spec a b c d-\u003eSpecParser b a d",
@@ -532,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsQuadruple",
           "package": "bidispec",
@@ -541,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsQuadruple",
           "normalized": "Spec a b c d-\u003eSpec a b c e-\u003eSpec a b c f-\u003eSpec a b c g-\u003eSpec a b c(d,e,f,g)",
@@ -556,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsSwitch",
           "package": "bidispec",
@@ -565,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsSwitch",
           "normalized": "[SpecCase a b c d]-\u003eSpec a b c d",
@@ -580,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsTagSwitch",
           "package": "bidispec",
@@ -589,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsTagSwitch",
           "normalized": "(a-\u003eb)-\u003e[SpecCase c d e a]-\u003eSpec c d e a",
@@ -604,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsTriple",
           "package": "bidispec",
@@ -613,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsTriple",
           "normalized": "Spec a b c d-\u003eSpec a b c e-\u003eSpec a b c f-\u003eSpec a b c(d,e,f)",
@@ -628,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsUnit",
           "package": "bidispec",
@@ -637,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsUnit",
           "normalized": "Spec a b c()",
@@ -652,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsWith",
           "package": "bidispec",
@@ -661,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsWith",
           "normalized": "(Spec a b c d-\u003eSpec a b c e)-\u003eSpec a b c d-\u003eSpec a b c e",
@@ -676,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsWrap",
           "package": "bidispec",
@@ -685,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsWrap",
           "normalized": "(a-\u003eb,b-\u003ea)-\u003eSpec c d e a-\u003eSpec c d e b",
@@ -700,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsWrapEither",
           "package": "bidispec",
@@ -709,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsWrapEither",
           "normalized": "(a-\u003eEither b c,c-\u003ea)-\u003eSpec b d e a-\u003eSpec b d e c",
@@ -724,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsWrapEither'",
           "package": "bidispec",
@@ -733,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsWrapEither'",
           "normalized": "(a-\u003eEither b c,c-\u003ea)-\u003eSpec d e f a-\u003eSpec d e f c",
@@ -748,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsWrapMaybe",
           "package": "bidispec",
@@ -757,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsWrapMaybe",
           "normalized": "String-\u003e(a-\u003eMaybe b,b-\u003ea)-\u003eSpec c d e a-\u003eSpec c d e b",
@@ -772,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "rsZero",
           "package": "bidispec",
@@ -781,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "rsZero",
           "package": "bidispec",
@@ -794,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "runSpecParser",
           "package": "bidispec",
@@ -803,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "runSpecParser",
           "normalized": "SpecParser a b c-\u003ea-\u003eEither b c",
@@ -818,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "spCheck",
           "package": "bidispec",
@@ -827,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "spCheck",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eb)-\u003ea-\u003eSpecParser c b()",
@@ -842,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "spFromEither",
           "package": "bidispec",
@@ -851,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "spFromEither",
           "normalized": "Either a b-\u003eSpecParser c a b",
@@ -866,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "spFromMaybe",
           "package": "bidispec",
@@ -875,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "spFromMaybe",
           "normalized": "a-\u003eMaybe b-\u003eSpecParser c a b",
@@ -890,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "spGet",
           "package": "bidispec",
@@ -899,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "spGet",
           "package": "bidispec",
@@ -912,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "spGets",
           "package": "bidispec",
@@ -921,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "spGets",
           "normalized": "(a-\u003eb)-\u003eSpecParser a c b",
@@ -936,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:11 UTC 2014",
           "module": "Data.BidiSpec",
           "name": "unSpecParser",
           "package": "bidispec",
@@ -945,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec",
+          "indexed": "2014-03-11T17:18:11",
           "module": "Data.BidiSpec",
           "name": "unSpecParser",
           "package": "bidispec",

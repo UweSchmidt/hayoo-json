@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk2hs-cast-gnomevfs"
+        "phrase": "gtk2hs-cast-gnomevfs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:05 UTC 2014",
           "module": "System.Gnome.VFS.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-gnomevfs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Gnome VFS Cast",
+          "indexed": "2014-03-11T18:23:05",
           "module": "System.Gnome.VFS.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-gnomevfs",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:05 UTC 2014",
           "module": "System.Gnome.VFS.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-gnomevfs",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "System Gnome VFS Cast",
+          "indexed": "2014-03-11T18:23:05",
           "module": "System.Gnome.VFS.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-gnomevfs",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:05 UTC 2014",
           "module": "System.Gnome.VFS.Cast",
           "name": "cast",
           "package": "gtk2hs-cast-gnomevfs",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "System Gnome VFS Cast",
+          "indexed": "2014-03-11T18:23:05",
           "module": "System.Gnome.VFS.Cast",
           "name": "cast",
           "normalized": "a-\u003eb",

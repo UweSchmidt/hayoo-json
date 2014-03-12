@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "KiCS-prophecy"
+        "phrase": "KiCS-prophecy",
+        "type": "phrase"
       },
       "type": "context"
     }

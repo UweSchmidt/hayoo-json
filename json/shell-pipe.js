@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shell-pipe"
+        "phrase": "shell-pipe",
+        "type": "phrase"
       },
       "type": "context"
     }

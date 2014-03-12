@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bitmaps"
+        "phrase": "bitmaps",
+        "type": "phrase"
       },
       "type": "context"
     }

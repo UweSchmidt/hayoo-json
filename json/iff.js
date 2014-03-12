@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "iff"
+        "phrase": "iff",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eToDo:\n\u003c/p\u003e\u003cp\u003eLazy read and write.\n\u003c/p\u003e\u003cp\u003eProblem on writing:\nIf the length of data is computed lazily,\nthen you must seek back to the file position\nwhere the size is stored.\nThat is for writing of lazily generated data\nwe need a seekable file device.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "IFF",
           "package": "iff",
@@ -28,6 +29,7 @@
         "index": {
           "description": "ToDo Lazy read and write Problem on writing If the length of data is computed lazily then you must seek back to the file position where the size is stored That is for writing of lazily generated data we need seekable file device",
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "IFF",
           "package": "iff",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "Chunk",
           "package": "iff",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "Chunk",
           "package": "iff",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "ChunkId",
           "package": "iff",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "ChunkId",
           "package": "iff",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "T",
           "package": "iff",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "T",
           "package": "iff",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "Cat",
           "package": "iff",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "Cat",
           "package": "iff",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "Chunk",
           "package": "iff",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "Chunk",
           "package": "iff",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "Cons",
           "package": "iff",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "Cons",
           "package": "iff",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "Form",
           "package": "iff",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "Form",
           "package": "iff",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "List",
           "package": "iff",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "List",
           "package": "iff",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "Prop",
           "package": "iff",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "Prop",
           "package": "iff",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "chunk",
           "package": "iff",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "chunk",
           "package": "iff",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "chunkId",
           "package": "iff",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "chunkId",
           "package": "iff",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "chunkIdFromString",
           "package": "iff",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "chunkIdFromString",
           "normalized": "String-\u003eChunkId",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "chunkIdToString",
           "package": "iff",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "chunkIdToString",
           "normalized": "ChunkId-\u003eString",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "content",
           "package": "iff",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "content",
           "package": "iff",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "fromByteString",
           "package": "iff",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "fromByteString",
           "normalized": "ByteString-\u003eMaybe T",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "parts",
           "package": "iff",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "parts",
           "normalized": "[T]",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "props",
           "package": "iff",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "props",
           "normalized": "[T]",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:13 UTC 2014",
           "module": "Data.IFF",
           "name": "toByteString",
           "package": "iff",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Data IFF",
+          "indexed": "2014-03-11T18:56:13",
           "module": "Data.IFF",
           "name": "toByteString",
           "normalized": "T-\u003eByteString",

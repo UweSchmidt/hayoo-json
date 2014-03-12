@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-attoparsec"
+        "phrase": "http-attoparsec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:08 UTC 2014",
           "module": "Network.HTTP.Attoparsec",
           "name": "Attoparsec",
           "package": "http-attoparsec",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Attoparsec",
+          "indexed": "2014-03-11T18:52:08",
           "module": "Network.HTTP.Attoparsec",
           "name": "Attoparsec",
           "package": "http-attoparsec",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:08 UTC 2014",
           "module": "Network.HTTP.Attoparsec",
           "name": "byteRangesParser",
           "package": "http-attoparsec",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Attoparsec",
+          "indexed": "2014-03-11T18:52:08",
           "module": "Network.HTTP.Attoparsec",
           "name": "byteRangesParser",
           "package": "http-attoparsec",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:08 UTC 2014",
           "module": "Network.HTTP.Attoparsec",
           "name": "parseByteRanges",
           "package": "http-attoparsec",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Attoparsec",
+          "indexed": "2014-03-11T18:52:08",
           "module": "Network.HTTP.Attoparsec",
           "name": "parseByteRanges",
           "normalized": "ByteString-\u003eMaybe ByteRanges",

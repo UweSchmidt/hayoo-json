@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "WL500gPControl"
+        "phrase": "WL500gPControl",
+        "type": "phrase"
       },
       "type": "context"
     }

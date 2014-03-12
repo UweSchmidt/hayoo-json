@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsndfile"
+        "phrase": "hsndfile",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the \u003ccode\u003e\u003ca\u003eBuffer\u003c/a\u003e\u003c/code\u003e type class that abstracts the array type that is being used for I/O. For concrete instances see for example the \u003cem\u003ehsndfile-vector\u003c/em\u003e package \u003ca\u003ehttp://hackage.haskell.org/package/hsndfile-vector\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "Buffer",
           "package": "hsndfile",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides the Buffer type class that abstracts the array type that is being used for For concrete instances see for example the hsndfile-vector package http hackage.haskell.org package hsndfile-vector",
           "hierarchy": "Sound File Sndfile Buffer",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "Buffer",
           "package": "hsndfile",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer class for I/O on soundfile handles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "Buffer",
           "package": "hsndfile",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Buffer class for on soundfile handles",
           "hierarchy": "Sound File Sndfile Buffer",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "Buffer",
           "package": "hsndfile",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class Sample is used for polymorphic I/O on a \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e, and is parameterized with the element type that is to be read from a file.\n\u003c/p\u003e\u003cp\u003eIt is important to note that the data type used by the calling program and the data format of the file do not need to be the same. For instance, it is possible to open a 16 bit PCM encoded WAV file and read the data in floating point format. The library seamlessly converts between the two formats on-the-fly; the Haskell interface currently supports reading and writing \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e floating point values, as well as \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e integer values.\n\u003c/p\u003e\u003cp\u003eWhen converting between integer data and floating point data, the following rules apply: The default behaviour when reading floating point data from a file with integer data is normalisation. Regardless of whether data in the file is 8, 16, 24 or 32 bit wide, the data will be read as floating point data in the range [-1.0, 1.0]. Similarly, data in the range [-1.0, 1.0] will be written to an integer PCM file so that a data value of 1.0 will be the largest allowable integer for the given bit width. This normalisation can be turned on or off using the command interface (\u003cem\u003eimplementation missing in Haskell\u003c/em\u003e).\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ehGetSamples\u003c/code\u003e and \u003ccode\u003ehGetFrames\u003c/code\u003e return the number of items read. Unless the end of the file was reached during the read, the return value should equal the number of items requested. Attempts to read beyond the end of the file will not result in an error but will cause the read functions to return less than the number of items requested or 0 if already at the end of the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "Sample",
           "package": "hsndfile",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The class Sample is used for polymorphic on Handle and is parameterized with the element type that is to be read from file It is important to note that the data type used by the calling program and the data format of the file do not need to be the same For instance it is possible to open bit PCM encoded WAV file and read the data in floating point format The library seamlessly converts between the two formats on-the-fly the Haskell interface currently supports reading and writing Double or Float floating point values as well as Int16 and Int32 integer values When converting between integer data and floating point data the following rules apply The default behaviour when reading floating point data from file with integer data is normalisation Regardless of whether data in the file is or bit wide the data will be read as floating point data in the range Similarly data in the range will be written to an integer PCM file so that data value of will be the largest allowable integer for the given bit width This normalisation can be turned on or off using the command interface implementation missing in Haskell hGetSamples and hGetFrames return the number of items read Unless the end of the file was reached during the read the return value should equal the number of items requested Attempts to read beyond the end of the file will not result in an error but will cause the read functions to return less than the number of items requested or if already at the end of the file",
           "hierarchy": "Sound File Sndfile Buffer",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "Sample",
           "package": "hsndfile",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a buffer from a \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e, a start index and the element count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "fromForeignPtr",
           "package": "hsndfile",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Construct buffer from ForeignPtr start index and the element count",
           "hierarchy": "Sound File Sndfile Buffer",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "fromForeignPtr",
           "normalized": "ForeignPtr a-\u003eInt-\u003eInt-\u003eIO(b a)",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a buffer of frames.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "hGetBuf",
           "package": "hsndfile",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Read buffer of frames",
           "hierarchy": "Sound File Sndfile Buffer",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "hGetBuf",
           "normalized": "Handle-\u003ePtr a-\u003eCount-\u003eIO Count",
@@ -194,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a buffer of frames.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "hPutBuf",
           "package": "hsndfile",
@@ -204,6 +215,7 @@
         "index": {
           "description": "Write buffer of frames",
           "hierarchy": "Sound File Sndfile Buffer",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "hPutBuf",
           "normalized": "Handle-\u003ePtr a-\u003eCount-\u003eIO Count",
@@ -274,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve from a buffer a \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e pointing to its data, a start index and an element count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "toForeignPtr",
           "package": "hsndfile",
@@ -284,6 +297,7 @@
         "index": {
           "description": "Retrieve from buffer ForeignPtr pointing to its data start index and an element count",
           "hierarchy": "Sound File Sndfile Buffer",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile.Buffer",
           "name": "toForeignPtr",
           "normalized": "a b-\u003eIO(ForeignPtr b,Int,Int)",
@@ -327,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eSound.File.Sndfile\u003c/a\u003e provides a Haskell interface to the libsndfile\n   library by Erik de Castro Lopo (\u003ca\u003ehttp://www.mega-nerd.com/libsndfile/\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eThe API is modeled after the original \u003cem\u003eC\u003c/em\u003e API, but type and function\n   identifiers follow Haskell naming conventions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "Sndfile",
           "package": "hsndfile",
@@ -336,6 +351,7 @@
         "index": {
           "description": "Sound.File.Sndfile provides Haskell interface to the libsndfile library by Erik de Castro Lopo http www.mega-nerd.com libsndfile The API is modeled after the original API but type and function identifiers follow Haskell naming conventions",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "Sndfile",
           "package": "hsndfile",
@@ -350,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer class for I/O on soundfile handles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "Buffer",
           "package": "hsndfile",
@@ -359,6 +376,7 @@
         "index": {
           "description": "Buffer class for on soundfile handles",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "Buffer",
           "package": "hsndfile",
@@ -373,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for expressing sample counts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "Count",
           "package": "hsndfile",
@@ -382,6 +401,7 @@
         "index": {
           "description": "Type for expressing sample counts",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "Count",
           "package": "hsndfile",
@@ -396,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEndianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "EndianFormat",
           "package": "hsndfile",
@@ -405,6 +426,7 @@
         "index": {
           "description": "Endianness",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "EndianFormat",
           "package": "hsndfile",
@@ -419,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues of type \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e are thrown by the library when an error occurs.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003ecatch\u003c/code\u003e to catch only exceptions of this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "Exception",
           "package": "hsndfile",
@@ -428,6 +451,7 @@
         "index": {
           "description": "Values of type Exception are thrown by the library when an error occurs Use catch to catch only exceptions of this type",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "Exception",
           "package": "hsndfile",
@@ -442,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream format specification, consisting of header, sample and endianness formats.\n\u003c/p\u003e\u003cp\u003eNot all combinations of header, sample and endianness formats are valid;\n valid combinations can be checked with the \u003ccode\u003e\u003ca\u003echeckFormat\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "Format",
           "package": "hsndfile",
@@ -451,6 +476,7 @@
         "index": {
           "description": "Stream format specification consisting of header sample and endianness formats Not all combinations of header sample and endianness formats are valid valid combinations can be checked with the checkFormat function",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "Format",
           "package": "hsndfile",
@@ -465,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "Handle",
           "package": "hsndfile",
@@ -474,6 +501,7 @@
         "index": {
           "description": "Abstract file handle",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "Handle",
           "package": "hsndfile",
@@ -488,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormat",
           "package": "hsndfile",
@@ -497,6 +526,7 @@
         "index": {
           "description": "Header format",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormat",
           "package": "hsndfile",
@@ -511,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI/O mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "IOMode",
           "package": "hsndfile",
@@ -520,6 +551,7 @@
         "index": {
           "description": "mode",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "IOMode",
           "package": "hsndfile",
@@ -534,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for expressing sample indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "Index",
           "package": "hsndfile",
@@ -543,6 +576,7 @@
         "index": {
           "description": "Type for expressing sample indices",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "Index",
           "package": "hsndfile",
@@ -557,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eInfo\u003c/a\u003e\u003c/code\u003e structure is for passing data between the calling function and\n   the library when opening a stream for reading or writing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "Info",
           "package": "hsndfile",
@@ -566,6 +601,7 @@
         "index": {
           "description": "The Info structure is for passing data between the calling function and the library when opening stream for reading or writing",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "Info",
           "package": "hsndfile",
@@ -580,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class Sample is used for polymorphic I/O on a \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e, and is parameterized with the element type that is to be read from a file.\n\u003c/p\u003e\u003cp\u003eIt is important to note that the data type used by the calling program and the data format of the file do not need to be the same. For instance, it is possible to open a 16 bit PCM encoded WAV file and read the data in floating point format. The library seamlessly converts between the two formats on-the-fly; the Haskell interface currently supports reading and writing \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e floating point values, as well as \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e integer values.\n\u003c/p\u003e\u003cp\u003eWhen converting between integer data and floating point data, the following rules apply: The default behaviour when reading floating point data from a file with integer data is normalisation. Regardless of whether data in the file is 8, 16, 24 or 32 bit wide, the data will be read as floating point data in the range [-1.0, 1.0]. Similarly, data in the range [-1.0, 1.0] will be written to an integer PCM file so that a data value of 1.0 will be the largest allowable integer for the given bit width. This normalisation can be turned on or off using the command interface (\u003cem\u003eimplementation missing in Haskell\u003c/em\u003e).\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ehGetSamples\u003c/code\u003e and \u003ccode\u003ehGetFrames\u003c/code\u003e return the number of items read. Unless the end of the file was reached during the read, the return value should equal the number of items requested. Attempts to read beyond the end of the file will not result in an error but will cause the read functions to return less than the number of items requested or 0 if already at the end of the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "Sample",
           "package": "hsndfile",
@@ -589,6 +626,7 @@
         "index": {
           "description": "The class Sample is used for polymorphic on Handle and is parameterized with the element type that is to be read from file It is important to note that the data type used by the calling program and the data format of the file do not need to be the same For instance it is possible to open bit PCM encoded WAV file and read the data in floating point format The library seamlessly converts between the two formats on-the-fly the Haskell interface currently supports reading and writing Double or Float floating point values as well as Int16 and Int32 integer values When converting between integer data and floating point data the following rules apply The default behaviour when reading floating point data from file with integer data is normalisation Regardless of whether data in the file is or bit wide the data will be read as floating point data in the range Similarly data in the range will be written to an integer PCM file so that data value of will be the largest allowable integer for the given bit width This normalisation can be turned on or off using the command interface implementation missing in Haskell hGetSamples and hGetFrames return the number of items read Unless the end of the file was reached during the read the return value should equal the number of items requested Attempts to read beyond the end of the file will not result in an error but will cause the read functions to return less than the number of items requested or if already at the end of the file",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "Sample",
           "package": "hsndfile",
@@ -603,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormat",
           "package": "hsndfile",
@@ -612,6 +651,7 @@
         "index": {
           "description": "Sample format",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormat",
           "package": "hsndfile",
@@ -625,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SeekMode",
           "package": "hsndfile",
@@ -633,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SeekMode",
           "package": "hsndfile",
@@ -647,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader string field types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "StringType",
           "package": "hsndfile",
@@ -656,6 +699,7 @@
         "index": {
           "description": "Header string field types",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "StringType",
           "package": "hsndfile",
@@ -669,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "AbsoluteSeek",
           "package": "hsndfile",
@@ -678,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "AbsoluteSeek",
           "package": "hsndfile",
@@ -691,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "EndianBig",
           "package": "hsndfile",
@@ -700,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "EndianBig",
           "package": "hsndfile",
@@ -713,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "EndianCpu",
           "package": "hsndfile",
@@ -722,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "EndianCpu",
           "package": "hsndfile",
@@ -735,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "EndianFile",
           "package": "hsndfile",
@@ -744,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "EndianFile",
           "package": "hsndfile",
@@ -757,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "EndianLittle",
           "package": "hsndfile",
@@ -766,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "EndianLittle",
           "package": "hsndfile",
@@ -779,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "Exception",
           "package": "hsndfile",
@@ -788,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "Exception",
           "package": "hsndfile",
@@ -801,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "Format",
           "package": "hsndfile",
@@ -810,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "Format",
           "package": "hsndfile",
@@ -823,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatAiff",
           "package": "hsndfile",
@@ -832,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatAiff",
           "package": "hsndfile",
@@ -845,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatAu",
           "package": "hsndfile",
@@ -854,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatAu",
           "package": "hsndfile",
@@ -867,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatAvr",
           "package": "hsndfile",
@@ -876,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatAvr",
           "package": "hsndfile",
@@ -889,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatCaf",
           "package": "hsndfile",
@@ -898,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatCaf",
           "package": "hsndfile",
@@ -911,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatFlac",
           "package": "hsndfile",
@@ -920,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatFlac",
           "package": "hsndfile",
@@ -933,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatHtk",
           "package": "hsndfile",
@@ -942,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatHtk",
           "package": "hsndfile",
@@ -955,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatIrcam",
           "package": "hsndfile",
@@ -964,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatIrcam",
           "package": "hsndfile",
@@ -977,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatMat4",
           "package": "hsndfile",
@@ -986,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatMat4",
           "package": "hsndfile",
@@ -999,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatMat5",
           "package": "hsndfile",
@@ -1008,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatMat5",
           "package": "hsndfile",
@@ -1021,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatMpc2k",
           "package": "hsndfile",
@@ -1030,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatMpc2k",
           "package": "hsndfile",
@@ -1043,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatNist",
           "package": "hsndfile",
@@ -1052,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatNist",
           "package": "hsndfile",
@@ -1065,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatNone",
           "package": "hsndfile",
@@ -1074,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatNone",
           "package": "hsndfile",
@@ -1087,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatOgg",
           "package": "hsndfile",
@@ -1096,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatOgg",
           "package": "hsndfile",
@@ -1109,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatPaf",
           "package": "hsndfile",
@@ -1118,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatPaf",
           "package": "hsndfile",
@@ -1131,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatPvf",
           "package": "hsndfile",
@@ -1140,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatPvf",
           "package": "hsndfile",
@@ -1153,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatRaw",
           "package": "hsndfile",
@@ -1162,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatRaw",
           "package": "hsndfile",
@@ -1175,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatRf64",
           "package": "hsndfile",
@@ -1184,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatRf64",
           "package": "hsndfile",
@@ -1197,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatSd2",
           "package": "hsndfile",
@@ -1206,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatSd2",
           "package": "hsndfile",
@@ -1219,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatSds",
           "package": "hsndfile",
@@ -1228,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatSds",
           "package": "hsndfile",
@@ -1241,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatSvx",
           "package": "hsndfile",
@@ -1250,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatSvx",
           "package": "hsndfile",
@@ -1263,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatVoc",
           "package": "hsndfile",
@@ -1272,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatVoc",
           "package": "hsndfile",
@@ -1285,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatW64",
           "package": "hsndfile",
@@ -1294,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatW64",
           "package": "hsndfile",
@@ -1307,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatWav",
           "package": "hsndfile",
@@ -1316,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatWav",
           "package": "hsndfile",
@@ -1329,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatWavex",
           "package": "hsndfile",
@@ -1338,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatWavex",
           "package": "hsndfile",
@@ -1351,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatWve",
           "package": "hsndfile",
@@ -1360,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatWve",
           "package": "hsndfile",
@@ -1373,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatXi",
           "package": "hsndfile",
@@ -1382,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "HeaderFormatXi",
           "package": "hsndfile",
@@ -1395,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "Info",
           "package": "hsndfile",
@@ -1404,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "Info",
           "package": "hsndfile",
@@ -1417,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "MalformedFile",
           "package": "hsndfile",
@@ -1426,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "MalformedFile",
           "package": "hsndfile",
@@ -1439,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "ReadMode",
           "package": "hsndfile",
@@ -1448,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "ReadMode",
           "package": "hsndfile",
@@ -1461,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "ReadWriteMode",
           "package": "hsndfile",
@@ -1470,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "ReadWriteMode",
           "package": "hsndfile",
@@ -1483,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "RelativeSeek",
           "package": "hsndfile",
@@ -1492,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "RelativeSeek",
           "package": "hsndfile",
@@ -1505,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatAlaw",
           "package": "hsndfile",
@@ -1514,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatAlaw",
           "package": "hsndfile",
@@ -1527,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatDouble",
           "package": "hsndfile",
@@ -1536,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatDouble",
           "package": "hsndfile",
@@ -1549,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatDwvw12",
           "package": "hsndfile",
@@ -1558,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatDwvw12",
           "package": "hsndfile",
@@ -1571,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatDwvw16",
           "package": "hsndfile",
@@ -1580,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatDwvw16",
           "package": "hsndfile",
@@ -1593,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatDwvw24",
           "package": "hsndfile",
@@ -1602,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatDwvw24",
           "package": "hsndfile",
@@ -1615,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatDwvwN",
           "package": "hsndfile",
@@ -1624,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatDwvwN",
           "package": "hsndfile",
@@ -1637,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatFloat",
           "package": "hsndfile",
@@ -1646,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatFloat",
           "package": "hsndfile",
@@ -1659,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatFormatDpcm16",
           "package": "hsndfile",
@@ -1668,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatFormatDpcm16",
           "package": "hsndfile",
@@ -1681,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatFormatDpcm8",
           "package": "hsndfile",
@@ -1690,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatFormatDpcm8",
           "package": "hsndfile",
@@ -1703,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatG72132",
           "package": "hsndfile",
@@ -1712,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatG72132",
           "package": "hsndfile",
@@ -1725,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatG72324",
           "package": "hsndfile",
@@ -1734,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatG72324",
           "package": "hsndfile",
@@ -1747,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatG72340",
           "package": "hsndfile",
@@ -1756,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatG72340",
           "package": "hsndfile",
@@ -1769,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatGsm610",
           "package": "hsndfile",
@@ -1778,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatGsm610",
           "package": "hsndfile",
@@ -1791,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatImaAdpcm",
           "package": "hsndfile",
@@ -1800,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatImaAdpcm",
           "package": "hsndfile",
@@ -1813,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatMsAdpcm",
           "package": "hsndfile",
@@ -1822,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatMsAdpcm",
           "package": "hsndfile",
@@ -1835,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatNone",
           "package": "hsndfile",
@@ -1844,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatNone",
           "package": "hsndfile",
@@ -1857,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatPcm16",
           "package": "hsndfile",
@@ -1866,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatPcm16",
           "package": "hsndfile",
@@ -1879,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatPcm24",
           "package": "hsndfile",
@@ -1888,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatPcm24",
           "package": "hsndfile",
@@ -1901,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatPcm32",
           "package": "hsndfile",
@@ -1910,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatPcm32",
           "package": "hsndfile",
@@ -1923,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatPcmS8",
           "package": "hsndfile",
@@ -1932,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatPcmS8",
           "package": "hsndfile",
@@ -1945,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatPcmU8",
           "package": "hsndfile",
@@ -1954,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatPcmU8",
           "package": "hsndfile",
@@ -1967,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatUlaw",
           "package": "hsndfile",
@@ -1976,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatUlaw",
           "package": "hsndfile",
@@ -1989,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatVorbis",
           "package": "hsndfile",
@@ -1998,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatVorbis",
           "package": "hsndfile",
@@ -2011,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatVoxAdpcm",
           "package": "hsndfile",
@@ -2020,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SampleFormatVoxAdpcm",
           "package": "hsndfile",
@@ -2033,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SeekFromEnd",
           "package": "hsndfile",
@@ -2042,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SeekFromEnd",
           "package": "hsndfile",
@@ -2055,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "StrArtist",
           "package": "hsndfile",
@@ -2064,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "StrArtist",
           "package": "hsndfile",
@@ -2077,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "StrComment",
           "package": "hsndfile",
@@ -2086,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "StrComment",
           "package": "hsndfile",
@@ -2099,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "StrCopyright",
           "package": "hsndfile",
@@ -2108,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "StrCopyright",
           "package": "hsndfile",
@@ -2121,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "StrDate",
           "package": "hsndfile",
@@ -2130,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "StrDate",
           "package": "hsndfile",
@@ -2143,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "StrSoftware",
           "package": "hsndfile",
@@ -2152,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "StrSoftware",
           "package": "hsndfile",
@@ -2165,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "StrTitle",
           "package": "hsndfile",
@@ -2174,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "StrTitle",
           "package": "hsndfile",
@@ -2187,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "SystemError",
           "package": "hsndfile",
@@ -2196,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "SystemError",
           "package": "hsndfile",
@@ -2209,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "UnrecognisedFormat",
           "package": "hsndfile",
@@ -2218,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "UnrecognisedFormat",
           "package": "hsndfile",
@@ -2231,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "UnsupportedEncoding",
           "package": "hsndfile",
@@ -2240,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "UnsupportedEncoding",
           "package": "hsndfile",
@@ -2253,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "WriteMode",
           "package": "hsndfile",
@@ -2262,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "WriteMode",
           "package": "hsndfile",
@@ -2276,6 +2466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of channels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "channels",
           "package": "hsndfile",
@@ -2286,6 +2477,7 @@
         "index": {
           "description": "Number of channels",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "channels",
           "package": "hsndfile",
@@ -2299,6 +2491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function allows the caller to check if a set of parameters in the\n   \u003ccode\u003e\u003ca\u003eInfo\u003c/a\u003e\u003c/code\u003e struct is valid before calling \u003ccode\u003e\u003ca\u003eopenFile\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eWriteMode\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003echeckFormat\u003c/a\u003e\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the parameters are valid and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\n   otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "checkFormat",
           "package": "hsndfile",
@@ -2309,6 +2502,7 @@
         "index": {
           "description": "This function allows the caller to check if set of parameters in the Info struct is valid before calling openFile WriteMode checkFormat returns True if the parameters are valid and False otherwise",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "checkFormat",
           "normalized": "Info-\u003eBool",
@@ -2325,6 +2519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault 'empty' format, useful when opening files for reading with \u003ccode\u003e\u003ca\u003eReadMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "defaultFormat",
           "package": "hsndfile",
@@ -2335,6 +2530,7 @@
         "index": {
           "description": "Default empty format useful when opening files for reading with ReadMode",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "defaultFormat",
           "package": "hsndfile",
@@ -2349,6 +2545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault 'empty' info, useful when opening files for reading with \u003ccode\u003e\u003ca\u003eReadMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "defaultInfo",
           "package": "hsndfile",
@@ -2359,6 +2556,7 @@
         "index": {
           "description": "Default empty info useful when opening files for reading with ReadMode",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "defaultInfo",
           "package": "hsndfile",
@@ -2373,6 +2571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn soundfile duration in seconds computed via the \u003ccode\u003e\u003ca\u003eInfo\u003c/a\u003e\u003c/code\u003e fields\n   \u003ccode\u003e\u003ca\u003eframes\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esamplerate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "duration",
           "package": "hsndfile",
@@ -2383,6 +2582,7 @@
         "index": {
           "description": "Return soundfile duration in seconds computed via the Info fields frames and samplerate",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "duration",
           "normalized": "Info-\u003eDouble",
@@ -2397,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "endianFormat",
           "package": "hsndfile",
@@ -2406,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "endianFormat",
           "package": "hsndfile",
@@ -2419,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "errorString",
           "package": "hsndfile",
@@ -2428,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "errorString",
           "package": "hsndfile",
@@ -2442,6 +2646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader and sample format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "format",
           "package": "hsndfile",
@@ -2452,6 +2657,7 @@
         "index": {
           "description": "Header and sample format",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "format",
           "package": "hsndfile",
@@ -2465,6 +2671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of frames in file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "frames",
           "package": "hsndfile",
@@ -2475,6 +2682,7 @@
         "index": {
           "description": "Number of frames in file",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "frames",
           "package": "hsndfile",
@@ -2488,6 +2696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a buffer from a \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e, a start index and the element count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "fromForeignPtr",
           "package": "hsndfile",
@@ -2498,6 +2707,7 @@
         "index": {
           "description": "Construct buffer from ForeignPtr start index and the element count",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "fromForeignPtr",
           "normalized": "ForeignPtr a-\u003eInt-\u003eInt-\u003eIO(b a)",
@@ -2514,6 +2724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet header format information associated with file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "getFileInfo",
           "package": "hsndfile",
@@ -2524,6 +2735,7 @@
         "index": {
           "description": "Get header format information associated with file",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "getFileInfo",
           "normalized": "FilePath-\u003eIO Info",
@@ -2540,6 +2752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egetString\u003c/a\u003e\u003c/code\u003e function returns the specified string from the stream header in the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e monad if it exists and \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "getString",
           "package": "hsndfile",
@@ -2550,6 +2763,7 @@
         "index": {
           "description": "The getString function returns the specified string from the stream header in the Maybe monad if it exists and Nothing otherwise",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "getString",
           "normalized": "Handle-\u003eStringType-\u003eIO(Maybe String)",
@@ -2566,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ehClose\u003c/a\u003e\u003c/code\u003e function closes the stream, deallocates its internal buffers\n   and returns () on success or signals an \u003ccode\u003eException\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "hClose",
           "package": "hsndfile",
@@ -2576,6 +2791,7 @@
         "index": {
           "description": "The hClose function closes the stream deallocates its internal buffers and returns on success or signals an Exception otherwise",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "hClose",
           "normalized": "Handle-\u003eIO()",
@@ -2592,6 +2808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the stream is opened with \u003ccode\u003e\u003ca\u003eWriteMode\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eReadWriteMode\u003c/a\u003e\u003c/code\u003e, call the\n   operating system's function to force the writing of all file cache\n   buffers to disk. If the file is opened with \u003ccode\u003e\u003ca\u003eReadMode\u003c/a\u003e\u003c/code\u003e no action is\n   taken.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "hFlush",
           "package": "hsndfile",
@@ -2602,6 +2819,7 @@
         "index": {
           "description": "If the stream is opened with WriteMode or ReadWriteMode call the operating system function to force the writing of all file cache buffers to disk If the file is opened with ReadMode no action is taken",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "hFlush",
           "normalized": "Handle-\u003eIO()",
@@ -2618,6 +2836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a buffer of frames.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "hGetBuf",
           "package": "hsndfile",
@@ -2628,6 +2847,7 @@
         "index": {
           "description": "Read buffer of frames",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "hGetBuf",
           "normalized": "Handle-\u003ePtr a-\u003eCount-\u003eIO Count",
@@ -2644,6 +2864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the stream \u003ccode\u003e\u003ca\u003eInfo\u003c/a\u003e\u003c/code\u003e associated with the \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "hInfo",
           "package": "hsndfile",
@@ -2654,6 +2875,7 @@
         "index": {
           "description": "Return the stream Info associated with the Handle",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "hInfo",
           "normalized": "Handle-\u003eInfo",
@@ -2669,6 +2891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "hIsSeekable",
           "package": "hsndfile",
@@ -2678,6 +2901,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "hIsSeekable",
           "normalized": "Handle-\u003eIO Bool",
@@ -2694,6 +2918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a buffer of frames.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "hPutBuf",
           "package": "hsndfile",
@@ -2704,6 +2929,7 @@
         "index": {
           "description": "Write buffer of frames",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "hPutBuf",
           "normalized": "Handle-\u003ePtr a-\u003eCount-\u003eIO Count",
@@ -2720,6 +2946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file seek functions work much like \u003ccode\u003e\u003ca\u003ehseek\u003c/a\u003e\u003c/code\u003e with the\n   exception that the non-audio data is ignored and the seek only moves\n   within the audio data section of the file. In addition, seeks are defined\n   in number of (multichannel) frames. Therefore, a seek in a stereo file\n   from the current position forward with an offset of 1 would skip forward\n   by one sample of both channels.\n\u003c/p\u003e\u003cp\u003elike lseek(), the whence parameter can be any one of the following three values:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eAbsoluteSeek\u003c/a\u003e\u003c/code\u003e - The offset is set to the start of the audio data plus offset (multichannel) frames.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eRelativeSeek\u003c/a\u003e\u003c/code\u003e - The offset is set to its current location plus offset (multichannel) frames.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eSeekFromEnd\u003c/a\u003e\u003c/code\u003e - The offset is set to the end of the data plus offset (multichannel) frames.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eInternally, libsndfile keeps track of the read and write locations using\n   separate read and write pointers. If a file has been opened with a mode\n   of \u003ccode\u003e\u003ca\u003eReadWriteMode\u003c/a\u003e\u003c/code\u003e, calling either \u003ccode\u003e\u003ca\u003ehSeekRead\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ehSeekWrite\u003c/a\u003e\u003c/code\u003e allows the\n   read and write pointers to be modified separately. \u003ccode\u003e\u003ca\u003ehSeek\u003c/a\u003e\u003c/code\u003e modifies both\n   the read and the write pointer.\n\u003c/p\u003e\u003cp\u003eNote that the frames offset can be negative and in fact should be when\n   SeekFromEnd is used for the whence parameter.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ehSeek\u003c/a\u003e\u003c/code\u003e will return the offset in (multichannel) frames from the start of\n   the audio data, or signal an error when an attempt is made to seek\n   beyond the start or end of the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "hSeek",
           "package": "hsndfile",
@@ -2730,6 +2957,7 @@
         "index": {
           "description": "The file seek functions work much like hseek with the exception that the non-audio data is ignored and the seek only moves within the audio data section of the file In addition seeks are defined in number of multichannel frames Therefore seek in stereo file from the current position forward with an offset of would skip forward by one sample of both channels like lseek the whence parameter can be any one of the following three values AbsoluteSeek The offset is set to the start of the audio data plus offset multichannel frames RelativeSeek The offset is set to its current location plus offset multichannel frames SeekFromEnd The offset is set to the end of the data plus offset multichannel frames Internally libsndfile keeps track of the read and write locations using separate read and write pointers If file has been opened with mode of ReadWriteMode calling either hSeekRead or hSeekWrite allows the read and write pointers to be modified separately hSeek modifies both the read and the write pointer Note that the frames offset can be negative and in fact should be when SeekFromEnd is used for the whence parameter hSeek will return the offset in multichannel frames from the start of the audio data or signal an error when an attempt is made to seek beyond the start or end of the file",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "hSeek",
           "normalized": "Handle-\u003eSeekMode-\u003eCount-\u003eIO Count",
@@ -2746,6 +2974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ehSeek\u003c/a\u003e\u003c/code\u003e, but only the read pointer is modified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "hSeekRead",
           "package": "hsndfile",
@@ -2756,6 +2985,7 @@
         "index": {
           "description": "Like hSeek but only the read pointer is modified",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "hSeekRead",
           "normalized": "Handle-\u003eSeekMode-\u003eCount-\u003eIO Count",
@@ -2772,6 +3002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ehSeek\u003c/a\u003e\u003c/code\u003e, but only the write pointer is modified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "hSeekWrite",
           "package": "hsndfile",
@@ -2782,6 +3013,7 @@
         "index": {
           "description": "Like hSeek but only the write pointer is modified",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "hSeekWrite",
           "normalized": "Handle-\u003eSeekMode-\u003eCount-\u003eIO Count",
@@ -2797,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "headerFormat",
           "package": "hsndfile",
@@ -2806,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "headerFormat",
           "package": "hsndfile",
@@ -2819,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "openFile",
           "package": "hsndfile",
@@ -2828,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "openFile",
           "normalized": "FilePath-\u003eIOMode-\u003eInfo-\u003eIO Handle",
@@ -2843,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "sampleFormat",
           "package": "hsndfile",
@@ -2852,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "sampleFormat",
           "package": "hsndfile",
@@ -2866,6 +3104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAudio sample rate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "samplerate",
           "package": "hsndfile",
@@ -2876,6 +3115,7 @@
         "index": {
           "description": "Audio sample rate",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "samplerate",
           "package": "hsndfile",
@@ -2889,6 +3129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of sections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "sections",
           "package": "hsndfile",
@@ -2899,6 +3140,7 @@
         "index": {
           "description": "Number of sections",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "sections",
           "package": "hsndfile",
@@ -2912,6 +3154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when stream is seekable (e.g. local files)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "seekable",
           "package": "hsndfile",
@@ -2922,6 +3165,7 @@
         "index": {
           "description": "True when stream is seekable e.g local files",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "seekable",
           "package": "hsndfile",
@@ -2935,6 +3179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esetString\u003c/a\u003e\u003c/code\u003e function sets the string data associated with the respective \u003ccode\u003e\u003ca\u003eStringType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "setString",
           "package": "hsndfile",
@@ -2945,6 +3190,7 @@
         "index": {
           "description": "The setString function sets the string data associated with the respective StringType",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "setString",
           "normalized": "Handle-\u003eStringType-\u003eString-\u003eIO()",
@@ -2961,6 +3207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve from a buffer a \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e pointing to its data, a start index and an element count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:15 UTC 2014",
           "module": "Sound.File.Sndfile",
           "name": "toForeignPtr",
           "package": "hsndfile",
@@ -2971,6 +3218,7 @@
         "index": {
           "description": "Retrieve from buffer ForeignPtr pointing to its data start index and an element count",
           "hierarchy": "Sound File Sndfile",
+          "indexed": "2014-03-11T18:49:15",
           "module": "Sound.File.Sndfile",
           "name": "toForeignPtr",
           "normalized": "a b-\u003eIO(ForeignPtr b,Int,Int)",

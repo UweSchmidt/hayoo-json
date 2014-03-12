@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Twofish"
+        "phrase": "Twofish",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements the Twofish symmetric block cipher, designed by:\n Bruce Schneier, John Kelsey, Doug Whiting, David Wagner, Chris Hall,\n and Niels Ferguson.\n\u003c/p\u003e\u003cp\u003eImplemented from the paper entitled \u003ca\u003eTwofish: A 128-Bit Block Cipher\u003c/a\u003e,\n \u003ca\u003ehttp://www.counterpane.com/twofish.html\u003c/a\u003e\n with help from the reference C implementation.\n\u003c/p\u003e\u003cp\u003eThis module provides two methods for constructiong a Twofish cipher\n from a 128, 192 or 256 bit key.  The mkCipher function allows you \n to customize the number of rounds, while the mkStdCipher function\n gives you the standard 16 rounds.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "Twofish",
           "package": "Twofish",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implements the Twofish symmetric block cipher designed by Bruce Schneier John Kelsey Doug Whiting David Wagner Chris Hall and Niels Ferguson Implemented from the paper entitled Twofish Bit Block Cipher http www.counterpane.com twofish.html with help from the reference implementation This module provides two methods for constructiong Twofish cipher from or bit key The mkCipher function allows you to customize the number of rounds while the mkStdCipher function gives you the standard rounds",
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "Twofish",
           "package": "Twofish",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key is a vector of bytes of a certain size (given in bits).\n Twofish suppports key sizes of 128, 192, and 256 bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "Key",
           "package": "Twofish",
@@ -51,6 +54,7 @@
         "index": {
           "description": "key is vector of bytes of certain size given in bits Twofish suppports key sizes of and bits",
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "Key",
           "package": "Twofish",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA keyed Twofish cipher capable of both encryption and decryption.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "TwofishCipher",
           "package": "Twofish",
@@ -74,6 +79,7 @@
         "index": {
           "description": "keyed Twofish cipher capable of both encryption and decryption",
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "TwofishCipher",
           "package": "Twofish",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "decrypt",
           "package": "Twofish",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "decrypt",
           "normalized": "TwofishCipher-\u003eWord-\u003eWord",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "encrypt",
           "package": "Twofish",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "encrypt",
           "normalized": "TwofishCipher-\u003eWord-\u003eWord",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function performs n rounds of the encryption algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "encryptRounds",
           "package": "Twofish",
@@ -144,6 +155,7 @@
         "index": {
           "description": "This function performs rounds of the encryption algorithm",
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "encryptRounds",
           "normalized": "GFunc-\u003eKIndexor-\u003eInt-\u003eBlock-\u003eBlock",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an encryption/decryption cipher from the given key, and\n a given number of rounds (standard Twofish uses 16 rounds)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "mkCipher",
           "package": "Twofish",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Constructs an encryption decryption cipher from the given key and given number of rounds standard Twofish uses rounds",
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "mkCipher",
           "normalized": "Int-\u003ea-\u003eTwofishCipher",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "mkG",
           "package": "Twofish",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "mkG",
           "normalized": "HFunc-\u003eSVector-\u003eGFunc",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "mkK",
           "package": "Twofish",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "mkK",
           "normalized": "a-\u003eInt-\u003eHFunc-\u003eKIndexor",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "mkS",
           "package": "Twofish",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "mkS",
           "normalized": "a-\u003eSVector",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a standard Twofish cipher from the given key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "mkStdCipher",
           "package": "Twofish",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Constructs standard Twofish cipher from the given key",
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "mkStdCipher",
           "normalized": "a-\u003eTwofishCipher",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "mkfH",
           "package": "Twofish",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "mkfH",
           "normalized": "a-\u003eHFunc",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the \u003ccode\u003eq0\u003c/code\u003e byte vector using the algorithm specified in\n the Twofish paper.  This function isn't used by the cipher; instead\n the pre-computed array is contained in the code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "q0o",
           "package": "Twofish",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Generates the q0 byte vector using the algorithm specified in the Twofish paper This function isn used by the cipher instead the pre-computed array is contained in the code",
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "q0o",
           "normalized": "Word-\u003eWord",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the \u003ccode\u003eq1\u003c/code\u003e byte vector using the algorithm specified in\n the Twofish paper.  This function isn't used by the cipher; instead\n the pre-computed array is contained in the code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Codec.Encryption.Twofish",
           "name": "q1o",
           "package": "Twofish",
@@ -339,6 +366,7 @@
         "index": {
           "description": "Generates the q1 byte vector using the algorithm specified in the Twofish paper This function isn used by the cipher instead the pre-computed array is contained in the code",
           "hierarchy": "Codec Encryption Twofish",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Codec.Encryption.Twofish",
           "name": "q1o",
           "normalized": "Word-\u003eWord",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Data.Bitlib",
           "name": "Bitlib",
           "package": "Twofish",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Data Bitlib",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Data.Bitlib",
           "name": "Bitlib",
           "package": "Twofish",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Data.Bitlib",
           "name": "pack",
           "package": "Twofish",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Data Bitlib",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Data.Bitlib",
           "name": "pack",
           "normalized": "[a]-\u003eb",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Data.Bitlib",
           "name": "packMany",
           "package": "Twofish",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Data Bitlib",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Data.Bitlib",
           "name": "packMany",
           "normalized": "a-\u003e[b]-\u003e[a]",
@@ -421,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Data.Bitlib",
           "name": "unpack",
           "package": "Twofish",
@@ -430,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Data Bitlib",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Data.Bitlib",
           "name": "unpack",
           "normalized": "a-\u003e[b]",
@@ -444,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:52 UTC 2014",
           "module": "Data.Bitlib",
           "name": "unpackMany",
           "package": "Twofish",
@@ -453,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Data Bitlib",
+          "indexed": "2014-03-11T17:02:52",
           "module": "Data.Bitlib",
           "name": "unpackMany",
           "normalized": "[a]-\u003e[b]",

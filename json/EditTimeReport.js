@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "EditTimeReport"
+        "phrase": "EditTimeReport",
+        "type": "phrase"
       },
       "type": "context"
     }

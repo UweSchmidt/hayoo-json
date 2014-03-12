@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "web-routes-hsp"
+        "phrase": "web-routes-hsp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:52 UTC 2014",
           "module": "Web.Routes.XMLGenT",
           "name": "XMLGenT",
           "package": "web-routes-hsp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Routes XMLGenT",
+          "indexed": "2014-03-11T20:37:52",
           "module": "Web.Routes.XMLGenT",
           "name": "XMLGenT",
           "package": "web-routes-hsp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:52 UTC 2014",
           "module": "Web.Routes.XMLGenT",
           "name": "flattenCDATA",
           "package": "web-routes-hsp",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Web Routes XMLGenT",
+          "indexed": "2014-03-11T20:37:52",
           "module": "Web.Routes.XMLGenT",
           "name": "flattenCDATA",
           "normalized": "[XML]-\u003e[XML]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ctemplate"
+        "phrase": "ctemplate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:07 UTC 2014",
           "module": "Text.CTemplate",
           "name": "3ADictionary",
           "package": "ctemplate",
@@ -25,6 +26,7 @@
         },
         "index": {
           "hierarchy": "Text CTemplate",
+          "indexed": "2014-03-11T17:45:07",
           "module": "Text.CTemplate",
           "name": "3ADictionary",
           "package": "ctemplate",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:07 UTC 2014",
           "module": "Text.CTemplate",
           "name": "3AOption",
           "package": "ctemplate",
@@ -45,6 +48,7 @@
         },
         "index": {
           "hierarchy": "Text CTemplate",
+          "indexed": "2014-03-11T17:45:07",
           "module": "Text.CTemplate",
           "name": "3AOption",
           "package": "ctemplate",
@@ -58,6 +62,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:07 UTC 2014",
           "module": "Text.CTemplate",
           "name": "3AVariable",
           "package": "ctemplate",
@@ -65,6 +70,7 @@
         },
         "index": {
           "hierarchy": "Text CTemplate",
+          "indexed": "2014-03-11T17:45:07",
           "module": "Text.CTemplate",
           "name": "3AVariable",
           "package": "ctemplate",
@@ -79,6 +85,7 @@
       "document": {
         "description": {
           "description": "Expand a template given the values to fill it\n",
+          "indexed": "Tue Mar 11 17:45:07 UTC 2014",
           "module": "Text.CTemplate",
           "name": "3Aexpand",
           "package": "ctemplate",
@@ -88,6 +95,7 @@
         "index": {
           "description": "Expand template given the values to fill it",
           "hierarchy": "Text CTemplate",
+          "indexed": "2014-03-11T17:45:07",
           "module": "Text.CTemplate",
           "name": "3Aexpand",
           "normalized": "Option-\u003eDictionary-\u003eIO(Maybe ByteString)",
@@ -104,6 +112,7 @@
       "document": {
         "description": {
           "description": "Set the directory where templates with non-absolute filenames will be\n   loaded from\n",
+          "indexed": "Tue Mar 11 17:45:07 UTC 2014",
           "module": "Text.CTemplate",
           "name": "3AsetTemplateRootDirectory",
           "package": "ctemplate",
@@ -113,6 +122,7 @@
         "index": {
           "description": "Set the directory where templates with non-absolute filenames will be loaded from",
           "hierarchy": "Text CTemplate",
+          "indexed": "2014-03-11T17:45:07",
           "module": "Text.CTemplate",
           "name": "3AsetTemplateRootDirectory",
           "normalized": "FilePath-\u003eIO()",

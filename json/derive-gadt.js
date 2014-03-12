@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "derive-gadt"
+        "phrase": "derive-gadt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Eq",
           "name": "deriveEqConsQ",
           "package": "derive-gadt",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Eq",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Eq",
           "name": "deriveEqConsQ",
           "normalized": "Type-\u003e[(String,Int)]-\u003eQ[Dec]",
@@ -42,6 +44,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Eq",
           "name": "deriveEqGadtInfo",
           "package": "derive-gadt",
@@ -51,6 +54,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Eq",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Eq",
           "name": "deriveEqGadtInfo",
           "normalized": "GadtInfo-\u003eQ[Dec]",
@@ -66,6 +70,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Eq",
           "name": "deriveEqGadts",
           "package": "derive-gadt",
@@ -75,6 +80,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Eq",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Eq",
           "name": "deriveEqGadts",
           "normalized": "String-\u003eQ[Dec]",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Eq",
           "name": "mkEqFunD",
           "package": "derive-gadt",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Eq",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Eq",
           "name": "mkEqFunD",
           "normalized": "String-\u003eInt-\u003eQ Dec",
@@ -114,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "deriveOrdConsQ",
           "package": "derive-gadt",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Ord",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "deriveOrdConsQ",
           "normalized": "Type-\u003e[(String,Int)]-\u003eQ[Dec]",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "deriveOrdGadtInfo",
           "package": "derive-gadt",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Ord",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "deriveOrdGadtInfo",
           "normalized": "GadtInfo-\u003eQ[Dec]",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "deriveOrdGadts",
           "package": "derive-gadt",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Ord",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "deriveOrdGadts",
           "normalized": "String-\u003eQ[Dec]",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "mkCompareDiff",
           "package": "derive-gadt",
@@ -195,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Ord",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "mkCompareDiff",
           "package": "derive-gadt",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "mkCompareE",
           "package": "derive-gadt",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Ord",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "mkCompareE",
           "normalized": "Type-\u003e[(String,Int)]-\u003eName-\u003eName-\u003eExpQ",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "mkCompareSame",
           "package": "derive-gadt",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Ord",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "mkCompareSame",
           "normalized": "String-\u003eInt-\u003eClauseQ",
@@ -256,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "mkGo",
           "package": "derive-gadt",
@@ -265,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Ord",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "mkGo",
           "normalized": "[(String,Int)]-\u003eQ[Dec]",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "mkTagMap",
           "package": "derive-gadt",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Ord",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Ord",
           "name": "mkTagMap",
           "normalized": "[String]-\u003eQ[Dec]",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Read",
           "name": "deriveReadConsQ",
           "package": "derive-gadt",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Read",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Read",
           "name": "deriveReadConsQ",
           "normalized": "Type-\u003e[(String,Int)]-\u003eQ[Dec]",
@@ -328,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Read",
           "name": "deriveReadGadtInfo",
           "package": "derive-gadt",
@@ -337,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Read",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Read",
           "name": "deriveReadGadtInfo",
           "normalized": "GadtInfo-\u003eQ[Dec]",
@@ -352,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Read",
           "name": "deriveReadGadts",
           "package": "derive-gadt",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Read",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Read",
           "name": "deriveReadGadts",
           "normalized": "String-\u003eQ[Dec]",
@@ -376,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "GadtShowInfo",
           "package": "derive-gadt",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Show",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "GadtShowInfo",
           "package": "derive-gadt",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "collectShowCxt",
           "package": "derive-gadt",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Show",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "collectShowCxt",
           "normalized": "GadtConInfo-\u003e[Int]",
@@ -421,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "deriveShowGadtInfo",
           "package": "derive-gadt",
@@ -430,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Show",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "deriveShowGadtInfo",
           "normalized": "GadtInfo-\u003eQ[Dec]",
@@ -445,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "deriveShowGadtShowInfo",
           "package": "derive-gadt",
@@ -454,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Show",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "deriveShowGadtShowInfo",
           "normalized": "GadtShowInfo-\u003eQ[Dec]",
@@ -469,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "deriveShowGadts",
           "package": "derive-gadt",
@@ -478,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Show",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "deriveShowGadts",
           "normalized": "String-\u003eQ[Dec]",
@@ -493,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "gadtShowInfo",
           "package": "derive-gadt",
@@ -502,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Show",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "gadtShowInfo",
           "normalized": "GadtInfo-\u003eGadtShowInfo",
@@ -517,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "mkShowFunDs",
           "package": "derive-gadt",
@@ -526,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Class Show",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Class.Show",
           "name": "mkShowFunDs",
           "normalized": "[(Name,Int)]-\u003eQ[Dec]",
@@ -541,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "GadtConInfo",
           "package": "derive-gadt",
@@ -549,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "GadtConInfo",
           "package": "derive-gadt",
@@ -562,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "GadtInfo",
           "package": "derive-gadt",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "GadtInfo",
           "package": "derive-gadt",
@@ -583,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "arityGadt",
           "package": "derive-gadt",
@@ -592,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "arityGadt",
           "normalized": "[TyVarBind]-\u003eMaybe Kind-\u003eInt",
@@ -607,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "existentials",
           "package": "derive-gadt",
@@ -616,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "existentials",
           "normalized": "GadtConInfo-\u003e[Name]",
@@ -630,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "ftvs",
           "package": "derive-gadt",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "ftvs",
           "normalized": "Type-\u003eSet Name",
@@ -653,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "gadtConInfo",
           "package": "derive-gadt",
@@ -662,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "gadtConInfo",
           "normalized": "GadtDecl-\u003eGadtConInfo",
@@ -677,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "gadtInfo",
           "package": "derive-gadt",
@@ -686,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "gadtInfo",
           "normalized": "Decl-\u003e[GadtInfo]",
@@ -701,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "getTopTyVars",
           "package": "derive-gadt",
@@ -710,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "getTopTyVars",
           "normalized": "[Type]-\u003e[(Name,Int)]",
@@ -725,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "groupCons",
           "package": "derive-gadt",
@@ -734,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "groupCons",
           "normalized": "GadtInfo-\u003e[(Name,[Name])]",
@@ -749,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "instanceGroups",
           "package": "derive-gadt",
@@ -758,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "instanceGroups",
           "normalized": "GadtInfo-\u003e[(Type,[(Name,Int)])]",
@@ -773,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "isExistential",
           "package": "derive-gadt",
@@ -782,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "isExistential",
           "normalized": "GadtConInfo-\u003eBool",
@@ -797,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "isMono",
           "package": "derive-gadt",
@@ -806,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "isMono",
           "normalized": "Type-\u003eBool",
@@ -821,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "isTyVar",
           "package": "derive-gadt",
@@ -830,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "isTyVar",
           "normalized": "Type-\u003eBool",
@@ -845,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "kindArity",
           "package": "derive-gadt",
@@ -854,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "kindArity",
           "normalized": "Kind-\u003eInt",
@@ -869,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "mkClauseQ",
           "package": "derive-gadt",
@@ -878,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "mkClauseQ",
           "normalized": "[PatQ]-\u003eExpQ-\u003eClauseQ",
@@ -893,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "mkFunD",
           "package": "derive-gadt",
@@ -902,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "mkFunD",
           "normalized": "Name-\u003e[Pat]-\u003eExp-\u003eDec",
@@ -917,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "myExtensions",
           "package": "derive-gadt",
@@ -926,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "myExtensions",
           "normalized": "[Extension]",
@@ -941,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "myParseMode",
           "package": "derive-gadt",
@@ -950,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "myParseMode",
           "package": "derive-gadt",
@@ -963,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "myParseModule",
           "package": "derive-gadt",
@@ -972,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "myParseModule",
           "normalized": "String-\u003eEither String Module",
@@ -987,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "myParseType",
           "package": "derive-gadt",
@@ -996,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "myParseType",
           "normalized": "String-\u003eType",
@@ -1011,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "nameToUName",
           "package": "derive-gadt",
@@ -1020,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "nameToUName",
           "normalized": "Name-\u003eName",
@@ -1035,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "parseModuleGadts",
           "package": "derive-gadt",
@@ -1044,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "parseModuleGadts",
           "normalized": "String-\u003eEither String[GadtInfo]",
@@ -1059,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "qnameToUName",
           "package": "derive-gadt",
@@ -1068,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "qnameToUName",
           "normalized": "QName-\u003eName",
@@ -1083,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "splitTypeApps",
           "package": "derive-gadt",
@@ -1092,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "splitTypeApps",
           "normalized": "Type-\u003e(Type,[Type])",
@@ -1107,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "srcExtsTypeToUnifyType",
           "package": "derive-gadt",
@@ -1116,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "srcExtsTypeToUnifyType",
           "normalized": "Type-\u003eType",
@@ -1131,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "tvbName",
           "package": "derive-gadt",
@@ -1140,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "tvbName",
           "normalized": "TyVarBind-\u003eName",
@@ -1155,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "unifiedGroups",
           "package": "derive-gadt",
@@ -1164,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "unifiedGroups",
           "normalized": "[GadtConInfo]-\u003e[(Name,[(Name,(Substs,Substs))])]",
@@ -1179,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "unwindType",
           "package": "derive-gadt",
@@ -1188,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Common",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Common",
           "name": "unwindType",
           "normalized": "Type-\u003e(Type,[Type])",
@@ -1203,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "Name",
           "package": "derive-gadt",
@@ -1211,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "Name",
           "package": "derive-gadt",
@@ -1224,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "Q",
           "package": "derive-gadt",
@@ -1232,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "Q",
           "package": "derive-gadt",
@@ -1244,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "S",
           "package": "derive-gadt",
@@ -1252,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "S",
           "package": "derive-gadt",
@@ -1264,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "SubstEnv",
           "package": "derive-gadt",
@@ -1272,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "SubstEnv",
           "package": "derive-gadt",
@@ -1285,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "SubstM",
           "package": "derive-gadt",
@@ -1293,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "SubstM",
           "package": "derive-gadt",
@@ -1306,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "SubstMap",
           "package": "derive-gadt",
@@ -1314,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "SubstMap",
           "package": "derive-gadt",
@@ -1327,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "Substs",
           "package": "derive-gadt",
@@ -1335,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "Substs",
           "package": "derive-gadt",
@@ -1348,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "T",
           "package": "derive-gadt",
@@ -1356,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "T",
           "package": "derive-gadt",
@@ -1368,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "Type",
           "package": "derive-gadt",
@@ -1376,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "Type",
           "package": "derive-gadt",
@@ -1389,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "UnifyEnv",
           "package": "derive-gadt",
@@ -1397,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "UnifyEnv",
           "package": "derive-gadt",
@@ -1410,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "UnifyMap",
           "package": "derive-gadt",
@@ -1418,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "UnifyMap",
           "package": "derive-gadt",
@@ -1431,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "ViaT",
           "package": "derive-gadt",
@@ -1439,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "ViaT",
           "package": "derive-gadt",
@@ -1452,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": ".-\u003e.",
           "package": "derive-gadt",
@@ -1461,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": ".-\u003e.",
           "normalized": "Type-\u003eType-\u003eType",
@@ -1475,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "andT",
           "package": "derive-gadt",
@@ -1484,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "andT",
           "normalized": "T Bool-\u003eBool",
@@ -1498,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "bindM",
           "package": "derive-gadt",
@@ -1507,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "bindM",
           "normalized": "Name-\u003eSubstM()",
@@ -1521,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "bothVars",
           "package": "derive-gadt",
@@ -1530,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "bothVars",
           "normalized": "(Type,Type)-\u003eBool",
@@ -1545,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "btvs",
           "package": "derive-gadt",
@@ -1554,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "btvs",
           "normalized": "Type-\u003eSet Name",
@@ -1568,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "buildUMap",
           "package": "derive-gadt",
@@ -1577,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "buildUMap",
           "normalized": "[(Type,Type)]-\u003e((UnifyMap,UnifyMap),[(Type,Type)])",
@@ -1592,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "checkForDups",
           "package": "derive-gadt",
@@ -1601,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "checkForDups",
           "normalized": "Map Name([Name],[Name])-\u003eEither String(Map Name(Name,Name))",
@@ -1616,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "closeT",
           "package": "derive-gadt",
@@ -1625,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "closeT",
           "normalized": "Type-\u003eType",
@@ -1639,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "evalS",
           "package": "derive-gadt",
@@ -1648,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "evalS",
           "normalized": "S a b-\u003ea-\u003eb",
@@ -1662,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "execS",
           "package": "derive-gadt",
@@ -1671,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "execS",
           "normalized": "S a b-\u003ea-\u003ea",
@@ -1685,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "extractSubsts",
           "package": "derive-gadt",
@@ -1694,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "extractSubsts",
           "normalized": "UnifyEnv-\u003eEither String(Substs,Substs)",
@@ -1709,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "firstNameMap",
           "package": "derive-gadt",
@@ -1718,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "firstNameMap",
           "normalized": "Map Name[Name]-\u003e[(Name,Type)]",
@@ -1733,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "foldl'T",
           "package": "derive-gadt",
@@ -1742,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "foldl'T",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eT b-\u003ea",
@@ -1756,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "foldlT",
           "package": "derive-gadt",
@@ -1765,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "foldlT",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eT b-\u003ea",
@@ -1779,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "foldrT",
           "package": "derive-gadt",
@@ -1788,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "foldrT",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eT a-\u003eb",
@@ -1802,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "fromListT",
           "package": "derive-gadt",
@@ -1811,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "fromListT",
           "normalized": "[a]-\u003e[T a]",
@@ -1826,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "ftvs",
           "package": "derive-gadt",
@@ -1835,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "ftvs",
           "normalized": "Type-\u003eSet Name",
@@ -1849,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "gensymQ",
           "package": "derive-gadt",
@@ -1858,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "gensymQ",
           "package": "derive-gadt",
@@ -1870,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "get",
           "package": "derive-gadt",
@@ -1879,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "get",
           "package": "derive-gadt",
@@ -1891,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "gets",
           "package": "derive-gadt",
@@ -1900,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "gets",
           "normalized": "(a-\u003eb)-\u003eS a b",
@@ -1914,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "idType",
           "package": "derive-gadt",
@@ -1923,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "idType",
           "normalized": "Type-\u003eType",
@@ -1938,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "initSubstEnv",
           "package": "derive-gadt",
@@ -1947,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "initSubstEnv",
           "normalized": "[(Name,Type)]-\u003eSubstEnv",
@@ -1962,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "invertSubstMap",
           "package": "derive-gadt",
@@ -1971,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "invertSubstMap",
           "normalized": "SubstMap-\u003eSubstMap",
@@ -1986,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "invertSubsts",
           "package": "derive-gadt",
@@ -1995,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "invertSubsts",
           "normalized": "SubstMap-\u003eSubstMap-\u003eMap Name([Name],[Name])",
@@ -2010,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "isInf",
           "package": "derive-gadt",
@@ -2019,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "isInf",
           "normalized": "Name-\u003eType-\u003eBool",
@@ -2034,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "listCon",
           "package": "derive-gadt",
@@ -2043,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "listCon",
           "package": "derive-gadt",
@@ -2056,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "listName",
           "package": "derive-gadt",
@@ -2065,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "listName",
           "package": "derive-gadt",
@@ -2078,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "listT",
           "package": "derive-gadt",
@@ -2087,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "listT",
           "normalized": "Type-\u003eType",
@@ -2101,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "localM",
           "package": "derive-gadt",
@@ -2110,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "localM",
           "normalized": "SubstM a-\u003eSubstM a",
@@ -2124,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "match",
           "package": "derive-gadt",
@@ -2133,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "match",
           "normalized": "ViaT a b c-\u003eViaT d e f-\u003e(c-\u003ef-\u003eg)-\u003ea-\u003ed-\u003e[g]",
@@ -2147,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "matchT",
           "package": "derive-gadt",
@@ -2156,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "matchT",
           "normalized": "(a-\u003eT b)-\u003e(c-\u003eT d)-\u003e(T b-\u003ee)-\u003e(T d-\u003ef)-\u003e(e-\u003ef-\u003eg)-\u003ea-\u003ec-\u003eT g",
@@ -2170,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "matchTypes",
           "package": "derive-gadt",
@@ -2179,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "matchTypes",
           "normalized": "Type-\u003eType-\u003e[(Type,Type)]",
@@ -2194,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "mkName",
           "package": "derive-gadt",
@@ -2203,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "mkName",
           "normalized": "String-\u003eName",
@@ -2218,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "mkNameG",
           "package": "derive-gadt",
@@ -2227,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "mkNameG",
           "normalized": "String-\u003eName",
@@ -2242,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "mkNameL",
           "package": "derive-gadt",
@@ -2251,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "mkNameL",
           "normalized": "String-\u003eName",
@@ -2266,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "mkNameU",
           "package": "derive-gadt",
@@ -2275,6 +2470,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "mkNameU",
           "normalized": "String-\u003eInt-\u003eName",
@@ -2290,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "modify",
           "package": "derive-gadt",
@@ -2299,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eS a()",
@@ -2313,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "newName",
           "package": "derive-gadt",
@@ -2322,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "newName",
           "normalized": "String-\u003eQ Name",
@@ -2337,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "newUniq",
           "package": "derive-gadt",
@@ -2346,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "newUniq",
           "package": "derive-gadt",
@@ -2359,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "noDupsMapToFinalSubsts",
           "package": "derive-gadt",
@@ -2368,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "noDupsMapToFinalSubsts",
           "normalized": "Map Name(Name,Name)-\u003eEither String(Map Name Name)",
@@ -2383,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "openT",
           "package": "derive-gadt",
@@ -2392,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "openT",
           "normalized": "Type-\u003eType",
@@ -2406,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "orT",
           "package": "derive-gadt",
@@ -2415,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "orT",
           "normalized": "T Bool-\u003eBool",
@@ -2429,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "pprName",
           "package": "derive-gadt",
@@ -2438,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "pprName",
           "normalized": "Name-\u003eDoc",
@@ -2453,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "pprParenType",
           "package": "derive-gadt",
@@ -2462,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "pprParenType",
           "normalized": "Type-\u003eDoc",
@@ -2477,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "pprType",
           "package": "derive-gadt",
@@ -2486,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "pprType",
           "normalized": "Type-\u003eDoc",
@@ -2501,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "prodT",
           "package": "derive-gadt",
@@ -2510,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "prodT",
           "normalized": "T a-\u003ea",
@@ -2524,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "renameT",
           "package": "derive-gadt",
@@ -2533,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "renameT",
           "normalized": "Type-\u003eType",
@@ -2547,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "reset",
           "package": "derive-gadt",
@@ -2556,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "reset",
           "normalized": "IORef Int-\u003eQ()",
@@ -2570,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "resetQ",
           "package": "derive-gadt",
@@ -2579,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "resetQ",
           "normalized": "Q()",
@@ -2593,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "runIO",
           "package": "derive-gadt",
@@ -2602,6 +2825,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "runIO",
           "normalized": "IO a-\u003eQ a",
@@ -2617,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "runQ",
           "package": "derive-gadt",
@@ -2626,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "runQ",
           "normalized": "Q a-\u003eIO a",
@@ -2640,6 +2866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "runS",
           "package": "derive-gadt",
@@ -2649,6 +2876,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "runS",
           "normalized": "S a b-\u003ea-\u003e(b,a)",
@@ -2663,6 +2891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "runSubstM",
           "package": "derive-gadt",
@@ -2672,6 +2901,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "runSubstM",
           "normalized": "SubstM a-\u003eSubstEnv-\u003ea",
@@ -2687,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "set",
           "package": "derive-gadt",
@@ -2696,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "set",
           "normalized": "a-\u003eS a()",
@@ -2710,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "splitSubsts",
           "package": "derive-gadt",
@@ -2719,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "splitSubsts",
           "normalized": "[(Type,Type)]-\u003eQ UnifyEnv",
@@ -2734,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "substM",
           "package": "derive-gadt",
@@ -2743,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "substM",
           "normalized": "Name-\u003eSubstM Type",
@@ -2757,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "substT",
           "package": "derive-gadt",
@@ -2766,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "substT",
           "normalized": "[(Name,Type)]-\u003eType-\u003eType",
@@ -2780,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "sumT",
           "package": "derive-gadt",
@@ -2789,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "sumT",
           "normalized": "T a-\u003ea",
@@ -2803,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "testType0",
           "package": "derive-gadt",
@@ -2812,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "testType0",
           "package": "derive-gadt",
@@ -2825,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "testType1",
           "package": "derive-gadt",
@@ -2834,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "testType1",
           "package": "derive-gadt",
@@ -2847,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "testType2",
           "package": "derive-gadt",
@@ -2856,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "testType2",
           "package": "derive-gadt",
@@ -2869,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "tick",
           "package": "derive-gadt",
@@ -2878,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "tick",
           "normalized": "IORef Int-\u003eQ Int",
@@ -2892,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "toListT",
           "package": "derive-gadt",
@@ -2901,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "toListT",
           "normalized": "T a-\u003e[a]",
@@ -2916,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "toTreeT",
           "package": "derive-gadt",
@@ -2925,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "toTreeT",
           "normalized": "(Maybe a-\u003eb)-\u003eT a-\u003eTree b",
@@ -2940,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "tupCon",
           "package": "derive-gadt",
@@ -2949,6 +3202,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "tupCon",
           "normalized": "Int-\u003eType",
@@ -2964,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "tupName",
           "package": "derive-gadt",
@@ -2973,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "tupName",
           "normalized": "Int-\u003eName",
@@ -2988,6 +3244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "tupT",
           "package": "derive-gadt",
@@ -2997,6 +3254,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "tupT",
           "normalized": "[Type]-\u003eType",
@@ -3011,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "typeFromT",
           "package": "derive-gadt",
@@ -3020,6 +3279,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "typeFromT",
           "normalized": "T Type-\u003eType",
@@ -3035,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "typeToT",
           "package": "derive-gadt",
@@ -3044,6 +3305,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "typeToT",
           "normalized": "Type-\u003eT Type",
@@ -3059,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "typeViaT",
           "package": "derive-gadt",
@@ -3068,6 +3331,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "typeViaT",
           "package": "derive-gadt",
@@ -3081,6 +3345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "unQ",
           "package": "derive-gadt",
@@ -3090,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "unQ",
           "normalized": "Q a-\u003ea",
@@ -3105,6 +3371,7 @@
       "document": {
         "description": {
           "description": ".\n",
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "unify",
           "package": "derive-gadt",
@@ -3114,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "unify",
           "normalized": "Type-\u003eType-\u003eQ(Either String(Substs,Substs))",
@@ -3128,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "unifyT",
           "package": "derive-gadt",
@@ -3137,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "unifyT",
           "normalized": "(Either a(T a)-\u003eb)-\u003e(Either c(T c)-\u003ed)-\u003e(b-\u003ed-\u003ee)-\u003eT a-\u003eT c-\u003eT e",
@@ -3151,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "unwindAppT",
           "package": "derive-gadt",
@@ -3160,6 +3431,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "unwindAppT",
           "normalized": "Type-\u003e(Type,[Type])",
@@ -3175,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "unwindFunT",
           "package": "derive-gadt",
@@ -3184,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "unwindFunT",
           "normalized": "Type-\u003e(Type,[Type])",
@@ -3199,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "varOnLeft",
           "package": "derive-gadt",
@@ -3208,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "varOnLeft",
           "normalized": "(Type,Type)-\u003eBool",
@@ -3223,6 +3499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "varOnRight",
           "package": "derive-gadt",
@@ -3232,6 +3509,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "varOnRight",
           "normalized": "(Type,Type)-\u003eBool",
@@ -3247,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "varT",
           "package": "derive-gadt",
@@ -3256,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "varT",
           "normalized": "String-\u003eType",
@@ -3270,6 +3550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "zipT",
           "package": "derive-gadt",
@@ -3279,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "zipT",
           "normalized": "(T a-\u003eT b-\u003ec)-\u003eT a-\u003eT b-\u003eT c",
@@ -3293,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:25 UTC 2014",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "|.|",
           "package": "derive-gadt",
@@ -3302,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Derive Gadt Unify",
+          "indexed": "2014-03-11T17:53:25",
           "module": "Language.Haskell.Derive.Gadt.Unify",
           "name": "|.|",
           "normalized": "Map a b-\u003eMap c a-\u003eMap c b",

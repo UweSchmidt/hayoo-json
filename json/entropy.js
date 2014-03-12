@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "entropy"
+        "phrase": "entropy",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eObtain entropy from system sources.\n Currently, windows and *nix systems with a \u003ccode\u003e\u003cem\u003edev\u003c/em\u003eurandom\u003c/code\u003e are supported.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:36 UTC 2014",
           "module": "System.Entropy",
           "name": "Entropy",
           "package": "entropy",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Obtain entropy from system sources Currently windows and nix systems with dev urandom are supported",
           "hierarchy": "System Entropy",
+          "indexed": "2014-03-11T18:02:36",
           "module": "System.Entropy",
           "name": "Entropy",
           "package": "entropy",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle for manual resource mangement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:36 UTC 2014",
           "module": "System.Entropy",
           "name": "CryptHandle",
           "package": "entropy",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Handle for manual resource mangement",
           "hierarchy": "System Entropy",
+          "indexed": "2014-03-11T18:02:36",
           "module": "System.Entropy",
           "name": "CryptHandle",
           "package": "entropy",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the \u003ccode\u003e\u003ca\u003eCryptHandle\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:36 UTC 2014",
           "module": "System.Entropy",
           "name": "closeHandle",
           "package": "entropy",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Close the CryptHandle",
           "hierarchy": "System Entropy",
+          "indexed": "2014-03-11T18:02:36",
           "module": "System.Entropy",
           "name": "closeHandle",
           "normalized": "CryptHandle-\u003eIO()",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInefficiently get a specific number of bytes of cryptographically\n secure random data using the system-specific facilities.\n\u003c/p\u003e\u003cp\u003eUse '/dev/urandom' on *nix and CryptAPI when on Windows.  In short,\n this entropy is considered \u003ca\u003ecryptographically secure\u003c/a\u003e but not true\n entropy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:36 UTC 2014",
           "module": "System.Entropy",
           "name": "getEntropy",
           "package": "entropy",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Inefficiently get specific number of bytes of cryptographically secure random data using the system-specific facilities Use dev urandom on nix and CryptAPI when on Windows In short this entropy is considered cryptographically secure but not true entropy",
           "hierarchy": "System Entropy",
+          "indexed": "2014-03-11T18:02:36",
           "module": "System.Entropy",
           "name": "getEntropy",
           "normalized": "Int-\u003eIO ByteString",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead random data from a \u003ccode\u003e\u003ca\u003eCryptHandle\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:36 UTC 2014",
           "module": "System.Entropy",
           "name": "hGetEntropy",
           "package": "entropy",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Read random data from CryptHandle",
           "hierarchy": "System Entropy",
+          "indexed": "2014-03-11T18:02:36",
           "module": "System.Entropy",
           "name": "hGetEntropy",
           "normalized": "CryptHandle-\u003eInt-\u003eIO ByteString",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a \u003ccode\u003e\u003ca\u003eCryptHandle\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:36 UTC 2014",
           "module": "System.Entropy",
           "name": "openHandle",
           "package": "entropy",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Open CryptHandle",
           "hierarchy": "System Entropy",
+          "indexed": "2014-03-11T18:02:36",
           "module": "System.Entropy",
           "name": "openHandle",
           "package": "entropy",

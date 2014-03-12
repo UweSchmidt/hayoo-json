@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "moe"
+        "phrase": "moe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "Attribute",
           "package": "moe",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "Attribute",
           "package": "moe",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "_class",
           "package": "moe",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "_class",
           "normalized": "String-\u003eAttribute",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "_data",
           "package": "moe",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "_data",
           "normalized": "String-\u003eAttribute",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "_span",
           "package": "moe",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "_span",
           "normalized": "String-\u003eAttribute",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "_style",
           "package": "moe",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "_style",
           "normalized": "String-\u003eAttribute",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "_title",
           "package": "moe",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "_title",
           "normalized": "String-\u003eAttribute",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "_type",
           "package": "moe",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "_type",
           "normalized": "String-\u003eAttribute",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "action",
           "package": "moe",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "action",
           "normalized": "String-\u003eAttribute",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "align",
           "package": "moe",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "align",
           "normalized": "String-\u003eAttribute",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "alt",
           "package": "moe",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "alt",
           "normalized": "String-\u003eAttribute",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "attr",
           "package": "moe",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "attr",
           "normalized": "String-\u003eString-\u003eAttribute",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "bgcolor",
           "package": "moe",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "bgcolor",
           "normalized": "String-\u003eAttribute",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "border",
           "package": "moe",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "border",
           "normalized": "String-\u003eAttribute",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "classid",
           "package": "moe",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "classid",
           "normalized": "String-\u003eAttribute",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "cols",
           "package": "moe",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "cols",
           "normalized": "String-\u003eAttribute",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "colspan",
           "package": "moe",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "colspan",
           "normalized": "String-\u003eAttribute",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "content",
           "package": "moe",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "content",
           "normalized": "String-\u003eAttribute",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "height",
           "package": "moe",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "height",
           "normalized": "String-\u003eAttribute",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "href",
           "package": "moe",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "href",
           "normalized": "String-\u003eAttribute",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "http_equiv",
           "package": "moe",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "http_equiv",
           "normalized": "String-\u003eAttribute",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "id",
           "package": "moe",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "id",
           "normalized": "String-\u003eAttribute",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "lang",
           "package": "moe",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "lang",
           "normalized": "String-\u003eAttribute",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "language",
           "package": "moe",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "language",
           "normalized": "String-\u003eAttribute",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "media",
           "package": "moe",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "media",
           "normalized": "String-\u003eAttribute",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "method",
           "package": "moe",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "method",
           "normalized": "String-\u003eAttribute",
@@ -591,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "name",
           "package": "moe",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "name",
           "normalized": "String-\u003eAttribute",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "quality",
           "package": "moe",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "quality",
           "normalized": "String-\u003eAttribute",
@@ -637,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "rel",
           "package": "moe",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "rel",
           "normalized": "String-\u003eAttribute",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "rows",
           "package": "moe",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "rows",
           "normalized": "String-\u003eAttribute",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "rowspan",
           "package": "moe",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "rowspan",
           "normalized": "String-\u003eAttribute",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "selected",
           "package": "moe",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "selected",
           "normalized": "String-\u003eAttribute",
@@ -729,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "size",
           "package": "moe",
@@ -738,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "size",
           "normalized": "String-\u003eAttribute",
@@ -752,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "src",
           "package": "moe",
@@ -761,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "src",
           "normalized": "String-\u003eAttribute",
@@ -775,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "target",
           "package": "moe",
@@ -784,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "target",
           "normalized": "String-\u003eAttribute",
@@ -798,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "valign",
           "package": "moe",
@@ -807,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "valign",
           "normalized": "String-\u003eAttribute",
@@ -821,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "value",
           "package": "moe",
@@ -830,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "value",
           "normalized": "String-\u003eAttribute",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "width",
           "package": "moe",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "width",
           "normalized": "String-\u003eAttribute",
@@ -867,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "xml_lang",
           "package": "moe",
@@ -876,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "xml_lang",
           "normalized": "String-\u003eAttribute",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "xmlns",
           "package": "moe",
@@ -899,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Attribute",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Attribute",
           "name": "xmlns",
           "normalized": "String-\u003eAttribute",
@@ -913,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "ByteString",
           "package": "moe",
@@ -921,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Backend ByteString",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "ByteString",
           "package": "moe",
@@ -934,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "Internal",
           "package": "moe",
@@ -942,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Backend ByteString",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "Internal",
           "package": "moe",
@@ -955,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "append",
           "package": "moe",
@@ -964,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Backend ByteString",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "append",
           "normalized": "Internal-\u003eInternal-\u003eInternal",
@@ -978,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "concat",
           "package": "moe",
@@ -987,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Backend ByteString",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "concat",
           "normalized": "[Internal]-\u003eInternal",
@@ -1001,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "intercalate",
           "package": "moe",
@@ -1010,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Backend ByteString",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "intercalate",
           "normalized": "Internal-\u003e[Internal]-\u003eInternal",
@@ -1024,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "none",
           "package": "moe",
@@ -1033,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Backend ByteString",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "none",
           "package": "moe",
@@ -1045,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "pack",
           "package": "moe",
@@ -1054,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Backend ByteString",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "pack",
           "normalized": "String-\u003eInternal",
@@ -1068,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "to_bs",
           "package": "moe",
@@ -1077,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Backend ByteString",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "to_bs",
           "normalized": "Internal-\u003eByteString",
@@ -1091,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "unpack",
           "package": "moe",
@@ -1100,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Backend ByteString",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Backend.ByteString",
           "name": "unpack",
           "normalized": "Internal-\u003eString",
@@ -1114,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "HTML",
           "package": "moe",
@@ -1122,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "HTML",
           "package": "moe",
@@ -1135,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "a",
           "package": "moe",
@@ -1144,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "a",
           "package": "moe",
@@ -1156,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "blockquote",
           "package": "moe",
@@ -1165,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "blockquote",
           "package": "moe",
@@ -1177,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "body",
           "package": "moe",
@@ -1186,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "body",
           "package": "moe",
@@ -1198,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "br",
           "package": "moe",
@@ -1207,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "br",
           "package": "moe",
@@ -1219,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "code",
           "package": "moe",
@@ -1228,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "code",
           "package": "moe",
@@ -1240,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "col",
           "package": "moe",
@@ -1249,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "col",
           "package": "moe",
@@ -1261,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "colgroup",
           "package": "moe",
@@ -1270,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "colgroup",
           "package": "moe",
@@ -1282,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "dd",
           "package": "moe",
@@ -1291,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "dd",
           "package": "moe",
@@ -1303,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "div",
           "package": "moe",
@@ -1312,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "div",
           "package": "moe",
@@ -1324,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "dl",
           "package": "moe",
@@ -1333,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "dl",
           "package": "moe",
@@ -1345,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "dt",
           "package": "moe",
@@ -1354,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "dt",
           "package": "moe",
@@ -1366,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "em",
           "package": "moe",
@@ -1375,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "em",
           "package": "moe",
@@ -1387,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "embed",
           "package": "moe",
@@ -1396,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "embed",
           "package": "moe",
@@ -1408,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "form",
           "package": "moe",
@@ -1417,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "form",
           "package": "moe",
@@ -1429,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "h1",
           "package": "moe",
@@ -1438,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "h1",
           "package": "moe",
@@ -1450,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "h2",
           "package": "moe",
@@ -1459,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "h2",
           "package": "moe",
@@ -1471,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "h3",
           "package": "moe",
@@ -1480,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "h3",
           "package": "moe",
@@ -1492,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "h4",
           "package": "moe",
@@ -1501,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "h4",
           "package": "moe",
@@ -1513,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "h5",
           "package": "moe",
@@ -1522,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "h5",
           "package": "moe",
@@ -1534,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "h6",
           "package": "moe",
@@ -1543,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "h6",
           "package": "moe",
@@ -1555,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "head",
           "package": "moe",
@@ -1564,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "head",
           "package": "moe",
@@ -1576,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "hr",
           "package": "moe",
@@ -1585,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "hr",
           "package": "moe",
@@ -1597,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "html",
           "package": "moe",
@@ -1606,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "html",
           "package": "moe",
@@ -1618,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "img",
           "package": "moe",
@@ -1627,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "img",
           "package": "moe",
@@ -1639,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "input",
           "package": "moe",
@@ -1648,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "input",
           "package": "moe",
@@ -1660,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "label",
           "package": "moe",
@@ -1669,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "label",
           "package": "moe",
@@ -1681,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "li",
           "package": "moe",
@@ -1690,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "li",
           "package": "moe",
@@ -1702,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "link",
           "package": "moe",
@@ -1711,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "link",
           "package": "moe",
@@ -1723,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "meta",
           "package": "moe",
@@ -1732,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "meta",
           "package": "moe",
@@ -1744,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "object",
           "package": "moe",
@@ -1753,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "object",
           "package": "moe",
@@ -1765,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "ol",
           "package": "moe",
@@ -1774,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "ol",
           "package": "moe",
@@ -1786,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "option",
           "package": "moe",
@@ -1795,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "option",
           "package": "moe",
@@ -1807,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "p",
           "package": "moe",
@@ -1816,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "p",
           "package": "moe",
@@ -1828,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "param",
           "package": "moe",
@@ -1837,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "param",
           "package": "moe",
@@ -1849,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "pre",
           "package": "moe",
@@ -1858,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "pre",
           "package": "moe",
@@ -1870,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "script",
           "package": "moe",
@@ -1879,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "script",
           "package": "moe",
@@ -1891,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "select",
           "package": "moe",
@@ -1900,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "select",
           "package": "moe",
@@ -1912,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "span",
           "package": "moe",
@@ -1921,6 +2094,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "span",
           "package": "moe",
@@ -1933,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "strong",
           "package": "moe",
@@ -1942,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "strong",
           "package": "moe",
@@ -1954,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "style",
           "package": "moe",
@@ -1963,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "style",
           "package": "moe",
@@ -1975,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "table",
           "package": "moe",
@@ -1984,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "table",
           "package": "moe",
@@ -1996,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "td",
           "package": "moe",
@@ -2005,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "td",
           "package": "moe",
@@ -2017,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "textarea",
           "package": "moe",
@@ -2026,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "textarea",
           "package": "moe",
@@ -2038,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "th",
           "package": "moe",
@@ -2047,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "th",
           "package": "moe",
@@ -2059,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "title",
           "package": "moe",
@@ -2068,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "title",
           "package": "moe",
@@ -2080,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "tr",
           "package": "moe",
@@ -2089,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "tr",
           "package": "moe",
@@ -2101,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "ul",
           "package": "moe",
@@ -2110,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML",
           "name": "ul",
           "package": "moe",
@@ -2122,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "HTML5",
           "package": "moe",
@@ -2130,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "HTML5",
           "package": "moe",
@@ -2143,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "article",
           "package": "moe",
@@ -2152,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "article",
           "package": "moe",
@@ -2164,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "aside",
           "package": "moe",
@@ -2173,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "aside",
           "package": "moe",
@@ -2185,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "audio",
           "package": "moe",
@@ -2194,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "audio",
           "package": "moe",
@@ -2206,6 +2406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "canvas",
           "package": "moe",
@@ -2215,6 +2416,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "canvas",
           "package": "moe",
@@ -2227,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "command",
           "package": "moe",
@@ -2236,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "command",
           "package": "moe",
@@ -2248,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "datagrid",
           "package": "moe",
@@ -2257,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "datagrid",
           "package": "moe",
@@ -2269,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "datalist",
           "package": "moe",
@@ -2278,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "datalist",
           "package": "moe",
@@ -2290,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "datatemplate",
           "package": "moe",
@@ -2299,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "datatemplate",
           "package": "moe",
@@ -2311,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "details",
           "package": "moe",
@@ -2320,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "details",
           "package": "moe",
@@ -2332,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "dialog",
           "package": "moe",
@@ -2341,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "dialog",
           "package": "moe",
@@ -2353,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "event_source",
           "package": "moe",
@@ -2362,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "event_source",
           "package": "moe",
@@ -2374,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "figure",
           "package": "moe",
@@ -2383,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "figure",
           "package": "moe",
@@ -2395,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "footer",
           "package": "moe",
@@ -2404,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "footer",
           "package": "moe",
@@ -2416,6 +2636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "header",
           "package": "moe",
@@ -2425,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "header",
           "package": "moe",
@@ -2437,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "mark",
           "package": "moe",
@@ -2446,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "mark",
           "package": "moe",
@@ -2458,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "meter",
           "package": "moe",
@@ -2467,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "meter",
           "package": "moe",
@@ -2479,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "nav",
           "package": "moe",
@@ -2488,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "nav",
           "package": "moe",
@@ -2500,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "nest",
           "package": "moe",
@@ -2509,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "nest",
           "package": "moe",
@@ -2521,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "output",
           "package": "moe",
@@ -2530,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "output",
           "package": "moe",
@@ -2542,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "progress",
           "package": "moe",
@@ -2551,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "progress",
           "package": "moe",
@@ -2563,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "rule",
           "package": "moe",
@@ -2572,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "rule",
           "package": "moe",
@@ -2584,6 +2820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "section",
           "package": "moe",
@@ -2593,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "section",
           "package": "moe",
@@ -2605,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "source",
           "package": "moe",
@@ -2614,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "source",
           "package": "moe",
@@ -2626,6 +2866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "time",
           "package": "moe",
@@ -2635,6 +2876,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "time",
           "package": "moe",
@@ -2647,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "video",
           "package": "moe",
@@ -2656,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL HTML5",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.HTML5",
           "name": "video",
           "package": "moe",
@@ -2668,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Kawaii",
           "name": "Kawaii",
           "package": "moe",
@@ -2676,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Kawaii",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Kawaii",
           "name": "Kawaii",
           "package": "moe",
@@ -2689,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Kawaii",
           "name": "(~\u003e)",
           "package": "moe",
@@ -2698,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Kawaii",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Kawaii",
           "name": "(~\u003e) ~\u003e",
           "normalized": "String-\u003eString-\u003eMoeUnit",
@@ -2712,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Kawaii",
           "name": "c",
           "package": "moe",
@@ -2721,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Kawaii",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Kawaii",
           "name": "c",
           "normalized": "String-\u003eMoeUnit-\u003eMoeUnit",
@@ -2735,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Kawaii",
           "name": "css",
           "package": "moe",
@@ -2744,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Kawaii",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Kawaii",
           "name": "css",
           "normalized": "String-\u003eMoeUnit",
@@ -2758,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Kawaii",
           "name": "js",
           "package": "moe",
@@ -2767,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Kawaii",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Kawaii",
           "name": "js",
           "normalized": "String-\u003eMoeUnit",
@@ -2781,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "Markdown",
           "package": "moe",
@@ -2789,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "Markdown",
           "package": "moe",
@@ -2826,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(#)",
           "package": "moe",
@@ -2835,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(#) #",
           "normalized": "String-\u003eMoeUnit",
@@ -2849,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(##)",
           "package": "moe",
@@ -2858,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(##) ##",
           "normalized": "String-\u003eMoeUnit",
@@ -2872,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(###)",
           "package": "moe",
@@ -2881,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(###) ###",
           "normalized": "String-\u003eMoeUnit",
@@ -2895,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(####)",
           "package": "moe",
@@ -2904,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(####) ####",
           "normalized": "String-\u003eMoeUnit",
@@ -2918,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(#####)",
           "package": "moe",
@@ -2927,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(#####) #####",
           "normalized": "String-\u003eMoeUnit",
@@ -2941,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(######)",
           "package": "moe",
@@ -2950,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(######) ######",
           "normalized": "String-\u003eMoeUnit",
@@ -2964,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(*)",
           "package": "moe",
@@ -2973,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(*) *",
           "normalized": "String-\u003eMoeUnit",
@@ -2987,6 +3257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(***)",
           "package": "moe",
@@ -2996,6 +3267,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(***) ***",
           "package": "moe",
@@ -3008,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(\u003c\u003e)",
           "package": "moe",
@@ -3017,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "String-\u003eString-\u003eMoeUnit",
@@ -3031,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(\u003e\u003e)",
           "package": "moe",
@@ -3040,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "(\u003e\u003e) \u003e\u003e",
           "normalized": "String-\u003eMoeUnit",
@@ -3054,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "block",
           "package": "moe",
@@ -3063,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "block",
           "normalized": "String-\u003eMoeUnit",
@@ -3077,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "o",
           "package": "moe",
@@ -3086,6 +3365,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 DSL Markdown",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.DSL.Markdown",
           "name": "o",
           "normalized": "String-\u003eMoeUnit",
@@ -3100,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "Element",
           "package": "moe",
@@ -3108,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "Element",
           "package": "moe",
@@ -3121,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "_pre",
           "package": "moe",
@@ -3130,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "_pre",
           "normalized": "String-\u003eMoeUnit",
@@ -3144,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "add_attributes",
           "package": "moe",
@@ -3153,6 +3438,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "add_attributes",
           "normalized": "(MoeUnit-\u003eMoeUnit)-\u003e[Attribute]-\u003eMoeUnit-\u003eMoeUnit",
@@ -3167,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "e",
           "package": "moe",
@@ -3176,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "e",
           "normalized": "String-\u003eMoeCombinator",
@@ -3190,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "element",
           "package": "moe",
@@ -3199,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "element",
           "normalized": "String-\u003eMoeCombinator",
@@ -3213,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "escape_no_indent_str",
           "package": "moe",
@@ -3222,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "escape_no_indent_str",
           "normalized": "String-\u003eMoeUnit",
@@ -3236,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "ne",
           "package": "moe",
@@ -3245,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "ne",
           "normalized": "String-\u003eMoeCombinator",
@@ -3259,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "no_escape_indent_str",
           "package": "moe",
@@ -3268,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "no_escape_indent_str",
           "normalized": "String-\u003eMoeUnit",
@@ -3282,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "no_escape_no_indent_str",
           "package": "moe",
@@ -3291,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "no_escape_no_indent_str",
           "normalized": "String-\u003eMoeUnit",
@@ -3305,6 +3603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "no_indent_element",
           "package": "moe",
@@ -3314,6 +3613,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "no_indent_element",
           "normalized": "String-\u003eMoeCombinator",
@@ -3328,6 +3628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "prim",
           "package": "moe",
@@ -3337,6 +3638,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "prim",
           "normalized": "String-\u003eMoeUnit",
@@ -3351,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "prim_bytestring",
           "package": "moe",
@@ -3360,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "prim_bytestring",
           "normalized": "Internal-\u003ea()",
@@ -3374,6 +3678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "raw",
           "package": "moe",
@@ -3383,6 +3688,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "raw",
           "normalized": "String-\u003eMoeUnit",
@@ -3397,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "raw_bytestring",
           "package": "moe",
@@ -3406,6 +3713,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "raw_bytestring",
           "normalized": "Internal-\u003ea()",
@@ -3420,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "sc",
           "package": "moe",
@@ -3429,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "sc",
           "normalized": "String-\u003eLightCombinator",
@@ -3443,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "self_close_element",
           "package": "moe",
@@ -3452,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "self_close_element",
           "normalized": "String-\u003eLightCombinator",
@@ -3466,6 +3778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Element",
           "name": "str",
           "package": "moe",
@@ -3475,6 +3788,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Element",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Element",
           "name": "str",
           "normalized": "String-\u003eMoeUnit",
@@ -3489,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Renderer",
           "name": "Renderer",
           "package": "moe",
@@ -3497,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Renderer",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Renderer",
           "name": "Renderer",
           "package": "moe",
@@ -3510,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Renderer",
           "name": "render",
           "package": "moe",
@@ -3519,6 +3836,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Renderer",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Renderer",
           "name": "render",
           "normalized": "MoeUnit-\u003eString",
@@ -3533,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Renderer",
           "name": "render_bytestring",
           "package": "moe",
@@ -3542,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Renderer",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Renderer",
           "name": "render_bytestring",
           "normalized": "MoeUnit-\u003eByteString",
@@ -3556,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "Type",
           "package": "moe",
@@ -3564,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "Type",
           "package": "moe",
@@ -3577,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "Attribute",
           "package": "moe",
@@ -3585,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "Attribute",
           "package": "moe",
@@ -3598,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "Element",
           "package": "moe",
@@ -3606,6 +3931,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "Element",
           "package": "moe",
@@ -3619,6 +3945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "LightCombinator",
           "package": "moe",
@@ -3627,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "LightCombinator",
           "package": "moe",
@@ -3640,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "MoeCombinator",
           "package": "moe",
@@ -3648,6 +3977,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "MoeCombinator",
           "package": "moe",
@@ -3661,6 +3991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "MoeUnit",
           "package": "moe",
@@ -3669,6 +4000,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "MoeUnit",
           "package": "moe",
@@ -3682,6 +4014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "MoeUnitT",
           "package": "moe",
@@ -3690,6 +4023,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "MoeUnitT",
           "package": "moe",
@@ -3703,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "Attribute",
           "package": "moe",
@@ -3712,6 +4047,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "Attribute",
           "package": "moe",
@@ -3725,6 +4061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "Attributes",
           "package": "moe",
@@ -3734,6 +4071,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "Attributes",
           "normalized": "Attributes[Attribute]Element",
@@ -3749,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "Data",
           "package": "moe",
@@ -3758,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "Data",
           "package": "moe",
@@ -3771,6 +4111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "Element",
           "package": "moe",
@@ -3780,6 +4121,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "Element",
           "package": "moe",
@@ -3793,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "Pre",
           "package": "moe",
@@ -3802,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "Pre",
           "package": "moe",
@@ -3815,6 +4159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "Prim",
           "package": "moe",
@@ -3824,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "Prim",
           "package": "moe",
@@ -3837,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "Raw",
           "package": "moe",
@@ -3846,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "Raw",
           "package": "moe",
@@ -3859,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "attributes",
           "package": "moe",
@@ -3868,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "attributes",
           "normalized": "[Attribute]",
@@ -3882,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "elements",
           "package": "moe",
@@ -3891,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "elements",
           "normalized": "[Element]",
@@ -3905,6 +4257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "indent",
           "package": "moe",
@@ -3914,6 +4267,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "indent",
           "package": "moe",
@@ -3926,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "key",
           "package": "moe",
@@ -3935,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "key",
           "package": "moe",
@@ -3947,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "name",
           "package": "moe",
@@ -3956,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "name",
           "package": "moe",
@@ -3968,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "self_close",
           "package": "moe",
@@ -3977,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "self_close",
           "package": "moe",
@@ -3989,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Type",
           "name": "value",
           "package": "moe",
@@ -3998,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Type",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Type",
           "name": "value",
           "package": "moe",
@@ -4010,6 +4372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Utils",
           "name": "Utils",
           "package": "moe",
@@ -4018,6 +4381,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Utils",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Utils",
           "name": "Utils",
           "package": "moe",
@@ -4031,6 +4395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Utils",
           "name": "(/)",
           "package": "moe",
@@ -4040,6 +4405,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Utils",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Utils",
           "name": "(/) /",
           "normalized": "a()",
@@ -4054,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2.Utils",
           "name": "escape",
           "package": "moe",
@@ -4063,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2 Utils",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2.Utils",
           "name": "escape",
           "normalized": "String-\u003eString",
@@ -4077,6 +4445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:23 UTC 2014",
           "module": "Text.HTML.Moe2",
           "name": "Moe2",
           "package": "moe",
@@ -4085,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Moe2",
+          "indexed": "2014-03-11T19:19:23",
           "module": "Text.HTML.Moe2",
           "name": "Moe2",
           "package": "moe",

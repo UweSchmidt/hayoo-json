@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unicode-normalization"
+        "phrase": "unicode-normalization",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "The internal ICU boolean type.\n See unicode/umachine.h. Be aware that to Haskell, this is a numeric type and\n not a boolean.\n",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Base",
           "name": "UBool",
           "package": "unicode-normalization",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The internal ICU boolean type See unicode umachine.h Be aware that to Haskell this is numeric type and not boolean",
           "hierarchy": "Text Unicode Base",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Base",
           "name": "UBool",
           "package": "unicode-normalization",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "The ICU character type. A UChar is a 16-bit unit of a UTF-16 encoded string\n",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Base",
           "name": "UChar",
           "package": "unicode-normalization",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The ICU character type UChar is bit unit of UTF-16 encoded string",
           "hierarchy": "Text Unicode Base",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Base",
           "name": "UChar",
           "package": "unicode-normalization",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "The internal ICU error code type.\n",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Base",
           "name": "UErrorCode",
           "package": "unicode-normalization",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The internal ICU error code type",
           "hierarchy": "Text Unicode Base",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Base",
           "name": "UErrorCode",
           "package": "unicode-normalization",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Base",
           "name": "BitPackable",
           "package": "unicode-normalization",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text Unicode Base",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Base",
           "name": "BitPackable",
           "package": "unicode-normalization",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "Converts a C ordering (-1 means LT, 0 means EQ, 1 means GT) to a Haskell ordering.\n",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Base",
           "name": "cOrderingToOrdering",
           "package": "unicode-normalization",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Converts ordering means LT means EQ means GT to Haskell ordering",
           "hierarchy": "Text Unicode Base",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Base",
           "name": "cOrderingToOrdering",
           "normalized": "a-\u003eOrdering",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides simple (i.e. abort-if-anything-wrong) error handling for ICU\n functions.\n\u003c/p\u003e\u003cp\u003eTakes as an argument a function that writes an ICU error code to a certain \n memory address (like most ICU4C functions do). \n\u003c/p\u003e\u003cp\u003eThis function runs the given function, giving it a memory address to write the\n error code to. When the given function indicates an error, it aborts the\n program. Otherwise it just returns the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Base",
           "name": "handleError",
           "package": "unicode-normalization",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Provides simple i.e abort-if-anything-wrong error handling for ICU functions Takes as an argument function that writes an ICU error code to certain memory address like most ICU4C functions do This function runs the given function giving it memory address to write the error code to When the given function indicates an error it aborts the program Otherwise it just returns the result",
           "hierarchy": "Text Unicode Base",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Base",
           "name": "handleError",
           "normalized": "(Ptr UErrorCode-\u003eIO a)-\u003eIO a",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "Tells of a certain option what its C integer/enum value is.\n",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Base",
           "name": "intValue",
           "package": "unicode-normalization",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Tells of certain option what its integer enum value is",
           "hierarchy": "Text Unicode Base",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Base",
           "name": "intValue",
           "normalized": "a-\u003eInt",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "Takes a list of options and encodes it into a C integer.\n",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Base",
           "name": "packOptions",
           "package": "unicode-normalization",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Takes list of options and encodes it into integer",
           "hierarchy": "Text Unicode Base",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Base",
           "name": "packOptions",
           "normalized": "[a]-\u003eInt",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "Converts an ICU bool to a Haskell one, preserving truth or falsehood.\n",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Base",
           "name": "uBoolToBool",
           "package": "unicode-normalization",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Converts an ICU bool to Haskell one preserving truth or falsehood",
           "hierarchy": "Text Unicode Base",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Base",
           "name": "uBoolToBool",
           "normalized": "UBool-\u003eBool",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "Runs a raw ICU-type function on a CompactString encoded in UTF16.\n The ICU-type function has type \u003ca\u003ePtr UChar -\u003e Int32 -\u003e a\u003c/a\u003e. This function may\n not modify the memory under the Ptr UChar. The size of the Ptr UChar in 16-bit \n words is passed in as the Int32 argument. Accessing memory from Ptr UChar\n outside of that size also sends us off to lala land, of course.\n",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Base",
           "name": "withCompactString",
           "package": "unicode-normalization",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Runs raw ICU-type function on CompactString encoded in UTF16 The ICU-type function has type Ptr UChar Int32 This function may not modify the memory under the Ptr UChar The size of the Ptr UChar in bit words is passed in as the Int32 argument Accessing memory from Ptr UChar outside of that size also sends us off to lala land of course",
           "hierarchy": "Text Unicode Base",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Base",
           "name": "withCompactString",
           "normalized": "CompactString UTF Native-\u003e(Ptr UChar-\u003eInt-\u003eIO a)-\u003eIO a",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "Runs a function, expecting a 32-bit integer, with the given options\n     bit-packed into a 32-bit integer.\n",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Base",
           "name": "withPackedOptions",
           "package": "unicode-normalization",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Runs function expecting bit integer with the given options bit-packed into bit integer",
           "hierarchy": "Text Unicode Base",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Base",
           "name": "withPackedOptions",
           "normalized": "[a]-\u003e(Int-\u003eIO b)-\u003eIO b",
@@ -290,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Normalization",
           "name": "ComparisonOption",
           "package": "unicode-normalization",
@@ -298,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Text Unicode Normalization",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Normalization",
           "name": "ComparisonOption",
           "package": "unicode-normalization",
@@ -311,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Normalization",
           "name": "NormalizationCheckResult",
           "package": "unicode-normalization",
@@ -319,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Text Unicode Normalization",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Normalization",
           "name": "NormalizationCheckResult",
           "package": "unicode-normalization",
@@ -332,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Normalization",
           "name": "NormalizationMode",
           "package": "unicode-normalization",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Text Unicode Normalization",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Normalization",
           "name": "NormalizationMode",
           "package": "unicode-normalization",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Normalization",
           "name": "NormalizationOption",
           "package": "unicode-normalization",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Text Unicode Normalization",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Normalization",
           "name": "NormalizationOption",
           "package": "unicode-normalization",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompares two Unicode strings for canonical equivalence.\n\u003c/p\u003e\u003cp\u003eTwo Unicode strings are canonically equivalent when their NFD and NFC \n normalizations are equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Normalization",
           "name": "compare",
           "package": "unicode-normalization",
@@ -385,6 +416,7 @@
         "index": {
           "description": "Compares two Unicode strings for canonical equivalence Two Unicode strings are canonically equivalent when their NFD and NFC normalizations are equal",
           "hierarchy": "Text Unicode Normalization",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Normalization",
           "name": "compare",
           "normalized": "CompactString UTF Native-\u003eCompactString UTF Native-\u003e[ComparisonOption]-\u003eOrdering",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenates two normalized strings, such that the result is also normalized.\n\u003c/p\u003e\u003cp\u003eMore formally:\n   Given that string1 is normalized according to mode and options, and string2\n   is normalized according to mode and options, the result of concatenate\n   string1 string2 mode options will be a concatenation of string1 and string2\n   and be normalized according to mode and options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Normalization",
           "name": "concatenate",
           "package": "unicode-normalization",
@@ -410,6 +443,7 @@
         "index": {
           "description": "Concatenates two normalized strings such that the result is also normalized More formally Given that string1 is normalized according to mode and options and string2 is normalized according to mode and options the result of concatenate string1 string2 mode options will be concatenation of string1 and string2 and be normalized according to mode and options",
           "hierarchy": "Text Unicode Normalization",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Normalization",
           "name": "concatenate",
           "normalized": "CompactString UTF Native-\u003eCompactString UTF Native-\u003eNormalizationMode-\u003e[NormalizationOption]-\u003eCompactString UTF Native",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "Tells of a string whether it is already normalized according to a certain \n  mode and options\n",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Normalization",
           "name": "isNormalized",
           "package": "unicode-normalization",
@@ -435,6 +470,7 @@
         "index": {
           "description": "Tells of string whether it is already normalized according to certain mode and options",
           "hierarchy": "Text Unicode Normalization",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Normalization",
           "name": "isNormalized",
           "normalized": "CompactString UTF Native-\u003eNormalizationMode-\u003e[NormalizationOption]-\u003eBool",
@@ -451,6 +487,7 @@
       "document": {
         "description": {
           "description": "Internal function to convert a NormalizationMode to its C enum value\n",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Normalization",
           "name": "normalizationToCInt",
           "package": "unicode-normalization",
@@ -461,6 +498,7 @@
         "index": {
           "description": "Internal function to convert NormalizationMode to its enum value",
           "hierarchy": "Text Unicode Normalization",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Normalization",
           "name": "normalizationToCInt",
           "normalized": "NormalizationMode-\u003eCInt",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalizes the given string, according to the given normalization type and options.\n\u003c/p\u003e\u003cp\u003eThis function is a higher-level wrapper around raw_normalize.\n\u003c/p\u003e\u003cp\u003eMove this to something like Data.CompactString.Normalization, eventually.\n\u003c/p\u003e\u003cp\u003eGeneralize out the UErrorCode handling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Normalization",
           "name": "normalize",
           "package": "unicode-normalization",
@@ -487,6 +526,7 @@
         "index": {
           "description": "Normalizes the given string according to the given normalization type and options This function is higher-level wrapper around raw normalize Move this to something like Data.CompactString.Normalization eventually Generalize out the UErrorCode handling",
           "hierarchy": "Text Unicode Normalization",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Normalization",
           "name": "normalize",
           "normalized": "CompactString UTF Native-\u003eNormalizationMode-\u003e[NormalizationOption]-\u003eCompactString UTF Native",
@@ -502,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to check quickly whether a string is already normalized according to a certain \n  normalization mode.\n\u003c/p\u003e\u003cp\u003eWhen you get MaybeNormalized as a result, you should normalize the \n  string and compare it to the original to know if it is normalized. You can\n  make ICU do that by calling isNormalized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:46 UTC 2014",
           "module": "Text.Unicode.Normalization",
           "name": "quickCheck",
           "package": "unicode-normalization",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Attempts to check quickly whether string is already normalized according to certain normalization mode When you get MaybeNormalized as result you should normalize the string and compare it to the original to know if it is normalized You can make ICU do that by calling isNormalized",
           "hierarchy": "Text Unicode Normalization",
+          "indexed": "2014-03-11T20:29:46",
           "module": "Text.Unicode.Normalization",
           "name": "quickCheck",
           "normalized": "CompactString UTF Native-\u003eNormalizationMode-\u003e[NormalizationOption]-\u003eNormalizationCheckResult",

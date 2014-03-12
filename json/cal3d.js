@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cal3d"
+        "phrase": "cal3d",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "Create a core material thread.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "createCoreMaterialThread",
           "package": "cal3d",
@@ -29,6 +30,7 @@
         "index": {
           "description": "Create core material thread",
           "hierarchy": "Graphics Animation Cal3D CoreModel",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "createCoreMaterialThread",
           "normalized": "CoreModel-\u003eMaterialThreadId-\u003eIO(Either String())",
@@ -45,6 +47,7 @@
       "document": {
         "description": {
           "description": "Destroy a CoreModel\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "deleteCoreModel",
           "package": "cal3d",
@@ -55,6 +58,7 @@
         "index": {
           "description": "Destroy CoreModel",
           "hierarchy": "Graphics Animation Cal3D CoreModel",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "deleteCoreModel",
           "normalized": "CoreModel-\u003eIO()",
@@ -71,6 +75,7 @@
       "document": {
         "description": {
           "description": "Load a core animation from a file\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "loadCoreAnimation",
           "package": "cal3d",
@@ -81,6 +86,7 @@
         "index": {
           "description": "Load core animation from file",
           "hierarchy": "Graphics Animation Cal3D CoreModel",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "loadCoreAnimation",
           "package": "cal3d",
@@ -95,6 +101,7 @@
       "document": {
         "description": {
           "description": "Load a core material from a file\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "loadCoreMaterial",
           "package": "cal3d",
@@ -105,6 +112,7 @@
         "index": {
           "description": "Load core material from file",
           "hierarchy": "Graphics Animation Cal3D CoreModel",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "loadCoreMaterial",
           "package": "cal3d",
@@ -119,6 +127,7 @@
       "document": {
         "description": {
           "description": "Load a core mesh from a file\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "loadCoreMesh",
           "package": "cal3d",
@@ -129,6 +138,7 @@
         "index": {
           "description": "Load core mesh from file",
           "hierarchy": "Graphics Animation Cal3D CoreModel",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "loadCoreMesh",
           "package": "cal3d",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "Load a core skeleton from a file.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "loadCoreSkeleton",
           "package": "cal3d",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Load core skeleton from file",
           "hierarchy": "Graphics Animation Cal3D CoreModel",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "loadCoreSkeleton",
           "normalized": "CoreModel-\u003eFilePath-\u003eLoadResult()",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "name\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "newCoreModel",
           "package": "cal3d",
@@ -179,6 +192,7 @@
         "index": {
           "description": "name",
           "hierarchy": "Graphics Animation Cal3D CoreModel",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "newCoreModel",
           "normalized": "String-\u003eIO CoreModel",
@@ -195,6 +209,7 @@
       "document": {
         "description": {
           "description": "Apply the material identified by a material thread and material set.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "setCoreMaterialId",
           "package": "cal3d",
@@ -205,6 +220,7 @@
         "index": {
           "description": "Apply the material identified by material thread and material set",
           "hierarchy": "Graphics Animation Cal3D CoreModel",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.CoreModel",
           "name": "setCoreMaterialId",
           "normalized": "CoreModel-\u003eMaterialThreadId-\u003eMaterialSetId-\u003eMaterialId-\u003eIO(Either String())",
@@ -220,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Error",
           "name": "Fallible",
           "package": "cal3d",
@@ -228,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D Error",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Error",
           "name": "Fallible",
           "package": "cal3d",
@@ -241,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Error",
           "name": "IOFallible",
           "package": "cal3d",
@@ -249,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D Error",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Error",
           "name": "IOFallible",
           "package": "cal3d",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "action\nbad value\nerror message\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Error",
           "name": "checkError",
           "package": "cal3d",
@@ -273,6 +294,7 @@
         "index": {
           "description": "action bad value error message",
           "hierarchy": "Graphics Animation Cal3D Error",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Error",
           "name": "checkError",
           "normalized": "IO a-\u003ea-\u003eString-\u003eIO(Either String())",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "action\nbad value\nerror message\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Error",
           "name": "checkErrorValue",
           "package": "cal3d",
@@ -299,6 +322,7 @@
         "index": {
           "description": "action bad value error message",
           "hierarchy": "Graphics Animation Cal3D Error",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Error",
           "name": "checkErrorValue",
           "normalized": "IO a-\u003ea-\u003eString-\u003eIO(Either String a)",
@@ -315,6 +339,7 @@
       "document": {
         "description": {
           "description": "weight of this animation; weights should sum to 1.0\ndelay in seconds before the animation starts\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Mixer",
           "name": "blendCycle",
           "package": "cal3d",
@@ -325,6 +350,7 @@
         "index": {
           "description": "weight of this animation weights should sum to delay in seconds before the animation starts",
           "hierarchy": "Graphics Animation Cal3D Mixer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Mixer",
           "name": "blendCycle",
           "normalized": "Mixer-\u003eAnimationId-\u003eFloat-\u003eFloat-\u003eIO(Either String())",
@@ -341,6 +367,7 @@
       "document": {
         "description": {
           "description": "delay in seconds before the animation ends\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Mixer",
           "name": "clearCycle",
           "package": "cal3d",
@@ -351,6 +378,7 @@
         "index": {
           "description": "delay in seconds before the animation ends",
           "hierarchy": "Graphics Animation Cal3D Mixer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Mixer",
           "name": "clearCycle",
           "normalized": "Mixer-\u003eAnimationId-\u003eFloat-\u003eIO(Either String())",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "Destroy a Mixer.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Mixer",
           "name": "deleteMixer",
           "package": "cal3d",
@@ -377,6 +406,7 @@
         "index": {
           "description": "Destroy Mixer",
           "hierarchy": "Graphics Animation Cal3D Mixer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Mixer",
           "name": "deleteMixer",
           "normalized": "Mixer-\u003eIO()",
@@ -393,6 +423,7 @@
       "document": {
         "description": {
           "description": "delay in\ndelay out\nweight target\nautolock?\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Mixer",
           "name": "executeAction",
           "package": "cal3d",
@@ -403,6 +434,7 @@
         "index": {
           "description": "delay in delay out weight target autolock",
           "hierarchy": "Graphics Animation Cal3D Mixer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Mixer",
           "name": "executeAction",
           "normalized": "Mixer-\u003eAnimationId-\u003eFloat-\u003eFloat-\u003eFloat-\u003eBool-\u003eIO(Either String())",
@@ -419,6 +451,7 @@
       "document": {
         "description": {
           "description": "Create a Mixer.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Mixer",
           "name": "newMixer",
           "package": "cal3d",
@@ -429,6 +462,7 @@
         "index": {
           "description": "Create Mixer",
           "hierarchy": "Graphics Animation Cal3D Mixer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Mixer",
           "name": "newMixer",
           "package": "cal3d",
@@ -443,6 +477,7 @@
       "document": {
         "description": {
           "description": "Attach a mesh to a Model.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "attachMesh",
           "package": "cal3d",
@@ -453,6 +488,7 @@
         "index": {
           "description": "Attach mesh to Model",
           "hierarchy": "Graphics Animation Cal3D Model",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "attachMesh",
           "normalized": "Model-\u003eMeshId-\u003eIO(Either String())",
@@ -469,6 +505,7 @@
       "document": {
         "description": {
           "description": "Destroy a Model.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "deleteModel",
           "package": "cal3d",
@@ -479,6 +516,7 @@
         "index": {
           "description": "Destroy Model",
           "hierarchy": "Graphics Animation Cal3D Model",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "deleteModel",
           "normalized": "Model-\u003eIO()",
@@ -495,6 +533,7 @@
       "document": {
         "description": {
           "description": "Get a Mixer which can animate the Model.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "getMixer",
           "package": "cal3d",
@@ -505,6 +544,7 @@
         "index": {
           "description": "Get Mixer which can animate the Model",
           "hierarchy": "Graphics Animation Cal3D Model",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "getMixer",
           "normalized": "Model-\u003eIO Mixer",
@@ -521,6 +561,7 @@
       "document": {
         "description": {
           "description": "Get a Renderer for the Model, which can provide information\n needed for a graphics API.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "getRenderer",
           "package": "cal3d",
@@ -531,6 +572,7 @@
         "index": {
           "description": "Get Renderer for the Model which can provide information needed for graphics API",
           "hierarchy": "Graphics Animation Cal3D Model",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "getRenderer",
           "normalized": "Model-\u003eIO Renderer",
@@ -547,6 +589,7 @@
       "document": {
         "description": {
           "description": "Create a new Model instance from a CoreModel.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "newModel",
           "package": "cal3d",
@@ -557,6 +600,7 @@
         "index": {
           "description": "Create new Model instance from CoreModel",
           "hierarchy": "Graphics Animation Cal3D Model",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "newModel",
           "normalized": "CoreModel-\u003eIO Model",
@@ -573,6 +617,7 @@
       "document": {
         "description": {
           "description": "Set the level of detail for a Model (between 0 and 1).\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "setLodLevel",
           "package": "cal3d",
@@ -583,6 +628,7 @@
         "index": {
           "description": "Set the level of detail for Model between and",
           "hierarchy": "Graphics Animation Cal3D Model",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "setLodLevel",
           "normalized": "Model-\u003eFloat-\u003eIO()",
@@ -599,6 +645,7 @@
       "document": {
         "description": {
           "description": "Apply a material set to a Model.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "setMaterialSet",
           "package": "cal3d",
@@ -609,6 +656,7 @@
         "index": {
           "description": "Apply material set to Model",
           "hierarchy": "Graphics Animation Cal3D Model",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "setMaterialSet",
           "normalized": "Model-\u003eMaterialSetId-\u003eIO()",
@@ -625,6 +673,7 @@
       "document": {
         "description": {
           "description": "elapsed time in seconds\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "update",
           "package": "cal3d",
@@ -635,6 +684,7 @@
         "index": {
           "description": "elapsed time in seconds",
           "hierarchy": "Graphics Animation Cal3D Model",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Model",
           "name": "update",
           "normalized": "Model-\u003eFloat-\u003eIO()",
@@ -650,6 +700,7 @@
       "document": {
         "description": {
           "description": "Used to index faces.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "CalIndex",
           "package": "cal3d",
@@ -659,6 +710,7 @@
         "index": {
           "description": "Used to index faces",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "CalIndex",
           "package": "cal3d",
@@ -673,6 +725,7 @@
       "document": {
         "description": {
           "description": "Destroy a Renderer.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "deleteRenderer",
           "package": "cal3d",
@@ -683,6 +736,7 @@
         "index": {
           "description": "Destroy Renderer",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "deleteRenderer",
           "normalized": "Renderer-\u003eIO()",
@@ -699,6 +753,7 @@
       "document": {
         "description": {
           "description": "The number of faces in the current (mesh, submesh).\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getFaceCount",
           "package": "cal3d",
@@ -709,6 +764,7 @@
         "index": {
           "description": "The number of faces in the current mesh submesh",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getFaceCount",
           "normalized": "Renderer-\u003eIO Int",
@@ -725,6 +781,7 @@
       "document": {
         "description": {
           "description": "buffer\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getFaces",
           "package": "cal3d",
@@ -735,6 +792,7 @@
         "index": {
           "description": "buffer",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getFaces",
           "normalized": "Renderer-\u003ePtr CalIndex-\u003eIO Int",
@@ -751,6 +809,7 @@
       "document": {
         "description": {
           "description": "The number of meshes in the Renderer's \u003ctt\u003e\u003ca\u003eModel\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getMeshCount",
           "package": "cal3d",
@@ -761,6 +820,7 @@
         "index": {
           "description": "The number of meshes in the Renderer Model",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getMeshCount",
           "normalized": "Renderer-\u003eIO Int",
@@ -777,6 +837,7 @@
       "document": {
         "description": {
           "description": "Fills a buffer with the normal data for the current (mesh, submesh).\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getNormals",
           "package": "cal3d",
@@ -787,6 +848,7 @@
         "index": {
           "description": "Fills buffer with the normal data for the current mesh submesh",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getNormals",
           "normalized": "Renderer-\u003ePtr Float-\u003eInt-\u003eIO Int",
@@ -803,6 +865,7 @@
       "document": {
         "description": {
           "description": "The shininess, which affects the extent of speculr effects.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getShininess",
           "package": "cal3d",
@@ -813,6 +876,7 @@
         "index": {
           "description": "The shininess which affects the extent of speculr effects",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getShininess",
           "normalized": "Renderer-\u003eIO Float",
@@ -829,6 +893,7 @@
       "document": {
         "description": {
           "description": "mesh ID\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getSubmeshCount",
           "package": "cal3d",
@@ -839,6 +904,7 @@
         "index": {
           "description": "mesh ID",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getSubmeshCount",
           "normalized": "Renderer-\u003eInt-\u003eIO Int",
@@ -855,6 +921,7 @@
       "document": {
         "description": {
           "description": "The number of vertices, also the number of normals,\n  in the current (mesh, submesh).\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getVertexCount",
           "package": "cal3d",
@@ -865,6 +932,7 @@
         "index": {
           "description": "The number of vertices also the number of normals in the current mesh submesh",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getVertexCount",
           "normalized": "Renderer-\u003eIO Int",
@@ -881,6 +949,7 @@
       "document": {
         "description": {
           "description": "buffer\nstride\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getVertices",
           "package": "cal3d",
@@ -891,6 +960,7 @@
         "index": {
           "description": "buffer stride",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "getVertices",
           "normalized": "Renderer-\u003ePtr Float-\u003eInt-\u003eIO Int",
@@ -907,6 +977,7 @@
       "document": {
         "description": {
           "description": "Create a Renderer.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "newRenderer",
           "package": "cal3d",
@@ -917,6 +988,7 @@
         "index": {
           "description": "Create Renderer",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "newRenderer",
           "normalized": "Model-\u003eIO Renderer",
@@ -933,6 +1005,7 @@
       "document": {
         "description": {
           "description": "rendering action\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "renderAnimation",
           "package": "cal3d",
@@ -943,6 +1016,7 @@
         "index": {
           "description": "rendering action",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "renderAnimation",
           "normalized": "Renderer-\u003eIO()-\u003eIO(Either String())",
@@ -959,6 +1033,7 @@
       "document": {
         "description": {
           "description": "mesh ID\nsubmesh ID\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "selectMeshSubmesh",
           "package": "cal3d",
@@ -969,6 +1044,7 @@
         "index": {
           "description": "mesh ID submesh ID",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "selectMeshSubmesh",
           "normalized": "Renderer-\u003eInt-\u003eInt-\u003eIO(Either String())",
@@ -985,6 +1061,7 @@
       "document": {
         "description": {
           "description": "action\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "withAmbientColorPtr",
           "package": "cal3d",
@@ -995,6 +1072,7 @@
         "index": {
           "description": "action",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "withAmbientColorPtr",
           "normalized": "Ptr Word-\u003eIO a-\u003eRenderer-\u003eIO a",
@@ -1011,6 +1089,7 @@
       "document": {
         "description": {
           "description": "Diffuse color, like \u003ctt\u003e\u003ca\u003ewithAmbientColorPtr\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "withDiffuseColorPtr",
           "package": "cal3d",
@@ -1021,6 +1100,7 @@
         "index": {
           "description": "Diffuse color like withAmbientColorPtr",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "withDiffuseColorPtr",
           "normalized": "(Ptr Word-\u003eIO a)-\u003eRenderer-\u003eIO a",
@@ -1037,6 +1117,7 @@
       "document": {
         "description": {
           "description": "Specular color, like \u003ctt\u003e\u003ca\u003ewithAmbientColorPtr\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "withSpecularColorPtr",
           "package": "cal3d",
@@ -1047,6 +1128,7 @@
         "index": {
           "description": "Specular color like withAmbientColorPtr",
           "hierarchy": "Graphics Animation Cal3D Renderer",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Renderer",
           "name": "withSpecularColorPtr",
           "normalized": "(Ptr Word-\u003eIO a)-\u003eRenderer-\u003eIO a",
@@ -1062,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "AnimationId",
           "package": "cal3d",
@@ -1070,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D Types",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "AnimationId",
           "package": "cal3d",
@@ -1083,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "CLoader",
           "package": "cal3d",
@@ -1091,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D Types",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "CLoader",
           "package": "cal3d",
@@ -1104,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "CoreModel",
           "package": "cal3d",
@@ -1112,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D Types",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "CoreModel",
           "package": "cal3d",
@@ -1126,6 +1214,7 @@
       "document": {
         "description": {
           "description": "LoadResult is (Left error_message) or (Right thing_loaded_from_file)  \n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "LoadResult",
           "package": "cal3d",
@@ -1135,6 +1224,7 @@
         "index": {
           "description": "LoadResult is Left error message or Right thing loaded from file",
           "hierarchy": "Graphics Animation Cal3D Types",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "LoadResult",
           "package": "cal3d",
@@ -1149,6 +1239,7 @@
       "document": {
         "description": {
           "description": "A function that loads something from a file.\n",
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "Loader",
           "package": "cal3d",
@@ -1158,6 +1249,7 @@
         "index": {
           "description": "function that loads something from file",
           "hierarchy": "Graphics Animation Cal3D Types",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "Loader",
           "package": "cal3d",
@@ -1171,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "MaterialId",
           "package": "cal3d",
@@ -1179,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D Types",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "MaterialId",
           "package": "cal3d",
@@ -1192,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "MaterialSetId",
           "package": "cal3d",
@@ -1200,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D Types",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "MaterialSetId",
           "package": "cal3d",
@@ -1213,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "MaterialThreadId",
           "package": "cal3d",
@@ -1221,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D Types",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "MaterialThreadId",
           "package": "cal3d",
@@ -1234,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "MeshId",
           "package": "cal3d",
@@ -1242,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D Types",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "MeshId",
           "package": "cal3d",
@@ -1255,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "Mixer",
           "package": "cal3d",
@@ -1263,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D Types",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "Mixer",
           "package": "cal3d",
@@ -1276,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "Model",
           "package": "cal3d",
@@ -1284,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D Types",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "Model",
           "package": "cal3d",
@@ -1297,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:21 UTC 2014",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "Renderer",
           "package": "cal3d",
@@ -1305,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D Types",
+          "indexed": "2014-03-11T17:29:21",
           "module": "Graphics.Animation.Cal3D.Types",
           "name": "Renderer",
           "package": "cal3d",

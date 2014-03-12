@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wp-archivebot"
+        "phrase": "wp-archivebot",
+        "type": "phrase"
       },
       "type": "context"
     }

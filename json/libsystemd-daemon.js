@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libsystemd-daemon"
+        "phrase": "libsystemd-daemon",
+        "type": "phrase"
       },
       "type": "context"
     }

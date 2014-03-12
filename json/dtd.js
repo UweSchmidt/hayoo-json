@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dtd"
+        "phrase": "dtd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "Cache",
           "package": "dtd",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "Cache",
           "package": "dtd",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "Att",
           "package": "dtd",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "Att",
           "package": "dtd",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "AttrMap",
           "package": "dtd",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "AttrMap",
           "package": "dtd",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "DTDCache",
           "package": "dtd",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "DTDCache",
           "package": "dtd",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "EntityMap",
           "package": "dtd",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "EntityMap",
           "package": "dtd",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "UnresolvedEntity",
           "package": "dtd",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "UnresolvedEntity",
           "package": "dtd",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "Def",
           "package": "dtd",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "Def",
           "package": "dtd",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "Fixed",
           "package": "dtd",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "Fixed",
           "package": "dtd",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "UnresolvedEntity",
           "package": "dtd",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "UnresolvedEntity",
           "package": "dtd",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "applyDTD",
           "package": "dtd",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "applyDTD",
           "normalized": "DTDCache-\u003eDocument-\u003ea(Either UnresolvedEntity Document)",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "applyDTD_",
           "package": "dtd",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "applyDTD_",
           "normalized": "DTDCache-\u003eDocument-\u003ea Document",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "loadAttrMap",
           "package": "dtd",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "loadAttrMap",
           "normalized": "DTDCache-\u003eExternalID-\u003ea(EntityMap,AttrMap)",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "newDTDCache",
           "package": "dtd",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "newDTDCache",
           "normalized": "Catalog-\u003eSchemeMap-\u003ea DTDCache",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Cache",
           "name": "newDTDCacheFile",
           "package": "dtd",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Cache",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Cache",
           "name": "newDTDCacheFile",
           "normalized": "FilePath-\u003ea DTDCache",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a \u003ca\u003eData.Attoparsec.Text\u003c/a\u003e parser for XML\n Document Type Declaration (DTD) documents. A higher-level interface\n that implements parameter entity resolution is also provided.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "Unresolved",
           "package": "dtd",
@@ -340,6 +369,7 @@
         "index": {
           "description": "This module provides Data.Attoparsec.Text parser for XML Document Type Declaration DTD documents higher-level interface that implements parameter entity resolution is also provided",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "Unresolved",
           "package": "dtd",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the three-part declaration of an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "attDecl",
           "package": "dtd",
@@ -364,6 +395,7 @@
         "index": {
           "description": "Parse the three-part declaration of an attribute",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "attDecl",
           "package": "dtd",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "attDeclPERef",
           "package": "dtd",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "attDeclPERef",
           "package": "dtd",
@@ -400,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a default value specification for an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "attDefault",
           "package": "dtd",
@@ -410,6 +445,7 @@
         "index": {
           "description": "Parse default value specification for an attribute",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "attDefault",
           "package": "dtd",
@@ -424,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a list of attribute declarations for an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "attList",
           "package": "dtd",
@@ -434,6 +471,7 @@
         "index": {
           "description": "Parse list of attribute declarations for an element",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "attList",
           "package": "dtd",
@@ -448,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the type of an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "attType",
           "package": "dtd",
@@ -458,6 +497,7 @@
         "index": {
           "description": "Parse the type of an attribute",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "attType",
           "package": "dtd",
@@ -472,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "comment",
           "package": "dtd",
@@ -482,6 +523,7 @@
         "index": {
           "description": "Parse comment",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "comment",
           "package": "dtd",
@@ -495,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the content that can occur in an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "contentDecl",
           "package": "dtd",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Parse the content that can occur in an element",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "contentDecl",
           "package": "dtd",
@@ -519,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the model of structured content for an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "contentModel",
           "package": "dtd",
@@ -529,6 +574,7 @@
         "index": {
           "description": "Parse the model of structured content for an element",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "contentModel",
           "package": "dtd",
@@ -543,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a DTD. Parameter entity substitution is not supported by\n this parser, so parameter entities cannot appear in places where a\n valid DTD syntax production cannot be determined without resolving\n them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "dtd",
           "package": "dtd",
@@ -553,6 +600,7 @@
         "index": {
           "description": "Parse DTD Parameter entity substitution is not supported by this parser so parameter entities cannot appear in places where valid DTD syntax production cannot be determined without resolving them",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "dtd",
           "package": "dtd",
@@ -566,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single component of a \u003ccode\u003e\u003ca\u003eDTD\u003c/a\u003e\u003c/code\u003e. Conditional sections are\n currently not supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "dtdComponent",
           "package": "dtd",
@@ -576,6 +625,7 @@
         "index": {
           "description": "Parse single component of DTD Conditional sections are currently not supported",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "dtdComponent",
           "package": "dtd",
@@ -590,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the declaration of an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "elementDecl",
           "package": "dtd",
@@ -600,6 +651,7 @@
         "index": {
           "description": "Parse the declaration of an element",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "elementDecl",
           "package": "dtd",
@@ -614,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an entity declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "entityDecl",
           "package": "dtd",
@@ -624,6 +677,7 @@
         "index": {
           "description": "Parse an entity declaration",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "entityDecl",
           "package": "dtd",
@@ -638,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an entity value. An entity value is a quoted string\n possibly containing parameter entity references.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "entityValue",
           "package": "dtd",
@@ -648,6 +703,7 @@
         "index": {
           "description": "Parse an entity value An entity value is quoted string possibly containing parameter entity references",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "entityValue",
           "normalized": "Parser[EntityValue]",
@@ -664,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an external ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "externalID",
           "package": "dtd",
@@ -674,6 +731,7 @@
         "index": {
           "description": "Parse an external ID",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "externalID",
           "package": "dtd",
@@ -688,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a processing instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "instruction",
           "package": "dtd",
@@ -698,6 +757,7 @@
         "index": {
           "description": "Parse processing instruction",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "instruction",
           "package": "dtd",
@@ -711,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a DTD name. We are much more liberal than the spec: we\n allow any characters that will not interfere with other DTD\n syntax. This parser subsumes both \u003ccode\u003eName\u003c/code\u003e and \u003ccode\u003eNmToken\u003c/code\u003e in the spec,\n and more.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "name",
           "package": "dtd",
@@ -721,6 +782,7 @@
         "index": {
           "description": "Parse DTD name We are much more liberal than the spec we allow any characters that will not interfere with other DTD syntax This parser subsumes both Name and NmToken in the spec and more",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "name",
           "package": "dtd",
@@ -734,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a DTD \u003ccode\u003e\u003ca\u003ename\u003c/a\u003e\u003c/code\u003e followed by optional white space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "nameSS",
           "package": "dtd",
@@ -744,6 +807,7 @@
         "index": {
           "description": "Parse DTD name followed by optional white space",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "nameSS",
           "package": "dtd",
@@ -758,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a declaration of a notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "notation",
           "package": "dtd",
@@ -768,6 +833,7 @@
         "index": {
           "description": "Parse declaration of notation",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "notation",
           "package": "dtd",
@@ -781,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source for a notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "notationSrc",
           "package": "dtd",
@@ -791,6 +858,7 @@
         "index": {
           "description": "Parse source for notation",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "notationSrc",
           "package": "dtd",
@@ -805,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a parameter entity reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "pERef",
           "package": "dtd",
@@ -815,6 +884,7 @@
         "index": {
           "description": "Parse parameter entity reference",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "pERef",
           "package": "dtd",
@@ -829,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single-quoted or double-quoted string. The quotation marks are\n dropped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "quoted",
           "package": "dtd",
@@ -839,6 +910,7 @@
         "index": {
           "description": "single-quoted or double-quoted string The quotation marks are dropped",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "quoted",
           "package": "dtd",
@@ -852,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a repetition character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "repeatChar",
           "package": "dtd",
@@ -862,6 +935,7 @@
         "index": {
           "description": "Parse repetition character",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "repeatChar",
           "package": "dtd",
@@ -876,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip zero or more characters of white space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "skipWS",
           "package": "dtd",
@@ -886,6 +961,7 @@
         "index": {
           "description": "Skip zero or more characters of white space",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "skipWS",
           "normalized": "Parser()",
@@ -902,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ccode\u003e?xml\u003c/code\u003e text declaration at the beginning of a \u003ccode\u003e\u003ca\u003eDTD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "textDecl",
           "package": "dtd",
@@ -912,6 +989,7 @@
         "index": {
           "description": "Parse an xml text declaration at the beginning of DTD",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "textDecl",
           "package": "dtd",
@@ -926,6 +1004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse one character of white space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "ws",
           "package": "dtd",
@@ -936,6 +1015,7 @@
         "index": {
           "description": "Parse one character of white space",
           "hierarchy": "Data DTD Parse Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse.Unresolved",
           "name": "ws",
           "package": "dtd",
@@ -948,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse",
           "name": "Parse",
           "package": "dtd",
@@ -956,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Parse",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse",
           "name": "Parse",
           "package": "dtd",
@@ -969,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse",
           "name": "enumFile",
           "package": "dtd",
@@ -978,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Parse",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse",
           "name": "enumFile",
           "normalized": "FilePath-\u003eProducer a DTDComponent",
@@ -993,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse",
           "name": "filePathToEID",
           "package": "dtd",
@@ -1002,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Parse",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse",
           "name": "filePathToEID",
           "normalized": "FilePath-\u003ea ExternalID",
@@ -1017,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse",
           "name": "readEID",
           "package": "dtd",
@@ -1026,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Parse",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse",
           "name": "readEID",
           "normalized": "Catalog-\u003eExternalID-\u003eSchemeMap-\u003eProducer a DTDComponent",
@@ -1041,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse",
           "name": "readFile_",
           "package": "dtd",
@@ -1050,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Parse",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse",
           "name": "readFile_",
           "normalized": "FilePath-\u003eIO[DTDComponent]",
@@ -1065,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Parse",
           "name": "uriToEID",
           "package": "dtd",
@@ -1074,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Parse",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Parse",
           "name": "uriToEID",
           "normalized": "URI-\u003eExternalID",
@@ -1090,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ca\u003eBlaze.ByteString.Builder\u003c/a\u003e renderer for XML Document Type\n Declaration (DTD) documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "Render",
           "package": "dtd",
@@ -1099,6 +1192,7 @@
         "index": {
           "description": "Blaze.ByteString.Builder renderer for XML Document Type Declaration DTD documents",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "Render",
           "package": "dtd",
@@ -1113,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eAttDecl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildAttDecl",
           "package": "dtd",
@@ -1123,6 +1218,7 @@
         "index": {
           "description": "Builder for an AttDecl",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildAttDecl",
           "normalized": "AttDecl-\u003eBuilder",
@@ -1139,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eAttDefault\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildAttDefault",
           "package": "dtd",
@@ -1149,6 +1246,7 @@
         "index": {
           "description": "Builder for an AttDefault",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildAttDefault",
           "normalized": "AttDefault-\u003eBuilder",
@@ -1165,6 +1263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eAttList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildAttList",
           "package": "dtd",
@@ -1175,6 +1274,7 @@
         "index": {
           "description": "Builder for an AttList",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildAttList",
           "normalized": "AttList-\u003eBuilder",
@@ -1191,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eAttType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildAttType",
           "package": "dtd",
@@ -1201,6 +1302,7 @@
         "index": {
           "description": "Builder for an AttType",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildAttType",
           "normalized": "AttType-\u003eBuilder",
@@ -1217,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a choice expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildChoice",
           "package": "dtd",
@@ -1227,6 +1330,7 @@
         "index": {
           "description": "Build choice expression",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildChoice",
           "normalized": "(a-\u003eBuilder)-\u003e[a]-\u003eBuilder",
@@ -1243,6 +1347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a comment. The comment text cannot be null,\n cannot contain two consecutive \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e, and cannot end in \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildComment",
           "package": "dtd",
@@ -1253,6 +1358,7 @@
         "index": {
           "description": "Builder for comment The comment text cannot be null cannot contain two consecutive and cannot end in",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildComment",
           "normalized": "Text-\u003eBuilder",
@@ -1269,6 +1375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eContentDecl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildContentDecl",
           "package": "dtd",
@@ -1279,6 +1386,7 @@
         "index": {
           "description": "Builder for ContentDecl",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildContentDecl",
           "normalized": "ContentDecl-\u003eBuilder",
@@ -1295,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eContentModel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildContentModel",
           "package": "dtd",
@@ -1305,6 +1414,7 @@
         "index": {
           "description": "Builder for ContentModel",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildContentModel",
           "normalized": "ContentModel-\u003eBuilder",
@@ -1321,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eDTD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildDTD",
           "package": "dtd",
@@ -1331,6 +1442,7 @@
         "index": {
           "description": "Builder for DTD",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildDTD",
           "normalized": "DTD-\u003eBuilder",
@@ -1347,6 +1459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eDTDComponent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildDTDComponent",
           "package": "dtd",
@@ -1357,6 +1470,7 @@
         "index": {
           "description": "Builder for DTDComponent",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildDTDComponent",
           "normalized": "DTDComponent-\u003eBuilder",
@@ -1373,6 +1487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eDTDTextDecl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildDTDTextDecl",
           "package": "dtd",
@@ -1383,6 +1498,7 @@
         "index": {
           "description": "Builder for DTDTextDecl",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildDTDTextDecl",
           "normalized": "DTDTextDecl-\u003eBuilder",
@@ -1399,6 +1515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eElementDecl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildElementDecl",
           "package": "dtd",
@@ -1409,6 +1526,7 @@
         "index": {
           "description": "Builder for an ElementDecl",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildElementDecl",
           "normalized": "ElementDecl-\u003eBuilder",
@@ -1425,6 +1543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eEntityDecl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildEntityDecl",
           "package": "dtd",
@@ -1435,6 +1554,7 @@
         "index": {
           "description": "Builder for an EntityDecl",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildEntityDecl",
           "normalized": "EntityDecl-\u003eBuilder",
@@ -1451,6 +1571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eExternalID\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildExternalID",
           "package": "dtd",
@@ -1461,6 +1582,7 @@
         "index": {
           "description": "Builder for an ExternalID",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildExternalID",
           "normalized": "ExternalID-\u003eBuilder",
@@ -1477,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eInstruction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildInstruction",
           "package": "dtd",
@@ -1487,6 +1610,7 @@
         "index": {
           "description": "Builder for an Instruction",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildInstruction",
           "normalized": "Instruction-\u003eBuilder",
@@ -1503,6 +1627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a list of items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildList",
           "package": "dtd",
@@ -1513,6 +1638,7 @@
         "index": {
           "description": "Build list of items",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildList",
           "normalized": "Text-\u003e(a-\u003eBuilder)-\u003e[a]-\u003eBuilder",
@@ -1529,6 +1655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an optional item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildMaybe",
           "package": "dtd",
@@ -1539,6 +1666,7 @@
         "index": {
           "description": "Build an optional item",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildMaybe",
           "normalized": "(a-\u003eBuilder)-\u003eMaybe a-\u003eBuilder",
@@ -1555,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eNotation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildNotation",
           "package": "dtd",
@@ -1565,6 +1694,7 @@
         "index": {
           "description": "Builder for Notation",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildNotation",
           "normalized": "Notation-\u003eBuilder",
@@ -1581,6 +1711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eNotationSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildNotationSource",
           "package": "dtd",
@@ -1591,6 +1722,7 @@
         "index": {
           "description": "Builder for NotationSource",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildNotationSource",
           "normalized": "NotationSource-\u003eBuilder",
@@ -1607,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eRepeat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "buildRepeat",
           "package": "dtd",
@@ -1617,6 +1750,7 @@
         "index": {
           "description": "Builder for Repeat",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "buildRepeat",
           "normalized": "Repeat-\u003eBuilder",
@@ -1633,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "newline",
           "package": "dtd",
@@ -1643,6 +1778,7 @@
         "index": {
           "description": "Build newline",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "newline",
           "package": "dtd",
@@ -1656,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a string surround by parantheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "parens",
           "package": "dtd",
@@ -1666,6 +1803,7 @@
         "index": {
           "description": "Build string surround by parantheses",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "parens",
           "normalized": "Builder-\u003eBuilder",
@@ -1681,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a string quoted by angle brackets, with an exclamation mark.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "pbracket",
           "package": "dtd",
@@ -1691,6 +1830,7 @@
         "index": {
           "description": "Build string quoted by angle brackets with an exclamation mark",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "pbracket",
           "normalized": "Builder-\u003eBuilder",
@@ -1706,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a quoted string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "quote",
           "package": "dtd",
@@ -1716,6 +1857,7 @@
         "index": {
           "description": "Build quoted string",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "quote",
           "normalized": "Builder-\u003eBuilder",
@@ -1731,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Render",
           "name": "space",
           "package": "dtd",
@@ -1741,6 +1884,7 @@
         "index": {
           "description": "Build space",
           "hierarchy": "Data DTD Render",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Render",
           "name": "space",
           "package": "dtd",
@@ -1754,6 +1898,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides types to represent an XML Document Type\n Declaration (DTD) as defined in W3C specifications\n (\u003ca\u003ehttp://www.w3.org/XML/Core/#Publications\u003c/a\u003e). It is intended to be\n compatible with and extend the set of types in \u003ca\u003eData.XML.Types\u003c/a\u003e\n provided by the xml-types package.\n\u003c/p\u003e\u003cp\u003eFollowing the philosophy of \u003ccode\u003eData.XML.Types\u003c/code\u003e, the types in this\n module are not intended to be a strict and complete representation\n of the model in the W3C specifications; rather, they are intended\n to be convenient and type-safe for the kinds of processing of DTDs\n that are commonly done in practice. As such, this model is\n compatible with both Version 1.0 and Version 1.1 of the XML\n specification.\n\u003c/p\u003e\u003cp\u003eTherefore, these types are not suitable for type-level validation\n of the syntax of a DTD. For example: these types are more\n lenient than the specs about the characters that are allowed in\n various locations in a DTD; entities of various kinds only appear\n as distinct syntactic elements in places where they are commonly\n needed when processing DTDs; etc.\n\u003c/p\u003e\u003cp\u003eConditional sections are not represented in these types. They\n should be handled directly by parsers and renderers, if needed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "Unresolved",
           "package": "dtd",
@@ -1763,6 +1908,7 @@
         "index": {
           "description": "This module provides types to represent an XML Document Type Declaration DTD as defined in W3C specifications http www.w3.org XML Core Publications It is intended to be compatible with and extend the set of types in Data.XML.Types provided by the xml-types package Following the philosophy of Data.XML.Types the types in this module are not intended to be strict and complete representation of the model in the W3C specifications rather they are intended to be convenient and type-safe for the kinds of processing of DTDs that are commonly done in practice As such this model is compatible with both Version and Version of the XML specification Therefore these types are not suitable for type-level validation of the syntax of DTD For example these types are more lenient than the specs about the characters that are allowed in various locations in DTD entities of various kinds only appear as distinct syntactic elements in places where they are commonly needed when processing DTDs etc Conditional sections are not represented in these types They should be handled directly by parsers and renderers if needed",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "Unresolved",
           "package": "dtd",
@@ -1777,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of an attribute that can occur in an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttDecl",
           "package": "dtd",
@@ -1786,6 +1933,7 @@
         "index": {
           "description": "declaration of an attribute that can occur in an element",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttDecl",
           "package": "dtd",
@@ -1799,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttDeclPERef",
           "package": "dtd",
@@ -1807,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttDeclPERef",
           "package": "dtd",
@@ -1821,6 +1971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default value specification for an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttDefault",
           "package": "dtd",
@@ -1830,6 +1981,7 @@
         "index": {
           "description": "default value specification for an attribute",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttDefault",
           "package": "dtd",
@@ -1844,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of attribute declarations for an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttList",
           "package": "dtd",
@@ -1853,6 +2006,7 @@
         "index": {
           "description": "list of attribute declarations for an element",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttList",
           "package": "dtd",
@@ -1867,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of value that an attribute can take.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttType",
           "package": "dtd",
@@ -1876,6 +2031,7 @@
         "index": {
           "description": "The type of value that an attribute can take",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttType",
           "package": "dtd",
@@ -1889,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttTypePERef",
           "package": "dtd",
@@ -1897,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttTypePERef",
           "package": "dtd",
@@ -1911,6 +2069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe content that can occur in an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentDecl",
           "package": "dtd",
@@ -1920,6 +2079,7 @@
         "index": {
           "description": "The content that can occur in an element",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentDecl",
           "package": "dtd",
@@ -1934,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA model of structured content for an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentModel",
           "package": "dtd",
@@ -1943,6 +2104,7 @@
         "index": {
           "description": "model of structured content for an element",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentModel",
           "package": "dtd",
@@ -1957,6 +2119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDTD\u003c/a\u003e\u003c/code\u003e is a sequence components in any order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTD",
           "package": "dtd",
@@ -1966,6 +2129,7 @@
         "index": {
           "description": "DTD is sequence components in any order",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTD",
           "package": "dtd",
@@ -1980,6 +2144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kinds of components that can appear in a \u003ccode\u003e\u003ca\u003eDTD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDComponent",
           "package": "dtd",
@@ -1989,6 +2154,7 @@
         "index": {
           "description": "The kinds of components that can appear in DTD",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDComponent",
           "package": "dtd",
@@ -2003,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e?xml\u003c/code\u003e text declaration at the beginning of a DTD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDTextDecl",
           "package": "dtd",
@@ -2012,6 +2179,7 @@
         "index": {
           "description": "The xml text declaration at the beginning of DTD",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDTextDecl",
           "package": "dtd",
@@ -2026,6 +2194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ElementDecl",
           "package": "dtd",
@@ -2035,6 +2204,7 @@
         "index": {
           "description": "declaration of an element",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ElementDecl",
           "package": "dtd",
@@ -2049,6 +2219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of an entity. An entity is a textual substitution\n variable. General entities can be referenced in an XML document\n conforming to the DTD, and parameter entities can be referenced in\n the DTD itself. The value of an unparsed entity is not specified in\n the DTD; it is specified by external syntax declared as a notation\n elsewhere in the DTD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "EntityDecl",
           "package": "dtd",
@@ -2058,6 +2229,7 @@
         "index": {
           "description": "declaration of an entity An entity is textual substitution variable General entities can be referenced in an XML document conforming to the DTD and parameter entities can be referenced in the DTD itself The value of an unparsed entity is not specified in the DTD it is specified by external syntax declared as notation elsewhere in the DTD",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "EntityDecl",
           "package": "dtd",
@@ -2072,6 +2244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value of an internal entity may contain references to\n parameter entities; these references need to be resolved to obtain\n the actual replacement value of the entity. So we represent the\n value as a mixture of parameter entity references and free text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "EntityValue",
           "package": "dtd",
@@ -2081,6 +2254,7 @@
         "index": {
           "description": "The value of an internal entity may contain references to parameter entities these references need to be resolved to obtain the actual replacement value of the entity So we represent the value as mixture of parameter entity references and free text",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "EntityValue",
           "package": "dtd",
@@ -2095,6 +2269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of a notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "Notation",
           "package": "dtd",
@@ -2104,6 +2279,7 @@
         "index": {
           "description": "declaration of notation",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "Notation",
           "package": "dtd",
@@ -2118,6 +2294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source for a notation. We do not use the usual \u003ccode\u003e\u003ca\u003eExternalID\u003c/a\u003e\u003c/code\u003e\n type here, because for notations it is only optional, not required,\n for a public ID to be accompanied also by a system ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "NotationSource",
           "package": "dtd",
@@ -2127,6 +2304,7 @@
         "index": {
           "description": "source for notation We do not use the usual ExternalID type here because for notations it is only optional not required for public ID to be accompanied also by system ID",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "NotationSource",
           "package": "dtd",
@@ -2141,6 +2319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parameter entity reference. It contains the name of the\n parameter entity that is being referenced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "PERef",
           "package": "dtd",
@@ -2150,6 +2329,7 @@
         "index": {
           "description": "parameter entity reference It contains the name of the parameter entity that is being referenced",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "PERef",
           "package": "dtd",
@@ -2164,6 +2344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of times a production of content model syntax can\n repeat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "Repeat",
           "package": "dtd",
@@ -2173,6 +2354,7 @@
         "index": {
           "description": "The number of times production of content model syntax can repeat",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "Repeat",
           "package": "dtd",
@@ -2186,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ADPDecl",
           "package": "dtd",
@@ -2195,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ADPDecl",
           "package": "dtd",
@@ -2208,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ADPPERef",
           "package": "dtd",
@@ -2217,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ADPPERef",
           "package": "dtd",
@@ -2230,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ATPPERef",
           "package": "dtd",
@@ -2239,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ATPPERef",
           "package": "dtd",
@@ -2252,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ATPType",
           "package": "dtd",
@@ -2261,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ATPType",
           "package": "dtd",
@@ -2274,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttDecl",
           "package": "dtd",
@@ -2283,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttDecl",
           "package": "dtd",
@@ -2523,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttList",
           "package": "dtd",
@@ -2532,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "AttList",
           "package": "dtd",
@@ -2752,6 +2946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnrestricted content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentAny",
           "package": "dtd",
@@ -2762,6 +2957,7 @@
         "index": {
           "description": "Unrestricted content",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentAny",
           "package": "dtd",
@@ -2776,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructured element content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentElement",
           "package": "dtd",
@@ -2786,6 +2983,7 @@
         "index": {
           "description": "Structured element content",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentElement",
           "normalized": "ContentElement[EntityValue]",
@@ -2802,6 +3000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentEmpty",
           "package": "dtd",
@@ -2812,6 +3011,7 @@
         "index": {
           "description": "No content",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentEmpty",
           "package": "dtd",
@@ -2826,6 +3026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mixture of text and elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentMixed",
           "package": "dtd",
@@ -2836,6 +3037,7 @@
         "index": {
           "description": "mixture of text and elements",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentMixed",
           "normalized": "ContentMixed[Text]",
@@ -2851,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentPERef",
           "package": "dtd",
@@ -2860,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ContentPERef",
           "package": "dtd",
@@ -2873,6 +3077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTD",
           "package": "dtd",
@@ -2882,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTD",
           "package": "dtd",
@@ -2896,6 +3102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of attribute declarions for\n an element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDAttList",
           "package": "dtd",
@@ -2906,6 +3113,7 @@
         "index": {
           "description": "List of attribute declarions for an element",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDAttList",
           "package": "dtd",
@@ -2920,6 +3128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDComment",
           "package": "dtd",
@@ -2930,6 +3139,7 @@
         "index": {
           "description": "comment",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDComment",
           "package": "dtd",
@@ -2943,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDCondSecBegin",
           "package": "dtd",
@@ -2952,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDCondSecBegin",
           "package": "dtd",
@@ -2965,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDCondSecEnd",
           "package": "dtd",
@@ -2974,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDCondSecEnd",
           "package": "dtd",
@@ -2988,6 +3202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDElementDecl",
           "package": "dtd",
@@ -2998,6 +3213,7 @@
         "index": {
           "description": "Element declaration",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDElementDecl",
           "package": "dtd",
@@ -3012,6 +3228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDEntityDecl",
           "package": "dtd",
@@ -3022,6 +3239,7 @@
         "index": {
           "description": "Entity declaration",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDEntityDecl",
           "package": "dtd",
@@ -3036,6 +3254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA processing instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDInstruction",
           "package": "dtd",
@@ -3046,6 +3265,7 @@
         "index": {
           "description": "processing instruction",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDInstruction",
           "package": "dtd",
@@ -3060,6 +3280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA notation declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDNotation",
           "package": "dtd",
@@ -3070,6 +3291,7 @@
         "index": {
           "description": "notation declaration",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDNotation",
           "package": "dtd",
@@ -3084,6 +3306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parameter entity reference in\n the top-level flow of the DTD\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDPERef",
           "package": "dtd",
@@ -3094,6 +3317,7 @@
         "index": {
           "description": "parameter entity reference in the top-level flow of the DTD",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "DTDPERef",
           "package": "dtd",
@@ -3130,6 +3354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ElementDecl",
           "package": "dtd",
@@ -3139,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ElementDecl",
           "package": "dtd",
@@ -3152,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "EntityPERef",
           "package": "dtd",
@@ -3161,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "EntityPERef",
           "package": "dtd",
@@ -3174,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "EntityText",
           "package": "dtd",
@@ -3183,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "EntityText",
           "package": "dtd",
@@ -3197,6 +3427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn external general\n entity is unparsed if a\n notation is specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ExternalGeneralEntityDecl",
           "package": "dtd",
@@ -3207,6 +3438,7 @@
         "index": {
           "description": "An external general entity is unparsed if notation is specified",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ExternalGeneralEntityDecl",
           "package": "dtd",
@@ -3220,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ExternalParameterEntityDecl",
           "package": "dtd",
@@ -3229,6 +3462,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "ExternalParameterEntityDecl",
           "package": "dtd",
@@ -3242,6 +3476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "InternalGeneralEntityDecl",
           "package": "dtd",
@@ -3251,6 +3486,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "InternalGeneralEntityDecl",
           "package": "dtd",
@@ -3264,6 +3500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "InternalParameterEntityDecl",
           "package": "dtd",
@@ -3273,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "InternalParameterEntityDecl",
           "package": "dtd",
@@ -3477,6 +3715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value specification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "attDeclDefault",
           "package": "dtd",
@@ -3487,6 +3726,7 @@
         "index": {
           "description": "The default value specification",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "attDeclDefault",
           "package": "dtd",
@@ -3501,6 +3741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "attDeclName",
           "package": "dtd",
@@ -3511,6 +3752,7 @@
         "index": {
           "description": "The name of the attribute",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "attDeclName",
           "package": "dtd",
@@ -3525,6 +3767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "attDeclType",
           "package": "dtd",
@@ -3535,6 +3778,7 @@
         "index": {
           "description": "The type of the attribute",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "attDeclType",
           "package": "dtd",
@@ -3548,6 +3792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "attListDecls",
           "package": "dtd",
@@ -3557,6 +3802,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "attListDecls",
           "normalized": "[AttDeclPERef]",
@@ -3573,6 +3819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the element to\n which the attribute\n declarations apply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "attListElementName",
           "package": "dtd",
@@ -3583,6 +3830,7 @@
         "index": {
           "description": "The name of the element to which the attribute declarations apply",
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "attListElementName",
           "package": "dtd",
@@ -3596,6 +3844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "dtdComponents",
           "package": "dtd",
@@ -3605,6 +3854,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "dtdComponents",
           "normalized": "[DTDComponent]",
@@ -3643,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "dtdTextDecl",
           "package": "dtd",
@@ -3652,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "dtdTextDecl",
           "package": "dtd",
@@ -3688,6 +3940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "eltDeclContent",
           "package": "dtd",
@@ -3697,6 +3950,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "eltDeclContent",
           "package": "dtd",
@@ -3710,6 +3964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "eltDeclName",
           "package": "dtd",
@@ -3719,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "eltDeclName",
           "package": "dtd",
@@ -3732,6 +3988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "entityDeclID",
           "package": "dtd",
@@ -3741,6 +3998,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "entityDeclID",
           "package": "dtd",
@@ -3754,6 +4012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "entityDeclName",
           "package": "dtd",
@@ -3763,6 +4022,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "entityDeclName",
           "package": "dtd",
@@ -3776,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "entityDeclNotation",
           "package": "dtd",
@@ -3785,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "entityDeclNotation",
           "package": "dtd",
@@ -3798,6 +4060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types.Unresolved",
           "name": "entityDeclValue",
           "package": "dtd",
@@ -3807,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types Unresolved",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types.Unresolved",
           "name": "entityDeclValue",
           "normalized": "[EntityValue]",
@@ -3868,6 +4132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "Types",
           "package": "dtd",
@@ -3876,6 +4141,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "Types",
           "package": "dtd",
@@ -3890,6 +4156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of an attribute that can occur in an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "AttDecl",
           "package": "dtd",
@@ -3899,6 +4166,7 @@
         "index": {
           "description": "declaration of an attribute that can occur in an element",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "AttDecl",
           "package": "dtd",
@@ -3913,6 +4181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default value specification for an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "AttDefault",
           "package": "dtd",
@@ -3922,6 +4191,7 @@
         "index": {
           "description": "default value specification for an attribute",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "AttDefault",
           "package": "dtd",
@@ -3936,6 +4206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of attribute declarations for an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "AttList",
           "package": "dtd",
@@ -3945,6 +4216,7 @@
         "index": {
           "description": "list of attribute declarations for an element",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "AttList",
           "package": "dtd",
@@ -3959,6 +4231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of value that an attribute can take.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "AttType",
           "package": "dtd",
@@ -3968,6 +4241,7 @@
         "index": {
           "description": "The type of value that an attribute can take",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "AttType",
           "package": "dtd",
@@ -3982,6 +4256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe content that can occur in an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "ContentDecl",
           "package": "dtd",
@@ -3991,6 +4266,7 @@
         "index": {
           "description": "The content that can occur in an element",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "ContentDecl",
           "package": "dtd",
@@ -4005,6 +4281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA model of structured content for an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "ContentModel",
           "package": "dtd",
@@ -4014,6 +4291,7 @@
         "index": {
           "description": "model of structured content for an element",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "ContentModel",
           "package": "dtd",
@@ -4028,6 +4306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDTD\u003c/a\u003e\u003c/code\u003e is a sequence components in any order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "DTD",
           "package": "dtd",
@@ -4037,6 +4316,7 @@
         "index": {
           "description": "DTD is sequence components in any order",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "DTD",
           "package": "dtd",
@@ -4051,6 +4331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kinds of components that can appear in a \u003ccode\u003e\u003ca\u003eDTD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "DTDComponent",
           "package": "dtd",
@@ -4060,6 +4341,7 @@
         "index": {
           "description": "The kinds of components that can appear in DTD",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "DTDComponent",
           "package": "dtd",
@@ -4074,6 +4356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e?xml\u003c/code\u003e text declaration at the beginning of a DTD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "DTDTextDecl",
           "package": "dtd",
@@ -4083,6 +4366,7 @@
         "index": {
           "description": "The xml text declaration at the beginning of DTD",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "DTDTextDecl",
           "package": "dtd",
@@ -4097,6 +4381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "ElementDecl",
           "package": "dtd",
@@ -4106,6 +4391,7 @@
         "index": {
           "description": "declaration of an element",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "ElementDecl",
           "package": "dtd",
@@ -4119,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "EntityDecl",
           "package": "dtd",
@@ -4127,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "EntityDecl",
           "package": "dtd",
@@ -4141,6 +4429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of a notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "Notation",
           "package": "dtd",
@@ -4150,6 +4439,7 @@
         "index": {
           "description": "declaration of notation",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "Notation",
           "package": "dtd",
@@ -4164,6 +4454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source for a notation. We do not use the usual \u003ccode\u003e\u003ca\u003eExternalID\u003c/a\u003e\u003c/code\u003e\n type here, because for notations it is only optional, not required,\n for a public ID to be accompanied also by a system ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "NotationSource",
           "package": "dtd",
@@ -4173,6 +4464,7 @@
         "index": {
           "description": "source for notation We do not use the usual ExternalID type here because for notations it is only optional not required for public ID to be accompanied also by system ID",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "NotationSource",
           "package": "dtd",
@@ -4187,6 +4479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of times a production of content model syntax can\n repeat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "Repeat",
           "package": "dtd",
@@ -4196,6 +4489,7 @@
         "index": {
           "description": "The number of times production of content model syntax can repeat",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "Repeat",
           "package": "dtd",
@@ -4209,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "AttDecl",
           "package": "dtd",
@@ -4218,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "AttDecl",
           "package": "dtd",
@@ -4231,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "AttList",
           "package": "dtd",
@@ -4240,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "AttList",
           "package": "dtd",
@@ -4254,6 +4552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnrestricted content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "ContentAny",
           "package": "dtd",
@@ -4264,6 +4563,7 @@
         "index": {
           "description": "Unrestricted content",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "ContentAny",
           "package": "dtd",
@@ -4278,6 +4578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructured element content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "ContentElement",
           "package": "dtd",
@@ -4288,6 +4589,7 @@
         "index": {
           "description": "Structured element content",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "ContentElement",
           "package": "dtd",
@@ -4302,6 +4604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "ContentEmpty",
           "package": "dtd",
@@ -4312,6 +4615,7 @@
         "index": {
           "description": "No content",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "ContentEmpty",
           "package": "dtd",
@@ -4326,6 +4630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mixture of text and elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "ContentMixed",
           "package": "dtd",
@@ -4336,6 +4641,7 @@
         "index": {
           "description": "mixture of text and elements",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "ContentMixed",
           "normalized": "ContentMixed[Text]",
@@ -4351,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "DTD",
           "package": "dtd",
@@ -4360,6 +4667,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "DTD",
           "package": "dtd",
@@ -4374,6 +4682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of attribute declarions for\n an element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "DTDAttList",
           "package": "dtd",
@@ -4384,6 +4693,7 @@
         "index": {
           "description": "List of attribute declarions for an element",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "DTDAttList",
           "package": "dtd",
@@ -4398,6 +4708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "DTDComment",
           "package": "dtd",
@@ -4408,6 +4719,7 @@
         "index": {
           "description": "comment",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "DTDComment",
           "package": "dtd",
@@ -4422,6 +4734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "DTDElementDecl",
           "package": "dtd",
@@ -4432,6 +4745,7 @@
         "index": {
           "description": "Element declaration",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "DTDElementDecl",
           "package": "dtd",
@@ -4446,6 +4760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "DTDEntityDecl",
           "package": "dtd",
@@ -4456,6 +4771,7 @@
         "index": {
           "description": "Entity declaration",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "DTDEntityDecl",
           "package": "dtd",
@@ -4470,6 +4786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA processing instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "DTDInstruction",
           "package": "dtd",
@@ -4480,6 +4797,7 @@
         "index": {
           "description": "processing instruction",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "DTDInstruction",
           "package": "dtd",
@@ -4494,6 +4812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA notation declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "DTDNotation",
           "package": "dtd",
@@ -4504,6 +4823,7 @@
         "index": {
           "description": "notation declaration",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "DTDNotation",
           "package": "dtd",
@@ -4517,6 +4837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "ElementDecl",
           "package": "dtd",
@@ -4526,6 +4847,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "ElementDecl",
           "package": "dtd",
@@ -4540,6 +4862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn external general\n entity is unparsed if a\n notation is specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "ExternalGeneralEntityDecl",
           "package": "dtd",
@@ -4550,6 +4873,7 @@
         "index": {
           "description": "An external general entity is unparsed if notation is specified",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "ExternalGeneralEntityDecl",
           "package": "dtd",
@@ -4563,6 +4887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "InternalGeneralEntityDecl",
           "package": "dtd",
@@ -4572,6 +4897,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "InternalGeneralEntityDecl",
           "package": "dtd",
@@ -4586,6 +4912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value specification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "attDeclDefault",
           "package": "dtd",
@@ -4596,6 +4923,7 @@
         "index": {
           "description": "The default value specification",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "attDeclDefault",
           "package": "dtd",
@@ -4610,6 +4938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "attDeclName",
           "package": "dtd",
@@ -4620,6 +4949,7 @@
         "index": {
           "description": "The name of the attribute",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "attDeclName",
           "package": "dtd",
@@ -4634,6 +4964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "attDeclType",
           "package": "dtd",
@@ -4644,6 +4975,7 @@
         "index": {
           "description": "The type of the attribute",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "attDeclType",
           "package": "dtd",
@@ -4657,6 +4989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "attListDecls",
           "package": "dtd",
@@ -4666,6 +4999,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "attListDecls",
           "normalized": "[AttDecl]",
@@ -4682,6 +5016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the element to\n which the attribute\n declarations apply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "attListElementName",
           "package": "dtd",
@@ -4692,6 +5027,7 @@
         "index": {
           "description": "The name of the element to which the attribute declarations apply",
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "attListElementName",
           "package": "dtd",
@@ -4705,6 +5041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "dtdComponents",
           "package": "dtd",
@@ -4714,6 +5051,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "dtdComponents",
           "normalized": "[DTDComponent]",
@@ -4729,6 +5067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "dtdTextDecl",
           "package": "dtd",
@@ -4738,6 +5077,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "dtdTextDecl",
           "package": "dtd",
@@ -4751,6 +5091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "eltDeclContent",
           "package": "dtd",
@@ -4760,6 +5101,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "eltDeclContent",
           "package": "dtd",
@@ -4773,6 +5115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "eltDeclName",
           "package": "dtd",
@@ -4782,6 +5125,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "eltDeclName",
           "package": "dtd",
@@ -4795,6 +5139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "entityDeclID",
           "package": "dtd",
@@ -4804,6 +5149,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "entityDeclID",
           "package": "dtd",
@@ -4817,6 +5163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "entityDeclName",
           "package": "dtd",
@@ -4826,6 +5173,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "entityDeclName",
           "package": "dtd",
@@ -4839,6 +5187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "entityDeclNotation",
           "package": "dtd",
@@ -4848,6 +5197,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "entityDeclNotation",
           "package": "dtd",
@@ -4861,6 +5211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:18 UTC 2014",
           "module": "Data.DTD.Types",
           "name": "entityDeclValue",
           "package": "dtd",
@@ -4870,6 +5221,7 @@
         },
         "index": {
           "hierarchy": "Data DTD Types",
+          "indexed": "2014-03-11T17:59:18",
           "module": "Data.DTD.Types",
           "name": "entityDeclValue",
           "package": "dtd",

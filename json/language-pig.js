@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-pig"
+        "phrase": "language-pig",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "AST",
           "package": "language-pig",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "AST",
           "package": "language-pig",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Alias",
           "package": "language-pig",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Alias",
           "package": "language-pig",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Aliasable",
           "package": "language-pig",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Aliasable",
           "package": "language-pig",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "BooleanExpression",
           "package": "language-pig",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "BooleanExpression",
           "package": "language-pig",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "BooleanOperator",
           "package": "language-pig",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "BooleanOperator",
           "package": "language-pig",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Command",
           "package": "language-pig",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Command",
           "package": "language-pig",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "ComparisonOperator",
           "package": "language-pig",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "ComparisonOperator",
           "package": "language-pig",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "DefineSpec",
           "package": "language-pig",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "DefineSpec",
           "package": "language-pig",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Expression",
           "package": "language-pig",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Expression",
           "package": "language-pig",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Field",
           "package": "language-pig",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Field",
           "package": "language-pig",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Function",
           "package": "language-pig",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Function",
           "package": "language-pig",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "GenBlock",
           "package": "language-pig",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "GenBlock",
           "package": "language-pig",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "GroupBy",
           "package": "language-pig",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "GroupBy",
           "package": "language-pig",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Join",
           "package": "language-pig",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Join",
           "package": "language-pig",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Library",
           "package": "language-pig",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Library",
           "package": "language-pig",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "OpClause",
           "package": "language-pig",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "OpClause",
           "package": "language-pig",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Operator",
           "package": "language-pig",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Operator",
           "package": "language-pig",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Path",
           "package": "language-pig",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Path",
           "package": "language-pig",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "PigFile",
           "package": "language-pig",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "PigFile",
           "package": "language-pig",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Root",
           "package": "language-pig",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Root",
           "package": "language-pig",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Scalar",
           "package": "language-pig",
@@ -446,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Scalar",
           "package": "language-pig",
@@ -459,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "SimpleType",
           "package": "language-pig",
@@ -467,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "SimpleType",
           "package": "language-pig",
@@ -480,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Statement",
           "package": "language-pig",
@@ -488,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Statement",
           "package": "language-pig",
@@ -501,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Transform",
           "package": "language-pig",
@@ -509,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Transform",
           "package": "language-pig",
@@ -522,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Tuple",
           "package": "language-pig",
@@ -530,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Tuple",
           "package": "language-pig",
@@ -543,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "TupleDef",
           "package": "language-pig",
@@ -551,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "TupleDef",
           "package": "language-pig",
@@ -564,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Add",
           "package": "language-pig",
@@ -573,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Add",
           "package": "language-pig",
@@ -586,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "AliasCommand",
           "package": "language-pig",
@@ -595,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "AliasCommand",
           "package": "language-pig",
@@ -608,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "AliasFunction",
           "package": "language-pig",
@@ -617,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "AliasFunction",
           "package": "language-pig",
@@ -630,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "AliasTerm",
           "package": "language-pig",
@@ -639,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "AliasTerm",
           "package": "language-pig",
@@ -652,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "AliasTransform",
           "package": "language-pig",
@@ -661,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "AliasTransform",
           "package": "language-pig",
@@ -674,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "And",
           "package": "language-pig",
@@ -683,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "And",
           "package": "language-pig",
@@ -696,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Assignment",
           "package": "language-pig",
@@ -705,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Assignment",
           "package": "language-pig",
@@ -718,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "BinCond",
           "package": "language-pig",
@@ -727,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "BinCond",
           "package": "language-pig",
@@ -740,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Binary",
           "package": "language-pig",
@@ -749,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Binary",
           "package": "language-pig",
@@ -762,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "BooleanBinary",
           "package": "language-pig",
@@ -771,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "BooleanBinary",
           "package": "language-pig",
@@ -784,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "BooleanExpression",
           "package": "language-pig",
@@ -793,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "BooleanExpression",
           "package": "language-pig",
@@ -806,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "BooleanUnary",
           "package": "language-pig",
@@ -815,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "BooleanUnary",
           "package": "language-pig",
@@ -828,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "ByteArray",
           "package": "language-pig",
@@ -837,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "ByteArray",
           "package": "language-pig",
@@ -850,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "CharArray",
           "package": "language-pig",
@@ -859,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "CharArray",
           "package": "language-pig",
@@ -872,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "DefineUDF",
           "package": "language-pig",
@@ -881,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "DefineUDF",
           "normalized": "DefineUDF Alias Aliasable[DefineSpec]",
@@ -896,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Describe",
           "package": "language-pig",
@@ -905,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Describe",
           "package": "language-pig",
@@ -918,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Directory",
           "package": "language-pig",
@@ -927,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Directory",
           "package": "language-pig",
@@ -940,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Divide",
           "package": "language-pig",
@@ -949,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Divide",
           "package": "language-pig",
@@ -962,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Double",
           "package": "language-pig",
@@ -971,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Double",
           "package": "language-pig",
@@ -984,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "EnvTransform",
           "package": "language-pig",
@@ -993,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "EnvTransform",
           "package": "language-pig",
@@ -1006,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Equal",
           "package": "language-pig",
@@ -1015,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Equal",
           "package": "language-pig",
@@ -1028,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Exec",
           "package": "language-pig",
@@ -1037,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Exec",
           "package": "language-pig",
@@ -1050,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "ExpressionTransform",
           "package": "language-pig",
@@ -1059,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "ExpressionTransform",
           "package": "language-pig",
@@ -1072,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Field",
           "package": "language-pig",
@@ -1081,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Field",
           "package": "language-pig",
@@ -1094,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Filename",
           "package": "language-pig",
@@ -1103,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Filename",
           "package": "language-pig",
@@ -1116,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Flatten",
           "package": "language-pig",
@@ -1125,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Flatten",
           "package": "language-pig",
@@ -1138,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Float",
           "package": "language-pig",
@@ -1147,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Float",
           "package": "language-pig",
@@ -1160,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "ForeachClause",
           "package": "language-pig",
@@ -1169,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "ForeachClause",
           "package": "language-pig",
@@ -1182,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Function",
           "package": "language-pig",
@@ -1191,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Function",
           "normalized": "Function String[Expression]",
@@ -1206,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "FunctionTerm",
           "package": "language-pig",
@@ -1215,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "FunctionTerm",
           "package": "language-pig",
@@ -1228,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "FunctionTransform",
           "package": "language-pig",
@@ -1237,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "FunctionTransform",
           "package": "language-pig",
@@ -1250,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "GenBlock",
           "package": "language-pig",
@@ -1259,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "GenBlock",
           "normalized": "GenBlock[Transform]",
@@ -1274,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Greater",
           "package": "language-pig",
@@ -1283,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Greater",
           "package": "language-pig",
@@ -1296,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "GreaterEqual",
           "package": "language-pig",
@@ -1305,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "GreaterEqual",
           "package": "language-pig",
@@ -1318,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "GroupClause",
           "package": "language-pig",
@@ -1327,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "GroupClause",
           "package": "language-pig",
@@ -1340,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Identifier",
           "package": "language-pig",
@@ -1349,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Identifier",
           "package": "language-pig",
@@ -1362,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "IdentityTransform",
           "package": "language-pig",
@@ -1371,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "IdentityTransform",
           "package": "language-pig",
@@ -1384,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "InnerJoinClause",
           "package": "language-pig",
@@ -1393,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "InnerJoinClause",
           "normalized": "InnerJoinClause[Join]",
@@ -1408,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Int",
           "package": "language-pig",
@@ -1417,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Int",
           "package": "language-pig",
@@ -1430,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Join",
           "package": "language-pig",
@@ -1439,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Join",
           "package": "language-pig",
@@ -1452,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Less",
           "package": "language-pig",
@@ -1461,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Less",
           "package": "language-pig",
@@ -1474,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "LessEqual",
           "package": "language-pig",
@@ -1483,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "LessEqual",
           "package": "language-pig",
@@ -1496,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Library",
           "package": "language-pig",
@@ -1505,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Library",
           "package": "language-pig",
@@ -1518,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "LoadClause",
           "package": "language-pig",
@@ -1527,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "LoadClause",
           "package": "language-pig",
@@ -1540,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Long",
           "package": "language-pig",
@@ -1549,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Long",
           "package": "language-pig",
@@ -1562,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Modulo",
           "package": "language-pig",
@@ -1571,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Modulo",
           "package": "language-pig",
@@ -1584,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "MultipleColumn",
           "package": "language-pig",
@@ -1593,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "MultipleColumn",
           "package": "language-pig",
@@ -1606,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Multiply",
           "package": "language-pig",
@@ -1615,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Multiply",
           "package": "language-pig",
@@ -1628,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Neg",
           "package": "language-pig",
@@ -1637,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Neg",
           "package": "language-pig",
@@ -1650,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Not",
           "package": "language-pig",
@@ -1659,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Not",
           "package": "language-pig",
@@ -1672,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "NotEqual",
           "package": "language-pig",
@@ -1681,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "NotEqual",
           "package": "language-pig",
@@ -1694,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Number",
           "package": "language-pig",
@@ -1703,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Number",
           "package": "language-pig",
@@ -1716,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Or",
           "package": "language-pig",
@@ -1725,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Or",
           "package": "language-pig",
@@ -1738,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "PigFile",
           "package": "language-pig",
@@ -1747,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "PigFile",
           "package": "language-pig",
@@ -1760,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Register",
           "package": "language-pig",
@@ -1769,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Register",
           "package": "language-pig",
@@ -1782,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "ScalarTerm",
           "package": "language-pig",
@@ -1791,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "ScalarTerm",
           "package": "language-pig",
@@ -1804,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Seq",
           "package": "language-pig",
@@ -1813,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Seq",
           "normalized": "Seq[Statement]",
@@ -1828,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Ship",
           "package": "language-pig",
@@ -1837,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Ship",
           "package": "language-pig",
@@ -1850,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "SingleColumn",
           "package": "language-pig",
@@ -1859,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "SingleColumn",
           "package": "language-pig",
@@ -1872,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Store",
           "package": "language-pig",
@@ -1881,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Store",
           "package": "language-pig",
@@ -1894,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "StreamClause",
           "package": "language-pig",
@@ -1903,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "StreamClause",
           "package": "language-pig",
@@ -1916,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "String",
           "package": "language-pig",
@@ -1925,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "String",
           "package": "language-pig",
@@ -1938,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Subtract",
           "package": "language-pig",
@@ -1947,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Subtract",
           "package": "language-pig",
@@ -1960,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Tuple",
           "package": "language-pig",
@@ -1969,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Tuple",
           "normalized": "Tuple[Alias]",
@@ -1984,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "TupleDef",
           "package": "language-pig",
@@ -1993,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "TupleDef",
           "normalized": "TupleDef[Field]",
@@ -2008,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "TupleFieldGlob",
           "package": "language-pig",
@@ -2017,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "TupleFieldGlob",
           "package": "language-pig",
@@ -2030,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.AST",
           "name": "Unary",
           "package": "language-pig",
@@ -2039,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser AST",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.AST",
           "name": "Unary",
           "package": "language-pig",
@@ -2052,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.Parser",
           "name": "Parser",
           "package": "language-pig",
@@ -2060,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser Parser",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.Parser",
           "name": "Parser",
           "package": "language-pig",
@@ -2148,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser.Parser",
           "name": "parseTst",
           "package": "language-pig",
@@ -2157,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser Parser",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser.Parser",
           "name": "parseTst",
           "normalized": "String-\u003eEither ParseError Expression",
@@ -2172,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Parser",
           "name": "Parser",
           "package": "language-pig",
@@ -2180,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Parser",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Parser",
           "name": "Parser",
           "package": "language-pig",
@@ -2193,6 +2385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Pretty",
           "name": "Pretty",
           "package": "language-pig",
@@ -2201,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Pretty",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Pretty",
           "name": "Pretty",
           "package": "language-pig",
@@ -2214,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:56 UTC 2014",
           "module": "Language.Pig.Pretty",
           "name": "prettyPrint",
           "package": "language-pig",
@@ -2223,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Language Pig Pretty",
+          "indexed": "2014-03-11T19:05:56",
           "module": "Language.Pig.Pretty",
           "name": "prettyPrint",
           "normalized": "Root-\u003eString",

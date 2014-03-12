@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "modulo"
+        "phrase": "modulo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRenders module descriptions as C header files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "C",
           "package": "modulo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Renders module descriptions as header files",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "C",
           "package": "modulo",
@@ -40,6 +42,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "CStyle",
           "package": "modulo",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "CStyle",
           "package": "modulo",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "GuardStyle",
           "package": "modulo",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "GuardStyle",
           "package": "modulo",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "ImportStyle",
           "package": "modulo",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "ImportStyle",
           "package": "modulo",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "CStyle",
           "package": "modulo",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "CStyle",
           "package": "modulo",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite conditional guards\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "Ifndef",
           "package": "modulo",
@@ -136,6 +147,7 @@
         "index": {
           "description": "Write conditional guards",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "Ifndef",
           "package": "modulo",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport external modules using local paths\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "LocalPath",
           "package": "modulo",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Import external modules using local paths",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "LocalPath",
           "package": "modulo",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite pragma guards\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "Pragma",
           "package": "modulo",
@@ -184,6 +199,7 @@
         "index": {
           "description": "Write pragma guards",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "Pragma",
           "package": "modulo",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport external modules using system paths\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "SystemPath",
           "package": "modulo",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Import external modules using system paths",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "SystemPath",
           "package": "modulo",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle used in Apple Frameworks.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Types:     \u003ccode\u003e PFooBar \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Opaques:   \u003ccode\u003e PFooBarOpaque \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Functions: \u003ccode\u003e PFooBar \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Constants: \u003ccode\u003e kPFooBar \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Fields:    \u003ccode\u003e mFooBar \u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "appleStyle",
           "package": "modulo",
@@ -232,6 +251,7 @@
         "index": {
           "description": "Style used in Apple Frameworks Types PFooBar Opaques PFooBarOpaque Functions PFooBar Constants kPFooBar Fields mFooBar",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "appleStyle",
           "package": "modulo",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle used in Cairo.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Types:     \u003ccode\u003e p_foo_bar_t \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Opaques:   \u003ccode\u003e _p_foo_bar_t \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Functions: \u003ccode\u003e p_foo_bar \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Constants: \u003ccode\u003e P_FOO_BAR \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Fields:    \u003ccode\u003e foo_bar \u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "cairoStyle",
           "package": "modulo",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Style used in Cairo Types foo bar Opaques foo bar Functions foo bar Constants FOO BAR Fields foo bar",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "cairoStyle",
           "package": "modulo",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMangler for constant values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "constMangler",
           "package": "modulo",
@@ -280,6 +303,7 @@
         "index": {
           "description": "Mangler for constant values",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "constMangler",
           "normalized": "[String]-\u003eString",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMangler for enum fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "enumFieldMangler",
           "package": "modulo",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Mangler for enum fields",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "enumFieldMangler",
           "normalized": "[String]-\u003eString",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "funcAttr",
           "package": "modulo",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "funcAttr",
           "normalized": "Maybe(String,String)",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMangler for global functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "funcMangler",
           "package": "modulo",
@@ -356,6 +385,7 @@
         "index": {
           "description": "Mangler for global functions",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "funcMangler",
           "normalized": "[String]-\u003eString",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMangler for global variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "globalMangler",
           "package": "modulo",
@@ -382,6 +413,7 @@
         "index": {
           "description": "Mangler for global variables",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "globalMangler",
           "normalized": "[String]-\u003eString",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle used in GTK.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Types:     \u003ccode\u003e PFooBar \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Opaques:   \u003ccode\u003e _PFooBar \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Functions: \u003ccode\u003e p_foo_bar \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Constants: \u003ccode\u003e P_FOO_BAR \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Fields:    \u003ccode\u003e foo_bar \u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "gtkStyle",
           "package": "modulo",
@@ -408,6 +441,7 @@
         "index": {
           "description": "Style used in GTK Types PFooBar Opaques PFooBar Functions foo bar Constants FOO BAR Fields foo bar",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "gtkStyle",
           "package": "modulo",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMangler for names of header guards\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "guardMangler",
           "package": "modulo",
@@ -432,6 +467,7 @@
         "index": {
           "description": "Mangler for names of header guards",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "guardMangler",
           "normalized": "[String]-\u003eString",
@@ -448,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to write guards\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "guardStyle",
           "package": "modulo",
@@ -458,6 +495,7 @@
         "index": {
           "description": "How to write guards",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "guardStyle",
           "package": "modulo",
@@ -472,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle similar to Haskell conventions.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Types:     \u003ccode\u003e PFooBar \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Opaques:   \u003ccode\u003e PFooBarOpaque \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Functions: \u003ccode\u003e pfooBar \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Constants: \u003ccode\u003e pfooBar \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Fields:    \u003ccode\u003e pfooBar \u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "haskellStyle",
           "package": "modulo",
@@ -482,6 +521,7 @@
         "index": {
           "description": "Style similar to Haskell conventions Types PFooBar Opaques PFooBarOpaque Functions pfooBar Constants pfooBar Fields pfooBar",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "haskellStyle",
           "package": "modulo",
@@ -496,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport directive, usually \u003ccode\u003einclude\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "includeDirective",
           "package": "modulo",
@@ -506,6 +547,7 @@
         "index": {
           "description": "Import directive usually include",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "includeDirective",
           "package": "modulo",
@@ -520,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to write import declarations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "includeStyle",
           "package": "modulo",
@@ -530,6 +573,7 @@
         "index": {
           "description": "How to write import declarations",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "includeStyle",
           "package": "modulo",
@@ -544,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInner footer mangler (receives module name)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "innerFooter",
           "package": "modulo",
@@ -554,6 +599,7 @@
         "index": {
           "description": "Inner footer mangler receives module name",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "innerFooter",
           "normalized": "[String]-\u003eString",
@@ -570,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInner header mangler (receives module name, documentation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "innerHeader",
           "package": "modulo",
@@ -580,6 +627,7 @@
         "index": {
           "description": "Inner header mangler receives module name documentation",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "innerHeader",
           "normalized": "[String]-\u003eString-\u003eString",
@@ -596,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a module using the default style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "printModule",
           "package": "modulo",
@@ -606,6 +655,7 @@
         "index": {
           "description": "Print module using the default style",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "printModule",
           "normalized": "Module-\u003eString",
@@ -622,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a module using the default style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "printModuleComm",
           "package": "modulo",
@@ -632,6 +683,7 @@
         "index": {
           "description": "Print module using the default style",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "printModuleComm",
           "normalized": "Module-\u003eString",
@@ -648,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a module using the specified style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "printModuleStyle",
           "package": "modulo",
@@ -658,6 +711,7 @@
         "index": {
           "description": "Print module using the specified style",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "printModuleStyle",
           "normalized": "CStyle-\u003eModule-\u003eString",
@@ -674,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a module using the specified style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "printModuleStyleComm",
           "package": "modulo",
@@ -684,6 +739,7 @@
         "index": {
           "description": "Print module using the specified style",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "printModuleStyleComm",
           "normalized": "CStyle-\u003eModule-\u003eString",
@@ -700,6 +756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a module using the default style.\n\u003c/p\u003e\u003cp\u003eReturns a C header file, represented as a \u003ccode\u003e\u003ca\u003eCTranslUnit\u003c/a\u003e\u003c/code\u003e with enclosing header and footer strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "renderModule",
           "package": "modulo",
@@ -710,6 +767,7 @@
         "index": {
           "description": "Render module using the default style Returns header file represented as CTranslUnit with enclosing header and footer strings",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "renderModule",
           "normalized": "Module-\u003e(String,CTranslUnit,String)",
@@ -726,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a module using the specified style.\n\u003c/p\u003e\u003cp\u003eReturns a C header file, represented as a \u003ccode\u003e\u003ca\u003eCTranslUnit\u003c/a\u003e\u003c/code\u003e with enclosing header and footer strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "renderModuleStyle",
           "package": "modulo",
@@ -736,6 +795,7 @@
         "index": {
           "description": "Render module using the specified style Returns header file represented as CTranslUnit with enclosing header and footer strings",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "renderModuleStyle",
           "normalized": "CStyle-\u003eModule-\u003e(String,CTranslUnit,String)",
@@ -752,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle used in the C standard library.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Types:     \u003ccode\u003e foo_bar_type_t \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Functions: \u003ccode\u003e foo_bar_func \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Constants: \u003ccode\u003e FOO_BAR_VAL \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Fields:    \u003ccode\u003e foo_bar \u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "stdStyle",
           "package": "modulo",
@@ -762,6 +823,7 @@
         "index": {
           "description": "Style used in the standard library Types foo bar type Functions foo bar func Constants FOO BAR VAL Fields foo bar",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "stdStyle",
           "package": "modulo",
@@ -776,6 +838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMangler for struct fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "structFieldMangler",
           "package": "modulo",
@@ -786,6 +849,7 @@
         "index": {
           "description": "Mangler for struct fields",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "structFieldMangler",
           "normalized": "[String]-\u003eString",
@@ -801,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "translConst",
           "package": "modulo",
@@ -810,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "translConst",
           "normalized": "CStyle-\u003eName-\u003eName",
@@ -825,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "translEnumField",
           "package": "modulo",
@@ -834,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "translEnumField",
           "normalized": "CStyle-\u003eName-\u003eName",
@@ -849,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "translFun",
           "package": "modulo",
@@ -858,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "translFun",
           "normalized": "CStyle-\u003eName-\u003eName",
@@ -873,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "translGlobal",
           "package": "modulo",
@@ -882,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "translGlobal",
           "normalized": "CStyle-\u003eName-\u003eName",
@@ -897,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "translStructField",
           "package": "modulo",
@@ -906,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "translStructField",
           "normalized": "CStyle-\u003eName-\u003eName",
@@ -921,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "translType",
           "package": "modulo",
@@ -930,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "translType",
           "normalized": "CStyle-\u003eName-\u003eName",
@@ -945,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "translUnionField",
           "package": "modulo",
@@ -954,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "translUnionField",
           "normalized": "CStyle-\u003eName-\u003eName",
@@ -970,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMangler for implementation struct names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "typeMangler",
           "package": "modulo",
@@ -980,6 +1059,7 @@
         "index": {
           "description": "Mangler for implementation struct names",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "typeMangler",
           "normalized": "[String]-\u003eString",
@@ -996,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix for types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "typePrefixMangler",
           "package": "modulo",
@@ -1006,6 +1087,7 @@
         "index": {
           "description": "Prefix for types",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "typePrefixMangler",
           "normalized": "[String]-\u003eString",
@@ -1022,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMangler for union fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "unionFieldMangler",
           "package": "modulo",
@@ -1032,6 +1115,7 @@
         "index": {
           "description": "Mangler for union fields",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "unionFieldMangler",
           "normalized": "[String]-\u003eString",
@@ -1048,6 +1132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix for values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.C",
           "name": "valuePrefixMangler",
           "package": "modulo",
@@ -1058,6 +1143,7 @@
         "index": {
           "description": "Prefix for values",
           "hierarchy": "Language Modulo C",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.C",
           "name": "valuePrefixMangler",
           "normalized": "[String]-\u003eString",
@@ -1074,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRenders module descriptions as Haskell 2010 foreign declarations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Haskell",
           "name": "Haskell",
           "package": "modulo",
@@ -1083,6 +1170,7 @@
         "index": {
           "description": "Renders module descriptions as Haskell foreign declarations",
           "hierarchy": "Language Modulo Haskell",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Haskell",
           "name": "Haskell",
           "package": "modulo",
@@ -1096,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Haskell",
           "name": "HaskellStyle",
           "package": "modulo",
@@ -1104,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo Haskell",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Haskell",
           "name": "HaskellStyle",
           "package": "modulo",
@@ -1117,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Haskell",
           "name": "HaskellStyle",
           "package": "modulo",
@@ -1126,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo Haskell",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Haskell",
           "name": "HaskellStyle",
           "package": "modulo",
@@ -1140,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor generating foreign declarations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Haskell",
           "name": "cStyle",
           "package": "modulo",
@@ -1150,6 +1243,7 @@
         "index": {
           "description": "For generating foreign declarations",
           "hierarchy": "Language Modulo Haskell",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Haskell",
           "name": "cStyle",
           "package": "modulo",
@@ -1164,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a module using the default style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Haskell",
           "name": "printModuleHaskell",
           "package": "modulo",
@@ -1174,6 +1269,7 @@
         "index": {
           "description": "Print module using the default style",
           "hierarchy": "Language Modulo Haskell",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Haskell",
           "name": "printModuleHaskell",
           "normalized": "Module-\u003eString",
@@ -1190,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a module using the specified style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Haskell",
           "name": "printModuleHaskellStyle",
           "package": "modulo",
@@ -1200,6 +1297,7 @@
         "index": {
           "description": "Print module using the specified style",
           "hierarchy": "Language Modulo Haskell",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Haskell",
           "name": "printModuleHaskellStyle",
           "normalized": "HaskellStyle-\u003eModule-\u003eString",
@@ -1216,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a module using the default style.\n\u003c/p\u003e\u003cp\u003eReturns a Haskell file, represented as a syntax tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Haskell",
           "name": "renderModuleHaskell",
           "package": "modulo",
@@ -1226,6 +1325,7 @@
         "index": {
           "description": "Render module using the default style Returns Haskell file represented as syntax tree",
           "hierarchy": "Language Modulo Haskell",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Haskell",
           "name": "renderModuleHaskell",
           "normalized": "Module-\u003eHsModule",
@@ -1242,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a module using the specified style.\n\u003c/p\u003e\u003cp\u003eReturns a Haskell file, represented as a syntax tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Haskell",
           "name": "renderModuleHaskellStyle",
           "package": "modulo",
@@ -1252,6 +1353,7 @@
         "index": {
           "description": "Render module using the specified style Returns Haskell file represented as syntax tree",
           "hierarchy": "Language Modulo Haskell",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Haskell",
           "name": "renderModuleHaskellStyle",
           "normalized": "HaskellStyle-\u003eModule-\u003eHsModule",
@@ -1267,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Haskell",
           "name": "stdHaskellStyle",
           "package": "modulo",
@@ -1276,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo Haskell",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Haskell",
           "name": "stdHaskellStyle",
           "package": "modulo",
@@ -1290,6 +1394,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRenders module descriptions as JavaScript imports, using Node package \u003ccode\u003effi\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttps://github.com/rbranson/node-ffi\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.JavaScript",
           "name": "JavaScript",
           "package": "modulo",
@@ -1299,6 +1404,7 @@
         "index": {
           "description": "Renders module descriptions as JavaScript imports using Node package ffi See https github.com rbranson node-ffi",
           "hierarchy": "Language Modulo JavaScript",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.JavaScript",
           "name": "JavaScript",
           "package": "modulo",
@@ -1313,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRenders module descriptions as Common Lisp (CFFI) declarations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "Lisp",
           "package": "modulo",
@@ -1322,6 +1429,7 @@
         "index": {
           "description": "Renders module descriptions as Common Lisp CFFI declarations",
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "Lisp",
           "package": "modulo",
@@ -1335,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "LispStyle",
           "package": "modulo",
@@ -1343,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "LispStyle",
           "package": "modulo",
@@ -1356,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "LispStyle",
           "package": "modulo",
@@ -1365,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "LispStyle",
           "package": "modulo",
@@ -1379,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor generating foreign declarations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "cStyle",
           "package": "modulo",
@@ -1389,6 +1502,7 @@
         "index": {
           "description": "For generating foreign declarations",
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "cStyle",
           "package": "modulo",
@@ -1402,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "convertName",
           "package": "modulo",
@@ -1411,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "convertName",
           "normalized": "LispStyle-\u003eName-\u003eString",
@@ -1426,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "convertType",
           "package": "modulo",
@@ -1435,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "convertType",
           "normalized": "LispStyle-\u003eType-\u003eLisp",
@@ -1451,6 +1569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackage in which to generate definitions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "package",
           "package": "modulo",
@@ -1461,6 +1580,7 @@
         "index": {
           "description": "Package in which to generate definitions",
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "package",
           "package": "modulo",
@@ -1474,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mangler for prefixes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "prefixMangler",
           "package": "modulo",
@@ -1484,6 +1605,7 @@
         "index": {
           "description": "mangler for prefixes",
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "prefixMangler",
           "normalized": "[String]-\u003e[String]",
@@ -1500,6 +1622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of primitive booleans (default Int).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "primBoolType",
           "package": "modulo",
@@ -1510,6 +1633,7 @@
         "index": {
           "description": "Type of primitive booleans default Int",
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "primBoolType",
           "package": "modulo",
@@ -1524,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a module using the default style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "printModuleLisp",
           "package": "modulo",
@@ -1534,6 +1659,7 @@
         "index": {
           "description": "Print module using the default style",
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "printModuleLisp",
           "normalized": "Module-\u003eString",
@@ -1550,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a module using the specified style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "printModuleLispStyle",
           "package": "modulo",
@@ -1560,6 +1687,7 @@
         "index": {
           "description": "Print module using the specified style",
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "printModuleLispStyle",
           "normalized": "LispStyle-\u003eModule-\u003eString",
@@ -1576,6 +1704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a module using the default style.\n\u003c/p\u003e\u003cp\u003eReturns a Lisp file, represented as a sequence of S-expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "renderModuleLisp",
           "package": "modulo",
@@ -1586,6 +1715,7 @@
         "index": {
           "description": "Render module using the default style Returns Lisp file represented as sequence of S-expressions",
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "renderModuleLisp",
           "normalized": "Module-\u003e[Lisp]",
@@ -1602,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a module using the specified style.\n\u003c/p\u003e\u003cp\u003eReturns a Lisp file, represented as a sequence of S-expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "renderModuleLispStyle",
           "package": "modulo",
@@ -1612,6 +1743,7 @@
         "index": {
           "description": "Render module using the specified style Returns Lisp file represented as sequence of S-expressions",
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "renderModuleLispStyle",
           "normalized": "LispStyle-\u003eModule-\u003e[Lisp]",
@@ -1628,6 +1760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf true, generate a wrapper class for each opaque type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "safeOpaque",
           "package": "modulo",
@@ -1638,6 +1771,7 @@
         "index": {
           "description": "If true generate wrapper class for each opaque type",
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "safeOpaque",
           "package": "modulo",
@@ -1651,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Lisp",
           "name": "stdLispStyle",
           "package": "modulo",
@@ -1660,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo Lisp",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Lisp",
           "name": "stdLispStyle",
           "package": "modulo",
@@ -1673,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Load",
           "name": "Load",
           "package": "modulo",
@@ -1681,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo Load",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Load",
           "name": "Load",
           "package": "modulo",
@@ -1695,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath where modules are stored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Load",
           "name": "ModulePath",
           "package": "modulo",
@@ -1704,6 +1843,7 @@
         "index": {
           "description": "Path where modules are stored",
           "hierarchy": "Language Modulo Load",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Load",
           "name": "ModulePath",
           "package": "modulo",
@@ -1718,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a module name to a list of absolute paths, in order of preference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Load",
           "name": "absolutePaths",
           "package": "modulo",
@@ -1728,6 +1869,7 @@
         "index": {
           "description": "Converts module name to list of absolute paths in order of preference",
           "hierarchy": "Language Modulo Load",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Load",
           "name": "absolutePaths",
           "normalized": "[ModulePath]-\u003eModuleName-\u003e[FilePath]",
@@ -1744,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad the dependencies of the given module.\n\u003c/p\u003e\u003cp\u003eDependencies of the loaded modules are loaded transitively. \n This function blocks if a recursive dependency is encountered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Load",
           "name": "loadDependencies",
           "package": "modulo",
@@ -1754,6 +1897,7 @@
         "index": {
           "description": "Load the dependencies of the given module Dependencies of the loaded modules are loaded transitively This function blocks if recursive dependency is encountered",
           "hierarchy": "Language Modulo Load",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Load",
           "name": "loadDependencies",
           "normalized": "[ModulePath]-\u003eModule-\u003eIO[Module]",
@@ -1770,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a module of the given name.\n\u003c/p\u003e\u003cp\u003eDependencies of the loaded modules are loaded transitively. \n This function blocks if a recursive dependency is encountered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Load",
           "name": "loadModule",
           "package": "modulo",
@@ -1780,6 +1925,7 @@
         "index": {
           "description": "Load module of the given name Dependencies of the loaded modules are loaded transitively This function blocks if recursive dependency is encountered",
           "hierarchy": "Language Modulo Load",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Load",
           "name": "loadModule",
           "normalized": "[ModulePath]-\u003eModuleName-\u003eIO[Module]",
@@ -1796,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a module name to a relative path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Load",
           "name": "relativePath",
           "package": "modulo",
@@ -1806,6 +1953,7 @@
         "index": {
           "description": "Converts module name to relative path",
           "hierarchy": "Language Modulo Load",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Load",
           "name": "relativePath",
           "normalized": "ModuleName-\u003eFilePath",
@@ -1822,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule paths, in order of preference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Load",
           "name": "stdModulePaths",
           "package": "modulo",
@@ -1832,6 +1981,7 @@
         "index": {
           "description": "Module paths in order of preference",
           "hierarchy": "Language Modulo Load",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Load",
           "name": "stdModulePaths",
           "normalized": "[ModulePath]",
@@ -1848,6 +1998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend the standard paths to the given paths.\n\u003c/p\u003e\u003cp\u003eThat is, the given paths take precedence over the standards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Load",
           "name": "withStdModulePaths",
           "package": "modulo",
@@ -1858,6 +2009,7 @@
         "index": {
           "description": "Append the standard paths to the given paths That is the given paths take precedence over the standards",
           "hierarchy": "Language Modulo Load",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Load",
           "name": "withStdModulePaths",
           "normalized": "[ModulePath]-\u003e[ModulePath]",
@@ -1874,6 +2026,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser for the module language, as described in \u003ca\u003eLanguage.Modulo\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Parse",
           "name": "Parse",
           "package": "modulo",
@@ -1883,6 +2036,7 @@
         "index": {
           "description": "Parser for the module language as described in Language.Modulo",
           "hierarchy": "Language Modulo Parse",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Parse",
           "name": "Parse",
           "package": "modulo",
@@ -1897,6 +2051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a module description, returning an error if unsuccessful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Parse",
           "name": "parse",
           "package": "modulo",
@@ -1907,6 +2062,7 @@
         "index": {
           "description": "Parse module description returning an error if unsuccessful",
           "hierarchy": "Language Modulo Parse",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Parse",
           "name": "parse",
           "normalized": "String-\u003eEither ParseError Module",
@@ -1922,6 +2078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a qualified name, returning an error if unsuccessful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Parse",
           "name": "parseName",
           "package": "modulo",
@@ -1932,6 +2089,7 @@
         "index": {
           "description": "Parse qualified name returning an error if unsuccessful",
           "hierarchy": "Language Modulo Parse",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Parse",
           "name": "parseName",
           "normalized": "String-\u003eEither ParseError Name",
@@ -1948,6 +2106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a primitive type, returning an error if unsuccessful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Parse",
           "name": "parsePrimType",
           "package": "modulo",
@@ -1958,6 +2117,7 @@
         "index": {
           "description": "Parse primitive type returning an error if unsuccessful",
           "hierarchy": "Language Modulo Parse",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Parse",
           "name": "parsePrimType",
           "normalized": "String-\u003eEither ParseError PrimType",
@@ -1974,6 +2134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a primitive type, returning an error if unsuccessful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Parse",
           "name": "parsePrimTypeMaybe",
           "package": "modulo",
@@ -1984,6 +2145,7 @@
         "index": {
           "description": "Parse primitive type returning an error if unsuccessful",
           "hierarchy": "Language Modulo Parse",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Parse",
           "name": "parsePrimTypeMaybe",
           "normalized": "String-\u003eMaybe PrimType",
@@ -2000,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a module description from the given file, or fail if unsuccessful.\n\u003c/p\u003e\u003cp\u003eThis unsafe function should not be used in production code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Parse",
           "name": "unsafeParseFile",
           "package": "modulo",
@@ -2010,6 +2173,7 @@
         "index": {
           "description": "Parse module description from the given file or fail if unsuccessful This unsafe function should not be used in production code",
           "hierarchy": "Language Modulo Parse",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Parse",
           "name": "unsafeParseFile",
           "normalized": "FilePath-\u003eIO Module",
@@ -2025,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Rename",
           "name": "Rename",
           "package": "modulo",
@@ -2033,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo Rename",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Rename",
           "name": "Rename",
           "package": "modulo",
@@ -2047,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd default parameter names to functions.\n   (Replaces \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e with the unqualified type name).\n\u003c/p\u003e\u003cp\u003eMainly useful for documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Rename",
           "name": "addParams",
           "package": "modulo",
@@ -2057,6 +2224,7 @@
         "index": {
           "description": "Add default parameter names to functions Replaces Nothing with the unqualified type name Mainly useful for documentation",
           "hierarchy": "Language Modulo Rename",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Rename",
           "name": "addParams",
           "normalized": "Module-\u003eModule",
@@ -2073,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all unqualified names as qualified names.\n\u003c/p\u003e\u003cp\u003eThis function is partial with the following invariants:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Received module has no QName constructors\n\u003c/li\u003e\u003cli\u003e Returned module has no Name constructors\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Rename",
           "name": "rename",
           "package": "modulo",
@@ -2083,6 +2252,7 @@
         "index": {
           "description": "Rewrite all unqualified names as qualified names This function is partial with the following invariants Received module has no QName constructors Returned module has no Name constructors",
           "hierarchy": "Language Modulo Rename",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Rename",
           "name": "rename",
           "normalized": "[Module]-\u003eModule-\u003eModule",
@@ -2098,6 +2268,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManglers for various kinds of identifiers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util.Mangle",
           "name": "Mangle",
           "package": "modulo",
@@ -2107,6 +2278,7 @@
         "index": {
           "description": "Manglers for various kinds of identifiers",
           "hierarchy": "Language Modulo Util Mangle",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util.Mangle",
           "name": "Mangle",
           "package": "modulo",
@@ -2121,6 +2293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMangle an indentifier in capital case, i.e. \u003ccode\u003e[foo, bar]\u003c/code\u003e becomes \u003ccode\u003eFooBar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util.Mangle",
           "name": "capitalCase",
           "package": "modulo",
@@ -2131,6 +2304,7 @@
         "index": {
           "description": "Mangle an indentifier in capital case i.e foo bar becomes FooBar",
           "hierarchy": "Language Modulo Util Mangle",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util.Mangle",
           "name": "capitalCase",
           "normalized": "[String]-\u003eString",
@@ -2147,6 +2321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMangle an indentifier in mixed case, i.e. \u003ccode\u003e[foo, bar]\u003c/code\u003e becomes \u003ccode\u003efooBar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util.Mangle",
           "name": "mixedCase",
           "package": "modulo",
@@ -2157,6 +2332,7 @@
         "index": {
           "description": "Mangle an indentifier in mixed case i.e foo bar becomes fooBar",
           "hierarchy": "Language Modulo Util Mangle",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util.Mangle",
           "name": "mixedCase",
           "normalized": "[String]-\u003eString",
@@ -2173,6 +2349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMangle an indentifier using the underscore as separator, i.e. \u003ccode\u003e[foo, bar]\u003c/code\u003e becomes \u003ccode\u003efoo_bar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util.Mangle",
           "name": "sepCase",
           "package": "modulo",
@@ -2183,6 +2360,7 @@
         "index": {
           "description": "Mangle an indentifier using the underscore as separator i.e foo bar becomes foo bar",
           "hierarchy": "Language Modulo Util Mangle",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util.Mangle",
           "name": "sepCase",
           "normalized": "[String]-\u003eString",
@@ -2199,6 +2377,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnmanglers for various kinds of identifiers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util.Unmangle",
           "name": "Unmangle",
           "package": "modulo",
@@ -2208,6 +2387,7 @@
         "index": {
           "description": "Unmanglers for various kinds of identifiers",
           "hierarchy": "Language Modulo Util Unmangle",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util.Unmangle",
           "name": "Unmangle",
           "package": "modulo",
@@ -2222,6 +2402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnmangle an indentifier in mixed case, i.e. \u003ccode\u003efooBar\u003c/code\u003e becomes \u003ccode\u003e[foo, bar]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util.Unmangle",
           "name": "uncase",
           "package": "modulo",
@@ -2232,6 +2413,7 @@
         "index": {
           "description": "Unmangle an indentifier in mixed case i.e fooBar becomes foo bar",
           "hierarchy": "Language Modulo Util Unmangle",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util.Unmangle",
           "name": "uncase",
           "normalized": "String-\u003e[String]",
@@ -2247,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnmangle an indentifier in mixed or separarated case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util.Unmangle",
           "name": "unmangle",
           "package": "modulo",
@@ -2257,6 +2440,7 @@
         "index": {
           "description": "Unmangle an indentifier in mixed or separarated case",
           "hierarchy": "Language Modulo Util Unmangle",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util.Unmangle",
           "name": "unmangle",
           "normalized": "String-\u003e[String]",
@@ -2272,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnmangle an indentifier using the underscore as separator, i.e. \u003ccode\u003efoo_bar\u003c/code\u003e becomes \u003ccode\u003e[foo, bar]\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e unsep (sep a) = a, iff a /= []\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util.Unmangle",
           "name": "unsep",
           "package": "modulo",
@@ -2282,6 +2467,7 @@
         "index": {
           "description": "Unmangle an indentifier using the underscore as separator i.e foo bar becomes foo bar unsep sep iff",
           "hierarchy": "Language Modulo Util Unmangle",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util.Unmangle",
           "name": "unsep",
           "normalized": "String-\u003e[String]",
@@ -2296,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "Util",
           "package": "modulo",
@@ -2304,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "Util",
           "package": "modulo",
@@ -2318,6 +2506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak up a list into parts of maximum length n, inserting the given list as separator.\n Useful for breaking up strings, as in \u003ccode\u003ebreakList 80 \u003ca\u003en\u003c/a\u003e str\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "breakList",
           "package": "modulo",
@@ -2328,6 +2517,7 @@
         "index": {
           "description": "Break up list into parts of maximum length inserting the given list as separator Useful for breaking up strings as in breakList str",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "breakList",
           "normalized": "Int-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -2344,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak up a list into parts of maximum length n, inserting the given list as separator.\n Useful for breaking up strings, as in \u003ccode\u003ebreakList 80 \u003ca\u003en\u003c/a\u003e str\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "concatMapM",
           "package": "modulo",
@@ -2354,6 +2545,7 @@
         "index": {
           "description": "Break up list into parts of maximum length inserting the given list as separator Useful for breaking up strings as in breakList str",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "concatMapM",
           "normalized": "(a-\u003eb[c])-\u003e[a]-\u003eb[c]",
@@ -2370,6 +2562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombination of \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003epost\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "concatPost",
           "package": "modulo",
@@ -2380,6 +2573,7 @@
         "index": {
           "description": "Combination of concat and post",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "concatPost",
           "normalized": "[a]-\u003e[[a]]-\u003e[a]",
@@ -2396,6 +2590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombination of \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003epre\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "concatPre",
           "package": "modulo",
@@ -2406,6 +2601,7 @@
         "index": {
           "description": "Combination of concat and pre",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "concatPre",
           "normalized": "[a]-\u003e[[a]]-\u003e[a]",
@@ -2422,6 +2618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombination of \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "concatSep",
           "package": "modulo",
@@ -2432,6 +2629,7 @@
         "index": {
           "description": "Combination of concat and sep",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "concatSep",
           "normalized": "[a]-\u003e[[a]]-\u003e[a]",
@@ -2448,6 +2646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombination of \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ewrap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "concatWrap",
           "package": "modulo",
@@ -2458,6 +2657,7 @@
         "index": {
           "description": "Combination of concat and wrap",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "concatWrap",
           "normalized": "[a]-\u003e[a]-\u003e[[a]]-\u003e[a]",
@@ -2474,6 +2674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivide a list into parts of maximum length n.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "divideList",
           "package": "modulo",
@@ -2484,6 +2685,7 @@
         "index": {
           "description": "Divide list into parts of maximum length",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "divideList",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -2500,6 +2702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate and terminate a list by the given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "post",
           "package": "modulo",
@@ -2510,6 +2713,7 @@
         "index": {
           "description": "Separate and terminate list by the given element",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "post",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -2525,6 +2729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitiate and separate a list by the given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "pre",
           "package": "modulo",
@@ -2535,6 +2740,7 @@
         "index": {
           "description": "Initiate and separate list by the given element",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "pre",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -2550,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate a list by the given element.\n\u003c/p\u003e\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003eintersperse\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "sep",
           "package": "modulo",
@@ -2560,6 +2767,7 @@
         "index": {
           "description": "Separate list by the given element Equivalent to intersperse",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "sep",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -2575,6 +2783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a string to use upper case for the leading letter and lower case for \n remaining letters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "toCapitalString",
           "package": "modulo",
@@ -2585,6 +2794,7 @@
         "index": {
           "description": "Convert string to use upper case for the leading letter and lower case for remaining letters",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "toCapitalString",
           "normalized": "String-\u003eString",
@@ -2601,6 +2811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003e\u003ca\u003etoLower\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "toLowerChar",
           "package": "modulo",
@@ -2611,6 +2822,7 @@
         "index": {
           "description": "Synonym for toLower",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "toLowerChar",
           "normalized": "Char-\u003eChar",
@@ -2627,6 +2839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for 'fmap Char.toLower'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "toLowerString",
           "package": "modulo",
@@ -2637,6 +2850,7 @@
         "index": {
           "description": "Synonym for fmap Char.toLower",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "toLowerString",
           "normalized": "String-\u003eString",
@@ -2653,6 +2867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003e\u003ca\u003etoUpper\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "toUpperChar",
           "package": "modulo",
@@ -2663,6 +2878,7 @@
         "index": {
           "description": "Synonym for toUpper",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "toUpperChar",
           "normalized": "Char-\u003eChar",
@@ -2679,6 +2895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for 'fmap Char.toUpper'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "toUpperString",
           "package": "modulo",
@@ -2689,6 +2906,7 @@
         "index": {
           "description": "Synonym for fmap Char.toUpper",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "toUpperString",
           "normalized": "String-\u003eString",
@@ -2705,6 +2923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for '(++)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "withPrefix",
           "package": "modulo",
@@ -2715,6 +2934,7 @@
         "index": {
           "description": "Synonym for",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "withPrefix",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -2731,6 +2951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for 'flip (++)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "withSuffix",
           "package": "modulo",
@@ -2741,6 +2962,7 @@
         "index": {
           "description": "Synonym for flip",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "withSuffix",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -2757,6 +2979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate and terminate a list by the given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo.Util",
           "name": "wrap",
           "package": "modulo",
@@ -2767,6 +2990,7 @@
         "index": {
           "description": "Separate and terminate list by the given element",
           "hierarchy": "Language Modulo Util",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo.Util",
           "name": "wrap",
           "normalized": "a-\u003ea-\u003e[a]-\u003e[a]",
@@ -2782,6 +3006,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Haskell module defines the Modulo description language. Typically, modules are created\n by writing \u003ccode\u003e.module\u003c/code\u003e files and using the parser defined in \u003ca\u003eLanguage.Modulo.Parser\u003c/a\u003e, or\n the \u003ccode\u003emodulo\u003c/code\u003e command-line tool. The abstract syntax tree is given below.\n\u003c/p\u003e\u003cp\u003eThe module language is very simple. Each module consists of a name followed by\n eventual import declarations, followed by all other declarations. Here is an example module:\n\u003c/p\u003e\u003cpre\u003e module Scl.List\n {\n   opaque Elem;\n   opaque List;\n \n   nil     : () -\u003e List;\n   cons    : (Elem, List) -\u003e List;\n   head    : (List) -\u003e Elem;\n   tail    : (List) -\u003e List;\n \n   empty   : (List) -\u003e Bool;\n   lenght  : (List) -\u003e Int;\n \n   reverse : (List) -\u003e List;\n   sort    : (List) -\u003e List;\n }\n\u003c/pre\u003e\u003cp\u003eLike C, the module language uses structural typing for pointers and functions, but\n nominal typing for structures and unions. Thus in the following example values of type\n \u003ccode\u003eA\u003c/code\u003e and \u003ccode\u003eB\u003c/code\u003e are interchangeable, but values of type \u003ccode\u003eC\u003c/code\u003e and \u003ccode\u003eD\u003c/code\u003e are not.\n\u003c/p\u003e\u003cpre\u003e type A = Ptr Int\n type B = Ptr Int\n type C = struct { x : Int, y : Int }\n type D = struct { x : Int, y : Int }\n\u003c/pre\u003e\u003cp\u003eThe pointer type constructor can be used with any type:\n\u003c/p\u003e\u003cpre\u003e type IntPtr = Int*\n type FloatPtr = Float*\n\u003c/pre\u003e\u003cp\u003eThe array type constructor need an explicit length:\n\u003c/p\u003e\u003cpre\u003e type IntVec = [Int x 10]\n\u003c/pre\u003e\u003cp\u003eFunctions are written as in Haskell, except for the parentheses enclosing the arguments.\n Thus, higher-arity functions are easily distinguished.\n\u003c/p\u003e\u003cpre\u003e type NoCurry = (A, B) -\u003e C\n type Curry   = (A) -\u003e (B) -\u003e C\n\u003c/pre\u003e\u003cp\u003eCompound types are written in a uniform manner:\n\u003c/p\u003e\u003cpre\u003e type IntCounter = struct { a : Int, b : Int -\u003e Int }\n type NumValue   = union { left : Int, right : Float }\n type Color      = enum { Red, Green, Blue }\n\u003c/pre\u003e\u003cp\u003eThe following primitive types are provided:\n\u003c/p\u003e\u003cpre\u003e Void Size Ptrdiff Intptr UIntptr \n Char Short Int Long LongLong\n UChar UShort UInt ULong ULongLong\n Float Double LongDouble\n Int8 Int16 Int32 Int64 UInt8 UInt16 UInt32 UInt64\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Modulo",
           "package": "modulo",
@@ -2791,6 +3016,7 @@
         "index": {
           "description": "This Haskell module defines the Modulo description language Typically modules are created by writing module files and using the parser defined in Language.Modulo.Parser or the modulo command-line tool The abstract syntax tree is given below The module language is very simple Each module consists of name followed by eventual import declarations followed by all other declarations Here is an example module module Scl.List opaque Elem opaque List nil List cons Elem List List head List Elem tail List List empty List Bool lenght List Int reverse List List sort List List Like the module language uses structural typing for pointers and functions but nominal typing for structures and unions Thus in the following example values of type and are interchangeable but values of type and are not type Ptr Int type Ptr Int type struct Int Int type struct Int Int The pointer type constructor can be used with any type type IntPtr Int type FloatPtr Float The array type constructor need an explicit length type IntVec Int Functions are written as in Haskell except for the parentheses enclosing the arguments Thus higher-arity functions are easily distinguished type NoCurry type Curry Compound types are written in uniform manner type IntCounter struct Int Int Int type NumValue union left Int right Float type Color enum Red Green Blue The following primitive types are provided Void Size Ptrdiff Intptr UIntptr Char Short Int Long LongLong UChar UShort UInt ULong ULongLong Float Double LongDouble Int8 Int16 Int32 Int64 UInt8 UInt16 UInt32 UInt64",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Modulo",
           "package": "modulo",
@@ -2804,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "CompType",
           "package": "modulo",
@@ -2812,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "CompType",
           "package": "modulo",
@@ -2826,6 +3054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn declaration maps a name to type and optionally a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Decl",
           "package": "modulo",
@@ -2835,6 +3064,7 @@
         "index": {
           "description": "An declaration maps name to type and optionally value",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Decl",
           "package": "modulo",
@@ -2848,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Doc",
           "package": "modulo",
@@ -2856,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Doc",
           "package": "modulo",
@@ -2870,6 +3102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "FunType",
           "package": "modulo",
@@ -2879,6 +3112,7 @@
         "index": {
           "description": "function type",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "FunType",
           "package": "modulo",
@@ -2893,6 +3127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA module is a named container of imports and declarations.\n\u003c/p\u003e\u003cp\u003eEach module can depend on a set of other modules (translated as include directives).\n Recursive dependencies are not allowed for now.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Module",
           "package": "modulo",
@@ -2902,6 +3137,7 @@
         "index": {
           "description": "module is named container of imports and declarations Each module can depend on set of other modules translated as include directives Recursive dependencies are not allowed for now",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Module",
           "package": "modulo",
@@ -2916,6 +3152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA module name is a non-empty list of strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "ModuleName",
           "package": "modulo",
@@ -2925,6 +3162,7 @@
         "index": {
           "description": "module name is non-empty list of strings",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "ModuleName",
           "package": "modulo",
@@ -2938,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "ModuleOptions",
           "package": "modulo",
@@ -2946,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "ModuleOptions",
           "package": "modulo",
@@ -2960,6 +3200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of a type, function or constant value.\n\u003c/p\u003e\u003cp\u003eNote that any Unicode string may be used as a name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Name",
           "package": "modulo",
@@ -2969,6 +3210,7 @@
         "index": {
           "description": "Name of type function or constant value Note that any Unicode string may be used as name",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Name",
           "package": "modulo",
@@ -2983,6 +3225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA primitive type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "PrimType",
           "package": "modulo",
@@ -2992,6 +3235,7 @@
         "index": {
           "description": "primitive type",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "PrimType",
           "package": "modulo",
@@ -3005,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "RefType",
           "package": "modulo",
@@ -3013,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "RefType",
           "package": "modulo",
@@ -3027,6 +3273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type is either an alias, a primitive or a compound type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Type",
           "package": "modulo",
@@ -3036,6 +3283,7 @@
         "index": {
           "description": "type is either an alias primitive or compound type",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Type",
           "package": "modulo",
@@ -3050,6 +3298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value is anything that can be declared as a C constant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Value",
           "package": "modulo",
@@ -3059,6 +3308,7 @@
         "index": {
           "description": "value is anything that can be declared as constant",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Value",
           "package": "modulo",
@@ -3073,6 +3323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias, introduced by a former type declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "AliasType",
           "package": "modulo",
@@ -3083,6 +3334,7 @@
         "index": {
           "description": "An alias introduced by former type declaration",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "AliasType",
           "package": "modulo",
@@ -3097,6 +3349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe C array type \u003ccode\u003et[n]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Array",
           "package": "modulo",
@@ -3107,6 +3360,7 @@
         "index": {
           "description": "The array type",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Array",
           "package": "modulo",
@@ -3121,6 +3375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA C bitfield type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "BitField",
           "package": "modulo",
@@ -3131,6 +3386,7 @@
         "index": {
           "description": "bitfield type",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "BitField",
           "normalized": "BitField(NonEmpty(Name,Type,Natural))",
@@ -3146,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Bool",
           "package": "modulo",
@@ -3155,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Bool",
           "package": "modulo",
@@ -3168,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "CFloat",
           "package": "modulo",
@@ -3177,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "CFloat",
           "package": "modulo",
@@ -3190,6 +3450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "CInitList",
           "package": "modulo",
@@ -3199,6 +3460,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "CInitList",
           "normalized": "CInitList[Value]",
@@ -3214,6 +3476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "CInt",
           "package": "modulo",
@@ -3223,6 +3486,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "CInt",
           "package": "modulo",
@@ -3236,6 +3500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "CStr",
           "package": "modulo",
@@ -3245,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "CStr",
           "package": "modulo",
@@ -3258,6 +3524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "CWStr",
           "package": "modulo",
@@ -3267,6 +3534,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "CWStr",
           "package": "modulo",
@@ -3280,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Char",
           "package": "modulo",
@@ -3289,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Char",
           "package": "modulo",
@@ -3302,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "CompType",
           "package": "modulo",
@@ -3311,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "CompType",
           "package": "modulo",
@@ -3325,6 +3597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclares a constant value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "ConstDecl",
           "package": "modulo",
@@ -3335,6 +3608,7 @@
         "index": {
           "description": "Declares constant value",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "ConstDecl",
           "package": "modulo",
@@ -3348,6 +3622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Doc",
           "package": "modulo",
@@ -3357,6 +3632,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Doc",
           "package": "modulo",
@@ -3370,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Double",
           "package": "modulo",
@@ -3379,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Double",
           "package": "modulo",
@@ -3393,6 +3671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA C enum type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Enum",
           "package": "modulo",
@@ -3403,6 +3682,7 @@
         "index": {
           "description": "enum type",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Enum",
           "package": "modulo",
@@ -3416,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Float",
           "package": "modulo",
@@ -3425,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Float",
           "package": "modulo",
@@ -3438,6 +3720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "FunType",
           "package": "modulo",
@@ -3447,6 +3730,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "FunType",
           "package": "modulo",
@@ -3461,6 +3745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe C function type \u003ccode\u003eTn(T1, ... Tn-1)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Function",
           "package": "modulo",
@@ -3471,6 +3756,7 @@
         "index": {
           "description": "The function type Tn T1 Tn-1",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Function",
           "normalized": "Function[(Maybe Name,Type)]Type",
@@ -3487,6 +3773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclares a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "FunctionDecl",
           "package": "modulo",
@@ -3497,6 +3784,7 @@
         "index": {
           "description": "Declares function",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "FunctionDecl",
           "package": "modulo",
@@ -3511,6 +3799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclares a global variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "GlobalDecl",
           "package": "modulo",
@@ -3521,6 +3810,7 @@
         "index": {
           "description": "Declares global variable",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "GlobalDecl",
           "package": "modulo",
@@ -3534,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Int",
           "package": "modulo",
@@ -3543,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Int",
           "package": "modulo",
@@ -3556,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Int16",
           "package": "modulo",
@@ -3565,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Int16",
           "package": "modulo",
@@ -3578,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Int32",
           "package": "modulo",
@@ -3587,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Int32",
           "package": "modulo",
@@ -3600,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Int64",
           "package": "modulo",
@@ -3609,6 +3906,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Int64",
           "package": "modulo",
@@ -3622,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Int8",
           "package": "modulo",
@@ -3631,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Int8",
           "package": "modulo",
@@ -3644,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Intptr",
           "package": "modulo",
@@ -3653,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Intptr",
           "package": "modulo",
@@ -3666,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Long",
           "package": "modulo",
@@ -3675,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Long",
           "package": "modulo",
@@ -3688,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "LongDouble",
           "package": "modulo",
@@ -3697,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "LongDouble",
           "package": "modulo",
@@ -3710,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "LongLong",
           "package": "modulo",
@@ -3719,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "LongLong",
           "package": "modulo",
@@ -3732,6 +4040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Module",
           "package": "modulo",
@@ -3741,6 +4050,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Module",
           "package": "modulo",
@@ -3754,6 +4064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "ModuleName",
           "package": "modulo",
@@ -3763,6 +4074,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "ModuleName",
           "package": "modulo",
@@ -3776,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "ModuleOptions",
           "package": "modulo",
@@ -3785,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "ModuleOptions",
           "package": "modulo",
@@ -3798,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Name",
           "package": "modulo",
@@ -3807,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Name",
           "package": "modulo",
@@ -3821,6 +4137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe C pointer type \u003ccode\u003et*\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Pointer",
           "package": "modulo",
@@ -3831,6 +4148,7 @@
         "index": {
           "description": "The pointer type",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Pointer",
           "package": "modulo",
@@ -3844,6 +4162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "PrimType",
           "package": "modulo",
@@ -3853,6 +4172,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "PrimType",
           "package": "modulo",
@@ -3866,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Ptrdiff",
           "package": "modulo",
@@ -3875,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Ptrdiff",
           "package": "modulo",
@@ -3888,6 +4210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "QName",
           "package": "modulo",
@@ -3897,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "QName",
           "package": "modulo",
@@ -3910,6 +4234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "RefType",
           "package": "modulo",
@@ -3919,6 +4244,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "RefType",
           "package": "modulo",
@@ -3932,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "SChar",
           "package": "modulo",
@@ -3941,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "SChar",
           "package": "modulo",
@@ -3954,6 +4282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Short",
           "package": "modulo",
@@ -3963,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Short",
           "package": "modulo",
@@ -3976,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Size",
           "package": "modulo",
@@ -3985,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Size",
           "package": "modulo",
@@ -3999,6 +4331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA C struct type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Struct",
           "package": "modulo",
@@ -4009,6 +4342,7 @@
         "index": {
           "description": "struct type",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Struct",
           "normalized": "Struct(NonEmpty(Name,Type))",
@@ -4025,6 +4359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclares a struct or enum tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "TagDecl",
           "package": "modulo",
@@ -4035,6 +4370,7 @@
         "index": {
           "description": "Declares struct or enum tag",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "TagDecl",
           "package": "modulo",
@@ -4049,6 +4385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclares a type or opaque.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "TypeDecl",
           "package": "modulo",
@@ -4059,6 +4396,7 @@
         "index": {
           "description": "Declares type or opaque",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "TypeDecl",
           "package": "modulo",
@@ -4072,6 +4410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "UChar",
           "package": "modulo",
@@ -4081,6 +4420,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "UChar",
           "package": "modulo",
@@ -4094,6 +4434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "UInt",
           "package": "modulo",
@@ -4103,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "UInt",
           "package": "modulo",
@@ -4116,6 +4458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "UInt16",
           "package": "modulo",
@@ -4125,6 +4468,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "UInt16",
           "package": "modulo",
@@ -4138,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "UInt32",
           "package": "modulo",
@@ -4147,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "UInt32",
           "package": "modulo",
@@ -4160,6 +4506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "UInt64",
           "package": "modulo",
@@ -4169,6 +4516,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "UInt64",
           "package": "modulo",
@@ -4182,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "UInt8",
           "package": "modulo",
@@ -4191,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "UInt8",
           "package": "modulo",
@@ -4204,6 +4554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "UIntptr",
           "package": "modulo",
@@ -4213,6 +4564,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "UIntptr",
           "package": "modulo",
@@ -4226,6 +4578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "ULong",
           "package": "modulo",
@@ -4235,6 +4588,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "ULong",
           "package": "modulo",
@@ -4248,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "ULongLong",
           "package": "modulo",
@@ -4257,6 +4612,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "ULongLong",
           "package": "modulo",
@@ -4270,6 +4626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "UShort",
           "package": "modulo",
@@ -4279,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "UShort",
           "package": "modulo",
@@ -4293,6 +4651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA C union type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Union",
           "package": "modulo",
@@ -4303,6 +4662,7 @@
         "index": {
           "description": "union type",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Union",
           "normalized": "Union(NonEmpty(Name,Type))",
@@ -4318,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "Void",
           "package": "modulo",
@@ -4327,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "Void",
           "package": "modulo",
@@ -4340,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "getDeclName",
           "package": "modulo",
@@ -4349,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "getDeclName",
           "normalized": "Decl-\u003eMaybe Name",
@@ -4364,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "getDoc",
           "package": "modulo",
@@ -4373,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "getDoc",
           "package": "modulo",
@@ -4386,6 +4752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "getModuleName",
           "package": "modulo",
@@ -4395,6 +4762,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "getModuleName",
           "package": "modulo",
@@ -4408,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "getModuleNameList",
           "package": "modulo",
@@ -4417,6 +4786,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "getModuleNameList",
           "normalized": "ModuleName-\u003e[String]",
@@ -4432,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "getName",
           "package": "modulo",
@@ -4441,6 +4812,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "getName",
           "normalized": "Name-\u003eString",
@@ -4457,6 +4829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of declarations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "modDecls",
           "package": "modulo",
@@ -4467,6 +4840,7 @@
         "index": {
           "description": "List of declarations",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "modDecls",
           "normalized": "[(Doc,Decl)]",
@@ -4483,6 +4857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "modDoc",
           "package": "modulo",
@@ -4493,6 +4868,7 @@
         "index": {
           "description": "Module documentation",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "modDoc",
           "package": "modulo",
@@ -4507,6 +4883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImports with optional import conventions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "modImports",
           "package": "modulo",
@@ -4517,6 +4894,7 @@
         "index": {
           "description": "Imports with optional import conventions",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "modImports",
           "normalized": "[(ModuleName,Maybe String)]",
@@ -4533,6 +4911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "modName",
           "package": "modulo",
@@ -4543,6 +4922,7 @@
         "index": {
           "description": "Name of module",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "modName",
           "package": "modulo",
@@ -4557,6 +4937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "modOptions",
           "package": "modulo",
@@ -4567,6 +4948,7 @@
         "index": {
           "description": "Module options",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "modOptions",
           "package": "modulo",
@@ -4581,6 +4963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf true, this module does not incur any C prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "optTransient",
           "package": "modulo",
@@ -4591,6 +4974,7 @@
         "index": {
           "description": "If true this module does not incur any prefix",
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "optTransient",
           "package": "modulo",
@@ -4604,6 +4988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:20 UTC 2014",
           "module": "Language.Modulo",
           "name": "toModuleName",
           "package": "modulo",
@@ -4613,6 +4998,7 @@
         },
         "index": {
           "hierarchy": "Language Modulo",
+          "indexed": "2014-03-11T19:19:20",
           "module": "Language.Modulo",
           "name": "toModuleName",
           "normalized": "[String]-\u003eModuleName",

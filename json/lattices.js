@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lattices"
+        "phrase": "lattices",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Enumerable",
           "name": "Enumerable",
           "package": "lattices",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Algebra Enumerable",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Enumerable",
           "name": "Enumerable",
           "package": "lattices",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinitely enumerable things\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Enumerable",
           "name": "Enumerable",
           "package": "lattices",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Finitely enumerable things",
           "hierarchy": "Algebra Enumerable",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Enumerable",
           "name": "Enumerable",
           "package": "lattices",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper used to mark where we expect to use the fact that something is Enumerable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Enumerable",
           "name": "Enumerated",
           "package": "lattices",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Wrapper used to mark where we expect to use the fact that something is Enumerable",
           "hierarchy": "Algebra Enumerable",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Enumerable",
           "name": "Enumerated",
           "package": "lattices",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Enumerable",
           "name": "Enumerated",
           "package": "lattices",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Algebra Enumerable",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Enumerable",
           "name": "Enumerated",
           "package": "lattices",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Enumerable",
           "name": "unEnumerated",
           "package": "lattices",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Algebra Enumerable",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Enumerable",
           "name": "unEnumerated",
           "package": "lattices",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Enumerable",
           "name": "universe",
           "package": "lattices",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Algebra Enumerable",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Enumerable",
           "name": "universe",
           "normalized": "[a]",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Enumerable",
           "name": "universeBounded",
           "package": "lattices",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Algebra Enumerable",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Enumerable",
           "name": "universeBounded",
           "normalized": "[a]",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Dropped",
           "name": "Dropped",
           "package": "lattices",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice Dropped",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Dropped",
           "name": "Dropped",
           "package": "lattices",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraft a distinct top onto an otherwise unbounded lattice.\n As a bonus, the top will be an absorbing element for the join.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Dropped",
           "name": "Dropped",
           "package": "lattices",
@@ -207,6 +224,7 @@
         "index": {
           "description": "Graft distinct top onto an otherwise unbounded lattice As bonus the top will be an absorbing element for the join",
           "hierarchy": "Algebra Lattice Dropped",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Dropped",
           "name": "Dropped",
           "package": "lattices",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Dropped",
           "name": "Drop",
           "package": "lattices",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice Dropped",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Dropped",
           "name": "Drop",
           "package": "lattices",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Dropped",
           "name": "Top",
           "package": "lattices",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice Dropped",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Dropped",
           "name": "Top",
           "package": "lattices",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Levitated",
           "name": "Levitated",
           "package": "lattices",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice Levitated",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Levitated",
           "name": "Levitated",
           "package": "lattices",
@@ -286,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraft a distinct top and bottom onto an otherwise unbounded lattice.\n The top is the absorbing element for the join, and the bottom is the absorbing\n element for the meet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Levitated",
           "name": "Levitated",
           "package": "lattices",
@@ -295,6 +320,7 @@
         "index": {
           "description": "Graft distinct top and bottom onto an otherwise unbounded lattice The top is the absorbing element for the join and the bottom is the absorbing element for the meet",
           "hierarchy": "Algebra Lattice Levitated",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Levitated",
           "name": "Levitated",
           "package": "lattices",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Levitated",
           "name": "Bottom",
           "package": "lattices",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice Levitated",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Levitated",
           "name": "Bottom",
           "package": "lattices",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Levitated",
           "name": "Levitate",
           "package": "lattices",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice Levitated",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Levitated",
           "name": "Levitate",
           "package": "lattices",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Levitated",
           "name": "Top",
           "package": "lattices",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice Levitated",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Levitated",
           "name": "Top",
           "package": "lattices",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Lifted",
           "name": "Lifted",
           "package": "lattices",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice Lifted",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Lifted",
           "name": "Lifted",
           "package": "lattices",
@@ -396,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraft a distinct bottom onto an otherwise unbounded lattice.\n As a bonus, the bottom will be an absorbing element for the meet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Lifted",
           "name": "Lifted",
           "package": "lattices",
@@ -405,6 +440,7 @@
         "index": {
           "description": "Graft distinct bottom onto an otherwise unbounded lattice As bonus the bottom will be an absorbing element for the meet",
           "hierarchy": "Algebra Lattice Lifted",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Lifted",
           "name": "Lifted",
           "package": "lattices",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Lifted",
           "name": "Bottom",
           "package": "lattices",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice Lifted",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Lifted",
           "name": "Bottom",
           "package": "lattices",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice.Lifted",
           "name": "Lift",
           "package": "lattices",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice Lifted",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice.Lifted",
           "name": "Lift",
           "package": "lattices",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "Lattice",
           "package": "lattices",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "Lattice",
           "package": "lattices",
@@ -484,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA join-semilattice with some element |bottom| that \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e approaches.\n\u003c/p\u003e\u003cp\u003eIdentity: x \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e bottom == x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "BoundedJoinSemiLattice",
           "package": "lattices",
@@ -493,6 +536,7 @@
         "index": {
           "description": "join-semilattice with some element bottom that join approaches Identity join bottom",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "BoundedJoinSemiLattice",
           "package": "lattices",
@@ -507,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLattices with both bounds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "BoundedLattice",
           "package": "lattices",
@@ -516,6 +561,7 @@
         "index": {
           "description": "Lattices with both bounds",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "BoundedLattice",
           "package": "lattices",
@@ -530,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA meet-semilattice with some element |top| that \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e approaches.\n\u003c/p\u003e\u003cp\u003eIdentity: x \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e top == x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "BoundedMeetSemiLattice",
           "package": "lattices",
@@ -539,6 +586,7 @@
         "index": {
           "description": "meet-semilattice with some element top that meet approaches Identity meet top",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "BoundedMeetSemiLattice",
           "package": "lattices",
@@ -553,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA algebraic structure with element joins: \u003ca\u003ehttp://en.wikipedia.org/wiki/Semilattice\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eAssociativity: x \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e (y \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e z) == (x \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e y) \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e z\n Commutativity: x \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e y == y \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e x\n Idempotency:   x \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e x == x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "JoinSemiLattice",
           "package": "lattices",
@@ -562,6 +611,7 @@
         "index": {
           "description": "algebraic structure with element joins http en.wikipedia.org wiki Semilattice Associativity join join join join Commutativity join join Idempotency join",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "JoinSemiLattice",
           "package": "lattices",
@@ -576,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe combination of two semi lattices makes a lattice if the absorption law holds:\n see \u003ca\u003ehttp://en.wikipedia.org/wiki/Absorption_law\u003c/a\u003e and \u003ca\u003ehttp://en.wikipedia.org/wiki/Lattice_(order)\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eAbsorption: a \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e (a \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e b) == a \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e (a \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e b) == a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "Lattice",
           "package": "lattices",
@@ -585,6 +636,7 @@
         "index": {
           "description": "The combination of two semi lattices makes lattice if the absorption law holds see http en.wikipedia.org wiki Absorption law and http en.wikipedia.org wiki Lattice order Absorption join meet meet join",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "Lattice",
           "package": "lattices",
@@ -599,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA algebraic structure with element meets: \u003ca\u003ehttp://en.wikipedia.org/wiki/Semilattice\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eAssociativity: x \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e (y \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e z) == (x \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e y) \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e z\n Commutativity: x \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e y == y \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e x\n Idempotency:   x \u003ccode\u003e\u003ca\u003emeet\u003c/a\u003e\u003c/code\u003e x == x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "MeetSemiLattice",
           "package": "lattices",
@@ -608,6 +661,7 @@
         "index": {
           "description": "algebraic structure with element meets http en.wikipedia.org wiki Semilattice Associativity meet meet meet meet Commutativity meet meet Idempotency meet",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "MeetSemiLattice",
           "package": "lattices",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "bottom",
           "package": "lattices",
@@ -630,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "bottom",
           "package": "lattices",
@@ -643,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of Kleene fixed-point theorem \u003ca\u003ehttp://en.wikipedia.org/wiki/Kleene_fixed-point_theorem\u003c/a\u003e.\n Forces the function to be antinone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "gfp",
           "package": "lattices",
@@ -653,6 +710,7 @@
         "index": {
           "description": "Implementation of Kleene fixed-point theorem http en.wikipedia.org wiki Kleene fixed-point theorem Forces the function to be antinone",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "gfp",
           "normalized": "(a-\u003ea)-\u003ea",
@@ -668,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of Kleene fixed-point theorem \u003ca\u003ehttp://en.wikipedia.org/wiki/Kleene_fixed-point_theorem\u003c/a\u003e.\n Forces the function to be antinone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "gfpFrom",
           "package": "lattices",
@@ -678,6 +737,7 @@
         "index": {
           "description": "Implementation of Kleene fixed-point theorem http en.wikipedia.org wiki Kleene fixed-point theorem Forces the function to be antinone",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "gfpFrom",
           "normalized": "a-\u003e(a-\u003ea)-\u003ea",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "join",
           "package": "lattices",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "join",
           "normalized": "a-\u003ea-\u003ea",
@@ -717,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe partial ordering induced by the join-semilattice structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "joinLeq",
           "package": "lattices",
@@ -727,6 +790,7 @@
         "index": {
           "description": "The partial ordering induced by the join-semilattice structure",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "joinLeq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -743,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe join of a list of join-semilattice elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "joins",
           "package": "lattices",
@@ -753,6 +818,7 @@
         "index": {
           "description": "The join of list of join-semilattice elements",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "joins",
           "normalized": "[a]-\u003ea",
@@ -768,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe join of at a list of join-semilattice elements (of length at least one)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "joins1",
           "package": "lattices",
@@ -778,6 +845,7 @@
         "index": {
           "description": "The join of at list of join-semilattice elements of length at least one",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "joins1",
           "normalized": "[a]-\u003ea",
@@ -793,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of Kleene fixed-point theorem \u003ca\u003ehttp://en.wikipedia.org/wiki/Kleene_fixed-point_theorem\u003c/a\u003e.\n Forces the function to be monotone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "lfp",
           "package": "lattices",
@@ -803,6 +872,7 @@
         "index": {
           "description": "Implementation of Kleene fixed-point theorem http en.wikipedia.org wiki Kleene fixed-point theorem Forces the function to be monotone",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "lfp",
           "normalized": "(a-\u003ea)-\u003ea",
@@ -818,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of Kleene fixed-point theorem \u003ca\u003ehttp://en.wikipedia.org/wiki/Kleene_fixed-point_theorem\u003c/a\u003e.\n Forces the function to be monotone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "lfpFrom",
           "package": "lattices",
@@ -828,6 +899,7 @@
         "index": {
           "description": "Implementation of Kleene fixed-point theorem http en.wikipedia.org wiki Kleene fixed-point theorem Forces the function to be monotone",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "lfpFrom",
           "normalized": "a-\u003e(a-\u003ea)-\u003ea",
@@ -843,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "meet",
           "package": "lattices",
@@ -852,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "meet",
           "normalized": "a-\u003ea-\u003ea",
@@ -867,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe partial ordering induced by the meet-semilattice structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "meetLeq",
           "package": "lattices",
@@ -877,6 +952,7 @@
         "index": {
           "description": "The partial ordering induced by the meet-semilattice structure",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "meetLeq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -893,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe meet of a list of meet-semilattice elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "meets",
           "package": "lattices",
@@ -903,6 +980,7 @@
         "index": {
           "description": "The meet of list of meet-semilattice elements",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "meets",
           "normalized": "[a]-\u003ea",
@@ -918,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe meet of at a list of meet-semilattice elements (of length at least one)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "meets1",
           "package": "lattices",
@@ -928,6 +1007,7 @@
         "index": {
           "description": "The meet of at list of meet-semilattice elements of length at least one",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "meets1",
           "normalized": "[a]-\u003ea",
@@ -942,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "top",
           "package": "lattices",
@@ -951,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "top",
           "package": "lattices",
@@ -964,6 +1046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of Kleene fixed-point theorem \u003ca\u003ehttp://en.wikipedia.org/wiki/Kleene_fixed-point_theorem\u003c/a\u003e.\n Assumes that the function is antinone and does not check if that is correct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "unsafeGfp",
           "package": "lattices",
@@ -974,6 +1057,7 @@
         "index": {
           "description": "Implementation of Kleene fixed-point theorem http en.wikipedia.org wiki Kleene fixed-point theorem Assumes that the function is antinone and does not check if that is correct",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "unsafeGfp",
           "normalized": "(a-\u003ea)-\u003ea",
@@ -990,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of Kleene fixed-point theorem \u003ca\u003ehttp://en.wikipedia.org/wiki/Kleene_fixed-point_theorem\u003c/a\u003e.\n Assumes that the function is monotone and does not check if that is correct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.Lattice",
           "name": "unsafeLfp",
           "package": "lattices",
@@ -1000,6 +1085,7 @@
         "index": {
           "description": "Implementation of Kleene fixed-point theorem http en.wikipedia.org wiki Kleene fixed-point theorem Assumes that the function is monotone and does not check if that is correct",
           "hierarchy": "Algebra Lattice",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.Lattice",
           "name": "unsafeLfp",
           "normalized": "(a-\u003ea)-\u003ea",
@@ -1015,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.PartialOrd",
           "name": "PartialOrd",
           "package": "lattices",
@@ -1023,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Algebra PartialOrd",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.PartialOrd",
           "name": "PartialOrd",
           "package": "lattices",
@@ -1037,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA partial ordering on sets: \u003ca\u003ehttp://en.wikipedia.org/wiki/Partially_ordered_set\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis can be defined using either |joinLeq| or |meetLeq|, or a more efficient definition\n can be derived directly.\n\u003c/p\u003e\u003cp\u003eReflexive:     a \u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e a\n Antisymmetric: a \u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e b && b \u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e a ==\u003e a == b\n Transitive:    a \u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e b && b \u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e c ==\u003e a \u003ccode\u003e\u003ca\u003eleq\u003c/a\u003e\u003c/code\u003e c\n\u003c/p\u003e\u003cp\u003eThe superclass equality (which can be defined using |partialOrdEq|) must obey these laws:\n\u003c/p\u003e\u003cp\u003eReflexive:  a == a\n Transitive: a == b && b == c ==\u003e a == b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.PartialOrd",
           "name": "PartialOrd",
           "package": "lattices",
@@ -1046,6 +1135,7 @@
         "index": {
           "description": "partial ordering on sets http en.wikipedia.org wiki Partially ordered set This can be defined using either joinLeq or meetLeq or more efficient definition can be derived directly Reflexive leq Antisymmetric leq leq Transitive leq leq leq The superclass equality which can be defined using partialOrdEq must obey these laws Reflexive Transitive",
           "hierarchy": "Algebra PartialOrd",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.PartialOrd",
           "name": "PartialOrd",
           "package": "lattices",
@@ -1060,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreatest fixed point of a partially ordered antinone function. Checks that the function is antinone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.PartialOrd",
           "name": "gfpFrom",
           "package": "lattices",
@@ -1070,6 +1161,7 @@
         "index": {
           "description": "Greatest fixed point of partially ordered antinone function Checks that the function is antinone",
           "hierarchy": "Algebra PartialOrd",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.PartialOrd",
           "name": "gfpFrom",
           "normalized": "a-\u003e(a-\u003ea)-\u003ea",
@@ -1085,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.PartialOrd",
           "name": "leq",
           "package": "lattices",
@@ -1094,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Algebra PartialOrd",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.PartialOrd",
           "name": "leq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1109,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeast point of a partially ordered monotone function. Checks that the function is monotone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.PartialOrd",
           "name": "lfpFrom",
           "package": "lattices",
@@ -1119,6 +1214,7 @@
         "index": {
           "description": "Least point of partially ordered monotone function Checks that the function is monotone",
           "hierarchy": "Algebra PartialOrd",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.PartialOrd",
           "name": "lfpFrom",
           "normalized": "a-\u003e(a-\u003ea)-\u003ea",
@@ -1135,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe equality relation induced by the partial-order structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.PartialOrd",
           "name": "partialOrdEq",
           "package": "lattices",
@@ -1145,6 +1242,7 @@
         "index": {
           "description": "The equality relation induced by the partial-order structure",
           "hierarchy": "Algebra PartialOrd",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.PartialOrd",
           "name": "partialOrdEq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1161,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreatest fixed point of a partially ordered antinone function. Does not check that the function is antinone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.PartialOrd",
           "name": "unsafeGfpFrom",
           "package": "lattices",
@@ -1171,6 +1270,7 @@
         "index": {
           "description": "Greatest fixed point of partially ordered antinone function Does not check that the function is antinone",
           "hierarchy": "Algebra PartialOrd",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.PartialOrd",
           "name": "unsafeGfpFrom",
           "normalized": "a-\u003e(a-\u003ea)-\u003ea",
@@ -1187,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeast point of a partially ordered monotone function. Does not checks that the function is monotone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:27 UTC 2014",
           "module": "Algebra.PartialOrd",
           "name": "unsafeLfpFrom",
           "package": "lattices",
@@ -1197,6 +1298,7 @@
         "index": {
           "description": "Least point of partially ordered monotone function Does not checks that the function is monotone",
           "hierarchy": "Algebra PartialOrd",
+          "indexed": "2014-03-11T19:06:27",
           "module": "Algebra.PartialOrd",
           "name": "unsafeLfpFrom",
           "normalized": "a-\u003e(a-\u003ea)-\u003ea",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alternative-io"
+        "phrase": "alternative-io",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLifted \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e like \u003ccode\u003eAlternative\u003c/code\u003e instance. Due to technical limitation,\n   Lifted \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e is not an instance of \u003ccode\u003eAlternative\u003c/code\u003e. (\u003ccode\u003e\u003ca\u003e\u003c||\u003e\u003c/a\u003e\u003c/code\u003e) is provided\n   instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:35 UTC 2014",
           "module": "Data.Alternative.IO.Lifted",
           "name": "Lifted",
           "package": "alternative-io",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Lifted IO like Alternative instance Due to technical limitation Lifted IO is not an instance of Alternative is provided instead",
           "hierarchy": "Data Alternative IO Lifted",
+          "indexed": "2014-03-11T17:10:35",
           "module": "Data.Alternative.IO.Lifted",
           "name": "Lifted",
           "package": "alternative-io",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:35 UTC 2014",
           "module": "Data.Alternative.IO.Lifted",
           "name": "AltIOLiftedGoNext",
           "package": "alternative-io",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Alternative IO Lifted",
+          "indexed": "2014-03-11T17:10:35",
           "module": "Data.Alternative.IO.Lifted",
           "name": "AltIOLiftedGoNext",
           "package": "alternative-io",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the left \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad of (\u003ccode\u003e\u003ca\u003e\u003c||\u003e\u003c/a\u003e\u003c/code\u003e) causes an error or \u003ccode\u003e\u003ca\u003egoNext\u003c/a\u003e\u003c/code\u003e is used,\n   the right \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad is executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:35 UTC 2014",
           "module": "Data.Alternative.IO.Lifted",
           "name": "(\u003c||\u003e)",
           "package": "alternative-io",
@@ -73,6 +78,7 @@
         "index": {
           "description": "If the left IO monad of causes an error or goNext is used the right IO monad is executed",
           "hierarchy": "Data Alternative IO Lifted",
+          "indexed": "2014-03-11T17:10:35",
           "module": "Data.Alternative.IO.Lifted",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:35 UTC 2014",
           "module": "Data.Alternative.IO.Lifted",
           "name": "AltIOLiftedGoNext",
           "package": "alternative-io",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Alternative IO Lifted",
+          "indexed": "2014-03-11T17:10:35",
           "module": "Data.Alternative.IO.Lifted",
           "name": "AltIOLiftedGoNext",
           "package": "alternative-io",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGo to the next \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad by throwing \u003ccode\u003e\u003ca\u003eAltIOLiftedGoNext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:35 UTC 2014",
           "module": "Data.Alternative.IO.Lifted",
           "name": "goNext",
           "package": "alternative-io",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Go to the next IO monad by throwing AltIOLiftedGoNext",
           "hierarchy": "Data Alternative IO Lifted",
+          "indexed": "2014-03-11T17:10:35",
           "module": "Data.Alternative.IO.Lifted",
           "name": "goNext",
           "package": "alternative-io",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun any one lifted \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:35 UTC 2014",
           "module": "Data.Alternative.IO.Lifted",
           "name": "runAnyOne",
           "package": "alternative-io",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Run any one lifted IO monad",
           "hierarchy": "Data Alternative IO Lifted",
+          "indexed": "2014-03-11T17:10:35",
           "module": "Data.Alternative.IO.Lifted",
           "name": "runAnyOne",
           "normalized": "[a b]-\u003ea b",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e\u003cp\u003eIf the left \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad of (\u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e) causes an error or \u003ccode\u003e\u003ca\u003egoNext\u003c/a\u003e\u003c/code\u003e is used,\n   the right \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad is executed.\n\u003c/p\u003e\u003cp\u003eOf course, side effects cannot be rolled back. This means\n   that this \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance breaks the \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e laws.\n   But it's common in parsers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:35 UTC 2014",
           "module": "Data.Alternative.IO",
           "name": "IO",
           "package": "alternative-io",
@@ -169,6 +182,7 @@
         "index": {
           "description": "IO as Alternative instance If the left IO monad of causes an error or goNext is used the right IO monad is executed Of course side effects cannot be rolled back This means that this Alternative instance breaks the Alternative laws But it common in parsers",
           "hierarchy": "Data Alternative IO",
+          "indexed": "2014-03-11T17:10:35",
           "module": "Data.Alternative.IO",
           "name": "IO",
           "package": "alternative-io",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException to control \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:35 UTC 2014",
           "module": "Data.Alternative.IO",
           "name": "AltIOgoNext",
           "package": "alternative-io",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Exception to control Alternative IO",
           "hierarchy": "Data Alternative IO",
+          "indexed": "2014-03-11T17:10:35",
           "module": "Data.Alternative.IO",
           "name": "AltIOgoNext",
           "package": "alternative-io",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:35 UTC 2014",
           "module": "Data.Alternative.IO",
           "name": "AltIOgoNext",
           "package": "alternative-io",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Data Alternative IO",
+          "indexed": "2014-03-11T17:10:35",
           "module": "Data.Alternative.IO",
           "name": "AltIOgoNext",
           "package": "alternative-io",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGo to the next \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad by throwing \u003ccode\u003e\u003ca\u003eAltIOgoNext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:35 UTC 2014",
           "module": "Data.Alternative.IO",
           "name": "goNext",
           "package": "alternative-io",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Go to the next IO monad by throwing AltIOgoNext",
           "hierarchy": "Data Alternative IO",
+          "indexed": "2014-03-11T17:10:35",
           "module": "Data.Alternative.IO",
           "name": "goNext",
           "package": "alternative-io",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun any one \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:35 UTC 2014",
           "module": "Data.Alternative.IO",
           "name": "runAnyOne",
           "package": "alternative-io",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Run any one IO monad",
           "hierarchy": "Data Alternative IO",
+          "indexed": "2014-03-11T17:10:35",
           "module": "Data.Alternative.IO",
           "name": "runAnyOne",
           "normalized": "[IO a]-\u003eIO a",

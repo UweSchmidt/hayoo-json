@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "funion"
+        "phrase": "funion",
+        "type": "phrase"
       },
       "type": "context"
     }

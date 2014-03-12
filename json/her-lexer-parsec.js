@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "her-lexer-parsec"
+        "phrase": "her-lexer-parsec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "Parsec",
           "package": "her-lexer-parsec",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "Parsec",
           "package": "her-lexer-parsec",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "clo",
           "package": "her-lexer-parsec",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "clo",
           "normalized": "BK-\u003eParsec a b Tok",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "cloC",
           "package": "her-lexer-parsec",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "cloC",
           "normalized": "(BK-\u003eBool)-\u003eParsec a b Tok",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "com",
           "package": "her-lexer-parsec",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "com",
           "normalized": "String-\u003eParsec a b Tok",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "comC",
           "package": "her-lexer-parsec",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "comC",
           "normalized": "(String-\u003eBool)-\u003eParsec a b Tok",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "haskellTokenStream",
           "package": "her-lexer-parsec",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "haskellTokenStream",
           "normalized": "String-\u003eString-\u003e[(SourcePos,Tok)]",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "kw",
           "package": "her-lexer-parsec",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "kw",
           "normalized": "String-\u003eParsec a b Tok",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "kwC",
           "package": "her-lexer-parsec",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "kwC",
           "normalized": "(String-\u003eBool)-\u003eParsec a b Tok",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "lid",
           "package": "her-lexer-parsec",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "lid",
           "normalized": "String-\u003eParsec a b Tok",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "lidC",
           "package": "her-lexer-parsec",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "lidC",
           "normalized": "(String-\u003eBool)-\u003eParsec a b Tok",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "lit",
           "package": "her-lexer-parsec",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "lit",
           "normalized": "String-\u003eParsec a b Tok",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "litC",
           "package": "her-lexer-parsec",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "litC",
           "normalized": "(String-\u003eBool)-\u003eParsec a b Tok",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "nl",
           "package": "her-lexer-parsec",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "nl",
           "normalized": "(String,Int)-\u003eParsec a b Tok",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "nlC",
           "package": "her-lexer-parsec",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "nlC",
           "normalized": "((String,Int)-\u003eBool)-\u003eParsec a b Tok",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "ope",
           "package": "her-lexer-parsec",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "ope",
           "normalized": "BK-\u003eParsec a b Tok",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "opeC",
           "package": "her-lexer-parsec",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "opeC",
           "normalized": "(BK-\u003eBool)-\u003eParsec a b Tok",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "semi",
           "package": "her-lexer-parsec",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "semi",
           "normalized": "GenParser(SourcePos,Tok)a Tok",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "spc",
           "package": "her-lexer-parsec",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "spc",
           "normalized": "String-\u003eParsec a b Tok",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "spcC",
           "package": "her-lexer-parsec",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "spcC",
           "normalized": "(String-\u003eBool)-\u003eParsec a b Tok",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "sym",
           "package": "her-lexer-parsec",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "sym",
           "normalized": "String-\u003eParsec a b Tok",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "symC",
           "package": "her-lexer-parsec",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "symC",
           "normalized": "(String-\u003eBool)-\u003eParsec a b Tok",
@@ -500,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "uid",
           "package": "her-lexer-parsec",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "uid",
           "normalized": "String-\u003eParsec a b Tok",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "uidC",
           "package": "her-lexer-parsec",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "uidC",
           "normalized": "(String-\u003eBool)-\u003eParsec a b Tok",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "urk",
           "package": "her-lexer-parsec",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "urk",
           "normalized": "Char-\u003eParsec a b Tok",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:01 UTC 2014",
           "module": "Language.Haskell.Her.Parsec",
           "name": "urkC",
           "package": "her-lexer-parsec",
@@ -578,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Her Parsec",
+          "indexed": "2014-03-11T18:37:01",
           "module": "Language.Haskell.Her.Parsec",
           "name": "urkC",
           "normalized": "(Char-\u003eBool)-\u003eParsec a b Tok",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "valid-names"
+        "phrase": "valid-names",
+        "type": "phrase"
       },
       "type": "context"
     }

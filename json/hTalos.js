@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hTalos"
+        "phrase": "hTalos",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:47 UTC 2014",
           "module": "Bio.Talos.PhiPsi",
           "name": "PhiPsi",
           "package": "hTalos",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bio Talos PhiPsi",
+          "indexed": "2014-03-11T18:24:47",
           "module": "Bio.Talos.PhiPsi",
           "name": "PhiPsi",
           "package": "hTalos",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:47 UTC 2014",
           "module": "Bio.Talos.PhiPsi",
           "name": "PhiPsi",
           "package": "hTalos",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Bio Talos PhiPsi",
+          "indexed": "2014-03-11T18:24:47",
           "module": "Bio.Talos.PhiPsi",
           "name": "PhiPsi",
           "package": "hTalos",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:47 UTC 2014",
           "module": "Bio.Talos.PhiPsi",
           "name": "PhiPsi",
           "package": "hTalos",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Bio Talos PhiPsi",
+          "indexed": "2014-03-11T18:24:47",
           "module": "Bio.Talos.PhiPsi",
           "name": "PhiPsi",
           "package": "hTalos",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:47 UTC 2014",
           "module": "Bio.Talos.PhiPsi",
           "name": "parsePhiPsi",
           "package": "hTalos",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Bio Talos PhiPsi",
+          "indexed": "2014-03-11T18:24:47",
           "module": "Bio.Talos.PhiPsi",
           "name": "parsePhiPsi",
           "normalized": "ByteString-\u003eByteString-\u003e([PhiPsi],[String])",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:47 UTC 2014",
           "module": "Bio.Talos.PhiPsi",
           "name": "parsePhiPsiFile",
           "package": "hTalos",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Bio Talos PhiPsi",
+          "indexed": "2014-03-11T18:24:47",
           "module": "Bio.Talos.PhiPsi",
           "name": "parsePhiPsiFile",
           "normalized": "String-\u003eIO([PhiPsi],[String])",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:47 UTC 2014",
           "module": "Bio.Talos.PhiPsi",
           "name": "phi",
           "package": "hTalos",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Bio Talos PhiPsi",
+          "indexed": "2014-03-11T18:24:47",
           "module": "Bio.Talos.PhiPsi",
           "name": "phi",
           "package": "hTalos",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:47 UTC 2014",
           "module": "Bio.Talos.PhiPsi",
           "name": "psi",
           "package": "hTalos",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Bio Talos PhiPsi",
+          "indexed": "2014-03-11T18:24:47",
           "module": "Bio.Talos.PhiPsi",
           "name": "psi",
           "package": "hTalos",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:47 UTC 2014",
           "module": "Bio.Talos.PhiPsi",
           "name": "resId",
           "package": "hTalos",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Bio Talos PhiPsi",
+          "indexed": "2014-03-11T18:24:47",
           "module": "Bio.Talos.PhiPsi",
           "name": "resId",
           "package": "hTalos",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:47 UTC 2014",
           "module": "Bio.Talos.PhiPsi",
           "name": "resName",
           "package": "hTalos",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Bio Talos PhiPsi",
+          "indexed": "2014-03-11T18:24:47",
           "module": "Bio.Talos.PhiPsi",
           "name": "resName",
           "package": "hTalos",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:47 UTC 2014",
           "module": "Bio.Talos.PhiPsi",
           "name": "ss",
           "package": "hTalos",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Bio Talos PhiPsi",
+          "indexed": "2014-03-11T18:24:47",
           "module": "Bio.Talos.PhiPsi",
           "name": "ss",
           "package": "hTalos",

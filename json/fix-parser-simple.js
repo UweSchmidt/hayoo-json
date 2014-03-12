@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fix-parser-simple"
+        "phrase": "fix-parser-simple",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "anansi-hscolour"
+        "phrase": "anansi-hscolour",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:56 UTC 2014",
           "module": "Anansi.HsColour",
           "name": "HsColour",
           "package": "anansi-hscolour",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Anansi HsColour",
+          "indexed": "2014-03-11T17:10:56",
           "module": "Anansi.HsColour",
           "name": "HsColour",
           "package": "anansi-hscolour",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:56 UTC 2014",
           "module": "Anansi.HsColour",
           "name": "loomHTML",
           "package": "anansi-hscolour",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Anansi HsColour",
+          "indexed": "2014-03-11T17:10:56",
           "module": "Anansi.HsColour",
           "name": "loomHTML",
           "package": "anansi-hscolour",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:56 UTC 2014",
           "module": "Anansi.HsColour",
           "name": "loomLaTeX",
           "package": "anansi-hscolour",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Anansi HsColour",
+          "indexed": "2014-03-11T17:10:56",
           "module": "Anansi.HsColour",
           "name": "loomLaTeX",
           "package": "anansi-hscolour",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooms which use HsColour to produce colorized code blocks.\n\u003c/p\u003e\u003cp\u003eUse this with \u003ccode\u003e\u003ca\u003edefaultMain\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e #!/usr/bin/env runhaskell\n import Anansi\n import Anansi.HsColour\n import Data.Map\n\n main = defaultMain (unions [Anansi.looms, Anansi.HsColour.looms])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:10:56 UTC 2014",
           "module": "Anansi.HsColour",
           "name": "looms",
           "package": "anansi-hscolour",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Looms which use HsColour to produce colorized code blocks Use this with defaultMain usr bin env runhaskell import Anansi import Anansi.HsColour import Data.Map main defaultMain unions Anansi.looms Anansi.HsColour.looms",
           "hierarchy": "Anansi HsColour",
+          "indexed": "2014-03-11T17:10:56",
           "module": "Anansi.HsColour",
           "name": "looms",
           "package": "anansi-hscolour",

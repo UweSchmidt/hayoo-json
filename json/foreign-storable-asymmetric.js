@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "foreign-storable-asymmetric"
+        "phrase": "foreign-storable-asymmetric",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:21 UTC 2014",
           "module": "Foreign.Storable.Asymmetric",
           "name": "Asymmetric",
           "package": "foreign-storable-asymmetric",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Asymmetric",
+          "indexed": "2014-03-11T18:11:21",
           "module": "Foreign.Storable.Asymmetric",
           "name": "Asymmetric",
           "package": "foreign-storable-asymmetric",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure where peek reads one structure, and poke writes another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:21 UTC 2014",
           "module": "Foreign.Storable.Asymmetric",
           "name": "DifferentPeekPoke",
           "package": "foreign-storable-asymmetric",
@@ -49,6 +52,7 @@
         "index": {
           "description": "data structure where peek reads one structure and poke writes another",
           "hierarchy": "Foreign Storable Asymmetric",
+          "indexed": "2014-03-11T18:11:21",
           "module": "Foreign.Storable.Asymmetric",
           "name": "DifferentPeekPoke",
           "package": "foreign-storable-asymmetric",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed as a placeholder for no data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:21 UTC 2014",
           "module": "Foreign.Storable.Asymmetric",
           "name": "NoData",
           "package": "foreign-storable-asymmetric",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Used as placeholder for no data",
           "hierarchy": "Foreign Storable Asymmetric",
+          "indexed": "2014-03-11T18:11:21",
           "module": "Foreign.Storable.Asymmetric",
           "name": "NoData",
           "package": "foreign-storable-asymmetric",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:21 UTC 2014",
           "module": "Foreign.Storable.Asymmetric",
           "name": "NoData",
           "package": "foreign-storable-asymmetric",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Asymmetric",
+          "indexed": "2014-03-11T18:11:21",
           "module": "Foreign.Storable.Asymmetric",
           "name": "NoData",
           "package": "foreign-storable-asymmetric",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:21 UTC 2014",
           "module": "Foreign.Storable.Asymmetric",
           "name": "PeekOut",
           "package": "foreign-storable-asymmetric",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Asymmetric",
+          "indexed": "2014-03-11T18:11:21",
           "module": "Foreign.Storable.Asymmetric",
           "name": "PeekOut",
           "package": "foreign-storable-asymmetric",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:21 UTC 2014",
           "module": "Foreign.Storable.Asymmetric",
           "name": "PokeIn",
           "package": "foreign-storable-asymmetric",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Asymmetric",
+          "indexed": "2014-03-11T18:11:21",
           "module": "Foreign.Storable.Asymmetric",
           "name": "PokeIn",
           "package": "foreign-storable-asymmetric",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the \u003ccode\u003e\u003ca\u003epeek\u003c/a\u003e\u003c/code\u003e structure from a DifferentPeekPoke.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:21 UTC 2014",
           "module": "Foreign.Storable.Asymmetric",
           "name": "getPeek",
           "package": "foreign-storable-asymmetric",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Retrieves the peek structure from DifferentPeekPoke",
           "hierarchy": "Foreign Storable Asymmetric",
+          "indexed": "2014-03-11T18:11:21",
           "module": "Foreign.Storable.Asymmetric",
           "name": "getPeek",
           "normalized": "DifferentPeekPoke a a-\u003ea",

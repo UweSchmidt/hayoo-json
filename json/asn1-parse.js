@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "asn1-parse"
+        "phrase": "asn1-parse",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA parser combinator for ASN1 Stream.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "Parse",
           "package": "asn1-parse",
@@ -28,6 +29,7 @@
         "index": {
           "description": "parser combinator for ASN1 Stream",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "Parse",
           "package": "asn1-parse",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse ASN1 Monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "ParseASN1",
           "package": "asn1-parse",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Parse ASN1 Monad",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "ParseASN1",
           "package": "asn1-parse",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget many elements until there's nothing left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "getMany",
           "package": "asn1-parse",
@@ -75,6 +80,7 @@
         "index": {
           "description": "get many elements until there nothing left",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "getMany",
           "normalized": "ParseASN a-\u003eParseASN[a]",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget next element from the stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "getNext",
           "package": "asn1-parse",
@@ -101,6 +108,7 @@
         "index": {
           "description": "get next element from the stream",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "getNext",
           "package": "asn1-parse",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget next container of specified type and return all its elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "getNextContainer",
           "package": "asn1-parse",
@@ -125,6 +134,7 @@
         "index": {
           "description": "get next container of specified type and return all its elements",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "getNextContainer",
           "normalized": "ASN ConstructionType-\u003eParseASN[ASN]",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejust like getNextContainer, except it doesn't throw an error if the container doesn't exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "getNextContainerMaybe",
           "package": "asn1-parse",
@@ -151,6 +162,7 @@
         "index": {
           "description": "just like getNextContainer except it doesn throw an error if the container doesn exists",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "getNextContainerMaybe",
           "normalized": "ASN ConstructionType-\u003eParseASN(Maybe[ASN])",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget next element from the stream maybe\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "getNextMaybe",
           "package": "asn1-parse",
@@ -177,6 +190,7 @@
         "index": {
           "description": "get next element from the stream maybe",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "getNextMaybe",
           "normalized": "(ASN-\u003eMaybe a)-\u003eParseASN(Maybe a)",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget next object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "getObject",
           "package": "asn1-parse",
@@ -203,6 +218,7 @@
         "index": {
           "description": "get next object",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "getObject",
           "package": "asn1-parse",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns if there's more elements in the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "hasNext",
           "package": "asn1-parse",
@@ -227,6 +244,7 @@
         "index": {
           "description": "returns if there more elements in the stream",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "hasNext",
           "package": "asn1-parse",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun a function of the next elements of a container of specified type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "onNextContainer",
           "package": "asn1-parse",
@@ -251,6 +270,7 @@
         "index": {
           "description": "run function of the next elements of container of specified type",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "onNextContainer",
           "normalized": "ASN ConstructionType-\u003eParseASN a-\u003eParseASN a",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejust like onNextContainer, except it doesn't throw an error if the container doesn't exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "onNextContainerMaybe",
           "package": "asn1-parse",
@@ -277,6 +298,7 @@
         "index": {
           "description": "just like onNextContainer except it doesn throw an error if the container doesn exists",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "onNextContainerMaybe",
           "normalized": "ASN ConstructionType-\u003eParseASN a-\u003eParseASN(Maybe a)",
@@ -293,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun the parse monad over a stream and returns the result.\n\u003c/p\u003e\u003cp\u003eIf there's still some asn1 object in the state after calling f,\n an error will be raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "runParseASN1",
           "package": "asn1-parse",
@@ -303,6 +326,7 @@
         "index": {
           "description": "run the parse monad over stream and returns the result If there still some asn1 object in the state after calling an error will be raised",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "runParseASN1",
           "normalized": "ParseASN a-\u003e[ASN]-\u003eEither String a",
@@ -319,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun the parse monad over a stream and returns the result and the remaining ASN1 Stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:23 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "runParseASN1State",
           "package": "asn1-parse",
@@ -329,6 +354,7 @@
         "index": {
           "description": "run the parse monad over stream and returns the result and the remaining ASN1 Stream",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:23",
           "module": "Data.ASN1.Parse",
           "name": "runParseASN1State",
           "normalized": "ParseASN a-\u003e[ASN]-\u003eEither String(a,[ASN])",

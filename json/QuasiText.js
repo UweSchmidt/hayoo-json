@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "QuasiText"
+        "phrase": "QuasiText",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple \u003ccode\u003e\u003ca\u003eQuasiQuoter\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e strings. Note that to use \u003ccode\u003e\u003ca\u003eembed\u003c/a\u003e\u003c/code\u003e you need to use the OverloadedStrings extension.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:53 UTC 2014",
           "module": "Text.QuasiText",
           "name": "QuasiText",
           "package": "QuasiText",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple QuasiQuoter for Text strings Note that to use embed you need to use the OverloadedStrings extension",
           "hierarchy": "Text QuasiText",
+          "indexed": "2014-03-11T16:57:53",
           "module": "Text.QuasiText",
           "name": "QuasiText",
           "package": "QuasiText",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:53 UTC 2014",
           "module": "Text.QuasiText",
           "name": "Chunk",
           "package": "QuasiText",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text QuasiText",
+          "indexed": "2014-03-11T16:57:53",
           "module": "Text.QuasiText",
           "name": "Chunk",
           "package": "QuasiText",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:53 UTC 2014",
           "module": "Text.QuasiText",
           "name": "E",
           "package": "QuasiText",
@@ -73,6 +78,7 @@
         "index": {
           "description": "expression",
           "hierarchy": "Text QuasiText",
+          "indexed": "2014-03-11T16:57:53",
           "module": "Text.QuasiText",
           "name": "E",
           "package": "QuasiText",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:53 UTC 2014",
           "module": "Text.QuasiText",
           "name": "T",
           "package": "QuasiText",
@@ -96,6 +103,7 @@
         "index": {
           "description": "text",
           "hierarchy": "Text QuasiText",
+          "indexed": "2014-03-11T16:57:53",
           "module": "Text.QuasiText",
           "name": "T",
           "package": "QuasiText",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:53 UTC 2014",
           "module": "Text.QuasiText",
           "name": "V",
           "package": "QuasiText",
@@ -119,6 +128,7 @@
         "index": {
           "description": "value",
           "hierarchy": "Text QuasiText",
+          "indexed": "2014-03-11T16:57:53",
           "module": "Text.QuasiText",
           "name": "V",
           "package": "QuasiText",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple \u003ccode\u003e\u003ca\u003eQuasiQuoter\u003c/a\u003e\u003c/code\u003e to interpolate \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into other pieces of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e. \n Expressions can be embedded using $(expr), and values can be interpolated \n with $name. Inside $( )s, if you have a string of ambiguous type, it will \n default to the Show instance for toText, which will escape unicode \n characters in the string, and add quotes around them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:53 UTC 2014",
           "module": "Text.QuasiText",
           "name": "embed",
           "package": "QuasiText",
@@ -142,6 +153,7 @@
         "index": {
           "description": "simple QuasiQuoter to interpolate Text into other pieces of Text Expressions can be embedded using expr and values can be interpolated with name Inside if you have string of ambiguous type it will default to the Show instance for toText which will escape unicode characters in the string and add quotes around them",
           "hierarchy": "Text QuasiText",
+          "indexed": "2014-03-11T16:57:53",
           "module": "Text.QuasiText",
           "name": "embed",
           "package": "QuasiText",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003es without any TH.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:53 UTC 2014",
           "module": "Text.QuasiText",
           "name": "getChunks",
           "package": "QuasiText",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Create Chunk without any TH",
           "hierarchy": "Text QuasiText",
+          "indexed": "2014-03-11T16:57:53",
           "module": "Text.QuasiText",
           "name": "getChunks",
           "normalized": "Text-\u003e[Chunk]",

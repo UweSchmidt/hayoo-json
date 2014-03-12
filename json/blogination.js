@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blogination"
+        "phrase": "blogination",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "Blogination",
           "package": "blogination",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "Blogination",
           "package": "blogination",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "Blog",
           "package": "blogination",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "Blog",
           "package": "blogination",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "Blogination",
           "package": "blogination",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "Blogination",
           "package": "blogination",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "Blog",
           "package": "blogination",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "Blog",
           "package": "blogination",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogAnalytics",
           "package": "blogination",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogAnalytics",
           "package": "blogination",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogAuthor",
           "package": "blogination",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogAuthor",
           "package": "blogination",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogCSS",
           "package": "blogination",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogCSS",
           "normalized": "[String]",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogDate",
           "package": "blogination",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogDate",
           "package": "blogination",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogEntries",
           "package": "blogination",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogEntries",
           "package": "blogination",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogForce",
           "package": "blogination",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogForce",
           "package": "blogination",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogHome",
           "package": "blogination",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogHome",
           "package": "blogination",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogHomeName",
           "package": "blogination",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogHomeName",
           "package": "blogination",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogHtml",
           "package": "blogination",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogHtml",
           "package": "blogination",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogName",
           "package": "blogination",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogName",
           "package": "blogination",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogRoot",
           "package": "blogination",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogRoot",
           "package": "blogination",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogTags",
           "package": "blogination",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogTags",
           "package": "blogination",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "blogURL",
           "package": "blogination",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "blogURL",
           "package": "blogination",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "buildBlog",
           "package": "blogination",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "buildBlog",
           "normalized": "Blogination()",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "ensureProperState",
           "package": "blogination",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "ensureProperState",
           "normalized": "Blogination()",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "highlight",
           "package": "blogination",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "highlight",
           "normalized": "Pandoc-\u003ePandoc",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "pageToHtml",
           "package": "blogination",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "pageToHtml",
           "normalized": "Blog-\u003eFilePath-\u003e[String]-\u003eString-\u003eHtml",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "renderEntries",
           "package": "blogination",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "renderEntries",
           "normalized": "Blogination[FilePath]",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "renderIndex",
           "package": "blogination",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "renderIndex",
           "normalized": "Blogination()",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:33 UTC 2014",
           "module": "Text.Blogination",
           "name": "runBloginator",
           "package": "blogination",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Text Blogination",
+          "indexed": "2014-03-11T17:24:33",
           "module": "Text.Blogination",
           "name": "runBloginator",
           "normalized": "Blogination a-\u003eBlog-\u003eIO(Either String a)",

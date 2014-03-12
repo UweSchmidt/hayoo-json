@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "youtube"
+        "phrase": "youtube",
+        "type": "phrase"
       },
       "type": "context"
     }

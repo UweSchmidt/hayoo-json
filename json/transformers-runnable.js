@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "transformers-runnable"
+        "phrase": "transformers-runnable",
+        "type": "phrase"
       },
       "type": "context"
     }

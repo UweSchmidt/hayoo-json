@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yuiGrid"
+        "phrase": "yuiGrid",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "CxML",
           "package": "yuiGrid",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "CxML",
           "package": "yuiGrid",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehow to declare CSS &  JavaScript\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "CssInlineDecl",
           "package": "yuiGrid",
@@ -49,6 +52,7 @@
         "index": {
           "description": "how to declare CSS JavaScript",
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "CssInlineDecl",
           "package": "yuiGrid",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtextual markup - generates HTML as a function of a context of type a. \n   also keep track of static CSS and  JavaScript\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "CxML",
           "package": "yuiGrid",
@@ -72,6 +77,7 @@
         "index": {
           "description": "contextual markup generates HTML as function of context of type also keep track of static CSS and JavaScript",
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "CxML",
           "package": "yuiGrid",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "NonCxML",
           "package": "yuiGrid",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "NonCxML",
           "package": "yuiGrid",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "StyleDecl",
           "package": "yuiGrid",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "StyleDecl",
           "package": "yuiGrid",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset any attribute of HTML element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "(!)",
           "package": "yuiGrid",
@@ -138,6 +149,7 @@
         "index": {
           "description": "set any attribute of HTML element",
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "(!) !",
           "normalized": "CxML a-\u003e(String,String)-\u003eCxML a",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "(+++)",
           "package": "yuiGrid",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "(+++) +++",
           "normalized": "CxML a-\u003eCxML a-\u003eCxML a",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "(/-)",
           "package": "yuiGrid",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "(/-) /-",
           "normalized": "CxML a-\u003e[CxML a]-\u003eCxML a",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "(^#)",
           "package": "yuiGrid",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "(^#) ^#",
           "normalized": "CxML a-\u003eString-\u003eCxML a",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset style \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "(^%)",
           "package": "yuiGrid",
@@ -232,6 +251,7 @@
         "index": {
           "description": "set style",
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "(^%) ^%",
           "normalized": "CxML a-\u003e[StyleDecl]-\u003eCxML a",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate HTML to link to a CSS file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "(^^.)",
           "package": "yuiGrid",
@@ -257,6 +278,7 @@
         "index": {
           "description": "create HTML to link to CSS file",
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "(^^.) ^^.",
           "normalized": "CxML a-\u003eCssInlineDecl-\u003eCxML a",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "(^.)",
           "package": "yuiGrid",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "(^.) ^.",
           "normalized": "CxML a-\u003eString-\u003eCxML a",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "CSSLink",
           "package": "yuiGrid",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "CSSLink",
           "package": "yuiGrid",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "CSSRule",
           "package": "yuiGrid",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "CSSRule",
           "normalized": "CSSRule[String][(String,String)]",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "a",
           "package": "yuiGrid",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "a",
           "package": "yuiGrid",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "afile",
           "package": "yuiGrid",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "afile",
           "normalized": "String-\u003eCxML a",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "body",
           "package": "yuiGrid",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "body",
           "package": "yuiGrid",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "br",
           "package": "yuiGrid",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "br",
           "package": "yuiGrid",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "button",
           "package": "yuiGrid",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "button",
           "package": "yuiGrid",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "concatCxML",
           "package": "yuiGrid",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "concatCxML",
           "normalized": "[CxML a]-\u003eCxML a",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "div",
           "package": "yuiGrid",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "div",
           "package": "yuiGrid",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "font",
           "package": "yuiGrid",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "font",
           "package": "yuiGrid",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "form",
           "package": "yuiGrid",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "form",
           "package": "yuiGrid",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "h1",
           "package": "yuiGrid",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "h1",
           "package": "yuiGrid",
@@ -555,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "h1logo",
           "package": "yuiGrid",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "h1logo",
           "normalized": "String-\u003e[Char]-\u003eCxML a",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "h2",
           "package": "yuiGrid",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "h2",
           "package": "yuiGrid",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "h3",
           "package": "yuiGrid",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "h3",
           "package": "yuiGrid",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "h4",
           "package": "yuiGrid",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "h4",
           "package": "yuiGrid",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "hidden",
           "package": "yuiGrid",
@@ -650,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "hidden",
           "normalized": "String-\u003eString-\u003eCxML a",
@@ -664,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "image",
           "package": "yuiGrid",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "image",
           "package": "yuiGrid",
@@ -686,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaccess title parts\n\u003c/p\u003e\u003cp\u003eaccess JavaScript ( static) part\n\u003c/p\u003e\u003cp\u003eaccess CSS ( static ) part\n\u003c/p\u003e\u003cp\u003eaccess html (dynamic) part\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "modCx",
           "package": "yuiGrid",
@@ -696,6 +757,7 @@
         "index": {
           "description": "access title parts access JavaScript static part access CSS static part access html dynamic part",
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "modCx",
           "normalized": "(a-\u003eb)-\u003eCxML b-\u003eCxML a",
@@ -711,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "noElem",
           "package": "yuiGrid",
@@ -720,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "noElem",
           "package": "yuiGrid",
@@ -733,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "p",
           "package": "yuiGrid",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "p",
           "package": "yuiGrid",
@@ -754,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "runCxML",
           "package": "yuiGrid",
@@ -763,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "runCxML",
           "normalized": "CxML a-\u003ea-\u003eNonCxML",
@@ -778,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "showNonCxmlStrict",
           "package": "yuiGrid",
@@ -787,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "showNonCxmlStrict",
           "normalized": "String-\u003eCxML()-\u003eString",
@@ -802,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "span",
           "package": "yuiGrid",
@@ -811,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "span",
           "package": "yuiGrid",
@@ -824,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a text node. Automatically escape HTML to protect against XSS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "t",
           "package": "yuiGrid",
@@ -834,6 +907,7 @@
         "index": {
           "description": "create text node Automatically escape HTML to protect against XSS",
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "t",
           "normalized": "String-\u003eCxML a",
@@ -848,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "table",
           "package": "yuiGrid",
@@ -857,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "table",
           "package": "yuiGrid",
@@ -870,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecombinator to create tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "tag",
           "package": "yuiGrid",
@@ -880,6 +957,7 @@
         "index": {
           "description": "combinator to create tags",
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "tag",
           "normalized": "String-\u003eCxML a",
@@ -894,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "td",
           "package": "yuiGrid",
@@ -903,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "td",
           "package": "yuiGrid",
@@ -915,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "textfield",
           "package": "yuiGrid",
@@ -924,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "textfield",
           "normalized": "String-\u003eCxML a",
@@ -938,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "title",
           "package": "yuiGrid",
@@ -947,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "title",
           "package": "yuiGrid",
@@ -959,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "tr",
           "package": "yuiGrid",
@@ -968,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "tr",
           "package": "yuiGrid",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "vertNav",
           "package": "yuiGrid",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "vertNav",
           "normalized": "[(String,String)]-\u003eCxML a",
@@ -1004,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.CxML",
           "name": "withCtx",
           "package": "yuiGrid",
@@ -1013,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Text CxML",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.CxML",
           "name": "withCtx",
           "normalized": "(a-\u003eCxML a)-\u003eCxML a",
@@ -1028,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "YuiGrid",
           "package": "yuiGrid",
@@ -1036,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "YuiGrid",
           "package": "yuiGrid",
@@ -1049,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "GridElement",
           "package": "yuiGrid",
@@ -1057,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "GridElement",
           "package": "yuiGrid",
@@ -1070,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "GridNode",
           "package": "yuiGrid",
@@ -1078,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "GridNode",
           "package": "yuiGrid",
@@ -1091,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "HasLayoutHints",
           "package": "yuiGrid",
@@ -1099,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "HasLayoutHints",
           "package": "yuiGrid",
@@ -1112,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "Box",
           "package": "yuiGrid",
@@ -1121,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "Box",
           "package": "yuiGrid",
@@ -1134,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "Container",
           "package": "yuiGrid",
@@ -1143,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "Container",
           "normalized": "Container[GridNode a]LayoutHints",
@@ -1158,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "addCss",
           "package": "yuiGrid",
@@ -1167,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "addCss",
           "normalized": "CssInlineDecl-\u003ea-\u003ea",
@@ -1182,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "applyLayouts",
           "package": "yuiGrid",
@@ -1191,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "applyLayouts",
           "normalized": "[a-\u003ea]-\u003ea-\u003ea",
@@ -1206,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "boxInFooter",
           "package": "yuiGrid",
@@ -1215,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "boxInFooter",
           "normalized": "a-\u003eGridNode a",
@@ -1230,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "boxInHeader",
           "package": "yuiGrid",
@@ -1239,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "boxInHeader",
           "normalized": "a-\u003eGridNode a",
@@ -1254,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "boxInLeftSidebar",
           "package": "yuiGrid",
@@ -1263,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "boxInLeftSidebar",
           "normalized": "a-\u003eGridNode a",
@@ -1278,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "boxInMain",
           "package": "yuiGrid",
@@ -1287,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "boxInMain",
           "normalized": "a-\u003eGridNode a",
@@ -1302,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "boxInRightSidebar",
           "package": "yuiGrid",
@@ -1311,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "boxInRightSidebar",
           "normalized": "a-\u003eGridNode a",
@@ -1326,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "clearSides",
           "package": "yuiGrid",
@@ -1335,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "clearSides",
           "normalized": "a-\u003ea",
@@ -1350,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "fromBox",
           "package": "yuiGrid",
@@ -1359,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "fromBox",
           "normalized": "GridNode a-\u003ea",
@@ -1374,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "fromContainer",
           "package": "yuiGrid",
@@ -1383,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "fromContainer",
           "normalized": "GridNode a-\u003e[GridNode a]",
@@ -1398,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "fromGridNode",
           "package": "yuiGrid",
@@ -1407,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "fromGridNode",
           "normalized": "GridElement a-\u003eCxML a",
@@ -1422,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "giveBorderCSS",
           "package": "yuiGrid",
@@ -1431,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "giveBorderCSS",
           "normalized": "a-\u003ea",
@@ -1446,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "gridPage",
           "package": "yuiGrid",
@@ -1455,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "gridPage",
           "normalized": "[GridElement a]-\u003eCxML a",
@@ -1470,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "horizWeight",
           "package": "yuiGrid",
@@ -1479,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "horizWeight",
           "normalized": "Float-\u003ea-\u003ea",
@@ -1494,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "inFooter",
           "package": "yuiGrid",
@@ -1503,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "inFooter",
           "normalized": "a-\u003ea",
@@ -1518,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "inHeader",
           "package": "yuiGrid",
@@ -1527,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "inHeader",
           "normalized": "a-\u003ea",
@@ -1542,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "inLeftSidebar",
           "package": "yuiGrid",
@@ -1551,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "inLeftSidebar",
           "normalized": "a-\u003ea",
@@ -1566,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "inMain",
           "package": "yuiGrid",
@@ -1575,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "inMain",
           "normalized": "a-\u003ea",
@@ -1590,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "inRightSidebar",
           "package": "yuiGrid",
@@ -1599,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "inRightSidebar",
           "normalized": "a-\u003ea",
@@ -1614,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "modLayoutHints",
           "package": "yuiGrid",
@@ -1623,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "modLayoutHints",
           "normalized": "(LayoutHints-\u003eLayoutHints)-\u003ea-\u003ea",
@@ -1638,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "nearBottom",
           "package": "yuiGrid",
@@ -1647,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "nearBottom",
           "normalized": "a-\u003ea",
@@ -1662,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "nearLeft",
           "package": "yuiGrid",
@@ -1671,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "nearLeft",
           "normalized": "a-\u003ea",
@@ -1686,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "nearRight",
           "package": "yuiGrid",
@@ -1695,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "nearRight",
           "normalized": "a-\u003ea",
@@ -1710,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "nearTop",
           "package": "yuiGrid",
@@ -1719,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "nearTop",
           "normalized": "a-\u003ea",
@@ -1734,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "resetColumns",
           "package": "yuiGrid",
@@ -1743,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "resetColumns",
           "normalized": "a-\u003ea",
@@ -1758,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "resetColumnsVote",
           "package": "yuiGrid",
@@ -1767,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "resetColumnsVote",
           "normalized": "a-\u003ea",
@@ -1782,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "resetCss",
           "package": "yuiGrid",
@@ -1791,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "resetCss",
           "normalized": "a-\u003ea",
@@ -1806,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "resetInFstSibling",
           "package": "yuiGrid",
@@ -1815,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "resetInFstSibling",
           "normalized": "a-\u003ea",
@@ -1830,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "runBox",
           "package": "yuiGrid",
@@ -1839,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "runBox",
           "normalized": "GridElement a-\u003ea-\u003eGridElement()",
@@ -1854,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "runBoxes",
           "package": "yuiGrid",
@@ -1863,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "runBoxes",
           "normalized": "[GridElement a]-\u003ea-\u003e[GridElement()]",
@@ -1878,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "setColumns",
           "package": "yuiGrid",
@@ -1887,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "setColumns",
           "normalized": "Int-\u003ea-\u003ea",
@@ -1902,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "setColumnsVote",
           "package": "yuiGrid",
@@ -1911,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "setColumnsVote",
           "normalized": "Int-\u003ea-\u003ea",
@@ -1926,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "setInFstSibling",
           "package": "yuiGrid",
@@ -1935,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "setInFstSibling",
           "normalized": "a-\u003ea",
@@ -1950,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "smallMarginBottomCSS",
           "package": "yuiGrid",
@@ -1959,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "smallMarginBottomCSS",
           "normalized": "a-\u003ea",
@@ -1974,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "toBox",
           "package": "yuiGrid",
@@ -1983,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "toBox",
           "normalized": "a-\u003eGridNode a",
@@ -1998,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "toContainer",
           "package": "yuiGrid",
@@ -2007,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "toContainer",
           "normalized": "[GridNode a]-\u003eGridNode a",
@@ -2022,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:38 UTC 2014",
           "module": "Text.YuiGrid",
           "name": "weight",
           "package": "yuiGrid",
@@ -2031,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Text YuiGrid",
+          "indexed": "2014-03-11T20:47:38",
           "module": "Text.YuiGrid",
           "name": "weight",
           "normalized": "Float-\u003ea-\u003ea",

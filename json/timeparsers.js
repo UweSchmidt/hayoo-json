@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "timeparsers"
+        "phrase": "timeparsers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Date",
           "name": "Date",
           "package": "timeparsers",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Date",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Date",
           "name": "Date",
           "package": "timeparsers",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a date using tokenizedDate, yyyymmdd, yymmdd, yearDayOfYear, fullDate\n or julianDay, converting to BCE if necessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Date",
           "name": "defaultDay",
           "package": "timeparsers",
@@ -50,6 +53,7 @@
         "index": {
           "description": "parse date using tokenizedDate yyyymmdd yymmdd yearDayOfYear fullDate or julianDay converting to BCE if necessary",
           "hierarchy": "Data Time Parsers Date",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Date",
           "name": "defaultDay",
           "package": "timeparsers",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a date as in defaultDay, but don't check for BCE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Date",
           "name": "defaultDayCE",
           "package": "timeparsers",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Parse date as in defaultDay but don check for BCE",
           "hierarchy": "Data Time Parsers Date",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Date",
           "name": "defaultDayCE",
           "package": "timeparsers",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a date such as \u003ca\u003eJanuary 1, 2011\u003c/a\u003e.\n Will treat a preceding weekday as noise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Date",
           "name": "fullDate",
           "package": "timeparsers",
@@ -98,6 +105,7 @@
         "index": {
           "description": "parse date such as January Will treat preceding weekday as noise",
           "hierarchy": "Data Time Parsers Date",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Date",
           "name": "fullDate",
           "package": "timeparsers",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a julian day (days since 4713\u003cem\u003e1\u003c/em\u003e1 BCE)\n Must prepend with \u003ca\u003eJ\u003c/a\u003e, \u003ca\u003eJD\u003c/a\u003e, or \u003ca\u003eJulian\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Date",
           "name": "julianDay",
           "package": "timeparsers",
@@ -122,6 +131,7 @@
         "index": {
           "description": "parse julian day days since BCE Must prepend with JD or Julian",
           "hierarchy": "Data Time Parsers Date",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Date",
           "name": "julianDay",
           "package": "timeparsers",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Date",
           "name": "tokenizedDate",
           "package": "timeparsers",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Date",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Date",
           "name": "tokenizedDate",
           "package": "timeparsers",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a date in year, day of year format\n i.e yyyy/ddd or yyyydd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Date",
           "name": "yearDayOfYear",
           "package": "timeparsers",
@@ -168,6 +181,7 @@
         "index": {
           "description": "parse date in year day of year format i.e yyyy ddd or yyyydd",
           "hierarchy": "Data Time Parsers Date",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Date",
           "name": "yearDayOfYear",
           "package": "timeparsers",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a date with no separators of the format yymmdd.\n Will treat a preceding weekday as noise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Date",
           "name": "yymmdd",
           "package": "timeparsers",
@@ -192,6 +207,7 @@
         "index": {
           "description": "parse date with no separators of the format yymmdd Will treat preceding weekday as noise",
           "hierarchy": "Data Time Parsers Date",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Date",
           "name": "yymmdd",
           "package": "timeparsers",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a date with no separators of the format yyyymmdd.\n Will treat a preceding weekday as noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Date",
           "name": "yyyymmdd",
           "package": "timeparsers",
@@ -215,6 +232,7 @@
         "index": {
           "description": "parse date with no separators of the format yyyymmdd Will treat preceding weekday as noise",
           "hierarchy": "Data Time Parsers Date",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Date",
           "name": "yyyymmdd",
           "package": "timeparsers",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Tables",
           "name": "Tables",
           "package": "timeparsers",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Tables",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Tables",
           "name": "Tables",
           "package": "timeparsers",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Tables",
           "name": "ausTimeZones",
           "package": "timeparsers",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Tables",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Tables",
           "name": "ausTimeZones",
           "package": "timeparsers",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Tables",
           "name": "months",
           "package": "timeparsers",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Tables",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Tables",
           "name": "months",
           "package": "timeparsers",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Tables",
           "name": "timeZones",
           "package": "timeparsers",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Tables",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Tables",
           "name": "timeZones",
           "package": "timeparsers",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Tables",
           "name": "weekdays",
           "package": "timeparsers",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Tables",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Tables",
           "name": "weekdays",
           "normalized": "[ByteString]",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Time",
           "name": "Time",
           "package": "timeparsers",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Time",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Time",
           "name": "Time",
           "package": "timeparsers",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a time of day intwelve hour or twenty four hour format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Time",
           "name": "defaultTimeOfDay",
           "package": "timeparsers",
@@ -368,6 +399,7 @@
         "index": {
           "description": "Parse time of day intwelve hour or twenty four hour format",
           "hierarchy": "Data Time Parsers Time",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Time",
           "name": "defaultTimeOfDay",
           "package": "timeparsers",
@@ -382,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a TimeOfDay in twelve hour format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Time",
           "name": "twelveHour",
           "package": "timeparsers",
@@ -392,6 +425,7 @@
         "index": {
           "description": "Parse TimeOfDay in twelve hour format",
           "hierarchy": "Data Time Parsers Time",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Time",
           "name": "twelveHour",
           "package": "timeparsers",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a TimeOfDay in twenty four hour format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Time",
           "name": "twentyFourHour",
           "package": "timeparsers",
@@ -416,6 +451,7 @@
         "index": {
           "description": "Parse TimeOfDay in twenty four hour format",
           "hierarchy": "Data Time Parsers Time",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Time",
           "name": "twentyFourHour",
           "package": "timeparsers",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "Timestamp",
           "package": "timeparsers",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Timestamp",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "Timestamp",
           "package": "timeparsers",
@@ -451,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a LocalTime using defaultDay and defaultTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "defaultLocalTime",
           "package": "timeparsers",
@@ -461,6 +500,7 @@
         "index": {
           "description": "Parse LocalTime using defaultDay and defaultTime",
           "hierarchy": "Data Time Parsers Timestamp",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "defaultLocalTime",
           "package": "timeparsers",
@@ -475,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an offset TimeZone or named TimeZone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "defaultTimeZone",
           "package": "timeparsers",
@@ -485,6 +526,7 @@
         "index": {
           "description": "Parse an offset TimeZone or named TimeZone",
           "hierarchy": "Data Time Parsers Timestamp",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "defaultTimeZone",
           "package": "timeparsers",
@@ -499,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a Timestamp using posixTime or defaultZonedTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "defaultTimestamp",
           "package": "timeparsers",
@@ -509,6 +552,7 @@
         "index": {
           "description": "Parse Timestamp using posixTime or defaultZonedTime",
           "hierarchy": "Data Time Parsers Timestamp",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "defaultTimestamp",
           "package": "timeparsers",
@@ -523,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a zonedTime using defaultLocalTime and defaultTimeZone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "defaultZonedTime",
           "package": "timeparsers",
@@ -533,6 +578,7 @@
         "index": {
           "description": "Parse zonedTime using defaultLocalTime and defaultTimeZone",
           "hierarchy": "Data Time Parsers Timestamp",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "defaultZonedTime",
           "package": "timeparsers",
@@ -547,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an explicit timestamp, or a relative time\n (now, today, yesterday, tomorrow)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "extendTimestamp",
           "package": "timeparsers",
@@ -557,6 +604,7 @@
         "index": {
           "description": "Parse an explicit timestamp or relative time now today yesterday tomorrow",
           "hierarchy": "Data Time Parsers Timestamp",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "extendTimestamp",
           "normalized": "OptionedParser a-\u003eOptionedParser(ExtendedTimestamp a)",
@@ -573,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a Date parser and a TimeOfDay parser, parse a LocalTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "localTime",
           "package": "timeparsers",
@@ -583,6 +632,7 @@
         "index": {
           "description": "Given Date parser and TimeOfDay parser parse LocalTime",
           "hierarchy": "Data Time Parsers Timestamp",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "localTime",
           "normalized": "OptionedParser Day-\u003eOptionedParser TimeOfDay-\u003eOptionedParser LocalTime",
@@ -599,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an lookup a named timezone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "namedTimeZone",
           "package": "timeparsers",
@@ -609,6 +660,7 @@
         "index": {
           "description": "Parse an lookup named timezone",
           "hierarchy": "Data Time Parsers Timestamp",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "namedTimeZone",
           "package": "timeparsers",
@@ -623,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a timezone in offset format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "offsetTimeZone",
           "package": "timeparsers",
@@ -633,6 +686,7 @@
         "index": {
           "description": "Parse timezone in offset format",
           "hierarchy": "Data Time Parsers Timestamp",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "offsetTimeZone",
           "package": "timeparsers",
@@ -647,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a rational number and interpret as seconds since the Epoch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "posixTime",
           "package": "timeparsers",
@@ -657,6 +712,7 @@
         "index": {
           "description": "Parse rational number and interpret as seconds since the Epoch",
           "hierarchy": "Data Time Parsers Timestamp",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "posixTime",
           "package": "timeparsers",
@@ -671,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a LocalTime parser and a TimeZone Parser, parse a ZonedTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "zonedTime",
           "package": "timeparsers",
@@ -681,6 +738,7 @@
         "index": {
           "description": "Given LocalTime parser and TimeZone Parser parse ZonedTime",
           "hierarchy": "Data Time Parsers Timestamp",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Timestamp",
           "name": "zonedTime",
           "normalized": "OptionedParser LocalTime-\u003eOptionedParser TimeZone-\u003eOptionedParser ZonedTime",
@@ -696,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "Types",
           "package": "timeparsers",
@@ -704,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "Types",
           "package": "timeparsers",
@@ -718,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats for purely numeric dates, e.g. 99-2-27\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "DateFormat",
           "package": "timeparsers",
@@ -727,6 +788,7 @@
         "index": {
           "description": "Formats for purely numeric dates e.g",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "DateFormat",
           "package": "timeparsers",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "DateToken",
           "package": "timeparsers",
@@ -748,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "DateToken",
           "package": "timeparsers",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "ExtendedTimestamp",
           "package": "timeparsers",
@@ -769,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "ExtendedTimestamp",
           "package": "timeparsers",
@@ -783,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags to tune the behavior of a parser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "Flag",
           "package": "timeparsers",
@@ -792,6 +859,7 @@
         "index": {
           "description": "Flags to tune the behavior of parser",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "Flag",
           "package": "timeparsers",
@@ -806,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted from ZonedTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "FromZonedTime",
           "package": "timeparsers",
@@ -815,6 +884,7 @@
         "index": {
           "description": "type that can be converted from ZonedTime",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "FromZonedTime",
           "package": "timeparsers",
@@ -829,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Parser with Options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "OptionedParser",
           "package": "timeparsers",
@@ -838,6 +909,7 @@
         "index": {
           "description": "Parser with Options",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "OptionedParser",
           "package": "timeparsers",
@@ -851,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "Options",
           "package": "timeparsers",
@@ -859,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "Options",
           "package": "timeparsers",
@@ -873,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted to ZonedTime\n For LocalTime, it is assumed the TimeZone is UTC\n For Day, it is assumed that the TimeOfDay is midnight and the TimeZone is UTC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "ToZonedTime",
           "package": "timeparsers",
@@ -882,6 +957,7 @@
         "index": {
           "description": "type that can be converted to ZonedTime For LocalTime it is assumed the TimeZone is UTC For Day it is assumed that the TimeOfDay is midnight and the TimeZone is UTC",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "ToZonedTime",
           "package": "timeparsers",
@@ -896,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Integer that could represent a day, month, or year\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "Any",
           "package": "timeparsers",
@@ -906,6 +983,7 @@
         "index": {
           "description": "An Integer that could represent day month or year",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "Any",
           "package": "timeparsers",
@@ -920,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse Australian Timezones\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "AustralianTimeZones",
           "package": "timeparsers",
@@ -930,6 +1009,7 @@
         "index": {
           "description": "Use Australian Timezones",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "AustralianTimeZones",
           "package": "timeparsers",
@@ -944,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eday-month-year\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "DMY",
           "package": "timeparsers",
@@ -954,6 +1035,7 @@
         "index": {
           "description": "day-month-year",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "DMY",
           "package": "timeparsers",
@@ -968,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf no TimeOfDay is supplied for a type where it\n is required, use midnight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "DefaultToMidnight",
           "package": "timeparsers",
@@ -978,6 +1061,7 @@
         "index": {
           "description": "If no TimeOfDay is supplied for type where it is required use midnight",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "DefaultToMidnight",
           "package": "timeparsers",
@@ -992,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf no timezone is supplied for a type where it\n is required, use UTC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "DefaultToUTC",
           "package": "timeparsers",
@@ -1002,6 +1087,7 @@
         "index": {
           "description": "If no timezone is supplied for type where it is required use UTC",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "DefaultToUTC",
           "package": "timeparsers",
@@ -1016,6 +1102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonth-year-day\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "MDY",
           "package": "timeparsers",
@@ -1026,6 +1113,7 @@
         "index": {
           "description": "month-year-day",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "MDY",
           "package": "timeparsers",
@@ -1040,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret years 0-99 as 1970-2069\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "MakeRecent",
           "package": "timeparsers",
@@ -1050,6 +1139,7 @@
         "index": {
           "description": "Interpret years as",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "MakeRecent",
           "package": "timeparsers",
@@ -1064,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Integer that is known to represent a month\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "Month",
           "package": "timeparsers",
@@ -1074,6 +1165,7 @@
         "index": {
           "description": "An Integer that is known to represent month",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "Month",
           "package": "timeparsers",
@@ -1088,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "Now",
           "package": "timeparsers",
@@ -1098,6 +1191,7 @@
         "index": {
           "description": "The current time",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "Now",
           "package": "timeparsers",
@@ -1111,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "Options",
           "package": "timeparsers",
@@ -1120,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "Options",
           "package": "timeparsers",
@@ -1134,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequire an \u003ccode\u003es\u003c/code\u003e at the end of a POSIX timestamp.\n Can be used to distinguish between POSIXTime and\n iso8601 with no separators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "RequirePosixUnit",
           "package": "timeparsers",
@@ -1144,6 +1241,7 @@
         "index": {
           "description": "Require an at the end of POSIX timestamp Can be used to distinguish between POSIXTime and iso8601 with no separators",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "RequirePosixUnit",
           "package": "timeparsers",
@@ -1158,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn explicit Timestamp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "Timestamp",
           "package": "timeparsers",
@@ -1168,6 +1267,7 @@
         "index": {
           "description": "An explicit Timestamp",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "Timestamp",
           "package": "timeparsers",
@@ -1182,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMidnight today\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "Today",
           "package": "timeparsers",
@@ -1192,6 +1293,7 @@
         "index": {
           "description": "Midnight today",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "Today",
           "package": "timeparsers",
@@ -1206,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMidight tomorrow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "Tomorrow",
           "package": "timeparsers",
@@ -1216,6 +1319,7 @@
         "index": {
           "description": "Midight tomorrow",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "Tomorrow",
           "package": "timeparsers",
@@ -1230,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eyear-month-day\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "YMD",
           "package": "timeparsers",
@@ -1240,6 +1345,7 @@
         "index": {
           "description": "year-month-day",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "YMD",
           "package": "timeparsers",
@@ -1254,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Integer that is known to represent a year\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "Year",
           "package": "timeparsers",
@@ -1264,6 +1371,7 @@
         "index": {
           "description": "An Integer that is known to represent year",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "Year",
           "package": "timeparsers",
@@ -1278,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMidnight yesterday\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "Yesterday",
           "package": "timeparsers",
@@ -1288,6 +1397,7 @@
         "index": {
           "description": "Midnight yesterday",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "Yesterday",
           "package": "timeparsers",
@@ -1302,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of Flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "flags",
           "package": "timeparsers",
@@ -1312,6 +1423,7 @@
         "index": {
           "description": "Set of Flags",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "flags",
           "package": "timeparsers",
@@ -1325,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of what DateFormats to try.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "formats",
           "package": "timeparsers",
@@ -1335,6 +1448,7 @@
         "index": {
           "description": "List of what DateFormats to try",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "formats",
           "normalized": "[DateFormat]",
@@ -1349,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "fromZonedTime",
           "package": "timeparsers",
@@ -1358,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "fromZonedTime",
           "normalized": "ZonedTime-\u003ea",
@@ -1374,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of accepted separators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "seps",
           "package": "timeparsers",
@@ -1384,6 +1501,7 @@
         "index": {
           "description": "Set of accepted separators",
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "seps",
           "package": "timeparsers",
@@ -1396,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Types",
           "name": "toZonedTime",
           "package": "timeparsers",
@@ -1405,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Types",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Types",
           "name": "toZonedTime",
           "normalized": "a-\u003eZonedTime",
@@ -1420,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Util",
           "name": "Util",
           "package": "timeparsers",
@@ -1428,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers Util",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Util",
           "name": "Util",
           "package": "timeparsers",
@@ -1521,6 +1643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the strings \u003ca\u003eBC\u003c/a\u003e or \u003ca\u003eBCE\u003c/a\u003e are consumed, false otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Util",
           "name": "isBCE",
           "package": "timeparsers",
@@ -1531,6 +1654,7 @@
         "index": {
           "description": "Return true if the strings BC or BCE are consumed false otherwise",
           "hierarchy": "Data Time Parsers Util",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Util",
           "name": "isBCE",
           "package": "timeparsers",
@@ -1545,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn whether a given flag is set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Util",
           "name": "isFlagSet",
           "package": "timeparsers",
@@ -1555,6 +1680,7 @@
         "index": {
           "description": "Return whether given flag is set",
           "hierarchy": "Data Time Parsers Util",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Util",
           "name": "isFlagSet",
           "normalized": "Flag-\u003eOptionedParser Bool",
@@ -1571,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a CE date into a BCE date. Fails if the date is already BCE\n Warning: If you anticipate BCE dates, it is advisable to not use the\n MakeRecent flag. It will cause ByteStrings such as \u003ca\u003e79 BC\u003c/a\u003e to be parsed as\n \u003ca\u003e1979 BCE\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Util",
           "name": "makeBCE",
           "package": "timeparsers",
@@ -1581,6 +1708,7 @@
         "index": {
           "description": "Converts CE date into BCE date Fails if the date is already BCE Warning If you anticipate BCE dates it is advisable to not use the MakeRecent flag It will cause ByteStrings such as BC to be parsed as BCE",
           "hierarchy": "Data Time Parsers Util",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Util",
           "name": "makeBCE",
           "normalized": "Day-\u003ea Day",
@@ -1597,6 +1725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a given number of digits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Util",
           "name": "nDigit",
           "package": "timeparsers",
@@ -1607,6 +1736,7 @@
         "index": {
           "description": "Parse given number of digits",
           "hierarchy": "Data Time Parsers Util",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Util",
           "name": "nDigit",
           "normalized": "Int-\u003eParser a",
@@ -1623,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail if the given parser fails to consume all of the input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers.Util",
           "name": "onlyParse",
           "package": "timeparsers",
@@ -1633,6 +1764,7 @@
         "index": {
           "description": "Fail if the given parser fails to consume all of the input",
           "hierarchy": "Data Time Parsers Util",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers.Util",
           "name": "onlyParse",
           "normalized": "OptionedParser a-\u003eOptionedParser a",
@@ -1752,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:09 UTC 2014",
           "module": "Data.Time.Parsers",
           "name": "Parsers",
           "package": "timeparsers",
@@ -1760,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Data Time Parsers",
+          "indexed": "2014-03-11T20:23:09",
           "module": "Data.Time.Parsers",
           "name": "Parsers",
           "package": "timeparsers",

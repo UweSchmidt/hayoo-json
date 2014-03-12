@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Rlang-QQ"
+        "phrase": "Rlang-QQ",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "HListExtras",
           "name": "HListExtras",
           "package": "Rlang-QQ",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HListExtras",
+          "indexed": "2014-03-11T16:58:56",
           "module": "HListExtras",
           "name": "HListExtras",
           "package": "Rlang-QQ",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "HListExtras",
           "name": "FApply",
           "package": "Rlang-QQ",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HListExtras",
+          "indexed": "2014-03-11T16:58:56",
           "module": "HListExtras",
           "name": "FApply",
           "package": "Rlang-QQ",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "HListExtras",
           "name": "FApply",
           "package": "Rlang-QQ",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "HListExtras",
+          "indexed": "2014-03-11T16:58:56",
           "module": "HListExtras",
           "name": "FApply",
           "package": "Rlang-QQ",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Antiquote",
           "name": "Antiquote",
           "package": "Rlang-QQ",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Antiquote",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Antiquote",
           "name": "Antiquote",
           "package": "Rlang-QQ",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Antiquote",
           "name": "extractAntiquotes",
           "package": "Rlang-QQ",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Antiquote",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Antiquote",
           "name": "extractAntiquotes",
           "normalized": "Parser[Either Exp String]",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversions between R's RDS/RDA format and haskell data types.\n\u003c/p\u003e\u003cp\u003etested with R 3.0.1\n\u003c/p\u003e\u003cp\u003eMissing:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Data.Map\n\u003c/li\u003e\u003cli\u003e better error reporting when the format is bad?\n\u003c/li\u003e\u003cli\u003e more tests\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "Binary",
           "package": "Rlang-QQ",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Conversions between RDS RDA format and haskell data types tested with Missing Data.Map better error reporting when the format is bad more tests",
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "Binary",
           "package": "Rlang-QQ",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "FromRDA",
           "package": "Rlang-QQ",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "FromRDA",
           "package": "Rlang-QQ",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "FromRDS",
           "package": "Rlang-QQ",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "FromRDS",
           "package": "Rlang-QQ",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egiven \u003ccode\u003e\u003ca\u003ebounds\u003c/a\u003e\u003c/code\u003e of an array, produce a list of how many elements\n are in each dimension. For example, a 3x2 array produces [3,2].\n\u003c/p\u003e\u003cp\u003eA single instance for \"linear\" indices would look like:\n\u003c/p\u003e\u003cpre\u003e instance (A.Ix i, Num i) =\u003e IxSize i where\n     ixSize x = [fromIntegral (A.rangeSize x)]\n     fromIxSize [n] = (0, n-1)\n\u003c/pre\u003e\u003cp\u003eBut to avoid overlapping instances all monomorphic index types likely\n to be used are just repeated here. fromIxSize produces 0-based indexes\n for instances of \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e), while \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e is\n used for other types.\n\u003c/p\u003e\u003cp\u003eR supports a dimnames attribute. This could be used but it is not so far.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "IxSize",
           "package": "Rlang-QQ",
@@ -202,6 +219,7 @@
         "index": {
           "description": "given bounds of an array produce list of how many elements are in each dimension For example x2 array produces single instance for linear indices would look like instance A.Ix Num IxSize where ixSize fromIntegral A.rangeSize fromIxSize n-1 But to avoid overlapping instances all monomorphic index types likely to be used are just repeated here fromIxSize produces based indexes for instances of Num Word Int Integer while minBound is used for other types supports dimnames attribute This could be used but it is not so far",
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "IxSize",
           "package": "Rlang-QQ",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elabels are stored with the variables here. compare with the instance for \u003ccode\u003e\u003ca\u003eRecord\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003eLST\u003c/code\u003e which collects\n the labels and saves them as an attribute called \"names\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "RDA",
           "package": "Rlang-QQ",
@@ -225,6 +244,7 @@
         "index": {
           "description": "labels are stored with the variables here compare with the instance for Record LST which collects the labels and saves them as an attribute called names",
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "RDA",
           "package": "Rlang-QQ",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "RDSHLIST",
           "package": "Rlang-QQ",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "RDSHLIST",
           "package": "Rlang-QQ",
@@ -260,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esame as Binary but should be compatible with R's \u003ccode\u003esaveRDS\u003c/code\u003e\n binary mode, which is for single objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "ToRDS",
           "package": "Rlang-QQ",
@@ -269,6 +292,7 @@
         "index": {
           "description": "same as Binary but should be compatible with saveRDS binary mode which is for single objects",
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "ToRDS",
           "package": "Rlang-QQ",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "ToRDSRecord",
           "package": "Rlang-QQ",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "ToRDSRecord",
           "package": "Rlang-QQ",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "fromIxSize",
           "package": "Rlang-QQ",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "fromIxSize",
           "package": "Rlang-QQ",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "fromRDA",
           "package": "Rlang-QQ",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "fromRDA",
           "normalized": "ByteString-\u003eRecord a",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "fromRDS",
           "package": "Rlang-QQ",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "fromRDS",
           "package": "Rlang-QQ",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "ixSize",
           "package": "Rlang-QQ",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "ixSize",
           "normalized": "(a,a)-\u003e[Int]",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "toRDA",
           "package": "Rlang-QQ",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "toRDA",
           "normalized": "Record a-\u003eByteString",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Binary",
           "name": "toRDS",
           "package": "Rlang-QQ",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Binary",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Binary",
           "name": "toRDS",
           "normalized": "a-\u003ePut",
@@ -444,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ehMap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFN\u003c/a\u003e\u003c/code\u003e drops the inner Tagged, which was\n just used to keep track of the variable name on the\n R side.\n\u003c/p\u003e\u003cp\u003eit could be replaced by unsafeCoerce with the\n right type signature\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.FN",
           "name": "FN",
           "package": "Rlang-QQ",
@@ -453,6 +492,7 @@
         "index": {
           "description": "hMap FN drops the inner Tagged which was just used to keep track of the variable name on the side it could be replaced by unsafeCoerce with the right type signature",
           "hierarchy": "RlangQQ FN",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.FN",
           "name": "FN",
           "package": "Rlang-QQ",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.FN",
           "name": "FN",
           "package": "Rlang-QQ",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ FN",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.FN",
           "name": "FN",
           "package": "Rlang-QQ",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.FN",
           "name": "NoLabel",
           "package": "Rlang-QQ",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ FN",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.FN",
           "name": "NoLabel",
           "package": "Rlang-QQ",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.FN",
           "name": "FN",
           "package": "Rlang-QQ",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ FN",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.FN",
           "name": "FN",
           "package": "Rlang-QQ",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.FN",
           "name": "NoLabel",
           "package": "Rlang-QQ",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ FN",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.FN",
           "name": "NoLabel",
           "package": "Rlang-QQ",
@@ -552,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "Internal",
           "package": "Rlang-QQ",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "Internal",
           "package": "Rlang-QQ",
@@ -574,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhat is the usage of a \u003ccode\u003ehs_\u003c/code\u003e variable on the R side?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "Intent",
           "package": "Rlang-QQ",
@@ -583,6 +634,7 @@
         "index": {
           "description": "what is the usage of hs variable on the side",
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "Intent",
           "package": "Rlang-QQ",
@@ -597,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly read\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "In",
           "package": "Rlang-QQ",
@@ -607,6 +660,7 @@
         "index": {
           "description": "only read",
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "In",
           "package": "Rlang-QQ",
@@ -621,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eboth\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "InOut",
           "package": "Rlang-QQ",
@@ -631,6 +686,7 @@
         "index": {
           "description": "both",
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "InOut",
           "package": "Rlang-QQ",
@@ -645,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly assigned to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "Out",
           "package": "Rlang-QQ",
@@ -655,6 +712,7 @@
         "index": {
           "description": "only assigned to",
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "Out",
           "package": "Rlang-QQ",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "classifyByConT",
           "package": "Rlang-QQ",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "classifyByConT",
           "normalized": "[(String,a)]-\u003eQ([(String,a)],[(String,a)],[(String,a)])",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "classifyExp",
           "package": "Rlang-QQ",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "classifyExp",
           "normalized": "Tree String-\u003eMaybe(String,Intent)",
@@ -717,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ego from the variable name used on the R-side to the one in the haskell side\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "dropHS",
           "package": "Rlang-QQ",
@@ -727,6 +790,7 @@
         "index": {
           "description": "go from the variable name used on the R-side to the one in the haskell side",
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "dropHS",
           "normalized": "[Char]-\u003e[Char]",
@@ -743,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis reify fails most of the time, since the type isn't\n available in a quasiquote (run in the renamer) for things\n declared in the same file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "getConTOf",
           "package": "Rlang-QQ",
@@ -753,6 +818,7 @@
         "index": {
           "description": "this reify fails most of the time since the type isn available in quasiquote run in the renamer for things declared in the same file",
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "getConTOf",
           "normalized": "String-\u003eQ(Maybe Name)",
@@ -768,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "getRlangQQ_n",
           "package": "Rlang-QQ",
@@ -777,6 +844,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "getRlangQQ_n",
           "package": "Rlang-QQ",
@@ -790,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "hsClassify",
           "package": "Rlang-QQ",
@@ -799,6 +868,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "hsClassify",
           "normalized": "Tree String-\u003eMap String Intent",
@@ -815,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egets variables like \u003ccode\u003eabc\u003c/code\u003e provided the R file contained \u003ccode\u003ehs_abc\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "hsVars",
           "package": "Rlang-QQ",
@@ -825,6 +896,7 @@
         "index": {
           "description": "gets variables like abc provided the file contained hs abc",
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "hsVars",
           "normalized": "Tree String-\u003e[String]",
@@ -841,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHList label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "label",
           "package": "Rlang-QQ",
@@ -851,6 +924,7 @@
         "index": {
           "description": "HList label",
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "label",
           "normalized": "String-\u003eExpQ",
@@ -865,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "label'",
           "package": "Rlang-QQ",
@@ -874,6 +949,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "label'",
           "normalized": "String-\u003eExpQ",
@@ -888,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "labelTree",
           "package": "Rlang-QQ",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "labelTree",
           "normalized": "Tree String-\u003eTree(String,Int)",
@@ -912,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "mkHList",
           "package": "Rlang-QQ",
@@ -921,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "mkHList",
           "normalized": "[ExpQ]-\u003eExpQ",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "notIn",
           "package": "Rlang-QQ",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "notIn",
           "normalized": "Intent-\u003eBool",
@@ -960,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "notOut",
           "package": "Rlang-QQ",
@@ -969,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "notOut",
           "normalized": "Intent-\u003eBool",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "parseTree",
           "package": "Rlang-QQ",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "parseTree",
           "package": "Rlang-QQ",
@@ -1006,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "parseTree'",
           "package": "Rlang-QQ",
@@ -1015,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "parseTree'",
           "package": "Rlang-QQ",
@@ -1028,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "parseTreeTest",
           "package": "Rlang-QQ",
@@ -1037,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "parseTreeTest",
           "normalized": "[Char]-\u003eIO()",
@@ -1052,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "parseTreeTest2",
           "package": "Rlang-QQ",
@@ -1061,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "parseTreeTest2",
           "normalized": "IO()",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "parseTreeTest3",
           "package": "Rlang-QQ",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "parseTreeTest3",
           "normalized": "String-\u003eIO()",
@@ -1100,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "prefixes",
           "package": "Rlang-QQ",
@@ -1109,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "prefixes",
           "normalized": "[[Char]]",
@@ -1124,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egoing via binary serialization (classes from \u003ca\u003eRlangQQ.Binary\u003c/a\u003e). This is used in \u003ccode\u003e\u003ca\u003er\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "quoteRExpression2",
           "package": "Rlang-QQ",
@@ -1134,6 +1231,7 @@
         "index": {
           "description": "going via binary serialization classes from RlangQQ.Binary This is used in",
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "quoteRExpression2",
           "normalized": "Int-\u003eBool-\u003eString-\u003eQ Exp",
@@ -1149,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "rlangQQ_n",
           "package": "Rlang-QQ",
@@ -1158,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "rlangQQ_n",
           "package": "Rlang-QQ",
@@ -1171,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "splitKnitrHdr",
           "package": "Rlang-QQ",
@@ -1180,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "splitKnitrHdr",
           "normalized": "String-\u003e(String,String)",
@@ -1195,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "unlessQ",
           "package": "Rlang-QQ",
@@ -1204,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "unlessQ",
           "normalized": "Bool-\u003eExpQ-\u003eExpQ",
@@ -1218,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "var",
           "package": "Rlang-QQ",
@@ -1227,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "var",
           "normalized": "[Char]-\u003eExpQ",
@@ -1241,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "whenQ",
           "package": "Rlang-QQ",
@@ -1250,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "whenQ",
           "normalized": "Bool-\u003eExpQ-\u003eExpQ",
@@ -1264,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.Internal",
           "name": "withRawFile",
           "package": "Rlang-QQ",
@@ -1273,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ Internal",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.Internal",
           "name": "withRawFile",
           "normalized": "String-\u003e(String,ExpQ-\u003eExpQ)",
@@ -1289,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003efunctions to help making lists for consumption on the R side\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.MakeRecord",
           "name": "MakeRecord",
           "package": "Rlang-QQ",
@@ -1298,6 +1409,7 @@
         "index": {
           "description": "functions to help making lists for consumption on the side",
           "hierarchy": "RlangQQ MakeRecord",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.MakeRecord",
           "name": "MakeRecord",
           "package": "Rlang-QQ",
@@ -1311,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.MakeRecord",
           "name": "ListToRecN",
           "package": "Rlang-QQ",
@@ -1319,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ MakeRecord",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.MakeRecord",
           "name": "ListToRecN",
           "package": "Rlang-QQ",
@@ -1332,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.MakeRecord",
           "name": "NoLabel",
           "package": "Rlang-QQ",
@@ -1340,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ MakeRecord",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.MakeRecord",
           "name": "NoLabel",
           "package": "Rlang-QQ",
@@ -1353,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.MakeRecord",
           "name": "NoLabel",
           "package": "Rlang-QQ",
@@ -1362,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ MakeRecord",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.MakeRecord",
           "name": "NoLabel",
           "package": "Rlang-QQ",
@@ -1402,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.NatQQ",
           "name": "NatQQ",
           "package": "Rlang-QQ",
@@ -1410,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ NatQQ",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.NatQQ",
           "name": "NatQQ",
           "package": "Rlang-QQ",
@@ -1447,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.ParseKnitted",
           "name": "ParseKnitted",
           "package": "Rlang-QQ",
@@ -1455,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ ParseKnitted",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.ParseKnitted",
           "name": "ParseKnitted",
           "package": "Rlang-QQ",
@@ -1468,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitInteraction",
           "package": "Rlang-QQ",
@@ -1476,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ ParseKnitted",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitInteraction",
           "package": "Rlang-QQ",
@@ -1489,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitOutput",
           "package": "Rlang-QQ",
@@ -1497,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ ParseKnitted",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitOutput",
           "package": "Rlang-QQ",
@@ -1511,6 +1637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehas markup to be interpreted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitAsIs",
           "package": "Rlang-QQ",
@@ -1521,6 +1648,7 @@
         "index": {
           "description": "has markup to be interpreted",
           "hierarchy": "RlangQQ ParseKnitted",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitAsIs",
           "package": "Rlang-QQ",
@@ -1534,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitError",
           "package": "Rlang-QQ",
@@ -1543,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ ParseKnitted",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitError",
           "package": "Rlang-QQ",
@@ -1557,6 +1687,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e![caption](pathToImage)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitImage",
           "package": "Rlang-QQ",
@@ -1567,6 +1698,7 @@
         "index": {
           "description": "caption pathToImage",
           "hierarchy": "RlangQQ ParseKnitted",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitImage",
           "package": "Rlang-QQ",
@@ -1580,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitInteraction",
           "package": "Rlang-QQ",
@@ -1589,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ ParseKnitted",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitInteraction",
           "normalized": "KnitInteraction String[KnitOutput]",
@@ -1604,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitPrint",
           "package": "Rlang-QQ",
@@ -1613,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ ParseKnitted",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitPrint",
           "package": "Rlang-QQ",
@@ -1626,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitWarning",
           "package": "Rlang-QQ",
@@ -1635,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ ParseKnitted",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.ParseKnitted",
           "name": "KnitWarning",
           "package": "Rlang-QQ",
@@ -1649,6 +1787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplits up the contents of the .md file generated by \u003ccode\u003eknitr::knit\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ.ParseKnitted",
           "name": "parseKnitted",
           "package": "Rlang-QQ",
@@ -1659,6 +1798,7 @@
         "index": {
           "description": "splits up the contents of the md file generated by knitr knit",
           "hierarchy": "RlangQQ ParseKnitted",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ.ParseKnitted",
           "name": "parseKnitted",
           "normalized": "String-\u003e[KnitInteraction]",
@@ -1675,6 +1815,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA quasiquoter to help with calling \u003ca\u003eR\u003c/a\u003e from ghc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ",
           "name": "RlangQQ",
           "package": "Rlang-QQ",
@@ -1684,6 +1825,7 @@
         "index": {
           "description": "quasiquoter to help with calling from ghc",
           "hierarchy": "RlangQQ",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ",
           "name": "RlangQQ",
           "package": "Rlang-QQ",
@@ -1697,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ",
           "name": "FromRDS",
           "package": "Rlang-QQ",
@@ -1705,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "RlangQQ",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ",
           "name": "FromRDS",
           "package": "Rlang-QQ",
@@ -1719,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esame as Binary but should be compatible with R's \u003ccode\u003esaveRDS\u003c/code\u003e\n binary mode, which is for single objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ",
           "name": "ToRDS",
           "package": "Rlang-QQ",
@@ -1728,6 +1873,7 @@
         "index": {
           "description": "same as Binary but should be compatible with saveRDS binary mode which is for single objects",
           "hierarchy": "RlangQQ",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ",
           "name": "ToRDS",
           "package": "Rlang-QQ",
@@ -1742,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003enewChan\u003c/a\u003e\u003c/code\u003e with a more restricted type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ",
           "name": "newRChan",
           "package": "Rlang-QQ",
@@ -1752,6 +1899,7 @@
         "index": {
           "description": "newChan with more restricted type",
           "hierarchy": "RlangQQ",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ",
           "name": "newRChan",
           "normalized": "IO(Chan(a,b-\u003eIO()))",
@@ -1768,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enewRChan (undefined :: Double)\u003c/code\u003e produces an even more restricted type than\n \u003ccode\u003e\u003ca\u003enewRChan'\u003c/a\u003e\u003c/code\u003e, which can help make type errors more sensible and/or avoid\n \u003ccode\u003eambiguous type variable\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ",
           "name": "newRChan'",
           "package": "Rlang-QQ",
@@ -1778,6 +1927,7 @@
         "index": {
           "description": "newRChan undefined Double produces an even more restricted type than newRChan which can help make type errors more sensible and or avoid ambiguous type variable",
           "hierarchy": "RlangQQ",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ",
           "name": "newRChan'",
           "normalized": "a-\u003eIO(Chan(a,b-\u003eIO()))",
@@ -1794,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls R with the supplied string. Variables in R prefixed hs_ cause\nthe corresponding (un-prefixed) variable to be converted. The variable(s) must\nbe in at least one class \u003ccode\u003e\u003ca\u003eFromRDS\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eToRDS\u003c/a\u003e\u003c/code\u003e. Currently the relation between\nwhere variables are used and assigned to (using \u003ccode\u003e\u003c-\u003c/code\u003e) determines the \u003ccode\u003e\u003ca\u003eIntent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExpressions are also supported. These must be text between $( ), just like template\nhaskell. One condition is that the contents between the parentheses must be\nparseable by haskell-src-meta/haskell-src-exts. So if you find the hs_ notation unpleasant\nyou can still interpolate using $(x).\n\u003c/p\u003e\u003cp\u003eAn example of both styles is\n\u003c/p\u003e\u003cpre\u003e \n import RlangQQ\n\n x = [0 .. 10  :: Double]\n\n main = do\n   [r|\n     library(ggplot2)\n     png(file='test.png')\n     plot(qplot( hs_x, $(map (sin . (*pi) . (/10)) x) ))\n     dev.off()\n     |]\n\u003c/pre\u003e\u003cp\u003eYou get a plot: \u003cimg src=\"http://code.haskell.org/~aavogt/Rlang-QQ/examples/test.png\"/\u003e\n\u003c/p\u003e\u003cp\u003eWhile it is only somewhat usable, you can have Rnw/Rmd documents (knitr) that\ninclude haskell code. One example is given\n\u003ca\u003ehere\u003c/a\u003e. A second\noption is to use \u003ca\u003eIHaskell\u003c/a\u003e, for\nwhich there are two example notebooks in the same \u003ca\u003ehttp://code.haskell.org/~aavogt/Rlang-QQ/examples\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ",
           "name": "r",
           "package": "Rlang-QQ",
@@ -1804,6 +1955,7 @@
         "index": {
           "description": "Calls with the supplied string Variables in prefixed hs cause the corresponding un-prefixed variable to be converted The variable must be in at least one class FromRDS or ToRDS Currently the relation between where variables are used and assigned to using determines the Intent Expressions are also supported These must be text between just like template haskell One condition is that the contents between the parentheses must be parseable by haskell-src-meta haskell-src-exts So if you find the hs notation unpleasant you can still interpolate using An example of both styles is import RlangQQ Double main do library ggplot2 png file test.png plot qplot hs map sin pi dev.off You get plot While it is only somewhat usable you can have Rnw Rmd documents knitr that include haskell code One example is given here second option is to use IHaskell for which there are two example notebooks in the same http code.haskell.org aavogt Rlang-QQ examples",
           "hierarchy": "RlangQQ",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ",
           "name": "r",
           "package": "Rlang-QQ",
@@ -1817,6 +1969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e[rChan| |]\u003c/code\u003e does the same as [r|  |], except the\n return value will be a \u003ccode\u003eChan (Record a)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ",
           "name": "rChan",
           "package": "Rlang-QQ",
@@ -1827,6 +1980,7 @@
         "index": {
           "description": "rChan does the same as except the return value will be Chan Record",
           "hierarchy": "RlangQQ",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ",
           "name": "rChan",
           "package": "Rlang-QQ",
@@ -1841,6 +1995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ey \u003c- sendRcv c x\u003c/code\u003e sends the value \u003ccode\u003ex\u003c/code\u003e using the chan \u003ccode\u003ec\u003c/code\u003e.\n Provided that an \u003ccode\u003e[r| |]\u003c/code\u003e quasiquote above refers to a \u003ccode\u003ech_c\u003c/code\u003e,\n the call to \u003ccode\u003e\u003ca\u003esendRcv\u003c/a\u003e\u003c/code\u003e will eventually produce a \u003ccode\u003e\u003ca\u003eRecord\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ey\u003c/code\u003e\n which provides a reference to all the output variables that\n R calculated with the given \u003ccode\u003ex\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:56 UTC 2014",
           "module": "RlangQQ",
           "name": "sendRcv",
           "package": "Rlang-QQ",
@@ -1851,6 +2006,7 @@
         "index": {
           "description": "sendRcv sends the value using the chan Provided that an quasiquote above refers to ch the call to sendRcv will eventually produce Record which provides reference to all the output variables that calculated with the given",
           "hierarchy": "RlangQQ",
+          "indexed": "2014-03-11T16:58:56",
           "module": "RlangQQ",
           "name": "sendRcv",
           "normalized": "Chan(a,b-\u003eIO())-\u003ea-\u003eIO b",

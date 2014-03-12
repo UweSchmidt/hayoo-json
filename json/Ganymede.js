@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Ganymede"
+        "phrase": "Ganymede",
+        "type": "phrase"
       },
       "type": "context"
     }

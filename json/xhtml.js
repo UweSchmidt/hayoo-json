@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xhtml"
+        "phrase": "xhtml",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProduces XHTML 1.0 Frameset.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "Frameset",
           "package": "xhtml",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Produces XHTML Frameset",
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "Frameset",
           "package": "xhtml",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "ADDATTRS",
           "package": "xhtml",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "ADDATTRS",
           "package": "xhtml",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCHANGEATTRS is a more expressive alternative to ADDATTRS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "CHANGEATTRS",
           "package": "xhtml",
@@ -72,6 +77,7 @@
         "index": {
           "description": "CHANGEATTRS is more expressive alternative to ADDATTRS",
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "CHANGEATTRS",
           "package": "xhtml",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML is the class of things that can be validly put\n inside an HTML tag. So this can be one or more \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e elements,\n or a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, for example.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "HTML",
           "package": "xhtml",
@@ -95,6 +102,7 @@
         "index": {
           "description": "HTML is the class of things that can be validly put inside an HTML tag So this can be one or more Html elements or String for example",
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "HTML",
           "package": "xhtml",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "HotLink",
           "package": "xhtml",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "HotLink",
           "package": "xhtml",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "Html",
           "package": "xhtml",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "Html",
           "package": "xhtml",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes with name and value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "HtmlAttr",
           "package": "xhtml",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Attributes with name and value",
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "HtmlAttr",
           "package": "xhtml",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "URL",
           "package": "xhtml",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "URL",
           "package": "xhtml",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "(!)",
           "package": "xhtml",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "(!) !",
           "normalized": "a-\u003e[HtmlAttr]-\u003ea",
@@ -885,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "changeAttrs",
           "package": "xhtml",
@@ -894,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "changeAttrs",
           "normalized": "a-\u003e([HtmlAttr]-\u003e[HtmlAttr])-\u003ea",
@@ -2996,6 +3016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs indented HTML, with indentation inside elements.\n   This can change the meaning of the HTML document, and \n   is mostly useful for debugging the HTML output.\n   The implementation is inefficient, and you are normally\n   better off using \u003ccode\u003e\u003ca\u003eshowHtml\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erenderHtml\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "prettyHtml",
           "package": "xhtml",
@@ -3006,6 +3027,7 @@
         "index": {
           "description": "Outputs indented HTML with indentation inside elements This can change the meaning of the HTML document and is mostly useful for debugging the HTML output The implementation is inefficient and you are normally better off using showHtml or renderHtml",
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "prettyHtml",
           "normalized": "a-\u003eString",
@@ -3173,6 +3195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs indented HTML. Because space matters in\n   HTML, the output is quite messy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "renderHtml",
           "package": "xhtml",
@@ -3183,6 +3206,7 @@
         "index": {
           "description": "Outputs indented HTML Because space matters in HTML the output is quite messy",
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "renderHtml",
           "normalized": "a-\u003eString",
@@ -3488,6 +3512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the HTML without adding newlines or spaces within the markup.\n   This should be the most time and space efficient way to\n   render HTML, though the ouput is quite unreadable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "showHtml",
           "package": "xhtml",
@@ -3498,6 +3523,7 @@
         "index": {
           "description": "Output the HTML without adding newlines or spaces within the markup This should be the most time and space efficient way to render HTML though the ouput is quite unreadable",
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "showHtml",
           "normalized": "a-\u003eString",
@@ -4336,6 +4362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "toHtml",
           "package": "xhtml",
@@ -4345,6 +4372,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "toHtml",
           "normalized": "a-\u003eHtml",
@@ -4360,6 +4388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Frameset",
           "name": "toHtmlFromList",
           "package": "xhtml",
@@ -4369,6 +4398,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Frameset",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Frameset",
           "name": "toHtmlFromList",
           "normalized": "[a]-\u003eHtml",
@@ -4626,6 +4656,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProduces XHTML 1.0 Strict.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "Strict",
           "package": "xhtml",
@@ -4635,6 +4666,7 @@
         "index": {
           "description": "Produces XHTML Strict",
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "Strict",
           "package": "xhtml",
@@ -4648,6 +4680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "ADDATTRS",
           "package": "xhtml",
@@ -4656,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "ADDATTRS",
           "package": "xhtml",
@@ -4670,6 +4704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCHANGEATTRS is a more expressive alternative to ADDATTRS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "CHANGEATTRS",
           "package": "xhtml",
@@ -4679,6 +4714,7 @@
         "index": {
           "description": "CHANGEATTRS is more expressive alternative to ADDATTRS",
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "CHANGEATTRS",
           "package": "xhtml",
@@ -4693,6 +4729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML is the class of things that can be validly put\n inside an HTML tag. So this can be one or more \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e elements,\n or a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, for example.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "HTML",
           "package": "xhtml",
@@ -4702,6 +4739,7 @@
         "index": {
           "description": "HTML is the class of things that can be validly put inside an HTML tag So this can be one or more Html elements or String for example",
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "HTML",
           "package": "xhtml",
@@ -4715,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "HotLink",
           "package": "xhtml",
@@ -4723,6 +4762,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "HotLink",
           "package": "xhtml",
@@ -4736,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "Html",
           "package": "xhtml",
@@ -4744,6 +4785,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "Html",
           "package": "xhtml",
@@ -4758,6 +4800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes with name and value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "HtmlAttr",
           "package": "xhtml",
@@ -4767,6 +4810,7 @@
         "index": {
           "description": "Attributes with name and value",
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "HtmlAttr",
           "package": "xhtml",
@@ -4780,6 +4824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "URL",
           "package": "xhtml",
@@ -4788,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "URL",
           "package": "xhtml",
@@ -4801,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "(!)",
           "package": "xhtml",
@@ -4810,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "(!) !",
           "normalized": "a-\u003e[HtmlAttr]-\u003ea",
@@ -4824,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "changeAttrs",
           "package": "xhtml",
@@ -4833,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "changeAttrs",
           "normalized": "a-\u003e([HtmlAttr]-\u003e[HtmlAttr])-\u003ea",
@@ -4849,6 +4899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eDOCTYPE\u003c/code\u003e for XHTML 1.0 Strict.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "docType",
           "package": "xhtml",
@@ -4859,6 +4910,7 @@
         "index": {
           "description": "The DOCTYPE for XHTML Strict",
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "docType",
           "package": "xhtml",
@@ -4873,6 +4925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs indented HTML, with indentation inside elements.\n   This can change the meaning of the HTML document, and \n   is mostly useful for debugging the HTML output.\n   The implementation is inefficient, and you are normally\n   better off using \u003ccode\u003e\u003ca\u003eshowHtml\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erenderHtml\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "prettyHtml",
           "package": "xhtml",
@@ -4883,6 +4936,7 @@
         "index": {
           "description": "Outputs indented HTML with indentation inside elements This can change the meaning of the HTML document and is mostly useful for debugging the HTML output The implementation is inefficient and you are normally better off using showHtml or renderHtml",
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "prettyHtml",
           "normalized": "a-\u003eString",
@@ -4899,6 +4953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs indented HTML. Because space matters in\n   HTML, the output is quite messy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "renderHtml",
           "package": "xhtml",
@@ -4909,6 +4964,7 @@
         "index": {
           "description": "Outputs indented HTML Because space matters in HTML the output is quite messy",
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "renderHtml",
           "normalized": "a-\u003eString",
@@ -4925,6 +4981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs indented XHTML. Because space matters in\n   HTML, the output is quite messy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "renderHtmlWithLanguage",
           "package": "xhtml",
@@ -4934,6 +4991,7 @@
         "index": {
           "description": "Outputs indented XHTML Because space matters in HTML the output is quite messy",
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "renderHtmlWithLanguage",
           "normalized": "String-\u003ea-\u003eString",
@@ -4950,6 +5008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the HTML without adding newlines or spaces within the markup.\n   This should be the most time and space efficient way to\n   render HTML, though the ouput is quite unreadable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "showHtml",
           "package": "xhtml",
@@ -4960,6 +5019,7 @@
         "index": {
           "description": "Output the HTML without adding newlines or spaces within the markup This should be the most time and space efficient way to render HTML though the ouput is quite unreadable",
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "showHtml",
           "normalized": "a-\u003eString",
@@ -4976,6 +5036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcessing Strings into Html friendly things.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "stringToHtmlString",
           "package": "xhtml",
@@ -4986,6 +5047,7 @@
         "index": {
           "description": "Processing Strings into Html friendly things",
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "stringToHtmlString",
           "normalized": "String-\u003eString",
@@ -5001,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "toHtml",
           "package": "xhtml",
@@ -5010,6 +5073,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "toHtml",
           "normalized": "a-\u003eHtml",
@@ -5025,6 +5089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Strict",
           "name": "toHtmlFromList",
           "package": "xhtml",
@@ -5034,6 +5099,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Strict",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Strict",
           "name": "toHtmlFromList",
           "normalized": "[a]-\u003eHtml",
@@ -5050,6 +5116,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTable combinators for XHTML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Table",
           "name": "Table",
           "package": "xhtml",
@@ -5059,6 +5126,7 @@
         "index": {
           "description": "Table combinators for XHTML",
           "hierarchy": "Text XHtml Table",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Table",
           "name": "Table",
           "package": "xhtml",
@@ -5072,6 +5140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Table",
           "name": "HTMLTABLE",
           "package": "xhtml",
@@ -5080,6 +5149,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Table",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Table",
           "name": "HTMLTABLE",
           "package": "xhtml",
@@ -5094,6 +5164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe internally represent the Cell inside a Table with an\n object of the type\n\u003c/p\u003e\u003cpre\u003e\t   Int -\u003e Int -\u003e Html\n\u003c/pre\u003e\u003cp\u003eWhen we render it later, we find out how many columns\n or rows this cell will span over, and can\n include the correct colspan/rowspan command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Table",
           "name": "HtmlTable",
           "package": "xhtml",
@@ -5103,6 +5174,7 @@
         "index": {
           "description": "We internally represent the Cell inside Table with an object of the type Int Int Html When we render it later we find out how many columns or rows this cell will span over and can include the correct colspan rowspan command",
           "hierarchy": "Text XHtml Table",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Table",
           "name": "HtmlTable",
           "package": "xhtml",
@@ -5116,6 +5188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Table",
           "name": "(\u003c-\u003e)",
           "package": "xhtml",
@@ -5125,6 +5198,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Table",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Table",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a-\u003ea-\u003eHtmlTable",
@@ -5139,6 +5213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Table",
           "name": "(\u003c/\u003e)",
           "package": "xhtml",
@@ -5148,6 +5223,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Table",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Table",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "a-\u003ea-\u003eHtmlTable",
@@ -5162,6 +5238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Table",
           "name": "above",
           "package": "xhtml",
@@ -5171,6 +5248,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Table",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Table",
           "name": "above",
           "normalized": "a-\u003ea-\u003eHtmlTable",
@@ -5185,6 +5263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Table",
           "name": "aboves",
           "package": "xhtml",
@@ -5194,6 +5273,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Table",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Table",
           "name": "aboves",
           "normalized": "[a]-\u003eHtmlTable",
@@ -5208,6 +5288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Table",
           "name": "beside",
           "package": "xhtml",
@@ -5217,6 +5298,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Table",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Table",
           "name": "beside",
           "normalized": "a-\u003ea-\u003eHtmlTable",
@@ -5231,6 +5313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Table",
           "name": "besides",
           "package": "xhtml",
@@ -5240,6 +5323,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Table",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Table",
           "name": "besides",
           "normalized": "[a]-\u003eHtmlTable",
@@ -5254,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Table",
           "name": "cell",
           "package": "xhtml",
@@ -5263,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Table",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Table",
           "name": "cell",
           "normalized": "a-\u003eHtmlTable",
@@ -5278,6 +5364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf you can't be bothered with the above, then you\n can build simple tables with simpleTable.\n Just provide the attributes for the whole table,\n attributes for the cells (same for every cell),\n and a list of lists of cell contents,\n and this function will build the table for you.\n It does presume that all the lists are non-empty,\n and there is at least one list.\n\u003c/p\u003e\u003cp\u003eDifferent length lists means that the last cell\n gets padded. If you want more power, then\n use the system above, or build tables explicitly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Table",
           "name": "simpleTable",
           "package": "xhtml",
@@ -5288,6 +5375,7 @@
         "index": {
           "description": "If you can be bothered with the above then you can build simple tables with simpleTable Just provide the attributes for the whole table attributes for the cells same for every cell and list of lists of cell contents and this function will build the table for you It does presume that all the lists are non-empty and there is at least one list Different length lists means that the last cell gets padded If you want more power then use the system above or build tables explicitly",
           "hierarchy": "Text XHtml Table",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Table",
           "name": "simpleTable",
           "normalized": "[HtmlAttr]-\u003e[HtmlAttr]-\u003e[[Html]]-\u003eHtml",
@@ -5304,6 +5392,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProduces XHTML 1.0 Transitional.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "Transitional",
           "package": "xhtml",
@@ -5313,6 +5402,7 @@
         "index": {
           "description": "Produces XHTML Transitional",
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "Transitional",
           "package": "xhtml",
@@ -5326,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "ADDATTRS",
           "package": "xhtml",
@@ -5334,6 +5425,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "ADDATTRS",
           "package": "xhtml",
@@ -5348,6 +5440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCHANGEATTRS is a more expressive alternative to ADDATTRS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "CHANGEATTRS",
           "package": "xhtml",
@@ -5357,6 +5450,7 @@
         "index": {
           "description": "CHANGEATTRS is more expressive alternative to ADDATTRS",
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "CHANGEATTRS",
           "package": "xhtml",
@@ -5371,6 +5465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML is the class of things that can be validly put\n inside an HTML tag. So this can be one or more \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e elements,\n or a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, for example.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "HTML",
           "package": "xhtml",
@@ -5380,6 +5475,7 @@
         "index": {
           "description": "HTML is the class of things that can be validly put inside an HTML tag So this can be one or more Html elements or String for example",
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "HTML",
           "package": "xhtml",
@@ -5393,6 +5489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "HotLink",
           "package": "xhtml",
@@ -5401,6 +5498,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "HotLink",
           "package": "xhtml",
@@ -5414,6 +5512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "Html",
           "package": "xhtml",
@@ -5422,6 +5521,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "Html",
           "package": "xhtml",
@@ -5436,6 +5536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes with name and value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "HtmlAttr",
           "package": "xhtml",
@@ -5445,6 +5546,7 @@
         "index": {
           "description": "Attributes with name and value",
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "HtmlAttr",
           "package": "xhtml",
@@ -5458,6 +5560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "URL",
           "package": "xhtml",
@@ -5466,6 +5569,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "URL",
           "package": "xhtml",
@@ -5479,6 +5583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "(!)",
           "package": "xhtml",
@@ -5488,6 +5593,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "(!) !",
           "normalized": "a-\u003e[HtmlAttr]-\u003ea",
@@ -5502,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "alink",
           "package": "xhtml",
@@ -5511,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "alink",
           "normalized": "String-\u003eHtmlAttr",
@@ -5525,6 +5633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "applet",
           "package": "xhtml",
@@ -5534,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "applet",
           "normalized": "Html-\u003eHtml",
@@ -5548,6 +5658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "aqua",
           "package": "xhtml",
@@ -5557,6 +5668,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "aqua",
           "package": "xhtml",
@@ -5569,6 +5681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "background",
           "package": "xhtml",
@@ -5578,6 +5691,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "background",
           "normalized": "String-\u003eHtmlAttr",
@@ -5592,6 +5706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "basefont",
           "package": "xhtml",
@@ -5601,6 +5716,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "basefont",
           "package": "xhtml",
@@ -5613,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "bgcolor",
           "package": "xhtml",
@@ -5622,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "bgcolor",
           "normalized": "String-\u003eHtmlAttr",
@@ -5636,6 +5754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "black",
           "package": "xhtml",
@@ -5645,6 +5764,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "black",
           "package": "xhtml",
@@ -5657,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "blue",
           "package": "xhtml",
@@ -5666,6 +5787,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "blue",
           "package": "xhtml",
@@ -5678,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "center",
           "package": "xhtml",
@@ -5687,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "center",
           "normalized": "Html-\u003eHtml",
@@ -5701,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "changeAttrs",
           "package": "xhtml",
@@ -5710,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "changeAttrs",
           "normalized": "a-\u003e([HtmlAttr]-\u003e[HtmlAttr])-\u003ea",
@@ -5725,6 +5851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "clear",
           "package": "xhtml",
@@ -5734,6 +5861,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "clear",
           "normalized": "String-\u003eHtmlAttr",
@@ -5748,6 +5876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "code",
           "package": "xhtml",
@@ -5757,6 +5886,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "code",
           "normalized": "String-\u003eHtmlAttr",
@@ -5771,6 +5901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "color",
           "package": "xhtml",
@@ -5780,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "color",
           "normalized": "String-\u003eHtmlAttr",
@@ -5794,6 +5926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "compact",
           "package": "xhtml",
@@ -5803,6 +5936,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "compact",
           "package": "xhtml",
@@ -5815,6 +5949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "dir",
           "package": "xhtml",
@@ -5824,6 +5959,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "dir",
           "normalized": "Html-\u003eHtml",
@@ -5838,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "face",
           "package": "xhtml",
@@ -5847,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "face",
           "normalized": "String-\u003eHtmlAttr",
@@ -5861,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "font",
           "package": "xhtml",
@@ -5870,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "font",
           "normalized": "Html-\u003eHtml",
@@ -5884,6 +6024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "fuchsia",
           "package": "xhtml",
@@ -5893,6 +6034,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "fuchsia",
           "package": "xhtml",
@@ -5905,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "gray",
           "package": "xhtml",
@@ -5914,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "gray",
           "package": "xhtml",
@@ -5926,6 +6070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "green",
           "package": "xhtml",
@@ -5935,6 +6080,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "green",
           "package": "xhtml",
@@ -5947,6 +6093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "hspace",
           "package": "xhtml",
@@ -5956,6 +6103,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "hspace",
           "normalized": "Int-\u003eHtmlAttr",
@@ -5970,6 +6118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "iframe",
           "package": "xhtml",
@@ -5979,6 +6128,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "iframe",
           "normalized": "Html-\u003eHtml",
@@ -5993,6 +6143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "isindex",
           "package": "xhtml",
@@ -6002,6 +6153,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "isindex",
           "package": "xhtml",
@@ -6014,6 +6166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "lime",
           "package": "xhtml",
@@ -6023,6 +6176,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "lime",
           "package": "xhtml",
@@ -6035,6 +6189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "link",
           "package": "xhtml",
@@ -6044,6 +6199,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "link",
           "normalized": "String-\u003eHtmlAttr",
@@ -6058,6 +6214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "maroon",
           "package": "xhtml",
@@ -6067,6 +6224,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "maroon",
           "package": "xhtml",
@@ -6079,6 +6237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "navy",
           "package": "xhtml",
@@ -6088,6 +6247,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "navy",
           "package": "xhtml",
@@ -6100,6 +6260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "noshade",
           "package": "xhtml",
@@ -6109,6 +6270,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "noshade",
           "package": "xhtml",
@@ -6121,6 +6283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "nowrap",
           "package": "xhtml",
@@ -6130,6 +6293,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "nowrap",
           "package": "xhtml",
@@ -6142,6 +6306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "olive",
           "package": "xhtml",
@@ -6151,6 +6316,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "olive",
           "package": "xhtml",
@@ -6164,6 +6330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs indented HTML, with indentation inside elements.\n   This can change the meaning of the HTML document, and \n   is mostly useful for debugging the HTML output.\n   The implementation is inefficient, and you are normally\n   better off using \u003ccode\u003e\u003ca\u003eshowHtml\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erenderHtml\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "prettyHtml",
           "package": "xhtml",
@@ -6174,6 +6341,7 @@
         "index": {
           "description": "Outputs indented HTML with indentation inside elements This can change the meaning of the HTML document and is mostly useful for debugging the HTML output The implementation is inefficient and you are normally better off using showHtml or renderHtml",
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "prettyHtml",
           "normalized": "a-\u003eString",
@@ -6189,6 +6357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "purple",
           "package": "xhtml",
@@ -6198,6 +6367,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "purple",
           "package": "xhtml",
@@ -6210,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "red",
           "package": "xhtml",
@@ -6219,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "red",
           "package": "xhtml",
@@ -6232,6 +6404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs indented HTML. Because space matters in\n   HTML, the output is quite messy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "renderHtml",
           "package": "xhtml",
@@ -6242,6 +6415,7 @@
         "index": {
           "description": "Outputs indented HTML Because space matters in HTML the output is quite messy",
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "renderHtml",
           "normalized": "a-\u003eString",
@@ -6258,6 +6432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the HTML without adding newlines or spaces within the markup.\n   This should be the most time and space efficient way to\n   render HTML, though the ouput is quite unreadable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "showHtml",
           "package": "xhtml",
@@ -6268,6 +6443,7 @@
         "index": {
           "description": "Output the HTML without adding newlines or spaces within the markup This should be the most time and space efficient way to render HTML though the ouput is quite unreadable",
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "showHtml",
           "normalized": "a-\u003eString",
@@ -6283,6 +6459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "silver",
           "package": "xhtml",
@@ -6292,6 +6469,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "silver",
           "package": "xhtml",
@@ -6304,6 +6482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "start",
           "package": "xhtml",
@@ -6313,6 +6492,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "start",
           "normalized": "Int-\u003eHtmlAttr",
@@ -6327,6 +6507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "strike",
           "package": "xhtml",
@@ -6336,6 +6517,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "strike",
           "normalized": "Html-\u003eHtml",
@@ -6350,6 +6532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "target",
           "package": "xhtml",
@@ -6359,6 +6542,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "target",
           "normalized": "String-\u003eHtmlAttr",
@@ -6373,6 +6557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "teal",
           "package": "xhtml",
@@ -6382,6 +6567,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "teal",
           "package": "xhtml",
@@ -6394,6 +6580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "text",
           "package": "xhtml",
@@ -6403,6 +6590,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "text",
           "normalized": "String-\u003eHtmlAttr",
@@ -6417,6 +6605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "themenu",
           "package": "xhtml",
@@ -6426,6 +6615,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "themenu",
           "normalized": "Html-\u003eHtml",
@@ -6440,6 +6630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "toHtml",
           "package": "xhtml",
@@ -6449,6 +6640,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "toHtml",
           "normalized": "a-\u003eHtml",
@@ -6464,6 +6656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "toHtmlFromList",
           "package": "xhtml",
@@ -6473,6 +6666,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "toHtmlFromList",
           "normalized": "[a]-\u003eHtml",
@@ -6488,6 +6682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "underline",
           "package": "xhtml",
@@ -6497,6 +6692,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "underline",
           "normalized": "Html-\u003eHtml",
@@ -6511,6 +6707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "version",
           "package": "xhtml",
@@ -6520,6 +6717,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "version",
           "normalized": "String-\u003eHtmlAttr",
@@ -6534,6 +6732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "vlink",
           "package": "xhtml",
@@ -6543,6 +6742,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "vlink",
           "normalized": "String-\u003eHtmlAttr",
@@ -6557,6 +6757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "vspace",
           "package": "xhtml",
@@ -6566,6 +6767,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "vspace",
           "normalized": "Int-\u003eHtmlAttr",
@@ -6580,6 +6782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "white",
           "package": "xhtml",
@@ -6589,6 +6792,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "white",
           "package": "xhtml",
@@ -6601,6 +6805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml.Transitional",
           "name": "yellow",
           "package": "xhtml",
@@ -6610,6 +6815,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml.Transitional",
           "name": "yellow",
           "package": "xhtml",
@@ -6623,6 +6829,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn XHTML combinator library.\n\u003c/p\u003e\u003cp\u003eBased on the original Text.Html library by Andy Gill. \n See \u003ca\u003ehttp://www.cse.ogi.edu/~andy/html/intro.htm\u003c/a\u003e for\n an introduction to that library.\n\u003c/p\u003e\u003cp\u003eThis module re-exports \u003ca\u003eText.XHtml.Transitional\u003c/a\u003e, which produces\n XHTML 1.0 Transitional.\n Use \u003ca\u003eText.XHtml.Strict\u003c/a\u003e if you want XHTML 1.0 Strict,\n and \u003ca\u003eText.XHtml.Frameset\u003c/a\u003e if you want\n to produce XHTML 1.0 Frameset.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.w3.org/TR/xhtml1/\u003c/a\u003e for more information about\n XHTML 1.0.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml",
           "name": "XHtml",
           "package": "xhtml",
@@ -6632,6 +6839,7 @@
         "index": {
           "description": "An XHTML combinator library Based on the original Text.Html library by Andy Gill See http www.cse.ogi.edu andy html intro.htm for an introduction to that library This module re-exports Text.XHtml.Transitional which produces XHTML Transitional Use Text.XHtml.Strict if you want XHTML Strict and Text.XHtml.Frameset if you want to produce XHTML Frameset See http www.w3.org TR xhtml1 for more information about XHTML",
           "hierarchy": "Text XHtml",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml",
           "name": "XHtml",
           "package": "xhtml",
@@ -6646,6 +6854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic idea is you render your structure in the form\n of this tree, and then use treeHtml to turn it into a Html\n object with the structure explicit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml",
           "name": "HtmlTree",
           "package": "xhtml",
@@ -6655,6 +6864,7 @@
         "index": {
           "description": "The basic idea is you render your structure in the form of this tree and then use treeHtml to turn it into Html object with the structure explicit",
           "hierarchy": "Text XHtml",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml",
           "name": "HtmlTree",
           "package": "xhtml",
@@ -6668,6 +6878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml",
           "name": "HtmlLeaf",
           "package": "xhtml",
@@ -6677,6 +6888,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml",
           "name": "HtmlLeaf",
           "package": "xhtml",
@@ -6690,6 +6902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml",
           "name": "HtmlNode",
           "package": "xhtml",
@@ -6699,6 +6912,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml",
           "name": "HtmlNode",
           "normalized": "HtmlNode Html[HtmlTree]Html",
@@ -6715,6 +6929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis uses the above tree rendering function, and displays the\n Html as a tree structure, allowing debugging of what is\n actually getting produced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml",
           "name": "debugHtml",
           "package": "xhtml",
@@ -6725,6 +6940,7 @@
         "index": {
           "description": "This uses the above tree rendering function and displays the Html as tree structure allowing debugging of what is actually getting produced",
           "hierarchy": "Text XHtml",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml",
           "name": "debugHtml",
           "normalized": "a-\u003eHtml",
@@ -6740,6 +6956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml",
           "name": "treeColors",
           "package": "xhtml",
@@ -6749,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml",
           "name": "treeColors",
           "normalized": "[String]",
@@ -6764,6 +6982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:35 UTC 2014",
           "module": "Text.XHtml",
           "name": "treeHtml",
           "package": "xhtml",
@@ -6773,6 +6992,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml",
+          "indexed": "2014-03-11T20:41:35",
           "module": "Text.XHtml",
           "name": "treeHtml",
           "normalized": "[String]-\u003eHtmlTree-\u003eHtml",

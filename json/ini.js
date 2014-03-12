@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ini"
+        "phrase": "ini",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClean configuration files in the INI format.\n\u003c/p\u003e\u003cp\u003eFormat rules and recommendations:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The \u003ccode\u003e: \u003c/code\u003e syntax is space-sensitive.\n\u003c/li\u003e\u003cli\u003e Keys are case-sensitive.\n\u003c/li\u003e\u003cli\u003e Lower-case is recommended.\n\u003c/li\u003e\u003cli\u003e Values can be empty.\n\u003c/li\u003e\u003cli\u003e Keys cannot key separators, section delimiters, or comment markers.\n\u003c/li\u003e\u003cli\u003e Comments must start at the beginning of the line and start with \u003ccode\u003e;\u003c/code\u003e or \u003ccode\u003e#\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAn example configuration file:\n\u003c/p\u003e\u003cpre\u003e\n # Some comment.\n [SERVER]\n port=6667\n hostname=localhost\n ; another comment here\n [AUTH]\n user: hello\n pass: world\n salt:\n\u003c/pre\u003e\u003cp\u003eParsing example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseIni \"[SERVER]\\nport: 6667\\nhostname: localhost\"\n\u003c/code\u003e\u003c/strong\u003eRight (Ini {unIni = fromList [(\"SERVER\",fromList [(\"hostname\",\"localhost\"),(\"port\",\"6667\")])]})\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "Ini",
           "package": "ini",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Clean configuration files in the INI format Format rules and recommendations The syntax is space-sensitive Keys are case-sensitive Lower-case is recommended Values can be empty Keys cannot key separators section delimiters or comment markers Comments must start at the beginning of the line and start with or An example configuration file Some comment SERVER port hostname localhost another comment here AUTH user hello pass world salt Parsing example parseIni SERVER nport nhostname localhost Right Ini unIni fromList SERVER fromList hostname localhost port",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "Ini",
           "package": "ini",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn INI configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "Ini",
           "package": "ini",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An INI configuration",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "Ini",
           "package": "ini",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "Ini",
           "package": "ini",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "Ini",
           "package": "ini",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for an INI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "iniParser",
           "package": "ini",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Parser for an INI",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "iniParser",
           "package": "ini",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key-value pair. Either \u003ccode\u003efoo: bar\u003c/code\u003e or \u003ccode\u003efoo=bar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "keyValueParser",
           "package": "ini",
@@ -121,6 +130,7 @@
         "index": {
           "description": "key-value pair Either foo bar or foo bar",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "keyValueParser",
           "normalized": "Parser(Text,Text)",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup values in the config.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "lookupValue",
           "package": "ini",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Lookup values in the config",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "lookupValue",
           "normalized": "Text-\u003eText-\u003eIni-\u003eEither String Text",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an INI config.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "parseIni",
           "package": "ini",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Parse an INI config",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "parseIni",
           "normalized": "Text-\u003eEither String Ini",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint an INI config.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "printIni",
           "package": "ini",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Print an INI config",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "printIni",
           "normalized": "Ini-\u003eText",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an INI file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "readIniFile",
           "package": "ini",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Parse an INI file",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "readIniFile",
           "normalized": "FilePath-\u003eIO(Either String Ini)",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value using a reader from \u003ca\u003eData.Text.Read\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "readValue",
           "package": "ini",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Read value using reader from Data.Text.Read",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "readValue",
           "normalized": "Text-\u003eText-\u003e(Text-\u003eEither String(a,Text))-\u003eIni-\u003eEither String a",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA section. Format: \u003ccode\u003e[foo]\u003c/code\u003e. Conventionally, \u003ccode\u003e[FOO]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "sectionParser",
           "package": "ini",
@@ -277,6 +298,7 @@
         "index": {
           "description": "section Format foo Conventionally FOO",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "sectionParser",
           "normalized": "Parser(Text,HashMap Text Text)",
@@ -292,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "unIni",
           "package": "ini",
@@ -301,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "unIni",
           "package": "ini",
@@ -315,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the INI config to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:51 UTC 2014",
           "module": "Data.Ini",
           "name": "writeIniFile",
           "package": "ini",
@@ -325,6 +350,7 @@
         "index": {
           "description": "Print the INI config to file",
           "hierarchy": "Data Ini",
+          "indexed": "2014-03-11T18:57:51",
           "module": "Data.Ini",
           "name": "writeIniFile",
           "normalized": "FilePath-\u003eIni-\u003eIO()",

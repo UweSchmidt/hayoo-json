@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hackport"
+        "phrase": "hackport",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "distributed-process"
+        "phrase": "distributed-process",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eTowards Haskell in the Cloud\u003c/em\u003e (Epstein et al., Haskell Symposium 2011)\n proposes a new type construct called \u003ccode\u003estatic\u003c/code\u003e that characterizes values that\n are known statically. Cloud Haskell uses the\n \u003ccode\u003e\u003ca\u003eStatic\u003c/a\u003e\u003c/code\u003e implementation from\n \u003ca\u003eControl.Distributed.Static\u003c/a\u003e. That module comes with its own extensive\n documentation, which you should read if you want to know the details.  Here\n we explain the Template Haskell support only.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003eStatic values\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eGiven a top-level (possibly polymorphic, but unqualified) definition\n\u003c/p\u003e\u003cpre\u003e f :: forall a1 .. an. T\n f = ...\n\u003c/pre\u003e\u003cp\u003eyou can use a Template Haskell splice to create a static version of \u003ccode\u003ef\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e $(mkStatic 'f) :: forall a1 .. an. (Typeable a1, .., Typeable an) =\u003e Static T\n\u003c/pre\u003e\u003cp\u003eEvery module that you write that contains calls to \u003ccode\u003e\u003ca\u003emkStatic\u003c/a\u003e\u003c/code\u003e needs to\n have a call to \u003ccode\u003e\u003ca\u003eremotable\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e remotable [ 'f, 'g, ... ]\n\u003c/pre\u003e\u003cp\u003ewhere you must pass every function (or other value) that you pass as an\n argument to \u003ccode\u003e\u003ca\u003emkStatic\u003c/a\u003e\u003c/code\u003e. The call to \u003ccode\u003e\u003ca\u003eremotable\u003c/a\u003e\u003c/code\u003e will create a definition\n\u003c/p\u003e\u003cpre\u003e __remoteTable :: RemoteTable -\u003e RemoteTable\n\u003c/pre\u003e\u003cp\u003ewhich can be used to construct the \u003ccode\u003eRemoteTable\u003c/code\u003e used to initialize\n Cloud Haskell. You should have (at most) one call to \u003ccode\u003e\u003ca\u003eremotable\u003c/a\u003e\u003c/code\u003e per module,\n and compose all created functions when initializing Cloud Haskell:\n\u003c/p\u003e\u003cpre\u003e let rtable :: RemoteTable\n     rtable = M1.__remoteTable\n            . M2.__remoteTable\n            . ...\n            . Mn.__remoteTable\n            $ initRemoteTable\n\u003c/pre\u003e\u003cp\u003eNOTE: If you get a type error from ghc along these lines\n\u003c/p\u003e\u003cpre\u003e  The exact Name `a_a30k' is not in scope\n       Probable cause: you used a unique name (NameU) in Template Haskell but did not bind it\n\u003c/pre\u003e\u003cp\u003ethen you need to enable the \u003ccode\u003eScopedTypeVariables\u003c/code\u003e language extension.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003eStatic serialization dictionaries\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eSome Cloud Haskell primitives require static serialization dictionaries (**):\n\u003c/p\u003e\u003cpre\u003e call :: Serializable a =\u003e Static (SerializableDict a) -\u003e NodeId -\u003e Closure (Process a) -\u003e Process a\n\u003c/pre\u003e\u003cp\u003eGiven some serializable type \u003ccode\u003eT\u003c/code\u003e you can define\n\u003c/p\u003e\u003cpre\u003e sdictT :: SerializableDict T\n sdictT = SerializableDict\n\u003c/pre\u003e\u003cp\u003eand then have\n\u003c/p\u003e\u003cpre\u003e $(mkStatic 'sdictT) :: Static (SerializableDict T)\n\u003c/pre\u003e\u003cp\u003eHowever, since these dictionaries are so frequently required Cloud Haskell\n provides special support for them.  When you call \u003ccode\u003e\u003ca\u003eremotable\u003c/a\u003e\u003c/code\u003e on a\n \u003cem\u003emonomorphic\u003c/em\u003e function \u003ccode\u003ef :: T1 -\u003e T2\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e remotable ['f]\n\u003c/pre\u003e\u003cp\u003ethen a serialization dictionary is automatically created for you, which you\n can access with\n\u003c/p\u003e\u003cpre\u003e $(functionSDict 'f) :: Static (SerializableDict T1)\n\u003c/pre\u003e\u003cp\u003eIn addition, if \u003ccode\u003ef :: T1 -\u003e Process T2\u003c/code\u003e, then a second dictionary is created\n\u003c/p\u003e\u003cpre\u003e $(functionTDict 'f) :: Static (SerializableDict T2)\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003eClosures\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eSuppose you have a process\n\u003c/p\u003e\u003cpre\u003e isPrime :: Integer -\u003e Process Bool\n\u003c/pre\u003e\u003cp\u003eThen\n\u003c/p\u003e\u003cpre\u003e $(mkClosure 'isPrime) :: Integer -\u003e Closure (Process Bool)\n\u003c/pre\u003e\u003cp\u003ewhich you can then \u003ccode\u003ecall\u003c/code\u003e, for example, to have a remote node check if\n a number is prime.\n\u003c/p\u003e\u003cp\u003eIn general, if you have a \u003cem\u003emonomorphic\u003c/em\u003e function\n\u003c/p\u003e\u003cpre\u003e f :: T1 -\u003e T2\n\u003c/pre\u003e\u003cp\u003ethen\n\u003c/p\u003e\u003cpre\u003e $(mkClosure 'f) :: T1 -\u003e Closure T2\n\u003c/pre\u003e\u003cp\u003eprovided that \u003ccode\u003eT1\u003c/code\u003e is serializable (*) (remember to pass \u003ccode\u003ef\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eremotable\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003e(You can also create closures manually--see the documentation of\n \u003ca\u003eControl.Distributed.Static\u003c/a\u003e for examples.)\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003eExample\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eHere is a small self-contained example that uses closures and serialization\n dictionaries. It makes use of the Control.Distributed.Process.SimpleLocalnet\n Cloud Haskell backend.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE TemplateHaskell #-}\n import System.Environment (getArgs)\n import Control.Distributed.Process\n import Control.Distributed.Process.Closure\n import Control.Distributed.Process.Backend.SimpleLocalnet\n import Control.Distributed.Process.Node (initRemoteTable)\n\n isPrime :: Integer -\u003e Process Bool\n isPrime n = return . (n `elem`) . takeWhile (\u003c= n) . sieve $ [2..]\n   where\n     sieve :: [Integer] -\u003e [Integer]\n     sieve (p : xs) = p : sieve [x | x \u003c- xs, x `mod` p \u003e 0]\n\n remotable ['isPrime]\n\n master :: [NodeId] -\u003e Process ()\n master [] = liftIO $ putStrLn \"no slaves\"\n master (slave:_) = do\n   isPrime79 \u003c- call $(functionTDict 'isPrime) slave ($(mkClosure 'isPrime) (79 :: Integer))\n   liftIO $ print isPrime79\n\n main :: IO ()\n main = do\n   args \u003c- getArgs\n   case args of\n     [\"master\", host, port] -\u003e do\n       backend \u003c- initializeBackend host port rtable\n       startMaster backend master\n     [\"slave\", host, port] -\u003e do\n       backend \u003c- initializeBackend host port rtable\n       startSlave backend\n   where\n     rtable :: RemoteTable\n     rtable = __remoteTable initRemoteTable\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003eNotes\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003e(*) If \u003ccode\u003eT1\u003c/code\u003e is not serializable you will get a type error in the generated\n     code. Unfortunately, the Template Haskell infrastructure cannot check\n     a priori if \u003ccode\u003eT1\u003c/code\u003e is serializable or not due to a bug in the Template\n     Haskell libraries (\u003ca\u003ehttp://hackage.haskell.org/trac/ghc/ticket/7066\u003c/a\u003e)\n\u003c/p\u003e\u003cp\u003e(**) Even though \u003ccode\u003ecall\u003c/code\u003e is passed an explicit serialization\n      dictionary, we still need the \u003ccode\u003eSerializable\u003c/code\u003e constraint because\n      \u003ccode\u003eStatic\u003c/code\u003e is not the \u003cem\u003etrue\u003c/em\u003e static. If it was, we could \u003ccode\u003eunstatic\u003c/code\u003e\n      the dictionary and pattern match on it to bring the \u003ccode\u003eTypeable\u003c/code\u003e\n      instance into scope, but unless proper \u003ccode\u003estatic\u003c/code\u003e support is added to\n      ghc we need both the type class argument and the explicit dictionary.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Closure",
           "name": "Closure",
           "package": "distributed-process",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Towards Haskell in the Cloud Epstein et al Haskell Symposium proposes new type construct called static that characterizes values that are known statically Cloud Haskell uses the Static implementation from Control.Distributed.Static That module comes with its own extensive documentation which you should read if you want to know the details Here we explain the Template Haskell support only Static values Given top-level possibly polymorphic but unqualified definition forall a1 an you can use Template Haskell splice to create static version of mkStatic forall a1 an Typeable a1 Typeable an Static Every module that you write that contains calls to mkStatic needs to have call to remotable remotable where you must pass every function or other value that you pass as an argument to mkStatic The call to remotable will create definition remoteTable RemoteTable RemoteTable which can be used to construct the RemoteTable used to initialize Cloud Haskell You should have at most one call to remotable per module and compose all created functions when initializing Cloud Haskell let rtable RemoteTable rtable M1 remoteTable M2 remoteTable Mn remoteTable initRemoteTable NOTE If you get type error from ghc along these lines The exact Name a30k is not in scope Probable cause you used unique name NameU in Template Haskell but did not bind it then you need to enable the ScopedTypeVariables language extension Static serialization dictionaries Some Cloud Haskell primitives require static serialization dictionaries call Serializable Static SerializableDict NodeId Closure Process Process Given some serializable type you can define sdictT SerializableDict sdictT SerializableDict and then have mkStatic sdictT Static SerializableDict However since these dictionaries are so frequently required Cloud Haskell provides special support for them When you call remotable on monomorphic function T1 T2 remotable then serialization dictionary is automatically created for you which you can access with functionSDict Static SerializableDict T1 In addition if T1 Process T2 then second dictionary is created functionTDict Static SerializableDict T2 Closures Suppose you have process isPrime Integer Process Bool Then mkClosure isPrime Integer Closure Process Bool which you can then call for example to have remote node check if number is prime In general if you have monomorphic function T1 T2 then mkClosure T1 Closure T2 provided that T1 is serializable remember to pass to remotable You can also create closures manually--see the documentation of Control.Distributed.Static for examples Example Here is small self-contained example that uses closures and serialization dictionaries It makes use of the Control.Distributed.Process.SimpleLocalnet Cloud Haskell backend LANGUAGE TemplateHaskell import System.Environment getArgs import Control.Distributed.Process import Control.Distributed.Process.Closure import Control.Distributed.Process.Backend.SimpleLocalnet import Control.Distributed.Process.Node initRemoteTable isPrime Integer Process Bool isPrime return elem takeWhile sieve where sieve Integer Integer sieve xs sieve xs mod remotable isPrime master NodeId Process master liftIO putStrLn no slaves master slave do isPrime79 call functionTDict isPrime slave mkClosure isPrime Integer liftIO print isPrime79 main IO main do args getArgs case args of master host port do backend initializeBackend host port rtable startMaster backend master slave host port do backend initializeBackend host port rtable startSlave backend where rtable RemoteTable rtable remoteTable initRemoteTable Notes If T1 is not serializable you will get type error in the generated code Unfortunately the Template Haskell infrastructure cannot check priori if T1 is serializable or not due to bug in the Template Haskell libraries http hackage.haskell.org trac ghc ticket Even though call is passed an explicit serialization dictionary we still need the Serializable constraint because Static is not the true static If it was we could unstatic the dictionary and pattern match on it to bring the Typeable instance into scope but unless proper static support is added to ghc we need both the type class argument and the explicit dictionary",
           "hierarchy": "Control Distributed Process Closure",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Closure",
           "name": "Closure",
           "package": "distributed-process",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCP a b\u003c/code\u003e is a process with input of type \u003ccode\u003ea\u003c/code\u003e and output of type \u003ccode\u003eb\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Closure",
           "name": "CP",
           "package": "distributed-process",
@@ -51,6 +54,7 @@
         "index": {
           "description": "CP is process with input of type and output of type",
           "hierarchy": "Control Distributed Process Closure",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Closure",
           "name": "CP",
           "package": "distributed-process",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReification of \u003ccode\u003e\u003ca\u003eSerializable\u003c/a\u003e\u003c/code\u003e (see \u003ca\u003eControl.Distributed.Process.Closure\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Closure",
           "name": "SerializableDict",
           "package": "distributed-process",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Reification of Serializable see Control.Distributed.Process.Closure",
           "hierarchy": "Control Distributed Process Closure",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Closure",
           "name": "SerializableDict",
           "package": "distributed-process",
@@ -671,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConcurrent queue for single reader, single writer\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "CQueue",
           "package": "distributed-process",
@@ -680,6 +687,7 @@
         "index": {
           "description": "Concurrent queue for single reader single writer",
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "CQueue",
           "package": "distributed-process",
@@ -693,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "BlockSpec",
           "package": "distributed-process",
@@ -701,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "BlockSpec",
           "package": "distributed-process",
@@ -714,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "CQueue",
           "package": "distributed-process",
@@ -722,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "CQueue",
           "package": "distributed-process",
@@ -735,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "MatchOn",
           "package": "distributed-process",
@@ -743,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "MatchOn",
           "package": "distributed-process",
@@ -756,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "Blocking",
           "package": "distributed-process",
@@ -765,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "Blocking",
           "package": "distributed-process",
@@ -778,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "MatchChan",
           "package": "distributed-process",
@@ -787,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "MatchChan",
           "package": "distributed-process",
@@ -800,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "MatchMsg",
           "package": "distributed-process",
@@ -809,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "MatchMsg",
           "normalized": "MatchMsg(a-\u003eMaybe b)",
@@ -824,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "NonBlocking",
           "package": "distributed-process",
@@ -833,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "NonBlocking",
           "package": "distributed-process",
@@ -846,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "Timeout",
           "package": "distributed-process",
@@ -855,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "Timeout",
           "package": "distributed-process",
@@ -869,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDequeue an element\n\u003c/p\u003e\u003cp\u003eThe timeout (if any) is applied only to waiting for incoming messages, not\n to checking messages that have already arrived\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "dequeue",
           "package": "distributed-process",
@@ -878,6 +903,7 @@
         "index": {
           "description": "Dequeue an element The timeout if any is applied only to waiting for incoming messages not to checking messages that have already arrived",
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "dequeue",
           "normalized": "CQueue a-\u003eBlockSpec-\u003e[MatchOn a b]-\u003eIO(Maybe b)",
@@ -893,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnqueue an element\n\u003c/p\u003e\u003cp\u003eEnqueue is strict.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "enqueue",
           "package": "distributed-process",
@@ -903,6 +930,7 @@
         "index": {
           "description": "Enqueue an element Enqueue is strict",
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "enqueue",
           "normalized": "CQueue a-\u003ea-\u003eIO()",
@@ -918,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeak reference to a CQueue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "mkWeakCQueue",
           "package": "distributed-process",
@@ -928,6 +957,7 @@
         "index": {
           "description": "Weak reference to CQueue",
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "mkWeakCQueue",
           "normalized": "CQueue a-\u003eIO()-\u003eIO(Weak(CQueue a))",
@@ -943,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "newCQueue",
           "package": "distributed-process",
@@ -952,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal CQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.CQueue",
           "name": "newCQueue",
           "package": "distributed-process",
@@ -965,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Closure.BuiltIn",
           "name": "BuiltIn",
           "package": "distributed-process",
@@ -973,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Closure BuiltIn",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Closure.BuiltIn",
           "name": "BuiltIn",
           "package": "distributed-process",
@@ -987,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCP a b\u003c/code\u003e is a process with input of type \u003ccode\u003ea\u003c/code\u003e and output of type \u003ccode\u003eb\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Closure.BuiltIn",
           "name": "CP",
           "package": "distributed-process",
@@ -996,6 +1031,7 @@
         "index": {
           "description": "CP is process with input of type and output of type",
           "hierarchy": "Control Distributed Process Internal Closure BuiltIn",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Closure.BuiltIn",
           "name": "CP",
           "package": "distributed-process",
@@ -1010,6 +1046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCP\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003edelay\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Closure.BuiltIn",
           "name": "cpDelay",
           "package": "distributed-process",
@@ -1020,6 +1057,7 @@
         "index": {
           "description": "CP version of delay",
           "hierarchy": "Control Distributed Process Internal Closure BuiltIn",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Closure.BuiltIn",
           "name": "cpDelay",
           "normalized": "ProcessId-\u003eClosure(Process())-\u003eClosure(Process())",
@@ -1035,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Closure.BuiltIn",
           "name": "remoteTable",
           "package": "distributed-process",
@@ -1044,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Closure BuiltIn",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Closure.BuiltIn",
           "name": "remoteTable",
           "normalized": "RemoteTable-\u003eRemoteTable",
@@ -1059,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Closure.BuiltIn",
           "name": "sndStatic",
           "package": "distributed-process",
@@ -1068,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Closure BuiltIn",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Closure.BuiltIn",
           "name": "sndStatic",
           "normalized": "Static((a,b)-\u003eb)",
@@ -1084,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTemplate Haskell support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Closure.TH",
           "name": "TH",
           "package": "distributed-process",
@@ -1093,6 +1136,7 @@
         "index": {
           "description": "Template Haskell support",
           "hierarchy": "Control Distributed Process Internal Closure TH",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Closure.TH",
           "name": "TH",
           "package": "distributed-process",
@@ -1106,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "Messaging",
           "package": "distributed-process",
@@ -1114,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Messaging",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "Messaging",
           "package": "distributed-process",
@@ -1127,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "closeImplicitReconnections",
           "package": "distributed-process",
@@ -1136,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Messaging",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "closeImplicitReconnections",
           "normalized": "LocalNode-\u003eIdentifier-\u003eIO()",
@@ -1151,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "disconnect",
           "package": "distributed-process",
@@ -1160,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Messaging",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "disconnect",
           "normalized": "LocalNode-\u003eIdentifier-\u003eIdentifier-\u003eIO()",
@@ -1175,6 +1225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ea \u003ccode\u003e\u003ca\u003eimpliesDeathOf\u003c/a\u003e\u003c/code\u003e b\u003c/code\u003e is true if the death of \u003ccode\u003ea\u003c/code\u003e (for instance, a node)\n implies the death of \u003ccode\u003eb\u003c/code\u003e (for instance, a process on that node)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "impliesDeathOf",
           "package": "distributed-process",
@@ -1185,6 +1236,7 @@
         "index": {
           "description": "impliesDeathOf is true if the death of for instance node implies the death of for instance process on that node",
           "hierarchy": "Control Distributed Process Internal Messaging",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "impliesDeathOf",
           "normalized": "Identifier-\u003eIdentifier-\u003eBool",
@@ -1200,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "sendBinary",
           "package": "distributed-process",
@@ -1209,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Messaging",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "sendBinary",
           "normalized": "LocalNode-\u003eIdentifier-\u003eIdentifier-\u003eImplicitReconnect-\u003ea-\u003eIO()",
@@ -1224,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "sendMessage",
           "package": "distributed-process",
@@ -1233,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Messaging",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "sendMessage",
           "normalized": "LocalNode-\u003eIdentifier-\u003eIdentifier-\u003eImplicitReconnect-\u003ea-\u003eIO()",
@@ -1248,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "sendPayload",
           "package": "distributed-process",
@@ -1257,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Messaging",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Messaging",
           "name": "sendPayload",
           "normalized": "LocalNode-\u003eIdentifier-\u003eIdentifier-\u003eImplicitReconnect-\u003e[ByteString]-\u003eIO()",
@@ -1273,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCloud Haskell primitives\n\u003c/p\u003e\u003cp\u003eWe define these in a separate module so that we don't have to rely on\n the closure combinators\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "Primitives",
           "package": "distributed-process",
@@ -1282,6 +1341,7 @@
         "index": {
           "description": "Cloud Haskell primitives We define these in separate module so that we don have to rely on the closure combinators",
           "hierarchy": "Control Distributed Process Internal Primitives",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "Primitives",
           "package": "distributed-process",
@@ -1296,6 +1356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a received message and provides two basic operations on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "AbstractMessage",
           "package": "distributed-process",
@@ -1305,6 +1366,7 @@
         "index": {
           "description": "Represents received message and provides two basic operations on it",
           "hierarchy": "Control Distributed Process Internal Primitives",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "AbstractMessage",
           "package": "distributed-process",
@@ -1319,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou need this when using \u003ccode\u003e\u003ca\u003ecatches\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "Handler",
           "package": "distributed-process",
@@ -1328,6 +1391,7 @@
         "index": {
           "description": "You need this when using catches",
           "hierarchy": "Control Distributed Process Internal Primitives",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "Handler",
           "package": "distributed-process",
@@ -1342,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque type used in \u003ccode\u003e\u003ca\u003ereceiveWait\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ereceiveTimeout\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "Match",
           "package": "distributed-process",
@@ -1351,6 +1416,7 @@
         "index": {
           "description": "Opaque type used in receiveWait and receiveTimeout",
           "hierarchy": "Control Distributed Process Internal Primitives",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "Match",
           "package": "distributed-process",
@@ -1365,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal exception thrown indirectly by \u003ccode\u003eexit\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "ProcessExitException",
           "package": "distributed-process",
@@ -1374,6 +1441,7 @@
         "index": {
           "description": "Internal exception thrown indirectly by exit",
           "hierarchy": "Control Distributed Process Internal Primitives",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "ProcessExitException",
           "package": "distributed-process",
@@ -1388,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide information about a running process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "ProcessInfo",
           "package": "distributed-process",
@@ -1397,6 +1466,7 @@
         "index": {
           "description": "Provide information about running process",
           "hierarchy": "Control Distributed Process Internal Primitives",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "ProcessInfo",
           "package": "distributed-process",
@@ -1411,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrown by \u003ccode\u003e\u003ca\u003eterminate\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "ProcessTerminationException",
           "package": "distributed-process",
@@ -1420,6 +1491,7 @@
         "index": {
           "description": "Thrown by terminate",
           "hierarchy": "Control Distributed Process Internal Primitives",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "ProcessTerminationException",
           "package": "distributed-process",
@@ -2993,6 +3065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a message to the internal (system) trace facility. If tracing is\n enabled, this will create a custom trace event. Note that several Cloud Haskell\n sub-systems also generate trace events for informational/debugging purposes,\n thus traces generated this way will not be the only output seen.\n\u003c/p\u003e\u003cp\u003eJust as with the \u003ca\u003eDebug.Trace\u003c/a\u003e module, this is a debugging/tracing facility\n for use in development, and should not be used in a production setting -\n which is why the default behaviour is to trace to the GHC eventlog. For a\n general purpose logging facility, you should consider \u003ccode\u003e\u003ca\u003esay\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTrace events can be written to the GHC event log, a text file, or to the\n standard system logger process (see \u003ccode\u003e\u003ca\u003esay\u003c/a\u003e\u003c/code\u003e). The default behaviour for writing\n to the eventlog requires specific intervention to work, without which traces\n are silently dropped/ignored and no output will be generated.\n The GHC eventlog documentation provides information about enabling, viewing\n and working with event traces: \u003ca\u003ehttp://hackage.haskell.org/trac/ghc/wiki/EventLog\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eWhen a new local node is started, the contents of the environment variable\n \u003ccode\u003eDISTRIBUTED_PROCESS_TRACE_FILE\u003c/code\u003e are checked for a valid file path. If this\n exists and the file can be opened for writing, all trace output will be directed\n thence. If the environment variable is empty, the path invalid, or the file\n unavailable for writing - e.g., because another node has already started\n tracing to it - then the \u003ccode\u003eDISTRIBUTED_PROCESS_TRACE_CONSOLE\u003c/code\u003e environment\n variable is checked for \u003cem\u003eany\u003c/em\u003e non-empty value. If this is set, then all trace\n output will be directed to the system logger process. If neither evironment\n variable provides a valid trace configuration, all internal traces are written\n to \u003ca\u003eDebug.Trace.traceEventIO\u003c/a\u003e, which writes to the GHC eventlog.\n\u003c/p\u003e\u003cp\u003eUsers of the \u003cem\u003esimplelocalnet\u003c/em\u003e Cloud Haskell backend should also note that\n because the trace file option only supports trace output from a single node\n (so as to avoid interleaving), a file trace configured for the master node will\n prevent slaves from tracing to the file and they will fall back to using the\n console/\u003ccode\u003e\u003ca\u003esay\u003c/a\u003e\u003c/code\u003e or eventlog instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "trace",
           "package": "distributed-process",
@@ -3003,6 +3076,7 @@
         "index": {
           "description": "Send message to the internal system trace facility If tracing is enabled this will create custom trace event Note that several Cloud Haskell sub-systems also generate trace events for informational debugging purposes thus traces generated this way will not be the only output seen Just as with the Debug.Trace module this is debugging tracing facility for use in development and should not be used in production setting which is why the default behaviour is to trace to the GHC eventlog For general purpose logging facility you should consider say Trace events can be written to the GHC event log text file or to the standard system logger process see say The default behaviour for writing to the eventlog requires specific intervention to work without which traces are silently dropped ignored and no output will be generated The GHC eventlog documentation provides information about enabling viewing and working with event traces http hackage.haskell.org trac ghc wiki EventLog When new local node is started the contents of the environment variable DISTRIBUTED PROCESS TRACE FILE are checked for valid file path If this exists and the file can be opened for writing all trace output will be directed thence If the environment variable is empty the path invalid or the file unavailable for writing e.g because another node has already started tracing to it then the DISTRIBUTED PROCESS TRACE CONSOLE environment variable is checked for any non-empty value If this is set then all trace output will be directed to the system logger process If neither evironment variable provides valid trace configuration all internal traces are written to Debug.Trace.traceEventIO which writes to the GHC eventlog Users of the simplelocalnet Cloud Haskell backend should also note that because the trace file option only supports trace output from single node so as to avoid interleaving file trace configured for the master node will prevent slaves from tracing to the file and they will fall back to using the console say or eventlog instead",
           "hierarchy": "Control Distributed Process Internal Primitives",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Primitives",
           "name": "trace",
           "normalized": "String-\u003eProcess()",
@@ -3336,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictContainerAccessors",
           "name": "StrictContainerAccessors",
           "package": "distributed-process",
@@ -3344,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictContainerAccessors",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictContainerAccessors",
           "name": "StrictContainerAccessors",
           "package": "distributed-process",
@@ -3357,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictContainerAccessors",
           "name": "mapDefault",
           "package": "distributed-process",
@@ -3366,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictContainerAccessors",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictContainerAccessors",
           "name": "mapDefault",
           "normalized": "a-\u003eb-\u003eAccessor(Map b a)a",
@@ -3381,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictContainerAccessors",
           "name": "mapMaybe",
           "package": "distributed-process",
@@ -3390,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictContainerAccessors",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictContainerAccessors",
           "name": "mapMaybe",
           "normalized": "a-\u003eAccessor(Map a b)(Maybe b)",
@@ -3406,6 +3486,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSpine and element strict list\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "StrictList",
           "package": "distributed-process",
@@ -3415,6 +3496,7 @@
         "index": {
           "description": "Spine and element strict list",
           "hierarchy": "Control Distributed Process Internal StrictList",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "StrictList",
           "package": "distributed-process",
@@ -3429,6 +3511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "StrictList",
           "package": "distributed-process",
@@ -3438,6 +3521,7 @@
         "index": {
           "description": "Strict list",
           "hierarchy": "Control Distributed Process Internal StrictList",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "StrictList",
           "package": "distributed-process",
@@ -3451,6 +3535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "Append",
           "package": "distributed-process",
@@ -3460,6 +3545,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictList",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "Append",
           "package": "distributed-process",
@@ -3473,6 +3559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "Cons",
           "package": "distributed-process",
@@ -3482,6 +3569,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictList",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "Cons",
           "package": "distributed-process",
@@ -3495,6 +3583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "Nil",
           "package": "distributed-process",
@@ -3504,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictList",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "Nil",
           "package": "distributed-process",
@@ -3517,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "Snoc",
           "package": "distributed-process",
@@ -3526,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictList",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "Snoc",
           "package": "distributed-process",
@@ -3539,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "append",
           "package": "distributed-process",
@@ -3548,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictList",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "append",
           "normalized": "StrictList a-\u003eStrictList a-\u003eStrictList a",
@@ -3562,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "foldr",
           "package": "distributed-process",
@@ -3571,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictList",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictList",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eStrictList a-\u003eb",
@@ -3586,6 +3682,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLike Control.Concurrent.MVar.Strict but reduce to HNF, not NF\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "StrictMVar",
           "package": "distributed-process",
@@ -3595,6 +3692,7 @@
         "index": {
           "description": "Like Control.Concurrent.MVar.Strict but reduce to HNF not NF",
           "hierarchy": "Control Distributed Process Internal StrictMVar",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "StrictMVar",
           "package": "distributed-process",
@@ -3608,6 +3706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "StrictMVar",
           "package": "distributed-process",
@@ -3616,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictMVar",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "StrictMVar",
           "package": "distributed-process",
@@ -3629,6 +3729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "StrictMVar",
           "package": "distributed-process",
@@ -3638,6 +3739,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictMVar",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "StrictMVar",
           "package": "distributed-process",
@@ -3651,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "mkWeakMVar",
           "package": "distributed-process",
@@ -3660,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictMVar",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "mkWeakMVar",
           "normalized": "StrictMVar a-\u003eIO()-\u003eIO(Weak(StrictMVar a))",
@@ -3675,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "modifyMVar",
           "package": "distributed-process",
@@ -3684,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictMVar",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "modifyMVar",
           "normalized": "StrictMVar a-\u003e(a-\u003eIO(a,b))-\u003eIO b",
@@ -3699,6 +3805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "modifyMVar_",
           "package": "distributed-process",
@@ -3708,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictMVar",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "modifyMVar_",
           "normalized": "StrictMVar a-\u003e(a-\u003eIO a)-\u003eIO()",
@@ -3723,6 +3831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "newEmptyMVar",
           "package": "distributed-process",
@@ -3732,6 +3841,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictMVar",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "newEmptyMVar",
           "package": "distributed-process",
@@ -3745,6 +3855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "newMVar",
           "package": "distributed-process",
@@ -3754,6 +3865,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictMVar",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "newMVar",
           "normalized": "a-\u003eIO(StrictMVar a)",
@@ -3769,6 +3881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "putMVar",
           "package": "distributed-process",
@@ -3778,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictMVar",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "putMVar",
           "normalized": "StrictMVar a-\u003ea-\u003eIO()",
@@ -3793,6 +3907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "takeMVar",
           "package": "distributed-process",
@@ -3802,6 +3917,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictMVar",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "takeMVar",
           "normalized": "StrictMVar a-\u003eIO a",
@@ -3817,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "withMVar",
           "package": "distributed-process",
@@ -3826,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal StrictMVar",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.StrictMVar",
           "name": "withMVar",
           "normalized": "StrictMVar a-\u003e(a-\u003eIO b)-\u003eIO b",
@@ -3842,6 +3960,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple (internal) system logging/tracing support.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "Trace",
           "package": "distributed-process",
@@ -3851,6 +3970,7 @@
         "index": {
           "description": "Simple internal system logging tracing support",
           "hierarchy": "Control Distributed Process Internal Trace",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "Trace",
           "package": "distributed-process",
@@ -3864,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "TraceArg",
           "package": "distributed-process",
@@ -3872,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Trace",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "TraceArg",
           "package": "distributed-process",
@@ -3886,6 +4008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequired for system tracing in the node controller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "Tracer",
           "package": "distributed-process",
@@ -3895,6 +4018,7 @@
         "index": {
           "description": "Required for system tracing in the node controller",
           "hierarchy": "Control Distributed Process Internal Trace",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "Tracer",
           "package": "distributed-process",
@@ -3908,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "Trace",
           "package": "distributed-process",
@@ -3917,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Trace",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "Trace",
           "package": "distributed-process",
@@ -3930,6 +4056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "TraceStr",
           "package": "distributed-process",
@@ -3939,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Trace",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "TraceStr",
           "package": "distributed-process",
@@ -3952,6 +4080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "startTracing",
           "package": "distributed-process",
@@ -3961,6 +4090,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Trace",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "startTracing",
           "normalized": "LocalNode-\u003eIO LocalNode",
@@ -3976,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "stopTracer",
           "package": "distributed-process",
@@ -3985,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Trace",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "stopTracer",
           "normalized": "Tracer-\u003eIO()",
@@ -4000,6 +4132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "trace",
           "package": "distributed-process",
@@ -4009,6 +4142,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Trace",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "trace",
           "normalized": "Tracer-\u003eString-\u003eIO()",
@@ -4023,6 +4157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "traceFormat",
           "package": "distributed-process",
@@ -4032,6 +4167,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Trace",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Trace",
           "name": "traceFormat",
           "normalized": "Tracer-\u003eString-\u003e[TraceArg]-\u003eIO()",
@@ -4048,6 +4184,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes used throughout the Cloud Haskell framework\n\u003c/p\u003e\u003cp\u003eWe collect all types used internally in a single module because\n many of these data types are mutually recursive and cannot be split across\n modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Types",
           "package": "distributed-process",
@@ -4057,6 +4194,7 @@
         "index": {
           "description": "Types used throughout the Cloud Haskell framework We collect all types used internally in single module because many of these data types are mutually recursive and cannot be split across modules",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Types",
           "package": "distributed-process",
@@ -4071,6 +4209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Asynchronius) reply from \u003ccode\u003espawn\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidSpawn",
           "package": "distributed-process",
@@ -4080,6 +4219,7 @@
         "index": {
           "description": "Asynchronius reply from spawn",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidSpawn",
           "package": "distributed-process",
@@ -4094,6 +4234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Asynchronous) reply from unlinkNode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnlinkNode",
           "package": "distributed-process",
@@ -4103,6 +4244,7 @@
         "index": {
           "description": "Asynchronous reply from unlinkNode",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnlinkNode",
           "package": "distributed-process",
@@ -4117,6 +4259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Asynchronous) reply from unlinkPort\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnlinkPort",
           "package": "distributed-process",
@@ -4126,6 +4269,7 @@
         "index": {
           "description": "Asynchronous reply from unlinkPort",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnlinkPort",
           "package": "distributed-process",
@@ -4140,6 +4284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Asynchronous) reply from unlink\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnlinkProcess",
           "package": "distributed-process",
@@ -4149,6 +4294,7 @@
         "index": {
           "description": "Asynchronous reply from unlink",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnlinkProcess",
           "package": "distributed-process",
@@ -4163,6 +4309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Asynchronous) reply from unmonitor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnmonitor",
           "package": "distributed-process",
@@ -4172,6 +4319,7 @@
         "index": {
           "description": "Asynchronous reply from unmonitor",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnmonitor",
           "package": "distributed-process",
@@ -4186,6 +4334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhy did a process die?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DiedReason",
           "package": "distributed-process",
@@ -4195,6 +4344,7 @@
         "index": {
           "description": "Why did process die",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DiedReason",
           "package": "distributed-process",
@@ -4209,6 +4359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion of all kinds of identifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Identifier",
           "package": "distributed-process",
@@ -4218,6 +4369,7 @@
         "index": {
           "description": "Union of all kinds of identifiers",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Identifier",
           "package": "distributed-process",
@@ -4231,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ImplicitReconnect",
           "package": "distributed-process",
@@ -4239,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ImplicitReconnect",
           "package": "distributed-process",
@@ -4253,6 +4407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalNode",
           "package": "distributed-process",
@@ -4262,6 +4417,7 @@
         "index": {
           "description": "Local nodes",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalNode",
           "package": "distributed-process",
@@ -4276,6 +4432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal node state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalNodeState",
           "package": "distributed-process",
@@ -4285,6 +4442,7 @@
         "index": {
           "description": "Local node state",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalNodeState",
           "package": "distributed-process",
@@ -4299,6 +4457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcesses running on our local node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalProcess",
           "package": "distributed-process",
@@ -4308,6 +4467,7 @@
         "index": {
           "description": "Processes running on our local node",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalProcess",
           "package": "distributed-process",
@@ -4322,6 +4482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA local process ID consists of a seed which distinguishes processes from\n different instances of the same local node and a counter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalProcessId",
           "package": "distributed-process",
@@ -4331,6 +4492,7 @@
         "index": {
           "description": "local process ID consists of seed which distinguishes processes from different instances of the same local node and counter",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalProcessId",
           "package": "distributed-process",
@@ -4345,6 +4507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal process state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalProcessState",
           "package": "distributed-process",
@@ -4354,6 +4517,7 @@
         "index": {
           "description": "Local process state",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalProcessState",
           "package": "distributed-process",
@@ -4367,6 +4531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalSendPortId",
           "package": "distributed-process",
@@ -4375,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalSendPortId",
           "package": "distributed-process",
@@ -4389,6 +4555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessages consist of their typeRep fingerprint and their encoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Message",
           "package": "distributed-process",
@@ -4398,6 +4565,7 @@
         "index": {
           "description": "Messages consist of their typeRep fingerprint and their encoding",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Message",
           "package": "distributed-process",
@@ -4412,6 +4580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonitorRef is opaque for regular Cloud Haskell processes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "MonitorRef",
           "package": "distributed-process",
@@ -4421,6 +4590,7 @@
         "index": {
           "description": "MonitorRef is opaque for regular Cloud Haskell processes",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "MonitorRef",
           "package": "distributed-process",
@@ -4435,6 +4605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessages to the node controller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NCMsg",
           "package": "distributed-process",
@@ -4444,6 +4615,7 @@
         "index": {
           "description": "Messages to the node controller",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NCMsg",
           "package": "distributed-process",
@@ -4458,6 +4630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NodeId",
           "package": "distributed-process",
@@ -4467,6 +4640,7 @@
         "index": {
           "description": "Node identifier",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NodeId",
           "package": "distributed-process",
@@ -4481,6 +4655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown when a linked node dies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NodeLinkException",
           "package": "distributed-process",
@@ -4490,6 +4665,7 @@
         "index": {
           "description": "Exception thrown when linked node dies",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NodeLinkException",
           "package": "distributed-process",
@@ -4504,6 +4680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage sent by node monitors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NodeMonitorNotification",
           "package": "distributed-process",
@@ -4513,6 +4690,7 @@
         "index": {
           "description": "Message sent by node monitors",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NodeMonitorNotification",
           "package": "distributed-process",
@@ -4527,6 +4705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown when a linked channel (port) dies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "PortLinkException",
           "package": "distributed-process",
@@ -4536,6 +4715,7 @@
         "index": {
           "description": "Exception thrown when linked channel port dies",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "PortLinkException",
           "package": "distributed-process",
@@ -4550,6 +4730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage sent by channel (port) monitors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "PortMonitorNotification",
           "package": "distributed-process",
@@ -4559,6 +4740,7 @@
         "index": {
           "description": "Message sent by channel port monitors",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "PortMonitorNotification",
           "package": "distributed-process",
@@ -4573,6 +4755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Cloud Haskell \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Process",
           "package": "distributed-process",
@@ -4582,6 +4765,7 @@
         "index": {
           "description": "The Cloud Haskell Process type",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Process",
           "package": "distributed-process",
@@ -4596,6 +4780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal exception thrown indirectly by \u003ccode\u003eexit\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessExitException",
           "package": "distributed-process",
@@ -4605,6 +4790,7 @@
         "index": {
           "description": "Internal exception thrown indirectly by exit",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessExitException",
           "package": "distributed-process",
@@ -4619,6 +4805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessId",
           "package": "distributed-process",
@@ -4628,6 +4815,7 @@
         "index": {
           "description": "Process identifier",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessId",
           "package": "distributed-process",
@@ -4642,6 +4830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide information about a running process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessInfo",
           "package": "distributed-process",
@@ -4651,6 +4840,7 @@
         "index": {
           "description": "Provide information about running process",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessInfo",
           "package": "distributed-process",
@@ -4664,6 +4854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessInfoNone",
           "package": "distributed-process",
@@ -4672,6 +4863,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessInfoNone",
           "package": "distributed-process",
@@ -4686,6 +4878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExceptions thrown when a linked process dies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessLinkException",
           "package": "distributed-process",
@@ -4695,6 +4888,7 @@
         "index": {
           "description": "Exceptions thrown when linked process dies",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessLinkException",
           "package": "distributed-process",
@@ -4709,6 +4903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage sent by process monitors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessMonitorNotification",
           "package": "distributed-process",
@@ -4718,6 +4913,7 @@
         "index": {
           "description": "Message sent by process monitors",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessMonitorNotification",
           "package": "distributed-process",
@@ -4732,6 +4928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown when a process attempts to register\n a process under an already-registered name or to\n unregister a name that hasn't been registered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessRegistrationException",
           "package": "distributed-process",
@@ -4741,6 +4938,7 @@
         "index": {
           "description": "Exception thrown when process attempts to register process under an already-registered name or to unregister name that hasn been registered",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessRegistrationException",
           "package": "distributed-process",
@@ -4755,6 +4953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignals to the node controller (see \u003ccode\u003e\u003ca\u003eNCMsg\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessSignal",
           "package": "distributed-process",
@@ -4764,6 +4963,7 @@
         "index": {
           "description": "Signals to the node controller see NCMsg",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessSignal",
           "package": "distributed-process",
@@ -4778,6 +4978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe receive end of a typed channel (not serializable)\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003eReceivePort\u003c/a\u003e\u003c/code\u003e implements \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e. This is especially useful when merging receive ports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ReceivePort",
           "package": "distributed-process",
@@ -4787,6 +4988,7 @@
         "index": {
           "description": "The receive end of typed channel not serializable Note that ReceivePort implements Functor Applicative Alternative and Monad This is especially useful when merging receive ports",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ReceivePort",
           "package": "distributed-process",
@@ -4801,6 +5003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Asynchronous) reply from \u003ccode\u003eregister\u003c/code\u003e and \u003ccode\u003eunregister\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "RegisterReply",
           "package": "distributed-process",
@@ -4810,6 +5013,7 @@
         "index": {
           "description": "Asynchronous reply from register and unregister",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "RegisterReply",
           "package": "distributed-process",
@@ -4824,6 +5028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe send send of a typed channel (serializable)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SendPort",
           "package": "distributed-process",
@@ -4833,6 +5038,7 @@
         "index": {
           "description": "The send send of typed channel serializable",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SendPort",
           "package": "distributed-process",
@@ -4847,6 +5053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA send port is identified by a SendPortId.\n\u003c/p\u003e\u003cp\u003eYou cannot send directly to a SendPortId; instead, use \u003ccode\u003enewChan\u003c/code\u003e\n to create a SendPort.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SendPortId",
           "package": "distributed-process",
@@ -4856,6 +5063,7 @@
         "index": {
           "description": "send port is identified by SendPortId You cannot send directly to SendPortId instead use newChan to create SendPort",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SendPortId",
           "package": "distributed-process",
@@ -4870,6 +5078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSpawnRef\u003c/a\u003e\u003c/code\u003e are used to return pids of spawned processes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SpawnRef",
           "package": "distributed-process",
@@ -4879,6 +5088,7 @@
         "index": {
           "description": "SpawnRef are used to return pids of spawned processes",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SpawnRef",
           "package": "distributed-process",
@@ -4893,6 +5103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequired for system tracing in the node controller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Tracer",
           "package": "distributed-process",
@@ -4902,6 +5113,7 @@
         "index": {
           "description": "Required for system tracing in the node controller",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Tracer",
           "package": "distributed-process",
@@ -4915,6 +5127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "TypedChannel",
           "package": "distributed-process",
@@ -4923,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "TypedChannel",
           "package": "distributed-process",
@@ -4937,6 +5151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Asynchronous) reply from \u003ccode\u003ewhereis\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "WhereIsReply",
           "package": "distributed-process",
@@ -4946,6 +5161,7 @@
         "index": {
           "description": "Asynchronous reply from whereis",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "WhereIsReply",
           "package": "distributed-process",
@@ -4982,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnlinkNode",
           "package": "distributed-process",
@@ -4991,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnlinkNode",
           "package": "distributed-process",
@@ -5004,6 +5222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnlinkPort",
           "package": "distributed-process",
@@ -5013,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnlinkPort",
           "package": "distributed-process",
@@ -5026,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnlinkProcess",
           "package": "distributed-process",
@@ -5035,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnlinkProcess",
           "package": "distributed-process",
@@ -5048,6 +5270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnmonitor",
           "package": "distributed-process",
@@ -5057,6 +5280,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "DidUnmonitor",
           "package": "distributed-process",
@@ -5070,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Died",
           "package": "distributed-process",
@@ -5079,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Died",
           "package": "distributed-process",
@@ -5217,6 +5443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "EventLogTracer",
           "package": "distributed-process",
@@ -5226,6 +5453,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "EventLogTracer",
           "normalized": "EventLogTracer(String-\u003eIO())",
@@ -5241,6 +5469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Exit",
           "package": "distributed-process",
@@ -5250,6 +5479,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Exit",
           "package": "distributed-process",
@@ -5263,6 +5493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "GetInfo",
           "package": "distributed-process",
@@ -5272,6 +5503,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "GetInfo",
           "package": "distributed-process",
@@ -5285,6 +5517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "InactiveTracer",
           "package": "distributed-process",
@@ -5294,6 +5527,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "InactiveTracer",
           "package": "distributed-process",
@@ -5307,6 +5541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Kill",
           "package": "distributed-process",
@@ -5316,6 +5551,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Kill",
           "package": "distributed-process",
@@ -5329,6 +5565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Link",
           "package": "distributed-process",
@@ -5338,6 +5575,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Link",
           "package": "distributed-process",
@@ -5351,6 +5589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalNode",
           "package": "distributed-process",
@@ -5360,6 +5599,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalNode",
           "package": "distributed-process",
@@ -5373,6 +5613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalNodeState",
           "package": "distributed-process",
@@ -5382,6 +5623,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalNodeState",
           "package": "distributed-process",
@@ -5395,6 +5637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalNodeTracer",
           "package": "distributed-process",
@@ -5404,6 +5647,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalNodeTracer",
           "package": "distributed-process",
@@ -5417,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalProcess",
           "package": "distributed-process",
@@ -5426,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalProcess",
           "package": "distributed-process",
@@ -5439,6 +5685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalProcessId",
           "package": "distributed-process",
@@ -5448,6 +5695,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalProcessId",
           "package": "distributed-process",
@@ -5461,6 +5709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalProcessState",
           "package": "distributed-process",
@@ -5470,6 +5719,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LocalProcessState",
           "package": "distributed-process",
@@ -5483,6 +5733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LogFileTracer",
           "package": "distributed-process",
@@ -5492,6 +5743,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "LogFileTracer",
           "package": "distributed-process",
@@ -5505,6 +5757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Message",
           "package": "distributed-process",
@@ -5514,6 +5767,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Message",
           "package": "distributed-process",
@@ -5527,6 +5781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Monitor",
           "package": "distributed-process",
@@ -5536,6 +5791,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Monitor",
           "package": "distributed-process",
@@ -5549,6 +5805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "MonitorRef",
           "package": "distributed-process",
@@ -5558,6 +5815,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "MonitorRef",
           "package": "distributed-process",
@@ -5571,6 +5829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NCMsg",
           "package": "distributed-process",
@@ -5580,6 +5839,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NCMsg",
           "package": "distributed-process",
@@ -5593,6 +5853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NamedSend",
           "package": "distributed-process",
@@ -5602,6 +5863,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NamedSend",
           "package": "distributed-process",
@@ -5615,6 +5877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NoImplicitReconnect",
           "package": "distributed-process",
@@ -5624,6 +5887,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NoImplicitReconnect",
           "package": "distributed-process",
@@ -5637,6 +5901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NodeId",
           "package": "distributed-process",
@@ -5646,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NodeId",
           "package": "distributed-process",
@@ -5659,6 +5925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NodeIdentifier",
           "package": "distributed-process",
@@ -5668,6 +5935,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "NodeIdentifier",
           "package": "distributed-process",
@@ -5773,6 +6041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Process",
           "package": "distributed-process",
@@ -5782,6 +6051,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Process",
           "package": "distributed-process",
@@ -5795,6 +6065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessExitException",
           "package": "distributed-process",
@@ -5804,6 +6075,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessExitException",
           "package": "distributed-process",
@@ -5817,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessId",
           "package": "distributed-process",
@@ -5826,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessId",
           "package": "distributed-process",
@@ -5839,6 +6113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessIdentifier",
           "package": "distributed-process",
@@ -5848,6 +6123,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessIdentifier",
           "package": "distributed-process",
@@ -5861,6 +6137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessInfoNone",
           "package": "distributed-process",
@@ -5870,6 +6147,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ProcessInfoNone",
           "package": "distributed-process",
@@ -5952,6 +6230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ReceivePort",
           "package": "distributed-process",
@@ -5961,6 +6240,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ReceivePort",
           "package": "distributed-process",
@@ -5974,6 +6254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Register",
           "package": "distributed-process",
@@ -5983,6 +6264,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Register",
           "package": "distributed-process",
@@ -6019,6 +6301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SendPort",
           "package": "distributed-process",
@@ -6028,6 +6311,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SendPort",
           "package": "distributed-process",
@@ -6041,6 +6325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SendPortId",
           "package": "distributed-process",
@@ -6050,6 +6335,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SendPortId",
           "package": "distributed-process",
@@ -6063,6 +6349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SendPortIdentifier",
           "package": "distributed-process",
@@ -6072,6 +6359,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SendPortIdentifier",
           "package": "distributed-process",
@@ -6085,6 +6373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Spawn",
           "package": "distributed-process",
@@ -6094,6 +6383,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Spawn",
           "normalized": "Spawn(Closure(Process()))SpawnRef",
@@ -6109,6 +6399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SpawnRef",
           "package": "distributed-process",
@@ -6118,6 +6409,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "SpawnRef",
           "package": "distributed-process",
@@ -6131,6 +6423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "TypedChannel",
           "package": "distributed-process",
@@ -6140,6 +6433,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "TypedChannel",
           "package": "distributed-process",
@@ -6153,6 +6447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Unlink",
           "package": "distributed-process",
@@ -6162,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Unlink",
           "package": "distributed-process",
@@ -6175,6 +6471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Unmonitor",
           "package": "distributed-process",
@@ -6184,6 +6481,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "Unmonitor",
           "package": "distributed-process",
@@ -6197,6 +6495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "WhereIs",
           "package": "distributed-process",
@@ -6206,6 +6505,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "WhereIs",
           "package": "distributed-process",
@@ -6242,6 +6542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "WithImplicitReconnect",
           "package": "distributed-process",
@@ -6251,6 +6552,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "WithImplicitReconnect",
           "package": "distributed-process",
@@ -6264,6 +6566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_channelCounter",
           "package": "distributed-process",
@@ -6273,6 +6576,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_channelCounter",
           "package": "distributed-process",
@@ -6287,6 +6591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutgoing connections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_localConnections",
           "package": "distributed-process",
@@ -6297,6 +6602,7 @@
         "index": {
           "description": "Outgoing connections",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_localConnections",
           "normalized": "(Map(Identifier,Identifier)(Connection,ImplicitReconnect))",
@@ -6313,6 +6619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter to assign PIDs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_localPidCounter",
           "package": "distributed-process",
@@ -6323,6 +6630,7 @@
         "index": {
           "description": "Counter to assign PIDs",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_localPidCounter",
           "package": "distributed-process",
@@ -6337,6 +6645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eunique\u003c/code\u003e value used to create PIDs (so that processes on\n restarted nodes have new PIDs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_localPidUnique",
           "package": "distributed-process",
@@ -6347,6 +6656,7 @@
         "index": {
           "description": "The unique value used to create PIDs so that processes on restarted nodes have new PIDs",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_localPidUnique",
           "package": "distributed-process",
@@ -6361,6 +6671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcesses running on this node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_localProcesses",
           "package": "distributed-process",
@@ -6371,6 +6682,7 @@
         "index": {
           "description": "Processes running on this node",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_localProcesses",
           "package": "distributed-process",
@@ -6384,6 +6696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_monitorCounter",
           "package": "distributed-process",
@@ -6393,6 +6706,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_monitorCounter",
           "package": "distributed-process",
@@ -6406,6 +6720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_spawnCounter",
           "package": "distributed-process",
@@ -6415,6 +6730,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_spawnCounter",
           "package": "distributed-process",
@@ -6428,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_typedChannels",
           "package": "distributed-process",
@@ -6437,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "_typedChannels",
           "package": "distributed-process",
@@ -6450,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "channelCounter",
           "package": "distributed-process",
@@ -6459,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "channelCounter",
           "package": "distributed-process",
@@ -6473,6 +6793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn any serialiable term into a message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "createMessage",
           "package": "distributed-process",
@@ -6483,6 +6804,7 @@
         "index": {
           "description": "Turn any serialiable term into message",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "createMessage",
           "normalized": "a-\u003eMessage",
@@ -6498,6 +6820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ctrlMsgSender",
           "package": "distributed-process",
@@ -6507,6 +6830,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ctrlMsgSender",
           "package": "distributed-process",
@@ -6520,6 +6844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ctrlMsgSignal",
           "package": "distributed-process",
@@ -6529,6 +6854,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "ctrlMsgSignal",
           "package": "distributed-process",
@@ -6542,6 +6868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "firstNonReservedProcessId",
           "package": "distributed-process",
@@ -6551,6 +6878,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "firstNonReservedProcessId",
           "package": "distributed-process",
@@ -6564,6 +6892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "forever'",
           "package": "distributed-process",
@@ -6573,6 +6902,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "forever'",
           "normalized": "a b-\u003ea c",
@@ -6587,6 +6917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localConnectionBetween",
           "package": "distributed-process",
@@ -6596,6 +6927,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localConnectionBetween",
           "normalized": "Identifier-\u003eIdentifier-\u003eAccessor LocalNodeState(Maybe(Connection,ImplicitReconnect))",
@@ -6611,6 +6943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localConnections",
           "package": "distributed-process",
@@ -6620,6 +6953,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localConnections",
           "normalized": "Accessor LocalNodeState(Map(Identifier,Identifier)(Connection,ImplicitReconnect))",
@@ -6636,6 +6970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChannel for the node controller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localCtrlChan",
           "package": "distributed-process",
@@ -6646,6 +6981,7 @@
         "index": {
           "description": "Channel for the node controller",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localCtrlChan",
           "package": "distributed-process",
@@ -6660,6 +6996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe network endpoint associated with this node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localEndPoint",
           "package": "distributed-process",
@@ -6670,6 +7007,7 @@
         "index": {
           "description": "The network endpoint associated with this node",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localEndPoint",
           "package": "distributed-process",
@@ -6684,6 +7022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003e of the node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localNodeId",
           "package": "distributed-process",
@@ -6694,6 +7033,7 @@
         "index": {
           "description": "NodeId of the node",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localNodeId",
           "package": "distributed-process",
@@ -6707,6 +7047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localPidCounter",
           "package": "distributed-process",
@@ -6716,6 +7057,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localPidCounter",
           "package": "distributed-process",
@@ -6729,6 +7071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localPidUnique",
           "package": "distributed-process",
@@ -6738,6 +7081,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localPidUnique",
           "package": "distributed-process",
@@ -6751,6 +7095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localProcessWithId",
           "package": "distributed-process",
@@ -6760,6 +7105,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localProcessWithId",
           "normalized": "LocalProcessId-\u003eAccessor LocalNodeState(Maybe LocalProcess)",
@@ -6775,6 +7121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localProcesses",
           "package": "distributed-process",
@@ -6784,6 +7131,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localProcesses",
           "package": "distributed-process",
@@ -6798,6 +7146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal node state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localState",
           "package": "distributed-process",
@@ -6808,6 +7157,7 @@
         "index": {
           "description": "Local node state",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localState",
           "package": "distributed-process",
@@ -6822,6 +7172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent active system debug/trace log\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localTracer",
           "package": "distributed-process",
@@ -6832,6 +7183,7 @@
         "index": {
           "description": "Current active system debug trace log",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "localTracer",
           "package": "distributed-process",
@@ -6845,6 +7197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "lpidCounter",
           "package": "distributed-process",
@@ -6854,6 +7207,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "lpidCounter",
           "package": "distributed-process",
@@ -6867,6 +7221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "lpidUnique",
           "package": "distributed-process",
@@ -6876,6 +7231,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "lpidUnique",
           "package": "distributed-process",
@@ -6889,6 +7245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "messageEncoding",
           "package": "distributed-process",
@@ -6898,6 +7255,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "messageEncoding",
           "package": "distributed-process",
@@ -6911,6 +7269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "messageFingerprint",
           "package": "distributed-process",
@@ -6920,6 +7279,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "messageFingerprint",
           "package": "distributed-process",
@@ -6934,6 +7294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "messageToPayload",
           "package": "distributed-process",
@@ -6944,6 +7305,7 @@
         "index": {
           "description": "Serialize message",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "messageToPayload",
           "normalized": "Message-\u003e[ByteString]",
@@ -6959,6 +7321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "monitorCounter",
           "package": "distributed-process",
@@ -6968,6 +7331,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "monitorCounter",
           "package": "distributed-process",
@@ -6982,6 +7346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique to distinguish multiple monitor requests by the same process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "monitorRefCounter",
           "package": "distributed-process",
@@ -6992,6 +7357,7 @@
         "index": {
           "description": "Unique to distinguish multiple monitor requests by the same process",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "monitorRefCounter",
           "package": "distributed-process",
@@ -7006,6 +7372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID of the entity to be monitored\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "monitorRefIdent",
           "package": "distributed-process",
@@ -7016,6 +7383,7 @@
         "index": {
           "description": "ID of the entity to be monitored",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "monitorRefIdent",
           "package": "distributed-process",
@@ -7029,6 +7397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "nodeAddress",
           "package": "distributed-process",
@@ -7038,6 +7407,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "nodeAddress",
           "package": "distributed-process",
@@ -7051,6 +7421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "nodeOf",
           "package": "distributed-process",
@@ -7060,6 +7431,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "nodeOf",
           "normalized": "Identifier-\u003eNodeId",
@@ -7075,6 +7447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "nullProcessId",
           "package": "distributed-process",
@@ -7084,6 +7457,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "nullProcessId",
           "normalized": "NodeId-\u003eProcessId",
@@ -7100,6 +7474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize a message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "payloadToMessage",
           "package": "distributed-process",
@@ -7110,6 +7485,7 @@
         "index": {
           "description": "Deserialize message",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "payloadToMessage",
           "normalized": "[ByteString]-\u003eMessage",
@@ -7125,6 +7501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processId",
           "package": "distributed-process",
@@ -7134,6 +7511,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processId",
           "package": "distributed-process",
@@ -7148,6 +7526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode-local identifier for the process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processLocalId",
           "package": "distributed-process",
@@ -7158,6 +7537,7 @@
         "index": {
           "description": "Node-local identifier for the process",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processLocalId",
           "package": "distributed-process",
@@ -7171,6 +7551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processNode",
           "package": "distributed-process",
@@ -7180,6 +7561,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processNode",
           "package": "distributed-process",
@@ -7194,6 +7576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ID of the node the process is running on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processNodeId",
           "package": "distributed-process",
@@ -7204,6 +7587,7 @@
         "index": {
           "description": "The ID of the node the process is running on",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processNodeId",
           "package": "distributed-process",
@@ -7217,6 +7601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processQueue",
           "package": "distributed-process",
@@ -7226,6 +7611,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processQueue",
           "package": "distributed-process",
@@ -7239,6 +7625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processState",
           "package": "distributed-process",
@@ -7248,6 +7635,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processState",
           "package": "distributed-process",
@@ -7261,6 +7649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processThread",
           "package": "distributed-process",
@@ -7270,6 +7659,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processThread",
           "package": "distributed-process",
@@ -7283,6 +7673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processWeakQ",
           "package": "distributed-process",
@@ -7292,6 +7683,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "processWeakQ",
           "package": "distributed-process",
@@ -7305,6 +7697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "receiveSTM",
           "package": "distributed-process",
@@ -7314,6 +7707,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "receiveSTM",
           "package": "distributed-process",
@@ -7328,6 +7722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime lookup table for supporting closures\n TODO: this should be part of the CH state, not the local endpoint state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "remoteTable",
           "package": "distributed-process",
@@ -7338,6 +7733,7 @@
         "index": {
           "description": "Runtime lookup table for supporting closures TODO this should be part of the CH state not the local endpoint state",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "remoteTable",
           "package": "distributed-process",
@@ -7352,6 +7748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstructor for \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e (not exported to the public API)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "runLocalProcess",
           "package": "distributed-process",
@@ -7362,6 +7759,7 @@
         "index": {
           "description": "Deconstructor for Process not exported to the public API",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "runLocalProcess",
           "normalized": "LocalProcess-\u003eProcess a-\u003eIO a",
@@ -7378,6 +7776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (unique) ID of this send port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "sendPortId",
           "package": "distributed-process",
@@ -7388,6 +7787,7 @@
         "index": {
           "description": "The unique ID of this send port",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "sendPortId",
           "package": "distributed-process",
@@ -7402,6 +7802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess-local ID of the channel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "sendPortLocalId",
           "package": "distributed-process",
@@ -7412,6 +7813,7 @@
         "index": {
           "description": "Process-local ID of the channel",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "sendPortLocalId",
           "package": "distributed-process",
@@ -7426,6 +7828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ID of the process that will receive messages sent on this port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "sendPortProcessId",
           "package": "distributed-process",
@@ -7436,6 +7839,7 @@
         "index": {
           "description": "The ID of the process that will receive messages sent on this port",
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "sendPortProcessId",
           "package": "distributed-process",
@@ -7449,6 +7853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "spawnCounter",
           "package": "distributed-process",
@@ -7458,6 +7863,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "spawnCounter",
           "package": "distributed-process",
@@ -7471,6 +7877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "typedChannelWithId",
           "package": "distributed-process",
@@ -7480,6 +7887,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "typedChannelWithId",
           "normalized": "LocalSendPortId-\u003eAccessor LocalProcessState(Maybe TypedChannel)",
@@ -7495,6 +7903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "typedChannels",
           "package": "distributed-process",
@@ -7504,6 +7913,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "typedChannels",
           "package": "distributed-process",
@@ -7517,6 +7927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "unProcess",
           "package": "distributed-process",
@@ -7526,6 +7937,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal Types",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.Types",
           "name": "unProcess",
           "package": "distributed-process",
@@ -7540,6 +7952,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClone of Control.Concurrent.STM.TQueue with support for mkWeakTQueue\n\u003c/p\u003e\u003cp\u003eNot all functionality from the original module is available: unGetTQueue,\n peekTQueue and tryPeekTQueue are missing. In order to implement these we'd\n need to be able to touch# the write end of the queue inside unGetTQueue, but\n that means we need a version of touch# that works within the STM monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "WeakTQueue",
           "package": "distributed-process",
@@ -7549,6 +7962,7 @@
         "index": {
           "description": "Clone of Control.Concurrent.STM.TQueue with support for mkWeakTQueue Not all functionality from the original module is available unGetTQueue peekTQueue and tryPeekTQueue are missing In order to implement these we need to be able to touch the write end of the queue inside unGetTQueue but that means we need version of touch that works within the STM monad",
           "hierarchy": "Control Distributed Process Internal WeakTQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "WeakTQueue",
           "package": "distributed-process",
@@ -7563,6 +7977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTQueue\u003c/a\u003e\u003c/code\u003e is an abstract type representing an unbounded FIFO channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "TQueue",
           "package": "distributed-process",
@@ -7572,6 +7987,7 @@
         "index": {
           "description": "TQueue is an abstract type representing an unbounded FIFO channel",
           "hierarchy": "Control Distributed Process Internal WeakTQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "TQueue",
           "package": "distributed-process",
@@ -7586,6 +8002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the supplied \u003ccode\u003e\u003ca\u003eTQueue\u003c/a\u003e\u003c/code\u003e is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "isEmptyTQueue",
           "package": "distributed-process",
@@ -7596,6 +8013,7 @@
         "index": {
           "description": "Returns True if the supplied TQueue is empty",
           "hierarchy": "Control Distributed Process Internal WeakTQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "isEmptyTQueue",
           "normalized": "TQueue a-\u003eSTM Bool",
@@ -7611,6 +8029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "mkWeakTQueue",
           "package": "distributed-process",
@@ -7620,6 +8039,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Internal WeakTQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "mkWeakTQueue",
           "normalized": "TQueue a-\u003eIO()-\u003eIO(Weak(TQueue a))",
@@ -7636,6 +8056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild and returns a new instance of \u003ccode\u003e\u003ca\u003eTQueue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "newTQueue",
           "package": "distributed-process",
@@ -7646,6 +8067,7 @@
         "index": {
           "description": "Build and returns new instance of TQueue",
           "hierarchy": "Control Distributed Process Internal WeakTQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "newTQueue",
           "package": "distributed-process",
@@ -7660,6 +8082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eIO\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003enewTQueue\u003c/a\u003e\u003c/code\u003e.  This is useful for creating top-level\n \u003ccode\u003e\u003ca\u003eTQueue\u003c/a\u003e\u003c/code\u003es using \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e, because using\n \u003ccode\u003e\u003ca\u003eatomically\u003c/a\u003e\u003c/code\u003e inside \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e isn't\n possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "newTQueueIO",
           "package": "distributed-process",
@@ -7670,6 +8093,7 @@
         "index": {
           "description": "IO version of newTQueue This is useful for creating top-level TQueue using unsafePerformIO because using atomically inside unsafePerformIO isn possible",
           "hierarchy": "Control Distributed Process Internal WeakTQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "newTQueueIO",
           "package": "distributed-process",
@@ -7684,6 +8108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the next value from the \u003ccode\u003e\u003ca\u003eTQueue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "readTQueue",
           "package": "distributed-process",
@@ -7694,6 +8119,7 @@
         "index": {
           "description": "Read the next value from the TQueue",
           "hierarchy": "Control Distributed Process Internal WeakTQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "readTQueue",
           "normalized": "TQueue a-\u003eSTM a",
@@ -7710,6 +8136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003ereadTQueue\u003c/a\u003e\u003c/code\u003e which does not retry. Instead it\n returns \u003ccode\u003eNothing\u003c/code\u003e if no value is available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "tryReadTQueue",
           "package": "distributed-process",
@@ -7720,6 +8147,7 @@
         "index": {
           "description": "version of readTQueue which does not retry Instead it returns Nothing if no value is available",
           "hierarchy": "Control Distributed Process Internal WeakTQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "tryReadTQueue",
           "normalized": "TQueue a-\u003eSTM(Maybe a)",
@@ -7736,6 +8164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a value to a \u003ccode\u003e\u003ca\u003eTQueue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "writeTQueue",
           "package": "distributed-process",
@@ -7746,6 +8175,7 @@
         "index": {
           "description": "Write value to TQueue",
           "hierarchy": "Control Distributed Process Internal WeakTQueue",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Internal.WeakTQueue",
           "name": "writeTQueue",
           "normalized": "TQueue a-\u003ea-\u003eSTM()",
@@ -7762,6 +8192,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLocal nodes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Node",
           "name": "Node",
           "package": "distributed-process",
@@ -7771,6 +8202,7 @@
         "index": {
           "description": "Local nodes",
           "hierarchy": "Control Distributed Process Node",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Node",
           "name": "Node",
           "package": "distributed-process",
@@ -7785,6 +8217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Node",
           "name": "LocalNode",
           "package": "distributed-process",
@@ -7794,6 +8227,7 @@
         "index": {
           "description": "Local nodes",
           "hierarchy": "Control Distributed Process Node",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Node",
           "name": "LocalNode",
           "package": "distributed-process",
@@ -7808,6 +8242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce-close a local node\n\u003c/p\u003e\u003cp\u003eTODO: for now we just close the associated endpoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Node",
           "name": "closeLocalNode",
           "package": "distributed-process",
@@ -7818,6 +8253,7 @@
         "index": {
           "description": "Force-close local node TODO for now we just close the associated endpoint",
           "hierarchy": "Control Distributed Process Node",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Node",
           "name": "closeLocalNode",
           "normalized": "LocalNode-\u003eIO()",
@@ -7834,6 +8270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpawn a new process on a local node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Node",
           "name": "forkProcess",
           "package": "distributed-process",
@@ -7844,6 +8281,7 @@
         "index": {
           "description": "Spawn new process on local node",
           "hierarchy": "Control Distributed Process Node",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Node",
           "name": "forkProcess",
           "normalized": "LocalNode-\u003eProcess()-\u003eIO ProcessId",
@@ -7859,6 +8297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Node",
           "name": "initRemoteTable",
           "package": "distributed-process",
@@ -7868,6 +8307,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Node",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Node",
           "name": "initRemoteTable",
           "package": "distributed-process",
@@ -7882,6 +8322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003e of the node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Node",
           "name": "localNodeId",
           "package": "distributed-process",
@@ -7892,6 +8333,7 @@
         "index": {
           "description": "NodeId of the node",
           "hierarchy": "Control Distributed Process Node",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Node",
           "name": "localNodeId",
           "normalized": "LocalNode-\u003eNodeId",
@@ -7908,6 +8350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize a new local node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Node",
           "name": "newLocalNode",
           "package": "distributed-process",
@@ -7918,6 +8361,7 @@
         "index": {
           "description": "Initialize new local node",
           "hierarchy": "Control Distributed Process Node",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Node",
           "name": "newLocalNode",
           "normalized": "Transport-\u003eRemoteTable-\u003eIO LocalNode",
@@ -7934,6 +8378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a process on a local node and wait for it to finish\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Node",
           "name": "runProcess",
           "package": "distributed-process",
@@ -7944,6 +8389,7 @@
         "index": {
           "description": "Run process on local node and wait for it to finish",
           "hierarchy": "Control Distributed Process Node",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Node",
           "name": "runProcess",
           "normalized": "LocalNode-\u003eProcess()-\u003eIO()",
@@ -7959,6 +8405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Serializable",
           "name": "Serializable",
           "package": "distributed-process",
@@ -7967,6 +8414,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Serializable",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Serializable",
           "name": "Serializable",
           "package": "distributed-process",
@@ -7980,6 +8428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Serializable",
           "name": "Fingerprint",
           "package": "distributed-process",
@@ -7987,6 +8436,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process Serializable",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Serializable",
           "name": "Fingerprint",
           "package": "distributed-process",
@@ -8001,6 +8451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects that can be sent across the network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Serializable",
           "name": "Serializable",
           "package": "distributed-process",
@@ -8010,6 +8461,7 @@
         "index": {
           "description": "Objects that can be sent across the network",
           "hierarchy": "Control Distributed Process Serializable",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Serializable",
           "name": "Serializable",
           "package": "distributed-process",
@@ -8024,6 +8476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReification of \u003ccode\u003e\u003ca\u003eSerializable\u003c/a\u003e\u003c/code\u003e (see \u003ca\u003eControl.Distributed.Process.Closure\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Serializable",
           "name": "SerializableDict",
           "package": "distributed-process",
@@ -8033,6 +8486,7 @@
         "index": {
           "description": "Reification of Serializable see Control.Distributed.Process.Closure",
           "hierarchy": "Control Distributed Process Serializable",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Serializable",
           "name": "SerializableDict",
           "package": "distributed-process",
@@ -8047,6 +8501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a bytestring into a fingerprint. Throws an IO exception on failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Serializable",
           "name": "decodeFingerprint",
           "package": "distributed-process",
@@ -8057,6 +8512,7 @@
         "index": {
           "description": "Decode bytestring into fingerprint Throws an IO exception on failure",
           "hierarchy": "Control Distributed Process Serializable",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Serializable",
           "name": "decodeFingerprint",
           "normalized": "ByteString-\u003eFingerprint",
@@ -8073,6 +8529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode type representation as a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Serializable",
           "name": "encodeFingerprint",
           "package": "distributed-process",
@@ -8083,6 +8540,7 @@
         "index": {
           "description": "Encode type representation as bytestring",
           "hierarchy": "Control Distributed Process Serializable",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Serializable",
           "name": "encodeFingerprint",
           "normalized": "Fingerprint-\u003eByteString",
@@ -8099,6 +8557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fingerprint of the typeRep of the argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Serializable",
           "name": "fingerprint",
           "package": "distributed-process",
@@ -8109,6 +8568,7 @@
         "index": {
           "description": "The fingerprint of the typeRep of the argument",
           "hierarchy": "Control Distributed Process Serializable",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Serializable",
           "name": "fingerprint",
           "normalized": "a-\u003eFingerprint",
@@ -8124,6 +8584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow fingerprint (for debugging purposes)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Serializable",
           "name": "showFingerprint",
           "package": "distributed-process",
@@ -8134,6 +8595,7 @@
         "index": {
           "description": "Show fingerprint for debugging purposes",
           "hierarchy": "Control Distributed Process Serializable",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Serializable",
           "name": "showFingerprint",
           "normalized": "Fingerprint-\u003eShowS",
@@ -8150,6 +8612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of a fingerprint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process.Serializable",
           "name": "sizeOfFingerprint",
           "package": "distributed-process",
@@ -8160,6 +8623,7 @@
         "index": {
           "description": "Size of fingerprint",
           "hierarchy": "Control Distributed Process Serializable",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process.Serializable",
           "name": "sizeOfFingerprint",
           "package": "distributed-process",
@@ -8174,6 +8638,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eCloud Haskell\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThis is an implementation of Cloud Haskell, as described in\n\u003cem\u003eTowards Haskell in the Cloud\u003c/em\u003e by Jeff Epstein, Andrew Black, and Simon\nPeyton Jones (\u003ca\u003ehttp://research.microsoft.com/en-us/um/people/simonpj/papers/parallel/\u003c/a\u003e),\nalthough some of the details are different. The precise message passing\nsemantics are based on \u003cem\u003eA unified semantics for future Erlang\u003c/em\u003e by Hans\nSvensson, Lars-&#197;ke Fredlund and Clara Benac Earle.\n\u003c/p\u003e\u003cp\u003eFor a detailed description of the package and other reference materials,\nplease see the distributed-process wiki page on github:\n\u003ca\u003ehttps://github.com/haskell-distributed/distributed-process/wiki\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "Process",
           "package": "distributed-process",
@@ -8183,6 +8648,7 @@
         "index": {
           "description": "Cloud Haskell This is an implementation of Cloud Haskell as described in Towards Haskell in the Cloud by Jeff Epstein Andrew Black and Simon Peyton Jones http research.microsoft.com en-us um people simonpj papers parallel although some of the details are different The precise message passing semantics are based on unified semantics for future Erlang by Hans Svensson Lars ke Fredlund and Clara Benac Earle For detailed description of the package and other reference materials please see the distributed-process wiki page on github https github.com haskell-distributed distributed-process wiki",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "Process",
           "package": "distributed-process",
@@ -8197,6 +8663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a received message and provides two basic operations on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "AbstractMessage",
           "package": "distributed-process",
@@ -8206,6 +8673,7 @@
         "index": {
           "description": "Represents received message and provides two basic operations on it",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "AbstractMessage",
           "package": "distributed-process",
@@ -8220,6 +8688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA closure is a static value and an encoded environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "Closure",
           "package": "distributed-process",
@@ -8228,6 +8697,7 @@
         "index": {
           "description": "closure is static value and an encoded environment",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "Closure",
           "package": "distributed-process",
@@ -8242,6 +8712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Asynchronius) reply from \u003ccode\u003espawn\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "DidSpawn",
           "package": "distributed-process",
@@ -8251,6 +8722,7 @@
         "index": {
           "description": "Asynchronius reply from spawn",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "DidSpawn",
           "package": "distributed-process",
@@ -8265,6 +8737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhy did a process die?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "DiedReason",
           "package": "distributed-process",
@@ -8274,6 +8747,7 @@
         "index": {
           "description": "Why did process die",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "DiedReason",
           "package": "distributed-process",
@@ -8288,6 +8762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou need this when using \u003ccode\u003e\u003ca\u003ecatches\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "Handler",
           "package": "distributed-process",
@@ -8297,6 +8772,7 @@
         "index": {
           "description": "You need this when using catches",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "Handler",
           "package": "distributed-process",
@@ -8311,6 +8787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque type used in \u003ccode\u003e\u003ca\u003ereceiveWait\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ereceiveTimeout\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "Match",
           "package": "distributed-process",
@@ -8320,6 +8797,7 @@
         "index": {
           "description": "Opaque type used in receiveWait and receiveTimeout",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "Match",
           "package": "distributed-process",
@@ -8334,6 +8812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonitorRef is opaque for regular Cloud Haskell processes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "MonitorRef",
           "package": "distributed-process",
@@ -8343,6 +8822,7 @@
         "index": {
           "description": "MonitorRef is opaque for regular Cloud Haskell processes",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "MonitorRef",
           "package": "distributed-process",
@@ -8357,6 +8837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "NodeId",
           "package": "distributed-process",
@@ -8366,6 +8847,7 @@
         "index": {
           "description": "Node identifier",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "NodeId",
           "package": "distributed-process",
@@ -8380,6 +8862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown when a linked node dies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "NodeLinkException",
           "package": "distributed-process",
@@ -8389,6 +8872,7 @@
         "index": {
           "description": "Exception thrown when linked node dies",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "NodeLinkException",
           "package": "distributed-process",
@@ -8403,6 +8887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage sent by node monitors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "NodeMonitorNotification",
           "package": "distributed-process",
@@ -8412,6 +8897,7 @@
         "index": {
           "description": "Message sent by node monitors",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "NodeMonitorNotification",
           "package": "distributed-process",
@@ -8426,6 +8912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown when a linked channel (port) dies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "PortLinkException",
           "package": "distributed-process",
@@ -8435,6 +8922,7 @@
         "index": {
           "description": "Exception thrown when linked channel port dies",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "PortLinkException",
           "package": "distributed-process",
@@ -8449,6 +8937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage sent by channel (port) monitors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "PortMonitorNotification",
           "package": "distributed-process",
@@ -8458,6 +8947,7 @@
         "index": {
           "description": "Message sent by channel port monitors",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "PortMonitorNotification",
           "package": "distributed-process",
@@ -8472,6 +8962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Cloud Haskell \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "Process",
           "package": "distributed-process",
@@ -8481,6 +8972,7 @@
         "index": {
           "description": "The Cloud Haskell Process type",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "Process",
           "package": "distributed-process",
@@ -8495,6 +8987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "ProcessId",
           "package": "distributed-process",
@@ -8504,6 +8997,7 @@
         "index": {
           "description": "Process identifier",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "ProcessId",
           "package": "distributed-process",
@@ -8518,6 +9012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide information about a running process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "ProcessInfo",
           "package": "distributed-process",
@@ -8527,6 +9022,7 @@
         "index": {
           "description": "Provide information about running process",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "ProcessInfo",
           "package": "distributed-process",
@@ -8541,6 +9037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExceptions thrown when a linked process dies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "ProcessLinkException",
           "package": "distributed-process",
@@ -8550,6 +9047,7 @@
         "index": {
           "description": "Exceptions thrown when linked process dies",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "ProcessLinkException",
           "package": "distributed-process",
@@ -8564,6 +9062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage sent by process monitors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "ProcessMonitorNotification",
           "package": "distributed-process",
@@ -8573,6 +9072,7 @@
         "index": {
           "description": "Message sent by process monitors",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "ProcessMonitorNotification",
           "package": "distributed-process",
@@ -8587,6 +9087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown when a process attempts to register\n a process under an already-registered name or to\n unregister a name that hasn't been registered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "ProcessRegistrationException",
           "package": "distributed-process",
@@ -8596,6 +9097,7 @@
         "index": {
           "description": "Exception thrown when process attempts to register process under an already-registered name or to unregister name that hasn been registered",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "ProcessRegistrationException",
           "package": "distributed-process",
@@ -8610,6 +9112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrown by \u003ccode\u003e\u003ca\u003eterminate\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "ProcessTerminationException",
           "package": "distributed-process",
@@ -8619,6 +9122,7 @@
         "index": {
           "description": "Thrown by terminate",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "ProcessTerminationException",
           "package": "distributed-process",
@@ -8633,6 +9137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe receive end of a typed channel (not serializable)\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003eReceivePort\u003c/a\u003e\u003c/code\u003e implements \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e. This is especially useful when merging receive ports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "ReceivePort",
           "package": "distributed-process",
@@ -8642,6 +9147,7 @@
         "index": {
           "description": "The receive end of typed channel not serializable Note that ReceivePort implements Functor Applicative Alternative and Monad This is especially useful when merging receive ports",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "ReceivePort",
           "package": "distributed-process",
@@ -8656,6 +9162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Asynchronous) reply from \u003ccode\u003eregister\u003c/code\u003e and \u003ccode\u003eunregister\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "RegisterReply",
           "package": "distributed-process",
@@ -8665,6 +9172,7 @@
         "index": {
           "description": "Asynchronous reply from register and unregister",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "RegisterReply",
           "package": "distributed-process",
@@ -8679,6 +9187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime dictionary for \u003ccode\u003e\u003ca\u003eunstatic\u003c/a\u003e\u003c/code\u003e lookups \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "RemoteTable",
           "package": "distributed-process",
@@ -8687,6 +9196,7 @@
         "index": {
           "description": "Runtime dictionary for unstatic lookups",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "RemoteTable",
           "package": "distributed-process",
@@ -8701,6 +9211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe send send of a typed channel (serializable)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "SendPort",
           "package": "distributed-process",
@@ -8710,6 +9221,7 @@
         "index": {
           "description": "The send send of typed channel serializable",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "SendPort",
           "package": "distributed-process",
@@ -8724,6 +9236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA send port is identified by a SendPortId.\n\u003c/p\u003e\u003cp\u003eYou cannot send directly to a SendPortId; instead, use \u003ccode\u003enewChan\u003c/code\u003e\n to create a SendPort.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "SendPortId",
           "package": "distributed-process",
@@ -8733,6 +9246,7 @@
         "index": {
           "description": "send port is identified by SendPortId You cannot send directly to SendPortId instead use newChan to create SendPort",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "SendPortId",
           "package": "distributed-process",
@@ -8747,6 +9261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSpawnRef\u003c/a\u003e\u003c/code\u003e are used to return pids of spawned processes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "SpawnRef",
           "package": "distributed-process",
@@ -8756,6 +9271,7 @@
         "index": {
           "description": "SpawnRef are used to return pids of spawned processes",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "SpawnRef",
           "package": "distributed-process",
@@ -8770,6 +9286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA static value. Static is opaque; see \u003ccode\u003e\u003ca\u003estaticLabel\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003estaticApply\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "Static",
           "package": "distributed-process",
@@ -8778,6 +9295,7 @@
         "index": {
           "description": "static value Static is opaque see staticLabel and staticApply",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "Static",
           "package": "distributed-process",
@@ -8792,6 +9310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Asynchronous) reply from \u003ccode\u003ewhereis\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "WhereIsReply",
           "package": "distributed-process",
@@ -8801,6 +9320,7 @@
         "index": {
           "description": "Asynchronous reply from whereis",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "WhereIsReply",
           "package": "distributed-process",
@@ -8815,6 +9335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a process remotely and wait for it to reply\n\u003c/p\u003e\u003cp\u003eWe monitor the remote process: if it dies before it can send a reply, we die\n too.\n\u003c/p\u003e\u003cp\u003eFor more information about \u003ccode\u003e\u003ca\u003eStatic\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eSerializableDict\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eClosure\u003c/a\u003e\u003c/code\u003e, see\n \u003ca\u003eControl.Distributed.Process.Closure\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003espawn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "call",
           "package": "distributed-process",
@@ -8825,6 +9346,7 @@
         "index": {
           "description": "Run process remotely and wait for it to reply We monitor the remote process if it dies before it can send reply we die too For more information about Static SerializableDict and Closure see Control.Distributed.Process.Closure See also spawn",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "call",
           "normalized": "Static(SerializableDict a)-\u003eNodeId-\u003eClosure(Process a)-\u003eProcess a",
@@ -8839,6 +9361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "closure",
           "package": "distributed-process",
@@ -8847,6 +9370,7 @@
         },
         "index": {
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "closure",
           "normalized": "Static(ByteString-\u003ea)-\u003eByteString-\u003eClosure a",
@@ -8862,6 +9386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "liftIO",
           "package": "distributed-process",
@@ -8871,6 +9396,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -8887,6 +9413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ID of the node the process is running on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "processNodeId",
           "package": "distributed-process",
@@ -8897,6 +9424,7 @@
         "index": {
           "description": "The ID of the node the process is running on",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "processNodeId",
           "normalized": "ProcessId-\u003eNodeId",
@@ -8913,6 +9441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (unique) ID of this send port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "sendPortId",
           "package": "distributed-process",
@@ -8923,6 +9452,7 @@
         "index": {
           "description": "The unique ID of this send port",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "sendPortId",
           "normalized": "SendPort a-\u003eSendPortId",
@@ -8939,6 +9469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ID of the process that will receive messages sent on this port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "sendPortProcessId",
           "package": "distributed-process",
@@ -8949,6 +9480,7 @@
         "index": {
           "description": "The ID of the process that will receive messages sent on this port",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "sendPortProcessId",
           "normalized": "SendPortId-\u003eProcessId",
@@ -8965,6 +9497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpawn a process\n\u003c/p\u003e\u003cp\u003eFor more information about \u003ccode\u003e\u003ca\u003eClosure\u003c/a\u003e\u003c/code\u003e, see\n \u003ca\u003eControl.Distributed.Process.Closure\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003ecall\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "spawn",
           "package": "distributed-process",
@@ -8975,6 +9508,7 @@
         "index": {
           "description": "Spawn process For more information about Closure see Control.Distributed.Process.Closure See also call",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "spawn",
           "normalized": "NodeId-\u003eClosure(Process())-\u003eProcess ProcessId",
@@ -8990,6 +9524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpawn a new process, supplying it with a new \u003ccode\u003e\u003ca\u003eReceivePort\u003c/a\u003e\u003c/code\u003e and return\n the corresponding \u003ccode\u003e\u003ca\u003eSendPort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "spawnChannel",
           "package": "distributed-process",
@@ -9000,6 +9535,7 @@
         "index": {
           "description": "Spawn new process supplying it with new ReceivePort and return the corresponding SendPort",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "spawnChannel",
           "normalized": "Static(SerializableDict a)-\u003eNodeId-\u003eClosure(ReceivePort a-\u003eProcess())-\u003eProcess(SendPort a)",
@@ -9016,6 +9552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new typed channel, spawn a process on the local node, passing it\n the receive port, and return the send port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "spawnChannelLocal",
           "package": "distributed-process",
@@ -9026,6 +9563,7 @@
         "index": {
           "description": "Create new typed channel spawn process on the local node passing it the receive port and return the send port",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "spawnChannelLocal",
           "normalized": "(ReceivePort a-\u003eProcess())-\u003eProcess(SendPort a)",
@@ -9042,6 +9580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpawn a process and link to it\n\u003c/p\u003e\u003cp\u003eNote that this is just the sequential composition of \u003ccode\u003e\u003ca\u003espawn\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elink\u003c/a\u003e\u003c/code\u003e.\n (The \u003ca\u003eUnified\u003c/a\u003e semantics that underlies Cloud Haskell does not even support\n a synchronous link operation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "spawnLink",
           "package": "distributed-process",
@@ -9052,6 +9591,7 @@
         "index": {
           "description": "Spawn process and link to it Note that this is just the sequential composition of spawn and link The Unified semantics that underlies Cloud Haskell does not even support synchronous link operation",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "spawnLink",
           "normalized": "NodeId-\u003eClosure(Process())-\u003eProcess ProcessId",
@@ -9068,6 +9608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpawn a process on the local node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "spawnLocal",
           "package": "distributed-process",
@@ -9078,6 +9619,7 @@
         "index": {
           "description": "Spawn process on the local node",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "spawnLocal",
           "normalized": "Process()-\u003eProcess ProcessId",
@@ -9094,6 +9636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003espawnLink\u003c/a\u003e\u003c/code\u003e, but monitor the spawned process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "spawnMonitor",
           "package": "distributed-process",
@@ -9104,6 +9647,7 @@
         "index": {
           "description": "Like spawnLink but monitor the spawned process",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "spawnMonitor",
           "normalized": "NodeId-\u003eClosure(Process())-\u003eProcess(ProcessId,MonitorRef)",
@@ -9120,6 +9664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpawn a child process, have the child link to the parent and the parent\n monitor the child\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:02 UTC 2014",
           "module": "Control.Distributed.Process",
           "name": "spawnSupervised",
           "package": "distributed-process",
@@ -9130,6 +9675,7 @@
         "index": {
           "description": "Spawn child process have the child link to the parent and the parent monitor the child",
           "hierarchy": "Control Distributed Process",
+          "indexed": "2014-03-11T17:57:02",
           "module": "Control.Distributed.Process",
           "name": "spawnSupervised",
           "normalized": "NodeId-\u003eClosure(Process())-\u003eProcess(ProcessId,MonitorRef)",

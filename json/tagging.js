@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tagging"
+        "phrase": "tagging",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "Tag",
           "package": "tagging",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "Tag",
           "package": "tagging",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "RegexStr",
           "package": "tagging",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "RegexStr",
           "package": "tagging",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "Rules",
           "package": "tagging",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "Rules",
           "package": "tagging",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "Str",
           "package": "tagging",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "Str",
           "package": "tagging",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "Tag",
           "package": "tagging",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "Tag",
           "package": "tagging",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "Tagged",
           "package": "tagging",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "Tagged",
           "package": "tagging",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "allTags",
           "package": "tagging",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "allTags",
           "normalized": "Rules-\u003e[Tag]",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "getTags",
           "package": "tagging",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "getTags",
           "normalized": "[PCREExecOption]-\u003eRules-\u003eStr-\u003e[Tag]",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "hasTag",
           "package": "tagging",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "hasTag",
           "normalized": "Tag-\u003e(a,[Tag])-\u003eBool",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "mkRules",
           "package": "tagging",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "mkRules",
           "normalized": "[PCREOption]-\u003e[(RegexStr,[Tag])]-\u003eRules",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "mkTaggedWrt",
           "package": "tagging",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "mkTaggedWrt",
           "normalized": "[PCREExecOption]-\u003eRules-\u003e[a]-\u003e(a-\u003eStr)-\u003eTagged a",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "untagged",
           "package": "tagging",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "untagged",
           "normalized": "Tagged a-\u003e[a]",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "unusedTags",
           "package": "tagging",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "unusedTags",
           "normalized": "Rules-\u003eTagged a-\u003e[Tag]",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "usedTags",
           "package": "tagging",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "usedTags",
           "normalized": "Tagged a-\u003e[Tag]",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "withAnyTag",
           "package": "tagging",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "withAnyTag",
           "normalized": "[Tag]-\u003eTagged a-\u003eTagged a",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "withTag",
           "package": "tagging",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "withTag",
           "normalized": "Tag-\u003eTagged a-\u003eTagged a",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:37 UTC 2014",
           "module": "Data.Tag",
           "name": "withoutTag",
           "package": "tagging",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Data Tag",
+          "indexed": "2014-03-11T20:16:37",
           "module": "Data.Tag",
           "name": "withoutTag",
           "normalized": "Tag-\u003eTagged a-\u003eTagged a",

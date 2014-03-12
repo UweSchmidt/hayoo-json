@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "flower"
+        "phrase": "flower",
+        "type": "phrase"
       },
       "type": "context"
     }

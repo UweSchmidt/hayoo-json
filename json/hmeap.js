@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmeap"
+        "phrase": "hmeap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMeapsoft analysis data input.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "Data",
           "package": "hmeap",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Meapsoft analysis data input",
           "hierarchy": "Sound Analysis Meapsoft Data",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "Data",
           "package": "hmeap",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "Meap_Data",
           "package": "hmeap",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Meapsoft Data",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "Meap_Data",
           "package": "hmeap",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "meap_data_index",
           "package": "hmeap",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Meapsoft Data",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "meap_data_index",
           "normalized": "UArray(Int,Int)a-\u003e(Int,Int)-\u003ea",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "meap_data_uarray",
           "package": "hmeap",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Meapsoft Data",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "meap_data_uarray",
           "normalized": "Int-\u003eInt-\u003e[a]-\u003eUArray(Int,Int)a",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the number of columns, reads an entire MEAPsoft data set\n   into a list and returns the data paired with the number of rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "read_data",
           "package": "hmeap",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Given the number of columns reads an entire MEAPsoft data set into list and returns the data paired with the number of rows",
           "hierarchy": "Sound Analysis Meapsoft Data",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "read_data",
           "normalized": "FilePath-\u003eInt-\u003eIO(Int,[a])",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "read_inf",
           "package": "hmeap",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Meapsoft Data",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "read_inf",
           "normalized": "String-\u003ea",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "to_f",
           "package": "hmeap",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Meapsoft Data",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Data",
           "name": "to_f",
           "normalized": "ByteString-\u003ea",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMeapsoft analysis data structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "Header",
           "package": "hmeap",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Meapsoft analysis data structure",
           "hierarchy": "Sound Analysis Meapsoft Header",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "Header",
           "package": "hmeap",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing a MEAPsoft analysis feature.  The\n   \u003ccode\u003e\u003ca\u003efeature_column\u003c/a\u003e\u003c/code\u003e is the integer column index for the feature in\n   the analysis data.  The \u003ccode\u003e\u003ca\u003efeature_degree\u003c/a\u003e\u003c/code\u003e is the number of columns\n   the feature requires.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "Feature",
           "package": "hmeap",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Data type representing MEAPsoft analysis feature The feature column is the integer column index for the feature in the analysis data The feature degree is the number of columns the feature requires",
           "hierarchy": "Sound Analysis Meapsoft Header",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "Feature",
           "package": "hmeap",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "Feature",
           "package": "hmeap",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Meapsoft Header",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "Feature",
           "package": "hmeap",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "feature_column",
           "package": "hmeap",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Meapsoft Header",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "feature_column",
           "package": "hmeap",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "feature_degree",
           "package": "hmeap",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Meapsoft Header",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "feature_degree",
           "package": "hmeap",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "feature_name",
           "package": "hmeap",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Meapsoft Header",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "feature_name",
           "package": "hmeap",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for a named feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "find_feature",
           "package": "hmeap",
@@ -321,6 +348,7 @@
         "index": {
           "description": "Search for named feature",
           "hierarchy": "Sound Analysis Meapsoft Header",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "find_feature",
           "normalized": "String-\u003e[Feature]-\u003eMaybe Feature",
@@ -336,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the analysis data contains the named feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "has_feature",
           "package": "hmeap",
@@ -346,6 +375,7 @@
         "index": {
           "description": "True iff the analysis data contains the named feature",
           "hierarchy": "Sound Analysis Meapsoft Header",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "has_feature",
           "normalized": "String-\u003e[Feature]-\u003eBool",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the header of a MEAPsoft analysis file and extract the list\n   of stored features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "read_header",
           "package": "hmeap",
@@ -371,6 +402,7 @@
         "index": {
           "description": "Read the header of MEAPsoft analysis file and extract the list of stored features",
           "hierarchy": "Sound Analysis Meapsoft Header",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "read_header",
           "normalized": "FilePath-\u003eIO(Either String[Feature])",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003efind_feature\u003c/a\u003e\u003c/code\u003e that raises an error if the feature\n   is not located.  All analysis files have the features onset_time\n   and chunk_length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "required_feature",
           "package": "hmeap",
@@ -396,6 +429,7 @@
         "index": {
           "description": "variant of find feature that raises an error if the feature is not located All analysis files have the features onset time and chunk length",
           "hierarchy": "Sound Analysis Meapsoft Header",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Header",
           "name": "required_feature",
           "normalized": "String-\u003e[Feature]-\u003eFeature",
@@ -411,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions related to meapsoft analysis measures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Measure",
           "name": "Measure",
           "package": "hmeap",
@@ -420,6 +455,7 @@
         "index": {
           "description": "Functions related to meapsoft analysis measures",
           "hierarchy": "Sound Analysis Meapsoft Measure",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Measure",
           "name": "Measure",
           "package": "hmeap",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCycles per second to ERB conversion, see Glasberg & Moore, 1990, p. 114.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Measure",
           "name": "cps_erb",
           "package": "hmeap",
@@ -444,6 +481,7 @@
         "index": {
           "description": "Cycles per second to ERB conversion see Glasberg Moore",
           "hierarchy": "Sound Analysis Meapsoft Measure",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Measure",
           "name": "cps_erb",
           "normalized": "a-\u003ea",
@@ -459,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCycles per second to MEL conversion, see Stevens & Volkman, 1940.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Measure",
           "name": "cps_mel",
           "package": "hmeap",
@@ -469,6 +508,7 @@
         "index": {
           "description": "Cycles per second to MEL conversion see Stevens Volkman",
           "hierarchy": "Sound Analysis Meapsoft Measure",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Measure",
           "name": "cps_mel",
           "normalized": "a-\u003ea",
@@ -484,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMEL to cycles per second conversion, see Stevens & Volkman, 1940.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft.Measure",
           "name": "mel_cps",
           "package": "hmeap",
@@ -494,6 +535,7 @@
         "index": {
           "description": "MEL to cycles per second conversion see Stevens Volkman",
           "hierarchy": "Sound Analysis Meapsoft Measure",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft.Measure",
           "name": "mel_cps",
           "normalized": "a-\u003ea",
@@ -509,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData representation and parser for MEAPsoft analysis frames.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft",
           "name": "Meapsoft",
           "package": "hmeap",
@@ -518,6 +561,7 @@
         "index": {
           "description": "Data representation and parser for MEAPsoft analysis frames",
           "hierarchy": "Sound Analysis Meapsoft",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft",
           "name": "Meapsoft",
           "package": "hmeap",
@@ -532,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing a MEAPsoft anaylsis file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft",
           "name": "MEAP",
           "package": "hmeap",
@@ -541,6 +586,7 @@
         "index": {
           "description": "Data type representing MEAPsoft anaylsis file",
           "hierarchy": "Sound Analysis Meapsoft",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft",
           "name": "MEAP",
           "package": "hmeap",
@@ -555,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the indicated column as a list.  The length of the column\n is the \u003ccode\u003e\u003ca\u003en_frames\u003c/a\u003e\u003c/code\u003e of the analysis file.\n\u003c/p\u003e\u003cpre\u003e length (column_l m 0) == n_frames m\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft",
           "name": "column_l",
           "package": "hmeap",
@@ -565,6 +612,7 @@
         "index": {
           "description": "Extract the indicated column as list The length of the column is the frames of the analysis file length column frames",
           "hierarchy": "Sound Analysis Meapsoft",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft",
           "name": "column_l",
           "normalized": "MEAP a-\u003eInt-\u003e[a]",
@@ -580,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of feature names generated by MEAPsoft 2.0.\n\u003c/p\u003e\u003cpre\u003e map (`elem` feature_names) [\"onset_time\",\"chunk_length\"] == [True,True]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft",
           "name": "feature_names",
           "package": "hmeap",
@@ -590,6 +639,7 @@
         "index": {
           "description": "The list of feature names generated by MEAPsoft map elem feature names onset time chunk length True True",
           "hierarchy": "Sound Analysis Meapsoft",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft",
           "name": "feature_names",
           "normalized": "[String]",
@@ -605,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of \u003ccode\u003e\u003ca\u003eFeature\u003c/a\u003e\u003c/code\u003es contained in the\n   analysis file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft",
           "name": "features",
           "package": "hmeap",
@@ -615,6 +666,7 @@
         "index": {
           "description": "The list of Feature contained in the analysis file",
           "hierarchy": "Sound Analysis Meapsoft",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft",
           "name": "features",
           "normalized": "MEAP a-\u003e[Feature]",
@@ -630,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the indicated frame (row) as a list.\n\u003c/p\u003e\u003cpre\u003e length (frame_l m 0) == n_columns m\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft",
           "name": "frame_l",
           "package": "hmeap",
@@ -640,6 +693,7 @@
         "index": {
           "description": "Extract the indicated frame row as list length frame columns",
           "hierarchy": "Sound Analysis Meapsoft",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft",
           "name": "frame_l",
           "normalized": "MEAP a-\u003eInt-\u003e[a]",
@@ -655,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of columns at each analysis frame (row).  Segmentation\n files have two columns, onset time and segment length.\n\u003c/p\u003e\u003cpre\u003e n_columns m == 2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft",
           "name": "n_columns",
           "package": "hmeap",
@@ -665,6 +720,7 @@
         "index": {
           "description": "The number of columns at each analysis frame row Segmentation files have two columns onset time and segment length columns",
           "hierarchy": "Sound Analysis Meapsoft",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft",
           "name": "n_columns",
           "normalized": "MEAP a-\u003eInt",
@@ -680,6 +736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of frames (rows) contained in the\n   analysis file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft",
           "name": "n_frames",
           "package": "hmeap",
@@ -690,6 +747,7 @@
         "index": {
           "description": "The number of frames rows contained in the analysis file",
           "hierarchy": "Sound Analysis Meapsoft",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft",
           "name": "n_frames",
           "normalized": "MEAP a-\u003eInt",
@@ -705,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract data from the indicated frame and column.\n\u003c/p\u003e\u003cpre\u003e position m (0,0) == frame_l m 0 !! 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft",
           "name": "position",
           "package": "hmeap",
@@ -715,6 +774,7 @@
         "index": {
           "description": "Extract data from the indicated frame and column position frame",
           "hierarchy": "Sound Analysis Meapsoft",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft",
           "name": "position",
           "normalized": "MEAP a-\u003e(Int,Int)-\u003ea",
@@ -730,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a MEAPsoft analysis file, either a segmentation file or a\n   feature file.\n\u003c/p\u003e\u003cpre\u003e Right m \u003c- read_meap \"/home/rohan/data/audio/jonchaies.wav.seg\"\n map feature_name (features m) == [\"onset_time\",\"chunk_length\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft",
           "name": "read_meap",
           "package": "hmeap",
@@ -740,6 +801,7 @@
         "index": {
           "description": "Load MEAPsoft analysis file either segmentation file or feature file Right read meap home rohan data audio jonchaies.wav.seg map feature name features onset time chunk length",
           "hierarchy": "Sound Analysis Meapsoft",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft",
           "name": "read_meap",
           "normalized": "FilePath-\u003eIO(Either String(MEAP a))",
@@ -755,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract segmentation data as a list.  The segmentation data is\n   given by the two columns onset_time and chunk_length.\n\u003c/p\u003e\u003cpre\u003e length (segments_l m) == n_frames m\n segments_l m !! 0 == (\\[i,j] -\u003e (i,j)) (frame_l m 0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft",
           "name": "segments_l",
           "package": "hmeap",
@@ -765,6 +828,7 @@
         "index": {
           "description": "Extract segmentation data as list The segmentation data is given by the two columns onset time and chunk length length segments frames segments frame",
           "hierarchy": "Sound Analysis Meapsoft",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft",
           "name": "segments_l",
           "normalized": "MEAP a-\u003e[(a,a)]",
@@ -780,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe analysis data stored in a \u003ccode\u003e\u003ca\u003eUArray\u003c/a\u003e\u003c/code\u003e.\n   Indices are of the form (row, column).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:12 UTC 2014",
           "module": "Sound.Analysis.Meapsoft",
           "name": "uarray_data",
           "package": "hmeap",
@@ -790,6 +855,7 @@
         "index": {
           "description": "The analysis data stored in UArray Indices are of the form row column",
           "hierarchy": "Sound Analysis Meapsoft",
+          "indexed": "2014-03-11T18:42:12",
           "module": "Sound.Analysis.Meapsoft",
           "name": "uarray_data",
           "normalized": "MEAP a-\u003eUArray(Int,Int)a",

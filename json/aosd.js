@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aosd"
+        "phrase": "aosd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRaw bindings.\n\u003c/p\u003e\u003cp\u003eNote: The \u003ccode\u003eCairo\u003c/code\u003e type (C \u003ccode\u003ecairo_t*\u003c/code\u003e) is from \u003ca\u003eGraphics.Rendering.Cairo.Types\u003c/a\u003e, whose haddock is (as of writing) hidden\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "AOSD_H",
           "package": "aosd",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Raw bindings Note The Cairo type cairo is from Graphics.Rendering.Cairo.Types whose haddock is as of writing hidden",
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "AOSD_H",
           "package": "aosd",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'Aosd",
           "package": "aosd",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'Aosd",
           "package": "aosd",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'AosdCoordinate",
           "package": "aosd",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'AosdCoordinate",
           "package": "aosd",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'AosdMouseEvent",
           "package": "aosd",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'AosdMouseEvent",
           "package": "aosd",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'AosdMouseEventCb",
           "package": "aosd",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'AosdMouseEventCb",
           "package": "aosd",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'AosdRenderer",
           "package": "aosd",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'AosdRenderer",
           "package": "aosd",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'AosdTransparency",
           "package": "aosd",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'AosdTransparency",
           "package": "aosd",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'XClassHint",
           "package": "aosd",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'XClassHint",
           "package": "aosd",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'Aosd",
           "package": "aosd",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'Aosd",
           "package": "aosd",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'AosdMouseEvent",
           "package": "aosd",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'AosdMouseEvent",
           "package": "aosd",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'XClassHint",
           "package": "aosd",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "C'XClassHint",
           "package": "aosd",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'AosdMouseEvent'button",
           "package": "aosd",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'AosdMouseEvent'button",
           "package": "aosd",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'AosdMouseEvent'time",
           "package": "aosd",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'AosdMouseEvent'time",
           "package": "aosd",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'AosdMouseEvent'x",
           "package": "aosd",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'AosdMouseEvent'x",
           "package": "aosd",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'AosdMouseEvent'x_root",
           "package": "aosd",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'AosdMouseEvent'x_root",
           "package": "aosd",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'AosdMouseEvent'y",
           "package": "aosd",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'AosdMouseEvent'y",
           "package": "aosd",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'AosdMouseEvent'y_root",
           "package": "aosd",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'AosdMouseEvent'y_root",
           "package": "aosd",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'COORDINATE_CENTER",
           "package": "aosd",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'COORDINATE_CENTER",
           "package": "aosd",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'COORDINATE_MAXIMUM",
           "package": "aosd",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'COORDINATE_MAXIMUM",
           "package": "aosd",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'COORDINATE_MINIMUM",
           "package": "aosd",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'COORDINATE_MINIMUM",
           "package": "aosd",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'TRANSPARENCY_COMPOSITE",
           "package": "aosd",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'TRANSPARENCY_COMPOSITE",
           "package": "aosd",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'TRANSPARENCY_FAKE",
           "package": "aosd",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'TRANSPARENCY_FAKE",
           "package": "aosd",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'TRANSPARENCY_NONE",
           "package": "aosd",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'TRANSPARENCY_NONE",
           "package": "aosd",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'XClassHint'res_class",
           "package": "aosd",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'XClassHint'res_class",
           "package": "aosd",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'XClassHint'res_name",
           "package": "aosd",
@@ -549,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'XClassHint'res_name",
           "package": "aosd",
@@ -562,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_destroy",
           "package": "aosd",
@@ -571,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_destroy",
           "normalized": "Ptr C'Aosd-\u003eIO()",
@@ -585,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_flash",
           "package": "aosd",
@@ -594,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_flash",
           "normalized": "Ptr C'Aosd-\u003eCUInt-\u003eCUInt-\u003eCUInt-\u003eIO()",
@@ -608,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_hide",
           "package": "aosd",
@@ -617,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_hide",
           "normalized": "Ptr C'Aosd-\u003eIO()",
@@ -631,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_loop_for",
           "package": "aosd",
@@ -640,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_loop_for",
           "normalized": "Ptr C'Aosd-\u003eCUInt-\u003eIO()",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_loop_once",
           "package": "aosd",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_loop_once",
           "normalized": "Ptr C'Aosd-\u003eIO()",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_new",
           "package": "aosd",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_new",
           "package": "aosd",
@@ -698,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_render",
           "package": "aosd",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_render",
           "normalized": "Ptr C'Aosd-\u003eIO()",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_geometry",
           "package": "aosd",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_geometry",
           "normalized": "Ptr C'Aosd-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_hide_upon_mouse_event",
           "package": "aosd",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_hide_upon_mouse_event",
           "normalized": "Ptr C'Aosd-\u003eCInt-\u003eIO()",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_mouse_event_cb",
           "package": "aosd",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_mouse_event_cb",
           "normalized": "Ptr C'Aosd-\u003eC'AosdMouseEventCb-\u003ePtr()-\u003eIO()",
@@ -790,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_name",
           "package": "aosd",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_name",
           "normalized": "Ptr C'Aosd-\u003ePtr C'XClassHint-\u003eIO()",
@@ -813,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_names",
           "package": "aosd",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_names",
           "normalized": "Ptr C'Aosd-\u003eCString-\u003eCString-\u003eIO()",
@@ -836,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_position",
           "package": "aosd",
@@ -845,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_position",
           "normalized": "Ptr C'Aosd-\u003eCUInt-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -859,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_position_offset",
           "package": "aosd",
@@ -868,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_position_offset",
           "normalized": "Ptr C'Aosd-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -882,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_position_with_offset",
           "package": "aosd",
@@ -891,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_position_with_offset",
           "normalized": "Ptr C'Aosd-\u003eC'AosdCoordinate-\u003eC'AosdCoordinate-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_renderer",
           "package": "aosd",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_renderer",
           "normalized": "Ptr C'Aosd-\u003eC'AosdRenderer-\u003ePtr()-\u003eIO()",
@@ -928,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_transparency",
           "package": "aosd",
@@ -937,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_set_transparency",
           "normalized": "Ptr C'Aosd-\u003eC'AosdTransparency-\u003eIO()",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_show",
           "package": "aosd",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "c'aosd_show",
           "normalized": "Ptr C'Aosd-\u003eIO()",
@@ -974,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "mK'AosdMouseEventCb",
           "package": "aosd",
@@ -983,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "mK'AosdMouseEventCb",
           "normalized": "C'AosdMouseEventCb-\u003ePtr C'AosdMouseEvent-\u003ePtr()-\u003eIO()",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "mK'AosdRenderer",
           "package": "aosd",
@@ -1007,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "mK'AosdRenderer",
           "normalized": "C'AosdRenderer-\u003eCairo-\u003ePtr()-\u003eIO()",
@@ -1022,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "mk'AosdMouseEventCb",
           "package": "aosd",
@@ -1031,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "mk'AosdMouseEventCb",
           "normalized": "(Ptr C'AosdMouseEvent-\u003ePtr()-\u003eIO())-\u003eIO C'AosdMouseEventCb",
@@ -1046,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "mk'AosdRenderer",
           "package": "aosd",
@@ -1055,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "mk'AosdRenderer",
           "normalized": "(Cairo-\u003ePtr()-\u003eIO())-\u003eIO C'AosdRenderer",
@@ -1070,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'AosdMouseEvent'button",
           "package": "aosd",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'AosdMouseEvent'button",
           "normalized": "Ptr C'AosdMouseEvent-\u003ePtr CUInt",
@@ -1094,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'AosdMouseEvent'time",
           "package": "aosd",
@@ -1103,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'AosdMouseEvent'time",
           "normalized": "Ptr C'AosdMouseEvent-\u003ePtr CULong",
@@ -1118,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'AosdMouseEvent'x",
           "package": "aosd",
@@ -1127,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'AosdMouseEvent'x",
           "normalized": "Ptr C'AosdMouseEvent-\u003ePtr CInt",
@@ -1142,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'AosdMouseEvent'x_root",
           "package": "aosd",
@@ -1151,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'AosdMouseEvent'x_root",
           "normalized": "Ptr C'AosdMouseEvent-\u003ePtr CInt",
@@ -1166,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'AosdMouseEvent'y",
           "package": "aosd",
@@ -1175,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'AosdMouseEvent'y",
           "normalized": "Ptr C'AosdMouseEvent-\u003ePtr CInt",
@@ -1190,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'AosdMouseEvent'y_root",
           "package": "aosd",
@@ -1199,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'AosdMouseEvent'y_root",
           "normalized": "Ptr C'AosdMouseEvent-\u003ePtr CInt",
@@ -1214,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'XClassHint'res_class",
           "package": "aosd",
@@ -1223,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'XClassHint'res_class",
           "normalized": "Ptr C'XClassHint-\u003ePtr CString",
@@ -1238,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'XClassHint'res_name",
           "package": "aosd",
@@ -1247,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'XClassHint'res_name",
           "normalized": "Ptr C'XClassHint-\u003ePtr CString",
@@ -1262,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_destroy",
           "package": "aosd",
@@ -1271,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_destroy",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eIO())",
@@ -1285,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_flash",
           "package": "aosd",
@@ -1294,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_flash",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eCUInt-\u003eCUInt-\u003eCUInt-\u003eIO())",
@@ -1308,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_hide",
           "package": "aosd",
@@ -1317,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_hide",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eIO())",
@@ -1331,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_loop_for",
           "package": "aosd",
@@ -1340,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_loop_for",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eCUInt-\u003eIO())",
@@ -1354,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_loop_once",
           "package": "aosd",
@@ -1363,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_loop_once",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eIO())",
@@ -1377,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_new",
           "package": "aosd",
@@ -1386,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_new",
           "package": "aosd",
@@ -1398,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_render",
           "package": "aosd",
@@ -1407,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_render",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eIO())",
@@ -1421,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_geometry",
           "package": "aosd",
@@ -1430,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_geometry",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO())",
@@ -1444,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_hide_upon_mouse_event",
           "package": "aosd",
@@ -1453,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_hide_upon_mouse_event",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eCInt-\u003eIO())",
@@ -1467,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_mouse_event_cb",
           "package": "aosd",
@@ -1476,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_mouse_event_cb",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eC'AosdMouseEventCb-\u003ePtr()-\u003eIO())",
@@ -1490,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_name",
           "package": "aosd",
@@ -1499,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_name",
           "normalized": "FunPtr(Ptr C'Aosd-\u003ePtr C'XClassHint-\u003eIO())",
@@ -1513,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_names",
           "package": "aosd",
@@ -1522,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_names",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eCString-\u003eCString-\u003eIO())",
@@ -1536,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_position",
           "package": "aosd",
@@ -1545,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_position",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eCUInt-\u003eCInt-\u003eCInt-\u003eIO())",
@@ -1559,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_position_offset",
           "package": "aosd",
@@ -1568,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_position_offset",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eCInt-\u003eCInt-\u003eIO())",
@@ -1582,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_position_with_offset",
           "package": "aosd",
@@ -1591,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_position_with_offset",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eC'AosdCoordinate-\u003eC'AosdCoordinate-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO())",
@@ -1605,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_renderer",
           "package": "aosd",
@@ -1614,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_renderer",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eC'AosdRenderer-\u003ePtr()-\u003eIO())",
@@ -1628,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_transparency",
           "package": "aosd",
@@ -1637,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_set_transparency",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eC'AosdTransparency-\u003eIO())",
@@ -1651,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_show",
           "package": "aosd",
@@ -1660,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd AOSD_H",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.AOSD_H",
           "name": "p'aosd_show",
           "normalized": "FunPtr(Ptr C'Aosd-\u003eIO())",
@@ -1674,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "Pango",
           "package": "aosd",
@@ -1682,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "Pango",
           "package": "aosd",
@@ -1696,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate to which side incomplete lines are flushed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "LayoutAlignment",
           "package": "aosd",
@@ -1704,6 +1853,7 @@
         "index": {
           "description": "Enumerate to which side incomplete lines are flushed",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "LayoutAlignment",
           "package": "aosd",
@@ -1718,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates how a line can be wrapped.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eWrapWholeWords\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Breaks lines only between words.\n\u003c/dd\u003e\u003c/dl\u003e\u003cul\u003e\u003cli\u003e This variant does not guarantee that the requested width is not\n exceeded. A word that is longer than the paragraph width is not\n split.\n\u003c/li\u003e\u003c/ul\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eWrapAnywhere\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Break lines anywhere.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eWrapPartialWords\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Wrap within a word if it is the only one on\n this line.\n\u003c/dd\u003e\u003c/dl\u003e\u003cul\u003e\u003cli\u003e This option acts like \u003ccode\u003e\u003ca\u003eWrapWholeWords\u003c/a\u003e\u003c/code\u003e but will split\n a word if it is the only one on this line and it exceeds the\n specified width.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "LayoutWrapMode",
           "package": "aosd",
@@ -1726,6 +1877,7 @@
         "index": {
           "description": "Enumerates how line can be wrapped WrapWholeWords Breaks lines only between words This variant does not guarantee that the requested width is not exceeded word that is longer than the paragraph width is not split WrapAnywhere Break lines anywhere WrapPartialWords Wrap within word if it is the only one on this line This option acts like WrapWholeWords but will split word if it is the only one on this line and it exceeds the specified width",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "LayoutWrapMode",
           "package": "aosd",
@@ -1740,6 +1892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain text or some Pango markup. Suggestion: Use {-# LANGUAGE OverloadedStrings #-}.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "PangoText",
           "package": "aosd",
@@ -1749,6 +1902,7 @@
         "index": {
           "description": "Plain text or some Pango markup Suggestion Use LANGUAGE OverloadedStrings",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "PangoText",
           "package": "aosd",
@@ -1763,6 +1917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine attributes for \u003ccode\u003eFontSize\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "Size",
           "package": "aosd",
@@ -1771,6 +1926,7 @@
         "index": {
           "description": "Define attributes for FontSize",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "Size",
           "package": "aosd",
@@ -1785,6 +1941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese are all the attributes the \u003ccode\u003e\u003ca\u003emarkSpan\u003c/a\u003e\u003c/code\u003e function can express.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "SpanAttribute",
           "package": "aosd",
@@ -1793,6 +1950,7 @@
         "index": {
           "description": "These are all the attributes the markSpan function can express",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "SpanAttribute",
           "package": "aosd",
@@ -1807,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Tab position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "TabPosition",
           "package": "aosd",
@@ -1815,6 +1974,7 @@
         "index": {
           "description": "Tab position",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "TabPosition",
           "package": "aosd",
@@ -1828,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "TextRenderer",
           "package": "aosd",
@@ -1836,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "TextRenderer",
           "package": "aosd",
@@ -1849,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "Width",
           "package": "aosd",
@@ -1857,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "Width",
           "package": "aosd",
@@ -1870,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "AlignCenter",
           "package": "aosd",
@@ -1878,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "AlignCenter",
           "package": "aosd",
@@ -1891,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "AlignLeft",
           "package": "aosd",
@@ -1899,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "AlignLeft",
           "package": "aosd",
@@ -1912,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "AlignRight",
           "package": "aosd",
@@ -1920,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "AlignRight",
           "package": "aosd",
@@ -1934,6 +2104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackground color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontBackground",
           "package": "aosd",
@@ -1943,6 +2114,7 @@
         "index": {
           "description": "Background color",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontBackground",
           "package": "aosd",
@@ -1957,6 +2129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose a font by textual description.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Takes a string to completely describe the font, example:\n \u003ccode\u003eFontDescr\u003c/code\u003e \"Sans Italic 12\"\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontDescr",
           "package": "aosd",
@@ -1966,6 +2139,7 @@
         "index": {
           "description": "Choose font by textual description Takes string to completely describe the font example FontDescr Sans Italic",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontDescr",
           "package": "aosd",
@@ -1980,6 +2154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the family of font to use.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Example: \u003ccode\u003eFontFamily\u003c/code\u003e \"Sans\"\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontFamily",
           "package": "aosd",
@@ -1989,6 +2164,7 @@
         "index": {
           "description": "Specify the family of font to use Example FontFamily Sans",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontFamily",
           "package": "aosd",
@@ -2003,6 +2179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForeground color.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e This constructor and \u003ccode\u003e\u003ca\u003eFontBackground\u003c/a\u003e\u003c/code\u003e take both a description\n of the color to be used for rendering. The name is either a\n hex code of the form \"#RRGGBB\" or an X11 color name like\n \"dark olive green\".\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontForeground",
           "package": "aosd",
@@ -2012,6 +2189,7 @@
         "index": {
           "description": "Foreground color This constructor and FontBackground take both description of the color to be used for rendering The name is either hex code of the form RRGGBB or an X11 color name like dark olive green",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontForeground",
           "package": "aosd",
@@ -2026,6 +2204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGravity of text, use for ratation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontGravity",
           "package": "aosd",
@@ -2035,6 +2214,7 @@
         "index": {
           "description": "Gravity of text use for ratation",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontGravity",
           "package": "aosd",
@@ -2049,6 +2229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntensity of gravity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontGravityHint",
           "package": "aosd",
@@ -2058,6 +2239,7 @@
         "index": {
           "description": "Intensity of gravity",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontGravityHint",
           "package": "aosd",
@@ -2072,6 +2254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive a hint about the language to be displayed.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e This hint might help the system rendering a particular piece of text\n with different fonts that are more suitable for the given language.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontLang",
           "package": "aosd",
@@ -2081,6 +2264,7 @@
         "index": {
           "description": "Give hint about the language to be displayed This hint might help the system rendering particular piece of text with different fonts that are more suitable for the given language",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontLang",
           "package": "aosd",
@@ -2095,6 +2279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify a vertical displacement.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Takes the vertical displacement in em (the width of the 'm' character\n in the current font).\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontRise",
           "package": "aosd",
@@ -2104,6 +2289,7 @@
         "index": {
           "description": "Specify vertical displacement Takes the vertical displacement in em the width of the character in the current font",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontRise",
           "package": "aosd",
@@ -2118,6 +2304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the size of the current font.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The constuctor takes the size in points (pt) or a predefined\n sizes. Setting the absolute size 12.5pt can be achieved by passing\n \u003ccode\u003e\u003ca\u003eFontSize\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003eSizePoint\u003c/code\u003e 12.5) to \u003ccode\u003e\u003ca\u003emarkSpan\u003c/a\u003e\u003c/code\u003e. Next to predefined\n absolute sizes such as \u003ccode\u003e\u003ca\u003eSizeSmall\u003c/a\u003e\u003c/code\u003e the size can be changed by\n asking for the next larger or smaller front with\n \u003ccode\u003e\u003ca\u003eSizeLarger\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSizeSmaller\u003c/a\u003e\u003c/code\u003e, respectively.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontSize",
           "package": "aosd",
@@ -2127,6 +2314,7 @@
         "index": {
           "description": "Change the size of the current font The constuctor takes the size in points pt or predefined sizes Setting the absolute size pt can be achieved by passing FontSize SizePoint to markSpan Next to predefined absolute sizes such as SizeSmall the size can be changed by asking for the next larger or smaller front with SizeLarger and SizeSmaller respectively",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontSize",
           "package": "aosd",
@@ -2141,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose a different width.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Takes one of nine font widths, e.g. \u003ccode\u003ePango.WidthExpanded\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontStretch",
           "package": "aosd",
@@ -2150,6 +2339,7 @@
         "index": {
           "description": "Choose different width Takes one of nine font widths e.g Pango.WidthExpanded",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontStretch",
           "package": "aosd",
@@ -2164,6 +2354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the slant of the current font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontStyle",
           "package": "aosd",
@@ -2173,6 +2364,7 @@
         "index": {
           "description": "Change the slant of the current font",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontStyle",
           "package": "aosd",
@@ -2187,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify underlining of text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontUnderline",
           "package": "aosd",
@@ -2196,6 +2389,7 @@
         "index": {
           "description": "Specify underlining of text",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontUnderline",
           "package": "aosd",
@@ -2210,6 +2404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoosing an alternative rendering for lower case letters.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The argument \u003ccode\u003e\u003ca\u003eVariantSmallCaps\u003c/a\u003e\u003c/code\u003e will display lower case letters\n as smaller upper case letters, if this option is available.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontVariant",
           "package": "aosd",
@@ -2219,6 +2414,7 @@
         "index": {
           "description": "Choosing an alternative rendering for lower case letters The argument VariantSmallCaps will display lower case letters as smaller upper case letters if this option is available",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontVariant",
           "package": "aosd",
@@ -2233,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the thickness of the current font.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The constructor takes one of the six predefined weights. Most likely to\n be supported: \u003ccode\u003e\u003ca\u003eWeightBold\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "FontWeight",
           "package": "aosd",
@@ -2242,6 +2439,7 @@
         "index": {
           "description": "Change the thickness of the current font The constructor takes one of the six predefined weights Most likely to be supported WeightBold",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "FontWeight",
           "package": "aosd",
@@ -2255,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeGiant",
           "package": "aosd",
@@ -2263,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeGiant",
           "package": "aosd",
@@ -2276,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeHuge",
           "package": "aosd",
@@ -2284,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeHuge",
           "package": "aosd",
@@ -2297,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeLarge",
           "package": "aosd",
@@ -2305,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeLarge",
           "package": "aosd",
@@ -2318,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeLarger",
           "package": "aosd",
@@ -2326,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeLarger",
           "package": "aosd",
@@ -2339,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeMedium",
           "package": "aosd",
@@ -2347,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeMedium",
           "package": "aosd",
@@ -2360,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "SizePoint",
           "package": "aosd",
@@ -2368,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "SizePoint",
           "package": "aosd",
@@ -2381,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeSmall",
           "package": "aosd",
@@ -2389,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeSmall",
           "package": "aosd",
@@ -2402,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeSmaller",
           "package": "aosd",
@@ -2410,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeSmaller",
           "package": "aosd",
@@ -2423,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeTiny",
           "package": "aosd",
@@ -2431,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeTiny",
           "package": "aosd",
@@ -2444,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeUnreadable",
           "package": "aosd",
@@ -2452,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "SizeUnreadable",
           "package": "aosd",
@@ -2465,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "TextRenderer",
           "package": "aosd",
@@ -2474,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "TextRenderer",
           "package": "aosd",
@@ -2488,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe layout will be as wide as necessary to hold all the lines without wrapping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "Unlimited",
           "package": "aosd",
@@ -2498,6 +2719,7 @@
         "index": {
           "description": "The layout will be as wide as necessary to hold all the lines without wrapping",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "Unlimited",
           "package": "aosd",
@@ -2512,6 +2734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe layout will be wrapped (according to \u003ccode\u003e\u003ca\u003ewrapMode\u003c/a\u003e\u003c/code\u003e) to the given width in Pango units \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "Width",
           "package": "aosd",
@@ -2522,6 +2745,7 @@
         "index": {
           "description": "The layout will be wrapped according to wrapMode to the given width in Pango units",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "Width",
           "package": "aosd",
@@ -2535,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "WrapAnywhere",
           "package": "aosd",
@@ -2543,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "WrapAnywhere",
           "package": "aosd",
@@ -2556,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "WrapPartialWords",
           "package": "aosd",
@@ -2564,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "WrapPartialWords",
           "package": "aosd",
@@ -2577,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "WrapWholeWords",
           "package": "aosd",
@@ -2585,6 +2814,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "WrapWholeWords",
           "package": "aosd",
@@ -2599,6 +2829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses \u003ccode\u003e\u003ca\u003elayoutSetAlignment\u003c/a\u003e\u003c/code\u003e if set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "alignment",
           "package": "aosd",
@@ -2609,6 +2840,7 @@
         "index": {
           "description": "Uses layoutSetAlignment if set",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "alignment",
           "package": "aosd",
@@ -2622,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHint: Use \u003ccode\u003e\u003ca\u003esRGB\u003c/a\u003e\u003c/code\u003e or \u003ca\u003eData.Colour.Names\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "colour",
           "package": "aosd",
@@ -2632,6 +2865,7 @@
         "index": {
           "description": "Hint Use sRGB or Data.Colour.Names",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "colour",
           "package": "aosd",
@@ -2645,6 +2879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses \u003ccode\u003e\u003ca\u003elayoutSetJustify\u003c/a\u003e\u003c/code\u003e if set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "justify",
           "package": "aosd",
@@ -2655,6 +2890,7 @@
         "index": {
           "description": "Uses layoutSetJustify if set",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "justify",
           "package": "aosd",
@@ -2668,6 +2904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses \u003ccode\u003e\u003ca\u003elayoutSetSpacing\u003c/a\u003e\u003c/code\u003e if set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "lineSpacing",
           "package": "aosd",
@@ -2678,6 +2915,7 @@
         "index": {
           "description": "Uses layoutSetSpacing if set",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "lineSpacing",
           "package": "aosd",
@@ -2692,6 +2930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0: Transparent, 1: Opaque.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "opacity",
           "package": "aosd",
@@ -2702,6 +2941,7 @@
         "index": {
           "description": "Transparent Opaque",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "opacity",
           "package": "aosd",
@@ -2714,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pBig",
           "package": "aosd",
@@ -2723,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pBig",
           "normalized": "PangoText-\u003ePangoText",
@@ -2738,6 +2980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pBold",
           "package": "aosd",
@@ -2747,6 +2990,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pBold",
           "normalized": "PangoText-\u003ePangoText",
@@ -2762,6 +3006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pEmpty",
           "package": "aosd",
@@ -2771,6 +3016,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pEmpty",
           "package": "aosd",
@@ -2784,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pIntercalate",
           "package": "aosd",
@@ -2793,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pIntercalate",
           "normalized": "PangoText-\u003e[PangoText]-\u003ePangoText",
@@ -2808,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pItalic",
           "package": "aosd",
@@ -2817,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pItalic",
           "normalized": "PangoText-\u003ePangoText",
@@ -2833,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonospace font\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pMono",
           "package": "aosd",
@@ -2843,6 +3094,7 @@
         "index": {
           "description": "Monospace font",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pMono",
           "normalized": "PangoText-\u003ePangoText",
@@ -2859,6 +3111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw Pango markup, see \u003ca\u003ehttp://developer.gnome.org/pango/stable/PangoMarkupFormat.html\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pRaw",
           "package": "aosd",
@@ -2869,6 +3122,7 @@
         "index": {
           "description": "Raw Pango markup see http developer.gnome.org pango stable PangoMarkupFormat.html",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pRaw",
           "normalized": "String-\u003ePangoText",
@@ -2884,6 +3138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pShow",
           "package": "aosd",
@@ -2893,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pShow",
           "normalized": "a-\u003ePangoText",
@@ -2909,6 +3165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet font size in points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pSized",
           "package": "aosd",
@@ -2919,6 +3176,7 @@
         "index": {
           "description": "Set font size in points",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pSized",
           "normalized": "Double-\u003ePangoText-\u003ePangoText",
@@ -2934,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pSmall",
           "package": "aosd",
@@ -2943,6 +3202,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pSmall",
           "normalized": "PangoText-\u003ePangoText",
@@ -2958,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pSpan",
           "package": "aosd",
@@ -2967,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pSpan",
           "normalized": "[SpanAttribute]-\u003ePangoText-\u003ePangoText",
@@ -2982,6 +3244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pStrikethrough",
           "package": "aosd",
@@ -2991,6 +3254,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pStrikethrough",
           "normalized": "PangoText-\u003ePangoText",
@@ -3007,6 +3271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubscript\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pSub",
           "package": "aosd",
@@ -3017,6 +3282,7 @@
         "index": {
           "description": "Subscript",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pSub",
           "normalized": "PangoText-\u003ePangoText",
@@ -3033,6 +3299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuperscript\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pSup",
           "package": "aosd",
@@ -3043,6 +3310,7 @@
         "index": {
           "description": "Superscript",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pSup",
           "normalized": "PangoText-\u003ePangoText",
@@ -3058,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pTag",
           "package": "aosd",
@@ -3066,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pTag",
           "normalized": "String-\u003ePangoText-\u003ePangoText",
@@ -3082,6 +3352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pText",
           "package": "aosd",
@@ -3092,6 +3363,7 @@
         "index": {
           "description": "Plain text",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pText",
           "normalized": "String-\u003ePangoText",
@@ -3108,6 +3380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnderline \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pUnderline",
           "package": "aosd",
@@ -3118,6 +3391,7 @@
         "index": {
           "description": "Underline",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pUnderline",
           "normalized": "PangoText-\u003ePangoText",
@@ -3133,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pUnlines",
           "package": "aosd",
@@ -3142,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pUnlines",
           "normalized": "[PangoText]-\u003ePangoText",
@@ -3157,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "pUnwords",
           "package": "aosd",
@@ -3166,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "pUnwords",
           "normalized": "[PangoText]-\u003ePangoText",
@@ -3182,6 +3460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a colour from an sRGB specification.\n Input components are expected to be in the range [0..1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "sRGB",
           "package": "aosd",
@@ -3191,6 +3470,7 @@
         "index": {
           "description": "Construct colour from an sRGB specification Input components are expected to be in the range",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "sRGB",
           "normalized": "a-\u003ea-\u003ea-\u003eColour a",
@@ -3207,6 +3487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses \u003ccode\u003e\u003ca\u003elayoutSetSingleParagraphMode\u003c/a\u003e\u003c/code\u003e if set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "singleParagraphMode",
           "package": "aosd",
@@ -3217,6 +3498,7 @@
         "index": {
           "description": "Uses layoutSetSingleParagraphMode if set",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "singleParagraphMode",
           "package": "aosd",
@@ -3231,6 +3513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses \u003ccode\u003e\u003ca\u003elayoutSetTabs\u003c/a\u003e\u003c/code\u003e if set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "tabs",
           "package": "aosd",
@@ -3241,6 +3524,7 @@
         "index": {
           "description": "Uses layoutSetTabs if set",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "tabs",
           "normalized": "Maybe[TabPosition]",
@@ -3256,6 +3540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "tcText",
           "package": "aosd",
@@ -3266,6 +3551,7 @@
         "index": {
           "description": "The actual text",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "tcText",
           "package": "aosd",
@@ -3280,6 +3566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003eTextConf\u003c/code\u003e with most fields set to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "textRenderer",
           "package": "aosd",
@@ -3290,6 +3577,7 @@
         "index": {
           "description": "Construct TextConf with most fields set to Nothing",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "textRenderer",
           "normalized": "PangoText-\u003eTextRenderer",
@@ -3306,6 +3594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses \u003ccode\u003e\u003ca\u003elayoutSetWidth\u003c/a\u003e\u003c/code\u003e if set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "width",
           "package": "aosd",
@@ -3316,6 +3605,7 @@
         "index": {
           "description": "Uses layoutSetWidth if set",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "width",
           "package": "aosd",
@@ -3329,6 +3619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses \u003ccode\u003e\u003ca\u003elayoutSetWrap\u003c/a\u003e\u003c/code\u003e if set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd.Pango",
           "name": "wrapMode",
           "package": "aosd",
@@ -3339,6 +3630,7 @@
         "index": {
           "description": "Uses layoutSetWrap if set",
           "hierarchy": "Graphics Aosd Pango",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd.Pango",
           "name": "wrapMode",
           "package": "aosd",
@@ -3353,6 +3645,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor a higher-level API for textual OSDs using \u003cem\u003ePango\u003c/em\u003e, use \u003ca\u003eGraphics.Aosd.Pango\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "Aosd",
           "package": "aosd",
@@ -3362,6 +3655,7 @@
         "index": {
           "description": "For higher-level API for textual OSDs using Pango use Graphics.Aosd.Pango",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "Aosd",
           "package": "aosd",
@@ -3375,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "AosdOptions",
           "package": "aosd",
@@ -3383,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "AosdOptions",
           "package": "aosd",
@@ -3396,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "AosdPtr",
           "package": "aosd",
@@ -3404,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "AosdPtr",
           "package": "aosd",
@@ -3417,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "AosdRenderer",
           "package": "aosd",
@@ -3425,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "AosdRenderer",
           "package": "aosd",
@@ -3439,6 +3739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003eint\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "CInt",
           "package": "aosd",
@@ -3447,6 +3748,7 @@
         "index": {
           "description": "Haskell type representing the int type",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "CInt",
           "package": "aosd",
@@ -3461,6 +3763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell type representing the C \u003ccode\u003eunsigned int\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "CUInt",
           "package": "aosd",
@@ -3469,6 +3772,7 @@
         "index": {
           "description": "Haskell type representing the unsigned int type",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "CUInt",
           "package": "aosd",
@@ -3482,6 +3786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "FlashDurations",
           "package": "aosd",
@@ -3490,6 +3795,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "FlashDurations",
           "package": "aosd",
@@ -3503,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "GeneralRenderer",
           "package": "aosd",
@@ -3511,6 +3818,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "GeneralRenderer",
           "package": "aosd",
@@ -3524,6 +3832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "Position",
           "package": "aosd",
@@ -3532,6 +3841,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "Position",
           "package": "aosd",
@@ -3546,6 +3856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRectangle\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Specifies x, y, width and height\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "Rectangle",
           "package": "aosd",
@@ -3554,6 +3865,7 @@
         "index": {
           "description": "Rectangle Specifies width and height",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "Rectangle",
           "package": "aosd",
@@ -3567,6 +3879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "Transparency",
           "package": "aosd",
@@ -3575,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "Transparency",
           "package": "aosd",
@@ -3588,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "XClassHint",
           "package": "aosd",
@@ -3596,6 +3911,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "XClassHint",
           "package": "aosd",
@@ -3609,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "AosdOptions",
           "package": "aosd",
@@ -3618,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "AosdOptions",
           "package": "aosd",
@@ -3631,6 +3949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "Center",
           "package": "aosd",
@@ -3640,6 +3959,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "Center",
           "package": "aosd",
@@ -3653,6 +3973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "Composite",
           "package": "aosd",
@@ -3662,6 +3983,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "Composite",
           "package": "aosd",
@@ -3675,6 +3997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "Fake",
           "package": "aosd",
@@ -3684,6 +4007,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "Fake",
           "package": "aosd",
@@ -3697,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "FlashDurations",
           "package": "aosd",
@@ -3706,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "FlashDurations",
           "package": "aosd",
@@ -3719,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "GeneralRenderer",
           "package": "aosd",
@@ -3728,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "GeneralRenderer",
           "package": "aosd",
@@ -3742,6 +4070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight/bottom\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "Max",
           "package": "aosd",
@@ -3752,6 +4081,7 @@
         "index": {
           "description": "Right bottom",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "Max",
           "package": "aosd",
@@ -3766,6 +4096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft/top\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "Min",
           "package": "aosd",
@@ -3776,6 +4107,7 @@
         "index": {
           "description": "Left top",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "Min",
           "package": "aosd",
@@ -3789,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "None",
           "package": "aosd",
@@ -3798,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "None",
           "package": "aosd",
@@ -3811,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "Rectangle",
           "package": "aosd",
@@ -3819,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "Rectangle",
           "package": "aosd",
@@ -3832,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "XClassHint",
           "package": "aosd",
@@ -3841,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "XClassHint",
           "package": "aosd",
@@ -3854,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "aosdDestroy",
           "package": "aosd",
@@ -3863,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "aosdDestroy",
           "normalized": "AosdPtr-\u003eIO()",
@@ -3879,6 +4219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain high-level displayer. Blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "aosdFlash",
           "package": "aosd",
@@ -3889,6 +4230,7 @@
         "index": {
           "description": "Main high-level displayer Blocks",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "aosdFlash",
           "normalized": "AosdPtr-\u003eFlashDurations-\u003eIO()",
@@ -3904,6 +4246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "aosdHide",
           "package": "aosd",
@@ -3913,6 +4256,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "aosdHide",
           "normalized": "AosdPtr-\u003eIO()",
@@ -3928,6 +4272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "aosdLoopFor",
           "package": "aosd",
@@ -3936,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "aosdLoopFor",
           "normalized": "AosdPtr-\u003eCUInt-\u003eIO()",
@@ -3951,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "aosdLoopOnce",
           "package": "aosd",
@@ -3960,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "aosdLoopOnce",
           "normalized": "AosdPtr-\u003eIO()",
@@ -3975,6 +4323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "aosdNew",
           "package": "aosd",
@@ -3984,6 +4333,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "aosdNew",
           "normalized": "AosdOptions-\u003ea-\u003eIO AosdPtr",
@@ -3999,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "aosdRender",
           "package": "aosd",
@@ -4008,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "aosdRender",
           "normalized": "AosdPtr-\u003eIO()",
@@ -4023,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "aosdShow",
           "package": "aosd",
@@ -4032,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "aosdShow",
           "normalized": "AosdPtr-\u003eIO()",
@@ -4048,6 +4402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e = use \u003cem\u003elibaosd\u003c/em\u003e default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "classHint",
           "package": "aosd",
@@ -4058,6 +4413,7 @@
         "index": {
           "description": "Nothing use libaosd default",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "classHint",
           "package": "aosd",
@@ -4071,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "debugRenderer",
           "package": "aosd",
@@ -4080,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "debugRenderer",
           "package": "aosd",
@@ -4094,6 +4452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e defaults:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e       transparency = Just Composite,\n\u003c/li\u003e\u003cli\u003e       xPos = Center,\n\u003c/li\u003e\u003cli\u003e       yPos = Center,\n\u003c/li\u003e\u003cli\u003e       offset = (0,0),\n\u003c/li\u003e\u003cli\u003e       hideUponMouseEvent = Just True\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "defaultOpts",
           "package": "aosd",
@@ -4104,6 +4463,7 @@
         "index": {
           "description": "Non Nothing defaults transparency Just Composite xPos Center yPos Center offset hideUponMouseEvent Just True",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "defaultOpts",
           "package": "aosd",
@@ -4118,6 +4478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull display time in milliseconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "fullMillis",
           "package": "aosd",
@@ -4128,6 +4489,7 @@
         "index": {
           "description": "Full display time in milliseconds",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "fullMillis",
           "package": "aosd",
@@ -4142,6 +4504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePart of the surface that the renderer actually draws on (determines the window size).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "grInkExtent",
           "package": "aosd",
@@ -4152,6 +4515,7 @@
         "index": {
           "description": "Part of the surface that the renderer actually draws on determines the window size",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "grInkExtent",
           "package": "aosd",
@@ -4166,6 +4530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePart of the surface whose...\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e ... left edge is aligned to the left edge of the screen, if \u003ccode\u003exPos\u003c/code\u003e is \u003ccode\u003eMin\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e ... center is aligned to the center of the screen, if \u003ccode\u003exPos\u003c/code\u003e is \u003ccode\u003eCenter\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e ... right edge is aligned to the right edge of the screen, if \u003ccode\u003exPos\u003c/code\u003e is \u003ccode\u003eMax\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e(Likewise for the \u003cem\u003ey\u003c/em\u003e axis)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "grPositioningExtent",
           "package": "aosd",
@@ -4176,6 +4541,7 @@
         "index": {
           "description": "Part of the surface whose left edge is aligned to the left edge of the screen if xPos is Min center is aligned to the center of the screen if xPos is Center right edge is aligned to the right edge of the screen if xPos is Max Likewise for the axis",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "grPositioningExtent",
           "package": "aosd",
@@ -4189,6 +4555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "grRender",
           "package": "aosd",
@@ -4198,6 +4565,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "grRender",
           "normalized": "Render()",
@@ -4214,6 +4582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e = use \u003cem\u003elibaosd\u003c/em\u003e default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "hideUponMouseEvent",
           "package": "aosd",
@@ -4224,6 +4593,7 @@
         "index": {
           "description": "Nothing use libaosd default",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "hideUponMouseEvent",
           "package": "aosd",
@@ -4238,6 +4608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFade-in time in milliseconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "inMillis",
           "package": "aosd",
@@ -4248,6 +4619,7 @@
         "index": {
           "description": "Fade-in time in milliseconds",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "inMillis",
           "package": "aosd",
@@ -4262,6 +4634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMouse-click event handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "mouseEventCB",
           "package": "aosd",
@@ -4272,6 +4645,7 @@
         "index": {
           "description": "Mouse-click event handler",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "mouseEventCB",
           "normalized": "Maybe(AosdPtr-\u003eC'AosdMouseEvent-\u003eIO())",
@@ -4288,6 +4662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositive values denote a rightwards respectively downwards offset (in pixels).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "offset",
           "package": "aosd",
@@ -4298,6 +4673,7 @@
         "index": {
           "description": "Positive values denote rightwards respectively downwards offset in pixels",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "offset",
           "normalized": "(CInt,CInt)",
@@ -4313,6 +4689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFade-out time in milliseconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "outMillis",
           "package": "aosd",
@@ -4323,6 +4700,7 @@
         "index": {
           "description": "Fade-out time in milliseconds",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "outMillis",
           "package": "aosd",
@@ -4336,6 +4714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "reconfigure",
           "package": "aosd",
@@ -4345,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "reconfigure",
           "normalized": "AosdOptions-\u003ea-\u003eAosdPtr-\u003eIO()",
@@ -4359,6 +4739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "resClass",
           "package": "aosd",
@@ -4368,6 +4749,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "resClass",
           "package": "aosd",
@@ -4381,6 +4763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "resName",
           "package": "aosd",
@@ -4390,6 +4773,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "resName",
           "package": "aosd",
@@ -4404,6 +4788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eFlashDurations\u003c/a\u003e\u003c/code\u003e with equal \u003ccode\u003e\u003ca\u003einMillis\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eoutMillis\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "symDurations",
           "package": "aosd",
@@ -4413,6 +4798,7 @@
         "index": {
           "description": "Construct FlashDurations with equal inMillis and outMillis",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "symDurations",
           "normalized": "CUInt-\u003eCUInt-\u003eFlashDurations",
@@ -4428,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "toGeneralRenderer",
           "package": "aosd",
@@ -4437,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "toGeneralRenderer",
           "normalized": "a-\u003eIO GeneralRenderer",
@@ -4453,6 +4841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e = use \u003cem\u003elibaosd\u003c/em\u003e default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "transparency",
           "package": "aosd",
@@ -4463,6 +4852,7 @@
         "index": {
           "description": "Nothing use libaosd default",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "transparency",
           "package": "aosd",
@@ -4476,6 +4866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'aosdNew'/'aosdDestroy' bracket. Leaking the \u003ccode\u003e\u003ca\u003eAosdPtr\u003c/a\u003e\u003c/code\u003e out of the third argument leads to undefined behaviour. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "withAosd",
           "package": "aosd",
@@ -4486,6 +4877,7 @@
         "index": {
           "description": "aosdNew aosdDestroy bracket Leaking the AosdPtr out of the third argument leads to undefined behaviour",
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "withAosd",
           "normalized": "AosdOptions-\u003ea-\u003e(AosdPtr-\u003eIO b)-\u003eIO b",
@@ -4501,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "xPos",
           "package": "aosd",
@@ -4510,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "xPos",
           "package": "aosd",
@@ -4523,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:31 UTC 2014",
           "module": "Graphics.Aosd",
           "name": "yPos",
           "package": "aosd",
@@ -4532,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Graphics Aosd",
+          "indexed": "2014-03-11T17:11:31",
           "module": "Graphics.Aosd",
           "name": "yPos",
           "package": "aosd",

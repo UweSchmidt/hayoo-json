@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hierarchical-clustering"
+        "phrase": "hierarchical-clustering",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical.Internal.DistanceMatrix",
           "name": "DistanceMatrix",
           "package": "hierarchical-clustering",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Clustering Hierarchical Internal DistanceMatrix",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical.Internal.DistanceMatrix",
           "name": "DistanceMatrix",
           "package": "hierarchical-clustering",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n^3)\u003c/em\u003e time and \u003cem\u003eO(n^2)\u003c/em\u003e space. Calculates a complete,\n rooted dendrogram for a list of items using complete linkage\n with the na&#239;ve algorithm using a distance matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical.Internal.DistanceMatrix",
           "name": "completeLinkage",
           "package": "hierarchical-clustering",
@@ -50,6 +53,7 @@
         "index": {
           "description": "time and space Calculates complete rooted dendrogram for list of items using complete linkage with the na ve algorithm using distance matrix",
           "hierarchy": "Data Clustering Hierarchical Internal DistanceMatrix",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical.Internal.DistanceMatrix",
           "name": "completeLinkage",
           "normalized": "[a]-\u003e(a-\u003ea-\u003eDistance)-\u003eDendrogram a",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n^3)\u003c/em\u003e time and \u003cem\u003eO(n^2)\u003c/em\u003e space. Calculates a complete,\n rooted dendrogram for a list of items using fake average\n linkage with the na&#239;ve algorithm using a distance matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical.Internal.DistanceMatrix",
           "name": "fakeAverageLinkage",
           "package": "hierarchical-clustering",
@@ -76,6 +81,7 @@
         "index": {
           "description": "time and space Calculates complete rooted dendrogram for list of items using fake average linkage with the na ve algorithm using distance matrix",
           "hierarchy": "Data Clustering Hierarchical Internal DistanceMatrix",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical.Internal.DistanceMatrix",
           "name": "fakeAverageLinkage",
           "normalized": "[a]-\u003e(a-\u003ea-\u003eDistance)-\u003eDendrogram a",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n^3)\u003c/em\u003e time and \u003cem\u003eO(n^2)\u003c/em\u003e space. Calculates a complete,\n rooted dendrogram for a list of items using single linkage\n with the na&#239;ve algorithm using a distance matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical.Internal.DistanceMatrix",
           "name": "singleLinkage",
           "package": "hierarchical-clustering",
@@ -102,6 +109,7 @@
         "index": {
           "description": "time and space Calculates complete rooted dendrogram for list of items using single linkage with the na ve algorithm using distance matrix",
           "hierarchy": "Data Clustering Hierarchical Internal DistanceMatrix",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical.Internal.DistanceMatrix",
           "name": "singleLinkage",
           "normalized": "[a]-\u003e(a-\u003ea-\u003eDistance)-\u003eDendrogram a",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n^3)\u003c/em\u003e time and \u003cem\u003eO(n^2)\u003c/em\u003e space. Calculates a complete,\n rooted dendrogram for a list of items using UPGMA with the\n na&#239;ve algorithm using a distance matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical.Internal.DistanceMatrix",
           "name": "upgma",
           "package": "hierarchical-clustering",
@@ -128,6 +137,7 @@
         "index": {
           "description": "time and space Calculates complete rooted dendrogram for list of items using UPGMA with the na ve algorithm using distance matrix",
           "hierarchy": "Data Clustering Hierarchical Internal DistanceMatrix",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical.Internal.DistanceMatrix",
           "name": "upgma",
           "normalized": "[a]-\u003e(a-\u003ea-\u003eDistance)-\u003eDendrogram a",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementations that are optimal in space and time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical.Internal.Optimal",
           "name": "Optimal",
           "package": "hierarchical-clustering",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Implementations that are optimal in space and time",
           "hierarchy": "Data Clustering Hierarchical Internal Optimal",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical.Internal.Optimal",
           "name": "Optimal",
           "package": "hierarchical-clustering",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n^2)\u003c/em\u003e time and \u003cem\u003eO(n)\u003c/em\u003e space. Calculates a complete, rooted dendrogram for a list\n of items using complete linkage with the CLINK algorithm.  This\n algorithm is optimal in space and time.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003eReference\u003c/dt\u003e\u003cdd\u003e D. Defays (1977). \"An efficient algorithm for a\n   complete link method\". \u003cem\u003eThe Computer Journal\u003c/em\u003e (British\n   Computer Society) 20 (4): 364-366.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical.Internal.Optimal",
           "name": "completeLinkage",
           "package": "hierarchical-clustering",
@@ -176,6 +189,7 @@
         "index": {
           "description": "time and space Calculates complete rooted dendrogram for list of items using complete linkage with the CLINK algorithm This algorithm is optimal in space and time Reference Defays An efficient algorithm for complete link method The Computer Journal British Computer Society",
           "hierarchy": "Data Clustering Hierarchical Internal Optimal",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical.Internal.Optimal",
           "name": "completeLinkage",
           "normalized": "[a]-\u003e(a-\u003ea-\u003eDistance)-\u003eDendrogram a",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n^2)\u003c/em\u003e time and \u003cem\u003eO(n)\u003c/em\u003e space. Calculates a complete,\n rooted dendrogram for a list of items using single linkage\n with the SLINK algorithm.  This algorithm is optimal in space\n and time.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003eReference\u003c/dt\u003e\u003cdd\u003e R. Sibson (1973). \"SLINK: an optimally efficient\n   algorithm for the single-link cluster method\". \u003cem\u003eThe\u003c/em\u003e\n   \u003cem\u003eComputer Journal\u003c/em\u003e (British Computer Society) 16 (1):\n   30-34.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical.Internal.Optimal",
           "name": "singleLinkage",
           "package": "hierarchical-clustering",
@@ -202,6 +217,7 @@
         "index": {
           "description": "time and space Calculates complete rooted dendrogram for list of items using single linkage with the SLINK algorithm This algorithm is optimal in space and time Reference Sibson SLINK an optimally efficient algorithm for the single-link cluster method The Computer Journal British Computer Society",
           "hierarchy": "Data Clustering Hierarchical Internal Optimal",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical.Internal.Optimal",
           "name": "singleLinkage",
           "normalized": "[a]-\u003e(a-\u003ea-\u003eDistance)-\u003eDendrogram a",
@@ -217,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical.Internal.Types",
           "name": "Types",
           "package": "hierarchical-clustering",
@@ -225,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Data Clustering Hierarchical Internal Types",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical.Internal.Types",
           "name": "Types",
           "package": "hierarchical-clustering",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structure for storing hierarchical clusters.  The\n distance between clusters is stored on the branches.\n Distances between leafs are the distances between the elements\n on those leafs, while distances between branches are defined\n by the linkage used (see \u003ccode\u003e\u003ca\u003eLinkage\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical.Internal.Types",
           "name": "Dendrogram",
           "package": "hierarchical-clustering",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Data structure for storing hierarchical clusters The distance between clusters is stored on the branches Distances between leafs are the distances between the elements on those leafs while distances between branches are defined by the linkage used see Linkage",
           "hierarchy": "Data Clustering Hierarchical Internal Types",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical.Internal.Types",
           "name": "Dendrogram",
           "package": "hierarchical-clustering",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA distance is simply a synonym of \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e for efficiency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical.Internal.Types",
           "name": "Distance",
           "package": "hierarchical-clustering",
@@ -271,6 +292,7 @@
         "index": {
           "description": "distance is simply synonym of Double for efficiency",
           "hierarchy": "Data Clustering Hierarchical Internal Types",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical.Internal.Types",
           "name": "Distance",
           "package": "hierarchical-clustering",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe linkage type determines how the distance between\n clusters will be calculated.  These are the linkage types\n currently available on this library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical.Internal.Types",
           "name": "Linkage",
           "package": "hierarchical-clustering",
@@ -294,6 +317,7 @@
         "index": {
           "description": "The linkage type determines how the distance between clusters will be calculated These are the linkage types currently available on this library",
           "hierarchy": "Data Clustering Hierarchical Internal Types",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical.Internal.Types",
           "name": "Linkage",
           "package": "hierarchical-clustering",
@@ -482,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical",
           "name": "Hierarchical",
           "package": "hierarchical-clustering",
@@ -490,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Data Clustering Hierarchical",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical",
           "name": "Hierarchical",
           "package": "hierarchical-clustering",
@@ -504,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structure for storing hierarchical clusters.  The\n distance between clusters is stored on the branches.\n Distances between leafs are the distances between the elements\n on those leafs, while distances between branches are defined\n by the linkage used (see \u003ccode\u003e\u003ca\u003eLinkage\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical",
           "name": "Dendrogram",
           "package": "hierarchical-clustering",
@@ -513,6 +540,7 @@
         "index": {
           "description": "Data structure for storing hierarchical clusters The distance between clusters is stored on the branches Distances between leafs are the distances between the elements on those leafs while distances between branches are defined by the linkage used see Linkage",
           "hierarchy": "Data Clustering Hierarchical",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical",
           "name": "Dendrogram",
           "package": "hierarchical-clustering",
@@ -527,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA distance is simply a synonym of \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e for efficiency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical",
           "name": "Distance",
           "package": "hierarchical-clustering",
@@ -536,6 +565,7 @@
         "index": {
           "description": "distance is simply synonym of Double for efficiency",
           "hierarchy": "Data Clustering Hierarchical",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical",
           "name": "Distance",
           "package": "hierarchical-clustering",
@@ -550,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe linkage type determines how the distance between\n clusters will be calculated.  These are the linkage types\n currently available on this library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical",
           "name": "Linkage",
           "package": "hierarchical-clustering",
@@ -559,6 +590,7 @@
         "index": {
           "description": "The linkage type determines how the distance between clusters will be calculated These are the linkage types currently available on this library",
           "hierarchy": "Data Clustering Hierarchical",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical",
           "name": "Linkage",
           "package": "hierarchical-clustering",
@@ -573,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edendro `cutAt` threshold\u003c/code\u003e cuts the dendrogram \u003ccode\u003edendro\u003c/code\u003e at\n all branches which have distances strictly greater than\n \u003ccode\u003ethreshold\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example, suppose we have\n\u003c/p\u003e\u003cpre\u003e\n dendro = Branch 0.8\n            (Branch 0.5\n              (Branch 0.2\n                (Leaf 'A')\n                (Leaf 'B'))\n              (Leaf 'C'))\n            (Leaf 'D')\n\u003c/pre\u003e\u003cp\u003eThen:\n\u003c/p\u003e\u003cpre\u003e\n dendro `cutAt` 0.9 == dendro `cutAt` 0.8 == [dendro] -- no changes\n dendro `cutAt` 0.7 == dendro `cutAt` 0.5 == [Branch 0.5 (Branch 0.2 (Leaf 'A') (Leaf 'B')) (Leaf 'C'), Leaf 'D']\n dendro `cutAt` 0.4 == dendro `cutAt` 0.2 == [Branch 0.2 (Leaf 'A') (Leaf 'B'), Leaf 'C', Leaf 'D']\n dendro `cutAt` 0.1 == [Leaf 'A', Leaf 'B', Leaf 'C', Leaf 'D'] -- no branches at all\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical",
           "name": "cutAt",
           "package": "hierarchical-clustering",
@@ -583,6 +616,7 @@
         "index": {
           "description": "dendro cutAt threshold cuts the dendrogram dendro at all branches which have distances strictly greater than threshold For example suppose we have dendro Branch Branch Branch Leaf Leaf Leaf Leaf Then dendro cutAt dendro cutAt dendro no changes dendro cutAt dendro cutAt Branch Branch Leaf Leaf Leaf Leaf dendro cutAt dendro cutAt Branch Leaf Leaf Leaf Leaf dendro cutAt Leaf Leaf Leaf Leaf no branches at all",
           "hierarchy": "Data Clustering Hierarchical",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical",
           "name": "cutAt",
           "normalized": "Dendrogram a-\u003eDistance-\u003e[Dendrogram a]",
@@ -599,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates a complete, rooted dendrogram for a list of items\n and a linkage type.  The following are the time and space\n complexities for each linkage:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003eSingleLinkage\u003c/a\u003e\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003cem\u003eO(n^2)\u003c/em\u003e time and \u003cem\u003eO(n)\u003c/em\u003e space, using the\n   SLINK algorithm.  This algorithm is optimal in both space\n   and time and gives the same answer as the naive algorithm\n   using a distance matrix.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003eCompleteLinkage\u003c/a\u003e\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003cem\u003eO(n^3)\u003c/em\u003e time and \u003cem\u003eO(n^2)\u003c/em\u003e space, using\n   the naive algorithm with a distance matrix.  Use \u003ccode\u003e\u003ca\u003eCLINK\u003c/a\u003e\u003c/code\u003e if\n   you need more performance.\n\u003c/dd\u003e\u003cdt\u003eComplete linkage with \u003ccode\u003e\u003ca\u003eCLINK\u003c/a\u003e\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003cem\u003eO(n^2)\u003c/em\u003e time and \u003cem\u003eO(n)\u003c/em\u003e\n   space, using the CLINK algorithm.  Note that this algorithm\n   doesn't always give the same answer as the naive algorithm\n   using a distance matrix, but it's much faster.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003eUPGMA\u003c/a\u003e\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003cem\u003eO(n^3)\u003c/em\u003e time and \u003cem\u003eO(n^2)\u003c/em\u003e space, using the naive\n   algorithm with a distance matrix.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003eFakeAverageLinkage\u003c/a\u003e\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003cem\u003eO(n^3)\u003c/em\u003e time and \u003cem\u003eO(n^2)\u003c/em\u003e space, using\n the naive algorithm with a distance matrix.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical",
           "name": "dendrogram",
           "package": "hierarchical-clustering",
@@ -608,6 +643,7 @@
         "index": {
           "description": "Calculates complete rooted dendrogram for list of items and linkage type The following are the time and space complexities for each linkage SingleLinkage time and space using the SLINK algorithm This algorithm is optimal in both space and time and gives the same answer as the naive algorithm using distance matrix CompleteLinkage time and space using the naive algorithm with distance matrix Use CLINK if you need more performance Complete linkage with CLINK time and space using the CLINK algorithm Note that this algorithm doesn always give the same answer as the naive algorithm using distance matrix but it much faster UPGMA time and space using the naive algorithm with distance matrix FakeAverageLinkage time and space using the naive algorithm with distance matrix",
           "hierarchy": "Data Clustering Hierarchical",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical",
           "name": "dendrogram",
           "normalized": "Linkage-\u003e[a]-\u003e(a-\u003ea-\u003eDistance)-\u003eDendrogram a",
@@ -623,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of elements in a dendrogram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:56 UTC 2014",
           "module": "Data.Clustering.Hierarchical",
           "name": "elements",
           "package": "hierarchical-clustering",
@@ -633,6 +670,7 @@
         "index": {
           "description": "List of elements in dendrogram",
           "hierarchy": "Data Clustering Hierarchical",
+          "indexed": "2014-03-11T18:38:56",
           "module": "Data.Clustering.Hierarchical",
           "name": "elements",
           "normalized": "Dendrogram a-\u003e[a]",

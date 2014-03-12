@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "java-reflect"
+        "phrase": "java-reflect",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData structures that describe the interface of\n Java structures such as classes, generic types,\n their methods, etc.\n\u003c/p\u003e\u003cp\u003eAll types are instances of \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e and\n can therefor be used with \u003cem\u003eScrap Your Boilerplate\u003c/em\u003e\n combinators (see \u003ca\u003eData.Generics\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "Types",
           "package": "java-reflect",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Data structures that describe the interface of Java structures such as classes generic types their methods etc All types are instances of Data and Typeable and can therefor be used with Scrap Your Boilerplate combinators see Data.Generics",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "Types",
           "package": "java-reflect",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interface of a Java class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaClass",
           "package": "java-reflect",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The interface of Java class",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaClass",
           "package": "java-reflect",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaClassType",
           "package": "java-reflect",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaClassType",
           "package": "java-reflect",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Constructor in the Java language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaConstructor",
           "package": "java-reflect",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Constructor in the Java language",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaConstructor",
           "package": "java-reflect",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interface to a field in the Java language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaField",
           "package": "java-reflect",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The interface to field in the Java language",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaField",
           "package": "java-reflect",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaGenericType",
           "package": "java-reflect",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaGenericType",
           "package": "java-reflect",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaGenericTypeType",
           "package": "java-reflect",
@@ -162,6 +175,7 @@
         "index": {
           "description": "The type of generic type",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaGenericTypeType",
           "package": "java-reflect",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interface to a method in the Java language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaMethod",
           "package": "java-reflect",
@@ -185,6 +200,7 @@
         "index": {
           "description": "The interface to method in the Java language",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaMethod",
           "package": "java-reflect",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JavaType is either a Primitive Type, an Array, or an Object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaType",
           "package": "java-reflect",
@@ -208,6 +225,7 @@
         "index": {
           "description": "JavaType is either Primitive Type an Array or an Object",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaType",
           "package": "java-reflect",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Type variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaTypeParam",
           "package": "java-reflect",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Type variable declaration",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaTypeParam",
           "package": "java-reflect",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Type variable. This is merely a name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "TyVar",
           "package": "java-reflect",
@@ -254,6 +275,7 @@
         "index": {
           "description": "Type variable This is merely name",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "TyVar",
           "package": "java-reflect",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "Annotation",
           "package": "java-reflect",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "Annotation",
           "package": "java-reflect",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "Class",
           "package": "java-reflect",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "Class",
           "package": "java-reflect",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "Enum",
           "package": "java-reflect",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "Enum",
           "package": "java-reflect",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "Error",
           "package": "java-reflect",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "Error",
           "package": "java-reflect",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "Exception",
           "package": "java-reflect",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "Exception",
           "package": "java-reflect",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eX[]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "GenericArray",
           "package": "java-reflect",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "GenericArray",
           "package": "java-reflect",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "GenericArrayT",
           "package": "java-reflect",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "GenericArrayT",
           "package": "java-reflect",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "Interface",
           "package": "java-reflect",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "Interface",
           "package": "java-reflect",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JArr",
           "package": "java-reflect",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JArr",
           "package": "java-reflect",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JBoolean",
           "package": "java-reflect",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JBoolean",
           "package": "java-reflect",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JByte",
           "package": "java-reflect",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JByte",
           "package": "java-reflect",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JChar",
           "package": "java-reflect",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JChar",
           "package": "java-reflect",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JDouble",
           "package": "java-reflect",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JDouble",
           "package": "java-reflect",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JFloat",
           "package": "java-reflect",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JFloat",
           "package": "java-reflect",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JInt",
           "package": "java-reflect",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JInt",
           "package": "java-reflect",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JLong",
           "package": "java-reflect",
@@ -607,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JLong",
           "package": "java-reflect",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JObj",
           "package": "java-reflect",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JObj",
           "package": "java-reflect",
@@ -642,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JShort",
           "package": "java-reflect",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JShort",
           "package": "java-reflect",
@@ -664,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaClass",
           "package": "java-reflect",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaClass",
           "package": "java-reflect",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaConstructor",
           "package": "java-reflect",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaConstructor",
           "package": "java-reflect",
@@ -708,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaField",
           "package": "java-reflect",
@@ -717,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaField",
           "package": "java-reflect",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaMethod",
           "package": "java-reflect",
@@ -739,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaMethod",
           "package": "java-reflect",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaTypeParam",
           "package": "java-reflect",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "JavaTypeParam",
           "package": "java-reflect",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "NotSoGeneric",
           "package": "java-reflect",
@@ -783,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "NotSoGeneric",
           "package": "java-reflect",
@@ -796,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "NotSoGenericT",
           "package": "java-reflect",
@@ -805,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "NotSoGenericT",
           "package": "java-reflect",
@@ -819,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ejava.util.List\u003ca\u003eX\u003c/a\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "Parameterized",
           "package": "java-reflect",
@@ -829,6 +902,7 @@
         "index": {
           "description": "java.util.List",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "Parameterized",
           "package": "java-reflect",
@@ -842,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "ParameterizedT",
           "package": "java-reflect",
@@ -851,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "ParameterizedT",
           "package": "java-reflect",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "TyVar",
           "package": "java-reflect",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "TyVar",
           "package": "java-reflect",
@@ -887,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ca\u003eX\u003c/a\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "TypeVarReference",
           "package": "java-reflect",
@@ -896,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "TypeVarReference",
           "package": "java-reflect",
@@ -909,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "TypeVarReferenceT",
           "package": "java-reflect",
@@ -918,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "TypeVarReferenceT",
           "package": "java-reflect",
@@ -932,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esuper X\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eextends X\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "Wildcard",
           "package": "java-reflect",
@@ -942,6 +1025,7 @@
         "index": {
           "description": "super extends",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "Wildcard",
           "package": "java-reflect",
@@ -955,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "WildcardT",
           "package": "java-reflect",
@@ -964,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "WildcardT",
           "package": "java-reflect",
@@ -977,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classAbstract",
           "package": "java-reflect",
@@ -986,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classAbstract",
           "package": "java-reflect",
@@ -999,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classAnnotation",
           "package": "java-reflect",
@@ -1008,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classAnnotation",
           "package": "java-reflect",
@@ -1021,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classConstructors",
           "package": "java-reflect",
@@ -1030,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classConstructors",
           "normalized": "[JavaConstructor]",
@@ -1046,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate all classes that are referenced in any way by this class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classDependencies",
           "package": "java-reflect",
@@ -1056,6 +1149,7 @@
         "index": {
           "description": "Calculate all classes that are referenced in any way by this class",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classDependencies",
           "normalized": "JavaClass-\u003e[String]",
@@ -1071,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classEnum",
           "package": "java-reflect",
@@ -1080,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classEnum",
           "package": "java-reflect",
@@ -1093,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classEnumConstants",
           "package": "java-reflect",
@@ -1102,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classEnumConstants",
           "normalized": "[(Int,String)]",
@@ -1117,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classFields",
           "package": "java-reflect",
@@ -1126,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classFields",
           "normalized": "[JavaField]",
@@ -1141,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classFinal",
           "package": "java-reflect",
@@ -1150,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classFinal",
           "package": "java-reflect",
@@ -1163,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classIface",
           "package": "java-reflect",
@@ -1172,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classIface",
           "package": "java-reflect",
@@ -1185,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classIfaces",
           "package": "java-reflect",
@@ -1194,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classIfaces",
           "normalized": "[String]",
@@ -1209,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classMethods",
           "package": "java-reflect",
@@ -1218,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classMethods",
           "normalized": "[JavaMethod]",
@@ -1233,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "className",
           "package": "java-reflect",
@@ -1242,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "className",
           "package": "java-reflect",
@@ -1255,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classParents",
           "package": "java-reflect",
@@ -1264,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classParents",
           "normalized": "[String]",
@@ -1280,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines the \u003ccode\u003e\u003ca\u003eJavaClassType\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eJavaClass\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classType",
           "package": "java-reflect",
@@ -1290,6 +1403,7 @@
         "index": {
           "description": "Determines the JavaClassType of JavaClass",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classType",
           "normalized": "JavaClass-\u003eJavaClassType",
@@ -1305,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "classTypeParams",
           "package": "java-reflect",
@@ -1314,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "classTypeParams",
           "normalized": "[JavaTypeParam]",
@@ -1329,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "componentType",
           "package": "java-reflect",
@@ -1338,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "componentType",
           "package": "java-reflect",
@@ -1352,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve all classes that this constructor definition\n references in its parameters or generic declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "constructorDependencies",
           "package": "java-reflect",
@@ -1362,6 +1481,7 @@
         "index": {
           "description": "Retrieve all classes that this constructor definition references in its parameters or generic declaration",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "constructorDependencies",
           "normalized": "[JavaTypeParam]-\u003eJavaConstructor-\u003e[String]",
@@ -1377,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "constructorExceptions",
           "package": "java-reflect",
@@ -1386,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "constructorExceptions",
           "normalized": "[String]",
@@ -1401,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "constructorParams",
           "package": "java-reflect",
@@ -1410,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "constructorParams",
           "normalized": "[(JavaType,JavaGenericType)]",
@@ -1425,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "constructorTypeParams",
           "package": "java-reflect",
@@ -1434,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "constructorTypeParams",
           "normalized": "[JavaTypeParam]",
@@ -1450,6 +1576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscovers all types which are mentioned in a list of type declarations,\n using the type variables that are in scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "dependencies",
           "package": "java-reflect",
@@ -1460,6 +1587,7 @@
         "index": {
           "description": "Discovers all types which are mentioned in list of type declarations using the type variables that are in scope",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "dependencies",
           "normalized": "[JavaTypeParam]-\u003e[(JavaType,JavaGenericType)]-\u003e[String]",
@@ -1474,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "fieldDependencies",
           "package": "java-reflect",
@@ -1483,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "fieldDependencies",
           "normalized": "[JavaTypeParam]-\u003eJavaField-\u003e[String]",
@@ -1498,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "fieldFinal",
           "package": "java-reflect",
@@ -1507,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "fieldFinal",
           "package": "java-reflect",
@@ -1520,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "fieldName",
           "package": "java-reflect",
@@ -1529,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "fieldName",
           "package": "java-reflect",
@@ -1542,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "fieldStatic",
           "package": "java-reflect",
@@ -1551,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "fieldStatic",
           "package": "java-reflect",
@@ -1564,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "fieldType",
           "package": "java-reflect",
@@ -1573,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "fieldType",
           "normalized": "(JavaType,JavaGenericType)",
@@ -1589,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full name of the base type, e.g. \u003ccode\u003ejava.lang.Class\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtBasetype",
           "package": "java-reflect",
@@ -1599,6 +1738,7 @@
         "index": {
           "description": "The full name of the base type e.g java.lang.Class",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtBasetype",
           "package": "java-reflect",
@@ -1612,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtBounds",
           "package": "java-reflect",
@@ -1621,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtBounds",
           "normalized": "[JavaGenericType]",
@@ -1637,6 +1779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe base type of the generic array, e.g. \u003ccode\u003ejava.lang.Number\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtComponentType",
           "package": "java-reflect",
@@ -1647,6 +1790,7 @@
         "index": {
           "description": "The base type of the generic array e.g java.lang.Number",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtComponentType",
           "package": "java-reflect",
@@ -1660,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtLowerBounds",
           "package": "java-reflect",
@@ -1669,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtLowerBounds",
           "normalized": "[JavaGenericType]",
@@ -1685,6 +1831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the type variable, e.g. \u003ccode\u003eE\u003c/code\u003e or \u003ccode\u003eX\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtName",
           "package": "java-reflect",
@@ -1695,6 +1842,7 @@
         "index": {
           "description": "The name of the type variable e.g or",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtName",
           "package": "java-reflect",
@@ -1709,6 +1857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtParameters",
           "package": "java-reflect",
@@ -1719,6 +1868,7 @@
         "index": {
           "description": "The parameters",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtParameters",
           "normalized": "[JavaGenericType]",
@@ -1735,6 +1885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the type of a generic type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtType",
           "package": "java-reflect",
@@ -1745,6 +1896,7 @@
         "index": {
           "description": "Get the type of generic type",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "jgtType",
           "normalized": "JavaGenericType-\u003eJavaGenericTypeType",
@@ -1760,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "methodAbstract",
           "package": "java-reflect",
@@ -1769,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "methodAbstract",
           "package": "java-reflect",
@@ -1783,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the full names of all classes that this method\n references in its definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "methodDependencies",
           "package": "java-reflect",
@@ -1793,6 +1948,7 @@
         "index": {
           "description": "Return the full names of all classes that this method references in its definition",
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "methodDependencies",
           "normalized": "[JavaTypeParam]-\u003eJavaMethod-\u003e[String]",
@@ -1808,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "methodExceptions",
           "package": "java-reflect",
@@ -1817,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "methodExceptions",
           "normalized": "[String]",
@@ -1832,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "methodFinal",
           "package": "java-reflect",
@@ -1841,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "methodFinal",
           "package": "java-reflect",
@@ -1854,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "methodName",
           "package": "java-reflect",
@@ -1863,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "methodName",
           "package": "java-reflect",
@@ -1876,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "methodName'",
           "package": "java-reflect",
@@ -1885,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "methodName'",
           "package": "java-reflect",
@@ -1898,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "methodNative",
           "package": "java-reflect",
@@ -1907,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "methodNative",
           "package": "java-reflect",
@@ -1920,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "methodParams",
           "package": "java-reflect",
@@ -1929,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "methodParams",
           "normalized": "[(JavaType,JavaGenericType)]",
@@ -1944,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "methodReturnType",
           "package": "java-reflect",
@@ -1953,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "methodReturnType",
           "normalized": "(Maybe JavaType,JavaGenericType)",
@@ -1968,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "methodStatic",
           "package": "java-reflect",
@@ -1977,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "methodStatic",
           "package": "java-reflect",
@@ -1990,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "methodSynchronized",
           "package": "java-reflect",
@@ -1999,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "methodSynchronized",
           "package": "java-reflect",
@@ -2012,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "methodTypeParams",
           "package": "java-reflect",
@@ -2021,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "methodTypeParams",
           "normalized": "[JavaTypeParam]",
@@ -2036,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "paramBounds",
           "package": "java-reflect",
@@ -2045,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "paramBounds",
           "normalized": "[JavaGenericType]",
@@ -2060,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "paramName",
           "package": "java-reflect",
@@ -2069,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "paramName",
           "package": "java-reflect",
@@ -2082,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "printJavaType",
           "package": "java-reflect",
@@ -2091,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "printJavaType",
           "normalized": "JavaType-\u003eString",
@@ -2106,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "tyVarName",
           "package": "java-reflect",
@@ -2115,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "tyVarName",
           "package": "java-reflect",
@@ -2128,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect.Types",
           "name": "typeName",
           "package": "java-reflect",
@@ -2137,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Language Java Reflect Types",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect.Types",
           "name": "typeName",
           "package": "java-reflect",
@@ -2151,6 +2337,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMethods for reflecting Java classes using a JVM as source of information.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect",
           "name": "Reflect",
           "package": "java-reflect",
@@ -2160,6 +2347,7 @@
         "index": {
           "description": "Methods for reflecting Java classes using JVM as source of information",
           "hierarchy": "Language Java Reflect",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect",
           "name": "Reflect",
           "package": "java-reflect",
@@ -2174,6 +2362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a function which can be used to gather reflection information\n about classes identified by their binary name (e.g. \u003ccode\u003ejava.lang.Thread$State\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:16 UTC 2014",
           "module": "Language.Java.Reflect",
           "name": "getReflectClasses",
           "package": "java-reflect",
@@ -2184,6 +2373,7 @@
         "index": {
           "description": "Creates function which can be used to gather reflection information about classes identified by their binary name e.g java.lang.Thread State",
           "hierarchy": "Language Java Reflect",
+          "indexed": "2014-03-11T19:01:16",
           "module": "Language.Java.Reflect",
           "name": "getReflectClasses",
           "normalized": "Java(Bool-\u003e[String]-\u003eJava(Map String JavaClass))",

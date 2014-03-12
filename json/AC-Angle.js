@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AC-Angle"
+        "phrase": "AC-Angle",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeal with angles measured in degrees or radians.\n\u003c/p\u003e\u003cp\u003eNames are kept deliberately different from the standard prelude to avoid name clashes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "Angle",
           "package": "AC-Angle",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Deal with angles measured in degrees or radians Names are kept deliberately different from the standard prelude to avoid name clashes",
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "Angle",
           "package": "AC-Angle",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-class for angles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "Angle",
           "package": "AC-Angle",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type-class for angles",
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "Angle",
           "package": "AC-Angle",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn angle in degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "Degrees",
           "package": "AC-Angle",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An angle in degrees",
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "Degrees",
           "package": "AC-Angle",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn angle in radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "Radians",
           "package": "AC-Angle",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An angle in radians",
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "Radians",
           "package": "AC-Angle",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "Degrees",
           "package": "AC-Angle",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "Degrees",
           "package": "AC-Angle",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "Radians",
           "package": "AC-Angle",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "Radians",
           "package": "AC-Angle",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "arccosine",
           "package": "AC-Angle",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "arccosine",
           "normalized": "a-\u003eb a",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "arcsine",
           "package": "AC-Angle",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "arcsine",
           "normalized": "a-\u003eb a",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "arctangent",
           "package": "AC-Angle",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "arctangent",
           "normalized": "a-\u003eb a",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "cosine",
           "package": "AC-Angle",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "cosine",
           "normalized": "a b-\u003eb",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from radians to degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "degrees",
           "package": "AC-Angle",
@@ -257,6 +278,7 @@
         "index": {
           "description": "Convert from radians to degrees",
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "degrees",
           "normalized": "Radians a-\u003eDegrees a",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from degrees to radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "radians",
           "package": "AC-Angle",
@@ -282,6 +305,7 @@
         "index": {
           "description": "Convert from degrees to radians",
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "radians",
           "normalized": "Degrees a-\u003eRadians a",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "sine",
           "package": "AC-Angle",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "sine",
           "normalized": "a b-\u003eb",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:32 UTC 2014",
           "module": "Data.Angle",
           "name": "tangent",
           "package": "AC-Angle",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Data Angle",
+          "indexed": "2014-03-11T16:31:32",
           "module": "Data.Angle",
           "name": "tangent",
           "normalized": "a b-\u003eb",
